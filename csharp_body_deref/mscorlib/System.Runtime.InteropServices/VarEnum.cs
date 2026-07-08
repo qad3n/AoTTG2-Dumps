@@ -1,0 +1,98 @@
+using Il2CppDummyDll;
+
+namespace System.Runtime.InteropServices;
+
+[Serializable]
+[Token(Token = "0x2000441")]
+[ComVisible(true)]
+public enum VarEnum
+{
+	[Token(Token = "0x400125B")]
+	VT_EMPTY = 0,
+	[Token(Token = "0x400125C")]
+	VT_NULL = 1,
+	[Token(Token = "0x400125D")]
+	VT_I2 = 2,
+	[Token(Token = "0x400125E")]
+	VT_I4 = 3,
+	[Token(Token = "0x400125F")]
+	VT_R4 = 4,
+	[Token(Token = "0x4001260")]
+	VT_R8 = 5,
+	[Token(Token = "0x4001261")]
+	VT_CY = 6,
+	[Token(Token = "0x4001262")]
+	VT_DATE = 7,
+	[Token(Token = "0x4001263")]
+	VT_BSTR = 8,
+	[Token(Token = "0x4001264")]
+	VT_DISPATCH = 9,
+	[Token(Token = "0x4001265")]
+	VT_ERROR = 10,
+	[Token(Token = "0x4001266")]
+	VT_BOOL = 11,
+	[Token(Token = "0x4001267")]
+	VT_VARIANT = 12,
+	[Token(Token = "0x4001268")]
+	VT_UNKNOWN = 13,
+	[Token(Token = "0x4001269")]
+	VT_DECIMAL = 14,
+	[Token(Token = "0x400126A")]
+	VT_I1 = 16,
+	[Token(Token = "0x400126B")]
+	VT_UI1 = 17,
+	[Token(Token = "0x400126C")]
+	VT_UI2 = 18,
+	[Token(Token = "0x400126D")]
+	VT_UI4 = 19,
+	[Token(Token = "0x400126E")]
+	VT_I8 = 20,
+	[Token(Token = "0x400126F")]
+	VT_UI8 = 21,
+	[Token(Token = "0x4001270")]
+	VT_INT = 22,
+	[Token(Token = "0x4001271")]
+	VT_UINT = 23,
+	[Token(Token = "0x4001272")]
+	VT_VOID = 24,
+	[Token(Token = "0x4001273")]
+	VT_HRESULT = 25,
+	[Token(Token = "0x4001274")]
+	VT_PTR = 26,
+	[Token(Token = "0x4001275")]
+	VT_SAFEARRAY = 27,
+	[Token(Token = "0x4001276")]
+	VT_CARRAY = 28,
+	[Token(Token = "0x4001277")]
+	VT_USERDEFINED = 29,
+	[Token(Token = "0x4001278")]
+	VT_LPSTR = 30,
+	[Token(Token = "0x4001279")]
+	VT_LPWSTR = 31,
+	[Token(Token = "0x400127A")]
+	VT_RECORD = 36,
+	[Token(Token = "0x400127B")]
+	VT_FILETIME = 64,
+	[Token(Token = "0x400127C")]
+	VT_BLOB = 65,
+	[Token(Token = "0x400127D")]
+	VT_STREAM = 66,
+	[Token(Token = "0x400127E")]
+	VT_STORAGE = 67,
+	[Token(Token = "0x400127F")]
+	VT_STREAMED_OBJECT = 68,
+	[Token(Token = "0x4001280")]
+	VT_STORED_OBJECT = 69,
+	[Token(Token = "0x4001281")]
+	VT_BLOB_OBJECT = 70,
+	[Token(Token = "0x4001282")]
+	VT_CF = 71,
+	[Token(Token = "0x4001283")]
+	VT_CLSID = 72,
+	[Token(Token = "0x4001284")]
+	VT_VECTOR = 4096,
+	[Token(Token = "0x4001285")]
+	VT_ARRAY = 8192,
+	[Token(Token = "0x4001286")]
+	VT_BYREF = 16384
+}

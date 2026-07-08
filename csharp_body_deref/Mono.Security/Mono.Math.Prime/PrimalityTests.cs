@@ -1,0 +1,21 @@
+using Il2CppDummyDll;
+
+namespace Mono.Math.Prime;
+
+[Token(Token = "0x2000048")]
+public sealed class PrimalityTests
+{
+	[Token(Token = "0x60001F7")]
+	[Address(RVA = "0x3A5E070", Offset = "0x3A5E070", VA = "0x3A5E070")]
+	private static int GetSPPRounds(BigInteger bi, ConfidenceFactor confidence)
+	{
+		return default(int);
+	}
+
+	[Token(Token = "0x60001F8")]
+	[Address(RVA = "0x3A5E1D0", Offset = "0x3A5E1D0", VA = "0x3A5E1D0")]
+	public static bool RabinMillerTest(BigInteger n, ConfidenceFactor confidence)
+	{
+		return default(bool);
+	}
+}

@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>PhotonUnityNetworking.Utilities</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>15.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Il2CppDummyDll">
+      <HintPath>../../../dumps/il2cpp/DummyDll/Il2CppDummyDll.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonUnityNetworking">
+      <HintPath>../../../dumps/il2cpp/DummyDll/PhotonUnityNetworking.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonRealtime">
+      <HintPath>../../../dumps/il2cpp/DummyDll/PhotonRealtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>../../../dumps/il2cpp/DummyDll/Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>../../../dumps/il2cpp/DummyDll/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

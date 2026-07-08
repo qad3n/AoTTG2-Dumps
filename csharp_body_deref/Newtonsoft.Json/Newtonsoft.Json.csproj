@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Newtonsoft.Json</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>15.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Il2CppDummyDll">
+      <HintPath>../../../dumps/il2cpp/DummyDll/Il2CppDummyDll.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>../../../dumps/il2cpp/DummyDll/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>../../../dumps/il2cpp/DummyDll/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>../../../dumps/il2cpp/DummyDll/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>../../../dumps/il2cpp/DummyDll/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>../../../dumps/il2cpp/DummyDll/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>../../../dumps/il2cpp/DummyDll/System.Data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

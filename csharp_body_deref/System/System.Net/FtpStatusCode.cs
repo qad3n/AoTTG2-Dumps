@@ -1,0 +1,82 @@
+using Il2CppDummyDll;
+
+namespace System.Net;
+
+[Token(Token = "0x200013B")]
+public enum FtpStatusCode
+{
+	[Token(Token = "0x4000638")]
+	Undefined = 0,
+	[Token(Token = "0x4000639")]
+	RestartMarker = 110,
+	[Token(Token = "0x400063A")]
+	ServiceTemporarilyNotAvailable = 120,
+	[Token(Token = "0x400063B")]
+	DataAlreadyOpen = 125,
+	[Token(Token = "0x400063C")]
+	OpeningData = 150,
+	[Token(Token = "0x400063D")]
+	CommandOK = 200,
+	[Token(Token = "0x400063E")]
+	CommandExtraneous = 202,
+	[Token(Token = "0x400063F")]
+	DirectoryStatus = 212,
+	[Token(Token = "0x4000640")]
+	FileStatus = 213,
+	[Token(Token = "0x4000641")]
+	SystemType = 215,
+	[Token(Token = "0x4000642")]
+	SendUserCommand = 220,
+	[Token(Token = "0x4000643")]
+	ClosingControl = 221,
+	[Token(Token = "0x4000644")]
+	ClosingData = 226,
+	[Token(Token = "0x4000645")]
+	EnteringPassive = 227,
+	[Token(Token = "0x4000646")]
+	LoggedInProceed = 230,
+	[Token(Token = "0x4000647")]
+	ServerWantsSecureSession = 234,
+	[Token(Token = "0x4000648")]
+	FileActionOK = 250,
+	[Token(Token = "0x4000649")]
+	PathnameCreated = 257,
+	[Token(Token = "0x400064A")]
+	SendPasswordCommand = 331,
+	[Token(Token = "0x400064B")]
+	NeedLoginAccount = 332,
+	[Token(Token = "0x400064C")]
+	FileCommandPending = 350,
+	[Token(Token = "0x400064D")]
+	ServiceNotAvailable = 421,
+	[Token(Token = "0x400064E")]
+	CantOpenData = 425,
+	[Token(Token = "0x400064F")]
+	ConnectionClosed = 426,
+	[Token(Token = "0x4000650")]
+	ActionNotTakenFileUnavailableOrBusy = 450,
+	[Token(Token = "0x4000651")]
+	ActionAbortedLocalProcessingError = 451,
+	[Token(Token = "0x4000652")]
+	ActionNotTakenInsufficientSpace = 452,
+	[Token(Token = "0x4000653")]
+	CommandSyntaxError = 500,
+	[Token(Token = "0x4000654")]
+	ArgumentSyntaxError = 501,
+	[Token(Token = "0x4000655")]
+	CommandNotImplemented = 502,
+	[Token(Token = "0x4000656")]
+	BadCommandSequence = 503,
+	[Token(Token = "0x4000657")]
+	NotLoggedIn = 530,
+	[Token(Token = "0x4000658")]
+	AccountNeeded = 532,
+	[Token(Token = "0x4000659")]
+	ActionNotTakenFileUnavailable = 550,
+	[Token(Token = "0x400065A")]
+	ActionAbortedUnknownPageType = 551,
+	[Token(Token = "0x400065B")]
+	FileActionAborted = 552,
+	[Token(Token = "0x400065C")]
+	ActionNotTakenFilenameNotAllowed = 553
+}

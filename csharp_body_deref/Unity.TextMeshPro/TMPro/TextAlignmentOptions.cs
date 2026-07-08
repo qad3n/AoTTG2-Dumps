@@ -1,0 +1,82 @@
+using Il2CppDummyDll;
+
+namespace TMPro;
+
+[Token(Token = "0x2000072")]
+public enum TextAlignmentOptions
+{
+	[Token(Token = "0x4000369")]
+	TopLeft = 257,
+	[Token(Token = "0x400036A")]
+	Top = 258,
+	[Token(Token = "0x400036B")]
+	TopRight = 260,
+	[Token(Token = "0x400036C")]
+	TopJustified = 264,
+	[Token(Token = "0x400036D")]
+	TopFlush = 272,
+	[Token(Token = "0x400036E")]
+	TopGeoAligned = 288,
+	[Token(Token = "0x400036F")]
+	Left = 513,
+	[Token(Token = "0x4000370")]
+	Center = 514,
+	[Token(Token = "0x4000371")]
+	Right = 516,
+	[Token(Token = "0x4000372")]
+	Justified = 520,
+	[Token(Token = "0x4000373")]
+	Flush = 528,
+	[Token(Token = "0x4000374")]
+	CenterGeoAligned = 544,
+	[Token(Token = "0x4000375")]
+	BottomLeft = 1025,
+	[Token(Token = "0x4000376")]
+	Bottom = 1026,
+	[Token(Token = "0x4000377")]
+	BottomRight = 1028,
+	[Token(Token = "0x4000378")]
+	BottomJustified = 1032,
+	[Token(Token = "0x4000379")]
+	BottomFlush = 1040,
+	[Token(Token = "0x400037A")]
+	BottomGeoAligned = 1056,
+	[Token(Token = "0x400037B")]
+	BaselineLeft = 2049,
+	[Token(Token = "0x400037C")]
+	Baseline = 2050,
+	[Token(Token = "0x400037D")]
+	BaselineRight = 2052,
+	[Token(Token = "0x400037E")]
+	BaselineJustified = 2056,
+	[Token(Token = "0x400037F")]
+	BaselineFlush = 2064,
+	[Token(Token = "0x4000380")]
+	BaselineGeoAligned = 2080,
+	[Token(Token = "0x4000381")]
+	MidlineLeft = 4097,
+	[Token(Token = "0x4000382")]
+	Midline = 4098,
+	[Token(Token = "0x4000383")]
+	MidlineRight = 4100,
+	[Token(Token = "0x4000384")]
+	MidlineJustified = 4104,
+	[Token(Token = "0x4000385")]
+	MidlineFlush = 4112,
+	[Token(Token = "0x4000386")]
+	MidlineGeoAligned = 4128,
+	[Token(Token = "0x4000387")]
+	CaplineLeft = 8193,
+	[Token(Token = "0x4000388")]
+	Capline = 8194,
+	[Token(Token = "0x4000389")]
+	CaplineRight = 8196,
+	[Token(Token = "0x400038A")]
+	CaplineJustified = 8200,
+	[Token(Token = "0x400038B")]
+	CaplineFlush = 8208,
+	[Token(Token = "0x400038C")]
+	CaplineGeoAligned = 8224,
+	[Token(Token = "0x400038D")]
+	Converted = 65535
+}

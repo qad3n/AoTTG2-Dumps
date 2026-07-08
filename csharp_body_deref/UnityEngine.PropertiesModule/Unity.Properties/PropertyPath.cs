@@ -1,0 +1,114 @@
+using System;
+using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using System.Text;
+using Il2CppDummyDll;
+
+namespace Unity.Properties;
+
+[Token(Token = "0x200000C")]
+public readonly struct PropertyPath : IEquatable<PropertyPath>
+{
+	[Token(Token = "0x400000E")]
+	internal const int k_InlineCount = 4;
+
+	[Token(Token = "0x400000F")]
+	[FieldOffset(Offset = "0x0")]
+	private readonly PropertyPathPart m_Part0;
+
+	[Token(Token = "0x4000010")]
+	[FieldOffset(Offset = "0x20")]
+	private readonly PropertyPathPart m_Part1;
+
+	[Token(Token = "0x4000011")]
+	[FieldOffset(Offset = "0x40")]
+	private readonly PropertyPathPart m_Part2;
+
+	[Token(Token = "0x4000012")]
+	[FieldOffset(Offset = "0x60")]
+	private readonly PropertyPathPart m_Part3;
+
+	[Token(Token = "0x4000013")]
+	[FieldOffset(Offset = "0x80")]
+	private readonly int m_InlinePartsCount;
+
+	[Token(Token = "0x4000014")]
+	[FieldOffset(Offset = "0x88")]
+	private readonly PropertyPathPart[] m_AdditionalParts;
+
+	[Token(Token = "0x17000007")]
+	public int Length
+	{
+		[Token(Token = "0x6000020")]
+		[Address(RVA = "0x4B5C330", Offset = "0x4B5C330", VA = "0x4B5C330")]
+		[CompilerGenerated]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x17000008")]
+	public PropertyPathPart this[int index]
+	{
+		[Token(Token = "0x6000021")]
+		[Address(RVA = "0x4B5C340", Offset = "0x4B5C340", VA = "0x4B5C340")]
+		get
+		{
+			return default(PropertyPathPart);
+		}
+	}
+
+	[Token(Token = "0x6000022")]
+	[Address(RVA = "0x4B5C440", Offset = "0x4B5C440", VA = "0x4B5C440")]
+	public PropertyPath(string path)
+	{
+	}
+
+	[Token(Token = "0x6000023")]
+	[Address(RVA = "0x4B5E1B0", Offset = "0x4B5E1B0", VA = "0x4B5E1B0")]
+	internal PropertyPath(List<PropertyPathPart> parts)
+	{
+	}
+
+	[Token(Token = "0x6000024")]
+	[Address(RVA = "0x4B5E4E0", Offset = "0x4B5E4E0", VA = "0x4B5E4E0", Slot = "3")]
+	public override string ToString()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000025")]
+	[Address(RVA = "0x4B5E670", Offset = "0x4B5E670", VA = "0x4B5E670")]
+	private static void AppendToBuilder(in PropertyPathPart part, StringBuilder builder)
+	{
+	}
+
+	[Token(Token = "0x6000026")]
+	[Address(RVA = "0x4B5C6D0", Offset = "0x4B5C6D0", VA = "0x4B5C6D0")]
+	private static PropertyPath ConstructFromPath(string path)
+	{
+		return default(PropertyPath);
+	}
+
+	[Token(Token = "0x6000027")]
+	[Address(RVA = "0x4B5E870", Offset = "0x4B5E870", VA = "0x4B5E870", Slot = "4")]
+	public bool Equals(PropertyPath other)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6000028")]
+	[Address(RVA = "0x4B5E960", Offset = "0x4B5E960", VA = "0x4B5E960", Slot = "0")]
+	public override bool Equals(object obj)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6000029")]
+	[Address(RVA = "0x4B5EAA0", Offset = "0x4B5EAA0", VA = "0x4B5EAA0", Slot = "2")]
+	public override int GetHashCode()
+	{
+		return default(int);
+	}
+}

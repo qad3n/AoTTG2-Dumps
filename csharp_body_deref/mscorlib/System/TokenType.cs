@@ -1,0 +1,72 @@
+using Il2CppDummyDll;
+
+namespace System;
+
+[Token(Token = "0x20000C3")]
+internal enum TokenType
+{
+	[Token(Token = "0x4000313")]
+	NumberToken = 1,
+	[Token(Token = "0x4000314")]
+	YearNumberToken = 2,
+	[Token(Token = "0x4000315")]
+	Am = 3,
+	[Token(Token = "0x4000316")]
+	Pm = 4,
+	[Token(Token = "0x4000317")]
+	MonthToken = 5,
+	[Token(Token = "0x4000318")]
+	EndOfString = 6,
+	[Token(Token = "0x4000319")]
+	DayOfWeekToken = 7,
+	[Token(Token = "0x400031A")]
+	TimeZoneToken = 8,
+	[Token(Token = "0x400031B")]
+	EraToken = 9,
+	[Token(Token = "0x400031C")]
+	DateWordToken = 10,
+	[Token(Token = "0x400031D")]
+	UnknownToken = 11,
+	[Token(Token = "0x400031E")]
+	HebrewNumber = 12,
+	[Token(Token = "0x400031F")]
+	JapaneseEraToken = 13,
+	[Token(Token = "0x4000320")]
+	TEraToken = 14,
+	[Token(Token = "0x4000321")]
+	IgnorableSymbol = 15,
+	[Token(Token = "0x4000322")]
+	SEP_Unk = 256,
+	[Token(Token = "0x4000323")]
+	SEP_End = 512,
+	[Token(Token = "0x4000324")]
+	SEP_Space = 768,
+	[Token(Token = "0x4000325")]
+	SEP_Am = 1024,
+	[Token(Token = "0x4000326")]
+	SEP_Pm = 1280,
+	[Token(Token = "0x4000327")]
+	SEP_Date = 1536,
+	[Token(Token = "0x4000328")]
+	SEP_Time = 1792,
+	[Token(Token = "0x4000329")]
+	SEP_YearSuff = 2048,
+	[Token(Token = "0x400032A")]
+	SEP_MonthSuff = 2304,
+	[Token(Token = "0x400032B")]
+	SEP_DaySuff = 2560,
+	[Token(Token = "0x400032C")]
+	SEP_HourSuff = 2816,
+	[Token(Token = "0x400032D")]
+	SEP_MinuteSuff = 3072,
+	[Token(Token = "0x400032E")]
+	SEP_SecondSuff = 3328,
+	[Token(Token = "0x400032F")]
+	SEP_LocalTimeMark = 3584,
+	[Token(Token = "0x4000330")]
+	SEP_DateOrOffset = 3840,
+	[Token(Token = "0x4000331")]
+	RegularTokenMask = 255,
+	[Token(Token = "0x4000332")]
+	SeparatorTokenMask = 65280
+}

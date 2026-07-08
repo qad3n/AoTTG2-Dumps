@@ -1,0 +1,87 @@
+using System;
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
+using Il2CppDummyDll;
+using JetBrains.Annotations;
+using Unity.Collections.LowLevel.Unsafe;
+using UnityEngine.Scripting;
+
+namespace Unity.Profiling;
+
+[Token(Token = "0x200001C")]
+[UnityEngine.Scripting.UsedByNativeCode]
+[IgnoredByDeepProfiler]
+public struct ProfilerMarker
+{
+	[Token(Token = "0x200001D")]
+	[UnityEngine.Scripting.UsedByNativeCode]
+	[IgnoredByDeepProfiler]
+	public struct AutoScope : IDisposable
+	{
+		[Token(Token = "0x4000031")]
+		[FieldOffset(Offset = "0x0")]
+		[NativeDisableUnsafePtrRestriction]
+		internal readonly IntPtr m_Ptr;
+
+		[MethodImpl((MethodImplOptions)256)]
+		[Token(Token = "0x6000038")]
+		[Address(RVA = "0x4A84A90", Offset = "0x4A84A90", VA = "0x4A84A90")]
+		internal AutoScope(IntPtr markerPtr)
+		{
+		}
+
+		[MethodImpl((MethodImplOptions)256)]
+		[Token(Token = "0x6000039")]
+		[Address(RVA = "0x4A84AD0", Offset = "0x4A84AD0", VA = "0x4A84AD0", Slot = "4")]
+		public void Dispose()
+		{
+		}
+	}
+
+	[NonSerialized]
+	[Token(Token = "0x4000030")]
+	[FieldOffset(Offset = "0x0")]
+	[NativeDisableUnsafePtrRestriction]
+	internal readonly IntPtr m_Ptr;
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000033")]
+	[Address(RVA = "0x4A848A0", Offset = "0x4A848A0", VA = "0x4A848A0")]
+	public ProfilerMarker(string name)
+	{
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000034")]
+	[Address(RVA = "0x4A84940", Offset = "0x4A84940", VA = "0x4A84940")]
+	public ProfilerMarker(ProfilerCategory category, string name)
+	{
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000035")]
+	[Address(RVA = "0x4A84990", Offset = "0x4A84990", VA = "0x4A84990")]
+	[Pure]
+	[Conditional("ENABLE_PROFILER")]
+	public void Begin()
+	{
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000036")]
+	[Address(RVA = "0x4A849F0", Offset = "0x4A849F0", VA = "0x4A849F0")]
+	[Conditional("ENABLE_PROFILER")]
+	[Pure]
+	public void End()
+	{
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000037")]
+	[Address(RVA = "0x4A84A50", Offset = "0x4A84A50", VA = "0x4A84A50")]
+	[Pure]
+	public AutoScope Auto()
+	{
+		return default(AutoScope);
+	}
+}
