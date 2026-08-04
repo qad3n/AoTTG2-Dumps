@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UI.MultiSelectDropdownElement
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UI/MultiSelectDropdownElement.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -11,30 +18,30 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x20005B6")]
+[Token(Token = "0x20005FB")]
 internal class MultiSelectDropdownElement : BaseSettingElement
 {
-	[Token(Token = "0x20005B8")]
+	[Token(Token = "0x20005FD")]
 	[CompilerGenerated]
 	private sealed class _003CWaitAndEnableOptions_003Ed__25 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001BB3")]
+		[Token(Token = "0x4001CC6")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001BB4")]
+		[Token(Token = "0x4001CC7")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001BB5")]
+		[Token(Token = "0x4001CC8")]
 		[FieldOffset(Offset = "0x20")]
 		public MultiSelectDropdownElement _003C_003E4__this;
 
-		[Token(Token = "0x17000B1E")]
+		[Token(Token = "0x17000B88")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6003AA3")]
-			[Address(RVA = "0x3F88A20", Offset = "0x3F88A20", VA = "0x3F88A20", Slot = "4")]
+			[Token(Token = "0x6003CB3")]
+			[Address(RVA = "0x4296990", Offset = "0x4296990", VA = "0x4296990", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -42,11 +49,11 @@ internal class MultiSelectDropdownElement : BaseSettingElement
 			}
 		}
 
-		[Token(Token = "0x17000B1F")]
+		[Token(Token = "0x17000B89")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6003AA5")]
-			[Address(RVA = "0x3F88A70", Offset = "0x3F88A70", VA = "0x3F88A70", Slot = "7")]
+			[Token(Token = "0x6003CB5")]
+			[Address(RVA = "0x42969E0", Offset = "0x42969E0", VA = "0x42969E0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -54,181 +61,181 @@ internal class MultiSelectDropdownElement : BaseSettingElement
 			}
 		}
 
-		[Token(Token = "0x6003AA0")]
-		[Address(RVA = "0x3F88460", Offset = "0x3F88460", VA = "0x3F88460")]
+		[Token(Token = "0x6003CB0")]
+		[Address(RVA = "0x42963D0", Offset = "0x42963D0", VA = "0x42963D0")]
 		[DebuggerHidden]
 		public _003CWaitAndEnableOptions_003Ed__25(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6003AA1")]
-		[Address(RVA = "0x3F88820", Offset = "0x3F88820", VA = "0x3F88820", Slot = "5")]
+		[Token(Token = "0x6003CB1")]
+		[Address(RVA = "0x4296790", Offset = "0x4296790", VA = "0x4296790", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6003AA2")]
-		[Address(RVA = "0x3F88830", Offset = "0x3F88830", VA = "0x3F88830", Slot = "6")]
+		[Token(Token = "0x6003CB2")]
+		[Address(RVA = "0x42967A0", Offset = "0x42967A0", VA = "0x42967A0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6003AA4")]
-		[Address(RVA = "0x3F88A30", Offset = "0x3F88A30", VA = "0x3F88A30", Slot = "8")]
+		[Token(Token = "0x6003CB4")]
+		[Address(RVA = "0x42969A0", Offset = "0x42969A0", VA = "0x42969A0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4001BA3")]
+	[Token(Token = "0x4001CB6")]
 	[FieldOffset(Offset = "0x38")]
 	protected GameObject _optionsPanel;
 
-	[Token(Token = "0x4001BA4")]
+	[Token(Token = "0x4001CB7")]
 	[FieldOffset(Offset = "0x40")]
 	protected GameObject _selectedButton;
 
-	[Token(Token = "0x4001BA5")]
+	[Token(Token = "0x4001CB8")]
 	[FieldOffset(Offset = "0x48")]
 	protected GameObject _selectedButtonLabel;
 
-	[Token(Token = "0x4001BA6")]
+	[Token(Token = "0x4001CB9")]
 	[FieldOffset(Offset = "0x50")]
 	protected string[] _options;
 
-	[Token(Token = "0x4001BA7")]
+	[Token(Token = "0x4001CBA")]
 	[FieldOffset(Offset = "0x58")]
 	protected float _currentScrollValue;
 
-	[Token(Token = "0x4001BA8")]
+	[Token(Token = "0x4001CBB")]
 	[FieldOffset(Offset = "0x60")]
 	protected Scrollbar _scrollBar;
 
-	[Token(Token = "0x4001BA9")]
+	[Token(Token = "0x4001CBC")]
 	[FieldOffset(Offset = "0x68")]
 	private Vector3 _optionsOffset;
 
-	[Token(Token = "0x4001BAA")]
+	[Token(Token = "0x4001CBD")]
 	[FieldOffset(Offset = "0x78")]
 	protected UnityAction _onSelectionChanged;
 
-	[Token(Token = "0x4001BAB")]
+	[Token(Token = "0x4001CBE")]
 	[FieldOffset(Offset = "0x80")]
 	protected HashSetSetting<int> _hashSetSetting;
 
-	[Token(Token = "0x4001BAC")]
+	[Token(Token = "0x4001CBF")]
 	[FieldOffset(Offset = "0x88")]
 	protected Dictionary<int, Toggle> _toggles;
 
-	[Token(Token = "0x4001BAD")]
+	[Token(Token = "0x4001CC0")]
 	[FieldOffset(Offset = "0x90")]
 	private Vector3 _lastKnownPosition;
 
-	[Token(Token = "0x4001BAE")]
+	[Token(Token = "0x4001CC1")]
 	[FieldOffset(Offset = "0xA0")]
 	private string _themePanel;
 
-	[Token(Token = "0x4001BAF")]
+	[Token(Token = "0x4001CC2")]
 	[FieldOffset(Offset = "0xA8")]
 	private float _checkMarkSizeMultiplier;
 
-	[Token(Token = "0x17000B1D")]
+	[Token(Token = "0x17000B87")]
 	protected override HashSet<SettingType> SupportedSettingTypes
 	{
-		[Token(Token = "0x6003A8D")]
-		[Address(RVA = "0x3F865F0", Offset = "0x3F865F0", VA = "0x3F865F0", Slot = "4")]
+		[Token(Token = "0x6003C9D")]
+		[Address(RVA = "0x4294560", Offset = "0x4294560", VA = "0x4294560", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6003A8E")]
-	[Address(RVA = "0x3F86650", Offset = "0x3F86650", VA = "0x3F86650")]
+	[Token(Token = "0x6003C9E")]
+	[Address(RVA = "0x42945C0", Offset = "0x42945C0", VA = "0x42945C0")]
 	public void Setup(HashSetSetting<int> setting, ElementStyle style, string title, string[] options, string tooltip, float elementWidth, float elementHeight, float optionsWidth, float maxScrollHeight, UnityAction onSelectionChanged)
 	{
 	}
 
-	[Token(Token = "0x6003A8F")]
-	[Address(RVA = "0x3F87D30", Offset = "0x3F87D30", VA = "0x3F87D30")]
+	[Token(Token = "0x6003C9F")]
+	[Address(RVA = "0x4295CA0", Offset = "0x4295CA0", VA = "0x4295CA0")]
 	public void FixScale()
 	{
 	}
 
-	[Token(Token = "0x6003A90")]
-	[Address(RVA = "0x3F87D90", Offset = "0x3F87D90", VA = "0x3F87D90")]
+	[Token(Token = "0x6003CA0")]
+	[Address(RVA = "0x4295D00", Offset = "0x4295D00", VA = "0x4295D00")]
 	public bool IsOpen()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003A91")]
-	[Address(RVA = "0x3F87E10", Offset = "0x3F87E10", VA = "0x3F87E10")]
+	[Token(Token = "0x6003CA1")]
+	[Address(RVA = "0x4295D80", Offset = "0x4295D80", VA = "0x4295D80")]
 	protected void SetOptionsPosition()
 	{
 	}
 
-	[Token(Token = "0x6003A92")]
-	[Address(RVA = "0x3F87F30", Offset = "0x3F87F30", VA = "0x3F87F30")]
+	[Token(Token = "0x6003CA2")]
+	[Address(RVA = "0x4295EA0", Offset = "0x4295EA0", VA = "0x4295EA0")]
 	private void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x6003A93")]
-	[Address(RVA = "0x3F87FB0", Offset = "0x3F87FB0", VA = "0x3F87FB0")]
+	[Token(Token = "0x6003CA3")]
+	[Address(RVA = "0x4295F20", Offset = "0x4295F20", VA = "0x4295F20")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x6003A94")]
-	[Address(RVA = "0x3F88030", Offset = "0x3F88030", VA = "0x3F88030")]
+	[Token(Token = "0x6003CA4")]
+	[Address(RVA = "0x4295FA0", Offset = "0x4295FA0", VA = "0x4295FA0")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x6003A95")]
-	[Address(RVA = "0x3F87230", Offset = "0x3F87230", VA = "0x3F87230")]
+	[Token(Token = "0x6003CA5")]
+	[Address(RVA = "0x42951A0", Offset = "0x42951A0", VA = "0x42951A0")]
 	protected void CreateOptionToggle(string option, int index, float width, float height, int fontSize, string themePanel)
 	{
 	}
 
-	[Token(Token = "0x6003A96")]
-	[Address(RVA = "0x3F882B0", Offset = "0x3F882B0", VA = "0x3F882B0")]
+	[Token(Token = "0x6003CA6")]
+	[Address(RVA = "0x4296220", Offset = "0x4296220", VA = "0x4296220")]
 	protected void OnToggleValueChanged(int index, bool value)
 	{
 	}
 
-	[Token(Token = "0x6003A97")]
-	[Address(RVA = "0x3F88350", Offset = "0x3F88350", VA = "0x3F88350")]
+	[Token(Token = "0x6003CA7")]
+	[Address(RVA = "0x42962C0", Offset = "0x42962C0", VA = "0x42962C0")]
 	protected void OnDropdownSelectedButtonClick()
 	{
 	}
 
-	[Token(Token = "0x6003A98")]
-	[Address(RVA = "0x3F883F0", Offset = "0x3F883F0", VA = "0x3F883F0")]
+	[Token(Token = "0x6003CA8")]
+	[Address(RVA = "0x4296360", Offset = "0x4296360", VA = "0x4296360")]
 	[IteratorStateMachine(typeof(_003CWaitAndEnableOptions_003Ed__25))]
 	private IEnumerator WaitAndEnableOptions()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003A99")]
-	[Address(RVA = "0x3F88210", Offset = "0x3F88210", VA = "0x3F88210")]
+	[Token(Token = "0x6003CA9")]
+	[Address(RVA = "0x4296180", Offset = "0x4296180", VA = "0x4296180")]
 	protected void CloseOptions()
 	{
 	}
 
-	[Token(Token = "0x6003A9A")]
-	[Address(RVA = "0x3F88480", Offset = "0x3F88480", VA = "0x3F88480", Slot = "6")]
+	[Token(Token = "0x6003CAA")]
+	[Address(RVA = "0x42963F0", Offset = "0x42963F0", VA = "0x42963F0", Slot = "6")]
 	public override void SyncElement()
 	{
 	}
 
-	[Token(Token = "0x6003A9B")]
-	[Address(RVA = "0x3F88660", Offset = "0x3F88660", VA = "0x3F88660")]
+	[Token(Token = "0x6003CAB")]
+	[Address(RVA = "0x42965D0", Offset = "0x42965D0", VA = "0x42965D0")]
 	public MultiSelectDropdownElement()
 	{
 	}

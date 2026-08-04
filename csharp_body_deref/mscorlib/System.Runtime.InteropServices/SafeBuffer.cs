@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.InteropServices.SafeBuffer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using Microsoft.Win32.SafeHandles;
 
@@ -15,20 +22,20 @@ public abstract class SafeBuffer : SafeHandleZeroOrMinusOneIsInvalid
 	private UIntPtr _numBytes;
 
 	[Token(Token = "0x60021BE")]
-	[Address(RVA = "0x4ED7400", Offset = "0x4ED7400", VA = "0x4ED7400")]
+	[Address(RVA = "0x3BBCF20", Offset = "0x3BBCF20", VA = "0x3BBCF20")]
 	[CLSCompliant(false)]
 	public unsafe void AcquirePointer(ref byte* pointer)
 	{
 	}
 
 	[Token(Token = "0x60021BF")]
-	[Address(RVA = "0x4ED7600", Offset = "0x4ED7600", VA = "0x4ED7600")]
+	[Address(RVA = "0x3BBD120", Offset = "0x3BBD120", VA = "0x3BBD120")]
 	public void ReleasePointer()
 	{
 	}
 
 	[Token(Token = "0x60021C0")]
-	[Address(RVA = "0x4ED74D0", Offset = "0x4ED74D0", VA = "0x4ED74D0")]
+	[Address(RVA = "0x3BBCFF0", Offset = "0x3BBCFF0", VA = "0x3BBCFF0")]
 	private static InvalidOperationException NotInitialized()
 	{
 		return null;

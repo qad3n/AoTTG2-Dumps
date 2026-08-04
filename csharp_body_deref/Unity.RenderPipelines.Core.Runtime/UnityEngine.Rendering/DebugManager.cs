@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.DebugManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -101,7 +108,7 @@ public sealed class DebugManager
 	public static DebugManager instance
 	{
 		[Token(Token = "0x6000700")]
-		[Address(RVA = "0x486FDA0", Offset = "0x486FDA0", VA = "0x486FDA0")]
+		[Address(RVA = "0x4B94E90", Offset = "0x4B94E90", VA = "0x4B94E90")]
 		get
 		{
 			return null;
@@ -112,7 +119,7 @@ public sealed class DebugManager
 	public ReadOnlyCollection<DebugUI.Panel> panels
 	{
 		[Token(Token = "0x6000702")]
-		[Address(RVA = "0x487DD70", Offset = "0x487DD70", VA = "0x487DD70")]
+		[Address(RVA = "0x4BA2E60", Offset = "0x4BA2E60", VA = "0x4BA2E60")]
 		get
 		{
 			return null;
@@ -123,7 +130,7 @@ public sealed class DebugManager
 	public bool displayEditorUI
 	{
 		[Token(Token = "0x6000709")]
-		[Address(RVA = "0x487E130", Offset = "0x487E130", VA = "0x487E130")]
+		[Address(RVA = "0x4BA3220", Offset = "0x4BA3220", VA = "0x4BA3220")]
 		get
 		{
 			return default(bool);
@@ -134,13 +141,13 @@ public sealed class DebugManager
 	public bool enableRuntimeUI
 	{
 		[Token(Token = "0x600070B")]
-		[Address(RVA = "0x487E150", Offset = "0x487E150", VA = "0x487E150")]
+		[Address(RVA = "0x4BA3240", Offset = "0x4BA3240", VA = "0x4BA3240")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600070C")]
-		[Address(RVA = "0x487E160", Offset = "0x487E160", VA = "0x487E160")]
+		[Address(RVA = "0x4BA3250", Offset = "0x4BA3250", VA = "0x4BA3250")]
 		set
 		{
 		}
@@ -150,13 +157,13 @@ public sealed class DebugManager
 	public bool displayRuntimeUI
 	{
 		[Token(Token = "0x600070D")]
-		[Address(RVA = "0x4870AB0", Offset = "0x4870AB0", VA = "0x4870AB0")]
+		[Address(RVA = "0x4B95BA0", Offset = "0x4B95BA0", VA = "0x4B95BA0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600070E")]
-		[Address(RVA = "0x487E180", Offset = "0x487E180", VA = "0x487E180")]
+		[Address(RVA = "0x4BA3270", Offset = "0x4BA3270", VA = "0x4BA3270")]
 		set
 		{
 		}
@@ -166,13 +173,13 @@ public sealed class DebugManager
 	public bool displayPersistentRuntimeUI
 	{
 		[Token(Token = "0x600070F")]
-		[Address(RVA = "0x487E3C0", Offset = "0x487E3C0", VA = "0x487E3C0")]
+		[Address(RVA = "0x4BA34B0", Offset = "0x4BA34B0", VA = "0x4BA34B0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000710")]
-		[Address(RVA = "0x487E440", Offset = "0x487E440", VA = "0x487E440")]
+		[Address(RVA = "0x4BA3530", Offset = "0x4BA3530", VA = "0x4BA3530")]
 		set
 		{
 		}
@@ -182,7 +189,7 @@ public sealed class DebugManager
 	public bool isAnyDebugUIActive
 	{
 		[Token(Token = "0x6000711")]
-		[Address(RVA = "0x487E700", Offset = "0x487E700", VA = "0x487E700")]
+		[Address(RVA = "0x4BA37F0", Offset = "0x4BA37F0", VA = "0x4BA37F0")]
 		get
 		{
 			return default(bool);
@@ -193,13 +200,13 @@ public sealed class DebugManager
 	public event Action<bool> onDisplayRuntimeUIChanged
 	{
 		[Token(Token = "0x6000703")]
-		[Address(RVA = "0x487DD90", Offset = "0x487DD90", VA = "0x487DD90")]
+		[Address(RVA = "0x4BA2E80", Offset = "0x4BA2E80", VA = "0x4BA2E80")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000704")]
-		[Address(RVA = "0x487DE40", Offset = "0x487DE40", VA = "0x487DE40")]
+		[Address(RVA = "0x4BA2F30", Offset = "0x4BA2F30", VA = "0x4BA2F30")]
 		[CompilerGenerated]
 		remove
 		{
@@ -210,13 +217,13 @@ public sealed class DebugManager
 	public event Action onSetDirty
 	{
 		[Token(Token = "0x6000705")]
-		[Address(RVA = "0x487DEF0", Offset = "0x487DEF0", VA = "0x487DEF0")]
+		[Address(RVA = "0x4BA2FE0", Offset = "0x4BA2FE0", VA = "0x4BA2FE0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000706")]
-		[Address(RVA = "0x487DF80", Offset = "0x487DF80", VA = "0x487DF80")]
+		[Address(RVA = "0x4BA3070", Offset = "0x4BA3070", VA = "0x4BA3070")]
 		[CompilerGenerated]
 		remove
 		{
@@ -227,13 +234,13 @@ public sealed class DebugManager
 	private event Action resetData
 	{
 		[Token(Token = "0x6000707")]
-		[Address(RVA = "0x487E010", Offset = "0x487E010", VA = "0x487E010")]
+		[Address(RVA = "0x4BA3100", Offset = "0x4BA3100", VA = "0x4BA3100")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000708")]
-		[Address(RVA = "0x487E0A0", Offset = "0x487E0A0", VA = "0x487E0A0")]
+		[Address(RVA = "0x4BA3190", Offset = "0x4BA3190", VA = "0x4BA3190")]
 		[CompilerGenerated]
 		remove
 		{
@@ -241,228 +248,228 @@ public sealed class DebugManager
 	}
 
 	[Token(Token = "0x60006F6")]
-	[Address(RVA = "0x487CAF0", Offset = "0x487CAF0", VA = "0x487CAF0")]
+	[Address(RVA = "0x4BA1BE0", Offset = "0x4BA1BE0", VA = "0x4BA1BE0")]
 	private void RegisterActions()
 	{
 	}
 
 	[Token(Token = "0x60006F7")]
-	[Address(RVA = "0x487D5D0", Offset = "0x487D5D0", VA = "0x487D5D0")]
+	[Address(RVA = "0x4BA26C0", Offset = "0x4BA26C0", VA = "0x4BA26C0")]
 	internal void EnableInputActions()
 	{
 	}
 
 	[Token(Token = "0x60006F8")]
-	[Address(RVA = "0x487D4D0", Offset = "0x487D4D0", VA = "0x487D4D0")]
+	[Address(RVA = "0x4BA25C0", Offset = "0x4BA25C0", VA = "0x4BA25C0")]
 	private void AddAction(DebugAction action, DebugActionDesc desc)
 	{
 	}
 
 	[Token(Token = "0x60006F9")]
-	[Address(RVA = "0x487D5E0", Offset = "0x487D5E0", VA = "0x487D5E0")]
+	[Address(RVA = "0x4BA26D0", Offset = "0x4BA26D0", VA = "0x4BA26D0")]
 	private void SampleAction(int actionIndex)
 	{
 	}
 
 	[Token(Token = "0x60006FA")]
-	[Address(RVA = "0x487D9F0", Offset = "0x487D9F0", VA = "0x487D9F0")]
+	[Address(RVA = "0x4BA2AE0", Offset = "0x4BA2AE0", VA = "0x4BA2AE0")]
 	private void UpdateAction(int actionIndex)
 	{
 	}
 
 	[Token(Token = "0x60006FB")]
-	[Address(RVA = "0x487DA40", Offset = "0x487DA40", VA = "0x487DA40")]
+	[Address(RVA = "0x4BA2B30", Offset = "0x4BA2B30", VA = "0x4BA2B30")]
 	internal void UpdateActions()
 	{
 	}
 
 	[Token(Token = "0x60006FC")]
-	[Address(RVA = "0x487DAA0", Offset = "0x487DAA0", VA = "0x487DAA0")]
+	[Address(RVA = "0x4BA2B90", Offset = "0x4BA2B90", VA = "0x4BA2B90")]
 	internal float GetAction(DebugAction action)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60006FD")]
-	[Address(RVA = "0x487DAD0", Offset = "0x487DAD0", VA = "0x487DAD0")]
+	[Address(RVA = "0x4BA2BC0", Offset = "0x4BA2BC0", VA = "0x4BA2BC0")]
 	internal bool GetActionToggleDebugMenuWithTouch()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60006FE")]
-	[Address(RVA = "0x487DC60", Offset = "0x487DC60", VA = "0x487DC60")]
+	[Address(RVA = "0x4BA2D50", Offset = "0x4BA2D50", VA = "0x4BA2D50")]
 	internal bool GetActionReleaseScrollTarget()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60006FF")]
-	[Address(RVA = "0x487DCE0", Offset = "0x487DCE0", VA = "0x487DCE0")]
+	[Address(RVA = "0x4BA2DD0", Offset = "0x4BA2DD0", VA = "0x4BA2DD0")]
 	private void RegisterInputs()
 	{
 	}
 
 	[Token(Token = "0x6000701")]
-	[Address(RVA = "0x487DCF0", Offset = "0x487DCF0", VA = "0x487DCF0")]
+	[Address(RVA = "0x4BA2DE0", Offset = "0x4BA2DE0", VA = "0x4BA2DE0")]
 	private void UpdateReadOnlyCollection()
 	{
 	}
 
 	[Token(Token = "0x600070A")]
-	[Address(RVA = "0x487E140", Offset = "0x487E140", VA = "0x487E140")]
+	[Address(RVA = "0x4BA3230", Offset = "0x4BA3230", VA = "0x4BA3230")]
 	public void ToggleEditorUI(bool open)
 	{
 	}
 
 	[Token(Token = "0x6000712")]
-	[Address(RVA = "0x487E7E0", Offset = "0x487E7E0", VA = "0x487E7E0")]
+	[Address(RVA = "0x4BA38D0", Offset = "0x4BA38D0", VA = "0x4BA38D0")]
 	private DebugManager()
 	{
 	}
 
 	[Token(Token = "0x6000713")]
-	[Address(RVA = "0x4875670", Offset = "0x4875670", VA = "0x4875670")]
+	[Address(RVA = "0x4B9A760", Offset = "0x4B9A760", VA = "0x4B9A760")]
 	public void RefreshEditor()
 	{
 	}
 
 	[Token(Token = "0x6000714")]
-	[Address(RVA = "0x487EA00", Offset = "0x487EA00", VA = "0x487EA00")]
+	[Address(RVA = "0x4BA3AF0", Offset = "0x4BA3AF0", VA = "0x4BA3AF0")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x6000715")]
-	[Address(RVA = "0x487A5A0", Offset = "0x487A5A0", VA = "0x487A5A0")]
+	[Address(RVA = "0x4B9F690", Offset = "0x4B9F690", VA = "0x4B9F690")]
 	public void ReDrawOnScreenDebug()
 	{
 	}
 
 	[Token(Token = "0x6000716")]
-	[Address(RVA = "0x4875690", Offset = "0x4875690", VA = "0x4875690")]
+	[Address(RVA = "0x4B9A780", Offset = "0x4B9A780", VA = "0x4B9A780")]
 	public void RegisterData(IDebugData data)
 	{
 	}
 
 	[Token(Token = "0x6000717")]
-	[Address(RVA = "0x48757B0", Offset = "0x48757B0", VA = "0x48757B0")]
+	[Address(RVA = "0x4B9A8A0", Offset = "0x4B9A8A0", VA = "0x4B9A8A0")]
 	public void UnregisterData(IDebugData data)
 	{
 	}
 
 	[Token(Token = "0x6000718")]
-	[Address(RVA = "0x487EA30", Offset = "0x487EA30", VA = "0x487EA30")]
+	[Address(RVA = "0x4BA3B20", Offset = "0x4BA3B20", VA = "0x4BA3B20")]
 	public int GetState()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000719")]
-	[Address(RVA = "0x487EBB0", Offset = "0x487EBB0", VA = "0x487EBB0")]
+	[Address(RVA = "0x4BA3CA0", Offset = "0x4BA3CA0", VA = "0x4BA3CA0")]
 	internal void RegisterRootCanvas(DebugUIHandlerCanvas root)
 	{
 	}
 
 	[Token(Token = "0x600071A")]
-	[Address(RVA = "0x487EC00", Offset = "0x487EC00", VA = "0x487EC00")]
+	[Address(RVA = "0x4BA3CF0", Offset = "0x4BA3CF0", VA = "0x4BA3CF0")]
 	internal void ChangeSelection(DebugUIHandlerWidget widget, bool fromNext)
 	{
 	}
 
 	[Token(Token = "0x600071B")]
-	[Address(RVA = "0x487EC20", Offset = "0x487EC20", VA = "0x487EC20")]
+	[Address(RVA = "0x4BA3D10", Offset = "0x4BA3D10", VA = "0x4BA3D10")]
 	internal void SetScrollTarget(DebugUIHandlerWidget widget)
 	{
 	}
 
 	[Token(Token = "0x600071C")]
-	[Address(RVA = "0x487E4E0", Offset = "0x487E4E0", VA = "0x487E4E0")]
+	[Address(RVA = "0x4BA35D0", Offset = "0x4BA35D0", VA = "0x4BA35D0")]
 	private void EnsurePersistentCanvas()
 	{
 	}
 
 	[Token(Token = "0x600071D")]
-	[Address(RVA = "0x487ECA0", Offset = "0x487ECA0", VA = "0x487ECA0")]
+	[Address(RVA = "0x4BA3D90", Offset = "0x4BA3D90", VA = "0x4BA3D90")]
 	internal void TogglePersistent(DebugUI.Widget widget, [Optional] int? forceTupleIndex)
 	{
 	}
 
 	[Token(Token = "0x600071E")]
-	[Address(RVA = "0x487F270", Offset = "0x487F270", VA = "0x487F270")]
+	[Address(RVA = "0x4BA4360", Offset = "0x4BA4360", VA = "0x4BA4360")]
 	private void OnPanelDirty(DebugUI.Panel panel)
 	{
 	}
 
 	[Token(Token = "0x600071F")]
-	[Address(RVA = "0x487F290", Offset = "0x487F290", VA = "0x487F290")]
+	[Address(RVA = "0x4BA4380", Offset = "0x4BA4380", VA = "0x4BA4380")]
 	public int PanelIndex([DisallowNull] string displayName)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000720")]
-	[Address(RVA = "0x487F3A0", Offset = "0x487F3A0", VA = "0x487F3A0")]
+	[Address(RVA = "0x4BA4490", Offset = "0x4BA4490", VA = "0x4BA4490")]
 	public void RequestEditorWindowPanelIndex(int index)
 	{
 	}
 
 	[Token(Token = "0x6000721")]
-	[Address(RVA = "0x487F3F0", Offset = "0x487F3F0", VA = "0x487F3F0")]
+	[Address(RVA = "0x4BA44E0", Offset = "0x4BA44E0", VA = "0x4BA44E0")]
 	internal int? GetRequestedEditorWindowPanelIndex()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000722")]
-	[Address(RVA = "0x486FE30", Offset = "0x486FE30", VA = "0x486FE30")]
+	[Address(RVA = "0x4B94F20", Offset = "0x4B94F20", VA = "0x4B94F20")]
 	public DebugUI.Panel GetPanel(string displayName, bool createIfNull = false, int groupIndex = 0, bool overrideIfExist = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000723")]
-	[Address(RVA = "0x487F470", Offset = "0x487F470", VA = "0x487F470")]
+	[Address(RVA = "0x4BA4560", Offset = "0x4BA4560", VA = "0x4BA4560")]
 	public int FindPanelIndex(string displayName)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000724")]
-	[Address(RVA = "0x487F540", Offset = "0x487F540", VA = "0x487F540")]
+	[Address(RVA = "0x4BA4630", Offset = "0x4BA4630", VA = "0x4BA4630")]
 	public void RemovePanel(string displayName)
 	{
 	}
 
 	[Token(Token = "0x6000725")]
-	[Address(RVA = "0x487F400", Offset = "0x487F400", VA = "0x487F400")]
+	[Address(RVA = "0x4BA44F0", Offset = "0x4BA44F0", VA = "0x4BA44F0")]
 	public void RemovePanel(DebugUI.Panel panel)
 	{
 	}
 
 	[Token(Token = "0x6000726")]
-	[Address(RVA = "0x487F780", Offset = "0x487F780", VA = "0x487F780")]
+	[Address(RVA = "0x4BA4870", Offset = "0x4BA4870", VA = "0x4BA4870")]
 	public DebugUI.Widget[] GetItems(DebugUI.Flags flags)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000727")]
-	[Address(RVA = "0x487FAC0", Offset = "0x487FAC0", VA = "0x487FAC0")]
+	[Address(RVA = "0x4BA4BB0", Offset = "0x4BA4BB0", VA = "0x4BA4BB0")]
 	internal DebugUI.Widget[] GetItemsFromContainer(DebugUI.Flags flags, DebugUI.IContainer container)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000728")]
-	[Address(RVA = "0x4880070", Offset = "0x4880070", VA = "0x4880070")]
+	[Address(RVA = "0x4BA5160", Offset = "0x4BA5160", VA = "0x4BA5160")]
 	public DebugUI.Widget GetItem(string queryPath)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000729")]
-	[Address(RVA = "0x48801F0", Offset = "0x48801F0", VA = "0x48801F0")]
+	[Address(RVA = "0x4BA52E0", Offset = "0x4BA52E0", VA = "0x4BA52E0")]
 	private DebugUI.Widget GetItem(string queryPath, DebugUI.IContainer container)
 	{
 		return null;

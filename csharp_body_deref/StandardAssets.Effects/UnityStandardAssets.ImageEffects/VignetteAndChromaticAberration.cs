@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.VignetteAndChromaticAberration
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/VignetteAndChromaticAberration.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -75,20 +82,20 @@ public class VignetteAndChromaticAberration : PostEffectsBase
 	private Material m_ChromAberrationMaterial;
 
 	[Token(Token = "0x60000B5")]
-	[Address(RVA = "0x4165070", Offset = "0x4165070", VA = "0x4165070", Slot = "4")]
+	[Address(RVA = "0x448A170", Offset = "0x448A170", VA = "0x448A170", Slot = "4")]
 	public override bool CheckResources()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000B6")]
-	[Address(RVA = "0x4165120", Offset = "0x4165120", VA = "0x4165120")]
+	[Address(RVA = "0x448A220", Offset = "0x448A220", VA = "0x448A220")]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x60000B7")]
-	[Address(RVA = "0x4165780", Offset = "0x4165780", VA = "0x4165780")]
+	[Address(RVA = "0x448A880", Offset = "0x448A880", VA = "0x448A880")]
 	public VignetteAndChromaticAberration()
 	{
 	}

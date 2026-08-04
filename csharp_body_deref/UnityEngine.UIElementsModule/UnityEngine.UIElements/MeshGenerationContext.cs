@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.MeshGenerationContext
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -52,14 +59,14 @@ public class MeshGenerationContext
 	public VisualElement visualElement
 	{
 		[Token(Token = "0x6000F63")]
-		[Address(RVA = "0x4D4CC30", Offset = "0x4D4CC30", VA = "0x4D4CC30")]
+		[Address(RVA = "0x5074560", Offset = "0x5074560", VA = "0x5074560")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F64")]
-		[Address(RVA = "0x4D4CC40", Offset = "0x4D4CC40", VA = "0x4D4CC40")]
+		[Address(RVA = "0x5074570", Offset = "0x5074570", VA = "0x5074570")]
 		[CompilerGenerated]
 		private set
 		{
@@ -70,14 +77,14 @@ public class MeshGenerationContext
 	internal IMeshGenerator meshGenerator
 	{
 		[Token(Token = "0x6000F65")]
-		[Address(RVA = "0x4D4CC50", Offset = "0x4D4CC50", VA = "0x4D4CC50")]
+		[Address(RVA = "0x5074580", Offset = "0x5074580", VA = "0x5074580")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F66")]
-		[Address(RVA = "0x4D4CC60", Offset = "0x4D4CC60", VA = "0x4D4CC60")]
+		[Address(RVA = "0x5074590", Offset = "0x5074590", VA = "0x5074590")]
 		[CompilerGenerated]
 		set
 		{
@@ -88,14 +95,14 @@ public class MeshGenerationContext
 	internal EntryRecorder entryRecorder
 	{
 		[Token(Token = "0x6000F67")]
-		[Address(RVA = "0x4D4CC70", Offset = "0x4D4CC70", VA = "0x4D4CC70")]
+		[Address(RVA = "0x50745A0", Offset = "0x50745A0", VA = "0x50745A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F68")]
-		[Address(RVA = "0x4D4CC80", Offset = "0x4D4CC80", VA = "0x4D4CC80")]
+		[Address(RVA = "0x50745B0", Offset = "0x50745B0", VA = "0x50745B0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -106,14 +113,14 @@ public class MeshGenerationContext
 	internal bool disposed
 	{
 		[Token(Token = "0x6000F6D")]
-		[Address(RVA = "0x4D4D230", Offset = "0x4D4D230", VA = "0x4D4D230")]
+		[Address(RVA = "0x5074B60", Offset = "0x5074B60", VA = "0x5074B60")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000F6E")]
-		[Address(RVA = "0x4D4D240", Offset = "0x4D4D240", VA = "0x4D4D240")]
+		[Address(RVA = "0x5074B70", Offset = "0x5074B70", VA = "0x5074B70")]
 		[CompilerGenerated]
 		private set
 		{
@@ -121,37 +128,37 @@ public class MeshGenerationContext
 	}
 
 	[Token(Token = "0x6000F69")]
-	[Address(RVA = "0x4D4CC90", Offset = "0x4D4CC90", VA = "0x4D4CC90")]
+	[Address(RVA = "0x50745C0", Offset = "0x50745C0", VA = "0x50745C0")]
 	internal MeshGenerationContext(MeshWriteDataPool meshWriteDataPool, EntryPool entryPool, TempAllocator<Vertex> vertexPool, TempAllocator<ushort> indexPool)
 	{
 	}
 
 	[Token(Token = "0x6000F6A")]
-	[Address(RVA = "0x4D4CD80", Offset = "0x4D4CD80", VA = "0x4D4CD80")]
+	[Address(RVA = "0x50746B0", Offset = "0x50746B0", VA = "0x50746B0")]
 	internal void AllocateTempMesh(int vertexCount, int indexCount, out NativeSlice<Vertex> vertices, out NativeSlice<ushort> indices)
 	{
 	}
 
 	[Token(Token = "0x6000F6B")]
-	[Address(RVA = "0x4D4CF20", Offset = "0x4D4CF20", VA = "0x4D4CF20")]
+	[Address(RVA = "0x5074850", Offset = "0x5074850", VA = "0x5074850")]
 	internal void Begin(MeshGenerationNode node, VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x6000F6C")]
-	[Address(RVA = "0x4D4D070", Offset = "0x4D4D070", VA = "0x4D4D070")]
+	[Address(RVA = "0x50749A0", Offset = "0x50749A0", VA = "0x50749A0")]
 	internal void End()
 	{
 	}
 
 	[Token(Token = "0x6000F6F")]
-	[Address(RVA = "0x4D4D250", Offset = "0x4D4D250", VA = "0x4D4D250")]
+	[Address(RVA = "0x5074B80", Offset = "0x5074B80", VA = "0x5074B80")]
 	internal void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000F70")]
-	[Address(RVA = "0x4D4D2B0", Offset = "0x4D4D2B0", VA = "0x4D4D2B0")]
+	[Address(RVA = "0x5074BE0", Offset = "0x5074BE0", VA = "0x5074BE0")]
 	private void Dispose(bool disposing)
 	{
 	}

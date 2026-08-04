@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.LensDistortion
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -49,14 +56,14 @@ public sealed class LensDistortion : PostProcessEffectSettings
 	public FloatParameter scale;
 
 	[Token(Token = "0x6000055")]
-	[Address(RVA = "0x48182E0", Offset = "0x48182E0", VA = "0x48182E0", Slot = "4")]
+	[Address(RVA = "0x4B3D3D0", Offset = "0x4B3D3D0", VA = "0x4B3D3D0", Slot = "4")]
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000056")]
-	[Address(RVA = "0x4818400", Offset = "0x4818400", VA = "0x4818400")]
+	[Address(RVA = "0x4B3D4F0", Offset = "0x4B3D4F0", VA = "0x4B3D4F0")]
 	public LensDistortion()
 	{
 	}

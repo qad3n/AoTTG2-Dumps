@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.GUIStyle
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -100,11 +107,11 @@ public sealed class GUIStyle
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600014F")]
-		[Address(RVA = "0x4B2F610", Offset = "0x4B2F610", VA = "0x4B2F610")]
+		[Address(RVA = "0x4E571D0", Offset = "0x4E571D0", VA = "0x4E571D0")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000150")]
-		[Address(RVA = "0x4B2F640", Offset = "0x4B2F640", VA = "0x4B2F640")]
+		[Address(RVA = "0x4E57200", Offset = "0x4E57200", VA = "0x4E57200")]
 		set;
 	}
 
@@ -114,10 +121,10 @@ public sealed class GUIStyle
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000151")]
-		[Address(RVA = "0x4B1F500", Offset = "0x4B1F500", VA = "0x4B1F500")]
+		[Address(RVA = "0x4E470C0", Offset = "0x4E470C0", VA = "0x4E470C0")]
 		get;
 		[Token(Token = "0x6000152")]
-		[Address(RVA = "0x4B2F680", Offset = "0x4B2F680", VA = "0x4B2F680")]
+		[Address(RVA = "0x4E57240", Offset = "0x4E57240", VA = "0x4E57240")]
 		set
 		{
 		}
@@ -129,11 +136,11 @@ public sealed class GUIStyle
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000153")]
-		[Address(RVA = "0x4B2F7B0", Offset = "0x4B2F7B0", VA = "0x4B2F7B0")]
+		[Address(RVA = "0x4E57370", Offset = "0x4E57370", VA = "0x4E57370")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000154")]
-		[Address(RVA = "0x4B2F7E0", Offset = "0x4B2F7E0", VA = "0x4B2F7E0")]
+		[Address(RVA = "0x4E573A0", Offset = "0x4E573A0", VA = "0x4E573A0")]
 		set;
 	}
 
@@ -143,11 +150,11 @@ public sealed class GUIStyle
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000155")]
-		[Address(RVA = "0x4B2F820", Offset = "0x4B2F820", VA = "0x4B2F820")]
+		[Address(RVA = "0x4E573E0", Offset = "0x4E573E0", VA = "0x4E573E0")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000156")]
-		[Address(RVA = "0x4B2F850", Offset = "0x4B2F850", VA = "0x4B2F850")]
+		[Address(RVA = "0x4E57410", Offset = "0x4E57410", VA = "0x4E57410")]
 		set;
 	}
 
@@ -157,11 +164,11 @@ public sealed class GUIStyle
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000157")]
-		[Address(RVA = "0x4B2F890", Offset = "0x4B2F890", VA = "0x4B2F890")]
+		[Address(RVA = "0x4E57450", Offset = "0x4E57450", VA = "0x4E57450")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000158")]
-		[Address(RVA = "0x4B2F8C0", Offset = "0x4B2F8C0", VA = "0x4B2F8C0")]
+		[Address(RVA = "0x4E57480", Offset = "0x4E57480", VA = "0x4E57480")]
 		set;
 	}
 
@@ -171,11 +178,11 @@ public sealed class GUIStyle
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000159")]
-		[Address(RVA = "0x4B2F900", Offset = "0x4B2F900", VA = "0x4B2F900")]
+		[Address(RVA = "0x4E574C0", Offset = "0x4E574C0", VA = "0x4E574C0")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600015A")]
-		[Address(RVA = "0x4B2F930", Offset = "0x4B2F930", VA = "0x4B2F930")]
+		[Address(RVA = "0x4E574F0", Offset = "0x4E574F0", VA = "0x4E574F0")]
 		set;
 	}
 
@@ -184,13 +191,13 @@ public sealed class GUIStyle
 	public Vector2 contentOffset
 	{
 		[Token(Token = "0x600015B")]
-		[Address(RVA = "0x4B2F970", Offset = "0x4B2F970", VA = "0x4B2F970")]
+		[Address(RVA = "0x4E57530", Offset = "0x4E57530", VA = "0x4E57530")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x600015C")]
-		[Address(RVA = "0x4B2FA40", Offset = "0x4B2FA40", VA = "0x4B2FA40")]
+		[Address(RVA = "0x4E57600", Offset = "0x4E57600", VA = "0x4E57600")]
 		set
 		{
 		}
@@ -202,11 +209,11 @@ public sealed class GUIStyle
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600015D")]
-		[Address(RVA = "0x4B21A30", Offset = "0x4B21A30", VA = "0x4B21A30")]
+		[Address(RVA = "0x4E495F0", Offset = "0x4E495F0", VA = "0x4E495F0")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600015E")]
-		[Address(RVA = "0x4B2FB20", Offset = "0x4B2FB20", VA = "0x4B2FB20")]
+		[Address(RVA = "0x4E576E0", Offset = "0x4E576E0", VA = "0x4E576E0")]
 		set;
 	}
 
@@ -216,11 +223,11 @@ public sealed class GUIStyle
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600015F")]
-		[Address(RVA = "0x4B21A60", Offset = "0x4B21A60", VA = "0x4B21A60")]
+		[Address(RVA = "0x4E49620", Offset = "0x4E49620", VA = "0x4E49620")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000160")]
-		[Address(RVA = "0x4B2FB70", Offset = "0x4B2FB70", VA = "0x4B2FB70")]
+		[Address(RVA = "0x4E57730", Offset = "0x4E57730", VA = "0x4E57730")]
 		set;
 	}
 
@@ -230,11 +237,11 @@ public sealed class GUIStyle
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000161")]
-		[Address(RVA = "0x4B2FBC0", Offset = "0x4B2FBC0", VA = "0x4B2FBC0")]
+		[Address(RVA = "0x4E57780", Offset = "0x4E57780", VA = "0x4E57780")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000162")]
-		[Address(RVA = "0x4B2FBF0", Offset = "0x4B2FBF0", VA = "0x4B2FBF0")]
+		[Address(RVA = "0x4E577B0", Offset = "0x4E577B0", VA = "0x4E577B0")]
 		set;
 	}
 
@@ -244,11 +251,11 @@ public sealed class GUIStyle
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000163")]
-		[Address(RVA = "0x4B2FC30", Offset = "0x4B2FC30", VA = "0x4B2FC30")]
+		[Address(RVA = "0x4E577F0", Offset = "0x4E577F0", VA = "0x4E577F0")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000164")]
-		[Address(RVA = "0x4B2ED20", Offset = "0x4B2ED20", VA = "0x4B2ED20")]
+		[Address(RVA = "0x4E568E0", Offset = "0x4E568E0", VA = "0x4E568E0")]
 		set;
 	}
 
@@ -258,11 +265,11 @@ public sealed class GUIStyle
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000165")]
-		[Address(RVA = "0x4B2FC60", Offset = "0x4B2FC60", VA = "0x4B2FC60")]
+		[Address(RVA = "0x4E57820", Offset = "0x4E57820", VA = "0x4E57820")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000166")]
-		[Address(RVA = "0x4B2FC90", Offset = "0x4B2FC90", VA = "0x4B2FC90")]
+		[Address(RVA = "0x4E57850", Offset = "0x4E57850", VA = "0x4E57850")]
 		set;
 	}
 
@@ -272,11 +279,11 @@ public sealed class GUIStyle
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000167")]
-		[Address(RVA = "0x4B2FCD0", Offset = "0x4B2FCD0", VA = "0x4B2FCD0")]
+		[Address(RVA = "0x4E57890", Offset = "0x4E57890", VA = "0x4E57890")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000168")]
-		[Address(RVA = "0x4B2FD00", Offset = "0x4B2FD00", VA = "0x4B2FD00")]
+		[Address(RVA = "0x4E578C0", Offset = "0x4E578C0", VA = "0x4E578C0")]
 		set;
 	}
 
@@ -286,11 +293,11 @@ public sealed class GUIStyle
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000169")]
-		[Address(RVA = "0x4B2FD40", Offset = "0x4B2FD40", VA = "0x4B2FD40")]
+		[Address(RVA = "0x4E57900", Offset = "0x4E57900", VA = "0x4E57900")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600016A")]
-		[Address(RVA = "0x4B2FD70", Offset = "0x4B2FD70", VA = "0x4B2FD70")]
+		[Address(RVA = "0x4E57930", Offset = "0x4E57930", VA = "0x4E57930")]
 		set;
 	}
 
@@ -299,7 +306,7 @@ public sealed class GUIStyle
 	internal Vector2 Internal_clipOffset
 	{
 		[Token(Token = "0x600016B")]
-		[Address(RVA = "0x4B2FDB0", Offset = "0x4B2FDB0", VA = "0x4B2FDB0")]
+		[Address(RVA = "0x4E57970", Offset = "0x4E57970", VA = "0x4E57970")]
 		set
 		{
 		}
@@ -309,13 +316,13 @@ public sealed class GUIStyle
 	public string name
 	{
 		[Token(Token = "0x6000184")]
-		[Address(RVA = "0x4B20860", Offset = "0x4B20860", VA = "0x4B20860")]
+		[Address(RVA = "0x4E48420", Offset = "0x4E48420", VA = "0x4E48420")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000185")]
-		[Address(RVA = "0x4B2CBB0", Offset = "0x4B2CBB0", VA = "0x4B2CBB0")]
+		[Address(RVA = "0x4E54770", Offset = "0x4E54770", VA = "0x4E54770")]
 		set
 		{
 		}
@@ -325,13 +332,13 @@ public sealed class GUIStyle
 	public GUIStyleState normal
 	{
 		[Token(Token = "0x6000186")]
-		[Address(RVA = "0x4B2ED60", Offset = "0x4B2ED60", VA = "0x4B2ED60")]
+		[Address(RVA = "0x4E56920", Offset = "0x4E56920", VA = "0x4E56920")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000187")]
-		[Address(RVA = "0x4B30BC0", Offset = "0x4B30BC0", VA = "0x4B30BC0")]
+		[Address(RVA = "0x4E58780", Offset = "0x4E58780", VA = "0x4E58780")]
 		set
 		{
 		}
@@ -341,13 +348,13 @@ public sealed class GUIStyle
 	public GUIStyleState hover
 	{
 		[Token(Token = "0x6000188")]
-		[Address(RVA = "0x4B30C10", Offset = "0x4B30C10", VA = "0x4B30C10")]
+		[Address(RVA = "0x4E587D0", Offset = "0x4E587D0", VA = "0x4E587D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000189")]
-		[Address(RVA = "0x4B30CD0", Offset = "0x4B30CD0", VA = "0x4B30CD0")]
+		[Address(RVA = "0x4E58890", Offset = "0x4E58890", VA = "0x4E58890")]
 		set
 		{
 		}
@@ -357,13 +364,13 @@ public sealed class GUIStyle
 	public GUIStyleState active
 	{
 		[Token(Token = "0x600018A")]
-		[Address(RVA = "0x4B30D20", Offset = "0x4B30D20", VA = "0x4B30D20")]
+		[Address(RVA = "0x4E588E0", Offset = "0x4E588E0", VA = "0x4E588E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600018B")]
-		[Address(RVA = "0x4B30DE0", Offset = "0x4B30DE0", VA = "0x4B30DE0")]
+		[Address(RVA = "0x4E589A0", Offset = "0x4E589A0", VA = "0x4E589A0")]
 		set
 		{
 		}
@@ -373,13 +380,13 @@ public sealed class GUIStyle
 	public GUIStyleState onNormal
 	{
 		[Token(Token = "0x600018C")]
-		[Address(RVA = "0x4B30E30", Offset = "0x4B30E30", VA = "0x4B30E30")]
+		[Address(RVA = "0x4E589F0", Offset = "0x4E589F0", VA = "0x4E589F0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600018D")]
-		[Address(RVA = "0x4B30EF0", Offset = "0x4B30EF0", VA = "0x4B30EF0")]
+		[Address(RVA = "0x4E58AB0", Offset = "0x4E58AB0", VA = "0x4E58AB0")]
 		set
 		{
 		}
@@ -389,13 +396,13 @@ public sealed class GUIStyle
 	public GUIStyleState onHover
 	{
 		[Token(Token = "0x600018E")]
-		[Address(RVA = "0x4B30F40", Offset = "0x4B30F40", VA = "0x4B30F40")]
+		[Address(RVA = "0x4E58B00", Offset = "0x4E58B00", VA = "0x4E58B00")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600018F")]
-		[Address(RVA = "0x4B31000", Offset = "0x4B31000", VA = "0x4B31000")]
+		[Address(RVA = "0x4E58BC0", Offset = "0x4E58BC0", VA = "0x4E58BC0")]
 		set
 		{
 		}
@@ -405,13 +412,13 @@ public sealed class GUIStyle
 	public GUIStyleState onActive
 	{
 		[Token(Token = "0x6000190")]
-		[Address(RVA = "0x4B31050", Offset = "0x4B31050", VA = "0x4B31050")]
+		[Address(RVA = "0x4E58C10", Offset = "0x4E58C10", VA = "0x4E58C10")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000191")]
-		[Address(RVA = "0x4B31110", Offset = "0x4B31110", VA = "0x4B31110")]
+		[Address(RVA = "0x4E58CD0", Offset = "0x4E58CD0", VA = "0x4E58CD0")]
 		set
 		{
 		}
@@ -421,13 +428,13 @@ public sealed class GUIStyle
 	public GUIStyleState focused
 	{
 		[Token(Token = "0x6000192")]
-		[Address(RVA = "0x4B31160", Offset = "0x4B31160", VA = "0x4B31160")]
+		[Address(RVA = "0x4E58D20", Offset = "0x4E58D20", VA = "0x4E58D20")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000193")]
-		[Address(RVA = "0x4B31220", Offset = "0x4B31220", VA = "0x4B31220")]
+		[Address(RVA = "0x4E58DE0", Offset = "0x4E58DE0", VA = "0x4E58DE0")]
 		set
 		{
 		}
@@ -437,13 +444,13 @@ public sealed class GUIStyle
 	public GUIStyleState onFocused
 	{
 		[Token(Token = "0x6000194")]
-		[Address(RVA = "0x4B31270", Offset = "0x4B31270", VA = "0x4B31270")]
+		[Address(RVA = "0x4E58E30", Offset = "0x4E58E30", VA = "0x4E58E30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000195")]
-		[Address(RVA = "0x4B31330", Offset = "0x4B31330", VA = "0x4B31330")]
+		[Address(RVA = "0x4E58EF0", Offset = "0x4E58EF0", VA = "0x4E58EF0")]
 		set
 		{
 		}
@@ -453,13 +460,13 @@ public sealed class GUIStyle
 	public RectOffset border
 	{
 		[Token(Token = "0x6000196")]
-		[Address(RVA = "0x4B31380", Offset = "0x4B31380", VA = "0x4B31380")]
+		[Address(RVA = "0x4E58F40", Offset = "0x4E58F40", VA = "0x4E58F40")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000197")]
-		[Address(RVA = "0x4B31420", Offset = "0x4B31420", VA = "0x4B31420")]
+		[Address(RVA = "0x4E58FE0", Offset = "0x4E58FE0", VA = "0x4E58FE0")]
 		set
 		{
 		}
@@ -469,13 +476,13 @@ public sealed class GUIStyle
 	public RectOffset margin
 	{
 		[Token(Token = "0x6000198")]
-		[Address(RVA = "0x4B23D60", Offset = "0x4B23D60", VA = "0x4B23D60")]
+		[Address(RVA = "0x4E4B920", Offset = "0x4E4B920", VA = "0x4E4B920")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000199")]
-		[Address(RVA = "0x4B31470", Offset = "0x4B31470", VA = "0x4B31470")]
+		[Address(RVA = "0x4E59030", Offset = "0x4E59030", VA = "0x4E59030")]
 		set
 		{
 		}
@@ -485,13 +492,13 @@ public sealed class GUIStyle
 	public RectOffset padding
 	{
 		[Token(Token = "0x600019A")]
-		[Address(RVA = "0x4B314C0", Offset = "0x4B314C0", VA = "0x4B314C0")]
+		[Address(RVA = "0x4E59080", Offset = "0x4E59080", VA = "0x4E59080")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600019B")]
-		[Address(RVA = "0x4B31570", Offset = "0x4B31570", VA = "0x4B31570")]
+		[Address(RVA = "0x4E59130", Offset = "0x4E59130", VA = "0x4E59130")]
 		set
 		{
 		}
@@ -501,13 +508,13 @@ public sealed class GUIStyle
 	public RectOffset overflow
 	{
 		[Token(Token = "0x600019C")]
-		[Address(RVA = "0x4B315C0", Offset = "0x4B315C0", VA = "0x4B315C0")]
+		[Address(RVA = "0x4E59180", Offset = "0x4E59180", VA = "0x4E59180")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600019D")]
-		[Address(RVA = "0x4B31670", Offset = "0x4B31670", VA = "0x4B31670")]
+		[Address(RVA = "0x4E59230", Offset = "0x4E59230", VA = "0x4E59230")]
 		set
 		{
 		}
@@ -517,7 +524,7 @@ public sealed class GUIStyle
 	public float lineHeight
 	{
 		[Token(Token = "0x600019E")]
-		[Address(RVA = "0x4B316C0", Offset = "0x4B316C0", VA = "0x4B316C0")]
+		[Address(RVA = "0x4E59280", Offset = "0x4E59280", VA = "0x4E59280")]
 		get
 		{
 			return default(float);
@@ -528,7 +535,7 @@ public sealed class GUIStyle
 	public static GUIStyle none
 	{
 		[Token(Token = "0x60001A9")]
-		[Address(RVA = "0x4B21EC0", Offset = "0x4B21EC0", VA = "0x4B21EC0")]
+		[Address(RVA = "0x4E49A80", Offset = "0x4E49A80", VA = "0x4E49A80")]
 		get
 		{
 			return null;
@@ -539,7 +546,7 @@ public sealed class GUIStyle
 	public bool isHeightDependantOnWidth
 	{
 		[Token(Token = "0x60001AF")]
-		[Address(RVA = "0x4B2AFF0", Offset = "0x4B2AFF0", VA = "0x4B2AFF0")]
+		[Address(RVA = "0x4E52BB0", Offset = "0x4E52BB0", VA = "0x4E52BB0")]
 		get
 		{
 			return default(bool);
@@ -548,76 +555,76 @@ public sealed class GUIStyle
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600016C")]
-	[Address(RVA = "0x4B2FE90", Offset = "0x4B2FE90", VA = "0x4B2FE90")]
+	[Address(RVA = "0x4E57A50", Offset = "0x4E57A50", VA = "0x4E57A50")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle_Bindings::Internal_Create", IsThreadSafe = true)]
 	private static extern IntPtr Internal_Create(GUIStyle self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600016D")]
-	[Address(RVA = "0x4B2FEC0", Offset = "0x4B2FEC0", VA = "0x4B2FEC0")]
+	[Address(RVA = "0x4E57A80", Offset = "0x4E57A80", VA = "0x4E57A80")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle_Bindings::Internal_Copy", IsThreadSafe = true)]
 	private static extern IntPtr Internal_Copy(GUIStyle self, GUIStyle other);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600016E")]
-	[Address(RVA = "0x4B2FF00", Offset = "0x4B2FF00", VA = "0x4B2FF00")]
+	[Address(RVA = "0x4E57AC0", Offset = "0x4E57AC0", VA = "0x4E57AC0")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle_Bindings::Internal_Destroy", IsThreadSafe = true)]
 	private static extern void Internal_Destroy(IntPtr self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600016F")]
-	[Address(RVA = "0x4B2FF30", Offset = "0x4B2FF30", VA = "0x4B2FF30")]
+	[Address(RVA = "0x4E57AF0", Offset = "0x4E57AF0", VA = "0x4E57AF0")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle_Bindings::GetStyleStatePtr", IsThreadSafe = true, HasExplicitThis = true)]
 	private extern IntPtr GetStyleStatePtr(int idx);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000170")]
-	[Address(RVA = "0x4B2FF70", Offset = "0x4B2FF70", VA = "0x4B2FF70")]
+	[Address(RVA = "0x4E57B30", Offset = "0x4E57B30", VA = "0x4E57B30")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle_Bindings::AssignStyleState", HasExplicitThis = true)]
 	private extern void AssignStyleState(int idx, IntPtr srcStyleState);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000171")]
-	[Address(RVA = "0x4B2FFB0", Offset = "0x4B2FFB0", VA = "0x4B2FFB0")]
+	[Address(RVA = "0x4E57B70", Offset = "0x4E57B70", VA = "0x4E57B70")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle_Bindings::GetRectOffsetPtr", HasExplicitThis = true)]
 	private extern IntPtr GetRectOffsetPtr(int idx);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000172")]
-	[Address(RVA = "0x4B2FFF0", Offset = "0x4B2FFF0", VA = "0x4B2FFF0")]
+	[Address(RVA = "0x4E57BB0", Offset = "0x4E57BB0", VA = "0x4E57BB0")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle_Bindings::AssignRectOffset", HasExplicitThis = true)]
 	private extern void AssignRectOffset(int idx, IntPtr srcRectOffset);
 
 	[Token(Token = "0x6000173")]
-	[Address(RVA = "0x4B30030", Offset = "0x4B30030", VA = "0x4B30030")]
+	[Address(RVA = "0x4E57BF0", Offset = "0x4E57BF0", VA = "0x4E57BF0")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle_Bindings::Internal_Draw", HasExplicitThis = true)]
 	private void Internal_Draw(Rect screenRect, GUIContent content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus)
 	{
 	}
 
 	[Token(Token = "0x6000174")]
-	[Address(RVA = "0x4B30160", Offset = "0x4B30160", VA = "0x4B30160")]
+	[Address(RVA = "0x4E57D20", Offset = "0x4E57D20", VA = "0x4E57D20")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle_Bindings::Internal_Draw2", HasExplicitThis = true)]
 	private void Internal_Draw2(Rect position, GUIContent content, int controlID, bool on)
 	{
 	}
 
 	[Token(Token = "0x6000175")]
-	[Address(RVA = "0x4B30260", Offset = "0x4B30260", VA = "0x4B30260")]
+	[Address(RVA = "0x4E57E20", Offset = "0x4E57E20", VA = "0x4E57E20")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle_Bindings::Internal_DrawCursor", HasExplicitThis = true)]
 	private void Internal_DrawCursor(Rect position, GUIContent content, Vector2 pos, Color cursorColor)
 	{
 	}
 
 	[Token(Token = "0x6000176")]
-	[Address(RVA = "0x4B30380", Offset = "0x4B30380", VA = "0x4B30380")]
+	[Address(RVA = "0x4E57F40", Offset = "0x4E57F40", VA = "0x4E57F40")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle_Bindings::Internal_DrawWithTextSelection", HasExplicitThis = true)]
 	private void Internal_DrawWithTextSelection(Rect screenRect, GUIContent content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus, bool drawSelectionAsComposition, Vector2 cursorFirstPosition, Vector2 cursorLastPosition, Color cursorColor, Color selectionColor)
 	{
 	}
 
 	[Token(Token = "0x6000177")]
-	[Address(RVA = "0x4B30520", Offset = "0x4B30520", VA = "0x4B30520")]
+	[Address(RVA = "0x4E580E0", Offset = "0x4E580E0", VA = "0x4E580E0")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle_Bindings::Internal_CalcSize", HasExplicitThis = true)]
 	internal Vector2 Internal_CalcSize(GUIContent content)
 	{
@@ -625,7 +632,7 @@ public sealed class GUIStyle
 	}
 
 	[Token(Token = "0x6000178")]
-	[Address(RVA = "0x4B305F0", Offset = "0x4B305F0", VA = "0x4B305F0")]
+	[Address(RVA = "0x4E581B0", Offset = "0x4E581B0", VA = "0x4E581B0")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle_Bindings::Internal_CalcSizeWithConstraints", HasExplicitThis = true)]
 	internal Vector2 Internal_CalcSizeWithConstraints(GUIContent content, Vector2 maxSize)
 	{
@@ -634,12 +641,12 @@ public sealed class GUIStyle
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000179")]
-	[Address(RVA = "0x4B306E0", Offset = "0x4B306E0", VA = "0x4B306E0")]
+	[Address(RVA = "0x4E582A0", Offset = "0x4E582A0", VA = "0x4E582A0")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle_Bindings::Internal_CalcHeight", HasExplicitThis = true)]
 	private extern float Internal_CalcHeight(GUIContent content, float width);
 
 	[Token(Token = "0x600017A")]
-	[Address(RVA = "0x4B30730", Offset = "0x4B30730", VA = "0x4B30730")]
+	[Address(RVA = "0x4E582F0", Offset = "0x4E582F0", VA = "0x4E582F0")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle_Bindings::Internal_CalcMinMaxWidth", HasExplicitThis = true)]
 	private Vector2 Internal_CalcMinMaxWidth(GUIContent content)
 	{
@@ -647,7 +654,7 @@ public sealed class GUIStyle
 	}
 
 	[Token(Token = "0x600017B")]
-	[Address(RVA = "0x4B30800", Offset = "0x4B30800", VA = "0x4B30800")]
+	[Address(RVA = "0x4E583C0", Offset = "0x4E583C0", VA = "0x4E583C0")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle_Bindings::Internal_GetTextRectOffset", HasExplicitThis = true)]
 	internal Vector2 Internal_GetTextRectOffset(Rect screenRect, GUIContent content, Vector2 textSize)
 	{
@@ -655,7 +662,7 @@ public sealed class GUIStyle
 	}
 
 	[Token(Token = "0x600017C")]
-	[Address(RVA = "0x4B201B0", Offset = "0x4B201B0", VA = "0x4B201B0")]
+	[Address(RVA = "0x4E47D70", Offset = "0x4E47D70", VA = "0x4E47D70")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle_Bindings::SetMouseTooltip")]
 	internal static void SetMouseTooltip(string tooltip, Rect screenRect)
 	{
@@ -663,18 +670,18 @@ public sealed class GUIStyle
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600017D")]
-	[Address(RVA = "0x4B20180", Offset = "0x4B20180", VA = "0x4B20180")]
+	[Address(RVA = "0x4E47D40", Offset = "0x4E47D40", VA = "0x4E47D40")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle_Bindings::IsTooltipActive")]
 	internal static extern bool IsTooltipActive(string tooltip);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600017E")]
-	[Address(RVA = "0x4B30950", Offset = "0x4B30950", VA = "0x4B30950")]
+	[Address(RVA = "0x4E58510", Offset = "0x4E58510", VA = "0x4E58510")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle_Bindings::Internal_GetCursorFlashOffset")]
 	private static extern float Internal_GetCursorFlashOffset();
 
 	[Token(Token = "0x600017F")]
-	[Address(RVA = "0x4B2BA80", Offset = "0x4B2BA80", VA = "0x4B2BA80")]
+	[Address(RVA = "0x4E53640", Offset = "0x4E53640", VA = "0x4E53640")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle::SetDefaultFont")]
 	internal static void SetDefaultFont(Font font)
 	{
@@ -682,159 +689,159 @@ public sealed class GUIStyle
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000180")]
-	[Address(RVA = "0x4B309B0", Offset = "0x4B309B0", VA = "0x4B309B0")]
+	[Address(RVA = "0x4E58570", Offset = "0x4E58570", VA = "0x4E58570")]
 	[UnityEngine.Bindings.FreeFunction(Name = "GUIStyle_Bindings::Internal_DestroyTextGenerator")]
 	internal static extern void Internal_DestroyTextGenerator(int meshInfoId);
 
 	[Token(Token = "0x6000181")]
-	[Address(RVA = "0x4B2CB30", Offset = "0x4B2CB30", VA = "0x4B2CB30")]
+	[Address(RVA = "0x4E546F0", Offset = "0x4E546F0", VA = "0x4E546F0")]
 	public GUIStyle()
 	{
 	}
 
 	[Token(Token = "0x6000182")]
-	[Address(RVA = "0x4B309E0", Offset = "0x4B309E0", VA = "0x4B309E0")]
+	[Address(RVA = "0x4E585A0", Offset = "0x4E585A0", VA = "0x4E585A0")]
 	public GUIStyle(GUIStyle other)
 	{
 	}
 
 	[Token(Token = "0x6000183")]
-	[Address(RVA = "0x4B30AD0", Offset = "0x4B30AD0", VA = "0x4B30AD0", Slot = "1")]
+	[Address(RVA = "0x4E58690", Offset = "0x4E58690", VA = "0x4E58690", Slot = "1")]
 	~GUIStyle()
 	{
 	}
 
 	[Token(Token = "0x600019F")]
-	[Address(RVA = "0x4B23E10", Offset = "0x4B23E10", VA = "0x4B23E10")]
+	[Address(RVA = "0x4E4B9D0", Offset = "0x4E4B9D0", VA = "0x4E4B9D0")]
 	public void Draw(Rect position, bool isHover, bool isActive, bool on, bool hasKeyboardFocus)
 	{
 	}
 
 	[Token(Token = "0x60001A0")]
-	[Address(RVA = "0x4B20060", Offset = "0x4B20060", VA = "0x4B20060")]
+	[Address(RVA = "0x4E47C20", Offset = "0x4E47C20", VA = "0x4E47C20")]
 	public void Draw(Rect position, GUIContent content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus)
 	{
 	}
 
 	[Token(Token = "0x60001A1")]
-	[Address(RVA = "0x4B22010", Offset = "0x4B22010", VA = "0x4B22010")]
+	[Address(RVA = "0x4E49BD0", Offset = "0x4E49BD0", VA = "0x4E49BD0")]
 	public void Draw(Rect position, GUIContent content, int controlID)
 	{
 	}
 
 	[Token(Token = "0x60001A2")]
-	[Address(RVA = "0x4B1F4B0", Offset = "0x4B1F4B0", VA = "0x4B1F4B0")]
+	[Address(RVA = "0x4E47070", Offset = "0x4E47070", VA = "0x4E47070")]
 	public void Draw(Rect position, GUIContent content, int controlID, bool on)
 	{
 	}
 
 	[Token(Token = "0x60001A3")]
-	[Address(RVA = "0x4B1CB20", Offset = "0x4B1CB20", VA = "0x4B1CB20")]
+	[Address(RVA = "0x4E446E0", Offset = "0x4E446E0", VA = "0x4E446E0")]
 	public void Draw(Rect position, GUIContent content, int controlID, bool on, bool hover)
 	{
 	}
 
 	[Token(Token = "0x60001A4")]
-	[Address(RVA = "0x4B31890", Offset = "0x4B31890", VA = "0x4B31890")]
+	[Address(RVA = "0x4E59450", Offset = "0x4E59450", VA = "0x4E59450")]
 	private void Draw(Rect position, GUIContent content, int controlId, bool isHover, bool isActive, bool on, bool hasKeyboardFocus)
 	{
 	}
 
 	[Token(Token = "0x60001A5")]
-	[Address(RVA = "0x4B31AC0", Offset = "0x4B31AC0", VA = "0x4B31AC0")]
+	[Address(RVA = "0x4E59680", Offset = "0x4E59680", VA = "0x4E59680")]
 	public void DrawCursor(Rect position, GUIContent content, int controlID, int character)
 	{
 	}
 
 	[Token(Token = "0x60001A6")]
-	[Address(RVA = "0x4B32270", Offset = "0x4B32270", VA = "0x4B32270")]
+	[Address(RVA = "0x4E59E30", Offset = "0x4E59E30", VA = "0x4E59E30")]
 	internal void DrawWithTextSelection(Rect position, GUIContent content, bool isActive, bool hasKeyboardFocus, int firstSelectedCharacter, int lastSelectedCharacter, bool drawSelectionAsComposition, Color selectionColor)
 	{
 	}
 
 	[Token(Token = "0x60001A7")]
-	[Address(RVA = "0x4B327F0", Offset = "0x4B327F0", VA = "0x4B327F0")]
+	[Address(RVA = "0x4E5A3B0", Offset = "0x4E5A3B0", VA = "0x4E5A3B0")]
 	internal void DrawWithTextSelection(Rect position, GUIContent content, int controlID, int firstSelectedCharacter, int lastSelectedCharacter, bool drawSelectionAsComposition)
 	{
 	}
 
 	[Token(Token = "0x60001A8")]
-	[Address(RVA = "0x4B329E0", Offset = "0x4B329E0", VA = "0x4B329E0")]
+	[Address(RVA = "0x4E5A5A0", Offset = "0x4E5A5A0", VA = "0x4E5A5A0")]
 	public void DrawWithTextSelection(Rect position, GUIContent content, int controlID, int firstSelectedCharacter, int lastSelectedCharacter)
 	{
 	}
 
 	[Token(Token = "0x60001AA")]
-	[Address(RVA = "0x4B31EB0", Offset = "0x4B31EB0", VA = "0x4B31EB0")]
+	[Address(RVA = "0x4E59A70", Offset = "0x4E59A70", VA = "0x4E59A70")]
 	public Vector2 GetCursorPixelPosition(Rect position, GUIContent content, int cursorStringIndex)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60001AB")]
-	[Address(RVA = "0x4B32B20", Offset = "0x4B32B20", VA = "0x4B32B20")]
+	[Address(RVA = "0x4E5A6E0", Offset = "0x4E5A6E0", VA = "0x4E5A6E0")]
 	public Vector2 CalcSize(GUIContent content)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60001AC")]
-	[Address(RVA = "0x4B2B090", Offset = "0x4B2B090", VA = "0x4B2B090")]
+	[Address(RVA = "0x4E52C50", Offset = "0x4E52C50", VA = "0x4E52C50")]
 	internal Vector2 CalcSizeWithConstraints(GUIContent content, Vector2 constraints)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60001AD")]
-	[Address(RVA = "0x4B32BB0", Offset = "0x4B32BB0", VA = "0x4B32BB0")]
+	[Address(RVA = "0x4E5A770", Offset = "0x4E5A770", VA = "0x4E5A770")]
 	public float CalcHeight(GUIContent content, float width)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60001AE")]
-	[Address(RVA = "0x4B32C00", Offset = "0x4B32C00", VA = "0x4B32C00")]
+	[Address(RVA = "0x4E5A7C0", Offset = "0x4E5A7C0", VA = "0x4E5A7C0")]
 	internal Vector2 GetPreferredSize(string content, Rect rect)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60001B0")]
-	[Address(RVA = "0x4B32D80", Offset = "0x4B32D80", VA = "0x4B32D80")]
+	[Address(RVA = "0x4E5A940", Offset = "0x4E5A940", VA = "0x4E5A940")]
 	public void CalcMinMaxWidth(GUIContent content, out float minWidth, out float maxWidth)
 	{
 	}
 
 	[Token(Token = "0x60001B1")]
-	[Address(RVA = "0x4B32E30", Offset = "0x4B32E30", VA = "0x4B32E30", Slot = "3")]
+	[Address(RVA = "0x4E5A9F0", Offset = "0x4E5A9F0", VA = "0x4E5A9F0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001B2")]
-	[Address(RVA = "0x4B32F30", Offset = "0x4B32F30", VA = "0x4B32F30")]
+	[Address(RVA = "0x4E5AAF0", Offset = "0x4E5AAF0", VA = "0x4E5AAF0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void GetMeshInfo(GUIStyle style, Color color, string content, Rect rect, ref UnityEngine.TextCore.Text.MeshInfoBindings[] meshInfos, ref Vector2 dimensions, ref int generationId)
 	{
 	}
 
 	[Token(Token = "0x60001B3")]
-	[Address(RVA = "0x4B33300", Offset = "0x4B33300", VA = "0x4B33300")]
+	[Address(RVA = "0x4E5AEC0", Offset = "0x4E5AEC0", VA = "0x4E5AEC0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void GetDimensions(GUIStyle style, Color color, string content, Rect rect, ref Vector2 dimensions)
 	{
 	}
 
 	[Token(Token = "0x60001B4")]
-	[Address(RVA = "0x4B33320", Offset = "0x4B33320", VA = "0x4B33320")]
+	[Address(RVA = "0x4E5AEE0", Offset = "0x4E5AEE0", VA = "0x4E5AEE0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void GetLineHeight(GUIStyle style, ref float lineHeight)
 	{
 	}
 
 	[Token(Token = "0x60001B5")]
-	[Address(RVA = "0x4B33340", Offset = "0x4B33340", VA = "0x4B33340")]
+	[Address(RVA = "0x4E5AF00", Offset = "0x4E5AF00", VA = "0x4E5AF00")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void EmptyManagedCache()
 	{
@@ -842,71 +849,71 @@ public sealed class GUIStyle
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001B7")]
-	[Address(RVA = "0x4B2F770", Offset = "0x4B2F770", VA = "0x4B2F770")]
+	[Address(RVA = "0x4E57330", Offset = "0x4E57330", VA = "0x4E57330")]
 	private static extern void set_font_Injected(GUIStyle _unity_self, IntPtr value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001B8")]
-	[Address(RVA = "0x4B2FA00", Offset = "0x4B2FA00", VA = "0x4B2FA00")]
+	[Address(RVA = "0x4E575C0", Offset = "0x4E575C0", VA = "0x4E575C0")]
 	private static extern void get_contentOffset_Injected(GUIStyle _unity_self, out Vector2 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001B9")]
-	[Address(RVA = "0x4B2FAE0", Offset = "0x4B2FAE0", VA = "0x4B2FAE0")]
+	[Address(RVA = "0x4E576A0", Offset = "0x4E576A0", VA = "0x4E576A0")]
 	private static extern void set_contentOffset_Injected(GUIStyle _unity_self, [In] ref Vector2 value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001BA")]
-	[Address(RVA = "0x4B2FE50", Offset = "0x4B2FE50", VA = "0x4B2FE50")]
+	[Address(RVA = "0x4E57A10", Offset = "0x4E57A10", VA = "0x4E57A10")]
 	private static extern void set_Internal_clipOffset_Injected(GUIStyle _unity_self, [In] ref Vector2 value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001BB")]
-	[Address(RVA = "0x4B30100", Offset = "0x4B30100", VA = "0x4B30100")]
+	[Address(RVA = "0x4E57CC0", Offset = "0x4E57CC0", VA = "0x4E57CC0")]
 	private static extern void Internal_Draw_Injected(GUIStyle _unity_self, [In] ref Rect screenRect, GUIContent content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001BC")]
-	[Address(RVA = "0x4B30210", Offset = "0x4B30210", VA = "0x4B30210")]
+	[Address(RVA = "0x4E57DD0", Offset = "0x4E57DD0", VA = "0x4E57DD0")]
 	private static extern void Internal_Draw2_Injected(GUIStyle _unity_self, [In] ref Rect position, GUIContent content, int controlID, bool on);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001BD")]
-	[Address(RVA = "0x4B30320", Offset = "0x4B30320", VA = "0x4B30320")]
+	[Address(RVA = "0x4E57EE0", Offset = "0x4E57EE0", VA = "0x4E57EE0")]
 	private static extern void Internal_DrawCursor_Injected(GUIStyle _unity_self, [In] ref Rect position, GUIContent content, [In] ref Vector2 pos, [In] ref Color cursorColor);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001BE")]
-	[Address(RVA = "0x4B304C0", Offset = "0x4B304C0", VA = "0x4B304C0")]
+	[Address(RVA = "0x4E58080", Offset = "0x4E58080", VA = "0x4E58080")]
 	private static extern void Internal_DrawWithTextSelection_Injected(GUIStyle _unity_self, [In] ref Rect screenRect, GUIContent content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus, bool drawSelectionAsComposition, [In] ref Vector2 cursorFirstPosition, [In] ref Vector2 cursorLastPosition, [In] ref Color cursorColor, [In] ref Color selectionColor);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001BF")]
-	[Address(RVA = "0x4B305B0", Offset = "0x4B305B0", VA = "0x4B305B0")]
+	[Address(RVA = "0x4E58170", Offset = "0x4E58170", VA = "0x4E58170")]
 	private static extern void Internal_CalcSize_Injected(GUIStyle _unity_self, GUIContent content, out Vector2 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001C0")]
-	[Address(RVA = "0x4B30690", Offset = "0x4B30690", VA = "0x4B30690")]
+	[Address(RVA = "0x4E58250", Offset = "0x4E58250", VA = "0x4E58250")]
 	private static extern void Internal_CalcSizeWithConstraints_Injected(GUIStyle _unity_self, GUIContent content, [In] ref Vector2 maxSize, out Vector2 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001C1")]
-	[Address(RVA = "0x4B307C0", Offset = "0x4B307C0", VA = "0x4B307C0")]
+	[Address(RVA = "0x4E58380", Offset = "0x4E58380", VA = "0x4E58380")]
 	private static extern void Internal_CalcMinMaxWidth_Injected(GUIStyle _unity_self, GUIContent content, out Vector2 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001C2")]
-	[Address(RVA = "0x4B308B0", Offset = "0x4B308B0", VA = "0x4B308B0")]
+	[Address(RVA = "0x4E58470", Offset = "0x4E58470", VA = "0x4E58470")]
 	private static extern void Internal_GetTextRectOffset_Injected(GUIStyle _unity_self, [In] ref Rect screenRect, GUIContent content, [In] ref Vector2 textSize, out Vector2 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001C3")]
-	[Address(RVA = "0x4B30910", Offset = "0x4B30910", VA = "0x4B30910")]
+	[Address(RVA = "0x4E584D0", Offset = "0x4E584D0", VA = "0x4E584D0")]
 	private static extern void SetMouseTooltip_Injected(string tooltip, [In] ref Rect screenRect);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001C4")]
-	[Address(RVA = "0x4B30980", Offset = "0x4B30980", VA = "0x4B30980")]
+	[Address(RVA = "0x4E58540", Offset = "0x4E58540", VA = "0x4E58540")]
 	private static extern void SetDefaultFont_Injected(IntPtr font);
 }

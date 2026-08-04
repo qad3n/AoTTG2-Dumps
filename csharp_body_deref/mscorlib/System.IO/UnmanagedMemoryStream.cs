@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.IO.UnmanagedMemoryStream
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
@@ -48,7 +55,7 @@ public class UnmanagedMemoryStream : Stream
 	public override bool CanRead
 	{
 		[Token(Token = "0x6002900")]
-		[Address(RVA = "0x4F153B0", Offset = "0x4F153B0", VA = "0x4F153B0", Slot = "7")]
+		[Address(RVA = "0x3BFAED0", Offset = "0x3BFAED0", VA = "0x3BFAED0", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -59,7 +66,7 @@ public class UnmanagedMemoryStream : Stream
 	public override bool CanSeek
 	{
 		[Token(Token = "0x6002901")]
-		[Address(RVA = "0x4F153C0", Offset = "0x4F153C0", VA = "0x4F153C0", Slot = "8")]
+		[Address(RVA = "0x3BFAEE0", Offset = "0x3BFAEE0", VA = "0x3BFAEE0", Slot = "8")]
 		get
 		{
 			return default(bool);
@@ -70,7 +77,7 @@ public class UnmanagedMemoryStream : Stream
 	public override bool CanWrite
 	{
 		[Token(Token = "0x6002902")]
-		[Address(RVA = "0x4F153D0", Offset = "0x4F153D0", VA = "0x4F153D0", Slot = "10")]
+		[Address(RVA = "0x3BFAEF0", Offset = "0x3BFAEF0", VA = "0x3BFAEF0", Slot = "10")]
 		get
 		{
 			return default(bool);
@@ -81,7 +88,7 @@ public class UnmanagedMemoryStream : Stream
 	public override long Length
 	{
 		[Token(Token = "0x6002909")]
-		[Address(RVA = "0x4F15690", Offset = "0x4F15690", VA = "0x4F15690", Slot = "11")]
+		[Address(RVA = "0x3BFB1B0", Offset = "0x3BFB1B0", VA = "0x3BFB1B0", Slot = "11")]
 		get
 		{
 			return default(long);
@@ -92,13 +99,13 @@ public class UnmanagedMemoryStream : Stream
 	public override long Position
 	{
 		[Token(Token = "0x600290A")]
-		[Address(RVA = "0x4F156D0", Offset = "0x4F156D0", VA = "0x4F156D0", Slot = "12")]
+		[Address(RVA = "0x3BFB1F0", Offset = "0x3BFB1F0", VA = "0x3BFB1F0", Slot = "12")]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x600290B")]
-		[Address(RVA = "0x4F15720", Offset = "0x4F15720", VA = "0x4F15720", Slot = "13")]
+		[Address(RVA = "0x3BFB240", Offset = "0x3BFB240", VA = "0x3BFB240", Slot = "13")]
 		set
 		{
 		}
@@ -109,7 +116,7 @@ public class UnmanagedMemoryStream : Stream
 	public unsafe byte* PositionPointer
 	{
 		[Token(Token = "0x600290C")]
-		[Address(RVA = "0x4F157C0", Offset = "0x4F157C0", VA = "0x4F157C0")]
+		[Address(RVA = "0x3BFB2E0", Offset = "0x3BFB2E0", VA = "0x3BFB2E0")]
 		get
 		{
 			//IL_0002: Expected I, but got O
@@ -118,158 +125,158 @@ public class UnmanagedMemoryStream : Stream
 	}
 
 	[Token(Token = "0x60028FC")]
-	[Address(RVA = "0x4F08A70", Offset = "0x4F08A70", VA = "0x4F08A70")]
+	[Address(RVA = "0x3BEE590", Offset = "0x3BEE590", VA = "0x3BEE590")]
 	protected UnmanagedMemoryStream()
 	{
 	}
 
 	[Token(Token = "0x60028FD")]
-	[Address(RVA = "0x4F152C0", Offset = "0x4F152C0", VA = "0x4F152C0")]
+	[Address(RVA = "0x3BFADE0", Offset = "0x3BFADE0", VA = "0x3BFADE0")]
 	[CLSCompliant(false)]
 	public unsafe UnmanagedMemoryStream(byte* pointer, long length)
 	{
 	}
 
 	[Token(Token = "0x60028FE")]
-	[Address(RVA = "0x4F15330", Offset = "0x4F15330", VA = "0x4F15330")]
+	[Address(RVA = "0x3BFAE50", Offset = "0x3BFAE50", VA = "0x3BFAE50")]
 	[CLSCompliant(false)]
 	public unsafe UnmanagedMemoryStream(byte* pointer, long length, long capacity, FileAccess access)
 	{
 	}
 
 	[Token(Token = "0x60028FF")]
-	[Address(RVA = "0x4F08AC0", Offset = "0x4F08AC0", VA = "0x4F08AC0")]
+	[Address(RVA = "0x3BEE5E0", Offset = "0x3BEE5E0", VA = "0x3BEE5E0")]
 	[CLSCompliant(false)]
 	protected unsafe void Initialize(byte* pointer, long length, long capacity, FileAccess access)
 	{
 	}
 
 	[Token(Token = "0x6002903")]
-	[Address(RVA = "0x4F09350", Offset = "0x4F09350", VA = "0x4F09350", Slot = "19")]
+	[Address(RVA = "0x3BEEE70", Offset = "0x3BEEE70", VA = "0x3BEEE70", Slot = "19")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6002904")]
-	[Address(RVA = "0x4F153F0", Offset = "0x4F153F0", VA = "0x4F153F0")]
+	[Address(RVA = "0x3BFAF10", Offset = "0x3BFAF10", VA = "0x3BFAF10")]
 	private void EnsureNotClosed()
 	{
 	}
 
 	[Token(Token = "0x6002905")]
-	[Address(RVA = "0x4F15420", Offset = "0x4F15420", VA = "0x4F15420")]
+	[Address(RVA = "0x3BFAF40", Offset = "0x3BFAF40", VA = "0x3BFAF40")]
 	private void EnsureReadable()
 	{
 	}
 
 	[Token(Token = "0x6002906")]
-	[Address(RVA = "0x4F15460", Offset = "0x4F15460", VA = "0x4F15460")]
+	[Address(RVA = "0x3BFAF80", Offset = "0x3BFAF80", VA = "0x3BFAF80")]
 	private void EnsureWriteable()
 	{
 	}
 
 	[Token(Token = "0x6002907")]
-	[Address(RVA = "0x4F154A0", Offset = "0x4F154A0", VA = "0x4F154A0", Slot = "20")]
+	[Address(RVA = "0x3BFAFC0", Offset = "0x3BFAFC0", VA = "0x3BFAFC0", Slot = "20")]
 	public override void Flush()
 	{
 	}
 
 	[Token(Token = "0x6002908")]
-	[Address(RVA = "0x4F154D0", Offset = "0x4F154D0", VA = "0x4F154D0", Slot = "21")]
+	[Address(RVA = "0x3BFAFF0", Offset = "0x3BFAFF0", VA = "0x3BFAFF0", Slot = "21")]
 	public override Task FlushAsync(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600290D")]
-	[Address(RVA = "0x4F15880", Offset = "0x4F15880", VA = "0x4F15880", Slot = "32")]
+	[Address(RVA = "0x3BFB3A0", Offset = "0x3BFB3A0", VA = "0x3BFB3A0", Slot = "32")]
 	public override int Read(byte[] buffer, int offset, int count)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600290E")]
-	[Address(RVA = "0x4F15A00", Offset = "0x4F15A00", VA = "0x4F15A00", Slot = "33")]
+	[Address(RVA = "0x3BFB520", Offset = "0x3BFB520", VA = "0x3BFB520", Slot = "33")]
 	public override int Read(Span<byte> buffer)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600290F")]
-	[Address(RVA = "0x4F08CA0", Offset = "0x4F08CA0", VA = "0x4F08CA0")]
+	[Address(RVA = "0x3BEE7C0", Offset = "0x3BEE7C0", VA = "0x3BEE7C0")]
 	internal int ReadCore(Span<byte> buffer)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002910")]
-	[Address(RVA = "0x4F15AA0", Offset = "0x4F15AA0", VA = "0x4F15AA0", Slot = "24")]
+	[Address(RVA = "0x3BFB5C0", Offset = "0x3BFB5C0", VA = "0x3BFB5C0", Slot = "24")]
 	public override Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002911")]
-	[Address(RVA = "0x4F15DF0", Offset = "0x4F15DF0", VA = "0x4F15DF0", Slot = "25")]
+	[Address(RVA = "0x3BFB910", Offset = "0x3BFB910", VA = "0x3BFB910", Slot = "25")]
 	public override ValueTask<int> ReadAsync(Memory<byte> buffer, [Optional] CancellationToken cancellationToken)
 	{
 		return default(ValueTask<int>);
 	}
 
 	[Token(Token = "0x6002912")]
-	[Address(RVA = "0x4F16190", Offset = "0x4F16190", VA = "0x4F16190", Slot = "34")]
+	[Address(RVA = "0x3BFBCB0", Offset = "0x3BFBCB0", VA = "0x3BFBCB0", Slot = "34")]
 	public override int ReadByte()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002913")]
-	[Address(RVA = "0x4F16350", Offset = "0x4F16350", VA = "0x4F16350", Slot = "30")]
+	[Address(RVA = "0x3BFBE70", Offset = "0x3BFBE70", VA = "0x3BFBE70", Slot = "30")]
 	public override long Seek(long offset, SeekOrigin loc)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6002914")]
-	[Address(RVA = "0x4F16470", Offset = "0x4F16470", VA = "0x4F16470", Slot = "31")]
+	[Address(RVA = "0x3BFBF90", Offset = "0x3BFBF90", VA = "0x3BFBF90", Slot = "31")]
 	public override void SetLength(long value)
 	{
 	}
 
 	[Token(Token = "0x6002915")]
-	[Address(RVA = "0x4F16630", Offset = "0x4F16630", VA = "0x4F16630", Slot = "35")]
+	[Address(RVA = "0x3BFC150", Offset = "0x3BFC150", VA = "0x3BFC150", Slot = "35")]
 	public override void Write(byte[] buffer, int offset, int count)
 	{
 	}
 
 	[Token(Token = "0x6002916")]
-	[Address(RVA = "0x4F167C0", Offset = "0x4F167C0", VA = "0x4F167C0", Slot = "36")]
+	[Address(RVA = "0x3BFC2E0", Offset = "0x3BFC2E0", VA = "0x3BFC2E0", Slot = "36")]
 	public override void Write(ReadOnlySpan<byte> buffer)
 	{
 	}
 
 	[Token(Token = "0x6002917")]
-	[Address(RVA = "0x4F08F30", Offset = "0x4F08F30", VA = "0x4F08F30")]
+	[Address(RVA = "0x3BEEA50", Offset = "0x3BEEA50", VA = "0x3BEEA50")]
 	internal void WriteCore(ReadOnlySpan<byte> buffer)
 	{
 	}
 
 	[Token(Token = "0x6002918")]
-	[Address(RVA = "0x4F16860", Offset = "0x4F16860", VA = "0x4F16860", Slot = "28")]
+	[Address(RVA = "0x3BFC380", Offset = "0x3BFC380", VA = "0x3BFC380", Slot = "28")]
 	public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002919")]
-	[Address(RVA = "0x4F16B50", Offset = "0x4F16B50", VA = "0x4F16B50", Slot = "29")]
+	[Address(RVA = "0x3BFC670", Offset = "0x3BFC670", VA = "0x3BFC670", Slot = "29")]
 	public override ValueTask WriteAsync(ReadOnlyMemory<byte> buffer, [Optional] CancellationToken cancellationToken)
 	{
 		return default(ValueTask);
 	}
 
 	[Token(Token = "0x600291A")]
-	[Address(RVA = "0x4F16E90", Offset = "0x4F16E90", VA = "0x4F16E90", Slot = "37")]
+	[Address(RVA = "0x3BFC9B0", Offset = "0x3BFC9B0", VA = "0x3BFC9B0", Slot = "37")]
 	public override void WriteByte(byte value)
 	{
 	}

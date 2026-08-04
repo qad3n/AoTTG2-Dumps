@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.LensFlareComponentSRP
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
@@ -90,45 +97,45 @@ public sealed class LensFlareComponentSRP : MonoBehaviour
 	public LensFlareDataSRP lensFlareData
 	{
 		[Token(Token = "0x6000AA5")]
-		[Address(RVA = "0x48B89B0", Offset = "0x48B89B0", VA = "0x48B89B0")]
+		[Address(RVA = "0x4BDDA50", Offset = "0x4BDDA50", VA = "0x4BDDA50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000AA6")]
-		[Address(RVA = "0x48B89C0", Offset = "0x48B89C0", VA = "0x48B89C0")]
+		[Address(RVA = "0x4BDDA60", Offset = "0x4BDDA60", VA = "0x4BDDA60")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000AA7")]
-	[Address(RVA = "0x48B3AD0", Offset = "0x48B3AD0", VA = "0x48B3AD0")]
+	[Address(RVA = "0x4BD8B70", Offset = "0x4BD8B70", VA = "0x4BD8B70")]
 	public float celestialProjectedOcclusionRadius(Camera mainCam)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000AA8")]
-	[Address(RVA = "0x48B8AB0", Offset = "0x48B8AB0", VA = "0x48B8AB0")]
+	[Address(RVA = "0x4BDDB50", Offset = "0x4BDDB50", VA = "0x4BDDB50")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000AA9")]
-	[Address(RVA = "0x48B8B50", Offset = "0x48B8B50", VA = "0x48B8B50")]
+	[Address(RVA = "0x4BDDBF0", Offset = "0x4BDDBF0", VA = "0x4BDDBF0")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000AAA")]
-	[Address(RVA = "0x48B89E0", Offset = "0x48B89E0", VA = "0x48B89E0")]
+	[Address(RVA = "0x4BDDA80", Offset = "0x4BDDA80", VA = "0x4BDDA80")]
 	private void OnValidate()
 	{
 	}
 
 	[Token(Token = "0x6000AAB")]
-	[Address(RVA = "0x48B8BC0", Offset = "0x48B8BC0", VA = "0x48B8BC0")]
+	[Address(RVA = "0x4BDDC60", Offset = "0x4BDDC60", VA = "0x4BDDC60")]
 	public LensFlareComponentSRP()
 	{
 	}

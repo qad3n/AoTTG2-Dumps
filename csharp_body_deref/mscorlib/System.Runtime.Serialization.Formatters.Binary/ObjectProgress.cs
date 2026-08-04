@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.Formatters.Binary.ObjectProgress
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
@@ -86,25 +93,25 @@ internal sealed class ObjectProgress
 	internal System.Runtime.Serialization.Formatters.Binary.ParseRecord pr;
 
 	[Token(Token = "0x600208F")]
-	[Address(RVA = "0x4EC04F0", Offset = "0x4EC04F0", VA = "0x4EC04F0")]
+	[Address(RVA = "0x3BA6010", Offset = "0x3BA6010", VA = "0x3BA6010")]
 	internal ObjectProgress()
 	{
 	}
 
 	[Token(Token = "0x6002090")]
-	[Address(RVA = "0x4EC0560", Offset = "0x4EC0560", VA = "0x4EC0560")]
+	[Address(RVA = "0x3BA6080", Offset = "0x3BA6080", VA = "0x3BA6080")]
 	internal void Init()
 	{
 	}
 
 	[Token(Token = "0x6002091")]
-	[Address(RVA = "0x4EC0650", Offset = "0x4EC0650", VA = "0x4EC0650")]
+	[Address(RVA = "0x3BA6170", Offset = "0x3BA6170", VA = "0x3BA6170")]
 	internal void ArrayCountIncrement(int value)
 	{
 	}
 
 	[Token(Token = "0x6002092")]
-	[Address(RVA = "0x4EC0660", Offset = "0x4EC0660", VA = "0x4EC0660")]
+	[Address(RVA = "0x3BA6180", Offset = "0x3BA6180", VA = "0x3BA6180")]
 	internal bool GetNext(out System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum outBinaryTypeEnum, out object outTypeInformation)
 	{
 		return default(bool);

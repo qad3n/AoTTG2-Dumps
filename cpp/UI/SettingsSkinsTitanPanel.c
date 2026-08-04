@@ -1,16 +1,16 @@
 // Type: UI.SettingsSkinsTitanPanel
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/SettingsSkinsTitanPanel.cs
-// Prior real C# source (REFERENCE, outdated): Assets/Scripts/UI/SettingsPopup/SettingsSkinsTitanPanel.cs  [CHANGED since prior version]
+// Prior real C# source (older reference): Assets/Scripts/UI/SettingsPopup/SettingsSkinsTitanPanel.cs
 // --------------------------------
 
 // UI.SettingsSkinsTitanPanel$$get_VerticalSpacing
 // il2cpp: float UI_SettingsSkinsTitanPanel__get_VerticalSpacing (UI_SettingsSkinsTitanPanel_o* __this, const MethodInfo* method);
-// 0x41386f0
+// 0x444dac0
 
-float UI_SettingsSkinsTitanPanel__get_VerticalSpacing
-                (UI_SettingsSkinsTitanPanel_o *__this,MethodInfo *method)
+float UI_SettingsSkinsTitanPanel__get_VerticalSpacing(UI_SettingsSkinsTitanPanel_o *__this,MethodInfo *method)
 
 {
   return 20.0;
@@ -19,7 +19,7 @@ float UI_SettingsSkinsTitanPanel__get_VerticalSpacing
 
 // UI.SettingsSkinsTitanPanel$$get_ScrollBar
 // il2cpp: bool UI_SettingsSkinsTitanPanel__get_ScrollBar (UI_SettingsSkinsTitanPanel_o* __this, const MethodInfo* method);
-// 0x4138700
+// 0x444dad0
 
 bool_conflict
 UI_SettingsSkinsTitanPanel__get_ScrollBar(UI_SettingsSkinsTitanPanel_o *__this,MethodInfo *method)
@@ -33,7 +33,7 @@ UI_SettingsSkinsTitanPanel__get_ScrollBar(UI_SettingsSkinsTitanPanel_o *__this,M
 
 // UI.SettingsSkinsTitanPanel$$Setup
 // il2cpp: void UI_SettingsSkinsTitanPanel__Setup (UI_SettingsSkinsTitanPanel_o* __this, UI_BasePanel_o* parent, const MethodInfo* method);
-// 0x4138710
+// 0x444dae0
 
 void UI_SettingsSkinsTitanPanel__Setup
                (UI_SettingsSkinsTitanPanel_o *__this,UI_BasePanel_o *parent,MethodInfo *method)
@@ -45,7 +45,7 @@ void UI_SettingsSkinsTitanPanel__Setup
 
 // UI.SettingsSkinsTitanPanel$$.ctor
 // il2cpp: void UI_SettingsSkinsTitanPanel___ctor (UI_SettingsSkinsTitanPanel_o* __this, const MethodInfo* method);
-// 0x4138720
+// 0x444daf0
 
 void UI_SettingsSkinsTitanPanel___ctor(UI_SettingsSkinsTitanPanel_o *__this,MethodInfo *method)
 

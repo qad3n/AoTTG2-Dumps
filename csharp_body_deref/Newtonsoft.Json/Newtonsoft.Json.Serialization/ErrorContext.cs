@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Serialization.ErrorContext
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -11,14 +18,14 @@ public class ErrorContext
 	internal bool Traced
 	{
 		[Token(Token = "0x60007B4")]
-		[Address(RVA = "0x3AE1140", Offset = "0x3AE1140", VA = "0x3AE1140")]
+		[Address(RVA = "0x3DD6A90", Offset = "0x3DD6A90", VA = "0x3DD6A90")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60007B5")]
-		[Address(RVA = "0x3AE1150", Offset = "0x3AE1150", VA = "0x3AE1150")]
+		[Address(RVA = "0x3DD6AA0", Offset = "0x3DD6AA0", VA = "0x3DD6AA0")]
 		[CompilerGenerated]
 		set
 		{
@@ -29,7 +36,7 @@ public class ErrorContext
 	public Exception Error
 	{
 		[Token(Token = "0x60007B6")]
-		[Address(RVA = "0x3AE1160", Offset = "0x3AE1160", VA = "0x3AE1160")]
+		[Address(RVA = "0x3DD6AB0", Offset = "0x3DD6AB0", VA = "0x3DD6AB0")]
 		[CompilerGenerated]
 		get
 		{
@@ -41,7 +48,7 @@ public class ErrorContext
 	public object? OriginalObject
 	{
 		[Token(Token = "0x60007B7")]
-		[Address(RVA = "0x3AE1170", Offset = "0x3AE1170", VA = "0x3AE1170")]
+		[Address(RVA = "0x3DD6AC0", Offset = "0x3DD6AC0", VA = "0x3DD6AC0")]
 		[CompilerGenerated]
 		get
 		{
@@ -53,7 +60,7 @@ public class ErrorContext
 	public object? Member
 	{
 		[Token(Token = "0x60007B8")]
-		[Address(RVA = "0x3AE1180", Offset = "0x3AE1180", VA = "0x3AE1180")]
+		[Address(RVA = "0x3DD6AD0", Offset = "0x3DD6AD0", VA = "0x3DD6AD0")]
 		[CompilerGenerated]
 		get
 		{
@@ -65,7 +72,7 @@ public class ErrorContext
 	public string Path
 	{
 		[Token(Token = "0x60007B9")]
-		[Address(RVA = "0x3AE1190", Offset = "0x3AE1190", VA = "0x3AE1190")]
+		[Address(RVA = "0x3DD6AE0", Offset = "0x3DD6AE0", VA = "0x3DD6AE0")]
 		[CompilerGenerated]
 		get
 		{
@@ -77,14 +84,14 @@ public class ErrorContext
 	public bool Handled
 	{
 		[Token(Token = "0x60007BA")]
-		[Address(RVA = "0x3AE11A0", Offset = "0x3AE11A0", VA = "0x3AE11A0")]
+		[Address(RVA = "0x3DD6AF0", Offset = "0x3DD6AF0", VA = "0x3DD6AF0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60007BB")]
-		[Address(RVA = "0x3AE11B0", Offset = "0x3AE11B0", VA = "0x3AE11B0")]
+		[Address(RVA = "0x3DD6B00", Offset = "0x3DD6B00", VA = "0x3DD6B00")]
 		[CompilerGenerated]
 		set
 		{
@@ -92,7 +99,7 @@ public class ErrorContext
 	}
 
 	[Token(Token = "0x60007B3")]
-	[Address(RVA = "0x3AE10D0", Offset = "0x3AE10D0", VA = "0x3AE10D0")]
+	[Address(RVA = "0x3DD6A20", Offset = "0x3DD6A20", VA = "0x3DD6A20")]
 	internal ErrorContext(object? originalObject, object? member, string path, Exception error)
 	{
 	}

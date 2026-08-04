@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.IO.FileData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.IO;
@@ -26,7 +33,7 @@ internal class FileData
 	public DateTime LastWriteTime;
 
 	[Token(Token = "0x6001699")]
-	[Address(RVA = "0x45C4EB0", Offset = "0x45C4EB0", VA = "0x45C4EB0")]
+	[Address(RVA = "0x48E9FB0", Offset = "0x48E9FB0", VA = "0x48E9FB0")]
 	public FileData()
 	{
 	}

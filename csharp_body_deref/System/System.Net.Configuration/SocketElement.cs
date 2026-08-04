@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.Configuration.SocketElement
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Configuration;
 using System.Net.Sockets;
 using Il2CppDummyDll;
@@ -11,13 +18,13 @@ public sealed class SocketElement : ConfigurationElement
 	public bool AlwaysUseCompletionPortsForAccept
 	{
 		[Token(Token = "0x6001821")]
-		[Address(RVA = "0x45CFF90", Offset = "0x45CFF90", VA = "0x45CFF90")]
+		[Address(RVA = "0x48F5090", Offset = "0x48F5090", VA = "0x48F5090")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001822")]
-		[Address(RVA = "0x45CFFC0", Offset = "0x45CFFC0", VA = "0x45CFFC0")]
+		[Address(RVA = "0x48F50C0", Offset = "0x48F50C0", VA = "0x48F50C0")]
 		set
 		{
 		}
@@ -27,13 +34,13 @@ public sealed class SocketElement : ConfigurationElement
 	public bool AlwaysUseCompletionPortsForConnect
 	{
 		[Token(Token = "0x6001823")]
-		[Address(RVA = "0x45CFFF0", Offset = "0x45CFFF0", VA = "0x45CFFF0")]
+		[Address(RVA = "0x48F50F0", Offset = "0x48F50F0", VA = "0x48F50F0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001824")]
-		[Address(RVA = "0x45D0020", Offset = "0x45D0020", VA = "0x45D0020")]
+		[Address(RVA = "0x48F5120", Offset = "0x48F5120", VA = "0x48F5120")]
 		set
 		{
 		}
@@ -43,13 +50,13 @@ public sealed class SocketElement : ConfigurationElement
 	public IPProtectionLevel IPProtectionLevel
 	{
 		[Token(Token = "0x6001825")]
-		[Address(RVA = "0x45D0050", Offset = "0x45D0050", VA = "0x45D0050")]
+		[Address(RVA = "0x48F5150", Offset = "0x48F5150", VA = "0x48F5150")]
 		get
 		{
 			return default(IPProtectionLevel);
 		}
 		[Token(Token = "0x6001826")]
-		[Address(RVA = "0x45D0080", Offset = "0x45D0080", VA = "0x45D0080")]
+		[Address(RVA = "0x48F5180", Offset = "0x48F5180", VA = "0x48F5180")]
 		set
 		{
 		}
@@ -59,7 +66,7 @@ public sealed class SocketElement : ConfigurationElement
 	protected override ConfigurationPropertyCollection Properties
 	{
 		[Token(Token = "0x6001827")]
-		[Address(RVA = "0x45D00B0", Offset = "0x45D00B0", VA = "0x45D00B0", Slot = "4")]
+		[Address(RVA = "0x48F51B0", Offset = "0x48F51B0", VA = "0x48F51B0", Slot = "4")]
 		get
 		{
 			return null;
@@ -67,13 +74,13 @@ public sealed class SocketElement : ConfigurationElement
 	}
 
 	[Token(Token = "0x6001820")]
-	[Address(RVA = "0x45CFF60", Offset = "0x45CFF60", VA = "0x45CFF60")]
+	[Address(RVA = "0x48F5060", Offset = "0x48F5060", VA = "0x48F5060")]
 	public SocketElement()
 	{
 	}
 
 	[Token(Token = "0x6001828")]
-	[Address(RVA = "0x45D00E0", Offset = "0x45D00E0", VA = "0x45D00E0", Slot = "8")]
+	[Address(RVA = "0x48F51E0", Offset = "0x48F51E0", VA = "0x48F51E0", Slot = "8")]
 	protected override void PostDeserialize()
 	{
 	}

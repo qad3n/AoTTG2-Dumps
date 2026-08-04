@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.Internal.DiagnosticsExtensions
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -23,42 +30,42 @@ internal static class DiagnosticsExtensions
 	private static readonly Dictionary<Type, string> builtInTypeNames;
 
 	[Token(Token = "0x6000C8C")]
-	[Address(RVA = "0x46F4630", Offset = "0x46F4630", VA = "0x46F4630")]
+	[Address(RVA = "0x4A19730", Offset = "0x4A19730", VA = "0x4A19730")]
 	public static string CleanupAsyncStackTrace(this StackTrace stackTrace)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C8D")]
-	[Address(RVA = "0x46F4FC0", Offset = "0x46F4FC0", VA = "0x46F4FC0")]
+	[Address(RVA = "0x4A1A0C0", Offset = "0x4A1A0C0", VA = "0x4A1A0C0")]
 	private static bool IsAsync(MethodBase methodInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C8E")]
-	[Address(RVA = "0x46F5060", Offset = "0x46F5060", VA = "0x46F5060")]
+	[Address(RVA = "0x4A1A160", Offset = "0x4A1A160", VA = "0x4A1A160")]
 	private static bool TryResolveStateMachineMethod(ref MethodBase method, out Type declaringType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C8F")]
-	[Address(RVA = "0x46F5610", Offset = "0x46F5610", VA = "0x46F5610")]
+	[Address(RVA = "0x4A1A710", Offset = "0x4A1A710", VA = "0x4A1A710")]
 	private static string BeautifyType(Type t, bool shortName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C90")]
-	[Address(RVA = "0x46F4E60", Offset = "0x46F4E60", VA = "0x46F4E60")]
+	[Address(RVA = "0x4A19F60", Offset = "0x4A19F60", VA = "0x4A19F60")]
 	private static bool IgnoreLine(MethodBase methodInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C91")]
-	[Address(RVA = "0x46F5C20", Offset = "0x46F5C20", VA = "0x46F5C20")]
+	[Address(RVA = "0x4A1AD20", Offset = "0x4A1AD20", VA = "0x4A1AD20")]
 	private static string AppendHyperLink(string path, string line)
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.Common.ADP
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Data.Common;
@@ -46,109 +53,109 @@ internal static class ADP
 	internal static readonly int PtrSize;
 
 	[Token(Token = "0x6000AFB")]
-	[Address(RVA = "0x42E19A0", Offset = "0x42E19A0", VA = "0x42E19A0")]
+	[Address(RVA = "0x461F100", Offset = "0x461F100", VA = "0x461F100")]
 	private static void TraceException(string trace, Exception e)
 	{
 	}
 
 	[Token(Token = "0x6000AFC")]
-	[Address(RVA = "0x42E1A30", Offset = "0x42E1A30", VA = "0x42E1A30")]
+	[Address(RVA = "0x461F190", Offset = "0x461F190", VA = "0x461F190")]
 	internal static void TraceExceptionAsReturnValue(Exception e)
 	{
 	}
 
 	[Token(Token = "0x6000AFD")]
-	[Address(RVA = "0x42E1B50", Offset = "0x42E1B50", VA = "0x42E1B50")]
+	[Address(RVA = "0x461F2B0", Offset = "0x461F2B0", VA = "0x461F2B0")]
 	internal static void TraceExceptionWithoutRethrow(Exception e)
 	{
 	}
 
 	[Token(Token = "0x6000AFE")]
-	[Address(RVA = "0x42E1C70", Offset = "0x42E1C70", VA = "0x42E1C70")]
+	[Address(RVA = "0x461F3D0", Offset = "0x461F3D0", VA = "0x461F3D0")]
 	internal static ArgumentException Argument(string error)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AFF")]
-	[Address(RVA = "0x42DED00", Offset = "0x42DED00", VA = "0x42DED00")]
+	[Address(RVA = "0x461C460", Offset = "0x461C460", VA = "0x461C460")]
 	internal static ArgumentOutOfRangeException ArgumentOutOfRange(string parameterName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B00")]
-	[Address(RVA = "0x42E1CF0", Offset = "0x42E1CF0", VA = "0x42E1CF0")]
+	[Address(RVA = "0x461F450", Offset = "0x461F450", VA = "0x461F450")]
 	internal static ArgumentOutOfRangeException ArgumentOutOfRange(string message, string parameterName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B01")]
-	[Address(RVA = "0x42E1D70", Offset = "0x42E1D70", VA = "0x42E1D70")]
+	[Address(RVA = "0x461F4D0", Offset = "0x461F4D0", VA = "0x461F4D0")]
 	internal static InvalidOperationException InvalidOperation(string error)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B02")]
-	[Address(RVA = "0x42E1DF0", Offset = "0x42E1DF0", VA = "0x42E1DF0")]
+	[Address(RVA = "0x461F550", Offset = "0x461F550", VA = "0x461F550")]
 	internal static NotSupportedException NotSupported(string error)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B03")]
-	[Address(RVA = "0x42E0340", Offset = "0x42E0340", VA = "0x42E0340")]
+	[Address(RVA = "0x461DAA0", Offset = "0x461DAA0", VA = "0x461DAA0")]
 	internal static bool IsCatchableExceptionType(Exception e)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B04")]
-	[Address(RVA = "0x42E1E70", Offset = "0x42E1E70", VA = "0x42E1E70")]
+	[Address(RVA = "0x461F5D0", Offset = "0x461F5D0", VA = "0x461F5D0")]
 	internal static bool IsCatchableOrSecurityExceptionType(Exception e)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B05")]
-	[Address(RVA = "0x42E2040", Offset = "0x42E2040", VA = "0x42E2040")]
+	[Address(RVA = "0x461F7A0", Offset = "0x461F7A0", VA = "0x461F7A0")]
 	internal static ArgumentOutOfRangeException InvalidEnumerationValue(Type type, int value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B06")]
-	[Address(RVA = "0x42E1180", Offset = "0x42E1180", VA = "0x42E1180")]
+	[Address(RVA = "0x461E8E0", Offset = "0x461E8E0", VA = "0x461E8E0")]
 	internal static Exception InvalidSeekOrigin(string parameterName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B07")]
-	[Address(RVA = "0x42E21A0", Offset = "0x42E21A0", VA = "0x42E21A0")]
+	[Address(RVA = "0x461F900", Offset = "0x461F900", VA = "0x461F900")]
 	internal static ArgumentOutOfRangeException InvalidAcceptRejectRule(AcceptRejectRule value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B08")]
-	[Address(RVA = "0x42E2230", Offset = "0x42E2230", VA = "0x42E2230")]
+	[Address(RVA = "0x461F990", Offset = "0x461F990", VA = "0x461F990")]
 	internal static ArgumentOutOfRangeException InvalidMissingSchemaAction(MissingSchemaAction value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B09")]
-	[Address(RVA = "0x42E22C0", Offset = "0x42E22C0", VA = "0x42E22C0")]
+	[Address(RVA = "0x461FA20", Offset = "0x461FA20", VA = "0x461FA20")]
 	internal static ArgumentOutOfRangeException InvalidRule(Rule value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B0A")]
-	[Address(RVA = "0x42C7CE0", Offset = "0x42C7CE0", VA = "0x42C7CE0")]
+	[Address(RVA = "0x4605440", Offset = "0x4605440", VA = "0x4605440")]
 	internal static Exception WrongType(Type got, Type expected)
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.Bloom
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Serialization;
@@ -70,14 +77,14 @@ public sealed class Bloom : PostProcessEffectSettings
 	public FloatParameter dirtIntensity;
 
 	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x480F9C0", Offset = "0x480F9C0", VA = "0x480F9C0", Slot = "4")]
+	[Address(RVA = "0x4B34AB0", Offset = "0x4B34AB0", VA = "0x4B34AB0", Slot = "4")]
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x480FA00", Offset = "0x480FA00", VA = "0x480FA00")]
+	[Address(RVA = "0x4B34AF0", Offset = "0x4B34AF0", VA = "0x4B34AF0")]
 	public Bloom()
 	{
 	}

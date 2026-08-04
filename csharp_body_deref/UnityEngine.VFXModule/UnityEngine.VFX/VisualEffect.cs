@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.VFX.VisualEffect
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -24,7 +31,7 @@ public class VisualEffect : Behaviour
 	public VisualEffectAsset visualEffectAsset
 	{
 		[Token(Token = "0x600001F")]
-		[Address(RVA = "0x4DE24B0", Offset = "0x4DE24B0", VA = "0x4DE24B0")]
+		[Address(RVA = "0x510A2C0", Offset = "0x510A2C0", VA = "0x510A2C0")]
 		get
 		{
 			return null;
@@ -32,14 +39,14 @@ public class VisualEffect : Behaviour
 	}
 
 	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x4DE2580", Offset = "0x4DE2580", VA = "0x4DE2580")]
+	[Address(RVA = "0x510A390", Offset = "0x510A390", VA = "0x510A390")]
 	public VFXEventAttribute CreateVFXEventAttribute()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x4DE2710", Offset = "0x4DE2710", VA = "0x4DE2710")]
+	[Address(RVA = "0x510A520", Offset = "0x510A520", VA = "0x510A520")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static VFXEventAttribute InvokeGetCachedEventAttributeForOutputEvent_Internal(VisualEffect source)
 	{
@@ -47,7 +54,7 @@ public class VisualEffect : Behaviour
 	}
 
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x4DE2770", Offset = "0x4DE2770", VA = "0x4DE2770")]
+	[Address(RVA = "0x510A580", Offset = "0x510A580", VA = "0x510A580")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeOutputEventReceived_Internal(VisualEffect source, int eventNameId)
 	{
@@ -55,6 +62,6 @@ public class VisualEffect : Behaviour
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x4DE2550", Offset = "0x4DE2550", VA = "0x4DE2550")]
+	[Address(RVA = "0x510A360", Offset = "0x510A360", VA = "0x510A360")]
 	private static extern VisualEffectAsset get_visualEffectAsset_Injected(IntPtr _unity_self);
 }

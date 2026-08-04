@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.SecurityException
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
@@ -14,37 +21,37 @@ public class SecurityException : SystemException
 	private string permissionState;
 
 	[Token(Token = "0x60017B3")]
-	[Address(RVA = "0x4E3B0A0", Offset = "0x4E3B0A0", VA = "0x4E3B0A0")]
+	[Address(RVA = "0x3B20BC0", Offset = "0x3B20BC0", VA = "0x3B20BC0")]
 	public SecurityException()
 	{
 	}
 
 	[Token(Token = "0x60017B4")]
-	[Address(RVA = "0x4E3B0F0", Offset = "0x4E3B0F0", VA = "0x4E3B0F0")]
+	[Address(RVA = "0x3B20C10", Offset = "0x3B20C10", VA = "0x3B20C10")]
 	public SecurityException(string message)
 	{
 	}
 
 	[Token(Token = "0x60017B5")]
-	[Address(RVA = "0x4E3B110", Offset = "0x4E3B110", VA = "0x4E3B110")]
+	[Address(RVA = "0x3B20C30", Offset = "0x3B20C30", VA = "0x3B20C30")]
 	protected SecurityException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60017B6")]
-	[Address(RVA = "0x4E3B230", Offset = "0x4E3B230", VA = "0x4E3B230")]
+	[Address(RVA = "0x3B20D50", Offset = "0x3B20D50", VA = "0x3B20D50")]
 	public SecurityException(string message, Exception inner)
 	{
 	}
 
 	[Token(Token = "0x60017B7")]
-	[Address(RVA = "0x4E3B250", Offset = "0x4E3B250", VA = "0x4E3B250", Slot = "11")]
+	[Address(RVA = "0x3B20D70", Offset = "0x3B20D70", VA = "0x3B20D70", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60017B8")]
-	[Address(RVA = "0x4E3B340", Offset = "0x4E3B340", VA = "0x4E3B340", Slot = "3")]
+	[Address(RVA = "0x3B20E60", Offset = "0x3B20E60", VA = "0x3B20E60", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

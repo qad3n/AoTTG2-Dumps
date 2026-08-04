@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlArrayAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Text;
 using System.Xml.Schema;
 using Il2CppDummyDll;
@@ -32,7 +39,7 @@ public class XmlArrayAttribute : Attribute
 	public string ElementName
 	{
 		[Token(Token = "0x6000D0A")]
-		[Address(RVA = "0x44D3890", Offset = "0x44D3890", VA = "0x44D3890")]
+		[Address(RVA = "0x4810FF0", Offset = "0x4810FF0", VA = "0x4810FF0")]
 		get
 		{
 			return null;
@@ -43,7 +50,7 @@ public class XmlArrayAttribute : Attribute
 	public XmlSchemaForm Form
 	{
 		[Token(Token = "0x6000D0B")]
-		[Address(RVA = "0x44D38C0", Offset = "0x44D38C0", VA = "0x44D38C0")]
+		[Address(RVA = "0x4811020", Offset = "0x4811020", VA = "0x4811020")]
 		get
 		{
 			return default(XmlSchemaForm);
@@ -54,7 +61,7 @@ public class XmlArrayAttribute : Attribute
 	public bool IsNullable
 	{
 		[Token(Token = "0x6000D0C")]
-		[Address(RVA = "0x44D38D0", Offset = "0x44D38D0", VA = "0x44D38D0")]
+		[Address(RVA = "0x4811030", Offset = "0x4811030", VA = "0x4811030")]
 		get
 		{
 			return default(bool);
@@ -65,7 +72,7 @@ public class XmlArrayAttribute : Attribute
 	public string Namespace
 	{
 		[Token(Token = "0x6000D0D")]
-		[Address(RVA = "0x44D38E0", Offset = "0x44D38E0", VA = "0x44D38E0")]
+		[Address(RVA = "0x4811040", Offset = "0x4811040", VA = "0x4811040")]
 		get
 		{
 			return null;
@@ -76,7 +83,7 @@ public class XmlArrayAttribute : Attribute
 	public int Order
 	{
 		[Token(Token = "0x6000D0E")]
-		[Address(RVA = "0x44D38F0", Offset = "0x44D38F0", VA = "0x44D38F0")]
+		[Address(RVA = "0x4811050", Offset = "0x4811050", VA = "0x4811050")]
 		get
 		{
 			return default(int);
@@ -84,7 +91,7 @@ public class XmlArrayAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000D0F")]
-	[Address(RVA = "0x44D3900", Offset = "0x44D3900", VA = "0x44D3900")]
+	[Address(RVA = "0x4811060", Offset = "0x4811060", VA = "0x4811060")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

@@ -1,10 +1,17 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.CameraProperties
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002D7")]
+[Token(Token = "0x20002DA")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public struct CameraProperties : IEquatable<CameraProperties>
 {
@@ -136,36 +143,36 @@ public struct CameraProperties : IEquatable<CameraProperties>
 	[FieldOffset(Offset = "0x3DC")]
 	private int isImplicitProjectionMatrix;
 
-	[Token(Token = "0x6001018")]
-	[Address(RVA = "0x4B02040", Offset = "0x4B02040", VA = "0x4B02040")]
+	[Token(Token = "0x600101A")]
+	[Address(RVA = "0x4E29970", Offset = "0x4E29970", VA = "0x4E29970")]
 	public Plane GetShadowCullingPlane(int index)
 	{
 		return default(Plane);
 	}
 
-	[Token(Token = "0x6001019")]
-	[Address(RVA = "0x4B02120", Offset = "0x4B02120", VA = "0x4B02120")]
+	[Token(Token = "0x600101B")]
+	[Address(RVA = "0x4E29A50", Offset = "0x4E29A50", VA = "0x4E29A50")]
 	public Plane GetCameraCullingPlane(int index)
 	{
 		return default(Plane);
 	}
 
-	[Token(Token = "0x600101A")]
-	[Address(RVA = "0x4B02200", Offset = "0x4B02200", VA = "0x4B02200", Slot = "4")]
+	[Token(Token = "0x600101C")]
+	[Address(RVA = "0x4E29B30", Offset = "0x4E29B30", VA = "0x4E29B30", Slot = "4")]
 	public bool Equals(CameraProperties other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600101B")]
-	[Address(RVA = "0x4B04180", Offset = "0x4B04180", VA = "0x4B04180", Slot = "0")]
+	[Token(Token = "0x600101D")]
+	[Address(RVA = "0x4E2BAB0", Offset = "0x4E2BAB0", VA = "0x4E2BAB0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600101C")]
-	[Address(RVA = "0x4B04210", Offset = "0x4B04210", VA = "0x4B04210", Slot = "2")]
+	[Token(Token = "0x600101E")]
+	[Address(RVA = "0x4E2BB40", Offset = "0x4E2BB40", VA = "0x4E2BB40", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

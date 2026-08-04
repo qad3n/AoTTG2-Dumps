@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: ExitGames.Client.Photon.SimulationItem
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -23,14 +30,14 @@ internal class SimulationItem
 	public int Delay
 	{
 		[Token(Token = "0x60000E2")]
-		[Address(RVA = "0x3B77DC0", Offset = "0x3B77DC0", VA = "0x3B77DC0")]
+		[Address(RVA = "0x3E6D710", Offset = "0x3E6D710", VA = "0x3E6D710")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000E3")]
-		[Address(RVA = "0x3B77DD0", Offset = "0x3B77DD0", VA = "0x3B77DD0")]
+		[Address(RVA = "0x3E6D720", Offset = "0x3E6D720", VA = "0x3E6D720")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -38,7 +45,7 @@ internal class SimulationItem
 	}
 
 	[Token(Token = "0x60000E1")]
-	[Address(RVA = "0x3B77D40", Offset = "0x3B77D40", VA = "0x3B77D40")]
+	[Address(RVA = "0x3E6D690", Offset = "0x3E6D690", VA = "0x3E6D690")]
 	public SimulationItem()
 	{
 	}

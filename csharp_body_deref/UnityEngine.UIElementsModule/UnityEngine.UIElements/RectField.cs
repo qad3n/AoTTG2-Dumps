@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.RectField
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Scripting.APIUpdating;
 
@@ -11,7 +18,7 @@ public class RectField : BaseCompositeField<Rect, FloatField, float>
 	public new class UxmlFactory : UxmlFactory<RectField, UxmlTraits>
 	{
 		[Token(Token = "0x6000353")]
-		[Address(RVA = "0x4C0AC70", Offset = "0x4C0AC70", VA = "0x4C0AC70")]
+		[Address(RVA = "0x4F325A0", Offset = "0x4F325A0", VA = "0x4F325A0")]
 		public UxmlFactory()
 		{
 		}
@@ -37,13 +44,13 @@ public class RectField : BaseCompositeField<Rect, FloatField, float>
 		private UxmlFloatAttributeDescription m_HValue;
 
 		[Token(Token = "0x6000354")]
-		[Address(RVA = "0x4C0ACB0", Offset = "0x4C0ACB0", VA = "0x4C0ACB0", Slot = "4")]
+		[Address(RVA = "0x4F325E0", Offset = "0x4F325E0", VA = "0x4F325E0", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x6000355")]
-		[Address(RVA = "0x4C0AF00", Offset = "0x4C0AF00", VA = "0x4C0AF00")]
+		[Address(RVA = "0x4F32830", Offset = "0x4F32830", VA = "0x4F32830")]
 		public UxmlTraits()
 		{
 		}
@@ -62,20 +69,20 @@ public class RectField : BaseCompositeField<Rect, FloatField, float>
 	public new static readonly string inputUssClassName;
 
 	[Token(Token = "0x600034F")]
-	[Address(RVA = "0x4C0A1A0", Offset = "0x4C0A1A0", VA = "0x4C0A1A0", Slot = "115")]
+	[Address(RVA = "0x4F31AD0", Offset = "0x4F31AD0", VA = "0x4F31AD0", Slot = "115")]
 	internal override FieldDescription[] DescribeFields()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000350")]
-	[Address(RVA = "0x4C0AA40", Offset = "0x4C0AA40", VA = "0x4C0AA40")]
+	[Address(RVA = "0x4F32370", Offset = "0x4F32370", VA = "0x4F32370")]
 	public RectField()
 	{
 	}
 
 	[Token(Token = "0x6000351")]
-	[Address(RVA = "0x4C0AA50", Offset = "0x4C0AA50", VA = "0x4C0AA50")]
+	[Address(RVA = "0x4F32380", Offset = "0x4F32380", VA = "0x4F32380")]
 	public RectField(string label)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.AndroidReflection
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -39,77 +46,77 @@ internal class AndroidReflection
 	private static readonly IntPtr s_FieldGetDeclaringClass;
 
 	[Token(Token = "0x6000101")]
-	[Address(RVA = "0x4A76770", Offset = "0x4A76770", VA = "0x4A76770")]
+	[Address(RVA = "0x4D9DF90", Offset = "0x4D9DF90", VA = "0x4D9DF90")]
 	public static bool IsPrimitive(Type t)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000102")]
-	[Address(RVA = "0x4A76790", Offset = "0x4A76790", VA = "0x4A76790")]
+	[Address(RVA = "0x4D9DFB0", Offset = "0x4D9DFB0", VA = "0x4D9DFB0")]
 	public static bool IsAssignableFrom(Type t, Type from)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000103")]
-	[Address(RVA = "0x4A767B0", Offset = "0x4A767B0", VA = "0x4A767B0")]
+	[Address(RVA = "0x4D9DFD0", Offset = "0x4D9DFD0", VA = "0x4D9DFD0")]
 	private static IntPtr GetStaticMethodID(string clazz, string methodName, string signature)
 	{
 		return default(IntPtr);
 	}
 
 	[Token(Token = "0x6000104")]
-	[Address(RVA = "0x4A768A0", Offset = "0x4A768A0", VA = "0x4A768A0")]
+	[Address(RVA = "0x4D9E0C0", Offset = "0x4D9E0C0", VA = "0x4D9E0C0")]
 	private static IntPtr GetMethodID(string clazz, string methodName, string signature)
 	{
 		return default(IntPtr);
 	}
 
 	[Token(Token = "0x6000105")]
-	[Address(RVA = "0x4A76990", Offset = "0x4A76990", VA = "0x4A76990")]
+	[Address(RVA = "0x4D9E1B0", Offset = "0x4D9E1B0", VA = "0x4D9E1B0")]
 	public static IntPtr GetConstructorMember(IntPtr jclass, string signature)
 	{
 		return default(IntPtr);
 	}
 
 	[Token(Token = "0x6000106")]
-	[Address(RVA = "0x4A76BC0", Offset = "0x4A76BC0", VA = "0x4A76BC0")]
+	[Address(RVA = "0x4D9E3E0", Offset = "0x4D9E3E0", VA = "0x4D9E3E0")]
 	public static IntPtr GetMethodMember(IntPtr jclass, string methodName, string signature, bool isStatic)
 	{
 		return default(IntPtr);
 	}
 
 	[Token(Token = "0x6000107")]
-	[Address(RVA = "0x4A76E00", Offset = "0x4A76E00", VA = "0x4A76E00")]
+	[Address(RVA = "0x4D9E620", Offset = "0x4D9E620", VA = "0x4D9E620")]
 	public static IntPtr GetFieldMember(IntPtr jclass, string fieldName, string signature, bool isStatic)
 	{
 		return default(IntPtr);
 	}
 
 	[Token(Token = "0x6000108")]
-	[Address(RVA = "0x4A77040", Offset = "0x4A77040", VA = "0x4A77040")]
+	[Address(RVA = "0x4D9E860", Offset = "0x4D9E860", VA = "0x4D9E860")]
 	public static IntPtr GetFieldClass(IntPtr field)
 	{
 		return default(IntPtr);
 	}
 
 	[Token(Token = "0x6000109")]
-	[Address(RVA = "0x4A770F0", Offset = "0x4A770F0", VA = "0x4A770F0")]
+	[Address(RVA = "0x4D9E910", Offset = "0x4D9E910", VA = "0x4D9E910")]
 	public static string GetFieldSignature(IntPtr field)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600010A")]
-	[Address(RVA = "0x4A771D0", Offset = "0x4A771D0", VA = "0x4A771D0")]
+	[Address(RVA = "0x4D9E9F0", Offset = "0x4D9E9F0", VA = "0x4D9E9F0")]
 	public static IntPtr NewProxyInstance(IntPtr player, IntPtr delegateHandle, IntPtr interfaze)
 	{
 		return default(IntPtr);
 	}
 
 	[Token(Token = "0x600010B")]
-	[Address(RVA = "0x4A74030", Offset = "0x4A74030", VA = "0x4A74030")]
+	[Address(RVA = "0x4D9B850", Offset = "0x4D9B850", VA = "0x4D9B850")]
 	public static void SetNativeExceptionOnProxy(IntPtr proxy, Exception e, bool methodNotFound)
 	{
 	}

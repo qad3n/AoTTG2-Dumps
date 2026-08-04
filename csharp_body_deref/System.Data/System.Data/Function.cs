@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.Function
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Data;
@@ -38,7 +45,7 @@ internal sealed class Function
 	internal static string[] s_functionName;
 
 	[Token(Token = "0x6000662")]
-	[Address(RVA = "0x4275310", Offset = "0x4275310", VA = "0x4275310")]
+	[Address(RVA = "0x45B2A70", Offset = "0x45B2A70", VA = "0x45B2A70")]
 	internal Function(string name, FunctionId id, Type result, bool IsValidateArguments, bool IsVariantArgumentList, int argumentCount, Type a1, Type a2, Type a3)
 	{
 	}

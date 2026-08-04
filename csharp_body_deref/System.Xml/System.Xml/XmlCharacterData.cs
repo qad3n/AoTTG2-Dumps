@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.XmlCharacterData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.XPath;
 using Il2CppDummyDll;
 
@@ -14,13 +21,13 @@ public abstract class XmlCharacterData : XmlLinkedNode
 	public override string Value
 	{
 		[Token(Token = "0x600080C")]
-		[Address(RVA = "0x448D9F0", Offset = "0x448D9F0", VA = "0x448D9F0", Slot = "9")]
+		[Address(RVA = "0x47CB150", Offset = "0x47CB150", VA = "0x47CB150", Slot = "9")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600080D")]
-		[Address(RVA = "0x448DA10", Offset = "0x448DA10", VA = "0x448DA10", Slot = "10")]
+		[Address(RVA = "0x47CB170", Offset = "0x47CB170", VA = "0x47CB170", Slot = "10")]
 		set
 		{
 		}
@@ -30,13 +37,13 @@ public abstract class XmlCharacterData : XmlLinkedNode
 	public override string InnerText
 	{
 		[Token(Token = "0x600080E")]
-		[Address(RVA = "0x448DA30", Offset = "0x448DA30", VA = "0x448DA30", Slot = "41")]
+		[Address(RVA = "0x47CB190", Offset = "0x47CB190", VA = "0x47CB190", Slot = "41")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600080F")]
-		[Address(RVA = "0x448DA50", Offset = "0x448DA50", VA = "0x448DA50", Slot = "42")]
+		[Address(RVA = "0x47CB1B0", Offset = "0x47CB1B0", VA = "0x47CB1B0", Slot = "42")]
 		set
 		{
 		}
@@ -46,33 +53,33 @@ public abstract class XmlCharacterData : XmlLinkedNode
 	public virtual string Data
 	{
 		[Token(Token = "0x6000810")]
-		[Address(RVA = "0x448DA70", Offset = "0x448DA70", VA = "0x448DA70", Slot = "62")]
+		[Address(RVA = "0x47CB1D0", Offset = "0x47CB1D0", VA = "0x47CB1D0", Slot = "62")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000811")]
-		[Address(RVA = "0x448DAA0", Offset = "0x448DAA0", VA = "0x448DAA0", Slot = "63")]
+		[Address(RVA = "0x47CB200", Offset = "0x47CB200", VA = "0x47CB200", Slot = "63")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600080B")]
-	[Address(RVA = "0x448D7D0", Offset = "0x448D7D0", VA = "0x448D7D0")]
+	[Address(RVA = "0x47CAF30", Offset = "0x47CAF30", VA = "0x47CAF30")]
 	protected internal XmlCharacterData(string data, XmlDocument doc)
 	{
 	}
 
 	[Token(Token = "0x6000812")]
-	[Address(RVA = "0x448DB60", Offset = "0x448DB60", VA = "0x448DB60")]
+	[Address(RVA = "0x47CB2C0", Offset = "0x47CB2C0", VA = "0x47CB2C0")]
 	internal bool CheckOnData(string data)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000813")]
-	[Address(RVA = "0x448DB90", Offset = "0x448DB90", VA = "0x448DB90")]
+	[Address(RVA = "0x47CB2F0", Offset = "0x47CB2F0", VA = "0x47CB2F0")]
 	internal bool DecideXPNodeTypeForTextNodes(XmlNode node, ref XPathNodeType xnt)
 	{
 		return default(bool);

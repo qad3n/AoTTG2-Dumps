@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.OperatorInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Data;
@@ -18,7 +25,7 @@ internal sealed class OperatorInfo
 	internal int _priority;
 
 	[Token(Token = "0x6000611")]
-	[Address(RVA = "0x426DFE0", Offset = "0x426DFE0", VA = "0x426DFE0")]
+	[Address(RVA = "0x45AB740", Offset = "0x45AB740", VA = "0x45AB740")]
 	internal OperatorInfo(Nodes type, int op, int pri)
 	{
 	}

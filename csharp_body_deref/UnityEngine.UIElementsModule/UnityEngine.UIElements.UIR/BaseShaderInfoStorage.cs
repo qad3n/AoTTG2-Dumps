@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UIR.BaseShaderInfoStorage
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -35,14 +42,14 @@ internal abstract class BaseShaderInfoStorage : IDisposable
 	protected bool disposed
 	{
 		[Token(Token = "0x6001DB3")]
-		[Address(RVA = "0x4C7E740", Offset = "0x4C7E740", VA = "0x4C7E740")]
+		[Address(RVA = "0x4FA6070", Offset = "0x4FA6070", VA = "0x4FA6070")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001DB4")]
-		[Address(RVA = "0x4C7E750", Offset = "0x4C7E750", VA = "0x4C7E750")]
+		[Address(RVA = "0x4FA6080", Offset = "0x4FA6080", VA = "0x4FA6080")]
 		[CompilerGenerated]
 		private set
 		{
@@ -59,19 +66,19 @@ internal abstract class BaseShaderInfoStorage : IDisposable
 	public abstract void UpdateTexture();
 
 	[Token(Token = "0x6001DB5")]
-	[Address(RVA = "0x4C7E760", Offset = "0x4C7E760", VA = "0x4C7E760", Slot = "4")]
+	[Address(RVA = "0x4FA6090", Offset = "0x4FA6090", VA = "0x4FA6090", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6001DB6")]
-	[Address(RVA = "0x4C7E7D0", Offset = "0x4C7E7D0", VA = "0x4C7E7D0", Slot = "9")]
+	[Address(RVA = "0x4FA6100", Offset = "0x4FA6100", VA = "0x4FA6100", Slot = "9")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6001DB7")]
-	[Address(RVA = "0x4C7E7E0", Offset = "0x4C7E7E0", VA = "0x4C7E7E0")]
+	[Address(RVA = "0x4FA6110", Offset = "0x4FA6110", VA = "0x4FA6110")]
 	protected BaseShaderInfoStorage()
 	{
 	}

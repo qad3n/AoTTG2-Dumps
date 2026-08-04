@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Threading.AbandonedMutexException
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
 
@@ -16,25 +23,25 @@ public class AbandonedMutexException : SystemException
 	private Mutex _mutex;
 
 	[Token(Token = "0x6001154")]
-	[Address(RVA = "0x50423C0", Offset = "0x50423C0", VA = "0x50423C0")]
+	[Address(RVA = "0x3D27EE0", Offset = "0x3D27EE0", VA = "0x3D27EE0")]
 	public AbandonedMutexException()
 	{
 	}
 
 	[Token(Token = "0x6001155")]
-	[Address(RVA = "0x5042410", Offset = "0x5042410", VA = "0x5042410")]
+	[Address(RVA = "0x3D27F30", Offset = "0x3D27F30", VA = "0x3D27F30")]
 	public AbandonedMutexException(int location, WaitHandle handle)
 	{
 	}
 
 	[Token(Token = "0x6001156")]
-	[Address(RVA = "0x5042550", Offset = "0x5042550", VA = "0x5042550")]
+	[Address(RVA = "0x3D28070", Offset = "0x3D28070", VA = "0x3D28070")]
 	protected AbandonedMutexException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001157")]
-	[Address(RVA = "0x50424D0", Offset = "0x50424D0", VA = "0x50424D0")]
+	[Address(RVA = "0x3D27FF0", Offset = "0x3D27FF0", VA = "0x3D27FF0")]
 	private void SetupException(int location, WaitHandle handle)
 	{
 	}

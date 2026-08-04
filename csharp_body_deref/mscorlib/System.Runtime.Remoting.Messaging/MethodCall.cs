@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.Messaging.MethodCall
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Reflection;
 using System.Runtime.InteropServices;
@@ -60,7 +67,7 @@ public class MethodCall : IMethodCallMessage, IMethodMessage, IMessage, ISeriali
 	public int ArgCount
 	{
 		[Token(Token = "0x6001E83")]
-		[Address(RVA = "0x4EA79C0", Offset = "0x4EA79C0", VA = "0x4EA79C0", Slot = "4")]
+		[Address(RVA = "0x3B8D4E0", Offset = "0x3B8D4E0", VA = "0x3B8D4E0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -71,7 +78,7 @@ public class MethodCall : IMethodCallMessage, IMethodMessage, IMessage, ISeriali
 	public object[] Args
 	{
 		[Token(Token = "0x6001E84")]
-		[Address(RVA = "0x4EA79E0", Offset = "0x4EA79E0", VA = "0x4EA79E0", Slot = "5")]
+		[Address(RVA = "0x3B8D500", Offset = "0x3B8D500", VA = "0x3B8D500", Slot = "5")]
 		get
 		{
 			return null;
@@ -82,7 +89,7 @@ public class MethodCall : IMethodCallMessage, IMethodMessage, IMessage, ISeriali
 	public LogicalCallContext LogicalCallContext
 	{
 		[Token(Token = "0x6001E85")]
-		[Address(RVA = "0x4EA79F0", Offset = "0x4EA79F0", VA = "0x4EA79F0", Slot = "6")]
+		[Address(RVA = "0x3B8D510", Offset = "0x3B8D510", VA = "0x3B8D510", Slot = "6")]
 		get
 		{
 			return null;
@@ -93,7 +100,7 @@ public class MethodCall : IMethodCallMessage, IMethodMessage, IMessage, ISeriali
 	public MethodBase MethodBase
 	{
 		[Token(Token = "0x6001E86")]
-		[Address(RVA = "0x4EA7A70", Offset = "0x4EA7A70", VA = "0x4EA7A70", Slot = "7")]
+		[Address(RVA = "0x3B8D590", Offset = "0x3B8D590", VA = "0x3B8D590", Slot = "7")]
 		get
 		{
 			return null;
@@ -104,7 +111,7 @@ public class MethodCall : IMethodCallMessage, IMethodMessage, IMessage, ISeriali
 	public string MethodName
 	{
 		[Token(Token = "0x6001E87")]
-		[Address(RVA = "0x4EA80E0", Offset = "0x4EA80E0", VA = "0x4EA80E0", Slot = "8")]
+		[Address(RVA = "0x3B8DC00", Offset = "0x3B8DC00", VA = "0x3B8DC00", Slot = "8")]
 		get
 		{
 			return null;
@@ -115,7 +122,7 @@ public class MethodCall : IMethodCallMessage, IMethodMessage, IMessage, ISeriali
 	public object MethodSignature
 	{
 		[Token(Token = "0x6001E88")]
-		[Address(RVA = "0x4EA8130", Offset = "0x4EA8130", VA = "0x4EA8130", Slot = "9")]
+		[Address(RVA = "0x3B8DC50", Offset = "0x3B8DC50", VA = "0x3B8DC50", Slot = "9")]
 		get
 		{
 			return null;
@@ -126,7 +133,7 @@ public class MethodCall : IMethodCallMessage, IMethodMessage, IMessage, ISeriali
 	public virtual IDictionary Properties
 	{
 		[Token(Token = "0x6001E89")]
-		[Address(RVA = "0x4EA5F50", Offset = "0x4EA5F50", VA = "0x4EA5F50", Slot = "21")]
+		[Address(RVA = "0x3B8BA70", Offset = "0x3B8BA70", VA = "0x3B8BA70", Slot = "21")]
 		get
 		{
 			return null;
@@ -137,7 +144,7 @@ public class MethodCall : IMethodCallMessage, IMethodMessage, IMessage, ISeriali
 	public string TypeName
 	{
 		[Token(Token = "0x6001E8B")]
-		[Address(RVA = "0x4EA8400", Offset = "0x4EA8400", VA = "0x4EA8400", Slot = "10")]
+		[Address(RVA = "0x3B8DF20", Offset = "0x3B8DF20", VA = "0x3B8DF20", Slot = "10")]
 		get
 		{
 			return null;
@@ -148,13 +155,13 @@ public class MethodCall : IMethodCallMessage, IMethodMessage, IMessage, ISeriali
 	public string Uri
 	{
 		[Token(Token = "0x6001E8C")]
-		[Address(RVA = "0x4EA8460", Offset = "0x4EA8460", VA = "0x4EA8460", Slot = "11")]
+		[Address(RVA = "0x3B8DF80", Offset = "0x3B8DF80", VA = "0x3B8DF80", Slot = "11")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001E8D")]
-		[Address(RVA = "0x4EA8470", Offset = "0x4EA8470", VA = "0x4EA8470")]
+		[Address(RVA = "0x3B8DF90", Offset = "0x3B8DF90", VA = "0x3B8DF90")]
 		set
 		{
 		}
@@ -164,13 +171,13 @@ public class MethodCall : IMethodCallMessage, IMethodMessage, IMessage, ISeriali
 	private string System_002ERuntime_002ERemoting_002EMessaging_002EIInternalMessage_002EUri
 	{
 		[Token(Token = "0x6001E8E")]
-		[Address(RVA = "0x4EA8480", Offset = "0x4EA8480", VA = "0x4EA8480", Slot = "17")]
+		[Address(RVA = "0x3B8DFA0", Offset = "0x3B8DFA0", VA = "0x3B8DFA0", Slot = "17")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001E8F")]
-		[Address(RVA = "0x4EA8490", Offset = "0x4EA8490", VA = "0x4EA8490", Slot = "18")]
+		[Address(RVA = "0x3B8DFB0", Offset = "0x3B8DFB0", VA = "0x3B8DFB0", Slot = "18")]
 		set
 		{
 		}
@@ -180,13 +187,13 @@ public class MethodCall : IMethodCallMessage, IMethodMessage, IMessage, ISeriali
 	private System.Runtime.Remoting.Identity System_002ERuntime_002ERemoting_002EMessaging_002EIInternalMessage_002ETargetIdentity
 	{
 		[Token(Token = "0x6001E95")]
-		[Address(RVA = "0x4EA8770", Offset = "0x4EA8770", VA = "0x4EA8770", Slot = "15")]
+		[Address(RVA = "0x3B8E290", Offset = "0x3B8E290", VA = "0x3B8E290", Slot = "15")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001E96")]
-		[Address(RVA = "0x4EA8780", Offset = "0x4EA8780", VA = "0x4EA8780", Slot = "16")]
+		[Address(RVA = "0x3B8E2A0", Offset = "0x3B8E2A0", VA = "0x3B8E2A0", Slot = "16")]
 		set
 		{
 		}
@@ -196,7 +203,7 @@ public class MethodCall : IMethodCallMessage, IMethodMessage, IMessage, ISeriali
 	private Type[] GenericArguments
 	{
 		[Token(Token = "0x6001E97")]
-		[Address(RVA = "0x4EA8660", Offset = "0x4EA8660", VA = "0x4EA8660")]
+		[Address(RVA = "0x3B8E180", Offset = "0x3B8E180", VA = "0x3B8E180")]
 		get
 		{
 			return null;
@@ -204,75 +211,75 @@ public class MethodCall : IMethodCallMessage, IMethodMessage, IMessage, ISeriali
 	}
 
 	[Token(Token = "0x6001E7D")]
-	[Address(RVA = "0x4EA4CA0", Offset = "0x4EA4CA0", VA = "0x4EA4CA0")]
+	[Address(RVA = "0x3B8A7C0", Offset = "0x3B8A7C0", VA = "0x3B8A7C0")]
 	internal MethodCall(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001E7E")]
-	[Address(RVA = "0x4EA7790", Offset = "0x4EA7790", VA = "0x4EA7790")]
+	[Address(RVA = "0x3B8D2B0", Offset = "0x3B8D2B0", VA = "0x3B8D2B0")]
 	internal MethodCall(System.Runtime.Remoting.Messaging.CADMethodCallMessage msg)
 	{
 	}
 
 	[Token(Token = "0x6001E7F")]
-	[Address(RVA = "0x4EA4C80", Offset = "0x4EA4C80", VA = "0x4EA4C80")]
+	[Address(RVA = "0x3B8A7A0", Offset = "0x3B8A7A0", VA = "0x3B8A7A0")]
 	internal MethodCall()
 	{
 	}
 
 	[Token(Token = "0x6001E80")]
-	[Address(RVA = "0x4E90A70", Offset = "0x4E90A70", VA = "0x4E90A70")]
+	[Address(RVA = "0x3B76590", Offset = "0x3B76590", VA = "0x3B76590")]
 	internal void CopyFrom(IMethodMessage call)
 	{
 	}
 
 	[Token(Token = "0x6001E81")]
-	[Address(RVA = "0x4EA53F0", Offset = "0x4EA53F0", VA = "0x4EA53F0", Slot = "19")]
+	[Address(RVA = "0x3B8AF10", Offset = "0x3B8AF10", VA = "0x3B8AF10", Slot = "19")]
 	internal virtual void InitMethodProperty(string key, object value)
 	{
 	}
 
 	[Token(Token = "0x6001E82")]
-	[Address(RVA = "0x4EA5A30", Offset = "0x4EA5A30", VA = "0x4EA5A30", Slot = "20")]
+	[Address(RVA = "0x3B8B550", Offset = "0x3B8B550", VA = "0x3B8B550", Slot = "20")]
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001E8A")]
-	[Address(RVA = "0x4EA8280", Offset = "0x4EA8280", VA = "0x4EA8280", Slot = "22")]
+	[Address(RVA = "0x3B8DDA0", Offset = "0x3B8DDA0", VA = "0x3B8DDA0", Slot = "22")]
 	internal virtual void InitDictionary()
 	{
 	}
 
 	[Token(Token = "0x6001E90")]
-	[Address(RVA = "0x4EA84A0", Offset = "0x4EA84A0", VA = "0x4EA84A0", Slot = "12")]
+	[Address(RVA = "0x3B8DFC0", Offset = "0x3B8DFC0", VA = "0x3B8DFC0", Slot = "12")]
 	public object GetArg(int argNum)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001E91")]
-	[Address(RVA = "0x4EA84D0", Offset = "0x4EA84D0", VA = "0x4EA84D0", Slot = "23")]
+	[Address(RVA = "0x3B8DFF0", Offset = "0x3B8DFF0", VA = "0x3B8DFF0", Slot = "23")]
 	public virtual void Init()
 	{
 	}
 
 	[Token(Token = "0x6001E92")]
-	[Address(RVA = "0x4EA7AA0", Offset = "0x4EA7AA0", VA = "0x4EA7AA0")]
+	[Address(RVA = "0x3B8D5C0", Offset = "0x3B8D5C0", VA = "0x3B8D5C0")]
 	public void ResolveMethod()
 	{
 	}
 
 	[Token(Token = "0x6001E93")]
-	[Address(RVA = "0x4EA84E0", Offset = "0x4EA84E0", VA = "0x4EA84E0")]
+	[Address(RVA = "0x3B8E000", Offset = "0x3B8E000", VA = "0x3B8E000")]
 	private Type CastTo(string clientType, Type serverType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001E94")]
-	[Address(RVA = "0x4EA86D0", Offset = "0x4EA86D0", VA = "0x4EA86D0")]
+	[Address(RVA = "0x3B8E1F0", Offset = "0x3B8E1F0", VA = "0x3B8E1F0")]
 	private static string GetTypeNameFromAssemblyQualifiedName(string aqname)
 	{
 		return null;

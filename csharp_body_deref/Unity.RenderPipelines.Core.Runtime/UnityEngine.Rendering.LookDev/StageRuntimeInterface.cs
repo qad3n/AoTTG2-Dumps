@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.LookDev.StageRuntimeInterface
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -26,7 +33,7 @@ public class StageRuntimeInterface
 	public Camera camera
 	{
 		[Token(Token = "0x6000E47")]
-		[Address(RVA = "0x48E9090", Offset = "0x48E9090", VA = "0x48E9090")]
+		[Address(RVA = "0x4C0E100", Offset = "0x4C0E100", VA = "0x4C0E100")]
 		get
 		{
 			return null;
@@ -37,7 +44,7 @@ public class StageRuntimeInterface
 	public Light sunLight
 	{
 		[Token(Token = "0x6000E48")]
-		[Address(RVA = "0x48E90B0", Offset = "0x48E90B0", VA = "0x48E90B0")]
+		[Address(RVA = "0x4C0E120", Offset = "0x4C0E120", VA = "0x4C0E120")]
 		get
 		{
 			return null;
@@ -45,13 +52,13 @@ public class StageRuntimeInterface
 	}
 
 	[Token(Token = "0x6000E45")]
-	[Address(RVA = "0x48E9010", Offset = "0x48E9010", VA = "0x48E9010")]
+	[Address(RVA = "0x4C0E080", Offset = "0x4C0E080", VA = "0x4C0E080")]
 	public StageRuntimeInterface(Func<bool, GameObject> AddGameObject, Func<Camera> GetCamera, Func<Light> GetSunLight)
 	{
 	}
 
 	[Token(Token = "0x6000E46")]
-	[Address(RVA = "0x48E9070", Offset = "0x48E9070", VA = "0x48E9070")]
+	[Address(RVA = "0x4C0E0E0", Offset = "0x4C0E0E0", VA = "0x4C0E0E0")]
 	public GameObject AddGameObject(bool persistent = false)
 	{
 		return null;

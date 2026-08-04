@@ -1,40 +1,40 @@
 // Type: PatreonEffects.CharacterEffectPresets
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/PatreonEffects/CharacterEffectPresets.cs
-// Prior source: NEW in this update
+// Prior real C# source: none
 // --------------------------------
 
 // PatreonEffects.CharacterEffectPresets$$ParseOrDefault
 // il2cpp: int32_t PatreonEffects_CharacterEffectPresets__ParseOrDefault (System_String_o* raw, const MethodInfo* method);
-// 0x3f1dd80
+// 0x420ce70
 
-int32_t PatreonEffects_CharacterEffectPresets__ParseOrDefault
-                  (System_String_o *raw,MethodInfo *method)
+int32_t PatreonEffects_CharacterEffectPresets__ParseOrDefault(System_String_o *raw,MethodInfo *method)
 
 {
   bool_conflict bVar1;
   int32_t iVar2;
   int32_t local_1c;
   
-  if (DAT_05703cdf == '\0') {
-    il2cpp_init_method_metadata(&MethodInfo_Boolean_TryParse_CharacterEffectType);
-    il2cpp_init_method_metadata(&"ToxicSurge");
-    il2cpp_init_method_metadata(&"GlowOutline");
-    il2cpp_init_method_metadata(&"PlasmaFlow");
-    il2cpp_init_method_metadata(&"RoyalAura");
-    il2cpp_init_method_metadata(&"FrostEdge");
-    il2cpp_init_method_metadata(&"NeonPulse");
-    il2cpp_init_method_metadata(&"ColorAmp");
-    DAT_05703cdf = '\x01';
+  if (g_data_057ad900 == '\0') {
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_TryParse_CharacterEffectType);
+    il2cpp_runtime_helper_023445d0(&"ToxicSurge");
+    il2cpp_runtime_helper_023445d0(&"GlowOutline");
+    il2cpp_runtime_helper_023445d0(&"PlasmaFlow");
+    il2cpp_runtime_helper_023445d0(&"RoyalAura");
+    il2cpp_runtime_helper_023445d0(&"FrostEdge");
+    il2cpp_runtime_helper_023445d0(&"NeonPulse");
+    il2cpp_runtime_helper_023445d0(&"ColorAmp");
+    g_data_057ad900 = '\x01';
   }
   local_1c = 0;
   bVar1 = System_String__IsNullOrEmpty(raw,(MethodInfo *)0x0);
   if ((char)bVar1 == '\0') {
-    if (*(int *)(DAT_057110b8 + 0xe4) == 0) {
-      il2cpp_init_class();
+    if (*(int *)(g_data_057b9c08 + 0xe4) == 0) {
+      il2cpp_runtime_helper_02337ed0();
     }
-    bVar1 = System_Enum__TryParse<Int32Enum>(raw,&local_1c,MethodInfo_Boolean_TryParse_CharacterEffectType);
+    bVar1 = System_Enum__TryParse_Int32Enum_(raw,&local_1c,MethodInfo_Boolean_TryParse_CharacterEffectType);
     if ((char)bVar1 != '\0') {
       return local_1c;
     }
@@ -42,8 +42,7 @@ int32_t PatreonEffects_CharacterEffectPresets__ParseOrDefault
   bVar1 = System_String__op_Equality(raw,"NeonPulse",(MethodInfo *)0x0);
   iVar2 = 1;
   if (((char)bVar1 == '\0') &&
-     (bVar1 = System_String__op_Equality(raw,"GlowOutline",(MethodInfo *)0x0), (char)bVar1 == '\0'))
-  {
+     (bVar1 = System_String__op_Equality(raw,"GlowOutline",(MethodInfo *)0x0), (char)bVar1 == '\0')) {
     bVar1 = System_String__op_Equality(raw,"PlasmaFlow",(MethodInfo *)0x0);
     iVar2 = 3;
     if ((char)bVar1 == '\0') {
@@ -72,12 +71,11 @@ int32_t PatreonEffects_CharacterEffectPresets__ParseOrDefault
 
 // PatreonEffects.CharacterEffectPresets$$GetPreset
 // il2cpp: PatreonEffects_CharacterEffectPreset_o PatreonEffects_CharacterEffectPresets__GetPreset (int32_t type, const MethodInfo* method);
-// 0x3f1df30
+// 0x420d020
 
 PatreonEffects_CharacterEffectPreset_o *
 PatreonEffects_CharacterEffectPresets__GetPreset
-          (PatreonEffects_CharacterEffectPreset_o *__return_storage_ptr__,int32_t type,
-          MethodInfo *method)
+          (PatreonEffects_CharacterEffectPreset_o *__return_storage_ptr__,int32_t type,MethodInfo *method)
 
 {
   switch(type) {
@@ -274,7 +272,7 @@ PatreonEffects_CharacterEffectPresets__GetPreset
 
 // PatreonEffects.CharacterEffectPresets$$.cctor
 // il2cpp: void PatreonEffects_CharacterEffectPresets___cctor (const MethodInfo* method);
-// 0x3f1e1a0
+// 0x420d290
 
 void PatreonEffects_CharacterEffectPresets___cctor(MethodInfo *method)
 
@@ -304,13 +302,13 @@ void PatreonEffects_CharacterEffectPresets___cctor(MethodInfo *method)
   System_Enum_o SStack_28;
   undefined4 uStack_18;
   
-  if (DAT_05703ce0 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_CharacterEffectPresets);
-    il2cpp_init_method_metadata(&TypeInfo_CharacterEffectType);
-    il2cpp_init_method_metadata(&TypeInfo_string);
-    DAT_05703ce0 = '\x01';
+  if (g_data_057ad901 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEffectPresets);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEffectType);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
+    g_data_057ad901 = '\x01';
   }
-  lVar1 = il2cpp_glue_02274930(TypeInfo_string);
+  lVar1 = il2cpp_runtime_helper_022b2a40(TypeInfo_string);
   SStack_28.klass = TypeInfo_CharacterEffectType;
   SStack_28.monitor = (void *)0xffffffffffffffff;
   uStack_18 = 0;
@@ -318,79 +316,79 @@ void PatreonEffects_CharacterEffectPresets___cctor(MethodInfo *method)
   if (lVar1 != 0) {
     if (*(int *)(lVar1 + 0x18) != 0) {
       *(System_String_o **)(lVar1 + 0x20) = pSVar2;
-      il2cpp_runtime_glue(lVar1 + 0x20);
+      il2cpp_runtime_helper_022b4080(lVar1 + 0x20);
       SStack_40.klass = TypeInfo_CharacterEffectType;
       SStack_40.monitor = (void *)0xffffffffffffffff;
       uStack_30 = 1;
       pSVar2 = System_Enum__ToString(&SStack_40,(MethodInfo *)0x0);
       if (1 < *(uint *)(lVar1 + 0x18)) {
         *(System_String_o **)(lVar1 + 0x28) = pSVar2;
-        il2cpp_runtime_glue(lVar1 + 0x28);
+        il2cpp_runtime_helper_022b4080(lVar1 + 0x28);
         SStack_58.klass = TypeInfo_CharacterEffectType;
         SStack_58.monitor = (void *)0xffffffffffffffff;
         uStack_48 = 2;
         pSVar2 = System_Enum__ToString(&SStack_58,(MethodInfo *)0x0);
         if (2 < *(uint *)(lVar1 + 0x18)) {
           *(System_String_o **)(lVar1 + 0x30) = pSVar2;
-          il2cpp_runtime_glue(lVar1 + 0x30);
+          il2cpp_runtime_helper_022b4080(lVar1 + 0x30);
           SStack_70.klass = TypeInfo_CharacterEffectType;
           SStack_70.monitor = (void *)0xffffffffffffffff;
           uStack_60 = 3;
           pSVar2 = System_Enum__ToString(&SStack_70,(MethodInfo *)0x0);
           if (3 < *(uint *)(lVar1 + 0x18)) {
             *(System_String_o **)(lVar1 + 0x38) = pSVar2;
-            il2cpp_runtime_glue(lVar1 + 0x38);
+            il2cpp_runtime_helper_022b4080(lVar1 + 0x38);
             SStack_88.klass = TypeInfo_CharacterEffectType;
             SStack_88.monitor = (void *)0xffffffffffffffff;
             uStack_78 = 4;
             pSVar2 = System_Enum__ToString(&SStack_88,(MethodInfo *)0x0);
             if (4 < *(uint *)(lVar1 + 0x18)) {
               *(System_String_o **)(lVar1 + 0x40) = pSVar2;
-              il2cpp_runtime_glue(lVar1 + 0x40);
+              il2cpp_runtime_helper_022b4080(lVar1 + 0x40);
               SStack_a0.klass = TypeInfo_CharacterEffectType;
               SStack_a0.monitor = (void *)0xffffffffffffffff;
               uStack_90 = 5;
               pSVar2 = System_Enum__ToString(&SStack_a0,(MethodInfo *)0x0);
               if (5 < *(uint *)(lVar1 + 0x18)) {
                 *(System_String_o **)(lVar1 + 0x48) = pSVar2;
-                il2cpp_runtime_glue(lVar1 + 0x48);
+                il2cpp_runtime_helper_022b4080(lVar1 + 0x48);
                 SStack_b8.klass = TypeInfo_CharacterEffectType;
                 SStack_b8.monitor = (void *)0xffffffffffffffff;
                 uStack_a8 = 6;
                 pSVar2 = System_Enum__ToString(&SStack_b8,(MethodInfo *)0x0);
                 if (6 < *(uint *)(lVar1 + 0x18)) {
                   *(System_String_o **)(lVar1 + 0x50) = pSVar2;
-                  il2cpp_runtime_glue(lVar1 + 0x50);
+                  il2cpp_runtime_helper_022b4080(lVar1 + 0x50);
                   SStack_d0.klass = TypeInfo_CharacterEffectType;
                   SStack_d0.monitor = (void *)0xffffffffffffffff;
                   uStack_c0 = 7;
                   pSVar2 = System_Enum__ToString(&SStack_d0,(MethodInfo *)0x0);
                   if (7 < *(uint *)(lVar1 + 0x18)) {
                     *(System_String_o **)(lVar1 + 0x58) = pSVar2;
-                    il2cpp_runtime_glue(lVar1 + 0x58);
+                    il2cpp_runtime_helper_022b4080(lVar1 + 0x58);
                     SStack_e8.klass = TypeInfo_CharacterEffectType;
                     SStack_e8.monitor = (void *)0xffffffffffffffff;
                     uStack_d8 = 8;
                     pSVar2 = System_Enum__ToString(&SStack_e8,(MethodInfo *)0x0);
                     if (8 < *(uint *)(lVar1 + 0x18)) {
                       *(System_String_o **)(lVar1 + 0x60) = pSVar2;
-                      il2cpp_runtime_glue(lVar1 + 0x60);
+                      il2cpp_runtime_helper_022b4080(lVar1 + 0x60);
                       SStack_100.klass = TypeInfo_CharacterEffectType;
                       SStack_100.monitor = (void *)0xffffffffffffffff;
                       uStack_f0 = 9;
                       pSVar2 = System_Enum__ToString(&SStack_100,(MethodInfo *)0x0);
                       if (9 < *(uint *)(lVar1 + 0x18)) {
                         *(System_String_o **)(lVar1 + 0x68) = pSVar2;
-                        il2cpp_runtime_glue(lVar1 + 0x68);
+                        il2cpp_runtime_helper_022b4080(lVar1 + 0x68);
                         SStack_118.klass = TypeInfo_CharacterEffectType;
                         SStack_118.monitor = (void *)0xffffffffffffffff;
                         uStack_108 = 10;
                         pSVar2 = System_Enum__ToString(&SStack_118,(MethodInfo *)0x0);
                         if (10 < *(uint *)(lVar1 + 0x18)) {
                           *(System_String_o **)(lVar1 + 0x70) = pSVar2;
-                          il2cpp_runtime_glue(lVar1 + 0x70,pSVar2);
+                          il2cpp_runtime_helper_022b4080(lVar1 + 0x70,pSVar2);
                           **(long **)(TypeInfo_CharacterEffectPresets + 0xb8) = lVar1;
-                          il2cpp_runtime_glue(*(undefined8 *)(TypeInfo_CharacterEffectPresets + 0xb8),lVar1);
+                          il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_CharacterEffectPresets + 0xb8),lVar1);
                           return;
                         }
                       }
@@ -403,11 +401,10 @@ void PatreonEffects_CharacterEffectPresets___cctor(MethodInfo *method)
         }
       }
     }
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
+    il2cpp_runtime_helper_022b2ca0();
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  return;
 }
 
 

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.DeviceEnumeratorBase
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/Device.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -25,7 +32,7 @@ public abstract class DeviceEnumeratorBase : IDeviceEnumerator, IDisposable, IEn
 	public virtual bool IsSupported
 	{
 		[Token(Token = "0x6000119")]
-		[Address(RVA = "0x3C24370", Offset = "0x3C24370", VA = "0x3C24370", Slot = "11")]
+		[Address(RVA = "0x3F19CC0", Offset = "0x3F19CC0", VA = "0x3F19CC0", Slot = "11")]
 		get
 		{
 			return default(bool);
@@ -36,14 +43,14 @@ public abstract class DeviceEnumeratorBase : IDeviceEnumerator, IDisposable, IEn
 	public virtual string Error
 	{
 		[Token(Token = "0x600011A")]
-		[Address(RVA = "0x3C24380", Offset = "0x3C24380", VA = "0x3C24380", Slot = "12")]
+		[Address(RVA = "0x3F19CD0", Offset = "0x3F19CD0", VA = "0x3F19CD0", Slot = "12")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600011B")]
-		[Address(RVA = "0x3C24390", Offset = "0x3C24390", VA = "0x3C24390", Slot = "13")]
+		[Address(RVA = "0x3F19CE0", Offset = "0x3F19CE0", VA = "0x3F19CE0", Slot = "13")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -54,26 +61,26 @@ public abstract class DeviceEnumeratorBase : IDeviceEnumerator, IDisposable, IEn
 	public Action OnReady
 	{
 		[Token(Token = "0x600011E")]
-		[Address(RVA = "0x3C24500", Offset = "0x3C24500", VA = "0x3C24500")]
+		[Address(RVA = "0x3F19E50", Offset = "0x3F19E50", VA = "0x3F19E50")]
 		protected get
 		{
 			return null;
 		}
 		[Token(Token = "0x600011F")]
-		[Address(RVA = "0x3C24510", Offset = "0x3C24510", VA = "0x3C24510", Slot = "6")]
+		[Address(RVA = "0x3F19E60", Offset = "0x3F19E60", VA = "0x3F19E60", Slot = "6")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000118")]
-	[Address(RVA = "0x3C242E0", Offset = "0x3C242E0", VA = "0x3C242E0")]
+	[Address(RVA = "0x3F19C30", Offset = "0x3F19C30", VA = "0x3F19C30")]
 	public DeviceEnumeratorBase(ILogger logger)
 	{
 	}
 
 	[Token(Token = "0x600011C")]
-	[Address(RVA = "0x3C243A0", Offset = "0x3C243A0", VA = "0x3C243A0", Slot = "9")]
+	[Address(RVA = "0x3F19CF0", Offset = "0x3F19CF0", VA = "0x3F19CF0", Slot = "9")]
 	public IEnumerator<DeviceInfo> GetEnumerator()
 	{
 		return null;
@@ -83,7 +90,7 @@ public abstract class DeviceEnumeratorBase : IDeviceEnumerator, IDisposable, IEn
 	public abstract void Refresh();
 
 	[Token(Token = "0x6000120")]
-	[Address(RVA = "0x3C24560", Offset = "0x3C24560", VA = "0x3C24560", Slot = "10")]
+	[Address(RVA = "0x3F19EB0", Offset = "0x3F19EB0", VA = "0x3F19EB0", Slot = "10")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;

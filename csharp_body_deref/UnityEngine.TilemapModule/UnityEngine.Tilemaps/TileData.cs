@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Tilemaps.TileData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
 using UnityEngine.Scripting;
@@ -41,7 +48,7 @@ public struct TileData
 	public Sprite sprite
 	{
 		[Token(Token = "0x600002F")]
-		[Address(RVA = "0x4BC7B30", Offset = "0x4BC7B30", VA = "0x4BC7B30")]
+		[Address(RVA = "0x4EEF460", Offset = "0x4EEF460", VA = "0x4EEF460")]
 		set
 		{
 		}
@@ -51,7 +58,7 @@ public struct TileData
 	public Color color
 	{
 		[Token(Token = "0x6000030")]
-		[Address(RVA = "0x4BC7BA0", Offset = "0x4BC7BA0", VA = "0x4BC7BA0")]
+		[Address(RVA = "0x4EEF4D0", Offset = "0x4EEF4D0", VA = "0x4EEF4D0")]
 		set
 		{
 		}
@@ -61,7 +68,7 @@ public struct TileData
 	public Matrix4x4 transform
 	{
 		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x4BC7BB0", Offset = "0x4BC7BB0", VA = "0x4BC7BB0")]
+		[Address(RVA = "0x4EEF4E0", Offset = "0x4EEF4E0", VA = "0x4EEF4E0")]
 		set
 		{
 		}
@@ -71,7 +78,7 @@ public struct TileData
 	public GameObject gameObject
 	{
 		[Token(Token = "0x6000032")]
-		[Address(RVA = "0x4BC7BE0", Offset = "0x4BC7BE0", VA = "0x4BC7BE0")]
+		[Address(RVA = "0x4EEF510", Offset = "0x4EEF510", VA = "0x4EEF510")]
 		set
 		{
 		}
@@ -81,7 +88,7 @@ public struct TileData
 	public TileFlags flags
 	{
 		[Token(Token = "0x6000033")]
-		[Address(RVA = "0x4BC7C60", Offset = "0x4BC7C60", VA = "0x4BC7C60")]
+		[Address(RVA = "0x4EEF590", Offset = "0x4EEF590", VA = "0x4EEF590")]
 		set
 		{
 		}
@@ -91,14 +98,14 @@ public struct TileData
 	public Tile.ColliderType colliderType
 	{
 		[Token(Token = "0x6000034")]
-		[Address(RVA = "0x4BC7C70", Offset = "0x4BC7C70", VA = "0x4BC7C70")]
+		[Address(RVA = "0x4EEF5A0", Offset = "0x4EEF5A0", VA = "0x4EEF5A0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000035")]
-	[Address(RVA = "0x4BC8620", Offset = "0x4BC8620", VA = "0x4BC8620")]
+	[Address(RVA = "0x4EEFF50", Offset = "0x4EEFF50", VA = "0x4EEFF50")]
 	private static TileData CreateDefault()
 	{
 		return default(TileData);

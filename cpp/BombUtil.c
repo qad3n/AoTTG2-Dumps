@@ -1,13 +1,14 @@
 // Type: BombUtil
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/BombUtil.cs
-// Prior source: NEW in this update
+// Prior real C# source: none
 // --------------------------------
 
 // BombUtil$$GetOldRadiusCost
 // il2cpp: float BombUtil__GetOldRadiusCost (float radius, const MethodInfo* method);
-// 0x3d6edc0
+// 0x4064710
 
 float BombUtil__GetOldRadiusCost(float radius,MethodInfo *method)
 
@@ -18,7 +19,7 @@ float BombUtil__GetOldRadiusCost(float radius,MethodInfo *method)
 
 // BombUtil$$GetOldSpeedCost
 // il2cpp: float BombUtil__GetOldSpeedCost (float speed, const MethodInfo* method);
-// 0x3d6ede0
+// 0x4064730
 
 float BombUtil__GetOldSpeedCost(float speed,MethodInfo *method)
 
@@ -29,7 +30,7 @@ float BombUtil__GetOldSpeedCost(float speed,MethodInfo *method)
 
 // BombUtil$$GetOldCooldownCost
 // il2cpp: float BombUtil__GetOldCooldownCost (float cooldown, const MethodInfo* method);
-// 0x3d6ee00
+// 0x4064750
 
 float BombUtil__GetOldCooldownCost(float cooldown,MethodInfo *method)
 
@@ -40,7 +41,7 @@ float BombUtil__GetOldCooldownCost(float cooldown,MethodInfo *method)
 
 // BombUtil$$GetOldRangeCost
 // il2cpp: float BombUtil__GetOldRangeCost (float range, const MethodInfo* method);
-// 0x3d6ee20
+// 0x4064770
 
 float BombUtil__GetOldRangeCost(float range,MethodInfo *method)
 
@@ -51,7 +52,7 @@ float BombUtil__GetOldRangeCost(float range,MethodInfo *method)
 
 // BombUtil$$GetOldBombRadius
 // il2cpp: float BombUtil__GetOldBombRadius (float pointsSpent, const MethodInfo* method);
-// 0x3d6ee40
+// 0x4064790
 
 float BombUtil__GetOldBombRadius(float pointsSpent,MethodInfo *method)
 
@@ -62,7 +63,7 @@ float BombUtil__GetOldBombRadius(float pointsSpent,MethodInfo *method)
 
 // BombUtil$$GetOldBombSpeed
 // il2cpp: float BombUtil__GetOldBombSpeed (float pointsSpent, const MethodInfo* method);
-// 0x3d6ee60
+// 0x40647b0
 
 float BombUtil__GetOldBombSpeed(float pointsSpent,MethodInfo *method)
 
@@ -73,7 +74,7 @@ float BombUtil__GetOldBombSpeed(float pointsSpent,MethodInfo *method)
 
 // BombUtil$$GetOldBombCooldown
 // il2cpp: float BombUtil__GetOldBombCooldown (float pointsSpent, const MethodInfo* method);
-// 0x3d6ee80
+// 0x40647d0
 
 float BombUtil__GetOldBombCooldown(float pointsSpent,MethodInfo *method)
 
@@ -84,7 +85,7 @@ float BombUtil__GetOldBombCooldown(float pointsSpent,MethodInfo *method)
 
 // BombUtil$$GetOldBombRange
 // il2cpp: float BombUtil__GetOldBombRange (float pointsSpent, const MethodInfo* method);
-// 0x3d6eea0
+// 0x40647f0
 
 float BombUtil__GetOldBombRange(float pointsSpent,MethodInfo *method)
 
@@ -95,11 +96,10 @@ float BombUtil__GetOldBombRange(float pointsSpent,MethodInfo *method)
 
 // BombUtil$$GetBombStat
 // il2cpp: float BombUtil__GetBombStat (float pointsSpent, float maxValue, float valuePerPoint, float cutoff, const MethodInfo* method);
-// 0x3d6eec0
+// 0x4064810
 
 float BombUtil__GetBombStat
-                (float pointsSpent,float maxValue,float valuePerPoint,float cutoff,
-                MethodInfo *method)
+                (float pointsSpent,float maxValue,float valuePerPoint,float cutoff,MethodInfo *method)
 
 {
   float fVar1;
@@ -122,11 +122,10 @@ float BombUtil__GetBombStat
 
 // BombUtil$$GetBombRadius
 // il2cpp: float BombUtil__GetBombRadius (float pointsSpent, float oldMinCost, float oldMaxCost, float cutoff, const MethodInfo* method);
-// 0x3d6ef40
+// 0x4064890
 
 float BombUtil__GetBombRadius
-                (float pointsSpent,float oldMinCost,float oldMaxCost,float cutoff,MethodInfo *method
-                )
+                (float pointsSpent,float oldMinCost,float oldMaxCost,float cutoff,MethodInfo *method)
 
 {
   float fVar1;
@@ -149,11 +148,10 @@ float BombUtil__GetBombRadius
 
 // BombUtil$$GetBombRange
 // il2cpp: float BombUtil__GetBombRange (float pointsSpent, float oldMinCost, float oldMaxCost, float cutoff, const MethodInfo* method);
-// 0x3d6efe0
+// 0x4064930
 
 float BombUtil__GetBombRange
-                (float pointsSpent,float oldMinCost,float oldMaxCost,float cutoff,MethodInfo *method
-                )
+                (float pointsSpent,float oldMinCost,float oldMaxCost,float cutoff,MethodInfo *method)
 
 {
   float fVar1;
@@ -176,11 +174,10 @@ float BombUtil__GetBombRange
 
 // BombUtil$$GetBombSpeed
 // il2cpp: float BombUtil__GetBombSpeed (float pointsSpent, float oldMinCost, float oldMaxCost, float cutoff, const MethodInfo* method);
-// 0x3d6f080
+// 0x40649d0
 
 float BombUtil__GetBombSpeed
-                (float pointsSpent,float oldMinCost,float oldMaxCost,float cutoff,MethodInfo *method
-                )
+                (float pointsSpent,float oldMinCost,float oldMaxCost,float cutoff,MethodInfo *method)
 
 {
   float fVar1;
@@ -203,11 +200,10 @@ float BombUtil__GetBombSpeed
 
 // BombUtil$$GetBombCooldown
 // il2cpp: float BombUtil__GetBombCooldown (float pointsSpent, float oldMinCost, float oldMaxCost, float cutoff, const MethodInfo* method);
-// 0x3d6f120
+// 0x4064a70
 
 float BombUtil__GetBombCooldown
-                (float pointsSpent,float oldMinCost,float oldMaxCost,float cutoff,MethodInfo *method
-                )
+                (float pointsSpent,float oldMinCost,float oldMaxCost,float cutoff,MethodInfo *method)
 
 {
   float fVar1;
@@ -230,7 +226,7 @@ float BombUtil__GetBombCooldown
 
 // BombUtil$$.ctor
 // il2cpp: void BombUtil___ctor (BombUtil_o* __this, const MethodInfo* method);
-// 0x3d6f1c0
+// 0x4064b10
 
 void BombUtil___ctor(BombUtil_o *__this,MethodInfo *method)
 

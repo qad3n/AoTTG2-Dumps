@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Timers.Timer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.ComponentModel;
 using System.Threading;
 using Il2CppDummyDll;
@@ -60,7 +67,7 @@ public class Timer : Component, ISupportInitialize
 	public bool Enabled
 	{
 		[Token(Token = "0x60002A3")]
-		[Address(RVA = "0x45DBA00", Offset = "0x45DBA00", VA = "0x45DBA00")]
+		[Address(RVA = "0x4900B00", Offset = "0x4900B00", VA = "0x4900B00")]
 		set
 		{
 		}
@@ -70,13 +77,13 @@ public class Timer : Component, ISupportInitialize
 	public override ISite Site
 	{
 		[Token(Token = "0x60002A9")]
-		[Address(RVA = "0x45DBDA0", Offset = "0x45DBDA0", VA = "0x45DBDA0", Slot = "12")]
+		[Address(RVA = "0x4900EA0", Offset = "0x4900EA0", VA = "0x4900EA0", Slot = "12")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60002A8")]
-		[Address(RVA = "0x45DBD70", Offset = "0x45DBD70", VA = "0x45DBD70", Slot = "13")]
+		[Address(RVA = "0x4900E70", Offset = "0x4900E70", VA = "0x4900E70", Slot = "13")]
 		set
 		{
 		}
@@ -89,7 +96,7 @@ public class Timer : Component, ISupportInitialize
 	public ISynchronizeInvoke SynchronizingObject
 	{
 		[Token(Token = "0x60002AA")]
-		[Address(RVA = "0x45DBDB0", Offset = "0x45DBDB0", VA = "0x45DBDB0")]
+		[Address(RVA = "0x4900EB0", Offset = "0x4900EB0", VA = "0x4900EB0")]
 		get
 		{
 			return null;
@@ -102,68 +109,68 @@ public class Timer : Component, ISupportInitialize
 	public event ElapsedEventHandler Elapsed
 	{
 		[Token(Token = "0x60002A6")]
-		[Address(RVA = "0x45DBC70", Offset = "0x45DBC70", VA = "0x45DBC70")]
+		[Address(RVA = "0x4900D70", Offset = "0x4900D70", VA = "0x4900D70")]
 		add
 		{
 		}
 		[Token(Token = "0x60002A7")]
-		[Address(RVA = "0x45DBCF0", Offset = "0x45DBCF0", VA = "0x45DBCF0")]
+		[Address(RVA = "0x4900DF0", Offset = "0x4900DF0", VA = "0x4900DF0")]
 		remove
 		{
 		}
 	}
 
 	[Token(Token = "0x60002A1")]
-	[Address(RVA = "0x45DB5B0", Offset = "0x45DB5B0", VA = "0x45DB5B0")]
+	[Address(RVA = "0x49006B0", Offset = "0x49006B0", VA = "0x49006B0")]
 	public Timer()
 	{
 	}
 
 	[Token(Token = "0x60002A2")]
-	[Address(RVA = "0x45DB670", Offset = "0x45DB670", VA = "0x45DB670")]
+	[Address(RVA = "0x4900770", Offset = "0x4900770", VA = "0x4900770")]
 	public Timer(double interval)
 	{
 	}
 
 	[Token(Token = "0x60002A4")]
-	[Address(RVA = "0x45DB7B0", Offset = "0x45DB7B0", VA = "0x45DB7B0")]
+	[Address(RVA = "0x49008B0", Offset = "0x49008B0", VA = "0x49008B0")]
 	private static int CalculateRoundedInterval(double interval, bool argumentCheck = false)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002A5")]
-	[Address(RVA = "0x45DBC30", Offset = "0x45DBC30", VA = "0x45DBC30")]
+	[Address(RVA = "0x4900D30", Offset = "0x4900D30", VA = "0x4900D30")]
 	private void UpdateTimer()
 	{
 	}
 
 	[Token(Token = "0x60002AB")]
-	[Address(RVA = "0x45DBF70", Offset = "0x45DBF70", VA = "0x45DBF70", Slot = "16")]
+	[Address(RVA = "0x4901070", Offset = "0x4901070", VA = "0x4901070", Slot = "16")]
 	public void BeginInit()
 	{
 	}
 
 	[Token(Token = "0x60002AC")]
-	[Address(RVA = "0x45DBFC0", Offset = "0x45DBFC0", VA = "0x45DBFC0")]
+	[Address(RVA = "0x49010C0", Offset = "0x49010C0", VA = "0x49010C0")]
 	public void Close()
 	{
 	}
 
 	[Token(Token = "0x60002AD")]
-	[Address(RVA = "0x45DC000", Offset = "0x45DC000", VA = "0x45DC000", Slot = "14")]
+	[Address(RVA = "0x4901100", Offset = "0x4901100", VA = "0x4901100", Slot = "14")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x60002AE")]
-	[Address(RVA = "0x45DC050", Offset = "0x45DC050", VA = "0x45DC050", Slot = "17")]
+	[Address(RVA = "0x4901150", Offset = "0x4901150", VA = "0x4901150", Slot = "17")]
 	public void EndInit()
 	{
 	}
 
 	[Token(Token = "0x60002AF")]
-	[Address(RVA = "0x45DC060", Offset = "0x45DC060", VA = "0x45DC060")]
+	[Address(RVA = "0x4901160", Offset = "0x4901160", VA = "0x4901160")]
 	private void MyTimerCallback(object state)
 	{
 	}

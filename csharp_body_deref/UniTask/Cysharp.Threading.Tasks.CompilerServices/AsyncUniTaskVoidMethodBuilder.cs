@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -19,7 +26,7 @@ public struct AsyncUniTaskVoidMethodBuilder
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000D66")]
-		[Address(RVA = "0x46FA7D0", Offset = "0x46FA7D0", VA = "0x46FA7D0")]
+		[Address(RVA = "0x4A1F8D0", Offset = "0x4A1F8D0", VA = "0x4A1F8D0")]
 		[DebuggerHidden]
 		get
 		{
@@ -29,7 +36,7 @@ public struct AsyncUniTaskVoidMethodBuilder
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000D65")]
-	[Address(RVA = "0x46FA7C0", Offset = "0x46FA7C0", VA = "0x46FA7C0")]
+	[Address(RVA = "0x4A1F8C0", Offset = "0x4A1F8C0", VA = "0x4A1F8C0")]
 	[DebuggerHidden]
 	public static AsyncUniTaskVoidMethodBuilder Create()
 	{
@@ -38,7 +45,7 @@ public struct AsyncUniTaskVoidMethodBuilder
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000D67")]
-	[Address(RVA = "0x46FA7E0", Offset = "0x46FA7E0", VA = "0x46FA7E0")]
+	[Address(RVA = "0x4A1F8E0", Offset = "0x4A1F8E0", VA = "0x4A1F8E0")]
 	[DebuggerHidden]
 	public void SetException(Exception exception)
 	{
@@ -46,7 +53,7 @@ public struct AsyncUniTaskVoidMethodBuilder
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000D68")]
-	[Address(RVA = "0x46FA910", Offset = "0x46FA910", VA = "0x46FA910")]
+	[Address(RVA = "0x4A1FA10", Offset = "0x4A1FA10", VA = "0x4A1FA10")]
 	[DebuggerHidden]
 	public void SetResult()
 	{
@@ -73,7 +80,7 @@ public struct AsyncUniTaskVoidMethodBuilder
 	}
 
 	[Token(Token = "0x6000D6C")]
-	[Address(RVA = "0x46D1EF0", Offset = "0x46D1EF0", VA = "0x46D1EF0")]
+	[Address(RVA = "0x49F6FF0", Offset = "0x49F6FF0", VA = "0x49F6FF0")]
 	[DebuggerHidden]
 	public void SetStateMachine(IAsyncStateMachine stateMachine)
 	{

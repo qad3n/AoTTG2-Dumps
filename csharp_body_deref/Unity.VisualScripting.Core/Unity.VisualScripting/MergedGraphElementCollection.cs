@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.MergedGraphElementCollection
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -11,13 +18,13 @@ public sealed class MergedGraphElementCollection : MergedKeyedCollection<Guid, I
 	public event Action<IGraphElement> ItemAdded
 	{
 		[Token(Token = "0x60003F7")]
-		[Address(RVA = "0x498F560", Offset = "0x498F560", VA = "0x498F560", Slot = "17")]
+		[Address(RVA = "0x4CB4130", Offset = "0x4CB4130", VA = "0x4CB4130", Slot = "17")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60003F8")]
-		[Address(RVA = "0x498F610", Offset = "0x498F610", VA = "0x498F610", Slot = "18")]
+		[Address(RVA = "0x4CB41E0", Offset = "0x4CB41E0", VA = "0x4CB41E0", Slot = "18")]
 		[CompilerGenerated]
 		remove
 		{
@@ -28,13 +35,13 @@ public sealed class MergedGraphElementCollection : MergedKeyedCollection<Guid, I
 	public event Action<IGraphElement> ItemRemoved
 	{
 		[Token(Token = "0x60003F9")]
-		[Address(RVA = "0x498F6C0", Offset = "0x498F6C0", VA = "0x498F6C0", Slot = "19")]
+		[Address(RVA = "0x4CB4290", Offset = "0x4CB4290", VA = "0x4CB4290", Slot = "19")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60003FA")]
-		[Address(RVA = "0x498F770", Offset = "0x498F770", VA = "0x498F770", Slot = "20")]
+		[Address(RVA = "0x4CB4340", Offset = "0x4CB4340", VA = "0x4CB4340", Slot = "20")]
 		[CompilerGenerated]
 		remove
 		{
@@ -45,13 +52,13 @@ public sealed class MergedGraphElementCollection : MergedKeyedCollection<Guid, I
 	public event Action CollectionChanged
 	{
 		[Token(Token = "0x60003FB")]
-		[Address(RVA = "0x498F820", Offset = "0x498F820", VA = "0x498F820", Slot = "21")]
+		[Address(RVA = "0x4CB43F0", Offset = "0x4CB43F0", VA = "0x4CB43F0", Slot = "21")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60003FC")]
-		[Address(RVA = "0x498F8B0", Offset = "0x498F8B0", VA = "0x498F8B0", Slot = "22")]
+		[Address(RVA = "0x4CB4480", Offset = "0x4CB4480", VA = "0x4CB4480", Slot = "22")]
 		[CompilerGenerated]
 		remove
 		{
@@ -64,7 +71,7 @@ public sealed class MergedGraphElementCollection : MergedKeyedCollection<Guid, I
 	}
 
 	[Token(Token = "0x60003FE")]
-	[Address(RVA = "0x4983DA0", Offset = "0x4983DA0", VA = "0x4983DA0")]
+	[Address(RVA = "0x4CA8970", Offset = "0x4CA8970", VA = "0x4CA8970")]
 	public MergedGraphElementCollection()
 	{
 	}

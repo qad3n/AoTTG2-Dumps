@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Diagnostics.DebuggerDisplayAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -24,7 +31,7 @@ public sealed class DebuggerDisplayAttribute : Attribute
 	public string Name
 	{
 		[Token(Token = "0x6002E61")]
-		[Address(RVA = "0x4F94C20", Offset = "0x4F94C20", VA = "0x4F94C20")]
+		[Address(RVA = "0x3C7A740", Offset = "0x3C7A740", VA = "0x3C7A740")]
 		set
 		{
 		}
@@ -34,14 +41,14 @@ public sealed class DebuggerDisplayAttribute : Attribute
 	public string Type
 	{
 		[Token(Token = "0x6002E62")]
-		[Address(RVA = "0x4F94C30", Offset = "0x4F94C30", VA = "0x4F94C30")]
+		[Address(RVA = "0x3C7A750", Offset = "0x3C7A750", VA = "0x3C7A750")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6002E60")]
-	[Address(RVA = "0x4F94B90", Offset = "0x4F94B90", VA = "0x4F94B90")]
+	[Address(RVA = "0x3C7A6B0", Offset = "0x3C7A6B0", VA = "0x3C7A6B0")]
 	public DebuggerDisplayAttribute(string value)
 	{
 	}

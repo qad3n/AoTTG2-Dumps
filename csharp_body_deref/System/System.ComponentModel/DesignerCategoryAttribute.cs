@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.DesignerCategoryAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -27,7 +34,7 @@ public sealed class DesignerCategoryAttribute : Attribute
 	public string Category
 	{
 		[Token(Token = "0x6000E81")]
-		[Address(RVA = "0x455CBD0", Offset = "0x455CBD0", VA = "0x455CBD0")]
+		[Address(RVA = "0x4881CD0", Offset = "0x4881CD0", VA = "0x4881CD0")]
 		[CompilerGenerated]
 		get
 		{
@@ -39,7 +46,7 @@ public sealed class DesignerCategoryAttribute : Attribute
 	public override object TypeId
 	{
 		[Token(Token = "0x6000E85")]
-		[Address(RVA = "0x455CD20", Offset = "0x455CD20", VA = "0x455CD20", Slot = "4")]
+		[Address(RVA = "0x4881E20", Offset = "0x4881E20", VA = "0x4881E20", Slot = "4")]
 		get
 		{
 			return null;
@@ -47,33 +54,33 @@ public sealed class DesignerCategoryAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000E7F")]
-	[Address(RVA = "0x455CB60", Offset = "0x455CB60", VA = "0x455CB60")]
+	[Address(RVA = "0x4881C60", Offset = "0x4881C60", VA = "0x4881C60")]
 	public DesignerCategoryAttribute()
 	{
 	}
 
 	[Token(Token = "0x6000E80")]
-	[Address(RVA = "0x455CBA0", Offset = "0x455CBA0", VA = "0x455CBA0")]
+	[Address(RVA = "0x4881CA0", Offset = "0x4881CA0", VA = "0x4881CA0")]
 	public DesignerCategoryAttribute(string category)
 	{
 	}
 
 	[Token(Token = "0x6000E82")]
-	[Address(RVA = "0x455CBE0", Offset = "0x455CBE0", VA = "0x455CBE0", Slot = "0")]
+	[Address(RVA = "0x4881CE0", Offset = "0x4881CE0", VA = "0x4881CE0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E83")]
-	[Address(RVA = "0x455CC70", Offset = "0x455CC70", VA = "0x455CC70", Slot = "2")]
+	[Address(RVA = "0x4881D70", Offset = "0x4881D70", VA = "0x4881D70", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000E84")]
-	[Address(RVA = "0x455CCA0", Offset = "0x455CCA0", VA = "0x455CCA0", Slot = "6")]
+	[Address(RVA = "0x4881DA0", Offset = "0x4881DA0", VA = "0x4881DA0", Slot = "6")]
 	public override bool IsDefaultAttribute()
 	{
 		return default(bool);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.Unity.MicWrapperPusher
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/MicWrapperPusher.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -40,7 +47,7 @@ public class MicWrapperPusher : IAudioPusher<float>, IAudioDesc, IDisposable
 	public int SamplingRate
 	{
 		[Token(Token = "0x60003A1")]
-		[Address(RVA = "0x3C450F0", Offset = "0x3C450F0", VA = "0x3C450F0", Slot = "5")]
+		[Address(RVA = "0x3F3AA40", Offset = "0x3F3AA40", VA = "0x3F3AA40", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -51,7 +58,7 @@ public class MicWrapperPusher : IAudioPusher<float>, IAudioDesc, IDisposable
 	public int Channels
 	{
 		[Token(Token = "0x60003A2")]
-		[Address(RVA = "0x3C45100", Offset = "0x3C45100", VA = "0x3C45100", Slot = "6")]
+		[Address(RVA = "0x3F3AA50", Offset = "0x3F3AA50", VA = "0x3F3AA50", Slot = "6")]
 		get
 		{
 			return default(int);
@@ -62,14 +69,14 @@ public class MicWrapperPusher : IAudioPusher<float>, IAudioDesc, IDisposable
 	public string Error
 	{
 		[Token(Token = "0x60003A3")]
-		[Address(RVA = "0x3C45110", Offset = "0x3C45110", VA = "0x3C45110", Slot = "7")]
+		[Address(RVA = "0x3F3AA60", Offset = "0x3F3AA60", VA = "0x3F3AA60", Slot = "7")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60003A4")]
-		[Address(RVA = "0x3C45120", Offset = "0x3C45120", VA = "0x3C45120")]
+		[Address(RVA = "0x3F3AA70", Offset = "0x3F3AA70", VA = "0x3F3AA70")]
 		[CompilerGenerated]
 		private set
 		{
@@ -77,19 +84,19 @@ public class MicWrapperPusher : IAudioPusher<float>, IAudioDesc, IDisposable
 	}
 
 	[Token(Token = "0x600039E")]
-	[Address(RVA = "0x3C44070", Offset = "0x3C44070", VA = "0x3C44070")]
+	[Address(RVA = "0x3F399C0", Offset = "0x3F399C0", VA = "0x3F399C0")]
 	public MicWrapperPusher(GameObject parent, string device, int suggestedFrequency, ILogger logger)
 	{
 	}
 
 	[Token(Token = "0x600039F")]
-	[Address(RVA = "0x3C44CC0", Offset = "0x3C44CC0", VA = "0x3C44CC0", Slot = "4")]
+	[Address(RVA = "0x3F3A610", Offset = "0x3F3A610", VA = "0x3F3A610", Slot = "4")]
 	public void SetCallback(Action<float[]> callback, ObjectFactory<float[], int> bufferFactory)
 	{
 	}
 
 	[Token(Token = "0x60003A0")]
-	[Address(RVA = "0x3C44ED0", Offset = "0x3C44ED0", VA = "0x3C44ED0", Slot = "8")]
+	[Address(RVA = "0x3F3A820", Offset = "0x3F3A820", VA = "0x3F3A820", Slot = "8")]
 	public void Dispose()
 	{
 	}

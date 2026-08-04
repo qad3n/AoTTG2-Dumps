@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.TimerEventScheduler
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -31,39 +38,39 @@ internal class TimerEventScheduler : IScheduler
 	private int m_LastUpdatedIndex;
 
 	[Token(Token = "0x6000FC4")]
-	[Address(RVA = "0x4D4FF90", Offset = "0x4D4FF90", VA = "0x4D4FF90", Slot = "5")]
+	[Address(RVA = "0x50778C0", Offset = "0x50778C0", VA = "0x50778C0", Slot = "5")]
 	public void Schedule(ScheduledItem item)
 	{
 	}
 
 	[Token(Token = "0x6000FC5")]
-	[Address(RVA = "0x4D50150", Offset = "0x4D50150", VA = "0x4D50150")]
+	[Address(RVA = "0x5077A80", Offset = "0x5077A80", VA = "0x5077A80")]
 	private bool RemovedScheduledItemAt(int index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FC6")]
-	[Address(RVA = "0x4D501C0", Offset = "0x4D501C0", VA = "0x4D501C0", Slot = "4")]
+	[Address(RVA = "0x5077AF0", Offset = "0x5077AF0", VA = "0x5077AF0", Slot = "4")]
 	public void Unschedule(ScheduledItem item)
 	{
 	}
 
 	[Token(Token = "0x6000FC7")]
-	[Address(RVA = "0x4D50360", Offset = "0x4D50360", VA = "0x4D50360")]
+	[Address(RVA = "0x5077C90", Offset = "0x5077C90", VA = "0x5077C90")]
 	private bool PrivateUnSchedule(ScheduledItem sItem)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FC8")]
-	[Address(RVA = "0x4D50430", Offset = "0x4D50430", VA = "0x4D50430", Slot = "6")]
+	[Address(RVA = "0x5077D60", Offset = "0x5077D60", VA = "0x5077D60", Slot = "6")]
 	public void UpdateScheduledEvents()
 	{
 	}
 
 	[Token(Token = "0x6000FC9")]
-	[Address(RVA = "0x4D50820", Offset = "0x4D50820", VA = "0x4D50820")]
+	[Address(RVA = "0x5078150", Offset = "0x5078150", VA = "0x5078150")]
 	public TimerEventScheduler()
 	{
 	}

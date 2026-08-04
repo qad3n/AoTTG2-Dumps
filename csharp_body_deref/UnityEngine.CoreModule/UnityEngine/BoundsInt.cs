@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.BoundsInt
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -22,14 +29,14 @@ public struct BoundsInt : IEquatable<BoundsInt>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000272")]
-		[Address(RVA = "0x4A94950", Offset = "0x4A94950", VA = "0x4A94950")]
+		[Address(RVA = "0x4DBC170", Offset = "0x4DBC170", VA = "0x4DBC170")]
 		get
 		{
 			return default(Vector3Int);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000273")]
-		[Address(RVA = "0x4A94960", Offset = "0x4A94960", VA = "0x4A94960")]
+		[Address(RVA = "0x4DBC180", Offset = "0x4DBC180", VA = "0x4DBC180")]
 		set
 		{
 		}
@@ -40,14 +47,14 @@ public struct BoundsInt : IEquatable<BoundsInt>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000274")]
-		[Address(RVA = "0x4A94970", Offset = "0x4A94970", VA = "0x4A94970")]
+		[Address(RVA = "0x4DBC190", Offset = "0x4DBC190", VA = "0x4DBC190")]
 		get
 		{
 			return default(Vector3Int);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000275")]
-		[Address(RVA = "0x4A94980", Offset = "0x4A94980", VA = "0x4A94980")]
+		[Address(RVA = "0x4DBC1A0", Offset = "0x4DBC1A0", VA = "0x4DBC1A0")]
 		set
 		{
 		}
@@ -55,14 +62,14 @@ public struct BoundsInt : IEquatable<BoundsInt>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000276")]
-	[Address(RVA = "0x4A94990", Offset = "0x4A94990", VA = "0x4A94990")]
+	[Address(RVA = "0x4DBC1B0", Offset = "0x4DBC1B0", VA = "0x4DBC1B0")]
 	public BoundsInt(Vector3Int position, Vector3Int size)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000277")]
-	[Address(RVA = "0x4A949A0", Offset = "0x4A949A0", VA = "0x4A949A0", Slot = "3")]
+	[Address(RVA = "0x4DBC1C0", Offset = "0x4DBC1C0", VA = "0x4DBC1C0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
@@ -70,7 +77,7 @@ public struct BoundsInt : IEquatable<BoundsInt>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000278")]
-	[Address(RVA = "0x4A949B0", Offset = "0x4A949B0", VA = "0x4A949B0", Slot = "5")]
+	[Address(RVA = "0x4DBC1D0", Offset = "0x4DBC1D0", VA = "0x4DBC1D0", Slot = "5")]
 	public string ToString(string format, IFormatProvider formatProvider)
 	{
 		return null;
@@ -78,7 +85,7 @@ public struct BoundsInt : IEquatable<BoundsInt>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000279")]
-	[Address(RVA = "0x4A94B20", Offset = "0x4A94B20", VA = "0x4A94B20", Slot = "0")]
+	[Address(RVA = "0x4DBC340", Offset = "0x4DBC340", VA = "0x4DBC340", Slot = "0")]
 	public override bool Equals(object other)
 	{
 		return default(bool);
@@ -86,14 +93,14 @@ public struct BoundsInt : IEquatable<BoundsInt>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600027A")]
-	[Address(RVA = "0x4A94BC0", Offset = "0x4A94BC0", VA = "0x4A94BC0", Slot = "4")]
+	[Address(RVA = "0x4DBC3E0", Offset = "0x4DBC3E0", VA = "0x4DBC3E0", Slot = "4")]
 	public bool Equals(BoundsInt other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600027B")]
-	[Address(RVA = "0x4A94C10", Offset = "0x4A94C10", VA = "0x4A94C10", Slot = "2")]
+	[Address(RVA = "0x4DBC430", Offset = "0x4DBC430", VA = "0x4DBC430", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

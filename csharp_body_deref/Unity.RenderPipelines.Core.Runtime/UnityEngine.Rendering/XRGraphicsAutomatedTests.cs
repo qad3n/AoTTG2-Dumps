@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.XRGraphicsAutomatedTests
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 using UnityEngine.Experimental.Rendering;
@@ -15,7 +22,7 @@ public static class XRGraphicsAutomatedTests
 	private static bool activatedFromCommandLine
 	{
 		[Token(Token = "0x6000E39")]
-		[Address(RVA = "0x48E8720", Offset = "0x48E8720", VA = "0x48E8720")]
+		[Address(RVA = "0x4C0D790", Offset = "0x4C0D790", VA = "0x4C0D790")]
 		get
 		{
 			return default(bool);
@@ -26,7 +33,7 @@ public static class XRGraphicsAutomatedTests
 	public static bool enabled
 	{
 		[Token(Token = "0x6000E3A")]
-		[Address(RVA = "0x48E8730", Offset = "0x48E8730", VA = "0x48E8730")]
+		[Address(RVA = "0x4C0D7A0", Offset = "0x4C0D7A0", VA = "0x4C0D7A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -35,7 +42,7 @@ public static class XRGraphicsAutomatedTests
 	}
 
 	[Token(Token = "0x6000E3B")]
-	[Address(RVA = "0x48E87A0", Offset = "0x48E87A0", VA = "0x48E87A0")]
+	[Address(RVA = "0x4C0D810", Offset = "0x4C0D810", VA = "0x4C0D810")]
 	internal static void OverrideLayout(XRLayout layout, Camera camera)
 	{
 	}

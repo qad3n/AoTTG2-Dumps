@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Array
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -31,7 +38,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 		public object Current
 		{
 			[Token(Token = "0x6000D30")]
-			[Address(RVA = "0x4FFDA00", Offset = "0x4FFDA00", VA = "0x4FFDA00", Slot = "5")]
+			[Address(RVA = "0x3CE3520", Offset = "0x3CE3520", VA = "0x3CE3520", Slot = "5")]
 			get
 			{
 				return null;
@@ -39,26 +46,26 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 		}
 
 		[Token(Token = "0x6000D2C")]
-		[Address(RVA = "0x4FFD970", Offset = "0x4FFD970", VA = "0x4FFD970")]
+		[Address(RVA = "0x3CE3490", Offset = "0x3CE3490", VA = "0x3CE3490")]
 		internal ArrayEnumerator(Array array)
 		{
 		}
 
 		[Token(Token = "0x6000D2D")]
-		[Address(RVA = "0x4FFD9C0", Offset = "0x4FFD9C0", VA = "0x4FFD9C0", Slot = "4")]
+		[Address(RVA = "0x3CE34E0", Offset = "0x3CE34E0", VA = "0x3CE34E0", Slot = "4")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000D2E")]
-		[Address(RVA = "0x4FFD9E0", Offset = "0x4FFD9E0", VA = "0x4FFD9E0", Slot = "6")]
+		[Address(RVA = "0x3CE3500", Offset = "0x3CE3500", VA = "0x3CE3500", Slot = "6")]
 		public void Reset()
 		{
 		}
 
 		[Token(Token = "0x6000D2F")]
-		[Address(RVA = "0x4FFD9F0", Offset = "0x4FFD9F0", VA = "0x4FFD9F0", Slot = "7")]
+		[Address(RVA = "0x3CE3510", Offset = "0x3CE3510", VA = "0x3CE3510", Slot = "7")]
 		public object Clone()
 		{
 			return null;
@@ -200,62 +207,62 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 		private IComparer comparer;
 
 		[Token(Token = "0x6000D3E")]
-		[Address(RVA = "0x4FFDB10", Offset = "0x4FFDB10", VA = "0x4FFDB10")]
+		[Address(RVA = "0x3CE3630", Offset = "0x3CE3630", VA = "0x3CE3630")]
 		internal SorterObjectArray(object[] keys, object[] items, IComparer comparer)
 		{
 		}
 
 		[Token(Token = "0x6000D3F")]
-		[Address(RVA = "0x4FFDBB0", Offset = "0x4FFDBB0", VA = "0x4FFDBB0")]
+		[Address(RVA = "0x3CE36D0", Offset = "0x3CE36D0", VA = "0x3CE36D0")]
 		internal void SwapIfGreaterWithItems(int a, int b)
 		{
 		}
 
 		[Token(Token = "0x6000D40")]
-		[Address(RVA = "0x4FFDE70", Offset = "0x4FFDE70", VA = "0x4FFDE70")]
+		[Address(RVA = "0x3CE3990", Offset = "0x3CE3990", VA = "0x3CE3990")]
 		private void Swap(int i, int j)
 		{
 		}
 
 		[Token(Token = "0x6000D41")]
-		[Address(RVA = "0x4FFE040", Offset = "0x4FFE040", VA = "0x4FFE040")]
+		[Address(RVA = "0x3CE3B60", Offset = "0x3CE3B60", VA = "0x3CE3B60")]
 		internal void Sort(int left, int length)
 		{
 		}
 
 		[Token(Token = "0x6000D42")]
-		[Address(RVA = "0x4FFE050", Offset = "0x4FFE050", VA = "0x4FFE050")]
+		[Address(RVA = "0x3CE3B70", Offset = "0x3CE3B70", VA = "0x3CE3B70")]
 		private void IntrospectiveSort(int left, int length)
 		{
 		}
 
 		[Token(Token = "0x6000D43")]
-		[Address(RVA = "0x4FFE1A0", Offset = "0x4FFE1A0", VA = "0x4FFE1A0")]
+		[Address(RVA = "0x3CE3CC0", Offset = "0x3CE3CC0", VA = "0x3CE3CC0")]
 		private void IntroSort(int lo, int hi, int depthLimit)
 		{
 		}
 
 		[Token(Token = "0x6000D44")]
-		[Address(RVA = "0x4FFE6F0", Offset = "0x4FFE6F0", VA = "0x4FFE6F0")]
+		[Address(RVA = "0x3CE4210", Offset = "0x3CE4210", VA = "0x3CE4210")]
 		private int PickPivotAndPartition(int lo, int hi)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000D45")]
-		[Address(RVA = "0x4FFE660", Offset = "0x4FFE660", VA = "0x4FFE660")]
+		[Address(RVA = "0x3CE4180", Offset = "0x3CE4180", VA = "0x3CE4180")]
 		private void Heapsort(int lo, int hi)
 		{
 		}
 
 		[Token(Token = "0x6000D46")]
-		[Address(RVA = "0x4FFE980", Offset = "0x4FFE980", VA = "0x4FFE980")]
+		[Address(RVA = "0x3CE44A0", Offset = "0x3CE44A0", VA = "0x3CE44A0")]
 		private void DownHeap(int i, int n, int lo)
 		{
 		}
 
 		[Token(Token = "0x6000D47")]
-		[Address(RVA = "0x4FFE300", Offset = "0x4FFE300", VA = "0x4FFE300")]
+		[Address(RVA = "0x3CE3E20", Offset = "0x3CE3E20", VA = "0x3CE3E20")]
 		private void InsertionSort(int lo, int hi)
 		{
 		}
@@ -277,62 +284,62 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 		private IComparer comparer;
 
 		[Token(Token = "0x6000D48")]
-		[Address(RVA = "0x4FFEDD0", Offset = "0x4FFEDD0", VA = "0x4FFEDD0")]
+		[Address(RVA = "0x3CE48F0", Offset = "0x3CE48F0", VA = "0x3CE48F0")]
 		internal SorterGenericArray(Array keys, Array items, IComparer comparer)
 		{
 		}
 
 		[Token(Token = "0x6000D49")]
-		[Address(RVA = "0x4FFEE70", Offset = "0x4FFEE70", VA = "0x4FFEE70")]
+		[Address(RVA = "0x3CE4990", Offset = "0x3CE4990", VA = "0x3CE4990")]
 		internal void SwapIfGreaterWithItems(int a, int b)
 		{
 		}
 
 		[Token(Token = "0x6000D4A")]
-		[Address(RVA = "0x4FFF040", Offset = "0x4FFF040", VA = "0x4FFF040")]
+		[Address(RVA = "0x3CE4B60", Offset = "0x3CE4B60", VA = "0x3CE4B60")]
 		private void Swap(int i, int j)
 		{
 		}
 
 		[Token(Token = "0x6000D4B")]
-		[Address(RVA = "0x4FFF110", Offset = "0x4FFF110", VA = "0x4FFF110")]
+		[Address(RVA = "0x3CE4C30", Offset = "0x3CE4C30", VA = "0x3CE4C30")]
 		internal void Sort(int left, int length)
 		{
 		}
 
 		[Token(Token = "0x6000D4C")]
-		[Address(RVA = "0x4FFF120", Offset = "0x4FFF120", VA = "0x4FFF120")]
+		[Address(RVA = "0x3CE4C40", Offset = "0x3CE4C40", VA = "0x3CE4C40")]
 		private void IntrospectiveSort(int left, int length)
 		{
 		}
 
 		[Token(Token = "0x6000D4D")]
-		[Address(RVA = "0x4FFF280", Offset = "0x4FFF280", VA = "0x4FFF280")]
+		[Address(RVA = "0x3CE4DA0", Offset = "0x3CE4DA0", VA = "0x3CE4DA0")]
 		private void IntroSort(int lo, int hi, int depthLimit)
 		{
 		}
 
 		[Token(Token = "0x6000D4E")]
-		[Address(RVA = "0x4FFF690", Offset = "0x4FFF690", VA = "0x4FFF690")]
+		[Address(RVA = "0x3CE51B0", Offset = "0x3CE51B0", VA = "0x3CE51B0")]
 		private int PickPivotAndPartition(int lo, int hi)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000D4F")]
-		[Address(RVA = "0x4FFF600", Offset = "0x4FFF600", VA = "0x4FFF600")]
+		[Address(RVA = "0x3CE5120", Offset = "0x3CE5120", VA = "0x3CE5120")]
 		private void Heapsort(int lo, int hi)
 		{
 		}
 
 		[Token(Token = "0x6000D50")]
-		[Address(RVA = "0x4FFF920", Offset = "0x4FFF920", VA = "0x4FFF920")]
+		[Address(RVA = "0x3CE5440", Offset = "0x3CE5440", VA = "0x3CE5440")]
 		private void DownHeap(int i, int n, int lo)
 		{
 		}
 
 		[Token(Token = "0x6000D51")]
-		[Address(RVA = "0x4FFF3E0", Offset = "0x4FFF3E0", VA = "0x4FFF3E0")]
+		[Address(RVA = "0x3CE4F00", Offset = "0x3CE4F00", VA = "0x3CE4F00")]
 		private void InsertionSort(int lo, int hi)
 		{
 		}
@@ -342,7 +349,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	private int System_002ECollections_002EICollection_002ECount
 	{
 		[Token(Token = "0x6000C94")]
-		[Address(RVA = "0x4FF8DA0", Offset = "0x4FF8DA0", VA = "0x4FF8DA0", Slot = "5")]
+		[Address(RVA = "0x3CDE8C0", Offset = "0x3CDE8C0", VA = "0x3CDE8C0", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -353,7 +360,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	private bool System_002ECollections_002EIList_002EIsReadOnly
 	{
 		[Token(Token = "0x6000C95")]
-		[Address(RVA = "0x4FF8E00", Offset = "0x4FF8E00", VA = "0x4FF8E00", Slot = "14")]
+		[Address(RVA = "0x3CDE920", Offset = "0x3CDE920", VA = "0x3CDE920", Slot = "14")]
 		get
 		{
 			return default(bool);
@@ -364,13 +371,13 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	private object System_002ECollections_002EIList_002EItem
 	{
 		[Token(Token = "0x6000C96")]
-		[Address(RVA = "0x4FF8E10", Offset = "0x4FF8E10", VA = "0x4FF8E10", Slot = "9")]
+		[Address(RVA = "0x3CDE930", Offset = "0x3CDE930", VA = "0x3CDE930", Slot = "9")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000C97")]
-		[Address(RVA = "0x4FF8E20", Offset = "0x4FF8E20", VA = "0x4FF8E20", Slot = "10")]
+		[Address(RVA = "0x3CDE940", Offset = "0x3CDE940", VA = "0x3CDE940", Slot = "10")]
 		set
 		{
 		}
@@ -380,7 +387,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	public long LongLength
 	{
 		[Token(Token = "0x6000CAB")]
-		[Address(RVA = "0x4FFAB50", Offset = "0x4FFAB50", VA = "0x4FFAB50")]
+		[Address(RVA = "0x3CE0670", Offset = "0x3CE0670", VA = "0x3CE0670")]
 		get
 		{
 			return default(long);
@@ -391,7 +398,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	public bool IsFixedSize
 	{
 		[Token(Token = "0x6000CB1")]
-		[Address(RVA = "0x4FFB0A0", Offset = "0x4FFB0A0", VA = "0x4FFB0A0", Slot = "15")]
+		[Address(RVA = "0x3CE0BC0", Offset = "0x3CE0BC0", VA = "0x3CE0BC0", Slot = "15")]
 		get
 		{
 			return default(bool);
@@ -402,7 +409,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	public bool IsReadOnly
 	{
 		[Token(Token = "0x6000CB2")]
-		[Address(RVA = "0x4FFB0B0", Offset = "0x4FFB0B0", VA = "0x4FFB0B0", Slot = "24")]
+		[Address(RVA = "0x3CE0BD0", Offset = "0x3CE0BD0", VA = "0x3CE0BD0", Slot = "24")]
 		get
 		{
 			return default(bool);
@@ -413,7 +420,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	public bool IsSynchronized
 	{
 		[Token(Token = "0x6000CB3")]
-		[Address(RVA = "0x4FFB0C0", Offset = "0x4FFB0C0", VA = "0x4FFB0C0", Slot = "7")]
+		[Address(RVA = "0x3CE0BE0", Offset = "0x3CE0BE0", VA = "0x3CE0BE0", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -424,7 +431,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	public object SyncRoot
 	{
 		[Token(Token = "0x6000CB4")]
-		[Address(RVA = "0x4FFB0D0", Offset = "0x4FFB0D0", VA = "0x4FFB0D0", Slot = "6")]
+		[Address(RVA = "0x3CE0BF0", Offset = "0x3CE0BF0", VA = "0x3CE0BF0", Slot = "6")]
 		get
 		{
 			return null;
@@ -435,7 +442,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	public int Length
 	{
 		[Token(Token = "0x6000D03")]
-		[Address(RVA = "0x4FEE730", Offset = "0x4FEE730", VA = "0x4FEE730")]
+		[Address(RVA = "0x3CD4250", Offset = "0x3CD4250", VA = "0x3CD4250")]
 		[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 		get
 		{
@@ -447,7 +454,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	public int Rank
 	{
 		[Token(Token = "0x6000D04")]
-		[Address(RVA = "0x4FF9480", Offset = "0x4FF9480", VA = "0x4FF9480")]
+		[Address(RVA = "0x3CDEFA0", Offset = "0x3CDEFA0", VA = "0x3CDEFA0")]
 		[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 		get
 		{
@@ -456,7 +463,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	}
 
 	[Token(Token = "0x6000C91")]
-	[Address(RVA = "0x4FF8960", Offset = "0x4FF8960", VA = "0x4FF8960")]
+	[Address(RVA = "0x3CDE480", Offset = "0x3CDE480", VA = "0x3CDE480")]
 	public static Array CreateInstance(Type elementType, params long[] lengths)
 	{
 		return null;
@@ -474,93 +481,93 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	}
 
 	[Token(Token = "0x6000C98")]
-	[Address(RVA = "0x4FF8F90", Offset = "0x4FF8F90", VA = "0x4FF8F90", Slot = "11")]
+	[Address(RVA = "0x3CDEAB0", Offset = "0x3CDEAB0", VA = "0x3CDEAB0", Slot = "11")]
 	private int System_002ECollections_002EIList_002EAdd(object value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000C99")]
-	[Address(RVA = "0x4FF8FE0", Offset = "0x4FF8FE0", VA = "0x4FF8FE0", Slot = "12")]
+	[Address(RVA = "0x3CDEB00", Offset = "0x3CDEB00", VA = "0x3CDEB00", Slot = "12")]
 	private bool System_002ECollections_002EIList_002EContains(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C9A")]
-	[Address(RVA = "0x4FF90B0", Offset = "0x4FF90B0", VA = "0x4FF90B0", Slot = "13")]
+	[Address(RVA = "0x3CDEBD0", Offset = "0x3CDEBD0", VA = "0x3CDEBD0", Slot = "13")]
 	private void System_002ECollections_002EIList_002EClear()
 	{
 	}
 
 	[Token(Token = "0x6000C9B")]
-	[Address(RVA = "0x4FF9290", Offset = "0x4FF9290", VA = "0x4FF9290", Slot = "16")]
+	[Address(RVA = "0x3CDEDB0", Offset = "0x3CDEDB0", VA = "0x3CDEDB0", Slot = "16")]
 	private int System_002ECollections_002EIList_002EIndexOf(object value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000C9C")]
-	[Address(RVA = "0x4FF92A0", Offset = "0x4FF92A0", VA = "0x4FF92A0", Slot = "17")]
+	[Address(RVA = "0x3CDEDC0", Offset = "0x3CDEDC0", VA = "0x3CDEDC0", Slot = "17")]
 	private void System_002ECollections_002EIList_002EInsert(int index, object value)
 	{
 	}
 
 	[Token(Token = "0x6000C9D")]
-	[Address(RVA = "0x4FF92F0", Offset = "0x4FF92F0", VA = "0x4FF92F0", Slot = "18")]
+	[Address(RVA = "0x3CDEE10", Offset = "0x3CDEE10", VA = "0x3CDEE10", Slot = "18")]
 	private void System_002ECollections_002EIList_002ERemove(object value)
 	{
 	}
 
 	[Token(Token = "0x6000C9E")]
-	[Address(RVA = "0x4FF9340", Offset = "0x4FF9340", VA = "0x4FF9340", Slot = "19")]
+	[Address(RVA = "0x3CDEE60", Offset = "0x3CDEE60", VA = "0x3CDEE60", Slot = "19")]
 	private void System_002ECollections_002EIList_002ERemoveAt(int index)
 	{
 	}
 
 	[Token(Token = "0x6000C9F")]
-	[Address(RVA = "0x4FF9390", Offset = "0x4FF9390", VA = "0x4FF9390", Slot = "4")]
+	[Address(RVA = "0x3CDEEB0", Offset = "0x3CDEEB0", VA = "0x3CDEEB0", Slot = "4")]
 	public void CopyTo(Array array, int index)
 	{
 	}
 
 	[Token(Token = "0x6000CA0")]
-	[Address(RVA = "0x4FF9A60", Offset = "0x4FF9A60", VA = "0x4FF9A60", Slot = "23")]
+	[Address(RVA = "0x3CDF580", Offset = "0x3CDF580", VA = "0x3CDF580", Slot = "23")]
 	public object Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CA1")]
-	[Address(RVA = "0x4FF9A70", Offset = "0x4FF9A70", VA = "0x4FF9A70", Slot = "20")]
+	[Address(RVA = "0x3CDF590", Offset = "0x3CDF590", VA = "0x3CDF590", Slot = "20")]
 	private int System_002ECollections_002EIStructuralComparable_002ECompareTo(object other, IComparer comparer)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000CA2")]
-	[Address(RVA = "0x4FF9D70", Offset = "0x4FF9D70", VA = "0x4FF9D70", Slot = "21")]
+	[Address(RVA = "0x3CDF890", Offset = "0x3CDF890", VA = "0x3CDF890", Slot = "21")]
 	private bool System_002ECollections_002EIStructuralEquatable_002EEquals(object other, IEqualityComparer comparer)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000CA3")]
-	[Address(RVA = "0x4FFA000", Offset = "0x4FFA000", VA = "0x4FFA000")]
+	[Address(RVA = "0x3CDFB20", Offset = "0x3CDFB20", VA = "0x3CDFB20")]
 	internal static int CombineHashCodes(int h1, int h2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000CA4")]
-	[Address(RVA = "0x4FFA010", Offset = "0x4FFA010", VA = "0x4FFA010", Slot = "22")]
+	[Address(RVA = "0x3CDFB30", Offset = "0x3CDFB30", VA = "0x3CDFB30", Slot = "22")]
 	private int System_002ECollections_002EIStructuralEquatable_002EGetHashCode(IEqualityComparer comparer)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000CA5")]
-	[Address(RVA = "0x4FFA240", Offset = "0x4FFA240", VA = "0x4FFA240")]
+	[Address(RVA = "0x3CDFD60", Offset = "0x3CDFD60", VA = "0x3CDFD60")]
 	public static int BinarySearch(Array array, object value)
 	{
 		return default(int);
@@ -573,19 +580,19 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	}
 
 	[Token(Token = "0x6000CA7")]
-	[Address(RVA = "0x4FFA8D0", Offset = "0x4FFA8D0", VA = "0x4FFA8D0")]
+	[Address(RVA = "0x3CE03F0", Offset = "0x3CE03F0", VA = "0x3CE03F0")]
 	public static void Copy(Array sourceArray, Array destinationArray, long length)
 	{
 	}
 
 	[Token(Token = "0x6000CA8")]
-	[Address(RVA = "0x4FFAA00", Offset = "0x4FFAA00", VA = "0x4FFAA00")]
+	[Address(RVA = "0x3CE0520", Offset = "0x3CE0520", VA = "0x3CE0520")]
 	public static void Copy(Array sourceArray, long sourceIndex, Array destinationArray, long destinationIndex, long length)
 	{
 	}
 
 	[Token(Token = "0x6000CA9")]
-	[Address(RVA = "0x4FFAAD0", Offset = "0x4FFAAD0", VA = "0x4FFAAD0")]
+	[Address(RVA = "0x3CE05F0", Offset = "0x3CE05F0", VA = "0x3CE05F0")]
 	public void CopyTo(Array array, long index)
 	{
 	}
@@ -596,63 +603,63 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	}
 
 	[Token(Token = "0x6000CAC")]
-	[Address(RVA = "0x4FFABC0", Offset = "0x4FFABC0", VA = "0x4FFABC0")]
+	[Address(RVA = "0x3CE06E0", Offset = "0x3CE06E0", VA = "0x3CE06E0")]
 	public long GetLongLength(int dimension)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000CAD")]
-	[Address(RVA = "0x4FFABD0", Offset = "0x4FFABD0", VA = "0x4FFABD0")]
+	[Address(RVA = "0x3CE06F0", Offset = "0x3CE06F0", VA = "0x3CE06F0")]
 	public object GetValue(long index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CAE")]
-	[Address(RVA = "0x4FFAC50", Offset = "0x4FFAC50", VA = "0x4FFAC50")]
+	[Address(RVA = "0x3CE0770", Offset = "0x3CE0770", VA = "0x3CE0770")]
 	public object GetValue(long index1, long index2)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CAF")]
-	[Address(RVA = "0x4FFADD0", Offset = "0x4FFADD0", VA = "0x4FFADD0")]
+	[Address(RVA = "0x3CE08F0", Offset = "0x3CE08F0", VA = "0x3CE08F0")]
 	public object GetValue(long index1, long index2, long index3)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CB0")]
-	[Address(RVA = "0x4FFAF20", Offset = "0x4FFAF20", VA = "0x4FFAF20")]
+	[Address(RVA = "0x3CE0A40", Offset = "0x3CE0A40", VA = "0x3CE0A40")]
 	public object GetValue(params long[] indices)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CB5")]
-	[Address(RVA = "0x4FFB0E0", Offset = "0x4FFB0E0", VA = "0x4FFB0E0")]
+	[Address(RVA = "0x3CE0C00", Offset = "0x3CE0C00", VA = "0x3CE0C00")]
 	public static int BinarySearch(Array array, int index, int length, object value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000CB6")]
-	[Address(RVA = "0x4FFB0F0", Offset = "0x4FFB0F0", VA = "0x4FFB0F0")]
+	[Address(RVA = "0x3CE0C10", Offset = "0x3CE0C10", VA = "0x3CE0C10")]
 	public static int BinarySearch(Array array, object value, IComparer comparer)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000CB7")]
-	[Address(RVA = "0x4FFA300", Offset = "0x4FFA300", VA = "0x4FFA300")]
+	[Address(RVA = "0x3CDFE20", Offset = "0x3CDFE20", VA = "0x3CDFE20")]
 	public static int BinarySearch(Array array, int index, int length, object value, IComparer comparer)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000CB8")]
-	[Address(RVA = "0x4FFB1D0", Offset = "0x4FFB1D0", VA = "0x4FFB1D0")]
+	[Address(RVA = "0x3CE0CF0", Offset = "0x3CE0CF0", VA = "0x3CE0CF0")]
 	private static int GetMedian(int low, int hi)
 	{
 		return default(int);
@@ -683,21 +690,21 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	}
 
 	[Token(Token = "0x6000CBD")]
-	[Address(RVA = "0x4FF8FF0", Offset = "0x4FF8FF0", VA = "0x4FF8FF0")]
+	[Address(RVA = "0x3CDEB10", Offset = "0x3CDEB10", VA = "0x3CDEB10")]
 	public static int IndexOf(Array array, object value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000CBE")]
-	[Address(RVA = "0x4FFB560", Offset = "0x4FFB560", VA = "0x4FFB560")]
+	[Address(RVA = "0x3CE1080", Offset = "0x3CE1080", VA = "0x3CE1080")]
 	public static int IndexOf(Array array, object value, int startIndex)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000CBF")]
-	[Address(RVA = "0x4FFB1E0", Offset = "0x4FFB1E0", VA = "0x4FFB1E0")]
+	[Address(RVA = "0x3CE0D00", Offset = "0x3CE0D00", VA = "0x3CE0D00")]
 	public static int IndexOf(Array array, object value, int startIndex, int count)
 	{
 		return default(int);
@@ -722,21 +729,21 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	}
 
 	[Token(Token = "0x6000CC3")]
-	[Address(RVA = "0x4FFB640", Offset = "0x4FFB640", VA = "0x4FFB640")]
+	[Address(RVA = "0x3CE1160", Offset = "0x3CE1160", VA = "0x3CE1160")]
 	public static int LastIndexOf(Array array, object value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000CC4")]
-	[Address(RVA = "0x4FFBAC0", Offset = "0x4FFBAC0", VA = "0x4FFBAC0")]
+	[Address(RVA = "0x3CE15E0", Offset = "0x3CE15E0", VA = "0x3CE15E0")]
 	public static int LastIndexOf(Array array, object value, int startIndex)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000CC5")]
-	[Address(RVA = "0x4FFB740", Offset = "0x4FFB740", VA = "0x4FFB740")]
+	[Address(RVA = "0x3CE1260", Offset = "0x3CE1260", VA = "0x3CE1260")]
 	public static int LastIndexOf(Array array, object value, int startIndex, int count)
 	{
 		return default(int);
@@ -761,13 +768,13 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	}
 
 	[Token(Token = "0x6000CC9")]
-	[Address(RVA = "0x4FFBB20", Offset = "0x4FFBB20", VA = "0x4FFBB20")]
+	[Address(RVA = "0x3CE1640", Offset = "0x3CE1640", VA = "0x3CE1640")]
 	public static void Reverse(Array array)
 	{
 	}
 
 	[Token(Token = "0x6000CCA")]
-	[Address(RVA = "0x4FFBBE0", Offset = "0x4FFBBE0", VA = "0x4FFBBE0")]
+	[Address(RVA = "0x3CE1700", Offset = "0x3CE1700", VA = "0x3CE1700")]
 	public static void Reverse(Array array, int index, int length)
 	{
 	}
@@ -783,73 +790,73 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	}
 
 	[Token(Token = "0x6000CCD")]
-	[Address(RVA = "0x4FFBE70", Offset = "0x4FFBE70", VA = "0x4FFBE70")]
+	[Address(RVA = "0x3CE1990", Offset = "0x3CE1990", VA = "0x3CE1990")]
 	public void SetValue(object value, long index)
 	{
 	}
 
 	[Token(Token = "0x6000CCE")]
-	[Address(RVA = "0x4FFBEF0", Offset = "0x4FFBEF0", VA = "0x4FFBEF0")]
+	[Address(RVA = "0x3CE1A10", Offset = "0x3CE1A10", VA = "0x3CE1A10")]
 	public void SetValue(object value, long index1, long index2)
 	{
 	}
 
 	[Token(Token = "0x6000CCF")]
-	[Address(RVA = "0x4FFC080", Offset = "0x4FFC080", VA = "0x4FFC080")]
+	[Address(RVA = "0x3CE1BA0", Offset = "0x3CE1BA0", VA = "0x3CE1BA0")]
 	public void SetValue(object value, long index1, long index2, long index3)
 	{
 	}
 
 	[Token(Token = "0x6000CD0")]
-	[Address(RVA = "0x4FFC1E0", Offset = "0x4FFC1E0", VA = "0x4FFC1E0")]
+	[Address(RVA = "0x3CE1D00", Offset = "0x3CE1D00", VA = "0x3CE1D00")]
 	public void SetValue(object value, params long[] indices)
 	{
 	}
 
 	[Token(Token = "0x6000CD1")]
-	[Address(RVA = "0x4FFC370", Offset = "0x4FFC370", VA = "0x4FFC370")]
+	[Address(RVA = "0x3CE1E90", Offset = "0x3CE1E90", VA = "0x3CE1E90")]
 	public static void Sort(Array array)
 	{
 	}
 
 	[Token(Token = "0x6000CD2")]
-	[Address(RVA = "0x4FFC700", Offset = "0x4FFC700", VA = "0x4FFC700")]
+	[Address(RVA = "0x3CE2220", Offset = "0x3CE2220", VA = "0x3CE2220")]
 	public static void Sort(Array array, int index, int length)
 	{
 	}
 
 	[Token(Token = "0x6000CD3")]
-	[Address(RVA = "0x4FFC710", Offset = "0x4FFC710", VA = "0x4FFC710")]
+	[Address(RVA = "0x3CE2230", Offset = "0x3CE2230", VA = "0x3CE2230")]
 	public static void Sort(Array array, IComparer comparer)
 	{
 	}
 
 	[Token(Token = "0x6000CD4")]
-	[Address(RVA = "0x4FFC7D0", Offset = "0x4FFC7D0", VA = "0x4FFC7D0")]
+	[Address(RVA = "0x3CE22F0", Offset = "0x3CE22F0", VA = "0x3CE22F0")]
 	public static void Sort(Array array, int index, int length, IComparer comparer)
 	{
 	}
 
 	[Token(Token = "0x6000CD5")]
-	[Address(RVA = "0x4FFC7E0", Offset = "0x4FFC7E0", VA = "0x4FFC7E0")]
+	[Address(RVA = "0x3CE2300", Offset = "0x3CE2300", VA = "0x3CE2300")]
 	public static void Sort(Array keys, Array items)
 	{
 	}
 
 	[Token(Token = "0x6000CD6")]
-	[Address(RVA = "0x4FFC8A0", Offset = "0x4FFC8A0", VA = "0x4FFC8A0")]
+	[Address(RVA = "0x3CE23C0", Offset = "0x3CE23C0", VA = "0x3CE23C0")]
 	public static void Sort(Array keys, Array items, IComparer comparer)
 	{
 	}
 
 	[Token(Token = "0x6000CD7")]
-	[Address(RVA = "0x4FFC980", Offset = "0x4FFC980", VA = "0x4FFC980")]
+	[Address(RVA = "0x3CE24A0", Offset = "0x3CE24A0", VA = "0x3CE24A0")]
 	public static void Sort(Array keys, Array items, int index, int length)
 	{
 	}
 
 	[Token(Token = "0x6000CD8")]
-	[Address(RVA = "0x4FFC430", Offset = "0x4FFC430", VA = "0x4FFC430")]
+	[Address(RVA = "0x3CE1F50", Offset = "0x3CE1F50", VA = "0x3CE1F50")]
 	public static void Sort(Array keys, Array items, int index, int length, IComparer comparer)
 	{
 	}
@@ -976,27 +983,27 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	}
 
 	[Token(Token = "0x6000CEF")]
-	[Address(RVA = "0x4FFCA80", Offset = "0x4FFCA80", VA = "0x4FFCA80", Slot = "8")]
+	[Address(RVA = "0x3CE25A0", Offset = "0x3CE25A0", VA = "0x3CE25A0", Slot = "8")]
 	public IEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CF0")]
-	[Address(RVA = "0x4FFCAD0", Offset = "0x4FFCAD0", VA = "0x4FFCAD0")]
+	[Address(RVA = "0x3CE25F0", Offset = "0x3CE25F0", VA = "0x3CE25F0")]
 	private Array()
 	{
 	}
 
 	[Token(Token = "0x6000CF1")]
-	[Address(RVA = "0x4FFCAE0", Offset = "0x4FFCAE0", VA = "0x4FFCAE0")]
+	[Address(RVA = "0x3CE2600", Offset = "0x3CE2600", VA = "0x3CE2600")]
 	internal int InternalArray__ICollection_get_Count()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000CF2")]
-	[Address(RVA = "0x4FFCB40", Offset = "0x4FFCB40", VA = "0x4FFCB40")]
+	[Address(RVA = "0x3CE2660", Offset = "0x3CE2660", VA = "0x3CE2660")]
 	internal bool InternalArray__ICollection_get_IsReadOnly()
 	{
 		return default(bool);
@@ -1004,7 +1011,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000CF3")]
-	[Address(RVA = "0x4FFCB50", Offset = "0x4FFCB50", VA = "0x4FFCB50")]
+	[Address(RVA = "0x3CE2670", Offset = "0x3CE2670", VA = "0x3CE2670")]
 	internal unsafe ref byte GetRawSzArrayData()
 	{
 		return ref *(byte*)null;
@@ -1017,7 +1024,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	}
 
 	[Token(Token = "0x6000CF5")]
-	[Address(RVA = "0x4FFCB70", Offset = "0x4FFCB70", VA = "0x4FFCB70")]
+	[Address(RVA = "0x3CE2690", Offset = "0x3CE2690", VA = "0x3CE2690")]
 	internal void InternalArray__ICollection_Clear()
 	{
 	}
@@ -1051,7 +1058,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	}
 
 	[Token(Token = "0x6000CFB")]
-	[Address(RVA = "0x4FFCBC0", Offset = "0x4FFCBC0", VA = "0x4FFCBC0")]
+	[Address(RVA = "0x3CE26E0", Offset = "0x3CE26E0", VA = "0x3CE26E0")]
 	internal int InternalArray__IReadOnlyCollection_get_Count()
 	{
 		return default(int);
@@ -1063,7 +1070,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	}
 
 	[Token(Token = "0x6000CFD")]
-	[Address(RVA = "0x4FFCC20", Offset = "0x4FFCC20", VA = "0x4FFCC20")]
+	[Address(RVA = "0x3CE2740", Offset = "0x3CE2740", VA = "0x3CE2740")]
 	internal void InternalArray__RemoveAt(int index)
 	{
 	}
@@ -1097,52 +1104,52 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000D05")]
-	[Address(RVA = "0x4FFCC70", Offset = "0x4FFCC70", VA = "0x4FFCC70")]
+	[Address(RVA = "0x3CE2790", Offset = "0x3CE2790", VA = "0x3CE2790")]
 	private extern int GetRank();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000D06")]
-	[Address(RVA = "0x4FFABB0", Offset = "0x4FFABB0", VA = "0x4FFABB0")]
+	[Address(RVA = "0x3CE06D0", Offset = "0x3CE06D0", VA = "0x3CE06D0")]
 	public extern int GetLength(int dimension);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000D07")]
-	[Address(RVA = "0x4FF9120", Offset = "0x4FF9120", VA = "0x4FF9120")]
+	[Address(RVA = "0x3CDEC40", Offset = "0x3CDEC40", VA = "0x3CDEC40")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	public extern int GetLowerBound(int dimension);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000D08")]
-	[Address(RVA = "0x4FFB090", Offset = "0x4FFB090", VA = "0x4FFB090")]
+	[Address(RVA = "0x3CE0BB0", Offset = "0x3CE0BB0", VA = "0x3CE0BB0")]
 	public extern object GetValue(params int[] indices);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000D09")]
-	[Address(RVA = "0x4FFC360", Offset = "0x4FFC360", VA = "0x4FFC360")]
+	[Address(RVA = "0x3CE1E80", Offset = "0x3CE1E80", VA = "0x3CE1E80")]
 	public extern void SetValue(object value, params int[] indices);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000D0A")]
-	[Address(RVA = "0x4FFCC80", Offset = "0x4FFCC80", VA = "0x4FFCC80")]
+	[Address(RVA = "0x3CE27A0", Offset = "0x3CE27A0", VA = "0x3CE27A0")]
 	internal extern object GetValueImpl(int pos);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000D0B")]
-	[Address(RVA = "0x4FFCC90", Offset = "0x4FFCC90", VA = "0x4FFCC90")]
+	[Address(RVA = "0x3CE27B0", Offset = "0x3CE27B0", VA = "0x3CE27B0")]
 	internal extern void SetValueImpl(object value, int pos);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000D0C")]
-	[Address(RVA = "0x4FFCCA0", Offset = "0x4FFCCA0", VA = "0x4FFCCA0")]
+	[Address(RVA = "0x3CE27C0", Offset = "0x3CE27C0", VA = "0x3CE27C0")]
 	internal static extern bool FastCopy(Array source, int source_idx, Array dest, int dest_idx, int length);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000D0D")]
-	[Address(RVA = "0x4FFCCB0", Offset = "0x4FFCCB0", VA = "0x4FFCCB0")]
+	[Address(RVA = "0x3CE27D0", Offset = "0x3CE27D0", VA = "0x3CE27D0")]
 	internal static extern Array CreateInstanceImpl(Type elementType, int[] lengths, int[] bounds);
 
 	[Token(Token = "0x6000D0E")]
-	[Address(RVA = "0x4FFCCC0", Offset = "0x4FFCCC0", VA = "0x4FFCCC0")]
+	[Address(RVA = "0x3CE27E0", Offset = "0x3CE27E0", VA = "0x3CE27E0")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	public int GetUpperBound(int dimension)
 	{
@@ -1150,102 +1157,102 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	}
 
 	[Token(Token = "0x6000D0F")]
-	[Address(RVA = "0x4FEE790", Offset = "0x4FEE790", VA = "0x4FEE790")]
+	[Address(RVA = "0x3CD42B0", Offset = "0x3CD42B0", VA = "0x3CD42B0")]
 	public object GetValue(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D10")]
-	[Address(RVA = "0x4FFAD60", Offset = "0x4FFAD60", VA = "0x4FFAD60")]
+	[Address(RVA = "0x3CE0880", Offset = "0x3CE0880", VA = "0x3CE0880")]
 	public object GetValue(int index1, int index2)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D11")]
-	[Address(RVA = "0x4FFAEA0", Offset = "0x4FFAEA0", VA = "0x4FFAEA0")]
+	[Address(RVA = "0x3CE09C0", Offset = "0x3CE09C0", VA = "0x3CE09C0")]
 	public object GetValue(int index1, int index2, int index3)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D12")]
-	[Address(RVA = "0x4FF8E30", Offset = "0x4FF8E30", VA = "0x4FF8E30")]
+	[Address(RVA = "0x3CDE950", Offset = "0x3CDE950", VA = "0x3CDE950")]
 	public void SetValue(object value, int index)
 	{
 	}
 
 	[Token(Token = "0x6000D13")]
-	[Address(RVA = "0x4FFC000", Offset = "0x4FFC000", VA = "0x4FFC000")]
+	[Address(RVA = "0x3CE1B20", Offset = "0x3CE1B20", VA = "0x3CE1B20")]
 	public void SetValue(object value, int index1, int index2)
 	{
 	}
 
 	[Token(Token = "0x6000D14")]
-	[Address(RVA = "0x4FFC150", Offset = "0x4FFC150", VA = "0x4FFC150")]
+	[Address(RVA = "0x3CE1C70", Offset = "0x3CE1C70", VA = "0x3CE1C70")]
 	public void SetValue(object value, int index1, int index2, int index3)
 	{
 	}
 
 	[Token(Token = "0x6000D15")]
-	[Address(RVA = "0x4FFCCF0", Offset = "0x4FFCCF0", VA = "0x4FFCCF0")]
+	[Address(RVA = "0x3CE2810", Offset = "0x3CE2810", VA = "0x3CE2810")]
 	internal static Array UnsafeCreateInstance(Type elementType, int[] lengths, int[] lowerBounds)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D16")]
-	[Address(RVA = "0x4FFD120", Offset = "0x4FFD120", VA = "0x4FFD120")]
+	[Address(RVA = "0x3CE2C40", Offset = "0x3CE2C40", VA = "0x3CE2C40")]
 	internal static Array UnsafeCreateInstance(Type elementType, int length1, int length2)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D17")]
-	[Address(RVA = "0x4FFD200", Offset = "0x4FFD200", VA = "0x4FFD200")]
+	[Address(RVA = "0x3CE2D20", Offset = "0x3CE2D20", VA = "0x3CE2D20")]
 	internal static Array UnsafeCreateInstance(Type elementType, params int[] lengths)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D18")]
-	[Address(RVA = "0x4FFD210", Offset = "0x4FFD210", VA = "0x4FFD210")]
+	[Address(RVA = "0x3CE2D30", Offset = "0x3CE2D30", VA = "0x3CE2D30")]
 	public static Array CreateInstance(Type elementType, int length)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D19")]
-	[Address(RVA = "0x4FFD190", Offset = "0x4FFD190", VA = "0x4FFD190")]
+	[Address(RVA = "0x3CE2CB0", Offset = "0x3CE2CB0", VA = "0x3CE2CB0")]
 	public static Array CreateInstance(Type elementType, int length1, int length2)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D1A")]
-	[Address(RVA = "0x4FFD280", Offset = "0x4FFD280", VA = "0x4FFD280")]
+	[Address(RVA = "0x3CE2DA0", Offset = "0x3CE2DA0", VA = "0x3CE2DA0")]
 	public static Array CreateInstance(Type elementType, int length1, int length2, int length3)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D1B")]
-	[Address(RVA = "0x4FF8AD0", Offset = "0x4FF8AD0", VA = "0x4FF8AD0")]
+	[Address(RVA = "0x3CDE5F0", Offset = "0x3CDE5F0", VA = "0x3CDE5F0")]
 	public static Array CreateInstance(Type elementType, params int[] lengths)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D1C")]
-	[Address(RVA = "0x4FFCD00", Offset = "0x4FFCD00", VA = "0x4FFCD00")]
+	[Address(RVA = "0x3CE2820", Offset = "0x3CE2820", VA = "0x3CE2820")]
 	public static Array CreateInstance(Type elementType, int[] lengths, int[] lowerBounds)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D1D")]
-	[Address(RVA = "0x4FF9130", Offset = "0x4FF9130", VA = "0x4FF9130")]
+	[Address(RVA = "0x3CDEC50", Offset = "0x3CDEC50", VA = "0x3CDEC50")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	public static void Clear(Array array, int index, int length)
 	{
@@ -1253,39 +1260,39 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000D1E")]
-	[Address(RVA = "0x4FFD300", Offset = "0x4FFD300", VA = "0x4FFD300")]
+	[Address(RVA = "0x3CE2E20", Offset = "0x3CE2E20", VA = "0x3CE2E20")]
 	private static extern void ClearInternal(Array a, int index, int count);
 
 	[Token(Token = "0x6000D1F")]
-	[Address(RVA = "0x4FFA940", Offset = "0x4FFA940", VA = "0x4FFA940")]
+	[Address(RVA = "0x3CE0460", Offset = "0x3CE0460", VA = "0x3CE0460")]
 	[ReliabilityContract(Consistency.MayCorruptInstance, Cer.MayFail)]
 	public static void Copy(Array sourceArray, Array destinationArray, int length)
 	{
 	}
 
 	[Token(Token = "0x6000D20")]
-	[Address(RVA = "0x4FF9490", Offset = "0x4FF9490", VA = "0x4FF9490")]
+	[Address(RVA = "0x3CDEFB0", Offset = "0x3CDEFB0", VA = "0x3CDEFB0")]
 	[ReliabilityContract(Consistency.MayCorruptInstance, Cer.MayFail)]
 	public static void Copy(Array sourceArray, int sourceIndex, Array destinationArray, int destinationIndex, int length)
 	{
 	}
 
 	[Token(Token = "0x6000D21")]
-	[Address(RVA = "0x4FFD310", Offset = "0x4FFD310", VA = "0x4FFD310")]
+	[Address(RVA = "0x3CE2E30", Offset = "0x3CE2E30", VA = "0x3CE2E30")]
 	private static ArrayTypeMismatchException CreateArrayTypeMismatchException()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D22")]
-	[Address(RVA = "0x4FFD350", Offset = "0x4FFD350", VA = "0x4FFD350")]
+	[Address(RVA = "0x3CE2E70", Offset = "0x3CE2E70", VA = "0x3CE2E70")]
 	private static bool CanAssignArrayElement(Type source, Type target)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000D23")]
-	[Address(RVA = "0x4FFD430", Offset = "0x4FFD430", VA = "0x4FFD430")]
+	[Address(RVA = "0x3CE2F50", Offset = "0x3CE2F50", VA = "0x3CE2F50")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	public static void ConstrainedCopy(Array sourceArray, int sourceIndex, Array destinationArray, int destinationIndex, int length)
 	{
@@ -1298,7 +1305,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	}
 
 	[Token(Token = "0x6000D25")]
-	[Address(RVA = "0x4FFD440", Offset = "0x4FFD440", VA = "0x4FFD440")]
+	[Address(RVA = "0x3CE2F60", Offset = "0x3CE2F60", VA = "0x3CE2F60")]
 	public void Initialize()
 	{
 	}
@@ -1316,7 +1323,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	}
 
 	[Token(Token = "0x6000D28")]
-	[Address(RVA = "0x4FFC990", Offset = "0x4FFC990", VA = "0x4FFC990")]
+	[Address(RVA = "0x3CE24B0", Offset = "0x3CE24B0", VA = "0x3CE24B0")]
 	private static void SortImpl(Array keys, Array items, int index, int length, IComparer comparer)
 	{
 	}

@@ -1,8 +1,15 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.RenderTargetBinding
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002B6")]
+[Token(Token = "0x20002B9")]
 public struct RenderTargetBinding
 {
 	[Token(Token = "0x40007AA")]
@@ -33,44 +40,33 @@ public struct RenderTargetBinding
 	[FieldOffset(Offset = "0x48")]
 	private RenderTargetFlags m_Flags;
 
-	[Token(Token = "0x17000266")]
+	[Token(Token = "0x17000267")]
 	public RenderTargetIdentifier[] colorRenderTargets
 	{
-		[Token(Token = "0x6000E38")]
-		[Address(RVA = "0x4AF17E0", Offset = "0x4AF17E0", VA = "0x4AF17E0")]
+		[Token(Token = "0x6000E3A")]
+		[Address(RVA = "0x4E19110", Offset = "0x4E19110", VA = "0x4E19110")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000267")]
+	[Token(Token = "0x17000268")]
 	public RenderTargetIdentifier depthRenderTarget
 	{
-		[Token(Token = "0x6000E39")]
-		[Address(RVA = "0x4AF17F0", Offset = "0x4AF17F0", VA = "0x4AF17F0")]
+		[Token(Token = "0x6000E3B")]
+		[Address(RVA = "0x4E19120", Offset = "0x4E19120", VA = "0x4E19120")]
 		get
 		{
 			return default(RenderTargetIdentifier);
 		}
 	}
 
-	[Token(Token = "0x17000268")]
+	[Token(Token = "0x17000269")]
 	public RenderBufferLoadAction[] colorLoadActions
 	{
-		[Token(Token = "0x6000E3A")]
-		[Address(RVA = "0x4AF1810", Offset = "0x4AF1810", VA = "0x4AF1810")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000269")]
-	public RenderBufferStoreAction[] colorStoreActions
-	{
-		[Token(Token = "0x6000E3B")]
-		[Address(RVA = "0x4AF1820", Offset = "0x4AF1820", VA = "0x4AF1820")]
+		[Token(Token = "0x6000E3C")]
+		[Address(RVA = "0x4E19140", Offset = "0x4E19140", VA = "0x4E19140")]
 		get
 		{
 			return null;
@@ -78,32 +74,43 @@ public struct RenderTargetBinding
 	}
 
 	[Token(Token = "0x1700026A")]
+	public RenderBufferStoreAction[] colorStoreActions
+	{
+		[Token(Token = "0x6000E3D")]
+		[Address(RVA = "0x4E19150", Offset = "0x4E19150", VA = "0x4E19150")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x1700026B")]
 	public RenderBufferLoadAction depthLoadAction
 	{
-		[Token(Token = "0x6000E3C")]
-		[Address(RVA = "0x4AF1830", Offset = "0x4AF1830", VA = "0x4AF1830")]
+		[Token(Token = "0x6000E3E")]
+		[Address(RVA = "0x4E19160", Offset = "0x4E19160", VA = "0x4E19160")]
 		get
 		{
 			return default(RenderBufferLoadAction);
 		}
 	}
 
-	[Token(Token = "0x1700026B")]
+	[Token(Token = "0x1700026C")]
 	public RenderBufferStoreAction depthStoreAction
 	{
-		[Token(Token = "0x6000E3D")]
-		[Address(RVA = "0x4AF1840", Offset = "0x4AF1840", VA = "0x4AF1840")]
+		[Token(Token = "0x6000E3F")]
+		[Address(RVA = "0x4E19170", Offset = "0x4E19170", VA = "0x4E19170")]
 		get
 		{
 			return default(RenderBufferStoreAction);
 		}
 	}
 
-	[Token(Token = "0x1700026C")]
+	[Token(Token = "0x1700026D")]
 	public RenderTargetFlags flags
 	{
-		[Token(Token = "0x6000E3E")]
-		[Address(RVA = "0x4AF1850", Offset = "0x4AF1850", VA = "0x4AF1850")]
+		[Token(Token = "0x6000E40")]
+		[Address(RVA = "0x4E19180", Offset = "0x4E19180", VA = "0x4E19180")]
 		get
 		{
 			return default(RenderTargetFlags);

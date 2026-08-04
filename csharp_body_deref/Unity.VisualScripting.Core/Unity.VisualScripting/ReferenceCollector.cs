@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.ReferenceCollector
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -11,13 +18,13 @@ public static class ReferenceCollector
 	public static event Action onSceneUnloaded
 	{
 		[Token(Token = "0x6001094")]
-		[Address(RVA = "0x4A3C250", Offset = "0x4A3C250", VA = "0x4A3C250")]
+		[Address(RVA = "0x4D610B0", Offset = "0x4D610B0", VA = "0x4D610B0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6001095")]
-		[Address(RVA = "0x4A3C2F0", Offset = "0x4A3C2F0", VA = "0x4A3C2F0")]
+		[Address(RVA = "0x4D61150", Offset = "0x4D61150", VA = "0x4D61150")]
 		[CompilerGenerated]
 		remove
 		{
@@ -25,7 +32,7 @@ public static class ReferenceCollector
 	}
 
 	[Token(Token = "0x6001096")]
-	[Address(RVA = "0x4A3C390", Offset = "0x4A3C390", VA = "0x4A3C390")]
+	[Address(RVA = "0x4D611F0", Offset = "0x4D611F0", VA = "0x4D611F0")]
 	internal static void Initialize()
 	{
 	}

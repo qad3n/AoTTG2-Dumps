@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XmlSchemaFacet
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.ComponentModel;
 using System.Xml.Serialization;
 using Il2CppDummyDll;
@@ -24,13 +31,13 @@ public abstract class XmlSchemaFacet : XmlSchemaAnnotated
 	public string Value
 	{
 		[Token(Token = "0x6001658")]
-		[Address(RVA = "0x43E73B0", Offset = "0x43E73B0", VA = "0x43E73B0")]
+		[Address(RVA = "0x4724B10", Offset = "0x4724B10", VA = "0x4724B10")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001659")]
-		[Address(RVA = "0x43E73C0", Offset = "0x43E73C0", VA = "0x43E73C0")]
+		[Address(RVA = "0x4724B20", Offset = "0x4724B20", VA = "0x4724B20")]
 		set
 		{
 		}
@@ -42,13 +49,13 @@ public abstract class XmlSchemaFacet : XmlSchemaAnnotated
 	public virtual bool IsFixed
 	{
 		[Token(Token = "0x600165A")]
-		[Address(RVA = "0x43E73D0", Offset = "0x43E73D0", VA = "0x43E73D0", Slot = "14")]
+		[Address(RVA = "0x4724B30", Offset = "0x4724B30", VA = "0x4724B30", Slot = "14")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600165B")]
-		[Address(RVA = "0x43E73E0", Offset = "0x43E73E0", VA = "0x43E73E0", Slot = "15")]
+		[Address(RVA = "0x4724B40", Offset = "0x4724B40", VA = "0x4724B40", Slot = "15")]
 		set
 		{
 		}
@@ -58,20 +65,20 @@ public abstract class XmlSchemaFacet : XmlSchemaAnnotated
 	internal FacetType FacetType
 	{
 		[Token(Token = "0x600165C")]
-		[Address(RVA = "0x43E7480", Offset = "0x43E7480", VA = "0x43E7480")]
+		[Address(RVA = "0x4724BE0", Offset = "0x4724BE0", VA = "0x4724BE0")]
 		get
 		{
 			return default(FacetType);
 		}
 		[Token(Token = "0x600165D")]
-		[Address(RVA = "0x43E7490", Offset = "0x43E7490", VA = "0x43E7490")]
+		[Address(RVA = "0x4724BF0", Offset = "0x4724BF0", VA = "0x4724BF0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600165E")]
-	[Address(RVA = "0x43E74A0", Offset = "0x43E74A0", VA = "0x43E74A0")]
+	[Address(RVA = "0x4724C00", Offset = "0x4724C00", VA = "0x4724C00")]
 	protected XmlSchemaFacet()
 	{
 	}

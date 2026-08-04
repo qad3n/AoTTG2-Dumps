@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.WellKnownServiceTypeEntry
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -23,7 +30,7 @@ public class WellKnownServiceTypeEntry : TypeEntry
 	public WellKnownObjectMode Mode
 	{
 		[Token(Token = "0x6001CE3")]
-		[Address(RVA = "0x4E8B370", Offset = "0x4E8B370", VA = "0x4E8B370")]
+		[Address(RVA = "0x3B70E90", Offset = "0x3B70E90", VA = "0x3B70E90")]
 		get
 		{
 			return default(WellKnownObjectMode);
@@ -34,7 +41,7 @@ public class WellKnownServiceTypeEntry : TypeEntry
 	public Type ObjectType
 	{
 		[Token(Token = "0x6001CE4")]
-		[Address(RVA = "0x4E8B380", Offset = "0x4E8B380", VA = "0x4E8B380")]
+		[Address(RVA = "0x3B70EA0", Offset = "0x3B70EA0", VA = "0x3B70EA0")]
 		get
 		{
 			return null;
@@ -45,7 +52,7 @@ public class WellKnownServiceTypeEntry : TypeEntry
 	public string ObjectUri
 	{
 		[Token(Token = "0x6001CE5")]
-		[Address(RVA = "0x4E8B390", Offset = "0x4E8B390", VA = "0x4E8B390")]
+		[Address(RVA = "0x3B70EB0", Offset = "0x3B70EB0", VA = "0x3B70EB0")]
 		get
 		{
 			return null;
@@ -53,13 +60,13 @@ public class WellKnownServiceTypeEntry : TypeEntry
 	}
 
 	[Token(Token = "0x6001CE2")]
-	[Address(RVA = "0x4E8B230", Offset = "0x4E8B230", VA = "0x4E8B230")]
+	[Address(RVA = "0x3B70D50", Offset = "0x3B70D50", VA = "0x3B70D50")]
 	public WellKnownServiceTypeEntry(string typeName, string assemblyName, string objectUri, WellKnownObjectMode mode)
 	{
 	}
 
 	[Token(Token = "0x6001CE6")]
-	[Address(RVA = "0x4E8B3A0", Offset = "0x4E8B3A0", VA = "0x4E8B3A0", Slot = "3")]
+	[Address(RVA = "0x3B70EC0", Offset = "0x3B70EC0", VA = "0x3B70EC0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

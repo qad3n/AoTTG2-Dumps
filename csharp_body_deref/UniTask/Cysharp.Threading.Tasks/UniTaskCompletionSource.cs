@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.UniTaskCompletionSource
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -47,7 +54,7 @@ public class UniTaskCompletionSource : IUniTaskSource, IValueTaskSource, IPromis
 	public UniTask Task
 	{
 		[Token(Token = "0x600070B")]
-		[Address(RVA = "0x46AC5D0", Offset = "0x46AC5D0", VA = "0x46AC5D0")]
+		[Address(RVA = "0x49D16D0", Offset = "0x49D16D0", VA = "0x49D16D0")]
 		[DebuggerHidden]
 		get
 		{
@@ -56,20 +63,20 @@ public class UniTaskCompletionSource : IUniTaskSource, IValueTaskSource, IPromis
 	}
 
 	[Token(Token = "0x6000709")]
-	[Address(RVA = "0x46AC0E0", Offset = "0x46AC0E0", VA = "0x46AC0E0")]
+	[Address(RVA = "0x49D11E0", Offset = "0x49D11E0", VA = "0x49D11E0")]
 	public UniTaskCompletionSource()
 	{
 	}
 
 	[Token(Token = "0x600070A")]
-	[Address(RVA = "0x46C66A0", Offset = "0x46C66A0", VA = "0x46C66A0")]
+	[Address(RVA = "0x49EB7A0", Offset = "0x49EB7A0", VA = "0x49EB7A0")]
 	[DebuggerHidden]
 	internal void MarkHandled()
 	{
 	}
 
 	[Token(Token = "0x600070C")]
-	[Address(RVA = "0x46ACAC0", Offset = "0x46ACAC0", VA = "0x46ACAC0", Slot = "14")]
+	[Address(RVA = "0x49D1BC0", Offset = "0x49D1BC0", VA = "0x49D1BC0", Slot = "14")]
 	[DebuggerHidden]
 	public bool TrySetResult()
 	{
@@ -77,7 +84,7 @@ public class UniTaskCompletionSource : IUniTaskSource, IValueTaskSource, IPromis
 	}
 
 	[Token(Token = "0x600070D")]
-	[Address(RVA = "0x46C6B50", Offset = "0x46C6B50", VA = "0x46C6B50", Slot = "16")]
+	[Address(RVA = "0x49EBC50", Offset = "0x49EBC50", VA = "0x49EBC50", Slot = "16")]
 	[DebuggerHidden]
 	public bool TrySetCanceled([Optional] CancellationToken cancellationToken)
 	{
@@ -85,7 +92,7 @@ public class UniTaskCompletionSource : IUniTaskSource, IValueTaskSource, IPromis
 	}
 
 	[Token(Token = "0x600070E")]
-	[Address(RVA = "0x46ACAD0", Offset = "0x46ACAD0", VA = "0x46ACAD0", Slot = "15")]
+	[Address(RVA = "0x49D1BD0", Offset = "0x49D1BD0", VA = "0x49D1BD0", Slot = "15")]
 	[DebuggerHidden]
 	public bool TrySetException(Exception exception)
 	{
@@ -93,14 +100,14 @@ public class UniTaskCompletionSource : IUniTaskSource, IValueTaskSource, IPromis
 	}
 
 	[Token(Token = "0x600070F")]
-	[Address(RVA = "0x46C6B80", Offset = "0x46C6B80", VA = "0x46C6B80", Slot = "13")]
+	[Address(RVA = "0x49EBC80", Offset = "0x49EBC80", VA = "0x49EBC80", Slot = "13")]
 	[DebuggerHidden]
 	public void GetResult(short token)
 	{
 	}
 
 	[Token(Token = "0x6000710")]
-	[Address(RVA = "0x46C6CB0", Offset = "0x46C6CB0", VA = "0x46C6CB0", Slot = "4")]
+	[Address(RVA = "0x49EBDB0", Offset = "0x49EBDB0", VA = "0x49EBDB0", Slot = "4")]
 	[DebuggerHidden]
 	public UniTaskStatus GetStatus(short token)
 	{
@@ -108,7 +115,7 @@ public class UniTaskCompletionSource : IUniTaskSource, IValueTaskSource, IPromis
 	}
 
 	[Token(Token = "0x6000711")]
-	[Address(RVA = "0x46C6CC0", Offset = "0x46C6CC0", VA = "0x46C6CC0", Slot = "7")]
+	[Address(RVA = "0x49EBDC0", Offset = "0x49EBDC0", VA = "0x49EBDC0", Slot = "7")]
 	[DebuggerHidden]
 	public UniTaskStatus UnsafeGetStatus()
 	{
@@ -116,14 +123,14 @@ public class UniTaskCompletionSource : IUniTaskSource, IValueTaskSource, IPromis
 	}
 
 	[Token(Token = "0x6000712")]
-	[Address(RVA = "0x46C6CD0", Offset = "0x46C6CD0", VA = "0x46C6CD0", Slot = "5")]
+	[Address(RVA = "0x49EBDD0", Offset = "0x49EBDD0", VA = "0x49EBDD0", Slot = "5")]
 	[DebuggerHidden]
 	public void OnCompleted(Action<object> continuation, object state, short token)
 	{
 	}
 
 	[Token(Token = "0x6000713")]
-	[Address(RVA = "0x46C66B0", Offset = "0x46C66B0", VA = "0x46C66B0")]
+	[Address(RVA = "0x49EB7B0", Offset = "0x49EB7B0", VA = "0x49EB7B0")]
 	[DebuggerHidden]
 	private bool TrySignalCompletion(UniTaskStatus status)
 	{

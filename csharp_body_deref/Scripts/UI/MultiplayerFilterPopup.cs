@@ -1,103 +1,110 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UI.MultiplayerFilterPopup
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UI/MultiplayerFilterPopup.c
+// Prior real C# source (older reference): Assets/Scripts/UI/MainMenu/MultiplayerFilterPopup.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x2000653")]
+[Token(Token = "0x200069F")]
 internal class MultiplayerFilterPopup : PromptPopup
 {
-	[Token(Token = "0x17000C32")]
+	[Token(Token = "0x17000CAC")]
 	protected override string Title
 	{
-		[Token(Token = "0x6003FAF")]
-		[Address(RVA = "0x3FF48E0", Offset = "0x3FF48E0", VA = "0x3FF48E0", Slot = "35")]
+		[Token(Token = "0x600420C")]
+		[Address(RVA = "0x4308BD0", Offset = "0x4308BD0", VA = "0x4308BD0", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000C33")]
+	[Token(Token = "0x17000CAD")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x6003FB0")]
-		[Address(RVA = "0x3FF4940", Offset = "0x3FF4940", VA = "0x3FF4940", Slot = "9")]
+		[Token(Token = "0x600420D")]
+		[Address(RVA = "0x4308C30", Offset = "0x4308C30", VA = "0x4308C30", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000C34")]
+	[Token(Token = "0x17000CAE")]
 	protected override int HorizontalPadding
 	{
-		[Token(Token = "0x6003FB1")]
-		[Address(RVA = "0x3FF4950", Offset = "0x3FF4950", VA = "0x3FF4950", Slot = "10")]
+		[Token(Token = "0x600420E")]
+		[Address(RVA = "0x4308C40", Offset = "0x4308C40", VA = "0x4308C40", Slot = "10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000C35")]
+	[Token(Token = "0x17000CAF")]
 	protected override float VerticalSpacing
 	{
-		[Token(Token = "0x6003FB2")]
-		[Address(RVA = "0x3FF4960", Offset = "0x3FF4960", VA = "0x3FF4960", Slot = "11")]
+		[Token(Token = "0x600420F")]
+		[Address(RVA = "0x4308C50", Offset = "0x4308C50", VA = "0x4308C50", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C36")]
+	[Token(Token = "0x17000CB0")]
 	protected override float Width
 	{
-		[Token(Token = "0x6003FB3")]
-		[Address(RVA = "0x3FF4970", Offset = "0x3FF4970", VA = "0x3FF4970", Slot = "5")]
+		[Token(Token = "0x6004210")]
+		[Address(RVA = "0x4308C60", Offset = "0x4308C60", VA = "0x4308C60", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C37")]
+	[Token(Token = "0x17000CB1")]
 	protected override float Height
 	{
-		[Token(Token = "0x6003FB4")]
-		[Address(RVA = "0x3FF4980", Offset = "0x3FF4980", VA = "0x3FF4980", Slot = "6")]
+		[Token(Token = "0x6004211")]
+		[Address(RVA = "0x4308C70", Offset = "0x4308C70", VA = "0x4308C70", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C38")]
+	[Token(Token = "0x17000CB2")]
 	protected override TextAnchor PanelAlignment
 	{
-		[Token(Token = "0x6003FB5")]
-		[Address(RVA = "0x3FF4990", Offset = "0x3FF4990", VA = "0x3FF4990", Slot = "12")]
+		[Token(Token = "0x6004212")]
+		[Address(RVA = "0x4308C80", Offset = "0x4308C80", VA = "0x4308C80", Slot = "12")]
 		get
 		{
 			return default(TextAnchor);
 		}
 	}
 
-	[Token(Token = "0x6003FB6")]
-	[Address(RVA = "0x3FF49A0", Offset = "0x3FF49A0", VA = "0x3FF49A0", Slot = "20")]
+	[Token(Token = "0x6004213")]
+	[Address(RVA = "0x4308C90", Offset = "0x4308C90", VA = "0x4308C90", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6003FB7")]
-	[Address(RVA = "0x3FF4CC0", Offset = "0x3FF4CC0", VA = "0x3FF4CC0")]
+	[Token(Token = "0x6004214")]
+	[Address(RVA = "0x4308FB0", Offset = "0x4308FB0", VA = "0x4308FB0")]
 	protected void OnButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x6003FB8")]
-	[Address(RVA = "0x3FF5DC0", Offset = "0x3FF5DC0", VA = "0x3FF5DC0")]
+	[Token(Token = "0x6004215")]
+	[Address(RVA = "0x430A0B0", Offset = "0x430A0B0", VA = "0x430A0B0")]
 	public MultiplayerFilterPopup()
 	{
 	}

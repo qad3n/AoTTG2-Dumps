@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.PostProcessResources
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -107,14 +114,14 @@ public sealed class PostProcessResources : ScriptableObject
 		public Shader screenSpaceReflections;
 
 		[Token(Token = "0x60001B4")]
-		[Address(RVA = "0x4839910", Offset = "0x4839910", VA = "0x4839910")]
+		[Address(RVA = "0x4B5EA00", Offset = "0x4B5EA00", VA = "0x4B5EA00")]
 		public Shaders Clone()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001B5")]
-		[Address(RVA = "0x4839960", Offset = "0x4839960", VA = "0x4839960")]
+		[Address(RVA = "0x4B5EA50", Offset = "0x4B5EA50", VA = "0x4B5EA50")]
 		public Shaders()
 		{
 		}
@@ -173,14 +180,14 @@ public sealed class PostProcessResources : ScriptableObject
 		public ComputeShader gaussianDownsample;
 
 		[Token(Token = "0x60001B6")]
-		[Address(RVA = "0x4839970", Offset = "0x4839970", VA = "0x4839970")]
+		[Address(RVA = "0x4B5EA60", Offset = "0x4B5EA60", VA = "0x4B5EA60")]
 		public ComputeShaders Clone()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60001B7")]
-		[Address(RVA = "0x48399C0", Offset = "0x48399C0", VA = "0x48399C0")]
+		[Address(RVA = "0x4B5EAB0", Offset = "0x4B5EAB0", VA = "0x4B5EAB0")]
 		public ComputeShaders()
 		{
 		}
@@ -199,7 +206,7 @@ public sealed class PostProcessResources : ScriptableObject
 		public Texture2D search;
 
 		[Token(Token = "0x60001B8")]
-		[Address(RVA = "0x48399D0", Offset = "0x48399D0", VA = "0x48399D0")]
+		[Address(RVA = "0x4B5EAC0", Offset = "0x4B5EAC0", VA = "0x4B5EAC0")]
 		public SMAALuts()
 		{
 		}
@@ -226,7 +233,7 @@ public sealed class PostProcessResources : ScriptableObject
 	public ComputeShaders computeShaders;
 
 	[Token(Token = "0x60001B3")]
-	[Address(RVA = "0x4839900", Offset = "0x4839900", VA = "0x4839900")]
+	[Address(RVA = "0x4B5E9F0", Offset = "0x4B5E9F0", VA = "0x4B5E9F0")]
 	public PostProcessResources()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.Profiling.Memory.MemoryProfiler
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -31,7 +38,7 @@ public static class MemoryProfiler
 	private static Action<MemorySnapshotMetadata> CreatingMetadata;
 
 	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x4A85850", Offset = "0x4A85850", VA = "0x4A85850")]
+	[Address(RVA = "0x4DAD070", Offset = "0x4DAD070", VA = "0x4DAD070")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static byte[] PrepareMetadata()
 	{
@@ -39,28 +46,28 @@ public static class MemoryProfiler
 	}
 
 	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x4A85B10", Offset = "0x4A85B10", VA = "0x4A85B10")]
+	[Address(RVA = "0x4DAD330", Offset = "0x4DAD330", VA = "0x4DAD330")]
 	internal static int WriteIntToByteArray(byte[] array, int offset, int value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x4A85B70", Offset = "0x4A85B70", VA = "0x4A85B70")]
+	[Address(RVA = "0x4DAD390", Offset = "0x4DAD390", VA = "0x4DAD390")]
 	internal static int WriteStringToByteArray(byte[] array, int offset, string value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x4A85C40", Offset = "0x4A85C40", VA = "0x4A85C40")]
+	[Address(RVA = "0x4DAD460", Offset = "0x4DAD460", VA = "0x4DAD460")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void FinalizeSnapshot(string path, bool result)
 	{
 	}
 
 	[Token(Token = "0x6000071")]
-	[Address(RVA = "0x4A85CC0", Offset = "0x4A85CC0", VA = "0x4A85CC0")]
+	[Address(RVA = "0x4DAD4E0", Offset = "0x4DAD4E0", VA = "0x4DAD4E0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void SaveScreenshotToDisk(string path, bool result, IntPtr pixelsPtr, int pixelsCount, TextureFormat format, int width, int height)
 	{

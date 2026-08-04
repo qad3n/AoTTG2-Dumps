@@ -5,7 +5,7 @@
     <TargetFramework>net40</TargetFramework>
   </PropertyGroup>
   <PropertyGroup>
-    <LangVersion>15.0</LangVersion>
+    <LangVersion>11.0</LangVersion>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
   </PropertyGroup>
@@ -13,34 +13,34 @@
   <ItemGroup />
   <ItemGroup>
     <Reference Include="Il2CppDummyDll">
-      <HintPath>../../../dumps/il2cpp/DummyDll/Il2CppDummyDll.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/Il2CppDummyDll.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.UI.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="System.Core">
-      <HintPath>../../../dumps/il2cpp/DummyDll/System.Core.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/System.Core.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>../../../dumps/il2cpp/DummyDll/DOTween.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.UIModule.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>../../../dumps/il2cpp/DummyDll/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Gilzoide.FlexUi">
-      <HintPath>../../../dumps/il2cpp/DummyDll/Gilzoide.FlexUi.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/Gilzoide.FlexUi.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
-      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.AudioModule.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.BinaryNode
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Data.Common;
 using System.Globalization;
@@ -94,158 +101,158 @@ internal class BinaryNode : ExpressionNode
 	internal ExpressionNode _right;
 
 	[Token(Token = "0x60005A8")]
-	[Address(RVA = "0x425E790", Offset = "0x425E790", VA = "0x425E790")]
+	[Address(RVA = "0x459BEF0", Offset = "0x459BEF0", VA = "0x459BEF0")]
 	internal BinaryNode(DataTable table, int op, ExpressionNode left, ExpressionNode right)
 	{
 	}
 
 	[Token(Token = "0x60005A9")]
-	[Address(RVA = "0x425E7F0", Offset = "0x425E7F0", VA = "0x425E7F0", Slot = "5")]
+	[Address(RVA = "0x459BF50", Offset = "0x459BF50", VA = "0x459BF50", Slot = "5")]
 	internal override void Bind(DataTable table, List<DataColumn> list)
 	{
 	}
 
 	[Token(Token = "0x60005AA")]
-	[Address(RVA = "0x425E860", Offset = "0x425E860", VA = "0x425E860", Slot = "6")]
+	[Address(RVA = "0x459BFC0", Offset = "0x459BFC0", VA = "0x459BFC0", Slot = "6")]
 	internal override object Eval()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005AB")]
-	[Address(RVA = "0x425E880", Offset = "0x425E880", VA = "0x425E880", Slot = "7")]
+	[Address(RVA = "0x459BFE0", Offset = "0x459BFE0", VA = "0x459BFE0", Slot = "7")]
 	internal override object Eval(DataRow row, DataRowVersion version)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005AC")]
-	[Address(RVA = "0x42674A0", Offset = "0x42674A0", VA = "0x42674A0", Slot = "8")]
+	[Address(RVA = "0x45A4C00", Offset = "0x45A4C00", VA = "0x45A4C00", Slot = "8")]
 	internal override object Eval(int[] recordNos)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005AD")]
-	[Address(RVA = "0x42674D0", Offset = "0x42674D0", VA = "0x42674D0", Slot = "9")]
+	[Address(RVA = "0x45A4C30", Offset = "0x45A4C30", VA = "0x45A4C30", Slot = "9")]
 	internal override bool IsConstant()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005AE")]
-	[Address(RVA = "0x4267520", Offset = "0x4267520", VA = "0x4267520", Slot = "10")]
+	[Address(RVA = "0x45A4C80", Offset = "0x45A4C80", VA = "0x45A4C80", Slot = "10")]
 	internal override bool IsTableConstant()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005AF")]
-	[Address(RVA = "0x4267570", Offset = "0x4267570", VA = "0x4267570", Slot = "11")]
+	[Address(RVA = "0x45A4CD0", Offset = "0x45A4CD0", VA = "0x45A4CD0", Slot = "11")]
 	internal override bool HasLocalAggregate()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005B0")]
-	[Address(RVA = "0x42675C0", Offset = "0x42675C0", VA = "0x42675C0", Slot = "12")]
+	[Address(RVA = "0x45A4D20", Offset = "0x45A4D20", VA = "0x45A4D20", Slot = "12")]
 	internal override bool HasRemoteAggregate()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005B1")]
-	[Address(RVA = "0x4267610", Offset = "0x4267610", VA = "0x4267610", Slot = "14")]
+	[Address(RVA = "0x45A4D70", Offset = "0x45A4D70", VA = "0x45A4D70", Slot = "14")]
 	internal override bool DependsOn(DataColumn column)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005B2")]
-	[Address(RVA = "0x4267670", Offset = "0x4267670", VA = "0x4267670", Slot = "13")]
+	[Address(RVA = "0x45A4DD0", Offset = "0x45A4DD0", VA = "0x45A4DD0", Slot = "13")]
 	internal override ExpressionNode Optimize()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005B3")]
-	[Address(RVA = "0x4267C00", Offset = "0x4267C00", VA = "0x4267C00")]
+	[Address(RVA = "0x45A5360", Offset = "0x45A5360", VA = "0x45A5360")]
 	internal void SetTypeMismatchError(int op, Type left, Type right)
 	{
 	}
 
 	[Token(Token = "0x60005B4")]
-	[Address(RVA = "0x4267D40", Offset = "0x4267D40", VA = "0x4267D40")]
+	[Address(RVA = "0x45A54A0", Offset = "0x45A54A0", VA = "0x45A54A0")]
 	private static object Eval(ExpressionNode expr, DataRow row, DataRowVersion version, int[] recordNos)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005B5")]
-	[Address(RVA = "0x4267D80", Offset = "0x4267D80", VA = "0x4267D80")]
+	[Address(RVA = "0x45A54E0", Offset = "0x45A54E0", VA = "0x45A54E0")]
 	internal int BinaryCompare(object vLeft, object vRight, StorageType resultType, int op)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60005B6")]
-	[Address(RVA = "0x4267D90", Offset = "0x4267D90", VA = "0x4267D90")]
+	[Address(RVA = "0x45A54F0", Offset = "0x45A54F0", VA = "0x45A54F0")]
 	internal int BinaryCompare(object vLeft, object vRight, StorageType resultType, int op, CompareInfo comparer)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60005B7")]
-	[Address(RVA = "0x425E8B0", Offset = "0x425E8B0", VA = "0x425E8B0")]
+	[Address(RVA = "0x459C010", Offset = "0x459C010", VA = "0x459C010")]
 	private object EvalBinaryOp(int op, ExpressionNode left, ExpressionNode right, DataRow row, DataRowVersion version, int[] recordNos)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005B8")]
-	[Address(RVA = "0x426A840", Offset = "0x426A840", VA = "0x426A840")]
+	[Address(RVA = "0x45A7FA0", Offset = "0x45A7FA0", VA = "0x45A7FA0")]
 	private DataTypePrecedence GetPrecedence(StorageType storageType)
 	{
 		return default(DataTypePrecedence);
 	}
 
 	[Token(Token = "0x60005B9")]
-	[Address(RVA = "0x426A860", Offset = "0x426A860", VA = "0x426A860")]
+	[Address(RVA = "0x45A7FC0", Offset = "0x45A7FC0", VA = "0x45A7FC0")]
 	private static StorageType GetPrecedenceType(DataTypePrecedence code)
 	{
 		return default(StorageType);
 	}
 
 	[Token(Token = "0x60005BA")]
-	[Address(RVA = "0x426A880", Offset = "0x426A880", VA = "0x426A880")]
+	[Address(RVA = "0x45A7FE0", Offset = "0x45A7FE0", VA = "0x45A7FE0")]
 	private bool IsMixed(StorageType left, StorageType right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005BB")]
-	[Address(RVA = "0x426A930", Offset = "0x426A930", VA = "0x426A930")]
+	[Address(RVA = "0x45A8090", Offset = "0x45A8090", VA = "0x45A8090")]
 	private bool IsMixedSql(StorageType left, StorageType right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005BC")]
-	[Address(RVA = "0x4269EC0", Offset = "0x4269EC0", VA = "0x4269EC0")]
+	[Address(RVA = "0x45A7620", Offset = "0x45A7620", VA = "0x45A7620")]
 	internal StorageType ResultType(StorageType left, StorageType right, bool lc, bool rc, int op)
 	{
 		return default(StorageType);
 	}
 
 	[Token(Token = "0x60005BD")]
-	[Address(RVA = "0x4269A20", Offset = "0x4269A20", VA = "0x4269A20")]
+	[Address(RVA = "0x45A7180", Offset = "0x45A7180", VA = "0x45A7180")]
 	internal StorageType ResultSqlType(StorageType left, StorageType right, bool lc, bool rc, int op)
 	{
 		return default(StorageType);
 	}
 
 	[Token(Token = "0x60005BE")]
-	[Address(RVA = "0x426AB60", Offset = "0x426AB60", VA = "0x426AB60")]
+	[Address(RVA = "0x45A82C0", Offset = "0x45A82C0", VA = "0x45A82C0")]
 	private int SqlResultType(int typeCode)
 	{
 		return default(int);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Experimental.Rendering.RenderGraphModule.BufferDesc
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.Experimental.Rendering.RenderGraphModule;
@@ -26,19 +33,19 @@ public struct BufferDesc
 	public GraphicsBuffer.UsageFlags usageFlags;
 
 	[Token(Token = "0x600048D")]
-	[Address(RVA = "0x4868A00", Offset = "0x4868A00", VA = "0x4868A00")]
+	[Address(RVA = "0x4B8DAF0", Offset = "0x4B8DAF0", VA = "0x4B8DAF0")]
 	public BufferDesc(int count, int stride)
 	{
 	}
 
 	[Token(Token = "0x600048E")]
-	[Address(RVA = "0x4868A20", Offset = "0x4868A20", VA = "0x4868A20")]
+	[Address(RVA = "0x4B8DB10", Offset = "0x4B8DB10", VA = "0x4B8DB10")]
 	public BufferDesc(int count, int stride, GraphicsBuffer.Target target)
 	{
 	}
 
 	[Token(Token = "0x600048F")]
-	[Address(RVA = "0x4868A40", Offset = "0x4868A40", VA = "0x4868A40", Slot = "2")]
+	[Address(RVA = "0x4B8DB30", Offset = "0x4B8DB30", VA = "0x4B8DB30", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

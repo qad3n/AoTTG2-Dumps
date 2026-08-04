@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: ExitGames.Client.Photon.StructWrapping.StructWrapperUtility
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -8,7 +15,7 @@ namespace ExitGames.Client.Photon.StructWrapping;
 public static class StructWrapperUtility
 {
 	[Token(Token = "0x60003C6")]
-	[Address(RVA = "0x3BAD6F0", Offset = "0x3BAD6F0", VA = "0x3BAD6F0")]
+	[Address(RVA = "0x3EA3040", Offset = "0x3EA3040", VA = "0x3EA3040")]
 	public static Type GetWrappedType(this object obj)
 	{
 		return null;
@@ -27,14 +34,14 @@ public static class StructWrapperUtility
 	}
 
 	[Token(Token = "0x60003C9")]
-	[Address(RVA = "0x3BAD760", Offset = "0x3BAD760", VA = "0x3BAD760")]
+	[Address(RVA = "0x3EA30B0", Offset = "0x3EA30B0", VA = "0x3EA30B0")]
 	public static StructWrapper<byte> Wrap(this byte value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003CA")]
-	[Address(RVA = "0x3BAD7F0", Offset = "0x3BAD7F0", VA = "0x3BAD7F0")]
+	[Address(RVA = "0x3EA3140", Offset = "0x3EA3140", VA = "0x3EA3140")]
 	public static StructWrapper<bool> Wrap(this bool value)
 	{
 		return null;
@@ -53,28 +60,28 @@ public static class StructWrapperUtility
 	}
 
 	[Token(Token = "0x60003CD")]
-	[Address(RVA = "0x3BAD880", Offset = "0x3BAD880", VA = "0x3BAD880")]
+	[Address(RVA = "0x3EA31D0", Offset = "0x3EA31D0", VA = "0x3EA31D0")]
 	public static List<object> ReleaseAllWrappers(this List<object> collection)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003CE")]
-	[Address(RVA = "0x3BADA20", Offset = "0x3BADA20", VA = "0x3BADA20")]
+	[Address(RVA = "0x3EA3370", Offset = "0x3EA3370", VA = "0x3EA3370")]
 	public static object[] ReleaseAllWrappers(this object[] collection)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003CF")]
-	[Address(RVA = "0x3BADAE0", Offset = "0x3BADAE0", VA = "0x3BADAE0")]
+	[Address(RVA = "0x3EA3430", Offset = "0x3EA3430", VA = "0x3EA3430")]
 	public static Hashtable ReleaseAllWrappers(this Hashtable table)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003D0")]
-	[Address(RVA = "0x3BADCB0", Offset = "0x3BADCB0", VA = "0x3BADCB0")]
+	[Address(RVA = "0x3EA3600", Offset = "0x3EA3600", VA = "0x3EA3600")]
 	public static void BoxAll(this Hashtable table, bool recursive = false)
 	{
 	}

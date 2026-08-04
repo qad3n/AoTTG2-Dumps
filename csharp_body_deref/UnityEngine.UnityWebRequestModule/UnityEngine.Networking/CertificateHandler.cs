@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Networking.CertificateHandler
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -19,19 +26,19 @@ public class CertificateHandler
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x4DDE8A0", Offset = "0x4DDE8A0", VA = "0x4DDE8A0")]
+	[Address(RVA = "0x51061F0", Offset = "0x51061F0", VA = "0x51061F0")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 	private extern void Release();
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x4DDE8D0", Offset = "0x4DDE8D0", VA = "0x4DDE8D0", Slot = "4")]
+	[Address(RVA = "0x5106220", Offset = "0x5106220", VA = "0x5106220", Slot = "4")]
 	protected virtual bool ValidateCertificate(byte[] certificateData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x4DDE8E0", Offset = "0x4DDE8E0", VA = "0x4DDE8E0")]
+	[Address(RVA = "0x5106230", Offset = "0x5106230", VA = "0x5106230")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal bool ValidateCertificateNative(byte[] certificateData)
 	{
@@ -39,7 +46,7 @@ public class CertificateHandler
 	}
 
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x4DDE900", Offset = "0x4DDE900", VA = "0x4DDE900", Slot = "5")]
+	[Address(RVA = "0x5106250", Offset = "0x5106250", VA = "0x5106250", Slot = "5")]
 	public void Dispose()
 	{
 	}

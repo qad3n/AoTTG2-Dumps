@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.Metadata.SoapAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -23,7 +30,7 @@ public class SoapAttribute : Attribute
 	public virtual bool UseAttribute
 	{
 		[Token(Token = "0x6001DCD")]
-		[Address(RVA = "0x4E9E740", Offset = "0x4E9E740", VA = "0x4E9E740", Slot = "7")]
+		[Address(RVA = "0x3B84260", Offset = "0x3B84260", VA = "0x3B84260", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -34,7 +41,7 @@ public class SoapAttribute : Attribute
 	public virtual string XmlNamespace
 	{
 		[Token(Token = "0x6001DCE")]
-		[Address(RVA = "0x4E9E750", Offset = "0x4E9E750", VA = "0x4E9E750", Slot = "8")]
+		[Address(RVA = "0x3B84270", Offset = "0x3B84270", VA = "0x3B84270", Slot = "8")]
 		get
 		{
 			return null;
@@ -42,13 +49,13 @@ public class SoapAttribute : Attribute
 	}
 
 	[Token(Token = "0x6001DCC")]
-	[Address(RVA = "0x4E9E730", Offset = "0x4E9E730", VA = "0x4E9E730")]
+	[Address(RVA = "0x3B84250", Offset = "0x3B84250", VA = "0x3B84250")]
 	public SoapAttribute()
 	{
 	}
 
 	[Token(Token = "0x6001DCF")]
-	[Address(RVA = "0x4E9E760", Offset = "0x4E9E760", VA = "0x4E9E760", Slot = "9")]
+	[Address(RVA = "0x3B84280", Offset = "0x3B84280", VA = "0x3B84280", Slot = "9")]
 	internal virtual void SetReflectionObject(object reflectionObject)
 	{
 	}

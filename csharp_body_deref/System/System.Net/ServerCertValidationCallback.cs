@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.ServerCertValidationCallback
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Net.Security;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading;
@@ -32,7 +39,7 @@ internal class ServerCertValidationCallback
 		internal bool result;
 
 		[Token(Token = "0x6000973")]
-		[Address(RVA = "0x46571D0", Offset = "0x46571D0", VA = "0x46571D0")]
+		[Address(RVA = "0x497C2D0", Offset = "0x497C2D0", VA = "0x497C2D0")]
 		internal CallbackContext(object request, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
 		{
 		}
@@ -50,7 +57,7 @@ internal class ServerCertValidationCallback
 	internal RemoteCertificateValidationCallback ValidationCallback
 	{
 		[Token(Token = "0x6000970")]
-		[Address(RVA = "0x4656FB0", Offset = "0x4656FB0", VA = "0x4656FB0")]
+		[Address(RVA = "0x497C0B0", Offset = "0x497C0B0", VA = "0x497C0B0")]
 		get
 		{
 			return null;
@@ -58,19 +65,19 @@ internal class ServerCertValidationCallback
 	}
 
 	[Token(Token = "0x600096F")]
-	[Address(RVA = "0x4656F30", Offset = "0x4656F30", VA = "0x4656F30")]
+	[Address(RVA = "0x497C030", Offset = "0x497C030", VA = "0x497C030")]
 	internal ServerCertValidationCallback(RemoteCertificateValidationCallback validationCallback)
 	{
 	}
 
 	[Token(Token = "0x6000971")]
-	[Address(RVA = "0x4656FC0", Offset = "0x4656FC0", VA = "0x4656FC0")]
+	[Address(RVA = "0x497C0C0", Offset = "0x497C0C0", VA = "0x497C0C0")]
 	internal void Callback(object state)
 	{
 	}
 
 	[Token(Token = "0x6000972")]
-	[Address(RVA = "0x4657060", Offset = "0x4657060", VA = "0x4657060")]
+	[Address(RVA = "0x497C160", Offset = "0x497C160", VA = "0x497C160")]
 	internal bool Invoke(object request, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
 	{
 		return default(bool);

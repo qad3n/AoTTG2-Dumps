@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Threading.InternalThread
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using System.Runtime.ConstrainedExecution;
 using System.Runtime.InteropServices;
@@ -171,18 +178,18 @@ internal sealed class InternalThread : CriticalFinalizerObject
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600134D")]
-	[Address(RVA = "0x5056F80", Offset = "0x5056F80", VA = "0x5056F80")]
+	[Address(RVA = "0x3D3CAA0", Offset = "0x3D3CAA0", VA = "0x3D3CAA0")]
 	private extern void Thread_free_internal();
 
 	[Token(Token = "0x600134E")]
-	[Address(RVA = "0x5056F90", Offset = "0x5056F90", VA = "0x5056F90", Slot = "1")]
+	[Address(RVA = "0x3D3CAB0", Offset = "0x3D3CAB0", VA = "0x3D3CAB0", Slot = "1")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	~InternalThread()
 	{
 	}
 
 	[Token(Token = "0x600134F")]
-	[Address(RVA = "0x5057010", Offset = "0x5057010", VA = "0x5057010")]
+	[Address(RVA = "0x3D3CB30", Offset = "0x3D3CB30", VA = "0x3D3CB30")]
 	public InternalThread()
 	{
 	}

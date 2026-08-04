@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Globalization.Calendar
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
@@ -144,7 +151,7 @@ public abstract class Calendar : ICloneable
 	public virtual DateTime MinSupportedDateTime
 	{
 		[Token(Token = "0x6002C69")]
-		[Address(RVA = "0x4F6F3C0", Offset = "0x4F6F3C0", VA = "0x4F6F3C0", Slot = "5")]
+		[Address(RVA = "0x3C54EE0", Offset = "0x3C54EE0", VA = "0x3C54EE0", Slot = "5")]
 		get
 		{
 			return default(DateTime);
@@ -156,7 +163,7 @@ public abstract class Calendar : ICloneable
 	public virtual DateTime MaxSupportedDateTime
 	{
 		[Token(Token = "0x6002C6A")]
-		[Address(RVA = "0x4F6F430", Offset = "0x4F6F430", VA = "0x4F6F430", Slot = "6")]
+		[Address(RVA = "0x3C54F50", Offset = "0x3C54F50", VA = "0x3C54F50", Slot = "6")]
 		get
 		{
 			return default(DateTime);
@@ -167,7 +174,7 @@ public abstract class Calendar : ICloneable
 	internal virtual int ID
 	{
 		[Token(Token = "0x6002C6C")]
-		[Address(RVA = "0x4F6F4C0", Offset = "0x4F6F4C0", VA = "0x4F6F4C0", Slot = "7")]
+		[Address(RVA = "0x3C54FE0", Offset = "0x3C54FE0", VA = "0x3C54FE0", Slot = "7")]
 		get
 		{
 			return default(int);
@@ -178,7 +185,7 @@ public abstract class Calendar : ICloneable
 	internal virtual int BaseCalendarID
 	{
 		[Token(Token = "0x6002C6D")]
-		[Address(RVA = "0x4F6F4D0", Offset = "0x4F6F4D0", VA = "0x4F6F4D0", Slot = "8")]
+		[Address(RVA = "0x3C54FF0", Offset = "0x3C54FF0", VA = "0x3C54FF0", Slot = "8")]
 		get
 		{
 			return default(int);
@@ -190,7 +197,7 @@ public abstract class Calendar : ICloneable
 	public bool IsReadOnly
 	{
 		[Token(Token = "0x6002C6E")]
-		[Address(RVA = "0x4F6F4F0", Offset = "0x4F6F4F0", VA = "0x4F6F4F0")]
+		[Address(RVA = "0x3C55010", Offset = "0x3C55010", VA = "0x3C55010")]
 		get
 		{
 			return default(bool);
@@ -201,7 +208,7 @@ public abstract class Calendar : ICloneable
 	internal virtual int CurrentEraValue
 	{
 		[Token(Token = "0x6002C73")]
-		[Address(RVA = "0x4F6F5F0", Offset = "0x4F6F5F0", VA = "0x4F6F5F0", Slot = "10")]
+		[Address(RVA = "0x3C55110", Offset = "0x3C55110", VA = "0x3C55110", Slot = "10")]
 		get
 		{
 			return default(int);
@@ -219,26 +226,26 @@ public abstract class Calendar : ICloneable
 	public virtual int TwoDigitYearMax
 	{
 		[Token(Token = "0x6002C85")]
-		[Address(RVA = "0x4F6F9E0", Offset = "0x4F6F9E0", VA = "0x4F6F9E0", Slot = "28")]
+		[Address(RVA = "0x3C55500", Offset = "0x3C55500", VA = "0x3C55500", Slot = "28")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6002C86")]
-		[Address(RVA = "0x4F6F9F0", Offset = "0x4F6F9F0", VA = "0x4F6F9F0", Slot = "29")]
+		[Address(RVA = "0x3C55510", Offset = "0x3C55510", VA = "0x3C55510", Slot = "29")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6002C6B")]
-	[Address(RVA = "0x4F6F4A0", Offset = "0x4F6F4A0", VA = "0x4F6F4A0")]
+	[Address(RVA = "0x3C54FC0", Offset = "0x3C54FC0", VA = "0x3C54FC0")]
 	protected Calendar()
 	{
 	}
 
 	[Token(Token = "0x6002C6F")]
-	[Address(RVA = "0x4F6F500", Offset = "0x4F6F500", VA = "0x4F6F500", Slot = "9")]
+	[Address(RVA = "0x3C55020", Offset = "0x3C55020", VA = "0x3C55020", Slot = "9")]
 	[ComVisible(false)]
 	public virtual object Clone()
 	{
@@ -246,7 +253,7 @@ public abstract class Calendar : ICloneable
 	}
 
 	[Token(Token = "0x6002C70")]
-	[Address(RVA = "0x4F5E4F0", Offset = "0x4F5E4F0", VA = "0x4F5E4F0")]
+	[Address(RVA = "0x3C44010", Offset = "0x3C44010", VA = "0x3C44010")]
 	[ComVisible(false)]
 	public static Calendar ReadOnly(Calendar calendar)
 	{
@@ -254,13 +261,13 @@ public abstract class Calendar : ICloneable
 	}
 
 	[Token(Token = "0x6002C71")]
-	[Address(RVA = "0x4F6F570", Offset = "0x4F6F570", VA = "0x4F6F570")]
+	[Address(RVA = "0x3C55090", Offset = "0x3C55090", VA = "0x3C55090")]
 	internal void VerifyWritable()
 	{
 	}
 
 	[Token(Token = "0x6002C72")]
-	[Address(RVA = "0x4F6F5E0", Offset = "0x4F6F5E0", VA = "0x4F6F5E0")]
+	[Address(RVA = "0x3C55100", Offset = "0x3C55100", VA = "0x3C55100")]
 	internal void SetReadOnlyState(bool readOnly)
 	{
 	}
@@ -290,7 +297,7 @@ public abstract class Calendar : ICloneable
 	public abstract int GetYear(DateTime time);
 
 	[Token(Token = "0x6002C7D")]
-	[Address(RVA = "0x4F6F710", Offset = "0x4F6F710", VA = "0x4F6F710", Slot = "20")]
+	[Address(RVA = "0x3C55230", Offset = "0x3C55230", VA = "0x3C55230", Slot = "20")]
 	public virtual bool IsLeapYear(int year)
 	{
 		return default(bool);
@@ -300,7 +307,7 @@ public abstract class Calendar : ICloneable
 	public abstract bool IsLeapYear(int year, int era);
 
 	[Token(Token = "0x6002C7F")]
-	[Address(RVA = "0x4F6F730", Offset = "0x4F6F730", VA = "0x4F6F730", Slot = "22")]
+	[Address(RVA = "0x3C55250", Offset = "0x3C55250", VA = "0x3C55250", Slot = "22")]
 	public virtual DateTime ToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond)
 	{
 		return default(DateTime);
@@ -310,49 +317,49 @@ public abstract class Calendar : ICloneable
 	public abstract DateTime ToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, int era);
 
 	[Token(Token = "0x6002C81")]
-	[Address(RVA = "0x4F6F760", Offset = "0x4F6F760", VA = "0x4F6F760", Slot = "24")]
+	[Address(RVA = "0x3C55280", Offset = "0x3C55280", VA = "0x3C55280", Slot = "24")]
 	internal virtual bool TryToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, int era, out DateTime result)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002C82")]
-	[Address(RVA = "0x4F6F8B0", Offset = "0x4F6F8B0", VA = "0x4F6F8B0", Slot = "25")]
+	[Address(RVA = "0x3C553D0", Offset = "0x3C553D0", VA = "0x3C553D0", Slot = "25")]
 	internal virtual bool IsValidYear(int year, int era)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002C83")]
-	[Address(RVA = "0x4F6F920", Offset = "0x4F6F920", VA = "0x4F6F920", Slot = "26")]
+	[Address(RVA = "0x3C55440", Offset = "0x3C55440", VA = "0x3C55440", Slot = "26")]
 	internal virtual bool IsValidMonth(int year, int month, int era)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002C84")]
-	[Address(RVA = "0x4F6F980", Offset = "0x4F6F980", VA = "0x4F6F980", Slot = "27")]
+	[Address(RVA = "0x3C554A0", Offset = "0x3C554A0", VA = "0x3C554A0", Slot = "27")]
 	internal virtual bool IsValidDay(int year, int month, int day, int era)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002C87")]
-	[Address(RVA = "0x4F6FA60", Offset = "0x4F6FA60", VA = "0x4F6FA60", Slot = "30")]
+	[Address(RVA = "0x3C55580", Offset = "0x3C55580", VA = "0x3C55580", Slot = "30")]
 	public virtual int ToFourDigitYear(int year)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002C88")]
-	[Address(RVA = "0x4F6FB50", Offset = "0x4F6FB50", VA = "0x4F6FB50")]
+	[Address(RVA = "0x3C55670", Offset = "0x3C55670", VA = "0x3C55670")]
 	internal static long TimeToTicks(int hour, int minute, int second, int millisecond)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6002C89")]
-	[Address(RVA = "0x4F6FCE0", Offset = "0x4F6FCE0", VA = "0x4F6FCE0")]
+	[Address(RVA = "0x3C55800", Offset = "0x3C55800", VA = "0x3C55800")]
 	internal static int GetSystemTwoDigitYearSetting(int CalID, int defaultYearValue)
 	{
 		return default(int);

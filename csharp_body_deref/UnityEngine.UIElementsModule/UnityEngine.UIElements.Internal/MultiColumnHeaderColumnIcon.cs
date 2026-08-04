@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Internal.MultiColumnHeaderColumnIcon
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -14,14 +21,14 @@ internal class MultiColumnHeaderColumnIcon : Image
 	public bool isImageInline
 	{
 		[Token(Token = "0x60021A2")]
-		[Address(RVA = "0x4CB9290", Offset = "0x4CB9290", VA = "0x4CB9290")]
+		[Address(RVA = "0x4FE0BC0", Offset = "0x4FE0BC0", VA = "0x4FE0BC0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60021A3")]
-		[Address(RVA = "0x4CB92A0", Offset = "0x4CB92A0", VA = "0x4CB92A0")]
+		[Address(RVA = "0x4FE0BD0", Offset = "0x4FE0BD0", VA = "0x4FE0BD0")]
 		[CompilerGenerated]
 		set
 		{
@@ -29,13 +36,13 @@ internal class MultiColumnHeaderColumnIcon : Image
 	}
 
 	[Token(Token = "0x60021A4")]
-	[Address(RVA = "0x4CB92B0", Offset = "0x4CB92B0", VA = "0x4CB92B0")]
+	[Address(RVA = "0x4FE0BE0", Offset = "0x4FE0BE0", VA = "0x4FE0BE0")]
 	public MultiColumnHeaderColumnIcon()
 	{
 	}
 
 	[Token(Token = "0x60021A5")]
-	[Address(RVA = "0x4CB93A0", Offset = "0x4CB93A0", VA = "0x4CB93A0")]
+	[Address(RVA = "0x4FE0CD0", Offset = "0x4FE0CD0", VA = "0x4FE0CD0")]
 	public void UpdateClassList()
 	{
 	}

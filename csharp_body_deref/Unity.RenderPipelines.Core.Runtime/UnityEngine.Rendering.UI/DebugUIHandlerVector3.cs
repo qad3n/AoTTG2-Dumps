@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.UI.DebugUIHandlerVector3
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.UI;
 
@@ -35,63 +42,63 @@ public class DebugUIHandlerVector3 : DebugUIHandlerWidget
 	private DebugUIHandlerContainer m_Container;
 
 	[Token(Token = "0x6000F45")]
-	[Address(RVA = "0x48F4130", Offset = "0x48F4130", VA = "0x48F4130", Slot = "5")]
+	[Address(RVA = "0x4C191A0", Offset = "0x4C191A0", VA = "0x4C191A0", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
 	[Token(Token = "0x6000F46")]
-	[Address(RVA = "0x48F45F0", Offset = "0x48F45F0", VA = "0x48F45F0")]
+	[Address(RVA = "0x4C19660", Offset = "0x4C19660", VA = "0x4C19660")]
 	private void SetValue(float v, bool x = false, bool y = false, bool z = false)
 	{
 	}
 
 	[Token(Token = "0x6000F47")]
-	[Address(RVA = "0x48F44B0", Offset = "0x48F44B0", VA = "0x48F44B0")]
+	[Address(RVA = "0x4C19520", Offset = "0x4C19520", VA = "0x4C19520")]
 	private void SetupSettings(DebugUIHandlerIndirectFloatField field)
 	{
 	}
 
 	[Token(Token = "0x6000F48")]
-	[Address(RVA = "0x48F46B0", Offset = "0x48F46B0", VA = "0x48F46B0", Slot = "6")]
+	[Address(RVA = "0x4C19720", Offset = "0x4C19720", VA = "0x4C19720", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F49")]
-	[Address(RVA = "0x48F4790", Offset = "0x48F4790", VA = "0x48F4790", Slot = "7")]
+	[Address(RVA = "0x4C19800", Offset = "0x4C19800", VA = "0x4C19800", Slot = "7")]
 	public override void OnDeselection()
 	{
 	}
 
 	[Token(Token = "0x6000F4A")]
-	[Address(RVA = "0x48F47C0", Offset = "0x48F47C0", VA = "0x48F47C0", Slot = "9")]
+	[Address(RVA = "0x4C19830", Offset = "0x4C19830", VA = "0x4C19830", Slot = "9")]
 	public override void OnIncrement(bool fast)
 	{
 	}
 
 	[Token(Token = "0x6000F4B")]
-	[Address(RVA = "0x48F47E0", Offset = "0x48F47E0", VA = "0x48F47E0", Slot = "10")]
+	[Address(RVA = "0x4C19850", Offset = "0x4C19850", VA = "0x4C19850", Slot = "10")]
 	public override void OnDecrement(bool fast)
 	{
 	}
 
 	[Token(Token = "0x6000F4C")]
-	[Address(RVA = "0x48F4800", Offset = "0x48F4800", VA = "0x48F4800", Slot = "8")]
+	[Address(RVA = "0x4C19870", Offset = "0x4C19870", VA = "0x4C19870", Slot = "8")]
 	public override void OnAction()
 	{
 	}
 
 	[Token(Token = "0x6000F4D")]
-	[Address(RVA = "0x48F4830", Offset = "0x48F4830", VA = "0x48F4830", Slot = "12")]
+	[Address(RVA = "0x4C198A0", Offset = "0x4C198A0", VA = "0x4C198A0", Slot = "12")]
 	public override DebugUIHandlerWidget Next()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F4E")]
-	[Address(RVA = "0x48F48F0", Offset = "0x48F48F0", VA = "0x48F48F0")]
+	[Address(RVA = "0x4C19960", Offset = "0x4C19960", VA = "0x4C19960")]
 	public DebugUIHandlerVector3()
 	{
 	}

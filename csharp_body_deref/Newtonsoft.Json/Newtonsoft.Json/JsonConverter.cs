@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.JsonConverter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -10,7 +17,7 @@ public abstract class JsonConverter
 	public virtual bool CanRead
 	{
 		[Token(Token = "0x6000085")]
-		[Address(RVA = "0x3A64230", Offset = "0x3A64230", VA = "0x3A64230", Slot = "7")]
+		[Address(RVA = "0x3D59B80", Offset = "0x3D59B80", VA = "0x3D59B80", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -21,7 +28,7 @@ public abstract class JsonConverter
 	public virtual bool CanWrite
 	{
 		[Token(Token = "0x6000086")]
-		[Address(RVA = "0x3A64240", Offset = "0x3A64240", VA = "0x3A64240", Slot = "8")]
+		[Address(RVA = "0x3D59B90", Offset = "0x3D59B90", VA = "0x3D59B90", Slot = "8")]
 		get
 		{
 			return default(bool);
@@ -38,7 +45,7 @@ public abstract class JsonConverter
 	public abstract bool CanConvert(Type objectType);
 
 	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x3A64250", Offset = "0x3A64250", VA = "0x3A64250")]
+	[Address(RVA = "0x3D59BA0", Offset = "0x3D59BA0", VA = "0x3D59BA0")]
 	protected JsonConverter()
 	{
 	}

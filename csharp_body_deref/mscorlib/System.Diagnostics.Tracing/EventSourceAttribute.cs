@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Diagnostics.Tracing.EventSourceAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -11,7 +18,7 @@ public sealed class EventSourceAttribute : Attribute
 	public string Guid
 	{
 		[Token(Token = "0x6002E9F")]
-		[Address(RVA = "0x4F97220", Offset = "0x4F97220", VA = "0x4F97220")]
+		[Address(RVA = "0x3C7CD40", Offset = "0x3C7CD40", VA = "0x3C7CD40")]
 		[CompilerGenerated]
 		set
 		{
@@ -22,7 +29,7 @@ public sealed class EventSourceAttribute : Attribute
 	public string Name
 	{
 		[Token(Token = "0x6002EA0")]
-		[Address(RVA = "0x4F97230", Offset = "0x4F97230", VA = "0x4F97230")]
+		[Address(RVA = "0x3C7CD50", Offset = "0x3C7CD50", VA = "0x3C7CD50")]
 		[CompilerGenerated]
 		set
 		{
@@ -30,7 +37,7 @@ public sealed class EventSourceAttribute : Attribute
 	}
 
 	[Token(Token = "0x6002EA1")]
-	[Address(RVA = "0x4F97240", Offset = "0x4F97240", VA = "0x4F97240")]
+	[Address(RVA = "0x3C7CD60", Offset = "0x3C7CD60", VA = "0x3C7CD60")]
 	public EventSourceAttribute()
 	{
 	}

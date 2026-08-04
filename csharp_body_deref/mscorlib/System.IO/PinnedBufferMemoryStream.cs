@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.IO.PinnedBufferMemoryStream
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -15,32 +22,32 @@ internal sealed class PinnedBufferMemoryStream : UnmanagedMemoryStream
 	private GCHandle _pinningHandle;
 
 	[Token(Token = "0x6002842")]
-	[Address(RVA = "0x4F08940", Offset = "0x4F08940", VA = "0x4F08940")]
+	[Address(RVA = "0x3BEE460", Offset = "0x3BEE460", VA = "0x3BEE460")]
 	internal PinnedBufferMemoryStream(byte[] array)
 	{
 	}
 
 	[Token(Token = "0x6002843")]
-	[Address(RVA = "0x4F08C90", Offset = "0x4F08C90", VA = "0x4F08C90", Slot = "33")]
+	[Address(RVA = "0x3BEE7B0", Offset = "0x3BEE7B0", VA = "0x3BEE7B0", Slot = "33")]
 	public override int Read(Span<byte> buffer)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002844")]
-	[Address(RVA = "0x4F08F20", Offset = "0x4F08F20", VA = "0x4F08F20", Slot = "36")]
+	[Address(RVA = "0x3BEEA40", Offset = "0x3BEEA40", VA = "0x3BEEA40", Slot = "36")]
 	public override void Write(ReadOnlySpan<byte> buffer)
 	{
 	}
 
 	[Token(Token = "0x6002845")]
-	[Address(RVA = "0x4F09280", Offset = "0x4F09280", VA = "0x4F09280", Slot = "1")]
+	[Address(RVA = "0x3BEEDA0", Offset = "0x3BEEDA0", VA = "0x3BEEDA0", Slot = "1")]
 	~PinnedBufferMemoryStream()
 	{
 	}
 
 	[Token(Token = "0x6002846")]
-	[Address(RVA = "0x4F09310", Offset = "0x4F09310", VA = "0x4F09310", Slot = "19")]
+	[Address(RVA = "0x3BEEE30", Offset = "0x3BEEE30", VA = "0x3BEEE30", Slot = "19")]
 	protected override void Dispose(bool disposing)
 	{
 	}

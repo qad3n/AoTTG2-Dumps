@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.VisualTreeStyleUpdater
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -44,7 +51,7 @@ internal class VisualTreeStyleUpdater : BaseVisualTreeUpdater
 	public override ProfilerMarker profilerMarker
 	{
 		[Token(Token = "0x6001BEF")]
-		[Address(RVA = "0x4C52D20", Offset = "0x4C52D20", VA = "0x4C52D20", Slot = "10")]
+		[Address(RVA = "0x4F7A650", Offset = "0x4F7A650", VA = "0x4F7A650", Slot = "10")]
 		get
 		{
 			return default(ProfilerMarker);
@@ -55,14 +62,14 @@ internal class VisualTreeStyleUpdater : BaseVisualTreeUpdater
 	protected bool disposed
 	{
 		[Token(Token = "0x6001BF2")]
-		[Address(RVA = "0x4C537F0", Offset = "0x4C537F0", VA = "0x4C537F0")]
+		[Address(RVA = "0x4F7B120", Offset = "0x4F7B120", VA = "0x4F7B120")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001BF3")]
-		[Address(RVA = "0x4C53800", Offset = "0x4C53800", VA = "0x4C53800")]
+		[Address(RVA = "0x4F7B130", Offset = "0x4F7B130", VA = "0x4F7B130")]
 		[CompilerGenerated]
 		private set
 		{
@@ -70,31 +77,31 @@ internal class VisualTreeStyleUpdater : BaseVisualTreeUpdater
 	}
 
 	[Token(Token = "0x6001BF0")]
-	[Address(RVA = "0x4C52D90", Offset = "0x4C52D90", VA = "0x4C52D90", Slot = "13")]
+	[Address(RVA = "0x4F7A6C0", Offset = "0x4F7A6C0", VA = "0x4F7A6C0", Slot = "13")]
 	public override void OnVersionChanged(VisualElement ve, VersionChangeType versionChangeType)
 	{
 	}
 
 	[Token(Token = "0x6001BF1")]
-	[Address(RVA = "0x4C52F00", Offset = "0x4C52F00", VA = "0x4C52F00", Slot = "12")]
+	[Address(RVA = "0x4F7A830", Offset = "0x4F7A830", VA = "0x4F7A830", Slot = "12")]
 	public override void Update()
 	{
 	}
 
 	[Token(Token = "0x6001BF4")]
-	[Address(RVA = "0x4C53810", Offset = "0x4C53810", VA = "0x4C53810", Slot = "11")]
+	[Address(RVA = "0x4F7B140", Offset = "0x4F7B140", VA = "0x4F7B140", Slot = "11")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6001BF5")]
-	[Address(RVA = "0x4C532F0", Offset = "0x4C532F0", VA = "0x4C532F0")]
+	[Address(RVA = "0x4F7AC20", Offset = "0x4F7AC20", VA = "0x4F7AC20")]
 	private void ApplyStyles()
 	{
 	}
 
 	[Token(Token = "0x6001BF6")]
-	[Address(RVA = "0x4C538A0", Offset = "0x4C538A0", VA = "0x4C538A0")]
+	[Address(RVA = "0x4F7B1D0", Offset = "0x4F7B1D0", VA = "0x4F7B1D0")]
 	public VisualTreeStyleUpdater()
 	{
 	}

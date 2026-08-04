@@ -1,17 +1,18 @@
 // Type: RuntimeSceneGizmo.CameraGizmoListener
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/RuntimeSceneGizmo/CameraGizmoListener.cs
-// Prior real C# source (REFERENCE, outdated): Assets/Scripts/ThirdParty/RuntimeSceneGizmo/CameraGizmoListener.cs  [CHANGED since prior version]
+// Prior real C# source (older reference): Assets/Scripts/ThirdParty/RuntimeSceneGizmo/CameraGizmoListener.cs
 // --------------------------------
 
 // RuntimeSceneGizmo.CameraGizmoListener.<SetCameraRotation>d__12$$.ctor
 // il2cpp: void RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12___ctor (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x3d8c350
+// 0x4081ca0
 
-void RuntimeSceneGizmo_CameraGizmoListener_<SetCameraRotation>d__12___ctor
-               (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o *__this,
-               int32_t __1__state,MethodInfo *method)
+void RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12___ctor
+               (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o *__this,int32_t __1__state,
+               MethodInfo *method)
 
 {
   System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
@@ -22,11 +23,10 @@ void RuntimeSceneGizmo_CameraGizmoListener_<SetCameraRotation>d__12___ctor
 
 // RuntimeSceneGizmo.CameraGizmoListener.<SetCameraRotation>d__12$$System.IDisposable.Dispose
 // il2cpp: void RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12__System_IDisposable_Dispose (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o* __this, const MethodInfo* method);
-// 0x3d8c390
+// 0x4081ce0
 
-void RuntimeSceneGizmo_CameraGizmoListener_<SetCameraRotation>d__12__System_IDisposable_Dispose
-               (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o *__this,
-               MethodInfo *method)
+void RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12__System_IDisposable_Dispose
+               (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o *__this,MethodInfo *method)
 
 {
   return;
@@ -35,46 +35,47 @@ void RuntimeSceneGizmo_CameraGizmoListener_<SetCameraRotation>d__12__System_IDis
 
 // RuntimeSceneGizmo.CameraGizmoListener.<SetCameraRotation>d__12$$MoveNext
 // il2cpp: bool RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12__MoveNext (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o* __this, const MethodInfo* method);
-// 0x3d8c3a0
+// 0x4081cf0
 
 bool_conflict
-RuntimeSceneGizmo_CameraGizmoListener_<SetCameraRotation>d__12__MoveNext
-          (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o *__this,
-          MethodInfo *method)
+RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12__MoveNext
+          (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o *__this,MethodInfo *method)
 
 {
   int iVar1;
   RuntimeSceneGizmo_CameraGizmoListener_o *pRVar2;
-  UnityEngine_Transform_o *pUVar3;
-  uint uVar4;
-  float fVar5;
-  undefined8 uVar6;
-  ulong uVar7;
-  float fVar8;
-  UnityEngine_Vector3_o UVar9;
-  UnityEngine_Quaternion_Fields UVar10;
-  UnityEngine_Quaternion_o UVar11;
+  RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o *pRVar3;
+  UnityEngine_Transform_o *pUVar4;
+  uint uVar5;
+  float fVar6;
+  undefined8 uVar7;
+  ulong uVar8;
+  float fVar9;
+  UnityEngine_Vector3_o UVar10;
+  UnityEngine_Quaternion_Fields UVar11;
+  UnityEngine_Quaternion_o UVar12;
   
   iVar1 = (__this->fields).__1__state;
   pRVar2 = (__this->fields).__4__this;
   if (iVar1 == 1) {
     (__this->fields).__1__state = -1;
-    fVar8 = (__this->fields)._t_5__4;
-    fVar5 = UnityEngine_Time__get_unscaledDeltaTime((MethodInfo *)0x0);
-    if (pRVar2 == (RuntimeSceneGizmo_CameraGizmoListener_o *)0x0) goto LAB_03d8c5c8;
-    fVar8 = fVar8 + fVar5 * (pRVar2->fields).cameraAdjustmentSpeed;
-    (__this->fields)._t_5__4 = fVar8;
-    pUVar3 = (pRVar2->fields).mainCamParent;
-    if (1.0 <= fVar8) {
-      if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
+    fVar9 = (__this->fields)._t_5__4;
+    pRVar3 = (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o *)0x0;
+    fVar6 = UnityEngine_Time__get_unscaledDeltaTime((MethodInfo *)0x0);
+    if (pRVar2 == (RuntimeSceneGizmo_CameraGizmoListener_o *)0x0) goto label_04081f18;
+    fVar9 = fVar9 + fVar6 * (pRVar2->fields).cameraAdjustmentSpeed;
+    (__this->fields)._t_5__4 = fVar9;
+    pUVar4 = (pRVar2->fields).mainCamParent;
+    if (1.0 <= fVar9) {
+      if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
         UnityEngine_Transform__set_localRotation
-                  (pUVar3,(UnityEngine_Quaternion_o)(__this->fields)._targetRotation_5__3.fields,
+                  (pUVar4,(UnityEngine_Quaternion_o)(__this->fields)._targetRotation_5__3.fields,
                    (MethodInfo *)0x0);
         (pRVar2->fields).cameraRotateCoroutine = (System_Collections_IEnumerator_o *)0x0;
-        il2cpp_runtime_glue(&(pRVar2->fields).cameraRotateCoroutine,0);
+        il2cpp_runtime_helper_022b4080(&(pRVar2->fields).cameraRotateCoroutine,0);
         return 0;
       }
-      goto LAB_03d8c5c8;
+      goto label_04081f18;
     }
   }
   else {
@@ -82,86 +83,88 @@ RuntimeSceneGizmo_CameraGizmoListener_<SetCameraRotation>d__12__MoveNext
       return 0;
     }
     (__this->fields).__1__state = -1;
-    if ((pRVar2 == (RuntimeSceneGizmo_CameraGizmoListener_o *)0x0) ||
-       (pUVar3 = (pRVar2->fields).mainCamParent, pUVar3 == (UnityEngine_Transform_o *)0x0))
-    goto LAB_03d8c5c8;
-    UVar10 = (UnityEngine_Quaternion_Fields)
-             UnityEngine_Transform__get_localRotation(pUVar3,(MethodInfo *)0x0);
-    (__this->fields)._initialRotation_5__2.fields = UVar10;
+    pRVar3 = __this;
+    if (pRVar2 == (RuntimeSceneGizmo_CameraGizmoListener_o *)0x0) goto label_04081f18;
+    pUVar4 = (pRVar2->fields).mainCamParent;
+    pRVar3 = (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o *)0x0;
+    if (pUVar4 == (UnityEngine_Transform_o *)0x0) goto label_04081f18;
+    UVar11 = (UnityEngine_Quaternion_Fields)UnityEngine_Transform__get_localRotation(pUVar4,(MethodInfo *)0x0)
+    ;
+    (__this->fields)._initialRotation_5__2.fields = UVar11;
     if (0.99 <= ABS((__this->fields).targetForward.fields.y)) {
-      pUVar3 = (pRVar2->fields).mainCamParent;
-      if (pUVar3 == (UnityEngine_Transform_o *)0x0) goto LAB_03d8c5c8;
-      UVar9 = UnityEngine_Transform__get_forward(pUVar3,(MethodInfo *)0x0);
-      fVar8 = UVar9.fields.z;
-      fVar5 = UVar9.fields.x;
-      if ((((fVar8 != 0.0) || (NAN(fVar8))) || (fVar5 != 0.0)) || (NAN(fVar5))) {
-        if (ABS(fVar5) <= ABS(fVar8)) {
-          fVar8 = *(float *)(&DAT_00cd0ef0 + (ulong)(0.0 <= fVar8) * 4);
-          uVar7 = 0;
+      pUVar4 = (pRVar2->fields).mainCamParent;
+      pRVar3 = (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o *)0x0;
+      if (pUVar4 == (UnityEngine_Transform_o *)0x0) goto label_04081f18;
+      UVar10 = UnityEngine_Transform__get_forward(pUVar4,(MethodInfo *)0x0);
+      fVar9 = UVar10.fields.z;
+      fVar6 = UVar10.fields.x;
+      if ((((fVar9 != 0.0) || (NAN(fVar9))) || (fVar6 != 0.0)) || (NAN(fVar6))) {
+        if (ABS(fVar6) <= ABS(fVar9)) {
+          fVar9 = *(float *)(&g_data_00d1d580 + (ulong)(0.0 <= fVar9) * 4);
+          uVar8 = 0;
         }
         else {
-          fVar8 = 0.0;
-          uVar7 = (ulong)*(uint *)(&DAT_00cd0ef0 + (ulong)(0.0 <= fVar5) * 4);
+          fVar9 = 0.0;
+          uVar8 = (ulong)*(uint *)(&g_data_00d1d580 + (ulong)(0.0 <= fVar6) * 4);
         }
       }
       else {
-        uVar7 = CONCAT44(0x3f800000,fVar5);
+        uVar8 = CONCAT44(0x3f800000,fVar6);
       }
-      fVar5 = (__this->fields).targetForward.fields.y;
-      if (0.0 < fVar5) {
-        uVar7 = uVar7 ^ 0x8000000080000000;
+      fVar6 = (__this->fields).targetForward.fields.y;
+      if (0.0 < fVar6) {
+        uVar8 = uVar8 ^ 0x8000000080000000;
       }
-      uVar4 = -(uint)(0.0 < fVar5);
-      UVar9.fields.z = (float)(~uVar4 & (uint)fVar8 | (uint)-fVar8 & uVar4);
-      UVar9.fields.x = (float)(int)uVar7;
-      UVar9.fields.y = (float)(int)(uVar7 >> 0x20);
-      UVar11 = UnityEngine_Quaternion__LookRotation
-                         ((UnityEngine_Vector3_o)(__this->fields).targetForward.fields,UVar9,
+      uVar5 = -(uint)(0.0 < fVar6);
+      UVar10.fields.z = (float)(~uVar5 & (uint)fVar9 | (uint)-fVar9 & uVar5);
+      UVar10.fields.x = (float)(int)uVar8;
+      UVar10.fields.y = (float)(int)(uVar8 >> 0x20);
+      UVar12 = UnityEngine_Quaternion__LookRotation
+                         ((UnityEngine_Vector3_o)(__this->fields).targetForward.fields,UVar10,
                           (MethodInfo *)0x0);
-      uVar6 = UVar11.fields._8_8_;
-      fVar8 = UVar11.fields.x;
-      fVar5 = UVar11.fields.y;
+      uVar7 = UVar12.fields._8_8_;
+      fVar9 = UVar12.fields.x;
+      fVar6 = UVar12.fields.y;
     }
     else {
-      UVar11 = UnityEngine_Quaternion__LookRotation
-                         ((UnityEngine_Vector3_o)(__this->fields).targetForward.fields,
-                          (MethodInfo *)0x0);
-      uVar6 = UVar11.fields._8_8_;
-      fVar8 = UVar11.fields.x;
-      fVar5 = UVar11.fields.y;
+      UVar12 = UnityEngine_Quaternion__LookRotation_4debb20
+                         ((UnityEngine_Vector3_o)(__this->fields).targetForward.fields,(MethodInfo *)0x0);
+      uVar7 = UVar12.fields._8_8_;
+      fVar9 = UVar12.fields.x;
+      fVar6 = UVar12.fields.y;
     }
-    (__this->fields)._targetRotation_5__3.fields.x = fVar8;
-    (__this->fields)._targetRotation_5__3.fields.y = fVar5;
-    (__this->fields)._targetRotation_5__3.fields.z = (float)uVar6;
-    (__this->fields)._targetRotation_5__3.fields.w = (float)((ulong)uVar6 >> 0x20);
+    (__this->fields)._targetRotation_5__3.fields.x = fVar9;
+    (__this->fields)._targetRotation_5__3.fields.y = fVar6;
+    (__this->fields)._targetRotation_5__3.fields.z = (float)uVar7;
+    (__this->fields)._targetRotation_5__3.fields.w = (float)((ulong)uVar7 >> 0x20);
     (__this->fields)._t_5__4 = 0.0;
-    pUVar3 = (pRVar2->fields).mainCamParent;
-    fVar8 = 0.0;
+    pUVar4 = (pRVar2->fields).mainCamParent;
+    fVar9 = 0.0;
   }
-  UVar11 = UnityEngine_Quaternion__LerpUnclamped
+  pRVar3 = (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o *)0x0;
+  UVar12 = UnityEngine_Quaternion__LerpUnclamped
                      ((__this->fields)._initialRotation_5__2.fields,
-                      (__this->fields)._targetRotation_5__3.fields,fVar8,(MethodInfo *)0x0);
-  if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
-    UnityEngine_Transform__set_localRotation(pUVar3,UVar11,(MethodInfo *)0x0);
+                      (__this->fields)._targetRotation_5__3.fields,fVar9,(MethodInfo *)0x0);
+  if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
+    UnityEngine_Transform__set_localRotation(pUVar4,UVar12,(MethodInfo *)0x0);
     (__this->fields).__2__current = (Il2CppObject *)0x0;
-    il2cpp_runtime_glue(&(__this->fields).__2__current,0);
+    il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,0);
     (__this->fields).__1__state = 1;
     return (bool_conflict)CONCAT71((int7)((ulong)__this >> 8),1);
   }
-LAB_03d8c5c8:
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+label_04081f18:
+  il2cpp_runtime_helper_022b2c90();
+  return (bool_conflict)(pRVar3->fields).__2__current;
 }
 
 
 // RuntimeSceneGizmo.CameraGizmoListener.<SetCameraRotation>d__12$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12__System_Collections_Generic_IEnumerator_System_Object__get_Current (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o* __this, const MethodInfo* method);
-// 0x3d8c5d0
+// 0x4081f20
 
 Il2CppObject *
-RuntimeSceneGizmo_CameraGizmoListener_<SetCameraRotation>d__12__System_Collections_Generic_IEnumerator<System_Object>_get_Current
-          (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o *__this,
-          MethodInfo *method)
+RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12__System_Collections_Generic_IEnumerator_System_Object__get_Current
+          (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -170,33 +173,31 @@ RuntimeSceneGizmo_CameraGizmoListener_<SetCameraRotation>d__12__System_Collectio
 
 // RuntimeSceneGizmo.CameraGizmoListener.<SetCameraRotation>d__12$$System.Collections.IEnumerator.Reset
 // il2cpp: void RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12__System_Collections_IEnumerator_Reset (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o* __this, const MethodInfo* method);
-// 0x3d8c5e0
+// 0x4081f30
 
-void RuntimeSceneGizmo_CameraGizmoListener_<SetCameraRotation>d__12__System_Collections_IEnumerator_Reset
-               (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o *__this,
-               MethodInfo *method)
+void RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12__System_Collections_IEnumerator_Reset
+               (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o *__this,MethodInfo *method)
 
 {
   undefined8 uVar1;
   System_NotSupportedException_o *__this_00;
   
-  uVar1 = il2cpp_init_method_metadata(&TypeInfo_NotSupportedException);
-  __this_00 = (System_NotSupportedException_o *)il2cpp_runtime_glue(uVar1);
+  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotSupportedException);
+  __this_00 = (System_NotSupportedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
   System_NotSupportedException___ctor(__this_00,(MethodInfo *)0x0);
-  uVar1 = il2cpp_init_method_metadata(&MethodInfo_Void_System_Collections_IEnumerator_Reset);
-                    /* WARNING: Subroutine does not return */
-  il2cpp_glue_02274a00(__this_00,uVar1);
+  uVar1 = il2cpp_runtime_helper_023445d0(&MethodInfo_Void_System_Collections_IEnumerator_Reset);
+  il2cpp_runtime_helper_022b2b10(__this_00,uVar1);
+  return;
 }
 
 
 // RuntimeSceneGizmo.CameraGizmoListener.<SetCameraRotation>d__12$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12__System_Collections_IEnumerator_get_Current (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o* __this, const MethodInfo* method);
-// 0x3d8c620
+// 0x4081f70
 
 Il2CppObject *
-RuntimeSceneGizmo_CameraGizmoListener_<SetCameraRotation>d__12__System_Collections_IEnumerator_get_Current
-          (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o *__this,
-          MethodInfo *method)
+RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12__System_Collections_IEnumerator_get_Current
+          (RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation_d__12_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -205,11 +206,11 @@ RuntimeSceneGizmo_CameraGizmoListener_<SetCameraRotation>d__12__System_Collectio
 
 // RuntimeSceneGizmo.CameraGizmoListener.<SwitchProjection>d__11$$.ctor
 // il2cpp: void RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11___ctor (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x3d8c330
+// 0x4081c80
 
-void RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11___ctor
-               (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *__this,
-               int32_t __1__state,MethodInfo *method)
+void RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11___ctor
+               (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *__this,int32_t __1__state,
+               MethodInfo *method)
 
 {
   System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
@@ -220,11 +221,10 @@ void RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11___ctor
 
 // RuntimeSceneGizmo.CameraGizmoListener.<SwitchProjection>d__11$$System.IDisposable.Dispose
 // il2cpp: void RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11__System_IDisposable_Dispose (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o* __this, const MethodInfo* method);
-// 0x3d8c630
+// 0x4081f80
 
-void RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__System_IDisposable_Dispose
-               (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *__this,
-               MethodInfo *method)
+void RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11__System_IDisposable_Dispose
+               (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *__this,MethodInfo *method)
 
 {
   return;
@@ -233,12 +233,11 @@ void RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__System_IDisp
 
 // RuntimeSceneGizmo.CameraGizmoListener.<SwitchProjection>d__11$$MoveNext
 // il2cpp: bool RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11__MoveNext (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o* __this, const MethodInfo* method);
-// 0x3d8c640
+// 0x4081f90
 
 bool_conflict
-RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
-          (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *__this,
-          MethodInfo *method)
+RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11__MoveNext
+          (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *__this,MethodInfo *method)
 
 {
   UnityEngine_Matrix4x4_o *pUVar1;
@@ -297,7 +296,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   int iVar5;
   int32_t index;
   int32_t index_00;
-  CustomLogic_CustomLogicMathBuiltin_o *__this_48;
+  RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *__this_48;
   float fVar6;
   float fVar7;
   float fVar8;
@@ -310,54 +309,77 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   undefined8 in_stack_fffffffffffffed0;
   undefined8 in_stack_fffffffffffffed8;
   undefined8 in_stack_fffffffffffffee0;
-  undefined1 local_a8 [16];
-  CustomLogic_CustomLogicMathBuiltin_Fields local_98;
+  RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_c *local_a8;
+  void *pvStack_a0;
+  int32_t local_98;
+  undefined4 uStack_94;
+  Il2CppObject *pIStack_90;
+  RuntimeSceneGizmo_CameraGizmoListener_o *local_88;
+  bool_conflict bStack_80;
+  float fStack_7c;
   float local_78;
   float fStack_74;
   float fStack_70;
   float fStack_6c;
-  undefined8 local_68;
-  undefined8 uStack_60;
-  undefined8 local_58;
-  undefined8 uStack_50;
-  undefined8 local_48;
-  undefined8 uStack_40;
-  undefined8 local_38;
-  undefined8 uStack_30;
+  float local_68;
+  float fStack_64;
+  float fStack_60;
+  float fStack_5c;
+  float local_58;
+  float fStack_54;
+  float fStack_50;
+  float fStack_4c;
+  float local_48;
+  float fStack_44;
+  float fStack_40;
+  float fStack_3c;
+  float local_38;
+  float fStack_34;
+  float fStack_30;
+  float fStack_2c;
   
-  local_38 = 0;
-  uStack_30 = 0;
-  local_48 = 0;
-  uStack_40 = 0;
-  local_58 = 0;
-  uStack_50 = 0;
-  local_68 = 0;
-  uStack_60 = 0;
+  local_38 = 0.0;
+  fStack_34 = 0.0;
+  fStack_30 = 0.0;
+  fStack_2c = 0.0;
+  local_48 = 0.0;
+  fStack_44 = 0.0;
+  fStack_40 = 0.0;
+  fStack_3c = 0.0;
+  local_58 = 0.0;
+  fStack_54 = 0.0;
+  fStack_50 = 0.0;
+  fStack_4c = 0.0;
+  local_68 = 0.0;
+  fStack_64 = 0.0;
+  fStack_60 = 0.0;
+  fStack_5c = 0.0;
   iVar5 = (__this->fields).__1__state;
   pRVar2 = (__this->fields).__4__this;
   if (iVar5 == 1) {
     (__this->fields).__1__state = -1;
     fVar6 = (__this->fields)._t_5__5;
-    __this_48 = (CustomLogic_CustomLogicMathBuiltin_o *)0x0;
+    __this_48 = (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *)0x0;
     fVar7 = UnityEngine_Time__get_unscaledDeltaTime((MethodInfo *)0x0);
-    if (pRVar2 == (RuntimeSceneGizmo_CameraGizmoListener_o *)0x0) goto LAB_03d8ced9;
+    if (pRVar2 == (RuntimeSceneGizmo_CameraGizmoListener_o *)0x0) goto label_04082829;
     fVar6 = fVar6 + fVar7 * (pRVar2->fields).projectionTransitionSpeed;
     (__this->fields)._t_5__5 = fVar6;
     if (1.0 <= fVar6) {
       pUVar3 = (pRVar2->fields).mainCamera;
+      __this_48 = (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *)0x0;
       if (pUVar3 != (UnityEngine_Camera_o *)0x0) {
         UnityEngine_Camera__set_orthographic
-                  (pUVar3,(uint)((char)(__this->fields)._isOrthographic_5__2 == '\0'),
-                   (MethodInfo *)0x0);
+                  (pUVar3,(uint)((char)(__this->fields)._isOrthographic_5__2 == '\0'),(MethodInfo *)0x0);
         pUVar3 = (pRVar2->fields).mainCamera;
+        __this_48 = (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *)0x0;
         if (pUVar3 != (UnityEngine_Camera_o *)0x0) {
           UnityEngine_Camera__ResetProjectionMatrix(pUVar3,(MethodInfo *)0x0);
           (pRVar2->fields).projectionChangeCoroutine = (System_Collections_IEnumerator_o *)0x0;
-          il2cpp_runtime_glue(&(pRVar2->fields).projectionChangeCoroutine,0);
+          il2cpp_runtime_helper_022b4080(&(pRVar2->fields).projectionChangeCoroutine,0);
           return 0;
         }
       }
-      goto LAB_03d8ced9;
+      goto label_04082829;
     }
   }
   else {
@@ -365,64 +387,69 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
       return 0;
     }
     (__this->fields).__1__state = -1;
+    __this_48 = __this;
     if ((pRVar2 == (RuntimeSceneGizmo_CameraGizmoListener_o *)0x0) ||
-       (pUVar3 = (pRVar2->fields).mainCamera, pUVar3 == (UnityEngine_Camera_o *)0x0))
-    goto LAB_03d8ced9;
-    bVar4 = UnityEngine_Camera__get_orthographic(pUVar3,(MethodInfo *)0x0);
+       (__this_48 = (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *)
+                    (pRVar2->fields).mainCamera,
+       __this_48 == (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *)0x0))
+    goto label_04082829;
+    bVar4 = UnityEngine_Camera__get_orthographic((UnityEngine_Camera_o *)__this_48,(MethodInfo *)0x0);
     *(char *)&(__this->fields)._isOrthographic_5__2 = (char)bVar4;
     pUVar3 = (pRVar2->fields).mainCamera;
-    if (pUVar3 == (UnityEngine_Camera_o *)0x0) goto LAB_03d8ced9;
+    if (pUVar3 == (UnityEngine_Camera_o *)0x0) goto label_04082829;
     UnityEngine_Camera__get_projectionMatrix
-              ((UnityEngine_Matrix4x4_o *)local_a8,pUVar3,(MethodInfo *)0x0);
+              ((UnityEngine_Matrix4x4_o *)&stack0xffffffffffffff58,pUVar3,(MethodInfo *)0x0);
     (__this->fields)._src_5__4.fields.m03 = local_78;
     (__this->fields)._src_5__4.fields.m13 = fStack_74;
     (__this->fields)._src_5__4.fields.m23 = fStack_70;
     (__this->fields)._src_5__4.fields.m33 = fStack_6c;
-    (__this->fields)._src_5__4.fields.m02 = (float)local_98._containsTypeOverride;
-    (__this->fields)._src_5__4.fields.m12 =
-         (float)local_98._Namespace_k__BackingField.fields.hasValue;
-    (__this->fields)._src_5__4.fields.m22 = (float)local_98._Namespace_k__BackingField.fields.value;
-    (__this->fields)._src_5__4.fields.m32 =
-         (float)local_98._LookupBaseClassForVariables_k__BackingField;
-    (__this->fields)._src_5__4.fields.m01 = (float)local_98.Enabled;
-    (__this->fields)._src_5__4.fields.m11 = (float)local_98.Inited;
-    *(System_Collections_Generic_Dictionary_string__object__o **)
-     &(__this->fields)._src_5__4.fields.m21 = local_98.Variables;
-    (__this->fields)._src_5__4.fields.m00 = (float)local_a8._0_4_;
-    (__this->fields)._src_5__4.fields.m10 = (float)local_a8._4_4_;
-    (__this->fields)._src_5__4.fields.m20 = (float)local_a8._8_4_;
-    (__this->fields)._src_5__4.fields.m30 = (float)local_a8._12_4_;
+    *(RuntimeSceneGizmo_CameraGizmoListener_o **)&(__this->fields)._src_5__4.fields.m02 = local_88;
+    (__this->fields)._src_5__4.fields.m22 = (float)bStack_80;
+    (__this->fields)._src_5__4.fields.m32 = fStack_7c;
+    (__this->fields)._src_5__4.fields.m01 = (float)local_98;
+    (__this->fields)._src_5__4.fields.m11 = (float)uStack_94;
+    *(Il2CppObject **)&(__this->fields)._src_5__4.fields.m21 = pIStack_90;
+    *(RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_c **)&(__this->fields)._src_5__4.fields =
+         local_a8;
+    *(void **)&(__this->fields)._src_5__4.fields.m20 = pvStack_a0;
     pUVar3 = (pRVar2->fields).mainCamera;
-    if (pUVar3 == (UnityEngine_Camera_o *)0x0) goto LAB_03d8ced9;
+    __this_48 = (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *)0x0;
+    if (pUVar3 == (UnityEngine_Camera_o *)0x0) goto label_04082829;
     if ((char)(__this->fields)._isOrthographic_5__2 == '\0') {
       fVar6 = UnityEngine_Camera__get_orthographicSize(pUVar3,(MethodInfo *)0x0);
       pUVar3 = (pRVar2->fields).mainCamera;
-      if (pUVar3 == (UnityEngine_Camera_o *)0x0) goto LAB_03d8ced9;
+      __this_48 = (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *)0x0;
+      if (pUVar3 == (UnityEngine_Camera_o *)0x0) goto label_04082829;
       fVar7 = UnityEngine_Camera__get_aspect(pUVar3,(MethodInfo *)0x0);
       pUVar3 = (pRVar2->fields).mainCamera;
-      if (pUVar3 == (UnityEngine_Camera_o *)0x0) goto LAB_03d8ced9;
+      __this_48 = (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *)0x0;
+      if (pUVar3 == (UnityEngine_Camera_o *)0x0) goto label_04082829;
       fVar8 = UnityEngine_Camera__get_nearClipPlane(pUVar3,(MethodInfo *)0x0);
       pUVar3 = (pRVar2->fields).mainCamera;
-      if (pUVar3 == (UnityEngine_Camera_o *)0x0) goto LAB_03d8ced9;
+      __this_48 = (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *)0x0;
+      if (pUVar3 == (UnityEngine_Camera_o *)0x0) goto label_04082829;
       fVar9 = UnityEngine_Camera__get_farClipPlane(pUVar3,(MethodInfo *)0x0);
-      __this_48 = (CustomLogic_CustomLogicMathBuiltin_o *)local_a8;
+      __this_48 = (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *)&stack0xffffffffffffff58;
       method = (MethodInfo *)0x0;
       UnityEngine_Matrix4x4__Ortho
-                ((UnityEngine_Matrix4x4_o *)__this_48,-fVar6 * fVar7,fVar6 * fVar7,-fVar6,fVar6,
-                 fVar8,fVar9,(MethodInfo *)0x0);
+                ((UnityEngine_Matrix4x4_o *)__this_48,-fVar6 * fVar7,fVar6 * fVar7,-fVar6,fVar6,fVar8,fVar9,
+                 (MethodInfo *)0x0);
     }
     else {
       fVar6 = UnityEngine_Camera__get_fieldOfView(pUVar3,(MethodInfo *)0x0);
       pUVar3 = (pRVar2->fields).mainCamera;
-      if (pUVar3 == (UnityEngine_Camera_o *)0x0) goto LAB_03d8ced9;
+      __this_48 = (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *)0x0;
+      if (pUVar3 == (UnityEngine_Camera_o *)0x0) goto label_04082829;
       fVar7 = UnityEngine_Camera__get_aspect(pUVar3,(MethodInfo *)0x0);
       pUVar3 = (pRVar2->fields).mainCamera;
-      if (pUVar3 == (UnityEngine_Camera_o *)0x0) goto LAB_03d8ced9;
+      __this_48 = (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *)0x0;
+      if (pUVar3 == (UnityEngine_Camera_o *)0x0) goto label_04082829;
       fVar8 = UnityEngine_Camera__get_nearClipPlane(pUVar3,(MethodInfo *)0x0);
       pUVar3 = (pRVar2->fields).mainCamera;
-      if (pUVar3 == (UnityEngine_Camera_o *)0x0) goto LAB_03d8ced9;
+      __this_48 = (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *)0x0;
+      if (pUVar3 == (UnityEngine_Camera_o *)0x0) goto label_04082829;
       fVar9 = UnityEngine_Camera__get_farClipPlane(pUVar3,(MethodInfo *)0x0);
-      __this_48 = (CustomLogic_CustomLogicMathBuiltin_o *)local_a8;
+      __this_48 = (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *)&stack0xffffffffffffff58;
       method = (MethodInfo *)0x0;
       UnityEngine_Matrix4x4__Perspective
                 ((UnityEngine_Matrix4x4_o *)__this_48,fVar6,fVar7,fVar8,fVar9,(MethodInfo *)0x0);
@@ -431,38 +458,40 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
     (__this->fields)._dest_5__3.fields.m13 = fStack_74;
     (__this->fields)._dest_5__3.fields.m23 = fStack_70;
     (__this->fields)._dest_5__3.fields.m33 = fStack_6c;
-    (__this->fields)._dest_5__3.fields.m02 = (float)local_98._containsTypeOverride;
-    (__this->fields)._dest_5__3.fields.m12 =
-         (float)local_98._Namespace_k__BackingField.fields.hasValue;
-    (__this->fields)._dest_5__3.fields.m22 = (float)local_98._Namespace_k__BackingField.fields.value
-    ;
-    (__this->fields)._dest_5__3.fields.m32 =
-         (float)local_98._LookupBaseClassForVariables_k__BackingField;
-    (__this->fields)._dest_5__3.fields.m01 = (float)local_98.Enabled;
-    (__this->fields)._dest_5__3.fields.m11 = (float)local_98.Inited;
-    *(System_Collections_Generic_Dictionary_string__object__o **)
-     &(__this->fields)._dest_5__3.fields.m21 = local_98.Variables;
-    (__this->fields)._dest_5__3.fields.m00 = (float)local_a8._0_4_;
-    (__this->fields)._dest_5__3.fields.m10 = (float)local_a8._4_4_;
-    (__this->fields)._dest_5__3.fields.m20 = (float)local_a8._8_4_;
-    (__this->fields)._dest_5__3.fields.m30 = (float)local_a8._12_4_;
+    *(RuntimeSceneGizmo_CameraGizmoListener_o **)&(__this->fields)._dest_5__3.fields.m02 = local_88;
+    (__this->fields)._dest_5__3.fields.m22 = (float)bStack_80;
+    (__this->fields)._dest_5__3.fields.m32 = fStack_7c;
+    (__this->fields)._dest_5__3.fields.m01 = (float)local_98;
+    (__this->fields)._dest_5__3.fields.m11 = (float)uStack_94;
+    *(Il2CppObject **)&(__this->fields)._dest_5__3.fields.m21 = pIStack_90;
+    *(RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_c **)&(__this->fields)._dest_5__3.fields =
+         local_a8;
+    *(void **)&(__this->fields)._dest_5__3.fields.m20 = pvStack_a0;
     (__this->fields)._t_5__5 = 0.0;
     fVar6 = 0.0;
   }
   if ((char)(__this->fields)._isOrthographic_5__2 == '\0') {
-    fVar6 = powf(__this_48,fVar6,0.2,method);
+    fVar6 = powf((CustomLogic_CustomLogicMathBuiltin_o *)__this_48,fVar6,0.2,method);
   }
   else {
     fVar6 = fVar6 * fVar6;
   }
-  local_38 = 0;
-  uStack_30 = 0;
-  local_48 = 0;
-  uStack_40 = 0;
-  local_58 = 0;
-  uStack_50 = 0;
-  local_68 = 0;
-  uStack_60 = 0;
+  local_38 = 0.0;
+  fStack_34 = 0.0;
+  fStack_30 = 0.0;
+  fStack_2c = 0.0;
+  local_48 = 0.0;
+  fStack_44 = 0.0;
+  fStack_40 = 0.0;
+  fStack_3c = 0.0;
+  local_58 = 0.0;
+  fStack_54 = 0.0;
+  fStack_50 = 0.0;
+  fStack_4c = 0.0;
+  local_68 = 0.0;
+  fStack_64 = 0.0;
+  fStack_60 = 0.0;
+  fStack_5c = 0.0;
   pUVar1 = &(__this->fields)._src_5__4;
   iVar5 = (int)__this + 0x2c;
   __this_00.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
@@ -482,7 +511,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_00.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_00.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
   index = (int32_t)pUVar1;
-  fVar7 = UnityEngine_Matrix4x4__get_Item(__this_00,index,(MethodInfo *)0x0);
+  fVar7 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_00,index,(MethodInfo *)0x0);
   __this_01.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_01.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_01.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -499,7 +528,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_01.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_01.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_01.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar8 = UnityEngine_Matrix4x4__get_Item(__this_01,iVar5,(MethodInfo *)0x0);
+  fVar8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_01,iVar5,(MethodInfo *)0x0);
   __this_02.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_02.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_02.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -516,8 +545,8 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_02.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_02.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_02.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  index_00 = (int32_t)&local_68;
-  UnityEngine_Matrix4x4__set_Item
+  index_00 = (int32_t)&stack0xffffffffffffff98;
+  UnityEngine_Matrix4x4__set_Item_4de83a0
             (__this_02,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)0x0);
   __this_03.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_03.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
@@ -535,7 +564,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_03.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_03.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_03.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar7 = UnityEngine_Matrix4x4__get_Item(__this_03,index,(MethodInfo *)0x1);
+  fVar7 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_03,index,(MethodInfo *)0x1);
   __this_04.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_04.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_04.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -552,7 +581,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_04.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_04.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_04.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar8 = UnityEngine_Matrix4x4__get_Item(__this_04,iVar5,(MethodInfo *)0x1);
+  fVar8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_04,iVar5,(MethodInfo *)0x1);
   __this_05.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_05.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_05.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -569,7 +598,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_05.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_05.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_05.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  UnityEngine_Matrix4x4__set_Item
+  UnityEngine_Matrix4x4__set_Item_4de83a0
             (__this_05,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)0x1);
   __this_06.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_06.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
@@ -587,7 +616,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_06.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_06.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_06.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar7 = UnityEngine_Matrix4x4__get_Item(__this_06,index,(MethodInfo *)0x2);
+  fVar7 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_06,index,(MethodInfo *)0x2);
   __this_07.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_07.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_07.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -604,7 +633,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_07.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_07.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_07.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar8 = UnityEngine_Matrix4x4__get_Item(__this_07,iVar5,(MethodInfo *)0x2);
+  fVar8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_07,iVar5,(MethodInfo *)0x2);
   __this_08.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_08.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_08.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -621,7 +650,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_08.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_08.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_08.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  UnityEngine_Matrix4x4__set_Item
+  UnityEngine_Matrix4x4__set_Item_4de83a0
             (__this_08,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)0x2);
   __this_09.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_09.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
@@ -639,7 +668,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_09.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_09.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_09.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar7 = UnityEngine_Matrix4x4__get_Item(__this_09,index,(MethodInfo *)0x3);
+  fVar7 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_09,index,(MethodInfo *)0x3);
   __this_10.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_10.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_10.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -656,7 +685,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_10.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_10.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_10.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar8 = UnityEngine_Matrix4x4__get_Item(__this_10,iVar5,(MethodInfo *)0x3);
+  fVar8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_10,iVar5,(MethodInfo *)0x3);
   __this_11.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_11.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_11.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -673,7 +702,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_11.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_11.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_11.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  UnityEngine_Matrix4x4__set_Item
+  UnityEngine_Matrix4x4__set_Item_4de83a0
             (__this_11,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)0x3);
   __this_12.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_12.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
@@ -691,7 +720,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_12.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_12.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_12.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar7 = UnityEngine_Matrix4x4__get_Item(__this_12,index,(MethodInfo *)0x4);
+  fVar7 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_12,index,(MethodInfo *)&g_data_00000004);
   __this_13.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_13.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_13.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -708,7 +737,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_13.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_13.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_13.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar8 = UnityEngine_Matrix4x4__get_Item(__this_13,iVar5,(MethodInfo *)0x4);
+  fVar8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_13,iVar5,(MethodInfo *)&g_data_00000004);
   __this_14.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_14.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_14.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -725,8 +754,8 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_14.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_14.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_14.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  UnityEngine_Matrix4x4__set_Item
-            (__this_14,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)0x4);
+  UnityEngine_Matrix4x4__set_Item_4de83a0
+            (__this_14,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)&g_data_00000004);
   __this_15.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_15.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_15.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -743,7 +772,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_15.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_15.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_15.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar7 = UnityEngine_Matrix4x4__get_Item(__this_15,index,(MethodInfo *)0x5);
+  fVar7 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_15,index,(MethodInfo *)&g_data_00000005);
   __this_16.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_16.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_16.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -760,7 +789,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_16.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_16.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_16.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar8 = UnityEngine_Matrix4x4__get_Item(__this_16,iVar5,(MethodInfo *)0x5);
+  fVar8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_16,iVar5,(MethodInfo *)&g_data_00000005);
   __this_17.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_17.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_17.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -777,8 +806,8 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_17.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_17.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_17.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  UnityEngine_Matrix4x4__set_Item
-            (__this_17,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)0x5);
+  UnityEngine_Matrix4x4__set_Item_4de83a0
+            (__this_17,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)&g_data_00000005);
   __this_18.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_18.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_18.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -795,7 +824,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_18.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_18.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_18.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar7 = UnityEngine_Matrix4x4__get_Item(__this_18,index,(MethodInfo *)0x6);
+  fVar7 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_18,index,(MethodInfo *)0x6);
   __this_19.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_19.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_19.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -812,7 +841,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_19.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_19.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_19.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar8 = UnityEngine_Matrix4x4__get_Item(__this_19,iVar5,(MethodInfo *)0x6);
+  fVar8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_19,iVar5,(MethodInfo *)0x6);
   __this_20.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_20.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_20.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -829,7 +858,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_20.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_20.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_20.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  UnityEngine_Matrix4x4__set_Item
+  UnityEngine_Matrix4x4__set_Item_4de83a0
             (__this_20,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)0x6);
   __this_21.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_21.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
@@ -847,7 +876,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_21.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_21.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_21.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar7 = UnityEngine_Matrix4x4__get_Item(__this_21,index,(MethodInfo *)0x7);
+  fVar7 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_21,index,(MethodInfo *)0x7);
   __this_22.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_22.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_22.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -864,7 +893,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_22.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_22.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_22.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar8 = UnityEngine_Matrix4x4__get_Item(__this_22,iVar5,(MethodInfo *)0x7);
+  fVar8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_22,iVar5,(MethodInfo *)0x7);
   __this_23.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_23.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_23.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -881,7 +910,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_23.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_23.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_23.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  UnityEngine_Matrix4x4__set_Item
+  UnityEngine_Matrix4x4__set_Item_4de83a0
             (__this_23,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)0x7);
   __this_24.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_24.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
@@ -899,7 +928,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_24.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_24.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_24.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar7 = UnityEngine_Matrix4x4__get_Item(__this_24,index,(MethodInfo *)0x8);
+  fVar7 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_24,index,(MethodInfo *)&g_data_00000008);
   __this_25.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_25.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_25.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -916,7 +945,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_25.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_25.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_25.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar8 = UnityEngine_Matrix4x4__get_Item(__this_25,iVar5,(MethodInfo *)0x8);
+  fVar8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_25,iVar5,(MethodInfo *)&g_data_00000008);
   __this_26.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_26.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_26.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -933,8 +962,8 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_26.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_26.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_26.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  UnityEngine_Matrix4x4__set_Item
-            (__this_26,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)0x8);
+  UnityEngine_Matrix4x4__set_Item_4de83a0
+            (__this_26,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)&g_data_00000008);
   __this_27.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_27.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_27.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -951,7 +980,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_27.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_27.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_27.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar7 = UnityEngine_Matrix4x4__get_Item(__this_27,index,(MethodInfo *)0x9);
+  fVar7 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_27,index,(MethodInfo *)0x9);
   __this_28.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_28.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_28.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -968,7 +997,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_28.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_28.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_28.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar8 = UnityEngine_Matrix4x4__get_Item(__this_28,iVar5,(MethodInfo *)0x9);
+  fVar8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_28,iVar5,(MethodInfo *)0x9);
   __this_29.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_29.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_29.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -985,7 +1014,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_29.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_29.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_29.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  UnityEngine_Matrix4x4__set_Item
+  UnityEngine_Matrix4x4__set_Item_4de83a0
             (__this_29,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)0x9);
   __this_30.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_30.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
@@ -1003,7 +1032,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_30.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_30.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_30.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar7 = UnityEngine_Matrix4x4__get_Item(__this_30,index,(MethodInfo *)0xa);
+  fVar7 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_30,index,(MethodInfo *)0xa);
   __this_31.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_31.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_31.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -1020,7 +1049,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_31.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_31.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_31.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar8 = UnityEngine_Matrix4x4__get_Item(__this_31,iVar5,(MethodInfo *)0xa);
+  fVar8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_31,iVar5,(MethodInfo *)0xa);
   __this_32.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_32.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_32.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -1037,7 +1066,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_32.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_32.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_32.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  UnityEngine_Matrix4x4__set_Item
+  UnityEngine_Matrix4x4__set_Item_4de83a0
             (__this_32,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)0xa);
   __this_33.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_33.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
@@ -1055,7 +1084,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_33.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_33.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_33.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar7 = UnityEngine_Matrix4x4__get_Item(__this_33,index,(MethodInfo *)0xb);
+  fVar7 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_33,index,(MethodInfo *)&g_data_0000000b);
   __this_34.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_34.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_34.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -1072,7 +1101,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_34.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_34.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_34.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar8 = UnityEngine_Matrix4x4__get_Item(__this_34,iVar5,(MethodInfo *)0xb);
+  fVar8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_34,iVar5,(MethodInfo *)&g_data_0000000b);
   __this_35.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_35.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_35.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -1089,8 +1118,8 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_35.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_35.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_35.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  UnityEngine_Matrix4x4__set_Item
-            (__this_35,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)0xb);
+  UnityEngine_Matrix4x4__set_Item_4de83a0
+            (__this_35,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)&g_data_0000000b);
   __this_36.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_36.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_36.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -1107,7 +1136,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_36.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_36.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_36.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar7 = UnityEngine_Matrix4x4__get_Item(__this_36,index,(MethodInfo *)0xc);
+  fVar7 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_36,index,(MethodInfo *)&g_data_0000000c);
   __this_37.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_37.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_37.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -1124,7 +1153,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_37.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_37.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_37.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar8 = UnityEngine_Matrix4x4__get_Item(__this_37,iVar5,(MethodInfo *)0xc);
+  fVar8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_37,iVar5,(MethodInfo *)&g_data_0000000c);
   __this_38.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_38.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_38.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -1141,8 +1170,8 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_38.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_38.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_38.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  UnityEngine_Matrix4x4__set_Item
-            (__this_38,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)0xc);
+  UnityEngine_Matrix4x4__set_Item_4de83a0
+            (__this_38,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)&g_data_0000000c);
   __this_39.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_39.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_39.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -1159,7 +1188,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_39.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_39.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_39.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar7 = UnityEngine_Matrix4x4__get_Item(__this_39,index,(MethodInfo *)0xd);
+  fVar7 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_39,index,(MethodInfo *)&g_data_0000000d);
   __this_40.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_40.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_40.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -1176,7 +1205,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_40.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_40.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_40.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar8 = UnityEngine_Matrix4x4__get_Item(__this_40,iVar5,(MethodInfo *)0xd);
+  fVar8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_40,iVar5,(MethodInfo *)&g_data_0000000d);
   __this_41.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_41.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_41.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -1193,8 +1222,8 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_41.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_41.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_41.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  UnityEngine_Matrix4x4__set_Item
-            (__this_41,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)0xd);
+  UnityEngine_Matrix4x4__set_Item_4de83a0
+            (__this_41,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)&g_data_0000000d);
   __this_42.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_42.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_42.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -1211,7 +1240,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_42.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_42.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_42.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar7 = UnityEngine_Matrix4x4__get_Item(__this_42,index,(MethodInfo *)0xe);
+  fVar7 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_42,index,(MethodInfo *)0xe);
   __this_43.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_43.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_43.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -1228,7 +1257,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_43.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_43.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_43.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar8 = UnityEngine_Matrix4x4__get_Item(__this_43,iVar5,(MethodInfo *)0xe);
+  fVar8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_43,iVar5,(MethodInfo *)0xe);
   __this_44.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_44.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_44.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -1245,7 +1274,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_44.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_44.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_44.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  UnityEngine_Matrix4x4__set_Item
+  UnityEngine_Matrix4x4__set_Item_4de83a0
             (__this_44,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)0xe);
   __this_45.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_45.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
@@ -1263,7 +1292,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_45.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_45.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_45.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar7 = UnityEngine_Matrix4x4__get_Item(__this_45,index,(MethodInfo *)0xf);
+  fVar7 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_45,index,(MethodInfo *)&g_data_0000000f);
   __this_46.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_46.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_46.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -1280,7 +1309,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_46.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_46.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_46.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  fVar8 = UnityEngine_Matrix4x4__get_Item(__this_46,iVar5,(MethodInfo *)0xf);
+  fVar8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_46,iVar5,(MethodInfo *)&g_data_0000000f);
   __this_47.fields.m20 = (float)(int)in_stack_fffffffffffffeb0;
   __this_47.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffeb0 >> 0x20);
   __this_47.fields.m00 = (float)(int)in_stack_fffffffffffffea8;
@@ -1297,46 +1326,46 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__MoveNext
   __this_47.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffed8 >> 0x20);
   __this_47.fields.m23 = (float)(int)in_stack_fffffffffffffee0;
   __this_47.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffee0 >> 0x20);
-  UnityEngine_Matrix4x4__set_Item
-            (__this_47,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)0xf);
+  UnityEngine_Matrix4x4__set_Item_4de83a0
+            (__this_47,index_00,(fVar8 - fVar7) * fVar6 + fVar7,(MethodInfo *)&g_data_0000000f);
   pUVar3 = (pRVar2->fields).mainCamera;
+  __this_48 = (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *)0x0;
   if (pUVar3 != (UnityEngine_Camera_o *)0x0) {
-    value.fields.m20 = (float)(undefined4)uStack_60;
-    value.fields.m30 = (float)uStack_60._4_4_;
-    value.fields.m00 = (float)(undefined4)local_68;
-    value.fields.m10 = (float)local_68._4_4_;
-    value.fields.m01 = (float)(undefined4)local_58;
-    value.fields.m11 = (float)local_58._4_4_;
-    value.fields.m21 = (float)(undefined4)uStack_50;
-    value.fields.m31 = (float)uStack_50._4_4_;
-    value.fields.m02 = (float)(undefined4)local_48;
-    value.fields.m12 = (float)local_48._4_4_;
-    value.fields.m22 = (float)(undefined4)uStack_40;
-    value.fields.m32 = (float)uStack_40._4_4_;
-    value.fields.m03 = (float)(undefined4)local_38;
-    value.fields.m13 = (float)local_38._4_4_;
-    value.fields.m23 = (float)(undefined4)uStack_30;
-    value.fields.m33 = (float)uStack_30._4_4_;
+    value.fields.m20 = fStack_60;
+    value.fields.m30 = fStack_5c;
+    value.fields.m00 = local_68;
+    value.fields.m10 = fStack_64;
+    value.fields.m01 = local_58;
+    value.fields.m11 = fStack_54;
+    value.fields.m21 = fStack_50;
+    value.fields.m31 = fStack_4c;
+    value.fields.m02 = local_48;
+    value.fields.m12 = fStack_44;
+    value.fields.m22 = fStack_40;
+    value.fields.m32 = fStack_3c;
+    value.fields.m03 = local_38;
+    value.fields.m13 = fStack_34;
+    value.fields.m23 = fStack_30;
+    value.fields.m33 = fStack_2c;
     UnityEngine_Camera__set_projectionMatrix(pUVar3,value,(MethodInfo *)0x0);
     (__this->fields).__2__current = (Il2CppObject *)0x0;
-    il2cpp_runtime_glue(&(__this->fields).__2__current,0);
+    il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,0);
     (__this->fields).__1__state = 1;
     return (bool_conflict)CONCAT71((int7)((ulong)pUVar1 >> 8),1);
   }
-LAB_03d8ced9:
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+label_04082829:
+  il2cpp_runtime_helper_022b2c90();
+  return (bool_conflict)(__this_48->fields).__2__current;
 }
 
 
 // RuntimeSceneGizmo.CameraGizmoListener.<SwitchProjection>d__11$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11__System_Collections_Generic_IEnumerator_System_Object__get_Current (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o* __this, const MethodInfo* method);
-// 0x3d8cee0
+// 0x4082830
 
 Il2CppObject *
-RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__System_Collections_Generic_IEnumerator<System_Object>_get_Current
-          (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *__this,
-          MethodInfo *method)
+RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11__System_Collections_Generic_IEnumerator_System_Object__get_Current
+          (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -1345,33 +1374,31 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__System_Collection
 
 // RuntimeSceneGizmo.CameraGizmoListener.<SwitchProjection>d__11$$System.Collections.IEnumerator.Reset
 // il2cpp: void RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11__System_Collections_IEnumerator_Reset (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o* __this, const MethodInfo* method);
-// 0x3d8cef0
+// 0x4082840
 
-void RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__System_Collections_IEnumerator_Reset
-               (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *__this,
-               MethodInfo *method)
+void RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11__System_Collections_IEnumerator_Reset
+               (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *__this,MethodInfo *method)
 
 {
   undefined8 uVar1;
   System_NotSupportedException_o *__this_00;
   
-  uVar1 = il2cpp_init_method_metadata(&TypeInfo_NotSupportedException);
-  __this_00 = (System_NotSupportedException_o *)il2cpp_runtime_glue(uVar1);
+  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotSupportedException);
+  __this_00 = (System_NotSupportedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
   System_NotSupportedException___ctor(__this_00,(MethodInfo *)0x0);
-  uVar1 = il2cpp_init_method_metadata(&MethodInfo_Void_System_Collections_IEnumerator_Reset);
-                    /* WARNING: Subroutine does not return */
-  il2cpp_glue_02274a00(__this_00,uVar1);
+  uVar1 = il2cpp_runtime_helper_023445d0(&MethodInfo_Void_System_Collections_IEnumerator_Reset);
+  il2cpp_runtime_helper_022b2b10(__this_00,uVar1);
+  return;
 }
 
 
 // RuntimeSceneGizmo.CameraGizmoListener.<SwitchProjection>d__11$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11__System_Collections_IEnumerator_get_Current (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o* __this, const MethodInfo* method);
-// 0x3d8cf30
+// 0x4082880
 
 Il2CppObject *
-RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__System_Collections_IEnumerator_get_Current
-          (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *__this,
-          MethodInfo *method)
+RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11__System_Collections_IEnumerator_get_Current
+          (RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11_o *__this,MethodInfo *method)
 
 {
   return (__this->fields).__2__current;
@@ -1380,7 +1407,7 @@ RuntimeSceneGizmo_CameraGizmoListener_<SwitchProjection>d__11__System_Collection
 
 // RuntimeSceneGizmo.CameraGizmoListener$$Awake
 // il2cpp: void RuntimeSceneGizmo_CameraGizmoListener__Awake (RuntimeSceneGizmo_CameraGizmoListener_o* __this, const MethodInfo* method);
-// 0x3d8bea0
+// 0x40817f0
 
 void RuntimeSceneGizmo_CameraGizmoListener__Awake
                (RuntimeSceneGizmo_CameraGizmoListener_o *__this,MethodInfo *method)
@@ -1391,264 +1418,495 @@ void RuntimeSceneGizmo_CameraGizmoListener__Awake
   
   pUVar1 = UnityEngine_Camera__get_main((MethodInfo *)0x0);
   (__this->fields).mainCamera = pUVar1;
-  il2cpp_runtime_glue(&(__this->fields).mainCamera);
+  il2cpp_runtime_helper_022b4080(&(__this->fields).mainCamera);
   pUVar1 = (__this->fields).mainCamera;
   if (pUVar1 != (UnityEngine_Camera_o *)0x0) {
-    pUVar2 = UnityEngine_Component__get_transform
-                       ((UnityEngine_Component_o *)pUVar1,(MethodInfo *)0x0);
+    pUVar2 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pUVar1,(MethodInfo *)0x0);
     if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
       pUVar2 = UnityEngine_Transform__get_parent(pUVar2,(MethodInfo *)0x0);
       (__this->fields).mainCamParent = pUVar2;
-      il2cpp_runtime_glue(&(__this->fields).mainCamParent,pUVar2);
+      il2cpp_runtime_helper_022b4080(&(__this->fields).mainCamParent,pUVar2);
       return;
     }
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  ((UnityEngine_Component_Fields *)&pUVar1[2].fields)->m_CachedPtr = 0;
+  il2cpp_runtime_helper_022b4080((UnityEngine_Component_Fields *)&pUVar1[2].fields,0);
+  pUVar1[2].monitor = (void *)0x0;
+  il2cpp_runtime_helper_022b4080(&pUVar1[2].monitor,0);
+  return;
 }
 
 
 // RuntimeSceneGizmo.CameraGizmoListener$$OnDisable
 // il2cpp: void RuntimeSceneGizmo_CameraGizmoListener__OnDisable (RuntimeSceneGizmo_CameraGizmoListener_o* __this, const MethodInfo* method);
-// 0x3d8bf00
+// 0x4081850
 
 void RuntimeSceneGizmo_CameraGizmoListener__OnDisable
                (RuntimeSceneGizmo_CameraGizmoListener_o *__this,MethodInfo *method)
 
 {
   (__this->fields).projectionChangeCoroutine = (System_Collections_IEnumerator_o *)0x0;
-  il2cpp_runtime_glue(&(__this->fields).projectionChangeCoroutine,0);
+  il2cpp_runtime_helper_022b4080(&(__this->fields).projectionChangeCoroutine,0);
   (__this->fields).cameraRotateCoroutine = (System_Collections_IEnumerator_o *)0x0;
-  il2cpp_runtime_glue(&(__this->fields).cameraRotateCoroutine,0);
+  il2cpp_runtime_helper_022b4080(&(__this->fields).cameraRotateCoroutine,0);
   return;
 }
 
 
 // RuntimeSceneGizmo.CameraGizmoListener$$OnGizmoComponentClicked
 // il2cpp: void RuntimeSceneGizmo_CameraGizmoListener__OnGizmoComponentClicked (RuntimeSceneGizmo_CameraGizmoListener_o* __this, int32_t component, const MethodInfo* method);
-// 0x3d8bf30
+// 0x4081880
 
 void RuntimeSceneGizmo_CameraGizmoListener__OnGizmoComponentClicked
-               (RuntimeSceneGizmo_CameraGizmoListener_o *__this,int32_t component,MethodInfo *method
-               )
+               (RuntimeSceneGizmo_CameraGizmoListener_o *__this,int32_t component,MethodInfo *method)
 
 {
-  undefined8 uVar1;
-  Il2CppObject *pIVar2;
-  uint uVar3;
-  uint uVar4;
-  uint uVar5;
+  Il2CppObject *pIVar1;
+  undefined8 uVar2;
+  Il2CppClass *pIVar3;
+  undefined8 unaff_RBX;
+  undefined8 unaff_RBP;
+  Il2CppClass *pIVar4;
+  Il2CppObject *pIVar5;
+  RuntimeSceneGizmo_CameraGizmoListener_o *unaff_R14;
+  undefined8 unaff_R15;
+  ulong uVar6;
+  undefined4 uVar7;
+  undefined4 extraout_XMM0_Dc;
+  undefined4 extraout_XMM0_Dc_00;
+  undefined4 uVar8;
+  undefined4 extraout_XMM0_Dd;
+  undefined4 extraout_XMM0_Dd_00;
+  uint in_XMM1_Da;
+  undefined1 auStack_18 [8];
   
+  pIVar4 = (Il2CppClass *)__this;
   switch(component) {
   case 0:
+    register0x00000020 = (BADSPACEBASE *)auStack_18;
     if ((__this->fields).projectionChangeCoroutine != (System_Collections_IEnumerator_o *)0x0) {
       return;
     }
-    if (DAT_05702706 == '\0') {
-      il2cpp_init_method_metadata(&TypeInfo_SwitchProjection_d__11);
-      DAT_05702706 = '\x01';
+    if (g_data_057ac3b6 == '\0') {
+      il2cpp_runtime_helper_023445d0(&TypeInfo_SwitchProjection_d__11);
+      g_data_057ac3b6 = '\x01';
     }
-    pIVar2 = (Il2CppObject *)il2cpp_runtime_glue(TypeInfo_SwitchProjection_d__11);
-    System_Object___ctor(pIVar2,(MethodInfo *)0x0);
-    *(undefined4 *)&pIVar2[1].klass = 0;
-    if (pIVar2 == (Il2CppObject *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
+    pIVar3 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_SwitchProjection_d__11);
+    pIVar4 = pIVar3;
+    System_Object___ctor((Il2CppObject *)pIVar3,(MethodInfo *)0x0);
+    *(undefined4 *)&(pIVar3->_1).name = 0;
+    if (pIVar3 != (Il2CppClass *)0x0) {
+      (pIVar3->_1).byval_arg.data = __this;
+      il2cpp_runtime_helper_022b4080(&(pIVar3->_1).byval_arg,__this);
+      (__this->fields).projectionChangeCoroutine = (System_Collections_IEnumerator_o *)pIVar3;
+      il2cpp_runtime_helper_022b4080(&(__this->fields).projectionChangeCoroutine,pIVar3);
+      UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
+                ((UnityEngine_MonoBehaviour_o *)__this,(__this->fields).projectionChangeCoroutine,
+                 (MethodInfo *)0x0);
+      return;
     }
-    pIVar2[2].klass = (Il2CppClass *)__this;
-    il2cpp_runtime_glue(pIVar2 + 2,__this);
-    (__this->fields).projectionChangeCoroutine = (System_Collections_IEnumerator_o *)pIVar2;
-    il2cpp_runtime_glue(&(__this->fields).projectionChangeCoroutine,pIVar2);
-    UnityEngine_MonoBehaviour__StartCoroutine
-              ((UnityEngine_MonoBehaviour_o *)__this,(__this->fields).projectionChangeCoroutine,
-               (MethodInfo *)0x0);
-    return;
+    uVar6 = il2cpp_runtime_helper_022b2c90();
+    unaff_RBX = 0;
+    unaff_R14 = __this;
+    uVar7 = extraout_XMM0_Dc;
+    uVar8 = extraout_XMM0_Dd;
+    goto RuntimeSceneGizmo_CameraGizmoListener__RotateCameraInDirection;
   case 1:
-    if (DAT_0570222a == '\0') {
-      il2cpp_init_method_metadata(&TypeInfo_Vector3);
-      DAT_0570222a = '\x01';
+    if (g_data_057abfed == '\0') {
+      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
+      g_data_057abfed = '\x01';
     }
-    uVar1 = *(undefined8 *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x3c);
-    uVar3 = (uint)uVar1;
-    uVar4 = (uint)((ulong)uVar1 >> 0x20);
-    uVar5 = *(uint *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x44);
-    goto LAB_03d8c0a8;
+    uVar6 = *(ulong *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x3c);
+    uVar7 = 0;
+    uVar8 = 0;
+    in_XMM1_Da = *(uint *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x44);
+    goto RuntimeSceneGizmo_CameraGizmoListener__RotateCameraInDirection;
   case 2:
-    if (DAT_0570222a == '\0') {
-      il2cpp_init_method_metadata(&TypeInfo_Vector3);
-      DAT_0570222a = '\x01';
+    if (g_data_057abfed == '\0') {
+      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
+      g_data_057abfed = '\x01';
     }
-    uVar1 = *(undefined8 *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x3c);
-    uVar3 = (uint)uVar1 ^ 0x80000000;
-    uVar4 = (uint)((ulong)uVar1 >> 0x20) ^ 0x80000000;
-    uVar5 = *(uint *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x44);
+    uVar6 = *(ulong *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x3c) ^ 0x8000000080000000;
+    in_XMM1_Da = *(uint *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x44);
     break;
   case 3:
-    if (DAT_056fde1f == '\0') {
-      il2cpp_init_method_metadata(&TypeInfo_Vector3);
-      DAT_056fde1f = '\x01';
+    if (g_data_057a6844 == '\0') {
+      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
+      g_data_057a6844 = '\x01';
     }
-    uVar1 = *(undefined8 *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x18);
-    uVar3 = (uint)uVar1;
-    uVar4 = (uint)((ulong)uVar1 >> 0x20);
-    uVar5 = *(uint *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x20);
-    goto LAB_03d8c0a8;
+    uVar6 = *(ulong *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x18);
+    uVar7 = 0;
+    uVar8 = 0;
+    in_XMM1_Da = *(uint *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x20);
+    goto RuntimeSceneGizmo_CameraGizmoListener__RotateCameraInDirection;
   case 4:
-    if (DAT_056fde1f == '\0') {
-      il2cpp_init_method_metadata(&TypeInfo_Vector3);
-      DAT_056fde1f = '\x01';
+    if (g_data_057a6844 == '\0') {
+      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
+      g_data_057a6844 = '\x01';
     }
-    uVar1 = *(undefined8 *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x18);
-    uVar3 = (uint)uVar1 ^ 0x80000000;
-    uVar4 = (uint)((ulong)uVar1 >> 0x20) ^ 0x80000000;
-    uVar5 = *(uint *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x20);
+    uVar6 = *(ulong *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x18) ^ 0x8000000080000000;
+    in_XMM1_Da = *(uint *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x20);
     break;
   default:
-    if (DAT_056fde21 == '\0') {
-      il2cpp_init_method_metadata(&TypeInfo_Vector3);
-      DAT_056fde21 = '\x01';
+    if (g_data_057a6846 == '\0') {
+      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
+      g_data_057a6846 = '\x01';
     }
-    uVar1 = *(undefined8 *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x48);
-    uVar3 = (uint)uVar1;
-    uVar4 = (uint)((ulong)uVar1 >> 0x20);
-    uVar5 = *(uint *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x50);
-    if (component == 5) goto LAB_03d8c0a8;
-    uVar3 = uVar3 ^ 0x80000000;
-    uVar4 = uVar4 ^ 0x80000000;
+    uVar6 = *(ulong *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x48);
+    uVar7 = 0;
+    uVar8 = 0;
+    in_XMM1_Da = *(uint *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x50);
+    if (component == 5) goto RuntimeSceneGizmo_CameraGizmoListener__RotateCameraInDirection;
+    uVar6 = uVar6 ^ 0x8000000080000000;
   }
-  uVar5 = uVar5 ^ 0x80000000;
-LAB_03d8c0a8:
-  if ((__this->fields).cameraRotateCoroutine != (System_Collections_IEnumerator_o *)0x0) {
+  uVar8 = 0x80000000;
+  uVar7 = 0x80000000;
+  in_XMM1_Da = in_XMM1_Da ^ 0x80000000;
+RuntimeSceneGizmo_CameraGizmoListener__RotateCameraInDirection:
+  *(undefined8 *)((long)register0x00000020 + -8) = unaff_R15;
+  *(RuntimeSceneGizmo_CameraGizmoListener_o **)((long)register0x00000020 + -0x10) = unaff_R14;
+  *(undefined8 *)((long)register0x00000020 + -0x18) = unaff_RBX;
+  if (*(long *)&(pIVar4->_1).this_arg.bits != 0) {
     return;
   }
-  if (DAT_05702707 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_SetCameraRotation_d__12);
-    DAT_05702707 = '\x01';
+  *(ulong *)((long)register0x00000020 + -0x28) = uVar6;
+  *(undefined4 *)((long)register0x00000020 + -0x20) = uVar7;
+  *(undefined4 *)((long)register0x00000020 + -0x1c) = uVar8;
+  *(uint *)((long)register0x00000020 + -0x2c) = in_XMM1_Da;
+  if (g_data_057ac3b7 == '\0') {
+    *(undefined8 *)((long)register0x00000020 + -0x40) = 0x4081aed;
+    il2cpp_runtime_helper_023445d0(&TypeInfo_SetCameraRotation_d__12);
+    g_data_057ac3b7 = '\x01';
   }
-  pIVar2 = (Il2CppObject *)il2cpp_runtime_glue(TypeInfo_SetCameraRotation_d__12);
-  System_Object___ctor(pIVar2,(MethodInfo *)0x0);
-  *(undefined4 *)&pIVar2[1].klass = 0;
-  if (pIVar2 == (Il2CppObject *)0x0) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
+  *(undefined8 *)((long)register0x00000020 + -0x40) = 0x4081b03;
+  pIVar1 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_SetCameraRotation_d__12);
+  *(undefined8 *)((long)register0x00000020 + -0x40) = 0x4081b10;
+  pIVar5 = pIVar1;
+  System_Object___ctor(pIVar1,(MethodInfo *)0x0);
+  *(undefined4 *)&pIVar1[1].klass = 0;
+  if (pIVar1 == (Il2CppObject *)0x0) {
+    *(undefined8 *)((long)register0x00000020 + -0x40) = 0x4081b72;
+    uVar2 = il2cpp_runtime_helper_022b2c90();
+    *(Il2CppClass **)((long)register0x00000020 + -0x40) = pIVar4;
+    *(undefined8 *)((long)register0x00000020 + -0x48) = 0;
+    *(undefined8 *)((long)register0x00000020 + -0x50) = uVar2;
+    if (g_data_057ac3b6 == '\0') {
+      *(undefined8 *)((long)register0x00000020 + -0x58) = 0x4081b9c;
+      il2cpp_runtime_helper_023445d0(&TypeInfo_SwitchProjection_d__11);
+      g_data_057ac3b6 = '\x01';
+    }
+    *(undefined8 *)((long)register0x00000020 + -0x58) = 0x4081bb2;
+    pIVar3 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_SwitchProjection_d__11);
+    *(undefined8 *)((long)register0x00000020 + -0x58) = 0x4081bbf;
+    pIVar4 = pIVar3;
+    System_Object___ctor((Il2CppObject *)pIVar3,(MethodInfo *)0x0);
+    *(undefined4 *)&(pIVar3->_1).name = 0;
+    if (pIVar3 == (Il2CppClass *)0x0) {
+      *(undefined8 *)((long)register0x00000020 + -0x58) = 0x4081bee;
+      uVar2 = il2cpp_runtime_helper_022b2c90();
+      *(Il2CppObject **)((long)register0x00000020 + -0x58) = pIVar5;
+      *(undefined8 *)((long)register0x00000020 + -0x60) = 0;
+      *(uint *)((long)register0x00000020 + -0x7c) = in_XMM1_Da;
+      *(undefined8 *)((long)register0x00000020 + -0x78) = uVar2;
+      *(undefined4 *)((long)register0x00000020 + -0x70) = extraout_XMM0_Dc_00;
+      *(undefined4 *)((long)register0x00000020 + -0x6c) = extraout_XMM0_Dd_00;
+      if (g_data_057ac3b7 == '\0') {
+        *(undefined8 *)((long)register0x00000020 + -0x90) = 0x4081c1a;
+        il2cpp_runtime_helper_023445d0(&TypeInfo_SetCameraRotation_d__12);
+        g_data_057ac3b7 = '\x01';
+      }
+      *(undefined8 *)((long)register0x00000020 + -0x90) = 0x4081c30;
+      pIVar1 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_SetCameraRotation_d__12);
+      uVar7 = 0;
+      *(undefined8 *)((long)register0x00000020 + -0x90) = 0x4081c3d;
+      pIVar5 = pIVar1;
+      System_Object___ctor(pIVar1,(MethodInfo *)0x0);
+      *(undefined4 *)&pIVar1[1].klass = 0;
+      if (pIVar1 == (Il2CppObject *)0x0) {
+        *(code **)((long)register0x00000020 + -0x90) =
+             RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection_d__11___ctor;
+        uVar2 = il2cpp_runtime_helper_022b2c90();
+        *(undefined8 *)((long)register0x00000020 + -0x90) = unaff_RBP;
+        *(undefined8 *)((long)register0x00000020 + -0x98) = 0;
+        *(undefined8 *)((long)register0x00000020 + -0xa0) = uVar2;
+        *(undefined8 *)((long)register0x00000020 + -0xa8) = 0x4081c8f;
+        System_Object___ctor(pIVar5,(MethodInfo *)0x0);
+        *(undefined4 *)&pIVar5[1].klass = uVar7;
+        return;
+      }
+      pIVar1[2].klass = pIVar4;
+      *(undefined8 *)((long)register0x00000020 + -0x90) = 0x4081c5c;
+      il2cpp_runtime_helper_022b4080(pIVar1 + 2,pIVar4);
+      pIVar1[2].monitor = *(void **)((long)register0x00000020 + -0x78);
+      *(undefined4 *)&pIVar1[3].klass = *(undefined4 *)((long)register0x00000020 + -0x7c);
+      return;
+    }
+    (pIVar3->_1).byval_arg.data = pIVar5;
+    *(undefined8 *)((long)register0x00000020 + -0x58) = 0x4081bde;
+    il2cpp_runtime_helper_022b4080(&(pIVar3->_1).byval_arg,pIVar5);
+    return;
   }
-  pIVar2[2].klass = (Il2CppClass *)__this;
-  il2cpp_runtime_glue(pIVar2 + 2,__this);
-  pIVar2[2].monitor = (void *)CONCAT44(uVar4,uVar3);
-  *(uint *)&pIVar2[3].klass = uVar5;
-  (__this->fields).cameraRotateCoroutine = (System_Collections_IEnumerator_o *)pIVar2;
-  il2cpp_runtime_glue(&(__this->fields).cameraRotateCoroutine,pIVar2);
-  UnityEngine_MonoBehaviour__StartCoroutine
-            ((UnityEngine_MonoBehaviour_o *)__this,(__this->fields).cameraRotateCoroutine,
-             (MethodInfo *)0x0);
+  pIVar1[2].klass = pIVar4;
+  *(undefined8 *)((long)register0x00000020 + -0x40) = 0x4081b33;
+  il2cpp_runtime_helper_022b4080(pIVar1 + 2,pIVar4);
+  pIVar1[2].monitor = *(void **)((long)register0x00000020 + -0x28);
+  *(undefined4 *)&pIVar1[3].klass = *(undefined4 *)((long)register0x00000020 + -0x2c);
+  *(Il2CppObject **)&(pIVar4->_1).this_arg.bits = pIVar1;
+  *(undefined8 *)((long)register0x00000020 + -0x40) = 0x4081b56;
+  il2cpp_runtime_helper_022b4080(&(pIVar4->_1).this_arg.bits,pIVar1);
+  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
+            ((UnityEngine_MonoBehaviour_o *)pIVar4,
+             *(System_Collections_IEnumerator_o **)&(pIVar4->_1).this_arg.bits,(MethodInfo *)0x0);
   return;
 }
 
 
 // RuntimeSceneGizmo.CameraGizmoListener$$SwitchOrthographicMode
 // il2cpp: void RuntimeSceneGizmo_CameraGizmoListener__SwitchOrthographicMode (RuntimeSceneGizmo_CameraGizmoListener_o* __this, const MethodInfo* method);
-// 0x3d8c0c0
+// 0x4081a10
 
 void RuntimeSceneGizmo_CameraGizmoListener__SwitchOrthographicMode
                (RuntimeSceneGizmo_CameraGizmoListener_o *__this,MethodInfo *method)
 
 {
-  Il2CppObject *__this_00;
+  void *pvVar1;
+  undefined8 uVar2;
+  UnityEngine_MonoBehaviour_o *__this_00;
+  System_Threading_CancellationTokenSource_o *__this_01;
+  Il2CppClass *__this_02;
+  Il2CppObject *__this_03;
+  undefined4 uVar3;
+  UnityEngine_MonoBehaviour_o *__this_04;
+  System_Threading_CancellationTokenSource_o *pSVar4;
+  Il2CppClass *pIVar5;
+  Il2CppObject *__this_05;
+  undefined4 in_XMM1_Da;
+  undefined4 uVar6;
   
   if ((__this->fields).projectionChangeCoroutine != (System_Collections_IEnumerator_o *)0x0) {
     return;
   }
-  if (DAT_05702706 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_SwitchProjection_d__11);
-    DAT_05702706 = '\x01';
+  if (g_data_057ac3b6 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_SwitchProjection_d__11);
+    g_data_057ac3b6 = '\x01';
   }
-  __this_00 = (Il2CppObject *)il2cpp_runtime_glue(TypeInfo_SwitchProjection_d__11);
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_00[1].klass = 0;
-  if (__this_00 != (Il2CppObject *)0x0) {
-    __this_00[2].klass = (Il2CppClass *)__this;
-    il2cpp_runtime_glue(__this_00 + 2,__this);
+  __this_00 = (UnityEngine_MonoBehaviour_o *)il2cpp_runtime_helper_023052d0(TypeInfo_SwitchProjection_d__11);
+  __this_04 = __this_00;
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
+  *(undefined4 *)&(__this_00->fields).m_CachedPtr = 0;
+  if (__this_00 != (UnityEngine_MonoBehaviour_o *)0x0) {
+    __this_00[1].klass = (UnityEngine_MonoBehaviour_c *)__this;
+    il2cpp_runtime_helper_022b4080(__this_00 + 1,__this);
     (__this->fields).projectionChangeCoroutine = (System_Collections_IEnumerator_o *)__this_00;
-    il2cpp_runtime_glue(&(__this->fields).projectionChangeCoroutine,__this_00);
-    UnityEngine_MonoBehaviour__StartCoroutine
+    il2cpp_runtime_helper_022b4080(&(__this->fields).projectionChangeCoroutine,__this_00);
+    UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
               ((UnityEngine_MonoBehaviour_o *)__this,(__this->fields).projectionChangeCoroutine,
                (MethodInfo *)0x0);
     return;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  uVar2 = il2cpp_runtime_helper_022b2c90();
+  if (__this_04[1].fields.m_CancellationTokenSource != (System_Threading_CancellationTokenSource_o *)0x0) {
+    return;
+  }
+  uVar6 = in_XMM1_Da;
+  if (g_data_057ac3b7 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_SetCameraRotation_d__12);
+    g_data_057ac3b7 = '\x01';
+  }
+  __this_01 = (System_Threading_CancellationTokenSource_o *)il2cpp_runtime_helper_023052d0(TypeInfo_SetCameraRotation_d__12);
+  pSVar4 = __this_01;
+  System_Object___ctor((Il2CppObject *)__this_01,(MethodInfo *)0x0);
+  *(undefined4 *)&(__this_01->fields)._kernelEvent = 0;
+  if (__this_01 != (System_Threading_CancellationTokenSource_o *)0x0) {
+    *(UnityEngine_MonoBehaviour_o **)&(__this_01->fields)._state = __this_04;
+    il2cpp_runtime_helper_022b4080(&(__this_01->fields)._state,__this_04);
+    *(undefined8 *)&(__this_01->fields)._disposed = uVar2;
+    *(undefined4 *)&(__this_01->fields)._executingCallback = in_XMM1_Da;
+    __this_04[1].fields.m_CancellationTokenSource = __this_01;
+    il2cpp_runtime_helper_022b4080(&__this_04[1].fields.m_CancellationTokenSource,__this_01);
+    UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
+              (__this_04,(System_Collections_IEnumerator_o *)__this_04[1].fields.m_CancellationTokenSource,
+               (MethodInfo *)0x0);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  if (g_data_057ac3b6 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_SwitchProjection_d__11);
+    g_data_057ac3b6 = '\x01';
+  }
+  __this_02 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_SwitchProjection_d__11);
+  pIVar5 = __this_02;
+  System_Object___ctor((Il2CppObject *)__this_02,(MethodInfo *)0x0);
+  *(undefined4 *)&(__this_02->_1).name = 0;
+  if (__this_02 != (Il2CppClass *)0x0) {
+    (__this_02->_1).byval_arg.data = pSVar4;
+    il2cpp_runtime_helper_022b4080(&(__this_02->_1).byval_arg,pSVar4);
+    return;
+  }
+  pvVar1 = (void *)il2cpp_runtime_helper_022b2c90();
+  if (g_data_057ac3b7 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_SetCameraRotation_d__12);
+    g_data_057ac3b7 = '\x01';
+  }
+  __this_03 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_SetCameraRotation_d__12);
+  uVar3 = 0;
+  __this_05 = __this_03;
+  System_Object___ctor(__this_03,(MethodInfo *)0x0);
+  *(undefined4 *)&__this_03[1].klass = 0;
+  if (__this_03 != (Il2CppObject *)0x0) {
+    __this_03[2].klass = pIVar5;
+    il2cpp_runtime_helper_022b4080(__this_03 + 2,pIVar5);
+    __this_03[2].monitor = pvVar1;
+    *(undefined4 *)&__this_03[3].klass = uVar6;
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  System_Object___ctor(__this_05,(MethodInfo *)0x0);
+  *(undefined4 *)&__this_05[1].klass = uVar3;
+  return;
 }
 
 
 // RuntimeSceneGizmo.CameraGizmoListener$$RotateCameraInDirection
 // il2cpp: void RuntimeSceneGizmo_CameraGizmoListener__RotateCameraInDirection (RuntimeSceneGizmo_CameraGizmoListener_o* __this, UnityEngine_Vector3_o direction, const MethodInfo* method);
-// 0x3d8c160
+// 0x4081ab0
 
 void RuntimeSceneGizmo_CameraGizmoListener__RotateCameraInDirection
                (RuntimeSceneGizmo_CameraGizmoListener_o *__this,UnityEngine_Vector3_o direction,
                MethodInfo *method)
 
 {
-  Il2CppObject *__this_00;
+  void *pvVar1;
+  Il2CppObject *pIVar2;
+  Il2CppClass *__this_00;
+  undefined4 uVar3;
+  Il2CppObject *pIVar4;
+  Il2CppClass *pIVar5;
+  float fVar6;
+  float fVar7;
   
+  fVar6 = direction.fields.z;
   if ((__this->fields).cameraRotateCoroutine != (System_Collections_IEnumerator_o *)0x0) {
     return;
   }
-  if (DAT_05702707 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_SetCameraRotation_d__12);
-    DAT_05702707 = '\x01';
+  fVar7 = fVar6;
+  if (g_data_057ac3b7 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_SetCameraRotation_d__12);
+    g_data_057ac3b7 = '\x01';
   }
-  __this_00 = (Il2CppObject *)il2cpp_runtime_glue(TypeInfo_SetCameraRotation_d__12);
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_00[1].klass = 0;
-  if (__this_00 != (Il2CppObject *)0x0) {
-    __this_00[2].klass = (Il2CppClass *)__this;
-    il2cpp_runtime_glue(__this_00 + 2,__this);
-    __this_00[2].monitor = direction.fields._0_8_;
-    *(float *)&__this_00[3].klass = direction.fields.z;
-    (__this->fields).cameraRotateCoroutine = (System_Collections_IEnumerator_o *)__this_00;
-    il2cpp_runtime_glue(&(__this->fields).cameraRotateCoroutine,__this_00);
-    UnityEngine_MonoBehaviour__StartCoroutine
-              ((UnityEngine_MonoBehaviour_o *)__this,(__this->fields).cameraRotateCoroutine,
-               (MethodInfo *)0x0);
+  pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_SetCameraRotation_d__12);
+  pIVar4 = pIVar2;
+  System_Object___ctor(pIVar2,(MethodInfo *)0x0);
+  *(undefined4 *)&pIVar2[1].klass = 0;
+  if (pIVar2 != (Il2CppObject *)0x0) {
+    pIVar2[2].klass = (Il2CppClass *)__this;
+    il2cpp_runtime_helper_022b4080(pIVar2 + 2,__this);
+    pIVar2[2].monitor = direction.fields._0_8_;
+    *(float *)&pIVar2[3].klass = fVar6;
+    (__this->fields).cameraRotateCoroutine = (System_Collections_IEnumerator_o *)pIVar2;
+    il2cpp_runtime_helper_022b4080(&(__this->fields).cameraRotateCoroutine,pIVar2);
+    UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
+              ((UnityEngine_MonoBehaviour_o *)__this,(__this->fields).cameraRotateCoroutine,(MethodInfo *)0x0)
+    ;
     return;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  if (g_data_057ac3b6 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_SwitchProjection_d__11);
+    g_data_057ac3b6 = '\x01';
+  }
+  __this_00 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_SwitchProjection_d__11);
+  pIVar5 = __this_00;
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
+  *(undefined4 *)&(__this_00->_1).name = 0;
+  if (__this_00 != (Il2CppClass *)0x0) {
+    (__this_00->_1).byval_arg.data = pIVar4;
+    il2cpp_runtime_helper_022b4080(&(__this_00->_1).byval_arg,pIVar4);
+    return;
+  }
+  pvVar1 = (void *)il2cpp_runtime_helper_022b2c90();
+  if (g_data_057ac3b7 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_SetCameraRotation_d__12);
+    g_data_057ac3b7 = '\x01';
+  }
+  pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_SetCameraRotation_d__12);
+  uVar3 = 0;
+  pIVar4 = pIVar2;
+  System_Object___ctor(pIVar2,(MethodInfo *)0x0);
+  *(undefined4 *)&pIVar2[1].klass = 0;
+  if (pIVar2 != (Il2CppObject *)0x0) {
+    pIVar2[2].klass = pIVar5;
+    il2cpp_runtime_helper_022b4080(pIVar2 + 2,pIVar5);
+    pIVar2[2].monitor = pvVar1;
+    *(float *)&pIVar2[3].klass = fVar7;
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  System_Object___ctor(pIVar4,(MethodInfo *)0x0);
+  *(undefined4 *)&pIVar4[1].klass = uVar3;
+  return;
 }
 
 
 // RuntimeSceneGizmo.CameraGizmoListener$$SwitchProjection
 // il2cpp: System_Collections_IEnumerator_o* RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection (RuntimeSceneGizmo_CameraGizmoListener_o* __this, const MethodInfo* method);
-// 0x3d8c230
+// 0x4081b80
 
 System_Collections_IEnumerator_o *
 RuntimeSceneGizmo_CameraGizmoListener__SwitchProjection
           (RuntimeSceneGizmo_CameraGizmoListener_o *__this,MethodInfo *method)
 
 {
-  Il2CppObject *__this_00;
+  void *pvVar1;
+  Il2CppClass *__this_00;
+  Il2CppObject *__this_01;
+  System_Collections_IEnumerator_o *extraout_RAX;
+  undefined4 uVar2;
+  Il2CppClass *pIVar3;
+  Il2CppObject *__this_02;
+  undefined4 in_XMM1_Da;
   
-  if (DAT_05702706 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_SwitchProjection_d__11);
-    DAT_05702706 = '\x01';
+  if (g_data_057ac3b6 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_SwitchProjection_d__11);
+    g_data_057ac3b6 = '\x01';
   }
-  __this_00 = (Il2CppObject *)il2cpp_runtime_glue(TypeInfo_SwitchProjection_d__11);
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_00[1].klass = 0;
-  if (__this_00 != (Il2CppObject *)0x0) {
-    __this_00[2].klass = (Il2CppClass *)__this;
-    il2cpp_runtime_glue(__this_00 + 2,__this);
+  __this_00 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_SwitchProjection_d__11);
+  pIVar3 = __this_00;
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
+  *(undefined4 *)&(__this_00->_1).name = 0;
+  if (__this_00 != (Il2CppClass *)0x0) {
+    (__this_00->_1).byval_arg.data = __this;
+    il2cpp_runtime_helper_022b4080(&(__this_00->_1).byval_arg,__this);
     return (System_Collections_IEnumerator_o *)__this_00;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  pvVar1 = (void *)il2cpp_runtime_helper_022b2c90();
+  if (g_data_057ac3b7 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_SetCameraRotation_d__12);
+    g_data_057ac3b7 = '\x01';
+  }
+  __this_01 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_SetCameraRotation_d__12);
+  uVar2 = 0;
+  __this_02 = __this_01;
+  System_Object___ctor(__this_01,(MethodInfo *)0x0);
+  *(undefined4 *)&__this_01[1].klass = 0;
+  if (__this_01 != (Il2CppObject *)0x0) {
+    __this_01[2].klass = pIVar3;
+    il2cpp_runtime_helper_022b4080(__this_01 + 2,pIVar3);
+    __this_01[2].monitor = pvVar1;
+    *(undefined4 *)&__this_01[3].klass = in_XMM1_Da;
+    return (System_Collections_IEnumerator_o *)__this_01;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  System_Object___ctor(__this_02,(MethodInfo *)0x0);
+  *(undefined4 *)&__this_02[1].klass = uVar2;
+  return extraout_RAX;
 }
 
 
 // RuntimeSceneGizmo.CameraGizmoListener$$SetCameraRotation
 // il2cpp: System_Collections_IEnumerator_o* RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation (RuntimeSceneGizmo_CameraGizmoListener_o* __this, UnityEngine_Vector3_o targetForward, const MethodInfo* method);
-// 0x3d8c2a0
+// 0x4081bf0
 
 System_Collections_IEnumerator_o *
 RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation
@@ -1657,29 +1915,36 @@ RuntimeSceneGizmo_CameraGizmoListener__SetCameraRotation
 
 {
   Il2CppObject *__this_00;
+  System_Collections_IEnumerator_o *extraout_RAX;
+  undefined4 uVar1;
+  Il2CppObject *__this_01;
   
-  if (DAT_05702707 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_SetCameraRotation_d__12);
-    DAT_05702707 = '\x01';
+  if (g_data_057ac3b7 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_SetCameraRotation_d__12);
+    g_data_057ac3b7 = '\x01';
   }
-  __this_00 = (Il2CppObject *)il2cpp_runtime_glue(TypeInfo_SetCameraRotation_d__12);
+  __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_SetCameraRotation_d__12);
+  uVar1 = 0;
+  __this_01 = __this_00;
   System_Object___ctor(__this_00,(MethodInfo *)0x0);
   *(undefined4 *)&__this_00[1].klass = 0;
   if (__this_00 != (Il2CppObject *)0x0) {
     __this_00[2].klass = (Il2CppClass *)__this;
-    il2cpp_runtime_glue(__this_00 + 2,__this);
+    il2cpp_runtime_helper_022b4080(__this_00 + 2,__this);
     __this_00[2].monitor = targetForward.fields._0_8_;
     *(float *)&__this_00[3].klass = targetForward.fields.z;
     return (System_Collections_IEnumerator_o *)__this_00;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  System_Object___ctor(__this_01,(MethodInfo *)0x0);
+  *(undefined4 *)&__this_01[1].klass = uVar1;
+  return extraout_RAX;
 }
 
 
 // RuntimeSceneGizmo.CameraGizmoListener$$.ctor
 // il2cpp: void RuntimeSceneGizmo_CameraGizmoListener___ctor (RuntimeSceneGizmo_CameraGizmoListener_o* __this, const MethodInfo* method);
-// 0x3d8c370
+// 0x4081cc0
 
 void RuntimeSceneGizmo_CameraGizmoListener___ctor
                (RuntimeSceneGizmo_CameraGizmoListener_o *__this,MethodInfo *method)

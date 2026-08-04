@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.VisualElementPanelActivator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -22,14 +29,14 @@ internal class VisualElementPanelActivator
 	public bool isActive
 	{
 		[Token(Token = "0x6001BB9")]
-		[Address(RVA = "0x4C507A0", Offset = "0x4C507A0", VA = "0x4C507A0")]
+		[Address(RVA = "0x4F780D0", Offset = "0x4F780D0", VA = "0x4F780D0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001BBA")]
-		[Address(RVA = "0x4C507B0", Offset = "0x4C507B0", VA = "0x4C507B0")]
+		[Address(RVA = "0x4F780E0", Offset = "0x4F780E0", VA = "0x4F780E0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -40,14 +47,14 @@ internal class VisualElementPanelActivator
 	public bool isDetaching
 	{
 		[Token(Token = "0x6001BBB")]
-		[Address(RVA = "0x4C507C0", Offset = "0x4C507C0", VA = "0x4C507C0")]
+		[Address(RVA = "0x4F780F0", Offset = "0x4F780F0", VA = "0x4F780F0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001BBC")]
-		[Address(RVA = "0x4C507D0", Offset = "0x4C507D0", VA = "0x4C507D0")]
+		[Address(RVA = "0x4F78100", Offset = "0x4F78100", VA = "0x4F78100")]
 		[CompilerGenerated]
 		private set
 		{
@@ -55,37 +62,37 @@ internal class VisualElementPanelActivator
 	}
 
 	[Token(Token = "0x6001BBD")]
-	[Address(RVA = "0x4C507E0", Offset = "0x4C507E0", VA = "0x4C507E0")]
+	[Address(RVA = "0x4F78110", Offset = "0x4F78110", VA = "0x4F78110")]
 	public VisualElementPanelActivator(IVisualElementPanelActivatable activatable)
 	{
 	}
 
 	[Token(Token = "0x6001BBE")]
-	[Address(RVA = "0x4C508C0", Offset = "0x4C508C0", VA = "0x4C508C0")]
+	[Address(RVA = "0x4F781F0", Offset = "0x4F781F0", VA = "0x4F781F0")]
 	public void SetActive(bool action)
 	{
 	}
 
 	[Token(Token = "0x6001BBF")]
-	[Address(RVA = "0x4C50B20", Offset = "0x4C50B20", VA = "0x4C50B20")]
+	[Address(RVA = "0x4F78450", Offset = "0x4F78450", VA = "0x4F78450")]
 	public void SendActivation()
 	{
 	}
 
 	[Token(Token = "0x6001BC0")]
-	[Address(RVA = "0x4C50C50", Offset = "0x4C50C50", VA = "0x4C50C50")]
+	[Address(RVA = "0x4F78580", Offset = "0x4F78580", VA = "0x4F78580")]
 	public void SendDeactivation()
 	{
 	}
 
 	[Token(Token = "0x6001BC1")]
-	[Address(RVA = "0x4C50D80", Offset = "0x4C50D80", VA = "0x4C50D80")]
+	[Address(RVA = "0x4F786B0", Offset = "0x4F786B0", VA = "0x4F786B0")]
 	private void OnEnter(AttachToPanelEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6001BC2")]
-	[Address(RVA = "0x4C50D90", Offset = "0x4C50D90", VA = "0x4C50D90")]
+	[Address(RVA = "0x4F786C0", Offset = "0x4F786C0", VA = "0x4F786C0")]
 	private void OnLeave(DetachFromPanelEvent evt)
 	{
 	}

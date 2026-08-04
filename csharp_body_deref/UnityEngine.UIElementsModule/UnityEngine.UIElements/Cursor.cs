@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Cursor
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -25,7 +32,7 @@ public struct Cursor : IEquatable<Cursor>
 			public override string Name
 			{
 				[Token(Token = "0x60008B5")]
-				[Address(RVA = "0x4CEF070", Offset = "0x4CEF070", VA = "0x4CEF070", Slot = "7")]
+				[Address(RVA = "0x50169A0", Offset = "0x50169A0", VA = "0x50169A0", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -34,7 +41,7 @@ public struct Cursor : IEquatable<Cursor>
 			}
 
 			[Token(Token = "0x60008B6")]
-			[Address(RVA = "0x4CEEF50", Offset = "0x4CEEF50", VA = "0x4CEEF50")]
+			[Address(RVA = "0x5016880", Offset = "0x5016880", VA = "0x5016880")]
 			public TextureProperty()
 			{
 			}
@@ -53,7 +60,7 @@ public struct Cursor : IEquatable<Cursor>
 			public override string Name
 			{
 				[Token(Token = "0x60008B7")]
-				[Address(RVA = "0x4CEF080", Offset = "0x4CEF080", VA = "0x4CEF080", Slot = "7")]
+				[Address(RVA = "0x50169B0", Offset = "0x50169B0", VA = "0x50169B0", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -62,7 +69,7 @@ public struct Cursor : IEquatable<Cursor>
 			}
 
 			[Token(Token = "0x60008B8")]
-			[Address(RVA = "0x4CEEFB0", Offset = "0x4CEEFB0", VA = "0x4CEEFB0")]
+			[Address(RVA = "0x50168E0", Offset = "0x50168E0", VA = "0x50168E0")]
 			public HotspotProperty()
 			{
 			}
@@ -81,7 +88,7 @@ public struct Cursor : IEquatable<Cursor>
 			public override string Name
 			{
 				[Token(Token = "0x60008B9")]
-				[Address(RVA = "0x4CEF090", Offset = "0x4CEF090", VA = "0x4CEF090", Slot = "7")]
+				[Address(RVA = "0x50169C0", Offset = "0x50169C0", VA = "0x50169C0", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -90,14 +97,14 @@ public struct Cursor : IEquatable<Cursor>
 			}
 
 			[Token(Token = "0x60008BA")]
-			[Address(RVA = "0x4CEF010", Offset = "0x4CEF010", VA = "0x4CEF010")]
+			[Address(RVA = "0x5016940", Offset = "0x5016940", VA = "0x5016940")]
 			public DefaultCursorIdProperty()
 			{
 			}
 		}
 
 		[Token(Token = "0x60008B4")]
-		[Address(RVA = "0x4CEED20", Offset = "0x4CEED20", VA = "0x4CEED20")]
+		[Address(RVA = "0x5016650", Offset = "0x5016650", VA = "0x5016650")]
 		public PropertyBag()
 		{
 		}
@@ -107,14 +114,14 @@ public struct Cursor : IEquatable<Cursor>
 	public Texture2D texture
 	{
 		[Token(Token = "0x60008A9")]
-		[Address(RVA = "0x4CEE940", Offset = "0x4CEE940", VA = "0x4CEE940")]
+		[Address(RVA = "0x5016270", Offset = "0x5016270", VA = "0x5016270")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return null;
 		}
 		[Token(Token = "0x60008AA")]
-		[Address(RVA = "0x4CEE950", Offset = "0x4CEE950", VA = "0x4CEE950")]
+		[Address(RVA = "0x5016280", Offset = "0x5016280", VA = "0x5016280")]
 		[CompilerGenerated]
 		set
 		{
@@ -125,14 +132,14 @@ public struct Cursor : IEquatable<Cursor>
 	public Vector2 hotspot
 	{
 		[Token(Token = "0x60008AB")]
-		[Address(RVA = "0x4CEE960", Offset = "0x4CEE960", VA = "0x4CEE960")]
+		[Address(RVA = "0x5016290", Offset = "0x5016290", VA = "0x5016290")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x60008AC")]
-		[Address(RVA = "0x4CEE970", Offset = "0x4CEE970", VA = "0x4CEE970")]
+		[Address(RVA = "0x50162A0", Offset = "0x50162A0", VA = "0x50162A0")]
 		[CompilerGenerated]
 		set
 		{
@@ -143,14 +150,14 @@ public struct Cursor : IEquatable<Cursor>
 	internal int defaultCursorId
 	{
 		[Token(Token = "0x60008AD")]
-		[Address(RVA = "0x4CEE980", Offset = "0x4CEE980", VA = "0x4CEE980")]
+		[Address(RVA = "0x50162B0", Offset = "0x50162B0", VA = "0x50162B0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60008AE")]
-		[Address(RVA = "0x4CEE990", Offset = "0x4CEE990", VA = "0x4CEE990")]
+		[Address(RVA = "0x50162C0", Offset = "0x50162C0", VA = "0x50162C0")]
 		[CompilerGenerated]
 		set
 		{
@@ -158,35 +165,35 @@ public struct Cursor : IEquatable<Cursor>
 	}
 
 	[Token(Token = "0x60008AF")]
-	[Address(RVA = "0x4CEE9A0", Offset = "0x4CEE9A0", VA = "0x4CEE9A0", Slot = "0")]
+	[Address(RVA = "0x50162D0", Offset = "0x50162D0", VA = "0x50162D0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60008B0")]
-	[Address(RVA = "0x4CEEA90", Offset = "0x4CEEA90", VA = "0x4CEEA90", Slot = "4")]
+	[Address(RVA = "0x50163C0", Offset = "0x50163C0", VA = "0x50163C0", Slot = "4")]
 	public bool Equals(Cursor other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60008B1")]
-	[Address(RVA = "0x4CEEB30", Offset = "0x4CEEB30", VA = "0x4CEEB30", Slot = "2")]
+	[Address(RVA = "0x5016460", Offset = "0x5016460", VA = "0x5016460", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60008B2")]
-	[Address(RVA = "0x4CEEC00", Offset = "0x4CEEC00", VA = "0x4CEEC00")]
+	[Address(RVA = "0x5016530", Offset = "0x5016530", VA = "0x5016530")]
 	public static bool operator ==(Cursor style1, Cursor style2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60008B3")]
-	[Address(RVA = "0x4CEECB0", Offset = "0x4CEECB0", VA = "0x4CEECB0", Slot = "3")]
+	[Address(RVA = "0x50165E0", Offset = "0x50165E0", VA = "0x50165E0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

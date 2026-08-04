@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.RSAPKCS1SignatureFormatter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -16,32 +23,32 @@ public class RSAPKCS1SignatureFormatter : AsymmetricSignatureFormatter
 	private string hash;
 
 	[Token(Token = "0x6001B57")]
-	[Address(RVA = "0x4E705C0", Offset = "0x4E705C0", VA = "0x4E705C0")]
+	[Address(RVA = "0x3B560E0", Offset = "0x3B560E0", VA = "0x3B560E0")]
 	public RSAPKCS1SignatureFormatter()
 	{
 	}
 
 	[Token(Token = "0x6001B58")]
-	[Address(RVA = "0x4E705D0", Offset = "0x4E705D0", VA = "0x4E705D0")]
+	[Address(RVA = "0x3B560F0", Offset = "0x3B560F0", VA = "0x3B560F0")]
 	public RSAPKCS1SignatureFormatter(AsymmetricAlgorithm key)
 	{
 	}
 
 	[Token(Token = "0x6001B59")]
-	[Address(RVA = "0x4E70610", Offset = "0x4E70610", VA = "0x4E70610", Slot = "7")]
+	[Address(RVA = "0x3B56130", Offset = "0x3B56130", VA = "0x3B56130", Slot = "7")]
 	public override byte[] CreateSignature(byte[] rgbHash)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001B5A")]
-	[Address(RVA = "0x4E70710", Offset = "0x4E70710", VA = "0x4E70710", Slot = "5")]
+	[Address(RVA = "0x3B56230", Offset = "0x3B56230", VA = "0x3B56230", Slot = "5")]
 	public override void SetHashAlgorithm(string strName)
 	{
 	}
 
 	[Token(Token = "0x6001B5B")]
-	[Address(RVA = "0x4E70770", Offset = "0x4E70770", VA = "0x4E70770", Slot = "4")]
+	[Address(RVA = "0x3B56290", Offset = "0x3B56290", VA = "0x3B56290", Slot = "4")]
 	public override void SetKey(AsymmetricAlgorithm key)
 	{
 	}

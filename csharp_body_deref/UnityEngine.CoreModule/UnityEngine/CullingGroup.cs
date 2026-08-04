@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.CullingGroup
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -23,7 +30,7 @@ public class CullingGroup
 	private StateChanged m_OnStateChanged;
 
 	[Token(Token = "0x60001FE")]
-	[Address(RVA = "0x4A8D9A0", Offset = "0x4A8D9A0", VA = "0x4A8D9A0")]
+	[Address(RVA = "0x4DB51C0", Offset = "0x4DB51C0", VA = "0x4DB51C0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void SendEvents(CullingGroup cullingGroup, IntPtr eventsPtr, int count)
 	{

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.Text.TextStyle
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -55,7 +62,7 @@ public class TextStyle
 	public int hashCode
 	{
 		[Token(Token = "0x60001CF")]
-		[Address(RVA = "0x4BB5150", Offset = "0x4BB5150", VA = "0x4BB5150")]
+		[Address(RVA = "0x4EDCA80", Offset = "0x4EDCA80", VA = "0x4EDCA80")]
 		get
 		{
 			return default(int);
@@ -66,7 +73,7 @@ public class TextStyle
 	public uint[] styleOpeningTagArray
 	{
 		[Token(Token = "0x60001D0")]
-		[Address(RVA = "0x4BB5160", Offset = "0x4BB5160", VA = "0x4BB5160")]
+		[Address(RVA = "0x4EDCA90", Offset = "0x4EDCA90", VA = "0x4EDCA90")]
 		get
 		{
 			return null;
@@ -77,7 +84,7 @@ public class TextStyle
 	public uint[] styleClosingTagArray
 	{
 		[Token(Token = "0x60001D1")]
-		[Address(RVA = "0x4BB57E0", Offset = "0x4BB57E0", VA = "0x4BB57E0")]
+		[Address(RVA = "0x4EDD110", Offset = "0x4EDD110", VA = "0x4EDD110")]
 		get
 		{
 			return null;
@@ -85,13 +92,13 @@ public class TextStyle
 	}
 
 	[Token(Token = "0x60001D2")]
-	[Address(RVA = "0x4BC3810", Offset = "0x4BC3810", VA = "0x4BC3810")]
+	[Address(RVA = "0x4EEB140", Offset = "0x4EEB140", VA = "0x4EEB140")]
 	internal TextStyle(string styleName, string styleOpeningDefinition, string styleClosingDefinition)
 	{
 	}
 
 	[Token(Token = "0x60001D3")]
-	[Address(RVA = "0x4BC3920", Offset = "0x4BC3920", VA = "0x4BC3920")]
+	[Address(RVA = "0x4EEB250", Offset = "0x4EEB250", VA = "0x4EEB250")]
 	public void RefreshStyle()
 	{
 	}

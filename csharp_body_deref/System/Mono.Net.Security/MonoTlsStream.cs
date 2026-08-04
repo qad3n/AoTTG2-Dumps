@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Net.Security.MonoTlsStream
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.IO;
@@ -50,13 +57,13 @@ internal class MonoTlsStream : IDisposable
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000164")]
-		[Address(RVA = "0x45448D0", Offset = "0x45448D0", VA = "0x45448D0", Slot = "4")]
+		[Address(RVA = "0x452AAC0", Offset = "0x452AAC0", VA = "0x452AAC0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000165")]
-		[Address(RVA = "0x4545300", Offset = "0x4545300", VA = "0x4545300", Slot = "5")]
+		[Address(RVA = "0x452B4F0", Offset = "0x452B4F0", VA = "0x452B4F0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -95,7 +102,7 @@ internal class MonoTlsStream : IDisposable
 	internal HttpWebRequest Request
 	{
 		[Token(Token = "0x600015C")]
-		[Address(RVA = "0x4544500", Offset = "0x4544500", VA = "0x4544500")]
+		[Address(RVA = "0x452A6F0", Offset = "0x452A6F0", VA = "0x452A6F0")]
 		get
 		{
 			return null;
@@ -106,7 +113,7 @@ internal class MonoTlsStream : IDisposable
 	internal WebExceptionStatus ExceptionStatus
 	{
 		[Token(Token = "0x600015D")]
-		[Address(RVA = "0x4544510", Offset = "0x4544510", VA = "0x4544510")]
+		[Address(RVA = "0x452A700", Offset = "0x452A700", VA = "0x452A700")]
 		get
 		{
 			return default(WebExceptionStatus);
@@ -117,14 +124,14 @@ internal class MonoTlsStream : IDisposable
 	internal bool CertificateValidationFailed
 	{
 		[Token(Token = "0x600015E")]
-		[Address(RVA = "0x4544520", Offset = "0x4544520", VA = "0x4544520")]
+		[Address(RVA = "0x452A710", Offset = "0x452A710", VA = "0x452A710")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600015F")]
-		[Address(RVA = "0x4544530", Offset = "0x4544530", VA = "0x4544530")]
+		[Address(RVA = "0x452A720", Offset = "0x452A720", VA = "0x452A720")]
 		[CompilerGenerated]
 		set
 		{
@@ -132,13 +139,13 @@ internal class MonoTlsStream : IDisposable
 	}
 
 	[Token(Token = "0x6000160")]
-	[Address(RVA = "0x4544540", Offset = "0x4544540", VA = "0x4544540")]
+	[Address(RVA = "0x452A730", Offset = "0x452A730", VA = "0x452A730")]
 	public MonoTlsStream(HttpWebRequest request, NetworkStream networkStream)
 	{
 	}
 
 	[Token(Token = "0x6000161")]
-	[Address(RVA = "0x45446B0", Offset = "0x45446B0", VA = "0x45446B0")]
+	[Address(RVA = "0x452A8A0", Offset = "0x452A8A0", VA = "0x452A8A0")]
 	[AsyncStateMachine(typeof(_003CCreateStream_003Ed__18))]
 	internal Task<Stream> CreateStream(WebConnectionTunnel tunnel, CancellationToken cancellationToken)
 	{
@@ -146,13 +153,13 @@ internal class MonoTlsStream : IDisposable
 	}
 
 	[Token(Token = "0x6000162")]
-	[Address(RVA = "0x45447E0", Offset = "0x45447E0", VA = "0x45447E0", Slot = "4")]
+	[Address(RVA = "0x452A9D0", Offset = "0x452A9D0", VA = "0x452A9D0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000163")]
-	[Address(RVA = "0x45447F0", Offset = "0x45447F0", VA = "0x45447F0")]
+	[Address(RVA = "0x452A9E0", Offset = "0x452A9E0", VA = "0x452A9E0")]
 	private void CloseSslStream()
 	{
 	}

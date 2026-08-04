@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.ChannelData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -38,7 +45,7 @@ internal class ChannelData
 	internal ArrayList ServerProviders
 	{
 		[Token(Token = "0x6001C71")]
-		[Address(RVA = "0x4E7F000", Offset = "0x4E7F000", VA = "0x4E7F000")]
+		[Address(RVA = "0x3B64B20", Offset = "0x3B64B20", VA = "0x3B64B20")]
 		get
 		{
 			return null;
@@ -49,7 +56,7 @@ internal class ChannelData
 	public ArrayList ClientProviders
 	{
 		[Token(Token = "0x6001C72")]
-		[Address(RVA = "0x4E7F970", Offset = "0x4E7F970", VA = "0x4E7F970")]
+		[Address(RVA = "0x3B65490", Offset = "0x3B65490", VA = "0x3B65490")]
 		get
 		{
 			return null;
@@ -60,7 +67,7 @@ internal class ChannelData
 	public Hashtable CustomProperties
 	{
 		[Token(Token = "0x6001C73")]
-		[Address(RVA = "0x4E83B20", Offset = "0x4E83B20", VA = "0x4E83B20")]
+		[Address(RVA = "0x3B69640", Offset = "0x3B69640", VA = "0x3B69640")]
 		get
 		{
 			return null;
@@ -68,13 +75,13 @@ internal class ChannelData
 	}
 
 	[Token(Token = "0x6001C74")]
-	[Address(RVA = "0x4E7E160", Offset = "0x4E7E160", VA = "0x4E7E160")]
+	[Address(RVA = "0x3B63C80", Offset = "0x3B63C80", VA = "0x3B63C80")]
 	public void CopyFrom(System.Runtime.Remoting.ChannelData other)
 	{
 	}
 
 	[Token(Token = "0x6001C75")]
-	[Address(RVA = "0x4E83A60", Offset = "0x4E83A60", VA = "0x4E83A60")]
+	[Address(RVA = "0x3B69580", Offset = "0x3B69580", VA = "0x3B69580")]
 	public ChannelData()
 	{
 	}

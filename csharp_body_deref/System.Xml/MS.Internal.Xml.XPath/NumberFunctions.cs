@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MS.Internal.Xml.XPath.NumberFunctions
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.XPath;
 using System.Xml.Xsl;
 using Il2CppDummyDll;
@@ -19,7 +26,7 @@ internal sealed class NumberFunctions : ValueQuery
 	public override XPathResultType StaticType
 	{
 		[Token(Token = "0x6001B72")]
-		[Address(RVA = "0x4445E50", Offset = "0x4445E50", VA = "0x4445E50", Slot = "16")]
+		[Address(RVA = "0x47835B0", Offset = "0x47835B0", VA = "0x47835B0", Slot = "16")]
 		get
 		{
 			return default(XPathResultType);
@@ -27,81 +34,81 @@ internal sealed class NumberFunctions : ValueQuery
 	}
 
 	[Token(Token = "0x6001B67")]
-	[Address(RVA = "0x4445720", Offset = "0x4445720", VA = "0x4445720")]
+	[Address(RVA = "0x4782E80", Offset = "0x4782E80", VA = "0x4782E80")]
 	public NumberFunctions(Function.FunctionType ftype, Query arg)
 	{
 	}
 
 	[Token(Token = "0x6001B68")]
-	[Address(RVA = "0x4445750", Offset = "0x4445750", VA = "0x4445750")]
+	[Address(RVA = "0x4782EB0", Offset = "0x4782EB0", VA = "0x4782EB0")]
 	private NumberFunctions(NumberFunctions other)
 	{
 	}
 
 	[Token(Token = "0x6001B69")]
-	[Address(RVA = "0x44457A0", Offset = "0x44457A0", VA = "0x44457A0", Slot = "13")]
+	[Address(RVA = "0x4782F00", Offset = "0x4782F00", VA = "0x4782F00", Slot = "13")]
 	public override void SetXsltContext(XsltContext context)
 	{
 	}
 
 	[Token(Token = "0x6001B6A")]
-	[Address(RVA = "0x4442100", Offset = "0x4442100", VA = "0x4442100")]
+	[Address(RVA = "0x477F860", Offset = "0x477F860", VA = "0x477F860")]
 	internal static double Number(bool arg)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6001B6B")]
-	[Address(RVA = "0x44412A0", Offset = "0x44412A0", VA = "0x44412A0")]
+	[Address(RVA = "0x477EA00", Offset = "0x477EA00", VA = "0x477EA00")]
 	internal static double Number(string arg)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6001B6C")]
-	[Address(RVA = "0x44457C0", Offset = "0x44457C0", VA = "0x44457C0", Slot = "14")]
+	[Address(RVA = "0x4782F20", Offset = "0x4782F20", VA = "0x4782F20", Slot = "14")]
 	public override object Evaluate(XPathNodeIterator nodeIterator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001B6D")]
-	[Address(RVA = "0x44458B0", Offset = "0x44458B0", VA = "0x44458B0")]
+	[Address(RVA = "0x4783010", Offset = "0x4783010", VA = "0x4783010")]
 	private double Number(XPathNodeIterator nodeIterator)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6001B6E")]
-	[Address(RVA = "0x4445B80", Offset = "0x4445B80", VA = "0x4445B80")]
+	[Address(RVA = "0x47832E0", Offset = "0x47832E0", VA = "0x47832E0")]
 	private double Sum(XPathNodeIterator nodeIterator)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6001B6F")]
-	[Address(RVA = "0x4445C70", Offset = "0x4445C70", VA = "0x4445C70")]
+	[Address(RVA = "0x47833D0", Offset = "0x47833D0", VA = "0x47833D0")]
 	private double Floor(XPathNodeIterator nodeIterator)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6001B70")]
-	[Address(RVA = "0x4445D20", Offset = "0x4445D20", VA = "0x4445D20")]
+	[Address(RVA = "0x4783480", Offset = "0x4783480", VA = "0x4783480")]
 	private double Ceiling(XPathNodeIterator nodeIterator)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6001B71")]
-	[Address(RVA = "0x4445DD0", Offset = "0x4445DD0", VA = "0x4445DD0")]
+	[Address(RVA = "0x4783530", Offset = "0x4783530", VA = "0x4783530")]
 	private double Round(XPathNodeIterator nodeIterator)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6001B73")]
-	[Address(RVA = "0x4445E60", Offset = "0x4445E60", VA = "0x4445E60", Slot = "6")]
+	[Address(RVA = "0x47835C0", Offset = "0x47835C0", VA = "0x47835C0", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

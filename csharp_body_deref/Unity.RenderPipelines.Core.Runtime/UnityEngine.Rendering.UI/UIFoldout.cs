@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.UI.UIFoldout
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.UI;
 
@@ -20,31 +27,31 @@ public class UIFoldout : Toggle
 	public GameObject arrowClosed;
 
 	[Token(Token = "0x6000F7F")]
-	[Address(RVA = "0x48F59F0", Offset = "0x48F59F0", VA = "0x48F59F0", Slot = "6")]
+	[Address(RVA = "0x4C1AA60", Offset = "0x4C1AA60", VA = "0x4C1AA60", Slot = "6")]
 	protected override void Start()
 	{
 	}
 
 	[Token(Token = "0x6000F80")]
-	[Address(RVA = "0x48F5AB0", Offset = "0x48F5AB0", VA = "0x48F5AB0")]
+	[Address(RVA = "0x4C1AB20", Offset = "0x4C1AB20", VA = "0x4C1AB20")]
 	private void OnValidate()
 	{
 	}
 
 	[Token(Token = "0x6000F81")]
-	[Address(RVA = "0x48F5AA0", Offset = "0x48F5AA0", VA = "0x48F5AA0")]
+	[Address(RVA = "0x4C1AB10", Offset = "0x4C1AB10", VA = "0x4C1AB10")]
 	public void SetState(bool state)
 	{
 	}
 
 	[Token(Token = "0x6000F82")]
-	[Address(RVA = "0x48F5AC0", Offset = "0x48F5AC0", VA = "0x48F5AC0")]
+	[Address(RVA = "0x4C1AB30", Offset = "0x4C1AB30", VA = "0x4C1AB30")]
 	public void SetState(bool state, bool rebuildLayout)
 	{
 	}
 
 	[Token(Token = "0x6000F83")]
-	[Address(RVA = "0x48F5CC0", Offset = "0x48F5CC0", VA = "0x48F5CC0")]
+	[Address(RVA = "0x4C1AD30", Offset = "0x4C1AD30", VA = "0x4C1AD30")]
 	public UIFoldout()
 	{
 	}

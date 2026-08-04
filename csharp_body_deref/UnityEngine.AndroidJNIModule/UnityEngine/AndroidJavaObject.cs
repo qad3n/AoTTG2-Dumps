@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.AndroidJavaObject
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -19,25 +26,25 @@ public class AndroidJavaObject : IDisposable
 	internal GlobalJavaObjectRef m_jclass;
 
 	[Token(Token = "0x60000E1")]
-	[Address(RVA = "0x4A759E0", Offset = "0x4A759E0", VA = "0x4A759E0")]
+	[Address(RVA = "0x4D9D200", Offset = "0x4D9D200", VA = "0x4D9D200")]
 	public AndroidJavaObject(string className, params object[] args)
 	{
 	}
 
 	[Token(Token = "0x60000E2")]
-	[Address(RVA = "0x4A752D0", Offset = "0x4A752D0", VA = "0x4A752D0")]
+	[Address(RVA = "0x4D9CAF0", Offset = "0x4D9CAF0", VA = "0x4D9CAF0")]
 	public AndroidJavaObject(IntPtr jobject)
 	{
 	}
 
 	[Token(Token = "0x60000E3")]
-	[Address(RVA = "0x4A75260", Offset = "0x4A75260", VA = "0x4A75260", Slot = "4")]
+	[Address(RVA = "0x4D9CA80", Offset = "0x4D9CA80", VA = "0x4D9CA80", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60000E4")]
-	[Address(RVA = "0x4A75C00", Offset = "0x4A75C00", VA = "0x4A75C00")]
+	[Address(RVA = "0x4D9D420", Offset = "0x4D9D420", VA = "0x4D9D420")]
 	public void Call(string methodName, params object[] args)
 	{
 	}
@@ -49,14 +56,14 @@ public class AndroidJavaObject : IDisposable
 	}
 
 	[Token(Token = "0x60000E6")]
-	[Address(RVA = "0x4A75570", Offset = "0x4A75570", VA = "0x4A75570")]
+	[Address(RVA = "0x4D9CD90", Offset = "0x4D9CD90", VA = "0x4D9CD90")]
 	public IntPtr GetRawObject()
 	{
 		return default(IntPtr);
 	}
 
 	[Token(Token = "0x60000E7")]
-	[Address(RVA = "0x4A75D20", Offset = "0x4A75D20", VA = "0x4A75D20")]
+	[Address(RVA = "0x4D9D540", Offset = "0x4D9D540", VA = "0x4D9D540")]
 	public IntPtr GetRawClass()
 	{
 		return default(IntPtr);
@@ -75,49 +82,49 @@ public class AndroidJavaObject : IDisposable
 	}
 
 	[Token(Token = "0x60000EA")]
-	[Address(RVA = "0x4A75D60", Offset = "0x4A75D60", VA = "0x4A75D60")]
+	[Address(RVA = "0x4D9D580", Offset = "0x4D9D580", VA = "0x4D9D580")]
 	protected void DebugPrint(string msg)
 	{
 	}
 
 	[Token(Token = "0x60000EB")]
-	[Address(RVA = "0x4A75A20", Offset = "0x4A75A20", VA = "0x4A75A20")]
+	[Address(RVA = "0x4D9D240", Offset = "0x4D9D240", VA = "0x4D9D240")]
 	private void _AndroidJavaObject(string className, params object[] args)
 	{
 	}
 
 	[Token(Token = "0x60000EC")]
-	[Address(RVA = "0x4A75DE0", Offset = "0x4A75DE0", VA = "0x4A75DE0")]
+	[Address(RVA = "0x4D9D600", Offset = "0x4D9D600", VA = "0x4D9D600")]
 	private void _AndroidJavaObject(IntPtr constructorID, params object[] args)
 	{
 	}
 
 	[Token(Token = "0x60000ED")]
-	[Address(RVA = "0x4A75A10", Offset = "0x4A75A10", VA = "0x4A75A10")]
+	[Address(RVA = "0x4D9D230", Offset = "0x4D9D230", VA = "0x4D9D230")]
 	internal AndroidJavaObject()
 	{
 	}
 
 	[Token(Token = "0x60000EE")]
-	[Address(RVA = "0x4A76070", Offset = "0x4A76070", VA = "0x4A76070", Slot = "1")]
+	[Address(RVA = "0x4D9D890", Offset = "0x4D9D890", VA = "0x4D9D890", Slot = "1")]
 	~AndroidJavaObject()
 	{
 	}
 
 	[Token(Token = "0x60000EF")]
-	[Address(RVA = "0x4A76100", Offset = "0x4A76100", VA = "0x4A76100", Slot = "5")]
+	[Address(RVA = "0x4D9D920", Offset = "0x4D9D920", VA = "0x4D9D920", Slot = "5")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x60000F0")]
-	[Address(RVA = "0x4A75C80", Offset = "0x4A75C80", VA = "0x4A75C80")]
+	[Address(RVA = "0x4D9D4A0", Offset = "0x4D9D4A0", VA = "0x4D9D4A0")]
 	protected void _Call(string methodName, params object[] args)
 	{
 	}
 
 	[Token(Token = "0x60000F1")]
-	[Address(RVA = "0x4A761C0", Offset = "0x4A761C0", VA = "0x4A761C0")]
+	[Address(RVA = "0x4D9D9E0", Offset = "0x4D9D9E0", VA = "0x4D9D9E0")]
 	protected void _Call(IntPtr methodID, params object[] args)
 	{
 	}
@@ -159,14 +166,14 @@ public class AndroidJavaObject : IDisposable
 	}
 
 	[Token(Token = "0x60000F8")]
-	[Address(RVA = "0x4A75470", Offset = "0x4A75470", VA = "0x4A75470")]
+	[Address(RVA = "0x4D9CC90", Offset = "0x4D9CC90", VA = "0x4D9CC90")]
 	internal static AndroidJavaObject AndroidJavaObjectDeleteLocalRef(IntPtr jobject)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000F9")]
-	[Address(RVA = "0x4A763D0", Offset = "0x4A763D0", VA = "0x4A763D0")]
+	[Address(RVA = "0x4D9DBF0", Offset = "0x4D9DBF0", VA = "0x4D9DBF0")]
 	internal static AndroidJavaClass AndroidJavaClassDeleteLocalRef(IntPtr jclass)
 	{
 		return null;
@@ -185,14 +192,14 @@ public class AndroidJavaObject : IDisposable
 	}
 
 	[Token(Token = "0x60000FC")]
-	[Address(RVA = "0x4A75D00", Offset = "0x4A75D00", VA = "0x4A75D00")]
+	[Address(RVA = "0x4D9D520", Offset = "0x4D9D520", VA = "0x4D9D520")]
 	protected IntPtr _GetRawObject()
 	{
 		return default(IntPtr);
 	}
 
 	[Token(Token = "0x60000FD")]
-	[Address(RVA = "0x4A75D40", Offset = "0x4A75D40", VA = "0x4A75D40")]
+	[Address(RVA = "0x4D9D560", Offset = "0x4D9D560", VA = "0x4D9D560")]
 	protected IntPtr _GetRawClass()
 	{
 		return default(IntPtr);

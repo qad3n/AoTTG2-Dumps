@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MouseMove
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/MouseMove.c
+// Prior real C# source (older reference): Assets/Scripts/ThirdParty/MeleeWeaponTrail/Example/Scripts/MouseMove.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -14,19 +21,19 @@ public class MouseMove : MonoBehaviour
 	private Vector3 _originalPos;
 
 	[Token(Token = "0x6000055")]
-	[Address(RVA = "0x3C69CA0", Offset = "0x3C69CA0", VA = "0x3C69CA0")]
+	[Address(RVA = "0x3F5F5F0", Offset = "0x3F5F5F0", VA = "0x3F5F5F0")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x6000056")]
-	[Address(RVA = "0x3C69CD0", Offset = "0x3C69CD0", VA = "0x3C69CD0")]
+	[Address(RVA = "0x3F5F620", Offset = "0x3F5F620", VA = "0x3F5F620")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x6000057")]
-	[Address(RVA = "0x3C69DA0", Offset = "0x3C69DA0", VA = "0x3C69DA0")]
+	[Address(RVA = "0x3F5F6F0", Offset = "0x3F5F6F0", VA = "0x3F5F6F0")]
 	public MouseMove()
 	{
 	}

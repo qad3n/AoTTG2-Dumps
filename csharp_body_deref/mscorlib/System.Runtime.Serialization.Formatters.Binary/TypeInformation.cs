@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.Formatters.Binary.TypeInformation
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
@@ -21,7 +28,7 @@ internal sealed class TypeInformation
 	internal string FullTypeName
 	{
 		[Token(Token = "0x600210C")]
-		[Address(RVA = "0x4EC8340", Offset = "0x4EC8340", VA = "0x4EC8340")]
+		[Address(RVA = "0x3BADE60", Offset = "0x3BADE60", VA = "0x3BADE60")]
 		get
 		{
 			return null;
@@ -32,7 +39,7 @@ internal sealed class TypeInformation
 	internal string AssemblyString
 	{
 		[Token(Token = "0x600210D")]
-		[Address(RVA = "0x4EC8350", Offset = "0x4EC8350", VA = "0x4EC8350")]
+		[Address(RVA = "0x3BADE70", Offset = "0x3BADE70", VA = "0x3BADE70")]
 		get
 		{
 			return null;
@@ -43,7 +50,7 @@ internal sealed class TypeInformation
 	internal bool HasTypeForwardedFrom
 	{
 		[Token(Token = "0x600210E")]
-		[Address(RVA = "0x4EC8360", Offset = "0x4EC8360", VA = "0x4EC8360")]
+		[Address(RVA = "0x3BADE80", Offset = "0x3BADE80", VA = "0x3BADE80")]
 		get
 		{
 			return default(bool);
@@ -51,7 +58,7 @@ internal sealed class TypeInformation
 	}
 
 	[Token(Token = "0x600210F")]
-	[Address(RVA = "0x4EC35C0", Offset = "0x4EC35C0", VA = "0x4EC35C0")]
+	[Address(RVA = "0x3BA90E0", Offset = "0x3BA90E0", VA = "0x3BA90E0")]
 	internal TypeInformation(string fullTypeName, string assemblyString, bool hasTypeForwardedFrom)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.RectInt
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -30,14 +37,14 @@ public struct RectInt : IEquatable<RectInt>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60002C0")]
-		[Address(RVA = "0x4A968A0", Offset = "0x4A968A0", VA = "0x4A968A0")]
+		[Address(RVA = "0x4DBE0C0", Offset = "0x4DBE0C0", VA = "0x4DBE0C0")]
 		get
 		{
 			return default(int);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60002C1")]
-		[Address(RVA = "0x4A968B0", Offset = "0x4A968B0", VA = "0x4A968B0")]
+		[Address(RVA = "0x4DBE0D0", Offset = "0x4DBE0D0", VA = "0x4DBE0D0")]
 		set
 		{
 		}
@@ -48,14 +55,14 @@ public struct RectInt : IEquatable<RectInt>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60002C2")]
-		[Address(RVA = "0x4A968C0", Offset = "0x4A968C0", VA = "0x4A968C0")]
+		[Address(RVA = "0x4DBE0E0", Offset = "0x4DBE0E0", VA = "0x4DBE0E0")]
 		get
 		{
 			return default(int);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60002C3")]
-		[Address(RVA = "0x4A968D0", Offset = "0x4A968D0", VA = "0x4A968D0")]
+		[Address(RVA = "0x4DBE0F0", Offset = "0x4DBE0F0", VA = "0x4DBE0F0")]
 		set
 		{
 		}
@@ -66,14 +73,14 @@ public struct RectInt : IEquatable<RectInt>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60002C4")]
-		[Address(RVA = "0x4A968E0", Offset = "0x4A968E0", VA = "0x4A968E0")]
+		[Address(RVA = "0x4DBE100", Offset = "0x4DBE100", VA = "0x4DBE100")]
 		get
 		{
 			return default(int);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60002C5")]
-		[Address(RVA = "0x4A968F0", Offset = "0x4A968F0", VA = "0x4A968F0")]
+		[Address(RVA = "0x4DBE110", Offset = "0x4DBE110", VA = "0x4DBE110")]
 		set
 		{
 		}
@@ -84,14 +91,14 @@ public struct RectInt : IEquatable<RectInt>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60002C6")]
-		[Address(RVA = "0x4A96900", Offset = "0x4A96900", VA = "0x4A96900")]
+		[Address(RVA = "0x4DBE120", Offset = "0x4DBE120", VA = "0x4DBE120")]
 		get
 		{
 			return default(int);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60002C7")]
-		[Address(RVA = "0x4A96910", Offset = "0x4A96910", VA = "0x4A96910")]
+		[Address(RVA = "0x4DBE130", Offset = "0x4DBE130", VA = "0x4DBE130")]
 		set
 		{
 		}
@@ -102,7 +109,7 @@ public struct RectInt : IEquatable<RectInt>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60002C8")]
-		[Address(RVA = "0x4A96920", Offset = "0x4A96920", VA = "0x4A96920")]
+		[Address(RVA = "0x4DBE140", Offset = "0x4DBE140", VA = "0x4DBE140")]
 		get
 		{
 			return default(int);
@@ -114,7 +121,7 @@ public struct RectInt : IEquatable<RectInt>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60002C9")]
-		[Address(RVA = "0x4A96980", Offset = "0x4A96980", VA = "0x4A96980")]
+		[Address(RVA = "0x4DBE1A0", Offset = "0x4DBE1A0", VA = "0x4DBE1A0")]
 		get
 		{
 			return default(int);
@@ -126,7 +133,7 @@ public struct RectInt : IEquatable<RectInt>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60002CA")]
-		[Address(RVA = "0x4A969E0", Offset = "0x4A969E0", VA = "0x4A969E0")]
+		[Address(RVA = "0x4DBE200", Offset = "0x4DBE200", VA = "0x4DBE200")]
 		get
 		{
 			return default(int);
@@ -138,7 +145,7 @@ public struct RectInt : IEquatable<RectInt>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x60002CB")]
-		[Address(RVA = "0x4A96A40", Offset = "0x4A96A40", VA = "0x4A96A40")]
+		[Address(RVA = "0x4DBE260", Offset = "0x4DBE260", VA = "0x4DBE260")]
 		get
 		{
 			return default(int);
@@ -147,14 +154,14 @@ public struct RectInt : IEquatable<RectInt>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60002CC")]
-	[Address(RVA = "0x4A96AA0", Offset = "0x4A96AA0", VA = "0x4A96AA0")]
+	[Address(RVA = "0x4DBE2C0", Offset = "0x4DBE2C0", VA = "0x4DBE2C0")]
 	public RectInt(int xMin, int yMin, int width, int height)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60002CD")]
-	[Address(RVA = "0x4A96AB0", Offset = "0x4A96AB0", VA = "0x4A96AB0")]
+	[Address(RVA = "0x4DBE2D0", Offset = "0x4DBE2D0", VA = "0x4DBE2D0")]
 	public bool Overlaps(RectInt other)
 	{
 		return default(bool);
@@ -162,7 +169,7 @@ public struct RectInt : IEquatable<RectInt>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60002CE")]
-	[Address(RVA = "0x4A96D90", Offset = "0x4A96D90", VA = "0x4A96D90", Slot = "3")]
+	[Address(RVA = "0x4DBE5B0", Offset = "0x4DBE5B0", VA = "0x4DBE5B0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
@@ -170,7 +177,7 @@ public struct RectInt : IEquatable<RectInt>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60002CF")]
-	[Address(RVA = "0x4A96DA0", Offset = "0x4A96DA0", VA = "0x4A96DA0", Slot = "5")]
+	[Address(RVA = "0x4DBE5C0", Offset = "0x4DBE5C0", VA = "0x4DBE5C0", Slot = "5")]
 	public string ToString(string format, IFormatProvider formatProvider)
 	{
 		return null;
@@ -178,7 +185,7 @@ public struct RectInt : IEquatable<RectInt>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60002D0")]
-	[Address(RVA = "0x4A96FE0", Offset = "0x4A96FE0", VA = "0x4A96FE0", Slot = "2")]
+	[Address(RVA = "0x4DBE800", Offset = "0x4DBE800", VA = "0x4DBE800", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
@@ -186,7 +193,7 @@ public struct RectInt : IEquatable<RectInt>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60002D1")]
-	[Address(RVA = "0x4A97080", Offset = "0x4A97080", VA = "0x4A97080", Slot = "0")]
+	[Address(RVA = "0x4DBE8A0", Offset = "0x4DBE8A0", VA = "0x4DBE8A0", Slot = "0")]
 	public override bool Equals(object other)
 	{
 		return default(bool);
@@ -194,7 +201,7 @@ public struct RectInt : IEquatable<RectInt>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x60002D2")]
-	[Address(RVA = "0x4A97100", Offset = "0x4A97100", VA = "0x4A97100", Slot = "4")]
+	[Address(RVA = "0x4DBE920", Offset = "0x4DBE920", VA = "0x4DBE920", Slot = "4")]
 	public bool Equals(RectInt other)
 	{
 		return default(bool);

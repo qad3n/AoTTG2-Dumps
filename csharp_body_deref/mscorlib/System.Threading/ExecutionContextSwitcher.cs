@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Threading.ExecutionContextSwitcher
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.ConstrainedExecution;
 using System.Runtime.ExceptionServices;
 using Il2CppDummyDll;
@@ -24,7 +31,7 @@ internal struct ExecutionContextSwitcher
 	internal Thread thread;
 
 	[Token(Token = "0x600121E")]
-	[Address(RVA = "0x504C280", Offset = "0x504C280", VA = "0x504C280")]
+	[Address(RVA = "0x3D31DA0", Offset = "0x3D31DA0", VA = "0x3D31DA0")]
 	[HandleProcessCorruptedStateExceptions]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
 	internal bool UndoNoThrow()
@@ -33,7 +40,7 @@ internal struct ExecutionContextSwitcher
 	}
 
 	[Token(Token = "0x600121F")]
-	[Address(RVA = "0x504C300", Offset = "0x504C300", VA = "0x504C300")]
+	[Address(RVA = "0x3D31E20", Offset = "0x3D31E20", VA = "0x3D31E20")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
 	internal void Undo()
 	{

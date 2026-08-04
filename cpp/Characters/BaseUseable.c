@@ -1,13 +1,14 @@
 // Type: Characters.BaseUseable
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/BaseUseable.cs
-// Prior real C# source (REFERENCE, outdated): Assets/Scripts/Characters/BaseUseable/BaseUseable.cs  [CHANGED since prior version]
+// Prior real C# source (older reference): Assets/Scripts/Characters/BaseUseable/BaseUseable.cs
 // --------------------------------
 
 // Characters.BaseUseable$$.ctor
 // il2cpp: void Characters_BaseUseable___ctor (Characters_BaseUseable_o* __this, Characters_BaseCharacter_o* owner, float cooldown, int32_t maxUses, const MethodInfo* method);
-// 0x3f9c3f0
+// 0x42a8c90
 
 void Characters_BaseUseable___ctor
                (Characters_BaseUseable_o *__this,Characters_BaseCharacter_o *owner,float cooldown,
@@ -17,7 +18,7 @@ void Characters_BaseUseable___ctor
   (__this->fields)._lastUseTime = -1000.0;
   System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields)._owner = owner;
-  il2cpp_runtime_glue(&(__this->fields)._owner,owner);
+  il2cpp_runtime_helper_022b4080(&(__this->fields)._owner,owner);
   (__this->fields).Cooldown = cooldown;
   (__this->fields).MaxUses = maxUses;
   (__this->fields).UsesLeft = maxUses;
@@ -27,7 +28,7 @@ void Characters_BaseUseable___ctor
 
 // Characters.BaseUseable$$Reload
 // il2cpp: void Characters_BaseUseable__Reload (Characters_BaseUseable_o* __this, const MethodInfo* method);
-// 0x3f9c450
+// 0x42a8cf0
 
 void Characters_BaseUseable__Reload(Characters_BaseUseable_o *__this,MethodInfo *method)
 
@@ -38,7 +39,7 @@ void Characters_BaseUseable__Reload(Characters_BaseUseable_o *__this,MethodInfo 
 
 // Characters.BaseUseable$$Reset
 // il2cpp: void Characters_BaseUseable__Reset (Characters_BaseUseable_o* __this, const MethodInfo* method);
-// 0x3f9c460
+// 0x42a8d00
 
 void Characters_BaseUseable__Reset(Characters_BaseUseable_o *__this,MethodInfo *method)
 
@@ -50,7 +51,7 @@ void Characters_BaseUseable__Reset(Characters_BaseUseable_o *__this,MethodInfo *
 
 // Characters.BaseUseable$$SetCooldownLeft
 // il2cpp: void Characters_BaseUseable__SetCooldownLeft (Characters_BaseUseable_o* __this, float cooldownLeft, const MethodInfo* method);
-// 0x3f9c470
+// 0x42a8d10
 
 void Characters_BaseUseable__SetCooldownLeft
                (Characters_BaseUseable_o *__this,float cooldownLeft,MethodInfo *method)
@@ -66,7 +67,7 @@ void Characters_BaseUseable__SetCooldownLeft
 
 // Characters.BaseUseable$$GetCooldownLeft
 // il2cpp: float Characters_BaseUseable__GetCooldownLeft (Characters_BaseUseable_o* __this, const MethodInfo* method);
-// 0x3f9c4a0
+// 0x42a8d40
 
 float Characters_BaseUseable__GetCooldownLeft(Characters_BaseUseable_o *__this,MethodInfo *method)
 
@@ -88,10 +89,9 @@ float Characters_BaseUseable__GetCooldownLeft(Characters_BaseUseable_o *__this,M
 
 // Characters.BaseUseable$$SetCooldownRatio
 // il2cpp: void Characters_BaseUseable__SetCooldownRatio (Characters_BaseUseable_o* __this, float ratio, const MethodInfo* method);
-// 0x3f9c4f0
+// 0x42a8d90
 
-void Characters_BaseUseable__SetCooldownRatio
-               (Characters_BaseUseable_o *__this,float ratio,MethodInfo *method)
+void Characters_BaseUseable__SetCooldownRatio(Characters_BaseUseable_o *__this,float ratio,MethodInfo *method)
 
 {
   float fVar1;
@@ -112,7 +112,7 @@ void Characters_BaseUseable__SetCooldownRatio
 
 // Characters.BaseUseable$$GetCooldownRatio
 // il2cpp: float Characters_BaseUseable__GetCooldownRatio (Characters_BaseUseable_o* __this, const MethodInfo* method);
-// 0x3f9c540
+// 0x42a8de0
 
 float Characters_BaseUseable__GetCooldownRatio(Characters_BaseUseable_o *__this,MethodInfo *method)
 
@@ -139,10 +139,9 @@ float Characters_BaseUseable__GetCooldownRatio(Characters_BaseUseable_o *__this,
 
 // Characters.BaseUseable$$HasUsesLeft
 // il2cpp: bool Characters_BaseUseable__HasUsesLeft (Characters_BaseUseable_o* __this, const MethodInfo* method);
-// 0x3f9c5a0
+// 0x42a8e40
 
-bool_conflict
-Characters_BaseUseable__HasUsesLeft(Characters_BaseUseable_o *__this,MethodInfo *method)
+bool_conflict Characters_BaseUseable__HasUsesLeft(Characters_BaseUseable_o *__this,MethodInfo *method)
 
 {
   undefined4 in_EAX;
@@ -153,7 +152,7 @@ Characters_BaseUseable__HasUsesLeft(Characters_BaseUseable_o *__this,MethodInfo 
 
 // Characters.BaseUseable$$GetUsesRatio
 // il2cpp: float Characters_BaseUseable__GetUsesRatio (Characters_BaseUseable_o* __this, const MethodInfo* method);
-// 0x3f9c5b0
+// 0x42a8e50
 
 float Characters_BaseUseable__GetUsesRatio(Characters_BaseUseable_o *__this,MethodInfo *method)
 
@@ -173,7 +172,7 @@ float Characters_BaseUseable__GetUsesRatio(Characters_BaseUseable_o *__this,Meth
 
 // Characters.BaseUseable$$CanUse
 // il2cpp: bool Characters_BaseUseable__CanUse (Characters_BaseUseable_o* __this, const MethodInfo* method);
-// 0x3f9c5d0
+// 0x42a8e70
 
 bool_conflict Characters_BaseUseable__CanUse(Characters_BaseUseable_o *__this,MethodInfo *method)
 
@@ -192,10 +191,9 @@ bool_conflict Characters_BaseUseable__CanUse(Characters_BaseUseable_o *__this,Me
 
 // Characters.BaseUseable$$HasDurability
 // il2cpp: bool Characters_BaseUseable__HasDurability (Characters_BaseUseable_o* __this, const MethodInfo* method);
-// 0x3f9c600
+// 0x42a8ea0
 
-bool_conflict
-Characters_BaseUseable__HasDurability(Characters_BaseUseable_o *__this,MethodInfo *method)
+bool_conflict Characters_BaseUseable__HasDurability(Characters_BaseUseable_o *__this,MethodInfo *method)
 
 {
   return 0;
@@ -204,7 +202,7 @@ Characters_BaseUseable__HasDurability(Characters_BaseUseable_o *__this,MethodInf
 
 // Characters.BaseUseable$$OnUse
 // il2cpp: void Characters_BaseUseable__OnUse (Characters_BaseUseable_o* __this, const MethodInfo* method);
-// 0x3f9c610
+// 0x42a8eb0
 
 void Characters_BaseUseable__OnUse(Characters_BaseUseable_o *__this,MethodInfo *method)
 
@@ -224,7 +222,7 @@ void Characters_BaseUseable__OnUse(Characters_BaseUseable_o *__this,MethodInfo *
 
 // Characters.BaseUseable$$Activate
 // il2cpp: void Characters_BaseUseable__Activate (Characters_BaseUseable_o* __this, const MethodInfo* method);
-// 0x3f9c630
+// 0x42a8ed0
 
 void Characters_BaseUseable__Activate(Characters_BaseUseable_o *__this,MethodInfo *method)
 
@@ -235,7 +233,7 @@ void Characters_BaseUseable__Activate(Characters_BaseUseable_o *__this,MethodInf
 
 // Characters.BaseUseable$$Deactivate
 // il2cpp: void Characters_BaseUseable__Deactivate (Characters_BaseUseable_o* __this, const MethodInfo* method);
-// 0x3f9c640
+// 0x42a8ee0
 
 void Characters_BaseUseable__Deactivate(Characters_BaseUseable_o *__this,MethodInfo *method)
 
@@ -246,11 +244,10 @@ void Characters_BaseUseable__Deactivate(Characters_BaseUseable_o *__this,MethodI
 
 // Characters.BaseUseable$$ReadInput
 // il2cpp: void Characters_BaseUseable__ReadInput (Characters_BaseUseable_o* __this, Settings_KeybindSetting_o* keybind, const MethodInfo* method);
-// 0x3f9c650
+// 0x42a8ef0
 
 void Characters_BaseUseable__ReadInput
-               (Characters_BaseUseable_o *__this,Settings_KeybindSetting_o *keybind,
-               MethodInfo *method)
+               (Characters_BaseUseable_o *__this,Settings_KeybindSetting_o *keybind,MethodInfo *method)
 
 {
   return;
@@ -259,10 +256,9 @@ void Characters_BaseUseable__ReadInput
 
 // Characters.BaseUseable$$SetInput
 // il2cpp: void Characters_BaseUseable__SetInput (Characters_BaseUseable_o* __this, bool key, const MethodInfo* method);
-// 0x3f9c660
+// 0x42a8f00
 
-void Characters_BaseUseable__SetInput
-               (Characters_BaseUseable_o *__this,bool_conflict key,MethodInfo *method)
+void Characters_BaseUseable__SetInput(Characters_BaseUseable_o *__this,bool_conflict key,MethodInfo *method)
 
 {
   return;
@@ -271,7 +267,7 @@ void Characters_BaseUseable__SetInput
 
 // Characters.BaseUseable$$OnFixedUpdate
 // il2cpp: void Characters_BaseUseable__OnFixedUpdate (Characters_BaseUseable_o* __this, const MethodInfo* method);
-// 0x3f9c670
+// 0x42a8f10
 
 void Characters_BaseUseable__OnFixedUpdate(Characters_BaseUseable_o *__this,MethodInfo *method)
 

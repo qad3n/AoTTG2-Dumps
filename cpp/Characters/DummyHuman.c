@@ -1,36 +1,37 @@
 // Type: Characters.DummyHuman
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/DummyHuman.cs
-// Prior real C# source (REFERENCE, outdated): Assets/Scripts/Characters/Human/DummyHuman.cs  [CHANGED since prior version]
+// Prior real C# source (older reference): Assets/Scripts/Characters/Human/DummyHuman.cs
 // --------------------------------
 
 // Characters.DummyHuman.<>c$$.cctor
 // il2cpp: void Characters_DummyHuman___c___cctor (const MethodInfo* method);
-// 0x3fa1bf0
+// 0x42ae490
 
-void Characters_DummyHuman_<>c___cctor(MethodInfo *method)
+void Characters_DummyHuman___c___cctor(MethodInfo *method)
 
 {
   Il2CppObject *__this;
   
-  if (DAT_05704035 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_c);
-    DAT_05704035 = '\x01';
+  if (g_data_057adda3 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
+    g_data_057adda3 = '\x01';
   }
-  __this = (Il2CppObject *)il2cpp_runtime_glue(TypeInfo_c);
+  __this = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c);
   System_Object___ctor(__this,(MethodInfo *)0x0);
   **(undefined8 **)(TypeInfo_c + 0xb8) = __this;
-  il2cpp_runtime_glue(*(undefined8 *)(TypeInfo_c + 0xb8),__this);
+  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_c + 0xb8),__this);
   return;
 }
 
 
 // Characters.DummyHuman.<>c$$.ctor
 // il2cpp: void Characters_DummyHuman___c___ctor (Characters_DummyHuman___c_o* __this, const MethodInfo* method);
-// 0x3fa1c60
+// 0x42ae500
 
-void Characters_DummyHuman_<>c___ctor(Characters_DummyHuman___c_o *__this,MethodInfo *method)
+void Characters_DummyHuman___c___ctor(Characters_DummyHuman___c_o *__this,MethodInfo *method)
 
 {
   System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
@@ -40,18 +41,18 @@ void Characters_DummyHuman_<>c___ctor(Characters_DummyHuman___c_o *__this,Method
 
 // Characters.DummyHuman.<>c$$<LoadSkinCoroutine>b__9_0
 // il2cpp: bool Characters_DummyHuman___c___LoadSkinCoroutine_b__9_0 (Characters_DummyHuman___c_o* __this, System_String_o* url, const MethodInfo* method);
-// 0x3fa1c70
+// 0x42ae510
 
 bool_conflict
-Characters_DummyHuman_<>c__<LoadSkinCoroutine>b__9_0
+Characters_DummyHuman___c___LoadSkinCoroutine_b__9_0
           (Characters_DummyHuman___c_o *__this,System_String_o *url,MethodInfo *method)
 
 {
   bool_conflict bVar1;
   
-  if (DAT_05704036 == '\0') {
-    il2cpp_init_method_metadata(&"1");
-    DAT_05704036 = '\x01';
+  if (g_data_057adda4 == '\0') {
+    il2cpp_runtime_helper_023445d0(&"1");
+    g_data_057adda4 = '\x01';
   }
   bVar1 = System_String__IsNullOrEmpty(url,(MethodInfo *)0x0);
   if ((char)bVar1 != '\0') {
@@ -64,11 +65,10 @@ Characters_DummyHuman_<>c__<LoadSkinCoroutine>b__9_0
 
 // Characters.DummyHuman.<LoadSkinCoroutine>d__9$$.ctor
 // il2cpp: void Characters_DummyHuman__LoadSkinCoroutine_d__9___ctor (Characters_DummyHuman__LoadSkinCoroutine_d__9_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x3fa1ae0
+// 0x42ae380
 
-void Characters_DummyHuman_<LoadSkinCoroutine>d__9___ctor
-               (Characters_DummyHuman__LoadSkinCoroutine_d__9_o *__this,int32_t __1__state,
-               MethodInfo *method)
+void Characters_DummyHuman__LoadSkinCoroutine_d__9___ctor
+               (Characters_DummyHuman__LoadSkinCoroutine_d__9_o *__this,int32_t __1__state,MethodInfo *method)
 
 {
   System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
@@ -79,9 +79,9 @@ void Characters_DummyHuman_<LoadSkinCoroutine>d__9___ctor
 
 // Characters.DummyHuman.<LoadSkinCoroutine>d__9$$System.IDisposable.Dispose
 // il2cpp: void Characters_DummyHuman__LoadSkinCoroutine_d__9__System_IDisposable_Dispose (Characters_DummyHuman__LoadSkinCoroutine_d__9_o* __this, const MethodInfo* method);
-// 0x3fa1cc0
+// 0x42ae560
 
-void Characters_DummyHuman_<LoadSkinCoroutine>d__9__System_IDisposable_Dispose
+void Characters_DummyHuman__LoadSkinCoroutine_d__9__System_IDisposable_Dispose
                (Characters_DummyHuman__LoadSkinCoroutine_d__9_o *__this,MethodInfo *method)
 
 {
@@ -91,44 +91,42 @@ void Characters_DummyHuman_<LoadSkinCoroutine>d__9__System_IDisposable_Dispose
 
 // Characters.DummyHuman.<LoadSkinCoroutine>d__9$$MoveNext
 // il2cpp: bool Characters_DummyHuman__LoadSkinCoroutine_d__9__MoveNext (Characters_DummyHuman__LoadSkinCoroutine_d__9_o* __this, const MethodInfo* method);
-// 0x3fa1cd0
-
-/* WARNING: Type propagation algorithm not settling */
+// 0x42ae570
 
 bool_conflict
-Characters_DummyHuman_<LoadSkinCoroutine>d__9__MoveNext
+Characters_DummyHuman__LoadSkinCoroutine_d__9__MoveNext
           (Characters_DummyHuman__LoadSkinCoroutine_d__9_o *__this,MethodInfo *method)
 
 {
   CustomSkins_HumanCustomSkinLoader_o **ppCVar1;
   il2cpp_array_size_t *piVar2;
-  char cVar3;
-  byte bVar4;
-  int iVar5;
-  Characters_DummyHuman_o *pCVar6;
-  Characters_HumanSetup_o *pCVar7;
-  Settings_StringSetting_o *pSVar8;
-  System_String_o *pSVar9;
-  Settings_FloatSetting_o *pSVar10;
-  Characters_DummyHuman__LoadSkinCoroutine_d__9_o *pCVar11;
-  bool_conflict bVar12;
-  UnityEngine_GameObject_o *pUVar13;
-  CustomSkins_HumanCustomSkinLoader_o *pCVar14;
+  byte bVar3;
+  int iVar4;
+  Characters_DummyHuman_o *pCVar5;
+  Settings_StringSetting_o *pSVar6;
+  System_String_o *pSVar7;
+  Settings_FloatSetting_o *pSVar8;
+  Characters_DummyHuman__LoadSkinCoroutine_d__9_o *pCVar9;
+  char cVar10;
+  bool_conflict bVar11;
+  UnityEngine_GameObject_o *pUVar12;
+  CustomSkins_HumanCustomSkinLoader_o *pCVar13;
   UnityEngine_Object_o *__this_00;
-  System_String_o *pSVar15;
-  undefined8 *puVar16;
+  System_String_o *pSVar14;
   System_Collections_Generic_List_object__o *__this_01;
-  Il2CppObject *pIVar17;
+  Il2CppObject *pIVar15;
   System_String_array *value;
-  System_Func_TSource__bool__o *predicate;
-  long *plVar18;
-  long lVar19;
+  long *plVar16;
+  Characters_HumanSetup_o *pCVar17;
+  long lVar18;
   System_Collections_IEnumerator_o *routine;
-  UnityEngine_Coroutine_o *pUVar20;
-  undefined8 uVar21;
-  undefined8 unaff_RBX;
+  UnityEngine_Coroutine_o *pUVar19;
+  undefined8 uVar20;
+  undefined8 *puVar21;
+  Characters_HumanSetup_o *unaff_RBX;
   long lVar22;
   float fVar23;
+  undefined1 auVar24 [12];
   Settings_HumanCustomSet_o *pSStack_70;
   ulong uStack_68;
   Il2CppObject *pIStack_60;
@@ -138,1226 +136,1251 @@ Characters_DummyHuman_<LoadSkinCoroutine>d__9__MoveNext
   CustomSkins_HumanCustomSkinLoader_o **ppCStack_40;
   Characters_DummyHuman__LoadSkinCoroutine_d__9_o *pCStack_38;
   
-  if (DAT_05704037 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_Debug);
-    il2cpp_init_method_metadata(&MethodInfo_Boolean_Any_String);
-    il2cpp_init_method_metadata(&TypeInfo_Func_string__bool);
-    il2cpp_init_method_metadata(&MethodInfo_HumanCustomSkinLoader_AddComponent_HumanCustomSk);
-    il2cpp_init_method_metadata(&TypeInfo_HumanCustomSkinSet);
-    il2cpp_init_method_metadata(&TypeInfo_IListSetting);
-    il2cpp_init_method_metadata(&MethodInfo_Int32_get_Count);
-    il2cpp_init_method_metadata(&MethodInfo_BaseSetting_get_Item);
-    il2cpp_init_method_metadata(&TypeInfo_object);
-    il2cpp_init_method_metadata(&TypeInfo_Object);
-    il2cpp_init_method_metadata(&MethodInfo_IListSetting_GetSets);
-    il2cpp_init_method_metadata(&TypeInfo_SettingsManager);
-    il2cpp_init_method_metadata(&TypeInfo_string);
-    il2cpp_init_method_metadata(&MethodInfo_Boolean_get_Value);
-    il2cpp_init_method_metadata(&MethodInfo_String_get_Value);
-    il2cpp_init_method_metadata(&MethodInfo_Single_get_Value);
-    il2cpp_init_method_metadata(&MethodInfo_Int32_get_Value);
-    il2cpp_init_method_metadata(&MethodInfo_Boolean__LoadSkinCoroutine_b__9_0);
-    il2cpp_init_method_metadata(&TypeInfo_c);
-    il2cpp_init_method_metadata(&",");
-    il2cpp_init_method_metadata(&"");
-    il2cpp_init_method_metadata(&"HumanSetup not ready for skin loading on ");
-    DAT_05704037 = '\x01';
+  if (g_data_057adda5 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Debug);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Any_String);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_string_bool);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_HumanCustomSkinLoader_AddComponent_HumanCustomSkinLoader);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanCustomSkinSet);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_IListSetting);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseSetting_get_Item);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_object);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_IListSetting_GetSets);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_Value);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Value);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_get_Value);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_LoadSkinCoroutine_b__9_0);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
+    il2cpp_runtime_helper_023445d0(&",");
+    il2cpp_runtime_helper_023445d0(&"");
+    il2cpp_runtime_helper_023445d0(&"HumanSetup not ready for skin loading on ");
+    g_data_057adda5 = '\x01';
   }
   uStack_68 = 0;
   pIStack_60 = (Il2CppObject *)0x0;
   pSStack_70 = (Settings_HumanCustomSet_o *)0x0;
   fStack_54 = 0.0;
-  iVar5 = (__this->fields).__1__state;
-  if (iVar5 == 2) {
+  iVar4 = (__this->fields).__1__state;
+  if (iVar4 == 2) {
     (__this->fields).__1__state = -1;
     return 0;
   }
-  pCVar6 = (__this->fields).__4__this;
-  if (iVar5 != 1) {
-    if (iVar5 != 0) {
+  pCVar5 = (__this->fields).__4__this;
+  if (iVar4 == 1) {
+    (__this->fields).__1__state = -1;
+    il2cpp_runtime_helper_022b2a40(TypeInfo_string);
+    if (pCVar5 != (Characters_DummyHuman_o *)0x0) {
+      unaff_RBX = (Characters_HumanSetup_o *)(pCVar5->fields)._customSkinLoader;
+      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
+        il2cpp_runtime_helper_02337ed0();
+      }
+      ppCVar1 = &(pCVar5->fields)._customSkinLoader;
+      bVar11 = UnityEngine_Object__op_Equality
+                         ((UnityEngine_Object_o *)unaff_RBX,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if ((char)bVar11 != '\0') {
+        pUVar12 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pCVar5,(MethodInfo *)0x0);
+        if (pUVar12 == (UnityEngine_GameObject_o *)0x0) goto label_042b0a8b;
+        pCVar13 = (CustomSkins_HumanCustomSkinLoader_o *)
+                  UnityEngine_GameObject__AddComponent_object_(pUVar12,MethodInfo_HumanCustomSkinLoader_AddComponent_HumanCustomSkinLoader);
+        *ppCVar1 = pCVar13;
+        il2cpp_runtime_helper_022b4080(ppCVar1);
+      }
+      unaff_RBX = (pCVar5->fields).Setup;
+      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
+        il2cpp_runtime_helper_02337ed0();
+      }
+      bVar11 = UnityEngine_Object__op_Equality
+                         ((UnityEngine_Object_o *)unaff_RBX,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if ((char)bVar11 == '\0') {
+        lVar18 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x10);
+        pCStack_50 = pCVar5;
+        ppCStack_40 = ppCVar1;
+        pCStack_38 = __this;
+        if (lVar18 == 0) {
+          il2cpp_runtime_helper_022b2c90();
+label_042aff8f:
+          il2cpp_runtime_helper_022b2c90();
+label_042aff94:
+          il2cpp_runtime_helper_022b2c90();
+label_042aff99:
+          il2cpp_runtime_helper_022b2c90();
+label_042aff9e:
+          il2cpp_runtime_helper_022b2c90();
+label_042affa3:
+          il2cpp_runtime_helper_022b2ca0();
+label_042affa8:
+          il2cpp_runtime_helper_022b2ca0();
+label_042affad:
+          il2cpp_runtime_helper_022b2ca0();
+label_042affb2:
+          il2cpp_runtime_helper_022b2ca0();
+label_042affb7:
+          il2cpp_runtime_helper_022b2ca0();
+label_042affbc:
+          il2cpp_runtime_helper_022b2ca0();
+label_042affc1:
+          il2cpp_runtime_helper_022b2ca0();
+label_042affc6:
+          il2cpp_runtime_helper_022b2ca0();
+label_042affcb:
+          il2cpp_runtime_helper_022b2ca0();
+label_042affd0:
+          il2cpp_runtime_helper_022b2ca0();
+label_042affd5:
+          il2cpp_runtime_helper_022b2ca0();
+label_042affda:
+          il2cpp_runtime_helper_022b2ca0();
+label_042affdf:
+          il2cpp_runtime_helper_022b2ca0();
+label_042affe4:
+          il2cpp_runtime_helper_022b2ca0();
+label_042affe9:
+          il2cpp_runtime_helper_022b2ca0();
+label_042affee:
+          il2cpp_runtime_helper_022b2ca0();
+label_042afff3:
+          il2cpp_runtime_helper_022b2ca0();
+label_042afff8:
+          il2cpp_runtime_helper_022b2ca0();
+label_042afffd:
+          il2cpp_runtime_helper_022b2ca0();
+label_042b0002:
+          il2cpp_runtime_helper_022b2ca0();
+label_042b0007:
+          il2cpp_runtime_helper_022b2ca0();
+        }
+        else {
+          lVar18 = *(long *)(lVar18 + 0x20);
+          if (lVar18 == 0) goto label_042aff8f;
+          if (*(long *)(lVar18 + 0x60) == 0) goto label_042aff94;
+          uStack_68 = CONCAT71(uStack_68._1_7_,*(undefined1 *)(*(long *)(lVar18 + 0x60) + 0x11));
+          if (*(long *)(lVar18 + 0x58) == 0) goto label_042aff99;
+          cVar10 = *(char *)(*(long *)(lVar18 + 0x58) + 0x11);
+          pCVar17 = (pCVar5->fields).Setup;
+          if (pCVar17 == (Characters_HumanSetup_o *)0x0) {
+            pSStack_70 = (Settings_HumanCustomSet_o *)0x0;
+          }
+          else {
+            pSStack_70 = (pCVar17->fields).CustomSet;
+          }
+          il2cpp_runtime_helper_022b4080(&pSStack_70);
+          pIStack_60 = (Il2CppObject *)0x0;
+          il2cpp_runtime_helper_022b4080(&pIStack_60,0);
+          if ((uStack_68 & 1) != 0) {
+            lVar18 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x10);
+            if (lVar18 == 0) goto label_042b00fc;
+            lVar18 = *(long *)(lVar18 + 0x20);
+            if (lVar18 == 0) goto label_042b0101;
+            if (*(long *)(lVar18 + 0x78) == 0) goto label_042b0106;
+            plVar16 = *(long **)(lVar18 + 0x28);
+            if (plVar16 == (long *)0x0) goto label_042b010b;
+            iVar4 = *(int *)(*(long *)(lVar18 + 0x78) + 0x14);
+            lVar18 = *plVar16;
+            if ((ulong)*(ushort *)(lVar18 + 0x12e) != 0) {
+              lVar22 = 0;
+              do {
+                if (*(long *)(*(long *)(lVar18 + 0xb0) + lVar22) == TypeInfo_IListSetting) {
+                  puVar21 = (undefined8 *)
+                            ((long)(*(int *)(*(long *)(lVar18 + 0xb0) + 8 + lVar22) + 2) * 0x10 + lVar18 +
+                            0x138);
+                  goto label_042ae979;
+                }
+                lVar22 = lVar22 + 0x10;
+              } while ((ulong)*(ushort *)(lVar18 + 0x12e) << 4 != lVar22);
+            }
+            puVar21 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar16,TypeInfo_IListSetting,2);
+label_042ae979:
+            __this_01 = (System_Collections_Generic_List_object__o *)(*(code *)*puVar21)(plVar16,puVar21[1]);
+            if (-1 < iVar4) {
+              if (__this_01 == (System_Collections_Generic_List_object__o *)0x0) goto label_042b0110;
+              if (iVar4 < (__this_01->fields)._size) {
+                pIVar15 = System_Collections_Generic_List_object___get_Item(__this_01,iVar4,MethodInfo_BaseSetting_get_Item);
+                if (pIVar15 == (Il2CppObject *)0x0) {
+label_042aea0d:
+                  pIStack_60 = (Il2CppObject *)0x0;
+                }
+                else {
+                  bVar3 = (TypeInfo_HumanCustomSkinSet->_2).naturalAligment;
+                  if ((pIVar15->klass->_2).naturalAligment < bVar3) goto label_042b0115;
+                  if ((pIVar15->klass->_2).typeHierarchy[(ulong)bVar3 - 1] != TypeInfo_HumanCustomSkinSet) goto label_042b0115;
+                  pIStack_60 = pIVar15;
+                  if (((pIVar15->klass->_2).naturalAligment < bVar3) ||
+                     ((pIVar15->klass->_2).typeHierarchy[(ulong)bVar3 - 1] != TypeInfo_HumanCustomSkinSet)) {
+                    pIVar15 = (Il2CppObject *)il2cpp_runtime_helper_022b2fd0(pIVar15);
+                    goto label_042aea0d;
+                  }
+                }
+                il2cpp_runtime_helper_022b4080(&pIStack_60,pIVar15);
+              }
+            }
+          }
+          value = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            pSVar14 = (System_String_o *)0x0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042aea59;
+label_042aeab9:
+            if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
+label_042aeacb:
+              bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
+              if ((char)bVar11 == '\0') goto label_042aeaf1;
+            }
+label_042aead9:
+            pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          }
+          else {
+            if (pIStack_60[9].monitor == (void *)0x0) goto label_042b0020;
+            pSVar14 = *(System_String_o **)((long)pIStack_60[9].monitor + 0x18);
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042aeab9;
+label_042aea59:
+            pSVar6 = (pSStack_70->fields).SkinHorse;
+            if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_042b0025;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto label_042aead9;
+              goto label_042aeacb;
+            }
+            pSVar7 = (pSVar6->fields)._value;
+            if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
+                (bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0), (char)bVar11 != '\0')) &&
+               (bVar11 = System_String__IsNullOrEmpty(pSVar7,(MethodInfo *)0x0), pSVar14 = pSVar7,
+               (char)bVar11 != '\0')) goto label_042aead9;
+          }
+label_042aeaf1:
+          if (value == (System_String_array *)0x0) goto label_042aff9e;
+          if ((int)value->max_length == 0) goto label_042affa3;
+          value->m_Items[0] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            pSVar14 = (System_String_o *)0x0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042aeb3d;
+label_042aeb9d:
+            if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
+label_042aebaf:
+              bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
+              if ((char)bVar11 == '\0') goto label_042aebd5;
+            }
+label_042aebbd:
+            pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          }
+          else {
+            if (pIStack_60[3].monitor == (void *)0x0) goto label_042b002a;
+            pSVar14 = *(System_String_o **)((long)pIStack_60[3].monitor + 0x18);
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042aeb9d;
+label_042aeb3d:
+            pSVar6 = (pSStack_70->fields).SkinHair;
+            if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_042b002f;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto label_042aebbd;
+              goto label_042aebaf;
+            }
+            pSVar7 = (pSVar6->fields)._value;
+            if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
+                (bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0), (char)bVar11 != '\0')) &&
+               (bVar11 = System_String__IsNullOrEmpty(pSVar7,(MethodInfo *)0x0), pSVar14 = pSVar7,
+               (char)bVar11 != '\0')) goto label_042aebbd;
+          }
+label_042aebd5:
+          piVar2 = &value->max_length;
+          if ((uint)*piVar2 < 2) goto label_042affa8;
+          value->m_Items[1] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items + 1);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            pSVar14 = (System_String_o *)0x0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042aec1b;
+label_042aec7b:
+            if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
+label_042aec8d:
+              bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
+              if ((char)bVar11 == '\0') goto label_042aecb3;
+            }
+label_042aec9b:
+            pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          }
+          else {
+            if (pIStack_60[4].klass == (Il2CppClass *)0x0) goto label_042b0034;
+            pSVar14 = (System_String_o *)((pIStack_60[4].klass)->_1).namespaze;
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042aec7b;
+label_042aec1b:
+            pSVar6 = (pSStack_70->fields).SkinEye;
+            if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_042b0039;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto label_042aec9b;
+              goto label_042aec8d;
+            }
+            pSVar7 = (pSVar6->fields)._value;
+            if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
+                (bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0), (char)bVar11 != '\0')) &&
+               (bVar11 = System_String__IsNullOrEmpty(pSVar7,(MethodInfo *)0x0), pSVar14 = pSVar7,
+               (char)bVar11 != '\0')) goto label_042aec9b;
+          }
+label_042aecb3:
+          if ((uint)*piVar2 < 3) goto label_042affad;
+          value->m_Items[2] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items + 2);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            pSVar14 = (System_String_o *)0x0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042aecf4;
+label_042aed54:
+            if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
+label_042aed66:
+              bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
+              if ((char)bVar11 == '\0') goto label_042aed8c;
+            }
+label_042aed74:
+            pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          }
+          else {
+            if (pIStack_60[4].monitor == (void *)0x0) goto label_042b003e;
+            pSVar14 = *(System_String_o **)((long)pIStack_60[4].monitor + 0x18);
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042aed54;
+label_042aecf4:
+            pSVar6 = (pSStack_70->fields).SkinGlass;
+            if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_042b0043;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto label_042aed74;
+              goto label_042aed66;
+            }
+            pSVar7 = (pSVar6->fields)._value;
+            if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
+                (bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0), (char)bVar11 != '\0')) &&
+               (bVar11 = System_String__IsNullOrEmpty(pSVar7,(MethodInfo *)0x0), pSVar14 = pSVar7,
+               (char)bVar11 != '\0')) goto label_042aed74;
+          }
+label_042aed8c:
+          if ((uint)*piVar2 < 4) goto label_042affb2;
+          value->m_Items[3] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items + 3);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            pSVar14 = (System_String_o *)0x0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042aedcd;
+label_042aee2d:
+            if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
+label_042aee3f:
+              bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
+              if ((char)bVar11 == '\0') goto label_042aee65;
+            }
+label_042aee4d:
+            pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          }
+          else {
+            if (pIStack_60[5].klass == (Il2CppClass *)0x0) goto label_042b0048;
+            pSVar14 = (System_String_o *)((pIStack_60[5].klass)->_1).namespaze;
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042aee2d;
+label_042aedcd:
+            pSVar6 = (pSStack_70->fields).SkinFace;
+            if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_042b004d;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto label_042aee4d;
+              goto label_042aee3f;
+            }
+            pSVar7 = (pSVar6->fields)._value;
+            if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
+                (bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0), (char)bVar11 != '\0')) &&
+               (bVar11 = System_String__IsNullOrEmpty(pSVar7,(MethodInfo *)0x0), pSVar14 = pSVar7,
+               (char)bVar11 != '\0')) goto label_042aee4d;
+          }
+label_042aee65:
+          if ((uint)*piVar2 < 5) goto label_042affb7;
+          value->m_Items[4] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items + 4);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            pSVar14 = (System_String_o *)0x0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042aeea6;
+label_042aef06:
+            if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
+label_042aef18:
+              bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
+              if ((char)bVar11 == '\0') goto label_042aef3e;
+            }
+label_042aef26:
+            pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          }
+          else {
+            if (pIStack_60[5].monitor == (void *)0x0) goto label_042b0052;
+            pSVar14 = *(System_String_o **)((long)pIStack_60[5].monitor + 0x18);
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042aef06;
+label_042aeea6:
+            pSVar6 = (pSStack_70->fields).SkinSkin;
+            if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_042b0057;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto label_042aef26;
+              goto label_042aef18;
+            }
+            pSVar7 = (pSVar6->fields)._value;
+            if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
+                (bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0), (char)bVar11 != '\0')) &&
+               (bVar11 = System_String__IsNullOrEmpty(pSVar7,(MethodInfo *)0x0), pSVar14 = pSVar7,
+               (char)bVar11 != '\0')) goto label_042aef26;
+          }
+label_042aef3e:
+          if ((uint)*piVar2 < 6) goto label_042affbc;
+          value->m_Items[5] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items + 5);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            pSVar14 = (System_String_o *)0x0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042aef7f;
+label_042aefdf:
+            if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
+label_042aeff1:
+              bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
+              if ((char)bVar11 == '\0') goto label_042af017;
+            }
+label_042aefff:
+            pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          }
+          else {
+            if (pIStack_60[6].klass == (Il2CppClass *)0x0) goto label_042b005c;
+            pSVar14 = (System_String_o *)((pIStack_60[6].klass)->_1).namespaze;
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042aefdf;
+label_042aef7f:
+            pSVar6 = (pSStack_70->fields).SkinCostume;
+            if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_042b0061;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto label_042aefff;
+              goto label_042aeff1;
+            }
+            pSVar7 = (pSVar6->fields)._value;
+            if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
+                (bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0), (char)bVar11 != '\0')) &&
+               (bVar11 = System_String__IsNullOrEmpty(pSVar7,(MethodInfo *)0x0), pSVar14 = pSVar7,
+               (char)bVar11 != '\0')) goto label_042aefff;
+          }
+label_042af017:
+          if ((uint)*piVar2 < 7) goto label_042affc1;
+          value->m_Items[6] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items + 6);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            pSVar14 = (System_String_o *)0x0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042af058;
+label_042af0b8:
+            if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
+label_042af0ca:
+              bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
+              if ((char)bVar11 == '\0') goto label_042af0f0;
+            }
+label_042af0d8:
+            pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          }
+          else {
+            if (pIStack_60[6].monitor == (void *)0x0) goto label_042b0066;
+            pSVar14 = *(System_String_o **)((long)pIStack_60[6].monitor + 0x18);
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042af0b8;
+label_042af058:
+            pSVar6 = (pSStack_70->fields).SkinLogo;
+            if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_042b006b;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto label_042af0d8;
+              goto label_042af0ca;
+            }
+            pSVar7 = (pSVar6->fields)._value;
+            if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
+                (bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0), (char)bVar11 != '\0')) &&
+               (bVar11 = System_String__IsNullOrEmpty(pSVar7,(MethodInfo *)0x0), pSVar14 = pSVar7,
+               (char)bVar11 != '\0')) goto label_042af0d8;
+          }
+label_042af0f0:
+          if ((uint)*piVar2 < 8) goto label_042affc6;
+          value->m_Items[7] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items + 7);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            pSVar14 = (System_String_o *)0x0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042af131;
+label_042af191:
+            if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
+label_042af1a3:
+              bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
+              if ((char)bVar11 == '\0') goto label_042af1c9;
+            }
+label_042af1b1:
+            pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          }
+          else {
+            if (pIStack_60[7].klass == (Il2CppClass *)0x0) goto label_042b0070;
+            pSVar14 = (System_String_o *)((pIStack_60[7].klass)->_1).namespaze;
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042af191;
+label_042af131:
+            pSVar6 = (pSStack_70->fields).SkinGearL;
+            if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_042b0075;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto label_042af1b1;
+              goto label_042af1a3;
+            }
+            pSVar7 = (pSVar6->fields)._value;
+            if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
+                (bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0), (char)bVar11 != '\0')) &&
+               (bVar11 = System_String__IsNullOrEmpty(pSVar7,(MethodInfo *)0x0), pSVar14 = pSVar7,
+               (char)bVar11 != '\0')) goto label_042af1b1;
+          }
+label_042af1c9:
+          if ((uint)*piVar2 < 9) goto label_042affcb;
+          value->m_Items[8] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items + 8);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            pSVar14 = (System_String_o *)0x0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042af20a;
+label_042af26a:
+            if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
+label_042af27c:
+              bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
+              if ((char)bVar11 == '\0') goto label_042af2a2;
+            }
+label_042af28a:
+            pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          }
+          else {
+            if (pIStack_60[7].monitor == (void *)0x0) goto label_042b007a;
+            pSVar14 = *(System_String_o **)((long)pIStack_60[7].monitor + 0x18);
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042af26a;
+label_042af20a:
+            pSVar6 = (pSStack_70->fields).SkinGearR;
+            if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_042b007f;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto label_042af28a;
+              goto label_042af27c;
+            }
+            pSVar7 = (pSVar6->fields)._value;
+            if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
+                (bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0), (char)bVar11 != '\0')) &&
+               (bVar11 = System_String__IsNullOrEmpty(pSVar7,(MethodInfo *)0x0), pSVar14 = pSVar7,
+               (char)bVar11 != '\0')) goto label_042af28a;
+          }
+label_042af2a2:
+          if ((uint)*piVar2 < 10) goto label_042affd0;
+          value->m_Items[9] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items + 9);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            pSVar14 = (System_String_o *)0x0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042af2e6;
+label_042af346:
+            if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
+label_042af358:
+              bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
+              if ((char)bVar11 == '\0') goto label_042af37e;
+            }
+label_042af366:
+            pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          }
+          else {
+            if (pIStack_60[8].klass == (Il2CppClass *)0x0) goto label_042b0084;
+            pSVar14 = (System_String_o *)((pIStack_60[8].klass)->_1).namespaze;
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042af346;
+label_042af2e6:
+            pSVar6 = (pSStack_70->fields).SkinGas;
+            if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_042b0089;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto label_042af366;
+              goto label_042af358;
+            }
+            pSVar7 = (pSVar6->fields)._value;
+            if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
+                (bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0), (char)bVar11 != '\0')) &&
+               (bVar11 = System_String__IsNullOrEmpty(pSVar7,(MethodInfo *)0x0), pSVar14 = pSVar7,
+               (char)bVar11 != '\0')) goto label_042af366;
+          }
+label_042af37e:
+          if ((uint)*piVar2 < 0xb) goto label_042affd5;
+          value->m_Items[10] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items + 10);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            pSVar14 = (System_String_o *)0x0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042af3c2;
+label_042af422:
+            if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
+label_042af434:
+              bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
+              if ((char)bVar11 == '\0') goto label_042af45a;
+            }
+label_042af442:
+            pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          }
+          else {
+            if (pIStack_60[8].monitor == (void *)0x0) goto label_042b008e;
+            pSVar14 = *(System_String_o **)((long)pIStack_60[8].monitor + 0x18);
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042af422;
+label_042af3c2:
+            pSVar6 = (pSStack_70->fields).SkinHoodie;
+            if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_042b0093;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto label_042af442;
+              goto label_042af434;
+            }
+            pSVar7 = (pSVar6->fields)._value;
+            if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
+                (bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0), (char)bVar11 != '\0')) &&
+               (bVar11 = System_String__IsNullOrEmpty(pSVar7,(MethodInfo *)0x0), pSVar14 = pSVar7,
+               (char)bVar11 != '\0')) goto label_042af442;
+          }
+label_042af45a:
+          if ((uint)*piVar2 < 0xc) goto label_042affda;
+          value->m_Items[0xb] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items + 0xb);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            pSVar14 = (System_String_o *)0x0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042af49e;
+label_042af4fe:
+            if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
+label_042af510:
+              bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
+              if ((char)bVar11 == '\0') goto label_042af536;
+            }
+label_042af51e:
+            pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          }
+          else {
+            if (pIStack_60[9].klass == (Il2CppClass *)0x0) goto label_042b0098;
+            pSVar14 = (System_String_o *)((pIStack_60[9].klass)->_1).namespaze;
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042af4fe;
+label_042af49e:
+            pSVar6 = (pSStack_70->fields).SkinWeaponTrail;
+            if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_042b009d;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto label_042af51e;
+              goto label_042af510;
+            }
+            pSVar7 = (pSVar6->fields)._value;
+            if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
+                (bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0), (char)bVar11 != '\0')) &&
+               (bVar11 = System_String__IsNullOrEmpty(pSVar7,(MethodInfo *)0x0), pSVar14 = pSVar7,
+               (char)bVar11 != '\0')) goto label_042af51e;
+          }
+label_042af536:
+          if ((uint)*piVar2 < 0xd) goto label_042affdf;
+          value->m_Items[0xc] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items + 0xc);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            pSVar14 = (System_String_o *)0x0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042af580;
+label_042af5e0:
+            if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
+label_042af5f2:
+              bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
+              if ((char)bVar11 == '\0') goto label_042af618;
+            }
+label_042af600:
+            pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          }
+          else {
+            if (pIStack_60[10].klass == (Il2CppClass *)0x0) goto label_042b00a2;
+            pSVar14 = (System_String_o *)((pIStack_60[10].klass)->_1).namespaze;
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042af5e0;
+label_042af580:
+            pSVar6 = (pSStack_70->fields).SkinThunderspearL;
+            if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_042b00a7;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto label_042af600;
+              goto label_042af5f2;
+            }
+            pSVar7 = (pSVar6->fields)._value;
+            if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
+                (bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0), (char)bVar11 != '\0')) &&
+               (bVar11 = System_String__IsNullOrEmpty(pSVar7,(MethodInfo *)0x0), pSVar14 = pSVar7,
+               (char)bVar11 != '\0')) goto label_042af600;
+          }
+label_042af618:
+          if ((uint)*piVar2 < 0xe) goto label_042affe4;
+          value->m_Items[0xd] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items + 0xd);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            pSVar14 = (System_String_o *)0x0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042af662;
+label_042af6c2:
+            if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
+label_042af6d4:
+              bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
+              if ((char)bVar11 == '\0') goto label_042af6fa;
+            }
+label_042af6e2:
+            pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          }
+          else {
+            if (pIStack_60[10].monitor == (void *)0x0) goto label_042b00ac;
+            pSVar14 = *(System_String_o **)((long)pIStack_60[10].monitor + 0x18);
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042af6c2;
+label_042af662:
+            pSVar6 = (pSStack_70->fields).SkinThunderspearR;
+            if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_042b00b1;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto label_042af6e2;
+              goto label_042af6d4;
+            }
+            pSVar7 = (pSVar6->fields)._value;
+            if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
+                (bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0), (char)bVar11 != '\0')) &&
+               (bVar11 = System_String__IsNullOrEmpty(pSVar7,(MethodInfo *)0x0), pSVar14 = pSVar7,
+               (char)bVar11 != '\0')) goto label_042af6e2;
+          }
+label_042af6fa:
+          if ((uint)*piVar2 < 0xf) goto label_042affe9;
+          value->m_Items[0xe] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items + 0xe,pSVar14);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            fVar23 = 1.0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042af745;
+label_042af78d:
+            if ((pIStack_60 == (Il2CppObject *)0x0) || ((char)uStack_68 == '\0')) {
+label_042af79f:
+              fVar23 = 1.0;
+            }
+          }
+          else {
+            if (pIStack_60[0xb].monitor == (void *)0x0) goto label_042b00b6;
+            fVar23 = *(float *)((long)pIStack_60[0xb].monitor + 0x14);
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042af78d;
+label_042af745:
+            pSVar8 = (pSStack_70->fields).SkinHookLTiling;
+            if (pSVar8 == (Settings_FloatSetting_o *)0x0) goto label_042b00bb;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 != '\0' && pIStack_60 != (Il2CppObject *)0x0) goto label_042af7a7;
+              goto label_042af79f;
+            }
+            if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) {
+              fVar23 = (pSVar8->fields)._value;
+            }
+          }
+label_042af7a7:
+          fStack_54 = fVar23;
+          pSVar14 = System_Single__ToString(fVar23,(MethodInfo *)&fStack_54);
+          if ((uint)*piVar2 < 0x10) goto label_042affee;
+          value->m_Items[0xf] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items + 0xf);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            pSVar14 = (System_String_o *)0x0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042af803;
+label_042af863:
+            if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
+label_042af875:
+              bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
+              if ((char)bVar11 == '\0') goto label_042af89b;
+            }
+label_042af883:
+            pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          }
+          else {
+            if (pIStack_60[0xb].klass == (Il2CppClass *)0x0) goto label_042b00c0;
+            pSVar14 = (System_String_o *)((pIStack_60[0xb].klass)->_1).namespaze;
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042af863;
+label_042af803:
+            pSVar6 = (pSStack_70->fields).SkinHookL;
+            if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_042b00c5;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto label_042af883;
+              goto label_042af875;
+            }
+            pSVar7 = (pSVar6->fields)._value;
+            if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
+                (bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0), (char)bVar11 != '\0')) &&
+               (bVar11 = System_String__IsNullOrEmpty(pSVar7,(MethodInfo *)0x0), pSVar14 = pSVar7,
+               (char)bVar11 != '\0')) goto label_042af883;
+          }
+label_042af89b:
+          if ((uint)*piVar2 < 0x11) goto label_042afff3;
+          value->m_Items[0x10] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items + 0x10,pSVar14);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            fVar23 = 1.0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042af8e6;
+label_042af92e:
+            if ((pIStack_60 == (Il2CppObject *)0x0) || ((char)uStack_68 == '\0')) {
+label_042af940:
+              fVar23 = 1.0;
+            }
+          }
+          else {
+            if (pIStack_60[0xc].monitor == (void *)0x0) goto label_042b00ca;
+            fVar23 = *(float *)((long)pIStack_60[0xc].monitor + 0x14);
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042af92e;
+label_042af8e6:
+            pSVar8 = (pSStack_70->fields).SkinHookRTiling;
+            if (pSVar8 == (Settings_FloatSetting_o *)0x0) goto label_042b00cf;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 != '\0' && pIStack_60 != (Il2CppObject *)0x0) goto label_042af948;
+              goto label_042af940;
+            }
+            if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) {
+              fVar23 = (pSVar8->fields)._value;
+            }
+          }
+label_042af948:
+          fStack_54 = fVar23;
+          pSVar14 = System_Single__ToString(fVar23,(MethodInfo *)&fStack_54);
+          if ((uint)*piVar2 < 0x12) goto label_042afff8;
+          value->m_Items[0x11] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items + 0x11);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            pSVar14 = (System_String_o *)0x0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042af9a4;
+label_042afa04:
+            if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
+label_042afa16:
+              bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
+              if ((char)bVar11 == '\0') goto label_042afa3c;
+            }
+label_042afa24:
+            pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          }
+          else {
+            if (pIStack_60[0xc].klass == (Il2CppClass *)0x0) goto label_042b00d4;
+            pSVar14 = (System_String_o *)((pIStack_60[0xc].klass)->_1).namespaze;
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042afa04;
+label_042af9a4:
+            pSVar6 = (pSStack_70->fields).SkinHookR;
+            if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_042b00d9;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto label_042afa24;
+              goto label_042afa16;
+            }
+            pSVar7 = (pSVar6->fields)._value;
+            if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
+                (bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0), (char)bVar11 != '\0')) &&
+               (bVar11 = System_String__IsNullOrEmpty(pSVar7,(MethodInfo *)0x0), pSVar14 = pSVar7,
+               (char)bVar11 != '\0')) goto label_042afa24;
+          }
+label_042afa3c:
+          if ((uint)*piVar2 < 0x13) goto label_042afffd;
+          value->m_Items[0x12] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items + 0x12);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            pSVar14 = (System_String_o *)0x0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042afa86;
+label_042afae6:
+            if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
+label_042afaf8:
+              bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
+              if ((char)bVar11 == '\0') goto label_042afb1e;
+            }
+label_042afb06:
+            pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          }
+          else {
+            if (pIStack_60[0xd].klass == (Il2CppClass *)0x0) goto label_042b00de;
+            pSVar14 = (System_String_o *)((pIStack_60[0xd].klass)->_1).namespaze;
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042afae6;
+label_042afa86:
+            pSVar6 = (pSStack_70->fields).SkinHat;
+            if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_042b00e3;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto label_042afb06;
+              goto label_042afaf8;
+            }
+            pSVar7 = (pSVar6->fields)._value;
+            if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
+                (bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0), (char)bVar11 != '\0')) &&
+               (bVar11 = System_String__IsNullOrEmpty(pSVar7,(MethodInfo *)0x0), pSVar14 = pSVar7,
+               (char)bVar11 != '\0')) goto label_042afb06;
+          }
+label_042afb1e:
+          if ((uint)*piVar2 < 0x14) goto label_042b0002;
+          value->m_Items[0x13] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items + 0x13);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            pSVar14 = (System_String_o *)0x0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042afb68;
+label_042afbc8:
+            if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
+label_042afbda:
+              bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
+              if ((char)bVar11 == '\0') goto label_042afc00;
+            }
+label_042afbe8:
+            pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          }
+          else {
+            if (pIStack_60[0xd].monitor == (void *)0x0) goto label_042b00e8;
+            pSVar14 = *(System_String_o **)((long)pIStack_60[0xd].monitor + 0x18);
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042afbc8;
+label_042afb68:
+            pSVar6 = (pSStack_70->fields).SkinHead;
+            if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_042b00ed;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto label_042afbe8;
+              goto label_042afbda;
+            }
+            pSVar7 = (pSVar6->fields)._value;
+            if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
+                (bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0), (char)bVar11 != '\0')) &&
+               (bVar11 = System_String__IsNullOrEmpty(pSVar7,(MethodInfo *)0x0), pSVar14 = pSVar7,
+               (char)bVar11 != '\0')) goto label_042afbe8;
+          }
+label_042afc00:
+          if ((uint)*piVar2 < 0x15) goto label_042b0007;
+          value->m_Items[0x14] = pSVar14;
+          il2cpp_runtime_helper_022b4080(value->m_Items + 0x14);
+          if (pIStack_60 == (Il2CppObject *)0x0) {
+            pSVar14 = (System_String_o *)0x0;
+            if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto label_042afc4a;
+label_042afcaa:
+            if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
+label_042afcbc:
+              bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
+              if ((char)bVar11 == '\0') goto label_042afce2;
+            }
+label_042afcca:
+            pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          }
+          else {
+            if (pIStack_60[0xe].klass == (Il2CppClass *)0x0) goto label_042b00f2;
+            pSVar14 = (System_String_o *)((pIStack_60[0xe].klass)->_1).namespaze;
+            if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto label_042afcaa;
+label_042afc4a:
+            pSVar6 = (pSStack_70->fields).SkinBack;
+            if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_042b00f7;
+            if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar10 == '\0')) {
+              if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto label_042afcca;
+              goto label_042afcbc;
+            }
+            pSVar7 = (pSVar6->fields)._value;
+            if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
+                (bVar11 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0), (char)bVar11 != '\0')) &&
+               (bVar11 = System_String__IsNullOrEmpty(pSVar7,(MethodInfo *)0x0), pSVar14 = pSVar7,
+               (char)bVar11 != '\0')) goto label_042afcca;
+          }
+label_042afce2:
+          if (0x15 < (uint)*piVar2) {
+            value->m_Items[0x15] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 0x15,pSVar14);
+            pSVar14 = System_String__Join(",",value,(MethodInfo *)0x0);
+            goto label_042afd1a;
+          }
+        }
+        il2cpp_runtime_helper_022b2ca0();
+        do {
+          do {
+            uVar20 = il2cpp_runtime_helper_0231b270();
+            il2cpp_runtime_helper_022b2b10(uVar20,0);
+label_042b0020:
+            il2cpp_runtime_helper_022b2c90();
+label_042b0025:
+            il2cpp_runtime_helper_022b2c90();
+label_042b002a:
+            il2cpp_runtime_helper_022b2c90();
+label_042b002f:
+            il2cpp_runtime_helper_022b2c90();
+label_042b0034:
+            il2cpp_runtime_helper_022b2c90();
+label_042b0039:
+            il2cpp_runtime_helper_022b2c90();
+label_042b003e:
+            il2cpp_runtime_helper_022b2c90();
+label_042b0043:
+            il2cpp_runtime_helper_022b2c90();
+label_042b0048:
+            il2cpp_runtime_helper_022b2c90();
+label_042b004d:
+            il2cpp_runtime_helper_022b2c90();
+label_042b0052:
+            il2cpp_runtime_helper_022b2c90();
+label_042b0057:
+            il2cpp_runtime_helper_022b2c90();
+label_042b005c:
+            il2cpp_runtime_helper_022b2c90();
+label_042b0061:
+            il2cpp_runtime_helper_022b2c90();
+label_042b0066:
+            il2cpp_runtime_helper_022b2c90();
+label_042b006b:
+            il2cpp_runtime_helper_022b2c90();
+label_042b0070:
+            il2cpp_runtime_helper_022b2c90();
+label_042b0075:
+            il2cpp_runtime_helper_022b2c90();
+label_042b007a:
+            il2cpp_runtime_helper_022b2c90();
+label_042b007f:
+            il2cpp_runtime_helper_022b2c90();
+label_042b0084:
+            il2cpp_runtime_helper_022b2c90();
+label_042b0089:
+            il2cpp_runtime_helper_022b2c90();
+label_042b008e:
+            il2cpp_runtime_helper_022b2c90();
+label_042b0093:
+            il2cpp_runtime_helper_022b2c90();
+label_042b0098:
+            il2cpp_runtime_helper_022b2c90();
+label_042b009d:
+            il2cpp_runtime_helper_022b2c90();
+label_042b00a2:
+            il2cpp_runtime_helper_022b2c90();
+label_042b00a7:
+            il2cpp_runtime_helper_022b2c90();
+label_042b00ac:
+            il2cpp_runtime_helper_022b2c90();
+label_042b00b1:
+            il2cpp_runtime_helper_022b2c90();
+label_042b00b6:
+            il2cpp_runtime_helper_022b2c90();
+label_042b00bb:
+            il2cpp_runtime_helper_022b2c90();
+label_042b00c0:
+            il2cpp_runtime_helper_022b2c90();
+label_042b00c5:
+            il2cpp_runtime_helper_022b2c90();
+label_042b00ca:
+            il2cpp_runtime_helper_022b2c90();
+label_042b00cf:
+            il2cpp_runtime_helper_022b2c90();
+label_042b00d4:
+            il2cpp_runtime_helper_022b2c90();
+label_042b00d9:
+            il2cpp_runtime_helper_022b2c90();
+label_042b00de:
+            il2cpp_runtime_helper_022b2c90();
+label_042b00e3:
+            il2cpp_runtime_helper_022b2c90();
+label_042b00e8:
+            il2cpp_runtime_helper_022b2c90();
+label_042b00ed:
+            il2cpp_runtime_helper_022b2c90();
+label_042b00f2:
+            il2cpp_runtime_helper_022b2c90();
+label_042b00f7:
+            il2cpp_runtime_helper_022b2c90();
+label_042b00fc:
+            il2cpp_runtime_helper_022b2c90();
+label_042b0101:
+            il2cpp_runtime_helper_022b2c90();
+label_042b0106:
+            il2cpp_runtime_helper_022b2c90();
+label_042b010b:
+            il2cpp_runtime_helper_022b2c90();
+label_042b0110:
+            pIVar15 = (Il2CppObject *)il2cpp_runtime_helper_022b2c90();
+label_042b0115:
+            auVar24 = il2cpp_runtime_helper_022b2fd0(pIVar15);
+            if (auVar24._8_4_ != 1) {
+              _Unwind_Resume(auVar24._0_8_);
+            }
+            unaff_RBX = (Characters_HumanSetup_o *)__cxa_begin_catch(auVar24._0_8_);
+            uVar20 = il2cpp_runtime_helper_023445d0(&TypeInfo_Exception);
+            cVar10 = il2cpp_runtime_helper_0233e000(uVar20,(((System_Func_TSource__bool__c *)unaff_RBX->klass)->_1).image)
+            ;
+            if (cVar10 == '\0') goto label_042b0a95;
+            __cxa_end_catch();
+            uVar20 = il2cpp_runtime_helper_023445d0(&TypeInfo_string);
+            value = (System_String_array *)il2cpp_runtime_helper_022b2a40(uVar20,0x16);
+            if (value == (System_String_array *)0x0) goto label_042b0a8b;
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"");
+            if ((int)value->max_length == 0) goto label_042b0a90;
+            value->m_Items[0] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"");
+            if ((uint)value->max_length < 2) goto label_042b0a90;
+            value->m_Items[1] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 1,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"");
+            if ((uint)value->max_length < 3) goto label_042b0a90;
+            value->m_Items[2] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 2,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"");
+            if ((uint)value->max_length < 4) goto label_042b0a90;
+            value->m_Items[3] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 3,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"");
+            if ((uint)value->max_length < 5) goto label_042b0a90;
+            value->m_Items[4] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 4,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"");
+            if ((uint)value->max_length < 6) goto label_042b0a90;
+            value->m_Items[5] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 5,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"");
+            if ((uint)value->max_length < 7) goto label_042b0a90;
+            value->m_Items[6] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 6,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"");
+            if ((uint)value->max_length < 8) goto label_042b0a90;
+            value->m_Items[7] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 7,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"");
+            if ((uint)value->max_length < 9) goto label_042b0a90;
+            value->m_Items[8] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 8,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"");
+            if ((uint)value->max_length < 10) goto label_042b0a90;
+            value->m_Items[9] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 9,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"");
+            if ((uint)value->max_length < 0xb) goto label_042b0a90;
+            value->m_Items[10] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 10,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"");
+            if ((uint)value->max_length < 0xc) goto label_042b0a90;
+            value->m_Items[0xb] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 0xb,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"");
+            if ((uint)value->max_length < 0xd) goto label_042b0a90;
+            value->m_Items[0xc] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 0xc,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"");
+            if ((uint)value->max_length < 0xe) goto label_042b0a90;
+            value->m_Items[0xd] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 0xd,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"");
+            if ((uint)value->max_length < 0xf) goto label_042b0a90;
+            value->m_Items[0xe] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 0xe,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"1");
+            if ((uint)value->max_length < 0x10) goto label_042b0a90;
+            value->m_Items[0xf] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 0xf,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"");
+            if ((uint)value->max_length < 0x11) goto label_042b0a90;
+            value->m_Items[0x10] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 0x10,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"1");
+            if ((uint)value->max_length < 0x12) goto label_042b0a90;
+            value->m_Items[0x11] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 0x11,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"");
+            if ((uint)value->max_length < 0x13) goto label_042b0a90;
+            value->m_Items[0x12] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 0x12,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"");
+            if ((uint)value->max_length < 0x14) goto label_042b0a90;
+            value->m_Items[0x13] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 0x13,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"");
+            if ((uint)value->max_length < 0x15) goto label_042b0a90;
+            value->m_Items[0x14] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 0x14,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"");
+            if ((uint)value->max_length < 0x16) goto label_042b0a90;
+            value->m_Items[0x15] = pSVar14;
+            il2cpp_runtime_helper_022b4080(value->m_Items + 0x15,pSVar14);
+            pSVar14 = (System_String_o *)il2cpp_runtime_helper_023445d0(&",");
+            pSVar14 = System_String__Join(pSVar14,value,(MethodInfo *)0x0);
+label_042afd1a:
+            *(undefined1 *)&(pCStack_50->fields)._isLoadingSkins = 0;
+            if (*(int *)(TypeInfo_c + 0xe4) == 0) {
+              il2cpp_runtime_helper_02337ed0();
+            }
+            unaff_RBX = *(Characters_HumanSetup_o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
+            if (unaff_RBX == (Characters_HumanSetup_o *)0x0) {
+              if (*(int *)(TypeInfo_c + 0xe4) == 0) {
+                il2cpp_runtime_helper_02337ed0();
+              }
+              unaff_RBX = (Characters_HumanSetup_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_string_bool);
+              System_Func_object__bool____ctor();
+              lVar18 = *(long *)(TypeInfo_c + 0xb8);
+              *(Characters_HumanSetup_o **)(lVar18 + 8) = unaff_RBX;
+              il2cpp_runtime_helper_022b4080(lVar18 + 8,unaff_RBX);
+            }
+            bVar11 = System_Linq_Enumerable__Any_object__2504f10
+                               ((System_Collections_Generic_IEnumerable_TSource__o *)value,
+                                (System_Func_TSource__bool__o *)unaff_RBX,MethodInfo_Boolean_Any_String);
+            pCVar5 = pCStack_50;
+            if ((char)bVar11 == '\0') {
+              pCVar17 = (pCStack_50->fields).Setup;
+              if (pCVar17 != (Characters_HumanSetup_o *)0x0) {
+                Characters_HumanSetup__Load
+                          (pCVar17,(pCVar17->fields).CustomSet,(pCVar17->fields).Weapon,0,(MethodInfo *)0x0);
+                ppCVar1 = ppCStack_40;
+                unaff_RBX = (Characters_HumanSetup_o *)*ppCStack_40;
+                if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
+                  il2cpp_runtime_helper_02337ed0();
+                }
+                bVar11 = UnityEngine_Object__op_Inequality
+                                   ((UnityEngine_Object_o *)unaff_RBX,(UnityEngine_Object_o *)0x0,
+                                    (MethodInfo *)0x0);
+                if ((char)bVar11 != '\0') {
+                  unaff_RBX = (Characters_HumanSetup_o *)*ppCVar1;
+                  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
+                    il2cpp_runtime_helper_02337ed0();
+                  }
+                  UnityEngine_Object__Destroy_4e01c60((UnityEngine_Object_o *)unaff_RBX,(MethodInfo *)0x0);
+                }
+                pUVar12 = UnityEngine_Component__get_gameObject
+                                    ((UnityEngine_Component_o *)pCVar5,(MethodInfo *)0x0);
+                if (pUVar12 != (UnityEngine_GameObject_o *)0x0) {
+                  pCVar13 = (CustomSkins_HumanCustomSkinLoader_o *)
+                            UnityEngine_GameObject__AddComponent_object_(pUVar12,MethodInfo_HumanCustomSkinLoader_AddComponent_HumanCustomSkinLoader);
+                  *ppCVar1 = pCVar13;
+                  il2cpp_runtime_helper_022b4080(ppCVar1,pCVar13);
+                  return 0;
+                }
+              }
+              goto label_042b0a8b;
+            }
+            pCVar13 = *ppCStack_40;
+            plVar16 = (long *)il2cpp_runtime_helper_022b2a40(TypeInfo_object,2);
+            uStack_44 = 0xffffffff;
+            pCVar17 = (Characters_HumanSetup_o *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,&uStack_44);
+            pCVar9 = pCStack_38;
+            if (plVar16 == (long *)0x0) goto label_042b0a8b;
+          } while ((pCVar17 != (Characters_HumanSetup_o *)0x0) &&
+                  (lVar18 = il2cpp_runtime_helper_023051f0(pCVar17,*(undefined8 *)(*plVar16 + 0x40)), lVar18 == 0));
+          unaff_RBX = pCVar17;
+          if ((int)plVar16[3] == 0) goto label_042b0a90;
+          plVar16[4] = (long)pCVar17;
+          il2cpp_runtime_helper_022b4080(plVar16 + 4,pCVar17);
+        } while ((pSVar14 != (System_String_o *)0x0) &&
+                (lVar18 = il2cpp_runtime_helper_023051f0(pSVar14,*(undefined8 *)(*plVar16 + 0x40)), lVar18 == 0));
+        if (*(uint *)(plVar16 + 3) < 2) goto label_042b0a90;
+        plVar16[5] = (long)pSVar14;
+        il2cpp_runtime_helper_022b4080(plVar16 + 5,pSVar14);
+        if (pCVar13 != (CustomSkins_HumanCustomSkinLoader_o *)0x0) {
+          routine = (System_Collections_IEnumerator_o *)
+                    (*(pCVar13->klass->vtable)._6_LoadSkinsFromRPC.methodPtr)
+                              (pCVar13,plVar16,(pCVar13->klass->vtable)._6_LoadSkinsFromRPC.method);
+          pUVar19 = UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
+                              ((UnityEngine_MonoBehaviour_o *)pCStack_50,routine,(MethodInfo *)0x0);
+          (pCVar9->fields).__2__current = (Il2CppObject *)pUVar19;
+          il2cpp_runtime_helper_022b4080(&(pCVar9->fields).__2__current,pUVar19);
+          (pCVar9->fields).__1__state = 2;
+          return (bool_conflict)CONCAT71((int7)((ulong)pCVar17 >> 8),1);
+        }
+      }
+      else {
+        __this_00 = (UnityEngine_Object_o *)
+                    UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pCVar5,(MethodInfo *)0x0)
+        ;
+        if (__this_00 != (UnityEngine_Object_o *)0x0) {
+          pSVar14 = UnityEngine_Object__get_name(__this_00,(MethodInfo *)0x0);
+          pSVar14 = System_String__Concat_3ae5ba0("HumanSetup not ready for skin loading on ",pSVar14,(MethodInfo *)0x0);
+          if (*(int *)(TypeInfo_Debug + 0xe4) == 0) {
+            il2cpp_runtime_helper_02337ed0();
+          }
+          UnityEngine_Debug__LogWarning((Il2CppObject *)pSVar14,(MethodInfo *)0x0);
+          *(undefined1 *)&(pCVar5->fields)._isLoadingSkins = 0;
+          return 0;
+        }
+      }
+    }
+  }
+  else {
+    if (iVar4 != 0) {
       return 0;
     }
     (__this->fields).__1__state = -1;
-    if (pCVar6 != (Characters_DummyHuman_o *)0x0) {
-      *(undefined1 *)&(pCVar6->fields)._isLoadingSkins = 1;
+    if (pCVar5 != (Characters_DummyHuman_o *)0x0) {
+      *(undefined1 *)&(pCVar5->fields)._isLoadingSkins = 1;
       (__this->fields).__2__current = (Il2CppObject *)0x0;
-      il2cpp_runtime_glue(&(__this->fields).__2__current,0);
+      il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,0);
       (__this->fields).__1__state = 1;
       return (bool_conflict)CONCAT71((int7)((ulong)unaff_RBX >> 8),1);
     }
-    goto LAB_03fa41eb;
   }
-  (__this->fields).__1__state = -1;
-  il2cpp_glue_02274930(TypeInfo_string);
-  if (pCVar6 == (Characters_DummyHuman_o *)0x0) goto LAB_03fa41eb;
-  pCVar14 = (pCVar6->fields)._customSkinLoader;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_init_class();
-  }
-  ppCVar1 = &(pCVar6->fields)._customSkinLoader;
-  bVar12 = UnityEngine_Object__op_Equality
-                     ((UnityEngine_Object_o *)pCVar14,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0)
-  ;
-  if ((char)bVar12 != '\0') {
-    pUVar13 = UnityEngine_Component__get_gameObject
-                        ((UnityEngine_Component_o *)pCVar6,(MethodInfo *)0x0);
-    if (pUVar13 == (UnityEngine_GameObject_o *)0x0) goto LAB_03fa41eb;
-    pCVar14 = (CustomSkins_HumanCustomSkinLoader_o *)
-              UnityEngine_GameObject__AddComponent<object>(pUVar13,MethodInfo_HumanCustomSkinLoader_AddComponent_HumanCustomSk);
-    *ppCVar1 = pCVar14;
-    il2cpp_runtime_glue(ppCVar1);
-  }
-  pCVar7 = (pCVar6->fields).Setup;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_init_class();
-  }
-  bVar12 = UnityEngine_Object__op_Equality
-                     ((UnityEngine_Object_o *)pCVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar12 != '\0') {
-    __this_00 = (UnityEngine_Object_o *)
-                UnityEngine_Component__get_gameObject
-                          ((UnityEngine_Component_o *)pCVar6,(MethodInfo *)0x0);
-    if (__this_00 != (UnityEngine_Object_o *)0x0) {
-      pSVar15 = UnityEngine_Object__get_name(__this_00,(MethodInfo *)0x0);
-      pSVar15 = System_String__Concat("HumanSetup not ready for skin loading on ",pSVar15,(MethodInfo *)0x0);
-      if (*(int *)(TypeInfo_Debug + 0xe4) == 0) {
-        il2cpp_init_class();
-      }
-      UnityEngine_Debug__LogWarning((Il2CppObject *)pSVar15,(MethodInfo *)0x0);
-      *(undefined1 *)&(pCVar6->fields)._isLoadingSkins = 0;
-      return 0;
-    }
-    goto LAB_03fa41eb;
-  }
-  lVar19 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x10);
-  pCStack_50 = pCVar6;
-  ppCStack_40 = ppCVar1;
-  pCStack_38 = __this;
-  if (lVar19 == 0) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  lVar19 = *(long *)(lVar19 + 0x20);
-  if (lVar19 == 0) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  if (*(long *)(lVar19 + 0x60) == 0) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  uStack_68 = CONCAT71(uStack_68._1_7_,*(undefined1 *)(*(long *)(lVar19 + 0x60) + 0x11));
-  if (*(long *)(lVar19 + 0x58) == 0) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  cVar3 = *(char *)(*(long *)(lVar19 + 0x58) + 0x11);
-  pCVar7 = (pCVar6->fields).Setup;
-  if (pCVar7 == (Characters_HumanSetup_o *)0x0) {
-    pSStack_70 = (Settings_HumanCustomSet_o *)0x0;
-  }
-  else {
-    pSStack_70 = (pCVar7->fields).CustomSet;
-  }
-  il2cpp_runtime_glue(&pSStack_70);
-  pIStack_60 = (Il2CppObject *)0x0;
-  il2cpp_runtime_glue(&pIStack_60,0);
-  if ((uStack_68 & 1) != 0) {
-    lVar19 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x10);
-    if (lVar19 == 0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    lVar19 = *(long *)(lVar19 + 0x20);
-    if (lVar19 == 0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if (*(long *)(lVar19 + 0x78) == 0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    plVar18 = *(long **)(lVar19 + 0x28);
-    if (plVar18 == (long *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    iVar5 = *(int *)(*(long *)(lVar19 + 0x78) + 0x14);
-    lVar19 = *plVar18;
-    if ((ulong)*(ushort *)(lVar19 + 0x12e) != 0) {
-      lVar22 = 0;
-      do {
-        if (*(long *)(*(long *)(lVar19 + 0xb0) + lVar22) == TypeInfo_IListSetting) {
-          puVar16 = (undefined8 *)
-                    ((long)(*(int *)(*(long *)(lVar19 + 0xb0) + 8 + lVar22) + 2) * 0x10 + lVar19 +
-                    0x138);
-          goto LAB_03fa20d9;
-        }
-        lVar22 = lVar22 + 0x10;
-      } while ((ulong)*(ushort *)(lVar19 + 0x12e) << 4 != lVar22);
-    }
-    puVar16 = (undefined8 *)il2cpp_runtime_glue(plVar18,TypeInfo_IListSetting,2);
-LAB_03fa20d9:
-    __this_01 = (System_Collections_Generic_List_object__o *)(*(code *)*puVar16)(plVar18,puVar16[1])
-    ;
-    if (-1 < iVar5) {
-      if (__this_01 == (System_Collections_Generic_List_object__o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-        il2cpp_raise_exception();
-      }
-      if (iVar5 < (__this_01->fields)._size) {
-        pIVar17 = System_Collections_Generic_List<object>__get_Item(__this_01,iVar5,MethodInfo_BaseSetting_get_Item);
-        if (pIVar17 == (Il2CppObject *)0x0) {
-          pIStack_60 = (Il2CppObject *)0x0;
-        }
-        else {
-          bVar4 = (TypeInfo_HumanCustomSkinSet->_2).naturalAligment;
-          if (((pIVar17->klass->_2).naturalAligment < bVar4) ||
-             ((pIVar17->klass->_2).typeHierarchy[(ulong)bVar4 - 1] != TypeInfo_HumanCustomSkinSet)) {
-                    /* WARNING: Subroutine does not return */
-            il2cpp_unwind_resume(pIVar17);
-          }
-          pIStack_60 = pIVar17;
-          if (((pIVar17->klass->_2).naturalAligment < bVar4) ||
-             ((pIVar17->klass->_2).typeHierarchy[(ulong)bVar4 - 1] != TypeInfo_HumanCustomSkinSet)) {
-                    /* WARNING: Subroutine does not return */
-            il2cpp_unwind_resume(pIVar17);
-          }
-        }
-        il2cpp_runtime_glue(&pIStack_60,pIVar17);
-      }
-    }
-  }
-  value = (System_String_array *)il2cpp_glue_02274930(TypeInfo_string);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    pSVar15 = (System_String_o *)0x0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa21b9;
-LAB_03fa2219:
-    if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
-LAB_03fa222b:
-      bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0);
-      if ((char)bVar12 == '\0') goto LAB_03fa2251;
-    }
-LAB_03fa2239:
-    pSVar15 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  }
-  else {
-    if (pIStack_60[9].monitor == (void *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    pSVar15 = *(System_String_o **)((long)pIStack_60[9].monitor + 0x18);
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa2219;
-LAB_03fa21b9:
-    pSVar8 = (pSStack_70->fields).SkinHorse;
-    if (pSVar8 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto LAB_03fa2239;
-      goto LAB_03fa222b;
-    }
-    pSVar9 = (pSVar8->fields)._value;
-    if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
-        (bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0), (char)bVar12 != '\0')) &&
-       (bVar12 = System_String__IsNullOrEmpty(pSVar9,(MethodInfo *)0x0), pSVar15 = pSVar9,
-       (char)bVar12 != '\0')) goto LAB_03fa2239;
-  }
-LAB_03fa2251:
-  if (value == (System_String_array *)0x0) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  if ((int)value->max_length == 0) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[0] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    pSVar15 = (System_String_o *)0x0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa229d;
-LAB_03fa22fd:
-    if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
-LAB_03fa230f:
-      bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0);
-      if ((char)bVar12 == '\0') goto LAB_03fa2335;
-    }
-LAB_03fa231d:
-    pSVar15 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  }
-  else {
-    if (pIStack_60[3].monitor == (void *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    pSVar15 = *(System_String_o **)((long)pIStack_60[3].monitor + 0x18);
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa22fd;
-LAB_03fa229d:
-    pSVar8 = (pSStack_70->fields).SkinHair;
-    if (pSVar8 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto LAB_03fa231d;
-      goto LAB_03fa230f;
-    }
-    pSVar9 = (pSVar8->fields)._value;
-    if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
-        (bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0), (char)bVar12 != '\0')) &&
-       (bVar12 = System_String__IsNullOrEmpty(pSVar9,(MethodInfo *)0x0), pSVar15 = pSVar9,
-       (char)bVar12 != '\0')) goto LAB_03fa231d;
-  }
-LAB_03fa2335:
-  piVar2 = &value->max_length;
-  if ((uint)*piVar2 < 2) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[1] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 1);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    pSVar15 = (System_String_o *)0x0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa237b;
-LAB_03fa23db:
-    if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
-LAB_03fa23ed:
-      bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0);
-      if ((char)bVar12 == '\0') goto LAB_03fa2413;
-    }
-LAB_03fa23fb:
-    pSVar15 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  }
-  else {
-    if (pIStack_60[4].klass == (Il2CppClass *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    pSVar15 = (System_String_o *)((pIStack_60[4].klass)->_1).namespaze;
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa23db;
-LAB_03fa237b:
-    pSVar8 = (pSStack_70->fields).SkinEye;
-    if (pSVar8 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto LAB_03fa23fb;
-      goto LAB_03fa23ed;
-    }
-    pSVar9 = (pSVar8->fields)._value;
-    if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
-        (bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0), (char)bVar12 != '\0')) &&
-       (bVar12 = System_String__IsNullOrEmpty(pSVar9,(MethodInfo *)0x0), pSVar15 = pSVar9,
-       (char)bVar12 != '\0')) goto LAB_03fa23fb;
-  }
-LAB_03fa2413:
-  if ((uint)*piVar2 < 3) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[2] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 2);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    pSVar15 = (System_String_o *)0x0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa2454;
-LAB_03fa24b4:
-    if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
-LAB_03fa24c6:
-      bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0);
-      if ((char)bVar12 == '\0') goto LAB_03fa24ec;
-    }
-LAB_03fa24d4:
-    pSVar15 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  }
-  else {
-    if (pIStack_60[4].monitor == (void *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    pSVar15 = *(System_String_o **)((long)pIStack_60[4].monitor + 0x18);
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa24b4;
-LAB_03fa2454:
-    pSVar8 = (pSStack_70->fields).SkinGlass;
-    if (pSVar8 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto LAB_03fa24d4;
-      goto LAB_03fa24c6;
-    }
-    pSVar9 = (pSVar8->fields)._value;
-    if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
-        (bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0), (char)bVar12 != '\0')) &&
-       (bVar12 = System_String__IsNullOrEmpty(pSVar9,(MethodInfo *)0x0), pSVar15 = pSVar9,
-       (char)bVar12 != '\0')) goto LAB_03fa24d4;
-  }
-LAB_03fa24ec:
-  if ((uint)*piVar2 < 4) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[3] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 3);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    pSVar15 = (System_String_o *)0x0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa252d;
-LAB_03fa258d:
-    if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
-LAB_03fa259f:
-      bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0);
-      if ((char)bVar12 == '\0') goto LAB_03fa25c5;
-    }
-LAB_03fa25ad:
-    pSVar15 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  }
-  else {
-    if (pIStack_60[5].klass == (Il2CppClass *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    pSVar15 = (System_String_o *)((pIStack_60[5].klass)->_1).namespaze;
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa258d;
-LAB_03fa252d:
-    pSVar8 = (pSStack_70->fields).SkinFace;
-    if (pSVar8 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto LAB_03fa25ad;
-      goto LAB_03fa259f;
-    }
-    pSVar9 = (pSVar8->fields)._value;
-    if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
-        (bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0), (char)bVar12 != '\0')) &&
-       (bVar12 = System_String__IsNullOrEmpty(pSVar9,(MethodInfo *)0x0), pSVar15 = pSVar9,
-       (char)bVar12 != '\0')) goto LAB_03fa25ad;
-  }
-LAB_03fa25c5:
-  if ((uint)*piVar2 < 5) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[4] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 4);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    pSVar15 = (System_String_o *)0x0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa2606;
-LAB_03fa2666:
-    if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
-LAB_03fa2678:
-      bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0);
-      if ((char)bVar12 == '\0') goto LAB_03fa269e;
-    }
-LAB_03fa2686:
-    pSVar15 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  }
-  else {
-    if (pIStack_60[5].monitor == (void *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    pSVar15 = *(System_String_o **)((long)pIStack_60[5].monitor + 0x18);
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa2666;
-LAB_03fa2606:
-    pSVar8 = (pSStack_70->fields).SkinSkin;
-    if (pSVar8 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto LAB_03fa2686;
-      goto LAB_03fa2678;
-    }
-    pSVar9 = (pSVar8->fields)._value;
-    if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
-        (bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0), (char)bVar12 != '\0')) &&
-       (bVar12 = System_String__IsNullOrEmpty(pSVar9,(MethodInfo *)0x0), pSVar15 = pSVar9,
-       (char)bVar12 != '\0')) goto LAB_03fa2686;
-  }
-LAB_03fa269e:
-  if ((uint)*piVar2 < 6) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[5] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 5);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    pSVar15 = (System_String_o *)0x0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa26df;
-LAB_03fa273f:
-    if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
-LAB_03fa2751:
-      bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0);
-      if ((char)bVar12 == '\0') goto LAB_03fa2777;
-    }
-LAB_03fa275f:
-    pSVar15 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  }
-  else {
-    if (pIStack_60[6].klass == (Il2CppClass *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    pSVar15 = (System_String_o *)((pIStack_60[6].klass)->_1).namespaze;
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa273f;
-LAB_03fa26df:
-    pSVar8 = (pSStack_70->fields).SkinCostume;
-    if (pSVar8 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto LAB_03fa275f;
-      goto LAB_03fa2751;
-    }
-    pSVar9 = (pSVar8->fields)._value;
-    if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
-        (bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0), (char)bVar12 != '\0')) &&
-       (bVar12 = System_String__IsNullOrEmpty(pSVar9,(MethodInfo *)0x0), pSVar15 = pSVar9,
-       (char)bVar12 != '\0')) goto LAB_03fa275f;
-  }
-LAB_03fa2777:
-  if ((uint)*piVar2 < 7) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[6] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 6);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    pSVar15 = (System_String_o *)0x0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa27b8;
-LAB_03fa2818:
-    if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
-LAB_03fa282a:
-      bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0);
-      if ((char)bVar12 == '\0') goto LAB_03fa2850;
-    }
-LAB_03fa2838:
-    pSVar15 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  }
-  else {
-    if (pIStack_60[6].monitor == (void *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    pSVar15 = *(System_String_o **)((long)pIStack_60[6].monitor + 0x18);
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa2818;
-LAB_03fa27b8:
-    pSVar8 = (pSStack_70->fields).SkinLogo;
-    if (pSVar8 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto LAB_03fa2838;
-      goto LAB_03fa282a;
-    }
-    pSVar9 = (pSVar8->fields)._value;
-    if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
-        (bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0), (char)bVar12 != '\0')) &&
-       (bVar12 = System_String__IsNullOrEmpty(pSVar9,(MethodInfo *)0x0), pSVar15 = pSVar9,
-       (char)bVar12 != '\0')) goto LAB_03fa2838;
-  }
-LAB_03fa2850:
-  if ((uint)*piVar2 < 8) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[7] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 7);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    pSVar15 = (System_String_o *)0x0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa2891;
-LAB_03fa28f1:
-    if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
-LAB_03fa2903:
-      bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0);
-      if ((char)bVar12 == '\0') goto LAB_03fa2929;
-    }
-LAB_03fa2911:
-    pSVar15 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  }
-  else {
-    if (pIStack_60[7].klass == (Il2CppClass *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    pSVar15 = (System_String_o *)((pIStack_60[7].klass)->_1).namespaze;
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa28f1;
-LAB_03fa2891:
-    pSVar8 = (pSStack_70->fields).SkinGearL;
-    if (pSVar8 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto LAB_03fa2911;
-      goto LAB_03fa2903;
-    }
-    pSVar9 = (pSVar8->fields)._value;
-    if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
-        (bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0), (char)bVar12 != '\0')) &&
-       (bVar12 = System_String__IsNullOrEmpty(pSVar9,(MethodInfo *)0x0), pSVar15 = pSVar9,
-       (char)bVar12 != '\0')) goto LAB_03fa2911;
-  }
-LAB_03fa2929:
-  if ((uint)*piVar2 < 9) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[8] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 8);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    pSVar15 = (System_String_o *)0x0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa296a;
-LAB_03fa29ca:
-    if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
-LAB_03fa29dc:
-      bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0);
-      if ((char)bVar12 == '\0') goto LAB_03fa2a02;
-    }
-LAB_03fa29ea:
-    pSVar15 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  }
-  else {
-    if (pIStack_60[7].monitor == (void *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    pSVar15 = *(System_String_o **)((long)pIStack_60[7].monitor + 0x18);
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa29ca;
-LAB_03fa296a:
-    pSVar8 = (pSStack_70->fields).SkinGearR;
-    if (pSVar8 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto LAB_03fa29ea;
-      goto LAB_03fa29dc;
-    }
-    pSVar9 = (pSVar8->fields)._value;
-    if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
-        (bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0), (char)bVar12 != '\0')) &&
-       (bVar12 = System_String__IsNullOrEmpty(pSVar9,(MethodInfo *)0x0), pSVar15 = pSVar9,
-       (char)bVar12 != '\0')) goto LAB_03fa29ea;
-  }
-LAB_03fa2a02:
-  if ((uint)*piVar2 < 10) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[9] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 9);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    pSVar15 = (System_String_o *)0x0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa2a46;
-LAB_03fa2aa6:
-    if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
-LAB_03fa2ab8:
-      bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0);
-      if ((char)bVar12 == '\0') goto LAB_03fa2ade;
-    }
-LAB_03fa2ac6:
-    pSVar15 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  }
-  else {
-    if (pIStack_60[8].klass == (Il2CppClass *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    pSVar15 = (System_String_o *)((pIStack_60[8].klass)->_1).namespaze;
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa2aa6;
-LAB_03fa2a46:
-    pSVar8 = (pSStack_70->fields).SkinGas;
-    if (pSVar8 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto LAB_03fa2ac6;
-      goto LAB_03fa2ab8;
-    }
-    pSVar9 = (pSVar8->fields)._value;
-    if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
-        (bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0), (char)bVar12 != '\0')) &&
-       (bVar12 = System_String__IsNullOrEmpty(pSVar9,(MethodInfo *)0x0), pSVar15 = pSVar9,
-       (char)bVar12 != '\0')) goto LAB_03fa2ac6;
-  }
-LAB_03fa2ade:
-  if ((uint)*piVar2 < 0xb) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[10] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 10);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    pSVar15 = (System_String_o *)0x0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa2b22;
-LAB_03fa2b82:
-    if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
-LAB_03fa2b94:
-      bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0);
-      if ((char)bVar12 == '\0') goto LAB_03fa2bba;
-    }
-LAB_03fa2ba2:
-    pSVar15 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  }
-  else {
-    if (pIStack_60[8].monitor == (void *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    pSVar15 = *(System_String_o **)((long)pIStack_60[8].monitor + 0x18);
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa2b82;
-LAB_03fa2b22:
-    pSVar8 = (pSStack_70->fields).SkinHoodie;
-    if (pSVar8 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto LAB_03fa2ba2;
-      goto LAB_03fa2b94;
-    }
-    pSVar9 = (pSVar8->fields)._value;
-    if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
-        (bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0), (char)bVar12 != '\0')) &&
-       (bVar12 = System_String__IsNullOrEmpty(pSVar9,(MethodInfo *)0x0), pSVar15 = pSVar9,
-       (char)bVar12 != '\0')) goto LAB_03fa2ba2;
-  }
-LAB_03fa2bba:
-  if ((uint)*piVar2 < 0xc) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[0xb] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 0xb);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    pSVar15 = (System_String_o *)0x0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa2bfe;
-LAB_03fa2c5e:
-    if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
-LAB_03fa2c70:
-      bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0);
-      if ((char)bVar12 == '\0') goto LAB_03fa2c96;
-    }
-LAB_03fa2c7e:
-    pSVar15 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  }
-  else {
-    if (pIStack_60[9].klass == (Il2CppClass *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    pSVar15 = (System_String_o *)((pIStack_60[9].klass)->_1).namespaze;
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa2c5e;
-LAB_03fa2bfe:
-    pSVar8 = (pSStack_70->fields).SkinWeaponTrail;
-    if (pSVar8 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto LAB_03fa2c7e;
-      goto LAB_03fa2c70;
-    }
-    pSVar9 = (pSVar8->fields)._value;
-    if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
-        (bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0), (char)bVar12 != '\0')) &&
-       (bVar12 = System_String__IsNullOrEmpty(pSVar9,(MethodInfo *)0x0), pSVar15 = pSVar9,
-       (char)bVar12 != '\0')) goto LAB_03fa2c7e;
-  }
-LAB_03fa2c96:
-  if ((uint)*piVar2 < 0xd) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[0xc] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 0xc);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    pSVar15 = (System_String_o *)0x0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa2ce0;
-LAB_03fa2d40:
-    if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
-LAB_03fa2d52:
-      bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0);
-      if ((char)bVar12 == '\0') goto LAB_03fa2d78;
-    }
-LAB_03fa2d60:
-    pSVar15 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  }
-  else {
-    if (pIStack_60[10].klass == (Il2CppClass *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    pSVar15 = (System_String_o *)((pIStack_60[10].klass)->_1).namespaze;
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa2d40;
-LAB_03fa2ce0:
-    pSVar8 = (pSStack_70->fields).SkinThunderspearL;
-    if (pSVar8 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto LAB_03fa2d60;
-      goto LAB_03fa2d52;
-    }
-    pSVar9 = (pSVar8->fields)._value;
-    if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
-        (bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0), (char)bVar12 != '\0')) &&
-       (bVar12 = System_String__IsNullOrEmpty(pSVar9,(MethodInfo *)0x0), pSVar15 = pSVar9,
-       (char)bVar12 != '\0')) goto LAB_03fa2d60;
-  }
-LAB_03fa2d78:
-  if ((uint)*piVar2 < 0xe) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[0xd] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 0xd);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    pSVar15 = (System_String_o *)0x0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa2dc2;
-LAB_03fa2e22:
-    if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
-LAB_03fa2e34:
-      bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0);
-      if ((char)bVar12 == '\0') goto LAB_03fa2e5a;
-    }
-LAB_03fa2e42:
-    pSVar15 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  }
-  else {
-    if (pIStack_60[10].monitor == (void *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    pSVar15 = *(System_String_o **)((long)pIStack_60[10].monitor + 0x18);
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa2e22;
-LAB_03fa2dc2:
-    pSVar8 = (pSStack_70->fields).SkinThunderspearR;
-    if (pSVar8 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto LAB_03fa2e42;
-      goto LAB_03fa2e34;
-    }
-    pSVar9 = (pSVar8->fields)._value;
-    if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
-        (bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0), (char)bVar12 != '\0')) &&
-       (bVar12 = System_String__IsNullOrEmpty(pSVar9,(MethodInfo *)0x0), pSVar15 = pSVar9,
-       (char)bVar12 != '\0')) goto LAB_03fa2e42;
-  }
-LAB_03fa2e5a:
-  if ((uint)*piVar2 < 0xf) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[0xe] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 0xe,pSVar15);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    fVar23 = 1.0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa2ea5;
-LAB_03fa2eed:
-    if ((pIStack_60 == (Il2CppObject *)0x0) || ((char)uStack_68 == '\0')) {
-LAB_03fa2eff:
-      fVar23 = 1.0;
-    }
-  }
-  else {
-    if (pIStack_60[0xb].monitor == (void *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    fVar23 = *(float *)((long)pIStack_60[0xb].monitor + 0x14);
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa2eed;
-LAB_03fa2ea5:
-    pSVar10 = (pSStack_70->fields).SkinHookLTiling;
-    if (pSVar10 == (Settings_FloatSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 != '\0' && pIStack_60 != (Il2CppObject *)0x0) goto LAB_03fa2f07;
-      goto LAB_03fa2eff;
-    }
-    if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) {
-      fVar23 = (pSVar10->fields)._value;
-    }
-  }
-LAB_03fa2f07:
-  fStack_54 = fVar23;
-  pSVar15 = System_Single__ToString(fVar23,(MethodInfo *)&fStack_54);
-  if ((uint)*piVar2 < 0x10) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[0xf] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 0xf);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    pSVar15 = (System_String_o *)0x0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa2f63;
-LAB_03fa2fc3:
-    if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
-LAB_03fa2fd5:
-      bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0);
-      if ((char)bVar12 == '\0') goto LAB_03fa2ffb;
-    }
-LAB_03fa2fe3:
-    pSVar15 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  }
-  else {
-    if (pIStack_60[0xb].klass == (Il2CppClass *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    pSVar15 = (System_String_o *)((pIStack_60[0xb].klass)->_1).namespaze;
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa2fc3;
-LAB_03fa2f63:
-    pSVar8 = (pSStack_70->fields).SkinHookL;
-    if (pSVar8 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto LAB_03fa2fe3;
-      goto LAB_03fa2fd5;
-    }
-    pSVar9 = (pSVar8->fields)._value;
-    if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
-        (bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0), (char)bVar12 != '\0')) &&
-       (bVar12 = System_String__IsNullOrEmpty(pSVar9,(MethodInfo *)0x0), pSVar15 = pSVar9,
-       (char)bVar12 != '\0')) goto LAB_03fa2fe3;
-  }
-LAB_03fa2ffb:
-  if ((uint)*piVar2 < 0x11) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[0x10] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 0x10,pSVar15);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    fVar23 = 1.0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa3046;
-LAB_03fa308e:
-    if ((pIStack_60 == (Il2CppObject *)0x0) || ((char)uStack_68 == '\0')) {
-LAB_03fa30a0:
-      fVar23 = 1.0;
-    }
-  }
-  else {
-    if (pIStack_60[0xc].monitor == (void *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    fVar23 = *(float *)((long)pIStack_60[0xc].monitor + 0x14);
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa308e;
-LAB_03fa3046:
-    pSVar10 = (pSStack_70->fields).SkinHookRTiling;
-    if (pSVar10 == (Settings_FloatSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 != '\0' && pIStack_60 != (Il2CppObject *)0x0) goto LAB_03fa30a8;
-      goto LAB_03fa30a0;
-    }
-    if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) {
-      fVar23 = (pSVar10->fields)._value;
-    }
-  }
-LAB_03fa30a8:
-  fStack_54 = fVar23;
-  pSVar15 = System_Single__ToString(fVar23,(MethodInfo *)&fStack_54);
-  if ((uint)*piVar2 < 0x12) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[0x11] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 0x11);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    pSVar15 = (System_String_o *)0x0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa3104;
-LAB_03fa3164:
-    if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
-LAB_03fa3176:
-      bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0);
-      if ((char)bVar12 == '\0') goto LAB_03fa319c;
-    }
-LAB_03fa3184:
-    pSVar15 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  }
-  else {
-    if (pIStack_60[0xc].klass == (Il2CppClass *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    pSVar15 = (System_String_o *)((pIStack_60[0xc].klass)->_1).namespaze;
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa3164;
-LAB_03fa3104:
-    pSVar8 = (pSStack_70->fields).SkinHookR;
-    if (pSVar8 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto LAB_03fa3184;
-      goto LAB_03fa3176;
-    }
-    pSVar9 = (pSVar8->fields)._value;
-    if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
-        (bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0), (char)bVar12 != '\0')) &&
-       (bVar12 = System_String__IsNullOrEmpty(pSVar9,(MethodInfo *)0x0), pSVar15 = pSVar9,
-       (char)bVar12 != '\0')) goto LAB_03fa3184;
-  }
-LAB_03fa319c:
-  if ((uint)*piVar2 < 0x13) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[0x12] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 0x12);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    pSVar15 = (System_String_o *)0x0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa31e6;
-LAB_03fa3246:
-    if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
-LAB_03fa3258:
-      bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0);
-      if ((char)bVar12 == '\0') goto LAB_03fa327e;
-    }
-LAB_03fa3266:
-    pSVar15 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  }
-  else {
-    if (pIStack_60[0xd].klass == (Il2CppClass *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    pSVar15 = (System_String_o *)((pIStack_60[0xd].klass)->_1).namespaze;
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa3246;
-LAB_03fa31e6:
-    pSVar8 = (pSStack_70->fields).SkinHat;
-    if (pSVar8 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto LAB_03fa3266;
-      goto LAB_03fa3258;
-    }
-    pSVar9 = (pSVar8->fields)._value;
-    if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
-        (bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0), (char)bVar12 != '\0')) &&
-       (bVar12 = System_String__IsNullOrEmpty(pSVar9,(MethodInfo *)0x0), pSVar15 = pSVar9,
-       (char)bVar12 != '\0')) goto LAB_03fa3266;
-  }
-LAB_03fa327e:
-  if ((uint)*piVar2 < 0x14) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[0x13] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 0x13);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    pSVar15 = (System_String_o *)0x0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa32c8;
-LAB_03fa3328:
-    if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
-LAB_03fa333a:
-      bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0);
-      if ((char)bVar12 == '\0') goto LAB_03fa3360;
-    }
-LAB_03fa3348:
-    pSVar15 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  }
-  else {
-    if (pIStack_60[0xd].monitor == (void *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    pSVar15 = *(System_String_o **)((long)pIStack_60[0xd].monitor + 0x18);
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa3328;
-LAB_03fa32c8:
-    pSVar8 = (pSStack_70->fields).SkinHead;
-    if (pSVar8 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto LAB_03fa3348;
-      goto LAB_03fa333a;
-    }
-    pSVar9 = (pSVar8->fields)._value;
-    if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
-        (bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0), (char)bVar12 != '\0')) &&
-       (bVar12 = System_String__IsNullOrEmpty(pSVar9,(MethodInfo *)0x0), pSVar15 = pSVar9,
-       (char)bVar12 != '\0')) goto LAB_03fa3348;
-  }
-LAB_03fa3360:
-  if ((uint)*piVar2 < 0x15) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[0x14] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 0x14);
-  if (pIStack_60 == (Il2CppObject *)0x0) {
-    pSVar15 = (System_String_o *)0x0;
-    if (pSStack_70 != (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa33aa;
-LAB_03fa340a:
-    if ((pIStack_60 != (Il2CppObject *)0x0) && ((char)uStack_68 != '\0')) {
-LAB_03fa341c:
-      bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0);
-      if ((char)bVar12 == '\0') goto LAB_03fa3442;
-    }
-LAB_03fa342a:
-    pSVar15 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  }
-  else {
-    if (pIStack_60[0xe].klass == (Il2CppClass *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    pSVar15 = (System_String_o *)((pIStack_60[0xe].klass)->_1).namespaze;
-    if (pSStack_70 == (Settings_HumanCustomSet_o *)0x0) goto LAB_03fa340a;
-LAB_03fa33aa:
-    pSVar8 = (pSStack_70->fields).SkinBack;
-    if (pSVar8 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-    if ((pSStack_70 == (Settings_HumanCustomSet_o *)0x0) || (cVar3 == '\0')) {
-      if ((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) goto LAB_03fa342a;
-      goto LAB_03fa341c;
-    }
-    pSVar9 = (pSVar8->fields)._value;
-    if ((((char)uStack_68 == '\0' || pIStack_60 == (Il2CppObject *)0x0) ||
-        (bVar12 = System_String__IsNullOrEmpty(pSVar15,(MethodInfo *)0x0), (char)bVar12 != '\0')) &&
-       (bVar12 = System_String__IsNullOrEmpty(pSVar9,(MethodInfo *)0x0), pSVar15 = pSVar9,
-       (char)bVar12 != '\0')) goto LAB_03fa342a;
-  }
-LAB_03fa3442:
-  if ((uint)*piVar2 < 0x16) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-  value->m_Items[0x15] = pSVar15;
-  il2cpp_runtime_glue(value->m_Items + 0x15,pSVar15);
-  pSVar15 = System_String__Join(",",value,(MethodInfo *)0x0);
-  *(undefined1 *)&(pCStack_50->fields)._isLoadingSkins = 0;
-  if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-    il2cpp_init_class();
-  }
-  predicate = *(System_Func_TSource__bool__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-  if (predicate == (System_Func_TSource__bool__o *)0x0) {
-    if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-      il2cpp_init_class();
-    }
-    predicate = (System_Func_TSource__bool__o *)il2cpp_runtime_glue(TypeInfo_Func_string__bool);
-    System_Func<object__bool>___ctor();
-    lVar19 = *(long *)(TypeInfo_c + 0xb8);
-    *(System_Func_TSource__bool__o **)(lVar19 + 8) = predicate;
-    il2cpp_runtime_glue(lVar19 + 8,predicate);
-  }
-  bVar12 = System_Linq_Enumerable__Any<object>
-                     ((System_Collections_Generic_IEnumerable_TSource__o *)value,predicate,
-                      MethodInfo_Boolean_Any_String);
-  pCVar6 = pCStack_50;
-  if ((char)bVar12 == '\0') {
-    pCVar7 = (pCStack_50->fields).Setup;
-    if (pCVar7 != (Characters_HumanSetup_o *)0x0) {
-      Characters_HumanSetup__Load
-                (pCVar7,(pCVar7->fields).CustomSet,(pCVar7->fields).Weapon,0,(MethodInfo *)0x0);
-      ppCVar1 = ppCStack_40;
-      pCVar14 = *ppCStack_40;
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_init_class();
-      }
-      bVar12 = UnityEngine_Object__op_Inequality
-                         ((UnityEngine_Object_o *)pCVar14,(UnityEngine_Object_o *)0x0,
-                          (MethodInfo *)0x0);
-      if ((char)bVar12 != '\0') {
-        pCVar14 = *ppCVar1;
-        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-          il2cpp_init_class();
-        }
-        UnityEngine_Object__Destroy((UnityEngine_Object_o *)pCVar14,(MethodInfo *)0x0);
-      }
-      pUVar13 = UnityEngine_Component__get_gameObject
-                          ((UnityEngine_Component_o *)pCVar6,(MethodInfo *)0x0);
-      if (pUVar13 != (UnityEngine_GameObject_o *)0x0) {
-        pCVar14 = (CustomSkins_HumanCustomSkinLoader_o *)
-                  UnityEngine_GameObject__AddComponent<object>(pUVar13,MethodInfo_HumanCustomSkinLoader_AddComponent_HumanCustomSk);
-        *ppCVar1 = pCVar14;
-        il2cpp_runtime_glue(ppCVar1,pCVar14);
-        return 0;
-      }
-    }
-  }
-  else {
-    pCVar14 = *ppCStack_40;
-    plVar18 = (long *)il2cpp_glue_02274930(TypeInfo_object,2);
-    uStack_44 = 0xffffffff;
-    lVar19 = il2cpp_runtime_glue(DAT_05711068,&uStack_44);
-    pCVar11 = pCStack_38;
-    if (plVar18 != (long *)0x0) {
-      if ((lVar19 != 0) &&
-         (lVar22 = il2cpp_runtime_glue(lVar19,*(undefined8 *)(*plVar18 + 0x40)), lVar22 == 0)) {
-LAB_03fa3771:
-        uVar21 = il2cpp_glue_022dd160();
-                    /* WARNING: Subroutine does not return */
-        il2cpp_glue_02274a00(uVar21,0);
-      }
-      if ((int)plVar18[3] != 0) {
-        plVar18[4] = lVar19;
-        il2cpp_runtime_glue(plVar18 + 4,lVar19);
-        if ((pSVar15 != (System_String_o *)0x0) &&
-           (lVar22 = il2cpp_runtime_glue(pSVar15,*(undefined8 *)(*plVar18 + 0x40)), lVar22 == 0))
-        goto LAB_03fa3771;
-        if (1 < *(uint *)(plVar18 + 3)) {
-          plVar18[5] = (long)pSVar15;
-          il2cpp_runtime_glue(plVar18 + 5,pSVar15);
-          if (pCVar14 != (CustomSkins_HumanCustomSkinLoader_o *)0x0) {
-            routine = (System_Collections_IEnumerator_o *)
-                      (*(pCVar14->klass->vtable)._6_LoadSkinsFromRPC.methodPtr)
-                                (pCVar14,plVar18,(pCVar14->klass->vtable)._6_LoadSkinsFromRPC.method
-                                );
-            pUVar20 = UnityEngine_MonoBehaviour__StartCoroutine
-                                ((UnityEngine_MonoBehaviour_o *)pCStack_50,routine,(MethodInfo *)0x0
-                                );
-            (pCVar11->fields).__2__current = (Il2CppObject *)pUVar20;
-            il2cpp_runtime_glue(&(pCVar11->fields).__2__current,pUVar20);
-            (pCVar11->fields).__1__state = 2;
-            return (bool_conflict)CONCAT71((int7)((ulong)lVar19 >> 8),1);
-          }
-          goto LAB_03fa41eb;
-        }
-      }
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-  }
-LAB_03fa41eb:
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+label_042b0a8b:
+  il2cpp_runtime_helper_022b2c90();
+label_042b0a90:
+  il2cpp_runtime_helper_022b2ca0();
+label_042b0a95:
+  puVar21 = (undefined8 *)__cxa_allocate_exception(8);
+  *puVar21 = (System_Func_TSource__bool__c *)unaff_RBX->klass;
+  __cxa_throw(puVar21,&PTR_PTR_05215060,0);
 }
 
 
 // Characters.DummyHuman.<LoadSkinCoroutine>d__9$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* Characters_DummyHuman__LoadSkinCoroutine_d__9__System_Collections_Generic_IEnumerator_System_Object__get_Current (Characters_DummyHuman__LoadSkinCoroutine_d__9_o* __this, const MethodInfo* method);
-// 0x3fa4230
+// 0x42b0ad0
 
 Il2CppObject *
-Characters_DummyHuman_<LoadSkinCoroutine>d__9__System_Collections_Generic_IEnumerator<System_Object>_get_Current
+Characters_DummyHuman__LoadSkinCoroutine_d__9__System_Collections_Generic_IEnumerator_System_Object__get_Current
           (Characters_DummyHuman__LoadSkinCoroutine_d__9_o *__this,MethodInfo *method)
 
 {
@@ -1367,30 +1390,30 @@ Characters_DummyHuman_<LoadSkinCoroutine>d__9__System_Collections_Generic_IEnume
 
 // Characters.DummyHuman.<LoadSkinCoroutine>d__9$$System.Collections.IEnumerator.Reset
 // il2cpp: void Characters_DummyHuman__LoadSkinCoroutine_d__9__System_Collections_IEnumerator_Reset (Characters_DummyHuman__LoadSkinCoroutine_d__9_o* __this, const MethodInfo* method);
-// 0x3fa4240
+// 0x42b0ae0
 
-void Characters_DummyHuman_<LoadSkinCoroutine>d__9__System_Collections_IEnumerator_Reset
+void Characters_DummyHuman__LoadSkinCoroutine_d__9__System_Collections_IEnumerator_Reset
                (Characters_DummyHuman__LoadSkinCoroutine_d__9_o *__this,MethodInfo *method)
 
 {
   undefined8 uVar1;
   System_NotSupportedException_o *__this_00;
   
-  uVar1 = il2cpp_init_method_metadata(&TypeInfo_NotSupportedException);
-  __this_00 = (System_NotSupportedException_o *)il2cpp_runtime_glue(uVar1);
+  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotSupportedException);
+  __this_00 = (System_NotSupportedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
   System_NotSupportedException___ctor(__this_00,(MethodInfo *)0x0);
-  uVar1 = il2cpp_init_method_metadata(&MethodInfo_Void_System_Collections_IEnumerator_Reset);
-                    /* WARNING: Subroutine does not return */
-  il2cpp_glue_02274a00(__this_00,uVar1);
+  uVar1 = il2cpp_runtime_helper_023445d0(&MethodInfo_Void_System_Collections_IEnumerator_Reset);
+  il2cpp_runtime_helper_022b2b10(__this_00,uVar1);
+  return;
 }
 
 
 // Characters.DummyHuman.<LoadSkinCoroutine>d__9$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* Characters_DummyHuman__LoadSkinCoroutine_d__9__System_Collections_IEnumerator_get_Current (Characters_DummyHuman__LoadSkinCoroutine_d__9_o* __this, const MethodInfo* method);
-// 0x3fa4280
+// 0x42b0b20
 
 Il2CppObject *
-Characters_DummyHuman_<LoadSkinCoroutine>d__9__System_Collections_IEnumerator_get_Current
+Characters_DummyHuman__LoadSkinCoroutine_d__9__System_Collections_IEnumerator_get_Current
           (Characters_DummyHuman__LoadSkinCoroutine_d__9_o *__this,MethodInfo *method)
 
 {
@@ -1400,87 +1423,95 @@ Characters_DummyHuman_<LoadSkinCoroutine>d__9__System_Collections_IEnumerator_ge
 
 // Characters.DummyHuman$$Awake
 // il2cpp: void Characters_DummyHuman__Awake (Characters_DummyHuman_o* __this, const MethodInfo* method);
-// 0x3fa13e0
+// 0x42adc80
 
 void Characters_DummyHuman__Awake(Characters_DummyHuman_o *__this,MethodInfo *method)
 
 {
   Characters_HumanComponentCache_o **ppCVar1;
   Characters_HumanSetup_o **ppCVar2;
-  UnityEngine_Rigidbody_o *pUVar3;
-  bool_conflict bVar4;
-  UnityEngine_GameObject_o *pUVar5;
-  Characters_HumanComponentCache_o *pCVar6;
-  Characters_HumanSetup_o *pCVar7;
-  undefined1 auVar8 [16];
+  int iVar3;
+  UnityEngine_Rigidbody_o *__this_00;
+  Settings_HumanCustomSet_o *pSVar4;
+  bool_conflict bVar5;
+  UnityEngine_GameObject_o *pUVar6;
+  Characters_HumanComponentCache_o *pCVar7;
+  Characters_HumanSetup_o *pCVar8;
+  CustomSkins_HumanCustomSkinLoader_o *pCVar9;
+  System_String_o *a;
+  Characters_DummyHuman_o *__this_01;
+  Characters_DummyHuman_o *pCVar10;
+  CustomSkins_HumanCustomSkinLoader_o **ppCVar11;
+  undefined1 auVar12 [16];
   
-  if (DAT_05704030 == '\0') {
-    il2cpp_init_method_metadata(&MethodInfo_HumanSetup_AddComponent_HumanSetup);
-    il2cpp_init_method_metadata(&MethodInfo_HumanSetup_GetComponent_HumanSetup);
-    il2cpp_init_method_metadata(&TypeInfo_HumanComponentCache);
-    il2cpp_init_method_metadata(&TypeInfo_Object);
-    DAT_05704030 = '\x01';
+  if (g_data_057add9e == '\0') {
+    il2cpp_runtime_helper_023445d0(&MethodInfo_HumanSetup_AddComponent_HumanSetup);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_HumanSetup_GetComponent_HumanSetup);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanComponentCache);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
+    g_data_057add9e = '\x01';
   }
-  if (DAT_0570402f == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_AnimationHandler);
-    DAT_0570402f = '\x01';
+  if (g_data_057add9d == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_AnimationHandler);
+    g_data_057add9d = '\x01';
   }
-  pUVar5 = UnityEngine_Component__get_gameObject
-                     ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-  auVar8 = il2cpp_runtime_glue(TypeInfo_AnimationHandler);
-  Characters_AnimationHandler___ctor(auVar8._0_8_,pUVar5,auVar8._8_8_);
-  (__this->fields).Animation = auVar8._0_8_;
-  il2cpp_runtime_glue(&(__this->fields).Animation);
-  pUVar5 = UnityEngine_Component__get_gameObject
-                     ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-  pCVar6 = (Characters_HumanComponentCache_o *)il2cpp_runtime_glue(TypeInfo_HumanComponentCache);
-  Characters_HumanComponentCache___ctor(pCVar6,pUVar5,(MethodInfo *)0x0);
+  pUVar6 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+  auVar12 = il2cpp_runtime_helper_023052d0(TypeInfo_AnimationHandler);
+  Characters_AnimationHandler___ctor(auVar12._0_8_,pUVar6,auVar12._8_8_);
+  (__this->fields).Animation = auVar12._0_8_;
+  il2cpp_runtime_helper_022b4080(&(__this->fields).Animation);
+  pUVar6 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+  pCVar7 = (Characters_HumanComponentCache_o *)il2cpp_runtime_helper_023052d0(TypeInfo_HumanComponentCache);
+  Characters_HumanComponentCache___ctor(pCVar7,pUVar6,(MethodInfo *)0x0);
   ppCVar1 = &(__this->fields).Cache;
-  (__this->fields).Cache = pCVar6;
-  il2cpp_runtime_glue(ppCVar1,pCVar6);
-  pCVar6 = (__this->fields).Cache;
-  if ((pCVar6 != (Characters_HumanComponentCache_o *)0x0) &&
-     (pUVar3 = (pCVar6->fields).Rigidbody, pUVar3 != (UnityEngine_Rigidbody_o *)0x0)) {
-    UnityEngine_Rigidbody__set_freezeRotation(pUVar3,1,(MethodInfo *)0x0);
+  (__this->fields).Cache = pCVar7;
+  __this_01 = (Characters_DummyHuman_o *)ppCVar1;
+  il2cpp_runtime_helper_022b4080();
+  pCVar7 = (__this->fields).Cache;
+  if ((pCVar7 != (Characters_HumanComponentCache_o *)0x0) &&
+     (__this_01 = (Characters_DummyHuman_o *)(pCVar7->fields).Rigidbody,
+     __this_01 != (Characters_DummyHuman_o *)0x0)) {
+    UnityEngine_Rigidbody__set_freezeRotation((UnityEngine_Rigidbody_o *)__this_01,1,(MethodInfo *)0x0);
     if ((*ppCVar1 != (Characters_HumanComponentCache_o *)0x0) &&
-       (pUVar3 = ((*ppCVar1)->fields).Rigidbody, pUVar3 != (UnityEngine_Rigidbody_o *)0x0)) {
-      UnityEngine_Rigidbody__set_useGravity(pUVar3,0,(MethodInfo *)0x0);
+       (__this_01 = (Characters_DummyHuman_o *)((*ppCVar1)->fields).Rigidbody,
+       __this_01 != (Characters_DummyHuman_o *)0x0)) {
+      UnityEngine_Rigidbody__set_useGravity((UnityEngine_Rigidbody_o *)__this_01,0,(MethodInfo *)0x0);
       if (*ppCVar1 != (Characters_HumanComponentCache_o *)0x0) {
-        pUVar3 = ((*ppCVar1)->fields).Rigidbody;
-        if (DAT_056fdd15 == '\0') {
-          il2cpp_init_method_metadata(&TypeInfo_Vector3);
-          DAT_056fdd15 = '\x01';
+        __this_00 = ((*ppCVar1)->fields).Rigidbody;
+        if (g_data_057a65d5 == '\0') {
+          __this_01 = (Characters_DummyHuman_o *)&TypeInfo_Vector3;
+          il2cpp_runtime_helper_023445d0();
+          g_data_057a65d5 = '\x01';
         }
-        if (pUVar3 != (UnityEngine_Rigidbody_o *)0x0) {
+        if (__this_00 != (UnityEngine_Rigidbody_o *)0x0) {
           UnityEngine_Rigidbody__set_velocity
-                    (pUVar3,(UnityEngine_Vector3_o)
-                            **(UnityEngine_Vector3_Fields **)(TypeInfo_Vector3 + 0xb8),(MethodInfo *)0x0
-                    );
-          pUVar5 = UnityEngine_Component__get_gameObject
-                             ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-          if (pUVar5 != (UnityEngine_GameObject_o *)0x0) {
-            pCVar7 = (Characters_HumanSetup_o *)
-                     UnityEngine_GameObject__GetComponent<object>(pUVar5,MethodInfo_HumanSetup_GetComponent_HumanSetup);
+                    (__this_00,(UnityEngine_Vector3_o)**(UnityEngine_Vector3_Fields **)(TypeInfo_Vector3 + 0xb8),
+                     (MethodInfo *)0x0);
+          __this_01 = __this;
+          pUVar6 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+          if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
+            pCVar8 = (Characters_HumanSetup_o *)
+                     UnityEngine_GameObject__GetComponent_object_(pUVar6,MethodInfo_HumanSetup_GetComponent_HumanSetup);
             ppCVar2 = &(__this->fields).Setup;
-            (__this->fields).Setup = pCVar7;
-            il2cpp_runtime_glue(ppCVar2);
-            pCVar7 = (__this->fields).Setup;
+            (__this->fields).Setup = pCVar8;
+            il2cpp_runtime_helper_022b4080(ppCVar2);
+            pCVar8 = (__this->fields).Setup;
             if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-              il2cpp_init_class();
+              il2cpp_runtime_helper_02337ed0();
             }
-            bVar4 = UnityEngine_Object__op_Equality
-                              ((UnityEngine_Object_o *)pCVar7,(UnityEngine_Object_o *)0x0,
-                               (MethodInfo *)0x0);
-            if ((char)bVar4 == '\0') {
+            bVar5 = UnityEngine_Object__op_Equality
+                              ((UnityEngine_Object_o *)pCVar8,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+            if ((char)bVar5 == '\0') {
               return;
             }
-            pUVar5 = UnityEngine_Component__get_gameObject
+            pUVar6 = UnityEngine_Component__get_gameObject
                                ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-            if (pUVar5 != (UnityEngine_GameObject_o *)0x0) {
-              pCVar7 = (Characters_HumanSetup_o *)
-                       UnityEngine_GameObject__AddComponent<object>(pUVar5,MethodInfo_HumanSetup_AddComponent_HumanSetup);
-              *ppCVar2 = pCVar7;
-              il2cpp_runtime_glue(ppCVar2,pCVar7);
+            __this_01 = __this;
+            if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
+              pCVar8 = (Characters_HumanSetup_o *)
+                       UnityEngine_GameObject__AddComponent_object_(pUVar6,MethodInfo_HumanSetup_AddComponent_HumanSetup);
+              *ppCVar2 = pCVar8;
+              il2cpp_runtime_helper_022b4080(ppCVar2,pCVar8);
               return;
             }
           }
@@ -1488,47 +1519,235 @@ void Characters_DummyHuman__Awake(Characters_DummyHuman_o *__this,MethodInfo *me
       }
     }
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  if (g_data_057add9f == '\0') {
+    il2cpp_runtime_helper_023445d0(&MethodInfo_HumanCustomSkinLoader_AddComponent_HumanCustomSkinLoader);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
+    g_data_057add9f = '\x01';
+  }
+  pCVar9 = (__this_01->fields)._customSkinLoader;
+  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
+    il2cpp_runtime_helper_02337ed0();
+  }
+  bVar5 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)pCVar9,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if ((char)bVar5 == '\0') {
+    return;
+  }
+  a = (System_String_o *)0x0;
+  pCVar10 = __this_01;
+  pUVar6 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this_01,(MethodInfo *)0x0);
+  if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
+    ppCVar11 = &(__this_01->fields)._customSkinLoader;
+    pCVar9 = (CustomSkins_HumanCustomSkinLoader_o *)
+             UnityEngine_GameObject__AddComponent_object_(pUVar6,MethodInfo_HumanCustomSkinLoader_AddComponent_HumanCustomSkinLoader);
+    *ppCVar11 = pCVar9;
+    il2cpp_runtime_helper_022b4080(ppCVar11,pCVar9);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  if (g_data_057adda0 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanAnimations);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
+    g_data_057adda0 = '\x01';
+  }
+  pCVar8 = (pCVar10->fields).Setup;
+  if (((pCVar8 != (Characters_HumanSetup_o *)0x0) &&
+      (pSVar4 = (pCVar8->fields).CustomSet, pSVar4 != (Settings_HumanCustomSet_o *)0x0)) &&
+     ((pSVar4->fields).Sex != (Settings_IntSetting_o *)0x0)) {
+    if (((pCVar8->fields).Weapon | 2U) == 3) {
+      if (*(int *)(TypeInfo_HumanAnimations + 0xe4) == 0) {
+        il2cpp_runtime_helper_02337ed0();
+      }
+    }
+    else if (*(int *)(TypeInfo_HumanAnimations + 0xe4) == 0) {
+      il2cpp_runtime_helper_02337ed0();
+    }
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  if (g_data_057adda1 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanAnimations);
+    il2cpp_runtime_helper_023445d0(&"Wave");
+    il2cpp_runtime_helper_023445d0(&"Shake");
+    il2cpp_runtime_helper_023445d0(&"Nod");
+    il2cpp_runtime_helper_023445d0(&"Eat");
+    il2cpp_runtime_helper_023445d0(&"Dance");
+    il2cpp_runtime_helper_023445d0(&"Salute");
+    il2cpp_runtime_helper_023445d0(&"Flip");
+    g_data_057adda1 = '\x01';
+  }
+  if (*(int *)(TypeInfo_HumanAnimations + 0xe4) == 0) {
+    il2cpp_runtime_helper_02337ed0();
+  }
+  bVar5 = System_String__op_Equality(a,"Salute",(MethodInfo *)0x0);
+  if ((char)bVar5 == '\0') {
+    bVar5 = System_String__op_Equality(a,"Dance",(MethodInfo *)0x0);
+    if ((char)bVar5 == '\0') {
+      bVar5 = System_String__op_Equality(a,"Flip",(MethodInfo *)0x0);
+      if ((char)bVar5 == '\0') {
+        bVar5 = System_String__op_Equality(a,"Wave",(MethodInfo *)0x0);
+        if ((char)bVar5 == '\0') {
+          bVar5 = System_String__op_Equality(a,"Nod",(MethodInfo *)0x0);
+          if ((char)bVar5 == '\0') {
+            bVar5 = System_String__op_Equality(a,"Shake",(MethodInfo *)0x0);
+            if ((char)bVar5 == '\0') {
+              bVar5 = System_String__op_Equality(a,"Eat",(MethodInfo *)0x0);
+              if ((char)bVar5 == '\0') {
+                return;
+              }
+              iVar3 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+            }
+            else {
+              iVar3 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+            }
+          }
+          else {
+            iVar3 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+          }
+        }
+        else {
+          iVar3 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+        }
+      }
+      else {
+        iVar3 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+      }
+    }
+    else {
+      iVar3 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+    }
+  }
+  else {
+    iVar3 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+  }
+  if (iVar3 == 0) {
+    il2cpp_runtime_helper_02337ed0();
+  }
+  return;
 }
 
 
 // Characters.DummyHuman$$Start
 // il2cpp: void Characters_DummyHuman__Start (Characters_DummyHuman_o* __this, const MethodInfo* method);
-// 0x3fa1610
+// 0x42adeb0
 
 void Characters_DummyHuman__Start(Characters_DummyHuman_o *__this,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
+  int iVar1;
+  Characters_HumanSetup_o *pCVar2;
+  Settings_HumanCustomSet_o *pSVar3;
+  bool_conflict bVar4;
   UnityEngine_GameObject_o *__this_00;
-  CustomSkins_HumanCustomSkinLoader_o *pCVar2;
-  CustomSkins_HumanCustomSkinLoader_o **ppCVar3;
+  CustomSkins_HumanCustomSkinLoader_o *pCVar5;
+  System_String_o *a;
+  Characters_DummyHuman_o *pCVar6;
+  CustomSkins_HumanCustomSkinLoader_o **ppCVar7;
   
-  if (DAT_05704031 == '\0') {
-    il2cpp_init_method_metadata(&MethodInfo_HumanCustomSkinLoader_AddComponent_HumanCustomSk);
-    il2cpp_init_method_metadata(&TypeInfo_Object);
-    DAT_05704031 = '\x01';
+  if (g_data_057add9f == '\0') {
+    il2cpp_runtime_helper_023445d0(&MethodInfo_HumanCustomSkinLoader_AddComponent_HumanCustomSkinLoader);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
+    g_data_057add9f = '\x01';
   }
-  pCVar2 = (__this->fields)._customSkinLoader;
+  pCVar5 = (__this->fields)._customSkinLoader;
   if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
-  bVar1 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)pCVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar1 != '\0') {
-    __this_00 = UnityEngine_Component__get_gameObject
-                          ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-    if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
-      ppCVar3 = &(__this->fields)._customSkinLoader;
-      pCVar2 = (CustomSkins_HumanCustomSkinLoader_o *)
-               UnityEngine_GameObject__AddComponent<object>(__this_00,MethodInfo_HumanCustomSkinLoader_AddComponent_HumanCustomSk);
-      *ppCVar3 = pCVar2;
-      il2cpp_runtime_glue(ppCVar3,pCVar2);
-      return;
+  bVar4 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)pCVar5,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if ((char)bVar4 == '\0') {
+    return;
+  }
+  a = (System_String_o *)0x0;
+  pCVar6 = __this;
+  __this_00 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+  if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
+    ppCVar7 = &(__this->fields)._customSkinLoader;
+    pCVar5 = (CustomSkins_HumanCustomSkinLoader_o *)
+             UnityEngine_GameObject__AddComponent_object_(__this_00,MethodInfo_HumanCustomSkinLoader_AddComponent_HumanCustomSkinLoader);
+    *ppCVar7 = pCVar5;
+    il2cpp_runtime_helper_022b4080(ppCVar7,pCVar5);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  if (g_data_057adda0 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanAnimations);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
+    g_data_057adda0 = '\x01';
+  }
+  pCVar2 = (pCVar6->fields).Setup;
+  if (((pCVar2 != (Characters_HumanSetup_o *)0x0) &&
+      (pSVar3 = (pCVar2->fields).CustomSet, pSVar3 != (Settings_HumanCustomSet_o *)0x0)) &&
+     ((pSVar3->fields).Sex != (Settings_IntSetting_o *)0x0)) {
+    if (((pCVar2->fields).Weapon | 2U) == 3) {
+      if (*(int *)(TypeInfo_HumanAnimations + 0xe4) == 0) {
+        il2cpp_runtime_helper_02337ed0();
+      }
     }
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
+    else if (*(int *)(TypeInfo_HumanAnimations + 0xe4) == 0) {
+      il2cpp_runtime_helper_02337ed0();
+    }
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  if (g_data_057adda1 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanAnimations);
+    il2cpp_runtime_helper_023445d0(&"Wave");
+    il2cpp_runtime_helper_023445d0(&"Shake");
+    il2cpp_runtime_helper_023445d0(&"Nod");
+    il2cpp_runtime_helper_023445d0(&"Eat");
+    il2cpp_runtime_helper_023445d0(&"Dance");
+    il2cpp_runtime_helper_023445d0(&"Salute");
+    il2cpp_runtime_helper_023445d0(&"Flip");
+    g_data_057adda1 = '\x01';
+  }
+  if (*(int *)(TypeInfo_HumanAnimations + 0xe4) == 0) {
+    il2cpp_runtime_helper_02337ed0();
+  }
+  bVar4 = System_String__op_Equality(a,"Salute",(MethodInfo *)0x0);
+  if ((char)bVar4 == '\0') {
+    bVar4 = System_String__op_Equality(a,"Dance",(MethodInfo *)0x0);
+    if ((char)bVar4 == '\0') {
+      bVar4 = System_String__op_Equality(a,"Flip",(MethodInfo *)0x0);
+      if ((char)bVar4 == '\0') {
+        bVar4 = System_String__op_Equality(a,"Wave",(MethodInfo *)0x0);
+        if ((char)bVar4 == '\0') {
+          bVar4 = System_String__op_Equality(a,"Nod",(MethodInfo *)0x0);
+          if ((char)bVar4 == '\0') {
+            bVar4 = System_String__op_Equality(a,"Shake",(MethodInfo *)0x0);
+            if ((char)bVar4 == '\0') {
+              bVar4 = System_String__op_Equality(a,"Eat",(MethodInfo *)0x0);
+              if ((char)bVar4 == '\0') {
+                return;
+              }
+              iVar1 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+            }
+            else {
+              iVar1 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+            }
+          }
+          else {
+            iVar1 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+          }
+        }
+        else {
+          iVar1 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+        }
+      }
+      else {
+        iVar1 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+      }
+    }
+    else {
+      iVar1 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+    }
+  }
+  else {
+    iVar1 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+  }
+  if (iVar1 == 0) {
+    il2cpp_runtime_helper_02337ed0();
   }
   return;
 }
@@ -1536,10 +1755,9 @@ void Characters_DummyHuman__Start(Characters_DummyHuman_o *__this,MethodInfo *me
 
 // Characters.DummyHuman$$GetIdleAnimation
 // il2cpp: System_String_o* Characters_DummyHuman__GetIdleAnimation (Characters_DummyHuman_o* __this, const MethodInfo* method);
-// 0x3fa16c0
+// 0x42adf60
 
-System_String_o *
-Characters_DummyHuman__GetIdleAnimation(Characters_DummyHuman_o *__this,MethodInfo *method)
+System_String_o * Characters_DummyHuman__GetIdleAnimation(Characters_DummyHuman_o *__this,MethodInfo *method)
 
 {
   int iVar1;
@@ -1547,13 +1765,15 @@ Characters_DummyHuman__GetIdleAnimation(Characters_DummyHuman_o *__this,MethodIn
   Characters_HumanSetup_o *pCVar3;
   Settings_HumanCustomSet_o *pSVar4;
   Settings_IntSetting_o *pSVar5;
-  long lVar6;
-  undefined8 *puVar7;
+  System_String_o *pSVar6;
+  bool_conflict bVar7;
+  undefined8 *puVar8;
+  long lVar9;
   
-  if (DAT_05704032 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_HumanAnimations);
-    il2cpp_init_method_metadata(&MethodInfo_Int32_get_Value);
-    DAT_05704032 = '\x01';
+  if (g_data_057adda0 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanAnimations);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
+    g_data_057adda0 = '\x01';
   }
   pCVar3 = (__this->fields).Setup;
   if (((pCVar3 != (Characters_HumanSetup_o *)0x0) &&
@@ -1563,52 +1783,118 @@ Characters_DummyHuman__GetIdleAnimation(Characters_DummyHuman_o *__this,MethodIn
     uVar2 = (pCVar3->fields).Weapon;
     if ((uVar2 | 2) == 3) {
       if (*(int *)(TypeInfo_HumanAnimations + 0xe4) == 0) {
-        il2cpp_init_class();
-        lVar6 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
+        il2cpp_runtime_helper_02337ed0();
+        lVar9 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
       }
       else {
-        lVar6 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
+        lVar9 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
       }
       if (iVar1 == 0) {
-        puVar7 = (undefined8 *)(lVar6 + 0x30);
+        puVar8 = (undefined8 *)(lVar9 + 0x30);
       }
       else {
-        puVar7 = (undefined8 *)(lVar6 + 0x38);
+        puVar8 = (undefined8 *)(lVar9 + 0x38);
       }
     }
     else {
       if (*(int *)(TypeInfo_HumanAnimations + 0xe4) == 0) {
-        il2cpp_init_class();
-        lVar6 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
+        il2cpp_runtime_helper_02337ed0();
+        lVar9 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
       }
       else {
-        lVar6 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
+        lVar9 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
       }
       if (uVar2 == 2) {
         if (iVar1 == 0) {
-          puVar7 = (undefined8 *)(lVar6 + 0x48);
+          puVar8 = (undefined8 *)(lVar9 + 0x48);
         }
         else {
-          puVar7 = (undefined8 *)(lVar6 + 0x40);
+          puVar8 = (undefined8 *)(lVar9 + 0x40);
         }
       }
       else if (iVar1 == 0) {
-        puVar7 = (undefined8 *)(lVar6 + 0x28);
+        puVar8 = (undefined8 *)(lVar9 + 0x28);
       }
       else {
-        puVar7 = (undefined8 *)(lVar6 + 0x20);
+        puVar8 = (undefined8 *)(lVar9 + 0x20);
       }
     }
-    return (System_String_o *)*puVar7;
+    return (System_String_o *)*puVar8;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  if (g_data_057adda1 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanAnimations);
+    il2cpp_runtime_helper_023445d0(&"Wave");
+    il2cpp_runtime_helper_023445d0(&"Shake");
+    il2cpp_runtime_helper_023445d0(&"Nod");
+    il2cpp_runtime_helper_023445d0(&"Eat");
+    il2cpp_runtime_helper_023445d0(&"Dance");
+    il2cpp_runtime_helper_023445d0(&"Salute");
+    il2cpp_runtime_helper_023445d0(&"Flip");
+    g_data_057adda1 = '\x01';
+  }
+  if (*(int *)(TypeInfo_HumanAnimations + 0xe4) == 0) {
+    il2cpp_runtime_helper_02337ed0();
+  }
+  pSVar6 = *(System_String_o **)(*(long *)(TypeInfo_HumanAnimations + 0xb8) + 0x228);
+  bVar7 = System_String__op_Equality((System_String_o *)method,"Salute",(MethodInfo *)0x0);
+  if ((char)bVar7 == '\0') {
+    bVar7 = System_String__op_Equality((System_String_o *)method,"Dance",(MethodInfo *)0x0);
+    if ((char)bVar7 == '\0') {
+      bVar7 = System_String__op_Equality((System_String_o *)method,"Flip",(MethodInfo *)0x0);
+      if ((char)bVar7 == '\0') {
+        bVar7 = System_String__op_Equality((System_String_o *)method,"Wave",(MethodInfo *)0x0);
+        if ((char)bVar7 == '\0') {
+          bVar7 = System_String__op_Equality((System_String_o *)method,"Nod",(MethodInfo *)0x0);
+          if ((char)bVar7 == '\0') {
+            bVar7 = System_String__op_Equality((System_String_o *)method,"Shake",(MethodInfo *)0x0);
+            if ((char)bVar7 == '\0') {
+              bVar7 = System_String__op_Equality((System_String_o *)method,"Eat",(MethodInfo *)0x0);
+              if ((char)bVar7 == '\0') {
+                return pSVar6;
+              }
+              lVar9 = 0x1f0;
+              iVar1 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+            }
+            else {
+              lVar9 = 0x230;
+              iVar1 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+            }
+          }
+          else {
+            lVar9 = 0x238;
+            iVar1 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+          }
+        }
+        else {
+          lVar9 = 0x240;
+          iVar1 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+        }
+      }
+      else {
+        lVar9 = 0x70;
+        iVar1 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+      }
+    }
+    else {
+      lVar9 = 0x1d8;
+      iVar1 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+    }
+  }
+  else {
+    lVar9 = 0x228;
+    iVar1 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
+  }
+  if (iVar1 == 0) {
+    il2cpp_runtime_helper_02337ed0();
+  }
+  return *(System_String_o **)(*(long *)(TypeInfo_HumanAnimations + 0xb8) + lVar9);
 }
 
 
 // Characters.DummyHuman$$GetEmoteAnimation
 // il2cpp: System_String_o* Characters_DummyHuman__GetEmoteAnimation (Characters_DummyHuman_o* __this, System_String_o* emote, const MethodInfo* method);
-// 0x3fa17d0
+// 0x42ae070
 
 System_String_o *
 Characters_DummyHuman__GetEmoteAnimation
@@ -1620,19 +1906,19 @@ Characters_DummyHuman__GetEmoteAnimation
   bool_conflict bVar3;
   long lVar4;
   
-  if (DAT_05704033 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_HumanAnimations);
-    il2cpp_init_method_metadata(&"Wave");
-    il2cpp_init_method_metadata(&"Shake");
-    il2cpp_init_method_metadata(&"Nod");
-    il2cpp_init_method_metadata(&"Eat");
-    il2cpp_init_method_metadata(&"Dance");
-    il2cpp_init_method_metadata(&"Salute");
-    il2cpp_init_method_metadata(&"Flip");
-    DAT_05704033 = '\x01';
+  if (g_data_057adda1 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanAnimations);
+    il2cpp_runtime_helper_023445d0(&"Wave");
+    il2cpp_runtime_helper_023445d0(&"Shake");
+    il2cpp_runtime_helper_023445d0(&"Nod");
+    il2cpp_runtime_helper_023445d0(&"Eat");
+    il2cpp_runtime_helper_023445d0(&"Dance");
+    il2cpp_runtime_helper_023445d0(&"Salute");
+    il2cpp_runtime_helper_023445d0(&"Flip");
+    g_data_057adda1 = '\x01';
   }
   if (*(int *)(TypeInfo_HumanAnimations + 0xe4) == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
   pSVar2 = *(System_String_o **)(*(long *)(TypeInfo_HumanAnimations + 0xb8) + 0x228);
   bVar3 = System_String__op_Equality(emote,"Salute",(MethodInfo *)0x0);
@@ -1684,7 +1970,7 @@ Characters_DummyHuman__GetEmoteAnimation
     iVar1 = *(int *)(TypeInfo_HumanAnimations + 0xe4);
   }
   if (iVar1 == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
   return *(System_String_o **)(*(long *)(TypeInfo_HumanAnimations + 0xb8) + lVar4);
 }
@@ -1692,66 +1978,95 @@ Characters_DummyHuman__GetEmoteAnimation
 
 // Characters.DummyHuman$$LoadSkin
 // il2cpp: void Characters_DummyHuman__LoadSkin (Characters_DummyHuman_o* __this, const MethodInfo* method);
-// 0x3fa19e0
+// 0x42ae280
 
 void Characters_DummyHuman__LoadSkin(Characters_DummyHuman_o *__this,MethodInfo *method)
 
 {
-  Il2CppObject *__this_00;
+  Il2CppClass *__this_00;
+  Il2CppObject *__this_01;
+  undefined4 uVar1;
+  Il2CppClass *pIVar2;
+  Il2CppObject *__this_02;
   
   if ((char)(__this->fields)._isLoadingSkins != '\0') {
     return;
   }
-  if (DAT_05704034 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_LoadSkinCoroutine_d__9);
-    DAT_05704034 = '\x01';
+  if (g_data_057adda2 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_LoadSkinCoroutine_d__9);
+    g_data_057adda2 = '\x01';
   }
-  __this_00 = (Il2CppObject *)il2cpp_runtime_glue(TypeInfo_LoadSkinCoroutine_d__9);
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_00[1].klass = 0;
-  if (__this_00 != (Il2CppObject *)0x0) {
-    __this_00[2].klass = (Il2CppClass *)__this;
-    il2cpp_runtime_glue(__this_00 + 2,__this);
-    UnityEngine_MonoBehaviour__StartCoroutine
+  __this_00 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_LoadSkinCoroutine_d__9);
+  pIVar2 = __this_00;
+  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
+  *(undefined4 *)&(__this_00->_1).name = 0;
+  if (__this_00 != (Il2CppClass *)0x0) {
+    (__this_00->_1).byval_arg.data = __this;
+    il2cpp_runtime_helper_022b4080(&(__this_00->_1).byval_arg,__this);
+    UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
               ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)__this_00,
                (MethodInfo *)0x0);
     return;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  if (g_data_057adda2 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_LoadSkinCoroutine_d__9);
+    g_data_057adda2 = '\x01';
+  }
+  __this_01 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_LoadSkinCoroutine_d__9);
+  uVar1 = 0;
+  __this_02 = __this_01;
+  System_Object___ctor(__this_01,(MethodInfo *)0x0);
+  *(undefined4 *)&__this_01[1].klass = 0;
+  if (__this_01 != (Il2CppObject *)0x0) {
+    __this_01[2].klass = pIVar2;
+    il2cpp_runtime_helper_022b4080(__this_01 + 2,pIVar2);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  System_Object___ctor(__this_02,(MethodInfo *)0x0);
+  *(undefined4 *)&__this_02[1].klass = uVar1;
+  return;
 }
 
 
 // Characters.DummyHuman$$LoadSkinCoroutine
 // il2cpp: System_Collections_IEnumerator_o* Characters_DummyHuman__LoadSkinCoroutine (Characters_DummyHuman_o* __this, const MethodInfo* method);
-// 0x3fa1a70
+// 0x42ae310
 
 System_Collections_IEnumerator_o *
 Characters_DummyHuman__LoadSkinCoroutine(Characters_DummyHuman_o *__this,MethodInfo *method)
 
 {
   Il2CppObject *__this_00;
+  System_Collections_IEnumerator_o *extraout_RAX;
+  undefined4 uVar1;
+  Il2CppObject *__this_01;
   
-  if (DAT_05704034 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_LoadSkinCoroutine_d__9);
-    DAT_05704034 = '\x01';
+  if (g_data_057adda2 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_LoadSkinCoroutine_d__9);
+    g_data_057adda2 = '\x01';
   }
-  __this_00 = (Il2CppObject *)il2cpp_runtime_glue(TypeInfo_LoadSkinCoroutine_d__9);
+  __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_LoadSkinCoroutine_d__9);
+  uVar1 = 0;
+  __this_01 = __this_00;
   System_Object___ctor(__this_00,(MethodInfo *)0x0);
   *(undefined4 *)&__this_00[1].klass = 0;
   if (__this_00 != (Il2CppObject *)0x0) {
     __this_00[2].klass = (Il2CppClass *)__this;
-    il2cpp_runtime_glue(__this_00 + 2,__this);
+    il2cpp_runtime_helper_022b4080(__this_00 + 2,__this);
     return (System_Collections_IEnumerator_o *)__this_00;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  System_Object___ctor(__this_01,(MethodInfo *)0x0);
+  *(undefined4 *)&__this_01[1].klass = uVar1;
+  return extraout_RAX;
 }
 
 
 // Characters.DummyHuman$$.ctor
 // il2cpp: void Characters_DummyHuman___ctor (Characters_DummyHuman_o* __this, const MethodInfo* method);
-// 0x3fa1b00
+// 0x42ae3a0
 
 void Characters_DummyHuman___ctor(Characters_DummyHuman_o *__this,MethodInfo *method)
 
@@ -1763,10 +2078,10 @@ void Characters_DummyHuman___ctor(Characters_DummyHuman_o *__this,MethodInfo *me
 
 // Characters.DummyHuman$$<LoadSkinCoroutine>g__GetSkinValue|9_1
 // il2cpp: System_String_o* Characters_DummyHuman___LoadSkinCoroutine_g__GetSkinValue_9_1 (System_String_o* globalValue, System_String_o* presetValue, Characters_DummyHuman___c__DisplayClass9_0_o* , const MethodInfo* method);
-// 0x3fa1b10
+// 0x42ae3b0
 
 System_String_o *
-Characters_DummyHuman__<LoadSkinCoroutine>g__GetSkinValue_9_1
+Characters_DummyHuman___LoadSkinCoroutine_g__GetSkinValue_9_1
           (System_String_o *globalValue,System_String_o *presetValue,
           Characters_DummyHuman___c__DisplayClass9_0_o *param_3,MethodInfo *method)
 
@@ -1779,8 +2094,8 @@ Characters_DummyHuman__<LoadSkinCoroutine>g__GetSkinValue_9_1
     if (((char)(param_3->fields).useGlobalOverrides == '\0') ||
        ((param_3->fields).globalSet == (Settings_HumanCustomSkinSet_o *)0x0)) {
       if ((cVar1 == '\0') || ((param_3->fields).presetSet == (Settings_HumanCustomSet_o *)0x0))
-      goto LAB_03fa1b7d;
-      goto LAB_03fa1b6c;
+      goto label_042ae41d;
+      goto label_042ae40c;
     }
     bVar2 = System_String__IsNullOrEmpty(globalValue,(MethodInfo *)0x0);
     cVar1 = (char)bVar2;
@@ -1788,11 +2103,10 @@ Characters_DummyHuman__<LoadSkinCoroutine>g__GetSkinValue_9_1
   else {
     if (((char)(param_3->fields).useGlobalOverrides != '\0') &&
        (((param_3->fields).globalSet != (Settings_HumanCustomSkinSet_o *)0x0 &&
-        (bVar2 = System_String__IsNullOrEmpty(globalValue,(MethodInfo *)0x0), (char)bVar2 == '\0')))
-       ) {
+        (bVar2 = System_String__IsNullOrEmpty(globalValue,(MethodInfo *)0x0), (char)bVar2 == '\0')))) {
       return globalValue;
     }
-LAB_03fa1b6c:
+label_042ae40c:
     bVar2 = System_String__IsNullOrEmpty(presetValue,(MethodInfo *)0x0);
     cVar1 = (char)bVar2;
     globalValue = presetValue;
@@ -1800,18 +2114,18 @@ LAB_03fa1b6c:
   if (cVar1 == '\0') {
     return globalValue;
   }
-LAB_03fa1b7d:
-  return (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
+label_042ae41d:
+  return (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
 }
 
 
 // Characters.DummyHuman$$<LoadSkinCoroutine>g__GetFloatValue|9_2
 // il2cpp: float Characters_DummyHuman___LoadSkinCoroutine_g__GetFloatValue_9_2 (float globalValue, float presetValue, Characters_DummyHuman___c__DisplayClass9_0_o* , const MethodInfo* method);
-// 0x3fa1ba0
+// 0x42ae440
 
-float Characters_DummyHuman__<LoadSkinCoroutine>g__GetFloatValue_9_2
-                (float globalValue,float presetValue,
-                Characters_DummyHuman___c__DisplayClass9_0_o *param_3,MethodInfo *method)
+float Characters_DummyHuman___LoadSkinCoroutine_g__GetFloatValue_9_2
+                (float globalValue,float presetValue,Characters_DummyHuman___c__DisplayClass9_0_o *param_3,
+                MethodInfo *method)
 
 {
   char cVar1;
@@ -1821,8 +2135,7 @@ float Characters_DummyHuman__<LoadSkinCoroutine>g__GetFloatValue_9_2
     if ((((char)(param_3->fields).useGlobalOverrides == '\0') ||
         ((param_3->fields).globalSet == (Settings_HumanCustomSkinSet_o *)0x0)) &&
        ((cVar1 == '\0' ||
-        (globalValue = presetValue, (param_3->fields).presetSet == (Settings_HumanCustomSet_o *)0x0)
-        ))) {
+        (globalValue = presetValue, (param_3->fields).presetSet == (Settings_HumanCustomSet_o *)0x0)))) {
       return 1.0;
     }
   }

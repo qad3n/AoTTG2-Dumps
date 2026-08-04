@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.Fisheye
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/Fisheye.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -28,20 +35,20 @@ public class Fisheye : PostEffectsBase
 	private Material fisheyeMaterial;
 
 	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x415D170", Offset = "0x415D170", VA = "0x415D170", Slot = "4")]
+	[Address(RVA = "0x4482270", Offset = "0x4482270", VA = "0x4482270", Slot = "4")]
 	public override bool CheckResources()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000059")]
-	[Address(RVA = "0x415D230", Offset = "0x415D230", VA = "0x415D230")]
+	[Address(RVA = "0x4482330", Offset = "0x4482330", VA = "0x4482330")]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x600005A")]
-	[Address(RVA = "0x415D360", Offset = "0x415D360", VA = "0x415D360")]
+	[Address(RVA = "0x4482460", Offset = "0x4482460", VA = "0x4482460")]
 	public Fisheye()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.TimeValue
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -25,7 +32,7 @@ public struct TimeValue : IEquatable<TimeValue>
 			public override string Name
 			{
 				[Token(Token = "0x6001709")]
-				[Address(RVA = "0x4D89CB0", Offset = "0x4D89CB0", VA = "0x4D89CB0", Slot = "7")]
+				[Address(RVA = "0x50B15E0", Offset = "0x50B15E0", VA = "0x50B15E0", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -34,7 +41,7 @@ public struct TimeValue : IEquatable<TimeValue>
 			}
 
 			[Token(Token = "0x600170A")]
-			[Address(RVA = "0x4D89BF0", Offset = "0x4D89BF0", VA = "0x4D89BF0")]
+			[Address(RVA = "0x50B1520", Offset = "0x50B1520", VA = "0x50B1520")]
 			public ValueProperty()
 			{
 			}
@@ -53,7 +60,7 @@ public struct TimeValue : IEquatable<TimeValue>
 			public override string Name
 			{
 				[Token(Token = "0x600170B")]
-				[Address(RVA = "0x4D89CC0", Offset = "0x4D89CC0", VA = "0x4D89CC0", Slot = "7")]
+				[Address(RVA = "0x50B15F0", Offset = "0x50B15F0", VA = "0x50B15F0", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -62,14 +69,14 @@ public struct TimeValue : IEquatable<TimeValue>
 			}
 
 			[Token(Token = "0x600170C")]
-			[Address(RVA = "0x4D89C50", Offset = "0x4D89C50", VA = "0x4D89C50")]
+			[Address(RVA = "0x50B1580", Offset = "0x50B1580", VA = "0x50B1580")]
 			public UnitProperty()
 			{
 			}
 		}
 
 		[Token(Token = "0x6001708")]
-		[Address(RVA = "0x4D89A60", Offset = "0x4D89A60", VA = "0x4D89A60")]
+		[Address(RVA = "0x50B1390", Offset = "0x50B1390", VA = "0x50B1390")]
 		public PropertyBag()
 		{
 		}
@@ -87,7 +94,7 @@ public struct TimeValue : IEquatable<TimeValue>
 	public float value
 	{
 		[Token(Token = "0x60016FD")]
-		[Address(RVA = "0x4D89820", Offset = "0x4D89820", VA = "0x4D89820")]
+		[Address(RVA = "0x50B1150", Offset = "0x50B1150", VA = "0x50B1150")]
 		get
 		{
 			return default(float);
@@ -98,7 +105,7 @@ public struct TimeValue : IEquatable<TimeValue>
 	public TimeUnit unit
 	{
 		[Token(Token = "0x60016FE")]
-		[Address(RVA = "0x4D89830", Offset = "0x4D89830", VA = "0x4D89830")]
+		[Address(RVA = "0x50B1160", Offset = "0x50B1160", VA = "0x50B1160")]
 		get
 		{
 			return default(TimeUnit);
@@ -106,61 +113,61 @@ public struct TimeValue : IEquatable<TimeValue>
 	}
 
 	[Token(Token = "0x60016FF")]
-	[Address(RVA = "0x4D89840", Offset = "0x4D89840", VA = "0x4D89840")]
+	[Address(RVA = "0x50B1170", Offset = "0x50B1170", VA = "0x50B1170")]
 	public TimeValue(float value)
 	{
 	}
 
 	[Token(Token = "0x6001700")]
-	[Address(RVA = "0x4D89850", Offset = "0x4D89850", VA = "0x4D89850")]
+	[Address(RVA = "0x50B1180", Offset = "0x50B1180", VA = "0x50B1180")]
 	public TimeValue(float value, TimeUnit unit)
 	{
 	}
 
 	[Token(Token = "0x6001701")]
-	[Address(RVA = "0x4D89860", Offset = "0x4D89860", VA = "0x4D89860")]
+	[Address(RVA = "0x50B1190", Offset = "0x50B1190", VA = "0x50B1190")]
 	public static implicit operator TimeValue(float value)
 	{
 		return default(TimeValue);
 	}
 
 	[Token(Token = "0x6001702")]
-	[Address(RVA = "0x4D89870", Offset = "0x4D89870", VA = "0x4D89870")]
+	[Address(RVA = "0x50B11A0", Offset = "0x50B11A0", VA = "0x50B11A0")]
 	public static bool operator ==(TimeValue lhs, TimeValue rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001703")]
-	[Address(RVA = "0x4D898A0", Offset = "0x4D898A0", VA = "0x4D898A0")]
+	[Address(RVA = "0x50B11D0", Offset = "0x50B11D0", VA = "0x50B11D0")]
 	public static bool operator !=(TimeValue lhs, TimeValue rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001704")]
-	[Address(RVA = "0x4D898D0", Offset = "0x4D898D0", VA = "0x4D898D0", Slot = "4")]
+	[Address(RVA = "0x50B1200", Offset = "0x50B1200", VA = "0x50B1200", Slot = "4")]
 	public bool Equals(TimeValue other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001705")]
-	[Address(RVA = "0x4D898F0", Offset = "0x4D898F0", VA = "0x4D898F0", Slot = "0")]
+	[Address(RVA = "0x50B1220", Offset = "0x50B1220", VA = "0x50B1220", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001706")]
-	[Address(RVA = "0x4D89960", Offset = "0x4D89960", VA = "0x4D89960", Slot = "2")]
+	[Address(RVA = "0x50B1290", Offset = "0x50B1290", VA = "0x50B1290", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001707")]
-	[Address(RVA = "0x4D89980", Offset = "0x4D89980", VA = "0x4D89980", Slot = "3")]
+	[Address(RVA = "0x50B12B0", Offset = "0x50B12B0", VA = "0x50B12B0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.TextEditingManipulator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
@@ -29,7 +36,7 @@ internal class TextEditingManipulator
 	private bool touchScreenTextFieldChanged
 	{
 		[Token(Token = "0x60018AD")]
-		[Address(RVA = "0x4C28AD0", Offset = "0x4C28AD0", VA = "0x4C28AD0")]
+		[Address(RVA = "0x4F50400", Offset = "0x4F50400", VA = "0x4F50400")]
 		get
 		{
 			return default(bool);
@@ -37,31 +44,31 @@ internal class TextEditingManipulator
 	}
 
 	[Token(Token = "0x60018AE")]
-	[Address(RVA = "0x4C28B70", Offset = "0x4C28B70", VA = "0x4C28B70")]
+	[Address(RVA = "0x4F504A0", Offset = "0x4F504A0", VA = "0x4F504A0")]
 	public TextEditingManipulator(TextElement textElement)
 	{
 	}
 
 	[Token(Token = "0x60018AF")]
-	[Address(RVA = "0x4C28D10", Offset = "0x4C28D10", VA = "0x4C28D10")]
+	[Address(RVA = "0x4F50640", Offset = "0x4F50640", VA = "0x4F50640")]
 	private void InitTextEditorEventHandler()
 	{
 	}
 
 	[Token(Token = "0x60018B0")]
-	[Address(RVA = "0x4C28DE0", Offset = "0x4C28DE0", VA = "0x4C28DE0")]
+	[Address(RVA = "0x4F50710", Offset = "0x4F50710", VA = "0x4F50710")]
 	internal void ExecuteDefaultActionAtTarget(EventBase evt)
 	{
 	}
 
 	[Token(Token = "0x60018B1")]
-	[Address(RVA = "0x4C290D0", Offset = "0x4C290D0", VA = "0x4C290D0")]
+	[Address(RVA = "0x4F50A00", Offset = "0x4F50A00", VA = "0x4F50A00")]
 	private void OnFocusInEvent(FocusInEvent _)
 	{
 	}
 
 	[Token(Token = "0x60018B2")]
-	[Address(RVA = "0x4C293E0", Offset = "0x4C293E0", VA = "0x4C293E0")]
+	[Address(RVA = "0x4F50D10", Offset = "0x4F50D10", VA = "0x4F50D10")]
 	private void OnFocusOutEvent(FocusOutEvent _)
 	{
 	}

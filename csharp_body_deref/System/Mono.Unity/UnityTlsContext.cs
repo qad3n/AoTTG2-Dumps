@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Unity.UnityTlsContext
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography.X509Certificates;
@@ -83,7 +90,7 @@ internal class UnityTlsContext : MobileTlsContext
 	public override bool IsAuthenticated
 	{
 		[Token(Token = "0x6000079")]
-		[Address(RVA = "0x4537F00", Offset = "0x4537F00", VA = "0x4537F00", Slot = "5")]
+		[Address(RVA = "0x451E0F0", Offset = "0x451E0F0", VA = "0x451E0F0", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -94,7 +101,7 @@ internal class UnityTlsContext : MobileTlsContext
 	internal override X509Certificate LocalClientCertificate
 	{
 		[Token(Token = "0x600007A")]
-		[Address(RVA = "0x4537F10", Offset = "0x4537F10", VA = "0x4537F10", Slot = "9")]
+		[Address(RVA = "0x451E100", Offset = "0x451E100", VA = "0x451E100", Slot = "9")]
 		get
 		{
 			return null;
@@ -105,7 +112,7 @@ internal class UnityTlsContext : MobileTlsContext
 	public override X509Certificate2 RemoteCertificate
 	{
 		[Token(Token = "0x600007B")]
-		[Address(RVA = "0x4537F20", Offset = "0x4537F20", VA = "0x4537F20", Slot = "10")]
+		[Address(RVA = "0x451E110", Offset = "0x451E110", VA = "0x451E110", Slot = "10")]
 		get
 		{
 			return null;
@@ -113,77 +120,77 @@ internal class UnityTlsContext : MobileTlsContext
 	}
 
 	[Token(Token = "0x6000077")]
-	[Address(RVA = "0x4536EC0", Offset = "0x4536EC0", VA = "0x4536EC0")]
+	[Address(RVA = "0x451D0B0", Offset = "0x451D0B0", VA = "0x451D0B0")]
 	public UnityTlsContext(MobileAuthenticatedStream parent, MonoSslAuthenticationOptions options)
 	{
 	}
 
 	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x4537B90", Offset = "0x4537B90", VA = "0x4537B90")]
+	[Address(RVA = "0x451DD80", Offset = "0x451DD80", VA = "0x451DD80")]
 	private unsafe static void ExtractNativeKeyAndChainFromManagedCertificate(X509Certificate cert, UnityTls.unitytls_errorstate* errorState, out UnityTls.unitytls_x509list* nativeCertChain, out UnityTls.unitytls_key* nativeKey)
 	{
 	}
 
 	[Token(Token = "0x600007C")]
-	[Address(RVA = "0x4537F30", Offset = "0x4537F30", VA = "0x4537F30", Slot = "11")]
+	[Address(RVA = "0x451E120", Offset = "0x451E120", VA = "0x451E120", Slot = "11")]
 	public override (int, bool) Read(byte[] buffer, int offset, int count)
 	{
 		return default((int, bool));
 	}
 
 	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x4538110", Offset = "0x4538110", VA = "0x4538110", Slot = "12")]
+	[Address(RVA = "0x451E300", Offset = "0x451E300", VA = "0x451E300", Slot = "12")]
 	public override (int, bool) Write(byte[] buffer, int offset, int count)
 	{
 		return default((int, bool));
 	}
 
 	[Token(Token = "0x600007E")]
-	[Address(RVA = "0x45382F0", Offset = "0x45382F0", VA = "0x45382F0", Slot = "15")]
+	[Address(RVA = "0x451E4E0", Offset = "0x451E4E0", VA = "0x451E4E0", Slot = "15")]
 	public override void Renegotiate()
 	{
 	}
 
 	[Token(Token = "0x600007F")]
-	[Address(RVA = "0x4538330", Offset = "0x4538330", VA = "0x4538330", Slot = "14")]
+	[Address(RVA = "0x451E520", Offset = "0x451E520", VA = "0x451E520", Slot = "14")]
 	public override bool PendingRenegotiation()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000080")]
-	[Address(RVA = "0x4538340", Offset = "0x4538340", VA = "0x4538340", Slot = "13")]
+	[Address(RVA = "0x451E530", Offset = "0x451E530", VA = "0x451E530", Slot = "13")]
 	public override void Shutdown()
 	{
 	}
 
 	[Token(Token = "0x6000081")]
-	[Address(RVA = "0x4538480", Offset = "0x4538480", VA = "0x4538480", Slot = "16")]
+	[Address(RVA = "0x451E670", Offset = "0x451E670", VA = "0x451E670", Slot = "16")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6000082")]
-	[Address(RVA = "0x45385B0", Offset = "0x45385B0", VA = "0x45385B0", Slot = "6")]
+	[Address(RVA = "0x451E7A0", Offset = "0x451E7A0", VA = "0x451E7A0", Slot = "6")]
 	public override void StartHandshake()
 	{
 	}
 
 	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x4538750", Offset = "0x4538750", VA = "0x4538750", Slot = "7")]
+	[Address(RVA = "0x451E940", Offset = "0x451E940", VA = "0x451E940", Slot = "7")]
 	public override bool ProcessHandshake()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000084")]
-	[Address(RVA = "0x4538940", Offset = "0x4538940", VA = "0x4538940", Slot = "8")]
+	[Address(RVA = "0x451EB30", Offset = "0x451EB30", VA = "0x451EB30", Slot = "8")]
 	public override void FinishHandshake()
 	{
 	}
 
 	[Token(Token = "0x6000085")]
-	[Address(RVA = "0x4536AA0", Offset = "0x4536AA0", VA = "0x4536AA0")]
+	[Address(RVA = "0x451CC90", Offset = "0x451CC90", VA = "0x451CC90")]
 	[MonoPInvokeCallback(typeof(UnityTls.unitytls_tlsctx_write_callback))]
 	private unsafe static IntPtr WriteCallback(void* userData, byte* data, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState)
 	{
@@ -191,14 +198,14 @@ internal class UnityTlsContext : MobileTlsContext
 	}
 
 	[Token(Token = "0x6000086")]
-	[Address(RVA = "0x4538AB0", Offset = "0x4538AB0", VA = "0x4538AB0")]
+	[Address(RVA = "0x451ECA0", Offset = "0x451ECA0", VA = "0x451ECA0")]
 	private unsafe IntPtr WriteCallback(byte* data, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState)
 	{
 		return default(IntPtr);
 	}
 
 	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x4536BB0", Offset = "0x4536BB0", VA = "0x4536BB0")]
+	[Address(RVA = "0x451CDA0", Offset = "0x451CDA0", VA = "0x451CDA0")]
 	[MonoPInvokeCallback(typeof(UnityTls.unitytls_tlsctx_read_callback))]
 	private unsafe static IntPtr ReadCallback(void* userData, byte* buffer, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState)
 	{
@@ -206,14 +213,14 @@ internal class UnityTlsContext : MobileTlsContext
 	}
 
 	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x4538FE0", Offset = "0x4538FE0", VA = "0x4538FE0")]
+	[Address(RVA = "0x451F1D0", Offset = "0x451F1D0", VA = "0x451F1D0")]
 	private unsafe IntPtr ReadCallback(byte* buffer, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState)
 	{
 		return default(IntPtr);
 	}
 
 	[Token(Token = "0x6000089")]
-	[Address(RVA = "0x4536CC0", Offset = "0x4536CC0", VA = "0x4536CC0")]
+	[Address(RVA = "0x451CEB0", Offset = "0x451CEB0", VA = "0x451CEB0")]
 	[MonoPInvokeCallback(typeof(UnityTls.unitytls_tlsctx_x509verify_callback))]
 	private unsafe static UnityTls.unitytls_x509verify_result VerifyCallback(void* userData, UnityTls.unitytls_x509list_ref chain, UnityTls.unitytls_errorstate* errorState)
 	{
@@ -221,21 +228,21 @@ internal class UnityTlsContext : MobileTlsContext
 	}
 
 	[Token(Token = "0x600008A")]
-	[Address(RVA = "0x4539490", Offset = "0x4539490", VA = "0x4539490")]
+	[Address(RVA = "0x451F680", Offset = "0x451F680", VA = "0x451F680")]
 	private unsafe UnityTls.unitytls_x509verify_result VerifyCallback(UnityTls.unitytls_x509list_ref chain, UnityTls.unitytls_errorstate* errorState)
 	{
 		return default(UnityTls.unitytls_x509verify_result);
 	}
 
 	[Token(Token = "0x600008B")]
-	[Address(RVA = "0x4536DC0", Offset = "0x4536DC0", VA = "0x4536DC0")]
+	[Address(RVA = "0x451CFB0", Offset = "0x451CFB0", VA = "0x451CFB0")]
 	[MonoPInvokeCallback(typeof(UnityTls.unitytls_tlsctx_certificate_callback))]
 	private unsafe static void CertificateCallback(void* userData, UnityTls.unitytls_tlsctx* ctx, byte* cn, IntPtr cnLen, UnityTls.unitytls_x509name* caList, IntPtr caListLen, UnityTls.unitytls_x509list_ref* chain, UnityTls.unitytls_key_ref* key, UnityTls.unitytls_errorstate* errorState)
 	{
 	}
 
 	[Token(Token = "0x600008C")]
-	[Address(RVA = "0x4539A40", Offset = "0x4539A40", VA = "0x4539A40")]
+	[Address(RVA = "0x451FC30", Offset = "0x451FC30", VA = "0x451FC30")]
 	private unsafe void CertificateCallback(UnityTls.unitytls_tlsctx* ctx, byte* cn, IntPtr cnLen, UnityTls.unitytls_x509name* caList, IntPtr caListLen, UnityTls.unitytls_x509list_ref* chain, UnityTls.unitytls_key_ref* key, UnityTls.unitytls_errorstate* errorState)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.X509Certificates.X509CertificateCollection
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -18,7 +25,7 @@ public class X509CertificateCollection : CollectionBase
 		public X509Certificate Current
 		{
 			[Token(Token = "0x60005D1")]
-			[Address(RVA = "0x46152B0", Offset = "0x46152B0", VA = "0x46152B0")]
+			[Address(RVA = "0x493A3B0", Offset = "0x493A3B0", VA = "0x493A3B0")]
 			get
 			{
 				return null;
@@ -29,7 +36,7 @@ public class X509CertificateCollection : CollectionBase
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x60005D2")]
-			[Address(RVA = "0x4615390", Offset = "0x4615390", VA = "0x4615390", Slot = "5")]
+			[Address(RVA = "0x493A490", Offset = "0x493A490", VA = "0x493A490", Slot = "5")]
 			get
 			{
 				return null;
@@ -37,26 +44,26 @@ public class X509CertificateCollection : CollectionBase
 		}
 
 		[Token(Token = "0x60005D0")]
-		[Address(RVA = "0x46151C0", Offset = "0x46151C0", VA = "0x46151C0")]
+		[Address(RVA = "0x493A2C0", Offset = "0x493A2C0", VA = "0x493A2C0")]
 		public X509CertificateEnumerator(X509CertificateCollection mappings)
 		{
 		}
 
 		[Token(Token = "0x60005D3")]
-		[Address(RVA = "0x4615430", Offset = "0x4615430", VA = "0x4615430", Slot = "4")]
+		[Address(RVA = "0x493A530", Offset = "0x493A530", VA = "0x493A530", Slot = "4")]
 		private bool System_002ECollections_002EIEnumerator_002EMoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60005D4")]
-		[Address(RVA = "0x46154C0", Offset = "0x46154C0", VA = "0x46154C0", Slot = "6")]
+		[Address(RVA = "0x493A5C0", Offset = "0x493A5C0", VA = "0x493A5C0", Slot = "6")]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x60005D5")]
-		[Address(RVA = "0x4615560", Offset = "0x4615560", VA = "0x4615560")]
+		[Address(RVA = "0x493A660", Offset = "0x493A660", VA = "0x493A660")]
 		public bool MoveNext()
 		{
 			return default(bool);
@@ -67,7 +74,7 @@ public class X509CertificateCollection : CollectionBase
 	public X509Certificate this[int index]
 	{
 		[Token(Token = "0x60005CC")]
-		[Address(RVA = "0x46150E0", Offset = "0x46150E0", VA = "0x46150E0")]
+		[Address(RVA = "0x493A1E0", Offset = "0x493A1E0", VA = "0x493A1E0")]
 		get
 		{
 			return null;
@@ -75,32 +82,32 @@ public class X509CertificateCollection : CollectionBase
 	}
 
 	[Token(Token = "0x60005CA")]
-	[Address(RVA = "0x4610630", Offset = "0x4610630", VA = "0x4610630")]
+	[Address(RVA = "0x4935730", Offset = "0x4935730", VA = "0x4935730")]
 	public X509CertificateCollection()
 	{
 	}
 
 	[Token(Token = "0x60005CB")]
-	[Address(RVA = "0x4614F80", Offset = "0x4614F80", VA = "0x4614F80")]
+	[Address(RVA = "0x493A080", Offset = "0x493A080", VA = "0x493A080")]
 	public X509CertificateCollection(X509CertificateCollection value)
 	{
 	}
 
 	[Token(Token = "0x60005CD")]
-	[Address(RVA = "0x4614FA0", Offset = "0x4614FA0", VA = "0x4614FA0")]
+	[Address(RVA = "0x493A0A0", Offset = "0x493A0A0", VA = "0x493A0A0")]
 	public void AddRange(X509CertificateCollection value)
 	{
 	}
 
 	[Token(Token = "0x60005CE")]
-	[Address(RVA = "0x4615170", Offset = "0x4615170", VA = "0x4615170")]
+	[Address(RVA = "0x493A270", Offset = "0x493A270", VA = "0x493A270")]
 	public new X509CertificateEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005CF")]
-	[Address(RVA = "0x4615280", Offset = "0x4615280", VA = "0x4615280", Slot = "2")]
+	[Address(RVA = "0x493A380", Offset = "0x493A380", VA = "0x493A380", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.TouchScreenTextEditorEventHandler
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
@@ -18,67 +25,67 @@ internal class TouchScreenTextEditorEventHandler : TextEditorEventHandler
 	private bool m_IsClicking;
 
 	[Token(Token = "0x6000517")]
-	[Address(RVA = "0x4C1E870", Offset = "0x4C1E870", VA = "0x4C1E870")]
+	[Address(RVA = "0x4F461A0", Offset = "0x4F461A0", VA = "0x4F461A0")]
 	public TouchScreenTextEditorEventHandler(TextElement textElement, UnityEngine.TextEditingUtilities editingUtilities)
 	{
 	}
 
 	[Token(Token = "0x6000518")]
-	[Address(RVA = "0x4C1E8D0", Offset = "0x4C1E8D0", VA = "0x4C1E8D0")]
+	[Address(RVA = "0x4F46200", Offset = "0x4F46200", VA = "0x4F46200")]
 	private void PollTouchScreenKeyboard()
 	{
 	}
 
 	[Token(Token = "0x6000519")]
-	[Address(RVA = "0x4C1EB50", Offset = "0x4C1EB50", VA = "0x4C1EB50")]
+	[Address(RVA = "0x4F46480", Offset = "0x4F46480", VA = "0x4F46480")]
 	private void DoPollTouchScreenKeyboard()
 	{
 	}
 
 	[Token(Token = "0x600051A")]
-	[Address(RVA = "0x4C1F480", Offset = "0x4C1F480", VA = "0x4C1F480")]
+	[Address(RVA = "0x4F46DB0", Offset = "0x4F46DB0", VA = "0x4F46DB0")]
 	private void UpdateStringPositionFromKeyboard()
 	{
 	}
 
 	[Token(Token = "0x600051B")]
-	[Address(RVA = "0x4C1F380", Offset = "0x4C1F380", VA = "0x4C1F380")]
+	[Address(RVA = "0x4F46CB0", Offset = "0x4F46CB0", VA = "0x4F46CB0")]
 	private void CloseTouchScreenKeyboard()
 	{
 	}
 
 	[Token(Token = "0x600051C")]
-	[Address(RVA = "0x4C1F740", Offset = "0x4C1F740", VA = "0x4C1F740")]
+	[Address(RVA = "0x4F47070", Offset = "0x4F47070", VA = "0x4F47070")]
 	private void OpenTouchScreenKeyboard()
 	{
 	}
 
 	[Token(Token = "0x600051D")]
-	[Address(RVA = "0x4C1FD00", Offset = "0x4C1FD00", VA = "0x4C1FD00", Slot = "4")]
+	[Address(RVA = "0x4F47630", Offset = "0x4F47630", VA = "0x4F47630", Slot = "4")]
 	public override void ExecuteDefaultActionAtTarget(EventBase evt)
 	{
 	}
 
 	[Token(Token = "0x600051E")]
-	[Address(RVA = "0x4C1FEC0", Offset = "0x4C1FEC0", VA = "0x4C1FEC0")]
+	[Address(RVA = "0x4F477F0", Offset = "0x4F477F0", VA = "0x4F477F0")]
 	private void OnPointerDownEvent()
 	{
 	}
 
 	[Token(Token = "0x600051F")]
-	[Address(RVA = "0x4C200B0", Offset = "0x4C200B0", VA = "0x4C200B0")]
+	[Address(RVA = "0x4F479E0", Offset = "0x4F479E0", VA = "0x4F479E0")]
 	private void OnPointerUpEvent(PointerUpEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000520")]
-	[Address(RVA = "0x4C200D0", Offset = "0x4C200D0", VA = "0x4C200D0")]
+	[Address(RVA = "0x4F47A00", Offset = "0x4F47A00", VA = "0x4F47A00")]
 	private void OnFocusInEvent()
 	{
 	}
 
 	[Token(Token = "0x6000521")]
-	[Address(RVA = "0x4C20270", Offset = "0x4C20270", VA = "0x4C20270")]
+	[Address(RVA = "0x4F47BA0", Offset = "0x4F47BA0", VA = "0x4F47BA0")]
 	private void OnFocusOutEvent(FocusOutEvent evt)
 	{
 	}

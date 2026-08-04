@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Threading.ReaderWriterLock
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Runtime.ConstrainedExecution;
 using System.Runtime.InteropServices;
@@ -34,44 +41,44 @@ public sealed class ReaderWriterLock : CriticalFinalizerObject
 	private Hashtable reader_locks;
 
 	[Token(Token = "0x6001342")]
-	[Address(RVA = "0x5056320", Offset = "0x5056320", VA = "0x5056320")]
+	[Address(RVA = "0x3D3BE40", Offset = "0x3D3BE40", VA = "0x3D3BE40")]
 	public ReaderWriterLock()
 	{
 	}
 
 	[Token(Token = "0x6001343")]
-	[Address(RVA = "0x5056400", Offset = "0x5056400", VA = "0x5056400", Slot = "1")]
+	[Address(RVA = "0x3D3BF20", Offset = "0x3D3BF20", VA = "0x3D3BF20", Slot = "1")]
 	~ReaderWriterLock()
 	{
 	}
 
 	[Token(Token = "0x6001344")]
-	[Address(RVA = "0x5056410", Offset = "0x5056410", VA = "0x5056410")]
+	[Address(RVA = "0x3D3BF30", Offset = "0x3D3BF30", VA = "0x3D3BF30")]
 	public void AcquireWriterLock(int millisecondsTimeout)
 	{
 	}
 
 	[Token(Token = "0x6001345")]
-	[Address(RVA = "0x5056420", Offset = "0x5056420", VA = "0x5056420")]
+	[Address(RVA = "0x3D3BF40", Offset = "0x3D3BF40", VA = "0x3D3BF40")]
 	private void AcquireWriterLock(int millisecondsTimeout, int initialLockCount)
 	{
 	}
 
 	[Token(Token = "0x6001346")]
-	[Address(RVA = "0x5056600", Offset = "0x5056600", VA = "0x5056600")]
+	[Address(RVA = "0x3D3C120", Offset = "0x3D3C120", VA = "0x3D3C120")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	public void ReleaseWriterLock()
 	{
 	}
 
 	[Token(Token = "0x6001347")]
-	[Address(RVA = "0x5056770", Offset = "0x5056770", VA = "0x5056770")]
+	[Address(RVA = "0x3D3C290", Offset = "0x3D3C290", VA = "0x3D3C290")]
 	private void ReleaseWriterLock(int releaseCount)
 	{
 	}
 
 	[Token(Token = "0x6001348")]
-	[Address(RVA = "0x50565E0", Offset = "0x50565E0", VA = "0x50565E0")]
+	[Address(RVA = "0x3D3C100", Offset = "0x3D3C100", VA = "0x3D3C100")]
 	private bool HasWriterLock()
 	{
 		return default(bool);

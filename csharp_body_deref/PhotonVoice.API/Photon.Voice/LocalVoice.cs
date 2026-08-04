@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.LocalVoice
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/Voice.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -109,7 +116,7 @@ public class LocalVoice : IDisposable
 	public VoiceInfo Info
 	{
 		[Token(Token = "0x60001CF")]
-		[Address(RVA = "0x3C26760", Offset = "0x3C26760", VA = "0x3C26760")]
+		[Address(RVA = "0x3F1C0B0", Offset = "0x3F1C0B0", VA = "0x3F1C0B0")]
 		get
 		{
 			return default(VoiceInfo);
@@ -120,13 +127,13 @@ public class LocalVoice : IDisposable
 	public bool TransmitEnabled
 	{
 		[Token(Token = "0x60001D0")]
-		[Address(RVA = "0x3C26780", Offset = "0x3C26780", VA = "0x3C26780")]
+		[Address(RVA = "0x3F1C0D0", Offset = "0x3F1C0D0", VA = "0x3F1C0D0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001D1")]
-		[Address(RVA = "0x3C26790", Offset = "0x3C26790", VA = "0x3C26790")]
+		[Address(RVA = "0x3F1C0E0", Offset = "0x3F1C0E0", VA = "0x3F1C0E0")]
 		set
 		{
 		}
@@ -136,7 +143,7 @@ public class LocalVoice : IDisposable
 	public bool IsCurrentlyTransmitting
 	{
 		[Token(Token = "0x60001D2")]
-		[Address(RVA = "0x3C26910", Offset = "0x3C26910", VA = "0x3C26910")]
+		[Address(RVA = "0x3F1C260", Offset = "0x3F1C260", VA = "0x3F1C260")]
 		get
 		{
 			return default(bool);
@@ -147,14 +154,14 @@ public class LocalVoice : IDisposable
 	public int FramesSent
 	{
 		[Token(Token = "0x60001D3")]
-		[Address(RVA = "0x3C26930", Offset = "0x3C26930", VA = "0x3C26930")]
+		[Address(RVA = "0x3F1C280", Offset = "0x3F1C280", VA = "0x3F1C280")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001D4")]
-		[Address(RVA = "0x3C26940", Offset = "0x3C26940", VA = "0x3C26940")]
+		[Address(RVA = "0x3F1C290", Offset = "0x3F1C290", VA = "0x3F1C290")]
 		[CompilerGenerated]
 		private set
 		{
@@ -165,14 +172,14 @@ public class LocalVoice : IDisposable
 	public int FramesSentFragmented
 	{
 		[Token(Token = "0x60001D5")]
-		[Address(RVA = "0x3C26950", Offset = "0x3C26950", VA = "0x3C26950")]
+		[Address(RVA = "0x3F1C2A0", Offset = "0x3F1C2A0", VA = "0x3F1C2A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001D6")]
-		[Address(RVA = "0x3C26960", Offset = "0x3C26960", VA = "0x3C26960")]
+		[Address(RVA = "0x3F1C2B0", Offset = "0x3F1C2B0", VA = "0x3F1C2B0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -183,14 +190,14 @@ public class LocalVoice : IDisposable
 	public int FramesSentFragments
 	{
 		[Token(Token = "0x60001D7")]
-		[Address(RVA = "0x3C26970", Offset = "0x3C26970", VA = "0x3C26970")]
+		[Address(RVA = "0x3F1C2C0", Offset = "0x3F1C2C0", VA = "0x3F1C2C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001D8")]
-		[Address(RVA = "0x3C26980", Offset = "0x3C26980", VA = "0x3C26980")]
+		[Address(RVA = "0x3F1C2D0", Offset = "0x3F1C2D0", VA = "0x3F1C2D0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -201,14 +208,14 @@ public class LocalVoice : IDisposable
 	public int FramesSentBytes
 	{
 		[Token(Token = "0x60001D9")]
-		[Address(RVA = "0x3C26990", Offset = "0x3C26990", VA = "0x3C26990")]
+		[Address(RVA = "0x3F1C2E0", Offset = "0x3F1C2E0", VA = "0x3F1C2E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001DA")]
-		[Address(RVA = "0x3C269A0", Offset = "0x3C269A0", VA = "0x3C269A0")]
+		[Address(RVA = "0x3F1C2F0", Offset = "0x3F1C2F0", VA = "0x3F1C2F0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -219,14 +226,14 @@ public class LocalVoice : IDisposable
 	public bool Reliable
 	{
 		[Token(Token = "0x60001DB")]
-		[Address(RVA = "0x3C269B0", Offset = "0x3C269B0", VA = "0x3C269B0")]
+		[Address(RVA = "0x3F1C300", Offset = "0x3F1C300", VA = "0x3F1C300")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001DC")]
-		[Address(RVA = "0x3C269C0", Offset = "0x3C269C0", VA = "0x3C269C0")]
+		[Address(RVA = "0x3F1C310", Offset = "0x3F1C310", VA = "0x3F1C310")]
 		[CompilerGenerated]
 		set
 		{
@@ -237,14 +244,14 @@ public class LocalVoice : IDisposable
 	public bool Encrypt
 	{
 		[Token(Token = "0x60001DD")]
-		[Address(RVA = "0x3C269D0", Offset = "0x3C269D0", VA = "0x3C269D0")]
+		[Address(RVA = "0x3F1C320", Offset = "0x3F1C320", VA = "0x3F1C320")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001DE")]
-		[Address(RVA = "0x3C269E0", Offset = "0x3C269E0", VA = "0x3C269E0")]
+		[Address(RVA = "0x3F1C330", Offset = "0x3F1C330", VA = "0x3F1C330")]
 		[CompilerGenerated]
 		set
 		{
@@ -255,14 +262,14 @@ public class LocalVoice : IDisposable
 	public bool Fragment
 	{
 		[Token(Token = "0x60001DF")]
-		[Address(RVA = "0x3C269F0", Offset = "0x3C269F0", VA = "0x3C269F0")]
+		[Address(RVA = "0x3F1C340", Offset = "0x3F1C340", VA = "0x3F1C340")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001E0")]
-		[Address(RVA = "0x3C26A00", Offset = "0x3C26A00", VA = "0x3C26A00")]
+		[Address(RVA = "0x3F1C350", Offset = "0x3F1C350", VA = "0x3F1C350")]
 		[CompilerGenerated]
 		set
 		{
@@ -273,14 +280,14 @@ public class LocalVoice : IDisposable
 	public int FEC
 	{
 		[Token(Token = "0x60001E1")]
-		[Address(RVA = "0x3C26A10", Offset = "0x3C26A10", VA = "0x3C26A10")]
+		[Address(RVA = "0x3F1C360", Offset = "0x3F1C360", VA = "0x3F1C360")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001E2")]
-		[Address(RVA = "0x3C26A20", Offset = "0x3C26A20", VA = "0x3C26A20")]
+		[Address(RVA = "0x3F1C370", Offset = "0x3F1C370", VA = "0x3F1C370")]
 		[CompilerGenerated]
 		set
 		{
@@ -291,14 +298,14 @@ public class LocalVoice : IDisposable
 	public IServiceable LocalUserServiceable
 	{
 		[Token(Token = "0x60001E3")]
-		[Address(RVA = "0x3C26A30", Offset = "0x3C26A30", VA = "0x3C26A30")]
+		[Address(RVA = "0x3F1C380", Offset = "0x3F1C380", VA = "0x3F1C380")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001E4")]
-		[Address(RVA = "0x3C26A40", Offset = "0x3C26A40", VA = "0x3C26A40")]
+		[Address(RVA = "0x3F1C390", Offset = "0x3F1C390", VA = "0x3F1C390")]
 		[CompilerGenerated]
 		set
 		{
@@ -310,13 +317,13 @@ public class LocalVoice : IDisposable
 	public byte Group
 	{
 		[Token(Token = "0x60001E5")]
-		[Address(RVA = "0x3C26A50", Offset = "0x3C26A50", VA = "0x3C26A50")]
+		[Address(RVA = "0x3F1C3A0", Offset = "0x3F1C3A0", VA = "0x3F1C3A0")]
 		get
 		{
 			return default(byte);
 		}
 		[Token(Token = "0x60001E6")]
-		[Address(RVA = "0x3C26A60", Offset = "0x3C26A60", VA = "0x3C26A60")]
+		[Address(RVA = "0x3F1C3B0", Offset = "0x3F1C3B0", VA = "0x3F1C3B0")]
 		set
 		{
 		}
@@ -326,14 +333,14 @@ public class LocalVoice : IDisposable
 	public byte InterestGroup
 	{
 		[Token(Token = "0x60001E7")]
-		[Address(RVA = "0x3C26A70", Offset = "0x3C26A70", VA = "0x3C26A70")]
+		[Address(RVA = "0x3F1C3C0", Offset = "0x3F1C3C0", VA = "0x3F1C3C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(byte);
 		}
 		[Token(Token = "0x60001E8")]
-		[Address(RVA = "0x3C26A80", Offset = "0x3C26A80", VA = "0x3C26A80")]
+		[Address(RVA = "0x3F1C3D0", Offset = "0x3F1C3D0", VA = "0x3F1C3D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -344,13 +351,13 @@ public class LocalVoice : IDisposable
 	public bool DebugEchoMode
 	{
 		[Token(Token = "0x60001E9")]
-		[Address(RVA = "0x3C26A90", Offset = "0x3C26A90", VA = "0x3C26A90")]
+		[Address(RVA = "0x3F1C3E0", Offset = "0x3F1C3E0", VA = "0x3F1C3E0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001EA")]
-		[Address(RVA = "0x3C26AA0", Offset = "0x3C26AA0", VA = "0x3C26AA0")]
+		[Address(RVA = "0x3F1C3F0", Offset = "0x3F1C3F0", VA = "0x3F1C3F0")]
 		set
 		{
 		}
@@ -360,13 +367,13 @@ public class LocalVoice : IDisposable
 	public int[] TargetPlayers
 	{
 		[Token(Token = "0x60001EB")]
-		[Address(RVA = "0x3C27550", Offset = "0x3C27550", VA = "0x3C27550")]
+		[Address(RVA = "0x3F1CEA0", Offset = "0x3F1CEA0", VA = "0x3F1CEA0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001EC")]
-		[Address(RVA = "0x3C275C0", Offset = "0x3C275C0", VA = "0x3C275C0")]
+		[Address(RVA = "0x3F1CF10", Offset = "0x3F1CF10", VA = "0x3F1CF10")]
 		set
 		{
 		}
@@ -376,7 +383,7 @@ public class LocalVoice : IDisposable
 	public string SendSpacingProfileDump
 	{
 		[Token(Token = "0x60001EE")]
-		[Address(RVA = "0x3C277D0", Offset = "0x3C277D0", VA = "0x3C277D0")]
+		[Address(RVA = "0x3F1D120", Offset = "0x3F1D120", VA = "0x3F1D120")]
 		get
 		{
 			return null;
@@ -387,7 +394,7 @@ public class LocalVoice : IDisposable
 	public int SendSpacingProfileMax
 	{
 		[Token(Token = "0x60001EF")]
-		[Address(RVA = "0x3C277F0", Offset = "0x3C277F0", VA = "0x3C277F0")]
+		[Address(RVA = "0x3F1D140", Offset = "0x3F1D140", VA = "0x3F1D140")]
 		get
 		{
 			return default(int);
@@ -398,7 +405,7 @@ public class LocalVoice : IDisposable
 	public byte ID
 	{
 		[Token(Token = "0x60001F0")]
-		[Address(RVA = "0x3C27810", Offset = "0x3C27810", VA = "0x3C27810")]
+		[Address(RVA = "0x3F1D160", Offset = "0x3F1D160", VA = "0x3F1D160")]
 		get
 		{
 			return default(byte);
@@ -409,7 +416,7 @@ public class LocalVoice : IDisposable
 	public byte EvNumber
 	{
 		[Token(Token = "0x60001F1")]
-		[Address(RVA = "0x3C27820", Offset = "0x3C27820", VA = "0x3C27820")]
+		[Address(RVA = "0x3F1D170", Offset = "0x3F1D170", VA = "0x3F1D170")]
 		get
 		{
 			return default(byte);
@@ -420,7 +427,7 @@ public class LocalVoice : IDisposable
 	protected string shortName
 	{
 		[Token(Token = "0x60001F4")]
-		[Address(RVA = "0x3C27D70", Offset = "0x3C27D70", VA = "0x3C27D70")]
+		[Address(RVA = "0x3F1D6C0", Offset = "0x3F1D6C0", VA = "0x3F1D6C0")]
 		get
 		{
 			return null;
@@ -431,7 +438,7 @@ public class LocalVoice : IDisposable
 	public string Name
 	{
 		[Token(Token = "0x60001F5")]
-		[Address(RVA = "0x3C27F10", Offset = "0x3C27F10", VA = "0x3C27F10")]
+		[Address(RVA = "0x3F1D860", Offset = "0x3F1D860", VA = "0x3F1D860")]
 		get
 		{
 			return null;
@@ -442,7 +449,7 @@ public class LocalVoice : IDisposable
 	public string LogPrefix
 	{
 		[Token(Token = "0x60001F6")]
-		[Address(RVA = "0x3C27D30", Offset = "0x3C27D30", VA = "0x3C27D30")]
+		[Address(RVA = "0x3F1D680", Offset = "0x3F1D680", VA = "0x3F1D680")]
 		get
 		{
 			return null;
@@ -453,7 +460,7 @@ public class LocalVoice : IDisposable
 	protected bool isJoined
 	{
 		[Token(Token = "0x60001F8")]
-		[Address(RVA = "0x3C26BD0", Offset = "0x3C26BD0", VA = "0x3C26BD0")]
+		[Address(RVA = "0x3F1C520", Offset = "0x3F1C520", VA = "0x3F1C520")]
 		get
 		{
 			return default(bool);
@@ -461,111 +468,111 @@ public class LocalVoice : IDisposable
 	}
 
 	[Token(Token = "0x60001ED")]
-	[Address(RVA = "0x3C277B0", Offset = "0x3C277B0", VA = "0x3C277B0")]
+	[Address(RVA = "0x3F1D100", Offset = "0x3F1D100", VA = "0x3F1D100")]
 	public void SendSpacingProfileStart()
 	{
 	}
 
 	[Token(Token = "0x60001F2")]
-	[Address(RVA = "0x3C27830", Offset = "0x3C27830", VA = "0x3C27830")]
+	[Address(RVA = "0x3F1D180", Offset = "0x3F1D180", VA = "0x3F1D180")]
 	internal LocalVoice()
 	{
 	}
 
 	[Token(Token = "0x60001F3")]
-	[Address(RVA = "0x3C27980", Offset = "0x3C27980", VA = "0x3C27980")]
+	[Address(RVA = "0x3F1D2D0", Offset = "0x3F1D2D0", VA = "0x3F1D2D0")]
 	internal LocalVoice(VoiceClient voiceClient, byte id, VoiceInfo voiceInfo, int channelId, VoiceCreateOptions opt)
 	{
 	}
 
 	[Token(Token = "0x60001F7")]
-	[Address(RVA = "0x3C280A0", Offset = "0x3C280A0", VA = "0x3C280A0", Slot = "5")]
+	[Address(RVA = "0x3F1D9F0", Offset = "0x3F1D9F0", VA = "0x3F1D9F0", Slot = "5")]
 	internal virtual void service()
 	{
 	}
 
 	[Token(Token = "0x60001F9")]
-	[Address(RVA = "0x3C286C0", Offset = "0x3C286C0", VA = "0x3C286C0")]
+	[Address(RVA = "0x3F1E010", Offset = "0x3F1E010", VA = "0x3F1E010")]
 	protected bool targetExits(bool targetMe, int[] targetPlayers)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001FA")]
-	[Address(RVA = "0x3C286E0", Offset = "0x3C286E0", VA = "0x3C286E0")]
+	[Address(RVA = "0x3F1E030", Offset = "0x3F1E030", VA = "0x3F1E030")]
 	internal void onJoinChannel()
 	{
 	}
 
 	[Token(Token = "0x60001FB")]
-	[Address(RVA = "0x3C286F0", Offset = "0x3C286F0", VA = "0x3C286F0")]
+	[Address(RVA = "0x3F1E040", Offset = "0x3F1E040", VA = "0x3F1E040")]
 	internal void onLeaveChannel()
 	{
 	}
 
 	[Token(Token = "0x60001FC")]
-	[Address(RVA = "0x3C28700", Offset = "0x3C28700", VA = "0x3C28700")]
+	[Address(RVA = "0x3F1E050", Offset = "0x3F1E050", VA = "0x3F1E050")]
 	internal void onPlayerJoin(int playerId)
 	{
 	}
 
 	[Token(Token = "0x60001FD")]
-	[Address(RVA = "0x3C28990", Offset = "0x3C28990", VA = "0x3C28990")]
+	[Address(RVA = "0x3F1E2E0", Offset = "0x3F1E2E0", VA = "0x3F1E2E0")]
 	internal void sendVoiceInfoAndConfigFrame()
 	{
 	}
 
 	[Token(Token = "0x60001FE")]
-	[Address(RVA = "0x3C289A0", Offset = "0x3C289A0", VA = "0x3C289A0")]
+	[Address(RVA = "0x3F1E2F0", Offset = "0x3F1E2F0", VA = "0x3F1E2F0")]
 	private string getTargetStr(bool targetMe, int[] targetPlayers)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001FF")]
-	[Address(RVA = "0x3C26C90", Offset = "0x3C26C90", VA = "0x3C26C90")]
+	[Address(RVA = "0x3F1C5E0", Offset = "0x3F1C5E0", VA = "0x3F1C5E0")]
 	protected void sendVoiceInfoAndConfigFrame(bool targetMe, int[] targetPlayers)
 	{
 	}
 
 	[Token(Token = "0x6000200")]
-	[Address(RVA = "0x3C272A0", Offset = "0x3C272A0", VA = "0x3C272A0")]
+	[Address(RVA = "0x3F1CBF0", Offset = "0x3F1CBF0", VA = "0x3F1CBF0")]
 	protected void sendVoiceRemove(bool targetMe, int[] targetPlayers)
 	{
 	}
 
 	[Token(Token = "0x6000201")]
-	[Address(RVA = "0x3C28260", Offset = "0x3C28260", VA = "0x3C28260")]
+	[Address(RVA = "0x3F1DBB0", Offset = "0x3F1DBB0", VA = "0x3F1DBB0")]
 	internal void sendFrame(ArraySegment<byte> compressed, FrameFlags flags)
 	{
 	}
 
 	[Token(Token = "0x6000202")]
-	[Address(RVA = "0x3C28F70", Offset = "0x3C28F70", VA = "0x3C28F70")]
+	[Address(RVA = "0x3F1E8C0", Offset = "0x3F1E8C0", VA = "0x3F1E8C0")]
 	internal void sendFrame0(ArraySegment<byte> compressed, FrameFlags flags, bool targetMe, int[] targetPlayers, byte interestGroup, bool reliable)
 	{
 	}
 
 	[Token(Token = "0x6000203")]
-	[Address(RVA = "0x3C2A170", Offset = "0x3C2A170", VA = "0x3C2A170")]
+	[Address(RVA = "0x3F1FAC0", Offset = "0x3F1FAC0", VA = "0x3F1FAC0")]
 	private void resetFEC()
 	{
 	}
 
 	[Token(Token = "0x6000204")]
-	[Address(RVA = "0x3C299F0", Offset = "0x3C299F0", VA = "0x3C299F0")]
+	[Address(RVA = "0x3F1F340", Offset = "0x3F1F340", VA = "0x3F1F340")]
 	private void sendFrameEvent(ArraySegment<byte> data, FrameFlags flags, SendFrameParams sendFramePar)
 	{
 	}
 
 	[Token(Token = "0x6000205")]
-	[Address(RVA = "0x3C2A1B0", Offset = "0x3C2A1B0", VA = "0x3C2A1B0")]
+	[Address(RVA = "0x3F1FB00", Offset = "0x3F1FB00", VA = "0x3F1FB00")]
 	public void RemoveSelf()
 	{
 	}
 
 	[Token(Token = "0x6000206")]
-	[Address(RVA = "0x3C2A4F0", Offset = "0x3C2A4F0", VA = "0x3C2A4F0", Slot = "6")]
+	[Address(RVA = "0x3F1FE40", Offset = "0x3F1FE40", VA = "0x3F1FE40", Slot = "6")]
 	public virtual void Dispose()
 	{
 	}

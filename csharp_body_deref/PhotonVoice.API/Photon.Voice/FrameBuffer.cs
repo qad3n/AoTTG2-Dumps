@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.FrameBuffer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/FrameBuffer.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -64,7 +71,7 @@ public struct FrameBuffer
 	public IntPtr Ptr
 	{
 		[Token(Token = "0x6000135")]
-		[Address(RVA = "0x3C22920", Offset = "0x3C22920", VA = "0x3C22920")]
+		[Address(RVA = "0x3F18270", Offset = "0x3F18270", VA = "0x3F18270")]
 		get
 		{
 			return default(IntPtr);
@@ -75,7 +82,7 @@ public struct FrameBuffer
 	public byte[] Array
 	{
 		[Token(Token = "0x6000139")]
-		[Address(RVA = "0x3C24BC0", Offset = "0x3C24BC0", VA = "0x3C24BC0")]
+		[Address(RVA = "0x3F1A510", Offset = "0x3F1A510", VA = "0x3F1A510")]
 		get
 		{
 			return null;
@@ -86,7 +93,7 @@ public struct FrameBuffer
 	public int Length
 	{
 		[Token(Token = "0x600013A")]
-		[Address(RVA = "0x3C24BD0", Offset = "0x3C24BD0", VA = "0x3C24BD0")]
+		[Address(RVA = "0x3F1A520", Offset = "0x3F1A520", VA = "0x3F1A520")]
 		get
 		{
 			return default(int);
@@ -97,7 +104,7 @@ public struct FrameBuffer
 	public int Offset
 	{
 		[Token(Token = "0x600013B")]
-		[Address(RVA = "0x3C24BE0", Offset = "0x3C24BE0", VA = "0x3C24BE0")]
+		[Address(RVA = "0x3F1A530", Offset = "0x3F1A530", VA = "0x3F1A530")]
 		get
 		{
 			return default(int);
@@ -108,7 +115,7 @@ public struct FrameBuffer
 	public readonly FrameFlags Flags
 	{
 		[Token(Token = "0x600013C")]
-		[Address(RVA = "0x3C24BF0", Offset = "0x3C24BF0", VA = "0x3C24BF0")]
+		[Address(RVA = "0x3F1A540", Offset = "0x3F1A540", VA = "0x3F1A540")]
 		[CompilerGenerated]
 		get
 		{
@@ -120,7 +127,7 @@ public struct FrameBuffer
 	public readonly byte FrameNum
 	{
 		[Token(Token = "0x600013D")]
-		[Address(RVA = "0x3C24C00", Offset = "0x3C24C00", VA = "0x3C24C00")]
+		[Address(RVA = "0x3F1A550", Offset = "0x3F1A550", VA = "0x3F1A550")]
 		[CompilerGenerated]
 		get
 		{
@@ -132,7 +139,7 @@ public struct FrameBuffer
 	public bool IsFEC
 	{
 		[Token(Token = "0x600013E")]
-		[Address(RVA = "0x3C24C10", Offset = "0x3C24C10", VA = "0x3C24C10")]
+		[Address(RVA = "0x3F1A560", Offset = "0x3F1A560", VA = "0x3F1A560")]
 		get
 		{
 			return default(bool);
@@ -143,7 +150,7 @@ public struct FrameBuffer
 	public bool IsConfig
 	{
 		[Token(Token = "0x600013F")]
-		[Address(RVA = "0x3C24C60", Offset = "0x3C24C60", VA = "0x3C24C60")]
+		[Address(RVA = "0x3F1A5B0", Offset = "0x3F1A5B0", VA = "0x3F1A5B0")]
 		get
 		{
 			return default(bool);
@@ -154,7 +161,7 @@ public struct FrameBuffer
 	public bool IsKeyframe
 	{
 		[Token(Token = "0x6000140")]
-		[Address(RVA = "0x3C24CC0", Offset = "0x3C24CC0", VA = "0x3C24CC0")]
+		[Address(RVA = "0x3F1A610", Offset = "0x3F1A610", VA = "0x3F1A610")]
 		get
 		{
 			return default(bool);
@@ -162,43 +169,43 @@ public struct FrameBuffer
 	}
 
 	[Token(Token = "0x6000132")]
-	[Address(RVA = "0x3C24940", Offset = "0x3C24940", VA = "0x3C24940")]
+	[Address(RVA = "0x3F1A290", Offset = "0x3F1A290", VA = "0x3F1A290")]
 	public FrameBuffer(byte[] array, int offset, int count, FrameFlags flags, byte frameNum, IDisposable disposer)
 	{
 	}
 
 	[Token(Token = "0x6000133")]
-	[Address(RVA = "0x3C249B0", Offset = "0x3C249B0", VA = "0x3C249B0")]
+	[Address(RVA = "0x3F1A300", Offset = "0x3F1A300", VA = "0x3F1A300")]
 	public FrameBuffer(byte[] array, FrameFlags flags, byte frameNum)
 	{
 	}
 
 	[Token(Token = "0x6000134")]
-	[Address(RVA = "0x3C24A20", Offset = "0x3C24A20", VA = "0x3C24A20")]
+	[Address(RVA = "0x3F1A370", Offset = "0x3F1A370", VA = "0x3F1A370")]
 	public FrameBuffer(FrameBuffer from, int offset, int count, FrameFlags flags, byte frameNum)
 	{
 	}
 
 	[Token(Token = "0x6000136")]
-	[Address(RVA = "0x3C24A80", Offset = "0x3C24A80", VA = "0x3C24A80")]
+	[Address(RVA = "0x3F1A3D0", Offset = "0x3F1A3D0", VA = "0x3F1A3D0")]
 	public void Retain()
 	{
 	}
 
 	[Token(Token = "0x6000137")]
-	[Address(RVA = "0x3C24A90", Offset = "0x3C24A90", VA = "0x3C24A90")]
+	[Address(RVA = "0x3F1A3E0", Offset = "0x3F1A3E0", VA = "0x3F1A3E0")]
 	public void Release()
 	{
 	}
 
 	[Token(Token = "0x6000138")]
-	[Address(RVA = "0x3C24AF0", Offset = "0x3C24AF0", VA = "0x3C24AF0")]
+	[Address(RVA = "0x3F1A440", Offset = "0x3F1A440", VA = "0x3F1A440")]
 	private void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000141")]
-	[Address(RVA = "0x3C24D10", Offset = "0x3C24D10", VA = "0x3C24D10", Slot = "3")]
+	[Address(RVA = "0x3F1A660", Offset = "0x3F1A660", VA = "0x3F1A660", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

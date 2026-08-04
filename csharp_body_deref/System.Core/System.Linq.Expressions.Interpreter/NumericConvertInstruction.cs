@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.NumericConvertInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -12,7 +19,7 @@ internal abstract class NumericConvertInstruction : Instruction
 		public override string InstructionName
 		{
 			[Token(Token = "0x6000A6A")]
-			[Address(RVA = "0x41DA020", Offset = "0x41DA020", VA = "0x41DA020", Slot = "9")]
+			[Address(RVA = "0x44FF120", Offset = "0x44FF120", VA = "0x44FF120", Slot = "9")]
 			get
 			{
 				return null;
@@ -20,41 +27,41 @@ internal abstract class NumericConvertInstruction : Instruction
 		}
 
 		[Token(Token = "0x6000A6B")]
-		[Address(RVA = "0x41DA050", Offset = "0x41DA050", VA = "0x41DA050")]
+		[Address(RVA = "0x44FF150", Offset = "0x44FF150", VA = "0x44FF150")]
 		public Unchecked(TypeCode from, TypeCode to, bool isLiftedToNull)
 		{
 		}
 
 		[Token(Token = "0x6000A6C")]
-		[Address(RVA = "0x41DA080", Offset = "0x41DA080", VA = "0x41DA080", Slot = "11")]
+		[Address(RVA = "0x44FF180", Offset = "0x44FF180", VA = "0x44FF180", Slot = "11")]
 		protected override object Convert(object obj)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000A6D")]
-		[Address(RVA = "0x41DA360", Offset = "0x41DA360", VA = "0x41DA360")]
+		[Address(RVA = "0x44FF460", Offset = "0x44FF460", VA = "0x44FF460")]
 		private object ConvertInt32(int obj)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000A6E")]
-		[Address(RVA = "0x41DA510", Offset = "0x41DA510", VA = "0x41DA510")]
+		[Address(RVA = "0x44FF610", Offset = "0x44FF610", VA = "0x44FF610")]
 		private object ConvertInt64(long obj)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000A6F")]
-		[Address(RVA = "0x41DA6B0", Offset = "0x41DA6B0", VA = "0x41DA6B0")]
+		[Address(RVA = "0x44FF7B0", Offset = "0x44FF7B0", VA = "0x44FF7B0")]
 		private object ConvertUInt64(ulong obj)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000A70")]
-		[Address(RVA = "0x41DA890", Offset = "0x41DA890", VA = "0x41DA890")]
+		[Address(RVA = "0x44FF990", Offset = "0x44FF990", VA = "0x44FF990")]
 		private object ConvertDouble(double obj)
 		{
 			return null;
@@ -68,7 +75,7 @@ internal abstract class NumericConvertInstruction : Instruction
 		public override string InstructionName
 		{
 			[Token(Token = "0x6000A71")]
-			[Address(RVA = "0x41DAAA0", Offset = "0x41DAAA0", VA = "0x41DAAA0", Slot = "9")]
+			[Address(RVA = "0x44FFBA0", Offset = "0x44FFBA0", VA = "0x44FFBA0", Slot = "9")]
 			get
 			{
 				return null;
@@ -76,41 +83,41 @@ internal abstract class NumericConvertInstruction : Instruction
 		}
 
 		[Token(Token = "0x6000A72")]
-		[Address(RVA = "0x41DAAD0", Offset = "0x41DAAD0", VA = "0x41DAAD0")]
+		[Address(RVA = "0x44FFBD0", Offset = "0x44FFBD0", VA = "0x44FFBD0")]
 		public Checked(TypeCode from, TypeCode to, bool isLiftedToNull)
 		{
 		}
 
 		[Token(Token = "0x6000A73")]
-		[Address(RVA = "0x41DAB00", Offset = "0x41DAB00", VA = "0x41DAB00", Slot = "11")]
+		[Address(RVA = "0x44FFC00", Offset = "0x44FFC00", VA = "0x44FFC00", Slot = "11")]
 		protected override object Convert(object obj)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000A74")]
-		[Address(RVA = "0x41DADE0", Offset = "0x41DADE0", VA = "0x41DADE0")]
+		[Address(RVA = "0x44FFEE0", Offset = "0x44FFEE0", VA = "0x44FFEE0")]
 		private object ConvertInt32(int obj)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000A75")]
-		[Address(RVA = "0x41DAFF0", Offset = "0x41DAFF0", VA = "0x41DAFF0")]
+		[Address(RVA = "0x45000F0", Offset = "0x45000F0", VA = "0x45000F0")]
 		private object ConvertInt64(long obj)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000A76")]
-		[Address(RVA = "0x41DB210", Offset = "0x41DB210", VA = "0x41DB210")]
+		[Address(RVA = "0x4500310", Offset = "0x4500310", VA = "0x4500310")]
 		private object ConvertUInt64(ulong obj)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000A77")]
-		[Address(RVA = "0x41DB480", Offset = "0x41DB480", VA = "0x41DB480")]
+		[Address(RVA = "0x4500580", Offset = "0x4500580", VA = "0x4500580")]
 		private object ConvertDouble(double obj)
 		{
 			return null;
@@ -124,7 +131,7 @@ internal abstract class NumericConvertInstruction : Instruction
 		public override string InstructionName
 		{
 			[Token(Token = "0x6000A78")]
-			[Address(RVA = "0x41DB720", Offset = "0x41DB720", VA = "0x41DB720", Slot = "9")]
+			[Address(RVA = "0x4500820", Offset = "0x4500820", VA = "0x4500820", Slot = "9")]
 			get
 			{
 				return null;
@@ -132,13 +139,13 @@ internal abstract class NumericConvertInstruction : Instruction
 		}
 
 		[Token(Token = "0x6000A79")]
-		[Address(RVA = "0x41DB750", Offset = "0x41DB750", VA = "0x41DB750")]
+		[Address(RVA = "0x4500850", Offset = "0x4500850", VA = "0x4500850")]
 		public ToUnderlying(TypeCode to, bool isLiftedToNull)
 		{
 		}
 
 		[Token(Token = "0x6000A7A")]
-		[Address(RVA = "0x41DB780", Offset = "0x41DB780", VA = "0x41DB780", Slot = "11")]
+		[Address(RVA = "0x4500880", Offset = "0x4500880", VA = "0x4500880", Slot = "11")]
 		protected override object Convert(object obj)
 		{
 			return null;
@@ -161,7 +168,7 @@ internal abstract class NumericConvertInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x6000A66")]
-		[Address(RVA = "0x41D9E20", Offset = "0x41D9E20", VA = "0x41D9E20", Slot = "9")]
+		[Address(RVA = "0x44FEF20", Offset = "0x44FEF20", VA = "0x44FEF20", Slot = "9")]
 		get
 		{
 			return null;
@@ -172,7 +179,7 @@ internal abstract class NumericConvertInstruction : Instruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x6000A67")]
-		[Address(RVA = "0x41D9E50", Offset = "0x41D9E50", VA = "0x41D9E50", Slot = "4")]
+		[Address(RVA = "0x44FEF50", Offset = "0x44FEF50", VA = "0x44FEF50", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -183,7 +190,7 @@ internal abstract class NumericConvertInstruction : Instruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x6000A68")]
-		[Address(RVA = "0x41D9E60", Offset = "0x41D9E60", VA = "0x41D9E60", Slot = "5")]
+		[Address(RVA = "0x44FEF60", Offset = "0x44FEF60", VA = "0x44FEF60", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -191,13 +198,13 @@ internal abstract class NumericConvertInstruction : Instruction
 	}
 
 	[Token(Token = "0x6000A63")]
-	[Address(RVA = "0x41D9D30", Offset = "0x41D9D30", VA = "0x41D9D30")]
+	[Address(RVA = "0x44FEE30", Offset = "0x44FEE30", VA = "0x44FEE30")]
 	protected NumericConvertInstruction(TypeCode from, TypeCode to, bool isLiftedToNull)
 	{
 	}
 
 	[Token(Token = "0x6000A64")]
-	[Address(RVA = "0x41D9D60", Offset = "0x41D9D60", VA = "0x41D9D60", Slot = "8")]
+	[Address(RVA = "0x44FEE60", Offset = "0x44FEE60", VA = "0x44FEE60", Slot = "8")]
 	public sealed override int Run(InterpretedFrame frame)
 	{
 		return default(int);
@@ -207,7 +214,7 @@ internal abstract class NumericConvertInstruction : Instruction
 	protected abstract object Convert(object obj);
 
 	[Token(Token = "0x6000A69")]
-	[Address(RVA = "0x41D9E70", Offset = "0x41D9E70", VA = "0x41D9E70", Slot = "3")]
+	[Address(RVA = "0x44FEF70", Offset = "0x44FEF70", VA = "0x44FEF70", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

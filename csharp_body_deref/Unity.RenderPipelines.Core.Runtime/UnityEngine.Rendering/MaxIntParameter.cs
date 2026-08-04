@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.MaxIntParameter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using Il2CppDummyDll;
@@ -18,20 +25,20 @@ public class MaxIntParameter : IntParameter
 	public override int value
 	{
 		[Token(Token = "0x6000DC4")]
-		[Address(RVA = "0x48E5F80", Offset = "0x48E5F80", VA = "0x48E5F80", Slot = "14")]
+		[Address(RVA = "0x4C0AFF0", Offset = "0x4C0AFF0", VA = "0x4C0AFF0", Slot = "14")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000DC5")]
-		[Address(RVA = "0x48E5F90", Offset = "0x48E5F90", VA = "0x48E5F90", Slot = "15")]
+		[Address(RVA = "0x4C0B000", Offset = "0x4C0B000", VA = "0x4C0B000", Slot = "15")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000DC6")]
-	[Address(RVA = "0x48E5FA0", Offset = "0x48E5FA0", VA = "0x48E5FA0")]
+	[Address(RVA = "0x4C0B010", Offset = "0x4C0B010", VA = "0x4C0B010")]
 	public MaxIntParameter(int value, int max, bool overrideState = false)
 	{
 	}

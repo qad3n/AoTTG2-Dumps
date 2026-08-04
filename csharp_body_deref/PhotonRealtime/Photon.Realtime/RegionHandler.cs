@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Realtime.RegionHandler
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonRealtime/Code/RegionHandler.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -53,14 +60,14 @@ public class RegionHandler
 	public List<Region> EnabledRegions
 	{
 		[Token(Token = "0x6000185")]
-		[Address(RVA = "0x3BDB690", Offset = "0x3BDB690", VA = "0x3BDB690")]
+		[Address(RVA = "0x3ED0FE0", Offset = "0x3ED0FE0", VA = "0x3ED0FE0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000186")]
-		[Address(RVA = "0x3BDB6A0", Offset = "0x3BDB6A0", VA = "0x3BDB6A0")]
+		[Address(RVA = "0x3ED0FF0", Offset = "0x3ED0FF0", VA = "0x3ED0FF0")]
 		[CompilerGenerated]
 		protected internal set
 		{
@@ -71,7 +78,7 @@ public class RegionHandler
 	public Region BestRegion
 	{
 		[Token(Token = "0x6000187")]
-		[Address(RVA = "0x3BDB6B0", Offset = "0x3BDB6B0", VA = "0x3BDB6B0")]
+		[Address(RVA = "0x3ED1000", Offset = "0x3ED1000", VA = "0x3ED1000")]
 		get
 		{
 			return null;
@@ -82,7 +89,7 @@ public class RegionHandler
 	public string SummaryToCache
 	{
 		[Token(Token = "0x6000188")]
-		[Address(RVA = "0x3BDB820", Offset = "0x3BDB820", VA = "0x3BDB820")]
+		[Address(RVA = "0x3ED1170", Offset = "0x3ED1170", VA = "0x3ED1170")]
 		get
 		{
 			return null;
@@ -93,14 +100,14 @@ public class RegionHandler
 	public bool IsPinging
 	{
 		[Token(Token = "0x600018B")]
-		[Address(RVA = "0x3BDBFD0", Offset = "0x3BDBFD0", VA = "0x3BDBFD0")]
+		[Address(RVA = "0x3ED1920", Offset = "0x3ED1920", VA = "0x3ED1920")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600018C")]
-		[Address(RVA = "0x3BDBFE0", Offset = "0x3BDBFE0", VA = "0x3BDBFE0")]
+		[Address(RVA = "0x3ED1930", Offset = "0x3ED1930", VA = "0x3ED1930")]
 		[CompilerGenerated]
 		private set
 		{
@@ -111,14 +118,14 @@ public class RegionHandler
 	public bool Aborted
 	{
 		[Token(Token = "0x600018D")]
-		[Address(RVA = "0x3BDBFF0", Offset = "0x3BDBFF0", VA = "0x3BDBFF0")]
+		[Address(RVA = "0x3ED1940", Offset = "0x3ED1940", VA = "0x3ED1940")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600018E")]
-		[Address(RVA = "0x3BDC000", Offset = "0x3BDC000", VA = "0x3BDC000")]
+		[Address(RVA = "0x3ED1950", Offset = "0x3ED1950", VA = "0x3ED1950")]
 		[CompilerGenerated]
 		private set
 		{
@@ -126,52 +133,52 @@ public class RegionHandler
 	}
 
 	[Token(Token = "0x6000189")]
-	[Address(RVA = "0x3BDB9D0", Offset = "0x3BDB9D0", VA = "0x3BDB9D0")]
+	[Address(RVA = "0x3ED1320", Offset = "0x3ED1320", VA = "0x3ED1320")]
 	public string GetResults()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600018A")]
-	[Address(RVA = "0x3BDBCD0", Offset = "0x3BDBCD0", VA = "0x3BDBCD0")]
+	[Address(RVA = "0x3ED1620", Offset = "0x3ED1620", VA = "0x3ED1620")]
 	public void SetRegions(OperationResponse opGetRegions)
 	{
 	}
 
 	[Token(Token = "0x600018F")]
-	[Address(RVA = "0x3BDC010", Offset = "0x3BDC010", VA = "0x3BDC010")]
+	[Address(RVA = "0x3ED1960", Offset = "0x3ED1960", VA = "0x3ED1960")]
 	public RegionHandler(ushort masterServerPortOverride = 0)
 	{
 	}
 
 	[Token(Token = "0x6000190")]
-	[Address(RVA = "0x3BDC0B0", Offset = "0x3BDC0B0", VA = "0x3BDC0B0")]
+	[Address(RVA = "0x3ED1A00", Offset = "0x3ED1A00", VA = "0x3ED1A00")]
 	public bool PingMinimumOfRegions(Action<RegionHandler> onCompleteCallback, string previousSummary)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000191")]
-	[Address(RVA = "0x3BDCF10", Offset = "0x3BDCF10", VA = "0x3BDCF10")]
+	[Address(RVA = "0x3ED2860", Offset = "0x3ED2860", VA = "0x3ED2860")]
 	public void Abort()
 	{
 	}
 
 	[Token(Token = "0x6000192")]
-	[Address(RVA = "0x3BDD220", Offset = "0x3BDD220", VA = "0x3BDD220")]
+	[Address(RVA = "0x3ED2B70", Offset = "0x3ED2B70", VA = "0x3ED2B70")]
 	private void OnPreferredRegionPinged(Region preferredRegion)
 	{
 	}
 
 	[Token(Token = "0x6000193")]
-	[Address(RVA = "0x3BDC780", Offset = "0x3BDC780", VA = "0x3BDC780")]
+	[Address(RVA = "0x3ED20D0", Offset = "0x3ED20D0", VA = "0x3ED20D0")]
 	private bool PingEnabledRegions()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000194")]
-	[Address(RVA = "0x3BDD280", Offset = "0x3BDD280", VA = "0x3BDD280")]
+	[Address(RVA = "0x3ED2BD0", Offset = "0x3ED2BD0", VA = "0x3ED2BD0")]
 	private void OnRegionDone(Region region)
 	{
 	}

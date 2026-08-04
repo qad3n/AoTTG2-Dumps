@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Discord.Discord
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Plugins/DiscordGameSDK/Core.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -431,7 +438,7 @@ public class Discord : IDisposable
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x60000C6")]
-		[Address(RVA = "0x2331220", Offset = "0x2331220", VA = "0x2331220")]
+		[Address(RVA = "0x23312E0", Offset = "0x23312E0", VA = "0x23312E0")]
 		get
 		{
 			return default(FFIMethods);
@@ -440,125 +447,125 @@ public class Discord : IDisposable
 
 	[PreserveSig]
 	[Token(Token = "0x60000C5")]
-	[Address(RVA = "0x2331190", Offset = "0x2331190", VA = "0x2331190")]
+	[Address(RVA = "0x2331250", Offset = "0x2331250", VA = "0x2331250")]
 	private static extern Result DiscordCreate(uint version, ref FFICreateParams createParams, out IntPtr manager);
 
 	[Token(Token = "0x60000C7")]
-	[Address(RVA = "0x2331360", Offset = "0x2331360", VA = "0x2331360")]
+	[Address(RVA = "0x2331420", Offset = "0x2331420", VA = "0x2331420")]
 	public Discord(long clientId, ulong flags)
 	{
 	}
 
 	[Token(Token = "0x60000C8")]
-	[Address(RVA = "0x2331980", Offset = "0x2331980", VA = "0x2331980")]
+	[Address(RVA = "0x2331A40", Offset = "0x2331A40", VA = "0x2331A40")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x60000C9")]
-	[Address(RVA = "0x23319E0", Offset = "0x23319E0", VA = "0x23319E0", Slot = "4")]
+	[Address(RVA = "0x2331AA0", Offset = "0x2331AA0", VA = "0x2331AA0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60000CA")]
-	[Address(RVA = "0x2331B80", Offset = "0x2331B80", VA = "0x2331B80")]
+	[Address(RVA = "0x2331C40", Offset = "0x2331C40", VA = "0x2331C40")]
 	public void RunCallbacks()
 	{
 	}
 
 	[Token(Token = "0x60000CB")]
-	[Address(RVA = "0x23310B0", Offset = "0x23310B0", VA = "0x23310B0")]
+	[Address(RVA = "0x2331170", Offset = "0x2331170", VA = "0x2331170")]
 	[MonoPInvokeCallback]
 	private static void SetLogHookCallbackImpl(IntPtr ptr, LogLevel level, string message)
 	{
 	}
 
 	[Token(Token = "0x60000CC")]
-	[Address(RVA = "0x2331C00", Offset = "0x2331C00", VA = "0x2331C00")]
+	[Address(RVA = "0x2331CC0", Offset = "0x2331CC0", VA = "0x2331CC0")]
 	public void SetLogHook(LogLevel minLevel, SetLogHookHandler callback)
 	{
 	}
 
 	[Token(Token = "0x60000CD")]
-	[Address(RVA = "0x2331E90", Offset = "0x2331E90", VA = "0x2331E90")]
+	[Address(RVA = "0x2331F50", Offset = "0x2331F50", VA = "0x2331F50")]
 	public ApplicationManager GetApplicationManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CE")]
-	[Address(RVA = "0x2332010", Offset = "0x2332010", VA = "0x2332010")]
+	[Address(RVA = "0x23320D0", Offset = "0x23320D0", VA = "0x23320D0")]
 	public UserManager GetUserManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CF")]
-	[Address(RVA = "0x2332150", Offset = "0x2332150", VA = "0x2332150")]
+	[Address(RVA = "0x2332210", Offset = "0x2332210", VA = "0x2332210")]
 	public ImageManager GetImageManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D0")]
-	[Address(RVA = "0x23322D0", Offset = "0x23322D0", VA = "0x23322D0")]
+	[Address(RVA = "0x2332390", Offset = "0x2332390", VA = "0x2332390")]
 	public ActivityManager GetActivityManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D1")]
-	[Address(RVA = "0x23323A0", Offset = "0x23323A0", VA = "0x23323A0")]
+	[Address(RVA = "0x2332460", Offset = "0x2332460", VA = "0x2332460")]
 	public RelationshipManager GetRelationshipManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D2")]
-	[Address(RVA = "0x23324F0", Offset = "0x23324F0", VA = "0x23324F0")]
+	[Address(RVA = "0x23325B0", Offset = "0x23325B0", VA = "0x23325B0")]
 	public LobbyManager GetLobbyManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D3")]
-	[Address(RVA = "0x2332640", Offset = "0x2332640", VA = "0x2332640")]
+	[Address(RVA = "0x2332700", Offset = "0x2332700", VA = "0x2332700")]
 	public NetworkManager GetNetworkManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D4")]
-	[Address(RVA = "0x2332790", Offset = "0x2332790", VA = "0x2332790")]
+	[Address(RVA = "0x2332850", Offset = "0x2332850", VA = "0x2332850")]
 	public OverlayManager GetOverlayManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D5")]
-	[Address(RVA = "0x2332860", Offset = "0x2332860", VA = "0x2332860")]
+	[Address(RVA = "0x2332920", Offset = "0x2332920", VA = "0x2332920")]
 	public StorageManager GetStorageManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D6")]
-	[Address(RVA = "0x2332930", Offset = "0x2332930", VA = "0x2332930")]
+	[Address(RVA = "0x23329F0", Offset = "0x23329F0", VA = "0x23329F0")]
 	public StoreManager GetStoreManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D7")]
-	[Address(RVA = "0x2332A00", Offset = "0x2332A00", VA = "0x2332A00")]
+	[Address(RVA = "0x2332AC0", Offset = "0x2332AC0", VA = "0x2332AC0")]
 	public VoiceManager GetVoiceManager()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D8")]
-	[Address(RVA = "0x2332AD0", Offset = "0x2332AD0", VA = "0x2332AD0")]
+	[Address(RVA = "0x2332B90", Offset = "0x2332B90", VA = "0x2332B90")]
 	public AchievementManager GetAchievementManager()
 	{
 		return null;

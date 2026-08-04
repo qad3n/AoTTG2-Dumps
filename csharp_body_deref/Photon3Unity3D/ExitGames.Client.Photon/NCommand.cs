@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: ExitGames.Client.Photon.NCommand
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -191,7 +198,7 @@ internal class NCommand : IComparable<NCommand>
 	protected internal int SizeOfPayload
 	{
 		[Token(Token = "0x60000D2")]
-		[Address(RVA = "0x3B71E40", Offset = "0x3B71E40", VA = "0x3B71E40")]
+		[Address(RVA = "0x3E67790", Offset = "0x3E67790", VA = "0x3E67790")]
 		get
 		{
 			return default(int);
@@ -202,7 +209,7 @@ internal class NCommand : IComparable<NCommand>
 	protected internal bool IsFlaggedUnsequenced
 	{
 		[Token(Token = "0x60000D3")]
-		[Address(RVA = "0x3B72950", Offset = "0x3B72950", VA = "0x3B72950")]
+		[Address(RVA = "0x3E682A0", Offset = "0x3E682A0", VA = "0x3E682A0")]
 		get
 		{
 			return default(bool);
@@ -213,7 +220,7 @@ internal class NCommand : IComparable<NCommand>
 	protected internal bool IsFlaggedReliable
 	{
 		[Token(Token = "0x60000D4")]
-		[Address(RVA = "0x3B716E0", Offset = "0x3B716E0", VA = "0x3B716E0")]
+		[Address(RVA = "0x3E67030", Offset = "0x3E67030", VA = "0x3E67030")]
 		get
 		{
 			return default(bool);
@@ -221,75 +228,75 @@ internal class NCommand : IComparable<NCommand>
 	}
 
 	[Token(Token = "0x60000D5")]
-	[Address(RVA = "0x3B72A70", Offset = "0x3B72A70", VA = "0x3B72A70")]
+	[Address(RVA = "0x3E683C0", Offset = "0x3E683C0", VA = "0x3E683C0")]
 	internal static void CreateAck(byte[] buffer, int offset, NCommand commandToAck, int sentTime)
 	{
 	}
 
 	[Token(Token = "0x60000D6")]
-	[Address(RVA = "0x3B77400", Offset = "0x3B77400", VA = "0x3B77400")]
+	[Address(RVA = "0x3E6CD50", Offset = "0x3E6CD50", VA = "0x3E6CD50")]
 	internal NCommand(EnetPeer peer, byte commandType, StreamBuffer payload, byte channel)
 	{
 	}
 
 	[Token(Token = "0x60000D7")]
-	[Address(RVA = "0x3B77440", Offset = "0x3B77440", VA = "0x3B77440")]
+	[Address(RVA = "0x3E6CD90", Offset = "0x3E6CD90", VA = "0x3E6CD90")]
 	internal void Initialize(EnetPeer peer, byte commandType, StreamBuffer payload, byte channel)
 	{
 	}
 
 	[Token(Token = "0x60000D8")]
-	[Address(RVA = "0x3B770A0", Offset = "0x3B770A0", VA = "0x3B770A0")]
+	[Address(RVA = "0x3E6C9F0", Offset = "0x3E6C9F0", VA = "0x3E6C9F0")]
 	internal NCommand(EnetPeer peer, byte[] inBuff, ref int readingOffset)
 	{
 	}
 
 	[Token(Token = "0x60000D9")]
-	[Address(RVA = "0x3B770E0", Offset = "0x3B770E0", VA = "0x3B770E0")]
+	[Address(RVA = "0x3E6CA30", Offset = "0x3E6CA30", VA = "0x3E6CA30")]
 	internal void Initialize(EnetPeer peer, byte[] inBuff, ref int readingOffset)
 	{
 	}
 
 	[Token(Token = "0x60000DA")]
-	[Address(RVA = "0x3B77870", Offset = "0x3B77870", VA = "0x3B77870")]
+	[Address(RVA = "0x3E6D1C0", Offset = "0x3E6D1C0", VA = "0x3E6D1C0")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x60000DB")]
-	[Address(RVA = "0x3B71C90", Offset = "0x3B71C90", VA = "0x3B71C90")]
+	[Address(RVA = "0x3E675E0", Offset = "0x3E675E0", VA = "0x3E675E0")]
 	internal void SerializeHeader(byte[] buffer, ref int bufferIndex)
 	{
 	}
 
 	[Token(Token = "0x60000DC")]
-	[Address(RVA = "0x3B71E60", Offset = "0x3B71E60", VA = "0x3B71E60")]
+	[Address(RVA = "0x3E677B0", Offset = "0x3E677B0", VA = "0x3E677B0")]
 	internal byte[] Serialize()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000DD")]
-	[Address(RVA = "0x3B6EAE0", Offset = "0x3B6EAE0", VA = "0x3B6EAE0")]
+	[Address(RVA = "0x3E64430", Offset = "0x3E64430", VA = "0x3E64430")]
 	public void FreePayload()
 	{
 	}
 
 	[Token(Token = "0x60000DE")]
-	[Address(RVA = "0x3B6EB50", Offset = "0x3B6EB50", VA = "0x3B6EB50")]
+	[Address(RVA = "0x3E644A0", Offset = "0x3E644A0", VA = "0x3E644A0")]
 	public void Release()
 	{
 	}
 
 	[Token(Token = "0x60000DF")]
-	[Address(RVA = "0x3B778B0", Offset = "0x3B778B0", VA = "0x3B778B0", Slot = "4")]
+	[Address(RVA = "0x3E6D200", Offset = "0x3E6D200", VA = "0x3E6D200", Slot = "4")]
 	public int CompareTo(NCommand other)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000E0")]
-	[Address(RVA = "0x3B778E0", Offset = "0x3B778E0", VA = "0x3B778E0", Slot = "3")]
+	[Address(RVA = "0x3E6D230", Offset = "0x3E6D230", VA = "0x3E6D230", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

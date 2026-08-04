@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Bson.BsonProperty
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -10,14 +17,14 @@ internal class BsonProperty
 	public BsonString Name
 	{
 		[Token(Token = "0x6001025")]
-		[Address(RVA = "0x3B65340", Offset = "0x3B65340", VA = "0x3B65340")]
+		[Address(RVA = "0x3E5AC90", Offset = "0x3E5AC90", VA = "0x3E5AC90")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001026")]
-		[Address(RVA = "0x3B65350", Offset = "0x3B65350", VA = "0x3B65350")]
+		[Address(RVA = "0x3E5ACA0", Offset = "0x3E5ACA0", VA = "0x3E5ACA0")]
 		[CompilerGenerated]
 		set
 		{
@@ -28,14 +35,14 @@ internal class BsonProperty
 	public BsonToken Value
 	{
 		[Token(Token = "0x6001027")]
-		[Address(RVA = "0x3B65360", Offset = "0x3B65360", VA = "0x3B65360")]
+		[Address(RVA = "0x3E5ACB0", Offset = "0x3E5ACB0", VA = "0x3E5ACB0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001028")]
-		[Address(RVA = "0x3B65370", Offset = "0x3B65370", VA = "0x3B65370")]
+		[Address(RVA = "0x3E5ACC0", Offset = "0x3E5ACC0", VA = "0x3E5ACC0")]
 		[CompilerGenerated]
 		set
 		{
@@ -43,7 +50,7 @@ internal class BsonProperty
 	}
 
 	[Token(Token = "0x6001029")]
-	[Address(RVA = "0x3B64C00", Offset = "0x3B64C00", VA = "0x3B64C00")]
+	[Address(RVA = "0x3E5A550", Offset = "0x3E5A550", VA = "0x3E5A550")]
 	public BsonProperty()
 	{
 	}

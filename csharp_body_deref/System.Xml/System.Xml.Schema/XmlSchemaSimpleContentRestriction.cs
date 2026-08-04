@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XmlSchemaSimpleContentRestriction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.Serialization;
 using Il2CppDummyDll;
 
@@ -31,13 +38,13 @@ public class XmlSchemaSimpleContentRestriction : XmlSchemaContent
 	public XmlQualifiedName BaseTypeName
 	{
 		[Token(Token = "0x600175C")]
-		[Address(RVA = "0x43F5110", Offset = "0x43F5110", VA = "0x43F5110")]
+		[Address(RVA = "0x4732870", Offset = "0x4732870", VA = "0x4732870")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600175D")]
-		[Address(RVA = "0x43F5120", Offset = "0x43F5120", VA = "0x43F5120")]
+		[Address(RVA = "0x4732880", Offset = "0x4732880", VA = "0x4732880")]
 		set
 		{
 		}
@@ -48,13 +55,13 @@ public class XmlSchemaSimpleContentRestriction : XmlSchemaContent
 	public XmlSchemaSimpleType BaseType
 	{
 		[Token(Token = "0x600175E")]
-		[Address(RVA = "0x43F51B0", Offset = "0x43F51B0", VA = "0x43F51B0")]
+		[Address(RVA = "0x4732910", Offset = "0x4732910", VA = "0x4732910")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600175F")]
-		[Address(RVA = "0x43F51C0", Offset = "0x43F51C0", VA = "0x43F51C0")]
+		[Address(RVA = "0x4732920", Offset = "0x4732920", VA = "0x4732920")]
 		set
 		{
 		}
@@ -76,7 +83,7 @@ public class XmlSchemaSimpleContentRestriction : XmlSchemaContent
 	public XmlSchemaObjectCollection Facets
 	{
 		[Token(Token = "0x6001760")]
-		[Address(RVA = "0x43F51D0", Offset = "0x43F51D0", VA = "0x43F51D0")]
+		[Address(RVA = "0x4732930", Offset = "0x4732930", VA = "0x4732930")]
 		get
 		{
 			return null;
@@ -89,7 +96,7 @@ public class XmlSchemaSimpleContentRestriction : XmlSchemaContent
 	public XmlSchemaObjectCollection Attributes
 	{
 		[Token(Token = "0x6001761")]
-		[Address(RVA = "0x43F51E0", Offset = "0x43F51E0", VA = "0x43F51E0")]
+		[Address(RVA = "0x4732940", Offset = "0x4732940", VA = "0x4732940")]
 		get
 		{
 			return null;
@@ -101,26 +108,26 @@ public class XmlSchemaSimpleContentRestriction : XmlSchemaContent
 	public XmlSchemaAnyAttribute AnyAttribute
 	{
 		[Token(Token = "0x6001762")]
-		[Address(RVA = "0x43F51F0", Offset = "0x43F51F0", VA = "0x43F51F0")]
+		[Address(RVA = "0x4732950", Offset = "0x4732950", VA = "0x4732950")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001763")]
-		[Address(RVA = "0x43F5200", Offset = "0x43F5200", VA = "0x43F5200")]
+		[Address(RVA = "0x4732960", Offset = "0x4732960", VA = "0x4732960")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001764")]
-	[Address(RVA = "0x43F5210", Offset = "0x43F5210", VA = "0x43F5210")]
+	[Address(RVA = "0x4732970", Offset = "0x4732970", VA = "0x4732970")]
 	internal void SetAttributes(XmlSchemaObjectCollection newAttributes)
 	{
 	}
 
 	[Token(Token = "0x6001765")]
-	[Address(RVA = "0x43F5220", Offset = "0x43F5220", VA = "0x43F5220")]
+	[Address(RVA = "0x4732980", Offset = "0x4732980", VA = "0x4732980")]
 	public XmlSchemaSimpleContentRestriction()
 	{
 	}

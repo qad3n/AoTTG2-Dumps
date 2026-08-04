@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.XmlNameEx
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.Schema;
 using Il2CppDummyDll;
 
@@ -26,7 +33,7 @@ internal sealed class XmlNameEx : XmlName
 	public override XmlSchemaValidity Validity
 	{
 		[Token(Token = "0x6000946")]
-		[Address(RVA = "0x449D390", Offset = "0x449D390", VA = "0x449D390", Slot = "11")]
+		[Address(RVA = "0x47DAAF0", Offset = "0x47DAAF0", VA = "0x47DAAF0", Slot = "11")]
 		get
 		{
 			return default(XmlSchemaValidity);
@@ -37,7 +44,7 @@ internal sealed class XmlNameEx : XmlName
 	public override bool IsDefault
 	{
 		[Token(Token = "0x6000947")]
-		[Address(RVA = "0x449D3C0", Offset = "0x449D3C0", VA = "0x449D3C0", Slot = "12")]
+		[Address(RVA = "0x47DAB20", Offset = "0x47DAB20", VA = "0x47DAB20", Slot = "12")]
 		get
 		{
 			return default(bool);
@@ -48,7 +55,7 @@ internal sealed class XmlNameEx : XmlName
 	public override bool IsNil
 	{
 		[Token(Token = "0x6000948")]
-		[Address(RVA = "0x449D3D0", Offset = "0x449D3D0", VA = "0x449D3D0", Slot = "13")]
+		[Address(RVA = "0x47DAB30", Offset = "0x47DAB30", VA = "0x47DAB30", Slot = "13")]
 		get
 		{
 			return default(bool);
@@ -59,7 +66,7 @@ internal sealed class XmlNameEx : XmlName
 	public override XmlSchemaSimpleType MemberType
 	{
 		[Token(Token = "0x6000949")]
-		[Address(RVA = "0x449D3E0", Offset = "0x449D3E0", VA = "0x449D3E0", Slot = "14")]
+		[Address(RVA = "0x47DAB40", Offset = "0x47DAB40", VA = "0x47DAB40", Slot = "14")]
 		get
 		{
 			return null;
@@ -70,7 +77,7 @@ internal sealed class XmlNameEx : XmlName
 	public override XmlSchemaType SchemaType
 	{
 		[Token(Token = "0x600094A")]
-		[Address(RVA = "0x449D3F0", Offset = "0x449D3F0", VA = "0x449D3F0", Slot = "15")]
+		[Address(RVA = "0x47DAB50", Offset = "0x47DAB50", VA = "0x47DAB50", Slot = "15")]
 		get
 		{
 			return null;
@@ -81,7 +88,7 @@ internal sealed class XmlNameEx : XmlName
 	public override XmlSchemaElement SchemaElement
 	{
 		[Token(Token = "0x600094B")]
-		[Address(RVA = "0x449D400", Offset = "0x449D400", VA = "0x449D400", Slot = "16")]
+		[Address(RVA = "0x47DAB60", Offset = "0x47DAB60", VA = "0x47DAB60", Slot = "16")]
 		get
 		{
 			return null;
@@ -92,7 +99,7 @@ internal sealed class XmlNameEx : XmlName
 	public override XmlSchemaAttribute SchemaAttribute
 	{
 		[Token(Token = "0x600094C")]
-		[Address(RVA = "0x449D460", Offset = "0x449D460", VA = "0x449D460", Slot = "17")]
+		[Address(RVA = "0x47DABC0", Offset = "0x47DABC0", VA = "0x47DABC0", Slot = "17")]
 		get
 		{
 			return null;
@@ -100,31 +107,31 @@ internal sealed class XmlNameEx : XmlName
 	}
 
 	[Token(Token = "0x6000945")]
-	[Address(RVA = "0x449CD30", Offset = "0x449CD30", VA = "0x449CD30")]
+	[Address(RVA = "0x47DA490", Offset = "0x47DA490", VA = "0x47DA490")]
 	internal XmlNameEx(string prefix, string localName, string ns, int hashCode, XmlDocument ownerDoc, XmlName next, IXmlSchemaInfo schemaInfo)
 	{
 	}
 
 	[Token(Token = "0x600094D")]
-	[Address(RVA = "0x449D340", Offset = "0x449D340", VA = "0x449D340")]
+	[Address(RVA = "0x47DAAA0", Offset = "0x47DAAA0", VA = "0x47DAAA0")]
 	public void SetValidity(XmlSchemaValidity value)
 	{
 	}
 
 	[Token(Token = "0x600094E")]
-	[Address(RVA = "0x449D350", Offset = "0x449D350", VA = "0x449D350")]
+	[Address(RVA = "0x47DAAB0", Offset = "0x47DAAB0", VA = "0x47DAAB0")]
 	public void SetIsDefault(bool value)
 	{
 	}
 
 	[Token(Token = "0x600094F")]
-	[Address(RVA = "0x449D370", Offset = "0x449D370", VA = "0x449D370")]
+	[Address(RVA = "0x47DAAD0", Offset = "0x47DAAD0", VA = "0x47DAAD0")]
 	public void SetIsNil(bool value)
 	{
 	}
 
 	[Token(Token = "0x6000950")]
-	[Address(RVA = "0x449D4C0", Offset = "0x449D4C0", VA = "0x449D4C0", Slot = "18")]
+	[Address(RVA = "0x47DAC20", Offset = "0x47DAC20", VA = "0x47DAC20", Slot = "18")]
 	public override bool Equals(IXmlSchemaInfo schemaInfo)
 	{
 		return default(bool);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.SchemaNotation
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -21,7 +28,7 @@ internal sealed class SchemaNotation
 	internal XmlQualifiedName Name
 	{
 		[Token(Token = "0x60013EB")]
-		[Address(RVA = "0x43B4B00", Offset = "0x43B4B00", VA = "0x43B4B00")]
+		[Address(RVA = "0x46F2260", Offset = "0x46F2260", VA = "0x46F2260")]
 		get
 		{
 			return null;
@@ -32,13 +39,13 @@ internal sealed class SchemaNotation
 	internal string SystemLiteral
 	{
 		[Token(Token = "0x60013EC")]
-		[Address(RVA = "0x43B4B10", Offset = "0x43B4B10", VA = "0x43B4B10")]
+		[Address(RVA = "0x46F2270", Offset = "0x46F2270", VA = "0x46F2270")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60013ED")]
-		[Address(RVA = "0x43B4B20", Offset = "0x43B4B20", VA = "0x43B4B20")]
+		[Address(RVA = "0x46F2280", Offset = "0x46F2280", VA = "0x46F2280")]
 		set
 		{
 		}
@@ -48,20 +55,20 @@ internal sealed class SchemaNotation
 	internal string Pubid
 	{
 		[Token(Token = "0x60013EE")]
-		[Address(RVA = "0x43B4B30", Offset = "0x43B4B30", VA = "0x43B4B30")]
+		[Address(RVA = "0x46F2290", Offset = "0x46F2290", VA = "0x46F2290")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60013EF")]
-		[Address(RVA = "0x43B4B40", Offset = "0x43B4B40", VA = "0x43B4B40")]
+		[Address(RVA = "0x46F22A0", Offset = "0x46F22A0", VA = "0x46F22A0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60013EA")]
-	[Address(RVA = "0x43B4AD0", Offset = "0x43B4AD0", VA = "0x43B4AD0")]
+	[Address(RVA = "0x46F2230", Offset = "0x46F2230", VA = "0x46F2230")]
 	internal SchemaNotation(XmlQualifiedName name)
 	{
 	}

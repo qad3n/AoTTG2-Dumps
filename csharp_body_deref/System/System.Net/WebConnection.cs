@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.WebConnection
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.IO;
 using System.Net.Sockets;
@@ -55,13 +62,13 @@ internal class WebConnection : IDisposable
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000AD1")]
-		[Address(RVA = "0x466DB70", Offset = "0x466DB70", VA = "0x466DB70", Slot = "4")]
+		[Address(RVA = "0x4992C70", Offset = "0x4992C70", VA = "0x4992C70", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000AD2")]
-		[Address(RVA = "0x466E7D0", Offset = "0x466E7D0", VA = "0x466E7D0", Slot = "5")]
+		[Address(RVA = "0x49938D0", Offset = "0x49938D0", VA = "0x49938D0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -110,13 +117,13 @@ internal class WebConnection : IDisposable
 		private ConfiguredTaskAwaitable<Stream>.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000AD3")]
-		[Address(RVA = "0x466E830", Offset = "0x466E830", VA = "0x466E830", Slot = "4")]
+		[Address(RVA = "0x4993930", Offset = "0x4993930", VA = "0x4993930", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000AD4")]
-		[Address(RVA = "0x466F1F0", Offset = "0x466F1F0", VA = "0x466F1F0", Slot = "5")]
+		[Address(RVA = "0x49942F0", Offset = "0x49942F0", VA = "0x49942F0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -161,13 +168,13 @@ internal class WebConnection : IDisposable
 		private ConfiguredTaskAwaitable<bool>.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000AD5")]
-		[Address(RVA = "0x466F260", Offset = "0x466F260", VA = "0x466F260", Slot = "4")]
+		[Address(RVA = "0x4994360", Offset = "0x4994360", VA = "0x4994360", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000AD6")]
-		[Address(RVA = "0x466F860", Offset = "0x466F860", VA = "0x466F860", Slot = "5")]
+		[Address(RVA = "0x4994960", Offset = "0x4994960", VA = "0x4994960", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -218,7 +225,7 @@ internal class WebConnection : IDisposable
 	public ServicePoint ServicePoint
 	{
 		[Token(Token = "0x6000AB2")]
-		[Address(RVA = "0x466C920", Offset = "0x466C920", VA = "0x466C920")]
+		[Address(RVA = "0x4991A20", Offset = "0x4991A20", VA = "0x4991A20")]
 		[CompilerGenerated]
 		get
 		{
@@ -230,7 +237,7 @@ internal class WebConnection : IDisposable
 	public bool Closed
 	{
 		[Token(Token = "0x6000AC0")]
-		[Address(RVA = "0x466A6A0", Offset = "0x466A6A0", VA = "0x466A6A0")]
+		[Address(RVA = "0x498F7A0", Offset = "0x498F7A0", VA = "0x498F7A0")]
 		get
 		{
 			return default(bool);
@@ -241,7 +248,7 @@ internal class WebConnection : IDisposable
 	public DateTime IdleSince
 	{
 		[Token(Token = "0x6000AC1")]
-		[Address(RVA = "0x466D8E0", Offset = "0x466D8E0", VA = "0x466D8E0")]
+		[Address(RVA = "0x49929E0", Offset = "0x49929E0", VA = "0x49929E0")]
 		get
 		{
 			return default(DateTime);
@@ -252,13 +259,13 @@ internal class WebConnection : IDisposable
 	internal bool NtlmAuthenticated
 	{
 		[Token(Token = "0x6000AC7")]
-		[Address(RVA = "0x466D920", Offset = "0x466D920", VA = "0x466D920")]
+		[Address(RVA = "0x4992A20", Offset = "0x4992A20", VA = "0x4992A20")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000AC8")]
-		[Address(RVA = "0x466D930", Offset = "0x466D930", VA = "0x466D930")]
+		[Address(RVA = "0x4992A30", Offset = "0x4992A30", VA = "0x4992A30")]
 		set
 		{
 		}
@@ -268,13 +275,13 @@ internal class WebConnection : IDisposable
 	internal NetworkCredential NtlmCredential
 	{
 		[Token(Token = "0x6000AC9")]
-		[Address(RVA = "0x466D940", Offset = "0x466D940", VA = "0x466D940")]
+		[Address(RVA = "0x4992A40", Offset = "0x4992A40", VA = "0x4992A40")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000ACA")]
-		[Address(RVA = "0x466D950", Offset = "0x466D950", VA = "0x466D950")]
+		[Address(RVA = "0x4992A50", Offset = "0x4992A50", VA = "0x4992A50")]
 		set
 		{
 		}
@@ -284,40 +291,40 @@ internal class WebConnection : IDisposable
 	internal bool UnsafeAuthenticatedConnectionSharing
 	{
 		[Token(Token = "0x6000ACB")]
-		[Address(RVA = "0x466D960", Offset = "0x466D960", VA = "0x466D960")]
+		[Address(RVA = "0x4992A60", Offset = "0x4992A60", VA = "0x4992A60")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000ACC")]
-		[Address(RVA = "0x466D970", Offset = "0x466D970", VA = "0x466D970")]
+		[Address(RVA = "0x4992A70", Offset = "0x4992A70", VA = "0x4992A70")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000AB3")]
-	[Address(RVA = "0x466B220", Offset = "0x466B220", VA = "0x466B220")]
+	[Address(RVA = "0x4990320", Offset = "0x4990320", VA = "0x4990320")]
 	public WebConnection(ServicePoint sPoint)
 	{
 	}
 
 	[Token(Token = "0x6000AB4")]
-	[Address(RVA = "0x466C930", Offset = "0x466C930", VA = "0x466C930")]
+	[Address(RVA = "0x4991A30", Offset = "0x4991A30", VA = "0x4991A30")]
 	private bool CanReuse()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000AB5")]
-	[Address(RVA = "0x466C950", Offset = "0x466C950", VA = "0x466C950")]
+	[Address(RVA = "0x4991A50", Offset = "0x4991A50", VA = "0x4991A50")]
 	private bool CheckReusable()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000AB6")]
-	[Address(RVA = "0x466C9F0", Offset = "0x466C9F0", VA = "0x466C9F0")]
+	[Address(RVA = "0x4991AF0", Offset = "0x4991AF0", VA = "0x4991AF0")]
 	[AsyncStateMachine(typeof(_003CConnect_003Ed__16))]
 	private Task Connect(WebOperation operation, CancellationToken cancellationToken)
 	{
@@ -325,7 +332,7 @@ internal class WebConnection : IDisposable
 	}
 
 	[Token(Token = "0x6000AB7")]
-	[Address(RVA = "0x466CB20", Offset = "0x466CB20", VA = "0x466CB20")]
+	[Address(RVA = "0x4991C20", Offset = "0x4991C20", VA = "0x4991C20")]
 	[AsyncStateMachine(typeof(_003CCreateStream_003Ed__18))]
 	private Task<bool> CreateStream(WebOperation operation, bool reused, CancellationToken cancellationToken)
 	{
@@ -333,7 +340,7 @@ internal class WebConnection : IDisposable
 	}
 
 	[Token(Token = "0x6000AB8")]
-	[Address(RVA = "0x466CC80", Offset = "0x466CC80", VA = "0x466CC80")]
+	[Address(RVA = "0x4991D80", Offset = "0x4991D80", VA = "0x4991D80")]
 	[AsyncStateMachine(typeof(_003CInitConnection_003Ed__19))]
 	internal Task<WebRequestStream> InitConnection(WebOperation operation, CancellationToken cancellationToken)
 	{
@@ -341,79 +348,79 @@ internal class WebConnection : IDisposable
 	}
 
 	[Token(Token = "0x6000AB9")]
-	[Address(RVA = "0x466CDC0", Offset = "0x466CDC0", VA = "0x466CDC0")]
+	[Address(RVA = "0x4991EC0", Offset = "0x4991EC0", VA = "0x4991EC0")]
 	internal static WebException GetException(WebExceptionStatus status, Exception error)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000ABA")]
-	[Address(RVA = "0x466CF20", Offset = "0x466CF20", VA = "0x466CF20")]
+	[Address(RVA = "0x4992020", Offset = "0x4992020", VA = "0x4992020")]
 	internal static bool ReadLine(byte[] buffer, ref int start, int max, ref string output)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000ABB")]
-	[Address(RVA = "0x466AAC0", Offset = "0x466AAC0", VA = "0x466AAC0")]
+	[Address(RVA = "0x498FBC0", Offset = "0x498FBC0", VA = "0x498FBC0")]
 	internal bool CanReuseConnection(WebOperation operation)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000ABC")]
-	[Address(RVA = "0x466D140", Offset = "0x466D140", VA = "0x466D140")]
+	[Address(RVA = "0x4992240", Offset = "0x4992240", VA = "0x4992240")]
 	private bool PrepareSharingNtlm(WebOperation operation)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000ABD")]
-	[Address(RVA = "0x466D490", Offset = "0x466D490", VA = "0x466D490")]
+	[Address(RVA = "0x4992590", Offset = "0x4992590", VA = "0x4992590")]
 	private void Reset()
 	{
 	}
 
 	[Token(Token = "0x6000ABE")]
-	[Address(RVA = "0x466D590", Offset = "0x466D590", VA = "0x466D590")]
+	[Address(RVA = "0x4992690", Offset = "0x4992690", VA = "0x4992690")]
 	private void Close(bool reset)
 	{
 	}
 
 	[Token(Token = "0x6000ABF")]
-	[Address(RVA = "0x466D660", Offset = "0x466D660", VA = "0x466D660")]
+	[Address(RVA = "0x4992760", Offset = "0x4992760", VA = "0x4992760")]
 	private void CloseSocket()
 	{
 	}
 
 	[Token(Token = "0x6000AC2")]
-	[Address(RVA = "0x466AFF0", Offset = "0x466AFF0", VA = "0x466AFF0")]
+	[Address(RVA = "0x49900F0", Offset = "0x49900F0", VA = "0x49900F0")]
 	public bool StartOperation(WebOperation operation, bool reused)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000AC3")]
-	[Address(RVA = "0x46699E0", Offset = "0x46699E0", VA = "0x46699E0")]
+	[Address(RVA = "0x498EAE0", Offset = "0x498EAE0", VA = "0x498EAE0")]
 	public bool Continue(WebOperation next)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000AC4")]
-	[Address(RVA = "0x466D8F0", Offset = "0x466D8F0", VA = "0x466D8F0")]
+	[Address(RVA = "0x49929F0", Offset = "0x49929F0", VA = "0x49929F0")]
 	private void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6000AC5")]
-	[Address(RVA = "0x466A670", Offset = "0x466A670", VA = "0x466A670", Slot = "4")]
+	[Address(RVA = "0x498F770", Offset = "0x498F770", VA = "0x498F770", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000AC6")]
-	[Address(RVA = "0x466D560", Offset = "0x466D560", VA = "0x466D560")]
+	[Address(RVA = "0x4992660", Offset = "0x4992660", VA = "0x4992660")]
 	private void ResetNtlm()
 	{
 	}

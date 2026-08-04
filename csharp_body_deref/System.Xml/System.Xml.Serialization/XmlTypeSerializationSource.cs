@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlTypeSerializationSource
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Serialization;
@@ -18,20 +25,20 @@ internal class XmlTypeSerializationSource : SerializationSource
 	private string rootHash;
 
 	[Token(Token = "0x6000CD6")]
-	[Address(RVA = "0x44CCEB0", Offset = "0x44CCEB0", VA = "0x44CCEB0")]
+	[Address(RVA = "0x480A610", Offset = "0x480A610", VA = "0x480A610")]
 	public XmlTypeSerializationSource(Type type, XmlRootAttribute root, XmlAttributeOverrides attributeOverrides, string namspace, Type[] includedTypes)
 	{
 	}
 
 	[Token(Token = "0x6000CD7")]
-	[Address(RVA = "0x44CCFF0", Offset = "0x44CCFF0", VA = "0x44CCFF0", Slot = "0")]
+	[Address(RVA = "0x480A750", Offset = "0x480A750", VA = "0x480A750", Slot = "0")]
 	public override bool Equals(object o)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000CD8")]
-	[Address(RVA = "0x44CD0C0", Offset = "0x44CD0C0", VA = "0x44CD0C0", Slot = "2")]
+	[Address(RVA = "0x480A820", Offset = "0x480A820", VA = "0x480A820", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

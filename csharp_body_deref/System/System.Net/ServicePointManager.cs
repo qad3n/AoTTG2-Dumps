@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.ServicePointManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Concurrent;
 using System.Net.Security;
 using Il2CppDummyDll;
@@ -26,7 +33,7 @@ public class ServicePointManager
 		public bool UsesProxy
 		{
 			[Token(Token = "0x6000A74")]
-			[Address(RVA = "0x4668820", Offset = "0x4668820", VA = "0x4668820")]
+			[Address(RVA = "0x498D920", Offset = "0x498D920", VA = "0x498D920")]
 			get
 			{
 				return default(bool);
@@ -34,20 +41,20 @@ public class ServicePointManager
 		}
 
 		[Token(Token = "0x6000A73")]
-		[Address(RVA = "0x4668740", Offset = "0x4668740", VA = "0x4668740")]
+		[Address(RVA = "0x498D840", Offset = "0x498D840", VA = "0x498D840")]
 		public SPKey(Uri uri, Uri proxy, bool use_connect)
 		{
 		}
 
 		[Token(Token = "0x6000A75")]
-		[Address(RVA = "0x4668870", Offset = "0x4668870", VA = "0x4668870", Slot = "2")]
+		[Address(RVA = "0x498D970", Offset = "0x498D970", VA = "0x498D970", Slot = "2")]
 		public override int GetHashCode()
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A76")]
-		[Address(RVA = "0x4668940", Offset = "0x4668940", VA = "0x4668940", Slot = "0")]
+		[Address(RVA = "0x498DA40", Offset = "0x498DA40", VA = "0x498DA40", Slot = "0")]
 		public override bool Equals(object obj)
 		{
 			return default(bool);
@@ -115,7 +122,7 @@ public class ServicePointManager
 	public static bool CheckCertificateRevocationList
 	{
 		[Token(Token = "0x6000A6C")]
-		[Address(RVA = "0x46684E0", Offset = "0x46684E0", VA = "0x46684E0")]
+		[Address(RVA = "0x498D5E0", Offset = "0x498D5E0", VA = "0x498D5E0")]
 		get
 		{
 			return default(bool);
@@ -126,7 +133,7 @@ public class ServicePointManager
 	public static int DnsRefreshTimeout
 	{
 		[Token(Token = "0x6000A6D")]
-		[Address(RVA = "0x4668550", Offset = "0x4668550", VA = "0x4668550")]
+		[Address(RVA = "0x498D650", Offset = "0x498D650", VA = "0x498D650")]
 		get
 		{
 			return default(int);
@@ -137,7 +144,7 @@ public class ServicePointManager
 	public static SecurityProtocolType SecurityProtocol
 	{
 		[Token(Token = "0x6000A6E")]
-		[Address(RVA = "0x46685C0", Offset = "0x46685C0", VA = "0x46685C0")]
+		[Address(RVA = "0x498D6C0", Offset = "0x498D6C0", VA = "0x498D6C0")]
 		get
 		{
 			return default(SecurityProtocolType);
@@ -148,7 +155,7 @@ public class ServicePointManager
 	internal static ServerCertValidationCallback ServerCertValidationCallback
 	{
 		[Token(Token = "0x6000A6F")]
-		[Address(RVA = "0x4668630", Offset = "0x4668630", VA = "0x4668630")]
+		[Address(RVA = "0x498D730", Offset = "0x498D730", VA = "0x498D730")]
 		get
 		{
 			return null;
@@ -159,7 +166,7 @@ public class ServicePointManager
 	public static RemoteCertificateValidationCallback ServerCertificateValidationCallback
 	{
 		[Token(Token = "0x6000A70")]
-		[Address(RVA = "0x46686A0", Offset = "0x46686A0", VA = "0x46686A0")]
+		[Address(RVA = "0x498D7A0", Offset = "0x498D7A0", VA = "0x498D7A0")]
 		get
 		{
 			return null;
@@ -167,27 +174,27 @@ public class ServicePointManager
 	}
 
 	[Token(Token = "0x6000A6A")]
-	[Address(RVA = "0x46683C0", Offset = "0x46683C0", VA = "0x46683C0")]
+	[Address(RVA = "0x498D4C0", Offset = "0x498D4C0", VA = "0x498D4C0")]
 	static ServicePointManager()
 	{
 	}
 
 	[Token(Token = "0x6000A6B")]
-	[Address(RVA = "0x4668470", Offset = "0x4668470", VA = "0x4668470")]
+	[Address(RVA = "0x498D570", Offset = "0x498D570", VA = "0x498D570")]
 	internal static ICertificatePolicy GetLegacyCertificatePolicy()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A71")]
-	[Address(RVA = "0x465DDD0", Offset = "0x465DDD0", VA = "0x465DDD0")]
+	[Address(RVA = "0x4982ED0", Offset = "0x4982ED0", VA = "0x4982ED0")]
 	public static ServicePoint FindServicePoint(Uri address, IWebProxy proxy)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A72")]
-	[Address(RVA = "0x4668790", Offset = "0x4668790", VA = "0x4668790")]
+	[Address(RVA = "0x498D890", Offset = "0x498D890", VA = "0x498D890")]
 	internal static void RemoveServicePoint(ServicePoint sp)
 	{
 	}

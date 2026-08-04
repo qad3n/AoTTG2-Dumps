@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.Configuration.FtpCachePolicyElement
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Configuration;
 using System.Net.Cache;
 using System.Xml;
@@ -12,13 +19,13 @@ public sealed class FtpCachePolicyElement : ConfigurationElement
 	public RequestCacheLevel PolicyLevel
 	{
 		[Token(Token = "0x600179A")]
-		[Address(RVA = "0x45CE640", Offset = "0x45CE640", VA = "0x45CE640")]
+		[Address(RVA = "0x48F3740", Offset = "0x48F3740", VA = "0x48F3740")]
 		get
 		{
 			return default(RequestCacheLevel);
 		}
 		[Token(Token = "0x600179B")]
-		[Address(RVA = "0x45CE670", Offset = "0x45CE670", VA = "0x45CE670")]
+		[Address(RVA = "0x48F3770", Offset = "0x48F3770", VA = "0x48F3770")]
 		set
 		{
 		}
@@ -28,7 +35,7 @@ public sealed class FtpCachePolicyElement : ConfigurationElement
 	protected override ConfigurationPropertyCollection Properties
 	{
 		[Token(Token = "0x600179C")]
-		[Address(RVA = "0x45CE6A0", Offset = "0x45CE6A0", VA = "0x45CE6A0", Slot = "4")]
+		[Address(RVA = "0x48F37A0", Offset = "0x48F37A0", VA = "0x48F37A0", Slot = "4")]
 		get
 		{
 			return null;
@@ -36,19 +43,19 @@ public sealed class FtpCachePolicyElement : ConfigurationElement
 	}
 
 	[Token(Token = "0x6001799")]
-	[Address(RVA = "0x45CE610", Offset = "0x45CE610", VA = "0x45CE610")]
+	[Address(RVA = "0x48F3710", Offset = "0x48F3710", VA = "0x48F3710")]
 	public FtpCachePolicyElement()
 	{
 	}
 
 	[Token(Token = "0x600179D")]
-	[Address(RVA = "0x45CE6D0", Offset = "0x45CE6D0", VA = "0x45CE6D0", Slot = "5")]
+	[Address(RVA = "0x48F37D0", Offset = "0x48F37D0", VA = "0x48F37D0", Slot = "5")]
 	protected override void DeserializeElement(XmlReader reader, bool serializeCollectionKey)
 	{
 	}
 
 	[Token(Token = "0x600179E")]
-	[Address(RVA = "0x45CE700", Offset = "0x45CE700", VA = "0x45CE700", Slot = "9")]
+	[Address(RVA = "0x48F3800", Offset = "0x48F3800", VA = "0x48F3800", Slot = "9")]
 	protected override void Reset(ConfigurationElement parentElement)
 	{
 	}

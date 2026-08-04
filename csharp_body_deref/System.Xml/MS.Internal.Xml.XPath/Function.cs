@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MS.Internal.Xml.XPath.Function
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Xml.XPath;
 using Il2CppDummyDll;
@@ -92,7 +99,7 @@ internal class Function : AstNode
 	public override AstType Type
 	{
 		[Token(Token = "0x6001B07")]
-		[Address(RVA = "0x443EDF0", Offset = "0x443EDF0", VA = "0x443EDF0", Slot = "4")]
+		[Address(RVA = "0x477C550", Offset = "0x477C550", VA = "0x477C550", Slot = "4")]
 		get
 		{
 			return default(AstType);
@@ -103,7 +110,7 @@ internal class Function : AstNode
 	public override XPathResultType ReturnType
 	{
 		[Token(Token = "0x6001B08")]
-		[Address(RVA = "0x443EE00", Offset = "0x443EE00", VA = "0x443EE00", Slot = "5")]
+		[Address(RVA = "0x477C560", Offset = "0x477C560", VA = "0x477C560", Slot = "5")]
 		get
 		{
 			return default(XPathResultType);
@@ -114,7 +121,7 @@ internal class Function : AstNode
 	public FunctionType TypeOfFunction
 	{
 		[Token(Token = "0x6001B09")]
-		[Address(RVA = "0x443EE90", Offset = "0x443EE90", VA = "0x443EE90")]
+		[Address(RVA = "0x477C5F0", Offset = "0x477C5F0", VA = "0x477C5F0")]
 		get
 		{
 			return default(FunctionType);
@@ -125,7 +132,7 @@ internal class Function : AstNode
 	public List<AstNode> ArgumentList
 	{
 		[Token(Token = "0x6001B0A")]
-		[Address(RVA = "0x443EEA0", Offset = "0x443EEA0", VA = "0x443EEA0")]
+		[Address(RVA = "0x477C600", Offset = "0x477C600", VA = "0x477C600")]
 		get
 		{
 			return null;
@@ -136,7 +143,7 @@ internal class Function : AstNode
 	public string Prefix
 	{
 		[Token(Token = "0x6001B0B")]
-		[Address(RVA = "0x443EEB0", Offset = "0x443EEB0", VA = "0x443EEB0")]
+		[Address(RVA = "0x477C610", Offset = "0x477C610", VA = "0x477C610")]
 		get
 		{
 			return null;
@@ -147,7 +154,7 @@ internal class Function : AstNode
 	public string Name
 	{
 		[Token(Token = "0x6001B0C")]
-		[Address(RVA = "0x443EEC0", Offset = "0x443EEC0", VA = "0x443EEC0")]
+		[Address(RVA = "0x477C620", Offset = "0x477C620", VA = "0x477C620")]
 		get
 		{
 			return null;
@@ -155,19 +162,19 @@ internal class Function : AstNode
 	}
 
 	[Token(Token = "0x6001B04")]
-	[Address(RVA = "0x443EBC0", Offset = "0x443EBC0", VA = "0x443EBC0")]
+	[Address(RVA = "0x477C320", Offset = "0x477C320", VA = "0x477C320")]
 	public Function(FunctionType ftype, List<AstNode> argumentList)
 	{
 	}
 
 	[Token(Token = "0x6001B05")]
-	[Address(RVA = "0x443EC40", Offset = "0x443EC40", VA = "0x443EC40")]
+	[Address(RVA = "0x477C3A0", Offset = "0x477C3A0", VA = "0x477C3A0")]
 	public Function(string prefix, string name, List<AstNode> argumentList)
 	{
 	}
 
 	[Token(Token = "0x6001B06")]
-	[Address(RVA = "0x443ED00", Offset = "0x443ED00", VA = "0x443ED00")]
+	[Address(RVA = "0x477C460", Offset = "0x477C460", VA = "0x477C460")]
 	public Function(FunctionType ftype, AstNode arg)
 	{
 	}

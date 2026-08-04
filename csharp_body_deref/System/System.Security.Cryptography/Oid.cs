@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.Oid
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
@@ -21,13 +28,13 @@ public sealed class Oid
 	public string Value
 	{
 		[Token(Token = "0x6000530")]
-		[Address(RVA = "0x4609680", Offset = "0x4609680", VA = "0x4609680")]
+		[Address(RVA = "0x492E780", Offset = "0x492E780", VA = "0x492E780")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000531")]
-		[Address(RVA = "0x4609690", Offset = "0x4609690", VA = "0x4609690")]
+		[Address(RVA = "0x492E790", Offset = "0x492E790", VA = "0x492E790")]
 		set
 		{
 		}
@@ -37,7 +44,7 @@ public sealed class Oid
 	public string FriendlyName
 	{
 		[Token(Token = "0x6000532")]
-		[Address(RVA = "0x46096A0", Offset = "0x46096A0", VA = "0x46096A0")]
+		[Address(RVA = "0x492E7A0", Offset = "0x492E7A0", VA = "0x492E7A0")]
 		get
 		{
 			return null;
@@ -45,38 +52,38 @@ public sealed class Oid
 	}
 
 	[Token(Token = "0x600052B")]
-	[Address(RVA = "0x4609390", Offset = "0x4609390", VA = "0x4609390")]
+	[Address(RVA = "0x492E490", Offset = "0x492E490", VA = "0x492E490")]
 	public Oid()
 	{
 	}
 
 	[Token(Token = "0x600052C")]
-	[Address(RVA = "0x46093A0", Offset = "0x46093A0", VA = "0x46093A0")]
+	[Address(RVA = "0x492E4A0", Offset = "0x492E4A0", VA = "0x492E4A0")]
 	public Oid(string oid)
 	{
 	}
 
 	[Token(Token = "0x600052D")]
-	[Address(RVA = "0x4609420", Offset = "0x4609420", VA = "0x4609420")]
+	[Address(RVA = "0x492E520", Offset = "0x492E520", VA = "0x492E520")]
 	public Oid(string value, string friendlyName)
 	{
 	}
 
 	[Token(Token = "0x600052E")]
-	[Address(RVA = "0x4609460", Offset = "0x4609460", VA = "0x4609460")]
+	[Address(RVA = "0x492E560", Offset = "0x492E560", VA = "0x492E560")]
 	public Oid(Oid oid)
 	{
 	}
 
 	[Token(Token = "0x600052F")]
-	[Address(RVA = "0x46094F0", Offset = "0x46094F0", VA = "0x46094F0")]
+	[Address(RVA = "0x492E5F0", Offset = "0x492E5F0", VA = "0x492E5F0")]
 	public static Oid FromOidValue(string oidValue, OidGroup group)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000533")]
-	[Address(RVA = "0x4609630", Offset = "0x4609630", VA = "0x4609630")]
+	[Address(RVA = "0x492E730", Offset = "0x492E730", VA = "0x492E730")]
 	private Oid(string value, string friendlyName, OidGroup group)
 	{
 	}

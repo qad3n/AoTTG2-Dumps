@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.RemoteConfigSettings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -28,7 +35,7 @@ public class RemoteConfigSettings
 	private Action<bool> Updated;
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x4DDCAB0", Offset = "0x4DDCAB0", VA = "0x4DDCAB0")]
+	[Address(RVA = "0x5104400", Offset = "0x5104400", VA = "0x5104400")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void RemoteConfigSettingsUpdated(RemoteConfigSettings rcs, bool wasLastUpdatedFromServer)
 	{

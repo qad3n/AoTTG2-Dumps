@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Bson.BsonObjectId
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -12,7 +19,7 @@ public class BsonObjectId
 	public byte[] Value
 	{
 		[Token(Token = "0x6000FDB")]
-		[Address(RVA = "0x3B62820", Offset = "0x3B62820", VA = "0x3B62820")]
+		[Address(RVA = "0x3E58170", Offset = "0x3E58170", VA = "0x3E58170")]
 		[CompilerGenerated]
 		get
 		{
@@ -21,7 +28,7 @@ public class BsonObjectId
 	}
 
 	[Token(Token = "0x6000FDC")]
-	[Address(RVA = "0x3B62830", Offset = "0x3B62830", VA = "0x3B62830")]
+	[Address(RVA = "0x3E58180", Offset = "0x3E58180", VA = "0x3E58180")]
 	public BsonObjectId(byte[] value)
 	{
 	}

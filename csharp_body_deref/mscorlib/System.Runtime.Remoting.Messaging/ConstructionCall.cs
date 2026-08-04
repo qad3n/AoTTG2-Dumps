@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.Messaging.ConstructionCall
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Runtime.InteropServices;
 using System.Runtime.Remoting.Activation;
@@ -46,13 +53,13 @@ public class ConstructionCall : MethodCall, IConstructionCallMessage, IMessage, 
 	internal bool IsContextOk
 	{
 		[Token(Token = "0x6001E43")]
-		[Address(RVA = "0x4EA4F10", Offset = "0x4EA4F10", VA = "0x4EA4F10")]
+		[Address(RVA = "0x3B8AA30", Offset = "0x3B8AA30", VA = "0x3B8AA30")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001E44")]
-		[Address(RVA = "0x4EA4F20", Offset = "0x4EA4F20", VA = "0x4EA4F20")]
+		[Address(RVA = "0x3B8AA40", Offset = "0x3B8AA40", VA = "0x3B8AA40")]
 		set
 		{
 		}
@@ -62,7 +69,7 @@ public class ConstructionCall : MethodCall, IConstructionCallMessage, IMessage, 
 	public Type ActivationType
 	{
 		[Token(Token = "0x6001E45")]
-		[Address(RVA = "0x4EA4F30", Offset = "0x4EA4F30", VA = "0x4EA4F30", Slot = "24")]
+		[Address(RVA = "0x3B8AA50", Offset = "0x3B8AA50", VA = "0x3B8AA50", Slot = "24")]
 		get
 		{
 			return null;
@@ -73,7 +80,7 @@ public class ConstructionCall : MethodCall, IConstructionCallMessage, IMessage, 
 	public string ActivationTypeName
 	{
 		[Token(Token = "0x6001E46")]
-		[Address(RVA = "0x4EA5000", Offset = "0x4EA5000", VA = "0x4EA5000", Slot = "25")]
+		[Address(RVA = "0x3B8AB20", Offset = "0x3B8AB20", VA = "0x3B8AB20", Slot = "25")]
 		get
 		{
 			return null;
@@ -84,13 +91,13 @@ public class ConstructionCall : MethodCall, IConstructionCallMessage, IMessage, 
 	public IActivator Activator
 	{
 		[Token(Token = "0x6001E47")]
-		[Address(RVA = "0x4EA5010", Offset = "0x4EA5010", VA = "0x4EA5010", Slot = "26")]
+		[Address(RVA = "0x3B8AB30", Offset = "0x3B8AB30", VA = "0x3B8AB30", Slot = "26")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001E48")]
-		[Address(RVA = "0x4EA5020", Offset = "0x4EA5020", VA = "0x4EA5020", Slot = "27")]
+		[Address(RVA = "0x3B8AB40", Offset = "0x3B8AB40", VA = "0x3B8AB40", Slot = "27")]
 		set
 		{
 		}
@@ -100,7 +107,7 @@ public class ConstructionCall : MethodCall, IConstructionCallMessage, IMessage, 
 	public object[] CallSiteActivationAttributes
 	{
 		[Token(Token = "0x6001E49")]
-		[Address(RVA = "0x4EA5030", Offset = "0x4EA5030", VA = "0x4EA5030", Slot = "28")]
+		[Address(RVA = "0x3B8AB50", Offset = "0x3B8AB50", VA = "0x3B8AB50", Slot = "28")]
 		get
 		{
 			return null;
@@ -111,7 +118,7 @@ public class ConstructionCall : MethodCall, IConstructionCallMessage, IMessage, 
 	public IList ContextProperties
 	{
 		[Token(Token = "0x6001E4B")]
-		[Address(RVA = "0x4EA5050", Offset = "0x4EA5050", VA = "0x4EA5050", Slot = "29")]
+		[Address(RVA = "0x3B8AB70", Offset = "0x3B8AB70", VA = "0x3B8AB70", Slot = "29")]
 		get
 		{
 			return null;
@@ -122,7 +129,7 @@ public class ConstructionCall : MethodCall, IConstructionCallMessage, IMessage, 
 	public override IDictionary Properties
 	{
 		[Token(Token = "0x6001E4E")]
-		[Address(RVA = "0x4EA5F20", Offset = "0x4EA5F20", VA = "0x4EA5F20", Slot = "21")]
+		[Address(RVA = "0x3B8BA40", Offset = "0x3B8BA40", VA = "0x3B8BA40", Slot = "21")]
 		get
 		{
 			return null;
@@ -133,50 +140,50 @@ public class ConstructionCall : MethodCall, IConstructionCallMessage, IMessage, 
 	internal System.Runtime.Remoting.Proxies.RemotingProxy SourceProxy
 	{
 		[Token(Token = "0x6001E4F")]
-		[Address(RVA = "0x4EA5F80", Offset = "0x4EA5F80", VA = "0x4EA5F80")]
+		[Address(RVA = "0x3B8BAA0", Offset = "0x3B8BAA0", VA = "0x3B8BAA0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001E50")]
-		[Address(RVA = "0x4EA5F90", Offset = "0x4EA5F90", VA = "0x4EA5F90")]
+		[Address(RVA = "0x3B8BAB0", Offset = "0x3B8BAB0", VA = "0x3B8BAB0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001E40")]
-	[Address(RVA = "0x4E8DB80", Offset = "0x4E8DB80", VA = "0x4E8DB80")]
+	[Address(RVA = "0x3B736A0", Offset = "0x3B736A0", VA = "0x3B736A0")]
 	internal ConstructionCall(Type type)
 	{
 	}
 
 	[Token(Token = "0x6001E41")]
-	[Address(RVA = "0x4EA4C90", Offset = "0x4EA4C90", VA = "0x4EA4C90")]
+	[Address(RVA = "0x3B8A7B0", Offset = "0x3B8A7B0", VA = "0x3B8A7B0")]
 	internal ConstructionCall(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001E42")]
-	[Address(RVA = "0x4EA4D40", Offset = "0x4EA4D40", VA = "0x4EA4D40", Slot = "22")]
+	[Address(RVA = "0x3B8A860", Offset = "0x3B8A860", VA = "0x3B8A860", Slot = "22")]
 	internal override void InitDictionary()
 	{
 	}
 
 	[Token(Token = "0x6001E4A")]
-	[Address(RVA = "0x4EA5040", Offset = "0x4EA5040", VA = "0x4EA5040")]
+	[Address(RVA = "0x3B8AB60", Offset = "0x3B8AB60", VA = "0x3B8AB60")]
 	internal void SetActivationAttributes(object[] attributes)
 	{
 	}
 
 	[Token(Token = "0x6001E4C")]
-	[Address(RVA = "0x4EA50D0", Offset = "0x4EA50D0", VA = "0x4EA50D0", Slot = "19")]
+	[Address(RVA = "0x3B8ABF0", Offset = "0x3B8ABF0", VA = "0x3B8ABF0", Slot = "19")]
 	internal override void InitMethodProperty(string key, object value)
 	{
 	}
 
 	[Token(Token = "0x6001E4D")]
-	[Address(RVA = "0x4EA58A0", Offset = "0x4EA58A0", VA = "0x4EA58A0", Slot = "20")]
+	[Address(RVA = "0x3B8B3C0", Offset = "0x3B8B3C0", VA = "0x3B8B3C0", Slot = "20")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

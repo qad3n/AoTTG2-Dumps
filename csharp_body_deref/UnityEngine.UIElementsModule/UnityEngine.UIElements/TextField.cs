@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.TextField
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using Unity.Properties;
@@ -11,7 +18,7 @@ public class TextField : TextInputBaseField<string>
 	public new class UxmlFactory : UxmlFactory<TextField, UxmlTraits>
 	{
 		[Token(Token = "0x60004B8")]
-		[Address(RVA = "0x4C1E350", Offset = "0x4C1E350", VA = "0x4C1E350")]
+		[Address(RVA = "0x4F45C80", Offset = "0x4F45C80", VA = "0x4F45C80")]
 		public UxmlFactory()
 		{
 		}
@@ -29,13 +36,13 @@ public class TextField : TextInputBaseField<string>
 		private UxmlBoolAttributeDescription m_Multiline;
 
 		[Token(Token = "0x60004B9")]
-		[Address(RVA = "0x4C1E390", Offset = "0x4C1E390", VA = "0x4C1E390", Slot = "4")]
+		[Address(RVA = "0x4F45CC0", Offset = "0x4F45CC0", VA = "0x4F45CC0", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x60004BA")]
-		[Address(RVA = "0x4C1E6A0", Offset = "0x4C1E6A0", VA = "0x4C1E6A0")]
+		[Address(RVA = "0x4F45FD0", Offset = "0x4F45FD0", VA = "0x4F45FD0")]
 		public UxmlTraits()
 		{
 		}
@@ -48,27 +55,27 @@ public class TextField : TextInputBaseField<string>
 		public bool multiline
 		{
 			[Token(Token = "0x60004BC")]
-			[Address(RVA = "0x4C1D4D0", Offset = "0x4C1D4D0", VA = "0x4C1D4D0")]
+			[Address(RVA = "0x4F44E00", Offset = "0x4F44E00", VA = "0x4F44E00")]
 			get
 			{
 				return default(bool);
 			}
 			[Token(Token = "0x60004BD")]
-			[Address(RVA = "0x4C1D780", Offset = "0x4C1D780", VA = "0x4C1D780")]
+			[Address(RVA = "0x4F450B0", Offset = "0x4F450B0", VA = "0x4F450B0")]
 			set
 			{
 			}
 		}
 
 		[Token(Token = "0x60004BE")]
-		[Address(RVA = "0x4C1E860", Offset = "0x4C1E860", VA = "0x4C1E860", Slot = "98")]
+		[Address(RVA = "0x4F46190", Offset = "0x4F46190", VA = "0x4F46190", Slot = "98")]
 		protected override string StringToValue(string str)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60004BF")]
-		[Address(RVA = "0x4C1DCA0", Offset = "0x4C1DCA0", VA = "0x4C1DCA0")]
+		[Address(RVA = "0x4F455D0", Offset = "0x4F455D0", VA = "0x4F455D0")]
 		public TextInput()
 		{
 		}
@@ -94,7 +101,7 @@ public class TextField : TextInputBaseField<string>
 	private TextInput textInput
 	{
 		[Token(Token = "0x60004AA")]
-		[Address(RVA = "0x4C1D3F0", Offset = "0x4C1D3F0", VA = "0x4C1D3F0")]
+		[Address(RVA = "0x4F44D20", Offset = "0x4F44D20", VA = "0x4F44D20")]
 		get
 		{
 			return null;
@@ -106,13 +113,13 @@ public class TextField : TextInputBaseField<string>
 	public bool multiline
 	{
 		[Token(Token = "0x60004AB")]
-		[Address(RVA = "0x4C1D460", Offset = "0x4C1D460", VA = "0x4C1D460")]
+		[Address(RVA = "0x4F44D90", Offset = "0x4F44D90", VA = "0x4F44D90")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60004AC")]
-		[Address(RVA = "0x4C1D580", Offset = "0x4C1D580", VA = "0x4C1D580")]
+		[Address(RVA = "0x4F44EB0", Offset = "0x4F44EB0", VA = "0x4F44EB0")]
 		set
 		{
 		}
@@ -122,64 +129,64 @@ public class TextField : TextInputBaseField<string>
 	public override string value
 	{
 		[Token(Token = "0x60004B0")]
-		[Address(RVA = "0x4C1DD00", Offset = "0x4C1DD00", VA = "0x4C1DD00", Slot = "105")]
+		[Address(RVA = "0x4F45630", Offset = "0x4F45630", VA = "0x4F45630", Slot = "105")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60004B1")]
-		[Address(RVA = "0x4C1DD40", Offset = "0x4C1DD40", VA = "0x4C1DD40", Slot = "106")]
+		[Address(RVA = "0x4F45670", Offset = "0x4F45670", VA = "0x4F45670", Slot = "106")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60004AD")]
-	[Address(RVA = "0x4C1D9B0", Offset = "0x4C1D9B0", VA = "0x4C1D9B0")]
+	[Address(RVA = "0x4F452E0", Offset = "0x4F452E0", VA = "0x4F452E0")]
 	public TextField()
 	{
 	}
 
 	[Token(Token = "0x60004AE")]
-	[Address(RVA = "0x4C1D9D0", Offset = "0x4C1D9D0", VA = "0x4C1D9D0")]
+	[Address(RVA = "0x4F45300", Offset = "0x4F45300", VA = "0x4F45300")]
 	public TextField(string label)
 	{
 	}
 
 	[Token(Token = "0x60004AF")]
-	[Address(RVA = "0x4C1D9F0", Offset = "0x4C1D9F0", VA = "0x4C1D9F0")]
+	[Address(RVA = "0x4F45320", Offset = "0x4F45320", VA = "0x4F45320")]
 	public TextField(string label, int maxLength, bool multiline, bool isPasswordField, char maskChar)
 	{
 	}
 
 	[Token(Token = "0x60004B2")]
-	[Address(RVA = "0x4C1DE50", Offset = "0x4C1DE50", VA = "0x4C1DE50", Slot = "114")]
+	[Address(RVA = "0x4F45780", Offset = "0x4F45780", VA = "0x4F45780", Slot = "114")]
 	public override void SetValueWithoutNotify(string newValue)
 	{
 	}
 
 	[Token(Token = "0x60004B3")]
-	[Address(RVA = "0x4C1DFD0", Offset = "0x4C1DFD0", VA = "0x4C1DFD0", Slot = "10")]
+	[Address(RVA = "0x4F45900", Offset = "0x4F45900", VA = "0x4F45900", Slot = "10")]
 	[EventInterest(new Type[] { typeof(BlurEvent) })]
 	protected override void ExecuteDefaultAction(EventBase evt)
 	{
 	}
 
 	[Token(Token = "0x60004B4")]
-	[Address(RVA = "0x4C1E130", Offset = "0x4C1E130", VA = "0x4C1E130", Slot = "94")]
+	[Address(RVA = "0x4F45A60", Offset = "0x4F45A60", VA = "0x4F45A60", Slot = "94")]
 	internal override void OnViewDataReady()
 	{
 	}
 
 	[Token(Token = "0x60004B5")]
-	[Address(RVA = "0x4C1E1C0", Offset = "0x4C1E1C0", VA = "0x4C1E1C0", Slot = "115")]
+	[Address(RVA = "0x4F45AF0", Offset = "0x4F45AF0", VA = "0x4F45AF0", Slot = "115")]
 	protected override string ValueToString(string value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004B6")]
-	[Address(RVA = "0x4C1E1D0", Offset = "0x4C1E1D0", VA = "0x4C1E1D0", Slot = "116")]
+	[Address(RVA = "0x4F45B00", Offset = "0x4F45B00", VA = "0x4F45B00", Slot = "116")]
 	protected override string StringToValue(string str)
 	{
 		return null;

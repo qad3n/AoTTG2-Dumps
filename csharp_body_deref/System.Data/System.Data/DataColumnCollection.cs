@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.DataColumnCollection
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -55,7 +62,7 @@ public sealed class DataColumnCollection : InternalDataCollectionBase
 	protected override ArrayList List
 	{
 		[Token(Token = "0x6000109")]
-		[Address(RVA = "0x4206040", Offset = "0x4206040", VA = "0x4206040", Slot = "12")]
+		[Address(RVA = "0x45437A0", Offset = "0x45437A0", VA = "0x45437A0", Slot = "12")]
 		get
 		{
 			return null;
@@ -66,7 +73,7 @@ public sealed class DataColumnCollection : InternalDataCollectionBase
 	internal DataColumn[] ColumnsImplementingIChangeTracking
 	{
 		[Token(Token = "0x600010A")]
-		[Address(RVA = "0x4206050", Offset = "0x4206050", VA = "0x4206050")]
+		[Address(RVA = "0x45437B0", Offset = "0x45437B0", VA = "0x45437B0")]
 		get
 		{
 			return null;
@@ -77,7 +84,7 @@ public sealed class DataColumnCollection : InternalDataCollectionBase
 	internal int ColumnsImplementingIChangeTrackingCount
 	{
 		[Token(Token = "0x600010B")]
-		[Address(RVA = "0x4206060", Offset = "0x4206060", VA = "0x4206060")]
+		[Address(RVA = "0x45437C0", Offset = "0x45437C0", VA = "0x45437C0")]
 		get
 		{
 			return default(int);
@@ -88,7 +95,7 @@ public sealed class DataColumnCollection : InternalDataCollectionBase
 	internal int ColumnsImplementingIRevertibleChangeTrackingCount
 	{
 		[Token(Token = "0x600010C")]
-		[Address(RVA = "0x4206070", Offset = "0x4206070", VA = "0x4206070")]
+		[Address(RVA = "0x45437D0", Offset = "0x45437D0", VA = "0x45437D0")]
 		get
 		{
 			return default(int);
@@ -99,7 +106,7 @@ public sealed class DataColumnCollection : InternalDataCollectionBase
 	public DataColumn this[int index]
 	{
 		[Token(Token = "0x600010D")]
-		[Address(RVA = "0x4206080", Offset = "0x4206080", VA = "0x4206080")]
+		[Address(RVA = "0x45437E0", Offset = "0x45437E0", VA = "0x45437E0")]
 		get
 		{
 			return null;
@@ -110,7 +117,7 @@ public sealed class DataColumnCollection : InternalDataCollectionBase
 	public DataColumn this[string name]
 	{
 		[Token(Token = "0x600010E")]
-		[Address(RVA = "0x41F9810", Offset = "0x41F9810", VA = "0x41F9810")]
+		[Address(RVA = "0x4536F70", Offset = "0x4536F70", VA = "0x4536F70")]
 		get
 		{
 			return null;
@@ -121,7 +128,7 @@ public sealed class DataColumnCollection : InternalDataCollectionBase
 	internal DataColumn this[string name, string ns]
 	{
 		[Token(Token = "0x600010F")]
-		[Address(RVA = "0x42065E0", Offset = "0x42065E0", VA = "0x42065E0")]
+		[Address(RVA = "0x4543D40", Offset = "0x4543D40", VA = "0x4543D40")]
 		get
 		{
 			return null;
@@ -132,13 +139,13 @@ public sealed class DataColumnCollection : InternalDataCollectionBase
 	public event CollectionChangeEventHandler CollectionChanged
 	{
 		[Token(Token = "0x6000112")]
-		[Address(RVA = "0x4206FF0", Offset = "0x4206FF0", VA = "0x4206FF0")]
+		[Address(RVA = "0x4544750", Offset = "0x4544750", VA = "0x4544750")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000113")]
-		[Address(RVA = "0x4207080", Offset = "0x4207080", VA = "0x4207080")]
+		[Address(RVA = "0x45447E0", Offset = "0x45447E0", VA = "0x45447E0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -149,13 +156,13 @@ public sealed class DataColumnCollection : InternalDataCollectionBase
 	internal event CollectionChangeEventHandler ColumnPropertyChanged
 	{
 		[Token(Token = "0x6000114")]
-		[Address(RVA = "0x4207110", Offset = "0x4207110", VA = "0x4207110")]
+		[Address(RVA = "0x4544870", Offset = "0x4544870", VA = "0x4544870")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000115")]
-		[Address(RVA = "0x42071A0", Offset = "0x42071A0", VA = "0x42071A0")]
+		[Address(RVA = "0x4544900", Offset = "0x4544900", VA = "0x4544900")]
 		[CompilerGenerated]
 		remove
 		{
@@ -163,177 +170,177 @@ public sealed class DataColumnCollection : InternalDataCollectionBase
 	}
 
 	[Token(Token = "0x6000108")]
-	[Address(RVA = "0x4205E80", Offset = "0x4205E80", VA = "0x4205E80")]
+	[Address(RVA = "0x45435E0", Offset = "0x45435E0", VA = "0x45435E0")]
 	internal DataColumnCollection(DataTable table)
 	{
 	}
 
 	[Token(Token = "0x6000110")]
-	[Address(RVA = "0x42066C0", Offset = "0x42066C0", VA = "0x42066C0")]
+	[Address(RVA = "0x4543E20", Offset = "0x4543E20", VA = "0x4543E20")]
 	public void Add(DataColumn column)
 	{
 	}
 
 	[Token(Token = "0x6000111")]
-	[Address(RVA = "0x42066D0", Offset = "0x42066D0", VA = "0x42066D0")]
+	[Address(RVA = "0x4543E30", Offset = "0x4543E30", VA = "0x4543E30")]
 	internal void AddAt(int index, DataColumn column)
 	{
 	}
 
 	[Token(Token = "0x6000116")]
-	[Address(RVA = "0x4206EB0", Offset = "0x4206EB0", VA = "0x4206EB0")]
+	[Address(RVA = "0x4544610", Offset = "0x4544610", VA = "0x4544610")]
 	private void ArrayAdd(DataColumn column)
 	{
 	}
 
 	[Token(Token = "0x6000117")]
-	[Address(RVA = "0x4206E40", Offset = "0x4206E40", VA = "0x4206E40")]
+	[Address(RVA = "0x45445A0", Offset = "0x45445A0", VA = "0x45445A0")]
 	private void ArrayAdd(int index, DataColumn column)
 	{
 	}
 
 	[Token(Token = "0x6000118")]
-	[Address(RVA = "0x4207270", Offset = "0x4207270", VA = "0x4207270")]
+	[Address(RVA = "0x45449D0", Offset = "0x45449D0", VA = "0x45449D0")]
 	private void ArrayRemove(DataColumn column)
 	{
 	}
 
 	[Token(Token = "0x6000119")]
-	[Address(RVA = "0x42074D0", Offset = "0x42074D0", VA = "0x42074D0")]
+	[Address(RVA = "0x4544C30", Offset = "0x4544C30", VA = "0x4544C30")]
 	internal string AssignName()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600011A")]
-	[Address(RVA = "0x4206A10", Offset = "0x4206A10", VA = "0x4206A10")]
+	[Address(RVA = "0x4544170", Offset = "0x4544170", VA = "0x4544170")]
 	private void BaseAdd(DataColumn column)
 	{
 	}
 
 	[Token(Token = "0x600011B")]
-	[Address(RVA = "0x4207830", Offset = "0x4207830", VA = "0x4207830")]
+	[Address(RVA = "0x4544F90", Offset = "0x4544F90", VA = "0x4544F90")]
 	private void BaseGroupSwitch(DataColumn[] oldArray, int oldLength, DataColumn[] newArray, int newLength)
 	{
 	}
 
 	[Token(Token = "0x600011C")]
-	[Address(RVA = "0x4207A40", Offset = "0x4207A40", VA = "0x4207A40")]
+	[Address(RVA = "0x45451A0", Offset = "0x45451A0", VA = "0x45451A0")]
 	private void BaseRemove(DataColumn column)
 	{
 	}
 
 	[Token(Token = "0x600011D")]
-	[Address(RVA = "0x4207B60", Offset = "0x4207B60", VA = "0x4207B60")]
+	[Address(RVA = "0x45452C0", Offset = "0x45452C0", VA = "0x45452C0")]
 	internal bool CanRemove(DataColumn column, bool fThrowException)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600011E")]
-	[Address(RVA = "0x4207230", Offset = "0x4207230", VA = "0x4207230")]
+	[Address(RVA = "0x4544990", Offset = "0x4544990", VA = "0x4544990")]
 	private void CheckIChangeTracking(DataColumn column)
 	{
 	}
 
 	[Token(Token = "0x600011F")]
-	[Address(RVA = "0x4208830", Offset = "0x4208830", VA = "0x4208830")]
+	[Address(RVA = "0x4545F90", Offset = "0x4545F90", VA = "0x4545F90")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000120")]
-	[Address(RVA = "0x4208B20", Offset = "0x4208B20", VA = "0x4208B20")]
+	[Address(RVA = "0x4546280", Offset = "0x4546280", VA = "0x4546280")]
 	public bool Contains(string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000121")]
-	[Address(RVA = "0x4208BA0", Offset = "0x4208BA0", VA = "0x4208BA0")]
+	[Address(RVA = "0x4546300", Offset = "0x4546300", VA = "0x4546300")]
 	internal bool Contains(string name, bool caseSensitive)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000122")]
-	[Address(RVA = "0x4208C30", Offset = "0x4208C30", VA = "0x4208C30")]
+	[Address(RVA = "0x4546390", Offset = "0x4546390", VA = "0x4546390")]
 	public int IndexOf(string columnName)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000123")]
-	[Address(RVA = "0x42062B0", Offset = "0x42062B0", VA = "0x42062B0")]
+	[Address(RVA = "0x4543A10", Offset = "0x4543A10", VA = "0x4543A10")]
 	internal int IndexOfCaseInsensitive(string name)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000124")]
-	[Address(RVA = "0x4208D40", Offset = "0x4208D40", VA = "0x4208D40")]
+	[Address(RVA = "0x45464A0", Offset = "0x45464A0", VA = "0x45464A0")]
 	internal void FinishInitCollection()
 	{
 	}
 
 	[Token(Token = "0x6000125")]
-	[Address(RVA = "0x4207560", Offset = "0x4207560", VA = "0x4207560")]
+	[Address(RVA = "0x4544CC0", Offset = "0x4544CC0", VA = "0x4544CC0")]
 	private string MakeName(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000126")]
-	[Address(RVA = "0x4206F40", Offset = "0x4206F40", VA = "0x4206F40")]
+	[Address(RVA = "0x45446A0", Offset = "0x45446A0", VA = "0x45446A0")]
 	private void OnCollectionChanged(CollectionChangeEventArgs ccevent)
 	{
 	}
 
 	[Token(Token = "0x6000127")]
-	[Address(RVA = "0x42069F0", Offset = "0x42069F0", VA = "0x42069F0")]
+	[Address(RVA = "0x4544150", Offset = "0x4544150", VA = "0x4544150")]
 	private void OnCollectionChanging(CollectionChangeEventArgs ccevent)
 	{
 	}
 
 	[Token(Token = "0x6000128")]
-	[Address(RVA = "0x41FE830", Offset = "0x41FE830", VA = "0x41FE830")]
+	[Address(RVA = "0x453BF90", Offset = "0x453BF90", VA = "0x453BF90")]
 	internal void OnColumnPropertyChanged(CollectionChangeEventArgs ccevent)
 	{
 	}
 
 	[Token(Token = "0x6000129")]
-	[Address(RVA = "0x41FE460", Offset = "0x41FE460", VA = "0x41FE460")]
+	[Address(RVA = "0x453BBC0", Offset = "0x453BBC0", VA = "0x453BBC0")]
 	internal void RegisterColumnName(string name, DataColumn column)
 	{
 	}
 
 	[Token(Token = "0x600012A")]
-	[Address(RVA = "0x4209180", Offset = "0x4209180", VA = "0x4209180")]
+	[Address(RVA = "0x45468E0", Offset = "0x45468E0", VA = "0x45468E0")]
 	internal bool CanRegisterName(string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600012B")]
-	[Address(RVA = "0x42091D0", Offset = "0x42091D0", VA = "0x42091D0")]
+	[Address(RVA = "0x4546930", Offset = "0x4546930", VA = "0x4546930")]
 	public void Remove(DataColumn column)
 	{
 	}
 
 	[Token(Token = "0x600012C")]
-	[Address(RVA = "0x41FE6A0", Offset = "0x41FE6A0", VA = "0x41FE6A0")]
+	[Address(RVA = "0x453BE00", Offset = "0x453BE00", VA = "0x453BE00")]
 	internal void UnregisterName(string name)
 	{
 	}
 
 	[Token(Token = "0x600012D")]
-	[Address(RVA = "0x4208750", Offset = "0x4208750", VA = "0x4208750")]
+	[Address(RVA = "0x4545EB0", Offset = "0x4545EB0", VA = "0x4545EB0")]
 	private void AddColumnsImplementingIChangeTrackingList(DataColumn dataColumn)
 	{
 	}
 
 	[Token(Token = "0x600012E")]
-	[Address(RVA = "0x4207390", Offset = "0x4207390", VA = "0x4207390")]
+	[Address(RVA = "0x4544AF0", Offset = "0x4544AF0", VA = "0x4544AF0")]
 	private void RemoveColumnsImplementingIChangeTrackingList(DataColumn dataColumn)
 	{
 	}

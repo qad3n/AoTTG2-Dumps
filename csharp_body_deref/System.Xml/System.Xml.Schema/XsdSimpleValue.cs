@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XsdSimpleValue
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -17,7 +24,7 @@ internal class XsdSimpleValue
 	public XmlSchemaSimpleType XmlType
 	{
 		[Token(Token = "0x600104B")]
-		[Address(RVA = "0x4511A00", Offset = "0x4511A00", VA = "0x4511A00")]
+		[Address(RVA = "0x484F160", Offset = "0x484F160", VA = "0x484F160")]
 		get
 		{
 			return null;
@@ -28,7 +35,7 @@ internal class XsdSimpleValue
 	public object TypedValue
 	{
 		[Token(Token = "0x600104C")]
-		[Address(RVA = "0x4511A10", Offset = "0x4511A10", VA = "0x4511A10")]
+		[Address(RVA = "0x484F170", Offset = "0x484F170", VA = "0x484F170")]
 		get
 		{
 			return null;
@@ -36,7 +43,7 @@ internal class XsdSimpleValue
 	}
 
 	[Token(Token = "0x600104A")]
-	[Address(RVA = "0x45119C0", Offset = "0x45119C0", VA = "0x45119C0")]
+	[Address(RVA = "0x484F120", Offset = "0x484F120", VA = "0x484F120")]
 	public XsdSimpleValue(XmlSchemaSimpleType st, object value)
 	{
 	}

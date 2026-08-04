@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Realtime.RoomInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonRealtime/Code/RoomInfo.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using ExitGames.Client.Photon;
 using Il2CppDummyDll;
@@ -59,7 +66,7 @@ public class RoomInfo
 	public Hashtable CustomProperties
 	{
 		[Token(Token = "0x60001EE")]
-		[Address(RVA = "0x3BE03A0", Offset = "0x3BE03A0", VA = "0x3BE03A0")]
+		[Address(RVA = "0x3ED5CF0", Offset = "0x3ED5CF0", VA = "0x3ED5CF0")]
 		get
 		{
 			return null;
@@ -70,7 +77,7 @@ public class RoomInfo
 	public string Name
 	{
 		[Token(Token = "0x60001EF")]
-		[Address(RVA = "0x3BE03B0", Offset = "0x3BE03B0", VA = "0x3BE03B0")]
+		[Address(RVA = "0x3ED5D00", Offset = "0x3ED5D00", VA = "0x3ED5D00")]
 		get
 		{
 			return null;
@@ -81,14 +88,14 @@ public class RoomInfo
 	public int PlayerCount
 	{
 		[Token(Token = "0x60001F0")]
-		[Address(RVA = "0x3BE03C0", Offset = "0x3BE03C0", VA = "0x3BE03C0")]
+		[Address(RVA = "0x3ED5D10", Offset = "0x3ED5D10", VA = "0x3ED5D10")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001F1")]
-		[Address(RVA = "0x3BE03D0", Offset = "0x3BE03D0", VA = "0x3BE03D0")]
+		[Address(RVA = "0x3ED5D20", Offset = "0x3ED5D20", VA = "0x3ED5D20")]
 		[CompilerGenerated]
 		private set
 		{
@@ -99,7 +106,7 @@ public class RoomInfo
 	public int MaxPlayers
 	{
 		[Token(Token = "0x60001F2")]
-		[Address(RVA = "0x3BE03E0", Offset = "0x3BE03E0", VA = "0x3BE03E0")]
+		[Address(RVA = "0x3ED5D30", Offset = "0x3ED5D30", VA = "0x3ED5D30")]
 		get
 		{
 			return default(int);
@@ -110,7 +117,7 @@ public class RoomInfo
 	public bool IsOpen
 	{
 		[Token(Token = "0x60001F3")]
-		[Address(RVA = "0x3BE03F0", Offset = "0x3BE03F0", VA = "0x3BE03F0")]
+		[Address(RVA = "0x3ED5D40", Offset = "0x3ED5D40", VA = "0x3ED5D40")]
 		get
 		{
 			return default(bool);
@@ -121,7 +128,7 @@ public class RoomInfo
 	public bool IsVisible
 	{
 		[Token(Token = "0x60001F4")]
-		[Address(RVA = "0x3BE0400", Offset = "0x3BE0400", VA = "0x3BE0400")]
+		[Address(RVA = "0x3ED5D50", Offset = "0x3ED5D50", VA = "0x3ED5D50")]
 		get
 		{
 			return default(bool);
@@ -129,41 +136,41 @@ public class RoomInfo
 	}
 
 	[Token(Token = "0x60001F5")]
-	[Address(RVA = "0x3BDF0F0", Offset = "0x3BDF0F0", VA = "0x3BDF0F0")]
+	[Address(RVA = "0x3ED4A40", Offset = "0x3ED4A40", VA = "0x3ED4A40")]
 	protected internal RoomInfo(string roomName, Hashtable roomProperties)
 	{
 	}
 
 	[Token(Token = "0x60001F6")]
-	[Address(RVA = "0x3BE0410", Offset = "0x3BE0410", VA = "0x3BE0410", Slot = "0")]
+	[Address(RVA = "0x3ED5D60", Offset = "0x3ED5D60", VA = "0x3ED5D60", Slot = "0")]
 	public override bool Equals(object other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001F7")]
-	[Address(RVA = "0x3BE04A0", Offset = "0x3BE04A0", VA = "0x3BE04A0", Slot = "2")]
+	[Address(RVA = "0x3ED5DF0", Offset = "0x3ED5DF0", VA = "0x3ED5DF0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60001F8")]
-	[Address(RVA = "0x3BE04D0", Offset = "0x3BE04D0", VA = "0x3BE04D0", Slot = "3")]
+	[Address(RVA = "0x3ED5E20", Offset = "0x3ED5E20", VA = "0x3ED5E20", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001F9")]
-	[Address(RVA = "0x3BE0730", Offset = "0x3BE0730", VA = "0x3BE0730")]
+	[Address(RVA = "0x3ED6080", Offset = "0x3ED6080", VA = "0x3ED6080")]
 	public string ToStringFull()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001FA")]
-	[Address(RVA = "0x3BDF240", Offset = "0x3BDF240", VA = "0x3BDF240", Slot = "4")]
+	[Address(RVA = "0x3ED4B90", Offset = "0x3ED4B90", VA = "0x3ED4B90", Slot = "4")]
 	protected internal virtual void InternalCacheProperties(Hashtable propertiesToCache)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.XPathNodeList
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Collections.Generic;
 using System.Xml.XPath;
@@ -28,7 +35,7 @@ internal class XPathNodeList : XmlNodeList
 	public override int Count
 	{
 		[Token(Token = "0x60007B3")]
-		[Address(RVA = "0x448A550", Offset = "0x448A550", VA = "0x448A550", Slot = "7")]
+		[Address(RVA = "0x47C7CB0", Offset = "0x47C7CB0", VA = "0x47C7CB0", Slot = "7")]
 		get
 		{
 			return default(int);
@@ -36,34 +43,34 @@ internal class XPathNodeList : XmlNodeList
 	}
 
 	[Token(Token = "0x60007B2")]
-	[Address(RVA = "0x448A4C0", Offset = "0x448A4C0", VA = "0x448A4C0")]
+	[Address(RVA = "0x47C7C20", Offset = "0x47C7C20", VA = "0x47C7C20")]
 	public XPathNodeList(XPathNodeIterator nodeIterator)
 	{
 	}
 
 	[Token(Token = "0x60007B4")]
-	[Address(RVA = "0x448A6F0", Offset = "0x448A6F0", VA = "0x448A6F0")]
+	[Address(RVA = "0x47C7E50", Offset = "0x47C7E50", VA = "0x47C7E50")]
 	private XmlNode GetNode(XPathNavigator n)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007B5")]
-	[Address(RVA = "0x448A5B0", Offset = "0x448A5B0", VA = "0x448A5B0")]
+	[Address(RVA = "0x47C7D10", Offset = "0x47C7D10", VA = "0x47C7D10")]
 	internal int ReadUntil(int index)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60007B6")]
-	[Address(RVA = "0x448A7D0", Offset = "0x448A7D0", VA = "0x448A7D0", Slot = "6")]
+	[Address(RVA = "0x47C7F30", Offset = "0x47C7F30", VA = "0x47C7F30", Slot = "6")]
 	public override XmlNode Item(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007B7")]
-	[Address(RVA = "0x448A860", Offset = "0x448A860", VA = "0x448A860", Slot = "8")]
+	[Address(RVA = "0x47C7FC0", Offset = "0x47C7FC0", VA = "0x47C7FC0", Slot = "8")]
 	public override IEnumerator GetEnumerator()
 	{
 		return null;

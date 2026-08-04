@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.AppDomain
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -104,7 +111,7 @@ public sealed class AppDomain : MarshalByRefObject
 	public static AppDomain CurrentDomain
 	{
 		[Token(Token = "0x6000EF3")]
-		[Address(RVA = "0x501F310", Offset = "0x501F310", VA = "0x501F310")]
+		[Address(RVA = "0x3D04E30", Offset = "0x3D04E30", VA = "0x3D04E30")]
 		get
 		{
 			return null;
@@ -116,7 +123,7 @@ public sealed class AppDomain : MarshalByRefObject
 	public bool IsHomogenous
 	{
 		[Token(Token = "0x6000F15")]
-		[Address(RVA = "0x50206E0", Offset = "0x50206E0", VA = "0x50206E0")]
+		[Address(RVA = "0x3D06200", Offset = "0x3D06200", VA = "0x3D06200")]
 		get
 		{
 			return default(bool);
@@ -128,7 +135,7 @@ public sealed class AppDomain : MarshalByRefObject
 	public bool IsFullyTrusted
 	{
 		[Token(Token = "0x6000F16")]
-		[Address(RVA = "0x50206F0", Offset = "0x50206F0", VA = "0x50206F0")]
+		[Address(RVA = "0x3D06210", Offset = "0x3D06210", VA = "0x3D06210")]
 		get
 		{
 			return default(bool);
@@ -139,13 +146,13 @@ public sealed class AppDomain : MarshalByRefObject
 	public event EventHandler DomainUnload
 	{
 		[Token(Token = "0x6000F11")]
-		[Address(RVA = "0x5020200", Offset = "0x5020200", VA = "0x5020200", Slot = "9")]
+		[Address(RVA = "0x3D05D20", Offset = "0x3D05D20", VA = "0x3D05D20", Slot = "9")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000F12")]
-		[Address(RVA = "0x50203E0", Offset = "0x50203E0", VA = "0x50203E0", Slot = "10")]
+		[Address(RVA = "0x3D05F00", Offset = "0x3D05F00", VA = "0x3D05F00", Slot = "10")]
 		[CompilerGenerated]
 		remove
 		{
@@ -156,13 +163,13 @@ public sealed class AppDomain : MarshalByRefObject
 	public event UnhandledExceptionEventHandler UnhandledException
 	{
 		[Token(Token = "0x6000F13")]
-		[Address(RVA = "0x50205C0", Offset = "0x50205C0", VA = "0x50205C0", Slot = "11")]
+		[Address(RVA = "0x3D060E0", Offset = "0x3D060E0", VA = "0x3D060E0", Slot = "11")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000F14")]
-		[Address(RVA = "0x5020650", Offset = "0x5020650", VA = "0x5020650", Slot = "12")]
+		[Address(RVA = "0x3D06170", Offset = "0x3D06170", VA = "0x3D06170", Slot = "12")]
 		[CompilerGenerated]
 		remove
 		{
@@ -170,7 +177,7 @@ public sealed class AppDomain : MarshalByRefObject
 	}
 
 	[Token(Token = "0x6000EEF")]
-	[Address(RVA = "0x501F2C0", Offset = "0x501F2C0", VA = "0x501F2C0")]
+	[Address(RVA = "0x3D04DE0", Offset = "0x3D04DE0", VA = "0x3D04DE0")]
 	[System.Runtime.CompilerServices.Intrinsic]
 	internal static bool IsAppXModel()
 	{
@@ -178,28 +185,28 @@ public sealed class AppDomain : MarshalByRefObject
 	}
 
 	[Token(Token = "0x6000EF0")]
-	[Address(RVA = "0x501F2D0", Offset = "0x501F2D0", VA = "0x501F2D0")]
+	[Address(RVA = "0x3D04DF0", Offset = "0x3D04DF0", VA = "0x3D04DF0")]
 	private AppDomain()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000EF1")]
-	[Address(RVA = "0x501F2F0", Offset = "0x501F2F0", VA = "0x501F2F0")]
+	[Address(RVA = "0x3D04E10", Offset = "0x3D04E10", VA = "0x3D04E10")]
 	private extern string getFriendlyName();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000EF2")]
-	[Address(RVA = "0x501F300", Offset = "0x501F300", VA = "0x501F300")]
+	[Address(RVA = "0x3D04E20", Offset = "0x3D04E20", VA = "0x3D04E20")]
 	private static extern AppDomain getCurDomain();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000EF4")]
-	[Address(RVA = "0x501F320", Offset = "0x501F320", VA = "0x501F320")]
+	[Address(RVA = "0x3D04E40", Offset = "0x3D04E40", VA = "0x3D04E40")]
 	private extern Assembly[] GetAssemblies(bool refOnly);
 
 	[Token(Token = "0x6000EF5")]
-	[Address(RVA = "0x501F330", Offset = "0x501F330", VA = "0x501F330", Slot = "6")]
+	[Address(RVA = "0x3D04E50", Offset = "0x3D04E50", VA = "0x3D04E50", Slot = "6")]
 	public Assembly[] GetAssemblies()
 	{
 		return null;
@@ -207,11 +214,11 @@ public sealed class AppDomain : MarshalByRefObject
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000EF6")]
-	[Address(RVA = "0x501F340", Offset = "0x501F340", VA = "0x501F340", Slot = "7")]
+	[Address(RVA = "0x3D04E60", Offset = "0x3D04E60", VA = "0x3D04E60", Slot = "7")]
 	public extern object GetData(string name);
 
 	[Token(Token = "0x6000EF7")]
-	[Address(RVA = "0x501F350", Offset = "0x501F350", VA = "0x501F350", Slot = "5")]
+	[Address(RVA = "0x3D04E70", Offset = "0x3D04E70", VA = "0x3D04E70", Slot = "5")]
 	public override object InitializeLifetimeService()
 	{
 		return null;
@@ -219,11 +226,11 @@ public sealed class AppDomain : MarshalByRefObject
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000EF8")]
-	[Address(RVA = "0x501F360", Offset = "0x501F360", VA = "0x501F360")]
+	[Address(RVA = "0x3D04E80", Offset = "0x3D04E80", VA = "0x3D04E80")]
 	internal extern Assembly LoadAssembly(string assemblyRef, Evidence securityEvidence, bool refOnly, ref System.Threading.StackCrawlMark stackMark);
 
 	[Token(Token = "0x6000EF9")]
-	[Address(RVA = "0x501F370", Offset = "0x501F370", VA = "0x501F370")]
+	[Address(RVA = "0x3D04E90", Offset = "0x3D04E90", VA = "0x3D04E90")]
 	internal Assembly LoadSatellite(AssemblyName assemblyRef, bool throwOnError, ref System.Threading.StackCrawlMark stackMark)
 	{
 		return null;
@@ -231,14 +238,14 @@ public sealed class AppDomain : MarshalByRefObject
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x6000EFA")]
-	[Address(RVA = "0x501F460", Offset = "0x501F460", VA = "0x501F460", Slot = "8")]
+	[Address(RVA = "0x3D04F80", Offset = "0x3D04F80", VA = "0x3D04F80", Slot = "8")]
 	public Assembly Load(string assemblyString)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EFB")]
-	[Address(RVA = "0x501F480", Offset = "0x501F480", VA = "0x501F480")]
+	[Address(RVA = "0x3D04FA0", Offset = "0x3D04FA0", VA = "0x3D04FA0")]
 	internal Assembly Load(string assemblyString, Evidence assemblySecurity, bool refonly, ref System.Threading.StackCrawlMark stackMark)
 	{
 		return null;
@@ -246,53 +253,53 @@ public sealed class AppDomain : MarshalByRefObject
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000EFC")]
-	[Address(RVA = "0x501F560", Offset = "0x501F560", VA = "0x501F560")]
+	[Address(RVA = "0x3D05080", Offset = "0x3D05080", VA = "0x3D05080")]
 	private static extern AppDomain InternalSetDomainByID(int domain_id);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000EFD")]
-	[Address(RVA = "0x501F570", Offset = "0x501F570", VA = "0x501F570")]
+	[Address(RVA = "0x3D05090", Offset = "0x3D05090", VA = "0x3D05090")]
 	private static extern AppDomain InternalSetDomain(AppDomain context);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000EFE")]
-	[Address(RVA = "0x501F580", Offset = "0x501F580", VA = "0x501F580")]
+	[Address(RVA = "0x3D050A0", Offset = "0x3D050A0", VA = "0x3D050A0")]
 	internal static extern void InternalPushDomainRefByID(int domain_id);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000EFF")]
-	[Address(RVA = "0x501F590", Offset = "0x501F590", VA = "0x501F590")]
+	[Address(RVA = "0x3D050B0", Offset = "0x3D050B0", VA = "0x3D050B0")]
 	internal static extern void InternalPopDomainRef();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000F00")]
-	[Address(RVA = "0x501F5A0", Offset = "0x501F5A0", VA = "0x501F5A0")]
+	[Address(RVA = "0x3D050C0", Offset = "0x3D050C0", VA = "0x3D050C0")]
 	internal static extern Context InternalSetContext(Context context);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000F01")]
-	[Address(RVA = "0x501F5B0", Offset = "0x501F5B0", VA = "0x501F5B0")]
+	[Address(RVA = "0x3D050D0", Offset = "0x3D050D0", VA = "0x3D050D0")]
 	internal static extern Context InternalGetContext();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000F02")]
-	[Address(RVA = "0x501F5C0", Offset = "0x501F5C0", VA = "0x501F5C0")]
+	[Address(RVA = "0x3D050E0", Offset = "0x3D050E0", VA = "0x3D050E0")]
 	internal static extern Context InternalGetDefaultContext();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000F03")]
-	[Address(RVA = "0x501F5D0", Offset = "0x501F5D0", VA = "0x501F5D0")]
+	[Address(RVA = "0x3D050F0", Offset = "0x3D050F0", VA = "0x3D050F0")]
 	internal static extern string InternalGetProcessGuid(string newguid);
 
 	[Token(Token = "0x6000F04")]
-	[Address(RVA = "0x501F5E0", Offset = "0x501F5E0", VA = "0x501F5E0")]
+	[Address(RVA = "0x3D05100", Offset = "0x3D05100", VA = "0x3D05100")]
 	internal static object InvokeInDomainByID(int domain_id, MethodInfo method, object obj, object[] args)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F05")]
-	[Address(RVA = "0x501F760", Offset = "0x501F760", VA = "0x501F760")]
+	[Address(RVA = "0x3D05280", Offset = "0x3D05280", VA = "0x3D05280")]
 	internal static string GetProcessGuid()
 	{
 		return null;
@@ -300,72 +307,72 @@ public sealed class AppDomain : MarshalByRefObject
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000F06")]
-	[Address(RVA = "0x501F800", Offset = "0x501F800", VA = "0x501F800")]
+	[Address(RVA = "0x3D05320", Offset = "0x3D05320", VA = "0x3D05320")]
 	private static extern bool InternalIsFinalizingForUnload(int domain_id);
 
 	[Token(Token = "0x6000F07")]
-	[Address(RVA = "0x501F810", Offset = "0x501F810", VA = "0x501F810")]
+	[Address(RVA = "0x3D05330", Offset = "0x3D05330", VA = "0x3D05330")]
 	public bool IsFinalizingForUnload()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F08")]
-	[Address(RVA = "0x501F820", Offset = "0x501F820", VA = "0x501F820")]
+	[Address(RVA = "0x3D05340", Offset = "0x3D05340", VA = "0x3D05340")]
 	private int getDomainID()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000F09")]
-	[Address(RVA = "0x501F830", Offset = "0x501F830", VA = "0x501F830", Slot = "3")]
+	[Address(RVA = "0x3D05350", Offset = "0x3D05350", VA = "0x3D05350", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F0A")]
-	[Address(RVA = "0x501F840", Offset = "0x501F840", VA = "0x501F840")]
+	[Address(RVA = "0x3D05360", Offset = "0x3D05360", VA = "0x3D05360")]
 	private void DoAssemblyLoad(Assembly assembly)
 	{
 	}
 
 	[Token(Token = "0x6000F0B")]
-	[Address(RVA = "0x501F8C0", Offset = "0x501F8C0", VA = "0x501F8C0")]
+	[Address(RVA = "0x3D053E0", Offset = "0x3D053E0", VA = "0x3D053E0")]
 	private Assembly DoAssemblyResolve(string name, Assembly requestingAssembly, bool refonly)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F0C")]
-	[Address(RVA = "0x501FBD0", Offset = "0x501FBD0", VA = "0x501FBD0")]
+	[Address(RVA = "0x3D056F0", Offset = "0x3D056F0", VA = "0x3D056F0")]
 	internal Assembly DoTypeResolve(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F0D")]
-	[Address(RVA = "0x501FEC0", Offset = "0x501FEC0", VA = "0x501FEC0")]
+	[Address(RVA = "0x3D059E0", Offset = "0x3D059E0", VA = "0x3D059E0")]
 	internal Assembly DoResourceResolve(string name, Assembly requesting)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F0E")]
-	[Address(RVA = "0x501FFD0", Offset = "0x501FFD0", VA = "0x501FFD0")]
+	[Address(RVA = "0x3D05AF0", Offset = "0x3D05AF0", VA = "0x3D05AF0")]
 	private void DoDomainUnload()
 	{
 	}
 
 	[Token(Token = "0x6000F0F")]
-	[Address(RVA = "0x501FFF0", Offset = "0x501FFF0", VA = "0x501FFF0")]
+	[Address(RVA = "0x3D05B10", Offset = "0x3D05B10", VA = "0x3D05B10")]
 	internal byte[] GetMarshalledDomainObjRef()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F10")]
-	[Address(RVA = "0x50200B0", Offset = "0x50200B0", VA = "0x50200B0")]
+	[Address(RVA = "0x3D05BD0", Offset = "0x3D05BD0", VA = "0x3D05BD0")]
 	internal void ProcessMessageInDomain(byte[] arrRequest, System.Runtime.Remoting.Messaging.CADMethodCallMessage cadMsg, out byte[] arrResponse, out System.Runtime.Remoting.Messaging.CADMethodReturnMessage cadMrm)
 	{
 	}

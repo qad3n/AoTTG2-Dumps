@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.InstructionArray
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Diagnostics;
 using Il2CppDummyDll;
@@ -16,13 +23,13 @@ internal readonly struct InstructionArray
 		private readonly InstructionArray _array;
 
 		[Token(Token = "0x600075F")]
-		[Address(RVA = "0x41ADF60", Offset = "0x41ADF60", VA = "0x41ADF60")]
+		[Address(RVA = "0x44D3060", Offset = "0x44D3060", VA = "0x44D3060")]
 		public DebugView(InstructionArray array)
 		{
 		}
 
 		[Token(Token = "0x6000760")]
-		[Address(RVA = "0x41AE020", Offset = "0x41AE020", VA = "0x41AE020")]
+		[Address(RVA = "0x44D3120", Offset = "0x44D3120", VA = "0x44D3120")]
 		public InstructionList.DebugView.InstructionView[] GetInstructionViews(bool includeDebugCookies = false)
 		{
 			return null;
@@ -54,7 +61,7 @@ internal readonly struct InstructionArray
 	internal readonly List<KeyValuePair<int, object>> DebugCookies;
 
 	[Token(Token = "0x600075E")]
-	[Address(RVA = "0x41ADEF0", Offset = "0x41ADEF0", VA = "0x41ADEF0")]
+	[Address(RVA = "0x44D2FF0", Offset = "0x44D2FF0", VA = "0x44D2FF0")]
 	internal InstructionArray(int maxStackDepth, int maxContinuationDepth, Instruction[] instructions, object[] objects, RuntimeLabel[] labels, List<KeyValuePair<int, object>> debugCookies)
 	{
 	}

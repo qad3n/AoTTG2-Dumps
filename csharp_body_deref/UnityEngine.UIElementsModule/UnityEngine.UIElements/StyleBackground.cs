@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.StyleBackground
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -18,13 +25,13 @@ public struct StyleBackground : IStyleValue<Background>, IEquatable<StyleBackgro
 	public Background value
 	{
 		[Token(Token = "0x60015F0")]
-		[Address(RVA = "0x4D860D0", Offset = "0x4D860D0", VA = "0x4D860D0", Slot = "4")]
+		[Address(RVA = "0x50ADA00", Offset = "0x50ADA00", VA = "0x50ADA00", Slot = "4")]
 		get
 		{
 			return default(Background);
 		}
 		[Token(Token = "0x60015F1")]
-		[Address(RVA = "0x4D86110", Offset = "0x4D86110", VA = "0x4D86110", Slot = "5")]
+		[Address(RVA = "0x50ADA40", Offset = "0x50ADA40", VA = "0x50ADA40", Slot = "5")]
 		set
 		{
 		}
@@ -34,90 +41,90 @@ public struct StyleBackground : IStyleValue<Background>, IEquatable<StyleBackgro
 	public StyleKeyword keyword
 	{
 		[Token(Token = "0x60015F2")]
-		[Address(RVA = "0x4D86140", Offset = "0x4D86140", VA = "0x4D86140", Slot = "6")]
+		[Address(RVA = "0x50ADA70", Offset = "0x50ADA70", VA = "0x50ADA70", Slot = "6")]
 		get
 		{
 			return default(StyleKeyword);
 		}
 		[Token(Token = "0x60015F3")]
-		[Address(RVA = "0x4D86150", Offset = "0x4D86150", VA = "0x4D86150", Slot = "7")]
+		[Address(RVA = "0x50ADA80", Offset = "0x50ADA80", VA = "0x50ADA80", Slot = "7")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60015F4")]
-	[Address(RVA = "0x4D86160", Offset = "0x4D86160", VA = "0x4D86160")]
+	[Address(RVA = "0x50ADA90", Offset = "0x50ADA90", VA = "0x50ADA90")]
 	public StyleBackground(Texture2D v)
 	{
 	}
 
 	[Token(Token = "0x60015F5")]
-	[Address(RVA = "0x4D86200", Offset = "0x4D86200", VA = "0x4D86200")]
+	[Address(RVA = "0x50ADB30", Offset = "0x50ADB30", VA = "0x50ADB30")]
 	public StyleBackground(Sprite v)
 	{
 	}
 
 	[Token(Token = "0x60015F6")]
-	[Address(RVA = "0x4D862A0", Offset = "0x4D862A0", VA = "0x4D862A0")]
+	[Address(RVA = "0x50ADBD0", Offset = "0x50ADBD0", VA = "0x50ADBD0")]
 	public StyleBackground(VectorImage v)
 	{
 	}
 
 	[Token(Token = "0x60015F7")]
-	[Address(RVA = "0x4D861B0", Offset = "0x4D861B0", VA = "0x4D861B0")]
+	[Address(RVA = "0x50ADAE0", Offset = "0x50ADAE0", VA = "0x50ADAE0")]
 	internal StyleBackground(Texture2D v, StyleKeyword keyword)
 	{
 	}
 
 	[Token(Token = "0x60015F8")]
-	[Address(RVA = "0x4D86250", Offset = "0x4D86250", VA = "0x4D86250")]
+	[Address(RVA = "0x50ADB80", Offset = "0x50ADB80", VA = "0x50ADB80")]
 	internal StyleBackground(Sprite v, StyleKeyword keyword)
 	{
 	}
 
 	[Token(Token = "0x60015F9")]
-	[Address(RVA = "0x4D862F0", Offset = "0x4D862F0", VA = "0x4D862F0")]
+	[Address(RVA = "0x50ADC20", Offset = "0x50ADC20", VA = "0x50ADC20")]
 	internal StyleBackground(VectorImage v, StyleKeyword keyword)
 	{
 	}
 
 	[Token(Token = "0x60015FA")]
-	[Address(RVA = "0x4D86340", Offset = "0x4D86340", VA = "0x4D86340")]
+	[Address(RVA = "0x50ADC70", Offset = "0x50ADC70", VA = "0x50ADC70")]
 	internal StyleBackground(Background v, StyleKeyword keyword)
 	{
 	}
 
 	[Token(Token = "0x60015FB")]
-	[Address(RVA = "0x4D86360", Offset = "0x4D86360", VA = "0x4D86360")]
+	[Address(RVA = "0x50ADC90", Offset = "0x50ADC90", VA = "0x50ADC90")]
 	public static bool operator ==(StyleBackground lhs, StyleBackground rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60015FC")]
-	[Address(RVA = "0x4D863B0", Offset = "0x4D863B0", VA = "0x4D863B0", Slot = "8")]
+	[Address(RVA = "0x50ADCE0", Offset = "0x50ADCE0", VA = "0x50ADCE0", Slot = "8")]
 	public bool Equals(StyleBackground other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60015FD")]
-	[Address(RVA = "0x4D86450", Offset = "0x4D86450", VA = "0x4D86450", Slot = "0")]
+	[Address(RVA = "0x50ADD80", Offset = "0x50ADD80", VA = "0x50ADD80", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60015FE")]
-	[Address(RVA = "0x4D86550", Offset = "0x4D86550", VA = "0x4D86550", Slot = "2")]
+	[Address(RVA = "0x50ADE80", Offset = "0x50ADE80", VA = "0x50ADE80", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60015FF")]
-	[Address(RVA = "0x4D86570", Offset = "0x4D86570", VA = "0x4D86570", Slot = "3")]
+	[Address(RVA = "0x50ADEA0", Offset = "0x50ADEA0", VA = "0x50ADEA0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.EncoderFallbackException
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
 
@@ -24,25 +31,25 @@ public sealed class EncoderFallbackException : ArgumentException
 	private int _index;
 
 	[Token(Token = "0x600159B")]
-	[Address(RVA = "0x4E19130", Offset = "0x4E19130", VA = "0x4E19130")]
+	[Address(RVA = "0x3AFEC50", Offset = "0x3AFEC50", VA = "0x3AFEC50")]
 	public EncoderFallbackException()
 	{
 	}
 
 	[Token(Token = "0x600159C")]
-	[Address(RVA = "0x4E18D00", Offset = "0x4E18D00", VA = "0x4E18D00")]
+	[Address(RVA = "0x3AFE820", Offset = "0x3AFE820", VA = "0x3AFE820")]
 	internal EncoderFallbackException(string message, char charUnknown, int index)
 	{
 	}
 
 	[Token(Token = "0x600159D")]
-	[Address(RVA = "0x4E18F50", Offset = "0x4E18F50", VA = "0x4E18F50")]
+	[Address(RVA = "0x3AFEA70", Offset = "0x3AFEA70", VA = "0x3AFEA70")]
 	internal EncoderFallbackException(string message, char charUnknownHigh, char charUnknownLow, int index)
 	{
 	}
 
 	[Token(Token = "0x600159E")]
-	[Address(RVA = "0x4E19170", Offset = "0x4E19170", VA = "0x4E19170")]
+	[Address(RVA = "0x3AFEC90", Offset = "0x3AFEC90", VA = "0x3AFEC90")]
 	private EncoderFallbackException(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}

@@ -1,17 +1,17 @@
 // Type: Utility.Color255
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Utility/Color255.cs
-// Prior real C# source (REFERENCE, outdated): Assets/Scripts/Utility/Color255.cs  [CHANGED since prior version]
+// Prior real C# source (older reference): Assets/Scripts/Utility/Color255.cs
 // --------------------------------
 
 // Utility.Color255$$.ctor
 // il2cpp: void Utility_Color255___ctor (Utility_Color255_o* __this, int32_t r, int32_t g, int32_t b, int32_t a, const MethodInfo* method);
-// 0x4153a30
+// 0x4488b50
 
 void Utility_Color255___ctor
-               (Utility_Color255_o *__this,int32_t r,int32_t g,int32_t b,int32_t a,
-               MethodInfo *method)
+               (Utility_Color255_o *__this,int32_t r,int32_t g,int32_t b,int32_t a,MethodInfo *method)
 
 {
   System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
@@ -25,9 +25,9 @@ void Utility_Color255___ctor
 
 // Utility.Color255$$.ctor
 // il2cpp: void Utility_Color255___ctor (Utility_Color255_o* __this, const MethodInfo* method);
-// 0x4158230
+// 0x4488b90
 
-void Utility_Color255___ctor(Utility_Color255_o *__this,MethodInfo *method)
+void Utility_Color255___ctor_4388b90(Utility_Color255_o *__this,MethodInfo *method)
 
 {
   System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
@@ -41,10 +41,9 @@ void Utility_Color255___ctor(Utility_Color255_o *__this,MethodInfo *method)
 
 // Utility.Color255$$.ctor
 // il2cpp: void Utility_Color255___ctor (Utility_Color255_o* __this, UnityEngine_Color_o color, const MethodInfo* method);
-// 0x4158250
+// 0x4488bb0
 
-void Utility_Color255___ctor
-               (Utility_Color255_o *__this,UnityEngine_Color_o color,MethodInfo *method)
+void Utility_Color255___ctor_4388bb0(Utility_Color255_o *__this,UnityEngine_Color_o color,MethodInfo *method)
 
 {
   float local_28;
@@ -63,7 +62,7 @@ void Utility_Color255___ctor
 
 // Utility.Color255$$ToColor
 // il2cpp: UnityEngine_Color_o Utility_Color255__ToColor (Utility_Color255_o* __this, const MethodInfo* method);
-// 0x4158290
+// 0x4488bf0
 
 UnityEngine_Color_o Utility_Color255__ToColor(Utility_Color255_o *__this,MethodInfo *method)
 
@@ -80,7 +79,7 @@ UnityEngine_Color_o Utility_Color255__ToColor(Utility_Color255_o *__this,MethodI
 
 // Utility.Color255$$Lerp
 // il2cpp: Utility_Color255_o* Utility_Color255__Lerp (Utility_Color255_o* from, Utility_Color255_o* to, float t, const MethodInfo* method);
-// 0x41582d0
+// 0x4488c30
 
 Utility_Color255_o *
 Utility_Color255__Lerp(Utility_Color255_o *from,Utility_Color255_o *to,float t,MethodInfo *method)
@@ -90,100 +89,168 @@ Utility_Color255__Lerp(Utility_Color255_o *from,Utility_Color255_o *to,float t,M
   int iVar2;
   int iVar3;
   int iVar4;
-  Utility_Color255_o *__this;
-  float fVar5;
-  float fVar6;
-  float fVar7;
+  Utility_Color255_o *pUVar5;
+  UnityEngine_Gradient_o *__this;
+  UnityEngine_GradientAlphaKey_array *alphaKeys;
+  long *plVar6;
+  UnityEngine_GradientColorKey_array *colorKeys;
+  UnityEngine_Gradient_o *pUVar7;
   float fVar8;
   float fVar9;
+  float fVar10;
+  float fVar11;
+  float fVar12;
+  UnityEngine_Color_o UVar13;
+  float fStack_60;
+  float fStack_5c;
   
-  if (DAT_05704a17 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_Color255);
-    DAT_05704a17 = '\x01';
+  alphaKeys = (UnityEngine_GradientAlphaKey_array *)to;
+  colorKeys = (UnityEngine_GradientColorKey_array *)from;
+  if (g_data_057ae8ce == '\0') {
+    colorKeys = (UnityEngine_GradientColorKey_array *)&TypeInfo_Color255;
+    il2cpp_runtime_helper_023445d0();
+    g_data_057ae8ce = '\x01';
   }
   if ((from != (Utility_Color255_o *)0x0) && (to != (Utility_Color255_o *)0x0)) {
-    fVar9 = 1.0;
+    fVar12 = 1.0;
     if (t <= 1.0) {
-      fVar9 = t;
+      fVar12 = t;
     }
-    fVar9 = (float)(-(uint)(0.0 <= t) & (uint)fVar9);
+    fVar12 = (float)(-(uint)(0.0 <= t) & (uint)fVar12);
     iVar1 = (to->fields).R;
     iVar2 = (to->fields).G;
     iVar3 = (to->fields).B;
     iVar4 = (to->fields).A;
-    fVar5 = (float)(from->fields).R;
-    fVar6 = (float)(from->fields).G;
-    fVar7 = (float)(from->fields).B;
-    fVar8 = (float)(from->fields).A;
-    __this = (Utility_Color255_o *)il2cpp_runtime_glue(TypeInfo_Color255);
-    System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
-    (__this->fields).R = (int)(fVar9 * ((float)iVar1 - fVar5) + fVar5);
-    (__this->fields).G = (int)(fVar9 * ((float)iVar2 - fVar6) + fVar6);
-    (__this->fields).B = (int)(fVar9 * ((float)iVar3 - fVar7) + fVar7);
-    (__this->fields).A = (int)(fVar9 * ((float)iVar4 - fVar8) + fVar8);
-    return __this;
+    fVar8 = (float)(from->fields).R;
+    fVar9 = (float)(from->fields).G;
+    fVar10 = (float)(from->fields).B;
+    fVar11 = (float)(from->fields).A;
+    pUVar5 = (Utility_Color255_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Color255);
+    System_Object___ctor((Il2CppObject *)pUVar5,(MethodInfo *)0x0);
+    (pUVar5->fields).R = (int)(fVar12 * ((float)iVar1 - fVar8) + fVar8);
+    (pUVar5->fields).G = (int)(fVar12 * ((float)iVar2 - fVar9) + fVar9);
+    (pUVar5->fields).B = (int)(fVar12 * ((float)iVar3 - fVar10) + fVar10);
+    (pUVar5->fields).A = (int)(fVar12 * ((float)iVar4 - fVar11) + fVar11);
+    return pUVar5;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  fVar12 = (float)il2cpp_runtime_helper_022b2c90();
+  if (g_data_057ae8cf == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Color255);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Gradient);
+    g_data_057ae8cf = '\x01';
+  }
+  __this = (UnityEngine_Gradient_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Gradient);
+  plVar6 = (long *)0x0;
+  pUVar7 = __this;
+  UnityEngine_Gradient___ctor(__this,(MethodInfo *)0x0);
+  if (__this != (UnityEngine_Gradient_o *)0x0) {
+    UnityEngine_Gradient__SetKeys(__this,colorKeys,alphaKeys,(MethodInfo *)0x0);
+    UVar13 = UnityEngine_Gradient__Evaluate(__this,fVar12,(MethodInfo *)0x0);
+    pUVar5 = (Utility_Color255_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Color255);
+    System_Object___ctor((Il2CppObject *)pUVar5,(MethodInfo *)0x0);
+    fStack_60 = UVar13.fields.r;
+    fStack_5c = UVar13.fields.g;
+    (pUVar5->fields).R = (int)(fStack_60 * 255.0);
+    (pUVar5->fields).G = (int)(fStack_5c * 255.0);
+    (pUVar5->fields).B = (int)(UVar13.fields.b * 255.0);
+    (pUVar5->fields).A = (int)(UVar13.fields.a * 255.0);
+    return pUVar5;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  if (g_data_057ae8d0 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Color255);
+    g_data_057ae8d0 = '\x01';
+  }
+  if (plVar6 != (long *)0x0) {
+    if ((((*(byte *)(TypeInfo_Color255 + 0x130) <= *(byte *)(*plVar6 + 0x130)) &&
+         (*(long *)(*(long *)(*plVar6 + 200) + -8 + (ulong)*(byte *)(TypeInfo_Color255 + 0x130) * 8) ==
+          TypeInfo_Color255)) && ((int)(pUVar7->fields).m_Ptr == (int)plVar6[2])) &&
+       ((*(int *)((long)&(pUVar7->fields).m_Ptr + 4) == *(int *)((long)plVar6 + 0x14) &&
+        (*(int *)&pUVar7[1].klass == (int)plVar6[3])))) {
+      iVar1 = *(int *)((long)&pUVar7[1].klass + 4);
+      return (Utility_Color255_o *)
+             (ulong)CONCAT31((int3)((uint)iVar1 >> 8),iVar1 == *(int *)((long)plVar6 + 0x1c));
+    }
+  }
+  return (Utility_Color255_o *)0x0;
 }
 
 
 // Utility.Color255$$Gradient
 // il2cpp: Utility_Color255_o* Utility_Color255__Gradient (UnityEngine_GradientColorKey_array* colorKeys, UnityEngine_GradientAlphaKey_array* alphakeys, int32_t mode, float t, const MethodInfo* method);
-// 0x4158380
+// 0x4488ce0
 
 Utility_Color255_o *
 Utility_Color255__Gradient
-          (UnityEngine_GradientColorKey_array *colorKeys,
-          UnityEngine_GradientAlphaKey_array *alphakeys,int32_t mode,float t,MethodInfo *method)
+          (UnityEngine_GradientColorKey_array *colorKeys,UnityEngine_GradientAlphaKey_array *alphakeys,
+          int32_t mode,float t,MethodInfo *method)
 
 {
+  int iVar1;
   UnityEngine_Gradient_o *__this;
   Utility_Color255_o *__this_00;
   undefined4 in_register_00000014;
-  UnityEngine_Color_o UVar1;
+  long *plVar2;
+  UnityEngine_Gradient_o *pUVar3;
+  UnityEngine_Color_o UVar4;
   float local_38;
   float fStack_34;
   
-  if (DAT_05704a18 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_Color255,alphakeys,CONCAT44(in_register_00000014,mode));
-    il2cpp_init_method_metadata(&TypeInfo_Gradient);
-    DAT_05704a18 = '\x01';
+  if (g_data_057ae8cf == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Color255,alphakeys,CONCAT44(in_register_00000014,mode));
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Gradient);
+    g_data_057ae8cf = '\x01';
   }
-  __this = (UnityEngine_Gradient_o *)il2cpp_runtime_glue(TypeInfo_Gradient);
+  __this = (UnityEngine_Gradient_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Gradient);
+  plVar2 = (long *)0x0;
+  pUVar3 = __this;
   UnityEngine_Gradient___ctor(__this,(MethodInfo *)0x0);
   if (__this != (UnityEngine_Gradient_o *)0x0) {
     UnityEngine_Gradient__SetKeys(__this,colorKeys,alphakeys,(MethodInfo *)0x0);
-    UVar1 = UnityEngine_Gradient__Evaluate(__this,t,(MethodInfo *)0x0);
-    __this_00 = (Utility_Color255_o *)il2cpp_runtime_glue(TypeInfo_Color255);
+    UVar4 = UnityEngine_Gradient__Evaluate(__this,t,(MethodInfo *)0x0);
+    __this_00 = (Utility_Color255_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Color255);
     System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-    local_38 = UVar1.fields.r;
-    fStack_34 = UVar1.fields.g;
+    local_38 = UVar4.fields.r;
+    fStack_34 = UVar4.fields.g;
     (__this_00->fields).R = (int)(local_38 * 255.0);
     (__this_00->fields).G = (int)(fStack_34 * 255.0);
-    (__this_00->fields).B = (int)(UVar1.fields.b * 255.0);
-    (__this_00->fields).A = (int)(UVar1.fields.a * 255.0);
+    (__this_00->fields).B = (int)(UVar4.fields.b * 255.0);
+    (__this_00->fields).A = (int)(UVar4.fields.a * 255.0);
     return __this_00;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  if (g_data_057ae8d0 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Color255);
+    g_data_057ae8d0 = '\x01';
+  }
+  if (plVar2 != (long *)0x0) {
+    if ((((*(byte *)(TypeInfo_Color255 + 0x130) <= *(byte *)(*plVar2 + 0x130)) &&
+         (*(long *)(*(long *)(*plVar2 + 200) + -8 + (ulong)*(byte *)(TypeInfo_Color255 + 0x130) * 8) ==
+          TypeInfo_Color255)) && ((int)(pUVar3->fields).m_Ptr == (int)plVar2[2])) &&
+       ((*(int *)((long)&(pUVar3->fields).m_Ptr + 4) == *(int *)((long)plVar2 + 0x14) &&
+        (*(int *)&pUVar3[1].klass == (int)plVar2[3])))) {
+      iVar1 = *(int *)((long)&pUVar3[1].klass + 4);
+      return (Utility_Color255_o *)
+             (ulong)CONCAT31((int3)((uint)iVar1 >> 8),iVar1 == *(int *)((long)plVar2 + 0x1c));
+    }
+  }
+  return (Utility_Color255_o *)0x0;
 }
 
 
 // Utility.Color255$$Equals
 // il2cpp: bool Utility_Color255__Equals (Utility_Color255_o* __this, Il2CppObject* obj, const MethodInfo* method);
-// 0x4158450
+// 0x4488db0
 
-bool_conflict
-Utility_Color255__Equals(Utility_Color255_o *__this,Il2CppObject *obj,MethodInfo *method)
+bool_conflict Utility_Color255__Equals(Utility_Color255_o *__this,Il2CppObject *obj,MethodInfo *method)
 
 {
   byte bVar1;
   int iVar2;
   
-  if (DAT_05704a19 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_Color255);
-    DAT_05704a19 = '\x01';
+  if (g_data_057ae8d0 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Color255);
+    g_data_057ae8d0 = '\x01';
   }
   if (obj != (Il2CppObject *)0x0) {
     bVar1 = (TypeInfo_Color255->_2).naturalAligment;
@@ -202,7 +269,7 @@ Utility_Color255__Equals(Utility_Color255_o *__this,Il2CppObject *obj,MethodInfo
 
 // Utility.Color255$$GetHashCode
 // il2cpp: int32_t Utility_Color255__GetHashCode (Utility_Color255_o* __this, const MethodInfo* method);
-// 0x41584e0
+// 0x4488e40
 
 int32_t Utility_Color255__GetHashCode(Utility_Color255_o *__this,MethodInfo *method)
 
@@ -212,23 +279,23 @@ int32_t Utility_Color255__GetHashCode(Utility_Color255_o *__this,MethodInfo *met
   undefined8 uVar2;
   Il2CppObject *pIVar3;
   
-  if (DAT_05704a1a == '\0') {
-    il2cpp_init_method_metadata(&MethodInfo_Int32_GetHashCode);
-    il2cpp_init_method_metadata(&MethodInfo_ValueTuple_4_Int32_Int32_Int32_Int32);
-    DAT_05704a1a = '\x01';
+  if (g_data_057ae8d1 == '\0') {
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_GetHashCode);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_ValueTuple_4_Int32_Int32_Int32_Int32);
+    g_data_057ae8d1 = '\x01';
   }
   uVar2 = 0;
   pIVar3 = (Il2CppObject *)0x0;
-  System_ValueTuple<int__int__int__int>___ctor
-            ((System_ValueTuple_T1__T2__T3__T4__o)ZEXT1632(ZEXT816(0)),
-             (int32_t)&stack0xffffffffffffffd8,(__this->fields).R,(__this->fields).G,
-             (__this->fields).B,(MethodInfo_2B68A70 *)(ulong)(uint)(__this->fields).A);
+  System_ValueTuple_int__int__int__int____ctor
+            ((System_ValueTuple_T1__T2__T3__T4__o)ZEXT1632(ZEXT816(0)),(int32_t)&stack0xffffffffffffffd8,
+             (__this->fields).R,(__this->fields).G,(__this->fields).B,
+             (MethodInfo_2BD8FF0 *)(ulong)(uint)(__this->fields).A);
   __this_00.fields.Item2 = pIVar3;
   __this_00.fields.Item1 = (Il2CppObject *)uVar2;
   __this_00.fields.Item3 = (Il2CppObject *)uVar2;
   __this_00.fields.Item4 = pIVar3;
-  iVar1 = System_ValueTuple<int__int__int__int>__GetHashCode
-                    (__this_00,(MethodInfo_2B69B50 *)&stack0xffffffffffffffe8);
+  iVar1 = System_ValueTuple_int__int__int__int___GetHashCode
+                    (__this_00,(MethodInfo_2BDA0D0 *)&stack0xffffffffffffffe8);
   return iVar1;
 }
 

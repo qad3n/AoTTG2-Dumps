@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UIR.RenderChain
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -33,25 +40,25 @@ internal class RenderChain : IDisposable
 		public uint dirtyID;
 
 		[Token(Token = "0x6001D79")]
-		[Address(RVA = "0x4C74BE0", Offset = "0x4C74BE0", VA = "0x4C74BE0")]
+		[Address(RVA = "0x4F9C510", Offset = "0x4F9C510", VA = "0x4F9C510")]
 		public void EnsureFits(int maxDepth)
 		{
 		}
 
 		[Token(Token = "0x6001D7A")]
-		[Address(RVA = "0x4C74D20", Offset = "0x4C74D20", VA = "0x4C74D20")]
+		[Address(RVA = "0x4F9C650", Offset = "0x4F9C650", VA = "0x4F9C650")]
 		public void RegisterDirty(VisualElement ve, RenderDataDirtyTypes dirtyTypes, RenderDataDirtyTypeClasses dirtyTypeClass)
 		{
 		}
 
 		[Token(Token = "0x6001D7B")]
-		[Address(RVA = "0x4C74F00", Offset = "0x4C74F00", VA = "0x4C74F00")]
+		[Address(RVA = "0x4F9C830", Offset = "0x4F9C830", VA = "0x4F9C830")]
 		public void ClearDirty(VisualElement ve, RenderDataDirtyTypes dirtyTypesInverse)
 		{
 		}
 
 		[Token(Token = "0x6001D7C")]
-		[Address(RVA = "0x4C75110", Offset = "0x4C75110", VA = "0x4C75110")]
+		[Address(RVA = "0x4F9CA40", Offset = "0x4F9CA40", VA = "0x4F9CA40")]
 		public void Reset()
 		{
 		}
@@ -65,20 +72,20 @@ internal class RenderChain : IDisposable
 		private static List<RenderChain> renderChains;
 
 		[Token(Token = "0x6001D7D")]
-		[Address(RVA = "0x4C75170", Offset = "0x4C75170", VA = "0x4C75170")]
+		[Address(RVA = "0x4F9CAA0", Offset = "0x4F9CAA0", VA = "0x4F9CAA0")]
 		public static int AllocateIndex(RenderChain renderChain)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6001D7E")]
-		[Address(RVA = "0x4C752D0", Offset = "0x4C752D0", VA = "0x4C752D0")]
+		[Address(RVA = "0x4F9CC00", Offset = "0x4F9CC00", VA = "0x4F9CC00")]
 		public static void FreeIndex(int index)
 		{
 		}
 
 		[Token(Token = "0x6001D7F")]
-		[Address(RVA = "0x4C75370", Offset = "0x4C75370", VA = "0x4C75370")]
+		[Address(RVA = "0x4F9CCA0", Offset = "0x4F9CCA0", VA = "0x4F9CCA0")]
 		public static RenderChain AccessIndex(int index)
 		{
 			return null;
@@ -185,7 +192,7 @@ internal class RenderChain : IDisposable
 		public BaseElementBuilder elementBuilder
 		{
 			[Token(Token = "0x6001D81")]
-			[Address(RVA = "0x4C754A0", Offset = "0x4C754A0", VA = "0x4C754A0")]
+			[Address(RVA = "0x4F9CDD0", Offset = "0x4F9CDD0", VA = "0x4F9CDD0")]
 			get
 			{
 				return null;
@@ -196,14 +203,14 @@ internal class RenderChain : IDisposable
 		protected bool disposed
 		{
 			[Token(Token = "0x6001D89")]
-			[Address(RVA = "0x4C77660", Offset = "0x4C77660", VA = "0x4C77660")]
+			[Address(RVA = "0x4F9EF90", Offset = "0x4F9EF90", VA = "0x4F9EF90")]
 			[CompilerGenerated]
 			get
 			{
 				return default(bool);
 			}
 			[Token(Token = "0x6001D8A")]
-			[Address(RVA = "0x4C77670", Offset = "0x4C77670", VA = "0x4C77670")]
+			[Address(RVA = "0x4F9EFA0", Offset = "0x4F9EFA0", VA = "0x4F9EFA0")]
 			[CompilerGenerated]
 			private set
 			{
@@ -211,55 +218,55 @@ internal class RenderChain : IDisposable
 		}
 
 		[Token(Token = "0x6001D82")]
-		[Address(RVA = "0x4C754B0", Offset = "0x4C754B0", VA = "0x4C754B0")]
+		[Address(RVA = "0x4F9CDE0", Offset = "0x4F9CDE0", VA = "0x4F9CDE0")]
 		public VisualChangesProcessor(RenderChain renderChain)
 		{
 		}
 
 		[Token(Token = "0x6001D83")]
-		[Address(RVA = "0x4C756D0", Offset = "0x4C756D0", VA = "0x4C756D0")]
+		[Address(RVA = "0x4F9D000", Offset = "0x4F9D000", VA = "0x4F9D000")]
 		public void ProcessOnVisualsChanged(VisualElement ve, uint dirtyID, ref ChainBuilderStats stats)
 		{
 		}
 
 		[Token(Token = "0x6001D84")]
-		[Address(RVA = "0x4C75710", Offset = "0x4C75710", VA = "0x4C75710")]
+		[Address(RVA = "0x4F9D040", Offset = "0x4F9D040", VA = "0x4F9D040")]
 		private void DepthFirstOnVisualsChanged(VisualElement ve, uint dirtyID, bool hierarchical, ref ChainBuilderStats stats)
 		{
 		}
 
 		[Token(Token = "0x6001D85")]
-		[Address(RVA = "0x4C75F60", Offset = "0x4C75F60", VA = "0x4C75F60")]
+		[Address(RVA = "0x4F9D890", Offset = "0x4F9D890", VA = "0x4F9D890")]
 		private static void UpdateWorldFlipsWinding(VisualElement ve)
 		{
 		}
 
 		[Token(Token = "0x6001D86")]
-		[Address(RVA = "0x4C76F20", Offset = "0x4C76F20", VA = "0x4C76F20")]
+		[Address(RVA = "0x4F9E850", Offset = "0x4F9E850", VA = "0x4F9E850")]
 		public void ConvertEntriesToCommands(ref ChainBuilderStats stats)
 		{
 		}
 
 		[Token(Token = "0x6001D87")]
-		[Address(RVA = "0x4C75E60", Offset = "0x4C75E60", VA = "0x4C75E60")]
+		[Address(RVA = "0x4F9D790", Offset = "0x4F9D790", VA = "0x4F9D790")]
 		public static void UpdateOpacityId(VisualElement ve, RenderChain renderChain)
 		{
 		}
 
 		[Token(Token = "0x6001D88")]
-		[Address(RVA = "0x4C771F0", Offset = "0x4C771F0", VA = "0x4C771F0")]
+		[Address(RVA = "0x4F9EB20", Offset = "0x4F9EB20", VA = "0x4F9EB20")]
 		private static void DoUpdateOpacityId(VisualElement ve, RenderChain renderChain, MeshHandle mesh)
 		{
 		}
 
 		[Token(Token = "0x6001D8B")]
-		[Address(RVA = "0x4C77680", Offset = "0x4C77680", VA = "0x4C77680", Slot = "4")]
+		[Address(RVA = "0x4F9EFB0", Offset = "0x4F9EFB0", VA = "0x4F9EFB0", Slot = "4")]
 		public void Dispose()
 		{
 		}
 
 		[Token(Token = "0x6001D8C")]
-		[Address(RVA = "0x4C77720", Offset = "0x4C77720", VA = "0x4C77720")]
+		[Address(RVA = "0x4F9F050", Offset = "0x4F9F050", VA = "0x4F9F050")]
 		protected void Dispose(bool disposing)
 		{
 		}
@@ -373,14 +380,14 @@ internal class RenderChain : IDisposable
 	public OpacityIdAccelerator opacityIdAccelerator
 	{
 		[Token(Token = "0x6001D3B")]
-		[Address(RVA = "0x4C6DF30", Offset = "0x4C6DF30", VA = "0x4C6DF30")]
+		[Address(RVA = "0x4F95860", Offset = "0x4F95860", VA = "0x4F95860")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001D3C")]
-		[Address(RVA = "0x4C6DF40", Offset = "0x4C6DF40", VA = "0x4C6DF40")]
+		[Address(RVA = "0x4F95870", Offset = "0x4F95870", VA = "0x4F95870")]
 		[CompilerGenerated]
 		private set
 		{
@@ -391,14 +398,14 @@ internal class RenderChain : IDisposable
 	protected bool disposed
 	{
 		[Token(Token = "0x6001D40")]
-		[Address(RVA = "0x4C6ECB0", Offset = "0x4C6ECB0", VA = "0x4C6ECB0")]
+		[Address(RVA = "0x4F965E0", Offset = "0x4F965E0", VA = "0x4F965E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001D41")]
-		[Address(RVA = "0x4C6ECC0", Offset = "0x4C6ECC0", VA = "0x4C6ECC0")]
+		[Address(RVA = "0x4F965F0", Offset = "0x4F965F0", VA = "0x4F965F0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -409,14 +416,14 @@ internal class RenderChain : IDisposable
 	internal BaseVisualElementPanel panel
 	{
 		[Token(Token = "0x6001D51")]
-		[Address(RVA = "0x4C71290", Offset = "0x4C71290", VA = "0x4C71290")]
+		[Address(RVA = "0x4F98BC0", Offset = "0x4F98BC0", VA = "0x4F98BC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001D52")]
-		[Address(RVA = "0x4C712A0", Offset = "0x4C712A0", VA = "0x4C712A0")]
+		[Address(RVA = "0x4F98BD0", Offset = "0x4F98BD0", VA = "0x4F98BD0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -427,14 +434,14 @@ internal class RenderChain : IDisposable
 	internal UIRenderDevice device
 	{
 		[Token(Token = "0x6001D53")]
-		[Address(RVA = "0x4C712C0", Offset = "0x4C712C0", VA = "0x4C712C0")]
+		[Address(RVA = "0x4F98BF0", Offset = "0x4F98BF0", VA = "0x4F98BF0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001D54")]
-		[Address(RVA = "0x4C712D0", Offset = "0x4C712D0", VA = "0x4C712D0")]
+		[Address(RVA = "0x4F98C00", Offset = "0x4F98C00", VA = "0x4F98C00")]
 		[CompilerGenerated]
 		private set
 		{
@@ -445,7 +452,7 @@ internal class RenderChain : IDisposable
 	public BaseElementBuilder elementBuilder
 	{
 		[Token(Token = "0x6001D55")]
-		[Address(RVA = "0x4C712F0", Offset = "0x4C712F0", VA = "0x4C712F0")]
+		[Address(RVA = "0x4F98C20", Offset = "0x4F98C20", VA = "0x4F98C20")]
 		get
 		{
 			return null;
@@ -456,14 +463,14 @@ internal class RenderChain : IDisposable
 	internal AtlasBase atlas
 	{
 		[Token(Token = "0x6001D56")]
-		[Address(RVA = "0x4C71310", Offset = "0x4C71310", VA = "0x4C71310")]
+		[Address(RVA = "0x4F98C40", Offset = "0x4F98C40", VA = "0x4F98C40")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001D57")]
-		[Address(RVA = "0x4C71320", Offset = "0x4C71320", VA = "0x4C71320")]
+		[Address(RVA = "0x4F98C50", Offset = "0x4F98C50", VA = "0x4F98C50")]
 		[CompilerGenerated]
 		private set
 		{
@@ -474,14 +481,14 @@ internal class RenderChain : IDisposable
 	internal VectorImageManager vectorImageManager
 	{
 		[Token(Token = "0x6001D58")]
-		[Address(RVA = "0x4C71340", Offset = "0x4C71340", VA = "0x4C71340")]
+		[Address(RVA = "0x4F98C70", Offset = "0x4F98C70", VA = "0x4F98C70")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001D59")]
-		[Address(RVA = "0x4C71350", Offset = "0x4C71350", VA = "0x4C71350")]
+		[Address(RVA = "0x4F98C80", Offset = "0x4F98C80", VA = "0x4F98C80")]
 		[CompilerGenerated]
 		private set
 		{
@@ -492,14 +499,14 @@ internal class RenderChain : IDisposable
 	internal TempAllocator<Vertex> vertexPool
 	{
 		[Token(Token = "0x6001D5A")]
-		[Address(RVA = "0x4C71370", Offset = "0x4C71370", VA = "0x4C71370")]
+		[Address(RVA = "0x4F98CA0", Offset = "0x4F98CA0", VA = "0x4F98CA0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001D5B")]
-		[Address(RVA = "0x4C71380", Offset = "0x4C71380", VA = "0x4C71380")]
+		[Address(RVA = "0x4F98CB0", Offset = "0x4F98CB0", VA = "0x4F98CB0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -510,14 +517,14 @@ internal class RenderChain : IDisposable
 	internal TempAllocator<ushort> indexPool
 	{
 		[Token(Token = "0x6001D5C")]
-		[Address(RVA = "0x4C713A0", Offset = "0x4C713A0", VA = "0x4C713A0")]
+		[Address(RVA = "0x4F98CD0", Offset = "0x4F98CD0", VA = "0x4F98CD0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001D5D")]
-		[Address(RVA = "0x4C713B0", Offset = "0x4C713B0", VA = "0x4C713B0")]
+		[Address(RVA = "0x4F98CE0", Offset = "0x4F98CE0", VA = "0x4F98CE0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -528,7 +535,7 @@ internal class RenderChain : IDisposable
 	internal MeshWriteDataPool meshWriteDataPool
 	{
 		[Token(Token = "0x6001D5E")]
-		[Address(RVA = "0x4C713D0", Offset = "0x4C713D0", VA = "0x4C713D0")]
+		[Address(RVA = "0x4F98D00", Offset = "0x4F98D00", VA = "0x4F98D00")]
 		[CompilerGenerated]
 		get
 		{
@@ -540,7 +547,7 @@ internal class RenderChain : IDisposable
 	internal EntryPool entryPool
 	{
 		[Token(Token = "0x6001D5F")]
-		[Address(RVA = "0x4C713E0", Offset = "0x4C713E0", VA = "0x4C713E0")]
+		[Address(RVA = "0x4F98D10", Offset = "0x4F98D10", VA = "0x4F98D10")]
 		get
 		{
 			return null;
@@ -551,14 +558,14 @@ internal class RenderChain : IDisposable
 	internal JobManager jobManager
 	{
 		[Token(Token = "0x6001D60")]
-		[Address(RVA = "0x4C71450", Offset = "0x4C71450", VA = "0x4C71450")]
+		[Address(RVA = "0x4F98D80", Offset = "0x4F98D80", VA = "0x4F98D80")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001D61")]
-		[Address(RVA = "0x4C71460", Offset = "0x4C71460", VA = "0x4C71460")]
+		[Address(RVA = "0x4F98D90", Offset = "0x4F98D90", VA = "0x4F98D90")]
 		[CompilerGenerated]
 		private set
 		{
@@ -569,14 +576,14 @@ internal class RenderChain : IDisposable
 	internal bool drawStats
 	{
 		[Token(Token = "0x6001D62")]
-		[Address(RVA = "0x4C71480", Offset = "0x4C71480", VA = "0x4C71480")]
+		[Address(RVA = "0x4F98DB0", Offset = "0x4F98DB0", VA = "0x4F98DB0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001D63")]
-		[Address(RVA = "0x4C71490", Offset = "0x4C71490", VA = "0x4C71490")]
+		[Address(RVA = "0x4F98DC0", Offset = "0x4F98DC0", VA = "0x4F98DC0")]
 		[CompilerGenerated]
 		set
 		{
@@ -587,14 +594,14 @@ internal class RenderChain : IDisposable
 	internal bool drawInCameras
 	{
 		[Token(Token = "0x6001D64")]
-		[Address(RVA = "0x4C714A0", Offset = "0x4C714A0", VA = "0x4C714A0")]
+		[Address(RVA = "0x4F98DD0", Offset = "0x4F98DD0", VA = "0x4F98DD0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001D65")]
-		[Address(RVA = "0x4C714B0", Offset = "0x4C714B0", VA = "0x4C714B0")]
+		[Address(RVA = "0x4F98DE0", Offset = "0x4F98DE0", VA = "0x4F98DE0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -605,7 +612,7 @@ internal class RenderChain : IDisposable
 	internal Shader defaultShader
 	{
 		[Token(Token = "0x6001D66")]
-		[Address(RVA = "0x4C714C0", Offset = "0x4C714C0", VA = "0x4C714C0")]
+		[Address(RVA = "0x4F98DF0", Offset = "0x4F98DF0", VA = "0x4F98DF0")]
 		set
 		{
 		}
@@ -615,222 +622,222 @@ internal class RenderChain : IDisposable
 	internal Shader defaultWorldSpaceShader
 	{
 		[Token(Token = "0x6001D67")]
-		[Address(RVA = "0x4C71580", Offset = "0x4C71580", VA = "0x4C71580")]
+		[Address(RVA = "0x4F98EB0", Offset = "0x4F98EB0", VA = "0x4F98EB0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001D3D")]
-	[Address(RVA = "0x4C6DF60", Offset = "0x4C6DF60", VA = "0x4C6DF60")]
+	[Address(RVA = "0x4F95890", Offset = "0x4F95890", VA = "0x4F95890")]
 	static RenderChain()
 	{
 	}
 
 	[Token(Token = "0x6001D3E")]
-	[Address(RVA = "0x4C6E230", Offset = "0x4C6E230", VA = "0x4C6E230")]
+	[Address(RVA = "0x4F95B60", Offset = "0x4F95B60", VA = "0x4F95B60")]
 	public RenderChain(BaseVisualElementPanel panel)
 	{
 	}
 
 	[Token(Token = "0x6001D3F")]
-	[Address(RVA = "0x4C6E310", Offset = "0x4C6E310", VA = "0x4C6E310")]
+	[Address(RVA = "0x4F95C40", Offset = "0x4F95C40", VA = "0x4F95C40")]
 	protected RenderChain(BaseVisualElementPanel panel, UIRenderDevice device, AtlasBase atlas, VectorImageManager vectorImageManager)
 	{
 	}
 
 	[Token(Token = "0x6001D42")]
-	[Address(RVA = "0x4C6ECD0", Offset = "0x4C6ECD0", VA = "0x4C6ECD0", Slot = "4")]
+	[Address(RVA = "0x4F96600", Offset = "0x4F96600", VA = "0x4F96600", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6001D43")]
-	[Address(RVA = "0x4C6ED30", Offset = "0x4C6ED30", VA = "0x4C6ED30")]
+	[Address(RVA = "0x4F96660", Offset = "0x4F96660", VA = "0x4F96660")]
 	protected void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6001D44")]
-	[Address(RVA = "0x4C6F160", Offset = "0x4C6F160", VA = "0x4C6F160")]
+	[Address(RVA = "0x4F96A90", Offset = "0x4F96A90", VA = "0x4F96A90")]
 	public void ProcessChanges()
 	{
 	}
 
 	[Token(Token = "0x6001D45")]
-	[Address(RVA = "0x4C6FB40", Offset = "0x4C6FB40", VA = "0x4C6FB40")]
+	[Address(RVA = "0x4F97470", Offset = "0x4F97470", VA = "0x4F97470")]
 	public void Render()
 	{
 	}
 
 	[Token(Token = "0x6001D46")]
-	[Address(RVA = "0x4C709A0", Offset = "0x4C709A0", VA = "0x4C709A0")]
+	[Address(RVA = "0x4F982D0", Offset = "0x4F982D0", VA = "0x4F982D0")]
 	public void UIEOnChildAdded(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x6001D47")]
-	[Address(RVA = "0x4C70D00", Offset = "0x4C70D00", VA = "0x4C70D00")]
+	[Address(RVA = "0x4F98630", Offset = "0x4F98630", VA = "0x4F98630")]
 	public void UIEOnChildrenReordered(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x6001D48")]
-	[Address(RVA = "0x4C70EC0", Offset = "0x4C70EC0", VA = "0x4C70EC0")]
+	[Address(RVA = "0x4F987F0", Offset = "0x4F987F0", VA = "0x4F987F0")]
 	public void UIEOnChildRemoving(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x6001D49")]
-	[Address(RVA = "0x4C70FC0", Offset = "0x4C70FC0", VA = "0x4C70FC0")]
+	[Address(RVA = "0x4F988F0", Offset = "0x4F988F0", VA = "0x4F988F0")]
 	public void UIEOnRenderHintsChanged(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x6001D4A")]
-	[Address(RVA = "0x4C70B60", Offset = "0x4C70B60", VA = "0x4C70B60")]
+	[Address(RVA = "0x4F98490", Offset = "0x4F98490", VA = "0x4F98490")]
 	public void UIEOnClippingChanged(VisualElement ve, bool hierarchical)
 	{
 	}
 
 	[Token(Token = "0x6001D4B")]
-	[Address(RVA = "0x4C70BE0", Offset = "0x4C70BE0", VA = "0x4C70BE0")]
+	[Address(RVA = "0x4F98510", Offset = "0x4F98510", VA = "0x4F98510")]
 	public void UIEOnOpacityChanged(VisualElement ve, bool hierarchical = false)
 	{
 	}
 
 	[Token(Token = "0x6001D4C")]
-	[Address(RVA = "0x4C71060", Offset = "0x4C71060", VA = "0x4C71060")]
+	[Address(RVA = "0x4F98990", Offset = "0x4F98990", VA = "0x4F98990")]
 	public void UIEOnColorChanged(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x6001D4D")]
-	[Address(RVA = "0x4C710E0", Offset = "0x4C710E0", VA = "0x4C710E0")]
+	[Address(RVA = "0x4F98A10", Offset = "0x4F98A10", VA = "0x4F98A10")]
 	public void UIEOnTransformOrSizeChanged(VisualElement ve, bool transformChanged, bool clipRectSizeChanged)
 	{
 	}
 
 	[Token(Token = "0x6001D4E")]
-	[Address(RVA = "0x4C70C70", Offset = "0x4C70C70", VA = "0x4C70C70")]
+	[Address(RVA = "0x4F985A0", Offset = "0x4F985A0", VA = "0x4F985A0")]
 	public void UIEOnVisualsChanged(VisualElement ve, bool hierarchical)
 	{
 	}
 
 	[Token(Token = "0x6001D4F")]
-	[Address(RVA = "0x4C71170", Offset = "0x4C71170", VA = "0x4C71170")]
+	[Address(RVA = "0x4F98AA0", Offset = "0x4F98AA0", VA = "0x4F98AA0")]
 	public void UIEOnOpacityIdChanged(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x6001D50")]
-	[Address(RVA = "0x4C711F0", Offset = "0x4C711F0", VA = "0x4C711F0")]
+	[Address(RVA = "0x4F98B20", Offset = "0x4F98B20", VA = "0x4F98B20")]
 	public void UIEOnDisableRenderingChanged(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x6001D68")]
-	[Address(RVA = "0x4C6FF00", Offset = "0x4C6FF00", VA = "0x4C6FF00")]
+	[Address(RVA = "0x4F97830", Offset = "0x4F97830", VA = "0x4F97830")]
 	internal Material GetStandardMaterial()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001D69")]
-	[Address(RVA = "0x4C71640", Offset = "0x4C71640", VA = "0x4C71640")]
+	[Address(RVA = "0x4F98F70", Offset = "0x4F98F70", VA = "0x4F98F70")]
 	internal Material GetStandardWorldSpaceMaterial()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001D6A")]
-	[Address(RVA = "0x4C71740", Offset = "0x4C71740", VA = "0x4C71740")]
+	[Address(RVA = "0x4F99070", Offset = "0x4F99070", VA = "0x4F99070")]
 	internal void EnsureFitsDepth(int depth)
 	{
 	}
 
 	[Token(Token = "0x6001D6B")]
-	[Address(RVA = "0x4C71750", Offset = "0x4C71750", VA = "0x4C71750")]
+	[Address(RVA = "0x4F99080", Offset = "0x4F99080", VA = "0x4F99080")]
 	internal void ChildWillBeRemoved(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x6001D6C")]
-	[Address(RVA = "0x4C61F00", Offset = "0x4C61F00", VA = "0x4C61F00")]
+	[Address(RVA = "0x4F89830", Offset = "0x4F89830", VA = "0x4F89830")]
 	internal RenderChainCommand AllocCommand()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001D6D")]
-	[Address(RVA = "0x4C71820", Offset = "0x4C71820", VA = "0x4C71820")]
+	[Address(RVA = "0x4F99150", Offset = "0x4F99150", VA = "0x4F99150")]
 	internal void FreeCommand(RenderChainCommand cmd)
 	{
 	}
 
 	[Token(Token = "0x6001D6E")]
-	[Address(RVA = "0x4C718C0", Offset = "0x4C718C0", VA = "0x4C718C0")]
+	[Address(RVA = "0x4F991F0", Offset = "0x4F991F0", VA = "0x4F991F0")]
 	internal void OnRenderCommandAdded(RenderChainCommand command)
 	{
 	}
 
 	[Token(Token = "0x6001D6F")]
-	[Address(RVA = "0x4C71950", Offset = "0x4C71950", VA = "0x4C71950")]
+	[Address(RVA = "0x4F99280", Offset = "0x4F99280", VA = "0x4F99280")]
 	internal void OnRenderCommandsRemoved(RenderChainCommand firstCommand, RenderChainCommand lastCommand)
 	{
 	}
 
 	[Token(Token = "0x6001D70")]
-	[Address(RVA = "0x4C71980", Offset = "0x4C71980", VA = "0x4C71980")]
+	[Address(RVA = "0x4F992B0", Offset = "0x4F992B0", VA = "0x4F992B0")]
 	private static RenderNodeData AccessRenderNodeData(IntPtr obj)
 	{
 		return default(RenderNodeData);
 	}
 
 	[Token(Token = "0x6001D71")]
-	[Address(RVA = "0x4C71A70", Offset = "0x4C71A70", VA = "0x4C71A70")]
+	[Address(RVA = "0x4F993A0", Offset = "0x4F993A0", VA = "0x4F993A0")]
 	private static void OnRenderNodeExecute(IntPtr obj)
 	{
 	}
 
 	[Token(Token = "0x6001D72")]
-	[Address(RVA = "0x4C71B20", Offset = "0x4C71B20", VA = "0x4C71B20")]
+	[Address(RVA = "0x4F99450", Offset = "0x4F99450", VA = "0x4F99450")]
 	private static void OnRegisterIntermediateRenderers(Camera camera)
 	{
 	}
 
 	[Token(Token = "0x6001D73")]
-	[Address(RVA = "0x4C72030", Offset = "0x4C72030", VA = "0x4C72030")]
+	[Address(RVA = "0x4F99960", Offset = "0x4F99960", VA = "0x4F99960")]
 	private static void OnRegisterIntermediateRendererMat(BaseRuntimePanel rtp, RenderChain renderChain, ref RenderNodeData rnd, Camera camera, int sameDistanceSortPriority)
 	{
 	}
 
 	[Token(Token = "0x6001D74")]
-	[Address(RVA = "0x4C72430", Offset = "0x4C72430", VA = "0x4C72430")]
+	[Address(RVA = "0x4F99D60", Offset = "0x4F99D60", VA = "0x4F99D60")]
 	internal void RepaintTexturedElements()
 	{
 	}
 
 	[Token(Token = "0x6001D75")]
-	[Address(RVA = "0x4C61E50", Offset = "0x4C61E50", VA = "0x4C61E50")]
+	[Address(RVA = "0x4F89780", Offset = "0x4F89780", VA = "0x4F89780")]
 	public void AppendTexture(VisualElement ve, Texture src, TextureId id, bool isAtlas)
 	{
 	}
 
 	[Token(Token = "0x6001D76")]
-	[Address(RVA = "0x4C5FDE0", Offset = "0x4C5FDE0", VA = "0x4C5FDE0")]
+	[Address(RVA = "0x4F87710", Offset = "0x4F87710", VA = "0x4F87710")]
 	public void ResetTextures(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x6001D77")]
-	[Address(RVA = "0x4C70000", Offset = "0x4C70000", VA = "0x4C70000")]
+	[Address(RVA = "0x4F97930", Offset = "0x4F97930", VA = "0x4F97930")]
 	private void DrawStats()
 	{
 	}
 
 	[Token(Token = "0x6001D78")]
-	[Address(RVA = "0x4C6F120", Offset = "0x4C6F120", VA = "0x4C6F120")]
+	[Address(RVA = "0x4F96A50", Offset = "0x4F96A50", VA = "0x4F96A50")]
 	private static VisualElement GetFirstElementInPanel(VisualElement ve)
 	{
 		return null;

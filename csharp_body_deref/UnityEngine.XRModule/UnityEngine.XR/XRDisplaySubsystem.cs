@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.XR.XRDisplaySubsystem
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -107,7 +114,7 @@ public class XRDisplaySubsystem : IntegratedSubsystem<XRDisplaySubsystemDescript
 		public IntPtr foveatedRenderingInfo;
 
 		[Token(Token = "0x6000033")]
-		[Address(RVA = "0x4DE5000", Offset = "0x4DE5000", VA = "0x4DE5000")]
+		[Address(RVA = "0x510D090", Offset = "0x510D090", VA = "0x510D090")]
 		[UnityEngine.Bindings.NativeMethod(Name = "XRRenderPassScriptApi::GetRenderParameter", IsFreeFunction = true, HasExplicitThis = true, ThrowsException = true)]
 		[UnityEngine.Bindings.NativeConditional("ENABLE_XR")]
 		public void GetRenderParameter(Camera camera, int renderParameterIndex, out XRRenderParameter renderParameter)
@@ -116,14 +123,14 @@ public class XRDisplaySubsystem : IntegratedSubsystem<XRDisplaySubsystemDescript
 
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000034")]
-		[Address(RVA = "0x4DE5110", Offset = "0x4DE5110", VA = "0x4DE5110")]
+		[Address(RVA = "0x510D1A0", Offset = "0x510D1A0", VA = "0x510D1A0")]
 		[UnityEngine.Bindings.NativeMethod(Name = "XRRenderPassScriptApi::GetRenderParameterCount", IsFreeFunction = true, HasExplicitThis = true)]
 		[UnityEngine.Bindings.NativeConditional("ENABLE_XR")]
 		public extern int GetRenderParameterCount();
 
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x4DE50C0", Offset = "0x4DE50C0", VA = "0x4DE50C0")]
+		[Address(RVA = "0x510D150", Offset = "0x510D150", VA = "0x510D150")]
 		private static extern void GetRenderParameter_Injected(ref XRRenderPass _unity_self, IntPtr camera, int renderParameterIndex, out XRRenderParameter renderParameter);
 	}
 
@@ -187,7 +194,7 @@ public class XRDisplaySubsystem : IntegratedSubsystem<XRDisplaySubsystemDescript
 
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000036")]
-		[Address(RVA = "0x4DE5140", Offset = "0x4DE5140", VA = "0x4DE5140")]
+		[Address(RVA = "0x510D1D0", Offset = "0x510D1D0", VA = "0x510D1D0")]
 		[UnityEngine.Bindings.NativeMethod(Name = "XRMirrorViewBlitDescScriptApi::GetBlitParameter", IsFreeFunction = true, HasExplicitThis = true)]
 		[UnityEngine.Bindings.NativeConditional("ENABLE_XR")]
 		public extern void GetBlitParameter(int blitParameterIndex, out XRBlitParams blitParameter);
@@ -208,7 +215,7 @@ public class XRDisplaySubsystem : IntegratedSubsystem<XRDisplaySubsystemDescript
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000020")]
-		[Address(RVA = "0x4DE4820", Offset = "0x4DE4820", VA = "0x4DE4820")]
+		[Address(RVA = "0x510C8B0", Offset = "0x510C8B0", VA = "0x510C8B0")]
 		set;
 	}
 
@@ -217,7 +224,7 @@ public class XRDisplaySubsystem : IntegratedSubsystem<XRDisplaySubsystemDescript
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000021")]
-		[Address(RVA = "0x4DE4870", Offset = "0x4DE4870", VA = "0x4DE4870")]
+		[Address(RVA = "0x510C900", Offset = "0x510C900", VA = "0x510C900")]
 		set;
 	}
 
@@ -226,7 +233,7 @@ public class XRDisplaySubsystem : IntegratedSubsystem<XRDisplaySubsystemDescript
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000022")]
-		[Address(RVA = "0x4DE48C0", Offset = "0x4DE48C0", VA = "0x4DE48C0")]
+		[Address(RVA = "0x510C950", Offset = "0x510C950", VA = "0x510C950")]
 		set;
 	}
 
@@ -235,7 +242,7 @@ public class XRDisplaySubsystem : IntegratedSubsystem<XRDisplaySubsystemDescript
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000023")]
-		[Address(RVA = "0x4DE4910", Offset = "0x4DE4910", VA = "0x4DE4910")]
+		[Address(RVA = "0x510C9A0", Offset = "0x510C9A0", VA = "0x510C9A0")]
 		set;
 	}
 
@@ -244,7 +251,7 @@ public class XRDisplaySubsystem : IntegratedSubsystem<XRDisplaySubsystemDescript
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000024")]
-		[Address(RVA = "0x4DE4950", Offset = "0x4DE4950", VA = "0x4DE4950")]
+		[Address(RVA = "0x510C9E0", Offset = "0x510C9E0", VA = "0x510C9E0")]
 		set;
 	}
 
@@ -253,7 +260,7 @@ public class XRDisplaySubsystem : IntegratedSubsystem<XRDisplaySubsystemDescript
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000026")]
-		[Address(RVA = "0x4DE49D0", Offset = "0x4DE49D0", VA = "0x4DE49D0")]
+		[Address(RVA = "0x510CA60", Offset = "0x510CA60", VA = "0x510CA60")]
 		set;
 	}
 
@@ -261,7 +268,7 @@ public class XRDisplaySubsystem : IntegratedSubsystem<XRDisplaySubsystemDescript
 	public HDROutputSettings hdrOutputSettings
 	{
 		[Token(Token = "0x600002F")]
-		[Address(RVA = "0x4DE4F40", Offset = "0x4DE4F40", VA = "0x4DE4F40")]
+		[Address(RVA = "0x510CFD0", Offset = "0x510CFD0", VA = "0x510CFD0")]
 		get
 		{
 			return null;
@@ -269,7 +276,7 @@ public class XRDisplaySubsystem : IntegratedSubsystem<XRDisplaySubsystemDescript
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x4DE4800", Offset = "0x4DE4800", VA = "0x4DE4800")]
+	[Address(RVA = "0x510C890", Offset = "0x510C890", VA = "0x510C890")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void InvokeDisplayFocusChanged(bool focus)
 	{
@@ -277,34 +284,34 @@ public class XRDisplaySubsystem : IntegratedSubsystem<XRDisplaySubsystemDescript
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x4DE4990", Offset = "0x4DE4990", VA = "0x4DE4990")]
+	[Address(RVA = "0x510CA20", Offset = "0x510CA20", VA = "0x510CA20")]
 	public extern void SetMSAALevel(int level);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x4DE4A10", Offset = "0x4DE4A10", VA = "0x4DE4A10")]
+	[Address(RVA = "0x510CAA0", Offset = "0x510CAA0", VA = "0x510CAA0")]
 	public extern int GetRenderPassCount();
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x4DE4A40", Offset = "0x4DE4A40", VA = "0x4DE4A40")]
+	[Address(RVA = "0x510CAD0", Offset = "0x510CAD0", VA = "0x510CAD0")]
 	public void GetRenderPass(int renderPassIndex, out XRRenderPass renderPass)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x4DE4AD0", Offset = "0x4DE4AD0", VA = "0x4DE4AD0")]
+	[Address(RVA = "0x510CB60", Offset = "0x510CB60", VA = "0x510CB60")]
 	[UnityEngine.Bindings.NativeMethod("TryGetRenderPass")]
 	private extern bool Internal_TryGetRenderPass(int renderPassIndex, out XRRenderPass renderPass);
 
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x4DE4B10", Offset = "0x4DE4B10", VA = "0x4DE4B10")]
+	[Address(RVA = "0x510CBA0", Offset = "0x510CBA0", VA = "0x510CBA0")]
 	public void GetCullingParameters(Camera camera, int cullingPassIndex, out ScriptableCullingParameters scriptableCullingParameters)
 	{
 	}
 
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x4DE4CA0", Offset = "0x4DE4CA0", VA = "0x4DE4CA0")]
+	[Address(RVA = "0x510CD30", Offset = "0x510CD30", VA = "0x510CD30")]
 	[UnityEngine.Bindings.NativeHeader("Runtime/Graphics/ScriptableRenderLoop/ScriptableCulling.h")]
 	[UnityEngine.Bindings.NativeMethod("TryGetCullingParams")]
 	private bool Internal_TryGetCullingParams(Camera camera, int cullingPassIndex, out ScriptableCullingParameters scriptableCullingParameters)
@@ -314,13 +321,13 @@ public class XRDisplaySubsystem : IntegratedSubsystem<XRDisplaySubsystemDescript
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x4DE4DB0", Offset = "0x4DE4DB0", VA = "0x4DE4DB0")]
+	[Address(RVA = "0x510CE40", Offset = "0x510CE40", VA = "0x510CE40")]
 	[UnityEngine.Bindings.NativeConditional("ENABLE_XR")]
 	[UnityEngine.Bindings.NativeMethod(Name = "GetPreferredMirrorViewBlitMode", IsThreadSafe = false)]
 	public extern int GetPreferredMirrorBlitMode();
 
 	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x4DE4DE0", Offset = "0x4DE4DE0", VA = "0x4DE4DE0")]
+	[Address(RVA = "0x510CE70", Offset = "0x510CE70", VA = "0x510CE70")]
 	[UnityEngine.Bindings.NativeMethod(Name = "QueryMirrorViewBlitDesc", IsThreadSafe = false)]
 	[UnityEngine.Bindings.NativeConditional("ENABLE_XR")]
 	public bool GetMirrorViewBlitDesc(RenderTexture mirrorRt, out XRMirrorViewBlitDesc outDesc, int mode)
@@ -330,25 +337,25 @@ public class XRDisplaySubsystem : IntegratedSubsystem<XRDisplaySubsystemDescript
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600002E")]
-	[Address(RVA = "0x4DE4EF0", Offset = "0x4DE4EF0", VA = "0x4DE4EF0")]
+	[Address(RVA = "0x510CF80", Offset = "0x510CF80", VA = "0x510CF80")]
 	[UnityEngine.Bindings.NativeMethod(Name = "AddGraphicsThreadMirrorViewBlit", IsThreadSafe = false)]
 	[UnityEngine.Bindings.NativeConditional("ENABLE_XR")]
 	[UnityEngine.Bindings.NativeHeader("Runtime/Graphics/CommandBuffer/RenderingCommandBuffer.h")]
 	public extern bool AddGraphicsThreadMirrorViewBlit(CommandBuffer cmd, bool allowGraphicsStateInvalidate, int mode);
 
 	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x4DE4FC0", Offset = "0x4DE4FC0", VA = "0x4DE4FC0")]
+	[Address(RVA = "0x510D050", Offset = "0x510D050", VA = "0x510D050")]
 	public XRDisplaySubsystem()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000031")]
-	[Address(RVA = "0x4DE4D60", Offset = "0x4DE4D60", VA = "0x4DE4D60")]
+	[Address(RVA = "0x510CDF0", Offset = "0x510CDF0", VA = "0x510CDF0")]
 	private static extern bool Internal_TryGetCullingParams_Injected(XRDisplaySubsystem _unity_self, IntPtr camera, int cullingPassIndex, out ScriptableCullingParameters scriptableCullingParameters);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000032")]
-	[Address(RVA = "0x4DE4EA0", Offset = "0x4DE4EA0", VA = "0x4DE4EA0")]
+	[Address(RVA = "0x510CF30", Offset = "0x510CF30", VA = "0x510CF30")]
 	private static extern bool GetMirrorViewBlitDesc_Injected(XRDisplaySubsystem _unity_self, IntPtr mirrorRt, out XRMirrorViewBlitDesc outDesc, int mode);
 }

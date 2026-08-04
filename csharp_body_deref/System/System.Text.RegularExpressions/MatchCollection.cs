@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.RegularExpressions.MatchCollection
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -27,7 +34,7 @@ public class MatchCollection : IList<Match>, ICollection<Match>, IEnumerable<Mat
 		public Match Current
 		{
 			[Token(Token = "0x600031D")]
-			[Address(RVA = "0x45DFA70", Offset = "0x45DFA70", VA = "0x45DFA70", Slot = "4")]
+			[Address(RVA = "0x4904B70", Offset = "0x4904B70", VA = "0x4904B70", Slot = "4")]
 			get
 			{
 				return null;
@@ -38,7 +45,7 @@ public class MatchCollection : IList<Match>, ICollection<Match>, IEnumerable<Mat
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x600031E")]
-			[Address(RVA = "0x45DFAE0", Offset = "0x45DFAE0", VA = "0x45DFAE0", Slot = "7")]
+			[Address(RVA = "0x4904BE0", Offset = "0x4904BE0", VA = "0x4904BE0", Slot = "7")]
 			get
 			{
 				return null;
@@ -46,26 +53,26 @@ public class MatchCollection : IList<Match>, ICollection<Match>, IEnumerable<Mat
 		}
 
 		[Token(Token = "0x600031B")]
-		[Address(RVA = "0x45DF120", Offset = "0x45DF120", VA = "0x45DF120")]
+		[Address(RVA = "0x4904220", Offset = "0x4904220", VA = "0x4904220")]
 		internal Enumerator(MatchCollection collection)
 		{
 		}
 
 		[Token(Token = "0x600031C")]
-		[Address(RVA = "0x45DFA30", Offset = "0x45DFA30", VA = "0x45DFA30", Slot = "6")]
+		[Address(RVA = "0x4904B30", Offset = "0x4904B30", VA = "0x4904B30", Slot = "6")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600031F")]
-		[Address(RVA = "0x45DFAF0", Offset = "0x45DFAF0", VA = "0x45DFAF0", Slot = "8")]
+		[Address(RVA = "0x4904BF0", Offset = "0x4904BF0", VA = "0x4904BF0", Slot = "8")]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x6000320")]
-		[Address(RVA = "0x45DFB00", Offset = "0x45DFB00", VA = "0x45DFB00", Slot = "5")]
+		[Address(RVA = "0x4904C00", Offset = "0x4904C00", VA = "0x4904C00", Slot = "5")]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
@@ -107,7 +114,7 @@ public class MatchCollection : IList<Match>, ICollection<Match>, IEnumerable<Mat
 	public bool IsReadOnly
 	{
 		[Token(Token = "0x60002FC")]
-		[Address(RVA = "0x45DEE50", Offset = "0x45DEE50", VA = "0x45DEE50", Slot = "25")]
+		[Address(RVA = "0x4903F50", Offset = "0x4903F50", VA = "0x4903F50", Slot = "25")]
 		get
 		{
 			return default(bool);
@@ -118,7 +125,7 @@ public class MatchCollection : IList<Match>, ICollection<Match>, IEnumerable<Mat
 	public int Count
 	{
 		[Token(Token = "0x60002FD")]
-		[Address(RVA = "0x45DEE60", Offset = "0x45DEE60", VA = "0x45DEE60", Slot = "32")]
+		[Address(RVA = "0x4903F60", Offset = "0x4903F60", VA = "0x4903F60", Slot = "32")]
 		get
 		{
 			return default(int);
@@ -129,7 +136,7 @@ public class MatchCollection : IList<Match>, ICollection<Match>, IEnumerable<Mat
 	public virtual Match this[int i]
 	{
 		[Token(Token = "0x60002FE")]
-		[Address(RVA = "0x45DEED0", Offset = "0x45DEED0", VA = "0x45DEED0", Slot = "35")]
+		[Address(RVA = "0x4903FD0", Offset = "0x4903FD0", VA = "0x4903FD0", Slot = "35")]
 		get
 		{
 			return null;
@@ -140,7 +147,7 @@ public class MatchCollection : IList<Match>, ICollection<Match>, IEnumerable<Mat
 	public bool IsSynchronized
 	{
 		[Token(Token = "0x6000303")]
-		[Address(RVA = "0x45DF1C0", Offset = "0x45DF1C0", VA = "0x45DF1C0", Slot = "34")]
+		[Address(RVA = "0x49042C0", Offset = "0x49042C0", VA = "0x49042C0", Slot = "34")]
 		get
 		{
 			return default(bool);
@@ -151,7 +158,7 @@ public class MatchCollection : IList<Match>, ICollection<Match>, IEnumerable<Mat
 	public object SyncRoot
 	{
 		[Token(Token = "0x6000304")]
-		[Address(RVA = "0x45DF1D0", Offset = "0x45DF1D0", VA = "0x45DF1D0", Slot = "33")]
+		[Address(RVA = "0x49042D0", Offset = "0x49042D0", VA = "0x49042D0", Slot = "33")]
 		get
 		{
 			return null;
@@ -162,13 +169,13 @@ public class MatchCollection : IList<Match>, ICollection<Match>, IEnumerable<Mat
 	private Match System_002ECollections_002EGeneric_002EIList_003CSystem_002EText_002ERegularExpressions_002EMatch_003E_002EItem
 	{
 		[Token(Token = "0x600030A")]
-		[Address(RVA = "0x45DF440", Offset = "0x45DF440", VA = "0x45DF440", Slot = "4")]
+		[Address(RVA = "0x4904540", Offset = "0x4904540", VA = "0x4904540", Slot = "4")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600030B")]
-		[Address(RVA = "0x45DF460", Offset = "0x45DF460", VA = "0x45DF460", Slot = "5")]
+		[Address(RVA = "0x4904560", Offset = "0x4904560", VA = "0x4904560", Slot = "5")]
 		set
 		{
 		}
@@ -178,7 +185,7 @@ public class MatchCollection : IList<Match>, ICollection<Match>, IEnumerable<Mat
 	private bool System_002ECollections_002EIList_002EIsFixedSize
 	{
 		[Token(Token = "0x6000315")]
-		[Address(RVA = "0x45DF8E0", Offset = "0x45DF8E0", VA = "0x45DF8E0", Slot = "26")]
+		[Address(RVA = "0x49049E0", Offset = "0x49049E0", VA = "0x49049E0", Slot = "26")]
 		get
 		{
 			return default(bool);
@@ -189,155 +196,155 @@ public class MatchCollection : IList<Match>, ICollection<Match>, IEnumerable<Mat
 	private object System_002ECollections_002EIList_002EItem
 	{
 		[Token(Token = "0x6000318")]
-		[Address(RVA = "0x45DF990", Offset = "0x45DF990", VA = "0x45DF990", Slot = "20")]
+		[Address(RVA = "0x4904A90", Offset = "0x4904A90", VA = "0x4904A90", Slot = "20")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000319")]
-		[Address(RVA = "0x45DF9B0", Offset = "0x45DF9B0", VA = "0x45DF9B0", Slot = "21")]
+		[Address(RVA = "0x4904AB0", Offset = "0x4904AB0", VA = "0x4904AB0", Slot = "21")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60002FB")]
-	[Address(RVA = "0x45DED10", Offset = "0x45DED10", VA = "0x45DED10")]
+	[Address(RVA = "0x4903E10", Offset = "0x4903E10", VA = "0x4903E10")]
 	internal MatchCollection(Regex regex, string input, int beginning, int length, int startat)
 	{
 	}
 
 	[Token(Token = "0x60002FF")]
-	[Address(RVA = "0x45DF0B0", Offset = "0x45DF0B0", VA = "0x45DF0B0", Slot = "17")]
+	[Address(RVA = "0x49041B0", Offset = "0x49041B0", VA = "0x49041B0", Slot = "17")]
 	public IEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000300")]
-	[Address(RVA = "0x45DF150", Offset = "0x45DF150", VA = "0x45DF150", Slot = "16")]
+	[Address(RVA = "0x4904250", Offset = "0x4904250", VA = "0x4904250", Slot = "16")]
 	private IEnumerator<Match> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002EText_002ERegularExpressions_002EMatch_003E_002EGetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000301")]
-	[Address(RVA = "0x45DEF30", Offset = "0x45DEF30", VA = "0x45DEF30")]
+	[Address(RVA = "0x4904030", Offset = "0x4904030", VA = "0x4904030")]
 	private Match GetMatch(int i)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000302")]
-	[Address(RVA = "0x45DEEC0", Offset = "0x45DEEC0", VA = "0x45DEEC0")]
+	[Address(RVA = "0x4903FC0", Offset = "0x4903FC0", VA = "0x4903FC0")]
 	private void EnsureInitialized()
 	{
 	}
 
 	[Token(Token = "0x6000305")]
-	[Address(RVA = "0x45DF1E0", Offset = "0x45DF1E0", VA = "0x45DF1E0", Slot = "31")]
+	[Address(RVA = "0x49042E0", Offset = "0x49042E0", VA = "0x49042E0", Slot = "31")]
 	public void CopyTo(Array array, int arrayIndex)
 	{
 	}
 
 	[Token(Token = "0x6000306")]
-	[Address(RVA = "0x45DF2B0", Offset = "0x45DF2B0", VA = "0x45DF2B0", Slot = "14")]
+	[Address(RVA = "0x49043B0", Offset = "0x49043B0", VA = "0x49043B0", Slot = "14")]
 	public void CopyTo(Match[] array, int arrayIndex)
 	{
 	}
 
 	[Token(Token = "0x6000307")]
-	[Address(RVA = "0x45DF330", Offset = "0x45DF330", VA = "0x45DF330", Slot = "6")]
+	[Address(RVA = "0x4904430", Offset = "0x4904430", VA = "0x4904430", Slot = "6")]
 	private int System_002ECollections_002EGeneric_002EIList_003CSystem_002EText_002ERegularExpressions_002EMatch_003E_002EIndexOf(Match item)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000308")]
-	[Address(RVA = "0x45DF3A0", Offset = "0x45DF3A0", VA = "0x45DF3A0", Slot = "7")]
+	[Address(RVA = "0x49044A0", Offset = "0x49044A0", VA = "0x49044A0", Slot = "7")]
 	private void System_002ECollections_002EGeneric_002EIList_003CSystem_002EText_002ERegularExpressions_002EMatch_003E_002EInsert(int index, Match item)
 	{
 	}
 
 	[Token(Token = "0x6000309")]
-	[Address(RVA = "0x45DF3F0", Offset = "0x45DF3F0", VA = "0x45DF3F0", Slot = "8")]
+	[Address(RVA = "0x49044F0", Offset = "0x49044F0", VA = "0x49044F0", Slot = "8")]
 	private void System_002ECollections_002EGeneric_002EIList_003CSystem_002EText_002ERegularExpressions_002EMatch_003E_002ERemoveAt(int index)
 	{
 	}
 
 	[Token(Token = "0x600030C")]
-	[Address(RVA = "0x45DF4B0", Offset = "0x45DF4B0", VA = "0x45DF4B0", Slot = "11")]
+	[Address(RVA = "0x49045B0", Offset = "0x49045B0", VA = "0x49045B0", Slot = "11")]
 	private void System_002ECollections_002EGeneric_002EICollection_003CSystem_002EText_002ERegularExpressions_002EMatch_003E_002EAdd(Match item)
 	{
 	}
 
 	[Token(Token = "0x600030D")]
-	[Address(RVA = "0x45DF500", Offset = "0x45DF500", VA = "0x45DF500", Slot = "12")]
+	[Address(RVA = "0x4904600", Offset = "0x4904600", VA = "0x4904600", Slot = "12")]
 	private void System_002ECollections_002EGeneric_002EICollection_003CSystem_002EText_002ERegularExpressions_002EMatch_003E_002EClear()
 	{
 	}
 
 	[Token(Token = "0x600030E")]
-	[Address(RVA = "0x45DF550", Offset = "0x45DF550", VA = "0x45DF550", Slot = "13")]
+	[Address(RVA = "0x4904650", Offset = "0x4904650", VA = "0x4904650", Slot = "13")]
 	private bool System_002ECollections_002EGeneric_002EICollection_003CSystem_002EText_002ERegularExpressions_002EMatch_003E_002EContains(Match item)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600030F")]
-	[Address(RVA = "0x45DF5C0", Offset = "0x45DF5C0", VA = "0x45DF5C0", Slot = "15")]
+	[Address(RVA = "0x49046C0", Offset = "0x49046C0", VA = "0x49046C0", Slot = "15")]
 	private bool System_002ECollections_002EGeneric_002EICollection_003CSystem_002EText_002ERegularExpressions_002EMatch_003E_002ERemove(Match item)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000310")]
-	[Address(RVA = "0x45DF610", Offset = "0x45DF610", VA = "0x45DF610", Slot = "22")]
+	[Address(RVA = "0x4904710", Offset = "0x4904710", VA = "0x4904710", Slot = "22")]
 	private int System_002ECollections_002EIList_002EAdd(object value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000311")]
-	[Address(RVA = "0x45DF660", Offset = "0x45DF660", VA = "0x45DF660", Slot = "24")]
+	[Address(RVA = "0x4904760", Offset = "0x4904760", VA = "0x4904760", Slot = "24")]
 	private void System_002ECollections_002EIList_002EClear()
 	{
 	}
 
 	[Token(Token = "0x6000312")]
-	[Address(RVA = "0x45DF6B0", Offset = "0x45DF6B0", VA = "0x45DF6B0", Slot = "23")]
+	[Address(RVA = "0x49047B0", Offset = "0x49047B0", VA = "0x49047B0", Slot = "23")]
 	private bool System_002ECollections_002EIList_002EContains(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000313")]
-	[Address(RVA = "0x45DF7A0", Offset = "0x45DF7A0", VA = "0x45DF7A0", Slot = "27")]
+	[Address(RVA = "0x49048A0", Offset = "0x49048A0", VA = "0x49048A0", Slot = "27")]
 	private int System_002ECollections_002EIList_002EIndexOf(object value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000314")]
-	[Address(RVA = "0x45DF890", Offset = "0x45DF890", VA = "0x45DF890", Slot = "28")]
+	[Address(RVA = "0x4904990", Offset = "0x4904990", VA = "0x4904990", Slot = "28")]
 	private void System_002ECollections_002EIList_002EInsert(int index, object value)
 	{
 	}
 
 	[Token(Token = "0x6000316")]
-	[Address(RVA = "0x45DF8F0", Offset = "0x45DF8F0", VA = "0x45DF8F0", Slot = "29")]
+	[Address(RVA = "0x49049F0", Offset = "0x49049F0", VA = "0x49049F0", Slot = "29")]
 	private void System_002ECollections_002EIList_002ERemove(object value)
 	{
 	}
 
 	[Token(Token = "0x6000317")]
-	[Address(RVA = "0x45DF940", Offset = "0x45DF940", VA = "0x45DF940", Slot = "30")]
+	[Address(RVA = "0x4904A40", Offset = "0x4904A40", VA = "0x4904A40", Slot = "30")]
 	private void System_002ECollections_002EIList_002ERemoveAt(int index)
 	{
 	}
 
 	[Token(Token = "0x600031A")]
-	[Address(RVA = "0x45DFA00", Offset = "0x45DFA00", VA = "0x45DFA00")]
+	[Address(RVA = "0x4904B00", Offset = "0x4904B00", VA = "0x4904B00")]
 	internal MatchCollection()
 	{
 	}

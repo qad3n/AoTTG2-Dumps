@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.Datatype_int
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -21,7 +28,7 @@ internal class Datatype_int : Datatype_long
 	internal override FacetsChecker FacetsChecker
 	{
 		[Token(Token = "0x600117D")]
-		[Address(RVA = "0x4525430", Offset = "0x4525430", VA = "0x4525430", Slot = "18")]
+		[Address(RVA = "0x4862B90", Offset = "0x4862B90", VA = "0x4862B90", Slot = "18")]
 		get
 		{
 			return null;
@@ -32,7 +39,7 @@ internal class Datatype_int : Datatype_long
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x600117E")]
-		[Address(RVA = "0x45254A0", Offset = "0x45254A0", VA = "0x45254A0", Slot = "8")]
+		[Address(RVA = "0x4862C00", Offset = "0x4862C00", VA = "0x4862C00", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -43,7 +50,7 @@ internal class Datatype_int : Datatype_long
 	public override Type ValueType
 	{
 		[Token(Token = "0x6001180")]
-		[Address(RVA = "0x4525510", Offset = "0x4525510", VA = "0x4525510", Slot = "4")]
+		[Address(RVA = "0x4862C70", Offset = "0x4862C70", VA = "0x4862C70", Slot = "4")]
 		get
 		{
 			return null;
@@ -54,7 +61,7 @@ internal class Datatype_int : Datatype_long
 	internal override Type ListValueType
 	{
 		[Token(Token = "0x6001181")]
-		[Address(RVA = "0x4525580", Offset = "0x4525580", VA = "0x4525580", Slot = "26")]
+		[Address(RVA = "0x4862CE0", Offset = "0x4862CE0", VA = "0x4862CE0", Slot = "26")]
 		get
 		{
 			return null;
@@ -62,21 +69,21 @@ internal class Datatype_int : Datatype_long
 	}
 
 	[Token(Token = "0x600117F")]
-	[Address(RVA = "0x45254B0", Offset = "0x45254B0", VA = "0x45254B0", Slot = "14")]
+	[Address(RVA = "0x4862C10", Offset = "0x4862C10", VA = "0x4862C10", Slot = "14")]
 	internal override int Compare(object value1, object value2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001182")]
-	[Address(RVA = "0x45255F0", Offset = "0x45255F0", VA = "0x45255F0", Slot = "16")]
+	[Address(RVA = "0x4862D50", Offset = "0x4862D50", VA = "0x4862D50", Slot = "16")]
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001183")]
-	[Address(RVA = "0x4519820", Offset = "0x4519820", VA = "0x4519820")]
+	[Address(RVA = "0x4856F80", Offset = "0x4856F80", VA = "0x4856F80")]
 	public Datatype_int()
 	{
 	}

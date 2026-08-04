@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.NullableMethodCallInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Reflection;
 using Il2CppDummyDll;
 
@@ -10,14 +17,14 @@ internal abstract class NullableMethodCallInstruction : Instruction
 	private sealed class HasValue : NullableMethodCallInstruction
 	{
 		[Token(Token = "0x6000B01")]
-		[Address(RVA = "0x41E0390", Offset = "0x41E0390", VA = "0x41E0390", Slot = "8")]
+		[Address(RVA = "0x4505490", Offset = "0x4505490", VA = "0x4505490", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000B02")]
-		[Address(RVA = "0x41E0250", Offset = "0x41E0250", VA = "0x41E0250")]
+		[Address(RVA = "0x4505350", Offset = "0x4505350", VA = "0x4505350")]
 		public HasValue()
 		{
 		}
@@ -27,14 +34,14 @@ internal abstract class NullableMethodCallInstruction : Instruction
 	private sealed class GetValue : NullableMethodCallInstruction
 	{
 		[Token(Token = "0x6000B03")]
-		[Address(RVA = "0x41E03D0", Offset = "0x41E03D0", VA = "0x41E03D0", Slot = "8")]
+		[Address(RVA = "0x45054D0", Offset = "0x45054D0", VA = "0x45054D0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000B04")]
-		[Address(RVA = "0x41E0260", Offset = "0x41E0260", VA = "0x41E0260")]
+		[Address(RVA = "0x4505360", Offset = "0x4505360", VA = "0x4505360")]
 		public GetValue()
 		{
 		}
@@ -48,13 +55,13 @@ internal abstract class NullableMethodCallInstruction : Instruction
 		private readonly Type _defaultValueType;
 
 		[Token(Token = "0x6000B05")]
-		[Address(RVA = "0x41E0290", Offset = "0x41E0290", VA = "0x41E0290")]
+		[Address(RVA = "0x4505390", Offset = "0x4505390", VA = "0x4505390")]
 		public GetValueOrDefault(MethodInfo mi)
 		{
 		}
 
 		[Token(Token = "0x6000B06")]
-		[Address(RVA = "0x41E0450", Offset = "0x41E0450", VA = "0x41E0450", Slot = "8")]
+		[Address(RVA = "0x4505550", Offset = "0x4505550", VA = "0x4505550", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -68,7 +75,7 @@ internal abstract class NullableMethodCallInstruction : Instruction
 		public override int ConsumedStack
 		{
 			[Token(Token = "0x6000B07")]
-			[Address(RVA = "0x41E04B0", Offset = "0x41E04B0", VA = "0x41E04B0", Slot = "4")]
+			[Address(RVA = "0x45055B0", Offset = "0x45055B0", VA = "0x45055B0", Slot = "4")]
 			get
 			{
 				return default(int);
@@ -76,14 +83,14 @@ internal abstract class NullableMethodCallInstruction : Instruction
 		}
 
 		[Token(Token = "0x6000B08")]
-		[Address(RVA = "0x41E04C0", Offset = "0x41E04C0", VA = "0x41E04C0", Slot = "8")]
+		[Address(RVA = "0x45055C0", Offset = "0x45055C0", VA = "0x45055C0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000B09")]
-		[Address(RVA = "0x41E02E0", Offset = "0x41E02E0", VA = "0x41E02E0")]
+		[Address(RVA = "0x45053E0", Offset = "0x45053E0", VA = "0x45053E0")]
 		public GetValueOrDefault1()
 		{
 		}
@@ -96,7 +103,7 @@ internal abstract class NullableMethodCallInstruction : Instruction
 		public override int ConsumedStack
 		{
 			[Token(Token = "0x6000B0A")]
-			[Address(RVA = "0x41E0510", Offset = "0x41E0510", VA = "0x41E0510", Slot = "4")]
+			[Address(RVA = "0x4505610", Offset = "0x4505610", VA = "0x4505610", Slot = "4")]
 			get
 			{
 				return default(int);
@@ -104,14 +111,14 @@ internal abstract class NullableMethodCallInstruction : Instruction
 		}
 
 		[Token(Token = "0x6000B0B")]
-		[Address(RVA = "0x41E0520", Offset = "0x41E0520", VA = "0x41E0520", Slot = "8")]
+		[Address(RVA = "0x4505620", Offset = "0x4505620", VA = "0x4505620", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000B0C")]
-		[Address(RVA = "0x41E0270", Offset = "0x41E0270", VA = "0x41E0270")]
+		[Address(RVA = "0x4505370", Offset = "0x4505370", VA = "0x4505370")]
 		public EqualsClass()
 		{
 		}
@@ -121,14 +128,14 @@ internal abstract class NullableMethodCallInstruction : Instruction
 	private sealed class ToStringClass : NullableMethodCallInstruction
 	{
 		[Token(Token = "0x6000B0D")]
-		[Address(RVA = "0x41E05E0", Offset = "0x41E05E0", VA = "0x41E05E0", Slot = "8")]
+		[Address(RVA = "0x45056E0", Offset = "0x45056E0", VA = "0x45056E0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000B0E")]
-		[Address(RVA = "0x41E02F0", Offset = "0x41E02F0", VA = "0x41E02F0")]
+		[Address(RVA = "0x45053F0", Offset = "0x45053F0", VA = "0x45053F0")]
 		public ToStringClass()
 		{
 		}
@@ -138,14 +145,14 @@ internal abstract class NullableMethodCallInstruction : Instruction
 	private sealed class GetHashCodeClass : NullableMethodCallInstruction
 	{
 		[Token(Token = "0x6000B0F")]
-		[Address(RVA = "0x41E0650", Offset = "0x41E0650", VA = "0x41E0650", Slot = "8")]
+		[Address(RVA = "0x4505750", Offset = "0x4505750", VA = "0x4505750", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000B10")]
-		[Address(RVA = "0x41E0280", Offset = "0x41E0280", VA = "0x41E0280")]
+		[Address(RVA = "0x4505380", Offset = "0x4505380", VA = "0x4505380")]
 		public GetHashCodeClass()
 		{
 		}
@@ -179,7 +186,7 @@ internal abstract class NullableMethodCallInstruction : Instruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x6000AFB")]
-		[Address(RVA = "0x41DFE20", Offset = "0x41DFE20", VA = "0x41DFE20", Slot = "4")]
+		[Address(RVA = "0x4504F20", Offset = "0x4504F20", VA = "0x4504F20", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -190,7 +197,7 @@ internal abstract class NullableMethodCallInstruction : Instruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x6000AFC")]
-		[Address(RVA = "0x41DFE30", Offset = "0x41DFE30", VA = "0x41DFE30", Slot = "5")]
+		[Address(RVA = "0x4504F30", Offset = "0x4504F30", VA = "0x4504F30", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -201,7 +208,7 @@ internal abstract class NullableMethodCallInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x6000AFD")]
-		[Address(RVA = "0x41DFE40", Offset = "0x41DFE40", VA = "0x41DFE40", Slot = "9")]
+		[Address(RVA = "0x4504F40", Offset = "0x4504F40", VA = "0x4504F40", Slot = "9")]
 		get
 		{
 			return null;
@@ -209,20 +216,20 @@ internal abstract class NullableMethodCallInstruction : Instruction
 	}
 
 	[Token(Token = "0x6000AFE")]
-	[Address(RVA = "0x41DFE70", Offset = "0x41DFE70", VA = "0x41DFE70")]
+	[Address(RVA = "0x4504F70", Offset = "0x4504F70", VA = "0x4504F70")]
 	private NullableMethodCallInstruction()
 	{
 	}
 
 	[Token(Token = "0x6000AFF")]
-	[Address(RVA = "0x41DFE80", Offset = "0x41DFE80", VA = "0x41DFE80")]
+	[Address(RVA = "0x4504F80", Offset = "0x4504F80", VA = "0x4504F80")]
 	public static Instruction Create(string method, int argCount, MethodInfo mi)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B00")]
-	[Address(RVA = "0x41E0300", Offset = "0x41E0300", VA = "0x41E0300")]
+	[Address(RVA = "0x4505400", Offset = "0x4505400", VA = "0x4505400")]
 	public static Instruction CreateGetValue()
 	{
 		return null;

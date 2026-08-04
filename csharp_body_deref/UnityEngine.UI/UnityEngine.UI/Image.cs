@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.Image
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -6,12 +13,12 @@ using UnityEngine.U2D;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x2000026")]
+[Token(Token = "0x2000024")]
 [RequireComponent(typeof(CanvasRenderer))]
 [AddComponentMenu("UI/Image", 11)]
 public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutElement, ICanvasRaycastFilter
 {
-	[Token(Token = "0x2000027")]
+	[Token(Token = "0x2000025")]
 	public enum Type
 	{
 		[Token(Token = "0x40000AC")]
@@ -24,7 +31,7 @@ public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutEle
 		Filled
 	}
 
-	[Token(Token = "0x2000028")]
+	[Token(Token = "0x2000026")]
 	public enum FillMethod
 	{
 		[Token(Token = "0x40000B1")]
@@ -39,7 +46,7 @@ public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutEle
 		Radial360
 	}
 
-	[Token(Token = "0x2000029")]
+	[Token(Token = "0x2000027")]
 	public enum OriginHorizontal
 	{
 		[Token(Token = "0x40000B7")]
@@ -48,7 +55,7 @@ public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutEle
 		Right
 	}
 
-	[Token(Token = "0x200002A")]
+	[Token(Token = "0x2000028")]
 	public enum OriginVertical
 	{
 		[Token(Token = "0x40000BA")]
@@ -57,7 +64,7 @@ public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutEle
 		Top
 	}
 
-	[Token(Token = "0x200002B")]
+	[Token(Token = "0x2000029")]
 	public enum Origin90
 	{
 		[Token(Token = "0x40000BD")]
@@ -70,7 +77,7 @@ public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutEle
 		BottomRight
 	}
 
-	[Token(Token = "0x200002C")]
+	[Token(Token = "0x200002A")]
 	public enum Origin180
 	{
 		[Token(Token = "0x40000C2")]
@@ -83,7 +90,7 @@ public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutEle
 		Right
 	}
 
-	[Token(Token = "0x200002D")]
+	[Token(Token = "0x200002B")]
 	public enum Origin360
 	{
 		[Token(Token = "0x40000C7")]
@@ -193,215 +200,226 @@ public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutEle
 	[FieldOffset(Offset = "0x30")]
 	private static bool s_Initialized;
 
-	[Token(Token = "0x1700004C")]
+	[Token(Token = "0x1700004B")]
 	public Sprite sprite
 	{
+		[Token(Token = "0x600013D")]
+		[Address(RVA = "0x4F039B0", Offset = "0x4F039B0", VA = "0x4F039B0")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x600013E")]
+		[Address(RVA = "0x4EF4060", Offset = "0x4EF4060", VA = "0x4EF4060")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700004C")]
+	public Sprite overrideSprite
+	{
 		[Token(Token = "0x6000140")]
-		[Address(RVA = "0x4BDC080", Offset = "0x4BDC080", VA = "0x4BDC080")]
+		[Address(RVA = "0x4F03BC0", Offset = "0x4F03BC0", VA = "0x4F03BC0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000141")]
-		[Address(RVA = "0x4BCC730", Offset = "0x4BCC730", VA = "0x4BCC730")]
+		[Address(RVA = "0x4F03CA0", Offset = "0x4F03CA0", VA = "0x4F03CA0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700004D")]
-	public Sprite overrideSprite
+	private Sprite activeSprite
 	{
-		[Token(Token = "0x6000143")]
-		[Address(RVA = "0x4BDC290", Offset = "0x4BDC290", VA = "0x4BDC290")]
+		[Token(Token = "0x6000142")]
+		[Address(RVA = "0x4F03C30", Offset = "0x4F03C30", VA = "0x4F03C30")]
 		get
 		{
 			return null;
 		}
+	}
+
+	[Token(Token = "0x1700004E")]
+	public Type type
+	{
+		[Token(Token = "0x6000143")]
+		[Address(RVA = "0x4F03D10", Offset = "0x4F03D10", VA = "0x4F03D10")]
+		get
+		{
+			return default(Type);
+		}
 		[Token(Token = "0x6000144")]
-		[Address(RVA = "0x4BDC370", Offset = "0x4BDC370", VA = "0x4BDC370")]
+		[Address(RVA = "0x4EF43D0", Offset = "0x4EF43D0", VA = "0x4EF43D0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700004E")]
-	private Sprite activeSprite
+	[Token(Token = "0x1700004F")]
+	public bool preserveAspect
 	{
 		[Token(Token = "0x6000145")]
-		[Address(RVA = "0x4BDC300", Offset = "0x4BDC300", VA = "0x4BDC300")]
+		[Address(RVA = "0x4F03D20", Offset = "0x4F03D20", VA = "0x4F03D20")]
 		get
 		{
-			return null;
+			return default(bool);
 		}
-	}
-
-	[Token(Token = "0x1700004F")]
-	public Type type
-	{
 		[Token(Token = "0x6000146")]
-		[Address(RVA = "0x4BDC3E0", Offset = "0x4BDC3E0", VA = "0x4BDC3E0")]
-		get
-		{
-			return default(Type);
-		}
-		[Token(Token = "0x6000147")]
-		[Address(RVA = "0x4BCCAA0", Offset = "0x4BCCAA0", VA = "0x4BCCAA0")]
+		[Address(RVA = "0x4F03D30", Offset = "0x4F03D30", VA = "0x4F03D30")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000050")]
-	public bool preserveAspect
+	public bool fillCenter
 	{
-		[Token(Token = "0x6000148")]
-		[Address(RVA = "0x4BDC3F0", Offset = "0x4BDC3F0", VA = "0x4BDC3F0")]
+		[Token(Token = "0x6000147")]
+		[Address(RVA = "0x4F03DA0", Offset = "0x4F03DA0", VA = "0x4F03DA0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000149")]
-		[Address(RVA = "0x4BDC400", Offset = "0x4BDC400", VA = "0x4BDC400")]
+		[Token(Token = "0x6000148")]
+		[Address(RVA = "0x4F03DB0", Offset = "0x4F03DB0", VA = "0x4F03DB0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000051")]
-	public bool fillCenter
+	public FillMethod fillMethod
 	{
-		[Token(Token = "0x600014A")]
-		[Address(RVA = "0x4BDC470", Offset = "0x4BDC470", VA = "0x4BDC470")]
+		[Token(Token = "0x6000149")]
+		[Address(RVA = "0x4F03E20", Offset = "0x4F03E20", VA = "0x4F03E20")]
 		get
 		{
-			return default(bool);
+			return default(FillMethod);
 		}
-		[Token(Token = "0x600014B")]
-		[Address(RVA = "0x4BDC480", Offset = "0x4BDC480", VA = "0x4BDC480")]
+		[Token(Token = "0x600014A")]
+		[Address(RVA = "0x4F03E30", Offset = "0x4F03E30", VA = "0x4F03E30")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000052")]
-	public FillMethod fillMethod
+	public float fillAmount
 	{
-		[Token(Token = "0x600014C")]
-		[Address(RVA = "0x4BDC4F0", Offset = "0x4BDC4F0", VA = "0x4BDC4F0")]
+		[Token(Token = "0x600014B")]
+		[Address(RVA = "0x4F03EA0", Offset = "0x4F03EA0", VA = "0x4F03EA0")]
 		get
 		{
-			return default(FillMethod);
+			return default(float);
 		}
-		[Token(Token = "0x600014D")]
-		[Address(RVA = "0x4BDC500", Offset = "0x4BDC500", VA = "0x4BDC500")]
+		[Token(Token = "0x600014C")]
+		[Address(RVA = "0x4F03EB0", Offset = "0x4F03EB0", VA = "0x4F03EB0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000053")]
-	public float fillAmount
+	public bool fillClockwise
 	{
-		[Token(Token = "0x600014E")]
-		[Address(RVA = "0x4BDC570", Offset = "0x4BDC570", VA = "0x4BDC570")]
+		[Token(Token = "0x600014D")]
+		[Address(RVA = "0x4F03F30", Offset = "0x4F03F30", VA = "0x4F03F30")]
 		get
 		{
-			return default(float);
+			return default(bool);
 		}
-		[Token(Token = "0x600014F")]
-		[Address(RVA = "0x4BDC580", Offset = "0x4BDC580", VA = "0x4BDC580")]
+		[Token(Token = "0x600014E")]
+		[Address(RVA = "0x4F03F40", Offset = "0x4F03F40", VA = "0x4F03F40")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000054")]
-	public bool fillClockwise
+	public int fillOrigin
 	{
-		[Token(Token = "0x6000150")]
-		[Address(RVA = "0x4BDC600", Offset = "0x4BDC600", VA = "0x4BDC600")]
+		[Token(Token = "0x600014F")]
+		[Address(RVA = "0x4F03FB0", Offset = "0x4F03FB0", VA = "0x4F03FB0")]
 		get
 		{
-			return default(bool);
+			return default(int);
 		}
-		[Token(Token = "0x6000151")]
-		[Address(RVA = "0x4BDC610", Offset = "0x4BDC610", VA = "0x4BDC610")]
+		[Token(Token = "0x6000150")]
+		[Address(RVA = "0x4F03FC0", Offset = "0x4F03FC0", VA = "0x4F03FC0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000055")]
-	public int fillOrigin
+	[Obsolete("eventAlphaThreshold has been deprecated. Use eventMinimumAlphaThreshold instead (UnityUpgradable) -> alphaHitTestMinimumThreshold")]
+	public float eventAlphaThreshold
 	{
-		[Token(Token = "0x6000152")]
-		[Address(RVA = "0x4BDC680", Offset = "0x4BDC680", VA = "0x4BDC680")]
+		[Token(Token = "0x6000151")]
+		[Address(RVA = "0x4F04030", Offset = "0x4F04030", VA = "0x4F04030")]
 		get
 		{
-			return default(int);
+			return default(float);
 		}
-		[Token(Token = "0x6000153")]
-		[Address(RVA = "0x4BDC690", Offset = "0x4BDC690", VA = "0x4BDC690")]
+		[Token(Token = "0x6000152")]
+		[Address(RVA = "0x4F04050", Offset = "0x4F04050", VA = "0x4F04050")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000056")]
-	[Obsolete("eventAlphaThreshold has been deprecated. Use eventMinimumAlphaThreshold instead (UnityUpgradable) -> alphaHitTestMinimumThreshold")]
-	public float eventAlphaThreshold
+	public float alphaHitTestMinimumThreshold
 	{
-		[Token(Token = "0x6000154")]
-		[Address(RVA = "0x4BDC700", Offset = "0x4BDC700", VA = "0x4BDC700")]
+		[Token(Token = "0x6000153")]
+		[Address(RVA = "0x4F041B0", Offset = "0x4F041B0", VA = "0x4F041B0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000155")]
-		[Address(RVA = "0x4BDC720", Offset = "0x4BDC720", VA = "0x4BDC720")]
+		[Token(Token = "0x6000154")]
+		[Address(RVA = "0x4F04070", Offset = "0x4F04070", VA = "0x4F04070")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000057")]
-	public float alphaHitTestMinimumThreshold
+	public bool useSpriteMesh
 	{
-		[Token(Token = "0x6000156")]
-		[Address(RVA = "0x4BDC880", Offset = "0x4BDC880", VA = "0x4BDC880")]
+		[Token(Token = "0x6000155")]
+		[Address(RVA = "0x4F041C0", Offset = "0x4F041C0", VA = "0x4F041C0")]
 		get
 		{
-			return default(float);
+			return default(bool);
 		}
-		[Token(Token = "0x6000157")]
-		[Address(RVA = "0x4BDC740", Offset = "0x4BDC740", VA = "0x4BDC740")]
+		[Token(Token = "0x6000156")]
+		[Address(RVA = "0x4F041D0", Offset = "0x4F041D0", VA = "0x4F041D0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000058")]
-	public bool useSpriteMesh
+	public static Material defaultETC1GraphicMaterial
 	{
 		[Token(Token = "0x6000158")]
-		[Address(RVA = "0x4BDC890", Offset = "0x4BDC890", VA = "0x4BDC890")]
+		[Address(RVA = "0x4F04290", Offset = "0x4F04290", VA = "0x4F04290")]
 		get
 		{
-			return default(bool);
-		}
-		[Token(Token = "0x6000159")]
-		[Address(RVA = "0x4BDC8A0", Offset = "0x4BDC8A0", VA = "0x4BDC8A0")]
-		set
-		{
+			return null;
 		}
 	}
 
 	[Token(Token = "0x17000059")]
-	public static Material defaultETC1GraphicMaterial
+	public override Texture mainTexture
 	{
-		[Token(Token = "0x600015B")]
-		[Address(RVA = "0x4BDC960", Offset = "0x4BDC960", VA = "0x4BDC960")]
+		[Token(Token = "0x6000159")]
+		[Address(RVA = "0x4F04370", Offset = "0x4F04370", VA = "0x4F04370", Slot = "35")]
 		get
 		{
 			return null;
@@ -409,48 +427,48 @@ public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutEle
 	}
 
 	[Token(Token = "0x1700005A")]
-	public override Texture mainTexture
-	{
-		[Token(Token = "0x600015C")]
-		[Address(RVA = "0x4BDCA40", Offset = "0x4BDCA40", VA = "0x4BDCA40", Slot = "35")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x1700005B")]
 	public bool hasBorder
 	{
-		[Token(Token = "0x600015D")]
-		[Address(RVA = "0x4BDCC50", Offset = "0x4BDCC50", VA = "0x4BDCC50")]
+		[Token(Token = "0x600015A")]
+		[Address(RVA = "0x4F04580", Offset = "0x4F04580", VA = "0x4F04580")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700005C")]
+	[Token(Token = "0x1700005B")]
 	public float pixelsPerUnitMultiplier
 	{
-		[Token(Token = "0x600015E")]
-		[Address(RVA = "0x4BDCD90", Offset = "0x4BDCD90", VA = "0x4BDCD90")]
+		[Token(Token = "0x600015B")]
+		[Address(RVA = "0x4F046C0", Offset = "0x4F046C0", VA = "0x4F046C0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x600015F")]
-		[Address(RVA = "0x4BDCDA0", Offset = "0x4BDCDA0", VA = "0x4BDCDA0")]
+		[Token(Token = "0x600015C")]
+		[Address(RVA = "0x4F046D0", Offset = "0x4F046D0", VA = "0x4F046D0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700005D")]
+	[Token(Token = "0x1700005C")]
 	public float pixelsPerUnit
 	{
-		[Token(Token = "0x6000160")]
-		[Address(RVA = "0x4BDCDD0", Offset = "0x4BDCDD0", VA = "0x4BDCDD0")]
+		[Token(Token = "0x600015D")]
+		[Address(RVA = "0x4F04700", Offset = "0x4F04700", VA = "0x4F04700")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x1700005D")]
+	protected float multipliedPixelsPerUnit
+	{
+		[Token(Token = "0x600015E")]
+		[Address(RVA = "0x4F04920", Offset = "0x4F04920", VA = "0x4F04920")]
 		get
 		{
 			return default(float);
@@ -458,37 +476,37 @@ public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutEle
 	}
 
 	[Token(Token = "0x1700005E")]
-	protected float multipliedPixelsPerUnit
+	public override Material material
 	{
-		[Token(Token = "0x6000161")]
-		[Address(RVA = "0x4BDCFF0", Offset = "0x4BDCFF0", VA = "0x4BDCFF0")]
+		[Token(Token = "0x600015F")]
+		[Address(RVA = "0x4F04940", Offset = "0x4F04940", VA = "0x4F04940", Slot = "32")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6000160")]
+		[Address(RVA = "0x4F04AF0", Offset = "0x4F04AF0", VA = "0x4F04AF0", Slot = "33")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700005F")]
+	public virtual float minWidth
+	{
+		[Token(Token = "0x6000178")]
+		[Address(RVA = "0x4F0A370", Offset = "0x4F0A370", VA = "0x4F0A370", Slot = "81")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x1700005F")]
-	public override Material material
-	{
-		[Token(Token = "0x6000162")]
-		[Address(RVA = "0x4BDD010", Offset = "0x4BDD010", VA = "0x4BDD010", Slot = "32")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x6000163")]
-		[Address(RVA = "0x4BDD1C0", Offset = "0x4BDD1C0", VA = "0x4BDD1C0", Slot = "33")]
-		set
-		{
-		}
-	}
-
 	[Token(Token = "0x17000060")]
-	public virtual float minWidth
+	public virtual float preferredWidth
 	{
-		[Token(Token = "0x600017B")]
-		[Address(RVA = "0x4BE2A40", Offset = "0x4BE2A40", VA = "0x4BE2A40", Slot = "81")]
+		[Token(Token = "0x6000179")]
+		[Address(RVA = "0x4F0A380", Offset = "0x4F0A380", VA = "0x4F0A380", Slot = "82")]
 		get
 		{
 			return default(float);
@@ -496,10 +514,10 @@ public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutEle
 	}
 
 	[Token(Token = "0x17000061")]
-	public virtual float preferredWidth
+	public virtual float flexibleWidth
 	{
-		[Token(Token = "0x600017C")]
-		[Address(RVA = "0x4BE2A50", Offset = "0x4BE2A50", VA = "0x4BE2A50", Slot = "82")]
+		[Token(Token = "0x600017A")]
+		[Address(RVA = "0x4F0A510", Offset = "0x4F0A510", VA = "0x4F0A510", Slot = "83")]
 		get
 		{
 			return default(float);
@@ -507,10 +525,10 @@ public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutEle
 	}
 
 	[Token(Token = "0x17000062")]
-	public virtual float flexibleWidth
+	public virtual float minHeight
 	{
-		[Token(Token = "0x600017D")]
-		[Address(RVA = "0x4BE2BE0", Offset = "0x4BE2BE0", VA = "0x4BE2BE0", Slot = "83")]
+		[Token(Token = "0x600017B")]
+		[Address(RVA = "0x4F0A520", Offset = "0x4F0A520", VA = "0x4F0A520", Slot = "84")]
 		get
 		{
 			return default(float);
@@ -518,10 +536,10 @@ public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutEle
 	}
 
 	[Token(Token = "0x17000063")]
-	public virtual float minHeight
+	public virtual float preferredHeight
 	{
-		[Token(Token = "0x600017E")]
-		[Address(RVA = "0x4BE2BF0", Offset = "0x4BE2BF0", VA = "0x4BE2BF0", Slot = "84")]
+		[Token(Token = "0x600017C")]
+		[Address(RVA = "0x4F0A530", Offset = "0x4F0A530", VA = "0x4F0A530", Slot = "85")]
 		get
 		{
 			return default(float);
@@ -529,10 +547,10 @@ public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutEle
 	}
 
 	[Token(Token = "0x17000064")]
-	public virtual float preferredHeight
+	public virtual float flexibleHeight
 	{
-		[Token(Token = "0x600017F")]
-		[Address(RVA = "0x4BE2C00", Offset = "0x4BE2C00", VA = "0x4BE2C00", Slot = "85")]
+		[Token(Token = "0x600017D")]
+		[Address(RVA = "0x4F0A6D0", Offset = "0x4F0A6D0", VA = "0x4F0A6D0", Slot = "86")]
 		get
 		{
 			return default(float);
@@ -540,214 +558,203 @@ public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutEle
 	}
 
 	[Token(Token = "0x17000065")]
-	public virtual float flexibleHeight
-	{
-		[Token(Token = "0x6000180")]
-		[Address(RVA = "0x4BE2DA0", Offset = "0x4BE2DA0", VA = "0x4BE2DA0", Slot = "86")]
-		get
-		{
-			return default(float);
-		}
-	}
-
-	[Token(Token = "0x17000066")]
 	public virtual int layoutPriority
 	{
-		[Token(Token = "0x6000181")]
-		[Address(RVA = "0x4BE2DB0", Offset = "0x4BE2DB0", VA = "0x4BE2DB0", Slot = "87")]
+		[Token(Token = "0x600017E")]
+		[Address(RVA = "0x4F0A6E0", Offset = "0x4F0A6E0", VA = "0x4F0A6E0", Slot = "87")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000142")]
-	[Address(RVA = "0x4BDC280", Offset = "0x4BDC280", VA = "0x4BDC280")]
+	[Token(Token = "0x600013F")]
+	[Address(RVA = "0x4F03BB0", Offset = "0x4F03BB0", VA = "0x4F03BB0")]
 	public void DisableSpriteOptimizations()
 	{
 	}
 
-	[Token(Token = "0x600015A")]
-	[Address(RVA = "0x4BDC910", Offset = "0x4BDC910", VA = "0x4BDC910")]
+	[Token(Token = "0x6000157")]
+	[Address(RVA = "0x4F04240", Offset = "0x4F04240", VA = "0x4F04240")]
 	protected Image()
 	{
 	}
 
-	[Token(Token = "0x6000164")]
-	[Address(RVA = "0x4BDD250", Offset = "0x4BDD250", VA = "0x4BDD250", Slot = "77")]
+	[Token(Token = "0x6000161")]
+	[Address(RVA = "0x4F04B80", Offset = "0x4F04B80", VA = "0x4F04B80", Slot = "77")]
 	public virtual void OnBeforeSerialize()
 	{
 	}
 
-	[Token(Token = "0x6000165")]
-	[Address(RVA = "0x4BDD260", Offset = "0x4BDD260", VA = "0x4BDD260", Slot = "78")]
+	[Token(Token = "0x6000162")]
+	[Address(RVA = "0x4F04B90", Offset = "0x4F04B90", VA = "0x4F04B90", Slot = "78")]
 	public virtual void OnAfterDeserialize()
 	{
 	}
 
-	[Token(Token = "0x6000166")]
-	[Address(RVA = "0x4BDD2C0", Offset = "0x4BDD2C0", VA = "0x4BDD2C0")]
+	[Token(Token = "0x6000163")]
+	[Address(RVA = "0x4F04BF0", Offset = "0x4F04BF0", VA = "0x4F04BF0")]
 	private void PreserveSpriteAspectRatio(ref Rect rect, Vector2 spriteSize)
 	{
 	}
 
-	[Token(Token = "0x6000167")]
-	[Address(RVA = "0x4BDD450", Offset = "0x4BDD450", VA = "0x4BDD450")]
+	[Token(Token = "0x6000164")]
+	[Address(RVA = "0x4F04D80", Offset = "0x4F04D80", VA = "0x4F04D80")]
 	private Vector4 GetDrawingDimensions(bool shouldPreserveAspect)
 	{
 		return default(Vector4);
 	}
 
-	[Token(Token = "0x6000168")]
-	[Address(RVA = "0x4BDDA90", Offset = "0x4BDDA90", VA = "0x4BDDA90", Slot = "45")]
+	[Token(Token = "0x6000165")]
+	[Address(RVA = "0x4F053C0", Offset = "0x4F053C0", VA = "0x4F053C0", Slot = "45")]
 	public override void SetNativeSize()
 	{
 	}
 
-	[Token(Token = "0x6000169")]
-	[Address(RVA = "0x4BDDD90", Offset = "0x4BDDD90", VA = "0x4BDDD90", Slot = "44")]
+	[Token(Token = "0x6000166")]
+	[Address(RVA = "0x4F056C0", Offset = "0x4F056C0", VA = "0x4F056C0", Slot = "44")]
 	protected override void OnPopulateMesh(VertexHelper toFill)
 	{
 	}
 
-	[Token(Token = "0x600016A")]
-	[Address(RVA = "0x4BDC110", Offset = "0x4BDC110", VA = "0x4BDC110")]
+	[Token(Token = "0x6000167")]
+	[Address(RVA = "0x4F03A40", Offset = "0x4F03A40", VA = "0x4F03A40")]
 	private void TrackSprite()
 	{
 	}
 
-	[Token(Token = "0x600016B")]
-	[Address(RVA = "0x4BE1B90", Offset = "0x4BE1B90", VA = "0x4BE1B90", Slot = "5")]
+	[Token(Token = "0x6000168")]
+	[Address(RVA = "0x4F094C0", Offset = "0x4F094C0", VA = "0x4F094C0", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x600016C")]
-	[Address(RVA = "0x4BE1BB0", Offset = "0x4BE1BB0", VA = "0x4BE1BB0", Slot = "7")]
+	[Token(Token = "0x6000169")]
+	[Address(RVA = "0x4F094E0", Offset = "0x4F094E0", VA = "0x4F094E0", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x600016D")]
-	[Address(RVA = "0x4BE1D40", Offset = "0x4BE1D40", VA = "0x4BE1D40", Slot = "40")]
+	[Token(Token = "0x600016A")]
+	[Address(RVA = "0x4F09670", Offset = "0x4F09670", VA = "0x4F09670", Slot = "40")]
 	protected override void UpdateMaterial()
 	{
 	}
 
-	[Token(Token = "0x600016E")]
-	[Address(RVA = "0x4BE1EC0", Offset = "0x4BE1EC0", VA = "0x4BE1EC0", Slot = "15")]
+	[Token(Token = "0x600016B")]
+	[Address(RVA = "0x4F097F0", Offset = "0x4F097F0", VA = "0x4F097F0", Slot = "15")]
 	protected override void OnCanvasHierarchyChanged()
 	{
 	}
 
-	[Token(Token = "0x600016F")]
-	[Address(RVA = "0x4BDDEF0", Offset = "0x4BDDEF0", VA = "0x4BDDEF0")]
+	[Token(Token = "0x600016C")]
+	[Address(RVA = "0x4F05820", Offset = "0x4F05820", VA = "0x4F05820")]
 	private void GenerateSimpleSprite(VertexHelper vh, bool lPreserveAspect)
 	{
 	}
 
-	[Token(Token = "0x6000170")]
-	[Address(RVA = "0x4BDE1C0", Offset = "0x4BDE1C0", VA = "0x4BDE1C0")]
+	[Token(Token = "0x600016D")]
+	[Address(RVA = "0x4F05AF0", Offset = "0x4F05AF0", VA = "0x4F05AF0")]
 	private void GenerateSprite(VertexHelper vh, bool lPreserveAspect)
 	{
 	}
 
-	[Token(Token = "0x6000171")]
-	[Address(RVA = "0x4BDE730", Offset = "0x4BDE730", VA = "0x4BDE730")]
+	[Token(Token = "0x600016E")]
+	[Address(RVA = "0x4F06060", Offset = "0x4F06060", VA = "0x4F06060")]
 	private void GenerateSlicedSprite(VertexHelper toFill)
 	{
 	}
 
-	[Token(Token = "0x6000172")]
-	[Address(RVA = "0x4BDF450", Offset = "0x4BDF450", VA = "0x4BDF450")]
+	[Token(Token = "0x600016F")]
+	[Address(RVA = "0x4F06D80", Offset = "0x4F06D80", VA = "0x4F06D80")]
 	private void GenerateTiledSprite(VertexHelper toFill)
 	{
 	}
 
-	[Token(Token = "0x6000173")]
-	[Address(RVA = "0x4BE2320", Offset = "0x4BE2320", VA = "0x4BE2320")]
+	[Token(Token = "0x6000170")]
+	[Address(RVA = "0x4F09C50", Offset = "0x4F09C50", VA = "0x4F09C50")]
 	private static void AddQuad(VertexHelper vertexHelper, Vector3[] quadPositions, Color32 color, Vector3[] quadUVs)
 	{
 	}
 
-	[Token(Token = "0x6000174")]
-	[Address(RVA = "0x4BE2210", Offset = "0x4BE2210", VA = "0x4BE2210")]
+	[Token(Token = "0x6000171")]
+	[Address(RVA = "0x4F09B40", Offset = "0x4F09B40", VA = "0x4F09B40")]
 	private static void AddQuad(VertexHelper vertexHelper, Vector2 posMin, Vector2 posMax, Color32 color, Vector2 uvMin, Vector2 uvMax)
 	{
 	}
 
-	[Token(Token = "0x6000175")]
-	[Address(RVA = "0x4BE2090", Offset = "0x4BE2090", VA = "0x4BE2090")]
+	[Token(Token = "0x6000172")]
+	[Address(RVA = "0x4F099C0", Offset = "0x4F099C0", VA = "0x4F099C0")]
 	private Vector4 GetAdjustedBorders(Vector4 border, Rect adjustedRect)
 	{
 		return default(Vector4);
 	}
 
-	[Token(Token = "0x6000176")]
-	[Address(RVA = "0x4BE0C50", Offset = "0x4BE0C50", VA = "0x4BE0C50")]
+	[Token(Token = "0x6000173")]
+	[Address(RVA = "0x4F08580", Offset = "0x4F08580", VA = "0x4F08580")]
 	private void GenerateFilledSprite(VertexHelper toFill, bool preserveAspect)
 	{
 	}
 
-	[Token(Token = "0x6000177")]
-	[Address(RVA = "0x4BE2480", Offset = "0x4BE2480", VA = "0x4BE2480")]
+	[Token(Token = "0x6000174")]
+	[Address(RVA = "0x4F09DB0", Offset = "0x4F09DB0", VA = "0x4F09DB0")]
 	private static bool RadialCut(Vector3[] xy, Vector3[] uv, float fill, bool invert, int corner)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000178")]
-	[Address(RVA = "0x4BE25B0", Offset = "0x4BE25B0", VA = "0x4BE25B0")]
+	[Token(Token = "0x6000175")]
+	[Address(RVA = "0x4F09EE0", Offset = "0x4F09EE0", VA = "0x4F09EE0")]
 	private static void RadialCut(Vector3[] xy, float cos, float sin, bool invert, int corner)
 	{
 	}
 
-	[Token(Token = "0x6000179")]
-	[Address(RVA = "0x4BE2A20", Offset = "0x4BE2A20", VA = "0x4BE2A20", Slot = "79")]
+	[Token(Token = "0x6000176")]
+	[Address(RVA = "0x4F0A350", Offset = "0x4F0A350", VA = "0x4F0A350", Slot = "79")]
 	public virtual void CalculateLayoutInputHorizontal()
 	{
 	}
 
-	[Token(Token = "0x600017A")]
-	[Address(RVA = "0x4BE2A30", Offset = "0x4BE2A30", VA = "0x4BE2A30", Slot = "80")]
+	[Token(Token = "0x6000177")]
+	[Address(RVA = "0x4F0A360", Offset = "0x4F0A360", VA = "0x4F0A360", Slot = "80")]
 	public virtual void CalculateLayoutInputVertical()
 	{
 	}
 
-	[Token(Token = "0x6000182")]
-	[Address(RVA = "0x4BE2DC0", Offset = "0x4BE2DC0", VA = "0x4BE2DC0", Slot = "88")]
+	[Token(Token = "0x600017F")]
+	[Address(RVA = "0x4F0A6F0", Offset = "0x4F0A6F0", VA = "0x4F0A6F0", Slot = "88")]
 	public virtual bool IsRaycastLocationValid(Vector2 screenPoint, Camera eventCamera)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000183")]
-	[Address(RVA = "0x4BE34B0", Offset = "0x4BE34B0", VA = "0x4BE34B0")]
+	[Token(Token = "0x6000180")]
+	[Address(RVA = "0x4F0ADE0", Offset = "0x4F0ADE0", VA = "0x4F0ADE0")]
 	private Vector2 MapCoordinate(Vector2 local, Rect rect)
 	{
 		return default(Vector2);
 	}
 
-	[Token(Token = "0x6000184")]
-	[Address(RVA = "0x4BE39E0", Offset = "0x4BE39E0", VA = "0x4BE39E0")]
+	[Token(Token = "0x6000181")]
+	[Address(RVA = "0x4F0B310", Offset = "0x4F0B310", VA = "0x4F0B310")]
 	private static void RebuildImage(SpriteAtlas spriteAtlas)
 	{
 	}
 
-	[Token(Token = "0x6000185")]
-	[Address(RVA = "0x4BE19D0", Offset = "0x4BE19D0", VA = "0x4BE19D0")]
+	[Token(Token = "0x6000182")]
+	[Address(RVA = "0x4F09300", Offset = "0x4F09300", VA = "0x4F09300")]
 	private static void TrackImage(Image g)
 	{
 	}
 
-	[Token(Token = "0x6000186")]
-	[Address(RVA = "0x4BE1CA0", Offset = "0x4BE1CA0", VA = "0x4BE1CA0")]
+	[Token(Token = "0x6000183")]
+	[Address(RVA = "0x4F095D0", Offset = "0x4F095D0", VA = "0x4F095D0")]
 	private static void UnTrackImage(Image g)
 	{
 	}
 
-	[Token(Token = "0x6000187")]
-	[Address(RVA = "0x4BE3C80", Offset = "0x4BE3C80", VA = "0x4BE3C80", Slot = "13")]
+	[Token(Token = "0x6000184")]
+	[Address(RVA = "0x4F0B5B0", Offset = "0x4F0B5B0", VA = "0x4F0B5B0", Slot = "13")]
 	protected override void OnDidApplyAnimationProperties()
 	{
 	}

@@ -1,55 +1,62 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Utility.RateLimit
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Utility/RateLimit.c
+// Prior real C# source (older reference): Assets/Scripts/Utility/RateLimit.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Utility;
 
-[Token(Token = "0x20006F3")]
+[Token(Token = "0x2000741")]
 internal class RateLimit
 {
-	[Token(Token = "0x400217A")]
+	[Token(Token = "0x40022D7")]
 	[FieldOffset(Offset = "0x10")]
 	private int _currentUsage;
 
-	[Token(Token = "0x400217B")]
+	[Token(Token = "0x40022D8")]
 	[FieldOffset(Offset = "0x14")]
 	private int _maxUsage;
 
-	[Token(Token = "0x400217C")]
+	[Token(Token = "0x40022D9")]
 	[FieldOffset(Offset = "0x18")]
 	private float _resetDelay;
 
-	[Token(Token = "0x400217D")]
+	[Token(Token = "0x40022DA")]
 	[FieldOffset(Offset = "0x1C")]
 	private float _lastResetTime;
 
-	[Token(Token = "0x6004491")]
-	[Address(RVA = "0x407BC80", Offset = "0x407BC80", VA = "0x407BC80")]
+	[Token(Token = "0x60046F9")]
+	[Address(RVA = "0x4393C60", Offset = "0x4393C60", VA = "0x4393C60")]
 	public RateLimit Copy()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004492")]
-	[Address(RVA = "0x407BCF0", Offset = "0x407BCF0", VA = "0x407BCF0")]
+	[Token(Token = "0x60046FA")]
+	[Address(RVA = "0x4393CD0", Offset = "0x4393CD0", VA = "0x4393CD0")]
 	public RateLimit(int maxUsage, float resetDelay)
 	{
 	}
 
-	[Token(Token = "0x6004493")]
-	[Address(RVA = "0x407BD30", Offset = "0x407BD30", VA = "0x407BD30")]
+	[Token(Token = "0x60046FB")]
+	[Address(RVA = "0x4393D10", Offset = "0x4393D10", VA = "0x4393D10")]
 	public bool Peek(int usage = 1)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004494")]
-	[Address(RVA = "0x407BDB0", Offset = "0x407BDB0", VA = "0x407BDB0")]
+	[Token(Token = "0x60046FC")]
+	[Address(RVA = "0x4393D90", Offset = "0x4393D90", VA = "0x4393D90")]
 	public bool Use(int usage = 1)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004495")]
-	[Address(RVA = "0x407BD80", Offset = "0x407BD80", VA = "0x407BD80")]
+	[Token(Token = "0x60046FD")]
+	[Address(RVA = "0x4393D60", Offset = "0x4393D60", VA = "0x4393D60")]
 	private void TryReset()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.LicenseProviderAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.ComponentModel;
@@ -22,7 +29,7 @@ public sealed class LicenseProviderAttribute : Attribute
 	public Type LicenseProvider
 	{
 		[Token(Token = "0x60010F6")]
-		[Address(RVA = "0x4571BB0", Offset = "0x4571BB0", VA = "0x4571BB0")]
+		[Address(RVA = "0x4896CB0", Offset = "0x4896CB0", VA = "0x4896CB0")]
 		get
 		{
 			return null;
@@ -33,7 +40,7 @@ public sealed class LicenseProviderAttribute : Attribute
 	public override object TypeId
 	{
 		[Token(Token = "0x60010F7")]
-		[Address(RVA = "0x4572010", Offset = "0x4572010", VA = "0x4572010", Slot = "4")]
+		[Address(RVA = "0x4897110", Offset = "0x4897110", VA = "0x4897110", Slot = "4")]
 		get
 		{
 			return null;
@@ -41,32 +48,32 @@ public sealed class LicenseProviderAttribute : Attribute
 	}
 
 	[Token(Token = "0x60010F3")]
-	[Address(RVA = "0x4571F80", Offset = "0x4571F80", VA = "0x4571F80")]
+	[Address(RVA = "0x4897080", Offset = "0x4897080", VA = "0x4897080")]
 	public LicenseProviderAttribute()
 	{
 	}
 
 	[Token(Token = "0x60010F4")]
-	[Address(RVA = "0x4571FB0", Offset = "0x4571FB0", VA = "0x4571FB0")]
+	[Address(RVA = "0x48970B0", Offset = "0x48970B0", VA = "0x48970B0")]
 	public LicenseProviderAttribute(string typeName)
 	{
 	}
 
 	[Token(Token = "0x60010F5")]
-	[Address(RVA = "0x4571FE0", Offset = "0x4571FE0", VA = "0x4571FE0")]
+	[Address(RVA = "0x48970E0", Offset = "0x48970E0", VA = "0x48970E0")]
 	public LicenseProviderAttribute(Type type)
 	{
 	}
 
 	[Token(Token = "0x60010F8")]
-	[Address(RVA = "0x45720B0", Offset = "0x45720B0", VA = "0x45720B0", Slot = "0")]
+	[Address(RVA = "0x48971B0", Offset = "0x48971B0", VA = "0x48971B0", Slot = "0")]
 	public override bool Equals(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60010F9")]
-	[Address(RVA = "0x45721A0", Offset = "0x45721A0", VA = "0x45721A0", Slot = "2")]
+	[Address(RVA = "0x48972A0", Offset = "0x48972A0", VA = "0x48972A0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

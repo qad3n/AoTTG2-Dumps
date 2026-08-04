@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.IPEndPoint
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Net.Sockets;
 using Il2CppDummyDll;
 
@@ -27,7 +34,7 @@ public class IPEndPoint : EndPoint
 	public override AddressFamily AddressFamily
 	{
 		[Token(Token = "0x60006E4")]
-		[Address(RVA = "0x4626970", Offset = "0x4626970", VA = "0x4626970", Slot = "4")]
+		[Address(RVA = "0x494BA70", Offset = "0x494BA70", VA = "0x494BA70", Slot = "4")]
 		get
 		{
 			return default(AddressFamily);
@@ -38,7 +45,7 @@ public class IPEndPoint : EndPoint
 	public IPAddress Address
 	{
 		[Token(Token = "0x60006E6")]
-		[Address(RVA = "0x4626A70", Offset = "0x4626A70", VA = "0x4626A70")]
+		[Address(RVA = "0x494BB70", Offset = "0x494BB70", VA = "0x494BB70")]
 		get
 		{
 			return null;
@@ -49,7 +56,7 @@ public class IPEndPoint : EndPoint
 	public int Port
 	{
 		[Token(Token = "0x60006E7")]
-		[Address(RVA = "0x4626A80", Offset = "0x4626A80", VA = "0x4626A80")]
+		[Address(RVA = "0x494BB80", Offset = "0x494BB80", VA = "0x494BB80")]
 		get
 		{
 			return default(int);
@@ -57,41 +64,41 @@ public class IPEndPoint : EndPoint
 	}
 
 	[Token(Token = "0x60006E5")]
-	[Address(RVA = "0x46269A0", Offset = "0x46269A0", VA = "0x46269A0")]
+	[Address(RVA = "0x494BAA0", Offset = "0x494BAA0", VA = "0x494BAA0")]
 	public IPEndPoint(IPAddress address, int port)
 	{
 	}
 
 	[Token(Token = "0x60006E8")]
-	[Address(RVA = "0x4626A90", Offset = "0x4626A90", VA = "0x4626A90", Slot = "3")]
+	[Address(RVA = "0x494BB90", Offset = "0x494BB90", VA = "0x494BB90", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60006E9")]
-	[Address(RVA = "0x4626B40", Offset = "0x4626B40", VA = "0x4626B40", Slot = "5")]
+	[Address(RVA = "0x494BC40", Offset = "0x494BC40", VA = "0x494BC40", Slot = "5")]
 	public override SocketAddress Serialize()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60006EA")]
-	[Address(RVA = "0x4626BA0", Offset = "0x4626BA0", VA = "0x4626BA0", Slot = "6")]
+	[Address(RVA = "0x494BCA0", Offset = "0x494BCA0", VA = "0x494BCA0", Slot = "6")]
 	public override EndPoint Create(SocketAddress socketAddress)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60006EB")]
-	[Address(RVA = "0x4626D90", Offset = "0x4626D90", VA = "0x4626D90", Slot = "0")]
+	[Address(RVA = "0x494BE90", Offset = "0x494BE90", VA = "0x494BE90", Slot = "0")]
 	public override bool Equals(object comparand)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60006EC")]
-	[Address(RVA = "0x4626E40", Offset = "0x4626E40", VA = "0x4626E40", Slot = "2")]
+	[Address(RVA = "0x494BF40", Offset = "0x494BF40", VA = "0x494BF40", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.Messaging.MessageDictionary
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -26,7 +33,7 @@ internal class MessageDictionary : IDictionary, ICollection, IEnumerable
 		public object Current
 		{
 			[Token(Token = "0x6001EB4")]
-			[Address(RVA = "0x4EA9F80", Offset = "0x4EA9F80", VA = "0x4EA9F80", Slot = "8")]
+			[Address(RVA = "0x3B8FAA0", Offset = "0x3B8FAA0", VA = "0x3B8FAA0", Slot = "8")]
 			get
 			{
 				return null;
@@ -37,7 +44,7 @@ internal class MessageDictionary : IDictionary, ICollection, IEnumerable
 		public DictionaryEntry Entry
 		{
 			[Token(Token = "0x6001EB7")]
-			[Address(RVA = "0x4EA9FD0", Offset = "0x4EA9FD0", VA = "0x4EA9FD0", Slot = "6")]
+			[Address(RVA = "0x3B8FAF0", Offset = "0x3B8FAF0", VA = "0x3B8FAF0", Slot = "6")]
 			get
 			{
 				return default(DictionaryEntry);
@@ -48,7 +55,7 @@ internal class MessageDictionary : IDictionary, ICollection, IEnumerable
 		public object Key
 		{
 			[Token(Token = "0x6001EB8")]
-			[Address(RVA = "0x4EAA420", Offset = "0x4EAA420", VA = "0x4EAA420", Slot = "4")]
+			[Address(RVA = "0x3B8FF40", Offset = "0x3B8FF40", VA = "0x3B8FF40", Slot = "4")]
 			get
 			{
 				return null;
@@ -59,7 +66,7 @@ internal class MessageDictionary : IDictionary, ICollection, IEnumerable
 		public object Value
 		{
 			[Token(Token = "0x6001EB9")]
-			[Address(RVA = "0x4EAA430", Offset = "0x4EAA430", VA = "0x4EAA430", Slot = "5")]
+			[Address(RVA = "0x3B8FF50", Offset = "0x3B8FF50", VA = "0x3B8FF50", Slot = "5")]
 			get
 			{
 				return null;
@@ -67,20 +74,20 @@ internal class MessageDictionary : IDictionary, ICollection, IEnumerable
 		}
 
 		[Token(Token = "0x6001EB3")]
-		[Address(RVA = "0x4EA9E20", Offset = "0x4EA9E20", VA = "0x4EA9E20")]
+		[Address(RVA = "0x3B8F940", Offset = "0x3B8F940", VA = "0x3B8F940")]
 		public DictionaryEnumerator(System.Runtime.Remoting.Messaging.MessageDictionary methodDictionary)
 		{
 		}
 
 		[Token(Token = "0x6001EB5")]
-		[Address(RVA = "0x4EAA150", Offset = "0x4EAA150", VA = "0x4EAA150", Slot = "7")]
+		[Address(RVA = "0x3B8FC70", Offset = "0x3B8FC70", VA = "0x3B8FC70", Slot = "7")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001EB6")]
-		[Address(RVA = "0x4EAA370", Offset = "0x4EAA370", VA = "0x4EAA370", Slot = "9")]
+		[Address(RVA = "0x3B8FE90", Offset = "0x3B8FE90", VA = "0x3B8FE90", Slot = "9")]
 		public void Reset()
 		{
 		}
@@ -106,7 +113,7 @@ internal class MessageDictionary : IDictionary, ICollection, IEnumerable
 	internal IDictionary InternalDictionary
 	{
 		[Token(Token = "0x6001E9C")]
-		[Address(RVA = "0x4EA2870", Offset = "0x4EA2870", VA = "0x4EA2870")]
+		[Address(RVA = "0x3B88390", Offset = "0x3B88390", VA = "0x3B88390")]
 		get
 		{
 			return null;
@@ -117,7 +124,7 @@ internal class MessageDictionary : IDictionary, ICollection, IEnumerable
 	public string[] MethodKeys
 	{
 		[Token(Token = "0x6001E9D")]
-		[Address(RVA = "0x4EA8910", Offset = "0x4EA8910", VA = "0x4EA8910")]
+		[Address(RVA = "0x3B8E430", Offset = "0x3B8E430", VA = "0x3B8E430")]
 		set
 		{
 		}
@@ -127,7 +134,7 @@ internal class MessageDictionary : IDictionary, ICollection, IEnumerable
 	public bool IsFixedSize
 	{
 		[Token(Token = "0x6001EA1")]
-		[Address(RVA = "0x4EA89E0", Offset = "0x4EA89E0", VA = "0x4EA89E0", Slot = "12")]
+		[Address(RVA = "0x3B8E500", Offset = "0x3B8E500", VA = "0x3B8E500", Slot = "12")]
 		get
 		{
 			return default(bool);
@@ -138,7 +145,7 @@ internal class MessageDictionary : IDictionary, ICollection, IEnumerable
 	public bool IsReadOnly
 	{
 		[Token(Token = "0x6001EA2")]
-		[Address(RVA = "0x4EA89F0", Offset = "0x4EA89F0", VA = "0x4EA89F0", Slot = "11")]
+		[Address(RVA = "0x3B8E510", Offset = "0x3B8E510", VA = "0x3B8E510", Slot = "11")]
 		get
 		{
 			return default(bool);
@@ -149,13 +156,13 @@ internal class MessageDictionary : IDictionary, ICollection, IEnumerable
 	public object this[object key]
 	{
 		[Token(Token = "0x6001EA3")]
-		[Address(RVA = "0x4EA8A00", Offset = "0x4EA8A00", VA = "0x4EA8A00", Slot = "4")]
+		[Address(RVA = "0x3B8E520", Offset = "0x3B8E520", VA = "0x3B8E520", Slot = "4")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001EA4")]
-		[Address(RVA = "0x4EA8B30", Offset = "0x4EA8B30", VA = "0x4EA8B30", Slot = "5")]
+		[Address(RVA = "0x3B8E650", Offset = "0x3B8E650", VA = "0x3B8E650", Slot = "5")]
 		set
 		{
 		}
@@ -165,7 +172,7 @@ internal class MessageDictionary : IDictionary, ICollection, IEnumerable
 	public ICollection Keys
 	{
 		[Token(Token = "0x6001EA7")]
-		[Address(RVA = "0x4EA8CC0", Offset = "0x4EA8CC0", VA = "0x4EA8CC0", Slot = "6")]
+		[Address(RVA = "0x3B8E7E0", Offset = "0x3B8E7E0", VA = "0x3B8E7E0", Slot = "6")]
 		get
 		{
 			return null;
@@ -176,7 +183,7 @@ internal class MessageDictionary : IDictionary, ICollection, IEnumerable
 	public ICollection Values
 	{
 		[Token(Token = "0x6001EA8")]
-		[Address(RVA = "0x4EA9390", Offset = "0x4EA9390", VA = "0x4EA9390", Slot = "7")]
+		[Address(RVA = "0x3B8EEB0", Offset = "0x3B8EEB0", VA = "0x3B8EEB0", Slot = "7")]
 		get
 		{
 			return null;
@@ -187,7 +194,7 @@ internal class MessageDictionary : IDictionary, ICollection, IEnumerable
 	public int Count
 	{
 		[Token(Token = "0x6001EAD")]
-		[Address(RVA = "0x4EA9C30", Offset = "0x4EA9C30", VA = "0x4EA9C30", Slot = "16")]
+		[Address(RVA = "0x3B8F750", Offset = "0x3B8F750", VA = "0x3B8F750", Slot = "16")]
 		get
 		{
 			return default(int);
@@ -198,7 +205,7 @@ internal class MessageDictionary : IDictionary, ICollection, IEnumerable
 	public bool IsSynchronized
 	{
 		[Token(Token = "0x6001EAE")]
-		[Address(RVA = "0x4EA9D00", Offset = "0x4EA9D00", VA = "0x4EA9D00", Slot = "18")]
+		[Address(RVA = "0x3B8F820", Offset = "0x3B8F820", VA = "0x3B8F820", Slot = "18")]
 		get
 		{
 			return default(bool);
@@ -209,7 +216,7 @@ internal class MessageDictionary : IDictionary, ICollection, IEnumerable
 	public object SyncRoot
 	{
 		[Token(Token = "0x6001EAF")]
-		[Address(RVA = "0x4EA9D10", Offset = "0x4EA9D10", VA = "0x4EA9D10", Slot = "17")]
+		[Address(RVA = "0x3B8F830", Offset = "0x3B8F830", VA = "0x3B8F830", Slot = "17")]
 		get
 		{
 			return null;
@@ -217,92 +224,92 @@ internal class MessageDictionary : IDictionary, ICollection, IEnumerable
 	}
 
 	[Token(Token = "0x6001E9A")]
-	[Address(RVA = "0x4EA5FB0", Offset = "0x4EA5FB0", VA = "0x4EA5FB0")]
+	[Address(RVA = "0x3B8BAD0", Offset = "0x3B8BAD0", VA = "0x3B8BAD0")]
 	public MessageDictionary(IMethodMessage message)
 	{
 	}
 
 	[Token(Token = "0x6001E9B")]
-	[Address(RVA = "0x4EA2780", Offset = "0x4EA2780", VA = "0x4EA2780")]
+	[Address(RVA = "0x3B882A0", Offset = "0x3B882A0", VA = "0x3B882A0")]
 	internal bool HasUserData()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001E9E")]
-	[Address(RVA = "0x4EA8920", Offset = "0x4EA8920", VA = "0x4EA8920", Slot = "20")]
+	[Address(RVA = "0x3B8E440", Offset = "0x3B8E440", VA = "0x3B8E440", Slot = "20")]
 	protected virtual IDictionary AllocInternalProperties()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001E9F")]
-	[Address(RVA = "0x4EA4EC0", Offset = "0x4EA4EC0", VA = "0x4EA4EC0")]
+	[Address(RVA = "0x3B8A9E0", Offset = "0x3B8A9E0", VA = "0x3B8A9E0")]
 	public IDictionary GetInternalProperties()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001EA0")]
-	[Address(RVA = "0x4EA8970", Offset = "0x4EA8970", VA = "0x4EA8970")]
+	[Address(RVA = "0x3B8E490", Offset = "0x3B8E490", VA = "0x3B8E490")]
 	private bool IsOverridenKey(string key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001EA5")]
-	[Address(RVA = "0x4EA63E0", Offset = "0x4EA63E0", VA = "0x4EA63E0", Slot = "21")]
+	[Address(RVA = "0x3B8BF00", Offset = "0x3B8BF00", VA = "0x3B8BF00", Slot = "21")]
 	protected virtual object GetMethodProperty(string key)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001EA6")]
-	[Address(RVA = "0x4EA6C20", Offset = "0x4EA6C20", VA = "0x4EA6C20", Slot = "22")]
+	[Address(RVA = "0x3B8C740", Offset = "0x3B8C740", VA = "0x3B8C740", Slot = "22")]
 	protected virtual void SetMethodProperty(string key, object value)
 	{
 	}
 
 	[Token(Token = "0x6001EA9")]
-	[Address(RVA = "0x4EA8B40", Offset = "0x4EA8B40", VA = "0x4EA8B40", Slot = "9")]
+	[Address(RVA = "0x3B8E660", Offset = "0x3B8E660", VA = "0x3B8E660", Slot = "9")]
 	public void Add(object key, object value)
 	{
 	}
 
 	[Token(Token = "0x6001EAA")]
-	[Address(RVA = "0x4EA98F0", Offset = "0x4EA98F0", VA = "0x4EA98F0", Slot = "10")]
+	[Address(RVA = "0x3B8F410", Offset = "0x3B8F410", VA = "0x3B8F410", Slot = "10")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x6001EAB")]
-	[Address(RVA = "0x4EA9990", Offset = "0x4EA9990", VA = "0x4EA9990", Slot = "8")]
+	[Address(RVA = "0x3B8F4B0", Offset = "0x3B8F4B0", VA = "0x3B8F4B0", Slot = "8")]
 	public bool Contains(object key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001EAC")]
-	[Address(RVA = "0x4EA9AC0", Offset = "0x4EA9AC0", VA = "0x4EA9AC0", Slot = "14")]
+	[Address(RVA = "0x3B8F5E0", Offset = "0x3B8F5E0", VA = "0x3B8F5E0", Slot = "14")]
 	public void Remove(object key)
 	{
 	}
 
 	[Token(Token = "0x6001EB0")]
-	[Address(RVA = "0x4EA9D20", Offset = "0x4EA9D20", VA = "0x4EA9D20", Slot = "15")]
+	[Address(RVA = "0x3B8F840", Offset = "0x3B8F840", VA = "0x3B8F840", Slot = "15")]
 	public void CopyTo(Array array, int index)
 	{
 	}
 
 	[Token(Token = "0x6001EB1")]
-	[Address(RVA = "0x4EA9DD0", Offset = "0x4EA9DD0", VA = "0x4EA9DD0", Slot = "19")]
+	[Address(RVA = "0x3B8F8F0", Offset = "0x3B8F8F0", VA = "0x3B8F8F0", Slot = "19")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001EB2")]
-	[Address(RVA = "0x4EA9F30", Offset = "0x4EA9F30", VA = "0x4EA9F30", Slot = "13")]
+	[Address(RVA = "0x3B8FA50", Offset = "0x3B8FA50", VA = "0x3B8FA50", Slot = "13")]
 	public IDictionaryEnumerator GetEnumerator()
 	{
 		return null;

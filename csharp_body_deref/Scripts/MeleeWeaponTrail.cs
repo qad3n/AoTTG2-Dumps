@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MeleeWeaponTrail
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/MeleeWeaponTrail.c
+// Prior real C# source (older reference): Assets/Scripts/ThirdParty/MeleeWeaponTrail/MeleeWeaponTrail.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -23,7 +30,7 @@ public class MeleeWeaponTrail : MonoBehaviour
 		public Vector3 tipPosition;
 
 		[Token(Token = "0x60000BE")]
-		[Address(RVA = "0x3C6E170", Offset = "0x3C6E170", VA = "0x3C6E170")]
+		[Address(RVA = "0x3F63AC0", Offset = "0x3F63AC0", VA = "0x3F63AC0")]
 		public Point()
 		{
 		}
@@ -130,7 +137,7 @@ public class MeleeWeaponTrail : MonoBehaviour
 	public bool Emit
 	{
 		[Token(Token = "0x60000B5")]
-		[Address(RVA = "0x3C6C4F0", Offset = "0x3C6C4F0", VA = "0x3C6C4F0")]
+		[Address(RVA = "0x3F61E40", Offset = "0x3F61E40", VA = "0x3F61E40")]
 		set
 		{
 		}
@@ -140,50 +147,50 @@ public class MeleeWeaponTrail : MonoBehaviour
 	public bool Use
 	{
 		[Token(Token = "0x60000B6")]
-		[Address(RVA = "0x3C6C500", Offset = "0x3C6C500", VA = "0x3C6C500")]
+		[Address(RVA = "0x3F61E50", Offset = "0x3F61E50", VA = "0x3F61E50")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60000B7")]
-	[Address(RVA = "0x3C6C510", Offset = "0x3C6C510", VA = "0x3C6C510")]
+	[Address(RVA = "0x3F61E60", Offset = "0x3F61E60", VA = "0x3F61E60")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x60000B8")]
-	[Address(RVA = "0x3C6C8B0", Offset = "0x3C6C8B0", VA = "0x3C6C8B0")]
+	[Address(RVA = "0x3F62200", Offset = "0x3F62200", VA = "0x3F62200")]
 	private void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x60000B9")]
-	[Address(RVA = "0x3C6C910", Offset = "0x3C6C910", VA = "0x3C6C910")]
+	[Address(RVA = "0x3F62260", Offset = "0x3F62260", VA = "0x3F62260")]
 	public void SetMaterial(Material material)
 	{
 	}
 
 	[Token(Token = "0x60000BA")]
-	[Address(RVA = "0x3C6C9C0", Offset = "0x3C6C9C0", VA = "0x3C6C9C0")]
+	[Address(RVA = "0x3F62310", Offset = "0x3F62310", VA = "0x3F62310")]
 	public void StopImmediate()
 	{
 	}
 
 	[Token(Token = "0x60000BB")]
-	[Address(RVA = "0x3C6CA50", Offset = "0x3C6CA50", VA = "0x3C6CA50")]
+	[Address(RVA = "0x3F623A0", Offset = "0x3F623A0", VA = "0x3F623A0")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x60000BC")]
-	[Address(RVA = "0x3C6E180", Offset = "0x3C6E180", VA = "0x3C6E180")]
+	[Address(RVA = "0x3F63AD0", Offset = "0x3F63AD0", VA = "0x3F63AD0")]
 	private void RemoveOldPoints(List<Point> pointList)
 	{
 	}
 
 	[Token(Token = "0x60000BD")]
-	[Address(RVA = "0x3C6E250", Offset = "0x3C6E250", VA = "0x3C6E250")]
+	[Address(RVA = "0x3F63BA0", Offset = "0x3F63BA0", VA = "0x3F63BA0")]
 	public MeleeWeaponTrail()
 	{
 	}

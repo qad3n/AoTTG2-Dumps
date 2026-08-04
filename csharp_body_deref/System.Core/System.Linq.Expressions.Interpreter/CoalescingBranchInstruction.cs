@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.CoalescingBranchInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -13,7 +20,7 @@ internal sealed class CoalescingBranchInstruction : OffsetInstruction
 	public override Instruction[] Cache
 	{
 		[Token(Token = "0x6000612")]
-		[Address(RVA = "0x41A27E0", Offset = "0x41A27E0", VA = "0x41A27E0", Slot = "11")]
+		[Address(RVA = "0x44C78E0", Offset = "0x44C78E0", VA = "0x44C78E0", Slot = "11")]
 		get
 		{
 			return null;
@@ -24,7 +31,7 @@ internal sealed class CoalescingBranchInstruction : OffsetInstruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x6000613")]
-		[Address(RVA = "0x41A2870", Offset = "0x41A2870", VA = "0x41A2870", Slot = "9")]
+		[Address(RVA = "0x44C7970", Offset = "0x44C7970", VA = "0x44C7970", Slot = "9")]
 		get
 		{
 			return null;
@@ -35,7 +42,7 @@ internal sealed class CoalescingBranchInstruction : OffsetInstruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x6000614")]
-		[Address(RVA = "0x41A28A0", Offset = "0x41A28A0", VA = "0x41A28A0", Slot = "4")]
+		[Address(RVA = "0x44C79A0", Offset = "0x44C79A0", VA = "0x44C79A0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -46,7 +53,7 @@ internal sealed class CoalescingBranchInstruction : OffsetInstruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x6000615")]
-		[Address(RVA = "0x41A28B0", Offset = "0x41A28B0", VA = "0x41A28B0", Slot = "5")]
+		[Address(RVA = "0x44C79B0", Offset = "0x44C79B0", VA = "0x44C79B0", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -54,14 +61,14 @@ internal sealed class CoalescingBranchInstruction : OffsetInstruction
 	}
 
 	[Token(Token = "0x6000616")]
-	[Address(RVA = "0x41A28C0", Offset = "0x41A28C0", VA = "0x41A28C0", Slot = "8")]
+	[Address(RVA = "0x44C79C0", Offset = "0x44C79C0", VA = "0x44C79C0", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000617")]
-	[Address(RVA = "0x41A28F0", Offset = "0x41A28F0", VA = "0x41A28F0")]
+	[Address(RVA = "0x44C79F0", Offset = "0x44C79F0", VA = "0x44C79F0")]
 	public CoalescingBranchInstruction()
 	{
 	}

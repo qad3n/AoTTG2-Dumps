@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.ColorCorrectionCurves
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/ColorCorrectionCurves.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -114,44 +121,44 @@ public class ColorCorrectionCurves : PostEffectsBase
 	private bool updateTexturesOnStartup;
 
 	[Token(Token = "0x6000031")]
-	[Address(RVA = "0x41595B0", Offset = "0x41595B0", VA = "0x41595B0")]
+	[Address(RVA = "0x447E6B0", Offset = "0x447E6B0", VA = "0x447E6B0")]
 	private new void Start()
 	{
 	}
 
 	[Token(Token = "0x6000032")]
-	[Address(RVA = "0x41595F0", Offset = "0x41595F0", VA = "0x41595F0")]
+	[Address(RVA = "0x447E6F0", Offset = "0x447E6F0", VA = "0x447E6F0")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000033")]
-	[Address(RVA = "0x4159600", Offset = "0x4159600", VA = "0x4159600", Slot = "4")]
+	[Address(RVA = "0x447E700", Offset = "0x447E700", VA = "0x447E700", Slot = "4")]
 	public override bool CheckResources()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000034")]
-	[Address(RVA = "0x41598E0", Offset = "0x41598E0", VA = "0x41598E0")]
+	[Address(RVA = "0x447E9E0", Offset = "0x447E9E0", VA = "0x447E9E0")]
 	public void UpdateParameters()
 	{
 	}
 
 	[Token(Token = "0x6000035")]
-	[Address(RVA = "0x4159CD0", Offset = "0x4159CD0", VA = "0x4159CD0")]
+	[Address(RVA = "0x447EDD0", Offset = "0x447EDD0", VA = "0x447EDD0")]
 	private void UpdateTextures()
 	{
 	}
 
 	[Token(Token = "0x6000036")]
-	[Address(RVA = "0x4159CE0", Offset = "0x4159CE0", VA = "0x4159CE0")]
+	[Address(RVA = "0x447EDE0", Offset = "0x447EDE0", VA = "0x447EDE0")]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x415A050", Offset = "0x415A050", VA = "0x415A050")]
+	[Address(RVA = "0x447F150", Offset = "0x447F150", VA = "0x447F150")]
 	public ColorCorrectionCurves()
 	{
 	}

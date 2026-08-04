@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -48,14 +55,14 @@ public sealed class ScreenSpaceReflections : PostProcessEffectSettings
 	public FloatParameter vignette;
 
 	[Token(Token = "0x6000080")]
-	[Address(RVA = "0x481EB90", Offset = "0x481EB90", VA = "0x481EB90", Slot = "4")]
+	[Address(RVA = "0x4B43C80", Offset = "0x4B43C80", VA = "0x4B43C80", Slot = "4")]
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000081")]
-	[Address(RVA = "0x481ECE0", Offset = "0x481ECE0", VA = "0x481ECE0")]
+	[Address(RVA = "0x4B43DD0", Offset = "0x4B43DD0", VA = "0x4B43DD0")]
 	public ScreenSpaceReflections()
 	{
 	}

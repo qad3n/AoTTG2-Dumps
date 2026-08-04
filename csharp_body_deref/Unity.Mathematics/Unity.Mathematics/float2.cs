@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.Mathematics.float2
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.ComponentModel;
 using System.Diagnostics;
@@ -9,12 +16,12 @@ using UnityEngine;
 namespace Unity.Mathematics;
 
 [Serializable]
-[Token(Token = "0x200002B")]
+[Token(Token = "0x2000028")]
 [DebuggerTypeProxy(typeof(DebuggerProxy))]
 [Unity.IL2CPP.CompilerServices.Il2CppEagerStaticClassConstruction]
 public struct float2 : IEquatable<float2>, IFormattable
 {
-	[Token(Token = "0x200002C")]
+	[Token(Token = "0x2000029")]
 	internal sealed class DebuggerProxy
 	{
 		[Token(Token = "0x400009D")]
@@ -25,8 +32,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 		[FieldOffset(Offset = "0x14")]
 		public float y;
 
-		[Token(Token = "0x60010A5")]
-		[Address(RVA = "0x47AC7D0", Offset = "0x47AC7D0", VA = "0x47AC7D0")]
+		[Token(Token = "0x600107D")]
+		[Address(RVA = "0x4AB0480", Offset = "0x4AB0480", VA = "0x4AB0480")]
 		public DebuggerProxy(float2 v)
 		{
 		}
@@ -49,8 +56,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float4 xxxx
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x600107E")]
-		[Address(RVA = "0x47AA310", Offset = "0x47AA310", VA = "0x47AA310")]
+		[Token(Token = "0x6001056")]
+		[Address(RVA = "0x4AB0020", Offset = "0x4AB0020", VA = "0x4AB0020")]
 		get
 		{
 			return default(float4);
@@ -62,8 +69,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float4 xxxy
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x600107F")]
-		[Address(RVA = "0x47AA320", Offset = "0x47AA320", VA = "0x47AA320")]
+		[Token(Token = "0x6001057")]
+		[Address(RVA = "0x4AB0030", Offset = "0x4AB0030", VA = "0x4AB0030")]
 		get
 		{
 			return default(float4);
@@ -75,8 +82,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float4 xxyx
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001080")]
-		[Address(RVA = "0x47AA330", Offset = "0x47AA330", VA = "0x47AA330")]
+		[Token(Token = "0x6001058")]
+		[Address(RVA = "0x4AB0040", Offset = "0x4AB0040", VA = "0x4AB0040")]
 		get
 		{
 			return default(float4);
@@ -88,8 +95,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float4 xxyy
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001081")]
-		[Address(RVA = "0x47AA350", Offset = "0x47AA350", VA = "0x47AA350")]
+		[Token(Token = "0x6001059")]
+		[Address(RVA = "0x4AB0060", Offset = "0x4AB0060", VA = "0x4AB0060")]
 		get
 		{
 			return default(float4);
@@ -101,8 +108,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float4 xyxx
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001082")]
-		[Address(RVA = "0x47AA370", Offset = "0x47AA370", VA = "0x47AA370")]
+		[Token(Token = "0x600105A")]
+		[Address(RVA = "0x4AB0080", Offset = "0x4AB0080", VA = "0x4AB0080")]
 		get
 		{
 			return default(float4);
@@ -114,8 +121,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float4 xyxy
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001083")]
-		[Address(RVA = "0x47AA380", Offset = "0x47AA380", VA = "0x47AA380")]
+		[Token(Token = "0x600105B")]
+		[Address(RVA = "0x4AB0090", Offset = "0x4AB0090", VA = "0x4AB0090")]
 		get
 		{
 			return default(float4);
@@ -127,8 +134,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float4 xyyx
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001084")]
-		[Address(RVA = "0x47AA390", Offset = "0x47AA390", VA = "0x47AA390")]
+		[Token(Token = "0x600105C")]
+		[Address(RVA = "0x4AB00A0", Offset = "0x4AB00A0", VA = "0x4AB00A0")]
 		get
 		{
 			return default(float4);
@@ -140,8 +147,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float4 xyyy
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001085")]
-		[Address(RVA = "0x47AA3A0", Offset = "0x47AA3A0", VA = "0x47AA3A0")]
+		[Token(Token = "0x600105D")]
+		[Address(RVA = "0x4AB00B0", Offset = "0x4AB00B0", VA = "0x4AB00B0")]
 		get
 		{
 			return default(float4);
@@ -153,8 +160,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float4 yxxx
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001086")]
-		[Address(RVA = "0x47AA3B0", Offset = "0x47AA3B0", VA = "0x47AA3B0")]
+		[Token(Token = "0x600105E")]
+		[Address(RVA = "0x4AB00C0", Offset = "0x4AB00C0", VA = "0x4AB00C0")]
 		get
 		{
 			return default(float4);
@@ -166,8 +173,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float4 yxxy
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001087")]
-		[Address(RVA = "0x47AA3D0", Offset = "0x47AA3D0", VA = "0x47AA3D0")]
+		[Token(Token = "0x600105F")]
+		[Address(RVA = "0x4AB00E0", Offset = "0x4AB00E0", VA = "0x4AB00E0")]
 		get
 		{
 			return default(float4);
@@ -179,8 +186,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float4 yxyx
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001088")]
-		[Address(RVA = "0x47AA3E0", Offset = "0x47AA3E0", VA = "0x47AA3E0")]
+		[Token(Token = "0x6001060")]
+		[Address(RVA = "0x4AB00F0", Offset = "0x4AB00F0", VA = "0x4AB00F0")]
 		get
 		{
 			return default(float4);
@@ -192,8 +199,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float4 yxyy
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001089")]
-		[Address(RVA = "0x47AA3F0", Offset = "0x47AA3F0", VA = "0x47AA3F0")]
+		[Token(Token = "0x6001061")]
+		[Address(RVA = "0x4AB0100", Offset = "0x4AB0100", VA = "0x4AB0100")]
 		get
 		{
 			return default(float4);
@@ -205,8 +212,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float4 yyxx
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x600108A")]
-		[Address(RVA = "0x47AA410", Offset = "0x47AA410", VA = "0x47AA410")]
+		[Token(Token = "0x6001062")]
+		[Address(RVA = "0x4AB0120", Offset = "0x4AB0120", VA = "0x4AB0120")]
 		get
 		{
 			return default(float4);
@@ -218,8 +225,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float4 yyxy
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x600108B")]
-		[Address(RVA = "0x47AA430", Offset = "0x47AA430", VA = "0x47AA430")]
+		[Token(Token = "0x6001063")]
+		[Address(RVA = "0x4AB0140", Offset = "0x4AB0140", VA = "0x4AB0140")]
 		get
 		{
 			return default(float4);
@@ -231,8 +238,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float4 yyyx
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x600108C")]
-		[Address(RVA = "0x47AA440", Offset = "0x47AA440", VA = "0x47AA440")]
+		[Token(Token = "0x6001064")]
+		[Address(RVA = "0x4AB0150", Offset = "0x4AB0150", VA = "0x4AB0150")]
 		get
 		{
 			return default(float4);
@@ -244,8 +251,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float4 yyyy
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x600108D")]
-		[Address(RVA = "0x47AA460", Offset = "0x47AA460", VA = "0x47AA460")]
+		[Token(Token = "0x6001065")]
+		[Address(RVA = "0x4AB0170", Offset = "0x4AB0170", VA = "0x4AB0170")]
 		get
 		{
 			return default(float4);
@@ -257,8 +264,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float3 xxx
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x600108E")]
-		[Address(RVA = "0x47AA470", Offset = "0x47AA470", VA = "0x47AA470")]
+		[Token(Token = "0x6001066")]
+		[Address(RVA = "0x4AB0180", Offset = "0x4AB0180", VA = "0x4AB0180")]
 		get
 		{
 			return default(float3);
@@ -270,8 +277,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float3 xxy
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x600108F")]
-		[Address(RVA = "0x47AA480", Offset = "0x47AA480", VA = "0x47AA480")]
+		[Token(Token = "0x6001067")]
+		[Address(RVA = "0x4AB0190", Offset = "0x4AB0190", VA = "0x4AB0190")]
 		get
 		{
 			return default(float3);
@@ -283,8 +290,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float3 xyx
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001090")]
-		[Address(RVA = "0x47AA490", Offset = "0x47AA490", VA = "0x47AA490")]
+		[Token(Token = "0x6001068")]
+		[Address(RVA = "0x4AB01A0", Offset = "0x4AB01A0", VA = "0x4AB01A0")]
 		get
 		{
 			return default(float3);
@@ -296,8 +303,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float3 xyy
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001091")]
-		[Address(RVA = "0x47AA4A0", Offset = "0x47AA4A0", VA = "0x47AA4A0")]
+		[Token(Token = "0x6001069")]
+		[Address(RVA = "0x4AB01B0", Offset = "0x4AB01B0", VA = "0x4AB01B0")]
 		get
 		{
 			return default(float3);
@@ -309,8 +316,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float3 yxx
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001092")]
-		[Address(RVA = "0x47AA4B0", Offset = "0x47AA4B0", VA = "0x47AA4B0")]
+		[Token(Token = "0x600106A")]
+		[Address(RVA = "0x4AB01C0", Offset = "0x4AB01C0", VA = "0x4AB01C0")]
 		get
 		{
 			return default(float3);
@@ -322,8 +329,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float3 yxy
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001093")]
-		[Address(RVA = "0x47AA4C0", Offset = "0x47AA4C0", VA = "0x47AA4C0")]
+		[Token(Token = "0x600106B")]
+		[Address(RVA = "0x4AB01D0", Offset = "0x4AB01D0", VA = "0x4AB01D0")]
 		get
 		{
 			return default(float3);
@@ -335,8 +342,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float3 yyx
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001094")]
-		[Address(RVA = "0x47AA4D0", Offset = "0x47AA4D0", VA = "0x47AA4D0")]
+		[Token(Token = "0x600106C")]
+		[Address(RVA = "0x4AB01E0", Offset = "0x4AB01E0", VA = "0x4AB01E0")]
 		get
 		{
 			return default(float3);
@@ -348,8 +355,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float3 yyy
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001095")]
-		[Address(RVA = "0x47AA4E0", Offset = "0x47AA4E0", VA = "0x47AA4E0")]
+		[Token(Token = "0x600106D")]
+		[Address(RVA = "0x4AB01F0", Offset = "0x4AB01F0", VA = "0x4AB01F0")]
 		get
 		{
 			return default(float3);
@@ -361,8 +368,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float2 xx
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001096")]
-		[Address(RVA = "0x47AA4F0", Offset = "0x47AA4F0", VA = "0x47AA4F0")]
+		[Token(Token = "0x600106E")]
+		[Address(RVA = "0x4AB0200", Offset = "0x4AB0200", VA = "0x4AB0200")]
 		get
 		{
 			return default(float2);
@@ -374,15 +381,15 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float2 xy
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001097")]
-		[Address(RVA = "0x47AA500", Offset = "0x47AA500", VA = "0x47AA500")]
+		[Token(Token = "0x600106F")]
+		[Address(RVA = "0x4AB0210", Offset = "0x4AB0210", VA = "0x4AB0210")]
 		get
 		{
 			return default(float2);
 		}
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001098")]
-		[Address(RVA = "0x47AA510", Offset = "0x47AA510", VA = "0x47AA510")]
+		[Token(Token = "0x6001070")]
+		[Address(RVA = "0x4AB0220", Offset = "0x4AB0220", VA = "0x4AB0220")]
 		set
 		{
 		}
@@ -393,15 +400,15 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float2 yx
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001099")]
-		[Address(RVA = "0x47AA520", Offset = "0x47AA520", VA = "0x47AA520")]
+		[Token(Token = "0x6001071")]
+		[Address(RVA = "0x4AB0230", Offset = "0x4AB0230", VA = "0x4AB0230")]
 		get
 		{
 			return default(float2);
 		}
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x600109A")]
-		[Address(RVA = "0x47AA530", Offset = "0x47AA530", VA = "0x47AA530")]
+		[Token(Token = "0x6001072")]
+		[Address(RVA = "0x4AB0240", Offset = "0x4AB0240", VA = "0x4AB0240")]
 		set
 		{
 		}
@@ -412,8 +419,8 @@ public struct float2 : IEquatable<float2>, IFormattable
 	public float2 yy
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x600109B")]
-		[Address(RVA = "0x47AA540", Offset = "0x47AA540", VA = "0x47AA540")]
+		[Token(Token = "0x6001073")]
+		[Address(RVA = "0x4AB0250", Offset = "0x4AB0250", VA = "0x4AB0250")]
 		get
 		{
 			return default(float2);
@@ -423,542 +430,542 @@ public struct float2 : IEquatable<float2>, IFormattable
 	[Token(Token = "0x170003F7")]
 	public float this[int index]
 	{
-		[Token(Token = "0x600109C")]
-		[Address(RVA = "0x47AA550", Offset = "0x47AA550", VA = "0x47AA550")]
+		[Token(Token = "0x6001074")]
+		[Address(RVA = "0x4AB0260", Offset = "0x4AB0260", VA = "0x4AB0260")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x600109D")]
-		[Address(RVA = "0x47AA560", Offset = "0x47AA560", VA = "0x47AA560")]
+		[Token(Token = "0x6001075")]
+		[Address(RVA = "0x4AB0270", Offset = "0x4AB0270", VA = "0x4AB0270")]
 		set
 		{
 		}
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001041")]
-	[Address(RVA = "0x47A9A20", Offset = "0x47A9A20", VA = "0x47A9A20")]
+	[Token(Token = "0x6001019")]
+	[Address(RVA = "0x4AAF730", Offset = "0x4AAF730", VA = "0x4AAF730")]
 	public float2(float x, float y)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001042")]
-	[Address(RVA = "0x47A9A30", Offset = "0x47A9A30", VA = "0x47A9A30")]
+	[Token(Token = "0x600101A")]
+	[Address(RVA = "0x4AAF740", Offset = "0x4AAF740", VA = "0x4AAF740")]
 	public float2(float2 xy)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001043")]
-	[Address(RVA = "0x47A9A40", Offset = "0x47A9A40", VA = "0x47A9A40")]
+	[Token(Token = "0x600101B")]
+	[Address(RVA = "0x4AAF750", Offset = "0x4AAF750", VA = "0x4AAF750")]
 	public float2(float v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001044")]
-	[Address(RVA = "0x47A9A50", Offset = "0x47A9A50", VA = "0x47A9A50")]
+	[Token(Token = "0x600101C")]
+	[Address(RVA = "0x4AAF760", Offset = "0x4AAF760", VA = "0x4AAF760")]
 	public float2(bool v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001045")]
-	[Address(RVA = "0x47A9A80", Offset = "0x47A9A80", VA = "0x47A9A80")]
+	[Token(Token = "0x600101D")]
+	[Address(RVA = "0x4AAF790", Offset = "0x4AAF790", VA = "0x4AAF790")]
 	public float2(bool2 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001046")]
-	[Address(RVA = "0x47A9AC0", Offset = "0x47A9AC0", VA = "0x47A9AC0")]
+	[Token(Token = "0x600101E")]
+	[Address(RVA = "0x4AAF7D0", Offset = "0x4AAF7D0", VA = "0x4AAF7D0")]
 	public float2(int v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001047")]
-	[Address(RVA = "0x47A9AD0", Offset = "0x47A9AD0", VA = "0x47A9AD0")]
+	[Token(Token = "0x600101F")]
+	[Address(RVA = "0x4AAF7E0", Offset = "0x4AAF7E0", VA = "0x4AAF7E0")]
 	public float2(int2 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001048")]
-	[Address(RVA = "0x47A9AF0", Offset = "0x47A9AF0", VA = "0x47A9AF0")]
+	[Token(Token = "0x6001020")]
+	[Address(RVA = "0x4AAF800", Offset = "0x4AAF800", VA = "0x4AAF800")]
 	public float2(uint v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001049")]
-	[Address(RVA = "0x47A9B10", Offset = "0x47A9B10", VA = "0x47A9B10")]
+	[Token(Token = "0x6001021")]
+	[Address(RVA = "0x4AAF820", Offset = "0x4AAF820", VA = "0x4AAF820")]
 	public float2(uint2 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600104A")]
-	[Address(RVA = "0x47A9B40", Offset = "0x47A9B40", VA = "0x47A9B40")]
+	[Token(Token = "0x6001022")]
+	[Address(RVA = "0x4AAF850", Offset = "0x4AAF850", VA = "0x4AAF850")]
 	public float2(half v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600104B")]
-	[Address(RVA = "0x47A9BA0", Offset = "0x47A9BA0", VA = "0x47A9BA0")]
+	[Token(Token = "0x6001023")]
+	[Address(RVA = "0x4AAF8B0", Offset = "0x4AAF8B0", VA = "0x4AAF8B0")]
 	public float2(half2 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600104C")]
-	[Address(RVA = "0x47A9C60", Offset = "0x47A9C60", VA = "0x47A9C60")]
+	[Token(Token = "0x6001024")]
+	[Address(RVA = "0x4AAF970", Offset = "0x4AAF970", VA = "0x4AAF970")]
 	public float2(double v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600104D")]
-	[Address(RVA = "0x47A9C70", Offset = "0x47A9C70", VA = "0x47A9C70")]
+	[Token(Token = "0x6001025")]
+	[Address(RVA = "0x4AAF980", Offset = "0x4AAF980", VA = "0x4AAF980")]
 	public float2(double2 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600104E")]
-	[Address(RVA = "0x47A9C90", Offset = "0x47A9C90", VA = "0x47A9C90")]
+	[Token(Token = "0x6001026")]
+	[Address(RVA = "0x4AAF9A0", Offset = "0x4AAF9A0", VA = "0x4AAF9A0")]
 	public static implicit operator float2(float v)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600104F")]
-	[Address(RVA = "0x47A9CA0", Offset = "0x47A9CA0", VA = "0x47A9CA0")]
+	[Token(Token = "0x6001027")]
+	[Address(RVA = "0x4AAF9B0", Offset = "0x4AAF9B0", VA = "0x4AAF9B0")]
 	public static explicit operator float2(bool v)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001050")]
-	[Address(RVA = "0x47A9CC0", Offset = "0x47A9CC0", VA = "0x47A9CC0")]
+	[Token(Token = "0x6001028")]
+	[Address(RVA = "0x4AAF9D0", Offset = "0x4AAF9D0", VA = "0x4AAF9D0")]
 	public static explicit operator float2(bool2 v)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001051")]
-	[Address(RVA = "0x47A9D00", Offset = "0x47A9D00", VA = "0x47A9D00")]
+	[Token(Token = "0x6001029")]
+	[Address(RVA = "0x4AAFA10", Offset = "0x4AAFA10", VA = "0x4AAFA10")]
 	public static implicit operator float2(int v)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001052")]
-	[Address(RVA = "0x47A9D10", Offset = "0x47A9D10", VA = "0x47A9D10")]
+	[Token(Token = "0x600102A")]
+	[Address(RVA = "0x4AAFA20", Offset = "0x4AAFA20", VA = "0x4AAFA20")]
 	public static implicit operator float2(int2 v)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001053")]
-	[Address(RVA = "0x47A9D20", Offset = "0x47A9D20", VA = "0x47A9D20")]
+	[Token(Token = "0x600102B")]
+	[Address(RVA = "0x4AAFA30", Offset = "0x4AAFA30", VA = "0x4AAFA30")]
 	public static implicit operator float2(uint v)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001054")]
-	[Address(RVA = "0x47A9D30", Offset = "0x47A9D30", VA = "0x47A9D30")]
+	[Token(Token = "0x600102C")]
+	[Address(RVA = "0x4AAFA40", Offset = "0x4AAFA40", VA = "0x4AAFA40")]
 	public static implicit operator float2(uint2 v)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001055")]
-	[Address(RVA = "0x47A9D50", Offset = "0x47A9D50", VA = "0x47A9D50")]
+	[Token(Token = "0x600102D")]
+	[Address(RVA = "0x4AAFA60", Offset = "0x4AAFA60", VA = "0x4AAFA60")]
 	public static implicit operator float2(half v)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001056")]
-	[Address(RVA = "0x47A9DC0", Offset = "0x47A9DC0", VA = "0x47A9DC0")]
+	[Token(Token = "0x600102E")]
+	[Address(RVA = "0x4AAFAD0", Offset = "0x4AAFAD0", VA = "0x4AAFAD0")]
 	public static implicit operator float2(half2 v)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001057")]
-	[Address(RVA = "0x47A9E80", Offset = "0x47A9E80", VA = "0x47A9E80")]
+	[Token(Token = "0x600102F")]
+	[Address(RVA = "0x4AAFB90", Offset = "0x4AAFB90", VA = "0x4AAFB90")]
 	public static explicit operator float2(double v)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001058")]
-	[Address(RVA = "0x47A9E90", Offset = "0x47A9E90", VA = "0x47A9E90")]
+	[Token(Token = "0x6001030")]
+	[Address(RVA = "0x4AAFBA0", Offset = "0x4AAFBA0", VA = "0x4AAFBA0")]
 	public static explicit operator float2(double2 v)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001059")]
-	[Address(RVA = "0x47A9EA0", Offset = "0x47A9EA0", VA = "0x47A9EA0")]
+	[Token(Token = "0x6001031")]
+	[Address(RVA = "0x4AAFBB0", Offset = "0x4AAFBB0", VA = "0x4AAFBB0")]
 	public static float2 operator *(float2 lhs, float2 rhs)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600105A")]
-	[Address(RVA = "0x47A9EB0", Offset = "0x47A9EB0", VA = "0x47A9EB0")]
+	[Token(Token = "0x6001032")]
+	[Address(RVA = "0x4AAFBC0", Offset = "0x4AAFBC0", VA = "0x4AAFBC0")]
 	public static float2 operator *(float2 lhs, float rhs)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600105B")]
-	[Address(RVA = "0x47A9EC0", Offset = "0x47A9EC0", VA = "0x47A9EC0")]
+	[Token(Token = "0x6001033")]
+	[Address(RVA = "0x4AAFBD0", Offset = "0x4AAFBD0", VA = "0x4AAFBD0")]
 	public static float2 operator *(float lhs, float2 rhs)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600105C")]
-	[Address(RVA = "0x47A9ED0", Offset = "0x47A9ED0", VA = "0x47A9ED0")]
+	[Token(Token = "0x6001034")]
+	[Address(RVA = "0x4AAFBE0", Offset = "0x4AAFBE0", VA = "0x4AAFBE0")]
 	public static float2 operator +(float2 lhs, float2 rhs)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600105D")]
-	[Address(RVA = "0x47A9EE0", Offset = "0x47A9EE0", VA = "0x47A9EE0")]
+	[Token(Token = "0x6001035")]
+	[Address(RVA = "0x4AAFBF0", Offset = "0x4AAFBF0", VA = "0x4AAFBF0")]
 	public static float2 operator +(float2 lhs, float rhs)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600105E")]
-	[Address(RVA = "0x47A9EF0", Offset = "0x47A9EF0", VA = "0x47A9EF0")]
+	[Token(Token = "0x6001036")]
+	[Address(RVA = "0x4AAFC00", Offset = "0x4AAFC00", VA = "0x4AAFC00")]
 	public static float2 operator +(float lhs, float2 rhs)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600105F")]
-	[Address(RVA = "0x47A9F00", Offset = "0x47A9F00", VA = "0x47A9F00")]
+	[Token(Token = "0x6001037")]
+	[Address(RVA = "0x4AAFC10", Offset = "0x4AAFC10", VA = "0x4AAFC10")]
 	public static float2 operator -(float2 lhs, float2 rhs)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001060")]
-	[Address(RVA = "0x47A9F10", Offset = "0x47A9F10", VA = "0x47A9F10")]
+	[Token(Token = "0x6001038")]
+	[Address(RVA = "0x4AAFC20", Offset = "0x4AAFC20", VA = "0x4AAFC20")]
 	public static float2 operator -(float2 lhs, float rhs)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001061")]
-	[Address(RVA = "0x47A9F20", Offset = "0x47A9F20", VA = "0x47A9F20")]
+	[Token(Token = "0x6001039")]
+	[Address(RVA = "0x4AAFC30", Offset = "0x4AAFC30", VA = "0x4AAFC30")]
 	public static float2 operator -(float lhs, float2 rhs)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001062")]
-	[Address(RVA = "0x47A9F30", Offset = "0x47A9F30", VA = "0x47A9F30")]
+	[Token(Token = "0x600103A")]
+	[Address(RVA = "0x4AAFC40", Offset = "0x4AAFC40", VA = "0x4AAFC40")]
 	public static float2 operator /(float2 lhs, float2 rhs)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001063")]
-	[Address(RVA = "0x47A9F40", Offset = "0x47A9F40", VA = "0x47A9F40")]
+	[Token(Token = "0x600103B")]
+	[Address(RVA = "0x4AAFC50", Offset = "0x4AAFC50", VA = "0x4AAFC50")]
 	public static float2 operator /(float2 lhs, float rhs)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001064")]
-	[Address(RVA = "0x47A9F50", Offset = "0x47A9F50", VA = "0x47A9F50")]
+	[Token(Token = "0x600103C")]
+	[Address(RVA = "0x4AAFC60", Offset = "0x4AAFC60", VA = "0x4AAFC60")]
 	public static float2 operator /(float lhs, float2 rhs)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001065")]
-	[Address(RVA = "0x47A9F60", Offset = "0x47A9F60", VA = "0x47A9F60")]
+	[Token(Token = "0x600103D")]
+	[Address(RVA = "0x4AAFC70", Offset = "0x4AAFC70", VA = "0x4AAFC70")]
 	public static float2 operator %(float2 lhs, float2 rhs)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001066")]
-	[Address(RVA = "0x47A9FB0", Offset = "0x47A9FB0", VA = "0x47A9FB0")]
+	[Token(Token = "0x600103E")]
+	[Address(RVA = "0x4AAFCC0", Offset = "0x4AAFCC0", VA = "0x4AAFCC0")]
 	public static float2 operator %(float2 lhs, float rhs)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001067")]
-	[Address(RVA = "0x47A9FF0", Offset = "0x47A9FF0", VA = "0x47A9FF0")]
+	[Token(Token = "0x600103F")]
+	[Address(RVA = "0x4AAFD00", Offset = "0x4AAFD00", VA = "0x4AAFD00")]
 	public static float2 operator %(float lhs, float2 rhs)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001068")]
-	[Address(RVA = "0x47AA030", Offset = "0x47AA030", VA = "0x47AA030")]
+	[Token(Token = "0x6001040")]
+	[Address(RVA = "0x4AAFD40", Offset = "0x4AAFD40", VA = "0x4AAFD40")]
 	public static float2 operator ++(float2 val)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001069")]
-	[Address(RVA = "0x47AA040", Offset = "0x47AA040", VA = "0x47AA040")]
+	[Token(Token = "0x6001041")]
+	[Address(RVA = "0x4AAFD50", Offset = "0x4AAFD50", VA = "0x4AAFD50")]
 	public static float2 operator --(float2 val)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600106A")]
-	[Address(RVA = "0x47AA050", Offset = "0x47AA050", VA = "0x47AA050")]
+	[Token(Token = "0x6001042")]
+	[Address(RVA = "0x4AAFD60", Offset = "0x4AAFD60", VA = "0x4AAFD60")]
 	public static bool2 operator <(float2 lhs, float2 rhs)
 	{
 		return default(bool2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600106B")]
-	[Address(RVA = "0x47AA070", Offset = "0x47AA070", VA = "0x47AA070")]
+	[Token(Token = "0x6001043")]
+	[Address(RVA = "0x4AAFD80", Offset = "0x4AAFD80", VA = "0x4AAFD80")]
 	public static bool2 operator <(float2 lhs, float rhs)
 	{
 		return default(bool2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600106C")]
-	[Address(RVA = "0x47AA090", Offset = "0x47AA090", VA = "0x47AA090")]
+	[Token(Token = "0x6001044")]
+	[Address(RVA = "0x4AAFDA0", Offset = "0x4AAFDA0", VA = "0x4AAFDA0")]
 	public static bool2 operator <(float lhs, float2 rhs)
 	{
 		return default(bool2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600106D")]
-	[Address(RVA = "0x47AA0B0", Offset = "0x47AA0B0", VA = "0x47AA0B0")]
+	[Token(Token = "0x6001045")]
+	[Address(RVA = "0x4AAFDC0", Offset = "0x4AAFDC0", VA = "0x4AAFDC0")]
 	public static bool2 operator <=(float2 lhs, float2 rhs)
 	{
 		return default(bool2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600106E")]
-	[Address(RVA = "0x47AA0D0", Offset = "0x47AA0D0", VA = "0x47AA0D0")]
+	[Token(Token = "0x6001046")]
+	[Address(RVA = "0x4AAFDE0", Offset = "0x4AAFDE0", VA = "0x4AAFDE0")]
 	public static bool2 operator <=(float2 lhs, float rhs)
 	{
 		return default(bool2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600106F")]
-	[Address(RVA = "0x47AA0F0", Offset = "0x47AA0F0", VA = "0x47AA0F0")]
+	[Token(Token = "0x6001047")]
+	[Address(RVA = "0x4AAFE00", Offset = "0x4AAFE00", VA = "0x4AAFE00")]
 	public static bool2 operator <=(float lhs, float2 rhs)
 	{
 		return default(bool2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001070")]
-	[Address(RVA = "0x47AA110", Offset = "0x47AA110", VA = "0x47AA110")]
+	[Token(Token = "0x6001048")]
+	[Address(RVA = "0x4AAFE20", Offset = "0x4AAFE20", VA = "0x4AAFE20")]
 	public static bool2 operator >(float2 lhs, float2 rhs)
 	{
 		return default(bool2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001071")]
-	[Address(RVA = "0x47AA130", Offset = "0x47AA130", VA = "0x47AA130")]
+	[Token(Token = "0x6001049")]
+	[Address(RVA = "0x4AAFE40", Offset = "0x4AAFE40", VA = "0x4AAFE40")]
 	public static bool2 operator >(float2 lhs, float rhs)
 	{
 		return default(bool2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001072")]
-	[Address(RVA = "0x47AA150", Offset = "0x47AA150", VA = "0x47AA150")]
+	[Token(Token = "0x600104A")]
+	[Address(RVA = "0x4AAFE60", Offset = "0x4AAFE60", VA = "0x4AAFE60")]
 	public static bool2 operator >(float lhs, float2 rhs)
 	{
 		return default(bool2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001073")]
-	[Address(RVA = "0x47AA170", Offset = "0x47AA170", VA = "0x47AA170")]
+	[Token(Token = "0x600104B")]
+	[Address(RVA = "0x4AAFE80", Offset = "0x4AAFE80", VA = "0x4AAFE80")]
 	public static bool2 operator >=(float2 lhs, float2 rhs)
 	{
 		return default(bool2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001074")]
-	[Address(RVA = "0x47AA190", Offset = "0x47AA190", VA = "0x47AA190")]
+	[Token(Token = "0x600104C")]
+	[Address(RVA = "0x4AAFEA0", Offset = "0x4AAFEA0", VA = "0x4AAFEA0")]
 	public static bool2 operator >=(float2 lhs, float rhs)
 	{
 		return default(bool2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001075")]
-	[Address(RVA = "0x47AA1B0", Offset = "0x47AA1B0", VA = "0x47AA1B0")]
+	[Token(Token = "0x600104D")]
+	[Address(RVA = "0x4AAFEC0", Offset = "0x4AAFEC0", VA = "0x4AAFEC0")]
 	public static bool2 operator >=(float lhs, float2 rhs)
 	{
 		return default(bool2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001076")]
-	[Address(RVA = "0x47AA1D0", Offset = "0x47AA1D0", VA = "0x47AA1D0")]
+	[Token(Token = "0x600104E")]
+	[Address(RVA = "0x4AAFEE0", Offset = "0x4AAFEE0", VA = "0x4AAFEE0")]
 	public static float2 operator -(float2 val)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001077")]
-	[Address(RVA = "0x47AA1E0", Offset = "0x47AA1E0", VA = "0x47AA1E0")]
+	[Token(Token = "0x600104F")]
+	[Address(RVA = "0x4AAFEF0", Offset = "0x4AAFEF0", VA = "0x4AAFEF0")]
 	public static float2 operator +(float2 val)
 	{
 		return default(float2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001078")]
-	[Address(RVA = "0x47AA1F0", Offset = "0x47AA1F0", VA = "0x47AA1F0")]
+	[Token(Token = "0x6001050")]
+	[Address(RVA = "0x4AAFF00", Offset = "0x4AAFF00", VA = "0x4AAFF00")]
 	public static bool2 operator ==(float2 lhs, float2 rhs)
 	{
 		return default(bool2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001079")]
-	[Address(RVA = "0x47AA220", Offset = "0x47AA220", VA = "0x47AA220")]
+	[Token(Token = "0x6001051")]
+	[Address(RVA = "0x4AAFF30", Offset = "0x4AAFF30", VA = "0x4AAFF30")]
 	public static bool2 operator ==(float2 lhs, float rhs)
 	{
 		return default(bool2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600107A")]
-	[Address(RVA = "0x47AA250", Offset = "0x47AA250", VA = "0x47AA250")]
+	[Token(Token = "0x6001052")]
+	[Address(RVA = "0x4AAFF60", Offset = "0x4AAFF60", VA = "0x4AAFF60")]
 	public static bool2 operator ==(float lhs, float2 rhs)
 	{
 		return default(bool2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600107B")]
-	[Address(RVA = "0x47AA280", Offset = "0x47AA280", VA = "0x47AA280")]
+	[Token(Token = "0x6001053")]
+	[Address(RVA = "0x4AAFF90", Offset = "0x4AAFF90", VA = "0x4AAFF90")]
 	public static bool2 operator !=(float2 lhs, float2 rhs)
 	{
 		return default(bool2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600107C")]
-	[Address(RVA = "0x47AA2B0", Offset = "0x47AA2B0", VA = "0x47AA2B0")]
+	[Token(Token = "0x6001054")]
+	[Address(RVA = "0x4AAFFC0", Offset = "0x4AAFFC0", VA = "0x4AAFFC0")]
 	public static bool2 operator !=(float2 lhs, float rhs)
 	{
 		return default(bool2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600107D")]
-	[Address(RVA = "0x47AA2E0", Offset = "0x47AA2E0", VA = "0x47AA2E0")]
+	[Token(Token = "0x6001055")]
+	[Address(RVA = "0x4AAFFF0", Offset = "0x4AAFFF0", VA = "0x4AAFFF0")]
 	public static bool2 operator !=(float lhs, float2 rhs)
 	{
 		return default(bool2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600109E")]
-	[Address(RVA = "0x47AA570", Offset = "0x47AA570", VA = "0x47AA570", Slot = "4")]
+	[Token(Token = "0x6001076")]
+	[Address(RVA = "0x4AB0280", Offset = "0x4AB0280", VA = "0x4AB0280", Slot = "4")]
 	public bool Equals(float2 rhs)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600109F")]
-	[Address(RVA = "0x47AA590", Offset = "0x47AA590", VA = "0x47AA590", Slot = "0")]
+	[Token(Token = "0x6001077")]
+	[Address(RVA = "0x4AB02A0", Offset = "0x4AB02A0", VA = "0x4AB02A0", Slot = "0")]
 	public override bool Equals(object o)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60010A0")]
-	[Address(RVA = "0x47AA610", Offset = "0x47AA610", VA = "0x47AA610", Slot = "2")]
+	[Token(Token = "0x6001078")]
+	[Address(RVA = "0x4AB0320", Offset = "0x4AB0320", VA = "0x4AB0320", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60010A1")]
-	[Address(RVA = "0x47AA650", Offset = "0x47AA650", VA = "0x47AA650", Slot = "3")]
+	[Token(Token = "0x6001079")]
+	[Address(RVA = "0x4AB0360", Offset = "0x4AB0360", VA = "0x4AB0360", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60010A2")]
-	[Address(RVA = "0x47AA6D0", Offset = "0x47AA6D0", VA = "0x47AA6D0", Slot = "5")]
+	[Token(Token = "0x600107A")]
+	[Address(RVA = "0x4AB03E0", Offset = "0x4AB03E0", VA = "0x4AB03E0", Slot = "5")]
 	public string ToString(string format, IFormatProvider formatProvider)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60010A3")]
-	[Address(RVA = "0x47AA750", Offset = "0x47AA750", VA = "0x47AA750")]
+	[Token(Token = "0x600107B")]
+	[Address(RVA = "0x4AB0460", Offset = "0x4AB0460", VA = "0x4AB0460")]
 	public static implicit operator Vector2(float2 v)
 	{
 		return default(Vector2);
 	}
 
-	[Token(Token = "0x60010A4")]
-	[Address(RVA = "0x47AA760", Offset = "0x47AA760", VA = "0x47AA760")]
+	[Token(Token = "0x600107C")]
+	[Address(RVA = "0x4AB0470", Offset = "0x4AB0470", VA = "0x4AB0470")]
 	public static implicit operator float2(Vector2 v)
 	{
 		return default(float2);

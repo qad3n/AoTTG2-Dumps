@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ConsoleKeyInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System;
@@ -22,7 +29,7 @@ public readonly struct ConsoleKeyInfo
 	public char KeyChar
 	{
 		[Token(Token = "0x6000C41")]
-		[Address(RVA = "0x4FF65F0", Offset = "0x4FF65F0", VA = "0x4FF65F0")]
+		[Address(RVA = "0x3CDC110", Offset = "0x3CDC110", VA = "0x3CDC110")]
 		get
 		{
 			return default(char);
@@ -33,7 +40,7 @@ public readonly struct ConsoleKeyInfo
 	public ConsoleKey Key
 	{
 		[Token(Token = "0x6000C42")]
-		[Address(RVA = "0x4FF6600", Offset = "0x4FF6600", VA = "0x4FF6600")]
+		[Address(RVA = "0x3CDC120", Offset = "0x3CDC120", VA = "0x3CDC120")]
 		get
 		{
 			return default(ConsoleKey);
@@ -41,27 +48,27 @@ public readonly struct ConsoleKeyInfo
 	}
 
 	[Token(Token = "0x6000C40")]
-	[Address(RVA = "0x4FF6560", Offset = "0x4FF6560", VA = "0x4FF6560")]
+	[Address(RVA = "0x3CDC080", Offset = "0x3CDC080", VA = "0x3CDC080")]
 	public ConsoleKeyInfo(char keyChar, ConsoleKey key, bool shift, bool alt, bool control)
 	{
 	}
 
 	[Token(Token = "0x6000C43")]
-	[Address(RVA = "0x4FF6610", Offset = "0x4FF6610", VA = "0x4FF6610", Slot = "0")]
+	[Address(RVA = "0x3CDC130", Offset = "0x3CDC130", VA = "0x3CDC130", Slot = "0")]
 	public override bool Equals(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C44")]
-	[Address(RVA = "0x4FF6690", Offset = "0x4FF6690", VA = "0x4FF6690")]
+	[Address(RVA = "0x3CDC1B0", Offset = "0x3CDC1B0", VA = "0x3CDC1B0")]
 	public bool Equals(ConsoleKeyInfo obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C45")]
-	[Address(RVA = "0x4FF66B0", Offset = "0x4FF66B0", VA = "0x4FF66B0", Slot = "2")]
+	[Address(RVA = "0x3CDC1D0", Offset = "0x3CDC1D0", VA = "0x3CDC1D0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

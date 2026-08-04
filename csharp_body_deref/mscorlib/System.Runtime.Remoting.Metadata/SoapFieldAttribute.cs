@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.Metadata.SoapFieldAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -20,7 +27,7 @@ public sealed class SoapFieldAttribute : SoapAttribute
 	public string XmlElementName
 	{
 		[Token(Token = "0x6001DD1")]
-		[Address(RVA = "0x4E9E780", Offset = "0x4E9E780", VA = "0x4E9E780")]
+		[Address(RVA = "0x3B842A0", Offset = "0x3B842A0", VA = "0x3B842A0")]
 		get
 		{
 			return null;
@@ -28,20 +35,20 @@ public sealed class SoapFieldAttribute : SoapAttribute
 	}
 
 	[Token(Token = "0x6001DD0")]
-	[Address(RVA = "0x4E9E770", Offset = "0x4E9E770", VA = "0x4E9E770")]
+	[Address(RVA = "0x3B84290", Offset = "0x3B84290", VA = "0x3B84290")]
 	public SoapFieldAttribute()
 	{
 	}
 
 	[Token(Token = "0x6001DD2")]
-	[Address(RVA = "0x4E9E790", Offset = "0x4E9E790", VA = "0x4E9E790")]
+	[Address(RVA = "0x3B842B0", Offset = "0x3B842B0", VA = "0x3B842B0")]
 	public bool IsInteropXmlElement()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001DD3")]
-	[Address(RVA = "0x4E9E7A0", Offset = "0x4E9E7A0", VA = "0x4E9E7A0", Slot = "9")]
+	[Address(RVA = "0x3B842C0", Offset = "0x3B842C0", VA = "0x3B842C0", Slot = "9")]
 	internal override void SetReflectionObject(object reflectionObject)
 	{
 	}

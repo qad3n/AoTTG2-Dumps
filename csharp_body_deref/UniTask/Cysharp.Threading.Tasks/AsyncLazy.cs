@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.AsyncLazy
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -34,7 +41,7 @@ public class AsyncLazy
 	public UniTask Task
 	{
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x46AC540", Offset = "0x46AC540", VA = "0x46AC540")]
+		[Address(RVA = "0x49D1640", Offset = "0x49D1640", VA = "0x49D1640")]
 		get
 		{
 			return default(UniTask);
@@ -42,44 +49,44 @@ public class AsyncLazy
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x46AC030", Offset = "0x46AC030", VA = "0x46AC030")]
+	[Address(RVA = "0x49D1130", Offset = "0x49D1130", VA = "0x49D1130")]
 	public AsyncLazy(Func<UniTask> taskFactory)
 	{
 	}
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x46AC0F0", Offset = "0x46AC0F0", VA = "0x46AC0F0")]
+	[Address(RVA = "0x49D11F0", Offset = "0x49D11F0", VA = "0x49D11F0")]
 	internal AsyncLazy(UniTask task)
 	{
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x46AC610", Offset = "0x46AC610", VA = "0x46AC610")]
+	[Address(RVA = "0x49D1710", Offset = "0x49D1710", VA = "0x49D1710")]
 	public UniTask.Awaiter GetAwaiter()
 	{
 		return default(UniTask.Awaiter);
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x46AC5A0", Offset = "0x46AC5A0", VA = "0x46AC5A0")]
+	[Address(RVA = "0x49D16A0", Offset = "0x49D16A0", VA = "0x49D16A0")]
 	private void EnsureInitialized()
 	{
 	}
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x46AC6F0", Offset = "0x46AC6F0", VA = "0x46AC6F0")]
+	[Address(RVA = "0x49D17F0", Offset = "0x49D17F0", VA = "0x49D17F0")]
 	private void EnsureInitializedCore()
 	{
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x46AC3C0", Offset = "0x46AC3C0", VA = "0x46AC3C0")]
+	[Address(RVA = "0x49D14C0", Offset = "0x49D14C0", VA = "0x49D14C0")]
 	private void SetCompletionSource(in UniTask.Awaiter awaiter)
 	{
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x46ACBD0", Offset = "0x46ACBD0", VA = "0x46ACBD0")]
+	[Address(RVA = "0x49D1CD0", Offset = "0x49D1CD0", VA = "0x49D1CD0")]
 	private static void SetCompletionSource(object state)
 	{
 	}

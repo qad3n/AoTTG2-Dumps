@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Experimental.Rendering.RenderGraphModule.RenderGraph
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -31,7 +38,7 @@ public class RenderGraph
 		public bool imported;
 
 		[Token(Token = "0x60003C4")]
-		[Address(RVA = "0x4861850", Offset = "0x4861850", VA = "0x4861850")]
+		[Address(RVA = "0x4B86940", Offset = "0x4B86940", VA = "0x4B86940")]
 		public void Reset()
 		{
 		}
@@ -93,7 +100,7 @@ public class RenderGraph
 		public bool allowPassCulling
 		{
 			[Token(Token = "0x60003C5")]
-			[Address(RVA = "0x4861960", Offset = "0x4861960", VA = "0x4861960")]
+			[Address(RVA = "0x4B86A50", Offset = "0x4B86A50", VA = "0x4B86A50")]
 			get
 			{
 				return default(bool);
@@ -101,7 +108,7 @@ public class RenderGraph
 		}
 
 		[Token(Token = "0x60003C6")]
-		[Address(RVA = "0x4861980", Offset = "0x4861980", VA = "0x4861980")]
+		[Address(RVA = "0x4B86A70", Offset = "0x4B86A70", VA = "0x4B86A70")]
 		public void Reset(RenderGraphPass pass)
 		{
 		}
@@ -119,7 +126,7 @@ public class RenderGraph
 		public TextureHandle to;
 
 		[Token(Token = "0x60003C7")]
-		[Address(RVA = "0x4861CC0", Offset = "0x4861CC0", VA = "0x4861CC0")]
+		[Address(RVA = "0x4B86DB0", Offset = "0x4B86DB0", VA = "0x4B86DB0")]
 		public MovePassData()
 		{
 		}
@@ -133,7 +140,7 @@ public class RenderGraph
 		public ProfilingSampler sampler;
 
 		[Token(Token = "0x60003C8")]
-		[Address(RVA = "0x4861CD0", Offset = "0x4861CD0", VA = "0x4861CD0")]
+		[Address(RVA = "0x4B86DC0", Offset = "0x4B86DC0", VA = "0x4B86DC0")]
 		public ProfilingScopePassData()
 		{
 		}
@@ -249,14 +256,14 @@ public class RenderGraph
 	public string name
 	{
 		[Token(Token = "0x6000364")]
-		[Address(RVA = "0x48570A0", Offset = "0x48570A0", VA = "0x48570A0")]
+		[Address(RVA = "0x4B7C190", Offset = "0x4B7C190", VA = "0x4B7C190")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000365")]
-		[Address(RVA = "0x48570B0", Offset = "0x48570B0", VA = "0x48570B0")]
+		[Address(RVA = "0x4B7C1A0", Offset = "0x4B7C1A0", VA = "0x4B7C1A0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -267,14 +274,14 @@ public class RenderGraph
 	internal static bool requireDebugData
 	{
 		[Token(Token = "0x6000366")]
-		[Address(RVA = "0x48570D0", Offset = "0x48570D0", VA = "0x48570D0")]
+		[Address(RVA = "0x4B7C1C0", Offset = "0x4B7C1C0", VA = "0x4B7C1C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000367")]
-		[Address(RVA = "0x4857140", Offset = "0x4857140", VA = "0x4857140")]
+		[Address(RVA = "0x4B7C230", Offset = "0x4B7C230", VA = "0x4B7C230")]
 		[CompilerGenerated]
 		set
 		{
@@ -285,7 +292,7 @@ public class RenderGraph
 	public RenderGraphDefaultResources defaultResources
 	{
 		[Token(Token = "0x6000368")]
-		[Address(RVA = "0x4857190", Offset = "0x4857190", VA = "0x4857190")]
+		[Address(RVA = "0x4B7C280", Offset = "0x4B7C280", VA = "0x4B7C280")]
 		get
 		{
 			return null;
@@ -296,13 +303,13 @@ public class RenderGraph
 	internal static event OnGraphRegisteredDelegate onGraphRegistered
 	{
 		[Token(Token = "0x6000396")]
-		[Address(RVA = "0x4859630", Offset = "0x4859630", VA = "0x4859630")]
+		[Address(RVA = "0x4B7E720", Offset = "0x4B7E720", VA = "0x4B7E720")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000397")]
-		[Address(RVA = "0x4859710", Offset = "0x4859710", VA = "0x4859710")]
+		[Address(RVA = "0x4B7E800", Offset = "0x4B7E800", VA = "0x4B7E800")]
 		[CompilerGenerated]
 		remove
 		{
@@ -313,13 +320,13 @@ public class RenderGraph
 	internal static event OnGraphRegisteredDelegate onGraphUnregistered
 	{
 		[Token(Token = "0x6000398")]
-		[Address(RVA = "0x48597F0", Offset = "0x48597F0", VA = "0x48597F0")]
+		[Address(RVA = "0x4B7E8E0", Offset = "0x4B7E8E0", VA = "0x4B7E8E0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000399")]
-		[Address(RVA = "0x48598D0", Offset = "0x48598D0", VA = "0x48598D0")]
+		[Address(RVA = "0x4B7E9C0", Offset = "0x4B7E9C0", VA = "0x4B7E9C0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -330,13 +337,13 @@ public class RenderGraph
 	internal static event OnExecutionRegisteredDelegate onExecutionRegistered
 	{
 		[Token(Token = "0x600039A")]
-		[Address(RVA = "0x48599B0", Offset = "0x48599B0", VA = "0x48599B0")]
+		[Address(RVA = "0x4B7EAA0", Offset = "0x4B7EAA0", VA = "0x4B7EAA0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600039B")]
-		[Address(RVA = "0x4859A90", Offset = "0x4859A90", VA = "0x4859A90")]
+		[Address(RVA = "0x4B7EB80", Offset = "0x4B7EB80", VA = "0x4B7EB80")]
 		[CompilerGenerated]
 		remove
 		{
@@ -347,13 +354,13 @@ public class RenderGraph
 	internal static event OnExecutionRegisteredDelegate onExecutionUnregistered
 	{
 		[Token(Token = "0x600039C")]
-		[Address(RVA = "0x4859B70", Offset = "0x4859B70", VA = "0x4859B70")]
+		[Address(RVA = "0x4B7EC60", Offset = "0x4B7EC60", VA = "0x4B7EC60")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600039D")]
-		[Address(RVA = "0x4859C50", Offset = "0x4859C50", VA = "0x4859C50")]
+		[Address(RVA = "0x4B7ED40", Offset = "0x4B7ED40", VA = "0x4B7ED40")]
 		[CompilerGenerated]
 		remove
 		{
@@ -361,194 +368,194 @@ public class RenderGraph
 	}
 
 	[Token(Token = "0x6000369")]
-	[Address(RVA = "0x48571A0", Offset = "0x48571A0", VA = "0x48571A0")]
+	[Address(RVA = "0x4B7C290", Offset = "0x4B7C290", VA = "0x4B7C290")]
 	public RenderGraph(string name = "RenderGraph")
 	{
 	}
 
 	[Token(Token = "0x600036A")]
-	[Address(RVA = "0x4857800", Offset = "0x4857800", VA = "0x4857800")]
+	[Address(RVA = "0x4B7C8F0", Offset = "0x4B7C8F0", VA = "0x4B7C8F0")]
 	public void Cleanup()
 	{
 	}
 
 	[Token(Token = "0x600036B")]
-	[Address(RVA = "0x48578E0", Offset = "0x48578E0", VA = "0x48578E0")]
+	[Address(RVA = "0x4B7C9D0", Offset = "0x4B7C9D0", VA = "0x4B7C9D0")]
 	public void RegisterDebug([Optional] DebugUI.Panel panel)
 	{
 	}
 
 	[Token(Token = "0x600036C")]
-	[Address(RVA = "0x4857910", Offset = "0x4857910", VA = "0x4857910")]
+	[Address(RVA = "0x4B7CA00", Offset = "0x4B7CA00", VA = "0x4B7CA00")]
 	public void UnRegisterDebug()
 	{
 	}
 
 	[Token(Token = "0x600036D")]
-	[Address(RVA = "0x48579A0", Offset = "0x48579A0", VA = "0x48579A0")]
+	[Address(RVA = "0x4B7CA90", Offset = "0x4B7CA90", VA = "0x4B7CA90")]
 	public static List<RenderGraph> GetRegisteredRenderGraphs()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600036E")]
-	[Address(RVA = "0x4857A10", Offset = "0x4857A10", VA = "0x4857A10")]
+	[Address(RVA = "0x4B7CB00", Offset = "0x4B7CB00", VA = "0x4B7CB00")]
 	internal RenderGraphDebugData GetDebugData(string executionName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600036F")]
-	[Address(RVA = "0x4857A80", Offset = "0x4857A80", VA = "0x4857A80")]
+	[Address(RVA = "0x4B7CB70", Offset = "0x4B7CB70", VA = "0x4B7CB70")]
 	public void EndFrame()
 	{
 	}
 
 	[Token(Token = "0x6000370")]
-	[Address(RVA = "0x4857B40", Offset = "0x4857B40", VA = "0x4857B40")]
+	[Address(RVA = "0x4B7CC30", Offset = "0x4B7CC30", VA = "0x4B7CC30")]
 	public TextureHandle ImportTexture(RTHandle rt)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x6000371")]
-	[Address(RVA = "0x4857B60", Offset = "0x4857B60", VA = "0x4857B60")]
+	[Address(RVA = "0x4B7CC50", Offset = "0x4B7CC50", VA = "0x4B7CC50")]
 	internal TextureHandle ImportTexture(RTHandle rt, bool isBuiltin = false)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x6000372")]
-	[Address(RVA = "0x4857B80", Offset = "0x4857B80", VA = "0x4857B80")]
+	[Address(RVA = "0x4B7CC70", Offset = "0x4B7CC70", VA = "0x4B7CC70")]
 	public TextureHandle ImportBackbuffer(RenderTargetIdentifier rt)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x6000373")]
-	[Address(RVA = "0x4857BE0", Offset = "0x4857BE0", VA = "0x4857BE0")]
+	[Address(RVA = "0x4B7CCD0", Offset = "0x4B7CCD0", VA = "0x4B7CCD0")]
 	public TextureHandle CreateTexture(in TextureDesc desc)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x6000374")]
-	[Address(RVA = "0x4857C00", Offset = "0x4857C00", VA = "0x4857C00")]
+	[Address(RVA = "0x4B7CCF0", Offset = "0x4B7CCF0", VA = "0x4B7CCF0")]
 	public TextureHandle CreateSharedTexture(in TextureDesc desc, bool explicitRelease = false)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x6000375")]
-	[Address(RVA = "0x4857C70", Offset = "0x4857C70", VA = "0x4857C70")]
+	[Address(RVA = "0x4B7CD60", Offset = "0x4B7CD60", VA = "0x4B7CD60")]
 	public void RefreshSharedTextureDesc(TextureHandle handle, in TextureDesc desc)
 	{
 	}
 
 	[Token(Token = "0x6000376")]
-	[Address(RVA = "0x4857C90", Offset = "0x4857C90", VA = "0x4857C90")]
+	[Address(RVA = "0x4B7CD80", Offset = "0x4B7CD80", VA = "0x4B7CD80")]
 	public void ReleaseSharedTexture(TextureHandle texture)
 	{
 	}
 
 	[Token(Token = "0x6000377")]
-	[Address(RVA = "0x4857D00", Offset = "0x4857D00", VA = "0x4857D00")]
+	[Address(RVA = "0x4B7CDF0", Offset = "0x4B7CDF0", VA = "0x4B7CDF0")]
 	public TextureHandle CreateTexture(TextureHandle texture)
 	{
 		return default(TextureHandle);
 	}
 
 	[Token(Token = "0x6000378")]
-	[Address(RVA = "0x4857E00", Offset = "0x4857E00", VA = "0x4857E00")]
+	[Address(RVA = "0x4B7CEF0", Offset = "0x4B7CEF0", VA = "0x4B7CEF0")]
 	public void CreateTextureIfInvalid(in TextureDesc desc, ref TextureHandle texture)
 	{
 	}
 
 	[Token(Token = "0x6000379")]
-	[Address(RVA = "0x4857E80", Offset = "0x4857E80", VA = "0x4857E80")]
+	[Address(RVA = "0x4B7CF70", Offset = "0x4B7CF70", VA = "0x4B7CF70")]
 	public TextureDesc GetTextureDesc(TextureHandle texture)
 	{
 		return default(TextureDesc);
 	}
 
 	[Token(Token = "0x600037A")]
-	[Address(RVA = "0x4857F10", Offset = "0x4857F10", VA = "0x4857F10")]
+	[Address(RVA = "0x4B7D000", Offset = "0x4B7D000", VA = "0x4B7D000")]
 	public RendererListHandle CreateRendererList(in RendererListDesc desc)
 	{
 		return default(RendererListHandle);
 	}
 
 	[Token(Token = "0x600037B")]
-	[Address(RVA = "0x4857F30", Offset = "0x4857F30", VA = "0x4857F30")]
+	[Address(RVA = "0x4B7D020", Offset = "0x4B7D020", VA = "0x4B7D020")]
 	public RendererListHandle CreateRendererList(in RendererListParams desc)
 	{
 		return default(RendererListHandle);
 	}
 
 	[Token(Token = "0x600037C")]
-	[Address(RVA = "0x4857F50", Offset = "0x4857F50", VA = "0x4857F50")]
+	[Address(RVA = "0x4B7D040", Offset = "0x4B7D040", VA = "0x4B7D040")]
 	public RendererListHandle CreateShadowRendererList(ref ShadowDrawingSettings shadowDrawingSettings)
 	{
 		return default(RendererListHandle);
 	}
 
 	[Token(Token = "0x600037D")]
-	[Address(RVA = "0x4857F80", Offset = "0x4857F80", VA = "0x4857F80")]
+	[Address(RVA = "0x4B7D070", Offset = "0x4B7D070", VA = "0x4B7D070")]
 	public RendererListHandle CreateGizmoRendererList(in Camera camera, in GizmoSubset gizmoSubset)
 	{
 		return default(RendererListHandle);
 	}
 
 	[Token(Token = "0x600037E")]
-	[Address(RVA = "0x4857FB0", Offset = "0x4857FB0", VA = "0x4857FB0")]
+	[Address(RVA = "0x4B7D0A0", Offset = "0x4B7D0A0", VA = "0x4B7D0A0")]
 	public RendererListHandle CreateUIOverlayRendererList(in Camera camera)
 	{
 		return default(RendererListHandle);
 	}
 
 	[Token(Token = "0x600037F")]
-	[Address(RVA = "0x4857FE0", Offset = "0x4857FE0", VA = "0x4857FE0")]
+	[Address(RVA = "0x4B7D0D0", Offset = "0x4B7D0D0", VA = "0x4B7D0D0")]
 	public RendererListHandle CreateWireOverlayRendererList(in Camera camera)
 	{
 		return default(RendererListHandle);
 	}
 
 	[Token(Token = "0x6000380")]
-	[Address(RVA = "0x4858010", Offset = "0x4858010", VA = "0x4858010")]
+	[Address(RVA = "0x4B7D100", Offset = "0x4B7D100", VA = "0x4B7D100")]
 	public BufferHandle ImportBuffer(GraphicsBuffer graphicsBuffer, bool forceRelease = false)
 	{
 		return default(BufferHandle);
 	}
 
 	[Token(Token = "0x6000381")]
-	[Address(RVA = "0x4858030", Offset = "0x4858030", VA = "0x4858030")]
+	[Address(RVA = "0x4B7D120", Offset = "0x4B7D120", VA = "0x4B7D120")]
 	public BufferHandle CreateBuffer(in BufferDesc desc)
 	{
 		return default(BufferHandle);
 	}
 
 	[Token(Token = "0x6000382")]
-	[Address(RVA = "0x4858050", Offset = "0x4858050", VA = "0x4858050")]
+	[Address(RVA = "0x4B7D140", Offset = "0x4B7D140", VA = "0x4B7D140")]
 	public BufferHandle CreateBuffer(in BufferHandle graphicsBuffer)
 	{
 		return default(BufferHandle);
 	}
 
 	[Token(Token = "0x6000383")]
-	[Address(RVA = "0x48580B0", Offset = "0x48580B0", VA = "0x48580B0")]
+	[Address(RVA = "0x4B7D1A0", Offset = "0x4B7D1A0", VA = "0x4B7D1A0")]
 	public BufferDesc GetBufferDesc(in BufferHandle graphicsBuffer)
 	{
 		return default(BufferDesc);
 	}
 
 	[Token(Token = "0x6000384")]
-	[Address(RVA = "0x48580F0", Offset = "0x48580F0", VA = "0x48580F0")]
+	[Address(RVA = "0x4B7D1E0", Offset = "0x4B7D1E0", VA = "0x4B7D1E0")]
 	public void AddResolvePass(TextureHandle source, TextureHandle destination, [CallerFilePath] string file = "", [CallerLineNumber] int line = 0)
 	{
 	}
 
 	[Token(Token = "0x6000385")]
-	[Address(RVA = "0x4858390", Offset = "0x4858390", VA = "0x4858390")]
+	[Address(RVA = "0x4B7D480", Offset = "0x4B7D480", VA = "0x4B7D480")]
 	public void AddMovePass(TextureHandle source, TextureHandle destination, [CallerFilePath] string file = "", [CallerLineNumber] int line = 0)
 	{
 	}
@@ -602,283 +609,283 @@ public class RenderGraph
 	}
 
 	[Token(Token = "0x600038E")]
-	[Address(RVA = "0x48585E0", Offset = "0x48585E0", VA = "0x48585E0")]
+	[Address(RVA = "0x4B7D6D0", Offset = "0x4B7D6D0", VA = "0x4B7D6D0")]
 	public RenderGraphExecution RecordAndExecute(in RenderGraphParameters parameters)
 	{
 		return default(RenderGraphExecution);
 	}
 
 	[Token(Token = "0x600038F")]
-	[Address(RVA = "0x4855EA0", Offset = "0x4855EA0", VA = "0x4855EA0")]
+	[Address(RVA = "0x4B7AF90", Offset = "0x4B7AF90", VA = "0x4B7AF90")]
 	internal void Execute()
 	{
 	}
 
 	[Token(Token = "0x6000390")]
-	[Address(RVA = "0x4858E00", Offset = "0x4858E00", VA = "0x4858E00")]
+	[Address(RVA = "0x4B7DEF0", Offset = "0x4B7DEF0", VA = "0x4B7DEF0")]
 	public void BeginProfilingSampler(ProfilingSampler sampler, [CallerFilePath] string file = "", [CallerLineNumber] int line = 0)
 	{
 	}
 
 	[Token(Token = "0x6000391")]
-	[Address(RVA = "0x4859060", Offset = "0x4859060", VA = "0x4859060")]
+	[Address(RVA = "0x4B7E150", Offset = "0x4B7E150", VA = "0x4B7E150")]
 	public void EndProfilingSampler(ProfilingSampler sampler, [CallerFilePath] string file = "", [CallerLineNumber] int line = 0)
 	{
 	}
 
 	[Token(Token = "0x6000392")]
-	[Address(RVA = "0x48592C0", Offset = "0x48592C0", VA = "0x48592C0")]
+	[Address(RVA = "0x4B7E3B0", Offset = "0x4B7E3B0", VA = "0x4B7E3B0")]
 	internal DynamicArray<CompiledPassInfo> GetCompiledPassInfos()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000393")]
-	[Address(RVA = "0x48592D0", Offset = "0x48592D0", VA = "0x48592D0")]
+	[Address(RVA = "0x4B7E3C0", Offset = "0x4B7E3C0", VA = "0x4B7E3C0")]
 	internal void ClearCompiledGraph()
 	{
 	}
 
 	[Token(Token = "0x6000394")]
-	[Address(RVA = "0x4859570", Offset = "0x4859570", VA = "0x4859570")]
+	[Address(RVA = "0x4B7E660", Offset = "0x4B7E660", VA = "0x4B7E660")]
 	private void InvalidateContext()
 	{
 	}
 
 	[Token(Token = "0x6000395")]
-	[Address(RVA = "0x48595D0", Offset = "0x48595D0", VA = "0x48595D0")]
+	[Address(RVA = "0x4B7E6C0", Offset = "0x4B7E6C0", VA = "0x4B7E6C0")]
 	internal void OnPassAdded(RenderGraphPass pass)
 	{
 	}
 
 	[Token(Token = "0x600039E")]
-	[Address(RVA = "0x4859D30", Offset = "0x4859D30", VA = "0x4859D30")]
+	[Address(RVA = "0x4B7EE20", Offset = "0x4B7EE20", VA = "0x4B7EE20")]
 	private void InitResourceInfosData(DynamicArray<CompiledResourceInfo> resourceInfos, int count)
 	{
 	}
 
 	[Token(Token = "0x600039F")]
-	[Address(RVA = "0x4859DD0", Offset = "0x4859DD0", VA = "0x4859DD0")]
+	[Address(RVA = "0x4B7EEC0", Offset = "0x4B7EEC0", VA = "0x4B7EEC0")]
 	private void InitializeCompilationData()
 	{
 	}
 
 	[Token(Token = "0x60003A0")]
-	[Address(RVA = "0x4859F50", Offset = "0x4859F50", VA = "0x4859F50")]
+	[Address(RVA = "0x4B7F040", Offset = "0x4B7F040", VA = "0x4B7F040")]
 	private void CountReferences()
 	{
 	}
 
 	[Token(Token = "0x60003A1")]
-	[Address(RVA = "0x485A9B0", Offset = "0x485A9B0", VA = "0x485A9B0")]
+	[Address(RVA = "0x4B7FAA0", Offset = "0x4B7FAA0", VA = "0x4B7FAA0")]
 	private void CullUnusedPasses()
 	{
 	}
 
 	[Token(Token = "0x60003A2")]
-	[Address(RVA = "0x485B5A0", Offset = "0x485B5A0", VA = "0x485B5A0")]
+	[Address(RVA = "0x4B80690", Offset = "0x4B80690", VA = "0x4B80690")]
 	private void UpdatePassSynchronization(ref CompiledPassInfo currentPassInfo, ref CompiledPassInfo producerPassInfo, int currentPassIndex, int lastProducer, ref int intLastSyncIndex)
 	{
 	}
 
 	[Token(Token = "0x60003A3")]
-	[Address(RVA = "0x485B5C0", Offset = "0x485B5C0", VA = "0x485B5C0")]
+	[Address(RVA = "0x4B806B0", Offset = "0x4B806B0", VA = "0x4B806B0")]
 	private void UpdateResourceSynchronization(ref int lastGraphicsPipeSync, ref int lastComputePipeSync, int currentPassIndex, in CompiledResourceInfo resource)
 	{
 	}
 
 	[Token(Token = "0x60003A4")]
-	[Address(RVA = "0x485B8A0", Offset = "0x485B8A0", VA = "0x485B8A0")]
+	[Address(RVA = "0x4B80990", Offset = "0x4B80990", VA = "0x4B80990")]
 	private int GetFirstValidConsumerIndex(int passIndex, in CompiledResourceInfo info)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60003A5")]
-	[Address(RVA = "0x485BA50", Offset = "0x485BA50", VA = "0x485BA50")]
+	[Address(RVA = "0x4B80B40", Offset = "0x4B80B40", VA = "0x4B80B40")]
 	private int FindTextureProducer(int consumerPass, in CompiledResourceInfo info, out int index)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60003A6")]
-	[Address(RVA = "0x485B6E0", Offset = "0x485B6E0", VA = "0x485B6E0")]
+	[Address(RVA = "0x4B807D0", Offset = "0x4B807D0", VA = "0x4B807D0")]
 	private int GetLatestProducerIndex(int passIndex, in CompiledResourceInfo info)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60003A7")]
-	[Address(RVA = "0x485BB40", Offset = "0x485BB40", VA = "0x485BB40")]
+	[Address(RVA = "0x4B80C30", Offset = "0x4B80C30", VA = "0x4B80C30")]
 	private int GetLatestValidReadIndex(in CompiledResourceInfo info)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60003A8")]
-	[Address(RVA = "0x485BC20", Offset = "0x485BC20", VA = "0x485BC20")]
+	[Address(RVA = "0x4B80D10", Offset = "0x4B80D10", VA = "0x4B80D10")]
 	private int GetFirstValidWriteIndex(in CompiledResourceInfo info)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60003A9")]
-	[Address(RVA = "0x485BD00", Offset = "0x485BD00", VA = "0x485BD00")]
+	[Address(RVA = "0x4B80DF0", Offset = "0x4B80DF0", VA = "0x4B80DF0")]
 	private int GetLatestValidWriteIndex(in CompiledResourceInfo info)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60003AA")]
-	[Address(RVA = "0x485BDE0", Offset = "0x485BDE0", VA = "0x485BDE0")]
+	[Address(RVA = "0x4B80ED0", Offset = "0x4B80ED0", VA = "0x4B80ED0")]
 	private void CreateRendererLists()
 	{
 	}
 
 	[Token(Token = "0x60003AB")]
-	[Address(RVA = "0x485BED0", Offset = "0x485BED0", VA = "0x485BED0")]
+	[Address(RVA = "0x4B80FC0", Offset = "0x4B80FC0", VA = "0x4B80FC0")]
 	internal bool GetImportedFallback(TextureDesc desc, out TextureHandle fallback)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003AC")]
-	[Address(RVA = "0x485C170", Offset = "0x485C170", VA = "0x485C170")]
+	[Address(RVA = "0x4B81260", Offset = "0x4B81260", VA = "0x4B81260")]
 	private void AllocateCulledPassResources(ref CompiledPassInfo passInfo, int passIndex)
 	{
 	}
 
 	[Token(Token = "0x60003AD")]
-	[Address(RVA = "0x485C730", Offset = "0x485C730", VA = "0x485C730")]
+	[Address(RVA = "0x4B81820", Offset = "0x4B81820", VA = "0x4B81820")]
 	private void UpdateResourceAllocationAndSynchronization()
 	{
 	}
 
 	[Token(Token = "0x60003AE")]
-	[Address(RVA = "0x485D300", Offset = "0x485D300", VA = "0x485D300")]
+	[Address(RVA = "0x4B823F0", Offset = "0x4B823F0", VA = "0x4B823F0")]
 	private bool AreRendererListsEmpty(List<RendererListHandle> rendererLists)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003AF")]
-	[Address(RVA = "0x485D5C0", Offset = "0x485D5C0", VA = "0x485D5C0")]
+	[Address(RVA = "0x4B826B0", Offset = "0x4B826B0", VA = "0x4B826B0")]
 	private void TryCullPassAtIndex(int passIndex)
 	{
 	}
 
 	[Token(Token = "0x60003B0")]
-	[Address(RVA = "0x485D6C0", Offset = "0x485D6C0", VA = "0x485D6C0")]
+	[Address(RVA = "0x4B827B0", Offset = "0x4B827B0", VA = "0x4B827B0")]
 	private void CullRendererLists()
 	{
 	}
 
 	[Token(Token = "0x60003B1")]
-	[Address(RVA = "0x4858B90", Offset = "0x4858B90", VA = "0x4858B90")]
+	[Address(RVA = "0x4B7DC80", Offset = "0x4B7DC80", VA = "0x4B7DC80")]
 	internal void CompileRenderGraph()
 	{
 	}
 
 	[Token(Token = "0x60003B2")]
-	[Address(RVA = "0x485D8C0", Offset = "0x485D8C0", VA = "0x485D8C0")]
+	[Address(RVA = "0x4B829B0", Offset = "0x4B829B0", VA = "0x4B829B0")]
 	private unsafe ref CompiledPassInfo CompilePassImmediatly(RenderGraphPass pass)
 	{
 		return ref *(CompiledPassInfo*)null;
 	}
 
 	[Token(Token = "0x60003B3")]
-	[Address(RVA = "0x4859610", Offset = "0x4859610", VA = "0x4859610")]
+	[Address(RVA = "0x4B7E700", Offset = "0x4B7E700", VA = "0x4B7E700")]
 	private void ExecutePassImmediatly(RenderGraphPass pass)
 	{
 	}
 
 	[Token(Token = "0x60003B4")]
-	[Address(RVA = "0x485E510", Offset = "0x485E510", VA = "0x485E510")]
+	[Address(RVA = "0x4B83600", Offset = "0x4B83600", VA = "0x4B83600")]
 	private void ExecuteCompiledPass(ref CompiledPassInfo passInfo, int passIndex)
 	{
 	}
 
 	[Token(Token = "0x60003B5")]
-	[Address(RVA = "0x4858CA0", Offset = "0x4858CA0", VA = "0x4858CA0")]
+	[Address(RVA = "0x4B7DD90", Offset = "0x4B7DD90", VA = "0x4B7DD90")]
 	private void ExecuteRenderGraph()
 	{
 	}
 
 	[Token(Token = "0x60003B6")]
-	[Address(RVA = "0x485F410", Offset = "0x485F410", VA = "0x485F410")]
+	[Address(RVA = "0x4B84500", Offset = "0x4B84500", VA = "0x4B84500")]
 	private void PreRenderPassSetRenderTargets(in CompiledPassInfo passInfo, InternalRenderGraphContext rgContext)
 	{
 	}
 
 	[Token(Token = "0x60003B7")]
-	[Address(RVA = "0x485EC50", Offset = "0x485EC50", VA = "0x485EC50")]
+	[Address(RVA = "0x4B83D40", Offset = "0x4B83D40", VA = "0x4B83D40")]
 	private void PreRenderPassExecute(in CompiledPassInfo passInfo, InternalRenderGraphContext rgContext)
 	{
 	}
 
 	[Token(Token = "0x60003B8")]
-	[Address(RVA = "0x485F070", Offset = "0x485F070", VA = "0x485F070")]
+	[Address(RVA = "0x4B84160", Offset = "0x4B84160", VA = "0x4B84160")]
 	private void PostRenderPassExecute(ref CompiledPassInfo passInfo, InternalRenderGraphContext rgContext)
 	{
 	}
 
 	[Token(Token = "0x60003B9")]
-	[Address(RVA = "0x48593C0", Offset = "0x48593C0", VA = "0x48593C0")]
+	[Address(RVA = "0x4B7E4B0", Offset = "0x4B7E4B0", VA = "0x4B7E4B0")]
 	private void ClearRenderPasses()
 	{
 	}
 
 	[Token(Token = "0x60003BA")]
-	[Address(RVA = "0x485F9C0", Offset = "0x485F9C0", VA = "0x485F9C0")]
+	[Address(RVA = "0x4B84AB0", Offset = "0x4B84AB0", VA = "0x4B84AB0")]
 	private void ReleaseImmediateModeResources()
 	{
 	}
 
 	[Token(Token = "0x60003BB")]
-	[Address(RVA = "0x4858960", Offset = "0x4858960", VA = "0x4858960")]
+	[Address(RVA = "0x4B7DA50", Offset = "0x4B7DA50", VA = "0x4B7DA50")]
 	private void LogFrameInformation()
 	{
 	}
 
 	[Token(Token = "0x60003BC")]
-	[Address(RVA = "0x485D7A0", Offset = "0x485D7A0", VA = "0x485D7A0")]
+	[Address(RVA = "0x4B82890", Offset = "0x4B82890", VA = "0x4B82890")]
 	private void LogRendererListsCreation()
 	{
 	}
 
 	[Token(Token = "0x60003BD")]
-	[Address(RVA = "0x485E8F0", Offset = "0x485E8F0", VA = "0x485E8F0")]
+	[Address(RVA = "0x4B839E0", Offset = "0x4B839E0", VA = "0x4B839E0")]
 	private void LogRenderPassBegin(in CompiledPassInfo passInfo)
 	{
 	}
 
 	[Token(Token = "0x60003BE")]
-	[Address(RVA = "0x485B0A0", Offset = "0x485B0A0", VA = "0x485B0A0")]
+	[Address(RVA = "0x4B80190", Offset = "0x4B80190", VA = "0x4B80190")]
 	private void LogCulledPasses()
 	{
 	}
 
 	[Token(Token = "0x60003BF")]
-	[Address(RVA = "0x485FC50", Offset = "0x485FC50", VA = "0x485FC50")]
+	[Address(RVA = "0x4B84D40", Offset = "0x4B84D40", VA = "0x4B84D40")]
 	private ProfilingSampler GetDefaultProfilingSampler(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003C0")]
-	[Address(RVA = "0x485FD30", Offset = "0x485FD30", VA = "0x485FD30")]
+	[Address(RVA = "0x4B84E20", Offset = "0x4B84E20", VA = "0x4B84E20")]
 	private void UpdateImportedResourceLifeTime(ref RenderGraphDebugData.ResourceDebugData data, List<int> passList)
 	{
 	}
 
 	[Token(Token = "0x60003C1")]
-	[Address(RVA = "0x485FF20", Offset = "0x485FF20", VA = "0x485FF20")]
+	[Address(RVA = "0x4B85010", Offset = "0x4B85010", VA = "0x4B85010")]
 	private void GenerateDebugData()
 	{
 	}
 
 	[Token(Token = "0x60003C2")]
-	[Address(RVA = "0x48614E0", Offset = "0x48614E0", VA = "0x48614E0")]
+	[Address(RVA = "0x4B865D0", Offset = "0x4B865D0", VA = "0x4B865D0")]
 	private void CleanupDebugData()
 	{
 	}

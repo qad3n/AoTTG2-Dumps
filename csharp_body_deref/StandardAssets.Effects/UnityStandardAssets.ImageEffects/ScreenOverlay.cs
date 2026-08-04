@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.ScreenOverlay
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/ScreenOverlay.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -45,20 +52,20 @@ public class ScreenOverlay : PostEffectsBase
 	private Material overlayMaterial;
 
 	[Token(Token = "0x6000091")]
-	[Address(RVA = "0x4161450", Offset = "0x4161450", VA = "0x4161450", Slot = "4")]
+	[Address(RVA = "0x4486550", Offset = "0x4486550", VA = "0x4486550", Slot = "4")]
 	public override bool CheckResources()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000092")]
-	[Address(RVA = "0x4161510", Offset = "0x4161510", VA = "0x4161510")]
+	[Address(RVA = "0x4486610", Offset = "0x4486610", VA = "0x4486610")]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x6000093")]
-	[Address(RVA = "0x4161660", Offset = "0x4161660", VA = "0x4161660")]
+	[Address(RVA = "0x4486760", Offset = "0x4486760", VA = "0x4486760")]
 	public ScreenOverlay()
 	{
 	}

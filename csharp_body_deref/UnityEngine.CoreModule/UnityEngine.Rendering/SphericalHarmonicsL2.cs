@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.SphericalHarmonicsL2
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -5,7 +12,7 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002D4")]
+[Token(Token = "0x20002D7")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Export/Math/SphericalHarmonicsL2.bindings.h")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public struct SphericalHarmonicsL2 : IEquatable<SphericalHarmonicsL2>
@@ -118,45 +125,45 @@ public struct SphericalHarmonicsL2 : IEquatable<SphericalHarmonicsL2>
 	[FieldOffset(Offset = "0x68")]
 	private float shb8;
 
-	[Token(Token = "0x17000276")]
+	[Token(Token = "0x17000277")]
 	public float this[int rgb, int coefficient]
 	{
-		[Token(Token = "0x600100C")]
-		[Address(RVA = "0x4B01430", Offset = "0x4B01430", VA = "0x4B01430")]
+		[Token(Token = "0x600100E")]
+		[Address(RVA = "0x4E28D60", Offset = "0x4E28D60", VA = "0x4E28D60")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x600100D")]
-		[Address(RVA = "0x4B015A0", Offset = "0x4B015A0", VA = "0x4B015A0")]
+		[Token(Token = "0x600100F")]
+		[Address(RVA = "0x4E28ED0", Offset = "0x4E28ED0", VA = "0x4E28ED0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600100E")]
-	[Address(RVA = "0x4B01710", Offset = "0x4B01710", VA = "0x4B01710", Slot = "2")]
+	[Token(Token = "0x6001010")]
+	[Address(RVA = "0x4E29040", Offset = "0x4E29040", VA = "0x4E29040", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600100F")]
-	[Address(RVA = "0x4B01960", Offset = "0x4B01960", VA = "0x4B01960", Slot = "0")]
+	[Token(Token = "0x6001011")]
+	[Address(RVA = "0x4E29290", Offset = "0x4E29290", VA = "0x4E29290", Slot = "0")]
 	public override bool Equals(object other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001010")]
-	[Address(RVA = "0x4B01A70", Offset = "0x4B01A70", VA = "0x4B01A70", Slot = "4")]
+	[Token(Token = "0x6001012")]
+	[Address(RVA = "0x4E293A0", Offset = "0x4E293A0", VA = "0x4E293A0", Slot = "4")]
 	public bool Equals(SphericalHarmonicsL2 other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001011")]
-	[Address(RVA = "0x4B01B10", Offset = "0x4B01B10", VA = "0x4B01B10")]
+	[Token(Token = "0x6001013")]
+	[Address(RVA = "0x4E29440", Offset = "0x4E29440", VA = "0x4E29440")]
 	public static bool operator ==(SphericalHarmonicsL2 lhs, SphericalHarmonicsL2 rhs)
 	{
 		return default(bool);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Pun.UtilityScripts.StatesGui
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/StatesGui.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using Photon.Realtime;
 using UnityEngine;
@@ -84,32 +91,32 @@ public class StatesGui : MonoBehaviour
 	private float native_height;
 
 	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x3BE86F0", Offset = "0x3BE86F0", VA = "0x3BE86F0")]
+	[Address(RVA = "0x3F00BC0", Offset = "0x3F00BC0", VA = "0x3F00BC0")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000038")]
-	[Address(RVA = "0x3BE8860", Offset = "0x3BE8860", VA = "0x3BE8860")]
+	[Address(RVA = "0x3F00D30", Offset = "0x3F00D30", VA = "0x3F00D30")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000039")]
-	[Address(RVA = "0x3BE8900", Offset = "0x3BE8900", VA = "0x3BE8900")]
+	[Address(RVA = "0x3F00DD0", Offset = "0x3F00DD0", VA = "0x3F00DD0")]
 	private void OnGUI()
 	{
 	}
 
 	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x3BEA380", Offset = "0x3BEA380", VA = "0x3BEA380")]
+	[Address(RVA = "0x3F02850", Offset = "0x3F02850", VA = "0x3F02850")]
 	private string PlayerToString(Player player)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x3BEA7C0", Offset = "0x3BEA7C0", VA = "0x3BEA7C0")]
+	[Address(RVA = "0x3F02C90", Offset = "0x3F02C90", VA = "0x3F02C90")]
 	public StatesGui()
 	{
 	}

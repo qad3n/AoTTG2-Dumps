@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Characters.BaseCharacter
+// Update status: CHANGED in this game update
+// Real method bodies (native C decompile): source/cpp/Characters/BaseCharacter.c
+// Prior real C# source (older reference): Assets/Scripts/Characters/BaseCharacter.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,38 +20,38 @@ using Utility;
 
 namespace Characters;
 
-[Token(Token = "0x200048E")]
+[Token(Token = "0x20004D3")]
 internal class BaseCharacter : MonoBehaviourPunCallbacks, ITargetable
 {
-	[Token(Token = "0x200048F")]
+	[Token(Token = "0x20004D4")]
 	[CompilerGenerated]
 	private sealed class _003CFadeSoundOverTime_003Ed__108 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001463")]
+		[Token(Token = "0x4001574")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001464")]
+		[Token(Token = "0x4001575")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001465")]
+		[Token(Token = "0x4001576")]
 		[FieldOffset(Offset = "0x20")]
 		public float time;
 
-		[Token(Token = "0x4001466")]
+		[Token(Token = "0x4001577")]
 		[FieldOffset(Offset = "0x28")]
 		public AudioSource source;
 
-		[Token(Token = "0x4001467")]
+		[Token(Token = "0x4001578")]
 		[FieldOffset(Offset = "0x30")]
 		public float volumeIncrement;
 
-		[Token(Token = "0x17000948")]
+		[Token(Token = "0x170009B2")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6003149")]
-			[Address(RVA = "0x3E99A60", Offset = "0x3E99A60", VA = "0x3E99A60", Slot = "4")]
+			[Token(Token = "0x6003357")]
+			[Address(RVA = "0x41A6300", Offset = "0x41A6300", VA = "0x41A6300", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -52,11 +59,11 @@ internal class BaseCharacter : MonoBehaviourPunCallbacks, ITargetable
 			}
 		}
 
-		[Token(Token = "0x17000949")]
+		[Token(Token = "0x170009B3")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600314B")]
-			[Address(RVA = "0x3E99AB0", Offset = "0x3E99AB0", VA = "0x3E99AB0", Slot = "7")]
+			[Token(Token = "0x6003359")]
+			[Address(RVA = "0x41A6350", Offset = "0x41A6350", VA = "0x41A6350", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -64,64 +71,64 @@ internal class BaseCharacter : MonoBehaviourPunCallbacks, ITargetable
 			}
 		}
 
-		[Token(Token = "0x6003146")]
-		[Address(RVA = "0x3E95BB0", Offset = "0x3E95BB0", VA = "0x3E95BB0")]
+		[Token(Token = "0x6003354")]
+		[Address(RVA = "0x41A2150", Offset = "0x41A2150", VA = "0x41A2150")]
 		[DebuggerHidden]
 		public _003CFadeSoundOverTime_003Ed__108(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6003147")]
-		[Address(RVA = "0x3E99980", Offset = "0x3E99980", VA = "0x3E99980", Slot = "5")]
+		[Token(Token = "0x6003355")]
+		[Address(RVA = "0x41A6220", Offset = "0x41A6220", VA = "0x41A6220", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6003148")]
-		[Address(RVA = "0x3E99990", Offset = "0x3E99990", VA = "0x3E99990", Slot = "6")]
+		[Token(Token = "0x6003356")]
+		[Address(RVA = "0x41A6230", Offset = "0x41A6230", VA = "0x41A6230", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600314A")]
-		[Address(RVA = "0x3E99A70", Offset = "0x3E99A70", VA = "0x3E99A70", Slot = "8")]
+		[Token(Token = "0x6003358")]
+		[Address(RVA = "0x41A6310", Offset = "0x41A6310", VA = "0x41A6310", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000490")]
+	[Token(Token = "0x20004D5")]
 	[CompilerGenerated]
 	private sealed class _003CRevealAndRemove_003Ed__61 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001468")]
+		[Token(Token = "0x4001579")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001469")]
+		[Token(Token = "0x400157A")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x400146A")]
+		[Token(Token = "0x400157B")]
 		[FieldOffset(Offset = "0x20")]
 		public float startDelay;
 
-		[Token(Token = "0x400146B")]
+		[Token(Token = "0x400157C")]
 		[FieldOffset(Offset = "0x28")]
 		public BaseCharacter _003C_003E4__this;
 
-		[Token(Token = "0x400146C")]
+		[Token(Token = "0x400157D")]
 		[FieldOffset(Offset = "0x30")]
 		public float seconds;
 
-		[Token(Token = "0x1700094A")]
+		[Token(Token = "0x170009B4")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x600314F")]
-			[Address(RVA = "0x3E99C60", Offset = "0x3E99C60", VA = "0x3E99C60", Slot = "4")]
+			[Token(Token = "0x600335D")]
+			[Address(RVA = "0x41A6500", Offset = "0x41A6500", VA = "0x41A6500", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -129,11 +136,11 @@ internal class BaseCharacter : MonoBehaviourPunCallbacks, ITargetable
 			}
 		}
 
-		[Token(Token = "0x1700094B")]
+		[Token(Token = "0x170009B5")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6003151")]
-			[Address(RVA = "0x3E99CB0", Offset = "0x3E99CB0", VA = "0x3E99CB0", Slot = "7")]
+			[Token(Token = "0x600335F")]
+			[Address(RVA = "0x41A6550", Offset = "0x41A6550", VA = "0x41A6550", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -141,56 +148,56 @@ internal class BaseCharacter : MonoBehaviourPunCallbacks, ITargetable
 			}
 		}
 
-		[Token(Token = "0x600314C")]
-		[Address(RVA = "0x3E93480", Offset = "0x3E93480", VA = "0x3E93480")]
+		[Token(Token = "0x600335A")]
+		[Address(RVA = "0x419FA20", Offset = "0x419FA20", VA = "0x419FA20")]
 		[DebuggerHidden]
 		public _003CRevealAndRemove_003Ed__61(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x600314D")]
-		[Address(RVA = "0x3E99AC0", Offset = "0x3E99AC0", VA = "0x3E99AC0", Slot = "5")]
+		[Token(Token = "0x600335B")]
+		[Address(RVA = "0x41A6360", Offset = "0x41A6360", VA = "0x41A6360", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x600314E")]
-		[Address(RVA = "0x3E99AD0", Offset = "0x3E99AD0", VA = "0x3E99AD0", Slot = "6")]
+		[Token(Token = "0x600335C")]
+		[Address(RVA = "0x41A6370", Offset = "0x41A6370", VA = "0x41A6370", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6003150")]
-		[Address(RVA = "0x3E99C70", Offset = "0x3E99C70", VA = "0x3E99C70", Slot = "8")]
+		[Token(Token = "0x600335E")]
+		[Address(RVA = "0x41A6510", Offset = "0x41A6510", VA = "0x41A6510", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000491")]
+	[Token(Token = "0x20004D6")]
 	[CompilerGenerated]
 	private sealed class _003CWaitAndDie_003Ed__83 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x400146D")]
+		[Token(Token = "0x400157E")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x400146E")]
+		[Token(Token = "0x400157F")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x400146F")]
+		[Token(Token = "0x4001580")]
 		[FieldOffset(Offset = "0x20")]
 		public BaseCharacter _003C_003E4__this;
 
-		[Token(Token = "0x1700094C")]
+		[Token(Token = "0x170009B6")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6003155")]
-			[Address(RVA = "0x3E99D40", Offset = "0x3E99D40", VA = "0x3E99D40", Slot = "4")]
+			[Token(Token = "0x6003363")]
+			[Address(RVA = "0x41A65E0", Offset = "0x41A65E0", VA = "0x41A65E0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -198,11 +205,11 @@ internal class BaseCharacter : MonoBehaviourPunCallbacks, ITargetable
 			}
 		}
 
-		[Token(Token = "0x1700094D")]
+		[Token(Token = "0x170009B7")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6003157")]
-			[Address(RVA = "0x3E99D90", Offset = "0x3E99D90", VA = "0x3E99D90", Slot = "7")]
+			[Token(Token = "0x6003365")]
+			[Address(RVA = "0x41A6630", Offset = "0x41A6630", VA = "0x41A6630", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -210,56 +217,56 @@ internal class BaseCharacter : MonoBehaviourPunCallbacks, ITargetable
 			}
 		}
 
-		[Token(Token = "0x6003152")]
-		[Address(RVA = "0x3E94580", Offset = "0x3E94580", VA = "0x3E94580")]
+		[Token(Token = "0x6003360")]
+		[Address(RVA = "0x41A0B20", Offset = "0x41A0B20", VA = "0x41A0B20")]
 		[DebuggerHidden]
 		public _003CWaitAndDie_003Ed__83(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6003153")]
-		[Address(RVA = "0x3E99CC0", Offset = "0x3E99CC0", VA = "0x3E99CC0", Slot = "5")]
+		[Token(Token = "0x6003361")]
+		[Address(RVA = "0x41A6560", Offset = "0x41A6560", VA = "0x41A6560", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6003154")]
-		[Address(RVA = "0x3E99CD0", Offset = "0x3E99CD0", VA = "0x3E99CD0", Slot = "6")]
+		[Token(Token = "0x6003362")]
+		[Address(RVA = "0x41A6570", Offset = "0x41A6570", VA = "0x41A6570", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6003156")]
-		[Address(RVA = "0x3E99D50", Offset = "0x3E99D50", VA = "0x3E99D50", Slot = "8")]
+		[Token(Token = "0x6003364")]
+		[Address(RVA = "0x41A65F0", Offset = "0x41A65F0", VA = "0x41A65F0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000492")]
+	[Token(Token = "0x20004D7")]
 	[CompilerGenerated]
-	private sealed class _003CWaitAndNotifyReloaded_003Ed__129 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CWaitAndNotifyReloaded_003Ed__130 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001470")]
+		[Token(Token = "0x4001581")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001471")]
+		[Token(Token = "0x4001582")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001472")]
+		[Token(Token = "0x4001583")]
 		[FieldOffset(Offset = "0x20")]
 		public BaseCharacter _003C_003E4__this;
 
-		[Token(Token = "0x1700094E")]
+		[Token(Token = "0x170009B8")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x600315B")]
-			[Address(RVA = "0x3E99F50", Offset = "0x3E99F50", VA = "0x3E99F50", Slot = "4")]
+			[Token(Token = "0x6003369")]
+			[Address(RVA = "0x41A67F0", Offset = "0x41A67F0", VA = "0x41A67F0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -267,11 +274,11 @@ internal class BaseCharacter : MonoBehaviourPunCallbacks, ITargetable
 			}
 		}
 
-		[Token(Token = "0x1700094F")]
+		[Token(Token = "0x170009B9")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600315D")]
-			[Address(RVA = "0x3E99FA0", Offset = "0x3E99FA0", VA = "0x3E99FA0", Slot = "7")]
+			[Token(Token = "0x600336B")]
+			[Address(RVA = "0x41A6840", Offset = "0x41A6840", VA = "0x41A6840", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -279,56 +286,56 @@ internal class BaseCharacter : MonoBehaviourPunCallbacks, ITargetable
 			}
 		}
 
-		[Token(Token = "0x6003158")]
-		[Address(RVA = "0x3E984F0", Offset = "0x3E984F0", VA = "0x3E984F0")]
+		[Token(Token = "0x6003366")]
+		[Address(RVA = "0x41A4D90", Offset = "0x41A4D90", VA = "0x41A4D90")]
 		[DebuggerHidden]
-		public _003CWaitAndNotifyReloaded_003Ed__129(int _003C_003E1__state)
+		public _003CWaitAndNotifyReloaded_003Ed__130(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6003159")]
-		[Address(RVA = "0x3E99DA0", Offset = "0x3E99DA0", VA = "0x3E99DA0", Slot = "5")]
+		[Token(Token = "0x6003367")]
+		[Address(RVA = "0x41A6640", Offset = "0x41A6640", VA = "0x41A6640", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x600315A")]
-		[Address(RVA = "0x3E99DB0", Offset = "0x3E99DB0", VA = "0x3E99DB0", Slot = "6")]
+		[Token(Token = "0x6003368")]
+		[Address(RVA = "0x41A6650", Offset = "0x41A6650", VA = "0x41A6650", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600315C")]
-		[Address(RVA = "0x3E99F60", Offset = "0x3E99F60", VA = "0x3E99F60", Slot = "8")]
+		[Token(Token = "0x600336A")]
+		[Address(RVA = "0x41A6800", Offset = "0x41A6800", VA = "0x41A6800", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000493")]
+	[Token(Token = "0x20004D8")]
 	[CompilerGenerated]
-	private sealed class _003CWaitAndNotifySpawn_003Ed__128 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CWaitAndNotifySpawn_003Ed__129 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001473")]
+		[Token(Token = "0x4001584")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001474")]
+		[Token(Token = "0x4001585")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001475")]
+		[Token(Token = "0x4001586")]
 		[FieldOffset(Offset = "0x20")]
 		public BaseCharacter _003C_003E4__this;
 
-		[Token(Token = "0x17000950")]
+		[Token(Token = "0x170009BA")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6003161")]
-			[Address(RVA = "0x3E9A1D0", Offset = "0x3E9A1D0", VA = "0x3E9A1D0", Slot = "4")]
+			[Token(Token = "0x600336F")]
+			[Address(RVA = "0x41A6A70", Offset = "0x41A6A70", VA = "0x41A6A70", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -336,11 +343,11 @@ internal class BaseCharacter : MonoBehaviourPunCallbacks, ITargetable
 			}
 		}
 
-		[Token(Token = "0x17000951")]
+		[Token(Token = "0x170009BB")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6003163")]
-			[Address(RVA = "0x3E9A220", Offset = "0x3E9A220", VA = "0x3E9A220", Slot = "7")]
+			[Token(Token = "0x6003371")]
+			[Address(RVA = "0x41A6AC0", Offset = "0x41A6AC0", VA = "0x41A6AC0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -348,64 +355,64 @@ internal class BaseCharacter : MonoBehaviourPunCallbacks, ITargetable
 			}
 		}
 
-		[Token(Token = "0x600315E")]
-		[Address(RVA = "0x3E98460", Offset = "0x3E98460", VA = "0x3E98460")]
+		[Token(Token = "0x600336C")]
+		[Address(RVA = "0x41A4D00", Offset = "0x41A4D00", VA = "0x41A4D00")]
 		[DebuggerHidden]
-		public _003CWaitAndNotifySpawn_003Ed__128(int _003C_003E1__state)
+		public _003CWaitAndNotifySpawn_003Ed__129(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x600315F")]
-		[Address(RVA = "0x3E99FB0", Offset = "0x3E99FB0", VA = "0x3E99FB0", Slot = "5")]
+		[Token(Token = "0x600336D")]
+		[Address(RVA = "0x41A6850", Offset = "0x41A6850", VA = "0x41A6850", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6003160")]
-		[Address(RVA = "0x3E99FC0", Offset = "0x3E99FC0", VA = "0x3E99FC0", Slot = "6")]
+		[Token(Token = "0x600336E")]
+		[Address(RVA = "0x41A6860", Offset = "0x41A6860", VA = "0x41A6860", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6003162")]
-		[Address(RVA = "0x3E9A1E0", Offset = "0x3E9A1E0", VA = "0x3E9A1E0", Slot = "8")]
+		[Token(Token = "0x6003370")]
+		[Address(RVA = "0x41A6A80", Offset = "0x41A6A80", VA = "0x41A6A80", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000494")]
+	[Token(Token = "0x20004D9")]
 	[CompilerGenerated]
 	private sealed class _003CWaitAndPlaySound_003Ed__103 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001476")]
+		[Token(Token = "0x4001587")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001477")]
+		[Token(Token = "0x4001588")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001478")]
+		[Token(Token = "0x4001589")]
 		[FieldOffset(Offset = "0x20")]
 		public float delay;
 
-		[Token(Token = "0x4001479")]
+		[Token(Token = "0x400158A")]
 		[FieldOffset(Offset = "0x28")]
 		public BaseCharacter _003C_003E4__this;
 
-		[Token(Token = "0x400147A")]
+		[Token(Token = "0x400158B")]
 		[FieldOffset(Offset = "0x30")]
 		public string sound;
 
-		[Token(Token = "0x17000952")]
+		[Token(Token = "0x170009BC")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6003167")]
-			[Address(RVA = "0x3E9A2F0", Offset = "0x3E9A2F0", VA = "0x3E9A2F0", Slot = "4")]
+			[Token(Token = "0x6003375")]
+			[Address(RVA = "0x41A6B90", Offset = "0x41A6B90", VA = "0x41A6B90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -413,11 +420,11 @@ internal class BaseCharacter : MonoBehaviourPunCallbacks, ITargetable
 			}
 		}
 
-		[Token(Token = "0x17000953")]
+		[Token(Token = "0x170009BD")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6003169")]
-			[Address(RVA = "0x3E9A340", Offset = "0x3E9A340", VA = "0x3E9A340", Slot = "7")]
+			[Token(Token = "0x6003377")]
+			[Address(RVA = "0x41A6BE0", Offset = "0x41A6BE0", VA = "0x41A6BE0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -425,903 +432,910 @@ internal class BaseCharacter : MonoBehaviourPunCallbacks, ITargetable
 			}
 		}
 
-		[Token(Token = "0x6003164")]
-		[Address(RVA = "0x3E955C0", Offset = "0x3E955C0", VA = "0x3E955C0")]
+		[Token(Token = "0x6003372")]
+		[Address(RVA = "0x41A1B60", Offset = "0x41A1B60", VA = "0x41A1B60")]
 		[DebuggerHidden]
 		public _003CWaitAndPlaySound_003Ed__103(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6003165")]
-		[Address(RVA = "0x3E9A230", Offset = "0x3E9A230", VA = "0x3E9A230", Slot = "5")]
+		[Token(Token = "0x6003373")]
+		[Address(RVA = "0x41A6AD0", Offset = "0x41A6AD0", VA = "0x41A6AD0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6003166")]
-		[Address(RVA = "0x3E9A240", Offset = "0x3E9A240", VA = "0x3E9A240", Slot = "6")]
+		[Token(Token = "0x6003374")]
+		[Address(RVA = "0x41A6AE0", Offset = "0x41A6AE0", VA = "0x41A6AE0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6003168")]
-		[Address(RVA = "0x3E9A300", Offset = "0x3E9A300", VA = "0x3E9A300", Slot = "8")]
+		[Token(Token = "0x6003376")]
+		[Address(RVA = "0x41A6BA0", Offset = "0x41A6BA0", VA = "0x41A6BA0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x400143F")]
+	[Token(Token = "0x4001550")]
 	[FieldOffset(Offset = "0x28")]
 	public bool FootstepsEnabled;
 
-	[Token(Token = "0x4001440")]
+	[Token(Token = "0x4001551")]
 	[FieldOffset(Offset = "0x29")]
 	public bool SoundsEnabled;
 
-	[Token(Token = "0x4001441")]
+	[Token(Token = "0x4001552")]
 	[FieldOffset(Offset = "0x2C")]
 	public float MaxFootstepDistance;
 
-	[Token(Token = "0x4001442")]
+	[Token(Token = "0x4001553")]
 	[FieldOffset(Offset = "0x30")]
 	public float MaxSoundDistance;
 
-	[Token(Token = "0x4001443")]
+	[Token(Token = "0x4001554")]
 	[FieldOffset(Offset = "0x34")]
 	protected float _disableKinematicTimeLeft;
 
-	[Token(Token = "0x4001444")]
+	[Token(Token = "0x4001555")]
 	[FieldOffset(Offset = "0x38")]
 	public string RichTextName;
 
-	[Token(Token = "0x4001445")]
+	[Token(Token = "0x4001556")]
 	[FieldOffset(Offset = "0x40")]
 	public string VisibleName;
 
-	[Token(Token = "0x4001446")]
+	[Token(Token = "0x4001557")]
 	[FieldOffset(Offset = "0x48")]
 	public bool HasExplicitNameTag;
 
-	[Token(Token = "0x4001447")]
+	[Token(Token = "0x4001558")]
 	[FieldOffset(Offset = "0x50")]
 	public string Guild;
 
-	[Token(Token = "0x4001448")]
+	[Token(Token = "0x4001559")]
 	[FieldOffset(Offset = "0x58")]
 	public string FeedKillerName;
 
-	[Token(Token = "0x4001449")]
+	[Token(Token = "0x400155A")]
 	[FieldOffset(Offset = "0x60")]
 	public string FeedVictimName;
 
-	[Token(Token = "0x400144A")]
+	[Token(Token = "0x400155B")]
 	[FieldOffset(Offset = "0x68")]
 	public bool Dead;
 
-	[Token(Token = "0x400144B")]
+	[Token(Token = "0x400155C")]
 	[FieldOffset(Offset = "0x69")]
 	public bool CustomDamageEnabled;
 
-	[Token(Token = "0x400144C")]
+	[Token(Token = "0x400155D")]
 	[FieldOffset(Offset = "0x6C")]
 	public int CustomDamage;
 
-	[Token(Token = "0x400144D")]
+	[Token(Token = "0x400155E")]
 	[FieldOffset(Offset = "0x70")]
 	public BaseComponentCache Cache;
 
-	[Token(Token = "0x400144E")]
+	[Token(Token = "0x400155F")]
 	[FieldOffset(Offset = "0x78")]
 	public bool AI;
 
-	[Token(Token = "0x400144F")]
+	[Token(Token = "0x4001560")]
 	[FieldOffset(Offset = "0x7C")]
 	public int MaxHealth;
 
-	[Token(Token = "0x4001450")]
+	[Token(Token = "0x4001561")]
 	[FieldOffset(Offset = "0x80")]
 	public int CurrentHealth;
 
-	[Token(Token = "0x4001451")]
+	[Token(Token = "0x4001562")]
 	[FieldOffset(Offset = "0x88")]
 	public string Team;
 
-	[Token(Token = "0x4001452")]
+	[Token(Token = "0x4001563")]
 	[FieldOffset(Offset = "0x90")]
 	public List<BaseUseable> Items;
 
-	[Token(Token = "0x4001453")]
+	[Token(Token = "0x4001564")]
 	[FieldOffset(Offset = "0x98")]
 	protected InGameManager _inGameManager;
 
-	[Token(Token = "0x4001454")]
+	[Token(Token = "0x4001565")]
 	[FieldOffset(Offset = "0xA0")]
 	protected bool _cameraFPS;
 
-	[Token(Token = "0x4001455")]
+	[Token(Token = "0x4001566")]
 	[FieldOffset(Offset = "0xA1")]
 	protected bool _wasMainCharacter;
 
-	[Token(Token = "0x4001456")]
+	[Token(Token = "0x4001567")]
 	[FieldOffset(Offset = "0xA8")]
 	public BaseMovementSync MovementSync;
 
-	[Token(Token = "0x4001457")]
+	[Token(Token = "0x4001568")]
 	[FieldOffset(Offset = "0xB0")]
 	public AnimationHandler Animation;
 
-	[Token(Token = "0x4001458")]
+	[Token(Token = "0x4001569")]
 	[FieldOffset(Offset = "0xB8")]
 	public BaseDetection Detection;
 
-	[Token(Token = "0x4001459")]
+	[Token(Token = "0x400156A")]
 	[FieldOffset(Offset = "0xC0")]
 	public float CurrentSpeed;
 
-	[Token(Token = "0x400145A")]
+	[Token(Token = "0x400156B")]
 	[FieldOffset(Offset = "0xC4")]
 	public bool Grounded;
 
-	[Token(Token = "0x400145B")]
+	[Token(Token = "0x400156C")]
 	[FieldOffset(Offset = "0xC5")]
 	public bool JustGrounded;
 
-	[Token(Token = "0x400145C")]
+	[Token(Token = "0x400156D")]
 	[FieldOffset(Offset = "0xC8")]
 	public float TargetAngle;
 
-	[Token(Token = "0x400145D")]
+	[Token(Token = "0x400156E")]
 	[FieldOffset(Offset = "0xCC")]
 	public bool HasDirection;
 
-	[Token(Token = "0x400145E")]
+	[Token(Token = "0x400156F")]
 	[FieldOffset(Offset = "0xD0")]
 	protected int _stepPhase;
 
-	[Token(Token = "0x400145F")]
+	[Token(Token = "0x4001570")]
 	[FieldOffset(Offset = "0xD4")]
 	private LayerMask GroundMaskLayers;
 
-	[Token(Token = "0x4001460")]
+	[Token(Token = "0x4001571")]
 	[FieldOffset(Offset = "0xD8")]
 	protected Outline OutlineComponent;
 
-	[Token(Token = "0x4001462")]
+	[Token(Token = "0x4001573")]
 	[FieldOffset(Offset = "0xE8")]
 	private object[] crossfadeCache;
 
-	[Token(Token = "0x17000942")]
+	[Token(Token = "0x170009AC")]
 	protected virtual int DefaultMaxHealth
 	{
-		[Token(Token = "0x60030DA")]
-		[Address(RVA = "0x3E92C00", Offset = "0x3E92C00", VA = "0x3E92C00", Slot = "57")]
+		[Token(Token = "0x60032E7")]
+		[Address(RVA = "0x419F1A0", Offset = "0x419F1A0", VA = "0x419F1A0", Slot = "57")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000943")]
+	[Token(Token = "0x170009AD")]
 	protected virtual Vector3 Gravity
 	{
-		[Token(Token = "0x60030DB")]
-		[Address(RVA = "0x3E92C10", Offset = "0x3E92C10", VA = "0x3E92C10", Slot = "58")]
+		[Token(Token = "0x60032E8")]
+		[Address(RVA = "0x419F1B0", Offset = "0x419F1B0", VA = "0x419F1B0", Slot = "58")]
 		get
 		{
 			return default(Vector3);
 		}
 	}
 
-	[Token(Token = "0x17000944")]
+	[Token(Token = "0x170009AE")]
 	public virtual List<string> EmoteActions
 	{
-		[Token(Token = "0x60030DC")]
-		[Address(RVA = "0x3E92C60", Offset = "0x3E92C60", VA = "0x3E92C60", Slot = "59")]
+		[Token(Token = "0x60032E9")]
+		[Address(RVA = "0x419F200", Offset = "0x419F200", VA = "0x419F200", Slot = "59")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000945")]
+	[Token(Token = "0x170009AF")]
 	public string Name
 	{
-		[Token(Token = "0x60030DD")]
-		[Address(RVA = "0x3E92CC0", Offset = "0x3E92CC0", VA = "0x3E92CC0")]
+		[Token(Token = "0x60032EA")]
+		[Address(RVA = "0x419F260", Offset = "0x419F260", VA = "0x419F260")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60030DE")]
-		[Address(RVA = "0x3E92CD0", Offset = "0x3E92CD0", VA = "0x3E92CD0")]
+		[Token(Token = "0x60032EB")]
+		[Address(RVA = "0x419F270", Offset = "0x419F270", VA = "0x419F270")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000946")]
+	[Token(Token = "0x170009B0")]
 	public virtual LayerMask GroundMask
 	{
-		[Token(Token = "0x60030DF")]
-		[Address(RVA = "0x3E92D50", Offset = "0x3E92D50", VA = "0x3E92D50", Slot = "60")]
+		[Token(Token = "0x60032EC")]
+		[Address(RVA = "0x419F2F0", Offset = "0x419F2F0", VA = "0x419F2F0", Slot = "60")]
 		get
 		{
 			return default(LayerMask);
 		}
 	}
 
-	[Token(Token = "0x17000947")]
+	[Token(Token = "0x170009B1")]
 	protected virtual float GroundDistance
 	{
-		[Token(Token = "0x60030E0")]
-		[Address(RVA = "0x3E92D60", Offset = "0x3E92D60", VA = "0x3E92D60", Slot = "61")]
+		[Token(Token = "0x60032ED")]
+		[Address(RVA = "0x419F300", Offset = "0x419F300", VA = "0x419F300", Slot = "61")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x14000002")]
+	[Token(Token = "0x14000003")]
 	public event Action<ExitGames.Client.Photon.Hashtable> OnPlayerPropertiesChanged
 	{
-		[Token(Token = "0x60030E1")]
-		[Address(RVA = "0x3E92D70", Offset = "0x3E92D70", VA = "0x3E92D70")]
+		[Token(Token = "0x60032EE")]
+		[Address(RVA = "0x419F310", Offset = "0x419F310", VA = "0x419F310")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x60030E2")]
-		[Address(RVA = "0x3E92E20", Offset = "0x3E92E20", VA = "0x3E92E20")]
+		[Token(Token = "0x60032EF")]
+		[Address(RVA = "0x419F3C0", Offset = "0x419F3C0", VA = "0x419F3C0")]
 		[CompilerGenerated]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x60030E3")]
-	[Address(RVA = "0x3E92ED0", Offset = "0x3E92ED0", VA = "0x3E92ED0", Slot = "47")]
+	[Token(Token = "0x60032F0")]
+	[Address(RVA = "0x419F470", Offset = "0x419F470", VA = "0x419F470", Slot = "47")]
 	public override void OnPlayerPropertiesUpdate(Player targetPlayer, ExitGames.Client.Photon.Hashtable changedProps)
 	{
 	}
 
-	[Token(Token = "0x60030E4")]
-	[Address(RVA = "0x3E92F20", Offset = "0x3E92F20", VA = "0x3E92F20")]
+	[Token(Token = "0x60032F1")]
+	[Address(RVA = "0x419F4C0", Offset = "0x419F4C0", VA = "0x419F4C0")]
 	public void SetKinematic(bool kinematic, float forTime = 0f)
 	{
 	}
 
-	[Token(Token = "0x60030E5")]
-	[Address(RVA = "0x3E92F70", Offset = "0x3E92F70", VA = "0x3E92F70")]
+	[Token(Token = "0x60032F2")]
+	[Address(RVA = "0x419F510", Offset = "0x419F510", VA = "0x419F510")]
 	public Vector3 GetVelocity()
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x60030E6")]
-	[Address(RVA = "0x3E93040", Offset = "0x3E93040", VA = "0x3E93040")]
+	[Token(Token = "0x60032F3")]
+	[Address(RVA = "0x419F5E0", Offset = "0x419F5E0", VA = "0x419F5E0")]
 	public void Reveal(float startDelay, float activeTime)
 	{
 	}
 
-	[Token(Token = "0x60030E7")]
-	[Address(RVA = "0x3E93170", Offset = "0x3E93170", VA = "0x3E93170")]
+	[Token(Token = "0x60032F4")]
+	[Address(RVA = "0x419F710", Offset = "0x419F710", VA = "0x419F710")]
 	public void AddOutline()
 	{
 	}
 
-	[Token(Token = "0x60030E8")]
-	[Address(RVA = "0x3E93250", Offset = "0x3E93250", VA = "0x3E93250")]
+	[Token(Token = "0x60032F5")]
+	[Address(RVA = "0x419F7F0", Offset = "0x419F7F0", VA = "0x419F7F0")]
 	public void AddVisibleOutlineWithColor(Color color)
 	{
 	}
 
-	[Token(Token = "0x60030E9")]
-	[Address(RVA = "0x3E93180", Offset = "0x3E93180", VA = "0x3E93180")]
+	[Token(Token = "0x60032F6")]
+	[Address(RVA = "0x419F720", Offset = "0x419F720", VA = "0x419F720")]
 	public void AddOutlineWithColor(Color color, Outline.Mode mode)
 	{
 	}
 
-	[Token(Token = "0x60030EA")]
-	[Address(RVA = "0x3E93260", Offset = "0x3E93260", VA = "0x3E93260")]
+	[Token(Token = "0x60032F7")]
+	[Address(RVA = "0x419F800", Offset = "0x419F800", VA = "0x419F800")]
 	public void ChangeOutlineColor(Color color)
 	{
 	}
 
-	[Token(Token = "0x60030EB")]
-	[Address(RVA = "0x3E932F0", Offset = "0x3E932F0", VA = "0x3E932F0")]
+	[Token(Token = "0x60032F8")]
+	[Address(RVA = "0x419F890", Offset = "0x419F890", VA = "0x419F890")]
 	public void ChangeOutlineMode(Outline.Mode mode)
 	{
 	}
 
-	[Token(Token = "0x60030EC")]
-	[Address(RVA = "0x3E93370", Offset = "0x3E93370", VA = "0x3E93370")]
+	[Token(Token = "0x60032F9")]
+	[Address(RVA = "0x419F910", Offset = "0x419F910", VA = "0x419F910")]
 	public void ChangeOutlineWidth(float width)
 	{
 	}
 
-	[Token(Token = "0x60030ED")]
-	[Address(RVA = "0x3E93400", Offset = "0x3E93400", VA = "0x3E93400")]
+	[Token(Token = "0x60032FA")]
+	[Address(RVA = "0x419F9A0", Offset = "0x419F9A0", VA = "0x419F9A0")]
 	public void RemoveOutline()
 	{
 	}
 
-	[Token(Token = "0x60030EE")]
-	[Address(RVA = "0x3E930E0", Offset = "0x3E930E0", VA = "0x3E930E0")]
+	[Token(Token = "0x60032FB")]
+	[Address(RVA = "0x419F680", Offset = "0x419F680", VA = "0x419F680")]
 	[IteratorStateMachine(typeof(_003CRevealAndRemove_003Ed__61))]
 	private IEnumerator RevealAndRemove(float startDelay, float seconds)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60030EF")]
-	[Address(RVA = "0x3E934A0", Offset = "0x3E934A0", VA = "0x3E934A0", Slot = "62")]
+	[Token(Token = "0x60032FC")]
+	[Address(RVA = "0x419FA40", Offset = "0x419FA40", VA = "0x419FA40", Slot = "62")]
 	public virtual string GetTeam()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60030F0")]
-	[Address(RVA = "0x3E934B0", Offset = "0x3E934B0", VA = "0x3E934B0", Slot = "63")]
+	[Token(Token = "0x60032FD")]
+	[Address(RVA = "0x419FA50", Offset = "0x419FA50", VA = "0x419FA50", Slot = "63")]
 	public virtual Vector3 GetPosition()
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x60030F1")]
-	[Address(RVA = "0x3E93570", Offset = "0x3E93570", VA = "0x3E93570", Slot = "64")]
+	[Token(Token = "0x60032FE")]
+	[Address(RVA = "0x419FB10", Offset = "0x419FB10", VA = "0x419FB10", Slot = "64")]
 	public virtual bool ValidTarget()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60030F2")]
-	[Address(RVA = "0x3E93020", Offset = "0x3E93020", VA = "0x3E93020")]
+	[Token(Token = "0x60032FF")]
+	[Address(RVA = "0x419F5C0", Offset = "0x419F5C0", VA = "0x419F5C0")]
 	public bool IsMine()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60030F3")]
-	[Address(RVA = "0x3E935D0", Offset = "0x3E935D0", VA = "0x3E935D0")]
+	[Token(Token = "0x6003300")]
+	[Address(RVA = "0x419FB70", Offset = "0x419FB70", VA = "0x419FB70")]
 	public bool IsMainCharacter()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60030F4")]
-	[Address(RVA = "0x3E93640", Offset = "0x3E93640", VA = "0x3E93640", Slot = "65")]
+	[Token(Token = "0x6003301")]
+	[Address(RVA = "0x419FBE0", Offset = "0x419FBE0", VA = "0x419FBE0", Slot = "65")]
 	public virtual void Init(bool ai, string team)
 	{
 	}
 
-	[Token(Token = "0x60030F5")]
-	[Address(RVA = "0x3E93A30", Offset = "0x3E93A30", VA = "0x3E93A30", Slot = "66")]
+	[Token(Token = "0x6003302")]
+	[Address(RVA = "0x419FFD0", Offset = "0x419FFD0", VA = "0x419FFD0", Slot = "66")]
 	public virtual Vector3 GetAimPoint()
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x60030F6")]
-	[Address(RVA = "0x3E93960", Offset = "0x3E93960", VA = "0x3E93960")]
+	[Token(Token = "0x6003303")]
+	[Address(RVA = "0x419FF00", Offset = "0x419FF00", VA = "0x419FF00")]
 	public void SetTeam(string team)
 	{
 	}
 
-	[Token(Token = "0x60030F7")]
-	[Address(RVA = "0x3E93AF0", Offset = "0x3E93AF0", VA = "0x3E93AF0", Slot = "67")]
+	[Token(Token = "0x6003304")]
+	[Address(RVA = "0x41A0090", Offset = "0x41A0090", VA = "0x41A0090", Slot = "67")]
 	public virtual Transform GetCameraAnchor()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60030F8")]
-	[Address(RVA = "0x3E93B10", Offset = "0x3E93B10", VA = "0x3E93B10", Slot = "68")]
+	[Token(Token = "0x6003305")]
+	[Address(RVA = "0x41A00B0", Offset = "0x41A00B0", VA = "0x41A00B0", Slot = "68")]
 	protected virtual void CreateCache(BaseComponentCache cache)
 	{
 	}
 
-	[Token(Token = "0x60030F9")]
-	[Address(RVA = "0x3E93BB0", Offset = "0x3E93BB0", VA = "0x3E93BB0", Slot = "69")]
+	[Token(Token = "0x6003306")]
+	[Address(RVA = "0x41A0150", Offset = "0x41A0150", VA = "0x41A0150", Slot = "69")]
 	protected virtual void CreateDetection()
 	{
 	}
 
-	[Token(Token = "0x60030FA")]
-	[Address(RVA = "0x3E93BD0", Offset = "0x3E93BD0", VA = "0x3E93BD0", Slot = "70")]
+	[Token(Token = "0x6003307")]
+	[Address(RVA = "0x41A0170", Offset = "0x41A0170", VA = "0x41A0170", Slot = "70")]
 	public virtual void Emote(string emote)
 	{
 	}
 
-	[Token(Token = "0x60030FB")]
-	[Address(RVA = "0x3E93BE0", Offset = "0x3E93BE0", VA = "0x3E93BE0", Slot = "71")]
+	[Token(Token = "0x6003308")]
+	[Address(RVA = "0x41A0180", Offset = "0x41A0180", VA = "0x41A0180", Slot = "71")]
 	public virtual void ForceAnimation(string animation, float fade)
 	{
 	}
 
-	[Token(Token = "0x60030FC")]
-	[Address(RVA = "0x3E93BF0", Offset = "0x3E93BF0", VA = "0x3E93BF0")]
+	[Token(Token = "0x6003309")]
+	[Address(RVA = "0x41A0190", Offset = "0x41A0190", VA = "0x41A0190")]
 	[PunRPC]
 	public void InitRPC(bool ai, string name, string guild, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x60030FD")]
-	[Address(RVA = "0x3E93D50", Offset = "0x3E93D50", VA = "0x3E93D50")]
+	[Token(Token = "0x600330A")]
+	[Address(RVA = "0x41A02F0", Offset = "0x41A02F0", VA = "0x41A02F0")]
 	[PunRPC]
 	public void SetHealthRPC(int currentHealth, int maxHealth, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x60030FE")]
-	[Address(RVA = "0x3E93DA0", Offset = "0x3E93DA0", VA = "0x3E93DA0")]
+	[Token(Token = "0x600330B")]
+	[Address(RVA = "0x41A0340", Offset = "0x41A0340", VA = "0x41A0340")]
 	[PunRPC]
 	public void SetTeamRPC(string team, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x60030FF")]
-	[Address(RVA = "0x3E942A0", Offset = "0x3E942A0", VA = "0x3E942A0")]
+	[Token(Token = "0x600330C")]
+	[Address(RVA = "0x41A0840", Offset = "0x41A0840", VA = "0x41A0840")]
 	public void SetCurrentHealth(int currentHealth)
 	{
 	}
 
-	[Token(Token = "0x6003100")]
-	[Address(RVA = "0x3E942F0", Offset = "0x3E942F0", VA = "0x3E942F0")]
+	[Token(Token = "0x600330D")]
+	[Address(RVA = "0x41A0890", Offset = "0x41A0890", VA = "0x41A0890")]
 	public void SetMaxHealth(int maxHealth)
 	{
 	}
 
-	[Token(Token = "0x6003101")]
-	[Address(RVA = "0x3E94350", Offset = "0x3E94350", VA = "0x3E94350")]
+	[Token(Token = "0x600330E")]
+	[Address(RVA = "0x41A08F0", Offset = "0x41A08F0", VA = "0x41A08F0")]
 	public void SetHealth(int health)
 	{
 	}
 
-	[Token(Token = "0x6003102")]
-	[Address(RVA = "0x3E943A0", Offset = "0x3E943A0", VA = "0x3E943A0", Slot = "72")]
+	[Token(Token = "0x600330F")]
+	[Address(RVA = "0x41A0940", Offset = "0x41A0940", VA = "0x41A0940", Slot = "72")]
 	public virtual void TakeDamage(int damage)
 	{
 	}
 
-	[Token(Token = "0x6003103")]
-	[Address(RVA = "0x3E94400", Offset = "0x3E94400", VA = "0x3E94400", Slot = "73")]
+	[Token(Token = "0x6003310")]
+	[Address(RVA = "0x41A09A0", Offset = "0x41A09A0", VA = "0x41A09A0", Slot = "73")]
 	public virtual void Die()
 	{
 	}
 
-	[Token(Token = "0x6003104")]
-	[Address(RVA = "0x3E94510", Offset = "0x3E94510", VA = "0x3E94510", Slot = "74")]
+	[Token(Token = "0x6003311")]
+	[Address(RVA = "0x41A0AB0", Offset = "0x41A0AB0", VA = "0x41A0AB0", Slot = "74")]
 	[IteratorStateMachine(typeof(_003CWaitAndDie_003Ed__83))]
 	protected virtual IEnumerator WaitAndDie()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003105")]
-	[Address(RVA = "0x3E945A0", Offset = "0x3E945A0", VA = "0x3E945A0", Slot = "75")]
+	[Token(Token = "0x6003312")]
+	[Address(RVA = "0x41A0B40", Offset = "0x41A0B40", VA = "0x41A0B40", Slot = "75")]
 	public virtual void UseItem(int item)
 	{
 	}
 
-	[Token(Token = "0x6003106")]
-	[Address(RVA = "0x3E94610", Offset = "0x3E94610", VA = "0x3E94610", Slot = "42")]
+	[Token(Token = "0x6003313")]
+	[Address(RVA = "0x41A0BB0", Offset = "0x41A0BB0", VA = "0x41A0BB0", Slot = "42")]
 	public override void OnPlayerEnteredRoom(Player player)
 	{
 	}
 
-	[Token(Token = "0x6003107")]
-	[Address(RVA = "0x3E94980", Offset = "0x3E94980", VA = "0x3E94980")]
+	[Token(Token = "0x6003314")]
+	[Address(RVA = "0x41A0F20", Offset = "0x41A0F20", VA = "0x41A0F20")]
 	public void PlayAnimation(string animation, float startTime = 0f)
 	{
 	}
 
-	[Token(Token = "0x6003108")]
-	[Address(RVA = "0x3E94AD0", Offset = "0x3E94AD0", VA = "0x3E94AD0")]
+	[Token(Token = "0x6003315")]
+	[Address(RVA = "0x41A1070", Offset = "0x41A1070", VA = "0x41A1070")]
 	public void PlayAnimationReset(string animation)
 	{
 	}
 
-	[Token(Token = "0x6003109")]
-	[Address(RVA = "0x3E94BB0", Offset = "0x3E94BB0", VA = "0x3E94BB0")]
+	[Token(Token = "0x6003316")]
+	[Address(RVA = "0x41A1150", Offset = "0x41A1150", VA = "0x41A1150")]
 	[PunRPC]
 	public void PlayAnimationRPC(string animation, float startTime, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x600310A")]
-	[Address(RVA = "0x3E94BF0", Offset = "0x3E94BF0", VA = "0x3E94BF0")]
+	[Token(Token = "0x6003317")]
+	[Address(RVA = "0x41A1190", Offset = "0x41A1190", VA = "0x41A1190")]
 	[PunRPC]
 	public void PlayAnimationResetRPC(string animation, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x600310B")]
-	[Address(RVA = "0x3E94C40", Offset = "0x3E94C40", VA = "0x3E94C40")]
+	[Token(Token = "0x6003318")]
+	[Address(RVA = "0x41A11E0", Offset = "0x41A11E0", VA = "0x41A11E0")]
 	public void PlayAnimationIfNotPlaying(string animation, float startTime = 0f)
 	{
 	}
 
-	[Token(Token = "0x600310C")]
-	[Address(RVA = "0x3E94CB0", Offset = "0x3E94CB0", VA = "0x3E94CB0")]
+	[Token(Token = "0x6003319")]
+	[Address(RVA = "0x41A1250", Offset = "0x41A1250", VA = "0x41A1250")]
 	public void CrossFade(string animation, float fadeTime = 0f, float startTime = 0f)
 	{
 	}
 
-	[Token(Token = "0x600310D")]
-	[Address(RVA = "0x3E94E80", Offset = "0x3E94E80", VA = "0x3E94E80")]
+	[Token(Token = "0x600331A")]
+	[Address(RVA = "0x41A1420", Offset = "0x41A1420", VA = "0x41A1420")]
 	public void CrossFadeWithSpeed(string animation, float speed, float fadeTime = 0f, float startTime = 0f)
 	{
 	}
 
-	[Token(Token = "0x600310E")]
-	[Address(RVA = "0x3E95090", Offset = "0x3E95090", VA = "0x3E95090")]
+	[Token(Token = "0x600331B")]
+	[Address(RVA = "0x41A1630", Offset = "0x41A1630", VA = "0x41A1630")]
 	public void CrossFadeIfNotPlaying(string animation, float fadeTime = 0f, float startTime = 0f)
 	{
 	}
 
-	[Token(Token = "0x600310F")]
-	[Address(RVA = "0x3E95110", Offset = "0x3E95110", VA = "0x3E95110")]
+	[Token(Token = "0x600331C")]
+	[Address(RVA = "0x41A16B0", Offset = "0x41A16B0", VA = "0x41A16B0")]
 	public float GetAnimationSpeed(string animation)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003110")]
-	[Address(RVA = "0x3E95170", Offset = "0x3E95170", VA = "0x3E95170")]
+	[Token(Token = "0x600331D")]
+	[Address(RVA = "0x41A1710", Offset = "0x41A1710", VA = "0x41A1710")]
 	public void SetAnimationSpeed(string animation, float speed)
 	{
 	}
 
-	[Token(Token = "0x6003111")]
-	[Address(RVA = "0x3E952B0", Offset = "0x3E952B0", VA = "0x3E952B0")]
+	[Token(Token = "0x600331E")]
+	[Address(RVA = "0x41A1850", Offset = "0x41A1850", VA = "0x41A1850")]
 	public void SetAnimationSpeedNonRPC(string animation, float speed)
 	{
 	}
 
-	[Token(Token = "0x6003112")]
-	[Address(RVA = "0x3E952D0", Offset = "0x3E952D0", VA = "0x3E952D0")]
+	[Token(Token = "0x600331F")]
+	[Address(RVA = "0x41A1870", Offset = "0x41A1870", VA = "0x41A1870")]
 	[PunRPC]
 	public void SetAnimationSpeedRPC(string animation, float speed, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6003113")]
-	[Address(RVA = "0x3E95310", Offset = "0x3E95310", VA = "0x3E95310")]
+	[Token(Token = "0x6003320")]
+	[Address(RVA = "0x41A18B0", Offset = "0x41A18B0", VA = "0x41A18B0")]
 	[PunRPC]
 	public void CrossFadeRPC(string animation, float fadeTime, float startTime, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6003114")]
-	[Address(RVA = "0x3E95350", Offset = "0x3E95350", VA = "0x3E95350")]
+	[Token(Token = "0x6003321")]
+	[Address(RVA = "0x41A18F0", Offset = "0x41A18F0", VA = "0x41A18F0")]
 	[PunRPC]
 	public void CrossFadeWithSpeedRPC(string animation, float speed, float fadeTime, float startTime, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6003115")]
-	[Address(RVA = "0x3E953D0", Offset = "0x3E953D0", VA = "0x3E953D0")]
+	[Token(Token = "0x6003322")]
+	[Address(RVA = "0x41A1970", Offset = "0x41A1970", VA = "0x41A1970")]
 	public void PlaySound(string sound)
 	{
 	}
 
-	[Token(Token = "0x6003116")]
-	[Address(RVA = "0x3E954B0", Offset = "0x3E954B0", VA = "0x3E954B0")]
+	[Token(Token = "0x6003323")]
+	[Address(RVA = "0x41A1A50", Offset = "0x41A1A50", VA = "0x41A1A50")]
 	public bool IsPlayingSound(string sound)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003117")]
-	[Address(RVA = "0x3E95520", Offset = "0x3E95520", VA = "0x3E95520")]
+	[Token(Token = "0x6003324")]
+	[Address(RVA = "0x41A1AC0", Offset = "0x41A1AC0", VA = "0x41A1AC0")]
 	[IteratorStateMachine(typeof(_003CWaitAndPlaySound_003Ed__103))]
 	protected IEnumerator WaitAndPlaySound(string sound, float delay)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003118")]
-	[Address(RVA = "0x3E955E0", Offset = "0x3E955E0", VA = "0x3E955E0", Slot = "76")]
+	[Token(Token = "0x6003325")]
+	[Address(RVA = "0x41A1B80", Offset = "0x41A1B80", VA = "0x41A1B80", Slot = "76")]
 	[PunRPC]
 	public virtual void PlaySoundRPC(string sound, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6003119")]
-	[Address(RVA = "0x3E956B0", Offset = "0x3E956B0", VA = "0x3E956B0")]
+	[Token(Token = "0x6003326")]
+	[Address(RVA = "0x41A1C50", Offset = "0x41A1C50", VA = "0x41A1C50")]
 	public void StopSound(string sound)
 	{
 	}
 
-	[Token(Token = "0x600311A")]
-	[Address(RVA = "0x3E95790", Offset = "0x3E95790", VA = "0x3E95790")]
+	[Token(Token = "0x6003327")]
+	[Address(RVA = "0x41A1D30", Offset = "0x41A1D30", VA = "0x41A1D30")]
 	public void FadeSound(string sound, float volume, float time)
 	{
 	}
 
-	[Token(Token = "0x600311B")]
-	[Address(RVA = "0x3E95940", Offset = "0x3E95940", VA = "0x3E95940", Slot = "77")]
+	[Token(Token = "0x6003328")]
+	[Address(RVA = "0x41A1EE0", Offset = "0x41A1EE0", VA = "0x41A1EE0", Slot = "77")]
 	[PunRPC]
 	public virtual void FadeSoundRPC(string sound, float volume, float time, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x600311C")]
-	[Address(RVA = "0x3E95B20", Offset = "0x3E95B20", VA = "0x3E95B20")]
+	[Token(Token = "0x6003329")]
+	[Address(RVA = "0x41A20C0", Offset = "0x41A20C0", VA = "0x41A20C0")]
 	[IteratorStateMachine(typeof(_003CFadeSoundOverTime_003Ed__108))]
 	private IEnumerator FadeSoundOverTime(AudioSource source, float volumeIncrement, float time)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600311D")]
-	[Address(RVA = "0x3E95BD0", Offset = "0x3E95BD0", VA = "0x3E95BD0")]
+	[Token(Token = "0x600332A")]
+	[Address(RVA = "0x41A2170", Offset = "0x41A2170", VA = "0x41A2170")]
 	[PunRPC]
 	public void StopSoundRPC(string sound, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x600311E")]
-	[Address(RVA = "0x3E95CA0", Offset = "0x3E95CA0", VA = "0x3E95CA0", Slot = "78")]
+	[Token(Token = "0x600332B")]
+	[Address(RVA = "0x41A2240", Offset = "0x41A2240", VA = "0x41A2240", Slot = "78")]
 	protected virtual void OnHealthChange()
 	{
 	}
 
-	[Token(Token = "0x600311F")]
-	[Address(RVA = "0x3E95E10", Offset = "0x3E95E10", VA = "0x3E95E10", Slot = "79")]
+	[Token(Token = "0x600332C")]
+	[Address(RVA = "0x41A23B0", Offset = "0x41A23B0", VA = "0x41A23B0", Slot = "79")]
 	public virtual void OnHit(BaseHitbox hitbox, object victim, Collider collider, string type, bool firstHit)
 	{
 	}
 
-	[Token(Token = "0x6003120")]
-	[Address(RVA = "0x3E95E20", Offset = "0x3E95E20", VA = "0x3E95E20", Slot = "80")]
+	[Token(Token = "0x600332D")]
+	[Address(RVA = "0x41A23C0", Offset = "0x41A23C0", VA = "0x41A23C0", Slot = "80")]
 	[PunRPC]
 	public virtual void GetHitRPC(int viewId, string name, int damage, string type, string collider)
 	{
 	}
 
-	[Token(Token = "0x6003121")]
-	[Address(RVA = "0x3E963A0", Offset = "0x3E963A0", VA = "0x3E963A0", Slot = "81")]
+	[Token(Token = "0x600332E")]
+	[Address(RVA = "0x41A2AB0", Offset = "0x41A2AB0", VA = "0x41A2AB0", Slot = "81")]
 	[PunRPC]
 	public virtual void GetDamagedRPC(string name, int damage)
 	{
 	}
 
-	[Token(Token = "0x6003122")]
-	[Address(RVA = "0x3E96880", Offset = "0x3E96880", VA = "0x3E96880", Slot = "82")]
+	[Token(Token = "0x600332F")]
+	[Address(RVA = "0x41A3050", Offset = "0x41A3050", VA = "0x41A3050", Slot = "82")]
 	[PunRPC]
 	public virtual void GetKilledRPC(string name)
 	{
 	}
 
-	[Token(Token = "0x6003123")]
-	[Address(RVA = "0x3E96C70", Offset = "0x3E96C70", VA = "0x3E96C70", Slot = "83")]
+	[Token(Token = "0x6003330")]
+	[Address(RVA = "0x41A29E0", Offset = "0x41A29E0", VA = "0x41A29E0")]
+	private static int KillFeedActorNumber(BaseCharacter character)
+	{
+		return default(int);
+	}
+
+	[Token(Token = "0x6003331")]
+	[Address(RVA = "0x41A3510", Offset = "0x41A3510", VA = "0x41A3510", Slot = "83")]
 	[PunRPC]
 	public virtual void MarkDeadRPC(PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6003124")]
-	[Address(RVA = "0x3E96CA0", Offset = "0x3E96CA0", VA = "0x3E96CA0")]
+	[Token(Token = "0x6003332")]
+	[Address(RVA = "0x41A3540", Offset = "0x41A3540", VA = "0x41A3540")]
 	[PunRPC]
 	public void NotifyDieRPC(int viewId, string name, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6003125")]
-	[Address(RVA = "0x3E96F70", Offset = "0x3E96F70", VA = "0x3E96F70")]
+	[Token(Token = "0x6003333")]
+	[Address(RVA = "0x41A3810", Offset = "0x41A3810", VA = "0x41A3810")]
 	[PunRPC]
 	public void NotifyDamagedRPC(int viewId, string name, int damage, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6003126")]
-	[Address(RVA = "0x3E97440", Offset = "0x3E97440", VA = "0x3E97440", Slot = "84")]
+	[Token(Token = "0x6003334")]
+	[Address(RVA = "0x41A3CE0", Offset = "0x41A3CE0", VA = "0x41A3CE0", Slot = "84")]
 	public virtual void GetHit(BaseCharacter enemy, int damage, string type, string collider)
 	{
 	}
 
-	[Token(Token = "0x6003127")]
-	[Address(RVA = "0x3E976E0", Offset = "0x3E976E0", VA = "0x3E976E0", Slot = "85")]
+	[Token(Token = "0x6003335")]
+	[Address(RVA = "0x41A3F80", Offset = "0x41A3F80", VA = "0x41A3F80", Slot = "85")]
 	public virtual void GetHit(string name, int damage, string type, string collider)
 	{
 	}
 
-	[Token(Token = "0x6003128")]
-	[Address(RVA = "0x3E97910", Offset = "0x3E97910", VA = "0x3E97910", Slot = "86")]
+	[Token(Token = "0x6003336")]
+	[Address(RVA = "0x41A41B0", Offset = "0x41A41B0", VA = "0x41A41B0", Slot = "86")]
 	public virtual void GetDamaged(string name, int damage)
 	{
 	}
 
-	[Token(Token = "0x6003129")]
-	[Address(RVA = "0x3E97A60", Offset = "0x3E97A60", VA = "0x3E97A60", Slot = "87")]
+	[Token(Token = "0x6003337")]
+	[Address(RVA = "0x41A4300", Offset = "0x41A4300", VA = "0x41A4300", Slot = "87")]
 	public virtual void GetKilled(string name)
 	{
 	}
 
-	[Token(Token = "0x600312A")]
-	[Address(RVA = "0x3E97B60", Offset = "0x3E97B60", VA = "0x3E97B60", Slot = "88")]
+	[Token(Token = "0x6003338")]
+	[Address(RVA = "0x41A4400", Offset = "0x41A4400", VA = "0x41A4400", Slot = "88")]
 	public virtual void BlowAway(Vector3 source, float force, float maxDistance)
 	{
 	}
 
-	[Token(Token = "0x600312B")]
-	[Address(RVA = "0x3E97D60", Offset = "0x3E97D60", VA = "0x3E97D60", Slot = "89")]
+	[Token(Token = "0x6003339")]
+	[Address(RVA = "0x41A4600", Offset = "0x41A4600", VA = "0x41A4600", Slot = "89")]
 	[PunRPC]
 	public virtual void BlowAwayRPC(Vector3 source, float force, float maxDistance)
 	{
 	}
 
-	[Token(Token = "0x600312C")]
-	[Address(RVA = "0x3E980C0", Offset = "0x3E980C0", VA = "0x3E980C0", Slot = "90")]
+	[Token(Token = "0x600333A")]
+	[Address(RVA = "0x41A4960", Offset = "0x41A4960", VA = "0x41A4960", Slot = "90")]
 	protected virtual void Awake()
 	{
 	}
 
-	[Token(Token = "0x600312D")]
-	[Address(RVA = "0x3E982E0", Offset = "0x3E982E0", VA = "0x3E982E0", Slot = "91")]
+	[Token(Token = "0x600333B")]
+	[Address(RVA = "0x41A4B80", Offset = "0x41A4B80", VA = "0x41A4B80", Slot = "91")]
 	protected virtual void CreateCharacterIcon()
 	{
 	}
 
-	[Token(Token = "0x600312E")]
-	[Address(RVA = "0x3E982F0", Offset = "0x3E982F0", VA = "0x3E982F0", Slot = "92")]
+	[Token(Token = "0x600333C")]
+	[Address(RVA = "0x41A4B90", Offset = "0x41A4B90", VA = "0x41A4B90", Slot = "92")]
 	protected virtual void SetColliders()
 	{
 	}
 
-	[Token(Token = "0x600312F")]
-	[Address(RVA = "0x3E98300", Offset = "0x3E98300", VA = "0x3E98300", Slot = "93")]
+	[Token(Token = "0x600333D")]
+	[Address(RVA = "0x41A4BA0", Offset = "0x41A4BA0", VA = "0x41A4BA0", Slot = "93")]
 	protected virtual void Start()
 	{
 	}
 
-	[Token(Token = "0x6003130")]
-	[Address(RVA = "0x3E983F0", Offset = "0x3E983F0", VA = "0x3E983F0")]
-	[IteratorStateMachine(typeof(_003CWaitAndNotifySpawn_003Ed__128))]
+	[Token(Token = "0x600333E")]
+	[Address(RVA = "0x41A4C90", Offset = "0x41A4C90", VA = "0x41A4C90")]
+	[IteratorStateMachine(typeof(_003CWaitAndNotifySpawn_003Ed__129))]
 	protected IEnumerator WaitAndNotifySpawn()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003131")]
-	[Address(RVA = "0x3E98480", Offset = "0x3E98480", VA = "0x3E98480")]
-	[IteratorStateMachine(typeof(_003CWaitAndNotifyReloaded_003Ed__129))]
+	[Token(Token = "0x600333F")]
+	[Address(RVA = "0x41A4D20", Offset = "0x41A4D20", VA = "0x41A4D20")]
+	[IteratorStateMachine(typeof(_003CWaitAndNotifyReloaded_003Ed__130))]
 	protected IEnumerator WaitAndNotifyReloaded()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003132")]
-	[Address(RVA = "0x3E94960", Offset = "0x3E94960", VA = "0x3E94960")]
+	[Token(Token = "0x6003340")]
+	[Address(RVA = "0x41A0F00", Offset = "0x41A0F00", VA = "0x41A0F00")]
 	public string GetCurrentAnimation()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003133")]
-	[Address(RVA = "0x3E98510", Offset = "0x3E98510", VA = "0x3E98510", Slot = "94")]
+	[Token(Token = "0x6003341")]
+	[Address(RVA = "0x41A4DB0", Offset = "0x41A4DB0", VA = "0x41A4DB0", Slot = "94")]
 	public virtual Quaternion GetTargetRotation()
 	{
 		return default(Quaternion);
 	}
 
-	[Token(Token = "0x6003134")]
-	[Address(RVA = "0x3E98540", Offset = "0x3E98540", VA = "0x3E98540", Slot = "95")]
+	[Token(Token = "0x6003342")]
+	[Address(RVA = "0x41A4DE0", Offset = "0x41A4DE0", VA = "0x41A4DE0", Slot = "95")]
 	public virtual Vector3 GetTargetDirection()
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x6003135")]
-	[Address(RVA = "0x3E98690", Offset = "0x3E98690", VA = "0x3E98690")]
+	[Token(Token = "0x6003343")]
+	[Address(RVA = "0x41A4F30", Offset = "0x41A4F30", VA = "0x41A4F30")]
 	protected float GetAngleToTarget(Vector3 targetDirection)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003136")]
-	[Address(RVA = "0x3E98780", Offset = "0x3E98780", VA = "0x3E98780", Slot = "96")]
+	[Token(Token = "0x6003344")]
+	[Address(RVA = "0x41A5020", Offset = "0x41A5020", VA = "0x41A5020", Slot = "96")]
 	protected virtual void CheckGround()
 	{
 	}
 
-	[Token(Token = "0x6003137")]
-	[Address(RVA = "0x3E988F0", Offset = "0x3E988F0", VA = "0x3E988F0", Slot = "97")]
+	[Token(Token = "0x6003345")]
+	[Address(RVA = "0x41A5190", Offset = "0x41A5190", VA = "0x41A5190", Slot = "97")]
 	public virtual bool CheckRaycastIgnoreTriggers(Vector3 origin, Vector3 direction, float distance, int layerMask)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003138")]
-	[Address(RVA = "0x3E98980", Offset = "0x3E98980", VA = "0x3E98980", Slot = "98")]
+	[Token(Token = "0x6003346")]
+	[Address(RVA = "0x41A5220", Offset = "0x41A5220", VA = "0x41A5220", Slot = "98")]
 	protected virtual RaycastHit? RaycastIgnoreTriggers(Vector3 origin, Vector3 direction, float distance, int layerMask)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003139")]
-	[Address(RVA = "0x3E98B50", Offset = "0x3E98B50", VA = "0x3E98B50", Slot = "99")]
+	[Token(Token = "0x6003347")]
+	[Address(RVA = "0x41A53F0", Offset = "0x41A53F0", VA = "0x41A53F0", Slot = "99")]
 	protected virtual void ToggleSound(string sound, bool toggle)
 	{
 	}
 
-	[Token(Token = "0x600313A")]
-	[Address(RVA = "0x3E98C20", Offset = "0x3E98C20", VA = "0x3E98C20", Slot = "100")]
+	[Token(Token = "0x6003348")]
+	[Address(RVA = "0x41A54C0", Offset = "0x41A54C0", VA = "0x41A54C0", Slot = "100")]
 	protected virtual void ToggleSoundLocal(string sound, bool toggle)
 	{
 	}
 
-	[Token(Token = "0x600313B")]
-	[Address(RVA = "0x3E98DC0", Offset = "0x3E98DC0", VA = "0x3E98DC0", Slot = "101")]
+	[Token(Token = "0x6003349")]
+	[Address(RVA = "0x41A5660", Offset = "0x41A5660", VA = "0x41A5660", Slot = "101")]
 	protected virtual void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x600313C")]
-	[Address(RVA = "0x3E98DD0", Offset = "0x3E98DD0", VA = "0x3E98DD0", Slot = "102")]
+	[Token(Token = "0x600334A")]
+	[Address(RVA = "0x41A5670", Offset = "0x41A5670", VA = "0x41A5670", Slot = "102")]
 	protected virtual void FixedUpdate()
 	{
 	}
 
-	[Token(Token = "0x600313D")]
-	[Address(RVA = "0x3E98EE0", Offset = "0x3E98EE0", VA = "0x3E98EE0", Slot = "103")]
+	[Token(Token = "0x600334B")]
+	[Address(RVA = "0x41A5780", Offset = "0x41A5780", VA = "0x41A5780", Slot = "103")]
 	protected virtual void LateUpdate()
 	{
 	}
 
-	[Token(Token = "0x600313E")]
-	[Address(RVA = "0x3E98F10", Offset = "0x3E98F10", VA = "0x3E98F10", Slot = "104")]
+	[Token(Token = "0x600334C")]
+	[Address(RVA = "0x41A57B0", Offset = "0x41A57B0", VA = "0x41A57B0", Slot = "104")]
 	protected virtual void LateUpdateFootstep()
 	{
 	}
 
-	[Token(Token = "0x600313F")]
-	[Address(RVA = "0x3E99050", Offset = "0x3E99050", VA = "0x3E99050", Slot = "105")]
+	[Token(Token = "0x600334D")]
+	[Address(RVA = "0x41A58F0", Offset = "0x41A58F0", VA = "0x41A58F0", Slot = "105")]
 	protected virtual void LateUpdateFPS()
 	{
 	}
 
-	[Token(Token = "0x6003140")]
-	[Address(RVA = "0x3E99450", Offset = "0x3E99450", VA = "0x3E99450", Slot = "106")]
+	[Token(Token = "0x600334E")]
+	[Address(RVA = "0x41A5CF0", Offset = "0x41A5CF0", VA = "0x41A5CF0", Slot = "106")]
 	protected virtual int GetFootstepPhase()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6003141")]
-	[Address(RVA = "0x3E99460", Offset = "0x3E99460", VA = "0x3E99460", Slot = "107")]
+	[Token(Token = "0x600334F")]
+	[Address(RVA = "0x41A5D00", Offset = "0x41A5D00", VA = "0x41A5D00", Slot = "107")]
 	protected virtual string GetFootstepAudio(int phase)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003142")]
-	[Address(RVA = "0x3E99490", Offset = "0x3E99490", VA = "0x3E99490", Slot = "108")]
+	[Token(Token = "0x6003350")]
+	[Address(RVA = "0x41A5D30", Offset = "0x41A5D30", VA = "0x41A5D30", Slot = "108")]
 	protected virtual List<Renderer> GetFPSDisabledRenderers()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003143")]
-	[Address(RVA = "0x3E994F0", Offset = "0x3E994F0", VA = "0x3E994F0")]
+	[Token(Token = "0x6003351")]
+	[Address(RVA = "0x41A5D90", Offset = "0x41A5D90", VA = "0x41A5D90")]
 	protected void AddRendererIfExists(List<Renderer> renderers, GameObject go, bool multiple = false)
 	{
 	}
 
-	[Token(Token = "0x6003144")]
-	[Address(RVA = "0x3E99790", Offset = "0x3E99790", VA = "0x3E99790", Slot = "109")]
+	[Token(Token = "0x6003352")]
+	[Address(RVA = "0x41A6030", Offset = "0x41A6030", VA = "0x41A6030", Slot = "109")]
 	public virtual Vector3 GetCenterPosition()
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x6003145")]
-	[Address(RVA = "0x3E997B0", Offset = "0x3E997B0", VA = "0x3E997B0")]
+	[Token(Token = "0x6003353")]
+	[Address(RVA = "0x41A6050", Offset = "0x41A6050", VA = "0x41A6050")]
 	public BaseCharacter()
 	{
 	}

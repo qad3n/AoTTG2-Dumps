@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlRootAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Text;
 using Il2CppDummyDll;
 
@@ -27,13 +34,13 @@ public class XmlRootAttribute : Attribute
 	public string DataType
 	{
 		[Token(Token = "0x6000D8C")]
-		[Address(RVA = "0x44E0EC0", Offset = "0x44E0EC0", VA = "0x44E0EC0")]
+		[Address(RVA = "0x481E620", Offset = "0x481E620", VA = "0x481E620")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000D8D")]
-		[Address(RVA = "0x44E0EF0", Offset = "0x44E0EF0", VA = "0x44E0EF0")]
+		[Address(RVA = "0x481E650", Offset = "0x481E650", VA = "0x481E650")]
 		set
 		{
 		}
@@ -43,13 +50,13 @@ public class XmlRootAttribute : Attribute
 	public string ElementName
 	{
 		[Token(Token = "0x6000D8E")]
-		[Address(RVA = "0x44DBED0", Offset = "0x44DBED0", VA = "0x44DBED0")]
+		[Address(RVA = "0x4819630", Offset = "0x4819630", VA = "0x4819630")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000D8F")]
-		[Address(RVA = "0x44E0F00", Offset = "0x44E0F00", VA = "0x44E0F00")]
+		[Address(RVA = "0x481E660", Offset = "0x481E660", VA = "0x481E660")]
 		set
 		{
 		}
@@ -59,13 +66,13 @@ public class XmlRootAttribute : Attribute
 	public bool IsNullable
 	{
 		[Token(Token = "0x6000D90")]
-		[Address(RVA = "0x44E0F10", Offset = "0x44E0F10", VA = "0x44E0F10")]
+		[Address(RVA = "0x481E670", Offset = "0x481E670", VA = "0x481E670")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000D91")]
-		[Address(RVA = "0x44E0F20", Offset = "0x44E0F20", VA = "0x44E0F20")]
+		[Address(RVA = "0x481E680", Offset = "0x481E680", VA = "0x481E680")]
 		set
 		{
 		}
@@ -75,32 +82,32 @@ public class XmlRootAttribute : Attribute
 	public string Namespace
 	{
 		[Token(Token = "0x6000D92")]
-		[Address(RVA = "0x44E0F30", Offset = "0x44E0F30", VA = "0x44E0F30")]
+		[Address(RVA = "0x481E690", Offset = "0x481E690", VA = "0x481E690")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000D93")]
-		[Address(RVA = "0x44E0F40", Offset = "0x44E0F40", VA = "0x44E0F40")]
+		[Address(RVA = "0x481E6A0", Offset = "0x481E6A0", VA = "0x481E6A0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000D8A")]
-	[Address(RVA = "0x44E0E80", Offset = "0x44E0E80", VA = "0x44E0E80")]
+	[Address(RVA = "0x481E5E0", Offset = "0x481E5E0", VA = "0x481E5E0")]
 	public XmlRootAttribute()
 	{
 	}
 
 	[Token(Token = "0x6000D8B")]
-	[Address(RVA = "0x44E0E90", Offset = "0x44E0E90", VA = "0x44E0E90")]
+	[Address(RVA = "0x481E5F0", Offset = "0x481E5F0", VA = "0x481E5F0")]
 	public XmlRootAttribute(string elementName)
 	{
 	}
 
 	[Token(Token = "0x6000D94")]
-	[Address(RVA = "0x44D6420", Offset = "0x44D6420", VA = "0x44D6420")]
+	[Address(RVA = "0x4813B80", Offset = "0x4813B80", VA = "0x4813B80")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

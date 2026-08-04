@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UIR.Allocator2D
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -19,7 +26,7 @@ internal class Allocator2D
 		public BestFitAllocator allocator;
 
 		[Token(Token = "0x6001C6A")]
-		[Address(RVA = "0x4C59680", Offset = "0x4C59680", VA = "0x4C59680")]
+		[Address(RVA = "0x4F80FB0", Offset = "0x4F80FB0", VA = "0x4F80FB0")]
 		public Area(RectInt rect)
 		{
 		}
@@ -54,7 +61,7 @@ internal class Allocator2D
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6001C6B")]
-		[Address(RVA = "0x4C59700", Offset = "0x4C59700", VA = "0x4C59700")]
+		[Address(RVA = "0x4F81030", Offset = "0x4F81030", VA = "0x4F81030")]
 		private static Row Create()
 		{
 			return null;
@@ -62,13 +69,13 @@ internal class Allocator2D
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6001C6C")]
-		[Address(RVA = "0x4C597B0", Offset = "0x4C597B0", VA = "0x4C597B0")]
+		[Address(RVA = "0x4F810E0", Offset = "0x4F810E0", VA = "0x4F810E0")]
 		private static void Reset(Row row)
 		{
 		}
 
 		[Token(Token = "0x6001C6D")]
-		[Address(RVA = "0x4C59770", Offset = "0x4C59770", VA = "0x4C59770")]
+		[Address(RVA = "0x4F810A0", Offset = "0x4F810A0", VA = "0x4F810A0")]
 		public Row()
 		{
 		}
@@ -90,7 +97,7 @@ internal class Allocator2D
 		public Alloc alloc;
 
 		[Token(Token = "0x6001C6F")]
-		[Address(RVA = "0x4C59320", Offset = "0x4C59320", VA = "0x4C59320")]
+		[Address(RVA = "0x4F80C50", Offset = "0x4F80C50", VA = "0x4F80C50")]
 		public Alloc2D(Row row, Alloc alloc, int width, int height)
 		{
 		}
@@ -121,39 +128,39 @@ internal class Allocator2D
 	private readonly List<Area> m_Areas;
 
 	[Token(Token = "0x6001C64")]
-	[Address(RVA = "0x4C58530", Offset = "0x4C58530", VA = "0x4C58530")]
+	[Address(RVA = "0x4F7FE60", Offset = "0x4F7FE60", VA = "0x4F7FE60")]
 	public Allocator2D(Vector2Int minSize, Vector2Int maxSize, int rowHeightBias)
 	{
 	}
 
 	[Token(Token = "0x6001C65")]
-	[Address(RVA = "0x4C58CB0", Offset = "0x4C58CB0", VA = "0x4C58CB0")]
+	[Address(RVA = "0x4F805E0", Offset = "0x4F805E0", VA = "0x4F805E0")]
 	public bool TryAllocate(int width, int height, out Alloc2D alloc2D)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C66")]
-	[Address(RVA = "0x4C59440", Offset = "0x4C59440", VA = "0x4C59440")]
+	[Address(RVA = "0x4F80D70", Offset = "0x4F80D70", VA = "0x4F80D70")]
 	public void Free(Alloc2D alloc2D)
 	{
 	}
 
 	[Token(Token = "0x6001C67")]
-	[Address(RVA = "0x4C587C0", Offset = "0x4C587C0", VA = "0x4C587C0")]
+	[Address(RVA = "0x4F800F0", Offset = "0x4F800F0", VA = "0x4F800F0")]
 	private static void BuildAreas(List<Area> areas, Vector2Int minSize, Vector2Int maxSize)
 	{
 	}
 
 	[Token(Token = "0x6001C68")]
-	[Address(RVA = "0x4C58B40", Offset = "0x4C58B40", VA = "0x4C58B40")]
+	[Address(RVA = "0x4F80470", Offset = "0x4F80470", VA = "0x4F80470")]
 	private static Vector2Int ComputeMaxAllocSize(List<Area> areas, int rowHeightBias)
 	{
 		return default(Vector2Int);
 	}
 
 	[Token(Token = "0x6001C69")]
-	[Address(RVA = "0x4C58C40", Offset = "0x4C58C40", VA = "0x4C58C40")]
+	[Address(RVA = "0x4F80570", Offset = "0x4F80570", VA = "0x4F80570")]
 	private static Row[] BuildRowArray(int maxRowHeight, int rowHeightBias)
 	{
 		return null;

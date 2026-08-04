@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: TMPro.TMP_InputField
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -11,168 +18,168 @@ using UnityEngine.UI;
 
 namespace TMPro;
 
-[Token(Token = "0x200003F")]
+[Token(Token = "0x2000055")]
 [AddComponentMenu("UI/TextMeshPro - Input Field", 11)]
 public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHandler, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerClickHandler, ISubmitHandler, ICanvasElement, ILayoutElement, IScrollHandler
 {
-	[Token(Token = "0x2000040")]
+	[Token(Token = "0x2000056")]
 	public enum ContentType
 	{
-		[Token(Token = "0x40001AE")]
+		[Token(Token = "0x40002A2")]
 		Standard,
-		[Token(Token = "0x40001AF")]
+		[Token(Token = "0x40002A3")]
 		Autocorrected,
-		[Token(Token = "0x40001B0")]
+		[Token(Token = "0x40002A4")]
 		IntegerNumber,
-		[Token(Token = "0x40001B1")]
+		[Token(Token = "0x40002A5")]
 		DecimalNumber,
-		[Token(Token = "0x40001B2")]
+		[Token(Token = "0x40002A6")]
 		Alphanumeric,
-		[Token(Token = "0x40001B3")]
+		[Token(Token = "0x40002A7")]
 		Name,
-		[Token(Token = "0x40001B4")]
+		[Token(Token = "0x40002A8")]
 		EmailAddress,
-		[Token(Token = "0x40001B5")]
+		[Token(Token = "0x40002A9")]
 		Password,
-		[Token(Token = "0x40001B6")]
+		[Token(Token = "0x40002AA")]
 		Pin,
-		[Token(Token = "0x40001B7")]
+		[Token(Token = "0x40002AB")]
 		Custom
 	}
 
-	[Token(Token = "0x2000041")]
+	[Token(Token = "0x2000057")]
 	public enum InputType
 	{
-		[Token(Token = "0x40001B9")]
+		[Token(Token = "0x40002AD")]
 		Standard,
-		[Token(Token = "0x40001BA")]
+		[Token(Token = "0x40002AE")]
 		AutoCorrect,
-		[Token(Token = "0x40001BB")]
+		[Token(Token = "0x40002AF")]
 		Password
 	}
 
-	[Token(Token = "0x2000042")]
+	[Token(Token = "0x2000058")]
 	public enum CharacterValidation
 	{
-		[Token(Token = "0x40001BD")]
+		[Token(Token = "0x40002B1")]
 		None,
-		[Token(Token = "0x40001BE")]
+		[Token(Token = "0x40002B2")]
 		Digit,
-		[Token(Token = "0x40001BF")]
+		[Token(Token = "0x40002B3")]
 		Integer,
-		[Token(Token = "0x40001C0")]
+		[Token(Token = "0x40002B4")]
 		Decimal,
-		[Token(Token = "0x40001C1")]
+		[Token(Token = "0x40002B5")]
 		Alphanumeric,
-		[Token(Token = "0x40001C2")]
+		[Token(Token = "0x40002B6")]
 		Name,
-		[Token(Token = "0x40001C3")]
+		[Token(Token = "0x40002B7")]
 		Regex,
-		[Token(Token = "0x40001C4")]
+		[Token(Token = "0x40002B8")]
 		EmailAddress,
-		[Token(Token = "0x40001C5")]
+		[Token(Token = "0x40002B9")]
 		CustomValidator
 	}
 
-	[Token(Token = "0x2000043")]
+	[Token(Token = "0x2000059")]
 	public enum LineType
 	{
-		[Token(Token = "0x40001C7")]
+		[Token(Token = "0x40002BB")]
 		SingleLine,
-		[Token(Token = "0x40001C8")]
+		[Token(Token = "0x40002BC")]
 		MultiLineSubmit,
-		[Token(Token = "0x40001C9")]
+		[Token(Token = "0x40002BD")]
 		MultiLineNewline
 	}
 
-	[Token(Token = "0x2000044")]
+	[Token(Token = "0x200005A")]
 	public delegate char OnValidateInput(string text, int charIndex, char addedChar);
 
 	[Serializable]
-	[Token(Token = "0x2000045")]
+	[Token(Token = "0x200005B")]
 	public class SubmitEvent : UnityEvent<string>
 	{
-		[Token(Token = "0x6000280")]
-		[Address(RVA = "0x49364D0", Offset = "0x49364D0", VA = "0x49364D0")]
+		[Token(Token = "0x6000371")]
+		[Address(RVA = "0x4C83A50", Offset = "0x4C83A50", VA = "0x4C83A50")]
 		public SubmitEvent()
 		{
 		}
 	}
 
 	[Serializable]
-	[Token(Token = "0x2000046")]
+	[Token(Token = "0x200005C")]
 	public class OnChangeEvent : UnityEvent<string>
 	{
-		[Token(Token = "0x6000281")]
-		[Address(RVA = "0x4936510", Offset = "0x4936510", VA = "0x4936510")]
+		[Token(Token = "0x6000372")]
+		[Address(RVA = "0x4C83A90", Offset = "0x4C83A90", VA = "0x4C83A90")]
 		public OnChangeEvent()
 		{
 		}
 	}
 
 	[Serializable]
-	[Token(Token = "0x2000047")]
+	[Token(Token = "0x200005D")]
 	public class SelectionEvent : UnityEvent<string>
 	{
-		[Token(Token = "0x6000282")]
-		[Address(RVA = "0x4936550", Offset = "0x4936550", VA = "0x4936550")]
+		[Token(Token = "0x6000373")]
+		[Address(RVA = "0x4C83AD0", Offset = "0x4C83AD0", VA = "0x4C83AD0")]
 		public SelectionEvent()
 		{
 		}
 	}
 
 	[Serializable]
-	[Token(Token = "0x2000048")]
+	[Token(Token = "0x200005E")]
 	public class TextSelectionEvent : UnityEvent<string, int, int>
 	{
-		[Token(Token = "0x6000283")]
-		[Address(RVA = "0x4936590", Offset = "0x4936590", VA = "0x4936590")]
+		[Token(Token = "0x6000374")]
+		[Address(RVA = "0x4C83B10", Offset = "0x4C83B10", VA = "0x4C83B10")]
 		public TextSelectionEvent()
 		{
 		}
 	}
 
 	[Serializable]
-	[Token(Token = "0x2000049")]
+	[Token(Token = "0x200005F")]
 	public class TouchScreenKeyboardEvent : UnityEvent<TouchScreenKeyboard.Status>
 	{
-		[Token(Token = "0x6000284")]
-		[Address(RVA = "0x49365D0", Offset = "0x49365D0", VA = "0x49365D0")]
+		[Token(Token = "0x6000375")]
+		[Address(RVA = "0x4C83B50", Offset = "0x4C83B50", VA = "0x4C83B50")]
 		public TouchScreenKeyboardEvent()
 		{
 		}
 	}
 
-	[Token(Token = "0x200004A")]
+	[Token(Token = "0x2000060")]
 	protected enum EditState
 	{
-		[Token(Token = "0x40001CB")]
+		[Token(Token = "0x40002BF")]
 		Continue,
-		[Token(Token = "0x40001CC")]
+		[Token(Token = "0x40002C0")]
 		Finish
 	}
 
-	[Token(Token = "0x200004B")]
+	[Token(Token = "0x2000061")]
 	[CompilerGenerated]
 	private sealed class _003CCaretBlink_003Ed__276 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x40001CD")]
+		[Token(Token = "0x40002C1")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40001CE")]
+		[Token(Token = "0x40002C2")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x40001CF")]
+		[Token(Token = "0x40002C3")]
 		[FieldOffset(Offset = "0x20")]
 		public TMP_InputField _003C_003E4__this;
 
-		[Token(Token = "0x17000095")]
+		[Token(Token = "0x170000B6")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000288")]
-			[Address(RVA = "0x49367A0", Offset = "0x49367A0", VA = "0x49367A0", Slot = "4")]
+			[Token(Token = "0x6000379")]
+			[Address(RVA = "0x4C83D20", Offset = "0x4C83D20", VA = "0x4C83D20", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -180,11 +187,11 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 			}
 		}
 
-		[Token(Token = "0x17000096")]
+		[Token(Token = "0x170000B7")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600028A")]
-			[Address(RVA = "0x49367F0", Offset = "0x49367F0", VA = "0x49367F0", Slot = "7")]
+			[Token(Token = "0x600037B")]
+			[Address(RVA = "0x4C83D70", Offset = "0x4C83D70", VA = "0x4C83D70", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -192,60 +199,60 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 			}
 		}
 
-		[Token(Token = "0x6000285")]
-		[Address(RVA = "0x4936610", Offset = "0x4936610", VA = "0x4936610")]
+		[Token(Token = "0x6000376")]
+		[Address(RVA = "0x4C83B90", Offset = "0x4C83B90", VA = "0x4C83B90")]
 		[DebuggerHidden]
 		public _003CCaretBlink_003Ed__276(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000286")]
-		[Address(RVA = "0x4936630", Offset = "0x4936630", VA = "0x4936630", Slot = "5")]
+		[Token(Token = "0x6000377")]
+		[Address(RVA = "0x4C83BB0", Offset = "0x4C83BB0", VA = "0x4C83BB0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000287")]
-		[Address(RVA = "0x4936640", Offset = "0x4936640", VA = "0x4936640", Slot = "6")]
+		[Token(Token = "0x6000378")]
+		[Address(RVA = "0x4C83BC0", Offset = "0x4C83BC0", VA = "0x4C83BC0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000289")]
-		[Address(RVA = "0x49367B0", Offset = "0x49367B0", VA = "0x49367B0", Slot = "8")]
+		[Token(Token = "0x600037A")]
+		[Address(RVA = "0x4C83D30", Offset = "0x4C83D30", VA = "0x4C83D30", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x200004C")]
+	[Token(Token = "0x2000062")]
 	[CompilerGenerated]
 	private sealed class _003CMouseDragOutsideRect_003Ed__294 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x40001D0")]
+		[Token(Token = "0x40002C4")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40001D1")]
+		[Token(Token = "0x40002C5")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x40001D2")]
+		[Token(Token = "0x40002C6")]
 		[FieldOffset(Offset = "0x20")]
 		public TMP_InputField _003C_003E4__this;
 
-		[Token(Token = "0x40001D3")]
+		[Token(Token = "0x40002C7")]
 		[FieldOffset(Offset = "0x28")]
 		public PointerEventData eventData;
 
-		[Token(Token = "0x17000097")]
+		[Token(Token = "0x170000B8")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x600028E")]
-			[Address(RVA = "0x4936AB0", Offset = "0x4936AB0", VA = "0x4936AB0", Slot = "4")]
+			[Token(Token = "0x600037F")]
+			[Address(RVA = "0x4C84030", Offset = "0x4C84030", VA = "0x4C84030", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -253,11 +260,11 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 			}
 		}
 
-		[Token(Token = "0x17000098")]
+		[Token(Token = "0x170000B9")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000290")]
-			[Address(RVA = "0x4936B00", Offset = "0x4936B00", VA = "0x4936B00", Slot = "7")]
+			[Token(Token = "0x6000381")]
+			[Address(RVA = "0x4C84080", Offset = "0x4C84080", VA = "0x4C84080", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -265,2095 +272,2095 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 			}
 		}
 
-		[Token(Token = "0x600028B")]
-		[Address(RVA = "0x4936800", Offset = "0x4936800", VA = "0x4936800")]
+		[Token(Token = "0x600037C")]
+		[Address(RVA = "0x4C83D80", Offset = "0x4C83D80", VA = "0x4C83D80")]
 		[DebuggerHidden]
 		public _003CMouseDragOutsideRect_003Ed__294(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x600028C")]
-		[Address(RVA = "0x4936820", Offset = "0x4936820", VA = "0x4936820", Slot = "5")]
+		[Token(Token = "0x600037D")]
+		[Address(RVA = "0x4C83DA0", Offset = "0x4C83DA0", VA = "0x4C83DA0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x600028D")]
-		[Address(RVA = "0x4936830", Offset = "0x4936830", VA = "0x4936830", Slot = "6")]
+		[Token(Token = "0x600037E")]
+		[Address(RVA = "0x4C83DB0", Offset = "0x4C83DB0", VA = "0x4C83DB0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600028F")]
-		[Address(RVA = "0x4936AC0", Offset = "0x4936AC0", VA = "0x4936AC0", Slot = "8")]
+		[Token(Token = "0x6000380")]
+		[Address(RVA = "0x4C84040", Offset = "0x4C84040", VA = "0x4C84040", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x400014E")]
+	[Token(Token = "0x4000242")]
 	[FieldOffset(Offset = "0x100")]
 	protected TouchScreenKeyboard m_SoftKeyboard;
 
-	[Token(Token = "0x400014F")]
+	[Token(Token = "0x4000243")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly char[] kSeparators;
 
-	[Token(Token = "0x4000150")]
+	[Token(Token = "0x4000244")]
 	[FieldOffset(Offset = "0x108")]
 	protected RectTransform m_RectTransform;
 
-	[Token(Token = "0x4000151")]
+	[Token(Token = "0x4000245")]
 	[FieldOffset(Offset = "0x110")]
 	[SerializeField]
 	protected RectTransform m_TextViewport;
 
-	[Token(Token = "0x4000152")]
+	[Token(Token = "0x4000246")]
 	[FieldOffset(Offset = "0x118")]
 	protected RectMask2D m_TextComponentRectMask;
 
-	[Token(Token = "0x4000153")]
+	[Token(Token = "0x4000247")]
 	[FieldOffset(Offset = "0x120")]
 	protected RectMask2D m_TextViewportRectMask;
 
-	[Token(Token = "0x4000154")]
+	[Token(Token = "0x4000248")]
 	[FieldOffset(Offset = "0x128")]
 	private Rect m_CachedViewportRect;
 
-	[Token(Token = "0x4000155")]
+	[Token(Token = "0x4000249")]
 	[FieldOffset(Offset = "0x138")]
 	[SerializeField]
 	protected TMP_Text m_TextComponent;
 
-	[Token(Token = "0x4000156")]
+	[Token(Token = "0x400024A")]
 	[FieldOffset(Offset = "0x140")]
 	protected RectTransform m_TextComponentRectTransform;
 
-	[Token(Token = "0x4000157")]
+	[Token(Token = "0x400024B")]
 	[FieldOffset(Offset = "0x148")]
 	[SerializeField]
 	protected Graphic m_Placeholder;
 
-	[Token(Token = "0x4000158")]
+	[Token(Token = "0x400024C")]
 	[FieldOffset(Offset = "0x150")]
 	[SerializeField]
 	protected Scrollbar m_VerticalScrollbar;
 
-	[Token(Token = "0x4000159")]
+	[Token(Token = "0x400024D")]
 	[FieldOffset(Offset = "0x158")]
 	[SerializeField]
 	protected TMP_ScrollbarEventHandler m_VerticalScrollbarEventHandler;
 
-	[Token(Token = "0x400015A")]
+	[Token(Token = "0x400024E")]
 	[FieldOffset(Offset = "0x160")]
 	private bool m_IsDrivenByLayoutComponents;
 
-	[Token(Token = "0x400015B")]
+	[Token(Token = "0x400024F")]
 	[FieldOffset(Offset = "0x168")]
 	[SerializeField]
 	private LayoutGroup m_LayoutGroup;
 
-	[Token(Token = "0x400015C")]
+	[Token(Token = "0x4000250")]
 	[FieldOffset(Offset = "0x170")]
 	private IScrollHandler m_IScrollHandlerParent;
 
-	[Token(Token = "0x400015D")]
+	[Token(Token = "0x4000251")]
 	[FieldOffset(Offset = "0x178")]
 	private float m_ScrollPosition;
 
-	[Token(Token = "0x400015E")]
+	[Token(Token = "0x4000252")]
 	[FieldOffset(Offset = "0x17C")]
 	[SerializeField]
 	protected float m_ScrollSensitivity;
 
-	[Token(Token = "0x400015F")]
+	[Token(Token = "0x4000253")]
 	[FieldOffset(Offset = "0x180")]
 	[SerializeField]
 	private ContentType m_ContentType;
 
-	[Token(Token = "0x4000160")]
+	[Token(Token = "0x4000254")]
 	[FieldOffset(Offset = "0x184")]
 	[SerializeField]
 	private InputType m_InputType;
 
-	[Token(Token = "0x4000161")]
+	[Token(Token = "0x4000255")]
 	[FieldOffset(Offset = "0x188")]
 	[SerializeField]
 	private char m_AsteriskChar;
 
-	[Token(Token = "0x4000162")]
+	[Token(Token = "0x4000256")]
 	[FieldOffset(Offset = "0x18C")]
 	[SerializeField]
 	private TouchScreenKeyboardType m_KeyboardType;
 
-	[Token(Token = "0x4000163")]
+	[Token(Token = "0x4000257")]
 	[FieldOffset(Offset = "0x190")]
 	[SerializeField]
 	private LineType m_LineType;
 
-	[Token(Token = "0x4000164")]
+	[Token(Token = "0x4000258")]
 	[FieldOffset(Offset = "0x194")]
 	[SerializeField]
 	private bool m_HideMobileInput;
 
-	[Token(Token = "0x4000165")]
+	[Token(Token = "0x4000259")]
 	[FieldOffset(Offset = "0x195")]
 	[SerializeField]
 	private bool m_HideSoftKeyboard;
 
-	[Token(Token = "0x4000166")]
+	[Token(Token = "0x400025A")]
 	[FieldOffset(Offset = "0x198")]
 	[SerializeField]
 	private CharacterValidation m_CharacterValidation;
 
-	[Token(Token = "0x4000167")]
+	[Token(Token = "0x400025B")]
 	[FieldOffset(Offset = "0x1A0")]
 	[SerializeField]
 	private string m_RegexValue;
 
-	[Token(Token = "0x4000168")]
+	[Token(Token = "0x400025C")]
 	[FieldOffset(Offset = "0x1A8")]
 	[SerializeField]
 	private float m_GlobalPointSize;
 
-	[Token(Token = "0x4000169")]
+	[Token(Token = "0x400025D")]
 	[FieldOffset(Offset = "0x1AC")]
 	[SerializeField]
 	private int m_CharacterLimit;
 
-	[Token(Token = "0x400016A")]
+	[Token(Token = "0x400025E")]
 	[FieldOffset(Offset = "0x1B0")]
 	[SerializeField]
 	private SubmitEvent m_OnEndEdit;
 
-	[Token(Token = "0x400016B")]
+	[Token(Token = "0x400025F")]
 	[FieldOffset(Offset = "0x1B8")]
 	[SerializeField]
 	private SubmitEvent m_OnSubmit;
 
-	[Token(Token = "0x400016C")]
+	[Token(Token = "0x4000260")]
 	[FieldOffset(Offset = "0x1C0")]
 	[SerializeField]
 	private SelectionEvent m_OnSelect;
 
-	[Token(Token = "0x400016D")]
+	[Token(Token = "0x4000261")]
 	[FieldOffset(Offset = "0x1C8")]
 	[SerializeField]
 	private SelectionEvent m_OnDeselect;
 
-	[Token(Token = "0x400016E")]
+	[Token(Token = "0x4000262")]
 	[FieldOffset(Offset = "0x1D0")]
 	[SerializeField]
 	private TextSelectionEvent m_OnTextSelection;
 
-	[Token(Token = "0x400016F")]
+	[Token(Token = "0x4000263")]
 	[FieldOffset(Offset = "0x1D8")]
 	[SerializeField]
 	private TextSelectionEvent m_OnEndTextSelection;
 
-	[Token(Token = "0x4000170")]
+	[Token(Token = "0x4000264")]
 	[FieldOffset(Offset = "0x1E0")]
 	[SerializeField]
 	private OnChangeEvent m_OnValueChanged;
 
-	[Token(Token = "0x4000171")]
+	[Token(Token = "0x4000265")]
 	[FieldOffset(Offset = "0x1E8")]
 	[SerializeField]
 	private TouchScreenKeyboardEvent m_OnTouchScreenKeyboardStatusChanged;
 
-	[Token(Token = "0x4000172")]
+	[Token(Token = "0x4000266")]
 	[FieldOffset(Offset = "0x1F0")]
 	[SerializeField]
 	private OnValidateInput m_OnValidateInput;
 
-	[Token(Token = "0x4000173")]
+	[Token(Token = "0x4000267")]
 	[FieldOffset(Offset = "0x1F8")]
 	[SerializeField]
 	private Color m_CaretColor;
 
-	[Token(Token = "0x4000174")]
+	[Token(Token = "0x4000268")]
 	[FieldOffset(Offset = "0x208")]
 	[SerializeField]
 	private bool m_CustomCaretColor;
 
-	[Token(Token = "0x4000175")]
+	[Token(Token = "0x4000269")]
 	[FieldOffset(Offset = "0x20C")]
 	[SerializeField]
 	private Color m_SelectionColor;
 
-	[Token(Token = "0x4000176")]
+	[Token(Token = "0x400026A")]
 	[FieldOffset(Offset = "0x220")]
 	[SerializeField]
 	[TextArea(5, 10)]
 	protected string m_Text;
 
-	[Token(Token = "0x4000177")]
+	[Token(Token = "0x400026B")]
 	[FieldOffset(Offset = "0x228")]
 	[SerializeField]
 	[Range(0f, 4f)]
 	private float m_CaretBlinkRate;
 
-	[Token(Token = "0x4000178")]
+	[Token(Token = "0x400026C")]
 	[FieldOffset(Offset = "0x22C")]
 	[SerializeField]
 	[Range(1f, 5f)]
 	private int m_CaretWidth;
 
-	[Token(Token = "0x4000179")]
+	[Token(Token = "0x400026D")]
 	[FieldOffset(Offset = "0x230")]
 	[SerializeField]
 	private bool m_ReadOnly;
 
-	[Token(Token = "0x400017A")]
+	[Token(Token = "0x400026E")]
 	[FieldOffset(Offset = "0x231")]
 	[SerializeField]
 	private bool m_RichText;
 
-	[Token(Token = "0x400017B")]
+	[Token(Token = "0x400026F")]
 	[FieldOffset(Offset = "0x234")]
 	protected int m_StringPosition;
 
-	[Token(Token = "0x400017C")]
+	[Token(Token = "0x4000270")]
 	[FieldOffset(Offset = "0x238")]
 	protected int m_StringSelectPosition;
 
-	[Token(Token = "0x400017D")]
+	[Token(Token = "0x4000271")]
 	[FieldOffset(Offset = "0x23C")]
 	protected int m_CaretPosition;
 
-	[Token(Token = "0x400017E")]
+	[Token(Token = "0x4000272")]
 	[FieldOffset(Offset = "0x240")]
 	protected int m_CaretSelectPosition;
 
-	[Token(Token = "0x400017F")]
+	[Token(Token = "0x4000273")]
 	[FieldOffset(Offset = "0x248")]
 	private RectTransform caretRectTrans;
 
-	[Token(Token = "0x4000180")]
+	[Token(Token = "0x4000274")]
 	[FieldOffset(Offset = "0x250")]
 	protected UIVertex[] m_CursorVerts;
 
-	[Token(Token = "0x4000181")]
+	[Token(Token = "0x4000275")]
 	[FieldOffset(Offset = "0x258")]
 	private CanvasRenderer m_CachedInputRenderer;
 
-	[Token(Token = "0x4000182")]
+	[Token(Token = "0x4000276")]
 	[FieldOffset(Offset = "0x260")]
 	private Vector2 m_LastPosition;
 
 	[NonSerialized]
-	[Token(Token = "0x4000183")]
+	[Token(Token = "0x4000277")]
 	[FieldOffset(Offset = "0x268")]
 	protected Mesh m_Mesh;
 
-	[Token(Token = "0x4000184")]
+	[Token(Token = "0x4000278")]
 	[FieldOffset(Offset = "0x270")]
 	private bool m_AllowInput;
 
-	[Token(Token = "0x4000185")]
+	[Token(Token = "0x4000279")]
 	[FieldOffset(Offset = "0x271")]
 	private bool m_ShouldActivateNextUpdate;
 
-	[Token(Token = "0x4000186")]
+	[Token(Token = "0x400027A")]
 	[FieldOffset(Offset = "0x272")]
 	private bool m_UpdateDrag;
 
-	[Token(Token = "0x4000187")]
+	[Token(Token = "0x400027B")]
 	[FieldOffset(Offset = "0x273")]
 	private bool m_DragPositionOutOfBounds;
 
-	[Token(Token = "0x4000188")]
+	[Token(Token = "0x400027C")]
 	private const float kHScrollSpeed = 0.05f;
 
-	[Token(Token = "0x4000189")]
+	[Token(Token = "0x400027D")]
 	private const float kVScrollSpeed = 0.1f;
 
-	[Token(Token = "0x400018A")]
+	[Token(Token = "0x400027E")]
 	[FieldOffset(Offset = "0x274")]
 	protected bool m_CaretVisible;
 
-	[Token(Token = "0x400018B")]
+	[Token(Token = "0x400027F")]
 	[FieldOffset(Offset = "0x278")]
 	private Coroutine m_BlinkCoroutine;
 
-	[Token(Token = "0x400018C")]
+	[Token(Token = "0x4000280")]
 	[FieldOffset(Offset = "0x280")]
 	private float m_BlinkStartTime;
 
-	[Token(Token = "0x400018D")]
+	[Token(Token = "0x4000281")]
 	[FieldOffset(Offset = "0x288")]
 	private Coroutine m_DragCoroutine;
 
-	[Token(Token = "0x400018E")]
+	[Token(Token = "0x4000282")]
 	[FieldOffset(Offset = "0x290")]
 	private string m_OriginalText;
 
-	[Token(Token = "0x400018F")]
+	[Token(Token = "0x4000283")]
 	[FieldOffset(Offset = "0x298")]
 	private bool m_WasCanceled;
 
-	[Token(Token = "0x4000190")]
+	[Token(Token = "0x4000284")]
 	[FieldOffset(Offset = "0x299")]
 	private bool m_HasDoneFocusTransition;
 
-	[Token(Token = "0x4000191")]
+	[Token(Token = "0x4000285")]
 	[FieldOffset(Offset = "0x2A0")]
 	private WaitForSecondsRealtime m_WaitForSecondsRealtime;
 
-	[Token(Token = "0x4000192")]
+	[Token(Token = "0x4000286")]
 	[FieldOffset(Offset = "0x2A8")]
 	private bool m_PreventCallback;
 
-	[Token(Token = "0x4000193")]
+	[Token(Token = "0x4000287")]
 	[FieldOffset(Offset = "0x2A9")]
 	private bool m_TouchKeyboardAllowsInPlaceEditing;
 
-	[Token(Token = "0x4000194")]
+	[Token(Token = "0x4000288")]
 	[FieldOffset(Offset = "0x2AA")]
 	private bool m_IsTextComponentUpdateRequired;
 
-	[Token(Token = "0x4000195")]
+	[Token(Token = "0x4000289")]
 	[FieldOffset(Offset = "0x2AB")]
 	private bool m_isLastKeyBackspace;
 
-	[Token(Token = "0x4000196")]
+	[Token(Token = "0x400028A")]
 	[FieldOffset(Offset = "0x2AC")]
 	private float m_PointerDownClickStartTime;
 
-	[Token(Token = "0x4000197")]
+	[Token(Token = "0x400028B")]
 	[FieldOffset(Offset = "0x2B0")]
 	private float m_KeyDownStartTime;
 
-	[Token(Token = "0x4000198")]
+	[Token(Token = "0x400028C")]
 	[FieldOffset(Offset = "0x2B4")]
 	private float m_DoubleClickDelay;
 
-	[Token(Token = "0x4000199")]
+	[Token(Token = "0x400028D")]
 	private const string kEmailSpecialCharacters = "!#$%&'*+-/=?^_`{|}~";
 
-	[Token(Token = "0x400019A")]
+	[Token(Token = "0x400028E")]
 	[FieldOffset(Offset = "0x2B8")]
 	private bool m_IsCompositionActive;
 
-	[Token(Token = "0x400019B")]
+	[Token(Token = "0x400028F")]
 	[FieldOffset(Offset = "0x2B9")]
 	private bool m_ShouldUpdateIMEWindowPosition;
 
-	[Token(Token = "0x400019C")]
+	[Token(Token = "0x4000290")]
 	[FieldOffset(Offset = "0x2BC")]
 	private int m_PreviousIMEInsertionLine;
 
-	[Token(Token = "0x400019D")]
+	[Token(Token = "0x4000291")]
 	[FieldOffset(Offset = "0x2C0")]
 	[SerializeField]
 	protected TMP_FontAsset m_GlobalFontAsset;
 
-	[Token(Token = "0x400019E")]
+	[Token(Token = "0x4000292")]
 	[FieldOffset(Offset = "0x2C8")]
 	[SerializeField]
 	protected bool m_OnFocusSelectAll;
 
-	[Token(Token = "0x400019F")]
+	[Token(Token = "0x4000293")]
 	[FieldOffset(Offset = "0x2C9")]
 	protected bool m_isSelectAll;
 
-	[Token(Token = "0x40001A0")]
+	[Token(Token = "0x4000294")]
 	[FieldOffset(Offset = "0x2CA")]
 	[SerializeField]
 	protected bool m_ResetOnDeActivation;
 
-	[Token(Token = "0x40001A1")]
+	[Token(Token = "0x4000295")]
 	[FieldOffset(Offset = "0x2CB")]
 	private bool m_SelectionStillActive;
 
-	[Token(Token = "0x40001A2")]
+	[Token(Token = "0x4000296")]
 	[FieldOffset(Offset = "0x2CC")]
 	private bool m_ReleaseSelection;
 
-	[Token(Token = "0x40001A3")]
+	[Token(Token = "0x4000297")]
 	[FieldOffset(Offset = "0x2D0")]
 	private GameObject m_PreviouslySelectedObject;
 
-	[Token(Token = "0x40001A4")]
+	[Token(Token = "0x4000298")]
 	[FieldOffset(Offset = "0x2D8")]
 	[SerializeField]
 	private bool m_RestoreOriginalTextOnEscape;
 
-	[Token(Token = "0x40001A5")]
+	[Token(Token = "0x4000299")]
 	[FieldOffset(Offset = "0x2D9")]
 	[SerializeField]
 	protected bool m_isRichTextEditingAllowed;
 
-	[Token(Token = "0x40001A6")]
+	[Token(Token = "0x400029A")]
 	[FieldOffset(Offset = "0x2DC")]
 	[SerializeField]
 	protected int m_LineLimit;
 
-	[Token(Token = "0x40001A7")]
+	[Token(Token = "0x400029B")]
 	[FieldOffset(Offset = "0x2E0")]
 	[SerializeField]
 	protected TMP_InputValidator m_InputValidator;
 
-	[Token(Token = "0x40001A8")]
+	[Token(Token = "0x400029C")]
 	[FieldOffset(Offset = "0x2E8")]
 	private bool m_isSelected;
 
-	[Token(Token = "0x40001A9")]
+	[Token(Token = "0x400029D")]
 	[FieldOffset(Offset = "0x2E9")]
 	private bool m_IsStringPositionDirty;
 
-	[Token(Token = "0x40001AA")]
+	[Token(Token = "0x400029E")]
 	[FieldOffset(Offset = "0x2EA")]
 	private bool m_IsCaretPositionDirty;
 
-	[Token(Token = "0x40001AB")]
+	[Token(Token = "0x400029F")]
 	[FieldOffset(Offset = "0x2EB")]
 	private bool m_forceRectTransformAdjustment;
 
-	[Token(Token = "0x40001AC")]
+	[Token(Token = "0x40002A0")]
 	[FieldOffset(Offset = "0x2F0")]
 	private Event m_ProcessingEvent;
 
-	[Token(Token = "0x17000054")]
+	[Token(Token = "0x17000075")]
 	private BaseInput inputSystem
 	{
-		[Token(Token = "0x600019B")]
-		[Address(RVA = "0x490B380", Offset = "0x490B380", VA = "0x490B380")]
+		[Token(Token = "0x600028C")]
+		[Address(RVA = "0x4C58900", Offset = "0x4C58900", VA = "0x4C58900")]
 		get
 		{
 			return null;
-		}
-	}
-
-	[Token(Token = "0x17000055")]
-	private string compositionString
-	{
-		[Token(Token = "0x600019C")]
-		[Address(RVA = "0x490B480", Offset = "0x490B480", VA = "0x490B480")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000056")]
-	private int compositionLength
-	{
-		[Token(Token = "0x600019D")]
-		[Address(RVA = "0x490B500", Offset = "0x490B500", VA = "0x490B500")]
-		get
-		{
-			return default(int);
-		}
-	}
-
-	[Token(Token = "0x17000057")]
-	protected Mesh mesh
-	{
-		[Token(Token = "0x600019F")]
-		[Address(RVA = "0x490B900", Offset = "0x490B900", VA = "0x490B900")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000058")]
-	public bool shouldHideMobileInput
-	{
-		[Token(Token = "0x60001A0")]
-		[Address(RVA = "0x490B9A0", Offset = "0x490B9A0", VA = "0x490B9A0")]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x60001A1")]
-		[Address(RVA = "0x490BA00", Offset = "0x490BA00", VA = "0x490BA00")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000059")]
-	public bool shouldHideSoftKeyboard
-	{
-		[Token(Token = "0x60001A2")]
-		[Address(RVA = "0x490BAB0", Offset = "0x490BAB0", VA = "0x490BAB0")]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x60001A3")]
-		[Address(RVA = "0x490BB70", Offset = "0x490BB70", VA = "0x490BB70")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700005A")]
-	public string text
-	{
-		[Token(Token = "0x60001A5")]
-		[Address(RVA = "0x490BD50", Offset = "0x490BD50", VA = "0x490BD50")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60001A6")]
-		[Address(RVA = "0x490BD60", Offset = "0x490BD60", VA = "0x490BD60")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700005B")]
-	public bool isFocused
-	{
-		[Token(Token = "0x60001A9")]
-		[Address(RVA = "0x490C4D0", Offset = "0x490C4D0", VA = "0x490C4D0")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x1700005C")]
-	public float caretBlinkRate
-	{
-		[Token(Token = "0x60001AA")]
-		[Address(RVA = "0x490C4E0", Offset = "0x490C4E0", VA = "0x490C4E0")]
-		get
-		{
-			return default(float);
-		}
-		[Token(Token = "0x60001AB")]
-		[Address(RVA = "0x490C4F0", Offset = "0x490C4F0", VA = "0x490C4F0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700005D")]
-	public int caretWidth
-	{
-		[Token(Token = "0x60001AC")]
-		[Address(RVA = "0x490C620", Offset = "0x490C620", VA = "0x490C620")]
-		get
-		{
-			return default(int);
-		}
-		[Token(Token = "0x60001AD")]
-		[Address(RVA = "0x490C630", Offset = "0x490C630", VA = "0x490C630")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700005E")]
-	public RectTransform textViewport
-	{
-		[Token(Token = "0x60001AE")]
-		[Address(RVA = "0x490C730", Offset = "0x490C730", VA = "0x490C730")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60001AF")]
-		[Address(RVA = "0x48F9760", Offset = "0x48F9760", VA = "0x48F9760")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700005F")]
-	public TMP_Text textComponent
-	{
-		[Token(Token = "0x60001B0")]
-		[Address(RVA = "0x490C740", Offset = "0x490C740", VA = "0x490C740")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60001B1")]
-		[Address(RVA = "0x48F97B0", Offset = "0x48F97B0", VA = "0x48F97B0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000060")]
-	public Graphic placeholder
-	{
-		[Token(Token = "0x60001B2")]
-		[Address(RVA = "0x490C750", Offset = "0x490C750", VA = "0x490C750")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60001B3")]
-		[Address(RVA = "0x48F9810", Offset = "0x48F9810", VA = "0x48F9810")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000061")]
-	public Scrollbar verticalScrollbar
-	{
-		[Token(Token = "0x60001B4")]
-		[Address(RVA = "0x490C760", Offset = "0x490C760", VA = "0x490C760")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60001B5")]
-		[Address(RVA = "0x490C770", Offset = "0x490C770", VA = "0x490C770")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000062")]
-	public float scrollSensitivity
-	{
-		[Token(Token = "0x60001B6")]
-		[Address(RVA = "0x490C920", Offset = "0x490C920", VA = "0x490C920")]
-		get
-		{
-			return default(float);
-		}
-		[Token(Token = "0x60001B7")]
-		[Address(RVA = "0x490C930", Offset = "0x490C930", VA = "0x490C930")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000063")]
-	public Color caretColor
-	{
-		[Token(Token = "0x60001B8")]
-		[Address(RVA = "0x490C9D0", Offset = "0x490C9D0", VA = "0x490C9D0")]
-		get
-		{
-			return default(Color);
-		}
-		[Token(Token = "0x60001B9")]
-		[Address(RVA = "0x490CA10", Offset = "0x490CA10", VA = "0x490CA10")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000064")]
-	public bool customCaretColor
-	{
-		[Token(Token = "0x60001BA")]
-		[Address(RVA = "0x490CA90", Offset = "0x490CA90", VA = "0x490CA90")]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x60001BB")]
-		[Address(RVA = "0x490CAA0", Offset = "0x490CAA0", VA = "0x490CAA0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000065")]
-	public Color selectionColor
-	{
-		[Token(Token = "0x60001BC")]
-		[Address(RVA = "0x490CB20", Offset = "0x490CB20", VA = "0x490CB20")]
-		get
-		{
-			return default(Color);
-		}
-		[Token(Token = "0x60001BD")]
-		[Address(RVA = "0x490CB40", Offset = "0x490CB40", VA = "0x490CB40")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000066")]
-	public SubmitEvent onEndEdit
-	{
-		[Token(Token = "0x60001BE")]
-		[Address(RVA = "0x490CBC0", Offset = "0x490CBC0", VA = "0x490CBC0")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60001BF")]
-		[Address(RVA = "0x490CBD0", Offset = "0x490CBD0", VA = "0x490CBD0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000067")]
-	public SubmitEvent onSubmit
-	{
-		[Token(Token = "0x60001C0")]
-		[Address(RVA = "0x490CC20", Offset = "0x490CC20", VA = "0x490CC20")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60001C1")]
-		[Address(RVA = "0x490CC30", Offset = "0x490CC30", VA = "0x490CC30")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000068")]
-	public SelectionEvent onSelect
-	{
-		[Token(Token = "0x60001C2")]
-		[Address(RVA = "0x490CC80", Offset = "0x490CC80", VA = "0x490CC80")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60001C3")]
-		[Address(RVA = "0x490CC90", Offset = "0x490CC90", VA = "0x490CC90")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000069")]
-	public SelectionEvent onDeselect
-	{
-		[Token(Token = "0x60001C4")]
-		[Address(RVA = "0x490CCE0", Offset = "0x490CCE0", VA = "0x490CCE0")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60001C5")]
-		[Address(RVA = "0x490CCF0", Offset = "0x490CCF0", VA = "0x490CCF0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700006A")]
-	public TextSelectionEvent onTextSelection
-	{
-		[Token(Token = "0x60001C6")]
-		[Address(RVA = "0x490CD40", Offset = "0x490CD40", VA = "0x490CD40")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60001C7")]
-		[Address(RVA = "0x490CD50", Offset = "0x490CD50", VA = "0x490CD50")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700006B")]
-	public TextSelectionEvent onEndTextSelection
-	{
-		[Token(Token = "0x60001C8")]
-		[Address(RVA = "0x490CDA0", Offset = "0x490CDA0", VA = "0x490CDA0")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60001C9")]
-		[Address(RVA = "0x490CDB0", Offset = "0x490CDB0", VA = "0x490CDB0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700006C")]
-	public OnChangeEvent onValueChanged
-	{
-		[Token(Token = "0x60001CA")]
-		[Address(RVA = "0x490CE00", Offset = "0x490CE00", VA = "0x490CE00")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60001CB")]
-		[Address(RVA = "0x490CE10", Offset = "0x490CE10", VA = "0x490CE10")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700006D")]
-	public TouchScreenKeyboardEvent onTouchScreenKeyboardStatusChanged
-	{
-		[Token(Token = "0x60001CC")]
-		[Address(RVA = "0x490CE60", Offset = "0x490CE60", VA = "0x490CE60")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60001CD")]
-		[Address(RVA = "0x490CE70", Offset = "0x490CE70", VA = "0x490CE70")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700006E")]
-	public OnValidateInput onValidateInput
-	{
-		[Token(Token = "0x60001CE")]
-		[Address(RVA = "0x490CEC0", Offset = "0x490CEC0", VA = "0x490CEC0")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60001CF")]
-		[Address(RVA = "0x490CED0", Offset = "0x490CED0", VA = "0x490CED0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700006F")]
-	public int characterLimit
-	{
-		[Token(Token = "0x60001D0")]
-		[Address(RVA = "0x490CF20", Offset = "0x490CF20", VA = "0x490CF20")]
-		get
-		{
-			return default(int);
-		}
-		[Token(Token = "0x60001D1")]
-		[Address(RVA = "0x490CF30", Offset = "0x490CF30", VA = "0x490CF30")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000070")]
-	public float pointSize
-	{
-		[Token(Token = "0x60001D2")]
-		[Address(RVA = "0x490CFD0", Offset = "0x490CFD0", VA = "0x490CFD0")]
-		get
-		{
-			return default(float);
-		}
-		[Token(Token = "0x60001D3")]
-		[Address(RVA = "0x490CFE0", Offset = "0x490CFE0", VA = "0x490CFE0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000071")]
-	public TMP_FontAsset fontAsset
-	{
-		[Token(Token = "0x60001D4")]
-		[Address(RVA = "0x490D180", Offset = "0x490D180", VA = "0x490D180")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60001D5")]
-		[Address(RVA = "0x48F9860", Offset = "0x48F9860", VA = "0x48F9860")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000072")]
-	public bool onFocusSelectAll
-	{
-		[Token(Token = "0x60001D6")]
-		[Address(RVA = "0x490D270", Offset = "0x490D270", VA = "0x490D270")]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x60001D7")]
-		[Address(RVA = "0x490D280", Offset = "0x490D280", VA = "0x490D280")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000073")]
-	public bool resetOnDeActivation
-	{
-		[Token(Token = "0x60001D8")]
-		[Address(RVA = "0x490D290", Offset = "0x490D290", VA = "0x490D290")]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x60001D9")]
-		[Address(RVA = "0x490D2A0", Offset = "0x490D2A0", VA = "0x490D2A0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000074")]
-	public bool restoreOriginalTextOnEscape
-	{
-		[Token(Token = "0x60001DA")]
-		[Address(RVA = "0x490D2B0", Offset = "0x490D2B0", VA = "0x490D2B0")]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x60001DB")]
-		[Address(RVA = "0x490D2C0", Offset = "0x490D2C0", VA = "0x490D2C0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000075")]
-	public bool isRichTextEditingAllowed
-	{
-		[Token(Token = "0x60001DC")]
-		[Address(RVA = "0x490D2D0", Offset = "0x490D2D0", VA = "0x490D2D0")]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x60001DD")]
-		[Address(RVA = "0x490D2E0", Offset = "0x490D2E0", VA = "0x490D2E0")]
-		set
-		{
 		}
 	}
 
 	[Token(Token = "0x17000076")]
-	public ContentType contentType
+	private string compositionString
 	{
-		[Token(Token = "0x60001DE")]
-		[Address(RVA = "0x490D2F0", Offset = "0x490D2F0", VA = "0x490D2F0")]
+		[Token(Token = "0x600028D")]
+		[Address(RVA = "0x4C58A00", Offset = "0x4C58A00", VA = "0x4C58A00")]
 		get
 		{
-			return default(ContentType);
-		}
-		[Token(Token = "0x60001DF")]
-		[Address(RVA = "0x490D300", Offset = "0x490D300", VA = "0x490D300")]
-		set
-		{
+			return null;
 		}
 	}
 
 	[Token(Token = "0x17000077")]
-	public LineType lineType
+	private int compositionLength
 	{
-		[Token(Token = "0x60001E0")]
-		[Address(RVA = "0x490D520", Offset = "0x490D520", VA = "0x490D520")]
-		get
-		{
-			return default(LineType);
-		}
-		[Token(Token = "0x60001E1")]
-		[Address(RVA = "0x490D530", Offset = "0x490D530", VA = "0x490D530")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000078")]
-	public int lineLimit
-	{
-		[Token(Token = "0x60001E2")]
-		[Address(RVA = "0x490D640", Offset = "0x490D640", VA = "0x490D640")]
+		[Token(Token = "0x600028E")]
+		[Address(RVA = "0x4C58A80", Offset = "0x4C58A80", VA = "0x4C58A80")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60001E3")]
-		[Address(RVA = "0x490D650", Offset = "0x490D650", VA = "0x490D650")]
-		set
+	}
+
+	[Token(Token = "0x17000078")]
+	protected Mesh mesh
+	{
+		[Token(Token = "0x6000290")]
+		[Address(RVA = "0x4C58E80", Offset = "0x4C58E80", VA = "0x4C58E80")]
+		get
 		{
+			return null;
 		}
 	}
 
 	[Token(Token = "0x17000079")]
-	public InputType inputType
+	public bool shouldHideMobileInput
 	{
-		[Token(Token = "0x60001E4")]
-		[Address(RVA = "0x490D6B0", Offset = "0x490D6B0", VA = "0x490D6B0")]
+		[Token(Token = "0x6000291")]
+		[Address(RVA = "0x4C58F20", Offset = "0x4C58F20", VA = "0x4C58F20")]
 		get
 		{
-			return default(InputType);
+			return default(bool);
 		}
-		[Token(Token = "0x60001E5")]
-		[Address(RVA = "0x490D6C0", Offset = "0x490D6C0", VA = "0x490D6C0")]
+		[Token(Token = "0x6000292")]
+		[Address(RVA = "0x4C58F80", Offset = "0x4C58F80", VA = "0x4C58F80")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700007A")]
-	public TouchScreenKeyboardType keyboardType
+	public bool shouldHideSoftKeyboard
 	{
-		[Token(Token = "0x60001E6")]
-		[Address(RVA = "0x490D750", Offset = "0x490D750", VA = "0x490D750")]
+		[Token(Token = "0x6000293")]
+		[Address(RVA = "0x4C59030", Offset = "0x4C59030", VA = "0x4C59030")]
 		get
 		{
-			return default(TouchScreenKeyboardType);
+			return default(bool);
 		}
-		[Token(Token = "0x60001E7")]
-		[Address(RVA = "0x490D760", Offset = "0x490D760", VA = "0x490D760")]
+		[Token(Token = "0x6000294")]
+		[Address(RVA = "0x4C590F0", Offset = "0x4C590F0", VA = "0x4C590F0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700007B")]
-	public CharacterValidation characterValidation
+	public string text
 	{
-		[Token(Token = "0x60001E8")]
-		[Address(RVA = "0x490D7D0", Offset = "0x490D7D0", VA = "0x490D7D0")]
+		[Token(Token = "0x6000296")]
+		[Address(RVA = "0x4C592D0", Offset = "0x4C592D0", VA = "0x4C592D0")]
 		get
 		{
-			return default(CharacterValidation);
+			return null;
 		}
-		[Token(Token = "0x60001E9")]
-		[Address(RVA = "0x490D7E0", Offset = "0x490D7E0", VA = "0x490D7E0")]
+		[Token(Token = "0x6000297")]
+		[Address(RVA = "0x4C592E0", Offset = "0x4C592E0", VA = "0x4C592E0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700007C")]
-	public TMP_InputValidator inputValidator
+	public bool isFocused
 	{
-		[Token(Token = "0x60001EA")]
-		[Address(RVA = "0x490D850", Offset = "0x490D850", VA = "0x490D850")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60001EB")]
-		[Address(RVA = "0x490D860", Offset = "0x490D860", VA = "0x490D860")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700007D")]
-	public bool readOnly
-	{
-		[Token(Token = "0x60001EC")]
-		[Address(RVA = "0x490D8F0", Offset = "0x490D8F0", VA = "0x490D8F0")]
+		[Token(Token = "0x600029A")]
+		[Address(RVA = "0x4C59A50", Offset = "0x4C59A50", VA = "0x4C59A50")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60001ED")]
-		[Address(RVA = "0x490D900", Offset = "0x490D900", VA = "0x490D900")]
+	}
+
+	[Token(Token = "0x1700007D")]
+	public float caretBlinkRate
+	{
+		[Token(Token = "0x600029B")]
+		[Address(RVA = "0x4C59A60", Offset = "0x4C59A60", VA = "0x4C59A60")]
+		get
+		{
+			return default(float);
+		}
+		[Token(Token = "0x600029C")]
+		[Address(RVA = "0x4C59A70", Offset = "0x4C59A70", VA = "0x4C59A70")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700007E")]
-	public bool richText
+	public int caretWidth
 	{
-		[Token(Token = "0x60001EE")]
-		[Address(RVA = "0x490D910", Offset = "0x490D910", VA = "0x490D910")]
+		[Token(Token = "0x600029D")]
+		[Address(RVA = "0x4C59BA0", Offset = "0x4C59BA0", VA = "0x4C59BA0")]
 		get
 		{
-			return default(bool);
+			return default(int);
 		}
-		[Token(Token = "0x60001EF")]
-		[Address(RVA = "0x490D920", Offset = "0x490D920", VA = "0x490D920")]
+		[Token(Token = "0x600029E")]
+		[Address(RVA = "0x4C59BB0", Offset = "0x4C59BB0", VA = "0x4C59BB0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700007F")]
-	public bool multiLine
+	public RectTransform textViewport
 	{
-		[Token(Token = "0x60001F0")]
-		[Address(RVA = "0x490DA40", Offset = "0x490DA40", VA = "0x490DA40")]
+		[Token(Token = "0x600029F")]
+		[Address(RVA = "0x4C59CB0", Offset = "0x4C59CB0", VA = "0x4C59CB0")]
 		get
 		{
-			return default(bool);
+			return null;
+		}
+		[Token(Token = "0x60002A0")]
+		[Address(RVA = "0x4C46CE0", Offset = "0x4C46CE0", VA = "0x4C46CE0")]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x17000080")]
-	public char asteriskChar
+	public TMP_Text textComponent
 	{
-		[Token(Token = "0x60001F1")]
-		[Address(RVA = "0x490DA50", Offset = "0x490DA50", VA = "0x490DA50")]
+		[Token(Token = "0x60002A1")]
+		[Address(RVA = "0x4C59CC0", Offset = "0x4C59CC0", VA = "0x4C59CC0")]
 		get
 		{
-			return default(char);
+			return null;
 		}
-		[Token(Token = "0x60001F2")]
-		[Address(RVA = "0x490DA60", Offset = "0x490DA60", VA = "0x490DA60")]
+		[Token(Token = "0x60002A2")]
+		[Address(RVA = "0x4C46D30", Offset = "0x4C46D30", VA = "0x4C46D30")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000081")]
-	public bool wasCanceled
+	public Graphic placeholder
 	{
-		[Token(Token = "0x60001F3")]
-		[Address(RVA = "0x490DAC0", Offset = "0x490DAC0", VA = "0x490DAC0")]
+		[Token(Token = "0x60002A3")]
+		[Address(RVA = "0x4C59CD0", Offset = "0x4C59CD0", VA = "0x4C59CD0")]
 		get
 		{
-			return default(bool);
+			return null;
+		}
+		[Token(Token = "0x60002A4")]
+		[Address(RVA = "0x4C46D90", Offset = "0x4C46D90", VA = "0x4C46D90")]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x17000082")]
-	protected int caretPositionInternal
+	public Scrollbar verticalScrollbar
 	{
-		[Token(Token = "0x60001F6")]
-		[Address(RVA = "0x490DB40", Offset = "0x490DB40", VA = "0x490DB40")]
+		[Token(Token = "0x60002A5")]
+		[Address(RVA = "0x4C59CE0", Offset = "0x4C59CE0", VA = "0x4C59CE0")]
 		get
 		{
-			return default(int);
+			return null;
 		}
-		[Token(Token = "0x60001F7")]
-		[Address(RVA = "0x490DB70", Offset = "0x490DB70", VA = "0x490DB70")]
+		[Token(Token = "0x60002A6")]
+		[Address(RVA = "0x4C59CF0", Offset = "0x4C59CF0", VA = "0x4C59CF0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000083")]
-	protected int stringPositionInternal
+	public float scrollSensitivity
 	{
-		[Token(Token = "0x60001F8")]
-		[Address(RVA = "0x490DBB0", Offset = "0x490DBB0", VA = "0x490DBB0")]
+		[Token(Token = "0x60002A7")]
+		[Address(RVA = "0x4C59EA0", Offset = "0x4C59EA0", VA = "0x4C59EA0")]
 		get
 		{
-			return default(int);
+			return default(float);
 		}
-		[Token(Token = "0x60001F9")]
-		[Address(RVA = "0x490DBE0", Offset = "0x490DBE0", VA = "0x490DBE0")]
+		[Token(Token = "0x60002A8")]
+		[Address(RVA = "0x4C59EB0", Offset = "0x4C59EB0", VA = "0x4C59EB0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000084")]
-	protected int caretSelectPositionInternal
+	public Color caretColor
 	{
-		[Token(Token = "0x60001FA")]
-		[Address(RVA = "0x490DC10", Offset = "0x490DC10", VA = "0x490DC10")]
+		[Token(Token = "0x60002A9")]
+		[Address(RVA = "0x4C59F50", Offset = "0x4C59F50", VA = "0x4C59F50")]
 		get
 		{
-			return default(int);
+			return default(Color);
 		}
-		[Token(Token = "0x60001FB")]
-		[Address(RVA = "0x490DC40", Offset = "0x490DC40", VA = "0x490DC40")]
+		[Token(Token = "0x60002AA")]
+		[Address(RVA = "0x4C59F90", Offset = "0x4C59F90", VA = "0x4C59F90")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000085")]
-	protected int stringSelectPositionInternal
+	public bool customCaretColor
 	{
-		[Token(Token = "0x60001FC")]
-		[Address(RVA = "0x490DC80", Offset = "0x490DC80", VA = "0x490DC80")]
+		[Token(Token = "0x60002AB")]
+		[Address(RVA = "0x4C5A010", Offset = "0x4C5A010", VA = "0x4C5A010")]
 		get
 		{
-			return default(int);
+			return default(bool);
 		}
-		[Token(Token = "0x60001FD")]
-		[Address(RVA = "0x490DCB0", Offset = "0x490DCB0", VA = "0x490DCB0")]
+		[Token(Token = "0x60002AC")]
+		[Address(RVA = "0x4C5A020", Offset = "0x4C5A020", VA = "0x4C5A020")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000086")]
-	private bool hasSelection
+	public Color selectionColor
 	{
-		[Token(Token = "0x60001FE")]
-		[Address(RVA = "0x490DCE0", Offset = "0x490DCE0", VA = "0x490DCE0")]
+		[Token(Token = "0x60002AD")]
+		[Address(RVA = "0x4C5A0A0", Offset = "0x4C5A0A0", VA = "0x4C5A0A0")]
 		get
 		{
-			return default(bool);
+			return default(Color);
+		}
+		[Token(Token = "0x60002AE")]
+		[Address(RVA = "0x4C5A0C0", Offset = "0x4C5A0C0", VA = "0x4C5A0C0")]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x17000087")]
-	public int caretPosition
+	public SubmitEvent onEndEdit
 	{
-		[Token(Token = "0x60001FF")]
-		[Address(RVA = "0x490DD40", Offset = "0x490DD40", VA = "0x490DD40")]
+		[Token(Token = "0x60002AF")]
+		[Address(RVA = "0x4C5A140", Offset = "0x4C5A140", VA = "0x4C5A140")]
 		get
 		{
-			return default(int);
+			return null;
 		}
-		[Token(Token = "0x6000200")]
-		[Address(RVA = "0x490DD70", Offset = "0x490DD70", VA = "0x490DD70")]
+		[Token(Token = "0x60002B0")]
+		[Address(RVA = "0x4C5A150", Offset = "0x4C5A150", VA = "0x4C5A150")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000088")]
-	public int selectionAnchorPosition
+	public SubmitEvent onSubmit
 	{
-		[Token(Token = "0x6000201")]
-		[Address(RVA = "0x490DF50", Offset = "0x490DF50", VA = "0x490DF50")]
+		[Token(Token = "0x60002B1")]
+		[Address(RVA = "0x4C5A1A0", Offset = "0x4C5A1A0", VA = "0x4C5A1A0")]
 		get
 		{
-			return default(int);
+			return null;
 		}
-		[Token(Token = "0x6000202")]
-		[Address(RVA = "0x490DE50", Offset = "0x490DE50", VA = "0x490DE50")]
+		[Token(Token = "0x60002B2")]
+		[Address(RVA = "0x4C5A1B0", Offset = "0x4C5A1B0", VA = "0x4C5A1B0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000089")]
-	public int selectionFocusPosition
+	public SelectionEvent onSelect
 	{
-		[Token(Token = "0x6000203")]
-		[Address(RVA = "0x490DF80", Offset = "0x490DF80", VA = "0x490DF80")]
+		[Token(Token = "0x60002B3")]
+		[Address(RVA = "0x4C5A200", Offset = "0x4C5A200", VA = "0x4C5A200")]
 		get
 		{
-			return default(int);
+			return null;
 		}
-		[Token(Token = "0x6000204")]
-		[Address(RVA = "0x490DED0", Offset = "0x490DED0", VA = "0x490DED0")]
+		[Token(Token = "0x60002B4")]
+		[Address(RVA = "0x4C5A210", Offset = "0x4C5A210", VA = "0x4C5A210")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700008A")]
-	public int stringPosition
+	public SelectionEvent onDeselect
 	{
-		[Token(Token = "0x6000205")]
-		[Address(RVA = "0x490DFB0", Offset = "0x490DFB0", VA = "0x490DFB0")]
+		[Token(Token = "0x60002B5")]
+		[Address(RVA = "0x4C5A260", Offset = "0x4C5A260", VA = "0x4C5A260")]
 		get
 		{
-			return default(int);
+			return null;
 		}
-		[Token(Token = "0x6000206")]
-		[Address(RVA = "0x490DFE0", Offset = "0x490DFE0", VA = "0x490DFE0")]
+		[Token(Token = "0x60002B6")]
+		[Address(RVA = "0x4C5A270", Offset = "0x4C5A270", VA = "0x4C5A270")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700008B")]
-	public int selectionStringAnchorPosition
+	public TextSelectionEvent onTextSelection
 	{
-		[Token(Token = "0x6000207")]
-		[Address(RVA = "0x490E180", Offset = "0x490E180", VA = "0x490E180")]
+		[Token(Token = "0x60002B7")]
+		[Address(RVA = "0x4C5A2C0", Offset = "0x4C5A2C0", VA = "0x4C5A2C0")]
 		get
 		{
-			return default(int);
+			return null;
 		}
-		[Token(Token = "0x6000208")]
-		[Address(RVA = "0x490E0A0", Offset = "0x490E0A0", VA = "0x490E0A0")]
+		[Token(Token = "0x60002B8")]
+		[Address(RVA = "0x4C5A2D0", Offset = "0x4C5A2D0", VA = "0x4C5A2D0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700008C")]
-	public int selectionStringFocusPosition
+	public TextSelectionEvent onEndTextSelection
 	{
-		[Token(Token = "0x6000209")]
-		[Address(RVA = "0x490E1B0", Offset = "0x490E1B0", VA = "0x490E1B0")]
+		[Token(Token = "0x60002B9")]
+		[Address(RVA = "0x4C5A320", Offset = "0x4C5A320", VA = "0x4C5A320")]
 		get
 		{
-			return default(int);
+			return null;
 		}
-		[Token(Token = "0x600020A")]
-		[Address(RVA = "0x490E110", Offset = "0x490E110", VA = "0x490E110")]
+		[Token(Token = "0x60002BA")]
+		[Address(RVA = "0x4C5A330", Offset = "0x4C5A330", VA = "0x4C5A330")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700008D")]
-	private static string clipboard
+	public OnChangeEvent onValueChanged
 	{
-		[Token(Token = "0x6000217")]
-		[Address(RVA = "0x4910570", Offset = "0x4910570", VA = "0x4910570")]
+		[Token(Token = "0x60002BB")]
+		[Address(RVA = "0x4C5A380", Offset = "0x4C5A380", VA = "0x4C5A380")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000218")]
-		[Address(RVA = "0x4910580", Offset = "0x4910580", VA = "0x4910580")]
+		[Token(Token = "0x60002BC")]
+		[Address(RVA = "0x4C5A390", Offset = "0x4C5A390", VA = "0x4C5A390")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700008E")]
-	public virtual float minWidth
+	public TouchScreenKeyboardEvent onTouchScreenKeyboardStatusChanged
 	{
-		[Token(Token = "0x6000271")]
-		[Address(RVA = "0x491AC90", Offset = "0x491AC90", VA = "0x491AC90", Slot = "76")]
+		[Token(Token = "0x60002BD")]
+		[Address(RVA = "0x4C5A3E0", Offset = "0x4C5A3E0", VA = "0x4C5A3E0")]
 		get
 		{
-			return default(float);
+			return null;
+		}
+		[Token(Token = "0x60002BE")]
+		[Address(RVA = "0x4C5A3F0", Offset = "0x4C5A3F0", VA = "0x4C5A3F0")]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x1700008F")]
-	public virtual float preferredWidth
+	public OnValidateInput onValidateInput
 	{
-		[Token(Token = "0x6000272")]
-		[Address(RVA = "0x491ACA0", Offset = "0x491ACA0", VA = "0x491ACA0", Slot = "77")]
+		[Token(Token = "0x60002BF")]
+		[Address(RVA = "0x4C5A440", Offset = "0x4C5A440", VA = "0x4C5A440")]
 		get
 		{
-			return default(float);
+			return null;
+		}
+		[Token(Token = "0x60002C0")]
+		[Address(RVA = "0x4C5A450", Offset = "0x4C5A450", VA = "0x4C5A450")]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x17000090")]
-	public virtual float flexibleWidth
+	public int characterLimit
 	{
-		[Token(Token = "0x6000273")]
-		[Address(RVA = "0x491AE20", Offset = "0x491AE20", VA = "0x491AE20", Slot = "78")]
+		[Token(Token = "0x60002C1")]
+		[Address(RVA = "0x4C5A4A0", Offset = "0x4C5A4A0", VA = "0x4C5A4A0")]
 		get
 		{
-			return default(float);
+			return default(int);
+		}
+		[Token(Token = "0x60002C2")]
+		[Address(RVA = "0x4C5A4B0", Offset = "0x4C5A4B0", VA = "0x4C5A4B0")]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x17000091")]
-	public virtual float minHeight
+	public float pointSize
 	{
-		[Token(Token = "0x6000274")]
-		[Address(RVA = "0x491AE30", Offset = "0x491AE30", VA = "0x491AE30", Slot = "79")]
+		[Token(Token = "0x60002C3")]
+		[Address(RVA = "0x4C5A550", Offset = "0x4C5A550", VA = "0x4C5A550")]
 		get
 		{
 			return default(float);
+		}
+		[Token(Token = "0x60002C4")]
+		[Address(RVA = "0x4C5A560", Offset = "0x4C5A560", VA = "0x4C5A560")]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x17000092")]
-	public virtual float preferredHeight
+	public TMP_FontAsset fontAsset
 	{
-		[Token(Token = "0x6000275")]
-		[Address(RVA = "0x491AE40", Offset = "0x491AE40", VA = "0x491AE40", Slot = "80")]
+		[Token(Token = "0x60002C5")]
+		[Address(RVA = "0x4C5A700", Offset = "0x4C5A700", VA = "0x4C5A700")]
 		get
 		{
-			return default(float);
+			return null;
+		}
+		[Token(Token = "0x60002C6")]
+		[Address(RVA = "0x4C46DE0", Offset = "0x4C46DE0", VA = "0x4C46DE0")]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x17000093")]
-	public virtual float flexibleHeight
+	public bool onFocusSelectAll
 	{
-		[Token(Token = "0x6000276")]
-		[Address(RVA = "0x491AFD0", Offset = "0x491AFD0", VA = "0x491AFD0", Slot = "81")]
+		[Token(Token = "0x60002C7")]
+		[Address(RVA = "0x4C5A7F0", Offset = "0x4C5A7F0", VA = "0x4C5A7F0")]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x60002C8")]
+		[Address(RVA = "0x4C5A800", Offset = "0x4C5A800", VA = "0x4C5A800")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000094")]
+	public bool resetOnDeActivation
+	{
+		[Token(Token = "0x60002C9")]
+		[Address(RVA = "0x4C5A810", Offset = "0x4C5A810", VA = "0x4C5A810")]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x60002CA")]
+		[Address(RVA = "0x4C5A820", Offset = "0x4C5A820", VA = "0x4C5A820")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000095")]
+	public bool restoreOriginalTextOnEscape
+	{
+		[Token(Token = "0x60002CB")]
+		[Address(RVA = "0x4C5A830", Offset = "0x4C5A830", VA = "0x4C5A830")]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x60002CC")]
+		[Address(RVA = "0x4C5A840", Offset = "0x4C5A840", VA = "0x4C5A840")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000096")]
+	public bool isRichTextEditingAllowed
+	{
+		[Token(Token = "0x60002CD")]
+		[Address(RVA = "0x4C5A850", Offset = "0x4C5A850", VA = "0x4C5A850")]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x60002CE")]
+		[Address(RVA = "0x4C5A860", Offset = "0x4C5A860", VA = "0x4C5A860")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000097")]
+	public ContentType contentType
+	{
+		[Token(Token = "0x60002CF")]
+		[Address(RVA = "0x4C5A870", Offset = "0x4C5A870", VA = "0x4C5A870")]
+		get
+		{
+			return default(ContentType);
+		}
+		[Token(Token = "0x60002D0")]
+		[Address(RVA = "0x4C5A880", Offset = "0x4C5A880", VA = "0x4C5A880")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000098")]
+	public LineType lineType
+	{
+		[Token(Token = "0x60002D1")]
+		[Address(RVA = "0x4C5AAA0", Offset = "0x4C5AAA0", VA = "0x4C5AAA0")]
+		get
+		{
+			return default(LineType);
+		}
+		[Token(Token = "0x60002D2")]
+		[Address(RVA = "0x4C5AAB0", Offset = "0x4C5AAB0", VA = "0x4C5AAB0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000099")]
+	public int lineLimit
+	{
+		[Token(Token = "0x60002D3")]
+		[Address(RVA = "0x4C5ABC0", Offset = "0x4C5ABC0", VA = "0x4C5ABC0")]
+		get
+		{
+			return default(int);
+		}
+		[Token(Token = "0x60002D4")]
+		[Address(RVA = "0x4C5ABD0", Offset = "0x4C5ABD0", VA = "0x4C5ABD0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700009A")]
+	public InputType inputType
+	{
+		[Token(Token = "0x60002D5")]
+		[Address(RVA = "0x4C5AC30", Offset = "0x4C5AC30", VA = "0x4C5AC30")]
+		get
+		{
+			return default(InputType);
+		}
+		[Token(Token = "0x60002D6")]
+		[Address(RVA = "0x4C5AC40", Offset = "0x4C5AC40", VA = "0x4C5AC40")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700009B")]
+	public TouchScreenKeyboardType keyboardType
+	{
+		[Token(Token = "0x60002D7")]
+		[Address(RVA = "0x4C5ACD0", Offset = "0x4C5ACD0", VA = "0x4C5ACD0")]
+		get
+		{
+			return default(TouchScreenKeyboardType);
+		}
+		[Token(Token = "0x60002D8")]
+		[Address(RVA = "0x4C5ACE0", Offset = "0x4C5ACE0", VA = "0x4C5ACE0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700009C")]
+	public CharacterValidation characterValidation
+	{
+		[Token(Token = "0x60002D9")]
+		[Address(RVA = "0x4C5AD50", Offset = "0x4C5AD50", VA = "0x4C5AD50")]
+		get
+		{
+			return default(CharacterValidation);
+		}
+		[Token(Token = "0x60002DA")]
+		[Address(RVA = "0x4C5AD60", Offset = "0x4C5AD60", VA = "0x4C5AD60")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700009D")]
+	public TMP_InputValidator inputValidator
+	{
+		[Token(Token = "0x60002DB")]
+		[Address(RVA = "0x4C5ADD0", Offset = "0x4C5ADD0", VA = "0x4C5ADD0")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x60002DC")]
+		[Address(RVA = "0x4C5ADE0", Offset = "0x4C5ADE0", VA = "0x4C5ADE0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700009E")]
+	public bool readOnly
+	{
+		[Token(Token = "0x60002DD")]
+		[Address(RVA = "0x4C5AE70", Offset = "0x4C5AE70", VA = "0x4C5AE70")]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x60002DE")]
+		[Address(RVA = "0x4C5AE80", Offset = "0x4C5AE80", VA = "0x4C5AE80")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700009F")]
+	public bool richText
+	{
+		[Token(Token = "0x60002DF")]
+		[Address(RVA = "0x4C5AE90", Offset = "0x4C5AE90", VA = "0x4C5AE90")]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x60002E0")]
+		[Address(RVA = "0x4C5AEA0", Offset = "0x4C5AEA0", VA = "0x4C5AEA0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170000A0")]
+	public bool multiLine
+	{
+		[Token(Token = "0x60002E1")]
+		[Address(RVA = "0x4C5AFC0", Offset = "0x4C5AFC0", VA = "0x4C5AFC0")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x170000A1")]
+	public char asteriskChar
+	{
+		[Token(Token = "0x60002E2")]
+		[Address(RVA = "0x4C5AFD0", Offset = "0x4C5AFD0", VA = "0x4C5AFD0")]
+		get
+		{
+			return default(char);
+		}
+		[Token(Token = "0x60002E3")]
+		[Address(RVA = "0x4C5AFE0", Offset = "0x4C5AFE0", VA = "0x4C5AFE0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170000A2")]
+	public bool wasCanceled
+	{
+		[Token(Token = "0x60002E4")]
+		[Address(RVA = "0x4C5B040", Offset = "0x4C5B040", VA = "0x4C5B040")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x170000A3")]
+	protected int caretPositionInternal
+	{
+		[Token(Token = "0x60002E7")]
+		[Address(RVA = "0x4C5B0C0", Offset = "0x4C5B0C0", VA = "0x4C5B0C0")]
+		get
+		{
+			return default(int);
+		}
+		[Token(Token = "0x60002E8")]
+		[Address(RVA = "0x4C5B0F0", Offset = "0x4C5B0F0", VA = "0x4C5B0F0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170000A4")]
+	protected int stringPositionInternal
+	{
+		[Token(Token = "0x60002E9")]
+		[Address(RVA = "0x4C5B130", Offset = "0x4C5B130", VA = "0x4C5B130")]
+		get
+		{
+			return default(int);
+		}
+		[Token(Token = "0x60002EA")]
+		[Address(RVA = "0x4C5B160", Offset = "0x4C5B160", VA = "0x4C5B160")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170000A5")]
+	protected int caretSelectPositionInternal
+	{
+		[Token(Token = "0x60002EB")]
+		[Address(RVA = "0x4C5B190", Offset = "0x4C5B190", VA = "0x4C5B190")]
+		get
+		{
+			return default(int);
+		}
+		[Token(Token = "0x60002EC")]
+		[Address(RVA = "0x4C5B1C0", Offset = "0x4C5B1C0", VA = "0x4C5B1C0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170000A6")]
+	protected int stringSelectPositionInternal
+	{
+		[Token(Token = "0x60002ED")]
+		[Address(RVA = "0x4C5B200", Offset = "0x4C5B200", VA = "0x4C5B200")]
+		get
+		{
+			return default(int);
+		}
+		[Token(Token = "0x60002EE")]
+		[Address(RVA = "0x4C5B230", Offset = "0x4C5B230", VA = "0x4C5B230")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170000A7")]
+	private bool hasSelection
+	{
+		[Token(Token = "0x60002EF")]
+		[Address(RVA = "0x4C5B260", Offset = "0x4C5B260", VA = "0x4C5B260")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x170000A8")]
+	public int caretPosition
+	{
+		[Token(Token = "0x60002F0")]
+		[Address(RVA = "0x4C5B2C0", Offset = "0x4C5B2C0", VA = "0x4C5B2C0")]
+		get
+		{
+			return default(int);
+		}
+		[Token(Token = "0x60002F1")]
+		[Address(RVA = "0x4C5B2F0", Offset = "0x4C5B2F0", VA = "0x4C5B2F0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170000A9")]
+	public int selectionAnchorPosition
+	{
+		[Token(Token = "0x60002F2")]
+		[Address(RVA = "0x4C5B4D0", Offset = "0x4C5B4D0", VA = "0x4C5B4D0")]
+		get
+		{
+			return default(int);
+		}
+		[Token(Token = "0x60002F3")]
+		[Address(RVA = "0x4C5B3D0", Offset = "0x4C5B3D0", VA = "0x4C5B3D0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170000AA")]
+	public int selectionFocusPosition
+	{
+		[Token(Token = "0x60002F4")]
+		[Address(RVA = "0x4C5B500", Offset = "0x4C5B500", VA = "0x4C5B500")]
+		get
+		{
+			return default(int);
+		}
+		[Token(Token = "0x60002F5")]
+		[Address(RVA = "0x4C5B450", Offset = "0x4C5B450", VA = "0x4C5B450")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170000AB")]
+	public int stringPosition
+	{
+		[Token(Token = "0x60002F6")]
+		[Address(RVA = "0x4C5B530", Offset = "0x4C5B530", VA = "0x4C5B530")]
+		get
+		{
+			return default(int);
+		}
+		[Token(Token = "0x60002F7")]
+		[Address(RVA = "0x4C5B560", Offset = "0x4C5B560", VA = "0x4C5B560")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170000AC")]
+	public int selectionStringAnchorPosition
+	{
+		[Token(Token = "0x60002F8")]
+		[Address(RVA = "0x4C5B700", Offset = "0x4C5B700", VA = "0x4C5B700")]
+		get
+		{
+			return default(int);
+		}
+		[Token(Token = "0x60002F9")]
+		[Address(RVA = "0x4C5B620", Offset = "0x4C5B620", VA = "0x4C5B620")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170000AD")]
+	public int selectionStringFocusPosition
+	{
+		[Token(Token = "0x60002FA")]
+		[Address(RVA = "0x4C5B730", Offset = "0x4C5B730", VA = "0x4C5B730")]
+		get
+		{
+			return default(int);
+		}
+		[Token(Token = "0x60002FB")]
+		[Address(RVA = "0x4C5B690", Offset = "0x4C5B690", VA = "0x4C5B690")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170000AE")]
+	private static string clipboard
+	{
+		[Token(Token = "0x6000308")]
+		[Address(RVA = "0x4C5DAF0", Offset = "0x4C5DAF0", VA = "0x4C5DAF0")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6000309")]
+		[Address(RVA = "0x4C5DB00", Offset = "0x4C5DB00", VA = "0x4C5DB00")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170000AF")]
+	public virtual float minWidth
+	{
+		[Token(Token = "0x6000362")]
+		[Address(RVA = "0x4C68210", Offset = "0x4C68210", VA = "0x4C68210", Slot = "76")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000094")]
+	[Token(Token = "0x170000B0")]
+	public virtual float preferredWidth
+	{
+		[Token(Token = "0x6000363")]
+		[Address(RVA = "0x4C68220", Offset = "0x4C68220", VA = "0x4C68220", Slot = "77")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x170000B1")]
+	public virtual float flexibleWidth
+	{
+		[Token(Token = "0x6000364")]
+		[Address(RVA = "0x4C683A0", Offset = "0x4C683A0", VA = "0x4C683A0", Slot = "78")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x170000B2")]
+	public virtual float minHeight
+	{
+		[Token(Token = "0x6000365")]
+		[Address(RVA = "0x4C683B0", Offset = "0x4C683B0", VA = "0x4C683B0", Slot = "79")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x170000B3")]
+	public virtual float preferredHeight
+	{
+		[Token(Token = "0x6000366")]
+		[Address(RVA = "0x4C683C0", Offset = "0x4C683C0", VA = "0x4C683C0", Slot = "80")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x170000B4")]
+	public virtual float flexibleHeight
+	{
+		[Token(Token = "0x6000367")]
+		[Address(RVA = "0x4C68550", Offset = "0x4C68550", VA = "0x4C68550", Slot = "81")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x170000B5")]
 	public virtual int layoutPriority
 	{
-		[Token(Token = "0x6000277")]
-		[Address(RVA = "0x491AFE0", Offset = "0x491AFE0", VA = "0x491AFE0", Slot = "82")]
+		[Token(Token = "0x6000368")]
+		[Address(RVA = "0x4C68560", Offset = "0x4C68560", VA = "0x4C68560", Slot = "82")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x600019E")]
-	[Address(RVA = "0x490B530", Offset = "0x490B530", VA = "0x490B530")]
+	[Token(Token = "0x600028F")]
+	[Address(RVA = "0x4C58AB0", Offset = "0x4C58AB0", VA = "0x4C58AB0")]
 	protected TMP_InputField()
 	{
 	}
 
-	[Token(Token = "0x60001A4")]
-	[Address(RVA = "0x490BCC0", Offset = "0x490BCC0", VA = "0x490BCC0")]
+	[Token(Token = "0x6000295")]
+	[Address(RVA = "0x4C59240", Offset = "0x4C59240", VA = "0x4C59240")]
 	private bool isKeyboardUsingEvents()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60001A7")]
-	[Address(RVA = "0x490BEE0", Offset = "0x490BEE0", VA = "0x490BEE0")]
+	[Token(Token = "0x6000298")]
+	[Address(RVA = "0x4C59460", Offset = "0x4C59460", VA = "0x4C59460")]
 	public void SetTextWithoutNotify(string input)
 	{
 	}
 
-	[Token(Token = "0x60001A8")]
-	[Address(RVA = "0x490BD70", Offset = "0x490BD70", VA = "0x490BD70")]
+	[Token(Token = "0x6000299")]
+	[Address(RVA = "0x4C592F0", Offset = "0x4C592F0", VA = "0x4C592F0")]
 	private void SetText(string value, bool sendCallback = true)
 	{
 	}
 
-	[Token(Token = "0x60001F4")]
-	[Address(RVA = "0x490DAD0", Offset = "0x490DAD0", VA = "0x490DAD0")]
+	[Token(Token = "0x60002E5")]
+	[Address(RVA = "0x4C5B050", Offset = "0x4C5B050", VA = "0x4C5B050")]
 	protected void ClampStringPos(ref int pos)
 	{
 	}
 
-	[Token(Token = "0x60001F5")]
-	[Address(RVA = "0x490DB00", Offset = "0x490DB00", VA = "0x490DB00")]
+	[Token(Token = "0x60002E6")]
+	[Address(RVA = "0x4C5B080", Offset = "0x4C5B080", VA = "0x4C5B080")]
 	protected void ClampCaretPos(ref int pos)
 	{
 	}
 
-	[Token(Token = "0x600020B")]
-	[Address(RVA = "0x490E1E0", Offset = "0x490E1E0", VA = "0x490E1E0", Slot = "5")]
+	[Token(Token = "0x60002FC")]
+	[Address(RVA = "0x4C5B760", Offset = "0x4C5B760", VA = "0x4C5B760", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x600020C")]
-	[Address(RVA = "0x490F0B0", Offset = "0x490F0B0", VA = "0x490F0B0", Slot = "7")]
+	[Token(Token = "0x60002FD")]
+	[Address(RVA = "0x4C5C630", Offset = "0x4C5C630", VA = "0x4C5C630", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x600020D")]
-	[Address(RVA = "0x490F640", Offset = "0x490F640", VA = "0x490F640")]
+	[Token(Token = "0x60002FE")]
+	[Address(RVA = "0x4C5CBC0", Offset = "0x4C5CBC0", VA = "0x4C5CBC0")]
 	private void ON_TEXT_CHANGED(UnityEngine.Object obj)
 	{
 	}
 
-	[Token(Token = "0x600020E")]
-	[Address(RVA = "0x490FA60", Offset = "0x490FA60", VA = "0x490FA60")]
+	[Token(Token = "0x60002FF")]
+	[Address(RVA = "0x4C5CFE0", Offset = "0x4C5CFE0", VA = "0x4C5CFE0")]
 	[IteratorStateMachine(typeof(_003CCaretBlink_003Ed__276))]
 	private IEnumerator CaretBlink()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600020F")]
-	[Address(RVA = "0x490FAD0", Offset = "0x490FAD0", VA = "0x490FAD0")]
+	[Token(Token = "0x6000300")]
+	[Address(RVA = "0x4C5D050", Offset = "0x4C5D050", VA = "0x4C5D050")]
 	private void SetCaretVisible()
 	{
 	}
 
-	[Token(Token = "0x6000210")]
-	[Address(RVA = "0x490C560", Offset = "0x490C560", VA = "0x490C560")]
+	[Token(Token = "0x6000301")]
+	[Address(RVA = "0x4C59AE0", Offset = "0x4C59AE0", VA = "0x4C59AE0")]
 	private void SetCaretActive()
 	{
 	}
 
-	[Token(Token = "0x6000211")]
-	[Address(RVA = "0x490FB00", Offset = "0x490FB00", VA = "0x490FB00")]
+	[Token(Token = "0x6000302")]
+	[Address(RVA = "0x4C5D080", Offset = "0x4C5D080", VA = "0x4C5D080")]
 	protected void OnFocus()
 	{
 	}
 
-	[Token(Token = "0x6000212")]
-	[Address(RVA = "0x490FB50", Offset = "0x490FB50", VA = "0x490FB50")]
+	[Token(Token = "0x6000303")]
+	[Address(RVA = "0x4C5D0D0", Offset = "0x4C5D0D0", VA = "0x4C5D0D0")]
 	protected void SelectAll()
 	{
 	}
 
-	[Token(Token = "0x6000213")]
-	[Address(RVA = "0x490FBA0", Offset = "0x490FBA0", VA = "0x490FBA0")]
+	[Token(Token = "0x6000304")]
+	[Address(RVA = "0x4C5D120", Offset = "0x4C5D120", VA = "0x4C5D120")]
 	public void MoveTextEnd(bool shift)
 	{
 	}
 
-	[Token(Token = "0x6000214")]
-	[Address(RVA = "0x490FDA0", Offset = "0x490FDA0", VA = "0x490FDA0")]
+	[Token(Token = "0x6000305")]
+	[Address(RVA = "0x4C5D320", Offset = "0x4C5D320", VA = "0x4C5D320")]
 	public void MoveTextStart(bool shift)
 	{
 	}
 
-	[Token(Token = "0x6000215")]
-	[Address(RVA = "0x490FFE0", Offset = "0x490FFE0", VA = "0x490FFE0")]
+	[Token(Token = "0x6000306")]
+	[Address(RVA = "0x4C5D560", Offset = "0x4C5D560", VA = "0x4C5D560")]
 	public void MoveToEndOfLine(bool shift, bool ctrl)
 	{
 	}
 
-	[Token(Token = "0x6000216")]
-	[Address(RVA = "0x4910290", Offset = "0x4910290", VA = "0x4910290")]
+	[Token(Token = "0x6000307")]
+	[Address(RVA = "0x4C5D810", Offset = "0x4C5D810", VA = "0x4C5D810")]
 	public void MoveToStartOfLine(bool shift, bool ctrl)
 	{
 	}
 
-	[Token(Token = "0x6000219")]
-	[Address(RVA = "0x4910590", Offset = "0x4910590", VA = "0x4910590")]
+	[Token(Token = "0x600030A")]
+	[Address(RVA = "0x4C5DB10", Offset = "0x4C5DB10", VA = "0x4C5DB10")]
 	private bool InPlaceEditing()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600021A")]
-	[Address(RVA = "0x4910890", Offset = "0x4910890", VA = "0x4910890")]
+	[Token(Token = "0x600030B")]
+	[Address(RVA = "0x4C5DE10", Offset = "0x4C5DE10", VA = "0x4C5DE10")]
 	private void UpdateStringPositionFromKeyboard()
 	{
 	}
 
-	[Token(Token = "0x600021B")]
-	[Address(RVA = "0x4910BB0", Offset = "0x4910BB0", VA = "0x4910BB0", Slot = "60")]
+	[Token(Token = "0x600030C")]
+	[Address(RVA = "0x4C5E130", Offset = "0x4C5E130", VA = "0x4C5E130", Slot = "60")]
 	protected virtual void LateUpdate()
 	{
 	}
 
-	[Token(Token = "0x600021C")]
-	[Address(RVA = "0x49125A0", Offset = "0x49125A0", VA = "0x49125A0")]
+	[Token(Token = "0x600030D")]
+	[Address(RVA = "0x4C5FB20", Offset = "0x4C5FB20", VA = "0x4C5FB20")]
 	private bool MayDrag(PointerEventData eventData)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600021D")]
-	[Address(RVA = "0x4912780", Offset = "0x4912780", VA = "0x4912780", Slot = "61")]
+	[Token(Token = "0x600030E")]
+	[Address(RVA = "0x4C5FD00", Offset = "0x4C5FD00", VA = "0x4C5FD00", Slot = "61")]
 	public virtual void OnBeginDrag(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x600021E")]
-	[Address(RVA = "0x49127A0", Offset = "0x49127A0", VA = "0x49127A0", Slot = "62")]
+	[Token(Token = "0x600030F")]
+	[Address(RVA = "0x4C5FD20", Offset = "0x4C5FD20", VA = "0x4C5FD20", Slot = "62")]
 	public virtual void OnDrag(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x600021F")]
-	[Address(RVA = "0x4912CA0", Offset = "0x4912CA0", VA = "0x4912CA0")]
+	[Token(Token = "0x6000310")]
+	[Address(RVA = "0x4C60220", Offset = "0x4C60220", VA = "0x4C60220")]
 	[IteratorStateMachine(typeof(_003CMouseDragOutsideRect_003Ed__294))]
 	private IEnumerator MouseDragOutsideRect(PointerEventData eventData)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000220")]
-	[Address(RVA = "0x4912D20", Offset = "0x4912D20", VA = "0x4912D20", Slot = "63")]
+	[Token(Token = "0x6000311")]
+	[Address(RVA = "0x4C602A0", Offset = "0x4C602A0", VA = "0x4C602A0", Slot = "63")]
 	public virtual void OnEndDrag(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000221")]
-	[Address(RVA = "0x4912D40", Offset = "0x4912D40", VA = "0x4912D40", Slot = "32")]
+	[Token(Token = "0x6000312")]
+	[Address(RVA = "0x4C602C0", Offset = "0x4C602C0", VA = "0x4C602C0", Slot = "32")]
 	public override void OnPointerDown(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000222")]
-	[Address(RVA = "0x4913870", Offset = "0x4913870", VA = "0x4913870")]
+	[Token(Token = "0x6000313")]
+	[Address(RVA = "0x4C60DF0", Offset = "0x4C60DF0", VA = "0x4C60DF0")]
 	protected EditState KeyPressed(Event evt)
 	{
 		return default(EditState);
 	}
 
-	[Token(Token = "0x6000223")]
-	[Address(RVA = "0x4915C20", Offset = "0x4915C20", VA = "0x4915C20", Slot = "64")]
+	[Token(Token = "0x6000314")]
+	[Address(RVA = "0x4C631A0", Offset = "0x4C631A0", VA = "0x4C631A0", Slot = "64")]
 	protected virtual bool IsValidChar(char c)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000224")]
-	[Address(RVA = "0x4915C30", Offset = "0x4915C30", VA = "0x4915C30")]
+	[Token(Token = "0x6000315")]
+	[Address(RVA = "0x4C631B0", Offset = "0x4C631B0", VA = "0x4C631B0")]
 	public void ProcessEvent(Event e)
 	{
 	}
 
-	[Token(Token = "0x6000225")]
-	[Address(RVA = "0x4915C40", Offset = "0x4915C40", VA = "0x4915C40", Slot = "65")]
+	[Token(Token = "0x6000316")]
+	[Address(RVA = "0x4C631C0", Offset = "0x4C631C0", VA = "0x4C631C0", Slot = "65")]
 	public virtual void OnUpdateSelected(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000226")]
-	[Address(RVA = "0x4915EF0", Offset = "0x4915EF0", VA = "0x4915EF0", Slot = "66")]
+	[Token(Token = "0x6000317")]
+	[Address(RVA = "0x4C63470", Offset = "0x4C63470", VA = "0x4C63470", Slot = "66")]
 	public virtual void OnScroll(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000227")]
-	[Address(RVA = "0x49160F0", Offset = "0x49160F0", VA = "0x49160F0")]
+	[Token(Token = "0x6000318")]
+	[Address(RVA = "0x4C63670", Offset = "0x4C63670", VA = "0x4C63670")]
 	private float GetScrollPositionRelativeToViewport()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6000228")]
-	[Address(RVA = "0x49148C0", Offset = "0x49148C0", VA = "0x49148C0")]
+	[Token(Token = "0x6000319")]
+	[Address(RVA = "0x4C61E40", Offset = "0x4C61E40", VA = "0x4C61E40")]
 	private string GetSelectedString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000229")]
-	[Address(RVA = "0x4916410", Offset = "0x4916410", VA = "0x4916410")]
+	[Token(Token = "0x600031A")]
+	[Address(RVA = "0x4C63990", Offset = "0x4C63990", VA = "0x4C63990")]
 	private int FindNextWordBegin()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600022A")]
-	[Address(RVA = "0x4915400", Offset = "0x4915400", VA = "0x4915400")]
+	[Token(Token = "0x600031B")]
+	[Address(RVA = "0x4C62980", Offset = "0x4C62980", VA = "0x4C62980")]
 	private void MoveRight(bool shift, bool ctrl)
 	{
 	}
 
-	[Token(Token = "0x600022B")]
-	[Address(RVA = "0x4916500", Offset = "0x4916500", VA = "0x4916500")]
+	[Token(Token = "0x600031C")]
+	[Address(RVA = "0x4C63A80", Offset = "0x4C63A80", VA = "0x4C63A80")]
 	private int FindPrevWordBegin()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600022C")]
-	[Address(RVA = "0x4914C60", Offset = "0x4914C60", VA = "0x4914C60")]
+	[Token(Token = "0x600031D")]
+	[Address(RVA = "0x4C621E0", Offset = "0x4C621E0", VA = "0x4C621E0")]
 	private void MoveLeft(bool shift, bool ctrl)
 	{
 	}
 
-	[Token(Token = "0x600022D")]
-	[Address(RVA = "0x49165D0", Offset = "0x49165D0", VA = "0x49165D0")]
+	[Token(Token = "0x600031E")]
+	[Address(RVA = "0x4C63B50", Offset = "0x4C63B50", VA = "0x4C63B50")]
 	private int LineUpCharacterPosition(int originalPos, bool goToFirstChar)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600022E")]
-	[Address(RVA = "0x4916780", Offset = "0x4916780", VA = "0x4916780")]
+	[Token(Token = "0x600031F")]
+	[Address(RVA = "0x4C63D00", Offset = "0x4C63D00", VA = "0x4C63D00")]
 	private int LineDownCharacterPosition(int originalPos, bool goToLastChar)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600022F")]
-	[Address(RVA = "0x4916910", Offset = "0x4916910", VA = "0x4916910")]
+	[Token(Token = "0x6000320")]
+	[Address(RVA = "0x4C63E90", Offset = "0x4C63E90", VA = "0x4C63E90")]
 	private int PageUpCharacterPosition(int originalPos, bool goToFirstChar)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000230")]
-	[Address(RVA = "0x4916B70", Offset = "0x4916B70", VA = "0x4916B70")]
+	[Token(Token = "0x6000321")]
+	[Address(RVA = "0x4C640F0", Offset = "0x4C640F0", VA = "0x4C640F0")]
 	private int PageDownCharacterPosition(int originalPos, bool goToLastChar)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000231")]
-	[Address(RVA = "0x4915BF0", Offset = "0x4915BF0", VA = "0x4915BF0")]
+	[Token(Token = "0x6000322")]
+	[Address(RVA = "0x4C63170", Offset = "0x4C63170", VA = "0x4C63170")]
 	private void MoveDown(bool shift)
 	{
 	}
 
-	[Token(Token = "0x6000232")]
-	[Address(RVA = "0x4916DD0", Offset = "0x4916DD0", VA = "0x4916DD0")]
+	[Token(Token = "0x6000323")]
+	[Address(RVA = "0x4C64350", Offset = "0x4C64350", VA = "0x4C64350")]
 	private void MoveDown(bool shift, bool goToLastChar)
 	{
 	}
 
-	[Token(Token = "0x6000233")]
-	[Address(RVA = "0x4915BE0", Offset = "0x4915BE0", VA = "0x4915BE0")]
+	[Token(Token = "0x6000324")]
+	[Address(RVA = "0x4C63160", Offset = "0x4C63160", VA = "0x4C63160")]
 	private void MoveUp(bool shift)
 	{
 	}
 
-	[Token(Token = "0x6000234")]
-	[Address(RVA = "0x4917170", Offset = "0x4917170", VA = "0x4917170")]
+	[Token(Token = "0x6000325")]
+	[Address(RVA = "0x4C646F0", Offset = "0x4C646F0", VA = "0x4C646F0")]
 	private void MoveUp(bool shift, bool goToFirstChar)
 	{
 	}
 
-	[Token(Token = "0x6000235")]
-	[Address(RVA = "0x4915C00", Offset = "0x4915C00", VA = "0x4915C00")]
+	[Token(Token = "0x6000326")]
+	[Address(RVA = "0x4C63180", Offset = "0x4C63180", VA = "0x4C63180")]
 	private void MovePageUp(bool shift)
 	{
 	}
 
-	[Token(Token = "0x6000236")]
-	[Address(RVA = "0x49174E0", Offset = "0x49174E0", VA = "0x49174E0")]
+	[Token(Token = "0x6000327")]
+	[Address(RVA = "0x4C64A60", Offset = "0x4C64A60", VA = "0x4C64A60")]
 	private void MovePageUp(bool shift, bool goToFirstChar)
 	{
 	}
 
-	[Token(Token = "0x6000237")]
-	[Address(RVA = "0x4915C10", Offset = "0x4915C10", VA = "0x4915C10")]
+	[Token(Token = "0x6000328")]
+	[Address(RVA = "0x4C63190", Offset = "0x4C63190", VA = "0x4C63190")]
 	private void MovePageDown(bool shift)
 	{
 	}
 
-	[Token(Token = "0x6000238")]
-	[Address(RVA = "0x4917A10", Offset = "0x4917A10", VA = "0x4917A10")]
+	[Token(Token = "0x6000329")]
+	[Address(RVA = "0x4C64F90", Offset = "0x4C64F90", VA = "0x4C64F90")]
 	private void MovePageDown(bool shift, bool goToLastChar)
 	{
 	}
 
-	[Token(Token = "0x6000239")]
-	[Address(RVA = "0x49149D0", Offset = "0x49149D0", VA = "0x49149D0")]
+	[Token(Token = "0x600032A")]
+	[Address(RVA = "0x4C61F50", Offset = "0x4C61F50", VA = "0x4C61F50")]
 	private void Delete()
 	{
 	}
 
-	[Token(Token = "0x600023A")]
-	[Address(RVA = "0x4914480", Offset = "0x4914480", VA = "0x4914480")]
+	[Token(Token = "0x600032B")]
+	[Address(RVA = "0x4C61A00", Offset = "0x4C61A00", VA = "0x4C61A00")]
 	private void DeleteKey()
 	{
 	}
 
-	[Token(Token = "0x600023B")]
-	[Address(RVA = "0x4913D80", Offset = "0x4913D80", VA = "0x4913D80")]
+	[Token(Token = "0x600032C")]
+	[Address(RVA = "0x4C61300", Offset = "0x4C61300", VA = "0x4C61300")]
 	private void Backspace()
 	{
 	}
 
-	[Token(Token = "0x600023C")]
-	[Address(RVA = "0x4917F60", Offset = "0x4917F60", VA = "0x4917F60", Slot = "67")]
+	[Token(Token = "0x600032D")]
+	[Address(RVA = "0x4C654E0", Offset = "0x4C654E0", VA = "0x4C654E0", Slot = "67")]
 	protected virtual void Append(string input)
 	{
 	}
 
-	[Token(Token = "0x600023D")]
-	[Address(RVA = "0x4917FF0", Offset = "0x4917FF0", VA = "0x4917FF0", Slot = "68")]
+	[Token(Token = "0x600032E")]
+	[Address(RVA = "0x4C65570", Offset = "0x4C65570", VA = "0x4C65570", Slot = "68")]
 	protected virtual void Append(char input)
 	{
 	}
 
-	[Token(Token = "0x600023E")]
-	[Address(RVA = "0x49182F0", Offset = "0x49182F0", VA = "0x49182F0")]
+	[Token(Token = "0x600032F")]
+	[Address(RVA = "0x4C65870", Offset = "0x4C65870", VA = "0x4C65870")]
 	private void Insert(char c)
 	{
 	}
 
-	[Token(Token = "0x600023F")]
-	[Address(RVA = "0x4914C20", Offset = "0x4914C20", VA = "0x4914C20")]
+	[Token(Token = "0x6000330")]
+	[Address(RVA = "0x4C621A0", Offset = "0x4C621A0", VA = "0x4C621A0")]
 	private void UpdateTouchKeyboardFromEditChanges()
 	{
 	}
 
-	[Token(Token = "0x6000240")]
-	[Address(RVA = "0x4912550", Offset = "0x4912550", VA = "0x4912550")]
+	[Token(Token = "0x6000331")]
+	[Address(RVA = "0x4C5FAD0", Offset = "0x4C5FAD0", VA = "0x4C5FAD0")]
 	private void SendOnValueChangedAndUpdateLabel()
 	{
 	}
 
-	[Token(Token = "0x6000241")]
-	[Address(RVA = "0x490C480", Offset = "0x490C480", VA = "0x490C480")]
+	[Token(Token = "0x6000332")]
+	[Address(RVA = "0x4C59A00", Offset = "0x4C59A00", VA = "0x4C59A00")]
 	private void SendOnValueChanged()
 	{
 	}
 
-	[Token(Token = "0x6000242")]
-	[Address(RVA = "0x4918470", Offset = "0x4918470", VA = "0x4918470")]
+	[Token(Token = "0x6000333")]
+	[Address(RVA = "0x4C659F0", Offset = "0x4C659F0", VA = "0x4C659F0")]
 	protected void SendOnEndEdit()
 	{
 	}
 
-	[Token(Token = "0x6000243")]
-	[Address(RVA = "0x4915EA0", Offset = "0x4915EA0", VA = "0x4915EA0")]
+	[Token(Token = "0x6000334")]
+	[Address(RVA = "0x4C63420", Offset = "0x4C63420", VA = "0x4C63420")]
 	protected void SendOnSubmit()
 	{
 	}
 
-	[Token(Token = "0x6000244")]
-	[Address(RVA = "0x49184C0", Offset = "0x49184C0", VA = "0x49184C0")]
+	[Token(Token = "0x6000335")]
+	[Address(RVA = "0x4C65A40", Offset = "0x4C65A40", VA = "0x4C65A40")]
 	protected void SendOnFocus()
 	{
 	}
 
-	[Token(Token = "0x6000245")]
-	[Address(RVA = "0x4918510", Offset = "0x4918510", VA = "0x4918510")]
+	[Token(Token = "0x6000336")]
+	[Address(RVA = "0x4C65A90", Offset = "0x4C65A90", VA = "0x4C65A90")]
 	protected void SendOnFocusLost()
 	{
 	}
 
-	[Token(Token = "0x6000246")]
-	[Address(RVA = "0x4918560", Offset = "0x4918560", VA = "0x4918560")]
+	[Token(Token = "0x6000337")]
+	[Address(RVA = "0x4C65AE0", Offset = "0x4C65AE0", VA = "0x4C65AE0")]
 	protected void SendOnTextSelection()
 	{
 	}
 
-	[Token(Token = "0x6000247")]
-	[Address(RVA = "0x4918620", Offset = "0x4918620", VA = "0x4918620")]
+	[Token(Token = "0x6000338")]
+	[Address(RVA = "0x4C65BA0", Offset = "0x4C65BA0", VA = "0x4C65BA0")]
 	protected void SendOnEndTextSelection()
 	{
 	}
 
-	[Token(Token = "0x6000248")]
-	[Address(RVA = "0x4911CB0", Offset = "0x4911CB0", VA = "0x4911CB0")]
+	[Token(Token = "0x6000339")]
+	[Address(RVA = "0x4C5F230", Offset = "0x4C5F230", VA = "0x4C5F230")]
 	protected void SendTouchScreenKeyboardStatusChanged()
 	{
 	}
 
-	[Token(Token = "0x6000249")]
-	[Address(RVA = "0x490BEF0", Offset = "0x490BEF0", VA = "0x490BEF0")]
+	[Token(Token = "0x600033A")]
+	[Address(RVA = "0x4C59470", Offset = "0x4C59470", VA = "0x4C59470")]
 	protected void UpdateLabel()
 	{
 	}
 
-	[Token(Token = "0x600024A")]
-	[Address(RVA = "0x490F980", Offset = "0x490F980", VA = "0x490F980")]
+	[Token(Token = "0x600033B")]
+	[Address(RVA = "0x4C5CF00", Offset = "0x4C5CF00", VA = "0x4C5CF00")]
 	private void UpdateScrollbar()
 	{
 	}
 
-	[Token(Token = "0x600024B")]
-	[Address(RVA = "0x49186E0", Offset = "0x49186E0", VA = "0x49186E0")]
+	[Token(Token = "0x600033C")]
+	[Address(RVA = "0x4C65C60", Offset = "0x4C65C60", VA = "0x4C65C60")]
 	private void OnScrollbarValueChange(float value)
 	{
 	}
 
-	[Token(Token = "0x600024C")]
-	[Address(RVA = "0x490F0A0", Offset = "0x490F0A0", VA = "0x490F0A0")]
+	[Token(Token = "0x600033D")]
+	[Address(RVA = "0x4C5C620", Offset = "0x4C5C620", VA = "0x4C5C620")]
 	private void UpdateMaskRegions()
 	{
 	}
 
-	[Token(Token = "0x600024D")]
-	[Address(RVA = "0x4916220", Offset = "0x4916220", VA = "0x4916220")]
+	[Token(Token = "0x600033E")]
+	[Address(RVA = "0x4C637A0", Offset = "0x4C637A0", VA = "0x4C637A0")]
 	private void AdjustTextPositionRelativeToViewport(float relativePosition)
 	{
 	}
 
-	[Token(Token = "0x600024E")]
-	[Address(RVA = "0x490F920", Offset = "0x490F920", VA = "0x490F920")]
+	[Token(Token = "0x600033F")]
+	[Address(RVA = "0x4C5CEA0", Offset = "0x4C5CEA0", VA = "0x4C5CEA0")]
 	private int GetCaretPositionFromStringIndex(int stringIndex)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600024F")]
-	[Address(RVA = "0x4918720", Offset = "0x4918720", VA = "0x4918720")]
+	[Token(Token = "0x6000340")]
+	[Address(RVA = "0x4C65CA0", Offset = "0x4C65CA0", VA = "0x4C65CA0")]
 	private int GetMinCaretPositionFromStringIndex(int stringIndex)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000250")]
-	[Address(RVA = "0x4918790", Offset = "0x4918790", VA = "0x4918790")]
+	[Token(Token = "0x6000341")]
+	[Address(RVA = "0x4C65D10", Offset = "0x4C65D10", VA = "0x4C65D10")]
 	private int GetMaxCaretPositionFromStringIndex(int stringIndex)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000251")]
-	[Address(RVA = "0x490FD20", Offset = "0x490FD20", VA = "0x490FD20")]
+	[Token(Token = "0x6000342")]
+	[Address(RVA = "0x4C5D2A0", Offset = "0x4C5D2A0", VA = "0x4C5D2A0")]
 	private int GetStringIndexFromCaretPosition(int caretPosition)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000252")]
-	[Address(RVA = "0x49187F0", Offset = "0x49187F0", VA = "0x49187F0")]
+	[Token(Token = "0x6000343")]
+	[Address(RVA = "0x4C65D70", Offset = "0x4C65D70", VA = "0x4C65D70")]
 	public void ForceLabelUpdate()
 	{
 	}
 
-	[Token(Token = "0x6000253")]
-	[Address(RVA = "0x490C6C0", Offset = "0x490C6C0", VA = "0x490C6C0")]
+	[Token(Token = "0x6000344")]
+	[Address(RVA = "0x4C59C40", Offset = "0x4C59C40", VA = "0x4C59C40")]
 	private void MarkGeometryAsDirty()
 	{
 	}
 
-	[Token(Token = "0x6000254")]
-	[Address(RVA = "0x4918800", Offset = "0x4918800", VA = "0x4918800", Slot = "69")]
+	[Token(Token = "0x6000345")]
+	[Address(RVA = "0x4C65D80", Offset = "0x4C65D80", VA = "0x4C65D80", Slot = "69")]
 	public virtual void Rebuild(CanvasUpdate update)
 	{
 	}
 
-	[Token(Token = "0x6000255")]
-	[Address(RVA = "0x49188C0", Offset = "0x49188C0", VA = "0x49188C0", Slot = "70")]
+	[Token(Token = "0x6000346")]
+	[Address(RVA = "0x4C65E40", Offset = "0x4C65E40", VA = "0x4C65E40", Slot = "70")]
 	public virtual void LayoutComplete()
 	{
 	}
 
-	[Token(Token = "0x6000256")]
-	[Address(RVA = "0x49188D0", Offset = "0x49188D0", VA = "0x49188D0", Slot = "71")]
+	[Token(Token = "0x6000347")]
+	[Address(RVA = "0x4C65E50", Offset = "0x4C65E50", VA = "0x4C65E50", Slot = "71")]
 	public virtual void GraphicUpdateComplete()
 	{
 	}
 
-	[Token(Token = "0x6000257")]
-	[Address(RVA = "0x4918810", Offset = "0x4918810", VA = "0x4918810")]
+	[Token(Token = "0x6000348")]
+	[Address(RVA = "0x4C65D90", Offset = "0x4C65D90", VA = "0x4C65D90")]
 	private void UpdateGeometry()
 	{
 	}
 
-	[Token(Token = "0x6000258")]
-	[Address(RVA = "0x490EA40", Offset = "0x490EA40", VA = "0x490EA40")]
+	[Token(Token = "0x6000349")]
+	[Address(RVA = "0x4C5BFC0", Offset = "0x4C5BFC0", VA = "0x4C5BFC0")]
 	private void AssignPositioningIfNeeded()
 	{
 	}
 
-	[Token(Token = "0x6000259")]
-	[Address(RVA = "0x49188E0", Offset = "0x49188E0", VA = "0x49188E0")]
+	[Token(Token = "0x600034A")]
+	[Address(RVA = "0x4C65E60", Offset = "0x4C65E60", VA = "0x4C65E60")]
 	private void OnFillVBO(Mesh vbo)
 	{
 	}
 
-	[Token(Token = "0x600025A")]
-	[Address(RVA = "0x4918E60", Offset = "0x4918E60", VA = "0x4918E60")]
+	[Token(Token = "0x600034B")]
+	[Address(RVA = "0x4C663E0", Offset = "0x4C663E0", VA = "0x4C663E0")]
 	private void GenerateCaret(VertexHelper vbo, Vector2 roundingOffset)
 	{
 	}
 
-	[Token(Token = "0x600025B")]
-	[Address(RVA = "0x491A190", Offset = "0x491A190", VA = "0x491A190")]
+	[Token(Token = "0x600034C")]
+	[Address(RVA = "0x4C67710", Offset = "0x4C67710", VA = "0x4C67710")]
 	private void CreateCursorVerts()
 	{
 	}
 
-	[Token(Token = "0x600025C")]
-	[Address(RVA = "0x4919770", Offset = "0x4919770", VA = "0x4919770")]
+	[Token(Token = "0x600034D")]
+	[Address(RVA = "0x4C66CF0", Offset = "0x4C66CF0", VA = "0x4C66CF0")]
 	private void GenerateHightlight(VertexHelper vbo, Vector2 roundingOffset)
 	{
 	}
 
-	[Token(Token = "0x600025D")]
-	[Address(RVA = "0x491A350", Offset = "0x491A350", VA = "0x491A350")]
+	[Token(Token = "0x600034E")]
+	[Address(RVA = "0x4C678D0", Offset = "0x4C678D0", VA = "0x4C678D0")]
 	private void AdjustRectTransformRelativeToViewport(Vector2 startPosition, float height, bool isCharVisible)
 	{
 	}
 
-	[Token(Token = "0x600025E")]
-	[Address(RVA = "0x4911D20", Offset = "0x4911D20", VA = "0x4911D20")]
+	[Token(Token = "0x600034F")]
+	[Address(RVA = "0x4C5F2A0", Offset = "0x4C5F2A0", VA = "0x4C5F2A0")]
 	protected char Validate(string text, int pos, char ch)
 	{
 		return default(char);
 	}
 
-	[Token(Token = "0x600025F")]
-	[Address(RVA = "0x491A970", Offset = "0x491A970", VA = "0x491A970")]
+	[Token(Token = "0x6000350")]
+	[Address(RVA = "0x4C67EF0", Offset = "0x4C67EF0", VA = "0x4C67EF0")]
 	public void ActivateInputField()
 	{
 	}
 
-	[Token(Token = "0x6000260")]
-	[Address(RVA = "0x49114B0", Offset = "0x49114B0", VA = "0x49114B0")]
+	[Token(Token = "0x6000351")]
+	[Address(RVA = "0x4C5EA30", Offset = "0x4C5EA30", VA = "0x4C5EA30")]
 	private void ActivateInputFieldInternal()
 	{
 	}
 
-	[Token(Token = "0x6000261")]
-	[Address(RVA = "0x491AAA0", Offset = "0x491AAA0", VA = "0x491AAA0", Slot = "36")]
+	[Token(Token = "0x6000352")]
+	[Address(RVA = "0x4C68020", Offset = "0x4C68020", VA = "0x4C68020", Slot = "36")]
 	public override void OnSelect(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000262")]
-	[Address(RVA = "0x491AB00", Offset = "0x491AB00", VA = "0x491AB00", Slot = "72")]
+	[Token(Token = "0x6000353")]
+	[Address(RVA = "0x4C68080", Offset = "0x4C68080", VA = "0x4C68080", Slot = "72")]
 	public virtual void OnPointerClick(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000263")]
-	[Address(RVA = "0x491AB20", Offset = "0x491AB20", VA = "0x491AB20")]
+	[Token(Token = "0x6000354")]
+	[Address(RVA = "0x4C680A0", Offset = "0x4C680A0", VA = "0x4C680A0")]
 	public void OnControlClick()
 	{
 	}
 
-	[Token(Token = "0x6000264")]
-	[Address(RVA = "0x4911C00", Offset = "0x4911C00", VA = "0x4911C00")]
+	[Token(Token = "0x6000355")]
+	[Address(RVA = "0x4C5F180", Offset = "0x4C5F180", VA = "0x4C5F180")]
 	public void ReleaseSelection()
 	{
 	}
 
-	[Token(Token = "0x6000265")]
-	[Address(RVA = "0x490F410", Offset = "0x490F410", VA = "0x490F410")]
+	[Token(Token = "0x6000356")]
+	[Address(RVA = "0x4C5C990", Offset = "0x4C5C990", VA = "0x4C5C990")]
 	public void DeactivateInputField(bool clearSelection = false)
 	{
 	}
 
-	[Token(Token = "0x6000266")]
-	[Address(RVA = "0x491AB30", Offset = "0x491AB30", VA = "0x491AB30", Slot = "37")]
+	[Token(Token = "0x6000357")]
+	[Address(RVA = "0x4C680B0", Offset = "0x4C680B0", VA = "0x4C680B0", Slot = "37")]
 	public override void OnDeselect(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000267")]
-	[Address(RVA = "0x491ABA0", Offset = "0x491ABA0", VA = "0x491ABA0", Slot = "73")]
+	[Token(Token = "0x6000358")]
+	[Address(RVA = "0x4C68120", Offset = "0x4C68120", VA = "0x4C68120", Slot = "73")]
 	public virtual void OnSubmit(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000268")]
-	[Address(RVA = "0x490D440", Offset = "0x490D440", VA = "0x490D440")]
+	[Token(Token = "0x6000359")]
+	[Address(RVA = "0x4C5A9C0", Offset = "0x4C5A9C0", VA = "0x4C5A9C0")]
 	private void EnforceContentType()
 	{
 	}
 
-	[Token(Token = "0x6000269")]
-	[Address(RVA = "0x490B870", Offset = "0x490B870", VA = "0x490B870")]
+	[Token(Token = "0x600035A")]
+	[Address(RVA = "0x4C58DF0", Offset = "0x4C58DF0", VA = "0x4C58DF0")]
 	private void SetTextComponentWrapMode()
 	{
 	}
 
-	[Token(Token = "0x600026A")]
-	[Address(RVA = "0x490D9B0", Offset = "0x490D9B0", VA = "0x490D9B0")]
+	[Token(Token = "0x600035B")]
+	[Address(RVA = "0x4C5AF30", Offset = "0x4C5AF30", VA = "0x4C5AF30")]
 	private void SetTextComponentRichTextMode()
 	{
 	}
 
-	[Token(Token = "0x600026B")]
-	[Address(RVA = "0x490D600", Offset = "0x490D600", VA = "0x490D600")]
+	[Token(Token = "0x600035C")]
+	[Address(RVA = "0x4C5AB80", Offset = "0x4C5AB80", VA = "0x4C5AB80")]
 	private void SetToCustomIfContentTypeIsNot(params ContentType[] allowedContentTypes)
 	{
 	}
 
-	[Token(Token = "0x600026C")]
-	[Address(RVA = "0x490D730", Offset = "0x490D730", VA = "0x490D730")]
+	[Token(Token = "0x600035D")]
+	[Address(RVA = "0x4C5ACB0", Offset = "0x4C5ACB0", VA = "0x4C5ACB0")]
 	private void SetToCustom()
 	{
 	}
 
-	[Token(Token = "0x600026D")]
-	[Address(RVA = "0x490D8D0", Offset = "0x490D8D0", VA = "0x490D8D0")]
+	[Token(Token = "0x600035E")]
+	[Address(RVA = "0x4C5AE50", Offset = "0x4C5AE50", VA = "0x4C5AE50")]
 	private void SetToCustom(CharacterValidation characterValidation)
 	{
 	}
 
-	[Token(Token = "0x600026E")]
-	[Address(RVA = "0x491AC40", Offset = "0x491AC40", VA = "0x491AC40", Slot = "26")]
+	[Token(Token = "0x600035F")]
+	[Address(RVA = "0x4C681C0", Offset = "0x4C681C0", VA = "0x4C681C0", Slot = "26")]
 	protected override void DoStateTransition(SelectionState state, bool instant)
 	{
 	}
 
-	[Token(Token = "0x600026F")]
-	[Address(RVA = "0x491AC70", Offset = "0x491AC70", VA = "0x491AC70", Slot = "74")]
+	[Token(Token = "0x6000360")]
+	[Address(RVA = "0x4C681F0", Offset = "0x4C681F0", VA = "0x4C681F0", Slot = "74")]
 	public virtual void CalculateLayoutInputHorizontal()
 	{
 	}
 
-	[Token(Token = "0x6000270")]
-	[Address(RVA = "0x491AC80", Offset = "0x491AC80", VA = "0x491AC80", Slot = "75")]
+	[Token(Token = "0x6000361")]
+	[Address(RVA = "0x4C68200", Offset = "0x4C68200", VA = "0x4C68200", Slot = "75")]
 	public virtual void CalculateLayoutInputVertical()
 	{
 	}
 
-	[Token(Token = "0x6000278")]
-	[Address(RVA = "0x490D090", Offset = "0x490D090", VA = "0x490D090")]
+	[Token(Token = "0x6000369")]
+	[Address(RVA = "0x4C5A610", Offset = "0x4C5A610", VA = "0x4C5A610")]
 	public void SetGlobalPointSize(float pointSize)
 	{
 	}
 
-	[Token(Token = "0x6000279")]
-	[Address(RVA = "0x490D190", Offset = "0x490D190", VA = "0x490D190")]
+	[Token(Token = "0x600036A")]
+	[Address(RVA = "0x4C5A710", Offset = "0x4C5A710", VA = "0x4C5A710")]
 	public void SetGlobalFontAsset(TMP_FontAsset fontAsset)
 	{
 	}
 
-	[Token(Token = "0x600027B")]
-	[Address(RVA = "0x491B080", Offset = "0x491B080", VA = "0x491B080", Slot = "46")]
+	[Token(Token = "0x600036C")]
+	[Address(RVA = "0x4C68600", Offset = "0x4C68600", VA = "0x4C68600", Slot = "46")]
 	private Transform UnityEngine_002EUI_002EICanvasElement_002Eget_transform()
 	{
 		return null;

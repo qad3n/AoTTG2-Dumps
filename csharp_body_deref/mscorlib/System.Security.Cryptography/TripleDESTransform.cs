@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.TripleDESTransform
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using Mono.Security.Cryptography;
 
@@ -31,19 +38,19 @@ internal class TripleDESTransform : Mono.Security.Cryptography.SymmetricTransfor
 	private System.Security.Cryptography.DESTransform D3;
 
 	[Token(Token = "0x6001B6B")]
-	[Address(RVA = "0x4E72420", Offset = "0x4E72420", VA = "0x4E72420")]
+	[Address(RVA = "0x3B57F40", Offset = "0x3B57F40", VA = "0x3B57F40")]
 	public TripleDESTransform(TripleDES algo, bool encryption, byte[] key, byte[] iv)
 	{
 	}
 
 	[Token(Token = "0x6001B6C")]
-	[Address(RVA = "0x4E72850", Offset = "0x4E72850", VA = "0x4E72850", Slot = "17")]
+	[Address(RVA = "0x3B58370", Offset = "0x3B58370", VA = "0x3B58370", Slot = "17")]
 	protected override void ECB(byte[] input, byte[] output)
 	{
 	}
 
 	[Token(Token = "0x6001B6D")]
-	[Address(RVA = "0x4E727B0", Offset = "0x4E727B0", VA = "0x4E727B0")]
+	[Address(RVA = "0x3B582D0", Offset = "0x3B582D0", VA = "0x3B582D0")]
 	internal static byte[] GetStrongKey()
 	{
 		return null;

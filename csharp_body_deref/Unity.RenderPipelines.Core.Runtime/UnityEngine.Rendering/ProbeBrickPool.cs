@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.ProbeBrickPool
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -26,7 +33,7 @@ internal class ProbeBrickPool
 		public int z;
 
 		[Token(Token = "0x60008F3")]
-		[Address(RVA = "0x488E1A0", Offset = "0x488E1A0", VA = "0x488E1A0")]
+		[Address(RVA = "0x4BB3290", Offset = "0x4BB3290", VA = "0x4BB3290")]
 		internal int flattenIndex(int sx, int sy)
 		{
 			return default(int);
@@ -81,7 +88,7 @@ internal class ProbeBrickPool
 		internal int depth;
 
 		[Token(Token = "0x60008F4")]
-		[Address(RVA = "0x4890200", Offset = "0x4890200", VA = "0x4890200")]
+		[Address(RVA = "0x4BB52F0", Offset = "0x4BB52F0", VA = "0x4BB52F0")]
 		internal void Cleanup()
 		{
 		}
@@ -133,14 +140,14 @@ internal class ProbeBrickPool
 	internal int estimatedVMemCost
 	{
 		[Token(Token = "0x60008DB")]
-		[Address(RVA = "0x488FA60", Offset = "0x488FA60", VA = "0x488FA60")]
+		[Address(RVA = "0x4BB4B50", Offset = "0x4BB4B50", VA = "0x4BB4B50")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60008DC")]
-		[Address(RVA = "0x488FA70", Offset = "0x488FA70", VA = "0x488FA70")]
+		[Address(RVA = "0x4BB4B60", Offset = "0x4BB4B60", VA = "0x4BB4B60")]
 		[CompilerGenerated]
 		private set
 		{
@@ -148,146 +155,146 @@ internal class ProbeBrickPool
 	}
 
 	[Token(Token = "0x60008DD")]
-	[Address(RVA = "0x488FA80", Offset = "0x488FA80", VA = "0x488FA80")]
+	[Address(RVA = "0x4BB4B70", Offset = "0x4BB4B70", VA = "0x4BB4B70")]
 	internal ProbeBrickPool(ProbeVolumeTextureMemoryBudget memoryBudget, ProbeVolumeSHBands shBands, bool allocateValidityData = true)
 	{
 	}
 
 	[Token(Token = "0x60008DE")]
-	[Address(RVA = "0x48900E0", Offset = "0x48900E0", VA = "0x48900E0")]
+	[Address(RVA = "0x4BB51D0", Offset = "0x4BB51D0", VA = "0x4BB51D0")]
 	public int GetRemainingChunkCount()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60008DF")]
-	[Address(RVA = "0x48900F0", Offset = "0x48900F0", VA = "0x48900F0")]
+	[Address(RVA = "0x4BB51E0", Offset = "0x4BB51E0", VA = "0x4BB51E0")]
 	internal void EnsureTextureValidity()
 	{
 	}
 
 	[Token(Token = "0x60008E0")]
-	[Address(RVA = "0x4890370", Offset = "0x4890370", VA = "0x4890370")]
+	[Address(RVA = "0x4BB5460", Offset = "0x4BB5460", VA = "0x4BB5460")]
 	internal static int GetChunkSizeInBrickCount()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60008E1")]
-	[Address(RVA = "0x4890380", Offset = "0x4890380", VA = "0x4890380")]
+	[Address(RVA = "0x4BB5470", Offset = "0x4BB5470", VA = "0x4BB5470")]
 	internal static int GetChunkSizeInProbeCount()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60008E2")]
-	[Address(RVA = "0x4890390", Offset = "0x4890390", VA = "0x4890390")]
+	[Address(RVA = "0x4BB5480", Offset = "0x4BB5480", VA = "0x4BB5480")]
 	internal int GetPoolWidth()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60008E3")]
-	[Address(RVA = "0x48903A0", Offset = "0x48903A0", VA = "0x48903A0")]
+	[Address(RVA = "0x4BB5490", Offset = "0x4BB5490", VA = "0x4BB5490")]
 	internal int GetPoolHeight()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60008E4")]
-	[Address(RVA = "0x48903B0", Offset = "0x48903B0", VA = "0x48903B0")]
+	[Address(RVA = "0x4BB54A0", Offset = "0x4BB54A0", VA = "0x4BB54A0")]
 	internal Vector3Int GetPoolDimensions()
 	{
 		return default(Vector3Int);
 	}
 
 	[Token(Token = "0x60008E5")]
-	[Address(RVA = "0x48903C0", Offset = "0x48903C0", VA = "0x48903C0")]
+	[Address(RVA = "0x4BB54B0", Offset = "0x4BB54B0", VA = "0x4BB54B0")]
 	internal void GetRuntimeResources(ref ProbeReferenceVolume.RuntimeResources rr)
 	{
 	}
 
 	[Token(Token = "0x60008E6")]
-	[Address(RVA = "0x4890770", Offset = "0x4890770", VA = "0x4890770")]
+	[Address(RVA = "0x4BB5860", Offset = "0x4BB5860", VA = "0x4BB5860")]
 	internal void Clear()
 	{
 	}
 
 	[Token(Token = "0x60008E7")]
-	[Address(RVA = "0x48907C0", Offset = "0x48907C0", VA = "0x48907C0")]
+	[Address(RVA = "0x4BB58B0", Offset = "0x4BB58B0", VA = "0x4BB58B0")]
 	internal static int GetChunkCount(int brickCount)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60008E8")]
-	[Address(RVA = "0x48907E0", Offset = "0x48907E0", VA = "0x48907E0")]
+	[Address(RVA = "0x4BB58D0", Offset = "0x4BB58D0", VA = "0x4BB58D0")]
 	internal bool Allocate(int numberOfBrickChunks, List<BrickChunkAlloc> outAllocations, bool ignoreErrorLog)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60008E9")]
-	[Address(RVA = "0x4890A80", Offset = "0x4890A80", VA = "0x4890A80")]
+	[Address(RVA = "0x4BB5B70", Offset = "0x4BB5B70", VA = "0x4BB5B70")]
 	internal void Deallocate(List<BrickChunkAlloc> allocations)
 	{
 	}
 
 	[Token(Token = "0x60008EA")]
-	[Address(RVA = "0x4890C30", Offset = "0x4890C30", VA = "0x4890C30")]
+	[Address(RVA = "0x4BB5D20", Offset = "0x4BB5D20", VA = "0x4BB5D20")]
 	internal void Update(DataLocation source, List<BrickChunkAlloc> srcLocations, List<BrickChunkAlloc> dstLocations, int destStartIndex, ProbeVolumeSHBands bands)
 	{
 	}
 
 	[Token(Token = "0x60008EB")]
-	[Address(RVA = "0x4891080", Offset = "0x4891080", VA = "0x4891080")]
+	[Address(RVA = "0x4BB6170", Offset = "0x4BB6170", VA = "0x4BB6170")]
 	internal void UpdateValidity(DataLocation source, List<BrickChunkAlloc> srcLocations, List<BrickChunkAlloc> dstLocations, int destStartIndex)
 	{
 	}
 
 	[Token(Token = "0x60008EC")]
-	[Address(RVA = "0x4891350", Offset = "0x4891350", VA = "0x4891350")]
+	[Address(RVA = "0x4BB6440", Offset = "0x4BB6440", VA = "0x4BB6440")]
 	internal static Vector3Int ProbeCountToDataLocSize(int numProbes)
 	{
 		return default(Vector3Int);
 	}
 
 	[Token(Token = "0x60008ED")]
-	[Address(RVA = "0x48913D0", Offset = "0x48913D0", VA = "0x48913D0")]
+	[Address(RVA = "0x4BB64C0", Offset = "0x4BB64C0", VA = "0x4BB64C0")]
 	private static int EstimateMemoryCost(int width, int height, int depth, GraphicsFormat format)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60008EE")]
-	[Address(RVA = "0x4891400", Offset = "0x4891400", VA = "0x4891400")]
+	[Address(RVA = "0x4BB64F0", Offset = "0x4BB64F0", VA = "0x4BB64F0")]
 	internal static int EstimateMemoryCost(ProbeVolumeTextureMemoryBudget memoryBudget, bool compressed, ProbeVolumeSHBands bands, bool allocateValidityData)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60008EF")]
-	[Address(RVA = "0x48914D0", Offset = "0x48914D0", VA = "0x48914D0")]
+	[Address(RVA = "0x4BB65C0", Offset = "0x4BB65C0", VA = "0x4BB65C0")]
 	public static Texture CreateDataTexture(int width, int height, int depth, GraphicsFormat format, string name, bool allocateRendertexture, ref int allocatedBytes)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60008F0")]
-	[Address(RVA = "0x488FC10", Offset = "0x488FC10", VA = "0x488FC10")]
+	[Address(RVA = "0x4BB4D00", Offset = "0x4BB4D00", VA = "0x4BB4D00")]
 	public static DataLocation CreateDataLocation(int numProbes, bool compressed, ProbeVolumeSHBands bands, string name, bool allocateRendertexture, bool allocateValidityData, out int allocatedBytes)
 	{
 		return default(DataLocation);
 	}
 
 	[Token(Token = "0x60008F1")]
-	[Address(RVA = "0x488FC00", Offset = "0x488FC00", VA = "0x488FC00")]
+	[Address(RVA = "0x4BB4CF0", Offset = "0x4BB4CF0", VA = "0x4BB4CF0")]
 	private static void DerivePoolSizeFromBudget(ProbeVolumeTextureMemoryBudget memoryBudget, out int width, out int height, out int depth)
 	{
 	}
 
 	[Token(Token = "0x60008F2")]
-	[Address(RVA = "0x4891730", Offset = "0x4891730", VA = "0x4891730")]
+	[Address(RVA = "0x4BB6820", Offset = "0x4BB6820", VA = "0x4BB6820")]
 	internal void Cleanup()
 	{
 	}

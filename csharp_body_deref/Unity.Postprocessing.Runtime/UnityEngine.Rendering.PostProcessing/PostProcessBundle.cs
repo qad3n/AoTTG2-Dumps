@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.PostProcessBundle
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -14,14 +21,14 @@ public sealed class PostProcessBundle
 	public PostProcessAttribute attribute
 	{
 		[Token(Token = "0x60000E6")]
-		[Address(RVA = "0x4826FF0", Offset = "0x4826FF0", VA = "0x4826FF0")]
+		[Address(RVA = "0x4B4C0E0", Offset = "0x4B4C0E0", VA = "0x4B4C0E0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000E7")]
-		[Address(RVA = "0x4827000", Offset = "0x4827000", VA = "0x4827000")]
+		[Address(RVA = "0x4B4C0F0", Offset = "0x4B4C0F0", VA = "0x4B4C0F0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -32,14 +39,14 @@ public sealed class PostProcessBundle
 	public PostProcessEffectSettings settings
 	{
 		[Token(Token = "0x60000E8")]
-		[Address(RVA = "0x4827010", Offset = "0x4827010", VA = "0x4827010")]
+		[Address(RVA = "0x4B4C100", Offset = "0x4B4C100", VA = "0x4B4C100")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000E9")]
-		[Address(RVA = "0x4827020", Offset = "0x4827020", VA = "0x4827020")]
+		[Address(RVA = "0x4B4C110", Offset = "0x4B4C110", VA = "0x4B4C110")]
 		[CompilerGenerated]
 		private set
 		{
@@ -50,7 +57,7 @@ public sealed class PostProcessBundle
 	internal PostProcessEffectRenderer renderer
 	{
 		[Token(Token = "0x60000EA")]
-		[Address(RVA = "0x4827030", Offset = "0x4827030", VA = "0x4827030")]
+		[Address(RVA = "0x4B4C120", Offset = "0x4B4C120", VA = "0x4B4C120")]
 		get
 		{
 			return null;
@@ -58,19 +65,19 @@ public sealed class PostProcessBundle
 	}
 
 	[Token(Token = "0x60000EB")]
-	[Address(RVA = "0x4827130", Offset = "0x4827130", VA = "0x4827130")]
+	[Address(RVA = "0x4B4C220", Offset = "0x4B4C220", VA = "0x4B4C220")]
 	internal PostProcessBundle(PostProcessEffectSettings settings)
 	{
 	}
 
 	[Token(Token = "0x60000EC")]
-	[Address(RVA = "0x48271E0", Offset = "0x48271E0", VA = "0x48271E0")]
+	[Address(RVA = "0x4B4C2D0", Offset = "0x4B4C2D0", VA = "0x4B4C2D0")]
 	internal void Release()
 	{
 	}
 
 	[Token(Token = "0x60000ED")]
-	[Address(RVA = "0x48272D0", Offset = "0x48272D0", VA = "0x48272D0")]
+	[Address(RVA = "0x4B4C3C0", Offset = "0x4B4C3C0", VA = "0x4B4C3C0")]
 	internal void ResetHistory()
 	{
 	}

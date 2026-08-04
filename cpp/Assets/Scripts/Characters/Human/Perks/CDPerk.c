@@ -1,13 +1,14 @@
 // Type: Assets.Scripts.Characters.Human.Perks.CDPerk
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Assets.Scripts.Characters.Human.Perks/CDPerk.cs
-// Prior source: NEW in this update
+// Prior real C# source: none
 // --------------------------------
 
 // Assets.Scripts.Characters.Human.Perks.CDPerk$$get_PerkEnabled
 // il2cpp: bool Assets_Scripts_Characters_Human_Perks_CDPerk__get_PerkEnabled (Assets_Scripts_Characters_Human_Perks_CDPerk_o* __this, const MethodInfo* method);
-// 0x414d6c0
+// 0x44806d0
 
 bool_conflict
 Assets_Scripts_Characters_Human_Perks_CDPerk__get_PerkEnabled
@@ -26,7 +27,7 @@ Assets_Scripts_Characters_Human_Perks_CDPerk__get_PerkEnabled
 
 // Assets.Scripts.Characters.Human.Perks.CDPerk$$get_Cooldown
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_CDPerk__get_Cooldown (Assets_Scripts_Characters_Human_Perks_CDPerk_o* __this, const MethodInfo* method);
-// 0x414d6e0
+// 0x44806f0
 
 float Assets_Scripts_Characters_Human_Perks_CDPerk__get_Cooldown
                 (Assets_Scripts_Characters_Human_Perks_CDPerk_o *__this,MethodInfo *method)
@@ -38,7 +39,7 @@ float Assets_Scripts_Characters_Human_Perks_CDPerk__get_Cooldown
 
 // Assets.Scripts.Characters.Human.Perks.CDPerk$$Reset
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_CDPerk__Reset (Assets_Scripts_Characters_Human_Perks_CDPerk_o* __this, const MethodInfo* method);
-// 0x414d6f0
+// 0x4480700
 
 void Assets_Scripts_Characters_Human_Perks_CDPerk__Reset
                (Assets_Scripts_Characters_Human_Perks_CDPerk_o *__this,MethodInfo *method)
@@ -50,11 +51,10 @@ void Assets_Scripts_Characters_Human_Perks_CDPerk__Reset
 
 // Assets.Scripts.Characters.Human.Perks.CDPerk$$SetCooldownLeft
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_CDPerk__SetCooldownLeft (Assets_Scripts_Characters_Human_Perks_CDPerk_o* __this, float cooldownLeft, const MethodInfo* method);
-// 0x414d700
+// 0x4480710
 
 void Assets_Scripts_Characters_Human_Perks_CDPerk__SetCooldownLeft
-               (Assets_Scripts_Characters_Human_Perks_CDPerk_o *__this,float cooldownLeft,
-               MethodInfo *method)
+               (Assets_Scripts_Characters_Human_Perks_CDPerk_o *__this,float cooldownLeft,MethodInfo *method)
 
 {
   float fVar1;
@@ -67,7 +67,7 @@ void Assets_Scripts_Characters_Human_Perks_CDPerk__SetCooldownLeft
 
 // Assets.Scripts.Characters.Human.Perks.CDPerk$$GetCooldownLeft
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_CDPerk__GetCooldownLeft (Assets_Scripts_Characters_Human_Perks_CDPerk_o* __this, const MethodInfo* method);
-// 0x414d730
+// 0x4480740
 
 float Assets_Scripts_Characters_Human_Perks_CDPerk__GetCooldownLeft
                 (Assets_Scripts_Characters_Human_Perks_CDPerk_o *__this,MethodInfo *method)
@@ -88,7 +88,7 @@ float Assets_Scripts_Characters_Human_Perks_CDPerk__GetCooldownLeft
 
 // Assets.Scripts.Characters.Human.Perks.CDPerk$$GetCooldownRatio
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_CDPerk__GetCooldownRatio (Assets_Scripts_Characters_Human_Perks_CDPerk_o* __this, const MethodInfo* method);
-// 0x414d770
+// 0x4480780
 
 float Assets_Scripts_Characters_Human_Perks_CDPerk__GetCooldownRatio
                 (Assets_Scripts_Characters_Human_Perks_CDPerk_o *__this,MethodInfo *method)
@@ -109,7 +109,7 @@ float Assets_Scripts_Characters_Human_Perks_CDPerk__GetCooldownRatio
 
 // Assets.Scripts.Characters.Human.Perks.CDPerk$$CanUse
 // il2cpp: bool Assets_Scripts_Characters_Human_Perks_CDPerk__CanUse (Assets_Scripts_Characters_Human_Perks_CDPerk_o* __this, const MethodInfo* method);
-// 0x414d7b0
+// 0x44807c0
 
 bool_conflict
 Assets_Scripts_Characters_Human_Perks_CDPerk__CanUse
@@ -126,7 +126,7 @@ Assets_Scripts_Characters_Human_Perks_CDPerk__CanUse
 
 // Assets.Scripts.Characters.Human.Perks.CDPerk$$OnUse
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_CDPerk__OnUse (Assets_Scripts_Characters_Human_Perks_CDPerk_o* __this, const MethodInfo* method);
-// 0x414d7d0
+// 0x44807e0
 
 void Assets_Scripts_Characters_Human_Perks_CDPerk__OnUse
                (Assets_Scripts_Characters_Human_Perks_CDPerk_o *__this,MethodInfo *method)
@@ -142,7 +142,7 @@ void Assets_Scripts_Characters_Human_Perks_CDPerk__OnUse
 
 // Assets.Scripts.Characters.Human.Perks.CDPerk$$.ctor
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_CDPerk___ctor (Assets_Scripts_Characters_Human_Perks_CDPerk_o* __this, const MethodInfo* method);
-// 0x414d7f0
+// 0x4480800
 
 void Assets_Scripts_Characters_Human_Perks_CDPerk___ctor
                (Assets_Scripts_Characters_Human_Perks_CDPerk_o *__this,MethodInfo *method)

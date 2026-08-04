@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.UI.DebugUIHandlerIndirectToggle
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.UI;
@@ -32,44 +39,44 @@ public class DebugUIHandlerIndirectToggle : DebugUIHandlerWidget
 	internal int index;
 
 	[Token(Token = "0x6000EC4")]
-	[Address(RVA = "0x48E94B0", Offset = "0x48E94B0", VA = "0x48E94B0")]
+	[Address(RVA = "0x4C0E520", Offset = "0x4C0E520", VA = "0x4C0E520")]
 	public void Init()
 	{
 	}
 
 	[Token(Token = "0x6000EC5")]
-	[Address(RVA = "0x48EF440", Offset = "0x48EF440", VA = "0x48EF440")]
+	[Address(RVA = "0x4C144B0", Offset = "0x4C144B0", VA = "0x4C144B0")]
 	private void OnToggleValueChanged(bool value)
 	{
 	}
 
 	[Token(Token = "0x6000EC6")]
-	[Address(RVA = "0x48EF470", Offset = "0x48EF470", VA = "0x48EF470", Slot = "6")]
+	[Address(RVA = "0x4C144E0", Offset = "0x4C144E0", VA = "0x4C144E0", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000EC7")]
-	[Address(RVA = "0x48EF4D0", Offset = "0x48EF4D0", VA = "0x48EF4D0", Slot = "7")]
+	[Address(RVA = "0x4C14540", Offset = "0x4C14540", VA = "0x4C14540", Slot = "7")]
 	public override void OnDeselection()
 	{
 	}
 
 	[Token(Token = "0x6000EC8")]
-	[Address(RVA = "0x48EF530", Offset = "0x48EF530", VA = "0x48EF530", Slot = "8")]
+	[Address(RVA = "0x4C145A0", Offset = "0x4C145A0", VA = "0x4C145A0", Slot = "8")]
 	public override void OnAction()
 	{
 	}
 
 	[Token(Token = "0x6000EC9")]
-	[Address(RVA = "0x48E98C0", Offset = "0x48E98C0", VA = "0x48E98C0")]
+	[Address(RVA = "0x4C0E930", Offset = "0x4C0E930", VA = "0x4C0E930")]
 	internal void UpdateValueLabel()
 	{
 	}
 
 	[Token(Token = "0x6000ECA")]
-	[Address(RVA = "0x48EF590", Offset = "0x48EF590", VA = "0x48EF590")]
+	[Address(RVA = "0x4C14600", Offset = "0x4C14600", VA = "0x4C14600")]
 	public DebugUIHandlerIndirectToggle()
 	{
 	}

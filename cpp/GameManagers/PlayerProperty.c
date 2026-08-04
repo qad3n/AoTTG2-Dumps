@@ -1,13 +1,14 @@
 // Type: GameManagers.PlayerProperty
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/GameManagers/PlayerProperty.cs
-// Prior real C# source (REFERENCE, outdated): Assets/Scripts/GameManagers/PlayerProperty.cs  [CHANGED since prior version]
+// Prior real C# source (older reference): Assets/Scripts/GameManagers/PlayerProperty.cs
 // --------------------------------
 
 // GameManagers.PlayerProperty$$.ctor
 // il2cpp: void GameManagers_PlayerProperty___ctor (GameManagers_PlayerProperty_o* __this, const MethodInfo* method);
-// 0x423ac60
+// 0x456f630
 
 void GameManagers_PlayerProperty___ctor(GameManagers_PlayerProperty_o *__this,MethodInfo *method)
 
@@ -19,120 +20,120 @@ void GameManagers_PlayerProperty___ctor(GameManagers_PlayerProperty_o *__this,Me
 
 // GameManagers.PlayerProperty$$.cctor
 // il2cpp: void GameManagers_PlayerProperty___cctor (const MethodInfo* method);
-// 0x423ac70
+// 0x456f640
 
 void GameManagers_PlayerProperty___cctor(MethodInfo *method)
 
 {
   long lVar1;
   
-  if (DAT_05705163 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_PlayerProperty);
-    il2cpp_init_method_metadata(&"Roles");
-    il2cpp_init_method_metadata(&"tier_ids");
-    il2cpp_init_method_metadata(&"Guild");
-    il2cpp_init_method_metadata(&"Team");
-    il2cpp_init_method_metadata(&"Kills");
-    il2cpp_init_method_metadata(&"Deaths");
-    il2cpp_init_method_metadata(&"SpectateID");
-    il2cpp_init_method_metadata(&"CharacterViewId");
-    il2cpp_init_method_metadata(&"Character");
-    il2cpp_init_method_metadata(&"patreon_status");
-    il2cpp_init_method_metadata(&"Name");
-    il2cpp_init_method_metadata(&"Loadout");
-    il2cpp_init_method_metadata(&"entitlements");
-    il2cpp_init_method_metadata(&"CameraDistance");
-    il2cpp_init_method_metadata(&"CustomLogicHash");
-    il2cpp_init_method_metadata(&"SpawnPoint");
-    il2cpp_init_method_metadata(&"TotalDamage");
-    il2cpp_init_method_metadata(&"display_name");
-    il2cpp_init_method_metadata(&"Ping");
-    il2cpp_init_method_metadata(&"patreon_linked");
-    il2cpp_init_method_metadata(&"Status");
-    il2cpp_init_method_metadata(&"sub");
-    il2cpp_init_method_metadata(&"CustomMapHash");
-    il2cpp_init_method_metadata(&"email_verified");
-    il2cpp_init_method_metadata(&"roles");
-    il2cpp_init_method_metadata(&"HighestDamage");
-    DAT_05705163 = '\x01';
+  if (g_data_057af052 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_PlayerProperty);
+    il2cpp_runtime_helper_023445d0(&"tier_ids");
+    il2cpp_runtime_helper_023445d0(&"Guild");
+    il2cpp_runtime_helper_023445d0(&"Team");
+    il2cpp_runtime_helper_023445d0(&"Kills");
+    il2cpp_runtime_helper_023445d0(&"Deaths");
+    il2cpp_runtime_helper_023445d0(&"SpectateID");
+    il2cpp_runtime_helper_023445d0(&"CharacterViewId");
+    il2cpp_runtime_helper_023445d0(&"Character");
+    il2cpp_runtime_helper_023445d0(&"patreon_status");
+    il2cpp_runtime_helper_023445d0(&"Name");
+    il2cpp_runtime_helper_023445d0(&"Loadout");
+    il2cpp_runtime_helper_023445d0(&"entitlements");
+    il2cpp_runtime_helper_023445d0(&"CameraDistance");
+    il2cpp_runtime_helper_023445d0(&"CustomLogicHash");
+    il2cpp_runtime_helper_023445d0(&"SpawnPoint");
+    il2cpp_runtime_helper_023445d0(&"TotalDamage");
+    il2cpp_runtime_helper_023445d0(&"display_name");
+    il2cpp_runtime_helper_023445d0(&"Ping");
+    il2cpp_runtime_helper_023445d0(&"patreon_linked");
+    il2cpp_runtime_helper_023445d0(&"Status");
+    il2cpp_runtime_helper_023445d0(&"sub");
+    il2cpp_runtime_helper_023445d0(&"CustomAddonHash");
+    il2cpp_runtime_helper_023445d0(&"CustomMapHash");
+    il2cpp_runtime_helper_023445d0(&"email_verified");
+    il2cpp_runtime_helper_023445d0(&"roles");
+    il2cpp_runtime_helper_023445d0(&"HighestDamage");
+    g_data_057af052 = '\x01';
   }
   **(undefined8 **)(TypeInfo_PlayerProperty + 0xb8) = "Name";
-  il2cpp_runtime_glue(*(undefined8 *)(TypeInfo_PlayerProperty + 0xb8),"Name");
+  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_PlayerProperty + 0xb8),"Name");
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
   *(undefined8 *)(lVar1 + 8) = "Guild";
-  il2cpp_runtime_glue(lVar1 + 8);
+  il2cpp_runtime_helper_022b4080(lVar1 + 8);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
-  *(undefined8 *)(lVar1 + 0x10) = "Roles";
-  il2cpp_runtime_glue(lVar1 + 0x10);
+  *(undefined8 *)(lVar1 + 0x10) = "Status";
+  il2cpp_runtime_helper_022b4080(lVar1 + 0x10);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
-  *(undefined8 *)(lVar1 + 0x18) = "Status";
-  il2cpp_runtime_glue(lVar1 + 0x18);
+  *(undefined8 *)(lVar1 + 0x18) = "CharacterViewId";
+  il2cpp_runtime_helper_022b4080(lVar1 + 0x18);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
-  *(undefined8 *)(lVar1 + 0x20) = "CharacterViewId";
-  il2cpp_runtime_glue(lVar1 + 0x20);
+  *(undefined8 *)(lVar1 + 0x20) = "Character";
+  il2cpp_runtime_helper_022b4080(lVar1 + 0x20);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
-  *(undefined8 *)(lVar1 + 0x28) = "Character";
-  il2cpp_runtime_glue(lVar1 + 0x28);
+  *(undefined8 *)(lVar1 + 0x28) = "CustomMapHash";
+  il2cpp_runtime_helper_022b4080(lVar1 + 0x28);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
-  *(undefined8 *)(lVar1 + 0x30) = "CustomMapHash";
-  il2cpp_runtime_glue(lVar1 + 0x30);
+  *(undefined8 *)(lVar1 + 0x30) = "CustomLogicHash";
+  il2cpp_runtime_helper_022b4080(lVar1 + 0x30);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
-  *(undefined8 *)(lVar1 + 0x38) = "CustomLogicHash";
-  il2cpp_runtime_glue(lVar1 + 0x38);
+  *(undefined8 *)(lVar1 + 0x38) = "CustomAddonHash";
+  il2cpp_runtime_helper_022b4080(lVar1 + 0x38);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
   *(undefined8 *)(lVar1 + 0x40) = "Team";
-  il2cpp_runtime_glue(lVar1 + 0x40);
+  il2cpp_runtime_helper_022b4080(lVar1 + 0x40);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
   *(undefined8 *)(lVar1 + 0x48) = "Loadout";
-  il2cpp_runtime_glue(lVar1 + 0x48);
+  il2cpp_runtime_helper_022b4080(lVar1 + 0x48);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
   *(undefined8 *)(lVar1 + 0x50) = "Kills";
-  il2cpp_runtime_glue(lVar1 + 0x50);
+  il2cpp_runtime_helper_022b4080(lVar1 + 0x50);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
   *(undefined8 *)(lVar1 + 0x58) = "Deaths";
-  il2cpp_runtime_glue(lVar1 + 0x58);
+  il2cpp_runtime_helper_022b4080(lVar1 + 0x58);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
   *(undefined8 *)(lVar1 + 0x60) = "HighestDamage";
-  il2cpp_runtime_glue(lVar1 + 0x60);
+  il2cpp_runtime_helper_022b4080(lVar1 + 0x60);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
   *(undefined8 *)(lVar1 + 0x68) = "TotalDamage";
-  il2cpp_runtime_glue(lVar1 + 0x68);
+  il2cpp_runtime_helper_022b4080(lVar1 + 0x68);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
   *(undefined8 *)(lVar1 + 0x70) = "SpawnPoint";
-  il2cpp_runtime_glue(lVar1 + 0x70);
+  il2cpp_runtime_helper_022b4080(lVar1 + 0x70);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
   *(undefined8 *)(lVar1 + 0x78) = "CameraDistance";
-  il2cpp_runtime_glue(lVar1 + 0x78);
+  il2cpp_runtime_helper_022b4080(lVar1 + 0x78);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
   *(undefined8 *)(lVar1 + 0x80) = "Ping";
-  il2cpp_runtime_glue(lVar1 + 0x80);
+  il2cpp_runtime_helper_022b4080(lVar1 + 0x80);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
   *(undefined8 *)(lVar1 + 0x88) = "SpectateID";
-  il2cpp_runtime_glue(lVar1 + 0x88);
+  il2cpp_runtime_helper_022b4080(lVar1 + 0x88);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
   *(undefined8 *)(lVar1 + 0x90) = "sub";
-  il2cpp_runtime_glue(lVar1 + 0x90);
+  il2cpp_runtime_helper_022b4080(lVar1 + 0x90);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
   *(undefined8 *)(lVar1 + 0x98) = "display_name";
-  il2cpp_runtime_glue(lVar1 + 0x98);
+  il2cpp_runtime_helper_022b4080(lVar1 + 0x98);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
   *(undefined8 *)(lVar1 + 0xa0) = "email_verified";
-  il2cpp_runtime_glue(lVar1 + 0xa0);
+  il2cpp_runtime_helper_022b4080(lVar1 + 0xa0);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
   *(undefined8 *)(lVar1 + 0xa8) = "roles";
-  il2cpp_runtime_glue(lVar1 + 0xa8);
+  il2cpp_runtime_helper_022b4080(lVar1 + 0xa8);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
   *(undefined8 *)(lVar1 + 0xb0) = "patreon_status";
-  il2cpp_runtime_glue(lVar1 + 0xb0);
+  il2cpp_runtime_helper_022b4080(lVar1 + 0xb0);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
   *(undefined8 *)(lVar1 + 0xb8) = "patreon_linked";
-  il2cpp_runtime_glue(lVar1 + 0xb8);
+  il2cpp_runtime_helper_022b4080(lVar1 + 0xb8);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
   *(undefined8 *)(lVar1 + 0xc0) = "tier_ids";
-  il2cpp_runtime_glue(lVar1 + 0xc0);
+  il2cpp_runtime_helper_022b4080(lVar1 + 0xc0);
   lVar1 = *(long *)(TypeInfo_PlayerProperty + 0xb8);
   *(undefined8 *)(lVar1 + 200) = "entitlements";
-  il2cpp_runtime_glue(lVar1 + 200);
+  il2cpp_runtime_helper_022b4080(lVar1 + 200);
   return;
 }
 

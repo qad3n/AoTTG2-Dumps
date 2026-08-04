@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.GUILayoutGroup
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -96,7 +103,7 @@ internal class GUILayoutGroup : GUILayoutEntry
 	public override int marginLeft
 	{
 		[Token(Token = "0x6000225")]
-		[Address(RVA = "0x4B36320", Offset = "0x4B36320", VA = "0x4B36320", Slot = "4")]
+		[Address(RVA = "0x4E5DEE0", Offset = "0x4E5DEE0", VA = "0x4E5DEE0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -107,7 +114,7 @@ internal class GUILayoutGroup : GUILayoutEntry
 	public override int marginRight
 	{
 		[Token(Token = "0x6000226")]
-		[Address(RVA = "0x4B36330", Offset = "0x4B36330", VA = "0x4B36330", Slot = "5")]
+		[Address(RVA = "0x4E5DEF0", Offset = "0x4E5DEF0", VA = "0x4E5DEF0", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -118,7 +125,7 @@ internal class GUILayoutGroup : GUILayoutEntry
 	public override int marginTop
 	{
 		[Token(Token = "0x6000227")]
-		[Address(RVA = "0x4B36340", Offset = "0x4B36340", VA = "0x4B36340", Slot = "6")]
+		[Address(RVA = "0x4E5DF00", Offset = "0x4E5DF00", VA = "0x4E5DF00", Slot = "6")]
 		get
 		{
 			return default(int);
@@ -129,7 +136,7 @@ internal class GUILayoutGroup : GUILayoutEntry
 	public override int marginBottom
 	{
 		[Token(Token = "0x6000228")]
-		[Address(RVA = "0x4B36350", Offset = "0x4B36350", VA = "0x4B36350", Slot = "7")]
+		[Address(RVA = "0x4E5DF10", Offset = "0x4E5DF10", VA = "0x4E5DF10", Slot = "7")]
 		get
 		{
 			return default(int);
@@ -137,68 +144,68 @@ internal class GUILayoutGroup : GUILayoutEntry
 	}
 
 	[Token(Token = "0x6000229")]
-	[Address(RVA = "0x4B36360", Offset = "0x4B36360", VA = "0x4B36360")]
+	[Address(RVA = "0x4E5DF20", Offset = "0x4E5DF20", VA = "0x4E5DF20")]
 	public GUILayoutGroup()
 	{
 	}
 
 	[Token(Token = "0x600022A")]
-	[Address(RVA = "0x4B36470", Offset = "0x4B36470", VA = "0x4B36470", Slot = "13")]
+	[Address(RVA = "0x4E5E030", Offset = "0x4E5E030", VA = "0x4E5E030", Slot = "13")]
 	public override void ApplyOptions(GUILayoutOption[] options)
 	{
 	}
 
 	[Token(Token = "0x600022B")]
-	[Address(RVA = "0x4B36560", Offset = "0x4B36560", VA = "0x4B36560", Slot = "12")]
+	[Address(RVA = "0x4E5E120", Offset = "0x4E5E120", VA = "0x4E5E120", Slot = "12")]
 	protected override void ApplyStyleSettings(GUIStyle style)
 	{
 	}
 
 	[Token(Token = "0x600022C")]
-	[Address(RVA = "0x4B365E0", Offset = "0x4B365E0", VA = "0x4B365E0")]
+	[Address(RVA = "0x4E5E1A0", Offset = "0x4E5E1A0", VA = "0x4E5E1A0")]
 	public void ResetCursor()
 	{
 	}
 
 	[Token(Token = "0x600022D")]
-	[Address(RVA = "0x4B365F0", Offset = "0x4B365F0", VA = "0x4B365F0")]
+	[Address(RVA = "0x4E5E1B0", Offset = "0x4E5E1B0", VA = "0x4E5E1B0")]
 	public GUILayoutEntry GetNext()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600022E")]
-	[Address(RVA = "0x4B36870", Offset = "0x4B36870", VA = "0x4B36870")]
+	[Address(RVA = "0x4E5E430", Offset = "0x4E5E430", VA = "0x4E5E430")]
 	public void Add(GUILayoutEntry e)
 	{
 	}
 
 	[Token(Token = "0x600022F")]
-	[Address(RVA = "0x4B36910", Offset = "0x4B36910", VA = "0x4B36910", Slot = "8")]
+	[Address(RVA = "0x4E5E4D0", Offset = "0x4E5E4D0", VA = "0x4E5E4D0", Slot = "8")]
 	public override void CalcWidth()
 	{
 	}
 
 	[Token(Token = "0x6000230")]
-	[Address(RVA = "0x4B37130", Offset = "0x4B37130", VA = "0x4B37130", Slot = "10")]
+	[Address(RVA = "0x4E5ECF0", Offset = "0x4E5ECF0", VA = "0x4E5ECF0", Slot = "10")]
 	public override void SetHorizontal(float x, float width)
 	{
 	}
 
 	[Token(Token = "0x6000231")]
-	[Address(RVA = "0x4B37D40", Offset = "0x4B37D40", VA = "0x4B37D40", Slot = "9")]
+	[Address(RVA = "0x4E5F900", Offset = "0x4E5F900", VA = "0x4E5F900", Slot = "9")]
 	public override void CalcHeight()
 	{
 	}
 
 	[Token(Token = "0x6000232")]
-	[Address(RVA = "0x4B38490", Offset = "0x4B38490", VA = "0x4B38490", Slot = "11")]
+	[Address(RVA = "0x4E60050", Offset = "0x4E60050", VA = "0x4E60050", Slot = "11")]
 	public override void SetVertical(float y, float height)
 	{
 	}
 
 	[Token(Token = "0x6000233")]
-	[Address(RVA = "0x4B39090", Offset = "0x4B39090", VA = "0x4B39090", Slot = "3")]
+	[Address(RVA = "0x4E60C50", Offset = "0x4E60C50", VA = "0x4E60C50", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

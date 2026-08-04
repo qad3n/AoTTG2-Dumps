@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Internal.Cryptography.Pal.CertificateData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -60,7 +67,7 @@ internal struct CertificateData
 		private KeyValuePair<string, string> System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CSystem_002EString_002CSystem_002EString_003E_003E_002ECurrent
 		{
 			[Token(Token = "0x600018B")]
-			[Address(RVA = "0x454A270", Offset = "0x454A270", VA = "0x454A270", Slot = "6")]
+			[Address(RVA = "0x4530460", Offset = "0x4530460", VA = "0x4530460", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -72,7 +79,7 @@ internal struct CertificateData
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x600018D")]
-			[Address(RVA = "0x454A2C0", Offset = "0x454A2C0", VA = "0x454A2C0", Slot = "9")]
+			[Address(RVA = "0x45304B0", Offset = "0x45304B0", VA = "0x45304B0", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -81,35 +88,35 @@ internal struct CertificateData
 		}
 
 		[Token(Token = "0x6000188")]
-		[Address(RVA = "0x4549F50", Offset = "0x4549F50", VA = "0x4549F50")]
+		[Address(RVA = "0x4530140", Offset = "0x4530140", VA = "0x4530140")]
 		[DebuggerHidden]
 		public _003CReadReverseRdns_003Ed__21(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000189")]
-		[Address(RVA = "0x4549F80", Offset = "0x4549F80", VA = "0x4549F80", Slot = "7")]
+		[Address(RVA = "0x4530170", Offset = "0x4530170", VA = "0x4530170", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x600018A")]
-		[Address(RVA = "0x4549F90", Offset = "0x4549F90", VA = "0x4549F90", Slot = "8")]
+		[Address(RVA = "0x4530180", Offset = "0x4530180", VA = "0x4530180", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600018C")]
-		[Address(RVA = "0x454A280", Offset = "0x454A280", VA = "0x454A280", Slot = "10")]
+		[Address(RVA = "0x4530470", Offset = "0x4530470", VA = "0x4530470", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x600018E")]
-		[Address(RVA = "0x454A310", Offset = "0x454A310", VA = "0x454A310", Slot = "4")]
+		[Address(RVA = "0x4530500", Offset = "0x4530500", VA = "0x4530500", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<KeyValuePair<string, string>> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CSystem_002EString_002CSystem_002EString_003E_003E_002EGetEnumerator()
 		{
@@ -117,7 +124,7 @@ internal struct CertificateData
 		}
 
 		[Token(Token = "0x600018F")]
-		[Address(RVA = "0x454A3B0", Offset = "0x454A3B0", VA = "0x454A3B0", Slot = "5")]
+		[Address(RVA = "0x45305A0", Offset = "0x45305A0", VA = "0x45305A0", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -190,34 +197,34 @@ internal struct CertificateData
 	internal byte[] SignatureValue;
 
 	[Token(Token = "0x6000183")]
-	[Address(RVA = "0x45486D0", Offset = "0x45486D0", VA = "0x45486D0")]
+	[Address(RVA = "0x452E8C0", Offset = "0x452E8C0", VA = "0x452E8C0")]
 	internal CertificateData(byte[] rawData)
 	{
 	}
 
 	[Token(Token = "0x6000184")]
-	[Address(RVA = "0x4548FE0", Offset = "0x4548FE0", VA = "0x4548FE0")]
+	[Address(RVA = "0x452F1D0", Offset = "0x452F1D0", VA = "0x452F1D0")]
 	public string GetNameInfo(X509NameType nameType, bool forIssuer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000185")]
-	[Address(RVA = "0x45497B0", Offset = "0x45497B0", VA = "0x45497B0")]
+	[Address(RVA = "0x452F9A0", Offset = "0x452F9A0", VA = "0x452F9A0")]
 	private static string GetSimpleNameInfo(X500DistinguishedName name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000186")]
-	[Address(RVA = "0x4549CD0", Offset = "0x4549CD0", VA = "0x4549CD0")]
+	[Address(RVA = "0x452FEC0", Offset = "0x452FEC0", VA = "0x452FEC0")]
 	private static string FindAltNameMatch(byte[] extensionBytes, GeneralNameType matchType, string otherOid)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000187")]
-	[Address(RVA = "0x4549ED0", Offset = "0x4549ED0", VA = "0x4549ED0")]
+	[Address(RVA = "0x45300C0", Offset = "0x45300C0", VA = "0x45300C0")]
 	[IteratorStateMachine(typeof(_003CReadReverseRdns_003Ed__21))]
 	private static IEnumerable<KeyValuePair<string, string>> ReadReverseRdns(X500DistinguishedName name)
 	{

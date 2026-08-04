@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: DG.Tweening.Core.DOTweenSettings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using DG.Tweening.Core.Enums;
 using Il2CppDummyDll;
@@ -32,7 +39,7 @@ public class DOTweenSettings : ScriptableObject
 		public NestedTweenFailureBehaviour nestedTweenFailureBehaviour;
 
 		[Token(Token = "0x600041E")]
-		[Address(RVA = "0x23202D0", Offset = "0x23202D0", VA = "0x23202D0")]
+		[Address(RVA = "0x2386BB0", Offset = "0x2386BB0", VA = "0x2386BB0")]
 		public SafeModeOptions()
 		{
 		}
@@ -91,7 +98,7 @@ public class DOTweenSettings : ScriptableObject
 		public bool epoOutlineEnabled;
 
 		[Token(Token = "0x600041F")]
-		[Address(RVA = "0x23202E0", Offset = "0x23202E0", VA = "0x23202E0")]
+		[Address(RVA = "0x2386BC0", Offset = "0x2386BC0", VA = "0x2386BC0")]
 		public ModulesSetup()
 		{
 		}
@@ -212,7 +219,7 @@ public class DOTweenSettings : ScriptableObject
 	public bool showPausedTweens;
 
 	[Token(Token = "0x600041D")]
-	[Address(RVA = "0x23201E0", Offset = "0x23201E0", VA = "0x23201E0")]
+	[Address(RVA = "0x2386AC0", Offset = "0x2386AC0", VA = "0x2386AC0")]
 	public DOTweenSettings()
 	{
 	}

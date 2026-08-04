@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UIR.TextureBlitter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -69,14 +76,14 @@ internal class TextureBlitter : IDisposable
 	protected bool disposed
 	{
 		[Token(Token = "0x6001DD2")]
-		[Address(RVA = "0x4C7F0D0", Offset = "0x4C7F0D0", VA = "0x4C7F0D0")]
+		[Address(RVA = "0x4FA6A00", Offset = "0x4FA6A00", VA = "0x4FA6A00")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001DD3")]
-		[Address(RVA = "0x4C7F0E0", Offset = "0x4C7F0E0", VA = "0x4C7F0E0")]
+		[Address(RVA = "0x4FA6A10", Offset = "0x4FA6A10", VA = "0x4FA6A10")]
 		[CompilerGenerated]
 		private set
 		{
@@ -84,61 +91,61 @@ internal class TextureBlitter : IDisposable
 	}
 
 	[Token(Token = "0x6001DD4")]
-	[Address(RVA = "0x4C7F0F0", Offset = "0x4C7F0F0", VA = "0x4C7F0F0", Slot = "4")]
+	[Address(RVA = "0x4FA6A20", Offset = "0x4FA6A20", VA = "0x4FA6A20", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6001DD5")]
-	[Address(RVA = "0x4C7F160", Offset = "0x4C7F160", VA = "0x4C7F160", Slot = "5")]
+	[Address(RVA = "0x4FA6A90", Offset = "0x4FA6A90", VA = "0x4FA6A90", Slot = "5")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6001DD6")]
-	[Address(RVA = "0x4C7F1E0", Offset = "0x4C7F1E0", VA = "0x4C7F1E0")]
+	[Address(RVA = "0x4FA6B10", Offset = "0x4FA6B10", VA = "0x4FA6B10")]
 	static TextureBlitter()
 	{
 	}
 
 	[Token(Token = "0x6001DD7")]
-	[Address(RVA = "0x4C7F320", Offset = "0x4C7F320", VA = "0x4C7F320")]
+	[Address(RVA = "0x4FA6C50", Offset = "0x4FA6C50", VA = "0x4FA6C50")]
 	public TextureBlitter(int capacity = 512)
 	{
 	}
 
 	[Token(Token = "0x6001DD8")]
-	[Address(RVA = "0x4C7F3D0", Offset = "0x4C7F3D0", VA = "0x4C7F3D0")]
+	[Address(RVA = "0x4FA6D00", Offset = "0x4FA6D00", VA = "0x4FA6D00")]
 	public void QueueBlit(Texture src, RectInt srcRect, Vector2Int dstPos, bool addBorder, Color tint)
 	{
 	}
 
 	[Token(Token = "0x6001DD9")]
-	[Address(RVA = "0x4C7F640", Offset = "0x4C7F640", VA = "0x4C7F640")]
+	[Address(RVA = "0x4FA6F70", Offset = "0x4FA6F70", VA = "0x4FA6F70")]
 	public void BlitOneNow(RenderTexture dst, Texture src, RectInt srcRect, Vector2Int dstPos, bool addBorder, Color tint)
 	{
 	}
 
 	[Token(Token = "0x6001DDA")]
-	[Address(RVA = "0x4C80210", Offset = "0x4C80210", VA = "0x4C80210")]
+	[Address(RVA = "0x4FA7B40", Offset = "0x4FA7B40", VA = "0x4FA7B40")]
 	public void Commit(RenderTexture dst)
 	{
 	}
 
 	[Token(Token = "0x6001DDB")]
-	[Address(RVA = "0x4C7F870", Offset = "0x4C7F870", VA = "0x4C7F870")]
+	[Address(RVA = "0x4FA71A0", Offset = "0x4FA71A0", VA = "0x4FA71A0")]
 	private void BeginBlit(RenderTexture dst)
 	{
 	}
 
 	[Token(Token = "0x6001DDC")]
-	[Address(RVA = "0x4C7FAB0", Offset = "0x4C7FAB0", VA = "0x4C7FAB0")]
+	[Address(RVA = "0x4FA73E0", Offset = "0x4FA73E0", VA = "0x4FA73E0")]
 	private void DoBlit(IList<BlitInfo> blitInfos, int startIndex)
 	{
 	}
 
 	[Token(Token = "0x6001DDD")]
-	[Address(RVA = "0x4C80190", Offset = "0x4C80190", VA = "0x4C80190")]
+	[Address(RVA = "0x4FA7AC0", Offset = "0x4FA7AC0", VA = "0x4FA7AC0")]
 	private void EndBlit()
 	{
 	}

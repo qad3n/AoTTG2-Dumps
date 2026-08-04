@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.Triggers.AsyncDestroyTrigger
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Threading;
 using Il2CppDummyDll;
 using UnityEngine;
@@ -16,13 +23,13 @@ public sealed class AsyncDestroyTrigger : MonoBehaviour
 		private readonly AsyncDestroyTrigger trigger;
 
 		[Token(Token = "0x60009E3")]
-		[Address(RVA = "0x46E3A00", Offset = "0x46E3A00", VA = "0x46E3A00")]
+		[Address(RVA = "0x4A08B00", Offset = "0x4A08B00", VA = "0x4A08B00")]
 		public AwakeMonitor(AsyncDestroyTrigger trigger)
 		{
 		}
 
 		[Token(Token = "0x60009E4")]
-		[Address(RVA = "0x46E3A80", Offset = "0x46E3A80", VA = "0x46E3A80", Slot = "4")]
+		[Address(RVA = "0x4A08B80", Offset = "0x4A08B80", VA = "0x4A08B80", Slot = "4")]
 		public bool MoveNext()
 		{
 			return default(bool);
@@ -45,7 +52,7 @@ public sealed class AsyncDestroyTrigger : MonoBehaviour
 	public CancellationToken CancellationToken
 	{
 		[Token(Token = "0x60009DE")]
-		[Address(RVA = "0x46E3900", Offset = "0x46E3900", VA = "0x46E3900")]
+		[Address(RVA = "0x4A08A00", Offset = "0x4A08A00", VA = "0x4A08A00")]
 		get
 		{
 			return default(CancellationToken);
@@ -53,26 +60,26 @@ public sealed class AsyncDestroyTrigger : MonoBehaviour
 	}
 
 	[Token(Token = "0x60009DF")]
-	[Address(RVA = "0x46E3A30", Offset = "0x46E3A30", VA = "0x46E3A30")]
+	[Address(RVA = "0x4A08B30", Offset = "0x4A08B30", VA = "0x4A08B30")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x60009E0")]
-	[Address(RVA = "0x46E3A40", Offset = "0x46E3A40", VA = "0x46E3A40")]
+	[Address(RVA = "0x4A08B40", Offset = "0x4A08B40", VA = "0x4A08B40")]
 	private void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x60009E1")]
-	[Address(RVA = "0x46E0920", Offset = "0x46E0920", VA = "0x46E0920")]
+	[Address(RVA = "0x4A05A20", Offset = "0x4A05A20", VA = "0x4A05A20")]
 	public UniTask OnDestroyAsync()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60009E2")]
-	[Address(RVA = "0x46E3A70", Offset = "0x46E3A70", VA = "0x46E3A70")]
+	[Address(RVA = "0x4A08B70", Offset = "0x4A08B70", VA = "0x4A08B70")]
 	public AsyncDestroyTrigger()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Background
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -25,7 +32,7 @@ public struct Background : IEquatable<Background>
 			public override string Name
 			{
 				[Token(Token = "0x6000FF2")]
-				[Address(RVA = "0x4D51DF0", Offset = "0x4D51DF0", VA = "0x4D51DF0", Slot = "7")]
+				[Address(RVA = "0x5079720", Offset = "0x5079720", VA = "0x5079720", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -34,7 +41,7 @@ public struct Background : IEquatable<Background>
 			}
 
 			[Token(Token = "0x6000FF3")]
-			[Address(RVA = "0x4D51C70", Offset = "0x4D51C70", VA = "0x4D51C70")]
+			[Address(RVA = "0x50795A0", Offset = "0x50795A0", VA = "0x50795A0")]
 			public TextureProperty()
 			{
 			}
@@ -53,7 +60,7 @@ public struct Background : IEquatable<Background>
 			public override string Name
 			{
 				[Token(Token = "0x6000FF4")]
-				[Address(RVA = "0x4D51E00", Offset = "0x4D51E00", VA = "0x4D51E00", Slot = "7")]
+				[Address(RVA = "0x5079730", Offset = "0x5079730", VA = "0x5079730", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -62,7 +69,7 @@ public struct Background : IEquatable<Background>
 			}
 
 			[Token(Token = "0x6000FF5")]
-			[Address(RVA = "0x4D51CD0", Offset = "0x4D51CD0", VA = "0x4D51CD0")]
+			[Address(RVA = "0x5079600", Offset = "0x5079600", VA = "0x5079600")]
 			public SpriteProperty()
 			{
 			}
@@ -81,7 +88,7 @@ public struct Background : IEquatable<Background>
 			public override string Name
 			{
 				[Token(Token = "0x6000FF6")]
-				[Address(RVA = "0x4D51E10", Offset = "0x4D51E10", VA = "0x4D51E10", Slot = "7")]
+				[Address(RVA = "0x5079740", Offset = "0x5079740", VA = "0x5079740", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -90,7 +97,7 @@ public struct Background : IEquatable<Background>
 			}
 
 			[Token(Token = "0x6000FF7")]
-			[Address(RVA = "0x4D51D30", Offset = "0x4D51D30", VA = "0x4D51D30")]
+			[Address(RVA = "0x5079660", Offset = "0x5079660", VA = "0x5079660")]
 			public RenderTextureProperty()
 			{
 			}
@@ -109,7 +116,7 @@ public struct Background : IEquatable<Background>
 			public override string Name
 			{
 				[Token(Token = "0x6000FF8")]
-				[Address(RVA = "0x4D51E20", Offset = "0x4D51E20", VA = "0x4D51E20", Slot = "7")]
+				[Address(RVA = "0x5079750", Offset = "0x5079750", VA = "0x5079750", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -118,14 +125,14 @@ public struct Background : IEquatable<Background>
 			}
 
 			[Token(Token = "0x6000FF9")]
-			[Address(RVA = "0x4D51D90", Offset = "0x4D51D90", VA = "0x4D51D90")]
+			[Address(RVA = "0x50796C0", Offset = "0x50796C0", VA = "0x50796C0")]
 			public VectorImageProperty()
 			{
 			}
 		}
 
 		[Token(Token = "0x6000FF1")]
-		[Address(RVA = "0x4D519B0", Offset = "0x4D519B0", VA = "0x4D519B0")]
+		[Address(RVA = "0x50792E0", Offset = "0x50792E0", VA = "0x50792E0")]
 		public PropertyBag()
 		{
 		}
@@ -151,13 +158,13 @@ public struct Background : IEquatable<Background>
 	public Texture2D texture
 	{
 		[Token(Token = "0x6000FDE")]
-		[Address(RVA = "0x4D50F20", Offset = "0x4D50F20", VA = "0x4D50F20")]
+		[Address(RVA = "0x5078850", Offset = "0x5078850", VA = "0x5078850")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FDF")]
-		[Address(RVA = "0x4D50F30", Offset = "0x4D50F30", VA = "0x4D50F30")]
+		[Address(RVA = "0x5078860", Offset = "0x5078860", VA = "0x5078860")]
 		set
 		{
 		}
@@ -167,13 +174,13 @@ public struct Background : IEquatable<Background>
 	public Sprite sprite
 	{
 		[Token(Token = "0x6000FE0")]
-		[Address(RVA = "0x4D50FE0", Offset = "0x4D50FE0", VA = "0x4D50FE0")]
+		[Address(RVA = "0x5078910", Offset = "0x5078910", VA = "0x5078910")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FE1")]
-		[Address(RVA = "0x4D50FF0", Offset = "0x4D50FF0", VA = "0x4D50FF0")]
+		[Address(RVA = "0x5078920", Offset = "0x5078920", VA = "0x5078920")]
 		set
 		{
 		}
@@ -183,13 +190,13 @@ public struct Background : IEquatable<Background>
 	public RenderTexture renderTexture
 	{
 		[Token(Token = "0x6000FE2")]
-		[Address(RVA = "0x4D510A0", Offset = "0x4D510A0", VA = "0x4D510A0")]
+		[Address(RVA = "0x50789D0", Offset = "0x50789D0", VA = "0x50789D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FE3")]
-		[Address(RVA = "0x4D510B0", Offset = "0x4D510B0", VA = "0x4D510B0")]
+		[Address(RVA = "0x50789E0", Offset = "0x50789E0", VA = "0x50789E0")]
 		set
 		{
 		}
@@ -199,90 +206,90 @@ public struct Background : IEquatable<Background>
 	public VectorImage vectorImage
 	{
 		[Token(Token = "0x6000FE4")]
-		[Address(RVA = "0x4D4F9B0", Offset = "0x4D4F9B0", VA = "0x4D4F9B0")]
+		[Address(RVA = "0x50772E0", Offset = "0x50772E0", VA = "0x50772E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FE5")]
-		[Address(RVA = "0x4D51160", Offset = "0x4D51160", VA = "0x4D51160")]
+		[Address(RVA = "0x5078A90", Offset = "0x5078A90", VA = "0x5078A90")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000FE6")]
-	[Address(RVA = "0x4D51210", Offset = "0x4D51210", VA = "0x4D51210")]
+	[Address(RVA = "0x5078B40", Offset = "0x5078B40", VA = "0x5078B40")]
 	public static Background FromTexture2D(Texture2D t)
 	{
 		return default(Background);
 	}
 
 	[Token(Token = "0x6000FE7")]
-	[Address(RVA = "0x4D51250", Offset = "0x4D51250", VA = "0x4D51250")]
+	[Address(RVA = "0x5078B80", Offset = "0x5078B80", VA = "0x5078B80")]
 	public static Background FromRenderTexture(RenderTexture rt)
 	{
 		return default(Background);
 	}
 
 	[Token(Token = "0x6000FE8")]
-	[Address(RVA = "0x4D51290", Offset = "0x4D51290", VA = "0x4D51290")]
+	[Address(RVA = "0x5078BC0", Offset = "0x5078BC0", VA = "0x5078BC0")]
 	public static Background FromSprite(Sprite s)
 	{
 		return default(Background);
 	}
 
 	[Token(Token = "0x6000FE9")]
-	[Address(RVA = "0x4D512D0", Offset = "0x4D512D0", VA = "0x4D512D0")]
+	[Address(RVA = "0x5078C00", Offset = "0x5078C00", VA = "0x5078C00")]
 	public static Background FromVectorImage(VectorImage vi)
 	{
 		return default(Background);
 	}
 
 	[Token(Token = "0x6000FEA")]
-	[Address(RVA = "0x4D51310", Offset = "0x4D51310", VA = "0x4D51310")]
+	[Address(RVA = "0x5078C40", Offset = "0x5078C40", VA = "0x5078C40")]
 	internal static Background FromObject(object obj)
 	{
 		return default(Background);
 	}
 
 	[Token(Token = "0x6000FEB")]
-	[Address(RVA = "0x4D515B0", Offset = "0x4D515B0", VA = "0x4D515B0")]
+	[Address(RVA = "0x5078EE0", Offset = "0x5078EE0", VA = "0x5078EE0")]
 	public static bool operator ==(Background lhs, Background rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FEC")]
-	[Address(RVA = "0x4D516B0", Offset = "0x4D516B0", VA = "0x4D516B0")]
+	[Address(RVA = "0x5078FE0", Offset = "0x5078FE0", VA = "0x5078FE0")]
 	public static bool operator !=(Background lhs, Background rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FED")]
-	[Address(RVA = "0x4D516F0", Offset = "0x4D516F0", VA = "0x4D516F0", Slot = "4")]
+	[Address(RVA = "0x5079020", Offset = "0x5079020", VA = "0x5079020", Slot = "4")]
 	public bool Equals(Background other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FEE")]
-	[Address(RVA = "0x4D51730", Offset = "0x4D51730", VA = "0x4D51730", Slot = "0")]
+	[Address(RVA = "0x5079060", Offset = "0x5079060", VA = "0x5079060", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FEF")]
-	[Address(RVA = "0x4D517D0", Offset = "0x4D517D0", VA = "0x4D517D0", Slot = "2")]
+	[Address(RVA = "0x5079100", Offset = "0x5079100", VA = "0x5079100", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000FF0")]
-	[Address(RVA = "0x4D51880", Offset = "0x4D51880", VA = "0x4D51880", Slot = "3")]
+	[Address(RVA = "0x50791B0", Offset = "0x50791B0", VA = "0x50791B0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

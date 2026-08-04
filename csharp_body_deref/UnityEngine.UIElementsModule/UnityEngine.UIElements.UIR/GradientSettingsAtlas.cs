@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UIR.GradientSettingsAtlas
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -24,13 +31,13 @@ internal class GradientSettingsAtlas : IDisposable
 		public int height;
 
 		[Token(Token = "0x6001CD4")]
-		[Address(RVA = "0x4C64800", Offset = "0x4C64800", VA = "0x4C64800")]
+		[Address(RVA = "0x4F8C130", Offset = "0x4F8C130", VA = "0x4F8C130")]
 		public void WriteRawInt2Packed(int v0, int v1, int destX, int destY)
 		{
 		}
 
 		[Token(Token = "0x6001CD5")]
-		[Address(RVA = "0x4C64770", Offset = "0x4C64770", VA = "0x4C64770")]
+		[Address(RVA = "0x4F8C0A0", Offset = "0x4F8C0A0", VA = "0x4F8C0A0")]
 		public void WriteRawFloat4Packed(float f0, float f1, float f2, float f3, int destX, int destY)
 		{
 		}
@@ -72,7 +79,7 @@ internal class GradientSettingsAtlas : IDisposable
 	internal int length
 	{
 		[Token(Token = "0x6001CC5")]
-		[Address(RVA = "0x4C63ED0", Offset = "0x4C63ED0", VA = "0x4C63ED0")]
+		[Address(RVA = "0x4F8B800", Offset = "0x4F8B800", VA = "0x4F8B800")]
 		get
 		{
 			return default(int);
@@ -83,14 +90,14 @@ internal class GradientSettingsAtlas : IDisposable
 	protected bool disposed
 	{
 		[Token(Token = "0x6001CC6")]
-		[Address(RVA = "0x4C63EE0", Offset = "0x4C63EE0", VA = "0x4C63EE0")]
+		[Address(RVA = "0x4F8B810", Offset = "0x4F8B810", VA = "0x4F8B810")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001CC7")]
-		[Address(RVA = "0x4C63EF0", Offset = "0x4C63EF0", VA = "0x4C63EF0")]
+		[Address(RVA = "0x4F8B820", Offset = "0x4F8B820", VA = "0x4F8B820")]
 		[CompilerGenerated]
 		private set
 		{
@@ -101,7 +108,7 @@ internal class GradientSettingsAtlas : IDisposable
 	public Texture2D atlas
 	{
 		[Token(Token = "0x6001CCC")]
-		[Address(RVA = "0x4C640C0", Offset = "0x4C640C0", VA = "0x4C640C0")]
+		[Address(RVA = "0x4F8B9F0", Offset = "0x4F8B9F0", VA = "0x4F8B9F0")]
 		get
 		{
 			return null;
@@ -112,14 +119,14 @@ internal class GradientSettingsAtlas : IDisposable
 	public bool MustCommit
 	{
 		[Token(Token = "0x6001CCF")]
-		[Address(RVA = "0x4C64890", Offset = "0x4C64890", VA = "0x4C64890")]
+		[Address(RVA = "0x4F8C1C0", Offset = "0x4F8C1C0", VA = "0x4F8C1C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001CD0")]
-		[Address(RVA = "0x4C648A0", Offset = "0x4C648A0", VA = "0x4C648A0")]
+		[Address(RVA = "0x4F8C1D0", Offset = "0x4F8C1D0", VA = "0x4F8C1D0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -127,50 +134,50 @@ internal class GradientSettingsAtlas : IDisposable
 	}
 
 	[Token(Token = "0x6001CC8")]
-	[Address(RVA = "0x4C63F00", Offset = "0x4C63F00", VA = "0x4C63F00", Slot = "4")]
+	[Address(RVA = "0x4F8B830", Offset = "0x4F8B830", VA = "0x4F8B830", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6001CC9")]
-	[Address(RVA = "0x4C63F70", Offset = "0x4C63F70", VA = "0x4C63F70", Slot = "5")]
+	[Address(RVA = "0x4F8B8A0", Offset = "0x4F8B8A0", VA = "0x4F8B8A0", Slot = "5")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6001CCA")]
-	[Address(RVA = "0x4C63FE0", Offset = "0x4C63FE0", VA = "0x4C63FE0")]
+	[Address(RVA = "0x4F8B910", Offset = "0x4F8B910", VA = "0x4F8B910")]
 	public GradientSettingsAtlas(int length = 4096)
 	{
 	}
 
 	[Token(Token = "0x6001CCB")]
-	[Address(RVA = "0x4C64010", Offset = "0x4C64010", VA = "0x4C64010")]
+	[Address(RVA = "0x4F8B940", Offset = "0x4F8B940", VA = "0x4F8B940")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001CCD")]
-	[Address(RVA = "0x4C640D0", Offset = "0x4C640D0", VA = "0x4C640D0")]
+	[Address(RVA = "0x4F8BA00", Offset = "0x4F8BA00", VA = "0x4F8BA00")]
 	public Alloc Add(int count)
 	{
 		return default(Alloc);
 	}
 
 	[Token(Token = "0x6001CCE")]
-	[Address(RVA = "0x4C641C0", Offset = "0x4C641C0", VA = "0x4C641C0")]
+	[Address(RVA = "0x4F8BAF0", Offset = "0x4F8BAF0", VA = "0x4F8BAF0")]
 	public void Write(Alloc alloc, GradientSettings[] settings, GradientRemap remap)
 	{
 	}
 
 	[Token(Token = "0x6001CD1")]
-	[Address(RVA = "0x4C648B0", Offset = "0x4C648B0", VA = "0x4C648B0")]
+	[Address(RVA = "0x4F8C1E0", Offset = "0x4F8C1E0", VA = "0x4F8C1E0")]
 	public void Commit()
 	{
 	}
 
 	[Token(Token = "0x6001CD2")]
-	[Address(RVA = "0x4C64970", Offset = "0x4C64970", VA = "0x4C64970")]
+	[Address(RVA = "0x4F8C2A0", Offset = "0x4F8C2A0", VA = "0x4F8C2A0")]
 	private void PrepareAtlas()
 	{
 	}

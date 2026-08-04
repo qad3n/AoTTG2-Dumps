@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Vector4Field
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Scripting.APIUpdating;
 
@@ -11,7 +18,7 @@ public class Vector4Field : BaseCompositeField<Vector4, FloatField, float>
 	public new class UxmlFactory : UxmlFactory<Vector4Field, UxmlTraits>
 	{
 		[Token(Token = "0x6000391")]
-		[Address(RVA = "0x4C0E2F0", Offset = "0x4C0E2F0", VA = "0x4C0E2F0")]
+		[Address(RVA = "0x4F35C20", Offset = "0x4F35C20", VA = "0x4F35C20")]
 		public UxmlFactory()
 		{
 		}
@@ -37,13 +44,13 @@ public class Vector4Field : BaseCompositeField<Vector4, FloatField, float>
 		private UxmlFloatAttributeDescription m_WValue;
 
 		[Token(Token = "0x6000392")]
-		[Address(RVA = "0x4C0E330", Offset = "0x4C0E330", VA = "0x4C0E330", Slot = "4")]
+		[Address(RVA = "0x4F35C60", Offset = "0x4F35C60", VA = "0x4F35C60", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x6000393")]
-		[Address(RVA = "0x4C0E580", Offset = "0x4C0E580", VA = "0x4C0E580")]
+		[Address(RVA = "0x4F35EB0", Offset = "0x4F35EB0", VA = "0x4F35EB0")]
 		public UxmlTraits()
 		{
 		}
@@ -62,20 +69,20 @@ public class Vector4Field : BaseCompositeField<Vector4, FloatField, float>
 	public new static readonly string inputUssClassName;
 
 	[Token(Token = "0x600038D")]
-	[Address(RVA = "0x4C0D830", Offset = "0x4C0D830", VA = "0x4C0D830", Slot = "115")]
+	[Address(RVA = "0x4F35160", Offset = "0x4F35160", VA = "0x4F35160", Slot = "115")]
 	internal override FieldDescription[] DescribeFields()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600038E")]
-	[Address(RVA = "0x4C0E0D0", Offset = "0x4C0E0D0", VA = "0x4C0E0D0")]
+	[Address(RVA = "0x4F35A00", Offset = "0x4F35A00", VA = "0x4F35A00")]
 	public Vector4Field()
 	{
 	}
 
 	[Token(Token = "0x600038F")]
-	[Address(RVA = "0x4C0E0E0", Offset = "0x4C0E0E0", VA = "0x4C0E0E0")]
+	[Address(RVA = "0x4F35A10", Offset = "0x4F35A10", VA = "0x4F35A10")]
 	public Vector4Field(string label)
 	{
 	}

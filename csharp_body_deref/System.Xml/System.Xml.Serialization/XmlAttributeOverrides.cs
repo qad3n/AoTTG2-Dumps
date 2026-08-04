@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlAttributeOverrides
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Text;
 using Il2CppDummyDll;
@@ -15,7 +22,7 @@ public class XmlAttributeOverrides
 	public XmlAttributes this[Type type]
 	{
 		[Token(Token = "0x6000D25")]
-		[Address(RVA = "0x44D4100", Offset = "0x44D4100", VA = "0x44D4100")]
+		[Address(RVA = "0x4811860", Offset = "0x4811860", VA = "0x4811860")]
 		get
 		{
 			return null;
@@ -26,7 +33,7 @@ public class XmlAttributeOverrides
 	public XmlAttributes this[Type type, string member]
 	{
 		[Token(Token = "0x6000D26")]
-		[Address(RVA = "0x44D4120", Offset = "0x44D4120", VA = "0x44D4120")]
+		[Address(RVA = "0x4811880", Offset = "0x4811880", VA = "0x4811880")]
 		get
 		{
 			return null;
@@ -34,20 +41,20 @@ public class XmlAttributeOverrides
 	}
 
 	[Token(Token = "0x6000D24")]
-	[Address(RVA = "0x44D4090", Offset = "0x44D4090", VA = "0x44D4090")]
+	[Address(RVA = "0x48117F0", Offset = "0x48117F0", VA = "0x48117F0")]
 	public XmlAttributeOverrides()
 	{
 	}
 
 	[Token(Token = "0x6000D27")]
-	[Address(RVA = "0x44D4200", Offset = "0x44D4200", VA = "0x44D4200")]
+	[Address(RVA = "0x4811960", Offset = "0x4811960", VA = "0x4811960")]
 	private TypeMember GetKey(Type type, string member)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D28")]
-	[Address(RVA = "0x44D4260", Offset = "0x44D4260", VA = "0x44D4260")]
+	[Address(RVA = "0x48119C0", Offset = "0x48119C0", VA = "0x48119C0")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

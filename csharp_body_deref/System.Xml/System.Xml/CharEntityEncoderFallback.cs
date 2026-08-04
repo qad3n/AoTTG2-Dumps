@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.CharEntityEncoderFallback
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Text;
 using Il2CppDummyDll;
 
@@ -30,7 +37,7 @@ internal class CharEntityEncoderFallback : EncoderFallback
 	public override int MaxCharCount
 	{
 		[Token(Token = "0x60000E7")]
-		[Address(RVA = "0x4355D60", Offset = "0x4355D60", VA = "0x4355D60", Slot = "5")]
+		[Address(RVA = "0x4687E30", Offset = "0x4687E30", VA = "0x4687E30", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -41,33 +48,33 @@ internal class CharEntityEncoderFallback : EncoderFallback
 	internal int StartOffset
 	{
 		[Token(Token = "0x60000E8")]
-		[Address(RVA = "0x4355D70", Offset = "0x4355D70", VA = "0x4355D70")]
+		[Address(RVA = "0x4687E40", Offset = "0x4687E40", VA = "0x4687E40")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60000E5")]
-	[Address(RVA = "0x4355C40", Offset = "0x4355C40", VA = "0x4355C40")]
+	[Address(RVA = "0x4687D10", Offset = "0x4687D10", VA = "0x4687D10")]
 	internal CharEntityEncoderFallback()
 	{
 	}
 
 	[Token(Token = "0x60000E6")]
-	[Address(RVA = "0x4355C50", Offset = "0x4355C50", VA = "0x4355C50", Slot = "4")]
+	[Address(RVA = "0x4687D20", Offset = "0x4687D20", VA = "0x4687D20", Slot = "4")]
 	public override EncoderFallbackBuffer CreateFallbackBuffer()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000E9")]
-	[Address(RVA = "0x4355D80", Offset = "0x4355D80", VA = "0x4355D80")]
+	[Address(RVA = "0x4687E50", Offset = "0x4687E50", VA = "0x4687E50")]
 	internal void Reset(int[] textContentMarks, int endMarkPos)
 	{
 	}
 
 	[Token(Token = "0x60000EA")]
-	[Address(RVA = "0x4355DB0", Offset = "0x4355DB0", VA = "0x4355DB0")]
+	[Address(RVA = "0x4687E80", Offset = "0x4687E80", VA = "0x4687E80")]
 	internal bool CanReplaceAt(int index)
 	{
 		return default(bool);

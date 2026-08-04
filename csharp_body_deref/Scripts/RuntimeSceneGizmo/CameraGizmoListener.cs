@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: RuntimeSceneGizmo.CameraGizmoListener
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/RuntimeSceneGizmo/CameraGizmoListener.c
+// Prior real C# source (older reference): Assets/Scripts/ThirdParty/RuntimeSceneGizmo/CameraGizmoListener.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -47,7 +54,7 @@ public class CameraGizmoListener : MonoBehaviour
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x60002C9")]
-			[Address(RVA = "0x3C8C5D0", Offset = "0x3C8C5D0", VA = "0x3C8C5D0", Slot = "4")]
+			[Address(RVA = "0x3F81F20", Offset = "0x3F81F20", VA = "0x3F81F20", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -59,7 +66,7 @@ public class CameraGizmoListener : MonoBehaviour
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x60002CB")]
-			[Address(RVA = "0x3C8C620", Offset = "0x3C8C620", VA = "0x3C8C620", Slot = "7")]
+			[Address(RVA = "0x3F81F70", Offset = "0x3F81F70", VA = "0x3F81F70", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -68,28 +75,28 @@ public class CameraGizmoListener : MonoBehaviour
 		}
 
 		[Token(Token = "0x60002C6")]
-		[Address(RVA = "0x3C8C350", Offset = "0x3C8C350", VA = "0x3C8C350")]
+		[Address(RVA = "0x3F81CA0", Offset = "0x3F81CA0", VA = "0x3F81CA0")]
 		[DebuggerHidden]
 		public _003CSetCameraRotation_003Ed__12(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x60002C7")]
-		[Address(RVA = "0x3C8C390", Offset = "0x3C8C390", VA = "0x3C8C390", Slot = "5")]
+		[Address(RVA = "0x3F81CE0", Offset = "0x3F81CE0", VA = "0x3F81CE0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x60002C8")]
-		[Address(RVA = "0x3C8C3A0", Offset = "0x3C8C3A0", VA = "0x3C8C3A0", Slot = "6")]
+		[Address(RVA = "0x3F81CF0", Offset = "0x3F81CF0", VA = "0x3F81CF0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60002CA")]
-		[Address(RVA = "0x3C8C5E0", Offset = "0x3C8C5E0", VA = "0x3C8C5E0", Slot = "8")]
+		[Address(RVA = "0x3F81F30", Offset = "0x3F81F30", VA = "0x3F81F30", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -132,7 +139,7 @@ public class CameraGizmoListener : MonoBehaviour
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x60002CF")]
-			[Address(RVA = "0x3C8CEE0", Offset = "0x3C8CEE0", VA = "0x3C8CEE0", Slot = "4")]
+			[Address(RVA = "0x3F82830", Offset = "0x3F82830", VA = "0x3F82830", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -144,7 +151,7 @@ public class CameraGizmoListener : MonoBehaviour
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x60002D1")]
-			[Address(RVA = "0x3C8CF30", Offset = "0x3C8CF30", VA = "0x3C8CF30", Slot = "7")]
+			[Address(RVA = "0x3F82880", Offset = "0x3F82880", VA = "0x3F82880", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -153,28 +160,28 @@ public class CameraGizmoListener : MonoBehaviour
 		}
 
 		[Token(Token = "0x60002CC")]
-		[Address(RVA = "0x3C8C330", Offset = "0x3C8C330", VA = "0x3C8C330")]
+		[Address(RVA = "0x3F81C80", Offset = "0x3F81C80", VA = "0x3F81C80")]
 		[DebuggerHidden]
 		public _003CSwitchProjection_003Ed__11(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x60002CD")]
-		[Address(RVA = "0x3C8C630", Offset = "0x3C8C630", VA = "0x3C8C630", Slot = "5")]
+		[Address(RVA = "0x3F81F80", Offset = "0x3F81F80", VA = "0x3F81F80", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x60002CE")]
-		[Address(RVA = "0x3C8C640", Offset = "0x3C8C640", VA = "0x3C8C640", Slot = "6")]
+		[Address(RVA = "0x3F81F90", Offset = "0x3F81F90", VA = "0x3F81F90", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60002D0")]
-		[Address(RVA = "0x3C8CEF0", Offset = "0x3C8CEF0", VA = "0x3C8CEF0", Slot = "8")]
+		[Address(RVA = "0x3F82840", Offset = "0x3F82840", VA = "0x3F82840", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -208,37 +215,37 @@ public class CameraGizmoListener : MonoBehaviour
 	private IEnumerator projectionChangeCoroutine;
 
 	[Token(Token = "0x60002BE")]
-	[Address(RVA = "0x3C8BEA0", Offset = "0x3C8BEA0", VA = "0x3C8BEA0")]
+	[Address(RVA = "0x3F817F0", Offset = "0x3F817F0", VA = "0x3F817F0")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x60002BF")]
-	[Address(RVA = "0x3C8BF00", Offset = "0x3C8BF00", VA = "0x3C8BF00")]
+	[Address(RVA = "0x3F81850", Offset = "0x3F81850", VA = "0x3F81850")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x60002C0")]
-	[Address(RVA = "0x3C8BF30", Offset = "0x3C8BF30", VA = "0x3C8BF30")]
+	[Address(RVA = "0x3F81880", Offset = "0x3F81880", VA = "0x3F81880")]
 	public void OnGizmoComponentClicked(GizmoComponent component)
 	{
 	}
 
 	[Token(Token = "0x60002C1")]
-	[Address(RVA = "0x3C8C0C0", Offset = "0x3C8C0C0", VA = "0x3C8C0C0")]
+	[Address(RVA = "0x3F81A10", Offset = "0x3F81A10", VA = "0x3F81A10")]
 	public void SwitchOrthographicMode()
 	{
 	}
 
 	[Token(Token = "0x60002C2")]
-	[Address(RVA = "0x3C8C160", Offset = "0x3C8C160", VA = "0x3C8C160")]
+	[Address(RVA = "0x3F81AB0", Offset = "0x3F81AB0", VA = "0x3F81AB0")]
 	public void RotateCameraInDirection(Vector3 direction)
 	{
 	}
 
 	[Token(Token = "0x60002C3")]
-	[Address(RVA = "0x3C8C230", Offset = "0x3C8C230", VA = "0x3C8C230")]
+	[Address(RVA = "0x3F81B80", Offset = "0x3F81B80", VA = "0x3F81B80")]
 	[IteratorStateMachine(typeof(_003CSwitchProjection_003Ed__11))]
 	private IEnumerator SwitchProjection()
 	{
@@ -246,7 +253,7 @@ public class CameraGizmoListener : MonoBehaviour
 	}
 
 	[Token(Token = "0x60002C4")]
-	[Address(RVA = "0x3C8C2A0", Offset = "0x3C8C2A0", VA = "0x3C8C2A0")]
+	[Address(RVA = "0x3F81BF0", Offset = "0x3F81BF0", VA = "0x3F81BF0")]
 	[IteratorStateMachine(typeof(_003CSetCameraRotation_003Ed__12))]
 	private IEnumerator SetCameraRotation(Vector3 targetForward)
 	{
@@ -254,7 +261,7 @@ public class CameraGizmoListener : MonoBehaviour
 	}
 
 	[Token(Token = "0x60002C5")]
-	[Address(RVA = "0x3C8C370", Offset = "0x3C8C370", VA = "0x3C8C370")]
+	[Address(RVA = "0x3F81CC0", Offset = "0x3F81CC0", VA = "0x3F81CC0")]
 	public CameraGizmoListener()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: ExitGames.Client.Photon.EnetChannel
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -67,60 +74,60 @@ internal class EnetChannel
 	internal int highestReceivedAck;
 
 	[Token(Token = "0x6000059")]
-	[Address(RVA = "0x3B69180", Offset = "0x3B69180", VA = "0x3B69180")]
+	[Address(RVA = "0x3E5EAD0", Offset = "0x3E5EAD0", VA = "0x3E5EAD0")]
 	public EnetChannel(byte channelNumber, int commandBufferSize)
 	{
 	}
 
 	[Token(Token = "0x600005A")]
-	[Address(RVA = "0x3B69370", Offset = "0x3B69370", VA = "0x3B69370")]
+	[Address(RVA = "0x3E5ECC0", Offset = "0x3E5ECC0", VA = "0x3E5ECC0")]
 	public bool ContainsUnreliableSequenceNumber(int unreliableSequenceNumber)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600005B")]
-	[Address(RVA = "0x3B693C0", Offset = "0x3B693C0", VA = "0x3B693C0")]
+	[Address(RVA = "0x3E5ED10", Offset = "0x3E5ED10", VA = "0x3E5ED10")]
 	public NCommand FetchUnreliableSequenceNumber(int unreliableSequenceNumber)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x3B69410", Offset = "0x3B69410", VA = "0x3B69410")]
+	[Address(RVA = "0x3E5ED60", Offset = "0x3E5ED60", VA = "0x3E5ED60")]
 	public bool ContainsReliableSequenceNumber(int reliableSequenceNumber)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x3B69460", Offset = "0x3B69460", VA = "0x3B69460")]
+	[Address(RVA = "0x3E5EDB0", Offset = "0x3E5EDB0", VA = "0x3E5EDB0")]
 	public NCommand FetchReliableSequenceNumber(int reliableSequenceNumber)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x3B694B0", Offset = "0x3B694B0", VA = "0x3B694B0")]
+	[Address(RVA = "0x3E5EE00", Offset = "0x3E5EE00", VA = "0x3E5EE00")]
 	public bool TryGetFragment(int reliableSequenceNumber, bool isSequenced, out NCommand fragment)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x3B69520", Offset = "0x3B69520", VA = "0x3B69520")]
+	[Address(RVA = "0x3E5EE70", Offset = "0x3E5EE70", VA = "0x3E5EE70")]
 	public void RemoveFragment(int reliableSequenceNumber, bool isSequenced)
 	{
 	}
 
 	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x3B69580", Offset = "0x3B69580", VA = "0x3B69580")]
+	[Address(RVA = "0x3E5EED0", Offset = "0x3E5EED0", VA = "0x3E5EED0")]
 	public void clearAll()
 	{
 	}
 
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x3B69730", Offset = "0x3B69730", VA = "0x3B69730")]
+	[Address(RVA = "0x3E5F080", Offset = "0x3E5F080", VA = "0x3E5F080")]
 	public bool QueueIncomingReliableUnsequenced(NCommand command)
 	{
 		return default(bool);

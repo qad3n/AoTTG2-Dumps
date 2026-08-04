@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.XPath.XPathDocument
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 using MS.Internal.Xml.Cache;
@@ -51,7 +58,7 @@ public class XPathDocument
 	internal XmlNameTable NameTable
 	{
 		[Token(Token = "0x6000C36")]
-		[Address(RVA = "0x44C5EB0", Offset = "0x44C5EB0", VA = "0x44C5EB0")]
+		[Address(RVA = "0x4803610", Offset = "0x4803610", VA = "0x4803610")]
 		get
 		{
 			return null;
@@ -62,7 +69,7 @@ public class XPathDocument
 	internal bool HasLineInfo
 	{
 		[Token(Token = "0x6000C37")]
-		[Address(RVA = "0x44C5EC0", Offset = "0x44C5EC0", VA = "0x44C5EC0")]
+		[Address(RVA = "0x4803620", Offset = "0x4803620", VA = "0x4803620")]
 		get
 		{
 			return default(bool);
@@ -70,35 +77,35 @@ public class XPathDocument
 	}
 
 	[Token(Token = "0x6000C38")]
-	[Address(RVA = "0x44C5ED0", Offset = "0x44C5ED0", VA = "0x44C5ED0")]
+	[Address(RVA = "0x4803630", Offset = "0x4803630", VA = "0x4803630")]
 	internal int GetCollapsedTextNode(out XPathNode[] pageText)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000C39")]
-	[Address(RVA = "0x44C5EF0", Offset = "0x44C5EF0", VA = "0x44C5EF0")]
+	[Address(RVA = "0x4803650", Offset = "0x4803650", VA = "0x4803650")]
 	internal int GetRootNode(out XPathNode[] pageRoot)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000C3A")]
-	[Address(RVA = "0x44C5F10", Offset = "0x44C5F10", VA = "0x44C5F10")]
+	[Address(RVA = "0x4803670", Offset = "0x4803670", VA = "0x4803670")]
 	internal int GetXmlNamespaceNode(out XPathNode[] pageXmlNmsp)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000C3B")]
-	[Address(RVA = "0x44C5F30", Offset = "0x44C5F30", VA = "0x44C5F30")]
+	[Address(RVA = "0x4803690", Offset = "0x4803690", VA = "0x4803690")]
 	internal int LookupNamespaces(XPathNode[] pageElem, int idxElem, out XPathNode[] pageNmsp)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000C3C")]
-	[Address(RVA = "0x44C6010", Offset = "0x44C6010", VA = "0x44C6010")]
+	[Address(RVA = "0x4803770", Offset = "0x4803770", VA = "0x4803770")]
 	internal int LookupIdElement(string id, out XPathNode[] pageElem)
 	{
 		return default(int);

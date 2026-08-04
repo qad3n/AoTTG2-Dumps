@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.Unity.UtilityScripts.ConnectAndJoin
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/Code/UtilityScripts/ConnectAndJoin.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 using Photon.Realtime;
@@ -39,7 +46,7 @@ public class ConnectAndJoin : MonoBehaviour, IConnectionCallbacks, IMatchmakingC
 	public bool IsConnected
 	{
 		[Token(Token = "0x600010A")]
-		[Address(RVA = "0x3C5CC00", Offset = "0x3C5CC00", VA = "0x3C5CC00")]
+		[Address(RVA = "0x3F4F1B0", Offset = "0x3F4F1B0", VA = "0x3F4F1B0")]
 		get
 		{
 			return default(bool);
@@ -47,103 +54,103 @@ public class ConnectAndJoin : MonoBehaviour, IConnectionCallbacks, IMatchmakingC
 	}
 
 	[Token(Token = "0x600010B")]
-	[Address(RVA = "0x3C5CC80", Offset = "0x3C5CC80", VA = "0x3C5CC80")]
+	[Address(RVA = "0x3F4F230", Offset = "0x3F4F230", VA = "0x3F4F230")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x600010C")]
-	[Address(RVA = "0x3C5CD50", Offset = "0x3C5CD50", VA = "0x3C5CD50")]
+	[Address(RVA = "0x3F4F300", Offset = "0x3F4F300", VA = "0x3F4F300")]
 	private void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x600010D")]
-	[Address(RVA = "0x3C5CD20", Offset = "0x3C5CD20", VA = "0x3C5CD20")]
+	[Address(RVA = "0x3F4F2D0", Offset = "0x3F4F2D0", VA = "0x3F4F2D0")]
 	public void ConnectNow()
 	{
 	}
 
 	[Token(Token = "0x600010E")]
-	[Address(RVA = "0x3C5CD80", Offset = "0x3C5CD80", VA = "0x3C5CD80", Slot = "11")]
+	[Address(RVA = "0x3F4F330", Offset = "0x3F4F330", VA = "0x3F4F330", Slot = "11")]
 	public void OnCreatedRoom()
 	{
 	}
 
 	[Token(Token = "0x600010F")]
-	[Address(RVA = "0x3C5CD90", Offset = "0x3C5CD90", VA = "0x3C5CD90", Slot = "12")]
+	[Address(RVA = "0x3F4F340", Offset = "0x3F4F340", VA = "0x3F4F340", Slot = "12")]
 	public void OnCreateRoomFailed(short returnCode, string message)
 	{
 	}
 
 	[Token(Token = "0x6000110")]
-	[Address(RVA = "0x3C5CED0", Offset = "0x3C5CED0", VA = "0x3C5CED0", Slot = "10")]
+	[Address(RVA = "0x3F4F480", Offset = "0x3F4F480", VA = "0x3F4F480", Slot = "10")]
 	public void OnFriendListUpdate(List<FriendInfo> friendList)
 	{
 	}
 
 	[Token(Token = "0x6000111")]
-	[Address(RVA = "0x3C5CEE0", Offset = "0x3C5CEE0", VA = "0x3C5CEE0", Slot = "13")]
+	[Address(RVA = "0x3F4F490", Offset = "0x3F4F490", VA = "0x3F4F490", Slot = "13")]
 	public void OnJoinedRoom()
 	{
 	}
 
 	[Token(Token = "0x6000112")]
-	[Address(RVA = "0x3C5CEF0", Offset = "0x3C5CEF0", VA = "0x3C5CEF0", Slot = "15")]
+	[Address(RVA = "0x3F4F4A0", Offset = "0x3F4F4A0", VA = "0x3F4F4A0", Slot = "15")]
 	public void OnJoinRandomFailed(short returnCode, string message)
 	{
 	}
 
 	[Token(Token = "0x6000113")]
-	[Address(RVA = "0x3C5D030", Offset = "0x3C5D030", VA = "0x3C5D030", Slot = "14")]
+	[Address(RVA = "0x3F4F5E0", Offset = "0x3F4F5E0", VA = "0x3F4F5E0", Slot = "14")]
 	public void OnJoinRoomFailed(short returnCode, string message)
 	{
 	}
 
 	[Token(Token = "0x6000114")]
-	[Address(RVA = "0x3C5D1B0", Offset = "0x3C5D1B0", VA = "0x3C5D1B0", Slot = "16")]
+	[Address(RVA = "0x3F4F760", Offset = "0x3F4F760", VA = "0x3F4F760", Slot = "16")]
 	public void OnLeftRoom()
 	{
 	}
 
 	[Token(Token = "0x6000115")]
-	[Address(RVA = "0x3C5D1C0", Offset = "0x3C5D1C0", VA = "0x3C5D1C0", Slot = "4")]
+	[Address(RVA = "0x3F4F770", Offset = "0x3F4F770", VA = "0x3F4F770", Slot = "4")]
 	public void OnConnected()
 	{
 	}
 
 	[Token(Token = "0x6000116")]
-	[Address(RVA = "0x3C5D1D0", Offset = "0x3C5D1D0", VA = "0x3C5D1D0", Slot = "5")]
+	[Address(RVA = "0x3F4F780", Offset = "0x3F4F780", VA = "0x3F4F780", Slot = "5")]
 	public void OnConnectedToMaster()
 	{
 	}
 
 	[Token(Token = "0x6000117")]
-	[Address(RVA = "0x3C5D2B0", Offset = "0x3C5D2B0", VA = "0x3C5D2B0", Slot = "6")]
+	[Address(RVA = "0x3F4F860", Offset = "0x3F4F860", VA = "0x3F4F860", Slot = "6")]
 	public void OnDisconnected(DisconnectCause cause)
 	{
 	}
 
 	[Token(Token = "0x6000118")]
-	[Address(RVA = "0x3C5D3C0", Offset = "0x3C5D3C0", VA = "0x3C5D3C0", Slot = "7")]
+	[Address(RVA = "0x3F4F970", Offset = "0x3F4F970", VA = "0x3F4F970", Slot = "7")]
 	public void OnRegionListReceived(RegionHandler regionHandler)
 	{
 	}
 
 	[Token(Token = "0x6000119")]
-	[Address(RVA = "0x3C5D3D0", Offset = "0x3C5D3D0", VA = "0x3C5D3D0", Slot = "8")]
+	[Address(RVA = "0x3F4F980", Offset = "0x3F4F980", VA = "0x3F4F980", Slot = "8")]
 	public void OnCustomAuthenticationResponse(Dictionary<string, object> data)
 	{
 	}
 
 	[Token(Token = "0x600011A")]
-	[Address(RVA = "0x3C5D3E0", Offset = "0x3C5D3E0", VA = "0x3C5D3E0", Slot = "9")]
+	[Address(RVA = "0x3F4F990", Offset = "0x3F4F990", VA = "0x3F4F990", Slot = "9")]
 	public void OnCustomAuthenticationFailed(string debugMessage)
 	{
 	}
 
 	[Token(Token = "0x600011B")]
-	[Address(RVA = "0x3C5D3F0", Offset = "0x3C5D3F0", VA = "0x3C5D3F0")]
+	[Address(RVA = "0x3F4F9A0", Offset = "0x3F4F9A0", VA = "0x3F4F9A0")]
 	public ConnectAndJoin()
 	{
 	}

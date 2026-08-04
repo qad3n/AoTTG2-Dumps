@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
@@ -22,7 +29,7 @@ public readonly struct ConfiguredValueTaskAwaitable
 		{
 			[MethodImpl((MethodImplOptions)256)]
 			[Token(Token = "0x600225E")]
-			[Address(RVA = "0x4EDAC80", Offset = "0x4EDAC80", VA = "0x4EDAC80")]
+			[Address(RVA = "0x3BC07A0", Offset = "0x3BC07A0", VA = "0x3BC07A0")]
 			get
 			{
 				return default(bool);
@@ -31,27 +38,27 @@ public readonly struct ConfiguredValueTaskAwaitable
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x600225D")]
-		[Address(RVA = "0x4EDAC70", Offset = "0x4EDAC70", VA = "0x4EDAC70")]
+		[Address(RVA = "0x3BC0790", Offset = "0x3BC0790", VA = "0x3BC0790")]
 		internal ConfiguredValueTaskAwaiter(ValueTask value)
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x600225F")]
-		[Address(RVA = "0x4EDADF0", Offset = "0x4EDADF0", VA = "0x4EDADF0")]
+		[Address(RVA = "0x3BC0910", Offset = "0x3BC0910", VA = "0x3BC0910")]
 		[System.Diagnostics.StackTraceHidden]
 		public void GetResult()
 		{
 		}
 
 		[Token(Token = "0x6002260")]
-		[Address(RVA = "0x4EDAE60", Offset = "0x4EDAE60", VA = "0x4EDAE60", Slot = "5")]
+		[Address(RVA = "0x3BC0980", Offset = "0x3BC0980", VA = "0x3BC0980", Slot = "5")]
 		public void OnCompleted(Action continuation)
 		{
 		}
 
 		[Token(Token = "0x6002261")]
-		[Address(RVA = "0x4EDB040", Offset = "0x4EDB040", VA = "0x4EDB040", Slot = "4")]
+		[Address(RVA = "0x3BC0B60", Offset = "0x3BC0B60", VA = "0x3BC0B60", Slot = "4")]
 		public void UnsafeOnCompleted(Action continuation)
 		{
 		}
@@ -63,14 +70,14 @@ public readonly struct ConfiguredValueTaskAwaitable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600225B")]
-	[Address(RVA = "0x4EDAC30", Offset = "0x4EDAC30", VA = "0x4EDAC30")]
+	[Address(RVA = "0x3BC0750", Offset = "0x3BC0750", VA = "0x3BC0750")]
 	internal ConfiguredValueTaskAwaitable(ValueTask value)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600225C")]
-	[Address(RVA = "0x4EDAC40", Offset = "0x4EDAC40", VA = "0x4EDAC40")]
+	[Address(RVA = "0x3BC0760", Offset = "0x3BC0760", VA = "0x3BC0760")]
 	public ConfiguredValueTaskAwaiter GetAwaiter()
 	{
 		return default(ConfiguredValueTaskAwaiter);

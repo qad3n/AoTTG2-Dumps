@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.CompModSwitches
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using Il2CppDummyDll;
 
@@ -18,7 +25,7 @@ internal static class CompModSwitches
 	public static BooleanSwitch CommonDesignerServices
 	{
 		[Token(Token = "0x600130B")]
-		[Address(RVA = "0x4589370", Offset = "0x4589370", VA = "0x4589370")]
+		[Address(RVA = "0x48AE470", Offset = "0x48AE470", VA = "0x48AE470")]
 		get
 		{
 			return null;
@@ -29,7 +36,7 @@ internal static class CompModSwitches
 	public static TraceSwitch EventLog
 	{
 		[Token(Token = "0x600130C")]
-		[Address(RVA = "0x4589450", Offset = "0x4589450", VA = "0x4589450")]
+		[Address(RVA = "0x48AE550", Offset = "0x48AE550", VA = "0x48AE550")]
 		get
 		{
 			return null;

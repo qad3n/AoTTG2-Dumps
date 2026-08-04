@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.Text.TextSettings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -24,7 +31,7 @@ public class TextSettings : ScriptableObject
 		public FontAsset fontAsset;
 
 		[Token(Token = "0x60001C9")]
-		[Address(RVA = "0x4BC25E0", Offset = "0x4BC25E0", VA = "0x4BC25E0")]
+		[Address(RVA = "0x4EE9F10", Offset = "0x4EE9F10", VA = "0x4EE9F10")]
 		public FontReferenceMap(Font font, FontAsset fontAsset)
 		{
 		}
@@ -141,13 +148,13 @@ public class TextSettings : ScriptableObject
 	public string version
 	{
 		[Token(Token = "0x60001A3")]
-		[Address(RVA = "0x4BC1500", Offset = "0x4BC1500", VA = "0x4BC1500")]
+		[Address(RVA = "0x4EE8E30", Offset = "0x4EE8E30", VA = "0x4EE8E30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001A4")]
-		[Address(RVA = "0x4BC1510", Offset = "0x4BC1510", VA = "0x4BC1510")]
+		[Address(RVA = "0x4EE8E40", Offset = "0x4EE8E40", VA = "0x4EE8E40")]
 		internal set
 		{
 		}
@@ -157,13 +164,13 @@ public class TextSettings : ScriptableObject
 	public FontAsset defaultFontAsset
 	{
 		[Token(Token = "0x60001A5")]
-		[Address(RVA = "0x4BC1520", Offset = "0x4BC1520", VA = "0x4BC1520")]
+		[Address(RVA = "0x4EE8E50", Offset = "0x4EE8E50", VA = "0x4EE8E50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001A6")]
-		[Address(RVA = "0x4BC1530", Offset = "0x4BC1530", VA = "0x4BC1530")]
+		[Address(RVA = "0x4EE8E60", Offset = "0x4EE8E60", VA = "0x4EE8E60")]
 		set
 		{
 		}
@@ -173,13 +180,13 @@ public class TextSettings : ScriptableObject
 	public string defaultFontAssetPath
 	{
 		[Token(Token = "0x60001A7")]
-		[Address(RVA = "0x4BC1540", Offset = "0x4BC1540", VA = "0x4BC1540")]
+		[Address(RVA = "0x4EE8E70", Offset = "0x4EE8E70", VA = "0x4EE8E70")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001A8")]
-		[Address(RVA = "0x4BC1550", Offset = "0x4BC1550", VA = "0x4BC1550")]
+		[Address(RVA = "0x4EE8E80", Offset = "0x4EE8E80", VA = "0x4EE8E80")]
 		set
 		{
 		}
@@ -189,13 +196,13 @@ public class TextSettings : ScriptableObject
 	public List<FontAsset> fallbackFontAssets
 	{
 		[Token(Token = "0x60001A9")]
-		[Address(RVA = "0x4BC1560", Offset = "0x4BC1560", VA = "0x4BC1560")]
+		[Address(RVA = "0x4EE8E90", Offset = "0x4EE8E90", VA = "0x4EE8E90")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001AA")]
-		[Address(RVA = "0x4BC1570", Offset = "0x4BC1570", VA = "0x4BC1570")]
+		[Address(RVA = "0x4EE8EA0", Offset = "0x4EE8EA0", VA = "0x4EE8EA0")]
 		set
 		{
 		}
@@ -205,13 +212,13 @@ public class TextSettings : ScriptableObject
 	public bool matchMaterialPreset
 	{
 		[Token(Token = "0x60001AB")]
-		[Address(RVA = "0x4BC1580", Offset = "0x4BC1580", VA = "0x4BC1580")]
+		[Address(RVA = "0x4EE8EB0", Offset = "0x4EE8EB0", VA = "0x4EE8EB0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001AC")]
-		[Address(RVA = "0x4BC1590", Offset = "0x4BC1590", VA = "0x4BC1590")]
+		[Address(RVA = "0x4EE8EC0", Offset = "0x4EE8EC0", VA = "0x4EE8EC0")]
 		set
 		{
 		}
@@ -221,13 +228,13 @@ public class TextSettings : ScriptableObject
 	public int missingCharacterUnicode
 	{
 		[Token(Token = "0x60001AD")]
-		[Address(RVA = "0x4BC15A0", Offset = "0x4BC15A0", VA = "0x4BC15A0")]
+		[Address(RVA = "0x4EE8ED0", Offset = "0x4EE8ED0", VA = "0x4EE8ED0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001AE")]
-		[Address(RVA = "0x4BC15B0", Offset = "0x4BC15B0", VA = "0x4BC15B0")]
+		[Address(RVA = "0x4EE8EE0", Offset = "0x4EE8EE0", VA = "0x4EE8EE0")]
 		set
 		{
 		}
@@ -237,13 +244,13 @@ public class TextSettings : ScriptableObject
 	public bool clearDynamicDataOnBuild
 	{
 		[Token(Token = "0x60001AF")]
-		[Address(RVA = "0x4BC15C0", Offset = "0x4BC15C0", VA = "0x4BC15C0")]
+		[Address(RVA = "0x4EE8EF0", Offset = "0x4EE8EF0", VA = "0x4EE8EF0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001B0")]
-		[Address(RVA = "0x4BC15D0", Offset = "0x4BC15D0", VA = "0x4BC15D0")]
+		[Address(RVA = "0x4EE8F00", Offset = "0x4EE8F00", VA = "0x4EE8F00")]
 		set
 		{
 		}
@@ -253,13 +260,13 @@ public class TextSettings : ScriptableObject
 	public SpriteAsset defaultSpriteAsset
 	{
 		[Token(Token = "0x60001B1")]
-		[Address(RVA = "0x4BC15E0", Offset = "0x4BC15E0", VA = "0x4BC15E0")]
+		[Address(RVA = "0x4EE8F10", Offset = "0x4EE8F10", VA = "0x4EE8F10")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001B2")]
-		[Address(RVA = "0x4BC15F0", Offset = "0x4BC15F0", VA = "0x4BC15F0")]
+		[Address(RVA = "0x4EE8F20", Offset = "0x4EE8F20", VA = "0x4EE8F20")]
 		set
 		{
 		}
@@ -269,13 +276,13 @@ public class TextSettings : ScriptableObject
 	public string defaultSpriteAssetPath
 	{
 		[Token(Token = "0x60001B3")]
-		[Address(RVA = "0x4BC1600", Offset = "0x4BC1600", VA = "0x4BC1600")]
+		[Address(RVA = "0x4EE8F30", Offset = "0x4EE8F30", VA = "0x4EE8F30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001B4")]
-		[Address(RVA = "0x4BC1610", Offset = "0x4BC1610", VA = "0x4BC1610")]
+		[Address(RVA = "0x4EE8F40", Offset = "0x4EE8F40", VA = "0x4EE8F40")]
 		set
 		{
 		}
@@ -285,13 +292,13 @@ public class TextSettings : ScriptableObject
 	public List<SpriteAsset> fallbackSpriteAssets
 	{
 		[Token(Token = "0x60001B5")]
-		[Address(RVA = "0x4BC1620", Offset = "0x4BC1620", VA = "0x4BC1620")]
+		[Address(RVA = "0x4EE8F50", Offset = "0x4EE8F50", VA = "0x4EE8F50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001B6")]
-		[Address(RVA = "0x4BC1630", Offset = "0x4BC1630", VA = "0x4BC1630")]
+		[Address(RVA = "0x4EE8F60", Offset = "0x4EE8F60", VA = "0x4EE8F60")]
 		set
 		{
 		}
@@ -301,13 +308,13 @@ public class TextSettings : ScriptableObject
 	public uint missingSpriteCharacterUnicode
 	{
 		[Token(Token = "0x60001B7")]
-		[Address(RVA = "0x4BC1640", Offset = "0x4BC1640", VA = "0x4BC1640")]
+		[Address(RVA = "0x4EE8F70", Offset = "0x4EE8F70", VA = "0x4EE8F70")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x60001B8")]
-		[Address(RVA = "0x4BC1650", Offset = "0x4BC1650", VA = "0x4BC1650")]
+		[Address(RVA = "0x4EE8F80", Offset = "0x4EE8F80", VA = "0x4EE8F80")]
 		set
 		{
 		}
@@ -317,13 +324,13 @@ public class TextSettings : ScriptableObject
 	public TextStyleSheet defaultStyleSheet
 	{
 		[Token(Token = "0x60001B9")]
-		[Address(RVA = "0x4BC1660", Offset = "0x4BC1660", VA = "0x4BC1660")]
+		[Address(RVA = "0x4EE8F90", Offset = "0x4EE8F90", VA = "0x4EE8F90")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001BA")]
-		[Address(RVA = "0x4BC1670", Offset = "0x4BC1670", VA = "0x4BC1670")]
+		[Address(RVA = "0x4EE8FA0", Offset = "0x4EE8FA0", VA = "0x4EE8FA0")]
 		set
 		{
 		}
@@ -333,13 +340,13 @@ public class TextSettings : ScriptableObject
 	public string styleSheetsResourcePath
 	{
 		[Token(Token = "0x60001BB")]
-		[Address(RVA = "0x4BC1680", Offset = "0x4BC1680", VA = "0x4BC1680")]
+		[Address(RVA = "0x4EE8FB0", Offset = "0x4EE8FB0", VA = "0x4EE8FB0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001BC")]
-		[Address(RVA = "0x4BC1690", Offset = "0x4BC1690", VA = "0x4BC1690")]
+		[Address(RVA = "0x4EE8FC0", Offset = "0x4EE8FC0", VA = "0x4EE8FC0")]
 		set
 		{
 		}
@@ -349,13 +356,13 @@ public class TextSettings : ScriptableObject
 	public string defaultColorGradientPresetsPath
 	{
 		[Token(Token = "0x60001BD")]
-		[Address(RVA = "0x4BC16A0", Offset = "0x4BC16A0", VA = "0x4BC16A0")]
+		[Address(RVA = "0x4EE8FD0", Offset = "0x4EE8FD0", VA = "0x4EE8FD0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001BE")]
-		[Address(RVA = "0x4BC16B0", Offset = "0x4BC16B0", VA = "0x4BC16B0")]
+		[Address(RVA = "0x4EE8FE0", Offset = "0x4EE8FE0", VA = "0x4EE8FE0")]
 		set
 		{
 		}
@@ -365,13 +372,13 @@ public class TextSettings : ScriptableObject
 	public UnicodeLineBreakingRules lineBreakingRules
 	{
 		[Token(Token = "0x60001BF")]
-		[Address(RVA = "0x4BC16C0", Offset = "0x4BC16C0", VA = "0x4BC16C0")]
+		[Address(RVA = "0x4EE8FF0", Offset = "0x4EE8FF0", VA = "0x4EE8FF0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001C0")]
-		[Address(RVA = "0x4BC1B30", Offset = "0x4BC1B30", VA = "0x4BC1B30")]
+		[Address(RVA = "0x4EE9460", Offset = "0x4EE9460", VA = "0x4EE9460")]
 		set
 		{
 		}
@@ -381,13 +388,13 @@ public class TextSettings : ScriptableObject
 	public bool useModernHangulLineBreakingRules
 	{
 		[Token(Token = "0x60001C1")]
-		[Address(RVA = "0x4BC1B50", Offset = "0x4BC1B50", VA = "0x4BC1B50")]
+		[Address(RVA = "0x4EE9480", Offset = "0x4EE9480", VA = "0x4EE9480")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001C2")]
-		[Address(RVA = "0x4BC1B60", Offset = "0x4BC1B60", VA = "0x4BC1B60")]
+		[Address(RVA = "0x4EE9490", Offset = "0x4EE9490", VA = "0x4EE9490")]
 		set
 		{
 		}
@@ -397,40 +404,40 @@ public class TextSettings : ScriptableObject
 	public bool displayWarnings
 	{
 		[Token(Token = "0x60001C3")]
-		[Address(RVA = "0x4BC1B70", Offset = "0x4BC1B70", VA = "0x4BC1B70")]
+		[Address(RVA = "0x4EE94A0", Offset = "0x4EE94A0", VA = "0x4EE94A0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60001C4")]
-		[Address(RVA = "0x4BC1B80", Offset = "0x4BC1B80", VA = "0x4BC1B80")]
+		[Address(RVA = "0x4EE94B0", Offset = "0x4EE94B0", VA = "0x4EE94B0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60001C5")]
-	[Address(RVA = "0x4BC1B90", Offset = "0x4BC1B90", VA = "0x4BC1B90")]
+	[Address(RVA = "0x4EE94C0", Offset = "0x4EE94C0", VA = "0x4EE94C0")]
 	protected void InitializeFontReferenceLookup()
 	{
 	}
 
 	[Token(Token = "0x60001C6")]
-	[Address(RVA = "0x4BC1E40", Offset = "0x4BC1E40", VA = "0x4BC1E40")]
+	[Address(RVA = "0x4EE9770", Offset = "0x4EE9770", VA = "0x4EE9770")]
 	protected FontAsset GetCachedFontAssetInternal(Font font)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001C7")]
-	[Address(RVA = "0x4BC20C0", Offset = "0x4BC20C0", VA = "0x4BC20C0")]
+	[Address(RVA = "0x4EE99F0", Offset = "0x4EE99F0", VA = "0x4EE99F0")]
 	internal FontAsset GetCachedFontAsset(Font font, Shader shader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001C8")]
-	[Address(RVA = "0x4BC2610", Offset = "0x4BC2610", VA = "0x4BC2610")]
+	[Address(RVA = "0x4EE9F40", Offset = "0x4EE9F40", VA = "0x4EE9F40")]
 	public TextSettings()
 	{
 	}

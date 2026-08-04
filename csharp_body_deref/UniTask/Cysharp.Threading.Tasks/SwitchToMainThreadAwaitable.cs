@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.SwitchToMainThreadAwaitable
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Threading;
@@ -5,72 +12,72 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000101")]
+[Token(Token = "0x2000106")]
 public struct SwitchToMainThreadAwaitable
 {
-	[Token(Token = "0x2000102")]
+	[Token(Token = "0x2000107")]
 	public struct Awaiter : ICriticalNotifyCompletion, INotifyCompletion
 	{
-		[Token(Token = "0x4000400")]
+		[Token(Token = "0x400040A")]
 		[FieldOffset(Offset = "0x0")]
 		private readonly PlayerLoopTiming playerLoopTiming;
 
-		[Token(Token = "0x4000401")]
+		[Token(Token = "0x400040B")]
 		[FieldOffset(Offset = "0x8")]
 		private readonly CancellationToken cancellationToken;
 
-		[Token(Token = "0x17000042")]
+		[Token(Token = "0x17000044")]
 		public bool IsCompleted
 		{
-			[Token(Token = "0x600066D")]
-			[Address(RVA = "0x46C4A60", Offset = "0x46C4A60", VA = "0x46C4A60")]
+			[Token(Token = "0x600068B")]
+			[Address(RVA = "0x49E9C40", Offset = "0x49E9C40", VA = "0x49E9C40")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x600066C")]
-		[Address(RVA = "0x46C4A40", Offset = "0x46C4A40", VA = "0x46C4A40")]
+		[Token(Token = "0x600068A")]
+		[Address(RVA = "0x49E9C20", Offset = "0x49E9C20", VA = "0x49E9C20")]
 		public Awaiter(PlayerLoopTiming playerLoopTiming, CancellationToken cancellationToken)
 		{
 		}
 
-		[Token(Token = "0x600066E")]
-		[Address(RVA = "0x46C4B20", Offset = "0x46C4B20", VA = "0x46C4B20")]
+		[Token(Token = "0x600068C")]
+		[Address(RVA = "0x49E9D00", Offset = "0x49E9D00", VA = "0x49E9D00")]
 		public void GetResult()
 		{
 		}
 
-		[Token(Token = "0x600066F")]
-		[Address(RVA = "0x46C4B80", Offset = "0x46C4B80", VA = "0x46C4B80", Slot = "5")]
+		[Token(Token = "0x600068D")]
+		[Address(RVA = "0x49E9D60", Offset = "0x49E9D60", VA = "0x49E9D60", Slot = "5")]
 		public void OnCompleted(Action continuation)
 		{
 		}
 
-		[Token(Token = "0x6000670")]
-		[Address(RVA = "0x46C4BD0", Offset = "0x46C4BD0", VA = "0x46C4BD0", Slot = "4")]
+		[Token(Token = "0x600068E")]
+		[Address(RVA = "0x49E9DB0", Offset = "0x49E9DB0", VA = "0x49E9DB0", Slot = "4")]
 		public void UnsafeOnCompleted(Action continuation)
 		{
 		}
 	}
 
-	[Token(Token = "0x40003FE")]
+	[Token(Token = "0x4000408")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly PlayerLoopTiming playerLoopTiming;
 
-	[Token(Token = "0x40003FF")]
+	[Token(Token = "0x4000409")]
 	[FieldOffset(Offset = "0x8")]
 	private readonly CancellationToken cancellationToken;
 
-	[Token(Token = "0x600066A")]
-	[Address(RVA = "0x46B9440", Offset = "0x46B9440", VA = "0x46B9440")]
+	[Token(Token = "0x6000688")]
+	[Address(RVA = "0x49DECD0", Offset = "0x49DECD0", VA = "0x49DECD0")]
 	public SwitchToMainThreadAwaitable(PlayerLoopTiming playerLoopTiming, CancellationToken cancellationToken)
 	{
 	}
 
-	[Token(Token = "0x600066B")]
-	[Address(RVA = "0x46C4A00", Offset = "0x46C4A00", VA = "0x46C4A00")]
+	[Token(Token = "0x6000689")]
+	[Address(RVA = "0x49E9BE0", Offset = "0x49E9BE0", VA = "0x49E9BE0")]
 	public Awaiter GetAwaiter()
 	{
 		return default(Awaiter);

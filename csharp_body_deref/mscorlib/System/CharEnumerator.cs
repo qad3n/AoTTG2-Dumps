@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.CharEnumerator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -24,7 +31,7 @@ public sealed class CharEnumerator : IEnumerator, IEnumerator<char>, IDisposable
 	private object System_002ECollections_002EIEnumerator_002ECurrent
 	{
 		[Token(Token = "0x60004C9")]
-		[Address(RVA = "0x4F348E0", Offset = "0x4F348E0", VA = "0x4F348E0", Slot = "5")]
+		[Address(RVA = "0x3C1A400", Offset = "0x3C1A400", VA = "0x3C1A400", Slot = "5")]
 		get
 		{
 			return null;
@@ -35,7 +42,7 @@ public sealed class CharEnumerator : IEnumerator, IEnumerator<char>, IDisposable
 	public char Current
 	{
 		[Token(Token = "0x60004CA")]
-		[Address(RVA = "0x4F34910", Offset = "0x4F34910", VA = "0x4F34910", Slot = "7")]
+		[Address(RVA = "0x3C1A430", Offset = "0x3C1A430", VA = "0x3C1A430", Slot = "7")]
 		get
 		{
 			return default(char);
@@ -43,39 +50,39 @@ public sealed class CharEnumerator : IEnumerator, IEnumerator<char>, IDisposable
 	}
 
 	[Token(Token = "0x60004C5")]
-	[Address(RVA = "0x4F34830", Offset = "0x4F34830", VA = "0x4F34830")]
+	[Address(RVA = "0x3C1A350", Offset = "0x3C1A350", VA = "0x3C1A350")]
 	internal CharEnumerator(string str)
 	{
 	}
 
 	[Token(Token = "0x60004C6")]
-	[Address(RVA = "0x4F34860", Offset = "0x4F34860", VA = "0x4F34860", Slot = "9")]
+	[Address(RVA = "0x3C1A380", Offset = "0x3C1A380", VA = "0x3C1A380", Slot = "9")]
 	public object Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004C7")]
-	[Address(RVA = "0x4F34870", Offset = "0x4F34870", VA = "0x4F34870", Slot = "4")]
+	[Address(RVA = "0x3C1A390", Offset = "0x3C1A390", VA = "0x3C1A390", Slot = "4")]
 	public bool MoveNext()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004C8")]
-	[Address(RVA = "0x4F348B0", Offset = "0x4F348B0", VA = "0x4F348B0", Slot = "8")]
+	[Address(RVA = "0x3C1A3D0", Offset = "0x3C1A3D0", VA = "0x3C1A3D0", Slot = "8")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60004CB")]
-	[Address(RVA = "0x4F349A0", Offset = "0x4F349A0", VA = "0x4F349A0", Slot = "6")]
+	[Address(RVA = "0x3C1A4C0", Offset = "0x3C1A4C0", VA = "0x3C1A4C0", Slot = "6")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x60004CC")]
-	[Address(RVA = "0x4F349B0", Offset = "0x4F349B0", VA = "0x4F349B0")]
+	[Address(RVA = "0x3C1A4D0", Offset = "0x3C1A4D0", VA = "0x3C1A4D0")]
 	internal CharEnumerator()
 	{
 	}

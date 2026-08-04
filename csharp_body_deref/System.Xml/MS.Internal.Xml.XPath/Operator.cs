@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MS.Internal.Xml.XPath.Operator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.XPath;
 using Il2CppDummyDll;
 
@@ -61,7 +68,7 @@ internal class Operator : AstNode
 	public override AstType Type
 	{
 		[Token(Token = "0x6001B86")]
-		[Address(RVA = "0x4446470", Offset = "0x4446470", VA = "0x4446470", Slot = "4")]
+		[Address(RVA = "0x4783BD0", Offset = "0x4783BD0", VA = "0x4783BD0", Slot = "4")]
 		get
 		{
 			return default(AstType);
@@ -72,7 +79,7 @@ internal class Operator : AstNode
 	public override XPathResultType ReturnType
 	{
 		[Token(Token = "0x6001B87")]
-		[Address(RVA = "0x4446480", Offset = "0x4446480", VA = "0x4446480", Slot = "5")]
+		[Address(RVA = "0x4783BE0", Offset = "0x4783BE0", VA = "0x4783BE0", Slot = "5")]
 		get
 		{
 			return default(XPathResultType);
@@ -83,7 +90,7 @@ internal class Operator : AstNode
 	public Op OperatorType
 	{
 		[Token(Token = "0x6001B88")]
-		[Address(RVA = "0x44464A0", Offset = "0x44464A0", VA = "0x44464A0")]
+		[Address(RVA = "0x4783C00", Offset = "0x4783C00", VA = "0x4783C00")]
 		get
 		{
 			return default(Op);
@@ -94,7 +101,7 @@ internal class Operator : AstNode
 	public AstNode Operand1
 	{
 		[Token(Token = "0x6001B89")]
-		[Address(RVA = "0x44464B0", Offset = "0x44464B0", VA = "0x44464B0")]
+		[Address(RVA = "0x4783C10", Offset = "0x4783C10", VA = "0x4783C10")]
 		get
 		{
 			return null;
@@ -105,7 +112,7 @@ internal class Operator : AstNode
 	public AstNode Operand2
 	{
 		[Token(Token = "0x6001B8A")]
-		[Address(RVA = "0x44464C0", Offset = "0x44464C0", VA = "0x44464C0")]
+		[Address(RVA = "0x4783C20", Offset = "0x4783C20", VA = "0x4783C20")]
 		get
 		{
 			return null;
@@ -113,14 +120,14 @@ internal class Operator : AstNode
 	}
 
 	[Token(Token = "0x6001B84")]
-	[Address(RVA = "0x4440BA0", Offset = "0x4440BA0", VA = "0x4440BA0")]
+	[Address(RVA = "0x477E300", Offset = "0x477E300", VA = "0x477E300")]
 	public static Op InvertOperator(Op op)
 	{
 		return default(Op);
 	}
 
 	[Token(Token = "0x6001B85")]
-	[Address(RVA = "0x4446420", Offset = "0x4446420", VA = "0x4446420")]
+	[Address(RVA = "0x4783B80", Offset = "0x4783B80", VA = "0x4783B80")]
 	public Operator(Op op, AstNode opnd1, AstNode opnd2)
 	{
 	}

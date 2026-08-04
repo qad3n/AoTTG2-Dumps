@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Threading.ThreadPoolWorkQueue
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.ConstrainedExecution;
 using Il2CppDummyDll;
 
@@ -64,41 +71,41 @@ internal sealed class ThreadPoolWorkQueue
 		private SpinLock m_foreignLock;
 
 		[Token(Token = "0x60012E0")]
-		[Address(RVA = "0x5051D50", Offset = "0x5051D50", VA = "0x5051D50")]
+		[Address(RVA = "0x3D37870", Offset = "0x3D37870", VA = "0x3D37870")]
 		public void LocalPush(System.Threading.IThreadPoolWorkItem obj)
 		{
 		}
 
 		[Token(Token = "0x60012E1")]
-		[Address(RVA = "0x50525C0", Offset = "0x50525C0", VA = "0x50525C0")]
+		[Address(RVA = "0x3D380E0", Offset = "0x3D380E0", VA = "0x3D380E0")]
 		public bool LocalFindAndPop(System.Threading.IThreadPoolWorkItem obj)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60012E2")]
-		[Address(RVA = "0x5052B90", Offset = "0x5052B90", VA = "0x5052B90")]
+		[Address(RVA = "0x3D386B0", Offset = "0x3D386B0", VA = "0x3D386B0")]
 		public bool LocalPop(out System.Threading.IThreadPoolWorkItem obj)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60012E3")]
-		[Address(RVA = "0x5053120", Offset = "0x5053120", VA = "0x5053120")]
+		[Address(RVA = "0x3D38C40", Offset = "0x3D38C40", VA = "0x3D38C40")]
 		public bool TrySteal(out System.Threading.IThreadPoolWorkItem obj, ref bool missedSteal)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60012E4")]
-		[Address(RVA = "0x5053800", Offset = "0x5053800", VA = "0x5053800")]
+		[Address(RVA = "0x3D39320", Offset = "0x3D39320", VA = "0x3D39320")]
 		private bool TrySteal(out System.Threading.IThreadPoolWorkItem obj, ref bool missedSteal, int millisecondsTimeout)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60012E5")]
-		[Address(RVA = "0x5053B90", Offset = "0x5053B90", VA = "0x5053B90")]
+		[Address(RVA = "0x3D396B0", Offset = "0x3D396B0", VA = "0x3D396B0")]
 		public WorkStealingQueue()
 		{
 		}
@@ -120,41 +127,41 @@ internal sealed class ThreadPoolWorkQueue
 		public QueueSegment Next;
 
 		[Token(Token = "0x60012E6")]
-		[Address(RVA = "0x5053C20", Offset = "0x5053C20", VA = "0x5053C20")]
+		[Address(RVA = "0x3D39740", Offset = "0x3D39740", VA = "0x3D39740")]
 		private void GetIndexes(out int upper, out int lower)
 		{
 		}
 
 		[Token(Token = "0x60012E7")]
-		[Address(RVA = "0x5053C50", Offset = "0x5053C50", VA = "0x5053C50")]
+		[Address(RVA = "0x3D39770", Offset = "0x3D39770", VA = "0x3D39770")]
 		private bool CompareExchangeIndexes(ref int prevUpper, int newUpper, ref int prevLower, int newLower)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60012E8")]
-		[Address(RVA = "0x5051820", Offset = "0x5051820", VA = "0x5051820")]
+		[Address(RVA = "0x3D37340", Offset = "0x3D37340", VA = "0x3D37340")]
 		[ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
 		public QueueSegment()
 		{
 		}
 
 		[Token(Token = "0x60012E9")]
-		[Address(RVA = "0x50530E0", Offset = "0x50530E0", VA = "0x50530E0")]
+		[Address(RVA = "0x3D38C00", Offset = "0x3D38C00", VA = "0x3D38C00")]
 		public bool IsUsedUp()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60012EA")]
-		[Address(RVA = "0x50524B0", Offset = "0x50524B0", VA = "0x50524B0")]
+		[Address(RVA = "0x3D37FD0", Offset = "0x3D37FD0", VA = "0x3D37FD0")]
 		public bool TryEnqueue(System.Threading.IThreadPoolWorkItem node)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60012EB")]
-		[Address(RVA = "0x5052F70", Offset = "0x5052F70", VA = "0x5052F70")]
+		[Address(RVA = "0x3D38A90", Offset = "0x3D38A90", VA = "0x3D38A90")]
 		public bool TryDequeue(out System.Threading.IThreadPoolWorkItem node)
 		{
 			return default(bool);
@@ -178,51 +185,51 @@ internal sealed class ThreadPoolWorkQueue
 	private int numOutstandingThreadRequests;
 
 	[Token(Token = "0x60012D3")]
-	[Address(RVA = "0x5051760", Offset = "0x5051760", VA = "0x5051760")]
+	[Address(RVA = "0x3D37280", Offset = "0x3D37280", VA = "0x3D37280")]
 	public ThreadPoolWorkQueue()
 	{
 	}
 
 	[Token(Token = "0x60012D4")]
-	[Address(RVA = "0x5051880", Offset = "0x5051880", VA = "0x5051880")]
+	[Address(RVA = "0x3D373A0", Offset = "0x3D373A0", VA = "0x3D373A0")]
 	public System.Threading.ThreadPoolWorkQueueThreadLocals EnsureCurrentThreadHasQueue()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60012D5")]
-	[Address(RVA = "0x5051A30", Offset = "0x5051A30", VA = "0x5051A30")]
+	[Address(RVA = "0x3D37550", Offset = "0x3D37550", VA = "0x3D37550")]
 	internal void EnsureThreadRequested()
 	{
 	}
 
 	[Token(Token = "0x60012D6")]
-	[Address(RVA = "0x5051AE0", Offset = "0x5051AE0", VA = "0x5051AE0")]
+	[Address(RVA = "0x3D37600", Offset = "0x3D37600", VA = "0x3D37600")]
 	internal void MarkThreadRequestSatisfied()
 	{
 	}
 
 	[Token(Token = "0x60012D7")]
-	[Address(RVA = "0x5051B30", Offset = "0x5051B30", VA = "0x5051B30")]
+	[Address(RVA = "0x3D37650", Offset = "0x3D37650", VA = "0x3D37650")]
 	public void Enqueue(System.Threading.IThreadPoolWorkItem callback, bool forceGlobal)
 	{
 	}
 
 	[Token(Token = "0x60012D8")]
-	[Address(RVA = "0x5052570", Offset = "0x5052570", VA = "0x5052570")]
+	[Address(RVA = "0x3D38090", Offset = "0x3D38090", VA = "0x3D38090")]
 	internal bool LocalFindAndPop(System.Threading.IThreadPoolWorkItem callback)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012D9")]
-	[Address(RVA = "0x50529A0", Offset = "0x50529A0", VA = "0x50529A0")]
+	[Address(RVA = "0x3D384C0", Offset = "0x3D384C0", VA = "0x3D384C0")]
 	public void Dequeue(System.Threading.ThreadPoolWorkQueueThreadLocals tl, out System.Threading.IThreadPoolWorkItem callback, out bool missedSteal)
 	{
 	}
 
 	[Token(Token = "0x60012DA")]
-	[Address(RVA = "0x5053130", Offset = "0x5053130", VA = "0x5053130")]
+	[Address(RVA = "0x3D38C50", Offset = "0x3D38C50", VA = "0x3D38C50")]
 	internal static bool Dispatch()
 	{
 		return default(bool);

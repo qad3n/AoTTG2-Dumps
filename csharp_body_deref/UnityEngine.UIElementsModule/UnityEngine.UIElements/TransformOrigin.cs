@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.TransformOrigin
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -25,7 +32,7 @@ public struct TransformOrigin : IEquatable<TransformOrigin>
 			public override string Name
 			{
 				[Token(Token = "0x600171B")]
-				[Address(RVA = "0x4D8A3A0", Offset = "0x4D8A3A0", VA = "0x4D8A3A0", Slot = "7")]
+				[Address(RVA = "0x50B1CD0", Offset = "0x50B1CD0", VA = "0x50B1CD0", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -34,7 +41,7 @@ public struct TransformOrigin : IEquatable<TransformOrigin>
 			}
 
 			[Token(Token = "0x600171C")]
-			[Address(RVA = "0x4D8A280", Offset = "0x4D8A280", VA = "0x4D8A280")]
+			[Address(RVA = "0x50B1BB0", Offset = "0x50B1BB0", VA = "0x50B1BB0")]
 			public XProperty()
 			{
 			}
@@ -53,7 +60,7 @@ public struct TransformOrigin : IEquatable<TransformOrigin>
 			public override string Name
 			{
 				[Token(Token = "0x600171D")]
-				[Address(RVA = "0x4D8A3B0", Offset = "0x4D8A3B0", VA = "0x4D8A3B0", Slot = "7")]
+				[Address(RVA = "0x50B1CE0", Offset = "0x50B1CE0", VA = "0x50B1CE0", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -62,7 +69,7 @@ public struct TransformOrigin : IEquatable<TransformOrigin>
 			}
 
 			[Token(Token = "0x600171E")]
-			[Address(RVA = "0x4D8A2E0", Offset = "0x4D8A2E0", VA = "0x4D8A2E0")]
+			[Address(RVA = "0x50B1C10", Offset = "0x50B1C10", VA = "0x50B1C10")]
 			public YProperty()
 			{
 			}
@@ -81,7 +88,7 @@ public struct TransformOrigin : IEquatable<TransformOrigin>
 			public override string Name
 			{
 				[Token(Token = "0x600171F")]
-				[Address(RVA = "0x4D8A3C0", Offset = "0x4D8A3C0", VA = "0x4D8A3C0", Slot = "7")]
+				[Address(RVA = "0x50B1CF0", Offset = "0x50B1CF0", VA = "0x50B1CF0", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -90,14 +97,14 @@ public struct TransformOrigin : IEquatable<TransformOrigin>
 			}
 
 			[Token(Token = "0x6001720")]
-			[Address(RVA = "0x4D8A340", Offset = "0x4D8A340", VA = "0x4D8A340")]
+			[Address(RVA = "0x50B1C70", Offset = "0x50B1C70", VA = "0x50B1C70")]
 			public ZProperty()
 			{
 			}
 		}
 
 		[Token(Token = "0x600171A")]
-		[Address(RVA = "0x4D8A060", Offset = "0x4D8A060", VA = "0x4D8A060")]
+		[Address(RVA = "0x50B1990", Offset = "0x50B1990", VA = "0x50B1990")]
 		public PropertyBag()
 		{
 		}
@@ -119,13 +126,13 @@ public struct TransformOrigin : IEquatable<TransformOrigin>
 	public Length x
 	{
 		[Token(Token = "0x600170F")]
-		[Address(RVA = "0x4D89D00", Offset = "0x4D89D00", VA = "0x4D89D00")]
+		[Address(RVA = "0x50B1630", Offset = "0x50B1630", VA = "0x50B1630")]
 		get
 		{
 			return default(Length);
 		}
 		[Token(Token = "0x6001710")]
-		[Address(RVA = "0x4D89D10", Offset = "0x4D89D10", VA = "0x4D89D10")]
+		[Address(RVA = "0x50B1640", Offset = "0x50B1640", VA = "0x50B1640")]
 		set
 		{
 		}
@@ -135,13 +142,13 @@ public struct TransformOrigin : IEquatable<TransformOrigin>
 	public Length y
 	{
 		[Token(Token = "0x6001711")]
-		[Address(RVA = "0x4D89D20", Offset = "0x4D89D20", VA = "0x4D89D20")]
+		[Address(RVA = "0x50B1650", Offset = "0x50B1650", VA = "0x50B1650")]
 		get
 		{
 			return default(Length);
 		}
 		[Token(Token = "0x6001712")]
-		[Address(RVA = "0x4D89D30", Offset = "0x4D89D30", VA = "0x4D89D30")]
+		[Address(RVA = "0x50B1660", Offset = "0x50B1660", VA = "0x50B1660")]
 		set
 		{
 		}
@@ -151,7 +158,7 @@ public struct TransformOrigin : IEquatable<TransformOrigin>
 	public float z
 	{
 		[Token(Token = "0x6001713")]
-		[Address(RVA = "0x4D89D40", Offset = "0x4D89D40", VA = "0x4D89D40")]
+		[Address(RVA = "0x50B1670", Offset = "0x50B1670", VA = "0x50B1670")]
 		get
 		{
 			return default(float);
@@ -159,55 +166,55 @@ public struct TransformOrigin : IEquatable<TransformOrigin>
 	}
 
 	[Token(Token = "0x600170D")]
-	[Address(RVA = "0x4D89CD0", Offset = "0x4D89CD0", VA = "0x4D89CD0")]
+	[Address(RVA = "0x50B1600", Offset = "0x50B1600", VA = "0x50B1600")]
 	public TransformOrigin(Length x, Length y, float z)
 	{
 	}
 
 	[Token(Token = "0x600170E")]
-	[Address(RVA = "0x4D89CE0", Offset = "0x4D89CE0", VA = "0x4D89CE0")]
+	[Address(RVA = "0x50B1610", Offset = "0x50B1610", VA = "0x50B1610")]
 	public static TransformOrigin Initial()
 	{
 		return default(TransformOrigin);
 	}
 
 	[Token(Token = "0x6001714")]
-	[Address(RVA = "0x4D835B0", Offset = "0x4D835B0", VA = "0x4D835B0")]
+	[Address(RVA = "0x50AAEE0", Offset = "0x50AAEE0", VA = "0x50AAEE0")]
 	public static bool operator ==(TransformOrigin lhs, TransformOrigin rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001715")]
-	[Address(RVA = "0x4D89D50", Offset = "0x4D89D50", VA = "0x4D89D50")]
+	[Address(RVA = "0x50B1680", Offset = "0x50B1680", VA = "0x50B1680")]
 	public static bool operator !=(TransformOrigin lhs, TransformOrigin rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001716")]
-	[Address(RVA = "0x4D89DC0", Offset = "0x4D89DC0", VA = "0x4D89DC0", Slot = "4")]
+	[Address(RVA = "0x50B16F0", Offset = "0x50B16F0", VA = "0x50B16F0", Slot = "4")]
 	public bool Equals(TransformOrigin other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001717")]
-	[Address(RVA = "0x4D89E20", Offset = "0x4D89E20", VA = "0x4D89E20", Slot = "0")]
+	[Address(RVA = "0x50B1750", Offset = "0x50B1750", VA = "0x50B1750", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001718")]
-	[Address(RVA = "0x4D83C30", Offset = "0x4D83C30", VA = "0x4D83C30", Slot = "2")]
+	[Address(RVA = "0x50AB560", Offset = "0x50AB560", VA = "0x50AB560", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001719")]
-	[Address(RVA = "0x4D89ED0", Offset = "0x4D89ED0", VA = "0x4D89ED0", Slot = "3")]
+	[Address(RVA = "0x50B1800", Offset = "0x50B1800", VA = "0x50B1800", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

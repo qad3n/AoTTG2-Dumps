@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Gisketch.Aottg2UI.Game.AottgEditCharacterDialog
+// Update status: CHANGED in this game update
+// Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgEditCharacterDialog.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Gisketch.Aottg2UI.Actions;
 using Gisketch.Aottg2UI.Code;
@@ -7,358 +14,382 @@ using SimpleJSONFixed;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000166")]
+[Token(Token = "0x2000198")]
 [AottgDialog("profile-edit-character")]
 public sealed class AottgEditCharacterDialog : AottgDialog
 {
-	[Token(Token = "0x4000834")]
+	[Token(Token = "0x40008F5")]
 	public const string Id = "profile-edit-character";
 
-	[Token(Token = "0x4000835")]
+	[Token(Token = "0x40008F6")]
 	public const string NameInputId = "profile-character-name";
 
-	[Token(Token = "0x4000836")]
+	[Token(Token = "0x40008F7")]
 	public const string GuildInputId = "profile-character-guild";
 
-	[Token(Token = "0x4000837")]
+	[Token(Token = "0x40008F8")]
 	public const string PresetGuildSelectId = "profile-character-preset-guild";
 
-	[Token(Token = "0x4000838")]
+	[Token(Token = "0x40008F9")]
 	public const string NameEffectPrefix = "profile-character-name-effect";
 
-	[Token(Token = "0x4000839")]
+	[Token(Token = "0x40008FA")]
 	public const string GuildEffectPrefix = "profile-character-guild-effect";
 
-	[Token(Token = "0x400083A")]
+	[Token(Token = "0x40008FB")]
+	private const string NoGuild = "__none";
+
+	[Token(Token = "0x40008FC")]
+	private const string NoGuildLabel = "None";
+
+	[Token(Token = "0x40008FD")]
 	private const string CustomGuild = "Custom";
 
-	[Token(Token = "0x400083B")]
+	[Token(Token = "0x40008FE")]
 	private const string BadgePrefix = "profile-character-badge-";
 
-	[Token(Token = "0x400083C")]
+	[Token(Token = "0x40008FF")]
 	private const float FormPanelWidth = 640f;
 
-	[Token(Token = "0x400083D")]
+	[Token(Token = "0x4000900")]
 	private const float PreviewPanelWidth = 420f;
 
-	[Token(Token = "0x400083E")]
+	[Token(Token = "0x4000901")]
 	private const float SplitGap = 24f;
 
-	[Token(Token = "0x400083F")]
+	[Token(Token = "0x4000902")]
 	[FieldOffset(Offset = "0x0")]
 	private static string _selectedGuildPresetId;
 
-	[Token(Token = "0x4000840")]
+	[Token(Token = "0x4000903")]
 	[FieldOffset(Offset = "0x8")]
+	private static bool _noGuildSelected;
+
+	[Token(Token = "0x4000904")]
+	[FieldOffset(Offset = "0x9")]
 	private static bool _nameEffectEnabled;
 
-	[Token(Token = "0x4000841")]
-	[FieldOffset(Offset = "0x9")]
+	[Token(Token = "0x4000905")]
+	[FieldOffset(Offset = "0xA")]
 	private static bool _guildEffectEnabled;
 
-	[Token(Token = "0x4000842")]
+	[Token(Token = "0x4000906")]
 	[FieldOffset(Offset = "0x10")]
 	private static string _nameEffectType;
 
-	[Token(Token = "0x4000843")]
+	[Token(Token = "0x4000907")]
 	[FieldOffset(Offset = "0x18")]
 	private static string _guildEffectType;
 
-	[Token(Token = "0x4000844")]
+	[Token(Token = "0x4000908")]
 	[FieldOffset(Offset = "0x20")]
 	private static string _nameFont;
 
-	[Token(Token = "0x4000845")]
+	[Token(Token = "0x4000909")]
 	[FieldOffset(Offset = "0x28")]
 	private static string _guildFont;
 
-	[Token(Token = "0x4000846")]
+	[Token(Token = "0x400090A")]
 	[FieldOffset(Offset = "0x30")]
 	private static readonly HashSet<string> SelectedBadges;
 
-	[Token(Token = "0x170000EB")]
+	[Token(Token = "0x17000141")]
 	protected override string Title
 	{
-		[Token(Token = "0x600081E")]
-		[Address(RVA = "0x40E0390", Offset = "0x40E0390", VA = "0x40E0390", Slot = "4")]
+		[Token(Token = "0x6000992")]
+		[Address(RVA = "0x4412920", Offset = "0x4412920", VA = "0x4412920", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000EC")]
+	[Token(Token = "0x17000142")]
 	protected override string TitleIcon
 	{
-		[Token(Token = "0x600081F")]
-		[Address(RVA = "0x40E03C0", Offset = "0x40E03C0", VA = "0x40E03C0", Slot = "5")]
+		[Token(Token = "0x6000993")]
+		[Address(RVA = "0x4412950", Offset = "0x4412950", VA = "0x4412950", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000ED")]
+	[Token(Token = "0x17000143")]
 	protected override string RootStyle
 	{
-		[Token(Token = "0x6000820")]
-		[Address(RVA = "0x40E03F0", Offset = "0x40E03F0", VA = "0x40E03F0", Slot = "6")]
+		[Token(Token = "0x6000994")]
+		[Address(RVA = "0x4412980", Offset = "0x4412980", VA = "0x4412980", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000EE")]
+	[Token(Token = "0x17000144")]
 	protected override string BodyStyle
 	{
-		[Token(Token = "0x6000821")]
-		[Address(RVA = "0x40E0420", Offset = "0x40E0420", VA = "0x40E0420", Slot = "8")]
+		[Token(Token = "0x6000995")]
+		[Address(RVA = "0x44129B0", Offset = "0x44129B0", VA = "0x44129B0", Slot = "8")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000EF")]
+	[Token(Token = "0x17000145")]
 	protected override bool BodyScrollable
 	{
-		[Token(Token = "0x6000822")]
-		[Address(RVA = "0x40E0450", Offset = "0x40E0450", VA = "0x40E0450", Slot = "11")]
+		[Token(Token = "0x6000996")]
+		[Address(RVA = "0x44129E0", Offset = "0x44129E0", VA = "0x44129E0", Slot = "12")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170000F0")]
+	[Token(Token = "0x17000146")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x6000823")]
-		[Address(RVA = "0x40E0460", Offset = "0x40E0460", VA = "0x40E0460", Slot = "13")]
+		[Token(Token = "0x6000997")]
+		[Address(RVA = "0x44129F0", Offset = "0x44129F0", VA = "0x44129F0", Slot = "14")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000F1")]
+	[Token(Token = "0x17000147")]
 	protected override GisketchLayoutDefinition BodyLayout
 	{
-		[Token(Token = "0x6000824")]
-		[Address(RVA = "0x40E0530", Offset = "0x40E0530", VA = "0x40E0530", Slot = "15")]
+		[Token(Token = "0x6000998")]
+		[Address(RVA = "0x4412AC0", Offset = "0x4412AC0", VA = "0x4412AC0", Slot = "16")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000825")]
-	[Address(RVA = "0x40E05F0", Offset = "0x40E05F0", VA = "0x40E05F0", Slot = "17")]
+	[Token(Token = "0x6000999")]
+	[Address(RVA = "0x4412B80", Offset = "0x4412B80", VA = "0x4412B80", Slot = "18")]
 	protected override void BuildHeader(AottgUi header)
 	{
 	}
 
-	[Token(Token = "0x6000826")]
-	[Address(RVA = "0x40E0600", Offset = "0x40E0600", VA = "0x40E0600", Slot = "18")]
+	[Token(Token = "0x600099A")]
+	[Address(RVA = "0x4412B90", Offset = "0x4412B90", VA = "0x4412B90", Slot = "19")]
 	protected override void BuildBody(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x6000827")]
-	[Address(RVA = "0x40E1B00", Offset = "0x40E1B00", VA = "0x40E1B00", Slot = "19")]
+	[Token(Token = "0x600099B")]
+	[Address(RVA = "0x4414160", Offset = "0x4414160", VA = "0x4414160", Slot = "20")]
 	protected override void BuildFooter(AottgDialogFooter footer)
 	{
 	}
 
-	[Token(Token = "0x6000828")]
-	[Address(RVA = "0x40E1B10", Offset = "0x40E1B10", VA = "0x40E1B10")]
+	[Token(Token = "0x600099C")]
+	[Address(RVA = "0x44039E0", Offset = "0x44039E0", VA = "0x44039E0")]
 	public static string SelectedGuildPresetId()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000829")]
-	[Address(RVA = "0x40E1B80", Offset = "0x40E1B80", VA = "0x40E1B80")]
+	[Token(Token = "0x600099D")]
+	[Address(RVA = "0x4414170", Offset = "0x4414170", VA = "0x4414170")]
+	public static bool NoGuildSelected()
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x600099E")]
+	[Address(RVA = "0x4403A80", Offset = "0x4403A80", VA = "0x4403A80")]
 	public static IEnumerable<string> SelectedBadgeIds()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600082A")]
-	[Address(RVA = "0x40E2250", Offset = "0x40E2250", VA = "0x40E2250")]
+	[Token(Token = "0x600099F")]
+	[Address(RVA = "0x4404720", Offset = "0x4404720", VA = "0x4404720")]
 	public static bool NameEffectEnabled()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600082B")]
-	[Address(RVA = "0x40E2380", Offset = "0x40E2380", VA = "0x40E2380")]
+	[Token(Token = "0x60009A0")]
+	[Address(RVA = "0x44046A0", Offset = "0x44046A0", VA = "0x44046A0")]
 	public static bool GuildEffectEnabled()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600082C")]
-	[Address(RVA = "0x40E2400", Offset = "0x40E2400", VA = "0x40E2400")]
+	[Token(Token = "0x60009A1")]
+	[Address(RVA = "0x44048B0", Offset = "0x44048B0", VA = "0x44048B0")]
 	public static string NameEffectType()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600082D")]
-	[Address(RVA = "0x40E2510", Offset = "0x40E2510", VA = "0x40E2510")]
+	[Token(Token = "0x60009A2")]
+	[Address(RVA = "0x44047A0", Offset = "0x44047A0", VA = "0x44047A0")]
 	public static string GuildEffectType()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600082E")]
-	[Address(RVA = "0x40E2620", Offset = "0x40E2620", VA = "0x40E2620")]
+	[Token(Token = "0x60009A3")]
+	[Address(RVA = "0x4403C10", Offset = "0x4403C10", VA = "0x4403C10")]
 	public static string NameFont()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600082F")]
-	[Address(RVA = "0x40E26D0", Offset = "0x40E26D0", VA = "0x40E26D0")]
+	[Token(Token = "0x60009A4")]
+	[Address(RVA = "0x4403CC0", Offset = "0x4403CC0", VA = "0x4403CC0")]
 	public static string GuildFont()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000830")]
-	[Address(RVA = "0x40E22C0", Offset = "0x40E22C0", VA = "0x40E22C0")]
+	[Token(Token = "0x60009A5")]
+	[Address(RVA = "0x4405780", Offset = "0x4405780", VA = "0x4405780")]
 	internal static bool EffectEnabled(string prefix)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000831")]
-	[Address(RVA = "0x40E2780", Offset = "0x40E2780", VA = "0x40E2780")]
+	[Token(Token = "0x60009A6")]
+	[Address(RVA = "0x4405880", Offset = "0x4405880", VA = "0x4405880")]
 	internal static string EffectType(string prefix)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000832")]
-	[Address(RVA = "0x40E2870", Offset = "0x40E2870", VA = "0x40E2870")]
+	[Token(Token = "0x60009A7")]
+	[Address(RVA = "0x4405970", Offset = "0x4405970", VA = "0x4405970")]
 	internal static string EffectColor(string prefix, int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000833")]
-	[Address(RVA = "0x40E29E0", Offset = "0x40E29E0", VA = "0x40E29E0")]
+	[Token(Token = "0x60009A8")]
+	[Address(RVA = "0x4408F90", Offset = "0x4408F90", VA = "0x4408F90")]
 	internal static void SetEffect(string prefix, bool enabled, string type)
 	{
 	}
 
-	[Token(Token = "0x6000834")]
-	[Address(RVA = "0x40E2AF0", Offset = "0x40E2AF0", VA = "0x40E2AF0")]
+	[Token(Token = "0x60009A9")]
+	[Address(RVA = "0x4405710", Offset = "0x4405710", VA = "0x4405710")]
 	internal static string Font(string prefix)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000835")]
-	[Address(RVA = "0x40E2B60", Offset = "0x40E2B60", VA = "0x40E2B60")]
+	[Token(Token = "0x60009AA")]
+	[Address(RVA = "0x4406CD0", Offset = "0x4406CD0", VA = "0x4406CD0")]
 	internal static void SetFont(string prefix, string font)
 	{
 	}
 
-	[Token(Token = "0x6000836")]
-	[Address(RVA = "0x40E2C30", Offset = "0x40E2C30", VA = "0x40E2C30")]
+	[Token(Token = "0x60009AB")]
+	[Address(RVA = "0x44141E0", Offset = "0x44141E0", VA = "0x44141E0")]
 	private static void RefreshPreview(GisketchActionContext context)
 	{
 	}
 
-	[Token(Token = "0x6000837")]
-	[Address(RVA = "0x40E2C90", Offset = "0x40E2C90", VA = "0x40E2C90")]
+	[Token(Token = "0x60009AC")]
+	[Address(RVA = "0x4414230", Offset = "0x4414230", VA = "0x4414230")]
 	private static void PresetGuild(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x6000838")]
-	[Address(RVA = "0x40E2FB0", Offset = "0x40E2FB0", VA = "0x40E2FB0")]
+	[Token(Token = "0x60009AD")]
+	[Address(RVA = "0x4414440", Offset = "0x4414440", VA = "0x4414440")]
 	private static void Badges(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x6000839")]
-	[Address(RVA = "0x40E2980", Offset = "0x40E2980", VA = "0x40E2980")]
+	[Token(Token = "0x60009AE")]
+	[Address(RVA = "0x4404F90", Offset = "0x4404F90", VA = "0x4404F90")]
 	public static string ColorInputId(string prefix, int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600083A")]
-	[Address(RVA = "0x40E0A80", Offset = "0x40E0A80", VA = "0x40E0A80")]
+	[Token(Token = "0x60009AF")]
+	[Address(RVA = "0x4412FA0", Offset = "0x4412FA0", VA = "0x4412FA0")]
 	private static void InitializeSelection(JSONNode info)
 	{
 	}
 
-	[Token(Token = "0x600083B")]
-	[Address(RVA = "0x40E3D40", Offset = "0x40E3D40", VA = "0x40E3D40")]
+	[Token(Token = "0x60009B0")]
+	[Address(RVA = "0x4414B40", Offset = "0x4414B40", VA = "0x4414B40")]
 	private static void SelectPresetGuild(GisketchActionContext context)
 	{
 	}
 
-	[Token(Token = "0x600083C")]
-	[Address(RVA = "0x40E4050", Offset = "0x40E4050", VA = "0x40E4050")]
+	[Token(Token = "0x60009B1")]
+	[Address(RVA = "0x4415000", Offset = "0x4415000", VA = "0x4415000")]
 	private static void ToggleBadge(GisketchActionContext context)
 	{
 	}
 
-	[Token(Token = "0x600083D")]
-	[Address(RVA = "0x40E3FE0", Offset = "0x40E3FE0", VA = "0x40E3FE0")]
+	[Token(Token = "0x60009B2")]
+	[Address(RVA = "0x4414F90", Offset = "0x4414F90", VA = "0x4414F90")]
 	private static void SetState(GisketchActionContext context, string key, bool value)
 	{
 	}
 
-	[Token(Token = "0x600083E")]
-	[Address(RVA = "0x40E4240", Offset = "0x40E4240", VA = "0x40E4240")]
+	[Token(Token = "0x60009B3")]
+	[Address(RVA = "0x44151F0", Offset = "0x44151F0", VA = "0x44151F0")]
 	private static string SelectedPresetGuildValue()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600083F")]
-	[Address(RVA = "0x40E42E0", Offset = "0x40E42E0", VA = "0x40E42E0")]
+	[Token(Token = "0x60009B4")]
+	[Address(RVA = "0x44152E0", Offset = "0x44152E0", VA = "0x44152E0")]
 	private static GisketchChoiceOptionDefinition[] PresetGuildOptions()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000840")]
-	[Address(RVA = "0x40E3F70", Offset = "0x40E3F70", VA = "0x40E3F70")]
+	[Token(Token = "0x60009B5")]
+	[Address(RVA = "0x4414E70", Offset = "0x4414E70", VA = "0x4414E70")]
 	private static string PresetGuildId(string value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000841")]
-	[Address(RVA = "0x40E48F0", Offset = "0x40E48F0", VA = "0x40E48F0")]
+	[Token(Token = "0x60009B6")]
+	[Address(RVA = "0x4414F00", Offset = "0x4414F00", VA = "0x4414F00")]
+	private static bool CustomGuildSelected()
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x60009B7")]
+	[Address(RVA = "0x4415970", Offset = "0x4415970", VA = "0x4415970")]
 	private static GisketchLayoutDefinition ChoiceRowLayout()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000842")]
-	[Address(RVA = "0x40E33A0", Offset = "0x40E33A0", VA = "0x40E33A0")]
+	[Token(Token = "0x60009B8")]
+	[Address(RVA = "0x44147D0", Offset = "0x44147D0", VA = "0x44147D0")]
 	private static void RegisterEffectColors(string prefix, JSONNode effect)
 	{
 	}
 
-	[Token(Token = "0x6000843")]
-	[Address(RVA = "0x40E49C0", Offset = "0x40E49C0", VA = "0x40E49C0")]
+	[Token(Token = "0x60009B9")]
+	[Address(RVA = "0x4415A40", Offset = "0x4415A40", VA = "0x4415A40")]
 	private static string ColorValue(JSONNode effect, int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000844")]
-	[Address(RVA = "0x40E4B10", Offset = "0x40E4B10", VA = "0x40E4B10")]
+	[Token(Token = "0x60009BA")]
+	[Address(RVA = "0x4415B90", Offset = "0x4415B90", VA = "0x4415B90")]
 	public AottgEditCharacterDialog()
 	{
 	}

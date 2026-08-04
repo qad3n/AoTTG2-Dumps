@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.InterpretedFrameInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -14,13 +21,13 @@ internal readonly struct InterpretedFrameInfo
 	private readonly DebugInfo _debugInfo;
 
 	[Token(Token = "0x6000875")]
-	[Address(RVA = "0x41B5DD0", Offset = "0x41B5DD0", VA = "0x41B5DD0")]
+	[Address(RVA = "0x44DAED0", Offset = "0x44DAED0", VA = "0x44DAED0")]
 	public InterpretedFrameInfo(string methodName, DebugInfo info)
 	{
 	}
 
 	[Token(Token = "0x6000876")]
-	[Address(RVA = "0x41BA4A0", Offset = "0x41BA4A0", VA = "0x41BA4A0", Slot = "3")]
+	[Address(RVA = "0x44DF5A0", Offset = "0x44DF5A0", VA = "0x44DF5A0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

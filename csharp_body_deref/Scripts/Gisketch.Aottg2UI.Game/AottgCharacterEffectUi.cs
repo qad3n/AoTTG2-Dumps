@@ -1,80 +1,87 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Gisketch.Aottg2UI.Game.AottgCharacterEffectUi
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgCharacterEffectUi.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Gisketch.Aottg2UI.Data;
 using Il2CppDummyDll;
 using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000154")]
+[Token(Token = "0x2000186")]
 internal static class AottgCharacterEffectUi
 {
-	[Token(Token = "0x40007B7")]
+	[Token(Token = "0x4000878")]
 	public const string ColorMode = "Color";
 
-	[Token(Token = "0x40007B8")]
+	[Token(Token = "0x4000879")]
 	public const string ColorModeText = "Custom Color";
 
-	[Token(Token = "0x40007B9")]
+	[Token(Token = "0x400087A")]
 	public const string TwoColorGradientMode = "TwoColorGradient";
 
-	[Token(Token = "0x40007BA")]
+	[Token(Token = "0x400087B")]
 	public const string TwoColorGradientText = "Two-Color Gradient";
 
-	[Token(Token = "0x40007BB")]
+	[Token(Token = "0x400087C")]
 	public const string FourColorGradientMode = "FourColorGradient";
 
-	[Token(Token = "0x40007BC")]
+	[Token(Token = "0x400087D")]
 	public const string FourColorGradientText = "Four-Color Gradient";
 
-	[Token(Token = "0x40007BD")]
+	[Token(Token = "0x400087E")]
 	public const string SupporterTooltipKey = "MainMenu.Profile.SupporterOnlyFeature";
 
-	[Token(Token = "0x40007BE")]
+	[Token(Token = "0x400087F")]
 	public const string SupporterTooltip = "This feature is only available for supporters.";
 
-	[Token(Token = "0x6000742")]
-	[Address(RVA = "0x40CB360", Offset = "0x40CB360", VA = "0x40CB360")]
+	[Token(Token = "0x60008B5")]
+	[Address(RVA = "0x43FC840", Offset = "0x43FC840", VA = "0x43FC840")]
 	public static GisketchChoiceOptionDefinition[] Options(bool hasAccess)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000743")]
-	[Address(RVA = "0x40CB830", Offset = "0x40CB830", VA = "0x40CB830")]
+	[Token(Token = "0x60008B6")]
+	[Address(RVA = "0x43FCD10", Offset = "0x43FCD10", VA = "0x43FCD10")]
 	public static bool IsTextColorMode(string type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000744")]
-	[Address(RVA = "0x40CB8C0", Offset = "0x40CB8C0", VA = "0x40CB8C0")]
+	[Token(Token = "0x60008B7")]
+	[Address(RVA = "0x43FCDA0", Offset = "0x43FCDA0", VA = "0x43FCDA0")]
 	public static int GradientStops(string type)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000745")]
-	[Address(RVA = "0x40CB930", Offset = "0x40CB930", VA = "0x40CB930")]
+	[Token(Token = "0x60008B8")]
+	[Address(RVA = "0x43FCE10", Offset = "0x43FCE10", VA = "0x43FCE10")]
 	public static string SelectValue(bool hasAccess, bool enabled, string type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000746")]
-	[Address(RVA = "0x40CB9D0", Offset = "0x40CB9D0", VA = "0x40CB9D0")]
+	[Token(Token = "0x60008B9")]
+	[Address(RVA = "0x43FCEB0", Offset = "0x43FCEB0", VA = "0x43FCEB0")]
 	public static bool IsEffect(bool enabled, string type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000747")]
-	[Address(RVA = "0x40CBA30", Offset = "0x40CBA30", VA = "0x40CBA30")]
+	[Token(Token = "0x60008BA")]
+	[Address(RVA = "0x43FCF10", Offset = "0x43FCF10", VA = "0x43FCF10")]
 	public static string[] PresetColors(string type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000748")]
-	[Address(RVA = "0x40CBD00", Offset = "0x40CBD00", VA = "0x40CBD00")]
+	[Token(Token = "0x60008BB")]
+	[Address(RVA = "0x43FD1E0", Offset = "0x43FD1E0", VA = "0x43FD1E0")]
 	private static string Hex(Color color)
 	{
 		return null;

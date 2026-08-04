@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.UnaryOperatorHandler
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Reflection;
@@ -21,20 +28,20 @@ public abstract class UnaryOperatorHandler : OperatorHandler
 	private readonly Dictionary<Type, Type> userDefinedOperandTypes;
 
 	[Token(Token = "0x6000D31")]
-	[Address(RVA = "0x4A19A20", Offset = "0x4A19A20", VA = "0x4A19A20")]
+	[Address(RVA = "0x4D3E5F0", Offset = "0x4D3E5F0", VA = "0x4D3E5F0")]
 	protected UnaryOperatorHandler(string name, string verb, string symbol, string customMethodName)
 	{
 	}
 
 	[Token(Token = "0x6000D32")]
-	[Address(RVA = "0x4A19B60", Offset = "0x4A19B60", VA = "0x4A19B60")]
+	[Address(RVA = "0x4D3E730", Offset = "0x4D3E730", VA = "0x4D3E730")]
 	public object Operate(object operand)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D33")]
-	[Address(RVA = "0x4A1A090", Offset = "0x4A1A090", VA = "0x4A1A090", Slot = "4")]
+	[Address(RVA = "0x4D3EC60", Offset = "0x4D3EC60", VA = "0x4D3EC60", Slot = "4")]
 	protected virtual object CustomHandling(object operand)
 	{
 		return null;
@@ -46,7 +53,7 @@ public abstract class UnaryOperatorHandler : OperatorHandler
 	}
 
 	[Token(Token = "0x6000D35")]
-	[Address(RVA = "0x4A19FE0", Offset = "0x4A19FE0", VA = "0x4A19FE0")]
+	[Address(RVA = "0x4D3EBB0", Offset = "0x4D3EBB0", VA = "0x4D3EBB0")]
 	private static Type ResolveUserDefinedOperandType(MethodInfo userDefinedOperator)
 	{
 		return null;

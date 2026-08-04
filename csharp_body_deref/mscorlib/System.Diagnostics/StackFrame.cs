@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Diagnostics.StackFrame
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -53,87 +60,87 @@ public class StackFrame
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6002E68")]
-	[Address(RVA = "0x4F94D30", Offset = "0x4F94D30", VA = "0x4F94D30")]
+	[Address(RVA = "0x3C7A850", Offset = "0x3C7A850", VA = "0x3C7A850")]
 	private static extern bool get_frame_info(int skip, bool needFileInfo, out MethodBase method, out int iloffset, out int native_offset, out string file, out int line, out int column);
 
 	[Token(Token = "0x6002E69")]
-	[Address(RVA = "0x4F94D40", Offset = "0x4F94D40", VA = "0x4F94D40")]
+	[Address(RVA = "0x3C7A860", Offset = "0x3C7A860", VA = "0x3C7A860")]
 	public StackFrame()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x6002E6A")]
-	[Address(RVA = "0x4F94D80", Offset = "0x4F94D80", VA = "0x4F94D80")]
+	[Address(RVA = "0x3C7A8A0", Offset = "0x3C7A8A0", VA = "0x3C7A8A0")]
 	public StackFrame(int skipFrames, bool fNeedFileInfo)
 	{
 	}
 
 	[Token(Token = "0x6002E6B")]
-	[Address(RVA = "0x4F94DD0", Offset = "0x4F94DD0", VA = "0x4F94DD0", Slot = "4")]
+	[Address(RVA = "0x3C7A8F0", Offset = "0x3C7A8F0", VA = "0x3C7A8F0", Slot = "4")]
 	public virtual int GetFileLineNumber()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002E6C")]
-	[Address(RVA = "0x4F94DE0", Offset = "0x4F94DE0", VA = "0x4F94DE0", Slot = "5")]
+	[Address(RVA = "0x3C7A900", Offset = "0x3C7A900", VA = "0x3C7A900", Slot = "5")]
 	public virtual string GetFileName()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002E6D")]
-	[Address(RVA = "0x4F94DF0", Offset = "0x4F94DF0", VA = "0x4F94DF0")]
+	[Address(RVA = "0x3C7A910", Offset = "0x3C7A910", VA = "0x3C7A910")]
 	internal string GetSecureFileName()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002E6E")]
-	[Address(RVA = "0x4F94EC0", Offset = "0x4F94EC0", VA = "0x4F94EC0", Slot = "6")]
+	[Address(RVA = "0x3C7A9E0", Offset = "0x3C7A9E0", VA = "0x3C7A9E0", Slot = "6")]
 	public virtual int GetILOffset()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002E6F")]
-	[Address(RVA = "0x4F94ED0", Offset = "0x4F94ED0", VA = "0x4F94ED0", Slot = "7")]
+	[Address(RVA = "0x3C7A9F0", Offset = "0x3C7A9F0", VA = "0x3C7A9F0", Slot = "7")]
 	public virtual MethodBase GetMethod()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002E70")]
-	[Address(RVA = "0x4F94EE0", Offset = "0x4F94EE0", VA = "0x4F94EE0", Slot = "8")]
+	[Address(RVA = "0x3C7AA00", Offset = "0x3C7AA00", VA = "0x3C7AA00", Slot = "8")]
 	public virtual int GetNativeOffset()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002E71")]
-	[Address(RVA = "0x4F94EF0", Offset = "0x4F94EF0", VA = "0x4F94EF0")]
+	[Address(RVA = "0x3C7AA10", Offset = "0x3C7AA10", VA = "0x3C7AA10")]
 	internal long GetMethodAddress()
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6002E72")]
-	[Address(RVA = "0x4F94F00", Offset = "0x4F94F00", VA = "0x4F94F00")]
+	[Address(RVA = "0x3C7AA20", Offset = "0x3C7AA20", VA = "0x3C7AA20")]
 	internal uint GetMethodIndex()
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6002E73")]
-	[Address(RVA = "0x4F94F10", Offset = "0x4F94F10", VA = "0x4F94F10")]
+	[Address(RVA = "0x3C7AA30", Offset = "0x3C7AA30", VA = "0x3C7AA30")]
 	internal string GetInternalMethodName()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002E74")]
-	[Address(RVA = "0x4F94F20", Offset = "0x4F94F20", VA = "0x4F94F20", Slot = "3")]
+	[Address(RVA = "0x3C7AA40", Offset = "0x3C7AA40", VA = "0x3C7AA40", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

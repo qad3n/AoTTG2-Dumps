@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: CustomLogic.CustomLogicAudioSourceBuiltin
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/CustomLogic/CustomLogicAudioSourceBuiltin.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -5,248 +12,248 @@ using UnityEngine;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20002A4")]
+[Token(Token = "0x20002DD")]
 [CompilerGenerated]
 internal class CustomLogicAudioSourceBuiltin : BuiltinComponentInstance
 {
-	[Token(Token = "0x20002A5")]
+	[Token(Token = "0x20002DE")]
 	public static class Factory
 	{
-		[Token(Token = "0x600115D")]
-		[Address(RVA = "0x3CDF120", Offset = "0x3CDF120", VA = "0x3CDF120")]
+		[Token(Token = "0x6001307")]
+		[Address(RVA = "0x3FE4AA0", Offset = "0x3FE4AA0", VA = "0x3FE4AA0")]
 		public static CustomLogicAudioSourceBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x20002A6")]
+	[Token(Token = "0x20002DF")]
 	public static class Bindings
 	{
-		[Token(Token = "0x4000DDF")]
+		[Token(Token = "0x4000EC5")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x600115E")]
-		[Address(RVA = "0x3CDF210", Offset = "0x3CDF210", VA = "0x3CDF210")]
+		[Token(Token = "0x6001308")]
+		[Address(RVA = "0x3FE4B90", Offset = "0x3FE4B90", VA = "0x3FE4B90")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600115F")]
-		[Address(RVA = "0x3CDF670", Offset = "0x3CDF670", VA = "0x3CDF670")]
+		[Token(Token = "0x6001309")]
+		[Address(RVA = "0x3FE4FF0", Offset = "0x3FE4FF0", VA = "0x3FE4FF0")]
 		public static CLPropertyBinding<CustomLogicAudioSourceBuiltin> __CreatePropertyBinding__Volume()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001160")]
-		[Address(RVA = "0x3CDF750", Offset = "0x3CDF750", VA = "0x3CDF750")]
+		[Token(Token = "0x600130A")]
+		[Address(RVA = "0x3FE50D0", Offset = "0x3FE50D0", VA = "0x3FE50D0")]
 		public static CLPropertyBinding<CustomLogicAudioSourceBuiltin> __CreatePropertyBinding__Time()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001161")]
-		[Address(RVA = "0x3CDF830", Offset = "0x3CDF830", VA = "0x3CDF830")]
+		[Token(Token = "0x600130B")]
+		[Address(RVA = "0x3FE51B0", Offset = "0x3FE51B0", VA = "0x3FE51B0")]
 		public static CLPropertyBinding<CustomLogicAudioSourceBuiltin> __CreatePropertyBinding__Pitch()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001162")]
-		[Address(RVA = "0x3CDF910", Offset = "0x3CDF910", VA = "0x3CDF910")]
+		[Token(Token = "0x600130C")]
+		[Address(RVA = "0x3FE5290", Offset = "0x3FE5290", VA = "0x3FE5290")]
 		public static CLPropertyBinding<CustomLogicAudioSourceBuiltin> __CreatePropertyBinding__IsPlaying()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001163")]
-		[Address(RVA = "0x3CDF9B0", Offset = "0x3CDF9B0", VA = "0x3CDF9B0")]
+		[Token(Token = "0x600130D")]
+		[Address(RVA = "0x3FE5330", Offset = "0x3FE5330", VA = "0x3FE5330")]
 		public static CLMethodBinding<CustomLogicAudioSourceBuiltin> __CreateMethodBinding__Play()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001164")]
-		[Address(RVA = "0x3CDFB00", Offset = "0x3CDFB00", VA = "0x3CDFB00")]
+		[Token(Token = "0x600130E")]
+		[Address(RVA = "0x3FE5480", Offset = "0x3FE5480", VA = "0x3FE5480")]
 		public static CLMethodBinding<CustomLogicAudioSourceBuiltin> __CreateMethodBinding__PlayDelayed()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001165")]
-		[Address(RVA = "0x3CDFC50", Offset = "0x3CDFC50", VA = "0x3CDFC50")]
+		[Token(Token = "0x600130F")]
+		[Address(RVA = "0x3FE55D0", Offset = "0x3FE55D0", VA = "0x3FE55D0")]
 		public static CLMethodBinding<CustomLogicAudioSourceBuiltin> __CreateMethodBinding__Stop()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001166")]
-		[Address(RVA = "0x3CDFDA0", Offset = "0x3CDFDA0", VA = "0x3CDFDA0")]
+		[Token(Token = "0x6001310")]
+		[Address(RVA = "0x3FE5720", Offset = "0x3FE5720", VA = "0x3FE5720")]
 		public static CLMethodBinding<CustomLogicAudioSourceBuiltin> __CreateMethodBinding__Pause()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001167")]
-		[Address(RVA = "0x3CDFEF0", Offset = "0x3CDFEF0", VA = "0x3CDFEF0")]
+		[Token(Token = "0x6001311")]
+		[Address(RVA = "0x3FE5870", Offset = "0x3FE5870", VA = "0x3FE5870")]
 		public static CLMethodBinding<CustomLogicAudioSourceBuiltin> __CreateMethodBinding__Unpause()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x4000DDD")]
+	[Token(Token = "0x4000EC3")]
 	[FieldOffset(Offset = "0x38")]
 	public AudioSource Value;
 
-	[Token(Token = "0x4000DDE")]
+	[Token(Token = "0x4000EC4")]
 	[FieldOffset(Offset = "0x40")]
 	public BuiltinClassInstance OwnerBuiltin;
 
-	[Token(Token = "0x170001F2")]
+	[Token(Token = "0x1700024B")]
 	public float Volume
 	{
-		[Token(Token = "0x600114D")]
-		[Address(RVA = "0x3CDEF40", Offset = "0x3CDEF40", VA = "0x3CDEF40")]
+		[Token(Token = "0x60012F7")]
+		[Address(RVA = "0x3FE48C0", Offset = "0x3FE48C0", VA = "0x3FE48C0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x600114E")]
-		[Address(RVA = "0x3CDEF60", Offset = "0x3CDEF60", VA = "0x3CDEF60")]
+		[Token(Token = "0x60012F8")]
+		[Address(RVA = "0x3FE48E0", Offset = "0x3FE48E0", VA = "0x3FE48E0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001F3")]
+	[Token(Token = "0x1700024C")]
 	public float Time
 	{
-		[Token(Token = "0x600114F")]
-		[Address(RVA = "0x3CDEF80", Offset = "0x3CDEF80", VA = "0x3CDEF80")]
+		[Token(Token = "0x60012F9")]
+		[Address(RVA = "0x3FE4900", Offset = "0x3FE4900", VA = "0x3FE4900")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6001150")]
-		[Address(RVA = "0x3CDEFA0", Offset = "0x3CDEFA0", VA = "0x3CDEFA0")]
+		[Token(Token = "0x60012FA")]
+		[Address(RVA = "0x3FE4920", Offset = "0x3FE4920", VA = "0x3FE4920")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001F4")]
+	[Token(Token = "0x1700024D")]
 	public float Pitch
 	{
-		[Token(Token = "0x6001151")]
-		[Address(RVA = "0x3CDEFC0", Offset = "0x3CDEFC0", VA = "0x3CDEFC0")]
+		[Token(Token = "0x60012FB")]
+		[Address(RVA = "0x3FE4940", Offset = "0x3FE4940", VA = "0x3FE4940")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6001152")]
-		[Address(RVA = "0x3CDEFE0", Offset = "0x3CDEFE0", VA = "0x3CDEFE0")]
+		[Token(Token = "0x60012FC")]
+		[Address(RVA = "0x3FE4960", Offset = "0x3FE4960", VA = "0x3FE4960")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001F5")]
+	[Token(Token = "0x1700024E")]
 	public bool IsPlaying
 	{
-		[Token(Token = "0x6001153")]
-		[Address(RVA = "0x3CDF000", Offset = "0x3CDF000", VA = "0x3CDF000")]
+		[Token(Token = "0x60012FD")]
+		[Address(RVA = "0x3FE4980", Offset = "0x3FE4980", VA = "0x3FE4980")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170001F6")]
+	[Token(Token = "0x1700024F")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6001159")]
-		[Address(RVA = "0x3CDF0C0", Offset = "0x3CDF0C0", VA = "0x3CDF0C0", Slot = "4")]
+		[Token(Token = "0x6001303")]
+		[Address(RVA = "0x3FE4A40", Offset = "0x3FE4A40", VA = "0x3FE4A40", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001F7")]
+	[Token(Token = "0x17000250")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x600115A")]
-		[Address(RVA = "0x3CDF0F0", Offset = "0x3CDF0F0", VA = "0x3CDF0F0", Slot = "6")]
+		[Token(Token = "0x6001304")]
+		[Address(RVA = "0x3FE4A70", Offset = "0x3FE4A70", VA = "0x3FE4A70", Slot = "6")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170001F8")]
+	[Token(Token = "0x17000251")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x600115B")]
-		[Address(RVA = "0x3CDF100", Offset = "0x3CDF100", VA = "0x3CDF100", Slot = "7")]
+		[Token(Token = "0x6001305")]
+		[Address(RVA = "0x3FE4A80", Offset = "0x3FE4A80", VA = "0x3FE4A80", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170001F9")]
+	[Token(Token = "0x17000252")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x600115C")]
-		[Address(RVA = "0x3CDF110", Offset = "0x3CDF110", VA = "0x3CDF110", Slot = "8")]
+		[Token(Token = "0x6001306")]
+		[Address(RVA = "0x3FE4A90", Offset = "0x3FE4A90", VA = "0x3FE4A90", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600114B")]
-	[Address(RVA = "0x3CDEEA0", Offset = "0x3CDEEA0", VA = "0x3CDEEA0")]
+	[Token(Token = "0x60012F5")]
+	[Address(RVA = "0x3FE4820", Offset = "0x3FE4820", VA = "0x3FE4820")]
 	public CustomLogicAudioSourceBuiltin()
 	{
 	}
 
-	[Token(Token = "0x600114C")]
-	[Address(RVA = "0x3CDEEB0", Offset = "0x3CDEEB0", VA = "0x3CDEEB0")]
+	[Token(Token = "0x60012F6")]
+	[Address(RVA = "0x3FE4830", Offset = "0x3FE4830", VA = "0x3FE4830")]
 	public CustomLogicAudioSourceBuiltin(BuiltinClassInstance owner, AudioSource audioSource)
 	{
 	}
 
-	[Token(Token = "0x6001154")]
-	[Address(RVA = "0x3CDF020", Offset = "0x3CDF020", VA = "0x3CDF020")]
+	[Token(Token = "0x60012FE")]
+	[Address(RVA = "0x3FE49A0", Offset = "0x3FE49A0", VA = "0x3FE49A0")]
 	public void Play()
 	{
 	}
 
-	[Token(Token = "0x6001155")]
-	[Address(RVA = "0x3CDF040", Offset = "0x3CDF040", VA = "0x3CDF040")]
+	[Token(Token = "0x60012FF")]
+	[Address(RVA = "0x3FE49C0", Offset = "0x3FE49C0", VA = "0x3FE49C0")]
 	public void PlayDelayed(float seconds)
 	{
 	}
 
-	[Token(Token = "0x6001156")]
-	[Address(RVA = "0x3CDF060", Offset = "0x3CDF060", VA = "0x3CDF060")]
+	[Token(Token = "0x6001300")]
+	[Address(RVA = "0x3FE49E0", Offset = "0x3FE49E0", VA = "0x3FE49E0")]
 	public void Stop()
 	{
 	}
 
-	[Token(Token = "0x6001157")]
-	[Address(RVA = "0x3CDF080", Offset = "0x3CDF080", VA = "0x3CDF080")]
+	[Token(Token = "0x6001301")]
+	[Address(RVA = "0x3FE4A00", Offset = "0x3FE4A00", VA = "0x3FE4A00")]
 	public void Pause()
 	{
 	}
 
-	[Token(Token = "0x6001158")]
-	[Address(RVA = "0x3CDF0A0", Offset = "0x3CDF0A0", VA = "0x3CDF0A0")]
+	[Token(Token = "0x6001302")]
+	[Address(RVA = "0x3FE4A20", Offset = "0x3FE4A20", VA = "0x3FE4A20")]
 	public void Unpause()
 	{
 	}

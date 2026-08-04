@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.RightShiftInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -9,14 +16,14 @@ internal abstract class RightShiftInstruction : Instruction
 	private sealed class RightShiftSByte : RightShiftInstruction
 	{
 		[Token(Token = "0x6000A97")]
-		[Address(RVA = "0x41DCB70", Offset = "0x41DCB70", VA = "0x41DCB70", Slot = "8")]
+		[Address(RVA = "0x4501C70", Offset = "0x4501C70", VA = "0x4501C70", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A98")]
-		[Address(RVA = "0x41DCAF0", Offset = "0x41DCAF0", VA = "0x41DCAF0")]
+		[Address(RVA = "0x4501BF0", Offset = "0x4501BF0", VA = "0x4501BF0")]
 		public RightShiftSByte()
 		{
 		}
@@ -26,14 +33,14 @@ internal abstract class RightShiftInstruction : Instruction
 	private sealed class RightShiftInt16 : RightShiftInstruction
 	{
 		[Token(Token = "0x6000A99")]
-		[Address(RVA = "0x41DCC20", Offset = "0x41DCC20", VA = "0x41DCC20", Slot = "8")]
+		[Address(RVA = "0x4501D20", Offset = "0x4501D20", VA = "0x4501D20", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A9A")]
-		[Address(RVA = "0x41DCB00", Offset = "0x41DCB00", VA = "0x41DCB00")]
+		[Address(RVA = "0x4501C00", Offset = "0x4501C00", VA = "0x4501C00")]
 		public RightShiftInt16()
 		{
 		}
@@ -43,14 +50,14 @@ internal abstract class RightShiftInstruction : Instruction
 	private sealed class RightShiftInt32 : RightShiftInstruction
 	{
 		[Token(Token = "0x6000A9B")]
-		[Address(RVA = "0x41DCCD0", Offset = "0x41DCCD0", VA = "0x41DCCD0", Slot = "8")]
+		[Address(RVA = "0x4501DD0", Offset = "0x4501DD0", VA = "0x4501DD0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A9C")]
-		[Address(RVA = "0x41DCB10", Offset = "0x41DCB10", VA = "0x41DCB10")]
+		[Address(RVA = "0x4501C10", Offset = "0x4501C10", VA = "0x4501C10")]
 		public RightShiftInt32()
 		{
 		}
@@ -60,14 +67,14 @@ internal abstract class RightShiftInstruction : Instruction
 	private sealed class RightShiftInt64 : RightShiftInstruction
 	{
 		[Token(Token = "0x6000A9D")]
-		[Address(RVA = "0x41DCD80", Offset = "0x41DCD80", VA = "0x41DCD80", Slot = "8")]
+		[Address(RVA = "0x4501E80", Offset = "0x4501E80", VA = "0x4501E80", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A9E")]
-		[Address(RVA = "0x41DCB20", Offset = "0x41DCB20", VA = "0x41DCB20")]
+		[Address(RVA = "0x4501C20", Offset = "0x4501C20", VA = "0x4501C20")]
 		public RightShiftInt64()
 		{
 		}
@@ -77,14 +84,14 @@ internal abstract class RightShiftInstruction : Instruction
 	private sealed class RightShiftByte : RightShiftInstruction
 	{
 		[Token(Token = "0x6000A9F")]
-		[Address(RVA = "0x41DCE40", Offset = "0x41DCE40", VA = "0x41DCE40", Slot = "8")]
+		[Address(RVA = "0x4501F40", Offset = "0x4501F40", VA = "0x4501F40", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000AA0")]
-		[Address(RVA = "0x41DCB30", Offset = "0x41DCB30", VA = "0x41DCB30")]
+		[Address(RVA = "0x4501C30", Offset = "0x4501C30", VA = "0x4501C30")]
 		public RightShiftByte()
 		{
 		}
@@ -94,14 +101,14 @@ internal abstract class RightShiftInstruction : Instruction
 	private sealed class RightShiftUInt16 : RightShiftInstruction
 	{
 		[Token(Token = "0x6000AA1")]
-		[Address(RVA = "0x41DCF00", Offset = "0x41DCF00", VA = "0x41DCF00", Slot = "8")]
+		[Address(RVA = "0x4502000", Offset = "0x4502000", VA = "0x4502000", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000AA2")]
-		[Address(RVA = "0x41DCB40", Offset = "0x41DCB40", VA = "0x41DCB40")]
+		[Address(RVA = "0x4501C40", Offset = "0x4501C40", VA = "0x4501C40")]
 		public RightShiftUInt16()
 		{
 		}
@@ -111,14 +118,14 @@ internal abstract class RightShiftInstruction : Instruction
 	private sealed class RightShiftUInt32 : RightShiftInstruction
 	{
 		[Token(Token = "0x6000AA3")]
-		[Address(RVA = "0x41DCFC0", Offset = "0x41DCFC0", VA = "0x41DCFC0", Slot = "8")]
+		[Address(RVA = "0x45020C0", Offset = "0x45020C0", VA = "0x45020C0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000AA4")]
-		[Address(RVA = "0x41DCB50", Offset = "0x41DCB50", VA = "0x41DCB50")]
+		[Address(RVA = "0x4501C50", Offset = "0x4501C50", VA = "0x4501C50")]
 		public RightShiftUInt32()
 		{
 		}
@@ -128,14 +135,14 @@ internal abstract class RightShiftInstruction : Instruction
 	private sealed class RightShiftUInt64 : RightShiftInstruction
 	{
 		[Token(Token = "0x6000AA5")]
-		[Address(RVA = "0x41DD080", Offset = "0x41DD080", VA = "0x41DD080", Slot = "8")]
+		[Address(RVA = "0x4502180", Offset = "0x4502180", VA = "0x4502180", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000AA6")]
-		[Address(RVA = "0x41DCB60", Offset = "0x41DCB60", VA = "0x41DCB60")]
+		[Address(RVA = "0x4501C60", Offset = "0x4501C60", VA = "0x4501C60")]
 		public RightShiftUInt64()
 		{
 		}
@@ -177,7 +184,7 @@ internal abstract class RightShiftInstruction : Instruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x6000A92")]
-		[Address(RVA = "0x41DC6D0", Offset = "0x41DC6D0", VA = "0x41DC6D0", Slot = "4")]
+		[Address(RVA = "0x45017D0", Offset = "0x45017D0", VA = "0x45017D0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -188,7 +195,7 @@ internal abstract class RightShiftInstruction : Instruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x6000A93")]
-		[Address(RVA = "0x41DC6E0", Offset = "0x41DC6E0", VA = "0x41DC6E0", Slot = "5")]
+		[Address(RVA = "0x45017E0", Offset = "0x45017E0", VA = "0x45017E0", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -199,7 +206,7 @@ internal abstract class RightShiftInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x6000A94")]
-		[Address(RVA = "0x41DC6F0", Offset = "0x41DC6F0", VA = "0x41DC6F0", Slot = "9")]
+		[Address(RVA = "0x45017F0", Offset = "0x45017F0", VA = "0x45017F0", Slot = "9")]
 		get
 		{
 			return null;
@@ -207,13 +214,13 @@ internal abstract class RightShiftInstruction : Instruction
 	}
 
 	[Token(Token = "0x6000A95")]
-	[Address(RVA = "0x41DC720", Offset = "0x41DC720", VA = "0x41DC720")]
+	[Address(RVA = "0x4501820", Offset = "0x4501820", VA = "0x4501820")]
 	private RightShiftInstruction()
 	{
 	}
 
 	[Token(Token = "0x6000A96")]
-	[Address(RVA = "0x41DC730", Offset = "0x41DC730", VA = "0x41DC730")]
+	[Address(RVA = "0x4501830", Offset = "0x4501830", VA = "0x4501830")]
 	public static Instruction Create(Type type)
 	{
 		return null;

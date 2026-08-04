@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Reflection;
 using Il2CppDummyDll;
 
@@ -15,19 +22,19 @@ internal sealed class BinaryAssemblyInfo
 	private Assembly assembly;
 
 	[Token(Token = "0x6002038")]
-	[Address(RVA = "0x4EBD1B0", Offset = "0x4EBD1B0", VA = "0x4EBD1B0")]
+	[Address(RVA = "0x3BA2CD0", Offset = "0x3BA2CD0", VA = "0x3BA2CD0")]
 	internal BinaryAssemblyInfo(string assemblyString)
 	{
 	}
 
 	[Token(Token = "0x6002039")]
-	[Address(RVA = "0x4EBD1E0", Offset = "0x4EBD1E0", VA = "0x4EBD1E0")]
+	[Address(RVA = "0x3BA2D00", Offset = "0x3BA2D00", VA = "0x3BA2D00")]
 	internal BinaryAssemblyInfo(string assemblyString, Assembly assembly)
 	{
 	}
 
 	[Token(Token = "0x600203A")]
-	[Address(RVA = "0x4EBD220", Offset = "0x4EBD220", VA = "0x4EBD220")]
+	[Address(RVA = "0x3BA2D40", Offset = "0x3BA2D40", VA = "0x3BA2D40")]
 	internal Assembly GetAssembly()
 	{
 		return null;

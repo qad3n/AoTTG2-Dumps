@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.PhotonAppSettings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/Code/PhotonAppSettings.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using Photon.Realtime;
@@ -28,7 +35,7 @@ public class PhotonAppSettings : ScriptableObject
 	public static PhotonAppSettings Instance
 	{
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x3C48EE0", Offset = "0x3C48EE0", VA = "0x3C48EE0")]
+		[Address(RVA = "0x3F3B490", Offset = "0x3F3B490", VA = "0x3F3B490")]
 		get
 		{
 			return null;
@@ -36,26 +43,26 @@ public class PhotonAppSettings : ScriptableObject
 	}
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x3C48E60", Offset = "0x3C48E60", VA = "0x3C48E60")]
+	[Address(RVA = "0x3F3B410", Offset = "0x3F3B410", VA = "0x3F3B410")]
 	public void UseCloud(string cloudAppid, string code = "")
 	{
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x3C48F70", Offset = "0x3C48F70", VA = "0x3C48F70")]
+	[Address(RVA = "0x3F3B520", Offset = "0x3F3B520", VA = "0x3F3B520")]
 	public static void LoadOrCreateSettings()
 	{
 	}
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x3C49220", Offset = "0x3C49220", VA = "0x3C49220", Slot = "3")]
+	[Address(RVA = "0x3F3B7D0", Offset = "0x3F3B7D0", VA = "0x3F3B7D0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x3C49270", Offset = "0x3C49270", VA = "0x3C49270")]
+	[Address(RVA = "0x3F3B820", Offset = "0x3F3B820", VA = "0x3F3B820")]
 	public PhotonAppSettings()
 	{
 	}

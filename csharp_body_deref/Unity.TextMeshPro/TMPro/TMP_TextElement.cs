@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: TMPro.TMP_TextElement
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine;
@@ -6,130 +13,130 @@ using UnityEngine.TextCore;
 namespace TMPro;
 
 [Serializable]
-[Token(Token = "0x2000085")]
+[Token(Token = "0x200009B")]
 public class TMP_TextElement
 {
-	[Token(Token = "0x40004C6")]
+	[Token(Token = "0x40005BA")]
 	[FieldOffset(Offset = "0x10")]
 	[SerializeField]
 	protected TextElementType m_ElementType;
 
-	[Token(Token = "0x40004C7")]
+	[Token(Token = "0x40005BB")]
 	[FieldOffset(Offset = "0x14")]
 	[SerializeField]
 	internal uint m_Unicode;
 
-	[Token(Token = "0x40004C8")]
+	[Token(Token = "0x40005BC")]
 	[FieldOffset(Offset = "0x18")]
 	internal TMP_Asset m_TextAsset;
 
-	[Token(Token = "0x40004C9")]
+	[Token(Token = "0x40005BD")]
 	[FieldOffset(Offset = "0x20")]
 	internal Glyph m_Glyph;
 
-	[Token(Token = "0x40004CA")]
+	[Token(Token = "0x40005BE")]
 	[FieldOffset(Offset = "0x28")]
 	[SerializeField]
 	internal uint m_GlyphIndex;
 
-	[Token(Token = "0x40004CB")]
+	[Token(Token = "0x40005BF")]
 	[FieldOffset(Offset = "0x2C")]
 	[SerializeField]
 	internal float m_Scale;
 
-	[Token(Token = "0x17000146")]
+	[Token(Token = "0x17000167")]
 	public TextElementType elementType
 	{
-		[Token(Token = "0x60004EC")]
-		[Address(RVA = "0x4946D40", Offset = "0x4946D40", VA = "0x4946D40")]
+		[Token(Token = "0x60005DD")]
+		[Address(RVA = "0x4C942C0", Offset = "0x4C942C0", VA = "0x4C942C0")]
 		get
 		{
 			return default(TextElementType);
 		}
 	}
 
-	[Token(Token = "0x17000147")]
+	[Token(Token = "0x17000168")]
 	public uint unicode
 	{
-		[Token(Token = "0x60004ED")]
-		[Address(RVA = "0x4946D50", Offset = "0x4946D50", VA = "0x4946D50")]
+		[Token(Token = "0x60005DE")]
+		[Address(RVA = "0x4C942D0", Offset = "0x4C942D0", VA = "0x4C942D0")]
 		get
 		{
 			return default(uint);
 		}
-		[Token(Token = "0x60004EE")]
-		[Address(RVA = "0x4946D60", Offset = "0x4946D60", VA = "0x4946D60")]
+		[Token(Token = "0x60005DF")]
+		[Address(RVA = "0x4C942E0", Offset = "0x4C942E0", VA = "0x4C942E0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000148")]
+	[Token(Token = "0x17000169")]
 	public TMP_Asset textAsset
 	{
-		[Token(Token = "0x60004EF")]
-		[Address(RVA = "0x4946D70", Offset = "0x4946D70", VA = "0x4946D70")]
+		[Token(Token = "0x60005E0")]
+		[Address(RVA = "0x4C942F0", Offset = "0x4C942F0", VA = "0x4C942F0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60004F0")]
-		[Address(RVA = "0x4946D80", Offset = "0x4946D80", VA = "0x4946D80")]
+		[Token(Token = "0x60005E1")]
+		[Address(RVA = "0x4C94300", Offset = "0x4C94300", VA = "0x4C94300")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000149")]
+	[Token(Token = "0x1700016A")]
 	public Glyph glyph
 	{
-		[Token(Token = "0x60004F1")]
-		[Address(RVA = "0x4946D90", Offset = "0x4946D90", VA = "0x4946D90")]
+		[Token(Token = "0x60005E2")]
+		[Address(RVA = "0x4C94310", Offset = "0x4C94310", VA = "0x4C94310")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60004F2")]
-		[Address(RVA = "0x4946DA0", Offset = "0x4946DA0", VA = "0x4946DA0")]
+		[Token(Token = "0x60005E3")]
+		[Address(RVA = "0x4C94320", Offset = "0x4C94320", VA = "0x4C94320")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700014A")]
+	[Token(Token = "0x1700016B")]
 	public uint glyphIndex
 	{
-		[Token(Token = "0x60004F3")]
-		[Address(RVA = "0x4946DB0", Offset = "0x4946DB0", VA = "0x4946DB0")]
+		[Token(Token = "0x60005E4")]
+		[Address(RVA = "0x4C94330", Offset = "0x4C94330", VA = "0x4C94330")]
 		get
 		{
 			return default(uint);
 		}
-		[Token(Token = "0x60004F4")]
-		[Address(RVA = "0x4946DC0", Offset = "0x4946DC0", VA = "0x4946DC0")]
+		[Token(Token = "0x60005E5")]
+		[Address(RVA = "0x4C94340", Offset = "0x4C94340", VA = "0x4C94340")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700014B")]
+	[Token(Token = "0x1700016C")]
 	public float scale
 	{
-		[Token(Token = "0x60004F5")]
-		[Address(RVA = "0x4946DD0", Offset = "0x4946DD0", VA = "0x4946DD0")]
+		[Token(Token = "0x60005E6")]
+		[Address(RVA = "0x4C94350", Offset = "0x4C94350", VA = "0x4C94350")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60004F6")]
-		[Address(RVA = "0x4946DE0", Offset = "0x4946DE0", VA = "0x4946DE0")]
+		[Token(Token = "0x60005E7")]
+		[Address(RVA = "0x4C94360", Offset = "0x4C94360", VA = "0x4C94360")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60004F7")]
-	[Address(RVA = "0x49431C0", Offset = "0x49431C0", VA = "0x49431C0")]
+	[Token(Token = "0x60005E8")]
+	[Address(RVA = "0x4C90740", Offset = "0x4C90740", VA = "0x4C90740")]
 	public TMP_TextElement()
 	{
 	}

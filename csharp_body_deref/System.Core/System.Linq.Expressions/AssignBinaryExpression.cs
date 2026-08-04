@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.AssignBinaryExpression
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
@@ -9,7 +16,7 @@ internal class AssignBinaryExpression : BinaryExpression
 	public sealed override Type Type
 	{
 		[Token(Token = "0x60001CE")]
-		[Address(RVA = "0x4171B30", Offset = "0x4171B30", VA = "0x4171B30", Slot = "5")]
+		[Address(RVA = "0x4496C30", Offset = "0x4496C30", VA = "0x4496C30", Slot = "5")]
 		get
 		{
 			return null;
@@ -20,7 +27,7 @@ internal class AssignBinaryExpression : BinaryExpression
 	public sealed override ExpressionType NodeType
 	{
 		[Token(Token = "0x60001CF")]
-		[Address(RVA = "0x4171B60", Offset = "0x4171B60", VA = "0x4171B60", Slot = "4")]
+		[Address(RVA = "0x4496C60", Offset = "0x4496C60", VA = "0x4496C60", Slot = "4")]
 		get
 		{
 			return default(ExpressionType);
@@ -28,7 +35,7 @@ internal class AssignBinaryExpression : BinaryExpression
 	}
 
 	[Token(Token = "0x60001CD")]
-	[Address(RVA = "0x4171AB0", Offset = "0x4171AB0", VA = "0x4171AB0")]
+	[Address(RVA = "0x4496BB0", Offset = "0x4496BB0", VA = "0x4496BB0")]
 	internal AssignBinaryExpression(Expression left, Expression right)
 	{
 	}

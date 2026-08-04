@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: CustomSkins.BaseCustomSkinPart
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/CustomSkins/BaseCustomSkinPart.c
+// Prior real C# source (older reference): Assets/Scripts/CustomSkins/CustomSkinParts/BaseCustomSkinPart.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -10,38 +17,38 @@ using Utility;
 
 namespace CustomSkins;
 
-[Token(Token = "0x200021D")]
+[Token(Token = "0x2000253")]
 internal class BaseCustomSkinPart
 {
-	[Token(Token = "0x200021E")]
+	[Token(Token = "0x2000254")]
 	[CompilerGenerated]
 	private sealed class _003CLoadSkin_003Ed__12 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000BDD")]
+		[Token(Token = "0x4000CB6")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000BDE")]
+		[Token(Token = "0x4000CB7")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4000BDF")]
+		[Token(Token = "0x4000CB8")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public string url;
 
-		[Token(Token = "0x4000BE0")]
+		[Token(Token = "0x4000CB9")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public BaseCustomSkinPart _003C_003E4__this;
 
-		[Token(Token = "0x4000BE1")]
+		[Token(Token = "0x4000CBA")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		private CoroutineWithData _003Ccwd_003E5__2;
 
-		[Token(Token = "0x1700016A")]
+		[Token(Token = "0x170001C1")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000CB7")]
-			[Address(RVA = "0x4147870", Offset = "0x4147870", VA = "0x4147870", Slot = "4")]
+			[Token(Token = "0x6000E50")]
+			[Address(RVA = "0x3F948D0", Offset = "0x3F948D0", VA = "0x3F948D0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -49,11 +56,11 @@ internal class BaseCustomSkinPart
 			}
 		}
 
-		[Token(Token = "0x1700016B")]
+		[Token(Token = "0x170001C2")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000CB9")]
-			[Address(RVA = "0x41478C0", Offset = "0x41478C0", VA = "0x41478C0", Slot = "7")]
+			[Token(Token = "0x6000E52")]
+			[Address(RVA = "0x3F94920", Offset = "0x3F94920", VA = "0x3F94920", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -61,136 +68,136 @@ internal class BaseCustomSkinPart
 			}
 		}
 
-		[Token(Token = "0x6000CB4")]
-		[Address(RVA = "0x4146A40", Offset = "0x4146A40", VA = "0x4146A40")]
+		[Token(Token = "0x6000E4D")]
+		[Address(RVA = "0x3F93AA0", Offset = "0x3F93AA0", VA = "0x3F93AA0")]
 		[DebuggerHidden]
 		public _003CLoadSkin_003Ed__12(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000CB5")]
-		[Address(RVA = "0x4147280", Offset = "0x4147280", VA = "0x4147280", Slot = "5")]
+		[Token(Token = "0x6000E4E")]
+		[Address(RVA = "0x3F942E0", Offset = "0x3F942E0", VA = "0x3F942E0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000CB6")]
-		[Address(RVA = "0x4147290", Offset = "0x4147290", VA = "0x4147290", Slot = "6")]
+		[Token(Token = "0x6000E4F")]
+		[Address(RVA = "0x3F942F0", Offset = "0x3F942F0", VA = "0x3F942F0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000CB8")]
-		[Address(RVA = "0x4147880", Offset = "0x4147880", VA = "0x4147880", Slot = "8")]
+		[Token(Token = "0x6000E51")]
+		[Address(RVA = "0x3F948E0", Offset = "0x3F948E0", VA = "0x3F948E0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000BD5")]
+	[Token(Token = "0x4000CAE")]
 	protected const string CharacterEffectShaderName = "Custom/CharacterEffectShader";
 
-	[Token(Token = "0x4000BD6")]
+	[Token(Token = "0x4000CAF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	protected BaseCustomSkinLoader _loader;
 
-	[Token(Token = "0x4000BD7")]
+	[Token(Token = "0x4000CB0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	protected List<Renderer> _renderers;
 
-	[Token(Token = "0x4000BD8")]
+	[Token(Token = "0x4000CB1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	protected string _rendererId;
 
-	[Token(Token = "0x4000BD9")]
+	[Token(Token = "0x4000CB2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	protected int _maxSize;
 
-	[Token(Token = "0x4000BDA")]
+	[Token(Token = "0x4000CB3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x2C")]
 	protected Vector2 _textureScale;
 
-	[Token(Token = "0x4000BDB")]
+	[Token(Token = "0x4000CB4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x34")]
 	protected readonly Vector2 _defaultTextureScale;
 
-	[Token(Token = "0x4000BDC")]
+	[Token(Token = "0x4000CB5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x3C")]
 	protected bool _useTransparentMaterial;
 
-	[Token(Token = "0x6000CA9")]
-	[Address(RVA = "0x413F010", Offset = "0x413F010", VA = "0x413F010")]
+	[Token(Token = "0x6000E42")]
+	[Address(RVA = "0x3F8E9B0", Offset = "0x3F8E9B0", VA = "0x3F8E9B0")]
 	public BaseCustomSkinPart(BaseCustomSkinLoader loader, List<Renderer> renderers, string rendererId, int maxSize, [Optional] Vector2? textureScale, bool useTransparentMaterial = false)
 	{
 	}
 
-	[Token(Token = "0x6000CAA")]
-	[Address(RVA = "0x413F2E0", Offset = "0x413F2E0", VA = "0x413F2E0")]
+	[Token(Token = "0x6000E43")]
+	[Address(RVA = "0x3F8EC70", Offset = "0x3F8EC70", VA = "0x3F8EC70")]
 	public bool LoadCache(string url)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CAB")]
-	[Address(RVA = "0x4146970", Offset = "0x4146970", VA = "0x4146970")]
+	[Token(Token = "0x6000E44")]
+	[Address(RVA = "0x3F939D0", Offset = "0x3F939D0", VA = "0x3F939D0")]
 	protected bool IsCharacterEffectMaterial(Material material)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CAC")]
-	[Address(RVA = "0x4146520", Offset = "0x4146520", VA = "0x4146520")]
+	[Token(Token = "0x6000E45")]
+	[Address(RVA = "0x3F93580", Offset = "0x3F93580", VA = "0x3F93580")]
 	protected bool TryApplyCachedTextureToEffectMaterials(Material cachedMaterial)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CAD")]
-	[Address(RVA = "0x413F460", Offset = "0x413F460", VA = "0x413F460")]
+	[Token(Token = "0x6000E46")]
+	[Address(RVA = "0x3F8EDF0", Offset = "0x3F8EDF0", VA = "0x3F8EDF0")]
 	[IteratorStateMachine(typeof(_003CLoadSkin_003Ed__12))]
 	public IEnumerator LoadSkin(string url)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CAE")]
-	[Address(RVA = "0x4146A60", Offset = "0x4146A60", VA = "0x4146A60", Slot = "4")]
+	[Token(Token = "0x6000E47")]
+	[Address(RVA = "0x3F93AC0", Offset = "0x3F93AC0", VA = "0x3F93AC0", Slot = "4")]
 	protected virtual bool IsValidPart()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CAF")]
-	[Address(RVA = "0x4146C10", Offset = "0x4146C10", VA = "0x4146C10", Slot = "5")]
+	[Token(Token = "0x6000E48")]
+	[Address(RVA = "0x3F93C70", Offset = "0x3F93C70", VA = "0x3F93C70", Slot = "5")]
 	protected virtual void DisableRenderers()
 	{
 	}
 
-	[Token(Token = "0x6000CB0")]
-	[Address(RVA = "0x4146E10", Offset = "0x4146E10", VA = "0x4146E10", Slot = "6")]
+	[Token(Token = "0x6000E49")]
+	[Address(RVA = "0x3F93E70", Offset = "0x3F93E70", VA = "0x3F93E70", Slot = "6")]
 	protected virtual void SetMaterial(Material material)
 	{
 	}
 
-	[Token(Token = "0x6000CB1")]
-	[Address(RVA = "0x4146FC0", Offset = "0x4146FC0", VA = "0x4146FC0", Slot = "7")]
+	[Token(Token = "0x6000E4A")]
+	[Address(RVA = "0x3F94020", Offset = "0x3F94020", VA = "0x3F94020", Slot = "7")]
 	protected virtual Material SetNewTexture(Texture2D texture)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CB2")]
-	[Address(RVA = "0x4147270", Offset = "0x4147270", VA = "0x4147270")]
+	[Token(Token = "0x6000E4B")]
+	[Address(RVA = "0x3F942D0", Offset = "0x3F942D0", VA = "0x3F942D0")]
 	public string GetRendererId()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CB3")]
-	[Address(RVA = "0x4144CC0", Offset = "0x4144CC0", VA = "0x4144CC0")]
+	[Token(Token = "0x6000E4C")]
+	[Address(RVA = "0x3F91E70", Offset = "0x3F91E70", VA = "0x3F91E70")]
 	public void ResetToDefault()
 	{
 	}

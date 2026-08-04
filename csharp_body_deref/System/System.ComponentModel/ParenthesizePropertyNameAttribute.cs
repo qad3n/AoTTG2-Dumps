@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.ParenthesizePropertyNameAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.ComponentModel;
@@ -18,7 +25,7 @@ public sealed class ParenthesizePropertyNameAttribute : Attribute
 	public bool NeedParenthesis
 	{
 		[Token(Token = "0x60014F0")]
-		[Address(RVA = "0x45B9980", Offset = "0x45B9980", VA = "0x45B9980")]
+		[Address(RVA = "0x48DEA80", Offset = "0x48DEA80", VA = "0x48DEA80")]
 		get
 		{
 			return default(bool);
@@ -26,33 +33,33 @@ public sealed class ParenthesizePropertyNameAttribute : Attribute
 	}
 
 	[Token(Token = "0x60014EE")]
-	[Address(RVA = "0x45B9940", Offset = "0x45B9940", VA = "0x45B9940")]
+	[Address(RVA = "0x48DEA40", Offset = "0x48DEA40", VA = "0x48DEA40")]
 	public ParenthesizePropertyNameAttribute()
 	{
 	}
 
 	[Token(Token = "0x60014EF")]
-	[Address(RVA = "0x45B9960", Offset = "0x45B9960", VA = "0x45B9960")]
+	[Address(RVA = "0x48DEA60", Offset = "0x48DEA60", VA = "0x48DEA60")]
 	public ParenthesizePropertyNameAttribute(bool needParenthesis)
 	{
 	}
 
 	[Token(Token = "0x60014F1")]
-	[Address(RVA = "0x45B9990", Offset = "0x45B9990", VA = "0x45B9990", Slot = "0")]
+	[Address(RVA = "0x48DEA90", Offset = "0x48DEA90", VA = "0x48DEA90", Slot = "0")]
 	public override bool Equals(object o)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60014F2")]
-	[Address(RVA = "0x45B99F0", Offset = "0x45B99F0", VA = "0x45B99F0", Slot = "2")]
+	[Address(RVA = "0x48DEAF0", Offset = "0x48DEAF0", VA = "0x48DEAF0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60014F3")]
-	[Address(RVA = "0x45B9A00", Offset = "0x45B9A00", VA = "0x45B9A00", Slot = "6")]
+	[Address(RVA = "0x48DEB00", Offset = "0x48DEB00", VA = "0x48DEB00", Slot = "6")]
 	public override bool IsDefaultAttribute()
 	{
 		return default(bool);

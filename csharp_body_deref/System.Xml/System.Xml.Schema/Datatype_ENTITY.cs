@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.Datatype_ENTITY
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -9,7 +16,7 @@ internal class Datatype_ENTITY : Datatype_NCName
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x6001159")]
-		[Address(RVA = "0x4524390", Offset = "0x4524390", VA = "0x4524390", Slot = "8")]
+		[Address(RVA = "0x4861AF0", Offset = "0x4861AF0", VA = "0x4861AF0", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -20,7 +27,7 @@ internal class Datatype_ENTITY : Datatype_NCName
 	public override XmlTokenizedType TokenizedType
 	{
 		[Token(Token = "0x600115A")]
-		[Address(RVA = "0x45243A0", Offset = "0x45243A0", VA = "0x45243A0", Slot = "5")]
+		[Address(RVA = "0x4861B00", Offset = "0x4861B00", VA = "0x4861B00", Slot = "5")]
 		get
 		{
 			return default(XmlTokenizedType);
@@ -28,7 +35,7 @@ internal class Datatype_ENTITY : Datatype_NCName
 	}
 
 	[Token(Token = "0x600115B")]
-	[Address(RVA = "0x4518F70", Offset = "0x4518F70", VA = "0x4518F70")]
+	[Address(RVA = "0x48566D0", Offset = "0x48566D0", VA = "0x48566D0")]
 	public Datatype_ENTITY()
 	{
 	}

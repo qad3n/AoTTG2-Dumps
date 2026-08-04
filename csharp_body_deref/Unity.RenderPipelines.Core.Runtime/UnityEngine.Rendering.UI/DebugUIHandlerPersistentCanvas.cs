@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.UI.DebugUIHandlerPersistentCanvas
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -24,32 +31,32 @@ internal class DebugUIHandlerPersistentCanvas : MonoBehaviour
 	private List<DebugUI.ValueTuple> m_ValueTupleWidgets;
 
 	[Token(Token = "0x6000EF2")]
-	[Address(RVA = "0x48F07A0", Offset = "0x48F07A0", VA = "0x48F07A0")]
+	[Address(RVA = "0x4C15810", Offset = "0x4C15810", VA = "0x4C15810")]
 	internal void Toggle(DebugUI.Value widget, [Optional] string displayName)
 	{
 	}
 
 	[Token(Token = "0x6000EF3")]
-	[Address(RVA = "0x48F0AC0", Offset = "0x48F0AC0", VA = "0x48F0AC0")]
+	[Address(RVA = "0x4C15B30", Offset = "0x4C15B30", VA = "0x4C15B30")]
 	internal void Toggle(DebugUI.ValueTuple widget, [Optional] int? forceTupleIndex)
 	{
 	}
 
 	[Token(Token = "0x6000EF4")]
-	[Address(RVA = "0x48F0E70", Offset = "0x48F0E70", VA = "0x48F0E70")]
+	[Address(RVA = "0x4C15EE0", Offset = "0x4C15EE0", VA = "0x4C15EE0")]
 	internal bool IsEmpty()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000EF5")]
-	[Address(RVA = "0x48F0EB0", Offset = "0x48F0EB0", VA = "0x48F0EB0")]
+	[Address(RVA = "0x4C15F20", Offset = "0x4C15F20", VA = "0x4C15F20")]
 	internal void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000EF6")]
-	[Address(RVA = "0x48F1080", Offset = "0x48F1080", VA = "0x48F1080")]
+	[Address(RVA = "0x4C160F0", Offset = "0x4C160F0", VA = "0x4C160F0")]
 	public DebugUIHandlerPersistentCanvas()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.ColorParameter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using Il2CppDummyDll;
@@ -25,19 +32,19 @@ public class ColorParameter : VolumeParameter<Color>
 	public bool showEyeDropper;
 
 	[Token(Token = "0x6000DEC")]
-	[Address(RVA = "0x48E6750", Offset = "0x48E6750", VA = "0x48E6750")]
+	[Address(RVA = "0x4C0B7C0", Offset = "0x4C0B7C0", VA = "0x4C0B7C0")]
 	public ColorParameter(Color value, bool overrideState = false)
 	{
 	}
 
 	[Token(Token = "0x6000DED")]
-	[Address(RVA = "0x48E67B0", Offset = "0x48E67B0", VA = "0x48E67B0")]
+	[Address(RVA = "0x4C0B820", Offset = "0x4C0B820", VA = "0x4C0B820")]
 	public ColorParameter(Color value, bool hdr, bool showAlpha, bool showEyeDropper, bool overrideState = false)
 	{
 	}
 
 	[Token(Token = "0x6000DEE")]
-	[Address(RVA = "0x48E6850", Offset = "0x48E6850", VA = "0x48E6850", Slot = "16")]
+	[Address(RVA = "0x4C0B8C0", Offset = "0x4C0B8C0", VA = "0x4C0B8C0", Slot = "16")]
 	public override void Interp(Color from, Color to, float t)
 	{
 	}

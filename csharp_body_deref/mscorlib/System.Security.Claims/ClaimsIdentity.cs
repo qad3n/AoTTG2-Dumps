@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Claims.ClaimsIdentity
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -47,7 +54,7 @@ public class ClaimsIdentity : IIdentity
 		private Claim System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002ESecurity_002EClaims_002EClaim_003E_002ECurrent
 		{
 			[Token(Token = "0x6001C01")]
-			[Address(RVA = "0x4E79670", Offset = "0x4E79670", VA = "0x4E79670", Slot = "6")]
+			[Address(RVA = "0x3B5F190", Offset = "0x3B5F190", VA = "0x3B5F190", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -59,7 +66,7 @@ public class ClaimsIdentity : IIdentity
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6001C03")]
-			[Address(RVA = "0x4E796C0", Offset = "0x4E796C0", VA = "0x4E796C0", Slot = "9")]
+			[Address(RVA = "0x3B5F1E0", Offset = "0x3B5F1E0", VA = "0x3B5F1E0", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -68,41 +75,41 @@ public class ClaimsIdentity : IIdentity
 		}
 
 		[Token(Token = "0x6001BFD")]
-		[Address(RVA = "0x4E77AB0", Offset = "0x4E77AB0", VA = "0x4E77AB0")]
+		[Address(RVA = "0x3B5D5D0", Offset = "0x3B5D5D0", VA = "0x3B5D5D0")]
 		[DebuggerHidden]
 		public _003Cget_Claims_003Ed__51(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6001BFE")]
-		[Address(RVA = "0x4E78F60", Offset = "0x4E78F60", VA = "0x4E78F60", Slot = "7")]
+		[Address(RVA = "0x3B5EA80", Offset = "0x3B5EA80", VA = "0x3B5EA80", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6001BFF")]
-		[Address(RVA = "0x4E79010", Offset = "0x4E79010", VA = "0x4E79010", Slot = "8")]
+		[Address(RVA = "0x3B5EB30", Offset = "0x3B5EB30", VA = "0x3B5EB30", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001C00")]
-		[Address(RVA = "0x4E795D0", Offset = "0x4E795D0", VA = "0x4E795D0")]
+		[Address(RVA = "0x3B5F0F0", Offset = "0x3B5F0F0", VA = "0x3B5F0F0")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
 		[Token(Token = "0x6001C02")]
-		[Address(RVA = "0x4E79680", Offset = "0x4E79680", VA = "0x4E79680", Slot = "10")]
+		[Address(RVA = "0x3B5F1A0", Offset = "0x3B5F1A0", VA = "0x3B5F1A0", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x6001C04")]
-		[Address(RVA = "0x4E796D0", Offset = "0x4E796D0", VA = "0x4E796D0", Slot = "4")]
+		[Address(RVA = "0x3B5F1F0", Offset = "0x3B5F1F0", VA = "0x3B5F1F0", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<Claim> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002ESecurity_002EClaims_002EClaim_003E_002EGetEnumerator()
 		{
@@ -110,7 +117,7 @@ public class ClaimsIdentity : IIdentity
 		}
 
 		[Token(Token = "0x6001C05")]
-		[Address(RVA = "0x4E79770", Offset = "0x4E79770", VA = "0x4E79770", Slot = "5")]
+		[Address(RVA = "0x3B5F290", Offset = "0x3B5F290", VA = "0x3B5F290", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -187,7 +194,7 @@ public class ClaimsIdentity : IIdentity
 	public virtual string AuthenticationType
 	{
 		[Token(Token = "0x6001BEC")]
-		[Address(RVA = "0x4E77970", Offset = "0x4E77970", VA = "0x4E77970", Slot = "6")]
+		[Address(RVA = "0x3B5D490", Offset = "0x3B5D490", VA = "0x3B5D490", Slot = "6")]
 		get
 		{
 			return null;
@@ -198,13 +205,13 @@ public class ClaimsIdentity : IIdentity
 	public ClaimsIdentity Actor
 	{
 		[Token(Token = "0x6001BED")]
-		[Address(RVA = "0x4E77980", Offset = "0x4E77980", VA = "0x4E77980")]
+		[Address(RVA = "0x3B5D4A0", Offset = "0x3B5D4A0", VA = "0x3B5D4A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001BEE")]
-		[Address(RVA = "0x4E77990", Offset = "0x4E77990", VA = "0x4E77990")]
+		[Address(RVA = "0x3B5D4B0", Offset = "0x3B5D4B0", VA = "0x3B5D4B0")]
 		set
 		{
 		}
@@ -214,7 +221,7 @@ public class ClaimsIdentity : IIdentity
 	public virtual IEnumerable<Claim> Claims
 	{
 		[Token(Token = "0x6001BEF")]
-		[Address(RVA = "0x4E77A30", Offset = "0x4E77A30", VA = "0x4E77A30", Slot = "7")]
+		[Address(RVA = "0x3B5D550", Offset = "0x3B5D550", VA = "0x3B5D550", Slot = "7")]
 		[IteratorStateMachine(typeof(_003Cget_Claims_003Ed__51))]
 		get
 		{
@@ -226,7 +233,7 @@ public class ClaimsIdentity : IIdentity
 	public virtual string Name
 	{
 		[Token(Token = "0x6001BF0")]
-		[Address(RVA = "0x4E77AE0", Offset = "0x4E77AE0", VA = "0x4E77AE0", Slot = "8")]
+		[Address(RVA = "0x3B5D600", Offset = "0x3B5D600", VA = "0x3B5D600", Slot = "8")]
 		get
 		{
 			return null;
@@ -234,110 +241,110 @@ public class ClaimsIdentity : IIdentity
 	}
 
 	[Token(Token = "0x6001BE7")]
-	[Address(RVA = "0x4E74EA0", Offset = "0x4E74EA0", VA = "0x4E74EA0")]
+	[Address(RVA = "0x3B5A9C0", Offset = "0x3B5A9C0", VA = "0x3B5A9C0")]
 	public ClaimsIdentity()
 	{
 	}
 
 	[Token(Token = "0x6001BE8")]
-	[Address(RVA = "0x4E761D0", Offset = "0x4E761D0", VA = "0x4E761D0")]
+	[Address(RVA = "0x3B5BCF0", Offset = "0x3B5BCF0", VA = "0x3B5BCF0")]
 	public ClaimsIdentity(IEnumerable<Claim> claims)
 	{
 	}
 
 	[Token(Token = "0x6001BE9")]
-	[Address(RVA = "0x4E76200", Offset = "0x4E76200", VA = "0x4E76200")]
+	[Address(RVA = "0x3B5BD20", Offset = "0x3B5BD20", VA = "0x3B5BD20")]
 	public ClaimsIdentity(IIdentity identity, IEnumerable<Claim> claims, string authenticationType, string nameType, string roleType)
 	{
 	}
 
 	[Token(Token = "0x6001BEA")]
-	[Address(RVA = "0x4E76220", Offset = "0x4E76220", VA = "0x4E76220")]
+	[Address(RVA = "0x3B5BD40", Offset = "0x3B5BD40", VA = "0x3B5BD40")]
 	internal ClaimsIdentity(IIdentity identity, IEnumerable<Claim> claims, string authenticationType, string nameType, string roleType, bool checkAuthType)
 	{
 	}
 
 	[Token(Token = "0x6001BEB")]
-	[Address(RVA = "0x4E76F50", Offset = "0x4E76F50", VA = "0x4E76F50")]
+	[Address(RVA = "0x3B5CA70", Offset = "0x3B5CA70", VA = "0x3B5CA70")]
 	protected ClaimsIdentity(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001BF1")]
-	[Address(RVA = "0x4E77B10", Offset = "0x4E77B10", VA = "0x4E77B10", Slot = "9")]
+	[Address(RVA = "0x3B5D630", Offset = "0x3B5D630", VA = "0x3B5D630", Slot = "9")]
 	public virtual ClaimsIdentity Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BF2")]
-	[Address(RVA = "0x4E769B0", Offset = "0x4E769B0", VA = "0x4E769B0")]
+	[Address(RVA = "0x3B5C4D0", Offset = "0x3B5C4D0", VA = "0x3B5C4D0")]
 	private void SafeAddClaims(IEnumerable<Claim> claims)
 	{
 	}
 
 	[Token(Token = "0x6001BF3")]
-	[Address(RVA = "0x4E76E20", Offset = "0x4E76E20", VA = "0x4E76E20")]
+	[Address(RVA = "0x3B5C940", Offset = "0x3B5C940", VA = "0x3B5C940")]
 	private void SafeAddClaim(Claim claim)
 	{
 	}
 
 	[Token(Token = "0x6001BF4")]
-	[Address(RVA = "0x4E77CA0", Offset = "0x4E77CA0", VA = "0x4E77CA0", Slot = "10")]
+	[Address(RVA = "0x3B5D7C0", Offset = "0x3B5D7C0", VA = "0x3B5D7C0", Slot = "10")]
 	public virtual Claim FindFirst(string type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BF5")]
-	[Address(RVA = "0x4E78070", Offset = "0x4E78070", VA = "0x4E78070")]
+	[Address(RVA = "0x3B5DB90", Offset = "0x3B5DB90", VA = "0x3B5DB90")]
 	[OnSerializing]
 	private void OnSerializingMethod(StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001BF6")]
-	[Address(RVA = "0x4E78380", Offset = "0x4E78380", VA = "0x4E78380")]
+	[Address(RVA = "0x3B5DEA0", Offset = "0x3B5DEA0", VA = "0x3B5DEA0")]
 	[OnDeserialized]
 	private void OnDeserializedMethod(StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001BF7")]
-	[Address(RVA = "0x4E78830", Offset = "0x4E78830", VA = "0x4E78830")]
+	[Address(RVA = "0x3B5E350", Offset = "0x3B5E350", VA = "0x3B5E350")]
 	[OnDeserializing]
 	private void OnDeserializingMethod(StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001BF8")]
-	[Address(RVA = "0x4E78920", Offset = "0x4E78920", VA = "0x4E78920", Slot = "11")]
+	[Address(RVA = "0x3B5E440", Offset = "0x3B5E440", VA = "0x3B5E440", Slot = "11")]
 	protected virtual void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001BF9")]
-	[Address(RVA = "0x4E78470", Offset = "0x4E78470", VA = "0x4E78470")]
+	[Address(RVA = "0x3B5DF90", Offset = "0x3B5DF90", VA = "0x3B5DF90")]
 	private void DeserializeClaims(string serializedClaims)
 	{
 	}
 
 	[Token(Token = "0x6001BFA")]
-	[Address(RVA = "0x4E780F0", Offset = "0x4E780F0", VA = "0x4E780F0")]
+	[Address(RVA = "0x3B5DC10", Offset = "0x3B5DC10", VA = "0x3B5DC10")]
 	private string SerializeClaims()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BFB")]
-	[Address(RVA = "0x4E76980", Offset = "0x4E76980", VA = "0x4E76980")]
+	[Address(RVA = "0x3B5C4A0", Offset = "0x3B5C4A0", VA = "0x3B5C4A0")]
 	private bool IsCircular(ClaimsIdentity subject)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001BFC")]
-	[Address(RVA = "0x4E770F0", Offset = "0x4E770F0", VA = "0x4E770F0")]
+	[Address(RVA = "0x3B5CC10", Offset = "0x3B5CC10", VA = "0x3B5CC10")]
 	private void Deserialize(SerializationInfo info, StreamingContext context, bool useContext)
 	{
 	}

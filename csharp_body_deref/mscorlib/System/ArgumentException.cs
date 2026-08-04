@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ArgumentException
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
 
@@ -15,7 +22,7 @@ public class ArgumentException : SystemException
 	public override string Message
 	{
 		[Token(Token = "0x60003E0")]
-		[Address(RVA = "0x4F2DD50", Offset = "0x4F2DD50", VA = "0x4F2DD50", Slot = "5")]
+		[Address(RVA = "0x3C13870", Offset = "0x3C13870", VA = "0x3C13870", Slot = "5")]
 		get
 		{
 			return null;
@@ -23,43 +30,43 @@ public class ArgumentException : SystemException
 	}
 
 	[Token(Token = "0x60003D9")]
-	[Address(RVA = "0x4F2DB70", Offset = "0x4F2DB70", VA = "0x4F2DB70")]
+	[Address(RVA = "0x3C13690", Offset = "0x3C13690", VA = "0x3C13690")]
 	public ArgumentException()
 	{
 	}
 
 	[Token(Token = "0x60003DA")]
-	[Address(RVA = "0x4F2C970", Offset = "0x4F2C970", VA = "0x4F2C970")]
+	[Address(RVA = "0x3C12490", Offset = "0x3C12490", VA = "0x3C12490")]
 	public ArgumentException(string message)
 	{
 	}
 
 	[Token(Token = "0x60003DB")]
-	[Address(RVA = "0x4F2DBB0", Offset = "0x4F2DBB0", VA = "0x4F2DBB0")]
+	[Address(RVA = "0x3C136D0", Offset = "0x3C136D0", VA = "0x3C136D0")]
 	public ArgumentException(string message, Exception innerException)
 	{
 	}
 
 	[Token(Token = "0x60003DC")]
-	[Address(RVA = "0x4F2DBD0", Offset = "0x4F2DBD0", VA = "0x4F2DBD0")]
+	[Address(RVA = "0x3C136F0", Offset = "0x3C136F0", VA = "0x3C136F0")]
 	public ArgumentException(string message, string paramName, Exception innerException)
 	{
 	}
 
 	[Token(Token = "0x60003DD")]
-	[Address(RVA = "0x4F252A0", Offset = "0x4F252A0", VA = "0x4F252A0")]
+	[Address(RVA = "0x3C0ADC0", Offset = "0x3C0ADC0", VA = "0x3C0ADC0")]
 	public ArgumentException(string message, string paramName)
 	{
 	}
 
 	[Token(Token = "0x60003DE")]
-	[Address(RVA = "0x4F2DC10", Offset = "0x4F2DC10", VA = "0x4F2DC10")]
+	[Address(RVA = "0x3C13730", Offset = "0x3C13730", VA = "0x3C13730")]
 	protected ArgumentException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60003DF")]
-	[Address(RVA = "0x4F2DCA0", Offset = "0x4F2DCA0", VA = "0x4F2DCA0", Slot = "11")]
+	[Address(RVA = "0x3C137C0", Offset = "0x3C137C0", VA = "0x3C137C0", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.XR.XRSettings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -30,7 +37,7 @@ public static class XRSettings
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000001")]
-		[Address(RVA = "0x4DE27D0", Offset = "0x4DE27D0", VA = "0x4DE27D0")]
+		[Address(RVA = "0x510BD90", Offset = "0x510BD90", VA = "0x510BD90")]
 		[UnityEngine.Bindings.StaticAccessor("GetIVRDeviceScripting()", UnityEngine.Bindings.StaticAccessorType.ArrowWithDefaultReturnIfNull)]
 		get;
 	}
@@ -42,7 +49,7 @@ public static class XRSettings
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x4DE2800", Offset = "0x4DE2800", VA = "0x4DE2800")]
+		[Address(RVA = "0x510BDC0", Offset = "0x510BDC0", VA = "0x510BDC0")]
 		get;
 	}
 
@@ -53,11 +60,11 @@ public static class XRSettings
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x4DE2830", Offset = "0x4DE2830", VA = "0x4DE2830")]
+		[Address(RVA = "0x510BDF0", Offset = "0x510BDF0", VA = "0x510BDF0")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x4DE2860", Offset = "0x4DE2860", VA = "0x4DE2860")]
+		[Address(RVA = "0x510BE20", Offset = "0x510BE20", VA = "0x510BE20")]
 		set;
 	}
 
@@ -67,7 +74,7 @@ public static class XRSettings
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x4DE28A0", Offset = "0x4DE28A0", VA = "0x4DE28A0")]
+		[Address(RVA = "0x510BE60", Offset = "0x510BE60", VA = "0x510BE60")]
 		get;
 	}
 
@@ -77,7 +84,7 @@ public static class XRSettings
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x4DE28D0", Offset = "0x4DE28D0", VA = "0x4DE28D0")]
+		[Address(RVA = "0x510BE90", Offset = "0x510BE90", VA = "0x510BE90")]
 		get;
 	}
 
@@ -88,7 +95,7 @@ public static class XRSettings
 	public static RenderTextureDescriptor eyeTextureDesc
 	{
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x4DE2900", Offset = "0x4DE2900", VA = "0x4DE2900")]
+		[Address(RVA = "0x510BEC0", Offset = "0x510BEC0", VA = "0x510BEC0")]
 		get
 		{
 			return default(RenderTextureDescriptor);
@@ -99,7 +106,7 @@ public static class XRSettings
 	public static float renderViewportScale
 	{
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x4DE29A0", Offset = "0x4DE29A0", VA = "0x4DE29A0")]
+		[Address(RVA = "0x510BF60", Offset = "0x510BF60", VA = "0x510BF60")]
 		get
 		{
 			return default(float);
@@ -113,7 +120,7 @@ public static class XRSettings
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000009")]
-		[Address(RVA = "0x4DE29D0", Offset = "0x4DE29D0", VA = "0x4DE29D0")]
+		[Address(RVA = "0x510BF90", Offset = "0x510BF90", VA = "0x510BF90")]
 		get;
 	}
 
@@ -124,7 +131,7 @@ public static class XRSettings
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600000A")]
-		[Address(RVA = "0x4DE2A00", Offset = "0x4DE2A00", VA = "0x4DE2A00")]
+		[Address(RVA = "0x510BFC0", Offset = "0x510BFC0", VA = "0x510BFC0")]
 		get;
 	}
 
@@ -133,7 +140,7 @@ public static class XRSettings
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600000B")]
-		[Address(RVA = "0x4DE2A30", Offset = "0x4DE2A30", VA = "0x4DE2A30")]
+		[Address(RVA = "0x510BFF0", Offset = "0x510BFF0", VA = "0x510BFF0")]
 		get;
 	}
 
@@ -143,12 +150,12 @@ public static class XRSettings
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600000C")]
-		[Address(RVA = "0x4DE2A60", Offset = "0x4DE2A60", VA = "0x4DE2A60")]
+		[Address(RVA = "0x510C020", Offset = "0x510C020", VA = "0x510C020")]
 		get;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x4DE2970", Offset = "0x4DE2970", VA = "0x4DE2970")]
+	[Address(RVA = "0x510BF30", Offset = "0x510BF30", VA = "0x510BF30")]
 	private static extern void get_eyeTextureDesc_Injected(out RenderTextureDescriptor ret);
 }

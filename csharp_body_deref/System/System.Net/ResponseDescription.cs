@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.ResponseDescription
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Text;
 using Il2CppDummyDll;
 
@@ -30,7 +37,7 @@ internal class ResponseDescription
 	internal bool PositiveIntermediate
 	{
 		[Token(Token = "0x600070A")]
-		[Address(RVA = "0x46296D0", Offset = "0x46296D0", VA = "0x46296D0")]
+		[Address(RVA = "0x494E7D0", Offset = "0x494E7D0", VA = "0x494E7D0")]
 		get
 		{
 			return default(bool);
@@ -41,7 +48,7 @@ internal class ResponseDescription
 	internal bool PositiveCompletion
 	{
 		[Token(Token = "0x600070B")]
-		[Address(RVA = "0x46296E0", Offset = "0x46296E0", VA = "0x46296E0")]
+		[Address(RVA = "0x494E7E0", Offset = "0x494E7E0", VA = "0x494E7E0")]
 		get
 		{
 			return default(bool);
@@ -52,7 +59,7 @@ internal class ResponseDescription
 	internal bool TransientFailure
 	{
 		[Token(Token = "0x600070C")]
-		[Address(RVA = "0x46296F0", Offset = "0x46296F0", VA = "0x46296F0")]
+		[Address(RVA = "0x494E7F0", Offset = "0x494E7F0", VA = "0x494E7F0")]
 		get
 		{
 			return default(bool);
@@ -63,7 +70,7 @@ internal class ResponseDescription
 	internal bool PermanentFailure
 	{
 		[Token(Token = "0x600070D")]
-		[Address(RVA = "0x4629700", Offset = "0x4629700", VA = "0x4629700")]
+		[Address(RVA = "0x494E800", Offset = "0x494E800", VA = "0x494E800")]
 		get
 		{
 			return default(bool);
@@ -74,7 +81,7 @@ internal class ResponseDescription
 	internal bool InvalidStatusCode
 	{
 		[Token(Token = "0x600070E")]
-		[Address(RVA = "0x4629710", Offset = "0x4629710", VA = "0x4629710")]
+		[Address(RVA = "0x494E810", Offset = "0x494E810", VA = "0x494E810")]
 		get
 		{
 			return default(bool);
@@ -82,7 +89,7 @@ internal class ResponseDescription
 	}
 
 	[Token(Token = "0x600070F")]
-	[Address(RVA = "0x4629720", Offset = "0x4629720", VA = "0x4629720")]
+	[Address(RVA = "0x494E820", Offset = "0x494E820", VA = "0x494E820")]
 	public ResponseDescription()
 	{
 	}

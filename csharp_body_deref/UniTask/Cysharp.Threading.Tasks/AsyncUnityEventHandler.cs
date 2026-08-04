@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.AsyncUnityEventHandler
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Threading;
 using System.Threading.Tasks.Sources;
@@ -42,65 +49,65 @@ public class AsyncUnityEventHandler : IUniTaskSource, IValueTaskSource, IDisposa
 	private UniTaskCompletionSourceCore<AsyncUnit> core;
 
 	[Token(Token = "0x60008E6")]
-	[Address(RVA = "0x46D6860", Offset = "0x46D6860", VA = "0x46D6860")]
+	[Address(RVA = "0x49FB960", Offset = "0x49FB960", VA = "0x49FB960")]
 	public AsyncUnityEventHandler(UnityEvent unityEvent, CancellationToken cancellationToken, bool callOnce)
 	{
 	}
 
 	[Token(Token = "0x60008E7")]
-	[Address(RVA = "0x46D6AA0", Offset = "0x46D6AA0", VA = "0x46D6AA0")]
+	[Address(RVA = "0x49FBBA0", Offset = "0x49FBBA0", VA = "0x49FBBA0")]
 	public UniTask OnInvokeAsync()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60008E8")]
-	[Address(RVA = "0x46DD7A0", Offset = "0x46DD7A0", VA = "0x46DD7A0")]
+	[Address(RVA = "0x4A028A0", Offset = "0x4A028A0", VA = "0x4A028A0")]
 	private void Invoke()
 	{
 	}
 
 	[Token(Token = "0x60008E9")]
-	[Address(RVA = "0x46DD820", Offset = "0x46DD820", VA = "0x46DD820")]
+	[Address(RVA = "0x4A02920", Offset = "0x4A02920", VA = "0x4A02920")]
 	private static void CancellationCallback(object state)
 	{
 	}
 
 	[Token(Token = "0x60008EA")]
-	[Address(RVA = "0x46DD8F0", Offset = "0x46DD8F0", VA = "0x46DD8F0", Slot = "14")]
+	[Address(RVA = "0x4A029F0", Offset = "0x4A029F0", VA = "0x4A029F0", Slot = "14")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60008EB")]
-	[Address(RVA = "0x46DD960", Offset = "0x46DD960", VA = "0x46DD960", Slot = "15")]
+	[Address(RVA = "0x4A02A60", Offset = "0x4A02A60", VA = "0x4A02A60", Slot = "15")]
 	private UniTask Cysharp_002EThreading_002ETasks_002EIAsyncClickEventHandler_002EOnClickAsync()
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60008EC")]
-	[Address(RVA = "0x46DD970", Offset = "0x46DD970", VA = "0x46DD970", Slot = "6")]
+	[Address(RVA = "0x4A02A70", Offset = "0x4A02A70", VA = "0x4A02A70", Slot = "6")]
 	private void Cysharp_002EThreading_002ETasks_002EIUniTaskSource_002EGetResult(short token)
 	{
 	}
 
 	[Token(Token = "0x60008ED")]
-	[Address(RVA = "0x46DDAE0", Offset = "0x46DDAE0", VA = "0x46DDAE0", Slot = "4")]
+	[Address(RVA = "0x4A02BE0", Offset = "0x4A02BE0", VA = "0x4A02BE0", Slot = "4")]
 	private UniTaskStatus Cysharp_002EThreading_002ETasks_002EIUniTaskSource_002EGetStatus(short token)
 	{
 		return default(UniTaskStatus);
 	}
 
 	[Token(Token = "0x60008EE")]
-	[Address(RVA = "0x46DDB30", Offset = "0x46DDB30", VA = "0x46DDB30", Slot = "7")]
+	[Address(RVA = "0x4A02C30", Offset = "0x4A02C30", VA = "0x4A02C30", Slot = "7")]
 	private UniTaskStatus Cysharp_002EThreading_002ETasks_002EIUniTaskSource_002EUnsafeGetStatus()
 	{
 		return default(UniTaskStatus);
 	}
 
 	[Token(Token = "0x60008EF")]
-	[Address(RVA = "0x46DDBE0", Offset = "0x46DDBE0", VA = "0x46DDBE0", Slot = "5")]
+	[Address(RVA = "0x4A02CE0", Offset = "0x4A02CE0", VA = "0x4A02CE0", Slot = "5")]
 	private void Cysharp_002EThreading_002ETasks_002EIUniTaskSource_002EOnCompleted(Action<object> continuation, object state, short token)
 	{
 	}

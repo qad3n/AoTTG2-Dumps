@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.Identity
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.Remoting.Contexts;
 using System.Runtime.Remoting.Messaging;
 using Il2CppDummyDll;
@@ -39,13 +46,13 @@ internal abstract class Identity
 	public IMessageSink ChannelSink
 	{
 		[Token(Token = "0x6001C20")]
-		[Address(RVA = "0x4E79D70", Offset = "0x4E79D70", VA = "0x4E79D70")]
+		[Address(RVA = "0x3B5F890", Offset = "0x3B5F890", VA = "0x3B5F890")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001C21")]
-		[Address(RVA = "0x4E79D80", Offset = "0x4E79D80", VA = "0x4E79D80")]
+		[Address(RVA = "0x3B5F8A0", Offset = "0x3B5F8A0", VA = "0x3B5F8A0")]
 		set
 		{
 		}
@@ -55,7 +62,7 @@ internal abstract class Identity
 	public IMessageSink EnvoySink
 	{
 		[Token(Token = "0x6001C22")]
-		[Address(RVA = "0x4E79D90", Offset = "0x4E79D90", VA = "0x4E79D90")]
+		[Address(RVA = "0x3B5F8B0", Offset = "0x3B5F8B0", VA = "0x3B5F8B0")]
 		get
 		{
 			return null;
@@ -66,13 +73,13 @@ internal abstract class Identity
 	public string ObjectUri
 	{
 		[Token(Token = "0x6001C23")]
-		[Address(RVA = "0x4E79DA0", Offset = "0x4E79DA0", VA = "0x4E79DA0")]
+		[Address(RVA = "0x3B5F8C0", Offset = "0x3B5F8C0", VA = "0x3B5F8C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001C24")]
-		[Address(RVA = "0x4E79DB0", Offset = "0x4E79DB0", VA = "0x4E79DB0")]
+		[Address(RVA = "0x3B5F8D0", Offset = "0x3B5F8D0", VA = "0x3B5F8D0")]
 		set
 		{
 		}
@@ -82,7 +89,7 @@ internal abstract class Identity
 	public bool IsConnected
 	{
 		[Token(Token = "0x6001C25")]
-		[Address(RVA = "0x4E79DC0", Offset = "0x4E79DC0", VA = "0x4E79DC0")]
+		[Address(RVA = "0x3B5F8E0", Offset = "0x3B5F8E0", VA = "0x3B5F8E0")]
 		get
 		{
 			return default(bool);
@@ -93,13 +100,13 @@ internal abstract class Identity
 	public bool Disposed
 	{
 		[Token(Token = "0x6001C26")]
-		[Address(RVA = "0x4E79DD0", Offset = "0x4E79DD0", VA = "0x4E79DD0")]
+		[Address(RVA = "0x3B5F8F0", Offset = "0x3B5F8F0", VA = "0x3B5F8F0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001C27")]
-		[Address(RVA = "0x4E79DE0", Offset = "0x4E79DE0", VA = "0x4E79DE0")]
+		[Address(RVA = "0x3B5F900", Offset = "0x3B5F900", VA = "0x3B5F900")]
 		set
 		{
 		}
@@ -109,7 +116,7 @@ internal abstract class Identity
 	public System.Runtime.Remoting.Contexts.DynamicPropertyCollection ClientDynamicProperties
 	{
 		[Token(Token = "0x6001C28")]
-		[Address(RVA = "0x4E79DF0", Offset = "0x4E79DF0", VA = "0x4E79DF0")]
+		[Address(RVA = "0x3B5F910", Offset = "0x3B5F910", VA = "0x3B5F910")]
 		get
 		{
 			return null;
@@ -120,7 +127,7 @@ internal abstract class Identity
 	public bool HasServerDynamicSinks
 	{
 		[Token(Token = "0x6001C29")]
-		[Address(RVA = "0x4E79E70", Offset = "0x4E79E70", VA = "0x4E79E70")]
+		[Address(RVA = "0x3B5F990", Offset = "0x3B5F990", VA = "0x3B5F990")]
 		get
 		{
 			return default(bool);
@@ -128,7 +135,7 @@ internal abstract class Identity
 	}
 
 	[Token(Token = "0x6001C1E")]
-	[Address(RVA = "0x4E79D40", Offset = "0x4E79D40", VA = "0x4E79D40")]
+	[Address(RVA = "0x3B5F860", Offset = "0x3B5F860", VA = "0x3B5F860")]
 	public Identity(string objectUri)
 	{
 	}
@@ -137,13 +144,13 @@ internal abstract class Identity
 	public abstract ObjRef CreateObjRef(Type requestedType);
 
 	[Token(Token = "0x6001C2A")]
-	[Address(RVA = "0x4E79E90", Offset = "0x4E79E90", VA = "0x4E79E90")]
+	[Address(RVA = "0x3B5F9B0", Offset = "0x3B5F9B0", VA = "0x3B5F9B0")]
 	public void NotifyClientDynamicSinks(bool start, IMessage req_msg, bool client_site, bool async)
 	{
 	}
 
 	[Token(Token = "0x6001C2B")]
-	[Address(RVA = "0x4E79EF0", Offset = "0x4E79EF0", VA = "0x4E79EF0")]
+	[Address(RVA = "0x3B5FA10", Offset = "0x3B5FA10", VA = "0x3B5FA10")]
 	public void NotifyServerDynamicSinks(bool start, IMessage req_msg, bool client_site, bool async)
 	{
 	}

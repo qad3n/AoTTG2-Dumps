@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Exception
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Diagnostics;
 using System.Reflection;
@@ -103,7 +110,7 @@ public class Exception : ISerializable
 	public virtual string Message
 	{
 		[Token(Token = "0x6000E19")]
-		[Address(RVA = "0x5010B80", Offset = "0x5010B80", VA = "0x5010B80", Slot = "5")]
+		[Address(RVA = "0x3CF66A0", Offset = "0x3CF66A0", VA = "0x3CF66A0", Slot = "5")]
 		get
 		{
 			return null;
@@ -114,7 +121,7 @@ public class Exception : ISerializable
 	public virtual IDictionary Data
 	{
 		[Token(Token = "0x6000E1A")]
-		[Address(RVA = "0x5010CE0", Offset = "0x5010CE0", VA = "0x5010CE0", Slot = "6")]
+		[Address(RVA = "0x3CF6800", Offset = "0x3CF6800", VA = "0x3CF6800", Slot = "6")]
 		get
 		{
 			return null;
@@ -125,7 +132,7 @@ public class Exception : ISerializable
 	public Exception InnerException
 	{
 		[Token(Token = "0x6000E1C")]
-		[Address(RVA = "0x5010D70", Offset = "0x5010D70", VA = "0x5010D70", Slot = "7")]
+		[Address(RVA = "0x3CF6890", Offset = "0x3CF6890", VA = "0x3CF6890", Slot = "7")]
 		get
 		{
 			return null;
@@ -136,7 +143,7 @@ public class Exception : ISerializable
 	public MethodBase TargetSite
 	{
 		[Token(Token = "0x6000E1D")]
-		[Address(RVA = "0x5010D80", Offset = "0x5010D80", VA = "0x5010D80", Slot = "8")]
+		[Address(RVA = "0x3CF68A0", Offset = "0x3CF68A0", VA = "0x3CF68A0", Slot = "8")]
 		get
 		{
 			return null;
@@ -147,7 +154,7 @@ public class Exception : ISerializable
 	public virtual string StackTrace
 	{
 		[Token(Token = "0x6000E1E")]
-		[Address(RVA = "0x5010E30", Offset = "0x5010E30", VA = "0x5010E30", Slot = "9")]
+		[Address(RVA = "0x3CF6950", Offset = "0x3CF6950", VA = "0x3CF6950", Slot = "9")]
 		get
 		{
 			return null;
@@ -158,7 +165,7 @@ public class Exception : ISerializable
 	public virtual string Source
 	{
 		[Token(Token = "0x6000E21")]
-		[Address(RVA = "0x5010ED0", Offset = "0x5010ED0", VA = "0x5010ED0", Slot = "10")]
+		[Address(RVA = "0x3CF69F0", Offset = "0x3CF69F0", VA = "0x3CF69F0", Slot = "10")]
 		get
 		{
 			return null;
@@ -169,124 +176,124 @@ public class Exception : ISerializable
 	public int HResult
 	{
 		[Token(Token = "0x6000E28")]
-		[Address(RVA = "0x50118E0", Offset = "0x50118E0", VA = "0x50118E0")]
+		[Address(RVA = "0x3CF7400", Offset = "0x3CF7400", VA = "0x3CF7400")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000E29")]
-		[Address(RVA = "0x50118F0", Offset = "0x50118F0", VA = "0x50118F0")]
+		[Address(RVA = "0x3CF7410", Offset = "0x3CF7410", VA = "0x3CF7410")]
 		protected set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000E14")]
-	[Address(RVA = "0x5010540", Offset = "0x5010540", VA = "0x5010540")]
+	[Address(RVA = "0x3CF6060", Offset = "0x3CF6060", VA = "0x3CF6060")]
 	private void Init()
 	{
 	}
 
 	[Token(Token = "0x6000E15")]
-	[Address(RVA = "0x50105E0", Offset = "0x50105E0", VA = "0x50105E0")]
+	[Address(RVA = "0x3CF6100", Offset = "0x3CF6100", VA = "0x3CF6100")]
 	public Exception()
 	{
 	}
 
 	[Token(Token = "0x6000E16")]
-	[Address(RVA = "0x5010600", Offset = "0x5010600", VA = "0x5010600")]
+	[Address(RVA = "0x3CF6120", Offset = "0x3CF6120", VA = "0x3CF6120")]
 	public Exception(string message)
 	{
 	}
 
 	[Token(Token = "0x6000E17")]
-	[Address(RVA = "0x5010640", Offset = "0x5010640", VA = "0x5010640")]
+	[Address(RVA = "0x3CF6160", Offset = "0x3CF6160", VA = "0x3CF6160")]
 	public Exception(string message, Exception innerException)
 	{
 	}
 
 	[Token(Token = "0x6000E18")]
-	[Address(RVA = "0x5010690", Offset = "0x5010690", VA = "0x5010690")]
+	[Address(RVA = "0x3CF61B0", Offset = "0x3CF61B0", VA = "0x3CF61B0")]
 	protected Exception(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000E1B")]
-	[Address(RVA = "0x5010C90", Offset = "0x5010C90", VA = "0x5010C90")]
+	[Address(RVA = "0x3CF67B0", Offset = "0x3CF67B0", VA = "0x3CF67B0")]
 	private string GetClassName()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E1F")]
-	[Address(RVA = "0x5010E70", Offset = "0x5010E70", VA = "0x5010E70")]
+	[Address(RVA = "0x3CF6990", Offset = "0x3CF6990", VA = "0x3CF6990")]
 	private string GetStackTrace(bool needFileInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E20")]
-	[Address(RVA = "0x5010EC0", Offset = "0x5010EC0", VA = "0x5010EC0")]
+	[Address(RVA = "0x3CF69E0", Offset = "0x3CF69E0", VA = "0x3CF69E0")]
 	internal void SetErrorCode(int hr)
 	{
 	}
 
 	[Token(Token = "0x6000E22")]
-	[Address(RVA = "0x5011000", Offset = "0x5011000", VA = "0x5011000", Slot = "3")]
+	[Address(RVA = "0x3CF6B20", Offset = "0x3CF6B20", VA = "0x3CF6B20", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E23")]
-	[Address(RVA = "0x5011010", Offset = "0x5011010", VA = "0x5011010")]
+	[Address(RVA = "0x3CF6B30", Offset = "0x3CF6B30", VA = "0x3CF6B30")]
 	private string ToString(bool needFileLineInfo, bool needMessage)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E24")]
-	[Address(RVA = "0x5011300", Offset = "0x5011300", VA = "0x5011300", Slot = "11")]
+	[Address(RVA = "0x3CF6E20", Offset = "0x3CF6E20", VA = "0x3CF6E20", Slot = "11")]
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000E25")]
-	[Address(RVA = "0x5011780", Offset = "0x5011780", VA = "0x5011780")]
+	[Address(RVA = "0x3CF72A0", Offset = "0x3CF72A0", VA = "0x3CF72A0")]
 	[OnDeserialized]
 	private void OnDeserialized(StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000E26")]
-	[Address(RVA = "0x5010EB0", Offset = "0x5010EB0", VA = "0x5010EB0")]
+	[Address(RVA = "0x3CF69D0", Offset = "0x3CF69D0", VA = "0x3CF69D0")]
 	private string StripFileInfo(string stackTrace, bool isRemoteStackTrace)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E27")]
-	[Address(RVA = "0x5011810", Offset = "0x5011810", VA = "0x5011810")]
+	[Address(RVA = "0x3CF7330", Offset = "0x3CF7330", VA = "0x3CF7330")]
 	internal void RestoreExceptionDispatchInfo(ExceptionDispatchInfo exceptionDispatchInfo)
 	{
 	}
 
 	[Token(Token = "0x6000E2A")]
-	[Address(RVA = "0x5010D60", Offset = "0x5010D60", VA = "0x5010D60", Slot = "12")]
+	[Address(RVA = "0x3CF6880", Offset = "0x3CF6880", VA = "0x3CF6880", Slot = "12")]
 	public new Type GetType()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E2B")]
-	[Address(RVA = "0x5011900", Offset = "0x5011900", VA = "0x5011900")]
+	[Address(RVA = "0x3CF7420", Offset = "0x3CF7420", VA = "0x3CF7420")]
 	internal static string GetMessageFromNativeResources(ExceptionMessageKind kind)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E2C")]
-	[Address(RVA = "0x5011970", Offset = "0x5011970", VA = "0x5011970")]
+	[Address(RVA = "0x3CF7490", Offset = "0x3CF7490", VA = "0x3CF7490")]
 	internal Exception FixRemotingException()
 	{
 		return null;
@@ -294,6 +301,6 @@ public class Exception : ISerializable
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000E2D")]
-	[Address(RVA = "0x5011A50", Offset = "0x5011A50", VA = "0x5011A50")]
+	[Address(RVA = "0x3CF7570", Offset = "0x3CF7570", VA = "0x3CF7570")]
 	internal static extern void ReportUnhandledException(Exception exception);
 }

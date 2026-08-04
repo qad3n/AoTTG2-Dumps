@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.StickyNote
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 using UnityEngine;
@@ -40,14 +47,14 @@ public class StickyNote : GraphElement<IGraph>
 	public Rect position
 	{
 		[Token(Token = "0x6000FA9")]
-		[Address(RVA = "0x4A377E0", Offset = "0x4A377E0", VA = "0x4A377E0")]
+		[Address(RVA = "0x4D5C3B0", Offset = "0x4D5C3B0", VA = "0x4D5C3B0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Rect);
 		}
 		[Token(Token = "0x6000FAA")]
-		[Address(RVA = "0x4A377F0", Offset = "0x4A377F0", VA = "0x4A377F0")]
+		[Address(RVA = "0x4D5C3C0", Offset = "0x4D5C3C0", VA = "0x4D5C3C0")]
 		[CompilerGenerated]
 		set
 		{
@@ -59,14 +66,14 @@ public class StickyNote : GraphElement<IGraph>
 	public string title
 	{
 		[Token(Token = "0x6000FAB")]
-		[Address(RVA = "0x4A37800", Offset = "0x4A37800", VA = "0x4A37800")]
+		[Address(RVA = "0x4D5C3D0", Offset = "0x4D5C3D0", VA = "0x4D5C3D0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FAC")]
-		[Address(RVA = "0x4A37810", Offset = "0x4A37810", VA = "0x4A37810")]
+		[Address(RVA = "0x4D5C3E0", Offset = "0x4D5C3E0", VA = "0x4D5C3E0")]
 		[CompilerGenerated]
 		set
 		{
@@ -79,14 +86,14 @@ public class StickyNote : GraphElement<IGraph>
 	public string body
 	{
 		[Token(Token = "0x6000FAD")]
-		[Address(RVA = "0x4A37820", Offset = "0x4A37820", VA = "0x4A37820")]
+		[Address(RVA = "0x4D5C3F0", Offset = "0x4D5C3F0", VA = "0x4D5C3F0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FAE")]
-		[Address(RVA = "0x4A37830", Offset = "0x4A37830", VA = "0x4A37830")]
+		[Address(RVA = "0x4D5C400", Offset = "0x4D5C400", VA = "0x4D5C400")]
 		[CompilerGenerated]
 		set
 		{
@@ -99,14 +106,14 @@ public class StickyNote : GraphElement<IGraph>
 	public ColorEnum colorTheme
 	{
 		[Token(Token = "0x6000FAF")]
-		[Address(RVA = "0x4A37840", Offset = "0x4A37840", VA = "0x4A37840")]
+		[Address(RVA = "0x4D5C410", Offset = "0x4D5C410", VA = "0x4D5C410")]
 		[CompilerGenerated]
 		get
 		{
 			return default(ColorEnum);
 		}
 		[Token(Token = "0x6000FB0")]
-		[Address(RVA = "0x4A37850", Offset = "0x4A37850", VA = "0x4A37850")]
+		[Address(RVA = "0x4D5C420", Offset = "0x4D5C420", VA = "0x4D5C420")]
 		[CompilerGenerated]
 		set
 		{
@@ -114,20 +121,20 @@ public class StickyNote : GraphElement<IGraph>
 	}
 
 	[Token(Token = "0x6000FA8")]
-	[Address(RVA = "0x4A37780", Offset = "0x4A37780", VA = "0x4A37780")]
+	[Address(RVA = "0x4D5C350", Offset = "0x4D5C350", VA = "0x4D5C350")]
 	public StickyNote()
 	{
 	}
 
 	[Token(Token = "0x6000FB1")]
-	[Address(RVA = "0x4A37860", Offset = "0x4A37860", VA = "0x4A37860")]
+	[Address(RVA = "0x4D5C430", Offset = "0x4D5C430", VA = "0x4D5C430")]
 	public static Color GetStickyColor(ColorEnum enumValue)
 	{
 		return default(Color);
 	}
 
 	[Token(Token = "0x6000FB2")]
-	[Address(RVA = "0x4A37900", Offset = "0x4A37900", VA = "0x4A37900")]
+	[Address(RVA = "0x4D5C4D0", Offset = "0x4D5C4D0", VA = "0x4D5C4D0")]
 	public static Color GetFontColor(ColorEnum enumValue)
 	{
 		return default(Color);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Converters.XElementWrapper
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Xml.Linq;
 using Il2CppDummyDll;
@@ -15,7 +22,7 @@ internal class XElementWrapper : XContainerWrapper, IXmlElement, IXmlNode
 	private XElement Element
 	{
 		[Token(Token = "0x6000F9A")]
-		[Address(RVA = "0x3B56670", Offset = "0x3B56670", VA = "0x3B56670")]
+		[Address(RVA = "0x3E4BFC0", Offset = "0x3E4BFC0", VA = "0x3E4BFC0")]
 		get
 		{
 			return null;
@@ -26,7 +33,7 @@ internal class XElementWrapper : XContainerWrapper, IXmlElement, IXmlNode
 	public override List<IXmlNode> Attributes
 	{
 		[Token(Token = "0x6000F9D")]
-		[Address(RVA = "0x3B567C0", Offset = "0x3B567C0", VA = "0x3B567C0", Slot = "17")]
+		[Address(RVA = "0x3E4C110", Offset = "0x3E4C110", VA = "0x3E4C110", Slot = "17")]
 		get
 		{
 			return null;
@@ -37,13 +44,13 @@ internal class XElementWrapper : XContainerWrapper, IXmlElement, IXmlNode
 	public override string? Value
 	{
 		[Token(Token = "0x6000FA0")]
-		[Address(RVA = "0x3B57530", Offset = "0x3B57530", VA = "0x3B57530", Slot = "19")]
+		[Address(RVA = "0x3E4CE80", Offset = "0x3E4CE80", VA = "0x3E4CE80", Slot = "19")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FA1")]
-		[Address(RVA = "0x3B575A0", Offset = "0x3B575A0", VA = "0x3B575A0", Slot = "20")]
+		[Address(RVA = "0x3E4CEF0", Offset = "0x3E4CEF0", VA = "0x3E4CEF0", Slot = "20")]
 		set
 		{
 		}
@@ -53,7 +60,7 @@ internal class XElementWrapper : XContainerWrapper, IXmlElement, IXmlNode
 	public override string? LocalName
 	{
 		[Token(Token = "0x6000FA2")]
-		[Address(RVA = "0x3B57640", Offset = "0x3B57640", VA = "0x3B57640", Slot = "15")]
+		[Address(RVA = "0x3E4CF90", Offset = "0x3E4CF90", VA = "0x3E4CF90", Slot = "15")]
 		get
 		{
 			return null;
@@ -64,7 +71,7 @@ internal class XElementWrapper : XContainerWrapper, IXmlElement, IXmlNode
 	public override string? NamespaceUri
 	{
 		[Token(Token = "0x6000FA3")]
-		[Address(RVA = "0x3B576B0", Offset = "0x3B576B0", VA = "0x3B576B0", Slot = "22")]
+		[Address(RVA = "0x3E4D000", Offset = "0x3E4D000", VA = "0x3E4D000", Slot = "22")]
 		get
 		{
 			return null;
@@ -75,7 +82,7 @@ internal class XElementWrapper : XContainerWrapper, IXmlElement, IXmlNode
 	public bool IsEmpty
 	{
 		[Token(Token = "0x6000FA5")]
-		[Address(RVA = "0x3B57720", Offset = "0x3B57720", VA = "0x3B57720", Slot = "26")]
+		[Address(RVA = "0x3E4D070", Offset = "0x3E4D070", VA = "0x3E4D070", Slot = "26")]
 		get
 		{
 			return default(bool);
@@ -83,33 +90,33 @@ internal class XElementWrapper : XContainerWrapper, IXmlElement, IXmlNode
 	}
 
 	[Token(Token = "0x6000F9B")]
-	[Address(RVA = "0x3B55090", Offset = "0x3B55090", VA = "0x3B55090")]
+	[Address(RVA = "0x3E4A9E0", Offset = "0x3E4A9E0", VA = "0x3E4A9E0")]
 	public XElementWrapper(XElement element)
 	{
 	}
 
 	[Token(Token = "0x6000F9C")]
-	[Address(RVA = "0x3B566D0", Offset = "0x3B566D0", VA = "0x3B566D0", Slot = "24")]
+	[Address(RVA = "0x3E4C020", Offset = "0x3E4C020", VA = "0x3E4C020", Slot = "24")]
 	public void SetAttributeNode(IXmlNode attribute)
 	{
 	}
 
 	[Token(Token = "0x6000F9E")]
-	[Address(RVA = "0x3B56E60", Offset = "0x3B56E60", VA = "0x3B56E60")]
+	[Address(RVA = "0x3E4C7B0", Offset = "0x3E4C7B0", VA = "0x3E4C7B0")]
 	private bool HasImplicitNamespaceAttribute(string namespaceUri)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F9F")]
-	[Address(RVA = "0x3B57500", Offset = "0x3B57500", VA = "0x3B57500", Slot = "21")]
+	[Address(RVA = "0x3E4CE50", Offset = "0x3E4CE50", VA = "0x3E4CE50", Slot = "21")]
 	public override IXmlNode AppendChild(IXmlNode newChild)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000FA4")]
-	[Address(RVA = "0x3B57470", Offset = "0x3B57470", VA = "0x3B57470", Slot = "25")]
+	[Address(RVA = "0x3E4CDC0", Offset = "0x3E4CDC0", VA = "0x3E4CDC0", Slot = "25")]
 	public string GetPrefixOfNamespace(string namespaceUri)
 	{
 		return null;

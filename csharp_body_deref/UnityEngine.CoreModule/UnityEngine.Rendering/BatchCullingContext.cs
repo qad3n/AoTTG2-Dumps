@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.BatchCullingContext
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using Unity.Collections;
@@ -6,7 +13,7 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000315")]
+[Token(Token = "0x2000318")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Camera/BatchRendererGroup.h")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public struct BatchCullingContext
@@ -64,8 +71,8 @@ public struct BatchCullingContext
 	[FieldOffset(Offset = "0xA8")]
 	public readonly int receiverPlaneCount;
 
-	[Token(Token = "0x6001109")]
-	[Address(RVA = "0x4B0D9F0", Offset = "0x4B0D9F0", VA = "0x4B0D9F0")]
+	[Token(Token = "0x600110B")]
+	[Address(RVA = "0x4E35320", Offset = "0x4E35320", VA = "0x4E35320")]
 	internal BatchCullingContext(NativeArray<Plane> inCullingPlanes, NativeArray<CullingSplit> inCullingSplits, LODParameters inLodParameters, Matrix4x4 inLocalToWorldMatrix, BatchCullingViewType inViewType, BatchCullingProjectionType inProjectionType, BatchCullingFlags inBatchCullingFlags, ulong inViewID, uint inCullingLayerMask, ulong inSceneCullingMask, int inReceiverPlaneOffset, int inReceiverPlaneCount)
 	{
 	}

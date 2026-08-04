@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.Button
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -19,7 +26,7 @@ public class Button : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 	public class ButtonClickedEvent : UnityEvent
 	{
 		[Token(Token = "0x6000015")]
-		[Address(RVA = "0x4BC8B90", Offset = "0x4BC8B90", VA = "0x4BC8B90")]
+		[Address(RVA = "0x4EF04C0", Offset = "0x4EF04C0", VA = "0x4EF04C0")]
 		public ButtonClickedEvent()
 		{
 		}
@@ -53,7 +60,7 @@ public class Button : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x6000019")]
-			[Address(RVA = "0x4BC8FE0", Offset = "0x4BC8FE0", VA = "0x4BC8FE0", Slot = "4")]
+			[Address(RVA = "0x4EF0910", Offset = "0x4EF0910", VA = "0x4EF0910", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -65,7 +72,7 @@ public class Button : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x600001B")]
-			[Address(RVA = "0x4BC9030", Offset = "0x4BC9030", VA = "0x4BC9030", Slot = "7")]
+			[Address(RVA = "0x4EF0960", Offset = "0x4EF0960", VA = "0x4EF0960", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -74,28 +81,28 @@ public class Button : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 		}
 
 		[Token(Token = "0x6000016")]
-		[Address(RVA = "0x4BC8EA0", Offset = "0x4BC8EA0", VA = "0x4BC8EA0")]
+		[Address(RVA = "0x4EF07D0", Offset = "0x4EF07D0", VA = "0x4EF07D0")]
 		[DebuggerHidden]
 		public _003COnFinishSubmit_003Ed__9(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000017")]
-		[Address(RVA = "0x4BC8EC0", Offset = "0x4BC8EC0", VA = "0x4BC8EC0", Slot = "5")]
+		[Address(RVA = "0x4EF07F0", Offset = "0x4EF07F0", VA = "0x4EF07F0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000018")]
-		[Address(RVA = "0x4BC8ED0", Offset = "0x4BC8ED0", VA = "0x4BC8ED0", Slot = "6")]
+		[Address(RVA = "0x4EF0800", Offset = "0x4EF0800", VA = "0x4EF0800", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600001A")]
-		[Address(RVA = "0x4BC8FF0", Offset = "0x4BC8FF0", VA = "0x4BC8FF0", Slot = "8")]
+		[Address(RVA = "0x4EF0920", Offset = "0x4EF0920", VA = "0x4EF0920", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -112,44 +119,44 @@ public class Button : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 	public ButtonClickedEvent onClick
 	{
 		[Token(Token = "0x600000F")]
-		[Address(RVA = "0x4BC8BA0", Offset = "0x4BC8BA0", VA = "0x4BC8BA0")]
+		[Address(RVA = "0x4EF04D0", Offset = "0x4EF04D0", VA = "0x4EF04D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000010")]
-		[Address(RVA = "0x4BC8BB0", Offset = "0x4BC8BB0", VA = "0x4BC8BB0")]
+		[Address(RVA = "0x4EF04E0", Offset = "0x4EF04E0", VA = "0x4EF04E0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x4BC8B00", Offset = "0x4BC8B00", VA = "0x4BC8B00")]
+	[Address(RVA = "0x4EF0430", Offset = "0x4EF0430", VA = "0x4EF0430")]
 	protected Button()
 	{
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x4BC8BD0", Offset = "0x4BC8BD0", VA = "0x4BC8BD0")]
+	[Address(RVA = "0x4EF0500", Offset = "0x4EF0500", VA = "0x4EF0500")]
 	private void Press()
 	{
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x4BC8C50", Offset = "0x4BC8C50", VA = "0x4BC8C50", Slot = "41")]
+	[Address(RVA = "0x4EF0580", Offset = "0x4EF0580", VA = "0x4EF0580", Slot = "41")]
 	public virtual void OnPointerClick(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x4BC8CE0", Offset = "0x4BC8CE0", VA = "0x4BC8CE0", Slot = "42")]
+	[Address(RVA = "0x4EF0610", Offset = "0x4EF0610", VA = "0x4EF0610", Slot = "42")]
 	public virtual void OnSubmit(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x4BC8E30", Offset = "0x4BC8E30", VA = "0x4BC8E30")]
+	[Address(RVA = "0x4EF0760", Offset = "0x4EF0760", VA = "0x4EF0760")]
 	[IteratorStateMachine(typeof(_003COnFinishSubmit_003Ed__9))]
 	private IEnumerator OnFinishSubmit()
 	{

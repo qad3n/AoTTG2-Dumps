@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Layout.LayoutDataStore
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -43,19 +50,19 @@ internal struct LayoutDataStore : IDisposable
 		private unsafe Chunk* m_Chunks;
 
 		[Token(Token = "0x6001F46")]
-		[Address(RVA = "0x4C93EF0", Offset = "0x4C93EF0", VA = "0x4C93EF0")]
+		[Address(RVA = "0x4FBB820", Offset = "0x4FBB820", VA = "0x4FBB820")]
 		public ComponentDataStore(int size, Allocator allocator)
 		{
 		}
 
 		[Token(Token = "0x6001F47")]
-		[Address(RVA = "0x4C940A0", Offset = "0x4C940A0", VA = "0x4C940A0", Slot = "4")]
+		[Address(RVA = "0x4FBB9D0", Offset = "0x4FBB9D0", VA = "0x4FBB9D0", Slot = "4")]
 		public void Dispose()
 		{
 		}
 
 		[Token(Token = "0x6001F48")]
-		[Address(RVA = "0x4C94180", Offset = "0x4C94180", VA = "0x4C94180")]
+		[Address(RVA = "0x4FBBAB0", Offset = "0x4FBBAB0", VA = "0x4FBBAB0")]
 		public unsafe byte* GetComponentDataPtr(int index)
 		{
 			//IL_0002: Expected I, but got O
@@ -63,7 +70,7 @@ internal struct LayoutDataStore : IDisposable
 		}
 
 		[Token(Token = "0x6001F49")]
-		[Address(RVA = "0x4C94450", Offset = "0x4C94450", VA = "0x4C94450")]
+		[Address(RVA = "0x4FBBD80", Offset = "0x4FBBD80", VA = "0x4FBBD80")]
 		public void ResizeCapacity(int capacity)
 		{
 		}
@@ -111,7 +118,7 @@ internal struct LayoutDataStore : IDisposable
 	public bool IsValid
 	{
 		[Token(Token = "0x6001F38")]
-		[Address(RVA = "0x4C939F0", Offset = "0x4C939F0", VA = "0x4C939F0")]
+		[Address(RVA = "0x4FBB320", Offset = "0x4FBB320", VA = "0x4FBB320")]
 		get
 		{
 			return default(bool);
@@ -119,19 +126,19 @@ internal struct LayoutDataStore : IDisposable
 	}
 
 	[Token(Token = "0x6001F39")]
-	[Address(RVA = "0x4C8D810", Offset = "0x4C8D810", VA = "0x4C8D810")]
+	[Address(RVA = "0x4FB5140", Offset = "0x4FB5140", VA = "0x4FB5140")]
 	public LayoutDataStore(ComponentType[] components, int initialCapacity, Allocator allocator)
 	{
 	}
 
 	[Token(Token = "0x6001F3A")]
-	[Address(RVA = "0x4C8DB00", Offset = "0x4C8DB00", VA = "0x4C8DB00", Slot = "4")]
+	[Address(RVA = "0x4FB5430", Offset = "0x4FB5430", VA = "0x4FB5430", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6001F3B")]
-	[Address(RVA = "0x4C94110", Offset = "0x4C94110", VA = "0x4C94110")]
+	[Address(RVA = "0x4FBBA40", Offset = "0x4FBBA40", VA = "0x4FBBA40")]
 	public bool Exists(in LayoutHandle handle)
 	{
 		return default(bool);
@@ -139,7 +146,7 @@ internal struct LayoutDataStore : IDisposable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001F3C")]
-	[Address(RVA = "0x4C94140", Offset = "0x4C94140", VA = "0x4C94140")]
+	[Address(RVA = "0x4FBBA70", Offset = "0x4FBBA70", VA = "0x4FBBA70")]
 	internal unsafe readonly void* GetComponentDataPtr(int index, int componentIndex)
 	{
 		//IL_0002: Expected I, but got O
@@ -147,45 +154,45 @@ internal struct LayoutDataStore : IDisposable
 	}
 
 	[Token(Token = "0x6001F3D")]
-	[Address(RVA = "0x4C941B0", Offset = "0x4C941B0", VA = "0x4C941B0")]
+	[Address(RVA = "0x4FBBAE0", Offset = "0x4FBBAE0", VA = "0x4FBBAE0")]
 	private unsafe LayoutHandle Allocate(byte** data, int count)
 	{
 		return default(LayoutHandle);
 	}
 
 	[Token(Token = "0x6001F3E")]
-	[Address(RVA = "0x4C8DD30", Offset = "0x4C8DD30", VA = "0x4C8DD30")]
+	[Address(RVA = "0x4FB5660", Offset = "0x4FB5660", VA = "0x4FB5660")]
 	public void Free(in LayoutHandle handle)
 	{
 	}
 
 	[Token(Token = "0x6001F3F")]
-	[Address(RVA = "0x4C94350", Offset = "0x4C94350", VA = "0x4C94350")]
+	[Address(RVA = "0x4FBBC80", Offset = "0x4FBBC80", VA = "0x4FBBC80")]
 	private unsafe static void SetNextFreeIndex(ComponentDataStore* ptr, int index, int value)
 	{
 	}
 
 	[Token(Token = "0x6001F40")]
-	[Address(RVA = "0x4C942F0", Offset = "0x4C942F0", VA = "0x4C942F0")]
+	[Address(RVA = "0x4FBBC20", Offset = "0x4FBBC20", VA = "0x4FBBC20")]
 	private unsafe static int GetNextFreeIndex(ComponentDataStore* ptr, int index)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001F41")]
-	[Address(RVA = "0x4C94320", Offset = "0x4C94320", VA = "0x4C94320")]
+	[Address(RVA = "0x4FBBC50", Offset = "0x4FBBC50", VA = "0x4FBBC50")]
 	private void IncreaseCapacity()
 	{
 	}
 
 	[Token(Token = "0x6001F42")]
-	[Address(RVA = "0x4C93F20", Offset = "0x4C93F20", VA = "0x4C93F20")]
+	[Address(RVA = "0x4FBB850", Offset = "0x4FBB850", VA = "0x4FBB850")]
 	private void ResizeCapacity(int capacity)
 	{
 	}
 
 	[Token(Token = "0x6001F43")]
-	[Address(RVA = "0x4C94380", Offset = "0x4C94380", VA = "0x4C94380")]
+	[Address(RVA = "0x4FBBCB0", Offset = "0x4FBBCB0", VA = "0x4FBBCB0")]
 	private unsafe static void* ResizeArray(void* fromPtr, long fromCount, long toCount, long size, int align, Allocator allocator)
 	{
 		//IL_0002: Expected I, but got O

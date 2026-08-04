@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Reflection.ExceptionHandlingClause
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -37,13 +44,13 @@ public class ExceptionHandlingClause
 	internal int handler_length;
 
 	[Token(Token = "0x6002619")]
-	[Address(RVA = "0x4EF9700", Offset = "0x4EF9700", VA = "0x4EF9700")]
+	[Address(RVA = "0x3BDF220", Offset = "0x3BDF220", VA = "0x3BDF220")]
 	protected ExceptionHandlingClause()
 	{
 	}
 
 	[Token(Token = "0x600261A")]
-	[Address(RVA = "0x4EF9710", Offset = "0x4EF9710", VA = "0x4EF9710", Slot = "3")]
+	[Address(RVA = "0x3BDF230", Offset = "0x3BDF230", VA = "0x3BDF230", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Discord.LobbySearchQuery
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Plugins/DiscordGameSDK/Core.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -55,7 +62,7 @@ public struct LobbySearchQuery
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x60000AF")]
-		[Address(RVA = "0x23306D0", Offset = "0x23306D0", VA = "0x23306D0")]
+		[Address(RVA = "0x2330790", Offset = "0x2330790", VA = "0x2330790")]
 		get
 		{
 			return default(FFIMethods);
@@ -63,25 +70,25 @@ public struct LobbySearchQuery
 	}
 
 	[Token(Token = "0x60000B0")]
-	[Address(RVA = "0x23307E0", Offset = "0x23307E0", VA = "0x23307E0")]
+	[Address(RVA = "0x23308A0", Offset = "0x23308A0", VA = "0x23308A0")]
 	public void Filter(string key, LobbySearchComparison comparison, LobbySearchCast cast, string value)
 	{
 	}
 
 	[Token(Token = "0x60000B1")]
-	[Address(RVA = "0x2330890", Offset = "0x2330890", VA = "0x2330890")]
+	[Address(RVA = "0x2330950", Offset = "0x2330950", VA = "0x2330950")]
 	public void Sort(string key, LobbySearchCast cast, string value)
 	{
 	}
 
 	[Token(Token = "0x60000B2")]
-	[Address(RVA = "0x2330930", Offset = "0x2330930", VA = "0x2330930")]
+	[Address(RVA = "0x23309F0", Offset = "0x23309F0", VA = "0x23309F0")]
 	public void Limit(uint limit)
 	{
 	}
 
 	[Token(Token = "0x60000B3")]
-	[Address(RVA = "0x23309C0", Offset = "0x23309C0", VA = "0x23309C0")]
+	[Address(RVA = "0x2330A80", Offset = "0x2330A80", VA = "0x2330A80")]
 	public void Distance(LobbySearchDistance distance)
 	{
 	}

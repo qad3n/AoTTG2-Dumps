@@ -6,7 +6,7 @@ namespace Mono.Security.Cryptography;
 public sealed class CryptoConvert
 {
 	[Token(Token = "0x6000159")]
-	[Address(RVA = "0x3A4FE00", Offset = "0x3A4FE00", VA = "0x3A4FE00")]
+	[Address(RVA = "0x3ABCAC0", Offset = "0x3ABCAC0", VA = "0x3ABCAC0")]
 	public static string ToHex(byte[] input)
 	{
 		return null;

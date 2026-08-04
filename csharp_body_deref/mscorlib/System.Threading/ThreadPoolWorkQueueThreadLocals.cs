@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Threading.ThreadPoolWorkQueueThreadLocals
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Threading;
@@ -22,19 +29,19 @@ internal sealed class ThreadPoolWorkQueueThreadLocals
 	public readonly Random random;
 
 	[Token(Token = "0x60012EC")]
-	[Address(RVA = "0x5051900", Offset = "0x5051900", VA = "0x5051900")]
+	[Address(RVA = "0x3D37420", Offset = "0x3D37420", VA = "0x3D37420")]
 	public ThreadPoolWorkQueueThreadLocals(System.Threading.ThreadPoolWorkQueue tpq)
 	{
 	}
 
 	[Token(Token = "0x60012ED")]
-	[Address(RVA = "0x5053CB0", Offset = "0x5053CB0", VA = "0x5053CB0")]
+	[Address(RVA = "0x3D397D0", Offset = "0x3D397D0", VA = "0x3D397D0")]
 	private void CleanUp()
 	{
 	}
 
 	[Token(Token = "0x60012EE")]
-	[Address(RVA = "0x5053D90", Offset = "0x5053D90", VA = "0x5053D90", Slot = "1")]
+	[Address(RVA = "0x3D398B0", Offset = "0x3D398B0", VA = "0x3D398B0", Slot = "1")]
 	~ThreadPoolWorkQueueThreadLocals()
 	{
 	}

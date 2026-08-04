@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Diagnostics.TraceListener
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -34,7 +41,7 @@ public abstract class TraceListener : MarshalByRefObject, IDisposable
 	public virtual bool IsThreadSafe
 	{
 		[Token(Token = "0x6000483")]
-		[Address(RVA = "0x46008B0", Offset = "0x46008B0", VA = "0x46008B0", Slot = "7")]
+		[Address(RVA = "0x49259B0", Offset = "0x49259B0", VA = "0x49259B0", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -45,7 +52,7 @@ public abstract class TraceListener : MarshalByRefObject, IDisposable
 	public int IndentLevel
 	{
 		[Token(Token = "0x6000487")]
-		[Address(RVA = "0x46004A0", Offset = "0x46004A0", VA = "0x46004A0")]
+		[Address(RVA = "0x49255A0", Offset = "0x49255A0", VA = "0x49255A0")]
 		set
 		{
 		}
@@ -55,7 +62,7 @@ public abstract class TraceListener : MarshalByRefObject, IDisposable
 	public int IndentSize
 	{
 		[Token(Token = "0x6000488")]
-		[Address(RVA = "0x46004C0", Offset = "0x46004C0", VA = "0x46004C0")]
+		[Address(RVA = "0x49255C0", Offset = "0x49255C0", VA = "0x49255C0")]
 		set
 		{
 		}
@@ -66,7 +73,7 @@ public abstract class TraceListener : MarshalByRefObject, IDisposable
 	public TraceFilter Filter
 	{
 		[Token(Token = "0x6000489")]
-		[Address(RVA = "0x4600950", Offset = "0x4600950", VA = "0x4600950")]
+		[Address(RVA = "0x4925A50", Offset = "0x4925A50", VA = "0x4925A50")]
 		get
 		{
 			return null;
@@ -77,13 +84,13 @@ public abstract class TraceListener : MarshalByRefObject, IDisposable
 	protected bool NeedIndent
 	{
 		[Token(Token = "0x600048A")]
-		[Address(RVA = "0x4600960", Offset = "0x4600960", VA = "0x4600960")]
+		[Address(RVA = "0x4925A60", Offset = "0x4925A60", VA = "0x4925A60")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600048B")]
-		[Address(RVA = "0x4600970", Offset = "0x4600970", VA = "0x4600970")]
+		[Address(RVA = "0x4925A70", Offset = "0x4925A70", VA = "0x4925A70")]
 		set
 		{
 		}
@@ -94,7 +101,7 @@ public abstract class TraceListener : MarshalByRefObject, IDisposable
 	public TraceOptions TraceOutputOptions
 	{
 		[Token(Token = "0x600048C")]
-		[Address(RVA = "0x4600980", Offset = "0x4600980", VA = "0x4600980")]
+		[Address(RVA = "0x4925A80", Offset = "0x4925A80", VA = "0x4925A80")]
 		get
 		{
 			return default(TraceOptions);
@@ -102,25 +109,25 @@ public abstract class TraceListener : MarshalByRefObject, IDisposable
 	}
 
 	[Token(Token = "0x6000482")]
-	[Address(RVA = "0x4600870", Offset = "0x4600870", VA = "0x4600870")]
+	[Address(RVA = "0x4925970", Offset = "0x4925970", VA = "0x4925970")]
 	protected TraceListener(string name)
 	{
 	}
 
 	[Token(Token = "0x6000484")]
-	[Address(RVA = "0x46008C0", Offset = "0x46008C0", VA = "0x46008C0", Slot = "6")]
+	[Address(RVA = "0x49259C0", Offset = "0x49259C0", VA = "0x49259C0", Slot = "6")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000485")]
-	[Address(RVA = "0x4600930", Offset = "0x4600930", VA = "0x4600930", Slot = "8")]
+	[Address(RVA = "0x4925A30", Offset = "0x4925A30", VA = "0x4925A30", Slot = "8")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6000486")]
-	[Address(RVA = "0x4600940", Offset = "0x4600940", VA = "0x4600940", Slot = "9")]
+	[Address(RVA = "0x4925A40", Offset = "0x4925A40", VA = "0x4925A40", Slot = "9")]
 	public virtual void Flush()
 	{
 	}
@@ -129,7 +136,7 @@ public abstract class TraceListener : MarshalByRefObject, IDisposable
 	public abstract void Write(string message);
 
 	[Token(Token = "0x600048E")]
-	[Address(RVA = "0x4600990", Offset = "0x4600990", VA = "0x4600990", Slot = "11")]
+	[Address(RVA = "0x4925A90", Offset = "0x4925A90", VA = "0x4925A90", Slot = "11")]
 	protected virtual void WriteIndent()
 	{
 	}
@@ -138,26 +145,26 @@ public abstract class TraceListener : MarshalByRefObject, IDisposable
 	public abstract void WriteLine(string message);
 
 	[Token(Token = "0x6000490")]
-	[Address(RVA = "0x4600A50", Offset = "0x4600A50", VA = "0x4600A50", Slot = "13")]
+	[Address(RVA = "0x4925B50", Offset = "0x4925B50", VA = "0x4925B50", Slot = "13")]
 	[ComVisible(false)]
 	public virtual void TraceEvent(TraceEventCache eventCache, string source, TraceEventType eventType, int id, string message)
 	{
 	}
 
 	[Token(Token = "0x6000491")]
-	[Address(RVA = "0x4600B00", Offset = "0x4600B00", VA = "0x4600B00")]
+	[Address(RVA = "0x4925C00", Offset = "0x4925C00", VA = "0x4925C00")]
 	private void WriteHeader(string source, TraceEventType eventType, int id)
 	{
 	}
 
 	[Token(Token = "0x6000492")]
-	[Address(RVA = "0x4600C00", Offset = "0x4600C00", VA = "0x4600C00")]
+	[Address(RVA = "0x4925D00", Offset = "0x4925D00", VA = "0x4925D00")]
 	private void WriteFooter(TraceEventCache eventCache)
 	{
 	}
 
 	[Token(Token = "0x6000493")]
-	[Address(RVA = "0x4601390", Offset = "0x4601390", VA = "0x4601390")]
+	[Address(RVA = "0x4926490", Offset = "0x4926490", VA = "0x4926490")]
 	internal bool IsEnabled(TraceOptions opts)
 	{
 		return default(bool);

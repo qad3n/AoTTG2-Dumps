@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Converters.XProcessingInstructionWrapper
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.Linq;
 using Il2CppDummyDll;
 
@@ -10,7 +17,7 @@ internal class XProcessingInstructionWrapper : XObjectWrapper
 	private XProcessingInstruction ProcessingInstruction
 	{
 		[Token(Token = "0x6000F7C")]
-		[Address(RVA = "0x3B55E50", Offset = "0x3B55E50", VA = "0x3B55E50")]
+		[Address(RVA = "0x3E4B7A0", Offset = "0x3E4B7A0", VA = "0x3E4B7A0")]
 		get
 		{
 			return null;
@@ -21,7 +28,7 @@ internal class XProcessingInstructionWrapper : XObjectWrapper
 	public override string? LocalName
 	{
 		[Token(Token = "0x6000F7E")]
-		[Address(RVA = "0x3B55EB0", Offset = "0x3B55EB0", VA = "0x3B55EB0", Slot = "15")]
+		[Address(RVA = "0x3E4B800", Offset = "0x3E4B800", VA = "0x3E4B800", Slot = "15")]
 		get
 		{
 			return null;
@@ -32,20 +39,20 @@ internal class XProcessingInstructionWrapper : XObjectWrapper
 	public override string? Value
 	{
 		[Token(Token = "0x6000F7F")]
-		[Address(RVA = "0x3B55F20", Offset = "0x3B55F20", VA = "0x3B55F20", Slot = "19")]
+		[Address(RVA = "0x3E4B870", Offset = "0x3E4B870", VA = "0x3E4B870", Slot = "19")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F80")]
-		[Address(RVA = "0x3B55F90", Offset = "0x3B55F90", VA = "0x3B55F90", Slot = "20")]
+		[Address(RVA = "0x3E4B8E0", Offset = "0x3E4B8E0", VA = "0x3E4B8E0", Slot = "20")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000F7D")]
-	[Address(RVA = "0x3B54FC0", Offset = "0x3B54FC0", VA = "0x3B54FC0")]
+	[Address(RVA = "0x3E4A910", Offset = "0x3E4A910", VA = "0x3E4A910")]
 	public XProcessingInstructionWrapper(XProcessingInstruction processingInstruction)
 	{
 	}

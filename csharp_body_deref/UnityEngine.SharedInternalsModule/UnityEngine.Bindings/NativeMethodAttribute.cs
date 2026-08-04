@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Bindings.NativeMethodAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -13,7 +20,7 @@ internal class NativeMethodAttribute : Attribute
 	public string Name
 	{
 		[Token(Token = "0x6000017")]
-		[Address(RVA = "0x4B76560", Offset = "0x4B76560", VA = "0x4B76560", Slot = "7")]
+		[Address(RVA = "0x4E9DE90", Offset = "0x4E9DE90", VA = "0x4E9DE90", Slot = "7")]
 		[CompilerGenerated]
 		set
 		{
@@ -24,7 +31,7 @@ internal class NativeMethodAttribute : Attribute
 	public bool IsThreadSafe
 	{
 		[Token(Token = "0x6000018")]
-		[Address(RVA = "0x4B76570", Offset = "0x4B76570", VA = "0x4B76570", Slot = "8")]
+		[Address(RVA = "0x4E9DEA0", Offset = "0x4E9DEA0", VA = "0x4E9DEA0", Slot = "8")]
 		[CompilerGenerated]
 		set
 		{
@@ -35,7 +42,7 @@ internal class NativeMethodAttribute : Attribute
 	public bool IsFreeFunction
 	{
 		[Token(Token = "0x6000019")]
-		[Address(RVA = "0x4B76580", Offset = "0x4B76580", VA = "0x4B76580", Slot = "9")]
+		[Address(RVA = "0x4E9DEB0", Offset = "0x4E9DEB0", VA = "0x4E9DEB0", Slot = "9")]
 		[CompilerGenerated]
 		set
 		{
@@ -46,7 +53,7 @@ internal class NativeMethodAttribute : Attribute
 	public bool ThrowsException
 	{
 		[Token(Token = "0x600001A")]
-		[Address(RVA = "0x4B76590", Offset = "0x4B76590", VA = "0x4B76590", Slot = "10")]
+		[Address(RVA = "0x4E9DEC0", Offset = "0x4E9DEC0", VA = "0x4E9DEC0", Slot = "10")]
 		[CompilerGenerated]
 		set
 		{
@@ -57,7 +64,7 @@ internal class NativeMethodAttribute : Attribute
 	public bool HasExplicitThis
 	{
 		[Token(Token = "0x600001B")]
-		[Address(RVA = "0x4B765A0", Offset = "0x4B765A0", VA = "0x4B765A0", Slot = "11")]
+		[Address(RVA = "0x4E9DED0", Offset = "0x4E9DED0", VA = "0x4E9DED0", Slot = "11")]
 		[CompilerGenerated]
 		set
 		{
@@ -65,25 +72,25 @@ internal class NativeMethodAttribute : Attribute
 	}
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x4B765B0", Offset = "0x4B765B0", VA = "0x4B765B0")]
+	[Address(RVA = "0x4E9DEE0", Offset = "0x4E9DEE0", VA = "0x4E9DEE0")]
 	public NativeMethodAttribute()
 	{
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x4B765C0", Offset = "0x4B765C0", VA = "0x4B765C0")]
+	[Address(RVA = "0x4E9DEF0", Offset = "0x4E9DEF0", VA = "0x4E9DEF0")]
 	public NativeMethodAttribute(string name)
 	{
 	}
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x4B766C0", Offset = "0x4B766C0", VA = "0x4B766C0")]
+	[Address(RVA = "0x4E9DFF0", Offset = "0x4E9DFF0", VA = "0x4E9DFF0")]
 	public NativeMethodAttribute(string name, bool isFreeFunction)
 	{
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x4B766E0", Offset = "0x4B766E0", VA = "0x4B766E0")]
+	[Address(RVA = "0x4E9E010", Offset = "0x4E9E010", VA = "0x4E9E010")]
 	public NativeMethodAttribute(string name, bool isFreeFunction, bool isThreadSafe)
 	{
 	}

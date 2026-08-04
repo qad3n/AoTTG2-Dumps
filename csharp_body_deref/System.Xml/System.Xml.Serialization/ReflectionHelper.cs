@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.ReflectionHelper
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Reflection;
 using Il2CppDummyDll;
@@ -20,39 +27,39 @@ internal class ReflectionHelper
 	private static readonly ParameterModifier[] empty_modifiers;
 
 	[Token(Token = "0x6000CCD")]
-	[Address(RVA = "0x44CC530", Offset = "0x44CC530", VA = "0x44CC530")]
+	[Address(RVA = "0x4809C90", Offset = "0x4809C90", VA = "0x4809C90")]
 	public void RegisterSchemaType(XmlTypeMapping map, string xmlType, string ns)
 	{
 	}
 
 	[Token(Token = "0x6000CCE")]
-	[Address(RVA = "0x44CC5E0", Offset = "0x44CC5E0", VA = "0x44CC5E0")]
+	[Address(RVA = "0x4809D40", Offset = "0x4809D40", VA = "0x4809D40")]
 	public XmlTypeMapping GetRegisteredSchemaType(string xmlType, string ns)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CCF")]
-	[Address(RVA = "0x44CC690", Offset = "0x44CC690", VA = "0x44CC690")]
+	[Address(RVA = "0x4809DF0", Offset = "0x4809DF0", VA = "0x4809DF0")]
 	public void RegisterClrType(XmlTypeMapping map, Type type, string ns)
 	{
 	}
 
 	[Token(Token = "0x6000CD0")]
-	[Address(RVA = "0x44CC7B0", Offset = "0x44CC7B0", VA = "0x44CC7B0")]
+	[Address(RVA = "0x4809F10", Offset = "0x4809F10", VA = "0x4809F10")]
 	public XmlTypeMapping GetRegisteredClrType(Type type, string ns)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CD1")]
-	[Address(RVA = "0x44CC8E0", Offset = "0x44CC8E0", VA = "0x44CC8E0")]
+	[Address(RVA = "0x480A040", Offset = "0x480A040", VA = "0x480A040")]
 	public static void CheckSerializableType(Type type, bool allowPrivateConstructors)
 	{
 	}
 
 	[Token(Token = "0x6000CD2")]
-	[Address(RVA = "0x44CCC80", Offset = "0x44CCC80", VA = "0x44CCC80")]
+	[Address(RVA = "0x480A3E0", Offset = "0x480A3E0", VA = "0x480A3E0")]
 	public ReflectionHelper()
 	{
 	}

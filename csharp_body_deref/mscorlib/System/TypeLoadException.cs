@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.TypeLoadException
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
@@ -29,7 +36,7 @@ public class TypeLoadException : SystemException, ISerializable
 	public override string Message
 	{
 		[Token(Token = "0x6000EE0")]
-		[Address(RVA = "0x501D7A0", Offset = "0x501D7A0", VA = "0x501D7A0", Slot = "5")]
+		[Address(RVA = "0x3D032C0", Offset = "0x3D032C0", VA = "0x3D032C0", Slot = "5")]
 		get
 		{
 			return null;
@@ -37,43 +44,43 @@ public class TypeLoadException : SystemException, ISerializable
 	}
 
 	[Token(Token = "0x6000EDE")]
-	[Address(RVA = "0x501D730", Offset = "0x501D730", VA = "0x501D730")]
+	[Address(RVA = "0x3D03250", Offset = "0x3D03250", VA = "0x3D03250")]
 	public TypeLoadException()
 	{
 	}
 
 	[Token(Token = "0x6000EDF")]
-	[Address(RVA = "0x501D780", Offset = "0x501D780", VA = "0x501D780")]
+	[Address(RVA = "0x3D032A0", Offset = "0x3D032A0", VA = "0x3D032A0")]
 	public TypeLoadException(string message)
 	{
 	}
 
 	[Token(Token = "0x6000EE1")]
-	[Address(RVA = "0x501D7B0", Offset = "0x501D7B0", VA = "0x501D7B0")]
+	[Address(RVA = "0x3D032D0", Offset = "0x3D032D0", VA = "0x3D032D0")]
 	private void SetMessageField()
 	{
 	}
 
 	[Token(Token = "0x6000EE2")]
-	[Address(RVA = "0x501D8E0", Offset = "0x501D8E0", VA = "0x501D8E0")]
+	[Address(RVA = "0x3D03400", Offset = "0x3D03400", VA = "0x3D03400")]
 	private TypeLoadException(string className, string assemblyName)
 	{
 	}
 
 	[Token(Token = "0x6000EE3")]
-	[Address(RVA = "0x501D970", Offset = "0x501D970", VA = "0x501D970")]
+	[Address(RVA = "0x3D03490", Offset = "0x3D03490", VA = "0x3D03490")]
 	private TypeLoadException(string className, string assemblyName, string messageArg, int resourceId)
 	{
 	}
 
 	[Token(Token = "0x6000EE4")]
-	[Address(RVA = "0x501DA00", Offset = "0x501DA00", VA = "0x501DA00")]
+	[Address(RVA = "0x3D03520", Offset = "0x3D03520", VA = "0x3D03520")]
 	protected TypeLoadException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000EE5")]
-	[Address(RVA = "0x501DB60", Offset = "0x501DB60", VA = "0x501DB60", Slot = "11")]
+	[Address(RVA = "0x3D03680", Offset = "0x3D03680", VA = "0x3D03680", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.Contexts.Context
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -77,7 +84,7 @@ public class Context
 	public static Context DefaultContext
 	{
 		[Token(Token = "0x6001D3E")]
-		[Address(RVA = "0x4E935F0", Offset = "0x4E935F0", VA = "0x4E935F0")]
+		[Address(RVA = "0x3B79110", Offset = "0x3B79110", VA = "0x3B79110")]
 		get
 		{
 			return null;
@@ -88,7 +95,7 @@ public class Context
 	public virtual int ContextID
 	{
 		[Token(Token = "0x6001D3F")]
-		[Address(RVA = "0x4E93600", Offset = "0x4E93600", VA = "0x4E93600", Slot = "4")]
+		[Address(RVA = "0x3B79120", Offset = "0x3B79120", VA = "0x3B79120", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -99,7 +106,7 @@ public class Context
 	public virtual IContextProperty[] ContextProperties
 	{
 		[Token(Token = "0x6001D40")]
-		[Address(RVA = "0x4E93610", Offset = "0x4E93610", VA = "0x4E93610", Slot = "5")]
+		[Address(RVA = "0x3B79130", Offset = "0x3B79130", VA = "0x3B79130", Slot = "5")]
 		get
 		{
 			return null;
@@ -110,7 +117,7 @@ public class Context
 	internal bool IsDefaultContext
 	{
 		[Token(Token = "0x6001D41")]
-		[Address(RVA = "0x4E93670", Offset = "0x4E93670", VA = "0x4E93670")]
+		[Address(RVA = "0x3B79190", Offset = "0x3B79190", VA = "0x3B79190")]
 		get
 		{
 			return default(bool);
@@ -121,7 +128,7 @@ public class Context
 	internal bool NeedsContextSink
 	{
 		[Token(Token = "0x6001D42")]
-		[Address(RVA = "0x4E93680", Offset = "0x4E93680", VA = "0x4E93680")]
+		[Address(RVA = "0x3B791A0", Offset = "0x3B791A0", VA = "0x3B791A0")]
 		get
 		{
 			return default(bool);
@@ -132,7 +139,7 @@ public class Context
 	internal static bool HasGlobalDynamicSinks
 	{
 		[Token(Token = "0x6001D47")]
-		[Address(RVA = "0x4E949C0", Offset = "0x4E949C0", VA = "0x4E949C0")]
+		[Address(RVA = "0x3B7A4E0", Offset = "0x3B7A4E0", VA = "0x3B7A4E0")]
 		get
 		{
 			return default(bool);
@@ -143,7 +150,7 @@ public class Context
 	internal bool HasDynamicSinks
 	{
 		[Token(Token = "0x6001D49")]
-		[Address(RVA = "0x4E94AF0", Offset = "0x4E94AF0", VA = "0x4E94AF0")]
+		[Address(RVA = "0x3B7A610", Offset = "0x3B7A610", VA = "0x3B7A610")]
 		get
 		{
 			return default(bool);
@@ -154,7 +161,7 @@ public class Context
 	internal bool HasExitSinks
 	{
 		[Token(Token = "0x6001D4A")]
-		[Address(RVA = "0x4E904D0", Offset = "0x4E904D0", VA = "0x4E904D0")]
+		[Address(RVA = "0x3B75FF0", Offset = "0x3B75FF0", VA = "0x3B75FF0")]
 		get
 		{
 			return default(bool);
@@ -165,7 +172,7 @@ public class Context
 	private System.LocalDataStore MyLocalStore
 	{
 		[Token(Token = "0x6001D56")]
-		[Address(RVA = "0x4E964D0", Offset = "0x4E964D0", VA = "0x4E964D0")]
+		[Address(RVA = "0x3B7BFF0", Offset = "0x3B7BFF0", VA = "0x3B7BFF0")]
 		get
 		{
 			return null;
@@ -174,169 +181,169 @@ public class Context
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6001D3A")]
-	[Address(RVA = "0x4E93490", Offset = "0x4E93490", VA = "0x4E93490")]
+	[Address(RVA = "0x3B78FB0", Offset = "0x3B78FB0", VA = "0x3B78FB0")]
 	private static extern void RegisterContext(Context ctx);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6001D3B")]
-	[Address(RVA = "0x4E934A0", Offset = "0x4E934A0", VA = "0x4E934A0")]
+	[Address(RVA = "0x3B78FC0", Offset = "0x3B78FC0", VA = "0x3B78FC0")]
 	private static extern void ReleaseContext(Context ctx);
 
 	[Token(Token = "0x6001D3C")]
-	[Address(RVA = "0x4E934B0", Offset = "0x4E934B0", VA = "0x4E934B0")]
+	[Address(RVA = "0x3B78FD0", Offset = "0x3B78FD0", VA = "0x3B78FD0")]
 	public Context()
 	{
 	}
 
 	[Token(Token = "0x6001D3D")]
-	[Address(RVA = "0x4E93530", Offset = "0x4E93530", VA = "0x4E93530", Slot = "1")]
+	[Address(RVA = "0x3B79050", Offset = "0x3B79050", VA = "0x3B79050", Slot = "1")]
 	~Context()
 	{
 	}
 
 	[Token(Token = "0x6001D43")]
-	[Address(RVA = "0x4E937A0", Offset = "0x4E937A0", VA = "0x4E937A0")]
+	[Address(RVA = "0x3B792C0", Offset = "0x3B792C0", VA = "0x3B792C0")]
 	public static bool RegisterDynamicProperty(IDynamicProperty prop, ContextBoundObject obj, Context ctx)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001D44")]
-	[Address(RVA = "0x4E93E70", Offset = "0x4E93E70", VA = "0x4E93E70")]
+	[Address(RVA = "0x3B79990", Offset = "0x3B79990", VA = "0x3B79990")]
 	public static bool UnregisterDynamicProperty(string name, ContextBoundObject obj, Context ctx)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001D45")]
-	[Address(RVA = "0x4E93810", Offset = "0x4E93810", VA = "0x4E93810")]
+	[Address(RVA = "0x3B79330", Offset = "0x3B79330", VA = "0x3B79330")]
 	private static System.Runtime.Remoting.Contexts.DynamicPropertyCollection GetDynamicPropertyCollection(ContextBoundObject obj, Context ctx)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001D46")]
-	[Address(RVA = "0x4E940C0", Offset = "0x4E940C0", VA = "0x4E940C0")]
+	[Address(RVA = "0x3B79BE0", Offset = "0x3B79BE0", VA = "0x3B79BE0")]
 	internal static void NotifyGlobalDynamicSinks(bool start, IMessage req_msg, bool client_site, bool async)
 	{
 	}
 
 	[Token(Token = "0x6001D48")]
-	[Address(RVA = "0x4E94A80", Offset = "0x4E94A80", VA = "0x4E94A80")]
+	[Address(RVA = "0x3B7A5A0", Offset = "0x3B7A5A0", VA = "0x3B7A5A0")]
 	internal void NotifyDynamicSinks(bool start, IMessage req_msg, bool client_site, bool async)
 	{
 	}
 
 	[Token(Token = "0x6001D4B")]
-	[Address(RVA = "0x4E94B30", Offset = "0x4E94B30", VA = "0x4E94B30", Slot = "6")]
+	[Address(RVA = "0x3B7A650", Offset = "0x3B7A650", VA = "0x3B7A650", Slot = "6")]
 	public virtual IContextProperty GetProperty(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001D4C")]
-	[Address(RVA = "0x4E94D70", Offset = "0x4E94D70", VA = "0x4E94D70", Slot = "7")]
+	[Address(RVA = "0x3B7A890", Offset = "0x3B7A890", VA = "0x3B7A890", Slot = "7")]
 	public virtual void SetProperty(IContextProperty prop)
 	{
 	}
 
 	[Token(Token = "0x6001D4D")]
-	[Address(RVA = "0x4E94F10", Offset = "0x4E94F10", VA = "0x4E94F10", Slot = "8")]
+	[Address(RVA = "0x3B7AA30", Offset = "0x3B7AA30", VA = "0x3B7AA30", Slot = "8")]
 	public virtual void Freeze()
 	{
 	}
 
 	[Token(Token = "0x6001D4E")]
-	[Address(RVA = "0x4E95100", Offset = "0x4E95100", VA = "0x4E95100", Slot = "3")]
+	[Address(RVA = "0x3B7AC20", Offset = "0x3B7AC20", VA = "0x3B7AC20", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001D4F")]
-	[Address(RVA = "0x4E95150", Offset = "0x4E95150", VA = "0x4E95150")]
+	[Address(RVA = "0x3B7AC70", Offset = "0x3B7AC70", VA = "0x3B7AC70")]
 	internal IMessageSink GetServerContextSinkChain()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001D50")]
-	[Address(RVA = "0x4E90580", Offset = "0x4E90580", VA = "0x4E90580")]
+	[Address(RVA = "0x3B760A0", Offset = "0x3B760A0", VA = "0x3B760A0")]
 	internal IMessageSink GetClientContextSinkChain()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001D51")]
-	[Address(RVA = "0x4E953B0", Offset = "0x4E953B0", VA = "0x4E953B0")]
+	[Address(RVA = "0x3B7AED0", Offset = "0x3B7AED0", VA = "0x3B7AED0")]
 	internal IMessageSink CreateServerObjectSinkChain(MarshalByRefObject obj, bool forceInternalExecute)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001D52")]
-	[Address(RVA = "0x4E95660", Offset = "0x4E95660", VA = "0x4E95660")]
+	[Address(RVA = "0x3B7B180", Offset = "0x3B7B180", VA = "0x3B7B180")]
 	internal IMessageSink CreateEnvoySink(MarshalByRefObject serverObject)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001D53")]
-	[Address(RVA = "0x4E95890", Offset = "0x4E95890", VA = "0x4E95890")]
+	[Address(RVA = "0x3B7B3B0", Offset = "0x3B7B3B0", VA = "0x3B7B3B0")]
 	internal static Context SwitchToContext(Context newContext)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001D54")]
-	[Address(RVA = "0x4E958A0", Offset = "0x4E958A0", VA = "0x4E958A0")]
+	[Address(RVA = "0x3B7B3C0", Offset = "0x3B7B3C0", VA = "0x3B7B3C0")]
 	internal static Context CreateNewContext(IConstructionCallMessage msg)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001D55")]
-	[Address(RVA = "0x4E96310", Offset = "0x4E96310", VA = "0x4E96310")]
+	[Address(RVA = "0x3B7BE30", Offset = "0x3B7BE30", VA = "0x3B7BE30")]
 	public void DoCallBack(CrossContextDelegate deleg)
 	{
 	}
 
 	[Token(Token = "0x6001D57")]
-	[Address(RVA = "0x4E96680", Offset = "0x4E96680", VA = "0x4E96680")]
+	[Address(RVA = "0x3B7C1A0", Offset = "0x3B7C1A0", VA = "0x3B7C1A0")]
 	public static LocalDataStoreSlot AllocateDataSlot()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001D58")]
-	[Address(RVA = "0x4E96700", Offset = "0x4E96700", VA = "0x4E96700")]
+	[Address(RVA = "0x3B7C220", Offset = "0x3B7C220", VA = "0x3B7C220")]
 	public static LocalDataStoreSlot AllocateNamedDataSlot(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001D59")]
-	[Address(RVA = "0x4E96790", Offset = "0x4E96790", VA = "0x4E96790")]
+	[Address(RVA = "0x3B7C2B0", Offset = "0x3B7C2B0", VA = "0x3B7C2B0")]
 	public static void FreeNamedDataSlot(string name)
 	{
 	}
 
 	[Token(Token = "0x6001D5A")]
-	[Address(RVA = "0x4E96820", Offset = "0x4E96820", VA = "0x4E96820")]
+	[Address(RVA = "0x3B7C340", Offset = "0x3B7C340", VA = "0x3B7C340")]
 	public static LocalDataStoreSlot GetNamedDataSlot(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001D5B")]
-	[Address(RVA = "0x4E968B0", Offset = "0x4E968B0", VA = "0x4E968B0")]
+	[Address(RVA = "0x3B7C3D0", Offset = "0x3B7C3D0", VA = "0x3B7C3D0")]
 	public static object GetData(LocalDataStoreSlot slot)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001D5C")]
-	[Address(RVA = "0x4E968E0", Offset = "0x4E968E0", VA = "0x4E968E0")]
+	[Address(RVA = "0x3B7C400", Offset = "0x3B7C400", VA = "0x3B7C400")]
 	public static void SetData(LocalDataStoreSlot slot, object data)
 	{
 	}

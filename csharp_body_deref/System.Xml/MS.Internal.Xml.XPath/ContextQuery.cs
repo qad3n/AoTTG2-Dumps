@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MS.Internal.Xml.XPath.ContextQuery
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.XPath;
 using Il2CppDummyDll;
 
@@ -14,7 +21,7 @@ internal class ContextQuery : Query
 	public override XPathNavigator Current
 	{
 		[Token(Token = "0x6001AB8")]
-		[Address(RVA = "0x443C740", Offset = "0x443C740", VA = "0x443C740", Slot = "8")]
+		[Address(RVA = "0x4779EA0", Offset = "0x4779EA0", VA = "0x4779EA0", Slot = "8")]
 		get
 		{
 			return null;
@@ -25,7 +32,7 @@ internal class ContextQuery : Query
 	public override XPathResultType StaticType
 	{
 		[Token(Token = "0x6001ABC")]
-		[Address(RVA = "0x443C820", Offset = "0x443C820", VA = "0x443C820", Slot = "16")]
+		[Address(RVA = "0x4779F80", Offset = "0x4779F80", VA = "0x4779F80", Slot = "16")]
 		get
 		{
 			return default(XPathResultType);
@@ -36,7 +43,7 @@ internal class ContextQuery : Query
 	public override int CurrentPosition
 	{
 		[Token(Token = "0x6001ABD")]
-		[Address(RVA = "0x443C830", Offset = "0x443C830", VA = "0x443C830", Slot = "9")]
+		[Address(RVA = "0x4779F90", Offset = "0x4779F90", VA = "0x4779F90", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -47,7 +54,7 @@ internal class ContextQuery : Query
 	public override int Count
 	{
 		[Token(Token = "0x6001ABE")]
-		[Address(RVA = "0x443C840", Offset = "0x443C840", VA = "0x443C840", Slot = "10")]
+		[Address(RVA = "0x4779FA0", Offset = "0x4779FA0", VA = "0x4779FA0", Slot = "10")]
 		get
 		{
 			return default(int);
@@ -58,7 +65,7 @@ internal class ContextQuery : Query
 	public override QueryProps Properties
 	{
 		[Token(Token = "0x6001ABF")]
-		[Address(RVA = "0x443C850", Offset = "0x443C850", VA = "0x443C850", Slot = "17")]
+		[Address(RVA = "0x4779FB0", Offset = "0x4779FB0", VA = "0x4779FB0", Slot = "17")]
 		get
 		{
 			return default(QueryProps);
@@ -66,39 +73,39 @@ internal class ContextQuery : Query
 	}
 
 	[Token(Token = "0x6001AB5")]
-	[Address(RVA = "0x443A0A0", Offset = "0x443A0A0", VA = "0x443A0A0")]
+	[Address(RVA = "0x4777800", Offset = "0x4777800", VA = "0x4777800")]
 	public ContextQuery()
 	{
 	}
 
 	[Token(Token = "0x6001AB6")]
-	[Address(RVA = "0x443A100", Offset = "0x443A100", VA = "0x443A100")]
+	[Address(RVA = "0x4777860", Offset = "0x4777860", VA = "0x4777860")]
 	protected ContextQuery(ContextQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001AB7")]
-	[Address(RVA = "0x443C730", Offset = "0x443C730", VA = "0x443C730", Slot = "12")]
+	[Address(RVA = "0x4779E90", Offset = "0x4779E90", VA = "0x4779E90", Slot = "12")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001AB9")]
-	[Address(RVA = "0x443C750", Offset = "0x443C750", VA = "0x443C750", Slot = "14")]
+	[Address(RVA = "0x4779EB0", Offset = "0x4779EB0", VA = "0x4779EB0", Slot = "14")]
 	public override object Evaluate(XPathNodeIterator context)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001ABA")]
-	[Address(RVA = "0x443C790", Offset = "0x443C790", VA = "0x443C790", Slot = "15")]
+	[Address(RVA = "0x4779EF0", Offset = "0x4779EF0", VA = "0x4779EF0", Slot = "15")]
 	public override XPathNavigator Advance()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001ABB")]
-	[Address(RVA = "0x443C7B0", Offset = "0x443C7B0", VA = "0x443C7B0", Slot = "6")]
+	[Address(RVA = "0x4779F10", Offset = "0x4779F10", VA = "0x4779F10", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

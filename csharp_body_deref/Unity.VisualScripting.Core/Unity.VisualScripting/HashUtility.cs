@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.HashUtility
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Unity.VisualScripting;
@@ -36,7 +43,7 @@ public static class HashUtility
 	}
 
 	[Token(Token = "0x600102B")]
-	[Address(RVA = "0x4A3B460", Offset = "0x4A3B460", VA = "0x4A3B460")]
+	[Address(RVA = "0x4D602C0", Offset = "0x4D602C0", VA = "0x4D602C0")]
 	public static int GetHashCodeAlloc(params object[] values)
 	{
 		return default(int);

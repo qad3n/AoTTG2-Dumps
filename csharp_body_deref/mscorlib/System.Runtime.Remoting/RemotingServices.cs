@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.RemotingServices
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -28,7 +35,7 @@ public static class RemotingServices
 		public object c;
 
 		[Token(Token = "0x6001CA7")]
-		[Address(RVA = "0x4E88BA0", Offset = "0x4E88BA0", VA = "0x4E88BA0")]
+		[Address(RVA = "0x3B6E6C0", Offset = "0x3B6E6C0", VA = "0x3B6E6C0")]
 		public CACD()
 		{
 		}
@@ -67,37 +74,37 @@ public static class RemotingServices
 	private static readonly MethodInfo FieldGetterMethod;
 
 	[Token(Token = "0x6001C7D")]
-	[Address(RVA = "0x4E84A80", Offset = "0x4E84A80", VA = "0x4E84A80")]
+	[Address(RVA = "0x3B6A5A0", Offset = "0x3B6A5A0", VA = "0x3B6A5A0")]
 	static RemotingServices()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6001C7E")]
-	[Address(RVA = "0x4E84E20", Offset = "0x4E84E20", VA = "0x4E84E20")]
+	[Address(RVA = "0x3B6A940", Offset = "0x3B6A940", VA = "0x3B6A940")]
 	internal static extern object InternalExecute(MethodBase method, object obj, object[] parameters, out object[] out_args);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6001C7F")]
-	[Address(RVA = "0x4E84E30", Offset = "0x4E84E30", VA = "0x4E84E30")]
+	[Address(RVA = "0x3B6A950", Offset = "0x3B6A950", VA = "0x3B6A950")]
 	internal static extern MethodBase GetVirtualMethod(Type type, MethodBase method);
 
 	[Token(Token = "0x6001C80")]
-	[Address(RVA = "0x4E84E40", Offset = "0x4E84E40", VA = "0x4E84E40")]
+	[Address(RVA = "0x3B6A960", Offset = "0x3B6A960", VA = "0x3B6A960")]
 	public static bool IsTransparentProxy(object proxy)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C81")]
-	[Address(RVA = "0x4E84E80", Offset = "0x4E84E80", VA = "0x4E84E80")]
+	[Address(RVA = "0x3B6A9A0", Offset = "0x3B6A9A0", VA = "0x3B6A9A0")]
 	internal static IMethodReturnMessage InternalExecuteMessage(MarshalByRefObject target, IMethodCallMessage reqMsg)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C82")]
-	[Address(RVA = "0x4E85B60", Offset = "0x4E85B60", VA = "0x4E85B60")]
+	[Address(RVA = "0x3B6B680", Offset = "0x3B6B680", VA = "0x3B6B680")]
 	[ComVisible(true)]
 	public static object Connect(Type classToProxy, string url)
 	{
@@ -105,7 +112,7 @@ public static class RemotingServices
 	}
 
 	[Token(Token = "0x6001C83")]
-	[Address(RVA = "0x4E85CB0", Offset = "0x4E85CB0", VA = "0x4E85CB0")]
+	[Address(RVA = "0x3B6B7D0", Offset = "0x3B6B7D0", VA = "0x3B6B7D0")]
 	[ComVisible(true)]
 	public static object Connect(Type classToProxy, string url, object data)
 	{
@@ -113,49 +120,49 @@ public static class RemotingServices
 	}
 
 	[Token(Token = "0x6001C84")]
-	[Address(RVA = "0x4E85DA0", Offset = "0x4E85DA0", VA = "0x4E85DA0")]
+	[Address(RVA = "0x3B6B8C0", Offset = "0x3B6B8C0", VA = "0x3B6B8C0")]
 	public static Type GetServerTypeForUri(string URI)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C85")]
-	[Address(RVA = "0x4E7B980", Offset = "0x4E7B980", VA = "0x4E7B980")]
+	[Address(RVA = "0x3B614A0", Offset = "0x3B614A0", VA = "0x3B614A0")]
 	public static object Unmarshal(ObjRef objectRef)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C86")]
-	[Address(RVA = "0x4E86170", Offset = "0x4E86170", VA = "0x4E86170")]
+	[Address(RVA = "0x3B6BC90", Offset = "0x3B6BC90", VA = "0x3B6BC90")]
 	public static object Unmarshal(ObjRef objectRef, bool fRefine)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C87")]
-	[Address(RVA = "0x4E86610", Offset = "0x4E86610", VA = "0x4E86610")]
+	[Address(RVA = "0x3B6C130", Offset = "0x3B6C130", VA = "0x3B6C130")]
 	public static ObjRef Marshal(MarshalByRefObject Obj)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C88")]
-	[Address(RVA = "0x4E86650", Offset = "0x4E86650", VA = "0x4E86650")]
+	[Address(RVA = "0x3B6C170", Offset = "0x3B6C170", VA = "0x3B6C170")]
 	public static ObjRef Marshal(MarshalByRefObject Obj, string ObjURI, Type RequestedType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C89")]
-	[Address(RVA = "0x4E86700", Offset = "0x4E86700", VA = "0x4E86700")]
+	[Address(RVA = "0x3B6C220", Offset = "0x3B6C220", VA = "0x3B6C220")]
 	private static string NewUri()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C8A")]
-	[Address(RVA = "0x4E866C0", Offset = "0x4E866C0", VA = "0x4E866C0")]
+	[Address(RVA = "0x3B6C1E0", Offset = "0x3B6C1E0", VA = "0x3B6C1E0")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	public static RealProxy GetRealProxy(object proxy)
 	{
@@ -163,191 +170,191 @@ public static class RemotingServices
 	}
 
 	[Token(Token = "0x6001C8B")]
-	[Address(RVA = "0x4E86FC0", Offset = "0x4E86FC0", VA = "0x4E86FC0")]
+	[Address(RVA = "0x3B6CAE0", Offset = "0x3B6CAE0", VA = "0x3B6CAE0")]
 	public static MethodBase GetMethodBaseFromMethodMessage(IMethodMessage msg)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C8C")]
-	[Address(RVA = "0x4E872B0", Offset = "0x4E872B0", VA = "0x4E872B0")]
+	[Address(RVA = "0x3B6CDD0", Offset = "0x3B6CDD0", VA = "0x3B6CDD0")]
 	internal static MethodBase GetMethodBaseFromName(Type type, string methodName, Type[] signature)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C8D")]
-	[Address(RVA = "0x4E87480", Offset = "0x4E87480", VA = "0x4E87480")]
+	[Address(RVA = "0x3B6CFA0", Offset = "0x3B6CFA0", VA = "0x3B6CFA0")]
 	private static MethodBase FindInterfaceMethod(Type type, string methodName, Type[] signature)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C8E")]
-	[Address(RVA = "0x4E875B0", Offset = "0x4E875B0", VA = "0x4E875B0")]
+	[Address(RVA = "0x3B6D0D0", Offset = "0x3B6D0D0", VA = "0x3B6D0D0")]
 	public static void GetObjectData(object obj, SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001C8F")]
-	[Address(RVA = "0x4E87660", Offset = "0x4E87660", VA = "0x4E87660")]
+	[Address(RVA = "0x3B6D180", Offset = "0x3B6D180", VA = "0x3B6D180")]
 	public static bool IsOneWay(MethodBase method)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C90")]
-	[Address(RVA = "0x4E876E0", Offset = "0x4E876E0", VA = "0x4E876E0")]
+	[Address(RVA = "0x3B6D200", Offset = "0x3B6D200", VA = "0x3B6D200")]
 	internal static object CreateClientProxy(ActivatedClientTypeEntry entry, object[] activationAttributes)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C91")]
-	[Address(RVA = "0x4E877E0", Offset = "0x4E877E0", VA = "0x4E877E0")]
+	[Address(RVA = "0x3B6D300", Offset = "0x3B6D300", VA = "0x3B6D300")]
 	internal static object CreateClientProxy(Type objectType, string url, object[] activationAttributes)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C92")]
-	[Address(RVA = "0x4E879D0", Offset = "0x4E879D0", VA = "0x4E879D0")]
+	[Address(RVA = "0x3B6D4F0", Offset = "0x3B6D4F0", VA = "0x3B6D4F0")]
 	internal static object CreateClientProxy(WellKnownClientTypeEntry entry)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C93")]
-	[Address(RVA = "0x4E87A40", Offset = "0x4E87A40", VA = "0x4E87A40")]
+	[Address(RVA = "0x3B6D560", Offset = "0x3B6D560", VA = "0x3B6D560")]
 	internal static object CreateClientProxyForContextBound(Type type, object[] activationAttributes)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C94")]
-	[Address(RVA = "0x4E85E70", Offset = "0x4E85E70", VA = "0x4E85E70")]
+	[Address(RVA = "0x3B6B990", Offset = "0x3B6B990", VA = "0x3B6B990")]
 	internal static System.Runtime.Remoting.Identity GetIdentityForUri(string uri)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C95")]
-	[Address(RVA = "0x4E87C30", Offset = "0x4E87C30", VA = "0x4E87C30")]
+	[Address(RVA = "0x3B6D750", Offset = "0x3B6D750", VA = "0x3B6D750")]
 	private static string RemoveAppNameFromUri(string uri)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C96")]
-	[Address(RVA = "0x4E87D50", Offset = "0x4E87D50", VA = "0x4E87D50")]
+	[Address(RVA = "0x3B6D870", Offset = "0x3B6D870", VA = "0x3B6D870")]
 	internal static System.Runtime.Remoting.ClientIdentity GetOrCreateClientIdentity(ObjRef objRef, Type proxyType, out object clientProxy)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C97")]
-	[Address(RVA = "0x4E87900", Offset = "0x4E87900", VA = "0x4E87900")]
+	[Address(RVA = "0x3B6D420", Offset = "0x3B6D420", VA = "0x3B6D420")]
 	private static IMessageSink GetClientChannelSinkChain(string url, object channelData, out string objectUri)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C98")]
-	[Address(RVA = "0x4E886C0", Offset = "0x4E886C0", VA = "0x4E886C0")]
+	[Address(RVA = "0x3B6E1E0", Offset = "0x3B6E1E0", VA = "0x3B6E1E0")]
 	internal static System.Runtime.Remoting.ClientActivatedIdentity CreateContextBoundObjectIdentity(Type objectType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C99")]
-	[Address(RVA = "0x4E86E90", Offset = "0x4E86E90", VA = "0x4E86E90")]
+	[Address(RVA = "0x3B6C9B0", Offset = "0x3B6C9B0", VA = "0x3B6C9B0")]
 	internal static System.Runtime.Remoting.ClientActivatedIdentity CreateClientActivatedServerIdentity(MarshalByRefObject realObject, Type objectType, string objectUri)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C9A")]
-	[Address(RVA = "0x4E7CEE0", Offset = "0x4E7CEE0", VA = "0x4E7CEE0")]
+	[Address(RVA = "0x3B62A00", Offset = "0x3B62A00", VA = "0x3B62A00")]
 	internal static System.Runtime.Remoting.ServerIdentity CreateWellKnownServerIdentity(Type objectType, string objectUri, WellKnownObjectMode mode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C9B")]
-	[Address(RVA = "0x4E86AB0", Offset = "0x4E86AB0", VA = "0x4E86AB0")]
+	[Address(RVA = "0x3B6C5D0", Offset = "0x3B6C5D0", VA = "0x3B6C5D0")]
 	private static void RegisterServerIdentity(System.Runtime.Remoting.ServerIdentity identity)
 	{
 	}
 
 	[Token(Token = "0x6001C9C")]
-	[Address(RVA = "0x4E864C0", Offset = "0x4E864C0", VA = "0x4E864C0")]
+	[Address(RVA = "0x3B6BFE0", Offset = "0x3B6BFE0", VA = "0x3B6BFE0")]
 	internal static object GetProxyForRemoteObject(ObjRef objref, Type classToProxy)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C9D")]
-	[Address(RVA = "0x4E85C50", Offset = "0x4E85C50", VA = "0x4E85C50")]
+	[Address(RVA = "0x3B6B770", Offset = "0x3B6B770", VA = "0x3B6B770")]
 	internal static object GetRemoteObject(ObjRef objRef, Type proxyType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C9E")]
-	[Address(RVA = "0x4E88960", Offset = "0x4E88960", VA = "0x4E88960")]
+	[Address(RVA = "0x3B6E480", Offset = "0x3B6E480", VA = "0x3B6E480")]
 	internal static byte[] SerializeCallData(object obj)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C9F")]
-	[Address(RVA = "0x4E88BB0", Offset = "0x4E88BB0", VA = "0x4E88BB0")]
+	[Address(RVA = "0x3B6E6D0", Offset = "0x3B6E6D0", VA = "0x3B6E6D0")]
 	internal static object DeserializeCallData(byte[] array)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001CA0")]
-	[Address(RVA = "0x4E88E10", Offset = "0x4E88E10", VA = "0x4E88E10")]
+	[Address(RVA = "0x3B6E930", Offset = "0x3B6E930", VA = "0x3B6E930")]
 	internal static byte[] SerializeExceptionData(Exception ex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001CA1")]
-	[Address(RVA = "0x4E84DC0", Offset = "0x4E84DC0", VA = "0x4E84DC0")]
+	[Address(RVA = "0x3B6A8E0", Offset = "0x3B6A8E0", VA = "0x3B6A8E0")]
 	private static void RegisterInternalChannels()
 	{
 	}
 
 	[Token(Token = "0x6001CA2")]
-	[Address(RVA = "0x4E88440", Offset = "0x4E88440", VA = "0x4E88440")]
+	[Address(RVA = "0x3B6DF60", Offset = "0x3B6DF60", VA = "0x3B6DF60")]
 	internal static void DisposeIdentity(System.Runtime.Remoting.Identity ident)
 	{
 	}
 
 	[Token(Token = "0x6001CA3")]
-	[Address(RVA = "0x4E88F90", Offset = "0x4E88F90", VA = "0x4E88F90")]
+	[Address(RVA = "0x3B6EAB0", Offset = "0x3B6EAB0", VA = "0x3B6EAB0")]
 	internal static System.Runtime.Remoting.Identity GetMessageTargetIdentity(IMessage msg)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001CA4")]
-	[Address(RVA = "0x4E89360", Offset = "0x4E89360", VA = "0x4E89360")]
+	[Address(RVA = "0x3B6EE80", Offset = "0x3B6EE80", VA = "0x3B6EE80")]
 	internal static void SetMessageTargetIdentity(IMessage msg, System.Runtime.Remoting.Identity ident)
 	{
 	}
 
 	[Token(Token = "0x6001CA5")]
-	[Address(RVA = "0x4E89470", Offset = "0x4E89470", VA = "0x4E89470")]
+	[Address(RVA = "0x3B6EF90", Offset = "0x3B6EF90", VA = "0x3B6EF90")]
 	internal static bool UpdateOutArgObject(ParameterInfo pi, object local, object remote)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001CA6")]
-	[Address(RVA = "0x4E87BD0", Offset = "0x4E87BD0", VA = "0x4E87BD0")]
+	[Address(RVA = "0x3B6D6F0", Offset = "0x3B6D6F0", VA = "0x3B6D6F0")]
 	private static string GetNormalizedUri(string uri)
 	{
 		return null;

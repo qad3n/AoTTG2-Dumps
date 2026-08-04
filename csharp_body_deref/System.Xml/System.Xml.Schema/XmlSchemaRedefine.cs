@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XmlSchemaRedefine
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.Serialization;
 using Il2CppDummyDll;
 
@@ -31,7 +38,7 @@ public class XmlSchemaRedefine : XmlSchemaExternal
 	public XmlSchemaObjectCollection Items
 	{
 		[Token(Token = "0x6001716")]
-		[Address(RVA = "0x43EAAA0", Offset = "0x43EAAA0", VA = "0x43EAAA0")]
+		[Address(RVA = "0x4728200", Offset = "0x4728200", VA = "0x4728200")]
 		get
 		{
 			return null;
@@ -43,7 +50,7 @@ public class XmlSchemaRedefine : XmlSchemaExternal
 	public XmlSchemaObjectTable AttributeGroups
 	{
 		[Token(Token = "0x6001717")]
-		[Address(RVA = "0x43EAAB0", Offset = "0x43EAAB0", VA = "0x43EAAB0")]
+		[Address(RVA = "0x4728210", Offset = "0x4728210", VA = "0x4728210")]
 		get
 		{
 			return null;
@@ -55,7 +62,7 @@ public class XmlSchemaRedefine : XmlSchemaExternal
 	public XmlSchemaObjectTable SchemaTypes
 	{
 		[Token(Token = "0x6001718")]
-		[Address(RVA = "0x43EAAC0", Offset = "0x43EAAC0", VA = "0x43EAAC0")]
+		[Address(RVA = "0x4728220", Offset = "0x4728220", VA = "0x4728220")]
 		get
 		{
 			return null;
@@ -67,7 +74,7 @@ public class XmlSchemaRedefine : XmlSchemaExternal
 	public XmlSchemaObjectTable Groups
 	{
 		[Token(Token = "0x6001719")]
-		[Address(RVA = "0x43EAAD0", Offset = "0x43EAAD0", VA = "0x43EAAD0")]
+		[Address(RVA = "0x4728230", Offset = "0x4728230", VA = "0x4728230")]
 		get
 		{
 			return null;
@@ -75,13 +82,13 @@ public class XmlSchemaRedefine : XmlSchemaExternal
 	}
 
 	[Token(Token = "0x6001715")]
-	[Address(RVA = "0x43EA9B0", Offset = "0x43EA9B0", VA = "0x43EA9B0")]
+	[Address(RVA = "0x4728110", Offset = "0x4728110", VA = "0x4728110")]
 	public XmlSchemaRedefine()
 	{
 	}
 
 	[Token(Token = "0x600171A")]
-	[Address(RVA = "0x43EAAE0", Offset = "0x43EAAE0", VA = "0x43EAAE0", Slot = "10")]
+	[Address(RVA = "0x4728240", Offset = "0x4728240", VA = "0x4728240", Slot = "10")]
 	internal override void AddAnnotation(XmlSchemaAnnotation annotation)
 	{
 	}

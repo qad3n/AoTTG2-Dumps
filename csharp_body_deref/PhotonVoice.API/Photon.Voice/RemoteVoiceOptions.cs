@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.RemoteVoiceOptions
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/Voice.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -19,14 +26,14 @@ public struct RemoteVoiceOptions
 	public Action OnRemoteVoiceRemoveAction
 	{
 		[Token(Token = "0x600020B")]
-		[Address(RVA = "0x3C2A850", Offset = "0x3C2A850", VA = "0x3C2A850")]
+		[Address(RVA = "0x3F201A0", Offset = "0x3F201A0", VA = "0x3F201A0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return null;
 		}
 		[Token(Token = "0x600020C")]
-		[Address(RVA = "0x3C2A860", Offset = "0x3C2A860", VA = "0x3C2A860")]
+		[Address(RVA = "0x3F201B0", Offset = "0x3F201B0", VA = "0x3F201B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -37,14 +44,14 @@ public struct RemoteVoiceOptions
 	public IDecoder Decoder
 	{
 		[Token(Token = "0x600020D")]
-		[Address(RVA = "0x3C2A870", Offset = "0x3C2A870", VA = "0x3C2A870")]
+		[Address(RVA = "0x3F201C0", Offset = "0x3F201C0", VA = "0x3F201C0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return null;
 		}
 		[Token(Token = "0x600020E")]
-		[Address(RVA = "0x3C2A880", Offset = "0x3C2A880", VA = "0x3C2A880")]
+		[Address(RVA = "0x3F201D0", Offset = "0x3F201D0", VA = "0x3F201D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -55,7 +62,7 @@ public struct RemoteVoiceOptions
 	internal readonly string logPrefix
 	{
 		[Token(Token = "0x600020F")]
-		[Address(RVA = "0x3C2A890", Offset = "0x3C2A890", VA = "0x3C2A890")]
+		[Address(RVA = "0x3F201E0", Offset = "0x3F201E0", VA = "0x3F201E0")]
 		[CompilerGenerated]
 		get
 		{
@@ -64,19 +71,19 @@ public struct RemoteVoiceOptions
 	}
 
 	[Token(Token = "0x6000207")]
-	[Address(RVA = "0x3C2A5C0", Offset = "0x3C2A5C0", VA = "0x3C2A5C0")]
+	[Address(RVA = "0x3F1FF10", Offset = "0x3F1FF10", VA = "0x3F1FF10")]
 	public RemoteVoiceOptions(ILogger logger, string logPrefix, VoiceInfo voiceInfo)
 	{
 	}
 
 	[Token(Token = "0x6000208")]
-	[Address(RVA = "0x3C2A640", Offset = "0x3C2A640", VA = "0x3C2A640")]
+	[Address(RVA = "0x3F1FF90", Offset = "0x3F1FF90", VA = "0x3F1FF90")]
 	public void SetOutput(Action<FrameOut<float>> output)
 	{
 	}
 
 	[Token(Token = "0x6000209")]
-	[Address(RVA = "0x3C2A7B0", Offset = "0x3C2A7B0", VA = "0x3C2A7B0")]
+	[Address(RVA = "0x3F20100", Offset = "0x3F20100", VA = "0x3F20100")]
 	public void SetOutput(Action<FrameOut<short>> output)
 	{
 	}

@@ -1,12 +1,14 @@
 // Type: UnityStandardAssets.ImageEffects.EdgeDetection
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/StandardAssets.Effects/UnityStandardAssets.ImageEffects/EdgeDetection.cs
-// Prior real C# source (REFERENCE, outdated): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs  [prior source available (delta unverified)]
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs
 // --------------------------------
 
 // UnityStandardAssets.ImageEffects.EdgeDetection$$CheckResources
 // il2cpp: bool UnityStandardAssets_ImageEffects_EdgeDetection__CheckResources (UnityStandardAssets_ImageEffects_EdgeDetection_o* __this, const MethodInfo* method);
-// 0x425cd90
+// 0x4581e90
 
 bool_conflict
 UnityStandardAssets_ImageEffects_EdgeDetection__CheckResources
@@ -22,7 +24,7 @@ UnityStandardAssets_ImageEffects_EdgeDetection__CheckResources
   MethodInfo *in_RCX;
   MethodInfo *in_RDX;
   
-  UnityStandardAssets_ImageEffects_PostEffectsBase__CheckSupport
+  UnityStandardAssets_ImageEffects_PostEffectsBase__CheckSupport_4475ed0
             ((UnityStandardAssets_ImageEffects_PostEffectsBase_o *)__this,1,in_RDX);
   method_00 = (MethodInfo *)
               UnityStandardAssets_ImageEffects_PostEffectsBase__CheckShaderAndCreateMaterial
@@ -30,7 +32,7 @@ UnityStandardAssets_ImageEffects_EdgeDetection__CheckResources
                          *(UnityEngine_Shader_o **)&(__this->fields).edgesOnlyBgColor.fields.a,
                          (UnityEngine_Material_o *)(__this->fields).edgeDetectShader,in_RCX);
   (__this->fields).edgeDetectShader = (UnityEngine_Shader_o *)method_00;
-  il2cpp_runtime_glue(&(__this->fields).edgeDetectShader);
+  il2cpp_runtime_helper_022b4080(&(__this->fields).edgeDetectShader);
   iVar2 = *(int *)&(__this->fields).createdMaterials;
   if (iVar2 == *(int *)&(__this->fields).edgeDetectMaterial) {
     *(int *)&(__this->fields).edgeDetectMaterial = iVar2;
@@ -57,21 +59,20 @@ UnityStandardAssets_ImageEffects_EdgeDetection__CheckResources
 
 // UnityStandardAssets.ImageEffects.EdgeDetection$$Start
 // il2cpp: void UnityStandardAssets_ImageEffects_EdgeDetection__Start (UnityStandardAssets_ImageEffects_EdgeDetection_o* __this, const MethodInfo* method);
-// 0x425ceb0
+// 0x4581fb0
 
 void UnityStandardAssets_ImageEffects_EdgeDetection__Start
                (UnityStandardAssets_ImageEffects_EdgeDetection_o *__this,MethodInfo *method)
 
 {
-  *(undefined4 *)&(__this->fields).edgeDetectMaterial =
-       *(undefined4 *)&(__this->fields).createdMaterials;
+  *(undefined4 *)&(__this->fields).edgeDetectMaterial = *(undefined4 *)&(__this->fields).createdMaterials;
   return;
 }
 
 
 // UnityStandardAssets.ImageEffects.EdgeDetection$$SetCameraFlag
 // il2cpp: void UnityStandardAssets_ImageEffects_EdgeDetection__SetCameraFlag (UnityStandardAssets_ImageEffects_EdgeDetection_o* __this, const MethodInfo* method);
-// 0x425ce10
+// 0x4581f10
 
 void UnityStandardAssets_ImageEffects_EdgeDetection__SetCameraFlag
                (UnityStandardAssets_ImageEffects_EdgeDetection_o *__this,MethodInfo *method)
@@ -81,16 +82,15 @@ void UnityStandardAssets_ImageEffects_EdgeDetection__SetCameraFlag
   UnityEngine_Camera_o *__this_00;
   uint uVar2;
   
-  if (DAT_05705256 == '\0') {
-    il2cpp_init_method_metadata(&MethodInfo_Camera_GetComponent_Camera);
-    DAT_05705256 = '\x01';
+  if (g_data_057af0d2 == '\0') {
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Camera_GetComponent_Camera);
+    g_data_057af0d2 = '\x01';
   }
   uVar2 = *(uint *)&(__this->fields).createdMaterials;
   if (uVar2 < 2) {
     __this_00 = (UnityEngine_Camera_o *)
-                UnityEngine_Component__GetComponent<object>
-                          ((UnityEngine_Component_o *)__this,MethodInfo_Camera_GetComponent_Camera);
-    if (__this_00 == (UnityEngine_Camera_o *)0x0) goto LAB_0425cea7;
+                UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)__this,MethodInfo_Camera_GetComponent_Camera);
+    if (__this_00 == (UnityEngine_Camera_o *)0x0) goto label_04581fa7;
     uVar2 = 2;
   }
   else {
@@ -98,12 +98,12 @@ void UnityStandardAssets_ImageEffects_EdgeDetection__SetCameraFlag
       return;
     }
     __this_00 = (UnityEngine_Camera_o *)
-                UnityEngine_Component__GetComponent<object>
-                          ((UnityEngine_Component_o *)__this,MethodInfo_Camera_GetComponent_Camera);
+                UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)__this,MethodInfo_Camera_GetComponent_Camera);
     if (__this_00 == (UnityEngine_Camera_o *)0x0) {
-LAB_0425cea7:
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
+label_04581fa7:
+      il2cpp_runtime_helper_022b2c90();
+      *(undefined4 *)&(__this->fields).edgeDetectMaterial = *(undefined4 *)&(__this->fields).createdMaterials;
+      return;
     }
     uVar2 = 1;
   }
@@ -115,7 +115,7 @@ LAB_0425cea7:
 
 // UnityStandardAssets.ImageEffects.EdgeDetection$$OnEnable
 // il2cpp: void UnityStandardAssets_ImageEffects_EdgeDetection__OnEnable (UnityStandardAssets_ImageEffects_EdgeDetection_o* __this, const MethodInfo* method);
-// 0x425cec0
+// 0x4581fc0
 
 void UnityStandardAssets_ImageEffects_EdgeDetection__OnEnable
                (UnityStandardAssets_ImageEffects_EdgeDetection_o *__this,MethodInfo *method)
@@ -128,29 +128,30 @@ void UnityStandardAssets_ImageEffects_EdgeDetection__OnEnable
 
 // UnityStandardAssets.ImageEffects.EdgeDetection$$OnRenderImage
 // il2cpp: void UnityStandardAssets_ImageEffects_EdgeDetection__OnRenderImage (UnityStandardAssets_ImageEffects_EdgeDetection_o* __this, UnityEngine_RenderTexture_o* source, UnityEngine_RenderTexture_o* destination, const MethodInfo* method);
-// 0x425ced0
+// 0x4581fd0
 
 void UnityStandardAssets_ImageEffects_EdgeDetection__OnRenderImage
-               (UnityStandardAssets_ImageEffects_EdgeDetection_o *__this,
-               UnityEngine_RenderTexture_o *source,UnityEngine_RenderTexture_o *destination,
-               MethodInfo *method)
+               (UnityStandardAssets_ImageEffects_EdgeDetection_o *__this,UnityEngine_RenderTexture_o *source,
+               UnityEngine_RenderTexture_o *destination,MethodInfo *method)
 
 {
   int32_t pass;
   UnityEngine_Material_o *pUVar1;
   UnityEngine_Vector4_o value;
   char cVar2;
+  System_Collections_Generic_List_object__o *__this_00;
+  UnityEngine_MonoBehaviour_o *__this_01;
   UnityEngine_Vector4_o value_00;
   
-  if (DAT_05705257 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_Graphics);
-    il2cpp_init_method_metadata(&"_Threshold");
-    il2cpp_init_method_metadata(&"_Sensitivity");
-    il2cpp_init_method_metadata(&"_SampleDistance");
-    il2cpp_init_method_metadata(&"_BgColor");
-    il2cpp_init_method_metadata(&"_Exponent");
-    il2cpp_init_method_metadata(&"_BgFade");
-    DAT_05705257 = '\x01';
+  if (g_data_057af0d3 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Graphics);
+    il2cpp_runtime_helper_023445d0(&"_Threshold");
+    il2cpp_runtime_helper_023445d0(&"_Sensitivity");
+    il2cpp_runtime_helper_023445d0(&"_SampleDistance");
+    il2cpp_runtime_helper_023445d0(&"_BgColor");
+    il2cpp_runtime_helper_023445d0(&"_Exponent");
+    il2cpp_runtime_helper_023445d0(&"_BgFade");
+    g_data_057af0d3 = '\x01';
   }
   cVar2 = (*(__this->klass->vtable)._4_CheckResources.methodPtr)
                     (__this,(__this->klass->vtable)._4_CheckResources.method);
@@ -163,12 +164,10 @@ void UnityStandardAssets_ImageEffects_EdgeDetection__OnRenderImage
       UnityEngine_Material__SetVector(pUVar1,"_Sensitivity",value_00,(MethodInfo *)0x0);
       pUVar1 = (UnityEngine_Material_o *)(__this->fields).edgeDetectShader;
       if (pUVar1 != (UnityEngine_Material_o *)0x0) {
-        UnityEngine_Material__SetFloat
-                  (pUVar1,"_BgFade",(__this->fields).edgeExp,(MethodInfo *)0x0);
+        UnityEngine_Material__SetFloat(pUVar1,"_BgFade",(__this->fields).edgeExp,(MethodInfo *)0x0);
         pUVar1 = (UnityEngine_Material_o *)(__this->fields).edgeDetectShader;
         if (pUVar1 != (UnityEngine_Material_o *)0x0) {
-          UnityEngine_Material__SetFloat
-                    (pUVar1,"_SampleDistance",(__this->fields).lumThreshold,(MethodInfo *)0x0);
+          UnityEngine_Material__SetFloat(pUVar1,"_SampleDistance",(__this->fields).lumThreshold,(MethodInfo *)0x0);
           pUVar1 = (UnityEngine_Material_o *)(__this->fields).edgeDetectShader;
           if (pUVar1 != (UnityEngine_Material_o *)0x0) {
             value.fields.x = (__this->fields).sampleDist;
@@ -187,11 +186,10 @@ void UnityStandardAssets_ImageEffects_EdgeDetection__OnRenderImage
                 pUVar1 = (UnityEngine_Material_o *)(__this->fields).edgeDetectShader;
                 pass = *(int32_t *)&(__this->fields).createdMaterials;
                 if (*(int *)(TypeInfo_Graphics + 0xe4) == 0) {
-                  il2cpp_init_class();
+                  il2cpp_runtime_helper_02337ed0();
                 }
-                UnityEngine_Graphics__Blit
-                          ((UnityEngine_Texture_o *)source,destination,pUVar1,pass,(MethodInfo *)0x0
-                          );
+                UnityEngine_Graphics__Blit_4dc2a60
+                          ((UnityEngine_Texture_o *)source,destination,pUVar1,pass,(MethodInfo *)0x0);
                 return;
               }
             }
@@ -199,11 +197,33 @@ void UnityStandardAssets_ImageEffects_EdgeDetection__OnRenderImage
         }
       }
     }
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
+    __this_01 = (UnityEngine_MonoBehaviour_o *)0x0;
+    il2cpp_runtime_helper_022b2c90();
+    *(undefined4 *)&__this_01[1].fields.m_CachedPtr = 3;
+    *(undefined8 *)((long)&__this_01[1].fields.m_CachedPtr + 4) = 0x3f8000003f800000;
+    *(undefined8 *)((long)&__this_01[1].fields.m_CancellationTokenSource + 4) = 0x3f8000003e4ccccd;
+    *(undefined4 *)((long)&__this_01[2].klass + 4) = 0x3f800000;
+    *(undefined4 *)((long)&__this_01[2].monitor + 4) = 0x3f800000;
+    *(undefined4 *)&__this_01[2].fields.m_CachedPtr = 0x3f800000;
+    *(undefined4 *)((long)&__this_01[2].fields.m_CachedPtr + 4) = 0x3f800000;
+    *(undefined4 *)&__this_01[2].fields.m_CancellationTokenSource = 0x3f800000;
+    *(undefined4 *)&__this_01[3].fields.m_CachedPtr = 3;
+    if (g_data_057af0ed == '\0') {
+      il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UnityEngine_Material);
+      il2cpp_runtime_helper_023445d0(&TypeInfo_List_Material);
+      g_data_057af0ed = '\x01';
+    }
+    *(undefined1 *)&__this_01[1].klass = 1;
+    *(undefined1 *)((long)&__this_01[1].klass + 2) = 1;
+    __this_00 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_Material);
+    System_Collections_Generic_List_object____ctor(__this_00,MethodInfo_List_1_UnityEngine_Material);
+    __this_01[1].monitor = __this_00;
+    il2cpp_runtime_helper_022b4080(&__this_01[1].monitor);
+    UnityEngine_MonoBehaviour___ctor(__this_01,(MethodInfo *)0x0);
+    return;
   }
   if (*(int *)(TypeInfo_Graphics + 0xe4) == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
   UnityEngine_Graphics__Blit((UnityEngine_Texture_o *)source,destination,(MethodInfo *)0x0);
   return;
@@ -212,7 +232,7 @@ void UnityStandardAssets_ImageEffects_EdgeDetection__OnRenderImage
 
 // UnityStandardAssets.ImageEffects.EdgeDetection$$.ctor
 // il2cpp: void UnityStandardAssets_ImageEffects_EdgeDetection___ctor (UnityStandardAssets_ImageEffects_EdgeDetection_o* __this, const MethodInfo* method);
-// 0x425d0c0
+// 0x45821c0
 
 void UnityStandardAssets_ImageEffects_EdgeDetection___ctor
                (UnityStandardAssets_ImageEffects_EdgeDetection_o *__this,MethodInfo *method)
@@ -230,17 +250,17 @@ void UnityStandardAssets_ImageEffects_EdgeDetection___ctor
   (__this->fields).edgesOnlyBgColor.fields.r = 1.0;
   (__this->fields).edgesOnlyBgColor.fields.g = 1.0;
   *(undefined4 *)&(__this->fields).edgeDetectMaterial = 3;
-  if (DAT_05705271 == '\0') {
-    il2cpp_init_method_metadata(&MethodInfo_List_1_UnityEngine_Material);
-    il2cpp_init_method_metadata(&TypeInfo_List_Material);
-    DAT_05705271 = '\x01';
+  if (g_data_057af0ed == '\0') {
+    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UnityEngine_Material);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_List_Material);
+    g_data_057af0ed = '\x01';
   }
   *(undefined1 *)&(__this->fields).supportHDRTextures = 1;
   *(undefined1 *)((long)&(__this->fields).supportHDRTextures + 2) = 1;
-  __this_00 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_glue(TypeInfo_List_Material);
-  System_Collections_Generic_List<object>___ctor(__this_00,MethodInfo_List_1_UnityEngine_Material);
+  __this_00 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_Material);
+  System_Collections_Generic_List_object____ctor(__this_00,MethodInfo_List_1_UnityEngine_Material);
   *(System_Collections_Generic_List_object__o **)&(__this->fields).isSupported = __this_00;
-  il2cpp_runtime_glue(&(__this->fields).isSupported);
+  il2cpp_runtime_helper_022b4080(&(__this->fields).isSupported);
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
   return;
 }

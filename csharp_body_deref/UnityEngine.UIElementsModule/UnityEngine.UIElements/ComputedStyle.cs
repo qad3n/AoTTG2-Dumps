@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.ComputedStyle
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -52,7 +59,7 @@ internal struct ComputedStyle
 	public int customPropertiesCount
 	{
 		[Token(Token = "0x6000FFA")]
-		[Address(RVA = "0x4D2BE70", Offset = "0x4D2BE70", VA = "0x4D2BE70")]
+		[Address(RVA = "0x50537A0", Offset = "0x50537A0", VA = "0x50537A0")]
 		get
 		{
 			return default(int);
@@ -63,7 +70,7 @@ internal struct ComputedStyle
 	public bool hasTransition
 	{
 		[Token(Token = "0x6000FFB")]
-		[Address(RVA = "0x4D2BEB0", Offset = "0x4D2BEB0", VA = "0x4D2BEB0")]
+		[Address(RVA = "0x50537E0", Offset = "0x50537E0", VA = "0x50537E0")]
 		get
 		{
 			return default(bool);
@@ -74,7 +81,7 @@ internal struct ComputedStyle
 	public Align alignContent
 	{
 		[Token(Token = "0x6001008")]
-		[Address(RVA = "0x4D2ED20", Offset = "0x4D2ED20", VA = "0x4D2ED20")]
+		[Address(RVA = "0x5056650", Offset = "0x5056650", VA = "0x5056650")]
 		get
 		{
 			return default(Align);
@@ -85,7 +92,7 @@ internal struct ComputedStyle
 	public Align alignItems
 	{
 		[Token(Token = "0x6001009")]
-		[Address(RVA = "0x4D2ED60", Offset = "0x4D2ED60", VA = "0x4D2ED60")]
+		[Address(RVA = "0x5056690", Offset = "0x5056690", VA = "0x5056690")]
 		get
 		{
 			return default(Align);
@@ -96,7 +103,7 @@ internal struct ComputedStyle
 	public Align alignSelf
 	{
 		[Token(Token = "0x600100A")]
-		[Address(RVA = "0x4D2EDA0", Offset = "0x4D2EDA0", VA = "0x4D2EDA0")]
+		[Address(RVA = "0x50566D0", Offset = "0x50566D0", VA = "0x50566D0")]
 		get
 		{
 			return default(Align);
@@ -107,7 +114,7 @@ internal struct ComputedStyle
 	public Color backgroundColor
 	{
 		[Token(Token = "0x600100B")]
-		[Address(RVA = "0x4D2EDE0", Offset = "0x4D2EDE0", VA = "0x4D2EDE0")]
+		[Address(RVA = "0x5056710", Offset = "0x5056710", VA = "0x5056710")]
 		get
 		{
 			return default(Color);
@@ -118,7 +125,7 @@ internal struct ComputedStyle
 	public Background backgroundImage
 	{
 		[Token(Token = "0x600100C")]
-		[Address(RVA = "0x4D2EE30", Offset = "0x4D2EE30", VA = "0x4D2EE30")]
+		[Address(RVA = "0x5056760", Offset = "0x5056760", VA = "0x5056760")]
 		get
 		{
 			return default(Background);
@@ -129,7 +136,7 @@ internal struct ComputedStyle
 	public BackgroundPosition backgroundPositionX
 	{
 		[Token(Token = "0x600100D")]
-		[Address(RVA = "0x4D2EE90", Offset = "0x4D2EE90", VA = "0x4D2EE90")]
+		[Address(RVA = "0x50567C0", Offset = "0x50567C0", VA = "0x50567C0")]
 		get
 		{
 			return default(BackgroundPosition);
@@ -140,7 +147,7 @@ internal struct ComputedStyle
 	public BackgroundPosition backgroundPositionY
 	{
 		[Token(Token = "0x600100E")]
-		[Address(RVA = "0x4D2EEE0", Offset = "0x4D2EEE0", VA = "0x4D2EEE0")]
+		[Address(RVA = "0x5056810", Offset = "0x5056810", VA = "0x5056810")]
 		get
 		{
 			return default(BackgroundPosition);
@@ -151,7 +158,7 @@ internal struct ComputedStyle
 	public BackgroundRepeat backgroundRepeat
 	{
 		[Token(Token = "0x600100F")]
-		[Address(RVA = "0x4D2EF30", Offset = "0x4D2EF30", VA = "0x4D2EF30")]
+		[Address(RVA = "0x5056860", Offset = "0x5056860", VA = "0x5056860")]
 		get
 		{
 			return default(BackgroundRepeat);
@@ -162,7 +169,7 @@ internal struct ComputedStyle
 	public BackgroundSize backgroundSize
 	{
 		[Token(Token = "0x6001010")]
-		[Address(RVA = "0x4D2EF70", Offset = "0x4D2EF70", VA = "0x4D2EF70")]
+		[Address(RVA = "0x50568A0", Offset = "0x50568A0", VA = "0x50568A0")]
 		get
 		{
 			return default(BackgroundSize);
@@ -173,7 +180,7 @@ internal struct ComputedStyle
 	public Color borderBottomColor
 	{
 		[Token(Token = "0x6001011")]
-		[Address(RVA = "0x4D2EFD0", Offset = "0x4D2EFD0", VA = "0x4D2EFD0")]
+		[Address(RVA = "0x5056900", Offset = "0x5056900", VA = "0x5056900")]
 		get
 		{
 			return default(Color);
@@ -184,7 +191,7 @@ internal struct ComputedStyle
 	public Length borderBottomLeftRadius
 	{
 		[Token(Token = "0x6001012")]
-		[Address(RVA = "0x4D2F020", Offset = "0x4D2F020", VA = "0x4D2F020")]
+		[Address(RVA = "0x5056950", Offset = "0x5056950", VA = "0x5056950")]
 		get
 		{
 			return default(Length);
@@ -195,7 +202,7 @@ internal struct ComputedStyle
 	public Length borderBottomRightRadius
 	{
 		[Token(Token = "0x6001013")]
-		[Address(RVA = "0x4D2F060", Offset = "0x4D2F060", VA = "0x4D2F060")]
+		[Address(RVA = "0x5056990", Offset = "0x5056990", VA = "0x5056990")]
 		get
 		{
 			return default(Length);
@@ -206,7 +213,7 @@ internal struct ComputedStyle
 	public float borderBottomWidth
 	{
 		[Token(Token = "0x6001014")]
-		[Address(RVA = "0x4D2F0A0", Offset = "0x4D2F0A0", VA = "0x4D2F0A0")]
+		[Address(RVA = "0x50569D0", Offset = "0x50569D0", VA = "0x50569D0")]
 		get
 		{
 			return default(float);
@@ -217,7 +224,7 @@ internal struct ComputedStyle
 	public Color borderLeftColor
 	{
 		[Token(Token = "0x6001015")]
-		[Address(RVA = "0x4D2F0E0", Offset = "0x4D2F0E0", VA = "0x4D2F0E0")]
+		[Address(RVA = "0x5056A10", Offset = "0x5056A10", VA = "0x5056A10")]
 		get
 		{
 			return default(Color);
@@ -228,7 +235,7 @@ internal struct ComputedStyle
 	public float borderLeftWidth
 	{
 		[Token(Token = "0x6001016")]
-		[Address(RVA = "0x4D2F130", Offset = "0x4D2F130", VA = "0x4D2F130")]
+		[Address(RVA = "0x5056A60", Offset = "0x5056A60", VA = "0x5056A60")]
 		get
 		{
 			return default(float);
@@ -239,7 +246,7 @@ internal struct ComputedStyle
 	public Color borderRightColor
 	{
 		[Token(Token = "0x6001017")]
-		[Address(RVA = "0x4D2F170", Offset = "0x4D2F170", VA = "0x4D2F170")]
+		[Address(RVA = "0x5056AA0", Offset = "0x5056AA0", VA = "0x5056AA0")]
 		get
 		{
 			return default(Color);
@@ -250,7 +257,7 @@ internal struct ComputedStyle
 	public float borderRightWidth
 	{
 		[Token(Token = "0x6001018")]
-		[Address(RVA = "0x4D2F1C0", Offset = "0x4D2F1C0", VA = "0x4D2F1C0")]
+		[Address(RVA = "0x5056AF0", Offset = "0x5056AF0", VA = "0x5056AF0")]
 		get
 		{
 			return default(float);
@@ -261,7 +268,7 @@ internal struct ComputedStyle
 	public Color borderTopColor
 	{
 		[Token(Token = "0x6001019")]
-		[Address(RVA = "0x4D2F200", Offset = "0x4D2F200", VA = "0x4D2F200")]
+		[Address(RVA = "0x5056B30", Offset = "0x5056B30", VA = "0x5056B30")]
 		get
 		{
 			return default(Color);
@@ -272,7 +279,7 @@ internal struct ComputedStyle
 	public Length borderTopLeftRadius
 	{
 		[Token(Token = "0x600101A")]
-		[Address(RVA = "0x4D2F250", Offset = "0x4D2F250", VA = "0x4D2F250")]
+		[Address(RVA = "0x5056B80", Offset = "0x5056B80", VA = "0x5056B80")]
 		get
 		{
 			return default(Length);
@@ -283,7 +290,7 @@ internal struct ComputedStyle
 	public Length borderTopRightRadius
 	{
 		[Token(Token = "0x600101B")]
-		[Address(RVA = "0x4D2F290", Offset = "0x4D2F290", VA = "0x4D2F290")]
+		[Address(RVA = "0x5056BC0", Offset = "0x5056BC0", VA = "0x5056BC0")]
 		get
 		{
 			return default(Length);
@@ -294,7 +301,7 @@ internal struct ComputedStyle
 	public float borderTopWidth
 	{
 		[Token(Token = "0x600101C")]
-		[Address(RVA = "0x4D2F2D0", Offset = "0x4D2F2D0", VA = "0x4D2F2D0")]
+		[Address(RVA = "0x5056C00", Offset = "0x5056C00", VA = "0x5056C00")]
 		get
 		{
 			return default(float);
@@ -305,7 +312,7 @@ internal struct ComputedStyle
 	public Length bottom
 	{
 		[Token(Token = "0x600101D")]
-		[Address(RVA = "0x4D2F310", Offset = "0x4D2F310", VA = "0x4D2F310")]
+		[Address(RVA = "0x5056C40", Offset = "0x5056C40", VA = "0x5056C40")]
 		get
 		{
 			return default(Length);
@@ -316,7 +323,7 @@ internal struct ComputedStyle
 	public Color color
 	{
 		[Token(Token = "0x600101E")]
-		[Address(RVA = "0x4D2F350", Offset = "0x4D2F350", VA = "0x4D2F350")]
+		[Address(RVA = "0x5056C80", Offset = "0x5056C80", VA = "0x5056C80")]
 		get
 		{
 			return default(Color);
@@ -327,7 +334,7 @@ internal struct ComputedStyle
 	public Cursor cursor
 	{
 		[Token(Token = "0x600101F")]
-		[Address(RVA = "0x4D2F390", Offset = "0x4D2F390", VA = "0x4D2F390")]
+		[Address(RVA = "0x5056CC0", Offset = "0x5056CC0", VA = "0x5056CC0")]
 		get
 		{
 			return default(Cursor);
@@ -338,7 +345,7 @@ internal struct ComputedStyle
 	public DisplayStyle display
 	{
 		[Token(Token = "0x6001020")]
-		[Address(RVA = "0x4D2F3F0", Offset = "0x4D2F3F0", VA = "0x4D2F3F0")]
+		[Address(RVA = "0x5056D20", Offset = "0x5056D20", VA = "0x5056D20")]
 		get
 		{
 			return default(DisplayStyle);
@@ -349,7 +356,7 @@ internal struct ComputedStyle
 	public Length flexBasis
 	{
 		[Token(Token = "0x6001021")]
-		[Address(RVA = "0x4D2F430", Offset = "0x4D2F430", VA = "0x4D2F430")]
+		[Address(RVA = "0x5056D60", Offset = "0x5056D60", VA = "0x5056D60")]
 		get
 		{
 			return default(Length);
@@ -360,7 +367,7 @@ internal struct ComputedStyle
 	public FlexDirection flexDirection
 	{
 		[Token(Token = "0x6001022")]
-		[Address(RVA = "0x4D2F470", Offset = "0x4D2F470", VA = "0x4D2F470")]
+		[Address(RVA = "0x5056DA0", Offset = "0x5056DA0", VA = "0x5056DA0")]
 		get
 		{
 			return default(FlexDirection);
@@ -371,7 +378,7 @@ internal struct ComputedStyle
 	public float flexGrow
 	{
 		[Token(Token = "0x6001023")]
-		[Address(RVA = "0x4D2F4B0", Offset = "0x4D2F4B0", VA = "0x4D2F4B0")]
+		[Address(RVA = "0x5056DE0", Offset = "0x5056DE0", VA = "0x5056DE0")]
 		get
 		{
 			return default(float);
@@ -382,7 +389,7 @@ internal struct ComputedStyle
 	public float flexShrink
 	{
 		[Token(Token = "0x6001024")]
-		[Address(RVA = "0x4D2F4F0", Offset = "0x4D2F4F0", VA = "0x4D2F4F0")]
+		[Address(RVA = "0x5056E20", Offset = "0x5056E20", VA = "0x5056E20")]
 		get
 		{
 			return default(float);
@@ -393,7 +400,7 @@ internal struct ComputedStyle
 	public Wrap flexWrap
 	{
 		[Token(Token = "0x6001025")]
-		[Address(RVA = "0x4D2F530", Offset = "0x4D2F530", VA = "0x4D2F530")]
+		[Address(RVA = "0x5056E60", Offset = "0x5056E60", VA = "0x5056E60")]
 		get
 		{
 			return default(Wrap);
@@ -404,7 +411,7 @@ internal struct ComputedStyle
 	public Length fontSize
 	{
 		[Token(Token = "0x6001026")]
-		[Address(RVA = "0x4D2BFF0", Offset = "0x4D2BFF0", VA = "0x4D2BFF0")]
+		[Address(RVA = "0x5053920", Offset = "0x5053920", VA = "0x5053920")]
 		get
 		{
 			return default(Length);
@@ -415,7 +422,7 @@ internal struct ComputedStyle
 	public Length height
 	{
 		[Token(Token = "0x6001027")]
-		[Address(RVA = "0x4D2F570", Offset = "0x4D2F570", VA = "0x4D2F570")]
+		[Address(RVA = "0x5056EA0", Offset = "0x5056EA0", VA = "0x5056EA0")]
 		get
 		{
 			return default(Length);
@@ -426,7 +433,7 @@ internal struct ComputedStyle
 	public Justify justifyContent
 	{
 		[Token(Token = "0x6001028")]
-		[Address(RVA = "0x4D2F5B0", Offset = "0x4D2F5B0", VA = "0x4D2F5B0")]
+		[Address(RVA = "0x5056EE0", Offset = "0x5056EE0", VA = "0x5056EE0")]
 		get
 		{
 			return default(Justify);
@@ -437,7 +444,7 @@ internal struct ComputedStyle
 	public Length left
 	{
 		[Token(Token = "0x6001029")]
-		[Address(RVA = "0x4D2F5F0", Offset = "0x4D2F5F0", VA = "0x4D2F5F0")]
+		[Address(RVA = "0x5056F20", Offset = "0x5056F20", VA = "0x5056F20")]
 		get
 		{
 			return default(Length);
@@ -448,7 +455,7 @@ internal struct ComputedStyle
 	public Length letterSpacing
 	{
 		[Token(Token = "0x600102A")]
-		[Address(RVA = "0x4D2F630", Offset = "0x4D2F630", VA = "0x4D2F630")]
+		[Address(RVA = "0x5056F60", Offset = "0x5056F60", VA = "0x5056F60")]
 		get
 		{
 			return default(Length);
@@ -459,7 +466,7 @@ internal struct ComputedStyle
 	public Length marginBottom
 	{
 		[Token(Token = "0x600102B")]
-		[Address(RVA = "0x4D2F670", Offset = "0x4D2F670", VA = "0x4D2F670")]
+		[Address(RVA = "0x5056FA0", Offset = "0x5056FA0", VA = "0x5056FA0")]
 		get
 		{
 			return default(Length);
@@ -470,7 +477,7 @@ internal struct ComputedStyle
 	public Length marginLeft
 	{
 		[Token(Token = "0x600102C")]
-		[Address(RVA = "0x4D2F6B0", Offset = "0x4D2F6B0", VA = "0x4D2F6B0")]
+		[Address(RVA = "0x5056FE0", Offset = "0x5056FE0", VA = "0x5056FE0")]
 		get
 		{
 			return default(Length);
@@ -481,7 +488,7 @@ internal struct ComputedStyle
 	public Length marginRight
 	{
 		[Token(Token = "0x600102D")]
-		[Address(RVA = "0x4D2F6F0", Offset = "0x4D2F6F0", VA = "0x4D2F6F0")]
+		[Address(RVA = "0x5057020", Offset = "0x5057020", VA = "0x5057020")]
 		get
 		{
 			return default(Length);
@@ -492,7 +499,7 @@ internal struct ComputedStyle
 	public Length marginTop
 	{
 		[Token(Token = "0x600102E")]
-		[Address(RVA = "0x4D2F730", Offset = "0x4D2F730", VA = "0x4D2F730")]
+		[Address(RVA = "0x5057060", Offset = "0x5057060", VA = "0x5057060")]
 		get
 		{
 			return default(Length);
@@ -503,7 +510,7 @@ internal struct ComputedStyle
 	public Length maxHeight
 	{
 		[Token(Token = "0x600102F")]
-		[Address(RVA = "0x4D2F770", Offset = "0x4D2F770", VA = "0x4D2F770")]
+		[Address(RVA = "0x50570A0", Offset = "0x50570A0", VA = "0x50570A0")]
 		get
 		{
 			return default(Length);
@@ -514,7 +521,7 @@ internal struct ComputedStyle
 	public Length maxWidth
 	{
 		[Token(Token = "0x6001030")]
-		[Address(RVA = "0x4D2F7B0", Offset = "0x4D2F7B0", VA = "0x4D2F7B0")]
+		[Address(RVA = "0x50570E0", Offset = "0x50570E0", VA = "0x50570E0")]
 		get
 		{
 			return default(Length);
@@ -525,7 +532,7 @@ internal struct ComputedStyle
 	public Length minHeight
 	{
 		[Token(Token = "0x6001031")]
-		[Address(RVA = "0x4D2F7F0", Offset = "0x4D2F7F0", VA = "0x4D2F7F0")]
+		[Address(RVA = "0x5057120", Offset = "0x5057120", VA = "0x5057120")]
 		get
 		{
 			return default(Length);
@@ -536,7 +543,7 @@ internal struct ComputedStyle
 	public Length minWidth
 	{
 		[Token(Token = "0x6001032")]
-		[Address(RVA = "0x4D2F830", Offset = "0x4D2F830", VA = "0x4D2F830")]
+		[Address(RVA = "0x5057160", Offset = "0x5057160", VA = "0x5057160")]
 		get
 		{
 			return default(Length);
@@ -547,7 +554,7 @@ internal struct ComputedStyle
 	public float opacity
 	{
 		[Token(Token = "0x6001033")]
-		[Address(RVA = "0x4D2F870", Offset = "0x4D2F870", VA = "0x4D2F870")]
+		[Address(RVA = "0x50571A0", Offset = "0x50571A0", VA = "0x50571A0")]
 		get
 		{
 			return default(float);
@@ -558,7 +565,7 @@ internal struct ComputedStyle
 	public OverflowInternal overflow
 	{
 		[Token(Token = "0x6001034")]
-		[Address(RVA = "0x4D2F8B0", Offset = "0x4D2F8B0", VA = "0x4D2F8B0")]
+		[Address(RVA = "0x50571E0", Offset = "0x50571E0", VA = "0x50571E0")]
 		get
 		{
 			return default(OverflowInternal);
@@ -569,7 +576,7 @@ internal struct ComputedStyle
 	public Length paddingBottom
 	{
 		[Token(Token = "0x6001035")]
-		[Address(RVA = "0x4D2F8F0", Offset = "0x4D2F8F0", VA = "0x4D2F8F0")]
+		[Address(RVA = "0x5057220", Offset = "0x5057220", VA = "0x5057220")]
 		get
 		{
 			return default(Length);
@@ -580,7 +587,7 @@ internal struct ComputedStyle
 	public Length paddingLeft
 	{
 		[Token(Token = "0x6001036")]
-		[Address(RVA = "0x4D2F930", Offset = "0x4D2F930", VA = "0x4D2F930")]
+		[Address(RVA = "0x5057260", Offset = "0x5057260", VA = "0x5057260")]
 		get
 		{
 			return default(Length);
@@ -591,7 +598,7 @@ internal struct ComputedStyle
 	public Length paddingRight
 	{
 		[Token(Token = "0x6001037")]
-		[Address(RVA = "0x4D2F970", Offset = "0x4D2F970", VA = "0x4D2F970")]
+		[Address(RVA = "0x50572A0", Offset = "0x50572A0", VA = "0x50572A0")]
 		get
 		{
 			return default(Length);
@@ -602,7 +609,7 @@ internal struct ComputedStyle
 	public Length paddingTop
 	{
 		[Token(Token = "0x6001038")]
-		[Address(RVA = "0x4D2F9B0", Offset = "0x4D2F9B0", VA = "0x4D2F9B0")]
+		[Address(RVA = "0x50572E0", Offset = "0x50572E0", VA = "0x50572E0")]
 		get
 		{
 			return default(Length);
@@ -613,7 +620,7 @@ internal struct ComputedStyle
 	public Position position
 	{
 		[Token(Token = "0x6001039")]
-		[Address(RVA = "0x4D2F9F0", Offset = "0x4D2F9F0", VA = "0x4D2F9F0")]
+		[Address(RVA = "0x5057320", Offset = "0x5057320", VA = "0x5057320")]
 		get
 		{
 			return default(Position);
@@ -624,7 +631,7 @@ internal struct ComputedStyle
 	public Length right
 	{
 		[Token(Token = "0x600103A")]
-		[Address(RVA = "0x4D2FA30", Offset = "0x4D2FA30", VA = "0x4D2FA30")]
+		[Address(RVA = "0x5057360", Offset = "0x5057360", VA = "0x5057360")]
 		get
 		{
 			return default(Length);
@@ -635,7 +642,7 @@ internal struct ComputedStyle
 	public Rotate rotate
 	{
 		[Token(Token = "0x600103B")]
-		[Address(RVA = "0x4D2FA70", Offset = "0x4D2FA70", VA = "0x4D2FA70")]
+		[Address(RVA = "0x50573A0", Offset = "0x50573A0", VA = "0x50573A0")]
 		get
 		{
 			return default(Rotate);
@@ -646,7 +653,7 @@ internal struct ComputedStyle
 	public Scale scale
 	{
 		[Token(Token = "0x600103C")]
-		[Address(RVA = "0x4D2FAD0", Offset = "0x4D2FAD0", VA = "0x4D2FAD0")]
+		[Address(RVA = "0x5057400", Offset = "0x5057400", VA = "0x5057400")]
 		get
 		{
 			return default(Scale);
@@ -657,7 +664,7 @@ internal struct ComputedStyle
 	public TextOverflow textOverflow
 	{
 		[Token(Token = "0x600103D")]
-		[Address(RVA = "0x4D2FB20", Offset = "0x4D2FB20", VA = "0x4D2FB20")]
+		[Address(RVA = "0x5057450", Offset = "0x5057450", VA = "0x5057450")]
 		get
 		{
 			return default(TextOverflow);
@@ -668,7 +675,7 @@ internal struct ComputedStyle
 	public TextShadow textShadow
 	{
 		[Token(Token = "0x600103E")]
-		[Address(RVA = "0x4D2FB60", Offset = "0x4D2FB60", VA = "0x4D2FB60")]
+		[Address(RVA = "0x5057490", Offset = "0x5057490", VA = "0x5057490")]
 		get
 		{
 			return default(TextShadow);
@@ -679,7 +686,7 @@ internal struct ComputedStyle
 	public Length top
 	{
 		[Token(Token = "0x600103F")]
-		[Address(RVA = "0x4D2FBC0", Offset = "0x4D2FBC0", VA = "0x4D2FBC0")]
+		[Address(RVA = "0x50574F0", Offset = "0x50574F0", VA = "0x50574F0")]
 		get
 		{
 			return default(Length);
@@ -690,7 +697,7 @@ internal struct ComputedStyle
 	public TransformOrigin transformOrigin
 	{
 		[Token(Token = "0x6001040")]
-		[Address(RVA = "0x4D2FC00", Offset = "0x4D2FC00", VA = "0x4D2FC00")]
+		[Address(RVA = "0x5057530", Offset = "0x5057530", VA = "0x5057530")]
 		get
 		{
 			return default(TransformOrigin);
@@ -701,7 +708,7 @@ internal struct ComputedStyle
 	public List<TimeValue> transitionDelay
 	{
 		[Token(Token = "0x6001041")]
-		[Address(RVA = "0x4D2FC60", Offset = "0x4D2FC60", VA = "0x4D2FC60")]
+		[Address(RVA = "0x5057590", Offset = "0x5057590", VA = "0x5057590")]
 		get
 		{
 			return null;
@@ -712,7 +719,7 @@ internal struct ComputedStyle
 	public List<TimeValue> transitionDuration
 	{
 		[Token(Token = "0x6001042")]
-		[Address(RVA = "0x4D2FCA0", Offset = "0x4D2FCA0", VA = "0x4D2FCA0")]
+		[Address(RVA = "0x50575D0", Offset = "0x50575D0", VA = "0x50575D0")]
 		get
 		{
 			return null;
@@ -723,7 +730,7 @@ internal struct ComputedStyle
 	public List<StylePropertyName> transitionProperty
 	{
 		[Token(Token = "0x6001043")]
-		[Address(RVA = "0x4D2FCE0", Offset = "0x4D2FCE0", VA = "0x4D2FCE0")]
+		[Address(RVA = "0x5057610", Offset = "0x5057610", VA = "0x5057610")]
 		get
 		{
 			return null;
@@ -734,7 +741,7 @@ internal struct ComputedStyle
 	public List<EasingFunction> transitionTimingFunction
 	{
 		[Token(Token = "0x6001044")]
-		[Address(RVA = "0x4D2FD20", Offset = "0x4D2FD20", VA = "0x4D2FD20")]
+		[Address(RVA = "0x5057650", Offset = "0x5057650", VA = "0x5057650")]
 		get
 		{
 			return null;
@@ -745,7 +752,7 @@ internal struct ComputedStyle
 	public Translate translate
 	{
 		[Token(Token = "0x6001045")]
-		[Address(RVA = "0x4D2FD60", Offset = "0x4D2FD60", VA = "0x4D2FD60")]
+		[Address(RVA = "0x5057690", Offset = "0x5057690", VA = "0x5057690")]
 		get
 		{
 			return default(Translate);
@@ -756,7 +763,7 @@ internal struct ComputedStyle
 	public Color unityBackgroundImageTintColor
 	{
 		[Token(Token = "0x6001046")]
-		[Address(RVA = "0x4D2FDC0", Offset = "0x4D2FDC0", VA = "0x4D2FDC0")]
+		[Address(RVA = "0x50576F0", Offset = "0x50576F0", VA = "0x50576F0")]
 		get
 		{
 			return default(Color);
@@ -767,7 +774,7 @@ internal struct ComputedStyle
 	public Font unityFont
 	{
 		[Token(Token = "0x6001047")]
-		[Address(RVA = "0x4D2FE10", Offset = "0x4D2FE10", VA = "0x4D2FE10")]
+		[Address(RVA = "0x5057740", Offset = "0x5057740", VA = "0x5057740")]
 		get
 		{
 			return null;
@@ -778,7 +785,7 @@ internal struct ComputedStyle
 	public FontDefinition unityFontDefinition
 	{
 		[Token(Token = "0x6001048")]
-		[Address(RVA = "0x4D2FE50", Offset = "0x4D2FE50", VA = "0x4D2FE50")]
+		[Address(RVA = "0x5057780", Offset = "0x5057780", VA = "0x5057780")]
 		get
 		{
 			return default(FontDefinition);
@@ -789,7 +796,7 @@ internal struct ComputedStyle
 	public FontStyle unityFontStyleAndWeight
 	{
 		[Token(Token = "0x6001049")]
-		[Address(RVA = "0x4D2FE90", Offset = "0x4D2FE90", VA = "0x4D2FE90")]
+		[Address(RVA = "0x50577C0", Offset = "0x50577C0", VA = "0x50577C0")]
 		get
 		{
 			return default(FontStyle);
@@ -800,7 +807,7 @@ internal struct ComputedStyle
 	public OverflowClipBox unityOverflowClipBox
 	{
 		[Token(Token = "0x600104A")]
-		[Address(RVA = "0x4D2FED0", Offset = "0x4D2FED0", VA = "0x4D2FED0")]
+		[Address(RVA = "0x5057800", Offset = "0x5057800", VA = "0x5057800")]
 		get
 		{
 			return default(OverflowClipBox);
@@ -811,7 +818,7 @@ internal struct ComputedStyle
 	public Length unityParagraphSpacing
 	{
 		[Token(Token = "0x600104B")]
-		[Address(RVA = "0x4D2FF10", Offset = "0x4D2FF10", VA = "0x4D2FF10")]
+		[Address(RVA = "0x5057840", Offset = "0x5057840", VA = "0x5057840")]
 		get
 		{
 			return default(Length);
@@ -822,7 +829,7 @@ internal struct ComputedStyle
 	public int unitySliceBottom
 	{
 		[Token(Token = "0x600104C")]
-		[Address(RVA = "0x4D2FF50", Offset = "0x4D2FF50", VA = "0x4D2FF50")]
+		[Address(RVA = "0x5057880", Offset = "0x5057880", VA = "0x5057880")]
 		get
 		{
 			return default(int);
@@ -833,7 +840,7 @@ internal struct ComputedStyle
 	public int unitySliceLeft
 	{
 		[Token(Token = "0x600104D")]
-		[Address(RVA = "0x4D2FF90", Offset = "0x4D2FF90", VA = "0x4D2FF90")]
+		[Address(RVA = "0x50578C0", Offset = "0x50578C0", VA = "0x50578C0")]
 		get
 		{
 			return default(int);
@@ -844,7 +851,7 @@ internal struct ComputedStyle
 	public int unitySliceRight
 	{
 		[Token(Token = "0x600104E")]
-		[Address(RVA = "0x4D2FFD0", Offset = "0x4D2FFD0", VA = "0x4D2FFD0")]
+		[Address(RVA = "0x5057900", Offset = "0x5057900", VA = "0x5057900")]
 		get
 		{
 			return default(int);
@@ -855,7 +862,7 @@ internal struct ComputedStyle
 	public float unitySliceScale
 	{
 		[Token(Token = "0x600104F")]
-		[Address(RVA = "0x4D30010", Offset = "0x4D30010", VA = "0x4D30010")]
+		[Address(RVA = "0x5057940", Offset = "0x5057940", VA = "0x5057940")]
 		get
 		{
 			return default(float);
@@ -866,7 +873,7 @@ internal struct ComputedStyle
 	public int unitySliceTop
 	{
 		[Token(Token = "0x6001050")]
-		[Address(RVA = "0x4D30050", Offset = "0x4D30050", VA = "0x4D30050")]
+		[Address(RVA = "0x5057980", Offset = "0x5057980", VA = "0x5057980")]
 		get
 		{
 			return default(int);
@@ -877,7 +884,7 @@ internal struct ComputedStyle
 	public TextAnchor unityTextAlign
 	{
 		[Token(Token = "0x6001051")]
-		[Address(RVA = "0x4D30090", Offset = "0x4D30090", VA = "0x4D30090")]
+		[Address(RVA = "0x50579C0", Offset = "0x50579C0", VA = "0x50579C0")]
 		get
 		{
 			return default(TextAnchor);
@@ -888,7 +895,7 @@ internal struct ComputedStyle
 	public Color unityTextOutlineColor
 	{
 		[Token(Token = "0x6001052")]
-		[Address(RVA = "0x4D300D0", Offset = "0x4D300D0", VA = "0x4D300D0")]
+		[Address(RVA = "0x5057A00", Offset = "0x5057A00", VA = "0x5057A00")]
 		get
 		{
 			return default(Color);
@@ -899,7 +906,7 @@ internal struct ComputedStyle
 	public float unityTextOutlineWidth
 	{
 		[Token(Token = "0x6001053")]
-		[Address(RVA = "0x4D30110", Offset = "0x4D30110", VA = "0x4D30110")]
+		[Address(RVA = "0x5057A40", Offset = "0x5057A40", VA = "0x5057A40")]
 		get
 		{
 			return default(float);
@@ -910,7 +917,7 @@ internal struct ComputedStyle
 	public TextOverflowPosition unityTextOverflowPosition
 	{
 		[Token(Token = "0x6001054")]
-		[Address(RVA = "0x4D30150", Offset = "0x4D30150", VA = "0x4D30150")]
+		[Address(RVA = "0x5057A80", Offset = "0x5057A80", VA = "0x5057A80")]
 		get
 		{
 			return default(TextOverflowPosition);
@@ -921,7 +928,7 @@ internal struct ComputedStyle
 	public Visibility visibility
 	{
 		[Token(Token = "0x6001055")]
-		[Address(RVA = "0x4D30190", Offset = "0x4D30190", VA = "0x4D30190")]
+		[Address(RVA = "0x5057AC0", Offset = "0x5057AC0", VA = "0x5057AC0")]
 		get
 		{
 			return default(Visibility);
@@ -932,7 +939,7 @@ internal struct ComputedStyle
 	public WhiteSpace whiteSpace
 	{
 		[Token(Token = "0x6001056")]
-		[Address(RVA = "0x4D301D0", Offset = "0x4D301D0", VA = "0x4D301D0")]
+		[Address(RVA = "0x5057B00", Offset = "0x5057B00", VA = "0x5057B00")]
 		get
 		{
 			return default(WhiteSpace);
@@ -943,7 +950,7 @@ internal struct ComputedStyle
 	public Length width
 	{
 		[Token(Token = "0x6001057")]
-		[Address(RVA = "0x4D30210", Offset = "0x4D30210", VA = "0x4D30210")]
+		[Address(RVA = "0x5057B40", Offset = "0x5057B40", VA = "0x5057B40")]
 		get
 		{
 			return default(Length);
@@ -954,7 +961,7 @@ internal struct ComputedStyle
 	public Length wordSpacing
 	{
 		[Token(Token = "0x6001058")]
-		[Address(RVA = "0x4D30250", Offset = "0x4D30250", VA = "0x4D30250")]
+		[Address(RVA = "0x5057B80", Offset = "0x5057B80", VA = "0x5057B80")]
 		get
 		{
 			return default(Length);
@@ -962,320 +969,320 @@ internal struct ComputedStyle
 	}
 
 	[Token(Token = "0x6000FFC")]
-	[Address(RVA = "0x4D2BED0", Offset = "0x4D2BED0", VA = "0x4D2BED0")]
+	[Address(RVA = "0x5053800", Offset = "0x5053800", VA = "0x5053800")]
 	public void FinalizeApply(ref ComputedStyle parentStyle)
 	{
 	}
 
 	[Token(Token = "0x6000FFD")]
-	[Address(RVA = "0x4D2C030", Offset = "0x4D2C030", VA = "0x4D2C030")]
+	[Address(RVA = "0x5053960", Offset = "0x5053960", VA = "0x5053960")]
 	private bool ApplyGlobalKeyword(StylePropertyReader reader, ref ComputedStyle parentStyle)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FFE")]
-	[Address(RVA = "0x4D2C180", Offset = "0x4D2C180", VA = "0x4D2C180")]
+	[Address(RVA = "0x5053AB0", Offset = "0x5053AB0", VA = "0x5053AB0")]
 	private bool ApplyGlobalKeyword(StylePropertyId id, StyleKeyword keyword, ref ComputedStyle parentStyle)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FFF")]
-	[Address(RVA = "0x4D2DE50", Offset = "0x4D2DE50", VA = "0x4D2DE50")]
+	[Address(RVA = "0x5055780", Offset = "0x5055780", VA = "0x5055780")]
 	private void RemoveCustomStyleProperty(StylePropertyReader reader)
 	{
 	}
 
 	[Token(Token = "0x6001000")]
-	[Address(RVA = "0x4D2DEF0", Offset = "0x4D2DEF0", VA = "0x4D2DEF0")]
+	[Address(RVA = "0x5055820", Offset = "0x5055820", VA = "0x5055820")]
 	private void ApplyCustomStyleProperty(StylePropertyReader reader)
 	{
 	}
 
 	[Token(Token = "0x6001001")]
-	[Address(RVA = "0x4D2DFE0", Offset = "0x4D2DFE0", VA = "0x4D2DFE0")]
+	[Address(RVA = "0x5055910", Offset = "0x5055910", VA = "0x5055910")]
 	private void ApplyAllPropertyInitial()
 	{
 	}
 
 	[Token(Token = "0x6001002")]
-	[Address(RVA = "0x4D2E160", Offset = "0x4D2E160", VA = "0x4D2E160")]
+	[Address(RVA = "0x5055A90", Offset = "0x5055A90", VA = "0x5055A90")]
 	private void ResetComputedTransitions()
 	{
 	}
 
 	[Token(Token = "0x6001003")]
-	[Address(RVA = "0x4D2E180", Offset = "0x4D2E180", VA = "0x4D2E180")]
+	[Address(RVA = "0x5055AB0", Offset = "0x5055AB0", VA = "0x5055AB0")]
 	public static bool StartAnimationInlineTextShadow(VisualElement element, ref ComputedStyle computedStyle, StyleTextShadow textShadow, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001004")]
-	[Address(RVA = "0x4D2E3E0", Offset = "0x4D2E3E0", VA = "0x4D2E3E0")]
+	[Address(RVA = "0x5055D10", Offset = "0x5055D10", VA = "0x5055D10")]
 	public static bool StartAnimationInlineRotate(VisualElement element, ref ComputedStyle computedStyle, StyleRotate rotate, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001005")]
-	[Address(RVA = "0x4D2E660", Offset = "0x4D2E660", VA = "0x4D2E660")]
+	[Address(RVA = "0x5055F90", Offset = "0x5055F90", VA = "0x5055F90")]
 	public static bool StartAnimationInlineTranslate(VisualElement element, ref ComputedStyle computedStyle, StyleTranslate translate, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001006")]
-	[Address(RVA = "0x4D2E8E0", Offset = "0x4D2E8E0", VA = "0x4D2E8E0")]
+	[Address(RVA = "0x5056210", Offset = "0x5056210", VA = "0x5056210")]
 	public static bool StartAnimationInlineScale(VisualElement element, ref ComputedStyle computedStyle, StyleScale scale, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001007")]
-	[Address(RVA = "0x4D2EAA0", Offset = "0x4D2EAA0", VA = "0x4D2EAA0")]
+	[Address(RVA = "0x50563D0", Offset = "0x50563D0", VA = "0x50563D0")]
 	public static bool StartAnimationInlineTransformOrigin(VisualElement element, ref ComputedStyle computedStyle, StyleTransformOrigin transformOrigin, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001059")]
-	[Address(RVA = "0x4D30290", Offset = "0x4D30290", VA = "0x4D30290")]
+	[Address(RVA = "0x5057BC0", Offset = "0x5057BC0", VA = "0x5057BC0")]
 	public static ComputedStyle Create(ref ComputedStyle parentStyle)
 	{
 		return default(ComputedStyle);
 	}
 
 	[Token(Token = "0x600105A")]
-	[Address(RVA = "0x4D30490", Offset = "0x4D30490", VA = "0x4D30490")]
+	[Address(RVA = "0x5057DC0", Offset = "0x5057DC0", VA = "0x5057DC0")]
 	public static ComputedStyle CreateInitial()
 	{
 		return default(ComputedStyle);
 	}
 
 	[Token(Token = "0x600105B")]
-	[Address(RVA = "0x4D30620", Offset = "0x4D30620", VA = "0x4D30620")]
+	[Address(RVA = "0x5057F50", Offset = "0x5057F50", VA = "0x5057F50")]
 	public ComputedStyle Acquire()
 	{
 		return default(ComputedStyle);
 	}
 
 	[Token(Token = "0x600105C")]
-	[Address(RVA = "0x4D30730", Offset = "0x4D30730", VA = "0x4D30730")]
+	[Address(RVA = "0x5058060", Offset = "0x5058060", VA = "0x5058060")]
 	public void Release()
 	{
 	}
 
 	[Token(Token = "0x600105D")]
-	[Address(RVA = "0x4D2E030", Offset = "0x4D2E030", VA = "0x4D2E030")]
+	[Address(RVA = "0x5055960", Offset = "0x5055960", VA = "0x5055960")]
 	public void CopyFrom(ref ComputedStyle other)
 	{
 	}
 
 	[Token(Token = "0x600105E")]
-	[Address(RVA = "0x4D30810", Offset = "0x4D30810", VA = "0x4D30810")]
+	[Address(RVA = "0x5058140", Offset = "0x5058140", VA = "0x5058140")]
 	public void ApplyProperties(StylePropertyReader reader, ref ComputedStyle parentStyle)
 	{
 	}
 
 	[Token(Token = "0x600105F")]
-	[Address(RVA = "0x4D31B10", Offset = "0x4D31B10", VA = "0x4D31B10")]
+	[Address(RVA = "0x5059440", Offset = "0x5059440", VA = "0x5059440")]
 	public void ApplyStyleValue(StyleValue sv, ref ComputedStyle parentStyle)
 	{
 	}
 
 	[Token(Token = "0x6001060")]
-	[Address(RVA = "0x4D32850", Offset = "0x4D32850", VA = "0x4D32850")]
+	[Address(RVA = "0x505A180", Offset = "0x505A180", VA = "0x505A180")]
 	public void ApplyStyleValueManaged(StyleValueManaged sv, ref ComputedStyle parentStyle)
 	{
 	}
 
 	[Token(Token = "0x6001061")]
-	[Address(RVA = "0x4D32C80", Offset = "0x4D32C80", VA = "0x4D32C80")]
+	[Address(RVA = "0x505A5B0", Offset = "0x505A5B0", VA = "0x505A5B0")]
 	public void ApplyStyleCursor(Cursor cursor)
 	{
 	}
 
 	[Token(Token = "0x6001062")]
-	[Address(RVA = "0x4D32CE0", Offset = "0x4D32CE0", VA = "0x4D32CE0")]
+	[Address(RVA = "0x505A610", Offset = "0x505A610", VA = "0x505A610")]
 	public void ApplyStyleTextShadow(TextShadow st)
 	{
 	}
 
 	[Token(Token = "0x6001063")]
-	[Address(RVA = "0x4D32D40", Offset = "0x4D32D40", VA = "0x4D32D40")]
+	[Address(RVA = "0x505A670", Offset = "0x505A670", VA = "0x505A670")]
 	public void ApplyFromComputedStyle(StylePropertyId id, ref ComputedStyle other)
 	{
 	}
 
 	[Token(Token = "0x6001064")]
-	[Address(RVA = "0x4D34250", Offset = "0x4D34250", VA = "0x4D34250")]
+	[Address(RVA = "0x505BB80", Offset = "0x505BB80", VA = "0x505BB80")]
 	public void ApplyPropertyAnimation(VisualElement ve, StylePropertyId id, Length newValue)
 	{
 	}
 
 	[Token(Token = "0x6001065")]
-	[Address(RVA = "0x4D34AE0", Offset = "0x4D34AE0", VA = "0x4D34AE0")]
+	[Address(RVA = "0x505C410", Offset = "0x505C410", VA = "0x505C410")]
 	public void ApplyPropertyAnimation(VisualElement ve, StylePropertyId id, float newValue)
 	{
 	}
 
 	[Token(Token = "0x6001066")]
-	[Address(RVA = "0x4D34EB0", Offset = "0x4D34EB0", VA = "0x4D34EB0")]
+	[Address(RVA = "0x505C7E0", Offset = "0x505C7E0", VA = "0x505C7E0")]
 	public void ApplyPropertyAnimation(VisualElement ve, StylePropertyId id, int newValue)
 	{
 	}
 
 	[Token(Token = "0x6001067")]
-	[Address(RVA = "0x4D356A0", Offset = "0x4D356A0", VA = "0x4D356A0")]
+	[Address(RVA = "0x505CFD0", Offset = "0x505CFD0", VA = "0x505CFD0")]
 	public void ApplyPropertyAnimation(VisualElement ve, StylePropertyId id, BackgroundPosition newValue)
 	{
 	}
 
 	[Token(Token = "0x6001068")]
-	[Address(RVA = "0x4D35880", Offset = "0x4D35880", VA = "0x4D35880")]
+	[Address(RVA = "0x505D1B0", Offset = "0x505D1B0", VA = "0x505D1B0")]
 	public void ApplyPropertyAnimation(VisualElement ve, StylePropertyId id, BackgroundRepeat newValue)
 	{
 	}
 
 	[Token(Token = "0x6001069")]
-	[Address(RVA = "0x4D359E0", Offset = "0x4D359E0", VA = "0x4D359E0")]
+	[Address(RVA = "0x505D310", Offset = "0x505D310", VA = "0x505D310")]
 	public void ApplyPropertyAnimation(VisualElement ve, StylePropertyId id, BackgroundSize newValue)
 	{
 	}
 
 	[Token(Token = "0x600106A")]
-	[Address(RVA = "0x4D35B10", Offset = "0x4D35B10", VA = "0x4D35B10")]
+	[Address(RVA = "0x505D440", Offset = "0x505D440", VA = "0x505D440")]
 	public void ApplyPropertyAnimation(VisualElement ve, StylePropertyId id, Color newValue)
 	{
 	}
 
 	[Token(Token = "0x600106B")]
-	[Address(RVA = "0x4D35E10", Offset = "0x4D35E10", VA = "0x4D35E10")]
+	[Address(RVA = "0x505D740", Offset = "0x505D740", VA = "0x505D740")]
 	public void ApplyPropertyAnimation(VisualElement ve, StylePropertyId id, Background newValue)
 	{
 	}
 
 	[Token(Token = "0x600106C")]
-	[Address(RVA = "0x4D35FC0", Offset = "0x4D35FC0", VA = "0x4D35FC0")]
+	[Address(RVA = "0x505D8F0", Offset = "0x505D8F0", VA = "0x505D8F0")]
 	public void ApplyPropertyAnimation(VisualElement ve, StylePropertyId id, Font newValue)
 	{
 	}
 
 	[Token(Token = "0x600106D")]
-	[Address(RVA = "0x4D36150", Offset = "0x4D36150", VA = "0x4D36150")]
+	[Address(RVA = "0x505DA80", Offset = "0x505DA80", VA = "0x505DA80")]
 	public void ApplyPropertyAnimation(VisualElement ve, StylePropertyId id, FontDefinition newValue)
 	{
 	}
 
 	[Token(Token = "0x600106E")]
-	[Address(RVA = "0x4D362D0", Offset = "0x4D362D0", VA = "0x4D362D0")]
+	[Address(RVA = "0x505DC00", Offset = "0x505DC00", VA = "0x505DC00")]
 	public void ApplyPropertyAnimation(VisualElement ve, StylePropertyId id, TextShadow newValue)
 	{
 	}
 
 	[Token(Token = "0x600106F")]
-	[Address(RVA = "0x4D36400", Offset = "0x4D36400", VA = "0x4D36400")]
+	[Address(RVA = "0x505DD30", Offset = "0x505DD30", VA = "0x505DD30")]
 	public void ApplyPropertyAnimation(VisualElement ve, StylePropertyId id, Translate newValue)
 	{
 	}
 
 	[Token(Token = "0x6001070")]
-	[Address(RVA = "0x4D36530", Offset = "0x4D36530", VA = "0x4D36530")]
+	[Address(RVA = "0x505DE60", Offset = "0x505DE60", VA = "0x505DE60")]
 	public void ApplyPropertyAnimation(VisualElement ve, StylePropertyId id, TransformOrigin newValue)
 	{
 	}
 
 	[Token(Token = "0x6001071")]
-	[Address(RVA = "0x4D36660", Offset = "0x4D36660", VA = "0x4D36660")]
+	[Address(RVA = "0x505DF90", Offset = "0x505DF90", VA = "0x505DF90")]
 	public void ApplyPropertyAnimation(VisualElement ve, StylePropertyId id, Rotate newValue)
 	{
 	}
 
 	[Token(Token = "0x6001072")]
-	[Address(RVA = "0x4D36790", Offset = "0x4D36790", VA = "0x4D36790")]
+	[Address(RVA = "0x505E0C0", Offset = "0x505E0C0", VA = "0x505E0C0")]
 	public void ApplyPropertyAnimation(VisualElement ve, StylePropertyId id, Scale newValue)
 	{
 	}
 
 	[Token(Token = "0x6001073")]
-	[Address(RVA = "0x4D368C0", Offset = "0x4D368C0", VA = "0x4D368C0")]
+	[Address(RVA = "0x505E1F0", Offset = "0x505E1F0", VA = "0x505E1F0")]
 	public static bool StartAnimation(VisualElement element, StylePropertyId id, ref ComputedStyle oldStyle, ref ComputedStyle newStyle, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001074")]
-	[Address(RVA = "0x4D3C7B0", Offset = "0x4D3C7B0", VA = "0x4D3C7B0")]
+	[Address(RVA = "0x50640E0", Offset = "0x50640E0", VA = "0x50640E0")]
 	public static bool StartAnimationAllProperty(VisualElement element, ref ComputedStyle oldStyle, ref ComputedStyle newStyle, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001075")]
-	[Address(RVA = "0x4D416E0", Offset = "0x4D416E0", VA = "0x4D416E0")]
+	[Address(RVA = "0x5069010", Offset = "0x5069010", VA = "0x5069010")]
 	public static bool StartAnimationInline(VisualElement element, StylePropertyId id, ref ComputedStyle computedStyle, StyleValue sv, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001076")]
-	[Address(RVA = "0x4D46020", Offset = "0x4D46020", VA = "0x4D46020")]
+	[Address(RVA = "0x506D950", Offset = "0x506D950", VA = "0x506D950")]
 	public void ApplyStyleTransformOrigin(TransformOrigin st)
 	{
 	}
 
 	[Token(Token = "0x6001077")]
-	[Address(RVA = "0x4D46080", Offset = "0x4D46080", VA = "0x4D46080")]
+	[Address(RVA = "0x506D9B0", Offset = "0x506D9B0", VA = "0x506D9B0")]
 	public void ApplyStyleTranslate(Translate translateValue)
 	{
 	}
 
 	[Token(Token = "0x6001078")]
-	[Address(RVA = "0x4D460E0", Offset = "0x4D460E0", VA = "0x4D460E0")]
+	[Address(RVA = "0x506DA10", Offset = "0x506DA10", VA = "0x506DA10")]
 	public void ApplyStyleRotate(Rotate rotateValue)
 	{
 	}
 
 	[Token(Token = "0x6001079")]
-	[Address(RVA = "0x4D46140", Offset = "0x4D46140", VA = "0x4D46140")]
+	[Address(RVA = "0x506DA70", Offset = "0x506DA70", VA = "0x506DA70")]
 	public void ApplyStyleScale(Scale scaleValue)
 	{
 	}
 
 	[Token(Token = "0x600107A")]
-	[Address(RVA = "0x4D461A0", Offset = "0x4D461A0", VA = "0x4D461A0")]
+	[Address(RVA = "0x506DAD0", Offset = "0x506DAD0", VA = "0x506DAD0")]
 	public void ApplyStyleBackgroundSize(BackgroundSize backgroundSizeValue)
 	{
 	}
 
 	[Token(Token = "0x600107B")]
-	[Address(RVA = "0x4D2C0D0", Offset = "0x4D2C0D0", VA = "0x4D2C0D0")]
+	[Address(RVA = "0x5053A00", Offset = "0x5053A00", VA = "0x5053A00")]
 	public void ApplyInitialValue(StylePropertyReader reader)
 	{
 	}
 
 	[Token(Token = "0x600107C")]
-	[Address(RVA = "0x4D2C1A0", Offset = "0x4D2C1A0", VA = "0x4D2C1A0")]
+	[Address(RVA = "0x5053AD0", Offset = "0x5053AD0", VA = "0x5053AD0")]
 	public void ApplyInitialValue(StylePropertyId id)
 	{
 	}
 
 	[Token(Token = "0x600107D")]
-	[Address(RVA = "0x4D2C150", Offset = "0x4D2C150", VA = "0x4D2C150")]
+	[Address(RVA = "0x5053A80", Offset = "0x5053A80", VA = "0x5053A80")]
 	public void ApplyUnsetValue(StylePropertyReader reader, ref ComputedStyle parentStyle)
 	{
 	}
 
 	[Token(Token = "0x600107E")]
-	[Address(RVA = "0x4D46200", Offset = "0x4D46200", VA = "0x4D46200")]
+	[Address(RVA = "0x506DB30", Offset = "0x506DB30", VA = "0x506DB30")]
 	public void ApplyUnsetValue(StylePropertyId id, ref ComputedStyle parentStyle)
 	{
 	}
 
 	[Token(Token = "0x600107F")]
-	[Address(RVA = "0x4D466F0", Offset = "0x4D466F0", VA = "0x4D466F0")]
+	[Address(RVA = "0x506E020", Offset = "0x506E020", VA = "0x506E020")]
 	public static VersionChangeType CompareChanges(ref ComputedStyle x, ref ComputedStyle y)
 	{
 		return default(VersionChangeType);

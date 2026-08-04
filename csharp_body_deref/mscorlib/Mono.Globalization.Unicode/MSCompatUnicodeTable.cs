@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Globalization.Unicode.MSCompatUnicodeTable
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Globalization;
 using Il2CppDummyDll;
@@ -87,7 +94,7 @@ internal class MSCompatUnicodeTable
 	public static bool IsReady
 	{
 		[Token(Token = "0x60000BA")]
-		[Address(RVA = "0x4DED240", Offset = "0x4DED240", VA = "0x4DED240")]
+		[Address(RVA = "0x3AD2D60", Offset = "0x3AD2D60", VA = "0x3AD2D60")]
 		get
 		{
 			return default(bool);
@@ -95,136 +102,136 @@ internal class MSCompatUnicodeTable
 	}
 
 	[Token(Token = "0x60000AB")]
-	[Address(RVA = "0x4DEBE20", Offset = "0x4DEBE20", VA = "0x4DEBE20")]
+	[Address(RVA = "0x3AD1940", Offset = "0x3AD1940", VA = "0x3AD1940")]
 	public static Mono.Globalization.Unicode.TailoringInfo GetTailoringInfo(int lcid)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000AC")]
-	[Address(RVA = "0x4DEBF20", Offset = "0x4DEBF20", VA = "0x4DEBF20")]
+	[Address(RVA = "0x3AD1A40", Offset = "0x3AD1A40", VA = "0x3AD1A40")]
 	public static void BuildTailoringTables(CultureInfo culture, Mono.Globalization.Unicode.TailoringInfo t, ref Mono.Globalization.Unicode.Contraction[] contractions, ref Mono.Globalization.Unicode.Level2Map[] diacriticals)
 	{
 	}
 
 	[Token(Token = "0x60000AD")]
-	[Address(RVA = "0x4DEC820", Offset = "0x4DEC820", VA = "0x4DEC820")]
+	[Address(RVA = "0x3AD2340", Offset = "0x3AD2340", VA = "0x3AD2340")]
 	private unsafe static void SetCJKReferences(string name, ref Mono.Globalization.Unicode.CodePointIndexer cjkIndexer, ref byte* catTable, ref byte* lv1Table, ref Mono.Globalization.Unicode.CodePointIndexer lv2Indexer, ref byte* lv2Table)
 	{
 	}
 
 	[Token(Token = "0x60000AE")]
-	[Address(RVA = "0x4DECA80", Offset = "0x4DECA80", VA = "0x4DECA80")]
+	[Address(RVA = "0x3AD25A0", Offset = "0x3AD25A0", VA = "0x3AD25A0")]
 	public static byte Category(int cp)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x60000AF")]
-	[Address(RVA = "0x4DECB60", Offset = "0x4DECB60", VA = "0x4DECB60")]
+	[Address(RVA = "0x3AD2680", Offset = "0x3AD2680", VA = "0x3AD2680")]
 	public static byte Level1(int cp)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x60000B0")]
-	[Address(RVA = "0x4DECC40", Offset = "0x4DECC40", VA = "0x4DECC40")]
+	[Address(RVA = "0x3AD2760", Offset = "0x3AD2760", VA = "0x3AD2760")]
 	public static byte Level2(int cp)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x60000B1")]
-	[Address(RVA = "0x4DECD20", Offset = "0x4DECD20", VA = "0x4DECD20")]
+	[Address(RVA = "0x3AD2840", Offset = "0x3AD2840", VA = "0x3AD2840")]
 	public static byte Level3(int cp)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x60000B2")]
-	[Address(RVA = "0x4DECE00", Offset = "0x4DECE00", VA = "0x4DECE00")]
+	[Address(RVA = "0x3AD2920", Offset = "0x3AD2920", VA = "0x3AD2920")]
 	public static bool IsIgnorable(int cp, byte flag)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000B3")]
-	[Address(RVA = "0x4DECF40", Offset = "0x4DECF40", VA = "0x4DECF40")]
+	[Address(RVA = "0x3AD2A60", Offset = "0x3AD2A60", VA = "0x3AD2A60")]
 	public static bool IsIgnorableNonSpacing(int cp)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000B4")]
-	[Address(RVA = "0x4DECFB0", Offset = "0x4DECFB0", VA = "0x4DECFB0")]
+	[Address(RVA = "0x3AD2AD0", Offset = "0x3AD2AD0", VA = "0x3AD2AD0")]
 	public static int ToKanaTypeInsensitive(int i)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000B5")]
-	[Address(RVA = "0x4DECFD0", Offset = "0x4DECFD0", VA = "0x4DECFD0")]
+	[Address(RVA = "0x3AD2AF0", Offset = "0x3AD2AF0", VA = "0x3AD2AF0")]
 	public static int ToWidthCompat(int i)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000B6")]
-	[Address(RVA = "0x4DED100", Offset = "0x4DED100", VA = "0x4DED100")]
+	[Address(RVA = "0x3AD2C20", Offset = "0x3AD2C20", VA = "0x3AD2C20")]
 	public static bool HasSpecialWeight(char c)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000B7")]
-	[Address(RVA = "0x4DED160", Offset = "0x4DED160", VA = "0x4DED160")]
+	[Address(RVA = "0x3AD2C80", Offset = "0x3AD2C80", VA = "0x3AD2C80")]
 	public static bool IsHalfWidthKana(char c)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000B8")]
-	[Address(RVA = "0x4DED170", Offset = "0x4DED170", VA = "0x4DED170")]
+	[Address(RVA = "0x3AD2C90", Offset = "0x3AD2C90", VA = "0x3AD2C90")]
 	public static bool IsHiragana(char c)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000B9")]
-	[Address(RVA = "0x4DED180", Offset = "0x4DED180", VA = "0x4DED180")]
+	[Address(RVA = "0x3AD2CA0", Offset = "0x3AD2CA0", VA = "0x3AD2CA0")]
 	public static bool IsJapaneseSmallLetter(char c)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000BB")]
-	[Address(RVA = "0x4DED2B0", Offset = "0x4DED2B0", VA = "0x4DED2B0")]
+	[Address(RVA = "0x3AD2DD0", Offset = "0x3AD2DD0", VA = "0x3AD2DD0")]
 	private static IntPtr GetResource(string name)
 	{
 		return default(IntPtr);
 	}
 
 	[Token(Token = "0x60000BC")]
-	[Address(RVA = "0x4DED360", Offset = "0x4DED360", VA = "0x4DED360")]
+	[Address(RVA = "0x3AD2E80", Offset = "0x3AD2E80", VA = "0x3AD2E80")]
 	private unsafe static uint UInt32FromBytePtr(byte* raw, uint idx)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x60000BD")]
-	[Address(RVA = "0x4DED3A0", Offset = "0x4DED3A0", VA = "0x4DED3A0")]
+	[Address(RVA = "0x3AD2EC0", Offset = "0x3AD2EC0", VA = "0x3AD2EC0")]
 	static MSCompatUnicodeTable()
 	{
 	}
 
 	[Token(Token = "0x60000BE")]
-	[Address(RVA = "0x4DED8F0", Offset = "0x4DED8F0", VA = "0x4DED8F0")]
+	[Address(RVA = "0x3AD3410", Offset = "0x3AD3410", VA = "0x3AD3410")]
 	public unsafe static void FillCJK(string culture, ref Mono.Globalization.Unicode.CodePointIndexer cjkIndexer, ref byte* catTable, ref byte* lv1Table, ref Mono.Globalization.Unicode.CodePointIndexer lv2Indexer, ref byte* lv2Table)
 	{
 	}
 
 	[Token(Token = "0x60000BF")]
-	[Address(RVA = "0x4DEDA50", Offset = "0x4DEDA50", VA = "0x4DEDA50")]
+	[Address(RVA = "0x3AD3570", Offset = "0x3AD3570", VA = "0x3AD3570")]
 	private unsafe static void FillCJKCore(string culture, ref Mono.Globalization.Unicode.CodePointIndexer cjkIndexer, ref byte* catTable, ref byte* lv1Table, ref Mono.Globalization.Unicode.CodePointIndexer cjkLv2Indexer, ref byte* lv2Table)
 	{
 	}

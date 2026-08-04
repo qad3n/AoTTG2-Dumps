@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.IO.FileStreamAsyncResult
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Threading;
 using Il2CppDummyDll;
 
@@ -46,7 +53,7 @@ internal class FileStreamAsyncResult : IAsyncResult
 	public object AsyncState
 	{
 		[Token(Token = "0x6002A93")]
-		[Address(RVA = "0x4F4C5E0", Offset = "0x4F4C5E0", VA = "0x4F4C5E0", Slot = "6")]
+		[Address(RVA = "0x3C32100", Offset = "0x3C32100", VA = "0x3C32100", Slot = "6")]
 		get
 		{
 			return null;
@@ -57,7 +64,7 @@ internal class FileStreamAsyncResult : IAsyncResult
 	public bool CompletedSynchronously
 	{
 		[Token(Token = "0x6002A94")]
-		[Address(RVA = "0x4F4C5F0", Offset = "0x4F4C5F0", VA = "0x4F4C5F0", Slot = "7")]
+		[Address(RVA = "0x3C32110", Offset = "0x3C32110", VA = "0x3C32110", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -68,7 +75,7 @@ internal class FileStreamAsyncResult : IAsyncResult
 	public WaitHandle AsyncWaitHandle
 	{
 		[Token(Token = "0x6002A95")]
-		[Address(RVA = "0x4F4C600", Offset = "0x4F4C600", VA = "0x4F4C600", Slot = "5")]
+		[Address(RVA = "0x3C32120", Offset = "0x3C32120", VA = "0x3C32120", Slot = "5")]
 		get
 		{
 			return null;
@@ -79,7 +86,7 @@ internal class FileStreamAsyncResult : IAsyncResult
 	public bool IsCompleted
 	{
 		[Token(Token = "0x6002A96")]
-		[Address(RVA = "0x4F4C610", Offset = "0x4F4C610", VA = "0x4F4C610", Slot = "4")]
+		[Address(RVA = "0x3C32130", Offset = "0x3C32130", VA = "0x3C32130", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -87,13 +94,13 @@ internal class FileStreamAsyncResult : IAsyncResult
 	}
 
 	[Token(Token = "0x6002A91")]
-	[Address(RVA = "0x4F4B510", Offset = "0x4F4B510", VA = "0x4F4B510")]
+	[Address(RVA = "0x3C31030", Offset = "0x3C31030", VA = "0x3C31030")]
 	public FileStreamAsyncResult(AsyncCallback cb, object state)
 	{
 	}
 
 	[Token(Token = "0x6002A92")]
-	[Address(RVA = "0x4F4C560", Offset = "0x4F4C560", VA = "0x4F4C560")]
+	[Address(RVA = "0x3C32080", Offset = "0x3C32080", VA = "0x3C32080")]
 	private static void CBWrapper(IAsyncResult ares)
 	{
 	}

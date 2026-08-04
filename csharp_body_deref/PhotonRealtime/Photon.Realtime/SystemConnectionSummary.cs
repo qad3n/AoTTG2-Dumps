@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Realtime.SystemConnectionSummary
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonRealtime/Code/ConnectionHandler.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Photon.Realtime;
@@ -42,7 +49,7 @@ public class SystemConnectionSummary
 		public const int ErrorCodeWinSock = 16;
 
 		[Token(Token = "0x6000027")]
-		[Address(RVA = "0x3BC56B0", Offset = "0x3BC56B0", VA = "0x3BC56B0")]
+		[Address(RVA = "0x3EBB000", Offset = "0x3EBB000", VA = "0x3EBB000")]
 		public SCSBitPos()
 		{
 		}
@@ -97,53 +104,53 @@ public class SystemConnectionSummary
 	private static readonly string[] ProtocolIdToName;
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x3BC4F30", Offset = "0x3BC4F30", VA = "0x3BC4F30")]
+	[Address(RVA = "0x3EBA880", Offset = "0x3EBA880", VA = "0x3EBA880")]
 	public SystemConnectionSummary(LoadBalancingClient client)
 	{
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x3BC5020", Offset = "0x3BC5020", VA = "0x3BC5020")]
+	[Address(RVA = "0x3EBA970", Offset = "0x3EBA970", VA = "0x3EBA970")]
 	public SystemConnectionSummary(int summary)
 	{
 	}
 
 	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x3BC5100", Offset = "0x3BC5100", VA = "0x3BC5100")]
+	[Address(RVA = "0x3EBAA50", Offset = "0x3EBAA50", VA = "0x3EBAA50")]
 	public int ToInt()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x3BC5220", Offset = "0x3BC5220", VA = "0x3BC5220", Slot = "3")]
+	[Address(RVA = "0x3EBAB70", Offset = "0x3EBAB70", VA = "0x3EBAB70", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x3BC50F0", Offset = "0x3BC50F0", VA = "0x3BC50F0")]
+	[Address(RVA = "0x3EBAA40", Offset = "0x3EBAA40", VA = "0x3EBAA40")]
 	public static bool GetBit(ref int value, int bitpos)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x3BC50E0", Offset = "0x3BC50E0", VA = "0x3BC50E0")]
+	[Address(RVA = "0x3EBAA30", Offset = "0x3EBAA30", VA = "0x3EBAA30")]
 	public static byte GetBits(ref int value, int bitpos, byte mask)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x3BC5200", Offset = "0x3BC5200", VA = "0x3BC5200")]
+	[Address(RVA = "0x3EBAB50", Offset = "0x3EBAB50", VA = "0x3EBAB50")]
 	public static void SetBit(ref int value, bool bitval, int bitpos)
 	{
 	}
 
 	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x3BC51F0", Offset = "0x3BC51F0", VA = "0x3BC51F0")]
+	[Address(RVA = "0x3EBAB40", Offset = "0x3EBAB40", VA = "0x3EBAB40")]
 	public static void SetBits(ref int value, byte bitvals, int bitpos)
 	{
 	}

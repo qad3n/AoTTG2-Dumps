@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.VFX.VFXExpressionValues
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -17,13 +24,13 @@ public class VFXExpressionValues
 	internal IntPtr m_Ptr;
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x4DE1E10", Offset = "0x4DE1E10", VA = "0x4DE1E10")]
+	[Address(RVA = "0x5109C20", Offset = "0x5109C20", VA = "0x5109C20")]
 	private VFXExpressionValues()
 	{
 	}
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x4DE1E20", Offset = "0x4DE1E20", VA = "0x4DE1E20")]
+	[Address(RVA = "0x5109C30", Offset = "0x5109C30", VA = "0x5109C30")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static VFXExpressionValues CreateExpressionValuesWrapper(IntPtr ptr)
 	{

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Pun.PhotonRigidbody2DView
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonRigidbody2DView.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -49,25 +56,25 @@ public class PhotonRigidbody2DView : MonoBehaviourPun, IPunObservable
 	public float m_TeleportIfDistanceGreaterThan;
 
 	[Token(Token = "0x60001B3")]
-	[Address(RVA = "0x3C1B490", Offset = "0x3C1B490", VA = "0x3C1B490")]
+	[Address(RVA = "0x3F10DE0", Offset = "0x3F10DE0", VA = "0x3F10DE0")]
 	public void Awake()
 	{
 	}
 
 	[Token(Token = "0x60001B4")]
-	[Address(RVA = "0x3C1B4E0", Offset = "0x3C1B4E0", VA = "0x3C1B4E0")]
+	[Address(RVA = "0x3F10E30", Offset = "0x3F10E30", VA = "0x3F10E30")]
 	public void FixedUpdate()
 	{
 	}
 
 	[Token(Token = "0x60001B5")]
-	[Address(RVA = "0x3C1B720", Offset = "0x3C1B720", VA = "0x3C1B720", Slot = "4")]
+	[Address(RVA = "0x3F11070", Offset = "0x3F11070", VA = "0x3F11070", Slot = "4")]
 	public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
 	{
 	}
 
 	[Token(Token = "0x60001B6")]
-	[Address(RVA = "0x3C1BC10", Offset = "0x3C1BC10", VA = "0x3C1BC10")]
+	[Address(RVA = "0x3F11560", Offset = "0x3F11560", VA = "0x3F11560")]
 	public PhotonRigidbody2DView()
 	{
 	}

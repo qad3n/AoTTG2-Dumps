@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.GreaterThanInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -9,13 +16,13 @@ internal abstract class GreaterThanInstruction : Instruction
 	private sealed class GreaterThanSByte : GreaterThanInstruction
 	{
 		[Token(Token = "0x600070C")]
-		[Address(RVA = "0x41AA5A0", Offset = "0x41AA5A0", VA = "0x41AA5A0")]
+		[Address(RVA = "0x44CF6A0", Offset = "0x44CF6A0", VA = "0x44CF6A0")]
 		public GreaterThanSByte(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x600070D")]
-		[Address(RVA = "0x41AA7B0", Offset = "0x41AA7B0", VA = "0x41AA7B0", Slot = "8")]
+		[Address(RVA = "0x44CF8B0", Offset = "0x44CF8B0", VA = "0x44CF8B0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -26,13 +33,13 @@ internal abstract class GreaterThanInstruction : Instruction
 	private sealed class GreaterThanInt16 : GreaterThanInstruction
 	{
 		[Token(Token = "0x600070E")]
-		[Address(RVA = "0x41AA5D0", Offset = "0x41AA5D0", VA = "0x41AA5D0")]
+		[Address(RVA = "0x44CF6D0", Offset = "0x44CF6D0", VA = "0x44CF6D0")]
 		public GreaterThanInt16(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x600070F")]
-		[Address(RVA = "0x41AA8E0", Offset = "0x41AA8E0", VA = "0x41AA8E0", Slot = "8")]
+		[Address(RVA = "0x44CF9E0", Offset = "0x44CF9E0", VA = "0x44CF9E0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -43,13 +50,13 @@ internal abstract class GreaterThanInstruction : Instruction
 	private sealed class GreaterThanChar : GreaterThanInstruction
 	{
 		[Token(Token = "0x6000710")]
-		[Address(RVA = "0x41AA600", Offset = "0x41AA600", VA = "0x41AA600")]
+		[Address(RVA = "0x44CF700", Offset = "0x44CF700", VA = "0x44CF700")]
 		public GreaterThanChar(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x6000711")]
-		[Address(RVA = "0x41AAA10", Offset = "0x41AAA10", VA = "0x41AAA10", Slot = "8")]
+		[Address(RVA = "0x44CFB10", Offset = "0x44CFB10", VA = "0x44CFB10", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -60,13 +67,13 @@ internal abstract class GreaterThanInstruction : Instruction
 	private sealed class GreaterThanInt32 : GreaterThanInstruction
 	{
 		[Token(Token = "0x6000712")]
-		[Address(RVA = "0x41AA630", Offset = "0x41AA630", VA = "0x41AA630")]
+		[Address(RVA = "0x44CF730", Offset = "0x44CF730", VA = "0x44CF730")]
 		public GreaterThanInt32(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x6000713")]
-		[Address(RVA = "0x41AAB40", Offset = "0x41AAB40", VA = "0x41AAB40", Slot = "8")]
+		[Address(RVA = "0x44CFC40", Offset = "0x44CFC40", VA = "0x44CFC40", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -77,13 +84,13 @@ internal abstract class GreaterThanInstruction : Instruction
 	private sealed class GreaterThanInt64 : GreaterThanInstruction
 	{
 		[Token(Token = "0x6000714")]
-		[Address(RVA = "0x41AA660", Offset = "0x41AA660", VA = "0x41AA660")]
+		[Address(RVA = "0x44CF760", Offset = "0x44CF760", VA = "0x44CF760")]
 		public GreaterThanInt64(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x6000715")]
-		[Address(RVA = "0x41AAC70", Offset = "0x41AAC70", VA = "0x41AAC70", Slot = "8")]
+		[Address(RVA = "0x44CFD70", Offset = "0x44CFD70", VA = "0x44CFD70", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -94,13 +101,13 @@ internal abstract class GreaterThanInstruction : Instruction
 	private sealed class GreaterThanByte : GreaterThanInstruction
 	{
 		[Token(Token = "0x6000716")]
-		[Address(RVA = "0x41AA690", Offset = "0x41AA690", VA = "0x41AA690")]
+		[Address(RVA = "0x44CF790", Offset = "0x44CF790", VA = "0x44CF790")]
 		public GreaterThanByte(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x6000717")]
-		[Address(RVA = "0x41AADA0", Offset = "0x41AADA0", VA = "0x41AADA0", Slot = "8")]
+		[Address(RVA = "0x44CFEA0", Offset = "0x44CFEA0", VA = "0x44CFEA0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -111,13 +118,13 @@ internal abstract class GreaterThanInstruction : Instruction
 	private sealed class GreaterThanUInt16 : GreaterThanInstruction
 	{
 		[Token(Token = "0x6000718")]
-		[Address(RVA = "0x41AA6C0", Offset = "0x41AA6C0", VA = "0x41AA6C0")]
+		[Address(RVA = "0x44CF7C0", Offset = "0x44CF7C0", VA = "0x44CF7C0")]
 		public GreaterThanUInt16(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x6000719")]
-		[Address(RVA = "0x41AAED0", Offset = "0x41AAED0", VA = "0x41AAED0", Slot = "8")]
+		[Address(RVA = "0x44CFFD0", Offset = "0x44CFFD0", VA = "0x44CFFD0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -128,13 +135,13 @@ internal abstract class GreaterThanInstruction : Instruction
 	private sealed class GreaterThanUInt32 : GreaterThanInstruction
 	{
 		[Token(Token = "0x600071A")]
-		[Address(RVA = "0x41AA6F0", Offset = "0x41AA6F0", VA = "0x41AA6F0")]
+		[Address(RVA = "0x44CF7F0", Offset = "0x44CF7F0", VA = "0x44CF7F0")]
 		public GreaterThanUInt32(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x600071B")]
-		[Address(RVA = "0x41AB000", Offset = "0x41AB000", VA = "0x41AB000", Slot = "8")]
+		[Address(RVA = "0x44D0100", Offset = "0x44D0100", VA = "0x44D0100", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -145,13 +152,13 @@ internal abstract class GreaterThanInstruction : Instruction
 	private sealed class GreaterThanUInt64 : GreaterThanInstruction
 	{
 		[Token(Token = "0x600071C")]
-		[Address(RVA = "0x41AA720", Offset = "0x41AA720", VA = "0x41AA720")]
+		[Address(RVA = "0x44CF820", Offset = "0x44CF820", VA = "0x44CF820")]
 		public GreaterThanUInt64(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x600071D")]
-		[Address(RVA = "0x41AB130", Offset = "0x41AB130", VA = "0x41AB130", Slot = "8")]
+		[Address(RVA = "0x44D0230", Offset = "0x44D0230", VA = "0x44D0230", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -162,13 +169,13 @@ internal abstract class GreaterThanInstruction : Instruction
 	private sealed class GreaterThanSingle : GreaterThanInstruction
 	{
 		[Token(Token = "0x600071E")]
-		[Address(RVA = "0x41AA750", Offset = "0x41AA750", VA = "0x41AA750")]
+		[Address(RVA = "0x44CF850", Offset = "0x44CF850", VA = "0x44CF850")]
 		public GreaterThanSingle(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x600071F")]
-		[Address(RVA = "0x41AB260", Offset = "0x41AB260", VA = "0x41AB260", Slot = "8")]
+		[Address(RVA = "0x44D0360", Offset = "0x44D0360", VA = "0x44D0360", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -179,13 +186,13 @@ internal abstract class GreaterThanInstruction : Instruction
 	private sealed class GreaterThanDouble : GreaterThanInstruction
 	{
 		[Token(Token = "0x6000720")]
-		[Address(RVA = "0x41AA780", Offset = "0x41AA780", VA = "0x41AA780")]
+		[Address(RVA = "0x44CF880", Offset = "0x44CF880", VA = "0x44CF880")]
 		public GreaterThanDouble(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x6000721")]
-		[Address(RVA = "0x41AB3B0", Offset = "0x41AB3B0", VA = "0x41AB3B0", Slot = "8")]
+		[Address(RVA = "0x44D04B0", Offset = "0x44D04B0", VA = "0x44D04B0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -288,7 +295,7 @@ internal abstract class GreaterThanInstruction : Instruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x6000707")]
-		[Address(RVA = "0x41A9940", Offset = "0x41A9940", VA = "0x41A9940", Slot = "4")]
+		[Address(RVA = "0x44CEA40", Offset = "0x44CEA40", VA = "0x44CEA40", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -299,7 +306,7 @@ internal abstract class GreaterThanInstruction : Instruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x6000708")]
-		[Address(RVA = "0x41A9950", Offset = "0x41A9950", VA = "0x41A9950", Slot = "5")]
+		[Address(RVA = "0x44CEA50", Offset = "0x44CEA50", VA = "0x44CEA50", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -310,7 +317,7 @@ internal abstract class GreaterThanInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x6000709")]
-		[Address(RVA = "0x41A9960", Offset = "0x41A9960", VA = "0x41A9960", Slot = "9")]
+		[Address(RVA = "0x44CEA60", Offset = "0x44CEA60", VA = "0x44CEA60", Slot = "9")]
 		get
 		{
 			return null;
@@ -318,13 +325,13 @@ internal abstract class GreaterThanInstruction : Instruction
 	}
 
 	[Token(Token = "0x600070A")]
-	[Address(RVA = "0x41A9990", Offset = "0x41A9990", VA = "0x41A9990")]
+	[Address(RVA = "0x44CEA90", Offset = "0x44CEA90", VA = "0x44CEA90")]
 	private GreaterThanInstruction(object nullValue)
 	{
 	}
 
 	[Token(Token = "0x600070B")]
-	[Address(RVA = "0x41A99C0", Offset = "0x41A99C0", VA = "0x41A99C0")]
+	[Address(RVA = "0x44CEAC0", Offset = "0x44CEAC0", VA = "0x44CEAC0")]
 	public static Instruction Create(Type type, bool liftedToNull = false)
 	{
 		return null;

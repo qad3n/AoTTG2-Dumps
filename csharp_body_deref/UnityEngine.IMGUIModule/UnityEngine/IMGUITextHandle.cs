@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.IMGUITextHandle
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 using UnityEngine.TextCore.Text;
@@ -19,7 +26,7 @@ internal class IMGUITextHandle : UnityEngine.TextCore.Text.TextHandle
 		public int hashCode;
 
 		[Token(Token = "0x600020F")]
-		[Address(RVA = "0x4B35370", Offset = "0x4B35370", VA = "0x4B35370")]
+		[Address(RVA = "0x4E5CF30", Offset = "0x4E5CF30", VA = "0x4E5CF30")]
 		public TextHandleTuple(float lastTimeUsed, int hashCode)
 		{
 		}
@@ -46,67 +53,67 @@ internal class IMGUITextHandle : UnityEngine.TextCore.Text.TextHandle
 	internal bool isCachedOnNative;
 
 	[Token(Token = "0x6000204")]
-	[Address(RVA = "0x4B33390", Offset = "0x4B33390", VA = "0x4B33390")]
+	[Address(RVA = "0x4E5AF50", Offset = "0x4E5AF50", VA = "0x4E5AF50")]
 	internal static void EmptyManagedCache()
 	{
 	}
 
 	[Token(Token = "0x6000205")]
-	[Address(RVA = "0x4B329F0", Offset = "0x4B329F0", VA = "0x4B329F0")]
+	[Address(RVA = "0x4E5A5B0", Offset = "0x4E5A5B0", VA = "0x4E5A5B0")]
 	internal static IMGUITextHandle GetTextHandle(GUIStyle style, Rect position, string content, Color32 textColor)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000206")]
-	[Address(RVA = "0x4B331D0", Offset = "0x4B331D0", VA = "0x4B331D0")]
+	[Address(RVA = "0x4E5AD90", Offset = "0x4E5AD90", VA = "0x4E5AD90")]
 	internal static IMGUITextHandle GetTextHandle(GUIStyle style, Rect position, string content, Color32 textColor, ref bool isCached)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000207")]
-	[Address(RVA = "0x4B35030", Offset = "0x4B35030", VA = "0x4B35030")]
+	[Address(RVA = "0x4E5CBF0", Offset = "0x4E5CBF0", VA = "0x4E5CBF0")]
 	private static void ClearUnusedTextHandles()
 	{
 	}
 
 	[Token(Token = "0x6000208")]
-	[Address(RVA = "0x4B34C90", Offset = "0x4B34C90", VA = "0x4B34C90")]
+	[Address(RVA = "0x4E5C850", Offset = "0x4E5C850", VA = "0x4E5C850")]
 	private static IMGUITextHandle GetTextHandle(UnityEngine.TextCore.Text.TextGenerationSettings settings, bool isCalledFromNative, ref bool isCached)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000209")]
-	[Address(RVA = "0x4B317B0", Offset = "0x4B317B0", VA = "0x4B317B0")]
+	[Address(RVA = "0x4E59370", Offset = "0x4E59370", VA = "0x4E59370")]
 	internal static float GetLineHeight(GUIStyle style)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600020A")]
-	[Address(RVA = "0x4B32D70", Offset = "0x4B32D70", VA = "0x4B32D70")]
+	[Address(RVA = "0x4E5A930", Offset = "0x4E5A930", VA = "0x4E5A930")]
 	internal Vector2 GetPreferredSize()
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x600020B")]
-	[Address(RVA = "0x4B346D0", Offset = "0x4B346D0", VA = "0x4B346D0")]
+	[Address(RVA = "0x4E5C290", Offset = "0x4E5C290", VA = "0x4E5C290")]
 	private static void ConvertGUIStyleToGenerationSettings(UnityEngine.TextCore.Text.TextGenerationSettings settings, GUIStyle style, Color textColor, string text, Rect rect)
 	{
 	}
 
 	[Token(Token = "0x600020C")]
-	[Address(RVA = "0x4B35270", Offset = "0x4B35270", VA = "0x4B35270")]
+	[Address(RVA = "0x4E5CE30", Offset = "0x4E5CE30", VA = "0x4E5CE30")]
 	private static UnityEngine.TextCore.Text.TextOverflowMode LegacyClippingToNewOverflow(TextClipping clipping)
 	{
 		return default(UnityEngine.TextCore.Text.TextOverflowMode);
 	}
 
 	[Token(Token = "0x600020D")]
-	[Address(RVA = "0x4B35210", Offset = "0x4B35210", VA = "0x4B35210")]
+	[Address(RVA = "0x4E5CDD0", Offset = "0x4E5CDD0", VA = "0x4E5CDD0")]
 	public IMGUITextHandle()
 	{
 	}

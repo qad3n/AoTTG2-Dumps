@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.QualitySettings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -25,7 +32,7 @@ public sealed class QualitySettings : Object
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000385")]
-		[Address(RVA = "0x4A9CD70", Offset = "0x4A9CD70", VA = "0x4A9CD70")]
+		[Address(RVA = "0x4DC4590", Offset = "0x4DC4590", VA = "0x4DC4590")]
 		set;
 	}
 
@@ -34,7 +41,7 @@ public sealed class QualitySettings : Object
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000386")]
-		[Address(RVA = "0x4A9CDA0", Offset = "0x4A9CDA0", VA = "0x4A9CDA0")]
+		[Address(RVA = "0x4DC45C0", Offset = "0x4DC45C0", VA = "0x4DC45C0")]
 		set;
 	}
 
@@ -43,7 +50,7 @@ public sealed class QualitySettings : Object
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000387")]
-		[Address(RVA = "0x4A9CDD0", Offset = "0x4A9CDD0", VA = "0x4A9CDD0")]
+		[Address(RVA = "0x4DC45F0", Offset = "0x4DC45F0", VA = "0x4DC45F0")]
 		set;
 	}
 
@@ -53,7 +60,7 @@ public sealed class QualitySettings : Object
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000388")]
-		[Address(RVA = "0x4A9CE10", Offset = "0x4A9CE10", VA = "0x4A9CE10")]
+		[Address(RVA = "0x4DC4630", Offset = "0x4DC4630", VA = "0x4DC4630")]
 		set;
 	}
 
@@ -63,7 +70,7 @@ public sealed class QualitySettings : Object
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000389")]
-		[Address(RVA = "0x4A9CE40", Offset = "0x4A9CE40", VA = "0x4A9CE40")]
+		[Address(RVA = "0x4DC4660", Offset = "0x4DC4660", VA = "0x4DC4660")]
 		set;
 	}
 
@@ -72,7 +79,7 @@ public sealed class QualitySettings : Object
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600038A")]
-		[Address(RVA = "0x4A9CE70", Offset = "0x4A9CE70", VA = "0x4A9CE70")]
+		[Address(RVA = "0x4DC4690", Offset = "0x4DC4690", VA = "0x4DC4690")]
 		set;
 	}
 
@@ -81,7 +88,7 @@ public sealed class QualitySettings : Object
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600038B")]
-		[Address(RVA = "0x4A9CEA0", Offset = "0x4A9CEA0", VA = "0x4A9CEA0")]
+		[Address(RVA = "0x4DC46C0", Offset = "0x4DC46C0", VA = "0x4DC46C0")]
 		set;
 	}
 
@@ -90,7 +97,7 @@ public sealed class QualitySettings : Object
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600038C")]
-		[Address(RVA = "0x4A9CED0", Offset = "0x4A9CED0", VA = "0x4A9CED0")]
+		[Address(RVA = "0x4DC46F0", Offset = "0x4DC46F0", VA = "0x4DC46F0")]
 		set;
 	}
 
@@ -99,14 +106,14 @@ public sealed class QualitySettings : Object
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600038D")]
-		[Address(RVA = "0x4A9CF00", Offset = "0x4A9CF00", VA = "0x4A9CF00")]
+		[Address(RVA = "0x4DC4720", Offset = "0x4DC4720", VA = "0x4DC4720")]
 		[UnityEngine.Bindings.NativeName("GetColorSpace")]
 		[UnityEngine.Bindings.StaticAccessor("GetPlayerSettings()", UnityEngine.Bindings.StaticAccessorType.Dot)]
 		get;
 	}
 
 	[Token(Token = "0x6000384")]
-	[Address(RVA = "0x4A9CD10", Offset = "0x4A9CD10", VA = "0x4A9CD10")]
+	[Address(RVA = "0x4DC4530", Offset = "0x4DC4530", VA = "0x4DC4530")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void OnActiveQualityLevelChanged(int previousQualityLevel, int currentQualityLevel)
 	{

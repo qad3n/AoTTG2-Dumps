@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.X509Certificates.X509ChainPolicy
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
@@ -45,7 +52,7 @@ public sealed class X509ChainPolicy
 	public X509Certificate2Collection ExtraStore
 	{
 		[Token(Token = "0x6000635")]
-		[Address(RVA = "0x4619220", Offset = "0x4619220", VA = "0x4619220")]
+		[Address(RVA = "0x493E320", Offset = "0x493E320", VA = "0x493E320")]
 		get
 		{
 			return null;
@@ -56,7 +63,7 @@ public sealed class X509ChainPolicy
 	public X509RevocationFlag RevocationFlag
 	{
 		[Token(Token = "0x6000636")]
-		[Address(RVA = "0x461BFD0", Offset = "0x461BFD0", VA = "0x461BFD0")]
+		[Address(RVA = "0x49410D0", Offset = "0x49410D0", VA = "0x49410D0")]
 		get
 		{
 			return default(X509RevocationFlag);
@@ -67,13 +74,13 @@ public sealed class X509ChainPolicy
 	public X509RevocationMode RevocationMode
 	{
 		[Token(Token = "0x6000637")]
-		[Address(RVA = "0x461BFE0", Offset = "0x461BFE0", VA = "0x461BFE0")]
+		[Address(RVA = "0x49410E0", Offset = "0x49410E0", VA = "0x49410E0")]
 		get
 		{
 			return default(X509RevocationMode);
 		}
 		[Token(Token = "0x6000638")]
-		[Address(RVA = "0x461BFF0", Offset = "0x461BFF0", VA = "0x461BFF0")]
+		[Address(RVA = "0x49410F0", Offset = "0x49410F0", VA = "0x49410F0")]
 		set
 		{
 		}
@@ -83,13 +90,13 @@ public sealed class X509ChainPolicy
 	public X509VerificationFlags VerificationFlags
 	{
 		[Token(Token = "0x6000639")]
-		[Address(RVA = "0x461C050", Offset = "0x461C050", VA = "0x461C050")]
+		[Address(RVA = "0x4941150", Offset = "0x4941150", VA = "0x4941150")]
 		get
 		{
 			return default(X509VerificationFlags);
 		}
 		[Token(Token = "0x600063A")]
-		[Address(RVA = "0x461C060", Offset = "0x461C060", VA = "0x461C060")]
+		[Address(RVA = "0x4941160", Offset = "0x4941160", VA = "0x4941160")]
 		set
 		{
 		}
@@ -99,7 +106,7 @@ public sealed class X509ChainPolicy
 	public DateTime VerificationTime
 	{
 		[Token(Token = "0x600063B")]
-		[Address(RVA = "0x461C0C0", Offset = "0x461C0C0", VA = "0x461C0C0")]
+		[Address(RVA = "0x49411C0", Offset = "0x49411C0", VA = "0x49411C0")]
 		get
 		{
 			return default(DateTime);
@@ -107,13 +114,13 @@ public sealed class X509ChainPolicy
 	}
 
 	[Token(Token = "0x6000634")]
-	[Address(RVA = "0x4617DC0", Offset = "0x4617DC0", VA = "0x4617DC0")]
+	[Address(RVA = "0x493CEC0", Offset = "0x493CEC0", VA = "0x493CEC0")]
 	public X509ChainPolicy()
 	{
 	}
 
 	[Token(Token = "0x600063C")]
-	[Address(RVA = "0x461BE00", Offset = "0x461BE00", VA = "0x461BE00")]
+	[Address(RVA = "0x4940F00", Offset = "0x4940F00", VA = "0x4940F00")]
 	public void Reset()
 	{
 	}

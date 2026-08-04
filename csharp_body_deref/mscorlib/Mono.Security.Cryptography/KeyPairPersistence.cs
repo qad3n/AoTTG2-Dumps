@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Security.Cryptography.KeyPairPersistence
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
 using Il2CppDummyDll;
@@ -47,7 +54,7 @@ internal class KeyPairPersistence
 	public string Filename
 	{
 		[Token(Token = "0x600012E")]
-		[Address(RVA = "0x4DFB220", Offset = "0x4DFB220", VA = "0x4DFB220")]
+		[Address(RVA = "0x3AE0D40", Offset = "0x3AE0D40", VA = "0x3AE0D40")]
 		get
 		{
 			return null;
@@ -58,13 +65,13 @@ internal class KeyPairPersistence
 	public string KeyValue
 	{
 		[Token(Token = "0x600012F")]
-		[Address(RVA = "0x4DFC030", Offset = "0x4DFC030", VA = "0x4DFC030")]
+		[Address(RVA = "0x3AE1B50", Offset = "0x3AE1B50", VA = "0x3AE1B50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000130")]
-		[Address(RVA = "0x4DFC040", Offset = "0x4DFC040", VA = "0x4DFC040")]
+		[Address(RVA = "0x3AE1B60", Offset = "0x3AE1B60", VA = "0x3AE1B60")]
 		set
 		{
 		}
@@ -74,7 +81,7 @@ internal class KeyPairPersistence
 	public CspParameters Parameters
 	{
 		[Token(Token = "0x6000131")]
-		[Address(RVA = "0x4DFC070", Offset = "0x4DFC070", VA = "0x4DFC070")]
+		[Address(RVA = "0x3AE1B90", Offset = "0x3AE1B90", VA = "0x3AE1B90")]
 		get
 		{
 			return null;
@@ -85,7 +92,7 @@ internal class KeyPairPersistence
 	private static string UserPath
 	{
 		[Token(Token = "0x6000135")]
-		[Address(RVA = "0x4DFBAA0", Offset = "0x4DFBAA0", VA = "0x4DFBAA0")]
+		[Address(RVA = "0x3AE15C0", Offset = "0x3AE15C0", VA = "0x3AE15C0")]
 		get
 		{
 			return null;
@@ -96,7 +103,7 @@ internal class KeyPairPersistence
 	private static string MachinePath
 	{
 		[Token(Token = "0x6000136")]
-		[Address(RVA = "0x4DFB500", Offset = "0x4DFB500", VA = "0x4DFB500")]
+		[Address(RVA = "0x3AE1020", Offset = "0x3AE1020", VA = "0x3AE1020")]
 		get
 		{
 			return null;
@@ -107,7 +114,7 @@ internal class KeyPairPersistence
 	private bool CanChange
 	{
 		[Token(Token = "0x6000141")]
-		[Address(RVA = "0x4DFC060", Offset = "0x4DFC060", VA = "0x4DFC060")]
+		[Address(RVA = "0x3AE1B80", Offset = "0x3AE1B80", VA = "0x3AE1B80")]
 		get
 		{
 			return default(bool);
@@ -118,7 +125,7 @@ internal class KeyPairPersistence
 	private bool UseDefaultKeyContainer
 	{
 		[Token(Token = "0x6000142")]
-		[Address(RVA = "0x4DFCBF0", Offset = "0x4DFCBF0", VA = "0x4DFCBF0")]
+		[Address(RVA = "0x3AE2710", Offset = "0x3AE2710", VA = "0x3AE2710")]
 		get
 		{
 			return default(bool);
@@ -129,7 +136,7 @@ internal class KeyPairPersistence
 	private bool UseMachineKeyStore
 	{
 		[Token(Token = "0x6000143")]
-		[Address(RVA = "0x4DFB4E0", Offset = "0x4DFB4E0", VA = "0x4DFB4E0")]
+		[Address(RVA = "0x3AE1000", Offset = "0x3AE1000", VA = "0x3AE1000")]
 		get
 		{
 			return default(bool);
@@ -140,7 +147,7 @@ internal class KeyPairPersistence
 	private string ContainerName
 	{
 		[Token(Token = "0x6000144")]
-		[Address(RVA = "0x4DFB3B0", Offset = "0x4DFB3B0", VA = "0x4DFB3B0")]
+		[Address(RVA = "0x3AE0ED0", Offset = "0x3AE0ED0", VA = "0x3AE0ED0")]
 		get
 		{
 			return null;
@@ -148,111 +155,111 @@ internal class KeyPairPersistence
 	}
 
 	[Token(Token = "0x600012C")]
-	[Address(RVA = "0x4DFB0E0", Offset = "0x4DFB0E0", VA = "0x4DFB0E0")]
+	[Address(RVA = "0x3AE0C00", Offset = "0x3AE0C00", VA = "0x3AE0C00")]
 	public KeyPairPersistence(CspParameters parameters)
 	{
 	}
 
 	[Token(Token = "0x600012D")]
-	[Address(RVA = "0x4DFB0F0", Offset = "0x4DFB0F0", VA = "0x4DFB0F0")]
+	[Address(RVA = "0x3AE0C10", Offset = "0x3AE0C10", VA = "0x3AE0C10")]
 	public KeyPairPersistence(CspParameters parameters, string keyPair)
 	{
 	}
 
 	[Token(Token = "0x6000132")]
-	[Address(RVA = "0x4DFC080", Offset = "0x4DFC080", VA = "0x4DFC080")]
+	[Address(RVA = "0x3AE1BA0", Offset = "0x3AE1BA0", VA = "0x3AE1BA0")]
 	public bool Load()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000133")]
-	[Address(RVA = "0x4DFC3C0", Offset = "0x4DFC3C0", VA = "0x4DFC3C0")]
+	[Address(RVA = "0x3AE1EE0", Offset = "0x3AE1EE0", VA = "0x3AE1EE0")]
 	public void Save()
 	{
 	}
 
 	[Token(Token = "0x6000134")]
-	[Address(RVA = "0x4DFC990", Offset = "0x4DFC990", VA = "0x4DFC990")]
+	[Address(RVA = "0x3AE24B0", Offset = "0x3AE24B0", VA = "0x3AE24B0")]
 	public void Remove()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000137")]
-	[Address(RVA = "0x4DFCB10", Offset = "0x4DFCB10", VA = "0x4DFCB10")]
+	[Address(RVA = "0x3AE2630", Offset = "0x3AE2630", VA = "0x3AE2630")]
 	internal unsafe static extern bool _CanSecure(char* root);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000138")]
-	[Address(RVA = "0x4DFCB20", Offset = "0x4DFCB20", VA = "0x4DFCB20")]
+	[Address(RVA = "0x3AE2640", Offset = "0x3AE2640", VA = "0x3AE2640")]
 	internal unsafe static extern bool _ProtectUser(char* path);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000139")]
-	[Address(RVA = "0x4DFCB30", Offset = "0x4DFCB30", VA = "0x4DFCB30")]
+	[Address(RVA = "0x3AE2650", Offset = "0x3AE2650", VA = "0x3AE2650")]
 	internal unsafe static extern bool _ProtectMachine(char* path);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600013A")]
-	[Address(RVA = "0x4DFCB40", Offset = "0x4DFCB40", VA = "0x4DFCB40")]
+	[Address(RVA = "0x3AE2660", Offset = "0x3AE2660", VA = "0x3AE2660")]
 	internal unsafe static extern bool _IsUserProtected(char* path);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600013B")]
-	[Address(RVA = "0x4DFCB50", Offset = "0x4DFCB50", VA = "0x4DFCB50")]
+	[Address(RVA = "0x3AE2670", Offset = "0x3AE2670", VA = "0x3AE2670")]
 	internal unsafe static extern bool _IsMachineProtected(char* path);
 
 	[Token(Token = "0x600013C")]
-	[Address(RVA = "0x4DFCB60", Offset = "0x4DFCB60", VA = "0x4DFCB60")]
+	[Address(RVA = "0x3AE2680", Offset = "0x3AE2680", VA = "0x3AE2680")]
 	private static bool CanSecure(string path)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600013D")]
-	[Address(RVA = "0x4DFC8E0", Offset = "0x4DFC8E0", VA = "0x4DFC8E0")]
+	[Address(RVA = "0x3AE2400", Offset = "0x3AE2400", VA = "0x3AE2400")]
 	private static bool ProtectUser(string path)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600013E")]
-	[Address(RVA = "0x4DFC830", Offset = "0x4DFC830", VA = "0x4DFC830")]
+	[Address(RVA = "0x3AE2350", Offset = "0x3AE2350", VA = "0x3AE2350")]
 	private static bool ProtectMachine(string path)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600013F")]
-	[Address(RVA = "0x4DFC9B0", Offset = "0x4DFC9B0", VA = "0x4DFC9B0")]
+	[Address(RVA = "0x3AE24D0", Offset = "0x3AE24D0", VA = "0x3AE24D0")]
 	private static bool IsUserProtected(string path)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000140")]
-	[Address(RVA = "0x4DFCA60", Offset = "0x4DFCA60", VA = "0x4DFCA60")]
+	[Address(RVA = "0x3AE2580", Offset = "0x3AE2580", VA = "0x3AE2580")]
 	private static bool IsMachineProtected(string path)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000145")]
-	[Address(RVA = "0x4DFB190", Offset = "0x4DFB190", VA = "0x4DFB190")]
+	[Address(RVA = "0x3AE0CB0", Offset = "0x3AE0CB0", VA = "0x3AE0CB0")]
 	private CspParameters Copy(CspParameters p)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000146")]
-	[Address(RVA = "0x4DFC240", Offset = "0x4DFC240", VA = "0x4DFC240")]
+	[Address(RVA = "0x3AE1D60", Offset = "0x3AE1D60", VA = "0x3AE1D60")]
 	private void FromXml(string xml)
 	{
 	}
 
 	[Token(Token = "0x6000147")]
-	[Address(RVA = "0x4DFC640", Offset = "0x4DFC640", VA = "0x4DFC640")]
+	[Address(RVA = "0x3AE2160", Offset = "0x3AE2160", VA = "0x3AE2160")]
 	private string ToXml()
 	{
 		return null;

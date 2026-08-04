@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Unity.UnityTls
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -557,7 +564,7 @@ internal static class UnityTls
 		public unitytls_tlsctx_set_trace_level_t unitytls_tlsctx_set_trace_level;
 
 		[Token(Token = "0x6000036")]
-		[Address(RVA = "0x4535100", Offset = "0x4535100", VA = "0x4535100")]
+		[Address(RVA = "0x451B2F0", Offset = "0x451B2F0", VA = "0x451B2F0")]
 		public unitytls_interface_struct()
 		{
 		}
@@ -571,7 +578,7 @@ internal static class UnityTls
 	public static bool IsSupported
 	{
 		[Token(Token = "0x6000028")]
-		[Address(RVA = "0x4534C00", Offset = "0x4534C00", VA = "0x4534C00")]
+		[Address(RVA = "0x451ADF0", Offset = "0x451ADF0", VA = "0x451ADF0")]
 		get
 		{
 			return default(bool);
@@ -582,7 +589,7 @@ internal static class UnityTls
 	public static unitytls_interface_struct NativeInterface
 	{
 		[Token(Token = "0x6000029")]
-		[Address(RVA = "0x4534950", Offset = "0x4534950", VA = "0x4534950")]
+		[Address(RVA = "0x451AB40", Offset = "0x451AB40", VA = "0x451AB40")]
 		get
 		{
 			return null;
@@ -591,6 +598,6 @@ internal static class UnityTls
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x4534BF0", Offset = "0x4534BF0", VA = "0x4534BF0")]
+	[Address(RVA = "0x451ADE0", Offset = "0x451ADE0", VA = "0x451ADE0")]
 	private static extern IntPtr GetUnityTlsInterface();
 }

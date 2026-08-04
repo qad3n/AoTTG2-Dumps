@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Schema.JsonSchemaNode
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -14,7 +21,7 @@ internal class JsonSchemaNode
 	public string Id
 	{
 		[Token(Token = "0x6000AB5")]
-		[Address(RVA = "0x3B0EDD0", Offset = "0x3B0EDD0", VA = "0x3B0EDD0")]
+		[Address(RVA = "0x3E04720", Offset = "0x3E04720", VA = "0x3E04720")]
 		[CompilerGenerated]
 		get
 		{
@@ -26,7 +33,7 @@ internal class JsonSchemaNode
 	public ReadOnlyCollection<JsonSchema> Schemas
 	{
 		[Token(Token = "0x6000AB6")]
-		[Address(RVA = "0x3B0EDE0", Offset = "0x3B0EDE0", VA = "0x3B0EDE0")]
+		[Address(RVA = "0x3E04730", Offset = "0x3E04730", VA = "0x3E04730")]
 		[CompilerGenerated]
 		get
 		{
@@ -38,7 +45,7 @@ internal class JsonSchemaNode
 	public Dictionary<string, JsonSchemaNode> Properties
 	{
 		[Token(Token = "0x6000AB7")]
-		[Address(RVA = "0x3B0EDF0", Offset = "0x3B0EDF0", VA = "0x3B0EDF0")]
+		[Address(RVA = "0x3E04740", Offset = "0x3E04740", VA = "0x3E04740")]
 		[CompilerGenerated]
 		get
 		{
@@ -50,7 +57,7 @@ internal class JsonSchemaNode
 	public Dictionary<string, JsonSchemaNode> PatternProperties
 	{
 		[Token(Token = "0x6000AB8")]
-		[Address(RVA = "0x3B0EE00", Offset = "0x3B0EE00", VA = "0x3B0EE00")]
+		[Address(RVA = "0x3E04750", Offset = "0x3E04750", VA = "0x3E04750")]
 		[CompilerGenerated]
 		get
 		{
@@ -62,7 +69,7 @@ internal class JsonSchemaNode
 	public List<JsonSchemaNode> Items
 	{
 		[Token(Token = "0x6000AB9")]
-		[Address(RVA = "0x3B0EE10", Offset = "0x3B0EE10", VA = "0x3B0EE10")]
+		[Address(RVA = "0x3E04760", Offset = "0x3E04760", VA = "0x3E04760")]
 		[CompilerGenerated]
 		get
 		{
@@ -74,14 +81,14 @@ internal class JsonSchemaNode
 	public JsonSchemaNode AdditionalProperties
 	{
 		[Token(Token = "0x6000ABA")]
-		[Address(RVA = "0x3B0EE20", Offset = "0x3B0EE20", VA = "0x3B0EE20")]
+		[Address(RVA = "0x3E04770", Offset = "0x3E04770", VA = "0x3E04770")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000ABB")]
-		[Address(RVA = "0x3B0EE30", Offset = "0x3B0EE30", VA = "0x3B0EE30")]
+		[Address(RVA = "0x3E04780", Offset = "0x3E04780", VA = "0x3E04780")]
 		[CompilerGenerated]
 		set
 		{
@@ -92,14 +99,14 @@ internal class JsonSchemaNode
 	public JsonSchemaNode AdditionalItems
 	{
 		[Token(Token = "0x6000ABC")]
-		[Address(RVA = "0x3B0EE40", Offset = "0x3B0EE40", VA = "0x3B0EE40")]
+		[Address(RVA = "0x3E04790", Offset = "0x3E04790", VA = "0x3E04790")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000ABD")]
-		[Address(RVA = "0x3B0EE50", Offset = "0x3B0EE50", VA = "0x3B0EE50")]
+		[Address(RVA = "0x3E047A0", Offset = "0x3E047A0", VA = "0x3E047A0")]
 		[CompilerGenerated]
 		set
 		{
@@ -107,26 +114,26 @@ internal class JsonSchemaNode
 	}
 
 	[Token(Token = "0x6000ABE")]
-	[Address(RVA = "0x3B0E490", Offset = "0x3B0E490", VA = "0x3B0E490")]
+	[Address(RVA = "0x3E03DE0", Offset = "0x3E03DE0", VA = "0x3E03DE0")]
 	public JsonSchemaNode(JsonSchema schema)
 	{
 	}
 
 	[Token(Token = "0x6000ABF")]
-	[Address(RVA = "0x3B0EE60", Offset = "0x3B0EE60", VA = "0x3B0EE60")]
+	[Address(RVA = "0x3E047B0", Offset = "0x3E047B0", VA = "0x3E047B0")]
 	private JsonSchemaNode(JsonSchemaNode source, JsonSchema schema)
 	{
 	}
 
 	[Token(Token = "0x6000AC0")]
-	[Address(RVA = "0x3B0E680", Offset = "0x3B0E680", VA = "0x3B0E680")]
+	[Address(RVA = "0x3E03FD0", Offset = "0x3E03FD0", VA = "0x3E03FD0")]
 	public JsonSchemaNode Combine(JsonSchema schema)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AC1")]
-	[Address(RVA = "0x3B0E1F0", Offset = "0x3B0E1F0", VA = "0x3B0E1F0")]
+	[Address(RVA = "0x3E03B40", Offset = "0x3E03B40", VA = "0x3E03B40")]
 	public static string GetId(IEnumerable<JsonSchema> schemata)
 	{
 		return null;

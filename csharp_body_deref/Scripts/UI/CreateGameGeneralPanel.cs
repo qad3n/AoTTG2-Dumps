@@ -1,47 +1,54 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UI.CreateGameGeneralPanel
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UI/CreateGameGeneralPanel.c
+// Prior real C# source (older reference): Assets/Scripts/UI/CreateGamePopup/CreateGameGeneralPanel.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 using Settings;
 
 namespace UI;
 
-[Token(Token = "0x2000579")]
+[Token(Token = "0x20005BE")]
 internal class CreateGameGeneralPanel : CreateGameCategoryPanel
 {
-	[Token(Token = "0x4001AFF")]
+	[Token(Token = "0x4001C12")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static readonly StringSetting AddonSelection;
 
-	[Token(Token = "0x17000AF3")]
+	[Token(Token = "0x17000B5D")]
 	protected override bool ScrollBar
 	{
-		[Token(Token = "0x6003923")]
-		[Address(RVA = "0x3F64390", Offset = "0x3F64390", VA = "0x3F64390", Slot = "15")]
+		[Token(Token = "0x6003B32")]
+		[Address(RVA = "0x4272210", Offset = "0x4272210", VA = "0x4272210", Slot = "15")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6003924")]
-	[Address(RVA = "0x3F643A0", Offset = "0x3F643A0", VA = "0x3F643A0", Slot = "20")]
+	[Token(Token = "0x6003B33")]
+	[Address(RVA = "0x4272220", Offset = "0x4272220", VA = "0x4272220", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6003925")]
-	[Address(RVA = "0x3F65EE0", Offset = "0x3F65EE0", VA = "0x3F65EE0")]
+	[Token(Token = "0x6003B34")]
+	[Address(RVA = "0x4273D60", Offset = "0x4273D60", VA = "0x4273D60")]
 	private static void RemoveAddon(ListSetting<StringSetting> addons, string addonName)
 	{
 	}
 
-	[Token(Token = "0x6003926")]
-	[Address(RVA = "0x3F65CB0", Offset = "0x3F65CB0", VA = "0x3F65CB0")]
+	[Token(Token = "0x6003B35")]
+	[Address(RVA = "0x4273B30", Offset = "0x4273B30", VA = "0x4273B30")]
 	public static void SetDefaultMisc()
 	{
 	}
 
-	[Token(Token = "0x6003927")]
-	[Address(RVA = "0x3F65FE0", Offset = "0x3F65FE0", VA = "0x3F65FE0")]
+	[Token(Token = "0x6003B36")]
+	[Address(RVA = "0x4273E60", Offset = "0x4273E60", VA = "0x4273E60")]
 	public CreateGameGeneralPanel()
 	{
 	}

@@ -1,78 +1,85 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Characters.HumanSetupTextures
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Characters/HumanSetupTextures.c
+// Prior real C# source (older reference): Assets/Scripts/Characters/Human/Setup/HumanSetupTextures.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x20004D3")]
+[Token(Token = "0x2000518")]
 internal class HumanSetupTextures
 {
-	[Token(Token = "0x40016F7")]
+	[Token(Token = "0x4001808")]
 	[FieldOffset(Offset = "0x10")]
 	private HumanSetup _setup;
 
-	[Token(Token = "0x6003395")]
-	[Address(RVA = "0x3EDB3D0", Offset = "0x3EDB3D0", VA = "0x3EDB3D0")]
+	[Token(Token = "0x60035A3")]
+	[Address(RVA = "0x41E7C90", Offset = "0x41E7C90", VA = "0x41E7C90")]
 	public HumanSetupTextures(HumanSetup setup)
 	{
 	}
 
-	[Token(Token = "0x6003396")]
-	[Address(RVA = "0x3EE17E0", Offset = "0x3EE17E0", VA = "0x3EE17E0")]
+	[Token(Token = "0x60035A4")]
+	[Address(RVA = "0x41EE0A0", Offset = "0x41EE0A0", VA = "0x41EE0A0")]
 	public string Get3dmgTexture()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003397")]
-	[Address(RVA = "0x3EE30C0", Offset = "0x3EE30C0", VA = "0x3EE30C0")]
+	[Token(Token = "0x60035A5")]
+	[Address(RVA = "0x41EF980", Offset = "0x41EF980", VA = "0x41EF980")]
 	public string GetBrandTexture()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003398")]
-	[Address(RVA = "0x3EE3C60", Offset = "0x3EE3C60", VA = "0x3EE3C60")]
+	[Token(Token = "0x60035A6")]
+	[Address(RVA = "0x41F0520", Offset = "0x41F0520", VA = "0x41F0520")]
 	public string GetSkinTexture()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003399")]
-	[Address(RVA = "0x3EE3240", Offset = "0x3EE3240", VA = "0x3EE3240")]
+	[Token(Token = "0x60035A7")]
+	[Address(RVA = "0x41EFB00", Offset = "0x41EFB00", VA = "0x41EFB00")]
 	public string GetHairTexture()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600339A")]
-	[Address(RVA = "0x3EDD3E0", Offset = "0x3EDD3E0", VA = "0x3EDD3E0")]
+	[Token(Token = "0x60035A8")]
+	[Address(RVA = "0x41E9CA0", Offset = "0x41E9CA0", VA = "0x41E9CA0")]
 	public string GetBodyMainTexture()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600339B")]
-	[Address(RVA = "0x3EDD520", Offset = "0x3EDD520", VA = "0x3EDD520")]
+	[Token(Token = "0x60035A9")]
+	[Address(RVA = "0x41E9DE0", Offset = "0x41E9DE0", VA = "0x41E9DE0")]
 	public string GetBodyMaskTexture()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600339C")]
-	[Address(RVA = "0x3EDD660", Offset = "0x3EDD660", VA = "0x3EDD660")]
+	[Token(Token = "0x60035AA")]
+	[Address(RVA = "0x41E9F20", Offset = "0x41E9F20", VA = "0x41E9F20")]
 	public string GetBodyColorTexture()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600339D")]
-	[Address(RVA = "0x3EDD7A0", Offset = "0x3EDD7A0", VA = "0x3EDD7A0")]
+	[Token(Token = "0x60035AB")]
+	[Address(RVA = "0x41EA060", Offset = "0x41EA060", VA = "0x41EA060")]
 	public string GetBodyPantsTexture()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600339E")]
-	[Address(RVA = "0x3EE4700", Offset = "0x3EE4700", VA = "0x3EE4700")]
+	[Token(Token = "0x60035AC")]
+	[Address(RVA = "0x41F0FC0", Offset = "0x41F0FC0", VA = "0x41F0FC0")]
 	public string GetChestTexture(int chest)
 	{
 		return null;

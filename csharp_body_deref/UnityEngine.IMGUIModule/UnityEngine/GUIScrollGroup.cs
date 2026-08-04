@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.GUIScrollGroup
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
 
@@ -55,32 +62,32 @@ internal sealed class GUIScrollGroup : GUILayoutGroup
 	public GUIStyle verticalScrollbar;
 
 	[Token(Token = "0x6000235")]
-	[Address(RVA = "0x4B39510", Offset = "0x4B39510", VA = "0x4B39510")]
+	[Address(RVA = "0x4E610D0", Offset = "0x4E610D0", VA = "0x4E610D0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public GUIScrollGroup()
 	{
 	}
 
 	[Token(Token = "0x6000236")]
-	[Address(RVA = "0x4B39570", Offset = "0x4B39570", VA = "0x4B39570", Slot = "8")]
+	[Address(RVA = "0x4E61130", Offset = "0x4E61130", VA = "0x4E61130", Slot = "8")]
 	public override void CalcWidth()
 	{
 	}
 
 	[Token(Token = "0x6000237")]
-	[Address(RVA = "0x4B39620", Offset = "0x4B39620", VA = "0x4B39620", Slot = "10")]
+	[Address(RVA = "0x4E611E0", Offset = "0x4E611E0", VA = "0x4E611E0", Slot = "10")]
 	public override void SetHorizontal(float x, float width)
 	{
 	}
 
 	[Token(Token = "0x6000238")]
-	[Address(RVA = "0x4B39750", Offset = "0x4B39750", VA = "0x4B39750", Slot = "9")]
+	[Address(RVA = "0x4E61310", Offset = "0x4E61310", VA = "0x4E61310", Slot = "9")]
 	public override void CalcHeight()
 	{
 	}
 
 	[Token(Token = "0x6000239")]
-	[Address(RVA = "0x4B398A0", Offset = "0x4B398A0", VA = "0x4B398A0", Slot = "11")]
+	[Address(RVA = "0x4E61460", Offset = "0x4E61460", VA = "0x4E61460", Slot = "11")]
 	public override void SetVertical(float y, float height)
 	{
 	}

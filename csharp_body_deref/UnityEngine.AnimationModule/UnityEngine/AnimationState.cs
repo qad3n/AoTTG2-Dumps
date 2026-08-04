@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.AnimationState
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -15,11 +22,11 @@ public sealed class AnimationState : TrackedReference
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600002F")]
-		[Address(RVA = "0x4A7AF10", Offset = "0x4A7AF10", VA = "0x4A7AF10")]
+		[Address(RVA = "0x4DA2730", Offset = "0x4DA2730", VA = "0x4DA2730")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000030")]
-		[Address(RVA = "0x4A7AF40", Offset = "0x4A7AF40", VA = "0x4A7AF40")]
+		[Address(RVA = "0x4DA2760", Offset = "0x4DA2760", VA = "0x4DA2760")]
 		set;
 	}
 
@@ -28,11 +35,11 @@ public sealed class AnimationState : TrackedReference
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x4A7AF90", Offset = "0x4A7AF90", VA = "0x4A7AF90")]
+		[Address(RVA = "0x4DA27B0", Offset = "0x4DA27B0", VA = "0x4DA27B0")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000032")]
-		[Address(RVA = "0x4A7AFC0", Offset = "0x4A7AFC0", VA = "0x4A7AFC0")]
+		[Address(RVA = "0x4DA27E0", Offset = "0x4DA27E0", VA = "0x4DA27E0")]
 		set;
 	}
 
@@ -41,11 +48,11 @@ public sealed class AnimationState : TrackedReference
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000033")]
-		[Address(RVA = "0x4A7B010", Offset = "0x4A7B010", VA = "0x4A7B010")]
+		[Address(RVA = "0x4DA2830", Offset = "0x4DA2830", VA = "0x4DA2830")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000034")]
-		[Address(RVA = "0x4A7B040", Offset = "0x4A7B040", VA = "0x4A7B040")]
+		[Address(RVA = "0x4DA2860", Offset = "0x4DA2860", VA = "0x4DA2860")]
 		set;
 	}
 
@@ -54,7 +61,7 @@ public sealed class AnimationState : TrackedReference
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x4A7B090", Offset = "0x4A7B090", VA = "0x4A7B090")]
+		[Address(RVA = "0x4DA28B0", Offset = "0x4DA28B0", VA = "0x4DA28B0")]
 		get;
 	}
 
@@ -63,7 +70,7 @@ public sealed class AnimationState : TrackedReference
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000036")]
-		[Address(RVA = "0x4A7B0C0", Offset = "0x4A7B0C0", VA = "0x4A7B0C0")]
+		[Address(RVA = "0x4DA28E0", Offset = "0x4DA28E0", VA = "0x4DA28E0")]
 		set;
 	}
 
@@ -72,7 +79,7 @@ public sealed class AnimationState : TrackedReference
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000037")]
-		[Address(RVA = "0x4A7B100", Offset = "0x4A7B100", VA = "0x4A7B100")]
+		[Address(RVA = "0x4DA2920", Offset = "0x4DA2920", VA = "0x4DA2920")]
 		get;
 	}
 
@@ -81,12 +88,12 @@ public sealed class AnimationState : TrackedReference
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000038")]
-		[Address(RVA = "0x4A7B130", Offset = "0x4A7B130", VA = "0x4A7B130")]
+		[Address(RVA = "0x4DA2950", Offset = "0x4DA2950", VA = "0x4DA2950")]
 		get;
 	}
 
 	[Token(Token = "0x6000039")]
-	[Address(RVA = "0x4A7B160", Offset = "0x4A7B160", VA = "0x4A7B160")]
+	[Address(RVA = "0x4DA2980", Offset = "0x4DA2980", VA = "0x4DA2980")]
 	public AnimationState()
 	{
 	}

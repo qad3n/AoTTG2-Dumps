@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.UnityOnButtonClickMessageListener
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -8,13 +15,13 @@ namespace Unity.VisualScripting;
 public sealed class UnityOnButtonClickMessageListener : MessageListener
 {
 	[Token(Token = "0x6000459")]
-	[Address(RVA = "0x4991D80", Offset = "0x4991D80", VA = "0x4991D80")]
+	[Address(RVA = "0x4CB6950", Offset = "0x4CB6950", VA = "0x4CB6950")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x600045A")]
-	[Address(RVA = "0x4991E20", Offset = "0x4991E20", VA = "0x4991E20")]
+	[Address(RVA = "0x4CB69F0", Offset = "0x4CB69F0", VA = "0x4CB69F0")]
 	public UnityOnButtonClickMessageListener()
 	{
 	}

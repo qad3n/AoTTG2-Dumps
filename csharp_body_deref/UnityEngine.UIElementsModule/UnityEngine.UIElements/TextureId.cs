@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.TextureId
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -18,7 +25,7 @@ internal struct TextureId
 	public int index
 	{
 		[Token(Token = "0x6000F8E")]
-		[Address(RVA = "0x4D4E710", Offset = "0x4D4E710", VA = "0x4D4E710")]
+		[Address(RVA = "0x5076040", Offset = "0x5076040", VA = "0x5076040")]
 		get
 		{
 			return default(int);
@@ -26,20 +33,20 @@ internal struct TextureId
 	}
 
 	[Token(Token = "0x6000F8D")]
-	[Address(RVA = "0x4D4E700", Offset = "0x4D4E700", VA = "0x4D4E700")]
+	[Address(RVA = "0x5076030", Offset = "0x5076030", VA = "0x5076030")]
 	public TextureId(int index)
 	{
 	}
 
 	[Token(Token = "0x6000F8F")]
-	[Address(RVA = "0x4D4E720", Offset = "0x4D4E720", VA = "0x4D4E720")]
+	[Address(RVA = "0x5076050", Offset = "0x5076050", VA = "0x5076050")]
 	public float ConvertToGpu()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000F90")]
-	[Address(RVA = "0x4D4E770", Offset = "0x4D4E770", VA = "0x4D4E770", Slot = "0")]
+	[Address(RVA = "0x50760A0", Offset = "0x50760A0", VA = "0x50760A0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
@@ -47,7 +54,7 @@ internal struct TextureId
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000F91")]
-	[Address(RVA = "0x4D4E800", Offset = "0x4D4E800", VA = "0x4D4E800", Slot = "2")]
+	[Address(RVA = "0x5076130", Offset = "0x5076130", VA = "0x5076130", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
@@ -55,7 +62,7 @@ internal struct TextureId
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000F92")]
-	[Address(RVA = "0x4D4E810", Offset = "0x4D4E810", VA = "0x4D4E810")]
+	[Address(RVA = "0x5076140", Offset = "0x5076140", VA = "0x5076140")]
 	public static bool operator ==(TextureId left, TextureId right)
 	{
 		return default(bool);
@@ -63,7 +70,7 @@ internal struct TextureId
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000F93")]
-	[Address(RVA = "0x4D4E820", Offset = "0x4D4E820", VA = "0x4D4E820")]
+	[Address(RVA = "0x5076150", Offset = "0x5076150", VA = "0x5076150")]
 	public static bool operator !=(TextureId left, TextureId right)
 	{
 		return default(bool);

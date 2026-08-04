@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.X509Certificates.X509KeyUsageExtension
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
@@ -26,7 +33,7 @@ public sealed class X509KeyUsageExtension : X509Extension
 	public X509KeyUsageFlags KeyUsages
 	{
 		[Token(Token = "0x6000666")]
-		[Address(RVA = "0x461E4A0", Offset = "0x461E4A0", VA = "0x461E4A0")]
+		[Address(RVA = "0x49435A0", Offset = "0x49435A0", VA = "0x49435A0")]
 		get
 		{
 			return default(X509KeyUsageFlags);
@@ -34,52 +41,52 @@ public sealed class X509KeyUsageExtension : X509Extension
 	}
 
 	[Token(Token = "0x6000663")]
-	[Address(RVA = "0x461DEF0", Offset = "0x461DEF0", VA = "0x461DEF0")]
+	[Address(RVA = "0x4942FF0", Offset = "0x4942FF0", VA = "0x4942FF0")]
 	public X509KeyUsageExtension()
 	{
 	}
 
 	[Token(Token = "0x6000664")]
-	[Address(RVA = "0x461DF80", Offset = "0x461DF80", VA = "0x461DF80")]
+	[Address(RVA = "0x4943080", Offset = "0x4943080", VA = "0x4943080")]
 	public X509KeyUsageExtension(AsnEncodedData encodedKeyUsage, bool critical)
 	{
 	}
 
 	[Token(Token = "0x6000665")]
-	[Address(RVA = "0x461E240", Offset = "0x461E240", VA = "0x461E240")]
+	[Address(RVA = "0x4943340", Offset = "0x4943340", VA = "0x4943340")]
 	public X509KeyUsageExtension(X509KeyUsageFlags keyUsages, bool critical)
 	{
 	}
 
 	[Token(Token = "0x6000667")]
-	[Address(RVA = "0x461E500", Offset = "0x461E500", VA = "0x461E500", Slot = "4")]
+	[Address(RVA = "0x4943600", Offset = "0x4943600", VA = "0x4943600", Slot = "4")]
 	public override void CopyFrom(AsnEncodedData asnEncodedData)
 	{
 	}
 
 	[Token(Token = "0x6000668")]
-	[Address(RVA = "0x461E310", Offset = "0x461E310", VA = "0x461E310")]
+	[Address(RVA = "0x4943410", Offset = "0x4943410", VA = "0x4943410")]
 	internal X509KeyUsageFlags GetValidFlags(X509KeyUsageFlags flags)
 	{
 		return default(X509KeyUsageFlags);
 	}
 
 	[Token(Token = "0x6000669")]
-	[Address(RVA = "0x461E050", Offset = "0x461E050", VA = "0x461E050")]
+	[Address(RVA = "0x4943150", Offset = "0x4943150", VA = "0x4943150")]
 	internal AsnDecodeStatus Decode(byte[] extension)
 	{
 		return default(AsnDecodeStatus);
 	}
 
 	[Token(Token = "0x600066A")]
-	[Address(RVA = "0x461E320", Offset = "0x461E320", VA = "0x461E320")]
+	[Address(RVA = "0x4943420", Offset = "0x4943420", VA = "0x4943420")]
 	internal byte[] Encode()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600066B")]
-	[Address(RVA = "0x461E6B0", Offset = "0x461E6B0", VA = "0x461E6B0", Slot = "6")]
+	[Address(RVA = "0x49437B0", Offset = "0x49437B0", VA = "0x49437B0", Slot = "6")]
 	internal override string ToString(bool multiLine)
 	{
 		return null;

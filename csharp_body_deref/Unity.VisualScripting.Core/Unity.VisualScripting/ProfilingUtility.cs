@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.ProfilingUtility
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -15,14 +22,14 @@ public static class ProfilingUtility
 	public static ProfiledSegment rootSegment
 	{
 		[Token(Token = "0x600052E")]
-		[Address(RVA = "0x49954F0", Offset = "0x49954F0", VA = "0x49954F0")]
+		[Address(RVA = "0x4CBA0C0", Offset = "0x4CBA0C0", VA = "0x4CBA0C0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600052F")]
-		[Address(RVA = "0x4995560", Offset = "0x4995560", VA = "0x4995560")]
+		[Address(RVA = "0x4CBA130", Offset = "0x4CBA130", VA = "0x4CBA130")]
 		[CompilerGenerated]
 		private set
 		{
@@ -33,14 +40,14 @@ public static class ProfilingUtility
 	public static ProfiledSegment currentSegment
 	{
 		[Token(Token = "0x6000530")]
-		[Address(RVA = "0x49955C0", Offset = "0x49955C0", VA = "0x49955C0")]
+		[Address(RVA = "0x4CBA190", Offset = "0x4CBA190", VA = "0x4CBA190")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000531")]
-		[Address(RVA = "0x4995630", Offset = "0x4995630", VA = "0x4995630")]
+		[Address(RVA = "0x4CBA200", Offset = "0x4CBA200", VA = "0x4CBA200")]
 		[CompilerGenerated]
 		set
 		{
@@ -48,34 +55,34 @@ public static class ProfilingUtility
 	}
 
 	[Token(Token = "0x600052D")]
-	[Address(RVA = "0x4995390", Offset = "0x4995390", VA = "0x4995390")]
+	[Address(RVA = "0x4CB9F60", Offset = "0x4CB9F60", VA = "0x4CB9F60")]
 	static ProfilingUtility()
 	{
 	}
 
 	[Token(Token = "0x6000532")]
-	[Address(RVA = "0x4995690", Offset = "0x4995690", VA = "0x4995690")]
+	[Address(RVA = "0x4CBA260", Offset = "0x4CBA260", VA = "0x4CBA260")]
 	[Conditional("ENABLE_PROFILER")]
 	public static void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000533")]
-	[Address(RVA = "0x49957D0", Offset = "0x49957D0", VA = "0x49957D0")]
+	[Address(RVA = "0x4CBA3A0", Offset = "0x4CBA3A0", VA = "0x4CBA3A0")]
 	public static ProfilingScope SampleBlock(string name)
 	{
 		return default(ProfilingScope);
 	}
 
 	[Token(Token = "0x6000534")]
-	[Address(RVA = "0x49957E0", Offset = "0x49957E0", VA = "0x49957E0")]
+	[Address(RVA = "0x4CBA3B0", Offset = "0x4CBA3B0", VA = "0x4CBA3B0")]
 	[Conditional("ENABLE_PROFILER")]
 	public static void BeginSample(string name)
 	{
 	}
 
 	[Token(Token = "0x6000535")]
-	[Address(RVA = "0x4995C80", Offset = "0x4995C80", VA = "0x4995C80")]
+	[Address(RVA = "0x4CBA850", Offset = "0x4CBA850", VA = "0x4CBA850")]
 	[Conditional("ENABLE_PROFILER")]
 	public static void EndSample()
 	{

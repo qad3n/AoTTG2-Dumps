@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.InteropServices.HandleRef
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.InteropServices;
@@ -17,7 +24,7 @@ public readonly struct HandleRef
 	public IntPtr Handle
 	{
 		[Token(Token = "0x60021B1")]
-		[Address(RVA = "0x4ED7380", Offset = "0x4ED7380", VA = "0x4ED7380")]
+		[Address(RVA = "0x3BBCEA0", Offset = "0x3BBCEA0", VA = "0x3BBCEA0")]
 		get
 		{
 			return default(IntPtr);
@@ -25,7 +32,7 @@ public readonly struct HandleRef
 	}
 
 	[Token(Token = "0x60021B0")]
-	[Address(RVA = "0x4ED7360", Offset = "0x4ED7360", VA = "0x4ED7360")]
+	[Address(RVA = "0x3BBCE80", Offset = "0x3BBCE80", VA = "0x3BBCE80")]
 	public HandleRef(object wrapper, IntPtr handle)
 	{
 	}

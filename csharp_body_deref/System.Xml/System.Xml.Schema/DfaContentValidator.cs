@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.DfaContentValidator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -15,40 +22,40 @@ internal sealed class DfaContentValidator : ContentValidator
 	private SymbolsDictionary symbols;
 
 	[Token(Token = "0x6001030")]
-	[Address(RVA = "0x450E800", Offset = "0x450E800", VA = "0x450E800")]
+	[Address(RVA = "0x484BF60", Offset = "0x484BF60", VA = "0x484BF60")]
 	internal DfaContentValidator(int[][] transitionTable, SymbolsDictionary symbols, XmlSchemaContentType contentType, bool isOpen, bool isEmptiable)
 	{
 	}
 
 	[Token(Token = "0x6001031")]
-	[Address(RVA = "0x450EBC0", Offset = "0x450EBC0", VA = "0x450EBC0", Slot = "5")]
+	[Address(RVA = "0x484C320", Offset = "0x484C320", VA = "0x484C320", Slot = "5")]
 	public override void InitValidation(ValidationState context)
 	{
 	}
 
 	[Token(Token = "0x6001032")]
-	[Address(RVA = "0x450EC20", Offset = "0x450EC20", VA = "0x450EC20", Slot = "6")]
+	[Address(RVA = "0x484C380", Offset = "0x484C380", VA = "0x484C380", Slot = "6")]
 	public override object ValidateElement(XmlQualifiedName name, ValidationState context, out int errorCode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001033")]
-	[Address(RVA = "0x450ED40", Offset = "0x450ED40", VA = "0x450ED40", Slot = "7")]
+	[Address(RVA = "0x484C4A0", Offset = "0x484C4A0", VA = "0x484C4A0", Slot = "7")]
 	public override bool CompleteValidation(ValidationState context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001034")]
-	[Address(RVA = "0x450ED50", Offset = "0x450ED50", VA = "0x450ED50", Slot = "8")]
+	[Address(RVA = "0x484C4B0", Offset = "0x484C4B0", VA = "0x484C4B0", Slot = "8")]
 	public override ArrayList ExpectedElements(ValidationState context, bool isRequiredOnly)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001035")]
-	[Address(RVA = "0x450EF80", Offset = "0x450EF80", VA = "0x450EF80", Slot = "9")]
+	[Address(RVA = "0x484C6E0", Offset = "0x484C6E0", VA = "0x484C6E0", Slot = "9")]
 	public override ArrayList ExpectedParticles(ValidationState context, bool isRequiredOnly, XmlSchemaSet schemaSet)
 	{
 		return null;

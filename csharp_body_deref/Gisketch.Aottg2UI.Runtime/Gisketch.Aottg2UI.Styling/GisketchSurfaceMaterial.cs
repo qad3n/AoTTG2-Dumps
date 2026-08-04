@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Gisketch.Aottg2UI.Styling.GisketchSurfaceMaterial
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Styling/GisketchSurfaceMaterial.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -196,7 +203,7 @@ public static class GisketchSurfaceMaterial
 	public static Material Shared
 	{
 		[Token(Token = "0x60000CA")]
-		[Address(RVA = "0x39CC3A0", Offset = "0x39CC3A0", VA = "0x39CC3A0")]
+		[Address(RVA = "0x3A355A0", Offset = "0x3A355A0", VA = "0x3A355A0")]
 		get
 		{
 			return null;
@@ -204,50 +211,50 @@ public static class GisketchSurfaceMaterial
 	}
 
 	[Token(Token = "0x60000CB")]
-	[Address(RVA = "0x39CC5D0", Offset = "0x39CC5D0", VA = "0x39CC5D0")]
+	[Address(RVA = "0x3A357D0", Offset = "0x3A357D0", VA = "0x3A357D0")]
 	public static void ApplyDefaults(Material material)
 	{
 	}
 
 	[Token(Token = "0x60000CC")]
-	[Address(RVA = "0x39CCE80", Offset = "0x39CCE80", VA = "0x39CCE80")]
+	[Address(RVA = "0x3A36080", Offset = "0x3A36080", VA = "0x3A36080")]
 	public static Material Instance(float relief, [Optional][DefaultParameterValue(false)] bool reliefGradient, [Optional][DefaultParameterValue(false)] bool worn, [Optional] float? stainScaleOverride, bool brushStreak = false, bool verticalLightGradient = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CD")]
-	[Address(RVA = "0x39CD340", Offset = "0x39CD340", VA = "0x39CD340")]
+	[Address(RVA = "0x3A36540", Offset = "0x3A36540", VA = "0x3A36540")]
 	public static void ApplyReliefLightAngle(float angle)
 	{
 	}
 
 	[Token(Token = "0x60000CE")]
-	[Address(RVA = "0x39CCBB0", Offset = "0x39CCBB0", VA = "0x39CCBB0")]
+	[Address(RVA = "0x3A35DB0", Offset = "0x3A35DB0", VA = "0x3A35DB0")]
 	public static void ApplyReliefSettings(float angle, float shadowSize)
 	{
 	}
 
 	[Token(Token = "0x60000CF")]
-	[Address(RVA = "0x39CD440", Offset = "0x39CD440", VA = "0x39CD440")]
+	[Address(RVA = "0x3A36640", Offset = "0x3A36640", VA = "0x3A36640")]
 	public static void ApplyWearSettings(float wearStrength, float chipStrength, float stainScale)
 	{
 	}
 
 	[Token(Token = "0x60000D0")]
-	[Address(RVA = "0x39CC830", Offset = "0x39CC830", VA = "0x39CC830")]
+	[Address(RVA = "0x3A35A30", Offset = "0x3A35A30", VA = "0x3A35A30")]
 	public static void ApplyPreset(Material material, float fineScale, float fineStrength, float coarseScale, float coarseStrength, float gradientStrength)
 	{
 	}
 
 	[Token(Token = "0x60000D1")]
-	[Address(RVA = "0x39CC970", Offset = "0x39CC970", VA = "0x39CC970")]
+	[Address(RVA = "0x3A35B70", Offset = "0x3A35B70", VA = "0x3A35B70")]
 	public static void ApplyLightPreset(Material material, float fineScale, float fineStrength, float coarseScale, float coarseStrength, float gradientStrength)
 	{
 	}
 
 	[Token(Token = "0x60000D2")]
-	[Address(RVA = "0x39CCAB0", Offset = "0x39CCAB0", VA = "0x39CCAB0")]
+	[Address(RVA = "0x3A35CB0", Offset = "0x3A35CB0", VA = "0x3A35CB0")]
 	public static void ApplyWearPreset(Material material, float wearStrength, float chipStrength, float stainScale)
 	{
 	}

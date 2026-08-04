@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.SHA384Managed
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -28,106 +35,106 @@ public class SHA384Managed : SHA384
 	private static readonly ulong[] _K;
 
 	[Token(Token = "0x6001A69")]
-	[Address(RVA = "0x4E60E10", Offset = "0x4E60E10", VA = "0x4E60E10")]
+	[Address(RVA = "0x3B46930", Offset = "0x3B46930", VA = "0x3B46930")]
 	public SHA384Managed()
 	{
 	}
 
 	[Token(Token = "0x6001A6A")]
-	[Address(RVA = "0x4E610D0", Offset = "0x4E610D0", VA = "0x4E610D0", Slot = "20")]
+	[Address(RVA = "0x3B46BF0", Offset = "0x3B46BF0", VA = "0x3B46BF0", Slot = "20")]
 	public override void Initialize()
 	{
 	}
 
 	[Token(Token = "0x6001A6B")]
-	[Address(RVA = "0x4E61110", Offset = "0x4E61110", VA = "0x4E61110", Slot = "18")]
+	[Address(RVA = "0x3B46C30", Offset = "0x3B46C30", VA = "0x3B46C30", Slot = "18")]
 	protected override void HashCore(byte[] rgb, int ibStart, int cbSize)
 	{
 	}
 
 	[Token(Token = "0x6001A6C")]
-	[Address(RVA = "0x4E61310", Offset = "0x4E61310", VA = "0x4E61310", Slot = "19")]
+	[Address(RVA = "0x3B46E30", Offset = "0x3B46E30", VA = "0x3B46E30", Slot = "19")]
 	protected override byte[] HashFinal()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A6D")]
-	[Address(RVA = "0x4E61000", Offset = "0x4E61000", VA = "0x4E61000")]
+	[Address(RVA = "0x3B46B20", Offset = "0x3B46B20", VA = "0x3B46B20")]
 	private void InitializeState()
 	{
 	}
 
 	[Token(Token = "0x6001A6E")]
-	[Address(RVA = "0x4E61120", Offset = "0x4E61120", VA = "0x4E61120")]
+	[Address(RVA = "0x3B46C40", Offset = "0x3B46C40", VA = "0x3B46C40")]
 	private void _HashData(byte[] partIn, int ibStart, int cbSize)
 	{
 	}
 
 	[Token(Token = "0x6001A6F")]
-	[Address(RVA = "0x4E61320", Offset = "0x4E61320", VA = "0x4E61320")]
+	[Address(RVA = "0x3B46E40", Offset = "0x3B46E40", VA = "0x3B46E40")]
 	private byte[] _EndHash()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A70")]
-	[Address(RVA = "0x4E614D0", Offset = "0x4E614D0", VA = "0x4E614D0")]
+	[Address(RVA = "0x3B46FF0", Offset = "0x3B46FF0", VA = "0x3B46FF0")]
 	private unsafe static void SHATransform(ulong* expandedBuffer, ulong* state, byte* block)
 	{
 	}
 
 	[Token(Token = "0x6001A71")]
-	[Address(RVA = "0x4E62620", Offset = "0x4E62620", VA = "0x4E62620")]
+	[Address(RVA = "0x3B48140", Offset = "0x3B48140", VA = "0x3B48140")]
 	private static ulong RotateRight(ulong x, int n)
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x6001A72")]
-	[Address(RVA = "0x4E62590", Offset = "0x4E62590", VA = "0x4E62590")]
+	[Address(RVA = "0x3B480B0", Offset = "0x3B480B0", VA = "0x3B480B0")]
 	private static ulong Ch(ulong x, ulong y, ulong z)
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x6001A73")]
-	[Address(RVA = "0x4E62600", Offset = "0x4E62600", VA = "0x4E62600")]
+	[Address(RVA = "0x3B48120", Offset = "0x3B48120", VA = "0x3B48120")]
 	private static ulong Maj(ulong x, ulong y, ulong z)
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x6001A74")]
-	[Address(RVA = "0x4E625A0", Offset = "0x4E625A0", VA = "0x4E625A0")]
+	[Address(RVA = "0x3B480C0", Offset = "0x3B480C0", VA = "0x3B480C0")]
 	private static ulong Sigma_0(ulong x)
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x6001A75")]
-	[Address(RVA = "0x4E62530", Offset = "0x4E62530", VA = "0x4E62530")]
+	[Address(RVA = "0x3B48050", Offset = "0x3B48050", VA = "0x3B48050")]
 	private static ulong Sigma_1(ulong x)
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x6001A76")]
-	[Address(RVA = "0x4E62630", Offset = "0x4E62630", VA = "0x4E62630")]
+	[Address(RVA = "0x3B48150", Offset = "0x3B48150", VA = "0x3B48150")]
 	private static ulong sigma_0(ulong x)
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x6001A77")]
-	[Address(RVA = "0x4E62690", Offset = "0x4E62690", VA = "0x4E62690")]
+	[Address(RVA = "0x3B481B0", Offset = "0x3B481B0", VA = "0x3B481B0")]
 	private static ulong sigma_1(ulong x)
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x6001A78")]
-	[Address(RVA = "0x4E623C0", Offset = "0x4E623C0", VA = "0x4E623C0")]
+	[Address(RVA = "0x3B47EE0", Offset = "0x3B47EE0", VA = "0x3B47EE0")]
 	private unsafe static void SHA384Expand(ulong* x)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MS.Internal.Xml.XPath.VariableQuery
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.XPath;
 using System.Xml.Xsl;
 using Il2CppDummyDll;
@@ -15,7 +22,7 @@ internal sealed class VariableQuery : ExtensionQuery
 	public override XPathResultType StaticType
 	{
 		[Token(Token = "0x6001BF6")]
-		[Address(RVA = "0x444C220", Offset = "0x444C220", VA = "0x444C220", Slot = "16")]
+		[Address(RVA = "0x4789980", Offset = "0x4789980", VA = "0x4789980", Slot = "16")]
 		get
 		{
 			return default(XPathResultType);
@@ -23,32 +30,32 @@ internal sealed class VariableQuery : ExtensionQuery
 	}
 
 	[Token(Token = "0x6001BF2")]
-	[Address(RVA = "0x4448B90", Offset = "0x4448B90", VA = "0x4448B90")]
+	[Address(RVA = "0x47862F0", Offset = "0x47862F0", VA = "0x47862F0")]
 	public VariableQuery(string name, string prefix)
 	{
 	}
 
 	[Token(Token = "0x6001BF3")]
-	[Address(RVA = "0x444C020", Offset = "0x444C020", VA = "0x444C020")]
+	[Address(RVA = "0x4789780", Offset = "0x4789780", VA = "0x4789780")]
 	private VariableQuery(VariableQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001BF4")]
-	[Address(RVA = "0x444C060", Offset = "0x444C060", VA = "0x444C060", Slot = "13")]
+	[Address(RVA = "0x47897C0", Offset = "0x47897C0", VA = "0x47897C0", Slot = "13")]
 	public override void SetXsltContext(XsltContext context)
 	{
 	}
 
 	[Token(Token = "0x6001BF5")]
-	[Address(RVA = "0x444C120", Offset = "0x444C120", VA = "0x444C120", Slot = "14")]
+	[Address(RVA = "0x4789880", Offset = "0x4789880", VA = "0x4789880", Slot = "14")]
 	public override object Evaluate(XPathNodeIterator nodeIterator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BF7")]
-	[Address(RVA = "0x444C300", Offset = "0x444C300", VA = "0x444C300", Slot = "6")]
+	[Address(RVA = "0x4789A60", Offset = "0x4789A60", VA = "0x4789A60", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

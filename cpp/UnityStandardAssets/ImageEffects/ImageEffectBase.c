@@ -1,40 +1,59 @@
 // Type: UnityStandardAssets.ImageEffects.ImageEffectBase
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/StandardAssets.Effects/UnityStandardAssets.ImageEffects/ImageEffectBase.cs
-// Prior real C# source (REFERENCE, outdated): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs  [prior source available (delta unverified)]
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs
 // --------------------------------
 
 // UnityStandardAssets.ImageEffects.ImageEffectBase$$Start
 // il2cpp: void UnityStandardAssets_ImageEffects_ImageEffectBase__Start (UnityStandardAssets_ImageEffects_ImageEffectBase_o* __this, const MethodInfo* method);
-// 0x425dc30
+// 0x4582d30
 
 void UnityStandardAssets_ImageEffects_ImageEffectBase__Start
                (UnityStandardAssets_ImageEffects_MotionBlur_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_Object_o *exists;
+  UnityEngine_Object_o *pUVar1;
+  bool_conflict bVar2;
   UnityEngine_Shader_o *__this_00;
-  bool_conflict bVar1;
   
-  if (DAT_0570525b == '\0') {
-    il2cpp_init_method_metadata();
-    DAT_0570525b = '\x01';
+  if (g_data_057af0d7 == '\0') {
+    il2cpp_runtime_helper_023445d0();
+    g_data_057af0d7 = '\x01';
   }
-  bVar1 = UnityEngine_SystemInfo__get_supportsImageEffects((MethodInfo *)0x0);
-  if ((char)bVar1 != '\0') {
-    exists = (UnityEngine_Object_o *)(__this->fields).shader;
+  bVar2 = UnityEngine_SystemInfo__get_supportsImageEffects((MethodInfo *)0x0);
+  if ((char)bVar2 != '\0') {
+    pUVar1 = (UnityEngine_Object_o *)(__this->fields).shader;
     if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_init_class();
+      il2cpp_runtime_helper_02337ed0();
     }
-    bVar1 = UnityEngine_Object__op_Implicit(exists,(MethodInfo *)0x0);
-    if ((char)bVar1 != '\0') {
+    bVar2 = UnityEngine_Object__op_Implicit(pUVar1,(MethodInfo *)0x0);
+    if ((char)bVar2 != '\0') {
       __this_00 = (__this->fields).shader;
       if (__this_00 == (UnityEngine_Shader_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-        il2cpp_raise_exception();
+        il2cpp_runtime_helper_022b2c90();
+        if (g_data_057af0d9 == '\0') {
+          il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
+          g_data_057af0d9 = '\x01';
+        }
+        pUVar1 = (UnityEngine_Object_o *)__this_00[1].fields.m_CachedPtr;
+        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
+          il2cpp_runtime_helper_02337ed0();
+        }
+        bVar2 = UnityEngine_Object__op_Implicit(pUVar1,(MethodInfo *)0x0);
+        if ((char)bVar2 != '\0') {
+          pUVar1 = (UnityEngine_Object_o *)__this_00[1].fields.m_CachedPtr;
+          if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
+            il2cpp_runtime_helper_02337ed0();
+          }
+          UnityEngine_Object__DestroyImmediate_4e01e00(pUVar1,(MethodInfo *)0x0);
+          return;
+        }
+        return;
       }
-      bVar1 = UnityEngine_Shader__get_isSupported(__this_00,(MethodInfo *)0x0);
-      if ((char)bVar1 != '\0') {
+      bVar2 = UnityEngine_Shader__get_isSupported(__this_00,(MethodInfo *)0x0);
+      if ((char)bVar2 != '\0') {
         return;
       }
     }
@@ -46,7 +65,7 @@ void UnityStandardAssets_ImageEffects_ImageEffectBase__Start
 
 // UnityStandardAssets.ImageEffects.ImageEffectBase$$get_material
 // il2cpp: UnityEngine_Material_o* UnityStandardAssets_ImageEffects_ImageEffectBase__get_material (UnityStandardAssets_ImageEffects_ImageEffectBase_o* __this, const MethodInfo* method);
-// 0x425b6d0
+// 0x45807d0
 
 UnityEngine_Material_o *
 UnityStandardAssets_ImageEffects_ImageEffectBase__get_material
@@ -54,34 +73,37 @@ UnityStandardAssets_ImageEffects_ImageEffectBase__get_material
 
 {
   UnityEngine_Material_o **ppUVar1;
-  UnityEngine_Object_o *pUVar2;
+  UnityEngine_Object_o *x;
   UnityEngine_Shader_o *shader;
-  bool_conflict bVar3;
+  bool_conflict bVar2;
   UnityEngine_Material_o *__this_00;
+  UnityEngine_Material_o *extraout_RAX;
+  UnityEngine_MonoBehaviour_o *__this_01;
   
-  if (DAT_0570525c == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_Material);
-    il2cpp_init_method_metadata(&TypeInfo_Object);
-    DAT_0570525c = '\x01';
+  if (g_data_057af0d8 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Material);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
+    g_data_057af0d8 = '\x01';
   }
-  pUVar2 = (UnityEngine_Object_o *)(__this->fields).m_Material;
+  x = (UnityEngine_Object_o *)(__this->fields).m_Material;
   if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
   ppUVar1 = &(__this->fields).m_Material;
-  bVar3 = UnityEngine_Object__op_Equality(pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
+  bVar2 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if ((char)bVar2 != '\0') {
     shader = (__this->fields).shader;
-    __this_00 = (UnityEngine_Material_o *)il2cpp_runtime_glue(TypeInfo_Material);
+    __this_00 = (UnityEngine_Material_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Material);
     UnityEngine_Material___ctor(__this_00,shader,(MethodInfo *)0x0);
     (__this->fields).m_Material = __this_00;
-    il2cpp_runtime_glue(ppUVar1,__this_00);
-    pUVar2 = (UnityEngine_Object_o *)(__this->fields).m_Material;
-    if (pUVar2 == (UnityEngine_Object_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
+    il2cpp_runtime_helper_022b4080(ppUVar1);
+    __this_01 = (UnityEngine_MonoBehaviour_o *)(__this->fields).m_Material;
+    if (__this_01 == (UnityEngine_MonoBehaviour_o *)0x0) {
+      il2cpp_runtime_helper_022b2c90();
+      UnityEngine_MonoBehaviour___ctor(__this_01,(MethodInfo *)0x0);
+      return extraout_RAX;
     }
-    UnityEngine_Object__set_hideFlags(pUVar2,0x3d,(MethodInfo *)0x0);
+    UnityEngine_Object__set_hideFlags((UnityEngine_Object_o *)__this_01,0x3d,(MethodInfo *)0x0);
   }
   return *ppUVar1;
 }
@@ -89,7 +111,7 @@ UnityStandardAssets_ImageEffects_ImageEffectBase__get_material
 
 // UnityStandardAssets.ImageEffects.ImageEffectBase$$OnDisable
 // il2cpp: void UnityStandardAssets_ImageEffects_ImageEffectBase__OnDisable (UnityStandardAssets_ImageEffects_ImageEffectBase_o* __this, const MethodInfo* method);
-// 0x425dcc0
+// 0x4582dc0
 
 void UnityStandardAssets_ImageEffects_ImageEffectBase__OnDisable
                (UnityStandardAssets_ImageEffects_ImageEffectBase_o *__this,MethodInfo *method)
@@ -98,21 +120,21 @@ void UnityStandardAssets_ImageEffects_ImageEffectBase__OnDisable
   UnityEngine_Object_o *pUVar1;
   bool_conflict bVar2;
   
-  if (DAT_0570525d == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_Object);
-    DAT_0570525d = '\x01';
+  if (g_data_057af0d9 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
+    g_data_057af0d9 = '\x01';
   }
   pUVar1 = (UnityEngine_Object_o *)(__this->fields).m_Material;
   if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
   bVar2 = UnityEngine_Object__op_Implicit(pUVar1,(MethodInfo *)0x0);
   if ((char)bVar2 != '\0') {
     pUVar1 = (UnityEngine_Object_o *)(__this->fields).m_Material;
     if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_init_class();
+      il2cpp_runtime_helper_02337ed0();
     }
-    UnityEngine_Object__DestroyImmediate(pUVar1,(MethodInfo *)0x0);
+    UnityEngine_Object__DestroyImmediate_4e01e00(pUVar1,(MethodInfo *)0x0);
     return;
   }
   return;
@@ -121,7 +143,7 @@ void UnityStandardAssets_ImageEffects_ImageEffectBase__OnDisable
 
 // UnityStandardAssets.ImageEffects.ImageEffectBase$$.ctor
 // il2cpp: void UnityStandardAssets_ImageEffects_ImageEffectBase___ctor (UnityStandardAssets_ImageEffects_ImageEffectBase_o* __this, const MethodInfo* method);
-// 0x425b7b0
+// 0x45808b0
 
 void UnityStandardAssets_ImageEffects_ImageEffectBase___ctor
                (UnityStandardAssets_ImageEffects_ImageEffectBase_o *__this,MethodInfo *method)

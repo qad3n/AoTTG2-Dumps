@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.AesCryptoServiceProvider
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
@@ -9,13 +16,13 @@ public sealed class AesCryptoServiceProvider : Aes
 	public override byte[] IV
 	{
 		[Token(Token = "0x600003F")]
-		[Address(RVA = "0x4167050", Offset = "0x4167050", VA = "0x4167050", Slot = "10")]
+		[Address(RVA = "0x448C150", Offset = "0x448C150", VA = "0x448C150", Slot = "10")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000040")]
-		[Address(RVA = "0x4167060", Offset = "0x4167060", VA = "0x4167060", Slot = "11")]
+		[Address(RVA = "0x448C160", Offset = "0x448C160", VA = "0x448C160", Slot = "11")]
 		set
 		{
 		}
@@ -25,13 +32,13 @@ public sealed class AesCryptoServiceProvider : Aes
 	public override byte[] Key
 	{
 		[Token(Token = "0x6000041")]
-		[Address(RVA = "0x4167070", Offset = "0x4167070", VA = "0x4167070", Slot = "12")]
+		[Address(RVA = "0x448C170", Offset = "0x448C170", VA = "0x448C170", Slot = "12")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000042")]
-		[Address(RVA = "0x4167080", Offset = "0x4167080", VA = "0x4167080", Slot = "13")]
+		[Address(RVA = "0x448C180", Offset = "0x448C180", VA = "0x448C180", Slot = "13")]
 		set
 		{
 		}
@@ -41,13 +48,13 @@ public sealed class AesCryptoServiceProvider : Aes
 	public override int KeySize
 	{
 		[Token(Token = "0x6000043")]
-		[Address(RVA = "0x4167090", Offset = "0x4167090", VA = "0x4167090", Slot = "16")]
+		[Address(RVA = "0x448C190", Offset = "0x448C190", VA = "0x448C190", Slot = "16")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000044")]
-		[Address(RVA = "0x41670A0", Offset = "0x41670A0", VA = "0x41670A0", Slot = "17")]
+		[Address(RVA = "0x448C1A0", Offset = "0x448C1A0", VA = "0x448C1A0", Slot = "17")]
 		set
 		{
 		}
@@ -57,13 +64,13 @@ public sealed class AesCryptoServiceProvider : Aes
 	public override int FeedbackSize
 	{
 		[Token(Token = "0x6000045")]
-		[Address(RVA = "0x41670B0", Offset = "0x41670B0", VA = "0x41670B0", Slot = "8")]
+		[Address(RVA = "0x448C1B0", Offset = "0x448C1B0", VA = "0x448C1B0", Slot = "8")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000046")]
-		[Address(RVA = "0x41670C0", Offset = "0x41670C0", VA = "0x41670C0", Slot = "9")]
+		[Address(RVA = "0x448C1C0", Offset = "0x448C1C0", VA = "0x448C1C0", Slot = "9")]
 		set
 		{
 		}
@@ -73,13 +80,13 @@ public sealed class AesCryptoServiceProvider : Aes
 	public override CipherMode Mode
 	{
 		[Token(Token = "0x6000047")]
-		[Address(RVA = "0x41670D0", Offset = "0x41670D0", VA = "0x41670D0", Slot = "18")]
+		[Address(RVA = "0x448C1D0", Offset = "0x448C1D0", VA = "0x448C1D0", Slot = "18")]
 		get
 		{
 			return default(CipherMode);
 		}
 		[Token(Token = "0x6000048")]
-		[Address(RVA = "0x41670E0", Offset = "0x41670E0", VA = "0x41670E0", Slot = "19")]
+		[Address(RVA = "0x448C1E0", Offset = "0x448C1E0", VA = "0x448C1E0", Slot = "19")]
 		set
 		{
 		}
@@ -89,66 +96,66 @@ public sealed class AesCryptoServiceProvider : Aes
 	public override PaddingMode Padding
 	{
 		[Token(Token = "0x6000049")]
-		[Address(RVA = "0x4167140", Offset = "0x4167140", VA = "0x4167140", Slot = "20")]
+		[Address(RVA = "0x448C240", Offset = "0x448C240", VA = "0x448C240", Slot = "20")]
 		get
 		{
 			return default(PaddingMode);
 		}
 		[Token(Token = "0x600004A")]
-		[Address(RVA = "0x4167150", Offset = "0x4167150", VA = "0x4167150", Slot = "21")]
+		[Address(RVA = "0x448C250", Offset = "0x448C250", VA = "0x448C250", Slot = "21")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x4166610", Offset = "0x4166610", VA = "0x4166610")]
+	[Address(RVA = "0x448B710", Offset = "0x448B710", VA = "0x448B710")]
 	public AesCryptoServiceProvider()
 	{
 	}
 
 	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x4166660", Offset = "0x4166660", VA = "0x4166660", Slot = "27")]
+	[Address(RVA = "0x448B760", Offset = "0x448B760", VA = "0x448B760", Slot = "27")]
 	public override void GenerateIV()
 	{
 	}
 
 	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x4166690", Offset = "0x4166690", VA = "0x4166690", Slot = "26")]
+	[Address(RVA = "0x448B790", Offset = "0x448B790", VA = "0x448B790", Slot = "26")]
 	public override void GenerateKey()
 	{
 	}
 
 	[Token(Token = "0x600003D")]
-	[Address(RVA = "0x41666C0", Offset = "0x41666C0", VA = "0x41666C0", Slot = "25")]
+	[Address(RVA = "0x448B7C0", Offset = "0x448B7C0", VA = "0x448B7C0", Slot = "25")]
 	public override ICryptoTransform CreateDecryptor(byte[] key, byte[] iv)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600003E")]
-	[Address(RVA = "0x4166F70", Offset = "0x4166F70", VA = "0x4166F70", Slot = "23")]
+	[Address(RVA = "0x448C070", Offset = "0x448C070", VA = "0x448C070", Slot = "23")]
 	public override ICryptoTransform CreateEncryptor(byte[] key, byte[] iv)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600004B")]
-	[Address(RVA = "0x4167160", Offset = "0x4167160", VA = "0x4167160", Slot = "24")]
+	[Address(RVA = "0x448C260", Offset = "0x448C260", VA = "0x448C260", Slot = "24")]
 	public override ICryptoTransform CreateDecryptor()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600004C")]
-	[Address(RVA = "0x41671C0", Offset = "0x41671C0", VA = "0x41671C0", Slot = "22")]
+	[Address(RVA = "0x448C2C0", Offset = "0x448C2C0", VA = "0x448C2C0", Slot = "22")]
 	public override ICryptoTransform CreateEncryptor()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600004D")]
-	[Address(RVA = "0x4167220", Offset = "0x4167220", VA = "0x4167220", Slot = "5")]
+	[Address(RVA = "0x448C320", Offset = "0x448C320", VA = "0x448C320", Slot = "5")]
 	protected override void Dispose(bool disposing)
 	{
 	}

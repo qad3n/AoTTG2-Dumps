@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.QmarkNode
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -9,7 +16,7 @@ internal sealed class QmarkNode : InteriorNode
 	public override bool IsNullable
 	{
 		[Token(Token = "0x6000FFA")]
-		[Address(RVA = "0x450B350", Offset = "0x450B350", VA = "0x450B350", Slot = "6")]
+		[Address(RVA = "0x4848AB0", Offset = "0x4848AB0", VA = "0x4848AB0", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -17,13 +24,13 @@ internal sealed class QmarkNode : InteriorNode
 	}
 
 	[Token(Token = "0x6000FF9")]
-	[Address(RVA = "0x450B320", Offset = "0x450B320", VA = "0x450B320", Slot = "5")]
+	[Address(RVA = "0x4848A80", Offset = "0x4848A80", VA = "0x4848A80", Slot = "5")]
 	public override void ConstructPos(BitSet firstpos, BitSet lastpos, BitSet[] followpos)
 	{
 	}
 
 	[Token(Token = "0x6000FFB")]
-	[Address(RVA = "0x450B360", Offset = "0x450B360", VA = "0x450B360")]
+	[Address(RVA = "0x4848AC0", Offset = "0x4848AC0", VA = "0x4848AC0")]
 	public QmarkNode()
 	{
 	}

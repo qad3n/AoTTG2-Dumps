@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.Channels.SinkProviderData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -24,7 +31,7 @@ public class SinkProviderData
 	public IList Children
 	{
 		[Token(Token = "0x6001DAC")]
-		[Address(RVA = "0x4E9CAD0", Offset = "0x4E9CAD0", VA = "0x4E9CAD0")]
+		[Address(RVA = "0x3B825F0", Offset = "0x3B825F0", VA = "0x3B825F0")]
 		get
 		{
 			return null;
@@ -35,7 +42,7 @@ public class SinkProviderData
 	public IDictionary Properties
 	{
 		[Token(Token = "0x6001DAD")]
-		[Address(RVA = "0x4E9CAE0", Offset = "0x4E9CAE0", VA = "0x4E9CAE0")]
+		[Address(RVA = "0x3B82600", Offset = "0x3B82600", VA = "0x3B82600")]
 		get
 		{
 			return null;
@@ -43,7 +50,7 @@ public class SinkProviderData
 	}
 
 	[Token(Token = "0x6001DAB")]
-	[Address(RVA = "0x4E9CA20", Offset = "0x4E9CA20", VA = "0x4E9CA20")]
+	[Address(RVA = "0x3B82540", Offset = "0x3B82540", VA = "0x3B82540")]
 	public SinkProviderData(string name)
 	{
 	}

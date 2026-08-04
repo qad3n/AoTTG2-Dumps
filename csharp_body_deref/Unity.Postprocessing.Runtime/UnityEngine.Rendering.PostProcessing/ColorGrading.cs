@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.ColorGrading
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -253,14 +260,14 @@ public sealed class ColorGrading : PostProcessEffectSettings
 	public SplineParameter lumVsSatCurve;
 
 	[Token(Token = "0x600002F")]
-	[Address(RVA = "0x4811670", Offset = "0x4811670", VA = "0x4811670", Slot = "4")]
+	[Address(RVA = "0x4B36760", Offset = "0x4B36760", VA = "0x4B36760", Slot = "4")]
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x48116C0", Offset = "0x48116C0", VA = "0x48116C0")]
+	[Address(RVA = "0x4B367B0", Offset = "0x4B367B0", VA = "0x4B367B0")]
 	public ColorGrading()
 	{
 	}

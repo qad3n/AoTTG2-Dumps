@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: DG.Tweening.Tween
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using DG.Tweening.Core;
@@ -201,14 +208,14 @@ public abstract class Tween : ABSSequentiable
 	public bool isRelative
 	{
 		[Token(Token = "0x600029B")]
-		[Address(RVA = "0x23098E0", Offset = "0x23098E0", VA = "0x23098E0")]
+		[Address(RVA = "0x23701C0", Offset = "0x23701C0", VA = "0x23701C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600029C")]
-		[Address(RVA = "0x23098F0", Offset = "0x23098F0", VA = "0x23098F0")]
+		[Address(RVA = "0x23701D0", Offset = "0x23701D0", VA = "0x23701D0")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -219,14 +226,14 @@ public abstract class Tween : ABSSequentiable
 	public bool active
 	{
 		[Token(Token = "0x600029D")]
-		[Address(RVA = "0x2309900", Offset = "0x2309900", VA = "0x2309900")]
+		[Address(RVA = "0x23701E0", Offset = "0x23701E0", VA = "0x23701E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600029E")]
-		[Address(RVA = "0x2309910", Offset = "0x2309910", VA = "0x2309910")]
+		[Address(RVA = "0x23701F0", Offset = "0x23701F0", VA = "0x23701F0")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -237,13 +244,13 @@ public abstract class Tween : ABSSequentiable
 	public float fullPosition
 	{
 		[Token(Token = "0x600029F")]
-		[Address(RVA = "0x2309920", Offset = "0x2309920", VA = "0x2309920")]
+		[Address(RVA = "0x2370200", Offset = "0x2370200", VA = "0x2370200")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60002A0")]
-		[Address(RVA = "0x23099B0", Offset = "0x23099B0", VA = "0x23099B0")]
+		[Address(RVA = "0x2370290", Offset = "0x2370290", VA = "0x2370290")]
 		set
 		{
 		}
@@ -253,7 +260,7 @@ public abstract class Tween : ABSSequentiable
 	public bool hasLoops
 	{
 		[Token(Token = "0x60002A1")]
-		[Address(RVA = "0x22F61A0", Offset = "0x22F61A0", VA = "0x22F61A0")]
+		[Address(RVA = "0x235CA80", Offset = "0x235CA80", VA = "0x235CA80")]
 		get
 		{
 			return default(bool);
@@ -264,14 +271,14 @@ public abstract class Tween : ABSSequentiable
 	public bool playedOnce
 	{
 		[Token(Token = "0x60002A2")]
-		[Address(RVA = "0x23099C0", Offset = "0x23099C0", VA = "0x23099C0")]
+		[Address(RVA = "0x23702A0", Offset = "0x23702A0", VA = "0x23702A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002A3")]
-		[Address(RVA = "0x23099D0", Offset = "0x23099D0", VA = "0x23099D0")]
+		[Address(RVA = "0x23702B0", Offset = "0x23702B0", VA = "0x23702B0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -282,14 +289,14 @@ public abstract class Tween : ABSSequentiable
 	public float position
 	{
 		[Token(Token = "0x60002A4")]
-		[Address(RVA = "0x23099E0", Offset = "0x23099E0", VA = "0x23099E0")]
+		[Address(RVA = "0x23702C0", Offset = "0x23702C0", VA = "0x23702C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60002A5")]
-		[Address(RVA = "0x23099F0", Offset = "0x23099F0", VA = "0x23099F0")]
+		[Address(RVA = "0x23702D0", Offset = "0x23702D0", VA = "0x23702D0")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -297,7 +304,7 @@ public abstract class Tween : ABSSequentiable
 	}
 
 	[Token(Token = "0x60002A6")]
-	[Address(RVA = "0x22F7DB0", Offset = "0x22F7DB0", VA = "0x22F7DB0", Slot = "4")]
+	[Address(RVA = "0x235E690", Offset = "0x235E690", VA = "0x235E690", Slot = "4")]
 	internal virtual void Reset()
 	{
 	}
@@ -306,7 +313,7 @@ public abstract class Tween : ABSSequentiable
 	internal abstract bool Validate();
 
 	[Token(Token = "0x60002A8")]
-	[Address(RVA = "0x2309A00", Offset = "0x2309A00", VA = "0x2309A00", Slot = "6")]
+	[Address(RVA = "0x23702E0", Offset = "0x23702E0", VA = "0x23702E0", Slot = "6")]
 	internal virtual float UpdateDelay(float elapsed)
 	{
 		return default(float);
@@ -319,14 +326,14 @@ public abstract class Tween : ABSSequentiable
 	internal abstract bool ApplyTween(float prevPosition, int prevCompletedLoops, int newCompletedSteps, bool useInversePosition, UpdateMode updateMode, UpdateNotice updateNotice);
 
 	[Token(Token = "0x60002AB")]
-	[Address(RVA = "0x2309A10", Offset = "0x2309A10", VA = "0x2309A10")]
+	[Address(RVA = "0x23702F0", Offset = "0x23702F0", VA = "0x23702F0")]
 	internal static bool DoGoto(Tween t, float toPosition, int toCompletedLoops, UpdateMode updateMode)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002AC")]
-	[Address(RVA = "0x22F9160", Offset = "0x22F9160", VA = "0x22F9160")]
+	[Address(RVA = "0x235FA40", Offset = "0x235FA40", VA = "0x235FA40")]
 	internal static bool OnTweenCallback(TweenCallback callback, Tween t)
 	{
 		return default(bool);
@@ -339,7 +346,7 @@ public abstract class Tween : ABSSequentiable
 	}
 
 	[Token(Token = "0x60002AE")]
-	[Address(RVA = "0x22F76A0", Offset = "0x22F76A0", VA = "0x22F76A0")]
+	[Address(RVA = "0x235DF80", Offset = "0x235DF80", VA = "0x235DF80")]
 	protected Tween()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.PanelEventHandler
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 using UnityEngine.EventSystems;
@@ -26,14 +33,14 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public int pointerId
 		{
 			[Token(Token = "0x60005AB")]
-			[Address(RVA = "0x4DCC620", Offset = "0x4DCC620", VA = "0x4DCC620", Slot = "4")]
+			[Address(RVA = "0x50F3F70", Offset = "0x50F3F70", VA = "0x50F3F70", Slot = "4")]
 			[CompilerGenerated]
 			get
 			{
 				return default(int);
 			}
 			[Token(Token = "0x60005AC")]
-			[Address(RVA = "0x4DCC630", Offset = "0x4DCC630", VA = "0x4DCC630")]
+			[Address(RVA = "0x50F3F80", Offset = "0x50F3F80", VA = "0x50F3F80")]
 			[CompilerGenerated]
 			private set
 			{
@@ -44,14 +51,14 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public string pointerType
 		{
 			[Token(Token = "0x60005AD")]
-			[Address(RVA = "0x4DCC640", Offset = "0x4DCC640", VA = "0x4DCC640", Slot = "5")]
+			[Address(RVA = "0x50F3F90", Offset = "0x50F3F90", VA = "0x50F3F90", Slot = "5")]
 			[CompilerGenerated]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x60005AE")]
-			[Address(RVA = "0x4DCC650", Offset = "0x4DCC650", VA = "0x4DCC650")]
+			[Address(RVA = "0x50F3FA0", Offset = "0x50F3FA0", VA = "0x50F3FA0")]
 			[CompilerGenerated]
 			private set
 			{
@@ -62,14 +69,14 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public bool isPrimary
 		{
 			[Token(Token = "0x60005AF")]
-			[Address(RVA = "0x4DCC660", Offset = "0x4DCC660", VA = "0x4DCC660", Slot = "6")]
+			[Address(RVA = "0x50F3FB0", Offset = "0x50F3FB0", VA = "0x50F3FB0", Slot = "6")]
 			[CompilerGenerated]
 			get
 			{
 				return default(bool);
 			}
 			[Token(Token = "0x60005B0")]
-			[Address(RVA = "0x4DCC670", Offset = "0x4DCC670", VA = "0x4DCC670")]
+			[Address(RVA = "0x50F3FC0", Offset = "0x50F3FC0", VA = "0x50F3FC0")]
 			[CompilerGenerated]
 			private set
 			{
@@ -80,14 +87,14 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public int button
 		{
 			[Token(Token = "0x60005B1")]
-			[Address(RVA = "0x4DCC680", Offset = "0x4DCC680", VA = "0x4DCC680", Slot = "7")]
+			[Address(RVA = "0x50F3FD0", Offset = "0x50F3FD0", VA = "0x50F3FD0", Slot = "7")]
 			[CompilerGenerated]
 			get
 			{
 				return default(int);
 			}
 			[Token(Token = "0x60005B2")]
-			[Address(RVA = "0x4DCC690", Offset = "0x4DCC690", VA = "0x4DCC690")]
+			[Address(RVA = "0x50F3FE0", Offset = "0x50F3FE0", VA = "0x50F3FE0")]
 			[CompilerGenerated]
 			private set
 			{
@@ -98,14 +105,14 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public int pressedButtons
 		{
 			[Token(Token = "0x60005B3")]
-			[Address(RVA = "0x4DCC6A0", Offset = "0x4DCC6A0", VA = "0x4DCC6A0", Slot = "8")]
+			[Address(RVA = "0x50F3FF0", Offset = "0x50F3FF0", VA = "0x50F3FF0", Slot = "8")]
 			[CompilerGenerated]
 			get
 			{
 				return default(int);
 			}
 			[Token(Token = "0x60005B4")]
-			[Address(RVA = "0x4DCC6B0", Offset = "0x4DCC6B0", VA = "0x4DCC6B0")]
+			[Address(RVA = "0x50F4000", Offset = "0x50F4000", VA = "0x50F4000")]
 			[CompilerGenerated]
 			private set
 			{
@@ -116,14 +123,14 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public Vector3 position
 		{
 			[Token(Token = "0x60005B5")]
-			[Address(RVA = "0x4DCC6C0", Offset = "0x4DCC6C0", VA = "0x4DCC6C0", Slot = "9")]
+			[Address(RVA = "0x50F4010", Offset = "0x50F4010", VA = "0x50F4010", Slot = "9")]
 			[CompilerGenerated]
 			get
 			{
 				return default(Vector3);
 			}
 			[Token(Token = "0x60005B6")]
-			[Address(RVA = "0x4DCC6D0", Offset = "0x4DCC6D0", VA = "0x4DCC6D0")]
+			[Address(RVA = "0x50F4020", Offset = "0x50F4020", VA = "0x50F4020")]
 			[CompilerGenerated]
 			private set
 			{
@@ -134,14 +141,14 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public Vector3 localPosition
 		{
 			[Token(Token = "0x60005B7")]
-			[Address(RVA = "0x4DCC6E0", Offset = "0x4DCC6E0", VA = "0x4DCC6E0", Slot = "10")]
+			[Address(RVA = "0x50F4030", Offset = "0x50F4030", VA = "0x50F4030", Slot = "10")]
 			[CompilerGenerated]
 			get
 			{
 				return default(Vector3);
 			}
 			[Token(Token = "0x60005B8")]
-			[Address(RVA = "0x4DCC6F0", Offset = "0x4DCC6F0", VA = "0x4DCC6F0")]
+			[Address(RVA = "0x50F4040", Offset = "0x50F4040", VA = "0x50F4040")]
 			[CompilerGenerated]
 			private set
 			{
@@ -152,14 +159,14 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public Vector3 deltaPosition
 		{
 			[Token(Token = "0x60005B9")]
-			[Address(RVA = "0x4DCC700", Offset = "0x4DCC700", VA = "0x4DCC700", Slot = "11")]
+			[Address(RVA = "0x50F4050", Offset = "0x50F4050", VA = "0x50F4050", Slot = "11")]
 			[CompilerGenerated]
 			get
 			{
 				return default(Vector3);
 			}
 			[Token(Token = "0x60005BA")]
-			[Address(RVA = "0x4DCC710", Offset = "0x4DCC710", VA = "0x4DCC710")]
+			[Address(RVA = "0x50F4060", Offset = "0x50F4060", VA = "0x50F4060")]
 			[CompilerGenerated]
 			private set
 			{
@@ -170,14 +177,14 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public float deltaTime
 		{
 			[Token(Token = "0x60005BB")]
-			[Address(RVA = "0x4DCC720", Offset = "0x4DCC720", VA = "0x4DCC720", Slot = "12")]
+			[Address(RVA = "0x50F4070", Offset = "0x50F4070", VA = "0x50F4070", Slot = "12")]
 			[CompilerGenerated]
 			get
 			{
 				return default(float);
 			}
 			[Token(Token = "0x60005BC")]
-			[Address(RVA = "0x4DCC730", Offset = "0x4DCC730", VA = "0x4DCC730")]
+			[Address(RVA = "0x50F4080", Offset = "0x50F4080", VA = "0x50F4080")]
 			[CompilerGenerated]
 			private set
 			{
@@ -188,14 +195,14 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public int clickCount
 		{
 			[Token(Token = "0x60005BD")]
-			[Address(RVA = "0x4DCC740", Offset = "0x4DCC740", VA = "0x4DCC740", Slot = "13")]
+			[Address(RVA = "0x50F4090", Offset = "0x50F4090", VA = "0x50F4090", Slot = "13")]
 			[CompilerGenerated]
 			get
 			{
 				return default(int);
 			}
 			[Token(Token = "0x60005BE")]
-			[Address(RVA = "0x4DCC750", Offset = "0x4DCC750", VA = "0x4DCC750")]
+			[Address(RVA = "0x50F40A0", Offset = "0x50F40A0", VA = "0x50F40A0")]
 			[CompilerGenerated]
 			private set
 			{
@@ -206,14 +213,14 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public float pressure
 		{
 			[Token(Token = "0x60005BF")]
-			[Address(RVA = "0x4DCC760", Offset = "0x4DCC760", VA = "0x4DCC760", Slot = "14")]
+			[Address(RVA = "0x50F40B0", Offset = "0x50F40B0", VA = "0x50F40B0", Slot = "14")]
 			[CompilerGenerated]
 			get
 			{
 				return default(float);
 			}
 			[Token(Token = "0x60005C0")]
-			[Address(RVA = "0x4DCC770", Offset = "0x4DCC770", VA = "0x4DCC770")]
+			[Address(RVA = "0x50F40C0", Offset = "0x50F40C0", VA = "0x50F40C0")]
 			[CompilerGenerated]
 			private set
 			{
@@ -224,14 +231,14 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public float tangentialPressure
 		{
 			[Token(Token = "0x60005C1")]
-			[Address(RVA = "0x4DCC780", Offset = "0x4DCC780", VA = "0x4DCC780", Slot = "15")]
+			[Address(RVA = "0x50F40D0", Offset = "0x50F40D0", VA = "0x50F40D0", Slot = "15")]
 			[CompilerGenerated]
 			get
 			{
 				return default(float);
 			}
 			[Token(Token = "0x60005C2")]
-			[Address(RVA = "0x4DCC790", Offset = "0x4DCC790", VA = "0x4DCC790")]
+			[Address(RVA = "0x50F40E0", Offset = "0x50F40E0", VA = "0x50F40E0")]
 			[CompilerGenerated]
 			private set
 			{
@@ -242,14 +249,14 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public float altitudeAngle
 		{
 			[Token(Token = "0x60005C3")]
-			[Address(RVA = "0x4DCC7A0", Offset = "0x4DCC7A0", VA = "0x4DCC7A0", Slot = "16")]
+			[Address(RVA = "0x50F40F0", Offset = "0x50F40F0", VA = "0x50F40F0", Slot = "16")]
 			[CompilerGenerated]
 			get
 			{
 				return default(float);
 			}
 			[Token(Token = "0x60005C4")]
-			[Address(RVA = "0x4DCC7B0", Offset = "0x4DCC7B0", VA = "0x4DCC7B0")]
+			[Address(RVA = "0x50F4100", Offset = "0x50F4100", VA = "0x50F4100")]
 			[CompilerGenerated]
 			private set
 			{
@@ -260,14 +267,14 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public float azimuthAngle
 		{
 			[Token(Token = "0x60005C5")]
-			[Address(RVA = "0x4DCC7C0", Offset = "0x4DCC7C0", VA = "0x4DCC7C0", Slot = "17")]
+			[Address(RVA = "0x50F4110", Offset = "0x50F4110", VA = "0x50F4110", Slot = "17")]
 			[CompilerGenerated]
 			get
 			{
 				return default(float);
 			}
 			[Token(Token = "0x60005C6")]
-			[Address(RVA = "0x4DCC7D0", Offset = "0x4DCC7D0", VA = "0x4DCC7D0")]
+			[Address(RVA = "0x50F4120", Offset = "0x50F4120", VA = "0x50F4120")]
 			[CompilerGenerated]
 			private set
 			{
@@ -278,14 +285,14 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public float twist
 		{
 			[Token(Token = "0x60005C7")]
-			[Address(RVA = "0x4DCC7E0", Offset = "0x4DCC7E0", VA = "0x4DCC7E0", Slot = "18")]
+			[Address(RVA = "0x50F4130", Offset = "0x50F4130", VA = "0x50F4130", Slot = "18")]
 			[CompilerGenerated]
 			get
 			{
 				return default(float);
 			}
 			[Token(Token = "0x60005C8")]
-			[Address(RVA = "0x4DCC7F0", Offset = "0x4DCC7F0", VA = "0x4DCC7F0")]
+			[Address(RVA = "0x50F4140", Offset = "0x50F4140", VA = "0x50F4140")]
 			[CompilerGenerated]
 			private set
 			{
@@ -296,14 +303,14 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public Vector2 tilt
 		{
 			[Token(Token = "0x60005C9")]
-			[Address(RVA = "0x4DCC800", Offset = "0x4DCC800", VA = "0x4DCC800", Slot = "19")]
+			[Address(RVA = "0x50F4150", Offset = "0x50F4150", VA = "0x50F4150", Slot = "19")]
 			[CompilerGenerated]
 			get
 			{
 				return default(Vector2);
 			}
 			[Token(Token = "0x60005CA")]
-			[Address(RVA = "0x4DCC810", Offset = "0x4DCC810", VA = "0x4DCC810")]
+			[Address(RVA = "0x50F4160", Offset = "0x50F4160", VA = "0x50F4160")]
 			[CompilerGenerated]
 			private set
 			{
@@ -314,14 +321,14 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public PenStatus penStatus
 		{
 			[Token(Token = "0x60005CB")]
-			[Address(RVA = "0x4DCC820", Offset = "0x4DCC820", VA = "0x4DCC820", Slot = "20")]
+			[Address(RVA = "0x50F4170", Offset = "0x50F4170", VA = "0x50F4170", Slot = "20")]
 			[CompilerGenerated]
 			get
 			{
 				return default(PenStatus);
 			}
 			[Token(Token = "0x60005CC")]
-			[Address(RVA = "0x4DCC830", Offset = "0x4DCC830", VA = "0x4DCC830")]
+			[Address(RVA = "0x50F4180", Offset = "0x50F4180", VA = "0x50F4180")]
 			[CompilerGenerated]
 			private set
 			{
@@ -332,14 +339,14 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public Vector2 radius
 		{
 			[Token(Token = "0x60005CD")]
-			[Address(RVA = "0x4DCC840", Offset = "0x4DCC840", VA = "0x4DCC840", Slot = "21")]
+			[Address(RVA = "0x50F4190", Offset = "0x50F4190", VA = "0x50F4190", Slot = "21")]
 			[CompilerGenerated]
 			get
 			{
 				return default(Vector2);
 			}
 			[Token(Token = "0x60005CE")]
-			[Address(RVA = "0x4DCC850", Offset = "0x4DCC850", VA = "0x4DCC850")]
+			[Address(RVA = "0x50F41A0", Offset = "0x50F41A0", VA = "0x50F41A0")]
 			[CompilerGenerated]
 			private set
 			{
@@ -350,14 +357,14 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public Vector2 radiusVariance
 		{
 			[Token(Token = "0x60005CF")]
-			[Address(RVA = "0x4DCC860", Offset = "0x4DCC860", VA = "0x4DCC860", Slot = "22")]
+			[Address(RVA = "0x50F41B0", Offset = "0x50F41B0", VA = "0x50F41B0", Slot = "22")]
 			[CompilerGenerated]
 			get
 			{
 				return default(Vector2);
 			}
 			[Token(Token = "0x60005D0")]
-			[Address(RVA = "0x4DCC870", Offset = "0x4DCC870", VA = "0x4DCC870")]
+			[Address(RVA = "0x50F41C0", Offset = "0x50F41C0", VA = "0x50F41C0")]
 			[CompilerGenerated]
 			private set
 			{
@@ -368,14 +375,14 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public EventModifiers modifiers
 		{
 			[Token(Token = "0x60005D1")]
-			[Address(RVA = "0x4DCC880", Offset = "0x4DCC880", VA = "0x4DCC880", Slot = "23")]
+			[Address(RVA = "0x50F41D0", Offset = "0x50F41D0", VA = "0x50F41D0", Slot = "23")]
 			[CompilerGenerated]
 			get
 			{
 				return default(EventModifiers);
 			}
 			[Token(Token = "0x60005D2")]
-			[Address(RVA = "0x4DCC890", Offset = "0x4DCC890", VA = "0x4DCC890")]
+			[Address(RVA = "0x50F41E0", Offset = "0x50F41E0", VA = "0x50F41E0")]
 			[CompilerGenerated]
 			private set
 			{
@@ -386,7 +393,7 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public bool shiftKey
 		{
 			[Token(Token = "0x60005D3")]
-			[Address(RVA = "0x4DCC8A0", Offset = "0x4DCC8A0", VA = "0x4DCC8A0", Slot = "24")]
+			[Address(RVA = "0x50F41F0", Offset = "0x50F41F0", VA = "0x50F41F0", Slot = "24")]
 			get
 			{
 				return default(bool);
@@ -397,7 +404,7 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public bool ctrlKey
 		{
 			[Token(Token = "0x60005D4")]
-			[Address(RVA = "0x4DCC8B0", Offset = "0x4DCC8B0", VA = "0x4DCC8B0", Slot = "25")]
+			[Address(RVA = "0x50F4200", Offset = "0x50F4200", VA = "0x50F4200", Slot = "25")]
 			get
 			{
 				return default(bool);
@@ -408,7 +415,7 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public bool commandKey
 		{
 			[Token(Token = "0x60005D5")]
-			[Address(RVA = "0x4DCC8C0", Offset = "0x4DCC8C0", VA = "0x4DCC8C0", Slot = "26")]
+			[Address(RVA = "0x50F4210", Offset = "0x50F4210", VA = "0x50F4210", Slot = "26")]
 			get
 			{
 				return default(bool);
@@ -419,7 +426,7 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public bool altKey
 		{
 			[Token(Token = "0x60005D6")]
-			[Address(RVA = "0x4DCC8D0", Offset = "0x4DCC8D0", VA = "0x4DCC8D0", Slot = "27")]
+			[Address(RVA = "0x50F4220", Offset = "0x50F4220", VA = "0x50F4220", Slot = "27")]
 			get
 			{
 				return default(bool);
@@ -430,7 +437,7 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		public bool actionKey
 		{
 			[Token(Token = "0x60005D7")]
-			[Address(RVA = "0x4DCC8E0", Offset = "0x4DCC8E0", VA = "0x4DCC8E0", Slot = "28")]
+			[Address(RVA = "0x50F4230", Offset = "0x50F4230", VA = "0x50F4230", Slot = "28")]
 			get
 			{
 				return default(bool);
@@ -438,19 +445,19 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 		}
 
 		[Token(Token = "0x60005D8")]
-		[Address(RVA = "0x4DCBFD0", Offset = "0x4DCBFD0", VA = "0x4DCBFD0")]
+		[Address(RVA = "0x50F3920", Offset = "0x50F3920", VA = "0x50F3920")]
 		public void Read(PanelEventHandler self, PointerEventData eventData, PointerEventType eventType)
 		{
 		}
 
 		[Token(Token = "0x60005D9")]
-		[Address(RVA = "0x4DCC540", Offset = "0x4DCC540", VA = "0x4DCC540")]
+		[Address(RVA = "0x50F3E90", Offset = "0x50F3E90", VA = "0x50F3E90")]
 		public void SetPosition(Vector3 positionOverride, Vector3 deltaOverride)
 		{
 		}
 
 		[Token(Token = "0x60005DA")]
-		[Address(RVA = "0x4DCC600", Offset = "0x4DCC600", VA = "0x4DCC600")]
+		[Address(RVA = "0x50F3F50", Offset = "0x50F3F50", VA = "0x50F3F50")]
 		public PointerEvent()
 		{
 		}
@@ -480,13 +487,13 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 	public IPanel panel
 	{
 		[Token(Token = "0x6000587")]
-		[Address(RVA = "0x4DC9570", Offset = "0x4DC9570", VA = "0x4DC9570", Slot = "29")]
+		[Address(RVA = "0x50F0EC0", Offset = "0x50F0EC0", VA = "0x50F0EC0", Slot = "29")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000588")]
-		[Address(RVA = "0x4DC9580", Offset = "0x4DC9580", VA = "0x4DC9580", Slot = "28")]
+		[Address(RVA = "0x50F0ED0", Offset = "0x50F0ED0", VA = "0x50F0ED0", Slot = "28")]
 		set
 		{
 		}
@@ -496,7 +503,7 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 	private GameObject selectableGameObject
 	{
 		[Token(Token = "0x6000589")]
-		[Address(RVA = "0x4DC9960", Offset = "0x4DC9960", VA = "0x4DC9960")]
+		[Address(RVA = "0x50F12B0", Offset = "0x50F12B0", VA = "0x50F12B0")]
 		get
 		{
 			return null;
@@ -507,7 +514,7 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 	private EventSystem eventSystem
 	{
 		[Token(Token = "0x600058A")]
-		[Address(RVA = "0x4DC9980", Offset = "0x4DC9980", VA = "0x4DC9980")]
+		[Address(RVA = "0x50F12D0", Offset = "0x50F12D0", VA = "0x50F12D0")]
 		get
 		{
 			return null;
@@ -518,7 +525,7 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 	private bool isCurrentFocusedPanel
 	{
 		[Token(Token = "0x600058B")]
-		[Address(RVA = "0x4DC9AA0", Offset = "0x4DC9AA0", VA = "0x4DC9AA0")]
+		[Address(RVA = "0x50F13F0", Offset = "0x50F13F0", VA = "0x50F13F0")]
 		get
 		{
 			return default(bool);
@@ -529,7 +536,7 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 	private Focusable currentFocusedElement
 	{
 		[Token(Token = "0x600058C")]
-		[Address(RVA = "0x4DC9B70", Offset = "0x4DC9B70", VA = "0x4DC9B70")]
+		[Address(RVA = "0x50F14C0", Offset = "0x50F14C0", VA = "0x50F14C0")]
 		get
 		{
 			return null;
@@ -537,182 +544,182 @@ public class PanelEventHandler : UIBehaviour, IPointerMoveHandler, IEventSystemH
 	}
 
 	[Token(Token = "0x600058D")]
-	[Address(RVA = "0x4DC9BB0", Offset = "0x4DC9BB0", VA = "0x4DC9BB0", Slot = "5")]
+	[Address(RVA = "0x50F1500", Offset = "0x50F1500", VA = "0x50F1500", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x600058E")]
-	[Address(RVA = "0x4DC9BD0", Offset = "0x4DC9BD0", VA = "0x4DC9BD0", Slot = "7")]
+	[Address(RVA = "0x50F1520", Offset = "0x50F1520", VA = "0x50F1520", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x600058F")]
-	[Address(RVA = "0x4DC97C0", Offset = "0x4DC97C0", VA = "0x4DC97C0")]
+	[Address(RVA = "0x50F1110", Offset = "0x50F1110", VA = "0x50F1110")]
 	private void RegisterCallbacks()
 	{
 	}
 
 	[Token(Token = "0x6000590")]
-	[Address(RVA = "0x4DC9620", Offset = "0x4DC9620", VA = "0x4DC9620")]
+	[Address(RVA = "0x50F0F70", Offset = "0x50F0F70", VA = "0x50F0F70")]
 	private void UnregisterCallbacks()
 	{
 	}
 
 	[Token(Token = "0x6000591")]
-	[Address(RVA = "0x4DC9BF0", Offset = "0x4DC9BF0", VA = "0x4DC9BF0")]
+	[Address(RVA = "0x50F1540", Offset = "0x50F1540", VA = "0x50F1540")]
 	private void OnPanelDestroyed()
 	{
 	}
 
 	[Token(Token = "0x6000592")]
-	[Address(RVA = "0x4DC9C50", Offset = "0x4DC9C50", VA = "0x4DC9C50")]
+	[Address(RVA = "0x50F15A0", Offset = "0x50F15A0", VA = "0x50F15A0")]
 	private void OnElementFocus(FocusEvent e)
 	{
 	}
 
 	[Token(Token = "0x6000593")]
-	[Address(RVA = "0x4DC9E10", Offset = "0x4DC9E10", VA = "0x4DC9E10")]
+	[Address(RVA = "0x50F1760", Offset = "0x50F1760", VA = "0x50F1760")]
 	private void OnElementBlur(BlurEvent e)
 	{
 	}
 
 	[Token(Token = "0x6000594")]
-	[Address(RVA = "0x4DC9E20", Offset = "0x4DC9E20", VA = "0x4DC9E20", Slot = "24")]
+	[Address(RVA = "0x50F1770", Offset = "0x50F1770", VA = "0x50F1770", Slot = "24")]
 	public void OnSelect(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000595")]
-	[Address(RVA = "0x4DC9EA0", Offset = "0x4DC9EA0", VA = "0x4DC9EA0", Slot = "25")]
+	[Address(RVA = "0x50F17F0", Offset = "0x50F17F0", VA = "0x50F17F0", Slot = "25")]
 	public void OnDeselect(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000596")]
-	[Address(RVA = "0x4DC9EC0", Offset = "0x4DC9EC0", VA = "0x4DC9EC0", Slot = "17")]
+	[Address(RVA = "0x50F1810", Offset = "0x50F1810", VA = "0x50F1810", Slot = "17")]
 	public void OnPointerMove(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000597")]
-	[Address(RVA = "0x4DCA290", Offset = "0x4DCA290", VA = "0x4DCA290", Slot = "18")]
+	[Address(RVA = "0x50F1BE0", Offset = "0x50F1BE0", VA = "0x50F1BE0", Slot = "18")]
 	public void OnPointerUp(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000598")]
-	[Address(RVA = "0x4DCA510", Offset = "0x4DCA510", VA = "0x4DCA510", Slot = "19")]
+	[Address(RVA = "0x50F1E60", Offset = "0x50F1E60", VA = "0x50F1E60", Slot = "19")]
 	public void OnPointerDown(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000599")]
-	[Address(RVA = "0x4DCA860", Offset = "0x4DCA860", VA = "0x4DCA860", Slot = "26")]
+	[Address(RVA = "0x50F21B0", Offset = "0x50F21B0", VA = "0x50F21B0", Slot = "26")]
 	public void OnPointerExit(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x600059A")]
-	[Address(RVA = "0x4DCAB70", Offset = "0x4DCAB70", VA = "0x4DCAB70", Slot = "27")]
+	[Address(RVA = "0x50F24C0", Offset = "0x50F24C0", VA = "0x50F24C0", Slot = "27")]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x600059B")]
-	[Address(RVA = "0x4DCABC0", Offset = "0x4DCABC0", VA = "0x4DCABC0", Slot = "20")]
+	[Address(RVA = "0x50F2510", Offset = "0x50F2510", VA = "0x50F2510", Slot = "20")]
 	public void OnSubmit(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x600059C")]
-	[Address(RVA = "0x4DCB010", Offset = "0x4DCB010", VA = "0x4DCB010", Slot = "21")]
+	[Address(RVA = "0x50F2960", Offset = "0x50F2960", VA = "0x50F2960", Slot = "21")]
 	public void OnCancel(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x600059D")]
-	[Address(RVA = "0x4DCB2A0", Offset = "0x4DCB2A0", VA = "0x4DCB2A0", Slot = "22")]
+	[Address(RVA = "0x50F2BF0", Offset = "0x50F2BF0", VA = "0x50F2BF0", Slot = "22")]
 	public void OnMove(AxisEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x600059E")]
-	[Address(RVA = "0x4DCB550", Offset = "0x4DCB550", VA = "0x4DCB550", Slot = "23")]
+	[Address(RVA = "0x50F2EA0", Offset = "0x50F2EA0", VA = "0x50F2EA0", Slot = "23")]
 	public void OnScroll(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x600059F")]
-	[Address(RVA = "0x4DCA220", Offset = "0x4DCA220", VA = "0x4DCA220")]
+	[Address(RVA = "0x50F1B70", Offset = "0x50F1B70", VA = "0x50F1B70")]
 	private void SendEvent(EventBase e, BaseEventData sourceEventData)
 	{
 	}
 
 	[Token(Token = "0x60005A0")]
-	[Address(RVA = "0x4DCB780", Offset = "0x4DCB780", VA = "0x4DCB780")]
+	[Address(RVA = "0x50F30D0", Offset = "0x50F30D0", VA = "0x50F30D0")]
 	private void SendEvent(EventBase e, Event sourceEvent)
 	{
 	}
 
 	[Token(Token = "0x60005A1")]
-	[Address(RVA = "0x4DCB7E0", Offset = "0x4DCB7E0", VA = "0x4DCB7E0")]
+	[Address(RVA = "0x50F3130", Offset = "0x50F3130", VA = "0x50F3130")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x60005A2")]
-	[Address(RVA = "0x4DCB860", Offset = "0x4DCB860", VA = "0x4DCB860")]
+	[Address(RVA = "0x50F31B0", Offset = "0x50F31B0", VA = "0x50F31B0")]
 	private void LateUpdate()
 	{
 	}
 
 	[Token(Token = "0x60005A3")]
-	[Address(RVA = "0x4DCAE50", Offset = "0x4DCAE50", VA = "0x4DCAE50")]
+	[Address(RVA = "0x50F27A0", Offset = "0x50F27A0", VA = "0x50F27A0")]
 	private void ProcessImguiEvents(Focusable target)
 	{
 	}
 
 	[Token(Token = "0x60005A4")]
-	[Address(RVA = "0x4DCB870", Offset = "0x4DCB870", VA = "0x4DCB870")]
+	[Address(RVA = "0x50F31C0", Offset = "0x50F31C0", VA = "0x50F31C0")]
 	private void ProcessKeyboardEvent(Event e, Focusable target)
 	{
 	}
 
 	[Token(Token = "0x60005A5")]
-	[Address(RVA = "0x4DCB8E0", Offset = "0x4DCB8E0", VA = "0x4DCB8E0")]
+	[Address(RVA = "0x50F3230", Offset = "0x50F3230", VA = "0x50F3230")]
 	private void ProcessTabEvent(Event e, Focusable target)
 	{
 	}
 
 	[Token(Token = "0x60005A6")]
-	[Address(RVA = "0x4DCBD90", Offset = "0x4DCBD90", VA = "0x4DCBD90")]
+	[Address(RVA = "0x50F36E0", Offset = "0x50F36E0", VA = "0x50F36E0")]
 	private void SendTabEvent(Event e, NavigationMoveEvent.Direction direction, Focusable target)
 	{
 	}
 
 	[Token(Token = "0x60005A7")]
-	[Address(RVA = "0x4DCB940", Offset = "0x4DCB940", VA = "0x4DCB940")]
+	[Address(RVA = "0x50F3290", Offset = "0x50F3290", VA = "0x50F3290")]
 	private void SendKeyUpEvent(Event e, Focusable target)
 	{
 	}
 
 	[Token(Token = "0x60005A8")]
-	[Address(RVA = "0x4DCBB60", Offset = "0x4DCBB60", VA = "0x4DCBB60")]
+	[Address(RVA = "0x50F34B0", Offset = "0x50F34B0", VA = "0x50F34B0")]
 	private void SendKeyDownEvent(Event e, Focusable target)
 	{
 	}
 
 	[Token(Token = "0x60005A9")]
-	[Address(RVA = "0x4DCA0D0", Offset = "0x4DCA0D0", VA = "0x4DCA0D0")]
+	[Address(RVA = "0x50F1A20", Offset = "0x50F1A20", VA = "0x50F1A20")]
 	private bool ReadPointerData(PointerEvent pe, PointerEventData eventData, PointerEventType eventType = PointerEventType.Default)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005AA")]
-	[Address(RVA = "0x4DCC560", Offset = "0x4DCC560", VA = "0x4DCC560")]
+	[Address(RVA = "0x50F3EB0", Offset = "0x50F3EB0", VA = "0x50F3EB0")]
 	public PanelEventHandler()
 	{
 	}

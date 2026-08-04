@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XmlSchemaGroupRef
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.Serialization;
 using Il2CppDummyDll;
 
@@ -23,13 +30,13 @@ public class XmlSchemaGroupRef : XmlSchemaParticle
 	public XmlQualifiedName RefName
 	{
 		[Token(Token = "0x6001680")]
-		[Address(RVA = "0x43E77A0", Offset = "0x43E77A0", VA = "0x43E77A0")]
+		[Address(RVA = "0x4724F00", Offset = "0x4724F00", VA = "0x4724F00")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001681")]
-		[Address(RVA = "0x43E4F10", Offset = "0x43E4F10", VA = "0x43E4F10")]
+		[Address(RVA = "0x4722670", Offset = "0x4722670", VA = "0x4722670")]
 		set
 		{
 		}
@@ -40,7 +47,7 @@ public class XmlSchemaGroupRef : XmlSchemaParticle
 	public XmlSchemaGroupBase Particle
 	{
 		[Token(Token = "0x6001682")]
-		[Address(RVA = "0x43E77B0", Offset = "0x43E77B0", VA = "0x43E77B0")]
+		[Address(RVA = "0x4724F10", Offset = "0x4724F10", VA = "0x4724F10")]
 		get
 		{
 			return null;
@@ -52,26 +59,26 @@ public class XmlSchemaGroupRef : XmlSchemaParticle
 	internal XmlSchemaGroup Redefined
 	{
 		[Token(Token = "0x6001684")]
-		[Address(RVA = "0x43E77D0", Offset = "0x43E77D0", VA = "0x43E77D0")]
+		[Address(RVA = "0x4724F30", Offset = "0x4724F30", VA = "0x4724F30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001685")]
-		[Address(RVA = "0x43E77E0", Offset = "0x43E77E0", VA = "0x43E77E0")]
+		[Address(RVA = "0x4724F40", Offset = "0x4724F40", VA = "0x4724F40")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001683")]
-	[Address(RVA = "0x43E77C0", Offset = "0x43E77C0", VA = "0x43E77C0")]
+	[Address(RVA = "0x4724F20", Offset = "0x4724F20", VA = "0x4724F20")]
 	internal void SetParticle(XmlSchemaGroupBase value)
 	{
 	}
 
 	[Token(Token = "0x6001686")]
-	[Address(RVA = "0x43E7800", Offset = "0x43E7800", VA = "0x43E7800")]
+	[Address(RVA = "0x4724F60", Offset = "0x4724F60", VA = "0x4724F60")]
 	public XmlSchemaGroupRef()
 	{
 	}

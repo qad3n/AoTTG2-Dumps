@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.TemporalAntialiasing
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -76,14 +83,14 @@ public sealed class TemporalAntialiasing
 	public Vector2 jitter
 	{
 		[Token(Token = "0x600008B")]
-		[Address(RVA = "0x4821450", Offset = "0x4821450", VA = "0x4821450")]
+		[Address(RVA = "0x4B46540", Offset = "0x4B46540", VA = "0x4B46540")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x600008C")]
-		[Address(RVA = "0x4821460", Offset = "0x4821460", VA = "0x4821460")]
+		[Address(RVA = "0x4B46550", Offset = "0x4B46550", VA = "0x4B46550")]
 		[CompilerGenerated]
 		private set
 		{
@@ -94,14 +101,14 @@ public sealed class TemporalAntialiasing
 	public int sampleIndex
 	{
 		[Token(Token = "0x600008D")]
-		[Address(RVA = "0x4821470", Offset = "0x4821470", VA = "0x4821470")]
+		[Address(RVA = "0x4B46560", Offset = "0x4B46560", VA = "0x4B46560")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600008E")]
-		[Address(RVA = "0x4821480", Offset = "0x4821480", VA = "0x4821480")]
+		[Address(RVA = "0x4B46570", Offset = "0x4B46570", VA = "0x4B46570")]
 		[CompilerGenerated]
 		private set
 		{
@@ -109,78 +116,78 @@ public sealed class TemporalAntialiasing
 	}
 
 	[Token(Token = "0x600008F")]
-	[Address(RVA = "0x4821490", Offset = "0x4821490", VA = "0x4821490")]
+	[Address(RVA = "0x4B46580", Offset = "0x4B46580", VA = "0x4B46580")]
 	public bool IsSupported()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000090")]
-	[Address(RVA = "0x48214B0", Offset = "0x48214B0", VA = "0x48214B0")]
+	[Address(RVA = "0x4B465A0", Offset = "0x4B465A0", VA = "0x4B465A0")]
 	internal DepthTextureMode GetCameraFlags()
 	{
 		return default(DepthTextureMode);
 	}
 
 	[Token(Token = "0x6000091")]
-	[Address(RVA = "0x48214C0", Offset = "0x48214C0", VA = "0x48214C0")]
+	[Address(RVA = "0x4B465B0", Offset = "0x4B465B0", VA = "0x4B465B0")]
 	internal void ResetHistory()
 	{
 	}
 
 	[Token(Token = "0x6000092")]
-	[Address(RVA = "0x48214D0", Offset = "0x48214D0", VA = "0x48214D0")]
+	[Address(RVA = "0x4B465C0", Offset = "0x4B465C0", VA = "0x4B465C0")]
 	private Vector2 GenerateRandomOffset()
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x6000093")]
-	[Address(RVA = "0x4821540", Offset = "0x4821540", VA = "0x4821540")]
+	[Address(RVA = "0x4B46630", Offset = "0x4B46630", VA = "0x4B46630")]
 	public Matrix4x4 GetJitteredProjectionMatrix(Camera camera)
 	{
 		return default(Matrix4x4);
 	}
 
 	[Token(Token = "0x6000094")]
-	[Address(RVA = "0x48217A0", Offset = "0x48217A0", VA = "0x48217A0")]
+	[Address(RVA = "0x4B46890", Offset = "0x4B46890", VA = "0x4B46890")]
 	public void ConfigureJitteredProjectionMatrix(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x6000095")]
-	[Address(RVA = "0x48218B0", Offset = "0x48218B0", VA = "0x48218B0")]
+	[Address(RVA = "0x4B469A0", Offset = "0x4B469A0", VA = "0x4B469A0")]
 	public void ConfigureStereoJitteredProjectionMatrices(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x6000096")]
-	[Address(RVA = "0x4821CD0", Offset = "0x4821CD0", VA = "0x4821CD0")]
+	[Address(RVA = "0x4B46DC0", Offset = "0x4B46DC0", VA = "0x4B46DC0")]
 	private void GenerateHistoryName(RenderTexture rt, int id, PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x6000097")]
-	[Address(RVA = "0x4821DB0", Offset = "0x4821DB0", VA = "0x4821DB0")]
+	[Address(RVA = "0x4B46EA0", Offset = "0x4B46EA0", VA = "0x4B46EA0")]
 	private RenderTexture CheckHistory(int id, PostProcessRenderContext context)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000098")]
-	[Address(RVA = "0x4822370", Offset = "0x4822370", VA = "0x4822370")]
+	[Address(RVA = "0x4B47460", Offset = "0x4B47460", VA = "0x4B47460")]
 	internal void Render(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x6000099")]
-	[Address(RVA = "0x4822820", Offset = "0x4822820", VA = "0x4822820")]
+	[Address(RVA = "0x4B47910", Offset = "0x4B47910", VA = "0x4B47910")]
 	internal void Release()
 	{
 	}
 
 	[Token(Token = "0x600009A")]
-	[Address(RVA = "0x4822970", Offset = "0x4822970", VA = "0x4822970")]
+	[Address(RVA = "0x4B47A60", Offset = "0x4B47A60", VA = "0x4B47A60")]
 	public TemporalAntialiasing()
 	{
 	}

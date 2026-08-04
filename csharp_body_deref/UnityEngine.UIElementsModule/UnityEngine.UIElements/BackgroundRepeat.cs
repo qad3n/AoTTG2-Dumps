@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.BackgroundRepeat
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -25,7 +32,7 @@ public struct BackgroundRepeat : IEquatable<BackgroundRepeat>
 			public override string Name
 			{
 				[Token(Token = "0x6000045")]
-				[Address(RVA = "0x4BE6210", Offset = "0x4BE6210", VA = "0x4BE6210", Slot = "7")]
+				[Address(RVA = "0x4F0DB40", Offset = "0x4F0DB40", VA = "0x4F0DB40", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -34,7 +41,7 @@ public struct BackgroundRepeat : IEquatable<BackgroundRepeat>
 			}
 
 			[Token(Token = "0x6000046")]
-			[Address(RVA = "0x4BE6150", Offset = "0x4BE6150", VA = "0x4BE6150")]
+			[Address(RVA = "0x4F0DA80", Offset = "0x4F0DA80", VA = "0x4F0DA80")]
 			public XProperty()
 			{
 			}
@@ -53,7 +60,7 @@ public struct BackgroundRepeat : IEquatable<BackgroundRepeat>
 			public override string Name
 			{
 				[Token(Token = "0x6000047")]
-				[Address(RVA = "0x4BE6220", Offset = "0x4BE6220", VA = "0x4BE6220", Slot = "7")]
+				[Address(RVA = "0x4F0DB50", Offset = "0x4F0DB50", VA = "0x4F0DB50", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -62,14 +69,14 @@ public struct BackgroundRepeat : IEquatable<BackgroundRepeat>
 			}
 
 			[Token(Token = "0x6000048")]
-			[Address(RVA = "0x4BE61B0", Offset = "0x4BE61B0", VA = "0x4BE61B0")]
+			[Address(RVA = "0x4F0DAE0", Offset = "0x4F0DAE0", VA = "0x4F0DAE0")]
 			public YProperty()
 			{
 			}
 		}
 
 		[Token(Token = "0x6000044")]
-		[Address(RVA = "0x4BE5FD0", Offset = "0x4BE5FD0", VA = "0x4BE5FD0")]
+		[Address(RVA = "0x4F0D900", Offset = "0x4F0D900", VA = "0x4F0D900")]
 		public PropertyBag()
 		{
 		}
@@ -84,55 +91,55 @@ public struct BackgroundRepeat : IEquatable<BackgroundRepeat>
 	public Repeat y;
 
 	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x4BE57E0", Offset = "0x4BE57E0", VA = "0x4BE57E0")]
+	[Address(RVA = "0x4F0D110", Offset = "0x4F0D110", VA = "0x4F0D110")]
 	public BackgroundRepeat(Repeat repeatX, Repeat repeatY)
 	{
 	}
 
 	[Token(Token = "0x600003D")]
-	[Address(RVA = "0x4BE5E40", Offset = "0x4BE5E40", VA = "0x4BE5E40")]
+	[Address(RVA = "0x4F0D770", Offset = "0x4F0D770", VA = "0x4F0D770")]
 	internal static BackgroundRepeat Initial()
 	{
 		return default(BackgroundRepeat);
 	}
 
 	[Token(Token = "0x600003E")]
-	[Address(RVA = "0x4BE5E50", Offset = "0x4BE5E50", VA = "0x4BE5E50", Slot = "0")]
+	[Address(RVA = "0x4F0D780", Offset = "0x4F0D780", VA = "0x4F0D780", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600003F")]
-	[Address(RVA = "0x4BE5EC0", Offset = "0x4BE5EC0", VA = "0x4BE5EC0", Slot = "4")]
+	[Address(RVA = "0x4F0D7F0", Offset = "0x4F0D7F0", VA = "0x4F0D7F0", Slot = "4")]
 	public bool Equals(BackgroundRepeat other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000040")]
-	[Address(RVA = "0x4BE5EE0", Offset = "0x4BE5EE0", VA = "0x4BE5EE0", Slot = "2")]
+	[Address(RVA = "0x4F0D810", Offset = "0x4F0D810", VA = "0x4F0D810", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x4BE5DC0", Offset = "0x4BE5DC0", VA = "0x4BE5DC0")]
+	[Address(RVA = "0x4F0D6F0", Offset = "0x4F0D6F0", VA = "0x4F0D6F0")]
 	public static bool operator ==(BackgroundRepeat style1, BackgroundRepeat style2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x4BE5F20", Offset = "0x4BE5F20", VA = "0x4BE5F20")]
+	[Address(RVA = "0x4F0D850", Offset = "0x4F0D850", VA = "0x4F0D850")]
 	public static bool operator !=(BackgroundRepeat style1, BackgroundRepeat style2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000043")]
-	[Address(RVA = "0x4BE5F40", Offset = "0x4BE5F40", VA = "0x4BE5F40", Slot = "3")]
+	[Address(RVA = "0x4F0D870", Offset = "0x4F0D870", VA = "0x4F0D870", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

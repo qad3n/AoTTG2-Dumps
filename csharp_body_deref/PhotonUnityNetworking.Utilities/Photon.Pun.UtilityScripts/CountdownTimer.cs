@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Pun.UtilityScripts.CountdownTimer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/UtilityScripts/Room/CountdownTimer.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using ExitGames.Client.Photon;
 using Il2CppDummyDll;
@@ -37,13 +44,13 @@ public class CountdownTimer : MonoBehaviourPunCallbacks
 	public static event CountdownTimerHasExpired OnCountdownTimerHasExpired
 	{
 		[Token(Token = "0x60000C4")]
-		[Address(RVA = "0x3BF25A0", Offset = "0x3BF25A0", VA = "0x3BF25A0")]
+		[Address(RVA = "0x3F0AA70", Offset = "0x3F0AA70", VA = "0x3F0AA70")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60000C5")]
-		[Address(RVA = "0x3BF2640", Offset = "0x3BF2640", VA = "0x3BF2640")]
+		[Address(RVA = "0x3F0AB10", Offset = "0x3F0AB10", VA = "0x3F0AB10")]
 		[CompilerGenerated]
 		remove
 		{
@@ -51,75 +58,75 @@ public class CountdownTimer : MonoBehaviourPunCallbacks
 	}
 
 	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x3BF26E0", Offset = "0x3BF26E0", VA = "0x3BF26E0")]
+	[Address(RVA = "0x3F0ABB0", Offset = "0x3F0ABB0", VA = "0x3F0ABB0")]
 	public void Start()
 	{
 	}
 
 	[Token(Token = "0x60000C7")]
-	[Address(RVA = "0x3BF2790", Offset = "0x3BF2790", VA = "0x3BF2790", Slot = "28")]
+	[Address(RVA = "0x3F0AC60", Offset = "0x3F0AC60", VA = "0x3F0AC60", Slot = "28")]
 	public override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60000C8")]
-	[Address(RVA = "0x3BF2AC0", Offset = "0x3BF2AC0", VA = "0x3BF2AC0", Slot = "29")]
+	[Address(RVA = "0x3F0AF90", Offset = "0x3F0AF90", VA = "0x3F0AF90", Slot = "29")]
 	public override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x60000C9")]
-	[Address(RVA = "0x3BF2B20", Offset = "0x3BF2B20", VA = "0x3BF2B20")]
+	[Address(RVA = "0x3F0AFF0", Offset = "0x3F0AFF0", VA = "0x3F0AFF0")]
 	public void Update()
 	{
 	}
 
 	[Token(Token = "0x60000CA")]
-	[Address(RVA = "0x3BF2D80", Offset = "0x3BF2D80", VA = "0x3BF2D80")]
+	[Address(RVA = "0x3F0B250", Offset = "0x3F0B250", VA = "0x3F0B250")]
 	private void OnTimerRuns()
 	{
 	}
 
 	[Token(Token = "0x60000CB")]
-	[Address(RVA = "0x3BF2C90", Offset = "0x3BF2C90", VA = "0x3BF2C90")]
+	[Address(RVA = "0x3F0B160", Offset = "0x3F0B160", VA = "0x3F0B160")]
 	private void OnTimerEnds()
 	{
 	}
 
 	[Token(Token = "0x60000CC")]
-	[Address(RVA = "0x3BF2D90", Offset = "0x3BF2D90", VA = "0x3BF2D90", Slot = "46")]
+	[Address(RVA = "0x3F0B260", Offset = "0x3F0B260", VA = "0x3F0B260", Slot = "46")]
 	public override void OnRoomPropertiesUpdate(Hashtable propertiesThatChanged)
 	{
 	}
 
 	[Token(Token = "0x60000CD")]
-	[Address(RVA = "0x3BF2800", Offset = "0x3BF2800", VA = "0x3BF2800")]
+	[Address(RVA = "0x3F0ACD0", Offset = "0x3F0ACD0", VA = "0x3F0ACD0")]
 	private void Initialize()
 	{
 	}
 
 	[Token(Token = "0x60000CE")]
-	[Address(RVA = "0x3BF2C30", Offset = "0x3BF2C30", VA = "0x3BF2C30")]
+	[Address(RVA = "0x3F0B100", Offset = "0x3F0B100", VA = "0x3F0B100")]
 	private float TimeRemaining()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60000CF")]
-	[Address(RVA = "0x3BF2E40", Offset = "0x3BF2E40", VA = "0x3BF2E40")]
+	[Address(RVA = "0x3F0B310", Offset = "0x3F0B310", VA = "0x3F0B310")]
 	public static bool TryGetStartTime(out int startTimestamp)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000D0")]
-	[Address(RVA = "0x3BF2F30", Offset = "0x3BF2F30", VA = "0x3BF2F30")]
+	[Address(RVA = "0x3F0B400", Offset = "0x3F0B400", VA = "0x3F0B400")]
 	public static void SetStartTime()
 	{
 	}
 
 	[Token(Token = "0x60000D1")]
-	[Address(RVA = "0x3BF3100", Offset = "0x3BF3100", VA = "0x3BF3100")]
+	[Address(RVA = "0x3F0B5D0", Offset = "0x3F0B5D0", VA = "0x3F0B5D0")]
 	public CountdownTimer()
 	{
 	}

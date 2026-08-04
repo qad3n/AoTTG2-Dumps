@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.LikeNode
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Data;
@@ -14,20 +21,20 @@ internal sealed class LikeNode : BinaryNode
 	private string _pattern;
 
 	[Token(Token = "0x60005BF")]
-	[Address(RVA = "0x426ABE0", Offset = "0x426ABE0", VA = "0x426ABE0")]
+	[Address(RVA = "0x45A8340", Offset = "0x45A8340", VA = "0x45A8340")]
 	internal LikeNode(DataTable table, int op, ExpressionNode left, ExpressionNode right)
 	{
 	}
 
 	[Token(Token = "0x60005C0")]
-	[Address(RVA = "0x426AC40", Offset = "0x426AC40", VA = "0x426AC40", Slot = "7")]
+	[Address(RVA = "0x45A83A0", Offset = "0x45A83A0", VA = "0x45A83A0", Slot = "7")]
 	internal override object Eval(DataRow row, DataRowVersion version)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005C1")]
-	[Address(RVA = "0x426B1B0", Offset = "0x426B1B0", VA = "0x426B1B0")]
+	[Address(RVA = "0x45A8910", Offset = "0x45A8910", VA = "0x45A8910")]
 	internal string AnalyzePattern(string pat)
 	{
 		return null;

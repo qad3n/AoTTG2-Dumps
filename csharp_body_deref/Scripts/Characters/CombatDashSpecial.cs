@@ -1,50 +1,57 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Characters.CombatDashSpecial
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Characters/CombatDashSpecial.c
+// Prior real C# source (older reference): Assets/Scripts/Characters/Human/Specials/CombatDashSpecial.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x20004DA")]
+[Token(Token = "0x200051F")]
 internal class CombatDashSpecial : BaseEmoteSpecial
 {
-	[Token(Token = "0x4001702")]
+	[Token(Token = "0x4001813")]
 	[FieldOffset(Offset = "0x48")]
 	protected float Range;
 
-	[Token(Token = "0x17000981")]
+	[Token(Token = "0x170009EB")]
 	protected override float ActiveTime
 	{
-		[Token(Token = "0x60033BE")]
-		[Address(RVA = "0x3EE7AB0", Offset = "0x3EE7AB0", VA = "0x3EE7AB0", Slot = "14")]
+		[Token(Token = "0x60035CC")]
+		[Address(RVA = "0x41F4370", Offset = "0x41F4370", VA = "0x41F4370", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000982")]
+	[Token(Token = "0x170009EC")]
 	protected override bool GroundedOnly
 	{
-		[Token(Token = "0x60033BF")]
-		[Address(RVA = "0x3EE7AC0", Offset = "0x3EE7AC0", VA = "0x3EE7AC0", Slot = "17")]
+		[Token(Token = "0x60035CD")]
+		[Address(RVA = "0x41F4380", Offset = "0x41F4380", VA = "0x41F4380", Slot = "17")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60033C0")]
-	[Address(RVA = "0x3EE7AD0", Offset = "0x3EE7AD0", VA = "0x3EE7AD0")]
+	[Token(Token = "0x60035CE")]
+	[Address(RVA = "0x41F4390", Offset = "0x41F4390", VA = "0x41F4390")]
 	public CombatDashSpecial(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x60033C1")]
-	[Address(RVA = "0x3EE7AF0", Offset = "0x3EE7AF0", VA = "0x3EE7AF0", Slot = "9")]
+	[Token(Token = "0x60035CF")]
+	[Address(RVA = "0x41F43B0", Offset = "0x41F43B0", VA = "0x41F43B0", Slot = "9")]
 	protected override void Activate()
 	{
 	}
 
-	[Token(Token = "0x60033C2")]
-	[Address(RVA = "0x3EE7D10", Offset = "0x3EE7D10", VA = "0x3EE7D10", Slot = "10")]
+	[Token(Token = "0x60035D0")]
+	[Address(RVA = "0x41F45D0", Offset = "0x41F45D0", VA = "0x41F45D0", Slot = "10")]
 	protected override void Deactivate()
 	{
 	}

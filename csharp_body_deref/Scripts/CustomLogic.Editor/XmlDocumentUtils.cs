@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: CustomLogic.Editor.XmlDocumentUtils
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/CustomLogic/Editor/XmlDocumentUtils.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -11,58 +18,58 @@ using Il2CppDummyDll;
 
 namespace CustomLogic.Editor;
 
-[Token(Token = "0x200046D")]
+[Token(Token = "0x20004B2")]
 public static class XmlDocumentUtils
 {
-	[Token(Token = "0x2000471")]
+	[Token(Token = "0x20004B6")]
 	[CompilerGenerated]
 	private sealed class _003CGetConstructorParamTexts_003Ed__10 : IEnumerable<KeyValuePair<string, string>>, IEnumerable, IEnumerator<KeyValuePair<string, string>>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x400136A")]
+		[Token(Token = "0x4001479")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x400136B")]
+		[Token(Token = "0x400147A")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private KeyValuePair<string, string> _003C_003E2__current;
 
-		[Token(Token = "0x400136C")]
+		[Token(Token = "0x400147B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		private int _003C_003El__initialThreadId;
 
-		[Token(Token = "0x400136D")]
+		[Token(Token = "0x400147C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		private ConstructorInfo ctorInfo;
 
-		[Token(Token = "0x400136E")]
+		[Token(Token = "0x400147D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		public ConstructorInfo _003C_003E3__ctorInfo;
 
-		[Token(Token = "0x400136F")]
+		[Token(Token = "0x400147E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		private Type type;
 
-		[Token(Token = "0x4001370")]
+		[Token(Token = "0x400147F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 		public Type _003C_003E3__type;
 
-		[Token(Token = "0x4001371")]
+		[Token(Token = "0x4001480")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 		private XmlDocument xmlDocument;
 
-		[Token(Token = "0x4001372")]
+		[Token(Token = "0x4001481")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 		public XmlDocument _003C_003E3__xmlDocument;
 
-		[Token(Token = "0x4001373")]
+		[Token(Token = "0x4001482")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 		private IEnumerator _003C_003E7__wrap1;
 
-		[Token(Token = "0x1700090B")]
+		[Token(Token = "0x17000975")]
 		private KeyValuePair<string, string> System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CSystem_002EString_002CSystem_002EString_003E_003E_002ECurrent
 		{
-			[Token(Token = "0x6002F9A")]
-			[Address(RVA = "0x3E78E40", Offset = "0x3E78E40", VA = "0x3E78E40", Slot = "6")]
+			[Token(Token = "0x60031A7")]
+			[Address(RVA = "0x41852F0", Offset = "0x41852F0", VA = "0x41852F0", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -70,11 +77,11 @@ public static class XmlDocumentUtils
 			}
 		}
 
-		[Token(Token = "0x1700090C")]
+		[Token(Token = "0x17000976")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6002F9C")]
-			[Address(RVA = "0x3E78E90", Offset = "0x3E78E90", VA = "0x3E78E90", Slot = "9")]
+			[Token(Token = "0x60031A9")]
+			[Address(RVA = "0x4185340", Offset = "0x4185340", VA = "0x4185340", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -82,50 +89,50 @@ public static class XmlDocumentUtils
 			}
 		}
 
-		[Token(Token = "0x6002F96")]
-		[Address(RVA = "0x3E779F0", Offset = "0x3E779F0", VA = "0x3E779F0")]
+		[Token(Token = "0x60031A3")]
+		[Address(RVA = "0x41849D0", Offset = "0x41849D0", VA = "0x41849D0")]
 		[DebuggerHidden]
 		public _003CGetConstructorParamTexts_003Ed__10(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6002F97")]
-		[Address(RVA = "0x3E78550", Offset = "0x3E78550", VA = "0x3E78550", Slot = "7")]
+		[Token(Token = "0x60031A4")]
+		[Address(RVA = "0x4184A00", Offset = "0x4184A00", VA = "0x4184A00", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6002F98")]
-		[Address(RVA = "0x3E78620", Offset = "0x3E78620", VA = "0x3E78620", Slot = "8")]
+		[Token(Token = "0x60031A5")]
+		[Address(RVA = "0x4184AD0", Offset = "0x4184AD0", VA = "0x4184AD0", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6002F99")]
-		[Address(RVA = "0x3E78D80", Offset = "0x3E78D80", VA = "0x3E78D80")]
+		[Token(Token = "0x60031A6")]
+		[Address(RVA = "0x4185230", Offset = "0x4185230", VA = "0x4185230")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x6002F9B")]
-		[Address(RVA = "0x3E78E50", Offset = "0x3E78E50", VA = "0x3E78E50", Slot = "10")]
+		[Token(Token = "0x60031A8")]
+		[Address(RVA = "0x4185300", Offset = "0x4185300", VA = "0x4185300", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x6002F9D")]
-		[Address(RVA = "0x3E78EE0", Offset = "0x3E78EE0", VA = "0x3E78EE0", Slot = "4")]
+		[Token(Token = "0x60031AA")]
+		[Address(RVA = "0x4185390", Offset = "0x4185390", VA = "0x4185390", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<KeyValuePair<string, string>> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CSystem_002EString_002CSystem_002EString_003E_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002F9E")]
-		[Address(RVA = "0x3E78FA0", Offset = "0x3E78FA0", VA = "0x3E78FA0", Slot = "5")]
+		[Token(Token = "0x60031AB")]
+		[Address(RVA = "0x4185450", Offset = "0x4185450", VA = "0x4185450", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -133,55 +140,55 @@ public static class XmlDocumentUtils
 		}
 	}
 
-	[Token(Token = "0x2000472")]
+	[Token(Token = "0x20004B7")]
 	[CompilerGenerated]
 	private sealed class _003CGetMethodParamTexts_003Ed__9 : IEnumerable<KeyValuePair<string, string>>, IEnumerable, IEnumerator<KeyValuePair<string, string>>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001374")]
+		[Token(Token = "0x4001483")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001375")]
+		[Token(Token = "0x4001484")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private KeyValuePair<string, string> _003C_003E2__current;
 
-		[Token(Token = "0x4001376")]
+		[Token(Token = "0x4001485")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		private int _003C_003El__initialThreadId;
 
-		[Token(Token = "0x4001377")]
+		[Token(Token = "0x4001486")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		private MethodInfo methodInfo;
 
-		[Token(Token = "0x4001378")]
+		[Token(Token = "0x4001487")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		public MethodInfo _003C_003E3__methodInfo;
 
-		[Token(Token = "0x4001379")]
+		[Token(Token = "0x4001488")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		private Type type;
 
-		[Token(Token = "0x400137A")]
+		[Token(Token = "0x4001489")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 		public Type _003C_003E3__type;
 
-		[Token(Token = "0x400137B")]
+		[Token(Token = "0x400148A")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 		private XmlDocument xmlDocument;
 
-		[Token(Token = "0x400137C")]
+		[Token(Token = "0x400148B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 		public XmlDocument _003C_003E3__xmlDocument;
 
-		[Token(Token = "0x400137D")]
+		[Token(Token = "0x400148C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 		private IEnumerator _003C_003E7__wrap1;
 
-		[Token(Token = "0x1700090D")]
+		[Token(Token = "0x17000977")]
 		private KeyValuePair<string, string> System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CSystem_002EString_002CSystem_002EString_003E_003E_002ECurrent
 		{
-			[Token(Token = "0x6002FA3")]
-			[Address(RVA = "0x3E798E0", Offset = "0x3E798E0", VA = "0x3E798E0", Slot = "6")]
+			[Token(Token = "0x60031B0")]
+			[Address(RVA = "0x4185DC0", Offset = "0x4185DC0", VA = "0x4185DC0", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -189,11 +196,11 @@ public static class XmlDocumentUtils
 			}
 		}
 
-		[Token(Token = "0x1700090E")]
+		[Token(Token = "0x17000978")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6002FA5")]
-			[Address(RVA = "0x3E79930", Offset = "0x3E79930", VA = "0x3E79930", Slot = "9")]
+			[Token(Token = "0x60031B2")]
+			[Address(RVA = "0x4185E10", Offset = "0x4185E10", VA = "0x4185E10", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -201,50 +208,50 @@ public static class XmlDocumentUtils
 			}
 		}
 
-		[Token(Token = "0x6002F9F")]
-		[Address(RVA = "0x3E77910", Offset = "0x3E77910", VA = "0x3E77910")]
+		[Token(Token = "0x60031AC")]
+		[Address(RVA = "0x4185460", Offset = "0x4185460", VA = "0x4185460")]
 		[DebuggerHidden]
 		public _003CGetMethodParamTexts_003Ed__9(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6002FA0")]
-		[Address(RVA = "0x3E78FB0", Offset = "0x3E78FB0", VA = "0x3E78FB0", Slot = "7")]
+		[Token(Token = "0x60031AD")]
+		[Address(RVA = "0x4185490", Offset = "0x4185490", VA = "0x4185490", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6002FA1")]
-		[Address(RVA = "0x3E79080", Offset = "0x3E79080", VA = "0x3E79080", Slot = "8")]
+		[Token(Token = "0x60031AE")]
+		[Address(RVA = "0x4185560", Offset = "0x4185560", VA = "0x4185560", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6002FA2")]
-		[Address(RVA = "0x3E79820", Offset = "0x3E79820", VA = "0x3E79820")]
+		[Token(Token = "0x60031AF")]
+		[Address(RVA = "0x4185D00", Offset = "0x4185D00", VA = "0x4185D00")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x6002FA4")]
-		[Address(RVA = "0x3E798F0", Offset = "0x3E798F0", VA = "0x3E798F0", Slot = "10")]
+		[Token(Token = "0x60031B1")]
+		[Address(RVA = "0x4185DD0", Offset = "0x4185DD0", VA = "0x4185DD0", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x6002FA6")]
-		[Address(RVA = "0x3E79980", Offset = "0x3E79980", VA = "0x3E79980", Slot = "4")]
+		[Token(Token = "0x60031B3")]
+		[Address(RVA = "0x4185E60", Offset = "0x4185E60", VA = "0x4185E60", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<KeyValuePair<string, string>> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CSystem_002EString_002CSystem_002EString_003E_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002FA7")]
-		[Address(RVA = "0x3E79A40", Offset = "0x3E79A40", VA = "0x3E79A40", Slot = "5")]
+		[Token(Token = "0x60031B4")]
+		[Address(RVA = "0x4185F20", Offset = "0x4185F20", VA = "0x4185F20", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -253,162 +260,162 @@ public static class XmlDocumentUtils
 	}
 
 	[StructLayout((LayoutKind)3)]
-	[Token(Token = "0x2000473")]
+	[Token(Token = "0x20004B8")]
 	[CompilerGenerated]
 	private struct _003CResolveAndReplaceInheritDocNodeAsync_003Ed__4 : IAsyncStateMachine
 	{
-		[Token(Token = "0x400137E")]
+		[Token(Token = "0x400148D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x400137F")]
+		[Token(Token = "0x400148E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncTaskMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x4001380")]
+		[Token(Token = "0x400148F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public Action<string> logError;
 
-		[Token(Token = "0x4001381")]
+		[Token(Token = "0x4001490")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public XmlDocument xmlDocument;
 
-		[Token(Token = "0x4001382")]
+		[Token(Token = "0x4001491")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		private IEnumerator _003C_003E7__wrap1;
 
-		[Token(Token = "0x4001383")]
+		[Token(Token = "0x4001492")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		private YieldAwaitable.YieldAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x4001384")]
+		[Token(Token = "0x4001493")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		private TaskAwaiter _003C_003Eu__2;
 
-		[Token(Token = "0x6002FA8")]
-		[Address(RVA = "0x3E79A50", Offset = "0x3E79A50", VA = "0x3E79A50", Slot = "4")]
+		[Token(Token = "0x60031B5")]
+		[Address(RVA = "0x4185F30", Offset = "0x4185F30", VA = "0x4185F30", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x6002FA9")]
-		[Address(RVA = "0x3E7A5D0", Offset = "0x3E7A5D0", VA = "0x3E7A5D0", Slot = "5")]
+		[Token(Token = "0x60031B6")]
+		[Address(RVA = "0x4186AB0", Offset = "0x4186AB0", VA = "0x4186AB0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
 		}
 	}
 
-	[Token(Token = "0x4001361")]
+	[Token(Token = "0x4001470")]
 	public const string XmlPath = "Temp/Bin/Debug";
 
-	[Token(Token = "0x4001362")]
+	[Token(Token = "0x4001471")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static readonly List<string> _priorityXml;
 
-	[Token(Token = "0x6002F7C")]
-	[Address(RVA = "0x3E76A80", Offset = "0x3E76A80", VA = "0x3E76A80")]
+	[Token(Token = "0x6003189")]
+	[Address(RVA = "0x4182F70", Offset = "0x4182F70", VA = "0x4182F70")]
 	public static XmlDocument LoadXml(string path)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002F7D")]
-	[Address(RVA = "0x3E76AF0", Offset = "0x3E76AF0", VA = "0x3E76AF0")]
+	[Token(Token = "0x600318A")]
+	[Address(RVA = "0x4182FE0", Offset = "0x4182FE0", VA = "0x4182FE0")]
 	private static XmlNode TryResolve(string cref, string file)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002F7E")]
-	[Address(RVA = "0x3E76C10", Offset = "0x3E76C10", VA = "0x3E76C10")]
+	[Token(Token = "0x600318B")]
+	[Address(RVA = "0x4183100", Offset = "0x4183100", VA = "0x4183100")]
 	[AsyncStateMachine(typeof(_003CResolveAndReplaceInheritDocNodeAsync_003Ed__4))]
 	public static Task ResolveAndReplaceInheritDocNodeAsync(XmlDocument xmlDocument, [Optional] Action<string> logError)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002F7F")]
-	[Address(RVA = "0x3E76D20", Offset = "0x3E76D20", VA = "0x3E76D20")]
+	[Token(Token = "0x600318C")]
+	[Address(RVA = "0x4183210", Offset = "0x4183210", VA = "0x4183210")]
 	private static XmlNode ResolveInheritDoc(string cref)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002F80")]
-	[Address(RVA = "0x3E77060", Offset = "0x3E77060", VA = "0x3E77060")]
+	[Token(Token = "0x600318D")]
+	[Address(RVA = "0x4183550", Offset = "0x4183550", VA = "0x4183550")]
 	public static string GetTypeNodeText(XmlDocument xmlDocument, Type type, string nodeType, string defaultText = "")
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002F81")]
-	[Address(RVA = "0x3E77270", Offset = "0x3E77270", VA = "0x3E77270")]
+	[Token(Token = "0x600318E")]
+	[Address(RVA = "0x4183760", Offset = "0x4183760", VA = "0x4183760")]
 	public static string GetConstructorNodeText(XmlDocument xmlDocument, Type type, ConstructorInfo ctorInfo, string nodeType, string defaultText = "")
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002F82")]
-	[Address(RVA = "0x3E77550", Offset = "0x3E77550", VA = "0x3E77550")]
+	[Token(Token = "0x600318F")]
+	[Address(RVA = "0x4183A40", Offset = "0x4183A40", VA = "0x4183A40")]
 	public static string GetMethodNodeText(XmlDocument xmlDocument, Type type, MethodInfo methodInfo, string nodeType, string defaultText = "")
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002F83")]
-	[Address(RVA = "0x3E77860", Offset = "0x3E77860", VA = "0x3E77860")]
+	[Token(Token = "0x6003190")]
+	[Address(RVA = "0x4183D50", Offset = "0x4183D50", VA = "0x4183D50")]
 	[IteratorStateMachine(typeof(_003CGetMethodParamTexts_003Ed__9))]
 	public static IEnumerable<KeyValuePair<string, string>> GetMethodParamTexts(XmlDocument xmlDocument, Type type, MethodInfo methodInfo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002F84")]
-	[Address(RVA = "0x3E77940", Offset = "0x3E77940", VA = "0x3E77940")]
+	[Token(Token = "0x6003191")]
+	[Address(RVA = "0x4183DF0", Offset = "0x4183DF0", VA = "0x4183DF0")]
 	[IteratorStateMachine(typeof(_003CGetConstructorParamTexts_003Ed__10))]
 	public static IEnumerable<KeyValuePair<string, string>> GetConstructorParamTexts(XmlDocument xmlDocument, Type type, ConstructorInfo ctorInfo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002F85")]
-	[Address(RVA = "0x3E77A20", Offset = "0x3E77A20", VA = "0x3E77A20")]
+	[Token(Token = "0x6003192")]
+	[Address(RVA = "0x4183E90", Offset = "0x4183E90", VA = "0x4183E90")]
 	public static string GetParameterNodeText(XmlDocument xmlDocument, Type type, MethodInfo methodInfo, ParameterInfo parameterInfo, string defaultText = "")
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002F86")]
-	[Address(RVA = "0x3E77B60", Offset = "0x3E77B60", VA = "0x3E77B60")]
+	[Token(Token = "0x6003193")]
+	[Address(RVA = "0x4183FC0", Offset = "0x4183FC0", VA = "0x4183FC0")]
 	public static string GetParameterNodeText(XmlDocument xmlDocument, Type type, ConstructorInfo ctorInfo, ParameterInfo parameterInfo, string defaultText = "")
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002F87")]
-	[Address(RVA = "0x3E77CA0", Offset = "0x3E77CA0", VA = "0x3E77CA0")]
+	[Token(Token = "0x6003194")]
+	[Address(RVA = "0x41840F0", Offset = "0x41840F0", VA = "0x41840F0")]
 	public static string GetPropertyNodeText(XmlDocument xmlDocument, Type type, PropertyInfo property, string nodeType, string defaultText = "")
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002F88")]
-	[Address(RVA = "0x3E77E70", Offset = "0x3E77E70", VA = "0x3E77E70")]
+	[Token(Token = "0x6003195")]
+	[Address(RVA = "0x41842C0", Offset = "0x41842C0", VA = "0x41842C0")]
 	public static string GetFieldNodeText(XmlDocument xmlDocument, Type type, FieldInfo field, string nodeType, string defaultText = "")
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002F89")]
-	[Address(RVA = "0x3E77170", Offset = "0x3E77170", VA = "0x3E77170")]
+	[Token(Token = "0x6003196")]
+	[Address(RVA = "0x4183660", Offset = "0x4183660", VA = "0x4183660")]
 	private static bool TryGetInnerText(XmlNode node, string nodeType, out string innerText)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002F8A")]
-	[Address(RVA = "0x3E78040", Offset = "0x3E78040", VA = "0x3E78040")]
+	[Token(Token = "0x6003197")]
+	[Address(RVA = "0x4184490", Offset = "0x4184490", VA = "0x4184490")]
 	private static bool TrySelectSingleNode(this XmlNode node, string xpath, out XmlNode xNode)
 	{
 		return default(bool);

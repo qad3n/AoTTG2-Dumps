@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.IO.FileStream
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
@@ -88,7 +95,7 @@ public class FileStream : Stream
 	public override bool CanRead
 	{
 		[Token(Token = "0x6002A64")]
-		[Address(RVA = "0x4F496A0", Offset = "0x4F496A0", VA = "0x4F496A0", Slot = "7")]
+		[Address(RVA = "0x3C2F1C0", Offset = "0x3C2F1C0", VA = "0x3C2F1C0", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -99,7 +106,7 @@ public class FileStream : Stream
 	public override bool CanWrite
 	{
 		[Token(Token = "0x6002A65")]
-		[Address(RVA = "0x4F496B0", Offset = "0x4F496B0", VA = "0x4F496B0", Slot = "10")]
+		[Address(RVA = "0x3C2F1D0", Offset = "0x3C2F1D0", VA = "0x3C2F1D0", Slot = "10")]
 		get
 		{
 			return default(bool);
@@ -110,7 +117,7 @@ public class FileStream : Stream
 	public override bool CanSeek
 	{
 		[Token(Token = "0x6002A66")]
-		[Address(RVA = "0x4F496C0", Offset = "0x4F496C0", VA = "0x4F496C0", Slot = "8")]
+		[Address(RVA = "0x3C2F1E0", Offset = "0x3C2F1E0", VA = "0x3C2F1E0", Slot = "8")]
 		get
 		{
 			return default(bool);
@@ -121,7 +128,7 @@ public class FileStream : Stream
 	public virtual string Name
 	{
 		[Token(Token = "0x6002A67")]
-		[Address(RVA = "0x4F496D0", Offset = "0x4F496D0", VA = "0x4F496D0", Slot = "38")]
+		[Address(RVA = "0x3C2F1F0", Offset = "0x3C2F1F0", VA = "0x3C2F1F0", Slot = "38")]
 		get
 		{
 			return null;
@@ -132,7 +139,7 @@ public class FileStream : Stream
 	public override long Length
 	{
 		[Token(Token = "0x6002A68")]
-		[Address(RVA = "0x4F496E0", Offset = "0x4F496E0", VA = "0x4F496E0", Slot = "11")]
+		[Address(RVA = "0x3C2F200", Offset = "0x3C2F200", VA = "0x3C2F200", Slot = "11")]
 		get
 		{
 			return default(long);
@@ -143,13 +150,13 @@ public class FileStream : Stream
 	public override long Position
 	{
 		[Token(Token = "0x6002A69")]
-		[Address(RVA = "0x4F49980", Offset = "0x4F49980", VA = "0x4F49980", Slot = "12")]
+		[Address(RVA = "0x3C2F4A0", Offset = "0x3C2F4A0", VA = "0x3C2F4A0", Slot = "12")]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x6002A6A")]
-		[Address(RVA = "0x4F49AF0", Offset = "0x4F49AF0", VA = "0x4F49AF0", Slot = "13")]
+		[Address(RVA = "0x3C2F610", Offset = "0x3C2F610", VA = "0x3C2F610", Slot = "13")]
 		set
 		{
 		}
@@ -159,7 +166,7 @@ public class FileStream : Stream
 	public virtual SafeFileHandle SafeFileHandle
 	{
 		[Token(Token = "0x6002A6B")]
-		[Address(RVA = "0x4F49B80", Offset = "0x4F49B80", VA = "0x4F49B80", Slot = "39")]
+		[Address(RVA = "0x3C2F6A0", Offset = "0x3C2F6A0", VA = "0x3C2F6A0", Slot = "39")]
 		get
 		{
 			return null;
@@ -167,256 +174,256 @@ public class FileStream : Stream
 	}
 
 	[Token(Token = "0x6002A58")]
-	[Address(RVA = "0x4F46DA0", Offset = "0x4F46DA0", VA = "0x4F46DA0")]
+	[Address(RVA = "0x3C2C8C0", Offset = "0x3C2C8C0", VA = "0x3C2C8C0")]
 	[Obsolete("Use FileStream(SafeFileHandle handle, FileAccess access, int bufferSize) instead")]
 	public FileStream(IntPtr handle, FileAccess access, bool ownsHandle, int bufferSize)
 	{
 	}
 
 	[Token(Token = "0x6002A59")]
-	[Address(RVA = "0x4F46DC0", Offset = "0x4F46DC0", VA = "0x4F46DC0")]
+	[Address(RVA = "0x3C2C8E0", Offset = "0x3C2C8E0", VA = "0x3C2C8E0")]
 	internal FileStream(IntPtr handle, FileAccess access, bool ownsHandle, int bufferSize, bool isAsync, bool isConsoleWrapper)
 	{
 	}
 
 	[Token(Token = "0x6002A5A")]
-	[Address(RVA = "0x4F47250", Offset = "0x4F47250", VA = "0x4F47250")]
+	[Address(RVA = "0x3C2CD70", Offset = "0x3C2CD70", VA = "0x3C2CD70")]
 	public FileStream(string path, FileMode mode, FileAccess access)
 	{
 	}
 
 	[Token(Token = "0x6002A5B")]
-	[Address(RVA = "0x4F472C0", Offset = "0x4F472C0", VA = "0x4F472C0")]
+	[Address(RVA = "0x3C2CDE0", Offset = "0x3C2CDE0", VA = "0x3C2CDE0")]
 	public FileStream(string path, FileMode mode, FileAccess access, FileShare share)
 	{
 	}
 
 	[Token(Token = "0x6002A5C")]
-	[Address(RVA = "0x4F47BD0", Offset = "0x4F47BD0", VA = "0x4F47BD0")]
+	[Address(RVA = "0x3C2D6F0", Offset = "0x3C2D6F0", VA = "0x3C2D6F0")]
 	public FileStream(string path, FileMode mode, FileAccess access, FileShare share, int bufferSize)
 	{
 	}
 
 	[Token(Token = "0x6002A5D")]
-	[Address(RVA = "0x4F47BF0", Offset = "0x4F47BF0", VA = "0x4F47BF0")]
+	[Address(RVA = "0x3C2D710", Offset = "0x3C2D710", VA = "0x3C2D710")]
 	public FileStream(string path, FileMode mode, FileAccess access, FileShare share, int bufferSize, bool useAsync)
 	{
 	}
 
 	[Token(Token = "0x6002A5E")]
-	[Address(RVA = "0x4F47C10", Offset = "0x4F47C10", VA = "0x4F47C10")]
+	[Address(RVA = "0x3C2D730", Offset = "0x3C2D730", VA = "0x3C2D730")]
 	public FileStream(string path, FileMode mode, FileAccess access, FileShare share, int bufferSize, FileOptions options)
 	{
 	}
 
 	[Token(Token = "0x6002A5F")]
-	[Address(RVA = "0x4F47C30", Offset = "0x4F47C30", VA = "0x4F47C30")]
+	[Address(RVA = "0x3C2D750", Offset = "0x3C2D750", VA = "0x3C2D750")]
 	public FileStream(SafeFileHandle handle, FileAccess access)
 	{
 	}
 
 	[Token(Token = "0x6002A60")]
-	[Address(RVA = "0x4F47CD0", Offset = "0x4F47CD0", VA = "0x4F47CD0")]
+	[Address(RVA = "0x3C2D7F0", Offset = "0x3C2D7F0", VA = "0x3C2D7F0")]
 	public FileStream(SafeFileHandle handle, FileAccess access, int bufferSize, bool isAsync)
 	{
 	}
 
 	[Token(Token = "0x6002A61")]
-	[Address(RVA = "0x4F47290", Offset = "0x4F47290", VA = "0x4F47290")]
+	[Address(RVA = "0x3C2CDB0", Offset = "0x3C2CDB0", VA = "0x3C2CDB0")]
 	internal FileStream(string path, FileMode mode, FileAccess access, FileShare share, int bufferSize, bool isAsync, bool anonymous)
 	{
 	}
 
 	[Token(Token = "0x6002A62")]
-	[Address(RVA = "0x4F472E0", Offset = "0x4F472E0", VA = "0x4F472E0")]
+	[Address(RVA = "0x3C2CE00", Offset = "0x3C2CE00", VA = "0x3C2CE00")]
 	internal FileStream(string path, FileMode mode, FileAccess access, FileShare share, int bufferSize, bool anonymous, FileOptions options)
 	{
 	}
 
 	[Token(Token = "0x6002A63")]
-	[Address(RVA = "0x4F46F40", Offset = "0x4F46F40", VA = "0x4F46F40")]
+	[Address(RVA = "0x3C2CA60", Offset = "0x3C2CA60", VA = "0x3C2CA60")]
 	private void Init(SafeFileHandle safeHandle, FileAccess access, bool ownsHandle, int bufferSize, bool isAsync, bool isConsoleWrapper)
 	{
 	}
 
 	[Token(Token = "0x6002A6C")]
-	[Address(RVA = "0x4F494F0", Offset = "0x4F494F0", VA = "0x4F494F0")]
+	[Address(RVA = "0x3C2F010", Offset = "0x3C2F010", VA = "0x3C2F010")]
 	private void ExposeHandle()
 	{
 	}
 
 	[Token(Token = "0x6002A6D")]
-	[Address(RVA = "0x4F49D90", Offset = "0x4F49D90", VA = "0x4F49D90", Slot = "34")]
+	[Address(RVA = "0x3C2F8B0", Offset = "0x3C2F8B0", VA = "0x3C2F8B0", Slot = "34")]
 	public override int ReadByte()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002A6E")]
-	[Address(RVA = "0x4F4A020", Offset = "0x4F4A020", VA = "0x4F4A020", Slot = "37")]
+	[Address(RVA = "0x3C2FB40", Offset = "0x3C2FB40", VA = "0x3C2FB40", Slot = "37")]
 	public override void WriteByte(byte value)
 	{
 	}
 
 	[Token(Token = "0x6002A6F")]
-	[Address(RVA = "0x4F4A160", Offset = "0x4F4A160", VA = "0x4F4A160", Slot = "32")]
+	[Address(RVA = "0x3C2FC80", Offset = "0x3C2FC80", VA = "0x3C2FC80", Slot = "32")]
 	public override int Read([In][Out] byte[] array, int offset, int count)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002A70")]
-	[Address(RVA = "0x4F4A3C0", Offset = "0x4F4A3C0", VA = "0x4F4A3C0")]
+	[Address(RVA = "0x3C2FEE0", Offset = "0x3C2FEE0", VA = "0x3C2FEE0")]
 	private int ReadInternal(byte[] dest, int offset, int count)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002A71")]
-	[Address(RVA = "0x4F4A5D0", Offset = "0x4F4A5D0", VA = "0x4F4A5D0", Slot = "22")]
+	[Address(RVA = "0x3C300F0", Offset = "0x3C300F0", VA = "0x3C300F0", Slot = "22")]
 	public override IAsyncResult BeginRead(byte[] array, int offset, int numBytes, AsyncCallback userCallback, object stateObject)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002A72")]
-	[Address(RVA = "0x4F4AA40", Offset = "0x4F4AA40", VA = "0x4F4AA40", Slot = "23")]
+	[Address(RVA = "0x3C30560", Offset = "0x3C30560", VA = "0x3C30560", Slot = "23")]
 	public override int EndRead(IAsyncResult asyncResult)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002A73")]
-	[Address(RVA = "0x4F4ABE0", Offset = "0x4F4ABE0", VA = "0x4F4ABE0", Slot = "35")]
+	[Address(RVA = "0x3C30700", Offset = "0x3C30700", VA = "0x3C30700", Slot = "35")]
 	public override void Write(byte[] array, int offset, int count)
 	{
 	}
 
 	[Token(Token = "0x6002A74")]
-	[Address(RVA = "0x4F4AE10", Offset = "0x4F4AE10", VA = "0x4F4AE10")]
+	[Address(RVA = "0x3C30930", Offset = "0x3C30930", VA = "0x3C30930")]
 	private void WriteInternal(byte[] src, int offset, int count)
 	{
 	}
 
 	[Token(Token = "0x6002A75")]
-	[Address(RVA = "0x4F4B190", Offset = "0x4F4B190", VA = "0x4F4B190", Slot = "26")]
+	[Address(RVA = "0x3C30CB0", Offset = "0x3C30CB0", VA = "0x3C30CB0", Slot = "26")]
 	public override IAsyncResult BeginWrite(byte[] array, int offset, int numBytes, AsyncCallback userCallback, object stateObject)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002A76")]
-	[Address(RVA = "0x4F4B730", Offset = "0x4F4B730", VA = "0x4F4B730", Slot = "27")]
+	[Address(RVA = "0x3C31250", Offset = "0x3C31250", VA = "0x3C31250", Slot = "27")]
 	public override void EndWrite(IAsyncResult asyncResult)
 	{
 	}
 
 	[Token(Token = "0x6002A77")]
-	[Address(RVA = "0x4F4B880", Offset = "0x4F4B880", VA = "0x4F4B880", Slot = "30")]
+	[Address(RVA = "0x3C313A0", Offset = "0x3C313A0", VA = "0x3C313A0", Slot = "30")]
 	public override long Seek(long offset, SeekOrigin origin)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6002A78")]
-	[Address(RVA = "0x4F4BAE0", Offset = "0x4F4BAE0", VA = "0x4F4BAE0", Slot = "31")]
+	[Address(RVA = "0x3C31600", Offset = "0x3C31600", VA = "0x3C31600", Slot = "31")]
 	public override void SetLength(long value)
 	{
 	}
 
 	[Token(Token = "0x6002A79")]
-	[Address(RVA = "0x4F4BE20", Offset = "0x4F4BE20", VA = "0x4F4BE20", Slot = "20")]
+	[Address(RVA = "0x3C31940", Offset = "0x3C31940", VA = "0x3C31940", Slot = "20")]
 	public override void Flush()
 	{
 	}
 
 	[Token(Token = "0x6002A7A")]
-	[Address(RVA = "0x4F4BE90", Offset = "0x4F4BE90", VA = "0x4F4BE90", Slot = "1")]
+	[Address(RVA = "0x3C319B0", Offset = "0x3C319B0", VA = "0x3C319B0", Slot = "1")]
 	~FileStream()
 	{
 	}
 
 	[Token(Token = "0x6002A7B")]
-	[Address(RVA = "0x4F4BF20", Offset = "0x4F4BF20", VA = "0x4F4BF20", Slot = "19")]
+	[Address(RVA = "0x3C31A40", Offset = "0x3C31A40", VA = "0x3C31A40", Slot = "19")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6002A7C")]
-	[Address(RVA = "0x4F4C2D0", Offset = "0x4F4C2D0", VA = "0x4F4C2D0", Slot = "21")]
+	[Address(RVA = "0x3C31DF0", Offset = "0x3C31DF0", VA = "0x3C31DF0", Slot = "21")]
 	public override Task FlushAsync(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002A7D")]
-	[Address(RVA = "0x4F4C350", Offset = "0x4F4C350", VA = "0x4F4C350", Slot = "24")]
+	[Address(RVA = "0x3C31E70", Offset = "0x3C31E70", VA = "0x3C31E70", Slot = "24")]
 	public override Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002A7E")]
-	[Address(RVA = "0x4F4C360", Offset = "0x4F4C360", VA = "0x4F4C360", Slot = "28")]
+	[Address(RVA = "0x3C31E80", Offset = "0x3C31E80", VA = "0x3C31E80", Slot = "28")]
 	public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002A7F")]
-	[Address(RVA = "0x4F4A530", Offset = "0x4F4A530", VA = "0x4F4A530")]
+	[Address(RVA = "0x3C30050", Offset = "0x3C30050", VA = "0x3C30050")]
 	private int ReadSegment(byte[] dest, int dest_offset, int count)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002A80")]
-	[Address(RVA = "0x4F4B130", Offset = "0x4F4B130", VA = "0x4F4B130")]
+	[Address(RVA = "0x3C30C50", Offset = "0x3C30C50", VA = "0x3C30C50")]
 	private int WriteSegment(byte[] src, int src_offset, int count)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002A81")]
-	[Address(RVA = "0x4F49C10", Offset = "0x4F49C10", VA = "0x4F49C10")]
+	[Address(RVA = "0x3C2F730", Offset = "0x3C2F730", VA = "0x3C2F730")]
 	private void FlushBuffer()
 	{
 	}
 
 	[Token(Token = "0x6002A82")]
-	[Address(RVA = "0x4F49840", Offset = "0x4F49840", VA = "0x4F49840")]
+	[Address(RVA = "0x3C2F360", Offset = "0x3C2F360", VA = "0x3C2F360")]
 	private void FlushBufferIfDirty()
 	{
 	}
 
 	[Token(Token = "0x6002A83")]
-	[Address(RVA = "0x4F49FF0", Offset = "0x4F49FF0", VA = "0x4F49FF0")]
+	[Address(RVA = "0x3C2FB10", Offset = "0x3C2FB10", VA = "0x3C2FB10")]
 	private void RefillBuffer()
 	{
 	}
 
 	[Token(Token = "0x6002A84")]
-	[Address(RVA = "0x4F49EF0", Offset = "0x4F49EF0", VA = "0x4F49EF0")]
+	[Address(RVA = "0x3C2FA10", Offset = "0x3C2FA10", VA = "0x3C2FA10")]
 	private int ReadData(SafeHandle safeHandle, byte[] buf, int offset, int count)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002A85")]
-	[Address(RVA = "0x4F49200", Offset = "0x4F49200", VA = "0x4F49200")]
+	[Address(RVA = "0x3C2ED20", Offset = "0x3C2ED20", VA = "0x3C2ED20")]
 	private void InitBuffer(int size, bool isZeroSize)
 	{
 	}
 
 	[Token(Token = "0x6002A86")]
-	[Address(RVA = "0x4F48910", Offset = "0x4F48910", VA = "0x4F48910")]
+	[Address(RVA = "0x3C2E430", Offset = "0x3C2E430", VA = "0x3C2E430")]
 	private string GetSecureFileName(string filename)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002A87")]
-	[Address(RVA = "0x4F48750", Offset = "0x4F48750", VA = "0x4F48750")]
+	[Address(RVA = "0x3C2E270", Offset = "0x3C2E270", VA = "0x3C2E270")]
 	private string GetSecureFileName(string filename, bool full)
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.ColorBlock
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Serialization;
@@ -58,13 +65,13 @@ public struct ColorBlock : IEquatable<ColorBlock>
 	public Color normalColor
 	{
 		[Token(Token = "0x6000037")]
-		[Address(RVA = "0x4BCB0B0", Offset = "0x4BCB0B0", VA = "0x4BCB0B0")]
+		[Address(RVA = "0x4EF29E0", Offset = "0x4EF29E0", VA = "0x4EF29E0")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x6000038")]
-		[Address(RVA = "0x4BCB0C0", Offset = "0x4BCB0C0", VA = "0x4BCB0C0")]
+		[Address(RVA = "0x4EF29F0", Offset = "0x4EF29F0", VA = "0x4EF29F0")]
 		set
 		{
 		}
@@ -74,13 +81,13 @@ public struct ColorBlock : IEquatable<ColorBlock>
 	public Color highlightedColor
 	{
 		[Token(Token = "0x6000039")]
-		[Address(RVA = "0x4BCB0D0", Offset = "0x4BCB0D0", VA = "0x4BCB0D0")]
+		[Address(RVA = "0x4EF2A00", Offset = "0x4EF2A00", VA = "0x4EF2A00")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x600003A")]
-		[Address(RVA = "0x4BCB0E0", Offset = "0x4BCB0E0", VA = "0x4BCB0E0")]
+		[Address(RVA = "0x4EF2A10", Offset = "0x4EF2A10", VA = "0x4EF2A10")]
 		set
 		{
 		}
@@ -90,13 +97,13 @@ public struct ColorBlock : IEquatable<ColorBlock>
 	public Color pressedColor
 	{
 		[Token(Token = "0x600003B")]
-		[Address(RVA = "0x4BCB0F0", Offset = "0x4BCB0F0", VA = "0x4BCB0F0")]
+		[Address(RVA = "0x4EF2A20", Offset = "0x4EF2A20", VA = "0x4EF2A20")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x600003C")]
-		[Address(RVA = "0x4BCB100", Offset = "0x4BCB100", VA = "0x4BCB100")]
+		[Address(RVA = "0x4EF2A30", Offset = "0x4EF2A30", VA = "0x4EF2A30")]
 		set
 		{
 		}
@@ -106,13 +113,13 @@ public struct ColorBlock : IEquatable<ColorBlock>
 	public Color selectedColor
 	{
 		[Token(Token = "0x600003D")]
-		[Address(RVA = "0x4BCB110", Offset = "0x4BCB110", VA = "0x4BCB110")]
+		[Address(RVA = "0x4EF2A40", Offset = "0x4EF2A40", VA = "0x4EF2A40")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x600003E")]
-		[Address(RVA = "0x4BCB120", Offset = "0x4BCB120", VA = "0x4BCB120")]
+		[Address(RVA = "0x4EF2A50", Offset = "0x4EF2A50", VA = "0x4EF2A50")]
 		set
 		{
 		}
@@ -122,13 +129,13 @@ public struct ColorBlock : IEquatable<ColorBlock>
 	public Color disabledColor
 	{
 		[Token(Token = "0x600003F")]
-		[Address(RVA = "0x4BCB130", Offset = "0x4BCB130", VA = "0x4BCB130")]
+		[Address(RVA = "0x4EF2A60", Offset = "0x4EF2A60", VA = "0x4EF2A60")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x6000040")]
-		[Address(RVA = "0x4BCB140", Offset = "0x4BCB140", VA = "0x4BCB140")]
+		[Address(RVA = "0x4EF2A70", Offset = "0x4EF2A70", VA = "0x4EF2A70")]
 		set
 		{
 		}
@@ -138,13 +145,13 @@ public struct ColorBlock : IEquatable<ColorBlock>
 	public float colorMultiplier
 	{
 		[Token(Token = "0x6000041")]
-		[Address(RVA = "0x4BCB150", Offset = "0x4BCB150", VA = "0x4BCB150")]
+		[Address(RVA = "0x4EF2A80", Offset = "0x4EF2A80", VA = "0x4EF2A80")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000042")]
-		[Address(RVA = "0x4BCB160", Offset = "0x4BCB160", VA = "0x4BCB160")]
+		[Address(RVA = "0x4EF2A90", Offset = "0x4EF2A90", VA = "0x4EF2A90")]
 		set
 		{
 		}
@@ -154,54 +161,54 @@ public struct ColorBlock : IEquatable<ColorBlock>
 	public float fadeDuration
 	{
 		[Token(Token = "0x6000043")]
-		[Address(RVA = "0x4BCB170", Offset = "0x4BCB170", VA = "0x4BCB170")]
+		[Address(RVA = "0x4EF2AA0", Offset = "0x4EF2AA0", VA = "0x4EF2AA0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000044")]
-		[Address(RVA = "0x4BCB180", Offset = "0x4BCB180", VA = "0x4BCB180")]
+		[Address(RVA = "0x4EF2AB0", Offset = "0x4EF2AB0", VA = "0x4EF2AB0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000045")]
-	[Address(RVA = "0x4BCB190", Offset = "0x4BCB190", VA = "0x4BCB190")]
+	[Address(RVA = "0x4EF2AC0", Offset = "0x4EF2AC0", VA = "0x4EF2AC0")]
 	static ColorBlock()
 	{
 	}
 
 	[Token(Token = "0x6000046")]
-	[Address(RVA = "0x4BCB200", Offset = "0x4BCB200", VA = "0x4BCB200", Slot = "0")]
+	[Address(RVA = "0x4EF2B30", Offset = "0x4EF2B30", VA = "0x4EF2B30", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000047")]
-	[Address(RVA = "0x4BCB330", Offset = "0x4BCB330", VA = "0x4BCB330", Slot = "4")]
+	[Address(RVA = "0x4EF2C60", Offset = "0x4EF2C60", VA = "0x4EF2C60", Slot = "4")]
 	public bool Equals(ColorBlock other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000048")]
-	[Address(RVA = "0x4BCB580", Offset = "0x4BCB580", VA = "0x4BCB580")]
+	[Address(RVA = "0x4EF2EB0", Offset = "0x4EF2EB0", VA = "0x4EF2EB0")]
 	public static bool operator ==(ColorBlock point1, ColorBlock point2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000049")]
-	[Address(RVA = "0x4BCB670", Offset = "0x4BCB670", VA = "0x4BCB670")]
+	[Address(RVA = "0x4EF2FA0", Offset = "0x4EF2FA0", VA = "0x4EF2FA0")]
 	public static bool operator !=(ColorBlock point1, ColorBlock point2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600004A")]
-	[Address(RVA = "0x4BCB760", Offset = "0x4BCB760", VA = "0x4BCB760", Slot = "2")]
+	[Address(RVA = "0x4EF3090", Offset = "0x4EF3090", VA = "0x4EF3090", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.BitArray16
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -19,7 +26,7 @@ public struct BitArray16 : IBitArray
 	public uint capacity
 	{
 		[Token(Token = "0x6000BD1")]
-		[Address(RVA = "0x48CBA60", Offset = "0x48CBA60", VA = "0x48CBA60", Slot = "4")]
+		[Address(RVA = "0x4BF0AD0", Offset = "0x4BF0AD0", VA = "0x4BF0AD0", Slot = "4")]
 		get
 		{
 			return default(uint);
@@ -30,7 +37,7 @@ public struct BitArray16 : IBitArray
 	public bool allFalse
 	{
 		[Token(Token = "0x6000BD2")]
-		[Address(RVA = "0x48CBA70", Offset = "0x48CBA70", VA = "0x48CBA70", Slot = "5")]
+		[Address(RVA = "0x4BF0AE0", Offset = "0x4BF0AE0", VA = "0x4BF0AE0", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -41,7 +48,7 @@ public struct BitArray16 : IBitArray
 	public bool allTrue
 	{
 		[Token(Token = "0x6000BD3")]
-		[Address(RVA = "0x48CBA80", Offset = "0x48CBA80", VA = "0x48CBA80", Slot = "6")]
+		[Address(RVA = "0x4BF0AF0", Offset = "0x4BF0AF0", VA = "0x4BF0AF0", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -52,7 +59,7 @@ public struct BitArray16 : IBitArray
 	public string humanizedData
 	{
 		[Token(Token = "0x6000BD4")]
-		[Address(RVA = "0x48CBA90", Offset = "0x48CBA90", VA = "0x48CBA90", Slot = "9")]
+		[Address(RVA = "0x4BF0B00", Offset = "0x4BF0B00", VA = "0x4BF0B00", Slot = "9")]
 		get
 		{
 			return null;
@@ -63,95 +70,95 @@ public struct BitArray16 : IBitArray
 	public bool this[uint index]
 	{
 		[Token(Token = "0x6000BD5")]
-		[Address(RVA = "0x48CBBE0", Offset = "0x48CBBE0", VA = "0x48CBBE0", Slot = "7")]
+		[Address(RVA = "0x4BF0C50", Offset = "0x4BF0C50", VA = "0x4BF0C50", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000BD6")]
-		[Address(RVA = "0x48CBC00", Offset = "0x48CBC00", VA = "0x48CBC00", Slot = "8")]
+		[Address(RVA = "0x4BF0C70", Offset = "0x4BF0C70", VA = "0x4BF0C70", Slot = "8")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000BD7")]
-	[Address(RVA = "0x48CBC40", Offset = "0x48CBC40", VA = "0x48CBC40")]
+	[Address(RVA = "0x4BF0CB0", Offset = "0x4BF0CB0", VA = "0x4BF0CB0")]
 	public BitArray16(ushort initValue)
 	{
 	}
 
 	[Token(Token = "0x6000BD8")]
-	[Address(RVA = "0x48CBC50", Offset = "0x48CBC50", VA = "0x48CBC50")]
+	[Address(RVA = "0x4BF0CC0", Offset = "0x4BF0CC0", VA = "0x4BF0CC0")]
 	public BitArray16(IEnumerable<uint> bitIndexTrue)
 	{
 	}
 
 	[Token(Token = "0x6000BD9")]
-	[Address(RVA = "0x48CBD00", Offset = "0x48CBD00", VA = "0x48CBD00")]
+	[Address(RVA = "0x4BF0D70", Offset = "0x4BF0D70", VA = "0x4BF0D70")]
 	public static BitArray16 operator ~(BitArray16 a)
 	{
 		return default(BitArray16);
 	}
 
 	[Token(Token = "0x6000BDA")]
-	[Address(RVA = "0x48CBD10", Offset = "0x48CBD10", VA = "0x48CBD10")]
+	[Address(RVA = "0x4BF0D80", Offset = "0x4BF0D80", VA = "0x4BF0D80")]
 	public static BitArray16 operator |(BitArray16 a, BitArray16 b)
 	{
 		return default(BitArray16);
 	}
 
 	[Token(Token = "0x6000BDB")]
-	[Address(RVA = "0x48CBD20", Offset = "0x48CBD20", VA = "0x48CBD20")]
+	[Address(RVA = "0x4BF0D90", Offset = "0x4BF0D90", VA = "0x4BF0D90")]
 	public static BitArray16 operator &(BitArray16 a, BitArray16 b)
 	{
 		return default(BitArray16);
 	}
 
 	[Token(Token = "0x6000BDC")]
-	[Address(RVA = "0x48CBD30", Offset = "0x48CBD30", VA = "0x48CBD30", Slot = "10")]
+	[Address(RVA = "0x4BF0DA0", Offset = "0x4BF0DA0", VA = "0x4BF0DA0", Slot = "10")]
 	public IBitArray BitAnd(IBitArray other)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BDD")]
-	[Address(RVA = "0x48CBDB0", Offset = "0x48CBDB0", VA = "0x48CBDB0", Slot = "11")]
+	[Address(RVA = "0x4BF0E20", Offset = "0x4BF0E20", VA = "0x4BF0E20", Slot = "11")]
 	public IBitArray BitOr(IBitArray other)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BDE")]
-	[Address(RVA = "0x48CBE30", Offset = "0x48CBE30", VA = "0x48CBE30", Slot = "12")]
+	[Address(RVA = "0x4BF0EA0", Offset = "0x4BF0EA0", VA = "0x4BF0EA0", Slot = "12")]
 	public IBitArray BitNot()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BDF")]
-	[Address(RVA = "0x48CBE80", Offset = "0x48CBE80", VA = "0x48CBE80")]
+	[Address(RVA = "0x4BF0EF0", Offset = "0x4BF0EF0", VA = "0x4BF0EF0")]
 	public static bool operator ==(BitArray16 a, BitArray16 b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000BE0")]
-	[Address(RVA = "0x48CBE90", Offset = "0x48CBE90", VA = "0x48CBE90")]
+	[Address(RVA = "0x4BF0F00", Offset = "0x4BF0F00", VA = "0x4BF0F00")]
 	public static bool operator !=(BitArray16 a, BitArray16 b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000BE1")]
-	[Address(RVA = "0x48CBEA0", Offset = "0x48CBEA0", VA = "0x48CBEA0", Slot = "0")]
+	[Address(RVA = "0x4BF0F10", Offset = "0x4BF0F10", VA = "0x4BF0F10", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000BE2")]
-	[Address(RVA = "0x48CBF00", Offset = "0x48CBF00", VA = "0x48CBF00", Slot = "2")]
+	[Address(RVA = "0x4BF0F70", Offset = "0x4BF0F70", VA = "0x4BF0F70", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

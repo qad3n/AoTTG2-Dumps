@@ -1,21 +1,21 @@
 // Type: UI.MapEditorErrorPopup
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/MapEditorErrorPopup.cs
-// Prior real C# source (REFERENCE, outdated): Assets/Scripts/UI/MapEditorMenu/MapEditorErrorPopup.cs  [prior source available (delta unverified)]
+// Prior real C# source (older reference): Assets/Scripts/UI/MapEditorMenu/MapEditorErrorPopup.cs
 // --------------------------------
 
 // UI.MapEditorErrorPopup$$get_Title
 // il2cpp: System_String_o* UI_MapEditorErrorPopup__get_Title (UI_MapEditorErrorPopup_o* __this, const MethodInfo* method);
-// 0x4112100
+// 0x44265d0
 
-System_String_o *
-UI_MapEditorErrorPopup__get_Title(UI_MapEditorErrorPopup_o *__this,MethodInfo *method)
+System_String_o * UI_MapEditorErrorPopup__get_Title(UI_MapEditorErrorPopup_o *__this,MethodInfo *method)
 
 {
-  if (DAT_057048cc == '\0') {
-    il2cpp_init_method_metadata(&"Load Errors");
-    DAT_057048cc = '\x01';
+  if (g_data_057ae668 == '\0') {
+    il2cpp_runtime_helper_023445d0(&"Load Errors");
+    g_data_057ae668 = '\x01';
   }
   return "Load Errors";
 }
@@ -23,7 +23,7 @@ UI_MapEditorErrorPopup__get_Title(UI_MapEditorErrorPopup_o *__this,MethodInfo *m
 
 // UI.MapEditorErrorPopup$$get_Width
 // il2cpp: float UI_MapEditorErrorPopup__get_Width (UI_MapEditorErrorPopup_o* __this, const MethodInfo* method);
-// 0x4112130
+// 0x4426600
 
 float UI_MapEditorErrorPopup__get_Width(UI_MapEditorErrorPopup_o *__this,MethodInfo *method)
 
@@ -34,7 +34,7 @@ float UI_MapEditorErrorPopup__get_Width(UI_MapEditorErrorPopup_o *__this,MethodI
 
 // UI.MapEditorErrorPopup$$get_Height
 // il2cpp: float UI_MapEditorErrorPopup__get_Height (UI_MapEditorErrorPopup_o* __this, const MethodInfo* method);
-// 0x4112140
+// 0x4426610
 
 float UI_MapEditorErrorPopup__get_Height(UI_MapEditorErrorPopup_o *__this,MethodInfo *method)
 
@@ -45,10 +45,9 @@ float UI_MapEditorErrorPopup__get_Height(UI_MapEditorErrorPopup_o *__this,Method
 
 // UI.MapEditorErrorPopup$$get_VerticalPadding
 // il2cpp: int32_t UI_MapEditorErrorPopup__get_VerticalPadding (UI_MapEditorErrorPopup_o* __this, const MethodInfo* method);
-// 0x4112150
+// 0x4426620
 
-int32_t UI_MapEditorErrorPopup__get_VerticalPadding
-                  (UI_MapEditorErrorPopup_o *__this,MethodInfo *method)
+int32_t UI_MapEditorErrorPopup__get_VerticalPadding(UI_MapEditorErrorPopup_o *__this,MethodInfo *method)
 
 {
   return 0x14;
@@ -57,10 +56,9 @@ int32_t UI_MapEditorErrorPopup__get_VerticalPadding
 
 // UI.MapEditorErrorPopup$$get_HorizontalPadding
 // il2cpp: int32_t UI_MapEditorErrorPopup__get_HorizontalPadding (UI_MapEditorErrorPopup_o* __this, const MethodInfo* method);
-// 0x4112160
+// 0x4426630
 
-int32_t UI_MapEditorErrorPopup__get_HorizontalPadding
-                  (UI_MapEditorErrorPopup_o *__this,MethodInfo *method)
+int32_t UI_MapEditorErrorPopup__get_HorizontalPadding(UI_MapEditorErrorPopup_o *__this,MethodInfo *method)
 
 {
   return 0x14;
@@ -69,7 +67,7 @@ int32_t UI_MapEditorErrorPopup__get_HorizontalPadding
 
 // UI.MapEditorErrorPopup$$.ctor
 // il2cpp: void UI_MapEditorErrorPopup___ctor (UI_MapEditorErrorPopup_o* __this, const MethodInfo* method);
-// 0x4112170
+// 0x4426640
 
 void UI_MapEditorErrorPopup___ctor(UI_MapEditorErrorPopup_o *__this,MethodInfo *method)
 

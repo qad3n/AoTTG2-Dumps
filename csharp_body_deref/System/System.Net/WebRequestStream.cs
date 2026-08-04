@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.WebRequestStream
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.IO;
 using System.Runtime.CompilerServices;
@@ -37,13 +44,13 @@ internal class WebRequestStream : WebConnectionStream
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000B5C")]
-		[Address(RVA = "0x4677320", Offset = "0x4677320", VA = "0x4677320", Slot = "4")]
+		[Address(RVA = "0x499C420", Offset = "0x499C420", VA = "0x499C420", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000B5D")]
-		[Address(RVA = "0x4677750", Offset = "0x4677750", VA = "0x4677750", Slot = "5")]
+		[Address(RVA = "0x499C850", Offset = "0x499C850", VA = "0x499C850", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -96,13 +103,13 @@ internal class WebRequestStream : WebConnectionStream
 		private TaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000B5E")]
-		[Address(RVA = "0x46777B0", Offset = "0x46777B0", VA = "0x46777B0", Slot = "4")]
+		[Address(RVA = "0x499C8B0", Offset = "0x499C8B0", VA = "0x499C8B0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000B5F")]
-		[Address(RVA = "0x4677EB0", Offset = "0x4677EB0", VA = "0x4677EB0", Slot = "5")]
+		[Address(RVA = "0x499CFB0", Offset = "0x499CFB0", VA = "0x499CFB0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -147,13 +154,13 @@ internal class WebRequestStream : WebConnectionStream
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000B60")]
-		[Address(RVA = "0x4677F10", Offset = "0x4677F10", VA = "0x4677F10", Slot = "4")]
+		[Address(RVA = "0x499D010", Offset = "0x499D010", VA = "0x499D010", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000B61")]
-		[Address(RVA = "0x46786A0", Offset = "0x46786A0", VA = "0x46786A0", Slot = "5")]
+		[Address(RVA = "0x499D7A0", Offset = "0x499D7A0", VA = "0x499D7A0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -190,13 +197,13 @@ internal class WebRequestStream : WebConnectionStream
 		private TaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000B62")]
-		[Address(RVA = "0x4678700", Offset = "0x4678700", VA = "0x4678700", Slot = "4")]
+		[Address(RVA = "0x499D800", Offset = "0x499D800", VA = "0x499D800", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000B63")]
-		[Address(RVA = "0x4678BC0", Offset = "0x4678BC0", VA = "0x4678BC0", Slot = "5")]
+		[Address(RVA = "0x499DCC0", Offset = "0x499DCC0", VA = "0x499DCC0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -233,13 +240,13 @@ internal class WebRequestStream : WebConnectionStream
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000B64")]
-		[Address(RVA = "0x4678C20", Offset = "0x4678C20", VA = "0x4678C20", Slot = "4")]
+		[Address(RVA = "0x499DD20", Offset = "0x499DD20", VA = "0x499DD20", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000B65")]
-		[Address(RVA = "0x4679420", Offset = "0x4679420", VA = "0x4679420", Slot = "5")]
+		[Address(RVA = "0x499E520", Offset = "0x499E520", VA = "0x499E520", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -280,13 +287,13 @@ internal class WebRequestStream : WebConnectionStream
 		private TaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000B66")]
-		[Address(RVA = "0x4679480", Offset = "0x4679480", VA = "0x4679480", Slot = "4")]
+		[Address(RVA = "0x499E580", Offset = "0x499E580", VA = "0x499E580", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000B67")]
-		[Address(RVA = "0x4679C40", Offset = "0x4679C40", VA = "0x4679C40", Slot = "5")]
+		[Address(RVA = "0x499ED40", Offset = "0x499ED40", VA = "0x499ED40", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -319,13 +326,13 @@ internal class WebRequestStream : WebConnectionStream
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000B68")]
-		[Address(RVA = "0x4679CA0", Offset = "0x4679CA0", VA = "0x4679CA0", Slot = "4")]
+		[Address(RVA = "0x499EDA0", Offset = "0x499EDA0", VA = "0x499EDA0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000B69")]
-		[Address(RVA = "0x4679FE0", Offset = "0x4679FE0", VA = "0x4679FE0", Slot = "5")]
+		[Address(RVA = "0x499F0E0", Offset = "0x499F0E0", VA = "0x499F0E0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -366,13 +373,13 @@ internal class WebRequestStream : WebConnectionStream
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000B6A")]
-		[Address(RVA = "0x467A040", Offset = "0x467A040", VA = "0x467A040", Slot = "4")]
+		[Address(RVA = "0x499F140", Offset = "0x499F140", VA = "0x499F140", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000B6B")]
-		[Address(RVA = "0x467AA60", Offset = "0x467AA60", VA = "0x467AA60", Slot = "5")]
+		[Address(RVA = "0x499FB60", Offset = "0x499FB60", VA = "0x499FB60", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -427,7 +434,7 @@ internal class WebRequestStream : WebConnectionStream
 	internal Stream InnerStream
 	{
 		[Token(Token = "0x6000B46")]
-		[Address(RVA = "0x46763F0", Offset = "0x46763F0", VA = "0x46763F0")]
+		[Address(RVA = "0x499B4F0", Offset = "0x499B4F0", VA = "0x499B4F0")]
 		[CompilerGenerated]
 		get
 		{
@@ -439,7 +446,7 @@ internal class WebRequestStream : WebConnectionStream
 	public bool KeepAlive
 	{
 		[Token(Token = "0x6000B47")]
-		[Address(RVA = "0x4676400", Offset = "0x4676400", VA = "0x4676400")]
+		[Address(RVA = "0x499B500", Offset = "0x499B500", VA = "0x499B500")]
 		[CompilerGenerated]
 		get
 		{
@@ -451,7 +458,7 @@ internal class WebRequestStream : WebConnectionStream
 	public override bool CanRead
 	{
 		[Token(Token = "0x6000B48")]
-		[Address(RVA = "0x4676410", Offset = "0x4676410", VA = "0x4676410", Slot = "7")]
+		[Address(RVA = "0x499B510", Offset = "0x499B510", VA = "0x499B510", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -462,7 +469,7 @@ internal class WebRequestStream : WebConnectionStream
 	public override bool CanWrite
 	{
 		[Token(Token = "0x6000B49")]
-		[Address(RVA = "0x4676420", Offset = "0x4676420", VA = "0x4676420", Slot = "10")]
+		[Address(RVA = "0x499B520", Offset = "0x499B520", VA = "0x499B520", Slot = "10")]
 		get
 		{
 			return default(bool);
@@ -473,7 +480,7 @@ internal class WebRequestStream : WebConnectionStream
 	internal bool HasWriteBuffer
 	{
 		[Token(Token = "0x6000B4A")]
-		[Address(RVA = "0x4676430", Offset = "0x4676430", VA = "0x4676430")]
+		[Address(RVA = "0x499B530", Offset = "0x499B530", VA = "0x499B530")]
 		get
 		{
 			return default(bool);
@@ -484,7 +491,7 @@ internal class WebRequestStream : WebConnectionStream
 	internal int WriteBufferLength
 	{
 		[Token(Token = "0x6000B4B")]
-		[Address(RVA = "0x4676460", Offset = "0x4676460", VA = "0x4676460")]
+		[Address(RVA = "0x499B560", Offset = "0x499B560", VA = "0x499B560")]
 		get
 		{
 			return default(int);
@@ -492,20 +499,20 @@ internal class WebRequestStream : WebConnectionStream
 	}
 
 	[Token(Token = "0x6000B45")]
-	[Address(RVA = "0x4676250", Offset = "0x4676250", VA = "0x4676250")]
+	[Address(RVA = "0x499B350", Offset = "0x499B350", VA = "0x499B350")]
 	public WebRequestStream(WebConnection connection, WebOperation operation, Stream stream, WebConnectionTunnel tunnel)
 	{
 	}
 
 	[Token(Token = "0x6000B4C")]
-	[Address(RVA = "0x46764A0", Offset = "0x46764A0", VA = "0x46764A0")]
+	[Address(RVA = "0x499B5A0", Offset = "0x499B5A0", VA = "0x499B5A0")]
 	internal BufferOffsetSize GetWriteBuffer()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B4D")]
-	[Address(RVA = "0x4676580", Offset = "0x4676580", VA = "0x4676580")]
+	[Address(RVA = "0x499B680", Offset = "0x499B680", VA = "0x499B680")]
 	[AsyncStateMachine(typeof(_003CFinishWriting_003Ed__31))]
 	private Task FinishWriting(CancellationToken cancellationToken)
 	{
@@ -513,14 +520,14 @@ internal class WebRequestStream : WebConnectionStream
 	}
 
 	[Token(Token = "0x6000B4E")]
-	[Address(RVA = "0x4676670", Offset = "0x4676670", VA = "0x4676670", Slot = "28")]
+	[Address(RVA = "0x499B770", Offset = "0x499B770", VA = "0x499B770", Slot = "28")]
 	public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B4F")]
-	[Address(RVA = "0x46768E0", Offset = "0x46768E0", VA = "0x46768E0")]
+	[Address(RVA = "0x499B9E0", Offset = "0x499B9E0", VA = "0x499B9E0")]
 	[AsyncStateMachine(typeof(_003CWriteAsyncInner_003Ed__33))]
 	private Task WriteAsyncInner(byte[] buffer, int offset, int size, WebCompletionSource completion, CancellationToken cancellationToken)
 	{
@@ -528,7 +535,7 @@ internal class WebRequestStream : WebConnectionStream
 	}
 
 	[Token(Token = "0x6000B50")]
-	[Address(RVA = "0x4676A30", Offset = "0x4676A30", VA = "0x4676A30")]
+	[Address(RVA = "0x499BB30", Offset = "0x499BB30", VA = "0x499BB30")]
 	[AsyncStateMachine(typeof(_003CProcessWrite_003Ed__34))]
 	private Task ProcessWrite(byte[] buffer, int offset, int size, CancellationToken cancellationToken)
 	{
@@ -536,13 +543,13 @@ internal class WebRequestStream : WebConnectionStream
 	}
 
 	[Token(Token = "0x6000B51")]
-	[Address(RVA = "0x4676B70", Offset = "0x4676B70", VA = "0x4676B70")]
+	[Address(RVA = "0x499BC70", Offset = "0x499BC70", VA = "0x499BC70")]
 	private void CheckWriteOverflow(long contentLength, long totalWritten, long size)
 	{
 	}
 
 	[Token(Token = "0x6000B52")]
-	[Address(RVA = "0x4674C30", Offset = "0x4674C30", VA = "0x4674C30")]
+	[Address(RVA = "0x4999D30", Offset = "0x4999D30", VA = "0x4999D30")]
 	[AsyncStateMachine(typeof(_003CInitialize_003Ed__36))]
 	internal Task Initialize(CancellationToken cancellationToken)
 	{
@@ -550,7 +557,7 @@ internal class WebRequestStream : WebConnectionStream
 	}
 
 	[Token(Token = "0x6000B53")]
-	[Address(RVA = "0x4676C20", Offset = "0x4676C20", VA = "0x4676C20")]
+	[Address(RVA = "0x499BD20", Offset = "0x499BD20", VA = "0x499BD20")]
 	[AsyncStateMachine(typeof(_003CSetHeadersAsync_003Ed__37))]
 	private Task SetHeadersAsync(bool setInternalLength, CancellationToken cancellationToken)
 	{
@@ -558,7 +565,7 @@ internal class WebRequestStream : WebConnectionStream
 	}
 
 	[Token(Token = "0x6000B54")]
-	[Address(RVA = "0x4676D30", Offset = "0x4676D30", VA = "0x4676D30")]
+	[Address(RVA = "0x499BE30", Offset = "0x499BE30", VA = "0x499BE30")]
 	[AsyncStateMachine(typeof(_003CWriteRequestAsync_003Ed__38))]
 	internal Task WriteRequestAsync(CancellationToken cancellationToken)
 	{
@@ -566,7 +573,7 @@ internal class WebRequestStream : WebConnectionStream
 	}
 
 	[Token(Token = "0x6000B55")]
-	[Address(RVA = "0x4676E30", Offset = "0x4676E30", VA = "0x4676E30")]
+	[Address(RVA = "0x499BF30", Offset = "0x499BF30", VA = "0x499BF30")]
 	[AsyncStateMachine(typeof(_003CWriteChunkTrailer_inner_003Ed__39))]
 	private Task WriteChunkTrailer_inner(CancellationToken cancellationToken)
 	{
@@ -574,7 +581,7 @@ internal class WebRequestStream : WebConnectionStream
 	}
 
 	[Token(Token = "0x6000B56")]
-	[Address(RVA = "0x4676F20", Offset = "0x4676F20", VA = "0x4676F20")]
+	[Address(RVA = "0x499C020", Offset = "0x499C020", VA = "0x499C020")]
 	[AsyncStateMachine(typeof(_003CWriteChunkTrailer_003Ed__40))]
 	private Task WriteChunkTrailer()
 	{
@@ -582,27 +589,27 @@ internal class WebRequestStream : WebConnectionStream
 	}
 
 	[Token(Token = "0x6000B57")]
-	[Address(RVA = "0x4676C00", Offset = "0x4676C00", VA = "0x4676C00")]
+	[Address(RVA = "0x499BD00", Offset = "0x499BD00", VA = "0x499BD00")]
 	internal void KillBuffer()
 	{
 	}
 
 	[Token(Token = "0x6000B58")]
-	[Address(RVA = "0x4677010", Offset = "0x4677010", VA = "0x4677010", Slot = "24")]
+	[Address(RVA = "0x499C110", Offset = "0x499C110", VA = "0x499C110", Slot = "24")]
 	public override Task<int> ReadAsync(byte[] buffer, int offset, int size, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B59")]
-	[Address(RVA = "0x46770B0", Offset = "0x46770B0", VA = "0x46770B0", Slot = "38")]
+	[Address(RVA = "0x499C1B0", Offset = "0x499C1B0", VA = "0x499C1B0", Slot = "38")]
 	protected override bool TryReadFromBufferedContent(byte[] buffer, int offset, int count, out int result)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B5A")]
-	[Address(RVA = "0x46770F0", Offset = "0x46770F0", VA = "0x46770F0", Slot = "39")]
+	[Address(RVA = "0x499C1F0", Offset = "0x499C1F0", VA = "0x499C1F0", Slot = "39")]
 	protected override void Close_internal(ref bool disposed)
 	{
 	}

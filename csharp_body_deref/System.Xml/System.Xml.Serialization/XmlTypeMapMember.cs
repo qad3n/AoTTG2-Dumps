@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlTypeMapMember
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Reflection;
 using Il2CppDummyDll;
 
@@ -50,13 +57,13 @@ internal class XmlTypeMapMember
 	public string Name
 	{
 		[Token(Token = "0x6000E9E")]
-		[Address(RVA = "0x44FAAB0", Offset = "0x44FAAB0", VA = "0x44FAAB0")]
+		[Address(RVA = "0x4838210", Offset = "0x4838210", VA = "0x4838210")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000E9F")]
-		[Address(RVA = "0x44FAAC0", Offset = "0x44FAAC0", VA = "0x44FAAC0")]
+		[Address(RVA = "0x4838220", Offset = "0x4838220", VA = "0x4838220")]
 		set
 		{
 		}
@@ -66,13 +73,13 @@ internal class XmlTypeMapMember
 	public object DefaultValue
 	{
 		[Token(Token = "0x6000EA0")]
-		[Address(RVA = "0x44FAAD0", Offset = "0x44FAAD0", VA = "0x44FAAD0")]
+		[Address(RVA = "0x4838230", Offset = "0x4838230", VA = "0x4838230")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000EA1")]
-		[Address(RVA = "0x44FAAE0", Offset = "0x44FAAE0", VA = "0x44FAAE0")]
+		[Address(RVA = "0x4838240", Offset = "0x4838240", VA = "0x4838240")]
 		set
 		{
 		}
@@ -82,13 +89,13 @@ internal class XmlTypeMapMember
 	public TypeData TypeData
 	{
 		[Token(Token = "0x6000EA8")]
-		[Address(RVA = "0x44FB1C0", Offset = "0x44FB1C0", VA = "0x44FB1C0")]
+		[Address(RVA = "0x4838920", Offset = "0x4838920", VA = "0x4838920")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000EA9")]
-		[Address(RVA = "0x44FB1D0", Offset = "0x44FB1D0", VA = "0x44FB1D0")]
+		[Address(RVA = "0x4838930", Offset = "0x4838930", VA = "0x4838930")]
 		set
 		{
 		}
@@ -98,13 +105,13 @@ internal class XmlTypeMapMember
 	public int Index
 	{
 		[Token(Token = "0x6000EAA")]
-		[Address(RVA = "0x44FB1E0", Offset = "0x44FB1E0", VA = "0x44FB1E0")]
+		[Address(RVA = "0x4838940", Offset = "0x4838940", VA = "0x4838940")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000EAB")]
-		[Address(RVA = "0x44FB1F0", Offset = "0x44FB1F0", VA = "0x44FB1F0")]
+		[Address(RVA = "0x4838950", Offset = "0x4838950", VA = "0x4838950")]
 		set
 		{
 		}
@@ -114,13 +121,13 @@ internal class XmlTypeMapMember
 	public int GlobalIndex
 	{
 		[Token(Token = "0x6000EAC")]
-		[Address(RVA = "0x44FB200", Offset = "0x44FB200", VA = "0x44FB200")]
+		[Address(RVA = "0x4838960", Offset = "0x4838960", VA = "0x4838960")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000EAD")]
-		[Address(RVA = "0x44FB210", Offset = "0x44FB210", VA = "0x44FB210")]
+		[Address(RVA = "0x4838970", Offset = "0x4838970", VA = "0x4838970")]
 		set
 		{
 		}
@@ -130,13 +137,13 @@ internal class XmlTypeMapMember
 	public bool IsOptionalValueType
 	{
 		[Token(Token = "0x6000EAE")]
-		[Address(RVA = "0x44F6DB0", Offset = "0x44F6DB0", VA = "0x44F6DB0")]
+		[Address(RVA = "0x4834510", Offset = "0x4834510", VA = "0x4834510")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EAF")]
-		[Address(RVA = "0x44FB220", Offset = "0x44FB220", VA = "0x44FB220")]
+		[Address(RVA = "0x4838980", Offset = "0x4838980", VA = "0x4838980")]
 		set
 		{
 		}
@@ -146,78 +153,78 @@ internal class XmlTypeMapMember
 	public bool IsReturnValue
 	{
 		[Token(Token = "0x6000EB0")]
-		[Address(RVA = "0x44FB250", Offset = "0x44FB250", VA = "0x44FB250")]
+		[Address(RVA = "0x48389B0", Offset = "0x48389B0", VA = "0x48389B0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EB1")]
-		[Address(RVA = "0x44FB260", Offset = "0x44FB260", VA = "0x44FB260")]
+		[Address(RVA = "0x48389C0", Offset = "0x48389C0", VA = "0x48389C0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000E9D")]
-	[Address(RVA = "0x44FAA40", Offset = "0x44FAA40", VA = "0x44FAA40")]
+	[Address(RVA = "0x48381A0", Offset = "0x48381A0", VA = "0x48381A0")]
 	public XmlTypeMapMember()
 	{
 	}
 
 	[Token(Token = "0x6000EA2")]
-	[Address(RVA = "0x44FAAF0", Offset = "0x44FAAF0", VA = "0x44FAAF0")]
+	[Address(RVA = "0x4838250", Offset = "0x4838250", VA = "0x4838250")]
 	public bool IsReadOnly(Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000EA3")]
-	[Address(RVA = "0x44FADF0", Offset = "0x44FADF0", VA = "0x44FADF0")]
+	[Address(RVA = "0x4838550", Offset = "0x4838550", VA = "0x4838550")]
 	public static object GetValue(object ob, string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EA4")]
-	[Address(RVA = "0x44F2FB0", Offset = "0x44F2FB0", VA = "0x44F2FB0")]
+	[Address(RVA = "0x4830710", Offset = "0x4830710", VA = "0x4830710")]
 	public object GetValue(object ob)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EA5")]
-	[Address(RVA = "0x44FAF30", Offset = "0x44FAF30", VA = "0x44FAF30")]
+	[Address(RVA = "0x4838690", Offset = "0x4838690", VA = "0x4838690")]
 	public void SetValue(object ob, object value)
 	{
 	}
 
 	[Token(Token = "0x6000EA6")]
-	[Address(RVA = "0x44FB070", Offset = "0x44FB070", VA = "0x44FB070")]
+	[Address(RVA = "0x48387D0", Offset = "0x48387D0", VA = "0x48387D0")]
 	public static void SetValue(object ob, string name, object value)
 	{
 	}
 
 	[Token(Token = "0x6000EA7")]
-	[Address(RVA = "0x44FAB90", Offset = "0x44FAB90", VA = "0x44FAB90")]
+	[Address(RVA = "0x48382F0", Offset = "0x48382F0", VA = "0x48382F0")]
 	private void InitMember(Type type)
 	{
 	}
 
 	[Token(Token = "0x6000EB2")]
-	[Address(RVA = "0x44FB290", Offset = "0x44FB290", VA = "0x44FB290")]
+	[Address(RVA = "0x48389F0", Offset = "0x48389F0", VA = "0x48389F0")]
 	public void CheckOptionalValueType(Type type)
 	{
 	}
 
 	[Token(Token = "0x6000EB3")]
-	[Address(RVA = "0x44F6DC0", Offset = "0x44F6DC0", VA = "0x44F6DC0")]
+	[Address(RVA = "0x4834520", Offset = "0x4834520", VA = "0x4834520")]
 	public bool GetValueSpecified(object ob)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000EB4")]
-	[Address(RVA = "0x44FB300", Offset = "0x44FB300", VA = "0x44FB300")]
+	[Address(RVA = "0x4838A60", Offset = "0x4838A60", VA = "0x4838A60")]
 	public void SetValueSpecified(object ob, bool value)
 	{
 	}

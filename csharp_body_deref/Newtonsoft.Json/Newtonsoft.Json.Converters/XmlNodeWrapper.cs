@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Converters.XmlNodeWrapper
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Xml;
 using Il2CppDummyDll;
@@ -23,7 +30,7 @@ internal class XmlNodeWrapper : IXmlNode
 	public object? WrappedNode
 	{
 		[Token(Token = "0x6000F22")]
-		[Address(RVA = "0x3B530A0", Offset = "0x3B530A0", VA = "0x3B530A0", Slot = "13")]
+		[Address(RVA = "0x3E489F0", Offset = "0x3E489F0", VA = "0x3E489F0", Slot = "13")]
 		get
 		{
 			return null;
@@ -34,7 +41,7 @@ internal class XmlNodeWrapper : IXmlNode
 	public XmlNodeType NodeType
 	{
 		[Token(Token = "0x6000F23")]
-		[Address(RVA = "0x3B530B0", Offset = "0x3B530B0", VA = "0x3B530B0", Slot = "4")]
+		[Address(RVA = "0x3E48A00", Offset = "0x3E48A00", VA = "0x3E48A00", Slot = "4")]
 		get
 		{
 			return default(XmlNodeType);
@@ -45,7 +52,7 @@ internal class XmlNodeWrapper : IXmlNode
 	public virtual string? LocalName
 	{
 		[Token(Token = "0x6000F24")]
-		[Address(RVA = "0x3B530E0", Offset = "0x3B530E0", VA = "0x3B530E0", Slot = "14")]
+		[Address(RVA = "0x3E48A30", Offset = "0x3E48A30", VA = "0x3E48A30", Slot = "14")]
 		get
 		{
 			return null;
@@ -56,7 +63,7 @@ internal class XmlNodeWrapper : IXmlNode
 	public List<IXmlNode> ChildNodes
 	{
 		[Token(Token = "0x6000F25")]
-		[Address(RVA = "0x3B53110", Offset = "0x3B53110", VA = "0x3B53110", Slot = "6")]
+		[Address(RVA = "0x3E48A60", Offset = "0x3E48A60", VA = "0x3E48A60", Slot = "6")]
 		get
 		{
 			return null;
@@ -67,7 +74,7 @@ internal class XmlNodeWrapper : IXmlNode
 	protected virtual bool HasChildNodes
 	{
 		[Token(Token = "0x6000F26")]
-		[Address(RVA = "0x3B53790", Offset = "0x3B53790", VA = "0x3B53790", Slot = "15")]
+		[Address(RVA = "0x3E490E0", Offset = "0x3E490E0", VA = "0x3E490E0", Slot = "15")]
 		get
 		{
 			return default(bool);
@@ -78,7 +85,7 @@ internal class XmlNodeWrapper : IXmlNode
 	public List<IXmlNode> Attributes
 	{
 		[Token(Token = "0x6000F28")]
-		[Address(RVA = "0x3B537C0", Offset = "0x3B537C0", VA = "0x3B537C0", Slot = "7")]
+		[Address(RVA = "0x3E49110", Offset = "0x3E49110", VA = "0x3E49110", Slot = "7")]
 		get
 		{
 			return null;
@@ -89,7 +96,7 @@ internal class XmlNodeWrapper : IXmlNode
 	private bool HasAttributes
 	{
 		[Token(Token = "0x6000F29")]
-		[Address(RVA = "0x3B53D40", Offset = "0x3B53D40", VA = "0x3B53D40")]
+		[Address(RVA = "0x3E49690", Offset = "0x3E49690", VA = "0x3E49690")]
 		get
 		{
 			return default(bool);
@@ -100,7 +107,7 @@ internal class XmlNodeWrapper : IXmlNode
 	public IXmlNode? ParentNode
 	{
 		[Token(Token = "0x6000F2A")]
-		[Address(RVA = "0x3B53DE0", Offset = "0x3B53DE0", VA = "0x3B53DE0", Slot = "8")]
+		[Address(RVA = "0x3E49730", Offset = "0x3E49730", VA = "0x3E49730", Slot = "8")]
 		get
 		{
 			return null;
@@ -111,13 +118,13 @@ internal class XmlNodeWrapper : IXmlNode
 	public string? Value
 	{
 		[Token(Token = "0x6000F2B")]
-		[Address(RVA = "0x3B53E70", Offset = "0x3B53E70", VA = "0x3B53E70", Slot = "9")]
+		[Address(RVA = "0x3E497C0", Offset = "0x3E497C0", VA = "0x3E497C0", Slot = "9")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F2C")]
-		[Address(RVA = "0x3B52C90", Offset = "0x3B52C90", VA = "0x3B52C90", Slot = "10")]
+		[Address(RVA = "0x3E485E0", Offset = "0x3E485E0", VA = "0x3E485E0", Slot = "10")]
 		set
 		{
 		}
@@ -127,7 +134,7 @@ internal class XmlNodeWrapper : IXmlNode
 	public string? NamespaceUri
 	{
 		[Token(Token = "0x6000F2E")]
-		[Address(RVA = "0x3B53F60", Offset = "0x3B53F60", VA = "0x3B53F60", Slot = "12")]
+		[Address(RVA = "0x3E498B0", Offset = "0x3E498B0", VA = "0x3E498B0", Slot = "12")]
 		get
 		{
 			return null;
@@ -135,20 +142,20 @@ internal class XmlNodeWrapper : IXmlNode
 	}
 
 	[Token(Token = "0x6000F21")]
-	[Address(RVA = "0x3B52510", Offset = "0x3B52510", VA = "0x3B52510")]
+	[Address(RVA = "0x3E47E60", Offset = "0x3E47E60", VA = "0x3E47E60")]
 	public XmlNodeWrapper(XmlNode node)
 	{
 	}
 
 	[Token(Token = "0x6000F27")]
-	[Address(RVA = "0x3B53610", Offset = "0x3B53610", VA = "0x3B53610")]
+	[Address(RVA = "0x3E48F60", Offset = "0x3E48F60", VA = "0x3E48F60")]
 	internal static IXmlNode WrapNode(XmlNode node)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F2D")]
-	[Address(RVA = "0x3B53EA0", Offset = "0x3B53EA0", VA = "0x3B53EA0", Slot = "11")]
+	[Address(RVA = "0x3E497F0", Offset = "0x3E497F0", VA = "0x3E497F0", Slot = "11")]
 	public IXmlNode AppendChild(IXmlNode newChild)
 	{
 		return null;

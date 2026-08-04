@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.SafeGPtrArrayHandle
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -14,7 +21,7 @@ internal struct SafeGPtrArrayHandle : IDisposable
 	internal int Length
 	{
 		[Token(Token = "0x6000061")]
-		[Address(RVA = "0x4DE8740", Offset = "0x4DE8740", VA = "0x4DE8740")]
+		[Address(RVA = "0x3ACE260", Offset = "0x3ACE260", VA = "0x3ACE260")]
 		get
 		{
 			return default(int);
@@ -25,7 +32,7 @@ internal struct SafeGPtrArrayHandle : IDisposable
 	internal IntPtr this[int i]
 	{
 		[Token(Token = "0x6000062")]
-		[Address(RVA = "0x4DE8760", Offset = "0x4DE8760", VA = "0x4DE8760")]
+		[Address(RVA = "0x3ACE280", Offset = "0x3ACE280", VA = "0x3ACE280")]
 		get
 		{
 			return default(IntPtr);
@@ -33,13 +40,13 @@ internal struct SafeGPtrArrayHandle : IDisposable
 	}
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x4DE8700", Offset = "0x4DE8700", VA = "0x4DE8700")]
+	[Address(RVA = "0x3ACE220", Offset = "0x3ACE220", VA = "0x3ACE220")]
 	internal SafeGPtrArrayHandle(IntPtr ptr)
 	{
 	}
 
 	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x4DE8720", Offset = "0x4DE8720", VA = "0x4DE8720", Slot = "4")]
+	[Address(RVA = "0x3ACE240", Offset = "0x3ACE240", VA = "0x3ACE240", Slot = "4")]
 	public void Dispose()
 	{
 	}

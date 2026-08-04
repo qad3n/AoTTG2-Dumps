@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.Recursion
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -84,14 +91,14 @@ public sealed class Recursion : Recursion<object>
 	public static int defaultMaxDepth
 	{
 		[Token(Token = "0x6001088")]
-		[Address(RVA = "0x4A3BAF0", Offset = "0x4A3BAF0", VA = "0x4A3BAF0")]
+		[Address(RVA = "0x4D60950", Offset = "0x4D60950", VA = "0x4D60950")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6001089")]
-		[Address(RVA = "0x4A3BB60", Offset = "0x4A3BB60", VA = "0x4A3BB60")]
+		[Address(RVA = "0x4D609C0", Offset = "0x4D609C0", VA = "0x4D609C0")]
 		[CompilerGenerated]
 		set
 		{
@@ -102,14 +109,14 @@ public sealed class Recursion : Recursion<object>
 	public static bool safeMode
 	{
 		[Token(Token = "0x600108A")]
-		[Address(RVA = "0x4A3BBB0", Offset = "0x4A3BBB0", VA = "0x4A3BBB0")]
+		[Address(RVA = "0x4D60A10", Offset = "0x4D60A10", VA = "0x4D60A10")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600108B")]
-		[Address(RVA = "0x4A3BC20", Offset = "0x4A3BC20", VA = "0x4A3BC20")]
+		[Address(RVA = "0x4D60A80", Offset = "0x4D60A80", VA = "0x4D60A80")]
 		[CompilerGenerated]
 		set
 		{
@@ -117,32 +124,32 @@ public sealed class Recursion : Recursion<object>
 	}
 
 	[Token(Token = "0x6001087")]
-	[Address(RVA = "0x4A3BAB0", Offset = "0x4A3BAB0", VA = "0x4A3BAB0")]
+	[Address(RVA = "0x4D60910", Offset = "0x4D60910", VA = "0x4D60910")]
 	private Recursion()
 	{
 	}
 
 	[Token(Token = "0x600108C")]
-	[Address(RVA = "0x4A3BC70", Offset = "0x4A3BC70", VA = "0x4A3BC70")]
+	[Address(RVA = "0x4D60AD0", Offset = "0x4D60AD0", VA = "0x4D60AD0")]
 	internal static void OnRuntimeMethodLoad()
 	{
 	}
 
 	[Token(Token = "0x600108D")]
-	[Address(RVA = "0x4A3BD80", Offset = "0x4A3BD80", VA = "0x4A3BD80", Slot = "7")]
+	[Address(RVA = "0x4D60BE0", Offset = "0x4D60BE0", VA = "0x4D60BE0", Slot = "7")]
 	protected override void Free()
 	{
 	}
 
 	[Token(Token = "0x600108E")]
-	[Address(RVA = "0x4A3BDE0", Offset = "0x4A3BDE0", VA = "0x4A3BDE0")]
+	[Address(RVA = "0x4D60C40", Offset = "0x4D60C40", VA = "0x4D60C40")]
 	public new static Recursion New()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600108F")]
-	[Address(RVA = "0x4A3BE90", Offset = "0x4A3BE90", VA = "0x4A3BE90")]
+	[Address(RVA = "0x4D60CF0", Offset = "0x4D60CF0", VA = "0x4D60CF0")]
 	public new static Recursion New(int maxDepth)
 	{
 		return null;

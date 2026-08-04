@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.IPHostEntry
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Net;
@@ -25,13 +32,13 @@ public class IPHostEntry
 	public string HostName
 	{
 		[Token(Token = "0x60007C7")]
-		[Address(RVA = "0x4638F70", Offset = "0x4638F70", VA = "0x4638F70")]
+		[Address(RVA = "0x495E070", Offset = "0x495E070", VA = "0x495E070")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007C8")]
-		[Address(RVA = "0x4638F80", Offset = "0x4638F80", VA = "0x4638F80")]
+		[Address(RVA = "0x495E080", Offset = "0x495E080", VA = "0x495E080")]
 		set
 		{
 		}
@@ -41,7 +48,7 @@ public class IPHostEntry
 	public string[] Aliases
 	{
 		[Token(Token = "0x60007C9")]
-		[Address(RVA = "0x4638F90", Offset = "0x4638F90", VA = "0x4638F90")]
+		[Address(RVA = "0x495E090", Offset = "0x495E090", VA = "0x495E090")]
 		set
 		{
 		}
@@ -51,20 +58,20 @@ public class IPHostEntry
 	public IPAddress[] AddressList
 	{
 		[Token(Token = "0x60007CA")]
-		[Address(RVA = "0x4638FA0", Offset = "0x4638FA0", VA = "0x4638FA0")]
+		[Address(RVA = "0x495E0A0", Offset = "0x495E0A0", VA = "0x495E0A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007CB")]
-		[Address(RVA = "0x4638FB0", Offset = "0x4638FB0", VA = "0x4638FB0")]
+		[Address(RVA = "0x495E0B0", Offset = "0x495E0B0", VA = "0x495E0B0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60007CC")]
-	[Address(RVA = "0x4638FC0", Offset = "0x4638FC0", VA = "0x4638FC0")]
+	[Address(RVA = "0x495E0C0", Offset = "0x495E0C0", VA = "0x495E0C0")]
 	public IPHostEntry()
 	{
 	}

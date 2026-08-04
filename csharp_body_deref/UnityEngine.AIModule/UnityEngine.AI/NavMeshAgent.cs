@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.AI.NavMeshAgent
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -17,7 +24,7 @@ public sealed class NavMeshAgent : Behaviour
 	public float stoppingDistance
 	{
 		[Token(Token = "0x6000009")]
-		[Address(RVA = "0x4A685B0", Offset = "0x4A685B0", VA = "0x4A685B0")]
+		[Address(RVA = "0x4D8FDD0", Offset = "0x4D8FDD0", VA = "0x4D8FDD0")]
 		set
 		{
 		}
@@ -27,7 +34,7 @@ public sealed class NavMeshAgent : Behaviour
 	public Vector3 velocity
 	{
 		[Token(Token = "0x600000A")]
-		[Address(RVA = "0x4A686B0", Offset = "0x4A686B0", VA = "0x4A686B0")]
+		[Address(RVA = "0x4D8FED0", Offset = "0x4D8FED0", VA = "0x4D8FED0")]
 		get
 		{
 			return default(Vector3);
@@ -39,7 +46,7 @@ public sealed class NavMeshAgent : Behaviour
 	public Vector3 nextPosition
 	{
 		[Token(Token = "0x600000B")]
-		[Address(RVA = "0x4A687B0", Offset = "0x4A687B0", VA = "0x4A687B0")]
+		[Address(RVA = "0x4D8FFD0", Offset = "0x4D8FFD0", VA = "0x4D8FFD0")]
 		set
 		{
 		}
@@ -49,7 +56,7 @@ public sealed class NavMeshAgent : Behaviour
 	public bool autoBraking
 	{
 		[Token(Token = "0x600000C")]
-		[Address(RVA = "0x4A688A0", Offset = "0x4A688A0", VA = "0x4A688A0")]
+		[Address(RVA = "0x4D900C0", Offset = "0x4D900C0", VA = "0x4D900C0")]
 		set
 		{
 		}
@@ -59,7 +66,7 @@ public sealed class NavMeshAgent : Behaviour
 	public bool autoRepath
 	{
 		[Token(Token = "0x600000D")]
-		[Address(RVA = "0x4A68980", Offset = "0x4A68980", VA = "0x4A68980")]
+		[Address(RVA = "0x4D901A0", Offset = "0x4D901A0", VA = "0x4D901A0")]
 		set
 		{
 		}
@@ -69,7 +76,7 @@ public sealed class NavMeshAgent : Behaviour
 	public bool pathPending
 	{
 		[Token(Token = "0x600000E")]
-		[Address(RVA = "0x4A68A60", Offset = "0x4A68A60", VA = "0x4A68A60")]
+		[Address(RVA = "0x4D90280", Offset = "0x4D90280", VA = "0x4D90280")]
 		[UnityEngine.Bindings.NativeName("PathPending")]
 		get
 		{
@@ -81,7 +88,7 @@ public sealed class NavMeshAgent : Behaviour
 	public int agentTypeID
 	{
 		[Token(Token = "0x600000F")]
-		[Address(RVA = "0x4A68B30", Offset = "0x4A68B30", VA = "0x4A68B30")]
+		[Address(RVA = "0x4D90350", Offset = "0x4D90350", VA = "0x4D90350")]
 		set
 		{
 		}
@@ -91,7 +98,7 @@ public sealed class NavMeshAgent : Behaviour
 	public float speed
 	{
 		[Token(Token = "0x6000010")]
-		[Address(RVA = "0x4A68C10", Offset = "0x4A68C10", VA = "0x4A68C10")]
+		[Address(RVA = "0x4D90430", Offset = "0x4D90430", VA = "0x4D90430")]
 		set
 		{
 		}
@@ -101,7 +108,7 @@ public sealed class NavMeshAgent : Behaviour
 	public float angularSpeed
 	{
 		[Token(Token = "0x6000011")]
-		[Address(RVA = "0x4A68D10", Offset = "0x4A68D10", VA = "0x4A68D10")]
+		[Address(RVA = "0x4D90530", Offset = "0x4D90530", VA = "0x4D90530")]
 		set
 		{
 		}
@@ -111,7 +118,7 @@ public sealed class NavMeshAgent : Behaviour
 	public float acceleration
 	{
 		[Token(Token = "0x6000012")]
-		[Address(RVA = "0x4A68E10", Offset = "0x4A68E10", VA = "0x4A68E10")]
+		[Address(RVA = "0x4D90630", Offset = "0x4D90630", VA = "0x4D90630")]
 		set
 		{
 		}
@@ -121,7 +128,7 @@ public sealed class NavMeshAgent : Behaviour
 	public bool updatePosition
 	{
 		[Token(Token = "0x6000013")]
-		[Address(RVA = "0x4A68F10", Offset = "0x4A68F10", VA = "0x4A68F10")]
+		[Address(RVA = "0x4D90730", Offset = "0x4D90730", VA = "0x4D90730")]
 		set
 		{
 		}
@@ -131,7 +138,7 @@ public sealed class NavMeshAgent : Behaviour
 	public bool updateRotation
 	{
 		[Token(Token = "0x6000014")]
-		[Address(RVA = "0x4A68FF0", Offset = "0x4A68FF0", VA = "0x4A68FF0")]
+		[Address(RVA = "0x4D90810", Offset = "0x4D90810", VA = "0x4D90810")]
 		set
 		{
 		}
@@ -141,7 +148,7 @@ public sealed class NavMeshAgent : Behaviour
 	public float radius
 	{
 		[Token(Token = "0x6000015")]
-		[Address(RVA = "0x4A690D0", Offset = "0x4A690D0", VA = "0x4A690D0")]
+		[Address(RVA = "0x4D908F0", Offset = "0x4D908F0", VA = "0x4D908F0")]
 		set
 		{
 		}
@@ -151,7 +158,7 @@ public sealed class NavMeshAgent : Behaviour
 	public float height
 	{
 		[Token(Token = "0x6000016")]
-		[Address(RVA = "0x4A691D0", Offset = "0x4A691D0", VA = "0x4A691D0")]
+		[Address(RVA = "0x4D909F0", Offset = "0x4D909F0", VA = "0x4D909F0")]
 		set
 		{
 		}
@@ -161,7 +168,7 @@ public sealed class NavMeshAgent : Behaviour
 	public ObstacleAvoidanceType obstacleAvoidanceType
 	{
 		[Token(Token = "0x6000017")]
-		[Address(RVA = "0x4A692D0", Offset = "0x4A692D0", VA = "0x4A692D0")]
+		[Address(RVA = "0x4D90AF0", Offset = "0x4D90AF0", VA = "0x4D90AF0")]
 		set
 		{
 		}
@@ -171,7 +178,7 @@ public sealed class NavMeshAgent : Behaviour
 	public int avoidancePriority
 	{
 		[Token(Token = "0x6000018")]
-		[Address(RVA = "0x4A693B0", Offset = "0x4A693B0", VA = "0x4A693B0")]
+		[Address(RVA = "0x4D90BD0", Offset = "0x4D90BD0", VA = "0x4D90BD0")]
 		set
 		{
 		}
@@ -181,7 +188,7 @@ public sealed class NavMeshAgent : Behaviour
 	public bool isOnNavMesh
 	{
 		[Token(Token = "0x6000019")]
-		[Address(RVA = "0x4A69490", Offset = "0x4A69490", VA = "0x4A69490")]
+		[Address(RVA = "0x4D90CB0", Offset = "0x4D90CB0", VA = "0x4D90CB0")]
 		[UnityEngine.Bindings.NativeName("InCrowdSystem")]
 		get
 		{
@@ -190,7 +197,7 @@ public sealed class NavMeshAgent : Behaviour
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x4A684C0", Offset = "0x4A684C0", VA = "0x4A684C0")]
+	[Address(RVA = "0x4D8FCE0", Offset = "0x4D8FCE0", VA = "0x4D8FCE0")]
 	public bool SetDestination(Vector3 target)
 	{
 		return default(bool);
@@ -198,91 +205,91 @@ public sealed class NavMeshAgent : Behaviour
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x4A68570", Offset = "0x4A68570", VA = "0x4A68570")]
+	[Address(RVA = "0x4D8FD90", Offset = "0x4D8FD90", VA = "0x4D8FD90")]
 	private static extern bool SetDestination_Injected(IntPtr _unity_self, [In] ref Vector3 target);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x4A68660", Offset = "0x4A68660", VA = "0x4A68660")]
+	[Address(RVA = "0x4D8FE80", Offset = "0x4D8FE80", VA = "0x4D8FE80")]
 	private static extern void set_stoppingDistance_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x4A68770", Offset = "0x4A68770", VA = "0x4A68770")]
+	[Address(RVA = "0x4D8FF90", Offset = "0x4D8FF90", VA = "0x4D8FF90")]
 	private static extern void get_velocity_Injected(IntPtr _unity_self, out Vector3 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x4A68860", Offset = "0x4A68860", VA = "0x4A68860")]
+	[Address(RVA = "0x4D90080", Offset = "0x4D90080", VA = "0x4D90080")]
 	private static extern void set_nextPosition_Injected(IntPtr _unity_self, [In] ref Vector3 value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x4A68940", Offset = "0x4A68940", VA = "0x4A68940")]
+	[Address(RVA = "0x4D90160", Offset = "0x4D90160", VA = "0x4D90160")]
 	private static extern void set_autoBraking_Injected(IntPtr _unity_self, bool value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x4A68A20", Offset = "0x4A68A20", VA = "0x4A68A20")]
+	[Address(RVA = "0x4D90240", Offset = "0x4D90240", VA = "0x4D90240")]
 	private static extern void set_autoRepath_Injected(IntPtr _unity_self, bool value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x4A68B00", Offset = "0x4A68B00", VA = "0x4A68B00")]
+	[Address(RVA = "0x4D90320", Offset = "0x4D90320", VA = "0x4D90320")]
 	private static extern bool get_pathPending_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x4A68BD0", Offset = "0x4A68BD0", VA = "0x4A68BD0")]
+	[Address(RVA = "0x4D903F0", Offset = "0x4D903F0", VA = "0x4D903F0")]
 	private static extern void set_agentTypeID_Injected(IntPtr _unity_self, int value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x4A68CC0", Offset = "0x4A68CC0", VA = "0x4A68CC0")]
+	[Address(RVA = "0x4D904E0", Offset = "0x4D904E0", VA = "0x4D904E0")]
 	private static extern void set_speed_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x4A68DC0", Offset = "0x4A68DC0", VA = "0x4A68DC0")]
+	[Address(RVA = "0x4D905E0", Offset = "0x4D905E0", VA = "0x4D905E0")]
 	private static extern void set_angularSpeed_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x4A68EC0", Offset = "0x4A68EC0", VA = "0x4A68EC0")]
+	[Address(RVA = "0x4D906E0", Offset = "0x4D906E0", VA = "0x4D906E0")]
 	private static extern void set_acceleration_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x4A68FB0", Offset = "0x4A68FB0", VA = "0x4A68FB0")]
+	[Address(RVA = "0x4D907D0", Offset = "0x4D907D0", VA = "0x4D907D0")]
 	private static extern void set_updatePosition_Injected(IntPtr _unity_self, bool value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x4A69090", Offset = "0x4A69090", VA = "0x4A69090")]
+	[Address(RVA = "0x4D908B0", Offset = "0x4D908B0", VA = "0x4D908B0")]
 	private static extern void set_updateRotation_Injected(IntPtr _unity_self, bool value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x4A69180", Offset = "0x4A69180", VA = "0x4A69180")]
+	[Address(RVA = "0x4D909A0", Offset = "0x4D909A0", VA = "0x4D909A0")]
 	private static extern void set_radius_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x4A69280", Offset = "0x4A69280", VA = "0x4A69280")]
+	[Address(RVA = "0x4D90AA0", Offset = "0x4D90AA0", VA = "0x4D90AA0")]
 	private static extern void set_height_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x4A69370", Offset = "0x4A69370", VA = "0x4A69370")]
+	[Address(RVA = "0x4D90B90", Offset = "0x4D90B90", VA = "0x4D90B90")]
 	private static extern void set_obstacleAvoidanceType_Injected(IntPtr _unity_self, ObstacleAvoidanceType value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x4A69450", Offset = "0x4A69450", VA = "0x4A69450")]
+	[Address(RVA = "0x4D90C70", Offset = "0x4D90C70", VA = "0x4D90C70")]
 	private static extern void set_avoidancePriority_Injected(IntPtr _unity_self, int value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x4A69530", Offset = "0x4A69530", VA = "0x4A69530")]
+	[Address(RVA = "0x4D90D50", Offset = "0x4D90D50", VA = "0x4D90D50")]
 	private static extern bool get_isOnNavMesh_Injected(IntPtr _unity_self);
 }

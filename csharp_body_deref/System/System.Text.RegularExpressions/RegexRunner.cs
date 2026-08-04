@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.RegularExpressions.RegexRunner
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Text.RegularExpressions;
@@ -81,32 +88,32 @@ public abstract class RegexRunner
 	private int _timeoutChecksToSkip;
 
 	[Token(Token = "0x6000439")]
-	[Address(RVA = "0x45EE860", Offset = "0x45EE860", VA = "0x45EE860")]
+	[Address(RVA = "0x4913960", Offset = "0x4913960", VA = "0x4913960")]
 	protected internal RegexRunner()
 	{
 	}
 
 	[Token(Token = "0x600043A")]
-	[Address(RVA = "0x45FB550", Offset = "0x45FB550", VA = "0x45FB550")]
+	[Address(RVA = "0x4920650", Offset = "0x4920650", VA = "0x4920650")]
 	protected internal Match Scan(Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, TimeSpan timeout)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600043B")]
-	[Address(RVA = "0x45FB910", Offset = "0x45FB910", VA = "0x45FB910")]
+	[Address(RVA = "0x4920A10", Offset = "0x4920A10", VA = "0x4920A10")]
 	private void StartTimeoutWatch()
 	{
 	}
 
 	[Token(Token = "0x600043C")]
-	[Address(RVA = "0x45F1F00", Offset = "0x45F1F00", VA = "0x45F1F00")]
+	[Address(RVA = "0x4917000", Offset = "0x4917000", VA = "0x4917000")]
 	protected void CheckTimeout()
 	{
 	}
 
 	[Token(Token = "0x600043D")]
-	[Address(RVA = "0x45FBC10", Offset = "0x45FBC10", VA = "0x45FBC10")]
+	[Address(RVA = "0x4920D10", Offset = "0x4920D10", VA = "0x4920D10")]
 	private void DoCheckTimeout()
 	{
 	}
@@ -121,110 +128,110 @@ public abstract class RegexRunner
 	protected abstract void InitTrackCount();
 
 	[Token(Token = "0x6000441")]
-	[Address(RVA = "0x45FB940", Offset = "0x45FB940", VA = "0x45FB940")]
+	[Address(RVA = "0x4920A40", Offset = "0x4920A40", VA = "0x4920A40")]
 	private void InitMatch()
 	{
 	}
 
 	[Token(Token = "0x6000442")]
-	[Address(RVA = "0x45FBBB0", Offset = "0x45FBBB0", VA = "0x45FBBB0")]
+	[Address(RVA = "0x4920CB0", Offset = "0x4920CB0", VA = "0x4920CB0")]
 	private Match TidyMatch(bool quick)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000443")]
-	[Address(RVA = "0x45EE9D0", Offset = "0x45EE9D0", VA = "0x45EE9D0")]
+	[Address(RVA = "0x4913AD0", Offset = "0x4913AD0", VA = "0x4913AD0")]
 	protected void EnsureStorage()
 	{
 	}
 
 	[Token(Token = "0x6000444")]
-	[Address(RVA = "0x45F21C0", Offset = "0x45F21C0", VA = "0x45F21C0")]
+	[Address(RVA = "0x49172C0", Offset = "0x49172C0", VA = "0x49172C0")]
 	protected bool IsBoundary(int index, int startpos, int endpos)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000445")]
-	[Address(RVA = "0x45F22A0", Offset = "0x45F22A0", VA = "0x45F22A0")]
+	[Address(RVA = "0x49173A0", Offset = "0x49173A0", VA = "0x49173A0")]
 	protected bool IsECMABoundary(int index, int startpos, int endpos)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000446")]
-	[Address(RVA = "0x45FBD60", Offset = "0x45FBD60", VA = "0x45FBD60")]
+	[Address(RVA = "0x4920E60", Offset = "0x4920E60", VA = "0x4920E60")]
 	protected void DoubleTrack()
 	{
 	}
 
 	[Token(Token = "0x6000447")]
-	[Address(RVA = "0x45FBCD0", Offset = "0x45FBCD0", VA = "0x45FBCD0")]
+	[Address(RVA = "0x4920DD0", Offset = "0x4920DD0", VA = "0x4920DD0")]
 	protected void DoubleStack()
 	{
 	}
 
 	[Token(Token = "0x6000448")]
-	[Address(RVA = "0x45FBDF0", Offset = "0x45FBDF0", VA = "0x45FBDF0")]
+	[Address(RVA = "0x4920EF0", Offset = "0x4920EF0", VA = "0x4920EF0")]
 	protected void DoubleCrawl()
 	{
 	}
 
 	[Token(Token = "0x6000449")]
-	[Address(RVA = "0x45FBE80", Offset = "0x45FBE80", VA = "0x45FBE80")]
+	[Address(RVA = "0x4920F80", Offset = "0x4920F80", VA = "0x4920F80")]
 	protected void Crawl(int i)
 	{
 	}
 
 	[Token(Token = "0x600044A")]
-	[Address(RVA = "0x45FBED0", Offset = "0x45FBED0", VA = "0x45FBED0")]
+	[Address(RVA = "0x4920FD0", Offset = "0x4920FD0", VA = "0x4920FD0")]
 	protected int Popcrawl()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600044B")]
-	[Address(RVA = "0x45F21A0", Offset = "0x45F21A0", VA = "0x45F21A0")]
+	[Address(RVA = "0x49172A0", Offset = "0x49172A0", VA = "0x49172A0")]
 	protected int Crawlpos()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600044C")]
-	[Address(RVA = "0x45F20C0", Offset = "0x45F20C0", VA = "0x45F20C0")]
+	[Address(RVA = "0x49171C0", Offset = "0x49171C0", VA = "0x49171C0")]
 	protected void Capture(int capnum, int start, int end)
 	{
 	}
 
 	[Token(Token = "0x600044D")]
-	[Address(RVA = "0x45F1F40", Offset = "0x45F1F40", VA = "0x45F1F40")]
+	[Address(RVA = "0x4917040", Offset = "0x4917040", VA = "0x4917040")]
 	protected void TransferCapture(int capnum, int uncapnum, int start, int end)
 	{
 	}
 
 	[Token(Token = "0x600044E")]
-	[Address(RVA = "0x45F2150", Offset = "0x45F2150", VA = "0x45F2150")]
+	[Address(RVA = "0x4917250", Offset = "0x4917250", VA = "0x4917250")]
 	protected void Uncapture()
 	{
 	}
 
 	[Token(Token = "0x600044F")]
-	[Address(RVA = "0x45F1F10", Offset = "0x45F1F10", VA = "0x45F1F10")]
+	[Address(RVA = "0x4917010", Offset = "0x4917010", VA = "0x4917010")]
 	protected bool IsMatched(int cap)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000450")]
-	[Address(RVA = "0x45F2380", Offset = "0x45F2380", VA = "0x45F2380")]
+	[Address(RVA = "0x4917480", Offset = "0x4917480", VA = "0x4917480")]
 	protected int MatchIndex(int cap)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000451")]
-	[Address(RVA = "0x45F23B0", Offset = "0x45F23B0", VA = "0x45F23B0")]
+	[Address(RVA = "0x49174B0", Offset = "0x49174B0", VA = "0x49174B0")]
 	protected int MatchLength(int cap)
 	{
 		return default(int);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MS.Internal.Xml.XPath.FilterQuery
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.XPath;
 using System.Xml.Xsl;
 using Il2CppDummyDll;
@@ -19,7 +26,7 @@ internal sealed class FilterQuery : BaseAxisQuery
 	public Query Condition
 	{
 		[Token(Token = "0x6001AEE")]
-		[Address(RVA = "0x443DA80", Offset = "0x443DA80", VA = "0x443DA80")]
+		[Address(RVA = "0x477B1E0", Offset = "0x477B1E0", VA = "0x477B1E0")]
 		get
 		{
 			return null;
@@ -30,7 +37,7 @@ internal sealed class FilterQuery : BaseAxisQuery
 	public override QueryProps Properties
 	{
 		[Token(Token = "0x6001AF2")]
-		[Address(RVA = "0x443DD80", Offset = "0x443DD80", VA = "0x443DD80", Slot = "17")]
+		[Address(RVA = "0x477B4E0", Offset = "0x477B4E0", VA = "0x477B4E0", Slot = "17")]
 		get
 		{
 			return default(QueryProps);
@@ -38,45 +45,45 @@ internal sealed class FilterQuery : BaseAxisQuery
 	}
 
 	[Token(Token = "0x6001AEB")]
-	[Address(RVA = "0x443D920", Offset = "0x443D920", VA = "0x443D920")]
+	[Address(RVA = "0x477B080", Offset = "0x477B080", VA = "0x477B080")]
 	public FilterQuery(Query qyParent, Query cond, bool noPosition)
 	{
 	}
 
 	[Token(Token = "0x6001AEC")]
-	[Address(RVA = "0x443D9D0", Offset = "0x443D9D0", VA = "0x443D9D0")]
+	[Address(RVA = "0x477B130", Offset = "0x477B130", VA = "0x477B130")]
 	private FilterQuery(FilterQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001AED")]
-	[Address(RVA = "0x443DA20", Offset = "0x443DA20", VA = "0x443DA20", Slot = "12")]
+	[Address(RVA = "0x477B180", Offset = "0x477B180", VA = "0x477B180", Slot = "12")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001AEF")]
-	[Address(RVA = "0x443DA90", Offset = "0x443DA90", VA = "0x443DA90", Slot = "13")]
+	[Address(RVA = "0x477B1F0", Offset = "0x477B1F0", VA = "0x477B1F0", Slot = "13")]
 	public override void SetXsltContext(XsltContext input)
 	{
 	}
 
 	[Token(Token = "0x6001AF0")]
-	[Address(RVA = "0x443DBC0", Offset = "0x443DBC0", VA = "0x443DBC0", Slot = "15")]
+	[Address(RVA = "0x477B320", Offset = "0x477B320", VA = "0x477B320", Slot = "15")]
 	public override XPathNavigator Advance()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001AF1")]
-	[Address(RVA = "0x443DC40", Offset = "0x443DC40", VA = "0x443DC40")]
+	[Address(RVA = "0x477B3A0", Offset = "0x477B3A0", VA = "0x477B3A0")]
 	internal bool EvaluatePredicate()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001AF3")]
-	[Address(RVA = "0x443DDB0", Offset = "0x443DDB0", VA = "0x443DDB0", Slot = "6")]
+	[Address(RVA = "0x477B510", Offset = "0x477B510", VA = "0x477B510", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

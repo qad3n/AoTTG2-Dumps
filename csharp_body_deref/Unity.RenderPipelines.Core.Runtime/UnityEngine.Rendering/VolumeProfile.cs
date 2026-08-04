@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.VolumeProfile
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -17,19 +24,19 @@ public sealed class VolumeProfile : ScriptableObject
 	public bool isDirty;
 
 	[Token(Token = "0x6000E1E")]
-	[Address(RVA = "0x48E78E0", Offset = "0x48E78E0", VA = "0x48E78E0")]
+	[Address(RVA = "0x4C0C950", Offset = "0x4C0C950", VA = "0x4C0C950")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000E1F")]
-	[Address(RVA = "0x48E7A10", Offset = "0x48E7A10", VA = "0x48E7A10")]
+	[Address(RVA = "0x4C0CA80", Offset = "0x4C0CA80", VA = "0x4C0CA80")]
 	internal void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000E20")]
-	[Address(RVA = "0x48E7AF0", Offset = "0x48E7AF0", VA = "0x48E7AF0")]
+	[Address(RVA = "0x4C0CB60", Offset = "0x4C0CB60", VA = "0x4C0CB60")]
 	public void Reset()
 	{
 	}
@@ -41,7 +48,7 @@ public sealed class VolumeProfile : ScriptableObject
 	}
 
 	[Token(Token = "0x6000E22")]
-	[Address(RVA = "0x48E7B00", Offset = "0x48E7B00", VA = "0x48E7B00")]
+	[Address(RVA = "0x4C0CB70", Offset = "0x4C0CB70", VA = "0x4C0CB70")]
 	public VolumeComponent Add(Type type, bool overrides = false)
 	{
 		return null;
@@ -53,7 +60,7 @@ public sealed class VolumeProfile : ScriptableObject
 	}
 
 	[Token(Token = "0x6000E24")]
-	[Address(RVA = "0x48E7E30", Offset = "0x48E7E30", VA = "0x48E7E30")]
+	[Address(RVA = "0x4C0CEA0", Offset = "0x4C0CEA0", VA = "0x4C0CEA0")]
 	public void Remove(Type type)
 	{
 	}
@@ -65,14 +72,14 @@ public sealed class VolumeProfile : ScriptableObject
 	}
 
 	[Token(Token = "0x6000E26")]
-	[Address(RVA = "0x48E7C60", Offset = "0x48E7C60", VA = "0x48E7C60")]
+	[Address(RVA = "0x4C0CCD0", Offset = "0x4C0CCD0", VA = "0x4C0CCD0")]
 	public bool Has(Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E27")]
-	[Address(RVA = "0x48E7F30", Offset = "0x48E7F30", VA = "0x48E7F30")]
+	[Address(RVA = "0x4C0CFA0", Offset = "0x4C0CFA0", VA = "0x4C0CFA0")]
 	public bool HasSubclassOf(Type type)
 	{
 		return default(bool);
@@ -103,27 +110,27 @@ public sealed class VolumeProfile : ScriptableObject
 	}
 
 	[Token(Token = "0x6000E2C")]
-	[Address(RVA = "0x48E80F0", Offset = "0x48E80F0", VA = "0x48E80F0", Slot = "2")]
+	[Address(RVA = "0x4C0D160", Offset = "0x4C0D160", VA = "0x4C0D160", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000E2D")]
-	[Address(RVA = "0x48E81A0", Offset = "0x48E81A0", VA = "0x48E81A0")]
+	[Address(RVA = "0x4C0D210", Offset = "0x4C0D210", VA = "0x4C0D210")]
 	internal int GetComponentListHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000E2E")]
-	[Address(RVA = "0x48E8260", Offset = "0x48E8260", VA = "0x48E8260")]
+	[Address(RVA = "0x4C0D2D0", Offset = "0x4C0D2D0", VA = "0x4C0D2D0")]
 	internal void Sanitize()
 	{
 	}
 
 	[Token(Token = "0x6000E2F")]
-	[Address(RVA = "0x48E8350", Offset = "0x48E8350", VA = "0x48E8350")]
+	[Address(RVA = "0x4C0D3C0", Offset = "0x4C0D3C0", VA = "0x4C0D3C0")]
 	public VolumeProfile()
 	{
 	}

@@ -1,16 +1,16 @@
 // Type: PatreonEffects.NameEffectSettings
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/PatreonEffects/NameEffectSettings.cs
-// Prior source: NEW in this update
+// Prior real C# source: none
 // --------------------------------
 
 // PatreonEffects.NameEffectSettings$$.ctor
 // il2cpp: void PatreonEffects_NameEffectSettings___ctor (PatreonEffects_NameEffectSettings_o* __this, const MethodInfo* method);
-// 0x4033c70
+// 0x43293a0
 
-void PatreonEffects_NameEffectSettings___ctor
-               (PatreonEffects_NameEffectSettings_o *__this,MethodInfo *method)
+void PatreonEffects_NameEffectSettings___ctor(PatreonEffects_NameEffectSettings_o *__this,MethodInfo *method)
 
 {
   (__this->fields).gradientA.fields.r = 0.78;

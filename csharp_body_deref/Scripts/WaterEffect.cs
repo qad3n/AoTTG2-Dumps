@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: WaterEffect
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/WaterEffect.c
+// Prior real C# source (older reference): Assets/Scripts/Effects/WaterEffect.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using Settings;
 using UnityEngine;
@@ -37,32 +44,32 @@ public class WaterEffect : MonoBehaviour
 	private bool _fogEnabled;
 
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x3C66AE0", Offset = "0x3C66AE0", VA = "0x3C66AE0")]
+	[Address(RVA = "0x3F5C430", Offset = "0x3F5C430", VA = "0x3F5C430")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x3C64780", Offset = "0x3C64780", VA = "0x3C64780")]
+	[Address(RVA = "0x3F5A0D0", Offset = "0x3F5A0D0", VA = "0x3F5A0D0")]
 	public void ApplySettings(WaterFXLevel wfxl)
 	{
 	}
 
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x3C66D60", Offset = "0x3C66D60", VA = "0x3C66D60")]
+	[Address(RVA = "0x3F5C6B0", Offset = "0x3F5C6B0", VA = "0x3F5C6B0")]
 	private bool IsInsideBounds(Vector3 worldPos, BoxCollider bc)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x3C66ED0", Offset = "0x3C66ED0", VA = "0x3C66ED0")]
+	[Address(RVA = "0x3F5C820", Offset = "0x3F5C820", VA = "0x3F5C820")]
 	private void FixedUpdate()
 	{
 	}
 
 	[Token(Token = "0x600002E")]
-	[Address(RVA = "0x3C66FE0", Offset = "0x3C66FE0", VA = "0x3C66FE0")]
+	[Address(RVA = "0x3F5C930", Offset = "0x3F5C930", VA = "0x3F5C930")]
 	public WaterEffect()
 	{
 	}

@@ -1,21 +1,22 @@
 // Type: Characters.VerticalDashPerk
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/VerticalDashPerk.cs
-// Prior real C# source (REFERENCE, outdated): Assets/Scripts/Characters/Human/Perks/VerticalDashPerk.cs  [prior source available (delta unverified)]
+// Prior real C# source (older reference): Assets/Scripts/Characters/Human/Perks/VerticalDashPerk.cs
 // --------------------------------
 
 // Characters.VerticalDashPerk$$get_Name
 // il2cpp: System_String_o* Characters_VerticalDashPerk__get_Name (Characters_VerticalDashPerk_o* __this, const MethodInfo* method);
-// 0x3fda770
+// 0x42e7030
 
 System_String_o *
 Characters_VerticalDashPerk__get_Name(Characters_VerticalDashPerk_o *__this,MethodInfo *method)
 
 {
-  if (DAT_05704117 == '\0') {
-    il2cpp_init_method_metadata(&"VerticalDash");
-    DAT_05704117 = '\x01';
+  if (g_data_057ade85 == '\0') {
+    il2cpp_runtime_helper_023445d0(&"VerticalDash");
+    g_data_057ade85 = '\x01';
   }
   return "VerticalDash";
 }
@@ -23,10 +24,9 @@ Characters_VerticalDashPerk__get_Name(Characters_VerticalDashPerk_o *__this,Meth
 
 // Characters.VerticalDashPerk$$get_MaxPoints
 // il2cpp: int32_t Characters_VerticalDashPerk__get_MaxPoints (Characters_VerticalDashPerk_o* __this, const MethodInfo* method);
-// 0x3fda7a0
+// 0x42e7060
 
-int32_t Characters_VerticalDashPerk__get_MaxPoints
-                  (Characters_VerticalDashPerk_o *__this,MethodInfo *method)
+int32_t Characters_VerticalDashPerk__get_MaxPoints(Characters_VerticalDashPerk_o *__this,MethodInfo *method)
 
 {
   return 1;
@@ -35,10 +35,9 @@ int32_t Characters_VerticalDashPerk__get_MaxPoints
 
 // Characters.VerticalDashPerk$$get_MaxPower
 // il2cpp: float Characters_VerticalDashPerk__get_MaxPower (Characters_VerticalDashPerk_o* __this, const MethodInfo* method);
-// 0x3fda7b0
+// 0x42e7070
 
-float Characters_VerticalDashPerk__get_MaxPower
-                (Characters_VerticalDashPerk_o *__this,MethodInfo *method)
+float Characters_VerticalDashPerk__get_MaxPower(Characters_VerticalDashPerk_o *__this,MethodInfo *method)
 
 {
   return 100.0;
@@ -47,10 +46,9 @@ float Characters_VerticalDashPerk__get_MaxPower
 
 // Characters.VerticalDashPerk$$get_MinPower
 // il2cpp: float Characters_VerticalDashPerk__get_MinPower (Characters_VerticalDashPerk_o* __this, const MethodInfo* method);
-// 0x3fda7c0
+// 0x42e7080
 
-float Characters_VerticalDashPerk__get_MinPower
-                (Characters_VerticalDashPerk_o *__this,MethodInfo *method)
+float Characters_VerticalDashPerk__get_MinPower(Characters_VerticalDashPerk_o *__this,MethodInfo *method)
 
 {
   return 0.0;
@@ -59,7 +57,7 @@ float Characters_VerticalDashPerk__get_MinPower
 
 // Characters.VerticalDashPerk$$get_PowerUsageDivisor
 // il2cpp: float Characters_VerticalDashPerk__get_PowerUsageDivisor (Characters_VerticalDashPerk_o* __this, const MethodInfo* method);
-// 0x3fda7d0
+// 0x42e7090
 
 float Characters_VerticalDashPerk__get_PowerUsageDivisor
                 (Characters_VerticalDashPerk_o *__this,MethodInfo *method)
@@ -71,7 +69,7 @@ float Characters_VerticalDashPerk__get_PowerUsageDivisor
 
 // Characters.VerticalDashPerk$$get_LinearRecoveryRate
 // il2cpp: float Characters_VerticalDashPerk__get_LinearRecoveryRate (Characters_VerticalDashPerk_o* __this, const MethodInfo* method);
-// 0x3fda7e0
+// 0x42e70a0
 
 float Characters_VerticalDashPerk__get_LinearRecoveryRate
                 (Characters_VerticalDashPerk_o *__this,MethodInfo *method)
@@ -83,7 +81,7 @@ float Characters_VerticalDashPerk__get_LinearRecoveryRate
 
 // Characters.VerticalDashPerk$$.ctor
 // il2cpp: void Characters_VerticalDashPerk___ctor (Characters_VerticalDashPerk_o* __this, const MethodInfo* method);
-// 0x3fd86e0
+// 0x42e4fa0
 
 void Characters_VerticalDashPerk___ctor(Characters_VerticalDashPerk_o *__this,MethodInfo *method)
 

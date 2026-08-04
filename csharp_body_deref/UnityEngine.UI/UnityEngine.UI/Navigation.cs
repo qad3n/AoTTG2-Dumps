@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.Navigation
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -58,13 +65,13 @@ public struct Navigation : IEquatable<Navigation>
 	public Mode mode
 	{
 		[Token(Token = "0x6000365")]
-		[Address(RVA = "0x4DB0F40", Offset = "0x4DB0F40", VA = "0x4DB0F40")]
+		[Address(RVA = "0x50D8890", Offset = "0x50D8890", VA = "0x50D8890")]
 		get
 		{
 			return default(Mode);
 		}
 		[Token(Token = "0x6000366")]
-		[Address(RVA = "0x4DB0F50", Offset = "0x4DB0F50", VA = "0x4DB0F50")]
+		[Address(RVA = "0x50D88A0", Offset = "0x50D88A0", VA = "0x50D88A0")]
 		set
 		{
 		}
@@ -74,13 +81,13 @@ public struct Navigation : IEquatable<Navigation>
 	public bool wrapAround
 	{
 		[Token(Token = "0x6000367")]
-		[Address(RVA = "0x4DB0F60", Offset = "0x4DB0F60", VA = "0x4DB0F60")]
+		[Address(RVA = "0x50D88B0", Offset = "0x50D88B0", VA = "0x50D88B0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000368")]
-		[Address(RVA = "0x4DB0F70", Offset = "0x4DB0F70", VA = "0x4DB0F70")]
+		[Address(RVA = "0x50D88C0", Offset = "0x50D88C0", VA = "0x50D88C0")]
 		set
 		{
 		}
@@ -90,13 +97,13 @@ public struct Navigation : IEquatable<Navigation>
 	public Selectable selectOnUp
 	{
 		[Token(Token = "0x6000369")]
-		[Address(RVA = "0x4DB0F80", Offset = "0x4DB0F80", VA = "0x4DB0F80")]
+		[Address(RVA = "0x50D88D0", Offset = "0x50D88D0", VA = "0x50D88D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600036A")]
-		[Address(RVA = "0x4DB0F90", Offset = "0x4DB0F90", VA = "0x4DB0F90")]
+		[Address(RVA = "0x50D88E0", Offset = "0x50D88E0", VA = "0x50D88E0")]
 		set
 		{
 		}
@@ -106,13 +113,13 @@ public struct Navigation : IEquatable<Navigation>
 	public Selectable selectOnDown
 	{
 		[Token(Token = "0x600036B")]
-		[Address(RVA = "0x4DB0FA0", Offset = "0x4DB0FA0", VA = "0x4DB0FA0")]
+		[Address(RVA = "0x50D88F0", Offset = "0x50D88F0", VA = "0x50D88F0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600036C")]
-		[Address(RVA = "0x4DB0FB0", Offset = "0x4DB0FB0", VA = "0x4DB0FB0")]
+		[Address(RVA = "0x50D8900", Offset = "0x50D8900", VA = "0x50D8900")]
 		set
 		{
 		}
@@ -122,13 +129,13 @@ public struct Navigation : IEquatable<Navigation>
 	public Selectable selectOnLeft
 	{
 		[Token(Token = "0x600036D")]
-		[Address(RVA = "0x4DB0FC0", Offset = "0x4DB0FC0", VA = "0x4DB0FC0")]
+		[Address(RVA = "0x50D8910", Offset = "0x50D8910", VA = "0x50D8910")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600036E")]
-		[Address(RVA = "0x4DB0FD0", Offset = "0x4DB0FD0", VA = "0x4DB0FD0")]
+		[Address(RVA = "0x50D8920", Offset = "0x50D8920", VA = "0x50D8920")]
 		set
 		{
 		}
@@ -138,13 +145,13 @@ public struct Navigation : IEquatable<Navigation>
 	public Selectable selectOnRight
 	{
 		[Token(Token = "0x600036F")]
-		[Address(RVA = "0x4DB0FE0", Offset = "0x4DB0FE0", VA = "0x4DB0FE0")]
+		[Address(RVA = "0x50D8930", Offset = "0x50D8930", VA = "0x50D8930")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000370")]
-		[Address(RVA = "0x4DB0FF0", Offset = "0x4DB0FF0", VA = "0x4DB0FF0")]
+		[Address(RVA = "0x50D8940", Offset = "0x50D8940", VA = "0x50D8940")]
 		set
 		{
 		}
@@ -154,7 +161,7 @@ public struct Navigation : IEquatable<Navigation>
 	public static Navigation defaultNavigation
 	{
 		[Token(Token = "0x6000371")]
-		[Address(RVA = "0x4DB1000", Offset = "0x4DB1000", VA = "0x4DB1000")]
+		[Address(RVA = "0x50D8950", Offset = "0x50D8950", VA = "0x50D8950")]
 		get
 		{
 			return default(Navigation);
@@ -162,7 +169,7 @@ public struct Navigation : IEquatable<Navigation>
 	}
 
 	[Token(Token = "0x6000372")]
-	[Address(RVA = "0x4DB1020", Offset = "0x4DB1020", VA = "0x4DB1020", Slot = "4")]
+	[Address(RVA = "0x50D8970", Offset = "0x50D8970", VA = "0x50D8970", Slot = "4")]
 	public bool Equals(Navigation other)
 	{
 		return default(bool);

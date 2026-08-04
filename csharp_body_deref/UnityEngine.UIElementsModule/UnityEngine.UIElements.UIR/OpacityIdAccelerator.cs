@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UIR.OpacityIdAccelerator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -28,7 +35,7 @@ internal class OpacityIdAccelerator : IDisposable
 		public Color32 opacityData;
 
 		[Token(Token = "0x6001D2F")]
-		[Address(RVA = "0x4C6D8C0", Offset = "0x4C6D8C0", VA = "0x4C6D8C0", Slot = "4")]
+		[Address(RVA = "0x4F951F0", Offset = "0x4F951F0", VA = "0x4F951F0", Slot = "4")]
 		public void Execute(int i)
 		{
 		}
@@ -46,14 +53,14 @@ internal class OpacityIdAccelerator : IDisposable
 	protected bool disposed
 	{
 		[Token(Token = "0x6001D2A")]
-		[Address(RVA = "0x4C6D760", Offset = "0x4C6D760", VA = "0x4C6D760")]
+		[Address(RVA = "0x4F95090", Offset = "0x4F95090", VA = "0x4F95090")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001D2B")]
-		[Address(RVA = "0x4C6D770", Offset = "0x4C6D770", VA = "0x4C6D770")]
+		[Address(RVA = "0x4F950A0", Offset = "0x4F950A0", VA = "0x4F950A0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -61,31 +68,31 @@ internal class OpacityIdAccelerator : IDisposable
 	}
 
 	[Token(Token = "0x6001D28")]
-	[Address(RVA = "0x4C6D5D0", Offset = "0x4C6D5D0", VA = "0x4C6D5D0")]
+	[Address(RVA = "0x4F94F00", Offset = "0x4F94F00", VA = "0x4F94F00")]
 	public void CreateJob(NativeSlice<Vertex> oldVerts, NativeSlice<Vertex> newVerts, Color32 opacityData, int vertexCount)
 	{
 	}
 
 	[Token(Token = "0x6001D29")]
-	[Address(RVA = "0x4C6D6D0", Offset = "0x4C6D6D0", VA = "0x4C6D6D0")]
+	[Address(RVA = "0x4F95000", Offset = "0x4F95000", VA = "0x4F95000")]
 	public void CompleteJobs()
 	{
 	}
 
 	[Token(Token = "0x6001D2C")]
-	[Address(RVA = "0x4C6D780", Offset = "0x4C6D780", VA = "0x4C6D780", Slot = "4")]
+	[Address(RVA = "0x4F950B0", Offset = "0x4F950B0", VA = "0x4F950B0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6001D2D")]
-	[Address(RVA = "0x4C6D7F0", Offset = "0x4C6D7F0", VA = "0x4C6D7F0", Slot = "5")]
+	[Address(RVA = "0x4F95120", Offset = "0x4F95120", VA = "0x4F95120", Slot = "5")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6001D2E")]
-	[Address(RVA = "0x4C6D850", Offset = "0x4C6D850", VA = "0x4C6D850")]
+	[Address(RVA = "0x4F95180", Offset = "0x4F95180", VA = "0x4F95180")]
 	public OpacityIdAccelerator()
 	{
 	}

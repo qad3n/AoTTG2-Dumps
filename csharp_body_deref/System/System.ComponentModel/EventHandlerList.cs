@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.EventHandlerList
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.ComponentModel;
@@ -21,7 +28,7 @@ public sealed class EventHandlerList : IDisposable
 		internal Delegate _handler;
 
 		[Token(Token = "0x6000E9F")]
-		[Address(RVA = "0x455D580", Offset = "0x455D580", VA = "0x455D580")]
+		[Address(RVA = "0x4882680", Offset = "0x4882680", VA = "0x4882680")]
 		public ListEntry(object key, Delegate handler, ListEntry next)
 		{
 		}
@@ -39,57 +46,57 @@ public sealed class EventHandlerList : IDisposable
 	public Delegate this[object key]
 	{
 		[Token(Token = "0x6000E98")]
-		[Address(RVA = "0x455D430", Offset = "0x455D430", VA = "0x455D430")]
+		[Address(RVA = "0x4882530", Offset = "0x4882530", VA = "0x4882530")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000E99")]
-		[Address(RVA = "0x455D4B0", Offset = "0x455D4B0", VA = "0x455D4B0")]
+		[Address(RVA = "0x48825B0", Offset = "0x48825B0", VA = "0x48825B0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000E96")]
-	[Address(RVA = "0x455D3F0", Offset = "0x455D3F0", VA = "0x455D3F0")]
+	[Address(RVA = "0x48824F0", Offset = "0x48824F0", VA = "0x48824F0")]
 	internal EventHandlerList(Component parent)
 	{
 	}
 
 	[Token(Token = "0x6000E97")]
-	[Address(RVA = "0x455D420", Offset = "0x455D420", VA = "0x455D420")]
+	[Address(RVA = "0x4882520", Offset = "0x4882520", VA = "0x4882520")]
 	public EventHandlerList()
 	{
 	}
 
 	[Token(Token = "0x6000E9A")]
-	[Address(RVA = "0x455D5E0", Offset = "0x455D5E0", VA = "0x455D5E0")]
+	[Address(RVA = "0x48826E0", Offset = "0x48826E0", VA = "0x48826E0")]
 	public void AddHandler(object key, Delegate value)
 	{
 	}
 
 	[Token(Token = "0x6000E9B")]
-	[Address(RVA = "0x455D6C0", Offset = "0x455D6C0", VA = "0x455D6C0")]
+	[Address(RVA = "0x48827C0", Offset = "0x48827C0", VA = "0x48827C0")]
 	public void AddHandlers(EventHandlerList listToAddFrom)
 	{
 	}
 
 	[Token(Token = "0x6000E9C")]
-	[Address(RVA = "0x455D710", Offset = "0x455D710", VA = "0x455D710", Slot = "4")]
+	[Address(RVA = "0x4882810", Offset = "0x4882810", VA = "0x4882810", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000E9D")]
-	[Address(RVA = "0x455D480", Offset = "0x455D480", VA = "0x455D480")]
+	[Address(RVA = "0x4882580", Offset = "0x4882580", VA = "0x4882580")]
 	private ListEntry Find(object key)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E9E")]
-	[Address(RVA = "0x455D730", Offset = "0x455D730", VA = "0x455D730")]
+	[Address(RVA = "0x4882830", Offset = "0x4882830", VA = "0x4882830")]
 	public void RemoveHandler(object key, Delegate value)
 	{
 	}

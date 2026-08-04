@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Experimental.Audio.AudioSampleProvider
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -27,14 +34,14 @@ public class AudioSampleProvider
 	private SampleFramesHandler sampleFramesOverflow;
 
 	[Token(Token = "0x6000072")]
-	[Address(RVA = "0x4A83BC0", Offset = "0x4A83BC0", VA = "0x4A83BC0")]
+	[Address(RVA = "0x4DAB3E0", Offset = "0x4DAB3E0", VA = "0x4DAB3E0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void InvokeSampleFramesAvailable(int sampleFrameCount)
 	{
 	}
 
 	[Token(Token = "0x6000073")]
-	[Address(RVA = "0x4A83BE0", Offset = "0x4A83BE0", VA = "0x4A83BE0")]
+	[Address(RVA = "0x4DAB400", Offset = "0x4DAB400", VA = "0x4DAB400")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void InvokeSampleFramesOverflow(int droppedSampleFrameCount)
 	{

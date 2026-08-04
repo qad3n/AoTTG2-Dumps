@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlAttributeAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Text;
 using System.Xml.Schema;
 using Il2CppDummyDll;
@@ -32,7 +39,7 @@ public class XmlAttributeAttribute : Attribute
 	public string AttributeName
 	{
 		[Token(Token = "0x6000D1E")]
-		[Address(RVA = "0x44D3ED0", Offset = "0x44D3ED0", VA = "0x44D3ED0")]
+		[Address(RVA = "0x4811630", Offset = "0x4811630", VA = "0x4811630")]
 		get
 		{
 			return null;
@@ -43,13 +50,13 @@ public class XmlAttributeAttribute : Attribute
 	public string DataType
 	{
 		[Token(Token = "0x6000D1F")]
-		[Address(RVA = "0x44D3F00", Offset = "0x44D3F00", VA = "0x44D3F00")]
+		[Address(RVA = "0x4811660", Offset = "0x4811660", VA = "0x4811660")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000D20")]
-		[Address(RVA = "0x44D3F30", Offset = "0x44D3F30", VA = "0x44D3F30")]
+		[Address(RVA = "0x4811690", Offset = "0x4811690", VA = "0x4811690")]
 		set
 		{
 		}
@@ -59,7 +66,7 @@ public class XmlAttributeAttribute : Attribute
 	public XmlSchemaForm Form
 	{
 		[Token(Token = "0x6000D21")]
-		[Address(RVA = "0x44D3F40", Offset = "0x44D3F40", VA = "0x44D3F40")]
+		[Address(RVA = "0x48116A0", Offset = "0x48116A0", VA = "0x48116A0")]
 		get
 		{
 			return default(XmlSchemaForm);
@@ -70,7 +77,7 @@ public class XmlAttributeAttribute : Attribute
 	public string Namespace
 	{
 		[Token(Token = "0x6000D22")]
-		[Address(RVA = "0x44D3F50", Offset = "0x44D3F50", VA = "0x44D3F50")]
+		[Address(RVA = "0x48116B0", Offset = "0x48116B0", VA = "0x48116B0")]
 		get
 		{
 			return null;
@@ -78,13 +85,13 @@ public class XmlAttributeAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000D1D")]
-	[Address(RVA = "0x44D3EA0", Offset = "0x44D3EA0", VA = "0x44D3EA0")]
+	[Address(RVA = "0x4811600", Offset = "0x4811600", VA = "0x4811600")]
 	public XmlAttributeAttribute(string attributeName)
 	{
 	}
 
 	[Token(Token = "0x6000D23")]
-	[Address(RVA = "0x44D3F60", Offset = "0x44D3F60", VA = "0x44D3F60")]
+	[Address(RVA = "0x48116C0", Offset = "0x48116C0", VA = "0x48116C0")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

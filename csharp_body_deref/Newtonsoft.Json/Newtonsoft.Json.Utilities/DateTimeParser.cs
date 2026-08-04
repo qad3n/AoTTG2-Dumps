@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Utilities.DateTimeParser
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Newtonsoft.Json.Utilities;
@@ -113,62 +120,62 @@ internal struct DateTimeParser
 	private const short MaxFractionDigits = 7;
 
 	[Token(Token = "0x600054D")]
-	[Address(RVA = "0x3ABBAA0", Offset = "0x3ABBAA0", VA = "0x3ABBAA0")]
+	[Address(RVA = "0x3DB13F0", Offset = "0x3DB13F0", VA = "0x3DB13F0")]
 	static DateTimeParser()
 	{
 	}
 
 	[Token(Token = "0x600054E")]
-	[Address(RVA = "0x3ABBD10", Offset = "0x3ABBD10", VA = "0x3ABBD10")]
+	[Address(RVA = "0x3DB1660", Offset = "0x3DB1660", VA = "0x3DB1660")]
 	public bool Parse(char[] text, int startIndex, int length)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600054F")]
-	[Address(RVA = "0x3ABBEA0", Offset = "0x3ABBEA0", VA = "0x3ABBEA0")]
+	[Address(RVA = "0x3DB17F0", Offset = "0x3DB17F0", VA = "0x3DB17F0")]
 	private bool ParseDate(int start)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000550")]
-	[Address(RVA = "0x3ABC140", Offset = "0x3ABC140", VA = "0x3ABC140")]
+	[Address(RVA = "0x3DB1A90", Offset = "0x3DB1A90", VA = "0x3DB1A90")]
 	private bool ParseTimeAndZoneAndWhitespace(int start)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000551")]
-	[Address(RVA = "0x3ABC300", Offset = "0x3ABC300", VA = "0x3ABC300")]
+	[Address(RVA = "0x3DB1C50", Offset = "0x3DB1C50", VA = "0x3DB1C50")]
 	private bool ParseTime(ref int start)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000552")]
-	[Address(RVA = "0x3ABC830", Offset = "0x3ABC830", VA = "0x3ABC830")]
+	[Address(RVA = "0x3DB2180", Offset = "0x3DB2180", VA = "0x3DB2180")]
 	private bool ParseZone(int start)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000553")]
-	[Address(RVA = "0x3ABC1D0", Offset = "0x3ABC1D0", VA = "0x3ABC1D0")]
+	[Address(RVA = "0x3DB1B20", Offset = "0x3DB1B20", VA = "0x3DB1B20")]
 	private bool Parse4Digit(int start, out int num)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000554")]
-	[Address(RVA = "0x3ABC290", Offset = "0x3ABC290", VA = "0x3ABC290")]
+	[Address(RVA = "0x3DB1BE0", Offset = "0x3DB1BE0", VA = "0x3DB1BE0")]
 	private bool Parse2Digit(int start, out int num)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000555")]
-	[Address(RVA = "0x3ABC110", Offset = "0x3ABC110", VA = "0x3ABC110")]
+	[Address(RVA = "0x3DB1A60", Offset = "0x3DB1A60", VA = "0x3DB1A60")]
 	private bool ParseChar(int start, char ch)
 	{
 		return default(bool);

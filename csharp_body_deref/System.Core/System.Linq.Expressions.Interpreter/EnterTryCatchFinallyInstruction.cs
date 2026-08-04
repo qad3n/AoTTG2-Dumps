@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.EnterTryCatchFinallyInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -17,7 +24,7 @@ internal sealed class EnterTryCatchFinallyInstruction : IndexedBranchInstruction
 	internal TryCatchFinallyHandler Handler
 	{
 		[Token(Token = "0x600062B")]
-		[Address(RVA = "0x41A3110", Offset = "0x41A3110", VA = "0x41A3110")]
+		[Address(RVA = "0x44C8210", Offset = "0x44C8210", VA = "0x44C8210")]
 		get
 		{
 			return null;
@@ -28,7 +35,7 @@ internal sealed class EnterTryCatchFinallyInstruction : IndexedBranchInstruction
 	public override int ProducedContinuations
 	{
 		[Token(Token = "0x600062C")]
-		[Address(RVA = "0x41A3120", Offset = "0x41A3120", VA = "0x41A3120", Slot = "7")]
+		[Address(RVA = "0x44C8220", Offset = "0x44C8220", VA = "0x44C8220", Slot = "7")]
 		get
 		{
 			return default(int);
@@ -39,7 +46,7 @@ internal sealed class EnterTryCatchFinallyInstruction : IndexedBranchInstruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x6000631")]
-		[Address(RVA = "0x41A3820", Offset = "0x41A3820", VA = "0x41A3820", Slot = "9")]
+		[Address(RVA = "0x44C8920", Offset = "0x44C8920", VA = "0x44C8920", Slot = "9")]
 		get
 		{
 			return null;
@@ -47,40 +54,40 @@ internal sealed class EnterTryCatchFinallyInstruction : IndexedBranchInstruction
 	}
 
 	[Token(Token = "0x600062A")]
-	[Address(RVA = "0x41A3100", Offset = "0x41A3100", VA = "0x41A3100")]
+	[Address(RVA = "0x44C8200", Offset = "0x44C8200", VA = "0x44C8200")]
 	internal void SetTryHandler(TryCatchFinallyHandler tryHandler)
 	{
 	}
 
 	[Token(Token = "0x600062D")]
-	[Address(RVA = "0x41A3130", Offset = "0x41A3130", VA = "0x41A3130")]
+	[Address(RVA = "0x44C8230", Offset = "0x44C8230", VA = "0x44C8230")]
 	private EnterTryCatchFinallyInstruction(int targetIndex, bool hasFinally)
 	{
 	}
 
 	[Token(Token = "0x600062E")]
-	[Address(RVA = "0x41A3150", Offset = "0x41A3150", VA = "0x41A3150")]
+	[Address(RVA = "0x44C8250", Offset = "0x44C8250", VA = "0x44C8250")]
 	internal static EnterTryCatchFinallyInstruction CreateTryFinally(int labelIndex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600062F")]
-	[Address(RVA = "0x41A31A0", Offset = "0x41A31A0", VA = "0x41A31A0")]
+	[Address(RVA = "0x44C82A0", Offset = "0x44C82A0", VA = "0x44C82A0")]
 	internal static EnterTryCatchFinallyInstruction CreateTryCatch()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000630")]
-	[Address(RVA = "0x41A31F0", Offset = "0x41A31F0", VA = "0x41A31F0", Slot = "8")]
+	[Address(RVA = "0x44C82F0", Offset = "0x44C82F0", VA = "0x44C82F0", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000632")]
-	[Address(RVA = "0x41A3870", Offset = "0x41A3870", VA = "0x41A3870", Slot = "3")]
+	[Address(RVA = "0x44C8970", Offset = "0x44C8970", VA = "0x44C8970", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

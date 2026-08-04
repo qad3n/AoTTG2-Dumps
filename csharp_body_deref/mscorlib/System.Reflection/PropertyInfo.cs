@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Reflection.PropertyInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Globalization;
 using Il2CppDummyDll;
@@ -12,7 +19,7 @@ public abstract class PropertyInfo : MemberInfo
 	public override MemberTypes MemberType
 	{
 		[Token(Token = "0x6002493")]
-		[Address(RVA = "0x4EEEBC0", Offset = "0x4EEEBC0", VA = "0x4EEEBC0", Slot = "7")]
+		[Address(RVA = "0x3BD46E0", Offset = "0x3BD46E0", VA = "0x3BD46E0", Slot = "7")]
 		get
 		{
 			return default(MemberTypes);
@@ -37,7 +44,7 @@ public abstract class PropertyInfo : MemberInfo
 	public bool IsSpecialName
 	{
 		[Token(Token = "0x6002497")]
-		[Address(RVA = "0x4EEEBD0", Offset = "0x4EEEBD0", VA = "0x4EEEBD0", Slot = "19")]
+		[Address(RVA = "0x3BD46F0", Offset = "0x3BD46F0", VA = "0x3BD46F0", Slot = "19")]
 		get
 		{
 			return default(bool);
@@ -62,7 +69,7 @@ public abstract class PropertyInfo : MemberInfo
 	public virtual MethodInfo GetMethod
 	{
 		[Token(Token = "0x600249A")]
-		[Address(RVA = "0x4EEEBF0", Offset = "0x4EEEBF0", VA = "0x4EEEBF0", Slot = "22")]
+		[Address(RVA = "0x3BD4710", Offset = "0x3BD4710", VA = "0x3BD4710", Slot = "22")]
 		get
 		{
 			return null;
@@ -70,7 +77,7 @@ public abstract class PropertyInfo : MemberInfo
 	}
 
 	[Token(Token = "0x6002492")]
-	[Address(RVA = "0x4EEEBB0", Offset = "0x4EEEBB0", VA = "0x4EEEBB0")]
+	[Address(RVA = "0x3BD46D0", Offset = "0x3BD46D0", VA = "0x3BD46D0")]
 	protected PropertyInfo()
 	{
 	}
@@ -79,7 +86,7 @@ public abstract class PropertyInfo : MemberInfo
 	public abstract ParameterInfo[] GetIndexParameters();
 
 	[Token(Token = "0x600249B")]
-	[Address(RVA = "0x4EEEC10", Offset = "0x4EEEC10", VA = "0x4EEEC10", Slot = "23")]
+	[Address(RVA = "0x3BD4730", Offset = "0x3BD4730", VA = "0x3BD4730", Slot = "23")]
 	public MethodInfo GetGetMethod()
 	{
 		return null;
@@ -89,7 +96,7 @@ public abstract class PropertyInfo : MemberInfo
 	public abstract MethodInfo GetGetMethod(bool nonPublic);
 
 	[Token(Token = "0x600249D")]
-	[Address(RVA = "0x4EEEC30", Offset = "0x4EEEC30", VA = "0x4EEEC30", Slot = "25")]
+	[Address(RVA = "0x3BD4750", Offset = "0x3BD4750", VA = "0x3BD4750", Slot = "25")]
 	public MethodInfo GetSetMethod()
 	{
 		return null;
@@ -99,7 +106,7 @@ public abstract class PropertyInfo : MemberInfo
 	public abstract MethodInfo GetSetMethod(bool nonPublic);
 
 	[Token(Token = "0x600249F")]
-	[Address(RVA = "0x4EEEC50", Offset = "0x4EEEC50", VA = "0x4EEEC50")]
+	[Address(RVA = "0x3BD4770", Offset = "0x3BD4770", VA = "0x3BD4770")]
 	[DebuggerStepThrough]
 	[DebuggerHidden]
 	public object GetValue(object obj)
@@ -108,7 +115,7 @@ public abstract class PropertyInfo : MemberInfo
 	}
 
 	[Token(Token = "0x60024A0")]
-	[Address(RVA = "0x4EEEC70", Offset = "0x4EEEC70", VA = "0x4EEEC70", Slot = "27")]
+	[Address(RVA = "0x3BD4790", Offset = "0x3BD4790", VA = "0x3BD4790", Slot = "27")]
 	[DebuggerHidden]
 	[DebuggerStepThrough]
 	public virtual object GetValue(object obj, object[] index)
@@ -120,7 +127,7 @@ public abstract class PropertyInfo : MemberInfo
 	public abstract object GetValue(object obj, BindingFlags invokeAttr, Binder binder, object[] index, CultureInfo culture);
 
 	[Token(Token = "0x60024A2")]
-	[Address(RVA = "0x4EEECA0", Offset = "0x4EEECA0", VA = "0x4EEECA0")]
+	[Address(RVA = "0x3BD47C0", Offset = "0x3BD47C0", VA = "0x3BD47C0")]
 	[DebuggerHidden]
 	[DebuggerStepThrough]
 	public void SetValue(object obj, object value)
@@ -128,7 +135,7 @@ public abstract class PropertyInfo : MemberInfo
 	}
 
 	[Token(Token = "0x60024A3")]
-	[Address(RVA = "0x4EEECC0", Offset = "0x4EEECC0", VA = "0x4EEECC0", Slot = "29")]
+	[Address(RVA = "0x3BD47E0", Offset = "0x3BD47E0", VA = "0x3BD47E0", Slot = "29")]
 	[DebuggerStepThrough]
 	[DebuggerHidden]
 	public virtual void SetValue(object obj, object value, object[] index)
@@ -139,28 +146,28 @@ public abstract class PropertyInfo : MemberInfo
 	public abstract void SetValue(object obj, object value, BindingFlags invokeAttr, Binder binder, object[] index, CultureInfo culture);
 
 	[Token(Token = "0x60024A5")]
-	[Address(RVA = "0x4EEECF0", Offset = "0x4EEECF0", VA = "0x4EEECF0", Slot = "0")]
+	[Address(RVA = "0x3BD4810", Offset = "0x3BD4810", VA = "0x3BD4810", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60024A6")]
-	[Address(RVA = "0x4EEED00", Offset = "0x4EEED00", VA = "0x4EEED00", Slot = "2")]
+	[Address(RVA = "0x3BD4820", Offset = "0x3BD4820", VA = "0x3BD4820", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60024A7")]
-	[Address(RVA = "0x4EECF20", Offset = "0x4EECF20", VA = "0x4EECF20")]
+	[Address(RVA = "0x3BD2A40", Offset = "0x3BD2A40", VA = "0x3BD2A40")]
 	public static bool operator ==(PropertyInfo left, PropertyInfo right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60024A8")]
-	[Address(RVA = "0x4EECEF0", Offset = "0x4EECEF0", VA = "0x4EECEF0")]
+	[Address(RVA = "0x3BD2A10", Offset = "0x3BD2A10", VA = "0x3BD2A10")]
 	public static bool operator !=(PropertyInfo left, PropertyInfo right)
 	{
 		return default(bool);

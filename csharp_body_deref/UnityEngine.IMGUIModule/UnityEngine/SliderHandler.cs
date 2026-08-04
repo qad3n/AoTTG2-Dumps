@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.SliderHandler
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -47,194 +54,194 @@ internal struct SliderHandler
 	private readonly int id;
 
 	[Token(Token = "0x6000244")]
-	[Address(RVA = "0x4B39DF0", Offset = "0x4B39DF0", VA = "0x4B39DF0")]
+	[Address(RVA = "0x4E619B0", Offset = "0x4E619B0", VA = "0x4E619B0")]
 	public SliderHandler(Rect position, float currentValue, float size, float start, float end, GUIStyle slider, GUIStyle thumb, bool horiz, int id, [Optional] GUIStyle thumbExtent)
 	{
 	}
 
 	[Token(Token = "0x6000245")]
-	[Address(RVA = "0x4B39E60", Offset = "0x4B39E60", VA = "0x4B39E60")]
+	[Address(RVA = "0x4E61A20", Offset = "0x4E61A20", VA = "0x4E61A20")]
 	public float Handle()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000246")]
-	[Address(RVA = "0x4B39F30", Offset = "0x4B39F30", VA = "0x4B39F30")]
+	[Address(RVA = "0x4E61AF0", Offset = "0x4E61AF0", VA = "0x4E61AF0")]
 	private float OnMouseDown()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000247")]
-	[Address(RVA = "0x4B3A670", Offset = "0x4B3A670", VA = "0x4B3A670")]
+	[Address(RVA = "0x4E62230", Offset = "0x4E62230", VA = "0x4E62230")]
 	private float OnMouseDrag()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000248")]
-	[Address(RVA = "0x4B3A7D0", Offset = "0x4B3A7D0", VA = "0x4B3A7D0")]
+	[Address(RVA = "0x4E62390", Offset = "0x4E62390", VA = "0x4E62390")]
 	private float OnMouseUp()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000249")]
-	[Address(RVA = "0x4B3A810", Offset = "0x4B3A810", VA = "0x4B3A810")]
+	[Address(RVA = "0x4E623D0", Offset = "0x4E623D0", VA = "0x4E623D0")]
 	private float OnRepaint()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600024A")]
-	[Address(RVA = "0x4B39F00", Offset = "0x4B39F00", VA = "0x4B39F00")]
+	[Address(RVA = "0x4E61AC0", Offset = "0x4E61AC0", VA = "0x4E61AC0")]
 	private EventType CurrentEventType()
 	{
 		return default(EventType);
 	}
 
 	[Token(Token = "0x600024B")]
-	[Address(RVA = "0x4B3B210", Offset = "0x4B3B210", VA = "0x4B3B210")]
+	[Address(RVA = "0x4E62DD0", Offset = "0x4E62DD0", VA = "0x4E62DD0")]
 	private int CurrentScrollTroughSide()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600024C")]
-	[Address(RVA = "0x4B3B020", Offset = "0x4B3B020", VA = "0x4B3B020")]
+	[Address(RVA = "0x4E62BE0", Offset = "0x4E62BE0", VA = "0x4E62BE0")]
 	private bool IsEmptySlider()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600024D")]
-	[Address(RVA = "0x4B3B100", Offset = "0x4B3B100", VA = "0x4B3B100")]
+	[Address(RVA = "0x4E62CC0", Offset = "0x4E62CC0", VA = "0x4E62CC0")]
 	private bool SupportsPageMovements()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600024E")]
-	[Address(RVA = "0x4B3B290", Offset = "0x4B3B290", VA = "0x4B3B290")]
+	[Address(RVA = "0x4E62E50", Offset = "0x4E62E50", VA = "0x4E62E50")]
 	private float PageMovementValue()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600024F")]
-	[Address(RVA = "0x4B3B690", Offset = "0x4B3B690", VA = "0x4B3B690")]
+	[Address(RVA = "0x4E63250", Offset = "0x4E63250", VA = "0x4E63250")]
 	private float PageUpMovementBound()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000250")]
-	[Address(RVA = "0x4B3B010", Offset = "0x4B3B010", VA = "0x4B3B010")]
+	[Address(RVA = "0x4E62BD0", Offset = "0x4E62BD0", VA = "0x4E62BD0")]
 	private Event CurrentEvent()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000251")]
-	[Address(RVA = "0x4B3B3C0", Offset = "0x4B3B3C0", VA = "0x4B3B3C0")]
+	[Address(RVA = "0x4E62F80", Offset = "0x4E62F80", VA = "0x4E62F80")]
 	private float ValueForCurrentMousePosition()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000252")]
-	[Address(RVA = "0x4B3B480", Offset = "0x4B3B480", VA = "0x4B3B480")]
+	[Address(RVA = "0x4E63040", Offset = "0x4E63040", VA = "0x4E63040")]
 	private float Clamp(float value)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000253")]
-	[Address(RVA = "0x4B3B000", Offset = "0x4B3B000", VA = "0x4B3B000")]
+	[Address(RVA = "0x4E62BC0", Offset = "0x4E62BC0", VA = "0x4E62BC0")]
 	private Rect ThumbSelectionRect()
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x6000254")]
-	[Address(RVA = "0x4B3B080", Offset = "0x4B3B080", VA = "0x4B3B080")]
+	[Address(RVA = "0x4E62C40", Offset = "0x4E62C40", VA = "0x4E62C40")]
 	private void StartDraggingWithValue(float dragStartValue)
 	{
 	}
 
 	[Token(Token = "0x6000255")]
-	[Address(RVA = "0x4B3B160", Offset = "0x4B3B160", VA = "0x4B3B160")]
+	[Address(RVA = "0x4E62D20", Offset = "0x4E62D20", VA = "0x4E62D20")]
 	private SliderState SliderState()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000256")]
-	[Address(RVA = "0x4B3B5F0", Offset = "0x4B3B5F0", VA = "0x4B3B5F0")]
+	[Address(RVA = "0x4E631B0", Offset = "0x4E631B0", VA = "0x4E631B0")]
 	private Rect ThumbExtRect()
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x6000257")]
-	[Address(RVA = "0x4B3B680", Offset = "0x4B3B680", VA = "0x4B3B680")]
+	[Address(RVA = "0x4E63240", Offset = "0x4E63240", VA = "0x4E63240")]
 	private Rect ThumbRect()
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x6000258")]
-	[Address(RVA = "0x4B3B700", Offset = "0x4B3B700", VA = "0x4B3B700")]
+	[Address(RVA = "0x4E632C0", Offset = "0x4E632C0", VA = "0x4E632C0")]
 	private Rect VerticalThumbRect()
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x6000259")]
-	[Address(RVA = "0x4B3B850", Offset = "0x4B3B850", VA = "0x4B3B850")]
+	[Address(RVA = "0x4E63410", Offset = "0x4E63410", VA = "0x4E63410")]
 	private Rect HorizontalThumbRect()
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x600025A")]
-	[Address(RVA = "0x4B3B040", Offset = "0x4B3B040", VA = "0x4B3B040")]
+	[Address(RVA = "0x4E62C00", Offset = "0x4E62C00", VA = "0x4E62C00")]
 	private float ClampedCurrentValue()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600025B")]
-	[Address(RVA = "0x4B3B4B0", Offset = "0x4B3B4B0", VA = "0x4B3B4B0")]
+	[Address(RVA = "0x4E63070", Offset = "0x4E63070", VA = "0x4E63070")]
 	private float MousePosition()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600025C")]
-	[Address(RVA = "0x4B3B500", Offset = "0x4B3B500", VA = "0x4B3B500")]
+	[Address(RVA = "0x4E630C0", Offset = "0x4E630C0", VA = "0x4E630C0")]
 	private float ValuesPerPixel()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600025D")]
-	[Address(RVA = "0x4B3B9A0", Offset = "0x4B3B9A0", VA = "0x4B3B9A0")]
+	[Address(RVA = "0x4E63560", Offset = "0x4E63560", VA = "0x4E63560")]
 	private float ThumbSize()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600025E")]
-	[Address(RVA = "0x4B3B6F0", Offset = "0x4B3B6F0", VA = "0x4B3B6F0")]
+	[Address(RVA = "0x4E632B0", Offset = "0x4E632B0", VA = "0x4E632B0")]
 	private float MaxValue()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600025F")]
-	[Address(RVA = "0x4B3B6E0", Offset = "0x4B3B6E0", VA = "0x4B3B6E0")]
+	[Address(RVA = "0x4E632A0", Offset = "0x4E632A0", VA = "0x4E632A0")]
 	private float MinValue()
 	{
 		return default(float);

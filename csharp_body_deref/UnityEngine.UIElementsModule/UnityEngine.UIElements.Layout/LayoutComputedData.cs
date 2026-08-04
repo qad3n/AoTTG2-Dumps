@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Layout.LayoutComputedData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -62,7 +69,7 @@ internal struct LayoutComputedData
 	public static LayoutComputedData Default
 	{
 		[Token(Token = "0x6001F22")]
-		[Address(RVA = "0x4C8E280", Offset = "0x4C8E280", VA = "0x4C8E280")]
+		[Address(RVA = "0x4FB5BB0", Offset = "0x4FB5BB0", VA = "0x4FB5BB0")]
 		get
 		{
 			return default(LayoutComputedData);
@@ -74,7 +81,7 @@ internal struct LayoutComputedData
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6001F23")]
-		[Address(RVA = "0x4C939C0", Offset = "0x4C939C0", VA = "0x4C939C0")]
+		[Address(RVA = "0x4FBB2F0", Offset = "0x4FBB2F0", VA = "0x4FBB2F0")]
 		get
 		{
 			//IL_0002: Expected I, but got O
@@ -87,7 +94,7 @@ internal struct LayoutComputedData
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6001F24")]
-		[Address(RVA = "0x4C939D0", Offset = "0x4C939D0", VA = "0x4C939D0")]
+		[Address(RVA = "0x4FBB300", Offset = "0x4FBB300", VA = "0x4FBB300")]
 		get
 		{
 			//IL_0002: Expected I, but got O
@@ -100,7 +107,7 @@ internal struct LayoutComputedData
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6001F25")]
-		[Address(RVA = "0x4C939E0", Offset = "0x4C939E0", VA = "0x4C939E0")]
+		[Address(RVA = "0x4FBB310", Offset = "0x4FBB310", VA = "0x4FBB310")]
 		get
 		{
 			//IL_0002: Expected I, but got O

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.GridLayoutGroup
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
@@ -73,13 +80,13 @@ public class GridLayoutGroup : LayoutGroup
 	public Corner startCorner
 	{
 		[Token(Token = "0x6000284")]
-		[Address(RVA = "0x4DA6700", Offset = "0x4DA6700", VA = "0x4DA6700")]
+		[Address(RVA = "0x50CE030", Offset = "0x50CE030", VA = "0x50CE030")]
 		get
 		{
 			return default(Corner);
 		}
 		[Token(Token = "0x6000285")]
-		[Address(RVA = "0x4DA6710", Offset = "0x4DA6710", VA = "0x4DA6710")]
+		[Address(RVA = "0x50CE040", Offset = "0x50CE040", VA = "0x50CE040")]
 		set
 		{
 		}
@@ -89,13 +96,13 @@ public class GridLayoutGroup : LayoutGroup
 	public Axis startAxis
 	{
 		[Token(Token = "0x6000286")]
-		[Address(RVA = "0x4DA6760", Offset = "0x4DA6760", VA = "0x4DA6760")]
+		[Address(RVA = "0x50CE090", Offset = "0x50CE090", VA = "0x50CE090")]
 		get
 		{
 			return default(Axis);
 		}
 		[Token(Token = "0x6000287")]
-		[Address(RVA = "0x4DA6770", Offset = "0x4DA6770", VA = "0x4DA6770")]
+		[Address(RVA = "0x50CE0A0", Offset = "0x50CE0A0", VA = "0x50CE0A0")]
 		set
 		{
 		}
@@ -105,13 +112,13 @@ public class GridLayoutGroup : LayoutGroup
 	public Vector2 cellSize
 	{
 		[Token(Token = "0x6000288")]
-		[Address(RVA = "0x4DA67C0", Offset = "0x4DA67C0", VA = "0x4DA67C0")]
+		[Address(RVA = "0x50CE0F0", Offset = "0x50CE0F0", VA = "0x50CE0F0")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x6000289")]
-		[Address(RVA = "0x4DA67D0", Offset = "0x4DA67D0", VA = "0x4DA67D0")]
+		[Address(RVA = "0x50CE100", Offset = "0x50CE100", VA = "0x50CE100")]
 		set
 		{
 		}
@@ -121,13 +128,13 @@ public class GridLayoutGroup : LayoutGroup
 	public Vector2 spacing
 	{
 		[Token(Token = "0x600028A")]
-		[Address(RVA = "0x4DA6820", Offset = "0x4DA6820", VA = "0x4DA6820")]
+		[Address(RVA = "0x50CE150", Offset = "0x50CE150", VA = "0x50CE150")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x600028B")]
-		[Address(RVA = "0x4DA6830", Offset = "0x4DA6830", VA = "0x4DA6830")]
+		[Address(RVA = "0x50CE160", Offset = "0x50CE160", VA = "0x50CE160")]
 		set
 		{
 		}
@@ -137,13 +144,13 @@ public class GridLayoutGroup : LayoutGroup
 	public Constraint constraint
 	{
 		[Token(Token = "0x600028C")]
-		[Address(RVA = "0x4DA6880", Offset = "0x4DA6880", VA = "0x4DA6880")]
+		[Address(RVA = "0x50CE1B0", Offset = "0x50CE1B0", VA = "0x50CE1B0")]
 		get
 		{
 			return default(Constraint);
 		}
 		[Token(Token = "0x600028D")]
-		[Address(RVA = "0x4DA6890", Offset = "0x4DA6890", VA = "0x4DA6890")]
+		[Address(RVA = "0x50CE1C0", Offset = "0x50CE1C0", VA = "0x50CE1C0")]
 		set
 		{
 		}
@@ -153,50 +160,50 @@ public class GridLayoutGroup : LayoutGroup
 	public int constraintCount
 	{
 		[Token(Token = "0x600028E")]
-		[Address(RVA = "0x4DA68E0", Offset = "0x4DA68E0", VA = "0x4DA68E0")]
+		[Address(RVA = "0x50CE210", Offset = "0x50CE210", VA = "0x50CE210")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600028F")]
-		[Address(RVA = "0x4DA68F0", Offset = "0x4DA68F0", VA = "0x4DA68F0")]
+		[Address(RVA = "0x50CE220", Offset = "0x50CE220", VA = "0x50CE220")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000290")]
-	[Address(RVA = "0x4DA6940", Offset = "0x4DA6940", VA = "0x4DA6940")]
+	[Address(RVA = "0x50CE270", Offset = "0x50CE270", VA = "0x50CE270")]
 	protected GridLayoutGroup()
 	{
 	}
 
 	[Token(Token = "0x6000291")]
-	[Address(RVA = "0x4DA6AE0", Offset = "0x4DA6AE0", VA = "0x4DA6AE0", Slot = "28")]
+	[Address(RVA = "0x50CE410", Offset = "0x50CE410", VA = "0x50CE410", Slot = "28")]
 	public override void CalculateLayoutInputHorizontal()
 	{
 	}
 
 	[Token(Token = "0x6000292")]
-	[Address(RVA = "0x4DA71D0", Offset = "0x4DA71D0", VA = "0x4DA71D0", Slot = "29")]
+	[Address(RVA = "0x50CEB00", Offset = "0x50CEB00", VA = "0x50CEB00", Slot = "29")]
 	public override void CalculateLayoutInputVertical()
 	{
 	}
 
 	[Token(Token = "0x6000293")]
-	[Address(RVA = "0x4DA74D0", Offset = "0x4DA74D0", VA = "0x4DA74D0", Slot = "37")]
+	[Address(RVA = "0x50CEE00", Offset = "0x50CEE00", VA = "0x50CEE00", Slot = "37")]
 	public override void SetLayoutHorizontal()
 	{
 	}
 
 	[Token(Token = "0x6000294")]
-	[Address(RVA = "0x4DA7E90", Offset = "0x4DA7E90", VA = "0x4DA7E90", Slot = "38")]
+	[Address(RVA = "0x50CF7C0", Offset = "0x50CF7C0", VA = "0x50CF7C0", Slot = "38")]
 	public override void SetLayoutVertical()
 	{
 	}
 
 	[Token(Token = "0x6000295")]
-	[Address(RVA = "0x4DA74E0", Offset = "0x4DA74E0", VA = "0x4DA74E0")]
+	[Address(RVA = "0x50CEE10", Offset = "0x50CEE10", VA = "0x50CEE10")]
 	private void SetCellsAlongAxis(int axis)
 	{
 	}

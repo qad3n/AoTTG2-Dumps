@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.ObjRef
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.ConstrainedExecution;
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
@@ -46,7 +53,7 @@ public class ObjRef : IObjectReference, ISerializable
 	internal bool IsReferenceToWellKnow
 	{
 		[Token(Token = "0x6001C39")]
-		[Address(RVA = "0x4E7B630", Offset = "0x4E7B630", VA = "0x4E7B630")]
+		[Address(RVA = "0x3B61150", Offset = "0x3B61150", VA = "0x3B61150")]
 		get
 		{
 			return default(bool);
@@ -57,7 +64,7 @@ public class ObjRef : IObjectReference, ISerializable
 	public virtual IChannelInfo ChannelInfo
 	{
 		[Token(Token = "0x6001C3A")]
-		[Address(RVA = "0x4E7B690", Offset = "0x4E7B690", VA = "0x4E7B690", Slot = "6")]
+		[Address(RVA = "0x3B611B0", Offset = "0x3B611B0", VA = "0x3B611B0", Slot = "6")]
 		[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 		get
 		{
@@ -69,13 +76,13 @@ public class ObjRef : IObjectReference, ISerializable
 	public virtual IEnvoyInfo EnvoyInfo
 	{
 		[Token(Token = "0x6001C3B")]
-		[Address(RVA = "0x4E7B6A0", Offset = "0x4E7B6A0", VA = "0x4E7B6A0", Slot = "7")]
+		[Address(RVA = "0x3B611C0", Offset = "0x3B611C0", VA = "0x3B611C0", Slot = "7")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001C3C")]
-		[Address(RVA = "0x4E7B6B0", Offset = "0x4E7B6B0", VA = "0x4E7B6B0", Slot = "8")]
+		[Address(RVA = "0x3B611D0", Offset = "0x3B611D0", VA = "0x3B611D0", Slot = "8")]
 		set
 		{
 		}
@@ -85,13 +92,13 @@ public class ObjRef : IObjectReference, ISerializable
 	public virtual IRemotingTypeInfo TypeInfo
 	{
 		[Token(Token = "0x6001C3D")]
-		[Address(RVA = "0x4E7B6C0", Offset = "0x4E7B6C0", VA = "0x4E7B6C0", Slot = "9")]
+		[Address(RVA = "0x3B611E0", Offset = "0x3B611E0", VA = "0x3B611E0", Slot = "9")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001C3E")]
-		[Address(RVA = "0x4E7B6D0", Offset = "0x4E7B6D0", VA = "0x4E7B6D0", Slot = "10")]
+		[Address(RVA = "0x3B611F0", Offset = "0x3B611F0", VA = "0x3B611F0", Slot = "10")]
 		set
 		{
 		}
@@ -101,13 +108,13 @@ public class ObjRef : IObjectReference, ISerializable
 	public virtual string URI
 	{
 		[Token(Token = "0x6001C3F")]
-		[Address(RVA = "0x4E7B6E0", Offset = "0x4E7B6E0", VA = "0x4E7B6E0", Slot = "11")]
+		[Address(RVA = "0x3B61200", Offset = "0x3B61200", VA = "0x3B61200", Slot = "11")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001C40")]
-		[Address(RVA = "0x4E7B6F0", Offset = "0x4E7B6F0", VA = "0x4E7B6F0", Slot = "12")]
+		[Address(RVA = "0x3B61210", Offset = "0x3B61210", VA = "0x3B61210", Slot = "12")]
 		set
 		{
 		}
@@ -117,7 +124,7 @@ public class ObjRef : IObjectReference, ISerializable
 	internal Type ServerType
 	{
 		[Token(Token = "0x6001C44")]
-		[Address(RVA = "0x4E7B9F0", Offset = "0x4E7B9F0", VA = "0x4E7B9F0")]
+		[Address(RVA = "0x3B61510", Offset = "0x3B61510", VA = "0x3B61510")]
 		get
 		{
 			return null;
@@ -125,58 +132,58 @@ public class ObjRef : IObjectReference, ISerializable
 	}
 
 	[Token(Token = "0x6001C33")]
-	[Address(RVA = "0x4E7A7D0", Offset = "0x4E7A7D0", VA = "0x4E7A7D0")]
+	[Address(RVA = "0x3B602F0", Offset = "0x3B602F0", VA = "0x3B602F0")]
 	public ObjRef()
 	{
 	}
 
 	[Token(Token = "0x6001C34")]
-	[Address(RVA = "0x4E7A8A0", Offset = "0x4E7A8A0", VA = "0x4E7A8A0")]
+	[Address(RVA = "0x3B603C0", Offset = "0x3B603C0", VA = "0x3B603C0")]
 	internal ObjRef(string uri, IChannelInfo cinfo)
 	{
 	}
 
 	[Token(Token = "0x6001C35")]
-	[Address(RVA = "0x4E7A8E0", Offset = "0x4E7A8E0", VA = "0x4E7A8E0")]
+	[Address(RVA = "0x3B60400", Offset = "0x3B60400", VA = "0x3B60400")]
 	internal ObjRef DeserializeInTheCurrentDomain(int domainId, byte[] tInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C36")]
-	[Address(RVA = "0x4E7AA30", Offset = "0x4E7AA30", VA = "0x4E7AA30")]
+	[Address(RVA = "0x3B60550", Offset = "0x3B60550", VA = "0x3B60550")]
 	internal byte[] SerializeType()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C37")]
-	[Address(RVA = "0x4E7AAB0", Offset = "0x4E7AAB0", VA = "0x4E7AAB0")]
+	[Address(RVA = "0x3B605D0", Offset = "0x3B605D0", VA = "0x3B605D0")]
 	internal ObjRef(Type type, string url, object remoteChannelData)
 	{
 	}
 
 	[Token(Token = "0x6001C38")]
-	[Address(RVA = "0x4E7B030", Offset = "0x4E7B030", VA = "0x4E7B030")]
+	[Address(RVA = "0x3B60B50", Offset = "0x3B60B50", VA = "0x3B60B50")]
 	protected ObjRef(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001C41")]
-	[Address(RVA = "0x4E7B700", Offset = "0x4E7B700", VA = "0x4E7B700", Slot = "13")]
+	[Address(RVA = "0x3B61220", Offset = "0x3B61220", VA = "0x3B61220", Slot = "13")]
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001C42")]
-	[Address(RVA = "0x4E7B890", Offset = "0x4E7B890", VA = "0x4E7B890", Slot = "14")]
+	[Address(RVA = "0x3B613B0", Offset = "0x3B613B0", VA = "0x3B613B0", Slot = "14")]
 	public virtual object GetRealObject(StreamingContext context)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C43")]
-	[Address(RVA = "0x4E7A7F0", Offset = "0x4E7A7F0", VA = "0x4E7A7F0")]
+	[Address(RVA = "0x3B60310", Offset = "0x3B60310", VA = "0x3B60310")]
 	internal void UpdateChannelInfo()
 	{
 	}

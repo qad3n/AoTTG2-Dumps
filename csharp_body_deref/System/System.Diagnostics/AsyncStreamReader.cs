@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Diagnostics.AsyncStreamReader
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.IO;
 using System.Text;
 using System.Threading;
@@ -45,19 +52,19 @@ internal class AsyncStreamReader
 	private IAsyncResult asyncReadResult;
 
 	[Token(Token = "0x60004A8")]
-	[Address(RVA = "0x4601F20", Offset = "0x4601F20", VA = "0x4601F20", Slot = "4")]
+	[Address(RVA = "0x4927020", Offset = "0x4927020", VA = "0x4927020", Slot = "4")]
 	public virtual void Close()
 	{
 	}
 
 	[Token(Token = "0x60004A9")]
-	[Address(RVA = "0x4601F40", Offset = "0x4601F40", VA = "0x4601F40", Slot = "5")]
+	[Address(RVA = "0x4927040", Offset = "0x4927040", VA = "0x4927040", Slot = "5")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x60004AA")]
-	[Address(RVA = "0x46023C0", Offset = "0x46023C0", VA = "0x46023C0")]
+	[Address(RVA = "0x49274C0", Offset = "0x49274C0", VA = "0x49274C0")]
 	internal void CancelOperation()
 	{
 	}

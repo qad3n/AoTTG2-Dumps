@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.ServicePoint
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Net.Sockets;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
@@ -92,7 +99,7 @@ public class ServicePoint
 	internal ServicePointManager.SPKey Key
 	{
 		[Token(Token = "0x6000A50")]
-		[Address(RVA = "0x46676F0", Offset = "0x46676F0", VA = "0x46676F0")]
+		[Address(RVA = "0x498C7F0", Offset = "0x498C7F0", VA = "0x498C7F0")]
 		[CompilerGenerated]
 		get
 		{
@@ -104,14 +111,14 @@ public class ServicePoint
 	private ServicePointScheduler Scheduler
 	{
 		[Token(Token = "0x6000A51")]
-		[Address(RVA = "0x4667700", Offset = "0x4667700", VA = "0x4667700")]
+		[Address(RVA = "0x498C800", Offset = "0x498C800", VA = "0x498C800")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A52")]
-		[Address(RVA = "0x4667710", Offset = "0x4667710", VA = "0x4667710")]
+		[Address(RVA = "0x498C810", Offset = "0x498C810", VA = "0x498C810")]
 		[CompilerGenerated]
 		set
 		{
@@ -122,7 +129,7 @@ public class ServicePoint
 	public Uri Address
 	{
 		[Token(Token = "0x6000A53")]
-		[Address(RVA = "0x4667720", Offset = "0x4667720", VA = "0x4667720")]
+		[Address(RVA = "0x498C820", Offset = "0x498C820", VA = "0x498C820")]
 		get
 		{
 			return null;
@@ -133,7 +140,7 @@ public class ServicePoint
 	public int ConnectionLimit
 	{
 		[Token(Token = "0x6000A54")]
-		[Address(RVA = "0x4667730", Offset = "0x4667730", VA = "0x4667730")]
+		[Address(RVA = "0x498C830", Offset = "0x498C830", VA = "0x498C830")]
 		get
 		{
 			return default(int);
@@ -144,7 +151,7 @@ public class ServicePoint
 	public virtual Version ProtocolVersion
 	{
 		[Token(Token = "0x6000A55")]
-		[Address(RVA = "0x4667740", Offset = "0x4667740", VA = "0x4667740", Slot = "4")]
+		[Address(RVA = "0x498C840", Offset = "0x498C840", VA = "0x498C840", Slot = "4")]
 		get
 		{
 			return null;
@@ -155,7 +162,7 @@ public class ServicePoint
 	public bool Expect100Continue
 	{
 		[Token(Token = "0x6000A56")]
-		[Address(RVA = "0x4667750", Offset = "0x4667750", VA = "0x4667750")]
+		[Address(RVA = "0x498C850", Offset = "0x498C850", VA = "0x498C850")]
 		set
 		{
 		}
@@ -165,13 +172,13 @@ public class ServicePoint
 	public bool UseNagleAlgorithm
 	{
 		[Token(Token = "0x6000A57")]
-		[Address(RVA = "0x4667760", Offset = "0x4667760", VA = "0x4667760")]
+		[Address(RVA = "0x498C860", Offset = "0x498C860", VA = "0x498C860")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A58")]
-		[Address(RVA = "0x4667770", Offset = "0x4667770", VA = "0x4667770")]
+		[Address(RVA = "0x498C870", Offset = "0x498C870", VA = "0x498C870")]
 		set
 		{
 		}
@@ -181,13 +188,13 @@ public class ServicePoint
 	internal bool SendContinue
 	{
 		[Token(Token = "0x6000A59")]
-		[Address(RVA = "0x4660280", Offset = "0x4660280", VA = "0x4660280")]
+		[Address(RVA = "0x4985380", Offset = "0x4985380", VA = "0x4985380")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A5A")]
-		[Address(RVA = "0x4667780", Offset = "0x4667780", VA = "0x4667780")]
+		[Address(RVA = "0x498C880", Offset = "0x498C880", VA = "0x498C880")]
 		set
 		{
 		}
@@ -197,13 +204,13 @@ public class ServicePoint
 	internal bool UsesProxy
 	{
 		[Token(Token = "0x6000A5E")]
-		[Address(RVA = "0x46679A0", Offset = "0x46679A0", VA = "0x46679A0")]
+		[Address(RVA = "0x498CAA0", Offset = "0x498CAA0", VA = "0x498CAA0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A5F")]
-		[Address(RVA = "0x46679B0", Offset = "0x46679B0", VA = "0x46679B0")]
+		[Address(RVA = "0x498CAB0", Offset = "0x498CAB0", VA = "0x498CAB0")]
 		set
 		{
 		}
@@ -213,13 +220,13 @@ public class ServicePoint
 	internal bool UseConnect
 	{
 		[Token(Token = "0x6000A60")]
-		[Address(RVA = "0x46679C0", Offset = "0x46679C0", VA = "0x46679C0")]
+		[Address(RVA = "0x498CAC0", Offset = "0x498CAC0", VA = "0x498CAC0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A61")]
-		[Address(RVA = "0x46679D0", Offset = "0x46679D0", VA = "0x46679D0")]
+		[Address(RVA = "0x498CAD0", Offset = "0x498CAD0", VA = "0x498CAD0")]
 		set
 		{
 		}
@@ -229,7 +236,7 @@ public class ServicePoint
 	private bool HasTimedOut
 	{
 		[Token(Token = "0x6000A62")]
-		[Address(RVA = "0x46679E0", Offset = "0x46679E0", VA = "0x46679E0")]
+		[Address(RVA = "0x498CAE0", Offset = "0x498CAE0", VA = "0x498CAE0")]
 		get
 		{
 			return default(bool);
@@ -240,7 +247,7 @@ public class ServicePoint
 	internal IPHostEntry HostEntry
 	{
 		[Token(Token = "0x6000A63")]
-		[Address(RVA = "0x4667B50", Offset = "0x4667B50", VA = "0x4667B50")]
+		[Address(RVA = "0x498CC50", Offset = "0x498CC50", VA = "0x498CC50")]
 		get
 		{
 			return null;
@@ -248,61 +255,61 @@ public class ServicePoint
 	}
 
 	[Token(Token = "0x6000A4F")]
-	[Address(RVA = "0x46673B0", Offset = "0x46673B0", VA = "0x46673B0")]
+	[Address(RVA = "0x498C4B0", Offset = "0x498C4B0", VA = "0x498C4B0")]
 	internal ServicePoint(ServicePointManager.SPKey key, Uri uri, int connectionLimit, int maxIdleTime)
 	{
 	}
 
 	[Token(Token = "0x6000A5B")]
-	[Address(RVA = "0x4667790", Offset = "0x4667790", VA = "0x4667790")]
+	[Address(RVA = "0x498C890", Offset = "0x498C890", VA = "0x498C890")]
 	public void SetTcpKeepAlive(bool enabled, int keepAliveTime, int keepAliveInterval)
 	{
 	}
 
 	[Token(Token = "0x6000A5C")]
-	[Address(RVA = "0x4667830", Offset = "0x4667830", VA = "0x4667830")]
+	[Address(RVA = "0x498C930", Offset = "0x498C930", VA = "0x498C930")]
 	internal void KeepAliveSetup(Socket socket)
 	{
 	}
 
 	[Token(Token = "0x6000A5D")]
-	[Address(RVA = "0x4667940", Offset = "0x4667940", VA = "0x4667940")]
+	[Address(RVA = "0x498CA40", Offset = "0x498CA40", VA = "0x498CA40")]
 	private static void PutBytes(byte[] bytes, uint v, int offset)
 	{
 	}
 
 	[Token(Token = "0x6000A64")]
-	[Address(RVA = "0x4667F70", Offset = "0x4667F70", VA = "0x4667F70")]
+	[Address(RVA = "0x498D070", Offset = "0x498D070", VA = "0x498D070")]
 	internal void SetVersion(Version version)
 	{
 	}
 
 	[Token(Token = "0x6000A65")]
-	[Address(RVA = "0x465E780", Offset = "0x465E780", VA = "0x465E780")]
+	[Address(RVA = "0x4983880", Offset = "0x4983880", VA = "0x4983880")]
 	internal void SendRequest(WebOperation operation, string groupName)
 	{
 	}
 
 	[Token(Token = "0x6000A66")]
-	[Address(RVA = "0x46680A0", Offset = "0x46680A0", VA = "0x46680A0")]
+	[Address(RVA = "0x498D1A0", Offset = "0x498D1A0", VA = "0x498D1A0")]
 	internal void FreeServicePoint()
 	{
 	}
 
 	[Token(Token = "0x6000A67")]
-	[Address(RVA = "0x46680C0", Offset = "0x46680C0", VA = "0x46680C0")]
+	[Address(RVA = "0x498D1C0", Offset = "0x498D1C0", VA = "0x498D1C0")]
 	internal void UpdateServerCertificate(X509Certificate certificate)
 	{
 	}
 
 	[Token(Token = "0x6000A68")]
-	[Address(RVA = "0x4668110", Offset = "0x4668110", VA = "0x4668110")]
+	[Address(RVA = "0x498D210", Offset = "0x498D210", VA = "0x498D210")]
 	internal void UpdateClientCertificate(X509Certificate certificate)
 	{
 	}
 
 	[Token(Token = "0x6000A69")]
-	[Address(RVA = "0x4668170", Offset = "0x4668170", VA = "0x4668170")]
+	[Address(RVA = "0x498D270", Offset = "0x498D270", VA = "0x498D270")]
 	internal bool CallEndPointDelegate(Socket sock, IPEndPoint remote)
 	{
 		return default(bool);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.TiltShift
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/TiltShift.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -62,20 +69,20 @@ internal class TiltShift : PostEffectsBase
 	private Material tiltShiftMaterial;
 
 	[Token(Token = "0x60000A5")]
-	[Address(RVA = "0x41635B0", Offset = "0x41635B0", VA = "0x41635B0", Slot = "4")]
+	[Address(RVA = "0x44886B0", Offset = "0x44886B0", VA = "0x44886B0", Slot = "4")]
 	public override bool CheckResources()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000A6")]
-	[Address(RVA = "0x4163610", Offset = "0x4163610", VA = "0x4163610")]
+	[Address(RVA = "0x4488710", Offset = "0x4488710", VA = "0x4488710")]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x60000A7")]
-	[Address(RVA = "0x4163890", Offset = "0x4163890", VA = "0x4163890")]
+	[Address(RVA = "0x4488990", Offset = "0x4488990", VA = "0x4488990")]
 	public TiltShift()
 	{
 	}

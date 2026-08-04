@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.Configuration.Ipv6Element
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Configuration;
 using Il2CppDummyDll;
 
@@ -10,13 +17,13 @@ public sealed class Ipv6Element : ConfigurationElement
 	public bool Enabled
 	{
 		[Token(Token = "0x60017C3")]
-		[Address(RVA = "0x45CEDF0", Offset = "0x45CEDF0", VA = "0x45CEDF0")]
+		[Address(RVA = "0x48F3EF0", Offset = "0x48F3EF0", VA = "0x48F3EF0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60017C4")]
-		[Address(RVA = "0x45CEE20", Offset = "0x45CEE20", VA = "0x45CEE20")]
+		[Address(RVA = "0x48F3F20", Offset = "0x48F3F20", VA = "0x48F3F20")]
 		set
 		{
 		}
@@ -26,7 +33,7 @@ public sealed class Ipv6Element : ConfigurationElement
 	protected override ConfigurationPropertyCollection Properties
 	{
 		[Token(Token = "0x60017C5")]
-		[Address(RVA = "0x45CEE50", Offset = "0x45CEE50", VA = "0x45CEE50", Slot = "4")]
+		[Address(RVA = "0x48F3F50", Offset = "0x48F3F50", VA = "0x48F3F50", Slot = "4")]
 		get
 		{
 			return null;
@@ -34,7 +41,7 @@ public sealed class Ipv6Element : ConfigurationElement
 	}
 
 	[Token(Token = "0x60017C2")]
-	[Address(RVA = "0x45CEDC0", Offset = "0x45CEDC0", VA = "0x45CEDC0")]
+	[Address(RVA = "0x48F3EC0", Offset = "0x48F3EC0", VA = "0x48F3EC0")]
 	public Ipv6Element()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Reflection.CustomAttributeData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -26,7 +33,7 @@ public class CustomAttributeData
 		internal uint data_length;
 
 		[Token(Token = "0x6002618")]
-		[Address(RVA = "0x4EF7FD0", Offset = "0x4EF7FD0", VA = "0x4EF7FD0")]
+		[Address(RVA = "0x3BDDAF0", Offset = "0x3BDDAF0", VA = "0x3BDDAF0")]
 		public LazyCAttrData()
 		{
 		}
@@ -53,7 +60,7 @@ public class CustomAttributeData
 	public virtual ConstructorInfo Constructor
 	{
 		[Token(Token = "0x600260B")]
-		[Address(RVA = "0x4EF8280", Offset = "0x4EF8280", VA = "0x4EF8280", Slot = "4")]
+		[Address(RVA = "0x3BDDDA0", Offset = "0x3BDDDA0", VA = "0x3BDDDA0", Slot = "4")]
 		get
 		{
 			return null;
@@ -65,7 +72,7 @@ public class CustomAttributeData
 	public virtual IList<CustomAttributeTypedArgument> ConstructorArguments
 	{
 		[Token(Token = "0x600260C")]
-		[Address(RVA = "0x4EF8290", Offset = "0x4EF8290", VA = "0x4EF8290", Slot = "5")]
+		[Address(RVA = "0x3BDDDB0", Offset = "0x3BDDDB0", VA = "0x3BDDDB0", Slot = "5")]
 		get
 		{
 			return null;
@@ -76,7 +83,7 @@ public class CustomAttributeData
 	public virtual IList<CustomAttributeNamedArgument> NamedArguments
 	{
 		[Token(Token = "0x600260D")]
-		[Address(RVA = "0x4EF82A0", Offset = "0x4EF82A0", VA = "0x4EF82A0", Slot = "6")]
+		[Address(RVA = "0x3BDDDC0", Offset = "0x3BDDDC0", VA = "0x3BDDDC0", Slot = "6")]
 		get
 		{
 			return null;
@@ -87,7 +94,7 @@ public class CustomAttributeData
 	public Type AttributeType
 	{
 		[Token(Token = "0x6002613")]
-		[Address(RVA = "0x4EF8440", Offset = "0x4EF8440", VA = "0x4EF8440")]
+		[Address(RVA = "0x3BDDF60", Offset = "0x3BDDF60", VA = "0x3BDDF60")]
 		get
 		{
 			return null;
@@ -95,77 +102,77 @@ public class CustomAttributeData
 	}
 
 	[Token(Token = "0x6002605")]
-	[Address(RVA = "0x4EF7F00", Offset = "0x4EF7F00", VA = "0x4EF7F00")]
+	[Address(RVA = "0x3BDDA20", Offset = "0x3BDDA20", VA = "0x3BDDA20")]
 	protected CustomAttributeData()
 	{
 	}
 
 	[Token(Token = "0x6002606")]
-	[Address(RVA = "0x4EF7F10", Offset = "0x4EF7F10", VA = "0x4EF7F10")]
+	[Address(RVA = "0x3BDDA30", Offset = "0x3BDDA30", VA = "0x3BDDA30")]
 	internal CustomAttributeData(ConstructorInfo ctorInfo, Assembly assembly, IntPtr data, uint data_length)
 	{
 	}
 
 	[Token(Token = "0x6002607")]
-	[Address(RVA = "0x4EEBF50", Offset = "0x4EEBF50", VA = "0x4EEBF50")]
+	[Address(RVA = "0x3BD1A70", Offset = "0x3BD1A70", VA = "0x3BD1A70")]
 	internal CustomAttributeData(ConstructorInfo ctorInfo)
 	{
 	}
 
 	[Token(Token = "0x6002608")]
-	[Address(RVA = "0x4EEC3F0", Offset = "0x4EEC3F0", VA = "0x4EEC3F0")]
+	[Address(RVA = "0x3BD1F10", Offset = "0x3BD1F10", VA = "0x3BD1F10")]
 	internal CustomAttributeData(ConstructorInfo ctorInfo, IList<CustomAttributeTypedArgument> ctorArgs, IList<CustomAttributeNamedArgument> namedArgs)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6002609")]
-	[Address(RVA = "0x4EF7FE0", Offset = "0x4EF7FE0", VA = "0x4EF7FE0")]
+	[Address(RVA = "0x3BDDB00", Offset = "0x3BDDB00", VA = "0x3BDDB00")]
 	private static extern void ResolveArgumentsInternal(ConstructorInfo ctor, Assembly assembly, IntPtr data, uint data_length, out object[] ctorArgs, out object[] namedArgs);
 
 	[Token(Token = "0x600260A")]
-	[Address(RVA = "0x4EF7FF0", Offset = "0x4EF7FF0", VA = "0x4EF7FF0")]
+	[Address(RVA = "0x3BDDB10", Offset = "0x3BDDB10", VA = "0x3BDDB10")]
 	private void ResolveArguments()
 	{
 	}
 
 	[Token(Token = "0x600260E")]
-	[Address(RVA = "0x4EF82B0", Offset = "0x4EF82B0", VA = "0x4EF82B0")]
+	[Address(RVA = "0x3BDDDD0", Offset = "0x3BDDDD0", VA = "0x3BDDDD0")]
 	public static IList<CustomAttributeData> GetCustomAttributes(Assembly target)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600260F")]
-	[Address(RVA = "0x4EF8300", Offset = "0x4EF8300", VA = "0x4EF8300")]
+	[Address(RVA = "0x3BDDE20", Offset = "0x3BDDE20", VA = "0x3BDDE20")]
 	public static IList<CustomAttributeData> GetCustomAttributes(MemberInfo target)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002610")]
-	[Address(RVA = "0x4EF8350", Offset = "0x4EF8350", VA = "0x4EF8350")]
+	[Address(RVA = "0x3BDDE70", Offset = "0x3BDDE70", VA = "0x3BDDE70")]
 	internal static IList<CustomAttributeData> GetCustomAttributesInternal(System.RuntimeType target)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002611")]
-	[Address(RVA = "0x4EF83A0", Offset = "0x4EF83A0", VA = "0x4EF83A0")]
+	[Address(RVA = "0x3BDDEC0", Offset = "0x3BDDEC0", VA = "0x3BDDEC0")]
 	public static IList<CustomAttributeData> GetCustomAttributes(Module target)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002612")]
-	[Address(RVA = "0x4EF83F0", Offset = "0x4EF83F0", VA = "0x4EF83F0")]
+	[Address(RVA = "0x3BDDF10", Offset = "0x3BDDF10", VA = "0x3BDDF10")]
 	public static IList<CustomAttributeData> GetCustomAttributes(ParameterInfo target)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002614")]
-	[Address(RVA = "0x4EF8470", Offset = "0x4EF8470", VA = "0x4EF8470", Slot = "3")]
+	[Address(RVA = "0x3BDDF90", Offset = "0x3BDDF90", VA = "0x3BDDF90", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
@@ -178,14 +185,14 @@ public class CustomAttributeData
 	}
 
 	[Token(Token = "0x6002616")]
-	[Address(RVA = "0x4EF8AC0", Offset = "0x4EF8AC0", VA = "0x4EF8AC0", Slot = "0")]
+	[Address(RVA = "0x3BDE5E0", Offset = "0x3BDE5E0", VA = "0x3BDE5E0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002617")]
-	[Address(RVA = "0x4EF9310", Offset = "0x4EF9310", VA = "0x4EF9310", Slot = "2")]
+	[Address(RVA = "0x3BDEE30", Offset = "0x3BDEE30", VA = "0x3BDEE30", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

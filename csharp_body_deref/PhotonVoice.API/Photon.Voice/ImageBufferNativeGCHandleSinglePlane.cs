@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.ImageBufferNativeGCHandleSinglePlane
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/VoiceCodec.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -17,25 +24,25 @@ public class ImageBufferNativeGCHandleSinglePlane : ImageBufferNative, IDisposab
 	private GCHandle planeHandle;
 
 	[Token(Token = "0x60002F3")]
-	[Address(RVA = "0x3C3A960", Offset = "0x3C3A960", VA = "0x3C3A960")]
+	[Address(RVA = "0x3F302B0", Offset = "0x3F302B0", VA = "0x3F302B0")]
 	public ImageBufferNativeGCHandleSinglePlane(ImageBufferNativePool<ImageBufferNativeGCHandleSinglePlane> pool, ImageBufferInfo info)
 	{
 	}
 
 	[Token(Token = "0x60002F4")]
-	[Address(RVA = "0x3C3AA50", Offset = "0x3C3AA50", VA = "0x3C3AA50")]
+	[Address(RVA = "0x3F303A0", Offset = "0x3F303A0", VA = "0x3F303A0")]
 	public void PinPlane(byte[] plane)
 	{
 	}
 
 	[Token(Token = "0x60002F5")]
-	[Address(RVA = "0x3C3AA80", Offset = "0x3C3AA80", VA = "0x3C3AA80", Slot = "4")]
+	[Address(RVA = "0x3F303D0", Offset = "0x3F303D0", VA = "0x3F303D0", Slot = "4")]
 	public override void Release()
 	{
 	}
 
 	[Token(Token = "0x60002F6")]
-	[Address(RVA = "0x3C3AAC0", Offset = "0x3C3AAC0", VA = "0x3C3AAC0", Slot = "5")]
+	[Address(RVA = "0x3F30410", Offset = "0x3F30410", VA = "0x3F30410", Slot = "5")]
 	public override void Dispose()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.UI.DebugUIHandlerColor
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.UI;
 
@@ -43,69 +50,69 @@ public class DebugUIHandlerColor : DebugUIHandlerWidget
 	private DebugUIHandlerContainer m_Container;
 
 	[Token(Token = "0x6000E71")]
-	[Address(RVA = "0x48EC4A0", Offset = "0x48EC4A0", VA = "0x48EC4A0", Slot = "5")]
+	[Address(RVA = "0x4C11510", Offset = "0x4C11510", VA = "0x4C11510", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
 	[Token(Token = "0x6000E72")]
-	[Address(RVA = "0x48ECB90", Offset = "0x48ECB90", VA = "0x48ECB90")]
+	[Address(RVA = "0x4C11C00", Offset = "0x4C11C00", VA = "0x4C11C00")]
 	private void SetValue(float x, bool r = false, bool g = false, bool b = false, bool a = false)
 	{
 	}
 
 	[Token(Token = "0x6000E73")]
-	[Address(RVA = "0x48EC9A0", Offset = "0x48EC9A0", VA = "0x48EC9A0")]
+	[Address(RVA = "0x4C11A10", Offset = "0x4C11A10", VA = "0x4C11A10")]
 	private void SetupSettings(DebugUIHandlerIndirectFloatField field)
 	{
 	}
 
 	[Token(Token = "0x6000E74")]
-	[Address(RVA = "0x48ECC80", Offset = "0x48ECC80", VA = "0x48ECC80", Slot = "6")]
+	[Address(RVA = "0x4C11CF0", Offset = "0x4C11CF0", VA = "0x4C11CF0", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E75")]
-	[Address(RVA = "0x48ECD60", Offset = "0x48ECD60", VA = "0x48ECD60", Slot = "7")]
+	[Address(RVA = "0x4C11DD0", Offset = "0x4C11DD0", VA = "0x4C11DD0", Slot = "7")]
 	public override void OnDeselection()
 	{
 	}
 
 	[Token(Token = "0x6000E76")]
-	[Address(RVA = "0x48ECD90", Offset = "0x48ECD90", VA = "0x48ECD90", Slot = "9")]
+	[Address(RVA = "0x4C11E00", Offset = "0x4C11E00", VA = "0x4C11E00", Slot = "9")]
 	public override void OnIncrement(bool fast)
 	{
 	}
 
 	[Token(Token = "0x6000E77")]
-	[Address(RVA = "0x48ECDB0", Offset = "0x48ECDB0", VA = "0x48ECDB0", Slot = "10")]
+	[Address(RVA = "0x4C11E20", Offset = "0x4C11E20", VA = "0x4C11E20", Slot = "10")]
 	public override void OnDecrement(bool fast)
 	{
 	}
 
 	[Token(Token = "0x6000E78")]
-	[Address(RVA = "0x48ECDD0", Offset = "0x48ECDD0", VA = "0x48ECDD0", Slot = "8")]
+	[Address(RVA = "0x4C11E40", Offset = "0x4C11E40", VA = "0x4C11E40", Slot = "8")]
 	public override void OnAction()
 	{
 	}
 
 	[Token(Token = "0x6000E79")]
-	[Address(RVA = "0x48ECAE0", Offset = "0x48ECAE0", VA = "0x48ECAE0")]
+	[Address(RVA = "0x4C11B50", Offset = "0x4C11B50", VA = "0x4C11B50")]
 	internal void UpdateColor()
 	{
 	}
 
 	[Token(Token = "0x6000E7A")]
-	[Address(RVA = "0x48ECE00", Offset = "0x48ECE00", VA = "0x48ECE00", Slot = "12")]
+	[Address(RVA = "0x4C11E70", Offset = "0x4C11E70", VA = "0x4C11E70", Slot = "12")]
 	public override DebugUIHandlerWidget Next()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E7B")]
-	[Address(RVA = "0x48ECEC0", Offset = "0x48ECEC0", VA = "0x48ECEC0")]
+	[Address(RVA = "0x4C11F30", Offset = "0x4C11F30", VA = "0x4C11F30")]
 	public DebugUIHandlerColor()
 	{
 	}

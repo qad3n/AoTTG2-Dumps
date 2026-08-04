@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: CustomLogic.CustomLogicColorBuiltin
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/CustomLogic/CustomLogicColorBuiltin.c
+// Prior real C# source (older reference): Assets/Scripts/CustomLogic/Builtin/CustomLogicColorBuiltin.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -6,396 +13,396 @@ using Utility;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000272")]
+[Token(Token = "0x20002AB")]
 [CompilerGenerated]
 internal class CustomLogicColorBuiltin : BuiltinClassInstance, ICustomLogicEquals, ICustomLogicCopyable, ICustomLogicMathOperators, ICustomLogicToString
 {
-	[Token(Token = "0x2000273")]
+	[Token(Token = "0x20002AC")]
 	public static class Factory
 	{
-		[Token(Token = "0x6000E38")]
-		[Address(RVA = "0x3CB4B60", Offset = "0x3CB4B60", VA = "0x3CB4B60")]
+		[Token(Token = "0x6000FE2")]
+		[Address(RVA = "0x3FBAEA0", Offset = "0x3FBAEA0", VA = "0x3FBAEA0")]
 		public static CustomLogicColorBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000274")]
+	[Token(Token = "0x20002AD")]
 	public static class Bindings
 	{
-		[Token(Token = "0x4000D15")]
+		[Token(Token = "0x4000DFB")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6000E39")]
-		[Address(RVA = "0x3CB4E10", Offset = "0x3CB4E10", VA = "0x3CB4E10")]
+		[Token(Token = "0x6000FE3")]
+		[Address(RVA = "0x3FBB150", Offset = "0x3FBB150", VA = "0x3FBB150")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E3A")]
-		[Address(RVA = "0x3CB5430", Offset = "0x3CB5430", VA = "0x3CB5430")]
+		[Token(Token = "0x6000FE4")]
+		[Address(RVA = "0x3FBB770", Offset = "0x3FBB770", VA = "0x3FBB770")]
 		public static CLPropertyBinding<CustomLogicColorBuiltin> __CreatePropertyBinding__R()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E3B")]
-		[Address(RVA = "0x3CB5510", Offset = "0x3CB5510", VA = "0x3CB5510")]
+		[Token(Token = "0x6000FE5")]
+		[Address(RVA = "0x3FBB850", Offset = "0x3FBB850", VA = "0x3FBB850")]
 		public static CLPropertyBinding<CustomLogicColorBuiltin> __CreatePropertyBinding__G()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E3C")]
-		[Address(RVA = "0x3CB55F0", Offset = "0x3CB55F0", VA = "0x3CB55F0")]
+		[Token(Token = "0x6000FE6")]
+		[Address(RVA = "0x3FBB930", Offset = "0x3FBB930", VA = "0x3FBB930")]
 		public static CLPropertyBinding<CustomLogicColorBuiltin> __CreatePropertyBinding__B()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E3D")]
-		[Address(RVA = "0x3CB56D0", Offset = "0x3CB56D0", VA = "0x3CB56D0")]
+		[Token(Token = "0x6000FE7")]
+		[Address(RVA = "0x3FBBA10", Offset = "0x3FBBA10", VA = "0x3FBBA10")]
 		public static CLPropertyBinding<CustomLogicColorBuiltin> __CreatePropertyBinding__A()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E3E")]
-		[Address(RVA = "0x3CB57B0", Offset = "0x3CB57B0", VA = "0x3CB57B0")]
+		[Token(Token = "0x6000FE8")]
+		[Address(RVA = "0x3FBBAF0", Offset = "0x3FBBAF0", VA = "0x3FBBAF0")]
 		public static CLMethodBinding<CustomLogicColorBuiltin> __CreateMethodBinding__ToHexString()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E3F")]
-		[Address(RVA = "0x3CB5900", Offset = "0x3CB5900", VA = "0x3CB5900")]
+		[Token(Token = "0x6000FE9")]
+		[Address(RVA = "0x3FBBC40", Offset = "0x3FBBC40", VA = "0x3FBBC40")]
 		public static CLMethodBinding<CustomLogicColorBuiltin> __CreateMethodBinding__Lerp()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E40")]
-		[Address(RVA = "0x3CB5A50", Offset = "0x3CB5A50", VA = "0x3CB5A50")]
+		[Token(Token = "0x6000FEA")]
+		[Address(RVA = "0x3FBBD90", Offset = "0x3FBBD90", VA = "0x3FBBD90")]
 		public static CLMethodBinding<CustomLogicColorBuiltin> __CreateMethodBinding__Gradient()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E41")]
-		[Address(RVA = "0x3CB5BA0", Offset = "0x3CB5BA0", VA = "0x3CB5BA0")]
+		[Token(Token = "0x6000FEB")]
+		[Address(RVA = "0x3FBBEE0", Offset = "0x3FBBEE0", VA = "0x3FBBEE0")]
 		public static CLMethodBinding<CustomLogicColorBuiltin> __CreateMethodBinding____Eq__()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E42")]
-		[Address(RVA = "0x3CB5CF0", Offset = "0x3CB5CF0", VA = "0x3CB5CF0")]
+		[Token(Token = "0x6000FEC")]
+		[Address(RVA = "0x3FBC030", Offset = "0x3FBC030", VA = "0x3FBC030")]
 		public static CLMethodBinding<CustomLogicColorBuiltin> __CreateMethodBinding____Hash__()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E43")]
-		[Address(RVA = "0x3CB5E40", Offset = "0x3CB5E40", VA = "0x3CB5E40")]
+		[Token(Token = "0x6000FED")]
+		[Address(RVA = "0x3FBC180", Offset = "0x3FBC180", VA = "0x3FBC180")]
 		public static CLMethodBinding<CustomLogicColorBuiltin> __CreateMethodBinding____Copy__()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E44")]
-		[Address(RVA = "0x3CB5F90", Offset = "0x3CB5F90", VA = "0x3CB5F90")]
+		[Token(Token = "0x6000FEE")]
+		[Address(RVA = "0x3FBC2D0", Offset = "0x3FBC2D0", VA = "0x3FBC2D0")]
 		public static CLMethodBinding<CustomLogicColorBuiltin> __CreateMethodBinding____Str__()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E45")]
-		[Address(RVA = "0x3CB60E0", Offset = "0x3CB60E0", VA = "0x3CB60E0")]
+		[Token(Token = "0x6000FEF")]
+		[Address(RVA = "0x3FBC420", Offset = "0x3FBC420", VA = "0x3FBC420")]
 		public static CLMethodBinding<CustomLogicColorBuiltin> __CreateMethodBinding____Add__()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E46")]
-		[Address(RVA = "0x3CB6230", Offset = "0x3CB6230", VA = "0x3CB6230")]
+		[Token(Token = "0x6000FF0")]
+		[Address(RVA = "0x3FBC570", Offset = "0x3FBC570", VA = "0x3FBC570")]
 		public static CLMethodBinding<CustomLogicColorBuiltin> __CreateMethodBinding____Sub__()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E47")]
-		[Address(RVA = "0x3CB6380", Offset = "0x3CB6380", VA = "0x3CB6380")]
+		[Token(Token = "0x6000FF1")]
+		[Address(RVA = "0x3FBC6C0", Offset = "0x3FBC6C0", VA = "0x3FBC6C0")]
 		public static CLMethodBinding<CustomLogicColorBuiltin> __CreateMethodBinding____Mul__()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000E48")]
-		[Address(RVA = "0x3CB64D0", Offset = "0x3CB64D0", VA = "0x3CB64D0")]
+		[Token(Token = "0x6000FF2")]
+		[Address(RVA = "0x3FBC810", Offset = "0x3FBC810", VA = "0x3FBC810")]
 		public static CLMethodBinding<CustomLogicColorBuiltin> __CreateMethodBinding____Div__()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x4000D14")]
+	[Token(Token = "0x4000DFA")]
 	[FieldOffset(Offset = "0x30")]
 	public Color255 Value;
 
-	[Token(Token = "0x1700018F")]
+	[Token(Token = "0x170001E8")]
 	public int R
 	{
-		[Token(Token = "0x6000E1C")]
-		[Address(RVA = "0x3CB3AA0", Offset = "0x3CB3AA0", VA = "0x3CB3AA0")]
+		[Token(Token = "0x6000FC6")]
+		[Address(RVA = "0x3FB9DE0", Offset = "0x3FB9DE0", VA = "0x3FB9DE0")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000E1D")]
-		[Address(RVA = "0x3CB3AC0", Offset = "0x3CB3AC0", VA = "0x3CB3AC0")]
+		[Token(Token = "0x6000FC7")]
+		[Address(RVA = "0x3FB9E00", Offset = "0x3FB9E00", VA = "0x3FB9E00")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000190")]
+	[Token(Token = "0x170001E9")]
 	public int G
 	{
-		[Token(Token = "0x6000E1E")]
-		[Address(RVA = "0x3CB3AE0", Offset = "0x3CB3AE0", VA = "0x3CB3AE0")]
+		[Token(Token = "0x6000FC8")]
+		[Address(RVA = "0x3FB9E20", Offset = "0x3FB9E20", VA = "0x3FB9E20")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000E1F")]
-		[Address(RVA = "0x3CB3B00", Offset = "0x3CB3B00", VA = "0x3CB3B00")]
+		[Token(Token = "0x6000FC9")]
+		[Address(RVA = "0x3FB9E40", Offset = "0x3FB9E40", VA = "0x3FB9E40")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000191")]
+	[Token(Token = "0x170001EA")]
 	public int B
 	{
-		[Token(Token = "0x6000E20")]
-		[Address(RVA = "0x3CB3B20", Offset = "0x3CB3B20", VA = "0x3CB3B20")]
+		[Token(Token = "0x6000FCA")]
+		[Address(RVA = "0x3FB9E60", Offset = "0x3FB9E60", VA = "0x3FB9E60")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000E21")]
-		[Address(RVA = "0x3CB3B40", Offset = "0x3CB3B40", VA = "0x3CB3B40")]
+		[Token(Token = "0x6000FCB")]
+		[Address(RVA = "0x3FB9E80", Offset = "0x3FB9E80", VA = "0x3FB9E80")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000192")]
+	[Token(Token = "0x170001EB")]
 	public int A
 	{
-		[Token(Token = "0x6000E22")]
-		[Address(RVA = "0x3CB3B60", Offset = "0x3CB3B60", VA = "0x3CB3B60")]
+		[Token(Token = "0x6000FCC")]
+		[Address(RVA = "0x3FB9EA0", Offset = "0x3FB9EA0", VA = "0x3FB9EA0")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000E23")]
-		[Address(RVA = "0x3CB3B80", Offset = "0x3CB3B80", VA = "0x3CB3B80")]
+		[Token(Token = "0x6000FCD")]
+		[Address(RVA = "0x3FB9EC0", Offset = "0x3FB9EC0", VA = "0x3FB9EC0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000193")]
+	[Token(Token = "0x170001EC")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6000E34")]
-		[Address(RVA = "0x3CB4B00", Offset = "0x3CB4B00", VA = "0x3CB4B00", Slot = "4")]
+		[Token(Token = "0x6000FDE")]
+		[Address(RVA = "0x3FBAE40", Offset = "0x3FBAE40", VA = "0x3FBAE40", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000194")]
+	[Token(Token = "0x170001ED")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6000E35")]
-		[Address(RVA = "0x3CB4B30", Offset = "0x3CB4B30", VA = "0x3CB4B30", Slot = "6")]
+		[Token(Token = "0x6000FDF")]
+		[Address(RVA = "0x3FBAE70", Offset = "0x3FBAE70", VA = "0x3FBAE70", Slot = "6")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000195")]
+	[Token(Token = "0x170001EE")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6000E36")]
-		[Address(RVA = "0x3CB4B40", Offset = "0x3CB4B40", VA = "0x3CB4B40", Slot = "7")]
+		[Token(Token = "0x6000FE0")]
+		[Address(RVA = "0x3FBAE80", Offset = "0x3FBAE80", VA = "0x3FBAE80", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000196")]
+	[Token(Token = "0x170001EF")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6000E37")]
-		[Address(RVA = "0x3CB4B50", Offset = "0x3CB4B50", VA = "0x3CB4B50", Slot = "8")]
+		[Token(Token = "0x6000FE1")]
+		[Address(RVA = "0x3FBAE90", Offset = "0x3FBAE90", VA = "0x3FBAE90", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000E16")]
-	[Address(RVA = "0x3CB35D0", Offset = "0x3CB35D0", VA = "0x3CB35D0")]
+	[Token(Token = "0x6000FC0")]
+	[Address(RVA = "0x3FB9910", Offset = "0x3FB9910", VA = "0x3FB9910")]
 	public CustomLogicColorBuiltin()
 	{
 	}
 
-	[Token(Token = "0x6000E17")]
-	[Address(RVA = "0x3CB3660", Offset = "0x3CB3660", VA = "0x3CB3660")]
+	[Token(Token = "0x6000FC1")]
+	[Address(RVA = "0x3FB99A0", Offset = "0x3FB99A0", VA = "0x3FB99A0")]
 	public CustomLogicColorBuiltin(string hexString)
 	{
 	}
 
-	[Token(Token = "0x6000E18")]
-	[Address(RVA = "0x3CB3760", Offset = "0x3CB3760", VA = "0x3CB3760")]
+	[Token(Token = "0x6000FC2")]
+	[Address(RVA = "0x3FB9AA0", Offset = "0x3FB9AA0", VA = "0x3FB9AA0")]
 	public CustomLogicColorBuiltin(int r, int g, int b)
 	{
 	}
 
-	[Token(Token = "0x6000E19")]
-	[Address(RVA = "0x3CB3840", Offset = "0x3CB3840", VA = "0x3CB3840")]
+	[Token(Token = "0x6000FC3")]
+	[Address(RVA = "0x3FB9B80", Offset = "0x3FB9B80", VA = "0x3FB9B80")]
 	public CustomLogicColorBuiltin(int r, int g, int b, int a)
 	{
 	}
 
-	[Token(Token = "0x6000E1A")]
-	[Address(RVA = "0x3CB3920", Offset = "0x3CB3920", VA = "0x3CB3920")]
+	[Token(Token = "0x6000FC4")]
+	[Address(RVA = "0x3FB9C60", Offset = "0x3FB9C60", VA = "0x3FB9C60")]
 	public CustomLogicColorBuiltin(Color color)
 	{
 	}
 
-	[Token(Token = "0x6000E1B")]
-	[Address(RVA = "0x3CB39F0", Offset = "0x3CB39F0", VA = "0x3CB39F0")]
+	[Token(Token = "0x6000FC5")]
+	[Address(RVA = "0x3FB9D30", Offset = "0x3FB9D30", VA = "0x3FB9D30")]
 	public CustomLogicColorBuiltin(Color255 value)
 	{
 	}
 
-	[Token(Token = "0x6000E24")]
-	[Address(RVA = "0x3CB3BA0", Offset = "0x3CB3BA0", VA = "0x3CB3BA0")]
+	[Token(Token = "0x6000FCE")]
+	[Address(RVA = "0x3FB9EE0", Offset = "0x3FB9EE0", VA = "0x3FB9EE0")]
 	public string ToHexString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E25")]
-	[Address(RVA = "0x3CB3BC0", Offset = "0x3CB3BC0", VA = "0x3CB3BC0")]
+	[Token(Token = "0x6000FCF")]
+	[Address(RVA = "0x3FB9F00", Offset = "0x3FB9F00", VA = "0x3FB9F00")]
 	public static CustomLogicColorBuiltin Lerp(CustomLogicColorBuiltin a, CustomLogicColorBuiltin b, float t)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E26")]
-	[Address(RVA = "0x3CB3C40", Offset = "0x3CB3C40", VA = "0x3CB3C40")]
+	[Token(Token = "0x6000FD0")]
+	[Address(RVA = "0x3FB9F80", Offset = "0x3FB9F80", VA = "0x3FB9F80")]
 	public static CustomLogicColorBuiltin Gradient(CustomLogicColorBuiltin a, CustomLogicColorBuiltin b, float t)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E27")]
-	[Address(RVA = "0x3CB3EC0", Offset = "0x3CB3EC0", VA = "0x3CB3EC0", Slot = "2")]
+	[Token(Token = "0x6000FD1")]
+	[Address(RVA = "0x3FBA200", Offset = "0x3FBA200", VA = "0x3FBA200", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000E28")]
-	[Address(RVA = "0x3CB3EF0", Offset = "0x3CB3EF0", VA = "0x3CB3EF0", Slot = "0")]
+	[Token(Token = "0x6000FD2")]
+	[Address(RVA = "0x3FBA230", Offset = "0x3FBA230", VA = "0x3FBA230", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E29")]
-	[Address(RVA = "0x3CB3F90", Offset = "0x3CB3F90", VA = "0x3CB3F90", Slot = "3")]
+	[Token(Token = "0x6000FD3")]
+	[Address(RVA = "0x3FBA2D0", Offset = "0x3FBA2D0", VA = "0x3FBA2D0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E2A")]
-	[Address(RVA = "0x3CB41B0", Offset = "0x3CB41B0", VA = "0x3CB41B0")]
+	[Token(Token = "0x6000FD4")]
+	[Address(RVA = "0x3FBA4F0", Offset = "0x3FBA4F0", VA = "0x3FBA4F0")]
 	public CustomLogicColorBuiltin Copy()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E2B")]
-	[Address(RVA = "0x3CB4260", Offset = "0x3CB4260", VA = "0x3CB4260", Slot = "9")]
+	[Token(Token = "0x6000FD5")]
+	[Address(RVA = "0x3FBA5A0", Offset = "0x3FBA5A0", VA = "0x3FBA5A0", Slot = "9")]
 	public bool __Eq__(object self, object other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E2C")]
-	[Address(RVA = "0x3CB4300", Offset = "0x3CB4300", VA = "0x3CB4300", Slot = "10")]
+	[Token(Token = "0x6000FD6")]
+	[Address(RVA = "0x3FBA640", Offset = "0x3FBA640", VA = "0x3FBA640", Slot = "10")]
 	public int __Hash__()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000E2D")]
-	[Address(RVA = "0x3CB4330", Offset = "0x3CB4330", VA = "0x3CB4330", Slot = "11")]
+	[Token(Token = "0x6000FD7")]
+	[Address(RVA = "0x3FBA670", Offset = "0x3FBA670", VA = "0x3FBA670", Slot = "11")]
 	public object __Copy__()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E2E")]
-	[Address(RVA = "0x3CB43E0", Offset = "0x3CB43E0", VA = "0x3CB43E0", Slot = "17")]
+	[Token(Token = "0x6000FD8")]
+	[Address(RVA = "0x3FBA720", Offset = "0x3FBA720", VA = "0x3FBA720", Slot = "17")]
 	public string __Str__()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E2F")]
-	[Address(RVA = "0x3CB4400", Offset = "0x3CB4400", VA = "0x3CB4400", Slot = "12")]
+	[Token(Token = "0x6000FD9")]
+	[Address(RVA = "0x3FBA740", Offset = "0x3FBA740", VA = "0x3FBA740", Slot = "12")]
 	public object __Add__(object self, object other)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E30")]
-	[Address(RVA = "0x3CB45B0", Offset = "0x3CB45B0", VA = "0x3CB45B0", Slot = "13")]
+	[Token(Token = "0x6000FDA")]
+	[Address(RVA = "0x3FBA8F0", Offset = "0x3FBA8F0", VA = "0x3FBA8F0", Slot = "13")]
 	public object __Sub__(object self, object other)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E31")]
-	[Address(RVA = "0x3CB4760", Offset = "0x3CB4760", VA = "0x3CB4760", Slot = "14")]
+	[Token(Token = "0x6000FDB")]
+	[Address(RVA = "0x3FBAAA0", Offset = "0x3FBAAA0", VA = "0x3FBAAA0", Slot = "14")]
 	public object __Mul__(object self, object other)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E32")]
-	[Address(RVA = "0x3CB4910", Offset = "0x3CB4910", VA = "0x3CB4910", Slot = "15")]
+	[Token(Token = "0x6000FDC")]
+	[Address(RVA = "0x3FBAC50", Offset = "0x3FBAC50", VA = "0x3FBAC50", Slot = "15")]
 	public object __Div__(object self, object other)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E33")]
-	[Address(RVA = "0x3CB4AC0", Offset = "0x3CB4AC0", VA = "0x3CB4AC0", Slot = "16")]
+	[Token(Token = "0x6000FDD")]
+	[Address(RVA = "0x3FBAE00", Offset = "0x3FBAE00", VA = "0x3FBAE00", Slot = "16")]
 	public object __Mod__(object self, object other)
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.NativeClassAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -14,7 +21,7 @@ internal sealed class NativeClassAttribute : Attribute
 	private string QualifiedNativeName
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x4B760D0", Offset = "0x4B760D0", VA = "0x4B760D0")]
+		[Address(RVA = "0x4E9DA00", Offset = "0x4E9DA00", VA = "0x4E9DA00")]
 		[CompilerGenerated]
 		set
 		{
@@ -25,7 +32,7 @@ internal sealed class NativeClassAttribute : Attribute
 	private string Declaration
 	{
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x4B760E0", Offset = "0x4B760E0", VA = "0x4B760E0")]
+		[Address(RVA = "0x4E9DA10", Offset = "0x4E9DA10", VA = "0x4E9DA10")]
 		[CompilerGenerated]
 		set
 		{
@@ -33,13 +40,13 @@ internal sealed class NativeClassAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x4B760F0", Offset = "0x4B760F0", VA = "0x4B760F0")]
+	[Address(RVA = "0x4E9DA20", Offset = "0x4E9DA20", VA = "0x4E9DA20")]
 	public NativeClassAttribute(string qualifiedCppName)
 	{
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x4B76160", Offset = "0x4B76160", VA = "0x4B76160")]
+	[Address(RVA = "0x4E9DA90", Offset = "0x4E9DA90", VA = "0x4E9DA90")]
 	public NativeClassAttribute(string qualifiedCppName, string declaration)
 	{
 	}

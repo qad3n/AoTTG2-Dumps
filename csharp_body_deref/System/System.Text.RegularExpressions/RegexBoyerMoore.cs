@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.RegularExpressions.RegexBoyerMoore
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Globalization;
 using Il2CppDummyDll;
 
@@ -43,27 +50,27 @@ internal sealed class RegexBoyerMoore
 	private readonly CultureInfo _culture;
 
 	[Token(Token = "0x6000357")]
-	[Address(RVA = "0x45E2AA0", Offset = "0x45E2AA0", VA = "0x45E2AA0")]
+	[Address(RVA = "0x4907BA0", Offset = "0x4907BA0", VA = "0x4907BA0")]
 	public RegexBoyerMoore(string pattern, bool caseInsensitive, bool rightToLeft, CultureInfo culture)
 	{
 	}
 
 	[Token(Token = "0x6000358")]
-	[Address(RVA = "0x45E30B0", Offset = "0x45E30B0", VA = "0x45E30B0")]
+	[Address(RVA = "0x49081B0", Offset = "0x49081B0", VA = "0x49081B0")]
 	private bool MatchPattern(string text, int index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000359")]
-	[Address(RVA = "0x45E31E0", Offset = "0x45E31E0", VA = "0x45E31E0")]
+	[Address(RVA = "0x49082E0", Offset = "0x49082E0", VA = "0x49082E0")]
 	public bool IsMatch(string text, int index, int beglimit, int endlimit)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600035A")]
-	[Address(RVA = "0x45E3230", Offset = "0x45E3230", VA = "0x45E3230")]
+	[Address(RVA = "0x4908330", Offset = "0x4908330", VA = "0x4908330")]
 	public int Scan(string text, int index, int beglimit, int endlimit)
 	{
 		return default(int);

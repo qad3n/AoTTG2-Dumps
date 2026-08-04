@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.BitStack
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml;
@@ -18,39 +25,39 @@ internal class BitStack
 	private uint curr;
 
 	[Token(Token = "0x60000D9")]
-	[Address(RVA = "0x4355740", Offset = "0x4355740", VA = "0x4355740")]
+	[Address(RVA = "0x4687810", Offset = "0x4687810", VA = "0x4687810")]
 	public BitStack()
 	{
 	}
 
 	[Token(Token = "0x60000DA")]
-	[Address(RVA = "0x4355760", Offset = "0x4355760", VA = "0x4355760")]
+	[Address(RVA = "0x4687830", Offset = "0x4687830", VA = "0x4687830")]
 	public void PushBit(bool bit)
 	{
 	}
 
 	[Token(Token = "0x60000DB")]
-	[Address(RVA = "0x4355860", Offset = "0x4355860", VA = "0x4355860")]
+	[Address(RVA = "0x4687930", Offset = "0x4687930", VA = "0x4687930")]
 	public bool PopBit()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000DC")]
-	[Address(RVA = "0x43558F0", Offset = "0x43558F0", VA = "0x43558F0")]
+	[Address(RVA = "0x46879C0", Offset = "0x46879C0", VA = "0x46879C0")]
 	public bool PeekBit()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000DD")]
-	[Address(RVA = "0x4355790", Offset = "0x4355790", VA = "0x4355790")]
+	[Address(RVA = "0x4687860", Offset = "0x4687860", VA = "0x4687860")]
 	private void PushCurr()
 	{
 	}
 
 	[Token(Token = "0x60000DE")]
-	[Address(RVA = "0x43558B0", Offset = "0x43558B0", VA = "0x43558B0")]
+	[Address(RVA = "0x4687980", Offset = "0x4687980", VA = "0x4687980")]
 	private void PopCurr()
 	{
 	}

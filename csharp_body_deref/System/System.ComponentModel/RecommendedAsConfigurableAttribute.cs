@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.RecommendedAsConfigurableAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -24,7 +31,7 @@ public class RecommendedAsConfigurableAttribute : Attribute
 	public bool RecommendedAsConfigurable
 	{
 		[Token(Token = "0x600123C")]
-		[Address(RVA = "0x4580C70", Offset = "0x4580C70", VA = "0x4580C70")]
+		[Address(RVA = "0x48A5D70", Offset = "0x48A5D70", VA = "0x48A5D70")]
 		[CompilerGenerated]
 		get
 		{
@@ -33,27 +40,27 @@ public class RecommendedAsConfigurableAttribute : Attribute
 	}
 
 	[Token(Token = "0x600123B")]
-	[Address(RVA = "0x4580C50", Offset = "0x4580C50", VA = "0x4580C50")]
+	[Address(RVA = "0x48A5D50", Offset = "0x48A5D50", VA = "0x48A5D50")]
 	public RecommendedAsConfigurableAttribute(bool recommendedAsConfigurable)
 	{
 	}
 
 	[Token(Token = "0x600123D")]
-	[Address(RVA = "0x4580C80", Offset = "0x4580C80", VA = "0x4580C80", Slot = "0")]
+	[Address(RVA = "0x48A5D80", Offset = "0x48A5D80", VA = "0x48A5D80", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600123E")]
-	[Address(RVA = "0x4580D20", Offset = "0x4580D20", VA = "0x4580D20", Slot = "2")]
+	[Address(RVA = "0x48A5E20", Offset = "0x48A5E20", VA = "0x48A5E20", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600123F")]
-	[Address(RVA = "0x4580D30", Offset = "0x4580D30", VA = "0x4580D30", Slot = "6")]
+	[Address(RVA = "0x48A5E30", Offset = "0x48A5E30", VA = "0x48A5E30", Slot = "6")]
 	public override bool IsDefaultAttribute()
 	{
 		return default(bool);

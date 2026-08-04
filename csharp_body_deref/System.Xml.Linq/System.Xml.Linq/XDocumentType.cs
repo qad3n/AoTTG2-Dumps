@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Linq.XDocumentType
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Linq;
@@ -25,7 +32,7 @@ public class XDocumentType : XNode
 	public string InternalSubset
 	{
 		[Token(Token = "0x600005A")]
-		[Address(RVA = "0x4342030", Offset = "0x4342030", VA = "0x4342030")]
+		[Address(RVA = "0x4692900", Offset = "0x4692900", VA = "0x4692900")]
 		get
 		{
 			return null;
@@ -36,7 +43,7 @@ public class XDocumentType : XNode
 	public string Name
 	{
 		[Token(Token = "0x600005B")]
-		[Address(RVA = "0x4342040", Offset = "0x4342040", VA = "0x4342040")]
+		[Address(RVA = "0x4692910", Offset = "0x4692910", VA = "0x4692910")]
 		get
 		{
 			return null;
@@ -47,7 +54,7 @@ public class XDocumentType : XNode
 	public override XmlNodeType NodeType
 	{
 		[Token(Token = "0x600005C")]
-		[Address(RVA = "0x4342050", Offset = "0x4342050", VA = "0x4342050", Slot = "7")]
+		[Address(RVA = "0x4692920", Offset = "0x4692920", VA = "0x4692920", Slot = "7")]
 		get
 		{
 			return default(XmlNodeType);
@@ -58,7 +65,7 @@ public class XDocumentType : XNode
 	public string PublicId
 	{
 		[Token(Token = "0x600005D")]
-		[Address(RVA = "0x4342060", Offset = "0x4342060", VA = "0x4342060")]
+		[Address(RVA = "0x4692930", Offset = "0x4692930", VA = "0x4692930")]
 		get
 		{
 			return null;
@@ -69,7 +76,7 @@ public class XDocumentType : XNode
 	public string SystemId
 	{
 		[Token(Token = "0x600005E")]
-		[Address(RVA = "0x4342070", Offset = "0x4342070", VA = "0x4342070")]
+		[Address(RVA = "0x4692940", Offset = "0x4692940", VA = "0x4692940")]
 		get
 		{
 			return null;
@@ -77,25 +84,25 @@ public class XDocumentType : XNode
 	}
 
 	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x4340F80", Offset = "0x4340F80", VA = "0x4340F80")]
+	[Address(RVA = "0x4691850", Offset = "0x4691850", VA = "0x4691850")]
 	public XDocumentType(string name, string publicId, string systemId, string internalSubset)
 	{
 	}
 
 	[Token(Token = "0x6000059")]
-	[Address(RVA = "0x4341F80", Offset = "0x4341F80", VA = "0x4341F80")]
+	[Address(RVA = "0x4692850", Offset = "0x4692850", VA = "0x4692850")]
 	public XDocumentType(XDocumentType other)
 	{
 	}
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x4342080", Offset = "0x4342080", VA = "0x4342080", Slot = "8")]
+	[Address(RVA = "0x4692950", Offset = "0x4692950", VA = "0x4692950", Slot = "8")]
 	public override void WriteTo(XmlWriter writer)
 	{
 	}
 
 	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x4342100", Offset = "0x4342100", VA = "0x4342100", Slot = "10")]
+	[Address(RVA = "0x46929D0", Offset = "0x46929D0", VA = "0x46929D0", Slot = "10")]
 	internal override XNode CloneNode()
 	{
 		return null;

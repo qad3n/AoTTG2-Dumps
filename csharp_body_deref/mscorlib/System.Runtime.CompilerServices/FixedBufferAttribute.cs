@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.CompilerServices.FixedBufferAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
@@ -10,7 +17,7 @@ public sealed class FixedBufferAttribute : Attribute
 	public Type ElementType
 	{
 		[Token(Token = "0x6002270")]
-		[Address(RVA = "0x4EDB320", Offset = "0x4EDB320", VA = "0x4EDB320")]
+		[Address(RVA = "0x3BC0E40", Offset = "0x3BC0E40", VA = "0x3BC0E40")]
 		[CompilerGenerated]
 		get
 		{
@@ -22,7 +29,7 @@ public sealed class FixedBufferAttribute : Attribute
 	public int Length
 	{
 		[Token(Token = "0x6002271")]
-		[Address(RVA = "0x4EDB330", Offset = "0x4EDB330", VA = "0x4EDB330")]
+		[Address(RVA = "0x3BC0E50", Offset = "0x3BC0E50", VA = "0x3BC0E50")]
 		[CompilerGenerated]
 		get
 		{
@@ -31,7 +38,7 @@ public sealed class FixedBufferAttribute : Attribute
 	}
 
 	[Token(Token = "0x600226F")]
-	[Address(RVA = "0x4EDB2F0", Offset = "0x4EDB2F0", VA = "0x4EDB2F0")]
+	[Address(RVA = "0x3BC0E10", Offset = "0x3BC0E10", VA = "0x3BC0E10")]
 	public FixedBufferAttribute(Type elementType, int length)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.SchemaNames
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -821,33 +828,33 @@ internal sealed class SchemaNames
 	internal XmlQualifiedName[] TokenToQName;
 
 	[Token(Token = "0x60013E2")]
-	[Address(RVA = "0x43AE740", Offset = "0x43AE740", VA = "0x43AE740")]
+	[Address(RVA = "0x46EBEA0", Offset = "0x46EBEA0", VA = "0x46EBEA0")]
 	public SchemaNames(XmlNameTable nameTable)
 	{
 	}
 
 	[Token(Token = "0x60013E3")]
-	[Address(RVA = "0x43B19B0", Offset = "0x43B19B0", VA = "0x43B19B0")]
+	[Address(RVA = "0x46EF110", Offset = "0x46EF110", VA = "0x46EF110")]
 	public void CreateTokenToQNameTable()
 	{
 	}
 
 	[Token(Token = "0x60013E4")]
-	[Address(RVA = "0x43B4390", Offset = "0x43B4390", VA = "0x43B4390")]
+	[Address(RVA = "0x46F1AF0", Offset = "0x46F1AF0", VA = "0x46F1AF0")]
 	public SchemaType SchemaTypeFromRoot(string localName, string ns)
 	{
 		return default(SchemaType);
 	}
 
 	[Token(Token = "0x60013E5")]
-	[Address(RVA = "0x43B4420", Offset = "0x43B4420", VA = "0x43B4420")]
+	[Address(RVA = "0x46F1B80", Offset = "0x46F1B80", VA = "0x46F1B80")]
 	public bool IsXSDRoot(string localName, string ns)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013E6")]
-	[Address(RVA = "0x43B4470", Offset = "0x43B4470", VA = "0x43B4470")]
+	[Address(RVA = "0x46F1BD0", Offset = "0x46F1BD0", VA = "0x46F1BD0")]
 	public bool IsXDRRoot(string localName, string ns)
 	{
 		return default(bool);

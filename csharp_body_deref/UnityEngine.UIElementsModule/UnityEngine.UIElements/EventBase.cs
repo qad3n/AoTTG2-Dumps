@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.EventBase
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -76,7 +83,7 @@ public abstract class EventBase : IDisposable
 	public virtual long eventTypeId
 	{
 		[Token(Token = "0x6000A11")]
-		[Address(RVA = "0x4D04BF0", Offset = "0x4D04BF0", VA = "0x4D04BF0", Slot = "5")]
+		[Address(RVA = "0x502C520", Offset = "0x502C520", VA = "0x502C520", Slot = "5")]
 		get
 		{
 			return default(long);
@@ -87,7 +94,7 @@ public abstract class EventBase : IDisposable
 	internal EventCategory eventCategory
 	{
 		[Token(Token = "0x6000A12")]
-		[Address(RVA = "0x4D04C00", Offset = "0x4D04C00", VA = "0x4D04C00")]
+		[Address(RVA = "0x502C530", Offset = "0x502C530", VA = "0x502C530")]
 		[CompilerGenerated]
 		get
 		{
@@ -99,14 +106,14 @@ public abstract class EventBase : IDisposable
 	public long timestamp
 	{
 		[Token(Token = "0x6000A13")]
-		[Address(RVA = "0x4D04C10", Offset = "0x4D04C10", VA = "0x4D04C10")]
+		[Address(RVA = "0x502C540", Offset = "0x502C540", VA = "0x502C540")]
 		[CompilerGenerated]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x6000A14")]
-		[Address(RVA = "0x4D04C20", Offset = "0x4D04C20", VA = "0x4D04C20")]
+		[Address(RVA = "0x502C550", Offset = "0x502C550", VA = "0x502C550")]
 		[CompilerGenerated]
 		private set
 		{
@@ -117,14 +124,14 @@ public abstract class EventBase : IDisposable
 	internal ulong eventId
 	{
 		[Token(Token = "0x6000A15")]
-		[Address(RVA = "0x4D04C30", Offset = "0x4D04C30", VA = "0x4D04C30")]
+		[Address(RVA = "0x502C560", Offset = "0x502C560", VA = "0x502C560")]
 		[CompilerGenerated]
 		get
 		{
 			return default(ulong);
 		}
 		[Token(Token = "0x6000A16")]
-		[Address(RVA = "0x4D04C40", Offset = "0x4D04C40", VA = "0x4D04C40")]
+		[Address(RVA = "0x502C570", Offset = "0x502C570", VA = "0x502C570")]
 		[CompilerGenerated]
 		private set
 		{
@@ -135,7 +142,7 @@ public abstract class EventBase : IDisposable
 	private ulong triggerEventId
 	{
 		[Token(Token = "0x6000A17")]
-		[Address(RVA = "0x4D04C50", Offset = "0x4D04C50", VA = "0x4D04C50")]
+		[Address(RVA = "0x502C580", Offset = "0x502C580", VA = "0x502C580")]
 		[CompilerGenerated]
 		set
 		{
@@ -146,14 +153,14 @@ public abstract class EventBase : IDisposable
 	internal EventPropagation propagation
 	{
 		[Token(Token = "0x6000A19")]
-		[Address(RVA = "0x4D04C70", Offset = "0x4D04C70", VA = "0x4D04C70")]
+		[Address(RVA = "0x502C5A0", Offset = "0x502C5A0", VA = "0x502C5A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(EventPropagation);
 		}
 		[Token(Token = "0x6000A1A")]
-		[Address(RVA = "0x4D04C80", Offset = "0x4D04C80", VA = "0x4D04C80")]
+		[Address(RVA = "0x502C5B0", Offset = "0x502C5B0", VA = "0x502C5B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -164,14 +171,14 @@ public abstract class EventBase : IDisposable
 	private LifeCycleStatus lifeCycleStatus
 	{
 		[Token(Token = "0x6000A1B")]
-		[Address(RVA = "0x4D04C90", Offset = "0x4D04C90", VA = "0x4D04C90")]
+		[Address(RVA = "0x502C5C0", Offset = "0x502C5C0", VA = "0x502C5C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(LifeCycleStatus);
 		}
 		[Token(Token = "0x6000A1C")]
-		[Address(RVA = "0x4D04CA0", Offset = "0x4D04CA0", VA = "0x4D04CA0")]
+		[Address(RVA = "0x502C5D0", Offset = "0x502C5D0", VA = "0x502C5D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -182,7 +189,7 @@ public abstract class EventBase : IDisposable
 	public bool bubbles
 	{
 		[Token(Token = "0x6000A22")]
-		[Address(RVA = "0x4D04D90", Offset = "0x4D04D90", VA = "0x4D04D90")]
+		[Address(RVA = "0x502C6C0", Offset = "0x502C6C0", VA = "0x502C6C0")]
 		get
 		{
 			return default(bool);
@@ -193,7 +200,7 @@ public abstract class EventBase : IDisposable
 	public bool tricklesDown
 	{
 		[Token(Token = "0x6000A23")]
-		[Address(RVA = "0x4D04DA0", Offset = "0x4D04DA0", VA = "0x4D04DA0")]
+		[Address(RVA = "0x502C6D0", Offset = "0x502C6D0", VA = "0x502C6D0")]
 		get
 		{
 			return default(bool);
@@ -204,13 +211,13 @@ public abstract class EventBase : IDisposable
 	internal bool skipDisabledElements
 	{
 		[Token(Token = "0x6000A24")]
-		[Address(RVA = "0x4D04DB0", Offset = "0x4D04DB0", VA = "0x4D04DB0")]
+		[Address(RVA = "0x502C6E0", Offset = "0x502C6E0", VA = "0x502C6E0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A25")]
-		[Address(RVA = "0x4D04DC0", Offset = "0x4D04DC0", VA = "0x4D04DC0")]
+		[Address(RVA = "0x502C6F0", Offset = "0x502C6F0", VA = "0x502C6F0")]
 		set
 		{
 		}
@@ -220,13 +227,13 @@ public abstract class EventBase : IDisposable
 	internal bool ignoreCompositeRoots
 	{
 		[Token(Token = "0x6000A26")]
-		[Address(RVA = "0x4D04DE0", Offset = "0x4D04DE0", VA = "0x4D04DE0")]
+		[Address(RVA = "0x502C710", Offset = "0x502C710", VA = "0x502C710")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A27")]
-		[Address(RVA = "0x4D04DF0", Offset = "0x4D04DF0", VA = "0x4D04DF0")]
+		[Address(RVA = "0x502C720", Offset = "0x502C720", VA = "0x502C720")]
 		set
 		{
 		}
@@ -236,7 +243,7 @@ public abstract class EventBase : IDisposable
 	internal bool bubblesOrTricklesDown
 	{
 		[Token(Token = "0x6000A28")]
-		[Address(RVA = "0x4D04E10", Offset = "0x4D04E10", VA = "0x4D04E10")]
+		[Address(RVA = "0x502C740", Offset = "0x502C740", VA = "0x502C740")]
 		get
 		{
 			return default(bool);
@@ -247,14 +254,14 @@ public abstract class EventBase : IDisposable
 	internal VisualElement leafTarget
 	{
 		[Token(Token = "0x6000A29")]
-		[Address(RVA = "0x4D04E20", Offset = "0x4D04E20", VA = "0x4D04E20")]
+		[Address(RVA = "0x502C750", Offset = "0x502C750", VA = "0x502C750")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A2A")]
-		[Address(RVA = "0x4D04E30", Offset = "0x4D04E30", VA = "0x4D04E30")]
+		[Address(RVA = "0x502C760", Offset = "0x502C760", VA = "0x502C760")]
 		[CompilerGenerated]
 		set
 		{
@@ -265,14 +272,14 @@ public abstract class EventBase : IDisposable
 	internal VisualElement elementTarget
 	{
 		[Token(Token = "0x6000A2B")]
-		[Address(RVA = "0x4D04E40", Offset = "0x4D04E40", VA = "0x4D04E40")]
+		[Address(RVA = "0x502C770", Offset = "0x502C770", VA = "0x502C770")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A2C")]
-		[Address(RVA = "0x4D04E50", Offset = "0x4D04E50", VA = "0x4D04E50")]
+		[Address(RVA = "0x502C780", Offset = "0x502C780", VA = "0x502C780")]
 		[CompilerGenerated]
 		set
 		{
@@ -283,13 +290,13 @@ public abstract class EventBase : IDisposable
 	public IEventHandler target
 	{
 		[Token(Token = "0x6000A2D")]
-		[Address(RVA = "0x4D04E60", Offset = "0x4D04E60", VA = "0x4D04E60")]
+		[Address(RVA = "0x502C790", Offset = "0x502C790", VA = "0x502C790")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A2E")]
-		[Address(RVA = "0x4D04E70", Offset = "0x4D04E70", VA = "0x4D04E70")]
+		[Address(RVA = "0x502C7A0", Offset = "0x502C7A0", VA = "0x502C7A0")]
 		set
 		{
 		}
@@ -299,13 +306,13 @@ public abstract class EventBase : IDisposable
 	public bool isPropagationStopped
 	{
 		[Token(Token = "0x6000A2F")]
-		[Address(RVA = "0x4D01B20", Offset = "0x4D01B20", VA = "0x4D01B20")]
+		[Address(RVA = "0x5029450", Offset = "0x5029450", VA = "0x5029450")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A30")]
-		[Address(RVA = "0x4D04EF0", Offset = "0x4D04EF0", VA = "0x4D04EF0")]
+		[Address(RVA = "0x502C820", Offset = "0x502C820", VA = "0x502C820")]
 		private set
 		{
 		}
@@ -315,13 +322,13 @@ public abstract class EventBase : IDisposable
 	public bool isImmediatePropagationStopped
 	{
 		[Token(Token = "0x6000A32")]
-		[Address(RVA = "0x4D04F10", Offset = "0x4D04F10", VA = "0x4D04F10")]
+		[Address(RVA = "0x502C840", Offset = "0x502C840", VA = "0x502C840")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A33")]
-		[Address(RVA = "0x4D04F20", Offset = "0x4D04F20", VA = "0x4D04F20")]
+		[Address(RVA = "0x502C850", Offset = "0x502C850", VA = "0x502C850")]
 		private set
 		{
 		}
@@ -331,13 +338,13 @@ public abstract class EventBase : IDisposable
 	public bool isDefaultPrevented
 	{
 		[Token(Token = "0x6000A35")]
-		[Address(RVA = "0x4D04F50", Offset = "0x4D04F50", VA = "0x4D04F50")]
+		[Address(RVA = "0x502C880", Offset = "0x502C880", VA = "0x502C880")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A36")]
-		[Address(RVA = "0x4D04F60", Offset = "0x4D04F60", VA = "0x4D04F60")]
+		[Address(RVA = "0x502C890", Offset = "0x502C890", VA = "0x502C890")]
 		private set
 		{
 		}
@@ -347,7 +354,7 @@ public abstract class EventBase : IDisposable
 	internal PropagationPhase propagationPhase
 	{
 		[Token(Token = "0x6000A38")]
-		[Address(RVA = "0x4D04F90", Offset = "0x4D04F90", VA = "0x4D04F90")]
+		[Address(RVA = "0x502C8C0", Offset = "0x502C8C0", VA = "0x502C8C0")]
 		[CompilerGenerated]
 		set
 		{
@@ -358,13 +365,13 @@ public abstract class EventBase : IDisposable
 	public virtual IEventHandler currentTarget
 	{
 		[Token(Token = "0x6000A39")]
-		[Address(RVA = "0x4D04FA0", Offset = "0x4D04FA0", VA = "0x4D04FA0", Slot = "11")]
+		[Address(RVA = "0x502C8D0", Offset = "0x502C8D0", VA = "0x502C8D0", Slot = "11")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A3A")]
-		[Address(RVA = "0x4D04FB0", Offset = "0x4D04FB0", VA = "0x4D04FB0", Slot = "12")]
+		[Address(RVA = "0x502C8E0", Offset = "0x502C8E0", VA = "0x502C8E0", Slot = "12")]
 		internal set
 		{
 		}
@@ -374,13 +381,13 @@ public abstract class EventBase : IDisposable
 	public bool dispatch
 	{
 		[Token(Token = "0x6000A3B")]
-		[Address(RVA = "0x4D05090", Offset = "0x4D05090", VA = "0x4D05090")]
+		[Address(RVA = "0x502C9C0", Offset = "0x502C9C0", VA = "0x502C9C0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A3C")]
-		[Address(RVA = "0x4D050A0", Offset = "0x4D050A0", VA = "0x4D050A0")]
+		[Address(RVA = "0x502C9D0", Offset = "0x502C9D0", VA = "0x502C9D0")]
 		internal set
 		{
 		}
@@ -390,13 +397,13 @@ public abstract class EventBase : IDisposable
 	private bool dispatched
 	{
 		[Token(Token = "0x6000A3E")]
-		[Address(RVA = "0x4D050E0", Offset = "0x4D050E0", VA = "0x4D050E0")]
+		[Address(RVA = "0x502CA10", Offset = "0x502CA10", VA = "0x502CA10")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A3F")]
-		[Address(RVA = "0x4D050C0", Offset = "0x4D050C0", VA = "0x4D050C0")]
+		[Address(RVA = "0x502C9F0", Offset = "0x502C9F0", VA = "0x502C9F0")]
 		set
 		{
 		}
@@ -406,13 +413,13 @@ public abstract class EventBase : IDisposable
 	internal bool processed
 	{
 		[Token(Token = "0x6000A40")]
-		[Address(RVA = "0x4D050F0", Offset = "0x4D050F0", VA = "0x4D050F0")]
+		[Address(RVA = "0x502CA20", Offset = "0x502CA20", VA = "0x502CA20")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A41")]
-		[Address(RVA = "0x4D04D10", Offset = "0x4D04D10", VA = "0x4D04D10")]
+		[Address(RVA = "0x502C640", Offset = "0x502C640", VA = "0x502C640")]
 		private set
 		{
 		}
@@ -422,13 +429,13 @@ public abstract class EventBase : IDisposable
 	internal bool processedByFocusController
 	{
 		[Token(Token = "0x6000A42")]
-		[Address(RVA = "0x4D05100", Offset = "0x4D05100", VA = "0x4D05100")]
+		[Address(RVA = "0x502CA30", Offset = "0x502CA30", VA = "0x502CA30")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A43")]
-		[Address(RVA = "0x4D05110", Offset = "0x4D05110", VA = "0x4D05110")]
+		[Address(RVA = "0x502CA40", Offset = "0x502CA40", VA = "0x502CA40")]
 		set
 		{
 		}
@@ -438,13 +445,13 @@ public abstract class EventBase : IDisposable
 	internal bool propagateToIMGUI
 	{
 		[Token(Token = "0x6000A44")]
-		[Address(RVA = "0x4D05130", Offset = "0x4D05130", VA = "0x4D05130")]
+		[Address(RVA = "0x502CA60", Offset = "0x502CA60", VA = "0x502CA60")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A45")]
-		[Address(RVA = "0x4D05140", Offset = "0x4D05140", VA = "0x4D05140")]
+		[Address(RVA = "0x502CA70", Offset = "0x502CA70", VA = "0x502CA70")]
 		set
 		{
 		}
@@ -454,13 +461,13 @@ public abstract class EventBase : IDisposable
 	private bool imguiEventIsValid
 	{
 		[Token(Token = "0x6000A46")]
-		[Address(RVA = "0x4D05160", Offset = "0x4D05160", VA = "0x4D05160")]
+		[Address(RVA = "0x502CA90", Offset = "0x502CA90", VA = "0x502CA90")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A47")]
-		[Address(RVA = "0x4D05170", Offset = "0x4D05170", VA = "0x4D05170")]
+		[Address(RVA = "0x502CAA0", Offset = "0x502CAA0", VA = "0x502CAA0")]
 		set
 		{
 		}
@@ -470,13 +477,13 @@ public abstract class EventBase : IDisposable
 	public Event imguiEvent
 	{
 		[Token(Token = "0x6000A48")]
-		[Address(RVA = "0x4D014D0", Offset = "0x4D014D0", VA = "0x4D014D0")]
+		[Address(RVA = "0x5028E00", Offset = "0x5028E00", VA = "0x5028E00")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A49")]
-		[Address(RVA = "0x4D05190", Offset = "0x4D05190", VA = "0x4D05190")]
+		[Address(RVA = "0x502CAC0", Offset = "0x502CAC0", VA = "0x502CAC0")]
 		protected set
 		{
 		}
@@ -486,14 +493,14 @@ public abstract class EventBase : IDisposable
 	public Vector2 originalMousePosition
 	{
 		[Token(Token = "0x6000A4A")]
-		[Address(RVA = "0x4D05240", Offset = "0x4D05240", VA = "0x4D05240")]
+		[Address(RVA = "0x502CB70", Offset = "0x502CB70", VA = "0x502CB70")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x6000A4B")]
-		[Address(RVA = "0x4D05250", Offset = "0x4D05250", VA = "0x4D05250")]
+		[Address(RVA = "0x502CB80", Offset = "0x502CB80", VA = "0x502CB80")]
 		[CompilerGenerated]
 		private set
 		{
@@ -504,101 +511,101 @@ public abstract class EventBase : IDisposable
 	protected bool pooled
 	{
 		[Token(Token = "0x6000A4F")]
-		[Address(RVA = "0x4D053E0", Offset = "0x4D053E0", VA = "0x4D053E0")]
+		[Address(RVA = "0x502CD10", Offset = "0x502CD10", VA = "0x502CD10")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A50")]
-		[Address(RVA = "0x4D05380", Offset = "0x4D05380", VA = "0x4D05380")]
+		[Address(RVA = "0x502CCB0", Offset = "0x502CCB0", VA = "0x502CCB0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000A10")]
-	[Address(RVA = "0x4D04BB0", Offset = "0x4D04BB0", VA = "0x4D04BB0")]
+	[Address(RVA = "0x502C4E0", Offset = "0x502C4E0", VA = "0x502C4E0")]
 	protected static long RegisterEventType()
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000A18")]
-	[Address(RVA = "0x4D04C60", Offset = "0x4D04C60", VA = "0x4D04C60")]
+	[Address(RVA = "0x502C590", Offset = "0x502C590", VA = "0x502C590")]
 	internal void SetTriggerEventId(ulong id)
 	{
 	}
 
 	[Token(Token = "0x6000A1D")]
-	[Address(RVA = "0x4D04CB0", Offset = "0x4D04CB0", VA = "0x4D04CB0", Slot = "6")]
+	[Address(RVA = "0x502C5E0", Offset = "0x502C5E0", VA = "0x502C5E0", Slot = "6")]
 	[Obsolete("Override PreDispatch(IPanel panel) instead.")]
 	protected virtual void PreDispatch()
 	{
 	}
 
 	[Token(Token = "0x6000A1E")]
-	[Address(RVA = "0x4D04CC0", Offset = "0x4D04CC0", VA = "0x4D04CC0", Slot = "7")]
+	[Address(RVA = "0x502C5F0", Offset = "0x502C5F0", VA = "0x502C5F0", Slot = "7")]
 	protected internal virtual void PreDispatch(IPanel panel)
 	{
 	}
 
 	[Token(Token = "0x6000A1F")]
-	[Address(RVA = "0x4D04CE0", Offset = "0x4D04CE0", VA = "0x4D04CE0", Slot = "8")]
+	[Address(RVA = "0x502C610", Offset = "0x502C610", VA = "0x502C610", Slot = "8")]
 	[Obsolete("Override PostDispatch(IPanel panel) instead.")]
 	protected virtual void PostDispatch()
 	{
 	}
 
 	[Token(Token = "0x6000A20")]
-	[Address(RVA = "0x4D04CF0", Offset = "0x4D04CF0", VA = "0x4D04CF0", Slot = "9")]
+	[Address(RVA = "0x502C620", Offset = "0x502C620", VA = "0x502C620", Slot = "9")]
 	protected internal virtual void PostDispatch(IPanel panel)
 	{
 	}
 
 	[Token(Token = "0x6000A21")]
-	[Address(RVA = "0x4D04D30", Offset = "0x4D04D30", VA = "0x4D04D30", Slot = "10")]
+	[Address(RVA = "0x502C660", Offset = "0x502C660", VA = "0x502C660", Slot = "10")]
 	internal virtual void Dispatch([NotNull] BaseVisualElementPanel panel)
 	{
 	}
 
 	[Token(Token = "0x6000A31")]
-	[Address(RVA = "0x4CF5960", Offset = "0x4CF5960", VA = "0x4CF5960")]
+	[Address(RVA = "0x501D290", Offset = "0x501D290", VA = "0x501D290")]
 	public void StopPropagation()
 	{
 	}
 
 	[Token(Token = "0x6000A34")]
-	[Address(RVA = "0x4D04F40", Offset = "0x4D04F40", VA = "0x4D04F40")]
+	[Address(RVA = "0x502C870", Offset = "0x502C870", VA = "0x502C870")]
 	public void StopImmediatePropagation()
 	{
 	}
 
 	[Token(Token = "0x6000A37")]
-	[Address(RVA = "0x4D04F80", Offset = "0x4D04F80", VA = "0x4D04F80")]
+	[Address(RVA = "0x502C8B0", Offset = "0x502C8B0", VA = "0x502C8B0")]
 	public void PreventDefault()
 	{
 	}
 
 	[Token(Token = "0x6000A3D")]
-	[Address(RVA = "0x4D01450", Offset = "0x4D01450", VA = "0x4D01450")]
+	[Address(RVA = "0x5028D80", Offset = "0x5028D80", VA = "0x5028D80")]
 	internal void MarkReceivedByDispatcher()
 	{
 	}
 
 	[Token(Token = "0x6000A4C")]
-	[Address(RVA = "0x4D05260", Offset = "0x4D05260", VA = "0x4D05260", Slot = "13")]
+	[Address(RVA = "0x502CB90", Offset = "0x502CB90", VA = "0x502CB90", Slot = "13")]
 	protected virtual void Init()
 	{
 	}
 
 	[Token(Token = "0x6000A4D")]
-	[Address(RVA = "0x4D05270", Offset = "0x4D05270", VA = "0x4D05270")]
+	[Address(RVA = "0x502CBA0", Offset = "0x502CBA0", VA = "0x502CBA0")]
 	private void LocalInit()
 	{
 	}
 
 	[Token(Token = "0x6000A4E")]
-	[Address(RVA = "0x4D053A0", Offset = "0x4D053A0", VA = "0x4D053A0")]
+	[Address(RVA = "0x502CCD0", Offset = "0x502CCD0", VA = "0x502CCD0")]
 	internal EventBase(EventCategory category)
 	{
 	}

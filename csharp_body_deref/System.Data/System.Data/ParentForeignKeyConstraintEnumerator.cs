@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.ParentForeignKeyConstraintEnumerator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Data;
@@ -10,13 +17,13 @@ internal sealed class ParentForeignKeyConstraintEnumerator : ForeignKeyConstrain
 	private readonly DataTable _table;
 
 	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x41FAB00", Offset = "0x41FAB00", VA = "0x41FAB00")]
+	[Address(RVA = "0x4538260", Offset = "0x4538260", VA = "0x4538260")]
 	public ParentForeignKeyConstraintEnumerator(DataSet dataSet, DataTable inTable)
 	{
 	}
 
 	[Token(Token = "0x600006B")]
-	[Address(RVA = "0x41FAB90", Offset = "0x41FAB90", VA = "0x41FAB90", Slot = "4")]
+	[Address(RVA = "0x45382F0", Offset = "0x45382F0", VA = "0x45382F0", Slot = "4")]
 	protected override bool IsValidCandidate(Constraint constraint)
 	{
 		return default(bool);

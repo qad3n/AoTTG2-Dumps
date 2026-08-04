@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.EncoderNLS
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Text;
@@ -29,7 +36,7 @@ internal class EncoderNLS : Encoder
 	public Encoding Encoding
 	{
 		[Token(Token = "0x60015B8")]
-		[Address(RVA = "0x4E1A150", Offset = "0x4E1A150", VA = "0x4E1A150")]
+		[Address(RVA = "0x3AFFC70", Offset = "0x3AFFC70", VA = "0x3AFFC70")]
 		get
 		{
 			return null;
@@ -40,7 +47,7 @@ internal class EncoderNLS : Encoder
 	public bool MustFlush
 	{
 		[Token(Token = "0x60015B9")]
-		[Address(RVA = "0x4E1A160", Offset = "0x4E1A160", VA = "0x4E1A160")]
+		[Address(RVA = "0x3AFFC80", Offset = "0x3AFFC80", VA = "0x3AFFC80")]
 		get
 		{
 			return default(bool);
@@ -51,7 +58,7 @@ internal class EncoderNLS : Encoder
 	internal virtual bool HasState
 	{
 		[Token(Token = "0x60015BA")]
-		[Address(RVA = "0x4E1A170", Offset = "0x4E1A170", VA = "0x4E1A170", Slot = "11")]
+		[Address(RVA = "0x3AFFC90", Offset = "0x3AFFC90", VA = "0x3AFFC90", Slot = "11")]
 		get
 		{
 			return default(bool);
@@ -59,59 +66,59 @@ internal class EncoderNLS : Encoder
 	}
 
 	[Token(Token = "0x60015B0")]
-	[Address(RVA = "0x4E195E0", Offset = "0x4E195E0", VA = "0x4E195E0")]
+	[Address(RVA = "0x3AFF100", Offset = "0x3AFF100", VA = "0x3AFF100")]
 	internal EncoderNLS(Encoding encoding)
 	{
 	}
 
 	[Token(Token = "0x60015B1")]
-	[Address(RVA = "0x4E19640", Offset = "0x4E19640", VA = "0x4E19640", Slot = "4")]
+	[Address(RVA = "0x3AFF160", Offset = "0x3AFF160", VA = "0x3AFF160", Slot = "4")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x60015B2")]
-	[Address(RVA = "0x4E19670", Offset = "0x4E19670", VA = "0x4E19670", Slot = "5")]
+	[Address(RVA = "0x3AFF190", Offset = "0x3AFF190", VA = "0x3AFF190", Slot = "5")]
 	public override int GetByteCount(char[] chars, int index, int count, bool flush)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60015B3")]
-	[Address(RVA = "0x4E19830", Offset = "0x4E19830", VA = "0x4E19830", Slot = "6")]
+	[Address(RVA = "0x3AFF350", Offset = "0x3AFF350", VA = "0x3AFF350", Slot = "6")]
 	public unsafe override int GetByteCount(char* chars, int count, bool flush)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60015B4")]
-	[Address(RVA = "0x4E19920", Offset = "0x4E19920", VA = "0x4E19920", Slot = "7")]
+	[Address(RVA = "0x3AFF440", Offset = "0x3AFF440", VA = "0x3AFF440", Slot = "7")]
 	public override int GetBytes(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex, bool flush)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60015B5")]
-	[Address(RVA = "0x4E19BD0", Offset = "0x4E19BD0", VA = "0x4E19BD0", Slot = "8")]
+	[Address(RVA = "0x3AFF6F0", Offset = "0x3AFF6F0", VA = "0x3AFF6F0", Slot = "8")]
 	public unsafe override int GetBytes(char* chars, int charCount, byte* bytes, int byteCount, bool flush)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60015B6")]
-	[Address(RVA = "0x4E19CE0", Offset = "0x4E19CE0", VA = "0x4E19CE0", Slot = "9")]
+	[Address(RVA = "0x3AFF800", Offset = "0x3AFF800", VA = "0x3AFF800", Slot = "9")]
 	public override void Convert(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex, int byteCount, bool flush, out int charsUsed, out int bytesUsed, out bool completed)
 	{
 	}
 
 	[Token(Token = "0x60015B7")]
-	[Address(RVA = "0x4E19FA0", Offset = "0x4E19FA0", VA = "0x4E19FA0", Slot = "10")]
+	[Address(RVA = "0x3AFFAC0", Offset = "0x3AFFAC0", VA = "0x3AFFAC0", Slot = "10")]
 	public unsafe override void Convert(char* chars, int charCount, byte* bytes, int byteCount, bool flush, out int charsUsed, out int bytesUsed, out bool completed)
 	{
 	}
 
 	[Token(Token = "0x60015BB")]
-	[Address(RVA = "0x4E1A180", Offset = "0x4E1A180", VA = "0x4E1A180")]
+	[Address(RVA = "0x3AFFCA0", Offset = "0x3AFFCA0", VA = "0x3AFFCA0")]
 	internal void ClearMustFlush()
 	{
 	}

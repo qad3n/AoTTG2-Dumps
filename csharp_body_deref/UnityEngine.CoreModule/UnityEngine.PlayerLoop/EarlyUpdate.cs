@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.PlayerLoop.EarlyUpdate
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
@@ -5,205 +12,205 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.PlayerLoop;
 
-[Token(Token = "0x200020D")]
+[Token(Token = "0x2000210")]
 [MovedFrom("UnityEngine.Experimental.PlayerLoop")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public struct EarlyUpdate
 {
-	[Token(Token = "0x200020E")]
+	[Token(Token = "0x2000211")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct PollPlayerConnection
 	{
 	}
 
-	[Token(Token = "0x200020F")]
+	[Token(Token = "0x2000212")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct PollHtcsPlayerConnection
 	{
 	}
 
-	[Token(Token = "0x2000210")]
+	[Token(Token = "0x2000213")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct GpuTimestamp
 	{
 	}
 
-	[Token(Token = "0x2000211")]
+	[Token(Token = "0x2000214")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct AnalyticsCoreStatsUpdate
 	{
 	}
 
-	[Token(Token = "0x2000212")]
+	[Token(Token = "0x2000215")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UnityWebRequestUpdate
 	{
 	}
 
-	[Token(Token = "0x2000213")]
+	[Token(Token = "0x2000216")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdateStreamingManager
 	{
 	}
 
-	[Token(Token = "0x2000214")]
+	[Token(Token = "0x2000217")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ExecuteMainThreadJobs
 	{
 	}
 
-	[Token(Token = "0x2000215")]
+	[Token(Token = "0x2000218")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ProcessMouseInWindow
 	{
 	}
 
-	[Token(Token = "0x2000216")]
+	[Token(Token = "0x2000219")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ClearIntermediateRenderers
 	{
 	}
 
-	[Token(Token = "0x2000217")]
+	[Token(Token = "0x200021A")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ClearLines
 	{
 	}
 
-	[Token(Token = "0x2000218")]
+	[Token(Token = "0x200021B")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct PresentBeforeUpdate
 	{
 	}
 
-	[Token(Token = "0x2000219")]
+	[Token(Token = "0x200021C")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ResetFrameStatsAfterPresent
 	{
 	}
 
-	[Token(Token = "0x200021A")]
+	[Token(Token = "0x200021D")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdateAsyncReadbackManager
 	{
 	}
 
-	[Token(Token = "0x200021B")]
+	[Token(Token = "0x200021E")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdateTextureStreamingManager
 	{
 	}
 
-	[Token(Token = "0x200021C")]
+	[Token(Token = "0x200021F")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdatePreloading
 	{
 	}
 
-	[Token(Token = "0x200021D")]
+	[Token(Token = "0x2000220")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdateContentLoading
 	{
 	}
 
-	[Token(Token = "0x200021E")]
+	[Token(Token = "0x2000221")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct RendererNotifyInvisible
 	{
 	}
 
-	[Token(Token = "0x200021F")]
+	[Token(Token = "0x2000222")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct PlayerCleanupCachedData
 	{
 	}
 
-	[Token(Token = "0x2000220")]
+	[Token(Token = "0x2000223")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdateMainGameViewRect
 	{
 	}
 
-	[Token(Token = "0x2000221")]
+	[Token(Token = "0x2000224")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdateCanvasRectTransform
 	{
 	}
 
-	[Token(Token = "0x2000222")]
+	[Token(Token = "0x2000225")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdateInputManager
 	{
 	}
 
-	[Token(Token = "0x2000223")]
+	[Token(Token = "0x2000226")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ProcessRemoteInput
 	{
 	}
 
-	[Token(Token = "0x2000224")]
+	[Token(Token = "0x2000227")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct XRUpdate
 	{
 	}
 
-	[Token(Token = "0x2000225")]
+	[Token(Token = "0x2000228")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ScriptRunDelayedStartupFrame
 	{
 	}
 
-	[Token(Token = "0x2000226")]
+	[Token(Token = "0x2000229")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdateKinect
 	{
 	}
 
-	[Token(Token = "0x2000227")]
+	[Token(Token = "0x200022A")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct DeliverIosPlatformEvents
 	{
 	}
 
-	[Token(Token = "0x2000228")]
+	[Token(Token = "0x200022B")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct DispatchEventQueueEvents
 	{
 	}
 
-	[Token(Token = "0x2000229")]
+	[Token(Token = "0x200022C")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct Physics2DEarlyUpdate
 	{
 	}
 
-	[Token(Token = "0x200022A")]
+	[Token(Token = "0x200022D")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct PhysicsResetInterpolatedTransformPosition
 	{
 	}
 
-	[Token(Token = "0x200022B")]
+	[Token(Token = "0x200022E")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct SpriteAtlasManagerUpdate
 	{
 	}
 
-	[Token(Token = "0x200022C")]
+	[Token(Token = "0x200022F")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	[Obsolete("TangoUpdate has been deprecated. Use ARCoreUpdate instead (UnityUpgradable) -> UnityEngine.PlayerLoop.EarlyUpdate/ARCoreUpdate", false)]
 	public struct TangoUpdate
 	{
 	}
 
-	[Token(Token = "0x200022D")]
+	[Token(Token = "0x2000230")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ARCoreUpdate
 	{
 	}
 
-	[Token(Token = "0x200022E")]
+	[Token(Token = "0x2000231")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct PerformanceAnalyticsUpdate
 	{

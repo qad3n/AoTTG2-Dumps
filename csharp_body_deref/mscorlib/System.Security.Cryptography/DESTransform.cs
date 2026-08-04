@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.DESTransform
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using Mono.Security.Cryptography;
 
@@ -59,50 +66,50 @@ internal class DESTransform : Mono.Security.Cryptography.SymmetricTransform
 	internal static readonly uint[] fpTab;
 
 	[Token(Token = "0x6001B0D")]
-	[Address(RVA = "0x4E6A430", Offset = "0x4E6A430", VA = "0x4E6A430")]
+	[Address(RVA = "0x3B4FF50", Offset = "0x3B4FF50", VA = "0x3B4FF50")]
 	internal DESTransform(SymmetricAlgorithm symmAlgo, bool encryption, byte[] key, byte[] iv)
 	{
 	}
 
 	[Token(Token = "0x6001B0E")]
-	[Address(RVA = "0x4E6AD30", Offset = "0x4E6AD30", VA = "0x4E6AD30")]
+	[Address(RVA = "0x3B50850", Offset = "0x3B50850", VA = "0x3B50850")]
 	private uint CipherFunct(uint r, int n)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6001B0F")]
-	[Address(RVA = "0x4E6AF60", Offset = "0x4E6AF60", VA = "0x4E6AF60")]
+	[Address(RVA = "0x3B50A80", Offset = "0x3B50A80", VA = "0x3B50A80")]
 	internal static void Permutation(byte[] input, byte[] output, uint[] permTab, bool preSwap)
 	{
 	}
 
 	[Token(Token = "0x6001B10")]
-	[Address(RVA = "0x4E6B2A0", Offset = "0x4E6B2A0", VA = "0x4E6B2A0")]
+	[Address(RVA = "0x3B50DC0", Offset = "0x3B50DC0", VA = "0x3B50DC0")]
 	private static void BSwap(byte[] byteBuff)
 	{
 	}
 
 	[Token(Token = "0x6001B11")]
-	[Address(RVA = "0x4E6A780", Offset = "0x4E6A780", VA = "0x4E6A780")]
+	[Address(RVA = "0x3B502A0", Offset = "0x3B502A0", VA = "0x3B502A0")]
 	internal void SetKey(byte[] key)
 	{
 	}
 
 	[Token(Token = "0x6001B12")]
-	[Address(RVA = "0x4E6B300", Offset = "0x4E6B300", VA = "0x4E6B300")]
+	[Address(RVA = "0x3B50E20", Offset = "0x3B50E20", VA = "0x3B50E20")]
 	public void ProcessBlock(byte[] input, byte[] output)
 	{
 	}
 
 	[Token(Token = "0x6001B13")]
-	[Address(RVA = "0x4E6B6D0", Offset = "0x4E6B6D0", VA = "0x4E6B6D0", Slot = "17")]
+	[Address(RVA = "0x3B511F0", Offset = "0x3B511F0", VA = "0x3B511F0", Slot = "17")]
 	protected override void ECB(byte[] input, byte[] output)
 	{
 	}
 
 	[Token(Token = "0x6001B14")]
-	[Address(RVA = "0x4E6A6B0", Offset = "0x4E6A6B0", VA = "0x4E6A6B0")]
+	[Address(RVA = "0x3B501D0", Offset = "0x3B501D0", VA = "0x3B501D0")]
 	internal static byte[] GetStrongKey()
 	{
 		return null;

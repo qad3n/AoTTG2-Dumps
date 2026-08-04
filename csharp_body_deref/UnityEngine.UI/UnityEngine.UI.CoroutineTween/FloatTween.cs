@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.CoroutineTween.FloatTween
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Events;
 
@@ -10,7 +17,7 @@ internal struct FloatTween : ITweenValue
 	public class FloatTweenCallback : UnityEvent<float>
 	{
 		[Token(Token = "0x600057B")]
-		[Address(RVA = "0x4DC9510", Offset = "0x4DC9510", VA = "0x4DC9510")]
+		[Address(RVA = "0x50F0E60", Offset = "0x50F0E60", VA = "0x50F0E60")]
 		public FloatTweenCallback()
 		{
 		}
@@ -40,13 +47,13 @@ internal struct FloatTween : ITweenValue
 	public float startValue
 	{
 		[Token(Token = "0x600056E")]
-		[Address(RVA = "0x4DC9350", Offset = "0x4DC9350", VA = "0x4DC9350")]
+		[Address(RVA = "0x50F0CA0", Offset = "0x50F0CA0", VA = "0x50F0CA0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600056F")]
-		[Address(RVA = "0x4DC9360", Offset = "0x4DC9360", VA = "0x4DC9360")]
+		[Address(RVA = "0x50F0CB0", Offset = "0x50F0CB0", VA = "0x50F0CB0")]
 		set
 		{
 		}
@@ -56,13 +63,13 @@ internal struct FloatTween : ITweenValue
 	public float targetValue
 	{
 		[Token(Token = "0x6000570")]
-		[Address(RVA = "0x4DC9370", Offset = "0x4DC9370", VA = "0x4DC9370")]
+		[Address(RVA = "0x50F0CC0", Offset = "0x50F0CC0", VA = "0x50F0CC0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000571")]
-		[Address(RVA = "0x4DC9380", Offset = "0x4DC9380", VA = "0x4DC9380")]
+		[Address(RVA = "0x50F0CD0", Offset = "0x50F0CD0", VA = "0x50F0CD0")]
 		set
 		{
 		}
@@ -72,13 +79,13 @@ internal struct FloatTween : ITweenValue
 	public float duration
 	{
 		[Token(Token = "0x6000572")]
-		[Address(RVA = "0x4DC9390", Offset = "0x4DC9390", VA = "0x4DC9390", Slot = "6")]
+		[Address(RVA = "0x50F0CE0", Offset = "0x50F0CE0", VA = "0x50F0CE0", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000573")]
-		[Address(RVA = "0x4DC93A0", Offset = "0x4DC93A0", VA = "0x4DC93A0")]
+		[Address(RVA = "0x50F0CF0", Offset = "0x50F0CF0", VA = "0x50F0CF0")]
 		set
 		{
 		}
@@ -88,46 +95,46 @@ internal struct FloatTween : ITweenValue
 	public bool ignoreTimeScale
 	{
 		[Token(Token = "0x6000574")]
-		[Address(RVA = "0x4DC93B0", Offset = "0x4DC93B0", VA = "0x4DC93B0", Slot = "5")]
+		[Address(RVA = "0x50F0D00", Offset = "0x50F0D00", VA = "0x50F0D00", Slot = "5")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000575")]
-		[Address(RVA = "0x4DC93C0", Offset = "0x4DC93C0", VA = "0x4DC93C0")]
+		[Address(RVA = "0x50F0D10", Offset = "0x50F0D10", VA = "0x50F0D10")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000576")]
-	[Address(RVA = "0x4DC93D0", Offset = "0x4DC93D0", VA = "0x4DC93D0", Slot = "4")]
+	[Address(RVA = "0x50F0D20", Offset = "0x50F0D20", VA = "0x50F0D20", Slot = "4")]
 	public void TweenValue(float floatPercentage)
 	{
 	}
 
 	[Token(Token = "0x6000577")]
-	[Address(RVA = "0x4DC9460", Offset = "0x4DC9460", VA = "0x4DC9460")]
+	[Address(RVA = "0x50F0DB0", Offset = "0x50F0DB0", VA = "0x50F0DB0")]
 	public void AddOnChangedCallback(UnityAction<float> callback)
 	{
 	}
 
 	[Token(Token = "0x6000578")]
-	[Address(RVA = "0x4DC9550", Offset = "0x4DC9550", VA = "0x4DC9550")]
+	[Address(RVA = "0x50F0EA0", Offset = "0x50F0EA0", VA = "0x50F0EA0")]
 	public bool GetIgnoreTimescale()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000579")]
-	[Address(RVA = "0x4DC9560", Offset = "0x4DC9560", VA = "0x4DC9560")]
+	[Address(RVA = "0x50F0EB0", Offset = "0x50F0EB0", VA = "0x50F0EB0")]
 	public float GetDuration()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600057A")]
-	[Address(RVA = "0x4DC9450", Offset = "0x4DC9450", VA = "0x4DC9450", Slot = "7")]
+	[Address(RVA = "0x50F0DA0", Offset = "0x50F0DA0", VA = "0x50F0DA0", Slot = "7")]
 	public bool ValidTarget()
 	{
 		return default(bool);

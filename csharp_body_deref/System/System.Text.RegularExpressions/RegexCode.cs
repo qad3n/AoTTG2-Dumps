@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.RegularExpressions.RegexCode
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -188,13 +195,13 @@ internal sealed class RegexCode
 	public readonly bool RightToLeft;
 
 	[Token(Token = "0x6000387")]
-	[Address(RVA = "0x45ECFE0", Offset = "0x45ECFE0", VA = "0x45ECFE0")]
+	[Address(RVA = "0x49120E0", Offset = "0x49120E0", VA = "0x49120E0")]
 	public RegexCode(int[] codes, List<string> stringlist, int trackcount, Hashtable caps, int capsize, RegexBoyerMoore bmPrefix, RegexPrefix? fcPrefix, int anchors, bool rightToLeft)
 	{
 	}
 
 	[Token(Token = "0x6000388")]
-	[Address(RVA = "0x45ED0E0", Offset = "0x45ED0E0", VA = "0x45ED0E0")]
+	[Address(RVA = "0x49121E0", Offset = "0x49121E0", VA = "0x49121E0")]
 	public static bool OpcodeBacktracks(int Op)
 	{
 		return default(bool);

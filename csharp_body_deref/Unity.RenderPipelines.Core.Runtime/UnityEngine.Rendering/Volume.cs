@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.Volume
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 using UnityEngine.Serialization;
@@ -57,13 +64,13 @@ public class Volume : MonoBehaviour, IVolume
 	public bool isGlobal
 	{
 		[Token(Token = "0x6000D53")]
-		[Address(RVA = "0x48E0460", Offset = "0x48E0460", VA = "0x48E0460", Slot = "4")]
+		[Address(RVA = "0x4C054D0", Offset = "0x4C054D0", VA = "0x4C054D0", Slot = "4")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000D54")]
-		[Address(RVA = "0x48E0470", Offset = "0x48E0470", VA = "0x48E0470", Slot = "5")]
+		[Address(RVA = "0x4C054E0", Offset = "0x4C054E0", VA = "0x4C054E0", Slot = "5")]
 		set
 		{
 		}
@@ -73,13 +80,13 @@ public class Volume : MonoBehaviour, IVolume
 	public VolumeProfile profile
 	{
 		[Token(Token = "0x6000D55")]
-		[Address(RVA = "0x48E0480", Offset = "0x48E0480", VA = "0x48E0480")]
+		[Address(RVA = "0x4C054F0", Offset = "0x4C054F0", VA = "0x4C054F0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000D56")]
-		[Address(RVA = "0x48E07A0", Offset = "0x48E07A0", VA = "0x48E07A0")]
+		[Address(RVA = "0x4C05810", Offset = "0x4C05810", VA = "0x4C05810")]
 		set
 		{
 		}
@@ -89,7 +96,7 @@ public class Volume : MonoBehaviour, IVolume
 	public List<Collider> colliders
 	{
 		[Token(Token = "0x6000D57")]
-		[Address(RVA = "0x48E07B0", Offset = "0x48E07B0", VA = "0x48E07B0", Slot = "6")]
+		[Address(RVA = "0x4C05820", Offset = "0x4C05820", VA = "0x4C05820", Slot = "6")]
 		get
 		{
 			return null;
@@ -100,7 +107,7 @@ public class Volume : MonoBehaviour, IVolume
 	internal VolumeProfile profileRef
 	{
 		[Token(Token = "0x6000D58")]
-		[Address(RVA = "0x48E07C0", Offset = "0x48E07C0", VA = "0x48E07C0")]
+		[Address(RVA = "0x4C05830", Offset = "0x4C05830", VA = "0x4C05830")]
 		get
 		{
 			return null;
@@ -108,38 +115,38 @@ public class Volume : MonoBehaviour, IVolume
 	}
 
 	[Token(Token = "0x6000D59")]
-	[Address(RVA = "0x48E0830", Offset = "0x48E0830", VA = "0x48E0830")]
+	[Address(RVA = "0x4C058A0", Offset = "0x4C058A0", VA = "0x4C058A0")]
 	public bool HasInstantiatedProfile()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000D5A")]
-	[Address(RVA = "0x48E0880", Offset = "0x48E0880", VA = "0x48E0880")]
+	[Address(RVA = "0x4C058F0", Offset = "0x4C058F0", VA = "0x4C058F0")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000D5B")]
-	[Address(RVA = "0x48E0D50", Offset = "0x48E0D50", VA = "0x48E0D50")]
+	[Address(RVA = "0x4C05DC0", Offset = "0x4C05DC0", VA = "0x4C05DC0")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000D5C")]
-	[Address(RVA = "0x48E1040", Offset = "0x48E1040", VA = "0x48E1040")]
+	[Address(RVA = "0x4C060B0", Offset = "0x4C060B0", VA = "0x4C060B0")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x6000D5D")]
-	[Address(RVA = "0x48E1160", Offset = "0x48E1160", VA = "0x48E1160")]
+	[Address(RVA = "0x4C061D0", Offset = "0x4C061D0", VA = "0x4C061D0")]
 	internal void UpdateLayer()
 	{
 	}
 
 	[Token(Token = "0x6000D5E")]
-	[Address(RVA = "0x48E1470", Offset = "0x48E1470", VA = "0x48E1470")]
+	[Address(RVA = "0x4C064E0", Offset = "0x4C064E0", VA = "0x4C064E0")]
 	public Volume()
 	{
 	}

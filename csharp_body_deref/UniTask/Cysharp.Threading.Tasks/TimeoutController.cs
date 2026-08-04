@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.TimeoutController
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Threading;
 using Il2CppDummyDll;
@@ -40,52 +47,52 @@ public sealed class TimeoutController : IDisposable
 	private readonly CancellationTokenSource originalLinkCancellationTokenSource;
 
 	[Token(Token = "0x6000181")]
-	[Address(RVA = "0x46B50F0", Offset = "0x46B50F0", VA = "0x46B50F0")]
+	[Address(RVA = "0x49DA1F0", Offset = "0x49DA1F0", VA = "0x49DA1F0")]
 	private static void CancelCancellationTokenSourceState(object state)
 	{
 	}
 
 	[Token(Token = "0x6000182")]
-	[Address(RVA = "0x46B5160", Offset = "0x46B5160", VA = "0x46B5160")]
+	[Address(RVA = "0x49DA260", Offset = "0x49DA260", VA = "0x49DA260")]
 	public TimeoutController(DelayType delayType = DelayType.DeltaTime, PlayerLoopTiming delayTiming = PlayerLoopTiming.Update)
 	{
 	}
 
 	[Token(Token = "0x6000183")]
-	[Address(RVA = "0x46B5200", Offset = "0x46B5200", VA = "0x46B5200")]
+	[Address(RVA = "0x49DA300", Offset = "0x49DA300", VA = "0x49DA300")]
 	public TimeoutController(CancellationTokenSource linkCancellationTokenSource, DelayType delayType = DelayType.DeltaTime, PlayerLoopTiming delayTiming = PlayerLoopTiming.Update)
 	{
 	}
 
 	[Token(Token = "0x6000184")]
-	[Address(RVA = "0x46B52F0", Offset = "0x46B52F0", VA = "0x46B52F0")]
+	[Address(RVA = "0x49DA3F0", Offset = "0x49DA3F0", VA = "0x49DA3F0")]
 	public CancellationToken Timeout(int millisecondsTimeout)
 	{
 		return default(CancellationToken);
 	}
 
 	[Token(Token = "0x6000185")]
-	[Address(RVA = "0x46B5350", Offset = "0x46B5350", VA = "0x46B5350")]
+	[Address(RVA = "0x49DA450", Offset = "0x49DA450", VA = "0x49DA450")]
 	public CancellationToken Timeout(TimeSpan timeout)
 	{
 		return default(CancellationToken);
 	}
 
 	[Token(Token = "0x6000186")]
-	[Address(RVA = "0x46B5590", Offset = "0x46B5590", VA = "0x46B5590")]
+	[Address(RVA = "0x49DA690", Offset = "0x49DA690", VA = "0x49DA690")]
 	public bool IsTimeout()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000187")]
-	[Address(RVA = "0x46B55B0", Offset = "0x46B55B0", VA = "0x46B55B0")]
+	[Address(RVA = "0x49DA6B0", Offset = "0x49DA6B0", VA = "0x49DA6B0")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x6000188")]
-	[Address(RVA = "0x46B55C0", Offset = "0x46B55C0", VA = "0x46B55C0", Slot = "4")]
+	[Address(RVA = "0x49DA6C0", Offset = "0x49DA6C0", VA = "0x49DA6C0", Slot = "4")]
 	public void Dispose()
 	{
 	}

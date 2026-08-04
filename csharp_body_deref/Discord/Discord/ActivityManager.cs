@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Discord.ActivityManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Plugins/DiscordGameSDK/ActivityManager.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -163,7 +170,7 @@ public class ActivityManager
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x232C0F0", Offset = "0x232C0F0", VA = "0x232C0F0")]
+		[Address(RVA = "0x232C1B0", Offset = "0x232C1B0", VA = "0x232C1B0")]
 		get
 		{
 			return default(FFIMethods);
@@ -174,13 +181,13 @@ public class ActivityManager
 	public event ActivityJoinHandler OnActivityJoin
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x232C210", Offset = "0x232C210", VA = "0x232C210")]
+		[Address(RVA = "0x232C2D0", Offset = "0x232C2D0", VA = "0x232C2D0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x232C2A0", Offset = "0x232C2A0", VA = "0x232C2A0")]
+		[Address(RVA = "0x232C360", Offset = "0x232C360", VA = "0x232C360")]
 		[CompilerGenerated]
 		remove
 		{
@@ -191,13 +198,13 @@ public class ActivityManager
 	public event ActivitySpectateHandler OnActivitySpectate
 	{
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x232C330", Offset = "0x232C330", VA = "0x232C330")]
+		[Address(RVA = "0x232C3F0", Offset = "0x232C3F0", VA = "0x232C3F0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x232C3C0", Offset = "0x232C3C0", VA = "0x232C3C0")]
+		[Address(RVA = "0x232C480", Offset = "0x232C480", VA = "0x232C480")]
 		[CompilerGenerated]
 		remove
 		{
@@ -208,13 +215,13 @@ public class ActivityManager
 	public event ActivityJoinRequestHandler OnActivityJoinRequest
 	{
 		[Token(Token = "0x6000009")]
-		[Address(RVA = "0x232C450", Offset = "0x232C450", VA = "0x232C450")]
+		[Address(RVA = "0x232C510", Offset = "0x232C510", VA = "0x232C510")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600000A")]
-		[Address(RVA = "0x232C4E0", Offset = "0x232C4E0", VA = "0x232C4E0")]
+		[Address(RVA = "0x232C5A0", Offset = "0x232C5A0", VA = "0x232C5A0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -225,13 +232,13 @@ public class ActivityManager
 	public event ActivityInviteHandler OnActivityInvite
 	{
 		[Token(Token = "0x600000B")]
-		[Address(RVA = "0x232C570", Offset = "0x232C570", VA = "0x232C570")]
+		[Address(RVA = "0x232C630", Offset = "0x232C630", VA = "0x232C630")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600000C")]
-		[Address(RVA = "0x232C600", Offset = "0x232C600", VA = "0x232C600")]
+		[Address(RVA = "0x232C6C0", Offset = "0x232C6C0", VA = "0x232C6C0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -239,123 +246,123 @@ public class ActivityManager
 	}
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x232C060", Offset = "0x232C060", VA = "0x232C060")]
+	[Address(RVA = "0x232C120", Offset = "0x232C120", VA = "0x232C120")]
 	public void RegisterCommand()
 	{
 	}
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x232C690", Offset = "0x232C690", VA = "0x232C690")]
+	[Address(RVA = "0x232C750", Offset = "0x232C750", VA = "0x232C750")]
 	internal ActivityManager(IntPtr ptr, IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x232C7A0", Offset = "0x232C7A0", VA = "0x232C7A0")]
+	[Address(RVA = "0x232C860", Offset = "0x232C860", VA = "0x232C860")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x232C070", Offset = "0x232C070", VA = "0x232C070")]
+	[Address(RVA = "0x232C130", Offset = "0x232C130", VA = "0x232C130")]
 	public void RegisterCommand(string command)
 	{
 	}
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x232CD80", Offset = "0x232CD80", VA = "0x232CD80")]
+	[Address(RVA = "0x232CE40", Offset = "0x232CE40", VA = "0x232CE40")]
 	public void RegisterSteam(uint steamId)
 	{
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x232B7A0", Offset = "0x232B7A0", VA = "0x232B7A0")]
+	[Address(RVA = "0x232B860", Offset = "0x232B860", VA = "0x232B860")]
 	[MonoPInvokeCallback]
 	private static void UpdateActivityCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x232CE00", Offset = "0x232CE00", VA = "0x232CE00")]
+	[Address(RVA = "0x232CEC0", Offset = "0x232CEC0", VA = "0x232CEC0")]
 	public void UpdateActivity(Activity activity, UpdateActivityHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x232B880", Offset = "0x232B880", VA = "0x232B880")]
+	[Address(RVA = "0x232B940", Offset = "0x232B940", VA = "0x232B940")]
 	[MonoPInvokeCallback]
 	private static void ClearActivityCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x232CFF0", Offset = "0x232CFF0", VA = "0x232CFF0")]
+	[Address(RVA = "0x232D0B0", Offset = "0x232D0B0", VA = "0x232D0B0")]
 	public void ClearActivity(ClearActivityHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x232B960", Offset = "0x232B960", VA = "0x232B960")]
+	[Address(RVA = "0x232BA20", Offset = "0x232BA20", VA = "0x232BA20")]
 	[MonoPInvokeCallback]
 	private static void SendRequestReplyCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x232D1D0", Offset = "0x232D1D0", VA = "0x232D1D0")]
+	[Address(RVA = "0x232D290", Offset = "0x232D290", VA = "0x232D290")]
 	public void SendRequestReply(long userId, ActivityJoinRequestReply reply, SendRequestReplyHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x232BA40", Offset = "0x232BA40", VA = "0x232BA40")]
+	[Address(RVA = "0x232BB00", Offset = "0x232BB00", VA = "0x232BB00")]
 	[MonoPInvokeCallback]
 	private static void SendInviteCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x232D3D0", Offset = "0x232D3D0", VA = "0x232D3D0")]
+	[Address(RVA = "0x232D490", Offset = "0x232D490", VA = "0x232D490")]
 	public void SendInvite(long userId, ActivityActionType type, string content, SendInviteHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x232BB20", Offset = "0x232BB20", VA = "0x232BB20")]
+	[Address(RVA = "0x232BBE0", Offset = "0x232BBE0", VA = "0x232BBE0")]
 	[MonoPInvokeCallback]
 	private static void AcceptInviteCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x232D5D0", Offset = "0x232D5D0", VA = "0x232D5D0")]
+	[Address(RVA = "0x232D690", Offset = "0x232D690", VA = "0x232D690")]
 	public void AcceptInvite(long userId, AcceptInviteHandler callback)
 	{
 	}
 
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x232BC00", Offset = "0x232BC00", VA = "0x232BC00")]
+	[Address(RVA = "0x232BCC0", Offset = "0x232BCC0", VA = "0x232BCC0")]
 	[MonoPInvokeCallback]
 	private static void OnActivityJoinImpl(IntPtr ptr, string secret)
 	{
 	}
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x232BD10", Offset = "0x232BD10", VA = "0x232BD10")]
+	[Address(RVA = "0x232BDD0", Offset = "0x232BDD0", VA = "0x232BDD0")]
 	[MonoPInvokeCallback]
 	private static void OnActivitySpectateImpl(IntPtr ptr, string secret)
 	{
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x232BE20", Offset = "0x232BE20", VA = "0x232BE20")]
+	[Address(RVA = "0x232BEE0", Offset = "0x232BEE0", VA = "0x232BEE0")]
 	[MonoPInvokeCallback]
 	private static void OnActivityJoinRequestImpl(IntPtr ptr, ref User user)
 	{
 	}
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x232BF30", Offset = "0x232BF30", VA = "0x232BF30")]
+	[Address(RVA = "0x232BFF0", Offset = "0x232BFF0", VA = "0x232BFF0")]
 	[MonoPInvokeCallback]
 	private static void OnActivityInviteImpl(IntPtr ptr, ActivityActionType type, ref User user, ref Activity activity)
 	{

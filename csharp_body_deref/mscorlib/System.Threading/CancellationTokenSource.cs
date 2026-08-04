@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Threading.CancellationTokenSource
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Threading;
@@ -13,13 +20,13 @@ public class CancellationTokenSource : IDisposable
 		private readonly CancellationTokenRegistration _reg1;
 
 		[Token(Token = "0x60011D5")]
-		[Address(RVA = "0x50476F0", Offset = "0x50476F0", VA = "0x50476F0")]
+		[Address(RVA = "0x3D2D210", Offset = "0x3D2D210", VA = "0x3D2D210")]
 		internal Linked1CancellationTokenSource(CancellationToken token1)
 		{
 		}
 
 		[Token(Token = "0x60011D6")]
-		[Address(RVA = "0x5048040", Offset = "0x5048040", VA = "0x5048040", Slot = "5")]
+		[Address(RVA = "0x3D2DB60", Offset = "0x3D2DB60", VA = "0x3D2DB60", Slot = "5")]
 		protected override void Dispose(bool disposing)
 		{
 		}
@@ -37,13 +44,13 @@ public class CancellationTokenSource : IDisposable
 		private readonly CancellationTokenRegistration _reg2;
 
 		[Token(Token = "0x60011D7")]
-		[Address(RVA = "0x5047840", Offset = "0x5047840", VA = "0x5047840")]
+		[Address(RVA = "0x3D2D360", Offset = "0x3D2D360", VA = "0x3D2D360")]
 		internal Linked2CancellationTokenSource(CancellationToken token1, CancellationToken token2)
 		{
 		}
 
 		[Token(Token = "0x60011D8")]
-		[Address(RVA = "0x5048070", Offset = "0x5048070", VA = "0x5048070", Slot = "5")]
+		[Address(RVA = "0x3D2DB90", Offset = "0x3D2DB90", VA = "0x3D2DB90", Slot = "5")]
 		protected override void Dispose(bool disposing)
 		{
 		}
@@ -61,13 +68,13 @@ public class CancellationTokenSource : IDisposable
 		private CancellationTokenRegistration[] _linkingRegistrations;
 
 		[Token(Token = "0x60011D9")]
-		[Address(RVA = "0x5047C40", Offset = "0x5047C40", VA = "0x5047C40")]
+		[Address(RVA = "0x3D2D760", Offset = "0x3D2D760", VA = "0x3D2D760")]
 		internal LinkedNCancellationTokenSource(params CancellationToken[] tokens)
 		{
 		}
 
 		[Token(Token = "0x60011DA")]
-		[Address(RVA = "0x50480B0", Offset = "0x50480B0", VA = "0x50480B0", Slot = "5")]
+		[Address(RVA = "0x3D2DBD0", Offset = "0x3D2DBD0", VA = "0x3D2DBD0", Slot = "5")]
 		protected override void Dispose(bool disposing)
 		{
 		}
@@ -133,7 +140,7 @@ public class CancellationTokenSource : IDisposable
 	public bool IsCancellationRequested
 	{
 		[Token(Token = "0x60011B9")]
-		[Address(RVA = "0x5042CB0", Offset = "0x5042CB0", VA = "0x5042CB0")]
+		[Address(RVA = "0x3D287D0", Offset = "0x3D287D0", VA = "0x3D287D0")]
 		get
 		{
 			return default(bool);
@@ -144,7 +151,7 @@ public class CancellationTokenSource : IDisposable
 	internal bool IsCancellationCompleted
 	{
 		[Token(Token = "0x60011BA")]
-		[Address(RVA = "0x5046060", Offset = "0x5046060", VA = "0x5046060")]
+		[Address(RVA = "0x3D2BB80", Offset = "0x3D2BB80", VA = "0x3D2BB80")]
 		get
 		{
 			return default(bool);
@@ -155,7 +162,7 @@ public class CancellationTokenSource : IDisposable
 	internal bool IsDisposed
 	{
 		[Token(Token = "0x60011BB")]
-		[Address(RVA = "0x5046320", Offset = "0x5046320", VA = "0x5046320")]
+		[Address(RVA = "0x3D2BE40", Offset = "0x3D2BE40", VA = "0x3D2BE40")]
 		get
 		{
 			return default(bool);
@@ -166,13 +173,13 @@ public class CancellationTokenSource : IDisposable
 	internal int ThreadIDExecutingCallbacks
 	{
 		[Token(Token = "0x60011BC")]
-		[Address(RVA = "0x5046080", Offset = "0x5046080", VA = "0x5046080")]
+		[Address(RVA = "0x3D2BBA0", Offset = "0x3D2BBA0", VA = "0x3D2BBA0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60011BD")]
-		[Address(RVA = "0x5046330", Offset = "0x5046330", VA = "0x5046330")]
+		[Address(RVA = "0x3D2BE50", Offset = "0x3D2BE50", VA = "0x3D2BE50")]
 		set
 		{
 		}
@@ -182,7 +189,7 @@ public class CancellationTokenSource : IDisposable
 	public CancellationToken Token
 	{
 		[Token(Token = "0x60011BE")]
-		[Address(RVA = "0x5046350", Offset = "0x5046350", VA = "0x5046350")]
+		[Address(RVA = "0x3D2BE70", Offset = "0x3D2BE70", VA = "0x3D2BE70")]
 		get
 		{
 			return default(CancellationToken);
@@ -193,7 +200,7 @@ public class CancellationTokenSource : IDisposable
 	internal System.Threading.CancellationCallbackInfo ExecutingCallback
 	{
 		[Token(Token = "0x60011BF")]
-		[Address(RVA = "0x50463F0", Offset = "0x50463F0", VA = "0x50463F0")]
+		[Address(RVA = "0x3D2BF10", Offset = "0x3D2BF10", VA = "0x3D2BF10")]
 		get
 		{
 			return null;
@@ -201,125 +208,125 @@ public class CancellationTokenSource : IDisposable
 	}
 
 	[Token(Token = "0x60011C0")]
-	[Address(RVA = "0x5046400", Offset = "0x5046400", VA = "0x5046400")]
+	[Address(RVA = "0x3D2BF20", Offset = "0x3D2BF20", VA = "0x3D2BF20")]
 	public CancellationTokenSource()
 	{
 	}
 
 	[Token(Token = "0x60011C1")]
-	[Address(RVA = "0x5046430", Offset = "0x5046430", VA = "0x5046430")]
+	[Address(RVA = "0x3D2BF50", Offset = "0x3D2BF50", VA = "0x3D2BF50")]
 	public CancellationTokenSource(int millisecondsDelay)
 	{
 	}
 
 	[Token(Token = "0x60011C2")]
-	[Address(RVA = "0x50464B0", Offset = "0x50464B0", VA = "0x50464B0")]
+	[Address(RVA = "0x3D2BFD0", Offset = "0x3D2BFD0", VA = "0x3D2BFD0")]
 	private void InitializeWithTimer(int millisecondsDelay)
 	{
 	}
 
 	[Token(Token = "0x60011C3")]
-	[Address(RVA = "0x5046570", Offset = "0x5046570", VA = "0x5046570")]
+	[Address(RVA = "0x3D2C090", Offset = "0x3D2C090", VA = "0x3D2C090")]
 	public void Cancel()
 	{
 	}
 
 	[Token(Token = "0x60011C4")]
-	[Address(RVA = "0x50465C0", Offset = "0x50465C0", VA = "0x50465C0")]
+	[Address(RVA = "0x3D2C0E0", Offset = "0x3D2C0E0", VA = "0x3D2C0E0")]
 	public void Cancel(bool throwOnFirstException)
 	{
 	}
 
 	[Token(Token = "0x60011C5")]
-	[Address(RVA = "0x50466F0", Offset = "0x50466F0", VA = "0x50466F0")]
+	[Address(RVA = "0x3D2C210", Offset = "0x3D2C210", VA = "0x3D2C210")]
 	public void CancelAfter(int millisecondsDelay)
 	{
 	}
 
 	[Token(Token = "0x60011C6")]
-	[Address(RVA = "0x5046950", Offset = "0x5046950", VA = "0x5046950")]
+	[Address(RVA = "0x3D2C470", Offset = "0x3D2C470", VA = "0x3D2C470")]
 	private static void TimerCallbackLogic(object obj)
 	{
 	}
 
 	[Token(Token = "0x60011C7")]
-	[Address(RVA = "0x5046A90", Offset = "0x5046A90", VA = "0x5046A90", Slot = "4")]
+	[Address(RVA = "0x3D2C5B0", Offset = "0x3D2C5B0", VA = "0x3D2C5B0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60011C8")]
-	[Address(RVA = "0x5046B00", Offset = "0x5046B00", VA = "0x5046B00", Slot = "5")]
+	[Address(RVA = "0x3D2C620", Offset = "0x3D2C620", VA = "0x3D2C620", Slot = "5")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x60011C9")]
-	[Address(RVA = "0x50463B0", Offset = "0x50463B0", VA = "0x50463B0")]
+	[Address(RVA = "0x3D2BED0", Offset = "0x3D2BED0", VA = "0x3D2BED0")]
 	internal void ThrowIfDisposed()
 	{
 	}
 
 	[Token(Token = "0x60011CA")]
-	[Address(RVA = "0x5046B90", Offset = "0x5046B90", VA = "0x5046B90")]
+	[Address(RVA = "0x3D2C6B0", Offset = "0x3D2C6B0", VA = "0x3D2C6B0")]
 	private static void ThrowObjectDisposedException()
 	{
 	}
 
 	[Token(Token = "0x60011CB")]
-	[Address(RVA = "0x50433E0", Offset = "0x50433E0", VA = "0x50433E0")]
+	[Address(RVA = "0x3D28F00", Offset = "0x3D28F00", VA = "0x3D28F00")]
 	internal CancellationTokenRegistration InternalRegister(Action<object> callback, object stateForCallback, SynchronizationContext targetSyncContext, ExecutionContext executionContext)
 	{
 		return default(CancellationTokenRegistration);
 	}
 
 	[Token(Token = "0x60011CC")]
-	[Address(RVA = "0x5046610", Offset = "0x5046610", VA = "0x5046610")]
+	[Address(RVA = "0x3D2C130", Offset = "0x3D2C130", VA = "0x3D2C130")]
 	private void NotifyCancellation(bool throwOnFirstException)
 	{
 	}
 
 	[Token(Token = "0x60011CD")]
-	[Address(RVA = "0x5046CE0", Offset = "0x5046CE0", VA = "0x5046CE0")]
+	[Address(RVA = "0x3D2C800", Offset = "0x3D2C800", VA = "0x3D2C800")]
 	private void ExecuteCallbackHandlers(bool throwOnFirstException)
 	{
 	}
 
 	[Token(Token = "0x60011CE")]
-	[Address(RVA = "0x50473C0", Offset = "0x50473C0", VA = "0x50473C0")]
+	[Address(RVA = "0x3D2CEE0", Offset = "0x3D2CEE0", VA = "0x3D2CEE0")]
 	private void CancellationCallbackCoreWork_OnSyncContext(object obj)
 	{
 	}
 
 	[Token(Token = "0x60011CF")]
-	[Address(RVA = "0x5047310", Offset = "0x5047310", VA = "0x5047310")]
+	[Address(RVA = "0x3D2CE30", Offset = "0x3D2CE30", VA = "0x3D2CE30")]
 	private void CancellationCallbackCoreWork(System.Threading.CancellationCallbackCoreWorkArguments args)
 	{
 	}
 
 	[Token(Token = "0x60011D0")]
-	[Address(RVA = "0x50475C0", Offset = "0x50475C0", VA = "0x50475C0")]
+	[Address(RVA = "0x3D2D0E0", Offset = "0x3D2D0E0", VA = "0x3D2D0E0")]
 	public static CancellationTokenSource CreateLinkedTokenSource(CancellationToken token1, CancellationToken token2)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011D1")]
-	[Address(RVA = "0x5047A20", Offset = "0x5047A20", VA = "0x5047A20")]
+	[Address(RVA = "0x3D2D540", Offset = "0x3D2D540", VA = "0x3D2D540")]
 	internal static CancellationTokenSource CreateLinkedTokenSource(CancellationToken token)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011D2")]
-	[Address(RVA = "0x5047AF0", Offset = "0x5047AF0", VA = "0x5047AF0")]
+	[Address(RVA = "0x3D2D610", Offset = "0x3D2D610", VA = "0x3D2D610")]
 	public static CancellationTokenSource CreateLinkedTokenSource(params CancellationToken[] tokens)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011D3")]
-	[Address(RVA = "0x5046090", Offset = "0x5046090", VA = "0x5046090")]
+	[Address(RVA = "0x3D2BBB0", Offset = "0x3D2BBB0", VA = "0x3D2BBB0")]
 	internal void WaitForCallbackToComplete(System.Threading.CancellationCallbackInfo callbackInfo)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Net.Security.AsyncReadOrWriteRequest
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -10,7 +17,7 @@ internal abstract class AsyncReadOrWriteRequest : AsyncProtocolRequest
 	protected BufferOffsetSize UserBuffer
 	{
 		[Token(Token = "0x60000CA")]
-		[Address(RVA = "0x453DE60", Offset = "0x453DE60", VA = "0x453DE60")]
+		[Address(RVA = "0x4524050", Offset = "0x4524050", VA = "0x4524050")]
 		[CompilerGenerated]
 		get
 		{
@@ -22,14 +29,14 @@ internal abstract class AsyncReadOrWriteRequest : AsyncProtocolRequest
 	protected int CurrentSize
 	{
 		[Token(Token = "0x60000CB")]
-		[Address(RVA = "0x453DE70", Offset = "0x453DE70", VA = "0x453DE70")]
+		[Address(RVA = "0x4524060", Offset = "0x4524060", VA = "0x4524060")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000CC")]
-		[Address(RVA = "0x453DE80", Offset = "0x453DE80", VA = "0x453DE80")]
+		[Address(RVA = "0x4524070", Offset = "0x4524070", VA = "0x4524070")]
 		[CompilerGenerated]
 		set
 		{
@@ -37,13 +44,13 @@ internal abstract class AsyncReadOrWriteRequest : AsyncProtocolRequest
 	}
 
 	[Token(Token = "0x60000CD")]
-	[Address(RVA = "0x453DE90", Offset = "0x453DE90", VA = "0x453DE90")]
+	[Address(RVA = "0x4524080", Offset = "0x4524080", VA = "0x4524080")]
 	public AsyncReadOrWriteRequest(MobileAuthenticatedStream parent, bool sync, byte[] buffer, int offset, int size)
 	{
 	}
 
 	[Token(Token = "0x60000CE")]
-	[Address(RVA = "0x453DF80", Offset = "0x453DF80", VA = "0x453DF80", Slot = "3")]
+	[Address(RVA = "0x4524170", Offset = "0x4524170", VA = "0x4524170", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

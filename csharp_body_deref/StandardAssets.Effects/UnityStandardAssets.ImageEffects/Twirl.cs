@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.Twirl
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/Twirl.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -22,13 +29,13 @@ public class Twirl : ImageEffectBase
 	public Vector2 center;
 
 	[Token(Token = "0x60000B3")]
-	[Address(RVA = "0x4165010", Offset = "0x4165010", VA = "0x4165010")]
+	[Address(RVA = "0x448A110", Offset = "0x448A110", VA = "0x448A110")]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x60000B4")]
-	[Address(RVA = "0x4165050", Offset = "0x4165050", VA = "0x4165050")]
+	[Address(RVA = "0x448A150", Offset = "0x448A150", VA = "0x448A150")]
 	public Twirl()
 	{
 	}

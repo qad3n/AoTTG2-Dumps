@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.LessThanInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -9,13 +16,13 @@ internal abstract class LessThanInstruction : Instruction
 	private sealed class LessThanSByte : LessThanInstruction
 	{
 		[Token(Token = "0x6000831")]
-		[Address(RVA = "0x41B7A60", Offset = "0x41B7A60", VA = "0x41B7A60")]
+		[Address(RVA = "0x44DCB60", Offset = "0x44DCB60", VA = "0x44DCB60")]
 		public LessThanSByte(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x6000832")]
-		[Address(RVA = "0x41B7C70", Offset = "0x41B7C70", VA = "0x41B7C70", Slot = "8")]
+		[Address(RVA = "0x44DCD70", Offset = "0x44DCD70", VA = "0x44DCD70", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -26,13 +33,13 @@ internal abstract class LessThanInstruction : Instruction
 	private sealed class LessThanInt16 : LessThanInstruction
 	{
 		[Token(Token = "0x6000833")]
-		[Address(RVA = "0x41B7A90", Offset = "0x41B7A90", VA = "0x41B7A90")]
+		[Address(RVA = "0x44DCB90", Offset = "0x44DCB90", VA = "0x44DCB90")]
 		public LessThanInt16(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x6000834")]
-		[Address(RVA = "0x41B7DA0", Offset = "0x41B7DA0", VA = "0x41B7DA0", Slot = "8")]
+		[Address(RVA = "0x44DCEA0", Offset = "0x44DCEA0", VA = "0x44DCEA0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -43,13 +50,13 @@ internal abstract class LessThanInstruction : Instruction
 	private sealed class LessThanChar : LessThanInstruction
 	{
 		[Token(Token = "0x6000835")]
-		[Address(RVA = "0x41B7AC0", Offset = "0x41B7AC0", VA = "0x41B7AC0")]
+		[Address(RVA = "0x44DCBC0", Offset = "0x44DCBC0", VA = "0x44DCBC0")]
 		public LessThanChar(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x6000836")]
-		[Address(RVA = "0x41B7ED0", Offset = "0x41B7ED0", VA = "0x41B7ED0", Slot = "8")]
+		[Address(RVA = "0x44DCFD0", Offset = "0x44DCFD0", VA = "0x44DCFD0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -60,13 +67,13 @@ internal abstract class LessThanInstruction : Instruction
 	private sealed class LessThanInt32 : LessThanInstruction
 	{
 		[Token(Token = "0x6000837")]
-		[Address(RVA = "0x41B7AF0", Offset = "0x41B7AF0", VA = "0x41B7AF0")]
+		[Address(RVA = "0x44DCBF0", Offset = "0x44DCBF0", VA = "0x44DCBF0")]
 		public LessThanInt32(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x6000838")]
-		[Address(RVA = "0x41B8000", Offset = "0x41B8000", VA = "0x41B8000", Slot = "8")]
+		[Address(RVA = "0x44DD100", Offset = "0x44DD100", VA = "0x44DD100", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -77,13 +84,13 @@ internal abstract class LessThanInstruction : Instruction
 	private sealed class LessThanInt64 : LessThanInstruction
 	{
 		[Token(Token = "0x6000839")]
-		[Address(RVA = "0x41B7B20", Offset = "0x41B7B20", VA = "0x41B7B20")]
+		[Address(RVA = "0x44DCC20", Offset = "0x44DCC20", VA = "0x44DCC20")]
 		public LessThanInt64(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x600083A")]
-		[Address(RVA = "0x41B8130", Offset = "0x41B8130", VA = "0x41B8130", Slot = "8")]
+		[Address(RVA = "0x44DD230", Offset = "0x44DD230", VA = "0x44DD230", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -94,13 +101,13 @@ internal abstract class LessThanInstruction : Instruction
 	private sealed class LessThanByte : LessThanInstruction
 	{
 		[Token(Token = "0x600083B")]
-		[Address(RVA = "0x41B7B50", Offset = "0x41B7B50", VA = "0x41B7B50")]
+		[Address(RVA = "0x44DCC50", Offset = "0x44DCC50", VA = "0x44DCC50")]
 		public LessThanByte(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x600083C")]
-		[Address(RVA = "0x41B8260", Offset = "0x41B8260", VA = "0x41B8260", Slot = "8")]
+		[Address(RVA = "0x44DD360", Offset = "0x44DD360", VA = "0x44DD360", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -111,13 +118,13 @@ internal abstract class LessThanInstruction : Instruction
 	private sealed class LessThanUInt16 : LessThanInstruction
 	{
 		[Token(Token = "0x600083D")]
-		[Address(RVA = "0x41B7B80", Offset = "0x41B7B80", VA = "0x41B7B80")]
+		[Address(RVA = "0x44DCC80", Offset = "0x44DCC80", VA = "0x44DCC80")]
 		public LessThanUInt16(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x600083E")]
-		[Address(RVA = "0x41B8390", Offset = "0x41B8390", VA = "0x41B8390", Slot = "8")]
+		[Address(RVA = "0x44DD490", Offset = "0x44DD490", VA = "0x44DD490", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -128,13 +135,13 @@ internal abstract class LessThanInstruction : Instruction
 	private sealed class LessThanUInt32 : LessThanInstruction
 	{
 		[Token(Token = "0x600083F")]
-		[Address(RVA = "0x41B7BB0", Offset = "0x41B7BB0", VA = "0x41B7BB0")]
+		[Address(RVA = "0x44DCCB0", Offset = "0x44DCCB0", VA = "0x44DCCB0")]
 		public LessThanUInt32(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x6000840")]
-		[Address(RVA = "0x41B84C0", Offset = "0x41B84C0", VA = "0x41B84C0", Slot = "8")]
+		[Address(RVA = "0x44DD5C0", Offset = "0x44DD5C0", VA = "0x44DD5C0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -145,13 +152,13 @@ internal abstract class LessThanInstruction : Instruction
 	private sealed class LessThanUInt64 : LessThanInstruction
 	{
 		[Token(Token = "0x6000841")]
-		[Address(RVA = "0x41B7BE0", Offset = "0x41B7BE0", VA = "0x41B7BE0")]
+		[Address(RVA = "0x44DCCE0", Offset = "0x44DCCE0", VA = "0x44DCCE0")]
 		public LessThanUInt64(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x6000842")]
-		[Address(RVA = "0x41B85F0", Offset = "0x41B85F0", VA = "0x41B85F0", Slot = "8")]
+		[Address(RVA = "0x44DD6F0", Offset = "0x44DD6F0", VA = "0x44DD6F0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -162,13 +169,13 @@ internal abstract class LessThanInstruction : Instruction
 	private sealed class LessThanSingle : LessThanInstruction
 	{
 		[Token(Token = "0x6000843")]
-		[Address(RVA = "0x41B7C10", Offset = "0x41B7C10", VA = "0x41B7C10")]
+		[Address(RVA = "0x44DCD10", Offset = "0x44DCD10", VA = "0x44DCD10")]
 		public LessThanSingle(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x6000844")]
-		[Address(RVA = "0x41B8720", Offset = "0x41B8720", VA = "0x41B8720", Slot = "8")]
+		[Address(RVA = "0x44DD820", Offset = "0x44DD820", VA = "0x44DD820", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -179,13 +186,13 @@ internal abstract class LessThanInstruction : Instruction
 	private sealed class LessThanDouble : LessThanInstruction
 	{
 		[Token(Token = "0x6000845")]
-		[Address(RVA = "0x41B7C40", Offset = "0x41B7C40", VA = "0x41B7C40")]
+		[Address(RVA = "0x44DCD40", Offset = "0x44DCD40", VA = "0x44DCD40")]
 		public LessThanDouble(object nullValue)
 		{
 		}
 
 		[Token(Token = "0x6000846")]
-		[Address(RVA = "0x41B8870", Offset = "0x41B8870", VA = "0x41B8870", Slot = "8")]
+		[Address(RVA = "0x44DD970", Offset = "0x44DD970", VA = "0x44DD970", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -288,7 +295,7 @@ internal abstract class LessThanInstruction : Instruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x600082C")]
-		[Address(RVA = "0x41B79E0", Offset = "0x41B79E0", VA = "0x41B79E0", Slot = "4")]
+		[Address(RVA = "0x44DCAE0", Offset = "0x44DCAE0", VA = "0x44DCAE0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -299,7 +306,7 @@ internal abstract class LessThanInstruction : Instruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x600082D")]
-		[Address(RVA = "0x41B79F0", Offset = "0x41B79F0", VA = "0x41B79F0", Slot = "5")]
+		[Address(RVA = "0x44DCAF0", Offset = "0x44DCAF0", VA = "0x44DCAF0", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -310,7 +317,7 @@ internal abstract class LessThanInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x600082E")]
-		[Address(RVA = "0x41B7A00", Offset = "0x41B7A00", VA = "0x41B7A00", Slot = "9")]
+		[Address(RVA = "0x44DCB00", Offset = "0x44DCB00", VA = "0x44DCB00", Slot = "9")]
 		get
 		{
 			return null;
@@ -318,13 +325,13 @@ internal abstract class LessThanInstruction : Instruction
 	}
 
 	[Token(Token = "0x600082F")]
-	[Address(RVA = "0x41B7A30", Offset = "0x41B7A30", VA = "0x41B7A30")]
+	[Address(RVA = "0x44DCB30", Offset = "0x44DCB30", VA = "0x44DCB30")]
 	private LessThanInstruction(object nullValue)
 	{
 	}
 
 	[Token(Token = "0x6000830")]
-	[Address(RVA = "0x41B1B90", Offset = "0x41B1B90", VA = "0x41B1B90")]
+	[Address(RVA = "0x44D6C90", Offset = "0x44D6C90", VA = "0x44D6C90")]
 	public static Instruction Create(Type type, bool liftedToNull = false)
 	{
 		return null;

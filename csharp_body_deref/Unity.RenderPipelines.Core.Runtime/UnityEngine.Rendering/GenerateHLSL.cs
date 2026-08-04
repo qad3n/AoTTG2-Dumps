@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.GenerateHLSL
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -50,7 +57,7 @@ public class GenerateHLSL : Attribute
 	public string sourcePath;
 
 	[Token(Token = "0x6000AC8")]
-	[Address(RVA = "0x48B99C0", Offset = "0x48B99C0", VA = "0x48B99C0")]
+	[Address(RVA = "0x4BDEA60", Offset = "0x4BDEA60", VA = "0x4BDEA60")]
 	public GenerateHLSL([Optional][DefaultParameterValue(0)] PackingRules rules, [Optional][DefaultParameterValue(true)] bool needAccessors, [Optional][DefaultParameterValue(false)] bool needSetters, [Optional][DefaultParameterValue(false)] bool needParamDebug, [Optional][DefaultParameterValue(1)] int paramDefinesStart, [Optional][DefaultParameterValue(false)] bool omitStructDeclaration, [Optional][DefaultParameterValue(false)] bool containsPackedFields, [Optional][DefaultParameterValue(false)] bool generateCBuffer, [Optional][DefaultParameterValue(-1)] int constantRegister, [Optional][CallerFilePath] string sourcePath)
 	{
 	}

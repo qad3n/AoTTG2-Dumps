@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Internal.MultiColumnHeaderColumn
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -94,14 +101,14 @@ internal class MultiColumnHeaderColumn : VisualElement
 	public Clickable clickable
 	{
 		[Token(Token = "0x60021A8")]
-		[Address(RVA = "0x4CB95B0", Offset = "0x4CB95B0", VA = "0x4CB95B0")]
+		[Address(RVA = "0x4FE0EE0", Offset = "0x4FE0EE0", VA = "0x4FE0EE0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60021A9")]
-		[Address(RVA = "0x4CB95C0", Offset = "0x4CB95C0", VA = "0x4CB95C0")]
+		[Address(RVA = "0x4FE0EF0", Offset = "0x4FE0EF0", VA = "0x4FE0EF0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -112,14 +119,14 @@ internal class MultiColumnHeaderColumn : VisualElement
 	public ColumnMover mover
 	{
 		[Token(Token = "0x60021AA")]
-		[Address(RVA = "0x4CB95E0", Offset = "0x4CB95E0", VA = "0x4CB95E0")]
+		[Address(RVA = "0x4FE0F10", Offset = "0x4FE0F10", VA = "0x4FE0F10")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60021AB")]
-		[Address(RVA = "0x4CB95F0", Offset = "0x4CB95F0", VA = "0x4CB95F0")]
+		[Address(RVA = "0x4FE0F20", Offset = "0x4FE0F20", VA = "0x4FE0F20")]
 		[CompilerGenerated]
 		private set
 		{
@@ -130,7 +137,7 @@ internal class MultiColumnHeaderColumn : VisualElement
 	public string sortOrderLabel
 	{
 		[Token(Token = "0x60021AC")]
-		[Address(RVA = "0x4CB7980", Offset = "0x4CB7980", VA = "0x4CB7980")]
+		[Address(RVA = "0x4FDF2B0", Offset = "0x4FDF2B0", VA = "0x4FDF2B0")]
 		set
 		{
 		}
@@ -140,14 +147,14 @@ internal class MultiColumnHeaderColumn : VisualElement
 	public Column column
 	{
 		[Token(Token = "0x60021AD")]
-		[Address(RVA = "0x4CB9610", Offset = "0x4CB9610", VA = "0x4CB9610")]
+		[Address(RVA = "0x4FE0F40", Offset = "0x4FE0F40", VA = "0x4FE0F40")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60021AE")]
-		[Address(RVA = "0x4CB9620", Offset = "0x4CB9620", VA = "0x4CB9620")]
+		[Address(RVA = "0x4FE0F50", Offset = "0x4FE0F50", VA = "0x4FE0F50")]
 		[CompilerGenerated]
 		set
 		{
@@ -158,13 +165,13 @@ internal class MultiColumnHeaderColumn : VisualElement
 	public VisualElement content
 	{
 		[Token(Token = "0x60021AF")]
-		[Address(RVA = "0x4CB9640", Offset = "0x4CB9640", VA = "0x4CB9640")]
+		[Address(RVA = "0x4FE0F70", Offset = "0x4FE0F70", VA = "0x4FE0F70")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60021B0")]
-		[Address(RVA = "0x4CB9650", Offset = "0x4CB9650", VA = "0x4CB9650")]
+		[Address(RVA = "0x4FE0F80", Offset = "0x4FE0F80", VA = "0x4FE0F80")]
 		set
 		{
 		}
@@ -174,75 +181,75 @@ internal class MultiColumnHeaderColumn : VisualElement
 	private bool isContentBound
 	{
 		[Token(Token = "0x60021B1")]
-		[Address(RVA = "0x4CB9810", Offset = "0x4CB9810", VA = "0x4CB9810")]
+		[Address(RVA = "0x4FE1140", Offset = "0x4FE1140", VA = "0x4FE1140")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60021B2")]
-		[Address(RVA = "0x4CB98D0", Offset = "0x4CB98D0", VA = "0x4CB98D0")]
+		[Address(RVA = "0x4FE1200", Offset = "0x4FE1200", VA = "0x4FE1200")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60021B3")]
-	[Address(RVA = "0x4CB4850", Offset = "0x4CB4850", VA = "0x4CB4850")]
+	[Address(RVA = "0x4FDC180", Offset = "0x4FDC180", VA = "0x4FDC180")]
 	public MultiColumnHeaderColumn(Column column)
 	{
 	}
 
 	[Token(Token = "0x60021B4")]
-	[Address(RVA = "0x4CB9D00", Offset = "0x4CB9D00", VA = "0x4CB9D00")]
+	[Address(RVA = "0x4FE1630", Offset = "0x4FE1630", VA = "0x4FE1630")]
 	private void InitManipulators()
 	{
 	}
 
 	[Token(Token = "0x60021B5")]
-	[Address(RVA = "0x4CB9F70", Offset = "0x4CB9F70", VA = "0x4CB9F70")]
+	[Address(RVA = "0x4FE18A0", Offset = "0x4FE18A0", VA = "0x4FE18A0")]
 	private void UpdateDataFromColumn()
 	{
 	}
 
 	[Token(Token = "0x60021B6")]
-	[Address(RVA = "0x4CBA0F0", Offset = "0x4CBA0F0", VA = "0x4CBA0F0")]
+	[Address(RVA = "0x4FE1A20", Offset = "0x4FE1A20", VA = "0x4FE1A20")]
 	private void BindHeaderContent()
 	{
 	}
 
 	[Token(Token = "0x60021B7")]
-	[Address(RVA = "0x4CB9FB0", Offset = "0x4CB9FB0", VA = "0x4CB9FB0")]
+	[Address(RVA = "0x4FE18E0", Offset = "0x4FE18E0", VA = "0x4FE18E0")]
 	private void UnbindHeaderContent()
 	{
 	}
 
 	[Token(Token = "0x60021B8")]
-	[Address(RVA = "0x4CB9750", Offset = "0x4CB9750", VA = "0x4CB9750")]
+	[Address(RVA = "0x4FE1080", Offset = "0x4FE1080", VA = "0x4FE1080")]
 	private void DestroyHeaderContent()
 	{
 	}
 
 	[Token(Token = "0x60021B9")]
-	[Address(RVA = "0x4CBA230", Offset = "0x4CBA230", VA = "0x4CBA230")]
+	[Address(RVA = "0x4FE1B60", Offset = "0x4FE1B60", VA = "0x4FE1B60")]
 	private VisualElement CreateDefaultHeaderContent()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60021BA")]
-	[Address(RVA = "0x4CBA3C0", Offset = "0x4CBA3C0", VA = "0x4CBA3C0")]
+	[Address(RVA = "0x4FE1CF0", Offset = "0x4FE1CF0", VA = "0x4FE1CF0")]
 	private void DefaultBindHeaderContent(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x60021BB")]
-	[Address(RVA = "0x4CB9970", Offset = "0x4CB9970", VA = "0x4CB9970")]
+	[Address(RVA = "0x4FE12A0", Offset = "0x4FE12A0", VA = "0x4FE12A0")]
 	private void UpdateHeaderTemplate()
 	{
 	}
 
 	[Token(Token = "0x60021BC")]
-	[Address(RVA = "0x4CB9C00", Offset = "0x4CB9C00", VA = "0x4CB9C00")]
+	[Address(RVA = "0x4FE1530", Offset = "0x4FE1530", VA = "0x4FE1530")]
 	private void UpdateGeometryFromColumn()
 	{
 	}

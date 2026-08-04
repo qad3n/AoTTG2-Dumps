@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ParamsArray
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System;
@@ -37,7 +44,7 @@ internal readonly struct ParamsArray
 	public int Length
 	{
 		[Token(Token = "0x600094C")]
-		[Address(RVA = "0x4FE3B00", Offset = "0x4FE3B00", VA = "0x4FE3B00")]
+		[Address(RVA = "0x3CC9620", Offset = "0x3CC9620", VA = "0x3CC9620")]
 		get
 		{
 			return default(int);
@@ -48,7 +55,7 @@ internal readonly struct ParamsArray
 	public object this[int index]
 	{
 		[Token(Token = "0x600094D")]
-		[Address(RVA = "0x4FE3B20", Offset = "0x4FE3B20", VA = "0x4FE3B20")]
+		[Address(RVA = "0x3CC9640", Offset = "0x3CC9640", VA = "0x3CC9640")]
 		get
 		{
 			return null;
@@ -56,31 +63,31 @@ internal readonly struct ParamsArray
 	}
 
 	[Token(Token = "0x6000948")]
-	[Address(RVA = "0x4FE3870", Offset = "0x4FE3870", VA = "0x4FE3870")]
+	[Address(RVA = "0x3CC9390", Offset = "0x3CC9390", VA = "0x3CC9390")]
 	public ParamsArray(object arg0)
 	{
 	}
 
 	[Token(Token = "0x6000949")]
-	[Address(RVA = "0x4FE3910", Offset = "0x4FE3910", VA = "0x4FE3910")]
+	[Address(RVA = "0x3CC9430", Offset = "0x3CC9430", VA = "0x3CC9430")]
 	public ParamsArray(object arg0, object arg1)
 	{
 	}
 
 	[Token(Token = "0x600094A")]
-	[Address(RVA = "0x4FE39B0", Offset = "0x4FE39B0", VA = "0x4FE39B0")]
+	[Address(RVA = "0x3CC94D0", Offset = "0x3CC94D0", VA = "0x3CC94D0")]
 	public ParamsArray(object arg0, object arg1, object arg2)
 	{
 	}
 
 	[Token(Token = "0x600094B")]
-	[Address(RVA = "0x4FE3A50", Offset = "0x4FE3A50", VA = "0x4FE3A50")]
+	[Address(RVA = "0x3CC9570", Offset = "0x3CC9570", VA = "0x3CC9570")]
 	public ParamsArray(object[] args)
 	{
 	}
 
 	[Token(Token = "0x600094E")]
-	[Address(RVA = "0x4FE3BB0", Offset = "0x4FE3BB0", VA = "0x4FE3BB0")]
+	[Address(RVA = "0x3CC96D0", Offset = "0x3CC96D0", VA = "0x3CC96D0")]
 	private object GetAtSlow(int index)
 	{
 		return null;

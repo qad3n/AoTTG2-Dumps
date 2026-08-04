@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.Profiling.ProfilerRecorderSample
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
@@ -25,7 +32,7 @@ public struct ProfilerRecorderSample
 	public long Count
 	{
 		[Token(Token = "0x600003A")]
-		[Address(RVA = "0x4A84B10", Offset = "0x4A84B10", VA = "0x4A84B10")]
+		[Address(RVA = "0x4DAC330", Offset = "0x4DAC330", VA = "0x4DAC330")]
 		get
 		{
 			return default(long);

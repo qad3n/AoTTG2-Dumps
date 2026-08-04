@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XmlSchemaSet
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -90,7 +97,7 @@ public class XmlSchemaSet
 	internal object InternalSyncObject
 	{
 		[Token(Token = "0x600171F")]
-		[Address(RVA = "0x43EAC20", Offset = "0x43EAC20", VA = "0x43EAC20")]
+		[Address(RVA = "0x4728380", Offset = "0x4728380", VA = "0x4728380")]
 		get
 		{
 			return null;
@@ -101,7 +108,7 @@ public class XmlSchemaSet
 	public bool IsCompiled
 	{
 		[Token(Token = "0x6001724")]
-		[Address(RVA = "0x43EB150", Offset = "0x43EB150", VA = "0x43EB150")]
+		[Address(RVA = "0x47288B0", Offset = "0x47288B0", VA = "0x47288B0")]
 		get
 		{
 			return default(bool);
@@ -112,7 +119,7 @@ public class XmlSchemaSet
 	public XmlResolver XmlResolver
 	{
 		[Token(Token = "0x6001725")]
-		[Address(RVA = "0x43EB160", Offset = "0x43EB160", VA = "0x43EB160")]
+		[Address(RVA = "0x47288C0", Offset = "0x47288C0", VA = "0x47288C0")]
 		set
 		{
 		}
@@ -122,13 +129,13 @@ public class XmlSchemaSet
 	public XmlSchemaCompilationSettings CompilationSettings
 	{
 		[Token(Token = "0x6001726")]
-		[Address(RVA = "0x43EB180", Offset = "0x43EB180", VA = "0x43EB180")]
+		[Address(RVA = "0x47288E0", Offset = "0x47288E0", VA = "0x47288E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001727")]
-		[Address(RVA = "0x43EB190", Offset = "0x43EB190", VA = "0x43EB190")]
+		[Address(RVA = "0x47288F0", Offset = "0x47288F0", VA = "0x47288F0")]
 		set
 		{
 		}
@@ -138,7 +145,7 @@ public class XmlSchemaSet
 	public int Count
 	{
 		[Token(Token = "0x6001728")]
-		[Address(RVA = "0x43EB1A0", Offset = "0x43EB1A0", VA = "0x43EB1A0")]
+		[Address(RVA = "0x4728900", Offset = "0x4728900", VA = "0x4728900")]
 		get
 		{
 			return default(int);
@@ -149,7 +156,7 @@ public class XmlSchemaSet
 	public XmlSchemaObjectTable GlobalElements
 	{
 		[Token(Token = "0x6001729")]
-		[Address(RVA = "0x43EB1D0", Offset = "0x43EB1D0", VA = "0x43EB1D0")]
+		[Address(RVA = "0x4728930", Offset = "0x4728930", VA = "0x4728930")]
 		get
 		{
 			return null;
@@ -160,7 +167,7 @@ public class XmlSchemaSet
 	public XmlSchemaObjectTable GlobalAttributes
 	{
 		[Token(Token = "0x600172A")]
-		[Address(RVA = "0x43EB250", Offset = "0x43EB250", VA = "0x43EB250")]
+		[Address(RVA = "0x47289B0", Offset = "0x47289B0", VA = "0x47289B0")]
 		get
 		{
 			return null;
@@ -171,7 +178,7 @@ public class XmlSchemaSet
 	public XmlSchemaObjectTable GlobalTypes
 	{
 		[Token(Token = "0x600172B")]
-		[Address(RVA = "0x43EB2D0", Offset = "0x43EB2D0", VA = "0x43EB2D0")]
+		[Address(RVA = "0x4728A30", Offset = "0x4728A30", VA = "0x4728A30")]
 		get
 		{
 			return null;
@@ -182,7 +189,7 @@ public class XmlSchemaSet
 	internal XmlSchemaObjectTable SubstitutionGroups
 	{
 		[Token(Token = "0x600172C")]
-		[Address(RVA = "0x43EB350", Offset = "0x43EB350", VA = "0x43EB350")]
+		[Address(RVA = "0x4728AB0", Offset = "0x4728AB0", VA = "0x4728AB0")]
 		get
 		{
 			return null;
@@ -193,7 +200,7 @@ public class XmlSchemaSet
 	internal Hashtable SchemaLocations
 	{
 		[Token(Token = "0x600172D")]
-		[Address(RVA = "0x43EB3D0", Offset = "0x43EB3D0", VA = "0x43EB3D0")]
+		[Address(RVA = "0x4728B30", Offset = "0x4728B30", VA = "0x4728B30")]
 		get
 		{
 			return null;
@@ -204,7 +211,7 @@ public class XmlSchemaSet
 	internal XmlSchemaObjectTable TypeExtensions
 	{
 		[Token(Token = "0x600172E")]
-		[Address(RVA = "0x43EB3E0", Offset = "0x43EB3E0", VA = "0x43EB3E0")]
+		[Address(RVA = "0x4728B40", Offset = "0x4728B40", VA = "0x4728B40")]
 		get
 		{
 			return null;
@@ -215,7 +222,7 @@ public class XmlSchemaSet
 	internal SchemaInfo CompiledInfo
 	{
 		[Token(Token = "0x6001743")]
-		[Address(RVA = "0x43F4D80", Offset = "0x43F4D80", VA = "0x43F4D80")]
+		[Address(RVA = "0x47324E0", Offset = "0x47324E0", VA = "0x47324E0")]
 		get
 		{
 			return null;
@@ -226,7 +233,7 @@ public class XmlSchemaSet
 	internal XmlReaderSettings ReaderSettings
 	{
 		[Token(Token = "0x6001744")]
-		[Address(RVA = "0x43F4D90", Offset = "0x43F4D90", VA = "0x43F4D90")]
+		[Address(RVA = "0x47324F0", Offset = "0x47324F0", VA = "0x47324F0")]
 		get
 		{
 			return null;
@@ -237,7 +244,7 @@ public class XmlSchemaSet
 	internal SortedList SortedSchemas
 	{
 		[Token(Token = "0x600174B")]
-		[Address(RVA = "0x43F4F10", Offset = "0x43F4F10", VA = "0x43F4F10")]
+		[Address(RVA = "0x4732670", Offset = "0x4732670", VA = "0x4732670")]
 		get
 		{
 			return null;
@@ -248,235 +255,235 @@ public class XmlSchemaSet
 	public event ValidationEventHandler ValidationEventHandler
 	{
 		[Token(Token = "0x6001722")]
-		[Address(RVA = "0x43EAFF0", Offset = "0x43EAFF0", VA = "0x43EAFF0")]
+		[Address(RVA = "0x4728750", Offset = "0x4728750", VA = "0x4728750")]
 		add
 		{
 		}
 		[Token(Token = "0x6001723")]
-		[Address(RVA = "0x43EB0C0", Offset = "0x43EB0C0", VA = "0x43EB0C0")]
+		[Address(RVA = "0x4728820", Offset = "0x4728820", VA = "0x4728820")]
 		remove
 		{
 		}
 	}
 
 	[Token(Token = "0x6001720")]
-	[Address(RVA = "0x43EACA0", Offset = "0x43EACA0", VA = "0x43EACA0")]
+	[Address(RVA = "0x4728400", Offset = "0x4728400", VA = "0x4728400")]
 	public XmlSchemaSet()
 	{
 	}
 
 	[Token(Token = "0x6001721")]
-	[Address(RVA = "0x43EACF0", Offset = "0x43EACF0", VA = "0x43EACF0")]
+	[Address(RVA = "0x4728450", Offset = "0x4728450", VA = "0x4728450")]
 	public XmlSchemaSet(XmlNameTable nameTable)
 	{
 	}
 
 	[Token(Token = "0x600172F")]
-	[Address(RVA = "0x43EB460", Offset = "0x43EB460", VA = "0x43EB460")]
+	[Address(RVA = "0x4728BC0", Offset = "0x4728BC0", VA = "0x4728BC0")]
 	public void Add(XmlSchemaSet schemas)
 	{
 	}
 
 	[Token(Token = "0x6001730")]
-	[Address(RVA = "0x43EE860", Offset = "0x43EE860", VA = "0x43EE860")]
+	[Address(RVA = "0x472BFC0", Offset = "0x472BFC0", VA = "0x472BFC0")]
 	public XmlSchema Add(XmlSchema schema)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001731")]
-	[Address(RVA = "0x43EEAA0", Offset = "0x43EEAA0", VA = "0x43EEAA0")]
+	[Address(RVA = "0x472C200", Offset = "0x472C200", VA = "0x472C200")]
 	public bool RemoveRecursive(XmlSchema schemaToRemove)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001732")]
-	[Address(RVA = "0x43EFCE0", Offset = "0x43EFCE0", VA = "0x43EFCE0")]
+	[Address(RVA = "0x472D440", Offset = "0x472D440", VA = "0x472D440")]
 	public bool Contains(string targetNamespace)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001733")]
-	[Address(RVA = "0x43EFD30", Offset = "0x43EFD30", VA = "0x43EFD30")]
+	[Address(RVA = "0x472D490", Offset = "0x472D490", VA = "0x472D490")]
 	public void Compile()
 	{
 	}
 
 	[Token(Token = "0x6001734")]
-	[Address(RVA = "0x43F0720", Offset = "0x43F0720", VA = "0x43F0720")]
+	[Address(RVA = "0x472DE80", Offset = "0x472DE80", VA = "0x472DE80")]
 	public XmlSchema Reprocess(XmlSchema schema)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001735")]
-	[Address(RVA = "0x43F2CE0", Offset = "0x43F2CE0", VA = "0x43F2CE0")]
+	[Address(RVA = "0x4730440", Offset = "0x4730440", VA = "0x4730440")]
 	public void CopyTo(XmlSchema[] schemas, int index)
 	{
 	}
 
 	[Token(Token = "0x6001736")]
-	[Address(RVA = "0x43F2E50", Offset = "0x43F2E50", VA = "0x43F2E50")]
+	[Address(RVA = "0x47305B0", Offset = "0x47305B0", VA = "0x47305B0")]
 	public ICollection Schemas()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001737")]
-	[Address(RVA = "0x43F2950", Offset = "0x43F2950", VA = "0x43F2950")]
+	[Address(RVA = "0x47300B0", Offset = "0x47300B0", VA = "0x47300B0")]
 	public ICollection Schemas(string targetNamespace)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001738")]
-	[Address(RVA = "0x43EE800", Offset = "0x43EE800", VA = "0x43EE800")]
+	[Address(RVA = "0x472BF60", Offset = "0x472BF60", VA = "0x472BF60")]
 	private XmlSchema Add(string targetNamespace, XmlSchema schema)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001739")]
-	[Address(RVA = "0x43F3330", Offset = "0x43F3330", VA = "0x43F3330")]
+	[Address(RVA = "0x4730A90", Offset = "0x4730A90", VA = "0x4730A90")]
 	internal void Add(string targetNamespace, XmlReader reader, Hashtable validatedNamespaces)
 	{
 	}
 
 	[Token(Token = "0x600173A")]
-	[Address(RVA = "0x43EE520", Offset = "0x43EE520", VA = "0x43EE520")]
+	[Address(RVA = "0x472BC80", Offset = "0x472BC80", VA = "0x472BC80")]
 	internal XmlSchema FindSchemaByNSAndUrl(Uri schemaUri, string ns, DictionaryEntry[] locationsTable)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600173B")]
-	[Address(RVA = "0x43F2E80", Offset = "0x43F2E80", VA = "0x43F2E80")]
+	[Address(RVA = "0x47305E0", Offset = "0x47305E0", VA = "0x47305E0")]
 	private void AddSchemaToSet(XmlSchema schema)
 	{
 	}
 
 	[Token(Token = "0x600173C")]
-	[Address(RVA = "0x43F3C40", Offset = "0x43F3C40", VA = "0x43F3C40")]
+	[Address(RVA = "0x47313A0", Offset = "0x47313A0", VA = "0x47313A0")]
 	private void ProcessNewSubstitutionGroups(XmlSchemaObjectTable substitutionGroupsTable, bool resolve)
 	{
 	}
 
 	[Token(Token = "0x600173D")]
-	[Address(RVA = "0x43F42E0", Offset = "0x43F42E0", VA = "0x43F42E0")]
+	[Address(RVA = "0x4731A40", Offset = "0x4731A40", VA = "0x4731A40")]
 	private void ResolveSubstitutionGroup(XmlSchemaSubstitutionGroup substitutionGroup, XmlSchemaObjectTable substTable)
 	{
 	}
 
 	[Token(Token = "0x600173E")]
-	[Address(RVA = "0x43EF890", Offset = "0x43EF890", VA = "0x43EF890")]
+	[Address(RVA = "0x472CFF0", Offset = "0x472CFF0", VA = "0x472CFF0")]
 	internal XmlSchema Remove(XmlSchema schema, bool forceCompile)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600173F")]
-	[Address(RVA = "0x43F0500", Offset = "0x43F0500", VA = "0x43F0500")]
+	[Address(RVA = "0x472DC60", Offset = "0x472DC60", VA = "0x472DC60")]
 	private void ClearTables()
 	{
 	}
 
 	[Token(Token = "0x6001740")]
-	[Address(RVA = "0x43F2BA0", Offset = "0x43F2BA0", VA = "0x43F2BA0")]
+	[Address(RVA = "0x4730300", Offset = "0x4730300", VA = "0x4730300")]
 	internal bool PreprocessSchema(ref XmlSchema schema, string targetNamespace)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001741")]
-	[Address(RVA = "0x43F3A70", Offset = "0x43F3A70", VA = "0x43F3A70")]
+	[Address(RVA = "0x47311D0", Offset = "0x47311D0", VA = "0x47311D0")]
 	internal XmlSchema ParseSchema(string targetNamespace, XmlReader reader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001742")]
-	[Address(RVA = "0x43EC040", Offset = "0x43EC040", VA = "0x43EC040")]
+	[Address(RVA = "0x47297A0", Offset = "0x47297A0", VA = "0x47297A0")]
 	internal void CopyFromCompiledSet(XmlSchemaSet otherSet)
 	{
 	}
 
 	[Token(Token = "0x6001745")]
-	[Address(RVA = "0x43F4DA0", Offset = "0x43F4DA0", VA = "0x43F4DA0")]
+	[Address(RVA = "0x4732500", Offset = "0x4732500", VA = "0x4732500")]
 	internal XmlResolver GetResolver()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001746")]
-	[Address(RVA = "0x43F4DC0", Offset = "0x43F4DC0", VA = "0x43F4DC0")]
+	[Address(RVA = "0x4732520", Offset = "0x4732520", VA = "0x4732520")]
 	internal ValidationEventHandler GetEventHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001747")]
-	[Address(RVA = "0x43F4B70", Offset = "0x43F4B70", VA = "0x43F4B70")]
+	[Address(RVA = "0x47322D0", Offset = "0x47322D0", VA = "0x47322D0")]
 	internal SchemaNames GetSchemaNames(XmlNameTable nt)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001748")]
-	[Address(RVA = "0x43F3710", Offset = "0x43F3710", VA = "0x43F3710")]
+	[Address(RVA = "0x4730E70", Offset = "0x4730E70", VA = "0x4730E70")]
 	internal bool IsSchemaLoaded(Uri schemaUri, string targetNamespace, out XmlSchema schema)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001749")]
-	[Address(RVA = "0x43F4DD0", Offset = "0x43F4DD0", VA = "0x43F4DD0")]
+	[Address(RVA = "0x4732530", Offset = "0x4732530", VA = "0x4732530")]
 	internal bool GetSchemaByUri(Uri schemaUri, out XmlSchema schema)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600174A")]
-	[Address(RVA = "0x43EF7D0", Offset = "0x43EF7D0", VA = "0x43EF7D0")]
+	[Address(RVA = "0x472CF30", Offset = "0x472CF30", VA = "0x472CF30")]
 	internal string GetTargetNamespace(XmlSchema schema)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600174C")]
-	[Address(RVA = "0x43F2220", Offset = "0x43F2220", VA = "0x43F2220")]
+	[Address(RVA = "0x472F980", Offset = "0x472F980", VA = "0x472F980")]
 	private void RemoveSchemaFromCaches(XmlSchema schema)
 	{
 	}
 
 	[Token(Token = "0x600174D")]
-	[Address(RVA = "0x43F1310", Offset = "0x43F1310", VA = "0x43F1310")]
+	[Address(RVA = "0x472EA70", Offset = "0x472EA70", VA = "0x472EA70")]
 	private void RemoveSchemaFromGlobalTables(XmlSchema schema)
 	{
 	}
 
 	[Token(Token = "0x600174E")]
-	[Address(RVA = "0x43F4790", Offset = "0x43F4790", VA = "0x43F4790")]
+	[Address(RVA = "0x4731EF0", Offset = "0x4731EF0", VA = "0x4731EF0")]
 	private bool AddToTable(XmlSchemaObjectTable table, XmlQualifiedName qname, XmlSchemaObject item)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600174F")]
-	[Address(RVA = "0x43F4C10", Offset = "0x43F4C10", VA = "0x43F4C10")]
+	[Address(RVA = "0x4732370", Offset = "0x4732370", VA = "0x4732370")]
 	private void VerifyTables()
 	{
 	}
 
 	[Token(Token = "0x6001750")]
-	[Address(RVA = "0x43F4F20", Offset = "0x43F4F20", VA = "0x43F4F20")]
+	[Address(RVA = "0x4732680", Offset = "0x4732680", VA = "0x4732680")]
 	private void InternalValidationCallback(object sender, ValidationEventArgs e)
 	{
 	}
 
 	[Token(Token = "0x6001751")]
-	[Address(RVA = "0x43EF800", Offset = "0x43EF800", VA = "0x43EF800")]
+	[Address(RVA = "0x472CF60", Offset = "0x472CF60", VA = "0x472CF60")]
 	private void SendValidationEvent(XmlSchemaException e, XmlSeverityType severity)
 	{
 	}

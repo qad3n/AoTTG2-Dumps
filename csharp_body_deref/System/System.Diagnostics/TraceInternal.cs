@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Diagnostics.TraceInternal
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Diagnostics;
@@ -37,7 +44,7 @@ internal static class TraceInternal
 	public static TraceListenerCollection Listeners
 	{
 		[Token(Token = "0x600047A")]
-		[Address(RVA = "0x45FF6E0", Offset = "0x45FF6E0", VA = "0x45FF6E0")]
+		[Address(RVA = "0x49247E0", Offset = "0x49247E0", VA = "0x49247E0")]
 		get
 		{
 			return null;
@@ -48,7 +55,7 @@ internal static class TraceInternal
 	public static bool AutoFlush
 	{
 		[Token(Token = "0x600047B")]
-		[Address(RVA = "0x45FFAE0", Offset = "0x45FFAE0", VA = "0x45FFAE0")]
+		[Address(RVA = "0x4924BE0", Offset = "0x4924BE0", VA = "0x4924BE0")]
 		get
 		{
 			return default(bool);
@@ -59,7 +66,7 @@ internal static class TraceInternal
 	public static bool UseGlobalLock
 	{
 		[Token(Token = "0x600047C")]
-		[Address(RVA = "0x46006A0", Offset = "0x46006A0", VA = "0x46006A0")]
+		[Address(RVA = "0x49257A0", Offset = "0x49257A0", VA = "0x49257A0")]
 		get
 		{
 			return default(bool);
@@ -70,7 +77,7 @@ internal static class TraceInternal
 	public static int IndentLevel
 	{
 		[Token(Token = "0x600047D")]
-		[Address(RVA = "0x46006F0", Offset = "0x46006F0", VA = "0x46006F0")]
+		[Address(RVA = "0x49257F0", Offset = "0x49257F0", VA = "0x49257F0")]
 		get
 		{
 			return default(int);
@@ -81,7 +88,7 @@ internal static class TraceInternal
 	public static int IndentSize
 	{
 		[Token(Token = "0x600047E")]
-		[Address(RVA = "0x4600750", Offset = "0x4600750", VA = "0x4600750")]
+		[Address(RVA = "0x4925850", Offset = "0x4925850", VA = "0x4925850")]
 		get
 		{
 			return default(int);
@@ -89,13 +96,13 @@ internal static class TraceInternal
 	}
 
 	[Token(Token = "0x600047F")]
-	[Address(RVA = "0x46003C0", Offset = "0x46003C0", VA = "0x46003C0")]
+	[Address(RVA = "0x49254C0", Offset = "0x49254C0", VA = "0x49254C0")]
 	private static void InitializeSettings()
 	{
 	}
 
 	[Token(Token = "0x6000480")]
-	[Address(RVA = "0x45FDFF0", Offset = "0x45FDFF0", VA = "0x45FDFF0")]
+	[Address(RVA = "0x49230F0", Offset = "0x49230F0", VA = "0x49230F0")]
 	public static void WriteLine(string message)
 	{
 	}

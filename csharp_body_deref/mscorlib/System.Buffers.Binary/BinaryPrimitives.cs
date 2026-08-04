@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Buffers.Binary.BinaryPrimitives
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -8,7 +15,7 @@ public static class BinaryPrimitives
 {
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600336A")]
-	[Address(RVA = "0x4FA9A40", Offset = "0x4FA9A40", VA = "0x4FA9A40")]
+	[Address(RVA = "0x3C8F560", Offset = "0x3C8F560", VA = "0x3C8F560")]
 	public static int ReverseEndianness(int value)
 	{
 		return default(int);
@@ -16,7 +23,7 @@ public static class BinaryPrimitives
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600336B")]
-	[Address(RVA = "0x4FA9A50", Offset = "0x4FA9A50", VA = "0x4FA9A50")]
+	[Address(RVA = "0x3C8F570", Offset = "0x3C8F570", VA = "0x3C8F570")]
 	[CLSCompliant(false)]
 	public static ushort ReverseEndianness(ushort value)
 	{
@@ -25,7 +32,7 @@ public static class BinaryPrimitives
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600336C")]
-	[Address(RVA = "0x4FA9A60", Offset = "0x4FA9A60", VA = "0x4FA9A60")]
+	[Address(RVA = "0x3C8F580", Offset = "0x3C8F580", VA = "0x3C8F580")]
 	[CLSCompliant(false)]
 	public static uint ReverseEndianness(uint value)
 	{

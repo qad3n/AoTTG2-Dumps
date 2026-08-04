@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.BaseReorderableDragAndDropController
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -19,14 +26,14 @@ internal abstract class BaseReorderableDragAndDropController : ICollectionDragAn
 	public virtual bool enableReordering
 	{
 		[Token(Token = "0x6000919")]
-		[Address(RVA = "0x4CF3310", Offset = "0x4CF3310", VA = "0x4CF3310", Slot = "13")]
+		[Address(RVA = "0x501AC40", Offset = "0x501AC40", VA = "0x501AC40", Slot = "13")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600091A")]
-		[Address(RVA = "0x4CF3320", Offset = "0x4CF3320", VA = "0x4CF3320", Slot = "14")]
+		[Address(RVA = "0x501AC50", Offset = "0x501AC50", VA = "0x501AC50", Slot = "14")]
 		[CompilerGenerated]
 		set
 		{
@@ -34,34 +41,34 @@ internal abstract class BaseReorderableDragAndDropController : ICollectionDragAn
 	}
 
 	[Token(Token = "0x6000917")]
-	[Address(RVA = "0x4CF3270", Offset = "0x4CF3270", VA = "0x4CF3270", Slot = "10")]
+	[Address(RVA = "0x501ABA0", Offset = "0x501ABA0", VA = "0x501ABA0", Slot = "10")]
 	public IEnumerable<int> GetSortedSelectedIds()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000918")]
-	[Address(RVA = "0x4CF3280", Offset = "0x4CF3280", VA = "0x4CF3280")]
+	[Address(RVA = "0x501ABB0", Offset = "0x501ABB0", VA = "0x501ABB0")]
 	protected BaseReorderableDragAndDropController(BaseVerticalCollectionView view)
 	{
 	}
 
 	[Token(Token = "0x600091B")]
-	[Address(RVA = "0x4CF3330", Offset = "0x4CF3330", VA = "0x4CF3330", Slot = "15")]
+	[Address(RVA = "0x501AC60", Offset = "0x501AC60", VA = "0x501AC60", Slot = "15")]
 	public virtual bool CanStartDrag(IEnumerable<int> itemIds)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600091C")]
-	[Address(RVA = "0x4CF3350", Offset = "0x4CF3350", VA = "0x4CF3350", Slot = "16")]
+	[Address(RVA = "0x501AC80", Offset = "0x501AC80", VA = "0x501AC80", Slot = "16")]
 	public virtual StartDragArgs SetupDragAndDrop(IEnumerable<int> itemIds, bool skipText = false)
 	{
 		return default(StartDragArgs);
 	}
 
 	[Token(Token = "0x600091D")]
-	[Address(RVA = "0x4CF3E40", Offset = "0x4CF3E40", VA = "0x4CF3E40", Slot = "17")]
+	[Address(RVA = "0x501B770", Offset = "0x501B770", VA = "0x501B770", Slot = "17")]
 	protected virtual int CompareId(int id1, int id2)
 	{
 		return default(int);
@@ -74,13 +81,13 @@ internal abstract class BaseReorderableDragAndDropController : ICollectionDragAn
 	public abstract void OnDrop(IListDragAndDropArgs args);
 
 	[Token(Token = "0x6000920")]
-	[Address(RVA = "0x4CF3E60", Offset = "0x4CF3E60", VA = "0x4CF3E60", Slot = "20")]
+	[Address(RVA = "0x501B790", Offset = "0x501B790", VA = "0x501B790", Slot = "20")]
 	public virtual void DragCleanup()
 	{
 	}
 
 	[Token(Token = "0x6000921")]
-	[Address(RVA = "0x4CF3E70", Offset = "0x4CF3E70", VA = "0x4CF3E70", Slot = "21")]
+	[Address(RVA = "0x501B7A0", Offset = "0x501B7A0", VA = "0x501B7A0", Slot = "21")]
 	public virtual void HandleAutoExpand(ReusableCollectionItem item, Vector2 pointerPosition)
 	{
 	}

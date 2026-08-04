@@ -1,46 +1,53 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Settings.IntSetting
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Settings/IntSetting.c
+// Prior real C# source (older reference): Assets/Scripts/Settings/SettingTypes/IntSetting.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using SimpleJSONFixed;
 
 namespace Settings;
 
-[Token(Token = "0x20000B5")]
+[Token(Token = "0x20000B7")]
 internal class IntSetting : TypedSetting<int>
 {
-	[Token(Token = "0x4000478")]
+	[Token(Token = "0x4000492")]
 	[FieldOffset(Offset = "0x18")]
 	public int MinValue;
 
-	[Token(Token = "0x4000479")]
+	[Token(Token = "0x4000493")]
 	[FieldOffset(Offset = "0x1C")]
 	public int MaxValue;
 
-	[Token(Token = "0x60003A2")]
-	[Address(RVA = "0x3E0ECF0", Offset = "0x3E0ECF0", VA = "0x3E0ECF0")]
+	[Token(Token = "0x60003A8")]
+	[Address(RVA = "0x40FD800", Offset = "0x40FD800", VA = "0x40FD800")]
 	public IntSetting()
 	{
 	}
 
-	[Token(Token = "0x60003A3")]
-	[Address(RVA = "0x3E086C0", Offset = "0x3E086C0", VA = "0x3E086C0")]
+	[Token(Token = "0x60003A9")]
+	[Address(RVA = "0x40F39A0", Offset = "0x40F39A0", VA = "0x40F39A0")]
 	public IntSetting(int defaultValue, int minValue = int.MinValue, int maxValue = int.MaxValue)
 	{
 	}
 
-	[Token(Token = "0x60003A4")]
-	[Address(RVA = "0x3E0ED40", Offset = "0x3E0ED40", VA = "0x3E0ED40", Slot = "6")]
+	[Token(Token = "0x60003AA")]
+	[Address(RVA = "0x4101100", Offset = "0x4101100", VA = "0x4101100", Slot = "6")]
 	public override void DeserializeFromJsonObject(JSONNode json)
 	{
 	}
 
-	[Token(Token = "0x60003A5")]
-	[Address(RVA = "0x3E0EDA0", Offset = "0x3E0EDA0", VA = "0x3E0EDA0", Slot = "5")]
+	[Token(Token = "0x60003AB")]
+	[Address(RVA = "0x4101160", Offset = "0x4101160", VA = "0x4101160", Slot = "5")]
 	public override JSONNode SerializeToJsonObject()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003A6")]
-	[Address(RVA = "0x3E0EE10", Offset = "0x3E0EE10", VA = "0x3E0EE10", Slot = "10")]
+	[Token(Token = "0x60003AC")]
+	[Address(RVA = "0x41011D0", Offset = "0x41011D0", VA = "0x41011D0", Slot = "10")]
 	protected override int SanitizeValue(int value)
 	{
 		return default(int);

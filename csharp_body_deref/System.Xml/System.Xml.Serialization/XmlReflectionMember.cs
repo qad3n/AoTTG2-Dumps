@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlReflectionMember
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Serialization;
@@ -29,7 +36,7 @@ public class XmlReflectionMember
 	public bool IsReturnValue
 	{
 		[Token(Token = "0x6000D84")]
-		[Address(RVA = "0x44E0E30", Offset = "0x44E0E30", VA = "0x44E0E30")]
+		[Address(RVA = "0x481E590", Offset = "0x481E590", VA = "0x481E590")]
 		get
 		{
 			return default(bool);
@@ -40,7 +47,7 @@ public class XmlReflectionMember
 	public string MemberName
 	{
 		[Token(Token = "0x6000D85")]
-		[Address(RVA = "0x44E0E40", Offset = "0x44E0E40", VA = "0x44E0E40")]
+		[Address(RVA = "0x481E5A0", Offset = "0x481E5A0", VA = "0x481E5A0")]
 		get
 		{
 			return null;
@@ -51,7 +58,7 @@ public class XmlReflectionMember
 	public Type MemberType
 	{
 		[Token(Token = "0x6000D86")]
-		[Address(RVA = "0x44E0E50", Offset = "0x44E0E50", VA = "0x44E0E50")]
+		[Address(RVA = "0x481E5B0", Offset = "0x481E5B0", VA = "0x481E5B0")]
 		get
 		{
 			return null;
@@ -62,7 +69,7 @@ public class XmlReflectionMember
 	public XmlAttributes XmlAttributes
 	{
 		[Token(Token = "0x6000D87")]
-		[Address(RVA = "0x44DD400", Offset = "0x44DD400", VA = "0x44DD400")]
+		[Address(RVA = "0x481AB60", Offset = "0x481AB60", VA = "0x481AB60")]
 		get
 		{
 			return null;
@@ -73,20 +80,20 @@ public class XmlReflectionMember
 	internal Type DeclaringType
 	{
 		[Token(Token = "0x6000D88")]
-		[Address(RVA = "0x44E0E60", Offset = "0x44E0E60", VA = "0x44E0E60")]
+		[Address(RVA = "0x481E5C0", Offset = "0x481E5C0", VA = "0x481E5C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000D89")]
-		[Address(RVA = "0x44E0E70", Offset = "0x44E0E70", VA = "0x44E0E70")]
+		[Address(RVA = "0x481E5D0", Offset = "0x481E5D0", VA = "0x481E5D0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000D83")]
-	[Address(RVA = "0x44DE2A0", Offset = "0x44DE2A0", VA = "0x44DE2A0")]
+	[Address(RVA = "0x481BA00", Offset = "0x481BA00", VA = "0x481BA00")]
 	internal XmlReflectionMember(string name, Type type, XmlAttributes attributes)
 	{
 	}

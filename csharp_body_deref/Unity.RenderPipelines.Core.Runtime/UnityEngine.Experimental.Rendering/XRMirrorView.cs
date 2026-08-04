@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Experimental.Rendering.XRMirrorView
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Rendering;
 using UnityEngine.XR;
@@ -56,7 +63,7 @@ internal static class XRMirrorView
 	private static readonly int k_ColorTransform;
 
 	[Token(Token = "0x60002D8")]
-	[Address(RVA = "0x484FE70", Offset = "0x484FE70", VA = "0x484FE70")]
+	[Address(RVA = "0x4B74F60", Offset = "0x4B74F60", VA = "0x4B74F60")]
 	internal static void RenderMirrorView(CommandBuffer cmd, Camera camera, Material mat, XRDisplaySubsystem display)
 	{
 	}

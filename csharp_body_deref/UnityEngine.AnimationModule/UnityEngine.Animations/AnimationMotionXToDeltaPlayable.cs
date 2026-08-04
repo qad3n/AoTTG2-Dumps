@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Animations.AnimationMotionXToDeltaPlayable
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -21,20 +28,20 @@ internal struct AnimationMotionXToDeltaPlayable : IEquatable<AnimationMotionXToD
 	private static readonly AnimationMotionXToDeltaPlayable m_NullPlayable;
 
 	[Token(Token = "0x60000AD")]
-	[Address(RVA = "0x4A7EF10", Offset = "0x4A7EF10", VA = "0x4A7EF10")]
+	[Address(RVA = "0x4DA6730", Offset = "0x4DA6730", VA = "0x4DA6730")]
 	private AnimationMotionXToDeltaPlayable(PlayableHandle handle)
 	{
 	}
 
 	[Token(Token = "0x60000AE")]
-	[Address(RVA = "0x4A7F000", Offset = "0x4A7F000", VA = "0x4A7F000", Slot = "5")]
+	[Address(RVA = "0x4DA6820", Offset = "0x4DA6820", VA = "0x4DA6820", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
 	[Token(Token = "0x60000AF")]
-	[Address(RVA = "0x4A7F010", Offset = "0x4A7F010", VA = "0x4A7F010", Slot = "4")]
+	[Address(RVA = "0x4DA6830", Offset = "0x4DA6830", VA = "0x4DA6830", Slot = "4")]
 	public bool Equals(AnimationMotionXToDeltaPlayable other)
 	{
 		return default(bool);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.Security.AuthenticatedStream
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.IO;
 using Il2CppDummyDll;
 
@@ -18,7 +25,7 @@ public abstract class AuthenticatedStream : Stream
 	protected Stream InnerStream
 	{
 		[Token(Token = "0x6000DCA")]
-		[Address(RVA = "0x46A5330", Offset = "0x46A5330", VA = "0x46A5330")]
+		[Address(RVA = "0x49CA430", Offset = "0x49CA430", VA = "0x49CA430")]
 		get
 		{
 			return null;
@@ -33,13 +40,13 @@ public abstract class AuthenticatedStream : Stream
 	}
 
 	[Token(Token = "0x6000DC9")]
-	[Address(RVA = "0x46A5190", Offset = "0x46A5190", VA = "0x46A5190")]
+	[Address(RVA = "0x49CA290", Offset = "0x49CA290", VA = "0x49CA290")]
 	protected AuthenticatedStream(Stream innerStream, bool leaveInnerStreamOpen)
 	{
 	}
 
 	[Token(Token = "0x6000DCB")]
-	[Address(RVA = "0x46A5340", Offset = "0x46A5340", VA = "0x46A5340", Slot = "19")]
+	[Address(RVA = "0x49CA440", Offset = "0x49CA440", VA = "0x49CA440", Slot = "19")]
 	protected override void Dispose(bool disposing)
 	{
 	}

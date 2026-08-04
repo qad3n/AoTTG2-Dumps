@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.Text.TextGeneratorUtilities
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.TextCore.LowLevel;
 
@@ -15,42 +22,42 @@ internal static class TextGeneratorUtilities
 	public static readonly Vector2 largeNegativeVector2;
 
 	[Token(Token = "0x6000130")]
-	[Address(RVA = "0x4BB4510", Offset = "0x4BB4510", VA = "0x4BB4510")]
+	[Address(RVA = "0x4EDBE40", Offset = "0x4EDBE40", VA = "0x4EDBE40")]
 	public static bool Approximately(float a, float b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000131")]
-	[Address(RVA = "0x4BB4540", Offset = "0x4BB4540", VA = "0x4BB4540")]
+	[Address(RVA = "0x4EDBE70", Offset = "0x4EDBE70", VA = "0x4EDBE70")]
 	public static Color32 HexCharsToColor(char[] hexChars, int tagCount)
 	{
 		return default(Color32);
 	}
 
 	[Token(Token = "0x6000132")]
-	[Address(RVA = "0x4BB4BE0", Offset = "0x4BB4BE0", VA = "0x4BB4BE0")]
+	[Address(RVA = "0x4EDC510", Offset = "0x4EDC510", VA = "0x4EDC510")]
 	public static Color32 HexCharsToColor(char[] hexChars, int startIndex, int length)
 	{
 		return default(Color32);
 	}
 
 	[Token(Token = "0x6000133")]
-	[Address(RVA = "0x4BB4BC0", Offset = "0x4BB4BC0", VA = "0x4BB4BC0")]
+	[Address(RVA = "0x4EDC4F0", Offset = "0x4EDC4F0", VA = "0x4EDC4F0")]
 	public static uint HexToInt(char hex)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000134")]
-	[Address(RVA = "0x4BB4EA0", Offset = "0x4BB4EA0", VA = "0x4BB4EA0")]
+	[Address(RVA = "0x4EDC7D0", Offset = "0x4EDC7D0", VA = "0x4EDC7D0")]
 	public static float ConvertToFloat(char[] chars, int startIndex, int length)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000135")]
-	[Address(RVA = "0x4BB4F10", Offset = "0x4BB4F10", VA = "0x4BB4F10")]
+	[Address(RVA = "0x4EDC840", Offset = "0x4EDC840", VA = "0x4EDC840")]
 	public static float ConvertToFloat(char[] chars, int startIndex, int length, out int lastIndex)
 	{
 		return default(float);
@@ -67,249 +74,249 @@ internal static class TextGeneratorUtilities
 	}
 
 	[Token(Token = "0x6000138")]
-	[Address(RVA = "0x4BB5080", Offset = "0x4BB5080", VA = "0x4BB5080")]
+	[Address(RVA = "0x4EDC9B0", Offset = "0x4EDC9B0", VA = "0x4EDC9B0")]
 	internal static void InsertOpeningTextStyle(TextStyle style, ref TextProcessingElement[] charBuffer, ref int writeIndex, ref int textStyleStackDepth, ref TextProcessingStack<int>[] textStyleStacks, ref TextGenerationSettings generationSettings)
 	{
 	}
 
 	[Token(Token = "0x6000139")]
-	[Address(RVA = "0x4BB5710", Offset = "0x4BB5710", VA = "0x4BB5710")]
+	[Address(RVA = "0x4EDD040", Offset = "0x4EDD040", VA = "0x4EDD040")]
 	internal static void InsertClosingTextStyle(TextStyle style, ref TextProcessingElement[] charBuffer, ref int writeIndex, ref int textStyleStackDepth, ref TextProcessingStack<int>[] textStyleStacks, ref TextGenerationSettings generationSettings)
 	{
 	}
 
 	[Token(Token = "0x600013A")]
-	[Address(RVA = "0x4BB57F0", Offset = "0x4BB57F0", VA = "0x4BB57F0")]
+	[Address(RVA = "0x4EDD120", Offset = "0x4EDD120", VA = "0x4EDD120")]
 	public static bool ReplaceOpeningStyleTag(ref TextBackingContainer sourceText, int srcIndex, out int srcOffset, ref TextProcessingElement[] charBuffer, ref int writeIndex, ref int textStyleStackDepth, ref TextProcessingStack<int>[] textStyleStacks, ref TextGenerationSettings generationSettings)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600013B")]
-	[Address(RVA = "0x4BB5C00", Offset = "0x4BB5C00", VA = "0x4BB5C00")]
+	[Address(RVA = "0x4EDD530", Offset = "0x4EDD530", VA = "0x4EDD530")]
 	private static bool ReplaceOpeningStyleTag(ref uint[] sourceText, int srcIndex, out int srcOffset, ref TextProcessingElement[] charBuffer, ref int writeIndex, ref int textStyleStackDepth, ref TextProcessingStack<int>[] textStyleStacks, ref TextGenerationSettings generationSettings)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600013C")]
-	[Address(RVA = "0x4BB5E60", Offset = "0x4BB5E60", VA = "0x4BB5E60")]
+	[Address(RVA = "0x4EDD790", Offset = "0x4EDD790", VA = "0x4EDD790")]
 	public static void ReplaceClosingStyleTag(ref TextProcessingElement[] charBuffer, ref int writeIndex, ref int textStyleStackDepth, ref TextProcessingStack<int>[] textStyleStacks, ref TextGenerationSettings generationSettings)
 	{
 	}
 
 	[Token(Token = "0x600013D")]
-	[Address(RVA = "0x4BB5F70", Offset = "0x4BB5F70", VA = "0x4BB5F70")]
+	[Address(RVA = "0x4EDD8A0", Offset = "0x4EDD8A0", VA = "0x4EDD8A0")]
 	internal static void InsertOpeningStyleTag(TextStyle style, ref TextProcessingElement[] charBuffer, ref int writeIndex, ref int textStyleStackDepth, ref TextProcessingStack<int>[] textStyleStacks, ref TextGenerationSettings generationSettings)
 	{
 	}
 
 	[Token(Token = "0x600013E")]
-	[Address(RVA = "0x4BB6040", Offset = "0x4BB6040", VA = "0x4BB6040")]
+	[Address(RVA = "0x4EDD970", Offset = "0x4EDD970", VA = "0x4EDD970")]
 	internal static void InsertClosingStyleTag(ref TextProcessingElement[] charBuffer, ref int writeIndex, ref int textStyleStackDepth, ref TextProcessingStack<int>[] textStyleStacks, ref TextGenerationSettings generationSettings)
 	{
 	}
 
 	[Token(Token = "0x600013F")]
-	[Address(RVA = "0x4BB5170", Offset = "0x4BB5170", VA = "0x4BB5170")]
+	[Address(RVA = "0x4EDCAA0", Offset = "0x4EDCAA0", VA = "0x4EDCAA0")]
 	private static void InsertTextStyleInTextProcessingArray(ref TextProcessingElement[] charBuffer, ref int writeIndex, uint[] styleDefinition, ref int textStyleStackDepth, ref TextProcessingStack<int>[] textStyleStacks, ref TextGenerationSettings generationSettings)
 	{
 	}
 
 	[Token(Token = "0x6000140")]
-	[Address(RVA = "0x4BB5A50", Offset = "0x4BB5A50", VA = "0x4BB5A50")]
+	[Address(RVA = "0x4EDD380", Offset = "0x4EDD380", VA = "0x4EDD380")]
 	public static TextStyle GetStyle(TextGenerationSettings generationSetting, int hashCode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000141")]
-	[Address(RVA = "0x4BB5D30", Offset = "0x4BB5D30", VA = "0x4BB5D30")]
+	[Address(RVA = "0x4EDD660", Offset = "0x4EDD660", VA = "0x4EDD660")]
 	public static int GetStyleHashCode(ref uint[] text, int index, out int closeIndex)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000142")]
-	[Address(RVA = "0x4BB5920", Offset = "0x4BB5920", VA = "0x4BB5920")]
+	[Address(RVA = "0x4EDD250", Offset = "0x4EDD250", VA = "0x4EDD250")]
 	public static int GetStyleHashCode(ref TextBackingContainer text, int index, out int closeIndex)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000143")]
-	[Address(RVA = "0x4BB6120", Offset = "0x4BB6120", VA = "0x4BB6120")]
+	[Address(RVA = "0x4EDDA50", Offset = "0x4EDDA50", VA = "0x4EDDA50")]
 	public static uint GetUTF16(uint[] text, int i)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000144")]
-	[Address(RVA = "0x4BB65C0", Offset = "0x4BB65C0", VA = "0x4BB65C0")]
+	[Address(RVA = "0x4EDDEF0", Offset = "0x4EDDEF0", VA = "0x4EDDEF0")]
 	public static uint GetUTF16(TextBackingContainer text, int i)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000145")]
-	[Address(RVA = "0x4BB6200", Offset = "0x4BB6200", VA = "0x4BB6200")]
+	[Address(RVA = "0x4EDDB30", Offset = "0x4EDDB30", VA = "0x4EDDB30")]
 	public static uint GetUTF32(uint[] text, int i)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000146")]
-	[Address(RVA = "0x4BB66A0", Offset = "0x4BB66A0", VA = "0x4BB66A0")]
+	[Address(RVA = "0x4EDDFD0", Offset = "0x4EDDFD0", VA = "0x4EDDFD0")]
 	public static uint GetUTF32(TextBackingContainer text, int i)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000147")]
-	[Address(RVA = "0x4BB6830", Offset = "0x4BB6830", VA = "0x4BB6830")]
+	[Address(RVA = "0x4EDE160", Offset = "0x4EDE160", VA = "0x4EDE160")]
 	public static void FillCharacterVertexBuffers(int i, bool convertToLinearSpace, TextGenerationSettings generationSettings, TextInfo textInfo)
 	{
 	}
 
 	[Token(Token = "0x6000148")]
-	[Address(RVA = "0x4BB7B50", Offset = "0x4BB7B50", VA = "0x4BB7B50")]
+	[Address(RVA = "0x4EDF480", Offset = "0x4EDF480", VA = "0x4EDF480")]
 	public static void FillSpriteVertexBuffers(int i, bool convertToLinearSpace, TextGenerationSettings generationSettings, TextInfo textInfo)
 	{
 	}
 
 	[Token(Token = "0x6000149")]
-	[Address(RVA = "0x4BB8BB0", Offset = "0x4BB8BB0", VA = "0x4BB8BB0")]
+	[Address(RVA = "0x4EE04E0", Offset = "0x4EE04E0", VA = "0x4EE04E0")]
 	public static void AdjustLineOffset(int startIndex, int endIndex, float offset, TextInfo textInfo)
 	{
 	}
 
 	[Token(Token = "0x600014A")]
-	[Address(RVA = "0x4BB8E00", Offset = "0x4BB8E00", VA = "0x4BB8E00")]
+	[Address(RVA = "0x4EE0730", Offset = "0x4EE0730", VA = "0x4EE0730")]
 	public static void ResizeLineExtents(int size, TextInfo textInfo)
 	{
 	}
 
 	[Token(Token = "0x600014B")]
-	[Address(RVA = "0x4BB9060", Offset = "0x4BB9060", VA = "0x4BB9060")]
+	[Address(RVA = "0x4EE0990", Offset = "0x4EE0990", VA = "0x4EE0990")]
 	public static FontStyles LegacyStyleToNewStyle(FontStyle fontStyle)
 	{
 		return default(FontStyles);
 	}
 
 	[Token(Token = "0x600014C")]
-	[Address(RVA = "0x4BB9070", Offset = "0x4BB9070", VA = "0x4BB9070")]
+	[Address(RVA = "0x4EE09A0", Offset = "0x4EE09A0", VA = "0x4EE09A0")]
 	public static TextAlignment LegacyAlignmentToNewAlignment(TextAnchor anchor)
 	{
 		return default(TextAlignment);
 	}
 
 	[Token(Token = "0x600014D")]
-	[Address(RVA = "0x4BB9090", Offset = "0x4BB9090", VA = "0x4BB9090")]
+	[Address(RVA = "0x4EE09C0", Offset = "0x4EE09C0", VA = "0x4EE09C0")]
 	public static uint ConvertToUTF32(uint highSurrogate, uint lowSurrogate)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x600014E")]
-	[Address(RVA = "0x4BB90A0", Offset = "0x4BB90A0", VA = "0x4BB90A0")]
+	[Address(RVA = "0x4EE09D0", Offset = "0x4EE09D0", VA = "0x4EE09D0")]
 	public static int GetMarkupTagHashCode(TextBackingContainer styleDefinition, int readIndex)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600014F")]
-	[Address(RVA = "0x4BB6390", Offset = "0x4BB6390", VA = "0x4BB6390")]
+	[Address(RVA = "0x4EDDCC0", Offset = "0x4EDDCC0", VA = "0x4EDDCC0")]
 	public static int GetMarkupTagHashCode(uint[] styleDefinition, int readIndex)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000150")]
-	[Address(RVA = "0x4BB6570", Offset = "0x4BB6570", VA = "0x4BB6570")]
+	[Address(RVA = "0x4EDDEA0", Offset = "0x4EDDEA0", VA = "0x4EDDEA0")]
 	public static char ToUpperASCIIFast(char c)
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x6000151")]
-	[Address(RVA = "0x4BB91F0", Offset = "0x4BB91F0", VA = "0x4BB91F0")]
+	[Address(RVA = "0x4EE0B20", Offset = "0x4EE0B20", VA = "0x4EE0B20")]
 	public static uint ToUpperASCIIFast(uint c)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000152")]
-	[Address(RVA = "0x4BB9250", Offset = "0x4BB9250", VA = "0x4BB9250")]
+	[Address(RVA = "0x4EE0B80", Offset = "0x4EE0B80", VA = "0x4EE0B80")]
 	public static char ToUpperFast(char c)
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x6000153")]
-	[Address(RVA = "0x4BB92A0", Offset = "0x4BB92A0", VA = "0x4BB92A0")]
+	[Address(RVA = "0x4EE0BD0", Offset = "0x4EE0BD0", VA = "0x4EE0BD0")]
 	public static int GetAttributeParameters(char[] chars, int startIndex, int length, ref float[] parameters)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000154")]
-	[Address(RVA = "0x4BB9370", Offset = "0x4BB9370", VA = "0x4BB9370")]
+	[Address(RVA = "0x4EE0CA0", Offset = "0x4EE0CA0", VA = "0x4EE0CA0")]
 	public static bool IsBitmapRendering(GlyphRenderMode glyphRenderMode)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000155")]
-	[Address(RVA = "0x4BB93A0", Offset = "0x4BB93A0", VA = "0x4BB93A0")]
+	[Address(RVA = "0x4EE0CD0", Offset = "0x4EE0CD0", VA = "0x4EE0CD0")]
 	public static bool IsBaseGlyph(uint c)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000156")]
-	[Address(RVA = "0x4BB9490", Offset = "0x4BB9490", VA = "0x4BB9490")]
+	[Address(RVA = "0x4EE0DC0", Offset = "0x4EE0DC0", VA = "0x4EE0DC0")]
 	public static Color MinAlpha(this Color c1, Color c2)
 	{
 		return default(Color);
 	}
 
 	[Token(Token = "0x6000157")]
-	[Address(RVA = "0x4BB7960", Offset = "0x4BB7960", VA = "0x4BB7960")]
+	[Address(RVA = "0x4EDF290", Offset = "0x4EDF290", VA = "0x4EDF290")]
 	internal static Color32 GammaToLinear(Color32 c)
 	{
 		return default(Color32);
 	}
 
 	[Token(Token = "0x6000158")]
-	[Address(RVA = "0x4BB94B0", Offset = "0x4BB94B0", VA = "0x4BB94B0")]
+	[Address(RVA = "0x4EE0DE0", Offset = "0x4EE0DE0", VA = "0x4EE0DE0")]
 	private static byte GammaToLinear(byte value)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x6000159")]
-	[Address(RVA = "0x4BB9540", Offset = "0x4BB9540", VA = "0x4BB9540")]
+	[Address(RVA = "0x4EE0E70", Offset = "0x4EE0E70", VA = "0x4EE0E70")]
 	public static bool IsValidUTF16(TextBackingContainer text, int index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600015A")]
-	[Address(RVA = "0x4BB9600", Offset = "0x4BB9600", VA = "0x4BB9600")]
+	[Address(RVA = "0x4EE0F30", Offset = "0x4EE0F30", VA = "0x4EE0F30")]
 	public static bool IsValidUTF32(TextBackingContainer text, int index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600015B")]
-	[Address(RVA = "0x4BB9770", Offset = "0x4BB9770", VA = "0x4BB9770")]
+	[Address(RVA = "0x4EE10A0", Offset = "0x4EE10A0", VA = "0x4EE10A0")]
 	internal static bool IsHangul(uint c)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600015C")]
-	[Address(RVA = "0x4BB97C0", Offset = "0x4BB97C0", VA = "0x4BB97C0")]
+	[Address(RVA = "0x4EE10F0", Offset = "0x4EE10F0", VA = "0x4EE10F0")]
 	internal static bool IsCJK(uint c)
 	{
 		return default(bool);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.BinXmlSqlDecimal
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml;
@@ -93,7 +100,7 @@ internal struct BinXmlSqlDecimal
 	public bool IsPositive
 	{
 		[Token(Token = "0x6000017")]
-		[Address(RVA = "0x43473D0", Offset = "0x43473D0", VA = "0x43473D0")]
+		[Address(RVA = "0x46794A0", Offset = "0x46794A0", VA = "0x46794A0")]
 		get
 		{
 			return default(bool);
@@ -101,52 +108,52 @@ internal struct BinXmlSqlDecimal
 	}
 
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x43473E0", Offset = "0x43473E0", VA = "0x43473E0")]
+	[Address(RVA = "0x46794B0", Offset = "0x46794B0", VA = "0x46794B0")]
 	public BinXmlSqlDecimal(byte[] data, int offset, bool trim)
 	{
 	}
 
 	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x43477C0", Offset = "0x43477C0", VA = "0x43477C0")]
+	[Address(RVA = "0x4679890", Offset = "0x4679890", VA = "0x4679890")]
 	private static uint UIntFromByteArray(byte[] data, int offset)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x4347A00", Offset = "0x4347A00", VA = "0x4347A00")]
+	[Address(RVA = "0x4679AD0", Offset = "0x4679AD0", VA = "0x4679AD0")]
 	private static void MpDiv1(uint[] rgulU, ref int ciulU, uint iulD, out uint iulR)
 	{
 	}
 
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x4347B10", Offset = "0x4347B10", VA = "0x4347B10")]
+	[Address(RVA = "0x4679BE0", Offset = "0x4679BE0", VA = "0x4679BE0")]
 	private static void MpNormalize(uint[] rgulU, ref int ciulU)
 	{
 	}
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x4347B50", Offset = "0x4347B50", VA = "0x4347B50")]
+	[Address(RVA = "0x4679C20", Offset = "0x4679C20", VA = "0x4679C20")]
 	private static char ChFromDigit(uint uiDigit)
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x4347B60", Offset = "0x4347B60", VA = "0x4347B60")]
+	[Address(RVA = "0x4679C30", Offset = "0x4679C30", VA = "0x4679C30")]
 	public decimal ToDecimal()
 	{
 		return default(decimal);
 	}
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x4347820", Offset = "0x4347820", VA = "0x4347820")]
+	[Address(RVA = "0x46798F0", Offset = "0x46798F0", VA = "0x46798F0")]
 	private void TrimTrailingZeros()
 	{
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x4347C50", Offset = "0x4347C50", VA = "0x4347C50", Slot = "3")]
+	[Address(RVA = "0x4679D20", Offset = "0x4679D20", VA = "0x4679D20", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

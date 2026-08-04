@@ -1,15 +1,16 @@
 // Type: UI.CreateGameCustomPanel
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/CreateGameCustomPanel.cs
-// Prior real C# source (REFERENCE, outdated): Assets/Scripts/UI/CreateGamePopup/CreateGameCustomPanel.cs  [CHANGED since prior version]
+// Prior real C# source (older reference): Assets/Scripts/UI/CreateGamePopup/CreateGameCustomPanel.cs
 // --------------------------------
 
 // UI.CreateGameCustomPanel.<>c__DisplayClass4_0$$.ctor
 // il2cpp: void UI_CreateGameCustomPanel___c__DisplayClass4_0___ctor (UI_CreateGameCustomPanel___c__DisplayClass4_0_o* __this, const MethodInfo* method);
-// 0x40630a0
+// 0x4370f20
 
-void UI_CreateGameCustomPanel_<>c__DisplayClass4_0___ctor
+void UI_CreateGameCustomPanel___c__DisplayClass4_0___ctor
                (UI_CreateGameCustomPanel___c__DisplayClass4_0_o *__this,MethodInfo *method)
 
 {
@@ -20,30 +21,76 @@ void UI_CreateGameCustomPanel_<>c__DisplayClass4_0___ctor
 
 // UI.CreateGameCustomPanel.<>c__DisplayClass4_0$$<Setup>b__0
 // il2cpp: void UI_CreateGameCustomPanel___c__DisplayClass4_0___Setup_b__0 (UI_CreateGameCustomPanel___c__DisplayClass4_0_o* __this, const MethodInfo* method);
-// 0x4064290
+// 0x4372110
 
-void UI_CreateGameCustomPanel_<>c__DisplayClass4_0__<Setup>b__0
+void UI_CreateGameCustomPanel___c__DisplayClass4_0___Setup_b__0
                (UI_CreateGameCustomPanel___c__DisplayClass4_0_o *__this,MethodInfo *method)
 
 {
-  UI_CreateGameCustomPanel_o *__this_00;
   MethodInfo *in_RCX;
+  UI_CreateGameCustomPanel_o *pUVar1;
+  UI_CreateGameCustomPanel_o *pUVar2;
   
-  __this_00 = (__this->fields).__4__this;
-  if (__this_00 != (UI_CreateGameCustomPanel_o *)0x0) {
-    UI_CreateGameCustomPanel__OnCustomButtonClick(__this_00,(__this->fields).button,1,in_RCX);
+  pUVar1 = (__this->fields).__4__this;
+  if (pUVar1 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomButtonClick(pUVar1,(__this->fields).button,1,in_RCX);
     return;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  pUVar2 = (UI_CreateGameCustomPanel_o *)(pUVar1->fields).m_CancellationTokenSource;
+  if (pUVar2 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomButtonClick
+              (pUVar2,(System_String_o *)(pUVar1->fields).m_CachedPtr,1,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  pUVar1 = (UI_CreateGameCustomPanel_o *)(pUVar2->fields).m_CancellationTokenSource;
+  if (pUVar1 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomButtonClick
+              (pUVar1,(System_String_o *)(pUVar2->fields).m_CachedPtr,0,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  pUVar2 = (UI_CreateGameCustomPanel_o *)(pUVar1->fields).m_CancellationTokenSource;
+  if (pUVar2 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomButtonClick
+              (pUVar2,(System_String_o *)(pUVar1->fields).m_CachedPtr,0,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  pUVar1 = (UI_CreateGameCustomPanel_o *)(pUVar2->fields).m_CachedPtr;
+  if (pUVar1 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomOperationFinish
+              (pUVar1,(System_String_o *)(pUVar2->fields).m_CancellationTokenSource,
+               (uint)*(byte *)&(pUVar2->fields).SinglePanel,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  pUVar2 = (UI_CreateGameCustomPanel_o *)(pUVar1->fields).m_CachedPtr;
+  if (pUVar2 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomOperationFinish
+              (pUVar2,(System_String_o *)(pUVar1->fields).m_CancellationTokenSource,
+               (uint)*(byte *)&(pUVar1->fields).SinglePanel,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  pUVar1 = (UI_CreateGameCustomPanel_o *)(pUVar2->fields).m_CachedPtr;
+  if (pUVar1 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomOperationFinish
+              (pUVar1,(System_String_o *)(pUVar2->fields).m_CancellationTokenSource,
+               (uint)*(byte *)&(pUVar2->fields).SinglePanel,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  return;
 }
 
 
 // UI.CreateGameCustomPanel.<>c__DisplayClass4_1$$.ctor
 // il2cpp: void UI_CreateGameCustomPanel___c__DisplayClass4_1___ctor (UI_CreateGameCustomPanel___c__DisplayClass4_1_o* __this, const MethodInfo* method);
-// 0x40630b0
+// 0x4370f30
 
-void UI_CreateGameCustomPanel_<>c__DisplayClass4_1___ctor
+void UI_CreateGameCustomPanel___c__DisplayClass4_1___ctor
                (UI_CreateGameCustomPanel___c__DisplayClass4_1_o *__this,MethodInfo *method)
 
 {
@@ -54,30 +101,69 @@ void UI_CreateGameCustomPanel_<>c__DisplayClass4_1___ctor
 
 // UI.CreateGameCustomPanel.<>c__DisplayClass4_1$$<Setup>b__1
 // il2cpp: void UI_CreateGameCustomPanel___c__DisplayClass4_1___Setup_b__1 (UI_CreateGameCustomPanel___c__DisplayClass4_1_o* __this, const MethodInfo* method);
-// 0x40642c0
+// 0x4372140
 
-void UI_CreateGameCustomPanel_<>c__DisplayClass4_1__<Setup>b__1
+void UI_CreateGameCustomPanel___c__DisplayClass4_1___Setup_b__1
                (UI_CreateGameCustomPanel___c__DisplayClass4_1_o *__this,MethodInfo *method)
 
 {
-  UI_CreateGameCustomPanel_o *__this_00;
   MethodInfo *in_RCX;
+  UI_CreateGameCustomPanel_o *pUVar1;
+  UI_CreateGameCustomPanel_o *pUVar2;
   
-  __this_00 = (__this->fields).__4__this;
-  if (__this_00 != (UI_CreateGameCustomPanel_o *)0x0) {
-    UI_CreateGameCustomPanel__OnCustomButtonClick(__this_00,(__this->fields).button,1,in_RCX);
+  pUVar1 = (__this->fields).__4__this;
+  if (pUVar1 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomButtonClick(pUVar1,(__this->fields).button,1,in_RCX);
     return;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  pUVar2 = (UI_CreateGameCustomPanel_o *)(pUVar1->fields).m_CancellationTokenSource;
+  if (pUVar2 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomButtonClick
+              (pUVar2,(System_String_o *)(pUVar1->fields).m_CachedPtr,0,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  pUVar1 = (UI_CreateGameCustomPanel_o *)(pUVar2->fields).m_CancellationTokenSource;
+  if (pUVar1 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomButtonClick
+              (pUVar1,(System_String_o *)(pUVar2->fields).m_CachedPtr,0,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  pUVar2 = (UI_CreateGameCustomPanel_o *)(pUVar1->fields).m_CachedPtr;
+  if (pUVar2 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomOperationFinish
+              (pUVar2,(System_String_o *)(pUVar1->fields).m_CancellationTokenSource,
+               (uint)*(byte *)&(pUVar1->fields).SinglePanel,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  pUVar1 = (UI_CreateGameCustomPanel_o *)(pUVar2->fields).m_CachedPtr;
+  if (pUVar1 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomOperationFinish
+              (pUVar1,(System_String_o *)(pUVar2->fields).m_CancellationTokenSource,
+               (uint)*(byte *)&(pUVar2->fields).SinglePanel,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  pUVar2 = (UI_CreateGameCustomPanel_o *)(pUVar1->fields).m_CachedPtr;
+  if (pUVar2 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomOperationFinish
+              (pUVar2,(System_String_o *)(pUVar1->fields).m_CancellationTokenSource,
+               (uint)*(byte *)&(pUVar1->fields).SinglePanel,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  return;
 }
 
 
 // UI.CreateGameCustomPanel.<>c__DisplayClass4_2$$.ctor
 // il2cpp: void UI_CreateGameCustomPanel___c__DisplayClass4_2___ctor (UI_CreateGameCustomPanel___c__DisplayClass4_2_o* __this, const MethodInfo* method);
-// 0x40630c0
+// 0x4370f40
 
-void UI_CreateGameCustomPanel_<>c__DisplayClass4_2___ctor
+void UI_CreateGameCustomPanel___c__DisplayClass4_2___ctor
                (UI_CreateGameCustomPanel___c__DisplayClass4_2_o *__this,MethodInfo *method)
 
 {
@@ -88,30 +174,62 @@ void UI_CreateGameCustomPanel_<>c__DisplayClass4_2___ctor
 
 // UI.CreateGameCustomPanel.<>c__DisplayClass4_2$$<Setup>b__2
 // il2cpp: void UI_CreateGameCustomPanel___c__DisplayClass4_2___Setup_b__2 (UI_CreateGameCustomPanel___c__DisplayClass4_2_o* __this, const MethodInfo* method);
-// 0x40642f0
+// 0x4372170
 
-void UI_CreateGameCustomPanel_<>c__DisplayClass4_2__<Setup>b__2
+void UI_CreateGameCustomPanel___c__DisplayClass4_2___Setup_b__2
                (UI_CreateGameCustomPanel___c__DisplayClass4_2_o *__this,MethodInfo *method)
 
 {
-  UI_CreateGameCustomPanel_o *__this_00;
   MethodInfo *in_RCX;
+  UI_CreateGameCustomPanel_o *pUVar1;
+  UI_CreateGameCustomPanel_o *pUVar2;
   
-  __this_00 = (__this->fields).__4__this;
-  if (__this_00 != (UI_CreateGameCustomPanel_o *)0x0) {
-    UI_CreateGameCustomPanel__OnCustomButtonClick(__this_00,(__this->fields).button,0,in_RCX);
+  pUVar1 = (__this->fields).__4__this;
+  if (pUVar1 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomButtonClick(pUVar1,(__this->fields).button,0,in_RCX);
     return;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  pUVar2 = (UI_CreateGameCustomPanel_o *)(pUVar1->fields).m_CancellationTokenSource;
+  if (pUVar2 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomButtonClick
+              (pUVar2,(System_String_o *)(pUVar1->fields).m_CachedPtr,0,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  pUVar1 = (UI_CreateGameCustomPanel_o *)(pUVar2->fields).m_CachedPtr;
+  if (pUVar1 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomOperationFinish
+              (pUVar1,(System_String_o *)(pUVar2->fields).m_CancellationTokenSource,
+               (uint)*(byte *)&(pUVar2->fields).SinglePanel,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  pUVar2 = (UI_CreateGameCustomPanel_o *)(pUVar1->fields).m_CachedPtr;
+  if (pUVar2 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomOperationFinish
+              (pUVar2,(System_String_o *)(pUVar1->fields).m_CancellationTokenSource,
+               (uint)*(byte *)&(pUVar1->fields).SinglePanel,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  pUVar1 = (UI_CreateGameCustomPanel_o *)(pUVar2->fields).m_CachedPtr;
+  if (pUVar1 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomOperationFinish
+              (pUVar1,(System_String_o *)(pUVar2->fields).m_CancellationTokenSource,
+               (uint)*(byte *)&(pUVar2->fields).SinglePanel,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  return;
 }
 
 
 // UI.CreateGameCustomPanel.<>c__DisplayClass4_3$$.ctor
 // il2cpp: void UI_CreateGameCustomPanel___c__DisplayClass4_3___ctor (UI_CreateGameCustomPanel___c__DisplayClass4_3_o* __this, const MethodInfo* method);
-// 0x40630d0
+// 0x4370f50
 
-void UI_CreateGameCustomPanel_<>c__DisplayClass4_3___ctor
+void UI_CreateGameCustomPanel___c__DisplayClass4_3___ctor
                (UI_CreateGameCustomPanel___c__DisplayClass4_3_o *__this,MethodInfo *method)
 
 {
@@ -122,30 +240,55 @@ void UI_CreateGameCustomPanel_<>c__DisplayClass4_3___ctor
 
 // UI.CreateGameCustomPanel.<>c__DisplayClass4_3$$<Setup>b__3
 // il2cpp: void UI_CreateGameCustomPanel___c__DisplayClass4_3___Setup_b__3 (UI_CreateGameCustomPanel___c__DisplayClass4_3_o* __this, const MethodInfo* method);
-// 0x4064310
+// 0x4372190
 
-void UI_CreateGameCustomPanel_<>c__DisplayClass4_3__<Setup>b__3
+void UI_CreateGameCustomPanel___c__DisplayClass4_3___Setup_b__3
                (UI_CreateGameCustomPanel___c__DisplayClass4_3_o *__this,MethodInfo *method)
 
 {
-  UI_CreateGameCustomPanel_o *__this_00;
   MethodInfo *in_RCX;
+  UI_CreateGameCustomPanel_o *pUVar1;
+  UI_CreateGameCustomPanel_o *pUVar2;
   
-  __this_00 = (__this->fields).__4__this;
-  if (__this_00 != (UI_CreateGameCustomPanel_o *)0x0) {
-    UI_CreateGameCustomPanel__OnCustomButtonClick(__this_00,(__this->fields).button,0,in_RCX);
+  pUVar1 = (__this->fields).__4__this;
+  if (pUVar1 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomButtonClick(pUVar1,(__this->fields).button,0,in_RCX);
     return;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  pUVar2 = (UI_CreateGameCustomPanel_o *)(pUVar1->fields).m_CachedPtr;
+  if (pUVar2 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomOperationFinish
+              (pUVar2,(System_String_o *)(pUVar1->fields).m_CancellationTokenSource,
+               (uint)*(byte *)&(pUVar1->fields).SinglePanel,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  pUVar1 = (UI_CreateGameCustomPanel_o *)(pUVar2->fields).m_CachedPtr;
+  if (pUVar1 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomOperationFinish
+              (pUVar1,(System_String_o *)(pUVar2->fields).m_CancellationTokenSource,
+               (uint)*(byte *)&(pUVar2->fields).SinglePanel,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  pUVar2 = (UI_CreateGameCustomPanel_o *)(pUVar1->fields).m_CachedPtr;
+  if (pUVar2 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomOperationFinish
+              (pUVar2,(System_String_o *)(pUVar1->fields).m_CancellationTokenSource,
+               (uint)*(byte *)&(pUVar1->fields).SinglePanel,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  return;
 }
 
 
 // UI.CreateGameCustomPanel.<>c__DisplayClass5_0$$.ctor
 // il2cpp: void UI_CreateGameCustomPanel___c__DisplayClass5_0___ctor (UI_CreateGameCustomPanel___c__DisplayClass5_0_o* __this, const MethodInfo* method);
-// 0x4063590
+// 0x4371410
 
-void UI_CreateGameCustomPanel_<>c__DisplayClass5_0___ctor
+void UI_CreateGameCustomPanel___c__DisplayClass5_0___ctor
                (UI_CreateGameCustomPanel___c__DisplayClass5_0_o *__this,MethodInfo *method)
 
 {
@@ -156,53 +299,79 @@ void UI_CreateGameCustomPanel_<>c__DisplayClass5_0___ctor
 
 // UI.CreateGameCustomPanel.<>c__DisplayClass5_0$$<OnCustomButtonClick>b__0
 // il2cpp: void UI_CreateGameCustomPanel___c__DisplayClass5_0___OnCustomButtonClick_b__0 (UI_CreateGameCustomPanel___c__DisplayClass5_0_o* __this, const MethodInfo* method);
-// 0x4064330
+// 0x43721b0
 
-void UI_CreateGameCustomPanel_<>c__DisplayClass5_0__<OnCustomButtonClick>b__0
+void UI_CreateGameCustomPanel___c__DisplayClass5_0___OnCustomButtonClick_b__0
                (UI_CreateGameCustomPanel___c__DisplayClass5_0_o *__this,MethodInfo *method)
 
 {
-  UI_CreateGameCustomPanel_o *__this_00;
   MethodInfo *in_RCX;
+  UI_CreateGameCustomPanel_o *pUVar1;
+  UI_CreateGameCustomPanel_o *__this_00;
   
-  __this_00 = (__this->fields).__4__this;
-  if (__this_00 != (UI_CreateGameCustomPanel_o *)0x0) {
+  pUVar1 = (__this->fields).__4__this;
+  if (pUVar1 != (UI_CreateGameCustomPanel_o *)0x0) {
     UI_CreateGameCustomPanel__OnCustomOperationFinish
-              (__this_00,(__this->fields).name,(uint)(byte)(__this->fields).isMap,in_RCX);
+              (pUVar1,(__this->fields).name,(uint)(byte)(__this->fields).isMap,in_RCX);
     return;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  __this_00 = (UI_CreateGameCustomPanel_o *)(pUVar1->fields).m_CachedPtr;
+  if (__this_00 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomOperationFinish
+              (__this_00,(System_String_o *)(pUVar1->fields).m_CancellationTokenSource,
+               (uint)*(byte *)&(pUVar1->fields).SinglePanel,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  pUVar1 = (UI_CreateGameCustomPanel_o *)(__this_00->fields).m_CachedPtr;
+  if (pUVar1 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomOperationFinish
+              (pUVar1,(System_String_o *)(__this_00->fields).m_CancellationTokenSource,
+               (uint)*(byte *)&(__this_00->fields).SinglePanel,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  return;
 }
 
 
 // UI.CreateGameCustomPanel.<>c__DisplayClass5_0$$<OnCustomButtonClick>b__1
 // il2cpp: void UI_CreateGameCustomPanel___c__DisplayClass5_0___OnCustomButtonClick_b__1 (UI_CreateGameCustomPanel___c__DisplayClass5_0_o* __this, const MethodInfo* method);
-// 0x4064350
+// 0x43721d0
 
-void UI_CreateGameCustomPanel_<>c__DisplayClass5_0__<OnCustomButtonClick>b__1
+void UI_CreateGameCustomPanel___c__DisplayClass5_0___OnCustomButtonClick_b__1
                (UI_CreateGameCustomPanel___c__DisplayClass5_0_o *__this,MethodInfo *method)
 
 {
   UI_CreateGameCustomPanel_o *__this_00;
   MethodInfo *in_RCX;
+  UI_CreateGameCustomPanel_o *__this_01;
   
-  __this_00 = (__this->fields).__4__this;
-  if (__this_00 != (UI_CreateGameCustomPanel_o *)0x0) {
+  __this_01 = (__this->fields).__4__this;
+  if (__this_01 != (UI_CreateGameCustomPanel_o *)0x0) {
     UI_CreateGameCustomPanel__OnCustomOperationFinish
-              (__this_00,(__this->fields).name,(uint)(byte)(__this->fields).isMap,in_RCX);
+              (__this_01,(__this->fields).name,(uint)(byte)(__this->fields).isMap,in_RCX);
     return;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  __this_00 = (UI_CreateGameCustomPanel_o *)(__this_01->fields).m_CachedPtr;
+  if (__this_00 != (UI_CreateGameCustomPanel_o *)0x0) {
+    UI_CreateGameCustomPanel__OnCustomOperationFinish
+              (__this_00,(System_String_o *)(__this_01->fields).m_CancellationTokenSource,
+               (uint)*(byte *)&(__this_01->fields).SinglePanel,in_RCX);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  return;
 }
 
 
 // UI.CreateGameCustomPanel.<>c__DisplayClass5_0$$<OnCustomButtonClick>b__2
 // il2cpp: void UI_CreateGameCustomPanel___c__DisplayClass5_0___OnCustomButtonClick_b__2 (UI_CreateGameCustomPanel___c__DisplayClass5_0_o* __this, const MethodInfo* method);
-// 0x4064370
+// 0x43721f0
 
-void UI_CreateGameCustomPanel_<>c__DisplayClass5_0__<OnCustomButtonClick>b__2
+void UI_CreateGameCustomPanel___c__DisplayClass5_0___OnCustomButtonClick_b__2
                (UI_CreateGameCustomPanel___c__DisplayClass5_0_o *__this,MethodInfo *method)
 
 {
@@ -215,14 +384,14 @@ void UI_CreateGameCustomPanel_<>c__DisplayClass5_0__<OnCustomButtonClick>b__2
               (__this_00,(__this->fields).name,(uint)(byte)(__this->fields).isMap,in_RCX);
     return;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  return;
 }
 
 
 // UI.CreateGameCustomPanel$$Setup
 // il2cpp: void UI_CreateGameCustomPanel__Setup (UI_CreateGameCustomPanel_o* __this, UI_BasePanel_o* parent, const MethodInfo* method);
-// 0x4062000
+// 0x436fe80
 
 void UI_CreateGameCustomPanel__Setup
                (UI_CreateGameCustomPanel_o *__this,UI_BasePanel_o *parent,MethodInfo *method)
@@ -233,415 +402,464 @@ void UI_CreateGameCustomPanel__Setup
   System_String_o *subCategory;
   System_String_o *pSVar3;
   UI_ElementStyle_o *pUVar4;
-  System_String_array *pSVar5;
-  System_String_o *pSVar6;
-  UI_ElementStyle_o *pUVar7;
-  UnityEngine_GameObject_o *pUVar8;
-  long lVar9;
-  UnityEngine_Events_UnityAction_o *pUVar10;
-  Il2CppObject *pIVar11;
-  UnityEngine_Transform_o *pUVar12;
-  Settings_TypedSetting_int__o *pSVar13;
+  System_String_array *options;
+  System_String_o *pSVar5;
+  UnityEngine_GameObject_o *pUVar6;
+  long lVar7;
+  Il2CppObject *pIVar8;
+  UI_ElementStyle_o *pUVar9;
+  Settings_TypedSetting_int__o *pSVar10;
+  System_String_array *pSVar11;
+  UnityEngine_Events_UnityAction_o *pUVar12;
+  UnityEngine_Transform_o *pUVar13;
+  UI_CreateGameCustomPanel_o *parent_00;
   undefined8 *puVar14;
-  undefined8 *puVar15;
-  ulong uVar16;
+  System_String_o **options_00;
+  System_String_array *__this_00;
+  UI_CreateGameCustomPanel_o *__this_01;
   
-  if (DAT_05704483 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_BuiltinLevels);
-    il2cpp_init_method_metadata(&TypeInfo_CreateGameCustomPanel);
-    il2cpp_init_method_metadata(&TypeInfo_ElementStyle);
-    il2cpp_init_method_metadata(&TypeInfo_string);
-    il2cpp_init_method_metadata(&MethodInfo_Int32_get_Value);
-    il2cpp_init_method_metadata(&MethodInfo_Void_set_Value);
-    il2cpp_init_method_metadata(&MethodInfo_Void__Setup_b__0);
-    il2cpp_init_method_metadata(&TypeInfo_c__DisplayClass4_0);
-    il2cpp_init_method_metadata(&MethodInfo_Void__Setup_b__1);
-    il2cpp_init_method_metadata(&TypeInfo_c__DisplayClass4_1);
-    il2cpp_init_method_metadata(&MethodInfo_Void__Setup_b__2);
-    il2cpp_init_method_metadata(&TypeInfo_c__DisplayClass4_2);
-    il2cpp_init_method_metadata(&MethodInfo_Void__Setup_b__3);
-    il2cpp_init_method_metadata(&TypeInfo_c__DisplayClass4_3);
-    il2cpp_init_method_metadata(&TypeInfo_UIManager);
-    il2cpp_init_method_metadata(&TypeInfo_UnityAction);
-    il2cpp_init_method_metadata(&"AddingMaps");
-    il2cpp_init_method_metadata(&"AddingCustomLogic");
-    il2cpp_init_method_metadata(&"File");
-    il2cpp_init_method_metadata(&"Custom");
-    il2cpp_init_method_metadata(&"CustomLogic");
-    il2cpp_init_method_metadata(&"CustomLogicLocation");
-    il2cpp_init_method_metadata(&"CreateGamePopup");
-    il2cpp_init_method_metadata(&"Modify");
-    il2cpp_init_method_metadata(&"Delete");
-    il2cpp_init_method_metadata(&"CustomMap");
-    il2cpp_init_method_metadata(&"New");
-    il2cpp_init_method_metadata(&"MapLocation");
-    il2cpp_init_method_metadata(&"");
-    il2cpp_init_method_metadata(&"Export");
-    DAT_05704483 = '\x01';
+  if (g_data_057ae1fd == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinLevels);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_CreateGameCustomPanel);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_ElementStyle);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__0);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass4_0);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__1);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass4_1);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__2);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass4_2);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__3);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass4_3);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction);
+    il2cpp_runtime_helper_023445d0(&"AddingMaps");
+    il2cpp_runtime_helper_023445d0(&"AddingCustomLogic");
+    il2cpp_runtime_helper_023445d0(&"File");
+    il2cpp_runtime_helper_023445d0(&"Custom");
+    il2cpp_runtime_helper_023445d0(&"CustomLogic");
+    il2cpp_runtime_helper_023445d0(&"CustomLogicLocation");
+    il2cpp_runtime_helper_023445d0(&"CreateGamePopup");
+    il2cpp_runtime_helper_023445d0(&"Modify");
+    il2cpp_runtime_helper_023445d0(&"Delete");
+    il2cpp_runtime_helper_023445d0(&"CustomMap");
+    il2cpp_runtime_helper_023445d0(&"New");
+    il2cpp_runtime_helper_023445d0(&"MapLocation");
+    il2cpp_runtime_helper_023445d0(&"");
+    il2cpp_runtime_helper_023445d0(&"Export");
+    g_data_057ae1fd = '\x01';
   }
   UI_BasePanel__Setup((UI_BasePanel_o *)__this,parent,(MethodInfo *)0x0);
   pSVar3 = (System_String_o *)
            (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
                      (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-  pUVar4 = (UI_ElementStyle_o *)il2cpp_runtime_glue(TypeInfo_ElementStyle);
+  __this_01 = (UI_CreateGameCustomPanel_o *)&TypeInfo_ElementStyle;
+  pUVar4 = (UI_ElementStyle_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
   UI_ElementStyle___ctor(pUVar4,0x18,120.0,20.0,pSVar3,(MethodInfo *)0x0);
   subCategory = "Custom";
   pSVar3 = "CreateGamePopup";
   if (*(int *)(TypeInfo_BuiltinLevels + 0xe4) == 0) {
-    il2cpp_init_class(TypeInfo_BuiltinLevels);
+    il2cpp_runtime_helper_02337ed0(TypeInfo_BuiltinLevels);
   }
-  pSVar5 = Map_BuiltinLevels__GetMapNames("Custom",(MethodInfo *)0x0);
-  pUVar12 = (__this->fields).DoublePanelLeft;
+  options = Map_BuiltinLevels__GetMapNames("Custom",(MethodInfo *)0x0);
+  options_00 = (System_String_o **)(__this->fields).DoublePanelLeft;
   if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
-  pSVar6 = UI_UIManager__GetLocale
+  pSVar5 = UI_UIManager__GetLocale
                      (pSVar3,subCategory,"CustomMap","","",(MethodInfo *)0x0);
-  UI_ElementFactory__CreateDefaultLabel(pUVar12,pUVar4,pSVar6,1,3,(MethodInfo *)0x0);
+  UI_ElementFactory__CreateDefaultLabel
+            ((UnityEngine_Transform_o *)options_00,pUVar4,pSVar5,1,3,(MethodInfo *)0x0);
   UI_BasePanel__CreateHorizontalDivider
             ((UI_BasePanel_o *)__this,(__this->fields).DoublePanelLeft,1.0,(MethodInfo *)0x0);
-  (__this->fields).CurrentMapNames = pSVar5;
-  il2cpp_runtime_glue(&(__this->fields).CurrentMapNames);
-  if (pSVar5 == (System_String_array *)0x0) goto LAB_04063073;
-  if (pSVar5->max_length == 0) {
-    pUVar8 = UI_ElementFactory__CreateHorizontalGroup
+  (__this->fields).CurrentMapNames = options;
+  il2cpp_runtime_helper_022b4080(&(__this->fields).CurrentMapNames);
+  parent_00 = __this;
+  if (options == (System_String_array *)0x0) goto label_04370ef3;
+  if (options->max_length == 0) {
+    pUVar6 = UI_ElementFactory__CreateHorizontalGroup
                        ((__this->fields).DoublePanelLeft,10.0,0,(MethodInfo *)0x0);
-    lVar9 = il2cpp_glue_02274930(TypeInfo_string,1);
-    if (lVar9 == 0) goto LAB_04063073;
-    if (*(int *)(lVar9 + 0x18) == 0) goto LAB_0406308f;
-    puVar15 = (undefined8 *)(lVar9 + 0x20);
-    *(undefined8 *)(lVar9 + 0x20) = "New";
-    il2cpp_runtime_glue(puVar15);
-    if (0 < *(int *)(lVar9 + 0x18)) {
-      if (pUVar8 == (UnityEngine_GameObject_o *)0x0) {
-        pIVar11 = (Il2CppObject *)il2cpp_runtime_glue(TypeInfo_c__DisplayClass4_1);
-        System_Object___ctor(pIVar11,(MethodInfo *)0x0);
-        if (pIVar11 == (Il2CppObject *)0x0) goto LAB_04063073;
-        pIVar11[1].monitor = __this;
-        il2cpp_runtime_glue(&pIVar11[1].monitor);
-        if (*(int *)(lVar9 + 0x18) == 0) goto LAB_0406308f;
-        goto LAB_04063039;
+    __this_00 = TypeInfo_string;
+    lVar7 = il2cpp_runtime_helper_022b2a40();
+    if (lVar7 == 0) goto label_04370ef3;
+    if (*(int *)(lVar7 + 0x18) == 0) goto label_04370f0f;
+    parent_00 = (UI_CreateGameCustomPanel_o *)(lVar7 + 0x20);
+    *(System_String_o **)(lVar7 + 0x20) = "New";
+    il2cpp_runtime_helper_022b4080(parent_00);
+    if (0 < *(int *)(lVar7 + 0x18)) {
+      if (pUVar6 == (UnityEngine_GameObject_o *)0x0) {
+        options_00 = (System_String_o **)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass4_1);
+        System_Object___ctor((Il2CppObject *)options_00,(MethodInfo *)0x0);
+        if ((System_String_array *)options_00 == (System_String_array *)0x0) goto label_04370ef3;
+        __this_00 = (System_String_array *)&((System_String_array *)options_00)->max_length;
+        ((System_String_array *)options_00)->max_length = (il2cpp_array_size_t)__this;
+        il2cpp_runtime_helper_022b4080();
+        pSVar11 = options;
+        if (*(int *)(lVar7 + 0x18) != 0) goto label_04370eb9;
+        goto label_04370f0f;
       }
-      uVar16 = 0;
+      options_00 = (System_String_o **)0x0;
       do {
-        pIVar11 = (Il2CppObject *)il2cpp_runtime_glue(TypeInfo_c__DisplayClass4_1);
-        System_Object___ctor(pIVar11,(MethodInfo *)0x0);
-        if (pIVar11 == (Il2CppObject *)0x0) goto LAB_04063073;
-        pIVar11[1].monitor = __this;
-        il2cpp_runtime_glue(&pIVar11[1].monitor);
-        if (*(uint *)(lVar9 + 0x18) <= uVar16) goto LAB_0406308f;
-        pIVar11[1].klass = *(Il2CppClass **)(lVar9 + 0x20 + uVar16 * 8);
-        il2cpp_runtime_glue(pIVar11 + 1);
-        pUVar12 = UnityEngine_GameObject__get_transform(pUVar8,(MethodInfo *)0x0);
-        pIVar2 = pIVar11[1].klass;
+        pIVar8 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass4_1);
+        System_Object___ctor(pIVar8,(MethodInfo *)0x0);
+        parent_00 = (UI_CreateGameCustomPanel_o *)0x0;
+        if (pIVar8 == (Il2CppObject *)0x0) goto label_04370ef3;
+        __this_00 = (System_String_array *)&pIVar8[1].monitor;
+        pIVar8[1].monitor = __this;
+        il2cpp_runtime_helper_022b4080();
+        if ((System_String_array *)(ulong)*(uint *)(lVar7 + 0x18) <= options_00) goto label_04370f0f;
+        pIVar8[1].klass = *(Il2CppClass **)(lVar7 + 0x20 + (long)options_00 * 8);
+        il2cpp_runtime_helper_022b4080(pIVar8 + 1);
+        pUVar13 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
+        pIVar2 = pIVar8[1].klass;
         if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-          il2cpp_init_class();
+          il2cpp_runtime_helper_02337ed0();
         }
-        pSVar6 = UI_UIManager__GetLocaleCommon((System_String_o *)pIVar2,(MethodInfo *)0x0);
-        pUVar10 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_glue(TypeInfo_UnityAction);
+        __this_01 = (UI_CreateGameCustomPanel_o *)
+                    UI_UIManager__GetLocaleCommon((System_String_o *)pIVar2,(MethodInfo *)0x0);
+        options = (System_String_array *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
         UnityEngine_Events_UnityAction___ctor();
         UI_ElementFactory__CreateDefaultButton
-                  (pUVar12,pUVar4,pSVar6,0.0,0.0,pUVar10,(MethodInfo *)0x0);
-        uVar16 = uVar16 + 1;
-      } while ((long)uVar16 < (long)*(int *)(lVar9 + 0x18));
+                  (pUVar13,pUVar4,(System_String_o *)__this_01,0.0,0.0,
+                   (UnityEngine_Events_UnityAction_o *)options,(MethodInfo *)0x0);
+        options_00 = (System_String_o **)((long)&(((System_String_array *)options_00)->obj).klass + 1);
+      } while ((long)options_00 < (long)*(int *)(lVar7 + 0x18));
     }
   }
   else {
     if (*(int *)(TypeInfo_CreateGameCustomPanel + 0xe4) == 0) {
-      il2cpp_init_class();
+      il2cpp_runtime_helper_02337ed0();
     }
-    pSVar13 = (Settings_TypedSetting_int__o *)**(long **)(TypeInfo_CreateGameCustomPanel + 0xb8);
-    if (pSVar13 == (Settings_TypedSetting_int__o *)0x0) goto LAB_04063073;
-    if ((int)pSVar5->max_length <= (pSVar13->fields)._value) {
+    pSVar10 = (Settings_TypedSetting_int__o *)**(long **)(TypeInfo_CreateGameCustomPanel + 0xb8);
+    if (pSVar10 == (Settings_TypedSetting_int__o *)0x0) goto label_04370ef3;
+    if ((int)options->max_length <= (pSVar10->fields)._value) {
       if (*(int *)(TypeInfo_CreateGameCustomPanel + 0xe4) == 0) {
-        il2cpp_init_class();
-        pSVar13 = (Settings_TypedSetting_int__o *)**(long **)(TypeInfo_CreateGameCustomPanel + 0xb8);
-        if (pSVar13 == (Settings_TypedSetting_int__o *)0x0) goto LAB_04063073;
+        il2cpp_runtime_helper_02337ed0();
+        pSVar10 = (Settings_TypedSetting_int__o *)**(long **)(TypeInfo_CreateGameCustomPanel + 0xb8);
+        if (pSVar10 == (Settings_TypedSetting_int__o *)0x0) goto label_04370ef3;
       }
-      Settings_TypedSetting<int>__set_Value(pSVar13,0,MethodInfo_Void_set_Value);
+      Settings_TypedSetting_int___set_Value(pSVar10,0,MethodInfo_Void_set_Value);
     }
-    pUVar12 = (__this->fields).DoublePanelLeft;
-    pSVar6 = (System_String_o *)
+    pUVar13 = (__this->fields).DoublePanelLeft;
+    pSVar5 = (System_String_o *)
              (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
                        (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-    pUVar7 = (UI_ElementStyle_o *)il2cpp_runtime_glue(TypeInfo_ElementStyle);
-    UI_ElementStyle___ctor(pUVar7,0x18,53.0,20.0,pSVar6,(MethodInfo *)0x0);
+    __this_01 = (UI_CreateGameCustomPanel_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
+    UI_ElementStyle___ctor((UI_ElementStyle_o *)__this_01,0x18,53.0,20.0,pSVar5,(MethodInfo *)0x0);
     if (*(int *)(TypeInfo_CreateGameCustomPanel + 0xe4) == 0) {
-      il2cpp_init_class();
+      il2cpp_runtime_helper_02337ed0();
     }
     pSVar1 = (Settings_BaseSetting_o *)**(undefined8 **)(TypeInfo_CreateGameCustomPanel + 0xb8);
     if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-      il2cpp_init_class();
+      il2cpp_runtime_helper_02337ed0();
     }
-    pSVar6 = UI_UIManager__GetLocale
-                       (pSVar3,subCategory,"File","","",(MethodInfo *)0x0)
-    ;
+    options_00 = &"";
+    pSVar5 = UI_UIManager__GetLocale
+                       (pSVar3,subCategory,"File","","",(MethodInfo *)0x0);
     UI_ElementFactory__CreateDropdownSetting
-              (pUVar12,pUVar7,pSVar1,pSVar6,pSVar5,"",269.0,40.0,300.0,
-               (System_Nullable_float__o)0x0,(UnityEngine_Events_UnityAction_o *)0x0,
-               (MethodInfo *)0x0);
-    pUVar8 = UI_ElementFactory__CreateHorizontalGroup
+              (pUVar13,(UI_ElementStyle_o *)__this_01,pSVar1,pSVar5,options,"",269.0,40.0,300.0,
+               (System_Nullable_float__o)0x0,(UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
+    pUVar6 = UI_ElementFactory__CreateHorizontalGroup
                        ((__this->fields).DoublePanelLeft,10.0,0,(MethodInfo *)0x0);
-    lVar9 = il2cpp_glue_02274930(TypeInfo_string,4);
-    if (lVar9 == 0) goto LAB_04063073;
-    if (*(int *)(lVar9 + 0x18) == 0) goto LAB_0406308f;
-    *(undefined8 *)(lVar9 + 0x20) = "New";
-    il2cpp_runtime_glue((undefined8 *)(lVar9 + 0x20));
-    if (*(uint *)(lVar9 + 0x18) < 2) goto LAB_0406308f;
-    *(undefined8 *)(lVar9 + 0x28) = "Delete";
-    il2cpp_runtime_glue(lVar9 + 0x28);
-    if (*(uint *)(lVar9 + 0x18) < 3) goto LAB_0406308f;
-    *(undefined8 *)(lVar9 + 0x30) = "Modify";
-    il2cpp_runtime_glue(lVar9 + 0x30);
-    if (*(uint *)(lVar9 + 0x18) < 4) goto LAB_0406308f;
-    *(undefined8 *)(lVar9 + 0x38) = "Export";
-    il2cpp_runtime_glue(lVar9 + 0x38);
-    if (0 < *(int *)(lVar9 + 0x18)) {
-      if (pUVar8 == (UnityEngine_GameObject_o *)0x0) {
-        pIVar11 = (Il2CppObject *)il2cpp_runtime_glue(TypeInfo_c__DisplayClass4_0);
-        System_Object___ctor(pIVar11,(MethodInfo *)0x0);
-        if (pIVar11 == (Il2CppObject *)0x0) goto LAB_04063073;
-        pIVar11[1].monitor = __this;
-        il2cpp_runtime_glue(&pIVar11[1].monitor);
-        if (*(int *)(lVar9 + 0x18) != 0) {
-          pIVar11[1].klass = *(Il2CppClass **)(lVar9 + 0x20);
-          il2cpp_runtime_glue(pIVar11 + 1);
-                    /* WARNING: Subroutine does not return */
-          il2cpp_raise_exception();
-        }
-        goto LAB_0406308f;
+    __this_00 = TypeInfo_string;
+    lVar7 = il2cpp_runtime_helper_022b2a40();
+    if (lVar7 == 0) goto label_04370ef3;
+    if (*(int *)(lVar7 + 0x18) == 0) goto label_04370f0f;
+    options_00 = (System_String_o **)(lVar7 + 0x20);
+    *(System_String_o **)(lVar7 + 0x20) = "New";
+    __this_00 = (System_String_array *)options_00;
+    il2cpp_runtime_helper_022b4080();
+    if (*(uint *)(lVar7 + 0x18) < 2) goto label_04370f0f;
+    __this_00 = (System_String_array *)(lVar7 + 0x28);
+    *(System_String_o **)(lVar7 + 0x28) = "Delete";
+    il2cpp_runtime_helper_022b4080();
+    if (*(uint *)(lVar7 + 0x18) < 3) goto label_04370f0f;
+    __this_00 = (System_String_array *)(lVar7 + 0x30);
+    *(System_String_o **)(lVar7 + 0x30) = "Modify";
+    il2cpp_runtime_helper_022b4080();
+    if (*(uint *)(lVar7 + 0x18) < 4) goto label_04370f0f;
+    *(System_String_o **)(lVar7 + 0x38) = "Export";
+    il2cpp_runtime_helper_022b4080(lVar7 + 0x38);
+    if (0 < *(int *)(lVar7 + 0x18)) {
+      if (pUVar6 == (UnityEngine_GameObject_o *)0x0) {
+        parent_00 = (UI_CreateGameCustomPanel_o *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass4_0);
+        System_Object___ctor((Il2CppObject *)parent_00,(MethodInfo *)0x0);
+        if (parent_00 == (UI_CreateGameCustomPanel_o *)0x0) goto label_04370ef3;
+        __this_00 = (System_String_array *)&(parent_00->fields).m_CancellationTokenSource;
+        (parent_00->fields).m_CancellationTokenSource = (System_Threading_CancellationTokenSource_o *)__this;
+        il2cpp_runtime_helper_022b4080();
+        if (*(int *)(lVar7 + 0x18) == 0) goto label_04370f0f;
+        (parent_00->fields).m_CachedPtr = (intptr_t)(((System_String_array *)options_00)->obj).klass;
+        il2cpp_runtime_helper_022b4080(&parent_00->fields);
+        il2cpp_runtime_helper_022b2c90();
+        goto label_04370e76;
       }
-      uVar16 = 0;
+      __this_01 = (UI_CreateGameCustomPanel_o *)0x0;
       do {
-        pIVar11 = (Il2CppObject *)il2cpp_runtime_glue(TypeInfo_c__DisplayClass4_0);
-        System_Object___ctor(pIVar11,(MethodInfo *)0x0);
-        if (pIVar11 == (Il2CppObject *)0x0) goto LAB_04063073;
-        pIVar11[1].monitor = __this;
-        il2cpp_runtime_glue(&pIVar11[1].monitor);
-        if (*(uint *)(lVar9 + 0x18) <= uVar16) goto LAB_0406308f;
-        pIVar11[1].klass = *(Il2CppClass **)(lVar9 + 0x20 + uVar16 * 8);
-        il2cpp_runtime_glue(pIVar11 + 1);
-        pUVar12 = UnityEngine_GameObject__get_transform(pUVar8,(MethodInfo *)0x0);
-        pIVar2 = pIVar11[1].klass;
+        pIVar8 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass4_0);
+        System_Object___ctor(pIVar8,(MethodInfo *)0x0);
+        parent_00 = (UI_CreateGameCustomPanel_o *)0x0;
+        if (pIVar8 == (Il2CppObject *)0x0) goto label_04370ef3;
+        __this_00 = (System_String_array *)&pIVar8[1].monitor;
+        pIVar8[1].monitor = __this;
+        il2cpp_runtime_helper_022b4080();
+        if ((UI_CreateGameCustomPanel_o *)(ulong)*(uint *)(lVar7 + 0x18) <= __this_01) goto label_04370f0f;
+        pIVar8[1].klass = *(Il2CppClass **)(lVar7 + 0x20 + (long)__this_01 * 8);
+        il2cpp_runtime_helper_022b4080(pIVar8 + 1);
+        options = (System_String_array *)UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
+        pIVar2 = pIVar8[1].klass;
         if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-          il2cpp_init_class();
+          il2cpp_runtime_helper_02337ed0();
         }
-        pSVar6 = UI_UIManager__GetLocaleCommon((System_String_o *)pIVar2,(MethodInfo *)0x0);
-        pUVar10 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_glue(TypeInfo_UnityAction);
+        pSVar5 = UI_UIManager__GetLocaleCommon((System_String_o *)pIVar2,(MethodInfo *)0x0);
+        options_00 = (System_String_o **)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
         UnityEngine_Events_UnityAction___ctor();
         UI_ElementFactory__CreateDefaultButton
-                  (pUVar12,pUVar4,pSVar6,0.0,0.0,pUVar10,(MethodInfo *)0x0);
-        uVar16 = uVar16 + 1;
-      } while ((long)uVar16 < (long)*(int *)(lVar9 + 0x18));
+                  ((UnityEngine_Transform_o *)options,pUVar4,pSVar5,0.0,0.0,
+                   (UnityEngine_Events_UnityAction_o *)options_00,(MethodInfo *)0x0);
+        __this_01 = (UI_CreateGameCustomPanel_o *)((long)&__this_01->klass + 1);
+      } while ((long)__this_01 < (long)*(int *)(lVar7 + 0x18));
     }
   }
   UI_BasePanel__CreateHorizontalDivider
             ((UI_BasePanel_o *)__this,(__this->fields).DoublePanelLeft,1.0,(MethodInfo *)0x0);
-  pUVar12 = (__this->fields).DoublePanelLeft;
-  pSVar6 = (System_String_o *)
+  pUVar13 = (__this->fields).DoublePanelLeft;
+  pSVar5 = (System_String_o *)
            (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
                      (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-  pUVar7 = (UI_ElementStyle_o *)il2cpp_runtime_glue(TypeInfo_ElementStyle);
-  UI_ElementStyle___ctor(pUVar7,0x14,120.0,20.0,pSVar6,(MethodInfo *)0x0);
+  pUVar9 = (UI_ElementStyle_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
+  UI_ElementStyle___ctor(pUVar9,0x14,120.0,20.0,pSVar5,(MethodInfo *)0x0);
   if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
-  pSVar6 = UI_UIManager__GetLocale
-                     ("CreateGamePopup","Custom","MapLocation","","",
-                      (MethodInfo *)0x0);
-  UI_ElementFactory__CreateDefaultLabel(pUVar12,pUVar7,pSVar6,0,3,(MethodInfo *)0x0);
-  pUVar12 = (__this->fields).DoublePanelLeft;
-  pSVar6 = (System_String_o *)
+  pSVar5 = UI_UIManager__GetLocale
+                     ("CreateGamePopup","Custom","MapLocation","","",(MethodInfo *)0x0);
+  UI_ElementFactory__CreateDefaultLabel(pUVar13,pUVar9,pSVar5,0,3,(MethodInfo *)0x0);
+  pUVar13 = (__this->fields).DoublePanelLeft;
+  pSVar5 = (System_String_o *)
            (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
                      (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-  pUVar7 = (UI_ElementStyle_o *)il2cpp_runtime_glue(TypeInfo_ElementStyle);
-  UI_ElementStyle___ctor(pUVar7,0x14,120.0,20.0,pSVar6,(MethodInfo *)0x0);
-  pSVar6 = UI_UIManager__GetLocale
-                     ("CreateGamePopup","Custom","AddingMaps","","",
-                      (MethodInfo *)0x0);
-  UI_ElementFactory__CreateDefaultLabel(pUVar12,pUVar7,pSVar6,0,3,(MethodInfo *)0x0);
+  pUVar9 = (UI_ElementStyle_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
+  UI_ElementStyle___ctor(pUVar9,0x14,120.0,20.0,pSVar5,(MethodInfo *)0x0);
+  pSVar5 = UI_UIManager__GetLocale
+                     ("CreateGamePopup","Custom","AddingMaps","","",(MethodInfo *)0x0);
+  UI_ElementFactory__CreateDefaultLabel(pUVar13,pUVar9,pSVar5,0,3,(MethodInfo *)0x0);
   if (*(int *)(TypeInfo_BuiltinLevels + 0xe4) == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
-  pSVar5 = Map_BuiltinLevels__GetCustomModes((MethodInfo *)0x0);
-  pUVar12 = (__this->fields).DoublePanelRight;
-  pSVar6 = UI_UIManager__GetLocale
+  options_00 = (System_String_o **)Map_BuiltinLevels__GetCustomModes((MethodInfo *)0x0);
+  parent_00 = (UI_CreateGameCustomPanel_o *)(__this->fields).DoublePanelRight;
+  pSVar5 = UI_UIManager__GetLocale
                      (pSVar3,subCategory,"CustomLogic","","",(MethodInfo *)0x0);
-  UI_ElementFactory__CreateDefaultLabel(pUVar12,pUVar4,pSVar6,1,3,(MethodInfo *)0x0);
+  UI_ElementFactory__CreateDefaultLabel
+            ((UnityEngine_Transform_o *)parent_00,pUVar4,pSVar5,1,3,(MethodInfo *)0x0);
   UI_BasePanel__CreateHorizontalDivider
             ((UI_BasePanel_o *)__this,(__this->fields).DoublePanelRight,1.0,(MethodInfo *)0x0);
-  (__this->fields).CurrentLogicNames = pSVar5;
-  il2cpp_runtime_glue(&(__this->fields).CurrentLogicNames);
-  if (pSVar5 == (System_String_array *)0x0) goto LAB_04063073;
-  if (pSVar5->max_length == 0) {
-    pUVar8 = UI_ElementFactory__CreateHorizontalGroup
-                       ((__this->fields).DoublePanelRight,10.0,0,(MethodInfo *)0x0);
-    lVar9 = il2cpp_glue_02274930(TypeInfo_string,1);
-    if (lVar9 == 0) goto LAB_04063073;
-    if (*(int *)(lVar9 + 0x18) == 0) goto LAB_0406308f;
-    puVar15 = (undefined8 *)(lVar9 + 0x20);
-    *(undefined8 *)(lVar9 + 0x20) = "New";
-    il2cpp_runtime_glue(puVar15);
-    if (*(int *)(lVar9 + 0x18) < 1) {
-LAB_04062e33:
-      UI_BasePanel__CreateHorizontalDivider
-                ((UI_BasePanel_o *)__this,(__this->fields).DoublePanelRight,1.0,(MethodInfo *)0x0);
-      pUVar12 = (__this->fields).DoublePanelRight;
-      pSVar3 = (System_String_o *)
-               (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                         (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-      pUVar4 = (UI_ElementStyle_o *)il2cpp_runtime_glue(TypeInfo_ElementStyle);
-      UI_ElementStyle___ctor(pUVar4,0x14,120.0,20.0,pSVar3,(MethodInfo *)0x0);
-      if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-        il2cpp_init_class();
-      }
-      pSVar3 = UI_UIManager__GetLocale
-                         ("CreateGamePopup","Custom","CustomLogicLocation","","",
-                          (MethodInfo *)0x0);
-      UI_ElementFactory__CreateDefaultLabel(pUVar12,pUVar4,pSVar3,0,3,(MethodInfo *)0x0);
-      pUVar12 = (__this->fields).DoublePanelRight;
-      pSVar3 = (System_String_o *)
-               (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                         (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-      pUVar4 = (UI_ElementStyle_o *)il2cpp_runtime_glue(TypeInfo_ElementStyle);
-      UI_ElementStyle___ctor(pUVar4,0x14,120.0,20.0,pSVar3,(MethodInfo *)0x0);
-      pSVar3 = UI_UIManager__GetLocale
-                         ("CreateGamePopup","Custom","AddingCustomLogic","","",
-                          (MethodInfo *)0x0);
-      UI_ElementFactory__CreateDefaultLabel(pUVar12,pUVar4,pSVar3,0,3,(MethodInfo *)0x0);
-      return;
-    }
-    if (pUVar8 != (UnityEngine_GameObject_o *)0x0) {
-      uVar16 = 0;
-      do {
-        pIVar11 = (Il2CppObject *)il2cpp_runtime_glue(TypeInfo_c__DisplayClass4_3);
-        System_Object___ctor(pIVar11,(MethodInfo *)0x0);
-        if (pIVar11 == (Il2CppObject *)0x0) goto LAB_04063073;
-        pIVar11[1].monitor = __this;
-        il2cpp_runtime_glue(&pIVar11[1].monitor,__this);
-        if (*(uint *)(lVar9 + 0x18) <= uVar16) goto LAB_0406308f;
-        pIVar11[1].klass = *(Il2CppClass **)(lVar9 + 0x20 + uVar16 * 8);
-        il2cpp_runtime_glue(pIVar11 + 1);
-        pUVar12 = UnityEngine_GameObject__get_transform(pUVar8,(MethodInfo *)0x0);
-        pIVar2 = pIVar11[1].klass;
-        if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-          il2cpp_init_class();
+  (__this->fields).CurrentLogicNames = (System_String_array *)options_00;
+  il2cpp_runtime_helper_022b4080(&(__this->fields).CurrentLogicNames);
+  __this_01 = __this;
+  options = (System_String_array *)&"CreateGamePopup";
+  if ((System_String_array *)options_00 != (System_String_array *)0x0) {
+    if (((System_String_array *)options_00)->max_length == 0) {
+      pUVar6 = UI_ElementFactory__CreateHorizontalGroup
+                         ((__this->fields).DoublePanelRight,10.0,0,(MethodInfo *)0x0);
+      __this_00 = TypeInfo_string;
+      pSVar11 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
+      if (pSVar11 != (System_String_array *)0x0) {
+        if ((int)pSVar11->max_length != 0) {
+          parent_00 = (UI_CreateGameCustomPanel_o *)pSVar11->m_Items;
+          pSVar11->m_Items[0] = "New";
+          il2cpp_runtime_helper_022b4080(parent_00);
+          if (0 < (int)pSVar11->max_length) {
+            if (pUVar6 == (UnityEngine_GameObject_o *)0x0) goto label_04370ed2;
+            options_00 = (System_String_o **)0x0;
+            do {
+              pIVar8 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass4_3);
+              System_Object___ctor(pIVar8,(MethodInfo *)0x0);
+              parent_00 = (UI_CreateGameCustomPanel_o *)0x0;
+              options = pSVar11;
+              if (pIVar8 == (Il2CppObject *)0x0) goto label_04370ef3;
+              __this_00 = (System_String_array *)&pIVar8[1].monitor;
+              pIVar8[1].monitor = __this;
+              il2cpp_runtime_helper_022b4080();
+              if ((System_String_array *)(ulong)(uint)pSVar11->max_length <= options_00) goto label_04370f0f;
+              pIVar8[1].klass = (Il2CppClass *)pSVar11->m_Items[(long)options_00];
+              il2cpp_runtime_helper_022b4080(pIVar8 + 1);
+              pUVar13 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
+              pIVar2 = pIVar8[1].klass;
+              if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
+                il2cpp_runtime_helper_02337ed0();
+              }
+              pSVar3 = UI_UIManager__GetLocaleCommon((System_String_o *)pIVar2,(MethodInfo *)0x0);
+              pUVar12 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
+              UnityEngine_Events_UnityAction___ctor();
+              UI_ElementFactory__CreateDefaultButton(pUVar13,pUVar4,pSVar3,0.0,0.0,pUVar12,(MethodInfo *)0x0);
+              options_00 = (System_String_o **)((long)&(((System_String_array *)options_00)->obj).klass + 1);
+            } while ((long)options_00 < (long)(int)pSVar11->max_length);
+          }
+label_04370cb3:
+          UI_BasePanel__CreateHorizontalDivider
+                    ((UI_BasePanel_o *)__this,(__this->fields).DoublePanelRight,1.0,(MethodInfo *)0x0);
+          pUVar13 = (__this->fields).DoublePanelRight;
+          pSVar3 = (System_String_o *)
+                   (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+                             (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
+          pUVar4 = (UI_ElementStyle_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
+          UI_ElementStyle___ctor(pUVar4,0x14,120.0,20.0,pSVar3,(MethodInfo *)0x0);
+          if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
+            il2cpp_runtime_helper_02337ed0();
+          }
+          pSVar3 = UI_UIManager__GetLocale
+                             ("CreateGamePopup","Custom","CustomLogicLocation","","",
+                              (MethodInfo *)0x0);
+          UI_ElementFactory__CreateDefaultLabel(pUVar13,pUVar4,pSVar3,0,3,(MethodInfo *)0x0);
+          pUVar13 = (__this->fields).DoublePanelRight;
+          pSVar3 = (System_String_o *)
+                   (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+                             (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
+          pUVar4 = (UI_ElementStyle_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
+          UI_ElementStyle___ctor(pUVar4,0x14,120.0,20.0,pSVar3,(MethodInfo *)0x0);
+          pSVar3 = UI_UIManager__GetLocale
+                             ("CreateGamePopup","Custom","AddingCustomLogic","","",
+                              (MethodInfo *)0x0);
+          UI_ElementFactory__CreateDefaultLabel(pUVar13,pUVar4,pSVar3,0,3,(MethodInfo *)0x0);
+          return;
         }
-        pSVar3 = UI_UIManager__GetLocaleCommon((System_String_o *)pIVar2,(MethodInfo *)0x0);
-        pUVar10 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_glue(TypeInfo_UnityAction);
-        UnityEngine_Events_UnityAction___ctor();
-        UI_ElementFactory__CreateDefaultButton
-                  (pUVar12,pUVar4,pSVar3,0.0,0.0,pUVar10,(MethodInfo *)0x0);
-        uVar16 = uVar16 + 1;
-      } while ((long)uVar16 < (long)*(int *)(lVar9 + 0x18));
-      goto LAB_04062e33;
+label_04370f0f:
+        il2cpp_runtime_helper_022b2ca0();
+        System_Object___ctor(&__this_00->obj,(MethodInfo *)0x0);
+        return;
+      }
     }
-    puVar14 = &TypeInfo_c__DisplayClass4_3;
-  }
-  else {
-    if (*(int *)(TypeInfo_CreateGameCustomPanel + 0xe4) == 0) {
-      il2cpp_init_class();
-    }
-    pSVar13 = *(Settings_TypedSetting_int__o **)(*(long *)(TypeInfo_CreateGameCustomPanel + 0xb8) + 8);
-    if (pSVar13 == (Settings_TypedSetting_int__o *)0x0) goto LAB_04063073;
-    if ((int)pSVar5->max_length <= (pSVar13->fields)._value) {
+    else {
       if (*(int *)(TypeInfo_CreateGameCustomPanel + 0xe4) == 0) {
-        il2cpp_init_class();
-        pSVar13 = *(Settings_TypedSetting_int__o **)(*(long *)(TypeInfo_CreateGameCustomPanel + 0xb8) + 8);
-        if (pSVar13 == (Settings_TypedSetting_int__o *)0x0) goto LAB_04063073;
+        il2cpp_runtime_helper_02337ed0();
       }
-      Settings_TypedSetting<int>__set_Value(pSVar13,0,MethodInfo_Void_set_Value);
-    }
-    pUVar12 = (__this->fields).DoublePanelRight;
-    pSVar6 = (System_String_o *)
-             (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                       (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-    pUVar7 = (UI_ElementStyle_o *)il2cpp_runtime_glue(TypeInfo_ElementStyle);
-    UI_ElementStyle___ctor(pUVar7,0x18,53.0,20.0,pSVar6,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_CreateGameCustomPanel + 0xe4) == 0) {
-      il2cpp_init_class();
-    }
-    pSVar1 = *(Settings_BaseSetting_o **)(*(long *)(TypeInfo_CreateGameCustomPanel + 0xb8) + 8);
-    if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-      il2cpp_init_class();
-    }
-    pSVar3 = UI_UIManager__GetLocale
-                       (pSVar3,subCategory,"File","","",(MethodInfo *)0x0)
-    ;
-    UI_ElementFactory__CreateDropdownSetting
-              (pUVar12,pUVar7,pSVar1,pSVar3,pSVar5,"",269.0,40.0,300.0,
-               (System_Nullable_float__o)0x0,(UnityEngine_Events_UnityAction_o *)0x0,
-               (MethodInfo *)0x0);
-    pUVar8 = UI_ElementFactory__CreateHorizontalGroup
-                       ((__this->fields).DoublePanelRight,10.0,0,(MethodInfo *)0x0);
-    lVar9 = il2cpp_glue_02274930(TypeInfo_string,4);
-    if (lVar9 == 0) goto LAB_04063073;
-    if (*(int *)(lVar9 + 0x18) == 0) goto LAB_0406308f;
-    puVar15 = (undefined8 *)(lVar9 + 0x20);
-    *(undefined8 *)(lVar9 + 0x20) = "New";
-    il2cpp_runtime_glue(puVar15);
-    if (*(uint *)(lVar9 + 0x18) < 2) goto LAB_0406308f;
-    *(undefined8 *)(lVar9 + 0x28) = "Delete";
-    il2cpp_runtime_glue(lVar9 + 0x28);
-    if (*(uint *)(lVar9 + 0x18) < 3) goto LAB_0406308f;
-    *(undefined8 *)(lVar9 + 0x30) = "Modify";
-    il2cpp_runtime_glue(lVar9 + 0x30);
-    if (*(uint *)(lVar9 + 0x18) < 4) goto LAB_0406308f;
-    *(undefined8 *)(lVar9 + 0x38) = "Export";
-    il2cpp_runtime_glue(lVar9 + 0x38);
-    if (*(int *)(lVar9 + 0x18) < 1) goto LAB_04062e33;
-    if (pUVar8 != (UnityEngine_GameObject_o *)0x0) {
-      uVar16 = 0;
-      do {
-        pIVar11 = (Il2CppObject *)il2cpp_runtime_glue(TypeInfo_c__DisplayClass4_2);
-        System_Object___ctor(pIVar11,(MethodInfo *)0x0);
-        if (pIVar11 == (Il2CppObject *)0x0) goto LAB_04063073;
-        pIVar11[1].monitor = __this;
-        il2cpp_runtime_glue(&pIVar11[1].monitor,__this);
-        if (*(uint *)(lVar9 + 0x18) <= uVar16) goto LAB_0406308f;
-        pIVar11[1].klass = *(Il2CppClass **)(lVar9 + 0x20 + uVar16 * 8);
-        il2cpp_runtime_glue(pIVar11 + 1);
-        pUVar12 = UnityEngine_GameObject__get_transform(pUVar8,(MethodInfo *)0x0);
-        pIVar2 = pIVar11[1].klass;
-        if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-          il2cpp_init_class();
+      pSVar10 = *(Settings_TypedSetting_int__o **)(*(long *)(TypeInfo_CreateGameCustomPanel + 0xb8) + 8);
+      if (pSVar10 != (Settings_TypedSetting_int__o *)0x0) {
+        if ((int)((System_String_array *)options_00)->max_length <= (pSVar10->fields)._value) {
+          if (*(int *)(TypeInfo_CreateGameCustomPanel + 0xe4) == 0) {
+            il2cpp_runtime_helper_02337ed0();
+            pSVar10 = *(Settings_TypedSetting_int__o **)(*(long *)(TypeInfo_CreateGameCustomPanel + 0xb8) + 8);
+            if (pSVar10 == (Settings_TypedSetting_int__o *)0x0) goto label_04370ef3;
+          }
+          Settings_TypedSetting_int___set_Value(pSVar10,0,MethodInfo_Void_set_Value);
         }
-        pSVar3 = UI_UIManager__GetLocaleCommon((System_String_o *)pIVar2,(MethodInfo *)0x0);
-        pUVar10 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_glue(TypeInfo_UnityAction);
-        UnityEngine_Events_UnityAction___ctor();
-        UI_ElementFactory__CreateDefaultButton
-                  (pUVar12,pUVar4,pSVar3,0.0,0.0,pUVar10,(MethodInfo *)0x0);
-        uVar16 = uVar16 + 1;
-      } while ((long)uVar16 < (long)*(int *)(lVar9 + 0x18));
-      goto LAB_04062e33;
+        pUVar13 = (__this->fields).DoublePanelRight;
+        pSVar5 = (System_String_o *)
+                 (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+                           (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
+        options = (System_String_array *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
+        UI_ElementStyle___ctor((UI_ElementStyle_o *)options,0x18,53.0,20.0,pSVar5,(MethodInfo *)0x0);
+        if (*(int *)(TypeInfo_CreateGameCustomPanel + 0xe4) == 0) {
+          il2cpp_runtime_helper_02337ed0();
+        }
+        pSVar1 = *(Settings_BaseSetting_o **)(*(long *)(TypeInfo_CreateGameCustomPanel + 0xb8) + 8);
+        if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
+          il2cpp_runtime_helper_02337ed0();
+        }
+        pSVar3 = UI_UIManager__GetLocale
+                           (pSVar3,subCategory,"File","","",(MethodInfo *)0x0);
+        UI_ElementFactory__CreateDropdownSetting
+                  (pUVar13,(UI_ElementStyle_o *)options,pSVar1,pSVar3,(System_String_array *)options_00,
+                   "",269.0,40.0,300.0,(System_Nullable_float__o)0x0,
+                   (UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
+        pUVar6 = UI_ElementFactory__CreateHorizontalGroup
+                           ((__this->fields).DoublePanelRight,10.0,0,(MethodInfo *)0x0);
+        __this_00 = TypeInfo_string;
+        pSVar11 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
+        parent_00 = (UI_CreateGameCustomPanel_o *)&"";
+        if (pSVar11 != (System_String_array *)0x0) {
+          if ((int)pSVar11->max_length != 0) {
+            parent_00 = (UI_CreateGameCustomPanel_o *)pSVar11->m_Items;
+            pSVar11->m_Items[0] = "New";
+            __this_00 = (System_String_array *)parent_00;
+            il2cpp_runtime_helper_022b4080();
+            if (1 < (uint)pSVar11->max_length) {
+              __this_00 = (System_String_array *)(pSVar11->m_Items + 1);
+              pSVar11->m_Items[1] = "Delete";
+              il2cpp_runtime_helper_022b4080();
+              if (2 < (uint)pSVar11->max_length) {
+                __this_00 = (System_String_array *)(pSVar11->m_Items + 2);
+                pSVar11->m_Items[2] = "Modify";
+                il2cpp_runtime_helper_022b4080();
+                if (3 < (uint)pSVar11->max_length) {
+                  pSVar11->m_Items[3] = "Export";
+                  il2cpp_runtime_helper_022b4080(pSVar11->m_Items + 3);
+                  if (0 < (int)pSVar11->max_length) {
+                    options = pSVar11;
+                    if (pUVar6 == (UnityEngine_GameObject_o *)0x0) {
+label_04370e76:
+                      puVar14 = &TypeInfo_c__DisplayClass4_2;
+                      goto label_04370ed9;
+                    }
+                    options_00 = (System_String_o **)0x0;
+                    do {
+                      pIVar8 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass4_2);
+                      System_Object___ctor(pIVar8,(MethodInfo *)0x0);
+                      parent_00 = (UI_CreateGameCustomPanel_o *)0x0;
+                      if (pIVar8 == (Il2CppObject *)0x0) goto label_04370ef3;
+                      __this_00 = (System_String_array *)&pIVar8[1].monitor;
+                      pIVar8[1].monitor = __this;
+                      il2cpp_runtime_helper_022b4080();
+                      if ((System_String_array *)(ulong)(uint)pSVar11->max_length <= options_00)
+                      goto label_04370f0f;
+                      pIVar8[1].klass = (Il2CppClass *)pSVar11->m_Items[(long)options_00];
+                      il2cpp_runtime_helper_022b4080(pIVar8 + 1);
+                      pUVar13 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
+                      pIVar2 = pIVar8[1].klass;
+                      if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
+                        il2cpp_runtime_helper_02337ed0();
+                      }
+                      pSVar3 = UI_UIManager__GetLocaleCommon((System_String_o *)pIVar2,(MethodInfo *)0x0);
+                      pUVar12 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
+                      UnityEngine_Events_UnityAction___ctor();
+                      UI_ElementFactory__CreateDefaultButton
+                                (pUVar13,pUVar4,pSVar3,0.0,0.0,pUVar12,(MethodInfo *)0x0);
+                      options_00 = (System_String_o **)
+                                   ((long)&(((System_String_array *)options_00)->obj).klass + 1);
+                    } while ((long)options_00 < (long)(int)pSVar11->max_length);
+                  }
+                  goto label_04370cb3;
+                }
+              }
+            }
+          }
+          goto label_04370f0f;
+        }
+      }
     }
-    puVar14 = &TypeInfo_c__DisplayClass4_2;
   }
-  pIVar11 = (Il2CppObject *)il2cpp_runtime_glue(*puVar14);
-  System_Object___ctor(pIVar11,(MethodInfo *)0x0);
-  if (pIVar11 != (Il2CppObject *)0x0) {
-    pIVar11[1].monitor = __this;
-    il2cpp_runtime_glue(&pIVar11[1].monitor,__this);
-    if (*(int *)(lVar9 + 0x18) != 0) {
-LAB_04063039:
-      pIVar11[1].klass = (Il2CppClass *)*puVar15;
-      il2cpp_runtime_glue(pIVar11 + 1);
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
-    }
-LAB_0406308f:
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
-  }
-LAB_04063073:
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+label_04370ef3:
+  do {
+    il2cpp_runtime_helper_022b2c90();
+    do {
+      __this_00 = (System_String_array *)&((System_String_array *)options_00)->max_length;
+      ((System_String_array *)options_00)->max_length = (il2cpp_array_size_t)__this_01;
+      il2cpp_runtime_helper_022b4080();
+      pSVar11 = options;
+      if ((int)options->max_length == 0) goto label_04370f0f;
+label_04370eb9:
+      ((UnityEngine_Transform_Fields *)&((System_String_array *)options_00)->bounds)->m_CachedPtr =
+           (intptr_t)parent_00->klass;
+      il2cpp_runtime_helper_022b4080((UnityEngine_Transform_Fields *)&((System_String_array *)options_00)->bounds);
+      il2cpp_runtime_helper_022b2c90();
+label_04370ed2:
+      puVar14 = &TypeInfo_c__DisplayClass4_3;
+      options = pSVar11;
+label_04370ed9:
+      options_00 = (System_String_o **)il2cpp_runtime_helper_023052d0(*puVar14);
+      System_Object___ctor((Il2CppObject *)options_00,(MethodInfo *)0x0);
+    } while ((System_String_array *)options_00 != (System_String_array *)0x0);
+  } while( true );
 }
 
 
 // UI.CreateGameCustomPanel$$OnCustomButtonClick
 // il2cpp: void UI_CreateGameCustomPanel__OnCustomButtonClick (UI_CreateGameCustomPanel_o* __this, System_String_o* name, bool isMap, const MethodInfo* method);
-// 0x40630e0
+// 0x4370f60
 
 void UI_CreateGameCustomPanel__OnCustomButtonClick
                (UI_CreateGameCustomPanel_o *__this,System_String_o *name,bool_conflict isMap,
@@ -650,162 +868,287 @@ void UI_CreateGameCustomPanel__OnCustomButtonClick
 {
   char cVar1;
   uint uVar2;
-  long lVar3;
-  UI_NewImportPopup_o *__this_00;
+  Settings_TypedSetting_T__o *pSVar3;
+  System_Threading_CancellationTokenSource_o *pSVar4;
+  System_Threading_CancellationTokenSource_c *pSVar5;
+  undefined8 uVar6;
+  long lVar7;
+  UI_BasePopup_o *__this_00;
   UI_ConfirmPopup_o *__this_01;
   UI_ImportPopup_o *__this_02;
   UI_ExportPopup_o *__this_03;
-  System_String_array *pSVar4;
-  bool_conflict bVar5;
-  Il2CppObject *__this_04;
-  UnityEngine_Events_UnityAction_o *pUVar6;
-  System_String_o *pSVar7;
+  System_String_array *pSVar8;
+  bool_conflict bVar9;
+  UnityEngine_GameObject_o *pUVar10;
+  Settings_StringSetting_o *__this_04;
+  MethodInfo *pMVar11;
+  UI_BasePopup_c *pUVar12;
+  System_String_o *pSVar13;
+  UnityEngine_Events_UnityAction_o *onConfirm;
   System_String_o *title;
+  UI_BasePopup_c *pUVar14;
+  UI_BasePopup_o *__this_05;
+  System_Threading_CancellationTokenSource_o *__this_06;
   
-  if (DAT_05704484 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_BuiltinLevels);
-    il2cpp_init_method_metadata(&TypeInfo_CreateGameCustomPanel);
-    il2cpp_init_method_metadata(&MethodInfo_Int32_get_Value);
-    il2cpp_init_method_metadata(&MethodInfo_Void__OnCustomButtonClick_b__0);
-    il2cpp_init_method_metadata(&MethodInfo_Void__OnCustomButtonClick_b__1);
-    il2cpp_init_method_metadata(&MethodInfo_Void__OnCustomButtonClick_b__2);
-    il2cpp_init_method_metadata(&TypeInfo_c__DisplayClass5_0);
-    il2cpp_init_method_metadata(&TypeInfo_UIManager);
-    il2cpp_init_method_metadata(&TypeInfo_UnityAction);
-    il2cpp_init_method_metadata(&"Custom");
-    il2cpp_init_method_metadata(&"Modify");
-    il2cpp_init_method_metadata(&"Delete");
-    il2cpp_init_method_metadata(&"DeleteWarning");
-    il2cpp_init_method_metadata(&"New");
-    il2cpp_init_method_metadata(&"");
-    il2cpp_init_method_metadata(&"Export");
-    DAT_05704484 = '\x01';
+  if (g_data_057ae1fe == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinLevels);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_CreateGameCustomPanel);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnCustomButtonClick_b__0);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnCustomButtonClick_b__1);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnCustomButtonClick_b__2);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass5_0);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction);
+    il2cpp_runtime_helper_023445d0(&"Custom");
+    il2cpp_runtime_helper_023445d0(&"Modify");
+    il2cpp_runtime_helper_023445d0(&"Delete");
+    il2cpp_runtime_helper_023445d0(&"DeleteWarning");
+    il2cpp_runtime_helper_023445d0(&"New");
+    il2cpp_runtime_helper_023445d0(&"");
+    il2cpp_runtime_helper_023445d0(&"Export");
+    g_data_057ae1fe = '\x01';
   }
-  __this_04 = (Il2CppObject *)il2cpp_runtime_glue(TypeInfo_c__DisplayClass5_0);
-  System_Object___ctor(__this_04,(MethodInfo *)0x0);
-  if (__this_04 != (Il2CppObject *)0x0) {
-    __this_04[1].klass = (Il2CppClass *)__this;
-    il2cpp_runtime_glue(__this_04 + 1,__this);
-    __this_04[1].monitor = name;
-    il2cpp_runtime_glue(&__this_04[1].monitor,name);
-    *(char *)&__this_04[2].klass = (char)isMap;
-    pSVar7 = __this_04[1].monitor;
-    bVar5 = System_String__op_Equality(pSVar7,"New",(MethodInfo *)0x0);
-    if ((char)bVar5 == '\0') {
-      bVar5 = System_String__op_Equality(pSVar7,"Delete",(MethodInfo *)0x0);
-      if ((char)bVar5 == '\0') {
-        bVar5 = System_String__op_Equality(pSVar7,"Modify",(MethodInfo *)0x0);
-        if ((char)bVar5 == '\0') {
-          bVar5 = System_String__op_Equality(pSVar7,"Export",(MethodInfo *)0x0);
-          if ((char)bVar5 == '\0') {
+  pUVar12 = (UI_BasePopup_c *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass5_0);
+  pUVar14 = pUVar12;
+  System_Object___ctor((Il2CppObject *)pUVar12,(MethodInfo *)0x0);
+  if (pUVar12 != (UI_BasePopup_c *)0x0) {
+    (pUVar12->_1).name = (char *)__this;
+    il2cpp_runtime_helper_022b4080(&(pUVar12->_1).name,__this);
+    (pUVar12->_1).namespaze = (char *)name;
+    il2cpp_runtime_helper_022b4080(&(pUVar12->_1).namespaze,name);
+    *(char *)&(pUVar12->_1).byval_arg.data = (char)isMap;
+    pSVar13 = (System_String_o *)(pUVar12->_1).namespaze;
+    bVar9 = System_String__op_Equality(pSVar13,"New",(MethodInfo *)0x0);
+    if ((char)bVar9 == '\0') {
+      bVar9 = System_String__op_Equality(pSVar13,(System_String_o *)"Delete",(MethodInfo *)0x0);
+      if ((char)bVar9 == '\0') {
+        bVar9 = System_String__op_Equality(pSVar13,"Modify",(MethodInfo *)0x0);
+        if ((char)bVar9 == '\0') {
+          bVar9 = System_String__op_Equality(pSVar13,"Export",(MethodInfo *)0x0);
+          if ((char)bVar9 == '\0') {
             return;
           }
-          cVar1 = *(char *)&__this_04[2].klass;
-          if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-            il2cpp_init_class();
+          cVar1 = *(char *)&(pUVar12->_1).byval_arg.data;
+          if (*(int *)&(TypeInfo_UIManager->_2).field_0x1c == 0) {
+            il2cpp_runtime_helper_02337ed0();
           }
-          lVar3 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-          if (lVar3 != 0) {
-            __this_03 = *(UI_ExportPopup_o **)(lVar3 + 0x68);
+          lVar7 = *(long *)((long)TypeInfo_UIManager->static_fields + 0x28);
+          pUVar14 = TypeInfo_UIManager;
+          if (lVar7 != 0) {
+            __this_03 = *(UI_ExportPopup_o **)(lVar7 + 0x68);
             if (cVar1 == '\0') {
-              pSVar4 = (__this->fields).CurrentLogicNames;
-              if (*(int *)(TypeInfo_CreateGameCustomPanel + 0xe4) == 0) {
-                il2cpp_init_class();
+              pSVar8 = (__this->fields).CurrentLogicNames;
+              if (*(int *)&(TypeInfo_CreateGameCustomPanel->_2).field_0x1c == 0) {
+                il2cpp_runtime_helper_02337ed0();
               }
-              lVar3 = *(long *)(*(long *)(TypeInfo_CreateGameCustomPanel + 0xb8) + 8);
-              if ((lVar3 == 0) || (pSVar4 == (System_String_array *)0x0)) goto LAB_0406357f;
-              uVar2 = *(uint *)(lVar3 + 0x14);
-              if ((uint)pSVar4->max_length <= uVar2) goto LAB_04063584;
-              pSVar7 = pSVar4->m_Items[(int)uVar2];
-              if (*(int *)(TypeInfo_BuiltinLevels + 0xe4) == 0) {
-                il2cpp_init_class();
+              lVar7 = *(long *)((long)TypeInfo_CreateGameCustomPanel->static_fields + 8);
+              pUVar14 = TypeInfo_CreateGameCustomPanel;
+              if ((lVar7 != 0) && (pSVar8 != (System_String_array *)0x0)) {
+                uVar2 = *(uint *)(lVar7 + 0x14);
+                if ((uint)pSVar8->max_length <= uVar2) goto label_04371404;
+                pUVar14 = (UI_BasePopup_c *)pSVar8->m_Items[(int)uVar2];
+                if (*(int *)(TypeInfo_BuiltinLevels + 0xe4) == 0) {
+                  il2cpp_runtime_helper_02337ed0();
+                }
+                pSVar13 = Map_BuiltinLevels__LoadLogic((System_String_o *)pUVar14,(MethodInfo *)0x0);
+                goto joined_r0x043713e8;
               }
-              pSVar7 = Map_BuiltinLevels__LoadLogic(pSVar7,(MethodInfo *)0x0);
             }
             else {
-              pSVar4 = (__this->fields).CurrentMapNames;
-              if (*(int *)(TypeInfo_CreateGameCustomPanel + 0xe4) == 0) {
-                il2cpp_init_class();
+              pSVar8 = (__this->fields).CurrentMapNames;
+              if (*(int *)&(TypeInfo_CreateGameCustomPanel->_2).field_0x1c == 0) {
+                il2cpp_runtime_helper_02337ed0();
               }
-              if ((**(long **)(TypeInfo_CreateGameCustomPanel + 0xb8) == 0) || (pSVar4 == (System_String_array *)0x0))
-              goto LAB_0406357f;
-              uVar2 = *(uint *)(**(long **)(TypeInfo_CreateGameCustomPanel + 0xb8) + 0x14);
-              if ((uint)pSVar4->max_length <= uVar2) {
-LAB_04063584:
-                    /* WARNING: Subroutine does not return */
-                il2cpp_raise_exception();
+              pUVar14 = TypeInfo_CreateGameCustomPanel;
+              if ((*(long *)TypeInfo_CreateGameCustomPanel->static_fields != 0) && (pSVar8 != (System_String_array *)0x0)) {
+                uVar2 = *(uint *)(*(long *)TypeInfo_CreateGameCustomPanel->static_fields + 0x14);
+                if ((uint)pSVar8->max_length <= uVar2) goto label_04371404;
+                pSVar13 = pSVar8->m_Items[(int)uVar2];
+                if (*(int *)(TypeInfo_BuiltinLevels + 0xe4) == 0) {
+                  il2cpp_runtime_helper_02337ed0();
+                }
+                pUVar14 = "Custom";
+                pSVar13 = Map_BuiltinLevels__LoadMap
+                                    ((System_String_o *)"Custom",pSVar13,(MethodInfo *)0x0);
+joined_r0x043713e8:
+                if (__this_03 != (UI_ExportPopup_o *)0x0) {
+                  UI_ExportPopup__Show(__this_03,pSVar13,(MethodInfo *)0x0);
+                  return;
+                }
               }
-              pSVar7 = pSVar4->m_Items[(int)uVar2];
-              if (*(int *)(TypeInfo_BuiltinLevels + 0xe4) == 0) {
-                il2cpp_init_class();
-              }
-              pSVar7 = Map_BuiltinLevels__LoadMap("Custom",pSVar7,(MethodInfo *)0x0);
-            }
-            if (__this_03 != (UI_ExportPopup_o *)0x0) {
-              UI_ExportPopup__Show(__this_03,pSVar7,(MethodInfo *)0x0);
-              return;
             }
           }
         }
         else {
-          if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-            il2cpp_init_class();
+          if (*(int *)&(TypeInfo_UIManager->_2).field_0x1c == 0) {
+            il2cpp_runtime_helper_02337ed0();
           }
-          lVar3 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-          if (lVar3 != 0) {
-            __this_02 = *(UI_ImportPopup_o **)(lVar3 + 0x70);
-            pUVar6 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_glue(TypeInfo_UnityAction);
+          lVar7 = *(long *)((long)TypeInfo_UIManager->static_fields + 0x28);
+          pUVar14 = TypeInfo_UIManager;
+          if (lVar7 != 0) {
+            __this_02 = *(UI_ImportPopup_o **)(lVar7 + 0x70);
+            pUVar12 = (UI_BasePopup_c *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
+            pUVar14 = pUVar12;
             UnityEngine_Events_UnityAction___ctor();
             if (__this_02 != (UI_ImportPopup_o *)0x0) {
-              UI_ImportPopup__Show(__this_02,pUVar6,1,"",(MethodInfo *)0x0);
+              UI_ImportPopup__Show
+                        (__this_02,(UnityEngine_Events_UnityAction_o *)pUVar12,1,"",
+                         (MethodInfo *)0x0);
               return;
             }
           }
         }
       }
       else {
-        if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-          il2cpp_init_class();
+        if (*(int *)&(TypeInfo_UIManager->_2).field_0x1c == 0) {
+          il2cpp_runtime_helper_02337ed0();
         }
-        lVar3 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-        if (lVar3 != 0) {
-          __this_01 = *(UI_ConfirmPopup_o **)(lVar3 + 0x38);
-          pSVar7 = UI_UIManager__GetLocaleCommon("DeleteWarning",(MethodInfo *)0x0);
-          pUVar6 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_glue(TypeInfo_UnityAction);
+        lVar7 = *(long *)((long)TypeInfo_UIManager->static_fields + 0x28);
+        pUVar14 = TypeInfo_UIManager;
+        if (lVar7 != 0) {
+          __this_01 = *(UI_ConfirmPopup_o **)(lVar7 + 0x38);
+          pSVar13 = UI_UIManager__GetLocaleCommon("DeleteWarning",(MethodInfo *)0x0);
+          onConfirm = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
           UnityEngine_Events_UnityAction___ctor();
-          title = UI_UIManager__GetLocaleCommon("Delete",(MethodInfo *)0x0);
+          pUVar14 = "Delete";
+          title = UI_UIManager__GetLocaleCommon((System_String_o *)"Delete",(MethodInfo *)0x0);
           if (__this_01 != (UI_ConfirmPopup_o *)0x0) {
-            UI_ConfirmPopup__Show(__this_01,pSVar7,pUVar6,title,(MethodInfo *)0x0);
+            UI_ConfirmPopup__Show(__this_01,pSVar13,onConfirm,title,(MethodInfo *)0x0);
             return;
           }
         }
       }
     }
     else {
-      if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-        il2cpp_init_class();
+      if (*(int *)&(TypeInfo_UIManager->_2).field_0x1c == 0) {
+        il2cpp_runtime_helper_02337ed0();
       }
-      lVar3 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-      if (lVar3 != 0) {
-        __this_00 = *(UI_NewImportPopup_o **)(lVar3 + 0x78);
-        pUVar6 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_glue(TypeInfo_UnityAction);
+      lVar7 = *(long *)((long)TypeInfo_UIManager->static_fields + 0x28);
+      pUVar14 = TypeInfo_UIManager;
+      if (lVar7 != 0) {
+        __this_00 = *(UI_BasePopup_o **)(lVar7 + 0x78);
+        pUVar12 = (UI_BasePopup_c *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
+        pUVar14 = pUVar12;
         UnityEngine_Events_UnityAction___ctor();
-        if (__this_00 != (UI_NewImportPopup_o *)0x0) {
-          UI_NewImportPopup__Show(__this_00,pUVar6,1,(MethodInfo *)0x0);
+        if (__this_00 != (UI_BasePopup_o *)0x0) {
+          if (g_data_057ae133 == '\0') {
+            il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
+            g_data_057ae133 = '\x01';
+          }
+          pUVar14 = (UI_BasePopup_c *)0x0;
+          __this_05 = __this_00;
+          pUVar10 = UnityEngine_Component__get_gameObject
+                              ((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
+          if (pUVar10 != (UnityEngine_GameObject_o *)0x0) {
+            pMVar11 = (MethodInfo *)0x0;
+            bVar9 = UnityEngine_GameObject__get_activeSelf(pUVar10,(MethodInfo *)0x0);
+            if ((char)bVar9 != '\0') {
+              return;
+            }
+            UI_BasePopup__Show(__this_00,pMVar11);
+            __this_00[1].klass = pUVar12;
+            il2cpp_runtime_helper_022b4080(__this_00 + 1);
+            *(undefined1 *)&__this_00[1].fields.DoublePanelRight = 1;
+            pSVar3 = (Settings_TypedSetting_T__o *)__this_00[1].fields.SinglePanel;
+            __this_05 = (UI_BasePopup_o *)0x0;
+            pUVar14 = pUVar12;
+            if (pSVar3 != (Settings_TypedSetting_T__o *)0x0) {
+              pUVar14 = (UI_BasePopup_c *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+              Settings_TypedSetting_object___set_Value(pSVar3,(Il2CppObject *)pUVar14,MethodInfo_Void_set_Value);
+              pSVar3 = (Settings_TypedSetting_T__o *)__this_00[1].fields.DoublePanelLeft;
+              __this_05 = (UI_BasePopup_o *)0x0;
+              if (pSVar3 != (Settings_TypedSetting_T__o *)0x0) {
+                pUVar14 = (UI_BasePopup_c *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+                Settings_TypedSetting_object___set_Value(pSVar3,(Il2CppObject *)pUVar14,MethodInfo_Void_set_Value);
+                __this_05 = (UI_BasePopup_o *)__this_00[1].fields.m_CancellationTokenSource;
+                if (__this_05 != (UI_BasePopup_o *)0x0) {
+                  pUVar14 = (UI_BasePopup_c *)0x0;
+                  pUVar10 = UnityEngine_Component__get_gameObject
+                                      ((UnityEngine_Component_o *)__this_05,(MethodInfo *)0x0);
+                  if (pUVar10 != (UnityEngine_GameObject_o *)0x0) {
+                    UnityEngine_GameObject__SetActive(pUVar10,0,(MethodInfo *)0x0);
+                    (*(__this_00->klass->vtable)._23_SyncSettingElements.methodPtr)
+                              (__this_00,(__this_00->klass->vtable)._23_SyncSettingElements.method);
+                    return;
+                  }
+                }
+              }
+            }
+          }
+          il2cpp_runtime_helper_022b2c90();
+          pSVar4 = __this_05[1].fields.m_CancellationTokenSource;
+          __this_06 = (System_Threading_CancellationTokenSource_o *)0x0;
+          if (pSVar4 != (System_Threading_CancellationTokenSource_o *)0x0) {
+            (**(code **)&pSVar4->klass[3]._2.field_count)();
+            __this_06 = __this_05[1].fields.m_CancellationTokenSource;
+            if (__this_06 != (System_Threading_CancellationTokenSource_o *)0x0) {
+              pUVar14 = (UI_BasePopup_c *)0x0;
+              pUVar10 = UnityEngine_Component__get_gameObject
+                                  ((UnityEngine_Component_o *)__this_06,(MethodInfo *)0x0);
+              if (pUVar10 != (UnityEngine_GameObject_o *)0x0) {
+                UnityEngine_GameObject__SetActive(pUVar10,1,(MethodInfo *)0x0);
+                return;
+              }
+            }
+          }
+          il2cpp_runtime_helper_022b2c90();
+          if (g_data_057ae134 == '\0') {
+            il2cpp_runtime_helper_023445d0(&"Cancel");
+            il2cpp_runtime_helper_023445d0(&"Save");
+            g_data_057ae134 = '\x01';
+          }
+          bVar9 = System_String__op_Equality((System_String_o *)pUVar14,"Cancel",(MethodInfo *)0x0);
+          if ((char)bVar9 != '\0') {
+label_0435025a:
+            pSVar5 = __this_06->klass;
+            uVar6._0_4_ = pSVar5[1]._2.static_fields_size;
+            uVar6._4_4_ = pSVar5[1]._2.thread_static_fields_size;
+            (**(code **)&pSVar5[1]._2.element_size)(__this_06,uVar6);
+            return;
+          }
+          bVar9 = System_String__op_Equality((System_String_o *)pUVar14,"Save",(MethodInfo *)0x0);
+          if ((char)bVar9 != '\0') {
+            lVar7 = *(long *)&__this_06[2].fields._disposed;
+            if (lVar7 == 0) {
+              il2cpp_runtime_helper_022b2c90();
+              if (g_data_057ae135 == '\0') {
+                il2cpp_runtime_helper_023445d0(&TypeInfo_StringSetting);
+                g_data_057ae135 = '\x01';
+              }
+              pSVar13 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+              __this_04 = (Settings_StringSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_StringSetting);
+              Settings_StringSetting___ctor_40f74f0(__this_04,pSVar13,0x7fffffff,(MethodInfo *)0x0);
+              (pUVar14->_2).typeHierarchy = (Il2CppClass **)__this_04;
+              il2cpp_runtime_helper_022b4080(&pUVar14->_2,__this_04);
+              pSVar13 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+              pMVar11 = (MethodInfo *)il2cpp_runtime_helper_023052d0(TypeInfo_StringSetting);
+              Settings_StringSetting___ctor_40f74f0
+                        ((Settings_StringSetting_o *)pMVar11,pSVar13,0x7fffffff,(MethodInfo *)0x0);
+              (pUVar14->_2).unity_user_data = pMVar11;
+              il2cpp_runtime_helper_022b4080(&(pUVar14->_2).unity_user_data);
+              UI_BasePopup___ctor((UI_TooltipPopup_o *)pUVar14,pMVar11);
+              return;
+            }
+            (**(code **)(lVar7 + 0x18))(*(undefined8 *)(lVar7 + 0x40),*(undefined8 *)(lVar7 + 0x28));
+            if (*(char *)&__this_06[3].fields._registeredCallbacksLists == '\0') goto label_0435025a;
+          }
           return;
         }
       }
     }
   }
-LAB_0406357f:
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+label_04371404:
+  il2cpp_runtime_helper_022b2ca0();
+  System_Object___ctor((Il2CppObject *)pUVar14,(MethodInfo *)0x0);
+  return;
 }
 
 
 // UI.CreateGameCustomPanel$$OnCustomOperationFinish
 // il2cpp: void UI_CreateGameCustomPanel__OnCustomOperationFinish (UI_CreateGameCustomPanel_o* __this, System_String_o* name, bool isMap, const MethodInfo* method);
-// 0x40635a0
+// 0x4371420
 
 void UI_CreateGameCustomPanel__OnCustomOperationFinish
                (UI_CreateGameCustomPanel_o *__this,System_String_o *name,bool_conflict isMap,
@@ -813,302 +1156,338 @@ void UI_CreateGameCustomPanel__OnCustomOperationFinish
 
 {
   uint uVar1;
-  long lVar2;
-  Settings_StringSetting_o *pSVar3;
-  System_String_array *pSVar4;
+  Settings_StringSetting_o *pSVar2;
+  char cVar3;
+  bool_conflict bVar4;
+  undefined8 *puVar5;
+  System_String_o *pSVar6;
+  Map_MapScript_o *pMVar7;
+  long *plVar8;
+  undefined8 uVar9;
+  System_String_array *pSVar10;
+  System_String_o *pSVar11;
+  long lVar12;
+  System_String_o *pSVar13;
+  long *plVar14;
   UI_BasePanel_o *__this_00;
-  bool_conflict bVar5;
-  undefined8 *puVar6;
-  System_String_o *b;
-  System_String_o *pSVar7;
-  Map_MapScript_o *pMVar8;
-  char cVar9;
-  System_String_o *pSVar10;
-  UI_NewImportPopup_o *__this_01;
+  UI_NewImportPopup_o *unaff_R15;
+  undefined1 auVar15 [12];
   
-  if (DAT_05704485 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_BuiltinLevels);
-    il2cpp_init_method_metadata(&TypeInfo_CreateGameCustomPanel);
-    il2cpp_init_method_metadata(&TypeInfo_CustomLogicManager);
-    il2cpp_init_method_metadata(&MethodInfo_Boolean_Contains_String);
-    il2cpp_init_method_metadata(&TypeInfo_MapScript);
-    il2cpp_init_method_metadata(&MethodInfo_String_get_Value);
-    il2cpp_init_method_metadata(&MethodInfo_Int32_get_Value);
-    il2cpp_init_method_metadata(&TypeInfo_UIManager);
-    il2cpp_init_method_metadata(&"Custom");
-    il2cpp_init_method_metadata(&"WarningAlreadyExists");
-    il2cpp_init_method_metadata(&"CreateGamePopup");
-    il2cpp_init_method_metadata(&"Modify");
-    il2cpp_init_method_metadata(&"Delete");
-    il2cpp_init_method_metadata(&"New");
-    il2cpp_init_method_metadata(&"WarningEmptyName");
-    il2cpp_init_method_metadata(&"");
-    DAT_05704485 = '\x01';
+  if (g_data_057ae1ff == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinLevels);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_CreateGameCustomPanel);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicManager);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Contains_String);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_MapScript);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Value);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
+    il2cpp_runtime_helper_023445d0(&"Custom");
+    il2cpp_runtime_helper_023445d0(&"WarningAlreadyExists");
+    il2cpp_runtime_helper_023445d0(&"CreateGamePopup");
+    il2cpp_runtime_helper_023445d0(&"Modify");
+    il2cpp_runtime_helper_023445d0(&"Delete");
+    il2cpp_runtime_helper_023445d0(&"New");
+    il2cpp_runtime_helper_023445d0(&"WarningEmptyName");
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057ae1ff = '\x01';
   }
-  bVar5 = System_String__op_Equality(name,"New",(MethodInfo *)0x0);
-  cVar9 = (char)isMap;
-  if ((char)bVar5 == '\0') {
-    bVar5 = System_String__op_Equality(name,"Delete",(MethodInfo *)0x0);
-    if ((char)bVar5 == '\0') {
-      bVar5 = System_String__op_Equality(name,"Modify",(MethodInfo *)0x0);
-      if ((char)bVar5 != '\0') {
-        if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-          il2cpp_init_class();
+  bVar4 = System_String__op_Equality(name,"New",(MethodInfo *)0x0);
+  cVar3 = (char)isMap;
+  if ((char)bVar4 == '\0') {
+    bVar4 = System_String__op_Equality(name,"Delete",(MethodInfo *)0x0);
+    if ((char)bVar4 == '\0') {
+      bVar4 = System_String__op_Equality(name,"Modify",(MethodInfo *)0x0);
+      if ((char)bVar4 == '\0') goto label_043718d4;
+      if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
+        il2cpp_runtime_helper_02337ed0();
+      }
+      lVar12 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
+      if (lVar12 != 0) {
+        unaff_R15 = *(UI_NewImportPopup_o **)(lVar12 + 0x70);
+        if (cVar3 != '\0') {
+          pMVar7 = (Map_MapScript_o *)il2cpp_runtime_helper_023052d0(TypeInfo_MapScript);
+          Map_MapScript___ctor(pMVar7,(MethodInfo *)0x0);
+          if (unaff_R15 == (UI_NewImportPopup_o *)0x0) goto label_04371c0f;
+          pSVar2 = (unaff_R15->fields).ImportSetting;
+          if (pSVar2 == (Settings_StringSetting_o *)0x0) goto label_04371c14;
+          if (pMVar7 == (Map_MapScript_o *)0x0) goto label_04371c19;
+          (*(pMVar7->klass->vtable)._5_Deserialize.methodPtr)
+                    (pMVar7,(pSVar2->fields)._value,(pMVar7->klass->vtable)._5_Deserialize.method);
+          pSVar10 = (__this->fields).CurrentMapNames;
+          if (*(int *)(TypeInfo_CreateGameCustomPanel + 0xe4) == 0) {
+            il2cpp_runtime_helper_02337ed0();
+          }
+          if (**(long **)(TypeInfo_CreateGameCustomPanel + 0xb8) == 0) goto label_04371c32;
+          if (pSVar10 == (System_String_array *)0x0) goto label_04371c37;
+          uVar1 = *(uint *)(**(long **)(TypeInfo_CreateGameCustomPanel + 0xb8) + 0x14);
+          if ((uint)pSVar10->max_length <= uVar1) goto label_04371c3c;
+          pSVar11 = pSVar10->m_Items[(int)uVar1];
+          if (*(int *)(TypeInfo_BuiltinLevels + 0xe4) == 0) {
+            il2cpp_runtime_helper_02337ed0();
+          }
+          Map_BuiltinLevels__SaveCustomMap(pSVar11,pMVar7,(MethodInfo *)0x0);
+          (*(((UI_ImportPopup_c *)unaff_R15->klass)->vtable)._22_Hide.methodPtr)(unaff_R15);
+          goto label_043718d4;
         }
-        lVar2 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-        if (lVar2 == 0) goto LAB_04063d8a;
-        __this_01 = *(UI_NewImportPopup_o **)(lVar2 + 0x70);
-        if (cVar9 == '\0') {
-          if ((__this_01 == (UI_NewImportPopup_o *)0x0) ||
-             (pSVar3 = (__this_01->fields).ImportSetting, pSVar3 == (Settings_StringSetting_o *)0x0)
-             ) goto LAB_04063d8a;
-          pSVar10 = (pSVar3->fields)._value;
-          pSVar7 = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-          bVar5 = System_String__op_Inequality(pSVar10,pSVar7,(MethodInfo *)0x0);
-          if ((char)bVar5 != '\0') {
+        if ((unaff_R15 != (UI_NewImportPopup_o *)0x0) &&
+           (pSVar2 = (unaff_R15->fields).ImportSetting, pSVar2 != (Settings_StringSetting_o *)0x0)) {
+          pSVar13 = (pSVar2->fields)._value;
+          pSVar11 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+          bVar4 = System_String__op_Inequality(pSVar13,pSVar11,(MethodInfo *)0x0);
+          if ((char)bVar4 != '\0') {
             if (*(int *)(TypeInfo_CustomLogicManager + 0xe4) == 0) {
-              il2cpp_init_class();
+              il2cpp_runtime_helper_02337ed0();
             }
-            pSVar7 = CustomLogic_CustomLogicManager__TryParseLogic(pSVar10,(MethodInfo *)0x0);
+            pSVar11 = CustomLogic_CustomLogicManager__TryParseLogic(pSVar13,(MethodInfo *)0x0);
           }
-          bVar5 = System_String__op_Inequality
-                            (pSVar7,(System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8),
+          bVar4 = System_String__op_Inequality
+                            (pSVar11,(System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8),
                              (MethodInfo *)0x0);
-          if ((char)bVar5 == '\0') {
-            pSVar4 = (__this->fields).CurrentLogicNames;
+          if ((char)bVar4 == '\0') {
+            pSVar10 = (__this->fields).CurrentLogicNames;
             if (*(int *)(TypeInfo_CreateGameCustomPanel + 0xe4) == 0) {
-              il2cpp_init_class();
+              il2cpp_runtime_helper_02337ed0();
             }
-            lVar2 = *(long *)(*(long *)(TypeInfo_CreateGameCustomPanel + 0xb8) + 8);
-            if ((lVar2 == 0) || (pSVar4 == (System_String_array *)0x0)) goto LAB_04063d8a;
-            uVar1 = *(uint *)(lVar2 + 0x14);
-            if ((uint)pSVar4->max_length <= uVar1) goto LAB_04064167;
-            pSVar7 = pSVar4->m_Items[(int)uVar1];
+            lVar12 = *(long *)(*(long *)(TypeInfo_CreateGameCustomPanel + 0xb8) + 8);
+            if ((lVar12 == 0) || (pSVar10 == (System_String_array *)0x0)) goto label_04371c0a;
+            uVar1 = *(uint *)(lVar12 + 0x14);
+            if ((uint)pSVar10->max_length <= uVar1) goto label_04371fe7;
+            pSVar11 = pSVar10->m_Items[(int)uVar1];
             if (*(int *)(TypeInfo_BuiltinLevels + 0xe4) == 0) {
-              il2cpp_init_class();
+              il2cpp_runtime_helper_02337ed0();
             }
-            goto LAB_04063d63;
+label_04371be3:
+            Map_BuiltinLevels__SaveCustomLogic(pSVar11,pSVar13,(MethodInfo *)0x0);
+            (*(((UI_ImportPopup_c *)unaff_R15->klass)->vtable)._22_Hide.methodPtr)(unaff_R15);
+            __this_00 = (__this->fields).Parent;
           }
-          UI_ImportPopup__ShowError((UI_ImportPopup_o *)__this_01,pSVar7,(MethodInfo *)0x0);
-          __this_00 = (__this->fields).Parent;
-          goto joined_r0x040637e1;
+          else {
+            UI_ImportPopup__ShowError((UI_ImportPopup_o *)unaff_R15,pSVar11,(MethodInfo *)0x0);
+            __this_00 = (__this->fields).Parent;
+          }
+          goto joined_r0x04371861;
         }
-        pMVar8 = (Map_MapScript_o *)il2cpp_runtime_glue(TypeInfo_MapScript);
-        Map_MapScript___ctor(pMVar8,(MethodInfo *)0x0);
-        if (__this_01 == (UI_NewImportPopup_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-          il2cpp_raise_exception();
-        }
-        pSVar3 = (__this_01->fields).ImportSetting;
-        if (pSVar3 == (Settings_StringSetting_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-          il2cpp_raise_exception();
-        }
-        if (pMVar8 == (Map_MapScript_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-          il2cpp_raise_exception();
-        }
-        (*(pMVar8->klass->vtable)._5_Deserialize.methodPtr)
-                  (pMVar8,(pSVar3->fields)._value,(pMVar8->klass->vtable)._5_Deserialize.method);
-        pSVar4 = (__this->fields).CurrentMapNames;
-        if (*(int *)(TypeInfo_CreateGameCustomPanel + 0xe4) == 0) {
-          il2cpp_init_class();
-        }
-        if (**(long **)(TypeInfo_CreateGameCustomPanel + 0xb8) == 0) {
-                    /* WARNING: Subroutine does not return */
-          il2cpp_raise_exception();
-        }
-        if (pSVar4 == (System_String_array *)0x0) {
-                    /* WARNING: Subroutine does not return */
-          il2cpp_raise_exception();
-        }
-        uVar1 = *(uint *)(**(long **)(TypeInfo_CreateGameCustomPanel + 0xb8) + 0x14);
-        if ((uint)pSVar4->max_length <= uVar1) {
-                    /* WARNING: Subroutine does not return */
-          il2cpp_raise_exception();
-        }
-        pSVar10 = pSVar4->m_Items[(int)uVar1];
-        if (*(int *)(TypeInfo_BuiltinLevels + 0xe4) == 0) {
-          il2cpp_init_class();
-        }
-        Map_BuiltinLevels__SaveCustomMap(pSVar10,pMVar8,(MethodInfo *)0x0);
-        (*(__this_01->klass->vtable)._22_Hide.methodPtr)(__this_01);
       }
-      goto LAB_04063a54;
     }
-    if (cVar9 == '\0') {
-      pSVar4 = (__this->fields).CurrentLogicNames;
+    else if (cVar3 == '\0') {
+      pSVar10 = (__this->fields).CurrentLogicNames;
       if (*(int *)(TypeInfo_CreateGameCustomPanel + 0xe4) == 0) {
-        il2cpp_init_class();
+        il2cpp_runtime_helper_02337ed0();
       }
-      lVar2 = *(long *)(*(long *)(TypeInfo_CreateGameCustomPanel + 0xb8) + 8);
-      if ((lVar2 == 0) || (pSVar4 == (System_String_array *)0x0)) goto LAB_04063d8a;
-      uVar1 = *(uint *)(lVar2 + 0x14);
-      if ((uint)pSVar4->max_length <= uVar1) goto LAB_04064167;
-      pSVar10 = pSVar4->m_Items[(int)uVar1];
-      if (*(int *)(TypeInfo_BuiltinLevels + 0xe4) == 0) {
-        il2cpp_init_class();
+      lVar12 = *(long *)(*(long *)(TypeInfo_CreateGameCustomPanel + 0xb8) + 8);
+      if ((lVar12 != 0) && (pSVar10 != (System_String_array *)0x0)) {
+        uVar1 = *(uint *)(lVar12 + 0x14);
+        if ((uint)pSVar10->max_length <= uVar1) {
+label_04371fe7:
+          il2cpp_runtime_helper_022b2ca0();
+label_04371fec:
+          uVar9 = il2cpp_runtime_helper_0231b270();
+          il2cpp_runtime_helper_022b2b10(uVar9,0);
+          puVar5 = (undefined8 *)__cxa_allocate_exception(8);
+          *puVar5 = (pSVar10->obj).klass;
+          __cxa_throw(puVar5,&PTR_PTR_05215060,0);
+        }
+        pSVar11 = pSVar10->m_Items[(int)uVar1];
+        if (*(int *)(TypeInfo_BuiltinLevels + 0xe4) == 0) {
+          il2cpp_runtime_helper_02337ed0();
+        }
+        Map_BuiltinLevels__DeleteCustomLogic(pSVar11,(MethodInfo *)0x0);
+        __this_00 = (__this->fields).Parent;
+joined_r0x04371861:
+        if (__this_00 != (UI_BasePanel_o *)0x0) goto label_043718e1;
       }
-      Map_BuiltinLevels__DeleteCustomLogic(pSVar10,(MethodInfo *)0x0);
-      __this_00 = (__this->fields).Parent;
     }
     else {
-      pSVar4 = (__this->fields).CurrentMapNames;
+      pSVar10 = (__this->fields).CurrentMapNames;
       if (*(int *)(TypeInfo_CreateGameCustomPanel + 0xe4) == 0) {
-        il2cpp_init_class();
+        il2cpp_runtime_helper_02337ed0();
       }
-      if ((**(long **)(TypeInfo_CreateGameCustomPanel + 0xb8) == 0) || (pSVar4 == (System_String_array *)0x0))
-      goto LAB_04063d8a;
-      uVar1 = *(uint *)(**(long **)(TypeInfo_CreateGameCustomPanel + 0xb8) + 0x14);
-      if ((uint)pSVar4->max_length <= uVar1) {
-LAB_04064167:
-                    /* WARNING: Subroutine does not return */
-        il2cpp_raise_exception();
+      if ((**(long **)(TypeInfo_CreateGameCustomPanel + 0xb8) != 0) && (pSVar10 != (System_String_array *)0x0)) {
+        uVar1 = *(uint *)(**(long **)(TypeInfo_CreateGameCustomPanel + 0xb8) + 0x14);
+        if ((uint)pSVar10->max_length <= uVar1) goto label_04371fe7;
+        pSVar11 = pSVar10->m_Items[(int)uVar1];
+        if (*(int *)(TypeInfo_BuiltinLevels + 0xe4) == 0) {
+          il2cpp_runtime_helper_02337ed0();
+        }
+        Map_BuiltinLevels__DeleteCustomMap(pSVar11,(MethodInfo *)0x0);
+        __this_00 = (__this->fields).Parent;
+        goto joined_r0x04371861;
       }
-      pSVar10 = pSVar4->m_Items[(int)uVar1];
-      if (*(int *)(TypeInfo_BuiltinLevels + 0xe4) == 0) {
-        il2cpp_init_class();
-      }
-      Map_BuiltinLevels__DeleteCustomMap(pSVar10,(MethodInfo *)0x0);
-      __this_00 = (__this->fields).Parent;
     }
   }
   else {
     if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-      il2cpp_init_class();
+      il2cpp_runtime_helper_02337ed0();
     }
-    lVar2 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-    if (((lVar2 == 0) ||
-        (__this_01 = *(UI_NewImportPopup_o **)(lVar2 + 0x78),
-        __this_01 == (UI_NewImportPopup_o *)0x0)) ||
-       (pSVar3 = (__this_01->fields).FileName, pSVar3 == (Settings_StringSetting_o *)0x0))
-    goto LAB_04063d8a;
-    pSVar7 = (pSVar3->fields)._value;
-    bVar5 = System_String__op_Equality(pSVar7,"",(MethodInfo *)0x0);
-    if ((char)bVar5 == '\0') {
-      if (cVar9 != '\0') {
-        bVar5 = System_Linq_Enumerable__Contains<object>
+    lVar12 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
+    if (((lVar12 != 0) &&
+        (unaff_R15 = *(UI_NewImportPopup_o **)(lVar12 + 0x78), unaff_R15 != (UI_NewImportPopup_o *)0x0)) &&
+       (pSVar2 = (unaff_R15->fields).FileName, pSVar2 != (Settings_StringSetting_o *)0x0)) {
+      pSVar11 = (pSVar2->fields)._value;
+      bVar4 = System_String__op_Equality(pSVar11,"",(MethodInfo *)0x0);
+      if ((char)bVar4 != '\0') {
+        if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
+          il2cpp_runtime_helper_02337ed0();
+        }
+        puVar5 = &"WarningEmptyName";
+        goto label_043718b5;
+      }
+      if (cVar3 == '\0') {
+        bVar4 = System_Linq_Enumerable__Contains_object_
                           ((System_Collections_Generic_IEnumerable_TSource__o *)
-                           (__this->fields).CurrentMapNames,(Il2CppObject *)pSVar7,MethodInfo_Boolean_Contains_String);
-        if ((char)bVar5 == '\0') {
-          pMVar8 = (Map_MapScript_o *)il2cpp_runtime_glue(TypeInfo_MapScript);
-          Map_MapScript___ctor(pMVar8,(MethodInfo *)0x0);
+                           (__this->fields).CurrentLogicNames,(Il2CppObject *)pSVar11,MethodInfo_Boolean_Contains_String);
+        if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
+          il2cpp_runtime_helper_02337ed0();
+        }
+        if ((char)bVar4 == '\0') {
+          lVar12 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
+          if (((lVar12 != 0) && (lVar12 = *(long *)(lVar12 + 0x78), lVar12 != 0)) &&
+             (lVar12 = *(long *)(lVar12 + 200), lVar12 != 0)) {
+            pSVar13 = *(System_String_o **)(lVar12 + 0x18);
+            pSVar6 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+            bVar4 = System_String__op_Inequality(pSVar13,pSVar6,(MethodInfo *)0x0);
+            if ((char)bVar4 != '\0') {
+              if (*(int *)(TypeInfo_CustomLogicManager + 0xe4) == 0) {
+                il2cpp_runtime_helper_02337ed0();
+              }
+              pSVar6 = CustomLogic_CustomLogicManager__TryParseLogic(pSVar13,(MethodInfo *)0x0);
+            }
+            bVar4 = System_String__op_Inequality
+                              (pSVar6,(System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8),
+                               (MethodInfo *)0x0);
+            if ((char)bVar4 != '\0') goto label_043718cd;
+            if (*(int *)(TypeInfo_BuiltinLevels + 0xe4) == 0) {
+              il2cpp_runtime_helper_02337ed0();
+            }
+            goto label_04371be3;
+          }
+          goto label_04371c0a;
+        }
+      }
+      else {
+        bVar4 = System_Linq_Enumerable__Contains_object_
+                          ((System_Collections_Generic_IEnumerable_TSource__o *)
+                           (__this->fields).CurrentMapNames,(Il2CppObject *)pSVar11,MethodInfo_Boolean_Contains_String);
+        if ((char)bVar4 == '\0') {
+          pMVar7 = (Map_MapScript_o *)il2cpp_runtime_helper_023052d0(TypeInfo_MapScript);
+          Map_MapScript___ctor(pMVar7,(MethodInfo *)0x0);
           if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-            il2cpp_init_class();
+            il2cpp_runtime_helper_02337ed0();
           }
-          lVar2 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-          if (lVar2 == 0) {
-                    /* WARNING: Subroutine does not return */
-            il2cpp_raise_exception();
-          }
-          lVar2 = *(long *)(lVar2 + 0x78);
-          if (lVar2 == 0) {
-                    /* WARNING: Subroutine does not return */
-            il2cpp_raise_exception();
-          }
-          lVar2 = *(long *)(lVar2 + 200);
-          if (lVar2 == 0) {
-                    /* WARNING: Subroutine does not return */
-            il2cpp_raise_exception();
-          }
-          if (pMVar8 == (Map_MapScript_o *)0x0) {
-                    /* WARNING: Subroutine does not return */
-            il2cpp_raise_exception();
-          }
-          (*(pMVar8->klass->vtable)._5_Deserialize.methodPtr)
-                    (pMVar8,*(undefined8 *)(lVar2 + 0x18),
-                     (pMVar8->klass->vtable)._5_Deserialize.method);
-          lVar2 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-          if (lVar2 == 0) {
-                    /* WARNING: Subroutine does not return */
-            il2cpp_raise_exception();
-          }
-          lVar2 = *(long *)(lVar2 + 0x78);
-          if (lVar2 == 0) {
-                    /* WARNING: Subroutine does not return */
-            il2cpp_raise_exception();
-          }
-          lVar2 = *(long *)(lVar2 + 0xd0);
-          if (lVar2 == 0) {
-                    /* WARNING: Subroutine does not return */
-            il2cpp_raise_exception();
-          }
-          pSVar10 = *(System_String_o **)(lVar2 + 0x18);
+          lVar12 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
+          if (lVar12 == 0) goto label_04371c1e;
+          lVar12 = *(long *)(lVar12 + 0x78);
+          if (lVar12 == 0) goto label_04371c23;
+          lVar12 = *(long *)(lVar12 + 200);
+          if (lVar12 == 0) goto label_04371c28;
+          if (pMVar7 == (Map_MapScript_o *)0x0) goto label_04371c2d;
+          (*(pMVar7->klass->vtable)._5_Deserialize.methodPtr)
+                    (pMVar7,*(undefined8 *)(lVar12 + 0x18),(pMVar7->klass->vtable)._5_Deserialize.method);
+          lVar12 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
+          if (lVar12 == 0) goto label_04371c41;
+          lVar12 = *(long *)(lVar12 + 0x78);
+          if (lVar12 == 0) goto label_04371c46;
+          lVar12 = *(long *)(lVar12 + 0xd0);
+          if (lVar12 == 0) goto label_04371c4b;
+          pSVar11 = *(System_String_o **)(lVar12 + 0x18);
           if (*(int *)(TypeInfo_BuiltinLevels + 0xe4) == 0) {
-            il2cpp_init_class();
+            il2cpp_runtime_helper_02337ed0();
           }
-          Map_BuiltinLevels__SaveCustomMap(pSVar10,pMVar8,(MethodInfo *)0x0);
-          (*(__this_01->klass->vtable)._22_Hide.methodPtr)(__this_01);
-          goto LAB_04063a54;
+          Map_BuiltinLevels__SaveCustomMap(pSVar11,pMVar7,(MethodInfo *)0x0);
+          (*(((UI_ImportPopup_c *)unaff_R15->klass)->vtable)._22_Hide.methodPtr)(unaff_R15);
+          goto label_043718d4;
         }
         if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-          il2cpp_init_class();
+          il2cpp_runtime_helper_02337ed0();
         }
-LAB_04063a1a:
-        puVar6 = &"WarningAlreadyExists";
-        goto LAB_04063a35;
       }
-      bVar5 = System_Linq_Enumerable__Contains<object>
-                        ((System_Collections_Generic_IEnumerable_TSource__o *)
-                         (__this->fields).CurrentLogicNames,(Il2CppObject *)pSVar7,MethodInfo_Boolean_Contains_String);
-      if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-        il2cpp_init_class();
-      }
-      if ((char)bVar5 != '\0') goto LAB_04063a1a;
-      lVar2 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-      if (((lVar2 == 0) || (lVar2 = *(long *)(lVar2 + 0x78), lVar2 == 0)) ||
-         (lVar2 = *(long *)(lVar2 + 200), lVar2 == 0)) goto LAB_04063d8a;
-      pSVar10 = *(System_String_o **)(lVar2 + 0x18);
-      b = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-      bVar5 = System_String__op_Inequality(pSVar10,b,(MethodInfo *)0x0);
-      if ((char)bVar5 != '\0') {
-        if (*(int *)(TypeInfo_CustomLogicManager + 0xe4) == 0) {
-          il2cpp_init_class();
-        }
-        b = CustomLogic_CustomLogicManager__TryParseLogic(pSVar10,(MethodInfo *)0x0);
-      }
-      bVar5 = System_String__op_Inequality
-                        (b,(System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8),
-                         (MethodInfo *)0x0);
-      if ((char)bVar5 == '\0') {
-        if (*(int *)(TypeInfo_BuiltinLevels + 0xe4) == 0) {
-          il2cpp_init_class();
-        }
-LAB_04063d63:
-        Map_BuiltinLevels__SaveCustomLogic(pSVar7,pSVar10,(MethodInfo *)0x0);
-        (*(__this_01->klass->vtable)._22_Hide.methodPtr)(__this_01);
-        __this_00 = (__this->fields).Parent;
-        goto joined_r0x040637e1;
-      }
+      puVar5 = &"WarningAlreadyExists";
+label_043718b5:
+      pSVar6 = UI_UIManager__GetLocale
+                         ("CreateGamePopup","Custom",(System_String_o *)*puVar5,"","",
+                          (MethodInfo *)0x0);
+      goto label_043718cd;
     }
-    else {
-      if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-        il2cpp_init_class();
+  }
+label_04371c0a:
+  do {
+    do {
+      il2cpp_runtime_helper_022b2c90();
+label_04371c0f:
+      il2cpp_runtime_helper_022b2c90();
+label_04371c14:
+      il2cpp_runtime_helper_022b2c90();
+label_04371c19:
+      il2cpp_runtime_helper_022b2c90();
+label_04371c1e:
+      il2cpp_runtime_helper_022b2c90();
+label_04371c23:
+      il2cpp_runtime_helper_022b2c90();
+label_04371c28:
+      il2cpp_runtime_helper_022b2c90();
+label_04371c2d:
+      il2cpp_runtime_helper_022b2c90();
+label_04371c32:
+      il2cpp_runtime_helper_022b2c90();
+label_04371c37:
+      il2cpp_runtime_helper_022b2c90();
+label_04371c3c:
+      il2cpp_runtime_helper_022b2ca0();
+label_04371c41:
+      il2cpp_runtime_helper_022b2c90();
+label_04371c46:
+      il2cpp_runtime_helper_022b2c90();
+label_04371c4b:
+      auVar15 = il2cpp_runtime_helper_022b2c90();
+      if (auVar15._8_4_ != 1) {
+        _Unwind_Resume(auVar15._0_8_);
       }
-      puVar6 = &"WarningEmptyName";
-LAB_04063a35:
-      b = UI_UIManager__GetLocale
-                    ("CreateGamePopup","Custom",(System_String_o *)*puVar6,"","",
-                     (MethodInfo *)0x0);
+      plVar8 = (long *)__cxa_begin_catch(auVar15._0_8_);
+      uVar9 = il2cpp_runtime_helper_023445d0(&TypeInfo_Exception);
+      cVar3 = il2cpp_runtime_helper_0233e000(uVar9,*(undefined8 *)*plVar8);
+      if (cVar3 == '\0') {
+        plVar14 = (long *)__cxa_allocate_exception(8);
+        *plVar14 = *plVar8;
+        __cxa_throw(plVar14,&PTR_PTR_05215060,0);
+      }
+      plVar8 = (long *)*plVar8;
+      __cxa_end_catch();
+      uVar9 = il2cpp_runtime_helper_023445d0(&TypeInfo_object);
+      pSVar10 = (System_String_array *)il2cpp_runtime_helper_022b2a40(uVar9,1);
+    } while ((plVar8 == (long *)0x0) ||
+            (pSVar11 = (System_String_o *)
+                       (**(code **)(*plVar8 + 0x188))(plVar8,*(undefined8 *)(*plVar8 + 400)),
+            pSVar10 == (System_String_array *)0x0));
+    if ((pSVar11 != (System_String_o *)0x0) &&
+       (lVar12 = il2cpp_runtime_helper_023051f0(pSVar11,(((pSVar10->obj).klass)->_1).element_class), lVar12 == 0))
+    goto label_04371fec;
+    if ((int)pSVar10->max_length == 0) goto label_04371fe7;
+    pSVar10->m_Items[0] = pSVar11;
+    il2cpp_runtime_helper_022b4080(pSVar10->m_Items,pSVar11);
+    lVar12 = il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
+    if (*(int *)(lVar12 + 0xe4) == 0) {
+      il2cpp_runtime_helper_02337ed0(lVar12);
     }
-    UI_NewImportPopup__ShowError(__this_01,b,(MethodInfo *)0x0);
-LAB_04063a54:
+    pSVar11 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"CreateGamePopup");
+    pSVar13 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"Custom");
+    pSVar6 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"WarningInvalid");
+    pSVar6 = UI_UIManager__GetLocaleFormatted
+                       (pSVar11,pSVar13,pSVar6,(System_Object_array *)pSVar10,(MethodInfo *)0x0);
+label_043718cd:
+    UI_NewImportPopup__ShowError(unaff_R15,pSVar6,(MethodInfo *)0x0);
+label_043718d4:
     __this_00 = (__this->fields).Parent;
-  }
-joined_r0x040637e1:
-  if (__this_00 != (UI_BasePanel_o *)0x0) {
-    UI_BasePanel__RebuildCategoryPanel(__this_00,(MethodInfo *)0x0);
-    return;
-  }
-LAB_04063d8a:
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  } while (__this_00 == (UI_BasePanel_o *)0x0);
+label_043718e1:
+  UI_BasePanel__RebuildCategoryPanel(__this_00,(MethodInfo *)0x0);
+  return;
 }
 
 
 // UI.CreateGameCustomPanel$$.ctor
 // il2cpp: void UI_CreateGameCustomPanel___ctor (UI_CreateGameCustomPanel_o* __this, const MethodInfo* method);
-// 0x40641c0
+// 0x4372040
 
 void UI_CreateGameCustomPanel___ctor(UI_CreateGameCustomPanel_o *__this,MethodInfo *method)
 
@@ -1120,7 +1499,7 @@ void UI_CreateGameCustomPanel___ctor(UI_CreateGameCustomPanel_o *__this,MethodIn
 
 // UI.CreateGameCustomPanel$$.cctor
 // il2cpp: void UI_CreateGameCustomPanel___cctor (const MethodInfo* method);
-// 0x40641d0
+// 0x4372050
 
 void UI_CreateGameCustomPanel___cctor(MethodInfo *method)
 
@@ -1128,20 +1507,20 @@ void UI_CreateGameCustomPanel___cctor(MethodInfo *method)
   long lVar1;
   Settings_IntSetting_o *pSVar2;
   
-  if (DAT_05704486 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_CreateGameCustomPanel);
-    il2cpp_init_method_metadata(&TypeInfo_IntSetting);
-    DAT_05704486 = '\x01';
+  if (g_data_057ae200 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_CreateGameCustomPanel);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_IntSetting);
+    g_data_057ae200 = '\x01';
   }
-  pSVar2 = (Settings_IntSetting_o *)il2cpp_runtime_glue(TypeInfo_IntSetting);
-  Settings_IntSetting___ctor(pSVar2,0,-0x80000000,0x7fffffff,(MethodInfo *)0x0);
+  pSVar2 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
+  Settings_IntSetting___ctor_40f39a0(pSVar2,0,-0x80000000,0x7fffffff,(MethodInfo *)0x0);
   **(undefined8 **)(TypeInfo_CreateGameCustomPanel + 0xb8) = pSVar2;
-  il2cpp_runtime_glue(*(undefined8 *)(TypeInfo_CreateGameCustomPanel + 0xb8));
-  pSVar2 = (Settings_IntSetting_o *)il2cpp_runtime_glue(TypeInfo_IntSetting);
-  Settings_IntSetting___ctor(pSVar2,0,-0x80000000,0x7fffffff,(MethodInfo *)0x0);
+  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_CreateGameCustomPanel + 0xb8));
+  pSVar2 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
+  Settings_IntSetting___ctor_40f39a0(pSVar2,0,-0x80000000,0x7fffffff,(MethodInfo *)0x0);
   lVar1 = *(long *)(TypeInfo_CreateGameCustomPanel + 0xb8);
   *(Settings_IntSetting_o **)(lVar1 + 8) = pSVar2;
-  il2cpp_runtime_glue(lVar1 + 8,pSVar2);
+  il2cpp_runtime_helper_022b4080(lVar1 + 8,pSVar2);
   return;
 }
 

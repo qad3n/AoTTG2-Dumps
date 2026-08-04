@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.DocumentXPathNodeIterator_ElemDescendants
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.XPath;
 using Il2CppDummyDll;
 
@@ -22,7 +29,7 @@ internal abstract class DocumentXPathNodeIterator_ElemDescendants : XPathNodeIte
 	public override XPathNavigator Current
 	{
 		[Token(Token = "0x6000792")]
-		[Address(RVA = "0x4489490", Offset = "0x4489490", VA = "0x4489490", Slot = "8")]
+		[Address(RVA = "0x47C6BF0", Offset = "0x47C6BF0", VA = "0x47C6BF0", Slot = "8")]
 		get
 		{
 			return null;
@@ -33,7 +40,7 @@ internal abstract class DocumentXPathNodeIterator_ElemDescendants : XPathNodeIte
 	public override int CurrentPosition
 	{
 		[Token(Token = "0x6000793")]
-		[Address(RVA = "0x44894A0", Offset = "0x44894A0", VA = "0x44894A0", Slot = "9")]
+		[Address(RVA = "0x47C6C00", Offset = "0x47C6C00", VA = "0x47C6C00", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -41,13 +48,13 @@ internal abstract class DocumentXPathNodeIterator_ElemDescendants : XPathNodeIte
 	}
 
 	[Token(Token = "0x600078F")]
-	[Address(RVA = "0x4489340", Offset = "0x4489340", VA = "0x4489340")]
+	[Address(RVA = "0x47C6AA0", Offset = "0x47C6AA0", VA = "0x47C6AA0")]
 	internal DocumentXPathNodeIterator_ElemDescendants(DocumentXPathNavigator nav)
 	{
 	}
 
 	[Token(Token = "0x6000790")]
-	[Address(RVA = "0x44893E0", Offset = "0x44893E0", VA = "0x44893E0")]
+	[Address(RVA = "0x47C6B40", Offset = "0x47C6B40", VA = "0x47C6B40")]
 	internal DocumentXPathNodeIterator_ElemDescendants(DocumentXPathNodeIterator_ElemDescendants other)
 	{
 	}
@@ -56,13 +63,13 @@ internal abstract class DocumentXPathNodeIterator_ElemDescendants : XPathNodeIte
 	protected abstract bool Match(XmlNode node);
 
 	[Token(Token = "0x6000794")]
-	[Address(RVA = "0x44894B0", Offset = "0x44894B0", VA = "0x44894B0")]
+	[Address(RVA = "0x47C6C10", Offset = "0x47C6C10", VA = "0x47C6C10")]
 	protected void SetPosition(int pos)
 	{
 	}
 
 	[Token(Token = "0x6000795")]
-	[Address(RVA = "0x44894C0", Offset = "0x44894C0", VA = "0x44894C0", Slot = "7")]
+	[Address(RVA = "0x47C6C20", Offset = "0x47C6C20", VA = "0x47C6C20", Slot = "7")]
 	public override bool MoveNext()
 	{
 		return default(bool);

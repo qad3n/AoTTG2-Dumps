@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.KeyboardNavigationManipulator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -11,49 +18,49 @@ public class KeyboardNavigationManipulator : Manipulator
 	private readonly Action<KeyboardNavigationOperation, EventBase> m_Action;
 
 	[Token(Token = "0x6000E05")]
-	[Address(RVA = "0x4D243E0", Offset = "0x4D243E0", VA = "0x4D243E0")]
+	[Address(RVA = "0x504BD10", Offset = "0x504BD10", VA = "0x504BD10")]
 	public KeyboardNavigationManipulator(Action<KeyboardNavigationOperation, EventBase> action)
 	{
 	}
 
 	[Token(Token = "0x6000E06")]
-	[Address(RVA = "0x4D24420", Offset = "0x4D24420", VA = "0x4D24420", Slot = "5")]
+	[Address(RVA = "0x504BD50", Offset = "0x504BD50", VA = "0x504BD50", Slot = "5")]
 	protected override void RegisterCallbacksOnTarget()
 	{
 	}
 
 	[Token(Token = "0x6000E07")]
-	[Address(RVA = "0x4D24620", Offset = "0x4D24620", VA = "0x4D24620", Slot = "6")]
+	[Address(RVA = "0x504BF50", Offset = "0x504BF50", VA = "0x504BF50", Slot = "6")]
 	protected override void UnregisterCallbacksFromTarget()
 	{
 	}
 
 	[Token(Token = "0x6000E08")]
-	[Address(RVA = "0x4D24810", Offset = "0x4D24810", VA = "0x4D24810")]
+	[Address(RVA = "0x504C140", Offset = "0x504C140", VA = "0x504C140")]
 	internal void OnKeyDown(KeyDownEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000E09")]
-	[Address(RVA = "0x4D24920", Offset = "0x4D24920", VA = "0x4D24920")]
+	[Address(RVA = "0x504C250", Offset = "0x504C250", VA = "0x504C250")]
 	private void OnNavigationCancel(NavigationCancelEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000E0A")]
-	[Address(RVA = "0x4D24950", Offset = "0x4D24950", VA = "0x4D24950")]
+	[Address(RVA = "0x504C280", Offset = "0x504C280", VA = "0x504C280")]
 	private void OnNavigationSubmit(NavigationSubmitEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000E0B")]
-	[Address(RVA = "0x4D24980", Offset = "0x4D24980", VA = "0x4D24980")]
+	[Address(RVA = "0x504C2B0", Offset = "0x504C2B0", VA = "0x504C2B0")]
 	private void OnNavigationMove(NavigationMoveEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000E0C")]
-	[Address(RVA = "0x4D24900", Offset = "0x4D24900", VA = "0x4D24900")]
+	[Address(RVA = "0x504C230", Offset = "0x504C230", VA = "0x504C230")]
 	private void Invoke(KeyboardNavigationOperation operation, EventBase evt)
 	{
 	}

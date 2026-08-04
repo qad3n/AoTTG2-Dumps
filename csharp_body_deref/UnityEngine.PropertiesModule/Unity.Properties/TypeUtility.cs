@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.Properties.TypeUtility
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -114,7 +121,7 @@ public static class TypeUtility
 		private bool Unity_002EProperties_002ETypeUtility_002EITypeConstructor_002ECanBeInstantiated
 		{
 			[Token(Token = "0x6000186")]
-			[Address(RVA = "0x4B72070", Offset = "0x4B72070", VA = "0x4B72070", Slot = "4")]
+			[Address(RVA = "0x4E999A0", Offset = "0x4E999A0", VA = "0x4E999A0", Slot = "4")]
 			get
 			{
 				return default(bool);
@@ -122,14 +129,14 @@ public static class TypeUtility
 		}
 
 		[Token(Token = "0x6000187")]
-		[Address(RVA = "0x4B72080", Offset = "0x4B72080", VA = "0x4B72080", Slot = "5")]
+		[Address(RVA = "0x4E999B0", Offset = "0x4E999B0", VA = "0x4E999B0", Slot = "5")]
 		public object Instantiate()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000188")]
-		[Address(RVA = "0x4B71C10", Offset = "0x4B71C10", VA = "0x4B71C10")]
+		[Address(RVA = "0x4E99540", Offset = "0x4E99540", VA = "0x4E99540")]
 		public NonConstructable()
 		{
 		}
@@ -156,7 +163,7 @@ public static class TypeUtility
 		}
 
 		[Token(Token = "0x600018A")]
-		[Address(RVA = "0x4B71C00", Offset = "0x4B71C00", VA = "0x4B71C00")]
+		[Address(RVA = "0x4E99530", Offset = "0x4E99530", VA = "0x4E99530")]
 		public TypeConstructorVisitor()
 		{
 		}
@@ -183,34 +190,34 @@ public static class TypeUtility
 	private static readonly object syncedPoolObject;
 
 	[Token(Token = "0x6000164")]
-	[Address(RVA = "0x4B70670", Offset = "0x4B70670", VA = "0x4B70670")]
+	[Address(RVA = "0x4E97FA0", Offset = "0x4E97FA0", VA = "0x4E97FA0")]
 	static TypeUtility()
 	{
 	}
 
 	[Token(Token = "0x6000165")]
-	[Address(RVA = "0x4B70AD0", Offset = "0x4B70AD0", VA = "0x4B70AD0")]
+	[Address(RVA = "0x4E98400", Offset = "0x4E98400", VA = "0x4E98400")]
 	public static string GetTypeDisplayName(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000166")]
-	[Address(RVA = "0x4B70BF0", Offset = "0x4B70BF0", VA = "0x4B70BF0")]
+	[Address(RVA = "0x4E98520", Offset = "0x4E98520", VA = "0x4E98520")]
 	private static string GetTypeDisplayName(Type type, IReadOnlyList<Type> args, ref int argIndex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000167")]
-	[Address(RVA = "0x4B715D0", Offset = "0x4B715D0", VA = "0x4B715D0")]
+	[Address(RVA = "0x4E98F00", Offset = "0x4E98F00", VA = "0x4E98F00")]
 	public static Type GetRootType(this Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000168")]
-	[Address(RVA = "0x4B716D0", Offset = "0x4B716D0", VA = "0x4B716D0")]
+	[Address(RVA = "0x4E99000", Offset = "0x4E99000", VA = "0x4E99000")]
 	[Preserve]
 	private static ITypeConstructor CreateTypeConstructor(Type type)
 	{
@@ -224,7 +231,7 @@ public static class TypeUtility
 	}
 
 	[Token(Token = "0x600016A")]
-	[Address(RVA = "0x4B71C20", Offset = "0x4B71C20", VA = "0x4B71C20")]
+	[Address(RVA = "0x4E99550", Offset = "0x4E99550", VA = "0x4E99550")]
 	private static ITypeConstructor GetTypeConstructor(Type type)
 	{
 		return null;
@@ -237,7 +244,7 @@ public static class TypeUtility
 	}
 
 	[Token(Token = "0x600016C")]
-	[Address(RVA = "0x4B71CD0", Offset = "0x4B71CD0", VA = "0x4B71CD0")]
+	[Address(RVA = "0x4E99600", Offset = "0x4E99600", VA = "0x4E99600")]
 	public static bool CanBeInstantiated(Type type)
 	{
 		return default(bool);
@@ -297,7 +304,7 @@ public static class TypeUtility
 	}
 
 	[Token(Token = "0x6000176")]
-	[Address(RVA = "0x4B71DC0", Offset = "0x4B71DC0", VA = "0x4B71DC0")]
+	[Address(RVA = "0x4E996F0", Offset = "0x4E996F0", VA = "0x4E996F0")]
 	private static void CheckIsAssignableFrom(Type type, Type derivedType)
 	{
 	}
@@ -308,7 +315,7 @@ public static class TypeUtility
 	}
 
 	[Token(Token = "0x6000178")]
-	[Address(RVA = "0x4B71F30", Offset = "0x4B71F30", VA = "0x4B71F30")]
+	[Address(RVA = "0x4E99860", Offset = "0x4E99860", VA = "0x4E99860")]
 	private static void CheckCanBeInstantiated(ITypeConstructor constructor, Type type)
 	{
 	}

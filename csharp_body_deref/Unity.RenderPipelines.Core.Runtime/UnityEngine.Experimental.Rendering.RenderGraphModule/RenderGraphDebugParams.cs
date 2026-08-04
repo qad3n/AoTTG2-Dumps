@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Experimental.Rendering.RenderGraphModule.RenderGraphDebugParams
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 using UnityEngine.Rendering;
@@ -72,19 +79,19 @@ internal class RenderGraphDebugParams
 	public bool logResources;
 
 	[Token(Token = "0x6000350")]
-	[Address(RVA = "0x4856110", Offset = "0x4856110", VA = "0x4856110")]
+	[Address(RVA = "0x4B7B200", Offset = "0x4B7B200", VA = "0x4B7B200")]
 	public void RegisterDebug(string name, [Optional] DebugUI.Panel debugPanel)
 	{
 	}
 
 	[Token(Token = "0x6000351")]
-	[Address(RVA = "0x4856910", Offset = "0x4856910", VA = "0x4856910")]
+	[Address(RVA = "0x4B7BA00", Offset = "0x4B7BA00", VA = "0x4B7BA00")]
 	public void UnRegisterDebug(string name)
 	{
 	}
 
 	[Token(Token = "0x6000352")]
-	[Address(RVA = "0x4856990", Offset = "0x4856990", VA = "0x4856990")]
+	[Address(RVA = "0x4B7BA80", Offset = "0x4B7BA80", VA = "0x4B7BA80")]
 	public RenderGraphDebugParams()
 	{
 	}

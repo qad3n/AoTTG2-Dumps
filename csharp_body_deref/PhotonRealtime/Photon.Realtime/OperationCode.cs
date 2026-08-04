@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Realtime.OperationCode
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonRealtime/Code/LoadbalancingPeer.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -69,7 +76,7 @@ public class OperationCode
 	public const byte GetGameList = 217;
 
 	[Token(Token = "0x6000124")]
-	[Address(RVA = "0x3BD95A0", Offset = "0x3BD95A0", VA = "0x3BD95A0")]
+	[Address(RVA = "0x3ECEEF0", Offset = "0x3ECEEF0", VA = "0x3ECEEF0")]
 	public OperationCode()
 	{
 	}

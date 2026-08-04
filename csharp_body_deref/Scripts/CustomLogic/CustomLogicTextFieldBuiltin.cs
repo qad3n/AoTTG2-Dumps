@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: CustomLogic.CustomLogicTextFieldBuiltin
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/CustomLogic/CustomLogicTextFieldBuiltin.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -5,251 +12,251 @@ using UnityEngine.UIElements;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000407")]
+[Token(Token = "0x200044C")]
 [CompilerGenerated]
 internal class CustomLogicTextFieldBuiltin : CustomLogicVisualElementBuiltin
 {
-	[Token(Token = "0x2000408")]
+	[Token(Token = "0x200044D")]
 	public new static class Factory
 	{
-		[Token(Token = "0x60029E1")]
-		[Address(RVA = "0x3DE80F0", Offset = "0x3DE80F0", VA = "0x3DE80F0")]
+		[Token(Token = "0x6002BE9")]
+		[Address(RVA = "0x4110CA0", Offset = "0x4110CA0", VA = "0x4110CA0")]
 		public static CustomLogicTextFieldBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000409")]
+	[Token(Token = "0x200044E")]
 	public new static class Bindings
 	{
-		[Token(Token = "0x40010BB")]
+		[Token(Token = "0x40011C5")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x60029E2")]
-		[Address(RVA = "0x3DE8180", Offset = "0x3DE8180", VA = "0x3DE8180")]
+		[Token(Token = "0x6002BEA")]
+		[Address(RVA = "0x4110D30", Offset = "0x4110D30", VA = "0x4110D30")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60029E3")]
-		[Address(RVA = "0x3DE8570", Offset = "0x3DE8570", VA = "0x3DE8570")]
+		[Token(Token = "0x6002BEB")]
+		[Address(RVA = "0x4111120", Offset = "0x4111120", VA = "0x4111120")]
 		public static CLPropertyBinding<CustomLogicTextFieldBuiltin> __CreatePropertyBinding__IsDelayed()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60029E4")]
-		[Address(RVA = "0x3DE8650", Offset = "0x3DE8650", VA = "0x3DE8650")]
+		[Token(Token = "0x6002BEC")]
+		[Address(RVA = "0x4111200", Offset = "0x4111200", VA = "0x4111200")]
 		public static CLPropertyBinding<CustomLogicTextFieldBuiltin> __CreatePropertyBinding__Multiline()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60029E5")]
-		[Address(RVA = "0x3DE8730", Offset = "0x3DE8730", VA = "0x3DE8730")]
+		[Token(Token = "0x6002BED")]
+		[Address(RVA = "0x41112E0", Offset = "0x41112E0", VA = "0x41112E0")]
 		public static CLPropertyBinding<CustomLogicTextFieldBuiltin> __CreatePropertyBinding__Label()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60029E6")]
-		[Address(RVA = "0x3DE8810", Offset = "0x3DE8810", VA = "0x3DE8810")]
+		[Token(Token = "0x6002BEE")]
+		[Address(RVA = "0x41113C0", Offset = "0x41113C0", VA = "0x41113C0")]
 		public static CLPropertyBinding<CustomLogicTextFieldBuiltin> __CreatePropertyBinding__Value()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60029E7")]
-		[Address(RVA = "0x3DE88F0", Offset = "0x3DE88F0", VA = "0x3DE88F0")]
+		[Token(Token = "0x6002BEF")]
+		[Address(RVA = "0x41114A0", Offset = "0x41114A0", VA = "0x41114A0")]
 		public static CLPropertyBinding<CustomLogicTextFieldBuiltin> __CreatePropertyBinding__SelectionColor()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60029E8")]
-		[Address(RVA = "0x3DE89D0", Offset = "0x3DE89D0", VA = "0x3DE89D0")]
+		[Token(Token = "0x6002BF0")]
+		[Address(RVA = "0x4111580", Offset = "0x4111580", VA = "0x4111580")]
 		public static CLPropertyBinding<CustomLogicTextFieldBuiltin> __CreatePropertyBinding__CursorColor()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60029E9")]
-		[Address(RVA = "0x3DE8AB0", Offset = "0x3DE8AB0", VA = "0x3DE8AB0")]
+		[Token(Token = "0x6002BF1")]
+		[Address(RVA = "0x4111660", Offset = "0x4111660", VA = "0x4111660")]
 		public static CLMethodBinding<CustomLogicTextFieldBuiltin> __CreateMethodBinding__RegisterValueChangedEventCallback()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60029EA")]
-		[Address(RVA = "0x3DE8C00", Offset = "0x3DE8C00", VA = "0x3DE8C00")]
+		[Token(Token = "0x6002BF2")]
+		[Address(RVA = "0x41117B0", Offset = "0x41117B0", VA = "0x41117B0")]
 		public static CLMethodBinding<CustomLogicTextFieldBuiltin> __CreateMethodBinding__SetValueWithoutNotify()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x40010BA")]
+	[Token(Token = "0x40011C4")]
 	[FieldOffset(Offset = "0x60")]
 	private readonly TextField _textField;
 
-	[Token(Token = "0x17000879")]
+	[Token(Token = "0x170008E3")]
 	public bool IsDelayed
 	{
-		[Token(Token = "0x60029CF")]
-		[Address(RVA = "0x3DE7A90", Offset = "0x3DE7A90", VA = "0x3DE7A90")]
+		[Token(Token = "0x6002BD7")]
+		[Address(RVA = "0x40F2600", Offset = "0x40F2600", VA = "0x40F2600")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60029D0")]
-		[Address(RVA = "0x3DE7AD0", Offset = "0x3DE7AD0", VA = "0x3DE7AD0")]
+		[Token(Token = "0x6002BD8")]
+		[Address(RVA = "0x40F2640", Offset = "0x40F2640", VA = "0x40F2640")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700087A")]
+	[Token(Token = "0x170008E4")]
 	public bool Multiline
 	{
-		[Token(Token = "0x60029D1")]
-		[Address(RVA = "0x3DE7B20", Offset = "0x3DE7B20", VA = "0x3DE7B20")]
+		[Token(Token = "0x6002BD9")]
+		[Address(RVA = "0x40F2690", Offset = "0x40F2690", VA = "0x40F2690")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60029D2")]
-		[Address(RVA = "0x3DE7B40", Offset = "0x3DE7B40", VA = "0x3DE7B40")]
+		[Token(Token = "0x6002BDA")]
+		[Address(RVA = "0x40F26B0", Offset = "0x40F26B0", VA = "0x40F26B0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700087B")]
+	[Token(Token = "0x170008E5")]
 	public string Label
 	{
-		[Token(Token = "0x60029D3")]
-		[Address(RVA = "0x3DE7B60", Offset = "0x3DE7B60", VA = "0x3DE7B60")]
+		[Token(Token = "0x6002BDB")]
+		[Address(RVA = "0x40F26D0", Offset = "0x40F26D0", VA = "0x40F26D0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60029D4")]
-		[Address(RVA = "0x3DE7BA0", Offset = "0x3DE7BA0", VA = "0x3DE7BA0")]
+		[Token(Token = "0x6002BDC")]
+		[Address(RVA = "0x40F2710", Offset = "0x40F2710", VA = "0x40F2710")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700087C")]
+	[Token(Token = "0x170008E6")]
 	public string Value
 	{
-		[Token(Token = "0x60029D5")]
-		[Address(RVA = "0x3DE7BF0", Offset = "0x3DE7BF0", VA = "0x3DE7BF0")]
+		[Token(Token = "0x6002BDD")]
+		[Address(RVA = "0x40F2760", Offset = "0x40F2760", VA = "0x40F2760")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60029D6")]
-		[Address(RVA = "0x3DE7C20", Offset = "0x3DE7C20", VA = "0x3DE7C20")]
+		[Token(Token = "0x6002BDE")]
+		[Address(RVA = "0x40F2790", Offset = "0x40F2790", VA = "0x40F2790")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700087D")]
+	[Token(Token = "0x170008E7")]
 	public CustomLogicColorBuiltin SelectionColor
 	{
-		[Token(Token = "0x60029D7")]
-		[Address(RVA = "0x3DE7C50", Offset = "0x3DE7C50", VA = "0x3DE7C50")]
+		[Token(Token = "0x6002BDF")]
+		[Address(RVA = "0x40F27C0", Offset = "0x40F27C0", VA = "0x40F27C0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60029D8")]
-		[Address(RVA = "0x3DE7CE0", Offset = "0x3DE7CE0", VA = "0x3DE7CE0")]
+		[Token(Token = "0x6002BE0")]
+		[Address(RVA = "0x40F2850", Offset = "0x40F2850", VA = "0x40F2850")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700087E")]
+	[Token(Token = "0x170008E8")]
 	public CustomLogicColorBuiltin CursorColor
 	{
-		[Token(Token = "0x60029D9")]
-		[Address(RVA = "0x3DE7DE0", Offset = "0x3DE7DE0", VA = "0x3DE7DE0")]
+		[Token(Token = "0x6002BE1")]
+		[Address(RVA = "0x40F2950", Offset = "0x40F2950", VA = "0x40F2950")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60029DA")]
-		[Address(RVA = "0x3DE7E70", Offset = "0x3DE7E70", VA = "0x3DE7E70")]
+		[Token(Token = "0x6002BE2")]
+		[Address(RVA = "0x40F29E0", Offset = "0x40F29E0", VA = "0x40F29E0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700087F")]
+	[Token(Token = "0x170008E9")]
 	public override string ClassName
 	{
-		[Token(Token = "0x60029DD")]
-		[Address(RVA = "0x3DE8090", Offset = "0x3DE8090", VA = "0x3DE8090", Slot = "4")]
+		[Token(Token = "0x6002BE5")]
+		[Address(RVA = "0x40F2BF0", Offset = "0x40F2BF0", VA = "0x40F2BF0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000880")]
+	[Token(Token = "0x170008EA")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x60029DE")]
-		[Address(RVA = "0x3DE80C0", Offset = "0x3DE80C0", VA = "0x3DE80C0", Slot = "6")]
+		[Token(Token = "0x6002BE6")]
+		[Address(RVA = "0x40F2C20", Offset = "0x40F2C20", VA = "0x40F2C20", Slot = "6")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000881")]
+	[Token(Token = "0x170008EB")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x60029DF")]
-		[Address(RVA = "0x3DE80D0", Offset = "0x3DE80D0", VA = "0x3DE80D0", Slot = "7")]
+		[Token(Token = "0x6002BE7")]
+		[Address(RVA = "0x40F2C30", Offset = "0x40F2C30", VA = "0x40F2C30", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000882")]
+	[Token(Token = "0x170008EC")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x60029E0")]
-		[Address(RVA = "0x3DE80E0", Offset = "0x3DE80E0", VA = "0x3DE80E0", Slot = "8")]
+		[Token(Token = "0x6002BE8")]
+		[Address(RVA = "0x40F2C40", Offset = "0x40F2C40", VA = "0x40F2C40", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60029CE")]
-	[Address(RVA = "0x3DE7A60", Offset = "0x3DE7A60", VA = "0x3DE7A60")]
+	[Token(Token = "0x6002BD6")]
+	[Address(RVA = "0x40F25D0", Offset = "0x40F25D0", VA = "0x40F25D0")]
 	public CustomLogicTextFieldBuiltin(TextField textField)
 	{
 	}
 
-	[Token(Token = "0x60029DB")]
-	[Address(RVA = "0x3DE7F70", Offset = "0x3DE7F70", VA = "0x3DE7F70")]
+	[Token(Token = "0x6002BE3")]
+	[Address(RVA = "0x40F2AE0", Offset = "0x40F2AE0", VA = "0x40F2AE0")]
 	public CustomLogicTextFieldBuiltin RegisterValueChangedEventCallback(UserMethod changeEvent)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60029DC")]
-	[Address(RVA = "0x3DE8060", Offset = "0x3DE8060", VA = "0x3DE8060")]
+	[Token(Token = "0x6002BE4")]
+	[Address(RVA = "0x40F2BC0", Offset = "0x40F2BC0", VA = "0x40F2BC0")]
 	public void SetValueWithoutNotify(string value)
 	{
 	}

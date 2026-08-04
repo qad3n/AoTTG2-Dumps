@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Weather.WeatherEvent
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Weather/WeatherEvent.c
+// Prior real C# source (older reference): Assets/Scripts/Weather/WeatherEvent.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 using Settings;
@@ -36,55 +43,55 @@ internal class WeatherEvent
 	public List<float> Weights;
 
 	[Token(Token = "0x6000163")]
-	[Address(RVA = "0x3C78090", Offset = "0x3C78090", VA = "0x3C78090")]
+	[Address(RVA = "0x3F6D9E0", Offset = "0x3F6D9E0", VA = "0x3F6D9E0")]
 	public WeatherEvent()
 	{
 	}
 
 	[Token(Token = "0x6000164")]
-	[Address(RVA = "0x3C78150", Offset = "0x3C78150", VA = "0x3C78150")]
+	[Address(RVA = "0x3F6DAA0", Offset = "0x3F6DAA0", VA = "0x3F6DAA0")]
 	public object GetValue()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000165")]
-	[Address(RVA = "0x3C78780", Offset = "0x3C78780", VA = "0x3C78780")]
+	[Address(RVA = "0x3F6E0D0", Offset = "0x3F6E0D0", VA = "0x3F6E0D0")]
 	public WeatherValueType GetValueType()
 	{
 		return default(WeatherValueType);
 	}
 
 	[Token(Token = "0x6000166")]
-	[Address(RVA = "0x3C787C0", Offset = "0x3C787C0", VA = "0x3C787C0")]
+	[Address(RVA = "0x3F6E110", Offset = "0x3F6E110", VA = "0x3F6E110")]
 	public SettingType GetSettingType()
 	{
 		return default(SettingType);
 	}
 
 	[Token(Token = "0x6000167")]
-	[Address(RVA = "0x3C78800", Offset = "0x3C78800", VA = "0x3C78800")]
+	[Address(RVA = "0x3F6E150", Offset = "0x3F6E150", VA = "0x3F6E150")]
 	public string[] SupportedWeatherEffects()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000168")]
-	[Address(RVA = "0x3C78890", Offset = "0x3C78890", VA = "0x3C78890")]
+	[Address(RVA = "0x3F6E1E0", Offset = "0x3F6E1E0", VA = "0x3F6E1E0")]
 	public bool SupportsWeatherEffects()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000169")]
-	[Address(RVA = "0x3C78920", Offset = "0x3C78920", VA = "0x3C78920")]
+	[Address(RVA = "0x3F6E270", Offset = "0x3F6E270", VA = "0x3F6E270")]
 	public string[] SupportedWeatherValueSelectTypes()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600016A")]
-	[Address(RVA = "0x3C78B00", Offset = "0x3C78B00", VA = "0x3C78B00")]
+	[Address(RVA = "0x3F6E450", Offset = "0x3F6E450", VA = "0x3F6E450")]
 	public bool SupportsWeatherValueSelectTypes()
 	{
 		return default(bool);

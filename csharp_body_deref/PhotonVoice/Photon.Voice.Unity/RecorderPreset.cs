@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.Unity.RecorderPreset
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/Code/RecorderPreset.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine;
@@ -44,13 +51,13 @@ public class RecorderPreset : VoiceComponent
 	public DSP DSPSettings;
 
 	[Token(Token = "0x6000071")]
-	[Address(RVA = "0x3C54780", Offset = "0x3C54780", VA = "0x3C54780", Slot = "4")]
+	[Address(RVA = "0x3F46D30", Offset = "0x3F46D30", VA = "0x3F46D30", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000072")]
-	[Address(RVA = "0x3C55030", Offset = "0x3C55030", VA = "0x3C55030")]
+	[Address(RVA = "0x3F475E0", Offset = "0x3F475E0", VA = "0x3F475E0")]
 	public RecorderPreset()
 	{
 	}

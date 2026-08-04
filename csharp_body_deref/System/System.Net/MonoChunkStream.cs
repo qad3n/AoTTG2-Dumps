@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.MonoChunkStream
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.IO;
 using System.Runtime.CompilerServices;
@@ -53,13 +60,13 @@ internal class MonoChunkStream : WebReadStream
 		private ConfiguredTaskAwaitable<int>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000A47")]
-		[Address(RVA = "0x4666540", Offset = "0x4666540", VA = "0x4666540", Slot = "4")]
+		[Address(RVA = "0x498B640", Offset = "0x498B640", VA = "0x498B640", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000A48")]
-		[Address(RVA = "0x4666A80", Offset = "0x4666A80", VA = "0x4666A80", Slot = "5")]
+		[Address(RVA = "0x498BB80", Offset = "0x498BB80", VA = "0x498BB80", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -100,13 +107,13 @@ internal class MonoChunkStream : WebReadStream
 		private ConfiguredTaskAwaitable<int>.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000A49")]
-		[Address(RVA = "0x4666AF0", Offset = "0x4666AF0", VA = "0x4666AF0", Slot = "4")]
+		[Address(RVA = "0x498BBF0", Offset = "0x498BBF0", VA = "0x498BBF0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000A4A")]
-		[Address(RVA = "0x46671E0", Offset = "0x46671E0", VA = "0x46671E0", Slot = "5")]
+		[Address(RVA = "0x498C2E0", Offset = "0x498C2E0", VA = "0x498C2E0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -122,7 +129,7 @@ internal class MonoChunkStream : WebReadStream
 	protected MonoChunkParser Decoder
 	{
 		[Token(Token = "0x6000A41")]
-		[Address(RVA = "0x46661B0", Offset = "0x46661B0", VA = "0x46661B0")]
+		[Address(RVA = "0x498B2B0", Offset = "0x498B2B0", VA = "0x498B2B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -131,13 +138,13 @@ internal class MonoChunkStream : WebReadStream
 	}
 
 	[Token(Token = "0x6000A42")]
-	[Address(RVA = "0x46661C0", Offset = "0x46661C0", VA = "0x46661C0")]
+	[Address(RVA = "0x498B2C0", Offset = "0x498B2C0", VA = "0x498B2C0")]
 	public MonoChunkStream(WebOperation operation, Stream innerStream, WebHeaderCollection headers)
 	{
 	}
 
 	[Token(Token = "0x6000A43")]
-	[Address(RVA = "0x4666250", Offset = "0x4666250", VA = "0x4666250", Slot = "38")]
+	[Address(RVA = "0x498B350", Offset = "0x498B350", VA = "0x498B350", Slot = "38")]
 	[AsyncStateMachine(typeof(_003CProcessReadAsync_003Ed__7))]
 	protected override Task<int> ProcessReadAsync(byte[] buffer, int offset, int size, CancellationToken cancellationToken)
 	{
@@ -145,7 +152,7 @@ internal class MonoChunkStream : WebReadStream
 	}
 
 	[Token(Token = "0x6000A44")]
-	[Address(RVA = "0x46663C0", Offset = "0x46663C0", VA = "0x46663C0", Slot = "39")]
+	[Address(RVA = "0x498B4C0", Offset = "0x498B4C0", VA = "0x498B4C0", Slot = "39")]
 	[AsyncStateMachine(typeof(_003CFinishReading_003Ed__8))]
 	internal override Task FinishReading(CancellationToken cancellationToken)
 	{
@@ -153,7 +160,7 @@ internal class MonoChunkStream : WebReadStream
 	}
 
 	[Token(Token = "0x6000A45")]
-	[Address(RVA = "0x46664D0", Offset = "0x46664D0", VA = "0x46664D0")]
+	[Address(RVA = "0x498B5D0", Offset = "0x498B5D0", VA = "0x498B5D0")]
 	private static void ThrowExpectingChunkTrailer()
 	{
 	}

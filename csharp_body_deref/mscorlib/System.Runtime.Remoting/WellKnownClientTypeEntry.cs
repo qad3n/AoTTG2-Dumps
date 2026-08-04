@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.WellKnownClientTypeEntry
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -23,7 +30,7 @@ public class WellKnownClientTypeEntry : TypeEntry
 	public string ApplicationUrl
 	{
 		[Token(Token = "0x6001CDE")]
-		[Address(RVA = "0x4E8B1D0", Offset = "0x4E8B1D0", VA = "0x4E8B1D0")]
+		[Address(RVA = "0x3B70CF0", Offset = "0x3B70CF0", VA = "0x3B70CF0")]
 		get
 		{
 			return null;
@@ -34,7 +41,7 @@ public class WellKnownClientTypeEntry : TypeEntry
 	public Type ObjectType
 	{
 		[Token(Token = "0x6001CDF")]
-		[Address(RVA = "0x4E8B1E0", Offset = "0x4E8B1E0", VA = "0x4E8B1E0")]
+		[Address(RVA = "0x3B70D00", Offset = "0x3B70D00", VA = "0x3B70D00")]
 		get
 		{
 			return null;
@@ -45,7 +52,7 @@ public class WellKnownClientTypeEntry : TypeEntry
 	public string ObjectUrl
 	{
 		[Token(Token = "0x6001CE0")]
-		[Address(RVA = "0x4E8B1F0", Offset = "0x4E8B1F0", VA = "0x4E8B1F0")]
+		[Address(RVA = "0x3B70D10", Offset = "0x3B70D10", VA = "0x3B70D10")]
 		get
 		{
 			return null;
@@ -53,13 +60,13 @@ public class WellKnownClientTypeEntry : TypeEntry
 	}
 
 	[Token(Token = "0x6001CDD")]
-	[Address(RVA = "0x4E8B0A0", Offset = "0x4E8B0A0", VA = "0x4E8B0A0")]
+	[Address(RVA = "0x3B70BC0", Offset = "0x3B70BC0", VA = "0x3B70BC0")]
 	public WellKnownClientTypeEntry(string typeName, string assemblyName, string objectUrl)
 	{
 	}
 
 	[Token(Token = "0x6001CE1")]
-	[Address(RVA = "0x4E8B200", Offset = "0x4E8B200", VA = "0x4E8B200", Slot = "3")]
+	[Address(RVA = "0x3B70D20", Offset = "0x3B70D20", VA = "0x3B70D20", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

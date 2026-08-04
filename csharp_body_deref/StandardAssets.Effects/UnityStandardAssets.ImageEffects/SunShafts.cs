@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.SunShafts
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/SunShafts.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -86,20 +93,20 @@ public class SunShafts : PostEffectsBase
 	private Material simpleClearMaterial;
 
 	[Token(Token = "0x60000A2")]
-	[Address(RVA = "0x4162D00", Offset = "0x4162D00", VA = "0x4162D00", Slot = "4")]
+	[Address(RVA = "0x4487E00", Offset = "0x4487E00", VA = "0x4487E00", Slot = "4")]
 	public override bool CheckResources()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x4162DA0", Offset = "0x4162DA0", VA = "0x4162DA0")]
+	[Address(RVA = "0x4487EA0", Offset = "0x4487EA0", VA = "0x4487EA0")]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x60000A4")]
-	[Address(RVA = "0x41634F0", Offset = "0x41634F0", VA = "0x41634F0")]
+	[Address(RVA = "0x44885F0", Offset = "0x44885F0", VA = "0x44885F0")]
 	public SunShafts()
 	{
 	}

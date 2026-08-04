@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.Unity.UnityAudioOut
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/UnityAudioOut.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -18,7 +25,7 @@ public class UnityAudioOut : AudioOutDelayControl<float>
 	public override long OutPos
 	{
 		[Token(Token = "0x60003AC")]
-		[Address(RVA = "0x3C45420", Offset = "0x3C45420", VA = "0x3C45420", Slot = "11")]
+		[Address(RVA = "0x3F3AD70", Offset = "0x3F3AD70", VA = "0x3F3AD70", Slot = "11")]
 		get
 		{
 			return default(long);
@@ -26,31 +33,31 @@ public class UnityAudioOut : AudioOutDelayControl<float>
 	}
 
 	[Token(Token = "0x60003AB")]
-	[Address(RVA = "0x3C45310", Offset = "0x3C45310", VA = "0x3C45310")]
+	[Address(RVA = "0x3F3AC60", Offset = "0x3F3AC60", VA = "0x3F3AC60")]
 	public UnityAudioOut(AudioSource audioSource, PlayDelayConfig playDelayConfig, ILogger logger, string logPrefix, bool debugInfo)
 	{
 	}
 
 	[Token(Token = "0x60003AD")]
-	[Address(RVA = "0x3C45440", Offset = "0x3C45440", VA = "0x3C45440", Slot = "12")]
+	[Address(RVA = "0x3F3AD90", Offset = "0x3F3AD90", VA = "0x3F3AD90", Slot = "12")]
 	public override void OutCreate(int frequency, int channels, int bufferSamples)
 	{
 	}
 
 	[Token(Token = "0x60003AE")]
-	[Address(RVA = "0x3C454F0", Offset = "0x3C454F0", VA = "0x3C454F0", Slot = "13")]
+	[Address(RVA = "0x3F3AE40", Offset = "0x3F3AE40", VA = "0x3F3AE40", Slot = "13")]
 	public override void OutStart()
 	{
 	}
 
 	[Token(Token = "0x60003AF")]
-	[Address(RVA = "0x3C45510", Offset = "0x3C45510", VA = "0x3C45510", Slot = "14")]
+	[Address(RVA = "0x3F3AE60", Offset = "0x3F3AE60", VA = "0x3F3AE60", Slot = "14")]
 	public override void OutWrite(float[] data, int offsetSamples)
 	{
 	}
 
 	[Token(Token = "0x60003B0")]
-	[Address(RVA = "0x3C45530", Offset = "0x3C45530", VA = "0x3C45530", Slot = "15")]
+	[Address(RVA = "0x3F3AE80", Offset = "0x3F3AE80", VA = "0x3F3AE80", Slot = "15")]
 	public override void Stop()
 	{
 	}

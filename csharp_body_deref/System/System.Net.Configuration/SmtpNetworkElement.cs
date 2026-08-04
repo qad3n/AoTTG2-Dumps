@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.Configuration.SmtpNetworkElement
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Configuration;
 using Il2CppDummyDll;
 
@@ -10,13 +17,13 @@ public sealed class SmtpNetworkElement : ConfigurationElement
 	public string ClientDomain
 	{
 		[Token(Token = "0x60017D3")]
-		[Address(RVA = "0x45CF0F0", Offset = "0x45CF0F0", VA = "0x45CF0F0")]
+		[Address(RVA = "0x48F41F0", Offset = "0x48F41F0", VA = "0x48F41F0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60017D4")]
-		[Address(RVA = "0x45CF120", Offset = "0x45CF120", VA = "0x45CF120")]
+		[Address(RVA = "0x48F4220", Offset = "0x48F4220", VA = "0x48F4220")]
 		set
 		{
 		}
@@ -26,13 +33,13 @@ public sealed class SmtpNetworkElement : ConfigurationElement
 	public bool DefaultCredentials
 	{
 		[Token(Token = "0x60017D5")]
-		[Address(RVA = "0x45CF150", Offset = "0x45CF150", VA = "0x45CF150")]
+		[Address(RVA = "0x48F4250", Offset = "0x48F4250", VA = "0x48F4250")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60017D6")]
-		[Address(RVA = "0x45CF180", Offset = "0x45CF180", VA = "0x45CF180")]
+		[Address(RVA = "0x48F4280", Offset = "0x48F4280", VA = "0x48F4280")]
 		set
 		{
 		}
@@ -42,13 +49,13 @@ public sealed class SmtpNetworkElement : ConfigurationElement
 	public bool EnableSsl
 	{
 		[Token(Token = "0x60017D7")]
-		[Address(RVA = "0x45CF1B0", Offset = "0x45CF1B0", VA = "0x45CF1B0")]
+		[Address(RVA = "0x48F42B0", Offset = "0x48F42B0", VA = "0x48F42B0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60017D8")]
-		[Address(RVA = "0x45CF1E0", Offset = "0x45CF1E0", VA = "0x45CF1E0")]
+		[Address(RVA = "0x48F42E0", Offset = "0x48F42E0", VA = "0x48F42E0")]
 		set
 		{
 		}
@@ -58,13 +65,13 @@ public sealed class SmtpNetworkElement : ConfigurationElement
 	public string Host
 	{
 		[Token(Token = "0x60017D9")]
-		[Address(RVA = "0x45CF210", Offset = "0x45CF210", VA = "0x45CF210")]
+		[Address(RVA = "0x48F4310", Offset = "0x48F4310", VA = "0x48F4310")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60017DA")]
-		[Address(RVA = "0x45CF240", Offset = "0x45CF240", VA = "0x45CF240")]
+		[Address(RVA = "0x48F4340", Offset = "0x48F4340", VA = "0x48F4340")]
 		set
 		{
 		}
@@ -74,13 +81,13 @@ public sealed class SmtpNetworkElement : ConfigurationElement
 	public string Password
 	{
 		[Token(Token = "0x60017DB")]
-		[Address(RVA = "0x45CF270", Offset = "0x45CF270", VA = "0x45CF270")]
+		[Address(RVA = "0x48F4370", Offset = "0x48F4370", VA = "0x48F4370")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60017DC")]
-		[Address(RVA = "0x45CF2A0", Offset = "0x45CF2A0", VA = "0x45CF2A0")]
+		[Address(RVA = "0x48F43A0", Offset = "0x48F43A0", VA = "0x48F43A0")]
 		set
 		{
 		}
@@ -90,13 +97,13 @@ public sealed class SmtpNetworkElement : ConfigurationElement
 	public int Port
 	{
 		[Token(Token = "0x60017DD")]
-		[Address(RVA = "0x45CF2D0", Offset = "0x45CF2D0", VA = "0x45CF2D0")]
+		[Address(RVA = "0x48F43D0", Offset = "0x48F43D0", VA = "0x48F43D0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60017DE")]
-		[Address(RVA = "0x45CF300", Offset = "0x45CF300", VA = "0x45CF300")]
+		[Address(RVA = "0x48F4400", Offset = "0x48F4400", VA = "0x48F4400")]
 		set
 		{
 		}
@@ -106,7 +113,7 @@ public sealed class SmtpNetworkElement : ConfigurationElement
 	protected override ConfigurationPropertyCollection Properties
 	{
 		[Token(Token = "0x60017DF")]
-		[Address(RVA = "0x45CF330", Offset = "0x45CF330", VA = "0x45CF330", Slot = "4")]
+		[Address(RVA = "0x48F4430", Offset = "0x48F4430", VA = "0x48F4430", Slot = "4")]
 		get
 		{
 			return null;
@@ -117,13 +124,13 @@ public sealed class SmtpNetworkElement : ConfigurationElement
 	public string TargetName
 	{
 		[Token(Token = "0x60017E0")]
-		[Address(RVA = "0x45CF360", Offset = "0x45CF360", VA = "0x45CF360")]
+		[Address(RVA = "0x48F4460", Offset = "0x48F4460", VA = "0x48F4460")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60017E1")]
-		[Address(RVA = "0x45CF390", Offset = "0x45CF390", VA = "0x45CF390")]
+		[Address(RVA = "0x48F4490", Offset = "0x48F4490", VA = "0x48F4490")]
 		set
 		{
 		}
@@ -133,26 +140,26 @@ public sealed class SmtpNetworkElement : ConfigurationElement
 	public string UserName
 	{
 		[Token(Token = "0x60017E2")]
-		[Address(RVA = "0x45CF3C0", Offset = "0x45CF3C0", VA = "0x45CF3C0")]
+		[Address(RVA = "0x48F44C0", Offset = "0x48F44C0", VA = "0x48F44C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60017E3")]
-		[Address(RVA = "0x45CF3F0", Offset = "0x45CF3F0", VA = "0x45CF3F0")]
+		[Address(RVA = "0x48F44F0", Offset = "0x48F44F0", VA = "0x48F44F0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60017D2")]
-	[Address(RVA = "0x45CF0C0", Offset = "0x45CF0C0", VA = "0x45CF0C0")]
+	[Address(RVA = "0x48F41C0", Offset = "0x48F41C0", VA = "0x48F41C0")]
 	public SmtpNetworkElement()
 	{
 	}
 
 	[Token(Token = "0x60017E4")]
-	[Address(RVA = "0x45CF420", Offset = "0x45CF420", VA = "0x45CF420", Slot = "8")]
+	[Address(RVA = "0x48F4520", Offset = "0x48F4520", VA = "0x48F4520", Slot = "8")]
 	protected override void PostDeserialize()
 	{
 	}

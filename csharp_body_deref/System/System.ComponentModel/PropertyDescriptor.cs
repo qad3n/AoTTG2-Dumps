@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.PropertyDescriptor
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -37,7 +44,7 @@ public abstract class PropertyDescriptor : MemberDescriptor
 	public virtual TypeConverter Converter
 	{
 		[Token(Token = "0x60011DF")]
-		[Address(RVA = "0x457CCA0", Offset = "0x457CCA0", VA = "0x457CCA0", Slot = "18")]
+		[Address(RVA = "0x48A1DA0", Offset = "0x48A1DA0", VA = "0x48A1DA0", Slot = "18")]
 		get
 		{
 			return null;
@@ -48,7 +55,7 @@ public abstract class PropertyDescriptor : MemberDescriptor
 	public virtual bool IsLocalizable
 	{
 		[Token(Token = "0x60011E0")]
-		[Address(RVA = "0x457D310", Offset = "0x457D310", VA = "0x457D310", Slot = "19")]
+		[Address(RVA = "0x48A2410", Offset = "0x48A2410", VA = "0x48A2410", Slot = "19")]
 		get
 		{
 			return default(bool);
@@ -66,7 +73,7 @@ public abstract class PropertyDescriptor : MemberDescriptor
 	public DesignerSerializationVisibility SerializationVisibility
 	{
 		[Token(Token = "0x60011E2")]
-		[Address(RVA = "0x457D3F0", Offset = "0x457D3F0", VA = "0x457D3F0")]
+		[Address(RVA = "0x48A24F0", Offset = "0x48A24F0", VA = "0x48A24F0")]
 		get
 		{
 			return default(DesignerSerializationVisibility);
@@ -84,7 +91,7 @@ public abstract class PropertyDescriptor : MemberDescriptor
 	public virtual bool SupportsChangeEvents
 	{
 		[Token(Token = "0x60011F8")]
-		[Address(RVA = "0x457E3C0", Offset = "0x457E3C0", VA = "0x457E3C0", Slot = "32")]
+		[Address(RVA = "0x48A34C0", Offset = "0x48A34C0", VA = "0x48A34C0", Slot = "32")]
 		get
 		{
 			return default(bool);
@@ -92,25 +99,25 @@ public abstract class PropertyDescriptor : MemberDescriptor
 	}
 
 	[Token(Token = "0x60011DB")]
-	[Address(RVA = "0x457C310", Offset = "0x457C310", VA = "0x457C310")]
+	[Address(RVA = "0x48A1410", Offset = "0x48A1410", VA = "0x48A1410")]
 	protected PropertyDescriptor(string name, Attribute[] attrs)
 	{
 	}
 
 	[Token(Token = "0x60011DC")]
-	[Address(RVA = "0x457C530", Offset = "0x457C530", VA = "0x457C530")]
+	[Address(RVA = "0x48A1630", Offset = "0x48A1630", VA = "0x48A1630")]
 	protected PropertyDescriptor(MemberDescriptor descr)
 	{
 	}
 
 	[Token(Token = "0x60011DD")]
-	[Address(RVA = "0x457C6A0", Offset = "0x457C6A0", VA = "0x457C6A0")]
+	[Address(RVA = "0x48A17A0", Offset = "0x48A17A0", VA = "0x48A17A0")]
 	protected PropertyDescriptor(MemberDescriptor descr, Attribute[] attrs)
 	{
 	}
 
 	[Token(Token = "0x60011E4")]
-	[Address(RVA = "0x457D4B0", Offset = "0x457D4B0", VA = "0x457D4B0", Slot = "22")]
+	[Address(RVA = "0x48A25B0", Offset = "0x48A25B0", VA = "0x48A25B0", Slot = "22")]
 	public virtual void AddValueChanged(object component, EventHandler handler)
 	{
 	}
@@ -119,76 +126,76 @@ public abstract class PropertyDescriptor : MemberDescriptor
 	public abstract bool CanResetValue(object component);
 
 	[Token(Token = "0x60011E6")]
-	[Address(RVA = "0x457D620", Offset = "0x457D620", VA = "0x457D620", Slot = "0")]
+	[Address(RVA = "0x48A2720", Offset = "0x48A2720", VA = "0x48A2720", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60011E7")]
-	[Address(RVA = "0x457D110", Offset = "0x457D110", VA = "0x457D110")]
+	[Address(RVA = "0x48A2210", Offset = "0x48A2210", VA = "0x48A2210")]
 	protected object CreateInstance(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011E8")]
-	[Address(RVA = "0x457D850", Offset = "0x457D850", VA = "0x457D850", Slot = "15")]
+	[Address(RVA = "0x48A2950", Offset = "0x48A2950", VA = "0x48A2950", Slot = "15")]
 	protected override void FillAttributes(IList attributeList)
 	{
 	}
 
 	[Token(Token = "0x60011E9")]
-	[Address(RVA = "0x457D9E0", Offset = "0x457D9E0", VA = "0x457D9E0")]
+	[Address(RVA = "0x48A2AE0", Offset = "0x48A2AE0", VA = "0x48A2AE0")]
 	public PropertyDescriptorCollection GetChildProperties()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011EA")]
-	[Address(RVA = "0x457DA00", Offset = "0x457DA00", VA = "0x457DA00")]
+	[Address(RVA = "0x48A2B00", Offset = "0x48A2B00", VA = "0x48A2B00")]
 	public PropertyDescriptorCollection GetChildProperties(Attribute[] filter)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011EB")]
-	[Address(RVA = "0x457DA20", Offset = "0x457DA20", VA = "0x457DA20")]
+	[Address(RVA = "0x48A2B20", Offset = "0x48A2B20", VA = "0x48A2B20")]
 	public PropertyDescriptorCollection GetChildProperties(object instance)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011EC")]
-	[Address(RVA = "0x457DA40", Offset = "0x457DA40", VA = "0x457DA40", Slot = "24")]
+	[Address(RVA = "0x48A2B40", Offset = "0x48A2B40", VA = "0x48A2B40", Slot = "24")]
 	public virtual PropertyDescriptorCollection GetChildProperties(object instance, Attribute[] filter)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011ED")]
-	[Address(RVA = "0x457DAE0", Offset = "0x457DAE0", VA = "0x457DAE0", Slot = "25")]
+	[Address(RVA = "0x48A2BE0", Offset = "0x48A2BE0", VA = "0x48A2BE0", Slot = "25")]
 	public virtual object GetEditor(Type editorBaseType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011EE")]
-	[Address(RVA = "0x457DF10", Offset = "0x457DF10", VA = "0x457DF10", Slot = "2")]
+	[Address(RVA = "0x48A3010", Offset = "0x48A3010", VA = "0x48A3010", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60011EF")]
-	[Address(RVA = "0x457DF70", Offset = "0x457DF70", VA = "0x457DF70", Slot = "16")]
+	[Address(RVA = "0x48A3070", Offset = "0x48A3070", VA = "0x48A3070", Slot = "16")]
 	protected override object GetInvocationTarget(Type type, object instance)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011F0")]
-	[Address(RVA = "0x457CF00", Offset = "0x457CF00", VA = "0x457CF00")]
+	[Address(RVA = "0x48A2000", Offset = "0x48A2000", VA = "0x48A2000")]
 	protected Type GetTypeFromName(string typeName)
 	{
 		return null;
@@ -198,19 +205,19 @@ public abstract class PropertyDescriptor : MemberDescriptor
 	public abstract object GetValue(object component);
 
 	[Token(Token = "0x60011F2")]
-	[Address(RVA = "0x457E140", Offset = "0x457E140", VA = "0x457E140", Slot = "27")]
+	[Address(RVA = "0x48A3240", Offset = "0x48A3240", VA = "0x48A3240", Slot = "27")]
 	protected virtual void OnValueChanged(object component, EventArgs e)
 	{
 	}
 
 	[Token(Token = "0x60011F3")]
-	[Address(RVA = "0x457E1D0", Offset = "0x457E1D0", VA = "0x457E1D0", Slot = "28")]
+	[Address(RVA = "0x48A32D0", Offset = "0x48A32D0", VA = "0x48A32D0", Slot = "28")]
 	public virtual void RemoveValueChanged(object component, EventHandler handler)
 	{
 	}
 
 	[Token(Token = "0x60011F4")]
-	[Address(RVA = "0x457E340", Offset = "0x457E340", VA = "0x457E340")]
+	[Address(RVA = "0x48A3440", Offset = "0x48A3440", VA = "0x48A3440")]
 	protected internal EventHandler GetValueChangedHandler(object component)
 	{
 		return null;

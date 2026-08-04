@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.CspParameters
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using System.Security.AccessControl;
 using Il2CppDummyDll;
@@ -44,13 +51,13 @@ public sealed class CspParameters
 	public CspProviderFlags Flags
 	{
 		[Token(Token = "0x60018CD")]
-		[Address(RVA = "0x4E48370", Offset = "0x4E48370", VA = "0x4E48370")]
+		[Address(RVA = "0x3B2DE90", Offset = "0x3B2DE90", VA = "0x3B2DE90")]
 		get
 		{
 			return default(CspProviderFlags);
 		}
 		[Token(Token = "0x60018CE")]
-		[Address(RVA = "0x4E48380", Offset = "0x4E48380", VA = "0x4E48380")]
+		[Address(RVA = "0x3B2DEA0", Offset = "0x3B2DEA0", VA = "0x3B2DEA0")]
 		set
 		{
 		}
@@ -60,13 +67,13 @@ public sealed class CspParameters
 	public CryptoKeySecurity CryptoKeySecurity
 	{
 		[Token(Token = "0x60018CF")]
-		[Address(RVA = "0x4E48460", Offset = "0x4E48460", VA = "0x4E48460")]
+		[Address(RVA = "0x3B2DF80", Offset = "0x3B2DF80", VA = "0x3B2DF80")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60018D0")]
-		[Address(RVA = "0x4E48470", Offset = "0x4E48470", VA = "0x4E48470")]
+		[Address(RVA = "0x3B2DF90", Offset = "0x3B2DF90", VA = "0x3B2DF90")]
 		set
 		{
 		}
@@ -76,13 +83,13 @@ public sealed class CspParameters
 	public SecureString KeyPassword
 	{
 		[Token(Token = "0x60018D1")]
-		[Address(RVA = "0x4E48480", Offset = "0x4E48480", VA = "0x4E48480")]
+		[Address(RVA = "0x3B2DFA0", Offset = "0x3B2DFA0", VA = "0x3B2DFA0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60018D2")]
-		[Address(RVA = "0x4E48490", Offset = "0x4E48490", VA = "0x4E48490")]
+		[Address(RVA = "0x3B2DFB0", Offset = "0x3B2DFB0", VA = "0x3B2DFB0")]
 		set
 		{
 		}
@@ -92,62 +99,62 @@ public sealed class CspParameters
 	public IntPtr ParentWindowHandle
 	{
 		[Token(Token = "0x60018D3")]
-		[Address(RVA = "0x4E484B0", Offset = "0x4E484B0", VA = "0x4E484B0")]
+		[Address(RVA = "0x3B2DFD0", Offset = "0x3B2DFD0", VA = "0x3B2DFD0")]
 		get
 		{
 			return default(IntPtr);
 		}
 		[Token(Token = "0x60018D4")]
-		[Address(RVA = "0x4E484C0", Offset = "0x4E484C0", VA = "0x4E484C0")]
+		[Address(RVA = "0x3B2DFE0", Offset = "0x3B2DFE0", VA = "0x3B2DFE0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60018D5")]
-	[Address(RVA = "0x4E484E0", Offset = "0x4E484E0", VA = "0x4E484E0")]
+	[Address(RVA = "0x3B2E000", Offset = "0x3B2E000", VA = "0x3B2E000")]
 	public CspParameters()
 	{
 	}
 
 	[Token(Token = "0x60018D6")]
-	[Address(RVA = "0x4E48590", Offset = "0x4E48590", VA = "0x4E48590")]
+	[Address(RVA = "0x3B2E0B0", Offset = "0x3B2E0B0", VA = "0x3B2E0B0")]
 	public CspParameters(int dwTypeIn)
 	{
 	}
 
 	[Token(Token = "0x60018D7")]
-	[Address(RVA = "0x4E485E0", Offset = "0x4E485E0", VA = "0x4E485E0")]
+	[Address(RVA = "0x3B2E100", Offset = "0x3B2E100", VA = "0x3B2E100")]
 	public CspParameters(int dwTypeIn, string strProviderNameIn)
 	{
 	}
 
 	[Token(Token = "0x60018D8")]
-	[Address(RVA = "0x4E48530", Offset = "0x4E48530", VA = "0x4E48530")]
+	[Address(RVA = "0x3B2E050", Offset = "0x3B2E050", VA = "0x3B2E050")]
 	public CspParameters(int dwTypeIn, string strProviderNameIn, string strContainerNameIn)
 	{
 	}
 
 	[Token(Token = "0x60018D9")]
-	[Address(RVA = "0x4E48690", Offset = "0x4E48690", VA = "0x4E48690")]
+	[Address(RVA = "0x3B2E1B0", Offset = "0x3B2E1B0", VA = "0x3B2E1B0")]
 	public CspParameters(int providerType, string providerName, string keyContainerName, CryptoKeySecurity cryptoKeySecurity, SecureString keyPassword)
 	{
 	}
 
 	[Token(Token = "0x60018DA")]
-	[Address(RVA = "0x4E48710", Offset = "0x4E48710", VA = "0x4E48710")]
+	[Address(RVA = "0x3B2E230", Offset = "0x3B2E230", VA = "0x3B2E230")]
 	public CspParameters(int providerType, string providerName, string keyContainerName, CryptoKeySecurity cryptoKeySecurity, IntPtr parentWindowHandle)
 	{
 	}
 
 	[Token(Token = "0x60018DB")]
-	[Address(RVA = "0x4E48630", Offset = "0x4E48630", VA = "0x4E48630")]
+	[Address(RVA = "0x3B2E150", Offset = "0x3B2E150", VA = "0x3B2E150")]
 	internal CspParameters(int providerType, string providerName, string keyContainerName, CspProviderFlags flags)
 	{
 	}
 
 	[Token(Token = "0x60018DC")]
-	[Address(RVA = "0x4E48790", Offset = "0x4E48790", VA = "0x4E48790")]
+	[Address(RVA = "0x3B2E2B0", Offset = "0x3B2E2B0", VA = "0x3B2E2B0")]
 	internal CspParameters(CspParameters parameters)
 	{
 	}

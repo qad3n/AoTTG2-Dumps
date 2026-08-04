@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.MaskableGraphic
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.ComponentModel;
 using Il2CppDummyDll;
@@ -5,15 +12,15 @@ using UnityEngine.Events;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x2000057")]
+[Token(Token = "0x2000056")]
 public abstract class MaskableGraphic : Graphic, IClippable, IMaskable, IMaterialModifier
 {
 	[Serializable]
-	[Token(Token = "0x2000058")]
+	[Token(Token = "0x2000057")]
 	public class CullStateChangedEvent : UnityEvent<bool>
 	{
-		[Token(Token = "0x600035F")]
-		[Address(RVA = "0x4DB06D0", Offset = "0x4DB06D0", VA = "0x4DB06D0")]
+		[Token(Token = "0x6000357")]
+		[Address(RVA = "0x50D7850", Offset = "0x50D7850", VA = "0x50D7850")]
 		public CullStateChangedEvent()
 		{
 		}
@@ -74,14 +81,14 @@ public abstract class MaskableGraphic : Graphic, IClippable, IMaskable, IMateria
 	[Token(Token = "0x170000D8")]
 	public CullStateChangedEvent onCullStateChanged
 	{
-		[Token(Token = "0x6000349")]
-		[Address(RVA = "0x4DAFB00", Offset = "0x4DAFB00", VA = "0x4DAFB00")]
+		[Token(Token = "0x6000341")]
+		[Address(RVA = "0x50D6800", Offset = "0x50D6800", VA = "0x50D6800")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600034A")]
-		[Address(RVA = "0x4DAFB10", Offset = "0x4DAFB10", VA = "0x4DAFB10")]
+		[Token(Token = "0x6000342")]
+		[Address(RVA = "0x50D6810", Offset = "0x50D6810", VA = "0x50D6810")]
 		set
 		{
 		}
@@ -90,14 +97,14 @@ public abstract class MaskableGraphic : Graphic, IClippable, IMaskable, IMateria
 	[Token(Token = "0x170000D9")]
 	public bool maskable
 	{
-		[Token(Token = "0x600034B")]
-		[Address(RVA = "0x4DAFB30", Offset = "0x4DAFB30", VA = "0x4DAFB30")]
+		[Token(Token = "0x6000343")]
+		[Address(RVA = "0x50D6830", Offset = "0x50D6830", VA = "0x50D6830")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600034C")]
-		[Address(RVA = "0x4DAFB40", Offset = "0x4DAFB40", VA = "0x4DAFB40")]
+		[Token(Token = "0x6000344")]
+		[Address(RVA = "0x50D6840", Offset = "0x50D6840", VA = "0x50D6840")]
 		set
 		{
 		}
@@ -106,14 +113,14 @@ public abstract class MaskableGraphic : Graphic, IClippable, IMaskable, IMateria
 	[Token(Token = "0x170000DA")]
 	public bool isMaskingGraphic
 	{
-		[Token(Token = "0x600034D")]
-		[Address(RVA = "0x4DAFB70", Offset = "0x4DAFB70", VA = "0x4DAFB70")]
+		[Token(Token = "0x6000345")]
+		[Address(RVA = "0x50D6870", Offset = "0x50D6870", VA = "0x50D6870")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600034E")]
-		[Address(RVA = "0x4DADDD0", Offset = "0x4DADDD0", VA = "0x4DADDD0")]
+		[Token(Token = "0x6000346")]
+		[Address(RVA = "0x50D5700", Offset = "0x50D5700", VA = "0x50D5700")]
 		set
 		{
 		}
@@ -122,103 +129,103 @@ public abstract class MaskableGraphic : Graphic, IClippable, IMaskable, IMateria
 	[Token(Token = "0x170000DB")]
 	private Rect rootCanvasRect
 	{
-		[Token(Token = "0x6000359")]
-		[Address(RVA = "0x4DAFDE0", Offset = "0x4DAFDE0", VA = "0x4DAFDE0")]
+		[Token(Token = "0x6000351")]
+		[Address(RVA = "0x50D6AE0", Offset = "0x50D6AE0", VA = "0x50D6AE0")]
 		get
 		{
 			return default(Rect);
 		}
 	}
 
-	[Token(Token = "0x600034F")]
-	[Address(RVA = "0x4DAFB80", Offset = "0x4DAFB80", VA = "0x4DAFB80", Slot = "58")]
+	[Token(Token = "0x6000347")]
+	[Address(RVA = "0x50D6880", Offset = "0x50D6880", VA = "0x50D6880", Slot = "58")]
 	public virtual Material GetModifiedMaterial(Material baseMaterial)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000350")]
-	[Address(RVA = "0x4DAFCC0", Offset = "0x4DAFCC0", VA = "0x4DAFCC0", Slot = "59")]
+	[Token(Token = "0x6000348")]
+	[Address(RVA = "0x50D69C0", Offset = "0x50D69C0", VA = "0x50D69C0", Slot = "59")]
 	public virtual void Cull(Rect clipRect, bool validRect)
 	{
 	}
 
-	[Token(Token = "0x6000351")]
-	[Address(RVA = "0x4DB00D0", Offset = "0x4DB00D0", VA = "0x4DB00D0")]
+	[Token(Token = "0x6000349")]
+	[Address(RVA = "0x50D6DD0", Offset = "0x50D6DD0", VA = "0x50D6DD0")]
 	private void UpdateCull(bool cull)
 	{
 	}
 
-	[Token(Token = "0x6000352")]
-	[Address(RVA = "0x4DB01A0", Offset = "0x4DB01A0", VA = "0x4DB01A0", Slot = "60")]
+	[Token(Token = "0x600034A")]
+	[Address(RVA = "0x50D6EA0", Offset = "0x50D6EA0", VA = "0x50D6EA0", Slot = "60")]
 	public virtual void SetClipRect(Rect clipRect, bool validRect)
 	{
 	}
 
-	[Token(Token = "0x6000353")]
-	[Address(RVA = "0x4DB01F0", Offset = "0x4DB01F0", VA = "0x4DB01F0", Slot = "61")]
+	[Token(Token = "0x600034B")]
+	[Address(RVA = "0x50D6EF0", Offset = "0x50D6EF0", VA = "0x50D6EF0", Slot = "61")]
 	public virtual void SetClipSoftness(Vector2 clipSoftness)
 	{
 	}
 
-	[Token(Token = "0x6000354")]
-	[Address(RVA = "0x4DB0220", Offset = "0x4DB0220", VA = "0x4DB0220", Slot = "5")]
+	[Token(Token = "0x600034C")]
+	[Address(RVA = "0x50D6F20", Offset = "0x50D6F20", VA = "0x50D6F20", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x6000355")]
-	[Address(RVA = "0x4DB03D0", Offset = "0x4DB03D0", VA = "0x4DB03D0", Slot = "7")]
+	[Token(Token = "0x600034D")]
+	[Address(RVA = "0x50D70D0", Offset = "0x50D70D0", VA = "0x50D70D0", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x6000356")]
-	[Address(RVA = "0x4DB0490", Offset = "0x4DB0490", VA = "0x4DB0490", Slot = "12")]
+	[Token(Token = "0x600034E")]
+	[Address(RVA = "0x50D7190", Offset = "0x50D7190", VA = "0x50D7190", Slot = "12")]
 	protected override void OnTransformParentChanged()
 	{
 	}
 
-	[Token(Token = "0x6000357")]
-	[Address(RVA = "0x4DB04E0", Offset = "0x4DB04E0", VA = "0x4DB04E0", Slot = "62")]
+	[Token(Token = "0x600034F")]
+	[Address(RVA = "0x50D71E0", Offset = "0x50D71E0", VA = "0x50D71E0", Slot = "62")]
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	[Obsolete("Not used anymore.", true)]
 	public virtual void ParentMaskStateChanged()
 	{
 	}
 
-	[Token(Token = "0x6000358")]
-	[Address(RVA = "0x4DB04F0", Offset = "0x4DB04F0", VA = "0x4DB04F0", Slot = "15")]
+	[Token(Token = "0x6000350")]
+	[Address(RVA = "0x50D71F0", Offset = "0x50D71F0", VA = "0x50D71F0", Slot = "15")]
 	protected override void OnCanvasHierarchyChanged()
 	{
 	}
 
-	[Token(Token = "0x600035A")]
-	[Address(RVA = "0x4DB0270", Offset = "0x4DB0270", VA = "0x4DB0270")]
+	[Token(Token = "0x6000352")]
+	[Address(RVA = "0x50D6F70", Offset = "0x50D6F70", VA = "0x50D6F70")]
 	private void UpdateClipParent()
 	{
 	}
 
-	[Token(Token = "0x600035B")]
-	[Address(RVA = "0x4DB0540", Offset = "0x4DB0540", VA = "0x4DB0540", Slot = "63")]
+	[Token(Token = "0x6000353")]
+	[Address(RVA = "0x50D76B0", Offset = "0x50D76B0", VA = "0x50D76B0", Slot = "63")]
 	public virtual void RecalculateClipping()
 	{
 	}
 
-	[Token(Token = "0x600035C")]
-	[Address(RVA = "0x4DB0550", Offset = "0x4DB0550", VA = "0x4DB0550", Slot = "64")]
+	[Token(Token = "0x6000354")]
+	[Address(RVA = "0x50D76C0", Offset = "0x50D76C0", VA = "0x50D76C0", Slot = "64")]
 	public virtual void RecalculateMasking()
 	{
 	}
 
-	[Token(Token = "0x600035D")]
-	[Address(RVA = "0x4DB05E0", Offset = "0x4DB05E0", VA = "0x4DB05E0")]
+	[Token(Token = "0x6000355")]
+	[Address(RVA = "0x50D7750", Offset = "0x50D7750", VA = "0x50D7750")]
 	protected MaskableGraphic()
 	{
 	}
 
-	[Token(Token = "0x600035E")]
-	[Address(RVA = "0x4DB06C0", Offset = "0x4DB06C0", VA = "0x4DB06C0", Slot = "50")]
+	[Token(Token = "0x6000356")]
+	[Address(RVA = "0x50D7890", Offset = "0x50D7890", VA = "0x50D7890", Slot = "50")]
 	private GameObject UnityEngine_002EUI_002EIClippable_002Eget_gameObject()
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Security.Protocol.Ntlm.ChallengeResponse
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -35,7 +42,7 @@ public class ChallengeResponse : IDisposable
 	public string Password
 	{
 		[Token(Token = "0x60000E7")]
-		[Address(RVA = "0x3A4AC60", Offset = "0x3A4AC60", VA = "0x3A4AC60")]
+		[Address(RVA = "0x3AB7920", Offset = "0x3AB7920", VA = "0x3AB7920")]
 		set
 		{
 		}
@@ -45,7 +52,7 @@ public class ChallengeResponse : IDisposable
 	public byte[] Challenge
 	{
 		[Token(Token = "0x60000E8")]
-		[Address(RVA = "0x3A4B0D0", Offset = "0x3A4B0D0", VA = "0x3A4B0D0")]
+		[Address(RVA = "0x3AB7D90", Offset = "0x3AB7D90", VA = "0x3AB7D90")]
 		set
 		{
 		}
@@ -55,7 +62,7 @@ public class ChallengeResponse : IDisposable
 	public byte[] LM
 	{
 		[Token(Token = "0x60000E9")]
-		[Address(RVA = "0x3A4B490", Offset = "0x3A4B490", VA = "0x3A4B490")]
+		[Address(RVA = "0x3AB8150", Offset = "0x3AB8150", VA = "0x3AB8150")]
 		get
 		{
 			return null;
@@ -66,7 +73,7 @@ public class ChallengeResponse : IDisposable
 	public byte[] NT
 	{
 		[Token(Token = "0x60000EA")]
-		[Address(RVA = "0x3A4B830", Offset = "0x3A4B830", VA = "0x3A4B830")]
+		[Address(RVA = "0x3AB84F0", Offset = "0x3AB84F0", VA = "0x3AB84F0")]
 		get
 		{
 			return null;
@@ -74,51 +81,51 @@ public class ChallengeResponse : IDisposable
 	}
 
 	[Token(Token = "0x60000E4")]
-	[Address(RVA = "0x3A4AB40", Offset = "0x3A4AB40", VA = "0x3A4AB40")]
+	[Address(RVA = "0x3AB7800", Offset = "0x3AB7800", VA = "0x3AB7800")]
 	public ChallengeResponse()
 	{
 	}
 
 	[Token(Token = "0x60000E5")]
-	[Address(RVA = "0x3A4ABC0", Offset = "0x3A4ABC0", VA = "0x3A4ABC0")]
+	[Address(RVA = "0x3AB7880", Offset = "0x3AB7880", VA = "0x3AB7880")]
 	public ChallengeResponse(string password, byte[] challenge)
 	{
 	}
 
 	[Token(Token = "0x60000E6")]
-	[Address(RVA = "0x3A4B210", Offset = "0x3A4B210", VA = "0x3A4B210", Slot = "1")]
+	[Address(RVA = "0x3AB7ED0", Offset = "0x3AB7ED0", VA = "0x3AB7ED0", Slot = "1")]
 	~ChallengeResponse()
 	{
 	}
 
 	[Token(Token = "0x60000EB")]
-	[Address(RVA = "0x3A4B2A0", Offset = "0x3A4B2A0", VA = "0x3A4B2A0", Slot = "4")]
+	[Address(RVA = "0x3AB7F60", Offset = "0x3AB7F60", VA = "0x3AB7F60", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60000EC")]
-	[Address(RVA = "0x3A4B890", Offset = "0x3A4B890", VA = "0x3A4B890")]
+	[Address(RVA = "0x3AB8550", Offset = "0x3AB8550", VA = "0x3AB8550")]
 	private void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x60000ED")]
-	[Address(RVA = "0x3A4B4F0", Offset = "0x3A4B4F0", VA = "0x3A4B4F0")]
+	[Address(RVA = "0x3AB81B0", Offset = "0x3AB81B0", VA = "0x3AB81B0")]
 	private byte[] GetResponse(byte[] pwd)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000EE")]
-	[Address(RVA = "0x3A4B8F0", Offset = "0x3A4B8F0", VA = "0x3A4B8F0")]
+	[Address(RVA = "0x3AB85B0", Offset = "0x3AB85B0", VA = "0x3AB85B0")]
 	private byte[] PrepareDESKey(byte[] key56bits, int position)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000EF")]
-	[Address(RVA = "0x3A4B350", Offset = "0x3A4B350", VA = "0x3A4B350")]
+	[Address(RVA = "0x3AB8010", Offset = "0x3AB8010", VA = "0x3AB8010")]
 	private byte[] PasswordToKey(string password, int position)
 	{
 		return null;

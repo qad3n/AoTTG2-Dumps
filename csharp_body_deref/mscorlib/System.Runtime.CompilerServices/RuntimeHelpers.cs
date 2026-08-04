@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.CompilerServices.RuntimeHelpers
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.ConstrainedExecution;
 using Il2CppDummyDll;
 
@@ -11,23 +18,23 @@ public static class RuntimeHelpers
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6002319")]
-		[Address(RVA = "0x4ED94F0", Offset = "0x4ED94F0", VA = "0x4ED94F0")]
+		[Address(RVA = "0x3BBF010", Offset = "0x3BBF010", VA = "0x3BBF010")]
 		get;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6002317")]
-	[Address(RVA = "0x4EDE610", Offset = "0x4EDE610", VA = "0x4EDE610")]
+	[Address(RVA = "0x3BC4130", Offset = "0x3BC4130", VA = "0x3BC4130")]
 	private static extern void InitializeArray(Array array, IntPtr fldHandle);
 
 	[Token(Token = "0x6002318")]
-	[Address(RVA = "0x4EDE620", Offset = "0x4EDE620", VA = "0x4EDE620")]
+	[Address(RVA = "0x3BC4140", Offset = "0x3BC4140", VA = "0x3BC4140")]
 	public static void InitializeArray(Array array, RuntimeFieldHandle fldHandle)
 	{
 	}
 
 	[Token(Token = "0x600231A")]
-	[Address(RVA = "0x4EDE670", Offset = "0x4EDE670", VA = "0x4EDE670")]
+	[Address(RVA = "0x3BC4190", Offset = "0x3BC4190", VA = "0x3BC4190")]
 	public static int GetHashCode(object o)
 	{
 		return default(int);
@@ -35,34 +42,34 @@ public static class RuntimeHelpers
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600231B")]
-	[Address(RVA = "0x4EDE680", Offset = "0x4EDE680", VA = "0x4EDE680")]
+	[Address(RVA = "0x3BC41A0", Offset = "0x3BC41A0", VA = "0x3BC41A0")]
 	public static extern object GetObjectValue(object obj);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600231C")]
-	[Address(RVA = "0x4EDE690", Offset = "0x4EDE690", VA = "0x4EDE690")]
+	[Address(RVA = "0x3BC41B0", Offset = "0x3BC41B0", VA = "0x3BC41B0")]
 	private static extern void RunClassConstructor(IntPtr type);
 
 	[Token(Token = "0x600231D")]
-	[Address(RVA = "0x4EDE6A0", Offset = "0x4EDE6A0", VA = "0x4EDE6A0")]
+	[Address(RVA = "0x3BC41C0", Offset = "0x3BC41C0", VA = "0x3BC41C0")]
 	public static void RunClassConstructor(RuntimeTypeHandle type)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600231E")]
-	[Address(RVA = "0x4EDE710", Offset = "0x4EDE710", VA = "0x4EDE710")]
+	[Address(RVA = "0x3BC4230", Offset = "0x3BC4230", VA = "0x3BC4230")]
 	private static extern bool SufficientExecutionStack();
 
 	[Token(Token = "0x600231F")]
-	[Address(RVA = "0x4EDE720", Offset = "0x4EDE720", VA = "0x4EDE720")]
+	[Address(RVA = "0x3BC4240", Offset = "0x3BC4240", VA = "0x3BC4240")]
 	public static bool TryEnsureSufficientExecutionStack()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002320")]
-	[Address(RVA = "0x4EDE730", Offset = "0x4EDE730", VA = "0x4EDE730")]
+	[Address(RVA = "0x3BC4250", Offset = "0x3BC4250", VA = "0x3BC4250")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
 	public static void PrepareConstrainedRegions()
 	{

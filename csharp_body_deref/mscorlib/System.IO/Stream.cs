@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.IO.Stream
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Runtime.ExceptionServices;
@@ -71,7 +78,7 @@ public abstract class Stream : MarshalByRefObject, IDisposable
 		private bool System_002EThreading_002ETasks_002EITaskCompletionAction_002EInvokeMayRunArbitraryCode
 		{
 			[Token(Token = "0x60029CB")]
-			[Address(RVA = "0x4F41520", Offset = "0x4F41520", VA = "0x4F41520", Slot = "15")]
+			[Address(RVA = "0x3C27040", Offset = "0x3C27040", VA = "0x3C27040", Slot = "15")]
 			get
 			{
 				return default(bool);
@@ -79,25 +86,25 @@ public abstract class Stream : MarshalByRefObject, IDisposable
 		}
 
 		[Token(Token = "0x60029C7")]
-		[Address(RVA = "0x4F41300", Offset = "0x4F41300", VA = "0x4F41300")]
+		[Address(RVA = "0x3C26E20", Offset = "0x3C26E20", VA = "0x3C26E20")]
 		internal void ClearBeginState()
 		{
 		}
 
 		[Token(Token = "0x60029C8")]
-		[Address(RVA = "0x4F3EAF0", Offset = "0x4F3EAF0", VA = "0x4F3EAF0")]
+		[Address(RVA = "0x3C24610", Offset = "0x3C24610", VA = "0x3C24610")]
 		public ReadWriteTask(bool isRead, bool apm, Func<object, int> function, object state, Stream stream, byte[] buffer, int offset, int count, AsyncCallback callback)
 		{
 		}
 
 		[Token(Token = "0x60029C9")]
-		[Address(RVA = "0x4F41330", Offset = "0x4F41330", VA = "0x4F41330")]
+		[Address(RVA = "0x3C26E50", Offset = "0x3C26E50", VA = "0x3C26E50")]
 		private static void InvokeAsyncCallback(object completedTask)
 		{
 		}
 
 		[Token(Token = "0x60029CA")]
-		[Address(RVA = "0x4F413B0", Offset = "0x4F413B0", VA = "0x4F413B0", Slot = "14")]
+		[Address(RVA = "0x3C26ED0", Offset = "0x3C26ED0", VA = "0x3C26ED0", Slot = "14")]
 		private void System_002EThreading_002ETasks_002EITaskCompletionAction_002EInvoke(Task completingTask)
 		{
 		}
@@ -114,7 +121,7 @@ public abstract class Stream : MarshalByRefObject, IDisposable
 		public override bool CanRead
 		{
 			[Token(Token = "0x60029CD")]
-			[Address(RVA = "0x4F41530", Offset = "0x4F41530", VA = "0x4F41530", Slot = "7")]
+			[Address(RVA = "0x3C27050", Offset = "0x3C27050", VA = "0x3C27050", Slot = "7")]
 			get
 			{
 				return default(bool);
@@ -125,7 +132,7 @@ public abstract class Stream : MarshalByRefObject, IDisposable
 		public override bool CanWrite
 		{
 			[Token(Token = "0x60029CE")]
-			[Address(RVA = "0x4F41540", Offset = "0x4F41540", VA = "0x4F41540", Slot = "10")]
+			[Address(RVA = "0x3C27060", Offset = "0x3C27060", VA = "0x3C27060", Slot = "10")]
 			get
 			{
 				return default(bool);
@@ -136,7 +143,7 @@ public abstract class Stream : MarshalByRefObject, IDisposable
 		public override bool CanSeek
 		{
 			[Token(Token = "0x60029CF")]
-			[Address(RVA = "0x4F41550", Offset = "0x4F41550", VA = "0x4F41550", Slot = "8")]
+			[Address(RVA = "0x3C27070", Offset = "0x3C27070", VA = "0x3C27070", Slot = "8")]
 			get
 			{
 				return default(bool);
@@ -147,7 +154,7 @@ public abstract class Stream : MarshalByRefObject, IDisposable
 		public override long Length
 		{
 			[Token(Token = "0x60029D0")]
-			[Address(RVA = "0x4F41560", Offset = "0x4F41560", VA = "0x4F41560", Slot = "11")]
+			[Address(RVA = "0x3C27080", Offset = "0x3C27080", VA = "0x3C27080", Slot = "11")]
 			get
 			{
 				return default(long);
@@ -158,146 +165,146 @@ public abstract class Stream : MarshalByRefObject, IDisposable
 		public override long Position
 		{
 			[Token(Token = "0x60029D1")]
-			[Address(RVA = "0x4F41570", Offset = "0x4F41570", VA = "0x4F41570", Slot = "12")]
+			[Address(RVA = "0x3C27090", Offset = "0x3C27090", VA = "0x3C27090", Slot = "12")]
 			get
 			{
 				return default(long);
 			}
 			[Token(Token = "0x60029D2")]
-			[Address(RVA = "0x4F41580", Offset = "0x4F41580", VA = "0x4F41580", Slot = "13")]
+			[Address(RVA = "0x3C270A0", Offset = "0x3C270A0", VA = "0x3C270A0", Slot = "13")]
 			set
 			{
 			}
 		}
 
 		[Token(Token = "0x60029CC")]
-		[Address(RVA = "0x4F41290", Offset = "0x4F41290", VA = "0x4F41290")]
+		[Address(RVA = "0x3C26DB0", Offset = "0x3C26DB0", VA = "0x3C26DB0")]
 		internal NullStream()
 		{
 		}
 
 		[Token(Token = "0x60029D3")]
-		[Address(RVA = "0x4F41590", Offset = "0x4F41590", VA = "0x4F41590", Slot = "19")]
+		[Address(RVA = "0x3C270B0", Offset = "0x3C270B0", VA = "0x3C270B0", Slot = "19")]
 		protected override void Dispose(bool disposing)
 		{
 		}
 
 		[Token(Token = "0x60029D4")]
-		[Address(RVA = "0x4F415A0", Offset = "0x4F415A0", VA = "0x4F415A0", Slot = "20")]
+		[Address(RVA = "0x3C270C0", Offset = "0x3C270C0", VA = "0x3C270C0", Slot = "20")]
 		public override void Flush()
 		{
 		}
 
 		[Token(Token = "0x60029D5")]
-		[Address(RVA = "0x4F415B0", Offset = "0x4F415B0", VA = "0x4F415B0", Slot = "21")]
+		[Address(RVA = "0x3C270D0", Offset = "0x3C270D0", VA = "0x3C270D0", Slot = "21")]
 		public override Task FlushAsync(CancellationToken cancellationToken)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60029D6")]
-		[Address(RVA = "0x4F416B0", Offset = "0x4F416B0", VA = "0x4F416B0", Slot = "22")]
+		[Address(RVA = "0x3C271D0", Offset = "0x3C271D0", VA = "0x3C271D0", Slot = "22")]
 		public override IAsyncResult BeginRead(byte[] buffer, int offset, int count, AsyncCallback callback, object state)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60029D7")]
-		[Address(RVA = "0x4F41730", Offset = "0x4F41730", VA = "0x4F41730", Slot = "23")]
+		[Address(RVA = "0x3C27250", Offset = "0x3C27250", VA = "0x3C27250", Slot = "23")]
 		public override int EndRead(IAsyncResult asyncResult)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60029D8")]
-		[Address(RVA = "0x4F417D0", Offset = "0x4F417D0", VA = "0x4F417D0", Slot = "26")]
+		[Address(RVA = "0x3C272F0", Offset = "0x3C272F0", VA = "0x3C272F0", Slot = "26")]
 		public override IAsyncResult BeginWrite(byte[] buffer, int offset, int count, AsyncCallback callback, object state)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60029D9")]
-		[Address(RVA = "0x4F41850", Offset = "0x4F41850", VA = "0x4F41850", Slot = "27")]
+		[Address(RVA = "0x3C27370", Offset = "0x3C27370", VA = "0x3C27370", Slot = "27")]
 		public override void EndWrite(IAsyncResult asyncResult)
 		{
 		}
 
 		[Token(Token = "0x60029DA")]
-		[Address(RVA = "0x4F418F0", Offset = "0x4F418F0", VA = "0x4F418F0", Slot = "32")]
+		[Address(RVA = "0x3C27410", Offset = "0x3C27410", VA = "0x3C27410", Slot = "32")]
 		public override int Read(byte[] buffer, int offset, int count)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60029DB")]
-		[Address(RVA = "0x4F41900", Offset = "0x4F41900", VA = "0x4F41900", Slot = "33")]
+		[Address(RVA = "0x3C27420", Offset = "0x3C27420", VA = "0x3C27420", Slot = "33")]
 		public override int Read(Span<byte> buffer)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60029DC")]
-		[Address(RVA = "0x4F41910", Offset = "0x4F41910", VA = "0x4F41910", Slot = "24")]
+		[Address(RVA = "0x3C27430", Offset = "0x3C27430", VA = "0x3C27430", Slot = "24")]
 		public override Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60029DD")]
-		[Address(RVA = "0x4F41980", Offset = "0x4F41980", VA = "0x4F41980", Slot = "25")]
+		[Address(RVA = "0x3C274A0", Offset = "0x3C274A0", VA = "0x3C274A0", Slot = "25")]
 		public override ValueTask<int> ReadAsync(Memory<byte> buffer, [Optional] CancellationToken cancellationToken)
 		{
 			return default(ValueTask<int>);
 		}
 
 		[Token(Token = "0x60029DE")]
-		[Address(RVA = "0x4F419D0", Offset = "0x4F419D0", VA = "0x4F419D0", Slot = "34")]
+		[Address(RVA = "0x3C274F0", Offset = "0x3C274F0", VA = "0x3C274F0", Slot = "34")]
 		public override int ReadByte()
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60029DF")]
-		[Address(RVA = "0x4F419E0", Offset = "0x4F419E0", VA = "0x4F419E0", Slot = "35")]
+		[Address(RVA = "0x3C27500", Offset = "0x3C27500", VA = "0x3C27500", Slot = "35")]
 		public override void Write(byte[] buffer, int offset, int count)
 		{
 		}
 
 		[Token(Token = "0x60029E0")]
-		[Address(RVA = "0x4F419F0", Offset = "0x4F419F0", VA = "0x4F419F0", Slot = "36")]
+		[Address(RVA = "0x3C27510", Offset = "0x3C27510", VA = "0x3C27510", Slot = "36")]
 		public override void Write(ReadOnlySpan<byte> buffer)
 		{
 		}
 
 		[Token(Token = "0x60029E1")]
-		[Address(RVA = "0x4F41A00", Offset = "0x4F41A00", VA = "0x4F41A00", Slot = "28")]
+		[Address(RVA = "0x3C27520", Offset = "0x3C27520", VA = "0x3C27520", Slot = "28")]
 		public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60029E2")]
-		[Address(RVA = "0x4F41B00", Offset = "0x4F41B00", VA = "0x4F41B00", Slot = "29")]
+		[Address(RVA = "0x3C27620", Offset = "0x3C27620", VA = "0x3C27620", Slot = "29")]
 		public override ValueTask WriteAsync(ReadOnlyMemory<byte> buffer, [Optional] CancellationToken cancellationToken)
 		{
 			return default(ValueTask);
 		}
 
 		[Token(Token = "0x60029E3")]
-		[Address(RVA = "0x4F41BD0", Offset = "0x4F41BD0", VA = "0x4F41BD0", Slot = "37")]
+		[Address(RVA = "0x3C276F0", Offset = "0x3C276F0", VA = "0x3C276F0", Slot = "37")]
 		public override void WriteByte(byte value)
 		{
 		}
 
 		[Token(Token = "0x60029E4")]
-		[Address(RVA = "0x4F41BE0", Offset = "0x4F41BE0", VA = "0x4F41BE0", Slot = "30")]
+		[Address(RVA = "0x3C27700", Offset = "0x3C27700", VA = "0x3C27700", Slot = "30")]
 		public override long Seek(long offset, SeekOrigin origin)
 		{
 			return default(long);
 		}
 
 		[Token(Token = "0x60029E5")]
-		[Address(RVA = "0x4F41BF0", Offset = "0x4F41BF0", VA = "0x4F41BF0", Slot = "31")]
+		[Address(RVA = "0x3C27710", Offset = "0x3C27710", VA = "0x3C27710", Slot = "31")]
 		public override void SetLength(long length)
 		{
 		}
@@ -334,7 +341,7 @@ public abstract class Stream : MarshalByRefObject, IDisposable
 		public bool IsCompleted
 		{
 			[Token(Token = "0x60029EA")]
-			[Address(RVA = "0x4F41C90", Offset = "0x4F41C90", VA = "0x4F41C90", Slot = "4")]
+			[Address(RVA = "0x3C277B0", Offset = "0x3C277B0", VA = "0x3C277B0", Slot = "4")]
 			get
 			{
 				return default(bool);
@@ -345,7 +352,7 @@ public abstract class Stream : MarshalByRefObject, IDisposable
 		public WaitHandle AsyncWaitHandle
 		{
 			[Token(Token = "0x60029EB")]
-			[Address(RVA = "0x4F41CA0", Offset = "0x4F41CA0", VA = "0x4F41CA0", Slot = "5")]
+			[Address(RVA = "0x3C277C0", Offset = "0x3C277C0", VA = "0x3C277C0", Slot = "5")]
 			get
 			{
 				return null;
@@ -356,7 +363,7 @@ public abstract class Stream : MarshalByRefObject, IDisposable
 		public object AsyncState
 		{
 			[Token(Token = "0x60029EC")]
-			[Address(RVA = "0x4F41DA0", Offset = "0x4F41DA0", VA = "0x4F41DA0", Slot = "6")]
+			[Address(RVA = "0x3C278C0", Offset = "0x3C278C0", VA = "0x3C278C0", Slot = "6")]
 			get
 			{
 				return null;
@@ -367,7 +374,7 @@ public abstract class Stream : MarshalByRefObject, IDisposable
 		public bool CompletedSynchronously
 		{
 			[Token(Token = "0x60029ED")]
-			[Address(RVA = "0x4F41DB0", Offset = "0x4F41DB0", VA = "0x4F41DB0", Slot = "7")]
+			[Address(RVA = "0x3C278D0", Offset = "0x3C278D0", VA = "0x3C278D0", Slot = "7")]
 			get
 			{
 				return default(bool);
@@ -375,38 +382,38 @@ public abstract class Stream : MarshalByRefObject, IDisposable
 		}
 
 		[Token(Token = "0x60029E7")]
-		[Address(RVA = "0x4F40DE0", Offset = "0x4F40DE0", VA = "0x4F40DE0")]
+		[Address(RVA = "0x3C26900", Offset = "0x3C26900", VA = "0x3C26900")]
 		internal SynchronousAsyncResult(int bytesRead, object asyncStateObject)
 		{
 		}
 
 		[Token(Token = "0x60029E8")]
-		[Address(RVA = "0x4F410D0", Offset = "0x4F410D0", VA = "0x4F410D0")]
+		[Address(RVA = "0x3C26BF0", Offset = "0x3C26BF0", VA = "0x3C26BF0")]
 		internal SynchronousAsyncResult(object asyncStateObject)
 		{
 		}
 
 		[Token(Token = "0x60029E9")]
-		[Address(RVA = "0x4F40E10", Offset = "0x4F40E10", VA = "0x4F40E10")]
+		[Address(RVA = "0x3C26930", Offset = "0x3C26930", VA = "0x3C26930")]
 		internal SynchronousAsyncResult(Exception ex, object asyncStateObject, bool isWrite)
 		{
 		}
 
 		[Token(Token = "0x60029EE")]
-		[Address(RVA = "0x4F41DC0", Offset = "0x4F41DC0", VA = "0x4F41DC0")]
+		[Address(RVA = "0x3C278E0", Offset = "0x3C278E0", VA = "0x3C278E0")]
 		internal void ThrowIfError()
 		{
 		}
 
 		[Token(Token = "0x60029EF")]
-		[Address(RVA = "0x4F40E80", Offset = "0x4F40E80", VA = "0x4F40E80")]
+		[Address(RVA = "0x3C269A0", Offset = "0x3C269A0", VA = "0x3C269A0")]
 		internal static int EndRead(IAsyncResult asyncResult)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60029F0")]
-		[Address(RVA = "0x4F41110", Offset = "0x4F41110", VA = "0x4F41110")]
+		[Address(RVA = "0x3C26C30", Offset = "0x3C26C30", VA = "0x3C26C30")]
 		internal static void EndWrite(IAsyncResult asyncResult)
 		{
 		}
@@ -438,13 +445,13 @@ public abstract class Stream : MarshalByRefObject, IDisposable
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x60029FF")]
-		[Address(RVA = "0x4F42440", Offset = "0x4F42440", VA = "0x4F42440", Slot = "4")]
+		[Address(RVA = "0x3C27F60", Offset = "0x3C27F60", VA = "0x3C27F60", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6002A00")]
-		[Address(RVA = "0x4F42720", Offset = "0x4F42720", VA = "0x4F42720", Slot = "5")]
+		[Address(RVA = "0x3C28240", Offset = "0x3C28240", VA = "0x3C28240", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -486,7 +493,7 @@ public abstract class Stream : MarshalByRefObject, IDisposable
 	public virtual bool CanTimeout
 	{
 		[Token(Token = "0x6002996")]
-		[Address(RVA = "0x4F3E450", Offset = "0x4F3E450", VA = "0x4F3E450", Slot = "9")]
+		[Address(RVA = "0x3C23F70", Offset = "0x3C23F70", VA = "0x3C23F70", Slot = "9")]
 		get
 		{
 			return default(bool);
@@ -520,13 +527,13 @@ public abstract class Stream : MarshalByRefObject, IDisposable
 	public virtual int ReadTimeout
 	{
 		[Token(Token = "0x600299B")]
-		[Address(RVA = "0x4F3E460", Offset = "0x4F3E460", VA = "0x4F3E460", Slot = "14")]
+		[Address(RVA = "0x3C23F80", Offset = "0x3C23F80", VA = "0x3C23F80", Slot = "14")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600299C")]
-		[Address(RVA = "0x4F3E4B0", Offset = "0x4F3E4B0", VA = "0x4F3E4B0", Slot = "15")]
+		[Address(RVA = "0x3C23FD0", Offset = "0x3C23FD0", VA = "0x3C23FD0", Slot = "15")]
 		set
 		{
 		}
@@ -536,39 +543,39 @@ public abstract class Stream : MarshalByRefObject, IDisposable
 	public virtual int WriteTimeout
 	{
 		[Token(Token = "0x600299D")]
-		[Address(RVA = "0x4F3E500", Offset = "0x4F3E500", VA = "0x4F3E500", Slot = "16")]
+		[Address(RVA = "0x3C24020", Offset = "0x3C24020", VA = "0x3C24020", Slot = "16")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600299E")]
-		[Address(RVA = "0x4F3E550", Offset = "0x4F3E550", VA = "0x4F3E550", Slot = "17")]
+		[Address(RVA = "0x3C24070", Offset = "0x3C24070", VA = "0x3C24070", Slot = "17")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6002993")]
-	[Address(RVA = "0x4F3E350", Offset = "0x4F3E350", VA = "0x4F3E350")]
+	[Address(RVA = "0x3C23E70", Offset = "0x3C23E70", VA = "0x3C23E70")]
 	internal SemaphoreSlim EnsureAsyncActiveSemaphoreInitialized()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600299F")]
-	[Address(RVA = "0x4F3E5A0", Offset = "0x4F3E5A0", VA = "0x4F3E5A0", Slot = "18")]
+	[Address(RVA = "0x3C240C0", Offset = "0x3C240C0", VA = "0x3C240C0", Slot = "18")]
 	public virtual void Close()
 	{
 	}
 
 	[Token(Token = "0x60029A0")]
-	[Address(RVA = "0x4F3E610", Offset = "0x4F3E610", VA = "0x4F3E610", Slot = "6")]
+	[Address(RVA = "0x3C24130", Offset = "0x3C24130", VA = "0x3C24130", Slot = "6")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60029A1")]
-	[Address(RVA = "0x4F3E630", Offset = "0x4F3E630", VA = "0x4F3E630", Slot = "19")]
+	[Address(RVA = "0x3C24150", Offset = "0x3C24150", VA = "0x3C24150", Slot = "19")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
@@ -577,122 +584,122 @@ public abstract class Stream : MarshalByRefObject, IDisposable
 	public abstract void Flush();
 
 	[Token(Token = "0x60029A3")]
-	[Address(RVA = "0x4F3E640", Offset = "0x4F3E640", VA = "0x4F3E640", Slot = "21")]
+	[Address(RVA = "0x3C24160", Offset = "0x3C24160", VA = "0x3C24160", Slot = "21")]
 	public virtual Task FlushAsync(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60029A4")]
-	[Address(RVA = "0x4F3E8C0", Offset = "0x4F3E8C0", VA = "0x4F3E8C0", Slot = "22")]
+	[Address(RVA = "0x3C243E0", Offset = "0x3C243E0", VA = "0x3C243E0", Slot = "22")]
 	public virtual IAsyncResult BeginRead(byte[] buffer, int offset, int count, AsyncCallback callback, object state)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60029A5")]
-	[Address(RVA = "0x4F3E8E0", Offset = "0x4F3E8E0", VA = "0x4F3E8E0")]
+	[Address(RVA = "0x3C24400", Offset = "0x3C24400", VA = "0x3C24400")]
 	internal IAsyncResult BeginReadInternal(byte[] buffer, int offset, int count, AsyncCallback callback, object state, bool serializeAsynchronously, bool apm)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60029A6")]
-	[Address(RVA = "0x4F3EF20", Offset = "0x4F3EF20", VA = "0x4F3EF20", Slot = "23")]
+	[Address(RVA = "0x3C24A40", Offset = "0x3C24A40", VA = "0x3C24A40", Slot = "23")]
 	public virtual int EndRead(IAsyncResult asyncResult)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60029A7")]
-	[Address(RVA = "0x4F3F130", Offset = "0x4F3F130", VA = "0x4F3F130")]
+	[Address(RVA = "0x3C24C50", Offset = "0x3C24C50", VA = "0x3C24C50")]
 	public Task<int> ReadAsync(byte[] buffer, int offset, int count)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60029A8")]
-	[Address(RVA = "0x4F3F1B0", Offset = "0x4F3F1B0", VA = "0x4F3F1B0", Slot = "24")]
+	[Address(RVA = "0x3C24CD0", Offset = "0x3C24CD0", VA = "0x3C24CD0", Slot = "24")]
 	public virtual Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60029A9")]
-	[Address(RVA = "0x4F3F4B0", Offset = "0x4F3F4B0", VA = "0x4F3F4B0", Slot = "25")]
+	[Address(RVA = "0x3C24FD0", Offset = "0x3C24FD0", VA = "0x3C24FD0", Slot = "25")]
 	public virtual ValueTask<int> ReadAsync(Memory<byte> buffer, [Optional] CancellationToken cancellationToken)
 	{
 		return default(ValueTask<int>);
 	}
 
 	[Token(Token = "0x60029AA")]
-	[Address(RVA = "0x4F3F270", Offset = "0x4F3F270", VA = "0x4F3F270")]
+	[Address(RVA = "0x3C24D90", Offset = "0x3C24D90", VA = "0x3C24D90")]
 	private Task<int> BeginEndReadAsync(byte[] buffer, int offset, int count)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60029AB")]
-	[Address(RVA = "0x4F3F9C0", Offset = "0x4F3F9C0", VA = "0x4F3F9C0", Slot = "26")]
+	[Address(RVA = "0x3C254E0", Offset = "0x3C254E0", VA = "0x3C254E0", Slot = "26")]
 	public virtual IAsyncResult BeginWrite(byte[] buffer, int offset, int count, AsyncCallback callback, object state)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60029AC")]
-	[Address(RVA = "0x4F3F9E0", Offset = "0x4F3F9E0", VA = "0x4F3F9E0")]
+	[Address(RVA = "0x3C25500", Offset = "0x3C25500", VA = "0x3C25500")]
 	internal IAsyncResult BeginWriteInternal(byte[] buffer, int offset, int count, AsyncCallback callback, object state, bool serializeAsynchronously, bool apm)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60029AD")]
-	[Address(RVA = "0x4F3EC50", Offset = "0x4F3EC50", VA = "0x4F3EC50")]
+	[Address(RVA = "0x3C24770", Offset = "0x3C24770", VA = "0x3C24770")]
 	private void RunReadWriteTaskWhenReady(Task asyncWaiter, ReadWriteTask readWriteTask)
 	{
 	}
 
 	[Token(Token = "0x60029AE")]
-	[Address(RVA = "0x4F3EE50", Offset = "0x4F3EE50", VA = "0x4F3EE50")]
+	[Address(RVA = "0x3C24970", Offset = "0x3C24970", VA = "0x3C24970")]
 	private void RunReadWriteTask(ReadWriteTask readWriteTask)
 	{
 	}
 
 	[Token(Token = "0x60029AF")]
-	[Address(RVA = "0x4F3FBF0", Offset = "0x4F3FBF0", VA = "0x4F3FBF0")]
+	[Address(RVA = "0x3C25710", Offset = "0x3C25710", VA = "0x3C25710")]
 	private void FinishTrackingAsyncOperation()
 	{
 	}
 
 	[Token(Token = "0x60029B0")]
-	[Address(RVA = "0x4F3FC20", Offset = "0x4F3FC20", VA = "0x4F3FC20", Slot = "27")]
+	[Address(RVA = "0x3C25740", Offset = "0x3C25740", VA = "0x3C25740", Slot = "27")]
 	public virtual void EndWrite(IAsyncResult asyncResult)
 	{
 	}
 
 	[Token(Token = "0x60029B1")]
-	[Address(RVA = "0x4F3FE20", Offset = "0x4F3FE20", VA = "0x4F3FE20")]
+	[Address(RVA = "0x3C25940", Offset = "0x3C25940", VA = "0x3C25940")]
 	public Task WriteAsync(byte[] buffer, int offset, int count)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60029B2")]
-	[Address(RVA = "0x4F3FEA0", Offset = "0x4F3FEA0", VA = "0x4F3FEA0", Slot = "28")]
+	[Address(RVA = "0x3C259C0", Offset = "0x3C259C0", VA = "0x3C259C0", Slot = "28")]
 	public virtual Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60029B3")]
-	[Address(RVA = "0x4F40190", Offset = "0x4F40190", VA = "0x4F40190", Slot = "29")]
+	[Address(RVA = "0x3C25CB0", Offset = "0x3C25CB0", VA = "0x3C25CB0", Slot = "29")]
 	public virtual ValueTask WriteAsync(ReadOnlyMemory<byte> buffer, [Optional] CancellationToken cancellationToken)
 	{
 		return default(ValueTask);
 	}
 
 	[Token(Token = "0x60029B4")]
-	[Address(RVA = "0x4F404C0", Offset = "0x4F404C0", VA = "0x4F404C0")]
+	[Address(RVA = "0x3C25FE0", Offset = "0x3C25FE0", VA = "0x3C25FE0")]
 	[AsyncStateMachine(typeof(_003CFinishWriteAsync_003Ed__57))]
 	private Task FinishWriteAsync(Task writeTask, byte[] localBuffer)
 	{
@@ -700,7 +707,7 @@ public abstract class Stream : MarshalByRefObject, IDisposable
 	}
 
 	[Token(Token = "0x60029B5")]
-	[Address(RVA = "0x4F3FF50", Offset = "0x4F3FF50", VA = "0x4F3FF50")]
+	[Address(RVA = "0x3C25A70", Offset = "0x3C25A70", VA = "0x3C25A70")]
 	private Task BeginEndWriteAsync(byte[] buffer, int offset, int count)
 	{
 		return null;
@@ -716,14 +723,14 @@ public abstract class Stream : MarshalByRefObject, IDisposable
 	public abstract int Read(byte[] buffer, int offset, int count);
 
 	[Token(Token = "0x60029B9")]
-	[Address(RVA = "0x4F405C0", Offset = "0x4F405C0", VA = "0x4F405C0", Slot = "33")]
+	[Address(RVA = "0x3C260E0", Offset = "0x3C260E0", VA = "0x3C260E0", Slot = "33")]
 	public virtual int Read(Span<byte> buffer)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60029BA")]
-	[Address(RVA = "0x4F408D0", Offset = "0x4F408D0", VA = "0x4F408D0", Slot = "34")]
+	[Address(RVA = "0x3C263F0", Offset = "0x3C263F0", VA = "0x3C263F0", Slot = "34")]
 	public virtual int ReadByte()
 	{
 		return default(int);
@@ -733,60 +740,60 @@ public abstract class Stream : MarshalByRefObject, IDisposable
 	public abstract void Write(byte[] buffer, int offset, int count);
 
 	[Token(Token = "0x60029BC")]
-	[Address(RVA = "0x4F40960", Offset = "0x4F40960", VA = "0x4F40960", Slot = "36")]
+	[Address(RVA = "0x3C26480", Offset = "0x3C26480", VA = "0x3C26480", Slot = "36")]
 	public virtual void Write(ReadOnlySpan<byte> buffer)
 	{
 	}
 
 	[Token(Token = "0x60029BD")]
-	[Address(RVA = "0x4F40BD0", Offset = "0x4F40BD0", VA = "0x4F40BD0", Slot = "37")]
+	[Address(RVA = "0x3C266F0", Offset = "0x3C266F0", VA = "0x3C266F0", Slot = "37")]
 	public virtual void WriteByte(byte value)
 	{
 	}
 
 	[Token(Token = "0x60029BE")]
-	[Address(RVA = "0x4F40C50", Offset = "0x4F40C50", VA = "0x4F40C50")]
+	[Address(RVA = "0x3C26770", Offset = "0x3C26770", VA = "0x3C26770")]
 	internal IAsyncResult BlockingBeginRead(byte[] buffer, int offset, int count, AsyncCallback callback, object state)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60029BF")]
-	[Address(RVA = "0x4F40E70", Offset = "0x4F40E70", VA = "0x4F40E70")]
+	[Address(RVA = "0x3C26990", Offset = "0x3C26990", VA = "0x3C26990")]
 	internal static int BlockingEndRead(IAsyncResult asyncResult)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60029C0")]
-	[Address(RVA = "0x4F40F40", Offset = "0x4F40F40", VA = "0x4F40F40")]
+	[Address(RVA = "0x3C26A60", Offset = "0x3C26A60", VA = "0x3C26A60")]
 	internal IAsyncResult BlockingBeginWrite(byte[] buffer, int offset, int count, AsyncCallback callback, object state)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60029C1")]
-	[Address(RVA = "0x4F41100", Offset = "0x4F41100", VA = "0x4F41100")]
+	[Address(RVA = "0x3C26C20", Offset = "0x3C26C20", VA = "0x3C26C20")]
 	internal static void BlockingEndWrite(IAsyncResult asyncResult)
 	{
 	}
 
 	[Token(Token = "0x60029C2")]
-	[Address(RVA = "0x4F3F9B0", Offset = "0x4F3F9B0", VA = "0x4F3F9B0")]
+	[Address(RVA = "0x3C254D0", Offset = "0x3C254D0", VA = "0x3C254D0")]
 	private bool HasOverriddenBeginEndRead()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60029C3")]
-	[Address(RVA = "0x4F405B0", Offset = "0x4F405B0", VA = "0x4F405B0")]
+	[Address(RVA = "0x3C260D0", Offset = "0x3C260D0", VA = "0x3C260D0")]
 	private bool HasOverriddenBeginEndWrite()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60029C4")]
-	[Address(RVA = "0x4F411D0", Offset = "0x4F411D0", VA = "0x4F411D0")]
+	[Address(RVA = "0x3C26CF0", Offset = "0x3C26CF0", VA = "0x3C26CF0")]
 	protected Stream()
 	{
 	}

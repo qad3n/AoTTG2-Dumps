@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TerrainData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -71,7 +78,7 @@ public sealed class TerrainData : Object
 	public Vector3 size
 	{
 		[Token(Token = "0x6000014")]
-		[Address(RVA = "0x4B785E0", Offset = "0x4B785E0", VA = "0x4B785E0")]
+		[Address(RVA = "0x4E9FF10", Offset = "0x4E9FF10", VA = "0x4E9FF10")]
 		[UnityEngine.Bindings.NativeName("GetHeightmap().GetSize")]
 		get
 		{
@@ -83,7 +90,7 @@ public sealed class TerrainData : Object
 	internal Terrain[] users
 	{
 		[Token(Token = "0x6000016")]
-		[Address(RVA = "0x4B78180", Offset = "0x4B78180", VA = "0x4B78180")]
+		[Address(RVA = "0x4E9FAB0", Offset = "0x4E9FAB0", VA = "0x4E9FAB0")]
 		get
 		{
 			return null;
@@ -92,25 +99,25 @@ public sealed class TerrainData : Object
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x4B784E0", Offset = "0x4B784E0", VA = "0x4B784E0")]
+	[Address(RVA = "0x4E9FE10", Offset = "0x4E9FE10", VA = "0x4E9FE10")]
 	[UnityEngine.Bindings.ThreadSafe]
 	[UnityEngine.Bindings.StaticAccessor("TerrainDataScriptingInterface", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 	private static extern int GetBoundaryValue(BoundaryValueType type);
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x4B78510", Offset = "0x4B78510", VA = "0x4B78510")]
+	[Address(RVA = "0x4E9FE40", Offset = "0x4E9FE40", VA = "0x4E9FE40")]
 	public TerrainData()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x4B785B0", Offset = "0x4B785B0", VA = "0x4B785B0")]
+	[Address(RVA = "0x4E9FEE0", Offset = "0x4E9FEE0", VA = "0x4E9FEE0")]
 	[UnityEngine.Bindings.FreeFunction("TerrainDataScriptingInterface::Create")]
 	private static extern void Internal_Create([UnityEngine.Writable] TerrainData terrainData);
 
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x4B78720", Offset = "0x4B78720", VA = "0x4B78720")]
+	[Address(RVA = "0x4EA0050", Offset = "0x4EA0050", VA = "0x4EA0050")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	[UnityEngine.Bindings.NativeName("GetSplatDatabase().GetAlphamapResolution")]
 	internal float GetAlphamapResolutionInternal()
@@ -120,16 +127,16 @@ public sealed class TerrainData : Object
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x4B786E0", Offset = "0x4B786E0", VA = "0x4B786E0")]
+	[Address(RVA = "0x4EA0010", Offset = "0x4EA0010", VA = "0x4EA0010")]
 	private static extern void get_size_Injected(IntPtr _unity_self, out Vector3 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x4B787F0", Offset = "0x4B787F0", VA = "0x4B787F0")]
+	[Address(RVA = "0x4EA0120", Offset = "0x4EA0120", VA = "0x4EA0120")]
 	private static extern float GetAlphamapResolutionInternal_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x4B78820", Offset = "0x4B78820", VA = "0x4B78820")]
+	[Address(RVA = "0x4EA0150", Offset = "0x4EA0150", VA = "0x4EA0150")]
 	private static extern Terrain[] get_users_Injected(IntPtr _unity_self);
 }

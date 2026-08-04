@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.Grain
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -33,14 +40,14 @@ public sealed class Grain : PostProcessEffectSettings
 	public FloatParameter lumContrib;
 
 	[Token(Token = "0x600004F")]
-	[Address(RVA = "0x4817880", Offset = "0x4817880", VA = "0x4817880", Slot = "4")]
+	[Address(RVA = "0x4B3C970", Offset = "0x4B3C970", VA = "0x4B3C970", Slot = "4")]
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000050")]
-	[Address(RVA = "0x48178C0", Offset = "0x48178C0", VA = "0x48178C0")]
+	[Address(RVA = "0x4B3C9B0", Offset = "0x4B3C9B0", VA = "0x4B3C9B0")]
 	public Grain()
 	{
 	}

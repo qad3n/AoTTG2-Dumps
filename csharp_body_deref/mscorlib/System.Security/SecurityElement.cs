@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.SecurityElement
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -25,7 +32,7 @@ public sealed class SecurityElement
 		public string Name
 		{
 			[Token(Token = "0x60017B1")]
-			[Address(RVA = "0x4E3B080", Offset = "0x4E3B080", VA = "0x4E3B080")]
+			[Address(RVA = "0x3B20BA0", Offset = "0x3B20BA0", VA = "0x3B20BA0")]
 			get
 			{
 				return null;
@@ -36,7 +43,7 @@ public sealed class SecurityElement
 		public string Value
 		{
 			[Token(Token = "0x60017B2")]
-			[Address(RVA = "0x4E3B090", Offset = "0x4E3B090", VA = "0x4E3B090")]
+			[Address(RVA = "0x3B20BB0", Offset = "0x3B20BB0", VA = "0x3B20BB0")]
 			get
 			{
 				return null;
@@ -44,7 +51,7 @@ public sealed class SecurityElement
 		}
 
 		[Token(Token = "0x60017B0")]
-		[Address(RVA = "0x4E39D50", Offset = "0x4E39D50", VA = "0x4E39D50")]
+		[Address(RVA = "0x3B1F870", Offset = "0x3B1F870", VA = "0x3B1F870")]
 		public SecurityAttribute(string name, string value)
 		{
 		}
@@ -90,7 +97,7 @@ public sealed class SecurityElement
 	public ArrayList Children
 	{
 		[Token(Token = "0x600179D")]
-		[Address(RVA = "0x4E39770", Offset = "0x4E39770", VA = "0x4E39770")]
+		[Address(RVA = "0x3B1F290", Offset = "0x3B1F290", VA = "0x3B1F290")]
 		get
 		{
 			return null;
@@ -101,7 +108,7 @@ public sealed class SecurityElement
 	public string Tag
 	{
 		[Token(Token = "0x600179E")]
-		[Address(RVA = "0x4E39780", Offset = "0x4E39780", VA = "0x4E39780")]
+		[Address(RVA = "0x3B1F2A0", Offset = "0x3B1F2A0", VA = "0x3B1F2A0")]
 		get
 		{
 			return null;
@@ -112,7 +119,7 @@ public sealed class SecurityElement
 	public string Text
 	{
 		[Token(Token = "0x600179F")]
-		[Address(RVA = "0x4E39610", Offset = "0x4E39610", VA = "0x4E39610")]
+		[Address(RVA = "0x3B1F130", Offset = "0x3B1F130", VA = "0x3B1F130")]
 		set
 		{
 		}
@@ -122,114 +129,114 @@ public sealed class SecurityElement
 	internal string m_strText
 	{
 		[Token(Token = "0x60017AD")]
-		[Address(RVA = "0x4E3AC30", Offset = "0x4E3AC30", VA = "0x4E3AC30")]
+		[Address(RVA = "0x3B20750", Offset = "0x3B20750", VA = "0x3B20750")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600179B")]
-	[Address(RVA = "0x4E37360", Offset = "0x4E37360", VA = "0x4E37360")]
+	[Address(RVA = "0x3B1CE80", Offset = "0x3B1CE80", VA = "0x3B1CE80")]
 	public SecurityElement(string tag)
 	{
 	}
 
 	[Token(Token = "0x600179C")]
-	[Address(RVA = "0x4E39410", Offset = "0x4E39410", VA = "0x4E39410")]
+	[Address(RVA = "0x3B1EF30", Offset = "0x3B1EF30", VA = "0x3B1EF30")]
 	public SecurityElement(string tag, string text)
 	{
 	}
 
 	[Token(Token = "0x60017A0")]
-	[Address(RVA = "0x4E37370", Offset = "0x4E37370", VA = "0x4E37370")]
+	[Address(RVA = "0x3B1CE90", Offset = "0x3B1CE90", VA = "0x3B1CE90")]
 	public void AddAttribute(string name, string value)
 	{
 	}
 
 	[Token(Token = "0x60017A1")]
-	[Address(RVA = "0x4E37520", Offset = "0x4E37520", VA = "0x4E37520")]
+	[Address(RVA = "0x3B1D040", Offset = "0x3B1D040", VA = "0x3B1D040")]
 	public void AddChild(SecurityElement child)
 	{
 	}
 
 	[Token(Token = "0x60017A2")]
-	[Address(RVA = "0x4E39F90", Offset = "0x4E39F90", VA = "0x4E39F90")]
+	[Address(RVA = "0x3B1FAB0", Offset = "0x3B1FAB0", VA = "0x3B1FAB0")]
 	public static string Escape(string str)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60017A3")]
-	[Address(RVA = "0x4E39800", Offset = "0x4E39800", VA = "0x4E39800")]
+	[Address(RVA = "0x3B1F320", Offset = "0x3B1F320", VA = "0x3B1F320")]
 	private static string Unescape(string str)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60017A4")]
-	[Address(RVA = "0x4E3A190", Offset = "0x4E3A190", VA = "0x4E3A190")]
+	[Address(RVA = "0x3B1FCB0", Offset = "0x3B1FCB0", VA = "0x3B1FCB0")]
 	public static bool IsValidAttributeName(string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60017A5")]
-	[Address(RVA = "0x4E3A200", Offset = "0x4E3A200", VA = "0x4E3A200")]
+	[Address(RVA = "0x3B1FD20", Offset = "0x3B1FD20", VA = "0x3B1FD20")]
 	public static bool IsValidAttributeValue(string value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60017A6")]
-	[Address(RVA = "0x4E395A0", Offset = "0x4E395A0", VA = "0x4E395A0")]
+	[Address(RVA = "0x3B1F0C0", Offset = "0x3B1F0C0", VA = "0x3B1F0C0")]
 	public static bool IsValidTag(string tag)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60017A7")]
-	[Address(RVA = "0x4E39790", Offset = "0x4E39790", VA = "0x4E39790")]
+	[Address(RVA = "0x3B1F2B0", Offset = "0x3B1F2B0", VA = "0x3B1F2B0")]
 	public static bool IsValidText(string text)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60017A8")]
-	[Address(RVA = "0x4E3A270", Offset = "0x4E3A270", VA = "0x4E3A270")]
+	[Address(RVA = "0x3B1FD90", Offset = "0x3B1FD90", VA = "0x3B1FD90")]
 	public SecurityElement SearchForChildByTag(string tag)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60017A9")]
-	[Address(RVA = "0x4E3A390", Offset = "0x4E3A390", VA = "0x4E3A390")]
+	[Address(RVA = "0x3B1FEB0", Offset = "0x3B1FEB0", VA = "0x3B1FEB0")]
 	public string SearchForTextOfTag(string tag)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60017AA")]
-	[Address(RVA = "0x4E3A4B0", Offset = "0x4E3A4B0", VA = "0x4E3A4B0", Slot = "3")]
+	[Address(RVA = "0x3B1FFD0", Offset = "0x3B1FFD0", VA = "0x3B1FFD0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60017AB")]
-	[Address(RVA = "0x4E3A530", Offset = "0x4E3A530", VA = "0x4E3A530")]
+	[Address(RVA = "0x3B20050", Offset = "0x3B20050", VA = "0x3B20050")]
 	private void ToXml(ref StringBuilder s, int level)
 	{
 	}
 
 	[Token(Token = "0x60017AC")]
-	[Address(RVA = "0x4E399A0", Offset = "0x4E399A0", VA = "0x4E399A0")]
+	[Address(RVA = "0x3B1F4C0", Offset = "0x3B1F4C0", VA = "0x3B1F4C0")]
 	internal SecurityAttribute GetAttribute(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60017AE")]
-	[Address(RVA = "0x4E3AC40", Offset = "0x4E3AC40", VA = "0x4E3AC40")]
+	[Address(RVA = "0x3B20760", Offset = "0x3B20760", VA = "0x3B20760")]
 	internal string SearchForTextOfLocalName(string strLocalName)
 	{
 		return null;

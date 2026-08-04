@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Pun.PhotonView
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/Code/PhotonView.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -39,7 +46,7 @@ public class PhotonView : MonoBehaviour
 		public bool add;
 
 		[Token(Token = "0x6000134")]
-		[Address(RVA = "0x3C170B0", Offset = "0x3C170B0", VA = "0x3C170B0")]
+		[Address(RVA = "0x3EFA5B0", Offset = "0x3EFA5B0", VA = "0x3EFA5B0")]
 		public CallbackTargetChange(IPhotonViewCallback obj, Type type, bool add)
 		{
 		}
@@ -154,13 +161,13 @@ public class PhotonView : MonoBehaviour
 	public int Prefix
 	{
 		[Token(Token = "0x60000FE")]
-		[Address(RVA = "0x3C0EB60", Offset = "0x3C0EB60", VA = "0x3C0EB60")]
+		[Address(RVA = "0x3EF2060", Offset = "0x3EF2060", VA = "0x3EF2060")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000FF")]
-		[Address(RVA = "0x3C15A20", Offset = "0x3C15A20", VA = "0x3C15A20")]
+		[Address(RVA = "0x3EF8F20", Offset = "0x3EF8F20", VA = "0x3EF8F20")]
 		set
 		{
 		}
@@ -170,13 +177,13 @@ public class PhotonView : MonoBehaviour
 	public object[] InstantiationData
 	{
 		[Token(Token = "0x6000100")]
-		[Address(RVA = "0x3C15A30", Offset = "0x3C15A30", VA = "0x3C15A30")]
+		[Address(RVA = "0x3EF8F30", Offset = "0x3EF8F30", VA = "0x3EF8F30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000101")]
-		[Address(RVA = "0x3C15A40", Offset = "0x3C15A40", VA = "0x3C15A40")]
+		[Address(RVA = "0x3EF8F40", Offset = "0x3EF8F40", VA = "0x3EF8F40")]
 		protected internal set
 		{
 		}
@@ -187,7 +194,7 @@ public class PhotonView : MonoBehaviour
 	public bool IsSceneView
 	{
 		[Token(Token = "0x6000102")]
-		[Address(RVA = "0x3C15A50", Offset = "0x3C15A50", VA = "0x3C15A50")]
+		[Address(RVA = "0x3EF8F50", Offset = "0x3EF8F50", VA = "0x3EF8F50")]
 		get
 		{
 			return default(bool);
@@ -198,7 +205,7 @@ public class PhotonView : MonoBehaviour
 	public bool IsRoomView
 	{
 		[Token(Token = "0x6000103")]
-		[Address(RVA = "0x3BF8DB0", Offset = "0x3BF8DB0", VA = "0x3BF8DB0")]
+		[Address(RVA = "0x3EDC2B0", Offset = "0x3EDC2B0", VA = "0x3EDC2B0")]
 		get
 		{
 			return default(bool);
@@ -209,7 +216,7 @@ public class PhotonView : MonoBehaviour
 	public bool IsOwnerActive
 	{
 		[Token(Token = "0x6000104")]
-		[Address(RVA = "0x3C14930", Offset = "0x3C14930", VA = "0x3C14930")]
+		[Address(RVA = "0x3EF7E30", Offset = "0x3EF7E30", VA = "0x3EF7E30")]
 		get
 		{
 			return default(bool);
@@ -220,14 +227,14 @@ public class PhotonView : MonoBehaviour
 	public bool IsMine
 	{
 		[Token(Token = "0x6000105")]
-		[Address(RVA = "0x3C15A60", Offset = "0x3C15A60", VA = "0x3C15A60")]
+		[Address(RVA = "0x3EF8F60", Offset = "0x3EF8F60", VA = "0x3EF8F60")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000106")]
-		[Address(RVA = "0x3C15A70", Offset = "0x3C15A70", VA = "0x3C15A70")]
+		[Address(RVA = "0x3EF8F70", Offset = "0x3EF8F70", VA = "0x3EF8F70")]
 		[CompilerGenerated]
 		private set
 		{
@@ -238,7 +245,7 @@ public class PhotonView : MonoBehaviour
 	public bool AmController
 	{
 		[Token(Token = "0x6000107")]
-		[Address(RVA = "0x3C15A80", Offset = "0x3C15A80", VA = "0x3C15A80")]
+		[Address(RVA = "0x3EF8F80", Offset = "0x3EF8F80", VA = "0x3EF8F80")]
 		get
 		{
 			return default(bool);
@@ -249,14 +256,14 @@ public class PhotonView : MonoBehaviour
 	public Player Controller
 	{
 		[Token(Token = "0x6000108")]
-		[Address(RVA = "0x3C15A90", Offset = "0x3C15A90", VA = "0x3C15A90")]
+		[Address(RVA = "0x3EF8F90", Offset = "0x3EF8F90", VA = "0x3EF8F90")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000109")]
-		[Address(RVA = "0x3C15AA0", Offset = "0x3C15AA0", VA = "0x3C15AA0")]
+		[Address(RVA = "0x3EF8FA0", Offset = "0x3EF8FA0", VA = "0x3EF8FA0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -267,14 +274,14 @@ public class PhotonView : MonoBehaviour
 	public int CreatorActorNr
 	{
 		[Token(Token = "0x600010A")]
-		[Address(RVA = "0x3C15AB0", Offset = "0x3C15AB0", VA = "0x3C15AB0")]
+		[Address(RVA = "0x3EF8FB0", Offset = "0x3EF8FB0", VA = "0x3EF8FB0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600010B")]
-		[Address(RVA = "0x3C15AC0", Offset = "0x3C15AC0", VA = "0x3C15AC0")]
+		[Address(RVA = "0x3EF8FC0", Offset = "0x3EF8FC0", VA = "0x3EF8FC0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -285,14 +292,14 @@ public class PhotonView : MonoBehaviour
 	public bool AmOwner
 	{
 		[Token(Token = "0x600010C")]
-		[Address(RVA = "0x3C15AD0", Offset = "0x3C15AD0", VA = "0x3C15AD0")]
+		[Address(RVA = "0x3EF8FD0", Offset = "0x3EF8FD0", VA = "0x3EF8FD0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600010D")]
-		[Address(RVA = "0x3C15AE0", Offset = "0x3C15AE0", VA = "0x3C15AE0")]
+		[Address(RVA = "0x3EF8FE0", Offset = "0x3EF8FE0", VA = "0x3EF8FE0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -303,14 +310,14 @@ public class PhotonView : MonoBehaviour
 	public Player Owner
 	{
 		[Token(Token = "0x600010E")]
-		[Address(RVA = "0x3C15AF0", Offset = "0x3C15AF0", VA = "0x3C15AF0")]
+		[Address(RVA = "0x3EF8FF0", Offset = "0x3EF8FF0", VA = "0x3EF8FF0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600010F")]
-		[Address(RVA = "0x3C15B00", Offset = "0x3C15B00", VA = "0x3C15B00")]
+		[Address(RVA = "0x3EF9000", Offset = "0x3EF9000", VA = "0x3EF9000")]
 		[CompilerGenerated]
 		private set
 		{
@@ -321,13 +328,13 @@ public class PhotonView : MonoBehaviour
 	public int OwnerActorNr
 	{
 		[Token(Token = "0x6000110")]
-		[Address(RVA = "0x3C15B10", Offset = "0x3C15B10", VA = "0x3C15B10")]
+		[Address(RVA = "0x3EF9010", Offset = "0x3EF9010", VA = "0x3EF9010")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000111")]
-		[Address(RVA = "0x3BF8DC0", Offset = "0x3BF8DC0", VA = "0x3BF8DC0")]
+		[Address(RVA = "0x3EDC2C0", Offset = "0x3EDC2C0", VA = "0x3EDC2C0")]
 		set
 		{
 		}
@@ -337,13 +344,13 @@ public class PhotonView : MonoBehaviour
 	public int ControllerActorNr
 	{
 		[Token(Token = "0x6000112")]
-		[Address(RVA = "0x3C15ED0", Offset = "0x3C15ED0", VA = "0x3C15ED0")]
+		[Address(RVA = "0x3EF93D0", Offset = "0x3EF93D0", VA = "0x3EF93D0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000113")]
-		[Address(RVA = "0x3BF9170", Offset = "0x3BF9170", VA = "0x3BF9170")]
+		[Address(RVA = "0x3EDC670", Offset = "0x3EDC670", VA = "0x3EDC670")]
 		set
 		{
 		}
@@ -353,155 +360,155 @@ public class PhotonView : MonoBehaviour
 	public int ViewID
 	{
 		[Token(Token = "0x6000114")]
-		[Address(RVA = "0x3C15EE0", Offset = "0x3C15EE0", VA = "0x3C15EE0")]
+		[Address(RVA = "0x3EF93E0", Offset = "0x3EF93E0", VA = "0x3EF93E0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000115")]
-		[Address(RVA = "0x3C061B0", Offset = "0x3C061B0", VA = "0x3C061B0")]
+		[Address(RVA = "0x3EE96B0", Offset = "0x3EE96B0", VA = "0x3EE96B0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000116")]
-	[Address(RVA = "0x3C15EF0", Offset = "0x3C15EF0", VA = "0x3C15EF0")]
+	[Address(RVA = "0x3EF93F0", Offset = "0x3EF93F0", VA = "0x3EF93F0")]
 	protected internal void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000117")]
-	[Address(RVA = "0x3C0CAE0", Offset = "0x3C0CAE0", VA = "0x3C0CAE0")]
+	[Address(RVA = "0x3EEFFE0", Offset = "0x3EEFFE0", VA = "0x3EEFFE0")]
 	internal void ResetPhotonView(bool resetOwner)
 	{
 	}
 
 	[Token(Token = "0x6000118")]
-	[Address(RVA = "0x3BF9D30", Offset = "0x3BF9D30", VA = "0x3BF9D30")]
+	[Address(RVA = "0x3EDD230", Offset = "0x3EDD230", VA = "0x3EDD230")]
 	internal void RebuildControllerCache(bool ownerHasChanged = false)
 	{
 	}
 
 	[Token(Token = "0x6000119")]
-	[Address(RVA = "0x3C0F3F0", Offset = "0x3C0F3F0", VA = "0x3C0F3F0")]
+	[Address(RVA = "0x3EF28F0", Offset = "0x3EF28F0", VA = "0x3EF28F0")]
 	public void OnPreNetDestroy(PhotonView rootView)
 	{
 	}
 
 	[Token(Token = "0x600011A")]
-	[Address(RVA = "0x3C16060", Offset = "0x3C16060", VA = "0x3C16060")]
+	[Address(RVA = "0x3EF9560", Offset = "0x3EF9560", VA = "0x3EF9560")]
 	protected internal void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x600011B")]
-	[Address(RVA = "0x3C161C0", Offset = "0x3C161C0", VA = "0x3C161C0")]
+	[Address(RVA = "0x3EF96C0", Offset = "0x3EF96C0", VA = "0x3EF96C0")]
 	public void RequestOwnership()
 	{
 	}
 
 	[Token(Token = "0x600011C")]
-	[Address(RVA = "0x3C163C0", Offset = "0x3C163C0", VA = "0x3C163C0")]
+	[Address(RVA = "0x3EF98C0", Offset = "0x3EF98C0", VA = "0x3EF98C0")]
 	public void TransferOwnership(Player newOwner)
 	{
 	}
 
 	[Token(Token = "0x600011D")]
-	[Address(RVA = "0x3C165A0", Offset = "0x3C165A0", VA = "0x3C165A0")]
+	[Address(RVA = "0x3EF9AA0", Offset = "0x3EF9AA0", VA = "0x3EF9AA0")]
 	public void TransferOwnership(int newOwnerId)
 	{
 	}
 
 	[Token(Token = "0x600011E")]
-	[Address(RVA = "0x3C15F20", Offset = "0x3C15F20", VA = "0x3C15F20")]
+	[Address(RVA = "0x3EF9420", Offset = "0x3EF9420", VA = "0x3EF9420")]
 	public void FindObservables(bool force = false)
 	{
 	}
 
 	[Token(Token = "0x600011F")]
-	[Address(RVA = "0x3C110C0", Offset = "0x3C110C0", VA = "0x3C110C0")]
+	[Address(RVA = "0x3EF45C0", Offset = "0x3EF45C0", VA = "0x3EF45C0")]
 	public void SerializeView(PhotonStream stream, PhotonMessageInfo info)
 	{
 	}
 
 	[Token(Token = "0x6000120")]
-	[Address(RVA = "0x3C12300", Offset = "0x3C12300", VA = "0x3C12300")]
+	[Address(RVA = "0x3EF5800", Offset = "0x3EF5800", VA = "0x3EF5800")]
 	public void DeserializeView(PhotonStream stream, PhotonMessageInfo info)
 	{
 	}
 
 	[Token(Token = "0x6000121")]
-	[Address(RVA = "0x3C16A70", Offset = "0x3C16A70", VA = "0x3C16A70")]
+	[Address(RVA = "0x3EF9F70", Offset = "0x3EF9F70", VA = "0x3EF9F70")]
 	protected internal void DeserializeComponent(Component component, PhotonStream stream, PhotonMessageInfo info)
 	{
 	}
 
 	[Token(Token = "0x6000122")]
-	[Address(RVA = "0x3C168A0", Offset = "0x3C168A0", VA = "0x3C168A0")]
+	[Address(RVA = "0x3EF9DA0", Offset = "0x3EF9DA0", VA = "0x3EF9DA0")]
 	protected internal void SerializeComponent(Component component, PhotonStream stream, PhotonMessageInfo info)
 	{
 	}
 
 	[Token(Token = "0x6000123")]
-	[Address(RVA = "0x3C0EC10", Offset = "0x3C0EC10", VA = "0x3C0EC10")]
+	[Address(RVA = "0x3EF2110", Offset = "0x3EF2110", VA = "0x3EF2110")]
 	public void RefreshRpcMonoBehaviourCache()
 	{
 	}
 
 	[Token(Token = "0x6000124")]
-	[Address(RVA = "0x3C16C40", Offset = "0x3C16C40", VA = "0x3C16C40")]
+	[Address(RVA = "0x3EFA140", Offset = "0x3EFA140", VA = "0x3EFA140")]
 	public void RPC(string methodName, RpcTarget target, params object[] parameters)
 	{
 	}
 
 	[Token(Token = "0x6000125")]
-	[Address(RVA = "0x3C16CB0", Offset = "0x3C16CB0", VA = "0x3C16CB0")]
+	[Address(RVA = "0x3EFA1B0", Offset = "0x3EFA1B0", VA = "0x3EFA1B0")]
 	public void RpcSecure(string methodName, RpcTarget target, bool encrypt, params object[] parameters)
 	{
 	}
 
 	[Token(Token = "0x6000126")]
-	[Address(RVA = "0x3C16D20", Offset = "0x3C16D20", VA = "0x3C16D20")]
+	[Address(RVA = "0x3EFA220", Offset = "0x3EFA220", VA = "0x3EFA220")]
 	public void RPC(string methodName, Player targetPlayer, params object[] parameters)
 	{
 	}
 
 	[Token(Token = "0x6000127")]
-	[Address(RVA = "0x3C16D90", Offset = "0x3C16D90", VA = "0x3C16D90")]
+	[Address(RVA = "0x3EFA290", Offset = "0x3EFA290", VA = "0x3EFA290")]
 	public void RpcSecure(string methodName, Player targetPlayer, bool encrypt, params object[] parameters)
 	{
 	}
 
 	[Token(Token = "0x6000128")]
-	[Address(RVA = "0x3C16E00", Offset = "0x3C16E00", VA = "0x3C16E00")]
+	[Address(RVA = "0x3EFA300", Offset = "0x3EFA300", VA = "0x3EFA300")]
 	public static PhotonView Get(Component component)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000129")]
-	[Address(RVA = "0x3C16E70", Offset = "0x3C16E70", VA = "0x3C16E70")]
+	[Address(RVA = "0x3EFA370", Offset = "0x3EFA370", VA = "0x3EFA370")]
 	public static PhotonView Get(GameObject gameObj)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600012A")]
-	[Address(RVA = "0x3C16EE0", Offset = "0x3C16EE0", VA = "0x3C16EE0")]
+	[Address(RVA = "0x3EFA3E0", Offset = "0x3EFA3E0", VA = "0x3EFA3E0")]
 	public static PhotonView Find(int viewID)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600012B")]
-	[Address(RVA = "0x3C17000", Offset = "0x3C17000", VA = "0x3C17000")]
+	[Address(RVA = "0x3EFA500", Offset = "0x3EFA500", VA = "0x3EFA500")]
 	public void AddCallbackTarget(IPhotonViewCallback obj)
 	{
 	}
 
 	[Token(Token = "0x600012C")]
-	[Address(RVA = "0x3C170E0", Offset = "0x3C170E0", VA = "0x3C170E0")]
+	[Address(RVA = "0x3EFA5E0", Offset = "0x3EFA5E0", VA = "0x3EFA5E0")]
 	public void RemoveCallbackTarget(IPhotonViewCallback obj)
 	{
 	}
@@ -517,7 +524,7 @@ public class PhotonView : MonoBehaviour
 	}
 
 	[Token(Token = "0x600012F")]
-	[Address(RVA = "0x3C15B20", Offset = "0x3C15B20", VA = "0x3C15B20")]
+	[Address(RVA = "0x3EF9020", Offset = "0x3EF9020", VA = "0x3EF9020")]
 	private void UpdateCallbackLists()
 	{
 	}
@@ -533,14 +540,14 @@ public class PhotonView : MonoBehaviour
 	}
 
 	[Token(Token = "0x6000132")]
-	[Address(RVA = "0x3C17190", Offset = "0x3C17190", VA = "0x3C17190", Slot = "3")]
+	[Address(RVA = "0x3EFA690", Offset = "0x3EFA690", VA = "0x3EFA690", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000133")]
-	[Address(RVA = "0x3C17590", Offset = "0x3C17590", VA = "0x3C17590")]
+	[Address(RVA = "0x3EFAA90", Offset = "0x3EFAA90", VA = "0x3EFAA90")]
 	public PhotonView()
 	{
 	}

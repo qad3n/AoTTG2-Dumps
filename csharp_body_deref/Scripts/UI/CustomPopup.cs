@@ -1,119 +1,126 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UI.CustomPopup
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UI/CustomPopup.c
+// Prior real C# source (older reference): Assets/Scripts/UI/InGameMenu/CustomPopup.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x20005E4")]
+[Token(Token = "0x200062F")]
 internal class CustomPopup : BasePopup
 {
-	[Token(Token = "0x4001C8A")]
+	[Token(Token = "0x4001DC7")]
 	[FieldOffset(Offset = "0xA8")]
 	protected List<GameObject> _items;
 
-	[Token(Token = "0x4001C8B")]
+	[Token(Token = "0x4001DC8")]
 	[FieldOffset(Offset = "0xB0")]
 	protected ElementStyle _style;
 
-	[Token(Token = "0x4001C8C")]
+	[Token(Token = "0x4001DC9")]
 	[FieldOffset(Offset = "0xB8")]
 	protected float _width;
 
-	[Token(Token = "0x4001C8D")]
+	[Token(Token = "0x4001DCA")]
 	[FieldOffset(Offset = "0xBC")]
 	protected float _height;
 
-	[Token(Token = "0x17000B4D")]
+	[Token(Token = "0x17000BC5")]
 	protected override string Title
 	{
-		[Token(Token = "0x6003BE5")]
-		[Address(RVA = "0x3FA8FC0", Offset = "0x3FA8FC0", VA = "0x3FA8FC0", Slot = "35")]
+		[Token(Token = "0x6003E2F")]
+		[Address(RVA = "0x42BB0B0", Offset = "0x42BB0B0", VA = "0x42BB0B0", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B4E")]
+	[Token(Token = "0x17000BC6")]
 	protected override float VerticalSpacing
 	{
-		[Token(Token = "0x6003BE6")]
-		[Address(RVA = "0x3FA8FE0", Offset = "0x3FA8FE0", VA = "0x3FA8FE0", Slot = "11")]
+		[Token(Token = "0x6003E30")]
+		[Address(RVA = "0x42BB0D0", Offset = "0x42BB0D0", VA = "0x42BB0D0", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B4F")]
+	[Token(Token = "0x17000BC7")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x6003BE7")]
-		[Address(RVA = "0x3FA8FF0", Offset = "0x3FA8FF0", VA = "0x3FA8FF0", Slot = "9")]
+		[Token(Token = "0x6003E31")]
+		[Address(RVA = "0x42BB0E0", Offset = "0x42BB0E0", VA = "0x42BB0E0", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6003BE8")]
-	[Address(RVA = "0x3FA9000", Offset = "0x3FA9000", VA = "0x3FA9000")]
+	[Token(Token = "0x6003E32")]
+	[Address(RVA = "0x42BB0F0", Offset = "0x42BB0F0", VA = "0x42BB0F0")]
 	public void Setup(BasePanel parent, string title, float width, float height)
 	{
 	}
 
-	[Token(Token = "0x6003BE9")]
-	[Address(RVA = "0x3FA91A0", Offset = "0x3FA91A0", VA = "0x3FA91A0")]
+	[Token(Token = "0x6003E33")]
+	[Address(RVA = "0x42BB290", Offset = "0x42BB290", VA = "0x42BB290")]
 	public void AddBottomButton(string name, string title)
 	{
 	}
 
-	[Token(Token = "0x6003BEA")]
-	[Address(RVA = "0x3FA92C0", Offset = "0x3FA92C0", VA = "0x3FA92C0", Slot = "34")]
+	[Token(Token = "0x6003E34")]
+	[Address(RVA = "0x42BB3B0", Offset = "0x42BB3B0", VA = "0x42BB3B0", Slot = "34")]
 	protected override float GetHeight()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003BEB")]
-	[Address(RVA = "0x3FA92D0", Offset = "0x3FA92D0", VA = "0x3FA92D0", Slot = "33")]
+	[Token(Token = "0x6003E35")]
+	[Address(RVA = "0x42BB3C0", Offset = "0x42BB3C0", VA = "0x42BB3C0", Slot = "33")]
 	protected override float GetWidth()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003BEC")]
-	[Address(RVA = "0x3FA92E0", Offset = "0x3FA92E0", VA = "0x3FA92E0")]
+	[Token(Token = "0x6003E36")]
+	[Address(RVA = "0x42BB3D0", Offset = "0x42BB3D0", VA = "0x42BB3D0")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x6003BED")]
-	[Address(RVA = "0x3FA9490", Offset = "0x3FA9490", VA = "0x3FA9490")]
+	[Token(Token = "0x6003E37")]
+	[Address(RVA = "0x42BB580", Offset = "0x42BB580", VA = "0x42BB580")]
 	public void AddLabel(string label)
 	{
 	}
 
-	[Token(Token = "0x6003BEE")]
-	[Address(RVA = "0x3FA9550", Offset = "0x3FA9550", VA = "0x3FA9550")]
+	[Token(Token = "0x6003E38")]
+	[Address(RVA = "0x42BB640", Offset = "0x42BB640", VA = "0x42BB640")]
 	public void AddButton(string name, string title)
 	{
 	}
 
-	[Token(Token = "0x6003BEF")]
-	[Address(RVA = "0x3FA96D0", Offset = "0x3FA96D0", VA = "0x3FA96D0")]
+	[Token(Token = "0x6003E39")]
+	[Address(RVA = "0x42BB7C0", Offset = "0x42BB7C0", VA = "0x42BB7C0")]
 	public void AddButtons(List<object> names, List<object> titles)
 	{
 	}
 
-	[Token(Token = "0x6003BF0")]
-	[Address(RVA = "0x3FA97D0", Offset = "0x3FA97D0", VA = "0x3FA97D0")]
+	[Token(Token = "0x6003E3A")]
+	[Address(RVA = "0x42BB8C0", Offset = "0x42BB8C0", VA = "0x42BB8C0")]
 	protected void OnButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x6003BF1")]
-	[Address(RVA = "0x3FA98A0", Offset = "0x3FA98A0", VA = "0x3FA98A0")]
+	[Token(Token = "0x6003E3B")]
+	[Address(RVA = "0x42BB990", Offset = "0x42BB990", VA = "0x42BB990")]
 	public CustomPopup()
 	{
 	}

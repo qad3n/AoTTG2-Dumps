@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.ColorCorrectionRamp
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/ColorCorrectionRamp.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -13,13 +20,13 @@ public class ColorCorrectionRamp : ImageEffectBase
 	public Texture textureRamp;
 
 	[Token(Token = "0x6000040")]
-	[Address(RVA = "0x415B630", Offset = "0x415B630", VA = "0x415B630")]
+	[Address(RVA = "0x4480730", Offset = "0x4480730", VA = "0x4480730")]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x415B7A0", Offset = "0x415B7A0", VA = "0x415B7A0")]
+	[Address(RVA = "0x44808A0", Offset = "0x44808A0", VA = "0x44808A0")]
 	public ColorCorrectionRamp()
 	{
 	}

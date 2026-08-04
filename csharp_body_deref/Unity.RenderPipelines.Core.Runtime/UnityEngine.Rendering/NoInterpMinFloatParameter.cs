@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.NoInterpMinFloatParameter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using Il2CppDummyDll;
@@ -18,20 +25,20 @@ public class NoInterpMinFloatParameter : VolumeParameter<float>
 	public override float value
 	{
 		[Token(Token = "0x6000DD6")]
-		[Address(RVA = "0x48E62E0", Offset = "0x48E62E0", VA = "0x48E62E0", Slot = "14")]
+		[Address(RVA = "0x4C0B350", Offset = "0x4C0B350", VA = "0x4C0B350", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000DD7")]
-		[Address(RVA = "0x48E62F0", Offset = "0x48E62F0", VA = "0x48E62F0", Slot = "15")]
+		[Address(RVA = "0x4C0B360", Offset = "0x4C0B360", VA = "0x4C0B360", Slot = "15")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000DD8")]
-	[Address(RVA = "0x48E6300", Offset = "0x48E6300", VA = "0x48E6300")]
+	[Address(RVA = "0x4C0B370", Offset = "0x4C0B370", VA = "0x4C0B370")]
 	public NoInterpMinFloatParameter(float value, float min, bool overrideState = false)
 	{
 	}

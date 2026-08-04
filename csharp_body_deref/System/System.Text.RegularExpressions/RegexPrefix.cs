@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.RegularExpressions.RegexPrefix
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -10,7 +17,7 @@ internal readonly struct RegexPrefix
 	internal bool CaseInsensitive
 	{
 		[Token(Token = "0x600042F")]
-		[Address(RVA = "0x45FAA30", Offset = "0x45FAA30", VA = "0x45FAA30")]
+		[Address(RVA = "0x491FB30", Offset = "0x491FB30", VA = "0x491FB30")]
 		[CompilerGenerated]
 		get
 		{
@@ -22,7 +29,7 @@ internal readonly struct RegexPrefix
 	internal static RegexPrefix Empty
 	{
 		[Token(Token = "0x6000430")]
-		[Address(RVA = "0x45FAA40", Offset = "0x45FAA40", VA = "0x45FAA40")]
+		[Address(RVA = "0x491FB40", Offset = "0x491FB40", VA = "0x491FB40")]
 		[CompilerGenerated]
 		get
 		{
@@ -34,7 +41,7 @@ internal readonly struct RegexPrefix
 	internal string Prefix
 	{
 		[Token(Token = "0x6000431")]
-		[Address(RVA = "0x45FAA90", Offset = "0x45FAA90", VA = "0x45FAA90")]
+		[Address(RVA = "0x491FB90", Offset = "0x491FB90", VA = "0x491FB90")]
 		[CompilerGenerated]
 		get
 		{
@@ -43,7 +50,7 @@ internal readonly struct RegexPrefix
 	}
 
 	[Token(Token = "0x600042E")]
-	[Address(RVA = "0x45ED670", Offset = "0x45ED670", VA = "0x45ED670")]
+	[Address(RVA = "0x4912770", Offset = "0x4912770", VA = "0x4912770")]
 	internal RegexPrefix(string prefix, bool ci)
 	{
 	}

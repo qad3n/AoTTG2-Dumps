@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Chat.ChatOperationCode
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonChat/Code/ChatOperationCode.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Photon.Chat;
@@ -36,7 +43,7 @@ public class ChatOperationCode
 	public const byte SetProperties = 8;
 
 	[Token(Token = "0x600006C")]
-	[Address(RVA = "0x3BC2EB0", Offset = "0x3BC2EB0", VA = "0x3BC2EB0")]
+	[Address(RVA = "0x3EB8800", Offset = "0x3EB8800", VA = "0x3EB8800")]
 	public ChatOperationCode()
 	{
 	}

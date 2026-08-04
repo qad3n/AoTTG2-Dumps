@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.ContextAwareResult
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Threading;
 using Il2CppDummyDll;
 
@@ -37,77 +44,77 @@ internal class ContextAwareResult : LazyAsyncResult
 	private StateFlags _flags;
 
 	[Token(Token = "0x6000681")]
-	[Address(RVA = "0x4620550", Offset = "0x4620550", VA = "0x4620550")]
+	[Address(RVA = "0x4945650", Offset = "0x4945650", VA = "0x4945650")]
 	private void SafeCaptureIdentity()
 	{
 	}
 
 	[Token(Token = "0x6000682")]
-	[Address(RVA = "0x4620560", Offset = "0x4620560", VA = "0x4620560")]
+	[Address(RVA = "0x4945660", Offset = "0x4945660", VA = "0x4945660")]
 	private void CleanupInternal()
 	{
 	}
 
 	[Token(Token = "0x6000683")]
-	[Address(RVA = "0x4620570", Offset = "0x4620570", VA = "0x4620570")]
+	[Address(RVA = "0x4945670", Offset = "0x4945670", VA = "0x4945670")]
 	internal ContextAwareResult(object myObject, object myState, AsyncCallback myCallBack)
 	{
 	}
 
 	[Token(Token = "0x6000684")]
-	[Address(RVA = "0x4620580", Offset = "0x4620580", VA = "0x4620580")]
+	[Address(RVA = "0x4945680", Offset = "0x4945680", VA = "0x4945680")]
 	internal ContextAwareResult(bool captureIdentity, bool forceCaptureContext, object myObject, object myState, AsyncCallback myCallBack)
 	{
 	}
 
 	[Token(Token = "0x6000685")]
-	[Address(RVA = "0x46205C0", Offset = "0x46205C0", VA = "0x46205C0")]
+	[Address(RVA = "0x49456C0", Offset = "0x49456C0", VA = "0x49456C0")]
 	internal ContextAwareResult(bool captureIdentity, bool forceCaptureContext, bool threadSafeContextCopy, object myObject, object myState, AsyncCallback myCallBack)
 	{
 	}
 
 	[Token(Token = "0x6000686")]
-	[Address(RVA = "0x4620620", Offset = "0x4620620", VA = "0x4620620")]
+	[Address(RVA = "0x4945720", Offset = "0x4945720", VA = "0x4945720")]
 	internal object StartPostingAsyncOp()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000687")]
-	[Address(RVA = "0x4620630", Offset = "0x4620630", VA = "0x4620630")]
+	[Address(RVA = "0x4945730", Offset = "0x4945730", VA = "0x4945730")]
 	internal object StartPostingAsyncOp(bool lockCapture)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000688")]
-	[Address(RVA = "0x46208C0", Offset = "0x46208C0", VA = "0x46208C0")]
+	[Address(RVA = "0x49459C0", Offset = "0x49459C0", VA = "0x49459C0")]
 	internal bool FinishPostingAsyncOp()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000689")]
-	[Address(RVA = "0x4621020", Offset = "0x4621020", VA = "0x4621020", Slot = "9")]
+	[Address(RVA = "0x4946120", Offset = "0x4946120", VA = "0x4946120", Slot = "9")]
 	protected override void Cleanup()
 	{
 	}
 
 	[Token(Token = "0x600068A")]
-	[Address(RVA = "0x4620900", Offset = "0x4620900", VA = "0x4620900")]
+	[Address(RVA = "0x4945A00", Offset = "0x4945A00", VA = "0x4945A00")]
 	private bool CaptureOrComplete(ref ExecutionContext cachedContext, bool returnContext)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600068B")]
-	[Address(RVA = "0x4621520", Offset = "0x4621520", VA = "0x4621520", Slot = "8")]
+	[Address(RVA = "0x4946620", Offset = "0x4946620", VA = "0x4946620", Slot = "8")]
 	protected override void Complete(IntPtr userToken)
 	{
 	}
 
 	[Token(Token = "0x600068C")]
-	[Address(RVA = "0x46218E0", Offset = "0x46218E0", VA = "0x46218E0")]
+	[Address(RVA = "0x49469E0", Offset = "0x49469E0", VA = "0x49469E0")]
 	private void CompleteCallback()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.BranchLabel
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -27,14 +34,14 @@ internal sealed class BranchLabel
 	internal int LabelIndex
 	{
 		[Token(Token = "0x60005E5")]
-		[Address(RVA = "0x41A0970", Offset = "0x41A0970", VA = "0x41A0970")]
+		[Address(RVA = "0x44C5A70", Offset = "0x44C5A70", VA = "0x44C5A70")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60005E6")]
-		[Address(RVA = "0x41A0980", Offset = "0x41A0980", VA = "0x41A0980")]
+		[Address(RVA = "0x44C5A80", Offset = "0x44C5A80", VA = "0x44C5A80")]
 		[CompilerGenerated]
 		set
 		{
@@ -45,7 +52,7 @@ internal sealed class BranchLabel
 	internal bool HasRuntimeLabel
 	{
 		[Token(Token = "0x60005E7")]
-		[Address(RVA = "0x41A0990", Offset = "0x41A0990", VA = "0x41A0990")]
+		[Address(RVA = "0x44C5A90", Offset = "0x44C5A90", VA = "0x44C5A90")]
 		get
 		{
 			return default(bool);
@@ -56,7 +63,7 @@ internal sealed class BranchLabel
 	internal int TargetIndex
 	{
 		[Token(Token = "0x60005E8")]
-		[Address(RVA = "0x41A09A0", Offset = "0x41A09A0", VA = "0x41A09A0")]
+		[Address(RVA = "0x44C5AA0", Offset = "0x44C5AA0", VA = "0x44C5AA0")]
 		get
 		{
 			return default(int);
@@ -64,32 +71,32 @@ internal sealed class BranchLabel
 	}
 
 	[Token(Token = "0x60005E9")]
-	[Address(RVA = "0x41A09B0", Offset = "0x41A09B0", VA = "0x41A09B0")]
+	[Address(RVA = "0x44C5AB0", Offset = "0x44C5AB0", VA = "0x44C5AB0")]
 	internal RuntimeLabel ToRuntimeLabel()
 	{
 		return default(RuntimeLabel);
 	}
 
 	[Token(Token = "0x60005EA")]
-	[Address(RVA = "0x41A09C0", Offset = "0x41A09C0", VA = "0x41A09C0")]
+	[Address(RVA = "0x44C5AC0", Offset = "0x44C5AC0", VA = "0x44C5AC0")]
 	internal void Mark(InstructionList instructions)
 	{
 	}
 
 	[Token(Token = "0x60005EB")]
-	[Address(RVA = "0x41A0B90", Offset = "0x41A0B90", VA = "0x41A0B90")]
+	[Address(RVA = "0x44C5C90", Offset = "0x44C5C90", VA = "0x44C5C90")]
 	internal void AddBranch(InstructionList instructions, int branchIndex)
 	{
 	}
 
 	[Token(Token = "0x60005EC")]
-	[Address(RVA = "0x41A0B70", Offset = "0x41A0B70", VA = "0x41A0B70")]
+	[Address(RVA = "0x44C5C70", Offset = "0x44C5C70", VA = "0x44C5C70")]
 	internal void FixupBranch(InstructionList instructions, int branchIndex)
 	{
 	}
 
 	[Token(Token = "0x60005ED")]
-	[Address(RVA = "0x41A0C90", Offset = "0x41A0C90", VA = "0x41A0C90")]
+	[Address(RVA = "0x44C5D90", Offset = "0x44C5D90", VA = "0x44C5D90")]
 	public BranchLabel()
 	{
 	}

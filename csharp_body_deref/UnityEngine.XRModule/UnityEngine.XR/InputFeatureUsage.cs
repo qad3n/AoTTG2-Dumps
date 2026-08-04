@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.XR.InputFeatureUsage
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -24,7 +31,7 @@ public struct InputFeatureUsage : IEquatable<InputFeatureUsage>
 	public string name
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x4DE4290", Offset = "0x4DE4290", VA = "0x4DE4290")]
+		[Address(RVA = "0x510C320", Offset = "0x510C320", VA = "0x510C320")]
 		get
 		{
 			return null;
@@ -35,7 +42,7 @@ public struct InputFeatureUsage : IEquatable<InputFeatureUsage>
 	internal InputFeatureType internalType
 	{
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x4DE42A0", Offset = "0x4DE42A0", VA = "0x4DE42A0")]
+		[Address(RVA = "0x510C330", Offset = "0x510C330", VA = "0x510C330")]
 		get
 		{
 			return default(InputFeatureType);
@@ -43,21 +50,21 @@ public struct InputFeatureUsage : IEquatable<InputFeatureUsage>
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x4DE42B0", Offset = "0x4DE42B0", VA = "0x4DE42B0", Slot = "0")]
+	[Address(RVA = "0x510C340", Offset = "0x510C340", VA = "0x510C340", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x4DE4320", Offset = "0x4DE4320", VA = "0x4DE4320", Slot = "4")]
+	[Address(RVA = "0x510C3B0", Offset = "0x510C3B0", VA = "0x510C3B0", Slot = "4")]
 	public bool Equals(InputFeatureUsage other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x4DE4350", Offset = "0x4DE4350", VA = "0x4DE4350", Slot = "2")]
+	[Address(RVA = "0x510C3E0", Offset = "0x510C3E0", VA = "0x510C3E0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

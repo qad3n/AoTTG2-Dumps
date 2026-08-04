@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Foldout
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using Unity.Properties;
 
@@ -10,7 +17,7 @@ public class Foldout : BindableElement, INotifyValueChanged<bool>
 	public new class UxmlFactory : UxmlFactory<Foldout, UxmlTraits>
 	{
 		[Token(Token = "0x6000407")]
-		[Address(RVA = "0x4C14910", Offset = "0x4C14910", VA = "0x4C14910")]
+		[Address(RVA = "0x4F3C240", Offset = "0x4F3C240", VA = "0x4F3C240")]
 		public UxmlFactory()
 		{
 		}
@@ -28,13 +35,13 @@ public class Foldout : BindableElement, INotifyValueChanged<bool>
 		private UxmlBoolAttributeDescription m_Value;
 
 		[Token(Token = "0x6000408")]
-		[Address(RVA = "0x4C14950", Offset = "0x4C14950", VA = "0x4C14950", Slot = "4")]
+		[Address(RVA = "0x4F3C280", Offset = "0x4F3C280", VA = "0x4F3C280", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x6000409")]
-		[Address(RVA = "0x4C14AB0", Offset = "0x4C14AB0", VA = "0x4C14AB0")]
+		[Address(RVA = "0x4F3C3E0", Offset = "0x4F3C3E0", VA = "0x4F3C3E0")]
 		public UxmlTraits()
 		{
 		}
@@ -102,7 +109,7 @@ public class Foldout : BindableElement, INotifyValueChanged<bool>
 	public override VisualElement contentContainer
 	{
 		[Token(Token = "0x60003FC")]
-		[Address(RVA = "0x4C13970", Offset = "0x4C13970", VA = "0x4C13970", Slot = "97")]
+		[Address(RVA = "0x4F3B2A0", Offset = "0x4F3B2A0", VA = "0x4F3B2A0", Slot = "97")]
 		get
 		{
 			return null;
@@ -114,13 +121,13 @@ public class Foldout : BindableElement, INotifyValueChanged<bool>
 	public string text
 	{
 		[Token(Token = "0x60003FD")]
-		[Address(RVA = "0x4C13980", Offset = "0x4C13980", VA = "0x4C13980")]
+		[Address(RVA = "0x4F3B2B0", Offset = "0x4F3B2B0", VA = "0x4F3B2B0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60003FE")]
-		[Address(RVA = "0x4C139A0", Offset = "0x4C139A0", VA = "0x4C139A0")]
+		[Address(RVA = "0x4F3B2D0", Offset = "0x4F3B2D0", VA = "0x4F3B2D0")]
 		set
 		{
 		}
@@ -131,38 +138,38 @@ public class Foldout : BindableElement, INotifyValueChanged<bool>
 	public bool value
 	{
 		[Token(Token = "0x60003FF")]
-		[Address(RVA = "0x4C13B60", Offset = "0x4C13B60", VA = "0x4C13B60", Slot = "100")]
+		[Address(RVA = "0x4F3B490", Offset = "0x4F3B490", VA = "0x4F3B490", Slot = "100")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000400")]
-		[Address(RVA = "0x4C13B70", Offset = "0x4C13B70", VA = "0x4C13B70", Slot = "101")]
+		[Address(RVA = "0x4F3B4A0", Offset = "0x4F3B4A0", VA = "0x4F3B4A0", Slot = "101")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000401")]
-	[Address(RVA = "0x4C13E00", Offset = "0x4C13E00", VA = "0x4C13E00", Slot = "102")]
+	[Address(RVA = "0x4F3B730", Offset = "0x4F3B730", VA = "0x4F3B730", Slot = "102")]
 	public void SetValueWithoutNotify(bool newValue)
 	{
 	}
 
 	[Token(Token = "0x6000402")]
-	[Address(RVA = "0x4C13F60", Offset = "0x4C13F60", VA = "0x4C13F60", Slot = "94")]
+	[Address(RVA = "0x4F3B890", Offset = "0x4F3B890", VA = "0x4F3B890", Slot = "94")]
 	internal override void OnViewDataReady()
 	{
 	}
 
 	[Token(Token = "0x6000403")]
-	[Address(RVA = "0x4C13FA0", Offset = "0x4C13FA0", VA = "0x4C13FA0")]
+	[Address(RVA = "0x4F3B8D0", Offset = "0x4F3B8D0", VA = "0x4F3B8D0")]
 	public Foldout()
 	{
 	}
 
 	[Token(Token = "0x6000404")]
-	[Address(RVA = "0x4C14320", Offset = "0x4C14320", VA = "0x4C14320")]
+	[Address(RVA = "0x4F3BC50", Offset = "0x4F3BC50", VA = "0x4F3BC50")]
 	private void OnAttachToPanel(AttachToPanelEvent evt)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.SafeStringMarshal
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -19,7 +26,7 @@ internal struct SafeStringMarshal : IDisposable
 	public IntPtr Value
 	{
 		[Token(Token = "0x6000067")]
-		[Address(RVA = "0x4DE87F0", Offset = "0x4DE87F0", VA = "0x4DE87F0")]
+		[Address(RVA = "0x3ACE310", Offset = "0x3ACE310", VA = "0x3ACE310")]
 		get
 		{
 			return default(IntPtr);
@@ -28,11 +35,11 @@ internal struct SafeStringMarshal : IDisposable
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000063")]
-	[Address(RVA = "0x4DE87C0", Offset = "0x4DE87C0", VA = "0x4DE87C0")]
+	[Address(RVA = "0x3ACE2E0", Offset = "0x3ACE2E0", VA = "0x3ACE2E0")]
 	private static extern IntPtr StringToUtf8_icall(ref string str);
 
 	[Token(Token = "0x6000064")]
-	[Address(RVA = "0x4DE87D0", Offset = "0x4DE87D0", VA = "0x4DE87D0")]
+	[Address(RVA = "0x3ACE2F0", Offset = "0x3ACE2F0", VA = "0x3ACE2F0")]
 	public static IntPtr StringToUtf8(string str)
 	{
 		return default(IntPtr);
@@ -40,17 +47,17 @@ internal struct SafeStringMarshal : IDisposable
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000065")]
-	[Address(RVA = "0x4DE87E0", Offset = "0x4DE87E0", VA = "0x4DE87E0")]
+	[Address(RVA = "0x3ACE300", Offset = "0x3ACE300", VA = "0x3ACE300")]
 	public static extern void GFree(IntPtr ptr);
 
 	[Token(Token = "0x6000066")]
-	[Address(RVA = "0x4DE8560", Offset = "0x4DE8560", VA = "0x4DE8560")]
+	[Address(RVA = "0x3ACE080", Offset = "0x3ACE080", VA = "0x3ACE080")]
 	public SafeStringMarshal(string str)
 	{
 	}
 
 	[Token(Token = "0x6000068")]
-	[Address(RVA = "0x4DE8830", Offset = "0x4DE8830", VA = "0x4DE8830", Slot = "4")]
+	[Address(RVA = "0x3ACE350", Offset = "0x3ACE350", VA = "0x3ACE350", Slot = "4")]
 	public void Dispose()
 	{
 	}

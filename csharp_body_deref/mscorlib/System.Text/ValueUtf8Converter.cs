@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.ValueUtf8Converter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Text;
@@ -14,20 +21,20 @@ internal ref struct ValueUtf8Converter
 	private Span<byte> _bytes;
 
 	[Token(Token = "0x60016D2")]
-	[Address(RVA = "0x4E2EC20", Offset = "0x4E2EC20", VA = "0x4E2EC20")]
+	[Address(RVA = "0x3B14740", Offset = "0x3B14740", VA = "0x3B14740")]
 	public ValueUtf8Converter(Span<byte> initialBuffer)
 	{
 	}
 
 	[Token(Token = "0x60016D3")]
-	[Address(RVA = "0x4E2EC30", Offset = "0x4E2EC30", VA = "0x4E2EC30")]
+	[Address(RVA = "0x3B14750", Offset = "0x3B14750", VA = "0x3B14750")]
 	public Span<byte> ConvertAndTerminateString(ReadOnlySpan<char> value)
 	{
 		return default(Span<byte>);
 	}
 
 	[Token(Token = "0x60016D4")]
-	[Address(RVA = "0x4E2EF40", Offset = "0x4E2EF40", VA = "0x4E2EF40")]
+	[Address(RVA = "0x3B14A60", Offset = "0x3B14A60", VA = "0x3B14A60")]
 	public void Dispose()
 	{
 	}

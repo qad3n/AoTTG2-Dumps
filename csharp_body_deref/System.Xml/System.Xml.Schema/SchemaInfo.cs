@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.SchemaInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -66,13 +73,13 @@ internal class SchemaInfo : IDtdInfo
 	public XmlQualifiedName DocTypeName
 	{
 		[Token(Token = "0x60013C3")]
-		[Address(RVA = "0x43ACCC0", Offset = "0x43ACCC0", VA = "0x43ACCC0")]
+		[Address(RVA = "0x46EA420", Offset = "0x46EA420", VA = "0x46EA420")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60013C4")]
-		[Address(RVA = "0x43ACCD0", Offset = "0x43ACCD0", VA = "0x43ACCD0")]
+		[Address(RVA = "0x46EA430", Offset = "0x46EA430", VA = "0x46EA430")]
 		set
 		{
 		}
@@ -82,7 +89,7 @@ internal class SchemaInfo : IDtdInfo
 	internal string InternalDtdSubset
 	{
 		[Token(Token = "0x60013C5")]
-		[Address(RVA = "0x43ACCE0", Offset = "0x43ACCE0", VA = "0x43ACCE0")]
+		[Address(RVA = "0x46EA440", Offset = "0x46EA440", VA = "0x46EA440")]
 		set
 		{
 		}
@@ -92,7 +99,7 @@ internal class SchemaInfo : IDtdInfo
 	internal Dictionary<XmlQualifiedName, SchemaElementDecl> ElementDecls
 	{
 		[Token(Token = "0x60013C6")]
-		[Address(RVA = "0x43ACCF0", Offset = "0x43ACCF0", VA = "0x43ACCF0")]
+		[Address(RVA = "0x46EA450", Offset = "0x46EA450", VA = "0x46EA450")]
 		get
 		{
 			return null;
@@ -103,7 +110,7 @@ internal class SchemaInfo : IDtdInfo
 	internal Dictionary<XmlQualifiedName, SchemaElementDecl> UndeclaredElementDecls
 	{
 		[Token(Token = "0x60013C7")]
-		[Address(RVA = "0x43ACD00", Offset = "0x43ACD00", VA = "0x43ACD00")]
+		[Address(RVA = "0x46EA460", Offset = "0x46EA460", VA = "0x46EA460")]
 		get
 		{
 			return null;
@@ -114,7 +121,7 @@ internal class SchemaInfo : IDtdInfo
 	internal Dictionary<XmlQualifiedName, SchemaEntity> GeneralEntities
 	{
 		[Token(Token = "0x60013C8")]
-		[Address(RVA = "0x43ACD10", Offset = "0x43ACD10", VA = "0x43ACD10")]
+		[Address(RVA = "0x46EA470", Offset = "0x46EA470", VA = "0x46EA470")]
 		get
 		{
 			return null;
@@ -125,7 +132,7 @@ internal class SchemaInfo : IDtdInfo
 	internal Dictionary<XmlQualifiedName, SchemaEntity> ParameterEntities
 	{
 		[Token(Token = "0x60013C9")]
-		[Address(RVA = "0x43ACDA0", Offset = "0x43ACDA0", VA = "0x43ACDA0")]
+		[Address(RVA = "0x46EA500", Offset = "0x46EA500", VA = "0x46EA500")]
 		get
 		{
 			return null;
@@ -136,13 +143,13 @@ internal class SchemaInfo : IDtdInfo
 	internal SchemaType SchemaType
 	{
 		[Token(Token = "0x60013CA")]
-		[Address(RVA = "0x43ACE30", Offset = "0x43ACE30", VA = "0x43ACE30")]
+		[Address(RVA = "0x46EA590", Offset = "0x46EA590", VA = "0x46EA590")]
 		get
 		{
 			return default(SchemaType);
 		}
 		[Token(Token = "0x60013CB")]
-		[Address(RVA = "0x43ACE40", Offset = "0x43ACE40", VA = "0x43ACE40")]
+		[Address(RVA = "0x46EA5A0", Offset = "0x46EA5A0", VA = "0x46EA5A0")]
 		set
 		{
 		}
@@ -152,7 +159,7 @@ internal class SchemaInfo : IDtdInfo
 	internal Dictionary<string, bool> TargetNamespaces
 	{
 		[Token(Token = "0x60013CC")]
-		[Address(RVA = "0x43ACE50", Offset = "0x43ACE50", VA = "0x43ACE50")]
+		[Address(RVA = "0x46EA5B0", Offset = "0x46EA5B0", VA = "0x46EA5B0")]
 		get
 		{
 			return null;
@@ -163,7 +170,7 @@ internal class SchemaInfo : IDtdInfo
 	internal Dictionary<XmlQualifiedName, SchemaElementDecl> ElementDeclsByType
 	{
 		[Token(Token = "0x60013CD")]
-		[Address(RVA = "0x43ACE60", Offset = "0x43ACE60", VA = "0x43ACE60")]
+		[Address(RVA = "0x46EA5C0", Offset = "0x46EA5C0", VA = "0x46EA5C0")]
 		get
 		{
 			return null;
@@ -174,7 +181,7 @@ internal class SchemaInfo : IDtdInfo
 	internal Dictionary<XmlQualifiedName, SchemaAttDef> AttributeDecls
 	{
 		[Token(Token = "0x60013CE")]
-		[Address(RVA = "0x43ACE70", Offset = "0x43ACE70", VA = "0x43ACE70")]
+		[Address(RVA = "0x46EA5D0", Offset = "0x46EA5D0", VA = "0x46EA5D0")]
 		get
 		{
 			return null;
@@ -185,7 +192,7 @@ internal class SchemaInfo : IDtdInfo
 	internal Dictionary<string, SchemaNotation> Notations
 	{
 		[Token(Token = "0x60013CF")]
-		[Address(RVA = "0x43ACE80", Offset = "0x43ACE80", VA = "0x43ACE80")]
+		[Address(RVA = "0x46EA5E0", Offset = "0x46EA5E0", VA = "0x46EA5E0")]
 		get
 		{
 			return null;
@@ -196,13 +203,13 @@ internal class SchemaInfo : IDtdInfo
 	internal int ErrorCount
 	{
 		[Token(Token = "0x60013D0")]
-		[Address(RVA = "0x43ACF10", Offset = "0x43ACF10", VA = "0x43ACF10")]
+		[Address(RVA = "0x46EA670", Offset = "0x46EA670", VA = "0x46EA670")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60013D1")]
-		[Address(RVA = "0x43ACF20", Offset = "0x43ACF20", VA = "0x43ACF20")]
+		[Address(RVA = "0x46EA680", Offset = "0x46EA680", VA = "0x46EA680")]
 		set
 		{
 		}
@@ -212,7 +219,7 @@ internal class SchemaInfo : IDtdInfo
 	private bool System_002EXml_002EIDtdInfo_002EHasDefaultAttributes
 	{
 		[Token(Token = "0x60013DC")]
-		[Address(RVA = "0x43AE590", Offset = "0x43AE590", VA = "0x43AE590", Slot = "6")]
+		[Address(RVA = "0x46EBCF0", Offset = "0x46EBCF0", VA = "0x46EBCF0", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -223,7 +230,7 @@ internal class SchemaInfo : IDtdInfo
 	private bool System_002EXml_002EIDtdInfo_002EHasNonCDataAttributes
 	{
 		[Token(Token = "0x60013DD")]
-		[Address(RVA = "0x43AE5A0", Offset = "0x43AE5A0", VA = "0x43AE5A0", Slot = "7")]
+		[Address(RVA = "0x46EBD00", Offset = "0x46EBD00", VA = "0x46EBD00", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -234,7 +241,7 @@ internal class SchemaInfo : IDtdInfo
 	private XmlQualifiedName System_002EXml_002EIDtdInfo_002EName
 	{
 		[Token(Token = "0x60013E0")]
-		[Address(RVA = "0x43AE720", Offset = "0x43AE720", VA = "0x43AE720", Slot = "4")]
+		[Address(RVA = "0x46EBE80", Offset = "0x46EBE80", VA = "0x46EBE80", Slot = "4")]
 		get
 		{
 			return null;
@@ -245,7 +252,7 @@ internal class SchemaInfo : IDtdInfo
 	private string System_002EXml_002EIDtdInfo_002EInternalDtdSubset
 	{
 		[Token(Token = "0x60013E1")]
-		[Address(RVA = "0x43AE730", Offset = "0x43AE730", VA = "0x43AE730", Slot = "5")]
+		[Address(RVA = "0x46EBE90", Offset = "0x46EBE90", VA = "0x46EBE90", Slot = "5")]
 		get
 		{
 			return null;
@@ -253,88 +260,88 @@ internal class SchemaInfo : IDtdInfo
 	}
 
 	[Token(Token = "0x60013C2")]
-	[Address(RVA = "0x43ACAF0", Offset = "0x43ACAF0", VA = "0x43ACAF0")]
+	[Address(RVA = "0x46EA250", Offset = "0x46EA250", VA = "0x46EA250")]
 	internal SchemaInfo()
 	{
 	}
 
 	[Token(Token = "0x60013D2")]
-	[Address(RVA = "0x43ACF30", Offset = "0x43ACF30", VA = "0x43ACF30")]
+	[Address(RVA = "0x46EA690", Offset = "0x46EA690", VA = "0x46EA690")]
 	internal SchemaElementDecl GetElementDecl(XmlQualifiedName qname)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60013D3")]
-	[Address(RVA = "0x43ACFA0", Offset = "0x43ACFA0", VA = "0x43ACFA0")]
+	[Address(RVA = "0x46EA700", Offset = "0x46EA700", VA = "0x46EA700")]
 	internal SchemaElementDecl GetTypeDecl(XmlQualifiedName qname)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60013D4")]
-	[Address(RVA = "0x43AD010", Offset = "0x43AD010", VA = "0x43AD010")]
+	[Address(RVA = "0x46EA770", Offset = "0x46EA770", VA = "0x46EA770")]
 	internal XmlSchemaElement GetElement(XmlQualifiedName qname)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60013D5")]
-	[Address(RVA = "0x43AD090", Offset = "0x43AD090", VA = "0x43AD090")]
+	[Address(RVA = "0x46EA7F0", Offset = "0x46EA7F0", VA = "0x46EA7F0")]
 	internal bool HasSchema(string ns)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013D6")]
-	[Address(RVA = "0x43AD0E0", Offset = "0x43AD0E0", VA = "0x43AD0E0")]
+	[Address(RVA = "0x46EA840", Offset = "0x46EA840", VA = "0x46EA840")]
 	internal bool Contains(string ns)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013D7")]
-	[Address(RVA = "0x43AD130", Offset = "0x43AD130", VA = "0x43AD130")]
+	[Address(RVA = "0x46EA890", Offset = "0x46EA890", VA = "0x46EA890")]
 	internal SchemaAttDef GetAttributeXdr(SchemaElementDecl ed, XmlQualifiedName qname)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60013D8")]
-	[Address(RVA = "0x43AD2D0", Offset = "0x43AD2D0", VA = "0x43AD2D0")]
+	[Address(RVA = "0x46EAA30", Offset = "0x46EAA30", VA = "0x46EAA30")]
 	internal SchemaAttDef GetAttributeXsd(SchemaElementDecl ed, XmlQualifiedName qname, XmlSchemaObject partialValidationType, out AttributeMatchState attributeMatchState)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60013D9")]
-	[Address(RVA = "0x43AD580", Offset = "0x43AD580", VA = "0x43AD580")]
+	[Address(RVA = "0x46EACE0", Offset = "0x46EACE0", VA = "0x46EACE0")]
 	internal SchemaAttDef GetAttributeXsd(SchemaElementDecl ed, XmlQualifiedName qname, ref bool skip)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60013DA")]
-	[Address(RVA = "0x43AD670", Offset = "0x43AD670", VA = "0x43AD670")]
+	[Address(RVA = "0x46EADD0", Offset = "0x46EADD0", VA = "0x46EADD0")]
 	internal void Add(SchemaInfo sinfo, ValidationEventHandler eventhandler)
 	{
 	}
 
 	[Token(Token = "0x60013DB")]
-	[Address(RVA = "0x43AE300", Offset = "0x43AE300", VA = "0x43AE300")]
+	[Address(RVA = "0x46EBA60", Offset = "0x46EBA60", VA = "0x46EBA60")]
 	internal void Finish()
 	{
 	}
 
 	[Token(Token = "0x60013DE")]
-	[Address(RVA = "0x43AE5B0", Offset = "0x43AE5B0", VA = "0x43AE5B0", Slot = "8")]
+	[Address(RVA = "0x46EBD10", Offset = "0x46EBD10", VA = "0x46EBD10", Slot = "8")]
 	private IDtdAttributeListInfo System_002EXml_002EIDtdInfo_002ELookupAttributeList(string prefix, string localName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60013DF")]
-	[Address(RVA = "0x43AE670", Offset = "0x43AE670", VA = "0x43AE670", Slot = "9")]
+	[Address(RVA = "0x46EBDD0", Offset = "0x46EBDD0", VA = "0x46EBDD0", Slot = "9")]
 	private IDtdEntityInfo System_002EXml_002EIDtdInfo_002ELookupEntity(string name)
 	{
 		return null;

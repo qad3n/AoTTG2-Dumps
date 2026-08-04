@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.NclUtilities
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Net;
@@ -21,7 +28,7 @@ internal static class NclUtilities
 	internal static IPAddress[] LocalAddresses
 	{
 		[Token(Token = "0x60007D2")]
-		[Address(RVA = "0x46390D0", Offset = "0x46390D0", VA = "0x46390D0")]
+		[Address(RVA = "0x495E1D0", Offset = "0x495E1D0", VA = "0x495E1D0")]
 		get
 		{
 			return null;
@@ -32,7 +39,7 @@ internal static class NclUtilities
 	private static object LocalAddressesLock
 	{
 		[Token(Token = "0x60007D3")]
-		[Address(RVA = "0x4639750", Offset = "0x4639750", VA = "0x4639750")]
+		[Address(RVA = "0x495E850", Offset = "0x495E850", VA = "0x495E850")]
 		get
 		{
 			return null;
@@ -40,21 +47,21 @@ internal static class NclUtilities
 	}
 
 	[Token(Token = "0x60007CF")]
-	[Address(RVA = "0x4638FD0", Offset = "0x4638FD0", VA = "0x4638FD0")]
+	[Address(RVA = "0x495E0D0", Offset = "0x495E0D0", VA = "0x495E0D0")]
 	internal static bool IsFatal(Exception exception)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007D0")]
-	[Address(RVA = "0x4639060", Offset = "0x4639060", VA = "0x4639060")]
+	[Address(RVA = "0x495E160", Offset = "0x495E160", VA = "0x495E160")]
 	internal static bool IsAddressLocal(IPAddress ipAddress)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007D1")]
-	[Address(RVA = "0x4639730", Offset = "0x4639730", VA = "0x4639730")]
+	[Address(RVA = "0x495E830", Offset = "0x495E830", VA = "0x495E830")]
 	private static IPHostEntry GetLocalHost()
 	{
 		return null;

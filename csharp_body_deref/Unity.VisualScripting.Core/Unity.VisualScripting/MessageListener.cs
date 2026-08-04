@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.MessageListener
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine;
@@ -19,7 +26,7 @@ public abstract class MessageListener : MonoBehaviour
 	public static Type[] listenerTypes
 	{
 		[Token(Token = "0x600041C")]
-		[Address(RVA = "0x4990910", Offset = "0x4990910", VA = "0x4990910")]
+		[Address(RVA = "0x4CB54E0", Offset = "0x4CB54E0", VA = "0x4CB54E0")]
 		get
 		{
 			return null;
@@ -27,20 +34,20 @@ public abstract class MessageListener : MonoBehaviour
 	}
 
 	[Token(Token = "0x600041D")]
-	[Address(RVA = "0x4990B30", Offset = "0x4990B30", VA = "0x4990B30")]
+	[Address(RVA = "0x4CB5700", Offset = "0x4CB5700", VA = "0x4CB5700")]
 	[Obsolete("Use the overload with a messageListenerType parameter instead", false)]
 	public static void AddTo(GameObject gameObject)
 	{
 	}
 
 	[Token(Token = "0x600041E")]
-	[Address(RVA = "0x4990C10", Offset = "0x4990C10", VA = "0x4990C10")]
+	[Address(RVA = "0x4CB57E0", Offset = "0x4CB57E0", VA = "0x4CB57E0")]
 	public static void AddTo(Type messageListenerType, GameObject gameObject)
 	{
 	}
 
 	[Token(Token = "0x600041F")]
-	[Address(RVA = "0x4990C60", Offset = "0x4990C60", VA = "0x4990C60")]
+	[Address(RVA = "0x4CB5830", Offset = "0x4CB5830", VA = "0x4CB5830")]
 	protected MessageListener()
 	{
 	}

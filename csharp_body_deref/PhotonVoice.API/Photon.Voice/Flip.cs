@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.Flip
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/VoiceCodec.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -26,14 +33,14 @@ public struct Flip
 	public bool IsVertical
 	{
 		[Token(Token = "0x60002CB")]
-		[Address(RVA = "0x3C39B70", Offset = "0x3C39B70", VA = "0x3C39B70")]
+		[Address(RVA = "0x3F2F4C0", Offset = "0x3F2F4C0", VA = "0x3F2F4C0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002CC")]
-		[Address(RVA = "0x3C39B80", Offset = "0x3C39B80", VA = "0x3C39B80")]
+		[Address(RVA = "0x3F2F4D0", Offset = "0x3F2F4D0", VA = "0x3F2F4D0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -44,14 +51,14 @@ public struct Flip
 	public bool IsHorizontal
 	{
 		[Token(Token = "0x60002CD")]
-		[Address(RVA = "0x3C39B90", Offset = "0x3C39B90", VA = "0x3C39B90")]
+		[Address(RVA = "0x3F2F4E0", Offset = "0x3F2F4E0", VA = "0x3F2F4E0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002CE")]
-		[Address(RVA = "0x3C39BA0", Offset = "0x3C39BA0", VA = "0x3C39BA0")]
+		[Address(RVA = "0x3F2F4F0", Offset = "0x3F2F4F0", VA = "0x3F2F4F0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -59,35 +66,35 @@ public struct Flip
 	}
 
 	[Token(Token = "0x60002CF")]
-	[Address(RVA = "0x3C39BB0", Offset = "0x3C39BB0", VA = "0x3C39BB0")]
+	[Address(RVA = "0x3F2F500", Offset = "0x3F2F500", VA = "0x3F2F500")]
 	public static bool operator ==(Flip f1, Flip f2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002D0")]
-	[Address(RVA = "0x3C39C30", Offset = "0x3C39C30", VA = "0x3C39C30")]
+	[Address(RVA = "0x3F2F580", Offset = "0x3F2F580", VA = "0x3F2F580")]
 	public static bool operator !=(Flip f1, Flip f2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002D1")]
-	[Address(RVA = "0x3C39CB0", Offset = "0x3C39CB0", VA = "0x3C39CB0", Slot = "0")]
+	[Address(RVA = "0x3F2F600", Offset = "0x3F2F600", VA = "0x3F2F600", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002D2")]
-	[Address(RVA = "0x3C39D10", Offset = "0x3C39D10", VA = "0x3C39D10", Slot = "2")]
+	[Address(RVA = "0x3F2F660", Offset = "0x3F2F660", VA = "0x3F2F660", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002D3")]
-	[Address(RVA = "0x3C39D60", Offset = "0x3C39D60", VA = "0x3C39D60")]
+	[Address(RVA = "0x3F2F6B0", Offset = "0x3F2F6B0", VA = "0x3F2F6B0")]
 	public static Flip operator *(Flip f1, Flip f2)
 	{
 		return default(Flip);

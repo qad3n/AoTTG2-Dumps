@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.VisualTreeBindingsUpdater
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -71,7 +78,7 @@ internal class VisualTreeBindingsUpdater : BaseVisualTreeHierarchyTrackerUpdater
 	public override ProfilerMarker profilerMarker
 	{
 		[Token(Token = "0x6000066")]
-		[Address(RVA = "0x4BE6BD0", Offset = "0x4BE6BD0", VA = "0x4BE6BD0", Slot = "10")]
+		[Address(RVA = "0x4F0E500", Offset = "0x4F0E500", VA = "0x4F0E500", Slot = "10")]
 		get
 		{
 			return default(ProfilerMarker);
@@ -82,7 +89,7 @@ internal class VisualTreeBindingsUpdater : BaseVisualTreeHierarchyTrackerUpdater
 	public Dictionary<object, object> temporaryObjectCache
 	{
 		[Token(Token = "0x600006A")]
-		[Address(RVA = "0x4BE6FA0", Offset = "0x4BE6FA0", VA = "0x4BE6FA0")]
+		[Address(RVA = "0x4F0E8D0", Offset = "0x4F0E8D0", VA = "0x4F0E8D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -91,82 +98,82 @@ internal class VisualTreeBindingsUpdater : BaseVisualTreeHierarchyTrackerUpdater
 	}
 
 	[Token(Token = "0x6000067")]
-	[Address(RVA = "0x4BE6C40", Offset = "0x4BE6C40", VA = "0x4BE6C40")]
+	[Address(RVA = "0x4F0E570", Offset = "0x4F0E570", VA = "0x4F0E570")]
 	private IBinding GetBindingObjectFromElement(VisualElement ve)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000068")]
-	[Address(RVA = "0x4BE6EA0", Offset = "0x4BE6EA0", VA = "0x4BE6EA0")]
+	[Address(RVA = "0x4F0E7D0", Offset = "0x4F0E7D0", VA = "0x4F0E7D0")]
 	private void StartTracking(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x6000069")]
-	[Address(RVA = "0x4BE6F20", Offset = "0x4BE6F20", VA = "0x4BE6F20")]
+	[Address(RVA = "0x4F0E850", Offset = "0x4F0E850", VA = "0x4F0E850")]
 	private void StopTracking(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x600006B")]
-	[Address(RVA = "0x4BE6E00", Offset = "0x4BE6E00", VA = "0x4BE6E00")]
+	[Address(RVA = "0x4F0E730", Offset = "0x4F0E730", VA = "0x4F0E730")]
 	public static IBinding GetAdditionalBinding(VisualElement ve)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600006C")]
-	[Address(RVA = "0x4BE6FB0", Offset = "0x4BE6FB0", VA = "0x4BE6FB0")]
+	[Address(RVA = "0x4F0E8E0", Offset = "0x4F0E8E0", VA = "0x4F0E8E0")]
 	private void StartTrackingRecursive(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x4BE7130", Offset = "0x4BE7130", VA = "0x4BE7130")]
+	[Address(RVA = "0x4F0EA60", Offset = "0x4F0EA60", VA = "0x4F0EA60")]
 	private void StopTrackingRecursive(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x4BE72B0", Offset = "0x4BE72B0", VA = "0x4BE72B0", Slot = "13")]
+	[Address(RVA = "0x4F0EBE0", Offset = "0x4F0EBE0", VA = "0x4F0EBE0", Slot = "13")]
 	public override void OnVersionChanged(VisualElement ve, VersionChangeType versionChangeType)
 	{
 	}
 
 	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x4BE7430", Offset = "0x4BE7430", VA = "0x4BE7430", Slot = "14")]
+	[Address(RVA = "0x4F0ED60", Offset = "0x4F0ED60", VA = "0x4F0ED60", Slot = "14")]
 	protected override void OnHierarchyChange(VisualElement ve, HierarchyChangeType type)
 	{
 	}
 
 	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x4BE7450", Offset = "0x4BE7450", VA = "0x4BE7450")]
+	[Address(RVA = "0x4F0ED80", Offset = "0x4F0ED80", VA = "0x4F0ED80")]
 	private static long CurrentTime()
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000071")]
-	[Address(RVA = "0x4BE74B0", Offset = "0x4BE74B0", VA = "0x4BE74B0")]
+	[Address(RVA = "0x4F0EDE0", Offset = "0x4F0EDE0", VA = "0x4F0EDE0")]
 	public void PerformTrackingOperations()
 	{
 	}
 
 	[Token(Token = "0x6000072")]
-	[Address(RVA = "0x4BE77C0", Offset = "0x4BE77C0", VA = "0x4BE77C0", Slot = "12")]
+	[Address(RVA = "0x4F0F0F0", Offset = "0x4F0F0F0", VA = "0x4F0F0F0", Slot = "12")]
 	public override void Update()
 	{
 	}
 
 	[Token(Token = "0x6000073")]
-	[Address(RVA = "0x4BE7E80", Offset = "0x4BE7E80", VA = "0x4BE7E80")]
+	[Address(RVA = "0x4F0F7B0", Offset = "0x4F0F7B0", VA = "0x4F0F7B0")]
 	private void UpdateBindings()
 	{
 	}
 
 	[Token(Token = "0x6000074")]
-	[Address(RVA = "0x4BE85E0", Offset = "0x4BE85E0", VA = "0x4BE85E0")]
+	[Address(RVA = "0x4F0FF10", Offset = "0x4F0FF10", VA = "0x4F0FF10")]
 	public VisualTreeBindingsUpdater()
 	{
 	}

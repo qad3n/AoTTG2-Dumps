@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.Properties.Internal.ReflectedPropertyBagProvider
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -77,7 +84,7 @@ internal class ReflectedPropertyBagProvider
 		private MemberInfo System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EReflection_002EMemberInfo_003E_002ECurrent
 		{
 			[Token(Token = "0x6000203")]
-			[Address(RVA = "0x4B75F50", Offset = "0x4B75F50", VA = "0x4B75F50", Slot = "6")]
+			[Address(RVA = "0x4E9D880", Offset = "0x4E9D880", VA = "0x4E9D880", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -89,7 +96,7 @@ internal class ReflectedPropertyBagProvider
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000205")]
-			[Address(RVA = "0x4B75FA0", Offset = "0x4B75FA0", VA = "0x4B75FA0", Slot = "9")]
+			[Address(RVA = "0x4E9D8D0", Offset = "0x4E9D8D0", VA = "0x4E9D8D0", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -98,41 +105,41 @@ internal class ReflectedPropertyBagProvider
 		}
 
 		[Token(Token = "0x60001FF")]
-		[Address(RVA = "0x4B74F30", Offset = "0x4B74F30", VA = "0x4B74F30")]
+		[Address(RVA = "0x4E9C860", Offset = "0x4E9C860", VA = "0x4E9C860")]
 		[DebuggerHidden]
 		public _003CGetPropertyMembers_003Ed__22(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000200")]
-		[Address(RVA = "0x4B752A0", Offset = "0x4B752A0", VA = "0x4B752A0", Slot = "7")]
+		[Address(RVA = "0x4E9CBD0", Offset = "0x4E9CBD0", VA = "0x4E9CBD0", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000201")]
-		[Address(RVA = "0x4B75350", Offset = "0x4B75350", VA = "0x4B75350", Slot = "8")]
+		[Address(RVA = "0x4E9CC80", Offset = "0x4E9CC80", VA = "0x4E9CC80", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000202")]
-		[Address(RVA = "0x4B75EB0", Offset = "0x4B75EB0", VA = "0x4B75EB0")]
+		[Address(RVA = "0x4E9D7E0", Offset = "0x4E9D7E0", VA = "0x4E9D7E0")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
 		[Token(Token = "0x6000204")]
-		[Address(RVA = "0x4B75F60", Offset = "0x4B75F60", VA = "0x4B75F60", Slot = "10")]
+		[Address(RVA = "0x4E9D890", Offset = "0x4E9D890", VA = "0x4E9D890", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x6000206")]
-		[Address(RVA = "0x4B75FB0", Offset = "0x4B75FB0", VA = "0x4B75FB0", Slot = "4")]
+		[Address(RVA = "0x4E9D8E0", Offset = "0x4E9D8E0", VA = "0x4E9D8E0", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<MemberInfo> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002EReflection_002EMemberInfo_003E_002EGetEnumerator()
 		{
@@ -140,7 +147,7 @@ internal class ReflectedPropertyBagProvider
 		}
 
 		[Token(Token = "0x6000207")]
-		[Address(RVA = "0x4B76050", Offset = "0x4B76050", VA = "0x4B76050", Slot = "5")]
+		[Address(RVA = "0x4E9D980", Offset = "0x4E9D980", VA = "0x4E9D980", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -189,13 +196,13 @@ internal class ReflectedPropertyBagProvider
 	private readonly MethodInfo m_CreateDictionaryPropertyBagMethod;
 
 	[Token(Token = "0x60001EC")]
-	[Address(RVA = "0x4B747A0", Offset = "0x4B747A0", VA = "0x4B747A0")]
+	[Address(RVA = "0x4E9C0D0", Offset = "0x4E9C0D0", VA = "0x4E9C0D0")]
 	public ReflectedPropertyBagProvider()
 	{
 	}
 
 	[Token(Token = "0x60001ED")]
-	[Address(RVA = "0x4B74BF0", Offset = "0x4B74BF0", VA = "0x4B74BF0")]
+	[Address(RVA = "0x4E9C520", Offset = "0x4E9C520", VA = "0x4E9C520")]
 	public IPropertyBag CreatePropertyBag(Type type)
 	{
 		return null;
@@ -270,7 +277,7 @@ internal class ReflectedPropertyBagProvider
 	}
 
 	[Token(Token = "0x60001F8")]
-	[Address(RVA = "0x4B74EB0", Offset = "0x4B74EB0", VA = "0x4B74EB0")]
+	[Address(RVA = "0x4E9C7E0", Offset = "0x4E9C7E0", VA = "0x4E9C7E0")]
 	[IteratorStateMachine(typeof(_003CGetPropertyMembers_003Ed__22))]
 	private static IEnumerable<MemberInfo> GetPropertyMembers(Type type)
 	{
@@ -278,14 +285,14 @@ internal class ReflectedPropertyBagProvider
 	}
 
 	[Token(Token = "0x60001F9")]
-	[Address(RVA = "0x4B74F60", Offset = "0x4B74F60", VA = "0x4B74F60")]
+	[Address(RVA = "0x4E9C890", Offset = "0x4E9C890", VA = "0x4E9C890")]
 	private static bool IsValidMember(MemberInfo memberInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001FA")]
-	[Address(RVA = "0x4B750A0", Offset = "0x4B750A0", VA = "0x4B750A0")]
+	[Address(RVA = "0x4E9C9D0", Offset = "0x4E9C9D0", VA = "0x4E9C9D0")]
 	private static bool IsValidPropertyType(Type type)
 	{
 		return default(bool);

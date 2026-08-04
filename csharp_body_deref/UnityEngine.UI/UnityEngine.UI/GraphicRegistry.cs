@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.GraphicRegistry
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 using UnityEngine.UI.Collections;
@@ -27,7 +34,7 @@ public class GraphicRegistry
 	public static GraphicRegistry instance
 	{
 		[Token(Token = "0x6000132")]
-		[Address(RVA = "0x4BDBCD0", Offset = "0x4BDBCD0", VA = "0x4BDBCD0")]
+		[Address(RVA = "0x4F03600", Offset = "0x4F03600", VA = "0x4F03600")]
 		get
 		{
 			return null;
@@ -35,56 +42,56 @@ public class GraphicRegistry
 	}
 
 	[Token(Token = "0x6000131")]
-	[Address(RVA = "0x4BDBB30", Offset = "0x4BDBB30", VA = "0x4BDBB30")]
+	[Address(RVA = "0x4F03460", Offset = "0x4F03460", VA = "0x4F03460")]
 	protected GraphicRegistry()
 	{
 	}
 
 	[Token(Token = "0x6000133")]
-	[Address(RVA = "0x4BD6D20", Offset = "0x4BD6D20", VA = "0x4BD6D20")]
+	[Address(RVA = "0x4EFE650", Offset = "0x4EFE650", VA = "0x4EFE650")]
 	public static void RegisterGraphicForCanvas(Canvas c, Graphic graphic)
 	{
 	}
 
 	[Token(Token = "0x6000134")]
-	[Address(RVA = "0x4BD5E80", Offset = "0x4BD5E80", VA = "0x4BD5E80")]
+	[Address(RVA = "0x4EFD7B0", Offset = "0x4EFD7B0", VA = "0x4EFD7B0")]
 	public static void RegisterRaycastGraphicForCanvas(Canvas c, Graphic graphic)
 	{
 	}
 
 	[Token(Token = "0x6000135")]
-	[Address(RVA = "0x4BD68E0", Offset = "0x4BD68E0", VA = "0x4BD68E0")]
+	[Address(RVA = "0x4EFE210", Offset = "0x4EFE210", VA = "0x4EFE210")]
 	public static void UnregisterGraphicForCanvas(Canvas c, Graphic graphic)
 	{
 	}
 
 	[Token(Token = "0x6000136")]
-	[Address(RVA = "0x4BD5D00", Offset = "0x4BD5D00", VA = "0x4BD5D00")]
+	[Address(RVA = "0x4EFD630", Offset = "0x4EFD630", VA = "0x4EFD630")]
 	public static void UnregisterRaycastGraphicForCanvas(Canvas c, Graphic graphic)
 	{
 	}
 
 	[Token(Token = "0x6000137")]
-	[Address(RVA = "0x4BD76F0", Offset = "0x4BD76F0", VA = "0x4BD76F0")]
+	[Address(RVA = "0x4EFF020", Offset = "0x4EFF020", VA = "0x4EFF020")]
 	public static void DisableGraphicForCanvas(Canvas c, Graphic graphic)
 	{
 	}
 
 	[Token(Token = "0x6000138")]
-	[Address(RVA = "0x4BDBDB0", Offset = "0x4BDBDB0", VA = "0x4BDBDB0")]
+	[Address(RVA = "0x4F036E0", Offset = "0x4F036E0", VA = "0x4F036E0")]
 	public static void DisableRaycastGraphicForCanvas(Canvas c, Graphic graphic)
 	{
 	}
 
 	[Token(Token = "0x6000139")]
-	[Address(RVA = "0x4BDBF40", Offset = "0x4BDBF40", VA = "0x4BDBF40")]
+	[Address(RVA = "0x4F03870", Offset = "0x4F03870", VA = "0x4F03870")]
 	public static IList<Graphic> GetGraphicsForCanvas(Canvas canvas)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600013A")]
-	[Address(RVA = "0x4BDB170", Offset = "0x4BDB170", VA = "0x4BDB170")]
+	[Address(RVA = "0x4F02AA0", Offset = "0x4F02AA0", VA = "0x4F02AA0")]
 	public static IList<Graphic> GetRaycastableGraphicsForCanvas(Canvas canvas)
 	{
 		return null;

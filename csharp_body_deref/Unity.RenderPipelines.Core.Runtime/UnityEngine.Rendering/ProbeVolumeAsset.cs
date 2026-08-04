@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.ProbeVolumeAsset
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using Unity.Collections;
@@ -53,7 +60,7 @@ internal class ProbeVolumeAsset : ScriptableObject
 		public int chunksCount;
 
 		[Token(Token = "0x6000A23")]
-		[Address(RVA = "0x48A8610", Offset = "0x48A8610", VA = "0x48A8610")]
+		[Address(RVA = "0x4BCD6D0", Offset = "0x4BCD6D0", VA = "0x4BCD6D0")]
 		public void Add(CellCounts o)
 		{
 		}
@@ -128,7 +135,7 @@ internal class ProbeVolumeAsset : ScriptableObject
 	public int Version
 	{
 		[Token(Token = "0x6000A18")]
-		[Address(RVA = "0x48A7F70", Offset = "0x48A7F70", VA = "0x48A7F70")]
+		[Address(RVA = "0x4BCD030", Offset = "0x4BCD030", VA = "0x4BCD030")]
 		get
 		{
 			return default(int);
@@ -139,7 +146,7 @@ internal class ProbeVolumeAsset : ScriptableObject
 	internal int maxSubdivision
 	{
 		[Token(Token = "0x6000A19")]
-		[Address(RVA = "0x48A7F80", Offset = "0x48A7F80", VA = "0x48A7F80")]
+		[Address(RVA = "0x4BCD040", Offset = "0x4BCD040", VA = "0x4BCD040")]
 		get
 		{
 			return default(int);
@@ -150,7 +157,7 @@ internal class ProbeVolumeAsset : ScriptableObject
 	internal float minBrickSize
 	{
 		[Token(Token = "0x6000A1A")]
-		[Address(RVA = "0x48A7F90", Offset = "0x48A7F90", VA = "0x48A7F90")]
+		[Address(RVA = "0x4BCD050", Offset = "0x4BCD050", VA = "0x4BCD050")]
 		get
 		{
 			return default(float);
@@ -158,28 +165,28 @@ internal class ProbeVolumeAsset : ScriptableObject
 	}
 
 	[Token(Token = "0x6000A1B")]
-	[Address(RVA = "0x48A7FB0", Offset = "0x48A7FB0", VA = "0x48A7FB0")]
+	[Address(RVA = "0x4BCD070", Offset = "0x4BCD070", VA = "0x4BCD070")]
 	internal bool CompatibleWith(ProbeVolumeAsset otherAsset)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A1C")]
-	[Address(RVA = "0x48A8020", Offset = "0x48A8020", VA = "0x48A8020")]
+	[Address(RVA = "0x4BCD0E0", Offset = "0x4BCD0E0", VA = "0x4BCD0E0")]
 	internal bool IsInvalid()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A1D")]
-	[Address(RVA = "0x48A8040", Offset = "0x48A8040", VA = "0x48A8040")]
+	[Address(RVA = "0x4BCD100", Offset = "0x4BCD100", VA = "0x4BCD100")]
 	public string GetSerializedFullPath()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A1E")]
-	[Address(RVA = "0x48A8050", Offset = "0x48A8050", VA = "0x48A8050")]
+	[Address(RVA = "0x4BCD110", Offset = "0x4BCD110", VA = "0x4BCD110")]
 	private static int AlignUp16(int count)
 	{
 		return default(int);
@@ -192,21 +199,21 @@ internal class ProbeVolumeAsset : ScriptableObject
 	}
 
 	[Token(Token = "0x6000A20")]
-	[Address(RVA = "0x48A8070", Offset = "0x48A8070", VA = "0x48A8070")]
+	[Address(RVA = "0x4BCD130", Offset = "0x4BCD130", VA = "0x4BCD130")]
 	internal bool ResolveSharedCellData(TextAsset cellSharedDataAsset, TextAsset cellSupportDataAsset)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A21")]
-	[Address(RVA = "0x48A8650", Offset = "0x48A8650", VA = "0x48A8650")]
+	[Address(RVA = "0x4BCD710", Offset = "0x4BCD710", VA = "0x4BCD710")]
 	internal bool ResolvePerScenarioCellData(TextAsset cellDataAsset, TextAsset cellOptionalDataAsset, int stateIndex)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A22")]
-	[Address(RVA = "0x48A8CE0", Offset = "0x48A8CE0", VA = "0x48A8CE0")]
+	[Address(RVA = "0x4BCDDA0", Offset = "0x4BCDDA0", VA = "0x4BCDDA0")]
 	public ProbeVolumeAsset()
 	{
 	}

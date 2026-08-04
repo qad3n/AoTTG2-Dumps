@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.DefaultValueAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.ComponentModel;
@@ -18,7 +25,7 @@ public class DefaultValueAttribute : Attribute
 	public virtual object Value
 	{
 		[Token(Token = "0x6000E32")]
-		[Address(RVA = "0x46AB5F0", Offset = "0x46AB5F0", VA = "0x46AB5F0", Slot = "7")]
+		[Address(RVA = "0x49D06F0", Offset = "0x49D06F0", VA = "0x49D06F0", Slot = "7")]
 		get
 		{
 			return null;
@@ -26,115 +33,115 @@ public class DefaultValueAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000E23")]
-	[Address(RVA = "0x46AAC70", Offset = "0x46AAC70", VA = "0x46AAC70")]
+	[Address(RVA = "0x49CFD70", Offset = "0x49CFD70", VA = "0x49CFD70")]
 	public DefaultValueAttribute(Type type, string value)
 	{
 	}
 
 	[Token(Token = "0x6000E24")]
-	[Address(RVA = "0x46AB1D0", Offset = "0x46AB1D0", VA = "0x46AB1D0")]
+	[Address(RVA = "0x49D02D0", Offset = "0x49D02D0", VA = "0x49D02D0")]
 	public DefaultValueAttribute(char value)
 	{
 	}
 
 	[Token(Token = "0x6000E25")]
-	[Address(RVA = "0x46AB220", Offset = "0x46AB220", VA = "0x46AB220")]
+	[Address(RVA = "0x49D0320", Offset = "0x49D0320", VA = "0x49D0320")]
 	public DefaultValueAttribute(byte value)
 	{
 	}
 
 	[Token(Token = "0x6000E26")]
-	[Address(RVA = "0x46AB270", Offset = "0x46AB270", VA = "0x46AB270")]
+	[Address(RVA = "0x49D0370", Offset = "0x49D0370", VA = "0x49D0370")]
 	public DefaultValueAttribute(short value)
 	{
 	}
 
 	[Token(Token = "0x6000E27")]
-	[Address(RVA = "0x46AB2C0", Offset = "0x46AB2C0", VA = "0x46AB2C0")]
+	[Address(RVA = "0x49D03C0", Offset = "0x49D03C0", VA = "0x49D03C0")]
 	public DefaultValueAttribute(int value)
 	{
 	}
 
 	[Token(Token = "0x6000E28")]
-	[Address(RVA = "0x46AB310", Offset = "0x46AB310", VA = "0x46AB310")]
+	[Address(RVA = "0x49D0410", Offset = "0x49D0410", VA = "0x49D0410")]
 	public DefaultValueAttribute(long value)
 	{
 	}
 
 	[Token(Token = "0x6000E29")]
-	[Address(RVA = "0x46AB360", Offset = "0x46AB360", VA = "0x46AB360")]
+	[Address(RVA = "0x49D0460", Offset = "0x49D0460", VA = "0x49D0460")]
 	public DefaultValueAttribute(float value)
 	{
 	}
 
 	[Token(Token = "0x6000E2A")]
-	[Address(RVA = "0x46AB3B0", Offset = "0x46AB3B0", VA = "0x46AB3B0")]
+	[Address(RVA = "0x49D04B0", Offset = "0x49D04B0", VA = "0x49D04B0")]
 	public DefaultValueAttribute(double value)
 	{
 	}
 
 	[Token(Token = "0x6000E2B")]
-	[Address(RVA = "0x46AB400", Offset = "0x46AB400", VA = "0x46AB400")]
+	[Address(RVA = "0x49D0500", Offset = "0x49D0500", VA = "0x49D0500")]
 	public DefaultValueAttribute(bool value)
 	{
 	}
 
 	[Token(Token = "0x6000E2C")]
-	[Address(RVA = "0x46AB450", Offset = "0x46AB450", VA = "0x46AB450")]
+	[Address(RVA = "0x49D0550", Offset = "0x49D0550", VA = "0x49D0550")]
 	public DefaultValueAttribute(string value)
 	{
 	}
 
 	[Token(Token = "0x6000E2D")]
-	[Address(RVA = "0x46AB480", Offset = "0x46AB480", VA = "0x46AB480")]
+	[Address(RVA = "0x49D0580", Offset = "0x49D0580", VA = "0x49D0580")]
 	public DefaultValueAttribute(object value)
 	{
 	}
 
 	[Token(Token = "0x6000E2E")]
-	[Address(RVA = "0x46AB4B0", Offset = "0x46AB4B0", VA = "0x46AB4B0")]
+	[Address(RVA = "0x49D05B0", Offset = "0x49D05B0", VA = "0x49D05B0")]
 	[CLSCompliant(false)]
 	public DefaultValueAttribute(sbyte value)
 	{
 	}
 
 	[Token(Token = "0x6000E2F")]
-	[Address(RVA = "0x46AB500", Offset = "0x46AB500", VA = "0x46AB500")]
+	[Address(RVA = "0x49D0600", Offset = "0x49D0600", VA = "0x49D0600")]
 	[CLSCompliant(false)]
 	public DefaultValueAttribute(ushort value)
 	{
 	}
 
 	[Token(Token = "0x6000E30")]
-	[Address(RVA = "0x46AB550", Offset = "0x46AB550", VA = "0x46AB550")]
+	[Address(RVA = "0x49D0650", Offset = "0x49D0650", VA = "0x49D0650")]
 	[CLSCompliant(false)]
 	public DefaultValueAttribute(uint value)
 	{
 	}
 
 	[Token(Token = "0x6000E31")]
-	[Address(RVA = "0x46AB5A0", Offset = "0x46AB5A0", VA = "0x46AB5A0")]
+	[Address(RVA = "0x49D06A0", Offset = "0x49D06A0", VA = "0x49D06A0")]
 	[CLSCompliant(false)]
 	public DefaultValueAttribute(ulong value)
 	{
 	}
 
 	[Token(Token = "0x6000E33")]
-	[Address(RVA = "0x46AB600", Offset = "0x46AB600", VA = "0x46AB600", Slot = "0")]
+	[Address(RVA = "0x49D0700", Offset = "0x49D0700", VA = "0x49D0700", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E34")]
-	[Address(RVA = "0x46AB720", Offset = "0x46AB720", VA = "0x46AB720", Slot = "2")]
+	[Address(RVA = "0x49D0820", Offset = "0x49D0820", VA = "0x49D0820", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000E35")]
-	[Address(RVA = "0x46AB730", Offset = "0x46AB730", VA = "0x46AB730")]
+	[Address(RVA = "0x49D0830", Offset = "0x49D0830", VA = "0x49D0830")]
 	protected void SetValue(object value)
 	{
 	}

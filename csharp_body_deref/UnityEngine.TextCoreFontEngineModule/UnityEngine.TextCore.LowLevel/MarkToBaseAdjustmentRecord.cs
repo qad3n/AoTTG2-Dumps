@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.LowLevel.MarkToBaseAdjustmentRecord
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -38,7 +45,7 @@ internal struct MarkToBaseAdjustmentRecord
 	public uint baseGlyphID
 	{
 		[Token(Token = "0x6000088")]
-		[Address(RVA = "0x4B7EF50", Offset = "0x4B7EF50", VA = "0x4B7EF50")]
+		[Address(RVA = "0x4EA6880", Offset = "0x4EA6880", VA = "0x4EA6880")]
 		get
 		{
 			return default(uint);
@@ -49,7 +56,7 @@ internal struct MarkToBaseAdjustmentRecord
 	public GlyphAnchorPoint baseGlyphAnchorPoint
 	{
 		[Token(Token = "0x6000089")]
-		[Address(RVA = "0x4B7EF60", Offset = "0x4B7EF60", VA = "0x4B7EF60")]
+		[Address(RVA = "0x4EA6890", Offset = "0x4EA6890", VA = "0x4EA6890")]
 		get
 		{
 			return default(GlyphAnchorPoint);
@@ -60,7 +67,7 @@ internal struct MarkToBaseAdjustmentRecord
 	public uint markGlyphID
 	{
 		[Token(Token = "0x600008A")]
-		[Address(RVA = "0x4B7EF70", Offset = "0x4B7EF70", VA = "0x4B7EF70")]
+		[Address(RVA = "0x4EA68A0", Offset = "0x4EA68A0", VA = "0x4EA68A0")]
 		get
 		{
 			return default(uint);
@@ -71,7 +78,7 @@ internal struct MarkToBaseAdjustmentRecord
 	public MarkPositionAdjustment markPositionAdjustment
 	{
 		[Token(Token = "0x600008B")]
-		[Address(RVA = "0x4B7EF80", Offset = "0x4B7EF80", VA = "0x4B7EF80")]
+		[Address(RVA = "0x4EA68B0", Offset = "0x4EA68B0", VA = "0x4EA68B0")]
 		get
 		{
 			return default(MarkPositionAdjustment);

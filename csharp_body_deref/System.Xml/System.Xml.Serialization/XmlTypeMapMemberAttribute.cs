@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlTypeMapMemberAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.Schema;
 using Il2CppDummyDll;
 
@@ -26,13 +33,13 @@ internal class XmlTypeMapMemberAttribute : XmlTypeMapMember
 	public string AttributeName
 	{
 		[Token(Token = "0x6000EB6")]
-		[Address(RVA = "0x44FB650", Offset = "0x44FB650", VA = "0x44FB650")]
+		[Address(RVA = "0x4838DB0", Offset = "0x4838DB0", VA = "0x4838DB0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000EB7")]
-		[Address(RVA = "0x44FB660", Offset = "0x44FB660", VA = "0x44FB660")]
+		[Address(RVA = "0x4838DC0", Offset = "0x4838DC0", VA = "0x4838DC0")]
 		set
 		{
 		}
@@ -42,13 +49,13 @@ internal class XmlTypeMapMemberAttribute : XmlTypeMapMember
 	public string Namespace
 	{
 		[Token(Token = "0x6000EB8")]
-		[Address(RVA = "0x44FB670", Offset = "0x44FB670", VA = "0x44FB670")]
+		[Address(RVA = "0x4838DD0", Offset = "0x4838DD0", VA = "0x4838DD0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000EB9")]
-		[Address(RVA = "0x44FB680", Offset = "0x44FB680", VA = "0x44FB680")]
+		[Address(RVA = "0x4838DE0", Offset = "0x4838DE0", VA = "0x4838DE0")]
 		set
 		{
 		}
@@ -58,7 +65,7 @@ internal class XmlTypeMapMemberAttribute : XmlTypeMapMember
 	public XmlSchemaForm Form
 	{
 		[Token(Token = "0x6000EBA")]
-		[Address(RVA = "0x44FB690", Offset = "0x44FB690", VA = "0x44FB690")]
+		[Address(RVA = "0x4838DF0", Offset = "0x4838DF0", VA = "0x4838DF0")]
 		set
 		{
 		}
@@ -68,20 +75,20 @@ internal class XmlTypeMapMemberAttribute : XmlTypeMapMember
 	public XmlTypeMapping MappedType
 	{
 		[Token(Token = "0x6000EBB")]
-		[Address(RVA = "0x44FB6A0", Offset = "0x44FB6A0", VA = "0x44FB6A0")]
+		[Address(RVA = "0x4838E00", Offset = "0x4838E00", VA = "0x4838E00")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000EBC")]
-		[Address(RVA = "0x44FB6B0", Offset = "0x44FB6B0", VA = "0x44FB6B0")]
+		[Address(RVA = "0x4838E10", Offset = "0x4838E10", VA = "0x4838E10")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000EB5")]
-	[Address(RVA = "0x44FB5A0", Offset = "0x44FB5A0", VA = "0x44FB5A0")]
+	[Address(RVA = "0x4838D00", Offset = "0x4838D00", VA = "0x4838D00")]
 	public XmlTypeMapMemberAttribute()
 	{
 	}

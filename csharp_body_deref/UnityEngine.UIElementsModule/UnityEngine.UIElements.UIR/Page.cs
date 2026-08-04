@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UIR.Page
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -138,14 +145,14 @@ internal class Page : IDisposable
 	protected bool disposed
 	{
 		[Token(Token = "0x6001E6D")]
-		[Address(RVA = "0x4C8ABF0", Offset = "0x4C8ABF0", VA = "0x4C8ABF0")]
+		[Address(RVA = "0x4FB2520", Offset = "0x4FB2520", VA = "0x4FB2520")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001E6E")]
-		[Address(RVA = "0x4C8AC00", Offset = "0x4C8AC00", VA = "0x4C8AC00")]
+		[Address(RVA = "0x4FB2530", Offset = "0x4FB2530", VA = "0x4FB2530")]
 		[CompilerGenerated]
 		private set
 		{
@@ -156,7 +163,7 @@ internal class Page : IDisposable
 	public bool isEmpty
 	{
 		[Token(Token = "0x6001E71")]
-		[Address(RVA = "0x4C8ACA0", Offset = "0x4C8ACA0", VA = "0x4C8ACA0")]
+		[Address(RVA = "0x4FB25D0", Offset = "0x4FB25D0", VA = "0x4FB25D0")]
 		get
 		{
 			return default(bool);
@@ -164,19 +171,19 @@ internal class Page : IDisposable
 	}
 
 	[Token(Token = "0x6001E6C")]
-	[Address(RVA = "0x4C8AAA0", Offset = "0x4C8AAA0", VA = "0x4C8AAA0")]
+	[Address(RVA = "0x4FB23D0", Offset = "0x4FB23D0", VA = "0x4FB23D0")]
 	public Page(uint vertexMaxCount, uint indexMaxCount, uint maxQueuedFrameCount, bool mockPage)
 	{
 	}
 
 	[Token(Token = "0x6001E6F")]
-	[Address(RVA = "0x4C89C10", Offset = "0x4C89C10", VA = "0x4C89C10", Slot = "4")]
+	[Address(RVA = "0x4FB1540", Offset = "0x4FB1540", VA = "0x4FB1540", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6001E70")]
-	[Address(RVA = "0x4C8AC10", Offset = "0x4C8AC10", VA = "0x4C8AC10", Slot = "5")]
+	[Address(RVA = "0x4FB2540", Offset = "0x4FB2540", VA = "0x4FB2540", Slot = "5")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}

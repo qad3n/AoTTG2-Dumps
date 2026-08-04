@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.NoiseAndScratches
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/NoiseAndScratches.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -92,7 +99,7 @@ public class NoiseAndScratches : MonoBehaviour
 	protected Material material
 	{
 		[Token(Token = "0x6000072")]
-		[Address(RVA = "0x415F480", Offset = "0x415F480", VA = "0x415F480")]
+		[Address(RVA = "0x4484580", Offset = "0x4484580", VA = "0x4484580")]
 		get
 		{
 			return null;
@@ -100,31 +107,31 @@ public class NoiseAndScratches : MonoBehaviour
 	}
 
 	[Token(Token = "0x6000071")]
-	[Address(RVA = "0x415F370", Offset = "0x415F370", VA = "0x415F370")]
+	[Address(RVA = "0x4484470", Offset = "0x4484470", VA = "0x4484470")]
 	protected void Start()
 	{
 	}
 
 	[Token(Token = "0x6000073")]
-	[Address(RVA = "0x415F5E0", Offset = "0x415F5E0", VA = "0x415F5E0")]
+	[Address(RVA = "0x44846E0", Offset = "0x44846E0", VA = "0x44846E0")]
 	protected void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000074")]
-	[Address(RVA = "0x415F6A0", Offset = "0x415F6A0", VA = "0x415F6A0")]
+	[Address(RVA = "0x44847A0", Offset = "0x44847A0", VA = "0x44847A0")]
 	private void SanitizeParameters()
 	{
 	}
 
 	[Token(Token = "0x6000075")]
-	[Address(RVA = "0x415F730", Offset = "0x415F730", VA = "0x415F730")]
+	[Address(RVA = "0x4484830", Offset = "0x4484830", VA = "0x4484830")]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x415FB10", Offset = "0x415FB10", VA = "0x415FB10")]
+	[Address(RVA = "0x4484C10", Offset = "0x4484C10", VA = "0x4484C10")]
 	public NoiseAndScratches()
 	{
 	}

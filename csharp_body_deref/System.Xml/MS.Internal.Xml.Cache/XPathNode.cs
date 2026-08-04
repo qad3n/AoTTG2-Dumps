@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MS.Internal.Xml.Cache.XPathNode
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.XPath;
 using Il2CppDummyDll;
 
@@ -38,7 +45,7 @@ internal struct XPathNode
 	public XPathNodeType NodeType
 	{
 		[Token(Token = "0x6001CAB")]
-		[Address(RVA = "0x4452C60", Offset = "0x4452C60", VA = "0x4452C60")]
+		[Address(RVA = "0x47903C0", Offset = "0x47903C0", VA = "0x47903C0")]
 		get
 		{
 			return default(XPathNodeType);
@@ -49,7 +56,7 @@ internal struct XPathNode
 	public string Prefix
 	{
 		[Token(Token = "0x6001CAC")]
-		[Address(RVA = "0x4452E60", Offset = "0x4452E60", VA = "0x4452E60")]
+		[Address(RVA = "0x47905C0", Offset = "0x47905C0", VA = "0x47905C0")]
 		get
 		{
 			return null;
@@ -60,7 +67,7 @@ internal struct XPathNode
 	public string LocalName
 	{
 		[Token(Token = "0x6001CAD")]
-		[Address(RVA = "0x4452CB0", Offset = "0x4452CB0", VA = "0x4452CB0")]
+		[Address(RVA = "0x4790410", Offset = "0x4790410", VA = "0x4790410")]
 		get
 		{
 			return null;
@@ -71,7 +78,7 @@ internal struct XPathNode
 	public string Name
 	{
 		[Token(Token = "0x6001CAE")]
-		[Address(RVA = "0x4452DC0", Offset = "0x4452DC0", VA = "0x4452DC0")]
+		[Address(RVA = "0x4790520", Offset = "0x4790520", VA = "0x4790520")]
 		get
 		{
 			return null;
@@ -82,7 +89,7 @@ internal struct XPathNode
 	public string NamespaceUri
 	{
 		[Token(Token = "0x6001CAF")]
-		[Address(RVA = "0x4452D10", Offset = "0x4452D10", VA = "0x4452D10")]
+		[Address(RVA = "0x4790470", Offset = "0x4790470", VA = "0x4790470")]
 		get
 		{
 			return null;
@@ -93,7 +100,7 @@ internal struct XPathNode
 	public XPathDocument Document
 	{
 		[Token(Token = "0x6001CB0")]
-		[Address(RVA = "0x4452FE0", Offset = "0x4452FE0", VA = "0x4452FE0")]
+		[Address(RVA = "0x4790740", Offset = "0x4790740", VA = "0x4790740")]
 		get
 		{
 			return null;
@@ -104,7 +111,7 @@ internal struct XPathNode
 	public string BaseUri
 	{
 		[Token(Token = "0x6001CB1")]
-		[Address(RVA = "0x4452F50", Offset = "0x4452F50", VA = "0x4452F50")]
+		[Address(RVA = "0x47906B0", Offset = "0x47906B0", VA = "0x47906B0")]
 		get
 		{
 			return null;
@@ -115,7 +122,7 @@ internal struct XPathNode
 	public int LineNumber
 	{
 		[Token(Token = "0x6001CB2")]
-		[Address(RVA = "0x44557E0", Offset = "0x44557E0", VA = "0x44557E0")]
+		[Address(RVA = "0x4792F40", Offset = "0x4792F40", VA = "0x4792F40")]
 		get
 		{
 			return default(int);
@@ -126,7 +133,7 @@ internal struct XPathNode
 	public int LinePosition
 	{
 		[Token(Token = "0x6001CB3")]
-		[Address(RVA = "0x44558B0", Offset = "0x44558B0", VA = "0x44558B0")]
+		[Address(RVA = "0x4793010", Offset = "0x4793010", VA = "0x4793010")]
 		get
 		{
 			return default(int);
@@ -137,7 +144,7 @@ internal struct XPathNode
 	public int CollapsedLinePosition
 	{
 		[Token(Token = "0x6001CB4")]
-		[Address(RVA = "0x4455890", Offset = "0x4455890", VA = "0x4455890")]
+		[Address(RVA = "0x4792FF0", Offset = "0x4792FF0", VA = "0x4792FF0")]
 		get
 		{
 			return default(int);
@@ -148,7 +155,7 @@ internal struct XPathNode
 	public XPathNodePageInfo PageInfo
 	{
 		[Token(Token = "0x6001CB5")]
-		[Address(RVA = "0x4455920", Offset = "0x4455920", VA = "0x4455920")]
+		[Address(RVA = "0x4793080", Offset = "0x4793080", VA = "0x4793080")]
 		get
 		{
 			return null;
@@ -159,7 +166,7 @@ internal struct XPathNode
 	public bool IsXmlNamespaceNode
 	{
 		[Token(Token = "0x6001CBC")]
-		[Address(RVA = "0x44536B0", Offset = "0x44536B0", VA = "0x44536B0")]
+		[Address(RVA = "0x4790E10", Offset = "0x4790E10", VA = "0x4790E10")]
 		get
 		{
 			return default(bool);
@@ -170,7 +177,7 @@ internal struct XPathNode
 	public bool HasSibling
 	{
 		[Token(Token = "0x6001CBD")]
-		[Address(RVA = "0x44559A0", Offset = "0x44559A0", VA = "0x44559A0")]
+		[Address(RVA = "0x4793100", Offset = "0x4793100", VA = "0x4793100")]
 		get
 		{
 			return default(bool);
@@ -181,7 +188,7 @@ internal struct XPathNode
 	public bool HasCollapsedText
 	{
 		[Token(Token = "0x6001CBE")]
-		[Address(RVA = "0x4453B30", Offset = "0x4453B30", VA = "0x4453B30")]
+		[Address(RVA = "0x4791290", Offset = "0x4791290", VA = "0x4791290")]
 		get
 		{
 			return default(bool);
@@ -192,7 +199,7 @@ internal struct XPathNode
 	public bool HasAttribute
 	{
 		[Token(Token = "0x6001CBF")]
-		[Address(RVA = "0x44559B0", Offset = "0x44559B0", VA = "0x44559B0")]
+		[Address(RVA = "0x4793110", Offset = "0x4793110", VA = "0x4793110")]
 		get
 		{
 			return default(bool);
@@ -203,7 +210,7 @@ internal struct XPathNode
 	public bool HasContentChild
 	{
 		[Token(Token = "0x6001CC0")]
-		[Address(RVA = "0x44559C0", Offset = "0x44559C0", VA = "0x44559C0")]
+		[Address(RVA = "0x4793120", Offset = "0x4793120", VA = "0x4793120")]
 		get
 		{
 			return default(bool);
@@ -214,7 +221,7 @@ internal struct XPathNode
 	public bool HasElementChild
 	{
 		[Token(Token = "0x6001CC1")]
-		[Address(RVA = "0x44559D0", Offset = "0x44559D0", VA = "0x44559D0")]
+		[Address(RVA = "0x4793130", Offset = "0x4793130", VA = "0x4793130")]
 		get
 		{
 			return default(bool);
@@ -225,7 +232,7 @@ internal struct XPathNode
 	public bool IsAttrNmsp
 	{
 		[Token(Token = "0x6001CC2")]
-		[Address(RVA = "0x44559E0", Offset = "0x44559E0", VA = "0x44559E0")]
+		[Address(RVA = "0x4793140", Offset = "0x4793140", VA = "0x4793140")]
 		get
 		{
 			return default(bool);
@@ -236,7 +243,7 @@ internal struct XPathNode
 	public bool IsText
 	{
 		[Token(Token = "0x6001CC3")]
-		[Address(RVA = "0x44559F0", Offset = "0x44559F0", VA = "0x44559F0")]
+		[Address(RVA = "0x4793150", Offset = "0x4793150", VA = "0x4793150")]
 		get
 		{
 			return default(bool);
@@ -247,7 +254,7 @@ internal struct XPathNode
 	public bool HasNamespaceDecls
 	{
 		[Token(Token = "0x6001CC4")]
-		[Address(RVA = "0x4455A50", Offset = "0x4455A50", VA = "0x4455A50")]
+		[Address(RVA = "0x47931B0", Offset = "0x47931B0", VA = "0x47931B0")]
 		get
 		{
 			return default(bool);
@@ -258,7 +265,7 @@ internal struct XPathNode
 	public string Value
 	{
 		[Token(Token = "0x6001CC5")]
-		[Address(RVA = "0x4455A60", Offset = "0x4455A60", VA = "0x4455A60")]
+		[Address(RVA = "0x47931C0", Offset = "0x47931C0", VA = "0x47931C0")]
 		get
 		{
 			return null;
@@ -266,42 +273,42 @@ internal struct XPathNode
 	}
 
 	[Token(Token = "0x6001CB6")]
-	[Address(RVA = "0x4453FC0", Offset = "0x4453FC0", VA = "0x4453FC0")]
+	[Address(RVA = "0x4791720", Offset = "0x4791720", VA = "0x4791720")]
 	public int GetRoot(out XPathNode[] pageNode)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001CB7")]
-	[Address(RVA = "0x4452F70", Offset = "0x4452F70", VA = "0x4452F70")]
+	[Address(RVA = "0x47906D0", Offset = "0x47906D0", VA = "0x47906D0")]
 	public int GetParent(out XPathNode[] pageNode)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001CB8")]
-	[Address(RVA = "0x4453710", Offset = "0x4453710", VA = "0x4453710")]
+	[Address(RVA = "0x4790E70", Offset = "0x4790E70", VA = "0x4790E70")]
 	public int GetSibling(out XPathNode[] pageNode)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001CB9")]
-	[Address(RVA = "0x4455940", Offset = "0x4455940", VA = "0x4455940")]
+	[Address(RVA = "0x47930A0", Offset = "0x47930A0", VA = "0x47930A0")]
 	public int GetSimilarElement(out XPathNode[] pageNode)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001CBA")]
-	[Address(RVA = "0x4455970", Offset = "0x4455970", VA = "0x4455970")]
+	[Address(RVA = "0x47930D0", Offset = "0x47930D0", VA = "0x47930D0")]
 	public bool NameMatch(string localName, string namespaceName)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001CBB")]
-	[Address(RVA = "0x44558E0", Offset = "0x44558E0", VA = "0x44558E0")]
+	[Address(RVA = "0x4793040", Offset = "0x4793040", VA = "0x4793040")]
 	public bool ElementMatch(string localName, string namespaceName)
 	{
 		return default(bool);

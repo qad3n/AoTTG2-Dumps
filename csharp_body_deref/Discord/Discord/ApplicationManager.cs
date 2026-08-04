@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Discord.ApplicationManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Plugins/DiscordGameSDK/Core.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -90,7 +97,7 @@ public class ApplicationManager
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x600011E")]
-		[Address(RVA = "0x2334460", Offset = "0x2334460", VA = "0x2334460")]
+		[Address(RVA = "0x2334520", Offset = "0x2334520", VA = "0x2334520")]
 		get
 		{
 			return default(FFIMethods);
@@ -98,66 +105,66 @@ public class ApplicationManager
 	}
 
 	[Token(Token = "0x600011F")]
-	[Address(RVA = "0x2331F50", Offset = "0x2331F50", VA = "0x2331F50")]
+	[Address(RVA = "0x2332010", Offset = "0x2332010", VA = "0x2332010")]
 	internal ApplicationManager(IntPtr ptr, IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x6000120")]
-	[Address(RVA = "0x2334570", Offset = "0x2334570", VA = "0x2334570")]
+	[Address(RVA = "0x2334630", Offset = "0x2334630", VA = "0x2334630")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x6000121")]
-	[Address(RVA = "0x23341A0", Offset = "0x23341A0", VA = "0x23341A0")]
+	[Address(RVA = "0x2334260", Offset = "0x2334260", VA = "0x2334260")]
 	[MonoPInvokeCallback]
 	private static void ValidateOrExitCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000122")]
-	[Address(RVA = "0x23345D0", Offset = "0x23345D0", VA = "0x23345D0")]
+	[Address(RVA = "0x2334690", Offset = "0x2334690", VA = "0x2334690")]
 	public void ValidateOrExit(ValidateOrExitHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000123")]
-	[Address(RVA = "0x23347B0", Offset = "0x23347B0", VA = "0x23347B0")]
+	[Address(RVA = "0x2334870", Offset = "0x2334870", VA = "0x2334870")]
 	public string GetCurrentLocale()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000124")]
-	[Address(RVA = "0x2334850", Offset = "0x2334850", VA = "0x2334850")]
+	[Address(RVA = "0x2334910", Offset = "0x2334910", VA = "0x2334910")]
 	public string GetCurrentBranch()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000125")]
-	[Address(RVA = "0x2334280", Offset = "0x2334280", VA = "0x2334280")]
+	[Address(RVA = "0x2334340", Offset = "0x2334340", VA = "0x2334340")]
 	[MonoPInvokeCallback]
 	private static void GetOAuth2TokenCallbackImpl(IntPtr ptr, Result result, ref OAuth2Token oauth2Token)
 	{
 	}
 
 	[Token(Token = "0x6000126")]
-	[Address(RVA = "0x23348F0", Offset = "0x23348F0", VA = "0x23348F0")]
+	[Address(RVA = "0x23349B0", Offset = "0x23349B0", VA = "0x23349B0")]
 	public void GetOAuth2Token(GetOAuth2TokenHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000127")]
-	[Address(RVA = "0x2334370", Offset = "0x2334370", VA = "0x2334370")]
+	[Address(RVA = "0x2334430", Offset = "0x2334430", VA = "0x2334430")]
 	[MonoPInvokeCallback]
 	private static void GetTicketCallbackImpl(IntPtr ptr, Result result, ref string data)
 	{
 	}
 
 	[Token(Token = "0x6000128")]
-	[Address(RVA = "0x2334AD0", Offset = "0x2334AD0", VA = "0x2334AD0")]
+	[Address(RVA = "0x2334B90", Offset = "0x2334B90", VA = "0x2334B90")]
 	public void GetTicket(GetTicketHandler callback)
 	{
 	}

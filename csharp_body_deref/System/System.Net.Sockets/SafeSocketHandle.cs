@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.Sockets.SafeSocketHandle
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
@@ -26,26 +33,26 @@ internal sealed class SafeSocketHandle : SafeHandleMinusOneIsInvalid
 	private static bool THROW_ON_ABORT_RETRIES;
 
 	[Token(Token = "0x6000CDB")]
-	[Address(RVA = "0x4693770", Offset = "0x4693770", VA = "0x4693770")]
+	[Address(RVA = "0x49B8870", Offset = "0x49B8870", VA = "0x49B8870")]
 	public SafeSocketHandle(IntPtr preexistingHandle, bool ownsHandle)
 	{
 	}
 
 	[Token(Token = "0x6000CDC")]
-	[Address(RVA = "0x4693840", Offset = "0x4693840", VA = "0x4693840", Slot = "7")]
+	[Address(RVA = "0x49B8940", Offset = "0x49B8940", VA = "0x49B8940", Slot = "7")]
 	protected override bool ReleaseHandle()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000CDD")]
-	[Address(RVA = "0x4693EC0", Offset = "0x4693EC0", VA = "0x4693EC0")]
+	[Address(RVA = "0x49B8FC0", Offset = "0x49B8FC0", VA = "0x49B8FC0")]
 	public void RegisterForBlockingSyscall()
 	{
 	}
 
 	[Token(Token = "0x6000CDE")]
-	[Address(RVA = "0x4694010", Offset = "0x4694010", VA = "0x4694010")]
+	[Address(RVA = "0x49B9110", Offset = "0x49B9110", VA = "0x49B9110")]
 	public void UnRegisterForBlockingSyscall()
 	{
 	}

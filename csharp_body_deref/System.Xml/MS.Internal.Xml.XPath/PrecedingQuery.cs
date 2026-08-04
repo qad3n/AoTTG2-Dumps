@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MS.Internal.Xml.XPath.PrecedingQuery
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.XPath;
 using Il2CppDummyDll;
 
@@ -18,7 +25,7 @@ internal sealed class PrecedingQuery : BaseAxisQuery
 	public override QueryProps Properties
 	{
 		[Token(Token = "0x6001B9B")]
-		[Address(RVA = "0x4447160", Offset = "0x4447160", VA = "0x4447160", Slot = "17")]
+		[Address(RVA = "0x47848C0", Offset = "0x47848C0", VA = "0x47848C0", Slot = "17")]
 		get
 		{
 			return default(QueryProps);
@@ -26,32 +33,32 @@ internal sealed class PrecedingQuery : BaseAxisQuery
 	}
 
 	[Token(Token = "0x6001B96")]
-	[Address(RVA = "0x4446C40", Offset = "0x4446C40", VA = "0x4446C40")]
+	[Address(RVA = "0x47843A0", Offset = "0x47843A0", VA = "0x47843A0")]
 	public PrecedingQuery(Query qyInput, string name, string prefix, XPathNodeType typeTest)
 	{
 	}
 
 	[Token(Token = "0x6001B97")]
-	[Address(RVA = "0x4446CE0", Offset = "0x4446CE0", VA = "0x4446CE0")]
+	[Address(RVA = "0x4784440", Offset = "0x4784440", VA = "0x4784440")]
 	private PrecedingQuery(PrecedingQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001B98")]
-	[Address(RVA = "0x4446D70", Offset = "0x4446D70", VA = "0x4446D70", Slot = "12")]
+	[Address(RVA = "0x47844D0", Offset = "0x47844D0", VA = "0x47844D0", Slot = "12")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001B99")]
-	[Address(RVA = "0x4446E10", Offset = "0x4446E10", VA = "0x4446E10", Slot = "15")]
+	[Address(RVA = "0x4784570", Offset = "0x4784570", VA = "0x4784570", Slot = "15")]
 	public override XPathNavigator Advance()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001B9A")]
-	[Address(RVA = "0x4447110", Offset = "0x4447110", VA = "0x4447110", Slot = "6")]
+	[Address(RVA = "0x4784870", Offset = "0x4784870", VA = "0x4784870", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

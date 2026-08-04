@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UIR.BestFitAllocator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -11,7 +18,7 @@ internal class BestFitAllocator
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6001E62")]
-		[Address(RVA = "0x4C8A6D0", Offset = "0x4C8A6D0", VA = "0x4C8A6D0")]
+		[Address(RVA = "0x4FB2000", Offset = "0x4FB2000", VA = "0x4FB2000")]
 		private static Block CreateBlock()
 		{
 			return null;
@@ -19,13 +26,13 @@ internal class BestFitAllocator
 
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6001E63")]
-		[Address(RVA = "0x4C8A780", Offset = "0x4C8A780", VA = "0x4C8A780")]
+		[Address(RVA = "0x4FB20B0", Offset = "0x4FB20B0", VA = "0x4FB20B0")]
 		private static void ResetBlock(Block block)
 		{
 		}
 
 		[Token(Token = "0x6001E64")]
-		[Address(RVA = "0x4C89E10", Offset = "0x4C89E10", VA = "0x4C89E10")]
+		[Address(RVA = "0x4FB1740", Offset = "0x4FB1740", VA = "0x4FB1740")]
 		public BlockPool()
 		{
 		}
@@ -66,7 +73,7 @@ internal class BestFitAllocator
 		public uint size
 		{
 			[Token(Token = "0x6001E65")]
-			[Address(RVA = "0x4C8A1A0", Offset = "0x4C8A1A0", VA = "0x4C8A1A0")]
+			[Address(RVA = "0x4FB1AD0", Offset = "0x4FB1AD0", VA = "0x4FB1AD0")]
 			get
 			{
 				return default(uint);
@@ -74,7 +81,7 @@ internal class BestFitAllocator
 		}
 
 		[Token(Token = "0x6001E66")]
-		[Address(RVA = "0x4C8A740", Offset = "0x4C8A740", VA = "0x4C8A740")]
+		[Address(RVA = "0x4FB2070", Offset = "0x4FB2070", VA = "0x4FB2070")]
 		public Block()
 		{
 		}
@@ -100,7 +107,7 @@ internal class BestFitAllocator
 	public uint totalSize
 	{
 		[Token(Token = "0x6001E5B")]
-		[Address(RVA = "0x4C89EE0", Offset = "0x4C89EE0", VA = "0x4C89EE0")]
+		[Address(RVA = "0x4FB1810", Offset = "0x4FB1810", VA = "0x4FB1810")]
 		[CompilerGenerated]
 		get
 		{
@@ -112,7 +119,7 @@ internal class BestFitAllocator
 	public uint highWatermark
 	{
 		[Token(Token = "0x6001E5C")]
-		[Address(RVA = "0x4C89EF0", Offset = "0x4C89EF0", VA = "0x4C89EF0")]
+		[Address(RVA = "0x4FB1820", Offset = "0x4FB1820", VA = "0x4FB1820")]
 		get
 		{
 			return default(uint);
@@ -120,40 +127,40 @@ internal class BestFitAllocator
 	}
 
 	[Token(Token = "0x6001E5A")]
-	[Address(RVA = "0x4C89D50", Offset = "0x4C89D50", VA = "0x4C89D50")]
+	[Address(RVA = "0x4FB1680", Offset = "0x4FB1680", VA = "0x4FB1680")]
 	public BestFitAllocator(uint size)
 	{
 	}
 
 	[Token(Token = "0x6001E5D")]
-	[Address(RVA = "0x4C89F00", Offset = "0x4C89F00", VA = "0x4C89F00")]
+	[Address(RVA = "0x4FB1830", Offset = "0x4FB1830", VA = "0x4FB1830")]
 	public Alloc Allocate(uint size)
 	{
 		return default(Alloc);
 	}
 
 	[Token(Token = "0x6001E5E")]
-	[Address(RVA = "0x4C8A320", Offset = "0x4C8A320", VA = "0x4C8A320")]
+	[Address(RVA = "0x4FB1C50", Offset = "0x4FB1C50", VA = "0x4FB1C50")]
 	public void Free(Alloc alloc)
 	{
 	}
 
 	[Token(Token = "0x6001E5F")]
-	[Address(RVA = "0x4C8A5A0", Offset = "0x4C8A5A0", VA = "0x4C8A5A0")]
+	[Address(RVA = "0x4FB1ED0", Offset = "0x4FB1ED0", VA = "0x4FB1ED0")]
 	private Block CoalesceBlockWithPrevious(Block block)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001E60")]
-	[Address(RVA = "0x4C8A150", Offset = "0x4C8A150", VA = "0x4C8A150")]
+	[Address(RVA = "0x4FB1A80", Offset = "0x4FB1A80", VA = "0x4FB1A80")]
 	private Block BestFitFindAvailableBlock(uint size)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001E61")]
-	[Address(RVA = "0x4C8A1B0", Offset = "0x4C8A1B0", VA = "0x4C8A1B0")]
+	[Address(RVA = "0x4FB1AE0", Offset = "0x4FB1AE0", VA = "0x4FB1AE0")]
 	private void SplitBlock(Block block, uint size)
 	{
 	}

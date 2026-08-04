@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Utility.BaseCSVObject
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Utility/BaseCSVObject.c
+// Prior real C# source (older reference): Assets/Scripts/Utility/CSV/BaseCSVObject.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Reflection;
@@ -5,126 +12,126 @@ using Il2CppDummyDll;
 
 namespace Utility;
 
-[Token(Token = "0x20006D2")]
+[Token(Token = "0x200072E")]
 public class BaseCSVObject
 {
-	[Token(Token = "0x40020F5")]
+	[Token(Token = "0x4002290")]
 	[FieldOffset(Offset = "0x0")]
 	protected static Dictionary<Type, List<FieldInfo>> _fields;
 
-	[Token(Token = "0x17000D30")]
+	[Token(Token = "0x17000DB5")]
 	public virtual char Delimiter
 	{
-		[Token(Token = "0x60043DE")]
-		[Address(RVA = "0x4051AB0", Offset = "0x4051AB0", VA = "0x4051AB0", Slot = "4")]
+		[Token(Token = "0x600469D")]
+		[Address(RVA = "0x438CC20", Offset = "0x438CC20", VA = "0x438CC20", Slot = "4")]
 		get
 		{
 			return default(char);
 		}
 	}
 
-	[Token(Token = "0x17000D31")]
+	[Token(Token = "0x17000DB6")]
 	protected virtual char ParamDelimiter
 	{
-		[Token(Token = "0x60043DF")]
-		[Address(RVA = "0x4051AC0", Offset = "0x4051AC0", VA = "0x4051AC0", Slot = "5")]
+		[Token(Token = "0x600469E")]
+		[Address(RVA = "0x438CC30", Offset = "0x438CC30", VA = "0x438CC30", Slot = "5")]
 		get
 		{
 			return default(char);
 		}
 	}
 
-	[Token(Token = "0x17000D32")]
+	[Token(Token = "0x17000DB7")]
 	protected virtual char StructDelimiter
 	{
-		[Token(Token = "0x60043E0")]
-		[Address(RVA = "0x4051AD0", Offset = "0x4051AD0", VA = "0x4051AD0", Slot = "6")]
+		[Token(Token = "0x600469F")]
+		[Address(RVA = "0x438CC40", Offset = "0x438CC40", VA = "0x438CC40", Slot = "6")]
 		get
 		{
 			return default(char);
 		}
 	}
 
-	[Token(Token = "0x17000D33")]
+	[Token(Token = "0x17000DB8")]
 	protected virtual bool NamedParams
 	{
-		[Token(Token = "0x60043E1")]
-		[Address(RVA = "0x4051AE0", Offset = "0x4051AE0", VA = "0x4051AE0", Slot = "7")]
+		[Token(Token = "0x60046A0")]
+		[Address(RVA = "0x438CC50", Offset = "0x438CC50", VA = "0x438CC50", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60043E2")]
-	[Address(RVA = "0x4051740", Offset = "0x4051740", VA = "0x4051740", Slot = "8")]
+	[Token(Token = "0x60046A1")]
+	[Address(RVA = "0x438C8B0", Offset = "0x438C8B0", VA = "0x438C8B0", Slot = "8")]
 	public virtual string Serialize()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60043E3")]
-	[Address(RVA = "0x4051AF0", Offset = "0x4051AF0", VA = "0x4051AF0", Slot = "9")]
+	[Token(Token = "0x60046A2")]
+	[Address(RVA = "0x438CC60", Offset = "0x438CC60", VA = "0x438CC60", Slot = "9")]
 	public virtual void Deserialize(string csv)
 	{
 	}
 
-	[Token(Token = "0x60043E4")]
-	[Address(RVA = "0x4051FC0", Offset = "0x4051FC0", VA = "0x4051FC0", Slot = "10")]
+	[Token(Token = "0x60046A3")]
+	[Address(RVA = "0x438D130", Offset = "0x438D130", VA = "0x438D130", Slot = "10")]
 	public virtual void Copy(BaseCSVObject other)
 	{
 	}
 
-	[Token(Token = "0x60043E5")]
-	[Address(RVA = "0x4052000", Offset = "0x4052000", VA = "0x4052000", Slot = "11")]
+	[Token(Token = "0x60046A4")]
+	[Address(RVA = "0x438D170", Offset = "0x438D170", VA = "0x438D170", Slot = "11")]
 	protected virtual List<FieldInfo> GetFields()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60043E6")]
-	[Address(RVA = "0x4052260", Offset = "0x4052260", VA = "0x4052260", Slot = "12")]
+	[Token(Token = "0x60046A5")]
+	[Address(RVA = "0x438D3D0", Offset = "0x438D3D0", VA = "0x438D3D0", Slot = "12")]
 	protected virtual FieldInfo FindField(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60043E7")]
-	[Address(RVA = "0x4052460", Offset = "0x4052460", VA = "0x4052460", Slot = "13")]
+	[Token(Token = "0x60046A6")]
+	[Address(RVA = "0x438D5D0", Offset = "0x438D5D0", VA = "0x438D5D0", Slot = "13")]
 	protected virtual bool IsList(FieldInfo field)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60043E8")]
-	[Address(RVA = "0x4052540", Offset = "0x4052540", VA = "0x4052540", Slot = "14")]
+	[Token(Token = "0x60046A7")]
+	[Address(RVA = "0x438D6B0", Offset = "0x438D6B0", VA = "0x438D6B0", Slot = "14")]
 	protected virtual string SerializeField(FieldInfo info, object instance)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60043E9")]
-	[Address(RVA = "0x4052D50", Offset = "0x4052D50", VA = "0x4052D50", Slot = "15")]
+	[Token(Token = "0x60046A8")]
+	[Address(RVA = "0x438DEC0", Offset = "0x438DEC0", VA = "0x438DEC0", Slot = "15")]
 	protected virtual void DeserializeField(FieldInfo info, object instance, string value)
 	{
 	}
 
-	[Token(Token = "0x60043EA")]
-	[Address(RVA = "0x4052DC0", Offset = "0x4052DC0", VA = "0x4052DC0", Slot = "16")]
+	[Token(Token = "0x60046A9")]
+	[Address(RVA = "0x438DF30", Offset = "0x438DF30", VA = "0x438DF30", Slot = "16")]
 	protected virtual string SerializeValue(Type t, object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60043EB")]
-	[Address(RVA = "0x40534C0", Offset = "0x40534C0", VA = "0x40534C0", Slot = "17")]
+	[Token(Token = "0x60046AA")]
+	[Address(RVA = "0x438E630", Offset = "0x438E630", VA = "0x438E630", Slot = "17")]
 	protected virtual object DeserializeValue(Type t, string value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60043EC")]
-	[Address(RVA = "0x4051AA0", Offset = "0x4051AA0", VA = "0x4051AA0")]
+	[Token(Token = "0x60046AB")]
+	[Address(RVA = "0x438CC10", Offset = "0x438CC10", VA = "0x438CC10")]
 	public BaseCSVObject()
 	{
 	}

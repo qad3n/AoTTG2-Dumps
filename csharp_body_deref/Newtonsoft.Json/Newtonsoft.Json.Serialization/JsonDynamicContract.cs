@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Serialization.JsonDynamicContract
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Dynamic;
 using System.Runtime.CompilerServices;
@@ -21,7 +28,7 @@ public class JsonDynamicContract : JsonContainerContract
 	public JsonPropertyCollection Properties
 	{
 		[Token(Token = "0x6000826")]
-		[Address(RVA = "0x3AE3700", Offset = "0x3AE3700", VA = "0x3AE3700")]
+		[Address(RVA = "0x3DD9050", Offset = "0x3DD9050", VA = "0x3DD9050")]
 		[CompilerGenerated]
 		get
 		{
@@ -33,14 +40,14 @@ public class JsonDynamicContract : JsonContainerContract
 	public Func<string, string>? PropertyNameResolver
 	{
 		[Token(Token = "0x6000827")]
-		[Address(RVA = "0x3AE3710", Offset = "0x3AE3710", VA = "0x3AE3710")]
+		[Address(RVA = "0x3DD9060", Offset = "0x3DD9060", VA = "0x3DD9060")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000828")]
-		[Address(RVA = "0x3AE3720", Offset = "0x3AE3720", VA = "0x3AE3720")]
+		[Address(RVA = "0x3DD9070", Offset = "0x3DD9070", VA = "0x3DD9070")]
 		[CompilerGenerated]
 		set
 		{
@@ -48,34 +55,34 @@ public class JsonDynamicContract : JsonContainerContract
 	}
 
 	[Token(Token = "0x6000829")]
-	[Address(RVA = "0x3AE3740", Offset = "0x3AE3740", VA = "0x3AE3740")]
+	[Address(RVA = "0x3DD9090", Offset = "0x3DD9090", VA = "0x3DD9090")]
 	private static CallSite<Func<CallSite, object, object>> CreateCallSiteGetter(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600082A")]
-	[Address(RVA = "0x3AE3840", Offset = "0x3AE3840", VA = "0x3AE3840")]
+	[Address(RVA = "0x3DD9190", Offset = "0x3DD9190", VA = "0x3DD9190")]
 	private static CallSite<Func<CallSite, object, object, object>> CreateCallSiteSetter(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600082B")]
-	[Address(RVA = "0x3ADD0F0", Offset = "0x3ADD0F0", VA = "0x3ADD0F0")]
+	[Address(RVA = "0x3DD2A40", Offset = "0x3DD2A40", VA = "0x3DD2A40")]
 	public JsonDynamicContract(Type underlyingType)
 	{
 	}
 
 	[Token(Token = "0x600082C")]
-	[Address(RVA = "0x3AE3940", Offset = "0x3AE3940", VA = "0x3AE3940")]
+	[Address(RVA = "0x3DD9290", Offset = "0x3DD9290", VA = "0x3DD9290")]
 	internal bool TryGetMember(IDynamicMetaObjectProvider dynamicProvider, string name, out object? value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600082D")]
-	[Address(RVA = "0x3AE3A90", Offset = "0x3AE3A90", VA = "0x3AE3A90")]
+	[Address(RVA = "0x3DD93E0", Offset = "0x3DD93E0", VA = "0x3DD93E0")]
 	internal bool TrySetMember(IDynamicMetaObjectProvider dynamicProvider, string name, object? value)
 	{
 		return default(bool);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.Unity.Recorder
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/Code/Recorder.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -202,13 +209,13 @@ public class Recorder : VoiceComponent
 	public bool TransmitEnabled
 	{
 		[Token(Token = "0x6000021")]
-		[Address(RVA = "0x3C4CC80", Offset = "0x3C4CC80", VA = "0x3C4CC80")]
+		[Address(RVA = "0x3F3F230", Offset = "0x3F3F230", VA = "0x3F3F230")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000022")]
-		[Address(RVA = "0x3C4CC90", Offset = "0x3C4CC90", VA = "0x3C4CC90")]
+		[Address(RVA = "0x3F3F240", Offset = "0x3F3F240", VA = "0x3F3F240")]
 		set
 		{
 		}
@@ -218,13 +225,13 @@ public class Recorder : VoiceComponent
 	public bool Encrypt
 	{
 		[Token(Token = "0x6000023")]
-		[Address(RVA = "0x3C4CD30", Offset = "0x3C4CD30", VA = "0x3C4CD30")]
+		[Address(RVA = "0x3F3F2E0", Offset = "0x3F3F2E0", VA = "0x3F3F2E0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000024")]
-		[Address(RVA = "0x3C4CD50", Offset = "0x3C4CD50", VA = "0x3C4CD50")]
+		[Address(RVA = "0x3F3F300", Offset = "0x3F3F300", VA = "0x3F3F300")]
 		set
 		{
 		}
@@ -234,13 +241,13 @@ public class Recorder : VoiceComponent
 	public bool DebugEchoMode
 	{
 		[Token(Token = "0x6000025")]
-		[Address(RVA = "0x3C4CD70", Offset = "0x3C4CD70", VA = "0x3C4CD70")]
+		[Address(RVA = "0x3F3F320", Offset = "0x3F3F320", VA = "0x3F3F320")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000026")]
-		[Address(RVA = "0x3C4CD90", Offset = "0x3C4CD90", VA = "0x3C4CD90")]
+		[Address(RVA = "0x3F3F340", Offset = "0x3F3F340", VA = "0x3F3F340")]
 		set
 		{
 		}
@@ -250,13 +257,13 @@ public class Recorder : VoiceComponent
 	public bool ReliableMode
 	{
 		[Token(Token = "0x6000027")]
-		[Address(RVA = "0x3C4CDC0", Offset = "0x3C4CDC0", VA = "0x3C4CDC0")]
+		[Address(RVA = "0x3F3F370", Offset = "0x3F3F370", VA = "0x3F3F370")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000028")]
-		[Address(RVA = "0x3C4CDE0", Offset = "0x3C4CDE0", VA = "0x3C4CDE0")]
+		[Address(RVA = "0x3F3F390", Offset = "0x3F3F390", VA = "0x3F3F390")]
 		set
 		{
 		}
@@ -266,13 +273,13 @@ public class Recorder : VoiceComponent
 	public bool VoiceDetection
 	{
 		[Token(Token = "0x6000029")]
-		[Address(RVA = "0x3C4CE00", Offset = "0x3C4CE00", VA = "0x3C4CE00")]
+		[Address(RVA = "0x3F3F3B0", Offset = "0x3F3F3B0", VA = "0x3F3F3B0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600002A")]
-		[Address(RVA = "0x3C4CE10", Offset = "0x3C4CE10", VA = "0x3C4CE10")]
+		[Address(RVA = "0x3F3F3C0", Offset = "0x3F3F3C0", VA = "0x3F3F3C0")]
 		set
 		{
 		}
@@ -282,13 +289,13 @@ public class Recorder : VoiceComponent
 	public float VoiceDetectionThreshold
 	{
 		[Token(Token = "0x600002B")]
-		[Address(RVA = "0x3C4CFE0", Offset = "0x3C4CFE0", VA = "0x3C4CFE0")]
+		[Address(RVA = "0x3F3F590", Offset = "0x3F3F590", VA = "0x3F3F590")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600002C")]
-		[Address(RVA = "0x3C4CFF0", Offset = "0x3C4CFF0", VA = "0x3C4CFF0")]
+		[Address(RVA = "0x3F3F5A0", Offset = "0x3F3F5A0", VA = "0x3F3F5A0")]
 		set
 		{
 		}
@@ -298,13 +305,13 @@ public class Recorder : VoiceComponent
 	public int VoiceDetectionDelayMs
 	{
 		[Token(Token = "0x600002D")]
-		[Address(RVA = "0x3C4D260", Offset = "0x3C4D260", VA = "0x3C4D260")]
+		[Address(RVA = "0x3F3F810", Offset = "0x3F3F810", VA = "0x3F3F810")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600002E")]
-		[Address(RVA = "0x3C4D270", Offset = "0x3C4D270", VA = "0x3C4D270")]
+		[Address(RVA = "0x3F3F820", Offset = "0x3F3F820", VA = "0x3F3F820")]
 		set
 		{
 		}
@@ -314,13 +321,13 @@ public class Recorder : VoiceComponent
 	public object UserData
 	{
 		[Token(Token = "0x600002F")]
-		[Address(RVA = "0x3C4D340", Offset = "0x3C4D340", VA = "0x3C4D340")]
+		[Address(RVA = "0x3F3F8F0", Offset = "0x3F3F8F0", VA = "0x3F3F8F0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000030")]
-		[Address(RVA = "0x3C4D350", Offset = "0x3C4D350", VA = "0x3C4D350")]
+		[Address(RVA = "0x3F3F900", Offset = "0x3F3F900", VA = "0x3F3F900")]
 		set
 		{
 		}
@@ -330,13 +337,13 @@ public class Recorder : VoiceComponent
 	public Func<IAudioDesc> InputFactory
 	{
 		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x3C4D540", Offset = "0x3C4D540", VA = "0x3C4D540")]
+		[Address(RVA = "0x3F3FAF0", Offset = "0x3F3FAF0", VA = "0x3F3FAF0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000032")]
-		[Address(RVA = "0x3C4D550", Offset = "0x3C4D550", VA = "0x3C4D550")]
+		[Address(RVA = "0x3F3FB00", Offset = "0x3F3FB00", VA = "0x3F3FB00")]
 		set
 		{
 		}
@@ -346,7 +353,7 @@ public class Recorder : VoiceComponent
 	public AudioUtil.IVoiceDetector VoiceDetector
 	{
 		[Token(Token = "0x6000033")]
-		[Address(RVA = "0x3C4CEE0", Offset = "0x3C4CEE0", VA = "0x3C4CEE0")]
+		[Address(RVA = "0x3F3F490", Offset = "0x3F3F490", VA = "0x3F3F490")]
 		get
 		{
 			return null;
@@ -357,13 +364,13 @@ public class Recorder : VoiceComponent
 	public byte InterestGroup
 	{
 		[Token(Token = "0x6000034")]
-		[Address(RVA = "0x3C4D770", Offset = "0x3C4D770", VA = "0x3C4D770")]
+		[Address(RVA = "0x3F3FD20", Offset = "0x3F3FD20", VA = "0x3F3FD20")]
 		get
 		{
 			return default(byte);
 		}
 		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x3C4D790", Offset = "0x3C4D790", VA = "0x3C4D790")]
+		[Address(RVA = "0x3F3FD40", Offset = "0x3F3FD40", VA = "0x3F3FD40")]
 		set
 		{
 		}
@@ -373,13 +380,13 @@ public class Recorder : VoiceComponent
 	public int[] TargetPlayers
 	{
 		[Token(Token = "0x6000036")]
-		[Address(RVA = "0x3C4D7B0", Offset = "0x3C4D7B0", VA = "0x3C4D7B0")]
+		[Address(RVA = "0x3F3FD60", Offset = "0x3F3FD60", VA = "0x3F3FD60")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000037")]
-		[Address(RVA = "0x3C4D7D0", Offset = "0x3C4D7D0", VA = "0x3C4D7D0")]
+		[Address(RVA = "0x3F3FD80", Offset = "0x3F3FD80", VA = "0x3F3FD80")]
 		set
 		{
 		}
@@ -389,7 +396,7 @@ public class Recorder : VoiceComponent
 	public bool IsCurrentlyTransmitting
 	{
 		[Token(Token = "0x6000038")]
-		[Address(RVA = "0x3C4D810", Offset = "0x3C4D810", VA = "0x3C4D810")]
+		[Address(RVA = "0x3F3FDC0", Offset = "0x3F3FDC0", VA = "0x3F3FDC0")]
 		get
 		{
 			return default(bool);
@@ -400,7 +407,7 @@ public class Recorder : VoiceComponent
 	public AudioUtil.ILevelMeter LevelMeter
 	{
 		[Token(Token = "0x6000039")]
-		[Address(RVA = "0x3C4D840", Offset = "0x3C4D840", VA = "0x3C4D840")]
+		[Address(RVA = "0x3F3FDF0", Offset = "0x3F3FDF0", VA = "0x3F3FDF0")]
 		get
 		{
 			return null;
@@ -411,7 +418,7 @@ public class Recorder : VoiceComponent
 	public bool VoiceDetectorCalibrating
 	{
 		[Token(Token = "0x600003A")]
-		[Address(RVA = "0x3C4D950", Offset = "0x3C4D950", VA = "0x3C4D950")]
+		[Address(RVA = "0x3F3FF00", Offset = "0x3F3FF00", VA = "0x3F3FF00")]
 		get
 		{
 			return default(bool);
@@ -422,7 +429,7 @@ public class Recorder : VoiceComponent
 	protected ILocalVoiceAudio voiceAudio
 	{
 		[Token(Token = "0x600003B")]
-		[Address(RVA = "0x3C4D730", Offset = "0x3C4D730", VA = "0x3C4D730")]
+		[Address(RVA = "0x3F3FCE0", Offset = "0x3F3FCE0", VA = "0x3F3FCE0")]
 		get
 		{
 			return null;
@@ -433,13 +440,13 @@ public class Recorder : VoiceComponent
 	public InputSourceType SourceType
 	{
 		[Token(Token = "0x600003C")]
-		[Address(RVA = "0x3C4DA60", Offset = "0x3C4DA60", VA = "0x3C4DA60")]
+		[Address(RVA = "0x3F40010", Offset = "0x3F40010", VA = "0x3F40010")]
 		get
 		{
 			return default(InputSourceType);
 		}
 		[Token(Token = "0x600003D")]
-		[Address(RVA = "0x3C4DA70", Offset = "0x3C4DA70", VA = "0x3C4DA70")]
+		[Address(RVA = "0x3F40020", Offset = "0x3F40020", VA = "0x3F40020")]
 		set
 		{
 		}
@@ -449,13 +456,13 @@ public class Recorder : VoiceComponent
 	public MicType MicrophoneType
 	{
 		[Token(Token = "0x600003E")]
-		[Address(RVA = "0x3C4DC30", Offset = "0x3C4DC30", VA = "0x3C4DC30")]
+		[Address(RVA = "0x3F401E0", Offset = "0x3F401E0", VA = "0x3F401E0")]
 		get
 		{
 			return default(MicType);
 		}
 		[Token(Token = "0x600003F")]
-		[Address(RVA = "0x3C4DC80", Offset = "0x3C4DC80", VA = "0x3C4DC80")]
+		[Address(RVA = "0x3F40230", Offset = "0x3F40230", VA = "0x3F40230")]
 		set
 		{
 		}
@@ -465,13 +472,13 @@ public class Recorder : VoiceComponent
 	public AudioClip AudioClip
 	{
 		[Token(Token = "0x6000040")]
-		[Address(RVA = "0x3C4DE40", Offset = "0x3C4DE40", VA = "0x3C4DE40")]
+		[Address(RVA = "0x3F403F0", Offset = "0x3F403F0", VA = "0x3F403F0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000041")]
-		[Address(RVA = "0x3C4DE50", Offset = "0x3C4DE50", VA = "0x3C4DE50")]
+		[Address(RVA = "0x3F40400", Offset = "0x3F40400", VA = "0x3F40400")]
 		set
 		{
 		}
@@ -481,13 +488,13 @@ public class Recorder : VoiceComponent
 	public bool LoopAudioClip
 	{
 		[Token(Token = "0x6000042")]
-		[Address(RVA = "0x3C4E070", Offset = "0x3C4E070", VA = "0x3C4E070")]
+		[Address(RVA = "0x3F40620", Offset = "0x3F40620", VA = "0x3F40620")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000043")]
-		[Address(RVA = "0x3C4E080", Offset = "0x3C4E080", VA = "0x3C4E080")]
+		[Address(RVA = "0x3F40630", Offset = "0x3F40630", VA = "0x3F40630")]
 		set
 		{
 		}
@@ -497,13 +504,13 @@ public class Recorder : VoiceComponent
 	public SamplingRate SamplingRate
 	{
 		[Token(Token = "0x6000044")]
-		[Address(RVA = "0x3C4E280", Offset = "0x3C4E280", VA = "0x3C4E280")]
+		[Address(RVA = "0x3F40830", Offset = "0x3F40830", VA = "0x3F40830")]
 		get
 		{
 			return default(SamplingRate);
 		}
 		[Token(Token = "0x6000045")]
-		[Address(RVA = "0x3C4E290", Offset = "0x3C4E290", VA = "0x3C4E290")]
+		[Address(RVA = "0x3F40840", Offset = "0x3F40840", VA = "0x3F40840")]
 		set
 		{
 		}
@@ -513,13 +520,13 @@ public class Recorder : VoiceComponent
 	public OpusCodec.FrameDuration FrameDuration
 	{
 		[Token(Token = "0x6000046")]
-		[Address(RVA = "0x3C4E450", Offset = "0x3C4E450", VA = "0x3C4E450")]
+		[Address(RVA = "0x3F40A00", Offset = "0x3F40A00", VA = "0x3F40A00")]
 		get
 		{
 			return default(OpusCodec.FrameDuration);
 		}
 		[Token(Token = "0x6000047")]
-		[Address(RVA = "0x3C4E460", Offset = "0x3C4E460", VA = "0x3C4E460")]
+		[Address(RVA = "0x3F40A10", Offset = "0x3F40A10", VA = "0x3F40A10")]
 		set
 		{
 		}
@@ -529,13 +536,13 @@ public class Recorder : VoiceComponent
 	public int Bitrate
 	{
 		[Token(Token = "0x6000048")]
-		[Address(RVA = "0x3C4E620", Offset = "0x3C4E620", VA = "0x3C4E620")]
+		[Address(RVA = "0x3F40BD0", Offset = "0x3F40BD0", VA = "0x3F40BD0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000049")]
-		[Address(RVA = "0x3C4E630", Offset = "0x3C4E630", VA = "0x3C4E630")]
+		[Address(RVA = "0x3F40BE0", Offset = "0x3F40BE0", VA = "0x3F40BE0")]
 		set
 		{
 		}
@@ -545,13 +552,13 @@ public class Recorder : VoiceComponent
 	public bool RecordingEnabled
 	{
 		[Token(Token = "0x600004A")]
-		[Address(RVA = "0x3C4E9E0", Offset = "0x3C4E9E0", VA = "0x3C4E9E0")]
+		[Address(RVA = "0x3F40F90", Offset = "0x3F40F90", VA = "0x3F40F90")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600004B")]
-		[Address(RVA = "0x3C4E9F0", Offset = "0x3C4E9F0", VA = "0x3C4E9F0")]
+		[Address(RVA = "0x3F40FA0", Offset = "0x3F40FA0", VA = "0x3F40FA0")]
 		set
 		{
 		}
@@ -561,13 +568,13 @@ public class Recorder : VoiceComponent
 	public bool StopRecordingWhenPaused
 	{
 		[Token(Token = "0x600004C")]
-		[Address(RVA = "0x3C4ED00", Offset = "0x3C4ED00", VA = "0x3C4ED00")]
+		[Address(RVA = "0x3F412B0", Offset = "0x3F412B0", VA = "0x3F412B0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600004D")]
-		[Address(RVA = "0x3C4ED10", Offset = "0x3C4ED10", VA = "0x3C4ED10")]
+		[Address(RVA = "0x3F412C0", Offset = "0x3F412C0", VA = "0x3F412C0")]
 		set
 		{
 		}
@@ -577,13 +584,13 @@ public class Recorder : VoiceComponent
 	public bool UseOnAudioFilterRead
 	{
 		[Token(Token = "0x600004E")]
-		[Address(RVA = "0x3C4ED20", Offset = "0x3C4ED20", VA = "0x3C4ED20")]
+		[Address(RVA = "0x3F412D0", Offset = "0x3F412D0", VA = "0x3F412D0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600004F")]
-		[Address(RVA = "0x3C4ED30", Offset = "0x3C4ED30", VA = "0x3C4ED30")]
+		[Address(RVA = "0x3F412E0", Offset = "0x3F412E0", VA = "0x3F412E0")]
 		set
 		{
 		}
@@ -593,13 +600,13 @@ public class Recorder : VoiceComponent
 	public bool UseMicrophoneTypeFallback
 	{
 		[Token(Token = "0x6000050")]
-		[Address(RVA = "0x3C4EF70", Offset = "0x3C4EF70", VA = "0x3C4EF70")]
+		[Address(RVA = "0x3F41520", Offset = "0x3F41520", VA = "0x3F41520")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000051")]
-		[Address(RVA = "0x3C4EF80", Offset = "0x3C4EF80", VA = "0x3C4EF80")]
+		[Address(RVA = "0x3F41530", Offset = "0x3F41530", VA = "0x3F41530")]
 		set
 		{
 		}
@@ -609,13 +616,13 @@ public class Recorder : VoiceComponent
 	public bool RecordWhenJoined
 	{
 		[Token(Token = "0x6000052")]
-		[Address(RVA = "0x3C4EF90", Offset = "0x3C4EF90", VA = "0x3C4EF90")]
+		[Address(RVA = "0x3F41540", Offset = "0x3F41540", VA = "0x3F41540")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000053")]
-		[Address(RVA = "0x3C4EFA0", Offset = "0x3C4EFA0", VA = "0x3C4EFA0")]
+		[Address(RVA = "0x3F41550", Offset = "0x3F41550", VA = "0x3F41550")]
 		set
 		{
 		}
@@ -625,13 +632,13 @@ public class Recorder : VoiceComponent
 	public DeviceInfo MicrophoneDevice
 	{
 		[Token(Token = "0x6000054")]
-		[Address(RVA = "0x3C4EFB0", Offset = "0x3C4EFB0", VA = "0x3C4EFB0")]
+		[Address(RVA = "0x3F41560", Offset = "0x3F41560", VA = "0x3F41560")]
 		get
 		{
 			return default(DeviceInfo);
 		}
 		[Token(Token = "0x6000055")]
-		[Address(RVA = "0x3C4EFE0", Offset = "0x3C4EFE0", VA = "0x3C4EFE0")]
+		[Address(RVA = "0x3F41590", Offset = "0x3F41590", VA = "0x3F41590")]
 		set
 		{
 		}
@@ -641,7 +648,7 @@ public class Recorder : VoiceComponent
 	public bool AndroidMicrophoneAGC
 	{
 		[Token(Token = "0x6000056")]
-		[Address(RVA = "0x3C4F2A0", Offset = "0x3C4F2A0", VA = "0x3C4F2A0")]
+		[Address(RVA = "0x3F41850", Offset = "0x3F41850", VA = "0x3F41850")]
 		get
 		{
 			return default(bool);
@@ -652,7 +659,7 @@ public class Recorder : VoiceComponent
 	public bool AndroidMicrophoneAEC
 	{
 		[Token(Token = "0x6000057")]
-		[Address(RVA = "0x3C4F2B0", Offset = "0x3C4F2B0", VA = "0x3C4F2B0")]
+		[Address(RVA = "0x3F41860", Offset = "0x3F41860", VA = "0x3F41860")]
 		get
 		{
 			return default(bool);
@@ -663,7 +670,7 @@ public class Recorder : VoiceComponent
 	public bool AndroidMicrophoneNS
 	{
 		[Token(Token = "0x6000058")]
-		[Address(RVA = "0x3C4F2C0", Offset = "0x3C4F2C0", VA = "0x3C4F2C0")]
+		[Address(RVA = "0x3F41870", Offset = "0x3F41870", VA = "0x3F41870")]
 		get
 		{
 			return default(bool);
@@ -671,129 +678,129 @@ public class Recorder : VoiceComponent
 	}
 
 	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x3C4CA10", Offset = "0x3C4CA10", VA = "0x3C4CA10")]
+	[Address(RVA = "0x3F3EFC0", Offset = "0x3F3EFC0", VA = "0x3F3EFC0")]
 	internal void MicrophoneDeviceChangeDetected()
 	{
 	}
 
 	[Token(Token = "0x6000059")]
-	[Address(RVA = "0x3C4F2D0", Offset = "0x3C4F2D0", VA = "0x3C4F2D0")]
+	[Address(RVA = "0x3F41880", Offset = "0x3F41880", VA = "0x3F41880")]
 	internal bool Init(VoiceConnection connection)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600005A")]
-	[Address(RVA = "0x3C4F600", Offset = "0x3C4F600", VA = "0x3C4F600")]
+	[Address(RVA = "0x3F41BB0", Offset = "0x3F41BB0", VA = "0x3F41BB0")]
 	internal bool Deinit(VoiceConnection connection)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600005B")]
-	[Address(RVA = "0x3C4D520", Offset = "0x3C4D520", VA = "0x3C4D520")]
+	[Address(RVA = "0x3F3FAD0", Offset = "0x3F3FAD0", VA = "0x3F3FAD0")]
 	public bool RestartRecording()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x3C4F630", Offset = "0x3C4F630", VA = "0x3C4F630")]
+	[Address(RVA = "0x3F41BE0", Offset = "0x3F41BE0", VA = "0x3F41BE0")]
 	public void VoiceDetectorCalibrate(int durationMs, [Optional] Action<float> detectionEndedCallback)
 	{
 	}
 
 	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x3C4F980", Offset = "0x3C4F980", VA = "0x3C4F980")]
+	[Address(RVA = "0x3F41F30", Offset = "0x3F41F30", VA = "0x3F41F30")]
 	private void StartRecording()
 	{
 	}
 
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x3C4EA20", Offset = "0x3C4EA20", VA = "0x3C4EA20")]
+	[Address(RVA = "0x3F40FD0", Offset = "0x3F40FD0", VA = "0x3F40FD0")]
 	private void StopRecording()
 	{
 	}
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x3C52710", Offset = "0x3C52710", VA = "0x3C52710")]
+	[Address(RVA = "0x3F44CC0", Offset = "0x3F44CC0", VA = "0x3F44CC0")]
 	public bool SetIosAudioSessionParameters(AudioSessionParameters asp)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x3C52720", Offset = "0x3C52720", VA = "0x3C52720")]
+	[Address(RVA = "0x3F44CD0", Offset = "0x3F44CD0", VA = "0x3F44CD0")]
 	public bool SetIosAudioSessionParameters(AudioSessionCategory category, AudioSessionMode mode, AudioSessionCategoryOption[] options)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x3C529E0", Offset = "0x3C529E0", VA = "0x3C529E0")]
+	[Address(RVA = "0x3F44F90", Offset = "0x3F44F90", VA = "0x3F44F90")]
 	public bool SetAndroidNativeMicrophoneSettings(bool aec = false, bool agc = false, bool ns = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x3C52CE0", Offset = "0x3C52CE0", VA = "0x3C52CE0")]
+	[Address(RVA = "0x3F45290", Offset = "0x3F45290", VA = "0x3F45290")]
 	public bool ResetLocalAudio()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000063")]
-	[Address(RVA = "0x3C500A0", Offset = "0x3C500A0", VA = "0x3C500A0")]
+	[Address(RVA = "0x3F42650", Offset = "0x3F42650", VA = "0x3F42650")]
 	private LocalVoice CreateLocalVoiceAudioAndSource()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000064")]
-	[Address(RVA = "0x3C53110", Offset = "0x3C53110", VA = "0x3C53110", Slot = "5")]
+	[Address(RVA = "0x3F456C0", Offset = "0x3F456C0", VA = "0x3F456C0", Slot = "5")]
 	protected virtual void SendPhotonVoiceCreatedMessage()
 	{
 	}
 
 	[Token(Token = "0x6000065")]
-	[Address(RVA = "0x3C531C0", Offset = "0x3C531C0", VA = "0x3C531C0")]
+	[Address(RVA = "0x3F45770", Offset = "0x3F45770", VA = "0x3F45770")]
 	protected void Update()
 	{
 	}
 
 	[Token(Token = "0x6000066")]
-	[Address(RVA = "0x3C53660", Offset = "0x3C53660", VA = "0x3C53660")]
+	[Address(RVA = "0x3F45C10", Offset = "0x3F45C10", VA = "0x3F45C10")]
 	private void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x6000067")]
-	[Address(RVA = "0x3C533F0", Offset = "0x3C533F0", VA = "0x3C533F0")]
+	[Address(RVA = "0x3F459A0", Offset = "0x3F459A0", VA = "0x3F459A0")]
 	private void HandleDeviceChange()
 	{
 	}
 
 	[Token(Token = "0x6000068")]
-	[Address(RVA = "0x3C538F0", Offset = "0x3C538F0", VA = "0x3C538F0")]
+	[Address(RVA = "0x3F45EA0", Offset = "0x3F45EA0", VA = "0x3F45EA0")]
 	private void OnApplicationPause(bool paused)
 	{
 	}
 
 	[Token(Token = "0x6000069")]
-	[Address(RVA = "0x3C541F0", Offset = "0x3C541F0", VA = "0x3C541F0")]
+	[Address(RVA = "0x3F467A0", Offset = "0x3F467A0", VA = "0x3F467A0")]
 	private void OnApplicationFocus(bool focused)
 	{
 	}
 
 	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x3C53AC0", Offset = "0x3C53AC0", VA = "0x3C53AC0")]
+	[Address(RVA = "0x3F46070", Offset = "0x3F46070", VA = "0x3F46070")]
 	private void HandleApplicationPause(bool paused)
 	{
 	}
 
 	[Token(Token = "0x600006B")]
-	[Address(RVA = "0x3C543C0", Offset = "0x3C543C0", VA = "0x3C543C0")]
+	[Address(RVA = "0x3F46970", Offset = "0x3F46970", VA = "0x3F46970")]
 	public Recorder()
 	{
 	}

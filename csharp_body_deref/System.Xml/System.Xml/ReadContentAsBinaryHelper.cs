@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.ReadContentAsBinaryHelper
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml;
@@ -33,19 +40,19 @@ internal class ReadContentAsBinaryHelper
 	private bool isEnd;
 
 	[Token(Token = "0x600019E")]
-	[Address(RVA = "0x44571E0", Offset = "0x44571E0", VA = "0x44571E0")]
+	[Address(RVA = "0x4794940", Offset = "0x4794940", VA = "0x4794940")]
 	internal void Finish()
 	{
 	}
 
 	[Token(Token = "0x600019F")]
-	[Address(RVA = "0x44573E0", Offset = "0x44573E0", VA = "0x44573E0")]
+	[Address(RVA = "0x4794B40", Offset = "0x4794B40", VA = "0x4794B40")]
 	internal void Reset()
 	{
 	}
 
 	[Token(Token = "0x60001A0")]
-	[Address(RVA = "0x4457310", Offset = "0x4457310", VA = "0x4457310")]
+	[Address(RVA = "0x4794A70", Offset = "0x4794A70", VA = "0x4794A70")]
 	private bool MoveToNextContentNode(bool moveIfOnContentNode)
 	{
 		return default(bool);

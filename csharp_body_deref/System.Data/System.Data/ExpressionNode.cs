@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.ExpressionNode
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Data.Common;
 using Il2CppDummyDll;
@@ -15,7 +22,7 @@ internal abstract class ExpressionNode
 	internal IFormatProvider FormatProvider
 	{
 		[Token(Token = "0x60005DF")]
-		[Address(RVA = "0x42696F0", Offset = "0x42696F0", VA = "0x42696F0")]
+		[Address(RVA = "0x45A6E50", Offset = "0x45A6E50", VA = "0x45A6E50")]
 		get
 		{
 			return null;
@@ -26,7 +33,7 @@ internal abstract class ExpressionNode
 	internal virtual bool IsSqlColumn
 	{
 		[Token(Token = "0x60005E0")]
-		[Address(RVA = "0x426DEB0", Offset = "0x426DEB0", VA = "0x426DEB0", Slot = "4")]
+		[Address(RVA = "0x45AB610", Offset = "0x45AB610", VA = "0x45AB610", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -37,7 +44,7 @@ internal abstract class ExpressionNode
 	protected DataTable table
 	{
 		[Token(Token = "0x60005E1")]
-		[Address(RVA = "0x426DEC0", Offset = "0x426DEC0", VA = "0x426DEC0")]
+		[Address(RVA = "0x45AB620", Offset = "0x45AB620", VA = "0x45AB620")]
 		get
 		{
 			return null;
@@ -45,13 +52,13 @@ internal abstract class ExpressionNode
 	}
 
 	[Token(Token = "0x60005DE")]
-	[Address(RVA = "0x425D9A0", Offset = "0x425D9A0", VA = "0x425D9A0")]
+	[Address(RVA = "0x459B100", Offset = "0x459B100", VA = "0x459B100")]
 	protected ExpressionNode(DataTable table)
 	{
 	}
 
 	[Token(Token = "0x60005E2")]
-	[Address(RVA = "0x426DED0", Offset = "0x426DED0", VA = "0x426DED0")]
+	[Address(RVA = "0x45AB630", Offset = "0x45AB630", VA = "0x45AB630")]
 	protected void BindTable(DataTable table)
 	{
 	}
@@ -84,77 +91,77 @@ internal abstract class ExpressionNode
 	internal abstract ExpressionNode Optimize();
 
 	[Token(Token = "0x60005EC")]
-	[Address(RVA = "0x426DEE0", Offset = "0x426DEE0", VA = "0x426DEE0", Slot = "14")]
+	[Address(RVA = "0x45AB640", Offset = "0x45AB640", VA = "0x45AB640", Slot = "14")]
 	internal virtual bool DependsOn(DataColumn column)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005ED")]
-	[Address(RVA = "0x426AA30", Offset = "0x426AA30", VA = "0x426AA30")]
+	[Address(RVA = "0x45A8190", Offset = "0x45A8190", VA = "0x45A8190")]
 	internal static bool IsInteger(StorageType type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005EE")]
-	[Address(RVA = "0x426A620", Offset = "0x426A620", VA = "0x426A620")]
+	[Address(RVA = "0x45A7D80", Offset = "0x45A7D80", VA = "0x45A7D80")]
 	internal static bool IsIntegerSql(StorageType type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005EF")]
-	[Address(RVA = "0x426A8E0", Offset = "0x426A8E0", VA = "0x426A8E0")]
+	[Address(RVA = "0x45A8040", Offset = "0x45A8040", VA = "0x45A8040")]
 	internal static bool IsSigned(StorageType type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005F0")]
-	[Address(RVA = "0x426A9B0", Offset = "0x426A9B0", VA = "0x426A9B0")]
+	[Address(RVA = "0x45A8110", Offset = "0x45A8110", VA = "0x45A8110")]
 	internal static bool IsSignedSql(StorageType type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005F1")]
-	[Address(RVA = "0x426A910", Offset = "0x426A910", VA = "0x426A910")]
+	[Address(RVA = "0x45A8070", Offset = "0x45A8070", VA = "0x45A8070")]
 	internal static bool IsUnsigned(StorageType type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005F2")]
-	[Address(RVA = "0x426A9E0", Offset = "0x426A9E0", VA = "0x426A9E0")]
+	[Address(RVA = "0x45A8140", Offset = "0x45A8140", VA = "0x45A8140")]
 	internal static bool IsUnsignedSql(StorageType type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005F3")]
-	[Address(RVA = "0x426AA10", Offset = "0x426AA10", VA = "0x426AA10")]
+	[Address(RVA = "0x45A8170", Offset = "0x45A8170", VA = "0x45A8170")]
 	internal static bool IsNumeric(StorageType type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005F4")]
-	[Address(RVA = "0x426AB90", Offset = "0x426AB90", VA = "0x426AB90")]
+	[Address(RVA = "0x45A82F0", Offset = "0x45A82F0", VA = "0x45A82F0")]
 	internal static bool IsNumericSql(StorageType type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005F5")]
-	[Address(RVA = "0x426DEF0", Offset = "0x426DEF0", VA = "0x426DEF0")]
+	[Address(RVA = "0x45AB650", Offset = "0x45AB650", VA = "0x45AB650")]
 	internal static bool IsFloat(StorageType type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005F6")]
-	[Address(RVA = "0x426DF10", Offset = "0x426DF10", VA = "0x426DF10")]
+	[Address(RVA = "0x45AB670", Offset = "0x45AB670", VA = "0x45AB670")]
 	internal static bool IsFloatSql(StorageType type)
 	{
 		return default(bool);

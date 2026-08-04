@@ -1,13 +1,14 @@
 // Type: SimpleJSONFixed.JSONString
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/SimpleJSONFixed/JSONString.cs
-// Prior real C# source (REFERENCE, outdated): Assets/Scripts/Utility/SimpleJSON.cs  [CHANGED since prior version]
+// Prior real C# source (older reference): Assets/Scripts/Utility/SimpleJSON.cs
 // --------------------------------
 
 // SimpleJSONFixed.JSONString$$get_Tag
 // il2cpp: int32_t SimpleJSONFixed_JSONString__get_Tag (SimpleJSONFixed_JSONString_o* __this, const MethodInfo* method);
-// 0x3d89d00
+// 0x407f650
 
 int32_t SimpleJSONFixed_JSONString__get_Tag(SimpleJSONFixed_JSONString_o *__this,MethodInfo *method)
 
@@ -18,7 +19,7 @@ int32_t SimpleJSONFixed_JSONString__get_Tag(SimpleJSONFixed_JSONString_o *__this
 
 // SimpleJSONFixed.JSONString$$get_IsString
 // il2cpp: bool SimpleJSONFixed_JSONString__get_IsString (SimpleJSONFixed_JSONString_o* __this, const MethodInfo* method);
-// 0x3d89d10
+// 0x407f660
 
 bool_conflict
 SimpleJSONFixed_JSONString__get_IsString(SimpleJSONFixed_JSONString_o *__this,MethodInfo *method)
@@ -32,18 +33,15 @@ SimpleJSONFixed_JSONString__get_IsString(SimpleJSONFixed_JSONString_o *__this,Me
 
 // SimpleJSONFixed.JSONString$$GetEnumerator
 // il2cpp: SimpleJSONFixed_JSONNode_Enumerator_o SimpleJSONFixed_JSONString__GetEnumerator (SimpleJSONFixed_JSONString_o* __this, const MethodInfo* method);
-// 0x3d89d20
-
-/* WARNING: Type propagation algorithm not settling */
+// 0x407f670
 
 SimpleJSONFixed_JSONNode_Enumerator_o *
 SimpleJSONFixed_JSONString__GetEnumerator
-          (SimpleJSONFixed_JSONNode_Enumerator_o *__return_storage_ptr__,
-          SimpleJSONFixed_JSONString_o *__this,MethodInfo *method)
+          (SimpleJSONFixed_JSONNode_Enumerator_o *__return_storage_ptr__,SimpleJSONFixed_JSONString_o *__this,
+          MethodInfo *method)
 
 {
-  (__return_storage_ptr__->fields).m_Array.fields._list =
-       (System_Collections_Generic_List_T__o *)0x0;
+  (__return_storage_ptr__->fields).m_Array.fields._list = (System_Collections_Generic_List_T__o *)0x0;
   (__return_storage_ptr__->fields).m_Array.fields._index = 0;
   (__return_storage_ptr__->fields).m_Array.fields._version = 0;
   (__return_storage_ptr__->fields).m_Object.fields._current.fields.value = (Il2CppObject *)0x0;
@@ -61,7 +59,7 @@ SimpleJSONFixed_JSONString__GetEnumerator
 
 // SimpleJSONFixed.JSONString$$get_Value
 // il2cpp: System_String_o* SimpleJSONFixed_JSONString__get_Value (SimpleJSONFixed_JSONString_o* __this, const MethodInfo* method);
-// 0x3d89d40
+// 0x407f690
 
 System_String_o *
 SimpleJSONFixed_JSONString__get_Value(SimpleJSONFixed_JSONString_o *__this,MethodInfo *method)
@@ -73,43 +71,43 @@ SimpleJSONFixed_JSONString__get_Value(SimpleJSONFixed_JSONString_o *__this,Metho
 
 // SimpleJSONFixed.JSONString$$set_Value
 // il2cpp: void SimpleJSONFixed_JSONString__set_Value (SimpleJSONFixed_JSONString_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x3d89d50
+// 0x407f6a0
 
 void SimpleJSONFixed_JSONString__set_Value
                (SimpleJSONFixed_JSONString_o *__this,System_String_o *value,MethodInfo *method)
 
 {
   (__this->fields).m_Data = value;
-  il2cpp_runtime_glue(&__this->fields);
+  il2cpp_runtime_helper_022b4080(&__this->fields);
   return;
 }
 
 
 // SimpleJSONFixed.JSONString$$.ctor
 // il2cpp: void SimpleJSONFixed_JSONString___ctor (SimpleJSONFixed_JSONString_o* __this, System_String_o* aData, const MethodInfo* method);
-// 0x3d84070
+// 0x40799c0
 
 void SimpleJSONFixed_JSONString___ctor
                (SimpleJSONFixed_JSONString_o *__this,System_String_o *aData,MethodInfo *method)
 
 {
-  if (DAT_057026d7 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_JSONNode);
-    DAT_057026d7 = '\x01';
+  if (g_data_057ac387 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
+    g_data_057ac387 = '\x01';
   }
   if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
   System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).m_Data = aData;
-  il2cpp_runtime_glue(&__this->fields,aData);
+  il2cpp_runtime_helper_022b4080(&__this->fields,aData);
   return;
 }
 
 
 // SimpleJSONFixed.JSONString$$Clone
 // il2cpp: SimpleJSONFixed_JSONNode_o* SimpleJSONFixed_JSONString__Clone (SimpleJSONFixed_JSONString_o* __this, const MethodInfo* method);
-// 0x3d89d60
+// 0x407f6b0
 
 SimpleJSONFixed_JSONNode_o *
 SimpleJSONFixed_JSONString__Clone(SimpleJSONFixed_JSONString_o *__this,MethodInfo *method)
@@ -118,142 +116,259 @@ SimpleJSONFixed_JSONString__Clone(SimpleJSONFixed_JSONString_o *__this,MethodInf
   Il2CppClass *pIVar1;
   Il2CppObject *__this_00;
   
-  if (DAT_057026d8 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_JSONString);
-    DAT_057026d8 = '\x01';
+  if (g_data_057ac388 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONString);
+    g_data_057ac388 = '\x01';
   }
   pIVar1 = (Il2CppClass *)(__this->fields).m_Data;
-  __this_00 = (Il2CppObject *)il2cpp_runtime_glue(TypeInfo_JSONString);
-  if (DAT_057026d7 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_JSONNode);
-    DAT_057026d7 = '\x01';
+  __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_JSONString);
+  if (g_data_057ac387 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
+    g_data_057ac387 = '\x01';
   }
   if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
   System_Object___ctor(__this_00,(MethodInfo *)0x0);
   __this_00[1].klass = pIVar1;
-  il2cpp_runtime_glue(__this_00 + 1,pIVar1);
+  il2cpp_runtime_helper_022b4080(__this_00 + 1,pIVar1);
   return (SimpleJSONFixed_JSONNode_o *)__this_00;
 }
 
 
 // SimpleJSONFixed.JSONString$$WriteToStringBuilder
 // il2cpp: void SimpleJSONFixed_JSONString__WriteToStringBuilder (SimpleJSONFixed_JSONString_o* __this, System_Text_StringBuilder_o* aSB, int32_t aIndent, int32_t aIndentInc, int32_t aMode, const MethodInfo* method);
-// 0x3d89e00
+// 0x407f750
 
 void SimpleJSONFixed_JSONString__WriteToStringBuilder
-               (SimpleJSONFixed_JSONString_o *__this,System_Text_StringBuilder_o *aSB,
-               int32_t aIndent,int32_t aIndentInc,int32_t aMode,MethodInfo *method)
+               (SimpleJSONFixed_JSONString_o *__this,System_Text_StringBuilder_o *aSB,int32_t aIndent,
+               int32_t aIndentInc,int32_t aMode,MethodInfo *method)
 
 {
-  System_Text_StringBuilder_o *pSVar1;
-  System_String_o *pSVar2;
+  int iVar1;
+  long lVar2;
+  code *vtableDispatch;
+  bool_conflict bVar3;
+  System_String_Fields SVar4;
+  System_String_Fields value;
+  System_Text_StringBuilder_o *__this_00;
+  MethodInfo *extraout_RDX;
+  MethodInfo *extraout_RDX_00;
   MethodInfo *method_00;
+  MethodInfo *extraout_RDX_01;
+  MethodInfo *extraout_RDX_02;
+  MethodInfo *extraout_RDX_03;
+  undefined8 extraout_RDX_04;
+  System_String_Fields SVar5;
+  System_String_Fields SVar6;
   
-  if (DAT_057026d9 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_JSONNode);
-    DAT_057026d9 = '\x01';
+  SVar5 = (System_String_Fields)aSB;
+  SVar6 = (System_String_Fields)__this;
+  if (g_data_057ac389 == '\0') {
+    SVar6 = (System_String_Fields)&TypeInfo_JSONNode;
+    il2cpp_runtime_helper_023445d0();
+    g_data_057ac389 = '\x01';
   }
   if (aSB != (System_Text_StringBuilder_o *)0x0) {
-    method_00 = (MethodInfo *)0x22;
-    pSVar1 = System_Text_StringBuilder__Append(aSB,0x22,(MethodInfo *)0x0);
-    pSVar2 = (__this->fields).m_Data;
+    SVar5._stringLength = 0x22;
+    SVar5._firstChar = 0;
+    SVar5._6_2_ = 0;
+    SVar4 = (System_String_Fields)System_Text_StringBuilder__Append_3b048f0(aSB,0x22,(MethodInfo *)0x0);
+    SVar6 = (System_String_Fields)(__this->fields).m_Data;
     if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-      il2cpp_init_class();
+      il2cpp_runtime_helper_02337ed0();
     }
-    pSVar2 = SimpleJSONFixed_JSONNode__Escape(pSVar2,method_00);
-    if (pSVar1 != (System_Text_StringBuilder_o *)0x0) {
-      pSVar1 = System_Text_StringBuilder__Append(pSVar1,pSVar2,(MethodInfo *)0x0);
-      if (pSVar1 != (System_Text_StringBuilder_o *)0x0) {
-        System_Text_StringBuilder__Append(pSVar1,0x22,(MethodInfo *)0x0);
-        return;
-      }
+    value = (System_String_Fields)
+            SimpleJSONFixed_JSONNode__Escape((System_String_o *)SVar6,(MethodInfo *)SVar5);
+    if ((SVar4 != (System_String_Fields)0x0) &&
+       (__this_00 = System_Text_StringBuilder__Append_3b03f90
+                              ((System_Text_StringBuilder_o *)SVar4,(System_String_o *)value,(MethodInfo *)0x0
+                              ), SVar5 = value, SVar6 = SVar4, __this_00 != (System_Text_StringBuilder_o *)0x0
+       )) {
+      System_Text_StringBuilder__Append_3b048f0(__this_00,0x22,(MethodInfo *)0x0);
+      return;
     }
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  method_00 = extraout_RDX;
+  if (g_data_057ac38a == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONString);
+    g_data_057ac38a = '\x01';
+    method_00 = extraout_RDX_00;
+  }
+  if (SVar6 == SVar5) {
+    return;
+  }
+  if (SVar5 == (System_String_Fields)0x0) {
+label_0407f85d:
+    SVar4._stringLength = 0;
+    SVar4._firstChar = 0;
+    SVar4._6_2_ = 0;
+    if (*(int *)(TypeInfo_JSONNode + 0xe4) != 0) goto label_0407f877;
+label_0407f8fe:
+    il2cpp_runtime_helper_02337ed0();
+    method_00 = extraout_RDX_01;
+    if (g_data_057ac34d != '\0') goto label_0407f884;
+label_0407f910:
+    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
+    g_data_057ac34d = '\x01';
+    iVar1 = *(int *)(TypeInfo_JSONNode + 0xe4);
+    method_00 = extraout_RDX_02;
+  }
+  else {
+    lVar2 = *(long *)SVar5;
+    if (lVar2 == g_data_057b9c00) {
+      SVar6 = *(System_String_Fields *)((long)SVar6 + 0x10);
+      goto label_0407f8c8;
+    }
+    method_00 = (MethodInfo *)(ulong)*(byte *)(TypeInfo_JSONString + 0x130);
+    if (*(byte *)(lVar2 + 0x130) < *(byte *)(TypeInfo_JSONString + 0x130)) goto label_0407f85d;
+    SVar4._stringLength = 0;
+    SVar4._firstChar = 0;
+    SVar4._6_2_ = 0;
+    if (*(long *)(*(long *)(lVar2 + 200) + -8 + (long)method_00 * 8) == TypeInfo_JSONString) {
+      SVar4 = SVar5;
+    }
+    if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) goto label_0407f8fe;
+label_0407f877:
+    if (g_data_057ac34d == '\0') goto label_0407f910;
+label_0407f884:
+    iVar1 = *(int *)(TypeInfo_JSONNode + 0xe4);
+  }
+  if (iVar1 == 0) {
+    il2cpp_runtime_helper_02337ed0();
+    method_00 = extraout_RDX_03;
+  }
+  SVar5 = SVar4;
+  bVar3 = SimpleJSONFixed_JSONNode__op_Equality
+                    ((SimpleJSONFixed_JSONNode_o *)SVar4,(Il2CppObject *)0x0,method_00);
+  if ((char)bVar3 != '\0') {
+    return;
+  }
+  if (SVar4 == (System_String_Fields)0x0) {
+    il2cpp_runtime_helper_022b2c90();
+    SVar6 = *(System_String_Fields *)((long)SVar5 + 0x10);
+    if (SVar6 == (System_String_Fields)0x0) {
+      il2cpp_runtime_helper_022b2c90();
+      if (g_data_057ac38b == '\0') {
+        il2cpp_runtime_helper_023445d0(&"");
+        g_data_057ac38b = '\x01';
+      }
+      *(undefined8 *)((long)SVar6 + 0x10) = "";
+      il2cpp_runtime_helper_022b4080((long)SVar6 + 0x10);
+      return;
+    }
+    vtableDispatch = *(code **)(*(long *)SVar6 + 0x158);
+    (*vtableDispatch)
+              (SVar6,*(undefined8 *)(*(long *)SVar6 + 0x160),extraout_RDX_04,vtableDispatch);
+    return;
+  }
+  SVar6 = *(System_String_Fields *)((long)SVar6 + 0x10);
+  SVar5 = *(System_String_Fields *)((long)SVar4 + 0x10);
+label_0407f8c8:
+  System_String__op_Equality((System_String_o *)SVar6,(System_String_o *)SVar5,(MethodInfo *)0x0);
+  return;
 }
 
 
 // SimpleJSONFixed.JSONString$$Equals
 // il2cpp: bool SimpleJSONFixed_JSONString__Equals (SimpleJSONFixed_JSONString_o* __this, Il2CppObject* obj, const MethodInfo* method);
-// 0x3d89ea0
+// 0x407f7f0
 
 bool_conflict
-SimpleJSONFixed_JSONString__Equals
-          (SimpleJSONFixed_JSONString_o *__this,Il2CppObject *obj,MethodInfo *method)
+SimpleJSONFixed_JSONString__Equals(SimpleJSONFixed_JSONString_o *__this,Il2CppObject *obj,MethodInfo *method)
 
 {
   byte bVar1;
   int iVar2;
-  Il2CppClass *pIVar3;
+  void *pvVar3;
+  code *vtableDispatch;
   bool_conflict bVar4;
   MethodInfo *extraout_RDX;
   MethodInfo *extraout_RDX_00;
   MethodInfo *extraout_RDX_01;
   MethodInfo *extraout_RDX_02;
+  undefined8 extraout_RDX_03;
+  Il2CppObject *pIVar5;
   System_String_o *a;
+  Il2CppClass *pIVar6;
   Il2CppObject *a_00;
   
-  if (DAT_057026da == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_JSONNode);
-    il2cpp_init_method_metadata(&TypeInfo_JSONString);
-    DAT_057026da = '\x01';
+  if (g_data_057ac38a == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONString);
+    g_data_057ac38a = '\x01';
     method = extraout_RDX;
   }
   if (__this == (SimpleJSONFixed_JSONString_o *)obj) {
     return (bool_conflict)CONCAT71((int7)((ulong)obj >> 8),1);
   }
   if (obj == (Il2CppObject *)0x0) {
-LAB_03d89f0d:
+label_0407f85d:
     a_00 = (Il2CppObject *)0x0;
-    if (*(int *)(TypeInfo_JSONNode + 0xe4) != 0) goto LAB_03d89f27;
-LAB_03d89fae:
-    il2cpp_init_class();
+    if (*(int *)(TypeInfo_JSONNode + 0xe4) != 0) goto label_0407f877;
+label_0407f8fe:
+    il2cpp_runtime_helper_02337ed0();
     method = extraout_RDX_00;
-    if (DAT_0570269d == '\0') goto LAB_03d89fc0;
-LAB_03d89f34:
+    if (g_data_057ac34d == '\0') goto label_0407f910;
+label_0407f884:
     iVar2 = *(int *)(TypeInfo_JSONNode + 0xe4);
   }
   else {
-    pIVar3 = obj->klass;
-    if (pIVar3 == DAT_057110b0) {
+    pIVar6 = obj->klass;
+    if (pIVar6 == g_data_057b9c00) {
       a = (__this->fields).m_Data;
-      goto LAB_03d89f78;
+      goto label_0407f8c8;
     }
     bVar1 = (TypeInfo_JSONString->_2).naturalAligment;
     method = (MethodInfo *)(ulong)bVar1;
-    if ((pIVar3->_2).naturalAligment < bVar1) goto LAB_03d89f0d;
+    if ((pIVar6->_2).naturalAligment < bVar1) goto label_0407f85d;
     a_00 = (Il2CppObject *)0x0;
-    if ((pIVar3->_2).typeHierarchy[(long)&method[-1].field_0x57] == TypeInfo_JSONString) {
+    if ((pIVar6->_2).typeHierarchy[(long)&method[-1].field_0x57] == TypeInfo_JSONString) {
       a_00 = obj;
     }
-    if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) goto LAB_03d89fae;
-LAB_03d89f27:
-    if (DAT_0570269d != '\0') goto LAB_03d89f34;
-LAB_03d89fc0:
-    il2cpp_init_method_metadata(&TypeInfo_JSONNode);
-    DAT_0570269d = '\x01';
+    if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) goto label_0407f8fe;
+label_0407f877:
+    if (g_data_057ac34d != '\0') goto label_0407f884;
+label_0407f910:
+    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
+    g_data_057ac34d = '\x01';
     iVar2 = *(int *)(TypeInfo_JSONNode + 0xe4);
     method = extraout_RDX_01;
   }
   if (iVar2 == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
     method = extraout_RDX_02;
   }
-  bVar4 = SimpleJSONFixed_JSONNode__op_Equality
-                    ((SimpleJSONFixed_JSONNode_o *)a_00,(Il2CppObject *)0x0,method);
+  pIVar5 = a_00;
+  bVar4 = SimpleJSONFixed_JSONNode__op_Equality((SimpleJSONFixed_JSONNode_o *)a_00,(Il2CppObject *)0x0,method)
+  ;
   if ((char)bVar4 != '\0') {
     return 0;
   }
   if (a_00 == (Il2CppObject *)0x0) {
-                    /* WARNING: Subroutine does not return */
-    il2cpp_raise_exception();
+    il2cpp_runtime_helper_022b2c90();
+    pIVar6 = pIVar5[1].klass;
+    if (pIVar6 != (Il2CppClass *)0x0) {
+      pvVar3 = (pIVar6->_1).image;
+      vtableDispatch = *(code **)((long)pvVar3 + 0x158);
+      bVar4 = (*vtableDispatch)
+                        (pIVar6,*(undefined8 *)((long)pvVar3 + 0x160),extraout_RDX_03,vtableDispatch);
+      return bVar4;
+    }
+    il2cpp_runtime_helper_022b2c90();
+    if (g_data_057ac38b == '\0') {
+      il2cpp_runtime_helper_023445d0(&"");
+      g_data_057ac38b = '\x01';
+    }
+    (pIVar6->_1).name = "";
+    bVar4 = il2cpp_runtime_helper_022b4080(&(pIVar6->_1).name);
+    return bVar4;
   }
   a = (__this->fields).m_Data;
   obj = (Il2CppObject *)a_00[1].klass;
-LAB_03d89f78:
+label_0407f8c8:
   bVar4 = System_String__op_Equality(a,(System_String_o *)obj,(MethodInfo *)0x0);
   return bVar4;
 }
@@ -261,43 +376,47 @@ LAB_03d89f78:
 
 // SimpleJSONFixed.JSONString$$GetHashCode
 // il2cpp: int32_t SimpleJSONFixed_JSONString__GetHashCode (SimpleJSONFixed_JSONString_o* __this, const MethodInfo* method);
-// 0x3d8a000
+// 0x407f950
 
-int32_t SimpleJSONFixed_JSONString__GetHashCode
-                  (SimpleJSONFixed_JSONString_o *__this,MethodInfo *method)
+int32_t SimpleJSONFixed_JSONString__GetHashCode(SimpleJSONFixed_JSONString_o *__this,MethodInfo *method)
 
 {
-  System_String_o *pSVar1;
-  Il2CppMethodPointer vtable_dispatch;
-  int32_t iVar2;
+  Il2CppMethodPointer vtableDispatch;
+  int32_t iVar1;
   undefined8 in_RDX;
+  System_String_o *pSVar2;
   
-  pSVar1 = (__this->fields).m_Data;
-  if (pSVar1 != (System_String_o *)0x0) {
-    vtable_dispatch = (pSVar1->klass->vtable)._2_GetHashCode.methodPtr;
-    iVar2 = (*vtable_dispatch)
-                      (pSVar1,(pSVar1->klass->vtable)._2_GetHashCode.method,in_RDX,
-                       vtable_dispatch);
-    return iVar2;
+  pSVar2 = (__this->fields).m_Data;
+  if (pSVar2 != (System_String_o *)0x0) {
+    vtableDispatch = (pSVar2->klass->vtable)._2_GetHashCode.methodPtr;
+    iVar1 = (*vtableDispatch)
+                      (pSVar2,(pSVar2->klass->vtable)._2_GetHashCode.method,in_RDX,vtableDispatch);
+    return iVar1;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  if (g_data_057ac38b == '\0') {
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057ac38b = '\x01';
+  }
+  pSVar2->fields = "";
+  iVar1 = il2cpp_runtime_helper_022b4080(&pSVar2->fields);
+  return iVar1;
 }
 
 
 // SimpleJSONFixed.JSONString$$Clear
 // il2cpp: void SimpleJSONFixed_JSONString__Clear (SimpleJSONFixed_JSONString_o* __this, const MethodInfo* method);
-// 0x3d8a030
+// 0x407f980
 
 void SimpleJSONFixed_JSONString__Clear(SimpleJSONFixed_JSONString_o *__this,MethodInfo *method)
 
 {
-  if (DAT_057026db == '\0') {
-    il2cpp_init_method_metadata(&"");
-    DAT_057026db = '\x01';
+  if (g_data_057ac38b == '\0') {
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057ac38b = '\x01';
   }
   (__this->fields).m_Data = "";
-  il2cpp_runtime_glue(&__this->fields);
+  il2cpp_runtime_helper_022b4080(&__this->fields);
   return;
 }
 

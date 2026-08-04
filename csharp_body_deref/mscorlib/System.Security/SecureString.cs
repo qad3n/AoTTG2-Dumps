@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.SecureString
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Security;
@@ -32,7 +39,7 @@ public sealed class SecureString : IDisposable
 	public int Length
 	{
 		[Token(Token = "0x6001795")]
-		[Address(RVA = "0x4E392A0", Offset = "0x4E392A0", VA = "0x4E392A0")]
+		[Address(RVA = "0x3B1EDC0", Offset = "0x3B1EDC0", VA = "0x3B1EDC0")]
 		get
 		{
 			return default(int);
@@ -40,44 +47,44 @@ public sealed class SecureString : IDisposable
 	}
 
 	[Token(Token = "0x6001793")]
-	[Address(RVA = "0x4E38F80", Offset = "0x4E38F80", VA = "0x4E38F80")]
+	[Address(RVA = "0x3B1EAA0", Offset = "0x3B1EAA0", VA = "0x3B1EAA0")]
 	public SecureString()
 	{
 	}
 
 	[Token(Token = "0x6001794")]
-	[Address(RVA = "0x4E39160", Offset = "0x4E39160", VA = "0x4E39160")]
+	[Address(RVA = "0x3B1EC80", Offset = "0x3B1EC80", VA = "0x3B1EC80")]
 	[CLSCompliant(false)]
 	public unsafe SecureString(char* value, int length)
 	{
 	}
 
 	[Token(Token = "0x6001796")]
-	[Address(RVA = "0x4E39300", Offset = "0x4E39300", VA = "0x4E39300", Slot = "4")]
+	[Address(RVA = "0x3B1EE20", Offset = "0x3B1EE20", VA = "0x3B1EE20", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6001797")]
-	[Address(RVA = "0x4E39290", Offset = "0x4E39290", VA = "0x4E39290")]
+	[Address(RVA = "0x3B1EDB0", Offset = "0x3B1EDB0", VA = "0x3B1EDB0")]
 	private void Encrypt()
 	{
 	}
 
 	[Token(Token = "0x6001798")]
-	[Address(RVA = "0x4E39350", Offset = "0x4E39350", VA = "0x4E39350")]
+	[Address(RVA = "0x3B1EE70", Offset = "0x3B1EE70", VA = "0x3B1EE70")]
 	private void Decrypt()
 	{
 	}
 
 	[Token(Token = "0x6001799")]
-	[Address(RVA = "0x4E38FE0", Offset = "0x4E38FE0", VA = "0x4E38FE0")]
+	[Address(RVA = "0x3B1EB00", Offset = "0x3B1EB00", VA = "0x3B1EB00")]
 	private void Alloc(int length, bool realloc)
 	{
 	}
 
 	[Token(Token = "0x600179A")]
-	[Address(RVA = "0x4E39360", Offset = "0x4E39360", VA = "0x4E39360")]
+	[Address(RVA = "0x3B1EE80", Offset = "0x3B1EE80", VA = "0x3B1EE80")]
 	internal byte[] GetBuffer()
 	{
 		return null;

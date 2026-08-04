@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.Text.FontStyleStack
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.TextCore.Text;
@@ -46,20 +53,20 @@ internal struct FontStyleStack
 	public byte smallcaps;
 
 	[Token(Token = "0x600018F")]
-	[Address(RVA = "0x4BC0A50", Offset = "0x4BC0A50", VA = "0x4BC0A50")]
+	[Address(RVA = "0x4EE8380", Offset = "0x4EE8380", VA = "0x4EE8380")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000190")]
-	[Address(RVA = "0x4BC0A60", Offset = "0x4BC0A60", VA = "0x4BC0A60")]
+	[Address(RVA = "0x4EE8390", Offset = "0x4EE8390", VA = "0x4EE8390")]
 	public byte Add(FontStyles style)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x6000191")]
-	[Address(RVA = "0x4BC0B00", Offset = "0x4BC0B00", VA = "0x4BC0B00")]
+	[Address(RVA = "0x4EE8430", Offset = "0x4EE8430", VA = "0x4EE8430")]
 	public byte Remove(FontStyles style)
 	{
 		return default(byte);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.JsonTextReader
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Globalization;
@@ -53,13 +60,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x600026D")]
-		[Address(RVA = "0x3A7CCB0", Offset = "0x3A7CCB0", VA = "0x3A7CCB0", Slot = "4")]
+		[Address(RVA = "0x3D72600", Offset = "0x3D72600", VA = "0x3D72600", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600026E")]
-		[Address(RVA = "0x3A7E070", Offset = "0x3A7E070", VA = "0x3A7E070", Slot = "5")]
+		[Address(RVA = "0x3D739C0", Offset = "0x3D739C0", VA = "0x3D739C0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -108,13 +115,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<byte[]?>.ConfiguredTaskAwaiter _003C_003Eu__3;
 
 		[Token(Token = "0x600026F")]
-		[Address(RVA = "0x3A7E0E0", Offset = "0x3A7E0E0", VA = "0x3A7E0E0", Slot = "4")]
+		[Address(RVA = "0x3D73A30", Offset = "0x3D73A30", VA = "0x3D73A30", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000270")]
-		[Address(RVA = "0x3A7F510", Offset = "0x3A7F510", VA = "0x3A7F510", Slot = "5")]
+		[Address(RVA = "0x3D74E60", Offset = "0x3D74E60", VA = "0x3D74E60", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -147,13 +154,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<object?>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000271")]
-		[Address(RVA = "0x3A7F580", Offset = "0x3A7F580", VA = "0x3A7F580", Slot = "4")]
+		[Address(RVA = "0x3D74ED0", Offset = "0x3D74ED0", VA = "0x3D74ED0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000272")]
-		[Address(RVA = "0x3A7F880", Offset = "0x3A7F880", VA = "0x3A7F880", Slot = "5")]
+		[Address(RVA = "0x3D751D0", Offset = "0x3D751D0", VA = "0x3D751D0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -186,13 +193,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<object?>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000273")]
-		[Address(RVA = "0x3A7F8F0", Offset = "0x3A7F8F0", VA = "0x3A7F8F0", Slot = "4")]
+		[Address(RVA = "0x3D75240", Offset = "0x3D75240", VA = "0x3D75240", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000274")]
-		[Address(RVA = "0x3A7FC10", Offset = "0x3A7FC10", VA = "0x3A7FC10", Slot = "5")]
+		[Address(RVA = "0x3D75560", Offset = "0x3D75560", VA = "0x3D75560", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -225,13 +232,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<object?>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000275")]
-		[Address(RVA = "0x3A7FC80", Offset = "0x3A7FC80", VA = "0x3A7FC80", Slot = "4")]
+		[Address(RVA = "0x3D755D0", Offset = "0x3D755D0", VA = "0x3D755D0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000276")]
-		[Address(RVA = "0x3A7FFA0", Offset = "0x3A7FFA0", VA = "0x3A7FFA0", Slot = "5")]
+		[Address(RVA = "0x3D758F0", Offset = "0x3D758F0", VA = "0x3D758F0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -264,13 +271,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<object?>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000277")]
-		[Address(RVA = "0x3A80010", Offset = "0x3A80010", VA = "0x3A80010", Slot = "4")]
+		[Address(RVA = "0x3D75960", Offset = "0x3D75960", VA = "0x3D75960", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000278")]
-		[Address(RVA = "0x3A80320", Offset = "0x3A80320", VA = "0x3A80320", Slot = "5")]
+		[Address(RVA = "0x3D75C70", Offset = "0x3D75C70", VA = "0x3D75C70", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -303,13 +310,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<object?>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000279")]
-		[Address(RVA = "0x3A80390", Offset = "0x3A80390", VA = "0x3A80390", Slot = "4")]
+		[Address(RVA = "0x3D75CE0", Offset = "0x3D75CE0", VA = "0x3D75CE0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600027A")]
-		[Address(RVA = "0x3A80690", Offset = "0x3A80690", VA = "0x3A80690", Slot = "5")]
+		[Address(RVA = "0x3D75FE0", Offset = "0x3D75FE0", VA = "0x3D75FE0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -342,13 +349,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<object?>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x600027B")]
-		[Address(RVA = "0x3A80700", Offset = "0x3A80700", VA = "0x3A80700", Slot = "4")]
+		[Address(RVA = "0x3D76050", Offset = "0x3D76050", VA = "0x3D76050", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600027C")]
-		[Address(RVA = "0x3A809D0", Offset = "0x3A809D0", VA = "0x3A809D0", Slot = "5")]
+		[Address(RVA = "0x3D76320", Offset = "0x3D76320", VA = "0x3D76320", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -385,13 +392,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<bool>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x600027D")]
-		[Address(RVA = "0x3A80A40", Offset = "0x3A80A40", VA = "0x3A80A40", Slot = "4")]
+		[Address(RVA = "0x3D76390", Offset = "0x3D76390", VA = "0x3D76390", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600027E")]
-		[Address(RVA = "0x3A80E20", Offset = "0x3A80E20", VA = "0x3A80E20", Slot = "5")]
+		[Address(RVA = "0x3D76770", Offset = "0x3D76770", VA = "0x3D76770", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -428,13 +435,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x600027F")]
-		[Address(RVA = "0x3A80E90", Offset = "0x3A80E90", VA = "0x3A80E90", Slot = "4")]
+		[Address(RVA = "0x3D767E0", Offset = "0x3D767E0", VA = "0x3D767E0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000280")]
-		[Address(RVA = "0x3A81390", Offset = "0x3A81390", VA = "0x3A81390", Slot = "5")]
+		[Address(RVA = "0x3D76CE0", Offset = "0x3D76CE0", VA = "0x3D76CE0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -471,13 +478,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000281")]
-		[Address(RVA = "0x3A813F0", Offset = "0x3A813F0", VA = "0x3A813F0", Slot = "4")]
+		[Address(RVA = "0x3D76D40", Offset = "0x3D76D40", VA = "0x3D76D40", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000282")]
-		[Address(RVA = "0x3A818E0", Offset = "0x3A818E0", VA = "0x3A818E0", Slot = "5")]
+		[Address(RVA = "0x3D77230", Offset = "0x3D77230", VA = "0x3D77230", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -522,13 +529,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<bool>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000283")]
-		[Address(RVA = "0x3A81940", Offset = "0x3A81940", VA = "0x3A81940", Slot = "4")]
+		[Address(RVA = "0x3D77290", Offset = "0x3D77290", VA = "0x3D77290", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000284")]
-		[Address(RVA = "0x3A81CE0", Offset = "0x3A81CE0", VA = "0x3A81CE0", Slot = "5")]
+		[Address(RVA = "0x3D77630", Offset = "0x3D77630", VA = "0x3D77630", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -565,13 +572,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<bool>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000285")]
-		[Address(RVA = "0x3A81D40", Offset = "0x3A81D40", VA = "0x3A81D40", Slot = "4")]
+		[Address(RVA = "0x3D77690", Offset = "0x3D77690", VA = "0x3D77690", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000286")]
-		[Address(RVA = "0x3A82050", Offset = "0x3A82050", VA = "0x3A82050", Slot = "5")]
+		[Address(RVA = "0x3D779A0", Offset = "0x3D779A0", VA = "0x3D779A0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -608,13 +615,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<bool>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000287")]
-		[Address(RVA = "0x3A820C0", Offset = "0x3A820C0", VA = "0x3A820C0", Slot = "4")]
+		[Address(RVA = "0x3D77A10", Offset = "0x3D77A10", VA = "0x3D77A10", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000288")]
-		[Address(RVA = "0x3A825B0", Offset = "0x3A825B0", VA = "0x3A825B0", Slot = "5")]
+		[Address(RVA = "0x3D77F00", Offset = "0x3D77F00", VA = "0x3D77F00", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -667,13 +674,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__3;
 
 		[Token(Token = "0x6000289")]
-		[Address(RVA = "0x3A82620", Offset = "0x3A82620", VA = "0x3A82620", Slot = "4")]
+		[Address(RVA = "0x3D77F70", Offset = "0x3D77F70", VA = "0x3D77F70", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600028A")]
-		[Address(RVA = "0x3A82F60", Offset = "0x3A82F60", VA = "0x3A82F60", Slot = "5")]
+		[Address(RVA = "0x3D788B0", Offset = "0x3D788B0", VA = "0x3D788B0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -726,13 +733,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<int>.ConfiguredTaskAwaiter _003C_003Eu__3;
 
 		[Token(Token = "0x600028B")]
-		[Address(RVA = "0x3A82FC0", Offset = "0x3A82FC0", VA = "0x3A82FC0", Slot = "4")]
+		[Address(RVA = "0x3D78910", Offset = "0x3D78910", VA = "0x3D78910", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600028C")]
-		[Address(RVA = "0x3A83D70", Offset = "0x3A83D70", VA = "0x3A83D70", Slot = "5")]
+		[Address(RVA = "0x3D796C0", Offset = "0x3D796C0", VA = "0x3D796C0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -777,13 +784,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x600028D")]
-		[Address(RVA = "0x3A83DD0", Offset = "0x3A83DD0", VA = "0x3A83DD0", Slot = "4")]
+		[Address(RVA = "0x3D79720", Offset = "0x3D79720", VA = "0x3D79720", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600028E")]
-		[Address(RVA = "0x3A840A0", Offset = "0x3A840A0", VA = "0x3A840A0", Slot = "5")]
+		[Address(RVA = "0x3D799F0", Offset = "0x3D799F0", VA = "0x3D799F0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -824,13 +831,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<bool>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x600028F")]
-		[Address(RVA = "0x3A84100", Offset = "0x3A84100", VA = "0x3A84100", Slot = "4")]
+		[Address(RVA = "0x3D79A50", Offset = "0x3D79A50", VA = "0x3D79A50", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000290")]
-		[Address(RVA = "0x3A84430", Offset = "0x3A84430", VA = "0x3A84430", Slot = "5")]
+		[Address(RVA = "0x3D79D80", Offset = "0x3D79D80", VA = "0x3D79D80", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -871,13 +878,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<bool>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000291")]
-		[Address(RVA = "0x3A844A0", Offset = "0x3A844A0", VA = "0x3A844A0", Slot = "4")]
+		[Address(RVA = "0x3D79DF0", Offset = "0x3D79DF0", VA = "0x3D79DF0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000292")]
-		[Address(RVA = "0x3A847D0", Offset = "0x3A847D0", VA = "0x3A847D0", Slot = "5")]
+		[Address(RVA = "0x3D7A120", Offset = "0x3D7A120", VA = "0x3D7A120", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -918,13 +925,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<bool>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000293")]
-		[Address(RVA = "0x3A84840", Offset = "0x3A84840", VA = "0x3A84840", Slot = "4")]
+		[Address(RVA = "0x3D7A190", Offset = "0x3D7A190", VA = "0x3D7A190", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000294")]
-		[Address(RVA = "0x3A84B70", Offset = "0x3A84B70", VA = "0x3A84B70", Slot = "5")]
+		[Address(RVA = "0x3D7A4C0", Offset = "0x3D7A4C0", VA = "0x3D7A4C0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -965,13 +972,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<bool>.ConfiguredTaskAwaiter _003C_003Eu__3;
 
 		[Token(Token = "0x6000295")]
-		[Address(RVA = "0x3A84BE0", Offset = "0x3A84BE0", VA = "0x3A84BE0", Slot = "4")]
+		[Address(RVA = "0x3D7A530", Offset = "0x3D7A530", VA = "0x3D7A530", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000296")]
-		[Address(RVA = "0x3A85400", Offset = "0x3A85400", VA = "0x3A85400", Slot = "5")]
+		[Address(RVA = "0x3D7AD50", Offset = "0x3D7AD50", VA = "0x3D7AD50", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1012,13 +1019,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000297")]
-		[Address(RVA = "0x3A85470", Offset = "0x3A85470", VA = "0x3A85470", Slot = "4")]
+		[Address(RVA = "0x3D7ADC0", Offset = "0x3D7ADC0", VA = "0x3D7ADC0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000298")]
-		[Address(RVA = "0x3A85D40", Offset = "0x3A85D40", VA = "0x3A85D40", Slot = "5")]
+		[Address(RVA = "0x3D7B690", Offset = "0x3D7B690", VA = "0x3D7B690", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1059,13 +1066,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000299")]
-		[Address(RVA = "0x3A85DB0", Offset = "0x3A85DB0", VA = "0x3A85DB0", Slot = "4")]
+		[Address(RVA = "0x3D7B700", Offset = "0x3D7B700", VA = "0x3D7B700", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600029A")]
-		[Address(RVA = "0x3A867D0", Offset = "0x3A867D0", VA = "0x3A867D0", Slot = "5")]
+		[Address(RVA = "0x3D7C120", Offset = "0x3D7C120", VA = "0x3D7C120", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1106,13 +1113,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x600029B")]
-		[Address(RVA = "0x3A86840", Offset = "0x3A86840", VA = "0x3A86840", Slot = "4")]
+		[Address(RVA = "0x3D7C190", Offset = "0x3D7C190", VA = "0x3D7C190", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600029C")]
-		[Address(RVA = "0x3A86B10", Offset = "0x3A86B10", VA = "0x3A86B10", Slot = "5")]
+		[Address(RVA = "0x3D7C460", Offset = "0x3D7C460", VA = "0x3D7C460", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1145,13 +1152,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<bool>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x600029D")]
-		[Address(RVA = "0x3A86B70", Offset = "0x3A86B70", VA = "0x3A86B70", Slot = "4")]
+		[Address(RVA = "0x3D7C4C0", Offset = "0x3D7C4C0", VA = "0x3D7C4C0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600029E")]
-		[Address(RVA = "0x3A86E60", Offset = "0x3A86E60", VA = "0x3A86E60", Slot = "5")]
+		[Address(RVA = "0x3D7C7B0", Offset = "0x3D7C7B0", VA = "0x3D7C7B0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1188,13 +1195,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<int>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x600029F")]
-		[Address(RVA = "0x3A86ED0", Offset = "0x3A86ED0", VA = "0x3A86ED0", Slot = "4")]
+		[Address(RVA = "0x3D7C820", Offset = "0x3D7C820", VA = "0x3D7C820", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60002A0")]
-		[Address(RVA = "0x3A872B0", Offset = "0x3A872B0", VA = "0x3A872B0", Slot = "5")]
+		[Address(RVA = "0x3D7CC00", Offset = "0x3D7CC00", VA = "0x3D7CC00", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1239,13 +1246,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<object>.ConfiguredTaskAwaiter _003C_003Eu__4;
 
 		[Token(Token = "0x60002A1")]
-		[Address(RVA = "0x3A87310", Offset = "0x3A87310", VA = "0x3A87310", Slot = "4")]
+		[Address(RVA = "0x3D7CC60", Offset = "0x3D7CC60", VA = "0x3D7CC60", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60002A2")]
-		[Address(RVA = "0x3A88810", Offset = "0x3A88810", VA = "0x3A88810", Slot = "5")]
+		[Address(RVA = "0x3D7E160", Offset = "0x3D7E160", VA = "0x3D7E160", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1278,13 +1285,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<bool>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x60002A3")]
-		[Address(RVA = "0x3A88880", Offset = "0x3A88880", VA = "0x3A88880", Slot = "4")]
+		[Address(RVA = "0x3D7E1D0", Offset = "0x3D7E1D0", VA = "0x3D7E1D0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60002A4")]
-		[Address(RVA = "0x3A88B00", Offset = "0x3A88B00", VA = "0x3A88B00", Slot = "5")]
+		[Address(RVA = "0x3D7E450", Offset = "0x3D7E450", VA = "0x3D7E450", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1329,13 +1336,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<int>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x60002A5")]
-		[Address(RVA = "0x3A88B60", Offset = "0x3A88B60", VA = "0x3A88B60", Slot = "4")]
+		[Address(RVA = "0x3D7E4B0", Offset = "0x3D7E4B0", VA = "0x3D7E4B0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60002A6")]
-		[Address(RVA = "0x3A88E60", Offset = "0x3A88E60", VA = "0x3A88E60", Slot = "5")]
+		[Address(RVA = "0x3D7E7B0", Offset = "0x3D7E7B0", VA = "0x3D7E7B0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1376,13 +1383,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<int>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x60002A7")]
-		[Address(RVA = "0x3A88ED0", Offset = "0x3A88ED0", VA = "0x3A88ED0", Slot = "4")]
+		[Address(RVA = "0x3D7E820", Offset = "0x3D7E820", VA = "0x3D7E820", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60002A8")]
-		[Address(RVA = "0x3A89290", Offset = "0x3A89290", VA = "0x3A89290", Slot = "5")]
+		[Address(RVA = "0x3D7EBE0", Offset = "0x3D7EBE0", VA = "0x3D7EBE0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1419,13 +1426,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x60002A9")]
-		[Address(RVA = "0x3A89300", Offset = "0x3A89300", VA = "0x3A89300", Slot = "4")]
+		[Address(RVA = "0x3D7EC50", Offset = "0x3D7EC50", VA = "0x3D7EC50", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60002AA")]
-		[Address(RVA = "0x3A89A10", Offset = "0x3A89A10", VA = "0x3A89A10", Slot = "5")]
+		[Address(RVA = "0x3D7F360", Offset = "0x3D7F360", VA = "0x3D7F360", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1462,13 +1469,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x60002AB")]
-		[Address(RVA = "0x3A89A70", Offset = "0x3A89A70", VA = "0x3A89A70", Slot = "4")]
+		[Address(RVA = "0x3D7F3C0", Offset = "0x3D7F3C0", VA = "0x3D7F3C0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60002AC")]
-		[Address(RVA = "0x3A8A1B0", Offset = "0x3A8A1B0", VA = "0x3A8A1B0", Slot = "5")]
+		[Address(RVA = "0x3D7FB00", Offset = "0x3D7FB00", VA = "0x3D7FB00", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1501,13 +1508,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x60002AD")]
-		[Address(RVA = "0x3A8A220", Offset = "0x3A8A220", VA = "0x3A8A220", Slot = "4")]
+		[Address(RVA = "0x3D7FB70", Offset = "0x3D7FB70", VA = "0x3D7FB70", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60002AE")]
-		[Address(RVA = "0x3A8A9E0", Offset = "0x3A8A9E0", VA = "0x3A8A9E0", Slot = "5")]
+		[Address(RVA = "0x3D80330", Offset = "0x3D80330", VA = "0x3D80330", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1540,13 +1547,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<int>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x60002AF")]
-		[Address(RVA = "0x3A8AA40", Offset = "0x3A8AA40", VA = "0x3A8AA40", Slot = "4")]
+		[Address(RVA = "0x3D80390", Offset = "0x3D80390", VA = "0x3D80390", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60002B0")]
-		[Address(RVA = "0x3A8AD40", Offset = "0x3A8AD40", VA = "0x3A8AD40", Slot = "5")]
+		[Address(RVA = "0x3D80690", Offset = "0x3D80690", VA = "0x3D80690", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1583,13 +1590,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<int>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x60002B1")]
-		[Address(RVA = "0x3A8ADB0", Offset = "0x3A8ADB0", VA = "0x3A8ADB0", Slot = "4")]
+		[Address(RVA = "0x3D80700", Offset = "0x3D80700", VA = "0x3D80700", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60002B2")]
-		[Address(RVA = "0x3A8B110", Offset = "0x3A8B110", VA = "0x3A8B110", Slot = "5")]
+		[Address(RVA = "0x3D80A60", Offset = "0x3D80A60", VA = "0x3D80A60", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1634,13 +1641,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<object>.ConfiguredTaskAwaiter _003C_003Eu__3;
 
 		[Token(Token = "0x60002B3")]
-		[Address(RVA = "0x3A8B170", Offset = "0x3A8B170", VA = "0x3A8B170", Slot = "4")]
+		[Address(RVA = "0x3D80AC0", Offset = "0x3D80AC0", VA = "0x3D80AC0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60002B4")]
-		[Address(RVA = "0x3A8C7B0", Offset = "0x3A8C7B0", VA = "0x3A8C7B0", Slot = "5")]
+		[Address(RVA = "0x3D82100", Offset = "0x3D82100", VA = "0x3D82100", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1717,13 +1724,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__4;
 
 		[Token(Token = "0x60002B5")]
-		[Address(RVA = "0x3A8C820", Offset = "0x3A8C820", VA = "0x3A8C820", Slot = "4")]
+		[Address(RVA = "0x3D82170", Offset = "0x3D82170", VA = "0x3D82170", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60002B6")]
-		[Address(RVA = "0x3A8DB20", Offset = "0x3A8DB20", VA = "0x3A8DB20", Slot = "5")]
+		[Address(RVA = "0x3D83470", Offset = "0x3D83470", VA = "0x3D83470", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1772,13 +1779,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 		private ConfiguredTaskAwaitable<object>.ConfiguredTaskAwaiter _003C_003Eu__3;
 
 		[Token(Token = "0x60002B7")]
-		[Address(RVA = "0x3A8DB80", Offset = "0x3A8DB80", VA = "0x3A8DB80", Slot = "4")]
+		[Address(RVA = "0x3D834D0", Offset = "0x3D834D0", VA = "0x3D834D0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60002B8")]
-		[Address(RVA = "0x3A8F3C0", Offset = "0x3A8F3C0", VA = "0x3A8F3C0", Slot = "5")]
+		[Address(RVA = "0x3D84D10", Offset = "0x3D84D10", VA = "0x3D84D10", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1842,14 +1849,14 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	public JsonNameTable? PropertyNameTable
 	{
 		[Token(Token = "0x600021F")]
-		[Address(RVA = "0x3A74FB0", Offset = "0x3A74FB0", VA = "0x3A74FB0")]
+		[Address(RVA = "0x3D6A900", Offset = "0x3D6A900", VA = "0x3D6A900")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000220")]
-		[Address(RVA = "0x3A74FC0", Offset = "0x3A74FC0", VA = "0x3A74FC0")]
+		[Address(RVA = "0x3D6A910", Offset = "0x3D6A910", VA = "0x3D6A910")]
 		[CompilerGenerated]
 		set
 		{
@@ -1860,13 +1867,13 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	public IArrayPool<char>? ArrayPool
 	{
 		[Token(Token = "0x6000221")]
-		[Address(RVA = "0x3A74FE0", Offset = "0x3A74FE0", VA = "0x3A74FE0")]
+		[Address(RVA = "0x3D6A930", Offset = "0x3D6A930", VA = "0x3D6A930")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000222")]
-		[Address(RVA = "0x3A74FF0", Offset = "0x3A74FF0", VA = "0x3A74FF0")]
+		[Address(RVA = "0x3D6A940", Offset = "0x3D6A940", VA = "0x3D6A940")]
 		set
 		{
 		}
@@ -1876,7 +1883,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	public int LineNumber
 	{
 		[Token(Token = "0x600026B")]
-		[Address(RVA = "0x3A7CC60", Offset = "0x3A7CC60", VA = "0x3A7CC60", Slot = "33")]
+		[Address(RVA = "0x3D725B0", Offset = "0x3D725B0", VA = "0x3D725B0", Slot = "33")]
 		get
 		{
 			return default(int);
@@ -1887,7 +1894,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	public int LinePosition
 	{
 		[Token(Token = "0x600026C")]
-		[Address(RVA = "0x3A7CCA0", Offset = "0x3A7CCA0", VA = "0x3A7CCA0", Slot = "34")]
+		[Address(RVA = "0x3D725F0", Offset = "0x3D725F0", VA = "0x3D725F0", Slot = "34")]
 		get
 		{
 			return default(int);
@@ -1895,21 +1902,21 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x60001E7")]
-	[Address(RVA = "0x3A71AD0", Offset = "0x3A71AD0", VA = "0x3A71AD0", Slot = "5")]
+	[Address(RVA = "0x3D67420", Offset = "0x3D67420", VA = "0x3D67420", Slot = "5")]
 	public override Task<bool> ReadAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001E8")]
-	[Address(RVA = "0x3A71AE0", Offset = "0x3A71AE0", VA = "0x3A71AE0")]
+	[Address(RVA = "0x3D67430", Offset = "0x3D67430", VA = "0x3D67430")]
 	internal Task<bool> DoReadAsync(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001E9")]
-	[Address(RVA = "0x3A72130", Offset = "0x3A72130", VA = "0x3A72130")]
+	[Address(RVA = "0x3D67A80", Offset = "0x3D67A80", VA = "0x3D67A80")]
 	[AsyncStateMachine(typeof(_003CDoReadAsync_003Ed__3))]
 	private Task<bool> DoReadAsync(Task<bool> task, CancellationToken cancellationToken)
 	{
@@ -1917,7 +1924,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x60001EA")]
-	[Address(RVA = "0x3A71FF0", Offset = "0x3A71FF0", VA = "0x3A71FF0")]
+	[Address(RVA = "0x3D67940", Offset = "0x3D67940", VA = "0x3D67940")]
 	[AsyncStateMachine(typeof(_003CParsePostValueAsync_003Ed__4))]
 	private Task<bool> ParsePostValueAsync(bool ignoreComments, CancellationToken cancellationToken)
 	{
@@ -1925,7 +1932,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x60001EB")]
-	[Address(RVA = "0x3A72270", Offset = "0x3A72270", VA = "0x3A72270")]
+	[Address(RVA = "0x3D67BC0", Offset = "0x3D67BC0", VA = "0x3D67BC0")]
 	[AsyncStateMachine(typeof(_003CReadFromFinishedAsync_003Ed__5))]
 	private Task<bool> ReadFromFinishedAsync(CancellationToken cancellationToken)
 	{
@@ -1933,14 +1940,14 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x60001EC")]
-	[Address(RVA = "0x3A723A0", Offset = "0x3A723A0", VA = "0x3A723A0")]
+	[Address(RVA = "0x3D67CF0", Offset = "0x3D67CF0", VA = "0x3D67CF0")]
 	private Task<int> ReadDataAsync(bool append, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001ED")]
-	[Address(RVA = "0x3A723B0", Offset = "0x3A723B0", VA = "0x3A723B0")]
+	[Address(RVA = "0x3D67D00", Offset = "0x3D67D00", VA = "0x3D67D00")]
 	[AsyncStateMachine(typeof(_003CReadDataAsync_003Ed__7))]
 	private Task<int> ReadDataAsync(bool append, int charsRequired, CancellationToken cancellationToken)
 	{
@@ -1948,7 +1955,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x60001EE")]
-	[Address(RVA = "0x3A71D80", Offset = "0x3A71D80", VA = "0x3A71D80")]
+	[Address(RVA = "0x3D676D0", Offset = "0x3D676D0", VA = "0x3D676D0")]
 	[AsyncStateMachine(typeof(_003CParseValueAsync_003Ed__8))]
 	private Task<bool> ParseValueAsync(CancellationToken cancellationToken)
 	{
@@ -1956,7 +1963,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x60001EF")]
-	[Address(RVA = "0x3A724F0", Offset = "0x3A724F0", VA = "0x3A724F0")]
+	[Address(RVA = "0x3D67E40", Offset = "0x3D67E40", VA = "0x3D67E40")]
 	[AsyncStateMachine(typeof(_003CReadStringIntoBufferAsync_003Ed__9))]
 	private Task ReadStringIntoBufferAsync(char quote, CancellationToken cancellationToken)
 	{
@@ -1964,14 +1971,14 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x60001F0")]
-	[Address(RVA = "0x3A72620", Offset = "0x3A72620", VA = "0x3A72620")]
+	[Address(RVA = "0x3D67F70", Offset = "0x3D67F70", VA = "0x3D67F70")]
 	private Task ProcessCarriageReturnAsync(bool append, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001F1")]
-	[Address(RVA = "0x3A72950", Offset = "0x3A72950", VA = "0x3A72950")]
+	[Address(RVA = "0x3D682A0", Offset = "0x3D682A0", VA = "0x3D682A0")]
 	[AsyncStateMachine(typeof(_003CProcessCarriageReturnAsync_003Ed__11))]
 	private Task ProcessCarriageReturnAsync(Task<bool> task)
 	{
@@ -1979,7 +1986,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x60001F2")]
-	[Address(RVA = "0x3A72A50", Offset = "0x3A72A50", VA = "0x3A72A50")]
+	[Address(RVA = "0x3D683A0", Offset = "0x3D683A0", VA = "0x3D683A0")]
 	[AsyncStateMachine(typeof(_003CParseUnicodeAsync_003Ed__12))]
 	private Task<char> ParseUnicodeAsync(CancellationToken cancellationToken)
 	{
@@ -1987,14 +1994,14 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x60001F3")]
-	[Address(RVA = "0x3A72830", Offset = "0x3A72830", VA = "0x3A72830")]
+	[Address(RVA = "0x3D68180", Offset = "0x3D68180", VA = "0x3D68180")]
 	private Task<bool> EnsureCharsAsync(int relativePosition, bool append, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001F4")]
-	[Address(RVA = "0x3A72B70", Offset = "0x3A72B70", VA = "0x3A72B70")]
+	[Address(RVA = "0x3D684C0", Offset = "0x3D684C0", VA = "0x3D684C0")]
 	[AsyncStateMachine(typeof(_003CReadCharsAsync_003Ed__14))]
 	private Task<bool> ReadCharsAsync(int relativePosition, bool append, CancellationToken cancellationToken)
 	{
@@ -2002,7 +2009,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x60001F5")]
-	[Address(RVA = "0x3A71EC0", Offset = "0x3A71EC0", VA = "0x3A71EC0")]
+	[Address(RVA = "0x3D67810", Offset = "0x3D67810", VA = "0x3D67810")]
 	[AsyncStateMachine(typeof(_003CParseObjectAsync_003Ed__15))]
 	private Task<bool> ParseObjectAsync(CancellationToken cancellationToken)
 	{
@@ -2010,7 +2017,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x60001F6")]
-	[Address(RVA = "0x3A72CB0", Offset = "0x3A72CB0", VA = "0x3A72CB0")]
+	[Address(RVA = "0x3D68600", Offset = "0x3D68600", VA = "0x3D68600")]
 	[AsyncStateMachine(typeof(_003CParseCommentAsync_003Ed__16))]
 	private Task ParseCommentAsync(bool setToken, CancellationToken cancellationToken)
 	{
@@ -2018,7 +2025,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x60001F7")]
-	[Address(RVA = "0x3A72DD0", Offset = "0x3A72DD0", VA = "0x3A72DD0")]
+	[Address(RVA = "0x3D68720", Offset = "0x3D68720", VA = "0x3D68720")]
 	[AsyncStateMachine(typeof(_003CEatWhitespaceAsync_003Ed__17))]
 	private Task EatWhitespaceAsync(CancellationToken cancellationToken)
 	{
@@ -2026,7 +2033,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x60001F8")]
-	[Address(RVA = "0x3A72ED0", Offset = "0x3A72ED0", VA = "0x3A72ED0")]
+	[Address(RVA = "0x3D68820", Offset = "0x3D68820", VA = "0x3D68820")]
 	[AsyncStateMachine(typeof(_003CParseStringAsync_003Ed__18))]
 	private Task ParseStringAsync(char quote, ReadType readType, CancellationToken cancellationToken)
 	{
@@ -2034,7 +2041,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x60001F9")]
-	[Address(RVA = "0x3A72FF0", Offset = "0x3A72FF0", VA = "0x3A72FF0")]
+	[Address(RVA = "0x3D68940", Offset = "0x3D68940", VA = "0x3D68940")]
 	[AsyncStateMachine(typeof(_003CMatchValueAsync_003Ed__19))]
 	private Task<bool> MatchValueAsync(string value, CancellationToken cancellationToken)
 	{
@@ -2042,7 +2049,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x60001FA")]
-	[Address(RVA = "0x3A73130", Offset = "0x3A73130", VA = "0x3A73130")]
+	[Address(RVA = "0x3D68A80", Offset = "0x3D68A80", VA = "0x3D68A80")]
 	[AsyncStateMachine(typeof(_003CMatchValueWithTrailingSeparatorAsync_003Ed__20))]
 	private Task<bool> MatchValueWithTrailingSeparatorAsync(string value, CancellationToken cancellationToken)
 	{
@@ -2050,7 +2057,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x60001FB")]
-	[Address(RVA = "0x3A73270", Offset = "0x3A73270", VA = "0x3A73270")]
+	[Address(RVA = "0x3D68BC0", Offset = "0x3D68BC0", VA = "0x3D68BC0")]
 	[AsyncStateMachine(typeof(_003CMatchAndSetAsync_003Ed__21))]
 	private Task MatchAndSetAsync(string value, JsonToken newToken, object? tokenValue, CancellationToken cancellationToken)
 	{
@@ -2058,28 +2065,28 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x60001FC")]
-	[Address(RVA = "0x3A733C0", Offset = "0x3A733C0", VA = "0x3A733C0")]
+	[Address(RVA = "0x3D68D10", Offset = "0x3D68D10", VA = "0x3D68D10")]
 	private Task ParseTrueAsync(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001FD")]
-	[Address(RVA = "0x3A73450", Offset = "0x3A73450", VA = "0x3A73450")]
+	[Address(RVA = "0x3D68DA0", Offset = "0x3D68DA0", VA = "0x3D68DA0")]
 	private Task ParseFalseAsync(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001FE")]
-	[Address(RVA = "0x3A734E0", Offset = "0x3A734E0", VA = "0x3A734E0")]
+	[Address(RVA = "0x3D68E30", Offset = "0x3D68E30", VA = "0x3D68E30")]
 	private Task ParseNullAsync(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001FF")]
-	[Address(RVA = "0x3A73550", Offset = "0x3A73550", VA = "0x3A73550")]
+	[Address(RVA = "0x3D68EA0", Offset = "0x3D68EA0", VA = "0x3D68EA0")]
 	[AsyncStateMachine(typeof(_003CParseConstructorAsync_003Ed__25))]
 	private Task ParseConstructorAsync(CancellationToken cancellationToken)
 	{
@@ -2087,7 +2094,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x6000200")]
-	[Address(RVA = "0x3A73660", Offset = "0x3A73660", VA = "0x3A73660")]
+	[Address(RVA = "0x3D68FB0", Offset = "0x3D68FB0", VA = "0x3D68FB0")]
 	[AsyncStateMachine(typeof(_003CParseNumberNaNAsync_003Ed__26))]
 	private Task<object> ParseNumberNaNAsync(ReadType readType, CancellationToken cancellationToken)
 	{
@@ -2095,7 +2102,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x6000201")]
-	[Address(RVA = "0x3A737A0", Offset = "0x3A737A0", VA = "0x3A737A0")]
+	[Address(RVA = "0x3D690F0", Offset = "0x3D690F0", VA = "0x3D690F0")]
 	[AsyncStateMachine(typeof(_003CParseNumberPositiveInfinityAsync_003Ed__27))]
 	private Task<object> ParseNumberPositiveInfinityAsync(ReadType readType, CancellationToken cancellationToken)
 	{
@@ -2103,7 +2110,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x6000202")]
-	[Address(RVA = "0x3A738E0", Offset = "0x3A738E0", VA = "0x3A738E0")]
+	[Address(RVA = "0x3D69230", Offset = "0x3D69230", VA = "0x3D69230")]
 	[AsyncStateMachine(typeof(_003CParseNumberNegativeInfinityAsync_003Ed__28))]
 	private Task<object> ParseNumberNegativeInfinityAsync(ReadType readType, CancellationToken cancellationToken)
 	{
@@ -2111,7 +2118,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x6000203")]
-	[Address(RVA = "0x3A73A20", Offset = "0x3A73A20", VA = "0x3A73A20")]
+	[Address(RVA = "0x3D69370", Offset = "0x3D69370", VA = "0x3D69370")]
 	[AsyncStateMachine(typeof(_003CParseNumberAsync_003Ed__29))]
 	private Task ParseNumberAsync(ReadType readType, CancellationToken cancellationToken)
 	{
@@ -2119,14 +2126,14 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x6000204")]
-	[Address(RVA = "0x3A73B30", Offset = "0x3A73B30", VA = "0x3A73B30")]
+	[Address(RVA = "0x3D69480", Offset = "0x3D69480", VA = "0x3D69480")]
 	private Task ParseUndefinedAsync(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000205")]
-	[Address(RVA = "0x3A73BA0", Offset = "0x3A73BA0", VA = "0x3A73BA0")]
+	[Address(RVA = "0x3D694F0", Offset = "0x3D694F0", VA = "0x3D694F0")]
 	[AsyncStateMachine(typeof(_003CParsePropertyAsync_003Ed__31))]
 	private Task<bool> ParsePropertyAsync(CancellationToken cancellationToken)
 	{
@@ -2134,7 +2141,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x6000206")]
-	[Address(RVA = "0x3A73CD0", Offset = "0x3A73CD0", VA = "0x3A73CD0")]
+	[Address(RVA = "0x3D69620", Offset = "0x3D69620", VA = "0x3D69620")]
 	[AsyncStateMachine(typeof(_003CReadNumberIntoBufferAsync_003Ed__32))]
 	private Task ReadNumberIntoBufferAsync(CancellationToken cancellationToken)
 	{
@@ -2142,7 +2149,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x6000207")]
-	[Address(RVA = "0x3A73DD0", Offset = "0x3A73DD0", VA = "0x3A73DD0")]
+	[Address(RVA = "0x3D69720", Offset = "0x3D69720", VA = "0x3D69720")]
 	[AsyncStateMachine(typeof(_003CParseUnquotedPropertyAsync_003Ed__33))]
 	private Task ParseUnquotedPropertyAsync(CancellationToken cancellationToken)
 	{
@@ -2150,7 +2157,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x6000208")]
-	[Address(RVA = "0x3A73ED0", Offset = "0x3A73ED0", VA = "0x3A73ED0")]
+	[Address(RVA = "0x3D69820", Offset = "0x3D69820", VA = "0x3D69820")]
 	[AsyncStateMachine(typeof(_003CReadNullCharAsync_003Ed__34))]
 	private Task<bool> ReadNullCharAsync(CancellationToken cancellationToken)
 	{
@@ -2158,7 +2165,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x6000209")]
-	[Address(RVA = "0x3A73FF0", Offset = "0x3A73FF0", VA = "0x3A73FF0")]
+	[Address(RVA = "0x3D69940", Offset = "0x3D69940", VA = "0x3D69940")]
 	[AsyncStateMachine(typeof(_003CHandleNullAsync_003Ed__35))]
 	private Task HandleNullAsync(CancellationToken cancellationToken)
 	{
@@ -2166,7 +2173,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x600020A")]
-	[Address(RVA = "0x3A740F0", Offset = "0x3A740F0", VA = "0x3A740F0")]
+	[Address(RVA = "0x3D69A40", Offset = "0x3D69A40", VA = "0x3D69A40")]
 	[AsyncStateMachine(typeof(_003CReadFinishedAsync_003Ed__36))]
 	private Task ReadFinishedAsync(CancellationToken cancellationToken)
 	{
@@ -2174,7 +2181,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x600020B")]
-	[Address(RVA = "0x3A741F0", Offset = "0x3A741F0", VA = "0x3A741F0")]
+	[Address(RVA = "0x3D69B40", Offset = "0x3D69B40", VA = "0x3D69B40")]
 	[AsyncStateMachine(typeof(_003CReadStringValueAsync_003Ed__37))]
 	private Task<object> ReadStringValueAsync(ReadType readType, CancellationToken cancellationToken)
 	{
@@ -2182,7 +2189,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x600020C")]
-	[Address(RVA = "0x3A74340", Offset = "0x3A74340", VA = "0x3A74340")]
+	[Address(RVA = "0x3D69C90", Offset = "0x3D69C90", VA = "0x3D69C90")]
 	[AsyncStateMachine(typeof(_003CReadNumberValueAsync_003Ed__38))]
 	private Task<object> ReadNumberValueAsync(ReadType readType, CancellationToken cancellationToken)
 	{
@@ -2190,14 +2197,14 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x600020D")]
-	[Address(RVA = "0x3A74490", Offset = "0x3A74490", VA = "0x3A74490", Slot = "6")]
+	[Address(RVA = "0x3D69DE0", Offset = "0x3D69DE0", VA = "0x3D69DE0", Slot = "6")]
 	public override Task<bool?> ReadAsBooleanAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600020E")]
-	[Address(RVA = "0x3A744A0", Offset = "0x3A744A0", VA = "0x3A744A0")]
+	[Address(RVA = "0x3D69DF0", Offset = "0x3D69DF0", VA = "0x3D69DF0")]
 	[AsyncStateMachine(typeof(_003CDoReadAsBooleanAsync_003Ed__40))]
 	internal Task<bool?> DoReadAsBooleanAsync(CancellationToken cancellationToken)
 	{
@@ -2205,14 +2212,14 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x600020F")]
-	[Address(RVA = "0x3A745E0", Offset = "0x3A745E0", VA = "0x3A745E0", Slot = "7")]
+	[Address(RVA = "0x3D69F30", Offset = "0x3D69F30", VA = "0x3D69F30", Slot = "7")]
 	public override Task<byte[]> ReadAsBytesAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000210")]
-	[Address(RVA = "0x3A745F0", Offset = "0x3A745F0", VA = "0x3A745F0")]
+	[Address(RVA = "0x3D69F40", Offset = "0x3D69F40", VA = "0x3D69F40")]
 	[AsyncStateMachine(typeof(_003CDoReadAsBytesAsync_003Ed__42))]
 	internal Task<byte[]> DoReadAsBytesAsync(CancellationToken cancellationToken)
 	{
@@ -2220,7 +2227,7 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x6000211")]
-	[Address(RVA = "0x3A74720", Offset = "0x3A74720", VA = "0x3A74720")]
+	[Address(RVA = "0x3D6A070", Offset = "0x3D6A070", VA = "0x3D6A070")]
 	[AsyncStateMachine(typeof(_003CReadIntoWrappedTypeObjectAsync_003Ed__43))]
 	private Task ReadIntoWrappedTypeObjectAsync(CancellationToken cancellationToken)
 	{
@@ -2228,14 +2235,14 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x6000212")]
-	[Address(RVA = "0x3A74820", Offset = "0x3A74820", VA = "0x3A74820", Slot = "8")]
+	[Address(RVA = "0x3D6A170", Offset = "0x3D6A170", VA = "0x3D6A170", Slot = "8")]
 	public override Task<DateTime?> ReadAsDateTimeAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000213")]
-	[Address(RVA = "0x3A74830", Offset = "0x3A74830", VA = "0x3A74830")]
+	[Address(RVA = "0x3D6A180", Offset = "0x3D6A180", VA = "0x3D6A180")]
 	[AsyncStateMachine(typeof(_003CDoReadAsDateTimeAsync_003Ed__45))]
 	internal Task<DateTime?> DoReadAsDateTimeAsync(CancellationToken cancellationToken)
 	{
@@ -2243,14 +2250,14 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x6000214")]
-	[Address(RVA = "0x3A74950", Offset = "0x3A74950", VA = "0x3A74950", Slot = "9")]
+	[Address(RVA = "0x3D6A2A0", Offset = "0x3D6A2A0", VA = "0x3D6A2A0", Slot = "9")]
 	public override Task<DateTimeOffset?> ReadAsDateTimeOffsetAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000215")]
-	[Address(RVA = "0x3A74960", Offset = "0x3A74960", VA = "0x3A74960")]
+	[Address(RVA = "0x3D6A2B0", Offset = "0x3D6A2B0", VA = "0x3D6A2B0")]
 	[AsyncStateMachine(typeof(_003CDoReadAsDateTimeOffsetAsync_003Ed__47))]
 	internal Task<DateTimeOffset?> DoReadAsDateTimeOffsetAsync(CancellationToken cancellationToken)
 	{
@@ -2258,14 +2265,14 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x6000216")]
-	[Address(RVA = "0x3A74A80", Offset = "0x3A74A80", VA = "0x3A74A80", Slot = "10")]
+	[Address(RVA = "0x3D6A3D0", Offset = "0x3D6A3D0", VA = "0x3D6A3D0", Slot = "10")]
 	public override Task<decimal?> ReadAsDecimalAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000217")]
-	[Address(RVA = "0x3A74A90", Offset = "0x3A74A90", VA = "0x3A74A90")]
+	[Address(RVA = "0x3D6A3E0", Offset = "0x3D6A3E0", VA = "0x3D6A3E0")]
 	[AsyncStateMachine(typeof(_003CDoReadAsDecimalAsync_003Ed__49))]
 	internal Task<decimal?> DoReadAsDecimalAsync(CancellationToken cancellationToken)
 	{
@@ -2273,14 +2280,14 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x6000218")]
-	[Address(RVA = "0x3A74BB0", Offset = "0x3A74BB0", VA = "0x3A74BB0", Slot = "11")]
+	[Address(RVA = "0x3D6A500", Offset = "0x3D6A500", VA = "0x3D6A500", Slot = "11")]
 	public override Task<double?> ReadAsDoubleAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000219")]
-	[Address(RVA = "0x3A74C40", Offset = "0x3A74C40", VA = "0x3A74C40")]
+	[Address(RVA = "0x3D6A590", Offset = "0x3D6A590", VA = "0x3D6A590")]
 	[AsyncStateMachine(typeof(_003CDoReadAsDoubleAsync_003Ed__51))]
 	internal Task<double?> DoReadAsDoubleAsync(CancellationToken cancellationToken)
 	{
@@ -2288,14 +2295,14 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x600021A")]
-	[Address(RVA = "0x3A74D60", Offset = "0x3A74D60", VA = "0x3A74D60", Slot = "12")]
+	[Address(RVA = "0x3D6A6B0", Offset = "0x3D6A6B0", VA = "0x3D6A6B0", Slot = "12")]
 	public override Task<int?> ReadAsInt32Async([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600021B")]
-	[Address(RVA = "0x3A74D70", Offset = "0x3A74D70", VA = "0x3A74D70")]
+	[Address(RVA = "0x3D6A6C0", Offset = "0x3D6A6C0", VA = "0x3D6A6C0")]
 	[AsyncStateMachine(typeof(_003CDoReadAsInt32Async_003Ed__53))]
 	internal Task<int?> DoReadAsInt32Async(CancellationToken cancellationToken)
 	{
@@ -2303,14 +2310,14 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x600021C")]
-	[Address(RVA = "0x3A74E90", Offset = "0x3A74E90", VA = "0x3A74E90", Slot = "13")]
+	[Address(RVA = "0x3D6A7E0", Offset = "0x3D6A7E0", VA = "0x3D6A7E0", Slot = "13")]
 	public override Task<string> ReadAsStringAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600021D")]
-	[Address(RVA = "0x3A74EA0", Offset = "0x3A74EA0", VA = "0x3A74EA0")]
+	[Address(RVA = "0x3D6A7F0", Offset = "0x3D6A7F0", VA = "0x3D6A7F0")]
 	[AsyncStateMachine(typeof(_003CDoReadAsStringAsync_003Ed__55))]
 	internal Task<string> DoReadAsStringAsync(CancellationToken cancellationToken)
 	{
@@ -2318,353 +2325,353 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x600021E")]
-	[Address(RVA = "0x3A62F00", Offset = "0x3A62F00", VA = "0x3A62F00")]
+	[Address(RVA = "0x3D58850", Offset = "0x3D58850", VA = "0x3D58850")]
 	public JsonTextReader(TextReader reader)
 	{
 	}
 
 	[Token(Token = "0x6000223")]
-	[Address(RVA = "0x3A75060", Offset = "0x3A75060", VA = "0x3A75060")]
+	[Address(RVA = "0x3D6A9B0", Offset = "0x3D6A9B0", VA = "0x3D6A9B0")]
 	private void EnsureBufferNotEmpty()
 	{
 	}
 
 	[Token(Token = "0x6000224")]
-	[Address(RVA = "0x3A728F0", Offset = "0x3A728F0", VA = "0x3A728F0")]
+	[Address(RVA = "0x3D68240", Offset = "0x3D68240", VA = "0x3D68240")]
 	private void SetNewLine(bool hasNextChar)
 	{
 	}
 
 	[Token(Token = "0x6000225")]
-	[Address(RVA = "0x3A750C0", Offset = "0x3A750C0", VA = "0x3A750C0")]
+	[Address(RVA = "0x3D6AA10", Offset = "0x3D6AA10", VA = "0x3D6AA10")]
 	private void OnNewLine(int pos)
 	{
 	}
 
 	[Token(Token = "0x6000226")]
-	[Address(RVA = "0x3A750D0", Offset = "0x3A750D0", VA = "0x3A750D0")]
+	[Address(RVA = "0x3D6AA20", Offset = "0x3D6AA20", VA = "0x3D6AA20")]
 	private void ParseString(char quote, ReadType readType)
 	{
 	}
 
 	[Token(Token = "0x6000227")]
-	[Address(RVA = "0x3A75860", Offset = "0x3A75860", VA = "0x3A75860")]
+	[Address(RVA = "0x3D6B1B0", Offset = "0x3D6B1B0", VA = "0x3D6B1B0")]
 	private void ParseReadString(char quote, ReadType readType)
 	{
 	}
 
 	[Token(Token = "0x6000228")]
-	[Address(RVA = "0x3A75D40", Offset = "0x3A75D40", VA = "0x3A75D40")]
+	[Address(RVA = "0x3D6B690", Offset = "0x3D6B690", VA = "0x3D6B690")]
 	private static void BlockCopyChars(char[] src, int srcOffset, char[] dst, int dstOffset, int count)
 	{
 	}
 
 	[Token(Token = "0x6000229")]
-	[Address(RVA = "0x3A75110", Offset = "0x3A75110", VA = "0x3A75110")]
+	[Address(RVA = "0x3D6AA60", Offset = "0x3D6AA60", VA = "0x3D6AA60")]
 	private void ShiftBufferIfNeeded()
 	{
 	}
 
 	[Token(Token = "0x600022A")]
-	[Address(RVA = "0x3A75D50", Offset = "0x3A75D50", VA = "0x3A75D50")]
+	[Address(RVA = "0x3D6B6A0", Offset = "0x3D6B6A0", VA = "0x3D6B6A0")]
 	private int ReadData(bool append)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600022B")]
-	[Address(RVA = "0x3A75DF0", Offset = "0x3A75DF0", VA = "0x3A75DF0")]
+	[Address(RVA = "0x3D6B740", Offset = "0x3D6B740", VA = "0x3D6B740")]
 	private void PrepareBufferForReadData(bool append, int charsRequired)
 	{
 	}
 
 	[Token(Token = "0x600022C")]
-	[Address(RVA = "0x3A75D60", Offset = "0x3A75D60", VA = "0x3A75D60")]
+	[Address(RVA = "0x3D6B6B0", Offset = "0x3D6B6B0", VA = "0x3D6B6B0")]
 	private int ReadData(bool append, int charsRequired)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600022D")]
-	[Address(RVA = "0x3A75FD0", Offset = "0x3A75FD0", VA = "0x3A75FD0")]
+	[Address(RVA = "0x3D6B920", Offset = "0x3D6B920", VA = "0x3D6B920")]
 	private bool EnsureChars(int relativePosition, bool append)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600022E")]
-	[Address(RVA = "0x3A76030", Offset = "0x3A76030", VA = "0x3A76030")]
+	[Address(RVA = "0x3D6B980", Offset = "0x3D6B980", VA = "0x3D6B980")]
 	private bool ReadChars(int relativePosition, bool append)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600022F")]
-	[Address(RVA = "0x3A76090", Offset = "0x3A76090", VA = "0x3A76090", Slot = "21")]
+	[Address(RVA = "0x3D6B9E0", Offset = "0x3D6B9E0", VA = "0x3D6B9E0", Slot = "21")]
 	public override bool Read()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000230")]
-	[Address(RVA = "0x3A775C0", Offset = "0x3A775C0", VA = "0x3A775C0", Slot = "22")]
+	[Address(RVA = "0x3D6CF10", Offset = "0x3D6CF10", VA = "0x3D6CF10", Slot = "22")]
 	public override int? ReadAsInt32()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000231")]
-	[Address(RVA = "0x3A77C30", Offset = "0x3A77C30", VA = "0x3A77C30", Slot = "28")]
+	[Address(RVA = "0x3D6D580", Offset = "0x3D6D580", VA = "0x3D6D580", Slot = "28")]
 	public override DateTime? ReadAsDateTime()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000232")]
-	[Address(RVA = "0x3A783D0", Offset = "0x3A783D0", VA = "0x3A783D0", Slot = "23")]
+	[Address(RVA = "0x3D6DD20", Offset = "0x3D6DD20", VA = "0x3D6DD20", Slot = "23")]
 	public override string? ReadAsString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000233")]
-	[Address(RVA = "0x3A78400", Offset = "0x3A78400", VA = "0x3A78400", Slot = "24")]
+	[Address(RVA = "0x3D6DD50", Offset = "0x3D6DD50", VA = "0x3D6DD50", Slot = "24")]
 	public override byte[]? ReadAsBytes()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000234")]
-	[Address(RVA = "0x3A77CB0", Offset = "0x3A77CB0", VA = "0x3A77CB0")]
+	[Address(RVA = "0x3D6D600", Offset = "0x3D6D600", VA = "0x3D6D600")]
 	private object? ReadStringValue(ReadType readType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000235")]
-	[Address(RVA = "0x3A78F50", Offset = "0x3A78F50", VA = "0x3A78F50")]
+	[Address(RVA = "0x3D6E8A0", Offset = "0x3D6E8A0", VA = "0x3D6E8A0")]
 	private object? FinishReadQuotedStringValue(ReadType readType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000236")]
-	[Address(RVA = "0x3A78C00", Offset = "0x3A78C00", VA = "0x3A78C00")]
+	[Address(RVA = "0x3D6E550", Offset = "0x3D6E550", VA = "0x3D6E550")]
 	private JsonReaderException CreateUnexpectedCharacterException(char c)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000237")]
-	[Address(RVA = "0x3A79500", Offset = "0x3A79500", VA = "0x3A79500", Slot = "26")]
+	[Address(RVA = "0x3D6EE50", Offset = "0x3D6EE50", VA = "0x3D6EE50", Slot = "26")]
 	public override bool? ReadAsBoolean()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000238")]
-	[Address(RVA = "0x3A78BA0", Offset = "0x3A78BA0", VA = "0x3A78BA0")]
+	[Address(RVA = "0x3D6E4F0", Offset = "0x3D6E4F0", VA = "0x3D6E4F0")]
 	private void ProcessValueComma()
 	{
 	}
 
 	[Token(Token = "0x6000239")]
-	[Address(RVA = "0x3A77640", Offset = "0x3A77640", VA = "0x3A77640")]
+	[Address(RVA = "0x3D6CF90", Offset = "0x3D6CF90", VA = "0x3D6CF90")]
 	private object? ReadNumberValue(ReadType readType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600023A")]
-	[Address(RVA = "0x3A79BD0", Offset = "0x3A79BD0", VA = "0x3A79BD0")]
+	[Address(RVA = "0x3D6F520", Offset = "0x3D6F520", VA = "0x3D6F520")]
 	private object? FinishReadQuotedNumber(ReadType readType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600023B")]
-	[Address(RVA = "0x3A79D20", Offset = "0x3A79D20", VA = "0x3A79D20", Slot = "29")]
+	[Address(RVA = "0x3D6F670", Offset = "0x3D6F670", VA = "0x3D6F670", Slot = "29")]
 	public override DateTimeOffset? ReadAsDateTimeOffset()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600023C")]
-	[Address(RVA = "0x3A79DB0", Offset = "0x3A79DB0", VA = "0x3A79DB0", Slot = "27")]
+	[Address(RVA = "0x3D6F700", Offset = "0x3D6F700", VA = "0x3D6F700", Slot = "27")]
 	public override decimal? ReadAsDecimal()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600023D")]
-	[Address(RVA = "0x3A79E40", Offset = "0x3A79E40", VA = "0x3A79E40", Slot = "25")]
+	[Address(RVA = "0x3D6F790", Offset = "0x3D6F790", VA = "0x3D6F790", Slot = "25")]
 	public override double? ReadAsDouble()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600023E")]
-	[Address(RVA = "0x3A78AA0", Offset = "0x3A78AA0", VA = "0x3A78AA0")]
+	[Address(RVA = "0x3D6E3F0", Offset = "0x3D6E3F0", VA = "0x3D6E3F0")]
 	private void HandleNull()
 	{
 	}
 
 	[Token(Token = "0x600023F")]
-	[Address(RVA = "0x3A78DE0", Offset = "0x3A78DE0", VA = "0x3A78DE0")]
+	[Address(RVA = "0x3D6E730", Offset = "0x3D6E730", VA = "0x3D6E730")]
 	private void ReadFinished()
 	{
 	}
 
 	[Token(Token = "0x6000240")]
-	[Address(RVA = "0x3A78A50", Offset = "0x3A78A50", VA = "0x3A78A50")]
+	[Address(RVA = "0x3D6E3A0", Offset = "0x3D6E3A0", VA = "0x3D6E3A0")]
 	private bool ReadNullChar()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000241")]
-	[Address(RVA = "0x3A71D10", Offset = "0x3A71D10", VA = "0x3A71D10")]
+	[Address(RVA = "0x3D67660", Offset = "0x3D67660", VA = "0x3D67660")]
 	private void EnsureBuffer()
 	{
 	}
 
 	[Token(Token = "0x6000242")]
-	[Address(RVA = "0x3A751D0", Offset = "0x3A751D0", VA = "0x3A751D0")]
+	[Address(RVA = "0x3D6AB20", Offset = "0x3D6AB20", VA = "0x3D6AB20")]
 	private void ReadStringIntoBuffer(char quote)
 	{
 	}
 
 	[Token(Token = "0x6000243")]
-	[Address(RVA = "0x3A7A050", Offset = "0x3A7A050", VA = "0x3A7A050")]
+	[Address(RVA = "0x3D6F9A0", Offset = "0x3D6F9A0", VA = "0x3D6F9A0")]
 	private void FinishReadStringIntoBuffer(int charPos, int initialPosition, int lastWritePosition)
 	{
 	}
 
 	[Token(Token = "0x6000244")]
-	[Address(RVA = "0x3A7A000", Offset = "0x3A7A000", VA = "0x3A7A000")]
+	[Address(RVA = "0x3D6F950", Offset = "0x3D6F950", VA = "0x3D6F950")]
 	private void WriteCharToBuffer(char writeChar, int lastWritePosition, int writeToPosition)
 	{
 	}
 
 	[Token(Token = "0x6000245")]
-	[Address(RVA = "0x3A7A150", Offset = "0x3A7A150", VA = "0x3A7A150")]
+	[Address(RVA = "0x3D6FAA0", Offset = "0x3D6FAA0", VA = "0x3D6FAA0")]
 	private char ConvertUnicode(bool enoughChars)
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x6000246")]
-	[Address(RVA = "0x3A79F90", Offset = "0x3A79F90", VA = "0x3A79F90")]
+	[Address(RVA = "0x3D6F8E0", Offset = "0x3D6F8E0", VA = "0x3D6F8E0")]
 	private char ParseUnicode()
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x6000247")]
-	[Address(RVA = "0x3A7A2A0", Offset = "0x3A7A2A0", VA = "0x3A7A2A0")]
+	[Address(RVA = "0x3D6FBF0", Offset = "0x3D6FBF0", VA = "0x3D6FBF0")]
 	private void ReadNumberIntoBuffer()
 	{
 	}
 
 	[Token(Token = "0x6000248")]
-	[Address(RVA = "0x3A7A320", Offset = "0x3A7A320", VA = "0x3A7A320")]
+	[Address(RVA = "0x3D6FC70", Offset = "0x3D6FC70", VA = "0x3D6FC70")]
 	private bool ReadNumberCharIntoBuffer(char currentChar, int charPos)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000249")]
-	[Address(RVA = "0x3A7A450", Offset = "0x3A7A450", VA = "0x3A7A450")]
+	[Address(RVA = "0x3D6FDA0", Offset = "0x3D6FDA0", VA = "0x3D6FDA0")]
 	private void ClearRecentString()
 	{
 	}
 
 	[Token(Token = "0x600024A")]
-	[Address(RVA = "0x3A76B70", Offset = "0x3A76B70", VA = "0x3A76B70")]
+	[Address(RVA = "0x3D6C4C0", Offset = "0x3D6C4C0", VA = "0x3D6C4C0")]
 	private bool ParsePostValue(bool ignoreComments)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600024B")]
-	[Address(RVA = "0x3A769C0", Offset = "0x3A769C0", VA = "0x3A769C0")]
+	[Address(RVA = "0x3D6C310", Offset = "0x3D6C310", VA = "0x3D6C310")]
 	private bool ParseObject()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600024C")]
-	[Address(RVA = "0x3A7A470", Offset = "0x3A7A470", VA = "0x3A7A470")]
+	[Address(RVA = "0x3D6FDC0", Offset = "0x3D6FDC0", VA = "0x3D6FDC0")]
 	private bool ParseProperty()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600024D")]
-	[Address(RVA = "0x3A7A760", Offset = "0x3A7A760", VA = "0x3A7A760")]
+	[Address(RVA = "0x3D700B0", Offset = "0x3D700B0", VA = "0x3D700B0")]
 	private bool ValidIdentifierChar(char value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600024E")]
-	[Address(RVA = "0x3A7A7B0", Offset = "0x3A7A7B0", VA = "0x3A7A7B0")]
+	[Address(RVA = "0x3D70100", Offset = "0x3D70100", VA = "0x3D70100")]
 	private void ParseUnquotedProperty()
 	{
 	}
 
 	[Token(Token = "0x600024F")]
-	[Address(RVA = "0x3A7A8B0", Offset = "0x3A7A8B0", VA = "0x3A7A8B0")]
+	[Address(RVA = "0x3D70200", Offset = "0x3D70200", VA = "0x3D70200")]
 	private bool ReadUnquotedPropertyReportIfDone(char currentChar, int initialPosition)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000250")]
-	[Address(RVA = "0x3A76310", Offset = "0x3A76310", VA = "0x3A76310")]
+	[Address(RVA = "0x3D6BC60", Offset = "0x3D6BC60", VA = "0x3D6BC60")]
 	private bool ParseValue()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000251")]
-	[Address(RVA = "0x3A78DC0", Offset = "0x3A78DC0", VA = "0x3A78DC0")]
+	[Address(RVA = "0x3D6E710", Offset = "0x3D6E710", VA = "0x3D6E710")]
 	private void ProcessLineFeed()
 	{
 	}
 
 	[Token(Token = "0x6000252")]
-	[Address(RVA = "0x3A78D00", Offset = "0x3A78D00", VA = "0x3A78D00")]
+	[Address(RVA = "0x3D6E650", Offset = "0x3D6E650", VA = "0x3D6E650")]
 	private void ProcessCarriageReturn(bool append)
 	{
 	}
 
 	[Token(Token = "0x6000253")]
-	[Address(RVA = "0x3A77030", Offset = "0x3A77030", VA = "0x3A77030")]
+	[Address(RVA = "0x3D6C980", Offset = "0x3D6C980", VA = "0x3D6C980")]
 	private void EatWhitespace()
 	{
 	}
 
 	[Token(Token = "0x6000254")]
-	[Address(RVA = "0x3A7AC00", Offset = "0x3A7AC00", VA = "0x3A7AC00")]
+	[Address(RVA = "0x3D70550", Offset = "0x3D70550", VA = "0x3D70550")]
 	private void ParseConstructor()
 	{
 	}
 
 	[Token(Token = "0x6000255")]
-	[Address(RVA = "0x3A79200", Offset = "0x3A79200", VA = "0x3A79200")]
+	[Address(RVA = "0x3D6EB50", Offset = "0x3D6EB50", VA = "0x3D6EB50")]
 	private void ParseNumber(ReadType readType)
 	{
 	}
 
 	[Token(Token = "0x6000256")]
-	[Address(RVA = "0x3A7B030", Offset = "0x3A7B030", VA = "0x3A7B030")]
+	[Address(RVA = "0x3D70980", Offset = "0x3D70980", VA = "0x3D70980")]
 	private void ParseReadNumber(ReadType readType, char firstChar, int initialPosition)
 	{
 	}
 
 	[Token(Token = "0x6000257")]
-	[Address(RVA = "0x3A7C290", Offset = "0x3A7C290", VA = "0x3A7C290")]
+	[Address(RVA = "0x3D71BE0", Offset = "0x3D71BE0", VA = "0x3D71BE0")]
 	private JsonReaderException ThrowReaderError(string message, [Optional] Exception? ex)
 	{
 		return null;
@@ -2672,126 +2679,126 @@ public class JsonTextReader : JsonReader, IJsonLineInfo
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x6000258")]
-	[Address(RVA = "0x3A7C350", Offset = "0x3A7C350", VA = "0x3A7C350")]
+	[Address(RVA = "0x3D71CA0", Offset = "0x3D71CA0", VA = "0x3D71CA0")]
 	private static object BigIntegerParse(string number, CultureInfo culture)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000259")]
-	[Address(RVA = "0x3A77160", Offset = "0x3A77160", VA = "0x3A77160")]
+	[Address(RVA = "0x3D6CAB0", Offset = "0x3D6CAB0", VA = "0x3D6CAB0")]
 	private void ParseComment(bool setToken)
 	{
 	}
 
 	[Token(Token = "0x600025A")]
-	[Address(RVA = "0x3A7C3C0", Offset = "0x3A7C3C0", VA = "0x3A7C3C0")]
+	[Address(RVA = "0x3D71D10", Offset = "0x3D71D10", VA = "0x3D71D10")]
 	private void EndComment(bool setToken, int initialPosition, int endPosition)
 	{
 	}
 
 	[Token(Token = "0x600025B")]
-	[Address(RVA = "0x3A7C400", Offset = "0x3A7C400", VA = "0x3A7C400")]
+	[Address(RVA = "0x3D71D50", Offset = "0x3D71D50", VA = "0x3D71D50")]
 	private bool MatchValue(string value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600025C")]
-	[Address(RVA = "0x3A7C480", Offset = "0x3A7C480", VA = "0x3A7C480")]
+	[Address(RVA = "0x3D71DD0", Offset = "0x3D71DD0", VA = "0x3D71DD0")]
 	private bool MatchValue(bool enoughChars, string value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600025D")]
-	[Address(RVA = "0x3A792D0", Offset = "0x3A792D0", VA = "0x3A792D0")]
+	[Address(RVA = "0x3D6EC20", Offset = "0x3D6EC20", VA = "0x3D6EC20")]
 	private bool MatchValueWithTrailingSeparator(string value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600025E")]
-	[Address(RVA = "0x3A7C550", Offset = "0x3A7C550", VA = "0x3A7C550")]
+	[Address(RVA = "0x3D71EA0", Offset = "0x3D71EA0", VA = "0x3D71EA0")]
 	private bool IsSeparator(char c)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600025F")]
-	[Address(RVA = "0x3A7AA00", Offset = "0x3A7AA00", VA = "0x3A7AA00")]
+	[Address(RVA = "0x3D70350", Offset = "0x3D70350", VA = "0x3D70350")]
 	private void ParseTrue()
 	{
 	}
 
 	[Token(Token = "0x6000260")]
-	[Address(RVA = "0x3A79EC0", Offset = "0x3A79EC0", VA = "0x3A79EC0")]
+	[Address(RVA = "0x3D6F810", Offset = "0x3D6F810", VA = "0x3D6F810")]
 	private void ParseNull()
 	{
 	}
 
 	[Token(Token = "0x6000261")]
-	[Address(RVA = "0x3A7AF60", Offset = "0x3A7AF60", VA = "0x3A7AF60")]
+	[Address(RVA = "0x3D708B0", Offset = "0x3D708B0", VA = "0x3D708B0")]
 	private void ParseUndefined()
 	{
 	}
 
 	[Token(Token = "0x6000262")]
-	[Address(RVA = "0x3A7AB00", Offset = "0x3A7AB00", VA = "0x3A7AB00")]
+	[Address(RVA = "0x3D70450", Offset = "0x3D70450", VA = "0x3D70450")]
 	private void ParseFalse()
 	{
 	}
 
 	[Token(Token = "0x6000263")]
-	[Address(RVA = "0x3A79190", Offset = "0x3A79190", VA = "0x3A79190")]
+	[Address(RVA = "0x3D6EAE0", Offset = "0x3D6EAE0", VA = "0x3D6EAE0")]
 	private object ParseNumberNegativeInfinity(ReadType readType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000264")]
-	[Address(RVA = "0x3A7C6A0", Offset = "0x3A7C6A0", VA = "0x3A7C6A0")]
+	[Address(RVA = "0x3D71FF0", Offset = "0x3D71FF0", VA = "0x3D71FF0")]
 	private object ParseNumberNegativeInfinity(ReadType readType, bool matched)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000265")]
-	[Address(RVA = "0x3A79420", Offset = "0x3A79420", VA = "0x3A79420")]
+	[Address(RVA = "0x3D6ED70", Offset = "0x3D6ED70", VA = "0x3D6ED70")]
 	private object ParseNumberPositiveInfinity(ReadType readType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000266")]
-	[Address(RVA = "0x3A7C850", Offset = "0x3A7C850", VA = "0x3A7C850")]
+	[Address(RVA = "0x3D721A0", Offset = "0x3D721A0", VA = "0x3D721A0")]
 	private object ParseNumberPositiveInfinity(ReadType readType, bool matched)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000267")]
-	[Address(RVA = "0x3A79490", Offset = "0x3A79490", VA = "0x3A79490")]
+	[Address(RVA = "0x3D6EDE0", Offset = "0x3D6EDE0", VA = "0x3D6EDE0")]
 	private object ParseNumberNaN(ReadType readType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000268")]
-	[Address(RVA = "0x3A7CA00", Offset = "0x3A7CA00", VA = "0x3A7CA00")]
+	[Address(RVA = "0x3D72350", Offset = "0x3D72350", VA = "0x3D72350")]
 	private object ParseNumberNaN(ReadType readType, bool matched)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000269")]
-	[Address(RVA = "0x3A7CBB0", Offset = "0x3A7CBB0", VA = "0x3A7CBB0", Slot = "31")]
+	[Address(RVA = "0x3D72500", Offset = "0x3D72500", VA = "0x3D72500", Slot = "31")]
 	public override void Close()
 	{
 	}
 
 	[Token(Token = "0x600026A")]
-	[Address(RVA = "0x3A7CC50", Offset = "0x3A7CC50", VA = "0x3A7CC50", Slot = "32")]
+	[Address(RVA = "0x3D725A0", Offset = "0x3D725A0", VA = "0x3D725A0", Slot = "32")]
 	public bool HasLineInfo()
 	{
 		return default(bool);

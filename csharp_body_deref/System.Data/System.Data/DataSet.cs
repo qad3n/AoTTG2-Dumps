@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.DataSet
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.ComponentModel;
 using System.Globalization;
@@ -143,13 +150,13 @@ public class DataSet : MarshalByValueComponent, IListSource, IXmlSerializable, I
 	public SerializationFormat RemotingFormat
 	{
 		[Token(Token = "0x6000363")]
-		[Address(RVA = "0x42423C0", Offset = "0x42423C0", VA = "0x42423C0")]
+		[Address(RVA = "0x457FB20", Offset = "0x457FB20", VA = "0x457FB20")]
 		get
 		{
 			return default(SerializationFormat);
 		}
 		[Token(Token = "0x6000364")]
-		[Address(RVA = "0x42423D0", Offset = "0x42423D0", VA = "0x42423D0")]
+		[Address(RVA = "0x457FB30", Offset = "0x457FB30", VA = "0x457FB30")]
 		set
 		{
 		}
@@ -161,7 +168,7 @@ public class DataSet : MarshalByValueComponent, IListSource, IXmlSerializable, I
 	public virtual SchemaSerializationMode SchemaSerializationMode
 	{
 		[Token(Token = "0x6000365")]
-		[Address(RVA = "0x4242580", Offset = "0x4242580", VA = "0x4242580", Slot = "27")]
+		[Address(RVA = "0x457FCE0", Offset = "0x457FCE0", VA = "0x457FCE0", Slot = "27")]
 		get
 		{
 			return default(SchemaSerializationMode);
@@ -173,13 +180,13 @@ public class DataSet : MarshalByValueComponent, IListSource, IXmlSerializable, I
 	public bool CaseSensitive
 	{
 		[Token(Token = "0x6000373")]
-		[Address(RVA = "0x42466B0", Offset = "0x42466B0", VA = "0x42466B0")]
+		[Address(RVA = "0x4583E10", Offset = "0x4583E10", VA = "0x4583E10")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000374")]
-		[Address(RVA = "0x42466C0", Offset = "0x42466C0", VA = "0x42466C0")]
+		[Address(RVA = "0x4583E20", Offset = "0x4583E20", VA = "0x4583E20")]
 		set
 		{
 		}
@@ -189,7 +196,7 @@ public class DataSet : MarshalByValueComponent, IListSource, IXmlSerializable, I
 	private bool System_002EComponentModel_002EIListSource_002EContainsListCollection
 	{
 		[Token(Token = "0x6000375")]
-		[Address(RVA = "0x4246F50", Offset = "0x4246F50", VA = "0x4246F50", Slot = "16")]
+		[Address(RVA = "0x45846B0", Offset = "0x45846B0", VA = "0x45846B0", Slot = "16")]
 		get
 		{
 			return default(bool);
@@ -201,7 +208,7 @@ public class DataSet : MarshalByValueComponent, IListSource, IXmlSerializable, I
 	public DataViewManager DefaultViewManager
 	{
 		[Token(Token = "0x6000376")]
-		[Address(RVA = "0x4246F60", Offset = "0x4246F60", VA = "0x4246F60")]
+		[Address(RVA = "0x45846C0", Offset = "0x45846C0", VA = "0x45846C0")]
 		get
 		{
 			return null;
@@ -213,13 +220,13 @@ public class DataSet : MarshalByValueComponent, IListSource, IXmlSerializable, I
 	public bool EnforceConstraints
 	{
 		[Token(Token = "0x6000377")]
-		[Address(RVA = "0x4247090", Offset = "0x4247090", VA = "0x4247090")]
+		[Address(RVA = "0x45847F0", Offset = "0x45847F0", VA = "0x45847F0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000378")]
-		[Address(RVA = "0x42464F0", Offset = "0x42464F0", VA = "0x42464F0")]
+		[Address(RVA = "0x4583C50", Offset = "0x4583C50", VA = "0x4583C50")]
 		set
 		{
 		}
@@ -230,13 +237,13 @@ public class DataSet : MarshalByValueComponent, IListSource, IXmlSerializable, I
 	public string DataSetName
 	{
 		[Token(Token = "0x600037B")]
-		[Address(RVA = "0x4247A80", Offset = "0x4247A80", VA = "0x4247A80")]
+		[Address(RVA = "0x45851E0", Offset = "0x45851E0", VA = "0x45851E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600037C")]
-		[Address(RVA = "0x42421F0", Offset = "0x42421F0", VA = "0x42421F0")]
+		[Address(RVA = "0x457F950", Offset = "0x457F950", VA = "0x457F950")]
 		set
 		{
 		}
@@ -247,13 +254,13 @@ public class DataSet : MarshalByValueComponent, IListSource, IXmlSerializable, I
 	public string Namespace
 	{
 		[Token(Token = "0x600037D")]
-		[Address(RVA = "0x4247B00", Offset = "0x4247B00", VA = "0x4247B00")]
+		[Address(RVA = "0x4585260", Offset = "0x4585260", VA = "0x4585260")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600037E")]
-		[Address(RVA = "0x4247B10", Offset = "0x4247B10", VA = "0x4247B10")]
+		[Address(RVA = "0x4585270", Offset = "0x4585270", VA = "0x4585270")]
 		set
 		{
 		}
@@ -264,13 +271,13 @@ public class DataSet : MarshalByValueComponent, IListSource, IXmlSerializable, I
 	public string Prefix
 	{
 		[Token(Token = "0x600037F")]
-		[Address(RVA = "0x42483B0", Offset = "0x42483B0", VA = "0x42483B0")]
+		[Address(RVA = "0x4585B10", Offset = "0x4585B10", VA = "0x4585B10")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000380")]
-		[Address(RVA = "0x42483C0", Offset = "0x42483C0", VA = "0x42483C0")]
+		[Address(RVA = "0x4585B20", Offset = "0x4585B20", VA = "0x4585B20")]
 		set
 		{
 		}
@@ -281,7 +288,7 @@ public class DataSet : MarshalByValueComponent, IListSource, IXmlSerializable, I
 	public PropertyCollection ExtendedProperties
 	{
 		[Token(Token = "0x6000381")]
-		[Address(RVA = "0x4246370", Offset = "0x4246370", VA = "0x4246370")]
+		[Address(RVA = "0x4583AD0", Offset = "0x4583AD0", VA = "0x4583AD0")]
 		get
 		{
 			return null;
@@ -293,7 +300,7 @@ public class DataSet : MarshalByValueComponent, IListSource, IXmlSerializable, I
 	public bool IsInitialized
 	{
 		[Token(Token = "0x6000382")]
-		[Address(RVA = "0x4248570", Offset = "0x4248570", VA = "0x4248570", Slot = "21")]
+		[Address(RVA = "0x4585CD0", Offset = "0x4585CD0", VA = "0x4585CD0", Slot = "21")]
 		get
 		{
 			return default(bool);
@@ -304,13 +311,13 @@ public class DataSet : MarshalByValueComponent, IListSource, IXmlSerializable, I
 	public CultureInfo Locale
 	{
 		[Token(Token = "0x6000383")]
-		[Address(RVA = "0x4248580", Offset = "0x4248580", VA = "0x4248580")]
+		[Address(RVA = "0x4585CE0", Offset = "0x4585CE0", VA = "0x4585CE0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000384")]
-		[Address(RVA = "0x4248590", Offset = "0x4248590", VA = "0x4248590")]
+		[Address(RVA = "0x4585CF0", Offset = "0x4585CF0", VA = "0x4585CF0")]
 		set
 		{
 		}
@@ -322,13 +329,13 @@ public class DataSet : MarshalByValueComponent, IListSource, IXmlSerializable, I
 	public override ISite Site
 	{
 		[Token(Token = "0x6000387")]
-		[Address(RVA = "0x42497A0", Offset = "0x42497A0", VA = "0x42497A0", Slot = "10")]
+		[Address(RVA = "0x4586F00", Offset = "0x4586F00", VA = "0x4586F00", Slot = "10")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000388")]
-		[Address(RVA = "0x42497B0", Offset = "0x42497B0", VA = "0x42497B0", Slot = "11")]
+		[Address(RVA = "0x4586F10", Offset = "0x4586F10", VA = "0x4586F10", Slot = "11")]
 		set
 		{
 		}
@@ -339,7 +346,7 @@ public class DataSet : MarshalByValueComponent, IListSource, IXmlSerializable, I
 	public DataRelationCollection Relations
 	{
 		[Token(Token = "0x6000389")]
-		[Address(RVA = "0x42499D0", Offset = "0x42499D0", VA = "0x42499D0")]
+		[Address(RVA = "0x4587130", Offset = "0x4587130", VA = "0x4587130")]
 		get
 		{
 			return null;
@@ -351,7 +358,7 @@ public class DataSet : MarshalByValueComponent, IListSource, IXmlSerializable, I
 	public DataTableCollection Tables
 	{
 		[Token(Token = "0x600038A")]
-		[Address(RVA = "0x42499E0", Offset = "0x42499E0", VA = "0x42499E0")]
+		[Address(RVA = "0x4587140", Offset = "0x4587140", VA = "0x4587140")]
 		get
 		{
 			return null;
@@ -362,13 +369,13 @@ public class DataSet : MarshalByValueComponent, IListSource, IXmlSerializable, I
 	internal string MainTableName
 	{
 		[Token(Token = "0x60003BD")]
-		[Address(RVA = "0x4252AA0", Offset = "0x4252AA0", VA = "0x4252AA0")]
+		[Address(RVA = "0x4590200", Offset = "0x4590200", VA = "0x4590200")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60003BE")]
-		[Address(RVA = "0x4252AB0", Offset = "0x4252AB0", VA = "0x4252AB0")]
+		[Address(RVA = "0x4590210", Offset = "0x4590210", VA = "0x4590210")]
 		set
 		{
 		}
@@ -378,7 +385,7 @@ public class DataSet : MarshalByValueComponent, IListSource, IXmlSerializable, I
 	internal int ObjectID
 	{
 		[Token(Token = "0x60003BF")]
-		[Address(RVA = "0x4252AC0", Offset = "0x4252AC0", VA = "0x4252AC0")]
+		[Address(RVA = "0x4590220", Offset = "0x4590220", VA = "0x4590220")]
 		get
 		{
 			return default(int);
@@ -389,13 +396,13 @@ public class DataSet : MarshalByValueComponent, IListSource, IXmlSerializable, I
 	public event EventHandler Initialized
 	{
 		[Token(Token = "0x600038B")]
-		[Address(RVA = "0x42499F0", Offset = "0x42499F0", VA = "0x42499F0", Slot = "22")]
+		[Address(RVA = "0x4587150", Offset = "0x4587150", VA = "0x4587150", Slot = "22")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600038C")]
-		[Address(RVA = "0x4249A90", Offset = "0x4249A90", VA = "0x4249A90", Slot = "23")]
+		[Address(RVA = "0x45871F0", Offset = "0x45871F0", VA = "0x45871F0", Slot = "23")]
 		[CompilerGenerated]
 		remove
 		{
@@ -403,423 +410,423 @@ public class DataSet : MarshalByValueComponent, IListSource, IXmlSerializable, I
 	}
 
 	[Token(Token = "0x6000361")]
-	[Address(RVA = "0x4241DD0", Offset = "0x4241DD0", VA = "0x4241DD0")]
+	[Address(RVA = "0x457F530", Offset = "0x457F530", VA = "0x457F530")]
 	public DataSet()
 	{
 	}
 
 	[Token(Token = "0x6000362")]
-	[Address(RVA = "0x42421D0", Offset = "0x42421D0", VA = "0x42421D0")]
+	[Address(RVA = "0x457F930", Offset = "0x457F930", VA = "0x457F930")]
 	public DataSet(string dataSetName)
 	{
 	}
 
 	[Token(Token = "0x6000366")]
-	[Address(RVA = "0x4242590", Offset = "0x4242590", VA = "0x4242590")]
+	[Address(RVA = "0x457FCF0", Offset = "0x457FCF0", VA = "0x457FCF0")]
 	protected DataSet(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000367")]
-	[Address(RVA = "0x42425A0", Offset = "0x42425A0", VA = "0x42425A0")]
+	[Address(RVA = "0x457FD00", Offset = "0x457FD00", VA = "0x457FD00")]
 	protected DataSet(SerializationInfo info, StreamingContext context, bool ConstructSchema)
 	{
 	}
 
 	[Token(Token = "0x6000368")]
-	[Address(RVA = "0x42427E0", Offset = "0x42427E0", VA = "0x42427E0", Slot = "28")]
+	[Address(RVA = "0x457FF40", Offset = "0x457FF40", VA = "0x457FF40", Slot = "28")]
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000369")]
-	[Address(RVA = "0x4242E20", Offset = "0x4242E20", VA = "0x4242E20", Slot = "29")]
+	[Address(RVA = "0x4580580", Offset = "0x4580580", VA = "0x4580580", Slot = "29")]
 	protected virtual void InitializeDerivedDataSet()
 	{
 	}
 
 	[Token(Token = "0x600036A")]
-	[Address(RVA = "0x42427F0", Offset = "0x42427F0", VA = "0x42427F0")]
+	[Address(RVA = "0x457FF50", Offset = "0x457FF50", VA = "0x457FF50")]
 	private void SerializeDataSet(SerializationInfo info, StreamingContext context, SerializationFormat remotingFormat)
 	{
 	}
 
 	[Token(Token = "0x600036B")]
-	[Address(RVA = "0x42427A0", Offset = "0x42427A0", VA = "0x42427A0")]
+	[Address(RVA = "0x457FF00", Offset = "0x457FF00", VA = "0x457FF00")]
 	internal void DeserializeDataSet(SerializationInfo info, StreamingContext context, SerializationFormat remotingFormat, SchemaSerializationMode schemaSerializationMode)
 	{
 	}
 
 	[Token(Token = "0x600036C")]
-	[Address(RVA = "0x4243CD0", Offset = "0x4243CD0", VA = "0x4243CD0")]
+	[Address(RVA = "0x4581430", Offset = "0x4581430", VA = "0x4581430")]
 	private void DeserializeDataSetSchema(SerializationInfo info, StreamingContext context, SerializationFormat remotingFormat, SchemaSerializationMode schemaSerializationMode)
 	{
 	}
 
 	[Token(Token = "0x600036D")]
-	[Address(RVA = "0x4244180", Offset = "0x4244180", VA = "0x4244180")]
+	[Address(RVA = "0x45818E0", Offset = "0x45818E0", VA = "0x45818E0")]
 	private void DeserializeDataSetData(SerializationInfo info, StreamingContext context, SerializationFormat remotingFormat)
 	{
 	}
 
 	[Token(Token = "0x600036E")]
-	[Address(RVA = "0x4242E30", Offset = "0x4242E30", VA = "0x4242E30")]
+	[Address(RVA = "0x4580590", Offset = "0x4580590", VA = "0x4580590")]
 	private void SerializeDataSetProperties(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x600036F")]
-	[Address(RVA = "0x4244300", Offset = "0x4244300", VA = "0x4244300")]
+	[Address(RVA = "0x4581A60", Offset = "0x4581A60", VA = "0x4581A60")]
 	private void DeserializeDataSetProperties(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000370")]
-	[Address(RVA = "0x4242FD0", Offset = "0x4242FD0", VA = "0x4242FD0")]
+	[Address(RVA = "0x4580730", Offset = "0x4580730", VA = "0x4580730")]
 	private void SerializeRelations(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000371")]
-	[Address(RVA = "0x4244860", Offset = "0x4244860", VA = "0x4244860")]
+	[Address(RVA = "0x4581FC0", Offset = "0x4581FC0", VA = "0x4581FC0")]
 	private void DeserializeRelations(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000372")]
-	[Address(RVA = "0x42464C0", Offset = "0x42464C0", VA = "0x42464C0")]
+	[Address(RVA = "0x4583C20", Offset = "0x4583C20", VA = "0x4583C20")]
 	internal void FailedEnableConstraints()
 	{
 	}
 
 	[Token(Token = "0x6000379")]
-	[Address(RVA = "0x4247A70", Offset = "0x4247A70", VA = "0x4247A70")]
+	[Address(RVA = "0x45851D0", Offset = "0x45851D0", VA = "0x45851D0")]
 	internal void RestoreEnforceConstraints(bool value)
 	{
 	}
 
 	[Token(Token = "0x600037A")]
-	[Address(RVA = "0x42470A0", Offset = "0x42470A0", VA = "0x42470A0")]
+	[Address(RVA = "0x4584800", Offset = "0x4584800", VA = "0x4584800")]
 	internal void EnableConstraints()
 	{
 	}
 
 	[Token(Token = "0x6000385")]
-	[Address(RVA = "0x4248790", Offset = "0x4248790", VA = "0x4248790")]
+	[Address(RVA = "0x4585EF0", Offset = "0x4585EF0", VA = "0x4585EF0")]
 	internal void SetLocaleValue(CultureInfo value, bool userSet)
 	{
 	}
 
 	[Token(Token = "0x6000386")]
-	[Address(RVA = "0x4249790", Offset = "0x4249790", VA = "0x4249790")]
+	[Address(RVA = "0x4586EF0", Offset = "0x4586EF0", VA = "0x4586EF0")]
 	internal bool ShouldSerializeLocale()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600038D")]
-	[Address(RVA = "0x4249B30", Offset = "0x4249B30", VA = "0x4249B30", Slot = "24")]
+	[Address(RVA = "0x4587290", Offset = "0x4587290", VA = "0x4587290", Slot = "24")]
 	public void BeginInit()
 	{
 	}
 
 	[Token(Token = "0x600038E")]
-	[Address(RVA = "0x4249B40", Offset = "0x4249B40", VA = "0x4249B40", Slot = "25")]
+	[Address(RVA = "0x45872A0", Offset = "0x45872A0", VA = "0x45872A0", Slot = "25")]
 	public void EndInit()
 	{
 	}
 
 	[Token(Token = "0x600038F")]
-	[Address(RVA = "0x4249E50", Offset = "0x4249E50", VA = "0x4249E50")]
+	[Address(RVA = "0x45875B0", Offset = "0x45875B0", VA = "0x45875B0")]
 	public void Clear()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x6000390")]
-	[Address(RVA = "0x424A0E0", Offset = "0x424A0E0", VA = "0x424A0E0", Slot = "30")]
+	[Address(RVA = "0x4587840", Offset = "0x4587840", VA = "0x4587840", Slot = "30")]
 	public virtual DataSet Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000391")]
-	[Address(RVA = "0x4243900", Offset = "0x4243900", VA = "0x4243900")]
+	[Address(RVA = "0x4581060", Offset = "0x4581060", VA = "0x4581060")]
 	internal int EstimatedXmlStringSize()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000392")]
-	[Address(RVA = "0x424B4F0", Offset = "0x424B4F0", VA = "0x424B4F0", Slot = "17")]
+	[Address(RVA = "0x4588C50", Offset = "0x4588C50", VA = "0x4588C50", Slot = "17")]
 	private IList System_002EComponentModel_002EIListSource_002EGetList()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000393")]
-	[Address(RVA = "0x424B500", Offset = "0x424B500", VA = "0x424B500")]
+	[Address(RVA = "0x4588C60", Offset = "0x4588C60", VA = "0x4588C60")]
 	internal string GetRemotingDiffGram(DataTable table)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000394")]
-	[Address(RVA = "0x4243760", Offset = "0x4243760", VA = "0x4243760")]
+	[Address(RVA = "0x4580EC0", Offset = "0x4580EC0", VA = "0x4580EC0")]
 	internal string GetXmlSchemaForRemoting(DataTable table)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000395")]
-	[Address(RVA = "0x424B620", Offset = "0x424B620", VA = "0x424B620")]
+	[Address(RVA = "0x4588D80", Offset = "0x4588D80", VA = "0x4588D80")]
 	public void ReadXmlSchema(XmlReader reader)
 	{
 	}
 
 	[Token(Token = "0x6000396")]
-	[Address(RVA = "0x4245400", Offset = "0x4245400", VA = "0x4245400")]
+	[Address(RVA = "0x4582B60", Offset = "0x4582B60", VA = "0x4582B60")]
 	internal void ReadXmlSchema(XmlReader reader, bool denyResolving)
 	{
 	}
 
 	[Token(Token = "0x6000397")]
-	[Address(RVA = "0x424BB10", Offset = "0x424BB10", VA = "0x424BB10")]
+	[Address(RVA = "0x4589270", Offset = "0x4589270", VA = "0x4589270")]
 	internal bool MoveToElement(XmlReader reader, int depth)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000398")]
-	[Address(RVA = "0x424C0E0", Offset = "0x424C0E0", VA = "0x424C0E0")]
+	[Address(RVA = "0x4589840", Offset = "0x4589840", VA = "0x4589840")]
 	private static void MoveToElement(XmlReader reader)
 	{
 	}
 
 	[Token(Token = "0x6000399")]
-	[Address(RVA = "0x424BBC0", Offset = "0x424BBC0", VA = "0x424BBC0")]
+	[Address(RVA = "0x4589320", Offset = "0x4589320", VA = "0x4589320")]
 	internal void ReadEndElement(XmlReader reader)
 	{
 	}
 
 	[Token(Token = "0x600039A")]
-	[Address(RVA = "0x424B770", Offset = "0x424B770", VA = "0x424B770")]
+	[Address(RVA = "0x4588ED0", Offset = "0x4588ED0", VA = "0x4588ED0")]
 	internal void ReadXSDSchema(XmlReader reader, bool denyResolving)
 	{
 	}
 
 	[Token(Token = "0x600039B")]
-	[Address(RVA = "0x424B630", Offset = "0x424B630", VA = "0x424B630")]
+	[Address(RVA = "0x4588D90", Offset = "0x4588D90", VA = "0x4588D90")]
 	internal void ReadXDRSchema(XmlReader reader)
 	{
 	}
 
 	[Token(Token = "0x600039C")]
-	[Address(RVA = "0x424C160", Offset = "0x424C160", VA = "0x424C160")]
+	[Address(RVA = "0x45898C0", Offset = "0x45898C0", VA = "0x45898C0")]
 	private void WriteXmlSchema(XmlWriter writer, SchemaFormat schemaFormat, Converter<Type, string> multipleTargetConverter)
 	{
 	}
 
 	[Token(Token = "0x600039D")]
-	[Address(RVA = "0x424C3D0", Offset = "0x424C3D0", VA = "0x424C3D0")]
+	[Address(RVA = "0x4589B30", Offset = "0x4589B30", VA = "0x4589B30")]
 	public XmlReadMode ReadXml(XmlReader reader)
 	{
 		return default(XmlReadMode);
 	}
 
 	[Token(Token = "0x600039E")]
-	[Address(RVA = "0x424C3E0", Offset = "0x424C3E0", VA = "0x424C3E0")]
+	[Address(RVA = "0x4589B40", Offset = "0x4589B40", VA = "0x4589B40")]
 	internal XmlReadMode ReadXml(XmlReader reader, bool denyResolving)
 	{
 		return default(XmlReadMode);
 	}
 
 	[Token(Token = "0x600039F")]
-	[Address(RVA = "0x424BC60", Offset = "0x424BC60", VA = "0x424BC60")]
+	[Address(RVA = "0x45893C0", Offset = "0x45893C0", VA = "0x45893C0")]
 	internal void InferSchema(XmlDocument xdoc, string[] excludedNamespaces, XmlReadMode mode)
 	{
 	}
 
 	[Token(Token = "0x60003A0")]
-	[Address(RVA = "0x424F720", Offset = "0x424F720", VA = "0x424F720")]
+	[Address(RVA = "0x458CE80", Offset = "0x458CE80", VA = "0x458CE80")]
 	private bool IsEmpty()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003A1")]
-	[Address(RVA = "0x424D9C0", Offset = "0x424D9C0", VA = "0x424D9C0")]
+	[Address(RVA = "0x458B120", Offset = "0x458B120", VA = "0x458B120")]
 	private void ReadXmlDiffgram(XmlReader reader)
 	{
 	}
 
 	[Token(Token = "0x60003A2")]
-	[Address(RVA = "0x4246360", Offset = "0x4246360", VA = "0x4246360")]
+	[Address(RVA = "0x4583AC0", Offset = "0x4583AC0", VA = "0x4583AC0")]
 	public XmlReadMode ReadXml(XmlReader reader, XmlReadMode mode)
 	{
 		return default(XmlReadMode);
 	}
 
 	[Token(Token = "0x60003A3")]
-	[Address(RVA = "0x424FC40", Offset = "0x424FC40", VA = "0x424FC40")]
+	[Address(RVA = "0x458D3A0", Offset = "0x458D3A0", VA = "0x458D3A0")]
 	internal XmlReadMode ReadXml(XmlReader reader, XmlReadMode mode, bool denyResolving)
 	{
 		return default(XmlReadMode);
 	}
 
 	[Token(Token = "0x60003A4")]
-	[Address(RVA = "0x4243A60", Offset = "0x4243A60", VA = "0x4243A60")]
+	[Address(RVA = "0x45811C0", Offset = "0x45811C0", VA = "0x45811C0")]
 	public void WriteXml(XmlWriter writer, XmlWriteMode mode)
 	{
 	}
 
 	[Token(Token = "0x60003A5")]
-	[Address(RVA = "0x424FAB0", Offset = "0x424FAB0", VA = "0x424FAB0")]
+	[Address(RVA = "0x458D210", Offset = "0x458D210", VA = "0x458D210")]
 	public void Merge(DataSet dataSet)
 	{
 	}
 
 	[Token(Token = "0x60003A6")]
-	[Address(RVA = "0x4250F30", Offset = "0x4250F30", VA = "0x4250F30")]
+	[Address(RVA = "0x458E690", Offset = "0x458E690", VA = "0x458E690")]
 	public void Merge(DataSet dataSet, bool preserveChanges, MissingSchemaAction missingSchemaAction)
 	{
 	}
 
 	[Token(Token = "0x60003A7")]
-	[Address(RVA = "0x42511E0", Offset = "0x42511E0", VA = "0x42511E0", Slot = "31")]
+	[Address(RVA = "0x458E940", Offset = "0x458E940", VA = "0x458E940", Slot = "31")]
 	protected virtual void OnPropertyChanging(PropertyChangedEventArgs pcevent)
 	{
 	}
 
 	[Token(Token = "0x60003A8")]
-	[Address(RVA = "0x4251210", Offset = "0x4251210", VA = "0x4251210")]
+	[Address(RVA = "0x458E970", Offset = "0x458E970", VA = "0x458E970")]
 	internal void OnMergeFailed(MergeFailedEventArgs mfevent)
 	{
 	}
 
 	[Token(Token = "0x60003A9")]
-	[Address(RVA = "0x4251270", Offset = "0x4251270", VA = "0x4251270")]
+	[Address(RVA = "0x458E9D0", Offset = "0x458E9D0", VA = "0x458E9D0")]
 	internal void RaiseMergeFailed(DataTable table, string conflict, MissingSchemaAction missingSchemaAction)
 	{
 	}
 
 	[Token(Token = "0x60003AA")]
-	[Address(RVA = "0x4251350", Offset = "0x4251350", VA = "0x4251350")]
+	[Address(RVA = "0x458EAB0", Offset = "0x458EAB0", VA = "0x458EAB0")]
 	internal void OnDataRowCreated(DataRow row)
 	{
 	}
 
 	[Token(Token = "0x60003AB")]
-	[Address(RVA = "0x424A0B0", Offset = "0x424A0B0", VA = "0x424A0B0")]
+	[Address(RVA = "0x4587810", Offset = "0x4587810", VA = "0x4587810")]
 	internal void OnClearFunctionCalled(DataTable table)
 	{
 	}
 
 	[Token(Token = "0x60003AC")]
-	[Address(RVA = "0x4249DD0", Offset = "0x4249DD0", VA = "0x4249DD0")]
+	[Address(RVA = "0x4587530", Offset = "0x4587530", VA = "0x4587530")]
 	private void OnInitialized()
 	{
 	}
 
 	[Token(Token = "0x60003AD")]
-	[Address(RVA = "0x4251380", Offset = "0x4251380", VA = "0x4251380", Slot = "32")]
+	[Address(RVA = "0x458EAE0", Offset = "0x458EAE0", VA = "0x458EAE0", Slot = "32")]
 	protected internal virtual void OnRemoveTable(DataTable table)
 	{
 	}
 
 	[Token(Token = "0x60003AE")]
-	[Address(RVA = "0x4251390", Offset = "0x4251390", VA = "0x4251390")]
+	[Address(RVA = "0x458EAF0", Offset = "0x458EAF0", VA = "0x458EAF0")]
 	internal void OnRemovedTable(DataTable table)
 	{
 	}
 
 	[Token(Token = "0x60003AF")]
-	[Address(RVA = "0x42513C0", Offset = "0x42513C0", VA = "0x42513C0", Slot = "33")]
+	[Address(RVA = "0x458EB20", Offset = "0x458EB20", VA = "0x458EB20", Slot = "33")]
 	protected virtual void OnRemoveRelation(DataRelation relation)
 	{
 	}
 
 	[Token(Token = "0x60003B0")]
-	[Address(RVA = "0x423B760", Offset = "0x423B760", VA = "0x423B760")]
+	[Address(RVA = "0x4578EC0", Offset = "0x4578EC0", VA = "0x4578EC0")]
 	internal void OnRemoveRelationHack(DataRelation relation)
 	{
 	}
 
 	[Token(Token = "0x60003B1")]
-	[Address(RVA = "0x4247A90", Offset = "0x4247A90", VA = "0x4247A90")]
+	[Address(RVA = "0x45851F0", Offset = "0x45851F0", VA = "0x45851F0")]
 	protected internal void RaisePropertyChanging(string name)
 	{
 	}
 
 	[Token(Token = "0x60003B2")]
-	[Address(RVA = "0x42513D0", Offset = "0x42513D0", VA = "0x42513D0")]
+	[Address(RVA = "0x458EB30", Offset = "0x458EB30", VA = "0x458EB30")]
 	internal DataTable[] TopLevelTables()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003B3")]
-	[Address(RVA = "0x42513E0", Offset = "0x42513E0", VA = "0x42513E0")]
+	[Address(RVA = "0x458EB40", Offset = "0x458EB40", VA = "0x458EB40")]
 	internal DataTable[] TopLevelTables(bool forSchema)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003B4")]
-	[Address(RVA = "0x4251850", Offset = "0x4251850", VA = "0x4251850", Slot = "34")]
+	[Address(RVA = "0x458EFB0", Offset = "0x458EFB0", VA = "0x458EFB0", Slot = "34")]
 	public virtual void Reset()
 	{
 	}
 
 	[Token(Token = "0x60003B5")]
-	[Address(RVA = "0x4246A60", Offset = "0x4246A60", VA = "0x4246A60")]
+	[Address(RVA = "0x45841C0", Offset = "0x45841C0", VA = "0x45841C0")]
 	internal bool ValidateCaseConstraint()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003B6")]
-	[Address(RVA = "0x4249210", Offset = "0x4249210", VA = "0x4249210")]
+	[Address(RVA = "0x4586970", Offset = "0x4586970", VA = "0x4586970")]
 	internal bool ValidateLocaleConstraint()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003B7")]
-	[Address(RVA = "0x4251F10", Offset = "0x4251F10", VA = "0x4251F10")]
+	[Address(RVA = "0x458F670", Offset = "0x458F670", VA = "0x458F670")]
 	internal DataTable FindTable(DataTable baseTable, PropertyDescriptor[] props, int propStart)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003B8")]
-	[Address(RVA = "0x4252040", Offset = "0x4252040", VA = "0x4252040", Slot = "35")]
+	[Address(RVA = "0x458F7A0", Offset = "0x458F7A0", VA = "0x458F7A0", Slot = "35")]
 	protected virtual void ReadXmlSerializable(XmlReader reader)
 	{
 	}
 
 	[Token(Token = "0x60003B9")]
-	[Address(RVA = "0x42523C0", Offset = "0x42523C0", VA = "0x42523C0")]
+	[Address(RVA = "0x458FB20", Offset = "0x458FB20", VA = "0x458FB20")]
 	public static XmlSchemaComplexType GetDataSetSchema(XmlSchemaSet schemaSet)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003BA")]
-	[Address(RVA = "0x4252670", Offset = "0x4252670", VA = "0x4252670", Slot = "18")]
+	[Address(RVA = "0x458FDD0", Offset = "0x458FDD0", VA = "0x458FDD0", Slot = "18")]
 	private XmlSchema System_002EXml_002ESerialization_002EIXmlSerializable_002EGetSchema()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003BB")]
-	[Address(RVA = "0x4252820", Offset = "0x4252820", VA = "0x4252820", Slot = "19")]
+	[Address(RVA = "0x458FF80", Offset = "0x458FF80", VA = "0x458FF80", Slot = "19")]
 	private void System_002EXml_002ESerialization_002EIXmlSerializable_002EReadXml(XmlReader reader)
 	{
 	}
 
 	[Token(Token = "0x60003BC")]
-	[Address(RVA = "0x4252A70", Offset = "0x4252A70", VA = "0x4252A70", Slot = "20")]
+	[Address(RVA = "0x45901D0", Offset = "0x45901D0", VA = "0x45901D0", Slot = "20")]
 	private void System_002EXml_002ESerialization_002EIXmlSerializable_002EWriteXml(XmlWriter writer)
 	{
 	}

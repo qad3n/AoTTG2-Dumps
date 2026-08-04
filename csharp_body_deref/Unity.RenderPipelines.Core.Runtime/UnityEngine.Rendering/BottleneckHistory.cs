@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.BottleneckHistory
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -15,38 +22,38 @@ internal class BottleneckHistory
 	internal BottleneckHistogram Histogram;
 
 	[Token(Token = "0x6000813")]
-	[Address(RVA = "0x4886F70", Offset = "0x4886F70", VA = "0x4886F70")]
+	[Address(RVA = "0x4BAC060", Offset = "0x4BAC060", VA = "0x4BAC060")]
 	public BottleneckHistory(int initialCapacity)
 	{
 	}
 
 	[Token(Token = "0x6000814")]
-	[Address(RVA = "0x4887010", Offset = "0x4887010", VA = "0x4887010")]
+	[Address(RVA = "0x4BAC100", Offset = "0x4BAC100", VA = "0x4BAC100")]
 	internal void DiscardOldSamples(int historySize)
 	{
 	}
 
 	[Token(Token = "0x6000815")]
-	[Address(RVA = "0x48870A0", Offset = "0x48870A0", VA = "0x48870A0")]
+	[Address(RVA = "0x4BAC190", Offset = "0x4BAC190", VA = "0x4BAC190")]
 	internal void AddBottleneckFromAveragedSample(FrameTimeSample frameHistorySampleAverage)
 	{
 	}
 
 	[Token(Token = "0x6000816")]
-	[Address(RVA = "0x4887230", Offset = "0x4887230", VA = "0x4887230")]
+	[Address(RVA = "0x4BAC320", Offset = "0x4BAC320", VA = "0x4BAC320")]
 	internal void ComputeHistogram()
 	{
 	}
 
 	[Token(Token = "0x6000817")]
-	[Address(RVA = "0x48871A0", Offset = "0x48871A0", VA = "0x48871A0")]
+	[Address(RVA = "0x4BAC290", Offset = "0x4BAC290", VA = "0x4BAC290")]
 	private static PerformanceBottleneck DetermineBottleneck(FrameTimeSample s)
 	{
 		return default(PerformanceBottleneck);
 	}
 
 	[Token(Token = "0x6000818")]
-	[Address(RVA = "0x4887390", Offset = "0x4887390", VA = "0x4887390")]
+	[Address(RVA = "0x4BAC480", Offset = "0x4BAC480", VA = "0x4BAC480")]
 	internal void Clear()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.LocalDataStoreMgr
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -36,66 +43,66 @@ internal sealed class LocalDataStoreMgr
 	private long m_CookieGenerator;
 
 	[Token(Token = "0x6000D69")]
-	[Address(RVA = "0x50008F0", Offset = "0x50008F0", VA = "0x50008F0")]
+	[Address(RVA = "0x3CE6410", Offset = "0x3CE6410", VA = "0x3CE6410")]
 	public System.LocalDataStoreHolder CreateLocalDataStore()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D6A")]
-	[Address(RVA = "0x4FFFE90", Offset = "0x4FFFE90", VA = "0x4FFFE90")]
+	[Address(RVA = "0x3CE59B0", Offset = "0x3CE59B0", VA = "0x3CE59B0")]
 	public void DeleteLocalDataStore(System.LocalDataStore store)
 	{
 	}
 
 	[Token(Token = "0x6000D6B")]
-	[Address(RVA = "0x5000B10", Offset = "0x5000B10", VA = "0x5000B10")]
+	[Address(RVA = "0x3CE6630", Offset = "0x3CE6630", VA = "0x3CE6630")]
 	public LocalDataStoreSlot AllocateDataSlot()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D6C")]
-	[Address(RVA = "0x5000DA0", Offset = "0x5000DA0", VA = "0x5000DA0")]
+	[Address(RVA = "0x3CE68C0", Offset = "0x3CE68C0", VA = "0x3CE68C0")]
 	public LocalDataStoreSlot AllocateNamedDataSlot(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D6D")]
-	[Address(RVA = "0x5000EC0", Offset = "0x5000EC0", VA = "0x5000EC0")]
+	[Address(RVA = "0x3CE69E0", Offset = "0x3CE69E0", VA = "0x3CE69E0")]
 	public LocalDataStoreSlot GetNamedDataSlot(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D6E")]
-	[Address(RVA = "0x5000FF0", Offset = "0x5000FF0", VA = "0x5000FF0")]
+	[Address(RVA = "0x3CE6B10", Offset = "0x3CE6B10", VA = "0x3CE6B10")]
 	public void FreeNamedDataSlot(string name)
 	{
 	}
 
 	[Token(Token = "0x6000D6F")]
-	[Address(RVA = "0x5000700", Offset = "0x5000700", VA = "0x5000700")]
+	[Address(RVA = "0x3CE6220", Offset = "0x3CE6220", VA = "0x3CE6220")]
 	internal void FreeDataSlot(int slot, long cookie)
 	{
 	}
 
 	[Token(Token = "0x6000D70")]
-	[Address(RVA = "0x50000C0", Offset = "0x50000C0", VA = "0x50000C0")]
+	[Address(RVA = "0x3CE5BE0", Offset = "0x3CE5BE0", VA = "0x3CE5BE0")]
 	public void ValidateSlot(LocalDataStoreSlot slot)
 	{
 	}
 
 	[Token(Token = "0x6000D71")]
-	[Address(RVA = "0x50005D0", Offset = "0x50005D0", VA = "0x50005D0")]
+	[Address(RVA = "0x3CE60F0", Offset = "0x3CE60F0", VA = "0x3CE60F0")]
 	internal int GetSlotTableLength()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000D72")]
-	[Address(RVA = "0x50010F0", Offset = "0x50010F0", VA = "0x50010F0")]
+	[Address(RVA = "0x3CE6C10", Offset = "0x3CE6C10", VA = "0x3CE6C10")]
 	public LocalDataStoreMgr()
 	{
 	}

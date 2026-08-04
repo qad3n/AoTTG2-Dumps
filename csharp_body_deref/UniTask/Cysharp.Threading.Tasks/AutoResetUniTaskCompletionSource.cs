@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.AutoResetUniTaskCompletionSource
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
@@ -30,7 +37,7 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	public unsafe ref AutoResetUniTaskCompletionSource NextNode
 	{
 		[Token(Token = "0x60006E2")]
-		[Address(RVA = "0x46C5E00", Offset = "0x46C5E00", VA = "0x46C5E00", Slot = "14")]
+		[Address(RVA = "0x49EAF00", Offset = "0x49EAF00", VA = "0x49EAF00", Slot = "14")]
 		get
 		{
 			return ref *(AutoResetUniTaskCompletionSource*)null;
@@ -41,7 +48,7 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	public UniTask Task
 	{
 		[Token(Token = "0x60006E9")]
-		[Address(RVA = "0x46AEF30", Offset = "0x46AEF30", VA = "0x46AEF30")]
+		[Address(RVA = "0x49D4030", Offset = "0x49D4030", VA = "0x49D4030")]
 		[DebuggerHidden]
 		get
 		{
@@ -50,19 +57,19 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	}
 
 	[Token(Token = "0x60006E3")]
-	[Address(RVA = "0x46C5E10", Offset = "0x46C5E10", VA = "0x46C5E10")]
+	[Address(RVA = "0x49EAF10", Offset = "0x49EAF10", VA = "0x49EAF10")]
 	static AutoResetUniTaskCompletionSource()
 	{
 	}
 
 	[Token(Token = "0x60006E4")]
-	[Address(RVA = "0x46C5F10", Offset = "0x46C5F10", VA = "0x46C5F10")]
+	[Address(RVA = "0x49EB010", Offset = "0x49EB010", VA = "0x49EB010")]
 	private AutoResetUniTaskCompletionSource()
 	{
 	}
 
 	[Token(Token = "0x60006E5")]
-	[Address(RVA = "0x46AEDD0", Offset = "0x46AEDD0", VA = "0x46AEDD0")]
+	[Address(RVA = "0x49D3ED0", Offset = "0x49D3ED0", VA = "0x49D3ED0")]
 	[DebuggerHidden]
 	public static AutoResetUniTaskCompletionSource Create()
 	{
@@ -70,7 +77,7 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	}
 
 	[Token(Token = "0x60006E6")]
-	[Address(RVA = "0x46AF290", Offset = "0x46AF290", VA = "0x46AF290")]
+	[Address(RVA = "0x49D4390", Offset = "0x49D4390", VA = "0x49D4390")]
 	[DebuggerHidden]
 	public static AutoResetUniTaskCompletionSource CreateFromCanceled(CancellationToken cancellationToken, out short token)
 	{
@@ -78,7 +85,7 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	}
 
 	[Token(Token = "0x60006E7")]
-	[Address(RVA = "0x46C5F90", Offset = "0x46C5F90", VA = "0x46C5F90")]
+	[Address(RVA = "0x49EB090", Offset = "0x49EB090", VA = "0x49EB090")]
 	[DebuggerHidden]
 	public static AutoResetUniTaskCompletionSource CreateFromException(Exception exception, out short token)
 	{
@@ -86,7 +93,7 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	}
 
 	[Token(Token = "0x60006E8")]
-	[Address(RVA = "0x46C60F0", Offset = "0x46C60F0", VA = "0x46C60F0")]
+	[Address(RVA = "0x49EB1F0", Offset = "0x49EB1F0", VA = "0x49EB1F0")]
 	[DebuggerHidden]
 	public static AutoResetUniTaskCompletionSource CreateCompleted(out short token)
 	{
@@ -94,7 +101,7 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	}
 
 	[Token(Token = "0x60006EA")]
-	[Address(RVA = "0x46B0790", Offset = "0x46B0790", VA = "0x46B0790", Slot = "15")]
+	[Address(RVA = "0x49D5890", Offset = "0x49D5890", VA = "0x49D5890", Slot = "15")]
 	[DebuggerHidden]
 	public bool TrySetResult()
 	{
@@ -102,7 +109,7 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	}
 
 	[Token(Token = "0x60006EB")]
-	[Address(RVA = "0x46C5F20", Offset = "0x46C5F20", VA = "0x46C5F20", Slot = "17")]
+	[Address(RVA = "0x49EB020", Offset = "0x49EB020", VA = "0x49EB020", Slot = "17")]
 	[DebuggerHidden]
 	public bool TrySetCanceled([Optional] CancellationToken cancellationToken)
 	{
@@ -110,7 +117,7 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	}
 
 	[Token(Token = "0x60006EC")]
-	[Address(RVA = "0x46C6080", Offset = "0x46C6080", VA = "0x46C6080", Slot = "16")]
+	[Address(RVA = "0x49EB180", Offset = "0x49EB180", VA = "0x49EB180", Slot = "16")]
 	[DebuggerHidden]
 	public bool TrySetException(Exception exception)
 	{
@@ -118,14 +125,14 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	}
 
 	[Token(Token = "0x60006ED")]
-	[Address(RVA = "0x46C6220", Offset = "0x46C6220", VA = "0x46C6220", Slot = "13")]
+	[Address(RVA = "0x49EB320", Offset = "0x49EB320", VA = "0x49EB320", Slot = "13")]
 	[DebuggerHidden]
 	public void GetResult(short token)
 	{
 	}
 
 	[Token(Token = "0x60006EE")]
-	[Address(RVA = "0x46C63C0", Offset = "0x46C63C0", VA = "0x46C63C0", Slot = "4")]
+	[Address(RVA = "0x49EB4C0", Offset = "0x49EB4C0", VA = "0x49EB4C0", Slot = "4")]
 	[DebuggerHidden]
 	public UniTaskStatus GetStatus(short token)
 	{
@@ -133,7 +140,7 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	}
 
 	[Token(Token = "0x60006EF")]
-	[Address(RVA = "0x46C6410", Offset = "0x46C6410", VA = "0x46C6410", Slot = "7")]
+	[Address(RVA = "0x49EB510", Offset = "0x49EB510", VA = "0x49EB510", Slot = "7")]
 	[DebuggerHidden]
 	public UniTaskStatus UnsafeGetStatus()
 	{
@@ -141,14 +148,14 @@ public class AutoResetUniTaskCompletionSource : IUniTaskSource, IValueTaskSource
 	}
 
 	[Token(Token = "0x60006F0")]
-	[Address(RVA = "0x46C64C0", Offset = "0x46C64C0", VA = "0x46C64C0", Slot = "5")]
+	[Address(RVA = "0x49EB5C0", Offset = "0x49EB5C0", VA = "0x49EB5C0", Slot = "5")]
 	[DebuggerHidden]
 	public void OnCompleted(Action<object> continuation, object state, short token)
 	{
 	}
 
 	[Token(Token = "0x60006F1")]
-	[Address(RVA = "0x46C6520", Offset = "0x46C6520", VA = "0x46C6520")]
+	[Address(RVA = "0x49EB620", Offset = "0x49EB620", VA = "0x49EB620")]
 	[DebuggerHidden]
 	private bool TryReturn()
 	{

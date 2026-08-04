@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.EditorTimeBinding
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -18,7 +25,7 @@ public static class EditorTimeBinding
 	public static int frame
 	{
 		[Token(Token = "0x60001D1")]
-		[Address(RVA = "0x497E8A0", Offset = "0x497E8A0", VA = "0x497E8A0")]
+		[Address(RVA = "0x4CA3470", Offset = "0x4CA3470", VA = "0x4CA3470")]
 		get
 		{
 			return default(int);
@@ -29,7 +36,7 @@ public static class EditorTimeBinding
 	public static float time
 	{
 		[Token(Token = "0x60001D2")]
-		[Address(RVA = "0x497E9A0", Offset = "0x497E9A0", VA = "0x497E9A0")]
+		[Address(RVA = "0x4CA3570", Offset = "0x4CA3570", VA = "0x4CA3570")]
 		get
 		{
 			return default(float);
@@ -37,7 +44,7 @@ public static class EditorTimeBinding
 	}
 
 	[Token(Token = "0x60001D3")]
-	[Address(RVA = "0x497EAA0", Offset = "0x497EAA0", VA = "0x497EAA0")]
+	[Address(RVA = "0x4CA3670", Offset = "0x4CA3670", VA = "0x4CA3670")]
 	static EditorTimeBinding()
 	{
 	}

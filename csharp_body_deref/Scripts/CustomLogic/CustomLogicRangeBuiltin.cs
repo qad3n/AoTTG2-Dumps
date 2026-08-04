@@ -1,97 +1,104 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: CustomLogic.CustomLogicRangeBuiltin
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/CustomLogic/CustomLogicRangeBuiltin.c
+// Prior real C# source (older reference): Assets/Scripts/CustomLogic/Builtin/CustomLogicRangeBuiltin.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200028D")]
+[Token(Token = "0x20002C6")]
 [CompilerGenerated]
 internal class CustomLogicRangeBuiltin : CustomLogicListBuiltin
 {
-	[Token(Token = "0x200028E")]
+	[Token(Token = "0x20002C7")]
 	public new static class Factory
 	{
-		[Token(Token = "0x6000F65")]
-		[Address(RVA = "0x3CC39A0", Offset = "0x3CC39A0", VA = "0x3CC39A0")]
+		[Token(Token = "0x600110F")]
+		[Address(RVA = "0x3FC9280", Offset = "0x3FC9280", VA = "0x3FC9280")]
 		public static CustomLogicRangeBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x200028F")]
+	[Token(Token = "0x20002C8")]
 	public new static class Bindings
 	{
-		[Token(Token = "0x4000D66")]
+		[Token(Token = "0x4000E4C")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6000F66")]
-		[Address(RVA = "0x3CC3BF0", Offset = "0x3CC3BF0", VA = "0x3CC3BF0")]
+		[Token(Token = "0x6001110")]
+		[Address(RVA = "0x3FC94D0", Offset = "0x3FC94D0", VA = "0x3FC94D0")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001B8")]
+	[Token(Token = "0x17000211")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6000F61")]
-		[Address(RVA = "0x3CC3940", Offset = "0x3CC3940", VA = "0x3CC3940", Slot = "4")]
+		[Token(Token = "0x600110B")]
+		[Address(RVA = "0x3FC9220", Offset = "0x3FC9220", VA = "0x3FC9220", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001B9")]
+	[Token(Token = "0x17000212")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6000F62")]
-		[Address(RVA = "0x3CC3970", Offset = "0x3CC3970", VA = "0x3CC3970", Slot = "6")]
+		[Token(Token = "0x600110C")]
+		[Address(RVA = "0x3FC9250", Offset = "0x3FC9250", VA = "0x3FC9250", Slot = "6")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170001BA")]
+	[Token(Token = "0x17000213")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6000F63")]
-		[Address(RVA = "0x3CC3980", Offset = "0x3CC3980", VA = "0x3CC3980", Slot = "7")]
+		[Token(Token = "0x600110D")]
+		[Address(RVA = "0x3FC9260", Offset = "0x3FC9260", VA = "0x3FC9260", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170001BB")]
+	[Token(Token = "0x17000214")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6000F64")]
-		[Address(RVA = "0x3CC3990", Offset = "0x3CC3990", VA = "0x3CC3990", Slot = "8")]
+		[Token(Token = "0x600110E")]
+		[Address(RVA = "0x3FC9270", Offset = "0x3FC9270", VA = "0x3FC9270", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000F5E")]
-	[Address(RVA = "0x3CC3770", Offset = "0x3CC3770", VA = "0x3CC3770")]
+	[Token(Token = "0x6001108")]
+	[Address(RVA = "0x3FC9050", Offset = "0x3FC9050", VA = "0x3FC9050")]
 	public CustomLogicRangeBuiltin(int end)
 	{
 	}
 
-	[Token(Token = "0x6000F5F")]
-	[Address(RVA = "0x3CC3930", Offset = "0x3CC3930", VA = "0x3CC3930")]
+	[Token(Token = "0x6001109")]
+	[Address(RVA = "0x3FC9210", Offset = "0x3FC9210", VA = "0x3FC9210")]
 	public CustomLogicRangeBuiltin(int start, int end)
 	{
 	}
 
-	[Token(Token = "0x6000F60")]
-	[Address(RVA = "0x3CC3780", Offset = "0x3CC3780", VA = "0x3CC3780")]
+	[Token(Token = "0x600110A")]
+	[Address(RVA = "0x3FC9060", Offset = "0x3FC9060", VA = "0x3FC9060")]
 	public CustomLogicRangeBuiltin(int start, int end, int step)
 	{
 	}

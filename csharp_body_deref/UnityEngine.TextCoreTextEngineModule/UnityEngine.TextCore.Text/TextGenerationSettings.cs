@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.Text.TextGenerationSettings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -219,42 +226,42 @@ internal class TextGenerationSettings : IEquatable<TextGenerationSettings>
 	internal TextInputSource inputSource;
 
 	[Token(Token = "0x60000F2")]
-	[Address(RVA = "0x4B92E20", Offset = "0x4B92E20", VA = "0x4B92E20", Slot = "4")]
+	[Address(RVA = "0x4EBA750", Offset = "0x4EBA750", VA = "0x4EBA750", Slot = "4")]
 	public bool Equals(TextGenerationSettings other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000F3")]
-	[Address(RVA = "0x4B93440", Offset = "0x4B93440", VA = "0x4B93440", Slot = "0")]
+	[Address(RVA = "0x4EBAD70", Offset = "0x4EBAD70", VA = "0x4EBAD70", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000F4")]
-	[Address(RVA = "0x4B93520", Offset = "0x4B93520", VA = "0x4B93520", Slot = "2")]
+	[Address(RVA = "0x4EBAE50", Offset = "0x4EBAE50", VA = "0x4EBAE50", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000F5")]
-	[Address(RVA = "0x4B93A50", Offset = "0x4B93A50", VA = "0x4B93A50")]
+	[Address(RVA = "0x4EBB380", Offset = "0x4EBB380", VA = "0x4EBB380")]
 	public static bool operator !=(TextGenerationSettings left, TextGenerationSettings right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000F6")]
-	[Address(RVA = "0x4B93A60", Offset = "0x4B93A60", VA = "0x4B93A60", Slot = "3")]
+	[Address(RVA = "0x4EBB390", Offset = "0x4EBB390", VA = "0x4EBB390", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000F7")]
-	[Address(RVA = "0x4B96240", Offset = "0x4B96240", VA = "0x4B96240")]
+	[Address(RVA = "0x4EBDB70", Offset = "0x4EBDB70", VA = "0x4EBDB70")]
 	public TextGenerationSettings()
 	{
 	}

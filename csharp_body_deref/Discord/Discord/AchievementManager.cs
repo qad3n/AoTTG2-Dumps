@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Discord.AchievementManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Plugins/DiscordGameSDK/Core.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -93,7 +100,7 @@ public class AchievementManager
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x6000524")]
-		[Address(RVA = "0x2352650", Offset = "0x2352650", VA = "0x2352650")]
+		[Address(RVA = "0x2352710", Offset = "0x2352710", VA = "0x2352710")]
 		get
 		{
 			return default(FFIMethods);
@@ -104,13 +111,13 @@ public class AchievementManager
 	public event UserAchievementUpdateHandler OnUserAchievementUpdate
 	{
 		[Token(Token = "0x6000525")]
-		[Address(RVA = "0x2352760", Offset = "0x2352760", VA = "0x2352760")]
+		[Address(RVA = "0x2352820", Offset = "0x2352820", VA = "0x2352820")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000526")]
-		[Address(RVA = "0x23527F0", Offset = "0x23527F0", VA = "0x23527F0")]
+		[Address(RVA = "0x23528B0", Offset = "0x23528B0", VA = "0x23528B0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -118,66 +125,66 @@ public class AchievementManager
 	}
 
 	[Token(Token = "0x6000527")]
-	[Address(RVA = "0x2352880", Offset = "0x2352880", VA = "0x2352880")]
+	[Address(RVA = "0x2352940", Offset = "0x2352940", VA = "0x2352940")]
 	internal AchievementManager(IntPtr ptr, IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x6000528")]
-	[Address(RVA = "0x2352900", Offset = "0x2352900", VA = "0x2352900")]
+	[Address(RVA = "0x23529C0", Offset = "0x23529C0", VA = "0x23529C0")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x6000529")]
-	[Address(RVA = "0x2352380", Offset = "0x2352380", VA = "0x2352380")]
+	[Address(RVA = "0x2352440", Offset = "0x2352440", VA = "0x2352440")]
 	[MonoPInvokeCallback]
 	private static void SetUserAchievementCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x600052A")]
-	[Address(RVA = "0x2352AD0", Offset = "0x2352AD0", VA = "0x2352AD0")]
+	[Address(RVA = "0x2352B90", Offset = "0x2352B90", VA = "0x2352B90")]
 	public void SetUserAchievement(long achievementId, byte percentComplete, SetUserAchievementHandler callback)
 	{
 	}
 
 	[Token(Token = "0x600052B")]
-	[Address(RVA = "0x2352460", Offset = "0x2352460", VA = "0x2352460")]
+	[Address(RVA = "0x2352520", Offset = "0x2352520", VA = "0x2352520")]
 	[MonoPInvokeCallback]
 	private static void FetchUserAchievementsCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x600052C")]
-	[Address(RVA = "0x2352CD0", Offset = "0x2352CD0", VA = "0x2352CD0")]
+	[Address(RVA = "0x2352D90", Offset = "0x2352D90", VA = "0x2352D90")]
 	public void FetchUserAchievements(FetchUserAchievementsHandler callback)
 	{
 	}
 
 	[Token(Token = "0x600052D")]
-	[Address(RVA = "0x2352EB0", Offset = "0x2352EB0", VA = "0x2352EB0")]
+	[Address(RVA = "0x2352F70", Offset = "0x2352F70", VA = "0x2352F70")]
 	public int CountUserAchievements()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600052E")]
-	[Address(RVA = "0x2352F00", Offset = "0x2352F00", VA = "0x2352F00")]
+	[Address(RVA = "0x2352FC0", Offset = "0x2352FC0", VA = "0x2352FC0")]
 	public UserAchievement GetUserAchievement(long userAchievementId)
 	{
 		return default(UserAchievement);
 	}
 
 	[Token(Token = "0x600052F")]
-	[Address(RVA = "0x2352FB0", Offset = "0x2352FB0", VA = "0x2352FB0")]
+	[Address(RVA = "0x2353070", Offset = "0x2353070", VA = "0x2353070")]
 	public UserAchievement GetUserAchievementAt(int index)
 	{
 		return default(UserAchievement);
 	}
 
 	[Token(Token = "0x6000530")]
-	[Address(RVA = "0x2352540", Offset = "0x2352540", VA = "0x2352540")]
+	[Address(RVA = "0x2352600", Offset = "0x2352600", VA = "0x2352600")]
 	[MonoPInvokeCallback]
 	private static void OnUserAchievementUpdateImpl(IntPtr ptr, ref UserAchievement userAchievement)
 	{

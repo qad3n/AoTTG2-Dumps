@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: CustomLogic.CustomLogicLexer
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/CustomLogic/CustomLogicLexer.c
+// Prior real C# source (older reference): Assets/Scripts/CustomLogic/CustomLogicLexer.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -5,117 +12,117 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000446")]
+[Token(Token = "0x200048B")]
 public class CustomLogicLexer
 {
-	[Token(Token = "0x400127A")]
+	[Token(Token = "0x4001386")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	protected string _source;
 
-	[Token(Token = "0x400127B")]
+	[Token(Token = "0x4001387")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	protected List<CustomLogicToken> _tokens;
 
-	[Token(Token = "0x400127C")]
+	[Token(Token = "0x4001388")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	public string Error;
 
-	[Token(Token = "0x400127D")]
+	[Token(Token = "0x4001389")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private int _line;
 
-	[Token(Token = "0x400127E")]
+	[Token(Token = "0x400138A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private char[] _chars;
 
-	[Token(Token = "0x170008D8")]
+	[Token(Token = "0x17000942")]
 	public CustomLogicCompiler Compiler
 	{
-		[Token(Token = "0x6002E23")]
-		[Address(RVA = "0x3E50E10", Offset = "0x3E50E10", VA = "0x3E50E10")]
+		[Token(Token = "0x600302D")]
+		[Address(RVA = "0x415C5D0", Offset = "0x415C5D0", VA = "0x415C5D0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002E24")]
-		[Address(RVA = "0x3E50E20", Offset = "0x3E50E20", VA = "0x3E50E20")]
+		[Token(Token = "0x600302E")]
+		[Address(RVA = "0x415C5E0", Offset = "0x415C5E0", VA = "0x415C5E0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6002E25")]
-	[Address(RVA = "0x3E50E30", Offset = "0x3E50E30", VA = "0x3E50E30")]
+	[Token(Token = "0x600302F")]
+	[Address(RVA = "0x415C5F0", Offset = "0x415C5F0", VA = "0x415C5F0")]
 	public CustomLogicLexer(string source, [Optional] CustomLogicCompiler compiler)
 	{
 	}
 
-	[Token(Token = "0x6002E26")]
-	[Address(RVA = "0x3E50F00", Offset = "0x3E50F00", VA = "0x3E50F00")]
+	[Token(Token = "0x6003030")]
+	[Address(RVA = "0x415C6C0", Offset = "0x415C6C0", VA = "0x415C6C0")]
 	public string GetLineNumberString(int line)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002E27")]
-	[Address(RVA = "0x3E50F30", Offset = "0x3E50F30", VA = "0x3E50F30")]
+	[Token(Token = "0x6003031")]
+	[Address(RVA = "0x415C6F0", Offset = "0x415C6F0", VA = "0x415C6F0")]
 	public List<CustomLogicToken> GetTokens()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002E28")]
-	[Address(RVA = "0x3E51E30", Offset = "0x3E51E30", VA = "0x3E51E30")]
+	[Token(Token = "0x6003032")]
+	[Address(RVA = "0x415D5F0", Offset = "0x415D5F0", VA = "0x415D5F0")]
 	private void AddToken(CustomLogicTokenType type, object value, int line)
 	{
 	}
 
-	[Token(Token = "0x6002E29")]
-	[Address(RVA = "0x3E51F10", Offset = "0x3E51F10", VA = "0x3E51F10")]
+	[Token(Token = "0x6003033")]
+	[Address(RVA = "0x415D6D0", Offset = "0x415D6D0", VA = "0x415D6D0")]
 	private string ScanAlphaSymbol(int startIndex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002E2A")]
-	[Address(RVA = "0x3E51CD0", Offset = "0x3E51CD0", VA = "0x3E51CD0")]
+	[Token(Token = "0x6003034")]
+	[Address(RVA = "0x415D490", Offset = "0x415D490", VA = "0x415D490")]
 	private string ScanBool(int startIndex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002E2B")]
-	[Address(RVA = "0x3E521F0", Offset = "0x3E521F0", VA = "0x3E521F0")]
+	[Token(Token = "0x6003035")]
+	[Address(RVA = "0x415D9B0", Offset = "0x415D9B0", VA = "0x415D9B0")]
 	private string ScanNumber(int startIndex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002E2C")]
-	[Address(RVA = "0x3E520C0", Offset = "0x3E520C0", VA = "0x3E520C0")]
+	[Token(Token = "0x6003036")]
+	[Address(RVA = "0x415D880", Offset = "0x415D880", VA = "0x415D880")]
 	private string ScanName(int startIndex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002E2D")]
-	[Address(RVA = "0x3E52320", Offset = "0x3E52320", VA = "0x3E52320")]
+	[Token(Token = "0x6003037")]
+	[Address(RVA = "0x415DAE0", Offset = "0x415DAE0", VA = "0x415DAE0")]
 	private string ScanStringLiteral(int startIndex, out int rawLiteralLength)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002E2E")]
-	[Address(RVA = "0x3E525D0", Offset = "0x3E525D0", VA = "0x3E525D0")]
+	[Token(Token = "0x6003038")]
+	[Address(RVA = "0x415DD90", Offset = "0x415DD90", VA = "0x415DD90")]
 	private string ScanComment(int startIndex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002E2F")]
-	[Address(RVA = "0x3E526F0", Offset = "0x3E526F0", VA = "0x3E526F0")]
+	[Token(Token = "0x6003039")]
+	[Address(RVA = "0x415DEB0", Offset = "0x415DEB0", VA = "0x415DEB0")]
 	private string ScanBlockComment(int startIndex)
 	{
 		return null;

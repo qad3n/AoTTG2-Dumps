@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.StencilMaterial
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -53,7 +60,7 @@ public static class StencilMaterial
 		public ColorWriteMask colorMask;
 
 		[Token(Token = "0x60004A1")]
-		[Address(RVA = "0x4DC0F60", Offset = "0x4DC0F60", VA = "0x4DC0F60")]
+		[Address(RVA = "0x50E88B0", Offset = "0x50E88B0", VA = "0x50E88B0")]
 		public MatEntry()
 		{
 		}
@@ -64,7 +71,7 @@ public static class StencilMaterial
 	private static List<MatEntry> m_List;
 
 	[Token(Token = "0x600049A")]
-	[Address(RVA = "0x4DC0310", Offset = "0x4DC0310", VA = "0x4DC0310")]
+	[Address(RVA = "0x50E7C60", Offset = "0x50E7C60", VA = "0x50E7C60")]
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	[Obsolete("Use Material.Add instead.", true)]
 	public static Material Add(Material baseMat, int stencilID)
@@ -73,33 +80,33 @@ public static class StencilMaterial
 	}
 
 	[Token(Token = "0x600049B")]
-	[Address(RVA = "0x4DC0320", Offset = "0x4DC0320", VA = "0x4DC0320")]
+	[Address(RVA = "0x50E7C70", Offset = "0x50E7C70", VA = "0x50E7C70")]
 	public static Material Add(Material baseMat, int stencilID, StencilOp operation, CompareFunction compareFunction, ColorWriteMask colorWriteMask)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600049C")]
-	[Address(RVA = "0x4DC0EB0", Offset = "0x4DC0EB0", VA = "0x4DC0EB0")]
+	[Address(RVA = "0x50E8800", Offset = "0x50E8800", VA = "0x50E8800")]
 	private static void LogWarningWhenNotInBatchmode(string warning, Object context)
 	{
 	}
 
 	[Token(Token = "0x600049D")]
-	[Address(RVA = "0x4DC03A0", Offset = "0x4DC03A0", VA = "0x4DC03A0")]
+	[Address(RVA = "0x50E7CF0", Offset = "0x50E7CF0", VA = "0x50E7CF0")]
 	public static Material Add(Material baseMat, int stencilID, StencilOp operation, CompareFunction compareFunction, ColorWriteMask colorWriteMask, int readMask, int writeMask)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600049E")]
-	[Address(RVA = "0x4DC0F70", Offset = "0x4DC0F70", VA = "0x4DC0F70")]
+	[Address(RVA = "0x50E88C0", Offset = "0x50E88C0", VA = "0x50E88C0")]
 	public static void Remove(Material customMat)
 	{
 	}
 
 	[Token(Token = "0x600049F")]
-	[Address(RVA = "0x4DC1140", Offset = "0x4DC1140", VA = "0x4DC1140")]
+	[Address(RVA = "0x50E8A90", Offset = "0x50E8A90", VA = "0x50E8A90")]
 	public static void ClearAll()
 	{
 	}

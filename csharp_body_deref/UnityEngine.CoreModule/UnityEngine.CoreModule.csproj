@@ -5,7 +5,7 @@
     <TargetFramework>net40</TargetFramework>
   </PropertyGroup>
   <PropertyGroup>
-    <LangVersion>15.0</LangVersion>
+    <LangVersion>11.0</LangVersion>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
   </PropertyGroup>
@@ -13,46 +13,46 @@
   <ItemGroup />
   <ItemGroup>
     <Reference Include="Il2CppDummyDll">
-      <HintPath>../../../dumps/il2cpp/DummyDll/Il2CppDummyDll.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/Il2CppDummyDll.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.UI.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.UIElementsModule.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SharedInternalsModule">
-      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.SharedInternalsModule.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.SharedInternalsModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>../../../dumps/il2cpp/DummyDll/Unity.VisualScripting.Core.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.UIModule.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Physics2DModule">
-      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.Physics2DModule.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.Physics2DModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="PhotonVoice">
-      <HintPath>../../../dumps/il2cpp/DummyDll/PhotonVoice.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/PhotonVoice.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
-      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.AudioModule.dll</HintPath>
     </Reference>
     <Reference Include="PhotonUnityNetworking">
-      <HintPath>../../../dumps/il2cpp/DummyDll/PhotonUnityNetworking.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/PhotonUnityNetworking.dll</HintPath>
     </Reference>
     <Reference Include="Gilzoide.FlexUi">
-      <HintPath>../../../dumps/il2cpp/DummyDll/Gilzoide.FlexUi.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/Gilzoide.FlexUi.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TilemapModule">
-      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.TilemapModule.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.TilemapModule.dll</HintPath>
     </Reference>
     <Reference Include="PhotonVoice.PUN">
-      <HintPath>../../../dumps/il2cpp/DummyDll/PhotonVoice.PUN.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/PhotonVoice.PUN.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

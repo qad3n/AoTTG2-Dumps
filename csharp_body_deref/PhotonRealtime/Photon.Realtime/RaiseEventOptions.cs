@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Realtime.RaiseEventOptions
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonRealtime/Code/LoadbalancingPeer.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -36,7 +43,7 @@ public class RaiseEventOptions
 	public WebFlags Flags;
 
 	[Token(Token = "0x6000136")]
-	[Address(RVA = "0x3BD96B0", Offset = "0x3BD96B0", VA = "0x3BD96B0")]
+	[Address(RVA = "0x3ECF000", Offset = "0x3ECF000", VA = "0x3ECF000")]
 	public RaiseEventOptions()
 	{
 	}

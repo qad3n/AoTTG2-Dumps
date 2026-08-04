@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.CanvasScaler
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.EventSystems;
@@ -135,13 +142,13 @@ public class CanvasScaler : UIBehaviour
 	public ScaleMode uiScaleMode
 	{
 		[Token(Token = "0x6000258")]
-		[Address(RVA = "0x4DA5770", Offset = "0x4DA5770", VA = "0x4DA5770")]
+		[Address(RVA = "0x50CD0A0", Offset = "0x50CD0A0", VA = "0x50CD0A0")]
 		get
 		{
 			return default(ScaleMode);
 		}
 		[Token(Token = "0x6000259")]
-		[Address(RVA = "0x4DA5780", Offset = "0x4DA5780", VA = "0x4DA5780")]
+		[Address(RVA = "0x50CD0B0", Offset = "0x50CD0B0", VA = "0x50CD0B0")]
 		set
 		{
 		}
@@ -151,13 +158,13 @@ public class CanvasScaler : UIBehaviour
 	public float referencePixelsPerUnit
 	{
 		[Token(Token = "0x600025A")]
-		[Address(RVA = "0x4DA5790", Offset = "0x4DA5790", VA = "0x4DA5790")]
+		[Address(RVA = "0x50CD0C0", Offset = "0x50CD0C0", VA = "0x50CD0C0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600025B")]
-		[Address(RVA = "0x4DA57A0", Offset = "0x4DA57A0", VA = "0x4DA57A0")]
+		[Address(RVA = "0x50CD0D0", Offset = "0x50CD0D0", VA = "0x50CD0D0")]
 		set
 		{
 		}
@@ -167,13 +174,13 @@ public class CanvasScaler : UIBehaviour
 	public float scaleFactor
 	{
 		[Token(Token = "0x600025C")]
-		[Address(RVA = "0x4DA57B0", Offset = "0x4DA57B0", VA = "0x4DA57B0")]
+		[Address(RVA = "0x50CD0E0", Offset = "0x50CD0E0", VA = "0x50CD0E0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600025D")]
-		[Address(RVA = "0x4DA57C0", Offset = "0x4DA57C0", VA = "0x4DA57C0")]
+		[Address(RVA = "0x50CD0F0", Offset = "0x50CD0F0", VA = "0x50CD0F0")]
 		set
 		{
 		}
@@ -183,13 +190,13 @@ public class CanvasScaler : UIBehaviour
 	public Vector2 referenceResolution
 	{
 		[Token(Token = "0x600025E")]
-		[Address(RVA = "0x4DA57E0", Offset = "0x4DA57E0", VA = "0x4DA57E0")]
+		[Address(RVA = "0x50CD110", Offset = "0x50CD110", VA = "0x50CD110")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x600025F")]
-		[Address(RVA = "0x4DA57F0", Offset = "0x4DA57F0", VA = "0x4DA57F0")]
+		[Address(RVA = "0x50CD120", Offset = "0x50CD120", VA = "0x50CD120")]
 		set
 		{
 		}
@@ -199,13 +206,13 @@ public class CanvasScaler : UIBehaviour
 	public ScreenMatchMode screenMatchMode
 	{
 		[Token(Token = "0x6000260")]
-		[Address(RVA = "0x4DA5860", Offset = "0x4DA5860", VA = "0x4DA5860")]
+		[Address(RVA = "0x50CD190", Offset = "0x50CD190", VA = "0x50CD190")]
 		get
 		{
 			return default(ScreenMatchMode);
 		}
 		[Token(Token = "0x6000261")]
-		[Address(RVA = "0x4DA5870", Offset = "0x4DA5870", VA = "0x4DA5870")]
+		[Address(RVA = "0x50CD1A0", Offset = "0x50CD1A0", VA = "0x50CD1A0")]
 		set
 		{
 		}
@@ -215,13 +222,13 @@ public class CanvasScaler : UIBehaviour
 	public float matchWidthOrHeight
 	{
 		[Token(Token = "0x6000262")]
-		[Address(RVA = "0x4DA5880", Offset = "0x4DA5880", VA = "0x4DA5880")]
+		[Address(RVA = "0x50CD1B0", Offset = "0x50CD1B0", VA = "0x50CD1B0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000263")]
-		[Address(RVA = "0x4DA5890", Offset = "0x4DA5890", VA = "0x4DA5890")]
+		[Address(RVA = "0x50CD1C0", Offset = "0x50CD1C0", VA = "0x50CD1C0")]
 		set
 		{
 		}
@@ -231,13 +238,13 @@ public class CanvasScaler : UIBehaviour
 	public Unit physicalUnit
 	{
 		[Token(Token = "0x6000264")]
-		[Address(RVA = "0x4DA58A0", Offset = "0x4DA58A0", VA = "0x4DA58A0")]
+		[Address(RVA = "0x50CD1D0", Offset = "0x50CD1D0", VA = "0x50CD1D0")]
 		get
 		{
 			return default(Unit);
 		}
 		[Token(Token = "0x6000265")]
-		[Address(RVA = "0x4DA58B0", Offset = "0x4DA58B0", VA = "0x4DA58B0")]
+		[Address(RVA = "0x50CD1E0", Offset = "0x50CD1E0", VA = "0x50CD1E0")]
 		set
 		{
 		}
@@ -247,13 +254,13 @@ public class CanvasScaler : UIBehaviour
 	public float fallbackScreenDPI
 	{
 		[Token(Token = "0x6000266")]
-		[Address(RVA = "0x4DA58C0", Offset = "0x4DA58C0", VA = "0x4DA58C0")]
+		[Address(RVA = "0x50CD1F0", Offset = "0x50CD1F0", VA = "0x50CD1F0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000267")]
-		[Address(RVA = "0x4DA58D0", Offset = "0x4DA58D0", VA = "0x4DA58D0")]
+		[Address(RVA = "0x50CD200", Offset = "0x50CD200", VA = "0x50CD200")]
 		set
 		{
 		}
@@ -263,13 +270,13 @@ public class CanvasScaler : UIBehaviour
 	public float defaultSpriteDPI
 	{
 		[Token(Token = "0x6000268")]
-		[Address(RVA = "0x4DA58E0", Offset = "0x4DA58E0", VA = "0x4DA58E0")]
+		[Address(RVA = "0x50CD210", Offset = "0x50CD210", VA = "0x50CD210")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000269")]
-		[Address(RVA = "0x4DA58F0", Offset = "0x4DA58F0", VA = "0x4DA58F0")]
+		[Address(RVA = "0x50CD220", Offset = "0x50CD220", VA = "0x50CD220")]
 		set
 		{
 		}
@@ -279,80 +286,80 @@ public class CanvasScaler : UIBehaviour
 	public float dynamicPixelsPerUnit
 	{
 		[Token(Token = "0x600026A")]
-		[Address(RVA = "0x4DA5910", Offset = "0x4DA5910", VA = "0x4DA5910")]
+		[Address(RVA = "0x50CD240", Offset = "0x50CD240", VA = "0x50CD240")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600026B")]
-		[Address(RVA = "0x4DA5920", Offset = "0x4DA5920", VA = "0x4DA5920")]
+		[Address(RVA = "0x50CD250", Offset = "0x50CD250", VA = "0x50CD250")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600026C")]
-	[Address(RVA = "0x4DA5930", Offset = "0x4DA5930", VA = "0x4DA5930")]
+	[Address(RVA = "0x50CD260", Offset = "0x50CD260", VA = "0x50CD260")]
 	protected CanvasScaler()
 	{
 	}
 
 	[Token(Token = "0x600026D")]
-	[Address(RVA = "0x4DA5980", Offset = "0x4DA5980", VA = "0x4DA5980", Slot = "5")]
+	[Address(RVA = "0x50CD2B0", Offset = "0x50CD2B0", VA = "0x50CD2B0", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x600026E")]
-	[Address(RVA = "0x4DA5A40", Offset = "0x4DA5A40", VA = "0x4DA5A40")]
+	[Address(RVA = "0x50CD370", Offset = "0x50CD370", VA = "0x50CD370")]
 	private void Canvas_preWillRenderCanvases()
 	{
 	}
 
 	[Token(Token = "0x600026F")]
-	[Address(RVA = "0x4DA5A60", Offset = "0x4DA5A60", VA = "0x4DA5A60", Slot = "7")]
+	[Address(RVA = "0x50CD390", Offset = "0x50CD390", VA = "0x50CD390", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000270")]
-	[Address(RVA = "0x4DA5C00", Offset = "0x4DA5C00", VA = "0x4DA5C00", Slot = "17")]
+	[Address(RVA = "0x50CD530", Offset = "0x50CD530", VA = "0x50CD530", Slot = "17")]
 	protected virtual void Handle()
 	{
 	}
 
 	[Token(Token = "0x6000271")]
-	[Address(RVA = "0x4DA5D00", Offset = "0x4DA5D00", VA = "0x4DA5D00", Slot = "18")]
+	[Address(RVA = "0x50CD630", Offset = "0x50CD630", VA = "0x50CD630", Slot = "18")]
 	protected virtual void HandleWorldCanvas()
 	{
 	}
 
 	[Token(Token = "0x6000272")]
-	[Address(RVA = "0x4DA5D80", Offset = "0x4DA5D80", VA = "0x4DA5D80", Slot = "19")]
+	[Address(RVA = "0x50CD6B0", Offset = "0x50CD6B0", VA = "0x50CD6B0", Slot = "19")]
 	protected virtual void HandleConstantPixelSize()
 	{
 	}
 
 	[Token(Token = "0x6000273")]
-	[Address(RVA = "0x4DA5E00", Offset = "0x4DA5E00", VA = "0x4DA5E00", Slot = "20")]
+	[Address(RVA = "0x50CD730", Offset = "0x50CD730", VA = "0x50CD730", Slot = "20")]
 	protected virtual void HandleScaleWithScreenSize()
 	{
 	}
 
 	[Token(Token = "0x6000274")]
-	[Address(RVA = "0x4DA6120", Offset = "0x4DA6120", VA = "0x4DA6120", Slot = "21")]
+	[Address(RVA = "0x50CDA50", Offset = "0x50CDA50", VA = "0x50CDA50", Slot = "21")]
 	protected virtual void HandleConstantPhysicalSize()
 	{
 	}
 
 	[Token(Token = "0x6000275")]
-	[Address(RVA = "0x4DA5B60", Offset = "0x4DA5B60", VA = "0x4DA5B60")]
+	[Address(RVA = "0x50CD490", Offset = "0x50CD490", VA = "0x50CD490")]
 	protected void SetScaleFactor(float scaleFactor)
 	{
 	}
 
 	[Token(Token = "0x6000276")]
-	[Address(RVA = "0x4DA5BB0", Offset = "0x4DA5BB0", VA = "0x4DA5BB0")]
+	[Address(RVA = "0x50CD4E0", Offset = "0x50CD4E0", VA = "0x50CD4E0")]
 	protected void SetReferencePixelsPerUnit(float referencePixelsPerUnit)
 	{
 	}

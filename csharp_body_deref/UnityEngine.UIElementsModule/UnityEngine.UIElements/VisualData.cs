@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.VisualData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -71,41 +78,41 @@ internal struct VisualData : IStyleDataGroup<VisualData>, IEquatable<VisualData>
 	public OverflowInternal overflow;
 
 	[Token(Token = "0x60015AE")]
-	[Address(RVA = "0x4D84180", Offset = "0x4D84180", VA = "0x4D84180", Slot = "4")]
+	[Address(RVA = "0x50ABAB0", Offset = "0x50ABAB0", VA = "0x50ABAB0", Slot = "4")]
 	public VisualData Copy()
 	{
 		return default(VisualData);
 	}
 
 	[Token(Token = "0x60015AF")]
-	[Address(RVA = "0x4D841A0", Offset = "0x4D841A0", VA = "0x4D841A0", Slot = "5")]
+	[Address(RVA = "0x50ABAD0", Offset = "0x50ABAD0", VA = "0x50ABAD0", Slot = "5")]
 	public void CopyFrom(ref VisualData other)
 	{
 	}
 
 	[Token(Token = "0x60015B0")]
-	[Address(RVA = "0x4D841C0", Offset = "0x4D841C0", VA = "0x4D841C0")]
+	[Address(RVA = "0x50ABAF0", Offset = "0x50ABAF0", VA = "0x50ABAF0")]
 	public static bool operator ==(VisualData lhs, VisualData rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60015B1")]
-	[Address(RVA = "0x4D84580", Offset = "0x4D84580", VA = "0x4D84580", Slot = "6")]
+	[Address(RVA = "0x50ABEB0", Offset = "0x50ABEB0", VA = "0x50ABEB0", Slot = "6")]
 	public bool Equals(VisualData other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60015B2")]
-	[Address(RVA = "0x4D845C0", Offset = "0x4D845C0", VA = "0x4D845C0", Slot = "0")]
+	[Address(RVA = "0x50ABEF0", Offset = "0x50ABEF0", VA = "0x50ABEF0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60015B3")]
-	[Address(RVA = "0x4D84660", Offset = "0x4D84660", VA = "0x4D84660", Slot = "2")]
+	[Address(RVA = "0x50ABF90", Offset = "0x50ABF90", VA = "0x50ABF90", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

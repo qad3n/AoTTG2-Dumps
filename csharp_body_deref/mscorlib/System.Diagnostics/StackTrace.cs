@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Diagnostics.StackTrace
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -53,7 +60,7 @@ public class StackTrace
 	public virtual int FrameCount
 	{
 		[Token(Token = "0x6002E7C")]
-		[Address(RVA = "0x4F95520", Offset = "0x4F95520", VA = "0x4F95520", Slot = "4")]
+		[Address(RVA = "0x3C7B040", Offset = "0x3C7B040", VA = "0x3C7B040", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -62,91 +69,91 @@ public class StackTrace
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x6002E75")]
-	[Address(RVA = "0x4F95130", Offset = "0x4F95130", VA = "0x4F95130")]
+	[Address(RVA = "0x3C7AC50", Offset = "0x3C7AC50", VA = "0x3C7AC50")]
 	public StackTrace()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x6002E76")]
-	[Address(RVA = "0x4F953B0", Offset = "0x4F953B0", VA = "0x4F953B0")]
+	[Address(RVA = "0x3C7AED0", Offset = "0x3C7AED0", VA = "0x3C7AED0")]
 	public StackTrace(bool fNeedFileInfo)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x6002E77")]
-	[Address(RVA = "0x4F953E0", Offset = "0x4F953E0", VA = "0x4F953E0")]
+	[Address(RVA = "0x3C7AF00", Offset = "0x3C7AF00", VA = "0x3C7AF00")]
 	public StackTrace(int skipFrames, bool fNeedFileInfo)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x6002E78")]
-	[Address(RVA = "0x4F95150", Offset = "0x4F95150", VA = "0x4F95150")]
+	[Address(RVA = "0x3C7AC70", Offset = "0x3C7AC70", VA = "0x3C7AC70")]
 	private void init_frames(int skipFrames, bool fNeedFileInfo)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6002E79")]
-	[Address(RVA = "0x4F95410", Offset = "0x4F95410", VA = "0x4F95410")]
+	[Address(RVA = "0x3C7AF30", Offset = "0x3C7AF30", VA = "0x3C7AF30")]
 	private static extern StackFrame[] get_trace(Exception e, int skipFrames, bool fNeedFileInfo);
 
 	[Token(Token = "0x6002E7A")]
-	[Address(RVA = "0x4F95420", Offset = "0x4F95420", VA = "0x4F95420")]
+	[Address(RVA = "0x3C7AF40", Offset = "0x3C7AF40", VA = "0x3C7AF40")]
 	public StackTrace(Exception e, bool fNeedFileInfo)
 	{
 	}
 
 	[Token(Token = "0x6002E7B")]
-	[Address(RVA = "0x4F95430", Offset = "0x4F95430", VA = "0x4F95430")]
+	[Address(RVA = "0x3C7AF50", Offset = "0x3C7AF50", VA = "0x3C7AF50")]
 	public StackTrace(Exception e, int skipFrames, bool fNeedFileInfo)
 	{
 	}
 
 	[Token(Token = "0x6002E7D")]
-	[Address(RVA = "0x4F95530", Offset = "0x4F95530", VA = "0x4F95530", Slot = "5")]
+	[Address(RVA = "0x3C7B050", Offset = "0x3C7B050", VA = "0x3C7B050", Slot = "5")]
 	public virtual StackFrame GetFrame(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002E7E")]
-	[Address(RVA = "0x4F95590", Offset = "0x4F95590", VA = "0x4F95590")]
+	[Address(RVA = "0x3C7B0B0", Offset = "0x3C7B0B0", VA = "0x3C7B0B0")]
 	private static string GetAotId()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002E7F")]
-	[Address(RVA = "0x4F95660", Offset = "0x4F95660", VA = "0x4F95660")]
+	[Address(RVA = "0x3C7B180", Offset = "0x3C7B180", VA = "0x3C7B180")]
 	private bool AddFrames(StringBuilder sb, bool separator, out bool isAsync)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002E80")]
-	[Address(RVA = "0x4F95B30", Offset = "0x4F95B30", VA = "0x4F95B30")]
+	[Address(RVA = "0x3C7B650", Offset = "0x3C7B650", VA = "0x3C7B650")]
 	private void GetFullNameForStackTrace(StringBuilder sb, MethodBase mi, bool needsNewLine, out bool skipped, out bool isAsync)
 	{
 	}
 
 	[Token(Token = "0x6002E81")]
-	[Address(RVA = "0x4F961F0", Offset = "0x4F961F0", VA = "0x4F961F0")]
+	[Address(RVA = "0x3C7BD10", Offset = "0x3C7BD10", VA = "0x3C7BD10")]
 	private static void ConvertAsyncStateMachineMethod(ref MethodBase method, ref Type declaringType)
 	{
 	}
 
 	[Token(Token = "0x6002E82")]
-	[Address(RVA = "0x4F96710", Offset = "0x4F96710", VA = "0x4F96710", Slot = "3")]
+	[Address(RVA = "0x3C7C230", Offset = "0x3C7C230", VA = "0x3C7C230", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002E83")]
-	[Address(RVA = "0x4F968F0", Offset = "0x4F968F0", VA = "0x4F968F0")]
+	[Address(RVA = "0x3C7C410", Offset = "0x3C7C410", VA = "0x3C7C410")]
 	internal string ToString(TraceFormat traceFormat)
 	{
 		return null;

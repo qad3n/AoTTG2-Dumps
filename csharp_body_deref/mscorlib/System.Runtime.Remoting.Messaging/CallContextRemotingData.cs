@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.Messaging.CallContextRemotingData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
@@ -14,13 +21,13 @@ internal class CallContextRemotingData : ICloneable
 	internal string LogicalCallID
 	{
 		[Token(Token = "0x6001E01")]
-		[Address(RVA = "0x4EA09F0", Offset = "0x4EA09F0", VA = "0x4EA09F0")]
+		[Address(RVA = "0x3B86510", Offset = "0x3B86510", VA = "0x3B86510")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001E02")]
-		[Address(RVA = "0x4EA0A00", Offset = "0x4EA0A00", VA = "0x4EA0A00")]
+		[Address(RVA = "0x3B86520", Offset = "0x3B86520", VA = "0x3B86520")]
 		set
 		{
 		}
@@ -30,7 +37,7 @@ internal class CallContextRemotingData : ICloneable
 	internal bool HasInfo
 	{
 		[Token(Token = "0x6001E03")]
-		[Address(RVA = "0x4EA07E0", Offset = "0x4EA07E0", VA = "0x4EA07E0")]
+		[Address(RVA = "0x3B86300", Offset = "0x3B86300", VA = "0x3B86300")]
 		get
 		{
 			return default(bool);
@@ -38,14 +45,14 @@ internal class CallContextRemotingData : ICloneable
 	}
 
 	[Token(Token = "0x6001E04")]
-	[Address(RVA = "0x4EA0700", Offset = "0x4EA0700", VA = "0x4EA0700", Slot = "4")]
+	[Address(RVA = "0x3B86220", Offset = "0x3B86220", VA = "0x3B86220", Slot = "4")]
 	public object Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001E05")]
-	[Address(RVA = "0x4EA0A10", Offset = "0x4EA0A10", VA = "0x4EA0A10")]
+	[Address(RVA = "0x3B86530", Offset = "0x3B86530", VA = "0x3B86530")]
 	public CallContextRemotingData()
 	{
 	}

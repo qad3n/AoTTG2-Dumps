@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Realtime.ErrorInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using ExitGames.Client.Photon;
 using Il2CppDummyDll;
 
@@ -11,13 +18,13 @@ public class ErrorInfo
 	public readonly string Info;
 
 	[Token(Token = "0x60000FB")]
-	[Address(RVA = "0x3BD52B0", Offset = "0x3BD52B0", VA = "0x3BD52B0")]
+	[Address(RVA = "0x3ECAC00", Offset = "0x3ECAC00", VA = "0x3ECAC00")]
 	public ErrorInfo(EventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60000FC")]
-	[Address(RVA = "0x3BD5F80", Offset = "0x3BD5F80", VA = "0x3BD5F80", Slot = "3")]
+	[Address(RVA = "0x3ECB8D0", Offset = "0x3ECB8D0", VA = "0x3ECB8D0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

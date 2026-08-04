@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Gisketch.Aottg2UI.Game.AottgProfileSocialLinksEditor
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgProfileSocialLinksEditor.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Gisketch.Aottg2UI.Actions;
 using Gisketch.Aottg2UI.Code;
 using Il2CppDummyDll;
@@ -5,68 +12,68 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000190")]
+[Token(Token = "0x20001C3")]
 internal sealed class AottgProfileSocialLinksEditor : AottgComponent
 {
-	[Token(Token = "0x40008CC")]
+	[Token(Token = "0x4000992")]
 	private const int MaxLinks = 8;
 
-	[Token(Token = "0x40008CD")]
+	[Token(Token = "0x4000993")]
 	private const string RootId = "profile-details-socials";
 
-	[Token(Token = "0x600093A")]
-	[Address(RVA = "0x40FA330", Offset = "0x40FA330", VA = "0x40FA330", Slot = "4")]
+	[Token(Token = "0x6000AB7")]
+	[Address(RVA = "0x442C430", Offset = "0x442C430", VA = "0x442C430", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x600093B")]
-	[Address(RVA = "0x40FA530", Offset = "0x40FA530", VA = "0x40FA530")]
+	[Token(Token = "0x6000AB8")]
+	[Address(RVA = "0x442C630", Offset = "0x442C630", VA = "0x442C630")]
 	private static void SocialRow(AottgUi ui, int index, string value)
 	{
 	}
 
-	[Token(Token = "0x600093C")]
-	[Address(RVA = "0x40FA7A0", Offset = "0x40FA7A0", VA = "0x40FA7A0")]
+	[Token(Token = "0x6000AB9")]
+	[Address(RVA = "0x442C8A0", Offset = "0x442C8A0", VA = "0x442C8A0")]
 	private static void AddRow(GisketchActionContext context)
 	{
 	}
 
-	[Token(Token = "0x600093D")]
-	[Address(RVA = "0x40FAA50", Offset = "0x40FAA50", VA = "0x40FAA50")]
+	[Token(Token = "0x6000ABA")]
+	[Address(RVA = "0x442CB50", Offset = "0x442CB50", VA = "0x442CB50")]
 	private static void RemoveRow(GisketchActionContext context, int index)
 	{
 	}
 
-	[Token(Token = "0x600093E")]
-	[Address(RVA = "0x40FA920", Offset = "0x40FA920", VA = "0x40FA920")]
+	[Token(Token = "0x6000ABB")]
+	[Address(RVA = "0x442CA20", Offset = "0x442CA20", VA = "0x442CA20")]
 	private static GameObject Find(Transform root, string id)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600093F")]
+	[Token(Token = "0x6000ABC")]
 	private static T FindComponent<T>(Transform root, string id) where T : Component
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000940")]
-	[Address(RVA = "0x40FA750", Offset = "0x40FA750", VA = "0x40FA750")]
+	[Token(Token = "0x6000ABD")]
+	[Address(RVA = "0x442C850", Offset = "0x442C850", VA = "0x442C850")]
 	private static string RowId(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000941")]
-	[Address(RVA = "0x40FAC40", Offset = "0x40FAC40", VA = "0x40FAC40")]
+	[Token(Token = "0x6000ABE")]
+	[Address(RVA = "0x442CD40", Offset = "0x442CD40", VA = "0x442CD40")]
 	private static string InputId(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000942")]
-	[Address(RVA = "0x40FAC90", Offset = "0x40FAC90", VA = "0x40FAC90")]
+	[Token(Token = "0x6000ABF")]
+	[Address(RVA = "0x4421E40", Offset = "0x4421E40", VA = "0x4421E40")]
 	public AottgProfileSocialLinksEditor()
 	{
 	}

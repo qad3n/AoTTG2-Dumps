@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.BoundsField
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Scripting.APIUpdating;
 
@@ -11,7 +18,7 @@ public class BoundsField : BaseField<Bounds>
 	public new class UxmlFactory : UxmlFactory<BoundsField, UxmlTraits>
 	{
 		[Token(Token = "0x6000331")]
-		[Address(RVA = "0x4C08440", Offset = "0x4C08440", VA = "0x4C08440")]
+		[Address(RVA = "0x4F2FD70", Offset = "0x4F2FD70", VA = "0x4F2FD70")]
 		public UxmlFactory()
 		{
 		}
@@ -45,13 +52,13 @@ public class BoundsField : BaseField<Bounds>
 		private UxmlFloatAttributeDescription m_ExtentsZValue;
 
 		[Token(Token = "0x6000332")]
-		[Address(RVA = "0x4C08480", Offset = "0x4C08480", VA = "0x4C08480", Slot = "4")]
+		[Address(RVA = "0x4F2FDB0", Offset = "0x4F2FDB0", VA = "0x4F2FDB0", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x6000333")]
-		[Address(RVA = "0x4C087E0", Offset = "0x4C087E0", VA = "0x4C087E0")]
+		[Address(RVA = "0x4F30110", Offset = "0x4F30110", VA = "0x4F30110")]
 		public UxmlTraits()
 		{
 		}
@@ -86,25 +93,25 @@ public class BoundsField : BaseField<Bounds>
 	private Vector3Field m_ExtentsField;
 
 	[Token(Token = "0x600032A")]
-	[Address(RVA = "0x4C07AA0", Offset = "0x4C07AA0", VA = "0x4C07AA0")]
+	[Address(RVA = "0x4F2F3D0", Offset = "0x4F2F3D0", VA = "0x4F2F3D0")]
 	public BoundsField()
 	{
 	}
 
 	[Token(Token = "0x600032B")]
-	[Address(RVA = "0x4C07AB0", Offset = "0x4C07AB0", VA = "0x4C07AB0")]
+	[Address(RVA = "0x4F2F3E0", Offset = "0x4F2F3E0", VA = "0x4F2F3E0")]
 	public BoundsField(string label)
 	{
 	}
 
 	[Token(Token = "0x600032C")]
-	[Address(RVA = "0x4C07FC0", Offset = "0x4C07FC0", VA = "0x4C07FC0", Slot = "114")]
+	[Address(RVA = "0x4F2F8F0", Offset = "0x4F2F8F0", VA = "0x4F2F8F0", Slot = "114")]
 	public override void SetValueWithoutNotify(Bounds newValue)
 	{
 	}
 
 	[Token(Token = "0x600032D")]
-	[Address(RVA = "0x4C080B0", Offset = "0x4C080B0", VA = "0x4C080B0", Slot = "113")]
+	[Address(RVA = "0x4F2F9E0", Offset = "0x4F2F9E0", VA = "0x4F2F9E0", Slot = "113")]
 	protected override void UpdateMixedValueContent()
 	{
 	}

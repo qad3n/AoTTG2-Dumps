@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Experimental.Rendering.RenderGraphModule.RenderGraphDebugData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Diagnostics;
 using Il2CppDummyDll;
@@ -70,13 +77,13 @@ internal class RenderGraphDebugData
 	public List<ResourceDebugData>[] resourceLists;
 
 	[Token(Token = "0x6000362")]
-	[Address(RVA = "0x4856DF0", Offset = "0x4856DF0", VA = "0x4856DF0")]
+	[Address(RVA = "0x4B7BEE0", Offset = "0x4B7BEE0", VA = "0x4B7BEE0")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000363")]
-	[Address(RVA = "0x4856FF0", Offset = "0x4856FF0", VA = "0x4856FF0")]
+	[Address(RVA = "0x4B7C0E0", Offset = "0x4B7C0E0", VA = "0x4B7C0E0")]
 	public RenderGraphDebugData()
 	{
 	}

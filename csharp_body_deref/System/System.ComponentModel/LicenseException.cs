@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.LicenseException
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
 
@@ -19,7 +26,7 @@ public class LicenseException : SystemException
 	public Type LicensedType
 	{
 		[Token(Token = "0x6001362")]
-		[Address(RVA = "0x458F0D0", Offset = "0x458F0D0", VA = "0x458F0D0")]
+		[Address(RVA = "0x48B41D0", Offset = "0x48B41D0", VA = "0x48B41D0")]
 		get
 		{
 			return null;
@@ -27,37 +34,37 @@ public class LicenseException : SystemException
 	}
 
 	[Token(Token = "0x600135D")]
-	[Address(RVA = "0x458EBD0", Offset = "0x458EBD0", VA = "0x458EBD0")]
+	[Address(RVA = "0x48B3CD0", Offset = "0x48B3CD0", VA = "0x48B3CD0")]
 	public LicenseException(Type type)
 	{
 	}
 
 	[Token(Token = "0x600135E")]
-	[Address(RVA = "0x458ED60", Offset = "0x458ED60", VA = "0x458ED60")]
+	[Address(RVA = "0x48B3E60", Offset = "0x48B3E60", VA = "0x48B3E60")]
 	public LicenseException(Type type, object instance)
 	{
 	}
 
 	[Token(Token = "0x600135F")]
-	[Address(RVA = "0x458ED00", Offset = "0x458ED00", VA = "0x458ED00")]
+	[Address(RVA = "0x48B3E00", Offset = "0x48B3E00", VA = "0x48B3E00")]
 	public LicenseException(Type type, object instance, string message)
 	{
 	}
 
 	[Token(Token = "0x6001360")]
-	[Address(RVA = "0x458EF00", Offset = "0x458EF00", VA = "0x458EF00")]
+	[Address(RVA = "0x48B4000", Offset = "0x48B4000", VA = "0x48B4000")]
 	public LicenseException(Type type, object instance, string message, Exception innerException)
 	{
 	}
 
 	[Token(Token = "0x6001361")]
-	[Address(RVA = "0x458EF60", Offset = "0x458EF60", VA = "0x458EF60")]
+	[Address(RVA = "0x48B4060", Offset = "0x48B4060", VA = "0x48B4060")]
 	protected LicenseException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001363")]
-	[Address(RVA = "0x458F0E0", Offset = "0x458F0E0", VA = "0x458F0E0", Slot = "11")]
+	[Address(RVA = "0x48B41E0", Offset = "0x48B41E0", VA = "0x48B41E0", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

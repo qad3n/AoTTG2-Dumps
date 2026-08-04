@@ -1,68 +1,138 @@
 // Type: UnityStandardAssets.ImageEffects.NoiseAndScratches
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/StandardAssets.Effects/UnityStandardAssets.ImageEffects/NoiseAndScratches.cs
-// Prior real C# source (REFERENCE, outdated): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs  [prior source available (delta unverified)]
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs
 // --------------------------------
 
 // UnityStandardAssets.ImageEffects.NoiseAndScratches$$Start
 // il2cpp: void UnityStandardAssets_ImageEffects_NoiseAndScratches__Start (UnityStandardAssets_ImageEffects_NoiseAndScratches_o* __this, const MethodInfo* method);
-// 0x425f370
+// 0x4584470
 
 void UnityStandardAssets_ImageEffects_NoiseAndScratches__Start
                (UnityStandardAssets_ImageEffects_NoiseAndScratches_o *__this,MethodInfo *method)
 
 {
   UnityEngine_Texture_o *pUVar1;
-  UnityEngine_Object_o *x;
-  UnityEngine_Shader_o *__this_00;
-  bool_conflict bVar2;
+  UnityEngine_Object_o *pUVar2;
+  UnityEngine_Shader_o *pUVar3;
+  bool_conflict bVar4;
+  UnityEngine_Material_o *pUVar5;
+  long lVar6;
   
-  if (DAT_05705266 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_Debug);
-    il2cpp_init_method_metadata(&TypeInfo_Object);
-    il2cpp_init_method_metadata();
-    DAT_05705266 = '\x01';
+  if (g_data_057af0e2 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Debug);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
+    il2cpp_runtime_helper_023445d0();
+    g_data_057af0e2 = '\x01';
   }
-  bVar2 = UnityEngine_SystemInfo__get_supportsImageEffects((MethodInfo *)0x0);
-  if ((char)bVar2 != '\0') {
+  bVar4 = UnityEngine_SystemInfo__get_supportsImageEffects((MethodInfo *)0x0);
+  if ((char)bVar4 != '\0') {
     pUVar1 = (__this->fields).scratchTexture;
     if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_init_class();
+      il2cpp_runtime_helper_02337ed0();
     }
-    bVar2 = UnityEngine_Object__op_Equality
-                      ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0)
-    ;
-    if ((char)bVar2 == '\0') {
-      x = (UnityEngine_Object_o *)(__this->fields).shaderRGB;
+    bVar4 = UnityEngine_Object__op_Equality
+                      ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if ((char)bVar4 == '\0') {
+      pUVar2 = (UnityEngine_Object_o *)(__this->fields).shaderRGB;
       if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_init_class();
+        il2cpp_runtime_helper_02337ed0();
       }
-      bVar2 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if ((char)bVar2 == '\0') {
+      bVar4 = UnityEngine_Object__op_Equality(pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if ((char)bVar4 == '\0') {
         pUVar1 = (__this->fields).scratchTexture;
         if (pUVar1 != (UnityEngine_Texture_o *)0x0) {
-          bVar2 = UnityEngine_Shader__get_isSupported
-                            ((UnityEngine_Shader_o *)pUVar1,(MethodInfo *)0x0);
-          if ((char)bVar2 == '\0') goto LAB_0425f431;
-          __this_00 = (__this->fields).shaderRGB;
-          if (__this_00 != (UnityEngine_Shader_o *)0x0) {
-            bVar2 = UnityEngine_Shader__get_isSupported(__this_00,(MethodInfo *)0x0);
-            if ((char)bVar2 == '\0') {
+          bVar4 = UnityEngine_Shader__get_isSupported((UnityEngine_Shader_o *)pUVar1,(MethodInfo *)0x0);
+          if ((char)bVar4 == '\0') goto label_04584531;
+          pUVar3 = (__this->fields).shaderRGB;
+          if (pUVar3 != (UnityEngine_Shader_o *)0x0) {
+            bVar4 = UnityEngine_Shader__get_isSupported(pUVar3,(MethodInfo *)0x0);
+            if ((char)bVar4 == '\0') {
               *(undefined1 *)((long)&(__this->fields).monochrome + 1) = 1;
             }
             return;
           }
         }
-                    /* WARNING: Subroutine does not return */
-        il2cpp_raise_exception();
+        lVar6 = 0;
+        il2cpp_runtime_helper_022b2c90();
+        if (g_data_057af0e3 == '\0') {
+          il2cpp_runtime_helper_023445d0(&TypeInfo_Material);
+          il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
+          g_data_057af0e3 = '\x01';
+        }
+        pUVar2 = *(UnityEngine_Object_o **)(lVar6 + 0x60);
+        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
+          il2cpp_runtime_helper_02337ed0();
+        }
+        bVar4 = UnityEngine_Object__op_Equality(pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if ((char)bVar4 != '\0') {
+          pUVar3 = *(UnityEngine_Shader_o **)(lVar6 + 0x50);
+          pUVar5 = (UnityEngine_Material_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Material);
+          UnityEngine_Material___ctor(pUVar5,pUVar3,(MethodInfo *)0x0);
+          *(UnityEngine_Material_o **)(lVar6 + 0x60) = pUVar5;
+          il2cpp_runtime_helper_022b4080(lVar6 + 0x60);
+          if (*(UnityEngine_Object_o **)(lVar6 + 0x60) == (UnityEngine_Object_o *)0x0) goto label_045846d5;
+          UnityEngine_Object__set_hideFlags(*(UnityEngine_Object_o **)(lVar6 + 0x60),0x3d,(MethodInfo *)0x0);
+        }
+        pUVar2 = *(UnityEngine_Object_o **)(lVar6 + 0x68);
+        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
+          il2cpp_runtime_helper_02337ed0();
+        }
+        bVar4 = UnityEngine_Object__op_Equality(pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (((char)bVar4 != '\0') && (*(char *)(lVar6 + 0x21) == '\0')) {
+          pUVar3 = *(UnityEngine_Shader_o **)(lVar6 + 0x58);
+          pUVar5 = (UnityEngine_Material_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Material);
+          UnityEngine_Material___ctor(pUVar5,pUVar3,(MethodInfo *)0x0);
+          *(UnityEngine_Material_o **)(lVar6 + 0x68) = pUVar5;
+          il2cpp_runtime_helper_022b4080(lVar6 + 0x68);
+          if (*(UnityEngine_Object_o **)(lVar6 + 0x68) == (UnityEngine_Object_o *)0x0) {
+label_045846d5:
+            lVar6 = 0;
+            il2cpp_runtime_helper_022b2c90();
+            if (g_data_057af0e4 == '\0') {
+              il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
+              g_data_057af0e4 = '\x01';
+            }
+            pUVar2 = *(UnityEngine_Object_o **)(lVar6 + 0x60);
+            if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
+              il2cpp_runtime_helper_02337ed0();
+            }
+            bVar4 = UnityEngine_Object__op_Implicit(pUVar2,(MethodInfo *)0x0);
+            if ((char)bVar4 != '\0') {
+              pUVar2 = *(UnityEngine_Object_o **)(lVar6 + 0x60);
+              if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
+                il2cpp_runtime_helper_02337ed0();
+              }
+              UnityEngine_Object__DestroyImmediate_4e01e00(pUVar2,(MethodInfo *)0x0);
+            }
+            pUVar2 = *(UnityEngine_Object_o **)(lVar6 + 0x68);
+            if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
+              il2cpp_runtime_helper_02337ed0();
+            }
+            bVar4 = UnityEngine_Object__op_Implicit(pUVar2,(MethodInfo *)0x0);
+            if ((char)bVar4 == '\0') {
+              return;
+            }
+            pUVar2 = *(UnityEngine_Object_o **)(lVar6 + 0x68);
+            if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
+              il2cpp_runtime_helper_02337ed0();
+            }
+            UnityEngine_Object__DestroyImmediate_4e01e00(pUVar2,(MethodInfo *)0x0);
+            return;
+          }
+          UnityEngine_Object__set_hideFlags(*(UnityEngine_Object_o **)(lVar6 + 0x68),0x3d,(MethodInfo *)0x0);
+        }
+        return;
       }
     }
     if (*(int *)(TypeInfo_Debug + 0xe4) == 0) {
-      il2cpp_init_class();
+      il2cpp_runtime_helper_02337ed0();
     }
     UnityEngine_Debug__Log("Noise shaders are not set up! Disabling noise effect.",(MethodInfo *)0x0);
   }
-LAB_0425f431:
+label_04584531:
   UnityEngine_Behaviour__set_enabled((UnityEngine_Behaviour_o *)__this,0,(MethodInfo *)0x0);
   return;
 }
@@ -70,7 +140,7 @@ LAB_0425f431:
 
 // UnityStandardAssets.ImageEffects.NoiseAndScratches$$get_material
 // il2cpp: UnityEngine_Material_o* UnityStandardAssets_ImageEffects_NoiseAndScratches__get_material (UnityStandardAssets_ImageEffects_NoiseAndScratches_o* __this, const MethodInfo* method);
-// 0x425f480
+// 0x4584580
 
 UnityEngine_Material_o *
 UnityStandardAssets_ImageEffects_NoiseAndScratches__get_material
@@ -84,32 +154,35 @@ UnityStandardAssets_ImageEffects_NoiseAndScratches__get_material
   UnityEngine_Shader_o *shader_00;
   bool_conflict bVar4;
   UnityEngine_Material_o *pUVar5;
-  UnityEngine_Shader_o **ppUVar6;
+  undefined4 extraout_var;
+  UnityEngine_Material_o *extraout_RAX;
+  long lVar6;
+  UnityEngine_Shader_o **ppUVar7;
   
-  if (DAT_05705267 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_Material);
-    il2cpp_init_method_metadata(&TypeInfo_Object);
-    DAT_05705267 = '\x01';
+  if (g_data_057af0e3 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Material);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
+    g_data_057af0e3 = '\x01';
   }
   pUVar3 = (UnityEngine_Object_o *)(__this->fields).shaderYUV;
   if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
-  ppUVar6 = &(__this->fields).shaderYUV;
+  ppUVar7 = &(__this->fields).shaderYUV;
   bVar4 = UnityEngine_Object__op_Equality(pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
   if ((char)bVar4 != '\0') {
     shader = (__this->fields).scratchTexture;
-    pUVar5 = (UnityEngine_Material_o *)il2cpp_runtime_glue(TypeInfo_Material);
+    pUVar5 = (UnityEngine_Material_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Material);
     UnityEngine_Material___ctor(pUVar5,(UnityEngine_Shader_o *)shader,(MethodInfo *)0x0);
     (__this->fields).shaderYUV = (UnityEngine_Shader_o *)pUVar5;
-    il2cpp_runtime_glue(ppUVar6,pUVar5);
+    il2cpp_runtime_helper_022b4080(ppUVar7);
     pUVar3 = (UnityEngine_Object_o *)(__this->fields).shaderYUV;
-    if (pUVar3 == (UnityEngine_Object_o *)0x0) goto LAB_0425f5d5;
+    if (pUVar3 == (UnityEngine_Object_o *)0x0) goto label_045846d5;
     UnityEngine_Object__set_hideFlags(pUVar3,0x3d,(MethodInfo *)0x0);
   }
   pUVar3 = (UnityEngine_Object_o *)(__this->fields).m_MaterialRGB;
   if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
   ppUVar1 = &(__this->fields).m_MaterialRGB;
   bVar4 = UnityEngine_Object__op_Equality(pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
@@ -118,29 +191,59 @@ UnityStandardAssets_ImageEffects_NoiseAndScratches__get_material
   }
   else {
     shader_00 = (__this->fields).shaderRGB;
-    pUVar5 = (UnityEngine_Material_o *)il2cpp_runtime_glue(TypeInfo_Material);
+    pUVar5 = (UnityEngine_Material_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Material);
     UnityEngine_Material___ctor(pUVar5,shader_00,(MethodInfo *)0x0);
     (__this->fields).m_MaterialRGB = pUVar5;
-    il2cpp_runtime_glue(ppUVar1,pUVar5);
+    il2cpp_runtime_helper_022b4080(ppUVar1);
     pUVar3 = (UnityEngine_Object_o *)(__this->fields).m_MaterialRGB;
     if (pUVar3 == (UnityEngine_Object_o *)0x0) {
-LAB_0425f5d5:
-                    /* WARNING: Subroutine does not return */
-      il2cpp_raise_exception();
+label_045846d5:
+      lVar6 = 0;
+      il2cpp_runtime_helper_022b2c90();
+      if (g_data_057af0e4 == '\0') {
+        il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
+        g_data_057af0e4 = '\x01';
+      }
+      pUVar3 = *(UnityEngine_Object_o **)(lVar6 + 0x60);
+      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
+        il2cpp_runtime_helper_02337ed0();
+      }
+      bVar4 = UnityEngine_Object__op_Implicit(pUVar3,(MethodInfo *)0x0);
+      if ((char)bVar4 != '\0') {
+        pUVar3 = *(UnityEngine_Object_o **)(lVar6 + 0x60);
+        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
+          il2cpp_runtime_helper_02337ed0();
+        }
+        UnityEngine_Object__DestroyImmediate_4e01e00(pUVar3,(MethodInfo *)0x0);
+      }
+      pUVar3 = *(UnityEngine_Object_o **)(lVar6 + 0x68);
+      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
+        il2cpp_runtime_helper_02337ed0();
+      }
+      bVar4 = UnityEngine_Object__op_Implicit(pUVar3,(MethodInfo *)0x0);
+      if ((char)bVar4 != '\0') {
+        pUVar3 = *(UnityEngine_Object_o **)(lVar6 + 0x68);
+        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
+          il2cpp_runtime_helper_02337ed0();
+        }
+        UnityEngine_Object__DestroyImmediate_4e01e00(pUVar3,(MethodInfo *)0x0);
+        return extraout_RAX;
+      }
+      return (UnityEngine_Material_o *)CONCAT44(extraout_var,bVar4);
     }
     UnityEngine_Object__set_hideFlags(pUVar3,0x3d,(MethodInfo *)0x0);
     cVar2 = *(char *)((long)&(__this->fields).monochrome + 1);
   }
   if ((cVar2 == '\0') && ((char)(__this->fields).monochrome == '\0')) {
-    ppUVar6 = (UnityEngine_Shader_o **)ppUVar1;
+    ppUVar7 = (UnityEngine_Shader_o **)ppUVar1;
   }
-  return (UnityEngine_Material_o *)*ppUVar6;
+  return (UnityEngine_Material_o *)*ppUVar7;
 }
 
 
 // UnityStandardAssets.ImageEffects.NoiseAndScratches$$OnDisable
 // il2cpp: void UnityStandardAssets_ImageEffects_NoiseAndScratches__OnDisable (UnityStandardAssets_ImageEffects_NoiseAndScratches_o* __this, const MethodInfo* method);
-// 0x425f5e0
+// 0x45846e0
 
 void UnityStandardAssets_ImageEffects_NoiseAndScratches__OnDisable
                (UnityStandardAssets_ImageEffects_NoiseAndScratches_o *__this,MethodInfo *method)
@@ -149,33 +252,33 @@ void UnityStandardAssets_ImageEffects_NoiseAndScratches__OnDisable
   UnityEngine_Object_o *pUVar1;
   bool_conflict bVar2;
   
-  if (DAT_05705268 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_Object);
-    DAT_05705268 = '\x01';
+  if (g_data_057af0e4 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
+    g_data_057af0e4 = '\x01';
   }
   pUVar1 = (UnityEngine_Object_o *)(__this->fields).shaderYUV;
   if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
   bVar2 = UnityEngine_Object__op_Implicit(pUVar1,(MethodInfo *)0x0);
   if ((char)bVar2 != '\0') {
     pUVar1 = (UnityEngine_Object_o *)(__this->fields).shaderYUV;
     if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_init_class();
+      il2cpp_runtime_helper_02337ed0();
     }
-    UnityEngine_Object__DestroyImmediate(pUVar1,(MethodInfo *)0x0);
+    UnityEngine_Object__DestroyImmediate_4e01e00(pUVar1,(MethodInfo *)0x0);
   }
   pUVar1 = (UnityEngine_Object_o *)(__this->fields).m_MaterialRGB;
   if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
   bVar2 = UnityEngine_Object__op_Implicit(pUVar1,(MethodInfo *)0x0);
   if ((char)bVar2 != '\0') {
     pUVar1 = (UnityEngine_Object_o *)(__this->fields).m_MaterialRGB;
     if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_init_class();
+      il2cpp_runtime_helper_02337ed0();
     }
-    UnityEngine_Object__DestroyImmediate(pUVar1,(MethodInfo *)0x0);
+    UnityEngine_Object__DestroyImmediate_4e01e00(pUVar1,(MethodInfo *)0x0);
     return;
   }
   return;
@@ -184,9 +287,7 @@ void UnityStandardAssets_ImageEffects_NoiseAndScratches__OnDisable
 
 // UnityStandardAssets.ImageEffects.NoiseAndScratches$$SanitizeParameters
 // il2cpp: void UnityStandardAssets_ImageEffects_NoiseAndScratches__SanitizeParameters (UnityStandardAssets_ImageEffects_NoiseAndScratches_o* __this, const MethodInfo* method);
-// 0x425f6a0
-
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// 0x45847a0
 
 void UnityStandardAssets_ImageEffects_NoiseAndScratches__SanitizeParameters
                (UnityStandardAssets_ImageEffects_NoiseAndScratches_o *__this,MethodInfo *method)
@@ -220,7 +321,7 @@ void UnityStandardAssets_ImageEffects_NoiseAndScratches__SanitizeParameters
   auVar2._4_4_ = (__this->fields).grainIntensityMin;
   auVar2._8_4_ = (__this->fields).grainIntensityMax;
   auVar2._12_4_ = (__this->fields).grainSize;
-  auVar4 = minps(_DAT_00cd08b0,auVar2);
+  auVar4 = minps(_DAT_00d1cf50,auVar2);
   (__this->fields).rgbFallback = auVar4._0_4_ & -(uint)(0.0 <= (float)auVar2._0_4_);
   (__this->fields).grainIntensityMin = (float)(auVar4._4_4_ & -(uint)(0.0 <= (float)auVar2._4_4_));
   (__this->fields).grainIntensityMax =
@@ -233,14 +334,12 @@ void UnityStandardAssets_ImageEffects_NoiseAndScratches__SanitizeParameters
 
 // UnityStandardAssets.ImageEffects.NoiseAndScratches$$OnRenderImage
 // il2cpp: void UnityStandardAssets_ImageEffects_NoiseAndScratches__OnRenderImage (UnityStandardAssets_ImageEffects_NoiseAndScratches_o* __this, UnityEngine_RenderTexture_o* source, UnityEngine_RenderTexture_o* destination, const MethodInfo* method);
-// 0x425f730
-
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// 0x4584830
 
 void UnityStandardAssets_ImageEffects_NoiseAndScratches__OnRenderImage
                (UnityStandardAssets_ImageEffects_NoiseAndScratches_o *__this,
-               UnityEngine_RenderTexture_o *source,UnityEngine_RenderTexture_o *destination,
-               MethodInfo *method)
+               UnityEngine_RenderTexture_o *source,UnityEngine_RenderTexture_o *destination,MethodInfo *method
+               )
 
 {
   float fVar1;
@@ -254,6 +353,7 @@ void UnityStandardAssets_ImageEffects_NoiseAndScratches__OnRenderImage
   int iVar9;
   UnityEngine_Material_o *__this_00;
   MethodInfo *method_00;
+  UnityStandardAssets_ImageEffects_NoiseAndScratches_o *__this_01;
   float fVar10;
   float fVar11;
   float fVar12;
@@ -264,14 +364,14 @@ void UnityStandardAssets_ImageEffects_NoiseAndScratches__OnRenderImage
   UnityEngine_Vector4_o value_01;
   
   method_00 = (MethodInfo *)source;
-  if (DAT_05705269 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_Graphics);
-    il2cpp_init_method_metadata(&"_GrainOffsetScale");
-    il2cpp_init_method_metadata(&"_Intensity");
-    il2cpp_init_method_metadata(&"_GrainTex");
-    il2cpp_init_method_metadata(&"_ScratchTex");
-    il2cpp_init_method_metadata();
-    DAT_05705269 = '\x01';
+  if (g_data_057af0e5 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Graphics);
+    il2cpp_runtime_helper_023445d0(&"_GrainOffsetScale");
+    il2cpp_runtime_helper_023445d0(&"_Intensity");
+    il2cpp_runtime_helper_023445d0(&"_GrainTex");
+    il2cpp_runtime_helper_023445d0(&"_ScratchTex");
+    il2cpp_runtime_helper_023445d0();
+    g_data_057af0e5 = '\x01';
   }
   fVar10 = (__this->fields).scratchIntensityMin;
   fVar11 = 5.0;
@@ -296,7 +396,7 @@ void UnityStandardAssets_ImageEffects_NoiseAndScratches__OnRenderImage
   auVar3._4_4_ = (__this->fields).grainIntensityMin;
   auVar3._8_4_ = (__this->fields).grainIntensityMax;
   auVar3._12_4_ = (__this->fields).grainSize;
-  auVar14 = minps(_DAT_00cd08b0,auVar3);
+  auVar14 = minps(_DAT_00d1cf50,auVar3);
   (__this->fields).rgbFallback = auVar14._0_4_ & -(uint)(0.0 <= (float)auVar3._0_4_);
   (__this->fields).grainIntensityMin = (float)(auVar14._4_4_ & -(uint)(0.0 <= (float)auVar3._4_4_));
   (__this->fields).grainIntensityMax =
@@ -306,8 +406,7 @@ void UnityStandardAssets_ImageEffects_NoiseAndScratches__OnRenderImage
   fVar10 = *(float *)&(__this->fields).m_MaterialYUV;
   if (fVar10 <= 0.0) {
     fVar10 = UnityEngine_Random__get_value((MethodInfo *)0x0);
-    *(float *)&(__this->fields).m_MaterialYUV =
-         (fVar10 + fVar10) / (__this->fields).scratchIntensityMax;
+    *(float *)&(__this->fields).m_MaterialYUV = (fVar10 + fVar10) / (__this->fields).scratchIntensityMax;
     fVar10 = UnityEngine_Random__get_value((MethodInfo *)0x0);
     *(float *)((long)&(__this->fields).m_MaterialYUV + 4) = fVar10;
     fVar10 = UnityEngine_Random__get_value((MethodInfo *)0x0);
@@ -316,22 +415,24 @@ void UnityStandardAssets_ImageEffects_NoiseAndScratches__OnRenderImage
   }
   fVar11 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
   *(float *)&(__this->fields).m_MaterialYUV = fVar10 - fVar11;
+  __this_01 = __this;
   __this_00 = UnityStandardAssets_ImageEffects_NoiseAndScratches__get_material(__this,method_00);
   if (__this_00 != (UnityEngine_Material_o *)0x0) {
     UnityEngine_Material__SetTexture
               (__this_00,"_GrainTex",*(UnityEngine_Texture_o **)&(__this->fields).scratchJitter,
                (MethodInfo *)0x0);
-    UnityEngine_Material__SetTexture
-              (__this_00,"_ScratchTex",(__this->fields).grainTexture,(MethodInfo *)0x0);
+    UnityEngine_Material__SetTexture(__this_00,"_ScratchTex",(__this->fields).grainTexture,(MethodInfo *)0x0);
     fVar10 = 1.0 / (__this->fields).grainIntensityMax;
     value.fields.x = UnityEngine_Random__get_value((MethodInfo *)0x0);
     fVar11 = UnityEngine_Random__get_value((MethodInfo *)0x0);
     iVar6 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
     plVar4 = *(long **)&(__this->fields).scratchJitter;
+    __this_01 = (UnityStandardAssets_ImageEffects_NoiseAndScratches_o *)0x0;
     if (plVar4 != (long *)0x0) {
-      iVar7 = (**(code **)(*plVar4 + 0x188))(plVar4,*(undefined8 *)(*plVar4 + 400));
+      iVar7 = (**(code **)(*plVar4 + 0x188))();
       iVar8 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
       plVar4 = *(long **)&(__this->fields).scratchJitter;
+      __this_01 = (UnityStandardAssets_ImageEffects_NoiseAndScratches_o *)0x0;
       if (plVar4 != (long *)0x0) {
         iVar9 = (**(code **)(*plVar4 + 0x1a8))(plVar4,*(undefined8 *)(*plVar4 + 0x1b0));
         value.fields.z = ((float)iVar6 / (float)iVar7) * fVar10;
@@ -346,11 +447,12 @@ void UnityStandardAssets_ImageEffects_NoiseAndScratches__OnRenderImage
         fVar2 = (__this->fields).scratchFPS;
         iVar6 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
         pUVar5 = (__this->fields).grainTexture;
+        __this_01 = (UnityStandardAssets_ImageEffects_NoiseAndScratches_o *)0x0;
         if (pUVar5 != (UnityEngine_Texture_o *)0x0) {
-          iVar7 = (*(pUVar5->klass->vtable)._5_get_width.methodPtr)
-                            (pUVar5,(pUVar5->klass->vtable)._5_get_width.method);
+          iVar7 = (*(pUVar5->klass->vtable)._5_get_width.methodPtr)();
           iVar8 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
           pUVar5 = (__this->fields).grainTexture;
+          __this_01 = (UnityStandardAssets_ImageEffects_NoiseAndScratches_o *)0x0;
           if (pUVar5 != (UnityEngine_Texture_o *)0x0) {
             iVar9 = (*(pUVar5->klass->vtable)._7_get_height.methodPtr)
                               (pUVar5,(pUVar5->klass->vtable)._7_get_height.method);
@@ -371,9 +473,9 @@ void UnityStandardAssets_ImageEffects_NoiseAndScratches__OnRenderImage
             value_01.fields.w = 0.0;
             UnityEngine_Material__SetVector(__this_00,"_Intensity",value_01,(MethodInfo *)0x0);
             if (*(int *)(TypeInfo_Graphics + 0xe4) == 0) {
-              il2cpp_init_class();
+              il2cpp_runtime_helper_02337ed0();
             }
-            UnityEngine_Graphics__Blit
+            UnityEngine_Graphics__Blit_4dc2ad0
                       ((UnityEngine_Texture_o *)source,destination,__this_00,(MethodInfo *)0x0);
             return;
           }
@@ -381,14 +483,23 @@ void UnityStandardAssets_ImageEffects_NoiseAndScratches__OnRenderImage
       }
     }
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  *(undefined1 *)&(__this_01->fields).monochrome = 1;
+  (__this_01->fields).rgbFallback = 0x3dcccccd;
+  (__this_01->fields).grainIntensityMin = 0.2;
+  (__this_01->fields).grainIntensityMax = 2.0;
+  (__this_01->fields).grainSize = 0.05;
+  (__this_01->fields).scratchIntensityMin = 0.25;
+  (__this_01->fields).scratchIntensityMax = 10.0;
+  (__this_01->fields).scratchFPS = 0.01;
+  UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this_01,(MethodInfo *)0x0);
+  return;
 }
 
 
 // UnityStandardAssets.ImageEffects.NoiseAndScratches$$.ctor
 // il2cpp: void UnityStandardAssets_ImageEffects_NoiseAndScratches___ctor (UnityStandardAssets_ImageEffects_NoiseAndScratches_o* __this, const MethodInfo* method);
-// 0x425fb10
+// 0x4584c10
 
 void UnityStandardAssets_ImageEffects_NoiseAndScratches___ctor
                (UnityStandardAssets_ImageEffects_NoiseAndScratches_o *__this,MethodInfo *method)

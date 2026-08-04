@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: ExitGames.Client.Photon.IProtocol
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
@@ -81,41 +88,41 @@ public abstract class IProtocol
 	public abstract DisconnectMessage DeserializeDisconnectMessage(StreamBuffer stream);
 
 	[Token(Token = "0x60000C5")]
-	[Address(RVA = "0x3B76E80", Offset = "0x3B76E80", VA = "0x3B76E80")]
+	[Address(RVA = "0x3E6C7D0", Offset = "0x3E6C7D0", VA = "0x3E6C7D0")]
 	public byte[] Serialize(object obj)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x3B76F00", Offset = "0x3B76F00", VA = "0x3B76F00")]
+	[Address(RVA = "0x3E6C850", Offset = "0x3E6C850", VA = "0x3E6C850")]
 	public object Deserialize(StreamBuffer stream)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000C7")]
-	[Address(RVA = "0x3B76F50", Offset = "0x3B76F50", VA = "0x3B76F50")]
+	[Address(RVA = "0x3E6C8A0", Offset = "0x3E6C8A0", VA = "0x3E6C8A0")]
 	public object Deserialize(byte[] serializedData)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000C8")]
-	[Address(RVA = "0x3B76FD0", Offset = "0x3B76FD0", VA = "0x3B76FD0")]
+	[Address(RVA = "0x3E6C920", Offset = "0x3E6C920", VA = "0x3E6C920")]
 	public object DeserializeMessage(StreamBuffer stream)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000C9")]
-	[Address(RVA = "0x3B77020", Offset = "0x3B77020", VA = "0x3B77020")]
+	[Address(RVA = "0x3E6C970", Offset = "0x3E6C970", VA = "0x3E6C970")]
 	internal void SerializeMessage(StreamBuffer ms, object msg)
 	{
 	}
 
 	[Token(Token = "0x60000CA")]
-	[Address(RVA = "0x3B77040", Offset = "0x3B77040", VA = "0x3B77040")]
+	[Address(RVA = "0x3E6C990", Offset = "0x3E6C990", VA = "0x3E6C990")]
 	protected IProtocol()
 	{
 	}

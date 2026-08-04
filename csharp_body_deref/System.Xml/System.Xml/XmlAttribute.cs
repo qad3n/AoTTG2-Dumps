@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.XmlAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.Schema;
 using System.Xml.XPath;
 using Il2CppDummyDll;
@@ -19,7 +26,7 @@ public class XmlAttribute : XmlNode
 	internal int LocalNameHash
 	{
 		[Token(Token = "0x60007BE")]
-		[Address(RVA = "0x448AC10", Offset = "0x448AC10", VA = "0x448AC10")]
+		[Address(RVA = "0x47C8370", Offset = "0x47C8370", VA = "0x47C8370")]
 		get
 		{
 			return default(int);
@@ -30,13 +37,13 @@ public class XmlAttribute : XmlNode
 	internal XmlName XmlName
 	{
 		[Token(Token = "0x60007C0")]
-		[Address(RVA = "0x448AD80", Offset = "0x448AD80", VA = "0x448AD80")]
+		[Address(RVA = "0x47C84E0", Offset = "0x47C84E0", VA = "0x47C84E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007C1")]
-		[Address(RVA = "0x448AD90", Offset = "0x448AD90", VA = "0x448AD90")]
+		[Address(RVA = "0x47C84F0", Offset = "0x47C84F0", VA = "0x47C84F0")]
 		set
 		{
 		}
@@ -46,7 +53,7 @@ public class XmlAttribute : XmlNode
 	public override XmlNode ParentNode
 	{
 		[Token(Token = "0x60007C3")]
-		[Address(RVA = "0x448AE60", Offset = "0x448AE60", VA = "0x448AE60", Slot = "12")]
+		[Address(RVA = "0x47C85C0", Offset = "0x47C85C0", VA = "0x47C85C0", Slot = "12")]
 		get
 		{
 			return null;
@@ -57,7 +64,7 @@ public class XmlAttribute : XmlNode
 	public override string Name
 	{
 		[Token(Token = "0x60007C4")]
-		[Address(RVA = "0x448AE70", Offset = "0x448AE70", VA = "0x448AE70", Slot = "8")]
+		[Address(RVA = "0x47C85D0", Offset = "0x47C85D0", VA = "0x47C85D0", Slot = "8")]
 		get
 		{
 			return null;
@@ -68,7 +75,7 @@ public class XmlAttribute : XmlNode
 	public override string LocalName
 	{
 		[Token(Token = "0x60007C5")]
-		[Address(RVA = "0x448AE90", Offset = "0x448AE90", VA = "0x448AE90", Slot = "39")]
+		[Address(RVA = "0x47C85F0", Offset = "0x47C85F0", VA = "0x47C85F0", Slot = "39")]
 		get
 		{
 			return null;
@@ -79,7 +86,7 @@ public class XmlAttribute : XmlNode
 	public override string NamespaceURI
 	{
 		[Token(Token = "0x60007C6")]
-		[Address(RVA = "0x448AEB0", Offset = "0x448AEB0", VA = "0x448AEB0", Slot = "36")]
+		[Address(RVA = "0x47C8610", Offset = "0x47C8610", VA = "0x47C8610", Slot = "36")]
 		get
 		{
 			return null;
@@ -90,13 +97,13 @@ public class XmlAttribute : XmlNode
 	public override string Prefix
 	{
 		[Token(Token = "0x60007C7")]
-		[Address(RVA = "0x448AED0", Offset = "0x448AED0", VA = "0x448AED0", Slot = "37")]
+		[Address(RVA = "0x47C8630", Offset = "0x47C8630", VA = "0x47C8630", Slot = "37")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007C8")]
-		[Address(RVA = "0x448AEF0", Offset = "0x448AEF0", VA = "0x448AEF0", Slot = "38")]
+		[Address(RVA = "0x47C8650", Offset = "0x47C8650", VA = "0x47C8650", Slot = "38")]
 		set
 		{
 		}
@@ -106,7 +113,7 @@ public class XmlAttribute : XmlNode
 	public override XmlNodeType NodeType
 	{
 		[Token(Token = "0x60007C9")]
-		[Address(RVA = "0x448AF90", Offset = "0x448AF90", VA = "0x448AF90", Slot = "11")]
+		[Address(RVA = "0x47C86F0", Offset = "0x47C86F0", VA = "0x47C86F0", Slot = "11")]
 		get
 		{
 			return default(XmlNodeType);
@@ -117,7 +124,7 @@ public class XmlAttribute : XmlNode
 	public override XmlDocument OwnerDocument
 	{
 		[Token(Token = "0x60007CA")]
-		[Address(RVA = "0x448AFA0", Offset = "0x448AFA0", VA = "0x448AFA0", Slot = "17")]
+		[Address(RVA = "0x47C8700", Offset = "0x47C8700", VA = "0x47C8700", Slot = "17")]
 		get
 		{
 			return null;
@@ -128,13 +135,13 @@ public class XmlAttribute : XmlNode
 	public override string Value
 	{
 		[Token(Token = "0x60007CB")]
-		[Address(RVA = "0x448AFC0", Offset = "0x448AFC0", VA = "0x448AFC0", Slot = "9")]
+		[Address(RVA = "0x47C8720", Offset = "0x47C8720", VA = "0x47C8720", Slot = "9")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007CC")]
-		[Address(RVA = "0x448AFE0", Offset = "0x448AFE0", VA = "0x448AFE0", Slot = "10")]
+		[Address(RVA = "0x47C8740", Offset = "0x47C8740", VA = "0x47C8740", Slot = "10")]
 		set
 		{
 		}
@@ -144,7 +151,7 @@ public class XmlAttribute : XmlNode
 	public override IXmlSchemaInfo SchemaInfo
 	{
 		[Token(Token = "0x60007CD")]
-		[Address(RVA = "0x448B000", Offset = "0x448B000", VA = "0x448B000", Slot = "44")]
+		[Address(RVA = "0x47C8760", Offset = "0x47C8760", VA = "0x47C8760", Slot = "44")]
 		get
 		{
 			return null;
@@ -155,7 +162,7 @@ public class XmlAttribute : XmlNode
 	public override string InnerText
 	{
 		[Token(Token = "0x60007CE")]
-		[Address(RVA = "0x448B010", Offset = "0x448B010", VA = "0x448B010", Slot = "42")]
+		[Address(RVA = "0x47C8770", Offset = "0x47C8770", VA = "0x47C8770", Slot = "42")]
 		set
 		{
 		}
@@ -165,7 +172,7 @@ public class XmlAttribute : XmlNode
 	internal override bool IsContainer
 	{
 		[Token(Token = "0x60007D1")]
-		[Address(RVA = "0x448B360", Offset = "0x448B360", VA = "0x448B360", Slot = "20")]
+		[Address(RVA = "0x47C8AC0", Offset = "0x47C8AC0", VA = "0x47C8AC0", Slot = "20")]
 		get
 		{
 			return default(bool);
@@ -176,13 +183,13 @@ public class XmlAttribute : XmlNode
 	internal override XmlLinkedNode LastNode
 	{
 		[Token(Token = "0x60007D3")]
-		[Address(RVA = "0x448B6A0", Offset = "0x448B6A0", VA = "0x448B6A0", Slot = "21")]
+		[Address(RVA = "0x47C8E00", Offset = "0x47C8E00", VA = "0x47C8E00", Slot = "21")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007D4")]
-		[Address(RVA = "0x448B6B0", Offset = "0x448B6B0", VA = "0x448B6B0", Slot = "22")]
+		[Address(RVA = "0x47C8E10", Offset = "0x47C8E10", VA = "0x47C8E10", Slot = "22")]
 		set
 		{
 		}
@@ -192,7 +199,7 @@ public class XmlAttribute : XmlNode
 	public virtual bool Specified
 	{
 		[Token(Token = "0x60007D6")]
-		[Address(RVA = "0x448B6D0", Offset = "0x448B6D0", VA = "0x448B6D0", Slot = "62")]
+		[Address(RVA = "0x47C8E30", Offset = "0x47C8E30", VA = "0x47C8E30", Slot = "62")]
 		get
 		{
 			return default(bool);
@@ -203,7 +210,7 @@ public class XmlAttribute : XmlNode
 	public virtual XmlElement OwnerElement
 	{
 		[Token(Token = "0x60007DD")]
-		[Address(RVA = "0x448BBC0", Offset = "0x448BBC0", VA = "0x448BBC0", Slot = "63")]
+		[Address(RVA = "0x47C9320", Offset = "0x47C9320", VA = "0x47C9320", Slot = "63")]
 		get
 		{
 			return null;
@@ -214,7 +221,7 @@ public class XmlAttribute : XmlNode
 	public override string InnerXml
 	{
 		[Token(Token = "0x60007DE")]
-		[Address(RVA = "0x448BC20", Offset = "0x448BC20", VA = "0x448BC20", Slot = "43")]
+		[Address(RVA = "0x47C9380", Offset = "0x47C9380", VA = "0x47C9380", Slot = "43")]
 		set
 		{
 		}
@@ -224,7 +231,7 @@ public class XmlAttribute : XmlNode
 	public override string BaseURI
 	{
 		[Token(Token = "0x60007E1")]
-		[Address(RVA = "0x448BDB0", Offset = "0x448BDB0", VA = "0x448BDB0", Slot = "45")]
+		[Address(RVA = "0x47C9510", Offset = "0x47C9510", VA = "0x47C9510", Slot = "45")]
 		get
 		{
 			return null;
@@ -235,7 +242,7 @@ public class XmlAttribute : XmlNode
 	internal override XmlSpace XmlSpace
 	{
 		[Token(Token = "0x60007E3")]
-		[Address(RVA = "0x448BE30", Offset = "0x448BE30", VA = "0x448BE30", Slot = "56")]
+		[Address(RVA = "0x47C9590", Offset = "0x47C9590", VA = "0x47C9590", Slot = "56")]
 		get
 		{
 			return default(XmlSpace);
@@ -246,7 +253,7 @@ public class XmlAttribute : XmlNode
 	internal override string XmlLang
 	{
 		[Token(Token = "0x60007E4")]
-		[Address(RVA = "0x448BE90", Offset = "0x448BE90", VA = "0x448BE90", Slot = "57")]
+		[Address(RVA = "0x47C95F0", Offset = "0x47C95F0", VA = "0x47C95F0", Slot = "57")]
 		get
 		{
 			return null;
@@ -257,7 +264,7 @@ public class XmlAttribute : XmlNode
 	internal override XPathNodeType XPNodeType
 	{
 		[Token(Token = "0x60007E5")]
-		[Address(RVA = "0x448BF00", Offset = "0x448BF00", VA = "0x448BF00", Slot = "58")]
+		[Address(RVA = "0x47C9660", Offset = "0x47C9660", VA = "0x47C9660", Slot = "58")]
 		get
 		{
 			return default(XPathNodeType);
@@ -268,7 +275,7 @@ public class XmlAttribute : XmlNode
 	internal override string XPLocalName
 	{
 		[Token(Token = "0x60007E6")]
-		[Address(RVA = "0x448BF40", Offset = "0x448BF40", VA = "0x448BF40", Slot = "59")]
+		[Address(RVA = "0x47C96A0", Offset = "0x47C96A0", VA = "0x47C96A0", Slot = "59")]
 		get
 		{
 			return null;
@@ -279,7 +286,7 @@ public class XmlAttribute : XmlNode
 	internal bool IsNamespace
 	{
 		[Token(Token = "0x60007E7")]
-		[Address(RVA = "0x4484860", Offset = "0x4484860", VA = "0x4484860")]
+		[Address(RVA = "0x47C1FC0", Offset = "0x47C1FC0", VA = "0x47C1FC0")]
 		get
 		{
 			return default(bool);
@@ -287,107 +294,107 @@ public class XmlAttribute : XmlNode
 	}
 
 	[Token(Token = "0x60007BD")]
-	[Address(RVA = "0x448AA30", Offset = "0x448AA30", VA = "0x448AA30")]
+	[Address(RVA = "0x47C8190", Offset = "0x47C8190", VA = "0x47C8190")]
 	internal XmlAttribute(XmlName name, XmlDocument doc)
 	{
 	}
 
 	[Token(Token = "0x60007BF")]
-	[Address(RVA = "0x448AC30", Offset = "0x448AC30", VA = "0x448AC30")]
+	[Address(RVA = "0x47C8390", Offset = "0x47C8390", VA = "0x47C8390")]
 	protected internal XmlAttribute(string prefix, string localName, string namespaceURI, XmlDocument doc)
 	{
 	}
 
 	[Token(Token = "0x60007C2")]
-	[Address(RVA = "0x448ADA0", Offset = "0x448ADA0", VA = "0x448ADA0", Slot = "34")]
+	[Address(RVA = "0x47C8500", Offset = "0x47C8500", VA = "0x47C8500", Slot = "34")]
 	public override XmlNode CloneNode(bool deep)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007CF")]
-	[Address(RVA = "0x448B0C0", Offset = "0x448B0C0", VA = "0x448B0C0")]
+	[Address(RVA = "0x47C8820", Offset = "0x47C8820", VA = "0x47C8820")]
 	internal bool PrepareOwnerElementInElementIdAttrMap()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007D0")]
-	[Address(RVA = "0x448B160", Offset = "0x448B160", VA = "0x448B160")]
+	[Address(RVA = "0x47C88C0", Offset = "0x47C88C0", VA = "0x47C88C0")]
 	internal void ResetOwnerElementInElementIdAttrMap(string oldInnerText)
 	{
 	}
 
 	[Token(Token = "0x60007D2")]
-	[Address(RVA = "0x448B370", Offset = "0x448B370", VA = "0x448B370", Slot = "29")]
+	[Address(RVA = "0x47C8AD0", Offset = "0x47C8AD0", VA = "0x47C8AD0", Slot = "29")]
 	internal override XmlNode AppendChildForLoad(XmlNode newChild, XmlDocument doc)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007D5")]
-	[Address(RVA = "0x448B6C0", Offset = "0x448B6C0", VA = "0x448B6C0", Slot = "30")]
+	[Address(RVA = "0x47C8E20", Offset = "0x47C8E20", VA = "0x47C8E20", Slot = "30")]
 	internal override bool IsValidChildType(XmlNodeType type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007D7")]
-	[Address(RVA = "0x448B6E0", Offset = "0x448B6E0", VA = "0x448B6E0", Slot = "23")]
+	[Address(RVA = "0x47C8E40", Offset = "0x47C8E40", VA = "0x47C8E40", Slot = "23")]
 	public override XmlNode InsertBefore(XmlNode newChild, XmlNode refChild)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007D8")]
-	[Address(RVA = "0x448B7B0", Offset = "0x448B7B0", VA = "0x448B7B0", Slot = "24")]
+	[Address(RVA = "0x47C8F10", Offset = "0x47C8F10", VA = "0x47C8F10", Slot = "24")]
 	public override XmlNode InsertAfter(XmlNode newChild, XmlNode refChild)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007D9")]
-	[Address(RVA = "0x448B880", Offset = "0x448B880", VA = "0x448B880", Slot = "25")]
+	[Address(RVA = "0x47C8FE0", Offset = "0x47C8FE0", VA = "0x47C8FE0", Slot = "25")]
 	public override XmlNode ReplaceChild(XmlNode newChild, XmlNode oldChild)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007DA")]
-	[Address(RVA = "0x448B950", Offset = "0x448B950", VA = "0x448B950", Slot = "26")]
+	[Address(RVA = "0x47C90B0", Offset = "0x47C90B0", VA = "0x47C90B0", Slot = "26")]
 	public override XmlNode RemoveChild(XmlNode oldChild)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007DB")]
-	[Address(RVA = "0x448BA20", Offset = "0x448BA20", VA = "0x448BA20", Slot = "27")]
+	[Address(RVA = "0x47C9180", Offset = "0x47C9180", VA = "0x47C9180", Slot = "27")]
 	public override XmlNode PrependChild(XmlNode newChild)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007DC")]
-	[Address(RVA = "0x448BAF0", Offset = "0x448BAF0", VA = "0x448BAF0", Slot = "28")]
+	[Address(RVA = "0x47C9250", Offset = "0x47C9250", VA = "0x47C9250", Slot = "28")]
 	public override XmlNode AppendChild(XmlNode newChild)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007DF")]
-	[Address(RVA = "0x448BCA0", Offset = "0x448BCA0", VA = "0x448BCA0", Slot = "46")]
+	[Address(RVA = "0x47C9400", Offset = "0x47C9400", VA = "0x47C9400", Slot = "46")]
 	public override void WriteTo(XmlWriter w)
 	{
 	}
 
 	[Token(Token = "0x60007E0")]
-	[Address(RVA = "0x448BD50", Offset = "0x448BD50", VA = "0x448BD50", Slot = "47")]
+	[Address(RVA = "0x47C94B0", Offset = "0x47C94B0", VA = "0x47C94B0", Slot = "47")]
 	public override void WriteContentTo(XmlWriter w)
 	{
 	}
 
 	[Token(Token = "0x60007E2")]
-	[Address(RVA = "0x448BE20", Offset = "0x448BE20", VA = "0x448BE20", Slot = "50")]
+	[Address(RVA = "0x47C9580", Offset = "0x47C9580", VA = "0x47C9580", Slot = "50")]
 	internal override void SetParent(XmlNode node)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.Configuration.SettingsSectionInternal
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Net.Security;
 using System.Net.Sockets;
 using System.Runtime.CompilerServices;
@@ -24,7 +31,7 @@ internal sealed class SettingsSectionInternal
 	internal static SettingsSectionInternal Section
 	{
 		[Token(Token = "0x6000BAC")]
-		[Address(RVA = "0x467FAA0", Offset = "0x467FAA0", VA = "0x467FAA0")]
+		[Address(RVA = "0x49A4BA0", Offset = "0x49A4BA0", VA = "0x49A4BA0")]
 		get
 		{
 			return null;
@@ -35,14 +42,14 @@ internal sealed class SettingsSectionInternal
 	internal bool UseNagleAlgorithm
 	{
 		[Token(Token = "0x6000BAD")]
-		[Address(RVA = "0x467FB10", Offset = "0x467FB10", VA = "0x467FB10")]
+		[Address(RVA = "0x49A4C10", Offset = "0x49A4C10", VA = "0x49A4C10")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000BAE")]
-		[Address(RVA = "0x467FB20", Offset = "0x467FB20", VA = "0x467FB20")]
+		[Address(RVA = "0x49A4C20", Offset = "0x49A4C20", VA = "0x49A4C20")]
 		[CompilerGenerated]
 		set
 		{
@@ -53,14 +60,14 @@ internal sealed class SettingsSectionInternal
 	internal bool Expect100Continue
 	{
 		[Token(Token = "0x6000BAF")]
-		[Address(RVA = "0x467FB30", Offset = "0x467FB30", VA = "0x467FB30")]
+		[Address(RVA = "0x49A4C30", Offset = "0x49A4C30", VA = "0x49A4C30")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000BB0")]
-		[Address(RVA = "0x467FB40", Offset = "0x467FB40", VA = "0x467FB40")]
+		[Address(RVA = "0x49A4C40", Offset = "0x49A4C40", VA = "0x49A4C40")]
 		[CompilerGenerated]
 		set
 		{
@@ -71,14 +78,14 @@ internal sealed class SettingsSectionInternal
 	internal bool CheckCertificateName
 	{
 		[Token(Token = "0x6000BB1")]
-		[Address(RVA = "0x467FB50", Offset = "0x467FB50", VA = "0x467FB50")]
+		[Address(RVA = "0x49A4C50", Offset = "0x49A4C50", VA = "0x49A4C50")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000BB2")]
-		[Address(RVA = "0x467FB60", Offset = "0x467FB60", VA = "0x467FB60")]
+		[Address(RVA = "0x49A4C60", Offset = "0x49A4C60", VA = "0x49A4C60")]
 		[CompilerGenerated]
 		private set
 		{
@@ -89,14 +96,14 @@ internal sealed class SettingsSectionInternal
 	internal int DnsRefreshTimeout
 	{
 		[Token(Token = "0x6000BB3")]
-		[Address(RVA = "0x467FB70", Offset = "0x467FB70", VA = "0x467FB70")]
+		[Address(RVA = "0x49A4C70", Offset = "0x49A4C70", VA = "0x49A4C70")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000BB4")]
-		[Address(RVA = "0x467FB80", Offset = "0x467FB80", VA = "0x467FB80")]
+		[Address(RVA = "0x49A4C80", Offset = "0x49A4C80", VA = "0x49A4C80")]
 		[CompilerGenerated]
 		set
 		{
@@ -107,14 +114,14 @@ internal sealed class SettingsSectionInternal
 	internal bool EnableDnsRoundRobin
 	{
 		[Token(Token = "0x6000BB5")]
-		[Address(RVA = "0x467FB90", Offset = "0x467FB90", VA = "0x467FB90")]
+		[Address(RVA = "0x49A4C90", Offset = "0x49A4C90", VA = "0x49A4C90")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000BB6")]
-		[Address(RVA = "0x467FBA0", Offset = "0x467FBA0", VA = "0x467FBA0")]
+		[Address(RVA = "0x49A4CA0", Offset = "0x49A4CA0", VA = "0x49A4CA0")]
 		[CompilerGenerated]
 		set
 		{
@@ -125,14 +132,14 @@ internal sealed class SettingsSectionInternal
 	internal bool CheckCertificateRevocationList
 	{
 		[Token(Token = "0x6000BB7")]
-		[Address(RVA = "0x467FBB0", Offset = "0x467FBB0", VA = "0x467FBB0")]
+		[Address(RVA = "0x49A4CB0", Offset = "0x49A4CB0", VA = "0x49A4CB0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000BB8")]
-		[Address(RVA = "0x467FBC0", Offset = "0x467FBC0", VA = "0x467FBC0")]
+		[Address(RVA = "0x49A4CC0", Offset = "0x49A4CC0", VA = "0x49A4CC0")]
 		[CompilerGenerated]
 		set
 		{
@@ -143,14 +150,14 @@ internal sealed class SettingsSectionInternal
 	internal EncryptionPolicy EncryptionPolicy
 	{
 		[Token(Token = "0x6000BB9")]
-		[Address(RVA = "0x467FBD0", Offset = "0x467FBD0", VA = "0x467FBD0")]
+		[Address(RVA = "0x49A4CD0", Offset = "0x49A4CD0", VA = "0x49A4CD0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(EncryptionPolicy);
 		}
 		[Token(Token = "0x6000BBA")]
-		[Address(RVA = "0x467FBE0", Offset = "0x467FBE0", VA = "0x467FBE0")]
+		[Address(RVA = "0x49A4CE0", Offset = "0x49A4CE0", VA = "0x49A4CE0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -161,7 +168,7 @@ internal sealed class SettingsSectionInternal
 	internal bool Ipv6Enabled
 	{
 		[Token(Token = "0x6000BBB")]
-		[Address(RVA = "0x467FBF0", Offset = "0x467FBF0", VA = "0x467FBF0")]
+		[Address(RVA = "0x49A4CF0", Offset = "0x49A4CF0", VA = "0x49A4CF0")]
 		get
 		{
 			return default(bool);
@@ -169,7 +176,7 @@ internal sealed class SettingsSectionInternal
 	}
 
 	[Token(Token = "0x6000BBC")]
-	[Address(RVA = "0x467FC00", Offset = "0x467FC00", VA = "0x467FC00")]
+	[Address(RVA = "0x49A4D00", Offset = "0x49A4D00", VA = "0x49A4D00")]
 	public SettingsSectionInternal()
 	{
 	}

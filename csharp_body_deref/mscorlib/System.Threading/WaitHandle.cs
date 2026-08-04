@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Threading.WaitHandle
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using System.Runtime.ConstrainedExecution;
 using System.Runtime.InteropServices;
@@ -56,7 +63,7 @@ public abstract class WaitHandle : MarshalByRefObject, IDisposable
 	public virtual IntPtr Handle
 	{
 		[Token(Token = "0x600130C")]
-		[Address(RVA = "0x5054A50", Offset = "0x5054A50", VA = "0x5054A50", Slot = "7")]
+		[Address(RVA = "0x3D3A570", Offset = "0x3D3A570", VA = "0x3D3A570", Slot = "7")]
 		set
 		{
 		}
@@ -66,14 +73,14 @@ public abstract class WaitHandle : MarshalByRefObject, IDisposable
 	public SafeWaitHandle SafeWaitHandle
 	{
 		[Token(Token = "0x600130D")]
-		[Address(RVA = "0x5054B70", Offset = "0x5054B70", VA = "0x5054B70")]
+		[Address(RVA = "0x3D3A690", Offset = "0x3D3A690", VA = "0x3D3A690")]
 		[ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600130E")]
-		[Address(RVA = "0x5054C30", Offset = "0x5054C30", VA = "0x5054C30")]
+		[Address(RVA = "0x3D3A750", Offset = "0x3D3A750", VA = "0x3D3A750")]
 		[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 		set
 		{
@@ -81,60 +88,60 @@ public abstract class WaitHandle : MarshalByRefObject, IDisposable
 	}
 
 	[Token(Token = "0x600130A")]
-	[Address(RVA = "0x5054960", Offset = "0x5054960", VA = "0x5054960")]
+	[Address(RVA = "0x3D3A480", Offset = "0x3D3A480", VA = "0x3D3A480")]
 	protected WaitHandle()
 	{
 	}
 
 	[Token(Token = "0x600130B")]
-	[Address(RVA = "0x50549E0", Offset = "0x50549E0", VA = "0x50549E0")]
+	[Address(RVA = "0x3D3A500", Offset = "0x3D3A500", VA = "0x3D3A500")]
 	private void Init()
 	{
 	}
 
 	[Token(Token = "0x600130F")]
-	[Address(RVA = "0x5054CE0", Offset = "0x5054CE0", VA = "0x5054CE0")]
+	[Address(RVA = "0x3D3A800", Offset = "0x3D3A800", VA = "0x3D3A800")]
 	internal void SetHandleInternal(SafeWaitHandle handle)
 	{
 	}
 
 	[Token(Token = "0x6001310")]
-	[Address(RVA = "0x5054D20", Offset = "0x5054D20", VA = "0x5054D20", Slot = "8")]
+	[Address(RVA = "0x3D3A840", Offset = "0x3D3A840", VA = "0x3D3A840", Slot = "8")]
 	public virtual bool WaitOne(int millisecondsTimeout, bool exitContext)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001311")]
-	[Address(RVA = "0x5054E70", Offset = "0x5054E70", VA = "0x5054E70", Slot = "9")]
+	[Address(RVA = "0x3D3A990", Offset = "0x3D3A990", VA = "0x3D3A990", Slot = "9")]
 	public virtual bool WaitOne()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001312")]
-	[Address(RVA = "0x5054E90", Offset = "0x5054E90", VA = "0x5054E90", Slot = "10")]
+	[Address(RVA = "0x3D3A9B0", Offset = "0x3D3A9B0", VA = "0x3D3A9B0", Slot = "10")]
 	public virtual bool WaitOne(int millisecondsTimeout)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001313")]
-	[Address(RVA = "0x5054E00", Offset = "0x5054E00", VA = "0x5054E00")]
+	[Address(RVA = "0x3D3A920", Offset = "0x3D3A920", VA = "0x3D3A920")]
 	private bool WaitOne(long timeout, bool exitContext)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001314")]
-	[Address(RVA = "0x5054EB0", Offset = "0x5054EB0", VA = "0x5054EB0")]
+	[Address(RVA = "0x3D3A9D0", Offset = "0x3D3A9D0", VA = "0x3D3A9D0")]
 	internal static bool InternalWaitOne(SafeHandle waitableSafeHandle, long millisecondsTimeout, bool hasThreadAffinity, bool exitContext)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001315")]
-	[Address(RVA = "0x50551E0", Offset = "0x50551E0", VA = "0x50551E0")]
+	[Address(RVA = "0x3D3AD00", Offset = "0x3D3AD00", VA = "0x3D3AD00")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
 	public static int WaitAny(WaitHandle[] waitHandles, int millisecondsTimeout, bool exitContext)
 	{
@@ -142,7 +149,7 @@ public abstract class WaitHandle : MarshalByRefObject, IDisposable
 	}
 
 	[Token(Token = "0x6001316")]
-	[Address(RVA = "0x5055960", Offset = "0x5055960", VA = "0x5055960")]
+	[Address(RVA = "0x3D3B480", Offset = "0x3D3B480", VA = "0x3D3B480")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
 	public static int WaitAny(WaitHandle[] waitHandles, TimeSpan timeout, bool exitContext)
 	{
@@ -150,44 +157,44 @@ public abstract class WaitHandle : MarshalByRefObject, IDisposable
 	}
 
 	[Token(Token = "0x6001317")]
-	[Address(RVA = "0x50551A0", Offset = "0x50551A0", VA = "0x50551A0")]
+	[Address(RVA = "0x3D3ACC0", Offset = "0x3D3ACC0", VA = "0x3D3ACC0")]
 	private static void ThrowAbandonedMutexException()
 	{
 	}
 
 	[Token(Token = "0x6001318")]
-	[Address(RVA = "0x5055910", Offset = "0x5055910", VA = "0x5055910")]
+	[Address(RVA = "0x3D3B430", Offset = "0x3D3B430", VA = "0x3D3B430")]
 	private static void ThrowAbandonedMutexException(int location, WaitHandle handle)
 	{
 	}
 
 	[Token(Token = "0x6001319")]
-	[Address(RVA = "0x5055A70", Offset = "0x5055A70", VA = "0x5055A70", Slot = "11")]
+	[Address(RVA = "0x3D3B590", Offset = "0x3D3B590", VA = "0x3D3B590", Slot = "11")]
 	public virtual void Close()
 	{
 	}
 
 	[Token(Token = "0x600131A")]
-	[Address(RVA = "0x5055AE0", Offset = "0x5055AE0", VA = "0x5055AE0", Slot = "12")]
+	[Address(RVA = "0x3D3B600", Offset = "0x3D3B600", VA = "0x3D3B600", Slot = "12")]
 	protected virtual void Dispose(bool explicitDisposing)
 	{
 	}
 
 	[Token(Token = "0x600131B")]
-	[Address(RVA = "0x5055B30", Offset = "0x5055B30", VA = "0x5055B30", Slot = "6")]
+	[Address(RVA = "0x3D3B650", Offset = "0x3D3B650", VA = "0x3D3B650", Slot = "6")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x600131C")]
-	[Address(RVA = "0x5054F90", Offset = "0x5054F90", VA = "0x5054F90")]
+	[Address(RVA = "0x3D3AAB0", Offset = "0x3D3AAB0", VA = "0x3D3AAB0")]
 	private static int WaitOneNative(SafeHandle waitableSafeHandle, uint millisecondsTimeout, bool hasThreadAffinity, bool exitContext)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600131D")]
-	[Address(RVA = "0x50554F0", Offset = "0x50554F0", VA = "0x50554F0")]
+	[Address(RVA = "0x3D3B010", Offset = "0x3D3B010", VA = "0x3D3B010")]
 	private static int WaitMultiple(WaitHandle[] waitHandles, int millisecondsTimeout, bool exitContext, bool WaitAll)
 	{
 		return default(int);
@@ -195,6 +202,6 @@ public abstract class WaitHandle : MarshalByRefObject, IDisposable
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600131E")]
-	[Address(RVA = "0x5055BA0", Offset = "0x5055BA0", VA = "0x5055BA0")]
+	[Address(RVA = "0x3D3B6C0", Offset = "0x3D3B6C0", VA = "0x3D3B6C0")]
 	internal unsafe static extern int Wait_internal(IntPtr* handles, int numHandles, bool waitAll, int ms);
 }

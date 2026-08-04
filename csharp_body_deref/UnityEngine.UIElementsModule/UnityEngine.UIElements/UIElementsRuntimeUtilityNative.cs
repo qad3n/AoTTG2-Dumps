@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UIElementsRuntimeUtilityNative
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -24,21 +31,21 @@ internal static class UIElementsRuntimeUtilityNative
 	internal static Action RepaintOffscreenPanelsCallback;
 
 	[Token(Token = "0x6000E34")]
-	[Address(RVA = "0x4D260C0", Offset = "0x4D260C0", VA = "0x4D260C0")]
+	[Address(RVA = "0x504D9F0", Offset = "0x504D9F0", VA = "0x504D9F0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public static void RepaintOverlayPanels()
 	{
 	}
 
 	[Token(Token = "0x6000E35")]
-	[Address(RVA = "0x4D26110", Offset = "0x4D26110", VA = "0x4D26110")]
+	[Address(RVA = "0x504DA40", Offset = "0x504DA40", VA = "0x504DA40")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public static void UpdateRuntimePanels()
 	{
 	}
 
 	[Token(Token = "0x6000E36")]
-	[Address(RVA = "0x4D26160", Offset = "0x4D26160", VA = "0x4D26160")]
+	[Address(RVA = "0x504DA90", Offset = "0x504DA90", VA = "0x504DA90")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public static void RepaintOffscreenPanels()
 	{
@@ -46,16 +53,16 @@ internal static class UIElementsRuntimeUtilityNative
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000E37")]
-	[Address(RVA = "0x4D261B0", Offset = "0x4D261B0", VA = "0x4D261B0")]
+	[Address(RVA = "0x504DAE0", Offset = "0x504DAE0", VA = "0x504DAE0")]
 	public static extern void RegisterPlayerloopCallback();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000E38")]
-	[Address(RVA = "0x4D261E0", Offset = "0x4D261E0", VA = "0x4D261E0")]
+	[Address(RVA = "0x504DB10", Offset = "0x504DB10", VA = "0x504DB10")]
 	public static extern void UnregisterPlayerloopCallback();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000E39")]
-	[Address(RVA = "0x4D26210", Offset = "0x4D26210", VA = "0x4D26210")]
+	[Address(RVA = "0x504DB40", Offset = "0x504DB40", VA = "0x504DB40")]
 	public static extern void VisualElementCreation();
 }

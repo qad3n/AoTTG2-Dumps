@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.ProbeVolumeBakingProcessSettings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -37,7 +44,7 @@ internal struct ProbeVolumeBakingProcessSettings
 	internal static ProbeVolumeBakingProcessSettings Default
 	{
 		[Token(Token = "0x6000A28")]
-		[Address(RVA = "0x48A8DC0", Offset = "0x48A8DC0", VA = "0x48A8DC0")]
+		[Address(RVA = "0x4BCDE80", Offset = "0x4BCDE80", VA = "0x4BCDE80")]
 		get
 		{
 			return default(ProbeVolumeBakingProcessSettings);
@@ -45,19 +52,19 @@ internal struct ProbeVolumeBakingProcessSettings
 	}
 
 	[Token(Token = "0x6000A29")]
-	[Address(RVA = "0x48A8E80", Offset = "0x48A8E80", VA = "0x48A8E80")]
+	[Address(RVA = "0x4BCDF40", Offset = "0x4BCDF40", VA = "0x4BCDF40")]
 	internal ProbeVolumeBakingProcessSettings(ProbeDilationSettings dilationSettings, VirtualOffsetSettings virtualOffsetSettings)
 	{
 	}
 
 	[Token(Token = "0x6000A2A")]
-	[Address(RVA = "0x48A8E30", Offset = "0x48A8E30", VA = "0x48A8E30")]
+	[Address(RVA = "0x4BCDEF0", Offset = "0x4BCDEF0", VA = "0x4BCDEF0")]
 	internal void SetDefaults()
 	{
 	}
 
 	[Token(Token = "0x6000A2B")]
-	[Address(RVA = "0x48A8EB0", Offset = "0x48A8EB0", VA = "0x48A8EB0")]
+	[Address(RVA = "0x4BCDF70", Offset = "0x4BCDF70", VA = "0x4BCDF70")]
 	internal void Upgrade()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Tilemaps.Tile
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
@@ -55,13 +62,13 @@ public class Tile : TileBase
 	public Sprite sprite
 	{
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x4BC78A0", Offset = "0x4BC78A0", VA = "0x4BC78A0")]
+		[Address(RVA = "0x4EEF1D0", Offset = "0x4EEF1D0", VA = "0x4EEF1D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x4BC78B0", Offset = "0x4BC78B0", VA = "0x4BC78B0")]
+		[Address(RVA = "0x4EEF1E0", Offset = "0x4EEF1E0", VA = "0x4EEF1E0")]
 		set
 		{
 		}
@@ -71,13 +78,13 @@ public class Tile : TileBase
 	public Color color
 	{
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x4BC78C0", Offset = "0x4BC78C0", VA = "0x4BC78C0")]
+		[Address(RVA = "0x4EEF1F0", Offset = "0x4EEF1F0", VA = "0x4EEF1F0")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x6000009")]
-		[Address(RVA = "0x4BC78D0", Offset = "0x4BC78D0", VA = "0x4BC78D0")]
+		[Address(RVA = "0x4EEF200", Offset = "0x4EEF200", VA = "0x4EEF200")]
 		set
 		{
 		}
@@ -87,13 +94,13 @@ public class Tile : TileBase
 	public Matrix4x4 transform
 	{
 		[Token(Token = "0x600000A")]
-		[Address(RVA = "0x4BC78E0", Offset = "0x4BC78E0", VA = "0x4BC78E0")]
+		[Address(RVA = "0x4EEF210", Offset = "0x4EEF210", VA = "0x4EEF210")]
 		get
 		{
 			return default(Matrix4x4);
 		}
 		[Token(Token = "0x600000B")]
-		[Address(RVA = "0x4BC7910", Offset = "0x4BC7910", VA = "0x4BC7910")]
+		[Address(RVA = "0x4EEF240", Offset = "0x4EEF240", VA = "0x4EEF240")]
 		set
 		{
 		}
@@ -103,13 +110,13 @@ public class Tile : TileBase
 	public GameObject gameObject
 	{
 		[Token(Token = "0x600000C")]
-		[Address(RVA = "0x4BC7940", Offset = "0x4BC7940", VA = "0x4BC7940")]
+		[Address(RVA = "0x4EEF270", Offset = "0x4EEF270", VA = "0x4EEF270")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600000D")]
-		[Address(RVA = "0x4BC7950", Offset = "0x4BC7950", VA = "0x4BC7950")]
+		[Address(RVA = "0x4EEF280", Offset = "0x4EEF280", VA = "0x4EEF280")]
 		set
 		{
 		}
@@ -119,13 +126,13 @@ public class Tile : TileBase
 	public TileFlags flags
 	{
 		[Token(Token = "0x600000E")]
-		[Address(RVA = "0x4BC7960", Offset = "0x4BC7960", VA = "0x4BC7960")]
+		[Address(RVA = "0x4EEF290", Offset = "0x4EEF290", VA = "0x4EEF290")]
 		get
 		{
 			return default(TileFlags);
 		}
 		[Token(Token = "0x600000F")]
-		[Address(RVA = "0x4BC7970", Offset = "0x4BC7970", VA = "0x4BC7970")]
+		[Address(RVA = "0x4EEF2A0", Offset = "0x4EEF2A0", VA = "0x4EEF2A0")]
 		set
 		{
 		}
@@ -135,26 +142,26 @@ public class Tile : TileBase
 	public ColliderType colliderType
 	{
 		[Token(Token = "0x6000010")]
-		[Address(RVA = "0x4BC7980", Offset = "0x4BC7980", VA = "0x4BC7980")]
+		[Address(RVA = "0x4EEF2B0", Offset = "0x4EEF2B0", VA = "0x4EEF2B0")]
 		get
 		{
 			return default(ColliderType);
 		}
 		[Token(Token = "0x6000011")]
-		[Address(RVA = "0x4BC7990", Offset = "0x4BC7990", VA = "0x4BC7990")]
+		[Address(RVA = "0x4EEF2C0", Offset = "0x4EEF2C0", VA = "0x4EEF2C0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x4BC79A0", Offset = "0x4BC79A0", VA = "0x4BC79A0", Slot = "5")]
+	[Address(RVA = "0x4EEF2D0", Offset = "0x4EEF2D0", VA = "0x4EEF2D0", Slot = "5")]
 	public override void GetTileData(Vector3Int position, ITilemap tilemap, ref TileData tileData)
 	{
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x4BC7C80", Offset = "0x4BC7C80", VA = "0x4BC7C80")]
+	[Address(RVA = "0x4EEF5B0", Offset = "0x4EEF5B0", VA = "0x4EEF5B0")]
 	public Tile()
 	{
 	}

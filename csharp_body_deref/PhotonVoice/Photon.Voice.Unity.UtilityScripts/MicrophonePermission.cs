@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.Unity.UtilityScripts.MicrophonePermission
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/Code/UtilityScripts/MicrophonePermission.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -21,13 +28,13 @@ public class MicrophonePermission : VoiceComponent
 	public bool HasPermission
 	{
 		[Token(Token = "0x6000132")]
-		[Address(RVA = "0x3C5DD60", Offset = "0x3C5DD60", VA = "0x3C5DD60")]
+		[Address(RVA = "0x3F50310", Offset = "0x3F50310", VA = "0x3F50310")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000133")]
-		[Address(RVA = "0x3C5DD70", Offset = "0x3C5DD70", VA = "0x3C5DD70")]
+		[Address(RVA = "0x3F50320", Offset = "0x3F50320", VA = "0x3F50320")]
 		private set
 		{
 		}
@@ -37,13 +44,13 @@ public class MicrophonePermission : VoiceComponent
 	public static event Action<bool> MicrophonePermissionCallback
 	{
 		[Token(Token = "0x6000130")]
-		[Address(RVA = "0x3C5DBC0", Offset = "0x3C5DBC0", VA = "0x3C5DBC0")]
+		[Address(RVA = "0x3F50170", Offset = "0x3F50170", VA = "0x3F50170")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000131")]
-		[Address(RVA = "0x3C5DC90", Offset = "0x3C5DC90", VA = "0x3C5DC90")]
+		[Address(RVA = "0x3F50240", Offset = "0x3F50240", VA = "0x3F50240")]
 		[CompilerGenerated]
 		remove
 		{
@@ -51,19 +58,19 @@ public class MicrophonePermission : VoiceComponent
 	}
 
 	[Token(Token = "0x6000134")]
-	[Address(RVA = "0x3C5E260", Offset = "0x3C5E260", VA = "0x3C5E260", Slot = "4")]
+	[Address(RVA = "0x3F50810", Offset = "0x3F50810", VA = "0x3F50810", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000135")]
-	[Address(RVA = "0x3C5E290", Offset = "0x3C5E290", VA = "0x3C5E290")]
+	[Address(RVA = "0x3F50840", Offset = "0x3F50840", VA = "0x3F50840")]
 	public void InitVoice()
 	{
 	}
 
 	[Token(Token = "0x6000136")]
-	[Address(RVA = "0x3C5E2A0", Offset = "0x3C5E2A0", VA = "0x3C5E2A0")]
+	[Address(RVA = "0x3F50850", Offset = "0x3F50850", VA = "0x3F50850")]
 	public MicrophonePermission()
 	{
 	}

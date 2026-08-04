@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.Mathematics.half
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -6,7 +13,7 @@ using Unity.IL2CPP.CompilerServices;
 namespace Unity.Mathematics;
 
 [Serializable]
-[Token(Token = "0x200003A")]
+[Token(Token = "0x2000037")]
 [Unity.IL2CPP.CompilerServices.Il2CppEagerStaticClassConstruction]
 public struct half : IEquatable<half>, IFormattable
 {
@@ -21,8 +28,8 @@ public struct half : IEquatable<half>, IFormattable
 	[Token(Token = "0x170005C8")]
 	public static float MaxValue
 	{
-		[Token(Token = "0x60015C2")]
-		[Address(RVA = "0x47D1E80", Offset = "0x47D1E80", VA = "0x47D1E80")]
+		[Token(Token = "0x600159A")]
+		[Address(RVA = "0x4AD5B30", Offset = "0x4AD5B30", VA = "0x4AD5B30")]
 		get
 		{
 			return default(float);
@@ -32,8 +39,8 @@ public struct half : IEquatable<half>, IFormattable
 	[Token(Token = "0x170005C9")]
 	public static float MinValue
 	{
-		[Token(Token = "0x60015C3")]
-		[Address(RVA = "0x47D1E90", Offset = "0x47D1E90", VA = "0x47D1E90")]
+		[Token(Token = "0x600159B")]
+		[Address(RVA = "0x4AD5B40", Offset = "0x4AD5B40", VA = "0x4AD5B40")]
 		get
 		{
 			return default(float);
@@ -43,8 +50,8 @@ public struct half : IEquatable<half>, IFormattable
 	[Token(Token = "0x170005CA")]
 	public static half MaxValueAsHalf
 	{
-		[Token(Token = "0x60015C4")]
-		[Address(RVA = "0x47D1EA0", Offset = "0x47D1EA0", VA = "0x47D1EA0")]
+		[Token(Token = "0x600159C")]
+		[Address(RVA = "0x4AD5B50", Offset = "0x4AD5B50", VA = "0x4AD5B50")]
 		get
 		{
 			return default(half);
@@ -54,8 +61,8 @@ public struct half : IEquatable<half>, IFormattable
 	[Token(Token = "0x170005CB")]
 	public static half MinValueAsHalf
 	{
-		[Token(Token = "0x60015C5")]
-		[Address(RVA = "0x47D1EB0", Offset = "0x47D1EB0", VA = "0x47D1EB0")]
+		[Token(Token = "0x600159D")]
+		[Address(RVA = "0x4AD5B60", Offset = "0x4AD5B60", VA = "0x4AD5B60")]
 		get
 		{
 			return default(half);
@@ -63,108 +70,108 @@ public struct half : IEquatable<half>, IFormattable
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60015C6")]
-	[Address(RVA = "0x47D1EC0", Offset = "0x47D1EC0", VA = "0x47D1EC0")]
+	[Token(Token = "0x600159E")]
+	[Address(RVA = "0x4AD5B70", Offset = "0x4AD5B70", VA = "0x4AD5B70")]
 	public half(half x)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60015C7")]
-	[Address(RVA = "0x47D1ED0", Offset = "0x47D1ED0", VA = "0x47D1ED0")]
+	[Token(Token = "0x600159F")]
+	[Address(RVA = "0x4AD5B80", Offset = "0x4AD5B80", VA = "0x4AD5B80")]
 	public half(float v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60015C8")]
-	[Address(RVA = "0x47D1F30", Offset = "0x47D1F30", VA = "0x47D1F30")]
+	[Token(Token = "0x60015A0")]
+	[Address(RVA = "0x4AD5BE0", Offset = "0x4AD5BE0", VA = "0x4AD5BE0")]
 	public half(double v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60015C9")]
-	[Address(RVA = "0x47D1F90", Offset = "0x47D1F90", VA = "0x47D1F90")]
+	[Token(Token = "0x60015A1")]
+	[Address(RVA = "0x4AD5C40", Offset = "0x4AD5C40", VA = "0x4AD5C40")]
 	public static explicit operator half(float v)
 	{
 		return default(half);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60015CA")]
-	[Address(RVA = "0x47D1FF0", Offset = "0x47D1FF0", VA = "0x47D1FF0")]
+	[Token(Token = "0x60015A2")]
+	[Address(RVA = "0x4AD5CA0", Offset = "0x4AD5CA0", VA = "0x4AD5CA0")]
 	public static explicit operator half(double v)
 	{
 		return default(half);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60015CB")]
-	[Address(RVA = "0x47D2050", Offset = "0x47D2050", VA = "0x47D2050")]
+	[Token(Token = "0x60015A3")]
+	[Address(RVA = "0x4AD5D00", Offset = "0x4AD5D00", VA = "0x4AD5D00")]
 	public static implicit operator float(half d)
 	{
 		return default(float);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60015CC")]
-	[Address(RVA = "0x47D20B0", Offset = "0x47D20B0", VA = "0x47D20B0")]
+	[Token(Token = "0x60015A4")]
+	[Address(RVA = "0x4AD5D60", Offset = "0x4AD5D60", VA = "0x4AD5D60")]
 	public static implicit operator double(half d)
 	{
 		return default(double);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60015CD")]
-	[Address(RVA = "0x47D2110", Offset = "0x47D2110", VA = "0x47D2110")]
+	[Token(Token = "0x60015A5")]
+	[Address(RVA = "0x4AD5DC0", Offset = "0x4AD5DC0", VA = "0x4AD5DC0")]
 	public static bool operator ==(half lhs, half rhs)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60015CE")]
-	[Address(RVA = "0x47D2120", Offset = "0x47D2120", VA = "0x47D2120")]
+	[Token(Token = "0x60015A6")]
+	[Address(RVA = "0x4AD5DD0", Offset = "0x4AD5DD0", VA = "0x4AD5DD0")]
 	public static bool operator !=(half lhs, half rhs)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60015CF")]
-	[Address(RVA = "0x47D2130", Offset = "0x47D2130", VA = "0x47D2130", Slot = "4")]
+	[Token(Token = "0x60015A7")]
+	[Address(RVA = "0x4AD5DE0", Offset = "0x4AD5DE0", VA = "0x4AD5DE0", Slot = "4")]
 	public bool Equals(half rhs)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015D0")]
-	[Address(RVA = "0x47D2140", Offset = "0x47D2140", VA = "0x47D2140", Slot = "0")]
+	[Token(Token = "0x60015A8")]
+	[Address(RVA = "0x4AD5DF0", Offset = "0x4AD5DF0", VA = "0x4AD5DF0", Slot = "0")]
 	public override bool Equals(object o)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60015D1")]
-	[Address(RVA = "0x47D21A0", Offset = "0x47D21A0", VA = "0x47D21A0", Slot = "2")]
+	[Token(Token = "0x60015A9")]
+	[Address(RVA = "0x4AD5E50", Offset = "0x4AD5E50", VA = "0x4AD5E50", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60015D2")]
-	[Address(RVA = "0x47D21B0", Offset = "0x47D21B0", VA = "0x47D21B0", Slot = "3")]
+	[Token(Token = "0x60015AA")]
+	[Address(RVA = "0x4AD5E60", Offset = "0x4AD5E60", VA = "0x4AD5E60", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60015D3")]
-	[Address(RVA = "0x47D2220", Offset = "0x47D2220", VA = "0x47D2220", Slot = "5")]
+	[Token(Token = "0x60015AB")]
+	[Address(RVA = "0x4AD5ED0", Offset = "0x4AD5ED0", VA = "0x4AD5ED0", Slot = "5")]
 	public string ToString(string format, IFormatProvider formatProvider)
 	{
 		return null;

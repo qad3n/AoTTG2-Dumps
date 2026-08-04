@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Layout.LayoutConfig
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Layout;
@@ -17,7 +24,7 @@ internal readonly struct LayoutConfig
 	public static LayoutConfig Undefined
 	{
 		[Token(Token = "0x6001E87")]
-		[Address(RVA = "0x4C8C980", Offset = "0x4C8C980", VA = "0x4C8C980")]
+		[Address(RVA = "0x4FB42B0", Offset = "0x4FB42B0", VA = "0x4FB42B0")]
 		get
 		{
 			return default(LayoutConfig);
@@ -28,7 +35,7 @@ internal readonly struct LayoutConfig
 	public bool IsUndefined
 	{
 		[Token(Token = "0x6001E89")]
-		[Address(RVA = "0x4C8C9D0", Offset = "0x4C8C9D0", VA = "0x4C8C9D0")]
+		[Address(RVA = "0x4FB4300", Offset = "0x4FB4300", VA = "0x4FB4300")]
 		get
 		{
 			return default(bool);
@@ -39,7 +46,7 @@ internal readonly struct LayoutConfig
 	public LayoutHandle Handle
 	{
 		[Token(Token = "0x6001E8A")]
-		[Address(RVA = "0x4C8CA10", Offset = "0x4C8CA10", VA = "0x4C8CA10")]
+		[Address(RVA = "0x4FB4340", Offset = "0x4FB4340", VA = "0x4FB4340")]
 		get
 		{
 			return default(LayoutHandle);
@@ -50,7 +57,7 @@ internal readonly struct LayoutConfig
 	public unsafe ref bool UseWebDefaults
 	{
 		[Token(Token = "0x6001E8B")]
-		[Address(RVA = "0x4C8CA20", Offset = "0x4C8CA20", VA = "0x4C8CA20")]
+		[Address(RVA = "0x4FB4350", Offset = "0x4FB4350", VA = "0x4FB4350")]
 		get
 		{
 			return ref *(bool*)null;
@@ -61,7 +68,7 @@ internal readonly struct LayoutConfig
 	public unsafe ref float PointScaleFactor
 	{
 		[Token(Token = "0x6001E8C")]
-		[Address(RVA = "0x4C8CA90", Offset = "0x4C8CA90", VA = "0x4C8CA90")]
+		[Address(RVA = "0x4FB43C0", Offset = "0x4FB43C0", VA = "0x4FB43C0")]
 		get
 		{
 			return ref *(float*)null;
@@ -69,7 +76,7 @@ internal readonly struct LayoutConfig
 	}
 
 	[Token(Token = "0x6001E88")]
-	[Address(RVA = "0x4C8C9B0", Offset = "0x4C8C9B0", VA = "0x4C8C9B0")]
+	[Address(RVA = "0x4FB42E0", Offset = "0x4FB42E0", VA = "0x4FB42E0")]
 	internal LayoutConfig(LayoutDataAccess access, LayoutHandle handle)
 	{
 	}

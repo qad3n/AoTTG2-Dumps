@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.RenderPipelineResources
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
@@ -9,7 +16,7 @@ public abstract class RenderPipelineResources : ScriptableObject
 	protected virtual string packagePath
 	{
 		[Token(Token = "0x6000AC5")]
-		[Address(RVA = "0x48B9980", Offset = "0x48B9980", VA = "0x48B9980", Slot = "4")]
+		[Address(RVA = "0x4BDEA20", Offset = "0x4BDEA20", VA = "0x4BDEA20", Slot = "4")]
 		get
 		{
 			return null;
@@ -20,7 +27,7 @@ public abstract class RenderPipelineResources : ScriptableObject
 	internal string packagePath_Internal
 	{
 		[Token(Token = "0x6000AC6")]
-		[Address(RVA = "0x48B9990", Offset = "0x48B9990", VA = "0x48B9990")]
+		[Address(RVA = "0x4BDEA30", Offset = "0x4BDEA30", VA = "0x4BDEA30")]
 		get
 		{
 			return null;
@@ -28,7 +35,7 @@ public abstract class RenderPipelineResources : ScriptableObject
 	}
 
 	[Token(Token = "0x6000AC7")]
-	[Address(RVA = "0x48B99B0", Offset = "0x48B99B0", VA = "0x48B99B0")]
+	[Address(RVA = "0x4BDEA50", Offset = "0x4BDEA50", VA = "0x4BDEA50")]
 	protected RenderPipelineResources()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.Channels.CrossAppDomainData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Channels;
@@ -22,7 +29,7 @@ internal class CrossAppDomainData
 	internal int DomainID
 	{
 		[Token(Token = "0x6001D8A")]
-		[Address(RVA = "0x4E9B160", Offset = "0x4E9B160", VA = "0x4E9B160")]
+		[Address(RVA = "0x3B80C80", Offset = "0x3B80C80", VA = "0x3B80C80")]
 		get
 		{
 			return default(int);
@@ -33,7 +40,7 @@ internal class CrossAppDomainData
 	internal string ProcessID
 	{
 		[Token(Token = "0x6001D8B")]
-		[Address(RVA = "0x4E9B170", Offset = "0x4E9B170", VA = "0x4E9B170")]
+		[Address(RVA = "0x3B80C90", Offset = "0x3B80C90", VA = "0x3B80C90")]
 		get
 		{
 			return null;
@@ -41,7 +48,7 @@ internal class CrossAppDomainData
 	}
 
 	[Token(Token = "0x6001D89")]
-	[Address(RVA = "0x4E9B0C0", Offset = "0x4E9B0C0", VA = "0x4E9B0C0")]
+	[Address(RVA = "0x3B80BE0", Offset = "0x3B80BE0", VA = "0x3B80BE0")]
 	internal CrossAppDomainData(int domainId)
 	{
 	}

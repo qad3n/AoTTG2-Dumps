@@ -8,7 +8,7 @@ namespace Unity.IL2CPP.CompilerServices;
 internal class Il2CppEagerStaticClassConstructionAttribute : Attribute
 {
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x4741530", Offset = "0x4741530", VA = "0x4741530")]
+	[Address(RVA = "0x4A66630", Offset = "0x4A66630", VA = "0x4A66630")]
 	public Il2CppEagerStaticClassConstructionAttribute()
 	{
 	}

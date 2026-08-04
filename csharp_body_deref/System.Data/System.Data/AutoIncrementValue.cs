@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.AutoIncrementValue
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -10,14 +17,14 @@ internal abstract class AutoIncrementValue
 	internal bool Auto
 	{
 		[Token(Token = "0x60000DB")]
-		[Address(RVA = "0x4205040", Offset = "0x4205040", VA = "0x4205040")]
+		[Address(RVA = "0x45427A0", Offset = "0x45427A0", VA = "0x45427A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000DC")]
-		[Address(RVA = "0x4205050", Offset = "0x4205050", VA = "0x4205050")]
+		[Address(RVA = "0x45427B0", Offset = "0x45427B0", VA = "0x45427B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -68,14 +75,14 @@ internal abstract class AutoIncrementValue
 	internal abstract void MoveAfter();
 
 	[Token(Token = "0x60000E7")]
-	[Address(RVA = "0x4203970", Offset = "0x4203970", VA = "0x4203970")]
+	[Address(RVA = "0x45410D0", Offset = "0x45410D0", VA = "0x45410D0")]
 	internal AutoIncrementValue Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000E8")]
-	[Address(RVA = "0x4205060", Offset = "0x4205060", VA = "0x4205060")]
+	[Address(RVA = "0x45427C0", Offset = "0x45427C0", VA = "0x45427C0")]
 	protected AutoIncrementValue()
 	{
 	}

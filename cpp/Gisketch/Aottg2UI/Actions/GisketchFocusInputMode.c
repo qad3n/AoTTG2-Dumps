@@ -1,46 +1,45 @@
 // Type: Gisketch.Aottg2UI.Actions.GisketchFocusInputMode
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Gisketch.Aottg2UI.Runtime/Gisketch.Aottg2UI.Actions/GisketchFocusInputMode.cs
-// Prior source: NEW in this update
+// Prior real C# source: none
 // --------------------------------
 
 // Gisketch.Aottg2UI.Actions.GisketchFocusInputMode$$add_Changed
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__add_Changed (System_Action_o* value, const MethodInfo* method);
-// 0x3b28b50
+// 0x3b95570
 
-void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__add_Changed
-               (System_Action_o *value,MethodInfo *method)
+void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__add_Changed(System_Action_o *value,MethodInfo *method)
 
 {
   System_Delegate_o *pSVar1;
   System_Delegate_o *a;
   bool bVar2;
   
-  if (DAT_057015b5 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_Action);
-    il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-    DAT_057015b5 = '\x01';
+  if (g_data_057a9ee9 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Action);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+    g_data_057a9ee9 = '\x01';
   }
   a = *(System_Delegate_o **)(*(long *)(TypeInfo_GisketchFocusInputMode + 0xb8) + 0x10);
-  while( true ) {
-    pSVar1 = System_Delegate__Combine(a,(System_Delegate_o *)value,(MethodInfo *)0x0);
-    if ((pSVar1 != (System_Delegate_o *)0x0) && (pSVar1->klass != TypeInfo_Action)) break;
-    pSVar1 = (System_Delegate_o *)il2cpp_glue_022c2530(*(long *)(TypeInfo_GisketchFocusInputMode + 0xb8) + 0x10,pSVar1,a);
+  while ((pSVar1 = System_Delegate__Combine(a,(System_Delegate_o *)value,(MethodInfo *)0x0),
+         pSVar1 == (System_Delegate_o *)0x0 || (pSVar1->klass == TypeInfo_Action))) {
+    pSVar1 = (System_Delegate_o *)il2cpp_runtime_helper_02300640(*(long *)(TypeInfo_GisketchFocusInputMode + 0xb8) + 0x10,pSVar1,a);
     bVar2 = a == pSVar1;
     a = pSVar1;
     if (bVar2) {
       return;
     }
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_unwind_resume(pSVar1);
+  il2cpp_runtime_helper_022b2fd0(pSVar1);
+  return;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchFocusInputMode$$remove_Changed
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__remove_Changed (System_Action_o* value, const MethodInfo* method);
-// 0x3b28c10
+// 0x3b95630
 
 void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__remove_Changed
                (System_Action_o *value,MethodInfo *method)
@@ -50,37 +49,36 @@ void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__remove_Changed
   System_Delegate_o *source;
   bool bVar2;
   
-  if (DAT_057015b6 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_Action);
-    il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-    DAT_057015b6 = '\x01';
+  if (g_data_057a9eea == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Action);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+    g_data_057a9eea = '\x01';
   }
   source = *(System_Delegate_o **)(*(long *)(TypeInfo_GisketchFocusInputMode + 0xb8) + 0x10);
-  while( true ) {
-    pSVar1 = System_Delegate__Remove(source,(System_Delegate_o *)value,(MethodInfo *)0x0);
-    if ((pSVar1 != (System_Delegate_o *)0x0) && (pSVar1->klass != TypeInfo_Action)) break;
-    pSVar1 = (System_Delegate_o *)il2cpp_glue_022c2530(*(long *)(TypeInfo_GisketchFocusInputMode + 0xb8) + 0x10,pSVar1,source);
+  while ((pSVar1 = System_Delegate__Remove(source,(System_Delegate_o *)value,(MethodInfo *)0x0),
+         pSVar1 == (System_Delegate_o *)0x0 || (pSVar1->klass == TypeInfo_Action))) {
+    pSVar1 = (System_Delegate_o *)il2cpp_runtime_helper_02300640(*(long *)(TypeInfo_GisketchFocusInputMode + 0xb8) + 0x10,pSVar1,source);
     bVar2 = source == pSVar1;
     source = pSVar1;
     if (bVar2) {
       return;
     }
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_unwind_resume(pSVar1);
+  il2cpp_runtime_helper_022b2fd0(pSVar1);
+  return;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchFocusInputMode$$get_Mode
 // il2cpp: int32_t Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__get_Mode (const MethodInfo* method);
-// 0x3b28cd0
+// 0x3b956f0
 
 int32_t Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__get_Mode(MethodInfo *method)
 
 {
-  if (DAT_057015b7 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-    DAT_057015b7 = '\x01';
+  if (g_data_057a9eeb == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+    g_data_057a9eeb = '\x01';
   }
   return *(int32_t *)(*(long *)(TypeInfo_GisketchFocusInputMode + 0xb8) + 0x18);
 }
@@ -88,14 +86,14 @@ int32_t Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__get_Mode(MethodInfo *m
 
 // Gisketch.Aottg2UI.Actions.GisketchFocusInputMode$$set_Mode
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__set_Mode (int32_t value, const MethodInfo* method);
-// 0x3b28d10
+// 0x3b95730
 
 void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__set_Mode(int32_t value,MethodInfo *method)
 
 {
-  if (DAT_057015b8 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-    DAT_057015b8 = '\x01';
+  if (g_data_057a9eec == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+    g_data_057a9eec = '\x01';
   }
   *(int32_t *)(*(long *)(TypeInfo_GisketchFocusInputMode + 0xb8) + 0x18) = value;
   return;
@@ -104,14 +102,14 @@ void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__set_Mode(int32_t value,Me
 
 // Gisketch.Aottg2UI.Actions.GisketchFocusInputMode$$get_IsNavigation
 // il2cpp: bool Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__get_IsNavigation (const MethodInfo* method);
-// 0x3b1ecf0
+// 0x3b8aeb0
 
 bool_conflict Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__get_IsNavigation(MethodInfo *method)
 
 {
-  if (DAT_0570136d == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-    DAT_0570136d = '\x01';
+  if (g_data_057a9c87 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+    g_data_057a9c87 = '\x01';
   }
   return (bool_conflict)
          CONCAT71((int7)((ulong)*(long *)(TypeInfo_GisketchFocusInputMode + 0xb8) >> 8),
@@ -121,7 +119,7 @@ bool_conflict Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__get_IsNavigation
 
 // Gisketch.Aottg2UI.Actions.GisketchFocusInputMode$$SetPointer
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__SetPointer (const MethodInfo* method);
-// 0x3b1dc30
+// 0x3b89e70
 
 void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__SetPointer(MethodInfo *method)
 
@@ -132,21 +130,21 @@ void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__SetPointer(MethodInfo *me
   undefined8 extraout_RDX_00;
   undefined8 extraout_RDX_01;
   
-  if (DAT_057015b9 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-    DAT_057015b9 = '\x01';
+  if (g_data_057a9eed == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+    g_data_057a9eed = '\x01';
     in_RDX = extraout_RDX;
   }
-  if (DAT_0570136d == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-    DAT_0570136d = '\x01';
+  if (g_data_057a9c87 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+    g_data_057a9c87 = '\x01';
     in_RDX = extraout_RDX_00;
   }
   lVar1 = *(long *)(TypeInfo_GisketchFocusInputMode + 0xb8);
   if (*(int *)(lVar1 + 0x18) != 0) {
-    if (DAT_057015f6 == '\0') {
-      il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-      DAT_057015f6 = '\x01';
+    if (g_data_057a9f2a == '\0') {
+      il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+      g_data_057a9f2a = '\x01';
       lVar1 = *(long *)(TypeInfo_GisketchFocusInputMode + 0xb8);
       *(undefined4 *)(lVar1 + 0x18) = 0;
       lVar1 = *(long *)(lVar1 + 0x10);
@@ -158,8 +156,7 @@ void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__SetPointer(MethodInfo *me
     }
     if (lVar1 != 0) {
       (**(code **)(lVar1 + 0x18))
-                (*(undefined8 *)(lVar1 + 0x40),*(undefined8 *)(lVar1 + 0x28),in_RDX,
-                 *(code **)(lVar1 + 0x18));
+                (*(undefined8 *)(lVar1 + 0x40),*(undefined8 *)(lVar1 + 0x28),in_RDX,*(code **)(lVar1 + 0x18));
       return;
     }
   }
@@ -169,7 +166,7 @@ void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__SetPointer(MethodInfo *me
 
 // Gisketch.Aottg2UI.Actions.GisketchFocusInputMode$$SetNavigation
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__SetNavigation (const MethodInfo* method);
-// 0x3b1dda0
+// 0x3b89fe0
 
 void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__SetNavigation(MethodInfo *method)
 
@@ -180,21 +177,21 @@ void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__SetNavigation(MethodInfo 
   undefined8 extraout_RDX_00;
   undefined8 extraout_RDX_01;
   
-  if (DAT_057015b9 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-    DAT_057015b9 = '\x01';
+  if (g_data_057a9eed == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+    g_data_057a9eed = '\x01';
     in_RDX = extraout_RDX;
   }
-  if (DAT_0570136d == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-    DAT_0570136d = '\x01';
+  if (g_data_057a9c87 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+    g_data_057a9c87 = '\x01';
     in_RDX = extraout_RDX_00;
   }
   lVar1 = *(long *)(TypeInfo_GisketchFocusInputMode + 0xb8);
   if (*(int *)(lVar1 + 0x18) != 1) {
-    if (DAT_057015f6 == '\0') {
-      il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-      DAT_057015f6 = '\x01';
+    if (g_data_057a9f2a == '\0') {
+      il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+      g_data_057a9f2a = '\x01';
       lVar1 = *(long *)(TypeInfo_GisketchFocusInputMode + 0xb8);
       *(undefined4 *)(lVar1 + 0x18) = 1;
       lVar1 = *(long *)(lVar1 + 0x10);
@@ -206,8 +203,7 @@ void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__SetNavigation(MethodInfo 
     }
     if (lVar1 != 0) {
       (**(code **)(lVar1 + 0x18))
-                (*(undefined8 *)(lVar1 + 0x40),*(undefined8 *)(lVar1 + 0x28),in_RDX,
-                 *(code **)(lVar1 + 0x18));
+                (*(undefined8 *)(lVar1 + 0x40),*(undefined8 *)(lVar1 + 0x28),in_RDX,*(code **)(lVar1 + 0x18));
       return;
     }
   }
@@ -217,11 +213,10 @@ void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__SetNavigation(MethodInfo 
 
 // Gisketch.Aottg2UI.Actions.GisketchFocusInputMode$$TakeTab
 // il2cpp: bool Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__TakeTab (bool* backwards, const MethodInfo* method);
-// 0x3b28e00
+// 0x3b95820
 
 bool_conflict
-Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__TakeTab
-          (bool_conflict *backwards,MethodInfo *method)
+Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__TakeTab(bool_conflict *backwards,MethodInfo *method)
 
 {
   bool_conflict bVar1;
@@ -240,20 +235,20 @@ Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__TakeTab
     else {
       *(undefined1 *)backwards = 1;
     }
-    if (DAT_057015b9 == '\0') {
-      il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-      DAT_057015b9 = '\x01';
+    if (g_data_057a9eed == '\0') {
+      il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+      g_data_057a9eed = '\x01';
     }
-    if (DAT_0570136d == '\0') {
-      il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-      DAT_0570136d = '\x01';
+    if (g_data_057a9c87 == '\0') {
+      il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+      g_data_057a9c87 = '\x01';
     }
     lVar2 = *(long *)(TypeInfo_GisketchFocusInputMode + 0xb8);
     bVar3 = 1;
     if (*(int *)(lVar2 + 0x18) != 1) {
-      if (DAT_057015f6 == '\0') {
-        il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-        DAT_057015f6 = '\x01';
+      if (g_data_057a9f2a == '\0') {
+        il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+        g_data_057a9f2a = '\x01';
         lVar2 = *(long *)(TypeInfo_GisketchFocusInputMode + 0xb8);
       }
       *(undefined4 *)(lVar2 + 0x18) = 1;
@@ -269,7 +264,7 @@ Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__TakeTab
 
 // Gisketch.Aottg2UI.Actions.GisketchFocusInputMode$$Poll
 // il2cpp: bool Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__Poll (const MethodInfo* method);
-// 0x3b28f10
+// 0x3b95930
 
 bool_conflict Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__Poll(MethodInfo *method)
 
@@ -282,19 +277,19 @@ bool_conflict Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__Poll(MethodInfo 
   if ((char)bVar1 == '\0') {
     bVar1 = Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__HasPointerInput(method);
     if ((char)bVar1 != '\0') {
-      if (DAT_057015b9 == '\0') {
-        il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-        DAT_057015b9 = '\x01';
+      if (g_data_057a9eed == '\0') {
+        il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+        g_data_057a9eed = '\x01';
       }
-      if (DAT_0570136d == '\0') {
-        il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-        DAT_0570136d = '\x01';
+      if (g_data_057a9c87 == '\0') {
+        il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+        g_data_057a9c87 = '\x01';
       }
       lVar2 = *(long *)(TypeInfo_GisketchFocusInputMode + 0xb8);
       if (*(int *)(lVar2 + 0x18) != 0) {
-        if (DAT_057015f6 == '\0') {
-          il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-          DAT_057015f6 = '\x01';
+        if (g_data_057a9f2a == '\0') {
+          il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+          g_data_057a9f2a = '\x01';
           lVar2 = *(long *)(TypeInfo_GisketchFocusInputMode + 0xb8);
         }
         *(undefined4 *)(lVar2 + 0x18) = 0;
@@ -307,20 +302,20 @@ bool_conflict Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__Poll(MethodInfo 
     bVar1 = 0;
   }
   else {
-    if (DAT_057015b9 == '\0') {
-      il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-      DAT_057015b9 = '\x01';
+    if (g_data_057a9eed == '\0') {
+      il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+      g_data_057a9eed = '\x01';
     }
-    if (DAT_0570136d == '\0') {
-      il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-      DAT_0570136d = '\x01';
+    if (g_data_057a9c87 == '\0') {
+      il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+      g_data_057a9c87 = '\x01';
     }
     lVar2 = *(long *)(TypeInfo_GisketchFocusInputMode + 0xb8);
     bVar1 = (bool_conflict)CONCAT71((int7)((ulong)unaff_RBX >> 8),1);
     if (*(int *)(lVar2 + 0x18) != 1) {
-      if (DAT_057015f6 == '\0') {
-        il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-        DAT_057015f6 = '\x01';
+      if (g_data_057a9f2a == '\0') {
+        il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+        g_data_057a9f2a = '\x01';
         lVar2 = *(long *)(TypeInfo_GisketchFocusInputMode + 0xb8);
       }
       *(undefined4 *)(lVar2 + 0x18) = 1;
@@ -336,7 +331,7 @@ bool_conflict Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__Poll(MethodInfo 
 
 // Gisketch.Aottg2UI.Actions.GisketchFocusInputMode$$PollPointerOnly
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__PollPointerOnly (const MethodInfo* method);
-// 0x3b292b0
+// 0x3b95cd0
 
 void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__PollPointerOnly(MethodInfo *method)
 
@@ -352,21 +347,21 @@ void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__PollPointerOnly(MethodInf
   bVar2 = Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__HasPointerInput(method);
   if ((char)bVar2 != '\0') {
     uVar3 = extraout_RDX;
-    if (DAT_057015b9 == '\0') {
-      il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-      DAT_057015b9 = '\x01';
+    if (g_data_057a9eed == '\0') {
+      il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+      g_data_057a9eed = '\x01';
       uVar3 = extraout_RDX_00;
     }
-    if (DAT_0570136d == '\0') {
-      il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-      DAT_0570136d = '\x01';
+    if (g_data_057a9c87 == '\0') {
+      il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+      g_data_057a9c87 = '\x01';
       uVar3 = extraout_RDX_01;
     }
     lVar1 = *(long *)(TypeInfo_GisketchFocusInputMode + 0xb8);
     if (*(int *)(lVar1 + 0x18) != 0) {
-      if (DAT_057015f6 == '\0') {
-        il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-        DAT_057015f6 = '\x01';
+      if (g_data_057a9f2a == '\0') {
+        il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+        g_data_057a9f2a = '\x01';
         lVar1 = *(long *)(TypeInfo_GisketchFocusInputMode + 0xb8);
         *(undefined4 *)(lVar1 + 0x18) = 0;
         lVar1 = *(long *)(lVar1 + 0x10);
@@ -378,8 +373,8 @@ void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__PollPointerOnly(MethodInf
       }
       if (lVar1 != 0) {
         (**(code **)(lVar1 + 0x18))
-                  (*(undefined8 *)(lVar1 + 0x40),*(undefined8 *)(lVar1 + 0x28),uVar3,
-                   *(code **)(lVar1 + 0x18));
+                  (*(undefined8 *)(lVar1 + 0x40),*(undefined8 *)(lVar1 + 0x28),uVar3,*(code **)(lVar1 + 0x18))
+        ;
         return;
       }
     }
@@ -390,7 +385,7 @@ void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__PollPointerOnly(MethodInf
 
 // Gisketch.Aottg2UI.Actions.GisketchFocusInputMode$$SetMode
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__SetMode (int32_t mode, const MethodInfo* method);
-// 0x3b28d50
+// 0x3b95770
 
 void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__SetMode(int32_t mode,MethodInfo *method)
 
@@ -401,21 +396,21 @@ void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__SetMode(int32_t mode,Meth
   undefined8 extraout_RDX_00;
   undefined8 extraout_RDX_01;
   
-  if (DAT_057015b9 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-    DAT_057015b9 = '\x01';
+  if (g_data_057a9eed == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+    g_data_057a9eed = '\x01';
     in_RDX = extraout_RDX;
   }
-  if (DAT_0570136d == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-    DAT_0570136d = '\x01';
+  if (g_data_057a9c87 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+    g_data_057a9c87 = '\x01';
     in_RDX = extraout_RDX_00;
   }
   lVar1 = *(long *)(TypeInfo_GisketchFocusInputMode + 0xb8);
   if (*(int *)(lVar1 + 0x18) != mode) {
-    if (DAT_057015f6 == '\0') {
-      il2cpp_init_method_metadata(&TypeInfo_GisketchFocusInputMode);
-      DAT_057015f6 = '\x01';
+    if (g_data_057a9f2a == '\0') {
+      il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchFocusInputMode);
+      g_data_057a9f2a = '\x01';
       lVar1 = *(long *)(TypeInfo_GisketchFocusInputMode + 0xb8);
       *(int32_t *)(lVar1 + 0x18) = mode;
       lVar1 = *(long *)(lVar1 + 0x10);
@@ -427,8 +422,7 @@ void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__SetMode(int32_t mode,Meth
     }
     if (lVar1 != 0) {
       (**(code **)(lVar1 + 0x18))
-                (*(undefined8 *)(lVar1 + 0x40),*(undefined8 *)(lVar1 + 0x28),in_RDX,
-                 *(code **)(lVar1 + 0x18));
+                (*(undefined8 *)(lVar1 + 0x40),*(undefined8 *)(lVar1 + 0x28),in_RDX,*(code **)(lVar1 + 0x18));
       return;
     }
   }
@@ -438,10 +432,9 @@ void Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__SetMode(int32_t mode,Meth
 
 // Gisketch.Aottg2UI.Actions.GisketchFocusInputMode$$HasNavigationInput
 // il2cpp: bool Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__HasNavigationInput (const MethodInfo* method);
-// 0x3b29070
+// 0x3b95a90
 
-bool_conflict
-Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__HasNavigationInput(MethodInfo *method)
+bool_conflict Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__HasNavigationInput(MethodInfo *method)
 
 {
   bool_conflict bVar1;
@@ -451,11 +444,11 @@ Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__HasNavigationInput(MethodInfo 
   float fVar4;
   undefined7 uVar3;
   
-  if (DAT_057015ba == '\0') {
-    il2cpp_init_method_metadata(&"Submit");
-    il2cpp_init_method_metadata(&"Vertical");
-    il2cpp_init_method_metadata(&"Horizontal");
-    DAT_057015ba = '\x01';
+  if (g_data_057a9eee == '\0') {
+    il2cpp_runtime_helper_023445d0(&"Submit");
+    il2cpp_runtime_helper_023445d0(&"Vertical");
+    il2cpp_runtime_helper_023445d0(&"Horizontal");
+    g_data_057a9eee = '\x01';
   }
   bVar1 = UnityEngine_Input__GetKeyDown(0x111,(MethodInfo *)0x0);
   uVar3 = (undefined7)((ulong)unaff_RBX >> 8);
@@ -474,14 +467,11 @@ Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__HasNavigationInput(MethodInfo 
               method_00 = (MethodInfo *)0x0;
               bVar1 = UnityEngine_Input__GetKeyDown(0x20,(MethodInfo *)0x0);
               if ((char)bVar1 == '\0') {
-                fVar4 = Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__Axis
-                                  ("Horizontal",method_00);
+                fVar4 = Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__Axis("Horizontal",method_00);
                 if (ABS(fVar4) <= 0.5) {
-                  fVar4 = Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__Axis
-                                    ("Vertical",method_00);
+                  fVar4 = Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__Axis("Vertical",method_00);
                   if (ABS(fVar4) <= 0.5) {
-                    fVar4 = Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__Axis
-                                      ("Submit",method_00);
+                    fVar4 = Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__Axis("Submit",method_00);
                     bVar2 = (bool_conflict)CONCAT71(uVar3,0.5 < ABS(fVar4));
                   }
                 }
@@ -498,7 +488,7 @@ Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__HasNavigationInput(MethodInfo 
 
 // Gisketch.Aottg2UI.Actions.GisketchFocusInputMode$$HasPointerInput
 // il2cpp: bool Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__HasPointerInput (const MethodInfo* method);
-// 0x3b29190
+// 0x3b95bb0
 
 bool_conflict Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__HasPointerInput(MethodInfo *method)
 
@@ -516,9 +506,9 @@ bool_conflict Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__HasPointerInput(
   UnityEngine_Vector3_Fields UVar11;
   undefined7 uVar5;
   
-  if (DAT_057015bb == '\0') {
-    il2cpp_init_method_metadata();
-    DAT_057015bb = '\x01';
+  if (g_data_057a9eef == '\0') {
+    il2cpp_runtime_helper_023445d0();
+    g_data_057a9eef = '\x01';
   }
   bVar2 = UnityEngine_Input__GetMouseButtonDown(0,(MethodInfo *)0x0);
   uVar5 = (undefined7)((ulong)unaff_RBP >> 8);
@@ -556,10 +546,9 @@ bool_conflict Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__HasPointerInput(
 
 // Gisketch.Aottg2UI.Actions.GisketchFocusInputMode$$Axis
 // il2cpp: float Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__Axis (System_String_o* name, const MethodInfo* method);
-// 0x3b29360
+// 0x3b95d80
 
-float Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__Axis
-                (System_String_o *name,MethodInfo *method)
+float Gisketch_Aottg2UI_Actions_GisketchFocusInputMode__Axis(System_String_o *name,MethodInfo *method)
 
 {
   float fVar1;

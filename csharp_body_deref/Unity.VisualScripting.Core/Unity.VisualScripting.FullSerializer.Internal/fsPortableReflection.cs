@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.FullSerializer.Internal.fsPortableReflection
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -27,21 +34,21 @@ public static class fsPortableReflection
 	private class AttributeQueryComparator : IEqualityComparer<AttributeQuery>
 	{
 		[Token(Token = "0x6001308")]
-		[Address(RVA = "0x4A65970", Offset = "0x4A65970", VA = "0x4A65970", Slot = "4")]
+		[Address(RVA = "0x4D8C820", Offset = "0x4D8C820", VA = "0x4D8C820", Slot = "4")]
 		public bool Equals(AttributeQuery x, AttributeQuery y)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001309")]
-		[Address(RVA = "0x4A659D0", Offset = "0x4A659D0", VA = "0x4A659D0", Slot = "5")]
+		[Address(RVA = "0x4D8C880", Offset = "0x4D8C880", VA = "0x4D8C880", Slot = "5")]
 		public int GetHashCode(AttributeQuery obj)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x600130A")]
-		[Address(RVA = "0x4A65960", Offset = "0x4A65960", VA = "0x4A65960")]
+		[Address(RVA = "0x4D8C810", Offset = "0x4D8C810", VA = "0x4D8C810")]
 		public AttributeQueryComparator()
 		{
 		}
@@ -91,7 +98,7 @@ public static class fsPortableReflection
 		private MethodInfo System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EReflection_002EMethodInfo_003E_002ECurrent
 		{
 			[Token(Token = "0x600130E")]
-			[Address(RVA = "0x4A65C80", Offset = "0x4A65C80", VA = "0x4A65C80", Slot = "6")]
+			[Address(RVA = "0x4D8CB30", Offset = "0x4D8CB30", VA = "0x4D8CB30", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -103,7 +110,7 @@ public static class fsPortableReflection
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6001310")]
-			[Address(RVA = "0x4A65CD0", Offset = "0x4A65CD0", VA = "0x4A65CD0", Slot = "9")]
+			[Address(RVA = "0x4D8CB80", Offset = "0x4D8CB80", VA = "0x4D8CB80", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -112,35 +119,35 @@ public static class fsPortableReflection
 		}
 
 		[Token(Token = "0x600130B")]
-		[Address(RVA = "0x4A653B0", Offset = "0x4A653B0", VA = "0x4A653B0")]
+		[Address(RVA = "0x4D8C260", Offset = "0x4D8C260", VA = "0x4D8C260")]
 		[DebuggerHidden]
 		public _003CGetFlattenedMethods_003Ed__18(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x600130C")]
-		[Address(RVA = "0x4A65A20", Offset = "0x4A65A20", VA = "0x4A65A20", Slot = "7")]
+		[Address(RVA = "0x4D8C8D0", Offset = "0x4D8C8D0", VA = "0x4D8C8D0", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x600130D")]
-		[Address(RVA = "0x4A65A30", Offset = "0x4A65A30", VA = "0x4A65A30", Slot = "8")]
+		[Address(RVA = "0x4D8C8E0", Offset = "0x4D8C8E0", VA = "0x4D8C8E0", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600130F")]
-		[Address(RVA = "0x4A65C90", Offset = "0x4A65C90", VA = "0x4A65C90", Slot = "10")]
+		[Address(RVA = "0x4D8CB40", Offset = "0x4D8CB40", VA = "0x4D8CB40", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x6001311")]
-		[Address(RVA = "0x4A65CE0", Offset = "0x4A65CE0", VA = "0x4A65CE0", Slot = "4")]
+		[Address(RVA = "0x4D8CB90", Offset = "0x4D8CB90", VA = "0x4D8CB90", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<MethodInfo> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002EReflection_002EMethodInfo_003E_002EGetEnumerator()
 		{
@@ -148,7 +155,7 @@ public static class fsPortableReflection
 		}
 
 		[Token(Token = "0x6001312")]
-		[Address(RVA = "0x4A65D90", Offset = "0x4A65D90", VA = "0x4A65D90", Slot = "5")]
+		[Address(RVA = "0x4D8CC40", Offset = "0x4D8CC40", VA = "0x4D8CC40", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -181,21 +188,21 @@ public static class fsPortableReflection
 	}
 
 	[Token(Token = "0x60012F1")]
-	[Address(RVA = "0x4A64440", Offset = "0x4A64440", VA = "0x4A64440")]
+	[Address(RVA = "0x4D8A9E0", Offset = "0x4D8A9E0", VA = "0x4D8A9E0")]
 	public static bool HasAttribute(MemberInfo element, Type attributeType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012F2")]
-	[Address(RVA = "0x4A644A0", Offset = "0x4A644A0", VA = "0x4A644A0")]
+	[Address(RVA = "0x4D8A890", Offset = "0x4D8A890", VA = "0x4D8A890")]
 	public static bool HasAttribute(MemberInfo element, Type attributeType, bool shouldCache)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012F3")]
-	[Address(RVA = "0x4A644B0", Offset = "0x4A644B0", VA = "0x4A644B0")]
+	[Address(RVA = "0x4D8B5F0", Offset = "0x4D8B5F0", VA = "0x4D8B5F0")]
 	public static Attribute GetAttribute(MemberInfo element, Type attributeType, bool shouldCache)
 	{
 		return null;
@@ -214,49 +221,49 @@ public static class fsPortableReflection
 	}
 
 	[Token(Token = "0x60012F6")]
-	[Address(RVA = "0x4A64710", Offset = "0x4A64710", VA = "0x4A64710")]
+	[Address(RVA = "0x4D8B850", Offset = "0x4D8B850", VA = "0x4D8B850")]
 	public static PropertyInfo GetDeclaredProperty(this Type type, string propertyName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60012F7")]
-	[Address(RVA = "0x4A64900", Offset = "0x4A64900", VA = "0x4A64900")]
+	[Address(RVA = "0x4D8BA40", Offset = "0x4D8BA40", VA = "0x4D8BA40")]
 	public static MethodInfo GetDeclaredMethod(this Type type, string methodName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60012F8")]
-	[Address(RVA = "0x4A64AF0", Offset = "0x4A64AF0", VA = "0x4A64AF0")]
+	[Address(RVA = "0x4D89620", Offset = "0x4D89620", VA = "0x4D89620")]
 	public static ConstructorInfo GetDeclaredConstructor(this Type type, Type[] parameters)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60012F9")]
-	[Address(RVA = "0x4A64CF0", Offset = "0x4A64CF0", VA = "0x4A64CF0")]
+	[Address(RVA = "0x4D8BC30", Offset = "0x4D8BC30", VA = "0x4D8BC30")]
 	public static ConstructorInfo[] GetDeclaredConstructors(this Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60012FA")]
-	[Address(RVA = "0x4A64D80", Offset = "0x4A64D80", VA = "0x4A64D80")]
+	[Address(RVA = "0x4D8BCC0", Offset = "0x4D8BCC0", VA = "0x4D8BCC0")]
 	public static MemberInfo[] GetFlattenedMember(this Type type, string memberName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60012FB")]
-	[Address(RVA = "0x4A65130", Offset = "0x4A65130", VA = "0x4A65130")]
+	[Address(RVA = "0x4D8BFE0", Offset = "0x4D8BFE0", VA = "0x4D8BFE0")]
 	public static MethodInfo GetFlattenedMethod(this Type type, string methodName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60012FC")]
-	[Address(RVA = "0x4A65320", Offset = "0x4A65320", VA = "0x4A65320")]
+	[Address(RVA = "0x4D8C1D0", Offset = "0x4D8C1D0", VA = "0x4D8C1D0")]
 	[IteratorStateMachine(typeof(_003CGetFlattenedMethods_003Ed__18))]
 	public static IEnumerable<MethodInfo> GetFlattenedMethods(this Type type, string methodName)
 	{
@@ -264,70 +271,70 @@ public static class fsPortableReflection
 	}
 
 	[Token(Token = "0x60012FD")]
-	[Address(RVA = "0x4A653E0", Offset = "0x4A653E0", VA = "0x4A653E0")]
+	[Address(RVA = "0x4D8C290", Offset = "0x4D8C290", VA = "0x4D8C290")]
 	public static PropertyInfo GetFlattenedProperty(this Type type, string propertyName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60012FE")]
-	[Address(RVA = "0x4A655D0", Offset = "0x4A655D0", VA = "0x4A655D0")]
+	[Address(RVA = "0x4D8C480", Offset = "0x4D8C480", VA = "0x4D8C480")]
 	public static MemberInfo GetDeclaredMember(this Type type, string memberName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60012FF")]
-	[Address(RVA = "0x4A64A60", Offset = "0x4A64A60", VA = "0x4A64A60")]
+	[Address(RVA = "0x4D8BBA0", Offset = "0x4D8BBA0", VA = "0x4D8BBA0")]
 	public static MethodInfo[] GetDeclaredMethods(this Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001300")]
-	[Address(RVA = "0x4A64870", Offset = "0x4A64870", VA = "0x4A64870")]
+	[Address(RVA = "0x4D8B9B0", Offset = "0x4D8B9B0", VA = "0x4D8B9B0")]
 	public static PropertyInfo[] GetDeclaredProperties(this Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001301")]
-	[Address(RVA = "0x4A65730", Offset = "0x4A65730", VA = "0x4A65730")]
+	[Address(RVA = "0x4D8C5E0", Offset = "0x4D8C5E0", VA = "0x4D8C5E0")]
 	public static FieldInfo[] GetDeclaredFields(this Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001302")]
-	[Address(RVA = "0x4A650A0", Offset = "0x4A650A0", VA = "0x4A650A0")]
+	[Address(RVA = "0x4D8A1D0", Offset = "0x4D8A1D0", VA = "0x4D8A1D0")]
 	public static MemberInfo[] GetDeclaredMembers(this Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001303")]
-	[Address(RVA = "0x4A657C0", Offset = "0x4A657C0", VA = "0x4A657C0")]
+	[Address(RVA = "0x4D8C670", Offset = "0x4D8C670", VA = "0x4D8C670")]
 	public static MemberInfo AsMemberInfo(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001304")]
-	[Address(RVA = "0x4A657D0", Offset = "0x4A657D0", VA = "0x4A657D0")]
+	[Address(RVA = "0x4D8C680", Offset = "0x4D8C680", VA = "0x4D8C680")]
 	public static bool IsType(MemberInfo member)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001305")]
-	[Address(RVA = "0x4A65810", Offset = "0x4A65810", VA = "0x4A65810")]
+	[Address(RVA = "0x4D8C6C0", Offset = "0x4D8C6C0", VA = "0x4D8C6C0")]
 	public static Type AsType(MemberInfo member)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001306")]
-	[Address(RVA = "0x4A5D7A0", Offset = "0x4A5D7A0", VA = "0x4A5D7A0")]
+	[Address(RVA = "0x4D89610", Offset = "0x4D89610", VA = "0x4D89610")]
 	public static Type Resolve(this Type type)
 	{
 		return null;

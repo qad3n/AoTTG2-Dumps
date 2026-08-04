@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.CreaseShading
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/CreaseShading.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -46,20 +53,20 @@ public class CreaseShading : PostEffectsBase
 	private Material creaseApplyMaterial;
 
 	[Token(Token = "0x600004F")]
-	[Address(RVA = "0x415C8E0", Offset = "0x415C8E0", VA = "0x415C8E0", Slot = "4")]
+	[Address(RVA = "0x44819E0", Offset = "0x44819E0", VA = "0x44819E0", Slot = "4")]
 	public override bool CheckResources()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000050")]
-	[Address(RVA = "0x415C990", Offset = "0x415C990", VA = "0x415C990")]
+	[Address(RVA = "0x4481A90", Offset = "0x4481A90", VA = "0x4481A90")]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x6000051")]
-	[Address(RVA = "0x415CCF0", Offset = "0x415CCF0", VA = "0x415CCF0")]
+	[Address(RVA = "0x4481DF0", Offset = "0x4481DF0", VA = "0x4481DF0")]
 	public CreaseShading()
 	{
 	}

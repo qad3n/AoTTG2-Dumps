@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextMesh
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -16,7 +23,7 @@ public sealed class TextMesh : Component
 	public Color color
 	{
 		[Token(Token = "0x6000023")]
-		[Address(RVA = "0x4BC65A0", Offset = "0x4BC65A0", VA = "0x4BC65A0")]
+		[Address(RVA = "0x4EEDED0", Offset = "0x4EEDED0", VA = "0x4EEDED0")]
 		set
 		{
 		}
@@ -24,6 +31,6 @@ public sealed class TextMesh : Component
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x4BC6650", Offset = "0x4BC6650", VA = "0x4BC6650")]
+	[Address(RVA = "0x4EEDF80", Offset = "0x4EEDF80", VA = "0x4EEDF80")]
 	private static extern void set_color_Injected(IntPtr _unity_self, [In] ref Color value);
 }

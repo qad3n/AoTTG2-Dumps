@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.GraphGroup
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -19,14 +26,14 @@ public sealed class GraphGroup : GraphElement<IGraph>
 	public Rect position
 	{
 		[Token(Token = "0x6000403")]
-		[Address(RVA = "0x498F9E0", Offset = "0x498F9E0", VA = "0x498F9E0")]
+		[Address(RVA = "0x4CB45B0", Offset = "0x4CB45B0", VA = "0x4CB45B0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Rect);
 		}
 		[Token(Token = "0x6000404")]
-		[Address(RVA = "0x498F9F0", Offset = "0x498F9F0", VA = "0x498F9F0")]
+		[Address(RVA = "0x4CB45C0", Offset = "0x4CB45C0", VA = "0x4CB45C0")]
 		[CompilerGenerated]
 		set
 		{
@@ -38,14 +45,14 @@ public sealed class GraphGroup : GraphElement<IGraph>
 	public string label
 	{
 		[Token(Token = "0x6000405")]
-		[Address(RVA = "0x498FA00", Offset = "0x498FA00", VA = "0x498FA00")]
+		[Address(RVA = "0x4CB45D0", Offset = "0x4CB45D0", VA = "0x4CB45D0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000406")]
-		[Address(RVA = "0x498FA10", Offset = "0x498FA10", VA = "0x498FA10")]
+		[Address(RVA = "0x4CB45E0", Offset = "0x4CB45E0", VA = "0x4CB45E0")]
 		[CompilerGenerated]
 		set
 		{
@@ -58,14 +65,14 @@ public sealed class GraphGroup : GraphElement<IGraph>
 	public string comment
 	{
 		[Token(Token = "0x6000407")]
-		[Address(RVA = "0x498FA20", Offset = "0x498FA20", VA = "0x498FA20")]
+		[Address(RVA = "0x4CB45F0", Offset = "0x4CB45F0", VA = "0x4CB45F0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000408")]
-		[Address(RVA = "0x498FA30", Offset = "0x498FA30", VA = "0x498FA30")]
+		[Address(RVA = "0x4CB4600", Offset = "0x4CB4600", VA = "0x4CB4600")]
 		[CompilerGenerated]
 		set
 		{
@@ -78,14 +85,14 @@ public sealed class GraphGroup : GraphElement<IGraph>
 	public Color color
 	{
 		[Token(Token = "0x6000409")]
-		[Address(RVA = "0x498FA40", Offset = "0x498FA40", VA = "0x498FA40")]
+		[Address(RVA = "0x4CB4610", Offset = "0x4CB4610", VA = "0x4CB4610")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x600040A")]
-		[Address(RVA = "0x498FA50", Offset = "0x498FA50", VA = "0x498FA50")]
+		[Address(RVA = "0x4CB4620", Offset = "0x4CB4620", VA = "0x4CB4620")]
 		[CompilerGenerated]
 		set
 		{
@@ -93,7 +100,7 @@ public sealed class GraphGroup : GraphElement<IGraph>
 	}
 
 	[Token(Token = "0x6000402")]
-	[Address(RVA = "0x498F940", Offset = "0x498F940", VA = "0x498F940")]
+	[Address(RVA = "0x4CB4510", Offset = "0x4CB4510", VA = "0x4CB4510")]
 	public GraphGroup()
 	{
 	}

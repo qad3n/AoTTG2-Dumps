@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.NavigateFocusRing
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -10,7 +17,7 @@ internal class NavigateFocusRing : IFocusRing
 	public class ChangeDirection : FocusChangeDirection
 	{
 		[Token(Token = "0x6000D4F")]
-		[Address(RVA = "0x4D1A1B0", Offset = "0x4D1A1B0", VA = "0x4D1A1B0")]
+		[Address(RVA = "0x5041AE0", Offset = "0x5041AE0", VA = "0x5041AE0")]
 		public ChangeDirection(int i)
 		{
 		}
@@ -36,49 +43,49 @@ internal class NavigateFocusRing : IFocusRing
 		public ChangeDirection direction;
 
 		[Token(Token = "0x6000D50")]
-		[Address(RVA = "0x4D1A200", Offset = "0x4D1A200", VA = "0x4D1A200")]
+		[Address(RVA = "0x5041B30", Offset = "0x5041B30", VA = "0x5041B30")]
 		private bool ValidateHierarchyTraversal(VisualElement v)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000D51")]
-		[Address(RVA = "0x4D1A2F0", Offset = "0x4D1A2F0", VA = "0x4D1A2F0")]
+		[Address(RVA = "0x5041C20", Offset = "0x5041C20", VA = "0x5041C20")]
 		private bool ValidateElement(VisualElement v)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000D52")]
-		[Address(RVA = "0x4D1A3F0", Offset = "0x4D1A3F0", VA = "0x4D1A3F0")]
+		[Address(RVA = "0x5041D20", Offset = "0x5041D20", VA = "0x5041D20")]
 		private int Order(VisualElement a, VisualElement b)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000D53")]
-		[Address(RVA = "0x4D1A8C0", Offset = "0x4D1A8C0", VA = "0x4D1A8C0")]
+		[Address(RVA = "0x50421F0", Offset = "0x50421F0", VA = "0x50421F0")]
 		private int StrictOrder(VisualElement a, VisualElement b)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000D54")]
-		[Address(RVA = "0x4D1A540", Offset = "0x4D1A540", VA = "0x4D1A540")]
+		[Address(RVA = "0x5041E70", Offset = "0x5041E70", VA = "0x5041E70")]
 		private int StrictOrder(Rect ra, Rect rb)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000D55")]
-		[Address(RVA = "0x4D1A7C0", Offset = "0x4D1A7C0", VA = "0x4D1A7C0")]
+		[Address(RVA = "0x50420F0", Offset = "0x50420F0", VA = "0x50420F0")]
 		private int TieBreaker(Rect ra, Rect rb)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000D56")]
-		[Address(RVA = "0x4D19B10", Offset = "0x4D19B10", VA = "0x4D19B10")]
+		[Address(RVA = "0x5041440", Offset = "0x5041440", VA = "0x5041440")]
 		public VisualElement GetBestOverall(VisualElement candidate, [Optional] VisualElement bestSoFar)
 		{
 			return null;
@@ -121,7 +128,7 @@ internal class NavigateFocusRing : IFocusRing
 	private FocusController focusController
 	{
 		[Token(Token = "0x6000D47")]
-		[Address(RVA = "0x4D18E00", Offset = "0x4D18E00", VA = "0x4D18E00")]
+		[Address(RVA = "0x5040730", Offset = "0x5040730", VA = "0x5040730")]
 		get
 		{
 			return null;
@@ -129,41 +136,41 @@ internal class NavigateFocusRing : IFocusRing
 	}
 
 	[Token(Token = "0x6000D48")]
-	[Address(RVA = "0x4D18E30", Offset = "0x4D18E30", VA = "0x4D18E30")]
+	[Address(RVA = "0x5040760", Offset = "0x5040760", VA = "0x5040760")]
 	public NavigateFocusRing(VisualElement root)
 	{
 	}
 
 	[Token(Token = "0x6000D49")]
-	[Address(RVA = "0x4D18EB0", Offset = "0x4D18EB0", VA = "0x4D18EB0", Slot = "4")]
+	[Address(RVA = "0x50407E0", Offset = "0x50407E0", VA = "0x50407E0", Slot = "4")]
 	public FocusChangeDirection GetFocusChangeDirection(Focusable currentFocusable, EventBase e)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D4A")]
-	[Address(RVA = "0x4D191F0", Offset = "0x4D191F0", VA = "0x4D191F0", Slot = "6")]
+	[Address(RVA = "0x5040B20", Offset = "0x5040B20", VA = "0x5040B20", Slot = "6")]
 	public virtual Focusable GetNextFocusable(Focusable currentFocusable, FocusChangeDirection direction)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D4B")]
-	[Address(RVA = "0x4D193A0", Offset = "0x4D193A0", VA = "0x4D193A0")]
+	[Address(RVA = "0x5040CD0", Offset = "0x5040CD0", VA = "0x5040CD0")]
 	private Focusable GetNextFocusable2D(Focusable currentFocusable, ChangeDirection direction)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D4C")]
-	[Address(RVA = "0x4D19D90", Offset = "0x4D19D90", VA = "0x4D19D90")]
+	[Address(RVA = "0x50416C0", Offset = "0x50416C0", VA = "0x50416C0")]
 	private static bool IsActive(VisualElement v)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000D4D")]
-	[Address(RVA = "0x4D19E70", Offset = "0x4D19E70", VA = "0x4D19E70")]
+	[Address(RVA = "0x50417A0", Offset = "0x50417A0", VA = "0x50417A0")]
 	private static bool IsNavigable(Focusable focusable)
 	{
 		return default(bool);

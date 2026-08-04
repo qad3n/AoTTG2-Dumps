@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.VisualElementAsset
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -47,7 +54,7 @@ internal class VisualElementAsset : UxmlAsset, ISerializationCallbackReceiver
 	public int ruleIndex
 	{
 		[Token(Token = "0x6001B05")]
-		[Address(RVA = "0x4C44C80", Offset = "0x4C44C80", VA = "0x4C44C80")]
+		[Address(RVA = "0x4F6C5B0", Offset = "0x4F6C5B0", VA = "0x4F6C5B0")]
 		get
 		{
 			return default(int);
@@ -58,7 +65,7 @@ internal class VisualElementAsset : UxmlAsset, ISerializationCallbackReceiver
 	public string[] classes
 	{
 		[Token(Token = "0x6001B06")]
-		[Address(RVA = "0x4C44C90", Offset = "0x4C44C90", VA = "0x4C44C90")]
+		[Address(RVA = "0x4F6C5C0", Offset = "0x4F6C5C0", VA = "0x4F6C5C0")]
 		get
 		{
 			return null;
@@ -69,7 +76,7 @@ internal class VisualElementAsset : UxmlAsset, ISerializationCallbackReceiver
 	public List<string> stylesheetPaths
 	{
 		[Token(Token = "0x6001B07")]
-		[Address(RVA = "0x4C44CA0", Offset = "0x4C44CA0", VA = "0x4C44CA0")]
+		[Address(RVA = "0x4F6C5D0", Offset = "0x4F6C5D0", VA = "0x4F6C5D0")]
 		get
 		{
 			return null;
@@ -80,7 +87,7 @@ internal class VisualElementAsset : UxmlAsset, ISerializationCallbackReceiver
 	public bool hasStylesheetPaths
 	{
 		[Token(Token = "0x6001B08")]
-		[Address(RVA = "0x4C44D20", Offset = "0x4C44D20", VA = "0x4C44D20")]
+		[Address(RVA = "0x4F6C650", Offset = "0x4F6C650", VA = "0x4F6C650")]
 		get
 		{
 			return default(bool);
@@ -91,7 +98,7 @@ internal class VisualElementAsset : UxmlAsset, ISerializationCallbackReceiver
 	public List<StyleSheet> stylesheets
 	{
 		[Token(Token = "0x6001B09")]
-		[Address(RVA = "0x4C44D30", Offset = "0x4C44D30", VA = "0x4C44D30")]
+		[Address(RVA = "0x4F6C660", Offset = "0x4F6C660", VA = "0x4F6C660")]
 		get
 		{
 			return null;
@@ -102,7 +109,7 @@ internal class VisualElementAsset : UxmlAsset, ISerializationCallbackReceiver
 	public bool hasStylesheets
 	{
 		[Token(Token = "0x6001B0A")]
-		[Address(RVA = "0x4C44DB0", Offset = "0x4C44DB0", VA = "0x4C44DB0")]
+		[Address(RVA = "0x4F6C6E0", Offset = "0x4F6C6E0", VA = "0x4F6C6E0")]
 		get
 		{
 			return default(bool);
@@ -110,13 +117,13 @@ internal class VisualElementAsset : UxmlAsset, ISerializationCallbackReceiver
 	}
 
 	[Token(Token = "0x6001B0B")]
-	[Address(RVA = "0x4C44DC0", Offset = "0x4C44DC0", VA = "0x4C44DC0", Slot = "5")]
+	[Address(RVA = "0x4F6C6F0", Offset = "0x4F6C6F0", VA = "0x4F6C6F0", Slot = "5")]
 	public void OnBeforeSerialize()
 	{
 	}
 
 	[Token(Token = "0x6001B0C")]
-	[Address(RVA = "0x4C44DD0", Offset = "0x4C44DD0", VA = "0x4C44DD0", Slot = "6")]
+	[Address(RVA = "0x4F6C700", Offset = "0x4F6C700", VA = "0x4F6C700", Slot = "6")]
 	public void OnAfterDeserialize()
 	{
 	}

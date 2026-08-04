@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.ClassMap
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -74,7 +81,7 @@ internal class ClassMap : ObjectMap
 	public bool IsOrderDependentMap
 	{
 		[Token(Token = "0x6000EEF")]
-		[Address(RVA = "0x44FE830", Offset = "0x44FE830", VA = "0x44FE830")]
+		[Address(RVA = "0x483BF90", Offset = "0x483BF90", VA = "0x483BF90")]
 		get
 		{
 			return default(bool);
@@ -85,7 +92,7 @@ internal class ClassMap : ObjectMap
 	public XmlTypeMapMemberAnyElement DefaultAnyElementMember
 	{
 		[Token(Token = "0x6000EF0")]
-		[Address(RVA = "0x44FEC80", Offset = "0x44FEC80", VA = "0x44FEC80")]
+		[Address(RVA = "0x483C3E0", Offset = "0x483C3E0", VA = "0x483C3E0")]
 		get
 		{
 			return null;
@@ -96,7 +103,7 @@ internal class ClassMap : ObjectMap
 	public XmlTypeMapMemberAnyAttribute DefaultAnyAttributeMember
 	{
 		[Token(Token = "0x6000EF1")]
-		[Address(RVA = "0x44FEC90", Offset = "0x44FEC90", VA = "0x44FEC90")]
+		[Address(RVA = "0x483C3F0", Offset = "0x483C3F0", VA = "0x483C3F0")]
 		get
 		{
 			return null;
@@ -107,7 +114,7 @@ internal class ClassMap : ObjectMap
 	public XmlTypeMapMemberNamespaces NamespaceDeclarations
 	{
 		[Token(Token = "0x6000EF2")]
-		[Address(RVA = "0x44FECA0", Offset = "0x44FECA0", VA = "0x44FECA0")]
+		[Address(RVA = "0x483C400", Offset = "0x483C400", VA = "0x483C400")]
 		get
 		{
 			return null;
@@ -118,7 +125,7 @@ internal class ClassMap : ObjectMap
 	public ICollection AttributeMembers
 	{
 		[Token(Token = "0x6000EF3")]
-		[Address(RVA = "0x44F46F0", Offset = "0x44F46F0", VA = "0x44F46F0")]
+		[Address(RVA = "0x4831E50", Offset = "0x4831E50", VA = "0x4831E50")]
 		get
 		{
 			return null;
@@ -129,7 +136,7 @@ internal class ClassMap : ObjectMap
 	public ICollection ElementMembers
 	{
 		[Token(Token = "0x6000EF4")]
-		[Address(RVA = "0x44FECB0", Offset = "0x44FECB0", VA = "0x44FECB0")]
+		[Address(RVA = "0x483C410", Offset = "0x483C410", VA = "0x483C410")]
 		get
 		{
 			return null;
@@ -140,7 +147,7 @@ internal class ClassMap : ObjectMap
 	public ArrayList AllMembers
 	{
 		[Token(Token = "0x6000EF5")]
-		[Address(RVA = "0x44FECC0", Offset = "0x44FECC0", VA = "0x44FECC0")]
+		[Address(RVA = "0x483C420", Offset = "0x483C420", VA = "0x483C420")]
 		get
 		{
 			return null;
@@ -151,7 +158,7 @@ internal class ClassMap : ObjectMap
 	public ArrayList FlatLists
 	{
 		[Token(Token = "0x6000EF6")]
-		[Address(RVA = "0x44FECD0", Offset = "0x44FECD0", VA = "0x44FECD0")]
+		[Address(RVA = "0x483C430", Offset = "0x483C430", VA = "0x483C430")]
 		get
 		{
 			return null;
@@ -162,7 +169,7 @@ internal class ClassMap : ObjectMap
 	public ArrayList ListMembers
 	{
 		[Token(Token = "0x6000EF7")]
-		[Address(RVA = "0x44FECE0", Offset = "0x44FECE0", VA = "0x44FECE0")]
+		[Address(RVA = "0x483C440", Offset = "0x483C440", VA = "0x483C440")]
 		get
 		{
 			return null;
@@ -173,7 +180,7 @@ internal class ClassMap : ObjectMap
 	public XmlTypeMapMember XmlTextCollector
 	{
 		[Token(Token = "0x6000EF8")]
-		[Address(RVA = "0x44FECF0", Offset = "0x44FECF0", VA = "0x44FECF0")]
+		[Address(RVA = "0x483C450", Offset = "0x483C450", VA = "0x483C450")]
 		get
 		{
 			return null;
@@ -184,7 +191,7 @@ internal class ClassMap : ObjectMap
 	public XmlTypeMapMember ReturnMember
 	{
 		[Token(Token = "0x6000EF9")]
-		[Address(RVA = "0x44FED00", Offset = "0x44FED00", VA = "0x44FED00")]
+		[Address(RVA = "0x483C460", Offset = "0x483C460", VA = "0x483C460")]
 		get
 		{
 			return null;
@@ -195,7 +202,7 @@ internal class ClassMap : ObjectMap
 	public XmlQualifiedName SimpleContentBaseType
 	{
 		[Token(Token = "0x6000EFA")]
-		[Address(RVA = "0x44FED10", Offset = "0x44FED10", VA = "0x44FED10")]
+		[Address(RVA = "0x483C470", Offset = "0x483C470", VA = "0x483C470")]
 		get
 		{
 			return null;
@@ -206,7 +213,7 @@ internal class ClassMap : ObjectMap
 	public bool HasSimpleContent
 	{
 		[Token(Token = "0x6000EFC")]
-		[Address(RVA = "0x44FF010", Offset = "0x44FF010", VA = "0x44FF010")]
+		[Address(RVA = "0x483C770", Offset = "0x483C770", VA = "0x483C770")]
 		get
 		{
 			return default(bool);
@@ -214,53 +221,53 @@ internal class ClassMap : ObjectMap
 	}
 
 	[Token(Token = "0x6000EE9")]
-	[Address(RVA = "0x44FCD60", Offset = "0x44FCD60", VA = "0x44FCD60")]
+	[Address(RVA = "0x483A4C0", Offset = "0x483A4C0", VA = "0x483A4C0")]
 	public void AddMember(XmlTypeMapMember member)
 	{
 	}
 
 	[Token(Token = "0x6000EEA")]
-	[Address(RVA = "0x44FDC70", Offset = "0x44FDC70", VA = "0x44FDC70")]
+	[Address(RVA = "0x483B3D0", Offset = "0x483B3D0", VA = "0x483B3D0")]
 	private void RegisterFlatList(XmlTypeMapMemberExpandable member)
 	{
 	}
 
 	[Token(Token = "0x6000EEB")]
-	[Address(RVA = "0x44FDD20", Offset = "0x44FDD20", VA = "0x44FDD20")]
+	[Address(RVA = "0x483B480", Offset = "0x483B480", VA = "0x483B480")]
 	public XmlTypeMapMemberAttribute GetAttribute(string name, string ns)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EEC")]
-	[Address(RVA = "0x44FDE20", Offset = "0x44FDE20", VA = "0x44FDE20")]
+	[Address(RVA = "0x483B580", Offset = "0x483B580", VA = "0x483B580")]
 	public XmlTypeMapElementInfo GetElement(string name, string ns, int minimalOrder)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EED")]
-	[Address(RVA = "0x44FE3F0", Offset = "0x44FE3F0", VA = "0x44FE3F0")]
+	[Address(RVA = "0x483BB50", Offset = "0x483BB50", VA = "0x483BB50")]
 	public XmlTypeMapElementInfo GetElement(string name, string ns)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EEE")]
-	[Address(RVA = "0x44FDBB0", Offset = "0x44FDBB0", VA = "0x44FDBB0")]
+	[Address(RVA = "0x483B310", Offset = "0x483B310", VA = "0x483B310")]
 	private string BuildKey(string name, string ns, int explicitOrder)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EFB")]
-	[Address(RVA = "0x44FF000", Offset = "0x44FF000", VA = "0x44FF000")]
+	[Address(RVA = "0x483C760", Offset = "0x483C760", VA = "0x483C760")]
 	public void SetCanBeSimpleType(bool can)
 	{
 	}
 
 	[Token(Token = "0x6000EFD")]
-	[Address(RVA = "0x44FF060", Offset = "0x44FF060", VA = "0x44FF060")]
+	[Address(RVA = "0x483C7C0", Offset = "0x483C7C0", VA = "0x483C7C0")]
 	public ClassMap()
 	{
 	}

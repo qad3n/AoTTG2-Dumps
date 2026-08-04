@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.DependencyInjector
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Mono;
@@ -17,7 +24,7 @@ internal static class DependencyInjector
 	internal static Mono.ISystemDependencyProvider SystemProvider
 	{
 		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x4DE7760", Offset = "0x4DE7760", VA = "0x4DE7760")]
+		[Address(RVA = "0x3ACD280", Offset = "0x3ACD280", VA = "0x3ACD280")]
 		get
 		{
 			return null;
@@ -25,13 +32,13 @@ internal static class DependencyInjector
 	}
 
 	[Token(Token = "0x6000036")]
-	[Address(RVA = "0x4DE7AE0", Offset = "0x4DE7AE0", VA = "0x4DE7AE0")]
+	[Address(RVA = "0x3ACD600", Offset = "0x3ACD600", VA = "0x3ACD600")]
 	internal static void Register(Mono.ISystemDependencyProvider provider)
 	{
 	}
 
 	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x4DE79B0", Offset = "0x4DE79B0", VA = "0x4DE79B0")]
+	[Address(RVA = "0x3ACD4D0", Offset = "0x3ACD4D0", VA = "0x3ACD4D0")]
 	private static Mono.ISystemDependencyProvider ReflectionLoad()
 	{
 		return null;

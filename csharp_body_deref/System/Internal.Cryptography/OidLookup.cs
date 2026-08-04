@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Internal.Cryptography.OidLookup
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Security.Cryptography;
@@ -29,35 +36,35 @@ internal static class OidLookup
 	private static readonly Dictionary<string, string> s_compatOids;
 
 	[Token(Token = "0x6000179")]
-	[Address(RVA = "0x4545F60", Offset = "0x4545F60", VA = "0x4545F60")]
+	[Address(RVA = "0x452C150", Offset = "0x452C150", VA = "0x452C150")]
 	public static string ToFriendlyName(string oid, OidGroup oidGroup, bool fallBackToAllGroups)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600017A")]
-	[Address(RVA = "0x4546500", Offset = "0x4546500", VA = "0x4546500")]
+	[Address(RVA = "0x452C6F0", Offset = "0x452C6F0", VA = "0x452C6F0")]
 	public static string ToOid(string friendlyName, OidGroup oidGroup, bool fallBackToAllGroups)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600017B")]
-	[Address(RVA = "0x4546160", Offset = "0x4546160", VA = "0x4546160")]
+	[Address(RVA = "0x452C350", Offset = "0x452C350", VA = "0x452C350")]
 	private static bool ShouldUseCache(OidGroup oidGroup)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600017C")]
-	[Address(RVA = "0x4546170", Offset = "0x4546170", VA = "0x4546170")]
+	[Address(RVA = "0x452C360", Offset = "0x452C360", VA = "0x452C360")]
 	private static string NativeOidToFriendlyName(string oid, OidGroup oidGroup, bool fallBackToAllGroups)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600017D")]
-	[Address(RVA = "0x45466D0", Offset = "0x45466D0", VA = "0x45466D0")]
+	[Address(RVA = "0x452C8C0", Offset = "0x452C8C0", VA = "0x452C8C0")]
 	private static string NativeFriendlyNameToOid(string friendlyName, OidGroup oidGroup, bool fallBackToAllGroups)
 	{
 		return null;

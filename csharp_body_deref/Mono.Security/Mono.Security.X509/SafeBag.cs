@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Security.X509.SafeBag
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Mono.Security.X509;
@@ -17,7 +24,7 @@ internal class SafeBag
 	public string BagOID
 	{
 		[Token(Token = "0x6000042")]
-		[Address(RVA = "0x3A34DF0", Offset = "0x3A34DF0", VA = "0x3A34DF0")]
+		[Address(RVA = "0x3AA1AB0", Offset = "0x3AA1AB0", VA = "0x3AA1AB0")]
 		get
 		{
 			return null;
@@ -28,7 +35,7 @@ internal class SafeBag
 	public ASN1 ASN1
 	{
 		[Token(Token = "0x6000043")]
-		[Address(RVA = "0x3A34E00", Offset = "0x3A34E00", VA = "0x3A34E00")]
+		[Address(RVA = "0x3AA1AC0", Offset = "0x3AA1AC0", VA = "0x3AA1AC0")]
 		get
 		{
 			return null;
@@ -36,7 +43,7 @@ internal class SafeBag
 	}
 
 	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x3A34DB0", Offset = "0x3A34DB0", VA = "0x3A34DB0")]
+	[Address(RVA = "0x3AA1A70", Offset = "0x3AA1A70", VA = "0x3AA1A70")]
 	public SafeBag(string bagOID, ASN1 asn1)
 	{
 	}

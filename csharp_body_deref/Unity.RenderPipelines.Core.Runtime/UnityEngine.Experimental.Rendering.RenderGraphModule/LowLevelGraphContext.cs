@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Experimental.Rendering.RenderGraphModule.LowLevelGraphContext
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Rendering;
 
@@ -22,7 +29,7 @@ public class LowLevelGraphContext : IDerivedRendergraphContext
 	public ScriptableRenderContext renderContext
 	{
 		[Token(Token = "0x6000348")]
-		[Address(RVA = "0x4855C80", Offset = "0x4855C80", VA = "0x4855C80")]
+		[Address(RVA = "0x4B7AD70", Offset = "0x4B7AD70", VA = "0x4B7AD70")]
 		get
 		{
 			return default(ScriptableRenderContext);
@@ -33,7 +40,7 @@ public class LowLevelGraphContext : IDerivedRendergraphContext
 	public RenderGraphDefaultResources defaultResources
 	{
 		[Token(Token = "0x6000349")]
-		[Address(RVA = "0x4855CA0", Offset = "0x4855CA0", VA = "0x4855CA0")]
+		[Address(RVA = "0x4B7AD90", Offset = "0x4B7AD90", VA = "0x4B7AD90")]
 		get
 		{
 			return null;
@@ -44,7 +51,7 @@ public class LowLevelGraphContext : IDerivedRendergraphContext
 	public RenderGraphObjectPool renderGraphPool
 	{
 		[Token(Token = "0x600034A")]
-		[Address(RVA = "0x4855CC0", Offset = "0x4855CC0", VA = "0x4855CC0")]
+		[Address(RVA = "0x4B7ADB0", Offset = "0x4B7ADB0", VA = "0x4B7ADB0")]
 		get
 		{
 			return null;
@@ -52,13 +59,13 @@ public class LowLevelGraphContext : IDerivedRendergraphContext
 	}
 
 	[Token(Token = "0x600034B")]
-	[Address(RVA = "0x4855CE0", Offset = "0x4855CE0", VA = "0x4855CE0", Slot = "4")]
+	[Address(RVA = "0x4B7ADD0", Offset = "0x4B7ADD0", VA = "0x4B7ADD0", Slot = "4")]
 	public void FromInternalContext(InternalRenderGraphContext context)
 	{
 	}
 
 	[Token(Token = "0x600034C")]
-	[Address(RVA = "0x4855DC0", Offset = "0x4855DC0", VA = "0x4855DC0")]
+	[Address(RVA = "0x4B7AEB0", Offset = "0x4B7AEB0", VA = "0x4B7AEB0")]
 	public LowLevelGraphContext()
 	{
 	}

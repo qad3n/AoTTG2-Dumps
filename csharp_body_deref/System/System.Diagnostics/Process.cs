@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Diagnostics.Process
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.ComponentModel;
 using System.IO;
 using System.Runtime.CompilerServices;
@@ -216,7 +223,7 @@ public class Process : Component
 	private bool Associated
 	{
 		[Token(Token = "0x60004AD")]
-		[Address(RVA = "0x46024E0", Offset = "0x46024E0", VA = "0x46024E0")]
+		[Address(RVA = "0x49275E0", Offset = "0x49275E0", VA = "0x49275E0")]
 		get
 		{
 			return default(bool);
@@ -230,7 +237,7 @@ public class Process : Component
 	public bool HasExited
 	{
 		[Token(Token = "0x60004AE")]
-		[Address(RVA = "0x4602500", Offset = "0x4602500", VA = "0x4602500")]
+		[Address(RVA = "0x4927600", Offset = "0x4927600", VA = "0x4927600")]
 		get
 		{
 			return default(bool);
@@ -244,7 +251,7 @@ public class Process : Component
 	public IntPtr Handle
 	{
 		[Token(Token = "0x60004AF")]
-		[Address(RVA = "0x4603080", Offset = "0x4603080", VA = "0x4603080")]
+		[Address(RVA = "0x4928180", Offset = "0x4928180", VA = "0x4928180")]
 		get
 		{
 			return default(IntPtr);
@@ -257,7 +264,7 @@ public class Process : Component
 	public int Id
 	{
 		[Token(Token = "0x60004B0")]
-		[Address(RVA = "0x4600090", Offset = "0x4600090", VA = "0x4600090")]
+		[Address(RVA = "0x4925190", Offset = "0x4925190", VA = "0x4925190")]
 		get
 		{
 			return default(int);
@@ -271,13 +278,13 @@ public class Process : Component
 	public ProcessStartInfo StartInfo
 	{
 		[Token(Token = "0x60004B1")]
-		[Address(RVA = "0x4603170", Offset = "0x4603170", VA = "0x4603170")]
+		[Address(RVA = "0x4928270", Offset = "0x4928270", VA = "0x4928270")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60004B2")]
-		[Address(RVA = "0x46032C0", Offset = "0x46032C0", VA = "0x46032C0")]
+		[Address(RVA = "0x49283C0", Offset = "0x49283C0", VA = "0x49283C0")]
 		set
 		{
 		}
@@ -290,7 +297,7 @@ public class Process : Component
 	public ISynchronizeInvoke SynchronizingObject
 	{
 		[Token(Token = "0x60004B3")]
-		[Address(RVA = "0x4603320", Offset = "0x4603320", VA = "0x4603320")]
+		[Address(RVA = "0x4928420", Offset = "0x4928420", VA = "0x4928420")]
 		get
 		{
 			return null;
@@ -303,7 +310,7 @@ public class Process : Component
 	public string ProcessName
 	{
 		[Token(Token = "0x60004C9")]
-		[Address(RVA = "0x46000B0", Offset = "0x46000B0", VA = "0x46000B0")]
+		[Address(RVA = "0x49251B0", Offset = "0x49251B0", VA = "0x49251B0")]
 		get
 		{
 			return null;
@@ -314,7 +321,7 @@ public class Process : Component
 	private static bool IsWindows
 	{
 		[Token(Token = "0x60004CE")]
-		[Address(RVA = "0x4606080", Offset = "0x4606080", VA = "0x4606080")]
+		[Address(RVA = "0x492B180", Offset = "0x492B180", VA = "0x492B180")]
 		get
 		{
 			return default(bool);
@@ -322,134 +329,134 @@ public class Process : Component
 	}
 
 	[Token(Token = "0x60004AB")]
-	[Address(RVA = "0x46023D0", Offset = "0x46023D0", VA = "0x46023D0")]
+	[Address(RVA = "0x49274D0", Offset = "0x49274D0", VA = "0x49274D0")]
 	public Process()
 	{
 	}
 
 	[Token(Token = "0x60004AC")]
-	[Address(RVA = "0x4602450", Offset = "0x4602450", VA = "0x4602450")]
+	[Address(RVA = "0x4927550", Offset = "0x4927550", VA = "0x4927550")]
 	private Process(string machineName, bool isRemoteMachine, int processId, ProcessInfo processInfo)
 	{
 	}
 
 	[Token(Token = "0x60004B4")]
-	[Address(RVA = "0x46034E0", Offset = "0x46034E0", VA = "0x46034E0")]
+	[Address(RVA = "0x49285E0", Offset = "0x49285E0", VA = "0x49285E0")]
 	private void ReleaseProcessHandle(SafeProcessHandle handle)
 	{
 	}
 
 	[Token(Token = "0x60004B5")]
-	[Address(RVA = "0x4603500", Offset = "0x4603500", VA = "0x4603500")]
+	[Address(RVA = "0x4928600", Offset = "0x4928600", VA = "0x4928600")]
 	private void CompletionCallback(object context, bool wasSignaled)
 	{
 	}
 
 	[Token(Token = "0x60004B6")]
-	[Address(RVA = "0x4603660", Offset = "0x4603660", VA = "0x4603660", Slot = "14")]
+	[Address(RVA = "0x4928760", Offset = "0x4928760", VA = "0x4928760", Slot = "14")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x60004B7")]
-	[Address(RVA = "0x46036A0", Offset = "0x46036A0", VA = "0x46036A0")]
+	[Address(RVA = "0x49287A0", Offset = "0x49287A0", VA = "0x49287A0")]
 	public void Close()
 	{
 	}
 
 	[Token(Token = "0x60004B8")]
-	[Address(RVA = "0x4602840", Offset = "0x4602840", VA = "0x4602840")]
+	[Address(RVA = "0x4927940", Offset = "0x4927940", VA = "0x4927940")]
 	private void EnsureState(State state)
 	{
 	}
 
 	[Token(Token = "0x60004B9")]
-	[Address(RVA = "0x4603920", Offset = "0x4603920", VA = "0x4603920")]
+	[Address(RVA = "0x4928A20", Offset = "0x4928A20", VA = "0x4928A20")]
 	private void EnsureWatchingForExit()
 	{
 	}
 
 	[Token(Token = "0x60004BA")]
-	[Address(RVA = "0x45FFFC0", Offset = "0x45FFFC0", VA = "0x45FFFC0")]
+	[Address(RVA = "0x49250C0", Offset = "0x49250C0", VA = "0x49250C0")]
 	public static Process GetCurrentProcess()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004BB")]
-	[Address(RVA = "0x4603B80", Offset = "0x4603B80", VA = "0x4603B80")]
+	[Address(RVA = "0x4928C80", Offset = "0x4928C80", VA = "0x4928C80")]
 	protected void OnExited()
 	{
 	}
 
 	[Token(Token = "0x60004BC")]
-	[Address(RVA = "0x4602960", Offset = "0x4602960", VA = "0x4602960")]
+	[Address(RVA = "0x4927A60", Offset = "0x4927A60", VA = "0x4927A60")]
 	private SafeProcessHandle GetProcessHandle(int access, bool throwIfExited)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004BD")]
-	[Address(RVA = "0x4603E30", Offset = "0x4603E30", VA = "0x4603E30")]
+	[Address(RVA = "0x4928F30", Offset = "0x4928F30", VA = "0x4928F30")]
 	private SafeProcessHandle GetProcessHandle(int access)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004BE")]
-	[Address(RVA = "0x46030B0", Offset = "0x46030B0", VA = "0x46030B0")]
+	[Address(RVA = "0x49281B0", Offset = "0x49281B0", VA = "0x49281B0")]
 	private SafeProcessHandle OpenProcessHandle(int access)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004BF")]
-	[Address(RVA = "0x46038D0", Offset = "0x46038D0", VA = "0x46038D0")]
+	[Address(RVA = "0x49289D0", Offset = "0x49289D0", VA = "0x49289D0")]
 	public void Refresh()
 	{
 	}
 
 	[Token(Token = "0x60004C0")]
-	[Address(RVA = "0x4603E40", Offset = "0x4603E40", VA = "0x4603E40")]
+	[Address(RVA = "0x4928F40", Offset = "0x4928F40", VA = "0x4928F40")]
 	private void SetProcessHandle(SafeProcessHandle processHandle)
 	{
 	}
 
 	[Token(Token = "0x60004C1")]
-	[Address(RVA = "0x4603E70", Offset = "0x4603E70", VA = "0x4603E70")]
+	[Address(RVA = "0x4928F70", Offset = "0x4928F70", VA = "0x4928F70")]
 	private void SetProcessId(int processId)
 	{
 	}
 
 	[Token(Token = "0x60004C2")]
-	[Address(RVA = "0x4603E80", Offset = "0x4603E80", VA = "0x4603E80")]
+	[Address(RVA = "0x4928F80", Offset = "0x4928F80", VA = "0x4928F80")]
 	public bool Start()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004C3")]
-	[Address(RVA = "0x46058E0", Offset = "0x46058E0", VA = "0x46058E0")]
+	[Address(RVA = "0x492A9E0", Offset = "0x492A9E0", VA = "0x492A9E0")]
 	public static Process Start(string fileName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004C4")]
-	[Address(RVA = "0x4605970", Offset = "0x4605970", VA = "0x4605970")]
+	[Address(RVA = "0x492AA70", Offset = "0x492AA70", VA = "0x492AA70")]
 	public static Process Start(ProcessStartInfo startInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004C5")]
-	[Address(RVA = "0x4603520", Offset = "0x4603520", VA = "0x4603520")]
+	[Address(RVA = "0x4928620", Offset = "0x4928620", VA = "0x4928620")]
 	private void StopWatchingForExit()
 	{
 	}
 
 	[Token(Token = "0x60004C6")]
-	[Address(RVA = "0x4605A90", Offset = "0x4605A90", VA = "0x4605A90", Slot = "3")]
+	[Address(RVA = "0x492AB90", Offset = "0x492AB90", VA = "0x492AB90", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
@@ -457,11 +464,11 @@ public class Process : Component
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60004C7")]
-	[Address(RVA = "0x4605BE0", Offset = "0x4605BE0", VA = "0x4605BE0")]
+	[Address(RVA = "0x492ACE0", Offset = "0x492ACE0", VA = "0x492ACE0")]
 	private static extern string ProcessName_icall(IntPtr handle);
 
 	[Token(Token = "0x60004C8")]
-	[Address(RVA = "0x4605BF0", Offset = "0x4605BF0", VA = "0x4605BF0")]
+	[Address(RVA = "0x492ACF0", Offset = "0x492ACF0", VA = "0x492ACF0")]
 	private static string ProcessName_internal(SafeProcessHandle handle)
 	{
 		return null;
@@ -469,42 +476,42 @@ public class Process : Component
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60004CA")]
-	[Address(RVA = "0x4605CE0", Offset = "0x4605CE0", VA = "0x4605CE0")]
+	[Address(RVA = "0x492ADE0", Offset = "0x492ADE0", VA = "0x492ADE0")]
 	private static extern bool ShellExecuteEx_internal(ProcessStartInfo startInfo, ref ProcInfo procInfo);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60004CB")]
-	[Address(RVA = "0x4605CF0", Offset = "0x4605CF0", VA = "0x4605CF0")]
+	[Address(RVA = "0x492ADF0", Offset = "0x492ADF0", VA = "0x492ADF0")]
 	private static extern bool CreateProcess_internal(ProcessStartInfo startInfo, IntPtr stdin, IntPtr stdout, IntPtr stderr, ref ProcInfo procInfo);
 
 	[Token(Token = "0x60004CC")]
-	[Address(RVA = "0x4603F80", Offset = "0x4603F80", VA = "0x4603F80")]
+	[Address(RVA = "0x4929080", Offset = "0x4929080", VA = "0x4929080")]
 	private bool StartWithShellExecuteEx(ProcessStartInfo startInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004CD")]
-	[Address(RVA = "0x4605E40", Offset = "0x4605E40", VA = "0x4605E40")]
+	[Address(RVA = "0x492AF40", Offset = "0x492AF40", VA = "0x492AF40")]
 	private static void CreatePipe(out IntPtr read, out IntPtr write, bool writeDirection)
 	{
 	}
 
 	[Token(Token = "0x60004CF")]
-	[Address(RVA = "0x4604310", Offset = "0x4604310", VA = "0x4604310")]
+	[Address(RVA = "0x4929410", Offset = "0x4929410", VA = "0x4929410")]
 	private bool StartWithCreateProcess(ProcessStartInfo startInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004D0")]
-	[Address(RVA = "0x4605D30", Offset = "0x4605D30", VA = "0x4605D30")]
+	[Address(RVA = "0x492AE30", Offset = "0x492AE30", VA = "0x492AE30")]
 	private static void FillUserInfo(ProcessStartInfo startInfo, ref ProcInfo procInfo)
 	{
 	}
 
 	[Token(Token = "0x60004D1")]
-	[Address(RVA = "0x4602F90", Offset = "0x4602F90", VA = "0x4602F90")]
+	[Address(RVA = "0x4928090", Offset = "0x4928090", VA = "0x4928090")]
 	private void RaiseOnExited()
 	{
 	}

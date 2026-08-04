@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ParameterizedStrings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -21,7 +28,7 @@ internal static class ParameterizedStrings
 		public int Int32
 		{
 			[Token(Token = "0x600104C")]
-			[Address(RVA = "0x5035550", Offset = "0x5035550", VA = "0x5035550")]
+			[Address(RVA = "0x3D1B070", Offset = "0x3D1B070", VA = "0x3D1B070")]
 			get
 			{
 				return default(int);
@@ -32,7 +39,7 @@ internal static class ParameterizedStrings
 		public string String
 		{
 			[Token(Token = "0x600104D")]
-			[Address(RVA = "0x5034C60", Offset = "0x5034C60", VA = "0x5034C60")]
+			[Address(RVA = "0x3D1A780", Offset = "0x3D1A780", VA = "0x3D1A780")]
 			get
 			{
 				return null;
@@ -43,7 +50,7 @@ internal static class ParameterizedStrings
 		public object Object
 		{
 			[Token(Token = "0x600104E")]
-			[Address(RVA = "0x5034C90", Offset = "0x5034C90", VA = "0x5034C90")]
+			[Address(RVA = "0x3D1A7B0", Offset = "0x3D1A7B0", VA = "0x3D1A7B0")]
 			get
 			{
 				return null;
@@ -51,19 +58,19 @@ internal static class ParameterizedStrings
 		}
 
 		[Token(Token = "0x6001049")]
-		[Address(RVA = "0x5035510", Offset = "0x5035510", VA = "0x5035510")]
+		[Address(RVA = "0x3D1B030", Offset = "0x3D1B030", VA = "0x3D1B030")]
 		public FormatParam(int value)
 		{
 		}
 
 		[Token(Token = "0x600104A")]
-		[Address(RVA = "0x5035530", Offset = "0x5035530", VA = "0x5035530")]
+		[Address(RVA = "0x3D1B050", Offset = "0x3D1B050", VA = "0x3D1B050")]
 		private FormatParam(int intValue, string stringValue)
 		{
 		}
 
 		[Token(Token = "0x600104B")]
-		[Address(RVA = "0x5031210", Offset = "0x5031210", VA = "0x5031210")]
+		[Address(RVA = "0x3D16D30", Offset = "0x3D16D30", VA = "0x3D16D30")]
 		public static implicit operator FormatParam(int value)
 		{
 			return default(FormatParam);
@@ -82,26 +89,26 @@ internal static class ParameterizedStrings
 		private int _count;
 
 		[Token(Token = "0x600104F")]
-		[Address(RVA = "0x50341E0", Offset = "0x50341E0", VA = "0x50341E0")]
+		[Address(RVA = "0x3D19D00", Offset = "0x3D19D00", VA = "0x3D19D00")]
 		public LowLevelStack()
 		{
 		}
 
 		[Token(Token = "0x6001050")]
-		[Address(RVA = "0x5034BD0", Offset = "0x5034BD0", VA = "0x5034BD0")]
+		[Address(RVA = "0x3D1A6F0", Offset = "0x3D1A6F0", VA = "0x3D1A6F0")]
 		public FormatParam Pop()
 		{
 			return default(FormatParam);
 		}
 
 		[Token(Token = "0x6001051")]
-		[Address(RVA = "0x50350D0", Offset = "0x50350D0", VA = "0x50350D0")]
+		[Address(RVA = "0x3D1ABF0", Offset = "0x3D1ABF0", VA = "0x3D1ABF0")]
 		public void Push(FormatParam item)
 		{
 		}
 
 		[Token(Token = "0x6001052")]
-		[Address(RVA = "0x5034230", Offset = "0x5034230", VA = "0x5034230")]
+		[Address(RVA = "0x3D19D50", Offset = "0x3D19D50", VA = "0x3D19D50")]
 		public void Clear()
 		{
 		}
@@ -112,35 +119,35 @@ internal static class ParameterizedStrings
 	private static LowLevelStack _cachedStack;
 
 	[Token(Token = "0x6001040")]
-	[Address(RVA = "0x5031240", Offset = "0x5031240", VA = "0x5031240")]
+	[Address(RVA = "0x3D16D60", Offset = "0x3D16D60", VA = "0x3D16D60")]
 	public static string Evaluate(string format, params FormatParam[] args)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001041")]
-	[Address(RVA = "0x5034250", Offset = "0x5034250", VA = "0x5034250")]
+	[Address(RVA = "0x3D19D70", Offset = "0x3D19D70", VA = "0x3D19D70")]
 	private static string EvaluateInternal(string format, ref int pos, FormatParam[] args, LowLevelStack stack, ref FormatParam[] dynamicVars, ref FormatParam[] staticVars)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001042")]
-	[Address(RVA = "0x50352B0", Offset = "0x50352B0", VA = "0x50352B0")]
+	[Address(RVA = "0x3D1ADD0", Offset = "0x3D1ADD0", VA = "0x3D1ADD0")]
 	private static bool AsBool(int i)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001043")]
-	[Address(RVA = "0x50352A0", Offset = "0x50352A0", VA = "0x50352A0")]
+	[Address(RVA = "0x3D1ADC0", Offset = "0x3D1ADC0", VA = "0x3D1ADC0")]
 	private static int AsInt(bool b)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001044")]
-	[Address(RVA = "0x50352C0", Offset = "0x50352C0", VA = "0x50352C0")]
+	[Address(RVA = "0x3D1ADE0", Offset = "0x3D1ADE0", VA = "0x3D1ADE0")]
 	private static string StringFromAsciiBytes(byte[] buffer, int offset, int length)
 	{
 		return null;
@@ -148,23 +155,23 @@ internal static class ParameterizedStrings
 
 	[PreserveSig]
 	[Token(Token = "0x6001045")]
-	[Address(RVA = "0x5035390", Offset = "0x5035390", VA = "0x5035390")]
+	[Address(RVA = "0x3D1AEB0", Offset = "0x3D1AEB0", VA = "0x3D1AEB0")]
 	private unsafe static extern int snprintf(byte* str, IntPtr size, string format, string arg1);
 
 	[PreserveSig]
 	[Token(Token = "0x6001046")]
-	[Address(RVA = "0x5035460", Offset = "0x5035460", VA = "0x5035460")]
+	[Address(RVA = "0x3D1AF80", Offset = "0x3D1AF80", VA = "0x3D1AF80")]
 	private unsafe static extern int snprintf(byte* str, IntPtr size, string format, int arg1);
 
 	[Token(Token = "0x6001047")]
-	[Address(RVA = "0x5034CC0", Offset = "0x5034CC0", VA = "0x5034CC0")]
+	[Address(RVA = "0x3D1A7E0", Offset = "0x3D1A7E0", VA = "0x3D1A7E0")]
 	private static string FormatPrintF(string format, object arg)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001048")]
-	[Address(RVA = "0x50351A0", Offset = "0x50351A0", VA = "0x50351A0")]
+	[Address(RVA = "0x3D1ACC0", Offset = "0x3D1ACC0", VA = "0x3D1ACC0")]
 	private static FormatParam[] GetDynamicOrStaticVariables(char c, ref FormatParam[] dynamicVars, ref FormatParam[] staticVars, out int index)
 	{
 		return null;

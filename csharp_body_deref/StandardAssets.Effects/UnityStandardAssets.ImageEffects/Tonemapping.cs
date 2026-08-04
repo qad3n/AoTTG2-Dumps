@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.Tonemapping
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/Tonemapping.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -100,41 +107,41 @@ public class Tonemapping : PostEffectsBase
 	private RenderTextureFormat rtFormat;
 
 	[Token(Token = "0x60000A8")]
-	[Address(RVA = "0x41638B0", Offset = "0x41638B0", VA = "0x41638B0", Slot = "4")]
+	[Address(RVA = "0x44889B0", Offset = "0x44889B0", VA = "0x44889B0", Slot = "4")]
 	public override bool CheckResources()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000A9")]
-	[Address(RVA = "0x4163A10", Offset = "0x4163A10", VA = "0x4163A10")]
+	[Address(RVA = "0x4488B10", Offset = "0x4488B10", VA = "0x4488B10")]
 	public float UpdateCurve()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60000AA")]
-	[Address(RVA = "0x4163CF0", Offset = "0x4163CF0", VA = "0x4163CF0")]
+	[Address(RVA = "0x4488DF0", Offset = "0x4488DF0", VA = "0x4488DF0")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x60000AB")]
-	[Address(RVA = "0x4163E40", Offset = "0x4163E40", VA = "0x4163E40")]
+	[Address(RVA = "0x4488F40", Offset = "0x4488F40", VA = "0x4488F40")]
 	private bool CreateInternalRenderTexture()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000AC")]
-	[Address(RVA = "0x4163F30", Offset = "0x4163F30", VA = "0x4163F30")]
+	[Address(RVA = "0x4489030", Offset = "0x4489030", VA = "0x4489030")]
 	[ImageEffectTransformsToLDR]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x60000AD")]
-	[Address(RVA = "0x4164840", Offset = "0x4164840", VA = "0x4164840")]
+	[Address(RVA = "0x4489940", Offset = "0x4489940", VA = "0x4489940")]
 	public Tonemapping()
 	{
 	}

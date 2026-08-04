@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.Unity.Speaker
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/Code/Speaker.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -33,7 +40,7 @@ public class Speaker : VoiceComponent
 	public bool IsPlaying
 	{
 		[Token(Token = "0x600007B")]
-		[Address(RVA = "0x3C556A0", Offset = "0x3C556A0", VA = "0x3C556A0")]
+		[Address(RVA = "0x3F47C50", Offset = "0x3F47C50", VA = "0x3F47C50")]
 		get
 		{
 			return default(bool);
@@ -44,7 +51,7 @@ public class Speaker : VoiceComponent
 	public int Lag
 	{
 		[Token(Token = "0x600007C")]
-		[Address(RVA = "0x3C55730", Offset = "0x3C55730", VA = "0x3C55730")]
+		[Address(RVA = "0x3F47CE0", Offset = "0x3F47CE0", VA = "0x3F47CE0")]
 		get
 		{
 			return default(int);
@@ -55,14 +62,14 @@ public class Speaker : VoiceComponent
 	public Action<Speaker> OnRemoteVoiceRemoveAction
 	{
 		[Token(Token = "0x600007D")]
-		[Address(RVA = "0x3C557D0", Offset = "0x3C557D0", VA = "0x3C557D0")]
+		[Address(RVA = "0x3F47D80", Offset = "0x3F47D80", VA = "0x3F47D80")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600007E")]
-		[Address(RVA = "0x3C557E0", Offset = "0x3C557E0", VA = "0x3C557E0")]
+		[Address(RVA = "0x3F47D90", Offset = "0x3F47D90", VA = "0x3F47D90")]
 		[CompilerGenerated]
 		set
 		{
@@ -73,14 +80,14 @@ public class Speaker : VoiceComponent
 	public RemoteVoiceLink RemoteVoice
 	{
 		[Token(Token = "0x600007F")]
-		[Address(RVA = "0x3C557F0", Offset = "0x3C557F0", VA = "0x3C557F0")]
+		[Address(RVA = "0x3F47DA0", Offset = "0x3F47DA0", VA = "0x3F47DA0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000080")]
-		[Address(RVA = "0x3C55800", Offset = "0x3C55800", VA = "0x3C55800")]
+		[Address(RVA = "0x3F47DB0", Offset = "0x3F47DB0", VA = "0x3F47DB0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -91,7 +98,7 @@ public class Speaker : VoiceComponent
 	public bool IsLinked
 	{
 		[Token(Token = "0x6000081")]
-		[Address(RVA = "0x3C55810", Offset = "0x3C55810", VA = "0x3C55810")]
+		[Address(RVA = "0x3F47DC0", Offset = "0x3F47DC0", VA = "0x3F47DC0")]
 		get
 		{
 			return default(bool);
@@ -102,13 +109,13 @@ public class Speaker : VoiceComponent
 	public AudioOutDelayControl.PlayDelayConfig PlayDelayConfig
 	{
 		[Token(Token = "0x6000082")]
-		[Address(RVA = "0x3C55820", Offset = "0x3C55820", VA = "0x3C55820")]
+		[Address(RVA = "0x3F47DD0", Offset = "0x3F47DD0", VA = "0x3F47DD0")]
 		get
 		{
 			return default(AudioOutDelayControl.PlayDelayConfig);
 		}
 		[Token(Token = "0x6000083")]
-		[Address(RVA = "0x3C55830", Offset = "0x3C55830", VA = "0x3C55830")]
+		[Address(RVA = "0x3F47DE0", Offset = "0x3F47DE0", VA = "0x3F47DE0")]
 		set
 		{
 		}
@@ -118,13 +125,13 @@ public class Speaker : VoiceComponent
 	public int PlayDelay
 	{
 		[Token(Token = "0x6000084")]
-		[Address(RVA = "0x3C55870", Offset = "0x3C55870", VA = "0x3C55870")]
+		[Address(RVA = "0x3F47E20", Offset = "0x3F47E20", VA = "0x3F47E20")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000085")]
-		[Address(RVA = "0x3C55880", Offset = "0x3C55880", VA = "0x3C55880")]
+		[Address(RVA = "0x3F47E30", Offset = "0x3F47E30", VA = "0x3F47E30")]
 		set
 		{
 		}
@@ -134,101 +141,101 @@ public class Speaker : VoiceComponent
 	public bool RestartOnDeviceChange
 	{
 		[Token(Token = "0x6000093")]
-		[Address(RVA = "0x3C574F0", Offset = "0x3C574F0", VA = "0x3C574F0")]
+		[Address(RVA = "0x3F49AA0", Offset = "0x3F49AA0", VA = "0x3F49AA0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000094")]
-		[Address(RVA = "0x3C558E0", Offset = "0x3C558E0", VA = "0x3C558E0")]
+		[Address(RVA = "0x3F47E90", Offset = "0x3F47E90", VA = "0x3F47E90")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000086")]
-	[Address(RVA = "0x3C558B0", Offset = "0x3C558B0", VA = "0x3C558B0", Slot = "4")]
+	[Address(RVA = "0x3F47E60", Offset = "0x3F47E60", VA = "0x3F47E60", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x3C55990", Offset = "0x3C55990", VA = "0x3C55990")]
+	[Address(RVA = "0x3F47F40", Offset = "0x3F47F40", VA = "0x3F47F40")]
 	private void AudioConfigurationChangeHandler(bool deviceWasChanged)
 	{
 	}
 
 	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x3C55B30", Offset = "0x3C55B30", VA = "0x3C55B30")]
+	[Address(RVA = "0x3F480E0", Offset = "0x3F480E0", VA = "0x3F480E0")]
 	private void Initialize()
 	{
 	}
 
 	[Token(Token = "0x6000089")]
-	[Address(RVA = "0x3C55E30", Offset = "0x3C55E30", VA = "0x3C55E30", Slot = "5")]
+	[Address(RVA = "0x3F483E0", Offset = "0x3F483E0", VA = "0x3F483E0", Slot = "5")]
 	protected virtual IAudioOut<float> CreateAudioOut()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600008A")]
-	[Address(RVA = "0x3C55EF0", Offset = "0x3C55EF0", VA = "0x3C55EF0")]
+	[Address(RVA = "0x3F484A0", Offset = "0x3F484A0", VA = "0x3F484A0")]
 	internal bool Link(RemoteVoiceLink stream)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600008B")]
-	[Address(RVA = "0x3C56980", Offset = "0x3C56980", VA = "0x3C56980")]
+	[Address(RVA = "0x3F48F30", Offset = "0x3F48F30", VA = "0x3F48F30")]
 	private void OnRemoteVoiceRemove()
 	{
 	}
 
 	[Token(Token = "0x600008C")]
-	[Address(RVA = "0x3C56F30", Offset = "0x3C56F30", VA = "0x3C56F30")]
+	[Address(RVA = "0x3F494E0", Offset = "0x3F494E0", VA = "0x3F494E0")]
 	private void OnAudioFrame(FrameOut<float> frame)
 	{
 	}
 
 	[Token(Token = "0x600008D")]
-	[Address(RVA = "0x3C56400", Offset = "0x3C56400", VA = "0x3C56400")]
+	[Address(RVA = "0x3F489B0", Offset = "0x3F489B0", VA = "0x3F489B0")]
 	private bool StartPlayback()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600008E")]
-	[Address(RVA = "0x3C570A0", Offset = "0x3C570A0", VA = "0x3C570A0", Slot = "6")]
+	[Address(RVA = "0x3F49650", Offset = "0x3F49650", VA = "0x3F49650", Slot = "6")]
 	protected virtual void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x600008F")]
-	[Address(RVA = "0x3C56B00", Offset = "0x3C56B00", VA = "0x3C56B00")]
+	[Address(RVA = "0x3F490B0", Offset = "0x3F490B0", VA = "0x3F490B0")]
 	private void StopPlayback()
 	{
 	}
 
 	[Token(Token = "0x6000090")]
-	[Address(RVA = "0x3C56D40", Offset = "0x3C56D40", VA = "0x3C56D40")]
+	[Address(RVA = "0x3F492F0", Offset = "0x3F492F0", VA = "0x3F492F0")]
 	private void Unlink()
 	{
 	}
 
 	[Token(Token = "0x6000091")]
-	[Address(RVA = "0x3C572A0", Offset = "0x3C572A0", VA = "0x3C572A0")]
+	[Address(RVA = "0x3F49850", Offset = "0x3F49850", VA = "0x3F49850")]
 	protected void Update()
 	{
 	}
 
 	[Token(Token = "0x6000092")]
-	[Address(RVA = "0x3C55860", Offset = "0x3C55860", VA = "0x3C55860")]
+	[Address(RVA = "0x3F47E10", Offset = "0x3F47E10", VA = "0x3F47E10")]
 	public void RestartPlayback()
 	{
 	}
 
 	[Token(Token = "0x6000095")]
-	[Address(RVA = "0x3C57500", Offset = "0x3C57500", VA = "0x3C57500")]
+	[Address(RVA = "0x3F49AB0", Offset = "0x3F49AB0", VA = "0x3F49AB0")]
 	public Speaker()
 	{
 	}

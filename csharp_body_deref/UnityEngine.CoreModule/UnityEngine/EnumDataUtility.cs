@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.EnumDataUtility
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Reflection;
@@ -6,10 +13,10 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000162")]
+[Token(Token = "0x2000165")]
 internal static class EnumDataUtility
 {
-	[Token(Token = "0x2000163")]
+	[Token(Token = "0x2000166")]
 	public enum CachedType
 	{
 		[Token(Token = "0x400057D")]
@@ -24,35 +31,35 @@ internal static class EnumDataUtility
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static readonly Dictionary<(CachedType, Type), EnumData> s_EnumData;
 
-	[Token(Token = "0x6000A23")]
-	[Address(RVA = "0x4AD1A40", Offset = "0x4AD1A40", VA = "0x4AD1A40")]
+	[Token(Token = "0x6000A25")]
+	[Address(RVA = "0x4DF9370", Offset = "0x4DF9370", VA = "0x4DF9370")]
 	internal static EnumData GetCachedEnumData(Type enumType, [Optional][DefaultParameterValue(1)] CachedType cachedType, [Optional] Func<string, string> nicifyName)
 	{
 		return default(EnumData);
 	}
 
-	[Token(Token = "0x6000A24")]
-	[Address(RVA = "0x4AD2EC0", Offset = "0x4AD2EC0", VA = "0x4AD2EC0")]
+	[Token(Token = "0x6000A26")]
+	[Address(RVA = "0x4DFA7F0", Offset = "0x4DFA7F0", VA = "0x4DFA7F0")]
 	internal static void HandleInspectorOrderAttribute(Type enumType, ref EnumData enumData)
 	{
 	}
 
-	[Token(Token = "0x6000A25")]
-	[Address(RVA = "0x4AD2DD0", Offset = "0x4AD2DD0", VA = "0x4AD2DD0")]
+	[Token(Token = "0x6000A27")]
+	[Address(RVA = "0x4DFA700", Offset = "0x4DFA700", VA = "0x4DFA700")]
 	private static bool CheckObsoleteAddition(FieldInfo field, CachedType cachedType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A26")]
-	[Address(RVA = "0x4AD3420", Offset = "0x4AD3420", VA = "0x4AD3420")]
+	[Token(Token = "0x6000A28")]
+	[Address(RVA = "0x4DFAD50", Offset = "0x4DFAD50", VA = "0x4DFAD50")]
 	private static string EnumTooltipFromEnumField(FieldInfo field)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A27")]
-	[Address(RVA = "0x4AD3530", Offset = "0x4AD3530", VA = "0x4AD3530")]
+	[Token(Token = "0x6000A29")]
+	[Address(RVA = "0x4DFAE60", Offset = "0x4DFAE60", VA = "0x4DFAE60")]
 	private static string EnumNameFromEnumField(FieldInfo field, Func<string, string> nicifyName)
 	{
 		return null;

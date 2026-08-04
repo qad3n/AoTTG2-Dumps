@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.XR.Eyes
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -26,7 +33,7 @@ public struct Eyes : IEquatable<Eyes>
 	internal ulong deviceId
 	{
 		[Token(Token = "0x6000014")]
-		[Address(RVA = "0x4DE4590", Offset = "0x4DE4590", VA = "0x4DE4590")]
+		[Address(RVA = "0x510C620", Offset = "0x510C620", VA = "0x510C620")]
 		get
 		{
 			return default(ulong);
@@ -37,7 +44,7 @@ public struct Eyes : IEquatable<Eyes>
 	internal uint featureIndex
 	{
 		[Token(Token = "0x6000015")]
-		[Address(RVA = "0x4DE45A0", Offset = "0x4DE45A0", VA = "0x4DE45A0")]
+		[Address(RVA = "0x510C630", Offset = "0x510C630", VA = "0x510C630")]
 		get
 		{
 			return default(uint);
@@ -45,21 +52,21 @@ public struct Eyes : IEquatable<Eyes>
 	}
 
 	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x4DE45B0", Offset = "0x4DE45B0", VA = "0x4DE45B0", Slot = "0")]
+	[Address(RVA = "0x510C640", Offset = "0x510C640", VA = "0x510C640", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x4DE4620", Offset = "0x4DE4620", VA = "0x4DE4620", Slot = "4")]
+	[Address(RVA = "0x510C6B0", Offset = "0x510C6B0", VA = "0x510C6B0", Slot = "4")]
 	public bool Equals(Eyes other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x4DE4630", Offset = "0x4DE4630", VA = "0x4DE4630", Slot = "2")]
+	[Address(RVA = "0x510C6C0", Offset = "0x510C6C0", VA = "0x510C6C0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

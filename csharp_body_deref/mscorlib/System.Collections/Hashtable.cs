@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Collections.Hashtable
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Runtime.ConstrainedExecution;
@@ -40,7 +47,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		public virtual bool IsSynchronized
 		{
 			[Token(Token = "0x6003053")]
-			[Address(RVA = "0x4FA7BD0", Offset = "0x4FA7BD0", VA = "0x4FA7BD0", Slot = "11")]
+			[Address(RVA = "0x3C8D6F0", Offset = "0x3C8D6F0", VA = "0x3C8D6F0", Slot = "11")]
 			get
 			{
 				return default(bool);
@@ -51,7 +58,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		public virtual object SyncRoot
 		{
 			[Token(Token = "0x6003054")]
-			[Address(RVA = "0x4FA7C00", Offset = "0x4FA7C00", VA = "0x4FA7C00", Slot = "12")]
+			[Address(RVA = "0x3C8D720", Offset = "0x3C8D720", VA = "0x3C8D720", Slot = "12")]
 			get
 			{
 				return null;
@@ -62,7 +69,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		public virtual int Count
 		{
 			[Token(Token = "0x6003055")]
-			[Address(RVA = "0x4FA7C30", Offset = "0x4FA7C30", VA = "0x4FA7C30", Slot = "13")]
+			[Address(RVA = "0x3C8D750", Offset = "0x3C8D750", VA = "0x3C8D750", Slot = "13")]
 			get
 			{
 				return default(int);
@@ -70,19 +77,19 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		}
 
 		[Token(Token = "0x6003050")]
-		[Address(RVA = "0x4FA65E0", Offset = "0x4FA65E0", VA = "0x4FA65E0")]
+		[Address(RVA = "0x3C8C100", Offset = "0x3C8C100", VA = "0x3C8C100")]
 		internal KeyCollection(Hashtable hashtable)
 		{
 		}
 
 		[Token(Token = "0x6003051")]
-		[Address(RVA = "0x4FA79D0", Offset = "0x4FA79D0", VA = "0x4FA79D0", Slot = "9")]
+		[Address(RVA = "0x3C8D4F0", Offset = "0x3C8D4F0", VA = "0x3C8D4F0", Slot = "9")]
 		public virtual void CopyTo(Array array, int arrayIndex)
 		{
 		}
 
 		[Token(Token = "0x6003052")]
-		[Address(RVA = "0x4FA7B40", Offset = "0x4FA7B40", VA = "0x4FA7B40", Slot = "10")]
+		[Address(RVA = "0x3C8D660", Offset = "0x3C8D660", VA = "0x3C8D660", Slot = "10")]
 		public virtual IEnumerator GetEnumerator()
 		{
 			return null;
@@ -101,7 +108,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		public virtual bool IsSynchronized
 		{
 			[Token(Token = "0x6003059")]
-			[Address(RVA = "0x4FA7E50", Offset = "0x4FA7E50", VA = "0x4FA7E50", Slot = "11")]
+			[Address(RVA = "0x3C8D970", Offset = "0x3C8D970", VA = "0x3C8D970", Slot = "11")]
 			get
 			{
 				return default(bool);
@@ -112,7 +119,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		public virtual object SyncRoot
 		{
 			[Token(Token = "0x600305A")]
-			[Address(RVA = "0x4FA7E80", Offset = "0x4FA7E80", VA = "0x4FA7E80", Slot = "12")]
+			[Address(RVA = "0x3C8D9A0", Offset = "0x3C8D9A0", VA = "0x3C8D9A0", Slot = "12")]
 			get
 			{
 				return null;
@@ -123,7 +130,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		public virtual int Count
 		{
 			[Token(Token = "0x600305B")]
-			[Address(RVA = "0x4FA7EB0", Offset = "0x4FA7EB0", VA = "0x4FA7EB0", Slot = "13")]
+			[Address(RVA = "0x3C8D9D0", Offset = "0x3C8D9D0", VA = "0x3C8D9D0", Slot = "13")]
 			get
 			{
 				return default(int);
@@ -131,19 +138,19 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		}
 
 		[Token(Token = "0x6003056")]
-		[Address(RVA = "0x4FA66A0", Offset = "0x4FA66A0", VA = "0x4FA66A0")]
+		[Address(RVA = "0x3C8C1C0", Offset = "0x3C8C1C0", VA = "0x3C8C1C0")]
 		internal ValueCollection(Hashtable hashtable)
 		{
 		}
 
 		[Token(Token = "0x6003057")]
-		[Address(RVA = "0x4FA7C50", Offset = "0x4FA7C50", VA = "0x4FA7C50", Slot = "9")]
+		[Address(RVA = "0x3C8D770", Offset = "0x3C8D770", VA = "0x3C8D770", Slot = "9")]
 		public virtual void CopyTo(Array array, int arrayIndex)
 		{
 		}
 
 		[Token(Token = "0x6003058")]
-		[Address(RVA = "0x4FA7DC0", Offset = "0x4FA7DC0", VA = "0x4FA7DC0", Slot = "10")]
+		[Address(RVA = "0x3C8D8E0", Offset = "0x3C8D8E0", VA = "0x3C8D8E0", Slot = "10")]
 		public virtual IEnumerator GetEnumerator()
 		{
 			return null;
@@ -162,7 +169,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		public override int Count
 		{
 			[Token(Token = "0x600305F")]
-			[Address(RVA = "0x4FA7F50", Offset = "0x4FA7F50", VA = "0x4FA7F50", Slot = "41")]
+			[Address(RVA = "0x3C8DA70", Offset = "0x3C8DA70", VA = "0x3C8DA70", Slot = "41")]
 			get
 			{
 				return default(int);
@@ -173,7 +180,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6003060")]
-			[Address(RVA = "0x4FA7F80", Offset = "0x4FA7F80", VA = "0x4FA7F80", Slot = "33")]
+			[Address(RVA = "0x3C8DAA0", Offset = "0x3C8DAA0", VA = "0x3C8DAA0", Slot = "33")]
 			get
 			{
 				return default(bool);
@@ -184,7 +191,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		public override bool IsFixedSize
 		{
 			[Token(Token = "0x6003061")]
-			[Address(RVA = "0x4FA7FB0", Offset = "0x4FA7FB0", VA = "0x4FA7FB0", Slot = "34")]
+			[Address(RVA = "0x3C8DAD0", Offset = "0x3C8DAD0", VA = "0x3C8DAD0", Slot = "34")]
 			get
 			{
 				return default(bool);
@@ -195,7 +202,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		public override bool IsSynchronized
 		{
 			[Token(Token = "0x6003062")]
-			[Address(RVA = "0x4FA7FE0", Offset = "0x4FA7FE0", VA = "0x4FA7FE0", Slot = "35")]
+			[Address(RVA = "0x3C8DB00", Offset = "0x3C8DB00", VA = "0x3C8DB00", Slot = "35")]
 			get
 			{
 				return default(bool);
@@ -206,13 +213,13 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		public override object this[object key]
 		{
 			[Token(Token = "0x6003063")]
-			[Address(RVA = "0x4FA7FF0", Offset = "0x4FA7FF0", VA = "0x4FA7FF0", Slot = "29")]
+			[Address(RVA = "0x3C8DB10", Offset = "0x3C8DB10", VA = "0x3C8DB10", Slot = "29")]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x6003064")]
-			[Address(RVA = "0x4FA8020", Offset = "0x4FA8020", VA = "0x4FA8020", Slot = "30")]
+			[Address(RVA = "0x3C8DB40", Offset = "0x3C8DB40", VA = "0x3C8DB40", Slot = "30")]
 			set
 			{
 			}
@@ -222,7 +229,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		public override object SyncRoot
 		{
 			[Token(Token = "0x6003065")]
-			[Address(RVA = "0x4FA8120", Offset = "0x4FA8120", VA = "0x4FA8120", Slot = "40")]
+			[Address(RVA = "0x3C8DC40", Offset = "0x3C8DC40", VA = "0x3C8DC40", Slot = "40")]
 			get
 			{
 				return null;
@@ -233,7 +240,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		public override ICollection Keys
 		{
 			[Token(Token = "0x600306E")]
-			[Address(RVA = "0x4FA86E0", Offset = "0x4FA86E0", VA = "0x4FA86E0", Slot = "37")]
+			[Address(RVA = "0x3C8E200", Offset = "0x3C8E200", VA = "0x3C8E200", Slot = "37")]
 			get
 			{
 				return null;
@@ -244,7 +251,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		public override ICollection Values
 		{
 			[Token(Token = "0x600306F")]
-			[Address(RVA = "0x4FA87F0", Offset = "0x4FA87F0", VA = "0x4FA87F0", Slot = "38")]
+			[Address(RVA = "0x3C8E310", Offset = "0x3C8E310", VA = "0x3C8E310", Slot = "38")]
 			get
 			{
 				return null;
@@ -252,84 +259,84 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		}
 
 		[Token(Token = "0x600305C")]
-		[Address(RVA = "0x4FA6A40", Offset = "0x4FA6A40", VA = "0x4FA6A40")]
+		[Address(RVA = "0x3C8C560", Offset = "0x3C8C560", VA = "0x3C8C560")]
 		internal SyncHashtable(Hashtable table)
 		{
 		}
 
 		[Token(Token = "0x600305D")]
-		[Address(RVA = "0x4FA7ED0", Offset = "0x4FA7ED0", VA = "0x4FA7ED0")]
+		[Address(RVA = "0x3C8D9F0", Offset = "0x3C8D9F0", VA = "0x3C8D9F0")]
 		internal SyncHashtable(SerializationInfo info, StreamingContext context)
 		{
 		}
 
 		[Token(Token = "0x600305E")]
-		[Address(RVA = "0x4FA7F10", Offset = "0x4FA7F10", VA = "0x4FA7F10", Slot = "42")]
+		[Address(RVA = "0x3C8DA30", Offset = "0x3C8DA30", VA = "0x3C8DA30", Slot = "42")]
 		public override void GetObjectData(SerializationInfo info, StreamingContext context)
 		{
 		}
 
 		[Token(Token = "0x6003066")]
-		[Address(RVA = "0x4FA8150", Offset = "0x4FA8150", VA = "0x4FA8150", Slot = "23")]
+		[Address(RVA = "0x3C8DC70", Offset = "0x3C8DC70", VA = "0x3C8DC70", Slot = "23")]
 		public override void Add(object key, object value)
 		{
 		}
 
 		[Token(Token = "0x6003067")]
-		[Address(RVA = "0x4FA8250", Offset = "0x4FA8250", VA = "0x4FA8250", Slot = "24")]
+		[Address(RVA = "0x3C8DD70", Offset = "0x3C8DD70", VA = "0x3C8DD70", Slot = "24")]
 		public override void Clear()
 		{
 		}
 
 		[Token(Token = "0x6003068")]
-		[Address(RVA = "0x4FA8340", Offset = "0x4FA8340", VA = "0x4FA8340", Slot = "26")]
+		[Address(RVA = "0x3C8DE60", Offset = "0x3C8DE60", VA = "0x3C8DE60", Slot = "26")]
 		public override bool Contains(object key)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6003069")]
-		[Address(RVA = "0x4FA8370", Offset = "0x4FA8370", VA = "0x4FA8370", Slot = "27")]
+		[Address(RVA = "0x3C8DE90", Offset = "0x3C8DE90", VA = "0x3C8DE90", Slot = "27")]
 		public override bool ContainsKey(object key)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600306A")]
-		[Address(RVA = "0x4FA8400", Offset = "0x4FA8400", VA = "0x4FA8400", Slot = "28")]
+		[Address(RVA = "0x3C8DF20", Offset = "0x3C8DF20", VA = "0x3C8DF20", Slot = "28")]
 		public override void CopyTo(Array array, int arrayIndex)
 		{
 		}
 
 		[Token(Token = "0x600306B")]
-		[Address(RVA = "0x4FA8500", Offset = "0x4FA8500", VA = "0x4FA8500", Slot = "25")]
+		[Address(RVA = "0x3C8E020", Offset = "0x3C8E020", VA = "0x3C8E020", Slot = "25")]
 		public override object Clone()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600306C")]
-		[Address(RVA = "0x4FA8680", Offset = "0x4FA8680", VA = "0x4FA8680", Slot = "19")]
+		[Address(RVA = "0x3C8E1A0", Offset = "0x3C8E1A0", VA = "0x3C8E1A0", Slot = "19")]
 		private new IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600306D")]
-		[Address(RVA = "0x4FA86B0", Offset = "0x4FA86B0", VA = "0x4FA86B0", Slot = "31")]
+		[Address(RVA = "0x3C8E1D0", Offset = "0x3C8E1D0", VA = "0x3C8E1D0", Slot = "31")]
 		public override IDictionaryEnumerator GetEnumerator()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6003070")]
-		[Address(RVA = "0x4FA8900", Offset = "0x4FA8900", VA = "0x4FA8900", Slot = "39")]
+		[Address(RVA = "0x3C8E420", Offset = "0x3C8E420", VA = "0x3C8E420", Slot = "39")]
 		public override void Remove(object key)
 		{
 		}
 
 		[Token(Token = "0x6003071")]
-		[Address(RVA = "0x4FA8A00", Offset = "0x4FA8A00", VA = "0x4FA8A00", Slot = "43")]
+		[Address(RVA = "0x3C8E520", Offset = "0x3C8E520", VA = "0x3C8E520", Slot = "43")]
 		public override void OnDeserialization(object sender)
 		{
 		}
@@ -371,7 +378,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		public virtual object Key
 		{
 			[Token(Token = "0x6003074")]
-			[Address(RVA = "0x4FA8A20", Offset = "0x4FA8A20", VA = "0x4FA8A20", Slot = "11")]
+			[Address(RVA = "0x3C8E540", Offset = "0x3C8E540", VA = "0x3C8E540", Slot = "11")]
 			get
 			{
 				return null;
@@ -382,7 +389,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		public virtual DictionaryEntry Entry
 		{
 			[Token(Token = "0x6003076")]
-			[Address(RVA = "0x4FA8BE0", Offset = "0x4FA8BE0", VA = "0x4FA8BE0", Slot = "13")]
+			[Address(RVA = "0x3C8E700", Offset = "0x3C8E700", VA = "0x3C8E700", Slot = "13")]
 			get
 			{
 				return default(DictionaryEntry);
@@ -393,7 +400,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		public virtual object Current
 		{
 			[Token(Token = "0x6003077")]
-			[Address(RVA = "0x4FA8C80", Offset = "0x4FA8C80", VA = "0x4FA8C80", Slot = "14")]
+			[Address(RVA = "0x3C8E7A0", Offset = "0x3C8E7A0", VA = "0x3C8E7A0", Slot = "14")]
 			get
 			{
 				return null;
@@ -404,7 +411,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		public virtual object Value
 		{
 			[Token(Token = "0x6003078")]
-			[Address(RVA = "0x4FA8D70", Offset = "0x4FA8D70", VA = "0x4FA8D70", Slot = "15")]
+			[Address(RVA = "0x3C8E890", Offset = "0x3C8E890", VA = "0x3C8E890", Slot = "15")]
 			get
 			{
 				return null;
@@ -412,27 +419,27 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 		}
 
 		[Token(Token = "0x6003072")]
-		[Address(RVA = "0x4FA6250", Offset = "0x4FA6250", VA = "0x4FA6250")]
+		[Address(RVA = "0x3C8BD70", Offset = "0x3C8BD70", VA = "0x3C8BD70")]
 		internal HashtableEnumerator(Hashtable hashtable, int getObjRetType)
 		{
 		}
 
 		[Token(Token = "0x6003073")]
-		[Address(RVA = "0x4FA8A10", Offset = "0x4FA8A10", VA = "0x4FA8A10", Slot = "10")]
+		[Address(RVA = "0x3C8E530", Offset = "0x3C8E530", VA = "0x3C8E530", Slot = "10")]
 		public object Clone()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6003075")]
-		[Address(RVA = "0x4FA8A80", Offset = "0x4FA8A80", VA = "0x4FA8A80", Slot = "12")]
+		[Address(RVA = "0x3C8E5A0", Offset = "0x3C8E5A0", VA = "0x3C8E5A0", Slot = "12")]
 		public virtual bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6003079")]
-		[Address(RVA = "0x4FA8DD0", Offset = "0x4FA8DD0", VA = "0x4FA8DD0", Slot = "16")]
+		[Address(RVA = "0x3C8E8F0", Offset = "0x3C8E8F0", VA = "0x3C8E8F0", Slot = "16")]
 		public virtual void Reset()
 		{
 		}
@@ -525,7 +532,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 	private static ConditionalWeakTable<object, SerializationInfo> SerializationInfoTable
 	{
 		[Token(Token = "0x6003026")]
-		[Address(RVA = "0x4FA4960", Offset = "0x4FA4960", VA = "0x4FA4960")]
+		[Address(RVA = "0x3C8A480", Offset = "0x3C8A480", VA = "0x3C8A480")]
 		get
 		{
 			return null;
@@ -536,13 +543,13 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 	public virtual object this[object key]
 	{
 		[Token(Token = "0x6003039")]
-		[Address(RVA = "0x4FA5C40", Offset = "0x4FA5C40", VA = "0x4FA5C40", Slot = "29")]
+		[Address(RVA = "0x3C8B760", Offset = "0x3C8B760", VA = "0x3C8B760", Slot = "29")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600303A")]
-		[Address(RVA = "0x4FA5EA0", Offset = "0x4FA5EA0", VA = "0x4FA5EA0", Slot = "30")]
+		[Address(RVA = "0x3C8B9C0", Offset = "0x3C8B9C0", VA = "0x3C8B9C0", Slot = "30")]
 		set
 		{
 		}
@@ -552,7 +559,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 	public virtual bool IsReadOnly
 	{
 		[Token(Token = "0x6003042")]
-		[Address(RVA = "0x4FA6420", Offset = "0x4FA6420", VA = "0x4FA6420", Slot = "33")]
+		[Address(RVA = "0x3C8BF40", Offset = "0x3C8BF40", VA = "0x3C8BF40", Slot = "33")]
 		get
 		{
 			return default(bool);
@@ -563,7 +570,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 	public virtual bool IsFixedSize
 	{
 		[Token(Token = "0x6003043")]
-		[Address(RVA = "0x4FA6430", Offset = "0x4FA6430", VA = "0x4FA6430", Slot = "34")]
+		[Address(RVA = "0x3C8BF50", Offset = "0x3C8BF50", VA = "0x3C8BF50", Slot = "34")]
 		get
 		{
 			return default(bool);
@@ -574,7 +581,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 	public virtual bool IsSynchronized
 	{
 		[Token(Token = "0x6003044")]
-		[Address(RVA = "0x4FA6440", Offset = "0x4FA6440", VA = "0x4FA6440", Slot = "35")]
+		[Address(RVA = "0x3C8BF60", Offset = "0x3C8BF60", VA = "0x3C8BF60", Slot = "35")]
 		get
 		{
 			return default(bool);
@@ -585,7 +592,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 	public virtual ICollection Keys
 	{
 		[Token(Token = "0x6003046")]
-		[Address(RVA = "0x4FA6550", Offset = "0x4FA6550", VA = "0x4FA6550", Slot = "37")]
+		[Address(RVA = "0x3C8C070", Offset = "0x3C8C070", VA = "0x3C8C070", Slot = "37")]
 		get
 		{
 			return null;
@@ -596,7 +603,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 	public virtual ICollection Values
 	{
 		[Token(Token = "0x6003047")]
-		[Address(RVA = "0x4FA6610", Offset = "0x4FA6610", VA = "0x4FA6610", Slot = "38")]
+		[Address(RVA = "0x3C8C130", Offset = "0x3C8C130", VA = "0x3C8C130", Slot = "38")]
 		get
 		{
 			return null;
@@ -607,7 +614,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 	public virtual object SyncRoot
 	{
 		[Token(Token = "0x600304B")]
-		[Address(RVA = "0x4FA6900", Offset = "0x4FA6900", VA = "0x4FA6900", Slot = "40")]
+		[Address(RVA = "0x3C8C420", Offset = "0x3C8C420", VA = "0x3C8C420", Slot = "40")]
 		get
 		{
 			return null;
@@ -618,7 +625,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 	public virtual int Count
 	{
 		[Token(Token = "0x600304C")]
-		[Address(RVA = "0x4FA6980", Offset = "0x4FA6980", VA = "0x4FA6980", Slot = "41")]
+		[Address(RVA = "0x3C8C4A0", Offset = "0x3C8C4A0", VA = "0x3C8C4A0", Slot = "41")]
 		get
 		{
 			return default(int);
@@ -626,204 +633,204 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 	}
 
 	[Token(Token = "0x6003027")]
-	[Address(RVA = "0x4FA49B0", Offset = "0x4FA49B0", VA = "0x4FA49B0")]
+	[Address(RVA = "0x3C8A4D0", Offset = "0x3C8A4D0", VA = "0x3C8A4D0")]
 	internal Hashtable(bool trash)
 	{
 	}
 
 	[Token(Token = "0x6003028")]
-	[Address(RVA = "0x4FA49C0", Offset = "0x4FA49C0", VA = "0x4FA49C0")]
+	[Address(RVA = "0x3C8A4E0", Offset = "0x3C8A4E0", VA = "0x3C8A4E0")]
 	public Hashtable()
 	{
 	}
 
 	[Token(Token = "0x6003029")]
-	[Address(RVA = "0x4FA4CB0", Offset = "0x4FA4CB0", VA = "0x4FA4CB0")]
+	[Address(RVA = "0x3C8A7D0", Offset = "0x3C8A7D0", VA = "0x3C8A7D0")]
 	public Hashtable(int capacity)
 	{
 	}
 
 	[Token(Token = "0x600302A")]
-	[Address(RVA = "0x4FA4A40", Offset = "0x4FA4A40", VA = "0x4FA4A40")]
+	[Address(RVA = "0x3C8A560", Offset = "0x3C8A560", VA = "0x3C8A560")]
 	public Hashtable(int capacity, float loadFactor)
 	{
 	}
 
 	[Token(Token = "0x600302B")]
-	[Address(RVA = "0x4FA4CC0", Offset = "0x4FA4CC0", VA = "0x4FA4CC0")]
+	[Address(RVA = "0x3C8A7E0", Offset = "0x3C8A7E0", VA = "0x3C8A7E0")]
 	public Hashtable(int capacity, float loadFactor, IEqualityComparer equalityComparer)
 	{
 	}
 
 	[Token(Token = "0x600302C")]
-	[Address(RVA = "0x4FA4CF0", Offset = "0x4FA4CF0", VA = "0x4FA4CF0")]
+	[Address(RVA = "0x3C8A810", Offset = "0x3C8A810", VA = "0x3C8A810")]
 	public Hashtable(IEqualityComparer equalityComparer)
 	{
 	}
 
 	[Token(Token = "0x600302D")]
-	[Address(RVA = "0x4FA4D90", Offset = "0x4FA4D90", VA = "0x4FA4D90")]
+	[Address(RVA = "0x3C8A8B0", Offset = "0x3C8A8B0", VA = "0x3C8A8B0")]
 	public Hashtable(int capacity, IEqualityComparer equalityComparer)
 	{
 	}
 
 	[Token(Token = "0x600302E")]
-	[Address(RVA = "0x4FA4DD0", Offset = "0x4FA4DD0", VA = "0x4FA4DD0")]
+	[Address(RVA = "0x3C8A8F0", Offset = "0x3C8A8F0", VA = "0x3C8A8F0")]
 	protected Hashtable(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x600302F")]
-	[Address(RVA = "0x4FA4E80", Offset = "0x4FA4E80", VA = "0x4FA4E80")]
+	[Address(RVA = "0x3C8A9A0", Offset = "0x3C8A9A0", VA = "0x3C8A9A0")]
 	private uint InitHash(object key, int hashsize, out uint seed, out uint incr)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6003030")]
-	[Address(RVA = "0x4FA4EC0", Offset = "0x4FA4EC0", VA = "0x4FA4EC0", Slot = "23")]
+	[Address(RVA = "0x3C8A9E0", Offset = "0x3C8A9E0", VA = "0x3C8A9E0", Slot = "23")]
 	public virtual void Add(object key, object value)
 	{
 	}
 
 	[Token(Token = "0x6003031")]
-	[Address(RVA = "0x4FA5390", Offset = "0x4FA5390", VA = "0x4FA5390", Slot = "24")]
+	[Address(RVA = "0x3C8AEB0", Offset = "0x3C8AEB0", VA = "0x3C8AEB0", Slot = "24")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	public virtual void Clear()
 	{
 	}
 
 	[Token(Token = "0x6003032")]
-	[Address(RVA = "0x4FA5490", Offset = "0x4FA5490", VA = "0x4FA5490", Slot = "25")]
+	[Address(RVA = "0x3C8AFB0", Offset = "0x3C8AFB0", VA = "0x3C8AFB0", Slot = "25")]
 	public virtual object Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6003033")]
-	[Address(RVA = "0x4FA55C0", Offset = "0x4FA55C0", VA = "0x4FA55C0", Slot = "26")]
+	[Address(RVA = "0x3C8B0E0", Offset = "0x3C8B0E0", VA = "0x3C8B0E0", Slot = "26")]
 	public virtual bool Contains(object key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6003034")]
-	[Address(RVA = "0x4FA55E0", Offset = "0x4FA55E0", VA = "0x4FA55E0", Slot = "27")]
+	[Address(RVA = "0x3C8B100", Offset = "0x3C8B100", VA = "0x3C8B100", Slot = "27")]
 	public virtual bool ContainsKey(object key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6003035")]
-	[Address(RVA = "0x4FA5740", Offset = "0x4FA5740", VA = "0x4FA5740")]
+	[Address(RVA = "0x3C8B260", Offset = "0x3C8B260", VA = "0x3C8B260")]
 	private void CopyKeys(Array array, int arrayIndex)
 	{
 	}
 
 	[Token(Token = "0x6003036")]
-	[Address(RVA = "0x4FA5820", Offset = "0x4FA5820", VA = "0x4FA5820")]
+	[Address(RVA = "0x3C8B340", Offset = "0x3C8B340", VA = "0x3C8B340")]
 	private void CopyEntries(Array array, int arrayIndex)
 	{
 	}
 
 	[Token(Token = "0x6003037")]
-	[Address(RVA = "0x4FA59D0", Offset = "0x4FA59D0", VA = "0x4FA59D0", Slot = "28")]
+	[Address(RVA = "0x3C8B4F0", Offset = "0x3C8B4F0", VA = "0x3C8B4F0", Slot = "28")]
 	public virtual void CopyTo(Array array, int arrayIndex)
 	{
 	}
 
 	[Token(Token = "0x6003038")]
-	[Address(RVA = "0x4FA5B60", Offset = "0x4FA5B60", VA = "0x4FA5B60")]
+	[Address(RVA = "0x3C8B680", Offset = "0x3C8B680", VA = "0x3C8B680")]
 	private void CopyValues(Array array, int arrayIndex)
 	{
 	}
 
 	[Token(Token = "0x600303B")]
-	[Address(RVA = "0x4FA5EB0", Offset = "0x4FA5EB0", VA = "0x4FA5EB0")]
+	[Address(RVA = "0x3C8B9D0", Offset = "0x3C8B9D0", VA = "0x3C8B9D0")]
 	private void expand()
 	{
 	}
 
 	[Token(Token = "0x600303C")]
-	[Address(RVA = "0x4FA60C0", Offset = "0x4FA60C0", VA = "0x4FA60C0")]
+	[Address(RVA = "0x3C8BBE0", Offset = "0x3C8BBE0", VA = "0x3C8BBE0")]
 	private void rehash()
 	{
 	}
 
 	[Token(Token = "0x600303D")]
-	[Address(RVA = "0x4FA5470", Offset = "0x4FA5470", VA = "0x4FA5470")]
+	[Address(RVA = "0x3C8AF90", Offset = "0x3C8AF90", VA = "0x3C8AF90")]
 	private void UpdateVersion()
 	{
 	}
 
 	[Token(Token = "0x600303E")]
-	[Address(RVA = "0x4FA5F80", Offset = "0x4FA5F80", VA = "0x4FA5F80")]
+	[Address(RVA = "0x3C8BAA0", Offset = "0x3C8BAA0", VA = "0x3C8BAA0")]
 	private void rehash(int newsize)
 	{
 	}
 
 	[Token(Token = "0x600303F")]
-	[Address(RVA = "0x4FA61C0", Offset = "0x4FA61C0", VA = "0x4FA61C0", Slot = "19")]
+	[Address(RVA = "0x3C8BCE0", Offset = "0x3C8BCE0", VA = "0x3C8BCE0", Slot = "19")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6003040")]
-	[Address(RVA = "0x4FA62B0", Offset = "0x4FA62B0", VA = "0x4FA62B0", Slot = "31")]
+	[Address(RVA = "0x3C8BDD0", Offset = "0x3C8BDD0", VA = "0x3C8BDD0", Slot = "31")]
 	public virtual IDictionaryEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6003041")]
-	[Address(RVA = "0x4FA6340", Offset = "0x4FA6340", VA = "0x4FA6340", Slot = "32")]
+	[Address(RVA = "0x3C8BE60", Offset = "0x3C8BE60", VA = "0x3C8BE60", Slot = "32")]
 	protected virtual int GetHash(object key)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6003045")]
-	[Address(RVA = "0x4FA6450", Offset = "0x4FA6450", VA = "0x4FA6450", Slot = "36")]
+	[Address(RVA = "0x3C8BF70", Offset = "0x3C8BF70", VA = "0x3C8BF70", Slot = "36")]
 	protected virtual bool KeyEquals(object item, object key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6003048")]
-	[Address(RVA = "0x4FA4ED0", Offset = "0x4FA4ED0", VA = "0x4FA4ED0")]
+	[Address(RVA = "0x3C8A9F0", Offset = "0x3C8A9F0", VA = "0x3C8A9F0")]
 	private void Insert(object key, object nvalue, bool add)
 	{
 	}
 
 	[Token(Token = "0x6003049")]
-	[Address(RVA = "0x4FA60E0", Offset = "0x4FA60E0", VA = "0x4FA60E0")]
+	[Address(RVA = "0x3C8BC00", Offset = "0x3C8BC00", VA = "0x3C8BC00")]
 	private void putEntry(bucket[] newBuckets, object key, object nvalue, int hashcode)
 	{
 	}
 
 	[Token(Token = "0x600304A")]
-	[Address(RVA = "0x4FA66D0", Offset = "0x4FA66D0", VA = "0x4FA66D0", Slot = "39")]
+	[Address(RVA = "0x3C8C1F0", Offset = "0x3C8C1F0", VA = "0x3C8C1F0", Slot = "39")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
 	public virtual void Remove(object key)
 	{
 	}
 
 	[Token(Token = "0x600304D")]
-	[Address(RVA = "0x4FA6990", Offset = "0x4FA6990", VA = "0x4FA6990")]
+	[Address(RVA = "0x3C8C4B0", Offset = "0x3C8C4B0", VA = "0x3C8C4B0")]
 	public static Hashtable Synchronized(Hashtable table)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600304E")]
-	[Address(RVA = "0x4FA6A70", Offset = "0x4FA6A70", VA = "0x4FA6A70", Slot = "42")]
+	[Address(RVA = "0x3C8C590", Offset = "0x3C8C590", VA = "0x3C8C590", Slot = "42")]
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x600304F")]
-	[Address(RVA = "0x4FA7060", Offset = "0x4FA7060", VA = "0x4FA7060", Slot = "43")]
+	[Address(RVA = "0x3C8CB80", Offset = "0x3C8CB80", VA = "0x3C8CB80", Slot = "43")]
 	public virtual void OnDeserialization(object sender)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.DtdValidator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -10,14 +17,14 @@ internal sealed class DtdValidator : BaseValidator
 	private class NamespaceManager : XmlNamespaceManager
 	{
 		[Token(Token = "0x60011F6")]
-		[Address(RVA = "0x452BB30", Offset = "0x452BB30", VA = "0x452BB30", Slot = "16")]
+		[Address(RVA = "0x4869290", Offset = "0x4869290", VA = "0x4869290", Slot = "16")]
 		public override string LookupNamespace(string prefix)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60011F7")]
-		[Address(RVA = "0x452BB20", Offset = "0x452BB20", VA = "0x452BB20")]
+		[Address(RVA = "0x4869280", Offset = "0x4869280", VA = "0x4869280")]
 		public NamespaceManager()
 		{
 		}
@@ -55,7 +62,7 @@ internal sealed class DtdValidator : BaseValidator
 	public override bool PreserveWhitespace
 	{
 		[Token(Token = "0x60011E9")]
-		[Address(RVA = "0x452AD50", Offset = "0x452AD50", VA = "0x452AD50", Slot = "4")]
+		[Address(RVA = "0x48684B0", Offset = "0x48684B0", VA = "0x48684B0", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -63,144 +70,144 @@ internal sealed class DtdValidator : BaseValidator
 	}
 
 	[Token(Token = "0x60011DD")]
-	[Address(RVA = "0x4528E70", Offset = "0x4528E70", VA = "0x4528E70")]
+	[Address(RVA = "0x48665D0", Offset = "0x48665D0", VA = "0x48665D0")]
 	internal DtdValidator(XmlValidatingReaderImpl reader, IValidationEventHandling eventHandling, bool processIdentityConstraints)
 	{
 	}
 
 	[Token(Token = "0x60011DE")]
-	[Address(RVA = "0x4528F10", Offset = "0x4528F10", VA = "0x4528F10")]
+	[Address(RVA = "0x4866670", Offset = "0x4866670", VA = "0x4866670")]
 	private void Init()
 	{
 	}
 
 	[Token(Token = "0x60011DF")]
-	[Address(RVA = "0x45291B0", Offset = "0x45291B0", VA = "0x45291B0", Slot = "5")]
+	[Address(RVA = "0x4866910", Offset = "0x4866910", VA = "0x4866910", Slot = "5")]
 	public override void Validate()
 	{
 	}
 
 	[Token(Token = "0x60011E0")]
-	[Address(RVA = "0x45294E0", Offset = "0x45294E0", VA = "0x45294E0")]
+	[Address(RVA = "0x4866C40", Offset = "0x4866C40", VA = "0x4866C40")]
 	private bool MeetsStandAloneConstraint()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60011E1")]
-	[Address(RVA = "0x4529570", Offset = "0x4529570", VA = "0x4529570")]
+	[Address(RVA = "0x4866CD0", Offset = "0x4866CD0", VA = "0x4866CD0")]
 	private void ValidatePIComment()
 	{
 	}
 
 	[Token(Token = "0x60011E2")]
-	[Address(RVA = "0x45293C0", Offset = "0x45293C0", VA = "0x45293C0")]
+	[Address(RVA = "0x4866B20", Offset = "0x4866B20", VA = "0x4866B20")]
 	private void ValidateElement()
 	{
 	}
 
 	[Token(Token = "0x60011E3")]
-	[Address(RVA = "0x4529980", Offset = "0x4529980", VA = "0x4529980")]
+	[Address(RVA = "0x48670E0", Offset = "0x48670E0", VA = "0x48670E0")]
 	private void ValidateChildElement()
 	{
 	}
 
 	[Token(Token = "0x60011E4")]
-	[Address(RVA = "0x4529C10", Offset = "0x4529C10", VA = "0x4529C10")]
+	[Address(RVA = "0x4867370", Offset = "0x4867370", VA = "0x4867370")]
 	private void ValidateStartElement()
 	{
 	}
 
 	[Token(Token = "0x60011E5")]
-	[Address(RVA = "0x452A920", Offset = "0x452A920", VA = "0x452A920")]
+	[Address(RVA = "0x4868080", Offset = "0x4868080", VA = "0x4868080")]
 	private void ValidateEndStartElement()
 	{
 	}
 
 	[Token(Token = "0x60011E6")]
-	[Address(RVA = "0x4529AE0", Offset = "0x4529AE0", VA = "0x4529AE0")]
+	[Address(RVA = "0x4867240", Offset = "0x4867240", VA = "0x4867240")]
 	private void ProcessElement()
 	{
 	}
 
 	[Token(Token = "0x60011E7")]
-	[Address(RVA = "0x452AB10", Offset = "0x452AB10", VA = "0x452AB10", Slot = "6")]
+	[Address(RVA = "0x4868270", Offset = "0x4868270", VA = "0x4868270", Slot = "6")]
 	public override void CompleteValidation()
 	{
 	}
 
 	[Token(Token = "0x60011E8")]
-	[Address(RVA = "0x45297C0", Offset = "0x45297C0", VA = "0x45297C0")]
+	[Address(RVA = "0x4866F20", Offset = "0x4866F20", VA = "0x4866F20")]
 	private void ValidateEndElement()
 	{
 	}
 
 	[Token(Token = "0x60011EA")]
-	[Address(RVA = "0x452AD80", Offset = "0x452AD80", VA = "0x452AD80")]
+	[Address(RVA = "0x48684E0", Offset = "0x48684E0", VA = "0x48684E0")]
 	private void ProcessTokenizedType(XmlTokenizedType ttype, string name)
 	{
 	}
 
 	[Token(Token = "0x60011EB")]
-	[Address(RVA = "0x452A1F0", Offset = "0x452A1F0", VA = "0x452A1F0")]
+	[Address(RVA = "0x4867950", Offset = "0x4867950", VA = "0x4867950")]
 	private void CheckValue(string value, SchemaAttDef attdef)
 	{
 	}
 
 	[Token(Token = "0x60011EC")]
-	[Address(RVA = "0x452B020", Offset = "0x452B020", VA = "0x452B020")]
+	[Address(RVA = "0x4868780", Offset = "0x4868780", VA = "0x4868780")]
 	internal void AddID(string name, object node)
 	{
 	}
 
 	[Token(Token = "0x60011ED")]
-	[Address(RVA = "0x452B0C0", Offset = "0x452B0C0", VA = "0x452B0C0", Slot = "7")]
+	[Address(RVA = "0x4868820", Offset = "0x4868820", VA = "0x4868820", Slot = "7")]
 	public override object FindId(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011EE")]
-	[Address(RVA = "0x4529620", Offset = "0x4529620", VA = "0x4529620")]
+	[Address(RVA = "0x4866D80", Offset = "0x4866D80", VA = "0x4866D80")]
 	private bool GenEntity(XmlQualifiedName qname)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60011EF")]
-	[Address(RVA = "0x452B0F0", Offset = "0x452B0F0", VA = "0x452B0F0")]
+	[Address(RVA = "0x4868850", Offset = "0x4868850", VA = "0x4868850")]
 	private SchemaEntity GetEntity(XmlQualifiedName qname, bool fParameterEntity)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011F0")]
-	[Address(RVA = "0x452AC00", Offset = "0x452AC00", VA = "0x452AC00")]
+	[Address(RVA = "0x4868360", Offset = "0x4868360", VA = "0x4868360")]
 	private void CheckForwardRefs()
 	{
 	}
 
 	[Token(Token = "0x60011F1")]
-	[Address(RVA = "0x4529080", Offset = "0x4529080", VA = "0x4529080")]
+	[Address(RVA = "0x48667E0", Offset = "0x48667E0", VA = "0x48667E0")]
 	private void Push(XmlQualifiedName elementName)
 	{
 	}
 
 	[Token(Token = "0x60011F2")]
-	[Address(RVA = "0x452AB60", Offset = "0x452AB60", VA = "0x452AB60")]
+	[Address(RVA = "0x48682C0", Offset = "0x48682C0", VA = "0x48682C0")]
 	private bool Pop()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60011F3")]
-	[Address(RVA = "0x452B180", Offset = "0x452B180", VA = "0x452B180")]
+	[Address(RVA = "0x48688E0", Offset = "0x48688E0", VA = "0x48688E0")]
 	public static void SetDefaultTypedValue(SchemaAttDef attdef, IDtdParserAdapter readerAdapter)
 	{
 	}
 
 	[Token(Token = "0x60011F4")]
-	[Address(RVA = "0x452B5C0", Offset = "0x452B5C0", VA = "0x452B5C0")]
+	[Address(RVA = "0x4868D20", Offset = "0x4868D20", VA = "0x4868D20")]
 	public static void CheckDefaultValue(SchemaAttDef attdef, SchemaInfo sinfo, IValidationEventHandling eventHandling, string baseUriStr)
 	{
 	}

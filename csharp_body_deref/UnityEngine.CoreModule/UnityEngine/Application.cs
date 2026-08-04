@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Application
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -97,7 +104,7 @@ public class Application
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000135")]
-		[Address(RVA = "0x4A87830", Offset = "0x4A87830", VA = "0x4A87830")]
+		[Address(RVA = "0x4DAF050", Offset = "0x4DAF050", VA = "0x4DAF050")]
 		[UnityEngine.Bindings.FreeFunction("IsWorldPlaying")]
 		get;
 	}
@@ -107,7 +114,7 @@ public class Application
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000136")]
-		[Address(RVA = "0x4A87860", Offset = "0x4A87860", VA = "0x4A87860")]
+		[Address(RVA = "0x4DAF080", Offset = "0x4DAF080", VA = "0x4DAF080")]
 		[UnityEngine.Bindings.FreeFunction("IsPlayerFocused")]
 		get;
 	}
@@ -117,7 +124,7 @@ public class Application
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000137")]
-		[Address(RVA = "0x4A87890", Offset = "0x4A87890", VA = "0x4A87890")]
+		[Address(RVA = "0x4DAF0B0", Offset = "0x4DAF0B0", VA = "0x4DAF0B0")]
 		[UnityEngine.Bindings.FreeFunction("SetPlayerSettingsRunInBackground")]
 		set;
 	}
@@ -127,7 +134,7 @@ public class Application
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000138")]
-		[Address(RVA = "0x4A878C0", Offset = "0x4A878C0", VA = "0x4A878C0")]
+		[Address(RVA = "0x4DAF0E0", Offset = "0x4DAF0E0", VA = "0x4DAF0E0")]
 		[UnityEngine.Bindings.FreeFunction("::IsBatchmode")]
 		get;
 	}
@@ -137,7 +144,7 @@ public class Application
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000139")]
-		[Address(RVA = "0x4A878F0", Offset = "0x4A878F0", VA = "0x4A878F0")]
+		[Address(RVA = "0x4DAF110", Offset = "0x4DAF110", VA = "0x4DAF110")]
 		[UnityEngine.Bindings.FreeFunction("GetAppDataPath", IsThreadSafe = true)]
 		get;
 	}
@@ -147,7 +154,7 @@ public class Application
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600013A")]
-		[Address(RVA = "0x4A87920", Offset = "0x4A87920", VA = "0x4A87920")]
+		[Address(RVA = "0x4DAF140", Offset = "0x4DAF140", VA = "0x4DAF140")]
 		[UnityEngine.Bindings.FreeFunction("GetStreamingAssetsPath", IsThreadSafe = true)]
 		get;
 	}
@@ -157,7 +164,7 @@ public class Application
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600013B")]
-		[Address(RVA = "0x4A87950", Offset = "0x4A87950", VA = "0x4A87950")]
+		[Address(RVA = "0x4DAF170", Offset = "0x4DAF170", VA = "0x4DAF170")]
 		[UnityEngine.Bindings.FreeFunction("GetPersistentDataPathApplicationSpecific")]
 		get;
 	}
@@ -167,7 +174,7 @@ public class Application
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600013C")]
-		[Address(RVA = "0x4A87980", Offset = "0x4A87980", VA = "0x4A87980")]
+		[Address(RVA = "0x4DAF1A0", Offset = "0x4DAF1A0", VA = "0x4DAF1A0")]
 		[UnityEngine.Bindings.FreeFunction("Application_Bindings::GetUnityVersion", IsThreadSafe = true)]
 		get;
 	}
@@ -177,7 +184,7 @@ public class Application
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600013E")]
-		[Address(RVA = "0x4A879E0", Offset = "0x4A879E0", VA = "0x4A879E0")]
+		[Address(RVA = "0x4DAF200", Offset = "0x4DAF200", VA = "0x4DAF200")]
 		[UnityEngine.Bindings.FreeFunction("SetTargetFrameRate")]
 		set;
 	}
@@ -187,7 +194,7 @@ public class Application
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000140")]
-		[Address(RVA = "0x4A87A40", Offset = "0x4A87A40", VA = "0x4A87A40")]
+		[Address(RVA = "0x4DAF260", Offset = "0x4DAF260", VA = "0x4DAF260")]
 		[UnityEngine.Bindings.FreeFunction("systeminfo::GetRuntimePlatform", IsThreadSafe = true)]
 		get;
 	}
@@ -196,7 +203,7 @@ public class Application
 	public static bool isMobilePlatform
 	{
 		[Token(Token = "0x6000141")]
-		[Address(RVA = "0x4A87A70", Offset = "0x4A87A70", VA = "0x4A87A70")]
+		[Address(RVA = "0x4DAF290", Offset = "0x4DAF290", VA = "0x4DAF290")]
 		get
 		{
 			return default(bool);
@@ -208,7 +215,7 @@ public class Application
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000142")]
-		[Address(RVA = "0x4A87B20", Offset = "0x4A87B20", VA = "0x4A87B20")]
+		[Address(RVA = "0x4DAF340", Offset = "0x4DAF340", VA = "0x4DAF340")]
 		[UnityEngine.Bindings.FreeFunction("GetInternetReachability")]
 		get;
 	}
@@ -217,7 +224,7 @@ public class Application
 	public static CancellationToken exitCancellationToken
 	{
 		[Token(Token = "0x6000149")]
-		[Address(RVA = "0x4A88370", Offset = "0x4A88370", VA = "0x4A88370")]
+		[Address(RVA = "0x4DAFB90", Offset = "0x4DAFB90", VA = "0x4DAFB90")]
 		get
 		{
 			return default(CancellationToken);
@@ -229,7 +236,7 @@ public class Application
 	public static int loadedLevel
 	{
 		[Token(Token = "0x600014F")]
-		[Address(RVA = "0x4A88950", Offset = "0x4A88950", VA = "0x4A88950")]
+		[Address(RVA = "0x4DB0170", Offset = "0x4DB0170", VA = "0x4DB0170")]
 		get
 		{
 			return default(int);
@@ -240,7 +247,7 @@ public class Application
 	public static bool isEditor
 	{
 		[Token(Token = "0x6000150")]
-		[Address(RVA = "0x4A889B0", Offset = "0x4A889B0", VA = "0x4A889B0")]
+		[Address(RVA = "0x4DB01D0", Offset = "0x4DB01D0", VA = "0x4DB01D0")]
 		get
 		{
 			return default(bool);
@@ -251,12 +258,12 @@ public class Application
 	public static event LogCallback logMessageReceived
 	{
 		[Token(Token = "0x6000145")]
-		[Address(RVA = "0x4A87D20", Offset = "0x4A87D20", VA = "0x4A87D20")]
+		[Address(RVA = "0x4DAF540", Offset = "0x4DAF540", VA = "0x4DAF540")]
 		add
 		{
 		}
 		[Token(Token = "0x6000146")]
-		[Address(RVA = "0x4A87E00", Offset = "0x4A87E00", VA = "0x4A87E00")]
+		[Address(RVA = "0x4DAF620", Offset = "0x4DAF620", VA = "0x4DAF620")]
 		remove
 		{
 		}
@@ -264,37 +271,37 @@ public class Application
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000133")]
-	[Address(RVA = "0x4A87780", Offset = "0x4A87780", VA = "0x4A87780")]
+	[Address(RVA = "0x4DAEFA0", Offset = "0x4DAEFA0", VA = "0x4DAEFA0")]
 	[UnityEngine.Bindings.FreeFunction("GetInputManager().QuitApplication")]
 	public static extern void Quit(int exitCode);
 
 	[Token(Token = "0x6000134")]
-	[Address(RVA = "0x4A877B0", Offset = "0x4A877B0", VA = "0x4A877B0")]
+	[Address(RVA = "0x4DAEFD0", Offset = "0x4DAEFD0", VA = "0x4DAEFD0")]
 	public static void Quit()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600013D")]
-	[Address(RVA = "0x4A879B0", Offset = "0x4A879B0", VA = "0x4A879B0")]
+	[Address(RVA = "0x4DAF1D0", Offset = "0x4DAF1D0", VA = "0x4DAF1D0")]
 	[UnityEngine.Bindings.FreeFunction("OpenURL")]
 	public static extern void OpenURL(string url);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600013F")]
-	[Address(RVA = "0x4A87A10", Offset = "0x4A87A10", VA = "0x4A87A10")]
+	[Address(RVA = "0x4DAF230", Offset = "0x4DAF230", VA = "0x4DAF230")]
 	[UnityEngine.Bindings.FreeFunction("Application_Bindings::SetLogCallbackDefined")]
 	private static extern void SetLogCallbackDefined(bool defined);
 
 	[Token(Token = "0x6000143")]
-	[Address(RVA = "0x4A87B50", Offset = "0x4A87B50", VA = "0x4A87B50")]
+	[Address(RVA = "0x4DAF370", Offset = "0x4DAF370", VA = "0x4DAF370")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void CallLowMemory(ApplicationMemoryUsage usage)
 	{
 	}
 
 	[Token(Token = "0x6000144")]
-	[Address(RVA = "0x4A87C80", Offset = "0x4A87C80", VA = "0x4A87C80")]
+	[Address(RVA = "0x4DAF4A0", Offset = "0x4DAF4A0", VA = "0x4DAF4A0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static bool HasLogCallback()
 	{
@@ -302,14 +309,14 @@ public class Application
 	}
 
 	[Token(Token = "0x6000147")]
-	[Address(RVA = "0x4A87EB0", Offset = "0x4A87EB0", VA = "0x4A87EB0")]
+	[Address(RVA = "0x4DAF6D0", Offset = "0x4DAF6D0", VA = "0x4DAF6D0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void CallLogCallback(string logString, string stackTrace, LogType type, bool invokedOnMainThread)
 	{
 	}
 
 	[Token(Token = "0x6000148")]
-	[Address(RVA = "0x4A87FB0", Offset = "0x4A87FB0", VA = "0x4A87FB0")]
+	[Address(RVA = "0x4DAF7D0", Offset = "0x4DAF7D0", VA = "0x4DAF7D0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static bool Internal_ApplicationWantsToQuit()
 	{
@@ -317,35 +324,35 @@ public class Application
 	}
 
 	[Token(Token = "0x600014A")]
-	[Address(RVA = "0x4A883F0", Offset = "0x4A883F0", VA = "0x4A883F0")]
+	[Address(RVA = "0x4DAFC10", Offset = "0x4DAFC10", VA = "0x4DAFC10")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void Internal_ApplicationQuit()
 	{
 	}
 
 	[Token(Token = "0x600014B")]
-	[Address(RVA = "0x4A88510", Offset = "0x4A88510", VA = "0x4A88510")]
+	[Address(RVA = "0x4DAFD30", Offset = "0x4DAFD30", VA = "0x4DAFD30")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void Internal_ApplicationUnload()
 	{
 	}
 
 	[Token(Token = "0x600014C")]
-	[Address(RVA = "0x4A885B0", Offset = "0x4A885B0", VA = "0x4A885B0")]
+	[Address(RVA = "0x4DAFDD0", Offset = "0x4DAFDD0", VA = "0x4DAFDD0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void InvokeOnBeforeRender()
 	{
 	}
 
 	[Token(Token = "0x600014D")]
-	[Address(RVA = "0x4A887E0", Offset = "0x4A887E0", VA = "0x4A887E0")]
+	[Address(RVA = "0x4DB0000", Offset = "0x4DB0000", VA = "0x4DB0000")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void InvokeFocusChanged(bool focus)
 	{
 	}
 
 	[Token(Token = "0x600014E")]
-	[Address(RVA = "0x4A88890", Offset = "0x4A88890", VA = "0x4A88890")]
+	[Address(RVA = "0x4DB00B0", Offset = "0x4DB00B0", VA = "0x4DB00B0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void InvokeDeepLinkActivated(string url)
 	{

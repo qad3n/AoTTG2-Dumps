@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngineInternal.Input.NativeInputSystem
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -32,39 +39,39 @@ internal class NativeInputSystem
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x4B49D50", Offset = "0x4B49D50", VA = "0x4B49D50")]
+		[Address(RVA = "0x4E71680", Offset = "0x4E71680", VA = "0x4E71680")]
 		set;
 	}
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x4B49D20", Offset = "0x4B49D20", VA = "0x4B49D20")]
+	[Address(RVA = "0x4E71650", Offset = "0x4E71650", VA = "0x4E71650")]
 	static NativeInputSystem()
 	{
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x4B49D80", Offset = "0x4B49D80", VA = "0x4B49D80")]
+	[Address(RVA = "0x4E716B0", Offset = "0x4E716B0", VA = "0x4E716B0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void NotifyBeforeUpdate(NativeInputUpdateType updateType)
 	{
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x4B49E10", Offset = "0x4B49E10", VA = "0x4B49E10")]
+	[Address(RVA = "0x4E71740", Offset = "0x4E71740", VA = "0x4E71740")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void NotifyUpdate(NativeInputUpdateType updateType, IntPtr eventBuffer)
 	{
 	}
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x4B49EC0", Offset = "0x4B49EC0", VA = "0x4B49EC0")]
+	[Address(RVA = "0x4E717F0", Offset = "0x4E717F0", VA = "0x4E717F0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void NotifyDeviceDiscovered(int deviceId, string deviceDescriptor)
 	{
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x4B49F50", Offset = "0x4B49F50", VA = "0x4B49F50")]
+	[Address(RVA = "0x4E71880", Offset = "0x4E71880", VA = "0x4E71880")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void ShouldRunUpdate(NativeInputUpdateType updateType, out bool retval)
 	{

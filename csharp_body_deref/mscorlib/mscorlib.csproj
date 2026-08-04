@@ -5,7 +5,7 @@
     <TargetFramework>net40</TargetFramework>
   </PropertyGroup>
   <PropertyGroup>
-    <LangVersion>15.0</LangVersion>
+    <LangVersion>11.0</LangVersion>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
   </PropertyGroup>
@@ -13,73 +13,73 @@
   <ItemGroup />
   <ItemGroup>
     <Reference Include="Il2CppDummyDll">
-      <HintPath>../../../dumps/il2cpp/DummyDll/Il2CppDummyDll.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/Il2CppDummyDll.dll</HintPath>
     </Reference>
     <Reference Include="Scripts">
-      <HintPath>../../../dumps/il2cpp/DummyDll/Scripts.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/Scripts.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.UIElementsModule.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml">
-      <HintPath>../../../dumps/il2cpp/DummyDll/System.Xml.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/System.Xml.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>../../../dumps/il2cpp/DummyDll/Unity.Mathematics.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>../../../dumps/il2cpp/DummyDll/Newtonsoft.Json.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>../../../dumps/il2cpp/DummyDll/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>../../../dumps/il2cpp/DummyDll/Unity.VisualScripting.Core.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="UniTask">
-      <HintPath>../../../dumps/il2cpp/DummyDll/UniTask.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/UniTask.dll</HintPath>
     </Reference>
     <Reference Include="System.Core">
-      <HintPath>../../../dumps/il2cpp/DummyDll/System.Core.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/System.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>../../../dumps/il2cpp/DummyDll/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Gisketch.Aottg2UI.Runtime">
-      <HintPath>../../../dumps/il2cpp/DummyDll/Gisketch.Aottg2UI.Runtime.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/Gisketch.Aottg2UI.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.UI.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>../../../dumps/il2cpp/DummyDll/DOTween.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>../../../dumps/il2cpp/DummyDll/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="PhotonVoice.API">
-      <HintPath>../../../dumps/il2cpp/DummyDll/PhotonVoice.API.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/PhotonVoice.API.dll</HintPath>
     </Reference>
     <Reference Include="PhotonRealtime">
-      <HintPath>../../../dumps/il2cpp/DummyDll/PhotonRealtime.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/PhotonRealtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PropertiesModule">
-      <HintPath>../../../dumps/il2cpp/DummyDll/UnityEngine.PropertiesModule.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.PropertiesModule.dll</HintPath>
     </Reference>
     <Reference Include="PhotonUnityNetworking.Utilities">
-      <HintPath>../../../dumps/il2cpp/DummyDll/PhotonUnityNetworking.Utilities.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/PhotonUnityNetworking.Utilities.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq">
-      <HintPath>../../../dumps/il2cpp/DummyDll/System.Xml.Linq.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/System.Xml.Linq.dll</HintPath>
     </Reference>
     <Reference Include="Gilzoide.FlexUi">
-      <HintPath>../../../dumps/il2cpp/DummyDll/Gilzoide.FlexUi.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/Gilzoide.FlexUi.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression">
-      <HintPath>../../../dumps/il2cpp/DummyDll/System.IO.Compression.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/System.IO.Compression.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

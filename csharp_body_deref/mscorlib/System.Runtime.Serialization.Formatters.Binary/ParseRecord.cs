@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.Formatters.Binary.ParseRecord
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
@@ -170,13 +177,13 @@ internal sealed class ParseRecord
 	internal int PRnullCount;
 
 	[Token(Token = "0x6002182")]
-	[Address(RVA = "0x4ECF670", Offset = "0x4ECF670", VA = "0x4ECF670")]
+	[Address(RVA = "0x3BB5190", Offset = "0x3BB5190", VA = "0x3BB5190")]
 	internal ParseRecord()
 	{
 	}
 
 	[Token(Token = "0x6002183")]
-	[Address(RVA = "0x4ED3B30", Offset = "0x4ED3B30", VA = "0x4ED3B30")]
+	[Address(RVA = "0x3BB9650", Offset = "0x3BB9650", VA = "0x3BB9650")]
 	internal void Init()
 	{
 	}

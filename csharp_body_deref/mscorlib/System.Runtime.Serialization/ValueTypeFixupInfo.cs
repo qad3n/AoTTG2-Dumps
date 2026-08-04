@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.ValueTypeFixupInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Reflection;
 using Il2CppDummyDll;
 
@@ -22,7 +29,7 @@ internal sealed class ValueTypeFixupInfo
 	public long ContainerID
 	{
 		[Token(Token = "0x6001F60")]
-		[Address(RVA = "0x4EAF6F0", Offset = "0x4EAF6F0", VA = "0x4EAF6F0")]
+		[Address(RVA = "0x3B95210", Offset = "0x3B95210", VA = "0x3B95210")]
 		get
 		{
 			return default(long);
@@ -33,7 +40,7 @@ internal sealed class ValueTypeFixupInfo
 	public FieldInfo ParentField
 	{
 		[Token(Token = "0x6001F61")]
-		[Address(RVA = "0x4EAF700", Offset = "0x4EAF700", VA = "0x4EAF700")]
+		[Address(RVA = "0x3B95220", Offset = "0x3B95220", VA = "0x3B95220")]
 		get
 		{
 			return null;
@@ -44,7 +51,7 @@ internal sealed class ValueTypeFixupInfo
 	public int[] ParentIndex
 	{
 		[Token(Token = "0x6001F62")]
-		[Address(RVA = "0x4EAF710", Offset = "0x4EAF710", VA = "0x4EAF710")]
+		[Address(RVA = "0x3B95230", Offset = "0x3B95230", VA = "0x3B95230")]
 		get
 		{
 			return null;
@@ -52,7 +59,7 @@ internal sealed class ValueTypeFixupInfo
 	}
 
 	[Token(Token = "0x6001F5F")]
-	[Address(RVA = "0x4EAF570", Offset = "0x4EAF570", VA = "0x4EAF570")]
+	[Address(RVA = "0x3B95090", Offset = "0x3B95090", VA = "0x3B95090")]
 	public ValueTypeFixupInfo(long containerID, FieldInfo member, int[] parentIndex)
 	{
 	}

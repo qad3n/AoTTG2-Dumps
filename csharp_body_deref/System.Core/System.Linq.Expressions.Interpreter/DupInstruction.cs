@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.DupInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -13,7 +20,7 @@ internal sealed class DupInstruction : Instruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x6000ABA")]
-		[Address(RVA = "0x41DD670", Offset = "0x41DD670", VA = "0x41DD670", Slot = "5")]
+		[Address(RVA = "0x4502770", Offset = "0x4502770", VA = "0x4502770", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -24,7 +31,7 @@ internal sealed class DupInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x6000ABB")]
-		[Address(RVA = "0x41DD680", Offset = "0x41DD680", VA = "0x41DD680", Slot = "9")]
+		[Address(RVA = "0x4502780", Offset = "0x4502780", VA = "0x4502780", Slot = "9")]
 		get
 		{
 			return null;
@@ -32,13 +39,13 @@ internal sealed class DupInstruction : Instruction
 	}
 
 	[Token(Token = "0x6000AB9")]
-	[Address(RVA = "0x41DD660", Offset = "0x41DD660", VA = "0x41DD660")]
+	[Address(RVA = "0x4502760", Offset = "0x4502760", VA = "0x4502760")]
 	private DupInstruction()
 	{
 	}
 
 	[Token(Token = "0x6000ABC")]
-	[Address(RVA = "0x41DD6B0", Offset = "0x41DD6B0", VA = "0x41DD6B0", Slot = "8")]
+	[Address(RVA = "0x45027B0", Offset = "0x45027B0", VA = "0x45027B0", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

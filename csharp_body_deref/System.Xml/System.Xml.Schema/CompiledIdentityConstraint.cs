@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.CompiledIdentityConstraint
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -44,7 +51,7 @@ internal class CompiledIdentityConstraint
 	public ConstraintRole Role
 	{
 		[Token(Token = "0x6000F97")]
-		[Address(RVA = "0x45057D0", Offset = "0x45057D0", VA = "0x45057D0")]
+		[Address(RVA = "0x4842F30", Offset = "0x4842F30", VA = "0x4842F30")]
 		get
 		{
 			return default(ConstraintRole);
@@ -55,7 +62,7 @@ internal class CompiledIdentityConstraint
 	public Asttree Selector
 	{
 		[Token(Token = "0x6000F98")]
-		[Address(RVA = "0x45057E0", Offset = "0x45057E0", VA = "0x45057E0")]
+		[Address(RVA = "0x4842F40", Offset = "0x4842F40", VA = "0x4842F40")]
 		get
 		{
 			return null;
@@ -66,7 +73,7 @@ internal class CompiledIdentityConstraint
 	public Asttree[] Fields
 	{
 		[Token(Token = "0x6000F99")]
-		[Address(RVA = "0x45057F0", Offset = "0x45057F0", VA = "0x45057F0")]
+		[Address(RVA = "0x4842F50", Offset = "0x4842F50", VA = "0x4842F50")]
 		get
 		{
 			return null;
@@ -74,13 +81,13 @@ internal class CompiledIdentityConstraint
 	}
 
 	[Token(Token = "0x6000F9A")]
-	[Address(RVA = "0x4505800", Offset = "0x4505800", VA = "0x4505800")]
+	[Address(RVA = "0x4842F60", Offset = "0x4842F60", VA = "0x4842F60")]
 	private CompiledIdentityConstraint()
 	{
 	}
 
 	[Token(Token = "0x6000F9B")]
-	[Address(RVA = "0x4505890", Offset = "0x4505890", VA = "0x4505890")]
+	[Address(RVA = "0x4842FF0", Offset = "0x4842FF0", VA = "0x4842FF0")]
 	public CompiledIdentityConstraint(XmlSchemaIdentityConstraint constraint, XmlNamespaceManager nsmgr)
 	{
 	}

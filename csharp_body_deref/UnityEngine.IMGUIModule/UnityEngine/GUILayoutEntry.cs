@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.GUILayoutEntry
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine;
@@ -53,13 +60,13 @@ internal class GUILayoutEntry
 	public GUIStyle style
 	{
 		[Token(Token = "0x6000210")]
-		[Address(RVA = "0x4B353A0", Offset = "0x4B353A0", VA = "0x4B353A0")]
+		[Address(RVA = "0x4E5CF60", Offset = "0x4E5CF60", VA = "0x4E5CF60")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000211")]
-		[Address(RVA = "0x4B353B0", Offset = "0x4B353B0", VA = "0x4B353B0")]
+		[Address(RVA = "0x4E5CF70", Offset = "0x4E5CF70", VA = "0x4E5CF70")]
 		set
 		{
 		}
@@ -69,7 +76,7 @@ internal class GUILayoutEntry
 	public virtual int marginLeft
 	{
 		[Token(Token = "0x6000212")]
-		[Address(RVA = "0x4B353F0", Offset = "0x4B353F0", VA = "0x4B353F0", Slot = "4")]
+		[Address(RVA = "0x4E5CFB0", Offset = "0x4E5CFB0", VA = "0x4E5CFB0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -80,7 +87,7 @@ internal class GUILayoutEntry
 	public virtual int marginRight
 	{
 		[Token(Token = "0x6000213")]
-		[Address(RVA = "0x4B35420", Offset = "0x4B35420", VA = "0x4B35420", Slot = "5")]
+		[Address(RVA = "0x4E5CFE0", Offset = "0x4E5CFE0", VA = "0x4E5CFE0", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -91,7 +98,7 @@ internal class GUILayoutEntry
 	public virtual int marginTop
 	{
 		[Token(Token = "0x6000214")]
-		[Address(RVA = "0x4B35450", Offset = "0x4B35450", VA = "0x4B35450", Slot = "6")]
+		[Address(RVA = "0x4E5D010", Offset = "0x4E5D010", VA = "0x4E5D010", Slot = "6")]
 		get
 		{
 			return default(int);
@@ -102,7 +109,7 @@ internal class GUILayoutEntry
 	public virtual int marginBottom
 	{
 		[Token(Token = "0x6000215")]
-		[Address(RVA = "0x4B35480", Offset = "0x4B35480", VA = "0x4B35480", Slot = "7")]
+		[Address(RVA = "0x4E5D040", Offset = "0x4E5D040", VA = "0x4E5D040", Slot = "7")]
 		get
 		{
 			return default(int);
@@ -113,7 +120,7 @@ internal class GUILayoutEntry
 	public int marginHorizontal
 	{
 		[Token(Token = "0x6000216")]
-		[Address(RVA = "0x4B354B0", Offset = "0x4B354B0", VA = "0x4B354B0")]
+		[Address(RVA = "0x4E5D070", Offset = "0x4E5D070", VA = "0x4E5D070")]
 		get
 		{
 			return default(int);
@@ -124,7 +131,7 @@ internal class GUILayoutEntry
 	public int marginVertical
 	{
 		[Token(Token = "0x6000217")]
-		[Address(RVA = "0x4B354F0", Offset = "0x4B354F0", VA = "0x4B354F0")]
+		[Address(RVA = "0x4E5D0B0", Offset = "0x4E5D0B0", VA = "0x4E5D0B0")]
 		get
 		{
 			return default(int);
@@ -132,55 +139,55 @@ internal class GUILayoutEntry
 	}
 
 	[Token(Token = "0x6000218")]
-	[Address(RVA = "0x4B35530", Offset = "0x4B35530", VA = "0x4B35530")]
+	[Address(RVA = "0x4E5D0F0", Offset = "0x4E5D0F0", VA = "0x4E5D0F0")]
 	public GUILayoutEntry(float _minWidth, float _maxWidth, float _minHeight, float _maxHeight, GUIStyle _style)
 	{
 	}
 
 	[Token(Token = "0x6000219")]
-	[Address(RVA = "0x4B35640", Offset = "0x4B35640", VA = "0x4B35640")]
+	[Address(RVA = "0x4E5D200", Offset = "0x4E5D200", VA = "0x4E5D200")]
 	public GUILayoutEntry(float _minWidth, float _maxWidth, float _minHeight, float _maxHeight, GUIStyle _style, GUILayoutOption[] options)
 	{
 	}
 
 	[Token(Token = "0x600021A")]
-	[Address(RVA = "0x4B35750", Offset = "0x4B35750", VA = "0x4B35750", Slot = "8")]
+	[Address(RVA = "0x4E5D310", Offset = "0x4E5D310", VA = "0x4E5D310", Slot = "8")]
 	public virtual void CalcWidth()
 	{
 	}
 
 	[Token(Token = "0x600021B")]
-	[Address(RVA = "0x4B35760", Offset = "0x4B35760", VA = "0x4B35760", Slot = "9")]
+	[Address(RVA = "0x4E5D320", Offset = "0x4E5D320", VA = "0x4E5D320", Slot = "9")]
 	public virtual void CalcHeight()
 	{
 	}
 
 	[Token(Token = "0x600021C")]
-	[Address(RVA = "0x4B35770", Offset = "0x4B35770", VA = "0x4B35770", Slot = "10")]
+	[Address(RVA = "0x4E5D330", Offset = "0x4E5D330", VA = "0x4E5D330", Slot = "10")]
 	public virtual void SetHorizontal(float x, float width)
 	{
 	}
 
 	[Token(Token = "0x600021D")]
-	[Address(RVA = "0x4B35780", Offset = "0x4B35780", VA = "0x4B35780", Slot = "11")]
+	[Address(RVA = "0x4E5D340", Offset = "0x4E5D340", VA = "0x4E5D340", Slot = "11")]
 	public virtual void SetVertical(float y, float height)
 	{
 	}
 
 	[Token(Token = "0x600021E")]
-	[Address(RVA = "0x4B35790", Offset = "0x4B35790", VA = "0x4B35790", Slot = "12")]
+	[Address(RVA = "0x4E5D350", Offset = "0x4E5D350", VA = "0x4E5D350", Slot = "12")]
 	protected virtual void ApplyStyleSettings(GUIStyle style)
 	{
 	}
 
 	[Token(Token = "0x600021F")]
-	[Address(RVA = "0x4B35820", Offset = "0x4B35820", VA = "0x4B35820", Slot = "13")]
+	[Address(RVA = "0x4E5D3E0", Offset = "0x4E5D3E0", VA = "0x4E5D3E0", Slot = "13")]
 	public virtual void ApplyOptions(GUILayoutOption[] options)
 	{
 	}
 
 	[Token(Token = "0x6000220")]
-	[Address(RVA = "0x4B35B70", Offset = "0x4B35B70", VA = "0x4B35B70", Slot = "3")]
+	[Address(RVA = "0x4E5D730", Offset = "0x4E5D730", VA = "0x4E5D730", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

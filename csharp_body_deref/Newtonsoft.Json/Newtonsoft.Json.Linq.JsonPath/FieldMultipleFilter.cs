@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Linq.JsonPath.FieldMultipleFilter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -66,7 +73,7 @@ internal class FieldMultipleFilter : PathFilter
 		private JToken System_002ECollections_002EGeneric_002EIEnumerator_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002ECurrent
 		{
 			[Token(Token = "0x6000E35")]
-			[Address(RVA = "0x3B40160", Offset = "0x3B40160", VA = "0x3B40160", Slot = "6")]
+			[Address(RVA = "0x3E35AB0", Offset = "0x3E35AB0", VA = "0x3E35AB0", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -78,7 +85,7 @@ internal class FieldMultipleFilter : PathFilter
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000E37")]
-			[Address(RVA = "0x3B401B0", Offset = "0x3B401B0", VA = "0x3B401B0", Slot = "9")]
+			[Address(RVA = "0x3E35B00", Offset = "0x3E35B00", VA = "0x3E35B00", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -87,47 +94,47 @@ internal class FieldMultipleFilter : PathFilter
 		}
 
 		[Token(Token = "0x6000E30")]
-		[Address(RVA = "0x3B3F380", Offset = "0x3B3F380", VA = "0x3B3F380")]
+		[Address(RVA = "0x3E34CD0", Offset = "0x3E34CD0", VA = "0x3E34CD0")]
 		[DebuggerHidden]
 		public _003CExecuteFilter_003Ed__2(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000E31")]
-		[Address(RVA = "0x3B3F470", Offset = "0x3B3F470", VA = "0x3B3F470", Slot = "7")]
+		[Address(RVA = "0x3E34DC0", Offset = "0x3E34DC0", VA = "0x3E34DC0", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000E32")]
-		[Address(RVA = "0x3B3F670", Offset = "0x3B3F670", VA = "0x3B3F670", Slot = "8")]
+		[Address(RVA = "0x3E34FC0", Offset = "0x3E34FC0", VA = "0x3E34FC0", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000E33")]
-		[Address(RVA = "0x3B400C0", Offset = "0x3B400C0", VA = "0x3B400C0")]
+		[Address(RVA = "0x3E35A10", Offset = "0x3E35A10", VA = "0x3E35A10")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
 		[Token(Token = "0x6000E34")]
-		[Address(RVA = "0x3B40080", Offset = "0x3B40080", VA = "0x3B40080")]
+		[Address(RVA = "0x3E359D0", Offset = "0x3E359D0", VA = "0x3E359D0")]
 		private void _003C_003Em__Finally2()
 		{
 		}
 
 		[Token(Token = "0x6000E36")]
-		[Address(RVA = "0x3B40170", Offset = "0x3B40170", VA = "0x3B40170", Slot = "10")]
+		[Address(RVA = "0x3E35AC0", Offset = "0x3E35AC0", VA = "0x3E35AC0", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x6000E38")]
-		[Address(RVA = "0x3B401C0", Offset = "0x3B401C0", VA = "0x3B401C0", Slot = "4")]
+		[Address(RVA = "0x3E35B10", Offset = "0x3E35B10", VA = "0x3E35B10", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<JToken> System_002ECollections_002EGeneric_002EIEnumerable_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002EGetEnumerator()
 		{
@@ -135,7 +142,7 @@ internal class FieldMultipleFilter : PathFilter
 		}
 
 		[Token(Token = "0x6000E39")]
-		[Address(RVA = "0x3B40280", Offset = "0x3B40280", VA = "0x3B40280", Slot = "5")]
+		[Address(RVA = "0x3E35BD0", Offset = "0x3E35BD0", VA = "0x3E35BD0", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -148,13 +155,13 @@ internal class FieldMultipleFilter : PathFilter
 	internal List<string> Names;
 
 	[Token(Token = "0x6000E2B")]
-	[Address(RVA = "0x3B3F2A0", Offset = "0x3B3F2A0", VA = "0x3B3F2A0")]
+	[Address(RVA = "0x3E34BF0", Offset = "0x3E34BF0", VA = "0x3E34BF0")]
 	public FieldMultipleFilter(List<string> names)
 	{
 	}
 
 	[Token(Token = "0x6000E2C")]
-	[Address(RVA = "0x3B3F2D0", Offset = "0x3B3F2D0", VA = "0x3B3F2D0", Slot = "4")]
+	[Address(RVA = "0x3E34C20", Offset = "0x3E34C20", VA = "0x3E34C20", Slot = "4")]
 	[IteratorStateMachine(typeof(_003CExecuteFilter_003Ed__2))]
 	public override IEnumerable<JToken> ExecuteFilter(JToken root, IEnumerable<JToken> current, JsonSelectSettings? settings)
 	{

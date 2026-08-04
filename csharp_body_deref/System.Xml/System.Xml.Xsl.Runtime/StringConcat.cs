@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Xsl.Runtime.StringConcat
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.ComponentModel;
 using Il2CppDummyDll;
@@ -40,7 +47,7 @@ public struct StringConcat
 	internal int Count
 	{
 		[Token(Token = "0x6000F20")]
-		[Address(RVA = "0x4500100", Offset = "0x4500100", VA = "0x4500100")]
+		[Address(RVA = "0x483D860", Offset = "0x483D860", VA = "0x483D860")]
 		get
 		{
 			return default(int);
@@ -48,20 +55,20 @@ public struct StringConcat
 	}
 
 	[Token(Token = "0x6000F1F")]
-	[Address(RVA = "0x45000E0", Offset = "0x45000E0", VA = "0x45000E0")]
+	[Address(RVA = "0x483D840", Offset = "0x483D840", VA = "0x483D840")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000F21")]
-	[Address(RVA = "0x4500110", Offset = "0x4500110", VA = "0x4500110")]
+	[Address(RVA = "0x483D870", Offset = "0x483D870", VA = "0x483D870")]
 	public string GetResult()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F22")]
-	[Address(RVA = "0x45001D0", Offset = "0x45001D0", VA = "0x45001D0")]
+	[Address(RVA = "0x483D930", Offset = "0x483D930", VA = "0x483D930")]
 	internal void ConcatNoDelimiter(string s)
 	{
 	}

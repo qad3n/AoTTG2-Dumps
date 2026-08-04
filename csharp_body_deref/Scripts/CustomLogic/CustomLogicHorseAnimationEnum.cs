@@ -1,211 +1,218 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: CustomLogic.CustomLogicHorseAnimationEnum
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/CustomLogic/CustomLogicHorseAnimationEnum.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000333")]
+[Token(Token = "0x200036C")]
 [CompilerGenerated]
 internal class CustomLogicHorseAnimationEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x2000334")]
+	[Token(Token = "0x200036D")]
 	public static class Factory
 	{
-		[Token(Token = "0x6001C3A")]
-		[Address(RVA = "0x3D51230", Offset = "0x3D51230", VA = "0x3D51230")]
+		[Token(Token = "0x6001DEF")]
+		[Address(RVA = "0x4057500", Offset = "0x4057500", VA = "0x4057500")]
 		public static CustomLogicHorseAnimationEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000335")]
+	[Token(Token = "0x200036E")]
 	public static class Bindings
 	{
-		[Token(Token = "0x4000F1E")]
+		[Token(Token = "0x4001004")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6001C3B")]
-		[Address(RVA = "0x3D51350", Offset = "0x3D51350", VA = "0x3D51350")]
+		[Token(Token = "0x6001DF0")]
+		[Address(RVA = "0x4057620", Offset = "0x4057620", VA = "0x4057620")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001C3C")]
-		[Address(RVA = "0x3D516D0", Offset = "0x3D516D0", VA = "0x3D516D0")]
+		[Token(Token = "0x6001DF1")]
+		[Address(RVA = "0x40579A0", Offset = "0x40579A0", VA = "0x40579A0")]
 		public static CLPropertyBinding<CustomLogicHorseAnimationEnum> __CreatePropertyBinding__Idle0()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001C3D")]
-		[Address(RVA = "0x3D51770", Offset = "0x3D51770", VA = "0x3D51770")]
+		[Token(Token = "0x6001DF2")]
+		[Address(RVA = "0x4057A40", Offset = "0x4057A40", VA = "0x4057A40")]
 		public static CLPropertyBinding<CustomLogicHorseAnimationEnum> __CreatePropertyBinding__Idle1()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001C3E")]
-		[Address(RVA = "0x3D51810", Offset = "0x3D51810", VA = "0x3D51810")]
+		[Token(Token = "0x6001DF3")]
+		[Address(RVA = "0x4057AE0", Offset = "0x4057AE0", VA = "0x4057AE0")]
 		public static CLPropertyBinding<CustomLogicHorseAnimationEnum> __CreatePropertyBinding__Idle2()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001C3F")]
-		[Address(RVA = "0x3D518B0", Offset = "0x3D518B0", VA = "0x3D518B0")]
+		[Token(Token = "0x6001DF4")]
+		[Address(RVA = "0x4057B80", Offset = "0x4057B80", VA = "0x4057B80")]
 		public static CLPropertyBinding<CustomLogicHorseAnimationEnum> __CreatePropertyBinding__Idle3()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001C40")]
-		[Address(RVA = "0x3D51950", Offset = "0x3D51950", VA = "0x3D51950")]
+		[Token(Token = "0x6001DF5")]
+		[Address(RVA = "0x4057C20", Offset = "0x4057C20", VA = "0x4057C20")]
 		public static CLPropertyBinding<CustomLogicHorseAnimationEnum> __CreatePropertyBinding__Crazy()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001C41")]
-		[Address(RVA = "0x3D519F0", Offset = "0x3D519F0", VA = "0x3D519F0")]
+		[Token(Token = "0x6001DF6")]
+		[Address(RVA = "0x4057CC0", Offset = "0x4057CC0", VA = "0x4057CC0")]
 		public static CLPropertyBinding<CustomLogicHorseAnimationEnum> __CreatePropertyBinding__Run()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001C42")]
-		[Address(RVA = "0x3D51A90", Offset = "0x3D51A90", VA = "0x3D51A90")]
+		[Token(Token = "0x6001DF7")]
+		[Address(RVA = "0x4057D60", Offset = "0x4057D60", VA = "0x4057D60")]
 		public static CLPropertyBinding<CustomLogicHorseAnimationEnum> __CreatePropertyBinding__Walk()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000460")]
+	[Token(Token = "0x170004BA")]
 	public static string Idle0
 	{
-		[Token(Token = "0x6001C2F")]
-		[Address(RVA = "0x3D50EC0", Offset = "0x3D50EC0", VA = "0x3D50EC0")]
+		[Token(Token = "0x6001DE4")]
+		[Address(RVA = "0x4057190", Offset = "0x4057190", VA = "0x4057190")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000461")]
+	[Token(Token = "0x170004BB")]
 	public static string Idle1
 	{
-		[Token(Token = "0x6001C30")]
-		[Address(RVA = "0x3D50F30", Offset = "0x3D50F30", VA = "0x3D50F30")]
+		[Token(Token = "0x6001DE5")]
+		[Address(RVA = "0x4057200", Offset = "0x4057200", VA = "0x4057200")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000462")]
+	[Token(Token = "0x170004BC")]
 	public static string Idle2
 	{
-		[Token(Token = "0x6001C31")]
-		[Address(RVA = "0x3D50FA0", Offset = "0x3D50FA0", VA = "0x3D50FA0")]
+		[Token(Token = "0x6001DE6")]
+		[Address(RVA = "0x4057270", Offset = "0x4057270", VA = "0x4057270")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000463")]
+	[Token(Token = "0x170004BD")]
 	public static string Idle3
 	{
-		[Token(Token = "0x6001C32")]
-		[Address(RVA = "0x3D51010", Offset = "0x3D51010", VA = "0x3D51010")]
+		[Token(Token = "0x6001DE7")]
+		[Address(RVA = "0x40572E0", Offset = "0x40572E0", VA = "0x40572E0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000464")]
+	[Token(Token = "0x170004BE")]
 	public static string Crazy
 	{
-		[Token(Token = "0x6001C33")]
-		[Address(RVA = "0x3D51080", Offset = "0x3D51080", VA = "0x3D51080")]
+		[Token(Token = "0x6001DE8")]
+		[Address(RVA = "0x4057350", Offset = "0x4057350", VA = "0x4057350")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000465")]
+	[Token(Token = "0x170004BF")]
 	public static string Run
 	{
-		[Token(Token = "0x6001C34")]
-		[Address(RVA = "0x3D510F0", Offset = "0x3D510F0", VA = "0x3D510F0")]
+		[Token(Token = "0x6001DE9")]
+		[Address(RVA = "0x40573C0", Offset = "0x40573C0", VA = "0x40573C0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000466")]
+	[Token(Token = "0x170004C0")]
 	public static string Walk
 	{
-		[Token(Token = "0x6001C35")]
-		[Address(RVA = "0x3D51160", Offset = "0x3D51160", VA = "0x3D51160")]
+		[Token(Token = "0x6001DEA")]
+		[Address(RVA = "0x4057430", Offset = "0x4057430", VA = "0x4057430")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000467")]
+	[Token(Token = "0x170004C1")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6001C36")]
-		[Address(RVA = "0x3D511D0", Offset = "0x3D511D0", VA = "0x3D511D0", Slot = "4")]
+		[Token(Token = "0x6001DEB")]
+		[Address(RVA = "0x40574A0", Offset = "0x40574A0", VA = "0x40574A0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000468")]
+	[Token(Token = "0x170004C2")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6001C37")]
-		[Address(RVA = "0x3D51200", Offset = "0x3D51200", VA = "0x3D51200", Slot = "6")]
+		[Token(Token = "0x6001DEC")]
+		[Address(RVA = "0x40574D0", Offset = "0x40574D0", VA = "0x40574D0", Slot = "6")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000469")]
+	[Token(Token = "0x170004C3")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6001C38")]
-		[Address(RVA = "0x3D51210", Offset = "0x3D51210", VA = "0x3D51210", Slot = "7")]
+		[Token(Token = "0x6001DED")]
+		[Address(RVA = "0x40574E0", Offset = "0x40574E0", VA = "0x40574E0", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700046A")]
+	[Token(Token = "0x170004C4")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6001C39")]
-		[Address(RVA = "0x3D51220", Offset = "0x3D51220", VA = "0x3D51220", Slot = "8")]
+		[Token(Token = "0x6001DEE")]
+		[Address(RVA = "0x40574F0", Offset = "0x40574F0", VA = "0x40574F0", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001C2E")]
-	[Address(RVA = "0x3D50E50", Offset = "0x3D50E50", VA = "0x3D50E50")]
+	[Token(Token = "0x6001DE3")]
+	[Address(RVA = "0x4057120", Offset = "0x4057120", VA = "0x4057120")]
 	public CustomLogicHorseAnimationEnum()
 	{
 	}

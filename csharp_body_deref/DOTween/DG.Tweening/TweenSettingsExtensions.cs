@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: DG.Tweening.TweenSettingsExtensions
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using DG.Tweening.Core;
 using DG.Tweening.Plugins;
@@ -210,77 +217,77 @@ public static class TweenSettingsExtensions
 	}
 
 	[Token(Token = "0x600026B")]
-	[Address(RVA = "0x2301EA0", Offset = "0x2301EA0", VA = "0x2301EA0")]
+	[Address(RVA = "0x2368780", Offset = "0x2368780", VA = "0x2368780")]
 	public static Sequence Append(this Sequence s, Tween t)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600026C")]
-	[Address(RVA = "0x2308A00", Offset = "0x2308A00", VA = "0x2308A00")]
+	[Address(RVA = "0x236F2E0", Offset = "0x236F2E0", VA = "0x236F2E0")]
 	public static Sequence Prepend(this Sequence s, Tween t)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600026D")]
-	[Address(RVA = "0x2301EE0", Offset = "0x2301EE0", VA = "0x2301EE0")]
+	[Address(RVA = "0x23687C0", Offset = "0x23687C0", VA = "0x23687C0")]
 	public static Sequence Join(this Sequence s, Tween t)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600026E")]
-	[Address(RVA = "0x2308A30", Offset = "0x2308A30", VA = "0x2308A30")]
+	[Address(RVA = "0x236F310", Offset = "0x236F310", VA = "0x236F310")]
 	public static Sequence Insert(this Sequence s, float atPosition, Tween t)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600026F")]
-	[Address(RVA = "0x22F4930", Offset = "0x22F4930", VA = "0x22F4930")]
+	[Address(RVA = "0x235B210", Offset = "0x235B210", VA = "0x235B210")]
 	public static Sequence AppendInterval(this Sequence s, float interval)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000270")]
-	[Address(RVA = "0x2308A70", Offset = "0x2308A70", VA = "0x2308A70")]
+	[Address(RVA = "0x236F350", Offset = "0x236F350", VA = "0x236F350")]
 	public static Sequence PrependInterval(this Sequence s, float interval)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000271")]
-	[Address(RVA = "0x2308AC0", Offset = "0x2308AC0", VA = "0x2308AC0")]
+	[Address(RVA = "0x236F3A0", Offset = "0x236F3A0", VA = "0x236F3A0")]
 	public static Sequence AppendCallback(this Sequence s, TweenCallback callback)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000272")]
-	[Address(RVA = "0x2308B20", Offset = "0x2308B20", VA = "0x2308B20")]
+	[Address(RVA = "0x236F400", Offset = "0x236F400", VA = "0x236F400")]
 	public static Sequence PrependCallback(this Sequence s, TweenCallback callback)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000273")]
-	[Address(RVA = "0x2308B80", Offset = "0x2308B80", VA = "0x2308B80")]
+	[Address(RVA = "0x236F460", Offset = "0x236F460", VA = "0x236F460")]
 	public static Sequence JoinCallback(this Sequence s, TweenCallback callback)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000274")]
-	[Address(RVA = "0x2308BE0", Offset = "0x2308BE0", VA = "0x2308BE0")]
+	[Address(RVA = "0x236F4C0", Offset = "0x236F4C0", VA = "0x236F4C0")]
 	public static Sequence InsertCallback(this Sequence s, float atPosition, TweenCallback callback)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000275")]
-	[Address(RVA = "0x2308970", Offset = "0x2308970", VA = "0x2308970")]
+	[Address(RVA = "0x236F250", Offset = "0x236F250", VA = "0x236F250")]
 	private static bool ValidateAddToSequence(Sequence s, Tween t, bool ignoreTween = false)
 	{
 		return default(bool);
@@ -311,21 +318,21 @@ public static class TweenSettingsExtensions
 	}
 
 	[Token(Token = "0x600027A")]
-	[Address(RVA = "0x2308C40", Offset = "0x2308C40", VA = "0x2308C40")]
+	[Address(RVA = "0x236F520", Offset = "0x236F520", VA = "0x236F520")]
 	public static TweenerCore<Color, Color, ColorOptions> From(this TweenerCore<Color, Color, ColorOptions> t, float fromAlphaValue, bool setImmediately = true, bool isRelative = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600027B")]
-	[Address(RVA = "0x2308CE0", Offset = "0x2308CE0", VA = "0x2308CE0")]
+	[Address(RVA = "0x236F5C0", Offset = "0x236F5C0", VA = "0x236F5C0")]
 	public static TweenerCore<Vector3, Vector3, VectorOptions> From(this TweenerCore<Vector3, Vector3, VectorOptions> t, float fromValue, bool setImmediately = true, bool isRelative = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600027C")]
-	[Address(RVA = "0x2308D70", Offset = "0x2308D70", VA = "0x2308D70")]
+	[Address(RVA = "0x236F650", Offset = "0x236F650", VA = "0x236F650")]
 	public static TweenerCore<Vector2, Vector2, CircleOptions> From(this TweenerCore<Vector2, Vector2, CircleOptions> t, float fromValueDegrees, bool setImmediately = true, bool isRelative = false)
 	{
 		return null;
@@ -368,168 +375,168 @@ public static class TweenSettingsExtensions
 	}
 
 	[Token(Token = "0x6000283")]
-	[Address(RVA = "0x2308E00", Offset = "0x2308E00", VA = "0x2308E00")]
+	[Address(RVA = "0x236F6E0", Offset = "0x236F6E0", VA = "0x236F6E0")]
 	public static Tweener SetOptions(this TweenerCore<float, float, FloatOptions> t, bool snapping)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000284")]
-	[Address(RVA = "0x2308E20", Offset = "0x2308E20", VA = "0x2308E20")]
+	[Address(RVA = "0x236F700", Offset = "0x236F700", VA = "0x236F700")]
 	public static Tweener SetOptions(this TweenerCore<Vector2, Vector2, VectorOptions> t, bool snapping)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000285")]
-	[Address(RVA = "0x2308E40", Offset = "0x2308E40", VA = "0x2308E40")]
+	[Address(RVA = "0x236F720", Offset = "0x236F720", VA = "0x236F720")]
 	public static Tweener SetOptions(this TweenerCore<Vector2, Vector2, VectorOptions> t, AxisConstraint axisConstraint, bool snapping = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000286")]
-	[Address(RVA = "0x22FDB20", Offset = "0x22FDB20", VA = "0x22FDB20")]
+	[Address(RVA = "0x2364400", Offset = "0x2364400", VA = "0x2364400")]
 	public static Tweener SetOptions(this TweenerCore<Vector3, Vector3, VectorOptions> t, bool snapping)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000287")]
-	[Address(RVA = "0x22FDD60", Offset = "0x22FDD60", VA = "0x22FDD60")]
+	[Address(RVA = "0x2364640", Offset = "0x2364640", VA = "0x2364640")]
 	public static Tweener SetOptions(this TweenerCore<Vector3, Vector3, VectorOptions> t, AxisConstraint axisConstraint, bool snapping = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000288")]
-	[Address(RVA = "0x2308E60", Offset = "0x2308E60", VA = "0x2308E60")]
+	[Address(RVA = "0x236F740", Offset = "0x236F740", VA = "0x236F740")]
 	public static Tweener SetOptions(this TweenerCore<Vector4, Vector4, VectorOptions> t, bool snapping)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000289")]
-	[Address(RVA = "0x2308E80", Offset = "0x2308E80", VA = "0x2308E80")]
+	[Address(RVA = "0x236F760", Offset = "0x236F760", VA = "0x236F760")]
 	public static Tweener SetOptions(this TweenerCore<Vector4, Vector4, VectorOptions> t, AxisConstraint axisConstraint, bool snapping = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600028A")]
-	[Address(RVA = "0x2308EA0", Offset = "0x2308EA0", VA = "0x2308EA0")]
+	[Address(RVA = "0x236F780", Offset = "0x236F780", VA = "0x236F780")]
 	public static Tweener SetOptions(this TweenerCore<Quaternion, Vector3, QuaternionOptions> t, bool useShortest360Route = true)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600028B")]
-	[Address(RVA = "0x22EFEB0", Offset = "0x22EFEB0", VA = "0x22EFEB0")]
+	[Address(RVA = "0x2356790", Offset = "0x2356790", VA = "0x2356790")]
 	public static Tweener SetOptions(this TweenerCore<Color, Color, ColorOptions> t, bool alphaOnly)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600028C")]
-	[Address(RVA = "0x2308EC0", Offset = "0x2308EC0", VA = "0x2308EC0")]
+	[Address(RVA = "0x236F7A0", Offset = "0x236F7A0", VA = "0x236F7A0")]
 	public static Tweener SetOptions(this TweenerCore<Rect, Rect, RectOptions> t, bool snapping)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600028D")]
-	[Address(RVA = "0x2308EE0", Offset = "0x2308EE0", VA = "0x2308EE0")]
+	[Address(RVA = "0x236F7C0", Offset = "0x236F7C0", VA = "0x236F7C0")]
 	public static Tweener SetOptions(this TweenerCore<string, string, StringOptions> t, bool richTextEnabled, [Optional][DefaultParameterValue(0)] ScrambleMode scrambleMode, [Optional] string scrambleChars)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600028E")]
-	[Address(RVA = "0x23001B0", Offset = "0x23001B0", VA = "0x23001B0")]
+	[Address(RVA = "0x2366A90", Offset = "0x2366A90", VA = "0x2366A90")]
 	public static Tweener SetOptions(this TweenerCore<Vector3, Vector3[], Vector3ArrayOptions> t, bool snapping)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600028F")]
-	[Address(RVA = "0x2308FC0", Offset = "0x2308FC0", VA = "0x2308FC0")]
+	[Address(RVA = "0x236F8A0", Offset = "0x236F8A0", VA = "0x236F8A0")]
 	public static Tweener SetOptions(this TweenerCore<Vector3, Vector3[], Vector3ArrayOptions> t, AxisConstraint axisConstraint, bool snapping = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000290")]
-	[Address(RVA = "0x2308FE0", Offset = "0x2308FE0", VA = "0x2308FE0")]
+	[Address(RVA = "0x236F8C0", Offset = "0x236F8C0", VA = "0x236F8C0")]
 	public static Tweener SetOptions(this TweenerCore<Vector2, Vector2, CircleOptions> t, float endValueDegrees, bool relativeCenter = true, bool snapping = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000291")]
-	[Address(RVA = "0x2309010", Offset = "0x2309010", VA = "0x2309010")]
+	[Address(RVA = "0x236F8F0", Offset = "0x236F8F0", VA = "0x236F8F0")]
 	public static TweenerCore<Vector3, Path, PathOptions> SetOptions(this TweenerCore<Vector3, Path, PathOptions> t, AxisConstraint lockPosition, AxisConstraint lockRotation = AxisConstraint.None)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000292")]
-	[Address(RVA = "0x2309040", Offset = "0x2309040", VA = "0x2309040")]
+	[Address(RVA = "0x236F920", Offset = "0x236F920", VA = "0x236F920")]
 	public static TweenerCore<Vector3, Path, PathOptions> SetOptions(this TweenerCore<Vector3, Path, PathOptions> t, bool closePath, AxisConstraint lockPosition = AxisConstraint.None, AxisConstraint lockRotation = AxisConstraint.None)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000293")]
-	[Address(RVA = "0x2309070", Offset = "0x2309070", VA = "0x2309070")]
+	[Address(RVA = "0x236F950", Offset = "0x236F950", VA = "0x236F950")]
 	public static TweenerCore<Vector3, Path, PathOptions> SetLookAt(this TweenerCore<Vector3, Path, PathOptions> t, Vector3 lookAtPosition, [Optional] Vector3? forwardDirection, [Optional] Vector3? up)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000294")]
-	[Address(RVA = "0x23091A0", Offset = "0x23091A0", VA = "0x23091A0")]
+	[Address(RVA = "0x236FA80", Offset = "0x236FA80", VA = "0x236FA80")]
 	public static TweenerCore<Vector3, Path, PathOptions> SetLookAt(this TweenerCore<Vector3, Path, PathOptions> t, Vector3 lookAtPosition, bool stableZRotation)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000295")]
-	[Address(RVA = "0x23091F0", Offset = "0x23091F0", VA = "0x23091F0")]
+	[Address(RVA = "0x236FAD0", Offset = "0x236FAD0", VA = "0x236FAD0")]
 	public static TweenerCore<Vector3, Path, PathOptions> SetLookAt(this TweenerCore<Vector3, Path, PathOptions> t, Transform lookAtTransform, [Optional] Vector3? forwardDirection, [Optional] Vector3? up)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000296")]
-	[Address(RVA = "0x23092D0", Offset = "0x23092D0", VA = "0x23092D0")]
+	[Address(RVA = "0x236FBB0", Offset = "0x236FBB0", VA = "0x236FBB0")]
 	public static TweenerCore<Vector3, Path, PathOptions> SetLookAt(this TweenerCore<Vector3, Path, PathOptions> t, Transform lookAtTransform, bool stableZRotation)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000297")]
-	[Address(RVA = "0x2309390", Offset = "0x2309390", VA = "0x2309390")]
+	[Address(RVA = "0x236FC70", Offset = "0x236FC70", VA = "0x236FC70")]
 	public static TweenerCore<Vector3, Path, PathOptions> SetLookAt(this TweenerCore<Vector3, Path, PathOptions> t, float lookAhead, [Optional] Vector3? forwardDirection, [Optional] Vector3? up)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000298")]
-	[Address(RVA = "0x2309470", Offset = "0x2309470", VA = "0x2309470")]
+	[Address(RVA = "0x236FD50", Offset = "0x236FD50", VA = "0x236FD50")]
 	public static TweenerCore<Vector3, Path, PathOptions> SetLookAt(this TweenerCore<Vector3, Path, PathOptions> t, float lookAhead, bool stableZRotation)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000299")]
-	[Address(RVA = "0x23090C0", Offset = "0x23090C0", VA = "0x23090C0")]
+	[Address(RVA = "0x236F9A0", Offset = "0x236F9A0", VA = "0x236F9A0")]
 	private static TweenerCore<Vector3, Path, PathOptions> SetLookAt(this TweenerCore<Vector3, Path, PathOptions> t, OrientType orientType, Vector3 lookAtPosition, Transform lookAtTransform, float lookAhead, [Optional] Vector3? forwardDirection, [Optional] Vector3? up, bool stableZRotation = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600029A")]
-	[Address(RVA = "0x2309530", Offset = "0x2309530", VA = "0x2309530")]
+	[Address(RVA = "0x236FE10", Offset = "0x236FE10", VA = "0x236FE10")]
 	private static void SetPathForwardDirection(this TweenerCore<Vector3, Path, PathOptions> t, [Optional] Vector3? forwardDirection, [Optional] Vector3? up)
 	{
 	}

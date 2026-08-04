@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.RC2Transform
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using Mono.Security.Cryptography;
 
@@ -35,13 +42,13 @@ internal class RC2Transform : Mono.Security.Cryptography.SymmetricTransform
 	private static readonly byte[] pitable;
 
 	[Token(Token = "0x6001B40")]
-	[Address(RVA = "0x4E6DF80", Offset = "0x4E6DF80", VA = "0x4E6DF80")]
+	[Address(RVA = "0x3B53AA0", Offset = "0x3B53AA0", VA = "0x3B53AA0")]
 	public RC2Transform(RC2 rc2Algo, bool encryption, byte[] key, byte[] iv)
 	{
 	}
 
 	[Token(Token = "0x6001B41")]
-	[Address(RVA = "0x4E6E520", Offset = "0x4E6E520", VA = "0x4E6E520", Slot = "17")]
+	[Address(RVA = "0x3B54040", Offset = "0x3B54040", VA = "0x3B54040", Slot = "17")]
 	protected override void ECB(byte[] input, byte[] output)
 	{
 	}

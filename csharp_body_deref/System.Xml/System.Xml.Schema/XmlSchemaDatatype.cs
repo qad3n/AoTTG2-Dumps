@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XmlSchemaDatatype
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -23,7 +30,7 @@ public abstract class XmlSchemaDatatype
 	public virtual XmlSchemaDatatypeVariety Variety
 	{
 		[Token(Token = "0x60015E2")]
-		[Address(RVA = "0x43E4FC0", Offset = "0x43E4FC0", VA = "0x43E4FC0", Slot = "7")]
+		[Address(RVA = "0x4722720", Offset = "0x4722720", VA = "0x4722720", Slot = "7")]
 		get
 		{
 			return default(XmlSchemaDatatypeVariety);
@@ -34,7 +41,7 @@ public abstract class XmlSchemaDatatype
 	public virtual XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x60015E3")]
-		[Address(RVA = "0x43E4FD0", Offset = "0x43E4FD0", VA = "0x43E4FD0", Slot = "8")]
+		[Address(RVA = "0x4722730", Offset = "0x4722730", VA = "0x4722730", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -87,7 +94,7 @@ public abstract class XmlSchemaDatatype
 	internal string TypeCodeString
 	{
 		[Token(Token = "0x60015F4")]
-		[Address(RVA = "0x43E4FF0", Offset = "0x43E4FF0", VA = "0x43E4FF0")]
+		[Address(RVA = "0x4722750", Offset = "0x4722750", VA = "0x4722750")]
 		get
 		{
 			return null;
@@ -98,7 +105,7 @@ public abstract class XmlSchemaDatatype
 	public abstract object ParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr);
 
 	[Token(Token = "0x60015E4")]
-	[Address(RVA = "0x43E4FE0", Offset = "0x43E4FE0", VA = "0x43E4FE0", Slot = "9")]
+	[Address(RVA = "0x4722740", Offset = "0x4722740", VA = "0x4722740", Slot = "9")]
 	public virtual bool IsDerivedFrom(XmlSchemaDatatype datatype)
 	{
 		return default(bool);
@@ -132,56 +139,56 @@ public abstract class XmlSchemaDatatype
 	internal abstract bool IsComparable(XmlSchemaDatatype dtype);
 
 	[Token(Token = "0x60015F5")]
-	[Address(RVA = "0x43E50E0", Offset = "0x43E50E0", VA = "0x43E50E0")]
+	[Address(RVA = "0x4722840", Offset = "0x4722840", VA = "0x4722840")]
 	internal string TypeCodeToString(XmlTypeCode typeCode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60015F6")]
-	[Address(RVA = "0x43E5620", Offset = "0x43E5620", VA = "0x43E5620")]
+	[Address(RVA = "0x4722D80", Offset = "0x4722D80", VA = "0x4722D80")]
 	internal static string ConcatenatedToString(object value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60015F7")]
-	[Address(RVA = "0x43D3370", Offset = "0x43D3370", VA = "0x43D3370")]
+	[Address(RVA = "0x4710AD0", Offset = "0x4710AD0", VA = "0x4710AD0")]
 	internal static XmlSchemaDatatype FromXmlTokenizedType(XmlTokenizedType token)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60015F8")]
-	[Address(RVA = "0x43E5D60", Offset = "0x43E5D60", VA = "0x43E5D60")]
+	[Address(RVA = "0x47234C0", Offset = "0x47234C0", VA = "0x47234C0")]
 	internal static XmlSchemaDatatype FromXmlTokenizedTypeXsd(XmlTokenizedType token)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60015F9")]
-	[Address(RVA = "0x43D18B0", Offset = "0x43D18B0", VA = "0x43D18B0")]
+	[Address(RVA = "0x470F010", Offset = "0x470F010", VA = "0x470F010")]
 	internal static XmlSchemaDatatype FromXdrName(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60015FA")]
-	[Address(RVA = "0x43E5DC0", Offset = "0x43E5DC0", VA = "0x43E5DC0")]
+	[Address(RVA = "0x4723520", Offset = "0x4723520", VA = "0x4723520")]
 	internal static XmlSchemaDatatype DeriveByUnion(XmlSchemaSimpleType[] types, XmlSchemaType schemaType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60015FB")]
-	[Address(RVA = "0x43CEFA0", Offset = "0x43CEFA0", VA = "0x43CEFA0")]
+	[Address(RVA = "0x470C700", Offset = "0x470C700", VA = "0x470C700")]
 	internal static string XdrCanonizeUri(string uri, XmlNameTable nameTable, SchemaNames schemaNames)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60015FC")]
-	[Address(RVA = "0x43E5E20", Offset = "0x43E5E20", VA = "0x43E5E20")]
+	[Address(RVA = "0x4723580", Offset = "0x4723580", VA = "0x4723580")]
 	protected XmlSchemaDatatype()
 	{
 	}

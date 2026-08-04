@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XmlSchemaParticle
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.Serialization;
 using Il2CppDummyDll;
 
@@ -25,7 +32,7 @@ public abstract class XmlSchemaParticle : XmlSchemaAnnotated
 		internal override bool IsEmpty
 		{
 			[Token(Token = "0x6001713")]
-			[Address(RVA = "0x43EA9A0", Offset = "0x43EA9A0", VA = "0x43EA9A0", Slot = "14")]
+			[Address(RVA = "0x4728100", Offset = "0x4728100", VA = "0x4728100", Slot = "14")]
 			get
 			{
 				return default(bool);
@@ -33,7 +40,7 @@ public abstract class XmlSchemaParticle : XmlSchemaAnnotated
 		}
 
 		[Token(Token = "0x6001714")]
-		[Address(RVA = "0x43EA8C0", Offset = "0x43EA8C0", VA = "0x43EA8C0")]
+		[Address(RVA = "0x4728020", Offset = "0x4728020", VA = "0x4728020")]
 		public EmptyParticle()
 		{
 		}
@@ -60,13 +67,13 @@ public abstract class XmlSchemaParticle : XmlSchemaAnnotated
 	public string MinOccursString
 	{
 		[Token(Token = "0x6001706")]
-		[Address(RVA = "0x43E9D80", Offset = "0x43E9D80", VA = "0x43E9D80")]
+		[Address(RVA = "0x47274E0", Offset = "0x47274E0", VA = "0x47274E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001707")]
-		[Address(RVA = "0x43E9DF0", Offset = "0x43E9DF0", VA = "0x43E9DF0")]
+		[Address(RVA = "0x4727550", Offset = "0x4727550", VA = "0x4727550")]
 		set
 		{
 		}
@@ -77,13 +84,13 @@ public abstract class XmlSchemaParticle : XmlSchemaAnnotated
 	public string MaxOccursString
 	{
 		[Token(Token = "0x6001708")]
-		[Address(RVA = "0x43E9F40", Offset = "0x43E9F40", VA = "0x43E9F40")]
+		[Address(RVA = "0x47276A0", Offset = "0x47276A0", VA = "0x47276A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001709")]
-		[Address(RVA = "0x43EA040", Offset = "0x43EA040", VA = "0x43EA040")]
+		[Address(RVA = "0x47277A0", Offset = "0x47277A0", VA = "0x47277A0")]
 		set
 		{
 		}
@@ -94,13 +101,13 @@ public abstract class XmlSchemaParticle : XmlSchemaAnnotated
 	public decimal MinOccurs
 	{
 		[Token(Token = "0x600170A")]
-		[Address(RVA = "0x43EA250", Offset = "0x43EA250", VA = "0x43EA250")]
+		[Address(RVA = "0x47279B0", Offset = "0x47279B0", VA = "0x47279B0")]
 		get
 		{
 			return default(decimal);
 		}
 		[Token(Token = "0x600170B")]
-		[Address(RVA = "0x43EA260", Offset = "0x43EA260", VA = "0x43EA260")]
+		[Address(RVA = "0x47279C0", Offset = "0x47279C0", VA = "0x47279C0")]
 		set
 		{
 		}
@@ -111,13 +118,13 @@ public abstract class XmlSchemaParticle : XmlSchemaAnnotated
 	public decimal MaxOccurs
 	{
 		[Token(Token = "0x600170C")]
-		[Address(RVA = "0x43EA380", Offset = "0x43EA380", VA = "0x43EA380")]
+		[Address(RVA = "0x4727AE0", Offset = "0x4727AE0", VA = "0x4727AE0")]
 		get
 		{
 			return default(decimal);
 		}
 		[Token(Token = "0x600170D")]
-		[Address(RVA = "0x43EA390", Offset = "0x43EA390", VA = "0x43EA390")]
+		[Address(RVA = "0x4727AF0", Offset = "0x4727AF0", VA = "0x4727AF0")]
 		set
 		{
 		}
@@ -127,7 +134,7 @@ public abstract class XmlSchemaParticle : XmlSchemaAnnotated
 	internal virtual bool IsEmpty
 	{
 		[Token(Token = "0x600170E")]
-		[Address(RVA = "0x43EA500", Offset = "0x43EA500", VA = "0x43EA500", Slot = "14")]
+		[Address(RVA = "0x4727C60", Offset = "0x4727C60", VA = "0x4727C60", Slot = "14")]
 		get
 		{
 			return default(bool);
@@ -138,7 +145,7 @@ public abstract class XmlSchemaParticle : XmlSchemaAnnotated
 	internal virtual string NameString
 	{
 		[Token(Token = "0x600170F")]
-		[Address(RVA = "0x43EA570", Offset = "0x43EA570", VA = "0x43EA570", Slot = "15")]
+		[Address(RVA = "0x4727CD0", Offset = "0x4727CD0", VA = "0x4727CD0", Slot = "15")]
 		get
 		{
 			return null;
@@ -146,14 +153,14 @@ public abstract class XmlSchemaParticle : XmlSchemaAnnotated
 	}
 
 	[Token(Token = "0x6001710")]
-	[Address(RVA = "0x43EA590", Offset = "0x43EA590", VA = "0x43EA590")]
+	[Address(RVA = "0x4727CF0", Offset = "0x4727CF0", VA = "0x4727CF0")]
 	internal XmlQualifiedName GetQualifiedName()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001711")]
-	[Address(RVA = "0x43EA700", Offset = "0x43EA700", VA = "0x43EA700")]
+	[Address(RVA = "0x4727E60", Offset = "0x4727E60", VA = "0x4727E60")]
 	protected XmlSchemaParticle()
 	{
 	}

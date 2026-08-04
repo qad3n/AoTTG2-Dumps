@@ -1,13 +1,14 @@
 // Type: UI.ScoreboardCategoryPanel
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/ScoreboardCategoryPanel.cs
-// Prior real C# source (REFERENCE, outdated): Assets/Scripts/UI/InGameMenu/ScoreboardCategoryPanel.cs  [prior source available (delta unverified)]
+// Prior real C# source (older reference): Assets/Scripts/UI/InGameMenu/ScoreboardCategoryPanel.cs
 // --------------------------------
 
 // UI.ScoreboardCategoryPanel$$get_ScrollBar
 // il2cpp: bool UI_ScoreboardCategoryPanel__get_ScrollBar (UI_ScoreboardCategoryPanel_o* __this, const MethodInfo* method);
-// 0x40c7a10
+// 0x43d9f20
 
 bool_conflict
 UI_ScoreboardCategoryPanel__get_ScrollBar(UI_ScoreboardCategoryPanel_o *__this,MethodInfo *method)
@@ -21,15 +22,15 @@ UI_ScoreboardCategoryPanel__get_ScrollBar(UI_ScoreboardCategoryPanel_o *__this,M
 
 // UI.ScoreboardCategoryPanel$$get_ThemePanel
 // il2cpp: System_String_o* UI_ScoreboardCategoryPanel__get_ThemePanel (UI_ScoreboardCategoryPanel_o* __this, const MethodInfo* method);
-// 0x40c7a20
+// 0x43d9f30
 
 System_String_o *
 UI_ScoreboardCategoryPanel__get_ThemePanel(UI_ScoreboardCategoryPanel_o *__this,MethodInfo *method)
 
 {
-  if (DAT_057046e5 == '\0') {
-    il2cpp_init_method_metadata(&"ScoreboardPopup");
-    DAT_057046e5 = '\x01';
+  if (g_data_057ae476 == '\0') {
+    il2cpp_runtime_helper_023445d0(&"ScoreboardPopup");
+    g_data_057ae476 = '\x01';
   }
   return "ScoreboardPopup";
 }
@@ -37,7 +38,7 @@ UI_ScoreboardCategoryPanel__get_ThemePanel(UI_ScoreboardCategoryPanel_o *__this,
 
 // UI.ScoreboardCategoryPanel$$.ctor
 // il2cpp: void UI_ScoreboardCategoryPanel___ctor (UI_ScoreboardCategoryPanel_o* __this, const MethodInfo* method);
-// 0x40c7a50
+// 0x43d9f60
 
 void UI_ScoreboardCategoryPanel___ctor(UI_ScoreboardCategoryPanel_o *__this,MethodInfo *method)
 

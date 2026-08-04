@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Rotate
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -25,7 +32,7 @@ public struct Rotate : IEquatable<Rotate>
 			public override string Name
 			{
 				[Token(Token = "0x60015DE")]
-				[Address(RVA = "0x4D85BE0", Offset = "0x4D85BE0", VA = "0x4D85BE0", Slot = "7")]
+				[Address(RVA = "0x50AD510", Offset = "0x50AD510", VA = "0x50AD510", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -34,7 +41,7 @@ public struct Rotate : IEquatable<Rotate>
 			}
 
 			[Token(Token = "0x60015DF")]
-			[Address(RVA = "0x4D85B20", Offset = "0x4D85B20", VA = "0x4D85B20")]
+			[Address(RVA = "0x50AD450", Offset = "0x50AD450", VA = "0x50AD450")]
 			public AngleProperty()
 			{
 			}
@@ -53,7 +60,7 @@ public struct Rotate : IEquatable<Rotate>
 			public override string Name
 			{
 				[Token(Token = "0x60015E0")]
-				[Address(RVA = "0x4D85BF0", Offset = "0x4D85BF0", VA = "0x4D85BF0", Slot = "7")]
+				[Address(RVA = "0x50AD520", Offset = "0x50AD520", VA = "0x50AD520", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -62,14 +69,14 @@ public struct Rotate : IEquatable<Rotate>
 			}
 
 			[Token(Token = "0x60015E1")]
-			[Address(RVA = "0x4D85B80", Offset = "0x4D85B80", VA = "0x4D85B80")]
+			[Address(RVA = "0x50AD4B0", Offset = "0x50AD4B0", VA = "0x50AD4B0")]
 			public AxisProperty()
 			{
 			}
 		}
 
 		[Token(Token = "0x60015DD")]
-		[Address(RVA = "0x4D85990", Offset = "0x4D85990", VA = "0x4D85990")]
+		[Address(RVA = "0x50AD2C0", Offset = "0x50AD2C0", VA = "0x50AD2C0")]
 		public PropertyBag()
 		{
 		}
@@ -91,82 +98,82 @@ public struct Rotate : IEquatable<Rotate>
 	public Angle angle
 	{
 		[Token(Token = "0x60015D4")]
-		[Address(RVA = "0x4D85670", Offset = "0x4D85670", VA = "0x4D85670")]
+		[Address(RVA = "0x50ACFA0", Offset = "0x50ACFA0", VA = "0x50ACFA0")]
 		get
 		{
 			return default(Angle);
 		}
 		[Token(Token = "0x60015D5")]
-		[Address(RVA = "0x4D85680", Offset = "0x4D85680", VA = "0x4D85680")]
+		[Address(RVA = "0x50ACFB0", Offset = "0x50ACFB0", VA = "0x50ACFB0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60015D1")]
-	[Address(RVA = "0x4D854D0", Offset = "0x4D854D0", VA = "0x4D854D0")]
+	[Address(RVA = "0x50ACE00", Offset = "0x50ACE00", VA = "0x50ACE00")]
 	public Rotate(Angle angle)
 	{
 	}
 
 	[Token(Token = "0x60015D2")]
-	[Address(RVA = "0x4D85520", Offset = "0x4D85520", VA = "0x4D85520")]
+	[Address(RVA = "0x50ACE50", Offset = "0x50ACE50", VA = "0x50ACE50")]
 	internal static Rotate Initial()
 	{
 		return default(Rotate);
 	}
 
 	[Token(Token = "0x60015D3")]
-	[Address(RVA = "0x4D855C0", Offset = "0x4D855C0", VA = "0x4D855C0")]
+	[Address(RVA = "0x50ACEF0", Offset = "0x50ACEF0", VA = "0x50ACEF0")]
 	public static Rotate None()
 	{
 		return default(Rotate);
 	}
 
 	[Token(Token = "0x60015D6")]
-	[Address(RVA = "0x4D834D0", Offset = "0x4D834D0", VA = "0x4D834D0")]
+	[Address(RVA = "0x50AAE00", Offset = "0x50AAE00", VA = "0x50AAE00")]
 	public static bool operator ==(Rotate lhs, Rotate rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60015D7")]
-	[Address(RVA = "0x4D85690", Offset = "0x4D85690", VA = "0x4D85690")]
+	[Address(RVA = "0x50ACFC0", Offset = "0x50ACFC0", VA = "0x50ACFC0")]
 	public static bool operator !=(Rotate lhs, Rotate rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60015D8")]
-	[Address(RVA = "0x4D85750", Offset = "0x4D85750", VA = "0x4D85750", Slot = "4")]
+	[Address(RVA = "0x50AD080", Offset = "0x50AD080", VA = "0x50AD080", Slot = "4")]
 	public bool Equals(Rotate other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60015D9")]
-	[Address(RVA = "0x4D85810", Offset = "0x4D85810", VA = "0x4D85810", Slot = "0")]
+	[Address(RVA = "0x50AD140", Offset = "0x50AD140", VA = "0x50AD140", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60015DA")]
-	[Address(RVA = "0x4D83B40", Offset = "0x4D83B40", VA = "0x4D83B40", Slot = "2")]
+	[Address(RVA = "0x50AB470", Offset = "0x50AB470", VA = "0x50AB470", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60015DB")]
-	[Address(RVA = "0x4D85910", Offset = "0x4D85910", VA = "0x4D85910", Slot = "3")]
+	[Address(RVA = "0x50AD240", Offset = "0x50AD240", VA = "0x50AD240", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60015DC")]
-	[Address(RVA = "0x4D85970", Offset = "0x4D85970", VA = "0x4D85970")]
+	[Address(RVA = "0x50AD2A0", Offset = "0x50AD2A0", VA = "0x50AD2A0")]
 	internal Quaternion ToQuaternion()
 	{
 		return default(Quaternion);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Globalization.CultureInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -220,7 +227,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	internal System.Globalization.CultureData _cultureData
 	{
 		[Token(Token = "0x6002DE3")]
-		[Address(RVA = "0x4F8D240", Offset = "0x4F8D240", VA = "0x4F8D240")]
+		[Address(RVA = "0x3C72D60", Offset = "0x3C72D60", VA = "0x3C72D60")]
 		get
 		{
 			return null;
@@ -231,7 +238,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	internal bool _isInherited
 	{
 		[Token(Token = "0x6002DE4")]
-		[Address(RVA = "0x4F8D250", Offset = "0x4F8D250", VA = "0x4F8D250")]
+		[Address(RVA = "0x3C72D70", Offset = "0x3C72D70", VA = "0x3C72D70")]
 		get
 		{
 			return default(bool);
@@ -242,7 +249,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	public static CultureInfo InvariantCulture
 	{
 		[Token(Token = "0x6002DE5")]
-		[Address(RVA = "0x4F75660", Offset = "0x4F75660", VA = "0x4F75660")]
+		[Address(RVA = "0x3C5B180", Offset = "0x3C5B180", VA = "0x3C5B180")]
 		get
 		{
 			return null;
@@ -253,7 +260,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	public static CultureInfo CurrentCulture
 	{
 		[Token(Token = "0x6002DE6")]
-		[Address(RVA = "0x4F758A0", Offset = "0x4F758A0", VA = "0x4F758A0")]
+		[Address(RVA = "0x3C5B3C0", Offset = "0x3C5B3C0", VA = "0x3C5B3C0")]
 		get
 		{
 			return null;
@@ -264,7 +271,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	public static CultureInfo CurrentUICulture
 	{
 		[Token(Token = "0x6002DE7")]
-		[Address(RVA = "0x4F8D260", Offset = "0x4F8D260", VA = "0x4F8D260")]
+		[Address(RVA = "0x3C72D80", Offset = "0x3C72D80", VA = "0x3C72D80")]
 		get
 		{
 			return null;
@@ -275,7 +282,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	internal string Territory
 	{
 		[Token(Token = "0x6002DEA")]
-		[Address(RVA = "0x4F8D940", Offset = "0x4F8D940", VA = "0x4F8D940")]
+		[Address(RVA = "0x3C73460", Offset = "0x3C73460", VA = "0x3C73460")]
 		get
 		{
 			return null;
@@ -286,7 +293,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	internal string _name
 	{
 		[Token(Token = "0x6002DEB")]
-		[Address(RVA = "0x4F8D950", Offset = "0x4F8D950", VA = "0x4F8D950")]
+		[Address(RVA = "0x3C73470", Offset = "0x3C73470", VA = "0x3C73470")]
 		get
 		{
 			return null;
@@ -297,7 +304,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	public virtual int LCID
 	{
 		[Token(Token = "0x6002DEC")]
-		[Address(RVA = "0x4F8D960", Offset = "0x4F8D960", VA = "0x4F8D960", Slot = "6")]
+		[Address(RVA = "0x3C73480", Offset = "0x3C73480", VA = "0x3C73480", Slot = "6")]
 		get
 		{
 			return default(int);
@@ -308,7 +315,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	public virtual string Name
 	{
 		[Token(Token = "0x6002DED")]
-		[Address(RVA = "0x4F8D970", Offset = "0x4F8D970", VA = "0x4F8D970", Slot = "7")]
+		[Address(RVA = "0x3C73490", Offset = "0x3C73490", VA = "0x3C73490", Slot = "7")]
 		get
 		{
 			return null;
@@ -319,7 +326,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	public virtual Calendar Calendar
 	{
 		[Token(Token = "0x6002DEE")]
-		[Address(RVA = "0x4F8D980", Offset = "0x4F8D980", VA = "0x4F8D980", Slot = "8")]
+		[Address(RVA = "0x3C734A0", Offset = "0x3C734A0", VA = "0x3C734A0", Slot = "8")]
 		get
 		{
 			return null;
@@ -330,7 +337,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	public virtual CultureInfo Parent
 	{
 		[Token(Token = "0x6002DEF")]
-		[Address(RVA = "0x4F8DC30", Offset = "0x4F8DC30", VA = "0x4F8DC30", Slot = "9")]
+		[Address(RVA = "0x3C73750", Offset = "0x3C73750", VA = "0x3C73750", Slot = "9")]
 		get
 		{
 			return null;
@@ -341,7 +348,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	public virtual TextInfo TextInfo
 	{
 		[Token(Token = "0x6002DF0")]
-		[Address(RVA = "0x4F8DF20", Offset = "0x4F8DF20", VA = "0x4F8DF20", Slot = "10")]
+		[Address(RVA = "0x3C73A40", Offset = "0x3C73A40", VA = "0x3C73A40", Slot = "10")]
 		get
 		{
 			return null;
@@ -352,7 +359,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	public virtual CompareInfo CompareInfo
 	{
 		[Token(Token = "0x6002DF8")]
-		[Address(RVA = "0x4F8E990", Offset = "0x4F8E990", VA = "0x4F8E990", Slot = "12")]
+		[Address(RVA = "0x3C744B0", Offset = "0x3C744B0", VA = "0x3C744B0", Slot = "12")]
 		get
 		{
 			return null;
@@ -363,7 +370,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	public virtual bool IsNeutralCulture
 	{
 		[Token(Token = "0x6002DF9")]
-		[Address(RVA = "0x4F8EB00", Offset = "0x4F8EB00", VA = "0x4F8EB00", Slot = "13")]
+		[Address(RVA = "0x3C74620", Offset = "0x3C74620", VA = "0x3C74620", Slot = "13")]
 		get
 		{
 			return default(bool);
@@ -374,13 +381,13 @@ public class CultureInfo : ICloneable, IFormatProvider
 	public virtual NumberFormatInfo NumberFormat
 	{
 		[Token(Token = "0x6002DFB")]
-		[Address(RVA = "0x4F8EB50", Offset = "0x4F8EB50", VA = "0x4F8EB50", Slot = "14")]
+		[Address(RVA = "0x3C74670", Offset = "0x3C74670", VA = "0x3C74670", Slot = "14")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6002DFC")]
-		[Address(RVA = "0x4F8EBF0", Offset = "0x4F8EBF0", VA = "0x4F8EBF0", Slot = "15")]
+		[Address(RVA = "0x3C74710", Offset = "0x3C74710", VA = "0x3C74710", Slot = "15")]
 		set
 		{
 		}
@@ -390,13 +397,13 @@ public class CultureInfo : ICloneable, IFormatProvider
 	public virtual DateTimeFormatInfo DateTimeFormat
 	{
 		[Token(Token = "0x6002DFD")]
-		[Address(RVA = "0x4F8ECC0", Offset = "0x4F8ECC0", VA = "0x4F8ECC0", Slot = "16")]
+		[Address(RVA = "0x3C747E0", Offset = "0x3C747E0", VA = "0x3C747E0", Slot = "16")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6002DFE")]
-		[Address(RVA = "0x4F8EE80", Offset = "0x4F8EE80", VA = "0x4F8EE80", Slot = "17")]
+		[Address(RVA = "0x3C749A0", Offset = "0x3C749A0", VA = "0x3C749A0", Slot = "17")]
 		set
 		{
 		}
@@ -406,7 +413,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	public virtual string EnglishName
 	{
 		[Token(Token = "0x6002DFF")]
-		[Address(RVA = "0x4F8EF50", Offset = "0x4F8EF50", VA = "0x4F8EF50", Slot = "18")]
+		[Address(RVA = "0x3C74A70", Offset = "0x3C74A70", VA = "0x3C74A70", Slot = "18")]
 		get
 		{
 			return null;
@@ -417,7 +424,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	public bool IsReadOnly
 	{
 		[Token(Token = "0x6002E00")]
-		[Address(RVA = "0x4F8EF80", Offset = "0x4F8EF80", VA = "0x4F8EF80")]
+		[Address(RVA = "0x3C74AA0", Offset = "0x3C74AA0", VA = "0x3C74AA0")]
 		get
 		{
 			return default(bool);
@@ -428,7 +435,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	internal int CalendarType
 	{
 		[Token(Token = "0x6002E17")]
-		[Address(RVA = "0x4F8E740", Offset = "0x4F8E740", VA = "0x4F8E740")]
+		[Address(RVA = "0x3C74260", Offset = "0x3C74260", VA = "0x3C74260")]
 		get
 		{
 			return default(int);
@@ -439,13 +446,13 @@ public class CultureInfo : ICloneable, IFormatProvider
 	public static CultureInfo DefaultThreadCurrentCulture
 	{
 		[Token(Token = "0x6002E1A")]
-		[Address(RVA = "0x4F92080", Offset = "0x4F92080", VA = "0x4F92080")]
+		[Address(RVA = "0x3C77BA0", Offset = "0x3C77BA0", VA = "0x3C77BA0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6002E1B")]
-		[Address(RVA = "0x4F920D0", Offset = "0x4F920D0", VA = "0x4F920D0")]
+		[Address(RVA = "0x3C77BF0", Offset = "0x3C77BF0", VA = "0x3C77BF0")]
 		set
 		{
 		}
@@ -455,13 +462,13 @@ public class CultureInfo : ICloneable, IFormatProvider
 	public static CultureInfo DefaultThreadCurrentUICulture
 	{
 		[Token(Token = "0x6002E1C")]
-		[Address(RVA = "0x4F92140", Offset = "0x4F92140", VA = "0x4F92140")]
+		[Address(RVA = "0x3C77C60", Offset = "0x3C77C60", VA = "0x3C77C60")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6002E1D")]
-		[Address(RVA = "0x4F92190", Offset = "0x4F92190", VA = "0x4F92190")]
+		[Address(RVA = "0x3C77CB0", Offset = "0x3C77CB0", VA = "0x3C77CB0")]
 		set
 		{
 		}
@@ -471,7 +478,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	internal string SortName
 	{
 		[Token(Token = "0x6002E1E")]
-		[Address(RVA = "0x4F92200", Offset = "0x4F92200", VA = "0x4F92200")]
+		[Address(RVA = "0x3C77D20", Offset = "0x3C77D20", VA = "0x3C77D20")]
 		get
 		{
 			return null;
@@ -482,7 +489,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	internal static CultureInfo UserDefaultUICulture
 	{
 		[Token(Token = "0x6002E1F")]
-		[Address(RVA = "0x4F92210", Offset = "0x4F92210", VA = "0x4F92210")]
+		[Address(RVA = "0x3C77D30", Offset = "0x3C77D30", VA = "0x3C77D30")]
 		get
 		{
 			return null;
@@ -493,7 +500,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	internal static CultureInfo UserDefaultCulture
 	{
 		[Token(Token = "0x6002E20")]
-		[Address(RVA = "0x4F922B0", Offset = "0x4F922B0", VA = "0x4F922B0")]
+		[Address(RVA = "0x3C77DD0", Offset = "0x3C77DD0", VA = "0x3C77DD0")]
 		get
 		{
 			return null;
@@ -504,7 +511,7 @@ public class CultureInfo : ICloneable, IFormatProvider
 	internal bool HasInvariantCultureName
 	{
 		[Token(Token = "0x6002E26")]
-		[Address(RVA = "0x4F925A0", Offset = "0x4F925A0", VA = "0x4F925A0")]
+		[Address(RVA = "0x3C780C0", Offset = "0x3C780C0", VA = "0x3C780C0")]
 		get
 		{
 			return default(bool);
@@ -512,219 +519,219 @@ public class CultureInfo : ICloneable, IFormatProvider
 	}
 
 	[Token(Token = "0x6002DE8")]
-	[Address(RVA = "0x4F8D280", Offset = "0x4F8D280", VA = "0x4F8D280")]
+	[Address(RVA = "0x3C72DA0", Offset = "0x3C72DA0", VA = "0x3C72DA0")]
 	internal static CultureInfo ConstructCurrentCulture()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DE9")]
-	[Address(RVA = "0x4F8D8E0", Offset = "0x4F8D8E0", VA = "0x4F8D8E0")]
+	[Address(RVA = "0x3C73400", Offset = "0x3C73400", VA = "0x3C73400")]
 	internal static CultureInfo ConstructCurrentUICulture()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DF1")]
-	[Address(RVA = "0x4F8E110", Offset = "0x4F8E110", VA = "0x4F8E110", Slot = "11")]
+	[Address(RVA = "0x3C73C30", Offset = "0x3C73C30", VA = "0x3C73C30", Slot = "11")]
 	public virtual object Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DF2")]
-	[Address(RVA = "0x4F8E2E0", Offset = "0x4F8E2E0", VA = "0x4F8E2E0", Slot = "0")]
+	[Address(RVA = "0x3C73E00", Offset = "0x3C73E00", VA = "0x3C73E00", Slot = "0")]
 	public override bool Equals(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002DF3")]
-	[Address(RVA = "0x4F8E370", Offset = "0x4F8E370", VA = "0x4F8E370")]
+	[Address(RVA = "0x3C73E90", Offset = "0x3C73E90", VA = "0x3C73E90")]
 	public static CultureInfo[] GetCultures(CultureTypes types)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DF4")]
-	[Address(RVA = "0x4F8E720", Offset = "0x4F8E720", VA = "0x4F8E720")]
+	[Address(RVA = "0x3C74240", Offset = "0x3C74240", VA = "0x3C74240")]
 	private Data GetTextInfoData()
 	{
 		return default(Data);
 	}
 
 	[Token(Token = "0x6002DF5")]
-	[Address(RVA = "0x4F8E7B0", Offset = "0x4F8E7B0", VA = "0x4F8E7B0", Slot = "2")]
+	[Address(RVA = "0x3C742D0", Offset = "0x3C742D0", VA = "0x3C742D0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002DF6")]
-	[Address(RVA = "0x4F8E7C0", Offset = "0x4F8E7C0", VA = "0x4F8E7C0")]
+	[Address(RVA = "0x3C742E0", Offset = "0x3C742E0", VA = "0x3C742E0")]
 	public static CultureInfo ReadOnly(CultureInfo ci)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DF7")]
-	[Address(RVA = "0x4F8E980", Offset = "0x4F8E980", VA = "0x4F8E980", Slot = "3")]
+	[Address(RVA = "0x3C744A0", Offset = "0x3C744A0", VA = "0x3C744A0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DFA")]
-	[Address(RVA = "0x4F8EB40", Offset = "0x4F8EB40", VA = "0x4F8EB40")]
+	[Address(RVA = "0x3C74660", Offset = "0x3C74660", VA = "0x3C74660")]
 	private void CheckNeutral()
 	{
 	}
 
 	[Token(Token = "0x6002E01")]
-	[Address(RVA = "0x4F8EF90", Offset = "0x4F8EF90", VA = "0x4F8EF90", Slot = "19")]
+	[Address(RVA = "0x3C74AB0", Offset = "0x3C74AB0", VA = "0x3C74AB0", Slot = "19")]
 	public virtual object GetFormat(Type formatType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002E02")]
-	[Address(RVA = "0x4F8DA20", Offset = "0x4F8DA20", VA = "0x4F8DA20")]
+	[Address(RVA = "0x3C73540", Offset = "0x3C73540", VA = "0x3C73540")]
 	private void Construct()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6002E03")]
-	[Address(RVA = "0x4F8F090", Offset = "0x4F8F090", VA = "0x4F8F090")]
+	[Address(RVA = "0x3C74BB0", Offset = "0x3C74BB0", VA = "0x3C74BB0")]
 	private extern bool construct_internal_locale_from_lcid(int lcid);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6002E04")]
-	[Address(RVA = "0x4F8F0A0", Offset = "0x4F8F0A0", VA = "0x4F8F0A0")]
+	[Address(RVA = "0x3C74BC0", Offset = "0x3C74BC0", VA = "0x3C74BC0")]
 	private extern bool construct_internal_locale_from_name(string name);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6002E05")]
-	[Address(RVA = "0x4F8D580", Offset = "0x4F8D580", VA = "0x4F8D580")]
+	[Address(RVA = "0x3C730A0", Offset = "0x3C730A0", VA = "0x3C730A0")]
 	private static extern string get_current_locale_name();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6002E06")]
-	[Address(RVA = "0x4F8E710", Offset = "0x4F8E710", VA = "0x4F8E710")]
+	[Address(RVA = "0x3C74230", Offset = "0x3C74230", VA = "0x3C74230")]
 	private static extern CultureInfo[] internal_get_cultures(bool neutral, bool specific, bool installed);
 
 	[Token(Token = "0x6002E07")]
-	[Address(RVA = "0x4F8F0B0", Offset = "0x4F8F0B0", VA = "0x4F8F0B0")]
+	[Address(RVA = "0x3C74BD0", Offset = "0x3C74BD0", VA = "0x3C74BD0")]
 	private void ConstructInvariant(bool read_only)
 	{
 	}
 
 	[Token(Token = "0x6002E08")]
-	[Address(RVA = "0x4F8E060", Offset = "0x4F8E060", VA = "0x4F8E060")]
+	[Address(RVA = "0x3C73B80", Offset = "0x3C73B80", VA = "0x3C73B80")]
 	private TextInfo CreateTextInfo(bool readOnly)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002E09")]
-	[Address(RVA = "0x4F8DF10", Offset = "0x4F8DF10", VA = "0x4F8DF10")]
+	[Address(RVA = "0x3C73A30", Offset = "0x3C73A30", VA = "0x3C73A30")]
 	public CultureInfo(int culture)
 	{
 	}
 
 	[Token(Token = "0x6002E0A")]
-	[Address(RVA = "0x4F8F280", Offset = "0x4F8F280", VA = "0x4F8F280")]
+	[Address(RVA = "0x3C74DA0", Offset = "0x3C74DA0", VA = "0x3C74DA0")]
 	public CultureInfo(int culture, bool useUserOverride)
 	{
 	}
 
 	[Token(Token = "0x6002E0B")]
-	[Address(RVA = "0x4F8F290", Offset = "0x4F8F290", VA = "0x4F8F290")]
+	[Address(RVA = "0x3C74DB0", Offset = "0x3C74DB0", VA = "0x3C74DB0")]
 	private CultureInfo(int culture, bool useUserOverride, bool read_only)
 	{
 	}
 
 	[Token(Token = "0x6002E0C")]
-	[Address(RVA = "0x4F772E0", Offset = "0x4F772E0", VA = "0x4F772E0")]
+	[Address(RVA = "0x3C5CE00", Offset = "0x3C5CE00", VA = "0x3C5CE00")]
 	public CultureInfo(string name)
 	{
 	}
 
 	[Token(Token = "0x6002E0D")]
-	[Address(RVA = "0x4F7E610", Offset = "0x4F7E610", VA = "0x4F7E610")]
+	[Address(RVA = "0x3C64130", Offset = "0x3C64130", VA = "0x3C64130")]
 	public CultureInfo(string name, bool useUserOverride)
 	{
 	}
 
 	[Token(Token = "0x6002E0E")]
-	[Address(RVA = "0x4F8F580", Offset = "0x4F8F580", VA = "0x4F8F580")]
+	[Address(RVA = "0x3C750A0", Offset = "0x3C750A0", VA = "0x3C750A0")]
 	private CultureInfo(string name, bool useUserOverride, bool read_only)
 	{
 	}
 
 	[Token(Token = "0x6002E0F")]
-	[Address(RVA = "0x4F8F9C0", Offset = "0x4F8F9C0", VA = "0x4F8F9C0")]
+	[Address(RVA = "0x3C754E0", Offset = "0x3C754E0", VA = "0x3C754E0")]
 	private CultureInfo()
 	{
 	}
 
 	[Token(Token = "0x6002E10")]
-	[Address(RVA = "0x4F8F9E0", Offset = "0x4F8F9E0", VA = "0x4F8F9E0")]
+	[Address(RVA = "0x3C75500", Offset = "0x3C75500", VA = "0x3C75500")]
 	private static void insert_into_shared_tables(CultureInfo c)
 	{
 	}
 
 	[Token(Token = "0x6002E11")]
-	[Address(RVA = "0x4F7A5C0", Offset = "0x4F7A5C0", VA = "0x4F7A5C0")]
+	[Address(RVA = "0x3C600E0", Offset = "0x3C600E0", VA = "0x3C600E0")]
 	public static CultureInfo GetCultureInfo(int culture)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002E12")]
-	[Address(RVA = "0x4F7A820", Offset = "0x4F7A820", VA = "0x4F7A820")]
+	[Address(RVA = "0x3C60340", Offset = "0x3C60340", VA = "0x3C60340")]
 	public static CultureInfo GetCultureInfo(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002E13")]
-	[Address(RVA = "0x4F8FBF0", Offset = "0x4F8FBF0", VA = "0x4F8FBF0")]
+	[Address(RVA = "0x3C75710", Offset = "0x3C75710", VA = "0x3C75710")]
 	internal static CultureInfo CreateCulture(string name, bool reference)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002E14")]
-	[Address(RVA = "0x4F8D590", Offset = "0x4F8D590", VA = "0x4F8D590")]
+	[Address(RVA = "0x3C730B0", Offset = "0x3C730B0", VA = "0x3C730B0")]
 	public static CultureInfo CreateSpecificCulture(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002E15")]
-	[Address(RVA = "0x4F8F8A0", Offset = "0x4F8F8A0", VA = "0x4F8F8A0")]
+	[Address(RVA = "0x3C753C0", Offset = "0x3C753C0", VA = "0x3C753C0")]
 	private bool ConstructLocaleFromName(string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002E16")]
-	[Address(RVA = "0x4F8FC60", Offset = "0x4F8FC60", VA = "0x4F8FC60")]
+	[Address(RVA = "0x3C75780", Offset = "0x3C75780", VA = "0x3C75780")]
 	private static CultureInfo CreateSpecificCultureFromNeutral(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002E18")]
-	[Address(RVA = "0x4F8DA40", Offset = "0x4F8DA40", VA = "0x4F8DA40")]
+	[Address(RVA = "0x3C73560", Offset = "0x3C73560", VA = "0x3C73560")]
 	private static Calendar CreateCalendar(int calendarType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002E19")]
-	[Address(RVA = "0x4F8F920", Offset = "0x4F8F920", VA = "0x4F8F920")]
+	[Address(RVA = "0x3C75440", Offset = "0x3C75440", VA = "0x3C75440")]
 	private static Exception CreateNotFoundException(string name)
 	{
 		return null;
@@ -732,43 +739,43 @@ public class CultureInfo : ICloneable, IFormatProvider
 
 	[PreserveSig]
 	[Token(Token = "0x6002E21")]
-	[Address(RVA = "0x4F92310", Offset = "0x4F92310", VA = "0x4F92310")]
+	[Address(RVA = "0x3C77E30", Offset = "0x3C77E30", VA = "0x3C77E30")]
 	private static extern void InitializeUserPreferredCultureInfoInAppX(OnCultureInfoChangedDelegate onCultureInfoChangedInAppX);
 
 	[PreserveSig]
 	[Token(Token = "0x6002E22")]
-	[Address(RVA = "0x4F92320", Offset = "0x4F92320", VA = "0x4F92320")]
+	[Address(RVA = "0x3C77E40", Offset = "0x3C77E40", VA = "0x3C77E40")]
 	private static extern void SetUserPreferredCultureInfoInAppX(string name);
 
 	[Token(Token = "0x6002E23")]
-	[Address(RVA = "0x4F8D190", Offset = "0x4F8D190", VA = "0x4F8D190")]
+	[Address(RVA = "0x3C72CB0", Offset = "0x3C72CB0", VA = "0x3C72CB0")]
 	[Mono.Interop.MonoPInvokeCallback(typeof(OnCultureInfoChangedDelegate))]
 	private static void OnCultureInfoChangedInAppX(string language)
 	{
 	}
 
 	[Token(Token = "0x6002E24")]
-	[Address(RVA = "0x4F92330", Offset = "0x4F92330", VA = "0x4F92330")]
+	[Address(RVA = "0x3C77E50", Offset = "0x3C77E50", VA = "0x3C77E50")]
 	internal static CultureInfo GetCultureInfoForUserPreferredLanguageInAppX()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002E25")]
-	[Address(RVA = "0x4F92440", Offset = "0x4F92440", VA = "0x4F92440")]
+	[Address(RVA = "0x3C77F60", Offset = "0x3C77F60", VA = "0x3C77F60")]
 	internal static void SetCultureInfoForUserPreferredLanguageInAppX(CultureInfo cultureInfo)
 	{
 	}
 
 	[Token(Token = "0x6002E27")]
-	[Address(RVA = "0x4F92680", Offset = "0x4F92680", VA = "0x4F92680")]
+	[Address(RVA = "0x3C781A0", Offset = "0x3C781A0", VA = "0x3C781A0")]
 	internal static bool VerifyCultureName(string cultureName, bool throwException)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002E28")]
-	[Address(RVA = "0x4F927B0", Offset = "0x4F927B0", VA = "0x4F927B0")]
+	[Address(RVA = "0x3C782D0", Offset = "0x3C782D0", VA = "0x3C782D0")]
 	internal static bool VerifyCultureName(CultureInfo culture, bool throwException)
 	{
 		return default(bool);

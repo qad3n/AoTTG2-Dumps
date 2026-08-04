@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.ContactPairHeader
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -34,7 +41,7 @@ public readonly struct ContactPairHeader
 	public Component Body
 	{
 		[Token(Token = "0x600013E")]
-		[Address(RVA = "0x4B4E5C0", Offset = "0x4B4E5C0", VA = "0x4B4E5C0")]
+		[Address(RVA = "0x4E75EF0", Offset = "0x4E75EF0", VA = "0x4E75EF0")]
 		get
 		{
 			return null;
@@ -45,7 +52,7 @@ public readonly struct ContactPairHeader
 	public Component OtherBody
 	{
 		[Token(Token = "0x600013F")]
-		[Address(RVA = "0x4B4E550", Offset = "0x4B4E550", VA = "0x4B4E550")]
+		[Address(RVA = "0x4E75E80", Offset = "0x4E75E80", VA = "0x4E75E80")]
 		get
 		{
 			return null;
@@ -56,7 +63,7 @@ public readonly struct ContactPairHeader
 	internal bool HasRemovedBody
 	{
 		[Token(Token = "0x6000140")]
-		[Address(RVA = "0x4B554C0", Offset = "0x4B554C0", VA = "0x4B554C0")]
+		[Address(RVA = "0x4E7CDF0", Offset = "0x4E7CDF0", VA = "0x4E7CDF0")]
 		get
 		{
 			return default(bool);
@@ -64,14 +71,14 @@ public readonly struct ContactPairHeader
 	}
 
 	[Token(Token = "0x6000141")]
-	[Address(RVA = "0x4B554D0", Offset = "0x4B554D0", VA = "0x4B554D0")]
+	[Address(RVA = "0x4E7CE00", Offset = "0x4E7CE00", VA = "0x4E7CE00")]
 	public unsafe ref ContactPair GetContactPair(int index)
 	{
 		return ref *(ContactPair*)null;
 	}
 
 	[Token(Token = "0x6000142")]
-	[Address(RVA = "0x4B5BDE0", Offset = "0x4B5BDE0", VA = "0x4B5BDE0")]
+	[Address(RVA = "0x4E83710", Offset = "0x4E83710", VA = "0x4E83710")]
 	internal unsafe ContactPair* GetContactPair_Internal(int index)
 	{
 		//IL_0002: Expected I, but got O

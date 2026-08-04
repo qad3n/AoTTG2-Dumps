@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.CastInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -27,13 +34,13 @@ internal abstract class CastInstruction : Instruction
 		private sealed class Ref : CastInstructionNoT
 		{
 			[Token(Token = "0x6000B1C")]
-			[Address(RVA = "0x41E0F60", Offset = "0x41E0F60", VA = "0x41E0F60")]
+			[Address(RVA = "0x4506060", Offset = "0x4506060", VA = "0x4506060")]
 			public Ref(Type t)
 			{
 			}
 
 			[Token(Token = "0x6000B1D")]
-			[Address(RVA = "0x41E10E0", Offset = "0x41E10E0", VA = "0x41E10E0", Slot = "11")]
+			[Address(RVA = "0x45061E0", Offset = "0x45061E0", VA = "0x45061E0", Slot = "11")]
 			protected override void ConvertNull(InterpretedFrame frame)
 			{
 			}
@@ -43,13 +50,13 @@ internal abstract class CastInstruction : Instruction
 		private sealed class Value : CastInstructionNoT
 		{
 			[Token(Token = "0x6000B1E")]
-			[Address(RVA = "0x41E0F30", Offset = "0x41E0F30", VA = "0x41E0F30")]
+			[Address(RVA = "0x4506030", Offset = "0x4506030", VA = "0x4506030")]
 			public Value(Type t)
 			{
 			}
 
 			[Token(Token = "0x6000B1F")]
-			[Address(RVA = "0x41E1100", Offset = "0x41E1100", VA = "0x41E1100", Slot = "11")]
+			[Address(RVA = "0x4506200", Offset = "0x4506200", VA = "0x4506200", Slot = "11")]
 			protected override void ConvertNull(InterpretedFrame frame)
 			{
 			}
@@ -60,20 +67,20 @@ internal abstract class CastInstruction : Instruction
 		private readonly Type _t;
 
 		[Token(Token = "0x6000B18")]
-		[Address(RVA = "0x41E0F00", Offset = "0x41E0F00", VA = "0x41E0F00")]
+		[Address(RVA = "0x4506000", Offset = "0x4506000", VA = "0x4506000")]
 		protected CastInstructionNoT(Type t)
 		{
 		}
 
 		[Token(Token = "0x6000B19")]
-		[Address(RVA = "0x41E0E30", Offset = "0x41E0E30", VA = "0x41E0E30")]
+		[Address(RVA = "0x4505F30", Offset = "0x4505F30", VA = "0x4505F30")]
 		public new static CastInstruction Create(Type t)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000B1A")]
-		[Address(RVA = "0x41E0F90", Offset = "0x41E0F90", VA = "0x41E0F90", Slot = "8")]
+		[Address(RVA = "0x4506090", Offset = "0x4506090", VA = "0x4506090", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
@@ -147,7 +154,7 @@ internal abstract class CastInstruction : Instruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x6000B11")]
-		[Address(RVA = "0x41E06B0", Offset = "0x41E06B0", VA = "0x41E06B0", Slot = "4")]
+		[Address(RVA = "0x45057B0", Offset = "0x45057B0", VA = "0x45057B0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -158,7 +165,7 @@ internal abstract class CastInstruction : Instruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x6000B12")]
-		[Address(RVA = "0x41E06C0", Offset = "0x41E06C0", VA = "0x41E06C0", Slot = "5")]
+		[Address(RVA = "0x45057C0", Offset = "0x45057C0", VA = "0x45057C0", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -169,7 +176,7 @@ internal abstract class CastInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x6000B13")]
-		[Address(RVA = "0x41E06D0", Offset = "0x41E06D0", VA = "0x41E06D0", Slot = "9")]
+		[Address(RVA = "0x45057D0", Offset = "0x45057D0", VA = "0x45057D0", Slot = "9")]
 		get
 		{
 			return null;
@@ -177,14 +184,14 @@ internal abstract class CastInstruction : Instruction
 	}
 
 	[Token(Token = "0x6000B14")]
-	[Address(RVA = "0x41E0700", Offset = "0x41E0700", VA = "0x41E0700")]
+	[Address(RVA = "0x4505800", Offset = "0x4505800", VA = "0x4505800")]
 	public static Instruction Create(Type t)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B15")]
-	[Address(RVA = "0x41E0EF0", Offset = "0x41E0EF0", VA = "0x41E0EF0")]
+	[Address(RVA = "0x4505FF0", Offset = "0x4505FF0", VA = "0x4505FF0")]
 	protected CastInstruction()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UxmlAsset
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -37,7 +44,7 @@ internal class UxmlAsset : IUxmlAttributes
 	public string fullTypeName
 	{
 		[Token(Token = "0x6001AF3")]
-		[Address(RVA = "0x4C43A40", Offset = "0x4C43A40", VA = "0x4C43A40")]
+		[Address(RVA = "0x4F6B370", Offset = "0x4F6B370", VA = "0x4F6B370")]
 		get
 		{
 			return null;
@@ -48,7 +55,7 @@ internal class UxmlAsset : IUxmlAttributes
 	public int id
 	{
 		[Token(Token = "0x6001AF4")]
-		[Address(RVA = "0x4C43A50", Offset = "0x4C43A50", VA = "0x4C43A50")]
+		[Address(RVA = "0x4F6B380", Offset = "0x4F6B380", VA = "0x4F6B380")]
 		get
 		{
 			return default(int);
@@ -59,7 +66,7 @@ internal class UxmlAsset : IUxmlAttributes
 	public int orderInDocument
 	{
 		[Token(Token = "0x6001AF5")]
-		[Address(RVA = "0x4C43A60", Offset = "0x4C43A60", VA = "0x4C43A60")]
+		[Address(RVA = "0x4F6B390", Offset = "0x4F6B390", VA = "0x4F6B390")]
 		get
 		{
 			return default(int);
@@ -70,7 +77,7 @@ internal class UxmlAsset : IUxmlAttributes
 	public int parentId
 	{
 		[Token(Token = "0x6001AF6")]
-		[Address(RVA = "0x4C43A70", Offset = "0x4C43A70", VA = "0x4C43A70")]
+		[Address(RVA = "0x4F6B3A0", Offset = "0x4F6B3A0", VA = "0x4F6B3A0")]
 		get
 		{
 			return default(int);
@@ -78,20 +85,20 @@ internal class UxmlAsset : IUxmlAttributes
 	}
 
 	[Token(Token = "0x6001AF7")]
-	[Address(RVA = "0x4C43A80", Offset = "0x4C43A80", VA = "0x4C43A80", Slot = "4")]
+	[Address(RVA = "0x4F6B3B0", Offset = "0x4F6B3B0", VA = "0x4F6B3B0", Slot = "4")]
 	public bool TryGetAttributeValue(string propertyName, out string value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001AF8")]
-	[Address(RVA = "0x4C43B50", Offset = "0x4C43B50", VA = "0x4C43B50")]
+	[Address(RVA = "0x4F6B480", Offset = "0x4F6B480", VA = "0x4F6B480")]
 	public void SetAttribute(string name, string value)
 	{
 	}
 
 	[Token(Token = "0x6001AF9")]
-	[Address(RVA = "0x4C43B60", Offset = "0x4C43B60", VA = "0x4C43B60")]
+	[Address(RVA = "0x4F6B490", Offset = "0x4F6B490", VA = "0x4F6B490")]
 	private void SetOrAddProperty(string propertyName, string propertyValue)
 	{
 	}

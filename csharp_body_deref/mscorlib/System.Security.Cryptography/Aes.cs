@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.Aes
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -16,20 +23,20 @@ public abstract class Aes : SymmetricAlgorithm
 	private static KeySizes[] s_legalKeySizes;
 
 	[Token(Token = "0x6001871")]
-	[Address(RVA = "0x4E46110", Offset = "0x4E46110", VA = "0x4E46110")]
+	[Address(RVA = "0x3B2BC30", Offset = "0x3B2BC30", VA = "0x3B2BC30")]
 	protected Aes()
 	{
 	}
 
 	[Token(Token = "0x6001872")]
-	[Address(RVA = "0x4E461B0", Offset = "0x4E461B0", VA = "0x4E461B0")]
+	[Address(RVA = "0x3B2BCD0", Offset = "0x3B2BCD0", VA = "0x3B2BCD0")]
 	public new static Aes Create()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001873")]
-	[Address(RVA = "0x4E46220", Offset = "0x4E46220", VA = "0x4E46220")]
+	[Address(RVA = "0x3B2BD40", Offset = "0x3B2BD40", VA = "0x3B2BD40")]
 	public new static Aes Create(string algorithmName)
 	{
 		return null;

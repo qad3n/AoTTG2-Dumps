@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.EnvoyInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.Remoting.Messaging;
 using Il2CppDummyDll;
 
@@ -15,7 +22,7 @@ internal class EnvoyInfo : IEnvoyInfo
 	public IMessageSink EnvoySinks
 	{
 		[Token(Token = "0x6001C19")]
-		[Address(RVA = "0x4E79D30", Offset = "0x4E79D30", VA = "0x4E79D30", Slot = "4")]
+		[Address(RVA = "0x3B5F850", Offset = "0x3B5F850", VA = "0x3B5F850", Slot = "4")]
 		get
 		{
 			return null;
@@ -23,7 +30,7 @@ internal class EnvoyInfo : IEnvoyInfo
 	}
 
 	[Token(Token = "0x6001C18")]
-	[Address(RVA = "0x4E79D00", Offset = "0x4E79D00", VA = "0x4E79D00")]
+	[Address(RVA = "0x3B5F820", Offset = "0x3B5F820", VA = "0x3B5F820")]
 	public EnvoyInfo(IMessageSink sinks)
 	{
 	}

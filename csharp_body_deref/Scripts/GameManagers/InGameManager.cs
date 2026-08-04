@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: GameManagers.InGameManager
+// Update status: CHANGED in this game update
+// Real method bodies (native C decompile): source/cpp/GameManagers/InGameManager.c
+// Prior real C# source (older reference): Assets/Scripts/GameManagers/InGameManager.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -14,26 +21,26 @@ using UnityEngine;
 
 namespace GameManagers;
 
-[Token(Token = "0x20001DD")]
+[Token(Token = "0x2000213")]
 internal class InGameManager : BaseGameManager
 {
-	[Token(Token = "0x20001E0")]
+	[Token(Token = "0x2000216")]
 	[CompilerGenerated]
-	private sealed class _003CFinishRestartGame_003Ed__42 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CFinishRestartGame_003Ed__46 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000A8F")]
+		[Token(Token = "0x4000B68")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000A90")]
+		[Token(Token = "0x4000B69")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x1700013B")]
+		[Token(Token = "0x17000192")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000B7C")]
-			[Address(RVA = "0x4132790", Offset = "0x4132790", VA = "0x4132790", Slot = "4")]
+			[Token(Token = "0x6000D11")]
+			[Address(RVA = "0x44671D0", Offset = "0x44671D0", VA = "0x44671D0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -41,11 +48,11 @@ internal class InGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x1700013C")]
+		[Token(Token = "0x17000193")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000B7E")]
-			[Address(RVA = "0x41327E0", Offset = "0x41327E0", VA = "0x41327E0", Slot = "7")]
+			[Token(Token = "0x6000D13")]
+			[Address(RVA = "0x4467220", Offset = "0x4467220", VA = "0x4467220", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -53,72 +60,72 @@ internal class InGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x6000B79")]
-		[Address(RVA = "0x41325A0", Offset = "0x41325A0", VA = "0x41325A0")]
+		[Token(Token = "0x6000D0E")]
+		[Address(RVA = "0x445B9B0", Offset = "0x445B9B0", VA = "0x445B9B0")]
 		[DebuggerHidden]
-		public _003CFinishRestartGame_003Ed__42(int _003C_003E1__state)
+		public _003CFinishRestartGame_003Ed__46(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000B7A")]
-		[Address(RVA = "0x41325C0", Offset = "0x41325C0", VA = "0x41325C0", Slot = "5")]
+		[Token(Token = "0x6000D0F")]
+		[Address(RVA = "0x4467000", Offset = "0x4467000", VA = "0x4467000", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000B7B")]
-		[Address(RVA = "0x41325D0", Offset = "0x41325D0", VA = "0x41325D0", Slot = "6")]
+		[Token(Token = "0x6000D10")]
+		[Address(RVA = "0x4467010", Offset = "0x4467010", VA = "0x4467010", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000B7D")]
-		[Address(RVA = "0x41327A0", Offset = "0x41327A0", VA = "0x41327A0", Slot = "8")]
+		[Token(Token = "0x6000D12")]
+		[Address(RVA = "0x44671E0", Offset = "0x44671E0", VA = "0x44671E0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x20001E1")]
+	[Token(Token = "0x2000217")]
 	[CompilerGenerated]
-	private sealed class _003CGetAllCharactersEnumerable_003Ed__32 : IEnumerable<BaseCharacter>, IEnumerable, IEnumerator<BaseCharacter>, IEnumerator, IDisposable
+	private sealed class _003CGetAllCharactersEnumerable_003Ed__36 : IEnumerable<BaseCharacter>, IEnumerable, IEnumerator<BaseCharacter>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000A91")]
+		[Token(Token = "0x4000B6A")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000A92")]
+		[Token(Token = "0x4000B6B")]
 		[FieldOffset(Offset = "0x18")]
 		private BaseCharacter _003C_003E2__current;
 
-		[Token(Token = "0x4000A93")]
+		[Token(Token = "0x4000B6C")]
 		[FieldOffset(Offset = "0x20")]
 		private int _003C_003El__initialThreadId;
 
-		[Token(Token = "0x4000A94")]
+		[Token(Token = "0x4000B6D")]
 		[FieldOffset(Offset = "0x28")]
 		public InGameManager _003C_003E4__this;
 
-		[Token(Token = "0x4000A95")]
+		[Token(Token = "0x4000B6E")]
 		[FieldOffset(Offset = "0x30")]
 		private HashSet<Human>.Enumerator _003C_003E7__wrap1;
 
-		[Token(Token = "0x4000A96")]
+		[Token(Token = "0x4000B6F")]
 		[FieldOffset(Offset = "0x48")]
 		private HashSet<BasicTitan>.Enumerator _003C_003E7__wrap2;
 
-		[Token(Token = "0x4000A97")]
+		[Token(Token = "0x4000B70")]
 		[FieldOffset(Offset = "0x60")]
 		private HashSet<BaseShifter>.Enumerator _003C_003E7__wrap3;
 
-		[Token(Token = "0x1700013D")]
+		[Token(Token = "0x17000194")]
 		private BaseCharacter System_002ECollections_002EGeneric_002EIEnumerator_003CCharacters_002EBaseCharacter_003E_002ECurrent
 		{
-			[Token(Token = "0x6000B85")]
-			[Address(RVA = "0x4133000", Offset = "0x4133000", VA = "0x4133000", Slot = "6")]
+			[Token(Token = "0x6000D1A")]
+			[Address(RVA = "0x4467A10", Offset = "0x4467A10", VA = "0x4467A10", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -126,11 +133,11 @@ internal class InGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x1700013E")]
+		[Token(Token = "0x17000195")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000B87")]
-			[Address(RVA = "0x4133050", Offset = "0x4133050", VA = "0x4133050", Slot = "9")]
+			[Token(Token = "0x6000D1C")]
+			[Address(RVA = "0x4467A60", Offset = "0x4467A60", VA = "0x4467A60", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -138,62 +145,62 @@ internal class InGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x6000B7F")]
-		[Address(RVA = "0x41327F0", Offset = "0x41327F0", VA = "0x41327F0")]
+		[Token(Token = "0x6000D14")]
+		[Address(RVA = "0x445B0D0", Offset = "0x445B0D0", VA = "0x445B0D0")]
 		[DebuggerHidden]
-		public _003CGetAllCharactersEnumerable_003Ed__32(int _003C_003E1__state)
+		public _003CGetAllCharactersEnumerable_003Ed__36(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000B80")]
-		[Address(RVA = "0x4132820", Offset = "0x4132820", VA = "0x4132820", Slot = "7")]
+		[Token(Token = "0x6000D15")]
+		[Address(RVA = "0x4467230", Offset = "0x4467230", VA = "0x4467230", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000B81")]
-		[Address(RVA = "0x4132910", Offset = "0x4132910", VA = "0x4132910", Slot = "8")]
+		[Token(Token = "0x6000D16")]
+		[Address(RVA = "0x4467320", Offset = "0x4467320", VA = "0x4467320", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000B82")]
-		[Address(RVA = "0x4132F40", Offset = "0x4132F40", VA = "0x4132F40")]
+		[Token(Token = "0x6000D17")]
+		[Address(RVA = "0x4467950", Offset = "0x4467950", VA = "0x4467950")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x6000B83")]
-		[Address(RVA = "0x4132F80", Offset = "0x4132F80", VA = "0x4132F80")]
+		[Token(Token = "0x6000D18")]
+		[Address(RVA = "0x4467990", Offset = "0x4467990", VA = "0x4467990")]
 		private void _003C_003Em__Finally2()
 		{
 		}
 
-		[Token(Token = "0x6000B84")]
-		[Address(RVA = "0x4132FC0", Offset = "0x4132FC0", VA = "0x4132FC0")]
+		[Token(Token = "0x6000D19")]
+		[Address(RVA = "0x44679D0", Offset = "0x44679D0", VA = "0x44679D0")]
 		private void _003C_003Em__Finally3()
 		{
 		}
 
-		[Token(Token = "0x6000B86")]
-		[Address(RVA = "0x4133010", Offset = "0x4133010", VA = "0x4133010", Slot = "10")]
+		[Token(Token = "0x6000D1B")]
+		[Address(RVA = "0x4467A20", Offset = "0x4467A20", VA = "0x4467A20", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x6000B88")]
-		[Address(RVA = "0x4133060", Offset = "0x4133060", VA = "0x4133060", Slot = "4")]
+		[Token(Token = "0x6000D1D")]
+		[Address(RVA = "0x4467A70", Offset = "0x4467A70", VA = "0x4467A70", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<BaseCharacter> System_002ECollections_002EGeneric_002EIEnumerable_003CCharacters_002EBaseCharacter_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000B89")]
-		[Address(RVA = "0x4133100", Offset = "0x4133100", VA = "0x4133100", Slot = "5")]
+		[Token(Token = "0x6000D1E")]
+		[Address(RVA = "0x4467B10", Offset = "0x4467B10", VA = "0x4467B10", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -201,23 +208,23 @@ internal class InGameManager : BaseGameManager
 		}
 	}
 
-	[Token(Token = "0x20001E2")]
+	[Token(Token = "0x2000218")]
 	[CompilerGenerated]
-	private sealed class _003COnLoadLevelSkinRPC_003Ed__104 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003COnLoadLevelSkinRPC_003Ed__111 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000A98")]
+		[Token(Token = "0x4000B71")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000A99")]
+		[Token(Token = "0x4000B72")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x1700013F")]
+		[Token(Token = "0x17000196")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000B8D")]
-			[Address(RVA = "0x4133160", Offset = "0x4133160", VA = "0x4133160", Slot = "4")]
+			[Token(Token = "0x6000D22")]
+			[Address(RVA = "0x4467B50", Offset = "0x4467B50", VA = "0x4467B50", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -225,11 +232,11 @@ internal class InGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x17000140")]
+		[Token(Token = "0x17000197")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000B8F")]
-			[Address(RVA = "0x41331B0", Offset = "0x41331B0", VA = "0x41331B0", Slot = "7")]
+			[Token(Token = "0x6000D24")]
+			[Address(RVA = "0x4467BA0", Offset = "0x4467BA0", VA = "0x4467BA0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -237,60 +244,60 @@ internal class InGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x6000B8A")]
-		[Address(RVA = "0x4133110", Offset = "0x4133110", VA = "0x4133110")]
+		[Token(Token = "0x6000D1F")]
+		[Address(RVA = "0x4466530", Offset = "0x4466530", VA = "0x4466530")]
 		[DebuggerHidden]
-		public _003COnLoadLevelSkinRPC_003Ed__104(int _003C_003E1__state)
+		public _003COnLoadLevelSkinRPC_003Ed__111(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000B8B")]
-		[Address(RVA = "0x4133130", Offset = "0x4133130", VA = "0x4133130", Slot = "5")]
+		[Token(Token = "0x6000D20")]
+		[Address(RVA = "0x4467B20", Offset = "0x4467B20", VA = "0x4467B20", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000B8C")]
-		[Address(RVA = "0x4133140", Offset = "0x4133140", VA = "0x4133140", Slot = "6")]
+		[Token(Token = "0x6000D21")]
+		[Address(RVA = "0x4467B30", Offset = "0x4467B30", VA = "0x4467B30", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000B8E")]
-		[Address(RVA = "0x4133170", Offset = "0x4133170", VA = "0x4133170", Slot = "8")]
+		[Token(Token = "0x6000D23")]
+		[Address(RVA = "0x4467B60", Offset = "0x4467B60", VA = "0x4467B60", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x20001E3")]
+	[Token(Token = "0x2000219")]
 	[CompilerGenerated]
-	private sealed class _003COnLoadSkyboxRPC_003Ed__102 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003COnLoadSkyboxRPC_003Ed__109 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000A9A")]
+		[Token(Token = "0x4000B73")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000A9B")]
+		[Token(Token = "0x4000B74")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4000A9C")]
+		[Token(Token = "0x4000B75")]
 		[FieldOffset(Offset = "0x20")]
 		public InGameManager _003C_003E4__this;
 
-		[Token(Token = "0x4000A9D")]
+		[Token(Token = "0x4000B76")]
 		[FieldOffset(Offset = "0x28")]
 		public string[] urls;
 
-		[Token(Token = "0x17000141")]
+		[Token(Token = "0x17000198")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000B93")]
-			[Address(RVA = "0x4133610", Offset = "0x4133610", VA = "0x4133610", Slot = "4")]
+			[Token(Token = "0x6000D28")]
+			[Address(RVA = "0x4468120", Offset = "0x4468120", VA = "0x4468120", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -298,11 +305,11 @@ internal class InGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x17000142")]
+		[Token(Token = "0x17000199")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000B95")]
-			[Address(RVA = "0x4133660", Offset = "0x4133660", VA = "0x4133660", Slot = "7")]
+			[Token(Token = "0x6000D2A")]
+			[Address(RVA = "0x4468170", Offset = "0x4468170", VA = "0x4468170", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -310,52 +317,52 @@ internal class InGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x6000B90")]
-		[Address(RVA = "0x41331C0", Offset = "0x41331C0", VA = "0x41331C0")]
+		[Token(Token = "0x6000D25")]
+		[Address(RVA = "0x4466450", Offset = "0x4466450", VA = "0x4466450")]
 		[DebuggerHidden]
-		public _003COnLoadSkyboxRPC_003Ed__102(int _003C_003E1__state)
+		public _003COnLoadSkyboxRPC_003Ed__109(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000B91")]
-		[Address(RVA = "0x41331E0", Offset = "0x41331E0", VA = "0x41331E0", Slot = "5")]
+		[Token(Token = "0x6000D26")]
+		[Address(RVA = "0x4467BB0", Offset = "0x4467BB0", VA = "0x4467BB0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000B92")]
-		[Address(RVA = "0x41331F0", Offset = "0x41331F0", VA = "0x41331F0", Slot = "6")]
+		[Token(Token = "0x6000D27")]
+		[Address(RVA = "0x4467BC0", Offset = "0x4467BC0", VA = "0x4467BC0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000B94")]
-		[Address(RVA = "0x4133620", Offset = "0x4133620", VA = "0x4133620", Slot = "8")]
+		[Token(Token = "0x6000D29")]
+		[Address(RVA = "0x4468130", Offset = "0x4468130", VA = "0x4468130", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x20001E4")]
+	[Token(Token = "0x200021A")]
 	[CompilerGenerated]
-	private sealed class _003CReloadSkybox_003Ed__103 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CReloadSkybox_003Ed__110 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000A9E")]
+		[Token(Token = "0x4000B77")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000A9F")]
+		[Token(Token = "0x4000B78")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x17000143")]
+		[Token(Token = "0x1700019A")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000B99")]
-			[Address(RVA = "0x4133860", Offset = "0x4133860", VA = "0x4133860", Slot = "4")]
+			[Token(Token = "0x6000D2E")]
+			[Address(RVA = "0x4468350", Offset = "0x4468350", VA = "0x4468350", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -363,11 +370,11 @@ internal class InGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x17000144")]
+		[Token(Token = "0x1700019B")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000B9B")]
-			[Address(RVA = "0x41338B0", Offset = "0x41338B0", VA = "0x41338B0", Slot = "7")]
+			[Token(Token = "0x6000D30")]
+			[Address(RVA = "0x44683A0", Offset = "0x44683A0", VA = "0x44683A0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -375,60 +382,60 @@ internal class InGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x6000B96")]
-		[Address(RVA = "0x4133670", Offset = "0x4133670", VA = "0x4133670")]
+		[Token(Token = "0x6000D2B")]
+		[Address(RVA = "0x44664C0", Offset = "0x44664C0", VA = "0x44664C0")]
 		[DebuggerHidden]
-		public _003CReloadSkybox_003Ed__103(int _003C_003E1__state)
+		public _003CReloadSkybox_003Ed__110(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000B97")]
-		[Address(RVA = "0x4133690", Offset = "0x4133690", VA = "0x4133690", Slot = "5")]
+		[Token(Token = "0x6000D2C")]
+		[Address(RVA = "0x4468180", Offset = "0x4468180", VA = "0x4468180", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000B98")]
-		[Address(RVA = "0x41336A0", Offset = "0x41336A0", VA = "0x41336A0", Slot = "6")]
+		[Token(Token = "0x6000D2D")]
+		[Address(RVA = "0x4468190", Offset = "0x4468190", VA = "0x4468190", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000B9A")]
-		[Address(RVA = "0x4133870", Offset = "0x4133870", VA = "0x4133870", Slot = "8")]
+		[Token(Token = "0x6000D2F")]
+		[Address(RVA = "0x4468360", Offset = "0x4468360", VA = "0x4468360", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x20001E5")]
+	[Token(Token = "0x200021B")]
 	[CompilerGenerated]
-	private sealed class _003CRespawnForever_003Ed__60 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CRespawnForever_003Ed__64 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000AA0")]
+		[Token(Token = "0x4000B79")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000AA1")]
+		[Token(Token = "0x4000B7A")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4000AA2")]
+		[Token(Token = "0x4000B7B")]
 		[FieldOffset(Offset = "0x20")]
 		public InGameManager _003C_003E4__this;
 
-		[Token(Token = "0x4000AA3")]
+		[Token(Token = "0x4000B7C")]
 		[FieldOffset(Offset = "0x28")]
 		public float delay;
 
-		[Token(Token = "0x17000145")]
+		[Token(Token = "0x1700019C")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000B9F")]
-			[Address(RVA = "0x41339C0", Offset = "0x41339C0", VA = "0x41339C0", Slot = "4")]
+			[Token(Token = "0x6000D34")]
+			[Address(RVA = "0x4468490", Offset = "0x4468490", VA = "0x4468490", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -436,11 +443,11 @@ internal class InGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x17000146")]
+		[Token(Token = "0x1700019D")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000BA1")]
-			[Address(RVA = "0x4133A10", Offset = "0x4133A10", VA = "0x4133A10", Slot = "7")]
+			[Token(Token = "0x6000D36")]
+			[Address(RVA = "0x44684E0", Offset = "0x44684E0", VA = "0x44684E0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -448,76 +455,76 @@ internal class InGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x6000B9C")]
-		[Address(RVA = "0x41338C0", Offset = "0x41338C0", VA = "0x41338C0")]
+		[Token(Token = "0x6000D31")]
+		[Address(RVA = "0x445F5E0", Offset = "0x445F5E0", VA = "0x445F5E0")]
 		[DebuggerHidden]
-		public _003CRespawnForever_003Ed__60(int _003C_003E1__state)
+		public _003CRespawnForever_003Ed__64(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000B9D")]
-		[Address(RVA = "0x41338E0", Offset = "0x41338E0", VA = "0x41338E0", Slot = "5")]
+		[Token(Token = "0x6000D32")]
+		[Address(RVA = "0x44683B0", Offset = "0x44683B0", VA = "0x44683B0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000B9E")]
-		[Address(RVA = "0x41338F0", Offset = "0x41338F0", VA = "0x41338F0", Slot = "6")]
+		[Token(Token = "0x6000D33")]
+		[Address(RVA = "0x44683C0", Offset = "0x44683C0", VA = "0x44683C0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000BA0")]
-		[Address(RVA = "0x41339D0", Offset = "0x41339D0", VA = "0x41339D0", Slot = "8")]
+		[Token(Token = "0x6000D35")]
+		[Address(RVA = "0x44684A0", Offset = "0x44684A0", VA = "0x44684A0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x20001E6")]
+	[Token(Token = "0x200021C")]
 	[CompilerGenerated]
-	private sealed class _003CSpawnAITitansAtCoroutine_003Ed__73 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CSpawnAITitansAtCoroutine_003Ed__77 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000AA4")]
+		[Token(Token = "0x4000B7D")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000AA5")]
+		[Token(Token = "0x4000B7E")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4000AA6")]
+		[Token(Token = "0x4000B7F")]
 		[FieldOffset(Offset = "0x20")]
 		public InGameManager _003C_003E4__this;
 
-		[Token(Token = "0x4000AA7")]
+		[Token(Token = "0x4000B80")]
 		[FieldOffset(Offset = "0x28")]
 		public string type;
 
-		[Token(Token = "0x4000AA8")]
+		[Token(Token = "0x4000B81")]
 		[FieldOffset(Offset = "0x30")]
 		public Vector3 position;
 
-		[Token(Token = "0x4000AA9")]
+		[Token(Token = "0x4000B82")]
 		[FieldOffset(Offset = "0x3C")]
 		public float rotationY;
 
-		[Token(Token = "0x4000AAA")]
+		[Token(Token = "0x4000B83")]
 		[FieldOffset(Offset = "0x40")]
 		public int count;
 
-		[Token(Token = "0x4000AAB")]
+		[Token(Token = "0x4000B84")]
 		[FieldOffset(Offset = "0x44")]
 		private int _003Ci_003E5__2;
 
-		[Token(Token = "0x17000147")]
+		[Token(Token = "0x1700019E")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000BA5")]
-			[Address(RVA = "0x4133B60", Offset = "0x4133B60", VA = "0x4133B60", Slot = "4")]
+			[Token(Token = "0x6000D3A")]
+			[Address(RVA = "0x4468610", Offset = "0x4468610", VA = "0x4468610", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -525,11 +532,11 @@ internal class InGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x17000148")]
+		[Token(Token = "0x1700019F")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000BA7")]
-			[Address(RVA = "0x4133BB0", Offset = "0x4133BB0", VA = "0x4133BB0", Slot = "7")]
+			[Token(Token = "0x6000D3C")]
+			[Address(RVA = "0x4468660", Offset = "0x4468660", VA = "0x4468660", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -537,68 +544,68 @@ internal class InGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x6000BA2")]
-		[Address(RVA = "0x4133A20", Offset = "0x4133A20", VA = "0x4133A20")]
+		[Token(Token = "0x6000D37")]
+		[Address(RVA = "0x4462F80", Offset = "0x4462F80", VA = "0x4462F80")]
 		[DebuggerHidden]
-		public _003CSpawnAITitansAtCoroutine_003Ed__73(int _003C_003E1__state)
+		public _003CSpawnAITitansAtCoroutine_003Ed__77(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000BA3")]
-		[Address(RVA = "0x4133A40", Offset = "0x4133A40", VA = "0x4133A40", Slot = "5")]
+		[Token(Token = "0x6000D38")]
+		[Address(RVA = "0x44684F0", Offset = "0x44684F0", VA = "0x44684F0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000BA4")]
-		[Address(RVA = "0x4133A50", Offset = "0x4133A50", VA = "0x4133A50", Slot = "6")]
+		[Token(Token = "0x6000D39")]
+		[Address(RVA = "0x4468500", Offset = "0x4468500", VA = "0x4468500", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000BA6")]
-		[Address(RVA = "0x4133B70", Offset = "0x4133B70", VA = "0x4133B70", Slot = "8")]
+		[Token(Token = "0x6000D3B")]
+		[Address(RVA = "0x4468620", Offset = "0x4468620", VA = "0x4468620", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x20001E7")]
+	[Token(Token = "0x200021D")]
 	[CompilerGenerated]
-	private sealed class _003CSpawnAITitansCoroutine_003Ed__71 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CSpawnAITitansCoroutine_003Ed__75 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000AAC")]
+		[Token(Token = "0x4000B85")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000AAD")]
+		[Token(Token = "0x4000B86")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4000AAE")]
+		[Token(Token = "0x4000B87")]
 		[FieldOffset(Offset = "0x20")]
 		public InGameManager _003C_003E4__this;
 
-		[Token(Token = "0x4000AAF")]
+		[Token(Token = "0x4000B88")]
 		[FieldOffset(Offset = "0x28")]
 		public int count;
 
-		[Token(Token = "0x4000AB0")]
+		[Token(Token = "0x4000B89")]
 		[FieldOffset(Offset = "0x30")]
 		public string type;
 
-		[Token(Token = "0x4000AB1")]
+		[Token(Token = "0x4000B8A")]
 		[FieldOffset(Offset = "0x38")]
 		private IEnumerator<(Vector3 position, Quaternion rotation)> _003C_003E7__wrap1;
 
-		[Token(Token = "0x17000149")]
+		[Token(Token = "0x170001A0")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000BAC")]
-			[Address(RVA = "0x41342A0", Offset = "0x41342A0", VA = "0x41342A0", Slot = "4")]
+			[Token(Token = "0x6000D41")]
+			[Address(RVA = "0x4468D20", Offset = "0x4468D20", VA = "0x4468D20", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -606,11 +613,11 @@ internal class InGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x1700014A")]
+		[Token(Token = "0x170001A1")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000BAE")]
-			[Address(RVA = "0x41342F0", Offset = "0x41342F0", VA = "0x41342F0", Slot = "7")]
+			[Token(Token = "0x6000D43")]
+			[Address(RVA = "0x4468D70", Offset = "0x4468D70", VA = "0x4468D70", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -618,62 +625,62 @@ internal class InGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x6000BA8")]
-		[Address(RVA = "0x4133BC0", Offset = "0x4133BC0", VA = "0x4133BC0")]
+		[Token(Token = "0x6000D3D")]
+		[Address(RVA = "0x4462DC0", Offset = "0x4462DC0", VA = "0x4462DC0")]
 		[DebuggerHidden]
-		public _003CSpawnAITitansCoroutine_003Ed__71(int _003C_003E1__state)
+		public _003CSpawnAITitansCoroutine_003Ed__75(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000BA9")]
-		[Address(RVA = "0x4133BE0", Offset = "0x4133BE0", VA = "0x4133BE0", Slot = "5")]
+		[Token(Token = "0x6000D3E")]
+		[Address(RVA = "0x4468670", Offset = "0x4468670", VA = "0x4468670", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000BAA")]
-		[Address(RVA = "0x4133C90", Offset = "0x4133C90", VA = "0x4133C90", Slot = "6")]
+		[Token(Token = "0x6000D3F")]
+		[Address(RVA = "0x4468720", Offset = "0x4468720", VA = "0x4468720", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000BAB")]
-		[Address(RVA = "0x4134200", Offset = "0x4134200", VA = "0x4134200")]
+		[Token(Token = "0x6000D40")]
+		[Address(RVA = "0x4468C80", Offset = "0x4468C80", VA = "0x4468C80")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x6000BAD")]
-		[Address(RVA = "0x41342B0", Offset = "0x41342B0", VA = "0x41342B0", Slot = "8")]
+		[Token(Token = "0x6000D42")]
+		[Address(RVA = "0x4468D30", Offset = "0x4468D30", VA = "0x4468D30", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x20001E8")]
+	[Token(Token = "0x200021E")]
 	[CompilerGenerated]
-	private sealed class _003CWaitAndEndGame_003Ed__84 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CWaitAndEndGame_003Ed__88 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000AB2")]
+		[Token(Token = "0x4000B8B")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000AB3")]
+		[Token(Token = "0x4000B8C")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4000AB4")]
+		[Token(Token = "0x4000B8D")]
 		[FieldOffset(Offset = "0x20")]
 		public float time;
 
-		[Token(Token = "0x1700014B")]
+		[Token(Token = "0x170001A2")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000BB2")]
-			[Address(RVA = "0x41343F0", Offset = "0x41343F0", VA = "0x41343F0", Slot = "4")]
+			[Token(Token = "0x6000D47")]
+			[Address(RVA = "0x4468E50", Offset = "0x4468E50", VA = "0x4468E50", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -681,11 +688,11 @@ internal class InGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x1700014C")]
+		[Token(Token = "0x170001A3")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000BB4")]
-			[Address(RVA = "0x4134440", Offset = "0x4134440", VA = "0x4134440", Slot = "7")]
+			[Token(Token = "0x6000D49")]
+			[Address(RVA = "0x4468EA0", Offset = "0x4468EA0", VA = "0x4468EA0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -693,60 +700,60 @@ internal class InGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x6000BAF")]
-		[Address(RVA = "0x4134300", Offset = "0x4134300", VA = "0x4134300")]
+		[Token(Token = "0x6000D44")]
+		[Address(RVA = "0x4464000", Offset = "0x4464000", VA = "0x4464000")]
 		[DebuggerHidden]
-		public _003CWaitAndEndGame_003Ed__84(int _003C_003E1__state)
+		public _003CWaitAndEndGame_003Ed__88(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000BB0")]
-		[Address(RVA = "0x4134320", Offset = "0x4134320", VA = "0x4134320", Slot = "5")]
+		[Token(Token = "0x6000D45")]
+		[Address(RVA = "0x4468D80", Offset = "0x4468D80", VA = "0x4468D80", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000BB1")]
-		[Address(RVA = "0x4134330", Offset = "0x4134330", VA = "0x4134330", Slot = "6")]
+		[Token(Token = "0x6000D46")]
+		[Address(RVA = "0x4468D90", Offset = "0x4468D90", VA = "0x4468D90", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000BB3")]
-		[Address(RVA = "0x4134400", Offset = "0x4134400", VA = "0x4134400", Slot = "8")]
+		[Token(Token = "0x6000D48")]
+		[Address(RVA = "0x4468E60", Offset = "0x4468E60", VA = "0x4468E60", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x20001E9")]
+	[Token(Token = "0x200021F")]
 	[CompilerGenerated]
-	private sealed class _003CWaitAndUnpauseGame_003Ed__40 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CWaitAndUnpauseGame_003Ed__44 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000AB5")]
+		[Token(Token = "0x4000B8E")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000AB6")]
+		[Token(Token = "0x4000B8F")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4000AB7")]
+		[Token(Token = "0x4000B90")]
 		[FieldOffset(Offset = "0x20")]
 		public InGameManager _003C_003E4__this;
 
-		[Token(Token = "0x4000AB8")]
+		[Token(Token = "0x4000B91")]
 		[FieldOffset(Offset = "0x28")]
 		private float _003CendTime_003E5__2;
 
-		[Token(Token = "0x1700014D")]
+		[Token(Token = "0x170001A4")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000BB8")]
-			[Address(RVA = "0x41345A0", Offset = "0x41345A0", VA = "0x41345A0", Slot = "4")]
+			[Token(Token = "0x6000D4D")]
+			[Address(RVA = "0x4468FD0", Offset = "0x4468FD0", VA = "0x4468FD0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -754,11 +761,11 @@ internal class InGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x1700014E")]
+		[Token(Token = "0x170001A5")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000BBA")]
-			[Address(RVA = "0x41345F0", Offset = "0x41345F0", VA = "0x41345F0", Slot = "7")]
+			[Token(Token = "0x6000D4F")]
+			[Address(RVA = "0x4469020", Offset = "0x4469020", VA = "0x4469020", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -766,649 +773,688 @@ internal class InGameManager : BaseGameManager
 			}
 		}
 
-		[Token(Token = "0x6000BB5")]
-		[Address(RVA = "0x4134450", Offset = "0x4134450", VA = "0x4134450")]
+		[Token(Token = "0x6000D4A")]
+		[Address(RVA = "0x445B6B0", Offset = "0x445B6B0", VA = "0x445B6B0")]
 		[DebuggerHidden]
-		public _003CWaitAndUnpauseGame_003Ed__40(int _003C_003E1__state)
+		public _003CWaitAndUnpauseGame_003Ed__44(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000BB6")]
-		[Address(RVA = "0x4134470", Offset = "0x4134470", VA = "0x4134470", Slot = "5")]
+		[Token(Token = "0x6000D4B")]
+		[Address(RVA = "0x4468EB0", Offset = "0x4468EB0", VA = "0x4468EB0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000BB7")]
-		[Address(RVA = "0x4134480", Offset = "0x4134480", VA = "0x4134480", Slot = "6")]
+		[Token(Token = "0x6000D4C")]
+		[Address(RVA = "0x4468EC0", Offset = "0x4468EC0", VA = "0x4468EC0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000BB9")]
-		[Address(RVA = "0x41345B0", Offset = "0x41345B0", VA = "0x41345B0", Slot = "8")]
+		[Token(Token = "0x6000D4E")]
+		[Address(RVA = "0x4468FE0", Offset = "0x4468FE0", VA = "0x4468FE0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000A6C")]
+	[Token(Token = "0x4000B43")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly List<string> BlueSpawnTags;
 
-	[Token(Token = "0x4000A6D")]
+	[Token(Token = "0x4000B44")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly List<string> RedSpawnTags;
 
-	[Token(Token = "0x4000A6E")]
+	[Token(Token = "0x4000B45")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly List<string> HumanSpawnTags;
 
-	[Token(Token = "0x4000A6F")]
+	[Token(Token = "0x4000B46")]
 	[FieldOffset(Offset = "0x28")]
 	private SkyboxCustomSkinLoader _skyboxCustomSkinLoader;
 
-	[Token(Token = "0x4000A70")]
+	[Token(Token = "0x4000B47")]
 	[FieldOffset(Offset = "0x30")]
 	private GeneralInputSettings _generalInputSettings;
 
-	[Token(Token = "0x4000A71")]
+	[Token(Token = "0x4000B48")]
 	[FieldOffset(Offset = "0x38")]
 	private InGameMenu _inGameMenu;
 
-	[Token(Token = "0x4000A72")]
+	[Token(Token = "0x4000B49")]
 	[FieldOffset(Offset = "0x40")]
 	public HashSet<Human> Humans;
 
-	[Token(Token = "0x4000A73")]
+	[Token(Token = "0x4000B4A")]
 	[FieldOffset(Offset = "0x48")]
 	public HashSet<BasicTitan> Titans;
 
-	[Token(Token = "0x4000A74")]
+	[Token(Token = "0x4000B4B")]
 	[FieldOffset(Offset = "0x50")]
 	public HashSet<BaseShifter> Shifters;
 
-	[Token(Token = "0x4000A75")]
+	[Token(Token = "0x4000B4C")]
 	[FieldOffset(Offset = "0x58")]
 	public List<PhotonVoiceSync> PhotonVoiceSyncs;
 
-	[Token(Token = "0x4000A76")]
+	[Token(Token = "0x4000B4D")]
 	[FieldOffset(Offset = "0x60")]
 	public bool IsEnding;
 
-	[Token(Token = "0x4000A77")]
+	[Token(Token = "0x4000B4E")]
 	[FieldOffset(Offset = "0x64")]
 	public float EndTimeLeft;
 
-	[Token(Token = "0x4000A78")]
+	[Token(Token = "0x4000B4F")]
 	[FieldOffset(Offset = "0x68")]
 	public GameState State;
 
-	[Token(Token = "0x4000A79")]
+	[Token(Token = "0x4000B50")]
 	[FieldOffset(Offset = "0x70")]
 	public BaseCharacter CurrentCharacter;
 
-	[Token(Token = "0x4000A7A")]
+	[Token(Token = "0x4000B51")]
 	[FieldOffset(Offset = "0x78")]
 	private bool _gameSettingsLoaded;
 
-	[Token(Token = "0x4000A7B")]
+	[Token(Token = "0x4000B52")]
 	[FieldOffset(Offset = "0x18")]
 	public static Dictionary<int, PlayerInfo> AllPlayerInfo;
 
-	[Token(Token = "0x4000A7C")]
+	[Token(Token = "0x4000B53")]
 	[FieldOffset(Offset = "0x20")]
 	public static HashSet<int> MuteEmote;
 
-	[Token(Token = "0x4000A7D")]
+	[Token(Token = "0x4000B54")]
 	[FieldOffset(Offset = "0x28")]
 	public static HashSet<int> MuteText;
 
-	[Token(Token = "0x4000A7E")]
+	[Token(Token = "0x4000B55")]
 	[FieldOffset(Offset = "0x30")]
 	public static HashSet<int> MuteVoiceChat;
 
-	[Token(Token = "0x4000A7F")]
+	[Token(Token = "0x4000B56")]
 	[FieldOffset(Offset = "0x38")]
 	public static Dictionary<int, float> VoiceChatVolumeMultiplier;
 
-	[Token(Token = "0x4000A80")]
+	[Token(Token = "0x4000B57")]
 	[FieldOffset(Offset = "0x40")]
 	public static PlayerInfo MyPlayerInfo;
 
-	[Token(Token = "0x4000A81")]
-	[FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x4000B59")]
+	private const int MaxPlayerInfoRpcBytes = 16384;
+
+	[Token(Token = "0x4000B5A")]
+	[FieldOffset(Offset = "0x50")]
 	private static bool _needSendPlayerInfo;
 
-	[Token(Token = "0x4000A82")]
+	[Token(Token = "0x4000B5B")]
 	[FieldOffset(Offset = "0x79")]
 	public bool HasSpawned;
 
-	[Token(Token = "0x4000A83")]
+	[Token(Token = "0x4000B5C")]
 	[FieldOffset(Offset = "0x7A")]
 	public bool GlobalPause;
 
-	[Token(Token = "0x4000A84")]
+	[Token(Token = "0x4000B5D")]
 	[FieldOffset(Offset = "0x7B")]
 	public bool Restarting;
 
-	[Token(Token = "0x4000A85")]
+	[Token(Token = "0x4000B5E")]
 	[FieldOffset(Offset = "0x7C")]
 	public float PauseTimeLeft;
 
-	[Token(Token = "0x4000A86")]
+	[Token(Token = "0x4000B5F")]
 	[FieldOffset(Offset = "0x80")]
 	public float RespawnTimeLeft;
 
-	[Token(Token = "0x4000A87")]
+	[Token(Token = "0x4000B60")]
 	[FieldOffset(Offset = "0x88")]
 	public HashSet<BaseDetection> Detections;
 
-	[Token(Token = "0x4000A88")]
+	[Token(Token = "0x4000B61")]
 	[FieldOffset(Offset = "0x90")]
 	private float pingUpdateInterval;
 
-	[Token(Token = "0x4000A89")]
+	[Token(Token = "0x4000B62")]
 	[FieldOffset(Offset = "0x94")]
 	private float timeSinceLastPingUpdate;
 
-	[Token(Token = "0x6000B25")]
-	[Address(RVA = "0x4126920", Offset = "0x4126920", VA = "0x4126920")]
+	[Token(Token = "0x14000002")]
+	public static event Action<int> PlayerInfoUpdated
+	{
+		[Token(Token = "0x6000CB5")]
+		[Address(RVA = "0x445A430", Offset = "0x445A430", VA = "0x445A430")]
+		[CompilerGenerated]
+		add
+		{
+		}
+		[Token(Token = "0x6000CB6")]
+		[Address(RVA = "0x445A530", Offset = "0x445A530", VA = "0x445A530")]
+		[CompilerGenerated]
+		remove
+		{
+		}
+	}
+
+	[Token(Token = "0x6000CB7")]
+	[Address(RVA = "0x445A630", Offset = "0x445A630", VA = "0x445A630")]
 	public void RegisterCharacter(BaseCharacter character)
 	{
 	}
 
-	[Token(Token = "0x6000B26")]
-	[Address(RVA = "0x4126B90", Offset = "0x4126B90", VA = "0x4126B90")]
+	[Token(Token = "0x6000CB8")]
+	[Address(RVA = "0x445A8A0", Offset = "0x445A8A0", VA = "0x445A8A0")]
 	public HashSet<BaseCharacter> GetAllCharacters()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B27")]
-	[Address(RVA = "0x4127340", Offset = "0x4127340", VA = "0x4127340")]
-	[IteratorStateMachine(typeof(_003CGetAllCharactersEnumerable_003Ed__32))]
+	[Token(Token = "0x6000CB9")]
+	[Address(RVA = "0x445B050", Offset = "0x445B050", VA = "0x445B050")]
+	[IteratorStateMachine(typeof(_003CGetAllCharactersEnumerable_003Ed__36))]
 	public IEnumerable<BaseCharacter> GetAllCharactersEnumerable()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B28")]
-	[Address(RVA = "0x41273B0", Offset = "0x41273B0", VA = "0x41273B0")]
+	[Token(Token = "0x6000CBA")]
+	[Address(RVA = "0x445B100", Offset = "0x445B100", VA = "0x445B100")]
 	public HashSet<BaseCharacter> GetAllNonAICharacters()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B29")]
-	[Address(RVA = "0x4116A20", Offset = "0x4116A20", VA = "0x4116A20")]
+	[Token(Token = "0x6000CBB")]
+	[Address(RVA = "0x445B240", Offset = "0x445B240", VA = "0x445B240")]
 	public void PauseGame()
 	{
 	}
 
-	[Token(Token = "0x6000B2A")]
-	[Address(RVA = "0x41274F0", Offset = "0x41274F0", VA = "0x41274F0")]
+	[Token(Token = "0x6000CBC")]
+	[Address(RVA = "0x445B330", Offset = "0x445B330", VA = "0x445B330")]
 	public void OnPauseGameRPC(PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6000B2B")]
-	[Address(RVA = "0x4127530", Offset = "0x4127530", VA = "0x4127530")]
+	[Token(Token = "0x6000CBD")]
+	[Address(RVA = "0x445B370", Offset = "0x445B370", VA = "0x445B370")]
 	public void UnpauseGame()
 	{
 	}
 
-	[Token(Token = "0x6000B2C")]
-	[Address(RVA = "0x4127620", Offset = "0x4127620", VA = "0x4127620")]
+	[Token(Token = "0x6000CBE")]
+	[Address(RVA = "0x445B460", Offset = "0x445B460", VA = "0x445B460")]
 	public void OnUnpauseGameRPC(PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6000B2D")]
-	[Address(RVA = "0x4116BF0", Offset = "0x4116BF0", VA = "0x4116BF0")]
+	[Token(Token = "0x6000CBF")]
+	[Address(RVA = "0x445B4A0", Offset = "0x445B4A0", VA = "0x445B4A0")]
 	public void StartUnpauseGame()
 	{
 	}
 
-	[Token(Token = "0x6000B2E")]
-	[Address(RVA = "0x4127660", Offset = "0x4127660", VA = "0x4127660")]
+	[Token(Token = "0x6000CC0")]
+	[Address(RVA = "0x445B590", Offset = "0x445B590", VA = "0x445B590")]
 	public void OnStartUnpauseGameRPC(PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6000B2F")]
-	[Address(RVA = "0x4127700", Offset = "0x4127700", VA = "0x4127700")]
-	[IteratorStateMachine(typeof(_003CWaitAndUnpauseGame_003Ed__40))]
+	[Token(Token = "0x6000CC1")]
+	[Address(RVA = "0x445B640", Offset = "0x445B640", VA = "0x445B640")]
+	[IteratorStateMachine(typeof(_003CWaitAndUnpauseGame_003Ed__44))]
 	private IEnumerator WaitAndUnpauseGame()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B30")]
-	[Address(RVA = "0x4118550", Offset = "0x4118550", VA = "0x4118550")]
+	[Token(Token = "0x6000CC2")]
+	[Address(RVA = "0x445B6D0", Offset = "0x445B6D0", VA = "0x445B6D0")]
 	public static void RestartGame()
 	{
 	}
 
-	[Token(Token = "0x6000B31")]
-	[Address(RVA = "0x4127770", Offset = "0x4127770", VA = "0x4127770")]
-	[IteratorStateMachine(typeof(_003CFinishRestartGame_003Ed__42))]
+	[Token(Token = "0x6000CC3")]
+	[Address(RVA = "0x445B960", Offset = "0x445B960", VA = "0x445B960")]
+	[IteratorStateMachine(typeof(_003CFinishRestartGame_003Ed__46))]
 	private IEnumerator FinishRestartGame()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B32")]
-	[Address(RVA = "0x41277B0", Offset = "0x41277B0", VA = "0x41277B0")]
+	[Token(Token = "0x6000CC4")]
+	[Address(RVA = "0x445B9D0", Offset = "0x445B9D0", VA = "0x445B9D0")]
 	public static void OnRestartGameRPC(PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6000B33")]
-	[Address(RVA = "0x4127C80", Offset = "0x4127C80", VA = "0x4127C80")]
+	[Token(Token = "0x6000CC5")]
+	[Address(RVA = "0x445BEA0", Offset = "0x445BEA0", VA = "0x445BEA0")]
 	public static void OnPreRestartGameRPC(bool immediate, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6000B34")]
-	[Address(RVA = "0x41266D0", Offset = "0x41266D0", VA = "0x41266D0")]
+	[Token(Token = "0x6000CC6")]
+	[Address(RVA = "0x445A1E0", Offset = "0x445A1E0", VA = "0x445A1E0")]
 	public static void LeaveRoom()
 	{
 	}
 
-	[Token(Token = "0x6000B35")]
-	[Address(RVA = "0x4128340", Offset = "0x4128340", VA = "0x4128340", Slot = "31")]
+	[Token(Token = "0x6000CC7")]
+	[Address(RVA = "0x445C530", Offset = "0x445C530", VA = "0x445C530", Slot = "31")]
 	public override void OnLeftRoom()
 	{
 	}
 
-	[Token(Token = "0x6000B36")]
-	[Address(RVA = "0x4128500", Offset = "0x4128500", VA = "0x4128500")]
+	[Token(Token = "0x6000CC8")]
+	[Address(RVA = "0x445C6F0", Offset = "0x445C6F0", VA = "0x445C6F0")]
 	public static void OnJoinRoom()
 	{
 	}
 
-	[Token(Token = "0x6000B37")]
-	[Address(RVA = "0x4128B10", Offset = "0x4128B10", VA = "0x4128B10")]
+	[Token(Token = "0x6000CC9")]
+	[Address(RVA = "0x445CDF0", Offset = "0x445CDF0", VA = "0x445CDF0")]
 	public void RegisterMainCharacterDie()
 	{
 	}
 
-	[Token(Token = "0x6000B38")]
-	[Address(RVA = "0x4129040", Offset = "0x4129040", VA = "0x4129040")]
+	[Token(Token = "0x6000CCA")]
+	[Address(RVA = "0x445D320", Offset = "0x445D320", VA = "0x445D320")]
 	public void RegisterMainCharacterKill(BaseCharacter victim)
 	{
 	}
 
-	[Token(Token = "0x6000B39")]
-	[Address(RVA = "0x41293F0", Offset = "0x41293F0", VA = "0x41293F0")]
+	[Token(Token = "0x6000CCB")]
+	[Address(RVA = "0x445D6D0", Offset = "0x445D6D0", VA = "0x445D6D0")]
 	public void RegisterMainCharacterDamage(BaseCharacter victim, int damage)
 	{
 	}
 
-	[Token(Token = "0x6000B3A")]
-	[Address(RVA = "0x4129770", Offset = "0x4129770", VA = "0x4129770", Slot = "42")]
+	[Token(Token = "0x6000CCC")]
+	[Address(RVA = "0x445DA50", Offset = "0x445DA50", VA = "0x445DA50", Slot = "42")]
 	public override void OnPlayerEnteredRoom(Player player)
 	{
 	}
 
-	[Token(Token = "0x6000B3B")]
-	[Address(RVA = "0x4129C40", Offset = "0x4129C40", VA = "0x4129C40")]
+	[Token(Token = "0x6000CCD")]
+	[Address(RVA = "0x445DFF0", Offset = "0x445DFF0", VA = "0x445DFF0")]
 	public void OnNotifyPlayerJoined(Player player)
 	{
 	}
 
-	[Token(Token = "0x6000B3C")]
-	[Address(RVA = "0x4129E50", Offset = "0x4129E50", VA = "0x4129E50", Slot = "43")]
+	[Token(Token = "0x6000CCE")]
+	[Address(RVA = "0x445E230", Offset = "0x445E230", VA = "0x445E230", Slot = "43")]
 	public override void OnPlayerLeftRoom(Player player)
 	{
 	}
 
-	[Token(Token = "0x6000B3D")]
-	[Address(RVA = "0x412A440", Offset = "0x412A440", VA = "0x412A440", Slot = "32")]
+	[Token(Token = "0x6000CCF")]
+	[Address(RVA = "0x445E820", Offset = "0x445E820", VA = "0x445E820", Slot = "32")]
 	public override void OnMasterClientSwitched(Player newMasterClient)
 	{
 	}
 
-	[Token(Token = "0x6000B3E")]
-	[Address(RVA = "0x412A6A0", Offset = "0x412A6A0", VA = "0x412A6A0")]
+	[Token(Token = "0x6000CD0")]
+	[Address(RVA = "0x445EA80", Offset = "0x445EA80", VA = "0x445EA80")]
 	public static void OnPlayerInfoRPC(byte[] data, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6000B3F")]
-	[Address(RVA = "0x412A980", Offset = "0x412A980", VA = "0x412A980")]
+	[Token(Token = "0x6000CD1")]
+	[Address(RVA = "0x445EFC0", Offset = "0x445EFC0", VA = "0x445EFC0")]
 	public static void OnGameSettingsRPC(byte[] data, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6000B40")]
-	[Address(RVA = "0x412AE10", Offset = "0x412AE10", VA = "0x412AE10")]
+	[Token(Token = "0x6000CD2")]
+	[Address(RVA = "0x445F460", Offset = "0x445F460", VA = "0x445F460")]
 	public static void OnCharacterChosen()
 	{
 	}
 
-	[Token(Token = "0x6000B41")]
-	[Address(RVA = "0x412AF30", Offset = "0x412AF30", VA = "0x412AF30")]
+	[Token(Token = "0x6000CD3")]
+	[Address(RVA = "0x445F580", Offset = "0x445F580", VA = "0x445F580")]
 	public static void OnLocalPlayerDied(Player player)
 	{
 	}
 
-	[Token(Token = "0x6000B42")]
-	[Address(RVA = "0x412AE60", Offset = "0x412AE60", VA = "0x412AE60")]
+	[Token(Token = "0x6000CD4")]
+	[Address(RVA = "0x445F4B0", Offset = "0x445F4B0", VA = "0x445F4B0")]
 	private static void ResetRespawnTimeLeft()
 	{
 	}
 
-	[Token(Token = "0x6000B43")]
-	[Address(RVA = "0x412AD90", Offset = "0x412AD90", VA = "0x412AD90")]
-	[IteratorStateMachine(typeof(_003CRespawnForever_003Ed__60))]
+	[Token(Token = "0x6000CD5")]
+	[Address(RVA = "0x445F3E0", Offset = "0x445F3E0", VA = "0x445F3E0")]
+	[IteratorStateMachine(typeof(_003CRespawnForever_003Ed__64))]
 	private IEnumerator RespawnForever(float delay)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B44")]
-	[Address(RVA = "0x412AF90", Offset = "0x412AF90", VA = "0x412AF90")]
+	[Token(Token = "0x6000CD6")]
+	[Address(RVA = "0x445F600", Offset = "0x445F600", VA = "0x445F600")]
 	public void SpawnPlayer(bool force)
 	{
 	}
 
-	[Token(Token = "0x6000B45")]
-	[Address(RVA = "0x412CB10", Offset = "0x412CB10", VA = "0x412CB10")]
+	[Token(Token = "0x6000CD7")]
+	[Address(RVA = "0x4461180", Offset = "0x4461180", VA = "0x4461180")]
 	public void SpawnPlayerShifterAt(string shifterName, float liveTime, Vector3 position, float rotationY)
 	{
 	}
 
-	[Token(Token = "0x6000B46")]
-	[Address(RVA = "0x412CEE0", Offset = "0x412CEE0", VA = "0x412CEE0")]
+	[Token(Token = "0x6000CD8")]
+	[Address(RVA = "0x4461550", Offset = "0x4461550", VA = "0x4461550")]
 	public InGameCharacterSettings GetSetHumanSettings()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B47")]
-	[Address(RVA = "0x412B230", Offset = "0x412B230", VA = "0x412B230")]
+	[Token(Token = "0x6000CD9")]
+	[Address(RVA = "0x445F8A0", Offset = "0x445F8A0", VA = "0x445F8A0")]
 	public void SpawnPlayerAt(bool force, Vector3 position, float rotationY)
 	{
 	}
 
-	[Token(Token = "0x6000B48")]
-	[Address(RVA = "0x412C6A0", Offset = "0x412C6A0", VA = "0x412C6A0")]
+	[Token(Token = "0x6000CDA")]
+	[Address(RVA = "0x4460D10", Offset = "0x4460D10", VA = "0x4460D10")]
 	private (Vector3, Quaternion) GetHumanSpawnPoint()
 	{
 		return default((Vector3, Quaternion));
 	}
 
-	[Token(Token = "0x6000B49")]
-	[Address(RVA = "0x412C960", Offset = "0x412C960", VA = "0x412C960")]
+	[Token(Token = "0x6000CDB")]
+	[Address(RVA = "0x4460FD0", Offset = "0x4460FD0", VA = "0x4460FD0")]
 	private (Vector3, Quaternion) GetTitanSpawnPoint()
 	{
 		return default((Vector3, Quaternion));
 	}
 
-	[Token(Token = "0x6000B4A")]
-	[Address(RVA = "0x412CDD0", Offset = "0x412CDD0", VA = "0x412CDD0")]
+	[Token(Token = "0x6000CDC")]
+	[Address(RVA = "0x4461440", Offset = "0x4461440", VA = "0x4461440")]
 	private string GetPlayerTeam(bool titan)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B4B")]
-	[Address(RVA = "0x412DBA0", Offset = "0x412DBA0", VA = "0x412DBA0")]
+	[Token(Token = "0x6000CDD")]
+	[Address(RVA = "0x44621A0", Offset = "0x44621A0", VA = "0x44621A0")]
 	public BasicTitan SpawnAITitan(string type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B4C")]
-	[Address(RVA = "0x412E1B0", Offset = "0x412E1B0", VA = "0x412E1B0")]
+	[Token(Token = "0x6000CDE")]
+	[Address(RVA = "0x44627B0", Offset = "0x44627B0", VA = "0x44627B0")]
 	public IEnumerable<BasicTitan> SpawnAITitans(string type, int count)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B4D")]
-	[Address(RVA = "0x412E680", Offset = "0x412E680", VA = "0x412E680")]
+	[Token(Token = "0x6000CDF")]
+	[Address(RVA = "0x4462C90", Offset = "0x4462C90", VA = "0x4462C90")]
 	public void SpawnAITitansAsync(string type, int count)
 	{
 	}
 
-	[Token(Token = "0x6000B4E")]
-	[Address(RVA = "0x412E720", Offset = "0x412E720", VA = "0x412E720")]
-	[IteratorStateMachine(typeof(_003CSpawnAITitansCoroutine_003Ed__71))]
+	[Token(Token = "0x6000CE0")]
+	[Address(RVA = "0x4462D30", Offset = "0x4462D30", VA = "0x4462D30")]
+	[IteratorStateMachine(typeof(_003CSpawnAITitansCoroutine_003Ed__75))]
 	private IEnumerator SpawnAITitansCoroutine(string type, int count)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B4F")]
-	[Address(RVA = "0x412E7B0", Offset = "0x412E7B0", VA = "0x412E7B0")]
+	[Token(Token = "0x6000CE1")]
+	[Address(RVA = "0x4462DE0", Offset = "0x4462DE0", VA = "0x4462DE0")]
 	public void SpawnAITitansAtAsync(string type, int count, Vector3 position, float rotationY)
 	{
 	}
 
-	[Token(Token = "0x6000B50")]
-	[Address(RVA = "0x412E880", Offset = "0x412E880", VA = "0x412E880")]
-	[IteratorStateMachine(typeof(_003CSpawnAITitansAtCoroutine_003Ed__73))]
+	[Token(Token = "0x6000CE2")]
+	[Address(RVA = "0x4462EB0", Offset = "0x4462EB0", VA = "0x4462EB0")]
+	[IteratorStateMachine(typeof(_003CSpawnAITitansAtCoroutine_003Ed__77))]
 	private IEnumerator SpawnAITitansAtCoroutine(string type, int count, Vector3 position, float rotationY)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B51")]
-	[Address(RVA = "0x412E2A0", Offset = "0x412E2A0", VA = "0x412E2A0")]
+	[Token(Token = "0x6000CE3")]
+	[Address(RVA = "0x44628B0", Offset = "0x44628B0", VA = "0x44628B0")]
 	private IEnumerable<(Vector3, Quaternion)> GetTitanSpawnPositions(int count)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B52")]
-	[Address(RVA = "0x412DC20", Offset = "0x412DC20", VA = "0x412DC20")]
+	[Token(Token = "0x6000CE4")]
+	[Address(RVA = "0x4462220", Offset = "0x4462220", VA = "0x4462220")]
 	public BasicTitan SpawnAITitanAt(string type, Vector3 position, float rotationY)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B53")]
-	[Address(RVA = "0x412D960", Offset = "0x412D960", VA = "0x412D960")]
+	[Token(Token = "0x6000CE5")]
+	[Address(RVA = "0x4461F60", Offset = "0x4461F60", VA = "0x4461F60")]
 	public void SetupTitan(BasicTitan titan, bool ai = true)
 	{
 	}
 
-	[Token(Token = "0x6000B54")]
-	[Address(RVA = "0x412E940", Offset = "0x412E940", VA = "0x412E940")]
+	[Token(Token = "0x6000CE6")]
+	[Address(RVA = "0x4462FA0", Offset = "0x4462FA0", VA = "0x4462FA0")]
 	public BaseShifter SpawnAIShifter(string type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B55")]
-	[Address(RVA = "0x412E9C0", Offset = "0x412E9C0", VA = "0x412E9C0")]
+	[Token(Token = "0x6000CE7")]
+	[Address(RVA = "0x4463020", Offset = "0x4463020", VA = "0x4463020")]
 	public BaseShifter SpawnAIShifterAt(string type, Vector3 position, float rotationY)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B56")]
-	[Address(RVA = "0x412ECF0", Offset = "0x412ECF0", VA = "0x412ECF0")]
+	[Token(Token = "0x6000CE8")]
+	[Address(RVA = "0x4463350", Offset = "0x4463350", VA = "0x4463350")]
 	public Human SpawnAIHuman(int costume, string costumeName, string loadout)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B57")]
-	[Address(RVA = "0x412ED80", Offset = "0x412ED80", VA = "0x412ED80")]
+	[Token(Token = "0x6000CE9")]
+	[Address(RVA = "0x44633E0", Offset = "0x44633E0", VA = "0x44633E0")]
 	public Human SpawnAIHumanAt(int costume, string costumeName, string loadout, Vector3 position, float rotationY)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B58")]
-	[Address(RVA = "0x412F4E0", Offset = "0x412F4E0", VA = "0x412F4E0")]
+	[Token(Token = "0x6000CEA")]
+	[Address(RVA = "0x4463B40", Offset = "0x4463B40", VA = "0x4463B40")]
 	public static void OnSetLabelRPC(string label, string message, float time, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6000B59")]
-	[Address(RVA = "0x412F590", Offset = "0x412F590", VA = "0x412F590")]
+	[Token(Token = "0x6000CEB")]
+	[Address(RVA = "0x4463BF0", Offset = "0x4463BF0", VA = "0x4463BF0")]
 	public static void SetLabel(string label, string message, float time = 0f)
 	{
 	}
 
-	[Token(Token = "0x6000B5A")]
-	[Address(RVA = "0x412F690", Offset = "0x412F690", VA = "0x412F690")]
+	[Token(Token = "0x6000CEC")]
+	[Address(RVA = "0x4463CF0", Offset = "0x4463CF0", VA = "0x4463CF0")]
 	public void EndGame(float time, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6000B5B")]
-	[Address(RVA = "0x412F930", Offset = "0x412F930", VA = "0x412F930")]
-	[IteratorStateMachine(typeof(_003CWaitAndEndGame_003Ed__84))]
+	[Token(Token = "0x6000CED")]
+	[Address(RVA = "0x4463F90", Offset = "0x4463F90", VA = "0x4463F90")]
+	[IteratorStateMachine(typeof(_003CWaitAndEndGame_003Ed__88))]
 	private IEnumerator WaitAndEndGame(float time)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B5C")]
-	[Address(RVA = "0x4127DE0", Offset = "0x4127DE0", VA = "0x4127DE0")]
+	[Token(Token = "0x6000CEE")]
+	[Address(RVA = "0x445C000", Offset = "0x445C000", VA = "0x445C000")]
 	private static void ResetPersistentPlayerProperties()
 	{
 	}
 
-	[Token(Token = "0x6000B5D")]
-	[Address(RVA = "0x4116D50", Offset = "0x4116D50", VA = "0x4116D50")]
+	[Token(Token = "0x6000CEF")]
+	[Address(RVA = "0x4464020", Offset = "0x4464020", VA = "0x4464020")]
 	public static void ResetPlayerKD(Player player)
 	{
 	}
 
-	[Token(Token = "0x6000B5E")]
-	[Address(RVA = "0x4127920", Offset = "0x4127920", VA = "0x4127920")]
+	[Token(Token = "0x6000CF0")]
+	[Address(RVA = "0x445BB40", Offset = "0x445BB40", VA = "0x445BB40")]
 	private static void ResetRoundPlayerProperties()
 	{
 	}
 
-	[Token(Token = "0x6000B5F")]
-	[Address(RVA = "0x412D480", Offset = "0x412D480", VA = "0x412D480")]
+	[Token(Token = "0x6000CF1")]
+	[Address(RVA = "0x4461AF0", Offset = "0x4461AF0", VA = "0x4461AF0")]
 	public static void UpdatePlayerName()
 	{
 	}
 
-	[Token(Token = "0x6000B60")]
-	[Address(RVA = "0x4128CE0", Offset = "0x4128CE0", VA = "0x4128CE0")]
+	[Token(Token = "0x6000CF2")]
+	[Address(RVA = "0x44641D0", Offset = "0x44641D0", VA = "0x44641D0")]
+	public static void SyncLocalProfileToPlayerInfo(string reason)
+	{
+	}
+
+	[Token(Token = "0x6000CF3")]
+	[Address(RVA = "0x445CFC0", Offset = "0x445CFC0", VA = "0x445CFC0")]
 	public static void UpdateRoundPlayerProperties()
 	{
 	}
 
-	[Token(Token = "0x6000B61")]
-	[Address(RVA = "0x4128920", Offset = "0x4128920", VA = "0x4128920")]
+	[Token(Token = "0x6000CF4")]
+	[Address(RVA = "0x445CB10", Offset = "0x445CB10", VA = "0x445CB10")]
 	private static void ResetPlayerInfo()
 	{
 	}
 
-	[Token(Token = "0x6000B62")]
-	[Address(RVA = "0x412AC50", Offset = "0x412AC50", VA = "0x412AC50")]
+	[Token(Token = "0x6000CF5")]
+	[Address(RVA = "0x445DF40", Offset = "0x445DF40", VA = "0x445DF40")]
+	private static byte[] SerializeMyPlayerInfo()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000CF6")]
+	[Address(RVA = "0x445EF30", Offset = "0x445EF30", VA = "0x445EF30")]
+	private static void NotifyPlayerInfoUpdated(int actorNumber)
+	{
+	}
+
+	[Token(Token = "0x6000CF7")]
+	[Address(RVA = "0x445F2A0", Offset = "0x445F2A0", VA = "0x445F2A0")]
 	private static void PrintMOTD(string original)
 	{
 	}
 
-	[Token(Token = "0x6000B63")]
-	[Address(RVA = "0x412F9A0", Offset = "0x412F9A0", VA = "0x412F9A0", Slot = "54")]
+	[Token(Token = "0x6000CF8")]
+	[Address(RVA = "0x44646F0", Offset = "0x44646F0", VA = "0x44646F0", Slot = "54")]
 	protected override void Awake()
 	{
 	}
 
-	[Token(Token = "0x6000B64")]
-	[Address(RVA = "0x412FB10", Offset = "0x412FB10", VA = "0x412FB10", Slot = "55")]
+	[Token(Token = "0x6000CF9")]
+	[Address(RVA = "0x4464870", Offset = "0x4464870", VA = "0x4464870", Slot = "55")]
 	protected override void Start()
 	{
 	}
 
-	[Token(Token = "0x6000B65")]
-	[Address(RVA = "0x4130600", Offset = "0x4130600", VA = "0x4130600", Slot = "56")]
+	[Token(Token = "0x6000CFA")]
+	[Address(RVA = "0x4465300", Offset = "0x4465300", VA = "0x4465300", Slot = "56")]
 	public override bool IsFinishedLoading()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000B66")]
-	[Address(RVA = "0x41306D0", Offset = "0x41306D0", VA = "0x41306D0")]
+	[Token(Token = "0x6000CFB")]
+	[Address(RVA = "0x4465330", Offset = "0x4465330", VA = "0x4465330")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x6000B67")]
-	[Address(RVA = "0x4130DC0", Offset = "0x4130DC0", VA = "0x4130DC0", Slot = "57")]
+	[Token(Token = "0x6000CFC")]
+	[Address(RVA = "0x4465A20", Offset = "0x4465A20", VA = "0x4465A20", Slot = "57")]
 	protected override void OnFinishLoading()
 	{
 	}
 
-	[Token(Token = "0x6000B68")]
-	[Address(RVA = "0x4130810", Offset = "0x4130810", VA = "0x4130810")]
+	[Token(Token = "0x6000CFD")]
+	[Address(RVA = "0x4465470", Offset = "0x4465470", VA = "0x4465470")]
 	private void UpdateInput()
 	{
 	}
 
-	[Token(Token = "0x6000B69")]
-	[Address(RVA = "0x4131680", Offset = "0x4131680", VA = "0x4131680")]
+	[Token(Token = "0x6000CFE")]
+	[Address(RVA = "0x4466030", Offset = "0x4466030", VA = "0x4466030")]
 	public void OnSongChange()
 	{
 	}
 
-	[Token(Token = "0x6000B6A")]
-	[Address(RVA = "0x4131780", Offset = "0x4131780", VA = "0x4131780")]
+	[Token(Token = "0x6000CFF")]
+	[Address(RVA = "0x4466130", Offset = "0x4466130", VA = "0x4466130")]
 	private void TakePreviewScreenshot()
 	{
 	}
 
-	[Token(Token = "0x6000B6B")]
-	[Address(RVA = "0x4130CC0", Offset = "0x4130CC0", VA = "0x4130CC0")]
+	[Token(Token = "0x6000D00")]
+	[Address(RVA = "0x4465920", Offset = "0x4465920", VA = "0x4465920")]
 	private void UpdateCleanCharacters()
 	{
 	}
 
-	[Token(Token = "0x6000B6C")]
-	[Address(RVA = "0x4130130", Offset = "0x4130130", VA = "0x4130130")]
+	[Token(Token = "0x6000D01")]
+	[Address(RVA = "0x4464E30", Offset = "0x4464E30", VA = "0x4464E30")]
 	protected void LoadSkin()
 	{
 	}
 
-	[Token(Token = "0x6000B6D")]
-	[Address(RVA = "0x4131A20", Offset = "0x4131A20", VA = "0x4131A20")]
-	[IteratorStateMachine(typeof(_003COnLoadSkyboxRPC_003Ed__102))]
+	[Token(Token = "0x6000D02")]
+	[Address(RVA = "0x44663D0", Offset = "0x44663D0", VA = "0x44663D0")]
+	[IteratorStateMachine(typeof(_003COnLoadSkyboxRPC_003Ed__109))]
 	public IEnumerator OnLoadSkyboxRPC(string[] urls)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B6E")]
-	[Address(RVA = "0x4131AA0", Offset = "0x4131AA0", VA = "0x4131AA0")]
-	[IteratorStateMachine(typeof(_003CReloadSkybox_003Ed__103))]
+	[Token(Token = "0x6000D03")]
+	[Address(RVA = "0x4466470", Offset = "0x4466470", VA = "0x4466470")]
+	[IteratorStateMachine(typeof(_003CReloadSkybox_003Ed__110))]
 	protected IEnumerator ReloadSkybox()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B6F")]
-	[Address(RVA = "0x4131AE0", Offset = "0x4131AE0", VA = "0x4131AE0")]
-	[IteratorStateMachine(typeof(_003COnLoadLevelSkinRPC_003Ed__104))]
+	[Token(Token = "0x6000D04")]
+	[Address(RVA = "0x44664E0", Offset = "0x44664E0", VA = "0x44664E0")]
+	[IteratorStateMachine(typeof(_003COnLoadLevelSkinRPC_003Ed__111))]
 	public IEnumerator OnLoadLevelSkinRPC(string indices, string urls1, string urls2)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B70")]
-	[Address(RVA = "0x4131B20", Offset = "0x4131B20", VA = "0x4131B20")]
+	[Token(Token = "0x6000D05")]
+	[Address(RVA = "0x4466550", Offset = "0x4466550", VA = "0x4466550")]
 	private bool IsValidSkybox(string[] urls)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000B71")]
-	[Address(RVA = "0x4131BD0", Offset = "0x4131BD0", VA = "0x4131BD0")]
+	[Token(Token = "0x6000D06")]
+	[Address(RVA = "0x4466600", Offset = "0x4466600", VA = "0x4466600")]
 	public InGameManager()
 	{
 	}

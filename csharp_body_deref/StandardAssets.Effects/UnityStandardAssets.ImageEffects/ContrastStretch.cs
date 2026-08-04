@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.ContrastStretch
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/ContrastStretch.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -67,7 +74,7 @@ public class ContrastStretch : MonoBehaviour
 	protected Material materialLum
 	{
 		[Token(Token = "0x6000045")]
-		[Address(RVA = "0x415BC70", Offset = "0x415BC70", VA = "0x415BC70")]
+		[Address(RVA = "0x4480D70", Offset = "0x4480D70", VA = "0x4480D70")]
 		get
 		{
 			return null;
@@ -78,7 +85,7 @@ public class ContrastStretch : MonoBehaviour
 	protected Material materialReduce
 	{
 		[Token(Token = "0x6000046")]
-		[Address(RVA = "0x415BD40", Offset = "0x415BD40", VA = "0x415BD40")]
+		[Address(RVA = "0x4480E40", Offset = "0x4480E40", VA = "0x4480E40")]
 		get
 		{
 			return null;
@@ -89,7 +96,7 @@ public class ContrastStretch : MonoBehaviour
 	protected Material materialAdapt
 	{
 		[Token(Token = "0x6000047")]
-		[Address(RVA = "0x415BE10", Offset = "0x415BE10", VA = "0x415BE10")]
+		[Address(RVA = "0x4480F10", Offset = "0x4480F10", VA = "0x4480F10")]
 		get
 		{
 			return null;
@@ -100,7 +107,7 @@ public class ContrastStretch : MonoBehaviour
 	protected Material materialApply
 	{
 		[Token(Token = "0x6000048")]
-		[Address(RVA = "0x415BEE0", Offset = "0x415BEE0", VA = "0x415BEE0")]
+		[Address(RVA = "0x4480FE0", Offset = "0x4480FE0", VA = "0x4480FE0")]
 		get
 		{
 			return null;
@@ -108,37 +115,37 @@ public class ContrastStretch : MonoBehaviour
 	}
 
 	[Token(Token = "0x6000049")]
-	[Address(RVA = "0x415BFB0", Offset = "0x415BFB0", VA = "0x415BFB0")]
+	[Address(RVA = "0x44810B0", Offset = "0x44810B0", VA = "0x44810B0")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x600004A")]
-	[Address(RVA = "0x415C030", Offset = "0x415C030", VA = "0x415C030")]
+	[Address(RVA = "0x4481130", Offset = "0x4481130", VA = "0x4481130")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x600004B")]
-	[Address(RVA = "0x415C250", Offset = "0x415C250", VA = "0x415C250")]
+	[Address(RVA = "0x4481350", Offset = "0x4481350", VA = "0x4481350")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x600004C")]
-	[Address(RVA = "0x415C460", Offset = "0x415C460", VA = "0x415C460")]
+	[Address(RVA = "0x4481560", Offset = "0x4481560", VA = "0x4481560")]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x600004D")]
-	[Address(RVA = "0x415C6A0", Offset = "0x415C6A0", VA = "0x415C6A0")]
+	[Address(RVA = "0x44817A0", Offset = "0x44817A0", VA = "0x44817A0")]
 	private void CalculateAdaptation(Texture curTexture)
 	{
 	}
 
 	[Token(Token = "0x600004E")]
-	[Address(RVA = "0x415C870", Offset = "0x415C870", VA = "0x415C870")]
+	[Address(RVA = "0x4481970", Offset = "0x4481970", VA = "0x4481970")]
 	public ContrastStretch()
 	{
 	}

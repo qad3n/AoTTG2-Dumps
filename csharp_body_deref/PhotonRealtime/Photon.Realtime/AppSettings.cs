@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Realtime.AppSettings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonRealtime/Code/AppSettings.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using ExitGames.Client.Photon;
 using Il2CppDummyDll;
@@ -77,7 +84,7 @@ public class AppSettings
 	public bool IsMasterServerAddress
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x3BC3AB0", Offset = "0x3BC3AB0", VA = "0x3BC3AB0")]
+		[Address(RVA = "0x3EB9400", Offset = "0x3EB9400", VA = "0x3EB9400")]
 		get
 		{
 			return default(bool);
@@ -88,7 +95,7 @@ public class AppSettings
 	public bool IsBestRegion
 	{
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x3BC3AC0", Offset = "0x3BC3AC0", VA = "0x3BC3AC0")]
+		[Address(RVA = "0x3EB9410", Offset = "0x3EB9410", VA = "0x3EB9410")]
 		get
 		{
 			return default(bool);
@@ -99,7 +106,7 @@ public class AppSettings
 	public bool IsDefaultNameServer
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x3BC3AE0", Offset = "0x3BC3AE0", VA = "0x3BC3AE0")]
+		[Address(RVA = "0x3EB9430", Offset = "0x3EB9430", VA = "0x3EB9430")]
 		get
 		{
 			return default(bool);
@@ -110,7 +117,7 @@ public class AppSettings
 	public bool IsDefaultPort
 	{
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x3BC3B00", Offset = "0x3BC3B00", VA = "0x3BC3B00")]
+		[Address(RVA = "0x3EB9450", Offset = "0x3EB9450", VA = "0x3EB9450")]
 		get
 		{
 			return default(bool);
@@ -118,35 +125,35 @@ public class AppSettings
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x3BC3B10", Offset = "0x3BC3B10", VA = "0x3BC3B10")]
+	[Address(RVA = "0x3EB9460", Offset = "0x3EB9460", VA = "0x3EB9460")]
 	public string ToStringFull()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x3BC4410", Offset = "0x3BC4410", VA = "0x3BC4410")]
+	[Address(RVA = "0x3EB9D60", Offset = "0x3EB9D60", VA = "0x3EB9D60")]
 	public static bool IsAppId(string val)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x3BC43A0", Offset = "0x3BC43A0", VA = "0x3BC43A0")]
+	[Address(RVA = "0x3EB9CF0", Offset = "0x3EB9CF0", VA = "0x3EB9CF0")]
 	private string HideAppId(string appId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x3BC44B0", Offset = "0x3BC44B0", VA = "0x3BC44B0")]
+	[Address(RVA = "0x3EB9E00", Offset = "0x3EB9E00", VA = "0x3EB9E00")]
 	public AppSettings CopyTo(AppSettings d)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x3BC45A0", Offset = "0x3BC45A0", VA = "0x3BC45A0")]
+	[Address(RVA = "0x3EB9EF0", Offset = "0x3EB9EF0", VA = "0x3EB9EF0")]
 	public AppSettings()
 	{
 	}

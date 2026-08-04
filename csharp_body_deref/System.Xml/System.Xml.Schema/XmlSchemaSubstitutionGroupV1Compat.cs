@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XmlSchemaSubstitutionGroupV1Compat
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.Serialization;
 using Il2CppDummyDll;
 
@@ -15,7 +22,7 @@ internal class XmlSchemaSubstitutionGroupV1Compat : XmlSchemaSubstitutionGroup
 	internal XmlSchemaChoice Choice
 	{
 		[Token(Token = "0x6001785")]
-		[Address(RVA = "0x43F5C50", Offset = "0x43F5C50", VA = "0x43F5C50")]
+		[Address(RVA = "0x47333B0", Offset = "0x47333B0", VA = "0x47333B0")]
 		get
 		{
 			return null;
@@ -23,7 +30,7 @@ internal class XmlSchemaSubstitutionGroupV1Compat : XmlSchemaSubstitutionGroup
 	}
 
 	[Token(Token = "0x6001786")]
-	[Address(RVA = "0x43F5C60", Offset = "0x43F5C60", VA = "0x43F5C60")]
+	[Address(RVA = "0x47333C0", Offset = "0x47333C0", VA = "0x47333C0")]
 	public XmlSchemaSubstitutionGroupV1Compat()
 	{
 	}

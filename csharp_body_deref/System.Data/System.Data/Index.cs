@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.Index
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.ComponentModel;
 using Il2CppDummyDll;
@@ -15,20 +22,20 @@ internal sealed class Index
 		private readonly Index _index;
 
 		[Token(Token = "0x600078A")]
-		[Address(RVA = "0x4284E60", Offset = "0x4284E60", VA = "0x4284E60")]
+		[Address(RVA = "0x45C25C0", Offset = "0x45C25C0", VA = "0x45C25C0")]
 		internal IndexTree(Index index)
 		{
 		}
 
 		[Token(Token = "0x600078B")]
-		[Address(RVA = "0x4285A60", Offset = "0x4285A60", VA = "0x4285A60", Slot = "5")]
+		[Address(RVA = "0x45C31C0", Offset = "0x45C31C0", VA = "0x45C31C0", Slot = "5")]
 		protected override int CompareNode(int record1, int record2)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x600078C")]
-		[Address(RVA = "0x4285A80", Offset = "0x4285A80", VA = "0x4285A80", Slot = "6")]
+		[Address(RVA = "0x45C31E0", Offset = "0x45C31E0", VA = "0x45C31E0", Slot = "6")]
 		protected override int CompareSateliteTreeNode(int record1, int record2)
 		{
 			return default(int);
@@ -95,7 +102,7 @@ internal sealed class Index
 	internal bool HasRemoteAggregate
 	{
 		[Token(Token = "0x6000750")]
-		[Address(RVA = "0x4282A70", Offset = "0x4282A70", VA = "0x4282A70")]
+		[Address(RVA = "0x45C01D0", Offset = "0x45C01D0", VA = "0x45C01D0")]
 		get
 		{
 			return default(bool);
@@ -106,7 +113,7 @@ internal sealed class Index
 	internal int ObjectID
 	{
 		[Token(Token = "0x6000751")]
-		[Address(RVA = "0x4282A80", Offset = "0x4282A80", VA = "0x4282A80")]
+		[Address(RVA = "0x45C01E0", Offset = "0x45C01E0", VA = "0x45C01E0")]
 		get
 		{
 			return default(int);
@@ -117,7 +124,7 @@ internal sealed class Index
 	public DataViewRowState RecordStates
 	{
 		[Token(Token = "0x6000752")]
-		[Address(RVA = "0x4282A90", Offset = "0x4282A90", VA = "0x4282A90")]
+		[Address(RVA = "0x45C01F0", Offset = "0x45C01F0", VA = "0x45C01F0")]
 		get
 		{
 			return default(DataViewRowState);
@@ -128,7 +135,7 @@ internal sealed class Index
 	public IFilter RowFilter
 	{
 		[Token(Token = "0x6000753")]
-		[Address(RVA = "0x4282AA0", Offset = "0x4282AA0", VA = "0x4282AA0")]
+		[Address(RVA = "0x45C0200", Offset = "0x45C0200", VA = "0x45C0200")]
 		get
 		{
 			return null;
@@ -139,7 +146,7 @@ internal sealed class Index
 	public bool HasDuplicates
 	{
 		[Token(Token = "0x6000755")]
-		[Address(RVA = "0x4282B70", Offset = "0x4282B70", VA = "0x4282B70")]
+		[Address(RVA = "0x45C02D0", Offset = "0x45C02D0", VA = "0x45C02D0")]
 		get
 		{
 			return default(bool);
@@ -150,7 +157,7 @@ internal sealed class Index
 	public int RecordCount
 	{
 		[Token(Token = "0x6000756")]
-		[Address(RVA = "0x4282BB0", Offset = "0x4282BB0", VA = "0x4282BB0")]
+		[Address(RVA = "0x45C0310", Offset = "0x45C0310", VA = "0x45C0310")]
 		get
 		{
 			return default(int);
@@ -161,7 +168,7 @@ internal sealed class Index
 	public int RefCount
 	{
 		[Token(Token = "0x600075B")]
-		[Address(RVA = "0x4282EC0", Offset = "0x4282EC0", VA = "0x4282EC0")]
+		[Address(RVA = "0x45C0620", Offset = "0x45C0620", VA = "0x45C0620")]
 		get
 		{
 			return default(int);
@@ -172,7 +179,7 @@ internal sealed class Index
 	private bool DoListChanged
 	{
 		[Token(Token = "0x600077D")]
-		[Address(RVA = "0x4284BC0", Offset = "0x4284BC0", VA = "0x4284BC0")]
+		[Address(RVA = "0x45C2320", Offset = "0x45C2320", VA = "0x45C2320")]
 		get
 		{
 			return default(bool);
@@ -183,7 +190,7 @@ internal sealed class Index
 	internal DataTable Table
 	{
 		[Token(Token = "0x6000787")]
-		[Address(RVA = "0x4285A50", Offset = "0x4285A50", VA = "0x4285A50")]
+		[Address(RVA = "0x45C31B0", Offset = "0x45C31B0", VA = "0x45C31B0")]
 		get
 		{
 			return null;
@@ -191,350 +198,350 @@ internal sealed class Index
 	}
 
 	[Token(Token = "0x600074B")]
-	[Address(RVA = "0x4282050", Offset = "0x4282050", VA = "0x4282050")]
+	[Address(RVA = "0x45BF7B0", Offset = "0x45BF7B0", VA = "0x45BF7B0")]
 	public Index(DataTable table, IndexField[] indexFields, DataViewRowState recordStates, IFilter rowFilter)
 	{
 	}
 
 	[Token(Token = "0x600074C")]
-	[Address(RVA = "0x4282380", Offset = "0x4282380", VA = "0x4282380")]
+	[Address(RVA = "0x45BFAE0", Offset = "0x45BFAE0", VA = "0x45BFAE0")]
 	public Index(DataTable table, Comparison<DataRow> comparison, DataViewRowState recordStates, IFilter rowFilter)
 	{
 	}
 
 	[Token(Token = "0x600074D")]
-	[Address(RVA = "0x42823E0", Offset = "0x42823E0", VA = "0x42823E0")]
+	[Address(RVA = "0x45BFB40", Offset = "0x45BFB40", VA = "0x45BFB40")]
 	private static IndexField[] GetAllFields(DataColumnCollection columns)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600074E")]
-	[Address(RVA = "0x4282060", Offset = "0x4282060", VA = "0x4282060")]
+	[Address(RVA = "0x45BF7C0", Offset = "0x45BF7C0", VA = "0x45BF7C0")]
 	private Index(DataTable table, IndexField[] indexFields, Comparison<DataRow> comparison, DataViewRowState recordStates, IFilter rowFilter)
 	{
 	}
 
 	[Token(Token = "0x600074F")]
-	[Address(RVA = "0x42829F0", Offset = "0x42829F0", VA = "0x42829F0")]
+	[Address(RVA = "0x45C0150", Offset = "0x45C0150", VA = "0x45C0150")]
 	public bool Equal(IndexField[] indexDesc, DataViewRowState recordStates, IFilter rowFilter)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000754")]
-	[Address(RVA = "0x4282B20", Offset = "0x4282B20", VA = "0x4282B20")]
+	[Address(RVA = "0x45C0280", Offset = "0x45C0280", VA = "0x45C0280")]
 	public int GetRecord(int recordIndex)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000757")]
-	[Address(RVA = "0x4282BC0", Offset = "0x4282BC0", VA = "0x4282BC0")]
+	[Address(RVA = "0x45C0320", Offset = "0x45C0320", VA = "0x45C0320")]
 	private bool AcceptRecord(int record)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000758")]
-	[Address(RVA = "0x4282C50", Offset = "0x4282C50", VA = "0x4282C50")]
+	[Address(RVA = "0x45C03B0", Offset = "0x45C03B0", VA = "0x45C03B0")]
 	private bool AcceptRecord(int record, IFilter filter)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000759")]
-	[Address(RVA = "0x4282E20", Offset = "0x4282E20", VA = "0x4282E20")]
+	[Address(RVA = "0x45C0580", Offset = "0x45C0580", VA = "0x45C0580")]
 	internal void ListChangedAdd(DataViewListener listener)
 	{
 	}
 
 	[Token(Token = "0x600075A")]
-	[Address(RVA = "0x4282E70", Offset = "0x4282E70", VA = "0x4282E70")]
+	[Address(RVA = "0x45C05D0", Offset = "0x45C05D0", VA = "0x45C05D0")]
 	internal void ListChangedRemove(DataViewListener listener)
 	{
 	}
 
 	[Token(Token = "0x600075C")]
-	[Address(RVA = "0x4282ED0", Offset = "0x4282ED0", VA = "0x4282ED0")]
+	[Address(RVA = "0x45C0630", Offset = "0x45C0630", VA = "0x45C0630")]
 	public void AddRef()
 	{
 	}
 
 	[Token(Token = "0x600075D")]
-	[Address(RVA = "0x4283130", Offset = "0x4283130", VA = "0x4283130")]
+	[Address(RVA = "0x45C0890", Offset = "0x45C0890", VA = "0x45C0890")]
 	public int RemoveRef()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600075E")]
-	[Address(RVA = "0x4283330", Offset = "0x4283330", VA = "0x4283330")]
+	[Address(RVA = "0x45C0A90", Offset = "0x45C0A90", VA = "0x45C0A90")]
 	private void ApplyChangeAction(int record, int action, int changeRecord)
 	{
 	}
 
 	[Token(Token = "0x600075F")]
-	[Address(RVA = "0x42838D0", Offset = "0x42838D0", VA = "0x42838D0")]
+	[Address(RVA = "0x45C1030", Offset = "0x45C1030", VA = "0x45C1030")]
 	public bool CheckUnique()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000760")]
-	[Address(RVA = "0x4283920", Offset = "0x4283920", VA = "0x4283920")]
+	[Address(RVA = "0x45C1080", Offset = "0x45C1080", VA = "0x45C1080")]
 	private int CompareRecords(int record1, int record2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000761")]
-	[Address(RVA = "0x4283AA0", Offset = "0x4283AA0", VA = "0x4283AA0")]
+	[Address(RVA = "0x45C1200", Offset = "0x45C1200", VA = "0x45C1200")]
 	private int CompareDataRows(int record1, int record2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000762")]
-	[Address(RVA = "0x4283B00", Offset = "0x4283B00", VA = "0x4283B00")]
+	[Address(RVA = "0x45C1260", Offset = "0x45C1260", VA = "0x45C1260")]
 	private int CompareDuplicateRecords(int record1, int record2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000763")]
-	[Address(RVA = "0x4283C60", Offset = "0x4283C60", VA = "0x4283C60")]
+	[Address(RVA = "0x45C13C0", Offset = "0x45C13C0", VA = "0x45C13C0")]
 	private int CompareRecordToKey(int record1, object[] vals)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000764")]
-	[Address(RVA = "0x4283D10", Offset = "0x4283D10", VA = "0x4283D10")]
+	[Address(RVA = "0x45C1470", Offset = "0x45C1470", VA = "0x45C1470")]
 	public void DeleteRecordFromIndex(int recordIndex)
 	{
 	}
 
 	[Token(Token = "0x6000765")]
-	[Address(RVA = "0x4283870", Offset = "0x4283870", VA = "0x4283870")]
+	[Address(RVA = "0x45C0FD0", Offset = "0x45C0FD0", VA = "0x45C0FD0")]
 	private void DeleteRecord(int recordIndex)
 	{
 	}
 
 	[Token(Token = "0x6000766")]
-	[Address(RVA = "0x4283D20", Offset = "0x4283D20", VA = "0x4283D20")]
+	[Address(RVA = "0x45C1480", Offset = "0x45C1480", VA = "0x45C1480")]
 	private void DeleteRecord(int recordIndex, bool fireEvent)
 	{
 	}
 
 	[Token(Token = "0x6000767")]
-	[Address(RVA = "0x4284090", Offset = "0x4284090", VA = "0x4284090")]
+	[Address(RVA = "0x45C17F0", Offset = "0x45C17F0", VA = "0x45C17F0")]
 	public RBTree<int>.RBTreeEnumerator GetEnumerator(int startIndex)
 	{
 		return default(RBTree<int>.RBTreeEnumerator);
 	}
 
 	[Token(Token = "0x6000768")]
-	[Address(RVA = "0x4283880", Offset = "0x4283880", VA = "0x4283880")]
+	[Address(RVA = "0x45C0FE0", Offset = "0x45C0FE0", VA = "0x45C0FE0")]
 	public int GetIndex(int record)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000769")]
-	[Address(RVA = "0x42836F0", Offset = "0x42836F0", VA = "0x42836F0")]
+	[Address(RVA = "0x45C0E50", Offset = "0x45C0E50", VA = "0x45C0E50")]
 	private int GetIndex(int record, int changeRecord)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600076A")]
-	[Address(RVA = "0x42787C0", Offset = "0x42787C0", VA = "0x42787C0")]
+	[Address(RVA = "0x45B5F20", Offset = "0x45B5F20", VA = "0x45B5F20")]
 	public object[] GetUniqueKeyValues()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600076B")]
-	[Address(RVA = "0x4284370", Offset = "0x4284370", VA = "0x4284370")]
+	[Address(RVA = "0x45C1AD0", Offset = "0x45C1AD0", VA = "0x45C1AD0")]
 	private int FindNodeByKey(object originalKey)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600076C")]
-	[Address(RVA = "0x42845A0", Offset = "0x42845A0", VA = "0x42845A0")]
+	[Address(RVA = "0x45C1D00", Offset = "0x45C1D00", VA = "0x45C1D00")]
 	private int FindNodeByKeys(object[] originalKey)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600076D")]
-	[Address(RVA = "0x4284830", Offset = "0x4284830", VA = "0x4284830")]
+	[Address(RVA = "0x45C1F90", Offset = "0x45C1F90", VA = "0x45C1F90")]
 	private int FindNodeByKeyRecord(int record)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600076E")]
-	[Address(RVA = "0x4284930", Offset = "0x4284930", VA = "0x4284930")]
+	[Address(RVA = "0x45C2090", Offset = "0x45C2090", VA = "0x45C2090")]
 	private Range GetRangeFromNode(int nodeId)
 	{
 		return default(Range);
 	}
 
 	[Token(Token = "0x600076F")]
-	[Address(RVA = "0x4284A50", Offset = "0x4284A50", VA = "0x4284A50")]
+	[Address(RVA = "0x45C21B0", Offset = "0x45C21B0", VA = "0x45C21B0")]
 	public Range FindRecords(object key)
 	{
 		return default(Range);
 	}
 
 	[Token(Token = "0x6000770")]
-	[Address(RVA = "0x4278930", Offset = "0x4278930", VA = "0x4278930")]
+	[Address(RVA = "0x45B6090", Offset = "0x45B6090", VA = "0x45B6090")]
 	public Range FindRecords(object[] key)
 	{
 		return default(Range);
 	}
 
 	[Token(Token = "0x6000771")]
-	[Address(RVA = "0x4284A70", Offset = "0x4284A70", VA = "0x4284A70")]
+	[Address(RVA = "0x45C21D0", Offset = "0x45C21D0", VA = "0x45C21D0")]
 	internal void FireResetEvent()
 	{
 	}
 
 	[Token(Token = "0x6000772")]
-	[Address(RVA = "0x4284DF0", Offset = "0x4284DF0", VA = "0x4284DF0")]
+	[Address(RVA = "0x45C2550", Offset = "0x45C2550", VA = "0x45C2550")]
 	private int GetChangeAction(DataViewRowState oldState, DataViewRowState newState)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000773")]
-	[Address(RVA = "0x4284E10", Offset = "0x4284E10", VA = "0x4284E10")]
+	[Address(RVA = "0x45C2570", Offset = "0x45C2570", VA = "0x45C2570")]
 	private static int GetReplaceAction(DataViewRowState oldState)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000774")]
-	[Address(RVA = "0x42796B0", Offset = "0x42796B0", VA = "0x42796B0")]
+	[Address(RVA = "0x45B6E10", Offset = "0x45B6E10", VA = "0x45B6E10")]
 	public DataRow GetRow(int i)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000775")]
-	[Address(RVA = "0x4284E30", Offset = "0x4284E30", VA = "0x4284E30")]
+	[Address(RVA = "0x45C2590", Offset = "0x45C2590", VA = "0x45C2590")]
 	public DataRow[] GetRows(object[] values)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000776")]
-	[Address(RVA = "0x4278950", Offset = "0x4278950", VA = "0x4278950")]
+	[Address(RVA = "0x45B60B0", Offset = "0x45B60B0", VA = "0x45B60B0")]
 	public DataRow[] GetRows(Range range)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000777")]
-	[Address(RVA = "0x42824F0", Offset = "0x42824F0", VA = "0x42824F0")]
+	[Address(RVA = "0x45BFC50", Offset = "0x45BFC50", VA = "0x45BFC50")]
 	private void InitRecords(IFilter filter)
 	{
 	}
 
 	[Token(Token = "0x6000778")]
-	[Address(RVA = "0x4284EC0", Offset = "0x4284EC0", VA = "0x4284EC0")]
+	[Address(RVA = "0x45C2620", Offset = "0x45C2620", VA = "0x45C2620")]
 	public int InsertRecordToIndex(int record)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000779")]
-	[Address(RVA = "0x4283460", Offset = "0x4283460", VA = "0x4283460")]
+	[Address(RVA = "0x45C0BC0", Offset = "0x45C0BC0", VA = "0x45C0BC0")]
 	private int InsertRecord(int record, bool fireEvent)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600077A")]
-	[Address(RVA = "0x4284F70", Offset = "0x4284F70", VA = "0x4284F70")]
+	[Address(RVA = "0x45C26D0", Offset = "0x45C26D0", VA = "0x45C26D0")]
 	public bool IsKeyInIndex(object key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600077B")]
-	[Address(RVA = "0x4278920", Offset = "0x4278920", VA = "0x4278920")]
+	[Address(RVA = "0x45B6080", Offset = "0x45B6080", VA = "0x45B6080")]
 	public bool IsKeyInIndex(object[] key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600077C")]
-	[Address(RVA = "0x4284F80", Offset = "0x4284F80", VA = "0x4284F80")]
+	[Address(RVA = "0x45C26E0", Offset = "0x45C26E0", VA = "0x45C26E0")]
 	public bool IsKeyRecordInIndex(int record)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600077E")]
-	[Address(RVA = "0x4284F90", Offset = "0x4284F90", VA = "0x4284F90")]
+	[Address(RVA = "0x45C26F0", Offset = "0x45C26F0", VA = "0x45C26F0")]
 	private void OnListChanged(ListChangedType changedType, int newIndex, int oldIndex)
 	{
 	}
 
 	[Token(Token = "0x600077F")]
-	[Address(RVA = "0x4283F90", Offset = "0x4283F90", VA = "0x4283F90")]
+	[Address(RVA = "0x45C16F0", Offset = "0x45C16F0", VA = "0x45C16F0")]
 	private void OnListChanged(ListChangedType changedType, int index)
 	{
 	}
 
 	[Token(Token = "0x6000780")]
-	[Address(RVA = "0x4284C20", Offset = "0x4284C20", VA = "0x4284C20")]
+	[Address(RVA = "0x45C2380", Offset = "0x45C2380", VA = "0x45C2380")]
 	private void OnListChanged(ListChangedEventArgs e)
 	{
 	}
 
 	[Token(Token = "0x6000781")]
-	[Address(RVA = "0x4283E60", Offset = "0x4283E60", VA = "0x4283E60")]
+	[Address(RVA = "0x45C15C0", Offset = "0x45C15C0", VA = "0x45C15C0")]
 	private void MaintainDataView(ListChangedType changedType, int record, bool trackAddRemove)
 	{
 	}
 
 	[Token(Token = "0x6000782")]
-	[Address(RVA = "0x42850A0", Offset = "0x42850A0", VA = "0x42850A0")]
+	[Address(RVA = "0x45C2800", Offset = "0x45C2800", VA = "0x45C2800")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x6000783")]
-	[Address(RVA = "0x42851F0", Offset = "0x42851F0", VA = "0x42851F0")]
+	[Address(RVA = "0x45C2950", Offset = "0x45C2950", VA = "0x45C2950")]
 	public void RecordChanged(int record)
 	{
 	}
 
 	[Token(Token = "0x6000784")]
-	[Address(RVA = "0x4285350", Offset = "0x4285350", VA = "0x4285350")]
+	[Address(RVA = "0x45C2AB0", Offset = "0x45C2AB0", VA = "0x45C2AB0")]
 	public void RecordChanged(int oldIndex, int newIndex)
 	{
 	}
 
 	[Token(Token = "0x6000785")]
-	[Address(RVA = "0x4285480", Offset = "0x4285480", VA = "0x4285480")]
+	[Address(RVA = "0x45C2BE0", Offset = "0x45C2BE0", VA = "0x45C2BE0")]
 	public void RecordStateChanged(int record, DataViewRowState oldState, DataViewRowState newState)
 	{
 	}
 
 	[Token(Token = "0x6000786")]
-	[Address(RVA = "0x42855B0", Offset = "0x42855B0", VA = "0x42855B0")]
+	[Address(RVA = "0x45C2D10", Offset = "0x45C2D10", VA = "0x45C2D10")]
 	public void RecordStateChanged(int oldRecord, DataViewRowState oldOldState, DataViewRowState oldNewState, int newRecord, DataViewRowState newOldState, DataViewRowState newNewState)
 	{
 	}
 
 	[Token(Token = "0x6000788")]
-	[Address(RVA = "0x42840F0", Offset = "0x42840F0", VA = "0x42840F0")]
+	[Address(RVA = "0x45C1850", Offset = "0x45C1850", VA = "0x45C1850")]
 	private void GetUniqueKeyValues(List<object[]> list, int curNodeId)
 	{
 	}

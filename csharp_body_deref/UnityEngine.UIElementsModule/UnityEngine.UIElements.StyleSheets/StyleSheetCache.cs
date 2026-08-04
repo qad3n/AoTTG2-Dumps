@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.StyleSheets.StyleSheetCache
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -18,7 +25,7 @@ internal static class StyleSheetCache
 		public readonly int index;
 
 		[Token(Token = "0x600202D")]
-		[Address(RVA = "0x4CA5450", Offset = "0x4CA5450", VA = "0x4CA5450")]
+		[Address(RVA = "0x4FCCD80", Offset = "0x4FCCD80", VA = "0x4FCCD80")]
 		public SheetHandleKey(StyleSheet sheet, int index)
 		{
 		}
@@ -28,21 +35,21 @@ internal static class StyleSheetCache
 	private class SheetHandleKeyComparer : IEqualityComparer<SheetHandleKey>
 	{
 		[Token(Token = "0x600202E")]
-		[Address(RVA = "0x4CA5730", Offset = "0x4CA5730", VA = "0x4CA5730", Slot = "4")]
+		[Address(RVA = "0x4FCD060", Offset = "0x4FCD060", VA = "0x4FCD060", Slot = "4")]
 		public bool Equals(SheetHandleKey x, SheetHandleKey y)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600202F")]
-		[Address(RVA = "0x4CA5750", Offset = "0x4CA5750", VA = "0x4CA5750", Slot = "5")]
+		[Address(RVA = "0x4FCD080", Offset = "0x4FCD080", VA = "0x4FCD080", Slot = "5")]
 		public int GetHashCode(SheetHandleKey key)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6002030")]
-		[Address(RVA = "0x4CA5720", Offset = "0x4CA5720", VA = "0x4CA5720")]
+		[Address(RVA = "0x4FCD050", Offset = "0x4FCD050", VA = "0x4FCD050")]
 		public SheetHandleKeyComparer()
 		{
 		}
@@ -57,21 +64,21 @@ internal static class StyleSheetCache
 	private static Dictionary<SheetHandleKey, StylePropertyId[]> s_RulePropertyIdsCache;
 
 	[Token(Token = "0x6002029")]
-	[Address(RVA = "0x4C9F7B0", Offset = "0x4C9F7B0", VA = "0x4C9F7B0")]
+	[Address(RVA = "0x4FC70E0", Offset = "0x4FC70E0", VA = "0x4FC70E0")]
 	internal static StylePropertyId[] GetPropertyIds(StyleSheet sheet, int ruleIndex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600202A")]
-	[Address(RVA = "0x4CA5570", Offset = "0x4CA5570", VA = "0x4CA5570")]
+	[Address(RVA = "0x4FCCEA0", Offset = "0x4FCCEA0", VA = "0x4FCCEA0")]
 	internal static StylePropertyId[] GetPropertyIds(StyleRule rule)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600202B")]
-	[Address(RVA = "0x4CA5480", Offset = "0x4CA5480", VA = "0x4CA5480")]
+	[Address(RVA = "0x4FCCDB0", Offset = "0x4FCCDB0", VA = "0x4FCCDB0")]
 	private static StylePropertyId GetPropertyId(StyleRule rule, int index)
 	{
 		return default(StylePropertyId);

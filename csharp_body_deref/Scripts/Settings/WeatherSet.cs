@@ -1,92 +1,99 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Settings.WeatherSet
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Settings/WeatherSet.c
+// Prior real C# source (older reference): Assets/Scripts/Settings/InGame/WeatherSet.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x2000096")]
+[Token(Token = "0x2000097")]
 internal class WeatherSet : BaseSetSetting
 {
-	[Token(Token = "0x4000364")]
+	[Token(Token = "0x4000369")]
 	[FieldOffset(Offset = "0x38")]
 	public StringSetting Skybox;
 
-	[Token(Token = "0x4000365")]
+	[Token(Token = "0x400036A")]
 	[FieldOffset(Offset = "0x40")]
 	public ColorSetting SkyboxColor;
 
-	[Token(Token = "0x4000366")]
+	[Token(Token = "0x400036B")]
 	[FieldOffset(Offset = "0x48")]
 	public ColorSetting Daylight;
 
-	[Token(Token = "0x4000367")]
+	[Token(Token = "0x400036C")]
 	[FieldOffset(Offset = "0x50")]
 	public FloatSetting DaylightIntensity;
 
-	[Token(Token = "0x4000368")]
+	[Token(Token = "0x400036D")]
 	[FieldOffset(Offset = "0x58")]
 	public Vector3Setting DaylightDirection;
 
-	[Token(Token = "0x4000369")]
+	[Token(Token = "0x400036E")]
 	[FieldOffset(Offset = "0x60")]
 	public ColorSetting AmbientLight;
 
-	[Token(Token = "0x400036A")]
+	[Token(Token = "0x400036F")]
 	[FieldOffset(Offset = "0x68")]
 	public ColorSetting Flashlight;
 
-	[Token(Token = "0x400036B")]
+	[Token(Token = "0x4000370")]
 	[FieldOffset(Offset = "0x70")]
 	public FloatSetting FogDensity;
 
-	[Token(Token = "0x400036C")]
+	[Token(Token = "0x4000371")]
 	[FieldOffset(Offset = "0x78")]
 	public ColorSetting FogColor;
 
-	[Token(Token = "0x400036D")]
+	[Token(Token = "0x4000372")]
 	[FieldOffset(Offset = "0x80")]
 	public FloatSetting Rain;
 
-	[Token(Token = "0x400036E")]
+	[Token(Token = "0x4000373")]
 	[FieldOffset(Offset = "0x88")]
 	public FloatSetting Thunder;
 
-	[Token(Token = "0x400036F")]
+	[Token(Token = "0x4000374")]
 	[FieldOffset(Offset = "0x90")]
 	public FloatSetting Snow;
 
-	[Token(Token = "0x4000370")]
+	[Token(Token = "0x4000375")]
 	[FieldOffset(Offset = "0x98")]
 	public FloatSetting Wind;
 
-	[Token(Token = "0x4000371")]
+	[Token(Token = "0x4000376")]
 	[FieldOffset(Offset = "0xA0")]
 	public Vector3Setting WindDirection;
 
-	[Token(Token = "0x4000372")]
+	[Token(Token = "0x4000377")]
 	[FieldOffset(Offset = "0xA8")]
 	public FloatSetting RainForce;
 
-	[Token(Token = "0x4000373")]
+	[Token(Token = "0x4000378")]
 	[FieldOffset(Offset = "0xB0")]
 	public FloatSetting SnowForce;
 
-	[Token(Token = "0x4000374")]
+	[Token(Token = "0x4000379")]
 	[FieldOffset(Offset = "0xB8")]
 	public FloatSetting WindForce;
 
-	[Token(Token = "0x4000375")]
+	[Token(Token = "0x400037A")]
 	[FieldOffset(Offset = "0xC0")]
 	public BoolSetting UseSchedule;
 
-	[Token(Token = "0x4000376")]
+	[Token(Token = "0x400037B")]
 	[FieldOffset(Offset = "0xC8")]
 	public BoolSetting ScheduleLoop;
 
-	[Token(Token = "0x4000377")]
+	[Token(Token = "0x400037C")]
 	[FieldOffset(Offset = "0xD0")]
 	public StringSetting Schedule;
 
-	[Token(Token = "0x6000331")]
-	[Address(RVA = "0x3C965F0", Offset = "0x3C965F0", VA = "0x3C965F0")]
+	[Token(Token = "0x6000337")]
+	[Address(RVA = "0x3F8C7A0", Offset = "0x3F8C7A0", VA = "0x3F8C7A0")]
 	public WeatherSet()
 	{
 	}

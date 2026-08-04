@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MS.Internal.Xml.XPath.Group
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.XPath;
 using Il2CppDummyDll;
 
@@ -14,7 +21,7 @@ internal class Group : AstNode
 	public override AstType Type
 	{
 		[Token(Token = "0x6001B15")]
-		[Address(RVA = "0x4440000", Offset = "0x4440000", VA = "0x4440000", Slot = "4")]
+		[Address(RVA = "0x477D760", Offset = "0x477D760", VA = "0x477D760", Slot = "4")]
 		get
 		{
 			return default(AstType);
@@ -25,7 +32,7 @@ internal class Group : AstNode
 	public override XPathResultType ReturnType
 	{
 		[Token(Token = "0x6001B16")]
-		[Address(RVA = "0x4440010", Offset = "0x4440010", VA = "0x4440010", Slot = "5")]
+		[Address(RVA = "0x477D770", Offset = "0x477D770", VA = "0x477D770", Slot = "5")]
 		get
 		{
 			return default(XPathResultType);
@@ -36,7 +43,7 @@ internal class Group : AstNode
 	public AstNode GroupNode
 	{
 		[Token(Token = "0x6001B17")]
-		[Address(RVA = "0x4440020", Offset = "0x4440020", VA = "0x4440020")]
+		[Address(RVA = "0x477D780", Offset = "0x477D780", VA = "0x477D780")]
 		get
 		{
 			return null;
@@ -44,7 +51,7 @@ internal class Group : AstNode
 	}
 
 	[Token(Token = "0x6001B14")]
-	[Address(RVA = "0x443FFD0", Offset = "0x443FFD0", VA = "0x443FFD0")]
+	[Address(RVA = "0x477D730", Offset = "0x477D730", VA = "0x477D730")]
 	public Group(AstNode groupNode)
 	{
 	}

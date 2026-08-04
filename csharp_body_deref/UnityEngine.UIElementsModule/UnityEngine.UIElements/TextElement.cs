@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.TextElement
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -12,7 +19,7 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	public new class UxmlFactory : UxmlFactory<TextElement, UxmlTraits>
 	{
 		[Token(Token = "0x600197C")]
-		[Address(RVA = "0x4C36B70", Offset = "0x4C36B70", VA = "0x4C36B70")]
+		[Address(RVA = "0x4F5E4A0", Offset = "0x4F5E4A0", VA = "0x4F5E4A0")]
 		public UxmlFactory()
 		{
 		}
@@ -50,13 +57,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 		private UxmlBoolAttributeDescription m_DisplayTooltipWhenElided;
 
 		[Token(Token = "0x600197D")]
-		[Address(RVA = "0x4C36BB0", Offset = "0x4C36BB0", VA = "0x4C36BB0", Slot = "4")]
+		[Address(RVA = "0x4F5E4E0", Offset = "0x4F5E4E0", VA = "0x4F5E4E0", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x600197E")]
-		[Address(RVA = "0x4C371C0", Offset = "0x4C371C0", VA = "0x4C371C0")]
+		[Address(RVA = "0x4F5EAF0", Offset = "0x4F5EAF0", VA = "0x4F5EAF0")]
 		public UxmlTraits()
 		{
 		}
@@ -290,7 +297,7 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	internal bool selectable
 	{
 		[Token(Token = "0x60018E8")]
-		[Address(RVA = "0x4C2E4A0", Offset = "0x4C2E4A0", VA = "0x4C2E4A0")]
+		[Address(RVA = "0x4F55DD0", Offset = "0x4F55DD0", VA = "0x4F55DD0")]
 		set
 		{
 		}
@@ -300,14 +307,14 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	internal UITKTextHandle uitkTextHandle
 	{
 		[Token(Token = "0x60018EA")]
-		[Address(RVA = "0x4C2E820", Offset = "0x4C2E820", VA = "0x4C2E820")]
+		[Address(RVA = "0x4F56150", Offset = "0x4F56150", VA = "0x4F56150")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60018EB")]
-		[Address(RVA = "0x4C2E830", Offset = "0x4C2E830", VA = "0x4C2E830")]
+		[Address(RVA = "0x4F56160", Offset = "0x4F56160", VA = "0x4F56160")]
 		[CompilerGenerated]
 		set
 		{
@@ -319,13 +326,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	public virtual string text
 	{
 		[Token(Token = "0x60018ED")]
-		[Address(RVA = "0x4C2E9D0", Offset = "0x4C2E9D0", VA = "0x4C2E9D0", Slot = "166")]
+		[Address(RVA = "0x4F56300", Offset = "0x4F56300", VA = "0x4F56300", Slot = "166")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60018EE")]
-		[Address(RVA = "0x4C2EA60", Offset = "0x4C2EA60", VA = "0x4C2EA60", Slot = "167")]
+		[Address(RVA = "0x4F56390", Offset = "0x4F56390", VA = "0x4F56390", Slot = "167")]
 		set
 		{
 		}
@@ -336,13 +343,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	public bool enableRichText
 	{
 		[Token(Token = "0x60018EF")]
-		[Address(RVA = "0x4C2EB00", Offset = "0x4C2EB00", VA = "0x4C2EB00")]
+		[Address(RVA = "0x4F56430", Offset = "0x4F56430", VA = "0x4F56430")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60018F0")]
-		[Address(RVA = "0x4C2EB10", Offset = "0x4C2EB10", VA = "0x4C2EB10")]
+		[Address(RVA = "0x4F56440", Offset = "0x4F56440", VA = "0x4F56440")]
 		set
 		{
 		}
@@ -353,13 +360,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	public bool parseEscapeSequences
 	{
 		[Token(Token = "0x60018F1")]
-		[Address(RVA = "0x4C2EBC0", Offset = "0x4C2EBC0", VA = "0x4C2EBC0")]
+		[Address(RVA = "0x4F564F0", Offset = "0x4F564F0", VA = "0x4F564F0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60018F2")]
-		[Address(RVA = "0x4C2EBD0", Offset = "0x4C2EBD0", VA = "0x4C2EBD0")]
+		[Address(RVA = "0x4F56500", Offset = "0x4F56500", VA = "0x4F56500")]
 		set
 		{
 		}
@@ -370,13 +377,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	public bool displayTooltipWhenElided
 	{
 		[Token(Token = "0x60018F3")]
-		[Address(RVA = "0x4C2EC80", Offset = "0x4C2EC80", VA = "0x4C2EC80")]
+		[Address(RVA = "0x4F565B0", Offset = "0x4F565B0", VA = "0x4F565B0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60018F4")]
-		[Address(RVA = "0x4C2EC90", Offset = "0x4C2EC90", VA = "0x4C2EC90")]
+		[Address(RVA = "0x4F565C0", Offset = "0x4F565C0", VA = "0x4F565C0")]
 		set
 		{
 		}
@@ -387,14 +394,14 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	public bool isElided
 	{
 		[Token(Token = "0x60018F5")]
-		[Address(RVA = "0x4C2ED40", Offset = "0x4C2ED40", VA = "0x4C2ED40")]
+		[Address(RVA = "0x4F56670", Offset = "0x4F56670", VA = "0x4F56670")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60018F6")]
-		[Address(RVA = "0x4C2ED50", Offset = "0x4C2ED50", VA = "0x4C2ED50")]
+		[Address(RVA = "0x4F56680", Offset = "0x4F56680", VA = "0x4F56680")]
 		[CompilerGenerated]
 		private set
 		{
@@ -405,7 +412,7 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	internal bool hasFocus
 	{
 		[Token(Token = "0x60018FD")]
-		[Address(RVA = "0x4C29B50", Offset = "0x4C29B50", VA = "0x4C29B50")]
+		[Address(RVA = "0x4F51480", Offset = "0x4F51480", VA = "0x4F51480")]
 		get
 		{
 			return default(bool);
@@ -416,13 +423,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private string UnityEngine_002EUIElements_002EINotifyValueChanged_003CSystem_002EString_003E_002Evalue
 	{
 		[Token(Token = "0x6001900")]
-		[Address(RVA = "0x4C31360", Offset = "0x4C31360", VA = "0x4C31360", Slot = "100")]
+		[Address(RVA = "0x4F58C90", Offset = "0x4F58C90", VA = "0x4F58C90", Slot = "100")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001901")]
-		[Address(RVA = "0x4C31390", Offset = "0x4C31390", VA = "0x4C31390", Slot = "101")]
+		[Address(RVA = "0x4F58CC0", Offset = "0x4F58CC0", VA = "0x4F58CC0", Slot = "101")]
 		set
 		{
 		}
@@ -433,13 +440,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private string value
 	{
 		[Token(Token = "0x6001902")]
-		[Address(RVA = "0x4C31760", Offset = "0x4C31760", VA = "0x4C31760")]
+		[Address(RVA = "0x4F59090", Offset = "0x4F59090", VA = "0x4F59090")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001903")]
-		[Address(RVA = "0x4C317F0", Offset = "0x4C317F0", VA = "0x4C317F0")]
+		[Address(RVA = "0x4F59120", Offset = "0x4F59120", VA = "0x4F59120")]
 		set
 		{
 		}
@@ -449,7 +456,7 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	internal ITextEdition edition
 	{
 		[Token(Token = "0x6001905")]
-		[Address(RVA = "0x4C290C0", Offset = "0x4C290C0", VA = "0x4C290C0")]
+		[Address(RVA = "0x4F509F0", Offset = "0x4F509F0", VA = "0x4F509F0")]
 		get
 		{
 			return null;
@@ -460,13 +467,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool UnityEngine_002EUIElements_002EITextEdition_002Emultiline
 	{
 		[Token(Token = "0x6001906")]
-		[Address(RVA = "0x4C31A60", Offset = "0x4C31A60", VA = "0x4C31A60", Slot = "103")]
+		[Address(RVA = "0x4F59390", Offset = "0x4F59390", VA = "0x4F59390", Slot = "103")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001907")]
-		[Address(RVA = "0x4C31A70", Offset = "0x4C31A70", VA = "0x4C31A70", Slot = "104")]
+		[Address(RVA = "0x4F593A0", Offset = "0x4F593A0", VA = "0x4F593A0", Slot = "104")]
 		set
 		{
 		}
@@ -476,13 +483,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private TouchScreenKeyboardType UnityEngine_002EUIElements_002EITextEdition_002EkeyboardType
 	{
 		[Token(Token = "0x6001908")]
-		[Address(RVA = "0x4C31B50", Offset = "0x4C31B50", VA = "0x4C31B50", Slot = "140")]
+		[Address(RVA = "0x4F59480", Offset = "0x4F59480", VA = "0x4F59480", Slot = "140")]
 		get
 		{
 			return default(TouchScreenKeyboardType);
 		}
 		[Token(Token = "0x6001909")]
-		[Address(RVA = "0x4C31B60", Offset = "0x4C31B60", VA = "0x4C31B60", Slot = "141")]
+		[Address(RVA = "0x4F59490", Offset = "0x4F59490", VA = "0x4F59490", Slot = "141")]
 		set
 		{
 		}
@@ -493,13 +500,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private TouchScreenKeyboardType keyboardType
 	{
 		[Token(Token = "0x600190A")]
-		[Address(RVA = "0x4C31C00", Offset = "0x4C31C00", VA = "0x4C31C00")]
+		[Address(RVA = "0x4F59530", Offset = "0x4F59530", VA = "0x4F59530")]
 		get
 		{
 			return default(TouchScreenKeyboardType);
 		}
 		[Token(Token = "0x600190B")]
-		[Address(RVA = "0x4C31CA0", Offset = "0x4C31CA0", VA = "0x4C31CA0")]
+		[Address(RVA = "0x4F595D0", Offset = "0x4F595D0", VA = "0x4F595D0")]
 		set
 		{
 		}
@@ -509,13 +516,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool UnityEngine_002EUIElements_002EITextEdition_002EhideMobileInput
 	{
 		[Token(Token = "0x600190C")]
-		[Address(RVA = "0x4C31D40", Offset = "0x4C31D40", VA = "0x4C31D40", Slot = "138")]
+		[Address(RVA = "0x4F59670", Offset = "0x4F59670", VA = "0x4F59670", Slot = "138")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600190D")]
-		[Address(RVA = "0x4C31DD0", Offset = "0x4C31DD0", VA = "0x4C31DD0", Slot = "139")]
+		[Address(RVA = "0x4F59700", Offset = "0x4F59700", VA = "0x4F59700", Slot = "139")]
 		set
 		{
 		}
@@ -526,13 +533,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool hideMobileInput
 	{
 		[Token(Token = "0x600190E")]
-		[Address(RVA = "0x4C31EB0", Offset = "0x4C31EB0", VA = "0x4C31EB0")]
+		[Address(RVA = "0x4F597E0", Offset = "0x4F597E0", VA = "0x4F597E0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600190F")]
-		[Address(RVA = "0x4C31F50", Offset = "0x4C31F50", VA = "0x4C31F50")]
+		[Address(RVA = "0x4F59880", Offset = "0x4F59880", VA = "0x4F59880")]
 		set
 		{
 		}
@@ -542,13 +549,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool UnityEngine_002EUIElements_002EITextEdition_002EisReadOnly
 	{
 		[Token(Token = "0x6001910")]
-		[Address(RVA = "0x4C31FF0", Offset = "0x4C31FF0", VA = "0x4C31FF0", Slot = "105")]
+		[Address(RVA = "0x4F59920", Offset = "0x4F59920", VA = "0x4F59920", Slot = "105")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001911")]
-		[Address(RVA = "0x4C32010", Offset = "0x4C32010", VA = "0x4C32010", Slot = "106")]
+		[Address(RVA = "0x4F59940", Offset = "0x4F59940", VA = "0x4F59940", Slot = "106")]
 		set
 		{
 		}
@@ -559,13 +566,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool isReadOnly
 	{
 		[Token(Token = "0x6001912")]
-		[Address(RVA = "0x4C32110", Offset = "0x4C32110", VA = "0x4C32110")]
+		[Address(RVA = "0x4F59A40", Offset = "0x4F59A40", VA = "0x4F59A40")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001913")]
-		[Address(RVA = "0x4C321B0", Offset = "0x4C321B0", VA = "0x4C321B0")]
+		[Address(RVA = "0x4F59AE0", Offset = "0x4F59AE0", VA = "0x4F59AE0")]
 		set
 		{
 		}
@@ -575,13 +582,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private int UnityEngine_002EUIElements_002EITextEdition_002EmaxLength
 	{
 		[Token(Token = "0x600191D")]
-		[Address(RVA = "0x4C32F30", Offset = "0x4C32F30", VA = "0x4C32F30", Slot = "107")]
+		[Address(RVA = "0x4F5A860", Offset = "0x4F5A860", VA = "0x4F5A860", Slot = "107")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600191E")]
-		[Address(RVA = "0x4C32F40", Offset = "0x4C32F40", VA = "0x4C32F40", Slot = "108")]
+		[Address(RVA = "0x4F5A870", Offset = "0x4F5A870", VA = "0x4F5A870", Slot = "108")]
 		set
 		{
 		}
@@ -592,13 +599,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private int maxLength
 	{
 		[Token(Token = "0x600191F")]
-		[Address(RVA = "0x4C33080", Offset = "0x4C33080", VA = "0x4C33080")]
+		[Address(RVA = "0x4F5A9B0", Offset = "0x4F5A9B0", VA = "0x4F5A9B0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6001920")]
-		[Address(RVA = "0x4C33120", Offset = "0x4C33120", VA = "0x4C33120")]
+		[Address(RVA = "0x4F5AA50", Offset = "0x4F5AA50", VA = "0x4F5AA50")]
 		set
 		{
 		}
@@ -608,13 +615,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private string UnityEngine_002EUIElements_002EITextEdition_002Eplaceholder
 	{
 		[Token(Token = "0x6001921")]
-		[Address(RVA = "0x4C331C0", Offset = "0x4C331C0", VA = "0x4C331C0", Slot = "109")]
+		[Address(RVA = "0x4F5AAF0", Offset = "0x4F5AAF0", VA = "0x4F5AAF0", Slot = "109")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001922")]
-		[Address(RVA = "0x4C331D0", Offset = "0x4C331D0", VA = "0x4C331D0", Slot = "110")]
+		[Address(RVA = "0x4F5AB00", Offset = "0x4F5AB00", VA = "0x4F5AB00", Slot = "110")]
 		set
 		{
 		}
@@ -624,14 +631,14 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool UnityEngine_002EUIElements_002EITextEdition_002EisDelayed
 	{
 		[Token(Token = "0x6001923")]
-		[Address(RVA = "0x4C33330", Offset = "0x4C33330", VA = "0x4C33330", Slot = "111")]
+		[Address(RVA = "0x4F5AC60", Offset = "0x4F5AC60", VA = "0x4F5AC60", Slot = "111")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001924")]
-		[Address(RVA = "0x4C33340", Offset = "0x4C33340", VA = "0x4C33340", Slot = "112")]
+		[Address(RVA = "0x4F5AC70", Offset = "0x4F5AC70", VA = "0x4F5AC70", Slot = "112")]
 		[CompilerGenerated]
 		set
 		{
@@ -642,14 +649,14 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private Func<char, bool> UnityEngine_002EUIElements_002EITextEdition_002EAcceptCharacter
 	{
 		[Token(Token = "0x6001928")]
-		[Address(RVA = "0x4C333E0", Offset = "0x4C333E0", VA = "0x4C333E0", Slot = "116")]
+		[Address(RVA = "0x4F5AD10", Offset = "0x4F5AD10", VA = "0x4F5AD10", Slot = "116")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001929")]
-		[Address(RVA = "0x4C333F0", Offset = "0x4C333F0", VA = "0x4C333F0", Slot = "117")]
+		[Address(RVA = "0x4F5AD20", Offset = "0x4F5AD20", VA = "0x4F5AD20", Slot = "117")]
 		[CompilerGenerated]
 		set
 		{
@@ -660,14 +667,14 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private Action<bool> UnityEngine_002EUIElements_002EITextEdition_002EUpdateScrollOffset
 	{
 		[Token(Token = "0x600192A")]
-		[Address(RVA = "0x4C33410", Offset = "0x4C33410", VA = "0x4C33410", Slot = "118")]
+		[Address(RVA = "0x4F5AD40", Offset = "0x4F5AD40", VA = "0x4F5AD40", Slot = "118")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600192B")]
-		[Address(RVA = "0x4C33420", Offset = "0x4C33420", VA = "0x4C33420", Slot = "119")]
+		[Address(RVA = "0x4F5AD50", Offset = "0x4F5AD50", VA = "0x4F5AD50", Slot = "119")]
 		[CompilerGenerated]
 		set
 		{
@@ -678,14 +685,14 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private Action UnityEngine_002EUIElements_002EITextEdition_002EUpdateValueFromText
 	{
 		[Token(Token = "0x600192C")]
-		[Address(RVA = "0x4C33440", Offset = "0x4C33440", VA = "0x4C33440", Slot = "120")]
+		[Address(RVA = "0x4F5AD70", Offset = "0x4F5AD70", VA = "0x4F5AD70", Slot = "120")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600192D")]
-		[Address(RVA = "0x4C33450", Offset = "0x4C33450", VA = "0x4C33450", Slot = "121")]
+		[Address(RVA = "0x4F5AD80", Offset = "0x4F5AD80", VA = "0x4F5AD80", Slot = "121")]
 		[CompilerGenerated]
 		set
 		{
@@ -696,14 +703,14 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private Action UnityEngine_002EUIElements_002EITextEdition_002EUpdateTextFromValue
 	{
 		[Token(Token = "0x600192E")]
-		[Address(RVA = "0x4C33470", Offset = "0x4C33470", VA = "0x4C33470", Slot = "122")]
+		[Address(RVA = "0x4F5ADA0", Offset = "0x4F5ADA0", VA = "0x4F5ADA0", Slot = "122")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600192F")]
-		[Address(RVA = "0x4C33480", Offset = "0x4C33480", VA = "0x4C33480", Slot = "123")]
+		[Address(RVA = "0x4F5ADB0", Offset = "0x4F5ADB0", VA = "0x4F5ADB0", Slot = "123")]
 		[CompilerGenerated]
 		set
 		{
@@ -714,14 +721,14 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private Action UnityEngine_002EUIElements_002EITextEdition_002EMoveFocusToCompositeRoot
 	{
 		[Token(Token = "0x6001930")]
-		[Address(RVA = "0x4C334A0", Offset = "0x4C334A0", VA = "0x4C334A0", Slot = "124")]
+		[Address(RVA = "0x4F5ADD0", Offset = "0x4F5ADD0", VA = "0x4F5ADD0", Slot = "124")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001931")]
-		[Address(RVA = "0x4C334B0", Offset = "0x4C334B0", VA = "0x4C334B0", Slot = "125")]
+		[Address(RVA = "0x4F5ADE0", Offset = "0x4F5ADE0", VA = "0x4F5ADE0", Slot = "125")]
 		[CompilerGenerated]
 		set
 		{
@@ -732,14 +739,14 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	internal Action OnPlaceholderChanged
 	{
 		[Token(Token = "0x6001932")]
-		[Address(RVA = "0x4C334D0", Offset = "0x4C334D0", VA = "0x4C334D0")]
+		[Address(RVA = "0x4F5AE00", Offset = "0x4F5AE00", VA = "0x4F5AE00")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001933")]
-		[Address(RVA = "0x4C334E0", Offset = "0x4C334E0", VA = "0x4C334E0")]
+		[Address(RVA = "0x4F5AE10", Offset = "0x4F5AE10", VA = "0x4F5AE10")]
 		[CompilerGenerated]
 		set
 		{
@@ -750,14 +757,14 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private Func<string> UnityEngine_002EUIElements_002EITextEdition_002EGetDefaultValueType
 	{
 		[Token(Token = "0x6001934")]
-		[Address(RVA = "0x4C33500", Offset = "0x4C33500", VA = "0x4C33500", Slot = "126")]
+		[Address(RVA = "0x4F5AE30", Offset = "0x4F5AE30", VA = "0x4F5AE30", Slot = "126")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001935")]
-		[Address(RVA = "0x4C33510", Offset = "0x4C33510", VA = "0x4C33510", Slot = "127")]
+		[Address(RVA = "0x4F5AE40", Offset = "0x4F5AE40", VA = "0x4F5AE40", Slot = "127")]
 		[CompilerGenerated]
 		set
 		{
@@ -768,13 +775,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private char UnityEngine_002EUIElements_002EITextEdition_002EmaskChar
 	{
 		[Token(Token = "0x6001938")]
-		[Address(RVA = "0x4C33910", Offset = "0x4C33910", VA = "0x4C33910", Slot = "130")]
+		[Address(RVA = "0x4F5B240", Offset = "0x4F5B240", VA = "0x4F5B240", Slot = "130")]
 		get
 		{
 			return default(char);
 		}
 		[Token(Token = "0x6001939")]
-		[Address(RVA = "0x4C33920", Offset = "0x4C33920", VA = "0x4C33920", Slot = "131")]
+		[Address(RVA = "0x4F5B250", Offset = "0x4F5B250", VA = "0x4F5B250", Slot = "131")]
 		set
 		{
 		}
@@ -785,13 +792,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private char maskChar
 	{
 		[Token(Token = "0x600193A")]
-		[Address(RVA = "0x4C33A40", Offset = "0x4C33A40", VA = "0x4C33A40")]
+		[Address(RVA = "0x4F5B370", Offset = "0x4F5B370", VA = "0x4F5B370")]
 		get
 		{
 			return default(char);
 		}
 		[Token(Token = "0x600193B")]
-		[Address(RVA = "0x4C33AE0", Offset = "0x4C33AE0", VA = "0x4C33AE0")]
+		[Address(RVA = "0x4F5B410", Offset = "0x4F5B410", VA = "0x4F5B410")]
 		set
 		{
 		}
@@ -801,7 +808,7 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private char effectiveMaskChar
 	{
 		[Token(Token = "0x600193C")]
-		[Address(RVA = "0x4C33B80", Offset = "0x4C33B80", VA = "0x4C33B80")]
+		[Address(RVA = "0x4F5B4B0", Offset = "0x4F5B4B0", VA = "0x4F5B4B0")]
 		get
 		{
 			return default(char);
@@ -812,13 +819,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool UnityEngine_002EUIElements_002EITextEdition_002EisPassword
 	{
 		[Token(Token = "0x600193D")]
-		[Address(RVA = "0x4C33C30", Offset = "0x4C33C30", VA = "0x4C33C30", Slot = "132")]
+		[Address(RVA = "0x4F5B560", Offset = "0x4F5B560", VA = "0x4F5B560", Slot = "132")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600193E")]
-		[Address(RVA = "0x4C33C40", Offset = "0x4C33C40", VA = "0x4C33C40", Slot = "133")]
+		[Address(RVA = "0x4F5B570", Offset = "0x4F5B570", VA = "0x4F5B570", Slot = "133")]
 		set
 		{
 		}
@@ -829,13 +836,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool isPassword
 	{
 		[Token(Token = "0x600193F")]
-		[Address(RVA = "0x4C33CF0", Offset = "0x4C33CF0", VA = "0x4C33CF0")]
+		[Address(RVA = "0x4F5B620", Offset = "0x4F5B620", VA = "0x4F5B620")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001940")]
-		[Address(RVA = "0x4C33D90", Offset = "0x4C33D90", VA = "0x4C33D90")]
+		[Address(RVA = "0x4F5B6C0", Offset = "0x4F5B6C0", VA = "0x4F5B6C0")]
 		set
 		{
 		}
@@ -845,13 +852,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool UnityEngine_002EUIElements_002EITextEdition_002EhidePlaceholderOnFocus
 	{
 		[Token(Token = "0x6001941")]
-		[Address(RVA = "0x4C33E30", Offset = "0x4C33E30", VA = "0x4C33E30", Slot = "134")]
+		[Address(RVA = "0x4F5B760", Offset = "0x4F5B760", VA = "0x4F5B760", Slot = "134")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001942")]
-		[Address(RVA = "0x4C33E40", Offset = "0x4C33E40", VA = "0x4C33E40", Slot = "135")]
+		[Address(RVA = "0x4F5B770", Offset = "0x4F5B770", VA = "0x4F5B770", Slot = "135")]
 		set
 		{
 		}
@@ -861,7 +868,7 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	internal bool showPlaceholderText
 	{
 		[Token(Token = "0x6001943")]
-		[Address(RVA = "0x4C2DAC0", Offset = "0x4C2DAC0", VA = "0x4C2DAC0")]
+		[Address(RVA = "0x4F553F0", Offset = "0x4F553F0", VA = "0x4F553F0")]
 		get
 		{
 			return default(bool);
@@ -872,13 +879,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool UnityEngine_002EUIElements_002EITextEdition_002EautoCorrection
 	{
 		[Token(Token = "0x6001944")]
-		[Address(RVA = "0x4C33E50", Offset = "0x4C33E50", VA = "0x4C33E50", Slot = "136")]
+		[Address(RVA = "0x4F5B780", Offset = "0x4F5B780", VA = "0x4F5B780", Slot = "136")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001945")]
-		[Address(RVA = "0x4C33E60", Offset = "0x4C33E60", VA = "0x4C33E60", Slot = "137")]
+		[Address(RVA = "0x4F5B790", Offset = "0x4F5B790", VA = "0x4F5B790", Slot = "137")]
 		set
 		{
 		}
@@ -889,13 +896,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool autoCorrection
 	{
 		[Token(Token = "0x6001946")]
-		[Address(RVA = "0x4C33F10", Offset = "0x4C33F10", VA = "0x4C33F10")]
+		[Address(RVA = "0x4F5B840", Offset = "0x4F5B840", VA = "0x4F5B840")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001947")]
-		[Address(RVA = "0x4C33FB0", Offset = "0x4C33FB0", VA = "0x4C33FB0")]
+		[Address(RVA = "0x4F5B8E0", Offset = "0x4F5B8E0", VA = "0x4F5B8E0")]
 		set
 		{
 		}
@@ -905,13 +912,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	internal string renderedText
 	{
 		[Token(Token = "0x6001948")]
-		[Address(RVA = "0x4C2D890", Offset = "0x4C2D890", VA = "0x4C2D890")]
+		[Address(RVA = "0x4F551C0", Offset = "0x4F551C0", VA = "0x4F551C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001949")]
-		[Address(RVA = "0x4C31A00", Offset = "0x4C31A00", VA = "0x4C31A00")]
+		[Address(RVA = "0x4F59330", Offset = "0x4F59330", VA = "0x4F59330")]
 		set
 		{
 		}
@@ -921,7 +928,7 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	internal string originalText
 	{
 		[Token(Token = "0x600194A")]
-		[Address(RVA = "0x4C34050", Offset = "0x4C34050", VA = "0x4C34050")]
+		[Address(RVA = "0x4F5B980", Offset = "0x4F5B980", VA = "0x4F5B980")]
 		get
 		{
 			return null;
@@ -933,7 +940,7 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	public ITextSelection selection
 	{
 		[Token(Token = "0x600194B")]
-		[Address(RVA = "0x4C2ACB0", Offset = "0x4C2ACB0", VA = "0x4C2ACB0")]
+		[Address(RVA = "0x4F525E0", Offset = "0x4F525E0", VA = "0x4F525E0")]
 		get
 		{
 			return null;
@@ -944,13 +951,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool UnityEngine_002EUIElements_002EITextSelection_002EisSelectable
 	{
 		[Token(Token = "0x600194C")]
-		[Address(RVA = "0x4C34060", Offset = "0x4C34060", VA = "0x4C34060", Slot = "142")]
+		[Address(RVA = "0x4F5B990", Offset = "0x4F5B990", VA = "0x4F5B990", Slot = "142")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600194D")]
-		[Address(RVA = "0x4C34080", Offset = "0x4C34080", VA = "0x4C34080", Slot = "143")]
+		[Address(RVA = "0x4F5B9B0", Offset = "0x4F5B9B0", VA = "0x4F5B9B0", Slot = "143")]
 		set
 		{
 		}
@@ -961,13 +968,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool isSelectable
 	{
 		[Token(Token = "0x600194E")]
-		[Address(RVA = "0x4C34130", Offset = "0x4C34130", VA = "0x4C34130")]
+		[Address(RVA = "0x4F5BA60", Offset = "0x4F5BA60", VA = "0x4F5BA60")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600194F")]
-		[Address(RVA = "0x4C341C0", Offset = "0x4C341C0", VA = "0x4C341C0")]
+		[Address(RVA = "0x4F5BAF0", Offset = "0x4F5BAF0", VA = "0x4F5BAF0")]
 		set
 		{
 		}
@@ -977,13 +984,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private int UnityEngine_002EUIElements_002EITextSelection_002EcursorIndex
 	{
 		[Token(Token = "0x6001950")]
-		[Address(RVA = "0x4C34260", Offset = "0x4C34260", VA = "0x4C34260", Slot = "148")]
+		[Address(RVA = "0x4F5BB90", Offset = "0x4F5BB90", VA = "0x4F5BB90", Slot = "148")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6001951")]
-		[Address(RVA = "0x4C34390", Offset = "0x4C34390", VA = "0x4C34390", Slot = "149")]
+		[Address(RVA = "0x4F5BCC0", Offset = "0x4F5BCC0", VA = "0x4F5BCC0", Slot = "149")]
 		set
 		{
 		}
@@ -994,13 +1001,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private int cursorIndex
 	{
 		[Token(Token = "0x6001952")]
-		[Address(RVA = "0x4C345F0", Offset = "0x4C345F0", VA = "0x4C345F0")]
+		[Address(RVA = "0x4F5BF20", Offset = "0x4F5BF20", VA = "0x4F5BF20")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6001953")]
-		[Address(RVA = "0x4C34690", Offset = "0x4C34690", VA = "0x4C34690")]
+		[Address(RVA = "0x4F5BFC0", Offset = "0x4F5BFC0", VA = "0x4F5BFC0")]
 		set
 		{
 		}
@@ -1010,13 +1017,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private int UnityEngine_002EUIElements_002EITextSelection_002EselectIndex
 	{
 		[Token(Token = "0x6001954")]
-		[Address(RVA = "0x4C34730", Offset = "0x4C34730", VA = "0x4C34730", Slot = "152")]
+		[Address(RVA = "0x4F5C060", Offset = "0x4F5C060", VA = "0x4F5C060", Slot = "152")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6001955")]
-		[Address(RVA = "0x4C34860", Offset = "0x4C34860", VA = "0x4C34860", Slot = "153")]
+		[Address(RVA = "0x4F5C190", Offset = "0x4F5C190", VA = "0x4F5C190", Slot = "153")]
 		set
 		{
 		}
@@ -1027,13 +1034,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private int selectIndex
 	{
 		[Token(Token = "0x6001956")]
-		[Address(RVA = "0x4C34AC0", Offset = "0x4C34AC0", VA = "0x4C34AC0")]
+		[Address(RVA = "0x4F5C3F0", Offset = "0x4F5C3F0", VA = "0x4F5C3F0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6001957")]
-		[Address(RVA = "0x4C34B60", Offset = "0x4C34B60", VA = "0x4C34B60")]
+		[Address(RVA = "0x4F5C490", Offset = "0x4F5C490", VA = "0x4F5C490")]
 		set
 		{
 		}
@@ -1043,13 +1050,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool UnityEngine_002EUIElements_002EITextSelection_002EdoubleClickSelectsWord
 	{
 		[Token(Token = "0x600195B")]
-		[Address(RVA = "0x4C34F90", Offset = "0x4C34F90", VA = "0x4C34F90", Slot = "150")]
+		[Address(RVA = "0x4F5C8C0", Offset = "0x4F5C8C0", VA = "0x4F5C8C0", Slot = "150")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600195C")]
-		[Address(RVA = "0x4C34FA0", Offset = "0x4C34FA0", VA = "0x4C34FA0", Slot = "151")]
+		[Address(RVA = "0x4F5C8D0", Offset = "0x4F5C8D0", VA = "0x4F5C8D0", Slot = "151")]
 		set
 		{
 		}
@@ -1060,13 +1067,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool doubleClickSelectsWord
 	{
 		[Token(Token = "0x600195D")]
-		[Address(RVA = "0x4C35050", Offset = "0x4C35050", VA = "0x4C35050")]
+		[Address(RVA = "0x4F5C980", Offset = "0x4F5C980", VA = "0x4F5C980")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600195E")]
-		[Address(RVA = "0x4C350F0", Offset = "0x4C350F0", VA = "0x4C350F0")]
+		[Address(RVA = "0x4F5CA20", Offset = "0x4F5CA20", VA = "0x4F5CA20")]
 		set
 		{
 		}
@@ -1076,13 +1083,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool UnityEngine_002EUIElements_002EITextSelection_002EtripleClickSelectsLine
 	{
 		[Token(Token = "0x600195F")]
-		[Address(RVA = "0x4C35190", Offset = "0x4C35190", VA = "0x4C35190", Slot = "154")]
+		[Address(RVA = "0x4F5CAC0", Offset = "0x4F5CAC0", VA = "0x4F5CAC0", Slot = "154")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001960")]
-		[Address(RVA = "0x4C351A0", Offset = "0x4C351A0", VA = "0x4C351A0", Slot = "155")]
+		[Address(RVA = "0x4F5CAD0", Offset = "0x4F5CAD0", VA = "0x4F5CAD0", Slot = "155")]
 		set
 		{
 		}
@@ -1093,13 +1100,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool tripleClickSelectsLine
 	{
 		[Token(Token = "0x6001961")]
-		[Address(RVA = "0x4C35250", Offset = "0x4C35250", VA = "0x4C35250")]
+		[Address(RVA = "0x4F5CB80", Offset = "0x4F5CB80", VA = "0x4F5CB80")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001962")]
-		[Address(RVA = "0x4C352F0", Offset = "0x4C352F0", VA = "0x4C352F0")]
+		[Address(RVA = "0x4F5CC20", Offset = "0x4F5CC20", VA = "0x4F5CC20")]
 		set
 		{
 		}
@@ -1109,13 +1116,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool UnityEngine_002EUIElements_002EITextSelection_002EselectAllOnFocus
 	{
 		[Token(Token = "0x6001963")]
-		[Address(RVA = "0x4C35390", Offset = "0x4C35390", VA = "0x4C35390", Slot = "159")]
+		[Address(RVA = "0x4F5CCC0", Offset = "0x4F5CCC0", VA = "0x4F5CCC0", Slot = "159")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001964")]
-		[Address(RVA = "0x4C353A0", Offset = "0x4C353A0", VA = "0x4C353A0", Slot = "160")]
+		[Address(RVA = "0x4F5CCD0", Offset = "0x4F5CCD0", VA = "0x4F5CCD0", Slot = "160")]
 		set
 		{
 		}
@@ -1126,13 +1133,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool selectAllOnFocus
 	{
 		[Token(Token = "0x6001965")]
-		[Address(RVA = "0x4C35450", Offset = "0x4C35450", VA = "0x4C35450")]
+		[Address(RVA = "0x4F5CD80", Offset = "0x4F5CD80", VA = "0x4F5CD80")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001966")]
-		[Address(RVA = "0x4C354F0", Offset = "0x4C354F0", VA = "0x4C354F0")]
+		[Address(RVA = "0x4F5CE20", Offset = "0x4F5CE20", VA = "0x4F5CE20")]
 		set
 		{
 		}
@@ -1142,13 +1149,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool UnityEngine_002EUIElements_002EITextSelection_002EselectAllOnMouseUp
 	{
 		[Token(Token = "0x6001967")]
-		[Address(RVA = "0x4C35590", Offset = "0x4C35590", VA = "0x4C35590", Slot = "161")]
+		[Address(RVA = "0x4F5CEC0", Offset = "0x4F5CEC0", VA = "0x4F5CEC0", Slot = "161")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001968")]
-		[Address(RVA = "0x4C355A0", Offset = "0x4C355A0", VA = "0x4C355A0", Slot = "162")]
+		[Address(RVA = "0x4F5CED0", Offset = "0x4F5CED0", VA = "0x4F5CED0", Slot = "162")]
 		set
 		{
 		}
@@ -1159,13 +1166,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private bool selectAllOnMouseUp
 	{
 		[Token(Token = "0x6001969")]
-		[Address(RVA = "0x4C35650", Offset = "0x4C35650", VA = "0x4C35650")]
+		[Address(RVA = "0x4F5CF80", Offset = "0x4F5CF80", VA = "0x4F5CF80")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600196A")]
-		[Address(RVA = "0x4C356F0", Offset = "0x4C356F0", VA = "0x4C356F0")]
+		[Address(RVA = "0x4F5D020", Offset = "0x4F5D020", VA = "0x4F5D020")]
 		set
 		{
 		}
@@ -1175,7 +1182,7 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private Vector2 UnityEngine_002EUIElements_002EITextSelection_002EcursorPosition
 	{
 		[Token(Token = "0x600196B")]
-		[Address(RVA = "0x4C35790", Offset = "0x4C35790", VA = "0x4C35790", Slot = "163")]
+		[Address(RVA = "0x4F5D0C0", Offset = "0x4F5D0C0", VA = "0x4F5D0C0", Slot = "163")]
 		get
 		{
 			return default(Vector2);
@@ -1187,7 +1194,7 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private Vector2 cursorPosition
 	{
 		[Token(Token = "0x600196C")]
-		[Address(RVA = "0x4C35890", Offset = "0x4C35890", VA = "0x4C35890")]
+		[Address(RVA = "0x4F5D1C0", Offset = "0x4F5D1C0", VA = "0x4F5D1C0")]
 		get
 		{
 			return default(Vector2);
@@ -1198,7 +1205,7 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private float UnityEngine_002EUIElements_002EITextSelection_002ElineHeightAtCursorPosition
 	{
 		[Token(Token = "0x600196D")]
-		[Address(RVA = "0x4C35930", Offset = "0x4C35930", VA = "0x4C35930", Slot = "164")]
+		[Address(RVA = "0x4F5D260", Offset = "0x4F5D260", VA = "0x4F5D260", Slot = "164")]
 		get
 		{
 			return default(float);
@@ -1209,13 +1216,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private Color UnityEngine_002EUIElements_002EITextSelection_002EselectionColor
 	{
 		[Token(Token = "0x600196E")]
-		[Address(RVA = "0x4C35A00", Offset = "0x4C35A00", VA = "0x4C35A00", Slot = "146")]
+		[Address(RVA = "0x4F5D330", Offset = "0x4F5D330", VA = "0x4F5D330", Slot = "146")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x600196F")]
-		[Address(RVA = "0x4C35A20", Offset = "0x4C35A20", VA = "0x4C35A20", Slot = "147")]
+		[Address(RVA = "0x4F5D350", Offset = "0x4F5D350", VA = "0x4F5D350", Slot = "147")]
 		set
 		{
 		}
@@ -1226,13 +1233,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private Color selectionColor
 	{
 		[Token(Token = "0x6001970")]
-		[Address(RVA = "0x4C35B10", Offset = "0x4C35B10", VA = "0x4C35B10")]
+		[Address(RVA = "0x4F5D440", Offset = "0x4F5D440", VA = "0x4F5D440")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x6001971")]
-		[Address(RVA = "0x4C35BB0", Offset = "0x4C35BB0", VA = "0x4C35BB0")]
+		[Address(RVA = "0x4F5D4E0", Offset = "0x4F5D4E0", VA = "0x4F5D4E0")]
 		set
 		{
 		}
@@ -1242,13 +1249,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private Color UnityEngine_002EUIElements_002EITextSelection_002EcursorColor
 	{
 		[Token(Token = "0x6001972")]
-		[Address(RVA = "0x4C35C70", Offset = "0x4C35C70", VA = "0x4C35C70", Slot = "144")]
+		[Address(RVA = "0x4F5D5A0", Offset = "0x4F5D5A0", VA = "0x4F5D5A0", Slot = "144")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x6001973")]
-		[Address(RVA = "0x4C35C90", Offset = "0x4C35C90", VA = "0x4C35C90", Slot = "145")]
+		[Address(RVA = "0x4F5D5C0", Offset = "0x4F5D5C0", VA = "0x4F5D5C0", Slot = "145")]
 		set
 		{
 		}
@@ -1259,13 +1266,13 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private Color cursorColor
 	{
 		[Token(Token = "0x6001974")]
-		[Address(RVA = "0x4C35D80", Offset = "0x4C35D80", VA = "0x4C35D80")]
+		[Address(RVA = "0x4F5D6B0", Offset = "0x4F5D6B0", VA = "0x4F5D6B0")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x6001975")]
-		[Address(RVA = "0x4C35E20", Offset = "0x4C35E20", VA = "0x4C35E20")]
+		[Address(RVA = "0x4F5D750", Offset = "0x4F5D750", VA = "0x4F5D750")]
 		set
 		{
 		}
@@ -1275,7 +1282,7 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	private float UnityEngine_002EUIElements_002EITextSelection_002EcursorWidth
 	{
 		[Token(Token = "0x6001976")]
-		[Address(RVA = "0x4C35EE0", Offset = "0x4C35EE0", VA = "0x4C35EE0", Slot = "165")]
+		[Address(RVA = "0x4F5D810", Offset = "0x4F5D810", VA = "0x4F5D810", Slot = "165")]
 		get
 		{
 			return default(float);
@@ -1286,7 +1293,7 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	internal TextSelectingManipulator selectingManipulator
 	{
 		[Token(Token = "0x6001977")]
-		[Address(RVA = "0x4C28CA0", Offset = "0x4C28CA0", VA = "0x4C28CA0")]
+		[Address(RVA = "0x4F505D0", Offset = "0x4F505D0", VA = "0x4F505D0")]
 		get
 		{
 			return null;
@@ -1294,128 +1301,128 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	}
 
 	[Token(Token = "0x60018E9")]
-	[Address(RVA = "0x4C2E540", Offset = "0x4C2E540", VA = "0x4C2E540")]
+	[Address(RVA = "0x4F55E70", Offset = "0x4F55E70", VA = "0x4F55E70")]
 	public TextElement()
 	{
 	}
 
 	[Token(Token = "0x60018EC")]
-	[Address(RVA = "0x4C2E850", Offset = "0x4C2E850", VA = "0x4C2E850")]
+	[Address(RVA = "0x4F56180", Offset = "0x4F56180", VA = "0x4F56180")]
 	private void OnGeometryChanged(GeometryChangedEvent e)
 	{
 	}
 
 	[Token(Token = "0x60018F7")]
-	[Address(RVA = "0x4C2ED60", Offset = "0x4C2ED60", VA = "0x4C2ED60")]
+	[Address(RVA = "0x4F56690", Offset = "0x4F56690", VA = "0x4F56690")]
 	internal void OnGenerateVisualContent(MeshGenerationContext mgc)
 	{
 	}
 
 	[Token(Token = "0x60018F8")]
-	[Address(RVA = "0x4C2F150", Offset = "0x4C2F150", VA = "0x4C2F150")]
+	[Address(RVA = "0x4F56A80", Offset = "0x4F56A80", VA = "0x4F56A80")]
 	internal void DrawText(MeshGenerationContext mgc)
 	{
 	}
 
 	[Token(Token = "0x60018F9")]
-	[Address(RVA = "0x4C30E30", Offset = "0x4C30E30", VA = "0x4C30E30")]
+	[Address(RVA = "0x4F58760", Offset = "0x4F58760", VA = "0x4F58760")]
 	internal string ElideText(string drawText, string ellipsisText, float width, TextOverflowPosition textOverflowPosition)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018FA")]
-	[Address(RVA = "0x4C2F300", Offset = "0x4C2F300", VA = "0x4C2F300")]
+	[Address(RVA = "0x4F56C30", Offset = "0x4F56C30", VA = "0x4F56C30")]
 	private void UpdateTooltip()
 	{
 	}
 
 	[Token(Token = "0x60018FB")]
-	[Address(RVA = "0x4C2E860", Offset = "0x4C2E860", VA = "0x4C2E860")]
+	[Address(RVA = "0x4F56190", Offset = "0x4F56190", VA = "0x4F56190")]
 	private void UpdateVisibleText()
 	{
 	}
 
 	[Token(Token = "0x60018FC")]
-	[Address(RVA = "0x4C2F2B0", Offset = "0x4C2F2B0", VA = "0x4C2F2B0")]
+	[Address(RVA = "0x4F56BE0", Offset = "0x4F56BE0", VA = "0x4F56BE0")]
 	private bool ShouldElide()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60018FE")]
-	[Address(RVA = "0x4C31300", Offset = "0x4C31300", VA = "0x4C31300")]
+	[Address(RVA = "0x4F58C30", Offset = "0x4F58C30", VA = "0x4F58C30")]
 	public Vector2 MeasureTextSize(string textToMeasure, float width, MeasureMode widthMode, float height, MeasureMode heightMode)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60018FF")]
-	[Address(RVA = "0x4C31310", Offset = "0x4C31310", VA = "0x4C31310", Slot = "96")]
+	[Address(RVA = "0x4F58C40", Offset = "0x4F58C40", VA = "0x4F58C40", Slot = "96")]
 	protected internal override Vector2 DoMeasure(float desiredWidth, MeasureMode widthMode, float desiredHeight, MeasureMode heightMode)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x6001904")]
-	[Address(RVA = "0x4C31890", Offset = "0x4C31890", VA = "0x4C31890", Slot = "102")]
+	[Address(RVA = "0x4F591C0", Offset = "0x4F591C0", VA = "0x4F591C0", Slot = "102")]
 	private void UnityEngine_002EUIElements_002EINotifyValueChanged_003CSystem_002EString_003E_002ESetValueWithoutNotify(string newValue)
 	{
 	}
 
 	[Token(Token = "0x6001914")]
-	[Address(RVA = "0x4C32250", Offset = "0x4C32250", VA = "0x4C32250")]
+	[Address(RVA = "0x4F59B80", Offset = "0x4F59B80", VA = "0x4F59B80")]
 	private void ProcessMenuCommand(string command)
 	{
 	}
 
 	[Token(Token = "0x6001915")]
-	[Address(RVA = "0x4C32410", Offset = "0x4C32410", VA = "0x4C32410")]
+	[Address(RVA = "0x4F59D40", Offset = "0x4F59D40", VA = "0x4F59D40")]
 	private void Cut(DropdownMenuAction a)
 	{
 	}
 
 	[Token(Token = "0x6001916")]
-	[Address(RVA = "0x4C32450", Offset = "0x4C32450", VA = "0x4C32450")]
+	[Address(RVA = "0x4F59D80", Offset = "0x4F59D80", VA = "0x4F59D80")]
 	private void Copy(DropdownMenuAction a)
 	{
 	}
 
 	[Token(Token = "0x6001917")]
-	[Address(RVA = "0x4C32490", Offset = "0x4C32490", VA = "0x4C32490")]
+	[Address(RVA = "0x4F59DC0", Offset = "0x4F59DC0", VA = "0x4F59DC0")]
 	private void Paste(DropdownMenuAction a)
 	{
 	}
 
 	[Token(Token = "0x6001918")]
-	[Address(RVA = "0x4C324D0", Offset = "0x4C324D0", VA = "0x4C324D0")]
+	[Address(RVA = "0x4F59E00", Offset = "0x4F59E00", VA = "0x4F59E00")]
 	private void BuildContextualMenu(ContextualMenuPopulateEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6001919")]
-	[Address(RVA = "0x4C32840", Offset = "0x4C32840", VA = "0x4C32840")]
+	[Address(RVA = "0x4F5A170", Offset = "0x4F5A170", VA = "0x4F5A170")]
 	private DropdownMenuAction.Status CutActionStatus(DropdownMenuAction a)
 	{
 		return default(DropdownMenuAction.Status);
 	}
 
 	[Token(Token = "0x600191A")]
-	[Address(RVA = "0x4C32980", Offset = "0x4C32980", VA = "0x4C32980")]
+	[Address(RVA = "0x4F5A2B0", Offset = "0x4F5A2B0", VA = "0x4F5A2B0")]
 	private DropdownMenuAction.Status CopyActionStatus(DropdownMenuAction a)
 	{
 		return default(DropdownMenuAction.Status);
 	}
 
 	[Token(Token = "0x600191B")]
-	[Address(RVA = "0x4C32AD0", Offset = "0x4C32AD0", VA = "0x4C32AD0")]
+	[Address(RVA = "0x4F5A400", Offset = "0x4F5A400", VA = "0x4F5A400")]
 	private DropdownMenuAction.Status PasteActionStatus(DropdownMenuAction a)
 	{
 		return default(DropdownMenuAction.Status);
 	}
 
 	[Token(Token = "0x600191C")]
-	[Address(RVA = "0x4C32B30", Offset = "0x4C32B30", VA = "0x4C32B30", Slot = "9")]
+	[Address(RVA = "0x4F5A460", Offset = "0x4F5A460", VA = "0x4F5A460", Slot = "9")]
 	[EventInterest(new Type[]
 	{
 		typeof(ContextualMenuPopulateEvent),
@@ -1439,69 +1446,69 @@ public class TextElement : BindableElement, INotifyValueChanged<string>, ITextEd
 	}
 
 	[Token(Token = "0x6001925")]
-	[Address(RVA = "0x4C33350", Offset = "0x4C33350", VA = "0x4C33350", Slot = "113")]
+	[Address(RVA = "0x4F5AC80", Offset = "0x4F5AC80", VA = "0x4F5AC80", Slot = "113")]
 	private void UnityEngine_002EUIElements_002EITextEdition_002EResetValueAndText()
 	{
 	}
 
 	[Token(Token = "0x6001926")]
-	[Address(RVA = "0x4C33390", Offset = "0x4C33390", VA = "0x4C33390", Slot = "114")]
+	[Address(RVA = "0x4F5ACC0", Offset = "0x4F5ACC0", VA = "0x4F5ACC0", Slot = "114")]
 	private void UnityEngine_002EUIElements_002EITextEdition_002ESaveValueAndText()
 	{
 	}
 
 	[Token(Token = "0x6001927")]
-	[Address(RVA = "0x4C333C0", Offset = "0x4C333C0", VA = "0x4C333C0", Slot = "115")]
+	[Address(RVA = "0x4F5ACF0", Offset = "0x4F5ACF0", VA = "0x4F5ACF0", Slot = "115")]
 	private void UnityEngine_002EUIElements_002EITextEdition_002ERestoreValueAndText()
 	{
 	}
 
 	[Token(Token = "0x6001936")]
-	[Address(RVA = "0x4C33530", Offset = "0x4C33530", VA = "0x4C33530", Slot = "128")]
+	[Address(RVA = "0x4F5AE60", Offset = "0x4F5AE60", VA = "0x4F5AE60", Slot = "128")]
 	private void UnityEngine_002EUIElements_002EITextEdition_002EUpdateText(string value)
 	{
 	}
 
 	[Token(Token = "0x6001937")]
-	[Address(RVA = "0x4C33830", Offset = "0x4C33830", VA = "0x4C33830", Slot = "129")]
+	[Address(RVA = "0x4F5B160", Offset = "0x4F5B160", VA = "0x4F5B160", Slot = "129")]
 	private string UnityEngine_002EUIElements_002EITextEdition_002ECullString(string s)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001958")]
-	[Address(RVA = "0x4C34C00", Offset = "0x4C34C00", VA = "0x4C34C00", Slot = "157")]
+	[Address(RVA = "0x4F5C530", Offset = "0x4F5C530", VA = "0x4F5C530", Slot = "157")]
 	private void UnityEngine_002EUIElements_002EITextSelection_002ESelectAll()
 	{
 	}
 
 	[Token(Token = "0x6001959")]
-	[Address(RVA = "0x4C34D30", Offset = "0x4C34D30", VA = "0x4C34D30", Slot = "158")]
+	[Address(RVA = "0x4F5C660", Offset = "0x4F5C660", VA = "0x4F5C660", Slot = "158")]
 	private void UnityEngine_002EUIElements_002EITextSelection_002ESelectNone()
 	{
 	}
 
 	[Token(Token = "0x600195A")]
-	[Address(RVA = "0x4C34E60", Offset = "0x4C34E60", VA = "0x4C34E60", Slot = "156")]
+	[Address(RVA = "0x4F5C790", Offset = "0x4F5C790", VA = "0x4F5C790", Slot = "156")]
 	private bool UnityEngine_002EUIElements_002EITextSelection_002EHasSelection()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001978")]
-	[Address(RVA = "0x4C2F360", Offset = "0x4C2F360", VA = "0x4C2F360")]
+	[Address(RVA = "0x4F56C90", Offset = "0x4F56C90", VA = "0x4F56C90")]
 	private void DrawHighlighting(MeshGenerationContext mgc)
 	{
 	}
 
 	[Token(Token = "0x6001979")]
-	[Address(RVA = "0x4C30660", Offset = "0x4C30660", VA = "0x4C30660")]
+	[Address(RVA = "0x4F57F90", Offset = "0x4F57F90", VA = "0x4F57F90")]
 	internal void DrawCaret(MeshGenerationContext mgc)
 	{
 	}
 
 	[Token(Token = "0x600197A")]
-	[Address(RVA = "0x4C35EF0", Offset = "0x4C35EF0", VA = "0x4C35EF0")]
+	[Address(RVA = "0x4F5D820", Offset = "0x4F5D820", VA = "0x4F5D820")]
 	private int GetLastCharacterAt(int lineIndex)
 	{
 		return default(int);

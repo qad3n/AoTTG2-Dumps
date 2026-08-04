@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.SocketServer.Security.DiffieHellmanCryptoProvider
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Numerics;
 using System.Security.Cryptography;
@@ -36,7 +43,7 @@ internal class DiffieHellmanCryptoProvider : ICryptoProvider, IDisposable
 	public bool IsInitialized
 	{
 		[Token(Token = "0x60003E7")]
-		[Address(RVA = "0x3BAE4C0", Offset = "0x3BAE4C0", VA = "0x3BAE4C0", Slot = "4")]
+		[Address(RVA = "0x3EA3E10", Offset = "0x3EA3E10", VA = "0x3EA3E10", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -47,7 +54,7 @@ internal class DiffieHellmanCryptoProvider : ICryptoProvider, IDisposable
 	public byte[] PublicKey
 	{
 		[Token(Token = "0x60003E8")]
-		[Address(RVA = "0x3BAE4D0", Offset = "0x3BAE4D0", VA = "0x3BAE4D0", Slot = "5")]
+		[Address(RVA = "0x3EA3E20", Offset = "0x3EA3E20", VA = "0x3EA3E20", Slot = "5")]
 		get
 		{
 			return null;
@@ -55,93 +62,93 @@ internal class DiffieHellmanCryptoProvider : ICryptoProvider, IDisposable
 	}
 
 	[Token(Token = "0x60003E5")]
-	[Address(RVA = "0x3BAE0C0", Offset = "0x3BAE0C0", VA = "0x3BAE0C0")]
+	[Address(RVA = "0x3EA3A10", Offset = "0x3EA3A10", VA = "0x3EA3A10")]
 	public DiffieHellmanCryptoProvider()
 	{
 	}
 
 	[Token(Token = "0x60003E6")]
-	[Address(RVA = "0x3BAE3D0", Offset = "0x3BAE3D0", VA = "0x3BAE3D0")]
+	[Address(RVA = "0x3EA3D20", Offset = "0x3EA3D20", VA = "0x3EA3D20")]
 	public DiffieHellmanCryptoProvider(byte[] cryptoKey)
 	{
 	}
 
 	[Token(Token = "0x60003E9")]
-	[Address(RVA = "0x3BAE5C0", Offset = "0x3BAE5C0", VA = "0x3BAE5C0", Slot = "6")]
+	[Address(RVA = "0x3EA3F10", Offset = "0x3EA3F10", VA = "0x3EA3F10", Slot = "6")]
 	public void DeriveSharedKey(byte[] otherPartyPublicKey)
 	{
 	}
 
 	[Token(Token = "0x60003EA")]
-	[Address(RVA = "0x3BAE940", Offset = "0x3BAE940", VA = "0x3BAE940")]
+	[Address(RVA = "0x3EA4290", Offset = "0x3EA4290", VA = "0x3EA4290")]
 	private byte[] PhotonBigIntArrayToMsBigIntArray(byte[] array)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003EB")]
-	[Address(RVA = "0x3BAE530", Offset = "0x3BAE530", VA = "0x3BAE530")]
+	[Address(RVA = "0x3EA3E80", Offset = "0x3EA3E80", VA = "0x3EA3E80")]
 	private byte[] MsBigIntArrayToPhotonBigIntArray(byte[] array)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003EC")]
-	[Address(RVA = "0x3BAEA70", Offset = "0x3BAEA70", VA = "0x3BAEA70", Slot = "7")]
+	[Address(RVA = "0x3EA43C0", Offset = "0x3EA43C0", VA = "0x3EA43C0", Slot = "7")]
 	public byte[] Encrypt(byte[] data)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003ED")]
-	[Address(RVA = "0x3BAEA90", Offset = "0x3BAEA90", VA = "0x3BAEA90", Slot = "8")]
+	[Address(RVA = "0x3EA43E0", Offset = "0x3EA43E0", VA = "0x3EA43E0", Slot = "8")]
 	public byte[] Encrypt(byte[] data, int offset, int count)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003EE")]
-	[Address(RVA = "0x3BAECD0", Offset = "0x3BAECD0", VA = "0x3BAECD0", Slot = "9")]
+	[Address(RVA = "0x3EA4620", Offset = "0x3EA4620", VA = "0x3EA4620", Slot = "9")]
 	public byte[] Decrypt(byte[] data)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003EF")]
-	[Address(RVA = "0x3BAECF0", Offset = "0x3BAECF0", VA = "0x3BAECF0", Slot = "10")]
+	[Address(RVA = "0x3EA4640", Offset = "0x3EA4640", VA = "0x3EA4640", Slot = "10")]
 	public byte[] Decrypt(byte[] data, int offset, int count)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003F0")]
-	[Address(RVA = "0x3BAEF30", Offset = "0x3BAEF30", VA = "0x3BAEF30", Slot = "11")]
+	[Address(RVA = "0x3EA4880", Offset = "0x3EA4880", VA = "0x3EA4880", Slot = "11")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60003F1")]
-	[Address(RVA = "0x3BAEFA0", Offset = "0x3BAEFA0", VA = "0x3BAEFA0")]
+	[Address(RVA = "0x3EA48F0", Offset = "0x3EA48F0", VA = "0x3EA48F0")]
 	protected void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x60003F2")]
-	[Address(RVA = "0x3BAE310", Offset = "0x3BAE310", VA = "0x3BAE310")]
+	[Address(RVA = "0x3EA3C60", Offset = "0x3EA3C60", VA = "0x3EA3C60")]
 	private BigInteger CalculatePublicKey()
 	{
 		return default(BigInteger);
 	}
 
 	[Token(Token = "0x60003F3")]
-	[Address(RVA = "0x3BAE9E0", Offset = "0x3BAE9E0", VA = "0x3BAE9E0")]
+	[Address(RVA = "0x3EA4330", Offset = "0x3EA4330", VA = "0x3EA4330")]
 	private BigInteger CalculateSharedKey(BigInteger otherPartyPublicKey)
 	{
 		return default(BigInteger);
 	}
 
 	[Token(Token = "0x60003F4")]
-	[Address(RVA = "0x3BAE180", Offset = "0x3BAE180", VA = "0x3BAE180")]
+	[Address(RVA = "0x3EA3AD0", Offset = "0x3EA3AD0", VA = "0x3EA3AD0")]
 	private BigInteger GenerateRandomSecret(int secretLength)
 	{
 		return default(BigInteger);

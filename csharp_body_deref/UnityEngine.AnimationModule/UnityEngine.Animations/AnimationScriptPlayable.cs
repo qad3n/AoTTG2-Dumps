@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Animations.AnimationScriptPlayable
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -25,20 +32,20 @@ public struct AnimationScriptPlayable : IEquatable<AnimationScriptPlayable>
 	private static readonly AnimationScriptPlayable m_NullPlayable;
 
 	[Token(Token = "0x60000BD")]
-	[Address(RVA = "0x4A7F7B0", Offset = "0x4A7F7B0", VA = "0x4A7F7B0")]
+	[Address(RVA = "0x4DA6FD0", Offset = "0x4DA6FD0", VA = "0x4DA6FD0")]
 	internal AnimationScriptPlayable(PlayableHandle handle)
 	{
 	}
 
 	[Token(Token = "0x60000BE")]
-	[Address(RVA = "0x4A7F8A0", Offset = "0x4A7F8A0", VA = "0x4A7F8A0", Slot = "5")]
+	[Address(RVA = "0x4DA70C0", Offset = "0x4DA70C0", VA = "0x4DA70C0", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
 	[Token(Token = "0x60000BF")]
-	[Address(RVA = "0x4A7F8B0", Offset = "0x4A7F8B0", VA = "0x4A7F8B0", Slot = "4")]
+	[Address(RVA = "0x4DA70D0", Offset = "0x4DA70D0", VA = "0x4DA70D0", Slot = "4")]
 	public bool Equals(AnimationScriptPlayable other)
 	{
 		return default(bool);

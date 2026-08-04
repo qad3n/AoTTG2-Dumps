@@ -1,17 +1,18 @@
 // Type: UnityStandardAssets.ImageEffects.ScreenSpaceAmbientObscurance
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/StandardAssets.Effects/UnityStandardAssets.ImageEffects/ScreenSpaceAmbientObscurance.cs
-// Prior real C# source (REFERENCE, outdated): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs  [prior source available (delta unverified)]
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs
 // --------------------------------
 
 // UnityStandardAssets.ImageEffects.ScreenSpaceAmbientObscurance$$CheckResources
 // il2cpp: bool UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__CheckResources (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o* __this, const MethodInfo* method);
-// 0x42616f0
+// 0x45867f0
 
 bool_conflict
 UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__CheckResources
-          (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *__this,
-          MethodInfo *method)
+          (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *__this,MethodInfo *method)
 
 {
   MethodInfo *method_00;
@@ -20,7 +21,7 @@ UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__CheckResources
   MethodInfo *in_RCX;
   MethodInfo *in_RDX;
   
-  UnityStandardAssets_ImageEffects_PostEffectsBase__CheckSupport
+  UnityStandardAssets_ImageEffects_PostEffectsBase__CheckSupport_4475ed0
             ((UnityStandardAssets_ImageEffects_PostEffectsBase_o *)__this,1,in_RDX);
   method_00 = (MethodInfo *)
               UnityStandardAssets_ImageEffects_PostEffectsBase__CheckShaderAndCreateMaterial
@@ -28,7 +29,7 @@ UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__CheckResources
                          (UnityEngine_Shader_o *)(__this->fields).rand,
                          (UnityEngine_Material_o *)(__this->fields).aoShader,in_RCX);
   (__this->fields).aoShader = (UnityEngine_Shader_o *)method_00;
-  uVar1 = il2cpp_runtime_glue(&(__this->fields).aoShader);
+  uVar1 = il2cpp_runtime_helper_022b4080(&(__this->fields).aoShader);
   if (*(char *)((long)&(__this->fields).supportHDRTextures + 2) != '\0') {
     return (bool_conflict)CONCAT71((int7)((ulong)uVar1 >> 8),1);
   }
@@ -42,50 +43,47 @@ UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__CheckResources
 
 // UnityStandardAssets.ImageEffects.ScreenSpaceAmbientObscurance$$OnDisable
 // il2cpp: void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnDisable (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o* __this, const MethodInfo* method);
-// 0x4261750
+// 0x4586850
 
 void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnDisable
-               (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *__this,
-               MethodInfo *method)
+               (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *__this,MethodInfo *method)
 
 {
   UnityEngine_Object_o *pUVar1;
   bool_conflict bVar2;
   UnityEngine_Shader_o **ppUVar3;
   
-  if (DAT_0570527a == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_Object);
-    DAT_0570527a = '\x01';
+  if (g_data_057af0f6 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
+    g_data_057af0f6 = '\x01';
   }
   pUVar1 = (UnityEngine_Object_o *)(__this->fields).aoShader;
   if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
   ppUVar3 = &(__this->fields).aoShader;
   bVar2 = UnityEngine_Object__op_Implicit(pUVar1,(MethodInfo *)0x0);
   if ((char)bVar2 != '\0') {
     pUVar1 = (UnityEngine_Object_o *)*ppUVar3;
     if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_init_class();
+      il2cpp_runtime_helper_02337ed0();
     }
-    UnityEngine_Object__DestroyImmediate(pUVar1,(MethodInfo *)0x0);
+    UnityEngine_Object__DestroyImmediate_4e01e00(pUVar1,(MethodInfo *)0x0);
   }
   *ppUVar3 = (UnityEngine_Shader_o *)0x0;
-  il2cpp_runtime_glue(ppUVar3,0);
+  il2cpp_runtime_helper_022b4080(ppUVar3,0);
   return;
 }
 
 
 // UnityStandardAssets.ImageEffects.ScreenSpaceAmbientObscurance$$OnRenderImage
 // il2cpp: void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImage (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o* __this, UnityEngine_RenderTexture_o* source, UnityEngine_RenderTexture_o* destination, const MethodInfo* method);
-// 0x42617e0
-
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// 0x45868e0
 
 void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImage
                (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *__this,
-               UnityEngine_RenderTexture_o *source,UnityEngine_RenderTexture_o *destination,
-               MethodInfo *method)
+               UnityEngine_RenderTexture_o *source,UnityEngine_RenderTexture_o *destination,MethodInfo *method
+               )
 
 {
   byte bVar1;
@@ -118,8 +116,8 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
   UnityEngine_Camera_o *__this_19;
   UnityEngine_Texture_o *source_00;
   UnityEngine_Texture_o *pUVar8;
+  System_Collections_Generic_List_object__o *__this_20;
   int32_t iVar9;
-  UnityEngine_Shader_o *__this_20;
   int iVar10;
   bool bVar11;
   float fVar12;
@@ -236,21 +234,21 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
   undefined1 auVar20 [16];
   undefined1 auVar24 [16];
   
-  if (DAT_0570527b == '\0') {
-    il2cpp_init_method_metadata(&MethodInfo_Camera_GetComponent_Camera);
-    il2cpp_init_method_metadata(&TypeInfo_Graphics);
-    il2cpp_init_method_metadata(&"_Rand");
-    il2cpp_init_method_metadata(&"_ProjInfo");
-    il2cpp_init_method_metadata(&"_Axis");
-    il2cpp_init_method_metadata(&"_Intensity");
-    il2cpp_init_method_metadata(&"_AOTex");
-    il2cpp_init_method_metadata(&"_ProjInfoRight");
-    il2cpp_init_method_metadata(&"_Radius2");
-    il2cpp_init_method_metadata(&"_ProjectionInv");
-    il2cpp_init_method_metadata(&"_ProjInfoLeft");
-    il2cpp_init_method_metadata(&"_Radius");
-    il2cpp_init_method_metadata(&"_BlurFilterDistance");
-    DAT_0570527b = '\x01';
+  if (g_data_057af0f7 == '\0') {
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Camera_GetComponent_Camera);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Graphics);
+    il2cpp_runtime_helper_023445d0(&"_Rand");
+    il2cpp_runtime_helper_023445d0(&"_ProjInfo");
+    il2cpp_runtime_helper_023445d0(&"_Axis");
+    il2cpp_runtime_helper_023445d0(&"_Intensity");
+    il2cpp_runtime_helper_023445d0(&"_AOTex");
+    il2cpp_runtime_helper_023445d0(&"_ProjInfoRight");
+    il2cpp_runtime_helper_023445d0(&"_Radius2");
+    il2cpp_runtime_helper_023445d0(&"_ProjectionInv");
+    il2cpp_runtime_helper_023445d0(&"_ProjInfoLeft");
+    il2cpp_runtime_helper_023445d0(&"_Radius");
+    il2cpp_runtime_helper_023445d0(&"_BlurFilterDistance");
+    g_data_057af0f7 = '\x01';
   }
   auStack_158._48_8_ = (Il2CppType **)0x0;
   auStack_158._56_8_ = (Il2CppRGCTXData *)0x0;
@@ -288,17 +286,15 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
                     (__this,(__this->klass->vtable)._4_CheckResources.method);
   if (cVar6 == '\0') {
     if (*(int *)(TypeInfo_Graphics + 0xe4) == 0) {
-      il2cpp_init_class();
+      il2cpp_runtime_helper_02337ed0();
     }
     UnityEngine_Graphics__Blit((UnityEngine_Texture_o *)source,destination,(MethodInfo *)0x0);
-                    /* WARNING: Read-only address (ram,0x00ccf3d0) is written */
     return;
   }
   pUStack_240 = __this;
   __this_19 = (UnityEngine_Camera_o *)
-              UnityEngine_Component__GetComponent<object>
-                        ((UnityEngine_Component_o *)__this,MethodInfo_Camera_GetComponent_Camera);
-  if (__this_19 == (UnityEngine_Camera_o *)0x0) goto LAB_0426217d;
+              UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)__this,MethodInfo_Camera_GetComponent_Camera);
+  if (__this_19 == (UnityEngine_Camera_o *)0x0) goto label_0458727d;
   UnityEngine_Camera__get_projectionMatrix
             ((UnityEngine_Matrix4x4_o *)&pIStack_2a8,__this_19,(MethodInfo *)0x0);
   auStack_158._48_8_ = ppIStack_278;
@@ -352,7 +348,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
   __this_01.fields.m23 = (float)(int)in_stack_fffffffffffffd50;
   __this_01.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffd50 >> 0x20);
   iVar9 = (int32_t)(MethodInfo *)auStack_158;
-  fStack_268 = UnityEngine_Matrix4x4__get_Item(__this_01,iVar9,(MethodInfo *)0x0);
+  fStack_268 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_01,iVar9,(MethodInfo *)0x0);
   __this_02.fields.m20 = (float)(int)in_stack_fffffffffffffd20;
   __this_02.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffd20 >> 0x20);
   __this_02.fields.m00 = (float)(int)in_stack_fffffffffffffd18;
@@ -371,7 +367,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
   __this_02.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffd50 >> 0x20);
   uStack_264 = extraout_XMM0_Db;
   uStack_25c = extraout_XMM0_Dd;
-  fVar12 = UnityEngine_Matrix4x4__get_Item(__this_02,iVar9,(MethodInfo *)0x5);
+  fVar12 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_02,iVar9,(MethodInfo *)&g_data_00000005);
   uStack_238 = (UnityEngine_Texture_o *)CONCAT44(extraout_XMM0_Db_00,fVar12);
   __this_03.fields.m20 = (float)(int)in_stack_fffffffffffffd20;
   __this_03.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffd20 >> 0x20);
@@ -389,7 +385,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
   __this_03.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffd48 >> 0x20);
   __this_03.fields.m23 = (float)(int)in_stack_fffffffffffffd50;
   __this_03.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffd50 >> 0x20);
-  fStack_258 = UnityEngine_Matrix4x4__get_Item(__this_03,iVar9,(MethodInfo *)0x8);
+  fStack_258 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_03,iVar9,(MethodInfo *)&g_data_00000008);
   __this_04.fields.m20 = (float)(int)in_stack_fffffffffffffd20;
   __this_04.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffd20 >> 0x20);
   __this_04.fields.m00 = (float)(int)in_stack_fffffffffffffd18;
@@ -407,7 +403,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
   __this_04.fields.m23 = (float)(int)in_stack_fffffffffffffd50;
   __this_04.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffd50 >> 0x20);
   fStack_254 = extraout_XMM0_Db_01;
-  fVar12 = UnityEngine_Matrix4x4__get_Item(__this_04,iVar9,(MethodInfo *)0x0);
+  fVar12 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_04,iVar9,(MethodInfo *)0x0);
   uStack_228 = (UnityEngine_RenderTexture_o *)CONCAT44(extraout_XMM0_Db_02,fVar12);
   __this_05.fields.m20 = (float)(int)in_stack_fffffffffffffd20;
   __this_05.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffd20 >> 0x20);
@@ -425,7 +421,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
   __this_05.fields.m13 = (float)(int)((ulong)in_stack_fffffffffffffd48 >> 0x20);
   __this_05.fields.m23 = (float)(int)in_stack_fffffffffffffd50;
   __this_05.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffd50 >> 0x20);
-  fStack_58 = UnityEngine_Matrix4x4__get_Item(__this_05,iVar9,(MethodInfo *)0x9);
+  fStack_58 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_05,iVar9,(MethodInfo *)0x9);
   __this_06.fields.m20 = (float)(int)in_stack_fffffffffffffd20;
   __this_06.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffd20 >> 0x20);
   __this_06.fields.m00 = (float)(int)in_stack_fffffffffffffd18;
@@ -443,7 +439,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
   __this_06.fields.m23 = (float)(int)in_stack_fffffffffffffd50;
   __this_06.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffd50 >> 0x20);
   fStack_54 = extraout_XMM0_Db_03;
-  fStack_48 = UnityEngine_Matrix4x4__get_Item(__this_06,iVar9,(MethodInfo *)0x5);
+  fStack_48 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_06,iVar9,(MethodInfo *)&g_data_00000005);
   uStack_44 = extraout_XMM0_Db_04;
   bVar7 = UnityEngine_Camera__get_stereoEnabled(__this_19,(MethodInfo *)0x0);
   pUVar5 = pUStack_240;
@@ -485,7 +481,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
     __this_07.fields.m23 = (float)(int)in_stack_fffffffffffffd50;
     __this_07.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffd50 >> 0x20);
     iVar9 = (int32_t)&pIStack_198;
-    fStack_68 = UnityEngine_Matrix4x4__get_Item(__this_07,iVar9,(MethodInfo *)0x0);
+    fStack_68 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_07,iVar9,(MethodInfo *)0x0);
     __this_08.fields.m20 = (float)(int)in_stack_fffffffffffffd20;
     __this_08.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffd20 >> 0x20);
     __this_08.fields.m00 = (float)(int)in_stack_fffffffffffffd18;
@@ -503,7 +499,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
     __this_08.fields.m23 = (float)(int)in_stack_fffffffffffffd50;
     __this_08.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffd50 >> 0x20);
     uStack_64 = extraout_XMM0_Db_05;
-    fStack_88 = UnityEngine_Matrix4x4__get_Item(__this_08,iVar9,(MethodInfo *)0x5);
+    fStack_88 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_08,iVar9,(MethodInfo *)&g_data_00000005);
     __this_09.fields.m20 = (float)(int)in_stack_fffffffffffffd20;
     __this_09.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffd20 >> 0x20);
     __this_09.fields.m00 = (float)(int)in_stack_fffffffffffffd18;
@@ -521,7 +517,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
     __this_09.fields.m23 = (float)(int)in_stack_fffffffffffffd50;
     __this_09.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffd50 >> 0x20);
     uStack_84 = extraout_XMM0_Db_06;
-    fStack_78 = UnityEngine_Matrix4x4__get_Item(__this_09,iVar9,(MethodInfo *)0x8);
+    fStack_78 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_09,iVar9,(MethodInfo *)&g_data_00000008);
     __this_10.fields.m20 = (float)(int)in_stack_fffffffffffffd20;
     __this_10.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffd20 >> 0x20);
     __this_10.fields.m00 = (float)(int)in_stack_fffffffffffffd18;
@@ -539,7 +535,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
     __this_10.fields.m23 = (float)(int)in_stack_fffffffffffffd50;
     __this_10.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffd50 >> 0x20);
     fStack_74 = extraout_XMM0_Db_07;
-    fStack_b8 = UnityEngine_Matrix4x4__get_Item(__this_10,iVar9,(MethodInfo *)0x0);
+    fStack_b8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_10,iVar9,(MethodInfo *)0x0);
     __this_11.fields.m20 = (float)(int)in_stack_fffffffffffffd20;
     __this_11.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffd20 >> 0x20);
     __this_11.fields.m00 = (float)(int)in_stack_fffffffffffffd18;
@@ -558,7 +554,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
     __this_11.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffd50 >> 0x20);
     uStack_b4 = extraout_XMM0_Db_08;
     uStack_ac = extraout_XMM0_Dd_00;
-    fStack_f8 = UnityEngine_Matrix4x4__get_Item(__this_11,iVar9,(MethodInfo *)0x9);
+    fStack_f8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_11,iVar9,(MethodInfo *)0x9);
     __this_12.fields.m20 = (float)(int)in_stack_fffffffffffffd20;
     __this_12.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffd20 >> 0x20);
     __this_12.fields.m00 = (float)(int)in_stack_fffffffffffffd18;
@@ -576,7 +572,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
     __this_12.fields.m23 = (float)(int)in_stack_fffffffffffffd50;
     __this_12.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffd50 >> 0x20);
     fStack_f4 = extraout_XMM0_Db_09;
-    fStack_e8 = UnityEngine_Matrix4x4__get_Item(__this_12,iVar9,(MethodInfo *)0x5);
+    fStack_e8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_12,iVar9,(MethodInfo *)&g_data_00000005);
     __this_13.fields.m20 = (float)(int)in_stack_fffffffffffffd20;
     __this_13.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffd20 >> 0x20);
     __this_13.fields.m00 = (float)(int)in_stack_fffffffffffffd18;
@@ -595,7 +591,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
     __this_13.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffd50 >> 0x20);
     iVar9 = (int32_t)&pIStack_1d8;
     uStack_e4 = extraout_XMM0_Db_10;
-    fStack_a8 = UnityEngine_Matrix4x4__get_Item(__this_13,iVar9,(MethodInfo *)0x0);
+    fStack_a8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_13,iVar9,(MethodInfo *)0x0);
     __this_14.fields.m20 = (float)(int)in_stack_fffffffffffffd20;
     __this_14.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffd20 >> 0x20);
     __this_14.fields.m00 = (float)(int)in_stack_fffffffffffffd18;
@@ -614,7 +610,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
     __this_14.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffd50 >> 0x20);
     uStack_a4 = extraout_XMM0_Db_11;
     uStack_9c = extraout_XMM0_Dd_01;
-    fStack_d8 = UnityEngine_Matrix4x4__get_Item(__this_14,iVar9,(MethodInfo *)0x5);
+    fStack_d8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_14,iVar9,(MethodInfo *)&g_data_00000005);
     __this_15.fields.m20 = (float)(int)in_stack_fffffffffffffd20;
     __this_15.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffd20 >> 0x20);
     __this_15.fields.m00 = (float)(int)in_stack_fffffffffffffd18;
@@ -632,7 +628,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
     __this_15.fields.m23 = (float)(int)in_stack_fffffffffffffd50;
     __this_15.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffd50 >> 0x20);
     uStack_d4 = extraout_XMM0_Db_12;
-    fStack_98 = UnityEngine_Matrix4x4__get_Item(__this_15,iVar9,(MethodInfo *)0x8);
+    fStack_98 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_15,iVar9,(MethodInfo *)&g_data_00000008);
     __this_16.fields.m20 = (float)(int)in_stack_fffffffffffffd20;
     __this_16.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffd20 >> 0x20);
     __this_16.fields.m00 = (float)(int)in_stack_fffffffffffffd18;
@@ -650,7 +646,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
     __this_16.fields.m23 = (float)(int)in_stack_fffffffffffffd50;
     __this_16.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffd50 >> 0x20);
     fStack_94 = extraout_XMM0_Db_13;
-    fStack_c8 = UnityEngine_Matrix4x4__get_Item(__this_16,iVar9,(MethodInfo *)0x0);
+    fStack_c8 = UnityEngine_Matrix4x4__get_Item_4de8290(__this_16,iVar9,(MethodInfo *)0x0);
     __this_17.fields.m20 = (float)(int)in_stack_fffffffffffffd20;
     __this_17.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffd20 >> 0x20);
     __this_17.fields.m00 = (float)(int)in_stack_fffffffffffffd18;
@@ -668,7 +664,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
     __this_17.fields.m23 = (float)(int)in_stack_fffffffffffffd50;
     __this_17.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffd50 >> 0x20);
     uStack_c4 = extraout_XMM0_Db_14;
-    auStack_158._64_4_ = UnityEngine_Matrix4x4__get_Item(__this_17,iVar9,(MethodInfo *)0x9);
+    auStack_158._64_4_ = UnityEngine_Matrix4x4__get_Item_4de8290(__this_17,iVar9,(MethodInfo *)0x9);
     __this_18.fields.m20 = (float)(int)in_stack_fffffffffffffd20;
     __this_18.fields.m30 = (float)(int)((ulong)in_stack_fffffffffffffd20 >> 0x20);
     __this_18.fields.m00 = (float)(int)in_stack_fffffffffffffd18;
@@ -686,9 +682,10 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
     __this_18.fields.m23 = (float)(int)in_stack_fffffffffffffd50;
     __this_18.fields.m33 = (float)(int)((ulong)in_stack_fffffffffffffd50 >> 0x20);
     auStack_158._68_4_ = extraout_XMM0_Db_15;
-    auStack_158._80_4_ = UnityEngine_Matrix4x4__get_Item(__this_18,iVar9,(MethodInfo *)0x5);
+    auStack_158._80_4_ = UnityEngine_Matrix4x4__get_Item_4de8290(__this_18,iVar9,(MethodInfo *)&g_data_00000005);
     pUVar2 = (UnityEngine_Material_o *)(pUVar5->fields).aoShader;
-    if (pUVar2 == (UnityEngine_Material_o *)0x0) goto LAB_0426217d;
+    __this = (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *)0x0;
+    if (pUVar2 == (UnityEngine_Material_o *)0x0) goto label_0458727d;
     auVar16._4_4_ = fStack_f8 + 1.0;
     auVar16._0_4_ = 1.0 - fStack_78;
     auVar16._8_4_ = 0.0 - fStack_74;
@@ -707,13 +704,14 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
     auVar15._0_4_ = fStack_68;
     auVar15._8_4_ = uStack_64;
     auVar15._12_4_ = uStack_84;
-    auVar15 = divps(_DAT_00ccf3d0,auVar15);
+    auVar15 = divps(_DAT_00d1ba30,auVar15);
     value_00.fields._0_8_ = auVar15._0_8_;
     value_00.fields._8_8_ = auVar17._0_8_;
     auStack_158._84_4_ = extraout_XMM0_Db_16;
     UnityEngine_Material__SetVector(pUVar2,"_ProjInfoLeft",value_00,(MethodInfo *)0x0);
     pUVar2 = (UnityEngine_Material_o *)(pUVar5->fields).aoShader;
-    if (pUVar2 == (UnityEngine_Material_o *)0x0) goto LAB_0426217d;
+    __this = (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *)0x0;
+    if (pUVar2 == (UnityEngine_Material_o *)0x0) goto label_0458727d;
     auVar19._4_4_ = uStack_a4;
     auVar19._0_4_ = fStack_a8;
     auVar19._8_4_ = uStack_a4;
@@ -723,7 +721,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
     auVar18._0_4_ = fStack_a8;
     auVar20._0_12_ = auVar18._0_12_;
     auVar20._12_4_ = uStack_d4;
-    auVar15 = divps(_DAT_00ccf3d0,auVar20);
+    auVar15 = divps(_DAT_00d1ba30,auVar20);
     auVar21._4_4_ = (float)auStack_158._64_4_ + 1.0;
     auVar21._0_4_ = 1.0 - fStack_98;
     auVar21._8_4_ = 0.0 - fStack_94;
@@ -738,6 +736,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
     UnityEngine_Material__SetVector(pUVar2,"_ProjInfoRight",value_01,(MethodInfo *)0x0);
   }
   pUVar2 = (UnityEngine_Material_o *)(pUVar5->fields).aoShader;
+  __this = (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *)0x0;
   if (pUVar2 != (UnityEngine_Material_o *)0x0) {
     auVar23._4_4_ = uStack_264;
     auVar23._0_4_ = fStack_268;
@@ -748,7 +747,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
     auVar22._0_4_ = fStack_268;
     auVar24._0_12_ = auVar22._0_12_;
     auVar24._12_4_ = uStack_238._4_4_;
-    auVar15 = divps(_DAT_00ccf3d0,auVar24);
+    auVar15 = divps(_DAT_00d1ba30,auVar24);
     auVar25._4_4_ = fStack_58 + 1.0;
     auVar25._0_4_ = 1.0 - fStack_258;
     auVar25._8_4_ = 0.0 - fStack_254;
@@ -770,6 +769,7 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
     pcStack_290 = pcStack_200;
     pIStack_2a8 = pIStack_218;
     pIStack_2a0 = pIStack_210;
+    __this = (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *)0x0;
     if (pUVar2 != (UnityEngine_Material_o *)0x0) {
       value.fields._8_8_ = pIStack_210;
       value.fields._0_8_ = pIStack_218;
@@ -781,29 +781,33 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
       value.fields._56_8_ = _Stack_1e0.rgctx_data;
       UnityEngine_Material__SetMatrix(pUVar2,"_ProjectionInv",value,(MethodInfo *)0x0);
       pUVar2 = (UnityEngine_Material_o *)(pUVar5->fields).aoShader;
+      __this = (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *)0x0;
       if (pUVar2 != (UnityEngine_Material_o *)0x0) {
         UnityEngine_Material__SetTexture
                   (pUVar2,"_Rand",*(UnityEngine_Texture_o **)&(pUVar5->fields).downsample,
                    (MethodInfo *)0x0);
         pUVar2 = (UnityEngine_Material_o *)(pUVar5->fields).aoShader;
+        __this = (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *)0x0;
         if (pUVar2 != (UnityEngine_Material_o *)0x0) {
           UnityEngine_Material__SetFloat
                     (pUVar2,"_Radius",*(float *)((long)&(pUVar5->fields).createdMaterials + 4),
                      (MethodInfo *)0x0);
           pUVar2 = (UnityEngine_Material_o *)(pUVar5->fields).aoShader;
+          __this = (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *)0x0;
           if (pUVar2 != (UnityEngine_Material_o *)0x0) {
             fVar12 = *(float *)((long)&(pUVar5->fields).createdMaterials + 4);
             UnityEngine_Material__SetFloat(pUVar2,"_Radius2",fVar12 * fVar12,(MethodInfo *)0x0);
             pUVar2 = (UnityEngine_Material_o *)(pUVar5->fields).aoShader;
+            __this = (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *)0x0;
             if (pUVar2 != (UnityEngine_Material_o *)0x0) {
               UnityEngine_Material__SetFloat
-                        (pUVar2,"_Intensity",*(float *)&(pUVar5->fields).createdMaterials,
-                         (MethodInfo *)0x0);
-              pUVar2 = (UnityEngine_Material_o *)(pUVar5->fields).aoShader;
-              if ((pUVar2 != (UnityEngine_Material_o *)0x0) &&
+                        (pUVar2,"_Intensity",*(float *)&(pUVar5->fields).createdMaterials,(MethodInfo *)0x0);
+              __this = (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *)
+                       (pUVar5->fields).aoShader;
+              if ((__this != (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *)0x0) &&
                  (UnityEngine_Material__SetFloat
-                            (pUVar2,"_BlurFilterDistance",(pUVar5->fields).radius,(MethodInfo *)0x0),
-                 source != (UnityEngine_RenderTexture_o *)0x0)) {
+                            ((UnityEngine_Material_o *)__this,"_BlurFilterDistance",(pUVar5->fields).radius,
+                             (MethodInfo *)0x0), source != (UnityEngine_RenderTexture_o *)0x0)) {
                 fVar12 = (float)(*(source->klass->vtable)._5_get_width.methodPtr)
                                           (source,(source->klass->vtable)._5_get_width.method);
                 fStack_268 = (float)(*(source->klass->vtable)._7_get_height.methodPtr)
@@ -811,86 +815,83 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
                 bVar1 = (byte)(pUVar5->fields).blurIterations;
                 fStack_258 = fVar12;
                 source_00 = (UnityEngine_Texture_o *)
-                            UnityEngine_RenderTexture__GetTemporary
-                                      ((int)fVar12 >> (bVar1 & 0x1f),
-                                       (int)fStack_268 >> (bVar1 & 0x1f),(MethodInfo *)0x0);
+                            UnityEngine_RenderTexture__GetTemporary_4de1e00
+                                      ((int)fVar12 >> (bVar1 & 0x1f),(int)fStack_268 >> (bVar1 & 0x1f),
+                                       (MethodInfo *)0x0);
                 pUVar2 = (UnityEngine_Material_o *)(pUVar5->fields).aoShader;
                 if (*(int *)(TypeInfo_Graphics + 0xe4) == 0) {
-                  il2cpp_init_class();
+                  il2cpp_runtime_helper_02337ed0();
                 }
                 uStack_228 = destination;
-                UnityEngine_Graphics__Blit
-                          ((UnityEngine_Texture_o *)source,(UnityEngine_RenderTexture_o *)source_00,
-                           pUVar2,0,(MethodInfo *)0x0);
+                UnityEngine_Graphics__Blit_4dc2a60
+                          ((UnityEngine_Texture_o *)source,(UnityEngine_RenderTexture_o *)source_00,pUVar2,0,
+                           (MethodInfo *)0x0);
                 if (0 < (pUVar5->fields).blurIterations) {
                   pUVar8 = (UnityEngine_Texture_o *)
-                           UnityEngine_RenderTexture__GetTemporary
+                           UnityEngine_RenderTexture__GetTemporary_4de1e00
                                      ((int32_t)fStack_258,(int32_t)fStack_268,(MethodInfo *)0x0);
                   pUVar2 = (UnityEngine_Material_o *)(pUVar5->fields).aoShader;
                   if (*(int *)(TypeInfo_Graphics + 0xe4) == 0) {
-                    il2cpp_init_class();
+                    il2cpp_runtime_helper_02337ed0();
                   }
-                  UnityEngine_Graphics__Blit
-                            (source_00,(UnityEngine_RenderTexture_o *)pUVar8,pUVar2,4,
-                             (MethodInfo *)0x0);
+                  UnityEngine_Graphics__Blit_4dc2a60
+                            (source_00,(UnityEngine_RenderTexture_o *)pUVar8,pUVar2,4,(MethodInfo *)0x0);
                   UnityEngine_RenderTexture__ReleaseTemporary
                             ((UnityEngine_RenderTexture_o *)source_00,(MethodInfo *)0x0);
                   source_00 = pUVar8;
                 }
                 pUVar5 = pUStack_240;
-                __this_20 = (pUStack_240->fields).aoShader;
-                bVar11 = __this_20 == (UnityEngine_Shader_o *)0x0;
+                __this = (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *)
+                         (pUStack_240->fields).aoShader;
+                bVar11 = __this == (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *)0x0;
                 uStack_238 = (UnityEngine_Texture_o *)source;
                 if (0 < (int)(pUStack_240->fields).intensity) {
                   iVar10 = 0;
                   do {
-                    if (bVar11) goto LAB_0426217d;
+                    if (bVar11) goto label_0458727d;
                     UnityEngine_Material__SetVector
-                              ((UnityEngine_Material_o *)__this_20,"_Axis",
+                              ((UnityEngine_Material_o *)__this,"_Axis",
                                (UnityEngine_Vector4_o)ZEXT816(0x3f800000),(MethodInfo *)0x0);
                     pUVar8 = (UnityEngine_Texture_o *)
-                             UnityEngine_RenderTexture__GetTemporary
+                             UnityEngine_RenderTexture__GetTemporary_4de1e00
                                        ((int32_t)fStack_258,(int32_t)fStack_268,(MethodInfo *)0x0);
                     pUVar2 = (UnityEngine_Material_o *)(pUVar5->fields).aoShader;
                     if (*(int *)(TypeInfo_Graphics + 0xe4) == 0) {
-                      il2cpp_init_class();
+                      il2cpp_runtime_helper_02337ed0();
                     }
-                    UnityEngine_Graphics__Blit
-                              (source_00,(UnityEngine_RenderTexture_o *)pUVar8,pUVar2,1,
-                               (MethodInfo *)0x0);
+                    UnityEngine_Graphics__Blit_4dc2a60
+                              (source_00,(UnityEngine_RenderTexture_o *)pUVar8,pUVar2,1,(MethodInfo *)0x0);
                     UnityEngine_RenderTexture__ReleaseTemporary
                               ((UnityEngine_RenderTexture_o *)source_00,(MethodInfo *)0x0);
                     pUVar2 = (UnityEngine_Material_o *)(pUVar5->fields).aoShader;
-                    if (pUVar2 == (UnityEngine_Material_o *)0x0) goto LAB_0426217d;
+                    __this = (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *)0x0;
+                    if (pUVar2 == (UnityEngine_Material_o *)0x0) goto label_0458727d;
                     UnityEngine_Material__SetVector
-                              (pUVar2,"_Axis",
-                               (UnityEngine_Vector4_o)ZEXT816(0x3f80000000000000),(MethodInfo *)0x0)
-                    ;
-                    source_00 = (UnityEngine_Texture_o *)
-                                UnityEngine_RenderTexture__GetTemporary
-                                          ((int32_t)fStack_258,(int32_t)fStack_268,(MethodInfo *)0x0
-                                          );
-                    UnityEngine_Graphics__Blit
-                              (pUVar8,(UnityEngine_RenderTexture_o *)source_00,
-                               (UnityEngine_Material_o *)(pUVar5->fields).aoShader,1,
+                              (pUVar2,"_Axis",(UnityEngine_Vector4_o)ZEXT816(0x3f80000000000000),
                                (MethodInfo *)0x0);
+                    source_00 = (UnityEngine_Texture_o *)
+                                UnityEngine_RenderTexture__GetTemporary_4de1e00
+                                          ((int32_t)fStack_258,(int32_t)fStack_268,(MethodInfo *)0x0);
+                    UnityEngine_Graphics__Blit_4dc2a60
+                              (pUVar8,(UnityEngine_RenderTexture_o *)source_00,
+                               (UnityEngine_Material_o *)(pUVar5->fields).aoShader,1,(MethodInfo *)0x0);
                     UnityEngine_RenderTexture__ReleaseTemporary
                               ((UnityEngine_RenderTexture_o *)pUVar8,(MethodInfo *)0x0);
                     iVar10 = iVar10 + 1;
-                    __this_20 = (pUVar5->fields).aoShader;
-                    bVar11 = __this_20 == (UnityEngine_Shader_o *)0x0;
+                    __this = (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *)
+                             (pUVar5->fields).aoShader;
+                    bVar11 = __this == (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *)0x0;
                   } while (iVar10 < (int)(pUVar5->fields).intensity);
                 }
                 if (!bVar11) {
                   UnityEngine_Material__SetTexture
-                            ((UnityEngine_Material_o *)__this_20,"_AOTex",source_00,
-                             (MethodInfo *)0x0);
+                            ((UnityEngine_Material_o *)__this,"_AOTex",source_00,(MethodInfo *)0x0);
                   pUVar8 = uStack_238;
                   pUVar2 = (UnityEngine_Material_o *)(pUVar5->fields).aoShader;
                   if (*(int *)(TypeInfo_Graphics + 0xe4) == 0) {
-                    il2cpp_init_class();
+                    il2cpp_runtime_helper_02337ed0();
                   }
-                  UnityEngine_Graphics__Blit(pUVar8,uStack_228,pUVar2,2,(MethodInfo *)0x0);
+                  UnityEngine_Graphics__Blit_4dc2a60(pUVar8,uStack_228,pUVar2,2,(MethodInfo *)0x0);
                   UnityEngine_RenderTexture__ReleaseTemporary
                             ((UnityEngine_RenderTexture_o *)source_00,(MethodInfo *)0x0);
                   return;
@@ -902,38 +903,51 @@ void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance__OnRenderImag
       }
     }
   }
-LAB_0426217d:
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+label_0458727d:
+  il2cpp_runtime_helper_022b2c90();
+  (__this->fields).createdMaterials = (System_Collections_Generic_List_Material__o *)0x3e4ccccd3f000000;
+  (__this->fields).intensity = 1.4013e-45;
+  (__this->fields).radius = 1.25;
+  if (g_data_057af0ed == '\0') {
+    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UnityEngine_Material);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_List_Material);
+    g_data_057af0ed = '\x01';
+  }
+  *(undefined1 *)&(__this->fields).supportHDRTextures = 1;
+  *(undefined1 *)((long)&(__this->fields).supportHDRTextures + 2) = 1;
+  __this_20 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_Material);
+  System_Collections_Generic_List_object____ctor(__this_20,MethodInfo_List_1_UnityEngine_Material);
+  *(System_Collections_Generic_List_object__o **)&(__this->fields).isSupported = __this_20;
+  il2cpp_runtime_helper_022b4080(&(__this->fields).isSupported);
+  UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
+  return;
 }
 
 
 // UnityStandardAssets.ImageEffects.ScreenSpaceAmbientObscurance$$.ctor
 // il2cpp: void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance___ctor (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o* __this, const MethodInfo* method);
-// 0x4262190
+// 0x4587290
 
 void UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance___ctor
-               (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *__this,
-               MethodInfo *method)
+               (UnityStandardAssets_ImageEffects_ScreenSpaceAmbientObscurance_o *__this,MethodInfo *method)
 
 {
   System_Collections_Generic_List_object__o *__this_00;
   
-  (__this->fields).createdMaterials =
-       (System_Collections_Generic_List_Material__o *)0x3e4ccccd3f000000;
+  (__this->fields).createdMaterials = (System_Collections_Generic_List_Material__o *)0x3e4ccccd3f000000;
   (__this->fields).intensity = 1.4013e-45;
   (__this->fields).radius = 1.25;
-  if (DAT_05705271 == '\0') {
-    il2cpp_init_method_metadata(&MethodInfo_List_1_UnityEngine_Material);
-    il2cpp_init_method_metadata(&TypeInfo_List_Material);
-    DAT_05705271 = '\x01';
+  if (g_data_057af0ed == '\0') {
+    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UnityEngine_Material);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_List_Material);
+    g_data_057af0ed = '\x01';
   }
   *(undefined1 *)&(__this->fields).supportHDRTextures = 1;
   *(undefined1 *)((long)&(__this->fields).supportHDRTextures + 2) = 1;
-  __this_00 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_glue(TypeInfo_List_Material);
-  System_Collections_Generic_List<object>___ctor(__this_00,MethodInfo_List_1_UnityEngine_Material);
+  __this_00 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_Material);
+  System_Collections_Generic_List_object____ctor(__this_00,MethodInfo_List_1_UnityEngine_Material);
   *(System_Collections_Generic_List_object__o **)&(__this->fields).isSupported = __this_00;
-  il2cpp_runtime_glue(&(__this->fields).isSupported);
+  il2cpp_runtime_helper_022b4080(&(__this->fields).isSupported);
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
   return;
 }

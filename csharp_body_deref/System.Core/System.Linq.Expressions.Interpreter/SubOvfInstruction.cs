@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.SubOvfInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -9,14 +16,14 @@ internal abstract class SubOvfInstruction : Instruction
 	private sealed class SubOvfInt16 : SubOvfInstruction
 	{
 		[Token(Token = "0x6000AD8")]
-		[Address(RVA = "0x41DEA90", Offset = "0x41DEA90", VA = "0x41DEA90", Slot = "8")]
+		[Address(RVA = "0x4503B90", Offset = "0x4503B90", VA = "0x4503B90", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000AD9")]
-		[Address(RVA = "0x41DEA30", Offset = "0x41DEA30", VA = "0x41DEA30")]
+		[Address(RVA = "0x4503B30", Offset = "0x4503B30", VA = "0x4503B30")]
 		public SubOvfInt16()
 		{
 		}
@@ -26,14 +33,14 @@ internal abstract class SubOvfInstruction : Instruction
 	private sealed class SubOvfInt32 : SubOvfInstruction
 	{
 		[Token(Token = "0x6000ADA")]
-		[Address(RVA = "0x41DED40", Offset = "0x41DED40", VA = "0x41DED40", Slot = "8")]
+		[Address(RVA = "0x4503E40", Offset = "0x4503E40", VA = "0x4503E40", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000ADB")]
-		[Address(RVA = "0x41DEA40", Offset = "0x41DEA40", VA = "0x41DEA40")]
+		[Address(RVA = "0x4503B40", Offset = "0x4503B40", VA = "0x4503B40")]
 		public SubOvfInt32()
 		{
 		}
@@ -43,14 +50,14 @@ internal abstract class SubOvfInstruction : Instruction
 	private sealed class SubOvfInt64 : SubOvfInstruction
 	{
 		[Token(Token = "0x6000ADC")]
-		[Address(RVA = "0x41DEF80", Offset = "0x41DEF80", VA = "0x41DEF80", Slot = "8")]
+		[Address(RVA = "0x4504080", Offset = "0x4504080", VA = "0x4504080", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000ADD")]
-		[Address(RVA = "0x41DEA50", Offset = "0x41DEA50", VA = "0x41DEA50")]
+		[Address(RVA = "0x4503B50", Offset = "0x4503B50", VA = "0x4503B50")]
 		public SubOvfInt64()
 		{
 		}
@@ -60,14 +67,14 @@ internal abstract class SubOvfInstruction : Instruction
 	private sealed class SubOvfUInt16 : SubOvfInstruction
 	{
 		[Token(Token = "0x6000ADE")]
-		[Address(RVA = "0x41DF1B0", Offset = "0x41DF1B0", VA = "0x41DF1B0", Slot = "8")]
+		[Address(RVA = "0x45042B0", Offset = "0x45042B0", VA = "0x45042B0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000ADF")]
-		[Address(RVA = "0x41DEA60", Offset = "0x41DEA60", VA = "0x41DEA60")]
+		[Address(RVA = "0x4503B60", Offset = "0x4503B60", VA = "0x4503B60")]
 		public SubOvfUInt16()
 		{
 		}
@@ -77,14 +84,14 @@ internal abstract class SubOvfInstruction : Instruction
 	private sealed class SubOvfUInt32 : SubOvfInstruction
 	{
 		[Token(Token = "0x6000AE0")]
-		[Address(RVA = "0x41DF450", Offset = "0x41DF450", VA = "0x41DF450", Slot = "8")]
+		[Address(RVA = "0x4504550", Offset = "0x4504550", VA = "0x4504550", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000AE1")]
-		[Address(RVA = "0x41DEA70", Offset = "0x41DEA70", VA = "0x41DEA70")]
+		[Address(RVA = "0x4503B70", Offset = "0x4503B70", VA = "0x4503B70")]
 		public SubOvfUInt32()
 		{
 		}
@@ -94,14 +101,14 @@ internal abstract class SubOvfInstruction : Instruction
 	private sealed class SubOvfUInt64 : SubOvfInstruction
 	{
 		[Token(Token = "0x6000AE2")]
-		[Address(RVA = "0x41DF640", Offset = "0x41DF640", VA = "0x41DF640", Slot = "8")]
+		[Address(RVA = "0x4504740", Offset = "0x4504740", VA = "0x4504740", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000AE3")]
-		[Address(RVA = "0x41DEA80", Offset = "0x41DEA80", VA = "0x41DEA80")]
+		[Address(RVA = "0x4503B80", Offset = "0x4503B80", VA = "0x4503B80")]
 		public SubOvfUInt64()
 		{
 		}
@@ -135,7 +142,7 @@ internal abstract class SubOvfInstruction : Instruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x6000AD3")]
-		[Address(RVA = "0x41DE6E0", Offset = "0x41DE6E0", VA = "0x41DE6E0", Slot = "4")]
+		[Address(RVA = "0x45037E0", Offset = "0x45037E0", VA = "0x45037E0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -146,7 +153,7 @@ internal abstract class SubOvfInstruction : Instruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x6000AD4")]
-		[Address(RVA = "0x41DE6F0", Offset = "0x41DE6F0", VA = "0x41DE6F0", Slot = "5")]
+		[Address(RVA = "0x45037F0", Offset = "0x45037F0", VA = "0x45037F0", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -157,7 +164,7 @@ internal abstract class SubOvfInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x6000AD5")]
-		[Address(RVA = "0x41DE700", Offset = "0x41DE700", VA = "0x41DE700", Slot = "9")]
+		[Address(RVA = "0x4503800", Offset = "0x4503800", VA = "0x4503800", Slot = "9")]
 		get
 		{
 			return null;
@@ -165,13 +172,13 @@ internal abstract class SubOvfInstruction : Instruction
 	}
 
 	[Token(Token = "0x6000AD6")]
-	[Address(RVA = "0x41DE730", Offset = "0x41DE730", VA = "0x41DE730")]
+	[Address(RVA = "0x4503830", Offset = "0x4503830", VA = "0x4503830")]
 	private SubOvfInstruction()
 	{
 	}
 
 	[Token(Token = "0x6000AD7")]
-	[Address(RVA = "0x41DE740", Offset = "0x41DE740", VA = "0x41DE740")]
+	[Address(RVA = "0x4503840", Offset = "0x4503840", VA = "0x4503840")]
 	public static Instruction Create(Type type)
 	{
 		return null;

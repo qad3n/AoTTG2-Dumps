@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.Formatters.Binary.SerStack
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
@@ -18,46 +25,46 @@ internal sealed class SerStack
 	internal int top;
 
 	[Token(Token = "0x6002185")]
-	[Address(RVA = "0x4ECBDF0", Offset = "0x4ECBDF0", VA = "0x4ECBDF0")]
+	[Address(RVA = "0x3BB1910", Offset = "0x3BB1910", VA = "0x3BB1910")]
 	internal SerStack(string stackId)
 	{
 	}
 
 	[Token(Token = "0x6002186")]
-	[Address(RVA = "0x4ECF040", Offset = "0x4ECF040", VA = "0x4ECF040")]
+	[Address(RVA = "0x3BB4B60", Offset = "0x3BB4B60", VA = "0x3BB4B60")]
 	internal void Push(object obj)
 	{
 	}
 
 	[Token(Token = "0x6002187")]
-	[Address(RVA = "0x4ECEFD0", Offset = "0x4ECEFD0", VA = "0x4ECEFD0")]
+	[Address(RVA = "0x3BB4AF0", Offset = "0x3BB4AF0", VA = "0x3BB4AF0")]
 	internal object Pop()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002188")]
-	[Address(RVA = "0x4ED57F0", Offset = "0x4ED57F0", VA = "0x4ED57F0")]
+	[Address(RVA = "0x3BBB310", Offset = "0x3BBB310", VA = "0x3BBB310")]
 	internal void IncreaseCapacity()
 	{
 	}
 
 	[Token(Token = "0x6002189")]
-	[Address(RVA = "0x4ED3B00", Offset = "0x4ED3B00", VA = "0x4ED3B00")]
+	[Address(RVA = "0x3BB9620", Offset = "0x3BB9620", VA = "0x3BB9620")]
 	internal object Peek()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600218A")]
-	[Address(RVA = "0x4ED44D0", Offset = "0x4ED44D0", VA = "0x4ED44D0")]
+	[Address(RVA = "0x3BB9FF0", Offset = "0x3BB9FF0", VA = "0x3BB9FF0")]
 	internal object PeekPeek()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600218B")]
-	[Address(RVA = "0x4ECEFC0", Offset = "0x4ECEFC0", VA = "0x4ECEFC0")]
+	[Address(RVA = "0x3BB4AE0", Offset = "0x3BB4AE0", VA = "0x3BB4AE0")]
 	internal bool IsEmpty()
 	{
 		return default(bool);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.WebConnectionTunnel
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.IO;
 using System.Runtime.CompilerServices;
@@ -60,13 +67,13 @@ internal class WebConnectionTunnel
 		private ConfiguredTaskAwaitable<(WebHeaderCollection, byte[], int)>.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000B09")]
-		[Address(RVA = "0x4670C60", Offset = "0x4670C60", VA = "0x4670C60", Slot = "4")]
+		[Address(RVA = "0x4995D60", Offset = "0x4995D60", VA = "0x4995D60", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000B0A")]
-		[Address(RVA = "0x4671FE0", Offset = "0x4671FE0", VA = "0x4671FE0", Slot = "5")]
+		[Address(RVA = "0x49970E0", Offset = "0x49970E0", VA = "0x49970E0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -119,13 +126,13 @@ internal class WebConnectionTunnel
 		private ConfiguredTaskAwaitable<int>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000B0B")]
-		[Address(RVA = "0x4672040", Offset = "0x4672040", VA = "0x4672040", Slot = "4")]
+		[Address(RVA = "0x4997140", Offset = "0x4997140", VA = "0x4997140", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000B0C")]
-		[Address(RVA = "0x4672EE0", Offset = "0x4672EE0", VA = "0x4672EE0", Slot = "5")]
+		[Address(RVA = "0x4997FE0", Offset = "0x4997FE0", VA = "0x4997FE0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -144,7 +151,7 @@ internal class WebConnectionTunnel
 	public HttpWebRequest Request
 	{
 		[Token(Token = "0x6000AF4")]
-		[Address(RVA = "0x4670970", Offset = "0x4670970", VA = "0x4670970")]
+		[Address(RVA = "0x4995A70", Offset = "0x4995A70", VA = "0x4995A70")]
 		[CompilerGenerated]
 		get
 		{
@@ -156,7 +163,7 @@ internal class WebConnectionTunnel
 	public Uri ConnectUri
 	{
 		[Token(Token = "0x6000AF5")]
-		[Address(RVA = "0x4670980", Offset = "0x4670980", VA = "0x4670980")]
+		[Address(RVA = "0x4995A80", Offset = "0x4995A80", VA = "0x4995A80")]
 		[CompilerGenerated]
 		get
 		{
@@ -168,14 +175,14 @@ internal class WebConnectionTunnel
 	public bool Success
 	{
 		[Token(Token = "0x6000AF7")]
-		[Address(RVA = "0x4670990", Offset = "0x4670990", VA = "0x4670990")]
+		[Address(RVA = "0x4995A90", Offset = "0x4995A90", VA = "0x4995A90")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000AF8")]
-		[Address(RVA = "0x46709A0", Offset = "0x46709A0", VA = "0x46709A0")]
+		[Address(RVA = "0x4995AA0", Offset = "0x4995AA0", VA = "0x4995AA0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -186,14 +193,14 @@ internal class WebConnectionTunnel
 	public bool CloseConnection
 	{
 		[Token(Token = "0x6000AF9")]
-		[Address(RVA = "0x46709B0", Offset = "0x46709B0", VA = "0x46709B0")]
+		[Address(RVA = "0x4995AB0", Offset = "0x4995AB0", VA = "0x4995AB0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000AFA")]
-		[Address(RVA = "0x46709C0", Offset = "0x46709C0", VA = "0x46709C0")]
+		[Address(RVA = "0x4995AC0", Offset = "0x4995AC0", VA = "0x4995AC0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -204,14 +211,14 @@ internal class WebConnectionTunnel
 	public int StatusCode
 	{
 		[Token(Token = "0x6000AFB")]
-		[Address(RVA = "0x46709D0", Offset = "0x46709D0", VA = "0x46709D0")]
+		[Address(RVA = "0x4995AD0", Offset = "0x4995AD0", VA = "0x4995AD0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000AFC")]
-		[Address(RVA = "0x46709E0", Offset = "0x46709E0", VA = "0x46709E0")]
+		[Address(RVA = "0x4995AE0", Offset = "0x4995AE0", VA = "0x4995AE0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -222,7 +229,7 @@ internal class WebConnectionTunnel
 	private string StatusDescription
 	{
 		[Token(Token = "0x6000AFD")]
-		[Address(RVA = "0x46709F0", Offset = "0x46709F0", VA = "0x46709F0")]
+		[Address(RVA = "0x4995AF0", Offset = "0x4995AF0", VA = "0x4995AF0")]
 		[CompilerGenerated]
 		set
 		{
@@ -233,14 +240,14 @@ internal class WebConnectionTunnel
 	public string[] Challenge
 	{
 		[Token(Token = "0x6000AFE")]
-		[Address(RVA = "0x4670A00", Offset = "0x4670A00", VA = "0x4670A00")]
+		[Address(RVA = "0x4995B00", Offset = "0x4995B00", VA = "0x4995B00")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000AFF")]
-		[Address(RVA = "0x4670A10", Offset = "0x4670A10", VA = "0x4670A10")]
+		[Address(RVA = "0x4995B10", Offset = "0x4995B10", VA = "0x4995B10")]
 		[CompilerGenerated]
 		private set
 		{
@@ -251,14 +258,14 @@ internal class WebConnectionTunnel
 	public WebHeaderCollection Headers
 	{
 		[Token(Token = "0x6000B00")]
-		[Address(RVA = "0x4670A20", Offset = "0x4670A20", VA = "0x4670A20")]
+		[Address(RVA = "0x4995B20", Offset = "0x4995B20", VA = "0x4995B20")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000B01")]
-		[Address(RVA = "0x4670A30", Offset = "0x4670A30", VA = "0x4670A30")]
+		[Address(RVA = "0x4995B30", Offset = "0x4995B30", VA = "0x4995B30")]
 		[CompilerGenerated]
 		private set
 		{
@@ -269,14 +276,14 @@ internal class WebConnectionTunnel
 	public Version ProxyVersion
 	{
 		[Token(Token = "0x6000B02")]
-		[Address(RVA = "0x4670A40", Offset = "0x4670A40", VA = "0x4670A40")]
+		[Address(RVA = "0x4995B40", Offset = "0x4995B40", VA = "0x4995B40")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000B03")]
-		[Address(RVA = "0x4670A50", Offset = "0x4670A50", VA = "0x4670A50")]
+		[Address(RVA = "0x4995B50", Offset = "0x4995B50", VA = "0x4995B50")]
 		[CompilerGenerated]
 		private set
 		{
@@ -287,14 +294,14 @@ internal class WebConnectionTunnel
 	public byte[] Data
 	{
 		[Token(Token = "0x6000B04")]
-		[Address(RVA = "0x4670A60", Offset = "0x4670A60", VA = "0x4670A60")]
+		[Address(RVA = "0x4995B60", Offset = "0x4995B60", VA = "0x4995B60")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000B05")]
-		[Address(RVA = "0x4670A70", Offset = "0x4670A70", VA = "0x4670A70")]
+		[Address(RVA = "0x4995B70", Offset = "0x4995B70", VA = "0x4995B70")]
 		[CompilerGenerated]
 		private set
 		{
@@ -302,13 +309,13 @@ internal class WebConnectionTunnel
 	}
 
 	[Token(Token = "0x6000AF6")]
-	[Address(RVA = "0x466F080", Offset = "0x466F080", VA = "0x466F080")]
+	[Address(RVA = "0x4994180", Offset = "0x4994180", VA = "0x4994180")]
 	public WebConnectionTunnel(HttpWebRequest request, Uri connectUri)
 	{
 	}
 
 	[Token(Token = "0x6000B06")]
-	[Address(RVA = "0x466F0C0", Offset = "0x466F0C0", VA = "0x466F0C0")]
+	[Address(RVA = "0x49941C0", Offset = "0x49941C0", VA = "0x49941C0")]
 	[AsyncStateMachine(typeof(_003CInitialize_003Ed__42))]
 	internal Task Initialize(Stream stream, CancellationToken cancellationToken)
 	{
@@ -316,7 +323,7 @@ internal class WebConnectionTunnel
 	}
 
 	[Token(Token = "0x6000B07")]
-	[Address(RVA = "0x4670A80", Offset = "0x4670A80", VA = "0x4670A80")]
+	[Address(RVA = "0x4995B80", Offset = "0x4995B80", VA = "0x4995B80")]
 	[AsyncStateMachine(typeof(_003CReadHeaders_003Ed__43))]
 	private Task<(WebHeaderCollection, byte[], int)> ReadHeaders(Stream stream, CancellationToken cancellationToken)
 	{
@@ -324,7 +331,7 @@ internal class WebConnectionTunnel
 	}
 
 	[Token(Token = "0x6000B08")]
-	[Address(RVA = "0x4670BD0", Offset = "0x4670BD0", VA = "0x4670BD0")]
+	[Address(RVA = "0x4995CD0", Offset = "0x4995CD0", VA = "0x4995CD0")]
 	private void FlushContents(Stream stream, int contentLength)
 	{
 	}

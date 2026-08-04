@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Experimental.Rendering.RenderGraphModule.RenderGraphPass
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -30,14 +37,14 @@ internal abstract class RenderGraphPass
 	public string name
 	{
 		[Token(Token = "0x6000447")]
-		[Address(RVA = "0x48675D0", Offset = "0x48675D0", VA = "0x48675D0")]
+		[Address(RVA = "0x4B8C6C0", Offset = "0x4B8C6C0", VA = "0x4B8C6C0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000448")]
-		[Address(RVA = "0x48675E0", Offset = "0x48675E0", VA = "0x48675E0")]
+		[Address(RVA = "0x4B8C6D0", Offset = "0x4B8C6D0", VA = "0x4B8C6D0")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -48,14 +55,14 @@ internal abstract class RenderGraphPass
 	public int index
 	{
 		[Token(Token = "0x6000449")]
-		[Address(RVA = "0x48675F0", Offset = "0x48675F0", VA = "0x48675F0")]
+		[Address(RVA = "0x4B8C6E0", Offset = "0x4B8C6E0", VA = "0x4B8C6E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600044A")]
-		[Address(RVA = "0x4867600", Offset = "0x4867600", VA = "0x4867600")]
+		[Address(RVA = "0x4B8C6F0", Offset = "0x4B8C6F0", VA = "0x4B8C6F0")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -66,14 +73,14 @@ internal abstract class RenderGraphPass
 	public ProfilingSampler customSampler
 	{
 		[Token(Token = "0x600044B")]
-		[Address(RVA = "0x4867610", Offset = "0x4867610", VA = "0x4867610")]
+		[Address(RVA = "0x4B8C700", Offset = "0x4B8C700", VA = "0x4B8C700")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600044C")]
-		[Address(RVA = "0x4867620", Offset = "0x4867620", VA = "0x4867620")]
+		[Address(RVA = "0x4B8C710", Offset = "0x4B8C710", VA = "0x4B8C710")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -84,14 +91,14 @@ internal abstract class RenderGraphPass
 	public bool enableAsyncCompute
 	{
 		[Token(Token = "0x600044D")]
-		[Address(RVA = "0x4867630", Offset = "0x4867630", VA = "0x4867630")]
+		[Address(RVA = "0x4B8C720", Offset = "0x4B8C720", VA = "0x4B8C720")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600044E")]
-		[Address(RVA = "0x4867640", Offset = "0x4867640", VA = "0x4867640")]
+		[Address(RVA = "0x4B8C730", Offset = "0x4B8C730", VA = "0x4B8C730")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -102,14 +109,14 @@ internal abstract class RenderGraphPass
 	public bool allowPassCulling
 	{
 		[Token(Token = "0x600044F")]
-		[Address(RVA = "0x4867650", Offset = "0x4867650", VA = "0x4867650")]
+		[Address(RVA = "0x4B8C740", Offset = "0x4B8C740", VA = "0x4B8C740")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000450")]
-		[Address(RVA = "0x4867660", Offset = "0x4867660", VA = "0x4867660")]
+		[Address(RVA = "0x4B8C750", Offset = "0x4B8C750", VA = "0x4B8C750")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -120,14 +127,14 @@ internal abstract class RenderGraphPass
 	public bool allowGlobalState
 	{
 		[Token(Token = "0x6000451")]
-		[Address(RVA = "0x4867670", Offset = "0x4867670", VA = "0x4867670")]
+		[Address(RVA = "0x4B8C760", Offset = "0x4B8C760", VA = "0x4B8C760")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000452")]
-		[Address(RVA = "0x4867680", Offset = "0x4867680", VA = "0x4867680")]
+		[Address(RVA = "0x4B8C770", Offset = "0x4B8C770", VA = "0x4B8C770")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -138,14 +145,14 @@ internal abstract class RenderGraphPass
 	public TextureHandle depthBuffer
 	{
 		[Token(Token = "0x6000453")]
-		[Address(RVA = "0x4867690", Offset = "0x4867690", VA = "0x4867690")]
+		[Address(RVA = "0x4B8C780", Offset = "0x4B8C780", VA = "0x4B8C780")]
 		[CompilerGenerated]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x6000454")]
-		[Address(RVA = "0x48676A0", Offset = "0x48676A0", VA = "0x48676A0")]
+		[Address(RVA = "0x4B8C790", Offset = "0x4B8C790", VA = "0x4B8C790")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -156,14 +163,14 @@ internal abstract class RenderGraphPass
 	public TextureHandle[] colorBuffers
 	{
 		[Token(Token = "0x6000455")]
-		[Address(RVA = "0x48676B0", Offset = "0x48676B0", VA = "0x48676B0")]
+		[Address(RVA = "0x4B8C7A0", Offset = "0x4B8C7A0", VA = "0x4B8C7A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000456")]
-		[Address(RVA = "0x48676C0", Offset = "0x48676C0", VA = "0x48676C0")]
+		[Address(RVA = "0x4B8C7B0", Offset = "0x4B8C7B0", VA = "0x4B8C7B0")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -174,14 +181,14 @@ internal abstract class RenderGraphPass
 	public int colorBufferMaxIndex
 	{
 		[Token(Token = "0x6000457")]
-		[Address(RVA = "0x48676D0", Offset = "0x48676D0", VA = "0x48676D0")]
+		[Address(RVA = "0x4B8C7C0", Offset = "0x4B8C7C0", VA = "0x4B8C7C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000458")]
-		[Address(RVA = "0x48676E0", Offset = "0x48676E0", VA = "0x48676E0")]
+		[Address(RVA = "0x4B8C7D0", Offset = "0x4B8C7D0", VA = "0x4B8C7D0")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -192,14 +199,14 @@ internal abstract class RenderGraphPass
 	public int refCount
 	{
 		[Token(Token = "0x6000459")]
-		[Address(RVA = "0x48676F0", Offset = "0x48676F0", VA = "0x48676F0")]
+		[Address(RVA = "0x4B8C7E0", Offset = "0x4B8C7E0", VA = "0x4B8C7E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600045A")]
-		[Address(RVA = "0x4867700", Offset = "0x4867700", VA = "0x4867700")]
+		[Address(RVA = "0x4B8C7F0", Offset = "0x4B8C7F0", VA = "0x4B8C7F0")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -210,14 +217,14 @@ internal abstract class RenderGraphPass
 	public bool generateDebugData
 	{
 		[Token(Token = "0x600045B")]
-		[Address(RVA = "0x4867710", Offset = "0x4867710", VA = "0x4867710")]
+		[Address(RVA = "0x4B8C800", Offset = "0x4B8C800", VA = "0x4B8C800")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600045C")]
-		[Address(RVA = "0x4867720", Offset = "0x4867720", VA = "0x4867720")]
+		[Address(RVA = "0x4B8C810", Offset = "0x4B8C810", VA = "0x4B8C810")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -228,14 +235,14 @@ internal abstract class RenderGraphPass
 	public bool allowRendererListCulling
 	{
 		[Token(Token = "0x600045D")]
-		[Address(RVA = "0x4867730", Offset = "0x4867730", VA = "0x4867730")]
+		[Address(RVA = "0x4B8C820", Offset = "0x4B8C820", VA = "0x4B8C820")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600045E")]
-		[Address(RVA = "0x4867740", Offset = "0x4867740", VA = "0x4867740")]
+		[Address(RVA = "0x4B8C830", Offset = "0x4B8C830", VA = "0x4B8C830")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -252,119 +259,119 @@ internal abstract class RenderGraphPass
 	public abstract bool HasRenderFunc();
 
 	[Token(Token = "0x600045F")]
-	[Address(RVA = "0x4867750", Offset = "0x4867750", VA = "0x4867750")]
+	[Address(RVA = "0x4B8C840", Offset = "0x4B8C840", VA = "0x4B8C840")]
 	public RenderGraphPass()
 	{
 	}
 
 	[Token(Token = "0x6000460")]
-	[Address(RVA = "0x4867B40", Offset = "0x4867B40", VA = "0x4867B40")]
+	[Address(RVA = "0x4B8CC30", Offset = "0x4B8CC30", VA = "0x4B8CC30")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000461")]
-	[Address(RVA = "0x4867E80", Offset = "0x4867E80", VA = "0x4867E80")]
+	[Address(RVA = "0x4B8CF70", Offset = "0x4B8CF70", VA = "0x4B8CF70")]
 	public bool IsTransient(in ResourceHandle res)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000462")]
-	[Address(RVA = "0x4864BD0", Offset = "0x4864BD0", VA = "0x4864BD0")]
+	[Address(RVA = "0x4B89CC0", Offset = "0x4B89CC0", VA = "0x4B89CC0")]
 	public bool IsWritten(in ResourceHandle res)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000463")]
-	[Address(RVA = "0x4867FD0", Offset = "0x4867FD0", VA = "0x4867FD0")]
+	[Address(RVA = "0x4B8D0C0", Offset = "0x4B8D0C0", VA = "0x4B8D0C0")]
 	public bool IsRead(in ResourceHandle res)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000464")]
-	[Address(RVA = "0x48682B0", Offset = "0x48682B0", VA = "0x48682B0")]
+	[Address(RVA = "0x4B8D3A0", Offset = "0x4B8D3A0", VA = "0x4B8D3A0")]
 	public bool IsAttachment(in TextureHandle res)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000465")]
-	[Address(RVA = "0x48631A0", Offset = "0x48631A0", VA = "0x48631A0")]
+	[Address(RVA = "0x4B88290", Offset = "0x4B88290", VA = "0x4B88290")]
 	public void AddResourceWrite(in ResourceHandle res)
 	{
 	}
 
 	[Token(Token = "0x6000466")]
-	[Address(RVA = "0x4863050", Offset = "0x4863050", VA = "0x4863050")]
+	[Address(RVA = "0x4B88140", Offset = "0x4B88140", VA = "0x4B88140")]
 	public void AddResourceRead(in ResourceHandle res)
 	{
 	}
 
 	[Token(Token = "0x6000467")]
-	[Address(RVA = "0x4863570", Offset = "0x4863570", VA = "0x4863570")]
+	[Address(RVA = "0x4B88660", Offset = "0x4B88660", VA = "0x4B88660")]
 	public void AddTransientResource(in ResourceHandle res)
 	{
 	}
 
 	[Token(Token = "0x6000468")]
-	[Address(RVA = "0x48639C0", Offset = "0x48639C0", VA = "0x48639C0")]
+	[Address(RVA = "0x4B88AB0", Offset = "0x4B88AB0", VA = "0x4B88AB0")]
 	public void UseRendererList(RendererListHandle rendererList)
 	{
 	}
 
 	[Token(Token = "0x6000469")]
-	[Address(RVA = "0x4863E70", Offset = "0x4863E70", VA = "0x4863E70")]
+	[Address(RVA = "0x4B88F60", Offset = "0x4B88F60", VA = "0x4B88F60")]
 	public void EnableAsyncCompute(bool value)
 	{
 	}
 
 	[Token(Token = "0x600046A")]
-	[Address(RVA = "0x4863EA0", Offset = "0x4863EA0", VA = "0x4863EA0")]
+	[Address(RVA = "0x4B88F90", Offset = "0x4B88F90", VA = "0x4B88F90")]
 	public void AllowPassCulling(bool value)
 	{
 	}
 
 	[Token(Token = "0x600046B")]
-	[Address(RVA = "0x4863F30", Offset = "0x4863F30", VA = "0x4863F30")]
+	[Address(RVA = "0x4B89020", Offset = "0x4B89020", VA = "0x4B89020")]
 	public void AllowRendererListCulling(bool value)
 	{
 	}
 
 	[Token(Token = "0x600046C")]
-	[Address(RVA = "0x48641B0", Offset = "0x48641B0", VA = "0x48641B0")]
+	[Address(RVA = "0x4B892A0", Offset = "0x4B892A0", VA = "0x4B892A0")]
 	public void AllowGlobalState(bool value)
 	{
 	}
 
 	[Token(Token = "0x600046D")]
-	[Address(RVA = "0x4864050", Offset = "0x4864050", VA = "0x4864050")]
+	[Address(RVA = "0x4B89140", Offset = "0x4B89140", VA = "0x4B89140")]
 	public void GenerateDebugData(bool value)
 	{
 	}
 
 	[Token(Token = "0x600046E")]
-	[Address(RVA = "0x48627A0", Offset = "0x48627A0", VA = "0x48627A0")]
+	[Address(RVA = "0x4B87890", Offset = "0x4B87890", VA = "0x4B87890")]
 	public void SetColorBuffer(TextureHandle resource, int index)
 	{
 	}
 
 	[Token(Token = "0x600046F")]
-	[Address(RVA = "0x48654B0", Offset = "0x48654B0", VA = "0x48654B0")]
+	[Address(RVA = "0x4B8A5A0", Offset = "0x4B8A5A0", VA = "0x4B8A5A0")]
 	public void SetColorBufferRaw(TextureHandle resource, int index)
 	{
 	}
 
 	[Token(Token = "0x6000470")]
-	[Address(RVA = "0x4862C20", Offset = "0x4862C20", VA = "0x4862C20")]
+	[Address(RVA = "0x4B87D10", Offset = "0x4B87D10", VA = "0x4B87D10")]
 	public void SetDepthBuffer(TextureHandle resource, DepthAccess flags)
 	{
 	}
 
 	[Token(Token = "0x6000471")]
-	[Address(RVA = "0x4865AA0", Offset = "0x4865AA0", VA = "0x4865AA0")]
+	[Address(RVA = "0x4B8AB90", Offset = "0x4B8AB90", VA = "0x4B8AB90")]
 	public void SetDepthBufferRaw(TextureHandle resource)
 	{
 	}

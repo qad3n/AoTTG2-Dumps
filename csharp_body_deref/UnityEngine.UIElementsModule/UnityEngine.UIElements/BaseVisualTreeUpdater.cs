@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.BaseVisualTreeUpdater
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -16,13 +23,13 @@ internal abstract class BaseVisualTreeUpdater : IVisualTreeUpdater, IDisposable
 	public BaseVisualElementPanel panel
 	{
 		[Token(Token = "0x6001C23")]
-		[Address(RVA = "0x4C51E50", Offset = "0x4C51E50", VA = "0x4C51E50", Slot = "9")]
+		[Address(RVA = "0x4F79780", Offset = "0x4F79780", VA = "0x4F79780", Slot = "9")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001C24")]
-		[Address(RVA = "0x4C56AC0", Offset = "0x4C56AC0", VA = "0x4C56AC0", Slot = "4")]
+		[Address(RVA = "0x4F7E3F0", Offset = "0x4F7E3F0", VA = "0x4F7E3F0", Slot = "4")]
 		set
 		{
 		}
@@ -32,7 +39,7 @@ internal abstract class BaseVisualTreeUpdater : IVisualTreeUpdater, IDisposable
 	public VisualElement visualTree
 	{
 		[Token(Token = "0x6001C25")]
-		[Address(RVA = "0x4C53840", Offset = "0x4C53840", VA = "0x4C53840")]
+		[Address(RVA = "0x4F7B170", Offset = "0x4F7B170", VA = "0x4F7B170")]
 		get
 		{
 			return null;
@@ -50,13 +57,13 @@ internal abstract class BaseVisualTreeUpdater : IVisualTreeUpdater, IDisposable
 	public event Action<BaseVisualElementPanel> panelChanged
 	{
 		[Token(Token = "0x6001C21")]
-		[Address(RVA = "0x4C56960", Offset = "0x4C56960", VA = "0x4C56960")]
+		[Address(RVA = "0x4F7E290", Offset = "0x4F7E290", VA = "0x4F7E290")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6001C22")]
-		[Address(RVA = "0x4C56A10", Offset = "0x4C56A10", VA = "0x4C56A10")]
+		[Address(RVA = "0x4F7E340", Offset = "0x4F7E340", VA = "0x4F7E340")]
 		[CompilerGenerated]
 		remove
 		{
@@ -64,13 +71,13 @@ internal abstract class BaseVisualTreeUpdater : IVisualTreeUpdater, IDisposable
 	}
 
 	[Token(Token = "0x6001C27")]
-	[Address(RVA = "0x4C56B00", Offset = "0x4C56B00", VA = "0x4C56B00", Slot = "8")]
+	[Address(RVA = "0x4F7E430", Offset = "0x4F7E430", VA = "0x4F7E430", Slot = "8")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6001C28")]
-	[Address(RVA = "0x4C56B70", Offset = "0x4C56B70", VA = "0x4C56B70", Slot = "11")]
+	[Address(RVA = "0x4F7E4A0", Offset = "0x4F7E4A0", VA = "0x4F7E4A0", Slot = "11")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
@@ -82,7 +89,7 @@ internal abstract class BaseVisualTreeUpdater : IVisualTreeUpdater, IDisposable
 	public abstract void OnVersionChanged(VisualElement ve, VersionChangeType versionChangeType);
 
 	[Token(Token = "0x6001C2B")]
-	[Address(RVA = "0x4C51F40", Offset = "0x4C51F40", VA = "0x4C51F40")]
+	[Address(RVA = "0x4F79870", Offset = "0x4F79870", VA = "0x4F79870")]
 	protected BaseVisualTreeUpdater()
 	{
 	}

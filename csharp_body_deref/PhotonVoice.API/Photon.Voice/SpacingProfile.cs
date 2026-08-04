@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.SpacingProfile
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/Util.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using Il2CppDummyDll;
 
@@ -38,7 +45,7 @@ internal class SpacingProfile
 	public string Dump
 	{
 		[Token(Token = "0x60001BF")]
-		[Address(RVA = "0x3C261B0", Offset = "0x3C261B0", VA = "0x3C261B0")]
+		[Address(RVA = "0x3F1BB00", Offset = "0x3F1BB00", VA = "0x3F1BB00")]
 		get
 		{
 			return null;
@@ -49,7 +56,7 @@ internal class SpacingProfile
 	public int Max
 	{
 		[Token(Token = "0x60001C0")]
-		[Address(RVA = "0x3C26400", Offset = "0x3C26400", VA = "0x3C26400")]
+		[Address(RVA = "0x3F1BD50", Offset = "0x3F1BD50", VA = "0x3F1BD50")]
 		get
 		{
 			return default(int);
@@ -57,19 +64,19 @@ internal class SpacingProfile
 	}
 
 	[Token(Token = "0x60001BC")]
-	[Address(RVA = "0x3C26020", Offset = "0x3C26020", VA = "0x3C26020")]
+	[Address(RVA = "0x3F1B970", Offset = "0x3F1B970", VA = "0x3F1B970")]
 	public SpacingProfile(int capacity)
 	{
 	}
 
 	[Token(Token = "0x60001BD")]
-	[Address(RVA = "0x3C26040", Offset = "0x3C26040", VA = "0x3C26040")]
+	[Address(RVA = "0x3F1B990", Offset = "0x3F1B990", VA = "0x3F1B990")]
 	public void Start()
 	{
 	}
 
 	[Token(Token = "0x60001BE")]
-	[Address(RVA = "0x3C26110", Offset = "0x3C26110", VA = "0x3C26110")]
+	[Address(RVA = "0x3F1BA60", Offset = "0x3F1BA60", VA = "0x3F1BA60")]
 	public void Update(bool lost, bool flush)
 	{
 	}

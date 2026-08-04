@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Utilities.StringReference
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Newtonsoft.Json.Utilities;
@@ -21,7 +28,7 @@ internal readonly struct StringReference
 	public char this[int i]
 	{
 		[Token(Token = "0x60006F8")]
-		[Address(RVA = "0x3AD1080", Offset = "0x3AD1080", VA = "0x3AD1080")]
+		[Address(RVA = "0x3DC69D0", Offset = "0x3DC69D0", VA = "0x3DC69D0")]
 		get
 		{
 			return default(char);
@@ -32,7 +39,7 @@ internal readonly struct StringReference
 	public char[] Chars
 	{
 		[Token(Token = "0x60006F9")]
-		[Address(RVA = "0x3AD10B0", Offset = "0x3AD10B0", VA = "0x3AD10B0")]
+		[Address(RVA = "0x3DC6A00", Offset = "0x3DC6A00", VA = "0x3DC6A00")]
 		get
 		{
 			return null;
@@ -43,7 +50,7 @@ internal readonly struct StringReference
 	public int StartIndex
 	{
 		[Token(Token = "0x60006FA")]
-		[Address(RVA = "0x3AD10C0", Offset = "0x3AD10C0", VA = "0x3AD10C0")]
+		[Address(RVA = "0x3DC6A10", Offset = "0x3DC6A10", VA = "0x3DC6A10")]
 		get
 		{
 			return default(int);
@@ -54,7 +61,7 @@ internal readonly struct StringReference
 	public int Length
 	{
 		[Token(Token = "0x60006FB")]
-		[Address(RVA = "0x3AD10D0", Offset = "0x3AD10D0", VA = "0x3AD10D0")]
+		[Address(RVA = "0x3DC6A20", Offset = "0x3DC6A20", VA = "0x3DC6A20")]
 		get
 		{
 			return default(int);
@@ -62,13 +69,13 @@ internal readonly struct StringReference
 	}
 
 	[Token(Token = "0x60006FC")]
-	[Address(RVA = "0x3AD10E0", Offset = "0x3AD10E0", VA = "0x3AD10E0")]
+	[Address(RVA = "0x3DC6A30", Offset = "0x3DC6A30", VA = "0x3DC6A30")]
 	public StringReference(char[] chars, int startIndex, int length)
 	{
 	}
 
 	[Token(Token = "0x60006FD")]
-	[Address(RVA = "0x3AD1100", Offset = "0x3AD1100", VA = "0x3AD1100", Slot = "3")]
+	[Address(RVA = "0x3DC6A50", Offset = "0x3DC6A50", VA = "0x3DC6A50", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

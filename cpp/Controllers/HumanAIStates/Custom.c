@@ -1,17 +1,17 @@
 // Type: Controllers.HumanAIStates.Custom
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Controllers.HumanAIStates/Custom.cs
-// Prior source: NEW in this update
+// Prior real C# source: none
 // --------------------------------
 
 // Controllers.HumanAIStates.Custom$$get_Name
 // il2cpp: System_String_o* Controllers_HumanAIStates_Custom__get_Name (Controllers_HumanAIStates_Custom_o* __this, const MethodInfo* method);
-// 0x3f90cf0
+// 0x429d290
 
 System_String_o *
-Controllers_HumanAIStates_Custom__get_Name
-          (Controllers_HumanAIStates_Custom_o *__this,MethodInfo *method)
+Controllers_HumanAIStates_Custom__get_Name(Controllers_HumanAIStates_Custom_o *__this,MethodInfo *method)
 
 {
   return (__this->fields)._name;
@@ -20,7 +20,7 @@ Controllers_HumanAIStates_Custom__get_Name
 
 // Controllers.HumanAIStates.Custom$$Init
 // il2cpp: void Controllers_HumanAIStates_Custom__Init (Controllers_HumanAIStates_Custom_o* __this, System_String_o* name, CustomLogic_UserClassInstance_o* instance, const MethodInfo* method);
-// 0x3f90d00
+// 0x429d2a0
 
 void Controllers_HumanAIStates_Custom__Init
                (Controllers_HumanAIStates_Custom_o *__this,System_String_o *name,
@@ -29,212 +29,355 @@ void Controllers_HumanAIStates_Custom__Init
 {
   CustomLogic_UserClassInstance_o **ppCVar1;
   CustomLogic_UserMethod_o **ppCVar2;
-  CustomLogic_UserMethod_o **ppCVar3;
-  CustomLogic_UserMethod_o **ppCVar4;
-  byte bVar5;
-  CustomLogic_UserClassInstance_o *pCVar6;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar7;
-  Il2CppClass *pIVar8;
-  bool_conflict bVar9;
-  CustomLogic_UserMethod_o *pCVar10;
+  byte bVar3;
+  CustomLogic_UserClassInstance_o *pCVar4;
+  CustomLogic_CustomLogicEvaluator_o *pCVar5;
+  Characters_Human_o *userMethod;
+  Il2CppClass *pIVar6;
+  bool_conflict bVar7;
+  CustomLogic_UserMethod_o *pCVar8;
+  System_Object_array *pSVar9;
+  Controllers_HumanAIController_o *userMethod_00;
+  System_Collections_Generic_Dictionary_object__object__o *__this_00;
+  System_Collections_Generic_Dictionary_object__object__o *pSVar10;
+  System_Collections_Generic_Dictionary_object__object__o *pSVar11;
+  Controllers_HumanAIState_o *pCVar12;
   
-  if (DAT_05703fad == '\0') {
-    il2cpp_init_method_metadata(&MethodInfo_Boolean_ContainsKey);
-    il2cpp_init_method_metadata(&TypeInfo_UserMethod);
-    il2cpp_init_method_metadata(&"OnStateEntry");
-    il2cpp_init_method_metadata(&"OnStateExit");
-    il2cpp_init_method_metadata(&"Action");
-    DAT_05703fad = '\x01';
+  if (g_data_057add1a == '\0') {
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_UserMethod);
+    il2cpp_runtime_helper_023445d0(&"OnStateEntry");
+    il2cpp_runtime_helper_023445d0(&"OnStateExit");
+    il2cpp_runtime_helper_023445d0(&"Action");
+    g_data_057add1a = '\x01';
   }
   (__this->fields)._name = name;
-  il2cpp_runtime_glue(&(__this->fields)._name,name);
+  il2cpp_runtime_helper_022b4080(&(__this->fields)._name,name);
   ppCVar1 = &(__this->fields)._instance;
   (__this->fields)._instance = instance;
-  il2cpp_runtime_glue(ppCVar1,instance);
-  ppCVar2 = &(__this->fields)._onStateEntry;
+  il2cpp_runtime_helper_022b4080(ppCVar1);
+  pSVar10 = (System_Collections_Generic_Dictionary_object__object__o *)&(__this->fields)._onStateEntry;
   (__this->fields)._onStateEntry = (CustomLogic_UserMethod_o *)0x0;
-  il2cpp_runtime_glue(ppCVar2,0);
-  ppCVar3 = &(__this->fields)._action;
+  il2cpp_runtime_helper_022b4080(pSVar10);
+  pSVar11 = (System_Collections_Generic_Dictionary_object__object__o *)&(__this->fields)._action;
   (__this->fields)._action = (CustomLogic_UserMethod_o *)0x0;
-  il2cpp_runtime_glue(ppCVar3,0);
-  ppCVar4 = &(__this->fields)._onStateExit;
+  il2cpp_runtime_helper_022b4080(pSVar11);
+  ppCVar2 = &(__this->fields)._onStateExit;
   (__this->fields)._onStateExit = (CustomLogic_UserMethod_o *)0x0;
-  il2cpp_runtime_glue(ppCVar4,0);
-  pCVar6 = (__this->fields)._instance;
-  if ((pCVar6 != (CustomLogic_UserClassInstance_o *)0x0) &&
-     (pSVar7 = (System_Collections_Generic_Dictionary_object__object__o *)(pCVar6->fields).Variables
-     , pSVar7 != (System_Collections_Generic_Dictionary_object__object__o *)0x0)) {
-    bVar9 = System_Collections_Generic_Dictionary<object__object>__ContainsKey
-                      (pSVar7,(Il2CppObject *)"OnStateEntry",MethodInfo_Boolean_ContainsKey);
-    if ((char)bVar9 != '\0') {
-      if (*ppCVar1 == (CustomLogic_UserClassInstance_o *)0x0) goto LAB_03f9100f;
-      pCVar10 = (CustomLogic_UserMethod_o *)
-                CustomLogic_CustomLogicClassInstance__GetVariable
-                          ((CustomLogic_CustomLogicClassInstance_o *)*ppCVar1,"OnStateEntry",
-                           (MethodInfo *)0x0);
-      pIVar8 = TypeInfo_UserMethod;
-      if (pCVar10 == (CustomLogic_UserMethod_o *)0x0) {
-        *ppCVar2 = (CustomLogic_UserMethod_o *)0x0;
+  __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)ppCVar2;
+  il2cpp_runtime_helper_022b4080();
+  pCVar4 = (__this->fields)._instance;
+  if ((pCVar4 != (CustomLogic_UserClassInstance_o *)0x0) &&
+     (__this_00 = (System_Collections_Generic_Dictionary_object__object__o *)(pCVar4->fields).Variables,
+     __this_00 != (System_Collections_Generic_Dictionary_object__object__o *)0x0)) {
+    bVar7 = System_Collections_Generic_Dictionary_object__object___ContainsKey
+                      (__this_00,(Il2CppObject *)"OnStateEntry",MethodInfo_Boolean_ContainsKey);
+    if ((char)bVar7 != '\0') {
+      __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)0x0;
+      if (*ppCVar1 == (CustomLogic_UserClassInstance_o *)0x0) goto label_0429d5af;
+      pCVar8 = (CustomLogic_UserMethod_o *)
+               CustomLogic_CustomLogicClassInstance__GetVariable
+                         ((CustomLogic_CustomLogicClassInstance_o *)*ppCVar1,"OnStateEntry",(MethodInfo *)0x0);
+      pIVar6 = TypeInfo_UserMethod;
+      if (pCVar8 == (CustomLogic_UserMethod_o *)0x0) {
+        *(CustomLogic_UserMethod_o **)pSVar10 = (CustomLogic_UserMethod_o *)0x0;
       }
       else {
-        bVar5 = (TypeInfo_UserMethod->_2).naturalAligment;
-        if (((((Il2CppClass *)pCVar10->klass)->_2).naturalAligment < bVar5) ||
-           ((((Il2CppClass *)pCVar10->klass)->_2).typeHierarchy[(ulong)bVar5 - 1] != TypeInfo_UserMethod))
-        goto LAB_03f90fd8;
-        *ppCVar2 = pCVar10;
-        if (((((Il2CppClass *)pCVar10->klass)->_2).naturalAligment < bVar5) ||
-           ((((Il2CppClass *)pCVar10->klass)->_2).typeHierarchy[(ulong)bVar5 - 1] != pIVar8))
-        goto LAB_03f90fd8;
+        bVar3 = (TypeInfo_UserMethod->_2).naturalAligment;
+        if (((((Il2CppClass *)pCVar8->klass)->_2).naturalAligment < bVar3) ||
+           ((((Il2CppClass *)pCVar8->klass)->_2).typeHierarchy[(ulong)bVar3 - 1] != TypeInfo_UserMethod))
+        goto label_0429d578;
+        *(CustomLogic_UserMethod_o **)pSVar10 = pCVar8;
+        if (((((Il2CppClass *)pCVar8->klass)->_2).naturalAligment < bVar3) ||
+           ((((Il2CppClass *)pCVar8->klass)->_2).typeHierarchy[(ulong)bVar3 - 1] != pIVar6))
+        goto label_0429d578;
       }
-      il2cpp_runtime_glue(ppCVar2,pCVar10);
+      il2cpp_runtime_helper_022b4080();
+      __this_00 = pSVar10;
     }
     if ((*ppCVar1 == (CustomLogic_UserClassInstance_o *)0x0) ||
-       (pSVar7 = (System_Collections_Generic_Dictionary_object__object__o *)
-                 ((*ppCVar1)->fields).Variables,
-       pSVar7 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)) goto LAB_03f9100f;
-    bVar9 = System_Collections_Generic_Dictionary<object__object>__ContainsKey
-                      (pSVar7,(Il2CppObject *)"Action",MethodInfo_Boolean_ContainsKey);
-    if ((char)bVar9 != '\0') {
-      if (*ppCVar1 == (CustomLogic_UserClassInstance_o *)0x0) goto LAB_03f9100f;
-      pCVar10 = (CustomLogic_UserMethod_o *)
-                CustomLogic_CustomLogicClassInstance__GetVariable
-                          ((CustomLogic_CustomLogicClassInstance_o *)*ppCVar1,"Action",
-                           (MethodInfo *)0x0);
-      pIVar8 = TypeInfo_UserMethod;
-      if (pCVar10 == (CustomLogic_UserMethod_o *)0x0) {
-        *ppCVar3 = (CustomLogic_UserMethod_o *)0x0;
+       (__this_00 = (System_Collections_Generic_Dictionary_object__object__o *)((*ppCVar1)->fields).Variables,
+       __this_00 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)) goto label_0429d5af;
+    bVar7 = System_Collections_Generic_Dictionary_object__object___ContainsKey
+                      (__this_00,(Il2CppObject *)"Action",MethodInfo_Boolean_ContainsKey);
+    if ((char)bVar7 != '\0') {
+      __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)0x0;
+      if (*ppCVar1 == (CustomLogic_UserClassInstance_o *)0x0) goto label_0429d5af;
+      pCVar8 = (CustomLogic_UserMethod_o *)
+               CustomLogic_CustomLogicClassInstance__GetVariable
+                         ((CustomLogic_CustomLogicClassInstance_o *)*ppCVar1,"Action",(MethodInfo *)0x0);
+      pIVar6 = TypeInfo_UserMethod;
+      if (pCVar8 == (CustomLogic_UserMethod_o *)0x0) {
+        *(CustomLogic_UserMethod_o **)pSVar11 = (CustomLogic_UserMethod_o *)0x0;
       }
       else {
-        bVar5 = (TypeInfo_UserMethod->_2).naturalAligment;
-        if (((((Il2CppClass *)pCVar10->klass)->_2).naturalAligment < bVar5) ||
-           ((((Il2CppClass *)pCVar10->klass)->_2).typeHierarchy[(ulong)bVar5 - 1] != TypeInfo_UserMethod))
-        goto LAB_03f90fd8;
-        *ppCVar3 = pCVar10;
-        if (((((Il2CppClass *)pCVar10->klass)->_2).naturalAligment < bVar5) ||
-           ((((Il2CppClass *)pCVar10->klass)->_2).typeHierarchy[(ulong)bVar5 - 1] != pIVar8))
-        goto LAB_03f90fd8;
+        bVar3 = (TypeInfo_UserMethod->_2).naturalAligment;
+        if (((((Il2CppClass *)pCVar8->klass)->_2).naturalAligment < bVar3) ||
+           ((((Il2CppClass *)pCVar8->klass)->_2).typeHierarchy[(ulong)bVar3 - 1] != TypeInfo_UserMethod))
+        goto label_0429d578;
+        *(CustomLogic_UserMethod_o **)pSVar11 = pCVar8;
+        if (((((Il2CppClass *)pCVar8->klass)->_2).naturalAligment < bVar3) ||
+           ((((Il2CppClass *)pCVar8->klass)->_2).typeHierarchy[(ulong)bVar3 - 1] != pIVar6))
+        goto label_0429d578;
       }
-      il2cpp_runtime_glue(ppCVar3,pCVar10);
+      il2cpp_runtime_helper_022b4080();
+      __this_00 = pSVar11;
     }
-    if ((*ppCVar1 != (CustomLogic_UserClassInstance_o *)0x0) &&
-       (pSVar7 = (System_Collections_Generic_Dictionary_object__object__o *)
-                 ((*ppCVar1)->fields).Variables,
-       pSVar7 != (System_Collections_Generic_Dictionary_object__object__o *)0x0)) {
-      bVar9 = System_Collections_Generic_Dictionary<object__object>__ContainsKey
-                        (pSVar7,(Il2CppObject *)"OnStateExit",MethodInfo_Boolean_ContainsKey);
-      if ((char)bVar9 == '\0') {
-        return;
-      }
-      if (*ppCVar1 != (CustomLogic_UserClassInstance_o *)0x0) {
-        pCVar10 = (CustomLogic_UserMethod_o *)
-                  CustomLogic_CustomLogicClassInstance__GetVariable
-                            ((CustomLogic_CustomLogicClassInstance_o *)*ppCVar1,"OnStateExit",
-                             (MethodInfo *)0x0);
-        pIVar8 = TypeInfo_UserMethod;
-        if (pCVar10 == (CustomLogic_UserMethod_o *)0x0) {
-          *ppCVar4 = (CustomLogic_UserMethod_o *)0x0;
-LAB_03f90ff6:
-          il2cpp_runtime_glue(ppCVar4,pCVar10);
+    if (*ppCVar1 != (CustomLogic_UserClassInstance_o *)0x0) {
+      pSVar10 = (System_Collections_Generic_Dictionary_object__object__o *)((*ppCVar1)->fields).Variables;
+      __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)0x0;
+      if (pSVar10 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+        bVar7 = System_Collections_Generic_Dictionary_object__object___ContainsKey
+                          (pSVar10,(Il2CppObject *)"OnStateExit",MethodInfo_Boolean_ContainsKey);
+        if ((char)bVar7 == '\0') {
           return;
         }
-        bVar5 = (TypeInfo_UserMethod->_2).naturalAligment;
-        if ((bVar5 <= (((Il2CppClass *)pCVar10->klass)->_2).naturalAligment) &&
-           ((((Il2CppClass *)pCVar10->klass)->_2).typeHierarchy[(ulong)bVar5 - 1] == TypeInfo_UserMethod))
-        {
-          *ppCVar4 = pCVar10;
-          if ((bVar5 <= (((Il2CppClass *)pCVar10->klass)->_2).naturalAligment) &&
-             ((((Il2CppClass *)pCVar10->klass)->_2).typeHierarchy[(ulong)bVar5 - 1] == pIVar8))
-          goto LAB_03f90ff6;
+        __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)0x0;
+        if (*ppCVar1 != (CustomLogic_UserClassInstance_o *)0x0) {
+          pCVar8 = (CustomLogic_UserMethod_o *)
+                   CustomLogic_CustomLogicClassInstance__GetVariable
+                             ((CustomLogic_CustomLogicClassInstance_o *)*ppCVar1,"OnStateExit",
+                              (MethodInfo *)0x0);
+          pIVar6 = TypeInfo_UserMethod;
+          if (pCVar8 != (CustomLogic_UserMethod_o *)0x0) {
+            bVar3 = (TypeInfo_UserMethod->_2).naturalAligment;
+            if ((bVar3 <= (((Il2CppClass *)pCVar8->klass)->_2).naturalAligment) &&
+               ((((Il2CppClass *)pCVar8->klass)->_2).typeHierarchy[(ulong)bVar3 - 1] == TypeInfo_UserMethod)) {
+              *ppCVar2 = pCVar8;
+              if ((bVar3 <= (((Il2CppClass *)pCVar8->klass)->_2).naturalAligment) &&
+                 ((((Il2CppClass *)pCVar8->klass)->_2).typeHierarchy[(ulong)bVar3 - 1] == pIVar6))
+              goto label_0429d596;
+            }
+label_0429d578:
+            il2cpp_runtime_helper_022b2fd0(pCVar8);
+            return;
+          }
+          *ppCVar2 = (CustomLogic_UserMethod_o *)0x0;
+label_0429d596:
+          il2cpp_runtime_helper_022b4080(ppCVar2,pCVar8);
+          return;
         }
-LAB_03f90fd8:
-                    /* WARNING: Subroutine does not return */
-        il2cpp_unwind_resume(pCVar10);
       }
     }
   }
-LAB_03f9100f:
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+label_0429d5af:
+  il2cpp_runtime_helper_022b2c90();
+  if (g_data_057add1b == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicManager);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_object);
+    g_data_057add1b = '\x01';
+  }
+  pCVar8 = *(CustomLogic_UserMethod_o **)&(__this_00->fields)._freeCount;
+  if (pCVar8 == (CustomLogic_UserMethod_o *)0x0) {
+    return;
+  }
+  if (*(int *)(TypeInfo_CustomLogicManager + 0xe4) == 0) {
+    il2cpp_runtime_helper_02337ed0();
+    pCVar8 = *(CustomLogic_UserMethod_o **)&(__this_00->fields)._freeCount;
+  }
+  pCVar5 = *(CustomLogic_CustomLogicEvaluator_o **)(*(long *)(TypeInfo_CustomLogicManager + 0xb8) + 8);
+  pCVar12 = TypeInfo_object;
+  pSVar9 = (System_Object_array *)il2cpp_runtime_helper_022b2a40();
+  if (pCVar5 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+    CustomLogic_CustomLogicEvaluator__EvaluateMethod_41730f0(pCVar5,pCVar8,pSVar9,(MethodInfo *)0x0);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  if (g_data_057add1c == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicManager);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_object);
+    g_data_057add1c = '\x01';
+  }
+  userMethod_00 = pCVar12[1].fields.Controller;
+  if (userMethod_00 == (Controllers_HumanAIController_o *)0x0) {
+    return;
+  }
+  if (*(int *)(TypeInfo_CustomLogicManager + 0xe4) == 0) {
+    il2cpp_runtime_helper_02337ed0();
+    userMethod_00 = pCVar12[1].fields.Controller;
+  }
+  pCVar5 = *(CustomLogic_CustomLogicEvaluator_o **)(*(long *)(TypeInfo_CustomLogicManager + 0xb8) + 8);
+  pCVar12 = TypeInfo_object;
+  pSVar9 = (System_Object_array *)il2cpp_runtime_helper_022b2a40();
+  if (pCVar5 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+    CustomLogic_CustomLogicEvaluator__EvaluateMethod_41730f0
+              (pCVar5,(CustomLogic_UserMethod_o *)userMethod_00,pSVar9,(MethodInfo *)0x0);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  if (g_data_057add1d == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicManager);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_object);
+    g_data_057add1d = '\x01';
+  }
+  if (pCVar12[1].fields.Controller != (Controllers_HumanAIController_o *)0x0) {
+    if (*(int *)(TypeInfo_CustomLogicManager + 0xe4) == 0) {
+      il2cpp_runtime_helper_02337ed0();
+    }
+    pCVar5 = *(CustomLogic_CustomLogicEvaluator_o **)(*(long *)(TypeInfo_CustomLogicManager + 0xb8) + 8);
+    userMethod = pCVar12[1].fields.Human;
+    pCVar12 = TypeInfo_object;
+    pSVar9 = (System_Object_array *)il2cpp_runtime_helper_022b2a40();
+    if (pCVar5 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+      CustomLogic_CustomLogicEvaluator__EvaluateMethod_41730f0
+                (pCVar5,(CustomLogic_UserMethod_o *)userMethod,pSVar9,(MethodInfo *)0x0);
+      return;
+    }
+    il2cpp_runtime_helper_022b2c90();
+    Controllers_HumanAIState___ctor(pCVar12,(MethodInfo *)0x0);
+    return;
+  }
+  return;
 }
 
 
 // Controllers.HumanAIStates.Custom$$OnStateEntry
 // il2cpp: void Controllers_HumanAIStates_Custom__OnStateEntry (Controllers_HumanAIStates_Custom_o* __this, const MethodInfo* method);
-// 0x3f91020
+// 0x429d5c0
 
 void Controllers_HumanAIStates_Custom__OnStateEntry
                (Controllers_HumanAIStates_Custom_o *__this,MethodInfo *method)
 
 {
-  CustomLogic_CustomLogicEvaluator_o *__this_00;
-  System_Object_array *parameterValues;
-  CustomLogic_UserMethod_o *userMethod;
+  CustomLogic_CustomLogicEvaluator_o *pCVar1;
+  Characters_Human_o *userMethod;
+  System_Object_array *pSVar2;
+  CustomLogic_UserMethod_o *userMethod_00;
+  Controllers_HumanAIController_o *userMethod_01;
+  Controllers_HumanAIState_o *pCVar3;
   
-  if (DAT_05703fae == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_CustomLogicManager);
-    il2cpp_init_method_metadata(&TypeInfo_object);
-    DAT_05703fae = '\x01';
+  if (g_data_057add1b == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicManager);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_object);
+    g_data_057add1b = '\x01';
   }
-  userMethod = (__this->fields)._onStateEntry;
-  if (userMethod == (CustomLogic_UserMethod_o *)0x0) {
+  userMethod_00 = (__this->fields)._onStateEntry;
+  if (userMethod_00 == (CustomLogic_UserMethod_o *)0x0) {
     return;
   }
   if (*(int *)(TypeInfo_CustomLogicManager + 0xe4) == 0) {
-    il2cpp_init_class();
-    userMethod = (__this->fields)._onStateEntry;
+    il2cpp_runtime_helper_02337ed0();
+    userMethod_00 = (__this->fields)._onStateEntry;
   }
-  __this_00 = *(CustomLogic_CustomLogicEvaluator_o **)(*(long *)(TypeInfo_CustomLogicManager + 0xb8) + 8);
-  parameterValues = (System_Object_array *)il2cpp_glue_02274930(TypeInfo_object,0);
-  if (__this_00 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-    CustomLogic_CustomLogicEvaluator__EvaluateMethod
-              (__this_00,userMethod,parameterValues,(MethodInfo *)0x0);
+  pCVar1 = *(CustomLogic_CustomLogicEvaluator_o **)(*(long *)(TypeInfo_CustomLogicManager + 0xb8) + 8);
+  pCVar3 = TypeInfo_object;
+  pSVar2 = (System_Object_array *)il2cpp_runtime_helper_022b2a40();
+  if (pCVar1 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+    CustomLogic_CustomLogicEvaluator__EvaluateMethod_41730f0(pCVar1,userMethod_00,pSVar2,(MethodInfo *)0x0);
     return;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  if (g_data_057add1c == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicManager);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_object);
+    g_data_057add1c = '\x01';
+  }
+  userMethod_01 = pCVar3[1].fields.Controller;
+  if (userMethod_01 == (Controllers_HumanAIController_o *)0x0) {
+    return;
+  }
+  if (*(int *)(TypeInfo_CustomLogicManager + 0xe4) == 0) {
+    il2cpp_runtime_helper_02337ed0();
+    userMethod_01 = pCVar3[1].fields.Controller;
+  }
+  pCVar1 = *(CustomLogic_CustomLogicEvaluator_o **)(*(long *)(TypeInfo_CustomLogicManager + 0xb8) + 8);
+  pCVar3 = TypeInfo_object;
+  pSVar2 = (System_Object_array *)il2cpp_runtime_helper_022b2a40();
+  if (pCVar1 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+    CustomLogic_CustomLogicEvaluator__EvaluateMethod_41730f0
+              (pCVar1,(CustomLogic_UserMethod_o *)userMethod_01,pSVar2,(MethodInfo *)0x0);
+    return;
+  }
+  il2cpp_runtime_helper_022b2c90();
+  if (g_data_057add1d == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicManager);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_object);
+    g_data_057add1d = '\x01';
+  }
+  if (pCVar3[1].fields.Controller != (Controllers_HumanAIController_o *)0x0) {
+    if (*(int *)(TypeInfo_CustomLogicManager + 0xe4) == 0) {
+      il2cpp_runtime_helper_02337ed0();
+    }
+    pCVar1 = *(CustomLogic_CustomLogicEvaluator_o **)(*(long *)(TypeInfo_CustomLogicManager + 0xb8) + 8);
+    userMethod = pCVar3[1].fields.Human;
+    pCVar3 = TypeInfo_object;
+    pSVar2 = (System_Object_array *)il2cpp_runtime_helper_022b2a40();
+    if (pCVar1 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+      CustomLogic_CustomLogicEvaluator__EvaluateMethod_41730f0
+                (pCVar1,(CustomLogic_UserMethod_o *)userMethod,pSVar2,(MethodInfo *)0x0);
+      return;
+    }
+    il2cpp_runtime_helper_022b2c90();
+    Controllers_HumanAIState___ctor(pCVar3,(MethodInfo *)0x0);
+    return;
+  }
+  return;
 }
 
 
 // Controllers.HumanAIStates.Custom$$Action
 // il2cpp: void Controllers_HumanAIStates_Custom__Action (Controllers_HumanAIStates_Custom_o* __this, const MethodInfo* method);
-// 0x3f910c0
+// 0x429d660
 
-void Controllers_HumanAIStates_Custom__Action
-               (Controllers_HumanAIStates_Custom_o *__this,MethodInfo *method)
+void Controllers_HumanAIStates_Custom__Action(Controllers_HumanAIStates_Custom_o *__this,MethodInfo *method)
 
 {
-  CustomLogic_CustomLogicEvaluator_o *__this_00;
-  System_Object_array *parameterValues;
-  CustomLogic_UserMethod_o *userMethod;
+  CustomLogic_CustomLogicEvaluator_o *pCVar1;
+  Characters_Human_o *userMethod;
+  System_Object_array *pSVar2;
+  CustomLogic_UserMethod_o *userMethod_00;
+  Controllers_HumanAIState_o *pCVar3;
   
-  if (DAT_05703faf == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_CustomLogicManager);
-    il2cpp_init_method_metadata(&TypeInfo_object);
-    DAT_05703faf = '\x01';
+  if (g_data_057add1c == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicManager);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_object);
+    g_data_057add1c = '\x01';
   }
-  userMethod = (__this->fields)._action;
-  if (userMethod == (CustomLogic_UserMethod_o *)0x0) {
+  userMethod_00 = (__this->fields)._action;
+  if (userMethod_00 == (CustomLogic_UserMethod_o *)0x0) {
     return;
   }
   if (*(int *)(TypeInfo_CustomLogicManager + 0xe4) == 0) {
-    il2cpp_init_class();
-    userMethod = (__this->fields)._action;
+    il2cpp_runtime_helper_02337ed0();
+    userMethod_00 = (__this->fields)._action;
   }
-  __this_00 = *(CustomLogic_CustomLogicEvaluator_o **)(*(long *)(TypeInfo_CustomLogicManager + 0xb8) + 8);
-  parameterValues = (System_Object_array *)il2cpp_glue_02274930(TypeInfo_object,0);
-  if (__this_00 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-    CustomLogic_CustomLogicEvaluator__EvaluateMethod
-              (__this_00,userMethod,parameterValues,(MethodInfo *)0x0);
+  pCVar1 = *(CustomLogic_CustomLogicEvaluator_o **)(*(long *)(TypeInfo_CustomLogicManager + 0xb8) + 8);
+  pCVar3 = TypeInfo_object;
+  pSVar2 = (System_Object_array *)il2cpp_runtime_helper_022b2a40();
+  if (pCVar1 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+    CustomLogic_CustomLogicEvaluator__EvaluateMethod_41730f0(pCVar1,userMethod_00,pSVar2,(MethodInfo *)0x0);
     return;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  if (g_data_057add1d == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicManager);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_object);
+    g_data_057add1d = '\x01';
+  }
+  if (pCVar3[1].fields.Controller != (Controllers_HumanAIController_o *)0x0) {
+    if (*(int *)(TypeInfo_CustomLogicManager + 0xe4) == 0) {
+      il2cpp_runtime_helper_02337ed0();
+    }
+    pCVar1 = *(CustomLogic_CustomLogicEvaluator_o **)(*(long *)(TypeInfo_CustomLogicManager + 0xb8) + 8);
+    userMethod = pCVar3[1].fields.Human;
+    pCVar3 = TypeInfo_object;
+    pSVar2 = (System_Object_array *)il2cpp_runtime_helper_022b2a40();
+    if (pCVar1 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
+      CustomLogic_CustomLogicEvaluator__EvaluateMethod_41730f0
+                (pCVar1,(CustomLogic_UserMethod_o *)userMethod,pSVar2,(MethodInfo *)0x0);
+      return;
+    }
+    il2cpp_runtime_helper_022b2c90();
+    Controllers_HumanAIState___ctor(pCVar3,(MethodInfo *)0x0);
+    return;
+  }
+  return;
 }
 
 
 // Controllers.HumanAIStates.Custom$$OnStateExit
 // il2cpp: void Controllers_HumanAIStates_Custom__OnStateExit (Controllers_HumanAIStates_Custom_o* __this, const MethodInfo* method);
-// 0x3f91160
+// 0x429d700
 
 void Controllers_HumanAIStates_Custom__OnStateExit
                (Controllers_HumanAIStates_Custom_o *__this,MethodInfo *method)
@@ -243,37 +386,39 @@ void Controllers_HumanAIStates_Custom__OnStateExit
   CustomLogic_CustomLogicEvaluator_o *__this_00;
   CustomLogic_UserMethod_o *userMethod;
   System_Object_array *parameterValues;
+  Controllers_HumanAIState_o *__this_01;
   
-  if (DAT_05703fb0 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_CustomLogicManager);
-    il2cpp_init_method_metadata(&TypeInfo_object);
-    DAT_05703fb0 = '\x01';
+  if (g_data_057add1d == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicManager);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_object);
+    g_data_057add1d = '\x01';
   }
   if ((__this->fields)._action == (CustomLogic_UserMethod_o *)0x0) {
     return;
   }
   if (*(int *)(TypeInfo_CustomLogicManager + 0xe4) == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
   __this_00 = *(CustomLogic_CustomLogicEvaluator_o **)(*(long *)(TypeInfo_CustomLogicManager + 0xb8) + 8);
   userMethod = (__this->fields)._onStateExit;
-  parameterValues = (System_Object_array *)il2cpp_glue_02274930(TypeInfo_object,0);
+  __this_01 = TypeInfo_object;
+  parameterValues = (System_Object_array *)il2cpp_runtime_helper_022b2a40();
   if (__this_00 != (CustomLogic_CustomLogicEvaluator_o *)0x0) {
-    CustomLogic_CustomLogicEvaluator__EvaluateMethod
+    CustomLogic_CustomLogicEvaluator__EvaluateMethod_41730f0
               (__this_00,userMethod,parameterValues,(MethodInfo *)0x0);
     return;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  Controllers_HumanAIState___ctor(__this_01,(MethodInfo *)0x0);
+  return;
 }
 
 
 // Controllers.HumanAIStates.Custom$$.ctor
 // il2cpp: void Controllers_HumanAIStates_Custom___ctor (Controllers_HumanAIStates_Custom_o* __this, const MethodInfo* method);
-// 0x3f91200
+// 0x429d7a0
 
-void Controllers_HumanAIStates_Custom___ctor
-               (Controllers_HumanAIStates_Custom_o *__this,MethodInfo *method)
+void Controllers_HumanAIStates_Custom___ctor(Controllers_HumanAIStates_Custom_o *__this,MethodInfo *method)
 
 {
   Controllers_HumanAIState___ctor((Controllers_HumanAIState_o *)__this,(MethodInfo *)0x0);

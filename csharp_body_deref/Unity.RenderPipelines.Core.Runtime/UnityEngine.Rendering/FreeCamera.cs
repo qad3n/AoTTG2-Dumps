@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.FreeCamera
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
@@ -97,31 +104,31 @@ public class FreeCamera : MonoBehaviour
 	private bool fire1;
 
 	[Token(Token = "0x600054E")]
-	[Address(RVA = "0x48703E0", Offset = "0x48703E0", VA = "0x48703E0")]
+	[Address(RVA = "0x4B954D0", Offset = "0x4B954D0", VA = "0x4B954D0")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x600054F")]
-	[Address(RVA = "0x48703F0", Offset = "0x48703F0", VA = "0x48703F0")]
+	[Address(RVA = "0x4B954E0", Offset = "0x4B954E0", VA = "0x4B954E0")]
 	private void RegisterInputs()
 	{
 	}
 
 	[Token(Token = "0x6000550")]
-	[Address(RVA = "0x4870400", Offset = "0x4870400", VA = "0x4870400")]
+	[Address(RVA = "0x4B954F0", Offset = "0x4B954F0", VA = "0x4B954F0")]
 	private void UpdateInputs()
 	{
 	}
 
 	[Token(Token = "0x6000551")]
-	[Address(RVA = "0x48705D0", Offset = "0x48705D0", VA = "0x48705D0")]
+	[Address(RVA = "0x4B956C0", Offset = "0x4B956C0", VA = "0x4B956C0")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x6000552")]
-	[Address(RVA = "0x4870B30", Offset = "0x4870B30", VA = "0x4870B30")]
+	[Address(RVA = "0x4B95C20", Offset = "0x4B95C20", VA = "0x4B95C20")]
 	public FreeCamera()
 	{
 	}

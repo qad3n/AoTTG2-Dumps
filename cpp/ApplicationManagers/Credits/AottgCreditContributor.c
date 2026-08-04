@@ -1,13 +1,14 @@
 // Type: ApplicationManagers.Credits.AottgCreditContributor
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/ApplicationManagers.Credits/AottgCreditContributor.cs
-// Prior source: NEW in this update
+// Prior real C# source: none
 // --------------------------------
 
 // ApplicationManagers.Credits.AottgCreditContributor$$.ctor
 // il2cpp: void ApplicationManagers_Credits_AottgCreditContributor___ctor (ApplicationManagers_Credits_AottgCreditContributor_o* __this, System_String_o* name, System_String_o* accountId, const MethodInfo* method);
-// 0x41ad290
+// 0x44c61c0
 
 void ApplicationManagers_Credits_AottgCreditContributor___ctor
                (ApplicationManagers_Credits_AottgCreditContributor_o *__this,System_String_o *name,
@@ -16,16 +17,16 @@ void ApplicationManagers_Credits_AottgCreditContributor___ctor
 {
   System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields)._Name_k__BackingField = name;
-  il2cpp_runtime_glue(&__this->fields,name);
+  il2cpp_runtime_helper_022b4080(&__this->fields,name);
   (__this->fields)._AccountId_k__BackingField = accountId;
-  il2cpp_runtime_glue(&(__this->fields)._AccountId_k__BackingField,accountId);
+  il2cpp_runtime_helper_022b4080(&(__this->fields)._AccountId_k__BackingField,accountId);
   return;
 }
 
 
 // ApplicationManagers.Credits.AottgCreditContributor$$get_Name
 // il2cpp: System_String_o* ApplicationManagers_Credits_AottgCreditContributor__get_Name (ApplicationManagers_Credits_AottgCreditContributor_o* __this, const MethodInfo* method);
-// 0x41ad2d0
+// 0x44c6200
 
 System_String_o *
 ApplicationManagers_Credits_AottgCreditContributor__get_Name
@@ -38,7 +39,7 @@ ApplicationManagers_Credits_AottgCreditContributor__get_Name
 
 // ApplicationManagers.Credits.AottgCreditContributor$$set_Name
 // il2cpp: void ApplicationManagers_Credits_AottgCreditContributor__set_Name (ApplicationManagers_Credits_AottgCreditContributor_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x41ad2e0
+// 0x44c6210
 
 void ApplicationManagers_Credits_AottgCreditContributor__set_Name
                (ApplicationManagers_Credits_AottgCreditContributor_o *__this,System_String_o *value,
@@ -46,14 +47,14 @@ void ApplicationManagers_Credits_AottgCreditContributor__set_Name
 
 {
   (__this->fields)._Name_k__BackingField = value;
-  il2cpp_runtime_glue(&__this->fields);
+  il2cpp_runtime_helper_022b4080(&__this->fields);
   return;
 }
 
 
 // ApplicationManagers.Credits.AottgCreditContributor$$get_AccountId
 // il2cpp: System_String_o* ApplicationManagers_Credits_AottgCreditContributor__get_AccountId (ApplicationManagers_Credits_AottgCreditContributor_o* __this, const MethodInfo* method);
-// 0x41ad2f0
+// 0x44c6220
 
 System_String_o *
 ApplicationManagers_Credits_AottgCreditContributor__get_AccountId
@@ -66,7 +67,7 @@ ApplicationManagers_Credits_AottgCreditContributor__get_AccountId
 
 // ApplicationManagers.Credits.AottgCreditContributor$$set_AccountId
 // il2cpp: void ApplicationManagers_Credits_AottgCreditContributor__set_AccountId (ApplicationManagers_Credits_AottgCreditContributor_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x41ad300
+// 0x44c6230
 
 void ApplicationManagers_Credits_AottgCreditContributor__set_AccountId
                (ApplicationManagers_Credits_AottgCreditContributor_o *__this,System_String_o *value,
@@ -74,14 +75,14 @@ void ApplicationManagers_Credits_AottgCreditContributor__set_AccountId
 
 {
   (__this->fields)._AccountId_k__BackingField = value;
-  il2cpp_runtime_glue(&(__this->fields)._AccountId_k__BackingField);
+  il2cpp_runtime_helper_022b4080(&(__this->fields)._AccountId_k__BackingField);
   return;
 }
 
 
 // ApplicationManagers.Credits.AottgCreditContributor$$get_IsLinked
 // il2cpp: bool ApplicationManagers_Credits_AottgCreditContributor__get_IsLinked (ApplicationManagers_Credits_AottgCreditContributor_o* __this, const MethodInfo* method);
-// 0x41ad310
+// 0x44c6240
 
 bool_conflict
 ApplicationManagers_Credits_AottgCreditContributor__get_IsLinked
@@ -90,8 +91,7 @@ ApplicationManagers_Credits_AottgCreditContributor__get_IsLinked
 {
   uint uVar1;
   
-  uVar1 = System_String__IsNullOrEmpty
-                    ((__this->fields)._AccountId_k__BackingField,(MethodInfo *)0x0);
+  uVar1 = System_String__IsNullOrEmpty((__this->fields)._AccountId_k__BackingField,(MethodInfo *)0x0);
   return uVar1 ^ 1;
 }
 

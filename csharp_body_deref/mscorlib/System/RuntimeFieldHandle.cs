@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.RuntimeFieldHandle
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.ConstrainedExecution;
@@ -20,7 +27,7 @@ public struct RuntimeFieldHandle : ISerializable
 	public IntPtr Value
 	{
 		[Token(Token = "0x6000FE4")]
-		[Address(RVA = "0x502C5D0", Offset = "0x502C5D0", VA = "0x502C5D0")]
+		[Address(RVA = "0x3D120F0", Offset = "0x3D120F0", VA = "0x3D120F0")]
 		get
 		{
 			return default(IntPtr);
@@ -28,25 +35,25 @@ public struct RuntimeFieldHandle : ISerializable
 	}
 
 	[Token(Token = "0x6000FE2")]
-	[Address(RVA = "0x502C450", Offset = "0x502C450", VA = "0x502C450")]
+	[Address(RVA = "0x3D11F70", Offset = "0x3D11F70", VA = "0x3D11F70")]
 	internal RuntimeFieldHandle(IntPtr v)
 	{
 	}
 
 	[Token(Token = "0x6000FE3")]
-	[Address(RVA = "0x502C460", Offset = "0x502C460", VA = "0x502C460")]
+	[Address(RVA = "0x3D11F80", Offset = "0x3D11F80", VA = "0x3D11F80")]
 	private RuntimeFieldHandle(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000FE5")]
-	[Address(RVA = "0x502C5E0", Offset = "0x502C5E0", VA = "0x502C5E0", Slot = "4")]
+	[Address(RVA = "0x3D12100", Offset = "0x3D12100", VA = "0x3D12100", Slot = "4")]
 	public void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000FE6")]
-	[Address(RVA = "0x502C750", Offset = "0x502C750", VA = "0x502C750", Slot = "0")]
+	[Address(RVA = "0x3D12270", Offset = "0x3D12270", VA = "0x3D12270", Slot = "0")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	public override bool Equals(object obj)
 	{
@@ -54,7 +61,7 @@ public struct RuntimeFieldHandle : ISerializable
 	}
 
 	[Token(Token = "0x6000FE7")]
-	[Address(RVA = "0x502C830", Offset = "0x502C830", VA = "0x502C830", Slot = "2")]
+	[Address(RVA = "0x3D12350", Offset = "0x3D12350", VA = "0x3D12350", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
@@ -62,17 +69,17 @@ public struct RuntimeFieldHandle : ISerializable
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000FE8")]
-	[Address(RVA = "0x502C840", Offset = "0x502C840", VA = "0x502C840")]
+	[Address(RVA = "0x3D12360", Offset = "0x3D12360", VA = "0x3D12360")]
 	private static extern void SetValueInternal(FieldInfo fi, object obj, object value);
 
 	[Token(Token = "0x6000FE9")]
-	[Address(RVA = "0x502C850", Offset = "0x502C850", VA = "0x502C850")]
+	[Address(RVA = "0x3D12370", Offset = "0x3D12370", VA = "0x3D12370")]
 	internal static void SetValue(System.Reflection.RuntimeFieldInfo field, object obj, object value, System.RuntimeType fieldType, FieldAttributes fieldAttr, System.RuntimeType declaringType, ref bool domainInitialized)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000FEA")]
-	[Address(RVA = "0x502C860", Offset = "0x502C860", VA = "0x502C860")]
+	[Address(RVA = "0x3D12380", Offset = "0x3D12380", VA = "0x3D12380")]
 	internal unsafe static extern void SetValueDirect(System.Reflection.RuntimeFieldInfo field, System.RuntimeType fieldType, void* pTypedRef, object value, System.RuntimeType contextType);
 }

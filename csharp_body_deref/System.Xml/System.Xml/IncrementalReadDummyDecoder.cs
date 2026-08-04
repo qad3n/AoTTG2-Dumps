@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.IncrementalReadDummyDecoder
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml;
@@ -9,7 +16,7 @@ internal class IncrementalReadDummyDecoder : IncrementalReadDecoder
 	internal override bool IsFull
 	{
 		[Token(Token = "0x600017D")]
-		[Address(RVA = "0x4456440", Offset = "0x4456440", VA = "0x4456440", Slot = "4")]
+		[Address(RVA = "0x4793BA0", Offset = "0x4793BA0", VA = "0x4793BA0", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -17,14 +24,14 @@ internal class IncrementalReadDummyDecoder : IncrementalReadDecoder
 	}
 
 	[Token(Token = "0x600017E")]
-	[Address(RVA = "0x4456450", Offset = "0x4456450", VA = "0x4456450", Slot = "5")]
+	[Address(RVA = "0x4793BB0", Offset = "0x4793BB0", VA = "0x4793BB0", Slot = "5")]
 	internal override int Decode(char[] chars, int startPos, int len)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600017F")]
-	[Address(RVA = "0x4456460", Offset = "0x4456460", VA = "0x4456460")]
+	[Address(RVA = "0x4793BC0", Offset = "0x4793BC0", VA = "0x4793BC0")]
 	public IncrementalReadDummyDecoder()
 	{
 	}

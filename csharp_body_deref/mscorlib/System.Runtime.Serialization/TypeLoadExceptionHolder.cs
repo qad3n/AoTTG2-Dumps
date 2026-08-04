@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.TypeLoadExceptionHolder
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
@@ -13,7 +20,7 @@ internal class TypeLoadExceptionHolder
 	internal string TypeName
 	{
 		[Token(Token = "0x6001FE3")]
-		[Address(RVA = "0x4EB8560", Offset = "0x4EB8560", VA = "0x4EB8560")]
+		[Address(RVA = "0x3B9E080", Offset = "0x3B9E080", VA = "0x3B9E080")]
 		get
 		{
 			return null;
@@ -21,7 +28,7 @@ internal class TypeLoadExceptionHolder
 	}
 
 	[Token(Token = "0x6001FE2")]
-	[Address(RVA = "0x4EB8530", Offset = "0x4EB8530", VA = "0x4EB8530")]
+	[Address(RVA = "0x3B9E050", Offset = "0x3B9E050", VA = "0x3B9E050")]
 	internal TypeLoadExceptionHolder(string typeName)
 	{
 	}

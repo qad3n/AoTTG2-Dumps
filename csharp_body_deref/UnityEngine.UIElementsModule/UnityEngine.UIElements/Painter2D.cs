@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Painter2D
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 using Unity.Profiling;
@@ -36,7 +43,7 @@ public class Painter2D
 	internal static bool isPainterActive
 	{
 		[Token(Token = "0x6000F75")]
-		[Address(RVA = "0x4D4D570", Offset = "0x4D4D570", VA = "0x4D4D570")]
+		[Address(RVA = "0x5074EA0", Offset = "0x5074EA0", VA = "0x5074EA0")]
 		[CompilerGenerated]
 		set
 		{
@@ -44,19 +51,19 @@ public class Painter2D
 	}
 
 	[Token(Token = "0x6000F72")]
-	[Address(RVA = "0x4D4D1E0", Offset = "0x4D4D1E0", VA = "0x4D4D1E0")]
+	[Address(RVA = "0x5074B10", Offset = "0x5074B10", VA = "0x5074B10")]
 	internal void Reset()
 	{
 	}
 
 	[Token(Token = "0x6000F73")]
-	[Address(RVA = "0x4D4D400", Offset = "0x4D4D400", VA = "0x4D4D400", Slot = "4")]
+	[Address(RVA = "0x5074D30", Offset = "0x5074D30", VA = "0x5074D30", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000F74")]
-	[Address(RVA = "0x4D4D530", Offset = "0x4D4D530", VA = "0x4D4D530")]
+	[Address(RVA = "0x5074E60", Offset = "0x5074E60", VA = "0x5074E60")]
 	private void Dispose(bool disposing)
 	{
 	}

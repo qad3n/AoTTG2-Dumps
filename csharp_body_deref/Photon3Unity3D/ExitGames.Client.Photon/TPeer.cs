@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: ExitGames.Client.Photon.TPeer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -47,7 +54,7 @@ internal class TPeer : PeerBase
 	internal override int QueuedIncomingCommandsCount
 	{
 		[Token(Token = "0x6000321")]
-		[Address(RVA = "0x3BA3720", Offset = "0x3BA3720", VA = "0x3BA3720", Slot = "4")]
+		[Address(RVA = "0x3E99070", Offset = "0x3E99070", VA = "0x3E99070", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -58,7 +65,7 @@ internal class TPeer : PeerBase
 	internal override int QueuedOutgoingCommandsCount
 	{
 		[Token(Token = "0x6000322")]
-		[Address(RVA = "0x3BA3760", Offset = "0x3BA3760", VA = "0x3BA3760", Slot = "5")]
+		[Address(RVA = "0x3E990B0", Offset = "0x3E990B0", VA = "0x3E990B0", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -66,123 +73,123 @@ internal class TPeer : PeerBase
 	}
 
 	[Token(Token = "0x6000323")]
-	[Address(RVA = "0x3BA3770", Offset = "0x3BA3770", VA = "0x3BA3770")]
+	[Address(RVA = "0x3E990C0", Offset = "0x3E990C0", VA = "0x3E990C0")]
 	internal TPeer()
 	{
 	}
 
 	[Token(Token = "0x6000324")]
-	[Address(RVA = "0x3BA3880", Offset = "0x3BA3880", VA = "0x3BA3880", Slot = "14")]
+	[Address(RVA = "0x3E991D0", Offset = "0x3E991D0", VA = "0x3E991D0", Slot = "14")]
 	internal override bool IsTransportEncrypted()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000325")]
-	[Address(RVA = "0x3BA3890", Offset = "0x3BA3890", VA = "0x3BA3890", Slot = "8")]
+	[Address(RVA = "0x3E991E0", Offset = "0x3E991E0", VA = "0x3E991E0", Slot = "8")]
 	internal override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6000326")]
-	[Address(RVA = "0x3BA3960", Offset = "0x3BA3960", VA = "0x3BA3960", Slot = "9")]
+	[Address(RVA = "0x3E992B0", Offset = "0x3E992B0", VA = "0x3E992B0", Slot = "9")]
 	internal override bool Connect(string serverAddress, string proxyServerAddress, string appID, object photonToken)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000327")]
-	[Address(RVA = "0x3BA3AB0", Offset = "0x3BA3AB0", VA = "0x3BA3AB0", Slot = "10")]
+	[Address(RVA = "0x3E99400", Offset = "0x3E99400", VA = "0x3E99400", Slot = "10")]
 	public override void OnConnect()
 	{
 	}
 
 	[Token(Token = "0x6000328")]
-	[Address(RVA = "0x3BA3D00", Offset = "0x3BA3D00", VA = "0x3BA3D00", Slot = "11")]
+	[Address(RVA = "0x3E99650", Offset = "0x3E99650", VA = "0x3E99650", Slot = "11")]
 	internal override void Disconnect()
 	{
 	}
 
 	[Token(Token = "0x6000329")]
-	[Address(RVA = "0x3BA3E00", Offset = "0x3BA3E00", VA = "0x3BA3E00", Slot = "12")]
+	[Address(RVA = "0x3E99750", Offset = "0x3E99750", VA = "0x3E99750", Slot = "12")]
 	internal override void StopConnection()
 	{
 	}
 
 	[Token(Token = "0x600032A")]
-	[Address(RVA = "0x3BA3F50", Offset = "0x3BA3F50", VA = "0x3BA3F50", Slot = "13")]
+	[Address(RVA = "0x3E998A0", Offset = "0x3E998A0", VA = "0x3E998A0", Slot = "13")]
 	internal override void FetchServerTimestamp()
 	{
 	}
 
 	[Token(Token = "0x600032B")]
-	[Address(RVA = "0x3BA3B00", Offset = "0x3BA3B00", VA = "0x3BA3B00")]
+	[Address(RVA = "0x3E99450", Offset = "0x3E99450", VA = "0x3E99450")]
 	private void EnqueueInit(byte[] data)
 	{
 	}
 
 	[Token(Token = "0x600032C")]
-	[Address(RVA = "0x3BA45E0", Offset = "0x3BA45E0", VA = "0x3BA45E0", Slot = "19")]
+	[Address(RVA = "0x3E99F30", Offset = "0x3E99F30", VA = "0x3E99F30", Slot = "19")]
 	internal override bool DispatchIncomingCommands()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600032D")]
-	[Address(RVA = "0x3BA4970", Offset = "0x3BA4970", VA = "0x3BA4970", Slot = "16")]
+	[Address(RVA = "0x3E9A2C0", Offset = "0x3E9A2C0", VA = "0x3E9A2C0", Slot = "16")]
 	internal override bool SendOutgoingCommands()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600032E")]
-	[Address(RVA = "0x3BA50B0", Offset = "0x3BA50B0", VA = "0x3BA50B0", Slot = "17")]
+	[Address(RVA = "0x3E9AA00", Offset = "0x3E9AA00", VA = "0x3E9AA00", Slot = "17")]
 	internal override bool SendAcksOnly()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600032F")]
-	[Address(RVA = "0x3BA5110", Offset = "0x3BA5110", VA = "0x3BA5110", Slot = "15")]
+	[Address(RVA = "0x3E9AA60", Offset = "0x3E9AA60", VA = "0x3E9AA60", Slot = "15")]
 	internal override bool EnqueuePhotonMessage(StreamBuffer opBytes, SendOptions sendParams)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000330")]
-	[Address(RVA = "0x3BA4290", Offset = "0x3BA4290", VA = "0x3BA4290")]
+	[Address(RVA = "0x3E99BE0", Offset = "0x3E99BE0", VA = "0x3E99BE0")]
 	internal bool EnqueueMessageAsPayload(DeliveryMode deliveryMode, StreamBuffer opMessage, byte channelId)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000331")]
-	[Address(RVA = "0x3BA4090", Offset = "0x3BA4090", VA = "0x3BA4090")]
+	[Address(RVA = "0x3E999E0", Offset = "0x3E999E0", VA = "0x3E999E0")]
 	internal void SendPing()
 	{
 	}
 
 	[Token(Token = "0x6000332")]
-	[Address(RVA = "0x3BA4CB0", Offset = "0x3BA4CB0", VA = "0x3BA4CB0")]
+	[Address(RVA = "0x3E9A600", Offset = "0x3E9A600", VA = "0x3E9A600")]
 	internal PhotonSocketError SendData(byte[] data, int length)
 	{
 		return default(PhotonSocketError);
 	}
 
 	[Token(Token = "0x6000333")]
-	[Address(RVA = "0x3BA5140", Offset = "0x3BA5140", VA = "0x3BA5140", Slot = "18")]
+	[Address(RVA = "0x3E9AA90", Offset = "0x3E9AA90", VA = "0x3E9AA90", Slot = "18")]
 	internal override void ReceiveIncomingCommands(byte[] inbuff, int dataLength)
 	{
 	}
 
 	[Token(Token = "0x6000334")]
-	[Address(RVA = "0x3BA5520", Offset = "0x3BA5520", VA = "0x3BA5520")]
+	[Address(RVA = "0x3E9AE70", Offset = "0x3E9AE70", VA = "0x3E9AE70")]
 	private void ReadPingResult(byte[] inbuff)
 	{
 	}
 
 	[Token(Token = "0x6000335")]
-	[Address(RVA = "0x3BA5600", Offset = "0x3BA5600", VA = "0x3BA5600")]
+	[Address(RVA = "0x3E9AF50", Offset = "0x3E9AF50", VA = "0x3E9AF50")]
 	protected internal void ReadPingResult(OperationResponse operationResponse)
 	{
 	}

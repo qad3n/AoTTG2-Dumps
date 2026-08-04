@@ -30,39 +30,39 @@ public class MD2Managed : MD2
 	private static readonly byte[] PI_SUBST;
 
 	[Token(Token = "0x600015C")]
-	[Address(RVA = "0x3A500C0", Offset = "0x3A500C0", VA = "0x3A500C0")]
+	[Address(RVA = "0x3ABCD80", Offset = "0x3ABCD80", VA = "0x3ABCD80")]
 	private byte[] Padding(int nLength)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600015D")]
-	[Address(RVA = "0x3A4FFF0", Offset = "0x3A4FFF0", VA = "0x3A4FFF0")]
+	[Address(RVA = "0x3ABCCB0", Offset = "0x3ABCCB0", VA = "0x3ABCCB0")]
 	public MD2Managed()
 	{
 	}
 
 	[Token(Token = "0x600015E")]
-	[Address(RVA = "0x3A50140", Offset = "0x3A50140", VA = "0x3A50140", Slot = "20")]
+	[Address(RVA = "0x3ABCE00", Offset = "0x3ABCE00", VA = "0x3ABCE00", Slot = "20")]
 	public override void Initialize()
 	{
 	}
 
 	[Token(Token = "0x600015F")]
-	[Address(RVA = "0x3A501A0", Offset = "0x3A501A0", VA = "0x3A501A0", Slot = "18")]
+	[Address(RVA = "0x3ABCE60", Offset = "0x3ABCE60", VA = "0x3ABCE60", Slot = "18")]
 	protected override void HashCore(byte[] array, int ibStart, int cbSize)
 	{
 	}
 
 	[Token(Token = "0x6000160")]
-	[Address(RVA = "0x3A50500", Offset = "0x3A50500", VA = "0x3A50500", Slot = "19")]
+	[Address(RVA = "0x3ABD1C0", Offset = "0x3ABD1C0", VA = "0x3ABD1C0", Slot = "19")]
 	protected override byte[] HashFinal()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000161")]
-	[Address(RVA = "0x3A50270", Offset = "0x3A50270", VA = "0x3A50270")]
+	[Address(RVA = "0x3ABCF30", Offset = "0x3ABCF30", VA = "0x3ABCF30")]
 	private void MD2Transform(byte[] state, byte[] checksum, byte[] block, int index)
 	{
 	}

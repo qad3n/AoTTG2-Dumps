@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.ActivatedClientTypeEntry
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using System.Runtime.Remoting.Contexts;
 using Il2CppDummyDll;
@@ -20,7 +27,7 @@ public class ActivatedClientTypeEntry : TypeEntry
 	public string ApplicationUrl
 	{
 		[Token(Token = "0x6001C11")]
-		[Address(RVA = "0x4E79B70", Offset = "0x4E79B70", VA = "0x4E79B70")]
+		[Address(RVA = "0x3B5F690", Offset = "0x3B5F690", VA = "0x3B5F690")]
 		get
 		{
 			return null;
@@ -31,7 +38,7 @@ public class ActivatedClientTypeEntry : TypeEntry
 	public IContextAttribute[] ContextAttributes
 	{
 		[Token(Token = "0x6001C12")]
-		[Address(RVA = "0x4E79B80", Offset = "0x4E79B80", VA = "0x4E79B80")]
+		[Address(RVA = "0x3B5F6A0", Offset = "0x3B5F6A0", VA = "0x3B5F6A0")]
 		get
 		{
 			return null;
@@ -42,7 +49,7 @@ public class ActivatedClientTypeEntry : TypeEntry
 	public Type ObjectType
 	{
 		[Token(Token = "0x6001C13")]
-		[Address(RVA = "0x4E79B90", Offset = "0x4E79B90", VA = "0x4E79B90")]
+		[Address(RVA = "0x3B5F6B0", Offset = "0x3B5F6B0", VA = "0x3B5F6B0")]
 		get
 		{
 			return null;
@@ -50,13 +57,13 @@ public class ActivatedClientTypeEntry : TypeEntry
 	}
 
 	[Token(Token = "0x6001C10")]
-	[Address(RVA = "0x4E79A20", Offset = "0x4E79A20", VA = "0x4E79A20")]
+	[Address(RVA = "0x3B5F540", Offset = "0x3B5F540", VA = "0x3B5F540")]
 	public ActivatedClientTypeEntry(string typeName, string assemblyName, string appUrl)
 	{
 	}
 
 	[Token(Token = "0x6001C14")]
-	[Address(RVA = "0x4E79BA0", Offset = "0x4E79BA0", VA = "0x4E79BA0", Slot = "3")]
+	[Address(RVA = "0x3B5F6C0", Offset = "0x3B5F6C0", VA = "0x3B5F6C0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

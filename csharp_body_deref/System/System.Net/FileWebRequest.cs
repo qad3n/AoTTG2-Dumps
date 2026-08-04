@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.FileWebRequest
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.IO;
 using System.Runtime.Serialization;
 using System.Threading;
@@ -97,7 +104,7 @@ public class FileWebRequest : WebRequest, ISerializable
 	internal bool Aborted
 	{
 		[Token(Token = "0x6000922")]
-		[Address(RVA = "0x4651C30", Offset = "0x4651C30", VA = "0x4651C30")]
+		[Address(RVA = "0x4976D30", Offset = "0x4976D30", VA = "0x4976D30")]
 		get
 		{
 			return default(bool);
@@ -108,7 +115,7 @@ public class FileWebRequest : WebRequest, ISerializable
 	public override long ContentLength
 	{
 		[Token(Token = "0x6000923")]
-		[Address(RVA = "0x4651C40", Offset = "0x4651C40", VA = "0x4651C40", Slot = "13")]
+		[Address(RVA = "0x4976D40", Offset = "0x4976D40", VA = "0x4976D40", Slot = "13")]
 		get
 		{
 			return default(long);
@@ -119,13 +126,13 @@ public class FileWebRequest : WebRequest, ISerializable
 	public override ICredentials Credentials
 	{
 		[Token(Token = "0x6000924")]
-		[Address(RVA = "0x4651C50", Offset = "0x4651C50", VA = "0x4651C50", Slot = "14")]
+		[Address(RVA = "0x4976D50", Offset = "0x4976D50", VA = "0x4976D50", Slot = "14")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000925")]
-		[Address(RVA = "0x4651C60", Offset = "0x4651C60", VA = "0x4651C60", Slot = "15")]
+		[Address(RVA = "0x4976D60", Offset = "0x4976D60", VA = "0x4976D60", Slot = "15")]
 		set
 		{
 		}
@@ -135,7 +142,7 @@ public class FileWebRequest : WebRequest, ISerializable
 	public override WebHeaderCollection Headers
 	{
 		[Token(Token = "0x6000926")]
-		[Address(RVA = "0x4651C70", Offset = "0x4651C70", VA = "0x4651C70", Slot = "12")]
+		[Address(RVA = "0x4976D70", Offset = "0x4976D70", VA = "0x4976D70", Slot = "12")]
 		get
 		{
 			return null;
@@ -146,13 +153,13 @@ public class FileWebRequest : WebRequest, ISerializable
 	public override string Method
 	{
 		[Token(Token = "0x6000927")]
-		[Address(RVA = "0x4651C80", Offset = "0x4651C80", VA = "0x4651C80", Slot = "9")]
+		[Address(RVA = "0x4976D80", Offset = "0x4976D80", VA = "0x4976D80", Slot = "9")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000928")]
-		[Address(RVA = "0x4651C90", Offset = "0x4651C90", VA = "0x4651C90", Slot = "10")]
+		[Address(RVA = "0x4976D90", Offset = "0x4976D90", VA = "0x4976D90", Slot = "10")]
 		set
 		{
 		}
@@ -162,13 +169,13 @@ public class FileWebRequest : WebRequest, ISerializable
 	public override IWebProxy Proxy
 	{
 		[Token(Token = "0x6000929")]
-		[Address(RVA = "0x4651D60", Offset = "0x4651D60", VA = "0x4651D60", Slot = "17")]
+		[Address(RVA = "0x4976E60", Offset = "0x4976E60", VA = "0x4976E60", Slot = "17")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600092A")]
-		[Address(RVA = "0x4651D70", Offset = "0x4651D70", VA = "0x4651D70", Slot = "18")]
+		[Address(RVA = "0x4976E70", Offset = "0x4976E70", VA = "0x4976E70", Slot = "18")]
 		set
 		{
 		}
@@ -178,7 +185,7 @@ public class FileWebRequest : WebRequest, ISerializable
 	public override int Timeout
 	{
 		[Token(Token = "0x600092B")]
-		[Address(RVA = "0x4651D80", Offset = "0x4651D80", VA = "0x4651D80", Slot = "19")]
+		[Address(RVA = "0x4976E80", Offset = "0x4976E80", VA = "0x4976E80", Slot = "19")]
 		get
 		{
 			return default(int);
@@ -189,7 +196,7 @@ public class FileWebRequest : WebRequest, ISerializable
 	public override Uri RequestUri
 	{
 		[Token(Token = "0x600092C")]
-		[Address(RVA = "0x4651D90", Offset = "0x4651D90", VA = "0x4651D90", Slot = "11")]
+		[Address(RVA = "0x4976E90", Offset = "0x4976E90", VA = "0x4976E90", Slot = "11")]
 		get
 		{
 			return null;
@@ -200,7 +207,7 @@ public class FileWebRequest : WebRequest, ISerializable
 	public override bool UseDefaultCredentials
 	{
 		[Token(Token = "0x6000933")]
-		[Address(RVA = "0x4653460", Offset = "0x4653460", VA = "0x4653460", Slot = "16")]
+		[Address(RVA = "0x4978560", Offset = "0x4978560", VA = "0x4978560", Slot = "16")]
 		get
 		{
 			return default(bool);
@@ -208,71 +215,71 @@ public class FileWebRequest : WebRequest, ISerializable
 	}
 
 	[Token(Token = "0x600091E")]
-	[Address(RVA = "0x46513E0", Offset = "0x46513E0", VA = "0x46513E0")]
+	[Address(RVA = "0x49764E0", Offset = "0x49764E0", VA = "0x49764E0")]
 	internal FileWebRequest(Uri uri)
 	{
 	}
 
 	[Token(Token = "0x600091F")]
-	[Address(RVA = "0x46515D0", Offset = "0x46515D0", VA = "0x46515D0")]
+	[Address(RVA = "0x49766D0", Offset = "0x49766D0", VA = "0x49766D0")]
 	[Obsolete("Serialization is obsoleted for this type. http://go.microsoft.com/fwlink/?linkid=14202")]
 	protected FileWebRequest(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
 	[Token(Token = "0x6000920")]
-	[Address(RVA = "0x46519D0", Offset = "0x46519D0", VA = "0x46519D0", Slot = "6")]
+	[Address(RVA = "0x4976AD0", Offset = "0x4976AD0", VA = "0x4976AD0", Slot = "6")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
 	[Token(Token = "0x6000921")]
-	[Address(RVA = "0x46519F0", Offset = "0x46519F0", VA = "0x46519F0", Slot = "7")]
+	[Address(RVA = "0x4976AF0", Offset = "0x4976AF0", VA = "0x4976AF0", Slot = "7")]
 	protected override void GetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
 	[Token(Token = "0x600092D")]
-	[Address(RVA = "0x4651DA0", Offset = "0x4651DA0", VA = "0x4651DA0", Slot = "21")]
+	[Address(RVA = "0x4976EA0", Offset = "0x4976EA0", VA = "0x4976EA0", Slot = "21")]
 	public override IAsyncResult BeginGetResponse(AsyncCallback callback, object state)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600092E")]
-	[Address(RVA = "0x4652090", Offset = "0x4652090", VA = "0x4652090", Slot = "22")]
+	[Address(RVA = "0x4977190", Offset = "0x4977190", VA = "0x4977190", Slot = "22")]
 	public override WebResponse EndGetResponse(IAsyncResult asyncResult)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600092F")]
-	[Address(RVA = "0x46523A0", Offset = "0x46523A0", VA = "0x46523A0", Slot = "20")]
+	[Address(RVA = "0x49774A0", Offset = "0x49774A0", VA = "0x49774A0", Slot = "20")]
 	public override WebResponse GetResponse()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000930")]
-	[Address(RVA = "0x4652860", Offset = "0x4652860", VA = "0x4652860")]
+	[Address(RVA = "0x4977960", Offset = "0x4977960", VA = "0x4977960")]
 	private static void GetRequestStreamCallback(object state)
 	{
 	}
 
 	[Token(Token = "0x6000931")]
-	[Address(RVA = "0x4652BA0", Offset = "0x4652BA0", VA = "0x4652BA0")]
+	[Address(RVA = "0x4977CA0", Offset = "0x4977CA0", VA = "0x4977CA0")]
 	private static void GetResponseCallback(object state)
 	{
 	}
 
 	[Token(Token = "0x6000932")]
-	[Address(RVA = "0x4653380", Offset = "0x4653380", VA = "0x4653380")]
+	[Address(RVA = "0x4978480", Offset = "0x4978480", VA = "0x4978480")]
 	internal void UnblockReader()
 	{
 	}
 
 	[Token(Token = "0x6000934")]
-	[Address(RVA = "0x4653490", Offset = "0x4653490", VA = "0x4653490", Slot = "24")]
+	[Address(RVA = "0x4978590", Offset = "0x4978590", VA = "0x4978590", Slot = "24")]
 	public override void Abort()
 	{
 	}

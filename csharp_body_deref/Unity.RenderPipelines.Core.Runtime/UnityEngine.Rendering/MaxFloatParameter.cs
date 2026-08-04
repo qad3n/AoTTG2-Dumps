@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.MaxFloatParameter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using Il2CppDummyDll;
@@ -18,20 +25,20 @@ public class MaxFloatParameter : FloatParameter
 	public override float value
 	{
 		[Token(Token = "0x6000DD9")]
-		[Address(RVA = "0x48E6360", Offset = "0x48E6360", VA = "0x48E6360", Slot = "14")]
+		[Address(RVA = "0x4C0B3D0", Offset = "0x4C0B3D0", VA = "0x4C0B3D0", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000DDA")]
-		[Address(RVA = "0x48E6370", Offset = "0x48E6370", VA = "0x48E6370", Slot = "15")]
+		[Address(RVA = "0x4C0B3E0", Offset = "0x4C0B3E0", VA = "0x4C0B3E0", Slot = "15")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000DDB")]
-	[Address(RVA = "0x48E6380", Offset = "0x48E6380", VA = "0x48E6380")]
+	[Address(RVA = "0x4C0B3F0", Offset = "0x4C0B3F0", VA = "0x4C0B3F0")]
 	public MaxFloatParameter(float value, float max, bool overrideState = false)
 	{
 	}

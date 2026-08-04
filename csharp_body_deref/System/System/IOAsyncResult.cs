@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.IOAsyncResult
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using System.Threading;
 using Il2CppDummyDll;
@@ -32,7 +39,7 @@ internal abstract class IOAsyncResult : IAsyncResult
 	public AsyncCallback AsyncCallback
 	{
 		[Token(Token = "0x600028A")]
-		[Address(RVA = "0x45DABF0", Offset = "0x45DABF0", VA = "0x45DABF0")]
+		[Address(RVA = "0x48FFCF0", Offset = "0x48FFCF0", VA = "0x48FFCF0")]
 		get
 		{
 			return null;
@@ -43,7 +50,7 @@ internal abstract class IOAsyncResult : IAsyncResult
 	public object AsyncState
 	{
 		[Token(Token = "0x600028B")]
-		[Address(RVA = "0x45DAC00", Offset = "0x45DAC00", VA = "0x45DAC00", Slot = "6")]
+		[Address(RVA = "0x48FFD00", Offset = "0x48FFD00", VA = "0x48FFD00", Slot = "6")]
 		get
 		{
 			return null;
@@ -54,7 +61,7 @@ internal abstract class IOAsyncResult : IAsyncResult
 	public WaitHandle AsyncWaitHandle
 	{
 		[Token(Token = "0x600028C")]
-		[Address(RVA = "0x45DAC10", Offset = "0x45DAC10", VA = "0x45DAC10", Slot = "5")]
+		[Address(RVA = "0x48FFD10", Offset = "0x48FFD10", VA = "0x48FFD10", Slot = "5")]
 		get
 		{
 			return null;
@@ -65,13 +72,13 @@ internal abstract class IOAsyncResult : IAsyncResult
 	public bool CompletedSynchronously
 	{
 		[Token(Token = "0x600028D")]
-		[Address(RVA = "0x45DAD40", Offset = "0x45DAD40", VA = "0x45DAD40", Slot = "7")]
+		[Address(RVA = "0x48FFE40", Offset = "0x48FFE40", VA = "0x48FFE40", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600028E")]
-		[Address(RVA = "0x45DAD50", Offset = "0x45DAD50", VA = "0x45DAD50")]
+		[Address(RVA = "0x48FFE50", Offset = "0x48FFE50", VA = "0x48FFE50")]
 		protected set
 		{
 		}
@@ -81,32 +88,32 @@ internal abstract class IOAsyncResult : IAsyncResult
 	public bool IsCompleted
 	{
 		[Token(Token = "0x600028F")]
-		[Address(RVA = "0x45DAD60", Offset = "0x45DAD60", VA = "0x45DAD60", Slot = "4")]
+		[Address(RVA = "0x48FFE60", Offset = "0x48FFE60", VA = "0x48FFE60", Slot = "4")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000290")]
-		[Address(RVA = "0x45DAD70", Offset = "0x45DAD70", VA = "0x45DAD70")]
+		[Address(RVA = "0x48FFE70", Offset = "0x48FFE70", VA = "0x48FFE70")]
 		protected set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000287")]
-	[Address(RVA = "0x45DAB50", Offset = "0x45DAB50", VA = "0x45DAB50")]
+	[Address(RVA = "0x48FFC50", Offset = "0x48FFC50", VA = "0x48FFC50")]
 	protected IOAsyncResult()
 	{
 	}
 
 	[Token(Token = "0x6000288")]
-	[Address(RVA = "0x45DAB60", Offset = "0x45DAB60", VA = "0x45DAB60")]
+	[Address(RVA = "0x48FFC60", Offset = "0x48FFC60", VA = "0x48FFC60")]
 	protected void Init(AsyncCallback async_callback, object async_state)
 	{
 	}
 
 	[Token(Token = "0x6000289")]
-	[Address(RVA = "0x45DABB0", Offset = "0x45DABB0", VA = "0x45DABB0")]
+	[Address(RVA = "0x48FFCB0", Offset = "0x48FFCB0", VA = "0x48FFCB0")]
 	protected IOAsyncResult(AsyncCallback async_callback, object async_state)
 	{
 	}

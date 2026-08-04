@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XdrBuilder
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -58,13 +65,13 @@ internal sealed class XdrBuilder : SchemaBuilder
 		internal DeclBaseInfo _Next;
 
 		[Token(Token = "0x6001498")]
-		[Address(RVA = "0x43D3C90", Offset = "0x43D3C90", VA = "0x43D3C90")]
+		[Address(RVA = "0x47113F0", Offset = "0x47113F0", VA = "0x47113F0")]
 		internal DeclBaseInfo()
 		{
 		}
 
 		[Token(Token = "0x6001499")]
-		[Address(RVA = "0x43D41E0", Offset = "0x43D41E0", VA = "0x43D41E0")]
+		[Address(RVA = "0x4711940", Offset = "0x4711940", VA = "0x4711940")]
 		internal void Reset()
 		{
 		}
@@ -94,20 +101,20 @@ internal sealed class XdrBuilder : SchemaBuilder
 		internal int _Order;
 
 		[Token(Token = "0x600149A")]
-		[Address(RVA = "0x43D9960", Offset = "0x43D9960", VA = "0x43D9960")]
+		[Address(RVA = "0x47170C0", Offset = "0x47170C0", VA = "0x47170C0")]
 		internal static void Copy(GroupContent from, GroupContent to)
 		{
 		}
 
 		[Token(Token = "0x600149B")]
-		[Address(RVA = "0x43D04A0", Offset = "0x43D04A0", VA = "0x43D04A0")]
+		[Address(RVA = "0x470DC00", Offset = "0x470DC00", VA = "0x470DC00")]
 		internal static GroupContent Copy(GroupContent other)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600149C")]
-		[Address(RVA = "0x43CEE30", Offset = "0x43CEE30", VA = "0x43CEE30")]
+		[Address(RVA = "0x470C590", Offset = "0x470C590", VA = "0x470C590")]
 		public GroupContent()
 		{
 		}
@@ -173,7 +180,7 @@ internal sealed class XdrBuilder : SchemaBuilder
 		internal Hashtable _AttDefList;
 
 		[Token(Token = "0x600149D")]
-		[Address(RVA = "0x43CEE10", Offset = "0x43CEE10", VA = "0x43CEE10")]
+		[Address(RVA = "0x470C570", Offset = "0x470C570", VA = "0x470C570")]
 		public ElementContent()
 		{
 		}
@@ -231,7 +238,7 @@ internal sealed class XdrBuilder : SchemaBuilder
 		internal object _Default;
 
 		[Token(Token = "0x600149E")]
-		[Address(RVA = "0x43CEE20", Offset = "0x43CEE20", VA = "0x43CEE20")]
+		[Address(RVA = "0x470C580", Offset = "0x470C580", VA = "0x470C580")]
 		public AttributeContent()
 		{
 		}
@@ -269,13 +276,13 @@ internal sealed class XdrBuilder : SchemaBuilder
 		internal XdrBuildFunction _BuildFunc;
 
 		[Token(Token = "0x60014A7")]
-		[Address(RVA = "0x43D95A0", Offset = "0x43D95A0", VA = "0x43D95A0")]
+		[Address(RVA = "0x4716D00", Offset = "0x4716D00", VA = "0x4716D00")]
 		internal XdrAttributeEntry(SchemaNames.Token a, XmlTokenizedType ttype, XdrBuildFunction build)
 		{
 		}
 
 		[Token(Token = "0x60014A8")]
-		[Address(RVA = "0x43D9630", Offset = "0x43D9630", VA = "0x43D9630")]
+		[Address(RVA = "0x4716D90", Offset = "0x4716D90", VA = "0x4716D90")]
 		internal XdrAttributeEntry(SchemaNames.Token a, XmlTokenizedType ttype, int schemaFlags, XdrBuildFunction build)
 		{
 		}
@@ -313,7 +320,7 @@ internal sealed class XdrBuilder : SchemaBuilder
 		internal bool _AllowText;
 
 		[Token(Token = "0x60014A9")]
-		[Address(RVA = "0x43D96C0", Offset = "0x43D96C0", VA = "0x43D96C0")]
+		[Address(RVA = "0x4716E20", Offset = "0x4716E20", VA = "0x4716E20")]
 		internal XdrEntry(SchemaNames.Token n, int[] states, XdrAttributeEntry[] attributes, XdrInitFunction init, XdrBeginChildFunction begin, XdrEndChildFunction end, bool fText)
 		{
 		}
@@ -471,528 +478,528 @@ internal sealed class XdrBuilder : SchemaBuilder
 	internal XmlResolver XmlResolver
 	{
 		[Token(Token = "0x6001445")]
-		[Address(RVA = "0x43D00A0", Offset = "0x43D00A0", VA = "0x43D00A0")]
+		[Address(RVA = "0x470D800", Offset = "0x470D800", VA = "0x470D800")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001442")]
-	[Address(RVA = "0x43CEB40", Offset = "0x43CEB40", VA = "0x43CEB40")]
+	[Address(RVA = "0x470C2A0", Offset = "0x470C2A0", VA = "0x470C2A0")]
 	internal XdrBuilder(XmlReader reader, XmlNamespaceManager curmgr, SchemaInfo sinfo, string targetNamspace, XmlNameTable nameTable, SchemaNames schemaNames, ValidationEventHandler eventhandler)
 	{
 	}
 
 	[Token(Token = "0x6001443")]
-	[Address(RVA = "0x43CEE40", Offset = "0x43CEE40", VA = "0x43CEE40", Slot = "4")]
+	[Address(RVA = "0x470C5A0", Offset = "0x470C5A0", VA = "0x470C5A0", Slot = "4")]
 	internal override bool ProcessElement(string prefix, string name, string ns)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001444")]
-	[Address(RVA = "0x43CF510", Offset = "0x43CF510", VA = "0x43CF510", Slot = "5")]
+	[Address(RVA = "0x470CC70", Offset = "0x470CC70", VA = "0x470CC70", Slot = "5")]
 	internal override void ProcessAttribute(string prefix, string name, string ns, string value)
 	{
 	}
 
 	[Token(Token = "0x6001446")]
-	[Address(RVA = "0x43CF9B0", Offset = "0x43CF9B0", VA = "0x43CF9B0")]
+	[Address(RVA = "0x470D110", Offset = "0x470D110", VA = "0x470D110")]
 	private bool LoadSchema(string uri)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001447")]
-	[Address(RVA = "0x43CF910", Offset = "0x43CF910", VA = "0x43CF910")]
+	[Address(RVA = "0x470D070", Offset = "0x470D070", VA = "0x470D070")]
 	internal static bool IsXdrSchema(string uri)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001448")]
-	[Address(RVA = "0x43D0220", Offset = "0x43D0220", VA = "0x43D0220", Slot = "6")]
+	[Address(RVA = "0x470D980", Offset = "0x470D980", VA = "0x470D980", Slot = "6")]
 	internal override bool IsContentParsed()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001449")]
-	[Address(RVA = "0x43D0230", Offset = "0x43D0230", VA = "0x43D0230", Slot = "7")]
+	[Address(RVA = "0x470D990", Offset = "0x470D990", VA = "0x470D990", Slot = "7")]
 	internal override void ProcessMarkup(XmlNode[] markup)
 	{
 	}
 
 	[Token(Token = "0x600144A")]
-	[Address(RVA = "0x43D0290", Offset = "0x43D0290", VA = "0x43D0290", Slot = "8")]
+	[Address(RVA = "0x470D9F0", Offset = "0x470D9F0", VA = "0x470D9F0", Slot = "8")]
 	internal override void ProcessCData(string value)
 	{
 	}
 
 	[Token(Token = "0x600144B")]
-	[Address(RVA = "0x43D0310", Offset = "0x43D0310", VA = "0x43D0310", Slot = "9")]
+	[Address(RVA = "0x470DA70", Offset = "0x470DA70", VA = "0x470DA70", Slot = "9")]
 	internal override void StartChildren()
 	{
 	}
 
 	[Token(Token = "0x600144C")]
-	[Address(RVA = "0x43D0340", Offset = "0x43D0340", VA = "0x43D0340", Slot = "10")]
+	[Address(RVA = "0x470DAA0", Offset = "0x470DAA0", VA = "0x470DAA0", Slot = "10")]
 	internal override void EndChildren()
 	{
 	}
 
 	[Token(Token = "0x600144D")]
-	[Address(RVA = "0x43CF300", Offset = "0x43CF300", VA = "0x43CF300")]
+	[Address(RVA = "0x470CA60", Offset = "0x470CA60", VA = "0x470CA60")]
 	private void Push()
 	{
 	}
 
 	[Token(Token = "0x600144E")]
-	[Address(RVA = "0x43D0370", Offset = "0x43D0370", VA = "0x43D0370")]
+	[Address(RVA = "0x470DAD0", Offset = "0x470DAD0", VA = "0x470DAD0")]
 	private void Pop()
 	{
 	}
 
 	[Token(Token = "0x600144F")]
-	[Address(RVA = "0x43D03F0", Offset = "0x43D03F0", VA = "0x43D03F0")]
+	[Address(RVA = "0x470DB50", Offset = "0x470DB50", VA = "0x470DB50")]
 	private void PushGroupInfo()
 	{
 	}
 
 	[Token(Token = "0x6001450")]
-	[Address(RVA = "0x43D0510", Offset = "0x43D0510", VA = "0x43D0510")]
+	[Address(RVA = "0x470DC70", Offset = "0x470DC70", VA = "0x470DC70")]
 	private void PopGroupInfo()
 	{
 	}
 
 	[Token(Token = "0x6001451")]
-	[Address(RVA = "0x43D0590", Offset = "0x43D0590", VA = "0x43D0590")]
+	[Address(RVA = "0x470DCF0", Offset = "0x470DCF0", VA = "0x470DCF0")]
 	private static void XDR_InitRoot(XdrBuilder builder, object obj)
 	{
 	}
 
 	[Token(Token = "0x6001452")]
-	[Address(RVA = "0x43D0610", Offset = "0x43D0610", VA = "0x43D0610")]
+	[Address(RVA = "0x470DD70", Offset = "0x470DD70", VA = "0x470DD70")]
 	private static void XDR_BuildRoot_Name(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x6001453")]
-	[Address(RVA = "0x43D0690", Offset = "0x43D0690", VA = "0x43D0690")]
+	[Address(RVA = "0x470DDF0", Offset = "0x470DDF0", VA = "0x470DDF0")]
 	private static void XDR_BuildRoot_ID(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x6001454")]
-	[Address(RVA = "0x43D06A0", Offset = "0x43D06A0", VA = "0x43D06A0")]
+	[Address(RVA = "0x470DE00", Offset = "0x470DE00", VA = "0x470DE00")]
 	private static void XDR_BeginRoot(XdrBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x6001455")]
-	[Address(RVA = "0x43D0780", Offset = "0x43D0780", VA = "0x43D0780")]
+	[Address(RVA = "0x470DEE0", Offset = "0x470DEE0", VA = "0x470DEE0")]
 	private static void XDR_EndRoot(XdrBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x6001456")]
-	[Address(RVA = "0x43D0E20", Offset = "0x43D0E20", VA = "0x43D0E20")]
+	[Address(RVA = "0x470E580", Offset = "0x470E580", VA = "0x470E580")]
 	private static void XDR_InitElementType(XdrBuilder builder, object obj)
 	{
 	}
 
 	[Token(Token = "0x6001457")]
-	[Address(RVA = "0x43D0F50", Offset = "0x43D0F50", VA = "0x43D0F50")]
+	[Address(RVA = "0x470E6B0", Offset = "0x470E6B0", VA = "0x470E6B0")]
 	private static void XDR_BuildElementType_Name(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x6001458")]
-	[Address(RVA = "0x43D1150", Offset = "0x43D1150", VA = "0x43D1150")]
+	[Address(RVA = "0x470E8B0", Offset = "0x470E8B0", VA = "0x470E8B0")]
 	private static void XDR_BuildElementType_Content(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x6001459")]
-	[Address(RVA = "0x43D13C0", Offset = "0x43D13C0", VA = "0x43D13C0")]
+	[Address(RVA = "0x470EB20", Offset = "0x470EB20", VA = "0x470EB20")]
 	private static void XDR_BuildElementType_Model(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x600145A")]
-	[Address(RVA = "0x43D1540", Offset = "0x43D1540", VA = "0x43D1540")]
+	[Address(RVA = "0x470ECA0", Offset = "0x470ECA0", VA = "0x470ECA0")]
 	private static void XDR_BuildElementType_Order(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x600145B")]
-	[Address(RVA = "0x43D1740", Offset = "0x43D1740", VA = "0x43D1740")]
+	[Address(RVA = "0x470EEA0", Offset = "0x470EEA0", VA = "0x470EEA0")]
 	private static void XDR_BuildElementType_DtType(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x600145C")]
-	[Address(RVA = "0x43D1920", Offset = "0x43D1920", VA = "0x43D1920")]
+	[Address(RVA = "0x470F080", Offset = "0x470F080", VA = "0x470F080")]
 	private static void XDR_BuildElementType_DtValues(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x600145D")]
-	[Address(RVA = "0x43D1A00", Offset = "0x43D1A00", VA = "0x43D1A00")]
+	[Address(RVA = "0x470F160", Offset = "0x470F160", VA = "0x470F160")]
 	private static void XDR_BuildElementType_DtMaxLength(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x600145E")]
-	[Address(RVA = "0x43D1B90", Offset = "0x43D1B90", VA = "0x43D1B90")]
+	[Address(RVA = "0x470F2F0", Offset = "0x470F2F0", VA = "0x470F2F0")]
 	private static void XDR_BuildElementType_DtMinLength(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x600145F")]
-	[Address(RVA = "0x43D1D20", Offset = "0x43D1D20", VA = "0x43D1D20")]
+	[Address(RVA = "0x470F480", Offset = "0x470F480", VA = "0x470F480")]
 	private static void XDR_BeginElementType(XdrBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x6001460")]
-	[Address(RVA = "0x43D2090", Offset = "0x43D2090", VA = "0x43D2090")]
+	[Address(RVA = "0x470F7F0", Offset = "0x470F7F0", VA = "0x470F7F0")]
 	private static void XDR_EndElementType(XdrBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x6001461")]
-	[Address(RVA = "0x43D2630", Offset = "0x43D2630", VA = "0x43D2630")]
+	[Address(RVA = "0x470FD90", Offset = "0x470FD90", VA = "0x470FD90")]
 	private static void XDR_InitAttributeType(XdrBuilder builder, object obj)
 	{
 	}
 
 	[Token(Token = "0x6001462")]
-	[Address(RVA = "0x43D2740", Offset = "0x43D2740", VA = "0x43D2740")]
+	[Address(RVA = "0x470FEA0", Offset = "0x470FEA0", VA = "0x470FEA0")]
 	private static void XDR_BuildAttributeType_Name(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x6001463")]
-	[Address(RVA = "0x43D29F0", Offset = "0x43D29F0", VA = "0x43D29F0")]
+	[Address(RVA = "0x4710150", Offset = "0x4710150", VA = "0x4710150")]
 	private static void XDR_BuildAttributeType_Required(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x6001464")]
-	[Address(RVA = "0x43D2B60", Offset = "0x43D2B60", VA = "0x43D2B60")]
+	[Address(RVA = "0x47102C0", Offset = "0x47102C0", VA = "0x47102C0")]
 	private static void XDR_BuildAttributeType_Default(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x6001465")]
-	[Address(RVA = "0x43D2B90", Offset = "0x43D2B90", VA = "0x43D2B90")]
+	[Address(RVA = "0x47102F0", Offset = "0x47102F0", VA = "0x47102F0")]
 	private static void XDR_BuildAttributeType_DtType(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x6001466")]
-	[Address(RVA = "0x43D2E00", Offset = "0x43D2E00", VA = "0x43D2E00")]
+	[Address(RVA = "0x4710560", Offset = "0x4710560", VA = "0x4710560")]
 	private static void XDR_BuildAttributeType_DtValues(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x6001467")]
-	[Address(RVA = "0x43D2EE0", Offset = "0x43D2EE0", VA = "0x43D2EE0")]
+	[Address(RVA = "0x4710640", Offset = "0x4710640", VA = "0x4710640")]
 	private static void XDR_BuildAttributeType_DtMaxLength(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x6001468")]
-	[Address(RVA = "0x43D2F50", Offset = "0x43D2F50", VA = "0x43D2F50")]
+	[Address(RVA = "0x47106B0", Offset = "0x47106B0", VA = "0x47106B0")]
 	private static void XDR_BuildAttributeType_DtMinLength(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x6001469")]
-	[Address(RVA = "0x43D2FC0", Offset = "0x43D2FC0", VA = "0x43D2FC0")]
+	[Address(RVA = "0x4710720", Offset = "0x4710720", VA = "0x4710720")]
 	private static void XDR_BeginAttributeType(XdrBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x600146A")]
-	[Address(RVA = "0x43D3040", Offset = "0x43D3040", VA = "0x43D3040")]
+	[Address(RVA = "0x47107A0", Offset = "0x47107A0", VA = "0x47107A0")]
 	private static void XDR_EndAttributeType(XdrBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x600146B")]
-	[Address(RVA = "0x43D3510", Offset = "0x43D3510", VA = "0x43D3510")]
+	[Address(RVA = "0x4710C70", Offset = "0x4710C70", VA = "0x4710C70")]
 	private static void XDR_InitElement(XdrBuilder builder, object obj)
 	{
 	}
 
 	[Token(Token = "0x600146C")]
-	[Address(RVA = "0x43D35A0", Offset = "0x43D35A0", VA = "0x43D35A0")]
+	[Address(RVA = "0x4710D00", Offset = "0x4710D00", VA = "0x4710D00")]
 	private static void XDR_BuildElement_Type(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x600146D")]
-	[Address(RVA = "0x43D37F0", Offset = "0x43D37F0", VA = "0x43D37F0")]
+	[Address(RVA = "0x4710F50", Offset = "0x4710F50", VA = "0x4710F50")]
 	private static void XDR_BuildElement_MinOccurs(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x600146E")]
-	[Address(RVA = "0x43D3950", Offset = "0x43D3950", VA = "0x43D3950")]
+	[Address(RVA = "0x47110B0", Offset = "0x47110B0", VA = "0x47110B0")]
 	private static void XDR_BuildElement_MaxOccurs(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x600146F")]
-	[Address(RVA = "0x43D3AE0", Offset = "0x43D3AE0", VA = "0x43D3AE0")]
+	[Address(RVA = "0x4711240", Offset = "0x4711240", VA = "0x4711240")]
 	private static void XDR_EndElement(XdrBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x6001470")]
-	[Address(RVA = "0x43D3C00", Offset = "0x43D3C00", VA = "0x43D3C00")]
+	[Address(RVA = "0x4711360", Offset = "0x4711360", VA = "0x4711360")]
 	private static void XDR_InitAttribute(XdrBuilder builder, object obj)
 	{
 	}
 
 	[Token(Token = "0x6001471")]
-	[Address(RVA = "0x43D3CB0", Offset = "0x43D3CB0", VA = "0x43D3CB0")]
+	[Address(RVA = "0x4711410", Offset = "0x4711410", VA = "0x4711410")]
 	private static void XDR_BuildAttribute_Type(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x6001472")]
-	[Address(RVA = "0x43D3D90", Offset = "0x43D3D90", VA = "0x43D3D90")]
+	[Address(RVA = "0x47114F0", Offset = "0x47114F0", VA = "0x47114F0")]
 	private static void XDR_BuildAttribute_Required(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x6001473")]
-	[Address(RVA = "0x43D3E10", Offset = "0x43D3E10", VA = "0x43D3E10")]
+	[Address(RVA = "0x4711570", Offset = "0x4711570", VA = "0x4711570")]
 	private static void XDR_BuildAttribute_Default(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x6001474")]
-	[Address(RVA = "0x43D3E40", Offset = "0x43D3E40", VA = "0x43D3E40")]
+	[Address(RVA = "0x47115A0", Offset = "0x47115A0", VA = "0x47115A0")]
 	private static void XDR_BeginAttribute(XdrBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x6001475")]
-	[Address(RVA = "0x43D41C0", Offset = "0x43D41C0", VA = "0x43D41C0")]
+	[Address(RVA = "0x4711920", Offset = "0x4711920", VA = "0x4711920")]
 	private static void XDR_EndAttribute(XdrBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x6001476")]
-	[Address(RVA = "0x43D4300", Offset = "0x43D4300", VA = "0x43D4300")]
+	[Address(RVA = "0x4711A60", Offset = "0x4711A60", VA = "0x4711A60")]
 	private static void XDR_InitGroup(XdrBuilder builder, object obj)
 	{
 	}
 
 	[Token(Token = "0x6001477")]
-	[Address(RVA = "0x43D43D0", Offset = "0x43D43D0", VA = "0x43D43D0")]
+	[Address(RVA = "0x4711B30", Offset = "0x4711B30", VA = "0x4711B30")]
 	private static void XDR_BuildGroup_Order(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x6001478")]
-	[Address(RVA = "0x43D44C0", Offset = "0x43D44C0", VA = "0x43D44C0")]
+	[Address(RVA = "0x4711C20", Offset = "0x4711C20", VA = "0x4711C20")]
 	private static void XDR_BuildGroup_MinOccurs(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x6001479")]
-	[Address(RVA = "0x43D4540", Offset = "0x43D4540", VA = "0x43D4540")]
+	[Address(RVA = "0x4711CA0", Offset = "0x4711CA0", VA = "0x4711CA0")]
 	private static void XDR_BuildGroup_MaxOccurs(XdrBuilder builder, object obj, string prefix)
 	{
 	}
 
 	[Token(Token = "0x600147A")]
-	[Address(RVA = "0x43D45C0", Offset = "0x43D45C0", VA = "0x43D45C0")]
+	[Address(RVA = "0x4711D20", Offset = "0x4711D20", VA = "0x4711D20")]
 	private static void XDR_EndGroup(XdrBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x600147B")]
-	[Address(RVA = "0x43D4740", Offset = "0x43D4740", VA = "0x43D4740")]
+	[Address(RVA = "0x4711EA0", Offset = "0x4711EA0", VA = "0x4711EA0")]
 	private static void XDR_InitElementDtType(XdrBuilder builder, object obj)
 	{
 	}
 
 	[Token(Token = "0x600147C")]
-	[Address(RVA = "0x43D47F0", Offset = "0x43D47F0", VA = "0x43D47F0")]
+	[Address(RVA = "0x4711F50", Offset = "0x4711F50", VA = "0x4711F50")]
 	private static void XDR_EndElementDtType(XdrBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x600147D")]
-	[Address(RVA = "0x43D48F0", Offset = "0x43D48F0", VA = "0x43D48F0")]
+	[Address(RVA = "0x4712050", Offset = "0x4712050", VA = "0x4712050")]
 	private static void XDR_InitAttributeDtType(XdrBuilder builder, object obj)
 	{
 	}
 
 	[Token(Token = "0x600147E")]
-	[Address(RVA = "0x43D4960", Offset = "0x43D4960", VA = "0x43D4960")]
+	[Address(RVA = "0x47120C0", Offset = "0x47120C0", VA = "0x47120C0")]
 	private static void XDR_EndAttributeDtType(XdrBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x600147F")]
-	[Address(RVA = "0x43CF130", Offset = "0x43CF130", VA = "0x43CF130")]
+	[Address(RVA = "0x470C890", Offset = "0x470C890", VA = "0x470C890")]
 	private bool GetNextState(XmlQualifiedName qname)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001480")]
-	[Address(RVA = "0x43CF350", Offset = "0x43CF350", VA = "0x43CF350")]
+	[Address(RVA = "0x470CAB0", Offset = "0x470CAB0", VA = "0x470CAB0")]
 	private bool IsSkipableElement(XmlQualifiedName qname)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001481")]
-	[Address(RVA = "0x43CFF00", Offset = "0x43CFF00", VA = "0x43CFF00")]
+	[Address(RVA = "0x470D660", Offset = "0x470D660", VA = "0x470D660")]
 	private bool IsSkipableAttribute(XmlQualifiedName qname)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001482")]
-	[Address(RVA = "0x43D15E0", Offset = "0x43D15E0", VA = "0x43D15E0")]
+	[Address(RVA = "0x470ED40", Offset = "0x470ED40", VA = "0x470ED40")]
 	private int GetOrder(XmlQualifiedName qname)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001483")]
-	[Address(RVA = "0x43D3740", Offset = "0x43D3740", VA = "0x43D3740")]
+	[Address(RVA = "0x4710EA0", Offset = "0x4710EA0", VA = "0x4710EA0")]
 	private void AddOrder()
 	{
 	}
 
 	[Token(Token = "0x6001484")]
-	[Address(RVA = "0x43D2A60", Offset = "0x43D2A60", VA = "0x43D2A60")]
+	[Address(RVA = "0x47101C0", Offset = "0x47101C0", VA = "0x47101C0")]
 	private static bool IsYes(object obj, XdrBuilder builder)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001485")]
-	[Address(RVA = "0x43D3860", Offset = "0x43D3860", VA = "0x43D3860")]
+	[Address(RVA = "0x4710FC0", Offset = "0x4710FC0", VA = "0x4710FC0")]
 	private static uint ParseMinOccurs(object obj, XdrBuilder builder)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6001486")]
-	[Address(RVA = "0x43D39C0", Offset = "0x43D39C0", VA = "0x43D39C0")]
+	[Address(RVA = "0x4711120", Offset = "0x4711120", VA = "0x4711120")]
 	private static uint ParseMaxOccurs(object obj, XdrBuilder builder)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6001487")]
-	[Address(RVA = "0x43D3BD0", Offset = "0x43D3BD0", VA = "0x43D3BD0")]
+	[Address(RVA = "0x4711330", Offset = "0x4711330", VA = "0x4711330")]
 	private static void HandleMinMax(ParticleContentValidator pContent, uint cMin, uint cMax)
 	{
 	}
 
 	[Token(Token = "0x6001488")]
-	[Address(RVA = "0x43D1A70", Offset = "0x43D1A70", VA = "0x43D1A70")]
+	[Address(RVA = "0x470F1D0", Offset = "0x470F1D0", VA = "0x470F1D0")]
 	private static void ParseDtMaxLength(ref uint cVal, object obj, XdrBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x6001489")]
-	[Address(RVA = "0x43D1C00", Offset = "0x43D1C00", VA = "0x43D1C00")]
+	[Address(RVA = "0x470F360", Offset = "0x470F360", VA = "0x470F360")]
 	private static void ParseDtMinLength(ref uint cVal, object obj, XdrBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x600148A")]
-	[Address(RVA = "0x43D25B0", Offset = "0x43D25B0", VA = "0x43D25B0")]
+	[Address(RVA = "0x470FD10", Offset = "0x470FD10", VA = "0x470FD10")]
 	private static void CompareMinMaxLength(uint cMin, uint cMax, XdrBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x600148B")]
-	[Address(RVA = "0x43D4A60", Offset = "0x43D4A60", VA = "0x43D4A60")]
+	[Address(RVA = "0x47121C0", Offset = "0x47121C0", VA = "0x47121C0")]
 	private static bool ParseInteger(string str, ref uint n)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600148C")]
-	[Address(RVA = "0x43D0D50", Offset = "0x43D0D50", VA = "0x43D0D50")]
+	[Address(RVA = "0x470E4B0", Offset = "0x470E4B0", VA = "0x470E4B0")]
 	private void XDR_CheckAttributeDefault(DeclBaseInfo decl, SchemaAttDef pAttdef)
 	{
 	}
 
 	[Token(Token = "0x600148D")]
-	[Address(RVA = "0x43D34D0", Offset = "0x43D34D0", VA = "0x43D34D0")]
+	[Address(RVA = "0x4710C30", Offset = "0x4710C30", VA = "0x4710C30")]
 	private void SetAttributePresence(SchemaAttDef pAttdef, bool fRequired)
 	{
 	}
 
 	[Token(Token = "0x600148E")]
-	[Address(RVA = "0x43D11E0", Offset = "0x43D11E0", VA = "0x43D11E0")]
+	[Address(RVA = "0x470E940", Offset = "0x470E940", VA = "0x470E940")]
 	private int GetContent(XmlQualifiedName qname)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600148F")]
-	[Address(RVA = "0x43D1450", Offset = "0x43D1450", VA = "0x43D1450")]
+	[Address(RVA = "0x470EBB0", Offset = "0x470EBB0", VA = "0x470EBB0")]
 	private bool GetModel(XmlQualifiedName qname)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001490")]
-	[Address(RVA = "0x43D2C40", Offset = "0x43D2C40", VA = "0x43D2C40")]
+	[Address(RVA = "0x47103A0", Offset = "0x47103A0", VA = "0x47103A0")]
 	private XmlSchemaDatatype CheckDatatype(string str)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001491")]
-	[Address(RVA = "0x43D33D0", Offset = "0x43D33D0", VA = "0x43D33D0")]
+	[Address(RVA = "0x4710B30", Offset = "0x4710B30", VA = "0x4710B30")]
 	private void CheckDefaultAttValue(SchemaAttDef attDef)
 	{
 	}
 
 	[Token(Token = "0x6001492")]
-	[Address(RVA = "0x43CF900", Offset = "0x43CF900", VA = "0x43CF900")]
+	[Address(RVA = "0x470D060", Offset = "0x470D060", VA = "0x470D060")]
 	private bool IsGlobal(int flags)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001493")]
-	[Address(RVA = "0x43D00C0", Offset = "0x43D00C0", VA = "0x43D00C0")]
+	[Address(RVA = "0x470D820", Offset = "0x470D820", VA = "0x470D820")]
 	private void SendValidationEvent(string code, string[] args, XmlSeverityType severity)
 	{
 	}
 
 	[Token(Token = "0x6001494")]
-	[Address(RVA = "0x43D1890", Offset = "0x43D1890", VA = "0x43D1890")]
+	[Address(RVA = "0x470EFF0", Offset = "0x470EFF0", VA = "0x470EFF0")]
 	private void SendValidationEvent(string code)
 	{
 	}
 
 	[Token(Token = "0x6001495")]
-	[Address(RVA = "0x43CF430", Offset = "0x43CF430", VA = "0x43CF430")]
+	[Address(RVA = "0x470CB90", Offset = "0x470CB90", VA = "0x470CB90")]
 	private void SendValidationEvent(string code, string msg)
 	{
 	}
 
 	[Token(Token = "0x6001496")]
-	[Address(RVA = "0x43D51A0", Offset = "0x43D51A0", VA = "0x43D51A0")]
+	[Address(RVA = "0x4712900", Offset = "0x4712900", VA = "0x4712900")]
 	private void SendValidationEvent(XmlSchemaException e, XmlSeverityType severity)
 	{
 	}

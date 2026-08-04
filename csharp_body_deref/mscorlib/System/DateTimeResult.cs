@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.DateTimeResult
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Globalization;
 using Il2CppDummyDll;
 
@@ -79,49 +86,49 @@ internal ref struct DateTimeResult
 	internal ReadOnlySpan<char> failedFormatSpecifier;
 
 	[Token(Token = "0x600074B")]
-	[Address(RVA = "0x4FC88F0", Offset = "0x4FC88F0", VA = "0x4FC88F0")]
+	[Address(RVA = "0x3CAE410", Offset = "0x3CAE410", VA = "0x3CAE410")]
 	internal void Init(ReadOnlySpan<char> originalDateTimeString)
 	{
 	}
 
 	[Token(Token = "0x600074C")]
-	[Address(RVA = "0x4FC8920", Offset = "0x4FC8920", VA = "0x4FC8920")]
+	[Address(RVA = "0x3CAE440", Offset = "0x3CAE440", VA = "0x3CAE440")]
 	internal void SetDate(int year, int month, int day)
 	{
 	}
 
 	[Token(Token = "0x600074D")]
-	[Address(RVA = "0x4FC8930", Offset = "0x4FC8930", VA = "0x4FC8930")]
+	[Address(RVA = "0x3CAE450", Offset = "0x3CAE450", VA = "0x3CAE450")]
 	internal void SetBadFormatSpecifierFailure()
 	{
 	}
 
 	[Token(Token = "0x600074E")]
-	[Address(RVA = "0x4FC89B0", Offset = "0x4FC89B0", VA = "0x4FC89B0")]
+	[Address(RVA = "0x3CAE4D0", Offset = "0x3CAE4D0", VA = "0x3CAE4D0")]
 	internal void SetBadFormatSpecifierFailure(ReadOnlySpan<char> failedFormatSpecifier)
 	{
 	}
 
 	[Token(Token = "0x600074F")]
-	[Address(RVA = "0x4FC8A00", Offset = "0x4FC8A00", VA = "0x4FC8A00")]
+	[Address(RVA = "0x3CAE520", Offset = "0x3CAE520", VA = "0x3CAE520")]
 	internal void SetBadDateTimeFailure()
 	{
 	}
 
 	[Token(Token = "0x6000750")]
-	[Address(RVA = "0x4FC8A40", Offset = "0x4FC8A40", VA = "0x4FC8A40")]
+	[Address(RVA = "0x3CAE560", Offset = "0x3CAE560", VA = "0x3CAE560")]
 	internal void SetFailure(System.ParseFailureKind failure, string failureMessageID)
 	{
 	}
 
 	[Token(Token = "0x6000751")]
-	[Address(RVA = "0x4FC8A50", Offset = "0x4FC8A50", VA = "0x4FC8A50")]
+	[Address(RVA = "0x3CAE570", Offset = "0x3CAE570", VA = "0x3CAE570")]
 	internal void SetFailure(System.ParseFailureKind failure, string failureMessageID, object failureMessageFormatArgument)
 	{
 	}
 
 	[Token(Token = "0x6000752")]
-	[Address(RVA = "0x4FC8A60", Offset = "0x4FC8A60", VA = "0x4FC8A60")]
+	[Address(RVA = "0x3CAE580", Offset = "0x3CAE580", VA = "0x3CAE580")]
 	internal void SetFailure(System.ParseFailureKind failure, string failureMessageID, object failureMessageFormatArgument, string failureArgumentName)
 	{
 	}

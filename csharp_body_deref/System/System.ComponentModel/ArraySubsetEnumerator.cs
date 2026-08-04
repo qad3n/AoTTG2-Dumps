@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.ArraySubsetEnumerator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -22,7 +29,7 @@ internal class ArraySubsetEnumerator : IEnumerator
 	public object Current
 	{
 		[Token(Token = "0x60012E7")]
-		[Address(RVA = "0x4587E00", Offset = "0x4587E00", VA = "0x4587E00", Slot = "5")]
+		[Address(RVA = "0x48ACF00", Offset = "0x48ACF00", VA = "0x48ACF00", Slot = "5")]
 		get
 		{
 			return null;
@@ -30,20 +37,20 @@ internal class ArraySubsetEnumerator : IEnumerator
 	}
 
 	[Token(Token = "0x60012E4")]
-	[Address(RVA = "0x4587D90", Offset = "0x4587D90", VA = "0x4587D90")]
+	[Address(RVA = "0x48ACE90", Offset = "0x48ACE90", VA = "0x48ACE90")]
 	public ArraySubsetEnumerator(Array array, int count)
 	{
 	}
 
 	[Token(Token = "0x60012E5")]
-	[Address(RVA = "0x4587DD0", Offset = "0x4587DD0", VA = "0x4587DD0", Slot = "4")]
+	[Address(RVA = "0x48ACED0", Offset = "0x48ACED0", VA = "0x48ACED0", Slot = "4")]
 	public bool MoveNext()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60012E6")]
-	[Address(RVA = "0x4587DF0", Offset = "0x4587DF0", VA = "0x4587DF0", Slot = "6")]
+	[Address(RVA = "0x48ACEF0", Offset = "0x48ACEF0", VA = "0x48ACEF0", Slot = "6")]
 	public void Reset()
 	{
 	}

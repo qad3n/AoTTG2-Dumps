@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.InternalDataCollectionBase
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.ComponentModel;
 using System.Globalization;
@@ -17,7 +24,7 @@ public class InternalDataCollectionBase : ICollection, IEnumerable
 	public virtual int Count
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x41F4180", Offset = "0x41F4180", VA = "0x41F4180", Slot = "9")]
+		[Address(RVA = "0x45318E0", Offset = "0x45318E0", VA = "0x45318E0", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -29,7 +36,7 @@ public class InternalDataCollectionBase : ICollection, IEnumerable
 	public bool IsSynchronized
 	{
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x41F4250", Offset = "0x41F4250", VA = "0x41F4250", Slot = "7")]
+		[Address(RVA = "0x45319B0", Offset = "0x45319B0", VA = "0x45319B0", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -41,7 +48,7 @@ public class InternalDataCollectionBase : ICollection, IEnumerable
 	public object SyncRoot
 	{
 		[Token(Token = "0x600000A")]
-		[Address(RVA = "0x41F4310", Offset = "0x41F4310", VA = "0x41F4310", Slot = "6")]
+		[Address(RVA = "0x4531A70", Offset = "0x4531A70", VA = "0x4531A70", Slot = "6")]
 		get
 		{
 			return null;
@@ -52,7 +59,7 @@ public class InternalDataCollectionBase : ICollection, IEnumerable
 	protected virtual ArrayList List
 	{
 		[Token(Token = "0x600000B")]
-		[Address(RVA = "0x41F4320", Offset = "0x41F4320", VA = "0x41F4320", Slot = "12")]
+		[Address(RVA = "0x4531A80", Offset = "0x4531A80", VA = "0x4531A80", Slot = "12")]
 		get
 		{
 			return null;
@@ -60,27 +67,27 @@ public class InternalDataCollectionBase : ICollection, IEnumerable
 	}
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x41F41C0", Offset = "0x41F41C0", VA = "0x41F41C0", Slot = "10")]
+	[Address(RVA = "0x4531920", Offset = "0x4531920", VA = "0x4531920", Slot = "10")]
 	public virtual void CopyTo(Array ar, int index)
 	{
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x41F4210", Offset = "0x41F4210", VA = "0x41F4210", Slot = "11")]
+	[Address(RVA = "0x4531970", Offset = "0x4531970", VA = "0x4531970", Slot = "11")]
 	public virtual IEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x41F4260", Offset = "0x41F4260", VA = "0x41F4260")]
+	[Address(RVA = "0x45319C0", Offset = "0x45319C0", VA = "0x45319C0")]
 	internal int NamesEqual(string s1, string s2, bool fCaseSensitive, CultureInfo locale)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x41F4330", Offset = "0x41F4330", VA = "0x41F4330")]
+	[Address(RVA = "0x4531A90", Offset = "0x4531A90", VA = "0x4531A90")]
 	public InternalDataCollectionBase()
 	{
 	}

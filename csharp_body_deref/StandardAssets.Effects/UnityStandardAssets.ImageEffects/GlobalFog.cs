@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.GlobalFog
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/GlobalFog.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -53,21 +60,21 @@ public class GlobalFog : PostEffectsBase
 	private Material fogMaterial;
 
 	[Token(Token = "0x600005B")]
-	[Address(RVA = "0x415D3F0", Offset = "0x415D3F0", VA = "0x415D3F0", Slot = "4")]
+	[Address(RVA = "0x44824F0", Offset = "0x44824F0", VA = "0x44824F0", Slot = "4")]
 	public override bool CheckResources()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x415D450", Offset = "0x415D450", VA = "0x415D450")]
+	[Address(RVA = "0x4482550", Offset = "0x4482550", VA = "0x4482550")]
 	[ImageEffectOpaque]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x415DAB0", Offset = "0x415DAB0", VA = "0x415DAB0")]
+	[Address(RVA = "0x4482BB0", Offset = "0x4482BB0", VA = "0x4482BB0")]
 	public GlobalFog()
 	{
 	}

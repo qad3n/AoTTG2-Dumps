@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.RendererList
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -6,7 +13,7 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002F4")]
+[Token(Token = "0x20002F7")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Graphics/ScriptableRenderLoop/RendererList.h")]
 [MovedFrom("UnityEngine.Rendering.RendererUtils")]
 public struct RendererList
@@ -35,17 +42,17 @@ public struct RendererList
 	[FieldOffset(Offset = "0x0")]
 	public static readonly RendererList nullRendererList;
 
-	[Token(Token = "0x1700029B")]
+	[Token(Token = "0x1700029C")]
 	public extern bool isValid
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6001086")]
-		[Address(RVA = "0x4B092C0", Offset = "0x4B092C0", VA = "0x4B092C0")]
+		[Token(Token = "0x6001088")]
+		[Address(RVA = "0x4E30BF0", Offset = "0x4E30BF0", VA = "0x4E30BF0")]
 		get;
 	}
 
-	[Token(Token = "0x6001087")]
-	[Address(RVA = "0x4B092F0", Offset = "0x4B092F0", VA = "0x4B092F0")]
+	[Token(Token = "0x6001089")]
+	[Address(RVA = "0x4E30C20", Offset = "0x4E30C20", VA = "0x4E30C20")]
 	internal RendererList(UIntPtr ctx, uint indx)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.StoreFieldInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Reflection;
 using Il2CppDummyDll;
 
@@ -10,7 +17,7 @@ internal sealed class StoreFieldInstruction : FieldInstruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x6000700")]
-		[Address(RVA = "0x41A97D0", Offset = "0x41A97D0", VA = "0x41A97D0", Slot = "9")]
+		[Address(RVA = "0x44CE8D0", Offset = "0x44CE8D0", VA = "0x44CE8D0", Slot = "9")]
 		get
 		{
 			return null;
@@ -21,7 +28,7 @@ internal sealed class StoreFieldInstruction : FieldInstruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x6000701")]
-		[Address(RVA = "0x41A9800", Offset = "0x41A9800", VA = "0x41A9800", Slot = "4")]
+		[Address(RVA = "0x44CE900", Offset = "0x44CE900", VA = "0x44CE900", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -29,13 +36,13 @@ internal sealed class StoreFieldInstruction : FieldInstruction
 	}
 
 	[Token(Token = "0x60006FF")]
-	[Address(RVA = "0x41A97A0", Offset = "0x41A97A0", VA = "0x41A97A0")]
+	[Address(RVA = "0x44CE8A0", Offset = "0x44CE8A0", VA = "0x44CE8A0")]
 	public StoreFieldInstruction(FieldInfo field)
 	{
 	}
 
 	[Token(Token = "0x6000702")]
-	[Address(RVA = "0x41A9810", Offset = "0x41A9810", VA = "0x41A9810", Slot = "8")]
+	[Address(RVA = "0x44CE910", Offset = "0x44CE910", VA = "0x44CE910", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

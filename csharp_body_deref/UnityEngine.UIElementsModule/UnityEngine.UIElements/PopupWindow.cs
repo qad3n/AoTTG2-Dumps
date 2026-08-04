@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.PopupWindow
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
@@ -9,7 +16,7 @@ public class PopupWindow : TextElement
 	public new class UxmlFactory : UxmlFactory<PopupWindow, UxmlTraits>
 	{
 		[Token(Token = "0x600068A")]
-		[Address(RVA = "0x4CC9550", Offset = "0x4CC9550", VA = "0x4CC9550")]
+		[Address(RVA = "0x4FF0E80", Offset = "0x4FF0E80", VA = "0x4FF0E80")]
 		public UxmlFactory()
 		{
 		}
@@ -19,7 +26,7 @@ public class PopupWindow : TextElement
 	public new class UxmlTraits : TextElement.UxmlTraits
 	{
 		[Token(Token = "0x600068B")]
-		[Address(RVA = "0x4CC9590", Offset = "0x4CC9590", VA = "0x4CC9590")]
+		[Address(RVA = "0x4FF0EC0", Offset = "0x4FF0EC0", VA = "0x4FF0EC0")]
 		public UxmlTraits()
 		{
 		}
@@ -41,7 +48,7 @@ public class PopupWindow : TextElement
 	public override VisualElement contentContainer
 	{
 		[Token(Token = "0x6000688")]
-		[Address(RVA = "0x4CC94A0", Offset = "0x4CC94A0", VA = "0x4CC94A0", Slot = "97")]
+		[Address(RVA = "0x4FF0DD0", Offset = "0x4FF0DD0", VA = "0x4FF0DD0", Slot = "97")]
 		get
 		{
 			return null;
@@ -49,7 +56,7 @@ public class PopupWindow : TextElement
 	}
 
 	[Token(Token = "0x6000687")]
-	[Address(RVA = "0x4CC9360", Offset = "0x4CC9360", VA = "0x4CC9360")]
+	[Address(RVA = "0x4FF0C90", Offset = "0x4FF0C90", VA = "0x4FF0C90")]
 	public PopupWindow()
 	{
 	}

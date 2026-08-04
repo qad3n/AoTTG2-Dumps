@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Gilzoide.FlexUi.FlexLayoutConfig
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Gilzoide/FlexUi/FlexLayoutConfig.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Gilzoide.FlexUi.Yoga;
 using Il2CppDummyDll;
 using UnityEngine;
@@ -41,13 +48,13 @@ public class FlexLayoutConfig : ScriptableObject
 	public float PointScaleFactor
 	{
 		[Token(Token = "0x6000063")]
-		[Address(RVA = "0x39BC430", Offset = "0x39BC430", VA = "0x39BC430")]
+		[Address(RVA = "0x3A25680", Offset = "0x3A25680", VA = "0x3A25680")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000064")]
-		[Address(RVA = "0x39BC440", Offset = "0x39BC440", VA = "0x39BC440")]
+		[Address(RVA = "0x3A25690", Offset = "0x3A25690", VA = "0x3A25690")]
 		set
 		{
 		}
@@ -57,13 +64,13 @@ public class FlexLayoutConfig : ScriptableObject
 	public Errata Errata
 	{
 		[Token(Token = "0x6000065")]
-		[Address(RVA = "0x39BC560", Offset = "0x39BC560", VA = "0x39BC560")]
+		[Address(RVA = "0x3A257B0", Offset = "0x3A257B0", VA = "0x3A257B0")]
 		get
 		{
 			return default(Errata);
 		}
 		[Token(Token = "0x6000066")]
-		[Address(RVA = "0x39BC570", Offset = "0x39BC570", VA = "0x39BC570")]
+		[Address(RVA = "0x3A257C0", Offset = "0x3A257C0", VA = "0x3A257C0")]
 		set
 		{
 		}
@@ -73,13 +80,13 @@ public class FlexLayoutConfig : ScriptableObject
 	public ExperimentalFeatureFlags ExperimentalFeatures
 	{
 		[Token(Token = "0x6000067")]
-		[Address(RVA = "0x39BC690", Offset = "0x39BC690", VA = "0x39BC690")]
+		[Address(RVA = "0x3A258E0", Offset = "0x3A258E0", VA = "0x3A258E0")]
 		get
 		{
 			return default(ExperimentalFeatureFlags);
 		}
 		[Token(Token = "0x6000068")]
-		[Address(RVA = "0x39BC6A0", Offset = "0x39BC6A0", VA = "0x39BC6A0")]
+		[Address(RVA = "0x3A258F0", Offset = "0x3A258F0", VA = "0x3A258F0")]
 		set
 		{
 		}
@@ -89,7 +96,7 @@ public class FlexLayoutConfig : ScriptableObject
 	public YGConfig Config
 	{
 		[Token(Token = "0x6000069")]
-		[Address(RVA = "0x39B5260", Offset = "0x39B5260", VA = "0x39B5260")]
+		[Address(RVA = "0x3A1E4B0", Offset = "0x3A1E4B0", VA = "0x3A1E4B0")]
 		get
 		{
 			return default(YGConfig);
@@ -97,19 +104,19 @@ public class FlexLayoutConfig : ScriptableObject
 	}
 
 	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x39BCB90", Offset = "0x39BCB90", VA = "0x39BCB90")]
+	[Address(RVA = "0x3A25DE0", Offset = "0x3A25DE0", VA = "0x3A25DE0")]
 	protected void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x600006B")]
-	[Address(RVA = "0x39BC970", Offset = "0x39BC970", VA = "0x39BC970")]
+	[Address(RVA = "0x3A25BC0", Offset = "0x3A25BC0", VA = "0x3A25BC0")]
 	protected void RefreshConfig()
 	{
 	}
 
 	[Token(Token = "0x600006C")]
-	[Address(RVA = "0x39BCD30", Offset = "0x39BCD30", VA = "0x39BCD30")]
+	[Address(RVA = "0x3A25F80", Offset = "0x3A25F80", VA = "0x3A25F80")]
 	public FlexLayoutConfig()
 	{
 	}

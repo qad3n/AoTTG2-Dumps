@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.AesTransform
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using Mono.Security.Cryptography;
 
@@ -63,32 +70,32 @@ internal class AesTransform : Mono.Security.Cryptography.SymmetricTransform
 	private static readonly uint[] iT3;
 
 	[Token(Token = "0x600004E")]
-	[Address(RVA = "0x41667A0", Offset = "0x41667A0", VA = "0x41667A0")]
+	[Address(RVA = "0x448B8A0", Offset = "0x448B8A0", VA = "0x448B8A0")]
 	public AesTransform(Aes algo, bool encryption, byte[] key, byte[] iv)
 	{
 	}
 
 	[Token(Token = "0x600004F")]
-	[Address(RVA = "0x4167330", Offset = "0x4167330", VA = "0x4167330", Slot = "17")]
+	[Address(RVA = "0x448C430", Offset = "0x448C430", VA = "0x448C430", Slot = "17")]
 	protected override void ECB(byte[] input, byte[] output)
 	{
 	}
 
 	[Token(Token = "0x6000050")]
-	[Address(RVA = "0x4167230", Offset = "0x4167230", VA = "0x4167230")]
+	[Address(RVA = "0x448C330", Offset = "0x448C330", VA = "0x448C330")]
 	private uint SubByte(uint a)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000051")]
-	[Address(RVA = "0x4167350", Offset = "0x4167350", VA = "0x4167350")]
+	[Address(RVA = "0x448C450", Offset = "0x448C450", VA = "0x448C450")]
 	private void Encrypt128(byte[] indata, byte[] outdata, uint[] ekey)
 	{
 	}
 
 	[Token(Token = "0x6000052")]
-	[Address(RVA = "0x41697C0", Offset = "0x41697C0", VA = "0x41697C0")]
+	[Address(RVA = "0x448E8C0", Offset = "0x448E8C0", VA = "0x448E8C0")]
 	private void Decrypt128(byte[] indata, byte[] outdata, uint[] ekey)
 	{
 	}

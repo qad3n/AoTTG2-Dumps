@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.HelpBox
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using Unity.Properties;
 
@@ -10,7 +17,7 @@ public class HelpBox : VisualElement
 	public new class UxmlFactory : UxmlFactory<HelpBox, UxmlTraits>
 	{
 		[Token(Token = "0x6000451")]
-		[Address(RVA = "0x4C190E0", Offset = "0x4C190E0", VA = "0x4C190E0")]
+		[Address(RVA = "0x4F40A10", Offset = "0x4F40A10", VA = "0x4F40A10")]
 		public UxmlFactory()
 		{
 		}
@@ -28,13 +35,13 @@ public class HelpBox : VisualElement
 		private UxmlEnumAttributeDescription<HelpBoxMessageType> m_MessageType;
 
 		[Token(Token = "0x6000452")]
-		[Address(RVA = "0x4C19120", Offset = "0x4C19120", VA = "0x4C19120", Slot = "4")]
+		[Address(RVA = "0x4F40A50", Offset = "0x4F40A50", VA = "0x4F40A50", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x6000453")]
-		[Address(RVA = "0x4C19300", Offset = "0x4C19300", VA = "0x4C19300")]
+		[Address(RVA = "0x4F40C30", Offset = "0x4F40C30", VA = "0x4F40C30")]
 		public UxmlTraits()
 		{
 		}
@@ -93,13 +100,13 @@ public class HelpBox : VisualElement
 	public string text
 	{
 		[Token(Token = "0x6000448")]
-		[Address(RVA = "0x4C188F0", Offset = "0x4C188F0", VA = "0x4C188F0")]
+		[Address(RVA = "0x4F40220", Offset = "0x4F40220", VA = "0x4F40220")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000449")]
-		[Address(RVA = "0x4C18920", Offset = "0x4C18920", VA = "0x4C18920")]
+		[Address(RVA = "0x4F40250", Offset = "0x4F40250", VA = "0x4F40250")]
 		set
 		{
 		}
@@ -110,39 +117,39 @@ public class HelpBox : VisualElement
 	public HelpBoxMessageType messageType
 	{
 		[Token(Token = "0x600044A")]
-		[Address(RVA = "0x4C18A30", Offset = "0x4C18A30", VA = "0x4C18A30")]
+		[Address(RVA = "0x4F40360", Offset = "0x4F40360", VA = "0x4F40360")]
 		get
 		{
 			return default(HelpBoxMessageType);
 		}
 		[Token(Token = "0x600044B")]
-		[Address(RVA = "0x4C18A40", Offset = "0x4C18A40", VA = "0x4C18A40")]
+		[Address(RVA = "0x4F40370", Offset = "0x4F40370", VA = "0x4F40370")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600044C")]
-	[Address(RVA = "0x4C18BA0", Offset = "0x4C18BA0", VA = "0x4C18BA0")]
+	[Address(RVA = "0x4F404D0", Offset = "0x4F404D0", VA = "0x4F404D0")]
 	public HelpBox()
 	{
 	}
 
 	[Token(Token = "0x600044D")]
-	[Address(RVA = "0x4C18BC0", Offset = "0x4C18BC0", VA = "0x4C18BC0")]
+	[Address(RVA = "0x4F404F0", Offset = "0x4F404F0", VA = "0x4F404F0")]
 	public HelpBox(string text, HelpBoxMessageType messageType)
 	{
 	}
 
 	[Token(Token = "0x600044E")]
-	[Address(RVA = "0x4C18D50", Offset = "0x4C18D50", VA = "0x4C18D50")]
+	[Address(RVA = "0x4F40680", Offset = "0x4F40680", VA = "0x4F40680")]
 	private string GetIconClass(HelpBoxMessageType messageType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600044F")]
-	[Address(RVA = "0x4C18AE0", Offset = "0x4C18AE0", VA = "0x4C18AE0")]
+	[Address(RVA = "0x4F40410", Offset = "0x4F40410", VA = "0x4F40410")]
 	private void UpdateIcon(HelpBoxMessageType messageType)
 	{
 	}

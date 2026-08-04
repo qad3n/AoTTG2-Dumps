@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.PlayerLoopTimer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Threading;
 using Il2CppDummyDll;
@@ -40,39 +47,39 @@ public abstract class PlayerLoopTimer : IDisposable, IPlayerLoopItem
 	private bool isDisposed;
 
 	[Token(Token = "0x6000153")]
-	[Address(RVA = "0x46B3D60", Offset = "0x46B3D60", VA = "0x46B3D60")]
+	[Address(RVA = "0x49D8E60", Offset = "0x49D8E60", VA = "0x49D8E60")]
 	protected PlayerLoopTimer(bool periodic, PlayerLoopTiming playerLoopTiming, CancellationToken cancellationToken, Action<object> timerCallback, object state)
 	{
 	}
 
 	[Token(Token = "0x6000154")]
-	[Address(RVA = "0x46B3DD0", Offset = "0x46B3DD0", VA = "0x46B3DD0")]
+	[Address(RVA = "0x49D8ED0", Offset = "0x49D8ED0", VA = "0x49D8ED0")]
 	public static PlayerLoopTimer Create(TimeSpan interval, bool periodic, DelayType delayType, PlayerLoopTiming playerLoopTiming, CancellationToken cancellationToken, Action<object> timerCallback, object state)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000155")]
-	[Address(RVA = "0x46AE610", Offset = "0x46AE610", VA = "0x46AE610")]
+	[Address(RVA = "0x49D3710", Offset = "0x49D3710", VA = "0x49D3710")]
 	public static PlayerLoopTimer StartNew(TimeSpan interval, bool periodic, DelayType delayType, PlayerLoopTiming playerLoopTiming, CancellationToken cancellationToken, Action<object> timerCallback, object state)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000156")]
-	[Address(RVA = "0x46B4150", Offset = "0x46B4150", VA = "0x46B4150")]
+	[Address(RVA = "0x49D9250", Offset = "0x49D9250", VA = "0x49D9250")]
 	public void Restart()
 	{
 	}
 
 	[Token(Token = "0x6000157")]
-	[Address(RVA = "0x46B4210", Offset = "0x46B4210", VA = "0x46B4210")]
+	[Address(RVA = "0x49D9310", Offset = "0x49D9310", VA = "0x49D9310")]
 	public void Restart(TimeSpan interval)
 	{
 	}
 
 	[Token(Token = "0x6000158")]
-	[Address(RVA = "0x46B4300", Offset = "0x46B4300", VA = "0x46B4300")]
+	[Address(RVA = "0x49D9400", Offset = "0x49D9400", VA = "0x49D9400")]
 	public void Stop()
 	{
 	}
@@ -81,13 +88,13 @@ public abstract class PlayerLoopTimer : IDisposable, IPlayerLoopItem
 	protected abstract void ResetCore(TimeSpan? newInterval);
 
 	[Token(Token = "0x600015A")]
-	[Address(RVA = "0x46B4310", Offset = "0x46B4310", VA = "0x46B4310", Slot = "4")]
+	[Address(RVA = "0x49D9410", Offset = "0x49D9410", VA = "0x49D9410", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x600015B")]
-	[Address(RVA = "0x46B4320", Offset = "0x46B4320", VA = "0x46B4320", Slot = "5")]
+	[Address(RVA = "0x49D9420", Offset = "0x49D9420", VA = "0x49D9420", Slot = "5")]
 	private bool Cysharp_002EThreading_002ETasks_002EIPlayerLoopItem_002EMoveNext()
 	{
 		return default(bool);

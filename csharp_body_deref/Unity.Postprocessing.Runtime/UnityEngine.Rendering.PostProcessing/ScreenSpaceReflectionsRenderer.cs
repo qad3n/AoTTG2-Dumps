@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.ScreenSpaceReflectionsRenderer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
 
@@ -23,7 +30,7 @@ internal sealed class ScreenSpaceReflectionsRenderer : PostProcessEffectRenderer
 		public ScreenSpaceReflectionResolution downsampling;
 
 		[Token(Token = "0x6000087")]
-		[Address(RVA = "0x4820E50", Offset = "0x4820E50", VA = "0x4820E50")]
+		[Address(RVA = "0x4B45F40", Offset = "0x4B45F40", VA = "0x4B45F40")]
 		public QualityPreset()
 		{
 		}
@@ -59,32 +66,32 @@ internal sealed class ScreenSpaceReflectionsRenderer : PostProcessEffectRenderer
 	private readonly QualityPreset[] m_Presets;
 
 	[Token(Token = "0x6000082")]
-	[Address(RVA = "0x481EF10", Offset = "0x481EF10", VA = "0x481EF10", Slot = "5")]
+	[Address(RVA = "0x4B44000", Offset = "0x4B44000", VA = "0x4B44000", Slot = "5")]
 	public override DepthTextureMode GetCameraFlags()
 	{
 		return default(DepthTextureMode);
 	}
 
 	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x481EF20", Offset = "0x481EF20", VA = "0x481EF20")]
+	[Address(RVA = "0x4B44010", Offset = "0x4B44010", VA = "0x4B44010")]
 	internal void CheckRT(ref RenderTexture rt, int width, int height, FilterMode filterMode, bool useMipMap)
 	{
 	}
 
 	[Token(Token = "0x6000084")]
-	[Address(RVA = "0x481F120", Offset = "0x481F120", VA = "0x481F120", Slot = "8")]
+	[Address(RVA = "0x4B44210", Offset = "0x4B44210", VA = "0x4B44210", Slot = "8")]
 	public override void Render(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x6000085")]
-	[Address(RVA = "0x4820A50", Offset = "0x4820A50", VA = "0x4820A50", Slot = "7")]
+	[Address(RVA = "0x4B45B40", Offset = "0x4B45B40", VA = "0x4B45B40", Slot = "7")]
 	public override void Release()
 	{
 	}
 
 	[Token(Token = "0x6000086")]
-	[Address(RVA = "0x4820AE0", Offset = "0x4820AE0", VA = "0x4820AE0")]
+	[Address(RVA = "0x4B45BD0", Offset = "0x4B45BD0", VA = "0x4B45BD0")]
 	public ScreenSpaceReflectionsRenderer()
 	{
 	}

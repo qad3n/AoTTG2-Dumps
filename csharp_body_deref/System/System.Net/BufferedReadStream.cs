@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.BufferedReadStream
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.IO;
 using System.Runtime.CompilerServices;
@@ -49,13 +56,13 @@ internal class BufferedReadStream : WebReadStream
 		private ConfiguredTaskAwaitable<int>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000984")]
-		[Address(RVA = "0x46589B0", Offset = "0x46589B0", VA = "0x46589B0", Slot = "4")]
+		[Address(RVA = "0x497DAB0", Offset = "0x497DAB0", VA = "0x497DAB0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000985")]
-		[Address(RVA = "0x4658D30", Offset = "0x4658D30", VA = "0x4658D30", Slot = "5")]
+		[Address(RVA = "0x497DE30", Offset = "0x497DE30", VA = "0x497DE30", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -67,13 +74,13 @@ internal class BufferedReadStream : WebReadStream
 	private readonly BufferOffsetSize readBuffer;
 
 	[Token(Token = "0x6000981")]
-	[Address(RVA = "0x46587A0", Offset = "0x46587A0", VA = "0x46587A0")]
+	[Address(RVA = "0x497D8A0", Offset = "0x497D8A0", VA = "0x497D8A0")]
 	public BufferedReadStream(WebOperation operation, Stream innerStream, BufferOffsetSize readBuffer)
 	{
 	}
 
 	[Token(Token = "0x6000982")]
-	[Address(RVA = "0x46587D0", Offset = "0x46587D0", VA = "0x46587D0", Slot = "38")]
+	[Address(RVA = "0x497D8D0", Offset = "0x497D8D0", VA = "0x497D8D0", Slot = "38")]
 	[AsyncStateMachine(typeof(_003CProcessReadAsync_003Ed__2))]
 	protected override Task<int> ProcessReadAsync(byte[] buffer, int offset, int size, CancellationToken cancellationToken)
 	{
@@ -81,7 +88,7 @@ internal class BufferedReadStream : WebReadStream
 	}
 
 	[Token(Token = "0x6000983")]
-	[Address(RVA = "0x4658940", Offset = "0x4658940", VA = "0x4658940")]
+	[Address(RVA = "0x497DA40", Offset = "0x497DA40", VA = "0x497DA40")]
 	internal bool TryReadFromBuffer(byte[] buffer, int offset, int size, out int result)
 	{
 		return default(bool);

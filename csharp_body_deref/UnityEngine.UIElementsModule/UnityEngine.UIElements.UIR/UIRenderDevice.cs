@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UIR.UIRenderDevice
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -70,7 +77,7 @@ internal class UIRenderDevice : IDisposable
 		public Page page;
 
 		[Token(Token = "0x6001E55")]
-		[Address(RVA = "0x4C89B80", Offset = "0x4C89B80", VA = "0x4C89B80")]
+		[Address(RVA = "0x4FB14B0", Offset = "0x4FB14B0", VA = "0x4FB14B0")]
 		public void Dispose()
 		{
 		}
@@ -280,7 +287,7 @@ internal class UIRenderDevice : IDisposable
 	internal static uint maxVerticesPerPage
 	{
 		[Token(Token = "0x6001E2C")]
-		[Address(RVA = "0x4C84260", Offset = "0x4C84260", VA = "0x4C84260")]
+		[Address(RVA = "0x4FABB90", Offset = "0x4FABB90", VA = "0x4FABB90")]
 		get
 		{
 			return default(uint);
@@ -291,14 +298,14 @@ internal class UIRenderDevice : IDisposable
 	internal bool breakBatches
 	{
 		[Token(Token = "0x6001E2D")]
-		[Address(RVA = "0x4C84270", Offset = "0x4C84270", VA = "0x4C84270")]
+		[Address(RVA = "0x4FABBA0", Offset = "0x4FABBA0", VA = "0x4FABBA0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001E2E")]
-		[Address(RVA = "0x4C84280", Offset = "0x4C84280", VA = "0x4C84280")]
+		[Address(RVA = "0x4FABBB0", Offset = "0x4FABBB0", VA = "0x4FABBB0")]
 		[CompilerGenerated]
 		set
 		{
@@ -309,7 +316,7 @@ internal class UIRenderDevice : IDisposable
 	internal static Texture2D defaultShaderInfoTexFloat
 	{
 		[Token(Token = "0x6001E32")]
-		[Address(RVA = "0x4C81B60", Offset = "0x4C81B60", VA = "0x4C81B60")]
+		[Address(RVA = "0x4FA9490", Offset = "0x4FA9490", VA = "0x4FA9490")]
 		get
 		{
 			return null;
@@ -320,7 +327,7 @@ internal class UIRenderDevice : IDisposable
 	private bool fullyCreated
 	{
 		[Token(Token = "0x6001E35")]
-		[Address(RVA = "0x4C85050", Offset = "0x4C85050", VA = "0x4C85050")]
+		[Address(RVA = "0x4FAC980", Offset = "0x4FAC980", VA = "0x4FAC980")]
 		get
 		{
 			return default(bool);
@@ -331,14 +338,14 @@ internal class UIRenderDevice : IDisposable
 	protected bool disposed
 	{
 		[Token(Token = "0x6001E36")]
-		[Address(RVA = "0x4C85060", Offset = "0x4C85060", VA = "0x4C85060")]
+		[Address(RVA = "0x4FAC990", Offset = "0x4FAC990", VA = "0x4FAC990")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001E37")]
-		[Address(RVA = "0x4C85070", Offset = "0x4C85070", VA = "0x4C85070")]
+		[Address(RVA = "0x4FAC9A0", Offset = "0x4FAC9A0", VA = "0x4FAC9A0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -346,106 +353,106 @@ internal class UIRenderDevice : IDisposable
 	}
 
 	[Token(Token = "0x6001E2F")]
-	[Address(RVA = "0x4C84290", Offset = "0x4C84290", VA = "0x4C84290")]
+	[Address(RVA = "0x4FABBC0", Offset = "0x4FABBC0", VA = "0x4FABBC0")]
 	static UIRenderDevice()
 	{
 	}
 
 	[Token(Token = "0x6001E30")]
-	[Address(RVA = "0x4C84530", Offset = "0x4C84530", VA = "0x4C84530")]
+	[Address(RVA = "0x4FABE60", Offset = "0x4FABE60", VA = "0x4FABE60")]
 	public UIRenderDevice(uint initialVertexCapacity = 0u, uint initialIndexCapacity = 0u)
 	{
 	}
 
 	[Token(Token = "0x6001E31")]
-	[Address(RVA = "0x4C84540", Offset = "0x4C84540", VA = "0x4C84540")]
+	[Address(RVA = "0x4FABE70", Offset = "0x4FABE70", VA = "0x4FABE70")]
 	protected UIRenderDevice(uint initialVertexCapacity, uint initialIndexCapacity, bool mockDevice)
 	{
 	}
 
 	[Token(Token = "0x6001E33")]
-	[Address(RVA = "0x4C84BC0", Offset = "0x4C84BC0", VA = "0x4C84BC0")]
+	[Address(RVA = "0x4FAC4F0", Offset = "0x4FAC4F0", VA = "0x4FAC4F0")]
 	private void InitVertexDeclaration()
 	{
 	}
 
 	[Token(Token = "0x6001E34")]
-	[Address(RVA = "0x4C84EA0", Offset = "0x4C84EA0", VA = "0x4C84EA0")]
+	[Address(RVA = "0x4FAC7D0", Offset = "0x4FAC7D0", VA = "0x4FAC7D0")]
 	private void CompleteCreation()
 	{
 	}
 
 	[Token(Token = "0x6001E38")]
-	[Address(RVA = "0x4C85080", Offset = "0x4C85080", VA = "0x4C85080", Slot = "4")]
+	[Address(RVA = "0x4FAC9B0", Offset = "0x4FAC9B0", VA = "0x4FAC9B0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6001E39")]
-	[Address(RVA = "0x4C850F0", Offset = "0x4C850F0", VA = "0x4C850F0", Slot = "5")]
+	[Address(RVA = "0x4FACA20", Offset = "0x4FACA20", VA = "0x4FACA20", Slot = "5")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6001E3A")]
-	[Address(RVA = "0x4C85680", Offset = "0x4C85680", VA = "0x4C85680")]
+	[Address(RVA = "0x4FACFB0", Offset = "0x4FACFB0", VA = "0x4FACFB0")]
 	public MeshHandle Allocate(uint vertexCount, uint indexCount, out NativeSlice<Vertex> vertexData, out NativeSlice<ushort> indexData, out ushort indexOffset)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001E3B")]
-	[Address(RVA = "0x4C77320", Offset = "0x4C77320", VA = "0x4C77320")]
+	[Address(RVA = "0x4F9EC50", Offset = "0x4F9EC50", VA = "0x4F9EC50")]
 	public void Update(MeshHandle mesh, uint vertexCount, out NativeSlice<Vertex> vertexData)
 	{
 	}
 
 	[Token(Token = "0x6001E3C")]
-	[Address(RVA = "0x4C86B50", Offset = "0x4C86B50", VA = "0x4C86B50")]
+	[Address(RVA = "0x4FAE480", Offset = "0x4FAE480", VA = "0x4FAE480")]
 	public void Update(MeshHandle mesh, uint vertexCount, uint indexCount, out NativeSlice<Vertex> vertexData, out NativeSlice<ushort> indexData, out ushort indexOffset)
 	{
 	}
 
 	[Token(Token = "0x6001E3D")]
-	[Address(RVA = "0x4C86D00", Offset = "0x4C86D00", VA = "0x4C86D00")]
+	[Address(RVA = "0x4FAE630", Offset = "0x4FAE630", VA = "0x4FAE630")]
 	private void UpdateCopyBackIndices(MeshHandle mesh, bool copyBackIndices)
 	{
 	}
 
 	[Token(Token = "0x6001E3E")]
-	[Address(RVA = "0x4C86F10", Offset = "0x4C86F10", VA = "0x4C86F10")]
+	[Address(RVA = "0x4FAE840", Offset = "0x4FAE840", VA = "0x4FAE840")]
 	internal List<AllocToUpdate> ActiveUpdatesForMeshHandle(MeshHandle mesh)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001E3F")]
-	[Address(RVA = "0x4C86F80", Offset = "0x4C86F80", VA = "0x4C86F80")]
+	[Address(RVA = "0x4FAE8B0", Offset = "0x4FAE8B0", VA = "0x4FAE8B0")]
 	private bool TryAllocFromPage(Page page, uint vertexCount, uint indexCount, ref Alloc va, ref Alloc ia, bool shortLived)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001E40")]
-	[Address(RVA = "0x4C85740", Offset = "0x4C85740", VA = "0x4C85740")]
+	[Address(RVA = "0x4FAD070", Offset = "0x4FAD070", VA = "0x4FAD070")]
 	private void Allocate(MeshHandle meshHandle, uint vertexCount, uint indexCount, out NativeSlice<Vertex> vertexData, out NativeSlice<ushort> indexData, bool shortLived)
 	{
 	}
 
 	[Token(Token = "0x6001E41")]
-	[Address(RVA = "0x4C86040", Offset = "0x4C86040", VA = "0x4C86040")]
+	[Address(RVA = "0x4FAD970", Offset = "0x4FAD970", VA = "0x4FAD970")]
 	private void UpdateAfterGPUUsedData(MeshHandle mesh, uint vertexCount, uint indexCount, out NativeSlice<Vertex> vertexData, out NativeSlice<ushort> indexData, out ushort indexOffset, out AllocToUpdate allocToUpdate, bool copyBackIndices)
 	{
 	}
 
 	[Token(Token = "0x6001E42")]
-	[Address(RVA = "0x4C7C4E0", Offset = "0x4C7C4E0", VA = "0x4C7C4E0")]
+	[Address(RVA = "0x4FA3E10", Offset = "0x4FA3E10", VA = "0x4FA3E10")]
 	public void Free(MeshHandle mesh)
 	{
 	}
 
 	[Token(Token = "0x6001E43")]
-	[Address(RVA = "0x4C870D0", Offset = "0x4C870D0", VA = "0x4C870D0")]
+	[Address(RVA = "0x4FAEA00", Offset = "0x4FAEA00", VA = "0x4FAEA00")]
 	public void OnFrameRenderingBegin()
 	{
 	}
@@ -458,31 +465,31 @@ internal class UIRenderDevice : IDisposable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001E45")]
-	[Address(RVA = "0x4C87FF0", Offset = "0x4C87FF0", VA = "0x4C87FF0")]
+	[Address(RVA = "0x4FAF920", Offset = "0x4FAF920", VA = "0x4FAF920")]
 	private void ApplyDrawCommandState(RenderChainCommand cmd, int textureSlot, Material newMat, bool newMatDiffers, ref EvaluationState st)
 	{
 	}
 
 	[Token(Token = "0x6001E46")]
-	[Address(RVA = "0x4C881F0", Offset = "0x4C881F0", VA = "0x4C881F0")]
+	[Address(RVA = "0x4FAFB20", Offset = "0x4FAFB20", VA = "0x4FAFB20")]
 	private void ApplyBatchState(ref EvaluationState st, bool allowMaterialChange)
 	{
 	}
 
 	[Token(Token = "0x6001E47")]
-	[Address(RVA = "0x4C883C0", Offset = "0x4C883C0", VA = "0x4C883C0")]
+	[Address(RVA = "0x4FAFCF0", Offset = "0x4FAFCF0", VA = "0x4FAFCF0")]
 	public void EvaluateChain(RenderChainCommand head, Material initialMat, Material defaultMat, Texture gradientSettings, Texture shaderInfo, float pixelsPerPoint, MaterialPropertyBlock stateMatProps, bool allowMaterialChange, ref Exception immediateException)
 	{
 	}
 
 	[Token(Token = "0x6001E48")]
-	[Address(RVA = "0x4C893E0", Offset = "0x4C893E0", VA = "0x4C893E0")]
+	[Address(RVA = "0x4FB0D10", Offset = "0x4FB0D10", VA = "0x4FB0D10")]
 	private void UpdateFenceValue()
 	{
 	}
 
 	[Token(Token = "0x6001E49")]
-	[Address(RVA = "0x4C89140", Offset = "0x4C89140", VA = "0x4C89140")]
+	[Address(RVA = "0x4FB0A70", Offset = "0x4FB0A70", VA = "0x4FB0A70")]
 	private unsafe void KickRanges(DrawBufferRange* ranges, ref int rangesReady, ref int rangesStart, int rangesCount, Page curPage)
 	{
 	}
@@ -493,62 +500,62 @@ internal class UIRenderDevice : IDisposable
 	}
 
 	[Token(Token = "0x6001E4B")]
-	[Address(RVA = "0x4C894A0", Offset = "0x4C894A0", VA = "0x4C894A0")]
+	[Address(RVA = "0x4FB0DD0", Offset = "0x4FB0DD0", VA = "0x4FB0DD0")]
 	private void WaitOnCpuFence(uint fence)
 	{
 	}
 
 	[Token(Token = "0x6001E4C")]
-	[Address(RVA = "0x4C871F0", Offset = "0x4C871F0", VA = "0x4C871F0")]
+	[Address(RVA = "0x4FAEB20", Offset = "0x4FAEB20", VA = "0x4FAEB20")]
 	public void AdvanceFrame()
 	{
 	}
 
 	[Token(Token = "0x6001E4D")]
-	[Address(RVA = "0x4C89560", Offset = "0x4C89560", VA = "0x4C89560")]
+	[Address(RVA = "0x4FB0E90", Offset = "0x4FB0E90", VA = "0x4FB0E90")]
 	private void PruneUnusedPages()
 	{
 	}
 
 	[Token(Token = "0x6001E4E")]
-	[Address(RVA = "0x4C896B0", Offset = "0x4C896B0", VA = "0x4C896B0")]
+	[Address(RVA = "0x4FB0FE0", Offset = "0x4FB0FE0", VA = "0x4FB0FE0")]
 	internal static void PrepareForGfxDeviceRecreate()
 	{
 	}
 
 	[Token(Token = "0x6001E4F")]
-	[Address(RVA = "0x4C897B0", Offset = "0x4C897B0", VA = "0x4C897B0")]
+	[Address(RVA = "0x4FB10E0", Offset = "0x4FB10E0", VA = "0x4FB10E0")]
 	internal static void WrapUpGfxDeviceRecreate()
 	{
 	}
 
 	[Token(Token = "0x6001E50")]
-	[Address(RVA = "0x4C89820", Offset = "0x4C89820", VA = "0x4C89820")]
+	[Address(RVA = "0x4FB1150", Offset = "0x4FB1150", VA = "0x4FB1150")]
 	internal static void FlushAllPendingDeviceDisposes()
 	{
 	}
 
 	[Token(Token = "0x6001E51")]
-	[Address(RVA = "0x4C89890", Offset = "0x4C89890", VA = "0x4C89890")]
+	[Address(RVA = "0x4FB11C0", Offset = "0x4FB11C0", VA = "0x4FB11C0")]
 	internal DrawStatistics GatherDrawStatistics()
 	{
 		return default(DrawStatistics);
 	}
 
 	[Token(Token = "0x6001E52")]
-	[Address(RVA = "0x4C85270", Offset = "0x4C85270", VA = "0x4C85270")]
+	[Address(RVA = "0x4FACBA0", Offset = "0x4FACBA0", VA = "0x4FACBA0")]
 	private static void ProcessDeviceFreeQueue()
 	{
 	}
 
 	[Token(Token = "0x6001E53")]
-	[Address(RVA = "0x4C898B0", Offset = "0x4C898B0", VA = "0x4C898B0")]
+	[Address(RVA = "0x4FB11E0", Offset = "0x4FB11E0", VA = "0x4FB11E0")]
 	private static void OnEngineUpdateGlobal()
 	{
 	}
 
 	[Token(Token = "0x6001E54")]
-	[Address(RVA = "0x4C89910", Offset = "0x4C89910", VA = "0x4C89910")]
+	[Address(RVA = "0x4FB1240", Offset = "0x4FB1240", VA = "0x4FB1240")]
 	private static void OnFlushPendingResources()
 	{
 	}

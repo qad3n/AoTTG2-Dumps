@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.Shadow
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -29,13 +36,13 @@ public class Shadow : BaseMeshEffect
 	public Color effectColor
 	{
 		[Token(Token = "0x600053A")]
-		[Address(RVA = "0x4DC87B0", Offset = "0x4DC87B0", VA = "0x4DC87B0")]
+		[Address(RVA = "0x50F0100", Offset = "0x50F0100", VA = "0x50F0100")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x600053B")]
-		[Address(RVA = "0x4DC87C0", Offset = "0x4DC87C0", VA = "0x4DC87C0")]
+		[Address(RVA = "0x50F0110", Offset = "0x50F0110", VA = "0x50F0110")]
 		set
 		{
 		}
@@ -45,13 +52,13 @@ public class Shadow : BaseMeshEffect
 	public Vector2 effectDistance
 	{
 		[Token(Token = "0x600053C")]
-		[Address(RVA = "0x4DC8870", Offset = "0x4DC8870", VA = "0x4DC8870")]
+		[Address(RVA = "0x50F01C0", Offset = "0x50F01C0", VA = "0x50F01C0")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x600053D")]
-		[Address(RVA = "0x4DC8880", Offset = "0x4DC8880", VA = "0x4DC8880")]
+		[Address(RVA = "0x50F01D0", Offset = "0x50F01D0", VA = "0x50F01D0")]
 		set
 		{
 		}
@@ -61,38 +68,38 @@ public class Shadow : BaseMeshEffect
 	public bool useGraphicAlpha
 	{
 		[Token(Token = "0x600053E")]
-		[Address(RVA = "0x4DC89F0", Offset = "0x4DC89F0", VA = "0x4DC89F0")]
+		[Address(RVA = "0x50F0340", Offset = "0x50F0340", VA = "0x50F0340")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600053F")]
-		[Address(RVA = "0x4DC8A00", Offset = "0x4DC8A00", VA = "0x4DC8A00")]
+		[Address(RVA = "0x50F0350", Offset = "0x50F0350", VA = "0x50F0350")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000539")]
-	[Address(RVA = "0x4DC8780", Offset = "0x4DC8780", VA = "0x4DC8780")]
+	[Address(RVA = "0x50F00D0", Offset = "0x50F00D0", VA = "0x50F00D0")]
 	protected Shadow()
 	{
 	}
 
 	[Token(Token = "0x6000540")]
-	[Address(RVA = "0x4DC8AA0", Offset = "0x4DC8AA0", VA = "0x4DC8AA0")]
+	[Address(RVA = "0x50F03F0", Offset = "0x50F03F0", VA = "0x50F03F0")]
 	protected void ApplyShadowZeroAlloc(List<UIVertex> verts, Color32 color, int start, int end, float x, float y)
 	{
 	}
 
 	[Token(Token = "0x6000541")]
-	[Address(RVA = "0x4DC8FA0", Offset = "0x4DC8FA0", VA = "0x4DC8FA0")]
+	[Address(RVA = "0x50F08F0", Offset = "0x50F08F0", VA = "0x50F08F0")]
 	protected void ApplyShadow(List<UIVertex> verts, Color32 color, int start, int end, float x, float y)
 	{
 	}
 
 	[Token(Token = "0x6000542")]
-	[Address(RVA = "0x4DC8FB0", Offset = "0x4DC8FB0", VA = "0x4DC8FB0", Slot = "20")]
+	[Address(RVA = "0x50F0900", Offset = "0x50F0900", VA = "0x50F0900", Slot = "20")]
 	public override void ModifyMesh(VertexHelper vh)
 	{
 	}

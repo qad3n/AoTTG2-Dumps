@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.TypeData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Reflection;
 using System.Xml.Schema;
 using Il2CppDummyDll;
@@ -63,7 +70,7 @@ internal class TypeData
 	public string TypeName
 	{
 		[Token(Token = "0x6000CE0")]
-		[Address(RVA = "0x44CD8F0", Offset = "0x44CD8F0", VA = "0x44CD8F0")]
+		[Address(RVA = "0x480B050", Offset = "0x480B050", VA = "0x480B050")]
 		get
 		{
 			return null;
@@ -74,7 +81,7 @@ internal class TypeData
 	public string XmlType
 	{
 		[Token(Token = "0x6000CE1")]
-		[Address(RVA = "0x44CD900", Offset = "0x44CD900", VA = "0x44CD900")]
+		[Address(RVA = "0x480B060", Offset = "0x480B060", VA = "0x480B060")]
 		get
 		{
 			return null;
@@ -85,7 +92,7 @@ internal class TypeData
 	public Type Type
 	{
 		[Token(Token = "0x6000CE2")]
-		[Address(RVA = "0x44CD910", Offset = "0x44CD910", VA = "0x44CD910")]
+		[Address(RVA = "0x480B070", Offset = "0x480B070", VA = "0x480B070")]
 		get
 		{
 			return null;
@@ -96,7 +103,7 @@ internal class TypeData
 	public string FullTypeName
 	{
 		[Token(Token = "0x6000CE3")]
-		[Address(RVA = "0x44CD920", Offset = "0x44CD920", VA = "0x44CD920")]
+		[Address(RVA = "0x480B080", Offset = "0x480B080", VA = "0x480B080")]
 		get
 		{
 			return null;
@@ -107,7 +114,7 @@ internal class TypeData
 	public SchemaTypes SchemaType
 	{
 		[Token(Token = "0x6000CE4")]
-		[Address(RVA = "0x44CD930", Offset = "0x44CD930", VA = "0x44CD930")]
+		[Address(RVA = "0x480B090", Offset = "0x480B090", VA = "0x480B090")]
 		get
 		{
 			return default(SchemaTypes);
@@ -118,7 +125,7 @@ internal class TypeData
 	public bool IsListType
 	{
 		[Token(Token = "0x6000CE5")]
-		[Address(RVA = "0x44CCC70", Offset = "0x44CCC70", VA = "0x44CCC70")]
+		[Address(RVA = "0x480A3D0", Offset = "0x480A3D0", VA = "0x480A3D0")]
 		get
 		{
 			return default(bool);
@@ -129,7 +136,7 @@ internal class TypeData
 	public bool IsComplexType
 	{
 		[Token(Token = "0x6000CE6")]
-		[Address(RVA = "0x44CD940", Offset = "0x44CD940", VA = "0x44CD940")]
+		[Address(RVA = "0x480B0A0", Offset = "0x480B0A0", VA = "0x480B0A0")]
 		get
 		{
 			return default(bool);
@@ -140,7 +147,7 @@ internal class TypeData
 	public bool IsValueType
 	{
 		[Token(Token = "0x6000CE7")]
-		[Address(RVA = "0x44CD970", Offset = "0x44CD970", VA = "0x44CD970")]
+		[Address(RVA = "0x480B0D0", Offset = "0x480B0D0", VA = "0x480B0D0")]
 		get
 		{
 			return default(bool);
@@ -151,13 +158,13 @@ internal class TypeData
 	public bool IsNullable
 	{
 		[Token(Token = "0x6000CE8")]
-		[Address(RVA = "0x44CD9E0", Offset = "0x44CD9E0", VA = "0x44CD9E0")]
+		[Address(RVA = "0x480B140", Offset = "0x480B140", VA = "0x480B140")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000CE9")]
-		[Address(RVA = "0x44CDB40", Offset = "0x44CDB40", VA = "0x44CDB40")]
+		[Address(RVA = "0x480B2A0", Offset = "0x480B2A0", VA = "0x480B2A0")]
 		set
 		{
 		}
@@ -167,7 +174,7 @@ internal class TypeData
 	public TypeData ListItemTypeData
 	{
 		[Token(Token = "0x6000CEA")]
-		[Address(RVA = "0x44CD570", Offset = "0x44CD570", VA = "0x44CD570")]
+		[Address(RVA = "0x480ACD0", Offset = "0x480ACD0", VA = "0x480ACD0")]
 		get
 		{
 			return null;
@@ -178,7 +185,7 @@ internal class TypeData
 	public Type ListItemType
 	{
 		[Token(Token = "0x6000CEB")]
-		[Address(RVA = "0x44CDB50", Offset = "0x44CDB50", VA = "0x44CDB50")]
+		[Address(RVA = "0x480B2B0", Offset = "0x480B2B0", VA = "0x480B2B0")]
 		get
 		{
 			return null;
@@ -189,7 +196,7 @@ internal class TypeData
 	public bool IsXsdType
 	{
 		[Token(Token = "0x6000CEC")]
-		[Address(RVA = "0x44CD960", Offset = "0x44CD960", VA = "0x44CD960")]
+		[Address(RVA = "0x480B0C0", Offset = "0x480B0C0", VA = "0x480B0C0")]
 		get
 		{
 			return default(bool);
@@ -200,7 +207,7 @@ internal class TypeData
 	public bool HasPublicConstructor
 	{
 		[Token(Token = "0x6000CED")]
-		[Address(RVA = "0x44CE6E0", Offset = "0x44CE6E0", VA = "0x44CE6E0")]
+		[Address(RVA = "0x480BE40", Offset = "0x480BE40", VA = "0x480BE40")]
 		get
 		{
 			return default(bool);
@@ -208,45 +215,45 @@ internal class TypeData
 	}
 
 	[Token(Token = "0x6000CDC")]
-	[Address(RVA = "0x44CD140", Offset = "0x44CD140", VA = "0x44CD140")]
+	[Address(RVA = "0x480A8A0", Offset = "0x480A8A0", VA = "0x480A8A0")]
 	public TypeData(Type type, string elementName, bool isPrimitive)
 	{
 	}
 
 	[Token(Token = "0x6000CDD")]
-	[Address(RVA = "0x44CD150", Offset = "0x44CD150", VA = "0x44CD150")]
+	[Address(RVA = "0x480A8B0", Offset = "0x480A8B0", VA = "0x480A8B0")]
 	public TypeData(Type type, string elementName, bool isPrimitive, TypeData mappedType, XmlSchemaPatternFacet facet)
 	{
 	}
 
 	[Token(Token = "0x6000CDE")]
-	[Address(RVA = "0x44CD750", Offset = "0x44CD750", VA = "0x44CD750")]
+	[Address(RVA = "0x480AEB0", Offset = "0x480AEB0", VA = "0x480AEB0")]
 	private void LookupTypeConvertor()
 	{
 	}
 
 	[Token(Token = "0x6000CDF")]
-	[Address(RVA = "0x44CD800", Offset = "0x44CD800", VA = "0x44CD800")]
+	[Address(RVA = "0x480AF60", Offset = "0x480AF60", VA = "0x480AF60")]
 	internal void ConvertForAssignment(ref object value)
 	{
 	}
 
 	[Token(Token = "0x6000CEE")]
-	[Address(RVA = "0x44CE4A0", Offset = "0x44CE4A0", VA = "0x44CE4A0")]
+	[Address(RVA = "0x480BC00", Offset = "0x480BC00", VA = "0x480BC00")]
 	public static PropertyInfo GetIndexerProperty(Type collectionType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CEF")]
-	[Address(RVA = "0x44CE5C0", Offset = "0x44CE5C0", VA = "0x44CE5C0")]
+	[Address(RVA = "0x480BD20", Offset = "0x480BD20", VA = "0x480BD20")]
 	private static InvalidOperationException CreateMissingAddMethodException(Type type, string inheritFrom, Type argumentType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CF0")]
-	[Address(RVA = "0x44CE2B0", Offset = "0x44CE2B0", VA = "0x44CE2B0")]
+	[Address(RVA = "0x480BA10", Offset = "0x480BA10", VA = "0x480BA10")]
 	internal static Type GetGenericListItemType(Type type)
 	{
 		return null;

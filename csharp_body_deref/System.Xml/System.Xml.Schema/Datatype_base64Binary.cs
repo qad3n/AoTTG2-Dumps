@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.Datatype_base64Binary
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -17,7 +24,7 @@ internal class Datatype_base64Binary : Datatype_anySimpleType
 	internal override FacetsChecker FacetsChecker
 	{
 		[Token(Token = "0x600111C")]
-		[Address(RVA = "0x45230A0", Offset = "0x45230A0", VA = "0x45230A0", Slot = "18")]
+		[Address(RVA = "0x4860800", Offset = "0x4860800", VA = "0x4860800", Slot = "18")]
 		get
 		{
 			return null;
@@ -28,7 +35,7 @@ internal class Datatype_base64Binary : Datatype_anySimpleType
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x600111D")]
-		[Address(RVA = "0x4523110", Offset = "0x4523110", VA = "0x4523110", Slot = "8")]
+		[Address(RVA = "0x4860870", Offset = "0x4860870", VA = "0x4860870", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -39,7 +46,7 @@ internal class Datatype_base64Binary : Datatype_anySimpleType
 	public override Type ValueType
 	{
 		[Token(Token = "0x600111E")]
-		[Address(RVA = "0x4523120", Offset = "0x4523120", VA = "0x4523120", Slot = "4")]
+		[Address(RVA = "0x4860880", Offset = "0x4860880", VA = "0x4860880", Slot = "4")]
 		get
 		{
 			return null;
@@ -50,7 +57,7 @@ internal class Datatype_base64Binary : Datatype_anySimpleType
 	internal override Type ListValueType
 	{
 		[Token(Token = "0x600111F")]
-		[Address(RVA = "0x4523190", Offset = "0x4523190", VA = "0x4523190", Slot = "26")]
+		[Address(RVA = "0x48608F0", Offset = "0x48608F0", VA = "0x48608F0", Slot = "26")]
 		get
 		{
 			return null;
@@ -61,7 +68,7 @@ internal class Datatype_base64Binary : Datatype_anySimpleType
 	internal override XmlSchemaWhiteSpace BuiltInWhitespaceFacet
 	{
 		[Token(Token = "0x6001120")]
-		[Address(RVA = "0x4523200", Offset = "0x4523200", VA = "0x4523200", Slot = "19")]
+		[Address(RVA = "0x4860960", Offset = "0x4860960", VA = "0x4860960", Slot = "19")]
 		get
 		{
 			return default(XmlSchemaWhiteSpace);
@@ -72,7 +79,7 @@ internal class Datatype_base64Binary : Datatype_anySimpleType
 	internal override RestrictionFlags ValidRestrictionFlags
 	{
 		[Token(Token = "0x6001121")]
-		[Address(RVA = "0x4523210", Offset = "0x4523210", VA = "0x4523210", Slot = "27")]
+		[Address(RVA = "0x4860970", Offset = "0x4860970", VA = "0x4860970", Slot = "27")]
 		get
 		{
 			return default(RestrictionFlags);
@@ -80,28 +87,28 @@ internal class Datatype_base64Binary : Datatype_anySimpleType
 	}
 
 	[Token(Token = "0x600111B")]
-	[Address(RVA = "0x4523090", Offset = "0x4523090", VA = "0x4523090", Slot = "25")]
+	[Address(RVA = "0x48607F0", Offset = "0x48607F0", VA = "0x48607F0", Slot = "25")]
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001122")]
-	[Address(RVA = "0x4523220", Offset = "0x4523220", VA = "0x4523220", Slot = "14")]
+	[Address(RVA = "0x4860980", Offset = "0x4860980", VA = "0x4860980", Slot = "14")]
 	internal override int Compare(object value1, object value2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001123")]
-	[Address(RVA = "0x4523300", Offset = "0x4523300", VA = "0x4523300", Slot = "16")]
+	[Address(RVA = "0x4860A60", Offset = "0x4860A60", VA = "0x4860A60", Slot = "16")]
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001124")]
-	[Address(RVA = "0x45182C0", Offset = "0x45182C0", VA = "0x45182C0")]
+	[Address(RVA = "0x4855A20", Offset = "0x4855A20", VA = "0x4855A20")]
 	public Datatype_base64Binary()
 	{
 	}

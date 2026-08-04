@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.Formatters.Binary.ObjectMapInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
@@ -22,13 +29,13 @@ internal sealed class ObjectMapInfo
 	private Type[] memberTypes;
 
 	[Token(Token = "0x60020E0")]
-	[Address(RVA = "0x4EC4640", Offset = "0x4EC4640", VA = "0x4EC4640")]
+	[Address(RVA = "0x3BAA160", Offset = "0x3BAA160", VA = "0x3BAA160")]
 	internal ObjectMapInfo(int objectId, int numMembers, string[] memberNames, Type[] memberTypes)
 	{
 	}
 
 	[Token(Token = "0x60020E1")]
-	[Address(RVA = "0x4EC44C0", Offset = "0x4EC44C0", VA = "0x4EC44C0")]
+	[Address(RVA = "0x3BA9FE0", Offset = "0x3BA9FE0", VA = "0x3BA9FE0")]
 	internal bool isCompatible(int numMembers, string[] memberNames, Type[] memberTypes)
 	{
 		return default(bool);

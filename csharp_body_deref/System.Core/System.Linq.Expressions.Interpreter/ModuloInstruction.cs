@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.ModuloInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -9,14 +16,14 @@ internal abstract class ModuloInstruction : Instruction
 	private sealed class ModuloInt16 : ModuloInstruction
 	{
 		[Token(Token = "0x60009B7")]
-		[Address(RVA = "0x41D3480", Offset = "0x41D3480", VA = "0x41D3480", Slot = "8")]
+		[Address(RVA = "0x44F8580", Offset = "0x44F8580", VA = "0x44F8580", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60009B8")]
-		[Address(RVA = "0x41D3400", Offset = "0x41D3400", VA = "0x41D3400")]
+		[Address(RVA = "0x44F8500", Offset = "0x44F8500", VA = "0x44F8500")]
 		public ModuloInt16()
 		{
 		}
@@ -26,14 +33,14 @@ internal abstract class ModuloInstruction : Instruction
 	private sealed class ModuloInt32 : ModuloInstruction
 	{
 		[Token(Token = "0x60009B9")]
-		[Address(RVA = "0x41D35E0", Offset = "0x41D35E0", VA = "0x41D35E0", Slot = "8")]
+		[Address(RVA = "0x44F86E0", Offset = "0x44F86E0", VA = "0x44F86E0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60009BA")]
-		[Address(RVA = "0x41D3410", Offset = "0x41D3410", VA = "0x41D3410")]
+		[Address(RVA = "0x44F8510", Offset = "0x44F8510", VA = "0x44F8510")]
 		public ModuloInt32()
 		{
 		}
@@ -43,14 +50,14 @@ internal abstract class ModuloInstruction : Instruction
 	private sealed class ModuloInt64 : ModuloInstruction
 	{
 		[Token(Token = "0x60009BB")]
-		[Address(RVA = "0x41D3870", Offset = "0x41D3870", VA = "0x41D3870", Slot = "8")]
+		[Address(RVA = "0x44F8970", Offset = "0x44F8970", VA = "0x44F8970", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60009BC")]
-		[Address(RVA = "0x41D3420", Offset = "0x41D3420", VA = "0x41D3420")]
+		[Address(RVA = "0x44F8520", Offset = "0x44F8520", VA = "0x44F8520")]
 		public ModuloInt64()
 		{
 		}
@@ -60,14 +67,14 @@ internal abstract class ModuloInstruction : Instruction
 	private sealed class ModuloUInt16 : ModuloInstruction
 	{
 		[Token(Token = "0x60009BD")]
-		[Address(RVA = "0x41D39D0", Offset = "0x41D39D0", VA = "0x41D39D0", Slot = "8")]
+		[Address(RVA = "0x44F8AD0", Offset = "0x44F8AD0", VA = "0x44F8AD0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60009BE")]
-		[Address(RVA = "0x41D3430", Offset = "0x41D3430", VA = "0x41D3430")]
+		[Address(RVA = "0x44F8530", Offset = "0x44F8530", VA = "0x44F8530")]
 		public ModuloUInt16()
 		{
 		}
@@ -77,14 +84,14 @@ internal abstract class ModuloInstruction : Instruction
 	private sealed class ModuloUInt32 : ModuloInstruction
 	{
 		[Token(Token = "0x60009BF")]
-		[Address(RVA = "0x41D3B40", Offset = "0x41D3B40", VA = "0x41D3B40", Slot = "8")]
+		[Address(RVA = "0x44F8C40", Offset = "0x44F8C40", VA = "0x44F8C40", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60009C0")]
-		[Address(RVA = "0x41D3440", Offset = "0x41D3440", VA = "0x41D3440")]
+		[Address(RVA = "0x44F8540", Offset = "0x44F8540", VA = "0x44F8540")]
 		public ModuloUInt32()
 		{
 		}
@@ -94,14 +101,14 @@ internal abstract class ModuloInstruction : Instruction
 	private sealed class ModuloUInt64 : ModuloInstruction
 	{
 		[Token(Token = "0x60009C1")]
-		[Address(RVA = "0x41D3CA0", Offset = "0x41D3CA0", VA = "0x41D3CA0", Slot = "8")]
+		[Address(RVA = "0x44F8DA0", Offset = "0x44F8DA0", VA = "0x44F8DA0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60009C2")]
-		[Address(RVA = "0x41D3450", Offset = "0x41D3450", VA = "0x41D3450")]
+		[Address(RVA = "0x44F8550", Offset = "0x44F8550", VA = "0x44F8550")]
 		public ModuloUInt64()
 		{
 		}
@@ -111,14 +118,14 @@ internal abstract class ModuloInstruction : Instruction
 	private sealed class ModuloSingle : ModuloInstruction
 	{
 		[Token(Token = "0x60009C3")]
-		[Address(RVA = "0x41D3E00", Offset = "0x41D3E00", VA = "0x41D3E00", Slot = "8")]
+		[Address(RVA = "0x44F8F00", Offset = "0x44F8F00", VA = "0x44F8F00", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60009C4")]
-		[Address(RVA = "0x41D3460", Offset = "0x41D3460", VA = "0x41D3460")]
+		[Address(RVA = "0x44F8560", Offset = "0x44F8560", VA = "0x44F8560")]
 		public ModuloSingle()
 		{
 		}
@@ -128,14 +135,14 @@ internal abstract class ModuloInstruction : Instruction
 	private sealed class ModuloDouble : ModuloInstruction
 	{
 		[Token(Token = "0x60009C5")]
-		[Address(RVA = "0x41D3F60", Offset = "0x41D3F60", VA = "0x41D3F60", Slot = "8")]
+		[Address(RVA = "0x44F9060", Offset = "0x44F9060", VA = "0x44F9060", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60009C6")]
-		[Address(RVA = "0x41D3470", Offset = "0x41D3470", VA = "0x41D3470")]
+		[Address(RVA = "0x44F8570", Offset = "0x44F8570", VA = "0x44F8570")]
 		public ModuloDouble()
 		{
 		}
@@ -177,7 +184,7 @@ internal abstract class ModuloInstruction : Instruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x60009B2")]
-		[Address(RVA = "0x41D2FE0", Offset = "0x41D2FE0", VA = "0x41D2FE0", Slot = "4")]
+		[Address(RVA = "0x44F80E0", Offset = "0x44F80E0", VA = "0x44F80E0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -188,7 +195,7 @@ internal abstract class ModuloInstruction : Instruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x60009B3")]
-		[Address(RVA = "0x41D2FF0", Offset = "0x41D2FF0", VA = "0x41D2FF0", Slot = "5")]
+		[Address(RVA = "0x44F80F0", Offset = "0x44F80F0", VA = "0x44F80F0", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -199,7 +206,7 @@ internal abstract class ModuloInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x60009B4")]
-		[Address(RVA = "0x41D3000", Offset = "0x41D3000", VA = "0x41D3000", Slot = "9")]
+		[Address(RVA = "0x44F8100", Offset = "0x44F8100", VA = "0x44F8100", Slot = "9")]
 		get
 		{
 			return null;
@@ -207,13 +214,13 @@ internal abstract class ModuloInstruction : Instruction
 	}
 
 	[Token(Token = "0x60009B5")]
-	[Address(RVA = "0x41D3030", Offset = "0x41D3030", VA = "0x41D3030")]
+	[Address(RVA = "0x44F8130", Offset = "0x44F8130", VA = "0x44F8130")]
 	private ModuloInstruction()
 	{
 	}
 
 	[Token(Token = "0x60009B6")]
-	[Address(RVA = "0x41D3040", Offset = "0x41D3040", VA = "0x41D3040")]
+	[Address(RVA = "0x44F8140", Offset = "0x44F8140", VA = "0x44F8140")]
 	public static Instruction Create(Type type)
 	{
 		return null;

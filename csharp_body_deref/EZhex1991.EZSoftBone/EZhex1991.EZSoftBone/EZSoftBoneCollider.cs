@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: EZhex1991.EZSoftBone.EZSoftBoneCollider
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/EZhex1991/EZSoftBone/EZSoftBoneCollider.c
+// Prior real C# source (older reference): Assets/ThirdParty/EZhex1991/EZSoftBone/Runtime/EZSoftBoneCollider.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -26,7 +33,7 @@ public class EZSoftBoneCollider : EZSoftBoneColliderBase
 	public Collider referenceCollider
 	{
 		[Token(Token = "0x6000057")]
-		[Address(RVA = "0x2358580", Offset = "0x2358580", VA = "0x2358580")]
+		[Address(RVA = "0x2396690", Offset = "0x2396690", VA = "0x2396690")]
 		get
 		{
 			return null;
@@ -37,13 +44,13 @@ public class EZSoftBoneCollider : EZSoftBoneColliderBase
 	public float margin
 	{
 		[Token(Token = "0x6000058")]
-		[Address(RVA = "0x2358610", Offset = "0x2358610", VA = "0x2358610")]
+		[Address(RVA = "0x2396720", Offset = "0x2396720", VA = "0x2396720")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000059")]
-		[Address(RVA = "0x2358620", Offset = "0x2358620", VA = "0x2358620")]
+		[Address(RVA = "0x2396730", Offset = "0x2396730", VA = "0x2396730")]
 		set
 		{
 		}
@@ -53,39 +60,39 @@ public class EZSoftBoneCollider : EZSoftBoneColliderBase
 	public bool insideMode
 	{
 		[Token(Token = "0x600005A")]
-		[Address(RVA = "0x2358630", Offset = "0x2358630", VA = "0x2358630")]
+		[Address(RVA = "0x2396740", Offset = "0x2396740", VA = "0x2396740")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600005B")]
-		[Address(RVA = "0x2358640", Offset = "0x2358640", VA = "0x2358640")]
+		[Address(RVA = "0x2396750", Offset = "0x2396750", VA = "0x2396750")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x2358650", Offset = "0x2358650", VA = "0x2358650", Slot = "4")]
+	[Address(RVA = "0x2396760", Offset = "0x2396760", VA = "0x2396760", Slot = "4")]
 	public override void Collide(ref Vector3 position, float spacing)
 	{
 	}
 
 	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x2359820", Offset = "0x2359820", VA = "0x2359820")]
+	[Address(RVA = "0x2397930", Offset = "0x2397930", VA = "0x2397930")]
 	private bool CheckConvex(MeshCollider meshCollider)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x23598A0", Offset = "0x23598A0", VA = "0x23598A0")]
+	[Address(RVA = "0x23979B0", Offset = "0x23979B0", VA = "0x23979B0")]
 	private void Reset()
 	{
 	}
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x23598F0", Offset = "0x23598F0", VA = "0x23598F0")]
+	[Address(RVA = "0x2397A00", Offset = "0x2397A00", VA = "0x2397A00")]
 	public EZSoftBoneCollider()
 	{
 	}

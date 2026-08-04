@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextGenerator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -62,7 +69,7 @@ public sealed class TextGenerator : IDisposable
 	public int characterCountVisible
 	{
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x4BC50B0", Offset = "0x4BC50B0", VA = "0x4BC50B0")]
+		[Address(RVA = "0x4EEC9E0", Offset = "0x4EEC9E0", VA = "0x4EEC9E0")]
 		get
 		{
 			return default(int);
@@ -73,7 +80,7 @@ public sealed class TextGenerator : IDisposable
 	public IList<UIVertex> verts
 	{
 		[Token(Token = "0x6000014")]
-		[Address(RVA = "0x4BC61B0", Offset = "0x4BC61B0", VA = "0x4BC61B0")]
+		[Address(RVA = "0x4EEDAE0", Offset = "0x4EEDAE0", VA = "0x4EEDAE0")]
 		get
 		{
 			return null;
@@ -84,7 +91,7 @@ public sealed class TextGenerator : IDisposable
 	public IList<UICharInfo> characters
 	{
 		[Token(Token = "0x6000015")]
-		[Address(RVA = "0x4BC6210", Offset = "0x4BC6210", VA = "0x4BC6210")]
+		[Address(RVA = "0x4EEDB40", Offset = "0x4EEDB40", VA = "0x4EEDB40")]
 		get
 		{
 			return null;
@@ -95,7 +102,7 @@ public sealed class TextGenerator : IDisposable
 	public IList<UILineInfo> lines
 	{
 		[Token(Token = "0x6000016")]
-		[Address(RVA = "0x4BC6270", Offset = "0x4BC6270", VA = "0x4BC6270")]
+		[Address(RVA = "0x4EEDBA0", Offset = "0x4EEDBA0", VA = "0x4EEDBA0")]
 		get
 		{
 			return null;
@@ -106,7 +113,7 @@ public sealed class TextGenerator : IDisposable
 	public Rect rectExtents
 	{
 		[Token(Token = "0x6000017")]
-		[Address(RVA = "0x4BC5810", Offset = "0x4BC5810", VA = "0x4BC5810")]
+		[Address(RVA = "0x4EED140", Offset = "0x4EED140", VA = "0x4EED140")]
 		get
 		{
 			return default(Rect);
@@ -118,7 +125,7 @@ public sealed class TextGenerator : IDisposable
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000018")]
-		[Address(RVA = "0x4BC50E0", Offset = "0x4BC50E0", VA = "0x4BC50E0")]
+		[Address(RVA = "0x4EECA10", Offset = "0x4EECA10", VA = "0x4EECA10")]
 		get;
 	}
 
@@ -127,102 +134,102 @@ public sealed class TextGenerator : IDisposable
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000019")]
-		[Address(RVA = "0x4BC6310", Offset = "0x4BC6310", VA = "0x4BC6310")]
+		[Address(RVA = "0x4EEDC40", Offset = "0x4EEDC40", VA = "0x4EEDC40")]
 		get;
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x4BC4D80", Offset = "0x4BC4D80", VA = "0x4BC4D80")]
+	[Address(RVA = "0x4EEC6B0", Offset = "0x4EEC6B0", VA = "0x4EEC6B0")]
 	public TextGenerator()
 	{
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x4BC4D90", Offset = "0x4BC4D90", VA = "0x4BC4D90")]
+	[Address(RVA = "0x4EEC6C0", Offset = "0x4EEC6C0", VA = "0x4EEC6C0")]
 	public TextGenerator(int initialCapacity)
 	{
 	}
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x4BC4F30", Offset = "0x4BC4F30", VA = "0x4BC4F30", Slot = "1")]
+	[Address(RVA = "0x4EEC860", Offset = "0x4EEC860", VA = "0x4EEC860", Slot = "1")]
 	~TextGenerator()
 	{
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x4BC5030", Offset = "0x4BC5030", VA = "0x4BC5030", Slot = "4")]
+	[Address(RVA = "0x4EEC960", Offset = "0x4EEC960", VA = "0x4EEC960", Slot = "4")]
 	private void System_002EIDisposable_002EDispose()
 	{
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x4BC5110", Offset = "0x4BC5110", VA = "0x4BC5110")]
+	[Address(RVA = "0x4EECA40", Offset = "0x4EECA40", VA = "0x4EECA40")]
 	private TextGenerationSettings ValidatedSettings(TextGenerationSettings settings)
 	{
 		return default(TextGenerationSettings);
 	}
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x4BC5560", Offset = "0x4BC5560", VA = "0x4BC5560")]
+	[Address(RVA = "0x4EECE90", Offset = "0x4EECE90", VA = "0x4EECE90")]
 	public void Invalidate()
 	{
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x4BC5570", Offset = "0x4BC5570", VA = "0x4BC5570")]
+	[Address(RVA = "0x4EECEA0", Offset = "0x4EECEA0", VA = "0x4EECEA0")]
 	public void GetCharacters(List<UICharInfo> characters)
 	{
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x4BC55F0", Offset = "0x4BC55F0", VA = "0x4BC55F0")]
+	[Address(RVA = "0x4EECF20", Offset = "0x4EECF20", VA = "0x4EECF20")]
 	public void GetLines(List<UILineInfo> lines)
 	{
 	}
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x4BC5670", Offset = "0x4BC5670", VA = "0x4BC5670")]
+	[Address(RVA = "0x4EECFA0", Offset = "0x4EECFA0", VA = "0x4EECFA0")]
 	public void GetVertices(List<UIVertex> vertices)
 	{
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x4BC56F0", Offset = "0x4BC56F0", VA = "0x4BC56F0")]
+	[Address(RVA = "0x4EED020", Offset = "0x4EED020", VA = "0x4EED020")]
 	public float GetPreferredWidth(string str, TextGenerationSettings settings)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x4BC5860", Offset = "0x4BC5860", VA = "0x4BC5860")]
+	[Address(RVA = "0x4EED190", Offset = "0x4EED190", VA = "0x4EED190")]
 	public float GetPreferredHeight(string str, TextGenerationSettings settings)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x4BC5910", Offset = "0x4BC5910", VA = "0x4BC5910")]
+	[Address(RVA = "0x4EED240", Offset = "0x4EED240", VA = "0x4EED240")]
 	public bool PopulateWithErrors(string str, TextGenerationSettings settings, GameObject context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x4BC57B0", Offset = "0x4BC57B0", VA = "0x4BC57B0")]
+	[Address(RVA = "0x4EED0E0", Offset = "0x4EED0E0", VA = "0x4EED0E0")]
 	public bool Populate(string str, TextGenerationSettings settings)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x4BC5B20", Offset = "0x4BC5B20", VA = "0x4BC5B20")]
+	[Address(RVA = "0x4EED450", Offset = "0x4EED450", VA = "0x4EED450")]
 	private TextGenerationError PopulateWithError(string str, TextGenerationSettings settings)
 	{
 		return default(TextGenerationError);
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x4BC5DA0", Offset = "0x4BC5DA0", VA = "0x4BC5DA0")]
+	[Address(RVA = "0x4EED6D0", Offset = "0x4EED6D0", VA = "0x4EED6D0")]
 	private TextGenerationError PopulateAlways(string str, TextGenerationSettings settings)
 	{
 		return default(TextGenerationError);
@@ -230,25 +237,25 @@ public sealed class TextGenerator : IDisposable
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x4BC4F00", Offset = "0x4BC4F00", VA = "0x4BC4F00")]
+	[Address(RVA = "0x4EEC830", Offset = "0x4EEC830", VA = "0x4EEC830")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 	private static extern IntPtr Internal_Create();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x4BC5080", Offset = "0x4BC5080", VA = "0x4BC5080")]
+	[Address(RVA = "0x4EEC9B0", Offset = "0x4EEC9B0", VA = "0x4EEC9B0")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 	private static extern void Internal_Destroy(IntPtr ptr);
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x4BC6340", Offset = "0x4BC6340", VA = "0x4BC6340")]
+	[Address(RVA = "0x4EEDC70", Offset = "0x4EEDC70", VA = "0x4EEDC70")]
 	internal bool Populate_Internal(string str, Font font, Color color, int fontSize, float scaleFactor, float lineSpacing, FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, int verticalOverFlow, int horizontalOverflow, bool updateBounds, TextAnchor anchor, float extentsX, float extentsY, float pivotX, float pivotY, bool generateOutOfBounds, bool alignByGeometry, out uint error)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x4BC5F70", Offset = "0x4BC5F70", VA = "0x4BC5F70")]
+	[Address(RVA = "0x4EED8A0", Offset = "0x4EED8A0", VA = "0x4EED8A0")]
 	internal bool Populate_Internal(string str, Font font, Color color, int fontSize, float scaleFactor, float lineSpacing, FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, VerticalWrapMode verticalOverFlow, HorizontalWrapMode horizontalOverflow, bool updateBounds, TextAnchor anchor, Vector2 extents, Vector2 pivot, bool generateOutOfBounds, bool alignByGeometry, out TextGenerationError error)
 	{
 		return default(bool);
@@ -256,29 +263,29 @@ public sealed class TextGenerator : IDisposable
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x4BC56B0", Offset = "0x4BC56B0", VA = "0x4BC56B0")]
+	[Address(RVA = "0x4EECFE0", Offset = "0x4EECFE0", VA = "0x4EECFE0")]
 	[UnityEngine.Bindings.NativeThrows]
 	private extern void GetVerticesInternal(object vertices);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x4BC55B0", Offset = "0x4BC55B0", VA = "0x4BC55B0")]
+	[Address(RVA = "0x4EECEE0", Offset = "0x4EECEE0", VA = "0x4EECEE0")]
 	[UnityEngine.Bindings.NativeThrows]
 	private extern void GetCharactersInternal(object characters);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x4BC5630", Offset = "0x4BC5630", VA = "0x4BC5630")]
+	[Address(RVA = "0x4EECF60", Offset = "0x4EECF60", VA = "0x4EECF60")]
 	[UnityEngine.Bindings.NativeThrows]
 	private extern void GetLinesInternal(object lines);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x4BC62D0", Offset = "0x4BC62D0", VA = "0x4BC62D0")]
+	[Address(RVA = "0x4EEDC00", Offset = "0x4EEDC00", VA = "0x4EEDC00")]
 	private static extern void get_rectExtents_Injected(TextGenerator _unity_self, out Rect ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x4BC64F0", Offset = "0x4BC64F0", VA = "0x4BC64F0")]
+	[Address(RVA = "0x4EEDE20", Offset = "0x4EEDE20", VA = "0x4EEDE20")]
 	private static extern bool Populate_Internal_Injected(TextGenerator _unity_self, string str, IntPtr font, [In] ref Color color, int fontSize, float scaleFactor, float lineSpacing, FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, int verticalOverFlow, int horizontalOverflow, bool updateBounds, TextAnchor anchor, float extentsX, float extentsY, float pivotX, float pivotY, bool generateOutOfBounds, bool alignByGeometry, out uint error);
 }

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.DebugDisplaySettingsPanel
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -19,7 +26,7 @@ public abstract class DebugDisplaySettingsPanel : IDebugDisplaySettingsPanelDisp
 	public virtual string PanelName
 	{
 		[Token(Token = "0x6000672")]
-		[Address(RVA = "0x48748F0", Offset = "0x48748F0", VA = "0x48748F0", Slot = "8")]
+		[Address(RVA = "0x4B999E0", Offset = "0x4B999E0", VA = "0x4B999E0", Slot = "8")]
 		get
 		{
 			return null;
@@ -30,7 +37,7 @@ public abstract class DebugDisplaySettingsPanel : IDebugDisplaySettingsPanelDisp
 	public virtual int Order
 	{
 		[Token(Token = "0x6000673")]
-		[Address(RVA = "0x4874920", Offset = "0x4874920", VA = "0x4874920", Slot = "9")]
+		[Address(RVA = "0x4B99A10", Offset = "0x4B99A10", VA = "0x4B99A10", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -41,7 +48,7 @@ public abstract class DebugDisplaySettingsPanel : IDebugDisplaySettingsPanelDisp
 	public DebugUI.Widget[] Widgets
 	{
 		[Token(Token = "0x6000674")]
-		[Address(RVA = "0x4874930", Offset = "0x4874930", VA = "0x4874930", Slot = "5")]
+		[Address(RVA = "0x4B99A20", Offset = "0x4B99A20", VA = "0x4B99A20", Slot = "5")]
 		get
 		{
 			return null;
@@ -52,7 +59,7 @@ public abstract class DebugDisplaySettingsPanel : IDebugDisplaySettingsPanelDisp
 	public virtual DebugUI.Flags Flags
 	{
 		[Token(Token = "0x6000675")]
-		[Address(RVA = "0x4874970", Offset = "0x4874970", VA = "0x4874970", Slot = "10")]
+		[Address(RVA = "0x4B99A60", Offset = "0x4B99A60", VA = "0x4B99A60", Slot = "10")]
 		get
 		{
 			return default(DebugUI.Flags);
@@ -60,25 +67,25 @@ public abstract class DebugDisplaySettingsPanel : IDebugDisplaySettingsPanelDisp
 	}
 
 	[Token(Token = "0x6000676")]
-	[Address(RVA = "0x4874980", Offset = "0x4874980", VA = "0x4874980")]
+	[Address(RVA = "0x4B99A70", Offset = "0x4B99A70", VA = "0x4B99A70")]
 	protected void AddWidget(DebugUI.Widget widget)
 	{
 	}
 
 	[Token(Token = "0x6000677")]
-	[Address(RVA = "0x4874A60", Offset = "0x4874A60", VA = "0x4874A60")]
+	[Address(RVA = "0x4B99B50", Offset = "0x4B99B50", VA = "0x4B99B50")]
 	protected void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000678")]
-	[Address(RVA = "0x4874AB0", Offset = "0x4874AB0", VA = "0x4874AB0", Slot = "11")]
+	[Address(RVA = "0x4B99BA0", Offset = "0x4B99BA0", VA = "0x4B99BA0", Slot = "11")]
 	public virtual void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000679")]
-	[Address(RVA = "0x4874B00", Offset = "0x4874B00", VA = "0x4874B00")]
+	[Address(RVA = "0x4B99BF0", Offset = "0x4B99BF0", VA = "0x4B99BF0")]
 	protected DebugDisplaySettingsPanel()
 	{
 	}

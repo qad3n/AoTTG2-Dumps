@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Experimental.Rendering.RenderGraphModule.RasterGraphContext
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.Experimental.Rendering.RenderGraphModule;
@@ -21,7 +28,7 @@ public struct RasterGraphContext : IDerivedRendergraphContext
 	public RenderGraphDefaultResources defaultResources
 	{
 		[Token(Token = "0x6000340")]
-		[Address(RVA = "0x48559D0", Offset = "0x48559D0", VA = "0x48559D0")]
+		[Address(RVA = "0x4B7AAC0", Offset = "0x4B7AAC0", VA = "0x4B7AAC0")]
 		get
 		{
 			return null;
@@ -32,7 +39,7 @@ public struct RasterGraphContext : IDerivedRendergraphContext
 	public RenderGraphObjectPool renderGraphPool
 	{
 		[Token(Token = "0x6000341")]
-		[Address(RVA = "0x48559F0", Offset = "0x48559F0", VA = "0x48559F0")]
+		[Address(RVA = "0x4B7AAE0", Offset = "0x4B7AAE0", VA = "0x4B7AAE0")]
 		get
 		{
 			return null;
@@ -40,7 +47,7 @@ public struct RasterGraphContext : IDerivedRendergraphContext
 	}
 
 	[Token(Token = "0x6000342")]
-	[Address(RVA = "0x4855A10", Offset = "0x4855A10", VA = "0x4855A10", Slot = "4")]
+	[Address(RVA = "0x4B7AB00", Offset = "0x4B7AB00", VA = "0x4B7AB00", Slot = "4")]
 	public void FromInternalContext(InternalRenderGraphContext context)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Delegate
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -67,7 +74,7 @@ public abstract class Delegate : ICloneable, ISerializable
 	public MethodInfo Method
 	{
 		[Token(Token = "0x6000F69")]
-		[Address(RVA = "0x5024970", Offset = "0x5024970", VA = "0x5024970")]
+		[Address(RVA = "0x3D0A490", Offset = "0x3D0A490", VA = "0x3D0A490")]
 		get
 		{
 			return null;
@@ -78,7 +85,7 @@ public abstract class Delegate : ICloneable, ISerializable
 	public object Target
 	{
 		[Token(Token = "0x6000F6B")]
-		[Address(RVA = "0x50249A0", Offset = "0x50249A0", VA = "0x50249A0")]
+		[Address(RVA = "0x3D0A4C0", Offset = "0x3D0A4C0", VA = "0x3D0A4C0")]
 		get
 		{
 			return null;
@@ -87,162 +94,162 @@ public abstract class Delegate : ICloneable, ISerializable
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000F6A")]
-	[Address(RVA = "0x5024990", Offset = "0x5024990", VA = "0x5024990")]
+	[Address(RVA = "0x3D0A4B0", Offset = "0x3D0A4B0", VA = "0x3D0A4B0")]
 	private extern MethodInfo GetVirtualMethod_internal();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000F6C")]
-	[Address(RVA = "0x50249B0", Offset = "0x50249B0", VA = "0x50249B0")]
+	[Address(RVA = "0x3D0A4D0", Offset = "0x3D0A4D0", VA = "0x3D0A4D0")]
 	internal static extern Delegate CreateDelegate_internal(Type type, object target, MethodInfo info, bool throwOnBindFailure);
 
 	[Token(Token = "0x6000F6D")]
-	[Address(RVA = "0x50249C0", Offset = "0x50249C0", VA = "0x50249C0")]
+	[Address(RVA = "0x3D0A4E0", Offset = "0x3D0A4E0", VA = "0x3D0A4E0")]
 	private static bool arg_type_match(Type delArgType, Type argType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F6E")]
-	[Address(RVA = "0x5024B20", Offset = "0x5024B20", VA = "0x5024B20")]
+	[Address(RVA = "0x3D0A640", Offset = "0x3D0A640", VA = "0x3D0A640")]
 	private static bool arg_type_match_this(Type delArgType, Type argType, bool boxedThis)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F6F")]
-	[Address(RVA = "0x5024C50", Offset = "0x5024C50", VA = "0x5024C50")]
+	[Address(RVA = "0x3D0A770", Offset = "0x3D0A770", VA = "0x3D0A770")]
 	private static bool return_type_match(Type delReturnType, Type returnType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F70")]
-	[Address(RVA = "0x5024E30", Offset = "0x5024E30", VA = "0x5024E30")]
+	[Address(RVA = "0x3D0A950", Offset = "0x3D0A950", VA = "0x3D0A950")]
 	private static Delegate CreateDelegate(Type type, object firstArgument, MethodInfo method, bool throwOnBindFailure, bool allowClosed)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F71")]
-	[Address(RVA = "0x50256B0", Offset = "0x50256B0", VA = "0x50256B0")]
+	[Address(RVA = "0x3D0B1D0", Offset = "0x3D0B1D0", VA = "0x3D0B1D0")]
 	public static Delegate CreateDelegate(Type type, object firstArgument, MethodInfo method)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F72")]
-	[Address(RVA = "0x50256C0", Offset = "0x50256C0", VA = "0x50256C0")]
+	[Address(RVA = "0x3D0B1E0", Offset = "0x3D0B1E0", VA = "0x3D0B1E0")]
 	public static Delegate CreateDelegate(Type type, MethodInfo method, bool throwOnBindFailure)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F73")]
-	[Address(RVA = "0x50256D0", Offset = "0x50256D0", VA = "0x50256D0")]
+	[Address(RVA = "0x3D0B1F0", Offset = "0x3D0B1F0", VA = "0x3D0B1F0")]
 	public static Delegate CreateDelegate(Type type, MethodInfo method)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F74")]
-	[Address(RVA = "0x50256F0", Offset = "0x50256F0", VA = "0x50256F0")]
+	[Address(RVA = "0x3D0B210", Offset = "0x3D0B210", VA = "0x3D0B210")]
 	public static Delegate CreateDelegate(Type type, object target, string method)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F75")]
-	[Address(RVA = "0x5025710", Offset = "0x5025710", VA = "0x5025710")]
+	[Address(RVA = "0x3D0B230", Offset = "0x3D0B230", VA = "0x3D0B230")]
 	private static MethodInfo GetCandidateMethod(Type type, Type target, string method, BindingFlags bflags, bool ignoreCase, bool throwOnBindFailure)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F76")]
-	[Address(RVA = "0x5025C20", Offset = "0x5025C20", VA = "0x5025C20")]
+	[Address(RVA = "0x3D0B740", Offset = "0x3D0B740", VA = "0x3D0B740")]
 	public static Delegate CreateDelegate(Type type, Type target, string method, bool ignoreCase, bool throwOnBindFailure)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F77")]
-	[Address(RVA = "0x5025D10", Offset = "0x5025D10", VA = "0x5025D10")]
+	[Address(RVA = "0x3D0B830", Offset = "0x3D0B830", VA = "0x3D0B830")]
 	public static Delegate CreateDelegate(Type type, Type target, string method)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F78")]
-	[Address(RVA = "0x5025D20", Offset = "0x5025D20", VA = "0x5025D20")]
+	[Address(RVA = "0x3D0B840", Offset = "0x3D0B840", VA = "0x3D0B840")]
 	public static Delegate CreateDelegate(Type type, Type target, string method, bool ignoreCase)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F79")]
-	[Address(RVA = "0x5025D30", Offset = "0x5025D30", VA = "0x5025D30")]
+	[Address(RVA = "0x3D0B850", Offset = "0x3D0B850", VA = "0x3D0B850")]
 	public static Delegate CreateDelegate(Type type, object target, string method, bool ignoreCase, bool throwOnBindFailure)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F7A")]
-	[Address(RVA = "0x5025700", Offset = "0x5025700", VA = "0x5025700")]
+	[Address(RVA = "0x3D0B220", Offset = "0x3D0B220", VA = "0x3D0B220")]
 	public static Delegate CreateDelegate(Type type, object target, string method, bool ignoreCase)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F7B")]
-	[Address(RVA = "0x5025E00", Offset = "0x5025E00", VA = "0x5025E00", Slot = "6")]
+	[Address(RVA = "0x3D0B920", Offset = "0x3D0B920", VA = "0x3D0B920", Slot = "6")]
 	public virtual object Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F7C")]
-	[Address(RVA = "0x5025E20", Offset = "0x5025E20", VA = "0x5025E20", Slot = "0")]
+	[Address(RVA = "0x3D0B940", Offset = "0x3D0B940", VA = "0x3D0B940", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F7D")]
-	[Address(RVA = "0x5025FD0", Offset = "0x5025FD0", VA = "0x5025FD0", Slot = "2")]
+	[Address(RVA = "0x3D0BAF0", Offset = "0x3D0BAF0", VA = "0x3D0BAF0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000F7E")]
-	[Address(RVA = "0x5026050", Offset = "0x5026050", VA = "0x5026050", Slot = "7")]
+	[Address(RVA = "0x3D0BB70", Offset = "0x3D0BB70", VA = "0x3D0BB70", Slot = "7")]
 	protected virtual MethodInfo GetMethodImpl()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F7F")]
-	[Address(RVA = "0x5026120", Offset = "0x5026120", VA = "0x5026120", Slot = "8")]
+	[Address(RVA = "0x3D0BC40", Offset = "0x3D0BC40", VA = "0x3D0BC40", Slot = "8")]
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000F80")]
-	[Address(RVA = "0x50263E0", Offset = "0x50263E0", VA = "0x50263E0", Slot = "9")]
+	[Address(RVA = "0x3D0BF00", Offset = "0x3D0BF00", VA = "0x3D0BF00", Slot = "9")]
 	public virtual Delegate[] GetInvocationList()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F81")]
-	[Address(RVA = "0x5020290", Offset = "0x5020290", VA = "0x5020290")]
+	[Address(RVA = "0x3D05DB0", Offset = "0x3D05DB0", VA = "0x3D05DB0")]
 	public static Delegate Combine(Delegate a, Delegate b)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F82")]
-	[Address(RVA = "0x5026480", Offset = "0x5026480", VA = "0x5026480")]
+	[Address(RVA = "0x3D0BFA0", Offset = "0x3D0BFA0", VA = "0x3D0BFA0")]
 	[ComVisible(true)]
 	public static Delegate Combine(params Delegate[] delegates)
 	{
@@ -250,35 +257,35 @@ public abstract class Delegate : ICloneable, ISerializable
 	}
 
 	[Token(Token = "0x6000F83")]
-	[Address(RVA = "0x50264E0", Offset = "0x50264E0", VA = "0x50264E0", Slot = "10")]
+	[Address(RVA = "0x3D0C000", Offset = "0x3D0C000", VA = "0x3D0C000", Slot = "10")]
 	protected virtual Delegate CombineImpl(Delegate d)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F84")]
-	[Address(RVA = "0x5020470", Offset = "0x5020470", VA = "0x5020470")]
+	[Address(RVA = "0x3D05F90", Offset = "0x3D05F90", VA = "0x3D05F90")]
 	public static Delegate Remove(Delegate source, Delegate value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F85")]
-	[Address(RVA = "0x5026540", Offset = "0x5026540", VA = "0x5026540", Slot = "11")]
+	[Address(RVA = "0x3D0C060", Offset = "0x3D0C060", VA = "0x3D0C060", Slot = "11")]
 	protected virtual Delegate RemoveImpl(Delegate d)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F86")]
-	[Address(RVA = "0x5026570", Offset = "0x5026570", VA = "0x5026570")]
+	[Address(RVA = "0x3D0C090", Offset = "0x3D0C090", VA = "0x3D0C090")]
 	public static bool operator ==(Delegate d1, Delegate d2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F87")]
-	[Address(RVA = "0x50265A0", Offset = "0x50265A0", VA = "0x50265A0")]
+	[Address(RVA = "0x3D0C0C0", Offset = "0x3D0C0C0", VA = "0x3D0C0C0")]
 	public static bool operator !=(Delegate d1, Delegate d2)
 	{
 		return default(bool);
@@ -286,6 +293,6 @@ public abstract class Delegate : ICloneable, ISerializable
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000F88")]
-	[Address(RVA = "0x50265D0", Offset = "0x50265D0", VA = "0x50265D0")]
+	[Address(RVA = "0x3D0C0F0", Offset = "0x3D0C0F0", VA = "0x3D0C0F0")]
 	internal static extern MulticastDelegate AllocDelegateLike_internal(Delegate d);
 }

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.RSAEncryptionPadding
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
@@ -37,7 +44,7 @@ public sealed class RSAEncryptionPadding : IEquatable<RSAEncryptionPadding>
 	public static RSAEncryptionPadding Pkcs1
 	{
 		[Token(Token = "0x6001853")]
-		[Address(RVA = "0x4E45350", Offset = "0x4E45350", VA = "0x4E45350")]
+		[Address(RVA = "0x3B2AE70", Offset = "0x3B2AE70", VA = "0x3B2AE70")]
 		get
 		{
 			return null;
@@ -48,7 +55,7 @@ public sealed class RSAEncryptionPadding : IEquatable<RSAEncryptionPadding>
 	public static RSAEncryptionPadding OaepSHA1
 	{
 		[Token(Token = "0x6001854")]
-		[Address(RVA = "0x4E453C0", Offset = "0x4E453C0", VA = "0x4E453C0")]
+		[Address(RVA = "0x3B2AEE0", Offset = "0x3B2AEE0", VA = "0x3B2AEE0")]
 		get
 		{
 			return null;
@@ -59,7 +66,7 @@ public sealed class RSAEncryptionPadding : IEquatable<RSAEncryptionPadding>
 	public static RSAEncryptionPadding OaepSHA256
 	{
 		[Token(Token = "0x6001855")]
-		[Address(RVA = "0x4E45430", Offset = "0x4E45430", VA = "0x4E45430")]
+		[Address(RVA = "0x3B2AF50", Offset = "0x3B2AF50", VA = "0x3B2AF50")]
 		get
 		{
 			return null;
@@ -70,7 +77,7 @@ public sealed class RSAEncryptionPadding : IEquatable<RSAEncryptionPadding>
 	public static RSAEncryptionPadding OaepSHA384
 	{
 		[Token(Token = "0x6001856")]
-		[Address(RVA = "0x4E454A0", Offset = "0x4E454A0", VA = "0x4E454A0")]
+		[Address(RVA = "0x3B2AFC0", Offset = "0x3B2AFC0", VA = "0x3B2AFC0")]
 		get
 		{
 			return null;
@@ -81,7 +88,7 @@ public sealed class RSAEncryptionPadding : IEquatable<RSAEncryptionPadding>
 	public static RSAEncryptionPadding OaepSHA512
 	{
 		[Token(Token = "0x6001857")]
-		[Address(RVA = "0x4E45510", Offset = "0x4E45510", VA = "0x4E45510")]
+		[Address(RVA = "0x3B2B030", Offset = "0x3B2B030", VA = "0x3B2B030")]
 		get
 		{
 			return null;
@@ -92,7 +99,7 @@ public sealed class RSAEncryptionPadding : IEquatable<RSAEncryptionPadding>
 	public RSAEncryptionPaddingMode Mode
 	{
 		[Token(Token = "0x600185A")]
-		[Address(RVA = "0x4E45690", Offset = "0x4E45690", VA = "0x4E45690")]
+		[Address(RVA = "0x3B2B1B0", Offset = "0x3B2B1B0", VA = "0x3B2B1B0")]
 		get
 		{
 			return default(RSAEncryptionPaddingMode);
@@ -103,7 +110,7 @@ public sealed class RSAEncryptionPadding : IEquatable<RSAEncryptionPadding>
 	public HashAlgorithmName OaepHashAlgorithm
 	{
 		[Token(Token = "0x600185B")]
-		[Address(RVA = "0x4E456A0", Offset = "0x4E456A0", VA = "0x4E456A0")]
+		[Address(RVA = "0x3B2B1C0", Offset = "0x3B2B1C0", VA = "0x3B2B1C0")]
 		get
 		{
 			return default(HashAlgorithmName);
@@ -111,69 +118,69 @@ public sealed class RSAEncryptionPadding : IEquatable<RSAEncryptionPadding>
 	}
 
 	[Token(Token = "0x6001858")]
-	[Address(RVA = "0x4E45580", Offset = "0x4E45580", VA = "0x4E45580")]
+	[Address(RVA = "0x3B2B0A0", Offset = "0x3B2B0A0", VA = "0x3B2B0A0")]
 	private RSAEncryptionPadding(RSAEncryptionPaddingMode mode, HashAlgorithmName oaepHashAlgorithm)
 	{
 	}
 
 	[Token(Token = "0x6001859")]
-	[Address(RVA = "0x4E455B0", Offset = "0x4E455B0", VA = "0x4E455B0")]
+	[Address(RVA = "0x3B2B0D0", Offset = "0x3B2B0D0", VA = "0x3B2B0D0")]
 	public static RSAEncryptionPadding CreateOaep(HashAlgorithmName hashAlgorithm)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600185C")]
-	[Address(RVA = "0x4E456B0", Offset = "0x4E456B0", VA = "0x4E456B0", Slot = "2")]
+	[Address(RVA = "0x3B2B1D0", Offset = "0x3B2B1D0", VA = "0x3B2B1D0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600185D")]
-	[Address(RVA = "0x4E45730", Offset = "0x4E45730", VA = "0x4E45730")]
+	[Address(RVA = "0x3B2B250", Offset = "0x3B2B250", VA = "0x3B2B250")]
 	private static int CombineHashCodes(int h1, int h2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600185E")]
-	[Address(RVA = "0x4E45740", Offset = "0x4E45740", VA = "0x4E45740", Slot = "0")]
+	[Address(RVA = "0x3B2B260", Offset = "0x3B2B260", VA = "0x3B2B260", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600185F")]
-	[Address(RVA = "0x4E45790", Offset = "0x4E45790", VA = "0x4E45790", Slot = "4")]
+	[Address(RVA = "0x3B2B2B0", Offset = "0x3B2B2B0", VA = "0x3B2B2B0", Slot = "4")]
 	public bool Equals(RSAEncryptionPadding other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001860")]
-	[Address(RVA = "0x4E459B0", Offset = "0x4E459B0", VA = "0x4E459B0")]
+	[Address(RVA = "0x3B2B4D0", Offset = "0x3B2B4D0", VA = "0x3B2B4D0")]
 	public static bool operator ==(RSAEncryptionPadding left, RSAEncryptionPadding right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001861")]
-	[Address(RVA = "0x4E45930", Offset = "0x4E45930", VA = "0x4E45930")]
+	[Address(RVA = "0x3B2B450", Offset = "0x3B2B450", VA = "0x3B2B450")]
 	public static bool operator !=(RSAEncryptionPadding left, RSAEncryptionPadding right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001862")]
-	[Address(RVA = "0x4E459D0", Offset = "0x4E459D0", VA = "0x4E459D0", Slot = "3")]
+	[Address(RVA = "0x3B2B4F0", Offset = "0x3B2B4F0", VA = "0x3B2B4F0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001864")]
-	[Address(RVA = "0x4E45C20", Offset = "0x4E45C20", VA = "0x4E45C20")]
+	[Address(RVA = "0x3B2B740", Offset = "0x3B2B740", VA = "0x3B2B740")]
 	internal RSAEncryptionPadding()
 	{
 	}

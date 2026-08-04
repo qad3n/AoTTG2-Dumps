@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Reflection;
 using Il2CppDummyDll;
@@ -16,7 +23,7 @@ internal class LateBoundReflectionDelegateFactory : ReflectionDelegateFactory
 	internal static ReflectionDelegateFactory Instance
 	{
 		[Token(Token = "0x600065E")]
-		[Address(RVA = "0x3ACA2E0", Offset = "0x3ACA2E0", VA = "0x3ACA2E0")]
+		[Address(RVA = "0x3DBFC30", Offset = "0x3DBFC30", VA = "0x3DBFC30")]
 		get
 		{
 			return null;
@@ -24,7 +31,7 @@ internal class LateBoundReflectionDelegateFactory : ReflectionDelegateFactory
 	}
 
 	[Token(Token = "0x600065F")]
-	[Address(RVA = "0x3ACA350", Offset = "0x3ACA350", VA = "0x3ACA350", Slot = "5")]
+	[Address(RVA = "0x3DBFCA0", Offset = "0x3DBFCA0", VA = "0x3DBFCA0", Slot = "5")]
 	public override ObjectConstructor<object> CreateParameterizedConstructor(MethodBase method)
 	{
 		return null;
@@ -67,7 +74,7 @@ internal class LateBoundReflectionDelegateFactory : ReflectionDelegateFactory
 	}
 
 	[Token(Token = "0x6000666")]
-	[Address(RVA = "0x3ACA4D0", Offset = "0x3ACA4D0", VA = "0x3ACA4D0")]
+	[Address(RVA = "0x3DBFE20", Offset = "0x3DBFE20", VA = "0x3DBFE20")]
 	public LateBoundReflectionDelegateFactory()
 	{
 	}

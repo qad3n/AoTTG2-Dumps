@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.XR.XRNodeState
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
 
@@ -51,7 +58,7 @@ public struct XRNodeState
 	public ulong uniqueID
 	{
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x4DE4260", Offset = "0x4DE4260", VA = "0x4DE4260")]
+		[Address(RVA = "0x510C2F0", Offset = "0x510C2F0", VA = "0x510C2F0")]
 		set
 		{
 		}
@@ -61,7 +68,7 @@ public struct XRNodeState
 	public XRNode nodeType
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x4DE4270", Offset = "0x4DE4270", VA = "0x4DE4270")]
+		[Address(RVA = "0x510C300", Offset = "0x510C300", VA = "0x510C300")]
 		set
 		{
 		}
@@ -71,7 +78,7 @@ public struct XRNodeState
 	public bool tracked
 	{
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x4DE4280", Offset = "0x4DE4280", VA = "0x4DE4280")]
+		[Address(RVA = "0x510C310", Offset = "0x510C310", VA = "0x510C310")]
 		set
 		{
 		}

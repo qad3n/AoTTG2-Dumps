@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: CustomLogic.CustomLogicCompiler
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/CustomLogic/CustomLogicCompiler.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -7,156 +14,156 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000441")]
+[Token(Token = "0x2000486")]
 public class CustomLogicCompiler
 {
-	[Token(Token = "0x2000442")]
+	[Token(Token = "0x2000487")]
 	private class FileRange
 	{
-		[Token(Token = "0x170008C9")]
+		[Token(Token = "0x17000933")]
 		public string Name
 		{
-			[Token(Token = "0x6002DFA")]
-			[Address(RVA = "0x3E50540", Offset = "0x3E50540", VA = "0x3E50540")]
+			[Token(Token = "0x6003004")]
+			[Address(RVA = "0x415BD00", Offset = "0x415BD00", VA = "0x415BD00")]
 			[CompilerGenerated]
 			get
 			{
 				return null;
 			}
-			[Token(Token = "0x6002DFB")]
-			[Address(RVA = "0x3E50550", Offset = "0x3E50550", VA = "0x3E50550")]
+			[Token(Token = "0x6003005")]
+			[Address(RVA = "0x415BD10", Offset = "0x415BD10", VA = "0x415BD10")]
 			[CompilerGenerated]
 			set
 			{
 			}
 		}
 
-		[Token(Token = "0x170008CA")]
+		[Token(Token = "0x17000934")]
 		public CustomLogicSourceType Type
 		{
-			[Token(Token = "0x6002DFC")]
-			[Address(RVA = "0x3E50560", Offset = "0x3E50560", VA = "0x3E50560")]
+			[Token(Token = "0x6003006")]
+			[Address(RVA = "0x415BD20", Offset = "0x415BD20", VA = "0x415BD20")]
 			[CompilerGenerated]
 			get
 			{
 				return default(CustomLogicSourceType);
 			}
-			[Token(Token = "0x6002DFD")]
-			[Address(RVA = "0x3E50570", Offset = "0x3E50570", VA = "0x3E50570")]
+			[Token(Token = "0x6003007")]
+			[Address(RVA = "0x415BD30", Offset = "0x415BD30", VA = "0x415BD30")]
 			[CompilerGenerated]
 			set
 			{
 			}
 		}
 
-		[Token(Token = "0x170008CB")]
+		[Token(Token = "0x17000935")]
 		public int StartLine
 		{
-			[Token(Token = "0x6002DFE")]
-			[Address(RVA = "0x3E50580", Offset = "0x3E50580", VA = "0x3E50580")]
+			[Token(Token = "0x6003008")]
+			[Address(RVA = "0x415BD40", Offset = "0x415BD40", VA = "0x415BD40")]
 			[CompilerGenerated]
 			get
 			{
 				return default(int);
 			}
-			[Token(Token = "0x6002DFF")]
-			[Address(RVA = "0x3E50590", Offset = "0x3E50590", VA = "0x3E50590")]
+			[Token(Token = "0x6003009")]
+			[Address(RVA = "0x415BD50", Offset = "0x415BD50", VA = "0x415BD50")]
 			[CompilerGenerated]
 			set
 			{
 			}
 		}
 
-		[Token(Token = "0x170008CC")]
+		[Token(Token = "0x17000936")]
 		public int EndLine
 		{
-			[Token(Token = "0x6002E00")]
-			[Address(RVA = "0x3E505A0", Offset = "0x3E505A0", VA = "0x3E505A0")]
+			[Token(Token = "0x600300A")]
+			[Address(RVA = "0x415BD60", Offset = "0x415BD60", VA = "0x415BD60")]
 			[CompilerGenerated]
 			get
 			{
 				return default(int);
 			}
-			[Token(Token = "0x6002E01")]
-			[Address(RVA = "0x3E505B0", Offset = "0x3E505B0", VA = "0x3E505B0")]
+			[Token(Token = "0x600300B")]
+			[Address(RVA = "0x415BD70", Offset = "0x415BD70", VA = "0x415BD70")]
 			[CompilerGenerated]
 			set
 			{
 			}
 		}
 
-		[Token(Token = "0x170008CD")]
+		[Token(Token = "0x17000937")]
 		public int LineCount
 		{
-			[Token(Token = "0x6002E02")]
-			[Address(RVA = "0x3E505C0", Offset = "0x3E505C0", VA = "0x3E505C0")]
+			[Token(Token = "0x600300C")]
+			[Address(RVA = "0x415BD80", Offset = "0x415BD80", VA = "0x415BD80")]
 			[CompilerGenerated]
 			get
 			{
 				return default(int);
 			}
-			[Token(Token = "0x6002E03")]
-			[Address(RVA = "0x3E505D0", Offset = "0x3E505D0", VA = "0x3E505D0")]
+			[Token(Token = "0x600300D")]
+			[Address(RVA = "0x415BD90", Offset = "0x415BD90", VA = "0x415BD90")]
 			[CompilerGenerated]
 			set
 			{
 			}
 		}
 
-		[Token(Token = "0x170008CE")]
+		[Token(Token = "0x17000938")]
 		public int MapLogicOffset
 		{
-			[Token(Token = "0x6002E04")]
-			[Address(RVA = "0x3E505E0", Offset = "0x3E505E0", VA = "0x3E505E0")]
+			[Token(Token = "0x600300E")]
+			[Address(RVA = "0x415BDA0", Offset = "0x415BDA0", VA = "0x415BDA0")]
 			[CompilerGenerated]
 			get
 			{
 				return default(int);
 			}
-			[Token(Token = "0x6002E05")]
-			[Address(RVA = "0x3E505F0", Offset = "0x3E505F0", VA = "0x3E505F0")]
+			[Token(Token = "0x600300F")]
+			[Address(RVA = "0x415BDB0", Offset = "0x415BDB0", VA = "0x415BDB0")]
 			[CompilerGenerated]
 			set
 			{
 			}
 		}
 
-		[Token(Token = "0x6002E06")]
-		[Address(RVA = "0x3E4FE70", Offset = "0x3E4FE70", VA = "0x3E4FE70")]
+		[Token(Token = "0x6003010")]
+		[Address(RVA = "0x415B630", Offset = "0x415B630", VA = "0x415B630")]
 		public FileRange()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000444")]
+	[Token(Token = "0x2000489")]
 	[CompilerGenerated]
 	private sealed class _003CGetFileInfo_003Ed__13 : IEnumerable<(string, CustomLogicSourceType, int, int)>, IEnumerable, IEnumerator<(string, CustomLogicSourceType, int, int)>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x400126E")]
+		[Token(Token = "0x400137A")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x400126F")]
+		[Token(Token = "0x400137B")]
 		[FieldOffset(Offset = "0x18")]
 		private (string Name, CustomLogicSourceType Type, int StartLine, int EndLine) _003C_003E2__current;
 
-		[Token(Token = "0x4001270")]
+		[Token(Token = "0x400137C")]
 		[FieldOffset(Offset = "0x30")]
 		private int _003C_003El__initialThreadId;
 
-		[Token(Token = "0x4001271")]
+		[Token(Token = "0x400137D")]
 		[FieldOffset(Offset = "0x38")]
 		public CustomLogicCompiler _003C_003E4__this;
 
-		[Token(Token = "0x4001272")]
+		[Token(Token = "0x400137E")]
 		[FieldOffset(Offset = "0x40")]
 		private List<FileRange>.Enumerator _003C_003E7__wrap1;
 
-		[Token(Token = "0x170008CF")]
+		[Token(Token = "0x17000939")]
 		private (string, CustomLogicSourceType, int, int) System_002ECollections_002EGeneric_002EIEnumerator_003C_0028System_002EStringName_002CCustomLogic_002ECustomLogicSourceTypeType_002CSystem_002EInt32StartLine_002CSystem_002EInt32EndLine_0029_003E_002ECurrent
 		{
-			[Token(Token = "0x6002E0F")]
-			[Address(RVA = "0x3E509B0", Offset = "0x3E509B0", VA = "0x3E509B0", Slot = "6")]
+			[Token(Token = "0x6003019")]
+			[Address(RVA = "0x415C170", Offset = "0x415C170", VA = "0x415C170", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -164,11 +171,11 @@ public class CustomLogicCompiler
 			}
 		}
 
-		[Token(Token = "0x170008D0")]
+		[Token(Token = "0x1700093A")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6002E11")]
-			[Address(RVA = "0x3E50A10", Offset = "0x3E50A10", VA = "0x3E50A10", Slot = "9")]
+			[Token(Token = "0x600301B")]
+			[Address(RVA = "0x415C1D0", Offset = "0x415C1D0", VA = "0x415C1D0", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -176,50 +183,50 @@ public class CustomLogicCompiler
 			}
 		}
 
-		[Token(Token = "0x6002E0B")]
-		[Address(RVA = "0x3E501E0", Offset = "0x3E501E0", VA = "0x3E501E0")]
+		[Token(Token = "0x6003015")]
+		[Address(RVA = "0x415B9A0", Offset = "0x415B9A0", VA = "0x415B9A0")]
 		[DebuggerHidden]
 		public _003CGetFileInfo_003Ed__13(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6002E0C")]
-		[Address(RVA = "0x3E506B0", Offset = "0x3E506B0", VA = "0x3E506B0", Slot = "7")]
+		[Token(Token = "0x6003016")]
+		[Address(RVA = "0x415BE70", Offset = "0x415BE70", VA = "0x415BE70", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6002E0D")]
-		[Address(RVA = "0x3E50700", Offset = "0x3E50700", VA = "0x3E50700", Slot = "8")]
+		[Token(Token = "0x6003017")]
+		[Address(RVA = "0x415BEC0", Offset = "0x415BEC0", VA = "0x415BEC0", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6002E0E")]
-		[Address(RVA = "0x3E50970", Offset = "0x3E50970", VA = "0x3E50970")]
+		[Token(Token = "0x6003018")]
+		[Address(RVA = "0x415C130", Offset = "0x415C130", VA = "0x415C130")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x6002E10")]
-		[Address(RVA = "0x3E509D0", Offset = "0x3E509D0", VA = "0x3E509D0", Slot = "10")]
+		[Token(Token = "0x600301A")]
+		[Address(RVA = "0x415C190", Offset = "0x415C190", VA = "0x415C190", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x6002E12")]
-		[Address(RVA = "0x3E50A60", Offset = "0x3E50A60", VA = "0x3E50A60", Slot = "4")]
+		[Token(Token = "0x600301C")]
+		[Address(RVA = "0x415C220", Offset = "0x415C220", VA = "0x415C220", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<(string, CustomLogicSourceType, int, int)> System_002ECollections_002EGeneric_002EIEnumerable_003C_0028System_002EStringName_002CCustomLogic_002ECustomLogicSourceTypeType_002CSystem_002EInt32StartLine_002CSystem_002EInt32EndLine_0029_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002E13")]
-		[Address(RVA = "0x3E50B00", Offset = "0x3E50B00", VA = "0x3E50B00", Slot = "5")]
+		[Token(Token = "0x600301D")]
+		[Address(RVA = "0x415C2C0", Offset = "0x415C2C0", VA = "0x415C2C0", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -227,124 +234,124 @@ public class CustomLogicCompiler
 		}
 	}
 
-	[Token(Token = "0x4001262")]
+	[Token(Token = "0x400136E")]
 	[FieldOffset(Offset = "0x10")]
 	private List<CustomLogicSourceFile> _sourceFiles;
 
-	[Token(Token = "0x4001263")]
+	[Token(Token = "0x400136F")]
 	[FieldOffset(Offset = "0x18")]
 	private List<FileRange> _fileRanges;
 
-	[Token(Token = "0x4001264")]
+	[Token(Token = "0x4001370")]
 	[FieldOffset(Offset = "0x20")]
 	private string _combinedSource;
 
-	[Token(Token = "0x170008C7")]
+	[Token(Token = "0x17000931")]
 	public int FileCount
 	{
-		[Token(Token = "0x6002DF5")]
-		[Address(RVA = "0x3E50210", Offset = "0x3E50210", VA = "0x3E50210")]
+		[Token(Token = "0x6002FFF")]
+		[Address(RVA = "0x415B9D0", Offset = "0x415B9D0", VA = "0x415B9D0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170008C8")]
+	[Token(Token = "0x17000932")]
 	public int TotalLines
 	{
-		[Token(Token = "0x6002DF6")]
-		[Address(RVA = "0x3E50250", Offset = "0x3E50250", VA = "0x3E50250")]
+		[Token(Token = "0x6003000")]
+		[Address(RVA = "0x415BA10", Offset = "0x415BA10", VA = "0x415BA10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6002DEB")]
-	[Address(RVA = "0x3E4F6E0", Offset = "0x3E4F6E0", VA = "0x3E4F6E0")]
+	[Token(Token = "0x6002FF5")]
+	[Address(RVA = "0x415AE20", Offset = "0x415AE20", VA = "0x415AE20")]
 	public void AddSourceFile(CustomLogicSourceFile file)
 	{
 	}
 
-	[Token(Token = "0x6002DEC")]
-	[Address(RVA = "0x3E4F780", Offset = "0x3E4F780", VA = "0x3E4F780")]
+	[Token(Token = "0x6002FF6")]
+	[Address(RVA = "0x415AEC0", Offset = "0x415AEC0", VA = "0x415AEC0")]
 	public void AddSourceFiles(IEnumerable<CustomLogicSourceFile> files)
 	{
 	}
 
-	[Token(Token = "0x6002DED")]
-	[Address(RVA = "0x3E4F7D0", Offset = "0x3E4F7D0", VA = "0x3E4F7D0")]
+	[Token(Token = "0x6002FF7")]
+	[Address(RVA = "0x415AF10", Offset = "0x415AF10", VA = "0x415AF10")]
 	public string Compile()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002DEE")]
-	[Address(RVA = "0x3E4FE80", Offset = "0x3E4FE80", VA = "0x3E4FE80")]
+	[Token(Token = "0x6002FF8")]
+	[Address(RVA = "0x415B640", Offset = "0x415B640", VA = "0x415B640")]
 	public string GetCombinedSource()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002DEF")]
-	[Address(RVA = "0x3E4FE90", Offset = "0x3E4FE90", VA = "0x3E4FE90")]
+	[Token(Token = "0x6002FF9")]
+	[Address(RVA = "0x415B650", Offset = "0x415B650", VA = "0x415B650")]
 	public string FormatLineNumber(int globalLine)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002DF0")]
-	[Address(RVA = "0x3E4FFE0", Offset = "0x3E4FFE0", VA = "0x3E4FFE0")]
+	[Token(Token = "0x6002FFA")]
+	[Address(RVA = "0x415B7A0", Offset = "0x415B7A0", VA = "0x415B7A0")]
 	private FileRange FindFileRange(int globalLine)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002DF1")]
-	[Address(RVA = "0x3E500B0", Offset = "0x3E500B0", VA = "0x3E500B0")]
+	[Token(Token = "0x6002FFB")]
+	[Address(RVA = "0x415B870", Offset = "0x415B870", VA = "0x415B870")]
 	public string GetFileNameForLine(int globalLine)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002DF2")]
-	[Address(RVA = "0x3E500D0", Offset = "0x3E500D0", VA = "0x3E500D0")]
+	[Token(Token = "0x6002FFC")]
+	[Address(RVA = "0x415B890", Offset = "0x415B890", VA = "0x415B890")]
 	public CustomLogicSourceType? GetFileTypeForLine(int globalLine)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002DF3")]
-	[Address(RVA = "0x3E50140", Offset = "0x3E50140", VA = "0x3E50140")]
+	[Token(Token = "0x6002FFD")]
+	[Address(RVA = "0x415B900", Offset = "0x415B900", VA = "0x415B900")]
 	public int GetLocalLineNumber(int globalLine)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002DF4")]
-	[Address(RVA = "0x3E50160", Offset = "0x3E50160", VA = "0x3E50160")]
+	[Token(Token = "0x6002FFE")]
+	[Address(RVA = "0x415B920", Offset = "0x415B920", VA = "0x415B920")]
 	[IteratorStateMachine(typeof(_003CGetFileInfo_003Ed__13))]
 	public IEnumerable<(string, CustomLogicSourceType, int, int)> GetFileInfo()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002DF7")]
-	[Address(RVA = "0x3E502C0", Offset = "0x3E502C0", VA = "0x3E502C0")]
+	[Token(Token = "0x6003001")]
+	[Address(RVA = "0x415BA80", Offset = "0x415BA80", VA = "0x415BA80")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x6002DF8")]
-	[Address(RVA = "0x3E50360", Offset = "0x3E50360", VA = "0x3E50360")]
+	[Token(Token = "0x6003002")]
+	[Address(RVA = "0x415BB20", Offset = "0x415BB20", VA = "0x415BB20")]
 	public int GetBaseLogicOffset()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002DF9")]
-	[Address(RVA = "0x3E50480", Offset = "0x3E50480", VA = "0x3E50480")]
+	[Token(Token = "0x6003003")]
+	[Address(RVA = "0x415BC40", Offset = "0x415BC40", VA = "0x415BC40")]
 	public CustomLogicCompiler()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.FullConditionalExpression
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
@@ -10,13 +17,13 @@ internal class FullConditionalExpression : ConditionalExpression
 	private readonly Expression _false;
 
 	[Token(Token = "0x6000313")]
-	[Address(RVA = "0x418B670", Offset = "0x418B670", VA = "0x418B670")]
+	[Address(RVA = "0x44B0770", Offset = "0x44B0770", VA = "0x44B0770")]
 	internal FullConditionalExpression(Expression test, Expression ifTrue, Expression ifFalse)
 	{
 	}
 
 	[Token(Token = "0x6000314")]
-	[Address(RVA = "0x418B8D0", Offset = "0x418B8D0", VA = "0x418B8D0", Slot = "10")]
+	[Address(RVA = "0x44B09D0", Offset = "0x44B09D0", VA = "0x44B09D0", Slot = "10")]
 	internal override Expression GetFalse()
 	{
 		return null;

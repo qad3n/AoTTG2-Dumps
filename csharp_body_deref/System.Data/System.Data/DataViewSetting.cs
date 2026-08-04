@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.DataViewSetting
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.ComponentModel;
 using Il2CppDummyDll;
 
@@ -35,7 +42,7 @@ public class DataViewSetting
 	public bool ApplyDefaultSort
 	{
 		[Token(Token = "0x6000585")]
-		[Address(RVA = "0x425CC10", Offset = "0x425CC10", VA = "0x425CC10")]
+		[Address(RVA = "0x459A370", Offset = "0x459A370", VA = "0x459A370")]
 		get
 		{
 			return default(bool);
@@ -46,7 +53,7 @@ public class DataViewSetting
 	public string RowFilter
 	{
 		[Token(Token = "0x6000588")]
-		[Address(RVA = "0x425CC60", Offset = "0x425CC60", VA = "0x425CC60")]
+		[Address(RVA = "0x459A3C0", Offset = "0x459A3C0", VA = "0x459A3C0")]
 		get
 		{
 			return null;
@@ -57,7 +64,7 @@ public class DataViewSetting
 	public DataViewRowState RowStateFilter
 	{
 		[Token(Token = "0x6000589")]
-		[Address(RVA = "0x425CC70", Offset = "0x425CC70", VA = "0x425CC70")]
+		[Address(RVA = "0x459A3D0", Offset = "0x459A3D0", VA = "0x459A3D0")]
 		get
 		{
 			return default(DataViewRowState);
@@ -68,7 +75,7 @@ public class DataViewSetting
 	public string Sort
 	{
 		[Token(Token = "0x600058A")]
-		[Address(RVA = "0x425CC80", Offset = "0x425CC80", VA = "0x425CC80")]
+		[Address(RVA = "0x459A3E0", Offset = "0x459A3E0", VA = "0x459A3E0")]
 		get
 		{
 			return null;
@@ -76,19 +83,19 @@ public class DataViewSetting
 	}
 
 	[Token(Token = "0x6000584")]
-	[Address(RVA = "0x425CBA0", Offset = "0x425CBA0", VA = "0x425CBA0")]
+	[Address(RVA = "0x459A300", Offset = "0x459A300", VA = "0x459A300")]
 	internal DataViewSetting()
 	{
 	}
 
 	[Token(Token = "0x6000586")]
-	[Address(RVA = "0x425CC20", Offset = "0x425CC20", VA = "0x425CC20")]
+	[Address(RVA = "0x459A380", Offset = "0x459A380", VA = "0x459A380")]
 	internal void SetDataViewManager(DataViewManager dataViewManager)
 	{
 	}
 
 	[Token(Token = "0x6000587")]
-	[Address(RVA = "0x425CC40", Offset = "0x425CC40", VA = "0x425CC40")]
+	[Address(RVA = "0x459A3A0", Offset = "0x459A3A0", VA = "0x459A3A0")]
 	internal void SetDataTable(DataTable table)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UI.KeybindPopup
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UI/KeybindPopup.c
+// Prior real C# source (older reference): Assets/Scripts/UI/BaseMenu/KeybindPopup.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -11,30 +18,30 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x2000539")]
+[Token(Token = "0x200057E")]
 internal class KeybindPopup : PromptPopup
 {
-	[Token(Token = "0x200053A")]
+	[Token(Token = "0x200057F")]
 	[CompilerGenerated]
 	private sealed class _003CWaitAndUpdateSetting_003Ed__19 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001A25")]
+		[Token(Token = "0x4001B38")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001A26")]
+		[Token(Token = "0x4001B39")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001A27")]
+		[Token(Token = "0x4001B3A")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public KeybindPopup _003C_003E4__this;
 
-		[Token(Token = "0x17000A63")]
+		[Token(Token = "0x17000ACD")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x600371B")]
-			[Address(RVA = "0x3F26020", Offset = "0x3F26020", VA = "0x3F26020", Slot = "4")]
+			[Token(Token = "0x6003929")]
+			[Address(RVA = "0x424F7D0", Offset = "0x424F7D0", VA = "0x424F7D0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -42,11 +49,11 @@ internal class KeybindPopup : PromptPopup
 			}
 		}
 
-		[Token(Token = "0x17000A64")]
+		[Token(Token = "0x17000ACE")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600371D")]
-			[Address(RVA = "0x3F26070", Offset = "0x3F26070", VA = "0x3F26070", Slot = "7")]
+			[Token(Token = "0x600392B")]
+			[Address(RVA = "0x424F820", Offset = "0x424F820", VA = "0x424F820", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -54,161 +61,161 @@ internal class KeybindPopup : PromptPopup
 			}
 		}
 
-		[Token(Token = "0x6003718")]
-		[Address(RVA = "0x3F25D00", Offset = "0x3F25D00", VA = "0x3F25D00")]
+		[Token(Token = "0x6003926")]
+		[Address(RVA = "0x424F4B0", Offset = "0x424F4B0", VA = "0x424F4B0")]
 		[DebuggerHidden]
 		public _003CWaitAndUpdateSetting_003Ed__19(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6003719")]
-		[Address(RVA = "0x3F25F70", Offset = "0x3F25F70", VA = "0x3F25F70", Slot = "5")]
+		[Token(Token = "0x6003927")]
+		[Address(RVA = "0x424F720", Offset = "0x424F720", VA = "0x424F720", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x600371A")]
-		[Address(RVA = "0x3F25F80", Offset = "0x3F25F80", VA = "0x3F25F80", Slot = "6")]
+		[Token(Token = "0x6003928")]
+		[Address(RVA = "0x424F730", Offset = "0x424F730", VA = "0x424F730", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600371C")]
-		[Address(RVA = "0x3F26030", Offset = "0x3F26030", VA = "0x3F26030", Slot = "8")]
+		[Token(Token = "0x600392A")]
+		[Address(RVA = "0x424F7E0", Offset = "0x424F7E0", VA = "0x424F7E0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4001A20")]
+	[Token(Token = "0x4001B33")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	private InputKey _setting;
 
-	[Token(Token = "0x4001A21")]
+	[Token(Token = "0x4001B34")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	private Text _settingLabel;
 
-	[Token(Token = "0x4001A22")]
+	[Token(Token = "0x4001B35")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
 	private Text _displayLabel;
 
-	[Token(Token = "0x4001A23")]
+	[Token(Token = "0x4001B36")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC0")]
 	private InputKey _buffer;
 
-	[Token(Token = "0x4001A24")]
+	[Token(Token = "0x4001B37")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC8")]
 	private bool _isDone;
 
-	[Token(Token = "0x17000A5D")]
+	[Token(Token = "0x17000AC7")]
 	protected override string Title
 	{
-		[Token(Token = "0x6003709")]
-		[Address(RVA = "0x3F25680", Offset = "0x3F25680", VA = "0x3F25680", Slot = "35")]
+		[Token(Token = "0x6003917")]
+		[Address(RVA = "0x424EE30", Offset = "0x424EE30", VA = "0x424EE30", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000A5E")]
+	[Token(Token = "0x17000AC8")]
 	protected override float Width
 	{
-		[Token(Token = "0x600370A")]
-		[Address(RVA = "0x3F25720", Offset = "0x3F25720", VA = "0x3F25720", Slot = "5")]
+		[Token(Token = "0x6003918")]
+		[Address(RVA = "0x424EED0", Offset = "0x424EED0", VA = "0x424EED0", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000A5F")]
+	[Token(Token = "0x17000AC9")]
 	protected override float Height
 	{
-		[Token(Token = "0x600370B")]
-		[Address(RVA = "0x3F25730", Offset = "0x3F25730", VA = "0x3F25730", Slot = "6")]
+		[Token(Token = "0x6003919")]
+		[Address(RVA = "0x424EEE0", Offset = "0x424EEE0", VA = "0x424EEE0", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000A60")]
+	[Token(Token = "0x17000ACA")]
 	protected override float VerticalSpacing
 	{
-		[Token(Token = "0x600370C")]
-		[Address(RVA = "0x3F25740", Offset = "0x3F25740", VA = "0x3F25740", Slot = "11")]
+		[Token(Token = "0x600391A")]
+		[Address(RVA = "0x424EEF0", Offset = "0x424EEF0", VA = "0x424EEF0", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000A61")]
+	[Token(Token = "0x17000ACB")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x600370D")]
-		[Address(RVA = "0x3F25750", Offset = "0x3F25750", VA = "0x3F25750", Slot = "9")]
+		[Token(Token = "0x600391B")]
+		[Address(RVA = "0x424EF00", Offset = "0x424EF00", VA = "0x424EF00", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000A62")]
+	[Token(Token = "0x17000ACC")]
 	protected override TextAnchor PanelAlignment
 	{
-		[Token(Token = "0x600370E")]
-		[Address(RVA = "0x3F25760", Offset = "0x3F25760", VA = "0x3F25760", Slot = "12")]
+		[Token(Token = "0x600391C")]
+		[Address(RVA = "0x424EF10", Offset = "0x424EF10", VA = "0x424EF10", Slot = "12")]
 		get
 		{
 			return default(TextAnchor);
 		}
 	}
 
-	[Token(Token = "0x600370F")]
-	[Address(RVA = "0x3F25770", Offset = "0x3F25770", VA = "0x3F25770", Slot = "20")]
+	[Token(Token = "0x600391D")]
+	[Address(RVA = "0x424EF20", Offset = "0x424EF20", VA = "0x424EF20", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6003710")]
-	[Address(RVA = "0x3F25AB0", Offset = "0x3F25AB0", VA = "0x3F25AB0")]
+	[Token(Token = "0x600391E")]
+	[Address(RVA = "0x424F260", Offset = "0x424F260", VA = "0x424F260")]
 	private new void Update()
 	{
 	}
 
-	[Token(Token = "0x6003711")]
-	[Address(RVA = "0x3F25BE0", Offset = "0x3F25BE0", VA = "0x3F25BE0")]
+	[Token(Token = "0x600391F")]
+	[Address(RVA = "0x424F390", Offset = "0x424F390", VA = "0x424F390")]
 	[IteratorStateMachine(typeof(_003CWaitAndUpdateSetting_003Ed__19))]
 	private IEnumerator WaitAndUpdateSetting()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003712")]
-	[Address(RVA = "0x3F25C50", Offset = "0x3F25C50", VA = "0x3F25C50")]
+	[Token(Token = "0x6003920")]
+	[Address(RVA = "0x424F400", Offset = "0x424F400", VA = "0x424F400")]
 	private void UpdateSetting()
 	{
 	}
 
-	[Token(Token = "0x6003713")]
-	[Address(RVA = "0x3F25D20", Offset = "0x3F25D20", VA = "0x3F25D20")]
+	[Token(Token = "0x6003921")]
+	[Address(RVA = "0x424F4D0", Offset = "0x424F4D0", VA = "0x424F4D0")]
 	public void Show(InputKey setting, Text label)
 	{
 	}
 
-	[Token(Token = "0x6003714")]
-	[Address(RVA = "0x3F25DD0", Offset = "0x3F25DD0", VA = "0x3F25DD0")]
+	[Token(Token = "0x6003922")]
+	[Address(RVA = "0x424F580", Offset = "0x424F580", VA = "0x424F580")]
 	private void OnButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x6003715")]
-	[Address(RVA = "0x3F25EE0", Offset = "0x3F25EE0", VA = "0x3F25EE0")]
+	[Token(Token = "0x6003923")]
+	[Address(RVA = "0x424F690", Offset = "0x424F690", VA = "0x424F690")]
 	public KeybindPopup()
 	{
 	}

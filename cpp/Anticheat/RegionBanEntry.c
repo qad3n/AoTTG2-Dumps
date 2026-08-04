@@ -1,13 +1,14 @@
 // Type: Anticheat.RegionBanEntry
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Anticheat/RegionBanEntry.cs
-// Prior source: NEW in this update
+// Prior real C# source: none
 // --------------------------------
 
 // Anticheat.RegionBanEntry$$.ctor
 // il2cpp: void Anticheat_RegionBanEntry___ctor (Anticheat_RegionBanEntry_o* __this, const MethodInfo* method);
-// 0x41be990
+// 0x44dc310
 
 void Anticheat_RegionBanEntry___ctor(Anticheat_RegionBanEntry_o *__this,MethodInfo *method)
 

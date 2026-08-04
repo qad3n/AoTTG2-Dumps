@@ -1,10 +1,17 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.VisibleReflectionProbe
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000307")]
+[Token(Token = "0x200030A")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public struct VisibleReflectionProbe : IEquatable<VisibleReflectionProbe>
 {
@@ -44,22 +51,22 @@ public struct VisibleReflectionProbe : IEquatable<VisibleReflectionProbe>
 	[FieldOffset(Offset = "0x84")]
 	private int m_TextureId;
 
-	[Token(Token = "0x60010F7")]
-	[Address(RVA = "0x4B0D060", Offset = "0x4B0D060", VA = "0x4B0D060", Slot = "4")]
+	[Token(Token = "0x60010F9")]
+	[Address(RVA = "0x4E34990", Offset = "0x4E34990", VA = "0x4E34990", Slot = "4")]
 	public bool Equals(VisibleReflectionProbe other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60010F8")]
-	[Address(RVA = "0x4B0D470", Offset = "0x4B0D470", VA = "0x4B0D470", Slot = "0")]
+	[Token(Token = "0x60010FA")]
+	[Address(RVA = "0x4E34DA0", Offset = "0x4E34DA0", VA = "0x4E34DA0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60010F9")]
-	[Address(RVA = "0x4B0D500", Offset = "0x4B0D500", VA = "0x4B0D500", Slot = "2")]
+	[Token(Token = "0x60010FB")]
+	[Address(RVA = "0x4E34E30", Offset = "0x4E34E30", VA = "0x4E34E30", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

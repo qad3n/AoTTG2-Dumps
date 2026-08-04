@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.UnityObjectUtility
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -109,28 +116,28 @@ public static class UnityObjectUtility
 	}
 
 	[Token(Token = "0x60010D6")]
-	[Address(RVA = "0x4A3EB80", Offset = "0x4A3EB80", VA = "0x4A3EB80")]
+	[Address(RVA = "0x4D63740", Offset = "0x4D63740", VA = "0x4D63740")]
 	public static bool IsDestroyed(this UnityEngine.Object target)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60010D7")]
-	[Address(RVA = "0x4A3EBD0", Offset = "0x4A3EBD0", VA = "0x4A3EBD0")]
+	[Address(RVA = "0x4D63790", Offset = "0x4D63790", VA = "0x4D63790")]
 	public static bool IsUnityNull(this object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60010D8")]
-	[Address(RVA = "0x4A3EC90", Offset = "0x4A3EC90", VA = "0x4A3EC90")]
+	[Address(RVA = "0x4D63850", Offset = "0x4D63850", VA = "0x4D63850")]
 	public static string ToSafeString(this UnityEngine.Object uo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60010D9")]
-	[Address(RVA = "0x4A3EF30", Offset = "0x4A3EF30", VA = "0x4A3EF30")]
+	[Address(RVA = "0x4D63AF0", Offset = "0x4D63AF0", VA = "0x4D63AF0")]
 	public static string ToSafeString(this object obj)
 	{
 		return null;
@@ -143,7 +150,7 @@ public static class UnityObjectUtility
 	}
 
 	[Token(Token = "0x60010DB")]
-	[Address(RVA = "0x4A3F160", Offset = "0x4A3F160", VA = "0x4A3F160")]
+	[Address(RVA = "0x4D63D20", Offset = "0x4D63D20", VA = "0x4D63D20")]
 	public static bool TrulyEqual(UnityEngine.Object a, UnityEngine.Object b)
 	{
 		return default(bool);

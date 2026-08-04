@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.BootConfigData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -14,7 +21,7 @@ internal class BootConfigData
 	private IntPtr m_Ptr;
 
 	[Token(Token = "0x600015A")]
-	[Address(RVA = "0x4A88CA0", Offset = "0x4A88CA0", VA = "0x4A88CA0")]
+	[Address(RVA = "0x4DB04C0", Offset = "0x4DB04C0", VA = "0x4DB04C0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static BootConfigData WrapBootConfigData(IntPtr nativeHandle)
 	{
@@ -22,7 +29,7 @@ internal class BootConfigData
 	}
 
 	[Token(Token = "0x600015B")]
-	[Address(RVA = "0x4A88D40", Offset = "0x4A88D40", VA = "0x4A88D40")]
+	[Address(RVA = "0x4DB0560", Offset = "0x4DB0560", VA = "0x4DB0560")]
 	private BootConfigData(IntPtr nativeHandle)
 	{
 	}

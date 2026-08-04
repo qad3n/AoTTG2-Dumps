@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.ContrastEnhance
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/ContrastEnhance.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -41,20 +48,20 @@ public class ContrastEnhance : PostEffectsBase
 	public Shader contrastCompositeShader;
 
 	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x415B7C0", Offset = "0x415B7C0", VA = "0x415B7C0", Slot = "4")]
+	[Address(RVA = "0x44808C0", Offset = "0x44808C0", VA = "0x44808C0", Slot = "4")]
 	public override bool CheckResources()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000043")]
-	[Address(RVA = "0x415B8A0", Offset = "0x415B8A0", VA = "0x415B8A0")]
+	[Address(RVA = "0x44809A0", Offset = "0x44809A0", VA = "0x44809A0")]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x415BBE0", Offset = "0x415BBE0", VA = "0x415BBE0")]
+	[Address(RVA = "0x4480CE0", Offset = "0x4480CE0", VA = "0x4480CE0")]
 	public ContrastEnhance()
 	{
 	}

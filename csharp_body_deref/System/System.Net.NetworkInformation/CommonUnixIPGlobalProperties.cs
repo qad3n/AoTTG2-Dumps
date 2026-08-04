@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.NetworkInformation.CommonUnixIPGlobalProperties
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -10,7 +17,7 @@ internal abstract class CommonUnixIPGlobalProperties : IPGlobalProperties
 	public override string DomainName
 	{
 		[Token(Token = "0x6000B9D")]
-		[Address(RVA = "0x467F350", Offset = "0x467F350", VA = "0x467F350", Slot = "4")]
+		[Address(RVA = "0x49A4450", Offset = "0x49A4450", VA = "0x49A4450", Slot = "4")]
 		get
 		{
 			return null;
@@ -19,11 +26,11 @@ internal abstract class CommonUnixIPGlobalProperties : IPGlobalProperties
 
 	[PreserveSig]
 	[Token(Token = "0x6000B9C")]
-	[Address(RVA = "0x467F2C0", Offset = "0x467F2C0", VA = "0x467F2C0")]
+	[Address(RVA = "0x49A43C0", Offset = "0x49A43C0", VA = "0x49A43C0")]
 	private static extern int getdomainname(byte[] name, int len);
 
 	[Token(Token = "0x6000B9E")]
-	[Address(RVA = "0x467F580", Offset = "0x467F580", VA = "0x467F580")]
+	[Address(RVA = "0x49A4680", Offset = "0x49A4680", VA = "0x49A4680")]
 	protected CommonUnixIPGlobalProperties()
 	{
 	}

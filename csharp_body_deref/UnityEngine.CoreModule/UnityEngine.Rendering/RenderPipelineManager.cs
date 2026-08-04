@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.RenderPipelineManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -7,7 +14,7 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002EF")]
+[Token(Token = "0x20002F2")]
 public static class RenderPipelineManager
 {
 	[Token(Token = "0x40008D7")]
@@ -50,73 +57,73 @@ public static class RenderPipelineManager
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static Action activeRenderPipelineDisposed;
 
-	[Token(Token = "0x17000299")]
+	[Token(Token = "0x1700029A")]
 	public static RenderPipeline currentPipeline
 	{
-		[Token(Token = "0x6001070")]
-		[Address(RVA = "0x4B07F60", Offset = "0x4B07F60", VA = "0x4B07F60")]
+		[Token(Token = "0x6001072")]
+		[Address(RVA = "0x4E2F890", Offset = "0x4E2F890", VA = "0x4E2F890")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001071")]
-		[Address(RVA = "0x4B07FD0", Offset = "0x4B07FD0", VA = "0x4B07FD0")]
+		[Token(Token = "0x6001073")]
+		[Address(RVA = "0x4E2F900", Offset = "0x4E2F900", VA = "0x4E2F900")]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001072")]
-	[Address(RVA = "0x4B080B0", Offset = "0x4B080B0", VA = "0x4B080B0")]
+	[Token(Token = "0x6001074")]
+	[Address(RVA = "0x4E2F9E0", Offset = "0x4E2F9E0", VA = "0x4E2F9E0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void OnActiveRenderPipelineTypeChanged()
 	{
 	}
 
-	[Token(Token = "0x6001073")]
-	[Address(RVA = "0x4B08130", Offset = "0x4B08130", VA = "0x4B08130")]
+	[Token(Token = "0x6001075")]
+	[Address(RVA = "0x4E2FA60", Offset = "0x4E2FA60", VA = "0x4E2FA60")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void OnActiveRenderPipelineAssetChanged(ScriptableObject from, ScriptableObject to)
 	{
 	}
 
-	[Token(Token = "0x6001074")]
-	[Address(RVA = "0x4B08260", Offset = "0x4B08260", VA = "0x4B08260")]
+	[Token(Token = "0x6001076")]
+	[Address(RVA = "0x4E2FB90", Offset = "0x4E2FB90", VA = "0x4E2FB90")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void HandleRenderPipelineChange(RenderPipelineAsset pipelineAsset)
 	{
 	}
 
-	[Token(Token = "0x6001075")]
-	[Address(RVA = "0x4B07910", Offset = "0x4B07910", VA = "0x4B07910")]
+	[Token(Token = "0x6001077")]
+	[Address(RVA = "0x4E2F240", Offset = "0x4E2F240", VA = "0x4E2F240")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void CleanupRenderPipeline()
 	{
 	}
 
-	[Token(Token = "0x6001076")]
-	[Address(RVA = "0x4B08410", Offset = "0x4B08410", VA = "0x4B08410")]
+	[Token(Token = "0x6001078")]
+	[Address(RVA = "0x4E2FD40", Offset = "0x4E2FD40", VA = "0x4E2FD40")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static string GetCurrentPipelineAssetType()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001077")]
-	[Address(RVA = "0x4B08480", Offset = "0x4B08480", VA = "0x4B08480")]
+	[Token(Token = "0x6001079")]
+	[Address(RVA = "0x4E2FDB0", Offset = "0x4E2FDB0", VA = "0x4E2FDB0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void DoRenderLoop_Internal(RenderPipelineAsset pipe, IntPtr loopPtr, Object renderRequest)
 	{
 	}
 
-	[Token(Token = "0x6001078")]
-	[Address(RVA = "0x4B07D70", Offset = "0x4B07D70", VA = "0x4B07D70")]
+	[Token(Token = "0x600107A")]
+	[Address(RVA = "0x4E2F6A0", Offset = "0x4E2F6A0", VA = "0x4E2F6A0")]
 	internal static void PrepareRenderPipeline(RenderPipelineAsset pipelineAsset)
 	{
 	}
 
-	[Token(Token = "0x6001079")]
-	[Address(RVA = "0x4B08890", Offset = "0x4B08890", VA = "0x4B08890")]
+	[Token(Token = "0x600107B")]
+	[Address(RVA = "0x4E301C0", Offset = "0x4E301C0", VA = "0x4E301C0")]
 	private static bool IsPipelineRequireCreation()
 	{
 		return default(bool);

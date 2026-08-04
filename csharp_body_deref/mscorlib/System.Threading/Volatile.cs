@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Threading.Volatile
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -31,7 +38,7 @@ public static class Volatile
 	}
 
 	[Token(Token = "0x600136B")]
-	[Address(RVA = "0x50584B0", Offset = "0x50584B0", VA = "0x50584B0")]
+	[Address(RVA = "0x3D3DFD0", Offset = "0x3D3DFD0", VA = "0x3D3DFD0")]
 	[System.Runtime.CompilerServices.Intrinsic]
 	public static bool Read(ref bool location)
 	{
@@ -39,14 +46,14 @@ public static class Volatile
 	}
 
 	[Token(Token = "0x600136C")]
-	[Address(RVA = "0x50584C0", Offset = "0x50584C0", VA = "0x50584C0")]
+	[Address(RVA = "0x3D3DFE0", Offset = "0x3D3DFE0", VA = "0x3D3DFE0")]
 	[System.Runtime.CompilerServices.Intrinsic]
 	public static void Write(ref bool location, bool value)
 	{
 	}
 
 	[Token(Token = "0x600136D")]
-	[Address(RVA = "0x50584E0", Offset = "0x50584E0", VA = "0x50584E0")]
+	[Address(RVA = "0x3D3E000", Offset = "0x3D3E000", VA = "0x3D3E000")]
 	[System.Runtime.CompilerServices.Intrinsic]
 	public static int Read(ref int location)
 	{
@@ -54,7 +61,7 @@ public static class Volatile
 	}
 
 	[Token(Token = "0x600136E")]
-	[Address(RVA = "0x50584F0", Offset = "0x50584F0", VA = "0x50584F0")]
+	[Address(RVA = "0x3D3E010", Offset = "0x3D3E010", VA = "0x3D3E010")]
 	[System.Runtime.CompilerServices.Intrinsic]
 	public static void Write(ref int location, int value)
 	{

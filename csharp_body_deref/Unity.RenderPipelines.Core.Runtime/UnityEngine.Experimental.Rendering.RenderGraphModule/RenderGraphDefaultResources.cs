@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Experimental.Rendering.RenderGraphModule.RenderGraphDefaultResources
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 using UnityEngine.Rendering;
@@ -27,14 +34,14 @@ public class RenderGraphDefaultResources
 	public TextureHandle blackTexture
 	{
 		[Token(Token = "0x6000411")]
-		[Address(RVA = "0x48660D0", Offset = "0x48660D0", VA = "0x48660D0")]
+		[Address(RVA = "0x4B8B1C0", Offset = "0x4B8B1C0", VA = "0x4B8B1C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x6000412")]
-		[Address(RVA = "0x48660E0", Offset = "0x48660E0", VA = "0x48660E0")]
+		[Address(RVA = "0x4B8B1D0", Offset = "0x4B8B1D0", VA = "0x4B8B1D0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -45,14 +52,14 @@ public class RenderGraphDefaultResources
 	public TextureHandle whiteTexture
 	{
 		[Token(Token = "0x6000413")]
-		[Address(RVA = "0x48660F0", Offset = "0x48660F0", VA = "0x48660F0")]
+		[Address(RVA = "0x4B8B1E0", Offset = "0x4B8B1E0", VA = "0x4B8B1E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x6000414")]
-		[Address(RVA = "0x4866100", Offset = "0x4866100", VA = "0x4866100")]
+		[Address(RVA = "0x4B8B1F0", Offset = "0x4B8B1F0", VA = "0x4B8B1F0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -63,14 +70,14 @@ public class RenderGraphDefaultResources
 	public TextureHandle clearTextureXR
 	{
 		[Token(Token = "0x6000415")]
-		[Address(RVA = "0x4866110", Offset = "0x4866110", VA = "0x4866110")]
+		[Address(RVA = "0x4B8B200", Offset = "0x4B8B200", VA = "0x4B8B200")]
 		[CompilerGenerated]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x6000416")]
-		[Address(RVA = "0x4866120", Offset = "0x4866120", VA = "0x4866120")]
+		[Address(RVA = "0x4B8B210", Offset = "0x4B8B210", VA = "0x4B8B210")]
 		[CompilerGenerated]
 		private set
 		{
@@ -81,14 +88,14 @@ public class RenderGraphDefaultResources
 	public TextureHandle magentaTextureXR
 	{
 		[Token(Token = "0x6000417")]
-		[Address(RVA = "0x4866130", Offset = "0x4866130", VA = "0x4866130")]
+		[Address(RVA = "0x4B8B220", Offset = "0x4B8B220", VA = "0x4B8B220")]
 		[CompilerGenerated]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x6000418")]
-		[Address(RVA = "0x4866140", Offset = "0x4866140", VA = "0x4866140")]
+		[Address(RVA = "0x4B8B230", Offset = "0x4B8B230", VA = "0x4B8B230")]
 		[CompilerGenerated]
 		private set
 		{
@@ -99,14 +106,14 @@ public class RenderGraphDefaultResources
 	public TextureHandle blackTextureXR
 	{
 		[Token(Token = "0x6000419")]
-		[Address(RVA = "0x4866150", Offset = "0x4866150", VA = "0x4866150")]
+		[Address(RVA = "0x4B8B240", Offset = "0x4B8B240", VA = "0x4B8B240")]
 		[CompilerGenerated]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x600041A")]
-		[Address(RVA = "0x4866160", Offset = "0x4866160", VA = "0x4866160")]
+		[Address(RVA = "0x4B8B250", Offset = "0x4B8B250", VA = "0x4B8B250")]
 		[CompilerGenerated]
 		private set
 		{
@@ -117,14 +124,14 @@ public class RenderGraphDefaultResources
 	public TextureHandle blackTextureArrayXR
 	{
 		[Token(Token = "0x600041B")]
-		[Address(RVA = "0x4866170", Offset = "0x4866170", VA = "0x4866170")]
+		[Address(RVA = "0x4B8B260", Offset = "0x4B8B260", VA = "0x4B8B260")]
 		[CompilerGenerated]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x600041C")]
-		[Address(RVA = "0x4866180", Offset = "0x4866180", VA = "0x4866180")]
+		[Address(RVA = "0x4B8B270", Offset = "0x4B8B270", VA = "0x4B8B270")]
 		[CompilerGenerated]
 		private set
 		{
@@ -135,14 +142,14 @@ public class RenderGraphDefaultResources
 	public TextureHandle blackUIntTextureXR
 	{
 		[Token(Token = "0x600041D")]
-		[Address(RVA = "0x4866190", Offset = "0x4866190", VA = "0x4866190")]
+		[Address(RVA = "0x4B8B280", Offset = "0x4B8B280", VA = "0x4B8B280")]
 		[CompilerGenerated]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x600041E")]
-		[Address(RVA = "0x48661A0", Offset = "0x48661A0", VA = "0x48661A0")]
+		[Address(RVA = "0x4B8B290", Offset = "0x4B8B290", VA = "0x4B8B290")]
 		[CompilerGenerated]
 		private set
 		{
@@ -153,14 +160,14 @@ public class RenderGraphDefaultResources
 	public TextureHandle blackTexture3DXR
 	{
 		[Token(Token = "0x600041F")]
-		[Address(RVA = "0x48661B0", Offset = "0x48661B0", VA = "0x48661B0")]
+		[Address(RVA = "0x4B8B2A0", Offset = "0x4B8B2A0", VA = "0x4B8B2A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x6000420")]
-		[Address(RVA = "0x48661C0", Offset = "0x48661C0", VA = "0x48661C0")]
+		[Address(RVA = "0x4B8B2B0", Offset = "0x4B8B2B0", VA = "0x4B8B2B0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -171,14 +178,14 @@ public class RenderGraphDefaultResources
 	public TextureHandle whiteTextureXR
 	{
 		[Token(Token = "0x6000421")]
-		[Address(RVA = "0x48661D0", Offset = "0x48661D0", VA = "0x48661D0")]
+		[Address(RVA = "0x4B8B2C0", Offset = "0x4B8B2C0", VA = "0x4B8B2C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x6000422")]
-		[Address(RVA = "0x48661E0", Offset = "0x48661E0", VA = "0x48661E0")]
+		[Address(RVA = "0x4B8B2D0", Offset = "0x4B8B2D0", VA = "0x4B8B2D0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -189,14 +196,14 @@ public class RenderGraphDefaultResources
 	public TextureHandle defaultShadowTexture
 	{
 		[Token(Token = "0x6000423")]
-		[Address(RVA = "0x48661F0", Offset = "0x48661F0", VA = "0x48661F0")]
+		[Address(RVA = "0x4B8B2E0", Offset = "0x4B8B2E0", VA = "0x4B8B2E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(TextureHandle);
 		}
 		[Token(Token = "0x6000424")]
-		[Address(RVA = "0x4866200", Offset = "0x4866200", VA = "0x4866200")]
+		[Address(RVA = "0x4B8B2F0", Offset = "0x4B8B2F0", VA = "0x4B8B2F0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -204,19 +211,19 @@ public class RenderGraphDefaultResources
 	}
 
 	[Token(Token = "0x6000425")]
-	[Address(RVA = "0x4866210", Offset = "0x4866210", VA = "0x4866210")]
+	[Address(RVA = "0x4B8B300", Offset = "0x4B8B300", VA = "0x4B8B300")]
 	internal RenderGraphDefaultResources()
 	{
 	}
 
 	[Token(Token = "0x6000426")]
-	[Address(RVA = "0x4866310", Offset = "0x4866310", VA = "0x4866310")]
+	[Address(RVA = "0x4B8B400", Offset = "0x4B8B400", VA = "0x4B8B400")]
 	internal void Cleanup()
 	{
 	}
 
 	[Token(Token = "0x6000427")]
-	[Address(RVA = "0x4866350", Offset = "0x4866350", VA = "0x4866350")]
+	[Address(RVA = "0x4B8B440", Offset = "0x4B8B440", VA = "0x4B8B440")]
 	internal void InitializeForRendering(RenderGraph renderGraph)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: ExitGames.Client.Photon.EnetPeer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -126,7 +133,7 @@ internal class EnetPeer : PeerBase
 	internal override int QueuedIncomingCommandsCount
 	{
 		[Token(Token = "0x6000062")]
-		[Address(RVA = "0x3B698B0", Offset = "0x3B698B0", VA = "0x3B698B0", Slot = "4")]
+		[Address(RVA = "0x3E5F200", Offset = "0x3E5F200", VA = "0x3E5F200", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -137,7 +144,7 @@ internal class EnetPeer : PeerBase
 	internal override int QueuedOutgoingCommandsCount
 	{
 		[Token(Token = "0x6000063")]
-		[Address(RVA = "0x3B69A60", Offset = "0x3B69A60", VA = "0x3B69A60", Slot = "5")]
+		[Address(RVA = "0x3E5F3B0", Offset = "0x3E5F3B0", VA = "0x3E5F3B0", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -148,7 +155,7 @@ internal class EnetPeer : PeerBase
 	internal override int SentReliableCommandsCount
 	{
 		[Token(Token = "0x6000064")]
-		[Address(RVA = "0x3B69CE0", Offset = "0x3B69CE0", VA = "0x3B69CE0", Slot = "6")]
+		[Address(RVA = "0x3E5F630", Offset = "0x3E5F630", VA = "0x3E5F630", Slot = "6")]
 		get
 		{
 			return default(int);
@@ -156,215 +163,215 @@ internal class EnetPeer : PeerBase
 	}
 
 	[Token(Token = "0x6000065")]
-	[Address(RVA = "0x3B69D20", Offset = "0x3B69D20", VA = "0x3B69D20")]
+	[Address(RVA = "0x3E5F670", Offset = "0x3E5F670", VA = "0x3E5F670")]
 	internal EnetPeer()
 	{
 	}
 
 	[Token(Token = "0x6000066")]
-	[Address(RVA = "0x3B6A2F0", Offset = "0x3B6A2F0", VA = "0x3B6A2F0", Slot = "14")]
+	[Address(RVA = "0x3E5FC40", Offset = "0x3E5FC40", VA = "0x3E5FC40", Slot = "14")]
 	internal override bool IsTransportEncrypted()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000067")]
-	[Address(RVA = "0x3B6A300", Offset = "0x3B6A300", VA = "0x3B6A300", Slot = "8")]
+	[Address(RVA = "0x3E5FC50", Offset = "0x3E5FC50", VA = "0x3E5FC50", Slot = "8")]
 	internal override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6000068")]
-	[Address(RVA = "0x3B6AD60", Offset = "0x3B6AD60", VA = "0x3B6AD60")]
+	[Address(RVA = "0x3E606B0", Offset = "0x3E606B0", VA = "0x3E606B0")]
 	internal void ApplyRandomizedSequenceNumbers()
 	{
 	}
 
 	[Token(Token = "0x6000069")]
-	[Address(RVA = "0x3B6AF50", Offset = "0x3B6AF50", VA = "0x3B6AF50")]
+	[Address(RVA = "0x3E608A0", Offset = "0x3E608A0", VA = "0x3E608A0")]
 	private EnetChannel GetChannel(byte channelNumber)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x3B6AFB0", Offset = "0x3B6AFB0", VA = "0x3B6AFB0", Slot = "9")]
+	[Address(RVA = "0x3E60900", Offset = "0x3E60900", VA = "0x3E60900", Slot = "9")]
 	internal override bool Connect(string ipport, string proxyServerAddress, string appID, object photonToken)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600006B")]
-	[Address(RVA = "0x3B6B060", Offset = "0x3B6B060", VA = "0x3B6B060", Slot = "10")]
+	[Address(RVA = "0x3E609B0", Offset = "0x3E609B0", VA = "0x3E609B0", Slot = "10")]
 	public override void OnConnect()
 	{
 	}
 
 	[Token(Token = "0x600006C")]
-	[Address(RVA = "0x3B6B450", Offset = "0x3B6B450", VA = "0x3B6B450", Slot = "11")]
+	[Address(RVA = "0x3E60DA0", Offset = "0x3E60DA0", VA = "0x3E60DA0", Slot = "11")]
 	internal override void Disconnect()
 	{
 	}
 
 	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x3B6C3D0", Offset = "0x3B6C3D0", VA = "0x3B6C3D0", Slot = "12")]
+	[Address(RVA = "0x3E61D20", Offset = "0x3E61D20", VA = "0x3E61D20", Slot = "12")]
 	internal override void StopConnection()
 	{
 	}
 
 	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x3B6C4C0", Offset = "0x3B6C4C0", VA = "0x3B6C4C0", Slot = "13")]
+	[Address(RVA = "0x3E61E10", Offset = "0x3E61E10", VA = "0x3E61E10", Slot = "13")]
 	internal override void FetchServerTimestamp()
 	{
 	}
 
 	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x3B6CD30", Offset = "0x3B6CD30", VA = "0x3B6CD30", Slot = "19")]
+	[Address(RVA = "0x3E62680", Offset = "0x3E62680", VA = "0x3E62680", Slot = "19")]
 	internal override bool DispatchIncomingCommands()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x3B6EB70", Offset = "0x3B6EB70", VA = "0x3B6EB70")]
+	[Address(RVA = "0x3E644C0", Offset = "0x3E644C0", VA = "0x3E644C0")]
 	private int GetFragmentLength()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000071")]
-	[Address(RVA = "0x3B6ECD0", Offset = "0x3B6ECD0", VA = "0x3B6ECD0")]
+	[Address(RVA = "0x3E64620", Offset = "0x3E64620", VA = "0x3E64620")]
 	private int CalculatePacketSize(int inSize)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000072")]
-	[Address(RVA = "0x3B6EDB0", Offset = "0x3B6EDB0", VA = "0x3B6EDB0")]
+	[Address(RVA = "0x3E64700", Offset = "0x3E64700", VA = "0x3E64700")]
 	private int CalculateInitialOffset()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000073")]
-	[Address(RVA = "0x3B6EDF0", Offset = "0x3B6EDF0", VA = "0x3B6EDF0", Slot = "17")]
+	[Address(RVA = "0x3E64740", Offset = "0x3E64740", VA = "0x3E64740", Slot = "17")]
 	internal override bool SendAcksOnly()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000074")]
-	[Address(RVA = "0x3B70130", Offset = "0x3B70130", VA = "0x3B70130", Slot = "16")]
+	[Address(RVA = "0x3E65A80", Offset = "0x3E65A80", VA = "0x3E65A80", Slot = "16")]
 	internal override bool SendOutgoingCommands()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000075")]
-	[Address(RVA = "0x3B716A0", Offset = "0x3B716A0", VA = "0x3B716A0", Slot = "15")]
+	[Address(RVA = "0x3E66FF0", Offset = "0x3E66FF0", VA = "0x3E66FF0", Slot = "15")]
 	internal override bool EnqueuePhotonMessage(StreamBuffer opBytes, SendOptions sendParams)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x3B6C740", Offset = "0x3B6C740", VA = "0x3B6C740")]
+	[Address(RVA = "0x3E62090", Offset = "0x3E62090", VA = "0x3E62090")]
 	internal bool CreateAndEnqueueCommand(byte commandType, StreamBuffer payload, byte channelNumber)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000077")]
-	[Address(RVA = "0x3B6F890", Offset = "0x3B6F890", VA = "0x3B6F890")]
+	[Address(RVA = "0x3E651E0", Offset = "0x3E651E0", VA = "0x3E651E0")]
 	internal int SerializeAckToBuffer()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x3B714E0", Offset = "0x3B714E0", VA = "0x3B714E0")]
+	[Address(RVA = "0x3E66E30", Offset = "0x3E66E30", VA = "0x3E66E30")]
 	internal int SerializeToBuffer(Queue<NCommand> commandList)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000079")]
-	[Address(RVA = "0x3B6FB50", Offset = "0x3B6FB50", VA = "0x3B6FB50")]
+	[Address(RVA = "0x3E654A0", Offset = "0x3E654A0", VA = "0x3E654A0")]
 	private bool SerializeCommandToBuffer(NCommand command, bool commandIsInSentQueue = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600007A")]
-	[Address(RVA = "0x3B6FD00", Offset = "0x3B6FD00", VA = "0x3B6FD00")]
+	[Address(RVA = "0x3E65650", Offset = "0x3E65650", VA = "0x3E65650")]
 	internal void SendData(byte[] data, int length)
 	{
 	}
 
 	[Token(Token = "0x600007B")]
-	[Address(RVA = "0x3B72370", Offset = "0x3B72370", VA = "0x3B72370")]
+	[Address(RVA = "0x3E67CC0", Offset = "0x3E67CC0", VA = "0x3E67CC0")]
 	private void SendToSocket(byte[] data, int length)
 	{
 	}
 
 	[Token(Token = "0x600007C")]
-	[Address(RVA = "0x3B72100", Offset = "0x3B72100", VA = "0x3B72100")]
+	[Address(RVA = "0x3E67A50", Offset = "0x3E67A50", VA = "0x3E67A50")]
 	private void SendDataEncrypted(byte[] data, int length)
 	{
 	}
 
 	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x3B71E80", Offset = "0x3B71E80", VA = "0x3B71E80")]
+	[Address(RVA = "0x3E677D0", Offset = "0x3E677D0", VA = "0x3E677D0")]
 	internal void QueueSentCommand(NCommand command, bool commandIsAlreadyInSentQueue = false)
 	{
 	}
 
 	[Token(Token = "0x600007E")]
-	[Address(RVA = "0x3B6B270", Offset = "0x3B6B270", VA = "0x3B6B270")]
+	[Address(RVA = "0x3E60BC0", Offset = "0x3E60BC0", VA = "0x3E60BC0")]
 	internal void QueueOutgoingReliableCommand(NCommand command)
 	{
 	}
 
 	[Token(Token = "0x600007F")]
-	[Address(RVA = "0x3B71710", Offset = "0x3B71710", VA = "0x3B71710")]
+	[Address(RVA = "0x3E67060", Offset = "0x3E67060", VA = "0x3E67060")]
 	internal void QueueOutgoingUnreliableCommand(NCommand command)
 	{
 	}
 
 	[Token(Token = "0x6000080")]
-	[Address(RVA = "0x3B72960", Offset = "0x3B72960", VA = "0x3B72960")]
+	[Address(RVA = "0x3E682B0", Offset = "0x3E682B0", VA = "0x3E682B0")]
 	internal void QueueOutgoingAcknowledgement(NCommand readCommand, int sendTime)
 	{
 	}
 
 	[Token(Token = "0x6000081")]
-	[Address(RVA = "0x3B72BA0", Offset = "0x3B72BA0", VA = "0x3B72BA0", Slot = "18")]
+	[Address(RVA = "0x3E684F0", Offset = "0x3E684F0", VA = "0x3E684F0", Slot = "18")]
 	internal override void ReceiveIncomingCommands(byte[] inBuff, int inDataLength)
 	{
 	}
 
 	[Token(Token = "0x6000082")]
-	[Address(RVA = "0x3B6D920", Offset = "0x3B6D920", VA = "0x3B6D920")]
+	[Address(RVA = "0x3E63270", Offset = "0x3E63270", VA = "0x3E63270")]
 	internal void ExecuteCommand(NCommand command)
 	{
 	}
 
 	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x3B73D60", Offset = "0x3B73D60", VA = "0x3B73D60")]
+	[Address(RVA = "0x3E696B0", Offset = "0x3E696B0", VA = "0x3E696B0")]
 	internal bool QueueIncomingCommand(NCommand command)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000084")]
-	[Address(RVA = "0x3B73840", Offset = "0x3B73840", VA = "0x3B73840")]
+	[Address(RVA = "0x3E69190", Offset = "0x3E69190", VA = "0x3E69190")]
 	internal NCommand RemoveSentReliableCommand(int ackReceivedReliableSequenceNumber, int ackReceivedChannel, bool isUnsequenced)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000085")]
-	[Address(RVA = "0x3B74CC0", Offset = "0x3B74CC0", VA = "0x3B74CC0")]
+	[Address(RVA = "0x3E6A610", Offset = "0x3E6A610", VA = "0x3E6A610")]
 	internal string CommandListToString(NCommand[] list)
 	{
 		return null;

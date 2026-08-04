@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.Text.TextColorGradient
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -37,19 +44,19 @@ public class TextColorGradient : ScriptableObject
 	private static readonly Color k_DefaultColor;
 
 	[Token(Token = "0x60000E1")]
-	[Address(RVA = "0x4B90A40", Offset = "0x4B90A40", VA = "0x4B90A40")]
+	[Address(RVA = "0x4EB8370", Offset = "0x4EB8370", VA = "0x4EB8370")]
 	public TextColorGradient()
 	{
 	}
 
 	[Token(Token = "0x60000E2")]
-	[Address(RVA = "0x4B90AE0", Offset = "0x4B90AE0", VA = "0x4B90AE0")]
+	[Address(RVA = "0x4EB8410", Offset = "0x4EB8410", VA = "0x4EB8410")]
 	public TextColorGradient(Color color)
 	{
 	}
 
 	[Token(Token = "0x60000E3")]
-	[Address(RVA = "0x4B90B30", Offset = "0x4B90B30", VA = "0x4B90B30")]
+	[Address(RVA = "0x4EB8460", Offset = "0x4EB8460", VA = "0x4EB8460")]
 	public TextColorGradient(Color color0, Color color1, Color color2, Color color3)
 	{
 	}

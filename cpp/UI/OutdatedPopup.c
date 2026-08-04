@@ -1,24 +1,25 @@
 // Type: UI.OutdatedPopup
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/OutdatedPopup.cs
-// Prior real C# source (REFERENCE, outdated): Assets/Scripts/UI/MainMenu/OutdatedPopup.cs  [prior source available (delta unverified)]
+// Prior real C# source (older reference): Assets/Scripts/UI/MainMenu/OutdatedPopup.cs
 // --------------------------------
 
 // UI.OutdatedPopup$$get_Title
 // il2cpp: System_String_o* UI_OutdatedPopup__get_Title (UI_OutdatedPopup_o* __this, const MethodInfo* method);
-// 0x40fac90
+// 0x440efd0
 
 System_String_o * UI_OutdatedPopup__get_Title(UI_OutdatedPopup_o *__this,MethodInfo *method)
 
 {
-  return (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
+  return (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
 }
 
 
 // UI.OutdatedPopup$$get_Width
 // il2cpp: float UI_OutdatedPopup__get_Width (UI_OutdatedPopup_o* __this, const MethodInfo* method);
-// 0x40facb0
+// 0x440eff0
 
 float UI_OutdatedPopup__get_Width(UI_OutdatedPopup_o *__this,MethodInfo *method)
 
@@ -29,7 +30,7 @@ float UI_OutdatedPopup__get_Width(UI_OutdatedPopup_o *__this,MethodInfo *method)
 
 // UI.OutdatedPopup$$get_Height
 // il2cpp: float UI_OutdatedPopup__get_Height (UI_OutdatedPopup_o* __this, const MethodInfo* method);
-// 0x40facc0
+// 0x440f000
 
 float UI_OutdatedPopup__get_Height(UI_OutdatedPopup_o *__this,MethodInfo *method)
 
@@ -40,7 +41,7 @@ float UI_OutdatedPopup__get_Height(UI_OutdatedPopup_o *__this,MethodInfo *method
 
 // UI.OutdatedPopup$$get_VerticalPadding
 // il2cpp: int32_t UI_OutdatedPopup__get_VerticalPadding (UI_OutdatedPopup_o* __this, const MethodInfo* method);
-// 0x40facd0
+// 0x440f010
 
 int32_t UI_OutdatedPopup__get_VerticalPadding(UI_OutdatedPopup_o *__this,MethodInfo *method)
 
@@ -51,7 +52,7 @@ int32_t UI_OutdatedPopup__get_VerticalPadding(UI_OutdatedPopup_o *__this,MethodI
 
 // UI.OutdatedPopup$$get_HorizontalPadding
 // il2cpp: int32_t UI_OutdatedPopup__get_HorizontalPadding (UI_OutdatedPopup_o* __this, const MethodInfo* method);
-// 0x40face0
+// 0x440f020
 
 int32_t UI_OutdatedPopup__get_HorizontalPadding(UI_OutdatedPopup_o *__this,MethodInfo *method)
 
@@ -62,7 +63,7 @@ int32_t UI_OutdatedPopup__get_HorizontalPadding(UI_OutdatedPopup_o *__this,Metho
 
 // UI.OutdatedPopup$$get_LabelHeight
 // il2cpp: float UI_OutdatedPopup__get_LabelHeight (UI_OutdatedPopup_o* __this, const MethodInfo* method);
-// 0x40facf0
+// 0x440f030
 
 float UI_OutdatedPopup__get_LabelHeight(UI_OutdatedPopup_o *__this,MethodInfo *method)
 
@@ -73,7 +74,7 @@ float UI_OutdatedPopup__get_LabelHeight(UI_OutdatedPopup_o *__this,MethodInfo *m
 
 // UI.OutdatedPopup$$.ctor
 // il2cpp: void UI_OutdatedPopup___ctor (UI_OutdatedPopup_o* __this, const MethodInfo* method);
-// 0x40fad00
+// 0x440f040
 
 void UI_OutdatedPopup___ctor(UI_OutdatedPopup_o *__this,MethodInfo *method)
 

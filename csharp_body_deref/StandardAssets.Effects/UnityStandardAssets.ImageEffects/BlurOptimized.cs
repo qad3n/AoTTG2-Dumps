@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.BlurOptimized
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/BlurOptimized.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -46,26 +53,26 @@ public class BlurOptimized : PostEffectsBase
 	private Material blurMaterial;
 
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x4155080", Offset = "0x4155080", VA = "0x4155080", Slot = "4")]
+	[Address(RVA = "0x447A180", Offset = "0x447A180", VA = "0x447A180", Slot = "4")]
 	public override bool CheckResources()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x4155140", Offset = "0x4155140", VA = "0x4155140")]
+	[Address(RVA = "0x447A240", Offset = "0x447A240", VA = "0x447A240")]
 	public void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x41551C0", Offset = "0x41551C0", VA = "0x41551C0")]
+	[Address(RVA = "0x447A2C0", Offset = "0x447A2C0", VA = "0x447A2C0")]
 	public void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x4155530", Offset = "0x4155530", VA = "0x4155530")]
+	[Address(RVA = "0x447A630", Offset = "0x447A630", VA = "0x447A630")]
 	public BlurOptimized()
 	{
 	}

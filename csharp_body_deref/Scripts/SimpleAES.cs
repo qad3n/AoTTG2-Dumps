@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: SimpleAES
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/SimpleAES.c
+// Prior real C# source (older reference): Assets/Scripts/Utility/SimpleAES.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Security.Cryptography;
 using System.Text;
 using Il2CppDummyDll;
@@ -26,41 +33,41 @@ public class SimpleAES
 	private static byte[] vector;
 
 	[Token(Token = "0x600010D")]
-	[Address(RVA = "0x3C72C10", Offset = "0x3C72C10", VA = "0x3C72C10")]
+	[Address(RVA = "0x3F68560", Offset = "0x3F68560", VA = "0x3F68560")]
 	public SimpleAES()
 	{
 	}
 
 	[Token(Token = "0x600010E")]
-	[Address(RVA = "0x3C72D40", Offset = "0x3C72D40", VA = "0x3C72D40")]
+	[Address(RVA = "0x3F68690", Offset = "0x3F68690", VA = "0x3F68690")]
 	public string Decrypt(string encrypted)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600010F")]
-	[Address(RVA = "0x3C72DD0", Offset = "0x3C72DD0", VA = "0x3C72DD0")]
+	[Address(RVA = "0x3F68720", Offset = "0x3F68720", VA = "0x3F68720")]
 	public byte[] Decrypt(byte[] buffer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000110")]
-	[Address(RVA = "0x3C73000", Offset = "0x3C73000", VA = "0x3C73000")]
+	[Address(RVA = "0x3F68950", Offset = "0x3F68950", VA = "0x3F68950")]
 	public string Encrypt(string unencrypted)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000111")]
-	[Address(RVA = "0x3C73080", Offset = "0x3C73080", VA = "0x3C73080")]
+	[Address(RVA = "0x3F689D0", Offset = "0x3F689D0", VA = "0x3F689D0")]
 	public byte[] Encrypt(byte[] buffer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000112")]
-	[Address(RVA = "0x3C72DE0", Offset = "0x3C72DE0", VA = "0x3C72DE0")]
+	[Address(RVA = "0x3F68730", Offset = "0x3F68730", VA = "0x3F68730")]
 	protected byte[] Transform(byte[] buffer, ICryptoTransform transform)
 	{
 		return null;

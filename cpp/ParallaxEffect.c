@@ -1,60 +1,137 @@
 // Type: ParallaxEffect
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/ParallaxEffect.cs
-// Prior real C# source (REFERENCE, outdated): Assets/Scripts/UI/MainMenu/ParallaxEffect.cs  [CHANGED since prior version]
+// Prior real C# source (older reference): Assets/Scripts/UI/MainMenu/ParallaxEffect.cs
 // --------------------------------
 
 // ParallaxEffect$$Awake
 // il2cpp: void ParallaxEffect__Awake (ParallaxEffect_o* __this, const MethodInfo* method);
-// 0x3d6e800
+// 0x4064150
 
 void ParallaxEffect__Awake(ParallaxEffect_o *__this,MethodInfo *method)
 
 {
-  float fVar1;
-  undefined8 uVar2;
+  undefined8 uVar1;
+  int32_t iVar2;
   int32_t iVar3;
   int32_t iVar4;
-  UnityEngine_RectTransform_o *pUVar5;
-  UnityEngine_Vector3_o value;
+  int32_t iVar5;
+  UnityEngine_RectTransform_o *pUVar6;
+  UnityEngine_RectTransform_o **ppUVar7;
+  uint uVar8;
+  UnityEngine_Vector2_o UVar9;
+  float fVar10;
+  float fVar11;
+  float fVar12;
+  UnityEngine_Vector3_o UVar13;
+  UnityEngine_Vector2_o UStack_80;
   
-  if (DAT_05702600 == '\0') {
-    il2cpp_init_method_metadata(&MethodInfo_RectTransform_GetComponent_RectTransform);
-    DAT_05702600 = '\x01';
+  if (g_data_057ac2b0 == '\0') {
+    il2cpp_runtime_helper_023445d0(&MethodInfo_RectTransform_GetComponent_RectTransform);
+    g_data_057ac2b0 = '\x01';
   }
-  pUVar5 = (UnityEngine_RectTransform_o *)
-           UnityEngine_Component__GetComponent<object>
-                     ((UnityEngine_Component_o *)__this,MethodInfo_RectTransform_GetComponent_RectTransform);
-  (__this->fields).rectTransform = pUVar5;
-  il2cpp_runtime_glue(&(__this->fields).rectTransform);
-  pUVar5 = (__this->fields).rectTransform;
-  if (DAT_056fe077 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_Vector3);
-    DAT_056fe077 = '\x01';
+  pUVar6 = (UnityEngine_RectTransform_o *)
+           UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)__this,MethodInfo_RectTransform_GetComponent_RectTransform);
+  ppUVar7 = &(__this->fields).rectTransform;
+  (__this->fields).rectTransform = pUVar6;
+  il2cpp_runtime_helper_022b4080();
+  pUVar6 = (__this->fields).rectTransform;
+  if (g_data_057a6932 == '\0') {
+    ppUVar7 = (UnityEngine_RectTransform_o **)&TypeInfo_Vector3;
+    il2cpp_runtime_helper_023445d0();
+    g_data_057a6932 = '\x01';
   }
-  if (pUVar5 != (UnityEngine_RectTransform_o *)0x0) {
-    fVar1 = (__this->fields).scale;
-    uVar2 = *(undefined8 *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0xc);
-    value.fields.x = fVar1 * (float)uVar2;
-    value.fields.y = fVar1 * (float)((ulong)uVar2 >> 0x20);
-    value.fields.z = fVar1 * *(float *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x14);
-    UnityEngine_Transform__set_localScale((UnityEngine_Transform_o *)pUVar5,value,(MethodInfo *)0x0)
-    ;
-    iVar3 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
-    iVar4 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
-    (__this->fields).lastValidMousePosition.fields.x = (float)iVar3 * 0.5;
-    (__this->fields).lastValidMousePosition.fields.y = (float)iVar4 * 0.5;
+  if (pUVar6 != (UnityEngine_RectTransform_o *)0x0) {
+    fVar10 = (__this->fields).scale;
+    uVar1 = *(undefined8 *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0xc);
+    UVar13.fields.x = fVar10 * (float)uVar1;
+    UVar13.fields.y = fVar10 * (float)((ulong)uVar1 >> 0x20);
+    UVar13.fields.z = fVar10 * *(float *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x14);
+    UnityEngine_Transform__set_localScale((UnityEngine_Transform_o *)pUVar6,UVar13,(MethodInfo *)0x0);
+    iVar2 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
+    iVar3 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
+    (__this->fields).lastValidMousePosition.fields.x = (float)iVar2 * 0.5;
+    (__this->fields).lastValidMousePosition.fields.y = (float)iVar3 * 0.5;
     return;
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  UVar13 = UnityEngine_Input__get_mousePosition((MethodInfo *)0x0);
+  if (0.0 <= UVar13.fields.x) {
+    iVar2 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
+    UStack_80.fields.y = UVar13.fields.y;
+    if ((UVar13.fields.x <= (float)iVar2) && (0.0 <= UStack_80.fields.y)) {
+      iVar2 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
+      if (UStack_80.fields.y <= (float)iVar2) {
+        ppUVar7[8] = (UnityEngine_RectTransform_o *)UVar13.fields._0_8_;
+        UStack_80.fields = (UnityEngine_Vector2_Fields)UVar13.fields._0_8_;
+        goto label_04064286;
+      }
+    }
+  }
+  UStack_80.fields = (UnityEngine_Vector2_Fields)ppUVar7[8];
+label_04064286:
+  fVar10 = *(float *)(ppUVar7 + 5);
+  iVar2 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
+  fVar12 = *(float *)(ppUVar7 + 5);
+  iVar3 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
+  iVar4 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
+  iVar5 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
+  pUVar6 = ppUVar7[7];
+  if (pUVar6 != (UnityEngine_RectTransform_o *)0x0) {
+    fVar11 = (fVar10 + -1.0) * (float)(iVar2 / 2);
+    fVar12 = (fVar12 + -1.0) * (float)(iVar3 / 2);
+    UVar9 = UnityEngine_RectTransform__get_anchoredPosition(pUVar6,(MethodInfo *)0x0);
+    fVar10 = *(float *)((long)ppUVar7 + 0x24);
+    UStack_80.fields.y =
+         ((fVar12 + fVar12) * (UStack_80.fields.y / (float)iVar5) - fVar12) * *(float *)(ppUVar7 + 4);
+    UStack_80.fields.x =
+         ((UStack_80.fields.x / (float)iVar4) * (fVar11 + fVar11) - fVar11) * *(float *)(ppUVar7 + 4);
+    fVar12 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
+    UVar9 = UnityEngine_Vector2__SmoothDamp_4def270
+                      (UVar9,UStack_80,(UnityEngine_Vector2_o *)((long)ppUVar7 + 0x2c),fVar10,INFINITY,fVar12,
+                       (MethodInfo *)0x0);
+    UnityEngine_RectTransform__set_anchoredPosition(pUVar6,UVar9,(MethodInfo *)0x0);
+    pUVar6 = ppUVar7[7];
+    if (pUVar6 != (UnityEngine_RectTransform_o *)0x0) {
+      UVar9 = UnityEngine_RectTransform__get_anchoredPosition(pUVar6,(MethodInfo *)0x0);
+      fVar10 = *(float *)(ppUVar7 + 5);
+      iVar2 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
+      fVar12 = (float)(iVar2 / 2) * (fVar10 + -1.0);
+      fVar10 = *(float *)(ppUVar7 + 5);
+      iVar2 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
+      fVar11 = (float)(iVar2 / 2) * (fVar10 + -1.0);
+      UStack_80.fields.x = UVar9.fields.x;
+      UStack_80.fields.y = UVar9.fields.y;
+      fVar10 = fVar12;
+      if (UStack_80.fields.x <= fVar12) {
+        fVar10 = UStack_80.fields.x;
+      }
+      uVar8 = -(uint)(-fVar12 <= UStack_80.fields.x);
+      UVar9.fields.x = (float)(~uVar8 & (uint)-fVar12 | (uint)fVar10 & uVar8);
+      fVar10 = fVar11;
+      if (UStack_80.fields.y <= fVar11) {
+        fVar10 = UStack_80.fields.y;
+      }
+      uVar8 = -(uint)(-fVar11 <= UStack_80.fields.y);
+      UVar9.fields.y = (float)(~uVar8 & (uint)-fVar11 | (uint)fVar10 & uVar8);
+      UnityEngine_RectTransform__set_anchoredPosition(pUVar6,UVar9,(MethodInfo *)0x0);
+      return;
+    }
+  }
+  il2cpp_runtime_helper_022b2c90();
+  UnityEngine_Screen__get_width((MethodInfo *)0x0);
+  UnityEngine_Screen__get_height((MethodInfo *)0x0);
+  UnityEngine_Screen__get_width((MethodInfo *)0x0);
+  UnityEngine_Screen__get_height((MethodInfo *)0x0);
+  return;
 }
 
 
 // ParallaxEffect$$Update
 // il2cpp: void ParallaxEffect__Update (ParallaxEffect_o* __this, const MethodInfo* method);
-// 0x3d6e8e0
+// 0x4064230
 
 void ParallaxEffect__Update(ParallaxEffect_o *__this,MethodInfo *method)
 
@@ -82,12 +159,12 @@ void ParallaxEffect__Update(ParallaxEffect_o *__this,MethodInfo *method)
       if (UStack_68.y <= (float)iVar2) {
         (__this->fields).lastValidMousePosition.fields = UVar12.fields._0_8_;
         UStack_68 = UVar12.fields._0_8_;
-        goto LAB_03d6e936;
+        goto label_04064286;
       }
     }
   }
   UStack_68 = (__this->fields).lastValidMousePosition.fields;
-LAB_03d6e936:
+label_04064286:
   fVar7 = (__this->fields).scale;
   iVar2 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
   fVar8 = (__this->fields).scale;
@@ -104,7 +181,7 @@ LAB_03d6e936:
     UStack_68.y = ((fVar11 + fVar11) * (UStack_68.y / (float)iVar5) - fVar11) * fVar7;
     UStack_68.x = ((UStack_68.x / (float)iVar4) * (fVar10 + fVar10) - fVar10) * fVar7;
     fVar7 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
-    UVar9 = UnityEngine_Vector2__SmoothDamp
+    UVar9 = UnityEngine_Vector2__SmoothDamp_4def270
                       (UVar9,UStack_68,&(__this->fields).currentVelocity,fVar8,INFINITY,fVar7,
                        (MethodInfo *)0x0);
     UnityEngine_RectTransform__set_anchoredPosition(pUVar1,UVar9,(MethodInfo *)0x0);
@@ -135,14 +212,18 @@ LAB_03d6e936:
       return;
     }
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  UnityEngine_Screen__get_width((MethodInfo *)0x0);
+  UnityEngine_Screen__get_height((MethodInfo *)0x0);
+  UnityEngine_Screen__get_width((MethodInfo *)0x0);
+  UnityEngine_Screen__get_height((MethodInfo *)0x0);
+  return;
 }
 
 
 // ParallaxEffect$$GetConstrainedTargetPosition
 // il2cpp: UnityEngine_Vector2_o ParallaxEffect__GetConstrainedTargetPosition (ParallaxEffect_o* __this, UnityEngine_Vector2_o mousePosition, const MethodInfo* method);
-// 0x3d6ebb0
+// 0x4064500
 
 UnityEngine_Vector2_o
 ParallaxEffect__GetConstrainedTargetPosition
@@ -175,11 +256,10 @@ ParallaxEffect__GetConstrainedTargetPosition
 
 // ParallaxEffect$$ClampPosition
 // il2cpp: UnityEngine_Vector2_o ParallaxEffect__ClampPosition (ParallaxEffect_o* __this, UnityEngine_Vector2_o position, const MethodInfo* method);
-// 0x3d6ecb0
+// 0x4064600
 
 UnityEngine_Vector2_o
-ParallaxEffect__ClampPosition
-          (ParallaxEffect_o *__this,UnityEngine_Vector2_o position,MethodInfo *method)
+ParallaxEffect__ClampPosition(ParallaxEffect_o *__this,UnityEngine_Vector2_o position,MethodInfo *method)
 
 {
   int32_t iVar1;
@@ -217,11 +297,11 @@ ParallaxEffect__ClampPosition
 
 // ParallaxEffect$$MapRange
 // il2cpp: float ParallaxEffect__MapRange (ParallaxEffect_o* __this, float value, float fromSource, float toSource, float fromTarget, float toTarget, const MethodInfo* method);
-// 0x3d6ed80
+// 0x40646d0
 
 float ParallaxEffect__MapRange
-                (ParallaxEffect_o *__this,float value,float fromSource,float toSource,
-                float fromTarget,float toTarget,MethodInfo *method)
+                (ParallaxEffect_o *__this,float value,float fromSource,float toSource,float fromTarget,
+                float toTarget,MethodInfo *method)
 
 {
   return ((value - fromSource) / (toSource - fromSource)) * (toTarget - fromTarget) + fromTarget;
@@ -230,7 +310,7 @@ float ParallaxEffect__MapRange
 
 // ParallaxEffect$$.ctor
 // il2cpp: void ParallaxEffect___ctor (ParallaxEffect_o* __this, const MethodInfo* method);
-// 0x3d6eda0
+// 0x40646f0
 
 void ParallaxEffect___ctor(ParallaxEffect_o *__this,MethodInfo *method)
 

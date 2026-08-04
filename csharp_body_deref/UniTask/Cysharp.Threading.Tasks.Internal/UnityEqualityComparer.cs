@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.Internal.UnityEqualityComparer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -25,21 +32,21 @@ internal static class UnityEqualityComparer
 	private sealed class Vector2EqualityComparer : IEqualityComparer<Vector2>
 	{
 		[Token(Token = "0x6000CE8")]
-		[Address(RVA = "0x46F8FA0", Offset = "0x46F8FA0", VA = "0x46F8FA0", Slot = "4")]
+		[Address(RVA = "0x4A1E0A0", Offset = "0x4A1E0A0", VA = "0x4A1E0A0", Slot = "4")]
 		public bool Equals(Vector2 self, Vector2 vector)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000CE9")]
-		[Address(RVA = "0x46F8FF0", Offset = "0x46F8FF0", VA = "0x46F8FF0", Slot = "5")]
+		[Address(RVA = "0x4A1E0F0", Offset = "0x4A1E0F0", VA = "0x4A1E0F0", Slot = "5")]
 		public int GetHashCode(Vector2 obj)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000CEA")]
-		[Address(RVA = "0x46F8ED0", Offset = "0x46F8ED0", VA = "0x46F8ED0")]
+		[Address(RVA = "0x4A1DFD0", Offset = "0x4A1DFD0", VA = "0x4A1DFD0")]
 		public Vector2EqualityComparer()
 		{
 		}
@@ -49,21 +56,21 @@ internal static class UnityEqualityComparer
 	private sealed class Vector3EqualityComparer : IEqualityComparer<Vector3>
 	{
 		[Token(Token = "0x6000CEB")]
-		[Address(RVA = "0x46F9020", Offset = "0x46F9020", VA = "0x46F9020", Slot = "4")]
+		[Address(RVA = "0x4A1E120", Offset = "0x4A1E120", VA = "0x4A1E120", Slot = "4")]
 		public bool Equals(Vector3 self, Vector3 vector)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000CEC")]
-		[Address(RVA = "0x46F9090", Offset = "0x46F9090", VA = "0x46F9090", Slot = "5")]
+		[Address(RVA = "0x4A1E190", Offset = "0x4A1E190", VA = "0x4A1E190", Slot = "5")]
 		public int GetHashCode(Vector3 obj)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000CED")]
-		[Address(RVA = "0x46F8EE0", Offset = "0x46F8EE0", VA = "0x46F8EE0")]
+		[Address(RVA = "0x4A1DFE0", Offset = "0x4A1DFE0", VA = "0x4A1DFE0")]
 		public Vector3EqualityComparer()
 		{
 		}
@@ -73,21 +80,21 @@ internal static class UnityEqualityComparer
 	private sealed class Vector4EqualityComparer : IEqualityComparer<Vector4>
 	{
 		[Token(Token = "0x6000CEE")]
-		[Address(RVA = "0x46F90E0", Offset = "0x46F90E0", VA = "0x46F90E0", Slot = "4")]
+		[Address(RVA = "0x4A1E1E0", Offset = "0x4A1E1E0", VA = "0x4A1E1E0", Slot = "4")]
 		public bool Equals(Vector4 self, Vector4 vector)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000CEF")]
-		[Address(RVA = "0x46F9160", Offset = "0x46F9160", VA = "0x46F9160", Slot = "5")]
+		[Address(RVA = "0x4A1E260", Offset = "0x4A1E260", VA = "0x4A1E260", Slot = "5")]
 		public int GetHashCode(Vector4 obj)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000CF0")]
-		[Address(RVA = "0x46F8EF0", Offset = "0x46F8EF0", VA = "0x46F8EF0")]
+		[Address(RVA = "0x4A1DFF0", Offset = "0x4A1DFF0", VA = "0x4A1DFF0")]
 		public Vector4EqualityComparer()
 		{
 		}
@@ -97,21 +104,21 @@ internal static class UnityEqualityComparer
 	private sealed class ColorEqualityComparer : IEqualityComparer<Color>
 	{
 		[Token(Token = "0x6000CF1")]
-		[Address(RVA = "0x46F91D0", Offset = "0x46F91D0", VA = "0x46F91D0", Slot = "4")]
+		[Address(RVA = "0x4A1E2D0", Offset = "0x4A1E2D0", VA = "0x4A1E2D0", Slot = "4")]
 		public bool Equals(Color self, Color other)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000CF2")]
-		[Address(RVA = "0x46F9250", Offset = "0x46F9250", VA = "0x46F9250", Slot = "5")]
+		[Address(RVA = "0x4A1E350", Offset = "0x4A1E350", VA = "0x4A1E350", Slot = "5")]
 		public int GetHashCode(Color obj)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000CF3")]
-		[Address(RVA = "0x46F8F00", Offset = "0x46F8F00", VA = "0x46F8F00")]
+		[Address(RVA = "0x4A1E000", Offset = "0x4A1E000", VA = "0x4A1E000")]
 		public ColorEqualityComparer()
 		{
 		}
@@ -121,21 +128,21 @@ internal static class UnityEqualityComparer
 	private sealed class RectEqualityComparer : IEqualityComparer<Rect>
 	{
 		[Token(Token = "0x6000CF4")]
-		[Address(RVA = "0x46F92C0", Offset = "0x46F92C0", VA = "0x46F92C0", Slot = "4")]
+		[Address(RVA = "0x4A1E3C0", Offset = "0x4A1E3C0", VA = "0x4A1E3C0", Slot = "4")]
 		public bool Equals(Rect self, Rect other)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000CF5")]
-		[Address(RVA = "0x46F9370", Offset = "0x46F9370", VA = "0x46F9370", Slot = "5")]
+		[Address(RVA = "0x4A1E470", Offset = "0x4A1E470", VA = "0x4A1E470", Slot = "5")]
 		public int GetHashCode(Rect obj)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000CF6")]
-		[Address(RVA = "0x46F8F20", Offset = "0x46F8F20", VA = "0x46F8F20")]
+		[Address(RVA = "0x4A1E020", Offset = "0x4A1E020", VA = "0x4A1E020")]
 		public RectEqualityComparer()
 		{
 		}
@@ -145,21 +152,21 @@ internal static class UnityEqualityComparer
 	private sealed class BoundsEqualityComparer : IEqualityComparer<Bounds>
 	{
 		[Token(Token = "0x6000CF7")]
-		[Address(RVA = "0x46F9410", Offset = "0x46F9410", VA = "0x46F9410", Slot = "4")]
+		[Address(RVA = "0x4A1E510", Offset = "0x4A1E510", VA = "0x4A1E510", Slot = "4")]
 		public bool Equals(Bounds self, Bounds vector)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000CF8")]
-		[Address(RVA = "0x46F9490", Offset = "0x46F9490", VA = "0x46F9490", Slot = "5")]
+		[Address(RVA = "0x4A1E590", Offset = "0x4A1E590", VA = "0x4A1E590", Slot = "5")]
 		public int GetHashCode(Bounds obj)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000CF9")]
-		[Address(RVA = "0x46F8F30", Offset = "0x46F8F30", VA = "0x46F8F30")]
+		[Address(RVA = "0x4A1E030", Offset = "0x4A1E030", VA = "0x4A1E030")]
 		public BoundsEqualityComparer()
 		{
 		}
@@ -169,21 +176,21 @@ internal static class UnityEqualityComparer
 	private sealed class QuaternionEqualityComparer : IEqualityComparer<Quaternion>
 	{
 		[Token(Token = "0x6000CFA")]
-		[Address(RVA = "0x46F9550", Offset = "0x46F9550", VA = "0x46F9550", Slot = "4")]
+		[Address(RVA = "0x4A1E650", Offset = "0x4A1E650", VA = "0x4A1E650", Slot = "4")]
 		public bool Equals(Quaternion self, Quaternion vector)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000CFB")]
-		[Address(RVA = "0x46F95D0", Offset = "0x46F95D0", VA = "0x46F95D0", Slot = "5")]
+		[Address(RVA = "0x4A1E6D0", Offset = "0x4A1E6D0", VA = "0x4A1E6D0", Slot = "5")]
 		public int GetHashCode(Quaternion obj)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000CFC")]
-		[Address(RVA = "0x46F8F40", Offset = "0x46F8F40", VA = "0x46F8F40")]
+		[Address(RVA = "0x4A1E040", Offset = "0x4A1E040", VA = "0x4A1E040")]
 		public QuaternionEqualityComparer()
 		{
 		}
@@ -193,21 +200,21 @@ internal static class UnityEqualityComparer
 	private sealed class Color32EqualityComparer : IEqualityComparer<Color32>
 	{
 		[Token(Token = "0x6000CFD")]
-		[Address(RVA = "0x46F9640", Offset = "0x46F9640", VA = "0x46F9640", Slot = "4")]
+		[Address(RVA = "0x4A1E740", Offset = "0x4A1E740", VA = "0x4A1E740", Slot = "4")]
 		public bool Equals(Color32 self, Color32 vector)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000CFE")]
-		[Address(RVA = "0x46F96B0", Offset = "0x46F96B0", VA = "0x46F96B0", Slot = "5")]
+		[Address(RVA = "0x4A1E7B0", Offset = "0x4A1E7B0", VA = "0x4A1E7B0", Slot = "5")]
 		public int GetHashCode(Color32 obj)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000CFF")]
-		[Address(RVA = "0x46F8F10", Offset = "0x46F8F10", VA = "0x46F8F10")]
+		[Address(RVA = "0x4A1E010", Offset = "0x4A1E010", VA = "0x4A1E010")]
 		public Color32EqualityComparer()
 		{
 		}
@@ -217,21 +224,21 @@ internal static class UnityEqualityComparer
 	private sealed class Vector2IntEqualityComparer : IEqualityComparer<Vector2Int>
 	{
 		[Token(Token = "0x6000D00")]
-		[Address(RVA = "0x46F9710", Offset = "0x46F9710", VA = "0x46F9710", Slot = "4")]
+		[Address(RVA = "0x4A1E810", Offset = "0x4A1E810", VA = "0x4A1E810", Slot = "4")]
 		public bool Equals(Vector2Int self, Vector2Int vector)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000D01")]
-		[Address(RVA = "0x46F9770", Offset = "0x46F9770", VA = "0x46F9770", Slot = "5")]
+		[Address(RVA = "0x4A1E870", Offset = "0x4A1E870", VA = "0x4A1E870", Slot = "5")]
 		public int GetHashCode(Vector2Int obj)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000D02")]
-		[Address(RVA = "0x46F8F50", Offset = "0x46F8F50", VA = "0x46F8F50")]
+		[Address(RVA = "0x4A1E050", Offset = "0x4A1E050", VA = "0x4A1E050")]
 		public Vector2IntEqualityComparer()
 		{
 		}
@@ -245,21 +252,21 @@ internal static class UnityEqualityComparer
 		public static readonly Vector3IntEqualityComparer Default;
 
 		[Token(Token = "0x6000D03")]
-		[Address(RVA = "0x46F97B0", Offset = "0x46F97B0", VA = "0x46F97B0", Slot = "4")]
+		[Address(RVA = "0x4A1E8B0", Offset = "0x4A1E8B0", VA = "0x4A1E8B0", Slot = "4")]
 		public bool Equals(Vector3Int self, Vector3Int vector)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000D04")]
-		[Address(RVA = "0x46F9830", Offset = "0x46F9830", VA = "0x46F9830", Slot = "5")]
+		[Address(RVA = "0x4A1E930", Offset = "0x4A1E930", VA = "0x4A1E930", Slot = "5")]
 		public int GetHashCode(Vector3Int obj)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000D05")]
-		[Address(RVA = "0x46F8F60", Offset = "0x46F8F60", VA = "0x46F8F60")]
+		[Address(RVA = "0x4A1E060", Offset = "0x4A1E060", VA = "0x4A1E060")]
 		public Vector3IntEqualityComparer()
 		{
 		}
@@ -269,21 +276,21 @@ internal static class UnityEqualityComparer
 	private sealed class RangeIntEqualityComparer : IEqualityComparer<RangeInt>
 	{
 		[Token(Token = "0x6000D07")]
-		[Address(RVA = "0x46F9900", Offset = "0x46F9900", VA = "0x46F9900", Slot = "4")]
+		[Address(RVA = "0x4A1EA00", Offset = "0x4A1EA00", VA = "0x4A1EA00", Slot = "4")]
 		public bool Equals(RangeInt self, RangeInt vector)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000D08")]
-		[Address(RVA = "0x46F9940", Offset = "0x46F9940", VA = "0x46F9940", Slot = "5")]
+		[Address(RVA = "0x4A1EA40", Offset = "0x4A1EA40", VA = "0x4A1EA40", Slot = "5")]
 		public int GetHashCode(RangeInt obj)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000D09")]
-		[Address(RVA = "0x46F8F70", Offset = "0x46F8F70", VA = "0x46F8F70")]
+		[Address(RVA = "0x4A1E070", Offset = "0x4A1E070", VA = "0x4A1E070")]
 		public RangeIntEqualityComparer()
 		{
 		}
@@ -293,21 +300,21 @@ internal static class UnityEqualityComparer
 	private sealed class RectIntEqualityComparer : IEqualityComparer<RectInt>
 	{
 		[Token(Token = "0x6000D0A")]
-		[Address(RVA = "0x46F9970", Offset = "0x46F9970", VA = "0x46F9970", Slot = "4")]
+		[Address(RVA = "0x4A1EA70", Offset = "0x4A1EA70", VA = "0x4A1EA70", Slot = "4")]
 		public bool Equals(RectInt self, RectInt other)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000D0B")]
-		[Address(RVA = "0x46F9A10", Offset = "0x46F9A10", VA = "0x46F9A10", Slot = "5")]
+		[Address(RVA = "0x4A1EB10", Offset = "0x4A1EB10", VA = "0x4A1EB10", Slot = "5")]
 		public int GetHashCode(RectInt obj)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000D0C")]
-		[Address(RVA = "0x46F8F80", Offset = "0x46F8F80", VA = "0x46F8F80")]
+		[Address(RVA = "0x4A1E080", Offset = "0x4A1E080", VA = "0x4A1E080")]
 		public RectIntEqualityComparer()
 		{
 		}
@@ -317,21 +324,21 @@ internal static class UnityEqualityComparer
 	private sealed class BoundsIntEqualityComparer : IEqualityComparer<BoundsInt>
 	{
 		[Token(Token = "0x6000D0D")]
-		[Address(RVA = "0x46F9A90", Offset = "0x46F9A90", VA = "0x46F9A90", Slot = "4")]
+		[Address(RVA = "0x4A1EB90", Offset = "0x4A1EB90", VA = "0x4A1EB90", Slot = "4")]
 		public bool Equals(BoundsInt self, BoundsInt vector)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000D0E")]
-		[Address(RVA = "0x46F9C20", Offset = "0x46F9C20", VA = "0x46F9C20", Slot = "5")]
+		[Address(RVA = "0x4A1ED20", Offset = "0x4A1ED20", VA = "0x4A1ED20", Slot = "5")]
 		public int GetHashCode(BoundsInt obj)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000D0F")]
-		[Address(RVA = "0x46F8F90", Offset = "0x46F8F90", VA = "0x46F8F90")]
+		[Address(RVA = "0x4A1E090", Offset = "0x4A1E090", VA = "0x4A1E090")]
 		public BoundsIntEqualityComparer()
 		{
 		}
@@ -448,7 +455,7 @@ internal static class UnityEqualityComparer
 	}
 
 	[Token(Token = "0x6000CE5")]
-	[Address(RVA = "0x46F83C0", Offset = "0x46F83C0", VA = "0x46F83C0")]
+	[Address(RVA = "0x4A1D4C0", Offset = "0x4A1D4C0", VA = "0x4A1D4C0")]
 	private static object GetDefaultHelper(Type type)
 	{
 		return null;

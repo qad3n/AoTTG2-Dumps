@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Discord.NetworkManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Plugins/DiscordGameSDK/Core.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -114,7 +121,7 @@ public class NetworkManager
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x6000339")]
-		[Address(RVA = "0x23446C0", Offset = "0x23446C0", VA = "0x23446C0")]
+		[Address(RVA = "0x2344780", Offset = "0x2344780", VA = "0x2344780")]
 		get
 		{
 			return default(FFIMethods);
@@ -125,13 +132,13 @@ public class NetworkManager
 	public event MessageHandler OnMessage
 	{
 		[Token(Token = "0x600033A")]
-		[Address(RVA = "0x23447E0", Offset = "0x23447E0", VA = "0x23447E0")]
+		[Address(RVA = "0x23448A0", Offset = "0x23448A0", VA = "0x23448A0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600033B")]
-		[Address(RVA = "0x2344870", Offset = "0x2344870", VA = "0x2344870")]
+		[Address(RVA = "0x2344930", Offset = "0x2344930", VA = "0x2344930")]
 		[CompilerGenerated]
 		remove
 		{
@@ -142,13 +149,13 @@ public class NetworkManager
 	public event RouteUpdateHandler OnRouteUpdate
 	{
 		[Token(Token = "0x600033C")]
-		[Address(RVA = "0x2344900", Offset = "0x2344900", VA = "0x2344900")]
+		[Address(RVA = "0x23449C0", Offset = "0x23449C0", VA = "0x23449C0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600033D")]
-		[Address(RVA = "0x2344990", Offset = "0x2344990", VA = "0x2344990")]
+		[Address(RVA = "0x2344A50", Offset = "0x2344A50", VA = "0x2344A50")]
 		[CompilerGenerated]
 		remove
 		{
@@ -156,75 +163,75 @@ public class NetworkManager
 	}
 
 	[Token(Token = "0x600033E")]
-	[Address(RVA = "0x2332710", Offset = "0x2332710", VA = "0x2332710")]
+	[Address(RVA = "0x23327D0", Offset = "0x23327D0", VA = "0x23327D0")]
 	internal NetworkManager(IntPtr ptr, IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x600033F")]
-	[Address(RVA = "0x2344A20", Offset = "0x2344A20", VA = "0x2344A20")]
+	[Address(RVA = "0x2344AE0", Offset = "0x2344AE0", VA = "0x2344AE0")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x6000340")]
-	[Address(RVA = "0x2344D40", Offset = "0x2344D40", VA = "0x2344D40")]
+	[Address(RVA = "0x2344E00", Offset = "0x2344E00", VA = "0x2344E00")]
 	public ulong GetPeerId()
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x6000341")]
-	[Address(RVA = "0x2344D90", Offset = "0x2344D90", VA = "0x2344D90")]
+	[Address(RVA = "0x2344E50", Offset = "0x2344E50", VA = "0x2344E50")]
 	public void Flush()
 	{
 	}
 
 	[Token(Token = "0x6000342")]
-	[Address(RVA = "0x2344E10", Offset = "0x2344E10", VA = "0x2344E10")]
+	[Address(RVA = "0x2344ED0", Offset = "0x2344ED0", VA = "0x2344ED0")]
 	public void OpenPeer(ulong peerId, string routeData)
 	{
 	}
 
 	[Token(Token = "0x6000343")]
-	[Address(RVA = "0x2344EA0", Offset = "0x2344EA0", VA = "0x2344EA0")]
+	[Address(RVA = "0x2344F60", Offset = "0x2344F60", VA = "0x2344F60")]
 	public void UpdatePeer(ulong peerId, string routeData)
 	{
 	}
 
 	[Token(Token = "0x6000344")]
-	[Address(RVA = "0x2344F30", Offset = "0x2344F30", VA = "0x2344F30")]
+	[Address(RVA = "0x2344FF0", Offset = "0x2344FF0", VA = "0x2344FF0")]
 	public void ClosePeer(ulong peerId)
 	{
 	}
 
 	[Token(Token = "0x6000345")]
-	[Address(RVA = "0x2344FC0", Offset = "0x2344FC0", VA = "0x2344FC0")]
+	[Address(RVA = "0x2345080", Offset = "0x2345080", VA = "0x2345080")]
 	public void OpenChannel(ulong peerId, byte channelId, bool reliable)
 	{
 	}
 
 	[Token(Token = "0x6000346")]
-	[Address(RVA = "0x2345060", Offset = "0x2345060", VA = "0x2345060")]
+	[Address(RVA = "0x2345120", Offset = "0x2345120", VA = "0x2345120")]
 	public void CloseChannel(ulong peerId, byte channelId)
 	{
 	}
 
 	[Token(Token = "0x6000347")]
-	[Address(RVA = "0x23450F0", Offset = "0x23450F0", VA = "0x23450F0")]
+	[Address(RVA = "0x23451B0", Offset = "0x23451B0", VA = "0x23451B0")]
 	public void SendMessage(ulong peerId, byte channelId, byte[] data)
 	{
 	}
 
 	[Token(Token = "0x6000348")]
-	[Address(RVA = "0x23443F0", Offset = "0x23443F0", VA = "0x23443F0")]
+	[Address(RVA = "0x23444B0", Offset = "0x23444B0", VA = "0x23444B0")]
 	[MonoPInvokeCallback]
 	private static void OnMessageImpl(IntPtr ptr, ulong peerId, byte channelId, IntPtr dataPtr, int dataLen)
 	{
 	}
 
 	[Token(Token = "0x6000349")]
-	[Address(RVA = "0x23445B0", Offset = "0x23445B0", VA = "0x23445B0")]
+	[Address(RVA = "0x2344670", Offset = "0x2344670", VA = "0x2344670")]
 	[MonoPInvokeCallback]
 	private static void OnRouteUpdateImpl(IntPtr ptr, string routeData)
 	{

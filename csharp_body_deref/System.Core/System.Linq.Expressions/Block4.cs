@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Block4
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.ObjectModel;
 using Il2CppDummyDll;
 
@@ -26,7 +33,7 @@ internal sealed class Block4 : BlockExpression
 	internal override int ExpressionCount
 	{
 		[Token(Token = "0x60002CA")]
-		[Address(RVA = "0x4189770", Offset = "0x4189770", VA = "0x4189770", Slot = "11")]
+		[Address(RVA = "0x44AE870", Offset = "0x44AE870", VA = "0x44AE870", Slot = "11")]
 		get
 		{
 			return default(int);
@@ -34,27 +41,27 @@ internal sealed class Block4 : BlockExpression
 	}
 
 	[Token(Token = "0x60002C8")]
-	[Address(RVA = "0x4189610", Offset = "0x4189610", VA = "0x4189610")]
+	[Address(RVA = "0x44AE710", Offset = "0x44AE710", VA = "0x44AE710")]
 	internal Block4(Expression arg0, Expression arg1, Expression arg2, Expression arg3)
 	{
 	}
 
 	[Token(Token = "0x60002C9")]
-	[Address(RVA = "0x41896C0", Offset = "0x41896C0", VA = "0x41896C0", Slot = "10")]
+	[Address(RVA = "0x44AE7C0", Offset = "0x44AE7C0", VA = "0x44AE7C0", Slot = "10")]
 	internal override Expression GetExpression(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60002CB")]
-	[Address(RVA = "0x4189780", Offset = "0x4189780", VA = "0x4189780", Slot = "12")]
+	[Address(RVA = "0x44AE880", Offset = "0x44AE880", VA = "0x44AE880", Slot = "12")]
 	internal override ReadOnlyCollection<Expression> GetOrMakeExpressions()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60002CC")]
-	[Address(RVA = "0x4189790", Offset = "0x4189790", VA = "0x4189790", Slot = "14")]
+	[Address(RVA = "0x44AE890", Offset = "0x44AE890", VA = "0x44AE890", Slot = "14")]
 	internal override BlockExpression Rewrite(ReadOnlyCollection<ParameterExpression> variables, Expression[] args)
 	{
 		return null;

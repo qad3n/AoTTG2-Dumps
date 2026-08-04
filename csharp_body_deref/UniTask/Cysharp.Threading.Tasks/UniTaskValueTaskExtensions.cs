@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.UniTaskValueTaskExtensions
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -65,13 +72,13 @@ public static class UniTaskValueTaskExtensions
 		private ValueTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x60001A2")]
-		[Address(RVA = "0x46B59A0", Offset = "0x46B59A0", VA = "0x46B59A0", Slot = "4")]
+		[Address(RVA = "0x49DAAA0", Offset = "0x49DAAA0", VA = "0x49DAAA0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60001A3")]
-		[Address(RVA = "0x46B5F40", Offset = "0x46B5F40", VA = "0x46B5F40", Slot = "5")]
+		[Address(RVA = "0x49DB040", Offset = "0x49DB040", VA = "0x49DB040", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -79,7 +86,7 @@ public static class UniTaskValueTaskExtensions
 	}
 
 	[Token(Token = "0x600019C")]
-	[Address(RVA = "0x46B57F0", Offset = "0x46B57F0", VA = "0x46B57F0")]
+	[Address(RVA = "0x49DA8F0", Offset = "0x49DA8F0", VA = "0x49DA8F0")]
 	public static ValueTask AsValueTask(this in UniTask task)
 	{
 		return default(ValueTask);
@@ -99,7 +106,7 @@ public static class UniTaskValueTaskExtensions
 	}
 
 	[Token(Token = "0x600019F")]
-	[Address(RVA = "0x46B58F0", Offset = "0x46B58F0", VA = "0x46B58F0")]
+	[Address(RVA = "0x49DA9F0", Offset = "0x49DA9F0", VA = "0x49DA9F0")]
 	[AsyncStateMachine(typeof(_003CAsUniTask_003Ed__3))]
 	public static UniTask AsUniTask(this ValueTask task)
 	{

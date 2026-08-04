@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Linq.JRaw
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.IO;
 using System.Runtime.CompilerServices;
@@ -45,13 +52,13 @@ public class JRaw : JValue
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000C90")]
-		[Address(RVA = "0x3B26BE0", Offset = "0x3B26BE0", VA = "0x3B26BE0", Slot = "4")]
+		[Address(RVA = "0x3E1C530", Offset = "0x3E1C530", VA = "0x3E1C530", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000C91")]
-		[Address(RVA = "0x3B27230", Offset = "0x3B27230", VA = "0x3B27230", Slot = "5")]
+		[Address(RVA = "0x3E1CB80", Offset = "0x3E1CB80", VA = "0x3E1CB80", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -59,7 +66,7 @@ public class JRaw : JValue
 	}
 
 	[Token(Token = "0x6000C8A")]
-	[Address(RVA = "0x3B26680", Offset = "0x3B26680", VA = "0x3B26680")]
+	[Address(RVA = "0x3E1BFD0", Offset = "0x3E1BFD0", VA = "0x3E1BFD0")]
 	[AsyncStateMachine(typeof(_003CCreateAsync_003Ed__0))]
 	public static Task<JRaw> CreateAsync(JsonReader reader, [Optional] CancellationToken cancellationToken)
 	{
@@ -67,32 +74,32 @@ public class JRaw : JValue
 	}
 
 	[Token(Token = "0x6000C8B")]
-	[Address(RVA = "0x3B267A0", Offset = "0x3B267A0", VA = "0x3B267A0")]
+	[Address(RVA = "0x3E1C0F0", Offset = "0x3E1C0F0", VA = "0x3E1C0F0")]
 	public JRaw(JRaw other)
 	{
 	}
 
 	[Token(Token = "0x6000C8C")]
-	[Address(RVA = "0x3B267B0", Offset = "0x3B267B0", VA = "0x3B267B0")]
+	[Address(RVA = "0x3E1C100", Offset = "0x3E1C100", VA = "0x3E1C100")]
 	internal JRaw(JRaw other, JsonCloneSettings? settings)
 	{
 	}
 
 	[Token(Token = "0x6000C8D")]
-	[Address(RVA = "0x3B267C0", Offset = "0x3B267C0", VA = "0x3B267C0")]
+	[Address(RVA = "0x3E1C110", Offset = "0x3E1C110", VA = "0x3E1C110")]
 	public JRaw(object? rawJson)
 	{
 	}
 
 	[Token(Token = "0x6000C8E")]
-	[Address(RVA = "0x3B267D0", Offset = "0x3B267D0", VA = "0x3B267D0")]
+	[Address(RVA = "0x3E1C120", Offset = "0x3E1C120", VA = "0x3E1C120")]
 	public static JRaw Create(JsonReader reader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C8F")]
-	[Address(RVA = "0x3B26B80", Offset = "0x3B26B80", VA = "0x3B26B80", Slot = "13")]
+	[Address(RVA = "0x3E1C4D0", Offset = "0x3E1C4D0", VA = "0x3E1C4D0", Slot = "13")]
 	internal override JToken CloneToken(JsonCloneSettings? settings)
 	{
 		return null;

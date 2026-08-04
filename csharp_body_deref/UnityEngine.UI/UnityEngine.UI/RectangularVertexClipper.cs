@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.RectangularVertexClipper
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
@@ -14,14 +21,14 @@ internal class RectangularVertexClipper
 	private readonly Vector3[] m_CanvasCorners;
 
 	[Token(Token = "0x6000059")]
-	[Address(RVA = "0x4BCBB00", Offset = "0x4BCBB00", VA = "0x4BCBB00")]
+	[Address(RVA = "0x4EF3430", Offset = "0x4EF3430", VA = "0x4EF3430")]
 	public Rect GetCanvasRect(RectTransform t, Canvas c)
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x600005A")]
-	[Address(RVA = "0x4BCBD10", Offset = "0x4BCBD10", VA = "0x4BCBD10")]
+	[Address(RVA = "0x4EF3640", Offset = "0x4EF3640", VA = "0x4EF3640")]
 	public RectangularVertexClipper()
 	{
 	}

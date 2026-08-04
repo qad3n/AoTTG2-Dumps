@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.DeviceEnumeratorNotSupported
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/Device.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Photon.Voice;
@@ -13,7 +20,7 @@ internal class DeviceEnumeratorNotSupported : DeviceEnumeratorBase
 	public override bool IsSupported
 	{
 		[Token(Token = "0x6000125")]
-		[Address(RVA = "0x3C247A0", Offset = "0x3C247A0", VA = "0x3C247A0", Slot = "11")]
+		[Address(RVA = "0x3F1A0F0", Offset = "0x3F1A0F0", VA = "0x3F1A0F0", Slot = "11")]
 		get
 		{
 			return default(bool);
@@ -24,7 +31,7 @@ internal class DeviceEnumeratorNotSupported : DeviceEnumeratorBase
 	public override string Error
 	{
 		[Token(Token = "0x6000128")]
-		[Address(RVA = "0x3C24800", Offset = "0x3C24800", VA = "0x3C24800", Slot = "12")]
+		[Address(RVA = "0x3F1A150", Offset = "0x3F1A150", VA = "0x3F1A150", Slot = "12")]
 		get
 		{
 			return null;
@@ -32,19 +39,19 @@ internal class DeviceEnumeratorNotSupported : DeviceEnumeratorBase
 	}
 
 	[Token(Token = "0x6000126")]
-	[Address(RVA = "0x3C247B0", Offset = "0x3C247B0", VA = "0x3C247B0")]
+	[Address(RVA = "0x3F1A100", Offset = "0x3F1A100", VA = "0x3F1A100")]
 	public DeviceEnumeratorNotSupported(ILogger logger, string message)
 	{
 	}
 
 	[Token(Token = "0x6000127")]
-	[Address(RVA = "0x3C247E0", Offset = "0x3C247E0", VA = "0x3C247E0", Slot = "14")]
+	[Address(RVA = "0x3F1A130", Offset = "0x3F1A130", VA = "0x3F1A130", Slot = "14")]
 	public override void Refresh()
 	{
 	}
 
 	[Token(Token = "0x6000129")]
-	[Address(RVA = "0x3C24810", Offset = "0x3C24810", VA = "0x3C24810", Slot = "15")]
+	[Address(RVA = "0x3F1A160", Offset = "0x3F1A160", VA = "0x3F1A160", Slot = "15")]
 	public override void Dispose()
 	{
 	}

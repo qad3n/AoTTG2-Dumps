@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Utilities.CollectionUtils
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -29,21 +36,21 @@ internal static class CollectionUtils
 	}
 
 	[Token(Token = "0x6000507")]
-	[Address(RVA = "0x3AB62F0", Offset = "0x3AB62F0", VA = "0x3AB62F0")]
+	[Address(RVA = "0x3DABC40", Offset = "0x3DABC40", VA = "0x3DABC40")]
 	public static bool IsDictionaryType(Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000508")]
-	[Address(RVA = "0x3AB65C0", Offset = "0x3AB65C0", VA = "0x3AB65C0")]
+	[Address(RVA = "0x3DABF10", Offset = "0x3DABF10", VA = "0x3DABF10")]
 	public static ConstructorInfo ResolveEnumerableCollectionConstructor(Type collectionType, Type collectionItemType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000509")]
-	[Address(RVA = "0x3AB66D0", Offset = "0x3AB66D0", VA = "0x3AB66D0")]
+	[Address(RVA = "0x3DAC020", Offset = "0x3DAC020", VA = "0x3DAC020")]
 	public static ConstructorInfo ResolveEnumerableCollectionConstructor(Type collectionType, Type collectionItemType, Type constructorArgumentType)
 	{
 		return null;
@@ -97,27 +104,27 @@ internal static class CollectionUtils
 	}
 
 	[Token(Token = "0x6000512")]
-	[Address(RVA = "0x3AB6A20", Offset = "0x3AB6A20", VA = "0x3AB6A20")]
+	[Address(RVA = "0x3DAC370", Offset = "0x3DAC370", VA = "0x3DAC370")]
 	private static IList<int> GetDimensions(IList values, int dimensionsCount)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000513")]
-	[Address(RVA = "0x3AB6D60", Offset = "0x3AB6D60", VA = "0x3AB6D60")]
+	[Address(RVA = "0x3DAC6B0", Offset = "0x3DAC6B0", VA = "0x3DAC6B0")]
 	private static void CopyFromJaggedToMultidimensionalArray(IList values, Array multidimensionalArray, int[] indices)
 	{
 	}
 
 	[Token(Token = "0x6000514")]
-	[Address(RVA = "0x3AB7010", Offset = "0x3AB7010", VA = "0x3AB7010")]
+	[Address(RVA = "0x3DAC960", Offset = "0x3DAC960", VA = "0x3DAC960")]
 	private static object JaggedArrayGetValue(IList values, int[] indices)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000515")]
-	[Address(RVA = "0x3AB7170", Offset = "0x3AB7170", VA = "0x3AB7170")]
+	[Address(RVA = "0x3DACAC0", Offset = "0x3DACAC0", VA = "0x3DACAC0")]
 	public static Array ToMultidimensionalArray(IList values, Type type, int rank)
 	{
 		return null;

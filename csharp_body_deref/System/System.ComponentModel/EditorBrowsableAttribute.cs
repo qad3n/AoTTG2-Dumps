@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.EditorBrowsableAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.ComponentModel;
@@ -14,7 +21,7 @@ public sealed class EditorBrowsableAttribute : Attribute
 	public EditorBrowsableState State
 	{
 		[Token(Token = "0x6000E39")]
-		[Address(RVA = "0x46AB780", Offset = "0x46AB780", VA = "0x46AB780")]
+		[Address(RVA = "0x49D0880", Offset = "0x49D0880", VA = "0x49D0880")]
 		get
 		{
 			return default(EditorBrowsableState);
@@ -22,26 +29,26 @@ public sealed class EditorBrowsableAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000E37")]
-	[Address(RVA = "0x46AB740", Offset = "0x46AB740", VA = "0x46AB740")]
+	[Address(RVA = "0x49D0840", Offset = "0x49D0840", VA = "0x49D0840")]
 	public EditorBrowsableAttribute(EditorBrowsableState state)
 	{
 	}
 
 	[Token(Token = "0x6000E38")]
-	[Address(RVA = "0x46AB760", Offset = "0x46AB760", VA = "0x46AB760")]
+	[Address(RVA = "0x49D0860", Offset = "0x49D0860", VA = "0x49D0860")]
 	public EditorBrowsableAttribute()
 	{
 	}
 
 	[Token(Token = "0x6000E3A")]
-	[Address(RVA = "0x46AB790", Offset = "0x46AB790", VA = "0x46AB790", Slot = "0")]
+	[Address(RVA = "0x49D0890", Offset = "0x49D0890", VA = "0x49D0890", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E3B")]
-	[Address(RVA = "0x46AB810", Offset = "0x46AB810", VA = "0x46AB810", Slot = "2")]
+	[Address(RVA = "0x49D0910", Offset = "0x49D0910", VA = "0x49D0910", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

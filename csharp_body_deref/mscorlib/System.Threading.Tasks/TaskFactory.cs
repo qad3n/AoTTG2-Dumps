@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Threading.Tasks.TaskFactory
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -124,7 +131,7 @@ public class TaskFactory
 		public bool InvokeMayRunArbitraryCode
 		{
 			[Token(Token = "0x60014E0")]
-			[Address(RVA = "0x5067EB0", Offset = "0x5067EB0", VA = "0x5067EB0", Slot = "15")]
+			[Address(RVA = "0x3D4D9D0", Offset = "0x3D4D9D0", VA = "0x3D4D9D0", Slot = "15")]
 			get
 			{
 				return default(bool);
@@ -132,13 +139,13 @@ public class TaskFactory
 		}
 
 		[Token(Token = "0x60014DE")]
-		[Address(RVA = "0x5067A70", Offset = "0x5067A70", VA = "0x5067A70")]
+		[Address(RVA = "0x3D4D590", Offset = "0x3D4D590", VA = "0x3D4D590")]
 		public CompleteOnInvokePromise(IList<Task> tasks)
 		{
 		}
 
 		[Token(Token = "0x60014DF")]
-		[Address(RVA = "0x5067BA0", Offset = "0x5067BA0", VA = "0x5067BA0", Slot = "14")]
+		[Address(RVA = "0x3D4D6C0", Offset = "0x3D4D6C0", VA = "0x3D4D6C0", Slot = "14")]
 		public void Invoke(Task completingTask)
 		{
 		}
@@ -161,32 +168,32 @@ public class TaskFactory
 	private readonly TaskContinuationOptions m_defaultContinuationOptions;
 
 	[Token(Token = "0x60014D0")]
-	[Address(RVA = "0x5064940", Offset = "0x5064940", VA = "0x5064940")]
+	[Address(RVA = "0x3D4A460", Offset = "0x3D4A460", VA = "0x3D4A460")]
 	public TaskFactory()
 	{
 	}
 
 	[Token(Token = "0x60014D1")]
-	[Address(RVA = "0x5067540", Offset = "0x5067540", VA = "0x5067540")]
+	[Address(RVA = "0x3D4D060", Offset = "0x3D4D060", VA = "0x3D4D060")]
 	public TaskFactory(CancellationToken cancellationToken, TaskCreationOptions creationOptions, TaskContinuationOptions continuationOptions, TaskScheduler scheduler)
 	{
 	}
 
 	[Token(Token = "0x60014D2")]
-	[Address(RVA = "0x50676E0", Offset = "0x50676E0", VA = "0x50676E0")]
+	[Address(RVA = "0x3D4D200", Offset = "0x3D4D200", VA = "0x3D4D200")]
 	internal static void CheckCreationOptions(TaskCreationOptions creationOptions)
 	{
 	}
 
 	[Token(Token = "0x60014D3")]
-	[Address(RVA = "0x5067740", Offset = "0x5067740", VA = "0x5067740")]
+	[Address(RVA = "0x3D4D260", Offset = "0x3D4D260", VA = "0x3D4D260")]
 	public Task StartNew(Action action, CancellationToken cancellationToken, TaskCreationOptions creationOptions, TaskScheduler scheduler)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60014D4")]
-	[Address(RVA = "0x5067860", Offset = "0x5067860", VA = "0x5067860")]
+	[Address(RVA = "0x3D4D380", Offset = "0x3D4D380", VA = "0x3D4D380")]
 	public Task StartNew(Action<object> action, object state, CancellationToken cancellationToken, TaskCreationOptions creationOptions, TaskScheduler scheduler)
 	{
 		return null;
@@ -229,20 +236,20 @@ public class TaskFactory
 	}
 
 	[Token(Token = "0x60014DB")]
-	[Address(RVA = "0x5067990", Offset = "0x5067990", VA = "0x5067990")]
+	[Address(RVA = "0x3D4D4B0", Offset = "0x3D4D4B0", VA = "0x3D4D4B0")]
 	internal static void CheckFromAsyncOptions(TaskCreationOptions creationOptions, bool hasBeginMethod)
 	{
 	}
 
 	[Token(Token = "0x60014DC")]
-	[Address(RVA = "0x5063A80", Offset = "0x5063A80", VA = "0x5063A80")]
+	[Address(RVA = "0x3D495A0", Offset = "0x3D495A0", VA = "0x3D495A0")]
 	internal static Task<Task> CommonCWAnyLogic(IList<Task> tasks)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60014DD")]
-	[Address(RVA = "0x50675F0", Offset = "0x50675F0", VA = "0x50675F0")]
+	[Address(RVA = "0x3D4D110", Offset = "0x3D4D110", VA = "0x3D4D110")]
 	internal static void CheckMultiTaskContinuationOptions(TaskContinuationOptions continuationOptions)
 	{
 	}

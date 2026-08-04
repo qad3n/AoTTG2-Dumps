@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.Datatype_negativeInteger
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -13,7 +20,7 @@ internal class Datatype_negativeInteger : Datatype_nonPositiveInteger
 	internal override FacetsChecker FacetsChecker
 	{
 		[Token(Token = "0x6001170")]
-		[Address(RVA = "0x4524E20", Offset = "0x4524E20", VA = "0x4524E20", Slot = "18")]
+		[Address(RVA = "0x4862580", Offset = "0x4862580", VA = "0x4862580", Slot = "18")]
 		get
 		{
 			return null;
@@ -24,7 +31,7 @@ internal class Datatype_negativeInteger : Datatype_nonPositiveInteger
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x6001171")]
-		[Address(RVA = "0x4524E90", Offset = "0x4524E90", VA = "0x4524E90", Slot = "8")]
+		[Address(RVA = "0x48625F0", Offset = "0x48625F0", VA = "0x48625F0", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -32,7 +39,7 @@ internal class Datatype_negativeInteger : Datatype_nonPositiveInteger
 	}
 
 	[Token(Token = "0x6001172")]
-	[Address(RVA = "0x4519E50", Offset = "0x4519E50", VA = "0x4519E50")]
+	[Address(RVA = "0x48575B0", Offset = "0x48575B0", VA = "0x48575B0")]
 	public Datatype_negativeInteger()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.FSRUtils
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Experimental.Rendering;
 
@@ -40,37 +47,37 @@ public static class FSRUtils
 	public const float kDefaultSharpnessLinear = 0.92f;
 
 	[Token(Token = "0x6000CD7")]
-	[Address(RVA = "0x48D8EA0", Offset = "0x48D8EA0", VA = "0x48D8EA0")]
+	[Address(RVA = "0x4BFDF10", Offset = "0x4BFDF10", VA = "0x4BFDF10")]
 	public static void SetEasuConstants(CommandBuffer cmd, Vector2 inputViewportSizeInPixels, Vector2 inputImageSizeInPixels, Vector2 outputImageSizeInPixels)
 	{
 	}
 
 	[Token(Token = "0x6000CD8")]
-	[Address(RVA = "0x48D9050", Offset = "0x48D9050", VA = "0x48D9050")]
+	[Address(RVA = "0x4BFE0C0", Offset = "0x4BFE0C0", VA = "0x4BFE0C0")]
 	public static void SetEasuConstants(BaseCommandBuffer cmd, Vector2 inputViewportSizeInPixels, Vector2 inputImageSizeInPixels, Vector2 outputImageSizeInPixels)
 	{
 	}
 
 	[Token(Token = "0x6000CD9")]
-	[Address(RVA = "0x48D9070", Offset = "0x48D9070", VA = "0x48D9070")]
+	[Address(RVA = "0x4BFE0E0", Offset = "0x4BFE0E0", VA = "0x4BFE0E0")]
 	public static void SetRcasConstants(CommandBuffer cmd, float sharpnessStops = 0.2f)
 	{
 	}
 
 	[Token(Token = "0x6000CDA")]
-	[Address(RVA = "0x48D9120", Offset = "0x48D9120", VA = "0x48D9120")]
+	[Address(RVA = "0x4BFE190", Offset = "0x4BFE190", VA = "0x4BFE190")]
 	public static void SetRcasConstantsLinear(CommandBuffer cmd, float sharpnessLinear = 0.92f)
 	{
 	}
 
 	[Token(Token = "0x6000CDB")]
-	[Address(RVA = "0x48D91E0", Offset = "0x48D91E0", VA = "0x48D91E0")]
+	[Address(RVA = "0x4BFE250", Offset = "0x4BFE250", VA = "0x4BFE250")]
 	public static void SetRcasConstantsLinear(RasterCommandBuffer cmd, float sharpnessLinear = 0.92f)
 	{
 	}
 
 	[Token(Token = "0x6000CDC")]
-	[Address(RVA = "0x48D9200", Offset = "0x48D9200", VA = "0x48D9200")]
+	[Address(RVA = "0x4BFE270", Offset = "0x4BFE270", VA = "0x4BFE270")]
 	public static bool IsSupported()
 	{
 		return default(bool);

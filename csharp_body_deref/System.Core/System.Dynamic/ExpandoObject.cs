@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Dynamic.ExpandoObject
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -50,7 +57,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 			private string System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EString_003E_002ECurrent
 			{
 				[Token(Token = "0x6000C29")]
-				[Address(RVA = "0x41E88C0", Offset = "0x41E88C0", VA = "0x41E88C0", Slot = "4")]
+				[Address(RVA = "0x450D9C0", Offset = "0x450D9C0", VA = "0x450D9C0", Slot = "4")]
 				[DebuggerHidden]
 				get
 				{
@@ -62,7 +69,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 			private object System_002ECollections_002EIEnumerator_002ECurrent
 			{
 				[Token(Token = "0x6000C2B")]
-				[Address(RVA = "0x41E8910", Offset = "0x41E8910", VA = "0x41E8910", Slot = "7")]
+				[Address(RVA = "0x450DA10", Offset = "0x450DA10", VA = "0x450DA10", Slot = "7")]
 				[DebuggerHidden]
 				get
 				{
@@ -71,28 +78,28 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 			}
 
 			[Token(Token = "0x6000C26")]
-			[Address(RVA = "0x41E86F0", Offset = "0x41E86F0", VA = "0x41E86F0")]
+			[Address(RVA = "0x450D7F0", Offset = "0x450D7F0", VA = "0x450D7F0")]
 			[DebuggerHidden]
 			public _003CGetEnumerator_003Ed__15(int _003C_003E1__state)
 			{
 			}
 
 			[Token(Token = "0x6000C27")]
-			[Address(RVA = "0x41E8710", Offset = "0x41E8710", VA = "0x41E8710", Slot = "5")]
+			[Address(RVA = "0x450D810", Offset = "0x450D810", VA = "0x450D810", Slot = "5")]
 			[DebuggerHidden]
 			private void System_002EIDisposable_002EDispose()
 			{
 			}
 
 			[Token(Token = "0x6000C28")]
-			[Address(RVA = "0x41E8720", Offset = "0x41E8720", VA = "0x41E8720", Slot = "6")]
+			[Address(RVA = "0x450D820", Offset = "0x450D820", VA = "0x450D820", Slot = "6")]
 			private bool MoveNext()
 			{
 				return default(bool);
 			}
 
 			[Token(Token = "0x6000C2A")]
-			[Address(RVA = "0x41E88D0", Offset = "0x41E88D0", VA = "0x41E88D0", Slot = "8")]
+			[Address(RVA = "0x450D9D0", Offset = "0x450D9D0", VA = "0x450D9D0", Slot = "8")]
 			[DebuggerHidden]
 			private void System_002ECollections_002EIEnumerator_002EReset()
 			{
@@ -119,7 +126,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 		public int Count
 		{
 			[Token(Token = "0x6000C21")]
-			[Address(RVA = "0x41E8580", Offset = "0x41E8580", VA = "0x41E8580", Slot = "4")]
+			[Address(RVA = "0x450D680", Offset = "0x450D680", VA = "0x450D680", Slot = "4")]
 			get
 			{
 				return default(int);
@@ -130,7 +137,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 		public bool IsReadOnly
 		{
 			[Token(Token = "0x6000C22")]
-			[Address(RVA = "0x41E85D0", Offset = "0x41E85D0", VA = "0x41E85D0", Slot = "5")]
+			[Address(RVA = "0x450D6D0", Offset = "0x450D6D0", VA = "0x450D6D0", Slot = "5")]
 			get
 			{
 				return default(bool);
@@ -138,51 +145,51 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 		}
 
 		[Token(Token = "0x6000C1B")]
-		[Address(RVA = "0x41E6D20", Offset = "0x41E6D20", VA = "0x41E6D20")]
+		[Address(RVA = "0x450BE20", Offset = "0x450BE20", VA = "0x450BE20")]
 		internal KeyCollection(ExpandoObject expando)
 		{
 		}
 
 		[Token(Token = "0x6000C1C")]
-		[Address(RVA = "0x41E7F40", Offset = "0x41E7F40", VA = "0x41E7F40")]
+		[Address(RVA = "0x450D040", Offset = "0x450D040", VA = "0x450D040")]
 		private void CheckVersion()
 		{
 		}
 
 		[Token(Token = "0x6000C1D")]
-		[Address(RVA = "0x41E7F90", Offset = "0x41E7F90", VA = "0x41E7F90", Slot = "6")]
+		[Address(RVA = "0x450D090", Offset = "0x450D090", VA = "0x450D090", Slot = "6")]
 		public void Add(string item)
 		{
 		}
 
 		[Token(Token = "0x6000C1E")]
-		[Address(RVA = "0x41E7FC0", Offset = "0x41E7FC0", VA = "0x41E7FC0", Slot = "7")]
+		[Address(RVA = "0x450D0C0", Offset = "0x450D0C0", VA = "0x450D0C0", Slot = "7")]
 		public void Clear()
 		{
 		}
 
 		[Token(Token = "0x6000C1F")]
-		[Address(RVA = "0x41E7FF0", Offset = "0x41E7FF0", VA = "0x41E7FF0", Slot = "8")]
+		[Address(RVA = "0x450D0F0", Offset = "0x450D0F0", VA = "0x450D0F0", Slot = "8")]
 		public bool Contains(string item)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000C20")]
-		[Address(RVA = "0x41E81B0", Offset = "0x41E81B0", VA = "0x41E81B0", Slot = "9")]
+		[Address(RVA = "0x450D2B0", Offset = "0x450D2B0", VA = "0x450D2B0", Slot = "9")]
 		public void CopyTo(string[] array, int arrayIndex)
 		{
 		}
 
 		[Token(Token = "0x6000C23")]
-		[Address(RVA = "0x41E85E0", Offset = "0x41E85E0", VA = "0x41E85E0", Slot = "10")]
+		[Address(RVA = "0x450D6E0", Offset = "0x450D6E0", VA = "0x450D6E0", Slot = "10")]
 		public bool Remove(string item)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000C24")]
-		[Address(RVA = "0x41E8610", Offset = "0x41E8610", VA = "0x41E8610", Slot = "11")]
+		[Address(RVA = "0x450D710", Offset = "0x450D710", VA = "0x450D710", Slot = "11")]
 		[IteratorStateMachine(typeof(_003CGetEnumerator_003Ed__15))]
 		public IEnumerator<string> GetEnumerator()
 		{
@@ -190,7 +197,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 		}
 
 		[Token(Token = "0x6000C25")]
-		[Address(RVA = "0x41E8680", Offset = "0x41E8680", VA = "0x41E8680", Slot = "12")]
+		[Address(RVA = "0x450D780", Offset = "0x450D780", VA = "0x450D780", Slot = "12")]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
 			return null;
@@ -235,7 +242,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 			private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 			{
 				[Token(Token = "0x6000C3A")]
-				[Address(RVA = "0x41E93E0", Offset = "0x41E93E0", VA = "0x41E93E0", Slot = "4")]
+				[Address(RVA = "0x450E4E0", Offset = "0x450E4E0", VA = "0x450E4E0", Slot = "4")]
 				[DebuggerHidden]
 				get
 				{
@@ -247,7 +254,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 			private object System_002ECollections_002EIEnumerator_002ECurrent
 			{
 				[Token(Token = "0x6000C3C")]
-				[Address(RVA = "0x41E9430", Offset = "0x41E9430", VA = "0x41E9430", Slot = "7")]
+				[Address(RVA = "0x450E530", Offset = "0x450E530", VA = "0x450E530", Slot = "7")]
 				[DebuggerHidden]
 				get
 				{
@@ -256,28 +263,28 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 			}
 
 			[Token(Token = "0x6000C37")]
-			[Address(RVA = "0x41E91A0", Offset = "0x41E91A0", VA = "0x41E91A0")]
+			[Address(RVA = "0x450E2A0", Offset = "0x450E2A0", VA = "0x450E2A0")]
 			[DebuggerHidden]
 			public _003CGetEnumerator_003Ed__15(int _003C_003E1__state)
 			{
 			}
 
 			[Token(Token = "0x6000C38")]
-			[Address(RVA = "0x41E9230", Offset = "0x41E9230", VA = "0x41E9230", Slot = "5")]
+			[Address(RVA = "0x450E330", Offset = "0x450E330", VA = "0x450E330", Slot = "5")]
 			[DebuggerHidden]
 			private void System_002EIDisposable_002EDispose()
 			{
 			}
 
 			[Token(Token = "0x6000C39")]
-			[Address(RVA = "0x41E9240", Offset = "0x41E9240", VA = "0x41E9240", Slot = "6")]
+			[Address(RVA = "0x450E340", Offset = "0x450E340", VA = "0x450E340", Slot = "6")]
 			private bool MoveNext()
 			{
 				return default(bool);
 			}
 
 			[Token(Token = "0x6000C3B")]
-			[Address(RVA = "0x41E93F0", Offset = "0x41E93F0", VA = "0x41E93F0", Slot = "8")]
+			[Address(RVA = "0x450E4F0", Offset = "0x450E4F0", VA = "0x450E4F0", Slot = "8")]
 			[DebuggerHidden]
 			private void System_002ECollections_002EIEnumerator_002EReset()
 			{
@@ -304,7 +311,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 		public int Count
 		{
 			[Token(Token = "0x6000C32")]
-			[Address(RVA = "0x41E90A0", Offset = "0x41E90A0", VA = "0x41E90A0", Slot = "4")]
+			[Address(RVA = "0x450E1A0", Offset = "0x450E1A0", VA = "0x450E1A0", Slot = "4")]
 			get
 			{
 				return default(int);
@@ -315,7 +322,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 		public bool IsReadOnly
 		{
 			[Token(Token = "0x6000C33")]
-			[Address(RVA = "0x41E90F0", Offset = "0x41E90F0", VA = "0x41E90F0", Slot = "5")]
+			[Address(RVA = "0x450E1F0", Offset = "0x450E1F0", VA = "0x450E1F0", Slot = "5")]
 			get
 			{
 				return default(bool);
@@ -323,51 +330,51 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 		}
 
 		[Token(Token = "0x6000C2C")]
-		[Address(RVA = "0x41E8920", Offset = "0x41E8920", VA = "0x41E8920")]
+		[Address(RVA = "0x450DA20", Offset = "0x450DA20", VA = "0x450DA20")]
 		internal ValueCollection(ExpandoObject expando)
 		{
 		}
 
 		[Token(Token = "0x6000C2D")]
-		[Address(RVA = "0x41E8A40", Offset = "0x41E8A40", VA = "0x41E8A40")]
+		[Address(RVA = "0x450DB40", Offset = "0x450DB40", VA = "0x450DB40")]
 		private void CheckVersion()
 		{
 		}
 
 		[Token(Token = "0x6000C2E")]
-		[Address(RVA = "0x41E8A90", Offset = "0x41E8A90", VA = "0x41E8A90", Slot = "6")]
+		[Address(RVA = "0x450DB90", Offset = "0x450DB90", VA = "0x450DB90", Slot = "6")]
 		public void Add(object item)
 		{
 		}
 
 		[Token(Token = "0x6000C2F")]
-		[Address(RVA = "0x41E8AC0", Offset = "0x41E8AC0", VA = "0x41E8AC0", Slot = "7")]
+		[Address(RVA = "0x450DBC0", Offset = "0x450DBC0", VA = "0x450DBC0", Slot = "7")]
 		public void Clear()
 		{
 		}
 
 		[Token(Token = "0x6000C30")]
-		[Address(RVA = "0x41E8AF0", Offset = "0x41E8AF0", VA = "0x41E8AF0", Slot = "8")]
+		[Address(RVA = "0x450DBF0", Offset = "0x450DBF0", VA = "0x450DBF0", Slot = "8")]
 		public bool Contains(object item)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000C31")]
-		[Address(RVA = "0x41E8CC0", Offset = "0x41E8CC0", VA = "0x41E8CC0", Slot = "9")]
+		[Address(RVA = "0x450DDC0", Offset = "0x450DDC0", VA = "0x450DDC0", Slot = "9")]
 		public void CopyTo(object[] array, int arrayIndex)
 		{
 		}
 
 		[Token(Token = "0x6000C34")]
-		[Address(RVA = "0x41E9100", Offset = "0x41E9100", VA = "0x41E9100", Slot = "10")]
+		[Address(RVA = "0x450E200", Offset = "0x450E200", VA = "0x450E200", Slot = "10")]
 		public bool Remove(object item)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000C35")]
-		[Address(RVA = "0x41E9130", Offset = "0x41E9130", VA = "0x41E9130", Slot = "11")]
+		[Address(RVA = "0x450E230", Offset = "0x450E230", VA = "0x450E230", Slot = "11")]
 		[IteratorStateMachine(typeof(_003CGetEnumerator_003Ed__15))]
 		public IEnumerator<object> GetEnumerator()
 		{
@@ -375,7 +382,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 		}
 
 		[Token(Token = "0x6000C36")]
-		[Address(RVA = "0x41E91C0", Offset = "0x41E91C0", VA = "0x41E91C0", Slot = "12")]
+		[Address(RVA = "0x450E2C0", Offset = "0x450E2C0", VA = "0x450E2C0", Slot = "12")]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
 			return null;
@@ -421,7 +428,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 			private string System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EString_003E_002ECurrent
 			{
 				[Token(Token = "0x6000C4E")]
-				[Address(RVA = "0x41EAF30", Offset = "0x41EAF30", VA = "0x41EAF30", Slot = "6")]
+				[Address(RVA = "0x4510030", Offset = "0x4510030", VA = "0x4510030", Slot = "6")]
 				[DebuggerHidden]
 				get
 				{
@@ -433,7 +440,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 			private object System_002ECollections_002EIEnumerator_002ECurrent
 			{
 				[Token(Token = "0x6000C50")]
-				[Address(RVA = "0x41EAF80", Offset = "0x41EAF80", VA = "0x41EAF80", Slot = "9")]
+				[Address(RVA = "0x4510080", Offset = "0x4510080", VA = "0x4510080", Slot = "9")]
 				[DebuggerHidden]
 				get
 				{
@@ -442,35 +449,35 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 			}
 
 			[Token(Token = "0x6000C4B")]
-			[Address(RVA = "0x41EAC40", Offset = "0x41EAC40", VA = "0x41EAC40")]
+			[Address(RVA = "0x450FD40", Offset = "0x450FD40", VA = "0x450FD40")]
 			[DebuggerHidden]
 			public _003CGetDynamicMemberNames_003Ed__6(int _003C_003E1__state)
 			{
 			}
 
 			[Token(Token = "0x6000C4C")]
-			[Address(RVA = "0x41EAD80", Offset = "0x41EAD80", VA = "0x41EAD80", Slot = "7")]
+			[Address(RVA = "0x450FE80", Offset = "0x450FE80", VA = "0x450FE80", Slot = "7")]
 			[DebuggerHidden]
 			private void System_002EIDisposable_002EDispose()
 			{
 			}
 
 			[Token(Token = "0x6000C4D")]
-			[Address(RVA = "0x41EAD90", Offset = "0x41EAD90", VA = "0x41EAD90", Slot = "8")]
+			[Address(RVA = "0x450FE90", Offset = "0x450FE90", VA = "0x450FE90", Slot = "8")]
 			private bool MoveNext()
 			{
 				return default(bool);
 			}
 
 			[Token(Token = "0x6000C4F")]
-			[Address(RVA = "0x41EAF40", Offset = "0x41EAF40", VA = "0x41EAF40", Slot = "10")]
+			[Address(RVA = "0x4510040", Offset = "0x4510040", VA = "0x4510040", Slot = "10")]
 			[DebuggerHidden]
 			private void System_002ECollections_002EIEnumerator_002EReset()
 			{
 			}
 
 			[Token(Token = "0x6000C51")]
-			[Address(RVA = "0x41EAF90", Offset = "0x41EAF90", VA = "0x41EAF90", Slot = "4")]
+			[Address(RVA = "0x4510090", Offset = "0x4510090", VA = "0x4510090", Slot = "4")]
 			[DebuggerHidden]
 			private IEnumerator<string> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002EString_003E_002EGetEnumerator()
 			{
@@ -478,7 +485,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 			}
 
 			[Token(Token = "0x6000C52")]
-			[Address(RVA = "0x41EB030", Offset = "0x41EB030", VA = "0x41EB030", Slot = "5")]
+			[Address(RVA = "0x4510130", Offset = "0x4510130", VA = "0x4510130", Slot = "5")]
 			[DebuggerHidden]
 			private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 			{
@@ -490,7 +497,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 		public new ExpandoObject Value
 		{
 			[Token(Token = "0x6000C48")]
-			[Address(RVA = "0x41E9BD0", Offset = "0x41E9BD0", VA = "0x41E9BD0")]
+			[Address(RVA = "0x450ECD0", Offset = "0x450ECD0", VA = "0x450ECD0")]
 			get
 			{
 				return null;
@@ -498,48 +505,48 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 		}
 
 		[Token(Token = "0x6000C3D")]
-		[Address(RVA = "0x41E9440", Offset = "0x41E9440", VA = "0x41E9440")]
+		[Address(RVA = "0x450E540", Offset = "0x450E540", VA = "0x450E540")]
 		public MetaExpando(Expression expression, ExpandoObject value)
 		{
 		}
 
 		[Token(Token = "0x6000C3E")]
-		[Address(RVA = "0x41E94E0", Offset = "0x41E94E0", VA = "0x41E94E0")]
+		[Address(RVA = "0x450E5E0", Offset = "0x450E5E0", VA = "0x450E5E0")]
 		private DynamicMetaObject BindGetOrInvokeMember(DynamicMetaObjectBinder binder, string name, bool ignoreCase, DynamicMetaObject fallback, Func<DynamicMetaObject, DynamicMetaObject> fallbackInvoke)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000C3F")]
-		[Address(RVA = "0x41EA040", Offset = "0x41EA040", VA = "0x41EA040", Slot = "5")]
+		[Address(RVA = "0x450F140", Offset = "0x450F140", VA = "0x450F140", Slot = "5")]
 		public override DynamicMetaObject BindGetMember(GetMemberBinder binder)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000C40")]
-		[Address(RVA = "0x41EA120", Offset = "0x41EA120", VA = "0x41EA120", Slot = "11")]
+		[Address(RVA = "0x450F220", Offset = "0x450F220", VA = "0x450F220", Slot = "11")]
 		public override DynamicMetaObject BindInvokeMember(InvokeMemberBinder binder, DynamicMetaObject[] args)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000C41")]
-		[Address(RVA = "0x41EA2D0", Offset = "0x41EA2D0", VA = "0x41EA2D0", Slot = "6")]
+		[Address(RVA = "0x450F3D0", Offset = "0x450F3D0", VA = "0x450F3D0", Slot = "6")]
 		public override DynamicMetaObject BindSetMember(SetMemberBinder binder, DynamicMetaObject value)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000C42")]
-		[Address(RVA = "0x41EA850", Offset = "0x41EA850", VA = "0x41EA850", Slot = "7")]
+		[Address(RVA = "0x450F950", Offset = "0x450F950", VA = "0x450F950", Slot = "7")]
 		public override DynamicMetaObject BindDeleteMember(DeleteMemberBinder binder)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000C43")]
-		[Address(RVA = "0x41EABC0", Offset = "0x41EABC0", VA = "0x41EABC0", Slot = "16")]
+		[Address(RVA = "0x450FCC0", Offset = "0x450FCC0", VA = "0x450FCC0", Slot = "16")]
 		[IteratorStateMachine(typeof(_003CGetDynamicMemberNames_003Ed__6))]
 		public override IEnumerable<string> GetDynamicMemberNames()
 		{
@@ -547,28 +554,28 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 		}
 
 		[Token(Token = "0x6000C44")]
-		[Address(RVA = "0x41E9D60", Offset = "0x41E9D60", VA = "0x41E9D60")]
+		[Address(RVA = "0x450EE60", Offset = "0x450EE60", VA = "0x450EE60")]
 		private DynamicMetaObject AddDynamicTestAndDefer(DynamicMetaObjectBinder binder, ExpandoClass klass, ExpandoClass originalClass, DynamicMetaObject succeeds)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000C45")]
-		[Address(RVA = "0x41EA750", Offset = "0x41EA750", VA = "0x41EA750")]
+		[Address(RVA = "0x450F850", Offset = "0x450F850", VA = "0x450F850")]
 		private ExpandoClass GetClassEnsureIndex(string name, bool caseInsensitive, ExpandoObject obj, out ExpandoClass klass, out int index)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000C46")]
-		[Address(RVA = "0x41E9C20", Offset = "0x41E9C20", VA = "0x41E9C20")]
+		[Address(RVA = "0x450ED20", Offset = "0x450ED20", VA = "0x450ED20")]
 		private Expression GetLimitedSelf()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000C47")]
-		[Address(RVA = "0x41EAC70", Offset = "0x41EAC70", VA = "0x41EAC70")]
+		[Address(RVA = "0x450FD70", Offset = "0x450FD70", VA = "0x450FD70")]
 		private BindingRestrictions GetRestrictions()
 		{
 			return null;
@@ -598,13 +605,13 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 		internal object this[int index]
 		{
 			[Token(Token = "0x6000C53")]
-			[Address(RVA = "0x41E8890", Offset = "0x41E8890", VA = "0x41E8890")]
+			[Address(RVA = "0x450D990", Offset = "0x450D990", VA = "0x450D990")]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x6000C54")]
-			[Address(RVA = "0x41EB040", Offset = "0x41EB040", VA = "0x41EB040")]
+			[Address(RVA = "0x4510140", Offset = "0x4510140", VA = "0x4510140")]
 			set
 			{
 			}
@@ -614,7 +621,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 		internal int Version
 		{
 			[Token(Token = "0x6000C55")]
-			[Address(RVA = "0x41EB0B0", Offset = "0x41EB0B0", VA = "0x41EB0B0")]
+			[Address(RVA = "0x45101B0", Offset = "0x45101B0", VA = "0x45101B0")]
 			get
 			{
 				return default(int);
@@ -625,7 +632,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 		internal int Length
 		{
 			[Token(Token = "0x6000C56")]
-			[Address(RVA = "0x41EB0C0", Offset = "0x41EB0C0", VA = "0x41EB0C0")]
+			[Address(RVA = "0x45101C0", Offset = "0x45101C0", VA = "0x45101C0")]
 			get
 			{
 				return default(int);
@@ -633,26 +640,26 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 		}
 
 		[Token(Token = "0x6000C57")]
-		[Address(RVA = "0x41EB0E0", Offset = "0x41EB0E0", VA = "0x41EB0E0")]
+		[Address(RVA = "0x45101E0", Offset = "0x45101E0", VA = "0x45101E0")]
 		private ExpandoData()
 		{
 		}
 
 		[Token(Token = "0x6000C58")]
-		[Address(RVA = "0x41EB1F0", Offset = "0x41EB1F0", VA = "0x41EB1F0")]
+		[Address(RVA = "0x45102F0", Offset = "0x45102F0", VA = "0x45102F0")]
 		internal ExpandoData(ExpandoClass klass, object[] data, int version)
 		{
 		}
 
 		[Token(Token = "0x6000C59")]
-		[Address(RVA = "0x41EB240", Offset = "0x41EB240", VA = "0x41EB240")]
+		[Address(RVA = "0x4510340", Offset = "0x4510340", VA = "0x4510340")]
 		internal ExpandoData UpdateClass(ExpandoClass newClass)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000C5A")]
-		[Address(RVA = "0x41EB4D0", Offset = "0x41EB4D0", VA = "0x41EB4D0")]
+		[Address(RVA = "0x45105D0", Offset = "0x45105D0", VA = "0x45105D0")]
 		private static int GetAlignedSize(int len)
 		{
 			return default(int);
@@ -691,7 +698,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 		private KeyValuePair<string, object> System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CSystem_002EString_002CSystem_002EObject_003E_003E_002ECurrent
 		{
 			[Token(Token = "0x6000C5F")]
-			[Address(RVA = "0x41EB730", Offset = "0x41EB730", VA = "0x41EB730", Slot = "4")]
+			[Address(RVA = "0x4510830", Offset = "0x4510830", VA = "0x4510830", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -703,7 +710,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000C61")]
-			[Address(RVA = "0x41EB780", Offset = "0x41EB780", VA = "0x41EB780", Slot = "7")]
+			[Address(RVA = "0x4510880", Offset = "0x4510880", VA = "0x4510880", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -712,28 +719,28 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 		}
 
 		[Token(Token = "0x6000C5C")]
-		[Address(RVA = "0x41EB540", Offset = "0x41EB540", VA = "0x41EB540")]
+		[Address(RVA = "0x4510640", Offset = "0x4510640", VA = "0x4510640")]
 		[DebuggerHidden]
 		public _003CGetExpandoEnumerator_003Ed__51(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000C5D")]
-		[Address(RVA = "0x41EB560", Offset = "0x41EB560", VA = "0x41EB560", Slot = "5")]
+		[Address(RVA = "0x4510660", Offset = "0x4510660", VA = "0x4510660", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000C5E")]
-		[Address(RVA = "0x41EB570", Offset = "0x41EB570", VA = "0x41EB570", Slot = "6")]
+		[Address(RVA = "0x4510670", Offset = "0x4510670", VA = "0x4510670", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000C60")]
-		[Address(RVA = "0x41EB740", Offset = "0x41EB740", VA = "0x41EB740", Slot = "8")]
+		[Address(RVA = "0x4510840", Offset = "0x4510840", VA = "0x4510840", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -784,7 +791,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 	internal ExpandoClass Class
 	{
 		[Token(Token = "0x6000BFF")]
-		[Address(RVA = "0x41E2D40", Offset = "0x41E2D40", VA = "0x41E2D40")]
+		[Address(RVA = "0x4507E40", Offset = "0x4507E40", VA = "0x4507E40")]
 		get
 		{
 			return null;
@@ -795,7 +802,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 	private ICollection<string> System_002ECollections_002EGeneric_002EIDictionary_003CSystem_002EString_002CSystem_002EObject_003E_002EKeys
 	{
 		[Token(Token = "0x6000C06")]
-		[Address(RVA = "0x41E6CD0", Offset = "0x41E6CD0", VA = "0x41E6CD0", Slot = "7")]
+		[Address(RVA = "0x450BDD0", Offset = "0x450BDD0", VA = "0x450BDD0", Slot = "7")]
 		get
 		{
 			return null;
@@ -806,7 +813,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 	private ICollection<object> System_002ECollections_002EGeneric_002EIDictionary_003CSystem_002EString_002CSystem_002EObject_003E_002EValues
 	{
 		[Token(Token = "0x6000C07")]
-		[Address(RVA = "0x41E6E40", Offset = "0x41E6E40", VA = "0x41E6E40", Slot = "8")]
+		[Address(RVA = "0x450BF40", Offset = "0x450BF40", VA = "0x450BF40", Slot = "8")]
 		get
 		{
 			return null;
@@ -817,13 +824,13 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 	private object System_002ECollections_002EGeneric_002EIDictionary_003CSystem_002EString_002CSystem_002EObject_003E_002EItem
 	{
 		[Token(Token = "0x6000C08")]
-		[Address(RVA = "0x41E6E90", Offset = "0x41E6E90", VA = "0x41E6E90", Slot = "5")]
+		[Address(RVA = "0x450BF90", Offset = "0x450BF90", VA = "0x450BF90", Slot = "5")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000C09")]
-		[Address(RVA = "0x41E6EF0", Offset = "0x41E6EF0", VA = "0x41E6EF0", Slot = "6")]
+		[Address(RVA = "0x450BFF0", Offset = "0x450BFF0", VA = "0x450BFF0", Slot = "6")]
 		set
 		{
 		}
@@ -833,7 +840,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 	private int System_002ECollections_002EGeneric_002EICollection_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CSystem_002EString_002CSystem_002EObject_003E_003E_002ECount
 	{
 		[Token(Token = "0x6000C0E")]
-		[Address(RVA = "0x41E7180", Offset = "0x41E7180", VA = "0x41E7180", Slot = "13")]
+		[Address(RVA = "0x450C280", Offset = "0x450C280", VA = "0x450C280", Slot = "13")]
 		get
 		{
 			return default(int);
@@ -844,7 +851,7 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 	private bool System_002ECollections_002EGeneric_002EICollection_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CSystem_002EString_002CSystem_002EObject_003E_003E_002EIsReadOnly
 	{
 		[Token(Token = "0x6000C0F")]
-		[Address(RVA = "0x41E7190", Offset = "0x41E7190", VA = "0x41E7190", Slot = "14")]
+		[Address(RVA = "0x450C290", Offset = "0x450C290", VA = "0x450C290", Slot = "14")]
 		get
 		{
 			return default(bool);
@@ -855,165 +862,165 @@ public sealed class ExpandoObject : IDynamicMetaObjectProvider, IDictionary<stri
 	private event PropertyChangedEventHandler System_002EComponentModel_002EINotifyPropertyChanged_002EPropertyChanged
 	{
 		[Token(Token = "0x6000C18")]
-		[Address(RVA = "0x41E7C10", Offset = "0x41E7C10", VA = "0x41E7C10", Slot = "22")]
+		[Address(RVA = "0x450CD10", Offset = "0x450CD10", VA = "0x450CD10", Slot = "22")]
 		add
 		{
 		}
 		[Token(Token = "0x6000C19")]
-		[Address(RVA = "0x41E7C90", Offset = "0x41E7C90", VA = "0x41E7C90", Slot = "23")]
+		[Address(RVA = "0x450CD90", Offset = "0x450CD90", VA = "0x450CD90", Slot = "23")]
 		remove
 		{
 		}
 	}
 
 	[Token(Token = "0x6000BFA")]
-	[Address(RVA = "0x41E6A60", Offset = "0x41E6A60", VA = "0x41E6A60")]
+	[Address(RVA = "0x450BB60", Offset = "0x450BB60", VA = "0x450BB60")]
 	public ExpandoObject()
 	{
 	}
 
 	[Token(Token = "0x6000BFB")]
-	[Address(RVA = "0x41E2120", Offset = "0x41E2120", VA = "0x41E2120")]
+	[Address(RVA = "0x4507220", Offset = "0x4507220", VA = "0x4507220")]
 	internal bool TryGetValue(object indexClass, int index, string name, bool ignoreCase, out object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000BFC")]
-	[Address(RVA = "0x41E22D0", Offset = "0x41E22D0", VA = "0x41E22D0")]
+	[Address(RVA = "0x45073D0", Offset = "0x45073D0", VA = "0x45073D0")]
 	internal void TrySetValue(object indexClass, int index, object value, string name, bool ignoreCase, bool add)
 	{
 	}
 
 	[Token(Token = "0x6000BFD")]
-	[Address(RVA = "0x41E28A0", Offset = "0x41E28A0", VA = "0x41E28A0")]
+	[Address(RVA = "0x45079A0", Offset = "0x45079A0", VA = "0x45079A0")]
 	internal bool TryDeleteValue(object indexClass, int index, string name, bool ignoreCase, object deleteValue)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000BFE")]
-	[Address(RVA = "0x41E6960", Offset = "0x41E6960", VA = "0x41E6960")]
+	[Address(RVA = "0x450BA60", Offset = "0x450BA60", VA = "0x450BA60")]
 	internal bool IsDeletedMember(int index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C00")]
-	[Address(RVA = "0x41E6B10", Offset = "0x41E6B10", VA = "0x41E6B10")]
+	[Address(RVA = "0x450BC10", Offset = "0x450BC10", VA = "0x450BC10")]
 	private ExpandoData PromoteClassCore(ExpandoClass oldClass, ExpandoClass newClass)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C01")]
-	[Address(RVA = "0x41E2D70", Offset = "0x41E2D70", VA = "0x41E2D70")]
+	[Address(RVA = "0x4507E70", Offset = "0x4507E70", VA = "0x4507E70")]
 	internal void PromoteClass(object oldClass, object newClass)
 	{
 	}
 
 	[Token(Token = "0x6000C02")]
-	[Address(RVA = "0x41E6B50", Offset = "0x41E6B50", VA = "0x41E6B50", Slot = "4")]
+	[Address(RVA = "0x450BC50", Offset = "0x450BC50", VA = "0x450BC50", Slot = "4")]
 	private DynamicMetaObject System_002EDynamic_002EIDynamicMetaObjectProvider_002EGetMetaObject(Expression parameter)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C03")]
-	[Address(RVA = "0x41E6BB0", Offset = "0x41E6BB0", VA = "0x41E6BB0")]
+	[Address(RVA = "0x450BCB0", Offset = "0x450BCB0", VA = "0x450BCB0")]
 	private void TryAddMember(string key, object value)
 	{
 	}
 
 	[Token(Token = "0x6000C04")]
-	[Address(RVA = "0x41E6C20", Offset = "0x41E6C20", VA = "0x41E6C20")]
+	[Address(RVA = "0x450BD20", Offset = "0x450BD20", VA = "0x450BD20")]
 	private bool TryGetValueForKey(string key, out object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C05")]
-	[Address(RVA = "0x41E6C40", Offset = "0x41E6C40", VA = "0x41E6C40")]
+	[Address(RVA = "0x450BD40", Offset = "0x450BD40", VA = "0x450BD40")]
 	private bool ExpandoContainsKey(string key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C0A")]
-	[Address(RVA = "0x41E6F60", Offset = "0x41E6F60", VA = "0x41E6F60", Slot = "10")]
+	[Address(RVA = "0x450C060", Offset = "0x450C060", VA = "0x450C060", Slot = "10")]
 	private void System_002ECollections_002EGeneric_002EIDictionary_003CSystem_002EString_002CSystem_002EObject_003E_002EAdd(string key, object value)
 	{
 	}
 
 	[Token(Token = "0x6000C0B")]
-	[Address(RVA = "0x41E6FD0", Offset = "0x41E6FD0", VA = "0x41E6FD0", Slot = "9")]
+	[Address(RVA = "0x450C0D0", Offset = "0x450C0D0", VA = "0x450C0D0", Slot = "9")]
 	private bool System_002ECollections_002EGeneric_002EIDictionary_003CSystem_002EString_002CSystem_002EObject_003E_002EContainsKey(string key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C0C")]
-	[Address(RVA = "0x41E70D0", Offset = "0x41E70D0", VA = "0x41E70D0", Slot = "11")]
+	[Address(RVA = "0x450C1D0", Offset = "0x450C1D0", VA = "0x450C1D0", Slot = "11")]
 	private bool System_002ECollections_002EGeneric_002EIDictionary_003CSystem_002EString_002CSystem_002EObject_003E_002ERemove(string key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C0D")]
-	[Address(RVA = "0x41E7160", Offset = "0x41E7160", VA = "0x41E7160", Slot = "12")]
+	[Address(RVA = "0x450C260", Offset = "0x450C260", VA = "0x450C260", Slot = "12")]
 	private bool System_002ECollections_002EGeneric_002EIDictionary_003CSystem_002EString_002CSystem_002EObject_003E_002ETryGetValue(string key, out object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C10")]
-	[Address(RVA = "0x41E71A0", Offset = "0x41E71A0", VA = "0x41E71A0", Slot = "15")]
+	[Address(RVA = "0x450C2A0", Offset = "0x450C2A0", VA = "0x450C2A0", Slot = "15")]
 	private void System_002ECollections_002EGeneric_002EICollection_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CSystem_002EString_002CSystem_002EObject_003E_003E_002EAdd(KeyValuePair<string, object> item)
 	{
 	}
 
 	[Token(Token = "0x6000C11")]
-	[Address(RVA = "0x41E7240", Offset = "0x41E7240", VA = "0x41E7240", Slot = "16")]
+	[Address(RVA = "0x450C340", Offset = "0x450C340", VA = "0x450C340", Slot = "16")]
 	private void System_002ECollections_002EGeneric_002EICollection_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CSystem_002EString_002CSystem_002EObject_003E_003E_002EClear()
 	{
 	}
 
 	[Token(Token = "0x6000C12")]
-	[Address(RVA = "0x41E74A0", Offset = "0x41E74A0", VA = "0x41E74A0", Slot = "17")]
+	[Address(RVA = "0x450C5A0", Offset = "0x450C5A0", VA = "0x450C5A0", Slot = "17")]
 	private bool System_002ECollections_002EGeneric_002EICollection_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CSystem_002EString_002CSystem_002EObject_003E_003E_002EContains(KeyValuePair<string, object> item)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C13")]
-	[Address(RVA = "0x41E7530", Offset = "0x41E7530", VA = "0x41E7530", Slot = "18")]
+	[Address(RVA = "0x450C630", Offset = "0x450C630", VA = "0x450C630", Slot = "18")]
 	private void System_002ECollections_002EGeneric_002EICollection_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CSystem_002EString_002CSystem_002EObject_003E_003E_002ECopyTo(KeyValuePair<string, object>[] array, int arrayIndex)
 	{
 	}
 
 	[Token(Token = "0x6000C14")]
-	[Address(RVA = "0x41E7A00", Offset = "0x41E7A00", VA = "0x41E7A00", Slot = "19")]
+	[Address(RVA = "0x450CB00", Offset = "0x450CB00", VA = "0x450CB00", Slot = "19")]
 	private bool System_002ECollections_002EGeneric_002EICollection_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CSystem_002EString_002CSystem_002EObject_003E_003E_002ERemove(KeyValuePair<string, object> item)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C15")]
-	[Address(RVA = "0x41E7A60", Offset = "0x41E7A60", VA = "0x41E7A60", Slot = "20")]
+	[Address(RVA = "0x450CB60", Offset = "0x450CB60", VA = "0x450CB60", Slot = "20")]
 	private IEnumerator<KeyValuePair<string, object>> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CSystem_002EString_002CSystem_002EObject_003E_003E_002EGetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C16")]
-	[Address(RVA = "0x41E7B80", Offset = "0x41E7B80", VA = "0x41E7B80", Slot = "21")]
+	[Address(RVA = "0x450CC80", Offset = "0x450CC80", VA = "0x450CC80", Slot = "21")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C17")]
-	[Address(RVA = "0x41E7AF0", Offset = "0x41E7AF0", VA = "0x41E7AF0")]
+	[Address(RVA = "0x450CBF0", Offset = "0x450CBF0", VA = "0x450CBF0")]
 	[IteratorStateMachine(typeof(_003CGetExpandoEnumerator_003Ed__51))]
 	private IEnumerator<KeyValuePair<string, object>> GetExpandoEnumerator(ExpandoData data, int version)
 	{

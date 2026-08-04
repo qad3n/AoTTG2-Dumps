@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.XR.Bone
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/ThirdParty/EZhex1991/EZSoftBone/Runtime/EZSoftBone.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -26,7 +33,7 @@ public struct Bone : IEquatable<Bone>
 	internal ulong deviceId
 	{
 		[Token(Token = "0x6000019")]
-		[Address(RVA = "0x4DE4670", Offset = "0x4DE4670", VA = "0x4DE4670")]
+		[Address(RVA = "0x510C700", Offset = "0x510C700", VA = "0x510C700")]
 		get
 		{
 			return default(ulong);
@@ -37,7 +44,7 @@ public struct Bone : IEquatable<Bone>
 	internal uint featureIndex
 	{
 		[Token(Token = "0x600001A")]
-		[Address(RVA = "0x4DE4680", Offset = "0x4DE4680", VA = "0x4DE4680")]
+		[Address(RVA = "0x510C710", Offset = "0x510C710", VA = "0x510C710")]
 		get
 		{
 			return default(uint);
@@ -45,21 +52,21 @@ public struct Bone : IEquatable<Bone>
 	}
 
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x4DE4690", Offset = "0x4DE4690", VA = "0x4DE4690", Slot = "0")]
+	[Address(RVA = "0x510C720", Offset = "0x510C720", VA = "0x510C720", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x4DE4700", Offset = "0x4DE4700", VA = "0x4DE4700", Slot = "4")]
+	[Address(RVA = "0x510C790", Offset = "0x510C790", VA = "0x510C790", Slot = "4")]
 	public bool Equals(Bone other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x4DE4710", Offset = "0x4DE4710", VA = "0x4DE4710", Slot = "2")]
+	[Address(RVA = "0x510C7A0", Offset = "0x510C7A0", VA = "0x510C7A0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

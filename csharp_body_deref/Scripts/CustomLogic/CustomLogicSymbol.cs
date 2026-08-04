@@ -1,98 +1,105 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: CustomLogic.CustomLogicSymbol
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Scripts/CustomLogic/CustomLogicSymbols.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200044D")]
+[Token(Token = "0x2000492")]
 public enum CustomLogicSymbol
 {
-	[Token(Token = "0x40012B0")]
+	[Token(Token = "0x40013BF")]
 	Component,
-	[Token(Token = "0x40012B1")]
+	[Token(Token = "0x40013C0")]
 	Class,
-	[Token(Token = "0x40012B2")]
+	[Token(Token = "0x40013C1")]
 	Extension,
-	[Token(Token = "0x40012B3")]
+	[Token(Token = "0x40013C2")]
 	Addon,
-	[Token(Token = "0x40012B4")]
+	[Token(Token = "0x40013C3")]
 	Cutscene,
-	[Token(Token = "0x40012B5")]
+	[Token(Token = "0x40013C4")]
 	Function,
-	[Token(Token = "0x40012B6")]
+	[Token(Token = "0x40013C5")]
 	Coroutine,
-	[Token(Token = "0x40012B7")]
+	[Token(Token = "0x40013C6")]
 	Wait,
-	[Token(Token = "0x40012B8")]
+	[Token(Token = "0x40013C7")]
 	Null,
-	[Token(Token = "0x40012B9")]
+	[Token(Token = "0x40013C8")]
 	LeftCurly,
-	[Token(Token = "0x40012BA")]
+	[Token(Token = "0x40013C9")]
 	RightCurly,
-	[Token(Token = "0x40012BB")]
+	[Token(Token = "0x40013CA")]
 	LeftParen,
-	[Token(Token = "0x40012BC")]
+	[Token(Token = "0x40013CB")]
 	RightParen,
-	[Token(Token = "0x40012BD")]
+	[Token(Token = "0x40013CC")]
 	Return,
-	[Token(Token = "0x40012BE")]
+	[Token(Token = "0x40013CD")]
 	Continue,
-	[Token(Token = "0x40012BF")]
+	[Token(Token = "0x40013CE")]
 	Break,
-	[Token(Token = "0x40012C0")]
+	[Token(Token = "0x40013CF")]
 	Not,
-	[Token(Token = "0x40012C1")]
+	[Token(Token = "0x40013D0")]
 	SetEquals,
-	[Token(Token = "0x40012C2")]
+	[Token(Token = "0x40013D1")]
 	PlusEquals,
-	[Token(Token = "0x40012C3")]
+	[Token(Token = "0x40013D2")]
 	MinusEquals,
-	[Token(Token = "0x40012C4")]
+	[Token(Token = "0x40013D3")]
 	TimesEquals,
-	[Token(Token = "0x40012C5")]
+	[Token(Token = "0x40013D4")]
 	DivideEquals,
-	[Token(Token = "0x40012C6")]
+	[Token(Token = "0x40013D5")]
 	And,
-	[Token(Token = "0x40012C7")]
+	[Token(Token = "0x40013D6")]
 	Or,
-	[Token(Token = "0x40012C8")]
+	[Token(Token = "0x40013D7")]
 	LessThan,
-	[Token(Token = "0x40012C9")]
+	[Token(Token = "0x40013D8")]
 	GreaterThan,
-	[Token(Token = "0x40012CA")]
+	[Token(Token = "0x40013D9")]
 	LessThanOrEquals,
-	[Token(Token = "0x40012CB")]
+	[Token(Token = "0x40013DA")]
 	GreaterThanOrEquals,
-	[Token(Token = "0x40012CC")]
+	[Token(Token = "0x40013DB")]
 	Equals,
-	[Token(Token = "0x40012CD")]
+	[Token(Token = "0x40013DC")]
 	NotEquals,
-	[Token(Token = "0x40012CE")]
+	[Token(Token = "0x40013DD")]
 	Plus,
-	[Token(Token = "0x40012CF")]
+	[Token(Token = "0x40013DE")]
 	Minus,
-	[Token(Token = "0x40012D0")]
+	[Token(Token = "0x40013DF")]
 	Times,
-	[Token(Token = "0x40012D1")]
+	[Token(Token = "0x40013E0")]
 	Divide,
-	[Token(Token = "0x40012D2")]
+	[Token(Token = "0x40013E1")]
 	Modulo,
-	[Token(Token = "0x40012D3")]
+	[Token(Token = "0x40013E2")]
 	Semicolon,
-	[Token(Token = "0x40012D4")]
+	[Token(Token = "0x40013E3")]
 	DoubleQuote,
-	[Token(Token = "0x40012D5")]
+	[Token(Token = "0x40013E4")]
 	Comma,
-	[Token(Token = "0x40012D6")]
+	[Token(Token = "0x40013E5")]
 	Dot,
-	[Token(Token = "0x40012D7")]
+	[Token(Token = "0x40013E6")]
 	If,
-	[Token(Token = "0x40012D8")]
+	[Token(Token = "0x40013E7")]
 	Else,
-	[Token(Token = "0x40012D9")]
+	[Token(Token = "0x40013E8")]
 	ElseIf,
-	[Token(Token = "0x40012DA")]
+	[Token(Token = "0x40013E9")]
 	While,
-	[Token(Token = "0x40012DB")]
+	[Token(Token = "0x40013EA")]
 	For,
-	[Token(Token = "0x40012DC")]
+	[Token(Token = "0x40013EB")]
 	In
 }

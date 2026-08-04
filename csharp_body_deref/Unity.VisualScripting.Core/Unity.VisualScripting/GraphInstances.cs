@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.GraphInstances
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -19,26 +26,26 @@ public static class GraphInstances
 	private static readonly Dictionary<IGraphParent, HashSet<GraphReference>> byParent;
 
 	[Token(Token = "0x6000320")]
-	[Address(RVA = "0x49858A0", Offset = "0x49858A0", VA = "0x49858A0")]
+	[Address(RVA = "0x4CAA470", Offset = "0x4CAA470", VA = "0x4CAA470")]
 	public static void Instantiate(GraphReference instance)
 	{
 	}
 
 	[Token(Token = "0x6000321")]
-	[Address(RVA = "0x4986750", Offset = "0x4986750", VA = "0x4986750")]
+	[Address(RVA = "0x4CAB320", Offset = "0x4CAB320", VA = "0x4CAB320")]
 	public static void Uninstantiate(GraphReference instance)
 	{
 	}
 
 	[Token(Token = "0x6000322")]
-	[Address(RVA = "0x4987410", Offset = "0x4987410", VA = "0x4987410")]
+	[Address(RVA = "0x4CABFE0", Offset = "0x4CABFE0", VA = "0x4CABFE0")]
 	public static HashSet<GraphReference> OfPooled(IGraph graph)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000323")]
-	[Address(RVA = "0x4987700", Offset = "0x4987700", VA = "0x4987700")]
+	[Address(RVA = "0x4CAC2D0", Offset = "0x4CAC2D0", VA = "0x4CAC2D0")]
 	public static HashSet<GraphReference> ChildrenOfPooled(IGraphParent parent)
 	{
 		return null;

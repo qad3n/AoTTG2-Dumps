@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnitySourceGeneratedAssemblyMonoScriptTypes_v1.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.CodeDom.Compiler;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
@@ -35,14 +42,14 @@ internal class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x4BC8850", Offset = "0x4BC8850", VA = "0x4BC8850")]
+	[Address(RVA = "0x4EF0180", Offset = "0x4EF0180", VA = "0x4EF0180")]
 	private static MonoScriptData Get()
 	{
 		return default(MonoScriptData);
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x4BC8980", Offset = "0x4BC8980", VA = "0x4BC8980")]
+	[Address(RVA = "0x4EF02B0", Offset = "0x4EF02B0", VA = "0x4EF02B0")]
 	public UnitySourceGeneratedAssemblyMonoScriptTypes_v1()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.FixupHolderList
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
@@ -15,25 +22,25 @@ internal class FixupHolderList
 	internal int m_count;
 
 	[Token(Token = "0x6001FCB")]
-	[Address(RVA = "0x4EB7DA0", Offset = "0x4EB7DA0", VA = "0x4EB7DA0")]
+	[Address(RVA = "0x3B9D8C0", Offset = "0x3B9D8C0", VA = "0x3B9D8C0")]
 	internal FixupHolderList()
 	{
 	}
 
 	[Token(Token = "0x6001FCC")]
-	[Address(RVA = "0x4EB8010", Offset = "0x4EB8010", VA = "0x4EB8010")]
+	[Address(RVA = "0x3B9DB30", Offset = "0x3B9DB30", VA = "0x3B9DB30")]
 	internal FixupHolderList(int startingSize)
 	{
 	}
 
 	[Token(Token = "0x6001FCD")]
-	[Address(RVA = "0x4EB8070", Offset = "0x4EB8070", VA = "0x4EB8070", Slot = "4")]
+	[Address(RVA = "0x3B9DB90", Offset = "0x3B9DB90", VA = "0x3B9DB90", Slot = "4")]
 	internal virtual void Add(System.Runtime.Serialization.FixupHolder fixup)
 	{
 	}
 
 	[Token(Token = "0x6001FCE")]
-	[Address(RVA = "0x4EB8190", Offset = "0x4EB8190", VA = "0x4EB8190")]
+	[Address(RVA = "0x3B9DCB0", Offset = "0x3B9DCB0", VA = "0x3B9DCB0")]
 	private void EnlargeArray()
 	{
 	}

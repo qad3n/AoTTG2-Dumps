@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.Properties.Internal.RectIntPropertyBag
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -13,7 +20,7 @@ internal class RectIntPropertyBag : ContainerPropertyBag<RectInt>
 		public override string Name
 		{
 			[Token(Token = "0x60001C7")]
-			[Address(RVA = "0x4B74150", Offset = "0x4B74150", VA = "0x4B74150", Slot = "7")]
+			[Address(RVA = "0x4E9BA80", Offset = "0x4E9BA80", VA = "0x4E9BA80", Slot = "7")]
 			get
 			{
 				return null;
@@ -21,7 +28,7 @@ internal class RectIntPropertyBag : ContainerPropertyBag<RectInt>
 		}
 
 		[Token(Token = "0x60001C8")]
-		[Address(RVA = "0x4B74050", Offset = "0x4B74050", VA = "0x4B74050")]
+		[Address(RVA = "0x4E9B980", Offset = "0x4E9B980", VA = "0x4E9B980")]
 		public XProperty()
 		{
 		}
@@ -34,7 +41,7 @@ internal class RectIntPropertyBag : ContainerPropertyBag<RectInt>
 		public override string Name
 		{
 			[Token(Token = "0x60001C9")]
-			[Address(RVA = "0x4B74180", Offset = "0x4B74180", VA = "0x4B74180", Slot = "7")]
+			[Address(RVA = "0x4E9BAB0", Offset = "0x4E9BAB0", VA = "0x4E9BAB0", Slot = "7")]
 			get
 			{
 				return null;
@@ -42,7 +49,7 @@ internal class RectIntPropertyBag : ContainerPropertyBag<RectInt>
 		}
 
 		[Token(Token = "0x60001CA")]
-		[Address(RVA = "0x4B74090", Offset = "0x4B74090", VA = "0x4B74090")]
+		[Address(RVA = "0x4E9B9C0", Offset = "0x4E9B9C0", VA = "0x4E9B9C0")]
 		public YProperty()
 		{
 		}
@@ -55,7 +62,7 @@ internal class RectIntPropertyBag : ContainerPropertyBag<RectInt>
 		public override string Name
 		{
 			[Token(Token = "0x60001CB")]
-			[Address(RVA = "0x4B741B0", Offset = "0x4B741B0", VA = "0x4B741B0", Slot = "7")]
+			[Address(RVA = "0x4E9BAE0", Offset = "0x4E9BAE0", VA = "0x4E9BAE0", Slot = "7")]
 			get
 			{
 				return null;
@@ -63,7 +70,7 @@ internal class RectIntPropertyBag : ContainerPropertyBag<RectInt>
 		}
 
 		[Token(Token = "0x60001CC")]
-		[Address(RVA = "0x4B740D0", Offset = "0x4B740D0", VA = "0x4B740D0")]
+		[Address(RVA = "0x4E9BA00", Offset = "0x4E9BA00", VA = "0x4E9BA00")]
 		public WidthProperty()
 		{
 		}
@@ -76,7 +83,7 @@ internal class RectIntPropertyBag : ContainerPropertyBag<RectInt>
 		public override string Name
 		{
 			[Token(Token = "0x60001CD")]
-			[Address(RVA = "0x4B741E0", Offset = "0x4B741E0", VA = "0x4B741E0", Slot = "7")]
+			[Address(RVA = "0x4E9BB10", Offset = "0x4E9BB10", VA = "0x4E9BB10", Slot = "7")]
 			get
 			{
 				return null;
@@ -84,14 +91,14 @@ internal class RectIntPropertyBag : ContainerPropertyBag<RectInt>
 		}
 
 		[Token(Token = "0x60001CE")]
-		[Address(RVA = "0x4B74110", Offset = "0x4B74110", VA = "0x4B74110")]
+		[Address(RVA = "0x4E9BA40", Offset = "0x4E9BA40", VA = "0x4E9BA40")]
 		public HeightProperty()
 		{
 		}
 	}
 
 	[Token(Token = "0x60001C6")]
-	[Address(RVA = "0x4B73120", Offset = "0x4B73120", VA = "0x4B73120")]
+	[Address(RVA = "0x4E9AA50", Offset = "0x4E9AA50", VA = "0x4E9AA50")]
 	public RectIntPropertyBag()
 	{
 	}

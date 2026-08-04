@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.ExpressionParser
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Data;
@@ -21,7 +28,7 @@ internal sealed class ExpressionParser
 		internal readonly int _op;
 
 		[Token(Token = "0x6000610")]
-		[Address(RVA = "0x42708E0", Offset = "0x42708E0", VA = "0x42708E0")]
+		[Address(RVA = "0x45AE040", Offset = "0x45AE040", VA = "0x45AE040")]
 		internal ReservedWords(string word, Tokens token, int op)
 		{
 		}
@@ -100,153 +107,153 @@ internal sealed class ExpressionParser
 	internal ExpressionNode _expression;
 
 	[Token(Token = "0x60005F7")]
-	[Address(RVA = "0x426C5F0", Offset = "0x426C5F0", VA = "0x426C5F0")]
+	[Address(RVA = "0x45A9D50", Offset = "0x45A9D50", VA = "0x45A9D50")]
 	internal ExpressionParser(DataTable table)
 	{
 	}
 
 	[Token(Token = "0x60005F8")]
-	[Address(RVA = "0x426C6B0", Offset = "0x426C6B0", VA = "0x426C6B0")]
+	[Address(RVA = "0x45A9E10", Offset = "0x45A9E10", VA = "0x45A9E10")]
 	internal void LoadExpression(string data)
 	{
 	}
 
 	[Token(Token = "0x60005F9")]
-	[Address(RVA = "0x426DF40", Offset = "0x426DF40", VA = "0x426DF40")]
+	[Address(RVA = "0x45AB6A0", Offset = "0x45AB6A0", VA = "0x45AB6A0")]
 	internal void StartScan()
 	{
 	}
 
 	[Token(Token = "0x60005FA")]
-	[Address(RVA = "0x426C800", Offset = "0x426C800", VA = "0x426C800")]
+	[Address(RVA = "0x45A9F60", Offset = "0x45A9F60", VA = "0x45A9F60")]
 	internal ExpressionNode Parse()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005FB")]
-	[Address(RVA = "0x426EE10", Offset = "0x426EE10", VA = "0x426EE10")]
+	[Address(RVA = "0x45AC570", Offset = "0x45AC570", VA = "0x45AC570")]
 	private ExpressionNode ParseAggregateArgument(FunctionId aggregate)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005FC")]
-	[Address(RVA = "0x426ED50", Offset = "0x426ED50", VA = "0x426ED50")]
+	[Address(RVA = "0x45AC4B0", Offset = "0x45AC4B0", VA = "0x45AC4B0")]
 	private ExpressionNode NodePop()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005FD")]
-	[Address(RVA = "0x426ECA0", Offset = "0x426ECA0", VA = "0x426ECA0")]
+	[Address(RVA = "0x45AC400", Offset = "0x45AC400", VA = "0x45AC400")]
 	private ExpressionNode NodePeek()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60005FE")]
-	[Address(RVA = "0x426EAB0", Offset = "0x426EAB0", VA = "0x426EAB0")]
+	[Address(RVA = "0x45AC210", Offset = "0x45AC210", VA = "0x45AC210")]
 	private void NodePush(ExpressionNode node)
 	{
 	}
 
 	[Token(Token = "0x60005FF")]
-	[Address(RVA = "0x426E610", Offset = "0x426E610", VA = "0x426E610")]
+	[Address(RVA = "0x45ABD70", Offset = "0x45ABD70", VA = "0x45ABD70")]
 	private void BuildExpression(int pri)
 	{
 	}
 
 	[Token(Token = "0x6000600")]
-	[Address(RVA = "0x426EA00", Offset = "0x426EA00", VA = "0x426EA00")]
+	[Address(RVA = "0x45AC160", Offset = "0x45AC160", VA = "0x45AC160")]
 	internal void CheckToken(Tokens token)
 	{
 	}
 
 	[Token(Token = "0x6000601")]
-	[Address(RVA = "0x426E010", Offset = "0x426E010", VA = "0x426E010")]
+	[Address(RVA = "0x45AB770", Offset = "0x45AB770", VA = "0x45AB770")]
 	internal Tokens Scan()
 	{
 		return default(Tokens);
 	}
 
 	[Token(Token = "0x6000602")]
-	[Address(RVA = "0x426FD50", Offset = "0x426FD50", VA = "0x426FD50")]
+	[Address(RVA = "0x45AD4B0", Offset = "0x45AD4B0", VA = "0x45AD4B0")]
 	private void ScanNumeric()
 	{
 	}
 
 	[Token(Token = "0x6000603")]
-	[Address(RVA = "0x4270180", Offset = "0x4270180", VA = "0x4270180")]
+	[Address(RVA = "0x45AD8E0", Offset = "0x45AD8E0", VA = "0x45AD8E0")]
 	private void ScanName()
 	{
 	}
 
 	[Token(Token = "0x6000604")]
-	[Address(RVA = "0x426FC10", Offset = "0x426FC10", VA = "0x426FC10")]
+	[Address(RVA = "0x45AD370", Offset = "0x45AD370", VA = "0x45AD370")]
 	private void ScanName(char chEnd, char esc, string charsToEscape)
 	{
 	}
 
 	[Token(Token = "0x6000605")]
-	[Address(RVA = "0x426FAD0", Offset = "0x426FAD0", VA = "0x426FAD0")]
+	[Address(RVA = "0x45AD230", Offset = "0x45AD230", VA = "0x45AD230")]
 	private void ScanDate()
 	{
 	}
 
 	[Token(Token = "0x6000606")]
-	[Address(RVA = "0x426FE70", Offset = "0x426FE70", VA = "0x426FE70")]
+	[Address(RVA = "0x45AD5D0", Offset = "0x45AD5D0", VA = "0x45AD5D0")]
 	private void ScanBinaryConstant()
 	{
 	}
 
 	[Token(Token = "0x6000607")]
-	[Address(RVA = "0x426FE90", Offset = "0x426FE90", VA = "0x426FE90")]
+	[Address(RVA = "0x45AD5F0", Offset = "0x45AD5F0", VA = "0x45AD5F0")]
 	private void ScanReserved()
 	{
 	}
 
 	[Token(Token = "0x6000608")]
-	[Address(RVA = "0x426FB60", Offset = "0x426FB60", VA = "0x426FB60")]
+	[Address(RVA = "0x45AD2C0", Offset = "0x45AD2C0", VA = "0x45AD2C0")]
 	private void ScanString(char escape)
 	{
 	}
 
 	[Token(Token = "0x6000609")]
-	[Address(RVA = "0x426E9C0", Offset = "0x426E9C0", VA = "0x426E9C0")]
+	[Address(RVA = "0x45AC120", Offset = "0x45AC120", VA = "0x45AC120")]
 	internal void ScanToken(Tokens token)
 	{
 	}
 
 	[Token(Token = "0x600060A")]
-	[Address(RVA = "0x426FA80", Offset = "0x426FA80", VA = "0x426FA80")]
+	[Address(RVA = "0x45AD1E0", Offset = "0x45AD1E0", VA = "0x45AD1E0")]
 	private void ScanWhite()
 	{
 	}
 
 	[Token(Token = "0x600060B")]
-	[Address(RVA = "0x42703B0", Offset = "0x42703B0", VA = "0x42703B0")]
+	[Address(RVA = "0x45ADB10", Offset = "0x45ADB10", VA = "0x45ADB10")]
 	private bool IsWhiteSpace(char ch)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600060C")]
-	[Address(RVA = "0x4270150", Offset = "0x4270150", VA = "0x4270150")]
+	[Address(RVA = "0x45AD8B0", Offset = "0x45AD8B0", VA = "0x45AD8B0")]
 	private bool IsAlphaNumeric(char ch)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600060D")]
-	[Address(RVA = "0x426FE80", Offset = "0x426FE80", VA = "0x426FE80")]
+	[Address(RVA = "0x45AD5E0", Offset = "0x45AD5E0", VA = "0x45AD5E0")]
 	private bool IsDigit(char ch)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600060E")]
-	[Address(RVA = "0x4270300", Offset = "0x4270300", VA = "0x4270300")]
+	[Address(RVA = "0x45ADA60", Offset = "0x45ADA60", VA = "0x45ADA60")]
 	private bool IsAlpha(char ch)
 	{
 		return default(bool);

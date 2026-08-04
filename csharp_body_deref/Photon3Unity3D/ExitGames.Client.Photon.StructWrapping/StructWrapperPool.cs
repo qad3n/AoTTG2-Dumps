@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: ExitGames.Client.Photon.StructWrapping.StructWrapperPool
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -8,14 +15,14 @@ namespace ExitGames.Client.Photon.StructWrapping;
 public class StructWrapperPool
 {
 	[Token(Token = "0x60003B8")]
-	[Address(RVA = "0x3BA6BC0", Offset = "0x3BA6BC0", VA = "0x3BA6BC0")]
+	[Address(RVA = "0x3E9C510", Offset = "0x3E9C510", VA = "0x3E9C510")]
 	public static WrappedType GetWrappedType(Type type)
 	{
 		return default(WrappedType);
 	}
 
 	[Token(Token = "0x60003B9")]
-	[Address(RVA = "0x3BA6DB0", Offset = "0x3BA6DB0", VA = "0x3BA6DB0")]
+	[Address(RVA = "0x3E9C700", Offset = "0x3E9C700", VA = "0x3E9C700")]
 	public StructWrapperPool()
 	{
 	}

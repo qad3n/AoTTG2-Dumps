@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.VolumeParameter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -20,13 +27,13 @@ public abstract class VolumeParameter : ICloneable
 	public virtual bool overrideState
 	{
 		[Token(Token = "0x6000D9D")]
-		[Address(RVA = "0x48E5C60", Offset = "0x48E5C60", VA = "0x48E5C60", Slot = "5")]
+		[Address(RVA = "0x4C0ACD0", Offset = "0x4C0ACD0", VA = "0x4C0ACD0", Slot = "5")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000D9E")]
-		[Address(RVA = "0x48E5C70", Offset = "0x48E5C70", VA = "0x48E5C70", Slot = "6")]
+		[Address(RVA = "0x4C0ACE0", Offset = "0x4C0ACE0", VA = "0x4C0ACE0", Slot = "6")]
 		set
 		{
 		}
@@ -45,26 +52,26 @@ public abstract class VolumeParameter : ICloneable
 	public abstract void SetValue(VolumeParameter parameter);
 
 	[Token(Token = "0x6000DA2")]
-	[Address(RVA = "0x48E5C80", Offset = "0x48E5C80", VA = "0x48E5C80", Slot = "9")]
+	[Address(RVA = "0x4C0ACF0", Offset = "0x4C0ACF0", VA = "0x4C0ACF0", Slot = "9")]
 	protected internal virtual void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000DA3")]
-	[Address(RVA = "0x48E5C90", Offset = "0x48E5C90", VA = "0x48E5C90", Slot = "10")]
+	[Address(RVA = "0x4C0AD00", Offset = "0x4C0AD00", VA = "0x4C0AD00", Slot = "10")]
 	protected internal virtual void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000DA4")]
-	[Address(RVA = "0x48E28B0", Offset = "0x48E28B0", VA = "0x48E28B0")]
+	[Address(RVA = "0x4C07920", Offset = "0x4C07920", VA = "0x4C07920")]
 	public static bool IsObjectParameter(Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000DA5")]
-	[Address(RVA = "0x48E5CA0", Offset = "0x48E5CA0", VA = "0x48E5CA0", Slot = "11")]
+	[Address(RVA = "0x4C0AD10", Offset = "0x4C0AD10", VA = "0x4C0AD10", Slot = "11")]
 	public virtual void Release()
 	{
 	}
@@ -73,7 +80,7 @@ public abstract class VolumeParameter : ICloneable
 	public abstract object Clone();
 
 	[Token(Token = "0x6000DA7")]
-	[Address(RVA = "0x48E5CB0", Offset = "0x48E5CB0", VA = "0x48E5CB0")]
+	[Address(RVA = "0x4C0AD20", Offset = "0x4C0AD20", VA = "0x4C0AD20")]
 	protected VolumeParameter()
 	{
 	}

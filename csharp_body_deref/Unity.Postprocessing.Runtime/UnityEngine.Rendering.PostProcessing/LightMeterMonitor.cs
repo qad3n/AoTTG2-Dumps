@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.LightMeterMonitor
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -20,20 +27,20 @@ public sealed class LightMeterMonitor : Monitor
 	public bool showCurves;
 
 	[Token(Token = "0x60000A5")]
-	[Address(RVA = "0x48238B0", Offset = "0x48238B0", VA = "0x48238B0", Slot = "4")]
+	[Address(RVA = "0x4B489A0", Offset = "0x4B489A0", VA = "0x4B489A0", Slot = "4")]
 	internal override bool ShaderResourcesAvailable(PostProcessRenderContext context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000A6")]
-	[Address(RVA = "0x4823960", Offset = "0x4823960", VA = "0x4823960", Slot = "8")]
+	[Address(RVA = "0x4B48A50", Offset = "0x4B48A50", VA = "0x4B48A50", Slot = "8")]
 	internal override void Render(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x60000A7")]
-	[Address(RVA = "0x4824770", Offset = "0x4824770", VA = "0x4824770")]
+	[Address(RVA = "0x4B49860", Offset = "0x4B49860", VA = "0x4B49860")]
 	public LightMeterMonitor()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: ExitGames.Client.Photon.SocketUdpAsync
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Net.Sockets;
 using Il2CppDummyDll;
@@ -16,66 +23,66 @@ public class SocketUdpAsync : IPhotonSocket, IDisposable
 	private readonly object syncer;
 
 	[Token(Token = "0x60002CF")]
-	[Address(RVA = "0x3B9BF40", Offset = "0x3B9BF40", VA = "0x3B9BF40")]
+	[Address(RVA = "0x3E91890", Offset = "0x3E91890", VA = "0x3E91890")]
 	[Preserve]
 	public SocketUdpAsync(PeerBase npeer)
 	{
 	}
 
 	[Token(Token = "0x60002D0")]
-	[Address(RVA = "0x3B9C080", Offset = "0x3B9C080", VA = "0x3B9C080", Slot = "1")]
+	[Address(RVA = "0x3E919D0", Offset = "0x3E919D0", VA = "0x3E919D0", Slot = "1")]
 	~SocketUdpAsync()
 	{
 	}
 
 	[Token(Token = "0x60002D1")]
-	[Address(RVA = "0x3B9C100", Offset = "0x3B9C100", VA = "0x3B9C100", Slot = "8")]
+	[Address(RVA = "0x3E91A50", Offset = "0x3E91A50", VA = "0x3E91A50", Slot = "8")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60002D2")]
-	[Address(RVA = "0x3B9C210", Offset = "0x3B9C210", VA = "0x3B9C210", Slot = "4")]
+	[Address(RVA = "0x3E91B60", Offset = "0x3E91B60", VA = "0x3E91B60", Slot = "4")]
 	public override bool Connect()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002D3")]
-	[Address(RVA = "0x3B9C3B0", Offset = "0x3B9C3B0", VA = "0x3B9C3B0", Slot = "5")]
+	[Address(RVA = "0x3E91D00", Offset = "0x3E91D00", VA = "0x3E91D00", Slot = "5")]
 	public override bool Disconnect()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002D4")]
-	[Address(RVA = "0x3B9C5D0", Offset = "0x3B9C5D0", VA = "0x3B9C5D0", Slot = "6")]
+	[Address(RVA = "0x3E91F20", Offset = "0x3E91F20", VA = "0x3E91F20", Slot = "6")]
 	public override PhotonSocketError Send(byte[] data, int length)
 	{
 		return default(PhotonSocketError);
 	}
 
 	[Token(Token = "0x60002D5")]
-	[Address(RVA = "0x3B9CAD0", Offset = "0x3B9CAD0", VA = "0x3B9CAD0", Slot = "7")]
+	[Address(RVA = "0x3E92420", Offset = "0x3E92420", VA = "0x3E92420", Slot = "7")]
 	public override PhotonSocketError Receive(out byte[] data)
 	{
 		return default(PhotonSocketError);
 	}
 
 	[Token(Token = "0x60002D6")]
-	[Address(RVA = "0x3B9CAF0", Offset = "0x3B9CAF0", VA = "0x3B9CAF0")]
+	[Address(RVA = "0x3E92440", Offset = "0x3E92440", VA = "0x3E92440")]
 	internal void DnsAndConnect()
 	{
 	}
 
 	[Token(Token = "0x60002D7")]
-	[Address(RVA = "0x3B9D120", Offset = "0x3B9D120", VA = "0x3B9D120")]
+	[Address(RVA = "0x3E92A70", Offset = "0x3E92A70", VA = "0x3E92A70")]
 	public void StartReceive()
 	{
 	}
 
 	[Token(Token = "0x60002D8")]
-	[Address(RVA = "0x3B9D450", Offset = "0x3B9D450", VA = "0x3B9D450")]
+	[Address(RVA = "0x3E92DA0", Offset = "0x3E92DA0", VA = "0x3E92DA0")]
 	private void OnReceive(IAsyncResult ar)
 	{
 	}

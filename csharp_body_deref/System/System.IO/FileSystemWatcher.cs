@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.IO.FileSystemWatcher
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -101,13 +108,13 @@ public class FileSystemWatcher : Component, ISupportInitialize
 	internal bool Waiting
 	{
 		[Token(Token = "0x60016AB")]
-		[Address(RVA = "0x45C84F0", Offset = "0x45C84F0", VA = "0x45C84F0")]
+		[Address(RVA = "0x48ED5F0", Offset = "0x48ED5F0", VA = "0x48ED5F0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60016AC")]
-		[Address(RVA = "0x45C8500", Offset = "0x45C8500", VA = "0x45C8500")]
+		[Address(RVA = "0x48ED600", Offset = "0x48ED600", VA = "0x48ED600")]
 		set
 		{
 		}
@@ -117,7 +124,7 @@ public class FileSystemWatcher : Component, ISupportInitialize
 	internal string MangledFilter
 	{
 		[Token(Token = "0x60016AD")]
-		[Address(RVA = "0x45C5940", Offset = "0x45C5940", VA = "0x45C5940")]
+		[Address(RVA = "0x48EAA40", Offset = "0x48EAA40", VA = "0x48EAA40")]
 		get
 		{
 			return null;
@@ -128,7 +135,7 @@ public class FileSystemWatcher : Component, ISupportInitialize
 	internal SearchPattern2 Pattern
 	{
 		[Token(Token = "0x60016AE")]
-		[Address(RVA = "0x45C5850", Offset = "0x45C5850", VA = "0x45C5850")]
+		[Address(RVA = "0x48EA950", Offset = "0x48EA950", VA = "0x48EA950")]
 		get
 		{
 			return null;
@@ -139,7 +146,7 @@ public class FileSystemWatcher : Component, ISupportInitialize
 	internal string FullPath
 	{
 		[Token(Token = "0x60016AF")]
-		[Address(RVA = "0x45C57B0", Offset = "0x45C57B0", VA = "0x45C57B0")]
+		[Address(RVA = "0x48EA8B0", Offset = "0x48EA8B0", VA = "0x48EA8B0")]
 		get
 		{
 			return null;
@@ -152,7 +159,7 @@ public class FileSystemWatcher : Component, ISupportInitialize
 	public bool EnableRaisingEvents
 	{
 		[Token(Token = "0x60016B0")]
-		[Address(RVA = "0x45C8550", Offset = "0x45C8550", VA = "0x45C8550")]
+		[Address(RVA = "0x48ED650", Offset = "0x48ED650", VA = "0x48ED650")]
 		set
 		{
 		}
@@ -164,13 +171,13 @@ public class FileSystemWatcher : Component, ISupportInitialize
 	public bool IncludeSubdirectories
 	{
 		[Token(Token = "0x60016B1")]
-		[Address(RVA = "0x45C8920", Offset = "0x45C8920", VA = "0x45C8920")]
+		[Address(RVA = "0x48EDA20", Offset = "0x48EDA20", VA = "0x48EDA20")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60016B2")]
-		[Address(RVA = "0x45C8930", Offset = "0x45C8930", VA = "0x45C8930")]
+		[Address(RVA = "0x48EDA30", Offset = "0x48EDA30", VA = "0x48EDA30")]
 		set
 		{
 		}
@@ -182,7 +189,7 @@ public class FileSystemWatcher : Component, ISupportInitialize
 	public NotifyFilters NotifyFilter
 	{
 		[Token(Token = "0x60016B3")]
-		[Address(RVA = "0x45C8AC0", Offset = "0x45C8AC0", VA = "0x45C8AC0")]
+		[Address(RVA = "0x48EDBC0", Offset = "0x48EDBC0", VA = "0x48EDBC0")]
 		set
 		{
 		}
@@ -193,13 +200,13 @@ public class FileSystemWatcher : Component, ISupportInitialize
 	public override ISite Site
 	{
 		[Token(Token = "0x60016B4")]
-		[Address(RVA = "0x45C8C50", Offset = "0x45C8C50", VA = "0x45C8C50", Slot = "12")]
+		[Address(RVA = "0x48EDD50", Offset = "0x48EDD50", VA = "0x48EDD50", Slot = "12")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60016B5")]
-		[Address(RVA = "0x45C8C60", Offset = "0x45C8C60", VA = "0x45C8C60", Slot = "13")]
+		[Address(RVA = "0x48EDD60", Offset = "0x48EDD60", VA = "0x48EDD60", Slot = "13")]
 		set
 		{
 		}
@@ -210,13 +217,13 @@ public class FileSystemWatcher : Component, ISupportInitialize
 	public event FileSystemEventHandler Changed
 	{
 		[Token(Token = "0x60016C2")]
-		[Address(RVA = "0x45C9480", Offset = "0x45C9480", VA = "0x45C9480")]
+		[Address(RVA = "0x48EE580", Offset = "0x48EE580", VA = "0x48EE580")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60016C3")]
-		[Address(RVA = "0x45C9520", Offset = "0x45C9520", VA = "0x45C9520")]
+		[Address(RVA = "0x48EE620", Offset = "0x48EE620", VA = "0x48EE620")]
 		[CompilerGenerated]
 		remove
 		{
@@ -228,13 +235,13 @@ public class FileSystemWatcher : Component, ISupportInitialize
 	public event FileSystemEventHandler Created
 	{
 		[Token(Token = "0x60016C4")]
-		[Address(RVA = "0x45C95C0", Offset = "0x45C95C0", VA = "0x45C95C0")]
+		[Address(RVA = "0x48EE6C0", Offset = "0x48EE6C0", VA = "0x48EE6C0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60016C5")]
-		[Address(RVA = "0x45C9660", Offset = "0x45C9660", VA = "0x45C9660")]
+		[Address(RVA = "0x48EE760", Offset = "0x48EE760", VA = "0x48EE760")]
 		[CompilerGenerated]
 		remove
 		{
@@ -246,13 +253,13 @@ public class FileSystemWatcher : Component, ISupportInitialize
 	public event FileSystemEventHandler Deleted
 	{
 		[Token(Token = "0x60016C6")]
-		[Address(RVA = "0x45C9700", Offset = "0x45C9700", VA = "0x45C9700")]
+		[Address(RVA = "0x48EE800", Offset = "0x48EE800", VA = "0x48EE800")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60016C7")]
-		[Address(RVA = "0x45C97A0", Offset = "0x45C97A0", VA = "0x45C97A0")]
+		[Address(RVA = "0x48EE8A0", Offset = "0x48EE8A0", VA = "0x48EE8A0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -264,13 +271,13 @@ public class FileSystemWatcher : Component, ISupportInitialize
 	public event RenamedEventHandler Renamed
 	{
 		[Token(Token = "0x60016C8")]
-		[Address(RVA = "0x45C9840", Offset = "0x45C9840", VA = "0x45C9840")]
+		[Address(RVA = "0x48EE940", Offset = "0x48EE940", VA = "0x48EE940")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60016C9")]
-		[Address(RVA = "0x45C98E0", Offset = "0x45C98E0", VA = "0x45C98E0")]
+		[Address(RVA = "0x48EE9E0", Offset = "0x48EE9E0", VA = "0x48EE9E0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -278,91 +285,91 @@ public class FileSystemWatcher : Component, ISupportInitialize
 	}
 
 	[Token(Token = "0x60016A8")]
-	[Address(RVA = "0x45C8020", Offset = "0x45C8020", VA = "0x45C8020")]
+	[Address(RVA = "0x48ED120", Offset = "0x48ED120", VA = "0x48ED120")]
 	public FileSystemWatcher(string path)
 	{
 	}
 
 	[Token(Token = "0x60016A9")]
-	[Address(RVA = "0x45C8060", Offset = "0x45C8060", VA = "0x45C8060")]
+	[Address(RVA = "0x48ED160", Offset = "0x48ED160", VA = "0x48ED160")]
 	public FileSystemWatcher(string path, string filter)
 	{
 	}
 
 	[Token(Token = "0x60016AA")]
-	[Address(RVA = "0x45C8280", Offset = "0x45C8280", VA = "0x45C8280")]
+	[Address(RVA = "0x48ED380", Offset = "0x48ED380", VA = "0x48ED380")]
 	private void InitWatcher()
 	{
 	}
 
 	[Token(Token = "0x60016B6")]
-	[Address(RVA = "0x45C8D70", Offset = "0x45C8D70", VA = "0x45C8D70", Slot = "16")]
+	[Address(RVA = "0x48EDE70", Offset = "0x48EDE70", VA = "0x48EDE70", Slot = "16")]
 	public void BeginInit()
 	{
 	}
 
 	[Token(Token = "0x60016B7")]
-	[Address(RVA = "0x45C8D80", Offset = "0x45C8D80", VA = "0x45C8D80", Slot = "14")]
+	[Address(RVA = "0x48EDE80", Offset = "0x48EDE80", VA = "0x48EDE80", Slot = "14")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x60016B8")]
-	[Address(RVA = "0x45C8FE0", Offset = "0x45C8FE0", VA = "0x45C8FE0", Slot = "1")]
+	[Address(RVA = "0x48EE0E0", Offset = "0x48EE0E0", VA = "0x48EE0E0", Slot = "1")]
 	~FileSystemWatcher()
 	{
 	}
 
 	[Token(Token = "0x60016B9")]
-	[Address(RVA = "0x45C9080", Offset = "0x45C9080", VA = "0x45C9080", Slot = "17")]
+	[Address(RVA = "0x48EE180", Offset = "0x48EE180", VA = "0x48EE180", Slot = "17")]
 	public void EndInit()
 	{
 	}
 
 	[Token(Token = "0x60016BA")]
-	[Address(RVA = "0x45C90A0", Offset = "0x45C90A0", VA = "0x45C90A0")]
+	[Address(RVA = "0x48EE1A0", Offset = "0x48EE1A0", VA = "0x48EE1A0")]
 	private void RaiseEvent(Delegate ev, EventArgs arg, EventType evtype)
 	{
 	}
 
 	[Token(Token = "0x60016BB")]
-	[Address(RVA = "0x45C93E0", Offset = "0x45C93E0", VA = "0x45C93E0")]
+	[Address(RVA = "0x48EE4E0", Offset = "0x48EE4E0", VA = "0x48EE4E0")]
 	protected void OnChanged(FileSystemEventArgs e)
 	{
 	}
 
 	[Token(Token = "0x60016BC")]
-	[Address(RVA = "0x45C9400", Offset = "0x45C9400", VA = "0x45C9400")]
+	[Address(RVA = "0x48EE500", Offset = "0x48EE500", VA = "0x48EE500")]
 	protected void OnCreated(FileSystemEventArgs e)
 	{
 	}
 
 	[Token(Token = "0x60016BD")]
-	[Address(RVA = "0x45C9420", Offset = "0x45C9420", VA = "0x45C9420")]
+	[Address(RVA = "0x48EE520", Offset = "0x48EE520", VA = "0x48EE520")]
 	protected void OnDeleted(FileSystemEventArgs e)
 	{
 	}
 
 	[Token(Token = "0x60016BE")]
-	[Address(RVA = "0x45C9440", Offset = "0x45C9440", VA = "0x45C9440")]
+	[Address(RVA = "0x48EE540", Offset = "0x48EE540", VA = "0x48EE540")]
 	protected void OnRenamed(RenamedEventArgs e)
 	{
 	}
 
 	[Token(Token = "0x60016BF")]
-	[Address(RVA = "0x45C6A10", Offset = "0x45C6A10", VA = "0x45C6A10")]
+	[Address(RVA = "0x48EBB10", Offset = "0x48EBB10", VA = "0x48EBB10")]
 	internal void DispatchEvents(FileAction act, string filename, ref RenamedEventArgs renamed)
 	{
 	}
 
 	[Token(Token = "0x60016C0")]
-	[Address(RVA = "0x45C8780", Offset = "0x45C8780", VA = "0x45C8780")]
+	[Address(RVA = "0x48ED880", Offset = "0x48ED880", VA = "0x48ED880")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x60016C1")]
-	[Address(RVA = "0x45C8850", Offset = "0x45C8850", VA = "0x45C8850")]
+	[Address(RVA = "0x48ED950", Offset = "0x48ED950", VA = "0x48ED950")]
 	private void Stop()
 	{
 	}

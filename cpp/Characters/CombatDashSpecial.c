@@ -1,16 +1,16 @@
 // Type: Characters.CombatDashSpecial
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/CombatDashSpecial.cs
-// Prior real C# source (REFERENCE, outdated): Assets/Scripts/Characters/Human/Specials/CombatDashSpecial.cs  [CHANGED since prior version]
+// Prior real C# source (older reference): Assets/Scripts/Characters/Human/Specials/CombatDashSpecial.cs
 // --------------------------------
 
 // Characters.CombatDashSpecial$$get_ActiveTime
 // il2cpp: float Characters_CombatDashSpecial__get_ActiveTime (Characters_CombatDashSpecial_o* __this, const MethodInfo* method);
-// 0x3fe7ab0
+// 0x42f4370
 
-float Characters_CombatDashSpecial__get_ActiveTime
-                (Characters_CombatDashSpecial_o *__this,MethodInfo *method)
+float Characters_CombatDashSpecial__get_ActiveTime(Characters_CombatDashSpecial_o *__this,MethodInfo *method)
 
 {
   return 2.0;
@@ -19,11 +19,10 @@ float Characters_CombatDashSpecial__get_ActiveTime
 
 // Characters.CombatDashSpecial$$get_GroundedOnly
 // il2cpp: bool Characters_CombatDashSpecial__get_GroundedOnly (Characters_CombatDashSpecial_o* __this, const MethodInfo* method);
-// 0x3fe7ac0
+// 0x42f4380
 
 bool_conflict
-Characters_CombatDashSpecial__get_GroundedOnly
-          (Characters_CombatDashSpecial_o *__this,MethodInfo *method)
+Characters_CombatDashSpecial__get_GroundedOnly(Characters_CombatDashSpecial_o *__this,MethodInfo *method)
 
 {
   return 0;
@@ -32,11 +31,10 @@ Characters_CombatDashSpecial__get_GroundedOnly
 
 // Characters.CombatDashSpecial$$.ctor
 // il2cpp: void Characters_CombatDashSpecial___ctor (Characters_CombatDashSpecial_o* __this, Characters_BaseCharacter_o* owner, const MethodInfo* method);
-// 0x3fe7ad0
+// 0x42f4390
 
 void Characters_CombatDashSpecial___ctor
-               (Characters_CombatDashSpecial_o *__this,Characters_BaseCharacter_o *owner,
-               MethodInfo *method)
+               (Characters_CombatDashSpecial_o *__this,Characters_BaseCharacter_o *owner,MethodInfo *method)
 
 {
   (__this->fields).Range = 200.0;
@@ -48,10 +46,9 @@ void Characters_CombatDashSpecial___ctor
 
 // Characters.CombatDashSpecial$$Activate
 // il2cpp: void Characters_CombatDashSpecial__Activate (Characters_CombatDashSpecial_o* __this, const MethodInfo* method);
-// 0x3fe7af0
+// 0x42f43b0
 
-void Characters_CombatDashSpecial__Activate
-               (Characters_CombatDashSpecial_o *__this,MethodInfo *method)
+void Characters_CombatDashSpecial__Activate(Characters_CombatDashSpecial_o *__this,MethodInfo *method)
 
 {
   Characters_Human_o *pCVar1;
@@ -73,29 +70,28 @@ void Characters_CombatDashSpecial__Activate
   undefined1 auVar8 [16];
   UnityEngine_Vector3_o UVar9;
   
-  if (DAT_0570416a == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_HumanAnimations);
-    DAT_0570416a = '\x01';
+  if (g_data_057aded8 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanAnimations);
+    g_data_057aded8 = '\x01';
   }
   pCVar1 = (__this->fields)._human;
   if (*(int *)(TypeInfo_HumanAnimations + 0xe4) == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
-  if (pCVar1 == (Characters_Human_o *)0x0) goto LAB_03fe7d01;
+  if (pCVar1 == (Characters_Human_o *)0x0) goto label_042f45c1;
   Characters_Human__EmoteAnimation
             (pCVar1,*(System_String_o **)(*(long *)(TypeInfo_HumanAnimations + 0xb8) + 0x90),(MethodInfo *)0x0);
   pCVar1 = (__this->fields)._human;
-  if (pCVar1 == (Characters_Human_o *)0x0) goto LAB_03fe7d01;
+  if (pCVar1 == (Characters_Human_o *)0x0) goto label_042f45c1;
   uVar5 = (*(pCVar1->klass->vtable)._66_GetAimPoint.methodPtr)();
   pCVar1 = (__this->fields)._human;
-  if (((pCVar1 == (Characters_Human_o *)0x0) ||
-      (lVar2 = *(long *)&(pCVar1->fields).Dead, lVar2 == 0)) ||
-     (__this_00 = *(UnityEngine_Transform_o **)(lVar2 + 0x10),
-     __this_00 == (UnityEngine_Transform_o *)0x0)) goto LAB_03fe7d01;
+  if (((pCVar1 == (Characters_Human_o *)0x0) || (lVar2 = *(long *)&(pCVar1->fields).Dead, lVar2 == 0)) ||
+     (__this_00 = *(UnityEngine_Transform_o **)(lVar2 + 0x10), __this_00 == (UnityEngine_Transform_o *)0x0))
+  goto label_042f45c1;
   UVar9 = UnityEngine_Transform__get_position(__this_00,(MethodInfo *)0x0);
-  if (DAT_056fde20 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_Math);
-    DAT_056fde20 = '\x01';
+  if (g_data_057a6845 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
+    g_data_057a6845 = '\x01';
   }
   auVar8._0_4_ = (float)uVar5 - UVar9.fields.x;
   auVar8._4_4_ = (float)((ulong)uVar5 >> 0x20) - UVar9.fields.y;
@@ -103,7 +99,7 @@ void Characters_CombatDashSpecial__Activate
   auVar8._12_4_ = extraout_XMM0_Dd - extraout_XMM0_Dd_00;
   in_XMM1_Da = in_XMM1_Da - UVar9.fields.z;
   if (*(int *)(TypeInfo_Math + 0xe4) == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
   uVar6 = 0;
   uVar7 = 0;
@@ -112,11 +108,11 @@ void Characters_CombatDashSpecial__Activate
     fVar4 = sqrtf(fVar4);
     uVar6 = extraout_XMM0_Dc_01;
     uVar7 = extraout_XMM0_Dd_01;
-    if (1e-05 < fVar4) goto LAB_03fe7cb9;
-LAB_03fe7c54:
-    if (DAT_056fdd15 == '\0') {
-      il2cpp_init_method_metadata(&TypeInfo_Vector3);
-      DAT_056fdd15 = '\x01';
+    if (1e-05 < fVar4) goto label_042f4579;
+label_042f4514:
+    if (g_data_057a65d5 == '\0') {
+      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
+      g_data_057a65d5 = '\x01';
     }
     uVar5 = **(undefined8 **)(TypeInfo_Vector3 + 0xb8);
     in_XMM1_Da = *(float *)(*(undefined8 **)(TypeInfo_Vector3 + 0xb8) + 1);
@@ -124,8 +120,8 @@ LAB_03fe7c54:
   }
   else {
     fVar4 = SQRT(fVar4);
-    if (fVar4 <= 1e-05) goto LAB_03fe7c54;
-LAB_03fe7cb9:
+    if (fVar4 <= 1e-05) goto label_042f4514;
+label_042f4579:
     in_XMM1_Da = in_XMM1_Da / fVar4;
     auVar3._4_4_ = fVar4;
     auVar3._0_4_ = fVar4;
@@ -135,28 +131,25 @@ LAB_03fe7cb9:
     uVar5 = auVar8._0_8_;
     pCVar1 = (__this->fields)._human;
   }
-  if (((pCVar1 != (Characters_Human_o *)0x0) &&
-      (lVar2 = *(long *)&(pCVar1->fields).Dead, lVar2 != 0)) &&
-     (__this_01 = *(UnityEngine_Rigidbody_o **)(lVar2 + 0x18),
-     __this_01 != (UnityEngine_Rigidbody_o *)0x0)) {
+  if (((pCVar1 != (Characters_Human_o *)0x0) && (lVar2 = *(long *)&(pCVar1->fields).Dead, lVar2 != 0)) &&
+     (__this_01 = *(UnityEngine_Rigidbody_o **)(lVar2 + 0x18), __this_01 != (UnityEngine_Rigidbody_o *)0x0)) {
     UVar9.fields.y = (float)((ulong)uVar5 >> 0x20) * 100.0;
     UVar9.fields.x = (float)uVar5 * 100.0;
     UVar9.fields.z = in_XMM1_Da * 100.0;
     UnityEngine_Rigidbody__set_velocity(__this_01,UVar9,(MethodInfo *)0x0);
     return;
   }
-LAB_03fe7d01:
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+label_042f45c1:
+  il2cpp_runtime_helper_022b2c90();
+  return;
 }
 
 
 // Characters.CombatDashSpecial$$Deactivate
 // il2cpp: void Characters_CombatDashSpecial__Deactivate (Characters_CombatDashSpecial_o* __this, const MethodInfo* method);
-// 0x3fe7d10
+// 0x42f45d0
 
-void Characters_CombatDashSpecial__Deactivate
-               (Characters_CombatDashSpecial_o *__this,MethodInfo *method)
+void Characters_CombatDashSpecial__Deactivate(Characters_CombatDashSpecial_o *__this,MethodInfo *method)
 
 {
   return;

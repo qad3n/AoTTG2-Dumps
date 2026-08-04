@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.MultiColumnTreeView
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -13,7 +20,7 @@ public class MultiColumnTreeView : BaseTreeView
 	public new class UxmlFactory : UxmlFactory<MultiColumnTreeView, UxmlTraits>
 	{
 		[Token(Token = "0x600064E")]
-		[Address(RVA = "0x4CC8160", Offset = "0x4CC8160", VA = "0x4CC8160")]
+		[Address(RVA = "0x4FEFA90", Offset = "0x4FEFA90", VA = "0x4FEFA90")]
 		public UxmlFactory()
 		{
 		}
@@ -35,13 +42,13 @@ public class MultiColumnTreeView : BaseTreeView
 		private readonly UxmlObjectAttributeDescription<SortColumnDescriptions> m_SortColumnDescriptions;
 
 		[Token(Token = "0x600064F")]
-		[Address(RVA = "0x4CC81A0", Offset = "0x4CC81A0", VA = "0x4CC81A0", Slot = "4")]
+		[Address(RVA = "0x4FEFAD0", Offset = "0x4FEFAD0", VA = "0x4FEFAD0", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x6000650")]
-		[Address(RVA = "0x4CC8360", Offset = "0x4CC8360", VA = "0x4CC8360")]
+		[Address(RVA = "0x4FEFC90", Offset = "0x4FEFC90", VA = "0x4FEFC90")]
 		public UxmlTraits()
 		{
 		}
@@ -79,7 +86,7 @@ public class MultiColumnTreeView : BaseTreeView
 	public new MultiColumnTreeViewController viewController
 	{
 		[Token(Token = "0x6000641")]
-		[Address(RVA = "0x4CC7340", Offset = "0x4CC7340", VA = "0x4CC7340")]
+		[Address(RVA = "0x4FEEC70", Offset = "0x4FEEC70", VA = "0x4FEEC70")]
 		get
 		{
 			return null;
@@ -90,13 +97,13 @@ public class MultiColumnTreeView : BaseTreeView
 	public Columns columns
 	{
 		[Token(Token = "0x6000642")]
-		[Address(RVA = "0x4CC73C0", Offset = "0x4CC73C0", VA = "0x4CC73C0")]
+		[Address(RVA = "0x4FEECF0", Offset = "0x4FEECF0", VA = "0x4FEECF0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000643")]
-		[Address(RVA = "0x4CC73D0", Offset = "0x4CC73D0", VA = "0x4CC73D0")]
+		[Address(RVA = "0x4FEED00", Offset = "0x4FEED00", VA = "0x4FEED00")]
 		private set
 		{
 		}
@@ -106,13 +113,13 @@ public class MultiColumnTreeView : BaseTreeView
 	public SortColumnDescriptions sortColumnDescriptions
 	{
 		[Token(Token = "0x6000644")]
-		[Address(RVA = "0x4CC74C0", Offset = "0x4CC74C0", VA = "0x4CC74C0")]
+		[Address(RVA = "0x4FEEDF0", Offset = "0x4FEEDF0", VA = "0x4FEEDF0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000645")]
-		[Address(RVA = "0x4CC74D0", Offset = "0x4CC74D0", VA = "0x4CC74D0")]
+		[Address(RVA = "0x4FEEE00", Offset = "0x4FEEE00", VA = "0x4FEEE00")]
 		private set
 		{
 		}
@@ -122,51 +129,51 @@ public class MultiColumnTreeView : BaseTreeView
 	public bool sortingEnabled
 	{
 		[Token(Token = "0x6000646")]
-		[Address(RVA = "0x4CC7620", Offset = "0x4CC7620", VA = "0x4CC7620")]
+		[Address(RVA = "0x4FEEF50", Offset = "0x4FEEF50", VA = "0x4FEEF50")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000647")]
-	[Address(RVA = "0x4CC7700", Offset = "0x4CC7700", VA = "0x4CC7700")]
+	[Address(RVA = "0x4FEF030", Offset = "0x4FEF030", VA = "0x4FEF030")]
 	public MultiColumnTreeView()
 	{
 	}
 
 	[Token(Token = "0x6000648")]
-	[Address(RVA = "0x4CC77C0", Offset = "0x4CC77C0", VA = "0x4CC77C0")]
+	[Address(RVA = "0x4FEF0F0", Offset = "0x4FEF0F0", VA = "0x4FEF0F0")]
 	public MultiColumnTreeView(Columns columns)
 	{
 	}
 
 	[Token(Token = "0x6000649")]
-	[Address(RVA = "0x4CC7A40", Offset = "0x4CC7A40", VA = "0x4CC7A40", Slot = "104")]
+	[Address(RVA = "0x4FEF370", Offset = "0x4FEF370", VA = "0x4FEF370", Slot = "104")]
 	protected override CollectionViewController CreateViewController()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600064A")]
-	[Address(RVA = "0x4CC7AD0", Offset = "0x4CC7AD0", VA = "0x4CC7AD0", Slot = "105")]
+	[Address(RVA = "0x4FEF400", Offset = "0x4FEF400", VA = "0x4FEF400", Slot = "105")]
 	public override void SetViewController(CollectionViewController controller)
 	{
 	}
 
 	[Token(Token = "0x600064B")]
-	[Address(RVA = "0x4CC8100", Offset = "0x4CC8100", VA = "0x4CC8100", Slot = "103")]
+	[Address(RVA = "0x4FEFA30", Offset = "0x4FEFA30", VA = "0x4FEFA30", Slot = "103")]
 	private protected override void CreateVirtualizationController()
 	{
 	}
 
 	[Token(Token = "0x600064C")]
-	[Address(RVA = "0x4CC7600", Offset = "0x4CC7600", VA = "0x4CC7600")]
+	[Address(RVA = "0x4FEEF30", Offset = "0x4FEEF30", VA = "0x4FEEF30")]
 	private void RaiseColumnSortingChanged()
 	{
 	}
 
 	[Token(Token = "0x600064D")]
-	[Address(RVA = "0x4CC8140", Offset = "0x4CC8140", VA = "0x4CC8140")]
+	[Address(RVA = "0x4FEFA70", Offset = "0x4FEFA70", VA = "0x4FEFA70")]
 	private void RaiseHeaderContextMenuPopulate(ContextualMenuPopulateEvent evt, Column column)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Bson.BsonEmpty
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -18,7 +25,7 @@ internal class BsonEmpty : BsonToken
 	public override BsonType Type
 	{
 		[Token(Token = "0x6001011")]
-		[Address(RVA = "0x3B64F40", Offset = "0x3B64F40", VA = "0x3B64F40", Slot = "4")]
+		[Address(RVA = "0x3E5A890", Offset = "0x3E5A890", VA = "0x3E5A890", Slot = "4")]
 		[CompilerGenerated]
 		get
 		{
@@ -27,7 +34,7 @@ internal class BsonEmpty : BsonToken
 	}
 
 	[Token(Token = "0x6001010")]
-	[Address(RVA = "0x3B64F20", Offset = "0x3B64F20", VA = "0x3B64F20")]
+	[Address(RVA = "0x3E5A870", Offset = "0x3E5A870", VA = "0x3E5A870")]
 	private BsonEmpty(BsonType type)
 	{
 	}

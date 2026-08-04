@@ -1,30 +1,37 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UI.QuestAchievementsPanel
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UI/QuestAchievementsPanel.c
+// Prior real C# source (older reference): Assets/Scripts/UI/MainMenu/QuestAchievementsPanel.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x200065C")]
+[Token(Token = "0x20006A8")]
 internal class QuestAchievementsPanel : QuestCategoryPanel
 {
-	[Token(Token = "0x17000C5E")]
+	[Token(Token = "0x17000CD8")]
 	protected override bool ScrollBar
 	{
-		[Token(Token = "0x6004013")]
-		[Address(RVA = "0x3FFAD10", Offset = "0x3FFAD10", VA = "0x3FFAD10", Slot = "15")]
+		[Token(Token = "0x6004270")]
+		[Address(RVA = "0x430F050", Offset = "0x430F050", VA = "0x430F050", Slot = "15")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6004014")]
-	[Address(RVA = "0x3FFAD20", Offset = "0x3FFAD20", VA = "0x3FFAD20", Slot = "20")]
+	[Token(Token = "0x6004271")]
+	[Address(RVA = "0x430F060", Offset = "0x430F060", VA = "0x430F060", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6004015")]
-	[Address(RVA = "0x3FFCE50", Offset = "0x3FFCE50", VA = "0x3FFCE50")]
+	[Token(Token = "0x6004272")]
+	[Address(RVA = "0x4311190", Offset = "0x4311190", VA = "0x4311190")]
 	public QuestAchievementsPanel()
 	{
 	}

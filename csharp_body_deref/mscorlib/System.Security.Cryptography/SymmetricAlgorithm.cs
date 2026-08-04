@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.SymmetricAlgorithm
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -47,13 +54,13 @@ public abstract class SymmetricAlgorithm : IDisposable
 	public virtual int BlockSize
 	{
 		[Token(Token = "0x6001AA7")]
-		[Address(RVA = "0x4E64850", Offset = "0x4E64850", VA = "0x4E64850", Slot = "6")]
+		[Address(RVA = "0x3B4A370", Offset = "0x3B4A370", VA = "0x3B4A370", Slot = "6")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6001AA8")]
-		[Address(RVA = "0x4E64860", Offset = "0x4E64860", VA = "0x4E64860", Slot = "7")]
+		[Address(RVA = "0x3B4A380", Offset = "0x3B4A380", VA = "0x3B4A380", Slot = "7")]
 		set
 		{
 		}
@@ -63,13 +70,13 @@ public abstract class SymmetricAlgorithm : IDisposable
 	public virtual int FeedbackSize
 	{
 		[Token(Token = "0x6001AA9")]
-		[Address(RVA = "0x4E64970", Offset = "0x4E64970", VA = "0x4E64970", Slot = "8")]
+		[Address(RVA = "0x3B4A490", Offset = "0x3B4A490", VA = "0x3B4A490", Slot = "8")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6001AAA")]
-		[Address(RVA = "0x4E64980", Offset = "0x4E64980", VA = "0x4E64980", Slot = "9")]
+		[Address(RVA = "0x3B4A4A0", Offset = "0x3B4A4A0", VA = "0x3B4A4A0", Slot = "9")]
 		set
 		{
 		}
@@ -79,13 +86,13 @@ public abstract class SymmetricAlgorithm : IDisposable
 	public virtual byte[] IV
 	{
 		[Token(Token = "0x6001AAB")]
-		[Address(RVA = "0x4E64A00", Offset = "0x4E64A00", VA = "0x4E64A00", Slot = "10")]
+		[Address(RVA = "0x3B4A520", Offset = "0x3B4A520", VA = "0x3B4A520", Slot = "10")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001AAC")]
-		[Address(RVA = "0x4E64AA0", Offset = "0x4E64AA0", VA = "0x4E64AA0", Slot = "11")]
+		[Address(RVA = "0x3B4A5C0", Offset = "0x3B4A5C0", VA = "0x3B4A5C0", Slot = "11")]
 		set
 		{
 		}
@@ -95,13 +102,13 @@ public abstract class SymmetricAlgorithm : IDisposable
 	public virtual byte[] Key
 	{
 		[Token(Token = "0x6001AAD")]
-		[Address(RVA = "0x4E64BF0", Offset = "0x4E64BF0", VA = "0x4E64BF0", Slot = "12")]
+		[Address(RVA = "0x3B4A710", Offset = "0x3B4A710", VA = "0x3B4A710", Slot = "12")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001AAE")]
-		[Address(RVA = "0x4E64C90", Offset = "0x4E64C90", VA = "0x4E64C90", Slot = "13")]
+		[Address(RVA = "0x3B4A7B0", Offset = "0x3B4A7B0", VA = "0x3B4A7B0", Slot = "13")]
 		set
 		{
 		}
@@ -111,7 +118,7 @@ public abstract class SymmetricAlgorithm : IDisposable
 	public virtual KeySizes[] LegalBlockSizes
 	{
 		[Token(Token = "0x6001AAF")]
-		[Address(RVA = "0x4E64EF0", Offset = "0x4E64EF0", VA = "0x4E64EF0", Slot = "14")]
+		[Address(RVA = "0x3B4AA10", Offset = "0x3B4AA10", VA = "0x3B4AA10", Slot = "14")]
 		get
 		{
 			return null;
@@ -122,7 +129,7 @@ public abstract class SymmetricAlgorithm : IDisposable
 	public virtual KeySizes[] LegalKeySizes
 	{
 		[Token(Token = "0x6001AB0")]
-		[Address(RVA = "0x4E64F70", Offset = "0x4E64F70", VA = "0x4E64F70", Slot = "15")]
+		[Address(RVA = "0x3B4AA90", Offset = "0x3B4AA90", VA = "0x3B4AA90", Slot = "15")]
 		get
 		{
 			return null;
@@ -133,13 +140,13 @@ public abstract class SymmetricAlgorithm : IDisposable
 	public virtual int KeySize
 	{
 		[Token(Token = "0x6001AB1")]
-		[Address(RVA = "0x4E64FF0", Offset = "0x4E64FF0", VA = "0x4E64FF0", Slot = "16")]
+		[Address(RVA = "0x3B4AB10", Offset = "0x3B4AB10", VA = "0x3B4AB10", Slot = "16")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6001AB2")]
-		[Address(RVA = "0x4E65000", Offset = "0x4E65000", VA = "0x4E65000", Slot = "17")]
+		[Address(RVA = "0x3B4AB20", Offset = "0x3B4AB20", VA = "0x3B4AB20", Slot = "17")]
 		set
 		{
 		}
@@ -149,13 +156,13 @@ public abstract class SymmetricAlgorithm : IDisposable
 	public virtual CipherMode Mode
 	{
 		[Token(Token = "0x6001AB3")]
-		[Address(RVA = "0x4E65100", Offset = "0x4E65100", VA = "0x4E65100", Slot = "18")]
+		[Address(RVA = "0x3B4AC20", Offset = "0x3B4AC20", VA = "0x3B4AC20", Slot = "18")]
 		get
 		{
 			return default(CipherMode);
 		}
 		[Token(Token = "0x6001AB4")]
-		[Address(RVA = "0x4E65110", Offset = "0x4E65110", VA = "0x4E65110", Slot = "19")]
+		[Address(RVA = "0x3B4AC30", Offset = "0x3B4AC30", VA = "0x3B4AC30", Slot = "19")]
 		set
 		{
 		}
@@ -165,65 +172,65 @@ public abstract class SymmetricAlgorithm : IDisposable
 	public virtual PaddingMode Padding
 	{
 		[Token(Token = "0x6001AB5")]
-		[Address(RVA = "0x4E65180", Offset = "0x4E65180", VA = "0x4E65180", Slot = "20")]
+		[Address(RVA = "0x3B4ACA0", Offset = "0x3B4ACA0", VA = "0x3B4ACA0", Slot = "20")]
 		get
 		{
 			return default(PaddingMode);
 		}
 		[Token(Token = "0x6001AB6")]
-		[Address(RVA = "0x4E65190", Offset = "0x4E65190", VA = "0x4E65190", Slot = "21")]
+		[Address(RVA = "0x3B4ACB0", Offset = "0x3B4ACB0", VA = "0x3B4ACB0", Slot = "21")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001AA3")]
-	[Address(RVA = "0x4E646C0", Offset = "0x4E646C0", VA = "0x4E646C0")]
+	[Address(RVA = "0x3B4A1E0", Offset = "0x3B4A1E0", VA = "0x3B4A1E0")]
 	protected SymmetricAlgorithm()
 	{
 	}
 
 	[Token(Token = "0x6001AA4")]
-	[Address(RVA = "0x4E646E0", Offset = "0x4E646E0", VA = "0x4E646E0", Slot = "4")]
+	[Address(RVA = "0x3B4A200", Offset = "0x3B4A200", VA = "0x3B4A200", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6001AA5")]
-	[Address(RVA = "0x4E64750", Offset = "0x4E64750", VA = "0x4E64750")]
+	[Address(RVA = "0x3B4A270", Offset = "0x3B4A270", VA = "0x3B4A270")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x6001AA6")]
-	[Address(RVA = "0x4E647E0", Offset = "0x4E647E0", VA = "0x4E647E0", Slot = "5")]
+	[Address(RVA = "0x3B4A300", Offset = "0x3B4A300", VA = "0x3B4A300", Slot = "5")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6001AB7")]
-	[Address(RVA = "0x4E64E70", Offset = "0x4E64E70", VA = "0x4E64E70")]
+	[Address(RVA = "0x3B4A990", Offset = "0x3B4A990", VA = "0x3B4A990")]
 	public bool ValidKeySize(int bitLength)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001AB8")]
-	[Address(RVA = "0x4E65200", Offset = "0x4E65200", VA = "0x4E65200")]
+	[Address(RVA = "0x3B4AD20", Offset = "0x3B4AD20", VA = "0x3B4AD20")]
 	public static SymmetricAlgorithm Create()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001AB9")]
-	[Address(RVA = "0x4E65240", Offset = "0x4E65240", VA = "0x4E65240")]
+	[Address(RVA = "0x3B4AD60", Offset = "0x3B4AD60", VA = "0x3B4AD60")]
 	public static SymmetricAlgorithm Create(string algName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001ABA")]
-	[Address(RVA = "0x4E65350", Offset = "0x4E65350", VA = "0x4E65350", Slot = "22")]
+	[Address(RVA = "0x3B4AE70", Offset = "0x3B4AE70", VA = "0x3B4AE70", Slot = "22")]
 	public virtual ICryptoTransform CreateEncryptor()
 	{
 		return null;
@@ -233,7 +240,7 @@ public abstract class SymmetricAlgorithm : IDisposable
 	public abstract ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV);
 
 	[Token(Token = "0x6001ABC")]
-	[Address(RVA = "0x4E653B0", Offset = "0x4E653B0", VA = "0x4E653B0", Slot = "24")]
+	[Address(RVA = "0x3B4AED0", Offset = "0x3B4AED0", VA = "0x3B4AED0", Slot = "24")]
 	public virtual ICryptoTransform CreateDecryptor()
 	{
 		return null;

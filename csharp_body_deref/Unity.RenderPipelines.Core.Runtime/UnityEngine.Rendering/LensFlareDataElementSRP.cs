@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.LensFlareDataElementSRP
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Serialization;
@@ -194,13 +201,13 @@ public sealed class LensFlareDataElementSRP
 	public float localIntensity
 	{
 		[Token(Token = "0x6000AAE")]
-		[Address(RVA = "0x48B98C0", Offset = "0x48B98C0", VA = "0x48B98C0")]
+		[Address(RVA = "0x4BDE960", Offset = "0x4BDE960", VA = "0x4BDE960")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000AAF")]
-		[Address(RVA = "0x48B9810", Offset = "0x48B9810", VA = "0x48B9810")]
+		[Address(RVA = "0x4BDE8B0", Offset = "0x4BDE8B0", VA = "0x4BDE8B0")]
 		set
 		{
 		}
@@ -210,13 +217,13 @@ public sealed class LensFlareDataElementSRP
 	public int count
 	{
 		[Token(Token = "0x6000AB0")]
-		[Address(RVA = "0x48B98D0", Offset = "0x48B98D0", VA = "0x48B98D0")]
+		[Address(RVA = "0x4BDE970", Offset = "0x4BDE970", VA = "0x4BDE970")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000AB1")]
-		[Address(RVA = "0x48B9820", Offset = "0x48B9820", VA = "0x48B9820")]
+		[Address(RVA = "0x4BDE8C0", Offset = "0x4BDE8C0", VA = "0x4BDE8C0")]
 		set
 		{
 		}
@@ -226,13 +233,13 @@ public sealed class LensFlareDataElementSRP
 	public float intensityVariation
 	{
 		[Token(Token = "0x6000AB2")]
-		[Address(RVA = "0x48B98E0", Offset = "0x48B98E0", VA = "0x48B98E0")]
+		[Address(RVA = "0x4BDE980", Offset = "0x4BDE980", VA = "0x4BDE980")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000AB3")]
-		[Address(RVA = "0x48B9830", Offset = "0x48B9830", VA = "0x48B9830")]
+		[Address(RVA = "0x4BDE8D0", Offset = "0x4BDE8D0", VA = "0x4BDE8D0")]
 		set
 		{
 		}
@@ -242,13 +249,13 @@ public sealed class LensFlareDataElementSRP
 	public float fallOff
 	{
 		[Token(Token = "0x6000AB4")]
-		[Address(RVA = "0x48B98F0", Offset = "0x48B98F0", VA = "0x48B98F0")]
+		[Address(RVA = "0x4BDE990", Offset = "0x4BDE990", VA = "0x4BDE990")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000AB5")]
-		[Address(RVA = "0x48B9840", Offset = "0x48B9840", VA = "0x48B9840")]
+		[Address(RVA = "0x4BDE8E0", Offset = "0x4BDE8E0", VA = "0x4BDE8E0")]
 		set
 		{
 		}
@@ -258,13 +265,13 @@ public sealed class LensFlareDataElementSRP
 	public float edgeOffset
 	{
 		[Token(Token = "0x6000AB6")]
-		[Address(RVA = "0x48B9900", Offset = "0x48B9900", VA = "0x48B9900")]
+		[Address(RVA = "0x4BDE9A0", Offset = "0x4BDE9A0", VA = "0x4BDE9A0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000AB7")]
-		[Address(RVA = "0x48B9860", Offset = "0x48B9860", VA = "0x48B9860")]
+		[Address(RVA = "0x4BDE900", Offset = "0x4BDE900", VA = "0x4BDE900")]
 		set
 		{
 		}
@@ -274,13 +281,13 @@ public sealed class LensFlareDataElementSRP
 	public int sideCount
 	{
 		[Token(Token = "0x6000AB8")]
-		[Address(RVA = "0x48B9910", Offset = "0x48B9910", VA = "0x48B9910")]
+		[Address(RVA = "0x4BDE9B0", Offset = "0x4BDE9B0", VA = "0x4BDE9B0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000AB9")]
-		[Address(RVA = "0x48B98A0", Offset = "0x48B98A0", VA = "0x48B98A0")]
+		[Address(RVA = "0x4BDE940", Offset = "0x4BDE940", VA = "0x4BDE940")]
 		set
 		{
 		}
@@ -290,20 +297,20 @@ public sealed class LensFlareDataElementSRP
 	public float sdfRoundness
 	{
 		[Token(Token = "0x6000ABA")]
-		[Address(RVA = "0x48B9920", Offset = "0x48B9920", VA = "0x48B9920")]
+		[Address(RVA = "0x4BDE9C0", Offset = "0x4BDE9C0", VA = "0x4BDE9C0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000ABB")]
-		[Address(RVA = "0x48B9880", Offset = "0x48B9880", VA = "0x48B9880")]
+		[Address(RVA = "0x4BDE920", Offset = "0x4BDE920", VA = "0x4BDE920")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000AAD")]
-	[Address(RVA = "0x48B9020", Offset = "0x48B9020", VA = "0x48B9020")]
+	[Address(RVA = "0x4BDE0C0", Offset = "0x4BDE0C0", VA = "0x4BDE0C0")]
 	public LensFlareDataElementSRP()
 	{
 	}

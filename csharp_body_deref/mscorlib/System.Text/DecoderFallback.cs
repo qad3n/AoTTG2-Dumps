@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.DecoderFallback
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Text;
@@ -18,7 +25,7 @@ public abstract class DecoderFallback
 	public static DecoderFallback ReplacementFallback
 	{
 		[Token(Token = "0x600154C")]
-		[Address(RVA = "0x5068B00", Offset = "0x5068B00", VA = "0x5068B00")]
+		[Address(RVA = "0x3D4E620", Offset = "0x3D4E620", VA = "0x3D4E620")]
 		get
 		{
 			return null;
@@ -29,7 +36,7 @@ public abstract class DecoderFallback
 	public static DecoderFallback ExceptionFallback
 	{
 		[Token(Token = "0x600154D")]
-		[Address(RVA = "0x506C6E0", Offset = "0x506C6E0", VA = "0x506C6E0")]
+		[Address(RVA = "0x3D52200", Offset = "0x3D52200", VA = "0x3D52200")]
 		get
 		{
 			return null;
@@ -47,7 +54,7 @@ public abstract class DecoderFallback
 	public abstract DecoderFallbackBuffer CreateFallbackBuffer();
 
 	[Token(Token = "0x6001550")]
-	[Address(RVA = "0x506BD90", Offset = "0x506BD90", VA = "0x506BD90")]
+	[Address(RVA = "0x3D518B0", Offset = "0x3D518B0", VA = "0x3D518B0")]
 	protected DecoderFallback()
 	{
 	}

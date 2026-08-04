@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.SubpixelMorphologicalAntialiasing
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
@@ -37,20 +44,20 @@ public sealed class SubpixelMorphologicalAntialiasing
 	public Quality quality;
 
 	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x4820E60", Offset = "0x4820E60", VA = "0x4820E60")]
+	[Address(RVA = "0x4B45F50", Offset = "0x4B45F50", VA = "0x4B45F50")]
 	public bool IsSupported()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000089")]
-	[Address(RVA = "0x4820EA0", Offset = "0x4820EA0", VA = "0x4820EA0")]
+	[Address(RVA = "0x4B45F90", Offset = "0x4B45F90", VA = "0x4B45F90")]
 	internal void Render(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x600008A")]
-	[Address(RVA = "0x4821440", Offset = "0x4821440", VA = "0x4821440")]
+	[Address(RVA = "0x4B46530", Offset = "0x4B46530", VA = "0x4B46530")]
 	public SubpixelMorphologicalAntialiasing()
 	{
 	}

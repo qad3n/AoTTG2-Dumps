@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.SelectorActiveAxis
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -22,7 +29,7 @@ internal class SelectorActiveAxis : ActiveAxis
 	public int lastDepth
 	{
 		[Token(Token = "0x6000FA2")]
-		[Address(RVA = "0x45061D0", Offset = "0x45061D0", VA = "0x45061D0")]
+		[Address(RVA = "0x4843930", Offset = "0x4843930", VA = "0x4843930")]
 		get
 		{
 			return default(int);
@@ -30,27 +37,27 @@ internal class SelectorActiveAxis : ActiveAxis
 	}
 
 	[Token(Token = "0x6000FA3")]
-	[Address(RVA = "0x45060F0", Offset = "0x45060F0", VA = "0x45060F0")]
+	[Address(RVA = "0x4843850", Offset = "0x4843850", VA = "0x4843850")]
 	public SelectorActiveAxis(Asttree axisTree, ConstraintStruct cs)
 	{
 	}
 
 	[Token(Token = "0x6000FA4")]
-	[Address(RVA = "0x4506260", Offset = "0x4506260", VA = "0x4506260", Slot = "4")]
+	[Address(RVA = "0x48439C0", Offset = "0x48439C0", VA = "0x48439C0", Slot = "4")]
 	public override bool EndElement(string localname, string URN)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FA5")]
-	[Address(RVA = "0x4506290", Offset = "0x4506290", VA = "0x4506290")]
+	[Address(RVA = "0x48439F0", Offset = "0x48439F0", VA = "0x48439F0")]
 	public int PushKS(int errline, int errcol)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000FA6")]
-	[Address(RVA = "0x4506780", Offset = "0x4506780", VA = "0x4506780")]
+	[Address(RVA = "0x4843EE0", Offset = "0x4843EE0", VA = "0x4843EE0")]
 	public KeySequence PopKS()
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Bounds
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -31,14 +38,14 @@ public struct Bounds : IEquatable<Bounds>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x600025D")]
-		[Address(RVA = "0x4A941D0", Offset = "0x4A941D0", VA = "0x4A941D0")]
+		[Address(RVA = "0x4DBB9F0", Offset = "0x4DBB9F0", VA = "0x4DBB9F0")]
 		get
 		{
 			return default(Vector3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x600025E")]
-		[Address(RVA = "0x4A941E0", Offset = "0x4A941E0", VA = "0x4A941E0")]
+		[Address(RVA = "0x4DBBA00", Offset = "0x4DBBA00", VA = "0x4DBBA00")]
 		set
 		{
 		}
@@ -49,14 +56,14 @@ public struct Bounds : IEquatable<Bounds>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x600025F")]
-		[Address(RVA = "0x4A941F0", Offset = "0x4A941F0", VA = "0x4A941F0")]
+		[Address(RVA = "0x4DBBA10", Offset = "0x4DBBA10", VA = "0x4DBBA10")]
 		get
 		{
 			return default(Vector3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000260")]
-		[Address(RVA = "0x4A94210", Offset = "0x4A94210", VA = "0x4A94210")]
+		[Address(RVA = "0x4DBBA30", Offset = "0x4DBBA30", VA = "0x4DBBA30")]
 		set
 		{
 		}
@@ -67,14 +74,14 @@ public struct Bounds : IEquatable<Bounds>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000261")]
-		[Address(RVA = "0x4A94230", Offset = "0x4A94230", VA = "0x4A94230")]
+		[Address(RVA = "0x4DBBA50", Offset = "0x4DBBA50", VA = "0x4DBBA50")]
 		get
 		{
 			return default(Vector3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000262")]
-		[Address(RVA = "0x4A94240", Offset = "0x4A94240", VA = "0x4A94240")]
+		[Address(RVA = "0x4DBBA60", Offset = "0x4DBBA60", VA = "0x4DBBA60")]
 		set
 		{
 		}
@@ -85,14 +92,14 @@ public struct Bounds : IEquatable<Bounds>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000263")]
-		[Address(RVA = "0x4A94250", Offset = "0x4A94250", VA = "0x4A94250")]
+		[Address(RVA = "0x4DBBA70", Offset = "0x4DBBA70", VA = "0x4DBBA70")]
 		get
 		{
 			return default(Vector3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000264")]
-		[Address(RVA = "0x4A94270", Offset = "0x4A94270", VA = "0x4A94270")]
+		[Address(RVA = "0x4DBBA90", Offset = "0x4DBBA90", VA = "0x4DBBA90")]
 		set
 		{
 		}
@@ -103,14 +110,14 @@ public struct Bounds : IEquatable<Bounds>, IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000265")]
-		[Address(RVA = "0x4A942C0", Offset = "0x4A942C0", VA = "0x4A942C0")]
+		[Address(RVA = "0x4DBBAE0", Offset = "0x4DBBAE0", VA = "0x4DBBAE0")]
 		get
 		{
 			return default(Vector3);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000266")]
-		[Address(RVA = "0x4A942E0", Offset = "0x4A942E0", VA = "0x4A942E0")]
+		[Address(RVA = "0x4DBBB00", Offset = "0x4DBBB00", VA = "0x4DBBB00")]
 		set
 		{
 		}
@@ -118,14 +125,14 @@ public struct Bounds : IEquatable<Bounds>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000259")]
-	[Address(RVA = "0x4A93FB0", Offset = "0x4A93FB0", VA = "0x4A93FB0")]
+	[Address(RVA = "0x4DBB7D0", Offset = "0x4DBB7D0", VA = "0x4DBB7D0")]
 	public Bounds(Vector3 center, Vector3 size)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600025A")]
-	[Address(RVA = "0x4A93FE0", Offset = "0x4A93FE0", VA = "0x4A93FE0", Slot = "2")]
+	[Address(RVA = "0x4DBB800", Offset = "0x4DBB800", VA = "0x4DBB800", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
@@ -133,7 +140,7 @@ public struct Bounds : IEquatable<Bounds>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600025B")]
-	[Address(RVA = "0x4A940A0", Offset = "0x4A940A0", VA = "0x4A940A0", Slot = "0")]
+	[Address(RVA = "0x4DBB8C0", Offset = "0x4DBB8C0", VA = "0x4DBB8C0", Slot = "0")]
 	public override bool Equals(object other)
 	{
 		return default(bool);
@@ -141,7 +148,7 @@ public struct Bounds : IEquatable<Bounds>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600025C")]
-	[Address(RVA = "0x4A94160", Offset = "0x4A94160", VA = "0x4A94160", Slot = "4")]
+	[Address(RVA = "0x4DBB980", Offset = "0x4DBB980", VA = "0x4DBB980", Slot = "4")]
 	public bool Equals(Bounds other)
 	{
 		return default(bool);
@@ -149,7 +156,7 @@ public struct Bounds : IEquatable<Bounds>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000267")]
-	[Address(RVA = "0x4A94330", Offset = "0x4A94330", VA = "0x4A94330")]
+	[Address(RVA = "0x4DBBB50", Offset = "0x4DBBB50", VA = "0x4DBBB50")]
 	public static bool operator ==(Bounds lhs, Bounds rhs)
 	{
 		return default(bool);
@@ -157,7 +164,7 @@ public struct Bounds : IEquatable<Bounds>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000268")]
-	[Address(RVA = "0x4A943E0", Offset = "0x4A943E0", VA = "0x4A943E0")]
+	[Address(RVA = "0x4DBBC00", Offset = "0x4DBBC00", VA = "0x4DBBC00")]
 	public static bool operator !=(Bounds lhs, Bounds rhs)
 	{
 		return default(bool);
@@ -165,34 +172,34 @@ public struct Bounds : IEquatable<Bounds>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000269")]
-	[Address(RVA = "0x4A94490", Offset = "0x4A94490", VA = "0x4A94490")]
+	[Address(RVA = "0x4DBBCB0", Offset = "0x4DBBCB0", VA = "0x4DBBCB0")]
 	public void SetMinMax(Vector3 min, Vector3 max)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600026A")]
-	[Address(RVA = "0x4A944C0", Offset = "0x4A944C0", VA = "0x4A944C0")]
+	[Address(RVA = "0x4DBBCE0", Offset = "0x4DBBCE0", VA = "0x4DBBCE0")]
 	public void Encapsulate(Vector3 point)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600026B")]
-	[Address(RVA = "0x4A94530", Offset = "0x4A94530", VA = "0x4A94530")]
+	[Address(RVA = "0x4DBBD50", Offset = "0x4DBBD50", VA = "0x4DBBD50")]
 	public void Encapsulate(Bounds bounds)
 	{
 	}
 
 	[Token(Token = "0x600026C")]
-	[Address(RVA = "0x4A94620", Offset = "0x4A94620", VA = "0x4A94620")]
+	[Address(RVA = "0x4DBBE40", Offset = "0x4DBBE40", VA = "0x4DBBE40")]
 	public void Expand(float amount)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600026D")]
-	[Address(RVA = "0x4A94650", Offset = "0x4A94650", VA = "0x4A94650")]
+	[Address(RVA = "0x4DBBE70", Offset = "0x4DBBE70", VA = "0x4DBBE70")]
 	public bool Intersects(Bounds bounds)
 	{
 		return default(bool);
@@ -200,7 +207,7 @@ public struct Bounds : IEquatable<Bounds>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600026E")]
-	[Address(RVA = "0x4A94710", Offset = "0x4A94710", VA = "0x4A94710", Slot = "3")]
+	[Address(RVA = "0x4DBBF30", Offset = "0x4DBBF30", VA = "0x4DBBF30", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
@@ -208,14 +215,14 @@ public struct Bounds : IEquatable<Bounds>, IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600026F")]
-	[Address(RVA = "0x4A94720", Offset = "0x4A94720", VA = "0x4A94720", Slot = "5")]
+	[Address(RVA = "0x4DBBF40", Offset = "0x4DBBF40", VA = "0x4DBBF40", Slot = "5")]
 	public string ToString(string format, IFormatProvider formatProvider)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000270")]
-	[Address(RVA = "0x4A948C0", Offset = "0x4A948C0", VA = "0x4A948C0")]
+	[Address(RVA = "0x4DBC0E0", Offset = "0x4DBC0E0", VA = "0x4DBC0E0")]
 	[UnityEngine.Bindings.NativeMethod("IsInside", IsThreadSafe = true)]
 	public bool Contains(Vector3 point)
 	{
@@ -224,6 +231,6 @@ public struct Bounds : IEquatable<Bounds>, IFormattable
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000271")]
-	[Address(RVA = "0x4A94910", Offset = "0x4A94910", VA = "0x4A94910")]
+	[Address(RVA = "0x4DBC130", Offset = "0x4DBC130", VA = "0x4DBC130")]
 	private static extern bool Contains_Injected(ref Bounds _unity_self, [In] ref Vector3 point);
 }

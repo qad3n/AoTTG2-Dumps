@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.ProbeTouchupVolume
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -112,25 +119,25 @@ public class ProbeTouchupVolume : MonoBehaviour, ISerializationCallbackReceiver
 	public bool overrideDilationThreshold;
 
 	[Token(Token = "0x6000A12")]
-	[Address(RVA = "0x48A7E40", Offset = "0x48A7E40", VA = "0x48A7E40")]
+	[Address(RVA = "0x4BCCEF0", Offset = "0x4BCCEF0", VA = "0x4BCCEF0")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000A13")]
-	[Address(RVA = "0x48A7E70", Offset = "0x48A7E70", VA = "0x48A7E70", Slot = "4")]
+	[Address(RVA = "0x4BCCF20", Offset = "0x4BCCF20", VA = "0x4BCCF20", Slot = "4")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnBeforeSerialize()
 	{
 	}
 
 	[Token(Token = "0x6000A14")]
-	[Address(RVA = "0x48A7E80", Offset = "0x48A7E80", VA = "0x48A7E80", Slot = "5")]
+	[Address(RVA = "0x4BCCF30", Offset = "0x4BCCF30", VA = "0x4BCCF30", Slot = "5")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnAfterDeserialize()
 	{
 	}
 
 	[Token(Token = "0x6000A15")]
-	[Address(RVA = "0x48A7E90", Offset = "0x48A7E90", VA = "0x48A7E90")]
+	[Address(RVA = "0x4BCCF40", Offset = "0x4BCCF40", VA = "0x4BCCF40")]
 	public ProbeTouchupVolume()
 	{
 	}

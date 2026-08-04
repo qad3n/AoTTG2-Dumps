@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.Formatters.Binary.BinaryMethodCall
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
@@ -34,19 +41,19 @@ internal sealed class BinaryMethodCall
 	private System.Runtime.Serialization.Formatters.Binary.MessageEnum messageEnum;
 
 	[Token(Token = "0x600204E")]
-	[Address(RVA = "0x4EBD8C0", Offset = "0x4EBD8C0", VA = "0x4EBD8C0")]
+	[Address(RVA = "0x3BA33E0", Offset = "0x3BA33E0", VA = "0x3BA33E0")]
 	internal void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
 	{
 	}
 
 	[Token(Token = "0x600204F")]
-	[Address(RVA = "0x4EBDB70", Offset = "0x4EBDB70", VA = "0x4EBDB70")]
+	[Address(RVA = "0x3BA3690", Offset = "0x3BA3690", VA = "0x3BA3690")]
 	internal void Dump()
 	{
 	}
 
 	[Token(Token = "0x6002050")]
-	[Address(RVA = "0x4EBDB80", Offset = "0x4EBDB80", VA = "0x4EBDB80")]
+	[Address(RVA = "0x3BA36A0", Offset = "0x3BA36A0", VA = "0x3BA36A0")]
 	public BinaryMethodCall()
 	{
 	}

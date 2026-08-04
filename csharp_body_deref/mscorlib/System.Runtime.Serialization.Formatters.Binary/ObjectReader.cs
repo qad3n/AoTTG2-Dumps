@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.Formatters.Binary.ObjectReader
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.IO;
 using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -21,7 +28,7 @@ internal sealed class ObjectReader
 		public string assemblyName;
 
 		[Token(Token = "0x6002131")]
-		[Address(RVA = "0x4ECBBC0", Offset = "0x4ECBBC0", VA = "0x4ECBBC0")]
+		[Address(RVA = "0x3BB16E0", Offset = "0x3BB16E0", VA = "0x3BB16E0")]
 		public TypeNAssembly()
 		{
 		}
@@ -35,13 +42,13 @@ internal sealed class ObjectReader
 		private Assembly m_topLevelAssembly;
 
 		[Token(Token = "0x6002132")]
-		[Address(RVA = "0x4ECBBD0", Offset = "0x4ECBBD0", VA = "0x4ECBBD0")]
+		[Address(RVA = "0x3BB16F0", Offset = "0x3BB16F0", VA = "0x3BB16F0")]
 		public TopLevelAssemblyTypeResolver(Assembly topLevelAssembly)
 		{
 		}
 
 		[Token(Token = "0x6002133")]
-		[Address(RVA = "0x4ECBC00", Offset = "0x4ECBC00", VA = "0x4ECBC00")]
+		[Address(RVA = "0x3BB1720", Offset = "0x3BB1720", VA = "0x3BB1720")]
 		public Type ResolveType(Assembly assembly, string simpleTypeName, bool ignoreCase)
 		{
 			return null;
@@ -148,7 +155,7 @@ internal sealed class ObjectReader
 	private System.Runtime.Serialization.Formatters.Binary.SerStack ValueFixupStack
 	{
 		[Token(Token = "0x6002110")]
-		[Address(RVA = "0x4EC8370", Offset = "0x4EC8370", VA = "0x4EC8370")]
+		[Address(RVA = "0x3BADE90", Offset = "0x3BADE90", VA = "0x3BADE90")]
 		get
 		{
 			return null;
@@ -159,177 +166,177 @@ internal sealed class ObjectReader
 	internal object TopObject
 	{
 		[Token(Token = "0x6002111")]
-		[Address(RVA = "0x4EC8410", Offset = "0x4EC8410", VA = "0x4EC8410")]
+		[Address(RVA = "0x3BADF30", Offset = "0x3BADF30", VA = "0x3BADF30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6002112")]
-		[Address(RVA = "0x4EC8420", Offset = "0x4EC8420", VA = "0x4EC8420")]
+		[Address(RVA = "0x3BADF40", Offset = "0x3BADF40", VA = "0x3BADF40")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6002113")]
-	[Address(RVA = "0x4EC2920", Offset = "0x4EC2920", VA = "0x4EC2920")]
+	[Address(RVA = "0x3BA8440", Offset = "0x3BA8440", VA = "0x3BA8440")]
 	internal ObjectReader(Stream stream, ISurrogateSelector selector, StreamingContext context, System.Runtime.Serialization.Formatters.Binary.InternalFE formatterEnums, SerializationBinder binder)
 	{
 	}
 
 	[Token(Token = "0x6002114")]
-	[Address(RVA = "0x4EC2A80", Offset = "0x4EC2A80", VA = "0x4EC2A80")]
+	[Address(RVA = "0x3BA85A0", Offset = "0x3BA85A0", VA = "0x3BA85A0")]
 	internal object Deserialize(HeaderHandler handler, System.Runtime.Serialization.Formatters.Binary.__BinaryParser serParser, bool fCheck)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002115")]
-	[Address(RVA = "0x4EC8460", Offset = "0x4EC8460", VA = "0x4EC8460")]
+	[Address(RVA = "0x3BADF80", Offset = "0x3BADF80", VA = "0x3BADF80")]
 	private bool HasSurrogate(Type t)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002116")]
-	[Address(RVA = "0x4EC8540", Offset = "0x4EC8540", VA = "0x4EC8540")]
+	[Address(RVA = "0x3BAE060", Offset = "0x3BAE060", VA = "0x3BAE060")]
 	private void CheckSerializable(Type t)
 	{
 	}
 
 	[Token(Token = "0x6002117")]
-	[Address(RVA = "0x4EC8730", Offset = "0x4EC8730", VA = "0x4EC8730")]
+	[Address(RVA = "0x3BAE250", Offset = "0x3BAE250", VA = "0x3BAE250")]
 	private void InitFullDeserialization()
 	{
 	}
 
 	[Token(Token = "0x6002118")]
-	[Address(RVA = "0x4EC88B0", Offset = "0x4EC88B0", VA = "0x4EC88B0")]
+	[Address(RVA = "0x3BAE3D0", Offset = "0x3BAE3D0", VA = "0x3BAE3D0")]
 	internal object CrossAppDomainArray(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002119")]
-	[Address(RVA = "0x4EBF7C0", Offset = "0x4EBF7C0", VA = "0x4EBF7C0")]
+	[Address(RVA = "0x3BA52E0", Offset = "0x3BA52E0", VA = "0x3BA52E0")]
 	internal System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo CreateReadObjectInfo(Type objectType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600211A")]
-	[Address(RVA = "0x4EC01B0", Offset = "0x4EC01B0", VA = "0x4EC01B0")]
+	[Address(RVA = "0x3BA5CD0", Offset = "0x3BA5CD0", VA = "0x3BA5CD0")]
 	internal System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo CreateReadObjectInfo(Type objectType, string[] memberNames, Type[] memberTypes)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600211B")]
-	[Address(RVA = "0x4EC88E0", Offset = "0x4EC88E0", VA = "0x4EC88E0")]
+	[Address(RVA = "0x3BAE400", Offset = "0x3BAE400", VA = "0x3BAE400")]
 	internal void Parse(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
 	{
 	}
 
 	[Token(Token = "0x600211C")]
-	[Address(RVA = "0x4EC9AC0", Offset = "0x4EC9AC0", VA = "0x4EC9AC0")]
+	[Address(RVA = "0x3BAF5E0", Offset = "0x3BAF5E0", VA = "0x3BAF5E0")]
 	private void ParseError(System.Runtime.Serialization.Formatters.Binary.ParseRecord processing, System.Runtime.Serialization.Formatters.Binary.ParseRecord onStack)
 	{
 	}
 
 	[Token(Token = "0x600211D")]
-	[Address(RVA = "0x4EC8A40", Offset = "0x4EC8A40", VA = "0x4EC8A40")]
+	[Address(RVA = "0x3BAE560", Offset = "0x3BAE560", VA = "0x3BAE560")]
 	private void ParseSerializedStreamHeader(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
 	{
 	}
 
 	[Token(Token = "0x600211E")]
-	[Address(RVA = "0x4EC8A60", Offset = "0x4EC8A60", VA = "0x4EC8A60")]
+	[Address(RVA = "0x3BAE580", Offset = "0x3BAE580", VA = "0x3BAE580")]
 	private void ParseSerializedStreamHeaderEnd(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
 	{
 	}
 
 	[Token(Token = "0x600211F")]
-	[Address(RVA = "0x4EC8A80", Offset = "0x4EC8A80", VA = "0x4EC8A80")]
+	[Address(RVA = "0x3BAE5A0", Offset = "0x3BAE5A0", VA = "0x3BAE5A0")]
 	private void ParseObject(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
 	{
 	}
 
 	[Token(Token = "0x6002120")]
-	[Address(RVA = "0x4EC8ED0", Offset = "0x4EC8ED0", VA = "0x4EC8ED0")]
+	[Address(RVA = "0x3BAE9F0", Offset = "0x3BAE9F0", VA = "0x3BAE9F0")]
 	private void ParseObjectEnd(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
 	{
 	}
 
 	[Token(Token = "0x6002121")]
-	[Address(RVA = "0x4EC9D20", Offset = "0x4EC9D20", VA = "0x4EC9D20")]
+	[Address(RVA = "0x3BAF840", Offset = "0x3BAF840", VA = "0x3BAF840")]
 	private void ParseArray(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
 	{
 	}
 
 	[Token(Token = "0x6002122")]
-	[Address(RVA = "0x4ECA790", Offset = "0x4ECA790", VA = "0x4ECA790")]
+	[Address(RVA = "0x3BB02B0", Offset = "0x3BB02B0", VA = "0x3BB02B0")]
 	private void NextRectangleMap(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
 	{
 	}
 
 	[Token(Token = "0x6002123")]
-	[Address(RVA = "0x4ECA850", Offset = "0x4ECA850", VA = "0x4ECA850")]
+	[Address(RVA = "0x3BB0370", Offset = "0x3BB0370", VA = "0x3BB0370")]
 	private void ParseArrayMember(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
 	{
 	}
 
 	[Token(Token = "0x6002124")]
-	[Address(RVA = "0x4ECB240", Offset = "0x4ECB240", VA = "0x4ECB240")]
+	[Address(RVA = "0x3BB0D60", Offset = "0x3BB0D60", VA = "0x3BB0D60")]
 	private void ParseArrayMemberEnd(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
 	{
 	}
 
 	[Token(Token = "0x6002125")]
-	[Address(RVA = "0x4EC9370", Offset = "0x4EC9370", VA = "0x4EC9370")]
+	[Address(RVA = "0x3BAEE90", Offset = "0x3BAEE90", VA = "0x3BAEE90")]
 	private void ParseMember(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
 	{
 	}
 
 	[Token(Token = "0x6002126")]
-	[Address(RVA = "0x4EC9A20", Offset = "0x4EC9A20", VA = "0x4EC9A20")]
+	[Address(RVA = "0x3BAF540", Offset = "0x3BAF540", VA = "0x3BAF540")]
 	private void ParseMemberEnd(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
 	{
 	}
 
 	[Token(Token = "0x6002127")]
-	[Address(RVA = "0x4ECB210", Offset = "0x4ECB210", VA = "0x4ECB210")]
+	[Address(RVA = "0x3BB0D30", Offset = "0x3BB0D30", VA = "0x3BB0D30")]
 	private void ParseString(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr, System.Runtime.Serialization.Formatters.Binary.ParseRecord parentPr)
 	{
 	}
 
 	[Token(Token = "0x6002128")]
-	[Address(RVA = "0x4ECA6D0", Offset = "0x4ECA6D0", VA = "0x4ECA6D0")]
+	[Address(RVA = "0x3BB01F0", Offset = "0x3BB01F0", VA = "0x3BB01F0")]
 	private void RegisterObject(object obj, System.Runtime.Serialization.Formatters.Binary.ParseRecord pr, System.Runtime.Serialization.Formatters.Binary.ParseRecord objectPr)
 	{
 	}
 
 	[Token(Token = "0x6002129")]
-	[Address(RVA = "0x4ECB260", Offset = "0x4ECB260", VA = "0x4ECB260")]
+	[Address(RVA = "0x3BB0D80", Offset = "0x3BB0D80", VA = "0x3BB0D80")]
 	private void RegisterObject(object obj, System.Runtime.Serialization.Formatters.Binary.ParseRecord pr, System.Runtime.Serialization.Formatters.Binary.ParseRecord objectPr, bool bIsString)
 	{
 	}
 
 	[Token(Token = "0x600212A")]
-	[Address(RVA = "0x4ECB350", Offset = "0x4ECB350", VA = "0x4ECB350")]
+	[Address(RVA = "0x3BB0E70", Offset = "0x3BB0E70", VA = "0x3BB0E70")]
 	internal long GetId(long objectId)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x600212B")]
-	[Address(RVA = "0x4ECB450", Offset = "0x4ECB450", VA = "0x4ECB450")]
+	[Address(RVA = "0x3BB0F70", Offset = "0x3BB0F70", VA = "0x3BB0F70")]
 	internal Type Bind(string assemblyString, string typeString)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600212C")]
-	[Address(RVA = "0x4ECB4A0", Offset = "0x4ECB4A0", VA = "0x4ECB4A0")]
+	[Address(RVA = "0x3BB0FC0", Offset = "0x3BB0FC0", VA = "0x3BB0FC0")]
 	internal Type FastBindToType(string assemblyName, string typeName)
 	{
 		return null;
@@ -337,27 +344,27 @@ internal sealed class ObjectReader
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x600212D")]
-	[Address(RVA = "0x4ECB7B0", Offset = "0x4ECB7B0", VA = "0x4ECB7B0")]
+	[Address(RVA = "0x3BB12D0", Offset = "0x3BB12D0", VA = "0x3BB12D0")]
 	private static Assembly ResolveSimpleAssemblyName(AssemblyName assemblyName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600212E")]
-	[Address(RVA = "0x4ECB810", Offset = "0x4ECB810", VA = "0x4ECB810")]
+	[Address(RVA = "0x3BB1330", Offset = "0x3BB1330", VA = "0x3BB1330")]
 	private static void GetSimplyNamedTypeFromAssembly(Assembly assm, string typeName, ref Type type)
 	{
 	}
 
 	[Token(Token = "0x600212F")]
-	[Address(RVA = "0x4EBC5B0", Offset = "0x4EBC5B0", VA = "0x4EBC5B0")]
+	[Address(RVA = "0x3BA20D0", Offset = "0x3BA20D0", VA = "0x3BA20D0")]
 	internal Type GetType(System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo assemblyInfo, string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002130")]
-	[Address(RVA = "0x4ECBA80", Offset = "0x4ECBA80", VA = "0x4ECBA80")]
+	[Address(RVA = "0x3BB15A0", Offset = "0x3BB15A0", VA = "0x3BB15A0")]
 	private static void CheckTypeForwardedTo(Assembly sourceAssembly, Assembly destAssembly, Type resolvedType)
 	{
 	}

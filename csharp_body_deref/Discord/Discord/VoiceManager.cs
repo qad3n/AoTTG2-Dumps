@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Discord.VoiceManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Plugins/DiscordGameSDK/Core.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -126,7 +133,7 @@ public class VoiceManager
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x60004DB")]
-		[Address(RVA = "0x2350550", Offset = "0x2350550", VA = "0x2350550")]
+		[Address(RVA = "0x2350610", Offset = "0x2350610", VA = "0x2350610")]
 		get
 		{
 			return default(FFIMethods);
@@ -137,13 +144,13 @@ public class VoiceManager
 	public event SettingsUpdateHandler OnSettingsUpdate
 	{
 		[Token(Token = "0x60004DC")]
-		[Address(RVA = "0x2350670", Offset = "0x2350670", VA = "0x2350670")]
+		[Address(RVA = "0x2350730", Offset = "0x2350730", VA = "0x2350730")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60004DD")]
-		[Address(RVA = "0x2350700", Offset = "0x2350700", VA = "0x2350700")]
+		[Address(RVA = "0x23507C0", Offset = "0x23507C0", VA = "0x23507C0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -151,91 +158,91 @@ public class VoiceManager
 	}
 
 	[Token(Token = "0x60004DE")]
-	[Address(RVA = "0x2350790", Offset = "0x2350790", VA = "0x2350790")]
+	[Address(RVA = "0x2350850", Offset = "0x2350850", VA = "0x2350850")]
 	internal VoiceManager(IntPtr ptr, IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x60004DF")]
-	[Address(RVA = "0x2350810", Offset = "0x2350810", VA = "0x2350810")]
+	[Address(RVA = "0x23508D0", Offset = "0x23508D0", VA = "0x23508D0")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x60004E0")]
-	[Address(RVA = "0x23509E0", Offset = "0x23509E0", VA = "0x23509E0")]
+	[Address(RVA = "0x2350AA0", Offset = "0x2350AA0", VA = "0x2350AA0")]
 	public InputMode GetInputMode()
 	{
 		return default(InputMode);
 	}
 
 	[Token(Token = "0x60004E1")]
-	[Address(RVA = "0x2350370", Offset = "0x2350370", VA = "0x2350370")]
+	[Address(RVA = "0x2350430", Offset = "0x2350430", VA = "0x2350430")]
 	[MonoPInvokeCallback]
 	private static void SetInputModeCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x60004E2")]
-	[Address(RVA = "0x2350A70", Offset = "0x2350A70", VA = "0x2350A70")]
+	[Address(RVA = "0x2350B30", Offset = "0x2350B30", VA = "0x2350B30")]
 	public void SetInputMode(InputMode inputMode, SetInputModeHandler callback)
 	{
 	}
 
 	[Token(Token = "0x60004E3")]
-	[Address(RVA = "0x2350C70", Offset = "0x2350C70", VA = "0x2350C70")]
+	[Address(RVA = "0x2350D30", Offset = "0x2350D30", VA = "0x2350D30")]
 	public bool IsSelfMute()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004E4")]
-	[Address(RVA = "0x2350D00", Offset = "0x2350D00", VA = "0x2350D00")]
+	[Address(RVA = "0x2350DC0", Offset = "0x2350DC0", VA = "0x2350DC0")]
 	public void SetSelfMute(bool mute)
 	{
 	}
 
 	[Token(Token = "0x60004E5")]
-	[Address(RVA = "0x2350D90", Offset = "0x2350D90", VA = "0x2350D90")]
+	[Address(RVA = "0x2350E50", Offset = "0x2350E50", VA = "0x2350E50")]
 	public bool IsSelfDeaf()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004E6")]
-	[Address(RVA = "0x2350E20", Offset = "0x2350E20", VA = "0x2350E20")]
+	[Address(RVA = "0x2350EE0", Offset = "0x2350EE0", VA = "0x2350EE0")]
 	public void SetSelfDeaf(bool deaf)
 	{
 	}
 
 	[Token(Token = "0x60004E7")]
-	[Address(RVA = "0x2350EB0", Offset = "0x2350EB0", VA = "0x2350EB0")]
+	[Address(RVA = "0x2350F70", Offset = "0x2350F70", VA = "0x2350F70")]
 	public bool IsLocalMute(long userId)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004E8")]
-	[Address(RVA = "0x2350F50", Offset = "0x2350F50", VA = "0x2350F50")]
+	[Address(RVA = "0x2351010", Offset = "0x2351010", VA = "0x2351010")]
 	public void SetLocalMute(long userId, bool mute)
 	{
 	}
 
 	[Token(Token = "0x60004E9")]
-	[Address(RVA = "0x2350FE0", Offset = "0x2350FE0", VA = "0x2350FE0")]
+	[Address(RVA = "0x23510A0", Offset = "0x23510A0", VA = "0x23510A0")]
 	public byte GetLocalVolume(long userId)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x60004EA")]
-	[Address(RVA = "0x2351080", Offset = "0x2351080", VA = "0x2351080")]
+	[Address(RVA = "0x2351140", Offset = "0x2351140", VA = "0x2351140")]
 	public void SetLocalVolume(long userId, byte volume)
 	{
 	}
 
 	[Token(Token = "0x60004EB")]
-	[Address(RVA = "0x2350450", Offset = "0x2350450", VA = "0x2350450")]
+	[Address(RVA = "0x2350510", Offset = "0x2350510", VA = "0x2350510")]
 	[MonoPInvokeCallback]
 	private static void OnSettingsUpdateImpl(IntPtr ptr)
 	{

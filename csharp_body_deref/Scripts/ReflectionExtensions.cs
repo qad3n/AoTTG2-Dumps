@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: ReflectionExtensions
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/ReflectionExtensions.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Reflection;
 using Il2CppDummyDll;

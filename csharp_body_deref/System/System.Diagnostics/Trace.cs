@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Diagnostics.Trace
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Diagnostics;
@@ -13,7 +20,7 @@ public sealed class Trace
 	public static TraceListenerCollection Listeners
 	{
 		[Token(Token = "0x600046B")]
-		[Address(RVA = "0x45FF690", Offset = "0x45FF690", VA = "0x45FF690")]
+		[Address(RVA = "0x4924790", Offset = "0x4924790", VA = "0x4924790")]
 		get
 		{
 			return null;
@@ -24,7 +31,7 @@ public sealed class Trace
 	public static bool AutoFlush
 	{
 		[Token(Token = "0x600046C")]
-		[Address(RVA = "0x45FFA30", Offset = "0x45FFA30", VA = "0x45FFA30")]
+		[Address(RVA = "0x4924B30", Offset = "0x4924B30", VA = "0x4924B30")]
 		get
 		{
 			return default(bool);
@@ -35,7 +42,7 @@ public sealed class Trace
 	public static CorrelationManager CorrelationManager
 	{
 		[Token(Token = "0x600046D")]
-		[Address(RVA = "0x45FFB30", Offset = "0x45FFB30", VA = "0x45FFB30")]
+		[Address(RVA = "0x4924C30", Offset = "0x4924C30", VA = "0x4924C30")]
 		get
 		{
 			return null;

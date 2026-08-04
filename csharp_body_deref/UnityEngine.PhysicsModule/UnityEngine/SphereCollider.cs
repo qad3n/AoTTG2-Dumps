@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.SphereCollider
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -16,13 +23,13 @@ public class SphereCollider : Collider
 	public Vector3 center
 	{
 		[Token(Token = "0x6000116")]
-		[Address(RVA = "0x4B5AC10", Offset = "0x4B5AC10", VA = "0x4B5AC10")]
+		[Address(RVA = "0x4E82540", Offset = "0x4E82540", VA = "0x4E82540")]
 		get
 		{
 			return default(Vector3);
 		}
 		[Token(Token = "0x6000117")]
-		[Address(RVA = "0x4B5AD10", Offset = "0x4B5AD10", VA = "0x4B5AD10")]
+		[Address(RVA = "0x4E82640", Offset = "0x4E82640", VA = "0x4E82640")]
 		set
 		{
 		}
@@ -32,13 +39,13 @@ public class SphereCollider : Collider
 	public float radius
 	{
 		[Token(Token = "0x6000118")]
-		[Address(RVA = "0x4B5AE00", Offset = "0x4B5AE00", VA = "0x4B5AE00")]
+		[Address(RVA = "0x4E82730", Offset = "0x4E82730", VA = "0x4E82730")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000119")]
-		[Address(RVA = "0x4B5AED0", Offset = "0x4B5AED0", VA = "0x4B5AED0")]
+		[Address(RVA = "0x4E82800", Offset = "0x4E82800", VA = "0x4E82800")]
 		set
 		{
 		}
@@ -46,21 +53,21 @@ public class SphereCollider : Collider
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600011A")]
-	[Address(RVA = "0x4B5ACD0", Offset = "0x4B5ACD0", VA = "0x4B5ACD0")]
+	[Address(RVA = "0x4E82600", Offset = "0x4E82600", VA = "0x4E82600")]
 	private static extern void get_center_Injected(IntPtr _unity_self, out Vector3 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600011B")]
-	[Address(RVA = "0x4B5ADC0", Offset = "0x4B5ADC0", VA = "0x4B5ADC0")]
+	[Address(RVA = "0x4E826F0", Offset = "0x4E826F0", VA = "0x4E826F0")]
 	private static extern void set_center_Injected(IntPtr _unity_self, [In] ref Vector3 value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600011C")]
-	[Address(RVA = "0x4B5AEA0", Offset = "0x4B5AEA0", VA = "0x4B5AEA0")]
+	[Address(RVA = "0x4E827D0", Offset = "0x4E827D0", VA = "0x4E827D0")]
 	private static extern float get_radius_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600011D")]
-	[Address(RVA = "0x4B5AF80", Offset = "0x4B5AF80", VA = "0x4B5AF80")]
+	[Address(RVA = "0x4E828B0", Offset = "0x4E828B0", VA = "0x4E828B0")]
 	private static extern void set_radius_Injected(IntPtr _unity_self, float value);
 }

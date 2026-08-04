@@ -5,7 +5,7 @@
     <TargetFramework>net40</TargetFramework>
   </PropertyGroup>
   <PropertyGroup>
-    <LangVersion>15.0</LangVersion>
+    <LangVersion>11.0</LangVersion>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
   </PropertyGroup>
@@ -13,19 +13,19 @@
   <ItemGroup />
   <ItemGroup>
     <Reference Include="Il2CppDummyDll">
-      <HintPath>../../../dumps/il2cpp/DummyDll/Il2CppDummyDll.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/Il2CppDummyDll.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Security">
-      <HintPath>../../../dumps/il2cpp/DummyDll/Mono.Security.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/Mono.Security.dll</HintPath>
     </Reference>
     <Reference Include="System.Configuration">
-      <HintPath>../../../dumps/il2cpp/DummyDll/System.Configuration.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/System.Configuration.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml">
-      <HintPath>../../../dumps/il2cpp/DummyDll/System.Xml.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/System.Xml.dll</HintPath>
     </Reference>
     <Reference Include="System.Data">
-      <HintPath>../../../dumps/il2cpp/DummyDll/System.Data.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/System.Data.dll</HintPath>
     </Reference>
     <Reference Include="System.Private.CoreLib" />
   </ItemGroup>

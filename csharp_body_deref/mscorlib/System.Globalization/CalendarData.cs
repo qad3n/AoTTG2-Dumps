@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Globalization.CalendarData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -100,72 +107,72 @@ internal class CalendarData
 	private static string[] HEBREW_LEAP_MONTH_NAMES;
 
 	[Token(Token = "0x6002C8A")]
-	[Address(RVA = "0x4F6FD50", Offset = "0x4F6FD50", VA = "0x4F6FD50")]
+	[Address(RVA = "0x3C55870", Offset = "0x3C55870", VA = "0x3C55870")]
 	private CalendarData()
 	{
 	}
 
 	[Token(Token = "0x6002C8B")]
-	[Address(RVA = "0x4F6FD70", Offset = "0x4F6FD70", VA = "0x4F6FD70")]
+	[Address(RVA = "0x3C55890", Offset = "0x3C55890", VA = "0x3C55890")]
 	static CalendarData()
 	{
 	}
 
 	[Token(Token = "0x6002C8C")]
-	[Address(RVA = "0x4F70E80", Offset = "0x4F70E80", VA = "0x4F70E80")]
+	[Address(RVA = "0x3C569A0", Offset = "0x3C569A0", VA = "0x3C569A0")]
 	internal CalendarData(string localeName, int calendarId, bool bUseUserOverrides)
 	{
 	}
 
 	[Token(Token = "0x6002C8D")]
-	[Address(RVA = "0x4F716E0", Offset = "0x4F716E0", VA = "0x4F716E0")]
+	[Address(RVA = "0x3C57200", Offset = "0x3C57200", VA = "0x3C57200")]
 	private void InitializeEraNames(string localeName, int calendarId)
 	{
 	}
 
 	[Token(Token = "0x6002C8E")]
-	[Address(RVA = "0x4F720A0", Offset = "0x4F720A0", VA = "0x4F720A0")]
+	[Address(RVA = "0x3C57BC0", Offset = "0x3C57BC0", VA = "0x3C57BC0")]
 	private static string[] GetJapaneseEraNames()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002C8F")]
-	[Address(RVA = "0x4F71F70", Offset = "0x4F71F70", VA = "0x4F71F70")]
+	[Address(RVA = "0x3C57A90", Offset = "0x3C57A90", VA = "0x3C57A90")]
 	private static string[] GetJapaneseEnglishEraNames()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002C90")]
-	[Address(RVA = "0x4F71BA0", Offset = "0x4F71BA0", VA = "0x4F71BA0")]
+	[Address(RVA = "0x3C576C0", Offset = "0x3C576C0", VA = "0x3C576C0")]
 	private void InitializeAbbreviatedEraNames(string localeName, int calendarId)
 	{
 	}
 
 	[Token(Token = "0x6002C91")]
-	[Address(RVA = "0x4F6F670", Offset = "0x4F6F670", VA = "0x4F6F670")]
+	[Address(RVA = "0x3C55190", Offset = "0x3C55190", VA = "0x3C55190")]
 	internal static System.Globalization.CalendarData GetCalendarData(int calendarId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002C92")]
-	[Address(RVA = "0x4F721D0", Offset = "0x4F721D0", VA = "0x4F721D0")]
+	[Address(RVA = "0x3C57CF0", Offset = "0x3C57CF0", VA = "0x3C57CF0")]
 	private static string CalendarIdToCultureName(int calendarId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002C93")]
-	[Address(RVA = "0x4F6FD40", Offset = "0x4F6FD40", VA = "0x4F6FD40")]
+	[Address(RVA = "0x3C55860", Offset = "0x3C55860", VA = "0x3C55860")]
 	public static int nativeGetTwoDigitYearMax(int calID)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002C94")]
-	[Address(RVA = "0x4F71600", Offset = "0x4F71600", VA = "0x4F71600")]
+	[Address(RVA = "0x3C57120", Offset = "0x3C57120", VA = "0x3C57120")]
 	private static bool nativeGetCalendarData(System.Globalization.CalendarData data, string localeName, int calendarId)
 	{
 		return default(bool);
@@ -173,6 +180,6 @@ internal class CalendarData
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6002C95")]
-	[Address(RVA = "0x4F72290", Offset = "0x4F72290", VA = "0x4F72290")]
+	[Address(RVA = "0x3C57DB0", Offset = "0x3C57DB0", VA = "0x3C57DB0")]
 	private extern bool fill_calendar_data(string localeName, int datetimeIndex);
 }

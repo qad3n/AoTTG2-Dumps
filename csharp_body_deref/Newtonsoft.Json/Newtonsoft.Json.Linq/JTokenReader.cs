@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Linq.JTokenReader
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Newtonsoft.Json.Linq;
@@ -25,7 +32,7 @@ public class JTokenReader : JsonReader, IJsonLineInfo
 	public JToken? CurrentToken
 	{
 		[Token(Token = "0x6000D78")]
-		[Address(RVA = "0x3B34490", Offset = "0x3B34490", VA = "0x3B34490")]
+		[Address(RVA = "0x3E29DE0", Offset = "0x3E29DE0", VA = "0x3E29DE0")]
 		get
 		{
 			return null;
@@ -36,7 +43,7 @@ public class JTokenReader : JsonReader, IJsonLineInfo
 	private int Newtonsoft_002EJson_002EIJsonLineInfo_002ELineNumber
 	{
 		[Token(Token = "0x6000D84")]
-		[Address(RVA = "0x3B35130", Offset = "0x3B35130", VA = "0x3B35130", Slot = "33")]
+		[Address(RVA = "0x3E2AA80", Offset = "0x3E2AA80", VA = "0x3E2AA80", Slot = "33")]
 		get
 		{
 			return default(int);
@@ -47,7 +54,7 @@ public class JTokenReader : JsonReader, IJsonLineInfo
 	private int Newtonsoft_002EJson_002EIJsonLineInfo_002ELinePosition
 	{
 		[Token(Token = "0x6000D85")]
-		[Address(RVA = "0x3B351E0", Offset = "0x3B351E0", VA = "0x3B351E0", Slot = "34")]
+		[Address(RVA = "0x3E2AB30", Offset = "0x3E2AB30", VA = "0x3E2AB30", Slot = "34")]
 		get
 		{
 			return default(int);
@@ -58,7 +65,7 @@ public class JTokenReader : JsonReader, IJsonLineInfo
 	public override string Path
 	{
 		[Token(Token = "0x6000D86")]
-		[Address(RVA = "0x3B35290", Offset = "0x3B35290", VA = "0x3B35290", Slot = "20")]
+		[Address(RVA = "0x3E2ABE0", Offset = "0x3E2ABE0", VA = "0x3E2ABE0", Slot = "20")]
 		get
 		{
 			return null;
@@ -66,74 +73,74 @@ public class JTokenReader : JsonReader, IJsonLineInfo
 	}
 
 	[Token(Token = "0x6000D79")]
-	[Address(RVA = "0x3B344A0", Offset = "0x3B344A0", VA = "0x3B344A0")]
+	[Address(RVA = "0x3E29DF0", Offset = "0x3E29DF0", VA = "0x3E29DF0")]
 	public JTokenReader(JToken token)
 	{
 	}
 
 	[Token(Token = "0x6000D7A")]
-	[Address(RVA = "0x3B34500", Offset = "0x3B34500", VA = "0x3B34500")]
+	[Address(RVA = "0x3E29E50", Offset = "0x3E29E50", VA = "0x3E29E50")]
 	public JTokenReader(JToken token, string initialPath)
 	{
 	}
 
 	[Token(Token = "0x6000D7B")]
-	[Address(RVA = "0x3B34580", Offset = "0x3B34580", VA = "0x3B34580", Slot = "21")]
+	[Address(RVA = "0x3E29ED0", Offset = "0x3E29ED0", VA = "0x3E29ED0", Slot = "21")]
 	public override bool Read()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000D7C")]
-	[Address(RVA = "0x3B34740", Offset = "0x3B34740", VA = "0x3B34740")]
+	[Address(RVA = "0x3E2A090", Offset = "0x3E2A090", VA = "0x3E2A090")]
 	private bool ReadOver(JToken t)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000D7D")]
-	[Address(RVA = "0x3B34E30", Offset = "0x3B34E30", VA = "0x3B34E30")]
+	[Address(RVA = "0x3E2A780", Offset = "0x3E2A780", VA = "0x3E2A780")]
 	private bool ReadToEnd()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000D7E")]
-	[Address(RVA = "0x3B34F00", Offset = "0x3B34F00", VA = "0x3B34F00")]
+	[Address(RVA = "0x3E2A850", Offset = "0x3E2A850", VA = "0x3E2A850")]
 	private JsonToken? GetEndToken(JContainer c)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D7F")]
-	[Address(RVA = "0x3B346B0", Offset = "0x3B346B0", VA = "0x3B346B0")]
+	[Address(RVA = "0x3E2A000", Offset = "0x3E2A000", VA = "0x3E2A000")]
 	private bool ReadInto(JContainer c)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000D80")]
-	[Address(RVA = "0x3B34E60", Offset = "0x3B34E60", VA = "0x3B34E60")]
+	[Address(RVA = "0x3E2A7B0", Offset = "0x3E2A7B0", VA = "0x3E2A7B0")]
 	private bool SetEnd(JContainer c)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000D81")]
-	[Address(RVA = "0x3B34800", Offset = "0x3B34800", VA = "0x3B34800")]
+	[Address(RVA = "0x3E2A150", Offset = "0x3E2A150", VA = "0x3E2A150")]
 	private void SetToken(JToken token)
 	{
 	}
 
 	[Token(Token = "0x6000D82")]
-	[Address(RVA = "0x3B35060", Offset = "0x3B35060", VA = "0x3B35060")]
+	[Address(RVA = "0x3E2A9B0", Offset = "0x3E2A9B0", VA = "0x3E2A9B0")]
 	private string? SafeToString(object? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D83")]
-	[Address(RVA = "0x3B35090", Offset = "0x3B35090", VA = "0x3B35090", Slot = "32")]
+	[Address(RVA = "0x3E2A9E0", Offset = "0x3E2A9E0", VA = "0x3E2A9E0", Slot = "32")]
 	private bool Newtonsoft_002EJson_002EIJsonLineInfo_002EHasLineInfo()
 	{
 		return default(bool);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.MultiScaleVO
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
@@ -90,144 +97,144 @@ internal sealed class MultiScaleVO : IAmbientOcclusionMethod
 	private readonly RenderTargetIdentifier[] m_MRT;
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x480E120", Offset = "0x480E120", VA = "0x480E120")]
+	[Address(RVA = "0x4B33210", Offset = "0x4B33210", VA = "0x4B33210")]
 	public MultiScaleVO(AmbientOcclusion settings)
 	{
 	}
 
 	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x4819F50", Offset = "0x4819F50", VA = "0x4819F50", Slot = "4")]
+	[Address(RVA = "0x4B3F040", Offset = "0x4B3F040", VA = "0x4B3F040", Slot = "4")]
 	public DepthTextureMode GetCameraFlags()
 	{
 		return default(DepthTextureMode);
 	}
 
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x4819F60", Offset = "0x4819F60", VA = "0x4819F60")]
+	[Address(RVA = "0x4B3F050", Offset = "0x4B3F050", VA = "0x4B3F050")]
 	public void SetResources(PostProcessResources resources)
 	{
 	}
 
 	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x4819F70", Offset = "0x4819F70", VA = "0x4819F70")]
+	[Address(RVA = "0x4B3F060", Offset = "0x4B3F060", VA = "0x4B3F060")]
 	private void Alloc(CommandBuffer cmd, int id, MipLevel size, RenderTextureFormat format, bool uav, bool dynamicScale)
 	{
 	}
 
 	[Token(Token = "0x6000063")]
-	[Address(RVA = "0x481A0F0", Offset = "0x481A0F0", VA = "0x481A0F0")]
+	[Address(RVA = "0x4B3F1E0", Offset = "0x4B3F1E0", VA = "0x4B3F1E0")]
 	private void AllocArray(CommandBuffer cmd, int id, MipLevel size, RenderTextureFormat format, bool uav, bool dynamicScale)
 	{
 	}
 
 	[Token(Token = "0x6000064")]
-	[Address(RVA = "0x481A270", Offset = "0x481A270", VA = "0x481A270")]
+	[Address(RVA = "0x4B3F360", Offset = "0x4B3F360", VA = "0x4B3F360")]
 	private void Release(CommandBuffer cmd, int id)
 	{
 	}
 
 	[Token(Token = "0x6000065")]
-	[Address(RVA = "0x481A290", Offset = "0x481A290", VA = "0x481A290")]
+	[Address(RVA = "0x4B3F380", Offset = "0x4B3F380", VA = "0x4B3F380")]
 	private Vector4 CalculateZBufferParams(Camera camera)
 	{
 		return default(Vector4);
 	}
 
 	[Token(Token = "0x6000066")]
-	[Address(RVA = "0x481A310", Offset = "0x481A310", VA = "0x481A310")]
+	[Address(RVA = "0x4B3F400", Offset = "0x4B3F400", VA = "0x4B3F400")]
 	private float CalculateTanHalfFovHeight(Camera camera)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000067")]
-	[Address(RVA = "0x481A390", Offset = "0x481A390", VA = "0x481A390")]
+	[Address(RVA = "0x4B3F480", Offset = "0x4B3F480", VA = "0x4B3F480")]
 	private Vector2 GetSize(MipLevel mip)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x6000068")]
-	[Address(RVA = "0x481A3D0", Offset = "0x481A3D0", VA = "0x481A3D0")]
+	[Address(RVA = "0x4B3F4C0", Offset = "0x4B3F4C0", VA = "0x4B3F4C0")]
 	private Vector3 GetSizeArray(MipLevel mip)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x6000069")]
-	[Address(RVA = "0x481A420", Offset = "0x481A420", VA = "0x481A420")]
+	[Address(RVA = "0x4B3F510", Offset = "0x4B3F510", VA = "0x4B3F510")]
 	public void GenerateAOMap(CommandBuffer cmd, Camera camera, RenderTargetIdentifier destination, RenderTargetIdentifier? depthMap, bool invert, bool isMSAA)
 	{
 	}
 
 	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x481AEF0", Offset = "0x481AEF0", VA = "0x481AEF0")]
+	[Address(RVA = "0x4B3FFE0", Offset = "0x4B3FFE0", VA = "0x4B3FFE0")]
 	private void PushAllocCommands(CommandBuffer cmd, bool isMSAA, Camera camera)
 	{
 	}
 
 	[Token(Token = "0x600006B")]
-	[Address(RVA = "0x481B250", Offset = "0x481B250", VA = "0x481B250")]
+	[Address(RVA = "0x4B40340", Offset = "0x4B40340", VA = "0x4B40340")]
 	private void PushDownsampleCommands(CommandBuffer cmd, Camera camera, RenderTargetIdentifier? depthMap, bool isMSAA)
 	{
 	}
 
 	[Token(Token = "0x600006C")]
-	[Address(RVA = "0x481BDB0", Offset = "0x481BDB0", VA = "0x481BDB0")]
+	[Address(RVA = "0x4B40EA0", Offset = "0x4B40EA0", VA = "0x4B40EA0")]
 	private void PushRenderCommands(CommandBuffer cmd, int source, int destination, Vector3 sourceSize, float tanHalfFovH, bool isMSAA)
 	{
 	}
 
 	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x481C620", Offset = "0x481C620", VA = "0x481C620")]
+	[Address(RVA = "0x4B41710", Offset = "0x4B41710", VA = "0x4B41710")]
 	private void PushUpsampleCommands(CommandBuffer cmd, int lowResDepth, int interleavedAO, int highResDepth, int? highResAO, RenderTargetIdentifier dest, Vector3 lowResDepthSize, Vector2 highResDepthSize, bool isMSAA, bool invert = false)
 	{
 	}
 
 	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x481CBF0", Offset = "0x481CBF0", VA = "0x481CBF0")]
+	[Address(RVA = "0x4B41CE0", Offset = "0x4B41CE0", VA = "0x4B41CE0")]
 	private void PushReleaseCommands(CommandBuffer cmd)
 	{
 	}
 
 	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x481CDE0", Offset = "0x481CDE0", VA = "0x481CDE0")]
+	[Address(RVA = "0x4B41ED0", Offset = "0x4B41ED0", VA = "0x4B41ED0")]
 	private void PreparePropertySheet(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x481CEF0", Offset = "0x481CEF0", VA = "0x481CEF0")]
+	[Address(RVA = "0x4B41FE0", Offset = "0x4B41FE0", VA = "0x4B41FE0")]
 	private void CheckAOTexture(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x6000071")]
-	[Address(RVA = "0x481D120", Offset = "0x481D120", VA = "0x481D120")]
+	[Address(RVA = "0x4B42210", Offset = "0x4B42210", VA = "0x4B42210")]
 	private void PushDebug(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x6000072")]
-	[Address(RVA = "0x481D1D0", Offset = "0x481D1D0", VA = "0x481D1D0", Slot = "5")]
+	[Address(RVA = "0x4B422C0", Offset = "0x4B422C0", VA = "0x4B422C0", Slot = "5")]
 	public void RenderAfterOpaque(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x6000073")]
-	[Address(RVA = "0x481D690", Offset = "0x481D690", VA = "0x481D690", Slot = "6")]
+	[Address(RVA = "0x4B42780", Offset = "0x4B42780", VA = "0x4B42780", Slot = "6")]
 	public void RenderAmbientOnly(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x6000074")]
-	[Address(RVA = "0x481D880", Offset = "0x481D880", VA = "0x481D880", Slot = "7")]
+	[Address(RVA = "0x4B42970", Offset = "0x4B42970", VA = "0x4B42970", Slot = "7")]
 	public void CompositeAmbientOnly(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x6000075")]
-	[Address(RVA = "0x481DAE0", Offset = "0x481DAE0", VA = "0x481DAE0", Slot = "8")]
+	[Address(RVA = "0x4B42BD0", Offset = "0x4B42BD0", VA = "0x4B42BD0", Slot = "8")]
 	public void Release()
 	{
 	}

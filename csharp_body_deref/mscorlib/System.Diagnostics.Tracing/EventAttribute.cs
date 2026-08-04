@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Diagnostics.Tracing.EventAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -11,7 +18,7 @@ public sealed class EventAttribute : Attribute
 	private int EventId
 	{
 		[Token(Token = "0x6002E86")]
-		[Address(RVA = "0x4F96930", Offset = "0x4F96930", VA = "0x4F96930")]
+		[Address(RVA = "0x3C7C450", Offset = "0x3C7C450", VA = "0x3C7C450")]
 		[CompilerGenerated]
 		set
 		{
@@ -22,7 +29,7 @@ public sealed class EventAttribute : Attribute
 	public EventLevel Level
 	{
 		[Token(Token = "0x6002E87")]
-		[Address(RVA = "0x4F96940", Offset = "0x4F96940", VA = "0x4F96940")]
+		[Address(RVA = "0x3C7C460", Offset = "0x3C7C460", VA = "0x3C7C460")]
 		[CompilerGenerated]
 		set
 		{
@@ -33,7 +40,7 @@ public sealed class EventAttribute : Attribute
 	public EventKeywords Keywords
 	{
 		[Token(Token = "0x6002E88")]
-		[Address(RVA = "0x4F96950", Offset = "0x4F96950", VA = "0x4F96950")]
+		[Address(RVA = "0x3C7C470", Offset = "0x3C7C470", VA = "0x3C7C470")]
 		[CompilerGenerated]
 		set
 		{
@@ -44,7 +51,7 @@ public sealed class EventAttribute : Attribute
 	public string Message
 	{
 		[Token(Token = "0x6002E89")]
-		[Address(RVA = "0x4F96960", Offset = "0x4F96960", VA = "0x4F96960")]
+		[Address(RVA = "0x3C7C480", Offset = "0x3C7C480", VA = "0x3C7C480")]
 		[CompilerGenerated]
 		set
 		{
@@ -52,7 +59,7 @@ public sealed class EventAttribute : Attribute
 	}
 
 	[Token(Token = "0x6002E85")]
-	[Address(RVA = "0x4F96910", Offset = "0x4F96910", VA = "0x4F96910")]
+	[Address(RVA = "0x3C7C430", Offset = "0x3C7C430", VA = "0x3C7C430")]
 	public EventAttribute(int eventId)
 	{
 	}

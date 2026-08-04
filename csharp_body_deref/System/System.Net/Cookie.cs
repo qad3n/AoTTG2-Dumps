@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.Cookie
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
@@ -113,13 +120,13 @@ public sealed class Cookie
 	public string Comment
 	{
 		[Token(Token = "0x60008AD")]
-		[Address(RVA = "0x4646270", Offset = "0x4646270", VA = "0x4646270")]
+		[Address(RVA = "0x496B370", Offset = "0x496B370", VA = "0x496B370")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60008AE")]
-		[Address(RVA = "0x4646280", Offset = "0x4646280", VA = "0x4646280")]
+		[Address(RVA = "0x496B380", Offset = "0x496B380", VA = "0x496B380")]
 		set
 		{
 		}
@@ -129,7 +136,7 @@ public sealed class Cookie
 	public Uri CommentUri
 	{
 		[Token(Token = "0x60008AF")]
-		[Address(RVA = "0x46462C0", Offset = "0x46462C0", VA = "0x46462C0")]
+		[Address(RVA = "0x496B3C0", Offset = "0x496B3C0", VA = "0x496B3C0")]
 		set
 		{
 		}
@@ -139,7 +146,7 @@ public sealed class Cookie
 	public bool HttpOnly
 	{
 		[Token(Token = "0x60008B0")]
-		[Address(RVA = "0x46462D0", Offset = "0x46462D0", VA = "0x46462D0")]
+		[Address(RVA = "0x496B3D0", Offset = "0x496B3D0", VA = "0x496B3D0")]
 		set
 		{
 		}
@@ -149,7 +156,7 @@ public sealed class Cookie
 	public bool Discard
 	{
 		[Token(Token = "0x60008B1")]
-		[Address(RVA = "0x46462E0", Offset = "0x46462E0", VA = "0x46462E0")]
+		[Address(RVA = "0x496B3E0", Offset = "0x496B3E0", VA = "0x496B3E0")]
 		set
 		{
 		}
@@ -159,13 +166,13 @@ public sealed class Cookie
 	public string Domain
 	{
 		[Token(Token = "0x60008B2")]
-		[Address(RVA = "0x46462F0", Offset = "0x46462F0", VA = "0x46462F0")]
+		[Address(RVA = "0x496B3F0", Offset = "0x496B3F0", VA = "0x496B3F0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60008B3")]
-		[Address(RVA = "0x4646300", Offset = "0x4646300", VA = "0x4646300")]
+		[Address(RVA = "0x496B400", Offset = "0x496B400", VA = "0x496B400")]
 		set
 		{
 		}
@@ -175,7 +182,7 @@ public sealed class Cookie
 	private string _Domain
 	{
 		[Token(Token = "0x60008B4")]
-		[Address(RVA = "0x4646370", Offset = "0x4646370", VA = "0x4646370")]
+		[Address(RVA = "0x496B470", Offset = "0x496B470", VA = "0x496B470")]
 		get
 		{
 			return null;
@@ -186,7 +193,7 @@ public sealed class Cookie
 	public bool Expired
 	{
 		[Token(Token = "0x60008B5")]
-		[Address(RVA = "0x4646430", Offset = "0x4646430", VA = "0x4646430")]
+		[Address(RVA = "0x496B530", Offset = "0x496B530", VA = "0x496B530")]
 		get
 		{
 			return default(bool);
@@ -197,7 +204,7 @@ public sealed class Cookie
 	public DateTime Expires
 	{
 		[Token(Token = "0x60008B6")]
-		[Address(RVA = "0x46464D0", Offset = "0x46464D0", VA = "0x46464D0")]
+		[Address(RVA = "0x496B5D0", Offset = "0x496B5D0", VA = "0x496B5D0")]
 		set
 		{
 		}
@@ -207,7 +214,7 @@ public sealed class Cookie
 	public string Name
 	{
 		[Token(Token = "0x60008B7")]
-		[Address(RVA = "0x46464E0", Offset = "0x46464E0", VA = "0x46464E0")]
+		[Address(RVA = "0x496B5E0", Offset = "0x496B5E0", VA = "0x496B5E0")]
 		get
 		{
 			return null;
@@ -218,13 +225,13 @@ public sealed class Cookie
 	public string Path
 	{
 		[Token(Token = "0x60008B9")]
-		[Address(RVA = "0x46465F0", Offset = "0x46465F0", VA = "0x46465F0")]
+		[Address(RVA = "0x496B6F0", Offset = "0x496B6F0", VA = "0x496B6F0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60008BA")]
-		[Address(RVA = "0x4646600", Offset = "0x4646600", VA = "0x4646600")]
+		[Address(RVA = "0x496B700", Offset = "0x496B700", VA = "0x496B700")]
 		set
 		{
 		}
@@ -234,7 +241,7 @@ public sealed class Cookie
 	private string _Path
 	{
 		[Token(Token = "0x60008BB")]
-		[Address(RVA = "0x4646640", Offset = "0x4646640", VA = "0x4646640")]
+		[Address(RVA = "0x496B740", Offset = "0x496B740", VA = "0x496B740")]
 		get
 		{
 			return null;
@@ -245,7 +252,7 @@ public sealed class Cookie
 	internal bool Plain
 	{
 		[Token(Token = "0x60008BC")]
-		[Address(RVA = "0x4646420", Offset = "0x4646420", VA = "0x4646420")]
+		[Address(RVA = "0x496B520", Offset = "0x496B520", VA = "0x496B520")]
 		get
 		{
 			return default(bool);
@@ -256,7 +263,7 @@ public sealed class Cookie
 	public string Port
 	{
 		[Token(Token = "0x60008C0")]
-		[Address(RVA = "0x4647550", Offset = "0x4647550", VA = "0x4647550")]
+		[Address(RVA = "0x496C650", Offset = "0x496C650", VA = "0x496C650")]
 		set
 		{
 		}
@@ -266,7 +273,7 @@ public sealed class Cookie
 	internal int[] PortList
 	{
 		[Token(Token = "0x60008C1")]
-		[Address(RVA = "0x46479A0", Offset = "0x46479A0", VA = "0x46479A0")]
+		[Address(RVA = "0x496CAA0", Offset = "0x496CAA0", VA = "0x496CAA0")]
 		get
 		{
 			return null;
@@ -277,7 +284,7 @@ public sealed class Cookie
 	private string _Port
 	{
 		[Token(Token = "0x60008C2")]
-		[Address(RVA = "0x46479B0", Offset = "0x46479B0", VA = "0x46479B0")]
+		[Address(RVA = "0x496CAB0", Offset = "0x496CAB0", VA = "0x496CAB0")]
 		get
 		{
 			return null;
@@ -288,13 +295,13 @@ public sealed class Cookie
 	public bool Secure
 	{
 		[Token(Token = "0x60008C3")]
-		[Address(RVA = "0x4647A60", Offset = "0x4647A60", VA = "0x4647A60")]
+		[Address(RVA = "0x496CB60", Offset = "0x496CB60", VA = "0x496CB60")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60008C4")]
-		[Address(RVA = "0x4647A70", Offset = "0x4647A70", VA = "0x4647A70")]
+		[Address(RVA = "0x496CB70", Offset = "0x496CB70", VA = "0x496CB70")]
 		set
 		{
 		}
@@ -304,13 +311,13 @@ public sealed class Cookie
 	public string Value
 	{
 		[Token(Token = "0x60008C5")]
-		[Address(RVA = "0x4647A80", Offset = "0x4647A80", VA = "0x4647A80")]
+		[Address(RVA = "0x496CB80", Offset = "0x496CB80", VA = "0x496CB80")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60008C6")]
-		[Address(RVA = "0x4647A90", Offset = "0x4647A90", VA = "0x4647A90")]
+		[Address(RVA = "0x496CB90", Offset = "0x496CB90", VA = "0x496CB90")]
 		set
 		{
 		}
@@ -320,7 +327,7 @@ public sealed class Cookie
 	internal CookieVariant Variant
 	{
 		[Token(Token = "0x60008C7")]
-		[Address(RVA = "0x4647AD0", Offset = "0x4647AD0", VA = "0x4647AD0")]
+		[Address(RVA = "0x496CBD0", Offset = "0x496CBD0", VA = "0x496CBD0")]
 		get
 		{
 			return default(CookieVariant);
@@ -331,7 +338,7 @@ public sealed class Cookie
 	internal string DomainKey
 	{
 		[Token(Token = "0x60008C8")]
-		[Address(RVA = "0x4647AE0", Offset = "0x4647AE0", VA = "0x4647AE0")]
+		[Address(RVA = "0x496CBE0", Offset = "0x496CBE0", VA = "0x496CBE0")]
 		get
 		{
 			return null;
@@ -342,13 +349,13 @@ public sealed class Cookie
 	public int Version
 	{
 		[Token(Token = "0x60008C9")]
-		[Address(RVA = "0x4647B00", Offset = "0x4647B00", VA = "0x4647B00")]
+		[Address(RVA = "0x496CC00", Offset = "0x496CC00", VA = "0x496CC00")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60008CA")]
-		[Address(RVA = "0x4647B10", Offset = "0x4647B10", VA = "0x4647B10")]
+		[Address(RVA = "0x496CC10", Offset = "0x496CC10", VA = "0x496CC10")]
 		set
 		{
 		}
@@ -358,7 +365,7 @@ public sealed class Cookie
 	private string _Version
 	{
 		[Token(Token = "0x60008CB")]
-		[Address(RVA = "0x4647B80", Offset = "0x4647B80", VA = "0x4647B80")]
+		[Address(RVA = "0x496CC80", Offset = "0x496CC80", VA = "0x496CC80")]
 		get
 		{
 			return null;
@@ -366,62 +373,62 @@ public sealed class Cookie
 	}
 
 	[Token(Token = "0x60008AC")]
-	[Address(RVA = "0x4646110", Offset = "0x4646110", VA = "0x4646110")]
+	[Address(RVA = "0x496B210", Offset = "0x496B210", VA = "0x496B210")]
 	public Cookie()
 	{
 	}
 
 	[Token(Token = "0x60008B8")]
-	[Address(RVA = "0x46464F0", Offset = "0x46464F0", VA = "0x46464F0")]
+	[Address(RVA = "0x496B5F0", Offset = "0x496B5F0", VA = "0x496B5F0")]
 	internal bool InternalSetName(string value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60008BD")]
-	[Address(RVA = "0x46466B0", Offset = "0x46466B0", VA = "0x46466B0")]
+	[Address(RVA = "0x496B7B0", Offset = "0x496B7B0", VA = "0x496B7B0")]
 	private static bool IsDomainEqualToHost(string domain, string host)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60008BE")]
-	[Address(RVA = "0x4646700", Offset = "0x4646700", VA = "0x4646700")]
+	[Address(RVA = "0x496B800", Offset = "0x496B800", VA = "0x496B800")]
 	internal bool VerifySetDefaults(CookieVariant variant, Uri uri, bool isLocalDomain, string localDomain, bool set_default, bool isThrow)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60008BF")]
-	[Address(RVA = "0x4647460", Offset = "0x4647460", VA = "0x4647460")]
+	[Address(RVA = "0x496C560", Offset = "0x496C560", VA = "0x496C560")]
 	private static bool DomainCharsTest(string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60008CC")]
-	[Address(RVA = "0x4647C70", Offset = "0x4647C70", VA = "0x4647C70")]
+	[Address(RVA = "0x496CD70", Offset = "0x496CD70", VA = "0x496CD70")]
 	internal static IComparer GetComparer()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60008CD")]
-	[Address(RVA = "0x4647CE0", Offset = "0x4647CE0", VA = "0x4647CE0", Slot = "0")]
+	[Address(RVA = "0x496CDE0", Offset = "0x496CDE0", VA = "0x496CDE0", Slot = "0")]
 	public override bool Equals(object comparand)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60008CE")]
-	[Address(RVA = "0x4647DB0", Offset = "0x4647DB0", VA = "0x4647DB0", Slot = "2")]
+	[Address(RVA = "0x496CEB0", Offset = "0x496CEB0", VA = "0x496CEB0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60008CF")]
-	[Address(RVA = "0x4647F80", Offset = "0x4647F80", VA = "0x4647F80", Slot = "3")]
+	[Address(RVA = "0x496D080", Offset = "0x496D080", VA = "0x496D080", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

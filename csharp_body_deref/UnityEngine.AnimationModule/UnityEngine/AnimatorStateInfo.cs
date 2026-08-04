@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.AnimatorStateInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
 using UnityEngine.Scripting;
@@ -49,7 +56,7 @@ public struct AnimatorStateInfo
 	public float normalizedTime
 	{
 		[Token(Token = "0x600004D")]
-		[Address(RVA = "0x4A7C2B0", Offset = "0x4A7C2B0", VA = "0x4A7C2B0")]
+		[Address(RVA = "0x4DA3AD0", Offset = "0x4DA3AD0", VA = "0x4DA3AD0")]
 		get
 		{
 			return default(float);
@@ -57,14 +64,14 @@ public struct AnimatorStateInfo
 	}
 
 	[Token(Token = "0x600004C")]
-	[Address(RVA = "0x4A7C230", Offset = "0x4A7C230", VA = "0x4A7C230")]
+	[Address(RVA = "0x4DA3A50", Offset = "0x4DA3A50", VA = "0x4DA3A50")]
 	public bool IsName(string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600004E")]
-	[Address(RVA = "0x4A7C2C0", Offset = "0x4A7C2C0", VA = "0x4A7C2C0")]
+	[Address(RVA = "0x4DA3AE0", Offset = "0x4DA3AE0", VA = "0x4DA3AE0")]
 	public bool IsTag(string tag)
 	{
 		return default(bool);

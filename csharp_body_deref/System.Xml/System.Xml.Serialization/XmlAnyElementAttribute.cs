@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlAnyElementAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Text;
 using Il2CppDummyDll;
 
@@ -23,7 +30,7 @@ public class XmlAnyElementAttribute : Attribute
 	public string Name
 	{
 		[Token(Token = "0x6000D01")]
-		[Address(RVA = "0x44D3220", Offset = "0x44D3220", VA = "0x44D3220")]
+		[Address(RVA = "0x4810980", Offset = "0x4810980", VA = "0x4810980")]
 		get
 		{
 			return null;
@@ -34,7 +41,7 @@ public class XmlAnyElementAttribute : Attribute
 	public string Namespace
 	{
 		[Token(Token = "0x6000D02")]
-		[Address(RVA = "0x44D3250", Offset = "0x44D3250", VA = "0x44D3250")]
+		[Address(RVA = "0x48109B0", Offset = "0x48109B0", VA = "0x48109B0")]
 		get
 		{
 			return null;
@@ -45,7 +52,7 @@ public class XmlAnyElementAttribute : Attribute
 	public int Order
 	{
 		[Token(Token = "0x6000D03")]
-		[Address(RVA = "0x44D3260", Offset = "0x44D3260", VA = "0x44D3260")]
+		[Address(RVA = "0x48109C0", Offset = "0x48109C0", VA = "0x48109C0")]
 		get
 		{
 			return default(int);
@@ -53,13 +60,13 @@ public class XmlAnyElementAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000D00")]
-	[Address(RVA = "0x44D3210", Offset = "0x44D3210", VA = "0x44D3210")]
+	[Address(RVA = "0x4810970", Offset = "0x4810970", VA = "0x4810970")]
 	public XmlAnyElementAttribute()
 	{
 	}
 
 	[Token(Token = "0x6000D04")]
-	[Address(RVA = "0x44D3270", Offset = "0x44D3270", VA = "0x44D3270")]
+	[Address(RVA = "0x48109D0", Offset = "0x48109D0", VA = "0x48109D0")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

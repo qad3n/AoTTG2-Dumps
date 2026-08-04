@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.CryptoStream
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.IO;
 using System.Runtime.CompilerServices;
@@ -57,13 +64,13 @@ public class CryptoStream : Stream, IDisposable
 		private TaskAwaiter<int> _003C_003Eu__2;
 
 		[Token(Token = "0x6001820")]
-		[Address(RVA = "0x4E40A30", Offset = "0x4E40A30", VA = "0x4E40A30", Slot = "4")]
+		[Address(RVA = "0x3B26550", Offset = "0x3B26550", VA = "0x3B26550", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6001821")]
-		[Address(RVA = "0x4E40F10", Offset = "0x4E40F10", VA = "0x4E40F10", Slot = "5")]
+		[Address(RVA = "0x3B26A30", Offset = "0x3B26A30", VA = "0x3B26A30", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -132,13 +139,13 @@ public class CryptoStream : Stream, IDisposable
 		private ValueTaskAwaiter<int> _003C_003Eu__1;
 
 		[Token(Token = "0x6001822")]
-		[Address(RVA = "0x4E40F80", Offset = "0x4E40F80", VA = "0x4E40F80", Slot = "4")]
+		[Address(RVA = "0x3B26AA0", Offset = "0x3B26AA0", VA = "0x3B26AA0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6001823")]
-		[Address(RVA = "0x4E42370", Offset = "0x4E42370", VA = "0x4E42370", Slot = "5")]
+		[Address(RVA = "0x3B27E90", Offset = "0x3B27E90", VA = "0x3B27E90", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -191,13 +198,13 @@ public class CryptoStream : Stream, IDisposable
 		private TaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6001824")]
-		[Address(RVA = "0x4E423E0", Offset = "0x4E423E0", VA = "0x4E423E0", Slot = "4")]
+		[Address(RVA = "0x3B27F00", Offset = "0x3B27F00", VA = "0x3B27F00", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6001825")]
-		[Address(RVA = "0x4E42850", Offset = "0x4E42850", VA = "0x4E42850", Slot = "5")]
+		[Address(RVA = "0x3B28370", Offset = "0x3B28370", VA = "0x3B28370", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -266,13 +273,13 @@ public class CryptoStream : Stream, IDisposable
 		private byte[] _003CtempOutputBuffer_003E5__6;
 
 		[Token(Token = "0x6001826")]
-		[Address(RVA = "0x4E428B0", Offset = "0x4E428B0", VA = "0x4E428B0", Slot = "4")]
+		[Address(RVA = "0x3B283D0", Offset = "0x3B283D0", VA = "0x3B283D0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6001827")]
-		[Address(RVA = "0x4E43ED0", Offset = "0x4E43ED0", VA = "0x4E43ED0", Slot = "5")]
+		[Address(RVA = "0x3B299F0", Offset = "0x3B299F0", VA = "0x3B299F0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -339,7 +346,7 @@ public class CryptoStream : Stream, IDisposable
 	public override bool CanRead
 	{
 		[Token(Token = "0x6001800")]
-		[Address(RVA = "0x4E3F570", Offset = "0x4E3F570", VA = "0x4E3F570", Slot = "7")]
+		[Address(RVA = "0x3B25090", Offset = "0x3B25090", VA = "0x3B25090", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -350,7 +357,7 @@ public class CryptoStream : Stream, IDisposable
 	public override bool CanSeek
 	{
 		[Token(Token = "0x6001801")]
-		[Address(RVA = "0x4E3F580", Offset = "0x4E3F580", VA = "0x4E3F580", Slot = "8")]
+		[Address(RVA = "0x3B250A0", Offset = "0x3B250A0", VA = "0x3B250A0", Slot = "8")]
 		get
 		{
 			return default(bool);
@@ -361,7 +368,7 @@ public class CryptoStream : Stream, IDisposable
 	public override bool CanWrite
 	{
 		[Token(Token = "0x6001802")]
-		[Address(RVA = "0x4E3F590", Offset = "0x4E3F590", VA = "0x4E3F590", Slot = "10")]
+		[Address(RVA = "0x3B250B0", Offset = "0x3B250B0", VA = "0x3B250B0", Slot = "10")]
 		get
 		{
 			return default(bool);
@@ -372,7 +379,7 @@ public class CryptoStream : Stream, IDisposable
 	public override long Length
 	{
 		[Token(Token = "0x6001803")]
-		[Address(RVA = "0x4E3F5A0", Offset = "0x4E3F5A0", VA = "0x4E3F5A0", Slot = "11")]
+		[Address(RVA = "0x3B250C0", Offset = "0x3B250C0", VA = "0x3B250C0", Slot = "11")]
 		get
 		{
 			return default(long);
@@ -383,13 +390,13 @@ public class CryptoStream : Stream, IDisposable
 	public override long Position
 	{
 		[Token(Token = "0x6001804")]
-		[Address(RVA = "0x4E3F5F0", Offset = "0x4E3F5F0", VA = "0x4E3F5F0", Slot = "12")]
+		[Address(RVA = "0x3B25110", Offset = "0x3B25110", VA = "0x3B25110", Slot = "12")]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x6001805")]
-		[Address(RVA = "0x4E3F640", Offset = "0x4E3F640", VA = "0x4E3F640", Slot = "13")]
+		[Address(RVA = "0x3B25160", Offset = "0x3B25160", VA = "0x3B25160", Slot = "13")]
 		set
 		{
 		}
@@ -399,7 +406,7 @@ public class CryptoStream : Stream, IDisposable
 	public bool HasFlushedFinalBlock
 	{
 		[Token(Token = "0x6001806")]
-		[Address(RVA = "0x4E3F690", Offset = "0x4E3F690", VA = "0x4E3F690")]
+		[Address(RVA = "0x3B251B0", Offset = "0x3B251B0", VA = "0x3B251B0")]
 		get
 		{
 			return default(bool);
@@ -410,7 +417,7 @@ public class CryptoStream : Stream, IDisposable
 	private SemaphoreSlim AsyncActiveSemaphore
 	{
 		[Token(Token = "0x600181F")]
-		[Address(RVA = "0x4E407A0", Offset = "0x4E407A0", VA = "0x4E407A0")]
+		[Address(RVA = "0x3B262C0", Offset = "0x3B262C0", VA = "0x3B262C0")]
 		get
 		{
 			return null;
@@ -418,72 +425,72 @@ public class CryptoStream : Stream, IDisposable
 	}
 
 	[Token(Token = "0x60017FE")]
-	[Address(RVA = "0x4E3F1E0", Offset = "0x4E3F1E0", VA = "0x4E3F1E0")]
+	[Address(RVA = "0x3B24D00", Offset = "0x3B24D00", VA = "0x3B24D00")]
 	public CryptoStream(Stream stream, ICryptoTransform transform, CryptoStreamMode mode)
 	{
 	}
 
 	[Token(Token = "0x60017FF")]
-	[Address(RVA = "0x4E3F1F0", Offset = "0x4E3F1F0", VA = "0x4E3F1F0")]
+	[Address(RVA = "0x3B24D10", Offset = "0x3B24D10", VA = "0x3B24D10")]
 	public CryptoStream(Stream stream, ICryptoTransform transform, CryptoStreamMode mode, bool leaveOpen)
 	{
 	}
 
 	[Token(Token = "0x6001807")]
-	[Address(RVA = "0x4E3F6A0", Offset = "0x4E3F6A0", VA = "0x4E3F6A0")]
+	[Address(RVA = "0x3B251C0", Offset = "0x3B251C0", VA = "0x3B251C0")]
 	public void FlushFinalBlock()
 	{
 	}
 
 	[Token(Token = "0x6001808")]
-	[Address(RVA = "0x4E3F8D0", Offset = "0x4E3F8D0", VA = "0x4E3F8D0", Slot = "20")]
+	[Address(RVA = "0x3B253F0", Offset = "0x3B253F0", VA = "0x3B253F0", Slot = "20")]
 	public override void Flush()
 	{
 	}
 
 	[Token(Token = "0x6001809")]
-	[Address(RVA = "0x4E3F8E0", Offset = "0x4E3F8E0", VA = "0x4E3F8E0", Slot = "21")]
+	[Address(RVA = "0x3B25400", Offset = "0x3B25400", VA = "0x3B25400", Slot = "21")]
 	public override Task FlushAsync(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600180A")]
-	[Address(RVA = "0x4E3FA50", Offset = "0x4E3FA50", VA = "0x4E3FA50", Slot = "30")]
+	[Address(RVA = "0x3B25570", Offset = "0x3B25570", VA = "0x3B25570", Slot = "30")]
 	public override long Seek(long offset, SeekOrigin origin)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x600180B")]
-	[Address(RVA = "0x4E3FAA0", Offset = "0x4E3FAA0", VA = "0x4E3FAA0", Slot = "31")]
+	[Address(RVA = "0x3B255C0", Offset = "0x3B255C0", VA = "0x3B255C0", Slot = "31")]
 	public override void SetLength(long value)
 	{
 	}
 
 	[Token(Token = "0x600180C")]
-	[Address(RVA = "0x4E3FAF0", Offset = "0x4E3FAF0", VA = "0x4E3FAF0", Slot = "24")]
+	[Address(RVA = "0x3B25610", Offset = "0x3B25610", VA = "0x3B25610", Slot = "24")]
 	public override Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600180D")]
-	[Address(RVA = "0x4E3FDC0", Offset = "0x4E3FDC0", VA = "0x4E3FDC0", Slot = "22")]
+	[Address(RVA = "0x3B258E0", Offset = "0x3B258E0", VA = "0x3B258E0", Slot = "22")]
 	public override IAsyncResult BeginRead(byte[] buffer, int offset, int count, AsyncCallback callback, object state)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600180E")]
-	[Address(RVA = "0x4E3FE60", Offset = "0x4E3FE60", VA = "0x4E3FE60", Slot = "23")]
+	[Address(RVA = "0x3B25980", Offset = "0x3B25980", VA = "0x3B25980", Slot = "23")]
 	public override int EndRead(IAsyncResult asyncResult)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600180F")]
-	[Address(RVA = "0x4E3FC60", Offset = "0x4E3FC60", VA = "0x4E3FC60")]
+	[Address(RVA = "0x3B25780", Offset = "0x3B25780", VA = "0x3B25780")]
 	[AsyncStateMachine(typeof(_003CReadAsyncInternal_003Ed__37))]
 	private Task<int> ReadAsyncInternal(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
 	{
@@ -491,33 +498,33 @@ public class CryptoStream : Stream, IDisposable
 	}
 
 	[Token(Token = "0x6001810")]
-	[Address(RVA = "0x4E3FEA0", Offset = "0x4E3FEA0", VA = "0x4E3FEA0", Slot = "34")]
+	[Address(RVA = "0x3B259C0", Offset = "0x3B259C0", VA = "0x3B259C0", Slot = "34")]
 	public override int ReadByte()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001811")]
-	[Address(RVA = "0x4E3FF00", Offset = "0x4E3FF00", VA = "0x4E3FF00", Slot = "37")]
+	[Address(RVA = "0x3B25A20", Offset = "0x3B25A20", VA = "0x3B25A20", Slot = "37")]
 	public override void WriteByte(byte value)
 	{
 	}
 
 	[Token(Token = "0x6001812")]
-	[Address(RVA = "0x4E3FF40", Offset = "0x4E3FF40", VA = "0x4E3FF40", Slot = "32")]
+	[Address(RVA = "0x3B25A60", Offset = "0x3B25A60", VA = "0x3B25A60", Slot = "32")]
 	public override int Read(byte[] buffer, int offset, int count)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001813")]
-	[Address(RVA = "0x4E3FB30", Offset = "0x4E3FB30", VA = "0x4E3FB30")]
+	[Address(RVA = "0x3B25650", Offset = "0x3B25650", VA = "0x3B25650")]
 	private void CheckReadArguments(byte[] buffer, int offset, int count)
 	{
 	}
 
 	[Token(Token = "0x6001814")]
-	[Address(RVA = "0x4E3FFF0", Offset = "0x4E3FFF0", VA = "0x4E3FFF0")]
+	[Address(RVA = "0x3B25B10", Offset = "0x3B25B10", VA = "0x3B25B10")]
 	[AsyncStateMachine(typeof(_003CReadAsyncCore_003Ed__42))]
 	private Task<int> ReadAsyncCore(byte[] buffer, int offset, int count, CancellationToken cancellationToken, bool useAsync)
 	{
@@ -525,27 +532,27 @@ public class CryptoStream : Stream, IDisposable
 	}
 
 	[Token(Token = "0x6001815")]
-	[Address(RVA = "0x4E40180", Offset = "0x4E40180", VA = "0x4E40180", Slot = "28")]
+	[Address(RVA = "0x3B25CA0", Offset = "0x3B25CA0", VA = "0x3B25CA0", Slot = "28")]
 	public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001816")]
-	[Address(RVA = "0x4E40430", Offset = "0x4E40430", VA = "0x4E40430", Slot = "26")]
+	[Address(RVA = "0x3B25F50", Offset = "0x3B25F50", VA = "0x3B25F50", Slot = "26")]
 	public override IAsyncResult BeginWrite(byte[] buffer, int offset, int count, AsyncCallback callback, object state)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001817")]
-	[Address(RVA = "0x4E404D0", Offset = "0x4E404D0", VA = "0x4E404D0", Slot = "27")]
+	[Address(RVA = "0x3B25FF0", Offset = "0x3B25FF0", VA = "0x3B25FF0", Slot = "27")]
 	public override void EndWrite(IAsyncResult asyncResult)
 	{
 	}
 
 	[Token(Token = "0x6001818")]
-	[Address(RVA = "0x4E402F0", Offset = "0x4E402F0", VA = "0x4E402F0")]
+	[Address(RVA = "0x3B25E10", Offset = "0x3B25E10", VA = "0x3B25E10")]
 	[AsyncStateMachine(typeof(_003CWriteAsyncInternal_003Ed__46))]
 	private Task WriteAsyncInternal(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
 	{
@@ -553,19 +560,19 @@ public class CryptoStream : Stream, IDisposable
 	}
 
 	[Token(Token = "0x6001819")]
-	[Address(RVA = "0x4E404E0", Offset = "0x4E404E0", VA = "0x4E404E0", Slot = "35")]
+	[Address(RVA = "0x3B26000", Offset = "0x3B26000", VA = "0x3B26000", Slot = "35")]
 	public override void Write(byte[] buffer, int offset, int count)
 	{
 	}
 
 	[Token(Token = "0x600181A")]
-	[Address(RVA = "0x4E401C0", Offset = "0x4E401C0", VA = "0x4E401C0")]
+	[Address(RVA = "0x3B25CE0", Offset = "0x3B25CE0", VA = "0x3B25CE0")]
 	private void CheckWriteArguments(byte[] buffer, int offset, int count)
 	{
 	}
 
 	[Token(Token = "0x600181B")]
-	[Address(RVA = "0x4E40550", Offset = "0x4E40550", VA = "0x4E40550")]
+	[Address(RVA = "0x3B26070", Offset = "0x3B26070", VA = "0x3B26070")]
 	[AsyncStateMachine(typeof(_003CWriteAsyncCore_003Ed__49))]
 	private Task WriteAsyncCore(byte[] buffer, int offset, int count, CancellationToken cancellationToken, bool useAsync)
 	{
@@ -573,19 +580,19 @@ public class CryptoStream : Stream, IDisposable
 	}
 
 	[Token(Token = "0x600181C")]
-	[Address(RVA = "0x4E406C0", Offset = "0x4E406C0", VA = "0x4E406C0")]
+	[Address(RVA = "0x3B261E0", Offset = "0x3B261E0", VA = "0x3B261E0")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x600181D")]
-	[Address(RVA = "0x4E406E0", Offset = "0x4E406E0", VA = "0x4E406E0", Slot = "19")]
+	[Address(RVA = "0x3B26200", Offset = "0x3B26200", VA = "0x3B26200", Slot = "19")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x600181E")]
-	[Address(RVA = "0x4E3F3E0", Offset = "0x4E3F3E0", VA = "0x4E3F3E0")]
+	[Address(RVA = "0x3B24F00", Offset = "0x3B24F00", VA = "0x3B24F00")]
 	private void InitializeBuffer()
 	{
 	}

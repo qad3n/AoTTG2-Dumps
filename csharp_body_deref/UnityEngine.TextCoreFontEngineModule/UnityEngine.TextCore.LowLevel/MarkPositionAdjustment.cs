@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.LowLevel.MarkPositionAdjustment
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -26,7 +33,7 @@ internal struct MarkPositionAdjustment
 	public float xPositionAdjustment
 	{
 		[Token(Token = "0x6000086")]
-		[Address(RVA = "0x4B7EF30", Offset = "0x4B7EF30", VA = "0x4B7EF30")]
+		[Address(RVA = "0x4EA6860", Offset = "0x4EA6860", VA = "0x4EA6860")]
 		get
 		{
 			return default(float);
@@ -37,7 +44,7 @@ internal struct MarkPositionAdjustment
 	public float yPositionAdjustment
 	{
 		[Token(Token = "0x6000087")]
-		[Address(RVA = "0x4B7EF40", Offset = "0x4B7EF40", VA = "0x4B7EF40")]
+		[Address(RVA = "0x4EA6870", Offset = "0x4EA6870", VA = "0x4EA6870")]
 		get
 		{
 			return default(float);

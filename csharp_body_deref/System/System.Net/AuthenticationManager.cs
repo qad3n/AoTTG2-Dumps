@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.AuthenticationManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -19,27 +26,27 @@ public class AuthenticationManager
 	private static ICredentialPolicy credential_policy;
 
 	[Token(Token = "0x6000974")]
-	[Address(RVA = "0x4657230", Offset = "0x4657230", VA = "0x4657230")]
+	[Address(RVA = "0x497C330", Offset = "0x497C330", VA = "0x497C330")]
 	private static void EnsureModules()
 	{
 	}
 
 	[Token(Token = "0x6000975")]
-	[Address(RVA = "0x4657520", Offset = "0x4657520", VA = "0x4657520")]
+	[Address(RVA = "0x497C620", Offset = "0x497C620", VA = "0x497C620")]
 	public static Authorization Authenticate(string challenge, WebRequest request, ICredentials credentials)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000976")]
-	[Address(RVA = "0x4657610", Offset = "0x4657610", VA = "0x4657610")]
+	[Address(RVA = "0x497C710", Offset = "0x497C710", VA = "0x497C710")]
 	private static Authorization DoAuthenticate(string challenge, WebRequest request, ICredentials credentials)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000977")]
-	[Address(RVA = "0x4657B90", Offset = "0x4657B90", VA = "0x4657B90")]
+	[Address(RVA = "0x497CC90", Offset = "0x497CC90", VA = "0x497CC90")]
 	public static Authorization PreAuthenticate(WebRequest request, ICredentials credentials)
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.ForwardAxis
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -29,7 +36,7 @@ internal class ForwardAxis
 	internal DoubleLinkAxis RootNode
 	{
 		[Token(Token = "0x6000F3B")]
-		[Address(RVA = "0x4501660", Offset = "0x4501660", VA = "0x4501660")]
+		[Address(RVA = "0x483EDC0", Offset = "0x483EDC0", VA = "0x483EDC0")]
 		get
 		{
 			return null;
@@ -40,7 +47,7 @@ internal class ForwardAxis
 	internal DoubleLinkAxis TopNode
 	{
 		[Token(Token = "0x6000F3C")]
-		[Address(RVA = "0x4501670", Offset = "0x4501670", VA = "0x4501670")]
+		[Address(RVA = "0x483EDD0", Offset = "0x483EDD0", VA = "0x483EDD0")]
 		get
 		{
 			return null;
@@ -51,7 +58,7 @@ internal class ForwardAxis
 	internal bool IsAttribute
 	{
 		[Token(Token = "0x6000F3D")]
-		[Address(RVA = "0x4501680", Offset = "0x4501680", VA = "0x4501680")]
+		[Address(RVA = "0x483EDE0", Offset = "0x483EDE0", VA = "0x483EDE0")]
 		get
 		{
 			return default(bool);
@@ -62,7 +69,7 @@ internal class ForwardAxis
 	internal bool IsDss
 	{
 		[Token(Token = "0x6000F3E")]
-		[Address(RVA = "0x4501690", Offset = "0x4501690", VA = "0x4501690")]
+		[Address(RVA = "0x483EDF0", Offset = "0x483EDF0", VA = "0x483EDF0")]
 		get
 		{
 			return default(bool);
@@ -73,7 +80,7 @@ internal class ForwardAxis
 	internal bool IsSelfAxis
 	{
 		[Token(Token = "0x6000F3F")]
-		[Address(RVA = "0x45016A0", Offset = "0x45016A0", VA = "0x45016A0")]
+		[Address(RVA = "0x483EE00", Offset = "0x483EE00", VA = "0x483EE00")]
 		get
 		{
 			return default(bool);
@@ -81,7 +88,7 @@ internal class ForwardAxis
 	}
 
 	[Token(Token = "0x6000F40")]
-	[Address(RVA = "0x45016B0", Offset = "0x45016B0", VA = "0x45016B0")]
+	[Address(RVA = "0x483EE10", Offset = "0x483EE10", VA = "0x483EE10")]
 	public ForwardAxis(DoubleLinkAxis axis, bool isdesorself)
 	{
 	}

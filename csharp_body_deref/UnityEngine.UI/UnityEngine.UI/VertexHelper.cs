@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.VertexHelper
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -59,7 +66,7 @@ public class VertexHelper : IDisposable
 	public int currentVertCount
 	{
 		[Token(Token = "0x600051A")]
-		[Address(RVA = "0x4DC7120", Offset = "0x4DC7120", VA = "0x4DC7120")]
+		[Address(RVA = "0x50EEA70", Offset = "0x50EEA70", VA = "0x50EEA70")]
 		get
 		{
 			return default(int);
@@ -70,7 +77,7 @@ public class VertexHelper : IDisposable
 	public int currentIndexCount
 	{
 		[Token(Token = "0x600051B")]
-		[Address(RVA = "0x4DC7160", Offset = "0x4DC7160", VA = "0x4DC7160")]
+		[Address(RVA = "0x50EEAB0", Offset = "0x50EEAB0", VA = "0x50EEAB0")]
 		get
 		{
 			return default(int);
@@ -78,103 +85,103 @@ public class VertexHelper : IDisposable
 	}
 
 	[Token(Token = "0x6000515")]
-	[Address(RVA = "0x4DC6A70", Offset = "0x4DC6A70", VA = "0x4DC6A70")]
+	[Address(RVA = "0x50EE3C0", Offset = "0x50EE3C0", VA = "0x50EE3C0")]
 	public VertexHelper()
 	{
 	}
 
 	[Token(Token = "0x6000516")]
-	[Address(RVA = "0x4DC6A80", Offset = "0x4DC6A80", VA = "0x4DC6A80")]
+	[Address(RVA = "0x50EE3D0", Offset = "0x50EE3D0", VA = "0x50EE3D0")]
 	public VertexHelper(Mesh m)
 	{
 	}
 
 	[Token(Token = "0x6000517")]
-	[Address(RVA = "0x4DC6CB0", Offset = "0x4DC6CB0", VA = "0x4DC6CB0")]
+	[Address(RVA = "0x50EE600", Offset = "0x50EE600", VA = "0x50EE600")]
 	private void InitializeListIfRequired()
 	{
 	}
 
 	[Token(Token = "0x6000518")]
-	[Address(RVA = "0x4DC6EA0", Offset = "0x4DC6EA0", VA = "0x4DC6EA0", Slot = "4")]
+	[Address(RVA = "0x50EE7F0", Offset = "0x50EE7F0", VA = "0x50EE7F0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000519")]
-	[Address(RVA = "0x4DB1A10", Offset = "0x4DB1A10", VA = "0x4DB1A10")]
+	[Address(RVA = "0x50D9360", Offset = "0x50D9360", VA = "0x50D9360")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x600051C")]
-	[Address(RVA = "0x4DC71A0", Offset = "0x4DC71A0", VA = "0x4DC71A0")]
+	[Address(RVA = "0x50EEAF0", Offset = "0x50EEAF0", VA = "0x50EEAF0")]
 	public void PopulateUIVertex(ref UIVertex vertex, int i)
 	{
 	}
 
 	[Token(Token = "0x600051D")]
-	[Address(RVA = "0x4DC7300", Offset = "0x4DC7300", VA = "0x4DC7300")]
+	[Address(RVA = "0x50EEC50", Offset = "0x50EEC50", VA = "0x50EEC50")]
 	public void SetUIVertex(UIVertex vertex, int i)
 	{
 	}
 
 	[Token(Token = "0x600051E")]
-	[Address(RVA = "0x4DC7470", Offset = "0x4DC7470", VA = "0x4DC7470")]
+	[Address(RVA = "0x50EEDC0", Offset = "0x50EEDC0", VA = "0x50EEDC0")]
 	public void FillMesh(Mesh mesh)
 	{
 	}
 
 	[Token(Token = "0x600051F")]
-	[Address(RVA = "0x4DC75C0", Offset = "0x4DC75C0", VA = "0x4DC75C0")]
+	[Address(RVA = "0x50EEF10", Offset = "0x50EEF10", VA = "0x50EEF10")]
 	public void AddVert(Vector3 position, Color32 color, Vector4 uv0, Vector4 uv1, Vector4 uv2, Vector4 uv3, Vector3 normal, Vector4 tangent)
 	{
 	}
 
 	[Token(Token = "0x6000520")]
-	[Address(RVA = "0x4DC79D0", Offset = "0x4DC79D0", VA = "0x4DC79D0")]
+	[Address(RVA = "0x50EF320", Offset = "0x50EF320", VA = "0x50EF320")]
 	public void AddVert(Vector3 position, Color32 color, Vector4 uv0, Vector4 uv1, Vector3 normal, Vector4 tangent)
 	{
 	}
 
 	[Token(Token = "0x6000521")]
-	[Address(RVA = "0x4DB1B30", Offset = "0x4DB1B30", VA = "0x4DB1B30")]
+	[Address(RVA = "0x50D9480", Offset = "0x50D9480", VA = "0x50D9480")]
 	public void AddVert(Vector3 position, Color32 color, Vector4 uv0)
 	{
 	}
 
 	[Token(Token = "0x6000522")]
-	[Address(RVA = "0x4DC7AF0", Offset = "0x4DC7AF0", VA = "0x4DC7AF0")]
+	[Address(RVA = "0x50EF440", Offset = "0x50EF440", VA = "0x50EF440")]
 	public void AddVert(UIVertex v)
 	{
 	}
 
 	[Token(Token = "0x6000523")]
-	[Address(RVA = "0x4DB1CC0", Offset = "0x4DB1CC0", VA = "0x4DB1CC0")]
+	[Address(RVA = "0x50D9610", Offset = "0x50D9610", VA = "0x50D9610")]
 	public void AddTriangle(int idx0, int idx1, int idx2)
 	{
 	}
 
 	[Token(Token = "0x6000524")]
-	[Address(RVA = "0x4DC2EB0", Offset = "0x4DC2EB0", VA = "0x4DC2EB0")]
+	[Address(RVA = "0x50EA800", Offset = "0x50EA800", VA = "0x50EA800")]
 	public void AddUIVertexQuad(UIVertex[] verts)
 	{
 	}
 
 	[Token(Token = "0x6000525")]
-	[Address(RVA = "0x4DC7D20", Offset = "0x4DC7D20", VA = "0x4DC7D20")]
+	[Address(RVA = "0x50EF670", Offset = "0x50EF670", VA = "0x50EF670")]
 	public void AddUIVertexStream(List<UIVertex> verts, List<int> indices)
 	{
 	}
 
 	[Token(Token = "0x6000526")]
-	[Address(RVA = "0x4DC7DD0", Offset = "0x4DC7DD0", VA = "0x4DC7DD0")]
+	[Address(RVA = "0x50EF720", Offset = "0x50EF720", VA = "0x50EF720")]
 	public void AddUIVertexTriangleStream(List<UIVertex> verts)
 	{
 	}
 
 	[Token(Token = "0x6000527")]
-	[Address(RVA = "0x4DC7E30", Offset = "0x4DC7E30", VA = "0x4DC7E30")]
+	[Address(RVA = "0x50EF780", Offset = "0x50EF780", VA = "0x50EF780")]
 	public void GetUIVertexStream(List<UIVertex> stream)
 	{
 	}

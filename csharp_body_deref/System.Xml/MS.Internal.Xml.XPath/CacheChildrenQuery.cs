@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MS.Internal.Xml.XPath.CacheChildrenQuery
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.XPath;
 using Il2CppDummyDll;
 
@@ -23,46 +30,46 @@ internal sealed class CacheChildrenQuery : ChildrenQuery
 	private bool _needInput;
 
 	[Token(Token = "0x6001A8E")]
-	[Address(RVA = "0x443B550", Offset = "0x443B550", VA = "0x443B550")]
+	[Address(RVA = "0x4778CB0", Offset = "0x4778CB0", VA = "0x4778CB0")]
 	public CacheChildrenQuery(Query qyInput, string name, string prefix, XPathNodeType type)
 	{
 	}
 
 	[Token(Token = "0x6001A8F")]
-	[Address(RVA = "0x443B750", Offset = "0x443B750", VA = "0x443B750")]
+	[Address(RVA = "0x4778EB0", Offset = "0x4778EB0", VA = "0x4778EB0")]
 	private CacheChildrenQuery(CacheChildrenQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001A90")]
-	[Address(RVA = "0x443B8B0", Offset = "0x443B8B0", VA = "0x443B8B0", Slot = "12")]
+	[Address(RVA = "0x4779010", Offset = "0x4779010", VA = "0x4779010", Slot = "12")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001A91")]
-	[Address(RVA = "0x443B9E0", Offset = "0x443B9E0", VA = "0x443B9E0", Slot = "15")]
+	[Address(RVA = "0x4779140", Offset = "0x4779140", VA = "0x4779140", Slot = "15")]
 	public override XPathNavigator Advance()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A92")]
-	[Address(RVA = "0x443BC40", Offset = "0x443BC40", VA = "0x443BC40")]
+	[Address(RVA = "0x47793A0", Offset = "0x47793A0", VA = "0x47793A0")]
 	private bool DecideNextNode()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001A93")]
-	[Address(RVA = "0x443BBD0", Offset = "0x443BBD0", VA = "0x443BBD0")]
+	[Address(RVA = "0x4779330", Offset = "0x4779330", VA = "0x4779330")]
 	private XPathNavigator GetNextInput()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A94")]
-	[Address(RVA = "0x443BDA0", Offset = "0x443BDA0", VA = "0x443BDA0", Slot = "6")]
+	[Address(RVA = "0x4779500", Offset = "0x4779500", VA = "0x4779500", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

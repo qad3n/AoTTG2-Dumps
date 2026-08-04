@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.U2D.SpriteBone
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -7,7 +14,7 @@ using UnityEngine.Scripting.APIUpdating;
 namespace UnityEngine.U2D;
 
 [Serializable]
-[Token(Token = "0x20001AF")]
+[Token(Token = "0x20001B2")]
 [UnityEngine.Bindings.NativeHeader("Runtime/2D/Common/SpriteDataAccess.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/2D/Common/SpriteDataMarshalling.h")]
 [MovedFrom("UnityEngine.Experimental.U2D")]

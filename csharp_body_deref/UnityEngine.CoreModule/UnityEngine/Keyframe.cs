@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Keyframe
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
@@ -40,13 +47,13 @@ public struct Keyframe
 	public float time
 	{
 		[Token(Token = "0x60000FC")]
-		[Address(RVA = "0x4A867A0", Offset = "0x4A867A0", VA = "0x4A867A0")]
+		[Address(RVA = "0x4DADFC0", Offset = "0x4DADFC0", VA = "0x4DADFC0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60000FD")]
-		[Address(RVA = "0x4A867B0", Offset = "0x4A867B0", VA = "0x4A867B0")]
+		[Address(RVA = "0x4DADFD0", Offset = "0x4DADFD0", VA = "0x4DADFD0")]
 		set
 		{
 		}
@@ -56,13 +63,13 @@ public struct Keyframe
 	public float value
 	{
 		[Token(Token = "0x60000FE")]
-		[Address(RVA = "0x4A867C0", Offset = "0x4A867C0", VA = "0x4A867C0")]
+		[Address(RVA = "0x4DADFE0", Offset = "0x4DADFE0", VA = "0x4DADFE0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60000FF")]
-		[Address(RVA = "0x4A867D0", Offset = "0x4A867D0", VA = "0x4A867D0")]
+		[Address(RVA = "0x4DADFF0", Offset = "0x4DADFF0", VA = "0x4DADFF0")]
 		set
 		{
 		}
@@ -72,13 +79,13 @@ public struct Keyframe
 	public float inTangent
 	{
 		[Token(Token = "0x6000100")]
-		[Address(RVA = "0x4A867E0", Offset = "0x4A867E0", VA = "0x4A867E0")]
+		[Address(RVA = "0x4DAE000", Offset = "0x4DAE000", VA = "0x4DAE000")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000101")]
-		[Address(RVA = "0x4A867F0", Offset = "0x4A867F0", VA = "0x4A867F0")]
+		[Address(RVA = "0x4DAE010", Offset = "0x4DAE010", VA = "0x4DAE010")]
 		set
 		{
 		}
@@ -88,13 +95,13 @@ public struct Keyframe
 	public float outTangent
 	{
 		[Token(Token = "0x6000102")]
-		[Address(RVA = "0x4A86800", Offset = "0x4A86800", VA = "0x4A86800")]
+		[Address(RVA = "0x4DAE020", Offset = "0x4DAE020", VA = "0x4DAE020")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000103")]
-		[Address(RVA = "0x4A86810", Offset = "0x4A86810", VA = "0x4A86810")]
+		[Address(RVA = "0x4DAE030", Offset = "0x4DAE030", VA = "0x4DAE030")]
 		set
 		{
 		}
@@ -104,13 +111,13 @@ public struct Keyframe
 	public float inWeight
 	{
 		[Token(Token = "0x6000104")]
-		[Address(RVA = "0x4A86820", Offset = "0x4A86820", VA = "0x4A86820")]
+		[Address(RVA = "0x4DAE040", Offset = "0x4DAE040", VA = "0x4DAE040")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000105")]
-		[Address(RVA = "0x4A86830", Offset = "0x4A86830", VA = "0x4A86830")]
+		[Address(RVA = "0x4DAE050", Offset = "0x4DAE050", VA = "0x4DAE050")]
 		set
 		{
 		}
@@ -120,13 +127,13 @@ public struct Keyframe
 	public float outWeight
 	{
 		[Token(Token = "0x6000106")]
-		[Address(RVA = "0x4A86840", Offset = "0x4A86840", VA = "0x4A86840")]
+		[Address(RVA = "0x4DAE060", Offset = "0x4DAE060", VA = "0x4DAE060")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000107")]
-		[Address(RVA = "0x4A86850", Offset = "0x4A86850", VA = "0x4A86850")]
+		[Address(RVA = "0x4DAE070", Offset = "0x4DAE070", VA = "0x4DAE070")]
 		set
 		{
 		}
@@ -136,13 +143,13 @@ public struct Keyframe
 	public WeightedMode weightedMode
 	{
 		[Token(Token = "0x6000108")]
-		[Address(RVA = "0x4A86860", Offset = "0x4A86860", VA = "0x4A86860")]
+		[Address(RVA = "0x4DAE080", Offset = "0x4DAE080", VA = "0x4DAE080")]
 		get
 		{
 			return default(WeightedMode);
 		}
 		[Token(Token = "0x6000109")]
-		[Address(RVA = "0x4A86870", Offset = "0x4A86870", VA = "0x4A86870")]
+		[Address(RVA = "0x4DAE090", Offset = "0x4DAE090", VA = "0x4DAE090")]
 		set
 		{
 		}
@@ -153,13 +160,13 @@ public struct Keyframe
 	public int tangentMode
 	{
 		[Token(Token = "0x600010A")]
-		[Address(RVA = "0x4A86880", Offset = "0x4A86880", VA = "0x4A86880")]
+		[Address(RVA = "0x4DAE0A0", Offset = "0x4DAE0A0", VA = "0x4DAE0A0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600010B")]
-		[Address(RVA = "0x4A868A0", Offset = "0x4A868A0", VA = "0x4A868A0")]
+		[Address(RVA = "0x4DAE0C0", Offset = "0x4DAE0C0", VA = "0x4DAE0C0")]
 		set
 		{
 		}
@@ -169,26 +176,26 @@ public struct Keyframe
 	internal int tangentModeInternal
 	{
 		[Token(Token = "0x600010C")]
-		[Address(RVA = "0x4A86890", Offset = "0x4A86890", VA = "0x4A86890")]
+		[Address(RVA = "0x4DAE0B0", Offset = "0x4DAE0B0", VA = "0x4DAE0B0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600010D")]
-		[Address(RVA = "0x4A868B0", Offset = "0x4A868B0", VA = "0x4A868B0")]
+		[Address(RVA = "0x4DAE0D0", Offset = "0x4DAE0D0", VA = "0x4DAE0D0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60000FA")]
-	[Address(RVA = "0x4A86750", Offset = "0x4A86750", VA = "0x4A86750")]
+	[Address(RVA = "0x4DADF70", Offset = "0x4DADF70", VA = "0x4DADF70")]
 	public Keyframe(float time, float value)
 	{
 	}
 
 	[Token(Token = "0x60000FB")]
-	[Address(RVA = "0x4A86770", Offset = "0x4A86770", VA = "0x4A86770")]
+	[Address(RVA = "0x4DADF90", Offset = "0x4DADF90", VA = "0x4DADF90")]
 	public Keyframe(float time, float value, float inTangent, float outTangent)
 	{
 	}

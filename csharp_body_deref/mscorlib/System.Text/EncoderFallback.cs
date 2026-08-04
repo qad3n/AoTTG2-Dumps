@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.EncoderFallback
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Text;
@@ -18,7 +25,7 @@ public abstract class EncoderFallback
 	public static EncoderFallback ReplacementFallback
 	{
 		[Token(Token = "0x600159F")]
-		[Address(RVA = "0x4E19180", Offset = "0x4E19180", VA = "0x4E19180")]
+		[Address(RVA = "0x3AFECA0", Offset = "0x3AFECA0", VA = "0x3AFECA0")]
 		get
 		{
 			return null;
@@ -29,7 +36,7 @@ public abstract class EncoderFallback
 	public static EncoderFallback ExceptionFallback
 	{
 		[Token(Token = "0x60015A0")]
-		[Address(RVA = "0x4E19280", Offset = "0x4E19280", VA = "0x4E19280")]
+		[Address(RVA = "0x3AFEDA0", Offset = "0x3AFEDA0", VA = "0x3AFEDA0")]
 		get
 		{
 			return null;
@@ -47,7 +54,7 @@ public abstract class EncoderFallback
 	public abstract EncoderFallbackBuffer CreateFallbackBuffer();
 
 	[Token(Token = "0x60015A3")]
-	[Address(RVA = "0x4E18490", Offset = "0x4E18490", VA = "0x4E18490")]
+	[Address(RVA = "0x3AFDFB0", Offset = "0x3AFDFB0", VA = "0x3AFDFB0")]
 	protected EncoderFallback()
 	{
 	}

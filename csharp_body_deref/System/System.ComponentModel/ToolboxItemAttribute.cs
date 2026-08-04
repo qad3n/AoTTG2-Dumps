@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.ToolboxItemAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.ComponentModel;
@@ -26,7 +33,7 @@ public class ToolboxItemAttribute : Attribute
 	public Type ToolboxItemType
 	{
 		[Token(Token = "0x6000FF7")]
-		[Address(RVA = "0x456C3D0", Offset = "0x456C3D0", VA = "0x456C3D0")]
+		[Address(RVA = "0x48914D0", Offset = "0x48914D0", VA = "0x48914D0")]
 		get
 		{
 			return null;
@@ -37,7 +44,7 @@ public class ToolboxItemAttribute : Attribute
 	public string ToolboxItemTypeName
 	{
 		[Token(Token = "0x6000FF8")]
-		[Address(RVA = "0x456C580", Offset = "0x456C580", VA = "0x456C580")]
+		[Address(RVA = "0x4891680", Offset = "0x4891680", VA = "0x4891680")]
 		get
 		{
 			return null;
@@ -45,39 +52,39 @@ public class ToolboxItemAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000FF3")]
-	[Address(RVA = "0x456C220", Offset = "0x456C220", VA = "0x456C220", Slot = "6")]
+	[Address(RVA = "0x4891320", Offset = "0x4891320", VA = "0x4891320", Slot = "6")]
 	public override bool IsDefaultAttribute()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FF4")]
-	[Address(RVA = "0x456C290", Offset = "0x456C290", VA = "0x456C290")]
+	[Address(RVA = "0x4891390", Offset = "0x4891390", VA = "0x4891390")]
 	public ToolboxItemAttribute(bool defaultType)
 	{
 	}
 
 	[Token(Token = "0x6000FF5")]
-	[Address(RVA = "0x456C2F0", Offset = "0x456C2F0", VA = "0x456C2F0")]
+	[Address(RVA = "0x48913F0", Offset = "0x48913F0", VA = "0x48913F0")]
 	public ToolboxItemAttribute(string toolboxItemTypeName)
 	{
 	}
 
 	[Token(Token = "0x6000FF6")]
-	[Address(RVA = "0x456C370", Offset = "0x456C370", VA = "0x456C370")]
+	[Address(RVA = "0x4891470", Offset = "0x4891470", VA = "0x4891470")]
 	public ToolboxItemAttribute(Type toolboxItemType)
 	{
 	}
 
 	[Token(Token = "0x6000FF9")]
-	[Address(RVA = "0x456C5B0", Offset = "0x456C5B0", VA = "0x456C5B0", Slot = "0")]
+	[Address(RVA = "0x48916B0", Offset = "0x48916B0", VA = "0x48916B0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FFA")]
-	[Address(RVA = "0x456C690", Offset = "0x456C690", VA = "0x456C690", Slot = "2")]
+	[Address(RVA = "0x4891790", Offset = "0x4891790", VA = "0x4891790", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

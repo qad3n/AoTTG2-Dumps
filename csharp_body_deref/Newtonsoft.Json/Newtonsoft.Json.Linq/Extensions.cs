@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Linq.Extensions
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonRealtime/Code/Extensions.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -245,21 +252,21 @@ public static class Extensions
 	}
 
 	[Token(Token = "0x6000AE5")]
-	[Address(RVA = "0x3B10540", Offset = "0x3B10540", VA = "0x3B10540")]
+	[Address(RVA = "0x3E05E90", Offset = "0x3E05E90", VA = "0x3E05E90")]
 	public static IJEnumerable<JProperty> Properties(this IEnumerable<JObject> source)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AE6")]
-	[Address(RVA = "0x3B10690", Offset = "0x3B10690", VA = "0x3B10690")]
+	[Address(RVA = "0x3E05FE0", Offset = "0x3E05FE0", VA = "0x3E05FE0")]
 	public static IJEnumerable<JToken> Values(this IEnumerable<JToken> source, object? key)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AE7")]
-	[Address(RVA = "0x3B10750", Offset = "0x3B10750", VA = "0x3B10750")]
+	[Address(RVA = "0x3E060A0", Offset = "0x3E060A0", VA = "0x3E060A0")]
 	public static IJEnumerable<JToken> Values(this IEnumerable<JToken> source)
 	{
 		return null;
@@ -322,7 +329,7 @@ public static class Extensions
 	}
 
 	[Token(Token = "0x6000AF1")]
-	[Address(RVA = "0x3B10710", Offset = "0x3B10710", VA = "0x3B10710")]
+	[Address(RVA = "0x3E06060", Offset = "0x3E06060", VA = "0x3E06060")]
 	public static IJEnumerable<JToken> AsJEnumerable(this IEnumerable<JToken> source)
 	{
 		return null;

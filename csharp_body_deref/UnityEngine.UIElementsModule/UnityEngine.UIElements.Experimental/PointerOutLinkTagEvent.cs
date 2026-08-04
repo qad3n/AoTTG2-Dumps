@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Experimental.PointerOutLinkTagEvent
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Experimental;
@@ -7,32 +14,32 @@ namespace UnityEngine.UIElements.Experimental;
 public class PointerOutLinkTagEvent : PointerEventBase<PointerOutLinkTagEvent>
 {
 	[Token(Token = "0x60020C2")]
-	[Address(RVA = "0x4CACD50", Offset = "0x4CACD50", VA = "0x4CACD50")]
+	[Address(RVA = "0x4FD4680", Offset = "0x4FD4680", VA = "0x4FD4680")]
 	static PointerOutLinkTagEvent()
 	{
 	}
 
 	[Token(Token = "0x60020C3")]
-	[Address(RVA = "0x4CACE20", Offset = "0x4CACE20", VA = "0x4CACE20", Slot = "13")]
+	[Address(RVA = "0x4FD4750", Offset = "0x4FD4750", VA = "0x4FD4750", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
 	[Token(Token = "0x60020C4")]
-	[Address(RVA = "0x4CACE60", Offset = "0x4CACE60", VA = "0x4CACE60")]
+	[Address(RVA = "0x4FD4790", Offset = "0x4FD4790", VA = "0x4FD4790")]
 	private void LocalInit()
 	{
 	}
 
 	[Token(Token = "0x60020C5")]
-	[Address(RVA = "0x4CACE70", Offset = "0x4CACE70", VA = "0x4CACE70")]
+	[Address(RVA = "0x4FD47A0", Offset = "0x4FD47A0", VA = "0x4FD47A0")]
 	public static PointerOutLinkTagEvent GetPooled(IPointerEvent evt, string linkID)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60020C6")]
-	[Address(RVA = "0x4CACEB0", Offset = "0x4CACEB0", VA = "0x4CACEB0")]
+	[Address(RVA = "0x4FD47E0", Offset = "0x4FD47E0", VA = "0x4FD47E0")]
 	public PointerOutLinkTagEvent()
 	{
 	}

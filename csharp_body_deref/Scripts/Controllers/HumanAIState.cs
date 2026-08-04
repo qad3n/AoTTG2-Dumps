@@ -1,57 +1,64 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Controllers.HumanAIState
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Controllers/HumanAIState.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Characters;
 using Il2CppDummyDll;
 
 namespace Controllers;
 
-[Token(Token = "0x2000486")]
+[Token(Token = "0x20004CB")]
 internal class HumanAIState
 {
-	[Token(Token = "0x400141A")]
+	[Token(Token = "0x400152B")]
 	[FieldOffset(Offset = "0x10")]
 	protected Human Human;
 
-	[Token(Token = "0x400141B")]
+	[Token(Token = "0x400152C")]
 	[FieldOffset(Offset = "0x18")]
 	protected HumanAIController Controller;
 
-	[Token(Token = "0x1700093D")]
+	[Token(Token = "0x170009A7")]
 	public virtual string Name
 	{
-		[Token(Token = "0x6003096")]
-		[Address(RVA = "0x3E8AEA0", Offset = "0x3E8AEA0", VA = "0x3E8AEA0", Slot = "4")]
+		[Token(Token = "0x60032A3")]
+		[Address(RVA = "0x4197440", Offset = "0x4197440", VA = "0x4197440", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6003097")]
-	[Address(RVA = "0x3E8AED0", Offset = "0x3E8AED0", VA = "0x3E8AED0", Slot = "5")]
+	[Token(Token = "0x60032A4")]
+	[Address(RVA = "0x4197470", Offset = "0x4197470", VA = "0x4197470", Slot = "5")]
 	public virtual HumanAIState Init(Human human)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003098")]
-	[Address(RVA = "0x3E8AFA0", Offset = "0x3E8AFA0", VA = "0x3E8AFA0", Slot = "6")]
+	[Token(Token = "0x60032A5")]
+	[Address(RVA = "0x4197540", Offset = "0x4197540", VA = "0x4197540", Slot = "6")]
 	public virtual void OnStateEntry()
 	{
 	}
 
-	[Token(Token = "0x6003099")]
-	[Address(RVA = "0x3E8AFB0", Offset = "0x3E8AFB0", VA = "0x3E8AFB0", Slot = "7")]
+	[Token(Token = "0x60032A6")]
+	[Address(RVA = "0x4197550", Offset = "0x4197550", VA = "0x4197550", Slot = "7")]
 	public virtual void Action()
 	{
 	}
 
-	[Token(Token = "0x600309A")]
-	[Address(RVA = "0x3E8AFC0", Offset = "0x3E8AFC0", VA = "0x3E8AFC0", Slot = "8")]
+	[Token(Token = "0x60032A7")]
+	[Address(RVA = "0x4197560", Offset = "0x4197560", VA = "0x4197560", Slot = "8")]
 	public virtual void OnStateExit()
 	{
 	}
 
-	[Token(Token = "0x600309B")]
-	[Address(RVA = "0x3E8AFD0", Offset = "0x3E8AFD0", VA = "0x3E8AFD0")]
+	[Token(Token = "0x60032A8")]
+	[Address(RVA = "0x4197570", Offset = "0x4197570", VA = "0x4197570")]
 	public HumanAIState()
 	{
 	}

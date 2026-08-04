@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.__DTString
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Globalization;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -35,7 +42,7 @@ internal ref struct __DTString
 	internal int Length
 	{
 		[Token(Token = "0x600072D")]
-		[Address(RVA = "0x4FC6A50", Offset = "0x4FC6A50", VA = "0x4FC6A50")]
+		[Address(RVA = "0x3CAC570", Offset = "0x3CAC570", VA = "0x3CAC570")]
 		get
 		{
 			return default(int);
@@ -46,7 +53,7 @@ internal ref struct __DTString
 	internal CompareInfo CompareInfo
 	{
 		[Token(Token = "0x6000730")]
-		[Address(RVA = "0x4FC6BB0", Offset = "0x4FC6BB0", VA = "0x4FC6BB0")]
+		[Address(RVA = "0x3CAC6D0", Offset = "0x3CAC6D0", VA = "0x3CAC6D0")]
 		get
 		{
 			return null;
@@ -54,46 +61,46 @@ internal ref struct __DTString
 	}
 
 	[Token(Token = "0x600072E")]
-	[Address(RVA = "0x4FC6A80", Offset = "0x4FC6A80", VA = "0x4FC6A80")]
+	[Address(RVA = "0x3CAC5A0", Offset = "0x3CAC5A0", VA = "0x3CAC5A0")]
 	internal __DTString(ReadOnlySpan<char> str, DateTimeFormatInfo dtfi, bool checkDigitToken)
 	{
 	}
 
 	[Token(Token = "0x600072F")]
-	[Address(RVA = "0x4FC6AF0", Offset = "0x4FC6AF0", VA = "0x4FC6AF0")]
+	[Address(RVA = "0x3CAC610", Offset = "0x3CAC610", VA = "0x3CAC610")]
 	internal __DTString(ReadOnlySpan<char> str, DateTimeFormatInfo dtfi)
 	{
 	}
 
 	[Token(Token = "0x6000731")]
-	[Address(RVA = "0x4FC6BC0", Offset = "0x4FC6BC0", VA = "0x4FC6BC0")]
+	[Address(RVA = "0x3CAC6E0", Offset = "0x3CAC6E0", VA = "0x3CAC6E0")]
 	internal bool GetNext()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000732")]
-	[Address(RVA = "0x4FC6C60", Offset = "0x4FC6C60", VA = "0x4FC6C60")]
+	[Address(RVA = "0x3CAC780", Offset = "0x3CAC780", VA = "0x3CAC780")]
 	internal bool AtEnd()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000733")]
-	[Address(RVA = "0x4FC6CE0", Offset = "0x4FC6CE0", VA = "0x4FC6CE0")]
+	[Address(RVA = "0x3CAC800", Offset = "0x3CAC800", VA = "0x3CAC800")]
 	internal bool Advance(int count)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000734")]
-	[Address(RVA = "0x4FC6D80", Offset = "0x4FC6D80", VA = "0x4FC6D80")]
+	[Address(RVA = "0x3CAC8A0", Offset = "0x3CAC8A0", VA = "0x3CAC8A0")]
 	internal void GetRegularToken(out System.TokenType tokenType, out int tokenValue, DateTimeFormatInfo dtfi)
 	{
 	}
 
 	[Token(Token = "0x6000735")]
-	[Address(RVA = "0x4FC7110", Offset = "0x4FC7110", VA = "0x4FC7110")]
+	[Address(RVA = "0x3CACC30", Offset = "0x3CACC30", VA = "0x3CACC30")]
 	internal System.TokenType GetSeparatorToken(DateTimeFormatInfo dtfi, out int indexBeforeSeparator, out char charBeforeSeparator)
 	{
 		return default(System.TokenType);
@@ -101,42 +108,42 @@ internal ref struct __DTString
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000736")]
-	[Address(RVA = "0x4FC7370", Offset = "0x4FC7370", VA = "0x4FC7370")]
+	[Address(RVA = "0x3CACE90", Offset = "0x3CACE90", VA = "0x3CACE90")]
 	internal bool MatchSpecifiedWord(string target)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000737")]
-	[Address(RVA = "0x4FC7490", Offset = "0x4FC7490", VA = "0x4FC7490")]
+	[Address(RVA = "0x3CACFB0", Offset = "0x3CACFB0", VA = "0x3CACFB0")]
 	internal bool MatchSpecifiedWords(string target, bool checkWordBoundary, ref int matchLength)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000738")]
-	[Address(RVA = "0x4FC7950", Offset = "0x4FC7950", VA = "0x4FC7950")]
+	[Address(RVA = "0x3CAD470", Offset = "0x3CAD470", VA = "0x3CAD470")]
 	internal bool Match(string str)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000739")]
-	[Address(RVA = "0x4FC7AB0", Offset = "0x4FC7AB0", VA = "0x4FC7AB0")]
+	[Address(RVA = "0x3CAD5D0", Offset = "0x3CAD5D0", VA = "0x3CAD5D0")]
 	internal bool Match(char ch)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600073A")]
-	[Address(RVA = "0x4FC7B60", Offset = "0x4FC7B60", VA = "0x4FC7B60")]
+	[Address(RVA = "0x3CAD680", Offset = "0x3CAD680", VA = "0x3CAD680")]
 	internal int MatchLongestWords(string[] words, ref int maxMatchStrLen)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600073B")]
-	[Address(RVA = "0x4FC7C60", Offset = "0x4FC7C60", VA = "0x4FC7C60")]
+	[Address(RVA = "0x3CAD780", Offset = "0x3CAD780", VA = "0x3CAD780")]
 	internal int GetRepeatCount()
 	{
 		return default(int);
@@ -144,66 +151,66 @@ internal ref struct __DTString
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600073C")]
-	[Address(RVA = "0x4FC7D30", Offset = "0x4FC7D30", VA = "0x4FC7D30")]
+	[Address(RVA = "0x3CAD850", Offset = "0x3CAD850", VA = "0x3CAD850")]
 	internal bool GetNextDigit()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600073D")]
-	[Address(RVA = "0x4FC7E00", Offset = "0x4FC7E00", VA = "0x4FC7E00")]
+	[Address(RVA = "0x3CAD920", Offset = "0x3CAD920", VA = "0x3CAD920")]
 	internal char GetChar()
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x600073E")]
-	[Address(RVA = "0x4FC7E20", Offset = "0x4FC7E20", VA = "0x4FC7E20")]
+	[Address(RVA = "0x3CAD940", Offset = "0x3CAD940", VA = "0x3CAD940")]
 	internal int GetDigit()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600073F")]
-	[Address(RVA = "0x4FC7E40", Offset = "0x4FC7E40", VA = "0x4FC7E40")]
+	[Address(RVA = "0x3CAD960", Offset = "0x3CAD960", VA = "0x3CAD960")]
 	internal void SkipWhiteSpaces()
 	{
 	}
 
 	[Token(Token = "0x6000740")]
-	[Address(RVA = "0x4FC7210", Offset = "0x4FC7210", VA = "0x4FC7210")]
+	[Address(RVA = "0x3CACD30", Offset = "0x3CACD30", VA = "0x3CACD30")]
 	internal bool SkipWhiteSpaceCurrent()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000741")]
-	[Address(RVA = "0x4FC7F30", Offset = "0x4FC7F30", VA = "0x4FC7F30")]
+	[Address(RVA = "0x3CADA50", Offset = "0x3CADA50", VA = "0x3CADA50")]
 	internal void TrimTail()
 	{
 	}
 
 	[Token(Token = "0x6000742")]
-	[Address(RVA = "0x4FC8080", Offset = "0x4FC8080", VA = "0x4FC8080")]
+	[Address(RVA = "0x3CADBA0", Offset = "0x3CADBA0", VA = "0x3CADBA0")]
 	internal void RemoveTrailingInQuoteSpaces()
 	{
 	}
 
 	[Token(Token = "0x6000743")]
-	[Address(RVA = "0x4FC8300", Offset = "0x4FC8300", VA = "0x4FC8300")]
+	[Address(RVA = "0x3CADE20", Offset = "0x3CADE20", VA = "0x3CADE20")]
 	internal void RemoveLeadingInQuoteSpaces()
 	{
 	}
 
 	[Token(Token = "0x6000744")]
-	[Address(RVA = "0x4FC85E0", Offset = "0x4FC85E0", VA = "0x4FC85E0")]
+	[Address(RVA = "0x3CAE100", Offset = "0x3CAE100", VA = "0x3CAE100")]
 	internal System.DTSubString GetSubString()
 	{
 		return default(System.DTSubString);
 	}
 
 	[Token(Token = "0x6000745")]
-	[Address(RVA = "0x4FC8750", Offset = "0x4FC8750", VA = "0x4FC8750")]
+	[Address(RVA = "0x3CAE270", Offset = "0x3CAE270", VA = "0x3CAE270")]
 	internal void ConsumeSubString(System.DTSubString sub)
 	{
 	}

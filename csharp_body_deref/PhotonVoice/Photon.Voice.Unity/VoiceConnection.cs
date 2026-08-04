@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.Unity.VoiceConnection
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/Code/UnityVoiceClient.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -104,7 +111,7 @@ public class VoiceConnection : ConnectionHandler
 	public virtual bool AlwaysUsePrimaryRecorder
 	{
 		[Token(Token = "0x600009E")]
-		[Address(RVA = "0x3C58890", Offset = "0x3C58890", VA = "0x3C58890", Slot = "6")]
+		[Address(RVA = "0x3F4AE40", Offset = "0x3F4AE40", VA = "0x3F4AE40", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -115,7 +122,7 @@ public class VoiceConnection : ConnectionHandler
 	protected ILogger Logger
 	{
 		[Token(Token = "0x60000A4")]
-		[Address(RVA = "0x3C49580", Offset = "0x3C49580", VA = "0x3C49580")]
+		[Address(RVA = "0x3F3BB30", Offset = "0x3F3BB30", VA = "0x3F3BB30")]
 		get
 		{
 			return null;
@@ -126,7 +133,7 @@ public class VoiceConnection : ConnectionHandler
 	public VoiceLogger VoiceLogger
 	{
 		[Token(Token = "0x60000A5")]
-		[Address(RVA = "0x3C58D30", Offset = "0x3C58D30", VA = "0x3C58D30")]
+		[Address(RVA = "0x3F4B2E0", Offset = "0x3F4B2E0", VA = "0x3F4B2E0")]
 		get
 		{
 			return null;
@@ -137,7 +144,7 @@ public class VoiceConnection : ConnectionHandler
 	public new LoadBalancingTransport Client
 	{
 		[Token(Token = "0x60000A6")]
-		[Address(RVA = "0x3C58D50", Offset = "0x3C58D50", VA = "0x3C58D50")]
+		[Address(RVA = "0x3F4B300", Offset = "0x3F4B300", VA = "0x3F4B300")]
 		get
 		{
 			return null;
@@ -148,7 +155,7 @@ public class VoiceConnection : ConnectionHandler
 	public VoiceClient VoiceClient
 	{
 		[Token(Token = "0x60000A7")]
-		[Address(RVA = "0x3C530F0", Offset = "0x3C530F0", VA = "0x3C530F0")]
+		[Address(RVA = "0x3F456A0", Offset = "0x3F456A0", VA = "0x3F456A0")]
 		get
 		{
 			return null;
@@ -159,7 +166,7 @@ public class VoiceConnection : ConnectionHandler
 	public ClientState ClientState
 	{
 		[Token(Token = "0x60000A8")]
-		[Address(RVA = "0x3C4B060", Offset = "0x3C4B060", VA = "0x3C4B060")]
+		[Address(RVA = "0x3F3D610", Offset = "0x3F3D610", VA = "0x3F3D610")]
 		get
 		{
 			return default(ClientState);
@@ -170,14 +177,14 @@ public class VoiceConnection : ConnectionHandler
 	public float FramesReceivedPerSecond
 	{
 		[Token(Token = "0x60000A9")]
-		[Address(RVA = "0x3C58D60", Offset = "0x3C58D60", VA = "0x3C58D60")]
+		[Address(RVA = "0x3F4B310", Offset = "0x3F4B310", VA = "0x3F4B310")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60000AA")]
-		[Address(RVA = "0x3C58D70", Offset = "0x3C58D70", VA = "0x3C58D70")]
+		[Address(RVA = "0x3F4B320", Offset = "0x3F4B320", VA = "0x3F4B320")]
 		[CompilerGenerated]
 		private set
 		{
@@ -188,14 +195,14 @@ public class VoiceConnection : ConnectionHandler
 	public float FramesLostPerSecond
 	{
 		[Token(Token = "0x60000AB")]
-		[Address(RVA = "0x3C58D80", Offset = "0x3C58D80", VA = "0x3C58D80")]
+		[Address(RVA = "0x3F4B330", Offset = "0x3F4B330", VA = "0x3F4B330")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60000AC")]
-		[Address(RVA = "0x3C58D90", Offset = "0x3C58D90", VA = "0x3C58D90")]
+		[Address(RVA = "0x3F4B340", Offset = "0x3F4B340", VA = "0x3F4B340")]
 		[CompilerGenerated]
 		private set
 		{
@@ -206,14 +213,14 @@ public class VoiceConnection : ConnectionHandler
 	public float FramesLostPercent
 	{
 		[Token(Token = "0x60000AD")]
-		[Address(RVA = "0x3C58DA0", Offset = "0x3C58DA0", VA = "0x3C58DA0")]
+		[Address(RVA = "0x3F4B350", Offset = "0x3F4B350", VA = "0x3F4B350")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60000AE")]
-		[Address(RVA = "0x3C58DB0", Offset = "0x3C58DB0", VA = "0x3C58DB0")]
+		[Address(RVA = "0x3F4B360", Offset = "0x3F4B360", VA = "0x3F4B360")]
 		[CompilerGenerated]
 		private set
 		{
@@ -224,13 +231,13 @@ public class VoiceConnection : ConnectionHandler
 	public GameObject SpeakerPrefab
 	{
 		[Token(Token = "0x60000AF")]
-		[Address(RVA = "0x3C58DC0", Offset = "0x3C58DC0", VA = "0x3C58DC0")]
+		[Address(RVA = "0x3F4B370", Offset = "0x3F4B370", VA = "0x3F4B370")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000B0")]
-		[Address(RVA = "0x3C58DD0", Offset = "0x3C58DD0", VA = "0x3C58DD0")]
+		[Address(RVA = "0x3F4B380", Offset = "0x3F4B380", VA = "0x3F4B380")]
 		set
 		{
 		}
@@ -240,13 +247,13 @@ public class VoiceConnection : ConnectionHandler
 	public Recorder PrimaryRecorder
 	{
 		[Token(Token = "0x60000B1")]
-		[Address(RVA = "0x3C58DE0", Offset = "0x3C58DE0", VA = "0x3C58DE0")]
+		[Address(RVA = "0x3F4B390", Offset = "0x3F4B390", VA = "0x3F4B390")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000B2")]
-		[Address(RVA = "0x3C58DF0", Offset = "0x3C58DF0", VA = "0x3C58DF0")]
+		[Address(RVA = "0x3F4B3A0", Offset = "0x3F4B3A0", VA = "0x3F4B3A0")]
 		set
 		{
 		}
@@ -256,7 +263,7 @@ public class VoiceConnection : ConnectionHandler
 	public bool UsePrimaryRecorder
 	{
 		[Token(Token = "0x60000B3")]
-		[Address(RVA = "0x3C58E00", Offset = "0x3C58E00", VA = "0x3C58E00")]
+		[Address(RVA = "0x3F4B3B0", Offset = "0x3F4B3B0", VA = "0x3F4B3B0")]
 		get
 		{
 			return default(bool);
@@ -267,13 +274,13 @@ public class VoiceConnection : ConnectionHandler
 	public string BestRegionSummaryInPreferences
 	{
 		[Token(Token = "0x60000B4")]
-		[Address(RVA = "0x3C58E10", Offset = "0x3C58E10", VA = "0x3C58E10")]
+		[Address(RVA = "0x3F4B3C0", Offset = "0x3F4B3C0", VA = "0x3F4B3C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000B5")]
-		[Address(RVA = "0x3C58E50", Offset = "0x3C58E50", VA = "0x3C58E50")]
+		[Address(RVA = "0x3F4B400", Offset = "0x3F4B400", VA = "0x3F4B400")]
 		set
 		{
 		}
@@ -283,13 +290,13 @@ public class VoiceConnection : ConnectionHandler
 	public event Action<Speaker> SpeakerLinked
 	{
 		[Token(Token = "0x60000A0")]
-		[Address(RVA = "0x3C58A70", Offset = "0x3C58A70", VA = "0x3C58A70")]
+		[Address(RVA = "0x3F4B020", Offset = "0x3F4B020", VA = "0x3F4B020")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60000A1")]
-		[Address(RVA = "0x3C58B20", Offset = "0x3C58B20", VA = "0x3C58B20")]
+		[Address(RVA = "0x3F4B0D0", Offset = "0x3F4B0D0", VA = "0x3F4B0D0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -300,13 +307,13 @@ public class VoiceConnection : ConnectionHandler
 	public event Action<RemoteVoiceLink> RemoteVoiceAdded
 	{
 		[Token(Token = "0x60000A2")]
-		[Address(RVA = "0x3C58BD0", Offset = "0x3C58BD0", VA = "0x3C58BD0")]
+		[Address(RVA = "0x3F4B180", Offset = "0x3F4B180", VA = "0x3F4B180")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60000A3")]
-		[Address(RVA = "0x3C58C80", Offset = "0x3C58C80", VA = "0x3C58C80")]
+		[Address(RVA = "0x3F4B230", Offset = "0x3F4B230", VA = "0x3F4B230")]
 		[CompilerGenerated]
 		remove
 		{
@@ -314,114 +321,114 @@ public class VoiceConnection : ConnectionHandler
 	}
 
 	[Token(Token = "0x600009F")]
-	[Address(RVA = "0x3C588A0", Offset = "0x3C588A0", VA = "0x3C588A0")]
+	[Address(RVA = "0x3F4AE50", Offset = "0x3F4AE50", VA = "0x3F4AE50")]
 	private void Init()
 	{
 	}
 
 	[Token(Token = "0x60000B6")]
-	[Address(RVA = "0x3C57A70", Offset = "0x3C57A70", VA = "0x3C57A70", Slot = "7")]
+	[Address(RVA = "0x3F4A020", Offset = "0x3F4A020", VA = "0x3F4A020", Slot = "7")]
 	public virtual bool ConnectUsingSettings([Optional] AppSettings overwriteSettings)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000B7")]
-	[Address(RVA = "0x3C58EA0", Offset = "0x3C58EA0", VA = "0x3C58EA0")]
+	[Address(RVA = "0x3F4B450", Offset = "0x3F4B450", VA = "0x3F4B450")]
 	public bool AddSpeaker(Speaker speaker, object userData)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000B8")]
-	[Address(RVA = "0x3C59410", Offset = "0x3C59410", VA = "0x3C59410", Slot = "4")]
+	[Address(RVA = "0x3F4B9C0", Offset = "0x3F4B9C0", VA = "0x3F4B9C0", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
 	[Token(Token = "0x60000B9")]
-	[Address(RVA = "0x3C59780", Offset = "0x3C59780", VA = "0x3C59780", Slot = "8")]
+	[Address(RVA = "0x3F4BD30", Offset = "0x3F4BD30", VA = "0x3F4BD30", Slot = "8")]
 	protected virtual void Update()
 	{
 	}
 
 	[Token(Token = "0x60000BA")]
-	[Address(RVA = "0x3C597B0", Offset = "0x3C597B0", VA = "0x3C597B0", Slot = "9")]
+	[Address(RVA = "0x3F4BD60", Offset = "0x3F4BD60", VA = "0x3F4BD60", Slot = "9")]
 	protected virtual void FixedUpdate()
 	{
 	}
 
 	[Token(Token = "0x60000BB")]
-	[Address(RVA = "0x3C597F0", Offset = "0x3C597F0", VA = "0x3C597F0")]
+	[Address(RVA = "0x3F4BDA0", Offset = "0x3F4BDA0", VA = "0x3F4BDA0")]
 	private void LateUpdate()
 	{
 	}
 
 	[Token(Token = "0x60000BC")]
-	[Address(RVA = "0x3C497B0", Offset = "0x3C497B0", VA = "0x3C497B0", Slot = "10")]
+	[Address(RVA = "0x3F3BD60", Offset = "0x3F3BD60", VA = "0x3F3BD60", Slot = "10")]
 	protected virtual void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x60000BD")]
-	[Address(RVA = "0x3C599D0", Offset = "0x3C599D0", VA = "0x3C599D0", Slot = "11")]
+	[Address(RVA = "0x3F4BF80", Offset = "0x3F4BF80", VA = "0x3F4BF80", Slot = "11")]
 	protected virtual Speaker InstantiateSpeakerForRemoteVoice(int playerId, byte voiceId, object userData)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000BE")]
-	[Address(RVA = "0x3C58050", Offset = "0x3C58050", VA = "0x3C58050")]
+	[Address(RVA = "0x3F4A600", Offset = "0x3F4A600", VA = "0x3F4A600")]
 	public Speaker InstantiateSpeakerPrefab(GameObject parent, bool destroyOnRemove)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000BF")]
-	[Address(RVA = "0x3C59A30", Offset = "0x3C59A30", VA = "0x3C59A30")]
+	[Address(RVA = "0x3F4BFE0", Offset = "0x3F4BFE0", VA = "0x3F4BFE0")]
 	private void OnRemoteVoiceInfo(int channelId, int playerId, byte voiceId, VoiceInfo voiceInfo, ref RemoteVoiceOptions options)
 	{
 	}
 
 	[Token(Token = "0x60000C0")]
-	[Address(RVA = "0x3C4A500", Offset = "0x3C4A500", VA = "0x3C4A500", Slot = "12")]
+	[Address(RVA = "0x3F3CAB0", Offset = "0x3F3CAB0", VA = "0x3F3CAB0", Slot = "12")]
 	protected virtual void OnVoiceStateChanged(ClientState fromState, ClientState toState)
 	{
 	}
 
 	[Token(Token = "0x60000C1")]
-	[Address(RVA = "0x3C59910", Offset = "0x3C59910", VA = "0x3C59910")]
+	[Address(RVA = "0x3F4BEC0", Offset = "0x3F4BEC0", VA = "0x3F4BEC0")]
 	protected void CalcStatistics()
 	{
 	}
 
 	[Token(Token = "0x60000C2")]
-	[Address(RVA = "0x3C590B0", Offset = "0x3C590B0", VA = "0x3C590B0")]
+	[Address(RVA = "0x3F4B660", Offset = "0x3F4B660", VA = "0x3F4B660")]
 	private void LinkSpeaker(Speaker speaker, RemoteVoiceLink remoteVoice)
 	{
 	}
 
 	[Token(Token = "0x60000C3")]
-	[Address(RVA = "0x3C57780", Offset = "0x3C57780", VA = "0x3C57780")]
+	[Address(RVA = "0x3F49D30", Offset = "0x3F49D30", VA = "0x3F49D30")]
 	public bool AddRecorder(Recorder rec)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000C4")]
-	[Address(RVA = "0x3C53840", Offset = "0x3C53840", VA = "0x3C53840")]
+	[Address(RVA = "0x3F45DF0", Offset = "0x3F45DF0", VA = "0x3F45DF0")]
 	public void RemoveRecorder(Recorder rec)
 	{
 	}
 
 	[Token(Token = "0x60000C5")]
-	[Address(RVA = "0x3C5A2F0", Offset = "0x3C5A2F0", VA = "0x3C5A2F0", Slot = "13")]
+	[Address(RVA = "0x3F4C8A0", Offset = "0x3F4C8A0", VA = "0x3F4C8A0", Slot = "13")]
 	protected virtual void OnOperationResponseReceived(OperationResponse operationResponse)
 	{
 	}
 
 	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x3C4B670", Offset = "0x3C4B670", VA = "0x3C4B670")]
+	[Address(RVA = "0x3F3DC20", Offset = "0x3F3DC20", VA = "0x3F3DC20")]
 	public VoiceConnection()
 	{
 	}

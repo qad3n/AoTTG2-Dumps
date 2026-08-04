@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.Unity.WebRtcAudioDsp
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/Code/WebRtcAudioDsp.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 using UnityEngine;
@@ -85,13 +92,13 @@ public class WebRtcAudioDsp : VoiceComponent
 	public bool AEC
 	{
 		[Token(Token = "0x60000E6")]
-		[Address(RVA = "0x3C5B480", Offset = "0x3C5B480", VA = "0x3C5B480")]
+		[Address(RVA = "0x3F4DA30", Offset = "0x3F4DA30", VA = "0x3F4DA30")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000E7")]
-		[Address(RVA = "0x3C54FF0", Offset = "0x3C54FF0", VA = "0x3C54FF0")]
+		[Address(RVA = "0x3F475A0", Offset = "0x3F475A0", VA = "0x3F475A0")]
 		set
 		{
 		}
@@ -101,13 +108,13 @@ public class WebRtcAudioDsp : VoiceComponent
 	public bool AecHighPass
 	{
 		[Token(Token = "0x60000E8")]
-		[Address(RVA = "0x3C5B5F0", Offset = "0x3C5B5F0", VA = "0x3C5B5F0")]
+		[Address(RVA = "0x3F4DBA0", Offset = "0x3F4DBA0", VA = "0x3F4DBA0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000E9")]
-		[Address(RVA = "0x3C5B600", Offset = "0x3C5B600", VA = "0x3C5B600")]
+		[Address(RVA = "0x3F4DBB0", Offset = "0x3F4DBB0", VA = "0x3F4DBB0")]
 		set
 		{
 		}
@@ -117,13 +124,13 @@ public class WebRtcAudioDsp : VoiceComponent
 	public int ReverseStreamDelayMs
 	{
 		[Token(Token = "0x60000EA")]
-		[Address(RVA = "0x3C5B620", Offset = "0x3C5B620", VA = "0x3C5B620")]
+		[Address(RVA = "0x3F4DBD0", Offset = "0x3F4DBD0", VA = "0x3F4DBD0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000EB")]
-		[Address(RVA = "0x3C5B630", Offset = "0x3C5B630", VA = "0x3C5B630")]
+		[Address(RVA = "0x3F4DBE0", Offset = "0x3F4DBE0", VA = "0x3F4DBE0")]
 		set
 		{
 		}
@@ -133,13 +140,13 @@ public class WebRtcAudioDsp : VoiceComponent
 	public bool NoiseSuppression
 	{
 		[Token(Token = "0x60000EC")]
-		[Address(RVA = "0x3C5B640", Offset = "0x3C5B640", VA = "0x3C5B640")]
+		[Address(RVA = "0x3F4DBF0", Offset = "0x3F4DBF0", VA = "0x3F4DBF0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000ED")]
-		[Address(RVA = "0x3C5B650", Offset = "0x3C5B650", VA = "0x3C5B650")]
+		[Address(RVA = "0x3F4DC00", Offset = "0x3F4DC00", VA = "0x3F4DC00")]
 		set
 		{
 		}
@@ -149,13 +156,13 @@ public class WebRtcAudioDsp : VoiceComponent
 	public bool HighPass
 	{
 		[Token(Token = "0x60000EE")]
-		[Address(RVA = "0x3C5B830", Offset = "0x3C5B830", VA = "0x3C5B830")]
+		[Address(RVA = "0x3F4DDE0", Offset = "0x3F4DDE0", VA = "0x3F4DDE0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000EF")]
-		[Address(RVA = "0x3C5B840", Offset = "0x3C5B840", VA = "0x3C5B840")]
+		[Address(RVA = "0x3F4DDF0", Offset = "0x3F4DDF0", VA = "0x3F4DDF0")]
 		set
 		{
 		}
@@ -165,13 +172,13 @@ public class WebRtcAudioDsp : VoiceComponent
 	public bool Bypass
 	{
 		[Token(Token = "0x60000F0")]
-		[Address(RVA = "0x3C5B860", Offset = "0x3C5B860", VA = "0x3C5B860")]
+		[Address(RVA = "0x3F4DE10", Offset = "0x3F4DE10", VA = "0x3F4DE10")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000F1")]
-		[Address(RVA = "0x3C5B870", Offset = "0x3C5B870", VA = "0x3C5B870")]
+		[Address(RVA = "0x3F4DE20", Offset = "0x3F4DE20", VA = "0x3F4DE20")]
 		set
 		{
 		}
@@ -181,13 +188,13 @@ public class WebRtcAudioDsp : VoiceComponent
 	public bool AGC
 	{
 		[Token(Token = "0x60000F2")]
-		[Address(RVA = "0x3C5B890", Offset = "0x3C5B890", VA = "0x3C5B890")]
+		[Address(RVA = "0x3F4DE40", Offset = "0x3F4DE40", VA = "0x3F4DE40")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000F3")]
-		[Address(RVA = "0x3C5B8A0", Offset = "0x3C5B8A0", VA = "0x3C5B8A0")]
+		[Address(RVA = "0x3F4DE50", Offset = "0x3F4DE50", VA = "0x3F4DE50")]
 		set
 		{
 		}
@@ -197,13 +204,13 @@ public class WebRtcAudioDsp : VoiceComponent
 	public int AgcCompressionGain
 	{
 		[Token(Token = "0x60000F4")]
-		[Address(RVA = "0x3C5B8C0", Offset = "0x3C5B8C0", VA = "0x3C5B8C0")]
+		[Address(RVA = "0x3F4DE70", Offset = "0x3F4DE70", VA = "0x3F4DE70")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000F5")]
-		[Address(RVA = "0x3C5B8D0", Offset = "0x3C5B8D0", VA = "0x3C5B8D0")]
+		[Address(RVA = "0x3F4DE80", Offset = "0x3F4DE80", VA = "0x3F4DE80")]
 		set
 		{
 		}
@@ -213,13 +220,13 @@ public class WebRtcAudioDsp : VoiceComponent
 	public int AgcTargetLevel
 	{
 		[Token(Token = "0x60000F6")]
-		[Address(RVA = "0x3C5B8E0", Offset = "0x3C5B8E0", VA = "0x3C5B8E0")]
+		[Address(RVA = "0x3F4DE90", Offset = "0x3F4DE90", VA = "0x3F4DE90")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000F7")]
-		[Address(RVA = "0x3C5B8F0", Offset = "0x3C5B8F0", VA = "0x3C5B8F0")]
+		[Address(RVA = "0x3F4DEA0", Offset = "0x3F4DEA0", VA = "0x3F4DEA0")]
 		set
 		{
 		}
@@ -229,13 +236,13 @@ public class WebRtcAudioDsp : VoiceComponent
 	public bool VAD
 	{
 		[Token(Token = "0x60000F8")]
-		[Address(RVA = "0x3C5B900", Offset = "0x3C5B900", VA = "0x3C5B900")]
+		[Address(RVA = "0x3F4DEB0", Offset = "0x3F4DEB0", VA = "0x3F4DEB0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000F9")]
-		[Address(RVA = "0x3C55010", Offset = "0x3C55010", VA = "0x3C55010")]
+		[Address(RVA = "0x3F475C0", Offset = "0x3F475C0", VA = "0x3F475C0")]
 		set
 		{
 		}
@@ -245,7 +252,7 @@ public class WebRtcAudioDsp : VoiceComponent
 	public bool IsSupported
 	{
 		[Token(Token = "0x60000FC")]
-		[Address(RVA = "0x3C5BAF0", Offset = "0x3C5BAF0", VA = "0x3C5BAF0")]
+		[Address(RVA = "0x3F4E0A0", Offset = "0x3F4E0A0", VA = "0x3F4E0A0")]
 		get
 		{
 			return default(bool);
@@ -253,85 +260,85 @@ public class WebRtcAudioDsp : VoiceComponent
 	}
 
 	[Token(Token = "0x60000FA")]
-	[Address(RVA = "0x3C5B910", Offset = "0x3C5B910", VA = "0x3C5B910", Slot = "4")]
+	[Address(RVA = "0x3F4DEC0", Offset = "0x3F4DEC0", VA = "0x3F4DEC0", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
 	[Token(Token = "0x60000FB")]
-	[Address(RVA = "0x3C5BB00", Offset = "0x3C5BB00", VA = "0x3C5BB00")]
+	[Address(RVA = "0x3F4E0B0", Offset = "0x3F4E0B0", VA = "0x3F4E0B0")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x60000FD")]
-	[Address(RVA = "0x3C53080", Offset = "0x3C53080", VA = "0x3C53080")]
+	[Address(RVA = "0x3F45630", Offset = "0x3F45630", VA = "0x3F45630")]
 	public void AdjustVoiceInfo(ref VoiceInfo voiceInfo, ref AudioSampleType st)
 	{
 	}
 
 	[Token(Token = "0x60000FE")]
-	[Address(RVA = "0x3C5BB10", Offset = "0x3C5BB10", VA = "0x3C5BB10")]
+	[Address(RVA = "0x3F4E0C0", Offset = "0x3F4E0C0", VA = "0x3F4E0C0")]
 	private void OnAudioConfigurationChanged(bool deviceWasChanged)
 	{
 	}
 
 	[Token(Token = "0x60000FF")]
-	[Address(RVA = "0x3C5BF70", Offset = "0x3C5BF70", VA = "0x3C5BF70")]
+	[Address(RVA = "0x3F4E520", Offset = "0x3F4E520", VA = "0x3F4E520")]
 	private void OnAudioOutFrameFloat(float[] data, int outChannels)
 	{
 	}
 
 	[Token(Token = "0x6000100")]
-	[Address(RVA = "0x3C5C170", Offset = "0x3C5C170", VA = "0x3C5C170")]
+	[Address(RVA = "0x3F4E720", Offset = "0x3F4E720", VA = "0x3F4E720")]
 	private void PhotonVoiceCreated(PhotonVoiceCreatedParams p)
 	{
 	}
 
 	[Token(Token = "0x6000101")]
-	[Address(RVA = "0x3C5C550", Offset = "0x3C5C550", VA = "0x3C5C550")]
+	[Address(RVA = "0x3F4EB00", Offset = "0x3F4EB00", VA = "0x3F4EB00")]
 	private void PhotonVoiceRemoved()
 	{
 	}
 
 	[Token(Token = "0x6000102")]
-	[Address(RVA = "0x3C5C7C0", Offset = "0x3C5C7C0", VA = "0x3C5C7C0")]
+	[Address(RVA = "0x3F4ED70", Offset = "0x3F4ED70", VA = "0x3F4ED70")]
 	private void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x6000103")]
-	[Address(RVA = "0x3C5C1C0", Offset = "0x3C5C1C0", VA = "0x3C5C1C0")]
+	[Address(RVA = "0x3F4E770", Offset = "0x3F4E770", VA = "0x3F4E770")]
 	private void StartProc(LocalVoiceAudioShort v)
 	{
 	}
 
 	[Token(Token = "0x6000104")]
-	[Address(RVA = "0x3C5C580", Offset = "0x3C5C580", VA = "0x3C5C580")]
+	[Address(RVA = "0x3F4EB30", Offset = "0x3F4EB30", VA = "0x3F4EB30")]
 	private void StopProc(LocalVoiceAudioShort v)
 	{
 	}
 
 	[Token(Token = "0x6000105")]
-	[Address(RVA = "0x3C5B670", Offset = "0x3C5B670", VA = "0x3C5B670")]
+	[Address(RVA = "0x3F4DC20", Offset = "0x3F4DC20", VA = "0x3F4DC20")]
 	private void Restart()
 	{
 	}
 
 	[Token(Token = "0x6000106")]
-	[Address(RVA = "0x3C5C840", Offset = "0x3C5C840", VA = "0x3C5C840")]
+	[Address(RVA = "0x3F4EDF0", Offset = "0x3F4EDF0", VA = "0x3F4EDF0")]
 	private void setOutputListener(bool set)
 	{
 	}
 
 	[Token(Token = "0x6000107")]
-	[Address(RVA = "0x3C5B490", Offset = "0x3C5B490", VA = "0x3C5B490")]
+	[Address(RVA = "0x3F4DA40", Offset = "0x3F4DA40", VA = "0x3F4DA40")]
 	private void applyToProc()
 	{
 	}
 
 	[Token(Token = "0x6000108")]
-	[Address(RVA = "0x3C5CA30", Offset = "0x3C5CA30", VA = "0x3C5CA30")]
+	[Address(RVA = "0x3F4EFE0", Offset = "0x3F4EFE0", VA = "0x3F4EFE0")]
 	public WebRtcAudioDsp()
 	{
 	}

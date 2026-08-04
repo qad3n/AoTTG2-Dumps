@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Threading.Tasks.CompletionActionInvoker
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
@@ -14,19 +21,19 @@ internal sealed class CompletionActionInvoker : System.Threading.IThreadPoolWork
 	private readonly Task m_completingTask;
 
 	[Token(Token = "0x600148C")]
-	[Address(RVA = "0x5061110", Offset = "0x5061110", VA = "0x5061110")]
+	[Address(RVA = "0x3D46C30", Offset = "0x3D46C30", VA = "0x3D46C30")]
 	internal CompletionActionInvoker(System.Threading.Tasks.ITaskCompletionAction action, Task completingTask)
 	{
 	}
 
 	[Token(Token = "0x600148D")]
-	[Address(RVA = "0x5065200", Offset = "0x5065200", VA = "0x5065200", Slot = "4")]
+	[Address(RVA = "0x3D4AD20", Offset = "0x3D4AD20", VA = "0x3D4AD20", Slot = "4")]
 	private void System_002EThreading_002EIThreadPoolWorkItem_002EExecuteWorkItem()
 	{
 	}
 
 	[Token(Token = "0x600148E")]
-	[Address(RVA = "0x50652B0", Offset = "0x50652B0", VA = "0x50652B0", Slot = "5")]
+	[Address(RVA = "0x3D4ADD0", Offset = "0x3D4ADD0", VA = "0x3D4ADD0", Slot = "5")]
 	public void MarkAborted(ThreadAbortException e)
 	{
 	}

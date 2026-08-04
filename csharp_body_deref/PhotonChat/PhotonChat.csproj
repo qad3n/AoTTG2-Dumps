@@ -5,7 +5,7 @@
     <TargetFramework>net40</TargetFramework>
   </PropertyGroup>
   <PropertyGroup>
-    <LangVersion>15.0</LangVersion>
+    <LangVersion>11.0</LangVersion>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
   </PropertyGroup>
@@ -13,13 +13,13 @@
   <ItemGroup />
   <ItemGroup>
     <Reference Include="Il2CppDummyDll">
-      <HintPath>../../../dumps/il2cpp/DummyDll/Il2CppDummyDll.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/Il2CppDummyDll.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-      <HintPath>../../../dumps/il2cpp/DummyDll/Photon3Unity3D.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="System.Core">
-      <HintPath>../../../dumps/il2cpp/DummyDll/System.Core.dll</HintPath>
+      <HintPath>../../dumps/il2cpp/DummyDll/System.Core.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Pun.UtilityScripts.TabViewManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TabViewManager.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -15,7 +22,7 @@ public class TabViewManager : MonoBehaviour
 	public class TabChangeEvent : UnityEvent<string>
 	{
 		[Token(Token = "0x6000105")]
-		[Address(RVA = "0x3BF5680", Offset = "0x3BF5680", VA = "0x3BF5680")]
+		[Address(RVA = "0x3F0DB50", Offset = "0x3F0DB50", VA = "0x3F0DB50")]
 		public TabChangeEvent()
 		{
 		}
@@ -38,7 +45,7 @@ public class TabViewManager : MonoBehaviour
 		public RectTransform View;
 
 		[Token(Token = "0x6000106")]
-		[Address(RVA = "0x3BF56C0", Offset = "0x3BF56C0", VA = "0x3BF56C0")]
+		[Address(RVA = "0x3F0DB90", Offset = "0x3F0DB90", VA = "0x3F0DB90")]
 		public Tab()
 		{
 		}
@@ -65,25 +72,25 @@ public class TabViewManager : MonoBehaviour
 	private Dictionary<Toggle, Tab> Tab_lut;
 
 	[Token(Token = "0x6000101")]
-	[Address(RVA = "0x3BF5220", Offset = "0x3BF5220", VA = "0x3BF5220")]
+	[Address(RVA = "0x3F0D6F0", Offset = "0x3F0D6F0", VA = "0x3F0D6F0")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x6000102")]
-	[Address(RVA = "0x3BF54B0", Offset = "0x3BF54B0", VA = "0x3BF54B0")]
+	[Address(RVA = "0x3F0D980", Offset = "0x3F0D980", VA = "0x3F0D980")]
 	public void SelectTab(string id)
 	{
 	}
 
 	[Token(Token = "0x6000103")]
-	[Address(RVA = "0x3BF5540", Offset = "0x3BF5540", VA = "0x3BF5540")]
+	[Address(RVA = "0x3F0DA10", Offset = "0x3F0DA10", VA = "0x3F0DA10")]
 	private void OnTabSelected(Tab tab)
 	{
 	}
 
 	[Token(Token = "0x6000104")]
-	[Address(RVA = "0x3BF5670", Offset = "0x3BF5670", VA = "0x3BF5670")]
+	[Address(RVA = "0x3F0DB40", Offset = "0x3F0DB40", VA = "0x3F0DB40")]
 	public TabViewManager()
 	{
 	}

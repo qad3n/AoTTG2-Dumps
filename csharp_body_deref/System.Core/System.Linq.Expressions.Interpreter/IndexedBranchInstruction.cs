@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.IndexedBranchInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -11,27 +18,27 @@ internal abstract class IndexedBranchInstruction : Instruction
 	internal readonly int _labelIndex;
 
 	[Token(Token = "0x600061F")]
-	[Address(RVA = "0x41A2C30", Offset = "0x41A2C30", VA = "0x41A2C30")]
+	[Address(RVA = "0x44C7D30", Offset = "0x44C7D30", VA = "0x44C7D30")]
 	public IndexedBranchInstruction(int labelIndex)
 	{
 	}
 
 	[Token(Token = "0x6000620")]
-	[Address(RVA = "0x41A2C50", Offset = "0x41A2C50", VA = "0x41A2C50")]
+	[Address(RVA = "0x44C7D50", Offset = "0x44C7D50", VA = "0x44C7D50")]
 	public RuntimeLabel GetLabel(InterpretedFrame frame)
 	{
 		return default(RuntimeLabel);
 	}
 
 	[Token(Token = "0x6000621")]
-	[Address(RVA = "0x41A2C90", Offset = "0x41A2C90", VA = "0x41A2C90", Slot = "10")]
+	[Address(RVA = "0x44C7D90", Offset = "0x44C7D90", VA = "0x44C7D90", Slot = "10")]
 	public override string ToDebugString(int instructionIndex, object cookie, Func<int, int> labelIndexer, IReadOnlyList<object> objects)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000622")]
-	[Address(RVA = "0x41A2D50", Offset = "0x41A2D50", VA = "0x41A2D50", Slot = "3")]
+	[Address(RVA = "0x44C7E50", Offset = "0x44C7E50", VA = "0x44C7E50", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

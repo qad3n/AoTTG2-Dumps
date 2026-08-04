@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.BranchInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -21,7 +28,7 @@ internal class BranchInstruction : OffsetInstruction
 	public override Instruction[] Cache
 	{
 		[Token(Token = "0x6000618")]
-		[Address(RVA = "0x41A2900", Offset = "0x41A2900", VA = "0x41A2900", Slot = "11")]
+		[Address(RVA = "0x44C7A00", Offset = "0x44C7A00", VA = "0x44C7A00", Slot = "11")]
 		get
 		{
 			return null;
@@ -32,7 +39,7 @@ internal class BranchInstruction : OffsetInstruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x600061B")]
-		[Address(RVA = "0x41A2BD0", Offset = "0x41A2BD0", VA = "0x41A2BD0", Slot = "9")]
+		[Address(RVA = "0x44C7CD0", Offset = "0x44C7CD0", VA = "0x44C7CD0", Slot = "9")]
 		get
 		{
 			return null;
@@ -43,7 +50,7 @@ internal class BranchInstruction : OffsetInstruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x600061C")]
-		[Address(RVA = "0x41A2C00", Offset = "0x41A2C00", VA = "0x41A2C00", Slot = "4")]
+		[Address(RVA = "0x44C7D00", Offset = "0x44C7D00", VA = "0x44C7D00", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -54,7 +61,7 @@ internal class BranchInstruction : OffsetInstruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x600061D")]
-		[Address(RVA = "0x41A2C10", Offset = "0x41A2C10", VA = "0x41A2C10", Slot = "5")]
+		[Address(RVA = "0x44C7D10", Offset = "0x44C7D10", VA = "0x44C7D10", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -62,19 +69,19 @@ internal class BranchInstruction : OffsetInstruction
 	}
 
 	[Token(Token = "0x6000619")]
-	[Address(RVA = "0x41A2B80", Offset = "0x41A2B80", VA = "0x41A2B80")]
+	[Address(RVA = "0x44C7C80", Offset = "0x44C7C80", VA = "0x44C7C80")]
 	internal BranchInstruction()
 	{
 	}
 
 	[Token(Token = "0x600061A")]
-	[Address(RVA = "0x41A2BA0", Offset = "0x41A2BA0", VA = "0x41A2BA0")]
+	[Address(RVA = "0x44C7CA0", Offset = "0x44C7CA0", VA = "0x44C7CA0")]
 	public BranchInstruction(bool hasResult, bool hasValue)
 	{
 	}
 
 	[Token(Token = "0x600061E")]
-	[Address(RVA = "0x41A2C20", Offset = "0x41A2C20", VA = "0x41A2C20", Slot = "8")]
+	[Address(RVA = "0x44C7D20", Offset = "0x44C7D20", VA = "0x44C7D20", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

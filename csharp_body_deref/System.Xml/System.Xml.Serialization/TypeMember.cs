@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.TypeMember
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Serialization;
@@ -14,34 +21,34 @@ internal sealed class TypeMember
 	private string member;
 
 	[Token(Token = "0x6000CF2")]
-	[Address(RVA = "0x44CF720", Offset = "0x44CF720", VA = "0x44CF720")]
+	[Address(RVA = "0x480CE80", Offset = "0x480CE80", VA = "0x480CE80")]
 	internal TypeMember(Type type, string member)
 	{
 	}
 
 	[Token(Token = "0x6000CF3")]
-	[Address(RVA = "0x44CF760", Offset = "0x44CF760", VA = "0x44CF760", Slot = "2")]
+	[Address(RVA = "0x480CEC0", Offset = "0x480CEC0", VA = "0x480CEC0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000CF4")]
-	[Address(RVA = "0x44CF7B0", Offset = "0x44CF7B0", VA = "0x44CF7B0", Slot = "0")]
+	[Address(RVA = "0x480CF10", Offset = "0x480CF10", VA = "0x480CF10", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000CF5")]
-	[Address(RVA = "0x44CF860", Offset = "0x44CF860", VA = "0x44CF860")]
+	[Address(RVA = "0x480CFC0", Offset = "0x480CFC0", VA = "0x480CFC0")]
 	public static bool Equals(TypeMember tm1, TypeMember tm2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000CF6")]
-	[Address(RVA = "0x44CF8E0", Offset = "0x44CF8E0", VA = "0x44CF8E0", Slot = "3")]
+	[Address(RVA = "0x480D040", Offset = "0x480D040", VA = "0x480D040", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

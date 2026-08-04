@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.ContentValidator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -38,7 +45,7 @@ internal class ContentValidator
 	public XmlSchemaContentType ContentType
 	{
 		[Token(Token = "0x6001009")]
-		[Address(RVA = "0x450B6A0", Offset = "0x450B6A0", VA = "0x450B6A0")]
+		[Address(RVA = "0x4848E00", Offset = "0x4848E00", VA = "0x4848E00")]
 		get
 		{
 			return default(XmlSchemaContentType);
@@ -49,7 +56,7 @@ internal class ContentValidator
 	public bool PreserveWhitespace
 	{
 		[Token(Token = "0x600100A")]
-		[Address(RVA = "0x450B6B0", Offset = "0x450B6B0", VA = "0x450B6B0")]
+		[Address(RVA = "0x4848E10", Offset = "0x4848E10", VA = "0x4848E10")]
 		get
 		{
 			return default(bool);
@@ -60,7 +67,7 @@ internal class ContentValidator
 	public virtual bool IsEmptiable
 	{
 		[Token(Token = "0x600100B")]
-		[Address(RVA = "0x450B6D0", Offset = "0x450B6D0", VA = "0x450B6D0", Slot = "4")]
+		[Address(RVA = "0x4848E30", Offset = "0x4848E30", VA = "0x4848E30", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -71,72 +78,72 @@ internal class ContentValidator
 	public bool IsOpen
 	{
 		[Token(Token = "0x600100C")]
-		[Address(RVA = "0x450B6E0", Offset = "0x450B6E0", VA = "0x450B6E0")]
+		[Address(RVA = "0x4848E40", Offset = "0x4848E40", VA = "0x4848E40")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600100D")]
-		[Address(RVA = "0x450B700", Offset = "0x450B700", VA = "0x450B700")]
+		[Address(RVA = "0x4848E60", Offset = "0x4848E60", VA = "0x4848E60")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001007")]
-	[Address(RVA = "0x450B650", Offset = "0x450B650", VA = "0x450B650")]
+	[Address(RVA = "0x4848DB0", Offset = "0x4848DB0", VA = "0x4848DB0")]
 	public ContentValidator(XmlSchemaContentType contentType)
 	{
 	}
 
 	[Token(Token = "0x6001008")]
-	[Address(RVA = "0x450B670", Offset = "0x450B670", VA = "0x450B670")]
+	[Address(RVA = "0x4848DD0", Offset = "0x4848DD0", VA = "0x4848DD0")]
 	protected ContentValidator(XmlSchemaContentType contentType, bool isOpen, bool isEmptiable)
 	{
 	}
 
 	[Token(Token = "0x600100E")]
-	[Address(RVA = "0x450B710", Offset = "0x450B710", VA = "0x450B710", Slot = "5")]
+	[Address(RVA = "0x4848E70", Offset = "0x4848E70", VA = "0x4848E70", Slot = "5")]
 	public virtual void InitValidation(ValidationState context)
 	{
 	}
 
 	[Token(Token = "0x600100F")]
-	[Address(RVA = "0x450B720", Offset = "0x450B720", VA = "0x450B720", Slot = "6")]
+	[Address(RVA = "0x4848E80", Offset = "0x4848E80", VA = "0x4848E80", Slot = "6")]
 	public virtual object ValidateElement(XmlQualifiedName name, ValidationState context, out int errorCode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001010")]
-	[Address(RVA = "0x450B740", Offset = "0x450B740", VA = "0x450B740", Slot = "7")]
+	[Address(RVA = "0x4848EA0", Offset = "0x4848EA0", VA = "0x4848EA0", Slot = "7")]
 	public virtual bool CompleteValidation(ValidationState context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001011")]
-	[Address(RVA = "0x450B750", Offset = "0x450B750", VA = "0x450B750", Slot = "8")]
+	[Address(RVA = "0x4848EB0", Offset = "0x4848EB0", VA = "0x4848EB0", Slot = "8")]
 	public virtual ArrayList ExpectedElements(ValidationState context, bool isRequiredOnly)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001012")]
-	[Address(RVA = "0x450B760", Offset = "0x450B760", VA = "0x450B760", Slot = "9")]
+	[Address(RVA = "0x4848EC0", Offset = "0x4848EC0", VA = "0x4848EC0", Slot = "9")]
 	public virtual ArrayList ExpectedParticles(ValidationState context, bool isRequiredOnly, XmlSchemaSet schemaSet)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001013")]
-	[Address(RVA = "0x450B770", Offset = "0x450B770", VA = "0x450B770")]
+	[Address(RVA = "0x4848ED0", Offset = "0x4848ED0", VA = "0x4848ED0")]
 	public static void AddParticleToExpected(XmlSchemaParticle p, XmlSchemaSet schemaSet, ArrayList particles)
 	{
 	}
 
 	[Token(Token = "0x6001014")]
-	[Address(RVA = "0x450B7D0", Offset = "0x450B7D0", VA = "0x450B7D0")]
+	[Address(RVA = "0x4848F30", Offset = "0x4848F30", VA = "0x4848F30")]
 	public static void AddParticleToExpected(XmlSchemaParticle p, XmlSchemaSet schemaSet, ArrayList particles, bool global)
 	{
 	}

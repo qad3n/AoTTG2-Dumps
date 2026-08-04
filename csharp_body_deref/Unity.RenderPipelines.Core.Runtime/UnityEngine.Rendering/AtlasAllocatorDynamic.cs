@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.AtlasAllocatorDynamic
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -23,32 +30,32 @@ internal class AtlasAllocatorDynamic
 		private short m_FreelistHead;
 
 		[Token(Token = "0x6000B7A")]
-		[Address(RVA = "0x48C5B00", Offset = "0x48C5B00", VA = "0x48C5B00")]
+		[Address(RVA = "0x4BEAB70", Offset = "0x4BEAB70", VA = "0x4BEAB70")]
 		public AtlasNodePool(short capacity)
 		{
 		}
 
 		[Token(Token = "0x6000B7B")]
-		[Address(RVA = "0x48C6930", Offset = "0x48C6930", VA = "0x48C6930")]
+		[Address(RVA = "0x4BEB9A0", Offset = "0x4BEB9A0", VA = "0x4BEB9A0")]
 		public void Dispose()
 		{
 		}
 
 		[Token(Token = "0x6000B7C")]
-		[Address(RVA = "0x48C63F0", Offset = "0x48C63F0", VA = "0x48C63F0")]
+		[Address(RVA = "0x4BEB460", Offset = "0x4BEB460", VA = "0x4BEB460")]
 		public void Clear()
 		{
 		}
 
 		[Token(Token = "0x6000B7D")]
-		[Address(RVA = "0x48C5B60", Offset = "0x48C5B60", VA = "0x48C5B60")]
+		[Address(RVA = "0x4BEABD0", Offset = "0x4BEABD0", VA = "0x4BEABD0")]
 		public short AtlasNodeCreate(short parent)
 		{
 			return default(short);
 		}
 
 		[Token(Token = "0x6000B7E")]
-		[Address(RVA = "0x48C69A0", Offset = "0x48C69A0", VA = "0x48C69A0")]
+		[Address(RVA = "0x4BEBA10", Offset = "0x4BEBA10", VA = "0x4BEBA10")]
 		public void AtlasNodeFree(short index)
 		{
 		}
@@ -94,58 +101,58 @@ internal class AtlasAllocatorDynamic
 		public Vector4 m_Rect;
 
 		[Token(Token = "0x6000B7F")]
-		[Address(RVA = "0x48C6950", Offset = "0x48C6950", VA = "0x48C6950")]
+		[Address(RVA = "0x4BEB9C0", Offset = "0x4BEB9C0", VA = "0x4BEB9C0")]
 		public AtlasNode(short self, short parent)
 		{
 		}
 
 		[Token(Token = "0x6000B80")]
-		[Address(RVA = "0x48C6920", Offset = "0x48C6920", VA = "0x48C6920")]
+		[Address(RVA = "0x4BEB990", Offset = "0x4BEB990", VA = "0x4BEB990")]
 		public bool IsOccupied()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000B81")]
-		[Address(RVA = "0x48C69E0", Offset = "0x48C69E0", VA = "0x48C69E0")]
+		[Address(RVA = "0x4BEBA50", Offset = "0x4BEBA50", VA = "0x4BEBA50")]
 		public void SetIsOccupied()
 		{
 		}
 
 		[Token(Token = "0x6000B82")]
-		[Address(RVA = "0x48C69F0", Offset = "0x48C69F0", VA = "0x48C69F0")]
+		[Address(RVA = "0x4BEBA60", Offset = "0x4BEBA60", VA = "0x4BEBA60")]
 		public void ClearIsOccupied()
 		{
 		}
 
 		[Token(Token = "0x6000B83")]
-		[Address(RVA = "0x48C6A00", Offset = "0x48C6A00", VA = "0x48C6A00")]
+		[Address(RVA = "0x4BEBA70", Offset = "0x4BEBA70", VA = "0x4BEBA70")]
 		public bool IsLeafNode()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000B84")]
-		[Address(RVA = "0x48C5DD0", Offset = "0x48C5DD0", VA = "0x48C5DD0")]
+		[Address(RVA = "0x4BEAE40", Offset = "0x4BEAE40", VA = "0x4BEAE40")]
 		public short Allocate(AtlasNodePool pool, int width, int height)
 		{
 			return default(short);
 		}
 
 		[Token(Token = "0x6000B85")]
-		[Address(RVA = "0x48C6A10", Offset = "0x48C6A10", VA = "0x48C6A10")]
+		[Address(RVA = "0x4BEBA80", Offset = "0x4BEBA80", VA = "0x4BEBA80")]
 		public void ReleaseChildren(AtlasNodePool pool)
 		{
 		}
 
 		[Token(Token = "0x6000B86")]
-		[Address(RVA = "0x48C6260", Offset = "0x48C6260", VA = "0x48C6260")]
+		[Address(RVA = "0x4BEB2D0", Offset = "0x4BEB2D0", VA = "0x4BEB2D0")]
 		public void ReleaseAndMerge(AtlasNodePool pool)
 		{
 		}
 
 		[Token(Token = "0x6000B87")]
-		[Address(RVA = "0x48C6B00", Offset = "0x48C6B00", VA = "0x48C6B00")]
+		[Address(RVA = "0x4BEBB70", Offset = "0x4BEBB70", VA = "0x4BEBB70")]
 		public bool IsMergeNeeded(AtlasNodePool pool)
 		{
 			return default(bool);
@@ -173,39 +180,39 @@ internal class AtlasAllocatorDynamic
 	private Dictionary<int, short> m_NodeFromID;
 
 	[Token(Token = "0x6000B74")]
-	[Address(RVA = "0x48C5980", Offset = "0x48C5980", VA = "0x48C5980")]
+	[Address(RVA = "0x4BEA9F0", Offset = "0x4BEA9F0", VA = "0x4BEA9F0")]
 	public AtlasAllocatorDynamic(int width, int height, int capacityAllocations)
 	{
 	}
 
 	[Token(Token = "0x6000B75")]
-	[Address(RVA = "0x48C5CC0", Offset = "0x48C5CC0", VA = "0x48C5CC0")]
+	[Address(RVA = "0x4BEAD30", Offset = "0x4BEAD30", VA = "0x4BEAD30")]
 	public bool Allocate(out Vector4 result, int key, int width, int height)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B76")]
-	[Address(RVA = "0x48C61A0", Offset = "0x48C61A0", VA = "0x48C61A0")]
+	[Address(RVA = "0x4BEB210", Offset = "0x4BEB210", VA = "0x4BEB210")]
 	public void Release(int key)
 	{
 	}
 
 	[Token(Token = "0x6000B77")]
-	[Address(RVA = "0x48C6340", Offset = "0x48C6340", VA = "0x48C6340")]
+	[Address(RVA = "0x4BEB3B0", Offset = "0x4BEB3B0", VA = "0x4BEB3B0")]
 	public void Release()
 	{
 	}
 
 	[Token(Token = "0x6000B78")]
-	[Address(RVA = "0x48C6400", Offset = "0x48C6400", VA = "0x48C6400")]
+	[Address(RVA = "0x4BEB470", Offset = "0x4BEB470", VA = "0x4BEB470")]
 	public string DebugStringFromRoot(int depthMax = -1)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B79")]
-	[Address(RVA = "0x48C6460", Offset = "0x48C6460", VA = "0x48C6460")]
+	[Address(RVA = "0x4BEB4D0", Offset = "0x4BEB4D0", VA = "0x4BEB4D0")]
 	private void DebugStringFromNode(ref string res, short n, int depthCurrent = 0, int depthMax = -1)
 	{
 	}

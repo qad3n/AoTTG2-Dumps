@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.RareData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -47,41 +54,41 @@ internal struct RareData : IStyleDataGroup<RareData>, IEquatable<RareData>
 	public TextOverflowPosition unityTextOverflowPosition;
 
 	[Token(Token = "0x600159C")]
-	[Address(RVA = "0x4D82C60", Offset = "0x4D82C60", VA = "0x4D82C60", Slot = "4")]
+	[Address(RVA = "0x50AA590", Offset = "0x50AA590", VA = "0x50AA590", Slot = "4")]
 	public RareData Copy()
 	{
 		return default(RareData);
 	}
 
 	[Token(Token = "0x600159D")]
-	[Address(RVA = "0x4D82C90", Offset = "0x4D82C90", VA = "0x4D82C90", Slot = "5")]
+	[Address(RVA = "0x50AA5C0", Offset = "0x50AA5C0", VA = "0x50AA5C0", Slot = "5")]
 	public void CopyFrom(ref RareData other)
 	{
 	}
 
 	[Token(Token = "0x600159E")]
-	[Address(RVA = "0x4D82CC0", Offset = "0x4D82CC0", VA = "0x4D82CC0")]
+	[Address(RVA = "0x50AA5F0", Offset = "0x50AA5F0", VA = "0x50AA5F0")]
 	public static bool operator ==(RareData lhs, RareData rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600159F")]
-	[Address(RVA = "0x4D82DC0", Offset = "0x4D82DC0", VA = "0x4D82DC0", Slot = "6")]
+	[Address(RVA = "0x50AA6F0", Offset = "0x50AA6F0", VA = "0x50AA6F0", Slot = "6")]
 	public bool Equals(RareData other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60015A0")]
-	[Address(RVA = "0x4D82F70", Offset = "0x4D82F70", VA = "0x4D82F70", Slot = "0")]
+	[Address(RVA = "0x50AA8A0", Offset = "0x50AA8A0", VA = "0x50AA8A0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60015A1")]
-	[Address(RVA = "0x4D831B0", Offset = "0x4D831B0", VA = "0x4D831B0", Slot = "2")]
+	[Address(RVA = "0x50AAAE0", Offset = "0x50AAAE0", VA = "0x50AAAE0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

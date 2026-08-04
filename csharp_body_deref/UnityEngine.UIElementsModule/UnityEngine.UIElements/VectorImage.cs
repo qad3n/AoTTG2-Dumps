@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.VectorImage
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -41,7 +48,7 @@ public sealed class VectorImage : ScriptableObject
 	public float width
 	{
 		[Token(Token = "0x6001B6E")]
-		[Address(RVA = "0x4C4D100", Offset = "0x4C4D100", VA = "0x4C4D100")]
+		[Address(RVA = "0x4F74A30", Offset = "0x4F74A30", VA = "0x4F74A30")]
 		get
 		{
 			return default(float);
@@ -52,7 +59,7 @@ public sealed class VectorImage : ScriptableObject
 	public float height
 	{
 		[Token(Token = "0x6001B6F")]
-		[Address(RVA = "0x4C4D110", Offset = "0x4C4D110", VA = "0x4C4D110")]
+		[Address(RVA = "0x4F74A40", Offset = "0x4F74A40", VA = "0x4F74A40")]
 		get
 		{
 			return default(float);
@@ -60,7 +67,7 @@ public sealed class VectorImage : ScriptableObject
 	}
 
 	[Token(Token = "0x6001B70")]
-	[Address(RVA = "0x4C4D120", Offset = "0x4C4D120", VA = "0x4C4D120")]
+	[Address(RVA = "0x4F74A50", Offset = "0x4F74A50", VA = "0x4F74A50")]
 	public VectorImage()
 	{
 	}

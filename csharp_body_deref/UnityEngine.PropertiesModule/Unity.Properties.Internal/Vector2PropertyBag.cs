@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.Properties.Internal.Vector2PropertyBag
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -13,7 +20,7 @@ internal class Vector2PropertyBag : ContainerPropertyBag<Vector2>
 		public override string Name
 		{
 			[Token(Token = "0x600019D")]
-			[Address(RVA = "0x4B738F0", Offset = "0x4B738F0", VA = "0x4B738F0", Slot = "7")]
+			[Address(RVA = "0x4E9B220", Offset = "0x4E9B220", VA = "0x4E9B220", Slot = "7")]
 			get
 			{
 				return null;
@@ -21,7 +28,7 @@ internal class Vector2PropertyBag : ContainerPropertyBag<Vector2>
 		}
 
 		[Token(Token = "0x600019E")]
-		[Address(RVA = "0x4B73870", Offset = "0x4B73870", VA = "0x4B73870")]
+		[Address(RVA = "0x4E9B1A0", Offset = "0x4E9B1A0", VA = "0x4E9B1A0")]
 		public XProperty()
 		{
 		}
@@ -34,7 +41,7 @@ internal class Vector2PropertyBag : ContainerPropertyBag<Vector2>
 		public override string Name
 		{
 			[Token(Token = "0x600019F")]
-			[Address(RVA = "0x4B73920", Offset = "0x4B73920", VA = "0x4B73920", Slot = "7")]
+			[Address(RVA = "0x4E9B250", Offset = "0x4E9B250", VA = "0x4E9B250", Slot = "7")]
 			get
 			{
 				return null;
@@ -42,14 +49,14 @@ internal class Vector2PropertyBag : ContainerPropertyBag<Vector2>
 		}
 
 		[Token(Token = "0x60001A0")]
-		[Address(RVA = "0x4B738B0", Offset = "0x4B738B0", VA = "0x4B738B0")]
+		[Address(RVA = "0x4E9B1E0", Offset = "0x4E9B1E0", VA = "0x4E9B1E0")]
 		public YProperty()
 		{
 		}
 	}
 
 	[Token(Token = "0x600019C")]
-	[Address(RVA = "0x4B72800", Offset = "0x4B72800", VA = "0x4B72800")]
+	[Address(RVA = "0x4E9A130", Offset = "0x4E9A130", VA = "0x4E9A130")]
 	public Vector2PropertyBag()
 	{
 	}

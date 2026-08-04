@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.LineRenderer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -15,13 +22,13 @@ public sealed class LineRenderer : Renderer
 	public float startWidth
 	{
 		[Token(Token = "0x60003A1")]
-		[Address(RVA = "0x4A9DB90", Offset = "0x4A9DB90", VA = "0x4A9DB90")]
+		[Address(RVA = "0x4DC53B0", Offset = "0x4DC53B0", VA = "0x4DC53B0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60003A2")]
-		[Address(RVA = "0x4A9D630", Offset = "0x4A9D630", VA = "0x4A9D630")]
+		[Address(RVA = "0x4DC4E50", Offset = "0x4DC4E50", VA = "0x4DC4E50")]
 		set
 		{
 		}
@@ -31,13 +38,13 @@ public sealed class LineRenderer : Renderer
 	public float endWidth
 	{
 		[Token(Token = "0x60003A3")]
-		[Address(RVA = "0x4A9DCB0", Offset = "0x4A9DCB0", VA = "0x4A9DCB0")]
+		[Address(RVA = "0x4DC54D0", Offset = "0x4DC54D0", VA = "0x4DC54D0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60003A4")]
-		[Address(RVA = "0x4A9D6E0", Offset = "0x4A9D6E0", VA = "0x4A9D6E0")]
+		[Address(RVA = "0x4DC4F00", Offset = "0x4DC4F00", VA = "0x4DC4F00")]
 		set
 		{
 		}
@@ -47,13 +54,13 @@ public sealed class LineRenderer : Renderer
 	public float widthMultiplier
 	{
 		[Token(Token = "0x60003A5")]
-		[Address(RVA = "0x4A9DDD0", Offset = "0x4A9DDD0", VA = "0x4A9DDD0")]
+		[Address(RVA = "0x4DC55F0", Offset = "0x4DC55F0", VA = "0x4DC55F0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60003A6")]
-		[Address(RVA = "0x4A9DEA0", Offset = "0x4A9DEA0", VA = "0x4A9DEA0")]
+		[Address(RVA = "0x4DC56C0", Offset = "0x4DC56C0", VA = "0x4DC56C0")]
 		set
 		{
 		}
@@ -63,13 +70,13 @@ public sealed class LineRenderer : Renderer
 	public int numCornerVertices
 	{
 		[Token(Token = "0x60003A7")]
-		[Address(RVA = "0x4A9DFA0", Offset = "0x4A9DFA0", VA = "0x4A9DFA0")]
+		[Address(RVA = "0x4DC57C0", Offset = "0x4DC57C0", VA = "0x4DC57C0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60003A8")]
-		[Address(RVA = "0x4A9E070", Offset = "0x4A9E070", VA = "0x4A9E070")]
+		[Address(RVA = "0x4DC5890", Offset = "0x4DC5890", VA = "0x4DC5890")]
 		set
 		{
 		}
@@ -79,13 +86,13 @@ public sealed class LineRenderer : Renderer
 	public int numCapVertices
 	{
 		[Token(Token = "0x60003A9")]
-		[Address(RVA = "0x4A9E150", Offset = "0x4A9E150", VA = "0x4A9E150")]
+		[Address(RVA = "0x4DC5970", Offset = "0x4DC5970", VA = "0x4DC5970")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60003AA")]
-		[Address(RVA = "0x4A9E220", Offset = "0x4A9E220", VA = "0x4A9E220")]
+		[Address(RVA = "0x4DC5A40", Offset = "0x4DC5A40", VA = "0x4DC5A40")]
 		set
 		{
 		}
@@ -95,13 +102,13 @@ public sealed class LineRenderer : Renderer
 	public bool useWorldSpace
 	{
 		[Token(Token = "0x60003AB")]
-		[Address(RVA = "0x4A9E300", Offset = "0x4A9E300", VA = "0x4A9E300")]
+		[Address(RVA = "0x4DC5B20", Offset = "0x4DC5B20", VA = "0x4DC5B20")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60003AC")]
-		[Address(RVA = "0x4A9E3D0", Offset = "0x4A9E3D0", VA = "0x4A9E3D0")]
+		[Address(RVA = "0x4DC5BF0", Offset = "0x4DC5BF0", VA = "0x4DC5BF0")]
 		set
 		{
 		}
@@ -111,13 +118,13 @@ public sealed class LineRenderer : Renderer
 	public bool loop
 	{
 		[Token(Token = "0x60003AD")]
-		[Address(RVA = "0x4A9E4B0", Offset = "0x4A9E4B0", VA = "0x4A9E4B0")]
+		[Address(RVA = "0x4DC5CD0", Offset = "0x4DC5CD0", VA = "0x4DC5CD0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60003AE")]
-		[Address(RVA = "0x4A9E580", Offset = "0x4A9E580", VA = "0x4A9E580")]
+		[Address(RVA = "0x4DC5DA0", Offset = "0x4DC5DA0", VA = "0x4DC5DA0")]
 		set
 		{
 		}
@@ -127,7 +134,7 @@ public sealed class LineRenderer : Renderer
 	public Color startColor
 	{
 		[Token(Token = "0x60003AF")]
-		[Address(RVA = "0x4A9D8F0", Offset = "0x4A9D8F0", VA = "0x4A9D8F0")]
+		[Address(RVA = "0x4DC5110", Offset = "0x4DC5110", VA = "0x4DC5110")]
 		set
 		{
 		}
@@ -137,7 +144,7 @@ public sealed class LineRenderer : Renderer
 	public Color endColor
 	{
 		[Token(Token = "0x60003B0")]
-		[Address(RVA = "0x4A9D9A0", Offset = "0x4A9D9A0", VA = "0x4A9D9A0")]
+		[Address(RVA = "0x4DC51C0", Offset = "0x4DC51C0", VA = "0x4DC51C0")]
 		set
 		{
 		}
@@ -148,13 +155,13 @@ public sealed class LineRenderer : Renderer
 	public int positionCount
 	{
 		[Token(Token = "0x60003B1")]
-		[Address(RVA = "0x4A9E6E0", Offset = "0x4A9E6E0", VA = "0x4A9E6E0")]
+		[Address(RVA = "0x4DC5F00", Offset = "0x4DC5F00", VA = "0x4DC5F00")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60003B2")]
-		[Address(RVA = "0x4A9DAF0", Offset = "0x4A9DAF0", VA = "0x4A9DAF0")]
+		[Address(RVA = "0x4DC5310", Offset = "0x4DC5310", VA = "0x4DC5310")]
 		set
 		{
 		}
@@ -164,13 +171,13 @@ public sealed class LineRenderer : Renderer
 	public LineTextureMode textureMode
 	{
 		[Token(Token = "0x60003B5")]
-		[Address(RVA = "0x4A9EA00", Offset = "0x4A9EA00", VA = "0x4A9EA00")]
+		[Address(RVA = "0x4DC6220", Offset = "0x4DC6220", VA = "0x4DC6220")]
 		get
 		{
 			return default(LineTextureMode);
 		}
 		[Token(Token = "0x60003B6")]
-		[Address(RVA = "0x4A9EAD0", Offset = "0x4A9EAD0", VA = "0x4A9EAD0")]
+		[Address(RVA = "0x4DC62F0", Offset = "0x4DC62F0", VA = "0x4DC62F0")]
 		set
 		{
 		}
@@ -180,13 +187,13 @@ public sealed class LineRenderer : Renderer
 	public LineAlignment alignment
 	{
 		[Token(Token = "0x60003B7")]
-		[Address(RVA = "0x4A9EBB0", Offset = "0x4A9EBB0", VA = "0x4A9EBB0")]
+		[Address(RVA = "0x4DC63D0", Offset = "0x4DC63D0", VA = "0x4DC63D0")]
 		get
 		{
 			return default(LineAlignment);
 		}
 		[Token(Token = "0x60003B8")]
-		[Address(RVA = "0x4A9EC80", Offset = "0x4A9EC80", VA = "0x4A9EC80")]
+		[Address(RVA = "0x4DC64A0", Offset = "0x4DC64A0", VA = "0x4DC64A0")]
 		set
 		{
 		}
@@ -196,7 +203,7 @@ public sealed class LineRenderer : Renderer
 	public AnimationCurve widthCurve
 	{
 		[Token(Token = "0x60003B9")]
-		[Address(RVA = "0x4A9ED60", Offset = "0x4A9ED60", VA = "0x4A9ED60")]
+		[Address(RVA = "0x4DC6580", Offset = "0x4DC6580", VA = "0x4DC6580")]
 		get
 		{
 			return null;
@@ -207,204 +214,204 @@ public sealed class LineRenderer : Renderer
 	public Gradient colorGradient
 	{
 		[Token(Token = "0x60003BA")]
-		[Address(RVA = "0x4A9EEA0", Offset = "0x4A9EEA0", VA = "0x4A9EEA0")]
+		[Address(RVA = "0x4DC66C0", Offset = "0x4DC66C0", VA = "0x4DC66C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60003BB")]
-		[Address(RVA = "0x4A9EFE0", Offset = "0x4A9EFE0", VA = "0x4A9EFE0")]
+		[Address(RVA = "0x4DC6800", Offset = "0x4DC6800", VA = "0x4DC6800")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600039E")]
-	[Address(RVA = "0x4A9D4E0", Offset = "0x4A9D4E0", VA = "0x4A9D4E0")]
+	[Address(RVA = "0x4DC4D00", Offset = "0x4DC4D00", VA = "0x4DC4D00")]
 	[Obsolete("Use startWidth, endWidth or widthCurve instead.", false)]
 	public void SetWidth(float start, float end)
 	{
 	}
 
 	[Token(Token = "0x600039F")]
-	[Address(RVA = "0x4A9D790", Offset = "0x4A9D790", VA = "0x4A9D790")]
+	[Address(RVA = "0x4DC4FB0", Offset = "0x4DC4FB0", VA = "0x4DC4FB0")]
 	[Obsolete("Use startColor, endColor or colorGradient instead.", false)]
 	public void SetColors(Color start, Color end)
 	{
 	}
 
 	[Token(Token = "0x60003A0")]
-	[Address(RVA = "0x4A9DA50", Offset = "0x4A9DA50", VA = "0x4A9DA50")]
+	[Address(RVA = "0x4DC5270", Offset = "0x4DC5270", VA = "0x4DC5270")]
 	[Obsolete("Use positionCount instead.", false)]
 	public void SetVertexCount(int count)
 	{
 	}
 
 	[Token(Token = "0x60003B3")]
-	[Address(RVA = "0x4A9E7F0", Offset = "0x4A9E7F0", VA = "0x4A9E7F0")]
+	[Address(RVA = "0x4DC6010", Offset = "0x4DC6010", VA = "0x4DC6010")]
 	public void SetPosition(int index, Vector3 position)
 	{
 	}
 
 	[Token(Token = "0x60003B4")]
-	[Address(RVA = "0x4A9E8F0", Offset = "0x4A9E8F0", VA = "0x4A9E8F0")]
+	[Address(RVA = "0x4DC6110", Offset = "0x4DC6110", VA = "0x4DC6110")]
 	public Vector3 GetPosition(int index)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x60003BC")]
-	[Address(RVA = "0x4A9EE00", Offset = "0x4A9EE00", VA = "0x4A9EE00")]
+	[Address(RVA = "0x4DC6620", Offset = "0x4DC6620", VA = "0x4DC6620")]
 	private AnimationCurve GetWidthCurveCopy()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003BD")]
-	[Address(RVA = "0x4A9EF40", Offset = "0x4A9EF40", VA = "0x4A9EF40")]
+	[Address(RVA = "0x4DC6760", Offset = "0x4DC6760", VA = "0x4DC6760")]
 	private Gradient GetColorGradientCopy()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003BE")]
-	[Address(RVA = "0x4A9F080", Offset = "0x4A9F080", VA = "0x4A9F080")]
+	[Address(RVA = "0x4DC68A0", Offset = "0x4DC68A0", VA = "0x4DC68A0")]
 	private void SetColorGradient([UnityEngine.Bindings.NotNull("ArgumentNullException")] Gradient curve)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003BF")]
-	[Address(RVA = "0x4A9DC30", Offset = "0x4A9DC30", VA = "0x4A9DC30")]
+	[Address(RVA = "0x4DC5450", Offset = "0x4DC5450", VA = "0x4DC5450")]
 	private static extern float get_startWidth_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003C0")]
-	[Address(RVA = "0x4A9DC60", Offset = "0x4A9DC60", VA = "0x4A9DC60")]
+	[Address(RVA = "0x4DC5480", Offset = "0x4DC5480", VA = "0x4DC5480")]
 	private static extern void set_startWidth_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003C1")]
-	[Address(RVA = "0x4A9DD50", Offset = "0x4A9DD50", VA = "0x4A9DD50")]
+	[Address(RVA = "0x4DC5570", Offset = "0x4DC5570", VA = "0x4DC5570")]
 	private static extern float get_endWidth_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003C2")]
-	[Address(RVA = "0x4A9DD80", Offset = "0x4A9DD80", VA = "0x4A9DD80")]
+	[Address(RVA = "0x4DC55A0", Offset = "0x4DC55A0", VA = "0x4DC55A0")]
 	private static extern void set_endWidth_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003C3")]
-	[Address(RVA = "0x4A9DE70", Offset = "0x4A9DE70", VA = "0x4A9DE70")]
+	[Address(RVA = "0x4DC5690", Offset = "0x4DC5690", VA = "0x4DC5690")]
 	private static extern float get_widthMultiplier_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003C4")]
-	[Address(RVA = "0x4A9DF50", Offset = "0x4A9DF50", VA = "0x4A9DF50")]
+	[Address(RVA = "0x4DC5770", Offset = "0x4DC5770", VA = "0x4DC5770")]
 	private static extern void set_widthMultiplier_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003C5")]
-	[Address(RVA = "0x4A9E040", Offset = "0x4A9E040", VA = "0x4A9E040")]
+	[Address(RVA = "0x4DC5860", Offset = "0x4DC5860", VA = "0x4DC5860")]
 	private static extern int get_numCornerVertices_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003C6")]
-	[Address(RVA = "0x4A9E110", Offset = "0x4A9E110", VA = "0x4A9E110")]
+	[Address(RVA = "0x4DC5930", Offset = "0x4DC5930", VA = "0x4DC5930")]
 	private static extern void set_numCornerVertices_Injected(IntPtr _unity_self, int value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003C7")]
-	[Address(RVA = "0x4A9E1F0", Offset = "0x4A9E1F0", VA = "0x4A9E1F0")]
+	[Address(RVA = "0x4DC5A10", Offset = "0x4DC5A10", VA = "0x4DC5A10")]
 	private static extern int get_numCapVertices_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003C8")]
-	[Address(RVA = "0x4A9E2C0", Offset = "0x4A9E2C0", VA = "0x4A9E2C0")]
+	[Address(RVA = "0x4DC5AE0", Offset = "0x4DC5AE0", VA = "0x4DC5AE0")]
 	private static extern void set_numCapVertices_Injected(IntPtr _unity_self, int value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003C9")]
-	[Address(RVA = "0x4A9E3A0", Offset = "0x4A9E3A0", VA = "0x4A9E3A0")]
+	[Address(RVA = "0x4DC5BC0", Offset = "0x4DC5BC0", VA = "0x4DC5BC0")]
 	private static extern bool get_useWorldSpace_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003CA")]
-	[Address(RVA = "0x4A9E470", Offset = "0x4A9E470", VA = "0x4A9E470")]
+	[Address(RVA = "0x4DC5C90", Offset = "0x4DC5C90", VA = "0x4DC5C90")]
 	private static extern void set_useWorldSpace_Injected(IntPtr _unity_self, bool value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003CB")]
-	[Address(RVA = "0x4A9E550", Offset = "0x4A9E550", VA = "0x4A9E550")]
+	[Address(RVA = "0x4DC5D70", Offset = "0x4DC5D70", VA = "0x4DC5D70")]
 	private static extern bool get_loop_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003CC")]
-	[Address(RVA = "0x4A9E620", Offset = "0x4A9E620", VA = "0x4A9E620")]
+	[Address(RVA = "0x4DC5E40", Offset = "0x4DC5E40", VA = "0x4DC5E40")]
 	private static extern void set_loop_Injected(IntPtr _unity_self, bool value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003CD")]
-	[Address(RVA = "0x4A9E660", Offset = "0x4A9E660", VA = "0x4A9E660")]
+	[Address(RVA = "0x4DC5E80", Offset = "0x4DC5E80", VA = "0x4DC5E80")]
 	private static extern void set_startColor_Injected(IntPtr _unity_self, [In] ref Color value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003CE")]
-	[Address(RVA = "0x4A9E6A0", Offset = "0x4A9E6A0", VA = "0x4A9E6A0")]
+	[Address(RVA = "0x4DC5EC0", Offset = "0x4DC5EC0", VA = "0x4DC5EC0")]
 	private static extern void set_endColor_Injected(IntPtr _unity_self, [In] ref Color value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003CF")]
-	[Address(RVA = "0x4A9E780", Offset = "0x4A9E780", VA = "0x4A9E780")]
+	[Address(RVA = "0x4DC5FA0", Offset = "0x4DC5FA0", VA = "0x4DC5FA0")]
 	private static extern int get_positionCount_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003D0")]
-	[Address(RVA = "0x4A9E7B0", Offset = "0x4A9E7B0", VA = "0x4A9E7B0")]
+	[Address(RVA = "0x4DC5FD0", Offset = "0x4DC5FD0", VA = "0x4DC5FD0")]
 	private static extern void set_positionCount_Injected(IntPtr _unity_self, int value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003D1")]
-	[Address(RVA = "0x4A9E8B0", Offset = "0x4A9E8B0", VA = "0x4A9E8B0")]
+	[Address(RVA = "0x4DC60D0", Offset = "0x4DC60D0", VA = "0x4DC60D0")]
 	private static extern void SetPosition_Injected(IntPtr _unity_self, int index, [In] ref Vector3 position);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003D2")]
-	[Address(RVA = "0x4A9E9C0", Offset = "0x4A9E9C0", VA = "0x4A9E9C0")]
+	[Address(RVA = "0x4DC61E0", Offset = "0x4DC61E0", VA = "0x4DC61E0")]
 	private static extern void GetPosition_Injected(IntPtr _unity_self, int index, out Vector3 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003D3")]
-	[Address(RVA = "0x4A9EAA0", Offset = "0x4A9EAA0", VA = "0x4A9EAA0")]
+	[Address(RVA = "0x4DC62C0", Offset = "0x4DC62C0", VA = "0x4DC62C0")]
 	private static extern LineTextureMode get_textureMode_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003D4")]
-	[Address(RVA = "0x4A9EB70", Offset = "0x4A9EB70", VA = "0x4A9EB70")]
+	[Address(RVA = "0x4DC6390", Offset = "0x4DC6390", VA = "0x4DC6390")]
 	private static extern void set_textureMode_Injected(IntPtr _unity_self, LineTextureMode value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003D5")]
-	[Address(RVA = "0x4A9EC50", Offset = "0x4A9EC50", VA = "0x4A9EC50")]
+	[Address(RVA = "0x4DC6470", Offset = "0x4DC6470", VA = "0x4DC6470")]
 	private static extern LineAlignment get_alignment_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003D6")]
-	[Address(RVA = "0x4A9ED20", Offset = "0x4A9ED20", VA = "0x4A9ED20")]
+	[Address(RVA = "0x4DC6540", Offset = "0x4DC6540", VA = "0x4DC6540")]
 	private static extern void set_alignment_Injected(IntPtr _unity_self, LineAlignment value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003D7")]
-	[Address(RVA = "0x4A9F120", Offset = "0x4A9F120", VA = "0x4A9F120")]
+	[Address(RVA = "0x4DC6940", Offset = "0x4DC6940", VA = "0x4DC6940")]
 	private static extern AnimationCurve GetWidthCurveCopy_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003D8")]
-	[Address(RVA = "0x4A9F150", Offset = "0x4A9F150", VA = "0x4A9F150")]
+	[Address(RVA = "0x4DC6970", Offset = "0x4DC6970", VA = "0x4DC6970")]
 	private static extern Gradient GetColorGradientCopy_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60003D9")]
-	[Address(RVA = "0x4A9F180", Offset = "0x4A9F180", VA = "0x4A9F180")]
+	[Address(RVA = "0x4DC69A0", Offset = "0x4DC69A0", VA = "0x4DC69A0")]
 	private static extern void SetColorGradient_Injected(IntPtr _unity_self, Gradient curve);
 }

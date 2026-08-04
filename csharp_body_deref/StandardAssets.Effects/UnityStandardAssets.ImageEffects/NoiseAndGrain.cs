@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.NoiseAndGrain
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/NoiseAndGrain.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -82,26 +89,26 @@ public class NoiseAndGrain : PostEffectsBase
 	private static float TILE_AMOUNT;
 
 	[Token(Token = "0x600006C")]
-	[Address(RVA = "0x415E530", Offset = "0x415E530", VA = "0x415E530", Slot = "4")]
+	[Address(RVA = "0x4483630", Offset = "0x4483630", VA = "0x4483630", Slot = "4")]
 	public override bool CheckResources()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x415E630", Offset = "0x415E630", VA = "0x415E630")]
+	[Address(RVA = "0x4483730", Offset = "0x4483730", VA = "0x4483730")]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x415EE90", Offset = "0x415EE90", VA = "0x415EE90")]
+	[Address(RVA = "0x4483F90", Offset = "0x4483F90", VA = "0x4483F90")]
 	private static void DrawNoiseQuadGrid(RenderTexture source, RenderTexture dest, Material fxMaterial, Texture2D noise, int passNr)
 	{
 	}
 
 	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x415F280", Offset = "0x415F280", VA = "0x415F280")]
+	[Address(RVA = "0x4484380", Offset = "0x4484380", VA = "0x4484380")]
 	public NoiseAndGrain()
 	{
 	}

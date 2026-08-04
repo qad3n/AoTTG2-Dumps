@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XmlSchemaAttributeGroupRef
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.Serialization;
 using Il2CppDummyDll;
 
@@ -15,20 +22,20 @@ public class XmlSchemaAttributeGroupRef : XmlSchemaAnnotated
 	public XmlQualifiedName RefName
 	{
 		[Token(Token = "0x6001573")]
-		[Address(RVA = "0x43E2080", Offset = "0x43E2080", VA = "0x43E2080")]
+		[Address(RVA = "0x471F7E0", Offset = "0x471F7E0", VA = "0x471F7E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001574")]
-		[Address(RVA = "0x43E2090", Offset = "0x43E2090", VA = "0x43E2090")]
+		[Address(RVA = "0x471F7F0", Offset = "0x471F7F0", VA = "0x471F7F0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001575")]
-	[Address(RVA = "0x43E2120", Offset = "0x43E2120", VA = "0x43E2120")]
+	[Address(RVA = "0x471F880", Offset = "0x471F880", VA = "0x471F880")]
 	public XmlSchemaAttributeGroupRef()
 	{
 	}

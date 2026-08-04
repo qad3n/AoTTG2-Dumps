@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.StringComparer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
@@ -29,7 +36,7 @@ public abstract class StringComparer : IComparer, IEqualityComparer, IComparer<s
 	public static StringComparer InvariantCultureIgnoreCase
 	{
 		[Token(Token = "0x6000A03")]
-		[Address(RVA = "0x4FEB130", Offset = "0x4FEB130", VA = "0x4FEB130")]
+		[Address(RVA = "0x3CD0C50", Offset = "0x3CD0C50", VA = "0x3CD0C50")]
 		get
 		{
 			return null;
@@ -40,7 +47,7 @@ public abstract class StringComparer : IComparer, IEqualityComparer, IComparer<s
 	public static StringComparer Ordinal
 	{
 		[Token(Token = "0x6000A04")]
-		[Address(RVA = "0x4FEB1A0", Offset = "0x4FEB1A0", VA = "0x4FEB1A0")]
+		[Address(RVA = "0x3CD0CC0", Offset = "0x3CD0CC0", VA = "0x3CD0CC0")]
 		get
 		{
 			return null;
@@ -51,7 +58,7 @@ public abstract class StringComparer : IComparer, IEqualityComparer, IComparer<s
 	public static StringComparer OrdinalIgnoreCase
 	{
 		[Token(Token = "0x6000A05")]
-		[Address(RVA = "0x4FEB210", Offset = "0x4FEB210", VA = "0x4FEB210")]
+		[Address(RVA = "0x3CD0D30", Offset = "0x3CD0D30", VA = "0x3CD0D30")]
 		get
 		{
 			return null;
@@ -59,28 +66,28 @@ public abstract class StringComparer : IComparer, IEqualityComparer, IComparer<s
 	}
 
 	[Token(Token = "0x6000A06")]
-	[Address(RVA = "0x4FEB280", Offset = "0x4FEB280", VA = "0x4FEB280")]
+	[Address(RVA = "0x3CD0DA0", Offset = "0x3CD0DA0", VA = "0x3CD0DA0")]
 	public static StringComparer Create(CultureInfo culture, bool ignoreCase)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A07")]
-	[Address(RVA = "0x4FEB380", Offset = "0x4FEB380", VA = "0x4FEB380", Slot = "4")]
+	[Address(RVA = "0x3CD0EA0", Offset = "0x3CD0EA0", VA = "0x3CD0EA0", Slot = "4")]
 	public int Compare(object x, object y)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000A08")]
-	[Address(RVA = "0x4FEB510", Offset = "0x4FEB510", VA = "0x4FEB510", Slot = "5")]
+	[Address(RVA = "0x3CD1030", Offset = "0x3CD1030", VA = "0x3CD1030", Slot = "5")]
 	public new bool Equals(object x, object y)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A09")]
-	[Address(RVA = "0x4FEB570", Offset = "0x4FEB570", VA = "0x4FEB570", Slot = "6")]
+	[Address(RVA = "0x3CD1090", Offset = "0x3CD1090", VA = "0x3CD1090", Slot = "6")]
 	public int GetHashCode(object obj)
 	{
 		return default(int);
@@ -96,7 +103,7 @@ public abstract class StringComparer : IComparer, IEqualityComparer, IComparer<s
 	public abstract int GetHashCode(string obj);
 
 	[Token(Token = "0x6000A0D")]
-	[Address(RVA = "0x4FEB600", Offset = "0x4FEB600", VA = "0x4FEB600")]
+	[Address(RVA = "0x3CD1120", Offset = "0x3CD1120", VA = "0x3CD1120")]
 	protected StringComparer()
 	{
 	}

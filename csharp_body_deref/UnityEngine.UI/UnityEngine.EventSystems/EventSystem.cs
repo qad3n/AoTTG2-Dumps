@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.EventSystems.EventSystem
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -91,13 +98,13 @@ public class EventSystem : UIBehaviour
 	public static EventSystem current
 	{
 		[Token(Token = "0x600064E")]
-		[Address(RVA = "0x4DCEE20", Offset = "0x4DCEE20", VA = "0x4DCEE20")]
+		[Address(RVA = "0x50F6770", Offset = "0x50F6770", VA = "0x50F6770")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600064F")]
-		[Address(RVA = "0x4DCEF00", Offset = "0x4DCEF00", VA = "0x4DCEF00")]
+		[Address(RVA = "0x50F6850", Offset = "0x50F6850", VA = "0x50F6850")]
 		set
 		{
 		}
@@ -107,13 +114,13 @@ public class EventSystem : UIBehaviour
 	public bool sendNavigationEvents
 	{
 		[Token(Token = "0x6000650")]
-		[Address(RVA = "0x4DCF0A0", Offset = "0x4DCF0A0", VA = "0x4DCF0A0")]
+		[Address(RVA = "0x50F69F0", Offset = "0x50F69F0", VA = "0x50F69F0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000651")]
-		[Address(RVA = "0x4DCF0B0", Offset = "0x4DCF0B0", VA = "0x4DCF0B0")]
+		[Address(RVA = "0x50F6A00", Offset = "0x50F6A00", VA = "0x50F6A00")]
 		set
 		{
 		}
@@ -123,13 +130,13 @@ public class EventSystem : UIBehaviour
 	public int pixelDragThreshold
 	{
 		[Token(Token = "0x6000652")]
-		[Address(RVA = "0x4DCF0C0", Offset = "0x4DCF0C0", VA = "0x4DCF0C0")]
+		[Address(RVA = "0x50F6A10", Offset = "0x50F6A10", VA = "0x50F6A10")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000653")]
-		[Address(RVA = "0x4DCF0D0", Offset = "0x4DCF0D0", VA = "0x4DCF0D0")]
+		[Address(RVA = "0x50F6A20", Offset = "0x50F6A20", VA = "0x50F6A20")]
 		set
 		{
 		}
@@ -139,7 +146,7 @@ public class EventSystem : UIBehaviour
 	public BaseInputModule currentInputModule
 	{
 		[Token(Token = "0x6000654")]
-		[Address(RVA = "0x4DCF0E0", Offset = "0x4DCF0E0", VA = "0x4DCF0E0")]
+		[Address(RVA = "0x50F6A30", Offset = "0x50F6A30", VA = "0x50F6A30")]
 		get
 		{
 			return null;
@@ -150,13 +157,13 @@ public class EventSystem : UIBehaviour
 	public GameObject firstSelectedGameObject
 	{
 		[Token(Token = "0x6000655")]
-		[Address(RVA = "0x4DCF0F0", Offset = "0x4DCF0F0", VA = "0x4DCF0F0")]
+		[Address(RVA = "0x50F6A40", Offset = "0x50F6A40", VA = "0x50F6A40")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000656")]
-		[Address(RVA = "0x4DCF100", Offset = "0x4DCF100", VA = "0x4DCF100")]
+		[Address(RVA = "0x50F6A50", Offset = "0x50F6A50", VA = "0x50F6A50")]
 		set
 		{
 		}
@@ -166,7 +173,7 @@ public class EventSystem : UIBehaviour
 	public GameObject currentSelectedGameObject
 	{
 		[Token(Token = "0x6000657")]
-		[Address(RVA = "0x4DCF110", Offset = "0x4DCF110", VA = "0x4DCF110")]
+		[Address(RVA = "0x50F6A60", Offset = "0x50F6A60", VA = "0x50F6A60")]
 		get
 		{
 			return null;
@@ -178,7 +185,7 @@ public class EventSystem : UIBehaviour
 	public GameObject lastSelectedGameObject
 	{
 		[Token(Token = "0x6000658")]
-		[Address(RVA = "0x4DCF120", Offset = "0x4DCF120", VA = "0x4DCF120")]
+		[Address(RVA = "0x50F6A70", Offset = "0x50F6A70", VA = "0x50F6A70")]
 		get
 		{
 			return null;
@@ -189,7 +196,7 @@ public class EventSystem : UIBehaviour
 	public bool isFocused
 	{
 		[Token(Token = "0x6000659")]
-		[Address(RVA = "0x4DCF130", Offset = "0x4DCF130", VA = "0x4DCF130")]
+		[Address(RVA = "0x50F6A80", Offset = "0x50F6A80", VA = "0x50F6A80")]
 		get
 		{
 			return default(bool);
@@ -200,7 +207,7 @@ public class EventSystem : UIBehaviour
 	public bool alreadySelecting
 	{
 		[Token(Token = "0x600065C")]
-		[Address(RVA = "0x4DCF310", Offset = "0x4DCF310", VA = "0x4DCF310")]
+		[Address(RVA = "0x50F6C60", Offset = "0x50F6C60", VA = "0x50F6C60")]
 		get
 		{
 			return default(bool);
@@ -211,7 +218,7 @@ public class EventSystem : UIBehaviour
 	private BaseEventData baseEventDataCache
 	{
 		[Token(Token = "0x600065E")]
-		[Address(RVA = "0x4DCF320", Offset = "0x4DCF320", VA = "0x4DCF320")]
+		[Address(RVA = "0x50F6C70", Offset = "0x50F6C70", VA = "0x50F6C70")]
 		get
 		{
 			return null;
@@ -222,7 +229,7 @@ public class EventSystem : UIBehaviour
 	private bool isUIToolkitActiveEventSystem
 	{
 		[Token(Token = "0x6000664")]
-		[Address(RVA = "0x4DCFBA0", Offset = "0x4DCFBA0", VA = "0x4DCFBA0")]
+		[Address(RVA = "0x50F74F0", Offset = "0x50F74F0", VA = "0x50F74F0")]
 		get
 		{
 			return default(bool);
@@ -233,7 +240,7 @@ public class EventSystem : UIBehaviour
 	private bool sendUIToolkitEvents
 	{
 		[Token(Token = "0x6000665")]
-		[Address(RVA = "0x4DCFC80", Offset = "0x4DCFC80", VA = "0x4DCFC80")]
+		[Address(RVA = "0x50F75D0", Offset = "0x50F75D0", VA = "0x50F75D0")]
 		get
 		{
 			return default(bool);
@@ -244,7 +251,7 @@ public class EventSystem : UIBehaviour
 	private bool createUIToolkitPanelGameObjectsOnStart
 	{
 		[Token(Token = "0x6000666")]
-		[Address(RVA = "0x4DCFD10", Offset = "0x4DCFD10", VA = "0x4DCFD10")]
+		[Address(RVA = "0x50F7660", Offset = "0x50F7660", VA = "0x50F7660")]
 		get
 		{
 			return default(bool);
@@ -252,124 +259,124 @@ public class EventSystem : UIBehaviour
 	}
 
 	[Token(Token = "0x600065A")]
-	[Address(RVA = "0x4DCF140", Offset = "0x4DCF140", VA = "0x4DCF140")]
+	[Address(RVA = "0x50F6A90", Offset = "0x50F6A90", VA = "0x50F6A90")]
 	protected EventSystem()
 	{
 	}
 
 	[Token(Token = "0x600065B")]
-	[Address(RVA = "0x4DCF1D0", Offset = "0x4DCF1D0", VA = "0x4DCF1D0")]
+	[Address(RVA = "0x50F6B20", Offset = "0x50F6B20", VA = "0x50F6B20")]
 	public void UpdateModules()
 	{
 	}
 
 	[Token(Token = "0x600065D")]
-	[Address(RVA = "0x4DCD680", Offset = "0x4DCD680", VA = "0x4DCD680")]
+	[Address(RVA = "0x50F4FD0", Offset = "0x50F4FD0", VA = "0x50F4FD0")]
 	public void SetSelectedGameObject(GameObject selected, BaseEventData pointer)
 	{
 	}
 
 	[Token(Token = "0x600065F")]
-	[Address(RVA = "0x4DC9D80", Offset = "0x4DC9D80", VA = "0x4DC9D80")]
+	[Address(RVA = "0x50F16D0", Offset = "0x50F16D0", VA = "0x50F16D0")]
 	public void SetSelectedGameObject(GameObject selected)
 	{
 	}
 
 	[Token(Token = "0x6000660")]
-	[Address(RVA = "0x4DCF3B0", Offset = "0x4DCF3B0", VA = "0x4DCF3B0")]
+	[Address(RVA = "0x50F6D00", Offset = "0x50F6D00", VA = "0x50F6D00")]
 	private static int RaycastComparer(RaycastResult lhs, RaycastResult rhs)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000661")]
-	[Address(RVA = "0x4DCF850", Offset = "0x4DCF850", VA = "0x4DCF850")]
+	[Address(RVA = "0x50F71A0", Offset = "0x50F71A0", VA = "0x50F71A0")]
 	public void RaycastAll(PointerEventData eventData, List<RaycastResult> raycastResults)
 	{
 	}
 
 	[Token(Token = "0x6000662")]
-	[Address(RVA = "0x4DCFA80", Offset = "0x4DCFA80", VA = "0x4DCFA80")]
+	[Address(RVA = "0x50F73D0", Offset = "0x50F73D0", VA = "0x50F73D0")]
 	public bool IsPointerOverGameObject()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000663")]
-	[Address(RVA = "0x4DCFB10", Offset = "0x4DCFB10", VA = "0x4DCFB10")]
+	[Address(RVA = "0x50F7460", Offset = "0x50F7460", VA = "0x50F7460")]
 	public bool IsPointerOverGameObject(int pointerId)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000667")]
-	[Address(RVA = "0x4DCFDA0", Offset = "0x4DCFDA0", VA = "0x4DCFDA0")]
+	[Address(RVA = "0x50F76F0", Offset = "0x50F76F0", VA = "0x50F76F0")]
 	public static void SetUITookitEventSystemOverride(EventSystem activeEventSystem, bool sendEvents = true, bool createPanelGameObjectsOnStart = true)
 	{
 	}
 
 	[Token(Token = "0x6000668")]
-	[Address(RVA = "0x4DCFFB0", Offset = "0x4DCFFB0", VA = "0x4DCFFB0")]
+	[Address(RVA = "0x50F7900", Offset = "0x50F7900", VA = "0x50F7900")]
 	private void StartTrackingUIToolkitPanels()
 	{
 	}
 
 	[Token(Token = "0x6000669")]
-	[Address(RVA = "0x4DD0520", Offset = "0x4DD0520", VA = "0x4DD0520")]
+	[Address(RVA = "0x50F7E70", Offset = "0x50F7E70", VA = "0x50F7E70")]
 	private void StopTrackingUIToolkitPanels()
 	{
 	}
 
 	[Token(Token = "0x600066A")]
-	[Address(RVA = "0x4DD0270", Offset = "0x4DD0270", VA = "0x4DD0270")]
+	[Address(RVA = "0x50F7BC0", Offset = "0x50F7BC0", VA = "0x50F7BC0")]
 	private void CreateUIToolkitPanelGameObject(UnityEngine.UIElements.BaseRuntimePanel panel)
 	{
 	}
 
 	[Token(Token = "0x600066B")]
-	[Address(RVA = "0x4DD05D0", Offset = "0x4DD05D0", VA = "0x4DD05D0", Slot = "6")]
+	[Address(RVA = "0x50F7F20", Offset = "0x50F7F20", VA = "0x50F7F20", Slot = "6")]
 	protected override void Start()
 	{
 	}
 
 	[Token(Token = "0x600066C")]
-	[Address(RVA = "0x4DD05F0", Offset = "0x4DD05F0", VA = "0x4DD05F0", Slot = "5")]
+	[Address(RVA = "0x50F7F40", Offset = "0x50F7F40", VA = "0x50F7F40", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x600066D")]
-	[Address(RVA = "0x4DD07A0", Offset = "0x4DD07A0", VA = "0x4DD07A0", Slot = "7")]
+	[Address(RVA = "0x50F80F0", Offset = "0x50F80F0", VA = "0x50F80F0", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x600066E")]
-	[Address(RVA = "0x4DD08C0", Offset = "0x4DD08C0", VA = "0x4DD08C0")]
+	[Address(RVA = "0x50F8210", Offset = "0x50F8210", VA = "0x50F8210")]
 	private void TickModules()
 	{
 	}
 
 	[Token(Token = "0x600066F")]
-	[Address(RVA = "0x4DD09B0", Offset = "0x4DD09B0", VA = "0x4DD09B0", Slot = "17")]
+	[Address(RVA = "0x50F8300", Offset = "0x50F8300", VA = "0x50F8300", Slot = "17")]
 	protected virtual void OnApplicationFocus(bool hasFocus)
 	{
 	}
 
 	[Token(Token = "0x6000670")]
-	[Address(RVA = "0x4DD09C0", Offset = "0x4DD09C0", VA = "0x4DD09C0", Slot = "18")]
+	[Address(RVA = "0x50F8310", Offset = "0x50F8310", VA = "0x50F8310", Slot = "18")]
 	protected virtual void Update()
 	{
 	}
 
 	[Token(Token = "0x6000671")]
-	[Address(RVA = "0x4DD0C40", Offset = "0x4DD0C40", VA = "0x4DD0C40")]
+	[Address(RVA = "0x50F8590", Offset = "0x50F8590", VA = "0x50F8590")]
 	private void ChangeEventModule(BaseInputModule module)
 	{
 	}
 
 	[Token(Token = "0x6000672")]
-	[Address(RVA = "0x4DD0D40", Offset = "0x4DD0D40", VA = "0x4DD0D40", Slot = "3")]
+	[Address(RVA = "0x50F8690", Offset = "0x50F8690", VA = "0x50F8690", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

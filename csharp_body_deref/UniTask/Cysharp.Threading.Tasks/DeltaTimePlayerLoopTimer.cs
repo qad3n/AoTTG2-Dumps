@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.DeltaTimePlayerLoopTimer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Threading;
 using Il2CppDummyDll;
@@ -20,20 +27,20 @@ internal sealed class DeltaTimePlayerLoopTimer : PlayerLoopTimer
 	private float interval;
 
 	[Token(Token = "0x600015D")]
-	[Address(RVA = "0x46B4080", Offset = "0x46B4080", VA = "0x46B4080")]
+	[Address(RVA = "0x49D9180", Offset = "0x49D9180", VA = "0x49D9180")]
 	public DeltaTimePlayerLoopTimer(TimeSpan interval, bool periodic, PlayerLoopTiming playerLoopTiming, CancellationToken cancellationToken, Action<object> timerCallback, object state)
 	{
 	}
 
 	[Token(Token = "0x600015E")]
-	[Address(RVA = "0x46B43E0", Offset = "0x46B43E0", VA = "0x46B43E0", Slot = "7")]
+	[Address(RVA = "0x49D94E0", Offset = "0x49D94E0", VA = "0x49D94E0", Slot = "7")]
 	protected override bool MoveNextCore()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600015F")]
-	[Address(RVA = "0x46B4440", Offset = "0x46B4440", VA = "0x46B4440", Slot = "6")]
+	[Address(RVA = "0x49D9540", Offset = "0x49D9540", VA = "0x49D9540", Slot = "6")]
 	protected override void ResetCore(TimeSpan? interval)
 	{
 	}

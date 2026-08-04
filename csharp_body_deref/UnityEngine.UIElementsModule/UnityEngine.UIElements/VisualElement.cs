@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.VisualElement
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -21,7 +28,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public class UxmlFactory : UxmlFactory<VisualElement, UxmlTraits>
 	{
 		[Token(Token = "0x6001453")]
-		[Address(RVA = "0x4D7A3D0", Offset = "0x4D7A3D0", VA = "0x4D7A3D0")]
+		[Address(RVA = "0x50A1D00", Offset = "0x50A1D00", VA = "0x50A1D00")]
 		public UxmlFactory()
 		{
 		}
@@ -70,7 +77,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 		protected UxmlIntAttributeDescription focusIndex
 		{
 			[Token(Token = "0x6001454")]
-			[Address(RVA = "0x4D7A410", Offset = "0x4D7A410", VA = "0x4D7A410")]
+			[Address(RVA = "0x50A1D40", Offset = "0x50A1D40", VA = "0x50A1D40")]
 			[CompilerGenerated]
 			get
 			{
@@ -82,7 +89,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 		protected UxmlBoolAttributeDescription focusable
 		{
 			[Token(Token = "0x6001455")]
-			[Address(RVA = "0x4D7A420", Offset = "0x4D7A420", VA = "0x4D7A420")]
+			[Address(RVA = "0x50A1D50", Offset = "0x50A1D50", VA = "0x50A1D50")]
 			[CompilerGenerated]
 			get
 			{
@@ -91,13 +98,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 		}
 
 		[Token(Token = "0x6001456")]
-		[Address(RVA = "0x4D7A430", Offset = "0x4D7A430", VA = "0x4D7A430", Slot = "4")]
+		[Address(RVA = "0x50A1D60", Offset = "0x50A1D60", VA = "0x50A1D60", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x6001457")]
-		[Address(RVA = "0x4D7A870", Offset = "0x4D7A870", VA = "0x4D7A870")]
+		[Address(RVA = "0x50A21A0", Offset = "0x50A21A0", VA = "0x50A21A0")]
 		public UxmlTraits()
 		{
 		}
@@ -141,7 +148,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 		public VisualElement parent
 		{
 			[Token(Token = "0x6001458")]
-			[Address(RVA = "0x4D67BB0", Offset = "0x4D67BB0", VA = "0x4D67BB0")]
+			[Address(RVA = "0x508F4E0", Offset = "0x508F4E0", VA = "0x508F4E0")]
 			get
 			{
 				return null;
@@ -152,7 +159,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 		internal List<VisualElement> children
 		{
 			[Token(Token = "0x6001459")]
-			[Address(RVA = "0x4D7AE40", Offset = "0x4D7AE40", VA = "0x4D7AE40")]
+			[Address(RVA = "0x50A2770", Offset = "0x50A2770", VA = "0x50A2770")]
 			get
 			{
 				return null;
@@ -163,7 +170,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 		public int childCount
 		{
 			[Token(Token = "0x6001464")]
-			[Address(RVA = "0x4D77740", Offset = "0x4D77740", VA = "0x4D77740")]
+			[Address(RVA = "0x509F070", Offset = "0x509F070", VA = "0x509F070")]
 			get
 			{
 				return default(int);
@@ -174,7 +181,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 		public VisualElement this[int key]
 		{
 			[Token(Token = "0x6001465")]
-			[Address(RVA = "0x4D77650", Offset = "0x4D77650", VA = "0x4D77650")]
+			[Address(RVA = "0x509EF80", Offset = "0x509EF80", VA = "0x509EF80")]
 			get
 			{
 				return null;
@@ -182,133 +189,133 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 		}
 
 		[Token(Token = "0x600145A")]
-		[Address(RVA = "0x4D6DF90", Offset = "0x4D6DF90", VA = "0x4D6DF90")]
+		[Address(RVA = "0x50958C0", Offset = "0x50958C0", VA = "0x50958C0")]
 		internal Hierarchy(VisualElement element)
 		{
 		}
 
 		[Token(Token = "0x600145B")]
-		[Address(RVA = "0x4D76990", Offset = "0x4D76990", VA = "0x4D76990")]
+		[Address(RVA = "0x509E2C0", Offset = "0x509E2C0", VA = "0x509E2C0")]
 		public void Add(VisualElement child)
 		{
 		}
 
 		[Token(Token = "0x600145C")]
-		[Address(RVA = "0x4D76AD0", Offset = "0x4D76AD0", VA = "0x4D76AD0")]
+		[Address(RVA = "0x509E400", Offset = "0x509E400", VA = "0x509E400")]
 		public void Insert(int index, VisualElement child)
 		{
 		}
 
 		[Token(Token = "0x600145D")]
-		[Address(RVA = "0x4D76F30", Offset = "0x4D76F30", VA = "0x4D76F30")]
+		[Address(RVA = "0x509E860", Offset = "0x509E860", VA = "0x509E860")]
 		public void Remove(VisualElement child)
 		{
 		}
 
 		[Token(Token = "0x600145E")]
-		[Address(RVA = "0x4D7B120", Offset = "0x4D7B120", VA = "0x4D7B120")]
+		[Address(RVA = "0x50A2A50", Offset = "0x50A2A50", VA = "0x50A2A50")]
 		public void RemoveAt(int index)
 		{
 		}
 
 		[Token(Token = "0x600145F")]
-		[Address(RVA = "0x4D77090", Offset = "0x4D77090", VA = "0x4D77090")]
+		[Address(RVA = "0x509E9C0", Offset = "0x509E9C0", VA = "0x509E9C0")]
 		public void Clear()
 		{
 		}
 
 		[Token(Token = "0x6001460")]
-		[Address(RVA = "0x4D77D60", Offset = "0x4D77D60", VA = "0x4D77D60")]
+		[Address(RVA = "0x509F690", Offset = "0x509F690", VA = "0x509F690")]
 		internal void BringToFront(VisualElement child)
 		{
 		}
 
 		[Token(Token = "0x6001461")]
-		[Address(RVA = "0x4D77EA0", Offset = "0x4D77EA0", VA = "0x4D77EA0")]
+		[Address(RVA = "0x509F7D0", Offset = "0x509F7D0", VA = "0x509F7D0")]
 		internal void SendToBack(VisualElement child)
 		{
 		}
 
 		[Token(Token = "0x6001462")]
-		[Address(RVA = "0x4D78050", Offset = "0x4D78050", VA = "0x4D78050")]
+		[Address(RVA = "0x509F980", Offset = "0x509F980", VA = "0x509F980")]
 		internal void PlaceBehind(VisualElement child, VisualElement over)
 		{
 		}
 
 		[Token(Token = "0x6001463")]
-		[Address(RVA = "0x4D7B600", Offset = "0x4D7B600", VA = "0x4D7B600")]
+		[Address(RVA = "0x50A2F30", Offset = "0x50A2F30", VA = "0x50A2F30")]
 		private void MoveChildElement(VisualElement child, int currentIndex, int nextIndex)
 		{
 		}
 
 		[Token(Token = "0x6001466")]
-		[Address(RVA = "0x4D77830", Offset = "0x4D77830", VA = "0x4D77830")]
+		[Address(RVA = "0x509F160", Offset = "0x509F160", VA = "0x509F160")]
 		public int IndexOf(VisualElement element)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6001467")]
-		[Address(RVA = "0x4D7B770", Offset = "0x4D7B770", VA = "0x4D7B770")]
+		[Address(RVA = "0x50A30A0", Offset = "0x50A30A0", VA = "0x50A30A0")]
 		public VisualElement ElementAt(int index)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6001468")]
-		[Address(RVA = "0x4D77D00", Offset = "0x4D77D00", VA = "0x4D77D00")]
+		[Address(RVA = "0x509F630", Offset = "0x509F630", VA = "0x509F630")]
 		public IEnumerable<VisualElement> Children()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6001469")]
-		[Address(RVA = "0x4D7B020", Offset = "0x4D7B020", VA = "0x4D7B020")]
+		[Address(RVA = "0x50A2950", Offset = "0x50A2950", VA = "0x50A2950")]
 		private void SetParent(VisualElement value)
 		{
 		}
 
 		[Token(Token = "0x600146A")]
-		[Address(RVA = "0x4D7AE60", Offset = "0x4D7AE60", VA = "0x4D7AE60")]
+		[Address(RVA = "0x50A2790", Offset = "0x50A2790", VA = "0x50A2790")]
 		private void PutChildAtIndex(VisualElement child, int index)
 		{
 		}
 
 		[Token(Token = "0x600146B")]
-		[Address(RVA = "0x4D7B4A0", Offset = "0x4D7B4A0", VA = "0x4D7B4A0")]
+		[Address(RVA = "0x50A2DD0", Offset = "0x50A2DD0", VA = "0x50A2DD0")]
 		private void RemoveChildAtIndex(int index)
 		{
 		}
 
 		[Token(Token = "0x600146C")]
-		[Address(RVA = "0x4D7B510", Offset = "0x4D7B510", VA = "0x4D7B510")]
+		[Address(RVA = "0x50A2E40", Offset = "0x50A2E40", VA = "0x50A2E40")]
 		private void ReleaseChildList()
 		{
 		}
 
 		[Token(Token = "0x600146D")]
-		[Address(RVA = "0x4D7B7D0", Offset = "0x4D7B7D0", VA = "0x4D7B7D0")]
+		[Address(RVA = "0x50A3100", Offset = "0x50A3100", VA = "0x50A3100")]
 		public bool Equals(Hierarchy other)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600146E")]
-		[Address(RVA = "0x4D7B7F0", Offset = "0x4D7B7F0", VA = "0x4D7B7F0", Slot = "0")]
+		[Address(RVA = "0x50A3120", Offset = "0x50A3120", VA = "0x50A3120", Slot = "0")]
 		public override bool Equals(object obj)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600146F")]
-		[Address(RVA = "0x4D7B850", Offset = "0x4D7B850", VA = "0x4D7B850", Slot = "2")]
+		[Address(RVA = "0x50A3180", Offset = "0x50A3180", VA = "0x50A3180", Slot = "2")]
 		public override int GetHashCode()
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6001470")]
-		[Address(RVA = "0x4D7B7E0", Offset = "0x4D7B7E0", VA = "0x4D7B7E0")]
+		[Address(RVA = "0x50A3110", Offset = "0x50A3110", VA = "0x50A3110")]
 		public static bool operator ==(Hierarchy x, Hierarchy y)
 		{
 			return default(bool);
@@ -330,14 +337,14 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 		public VisualElement element
 		{
 			[Token(Token = "0x6001471")]
-			[Address(RVA = "0x4D7BAB0", Offset = "0x4D7BAB0", VA = "0x4D7BAB0", Slot = "12")]
+			[Address(RVA = "0x50A33E0", Offset = "0x50A33E0", VA = "0x50A33E0", Slot = "12")]
 			[CompilerGenerated]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x6001472")]
-			[Address(RVA = "0x4D7BAC0", Offset = "0x4D7BAC0", VA = "0x4D7BAC0")]
+			[Address(RVA = "0x50A33F0", Offset = "0x50A33F0", VA = "0x50A33F0")]
 			[CompilerGenerated]
 			private set
 			{
@@ -345,63 +352,63 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 		}
 
 		[Token(Token = "0x6001473")]
-		[Address(RVA = "0x4D7BAD0", Offset = "0x4D7BAD0", VA = "0x4D7BAD0")]
+		[Address(RVA = "0x50A3400", Offset = "0x50A3400", VA = "0x50A3400")]
 		protected BaseVisualElementScheduledItem(VisualElement handler)
 		{
 		}
 
 		[Token(Token = "0x6001474")]
-		[Address(RVA = "0x4D7BB80", Offset = "0x4D7BB80", VA = "0x4D7BB80", Slot = "10")]
+		[Address(RVA = "0x50A34B0", Offset = "0x50A34B0", VA = "0x50A34B0", Slot = "10")]
 		public IVisualElementScheduledItem StartingIn(long delayMs)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6001475")]
-		[Address(RVA = "0x4D7BB90", Offset = "0x4D7BB90", VA = "0x4D7BB90", Slot = "11")]
+		[Address(RVA = "0x50A34C0", Offset = "0x50A34C0", VA = "0x50A34C0", Slot = "11")]
 		public IVisualElementScheduledItem Every(long intervalMs)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6001476")]
-		[Address(RVA = "0x4D7BC30", Offset = "0x4D7BC30", VA = "0x4D7BC30", Slot = "5")]
+		[Address(RVA = "0x50A3560", Offset = "0x50A3560", VA = "0x50A3560", Slot = "5")]
 		internal override void OnItemUnscheduled()
 		{
 		}
 
 		[Token(Token = "0x6001477")]
-		[Address(RVA = "0x4D7BC60", Offset = "0x4D7BC60", VA = "0x4D7BC60", Slot = "7")]
+		[Address(RVA = "0x50A3590", Offset = "0x50A3590", VA = "0x50A3590", Slot = "7")]
 		public void Resume()
 		{
 		}
 
 		[Token(Token = "0x6001478")]
-		[Address(RVA = "0x4D7BC80", Offset = "0x4D7BC80", VA = "0x4D7BC80", Slot = "8")]
+		[Address(RVA = "0x50A35B0", Offset = "0x50A35B0", VA = "0x50A35B0", Slot = "8")]
 		public void Pause()
 		{
 		}
 
 		[Token(Token = "0x6001479")]
-		[Address(RVA = "0x4D7BCA0", Offset = "0x4D7BCA0", VA = "0x4D7BCA0", Slot = "9")]
+		[Address(RVA = "0x50A35D0", Offset = "0x50A35D0", VA = "0x50A35D0", Slot = "9")]
 		public void ExecuteLater(long delayMs)
 		{
 		}
 
 		[Token(Token = "0x600147A")]
-		[Address(RVA = "0x4D7BCE0", Offset = "0x4D7BCE0", VA = "0x4D7BCE0", Slot = "14")]
+		[Address(RVA = "0x50A3610", Offset = "0x50A3610", VA = "0x50A3610", Slot = "14")]
 		public void OnPanelActivate()
 		{
 		}
 
 		[Token(Token = "0x600147B")]
-		[Address(RVA = "0x4D7BDD0", Offset = "0x4D7BDD0", VA = "0x4D7BDD0", Slot = "15")]
+		[Address(RVA = "0x50A3700", Offset = "0x50A3700", VA = "0x50A3700", Slot = "15")]
 		public void OnPanelDeactivate()
 		{
 		}
 
 		[Token(Token = "0x600147C")]
-		[Address(RVA = "0x4D7BEC0", Offset = "0x4D7BEC0", VA = "0x4D7BEC0", Slot = "13")]
+		[Address(RVA = "0x50A37F0", Offset = "0x50A37F0", VA = "0x50A37F0", Slot = "13")]
 		public bool CanBeActivated()
 		{
 			return default(bool);
@@ -425,13 +432,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private class TimerStateScheduledItem : VisualElementScheduledItem<Action<TimerState>>
 	{
 		[Token(Token = "0x600147E")]
-		[Address(RVA = "0x4D7BF00", Offset = "0x4D7BF00", VA = "0x4D7BF00")]
+		[Address(RVA = "0x50A3830", Offset = "0x50A3830", VA = "0x50A3830")]
 		public TimerStateScheduledItem(VisualElement handler, Action<TimerState> updateEvent)
 		{
 		}
 
 		[Token(Token = "0x600147F")]
-		[Address(RVA = "0x4D7BF50", Offset = "0x4D7BF50", VA = "0x4D7BF50", Slot = "4")]
+		[Address(RVA = "0x50A3880", Offset = "0x50A3880", VA = "0x50A3880", Slot = "4")]
 		public override void PerformTimerUpdate(TimerState state)
 		{
 		}
@@ -441,13 +448,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private class SimpleScheduledItem : VisualElementScheduledItem<Action>
 	{
 		[Token(Token = "0x6001480")]
-		[Address(RVA = "0x4D7BF80", Offset = "0x4D7BF80", VA = "0x4D7BF80")]
+		[Address(RVA = "0x50A38B0", Offset = "0x50A38B0", VA = "0x50A38B0")]
 		public SimpleScheduledItem(VisualElement handler, Action updateEvent)
 		{
 		}
 
 		[Token(Token = "0x6001481")]
-		[Address(RVA = "0x4D7BFD0", Offset = "0x4D7BFD0", VA = "0x4D7BFD0", Slot = "4")]
+		[Address(RVA = "0x50A3900", Offset = "0x50A3900", VA = "0x50A3900", Slot = "4")]
 		public override void PerformTimerUpdate(TimerState state)
 		{
 		}
@@ -465,75 +472,75 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 		private float m_DpiScaling;
 
 		[Token(Token = "0x6001482")]
-		[Address(RVA = "0x4D7C000", Offset = "0x4D7C000", VA = "0x4D7C000")]
+		[Address(RVA = "0x50A3930", Offset = "0x50A3930", VA = "0x50A3930")]
 		public void SetContext(Dictionary<string, StylePropertyValue> customProperties, float dpiScaling)
 		{
 		}
 
 		[Token(Token = "0x6001483")]
-		[Address(RVA = "0x4D7C030", Offset = "0x4D7C030", VA = "0x4D7C030", Slot = "4")]
+		[Address(RVA = "0x50A3960", Offset = "0x50A3960", VA = "0x50A3960", Slot = "4")]
 		public bool TryGetValue(CustomStyleProperty<float> property, out float value)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001484")]
-		[Address(RVA = "0x4D7C2B0", Offset = "0x4D7C2B0", VA = "0x4D7C2B0", Slot = "5")]
+		[Address(RVA = "0x50A3BE0", Offset = "0x50A3BE0", VA = "0x50A3BE0", Slot = "5")]
 		public bool TryGetValue(CustomStyleProperty<int> property, out int value)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001485")]
-		[Address(RVA = "0x4D7C3C0", Offset = "0x4D7C3C0", VA = "0x4D7C3C0", Slot = "6")]
+		[Address(RVA = "0x50A3CF0", Offset = "0x50A3CF0", VA = "0x50A3CF0", Slot = "6")]
 		public bool TryGetValue(CustomStyleProperty<Color> property, out Color value)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001486")]
-		[Address(RVA = "0x4D7C6C0", Offset = "0x4D7C6C0", VA = "0x4D7C6C0", Slot = "7")]
+		[Address(RVA = "0x50A3FF0", Offset = "0x50A3FF0", VA = "0x50A3FF0", Slot = "7")]
 		public bool TryGetValue(CustomStyleProperty<Texture2D> property, out Texture2D value)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001487")]
-		[Address(RVA = "0x4D7C7D0", Offset = "0x4D7C7D0", VA = "0x4D7C7D0", Slot = "8")]
+		[Address(RVA = "0x50A4100", Offset = "0x50A4100", VA = "0x50A4100", Slot = "8")]
 		public bool TryGetValue(CustomStyleProperty<Sprite> property, out Sprite value)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001488")]
-		[Address(RVA = "0x4D7C8E0", Offset = "0x4D7C8E0", VA = "0x4D7C8E0", Slot = "9")]
+		[Address(RVA = "0x50A4210", Offset = "0x50A4210", VA = "0x50A4210", Slot = "9")]
 		public bool TryGetValue(CustomStyleProperty<VectorImage> property, out VectorImage value)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001489")]
-		[Address(RVA = "0x4D7C9F0", Offset = "0x4D7C9F0", VA = "0x4D7C9F0", Slot = "10")]
+		[Address(RVA = "0x50A4320", Offset = "0x50A4320", VA = "0x50A4320", Slot = "10")]
 		public bool TryGetValue(CustomStyleProperty<string> property, out string value)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600148A")]
-		[Address(RVA = "0x4D7C120", Offset = "0x4D7C120", VA = "0x4D7C120")]
+		[Address(RVA = "0x50A3A50", Offset = "0x50A3A50", VA = "0x50A3A50")]
 		private bool TryGetValue(string propertyName, StyleValueType valueType, out StylePropertyValue customProp)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600148B")]
-		[Address(RVA = "0x4D7C5F0", Offset = "0x4D7C5F0", VA = "0x4D7C5F0")]
+		[Address(RVA = "0x50A3F20", Offset = "0x50A3F20", VA = "0x50A3F20")]
 		private static void LogCustomPropertyWarning(string propertyName, StyleValueType valueType, StylePropertyValue customProp)
 		{
 		}
 
 		[Token(Token = "0x600148C")]
-		[Address(RVA = "0x4D7CAB0", Offset = "0x4D7CAB0", VA = "0x4D7CAB0")]
+		[Address(RVA = "0x50A43E0", Offset = "0x50A43E0", VA = "0x50A43E0")]
 		public CustomStyleAccess()
 		{
 		}
@@ -558,7 +565,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 		public Type type
 		{
 			[Token(Token = "0x600148D")]
-			[Address(RVA = "0x4D7CAC0", Offset = "0x4D7CAC0", VA = "0x4D7CAC0")]
+			[Address(RVA = "0x50A43F0", Offset = "0x50A43F0", VA = "0x50A43F0")]
 			[CompilerGenerated]
 			get
 			{
@@ -570,7 +577,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 		public string fullTypeName
 		{
 			[Token(Token = "0x600148F")]
-			[Address(RVA = "0x4D7CB60", Offset = "0x4D7CB60", VA = "0x4D7CB60")]
+			[Address(RVA = "0x50A4490", Offset = "0x50A4490", VA = "0x50A4490")]
 			get
 			{
 				return null;
@@ -581,7 +588,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 		public string typeName
 		{
 			[Token(Token = "0x6001490")]
-			[Address(RVA = "0x4D7CBC0", Offset = "0x4D7CBC0", VA = "0x4D7CBC0")]
+			[Address(RVA = "0x50A44F0", Offset = "0x50A44F0", VA = "0x50A44F0")]
 			get
 			{
 				return null;
@@ -592,7 +599,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 		public string typeNamespace
 		{
 			[Token(Token = "0x6001491")]
-			[Address(RVA = "0x4D7CC70", Offset = "0x4D7CC70", VA = "0x4D7CC70")]
+			[Address(RVA = "0x50A45A0", Offset = "0x50A45A0", VA = "0x50A45A0")]
 			get
 			{
 				return null;
@@ -600,7 +607,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 		}
 
 		[Token(Token = "0x600148E")]
-		[Address(RVA = "0x4D7CAD0", Offset = "0x4D7CAD0", VA = "0x4D7CAD0")]
+		[Address(RVA = "0x50A4400", Offset = "0x50A4400", VA = "0x50A4400")]
 		public TypeData(Type type)
 		{
 		}
@@ -941,7 +948,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private Color UnityEngine_002EUIElements_002EIResolvedStyle_002EbackgroundColor
 	{
 		[Token(Token = "0x6001314")]
-		[Address(RVA = "0x4D61C20", Offset = "0x4D61C20", VA = "0x4D61C20", Slot = "17")]
+		[Address(RVA = "0x5089550", Offset = "0x5089550", VA = "0x5089550", Slot = "17")]
 		get
 		{
 			return default(Color);
@@ -952,7 +959,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private Color UnityEngine_002EUIElements_002EIResolvedStyle_002EborderBottomColor
 	{
 		[Token(Token = "0x6001315")]
-		[Address(RVA = "0x4D61DF0", Offset = "0x4D61DF0", VA = "0x4D61DF0", Slot = "18")]
+		[Address(RVA = "0x5089720", Offset = "0x5089720", VA = "0x5089720", Slot = "18")]
 		get
 		{
 			return default(Color);
@@ -963,7 +970,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002EborderBottomLeftRadius
 	{
 		[Token(Token = "0x6001316")]
-		[Address(RVA = "0x4D61F20", Offset = "0x4D61F20", VA = "0x4D61F20", Slot = "19")]
+		[Address(RVA = "0x5089850", Offset = "0x5089850", VA = "0x5089850", Slot = "19")]
 		get
 		{
 			return default(float);
@@ -974,7 +981,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002EborderBottomRightRadius
 	{
 		[Token(Token = "0x6001317")]
-		[Address(RVA = "0x4D62050", Offset = "0x4D62050", VA = "0x4D62050", Slot = "20")]
+		[Address(RVA = "0x5089980", Offset = "0x5089980", VA = "0x5089980", Slot = "20")]
 		get
 		{
 			return default(float);
@@ -985,7 +992,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002EborderBottomWidth
 	{
 		[Token(Token = "0x6001318")]
-		[Address(RVA = "0x4D62180", Offset = "0x4D62180", VA = "0x4D62180", Slot = "21")]
+		[Address(RVA = "0x5089AB0", Offset = "0x5089AB0", VA = "0x5089AB0", Slot = "21")]
 		get
 		{
 			return default(float);
@@ -996,7 +1003,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private Color UnityEngine_002EUIElements_002EIResolvedStyle_002EborderLeftColor
 	{
 		[Token(Token = "0x6001319")]
-		[Address(RVA = "0x4D622B0", Offset = "0x4D622B0", VA = "0x4D622B0", Slot = "22")]
+		[Address(RVA = "0x5089BE0", Offset = "0x5089BE0", VA = "0x5089BE0", Slot = "22")]
 		get
 		{
 			return default(Color);
@@ -1007,7 +1014,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002EborderLeftWidth
 	{
 		[Token(Token = "0x600131A")]
-		[Address(RVA = "0x4D623E0", Offset = "0x4D623E0", VA = "0x4D623E0", Slot = "23")]
+		[Address(RVA = "0x5089D10", Offset = "0x5089D10", VA = "0x5089D10", Slot = "23")]
 		get
 		{
 			return default(float);
@@ -1018,7 +1025,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private Color UnityEngine_002EUIElements_002EIResolvedStyle_002EborderRightColor
 	{
 		[Token(Token = "0x600131B")]
-		[Address(RVA = "0x4D62510", Offset = "0x4D62510", VA = "0x4D62510", Slot = "24")]
+		[Address(RVA = "0x5089E40", Offset = "0x5089E40", VA = "0x5089E40", Slot = "24")]
 		get
 		{
 			return default(Color);
@@ -1029,7 +1036,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002EborderRightWidth
 	{
 		[Token(Token = "0x600131C")]
-		[Address(RVA = "0x4D62640", Offset = "0x4D62640", VA = "0x4D62640", Slot = "25")]
+		[Address(RVA = "0x5089F70", Offset = "0x5089F70", VA = "0x5089F70", Slot = "25")]
 		get
 		{
 			return default(float);
@@ -1040,7 +1047,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private Color UnityEngine_002EUIElements_002EIResolvedStyle_002EborderTopColor
 	{
 		[Token(Token = "0x600131D")]
-		[Address(RVA = "0x4D62770", Offset = "0x4D62770", VA = "0x4D62770", Slot = "26")]
+		[Address(RVA = "0x508A0A0", Offset = "0x508A0A0", VA = "0x508A0A0", Slot = "26")]
 		get
 		{
 			return default(Color);
@@ -1051,7 +1058,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002EborderTopLeftRadius
 	{
 		[Token(Token = "0x600131E")]
-		[Address(RVA = "0x4D628A0", Offset = "0x4D628A0", VA = "0x4D628A0", Slot = "27")]
+		[Address(RVA = "0x508A1D0", Offset = "0x508A1D0", VA = "0x508A1D0", Slot = "27")]
 		get
 		{
 			return default(float);
@@ -1062,7 +1069,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002EborderTopRightRadius
 	{
 		[Token(Token = "0x600131F")]
-		[Address(RVA = "0x4D629D0", Offset = "0x4D629D0", VA = "0x4D629D0", Slot = "28")]
+		[Address(RVA = "0x508A300", Offset = "0x508A300", VA = "0x508A300", Slot = "28")]
 		get
 		{
 			return default(float);
@@ -1073,7 +1080,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002EborderTopWidth
 	{
 		[Token(Token = "0x6001320")]
-		[Address(RVA = "0x4D62B00", Offset = "0x4D62B00", VA = "0x4D62B00", Slot = "29")]
+		[Address(RVA = "0x508A430", Offset = "0x508A430", VA = "0x508A430", Slot = "29")]
 		get
 		{
 			return default(float);
@@ -1084,7 +1091,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002Ebottom
 	{
 		[Token(Token = "0x6001321")]
-		[Address(RVA = "0x4D62C30", Offset = "0x4D62C30", VA = "0x4D62C30", Slot = "30")]
+		[Address(RVA = "0x508A560", Offset = "0x508A560", VA = "0x508A560", Slot = "30")]
 		get
 		{
 			return default(float);
@@ -1095,7 +1102,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private Color UnityEngine_002EUIElements_002EIResolvedStyle_002Ecolor
 	{
 		[Token(Token = "0x6001322")]
-		[Address(RVA = "0x4D62D60", Offset = "0x4D62D60", VA = "0x4D62D60", Slot = "31")]
+		[Address(RVA = "0x508A690", Offset = "0x508A690", VA = "0x508A690", Slot = "31")]
 		get
 		{
 			return default(Color);
@@ -1106,7 +1113,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private DisplayStyle UnityEngine_002EUIElements_002EIResolvedStyle_002Edisplay
 	{
 		[Token(Token = "0x6001323")]
-		[Address(RVA = "0x4D62E90", Offset = "0x4D62E90", VA = "0x4D62E90", Slot = "32")]
+		[Address(RVA = "0x508A7C0", Offset = "0x508A7C0", VA = "0x508A7C0", Slot = "32")]
 		get
 		{
 			return default(DisplayStyle);
@@ -1117,7 +1124,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private FlexDirection UnityEngine_002EUIElements_002EIResolvedStyle_002EflexDirection
 	{
 		[Token(Token = "0x6001324")]
-		[Address(RVA = "0x4D62FC0", Offset = "0x4D62FC0", VA = "0x4D62FC0", Slot = "33")]
+		[Address(RVA = "0x508A8F0", Offset = "0x508A8F0", VA = "0x508A8F0", Slot = "33")]
 		get
 		{
 			return default(FlexDirection);
@@ -1128,7 +1135,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002EflexGrow
 	{
 		[Token(Token = "0x6001325")]
-		[Address(RVA = "0x4D630F0", Offset = "0x4D630F0", VA = "0x4D630F0", Slot = "34")]
+		[Address(RVA = "0x508AA20", Offset = "0x508AA20", VA = "0x508AA20", Slot = "34")]
 		get
 		{
 			return default(float);
@@ -1139,7 +1146,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002EflexShrink
 	{
 		[Token(Token = "0x6001326")]
-		[Address(RVA = "0x4D63220", Offset = "0x4D63220", VA = "0x4D63220", Slot = "35")]
+		[Address(RVA = "0x508AB50", Offset = "0x508AB50", VA = "0x508AB50", Slot = "35")]
 		get
 		{
 			return default(float);
@@ -1150,7 +1157,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002Eheight
 	{
 		[Token(Token = "0x6001327")]
-		[Address(RVA = "0x4D63350", Offset = "0x4D63350", VA = "0x4D63350", Slot = "36")]
+		[Address(RVA = "0x508AC80", Offset = "0x508AC80", VA = "0x508AC80", Slot = "36")]
 		get
 		{
 			return default(float);
@@ -1161,7 +1168,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002Eleft
 	{
 		[Token(Token = "0x6001328")]
-		[Address(RVA = "0x4D63480", Offset = "0x4D63480", VA = "0x4D63480", Slot = "37")]
+		[Address(RVA = "0x508ADB0", Offset = "0x508ADB0", VA = "0x508ADB0", Slot = "37")]
 		get
 		{
 			return default(float);
@@ -1172,7 +1179,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002EmarginBottom
 	{
 		[Token(Token = "0x6001329")]
-		[Address(RVA = "0x4D635B0", Offset = "0x4D635B0", VA = "0x4D635B0", Slot = "38")]
+		[Address(RVA = "0x508AEE0", Offset = "0x508AEE0", VA = "0x508AEE0", Slot = "38")]
 		get
 		{
 			return default(float);
@@ -1183,7 +1190,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002EmarginLeft
 	{
 		[Token(Token = "0x600132A")]
-		[Address(RVA = "0x4D636E0", Offset = "0x4D636E0", VA = "0x4D636E0", Slot = "39")]
+		[Address(RVA = "0x508B010", Offset = "0x508B010", VA = "0x508B010", Slot = "39")]
 		get
 		{
 			return default(float);
@@ -1194,7 +1201,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002EmarginRight
 	{
 		[Token(Token = "0x600132B")]
-		[Address(RVA = "0x4D63810", Offset = "0x4D63810", VA = "0x4D63810", Slot = "40")]
+		[Address(RVA = "0x508B140", Offset = "0x508B140", VA = "0x508B140", Slot = "40")]
 		get
 		{
 			return default(float);
@@ -1205,7 +1212,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002EmarginTop
 	{
 		[Token(Token = "0x600132C")]
-		[Address(RVA = "0x4D63940", Offset = "0x4D63940", VA = "0x4D63940", Slot = "41")]
+		[Address(RVA = "0x508B270", Offset = "0x508B270", VA = "0x508B270", Slot = "41")]
 		get
 		{
 			return default(float);
@@ -1216,7 +1223,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private StyleFloat UnityEngine_002EUIElements_002EIResolvedStyle_002EminHeight
 	{
 		[Token(Token = "0x600132D")]
-		[Address(RVA = "0x4D63A70", Offset = "0x4D63A70", VA = "0x4D63A70", Slot = "42")]
+		[Address(RVA = "0x508B3A0", Offset = "0x508B3A0", VA = "0x508B3A0", Slot = "42")]
 		get
 		{
 			return default(StyleFloat);
@@ -1227,7 +1234,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private StyleFloat UnityEngine_002EUIElements_002EIResolvedStyle_002EminWidth
 	{
 		[Token(Token = "0x600132E")]
-		[Address(RVA = "0x4D63BA0", Offset = "0x4D63BA0", VA = "0x4D63BA0", Slot = "43")]
+		[Address(RVA = "0x508B4D0", Offset = "0x508B4D0", VA = "0x508B4D0", Slot = "43")]
 		get
 		{
 			return default(StyleFloat);
@@ -1238,7 +1245,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002Eopacity
 	{
 		[Token(Token = "0x600132F")]
-		[Address(RVA = "0x4D63CD0", Offset = "0x4D63CD0", VA = "0x4D63CD0", Slot = "44")]
+		[Address(RVA = "0x508B600", Offset = "0x508B600", VA = "0x508B600", Slot = "44")]
 		get
 		{
 			return default(float);
@@ -1249,7 +1256,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002EpaddingBottom
 	{
 		[Token(Token = "0x6001330")]
-		[Address(RVA = "0x4D63E00", Offset = "0x4D63E00", VA = "0x4D63E00", Slot = "45")]
+		[Address(RVA = "0x508B730", Offset = "0x508B730", VA = "0x508B730", Slot = "45")]
 		get
 		{
 			return default(float);
@@ -1260,7 +1267,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002EpaddingLeft
 	{
 		[Token(Token = "0x6001331")]
-		[Address(RVA = "0x4D63F30", Offset = "0x4D63F30", VA = "0x4D63F30", Slot = "46")]
+		[Address(RVA = "0x508B860", Offset = "0x508B860", VA = "0x508B860", Slot = "46")]
 		get
 		{
 			return default(float);
@@ -1271,7 +1278,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002EpaddingRight
 	{
 		[Token(Token = "0x6001332")]
-		[Address(RVA = "0x4D64060", Offset = "0x4D64060", VA = "0x4D64060", Slot = "47")]
+		[Address(RVA = "0x508B990", Offset = "0x508B990", VA = "0x508B990", Slot = "47")]
 		get
 		{
 			return default(float);
@@ -1282,7 +1289,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002EpaddingTop
 	{
 		[Token(Token = "0x6001333")]
-		[Address(RVA = "0x4D64190", Offset = "0x4D64190", VA = "0x4D64190", Slot = "48")]
+		[Address(RVA = "0x508BAC0", Offset = "0x508BAC0", VA = "0x508BAC0", Slot = "48")]
 		get
 		{
 			return default(float);
@@ -1293,7 +1300,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002Eright
 	{
 		[Token(Token = "0x6001334")]
-		[Address(RVA = "0x4D642C0", Offset = "0x4D642C0", VA = "0x4D642C0", Slot = "49")]
+		[Address(RVA = "0x508BBF0", Offset = "0x508BBF0", VA = "0x508BBF0", Slot = "49")]
 		get
 		{
 			return default(float);
@@ -1304,7 +1311,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private Scale UnityEngine_002EUIElements_002EIResolvedStyle_002Escale
 	{
 		[Token(Token = "0x6001335")]
-		[Address(RVA = "0x4D643F0", Offset = "0x4D643F0", VA = "0x4D643F0", Slot = "50")]
+		[Address(RVA = "0x508BD20", Offset = "0x508BD20", VA = "0x508BD20", Slot = "50")]
 		get
 		{
 			return default(Scale);
@@ -1315,7 +1322,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002Etop
 	{
 		[Token(Token = "0x6001336")]
-		[Address(RVA = "0x4D64520", Offset = "0x4D64520", VA = "0x4D64520", Slot = "51")]
+		[Address(RVA = "0x508BE50", Offset = "0x508BE50", VA = "0x508BE50", Slot = "51")]
 		get
 		{
 			return default(float);
@@ -1326,7 +1333,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private Vector3 UnityEngine_002EUIElements_002EIResolvedStyle_002EtransformOrigin
 	{
 		[Token(Token = "0x6001337")]
-		[Address(RVA = "0x4D64650", Offset = "0x4D64650", VA = "0x4D64650", Slot = "52")]
+		[Address(RVA = "0x508BF80", Offset = "0x508BF80", VA = "0x508BF80", Slot = "52")]
 		get
 		{
 			return default(Vector3);
@@ -1337,7 +1344,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private Vector3 UnityEngine_002EUIElements_002EIResolvedStyle_002Etranslate
 	{
 		[Token(Token = "0x6001338")]
-		[Address(RVA = "0x4D64780", Offset = "0x4D64780", VA = "0x4D64780", Slot = "53")]
+		[Address(RVA = "0x508C0B0", Offset = "0x508C0B0", VA = "0x508C0B0", Slot = "53")]
 		get
 		{
 			return default(Vector3);
@@ -1348,7 +1355,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private Color UnityEngine_002EUIElements_002EIResolvedStyle_002EunityBackgroundImageTintColor
 	{
 		[Token(Token = "0x6001339")]
-		[Address(RVA = "0x4D648B0", Offset = "0x4D648B0", VA = "0x4D648B0", Slot = "54")]
+		[Address(RVA = "0x508C1E0", Offset = "0x508C1E0", VA = "0x508C1E0", Slot = "54")]
 		get
 		{
 			return default(Color);
@@ -1359,7 +1366,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private int UnityEngine_002EUIElements_002EIResolvedStyle_002EunitySliceLeft
 	{
 		[Token(Token = "0x600133A")]
-		[Address(RVA = "0x4D649E0", Offset = "0x4D649E0", VA = "0x4D649E0", Slot = "55")]
+		[Address(RVA = "0x508C310", Offset = "0x508C310", VA = "0x508C310", Slot = "55")]
 		get
 		{
 			return default(int);
@@ -1370,7 +1377,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private int UnityEngine_002EUIElements_002EIResolvedStyle_002EunitySliceRight
 	{
 		[Token(Token = "0x600133B")]
-		[Address(RVA = "0x4D64B10", Offset = "0x4D64B10", VA = "0x4D64B10", Slot = "56")]
+		[Address(RVA = "0x508C440", Offset = "0x508C440", VA = "0x508C440", Slot = "56")]
 		get
 		{
 			return default(int);
@@ -1381,7 +1388,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002EunitySliceScale
 	{
 		[Token(Token = "0x600133C")]
-		[Address(RVA = "0x4D64C40", Offset = "0x4D64C40", VA = "0x4D64C40", Slot = "57")]
+		[Address(RVA = "0x508C570", Offset = "0x508C570", VA = "0x508C570", Slot = "57")]
 		get
 		{
 			return default(float);
@@ -1392,7 +1399,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private Color UnityEngine_002EUIElements_002EIResolvedStyle_002EunityTextOutlineColor
 	{
 		[Token(Token = "0x600133D")]
-		[Address(RVA = "0x4D64D70", Offset = "0x4D64D70", VA = "0x4D64D70", Slot = "58")]
+		[Address(RVA = "0x508C6A0", Offset = "0x508C6A0", VA = "0x508C6A0", Slot = "58")]
 		get
 		{
 			return default(Color);
@@ -1403,7 +1410,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002EunityTextOutlineWidth
 	{
 		[Token(Token = "0x600133E")]
-		[Address(RVA = "0x4D64EA0", Offset = "0x4D64EA0", VA = "0x4D64EA0", Slot = "59")]
+		[Address(RVA = "0x508C7D0", Offset = "0x508C7D0", VA = "0x508C7D0", Slot = "59")]
 		get
 		{
 			return default(float);
@@ -1414,7 +1421,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private Visibility UnityEngine_002EUIElements_002EIResolvedStyle_002Evisibility
 	{
 		[Token(Token = "0x600133F")]
-		[Address(RVA = "0x4D64FD0", Offset = "0x4D64FD0", VA = "0x4D64FD0", Slot = "60")]
+		[Address(RVA = "0x508C900", Offset = "0x508C900", VA = "0x508C900", Slot = "60")]
 		get
 		{
 			return default(Visibility);
@@ -1425,7 +1432,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private float UnityEngine_002EUIElements_002EIResolvedStyle_002Ewidth
 	{
 		[Token(Token = "0x6001340")]
-		[Address(RVA = "0x4D65100", Offset = "0x4D65100", VA = "0x4D65100", Slot = "61")]
+		[Address(RVA = "0x508CA30", Offset = "0x508CA30", VA = "0x508CA30", Slot = "61")]
 		get
 		{
 			return default(float);
@@ -1436,7 +1443,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool hasRunningAnimations
 	{
 		[Token(Token = "0x6001341")]
-		[Address(RVA = "0x4D65230", Offset = "0x4D65230", VA = "0x4D65230")]
+		[Address(RVA = "0x508CB60", Offset = "0x508CB60", VA = "0x508CB60")]
 		get
 		{
 			return default(bool);
@@ -1447,7 +1454,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool hasCompletedAnimations
 	{
 		[Token(Token = "0x6001342")]
-		[Address(RVA = "0x4D652E0", Offset = "0x4D652E0", VA = "0x4D652E0")]
+		[Address(RVA = "0x508CC10", Offset = "0x508CC10", VA = "0x508CC10")]
 		get
 		{
 			return default(bool);
@@ -1458,14 +1465,14 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private int UnityEngine_002EUIElements_002EIStylePropertyAnimations_002ErunningAnimationCount
 	{
 		[Token(Token = "0x6001343")]
-		[Address(RVA = "0x4D65380", Offset = "0x4D65380", VA = "0x4D65380", Slot = "82")]
+		[Address(RVA = "0x508CCB0", Offset = "0x508CCB0", VA = "0x508CCB0", Slot = "82")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6001344")]
-		[Address(RVA = "0x4D65390", Offset = "0x4D65390", VA = "0x4D65390", Slot = "83")]
+		[Address(RVA = "0x508CCC0", Offset = "0x508CCC0", VA = "0x508CCC0", Slot = "83")]
 		[CompilerGenerated]
 		set
 		{
@@ -1476,14 +1483,14 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private int UnityEngine_002EUIElements_002EIStylePropertyAnimations_002EcompletedAnimationCount
 	{
 		[Token(Token = "0x6001345")]
-		[Address(RVA = "0x4D653A0", Offset = "0x4D653A0", VA = "0x4D653A0", Slot = "84")]
+		[Address(RVA = "0x508CCD0", Offset = "0x508CCD0", VA = "0x508CCD0", Slot = "84")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6001346")]
-		[Address(RVA = "0x4D653B0", Offset = "0x4D653B0", VA = "0x4D653B0", Slot = "85")]
+		[Address(RVA = "0x508CCE0", Offset = "0x508CCE0", VA = "0x508CCE0", Slot = "85")]
 		[CompilerGenerated]
 		set
 		{
@@ -1494,7 +1501,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal IStylePropertyAnimations styleAnimation
 	{
 		[Token(Token = "0x6001348")]
-		[Address(RVA = "0x4D652D0", Offset = "0x4D652D0", VA = "0x4D652D0")]
+		[Address(RVA = "0x508CC00", Offset = "0x508CC00", VA = "0x508CC00")]
 		get
 		{
 			return null;
@@ -1505,13 +1512,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool isCompositeRoot
 	{
 		[Token(Token = "0x6001362")]
-		[Address(RVA = "0x4D67BD0", Offset = "0x4D67BD0", VA = "0x4D67BD0")]
+		[Address(RVA = "0x508F500", Offset = "0x508F500", VA = "0x508F500")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001363")]
-		[Address(RVA = "0x4D67BE0", Offset = "0x4D67BE0", VA = "0x4D67BE0")]
+		[Address(RVA = "0x508F510", Offset = "0x508F510", VA = "0x508F510")]
 		set
 		{
 		}
@@ -1521,13 +1528,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool areAncestorsAndSelfDisplayed
 	{
 		[Token(Token = "0x6001364")]
-		[Address(RVA = "0x4D67D90", Offset = "0x4D67D90", VA = "0x4D67D90")]
+		[Address(RVA = "0x508F6C0", Offset = "0x508F6C0", VA = "0x508F6C0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001365")]
-		[Address(RVA = "0x4D67DA0", Offset = "0x4D67DA0", VA = "0x4D67DA0")]
+		[Address(RVA = "0x508F6D0", Offset = "0x508F6D0", VA = "0x508F6D0")]
 		set
 		{
 		}
@@ -1538,13 +1545,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public string viewDataKey
 	{
 		[Token(Token = "0x6001366")]
-		[Address(RVA = "0x4D67E40", Offset = "0x4D67E40", VA = "0x4D67E40")]
+		[Address(RVA = "0x508F770", Offset = "0x508F770", VA = "0x508F770")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001367")]
-		[Address(RVA = "0x4D67E50", Offset = "0x4D67E50", VA = "0x4D67E50")]
+		[Address(RVA = "0x508F780", Offset = "0x508F780", VA = "0x508F780")]
 		set
 		{
 		}
@@ -1554,7 +1561,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool enableViewDataPersistence
 	{
 		[Token(Token = "0x6001368")]
-		[Address(RVA = "0x4D67F40", Offset = "0x4D67F40", VA = "0x4D67F40")]
+		[Address(RVA = "0x508F870", Offset = "0x508F870", VA = "0x508F870")]
 		get
 		{
 			return default(bool);
@@ -1566,13 +1573,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public object userData
 	{
 		[Token(Token = "0x6001369")]
-		[Address(RVA = "0x4D67F50", Offset = "0x4D67F50", VA = "0x4D67F50")]
+		[Address(RVA = "0x508F880", Offset = "0x508F880", VA = "0x508F880")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600136A")]
-		[Address(RVA = "0x4D680B0", Offset = "0x4D680B0", VA = "0x4D680B0")]
+		[Address(RVA = "0x508F9E0", Offset = "0x508F9E0", VA = "0x508F9E0")]
 		set
 		{
 		}
@@ -1582,7 +1589,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public override bool canGrabFocus
 	{
 		[Token(Token = "0x600136B")]
-		[Address(RVA = "0x4D68490", Offset = "0x4D68490", VA = "0x4D68490", Slot = "14")]
+		[Address(RVA = "0x508FDC0", Offset = "0x508FDC0", VA = "0x508FDC0", Slot = "14")]
 		get
 		{
 			return default(bool);
@@ -1593,7 +1600,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public override FocusController focusController
 	{
 		[Token(Token = "0x600136C")]
-		[Address(RVA = "0x4D68780", Offset = "0x4D68780", VA = "0x4D68780", Slot = "13")]
+		[Address(RVA = "0x50900B0", Offset = "0x50900B0", VA = "0x50900B0", Slot = "13")]
 		get
 		{
 			return null;
@@ -1605,13 +1612,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public UsageHints usageHints
 	{
 		[Token(Token = "0x600136D")]
-		[Address(RVA = "0x4D68840", Offset = "0x4D68840", VA = "0x4D68840")]
+		[Address(RVA = "0x5090170", Offset = "0x5090170", VA = "0x5090170")]
 		get
 		{
 			return default(UsageHints);
 		}
 		[Token(Token = "0x600136E")]
-		[Address(RVA = "0x4D68870", Offset = "0x4D68870", VA = "0x4D68870")]
+		[Address(RVA = "0x50901A0", Offset = "0x50901A0", VA = "0x50901A0")]
 		set
 		{
 		}
@@ -1621,13 +1628,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal RenderHints renderHints
 	{
 		[Token(Token = "0x600136F")]
-		[Address(RVA = "0x4D68860", Offset = "0x4D68860", VA = "0x4D68860")]
+		[Address(RVA = "0x5090190", Offset = "0x5090190", VA = "0x5090190")]
 		get
 		{
 			return default(RenderHints);
 		}
 		[Token(Token = "0x6001370")]
-		[Address(RVA = "0x4D68AB0", Offset = "0x4D68AB0", VA = "0x4D68AB0")]
+		[Address(RVA = "0x50903E0", Offset = "0x50903E0", VA = "0x50903E0")]
 		set
 		{
 		}
@@ -1637,7 +1644,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public ITransform transform
 	{
 		[Token(Token = "0x6001372")]
-		[Address(RVA = "0x4D68B20", Offset = "0x4D68B20", VA = "0x4D68B20")]
+		[Address(RVA = "0x5090450", Offset = "0x5090450", VA = "0x5090450")]
 		get
 		{
 			return null;
@@ -1648,13 +1655,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private Vector3 UnityEngine_002EUIElements_002EITransform_002Eposition
 	{
 		[Token(Token = "0x6001373")]
-		[Address(RVA = "0x4D68B30", Offset = "0x4D68B30", VA = "0x4D68B30", Slot = "86")]
+		[Address(RVA = "0x5090460", Offset = "0x5090460", VA = "0x5090460", Slot = "86")]
 		get
 		{
 			return default(Vector3);
 		}
 		[Token(Token = "0x6001374")]
-		[Address(RVA = "0x4D68C60", Offset = "0x4D68C60", VA = "0x4D68C60", Slot = "87")]
+		[Address(RVA = "0x5090590", Offset = "0x5090590", VA = "0x5090590", Slot = "87")]
 		set
 		{
 		}
@@ -1664,7 +1671,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private Vector3 UnityEngine_002EUIElements_002EITransform_002Escale
 	{
 		[Token(Token = "0x6001375")]
-		[Address(RVA = "0x4D68F00", Offset = "0x4D68F00", VA = "0x4D68F00", Slot = "88")]
+		[Address(RVA = "0x5090830", Offset = "0x5090830", VA = "0x5090830", Slot = "88")]
 		get
 		{
 			return default(Vector3);
@@ -1675,13 +1682,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool isLayoutManual
 	{
 		[Token(Token = "0x6001376")]
-		[Address(RVA = "0x4D69040", Offset = "0x4D69040", VA = "0x4D69040")]
+		[Address(RVA = "0x5090970", Offset = "0x5090970", VA = "0x5090970")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001377")]
-		[Address(RVA = "0x4D69050", Offset = "0x4D69050", VA = "0x4D69050")]
+		[Address(RVA = "0x5090980", Offset = "0x5090980", VA = "0x5090980")]
 		private set
 		{
 		}
@@ -1691,7 +1698,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal float scaledPixelsPerPoint
 	{
 		[Token(Token = "0x6001378")]
-		[Address(RVA = "0x4D69080", Offset = "0x4D69080", VA = "0x4D69080")]
+		[Address(RVA = "0x50909B0", Offset = "0x50909B0", VA = "0x50909B0")]
 		get
 		{
 			return default(float);
@@ -1703,13 +1710,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public Rect layout
 	{
 		[Token(Token = "0x6001379")]
-		[Address(RVA = "0x4D690A0", Offset = "0x4D690A0", VA = "0x4D690A0")]
+		[Address(RVA = "0x50909D0", Offset = "0x50909D0", VA = "0x50909D0")]
 		get
 		{
 			return default(Rect);
 		}
 		[Token(Token = "0x600137A")]
-		[Address(RVA = "0x4D69140", Offset = "0x4D69140", VA = "0x4D69140")]
+		[Address(RVA = "0x5090A70", Offset = "0x5090A70", VA = "0x5090A70")]
 		internal set
 		{
 		}
@@ -1720,7 +1727,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public Rect contentRect
 	{
 		[Token(Token = "0x600137C")]
-		[Address(RVA = "0x4D6A080", Offset = "0x4D6A080", VA = "0x4D6A080")]
+		[Address(RVA = "0x50919B0", Offset = "0x50919B0", VA = "0x50919B0")]
 		get
 		{
 			return default(Rect);
@@ -1731,7 +1738,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	protected Rect paddingRect
 	{
 		[Token(Token = "0x600137D")]
-		[Address(RVA = "0x4D6A4B0", Offset = "0x4D6A4B0", VA = "0x4D6A4B0")]
+		[Address(RVA = "0x5091DE0", Offset = "0x5091DE0", VA = "0x5091DE0")]
 		get
 		{
 			return default(Rect);
@@ -1742,13 +1749,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool isBoundingBoxDirty
 	{
 		[Token(Token = "0x600137E")]
-		[Address(RVA = "0x4D6A9C0", Offset = "0x4D6A9C0", VA = "0x4D6A9C0")]
+		[Address(RVA = "0x50922F0", Offset = "0x50922F0", VA = "0x50922F0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600137F")]
-		[Address(RVA = "0x4D6A9D0", Offset = "0x4D6A9D0", VA = "0x4D6A9D0")]
+		[Address(RVA = "0x5092300", Offset = "0x5092300", VA = "0x5092300")]
 		set
 		{
 		}
@@ -1758,7 +1765,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool isWorldBoundingBoxDirty
 	{
 		[Token(Token = "0x6001380")]
-		[Address(RVA = "0x4D6AA00", Offset = "0x4D6AA00", VA = "0x4D6AA00")]
+		[Address(RVA = "0x5092330", Offset = "0x5092330", VA = "0x5092330")]
 		set
 		{
 		}
@@ -1768,7 +1775,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool isWorldBoundingBoxOrDependenciesDirty
 	{
 		[Token(Token = "0x6001381")]
-		[Address(RVA = "0x4D6AA30", Offset = "0x4D6AA30", VA = "0x4D6AA30")]
+		[Address(RVA = "0x5092360", Offset = "0x5092360", VA = "0x5092360")]
 		get
 		{
 			return default(bool);
@@ -1779,7 +1786,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal Rect boundingBox
 	{
 		[Token(Token = "0x6001382")]
-		[Address(RVA = "0x4D6AA40", Offset = "0x4D6AA40", VA = "0x4D6AA40")]
+		[Address(RVA = "0x5092370", Offset = "0x5092370", VA = "0x5092370")]
 		get
 		{
 			return default(Rect);
@@ -1790,7 +1797,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal Rect worldBoundingBox
 	{
 		[Token(Token = "0x6001383")]
-		[Address(RVA = "0x4D6AFC0", Offset = "0x4D6AFC0", VA = "0x4D6AFC0")]
+		[Address(RVA = "0x50928F0", Offset = "0x50928F0", VA = "0x50928F0")]
 		get
 		{
 			return default(Rect);
@@ -1801,7 +1808,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private Rect boundingBoxInParentSpace
 	{
 		[Token(Token = "0x6001384")]
-		[Address(RVA = "0x4D6B140", Offset = "0x4D6B140", VA = "0x4D6B140")]
+		[Address(RVA = "0x5092A70", Offset = "0x5092A70", VA = "0x5092A70")]
 		get
 		{
 			return default(Rect);
@@ -1813,7 +1820,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public Rect worldBound
 	{
 		[Token(Token = "0x6001387")]
-		[Address(RVA = "0x4D6B1E0", Offset = "0x4D6B1E0", VA = "0x4D6B1E0")]
+		[Address(RVA = "0x5092B10", Offset = "0x5092B10", VA = "0x5092B10")]
 		get
 		{
 			return default(Rect);
@@ -1825,7 +1832,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public Rect localBound
 	{
 		[Token(Token = "0x6001388")]
-		[Address(RVA = "0x4D6B310", Offset = "0x4D6B310", VA = "0x4D6B310")]
+		[Address(RVA = "0x5092C40", Offset = "0x5092C40", VA = "0x5092C40")]
 		get
 		{
 			return default(Rect);
@@ -1836,7 +1843,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal Rect rect
 	{
 		[Token(Token = "0x6001389")]
-		[Address(RVA = "0x4D6A940", Offset = "0x4D6A940", VA = "0x4D6A940")]
+		[Address(RVA = "0x5092270", Offset = "0x5092270", VA = "0x5092270")]
 		get
 		{
 			return default(Rect);
@@ -1847,13 +1854,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool isWorldTransformDirty
 	{
 		[Token(Token = "0x600138A")]
-		[Address(RVA = "0x4D6B3B0", Offset = "0x4D6B3B0", VA = "0x4D6B3B0")]
+		[Address(RVA = "0x5092CE0", Offset = "0x5092CE0", VA = "0x5092CE0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600138B")]
-		[Address(RVA = "0x4D6B3C0", Offset = "0x4D6B3C0", VA = "0x4D6B3C0")]
+		[Address(RVA = "0x5092CF0", Offset = "0x5092CF0", VA = "0x5092CF0")]
 		set
 		{
 		}
@@ -1863,7 +1870,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool isWorldTransformInverseDirty
 	{
 		[Token(Token = "0x600138C")]
-		[Address(RVA = "0x4D6B3F0", Offset = "0x4D6B3F0", VA = "0x4D6B3F0")]
+		[Address(RVA = "0x5092D20", Offset = "0x5092D20", VA = "0x5092D20")]
 		set
 		{
 		}
@@ -1873,7 +1880,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool isWorldTransformInverseOrDependenciesDirty
 	{
 		[Token(Token = "0x600138D")]
-		[Address(RVA = "0x4D6B420", Offset = "0x4D6B420", VA = "0x4D6B420")]
+		[Address(RVA = "0x5092D50", Offset = "0x5092D50", VA = "0x5092D50")]
 		get
 		{
 			return default(bool);
@@ -1885,7 +1892,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public Matrix4x4 worldTransform
 	{
 		[Token(Token = "0x600138E")]
-		[Address(RVA = "0x4D6B430", Offset = "0x4D6B430", VA = "0x4D6B430")]
+		[Address(RVA = "0x5092D60", Offset = "0x5092D60", VA = "0x5092D60")]
 		get
 		{
 			return default(Matrix4x4);
@@ -1896,7 +1903,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal unsafe ref Matrix4x4 worldTransformRef
 	{
 		[Token(Token = "0x600138F")]
-		[Address(RVA = "0x4D6B1C0", Offset = "0x4D6B1C0", VA = "0x4D6B1C0")]
+		[Address(RVA = "0x5092AF0", Offset = "0x5092AF0", VA = "0x5092AF0")]
 		get
 		{
 			return ref *(Matrix4x4*)null;
@@ -1907,7 +1914,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal unsafe ref Matrix4x4 worldTransformInverse
 	{
 		[Token(Token = "0x6001390")]
-		[Address(RVA = "0x4D6B920", Offset = "0x4D6B920", VA = "0x4D6B920")]
+		[Address(RVA = "0x5093250", Offset = "0x5093250", VA = "0x5093250")]
 		get
 		{
 			return ref *(Matrix4x4*)null;
@@ -1918,13 +1925,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool isWorldClipDirty
 	{
 		[Token(Token = "0x6001393")]
-		[Address(RVA = "0x4D6BFB0", Offset = "0x4D6BFB0", VA = "0x4D6BFB0")]
+		[Address(RVA = "0x50938E0", Offset = "0x50938E0", VA = "0x50938E0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001394")]
-		[Address(RVA = "0x4D6BFC0", Offset = "0x4D6BFC0", VA = "0x4D6BFC0")]
+		[Address(RVA = "0x50938F0", Offset = "0x50938F0", VA = "0x50938F0")]
 		set
 		{
 		}
@@ -1934,7 +1941,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal Rect worldClip
 	{
 		[Token(Token = "0x6001395")]
-		[Address(RVA = "0x4D6BFF0", Offset = "0x4D6BFF0", VA = "0x4D6BFF0")]
+		[Address(RVA = "0x5093920", Offset = "0x5093920", VA = "0x5093920")]
 		get
 		{
 			return default(Rect);
@@ -1945,7 +1952,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal Rect worldClipMinusGroup
 	{
 		[Token(Token = "0x6001396")]
-		[Address(RVA = "0x4D6C380", Offset = "0x4D6C380", VA = "0x4D6C380")]
+		[Address(RVA = "0x5093CB0", Offset = "0x5093CB0", VA = "0x5093CB0")]
 		get
 		{
 			return default(Rect);
@@ -1956,7 +1963,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool worldClipIsInfinite
 	{
 		[Token(Token = "0x6001397")]
-		[Address(RVA = "0x4D6C3B0", Offset = "0x4D6C3B0", VA = "0x4D6C3B0")]
+		[Address(RVA = "0x5093CE0", Offset = "0x5093CE0", VA = "0x5093CE0")]
 		get
 		{
 			return default(bool);
@@ -1967,13 +1974,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal PseudoStates pseudoStates
 	{
 		[Token(Token = "0x600139D")]
-		[Address(RVA = "0x4D6D220", Offset = "0x4D6D220", VA = "0x4D6D220")]
+		[Address(RVA = "0x5094B50", Offset = "0x5094B50", VA = "0x5094B50")]
 		get
 		{
 			return default(PseudoStates);
 		}
 		[Token(Token = "0x600139E")]
-		[Address(RVA = "0x4D6D230", Offset = "0x4D6D230", VA = "0x4D6D230")]
+		[Address(RVA = "0x5094B60", Offset = "0x5094B60", VA = "0x5094B60")]
 		set
 		{
 		}
@@ -1983,14 +1990,14 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal int containedPointerIds
 	{
 		[Token(Token = "0x600139F")]
-		[Address(RVA = "0x4D6D2B0", Offset = "0x4D6D2B0", VA = "0x4D6D2B0")]
+		[Address(RVA = "0x5094BE0", Offset = "0x5094BE0", VA = "0x5094BE0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60013A0")]
-		[Address(RVA = "0x4D6D2C0", Offset = "0x4D6D2C0", VA = "0x4D6D2C0")]
+		[Address(RVA = "0x5094BF0", Offset = "0x5094BF0", VA = "0x5094BF0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -2002,13 +2009,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public PickingMode pickingMode
 	{
 		[Token(Token = "0x60013A3")]
-		[Address(RVA = "0x4D6D600", Offset = "0x4D6D600", VA = "0x4D6D600")]
+		[Address(RVA = "0x5094F30", Offset = "0x5094F30", VA = "0x5094F30")]
 		get
 		{
 			return default(PickingMode);
 		}
 		[Token(Token = "0x60013A4")]
-		[Address(RVA = "0x4D6D610", Offset = "0x4D6D610", VA = "0x4D6D610")]
+		[Address(RVA = "0x5094F40", Offset = "0x5094F40", VA = "0x5094F40")]
 		set
 		{
 		}
@@ -2019,13 +2026,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public string name
 	{
 		[Token(Token = "0x60013A5")]
-		[Address(RVA = "0x4D6D6B0", Offset = "0x4D6D6B0", VA = "0x4D6D6B0")]
+		[Address(RVA = "0x5094FE0", Offset = "0x5094FE0", VA = "0x5094FE0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60013A6")]
-		[Address(RVA = "0x4D6D6C0", Offset = "0x4D6D6C0", VA = "0x4D6D6C0")]
+		[Address(RVA = "0x5094FF0", Offset = "0x5094FF0", VA = "0x5094FF0")]
 		set
 		{
 		}
@@ -2035,7 +2042,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal List<string> classList
 	{
 		[Token(Token = "0x60013A7")]
-		[Address(RVA = "0x4D6D780", Offset = "0x4D6D780", VA = "0x4D6D780")]
+		[Address(RVA = "0x50950B0", Offset = "0x50950B0", VA = "0x50950B0")]
 		get
 		{
 			return null;
@@ -2046,7 +2053,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal string fullTypeName
 	{
 		[Token(Token = "0x60013A8")]
-		[Address(RVA = "0x4D6D840", Offset = "0x4D6D840", VA = "0x4D6D840")]
+		[Address(RVA = "0x5095170", Offset = "0x5095170", VA = "0x5095170")]
 		get
 		{
 			return null;
@@ -2057,7 +2064,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal string typeName
 	{
 		[Token(Token = "0x60013A9")]
-		[Address(RVA = "0x4D6D9A0", Offset = "0x4D6D9A0", VA = "0x4D6D9A0")]
+		[Address(RVA = "0x50952D0", Offset = "0x50952D0", VA = "0x50952D0")]
 		get
 		{
 			return null;
@@ -2068,7 +2075,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal unsafe ref LayoutNode layoutNode
 	{
 		[Token(Token = "0x60013AA")]
-		[Address(RVA = "0x4D60C40", Offset = "0x4D60C40", VA = "0x4D60C40")]
+		[Address(RVA = "0x5088570", Offset = "0x5088570", VA = "0x5088570")]
 		get
 		{
 			return ref *(LayoutNode*)null;
@@ -2079,7 +2086,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal unsafe ref ComputedStyle computedStyle
 	{
 		[Token(Token = "0x60013AB")]
-		[Address(RVA = "0x4D60B90", Offset = "0x4D60B90", VA = "0x4D60B90")]
+		[Address(RVA = "0x50884C0", Offset = "0x50884C0", VA = "0x50884C0")]
 		get
 		{
 			return ref *(ComputedStyle*)null;
@@ -2090,7 +2097,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool hasInlineStyle
 	{
 		[Token(Token = "0x60013AC")]
-		[Address(RVA = "0x4D6D9C0", Offset = "0x4D6D9C0", VA = "0x4D6D9C0")]
+		[Address(RVA = "0x50952F0", Offset = "0x50952F0", VA = "0x50952F0")]
 		get
 		{
 			return default(bool);
@@ -2101,13 +2108,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool styleInitialized
 	{
 		[Token(Token = "0x60013AD")]
-		[Address(RVA = "0x4D6D9D0", Offset = "0x4D6D9D0", VA = "0x4D6D9D0")]
+		[Address(RVA = "0x5095300", Offset = "0x5095300", VA = "0x5095300")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60013AE")]
-		[Address(RVA = "0x4D6D9E0", Offset = "0x4D6D9E0", VA = "0x4D6D9E0")]
+		[Address(RVA = "0x5095310", Offset = "0x5095310", VA = "0x5095310")]
 		set
 		{
 		}
@@ -2117,7 +2124,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private bool isParentEnabledInHierarchy
 	{
 		[Token(Token = "0x60013BE")]
-		[Address(RVA = "0x4D70BE0", Offset = "0x4D70BE0", VA = "0x4D70BE0")]
+		[Address(RVA = "0x5098510", Offset = "0x5098510", VA = "0x5098510")]
 		get
 		{
 			return default(bool);
@@ -2129,7 +2136,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public bool enabledInHierarchy
 	{
 		[Token(Token = "0x60013BF")]
-		[Address(RVA = "0x4D68770", Offset = "0x4D68770", VA = "0x4D68770")]
+		[Address(RVA = "0x50900A0", Offset = "0x50900A0", VA = "0x50900A0")]
 		get
 		{
 			return default(bool);
@@ -2141,13 +2148,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public bool enabledSelf
 	{
 		[Token(Token = "0x60013C0")]
-		[Address(RVA = "0x4D70FB0", Offset = "0x4D70FB0", VA = "0x4D70FB0")]
+		[Address(RVA = "0x50988E0", Offset = "0x50988E0", VA = "0x50988E0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60013C1")]
-		[Address(RVA = "0x4D70FC0", Offset = "0x4D70FC0", VA = "0x4D70FC0")]
+		[Address(RVA = "0x50988F0", Offset = "0x50988F0", VA = "0x50988F0")]
 		private set
 		{
 		}
@@ -2157,7 +2164,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public LanguageDirection languageDirection
 	{
 		[Token(Token = "0x60013C4")]
-		[Address(RVA = "0x4D71110", Offset = "0x4D71110", VA = "0x4D71110")]
+		[Address(RVA = "0x5098A40", Offset = "0x5098A40", VA = "0x5098A40")]
 		get
 		{
 			return default(LanguageDirection);
@@ -2168,13 +2175,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal LanguageDirection localLanguageDirection
 	{
 		[Token(Token = "0x60013C5")]
-		[Address(RVA = "0x4D71120", Offset = "0x4D71120", VA = "0x4D71120")]
+		[Address(RVA = "0x5098A50", Offset = "0x5098A50", VA = "0x5098A50")]
 		get
 		{
 			return default(LanguageDirection);
 		}
 		[Token(Token = "0x60013C6")]
-		[Address(RVA = "0x4D71130", Offset = "0x4D71130", VA = "0x4D71130")]
+		[Address(RVA = "0x5098A60", Offset = "0x5098A60", VA = "0x5098A60")]
 		set
 		{
 		}
@@ -2185,13 +2192,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public bool visible
 	{
 		[Token(Token = "0x60013C7")]
-		[Address(RVA = "0x4D68630", Offset = "0x4D68630", VA = "0x4D68630")]
+		[Address(RVA = "0x508FF60", Offset = "0x508FF60", VA = "0x508FF60")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60013C8")]
-		[Address(RVA = "0x4D71230", Offset = "0x4D71230", VA = "0x4D71230")]
+		[Address(RVA = "0x5098B60", Offset = "0x5098B60", VA = "0x5098B60")]
 		set
 		{
 		}
@@ -2201,14 +2208,14 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public Action<MeshGenerationContext> generateVisualContent
 	{
 		[Token(Token = "0x60013CA")]
-		[Address(RVA = "0x4D71420", Offset = "0x4D71420", VA = "0x4D71420")]
+		[Address(RVA = "0x5098D50", Offset = "0x5098D50", VA = "0x5098D50")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60013CB")]
-		[Address(RVA = "0x4D71430", Offset = "0x4D71430", VA = "0x4D71430")]
+		[Address(RVA = "0x5098D60", Offset = "0x5098D60", VA = "0x5098D60")]
 		[CompilerGenerated]
 		set
 		{
@@ -2219,13 +2226,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool requireMeasureFunction
 	{
 		[Token(Token = "0x60013D4")]
-		[Address(RVA = "0x4D71BB0", Offset = "0x4D71BB0", VA = "0x4D71BB0")]
+		[Address(RVA = "0x50994E0", Offset = "0x50994E0", VA = "0x50994E0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60013D5")]
-		[Address(RVA = "0x4D71BC0", Offset = "0x4D71BC0", VA = "0x4D71BC0")]
+		[Address(RVA = "0x50994F0", Offset = "0x50994F0", VA = "0x50994F0")]
 		set
 		{
 		}
@@ -2235,7 +2242,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal RenderTargetMode subRenderTargetMode
 	{
 		[Token(Token = "0x60013EA")]
-		[Address(RVA = "0x4D72780", Offset = "0x4D72780", VA = "0x4D72780")]
+		[Address(RVA = "0x509A0B0", Offset = "0x509A0B0", VA = "0x509A0B0")]
 		get
 		{
 			return default(RenderTargetMode);
@@ -2246,7 +2253,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal Material defaultMaterial
 	{
 		[Token(Token = "0x60013EB")]
-		[Address(RVA = "0x4D72790", Offset = "0x4D72790", VA = "0x4D72790")]
+		[Address(RVA = "0x509A0C0", Offset = "0x509A0C0", VA = "0x509A0C0")]
 		get
 		{
 			return null;
@@ -2257,7 +2264,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal VisualElement nextParentWithEventCallback
 	{
 		[Token(Token = "0x60013F9")]
-		[Address(RVA = "0x4D761B0", Offset = "0x4D761B0", VA = "0x4D761B0")]
+		[Address(RVA = "0x509DAE0", Offset = "0x509DAE0", VA = "0x509DAE0")]
 		get
 		{
 			return null;
@@ -2268,13 +2275,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal int eventCallbackCategories
 	{
 		[Token(Token = "0x60013FB")]
-		[Address(RVA = "0x4D76410", Offset = "0x4D76410", VA = "0x4D76410")]
+		[Address(RVA = "0x509DD40", Offset = "0x509DD40", VA = "0x509DD40")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60013FC")]
-		[Address(RVA = "0x4D76420", Offset = "0x4D76420", VA = "0x4D76420")]
+		[Address(RVA = "0x509DD50", Offset = "0x509DD50", VA = "0x509DD50")]
 		set
 		{
 		}
@@ -2284,7 +2291,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal int eventCallbackParentCategories
 	{
 		[Token(Token = "0x60013FD")]
-		[Address(RVA = "0x4D76540", Offset = "0x4D76540", VA = "0x4D76540")]
+		[Address(RVA = "0x509DE70", Offset = "0x509DE70", VA = "0x509DE70")]
 		get
 		{
 			return default(int);
@@ -2295,13 +2302,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool isEventCallbackParentCategoriesDirty
 	{
 		[Token(Token = "0x60013FE")]
-		[Address(RVA = "0x4D76570", Offset = "0x4D76570", VA = "0x4D76570")]
+		[Address(RVA = "0x509DEA0", Offset = "0x509DEA0", VA = "0x509DEA0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60013FF")]
-		[Address(RVA = "0x4D76660", Offset = "0x4D76660", VA = "0x4D76660")]
+		[Address(RVA = "0x509DF90", Offset = "0x509DF90", VA = "0x509DF90")]
 		set
 		{
 		}
@@ -2311,7 +2318,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public IExperimentalFeatures experimental
 	{
 		[Token(Token = "0x6001407")]
-		[Address(RVA = "0x4D76740", Offset = "0x4D76740", VA = "0x4D76740")]
+		[Address(RVA = "0x509E070", Offset = "0x509E070", VA = "0x509E070")]
 		get
 		{
 			return null;
@@ -2322,7 +2329,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private ITransitionAnimations UnityEngine_002EUIElements_002EIExperimentalFeatures_002Eanimation
 	{
 		[Token(Token = "0x6001408")]
-		[Address(RVA = "0x4D76750", Offset = "0x4D76750", VA = "0x4D76750", Slot = "90")]
+		[Address(RVA = "0x509E080", Offset = "0x509E080", VA = "0x509E080", Slot = "90")]
 		get
 		{
 			return null;
@@ -2333,14 +2340,14 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public Hierarchy hierarchy
 	{
 		[Token(Token = "0x6001409")]
-		[Address(RVA = "0x4D76760", Offset = "0x4D76760", VA = "0x4D76760")]
+		[Address(RVA = "0x509E090", Offset = "0x509E090", VA = "0x509E090")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Hierarchy);
 		}
 		[Token(Token = "0x600140A")]
-		[Address(RVA = "0x4D76770", Offset = "0x4D76770", VA = "0x4D76770")]
+		[Address(RVA = "0x509E0A0", Offset = "0x509E0A0", VA = "0x509E0A0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -2351,14 +2358,14 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool isRootVisualContainer
 	{
 		[Token(Token = "0x600140B")]
-		[Address(RVA = "0x4D76790", Offset = "0x4D76790", VA = "0x4D76790")]
+		[Address(RVA = "0x509E0C0", Offset = "0x509E0C0", VA = "0x509E0C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600140C")]
-		[Address(RVA = "0x4D767A0", Offset = "0x4D767A0", VA = "0x4D767A0")]
+		[Address(RVA = "0x509E0D0", Offset = "0x509E0D0", VA = "0x509E0D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -2369,13 +2376,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool disableClipping
 	{
 		[Token(Token = "0x600140D")]
-		[Address(RVA = "0x4D767B0", Offset = "0x4D767B0", VA = "0x4D767B0")]
+		[Address(RVA = "0x509E0E0", Offset = "0x509E0E0", VA = "0x509E0E0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600140E")]
-		[Address(RVA = "0x4D767C0", Offset = "0x4D767C0", VA = "0x4D767C0")]
+		[Address(RVA = "0x509E0F0", Offset = "0x509E0F0", VA = "0x509E0F0")]
 		set
 		{
 		}
@@ -2385,13 +2392,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal bool disableRendering
 	{
 		[Token(Token = "0x6001410")]
-		[Address(RVA = "0x4D767F0", Offset = "0x4D767F0", VA = "0x4D767F0")]
+		[Address(RVA = "0x509E120", Offset = "0x509E120", VA = "0x509E120")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001411")]
-		[Address(RVA = "0x4D76800", Offset = "0x4D76800", VA = "0x4D76800")]
+		[Address(RVA = "0x509E130", Offset = "0x509E130", VA = "0x509E130")]
 		set
 		{
 		}
@@ -2401,7 +2408,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public VisualElement parent
 	{
 		[Token(Token = "0x6001412")]
-		[Address(RVA = "0x4D68620", Offset = "0x4D68620", VA = "0x4D68620")]
+		[Address(RVA = "0x508FF50", Offset = "0x508FF50", VA = "0x508FF50")]
 		get
 		{
 			return null;
@@ -2412,14 +2419,14 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	internal BaseVisualElementPanel elementPanel
 	{
 		[Token(Token = "0x6001413")]
-		[Address(RVA = "0x4D76860", Offset = "0x4D76860", VA = "0x4D76860")]
+		[Address(RVA = "0x509E190", Offset = "0x509E190", VA = "0x509E190")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001414")]
-		[Address(RVA = "0x4D76870", Offset = "0x4D76870", VA = "0x4D76870")]
+		[Address(RVA = "0x509E1A0", Offset = "0x509E1A0", VA = "0x509E1A0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -2431,7 +2438,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public IPanel panel
 	{
 		[Token(Token = "0x6001415")]
-		[Address(RVA = "0x4D68830", Offset = "0x4D68830", VA = "0x4D68830")]
+		[Address(RVA = "0x5090160", Offset = "0x5090160", VA = "0x5090160")]
 		get
 		{
 			return null;
@@ -2442,7 +2449,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public virtual VisualElement contentContainer
 	{
 		[Token(Token = "0x6001416")]
-		[Address(RVA = "0x4D76890", Offset = "0x4D76890", VA = "0x4D76890", Slot = "97")]
+		[Address(RVA = "0x509E1C0", Offset = "0x509E1C0", VA = "0x509E1C0", Slot = "97")]
 		get
 		{
 			return null;
@@ -2454,13 +2461,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public VisualTreeAsset visualTreeAssetSource
 	{
 		[Token(Token = "0x6001417")]
-		[Address(RVA = "0x4D768A0", Offset = "0x4D768A0", VA = "0x4D768A0")]
+		[Address(RVA = "0x509E1D0", Offset = "0x509E1D0", VA = "0x509E1D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001418")]
-		[Address(RVA = "0x4D768B0", Offset = "0x4D768B0", VA = "0x4D768B0")]
+		[Address(RVA = "0x509E1E0", Offset = "0x509E1E0", VA = "0x509E1E0")]
 		internal set
 		{
 		}
@@ -2470,7 +2477,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public VisualElement this[int key]
 	{
 		[Token(Token = "0x600141E")]
-		[Address(RVA = "0x4D775B0", Offset = "0x4D775B0", VA = "0x4D775B0")]
+		[Address(RVA = "0x509EEE0", Offset = "0x509EEE0", VA = "0x509EEE0")]
 		get
 		{
 			return null;
@@ -2482,7 +2489,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public int childCount
 	{
 		[Token(Token = "0x600141F")]
-		[Address(RVA = "0x4D776B0", Offset = "0x4D776B0", VA = "0x4D776B0")]
+		[Address(RVA = "0x509EFE0", Offset = "0x509EFE0", VA = "0x509EFE0")]
 		get
 		{
 			return default(int);
@@ -2493,7 +2500,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private Vector3 positionWithLayout
 	{
 		[Token(Token = "0x6001433")]
-		[Address(RVA = "0x4D6B9F0", Offset = "0x4D6B9F0", VA = "0x4D6B9F0")]
+		[Address(RVA = "0x5093320", Offset = "0x5093320", VA = "0x5093320")]
 		get
 		{
 			return default(Vector3);
@@ -2505,7 +2512,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6001435")]
-		[Address(RVA = "0x4D787A0", Offset = "0x4D787A0", VA = "0x4D787A0")]
+		[Address(RVA = "0x50A00D0", Offset = "0x50A00D0", VA = "0x50A00D0")]
 		get
 		{
 			return default(bool);
@@ -2516,7 +2523,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public IVisualElementScheduler schedule
 	{
 		[Token(Token = "0x6001441")]
-		[Address(RVA = "0x4D79030", Offset = "0x4D79030", VA = "0x4D79030")]
+		[Address(RVA = "0x50A0960", Offset = "0x50A0960", VA = "0x50A0960")]
 		get
 		{
 			return null;
@@ -2528,7 +2535,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public IStyle style
 	{
 		[Token(Token = "0x6001444")]
-		[Address(RVA = "0x4D68E70", Offset = "0x4D68E70", VA = "0x4D68E70")]
+		[Address(RVA = "0x50907A0", Offset = "0x50907A0", VA = "0x50907A0")]
 		get
 		{
 			return null;
@@ -2540,7 +2547,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public IResolvedStyle resolvedStyle
 	{
 		[Token(Token = "0x6001445")]
-		[Address(RVA = "0x4D61D50", Offset = "0x4D61D50", VA = "0x4D61D50")]
+		[Address(RVA = "0x5089680", Offset = "0x5089680", VA = "0x5089680")]
 		get
 		{
 			return null;
@@ -2551,7 +2558,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public ICustomStyle customStyle
 	{
 		[Token(Token = "0x6001446")]
-		[Address(RVA = "0x4D791A0", Offset = "0x4D791A0", VA = "0x4D791A0")]
+		[Address(RVA = "0x50A0AD0", Offset = "0x50A0AD0", VA = "0x50A0AD0")]
 		get
 		{
 			return null;
@@ -2563,7 +2570,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public VisualElementStyleSheetSet styleSheets
 	{
 		[Token(Token = "0x6001447")]
-		[Address(RVA = "0x4D79250", Offset = "0x4D79250", VA = "0x4D79250")]
+		[Address(RVA = "0x50A0B80", Offset = "0x50A0B80", VA = "0x50A0B80")]
 		get
 		{
 			return default(VisualElementStyleSheetSet);
@@ -2575,13 +2582,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	public string tooltip
 	{
 		[Token(Token = "0x600144E")]
-		[Address(RVA = "0x4D6EF20", Offset = "0x4D6EF20", VA = "0x4D6EF20")]
+		[Address(RVA = "0x5096850", Offset = "0x5096850", VA = "0x5096850")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600144F")]
-		[Address(RVA = "0x4D794D0", Offset = "0x4D794D0", VA = "0x4D794D0")]
+		[Address(RVA = "0x50A0E00", Offset = "0x50A0E00", VA = "0x50A0E00")]
 		set
 		{
 		}
@@ -2591,7 +2598,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	private TypeData typeData
 	{
 		[Token(Token = "0x6001451")]
-		[Address(RVA = "0x4D6D860", Offset = "0x4D6D860", VA = "0x4D6D860")]
+		[Address(RVA = "0x5095190", Offset = "0x5095190", VA = "0x5095190")]
 		get
 		{
 			return null;
@@ -2599,285 +2606,285 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	}
 
 	[Token(Token = "0x6001347")]
-	[Address(RVA = "0x4D653C0", Offset = "0x4D653C0", VA = "0x4D653C0")]
+	[Address(RVA = "0x508CCF0", Offset = "0x508CCF0", VA = "0x508CCF0")]
 	private IStylePropertyAnimationSystem GetStylePropertyAnimationSystem()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001349")]
-	[Address(RVA = "0x4D653F0", Offset = "0x4D653F0", VA = "0x4D653F0", Slot = "62")]
+	[Address(RVA = "0x508CD20", Offset = "0x508CD20", VA = "0x508CD20", Slot = "62")]
 	private bool UnityEngine_002EUIElements_002EIStylePropertyAnimations_002EStart(StylePropertyId id, float from, float to, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600134A")]
-	[Address(RVA = "0x4D65500", Offset = "0x4D65500", VA = "0x4D65500", Slot = "63")]
+	[Address(RVA = "0x508CE30", Offset = "0x508CE30", VA = "0x508CE30", Slot = "63")]
 	private bool UnityEngine_002EUIElements_002EIStylePropertyAnimations_002EStart(StylePropertyId id, int from, int to, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600134B")]
-	[Address(RVA = "0x4D65620", Offset = "0x4D65620", VA = "0x4D65620", Slot = "64")]
+	[Address(RVA = "0x508CF50", Offset = "0x508CF50", VA = "0x508CF50", Slot = "64")]
 	private bool UnityEngine_002EUIElements_002EIStylePropertyAnimations_002EStart(StylePropertyId id, Length from, Length to, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600134C")]
-	[Address(RVA = "0x4D65740", Offset = "0x4D65740", VA = "0x4D65740", Slot = "65")]
+	[Address(RVA = "0x508D070", Offset = "0x508D070", VA = "0x508D070", Slot = "65")]
 	private bool UnityEngine_002EUIElements_002EIStylePropertyAnimations_002EStart(StylePropertyId id, Color from, Color to, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600134D")]
-	[Address(RVA = "0x4D65870", Offset = "0x4D65870", VA = "0x4D65870", Slot = "66")]
+	[Address(RVA = "0x508D1A0", Offset = "0x508D1A0", VA = "0x508D1A0", Slot = "66")]
 	private bool UnityEngine_002EUIElements_002EIStylePropertyAnimations_002EStartEnum(StylePropertyId id, int from, int to, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600134E")]
-	[Address(RVA = "0x4D65990", Offset = "0x4D65990", VA = "0x4D65990", Slot = "67")]
+	[Address(RVA = "0x508D2C0", Offset = "0x508D2C0", VA = "0x508D2C0", Slot = "67")]
 	private bool UnityEngine_002EUIElements_002EIStylePropertyAnimations_002EStart(StylePropertyId id, Background from, Background to, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600134F")]
-	[Address(RVA = "0x4D65B50", Offset = "0x4D65B50", VA = "0x4D65B50", Slot = "68")]
+	[Address(RVA = "0x508D480", Offset = "0x508D480", VA = "0x508D480", Slot = "68")]
 	private bool UnityEngine_002EUIElements_002EIStylePropertyAnimations_002EStart(StylePropertyId id, FontDefinition from, FontDefinition to, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001350")]
-	[Address(RVA = "0x4D65CB0", Offset = "0x4D65CB0", VA = "0x4D65CB0", Slot = "69")]
+	[Address(RVA = "0x508D5E0", Offset = "0x508D5E0", VA = "0x508D5E0", Slot = "69")]
 	private bool UnityEngine_002EUIElements_002EIStylePropertyAnimations_002EStart(StylePropertyId id, Font from, Font to, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001351")]
-	[Address(RVA = "0x4D65DD0", Offset = "0x4D65DD0", VA = "0x4D65DD0", Slot = "70")]
+	[Address(RVA = "0x508D700", Offset = "0x508D700", VA = "0x508D700", Slot = "70")]
 	private bool UnityEngine_002EUIElements_002EIStylePropertyAnimations_002EStart(StylePropertyId id, TextShadow from, TextShadow to, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001352")]
-	[Address(RVA = "0x4D65F90", Offset = "0x4D65F90", VA = "0x4D65F90", Slot = "71")]
+	[Address(RVA = "0x508D8C0", Offset = "0x508D8C0", VA = "0x508D8C0", Slot = "71")]
 	private bool UnityEngine_002EUIElements_002EIStylePropertyAnimations_002EStart(StylePropertyId id, Scale from, Scale to, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001353")]
-	[Address(RVA = "0x4D660C0", Offset = "0x4D660C0", VA = "0x4D660C0", Slot = "72")]
+	[Address(RVA = "0x508D9F0", Offset = "0x508D9F0", VA = "0x508D9F0", Slot = "72")]
 	private bool UnityEngine_002EUIElements_002EIStylePropertyAnimations_002EStart(StylePropertyId id, Translate from, Translate to, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001354")]
-	[Address(RVA = "0x4D66270", Offset = "0x4D66270", VA = "0x4D66270", Slot = "73")]
+	[Address(RVA = "0x508DBA0", Offset = "0x508DBA0", VA = "0x508DBA0", Slot = "73")]
 	private bool UnityEngine_002EUIElements_002EIStylePropertyAnimations_002EStart(StylePropertyId id, Rotate from, Rotate to, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001355")]
-	[Address(RVA = "0x4D66420", Offset = "0x4D66420", VA = "0x4D66420", Slot = "74")]
+	[Address(RVA = "0x508DD50", Offset = "0x508DD50", VA = "0x508DD50", Slot = "74")]
 	private bool UnityEngine_002EUIElements_002EIStylePropertyAnimations_002EStart(StylePropertyId id, TransformOrigin from, TransformOrigin to, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001356")]
-	[Address(RVA = "0x4D665D0", Offset = "0x4D665D0", VA = "0x4D665D0", Slot = "75")]
+	[Address(RVA = "0x508DF00", Offset = "0x508DF00", VA = "0x508DF00", Slot = "75")]
 	private bool UnityEngine_002EUIElements_002EIStylePropertyAnimations_002EStart(StylePropertyId id, BackgroundPosition from, BackgroundPosition to, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001357")]
-	[Address(RVA = "0x4D66710", Offset = "0x4D66710", VA = "0x4D66710", Slot = "76")]
+	[Address(RVA = "0x508E040", Offset = "0x508E040", VA = "0x508E040", Slot = "76")]
 	private bool UnityEngine_002EUIElements_002EIStylePropertyAnimations_002EStart(StylePropertyId id, BackgroundRepeat from, BackgroundRepeat to, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001358")]
-	[Address(RVA = "0x4D66830", Offset = "0x4D66830", VA = "0x4D66830", Slot = "77")]
+	[Address(RVA = "0x508E160", Offset = "0x508E160", VA = "0x508E160", Slot = "77")]
 	private bool UnityEngine_002EUIElements_002EIStylePropertyAnimations_002EStart(StylePropertyId id, BackgroundSize from, BackgroundSize to, int durationMs, int delayMs, Func<float, float> easingCurve)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001359")]
-	[Address(RVA = "0x4D669E0", Offset = "0x4D669E0", VA = "0x4D669E0", Slot = "80")]
+	[Address(RVA = "0x508E310", Offset = "0x508E310", VA = "0x508E310", Slot = "80")]
 	private void UnityEngine_002EUIElements_002EIStylePropertyAnimations_002ECancelAnimation(StylePropertyId id)
 	{
 	}
 
 	[Token(Token = "0x600135A")]
-	[Address(RVA = "0x4D66AC0", Offset = "0x4D66AC0", VA = "0x4D66AC0", Slot = "81")]
+	[Address(RVA = "0x508E3F0", Offset = "0x508E3F0", VA = "0x508E3F0", Slot = "81")]
 	private void UnityEngine_002EUIElements_002EIStylePropertyAnimations_002ECancelAllAnimations()
 	{
 	}
 
 	[Token(Token = "0x600135B")]
-	[Address(RVA = "0x4D66CD0", Offset = "0x4D66CD0", VA = "0x4D66CD0", Slot = "78")]
+	[Address(RVA = "0x508E600", Offset = "0x508E600", VA = "0x508E600", Slot = "78")]
 	private void UnityEngine_002EUIElements_002EIStylePropertyAnimations_002EUpdateAnimation(StylePropertyId id)
 	{
 	}
 
 	[Token(Token = "0x600135C")]
-	[Address(RVA = "0x4D66DB0", Offset = "0x4D66DB0", VA = "0x4D66DB0", Slot = "79")]
+	[Address(RVA = "0x508E6E0", Offset = "0x508E6E0", VA = "0x508E6E0", Slot = "79")]
 	private void UnityEngine_002EUIElements_002EIStylePropertyAnimations_002EGetAllAnimations(List<StylePropertyId> outPropertyIds)
 	{
 	}
 
 	[Token(Token = "0x600135D")]
-	[Address(RVA = "0x4D66FD0", Offset = "0x4D66FD0", VA = "0x4D66FD0")]
+	[Address(RVA = "0x508E900", Offset = "0x508E900", VA = "0x508E900")]
 	internal bool TryConvertLengthUnits(StylePropertyId id, ref Length from, ref Length to, int subPropertyIndex = 0)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600135E")]
-	[Address(RVA = "0x4D679C0", Offset = "0x4D679C0", VA = "0x4D679C0")]
+	[Address(RVA = "0x508F2F0", Offset = "0x508F2F0", VA = "0x508F2F0")]
 	internal bool TryConvertTransformOriginUnits(ref TransformOrigin from, ref TransformOrigin to)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600135F")]
-	[Address(RVA = "0x4D67A50", Offset = "0x4D67A50", VA = "0x4D67A50")]
+	[Address(RVA = "0x508F380", Offset = "0x508F380", VA = "0x508F380")]
 	internal bool TryConvertTranslateUnits(ref Translate from, ref Translate to)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001360")]
-	[Address(RVA = "0x4D67AE0", Offset = "0x4D67AE0", VA = "0x4D67AE0")]
+	[Address(RVA = "0x508F410", Offset = "0x508F410", VA = "0x508F410")]
 	internal bool TryConvertBackgroundSizeUnits(ref BackgroundSize from, ref BackgroundSize to)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001361")]
-	[Address(RVA = "0x4D672A0", Offset = "0x4D672A0", VA = "0x4D672A0")]
+	[Address(RVA = "0x508EBD0", Offset = "0x508EBD0", VA = "0x508EBD0")]
 	private float? GetParentSizeForLengthConversion(StylePropertyId id, int subPropertyIndex = 0)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001371")]
-	[Address(RVA = "0x4D68B10", Offset = "0x4D68B10", VA = "0x4D68B10")]
+	[Address(RVA = "0x5090440", Offset = "0x5090440", VA = "0x5090440")]
 	internal void MarkRenderHintsClean()
 	{
 	}
 
 	[Token(Token = "0x600137B")]
-	[Address(RVA = "0x4D69A10", Offset = "0x4D69A10", VA = "0x4D69A10")]
+	[Address(RVA = "0x5091340", Offset = "0x5091340", VA = "0x5091340")]
 	internal void ClearManualLayout()
 	{
 	}
 
 	[Token(Token = "0x6001385")]
-	[Address(RVA = "0x4D6AA70", Offset = "0x4D6AA70", VA = "0x4D6AA70")]
+	[Address(RVA = "0x50923A0", Offset = "0x50923A0", VA = "0x50923A0")]
 	internal void UpdateBoundingBox()
 	{
 	}
 
 	[Token(Token = "0x6001386")]
-	[Address(RVA = "0x4D6AFF0", Offset = "0x4D6AFF0", VA = "0x4D6AFF0")]
+	[Address(RVA = "0x5092920", Offset = "0x5092920", VA = "0x5092920")]
 	internal void UpdateWorldBoundingBox()
 	{
 	}
 
 	[Token(Token = "0x6001391")]
-	[Address(RVA = "0x4D6B490", Offset = "0x4D6B490", VA = "0x4D6B490")]
+	[Address(RVA = "0x5092DC0", Offset = "0x5092DC0", VA = "0x5092DC0")]
 	internal void UpdateWorldTransform()
 	{
 	}
 
 	[Token(Token = "0x6001392")]
-	[Address(RVA = "0x4D6B990", Offset = "0x4D6B990", VA = "0x4D6B990")]
+	[Address(RVA = "0x50932C0", Offset = "0x50932C0", VA = "0x50932C0")]
 	internal void UpdateWorldTransformInverse()
 	{
 	}
 
 	[Token(Token = "0x6001398")]
-	[Address(RVA = "0x4D6C3D0", Offset = "0x4D6C3D0", VA = "0x4D6C3D0")]
+	[Address(RVA = "0x5093D00", Offset = "0x5093D00", VA = "0x5093D00")]
 	internal void EnsureWorldTransformAndClipUpToDate()
 	{
 	}
 
 	[Token(Token = "0x6001399")]
-	[Address(RVA = "0x4D6C020", Offset = "0x4D6C020", VA = "0x4D6C020")]
+	[Address(RVA = "0x5093950", Offset = "0x5093950", VA = "0x5093950")]
 	private void UpdateWorldClip()
 	{
 	}
 
 	[Token(Token = "0x600139A")]
-	[Address(RVA = "0x4D6D0F0", Offset = "0x4D6D0F0", VA = "0x4D6D0F0")]
+	[Address(RVA = "0x5094A20", Offset = "0x5094A20", VA = "0x5094A20")]
 	private Rect CombineClipRects(Rect rect, Rect parentRect)
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x600139B")]
-	[Address(RVA = "0x4D6C400", Offset = "0x4D6C400", VA = "0x4D6C400")]
+	[Address(RVA = "0x5093D30", Offset = "0x5093D30", VA = "0x5093D30")]
 	private Rect SubstractBorderPadding(Rect worldRect)
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x600139C")]
-	[Address(RVA = "0x4D6D110", Offset = "0x4D6D110", VA = "0x4D6D110")]
+	[Address(RVA = "0x5094A40", Offset = "0x5094A40", VA = "0x5094A40")]
 	internal static Rect ComputeAAAlignedBound(Rect position, Matrix4x4 mat)
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x60013A1")]
-	[Address(RVA = "0x4D6D2D0", Offset = "0x4D6D2D0", VA = "0x4D6D2D0")]
+	[Address(RVA = "0x5094C00", Offset = "0x5094C00", VA = "0x5094C00")]
 	private void UpdateHoverPseudoState()
 	{
 	}
 
 	[Token(Token = "0x60013A2")]
-	[Address(RVA = "0x4D6D500", Offset = "0x4D6D500", VA = "0x4D6D500")]
+	[Address(RVA = "0x5094E30", Offset = "0x5094E30", VA = "0x5094E30")]
 	private static bool IsPartOfCapturedChain(VisualElement self, in IEventHandler capturingElement)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013AF")]
-	[Address(RVA = "0x4D6DA10", Offset = "0x4D6DA10", VA = "0x4D6DA10")]
+	[Address(RVA = "0x5095340", Offset = "0x5095340", VA = "0x5095340")]
 	private void ChangeIMGUIContainerCount(int delta)
 	{
 	}
 
 	[Token(Token = "0x60013B0")]
-	[Address(RVA = "0x4D6DA50", Offset = "0x4D6DA50", VA = "0x4D6DA50")]
+	[Address(RVA = "0x5095380", Offset = "0x5095380", VA = "0x5095380")]
 	public VisualElement()
 	{
 	}
 
 	[Token(Token = "0x60013B1")]
-	[Address(RVA = "0x4D6E060", Offset = "0x4D6E060", VA = "0x4D6E060", Slot = "1")]
+	[Address(RVA = "0x5095990", Offset = "0x5095990", VA = "0x5095990", Slot = "1")]
 	~VisualElement()
 	{
 	}
 
 	[Token(Token = "0x60013B2")]
-	[Address(RVA = "0x4D6E1B0", Offset = "0x4D6E1B0", VA = "0x4D6E1B0", Slot = "10")]
+	[Address(RVA = "0x5095AE0", Offset = "0x5095AE0", VA = "0x5095AE0", Slot = "10")]
 	[EventInterest(new Type[]
 	{
 		typeof(MouseOverEvent),
@@ -2896,105 +2903,105 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	}
 
 	[Token(Token = "0x60013B3")]
-	[Address(RVA = "0x4D6EF10", Offset = "0x4D6EF10", VA = "0x4D6EF10", Slot = "93")]
+	[Address(RVA = "0x5096840", Offset = "0x5096840", VA = "0x5096840", Slot = "93")]
 	internal virtual Rect GetTooltipRect()
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x60013B4")]
-	[Address(RVA = "0x4D6EE30", Offset = "0x4D6EE30", VA = "0x4D6EE30")]
+	[Address(RVA = "0x5096760", Offset = "0x5096760", VA = "0x5096760")]
 	private void SetTooltip(TooltipEvent e)
 	{
 	}
 
 	[Token(Token = "0x60013B5")]
-	[Address(RVA = "0x4D6F050", Offset = "0x4D6F050", VA = "0x4D6F050", Slot = "15")]
+	[Address(RVA = "0x5096980", Offset = "0x5096980", VA = "0x5096980", Slot = "15")]
 	public sealed override void Focus()
 	{
 	}
 
 	[Token(Token = "0x60013B6")]
-	[Address(RVA = "0x4D6F0B0", Offset = "0x4D6F0B0", VA = "0x4D6F0B0")]
+	[Address(RVA = "0x50969E0", Offset = "0x50969E0", VA = "0x50969E0")]
 	internal void SetPanel(BaseVisualElementPanel p)
 	{
 	}
 
 	[Token(Token = "0x60013B7")]
-	[Address(RVA = "0x4D6FDD0", Offset = "0x4D6FDD0", VA = "0x4D6FDD0")]
+	[Address(RVA = "0x5097700", Offset = "0x5097700", VA = "0x5097700")]
 	private void WillChangePanel(BaseVisualElementPanel destinationPanel)
 	{
 	}
 
 	[Token(Token = "0x60013B8")]
-	[Address(RVA = "0x4D70030", Offset = "0x4D70030", VA = "0x4D70030")]
+	[Address(RVA = "0x5097960", Offset = "0x5097960", VA = "0x5097960")]
 	private void HasChangedPanel(BaseVisualElementPanel prevPanel)
 	{
 	}
 
 	[Token(Token = "0x60013B9")]
-	[Address(RVA = "0x4D706E0", Offset = "0x4D706E0", VA = "0x4D706E0", Slot = "5")]
+	[Address(RVA = "0x5098010", Offset = "0x5098010", VA = "0x5098010", Slot = "5")]
 	public sealed override void SendEvent(EventBase e)
 	{
 	}
 
 	[Token(Token = "0x60013BA")]
-	[Address(RVA = "0x4D70700", Offset = "0x4D70700", VA = "0x4D70700", Slot = "6")]
+	[Address(RVA = "0x5098030", Offset = "0x5098030", VA = "0x5098030", Slot = "6")]
 	internal sealed override void SendEvent(EventBase e, DispatchMode dispatchMode)
 	{
 	}
 
 	[Token(Token = "0x60013BB")]
-	[Address(RVA = "0x4D67E10", Offset = "0x4D67E10", VA = "0x4D67E10")]
+	[Address(RVA = "0x508F740", Offset = "0x508F740", VA = "0x508F740")]
 	internal void IncrementVersion(VersionChangeType changeType)
 	{
 	}
 
 	[Token(Token = "0x60013BC")]
-	[Address(RVA = "0x4D70720", Offset = "0x4D70720", VA = "0x4D70720")]
+	[Address(RVA = "0x5098050", Offset = "0x5098050", VA = "0x5098050")]
 	internal void InvokeHierarchyChanged(HierarchyChangeType changeType)
 	{
 	}
 
 	[Token(Token = "0x60013BD")]
-	[Address(RVA = "0x4D70740", Offset = "0x4D70740", VA = "0x4D70740")]
+	[Address(RVA = "0x5098070", Offset = "0x5098070", VA = "0x5098070")]
 	private bool SetEnabledFromHierarchyPrivate(bool state)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013C2")]
-	[Address(RVA = "0x4D6DFA0", Offset = "0x4D6DFA0", VA = "0x4D6DFA0")]
+	[Address(RVA = "0x50958D0", Offset = "0x50958D0", VA = "0x50958D0")]
 	public void SetEnabled(bool value)
 	{
 	}
 
 	[Token(Token = "0x60013C3")]
-	[Address(RVA = "0x4D71060", Offset = "0x4D71060", VA = "0x4D71060")]
+	[Address(RVA = "0x5098990", Offset = "0x5098990", VA = "0x5098990")]
 	private void PropagateEnabledToChildren(bool value)
 	{
 	}
 
 	[Token(Token = "0x60013C9")]
-	[Address(RVA = "0x4D713F0", Offset = "0x4D713F0", VA = "0x4D713F0")]
+	[Address(RVA = "0x5098D20", Offset = "0x5098D20", VA = "0x5098D20")]
 	public void MarkDirtyRepaint()
 	{
 	}
 
 	[Token(Token = "0x60013CC")]
-	[Address(RVA = "0x4D71450", Offset = "0x4D71450", VA = "0x4D71450")]
+	[Address(RVA = "0x5098D80", Offset = "0x5098D80", VA = "0x5098D80")]
 	internal void InvokeGenerateVisualContent(MeshGenerationContext mgc)
 	{
 	}
 
 	[Token(Token = "0x60013CD")]
-	[Address(RVA = "0x4D71630", Offset = "0x4D71630", VA = "0x4D71630")]
+	[Address(RVA = "0x5098F60", Offset = "0x5098F60", VA = "0x5098F60")]
 	internal void GetFullHierarchicalViewDataKey(StringBuilder key)
 	{
 	}
 
 	[Token(Token = "0x60013CE")]
-	[Address(RVA = "0x4D716C0", Offset = "0x4D716C0", VA = "0x4D716C0")]
+	[Address(RVA = "0x5098FF0", Offset = "0x5098FF0", VA = "0x5098FF0")]
 	internal string GetFullHierarchicalViewDataKey()
 	{
 		return null;
@@ -3007,184 +3014,184 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	}
 
 	[Token(Token = "0x60013D0")]
-	[Address(RVA = "0x4D71740", Offset = "0x4D71740", VA = "0x4D71740")]
+	[Address(RVA = "0x5099070", Offset = "0x5099070", VA = "0x5099070")]
 	internal void OverwriteFromViewData(object obj, string key)
 	{
 	}
 
 	[Token(Token = "0x60013D1")]
-	[Address(RVA = "0x4D71A60", Offset = "0x4D71A60", VA = "0x4D71A60")]
+	[Address(RVA = "0x5099390", Offset = "0x5099390", VA = "0x5099390")]
 	internal void SaveViewData()
 	{
 	}
 
 	[Token(Token = "0x60013D2")]
-	[Address(RVA = "0x4D71AE0", Offset = "0x4D71AE0", VA = "0x4D71AE0", Slot = "94")]
+	[Address(RVA = "0x5099410", Offset = "0x5099410", VA = "0x5099410", Slot = "94")]
 	internal virtual void OnViewDataReady()
 	{
 	}
 
 	[Token(Token = "0x60013D3")]
-	[Address(RVA = "0x4D71AF0", Offset = "0x4D71AF0", VA = "0x4D71AF0", Slot = "95")]
+	[Address(RVA = "0x5099420", Offset = "0x5099420", VA = "0x5099420", Slot = "95")]
 	public virtual bool ContainsPoint(Vector2 localPoint)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013D6")]
-	[Address(RVA = "0x4D71CB0", Offset = "0x4D71CB0", VA = "0x4D71CB0")]
+	[Address(RVA = "0x50995E0", Offset = "0x50995E0", VA = "0x50995E0")]
 	private void AssignMeasureFunction()
 	{
 	}
 
 	[Token(Token = "0x60013D7")]
-	[Address(RVA = "0x4D71D30", Offset = "0x4D71D30", VA = "0x4D71D30")]
+	[Address(RVA = "0x5099660", Offset = "0x5099660", VA = "0x5099660")]
 	private void RemoveMeasureFunction()
 	{
 	}
 
 	[Token(Token = "0x60013D8")]
-	[Address(RVA = "0x4D71D60", Offset = "0x4D71D60", VA = "0x4D71D60", Slot = "96")]
+	[Address(RVA = "0x5099690", Offset = "0x5099690", VA = "0x5099690", Slot = "96")]
 	protected internal virtual Vector2 DoMeasure(float desiredWidth, MeasureMode widthMode, float desiredHeight, MeasureMode heightMode)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60013D9")]
-	[Address(RVA = "0x4D71D70", Offset = "0x4D71D70", VA = "0x4D71D70")]
+	[Address(RVA = "0x50996A0", Offset = "0x50996A0", VA = "0x50996A0")]
 	internal static void Measure(VisualElement ve, ref LayoutNode node, float width, LayoutMeasureMode widthMode, float height, LayoutMeasureMode heightMode, out LayoutSize result)
 	{
 	}
 
 	[Token(Token = "0x60013DA")]
-	[Address(RVA = "0x4D71EF0", Offset = "0x4D71EF0", VA = "0x4D71EF0")]
+	[Address(RVA = "0x5099820", Offset = "0x5099820", VA = "0x5099820")]
 	private void FinalizeLayout()
 	{
 	}
 
 	[Token(Token = "0x60013DB")]
-	[Address(RVA = "0x4D71F50", Offset = "0x4D71F50", VA = "0x4D71F50")]
+	[Address(RVA = "0x5099880", Offset = "0x5099880", VA = "0x5099880")]
 	internal void SetInlineRule(StyleSheet sheet, StyleRule rule)
 	{
 	}
 
 	[Token(Token = "0x60013DC")]
-	[Address(RVA = "0x4D72000", Offset = "0x4D72000", VA = "0x4D72000")]
+	[Address(RVA = "0x5099930", Offset = "0x5099930", VA = "0x5099930")]
 	internal void SetComputedStyle(ref ComputedStyle newStyle)
 	{
 	}
 
 	[Token(Token = "0x60013DD")]
-	[Address(RVA = "0x4D72220", Offset = "0x4D72220", VA = "0x4D72220", Slot = "3")]
+	[Address(RVA = "0x5099B50", Offset = "0x5099B50", VA = "0x5099B50", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60013DE")]
-	[Address(RVA = "0x4D72450", Offset = "0x4D72450", VA = "0x4D72450")]
+	[Address(RVA = "0x5099D80", Offset = "0x5099D80", VA = "0x5099D80")]
 	internal List<string> GetClassesForIteration()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60013DF")]
-	[Address(RVA = "0x4D70D50", Offset = "0x4D70D50", VA = "0x4D70D50")]
+	[Address(RVA = "0x5098680", Offset = "0x5098680", VA = "0x5098680")]
 	public void AddToClassList(string className)
 	{
 	}
 
 	[Token(Token = "0x60013E0")]
-	[Address(RVA = "0x4D70C10", Offset = "0x4D70C10", VA = "0x4D70C10")]
+	[Address(RVA = "0x5098540", Offset = "0x5098540", VA = "0x5098540")]
 	public void RemoveFromClassList(string className)
 	{
 	}
 
 	[Token(Token = "0x60013E1")]
-	[Address(RVA = "0x4D70FA0", Offset = "0x4D70FA0", VA = "0x4D70FA0")]
+	[Address(RVA = "0x50988D0", Offset = "0x50988D0", VA = "0x50988D0")]
 	public void EnableInClassList(string className, bool enable)
 	{
 	}
 
 	[Token(Token = "0x60013E2")]
-	[Address(RVA = "0x4D72460", Offset = "0x4D72460", VA = "0x4D72460")]
+	[Address(RVA = "0x5099D90", Offset = "0x5099D90", VA = "0x5099D90")]
 	public bool ClassListContains(string cls)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013E3")]
-	[Address(RVA = "0x4D72500", Offset = "0x4D72500", VA = "0x4D72500")]
+	[Address(RVA = "0x5099E30", Offset = "0x5099E30", VA = "0x5099E30")]
 	internal object GetProperty(PropertyName key)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60013E4")]
-	[Address(RVA = "0x4D726B0", Offset = "0x4D726B0", VA = "0x4D726B0")]
+	[Address(RVA = "0x5099FE0", Offset = "0x5099FE0", VA = "0x5099FE0")]
 	internal void SetProperty(PropertyName key, object value)
 	{
 	}
 
 	[Token(Token = "0x60013E5")]
-	[Address(RVA = "0x4D72710", Offset = "0x4D72710", VA = "0x4D72710")]
+	[Address(RVA = "0x509A040", Offset = "0x509A040", VA = "0x509A040")]
 	internal bool HasProperty(PropertyName key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013E6")]
-	[Address(RVA = "0x4D67FC0", Offset = "0x4D67FC0", VA = "0x4D67FC0")]
+	[Address(RVA = "0x508F8F0", Offset = "0x508F8F0", VA = "0x508F8F0")]
 	private bool TryGetPropertyInternal(PropertyName key, out object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013E7")]
-	[Address(RVA = "0x4D72570", Offset = "0x4D72570", VA = "0x4D72570")]
+	[Address(RVA = "0x5099EA0", Offset = "0x5099EA0", VA = "0x5099EA0")]
 	private static void CheckUserKeyArgument(PropertyName key)
 	{
 	}
 
 	[Token(Token = "0x60013E8")]
-	[Address(RVA = "0x4D68220", Offset = "0x4D68220", VA = "0x4D68220")]
+	[Address(RVA = "0x508FB50", Offset = "0x508FB50", VA = "0x508FB50")]
 	private void SetPropertyInternal(PropertyName key, object value)
 	{
 	}
 
 	[Token(Token = "0x60013E9")]
-	[Address(RVA = "0x4D6E960", Offset = "0x4D6E960", VA = "0x4D6E960")]
+	[Address(RVA = "0x5096290", Offset = "0x5096290", VA = "0x5096290")]
 	private void UpdateCursorStyle(long eventType)
 	{
 	}
 
 	[Token(Token = "0x60013EC")]
-	[Address(RVA = "0x4D727A0", Offset = "0x4D727A0", VA = "0x4D727A0")]
+	[Address(RVA = "0x509A0D0", Offset = "0x509A0D0", VA = "0x509A0D0")]
 	private VisualElementAnimationSystem GetAnimationSystem()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60013ED")]
-	[Address(RVA = "0x4D72820", Offset = "0x4D72820", VA = "0x4D72820")]
+	[Address(RVA = "0x509A150", Offset = "0x509A150", VA = "0x509A150")]
 	internal void RegisterAnimation(IValueAnimationUpdate anim)
 	{
 	}
 
 	[Token(Token = "0x60013EE")]
-	[Address(RVA = "0x4D729D0", Offset = "0x4D729D0", VA = "0x4D729D0")]
+	[Address(RVA = "0x509A300", Offset = "0x509A300", VA = "0x509A300")]
 	internal void UnregisterAnimation(IValueAnimationUpdate anim)
 	{
 	}
 
 	[Token(Token = "0x60013EF")]
-	[Address(RVA = "0x4D704C0", Offset = "0x4D704C0", VA = "0x4D704C0")]
+	[Address(RVA = "0x5097DF0", Offset = "0x5097DF0", VA = "0x5097DF0")]
 	private void UnregisterRunningAnimations()
 	{
 	}
 
 	[Token(Token = "0x60013F0")]
-	[Address(RVA = "0x4D70620", Offset = "0x4D70620", VA = "0x4D70620")]
+	[Address(RVA = "0x5097F50", Offset = "0x5097F50", VA = "0x5097F50")]
 	private void RegisterRunningAnimations()
 	{
 	}
@@ -3196,191 +3203,191 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	}
 
 	[Token(Token = "0x60013F2")]
-	[Address(RVA = "0x4D72AB0", Offset = "0x4D72AB0", VA = "0x4D72AB0")]
+	[Address(RVA = "0x509A3E0", Offset = "0x509A3E0", VA = "0x509A3E0")]
 	private static void AssignStyleValues(VisualElement ve, StyleValues src)
 	{
 	}
 
 	[Token(Token = "0x60013F3")]
-	[Address(RVA = "0x4D748E0", Offset = "0x4D748E0", VA = "0x4D748E0")]
+	[Address(RVA = "0x509C210", Offset = "0x509C210", VA = "0x509C210")]
 	private StyleValues ReadCurrentValues(VisualElement ve, StyleValues targetValuesToRead)
 	{
 		return default(StyleValues);
 	}
 
 	[Token(Token = "0x60013F4")]
-	[Address(RVA = "0x4D75EA0", Offset = "0x4D75EA0", VA = "0x4D75EA0", Slot = "89")]
+	[Address(RVA = "0x509D7D0", Offset = "0x509D7D0", VA = "0x509D7D0", Slot = "89")]
 	private ValueAnimation<StyleValues> UnityEngine_002EUIElements_002EExperimental_002EITransitionAnimations_002EStart(StyleValues to, int durationMs)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60013F5")]
-	[Address(RVA = "0x4D75F90", Offset = "0x4D75F90", VA = "0x4D75F90")]
+	[Address(RVA = "0x509D8C0", Offset = "0x509D8C0", VA = "0x509D8C0")]
 	private ValueAnimation<StyleValues> Start(Func<VisualElement, StyleValues> fromValueGetter, StyleValues to, int durationMs)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60013F6")]
-	[Address(RVA = "0x4D760E0", Offset = "0x4D760E0", VA = "0x4D760E0")]
+	[Address(RVA = "0x509DA10", Offset = "0x509DA10", VA = "0x509DA10")]
 	private void DirtyNextParentWithEventCallback()
 	{
 	}
 
 	[Token(Token = "0x60013F7")]
-	[Address(RVA = "0x4D67CD0", Offset = "0x4D67CD0", VA = "0x4D67CD0")]
+	[Address(RVA = "0x508F600", Offset = "0x508F600", VA = "0x508F600")]
 	private void SetAsNextParentWithEventCallback()
 	{
 	}
 
 	[Token(Token = "0x60013F8")]
-	[Address(RVA = "0x4D76160", Offset = "0x4D76160", VA = "0x4D76160")]
+	[Address(RVA = "0x509DA90", Offset = "0x509DA90", VA = "0x509DA90")]
 	internal bool GetCachedNextParentWithEventCallback(out VisualElement nextParent)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013FA")]
-	[Address(RVA = "0x4D76370", Offset = "0x4D76370", VA = "0x4D76370")]
+	[Address(RVA = "0x509DCA0", Offset = "0x509DCA0", VA = "0x509DCA0")]
 	private void PropagateCachedNextParentWithEventCallback(VisualElement nextParent, VisualElement stopParent)
 	{
 	}
 
 	[Token(Token = "0x6001400")]
-	[Address(RVA = "0x4D76580", Offset = "0x4D76580", VA = "0x4D76580")]
+	[Address(RVA = "0x509DEB0", Offset = "0x509DEB0", VA = "0x509DEB0")]
 	private void UpdateCallbackParentCategories()
 	{
 	}
 
 	[Token(Token = "0x6001401")]
-	[Address(RVA = "0x4D76690", Offset = "0x4D76690", VA = "0x4D76690")]
+	[Address(RVA = "0x509DFC0", Offset = "0x509DFC0", VA = "0x509DFC0")]
 	internal bool HasEventCallbacks(EventCategory eventCategory)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001402")]
-	[Address(RVA = "0x4D766A0", Offset = "0x4D766A0", VA = "0x4D766A0")]
+	[Address(RVA = "0x509DFD0", Offset = "0x509DFD0", VA = "0x509DFD0")]
 	internal bool HasParentEventCallbacksOrDefaultActions(EventCategory eventCategory)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001403")]
-	[Address(RVA = "0x4D70600", Offset = "0x4D70600", VA = "0x4D70600")]
+	[Address(RVA = "0x5097F30", Offset = "0x5097F30", VA = "0x5097F30")]
 	internal bool HasEventCallbacksOrDefaultActions(EventCategory eventCategory)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001404")]
-	[Address(RVA = "0x4D76700", Offset = "0x4D76700", VA = "0x4D76700")]
+	[Address(RVA = "0x509E030", Offset = "0x509E030", VA = "0x509E030")]
 	internal bool HasEventCallbacksOrDefaultActionAtTarget(EventCategory eventCategory)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001405")]
-	[Address(RVA = "0x4D76720", Offset = "0x4D76720", VA = "0x4D76720")]
+	[Address(RVA = "0x509E050", Offset = "0x509E050", VA = "0x509E050")]
 	internal bool HasDefaultActionAtTarget(EventCategory eventCategory)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001406")]
-	[Address(RVA = "0x4D76730", Offset = "0x4D76730", VA = "0x4D76730")]
+	[Address(RVA = "0x509E060", Offset = "0x509E060", VA = "0x509E060")]
 	internal bool HasDefaultAction(EventCategory eventCategory)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600140F")]
-	[Address(RVA = "0x4D6B190", Offset = "0x4D6B190", VA = "0x4D6B190")]
+	[Address(RVA = "0x5092AC0", Offset = "0x5092AC0", VA = "0x5092AC0")]
 	internal bool ShouldClip()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001419")]
-	[Address(RVA = "0x4D768D0", Offset = "0x4D768D0", VA = "0x4D768D0")]
+	[Address(RVA = "0x509E200", Offset = "0x509E200", VA = "0x509E200")]
 	public void Add(VisualElement child)
 	{
 	}
 
 	[Token(Token = "0x600141A")]
-	[Address(RVA = "0x4D76A30", Offset = "0x4D76A30", VA = "0x4D76A30")]
+	[Address(RVA = "0x509E360", Offset = "0x509E360", VA = "0x509E360")]
 	public void Insert(int index, VisualElement element)
 	{
 	}
 
 	[Token(Token = "0x600141B")]
-	[Address(RVA = "0x4D76EC0", Offset = "0x4D76EC0", VA = "0x4D76EC0")]
+	[Address(RVA = "0x509E7F0", Offset = "0x509E7F0", VA = "0x509E7F0")]
 	public void Remove(VisualElement element)
 	{
 	}
 
 	[Token(Token = "0x600141C")]
-	[Address(RVA = "0x4D77020", Offset = "0x4D77020", VA = "0x4D77020")]
+	[Address(RVA = "0x509E950", Offset = "0x509E950", VA = "0x509E950")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x600141D")]
-	[Address(RVA = "0x4D77510", Offset = "0x4D77510", VA = "0x4D77510")]
+	[Address(RVA = "0x509EE40", Offset = "0x509EE40", VA = "0x509EE40")]
 	public VisualElement ElementAt(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001420")]
-	[Address(RVA = "0x4D77780", Offset = "0x4D77780", VA = "0x4D77780")]
+	[Address(RVA = "0x509F0B0", Offset = "0x509F0B0", VA = "0x509F0B0")]
 	public int IndexOf(VisualElement element)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001421")]
-	[Address(RVA = "0x4D77890", Offset = "0x4D77890", VA = "0x4D77890")]
+	[Address(RVA = "0x509F1C0", Offset = "0x509F1C0", VA = "0x509F1C0")]
 	internal VisualElement ElementAtTreePath(List<int> childIndexes)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001422")]
-	[Address(RVA = "0x4D77AE0", Offset = "0x4D77AE0", VA = "0x4D77AE0")]
+	[Address(RVA = "0x509F410", Offset = "0x509F410", VA = "0x509F410")]
 	internal bool FindElementInTree(VisualElement element, List<int> outChildIndexes)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001423")]
-	[Address(RVA = "0x4D77C50", Offset = "0x4D77C50", VA = "0x4D77C50")]
+	[Address(RVA = "0x509F580", Offset = "0x509F580", VA = "0x509F580")]
 	public IEnumerable<VisualElement> Children()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001424")]
-	[Address(RVA = "0x4D77D20", Offset = "0x4D77D20", VA = "0x4D77D20")]
+	[Address(RVA = "0x509F650", Offset = "0x509F650", VA = "0x509F650")]
 	public void BringToFront()
 	{
 	}
 
 	[Token(Token = "0x6001425")]
-	[Address(RVA = "0x4D77E60", Offset = "0x4D77E60", VA = "0x4D77E60")]
+	[Address(RVA = "0x509F790", Offset = "0x509F790", VA = "0x509F790")]
 	public void SendToBack()
 	{
 	}
 
 	[Token(Token = "0x6001426")]
-	[Address(RVA = "0x4D77F50", Offset = "0x4D77F50", VA = "0x4D77F50")]
+	[Address(RVA = "0x509F880", Offset = "0x509F880", VA = "0x509F880")]
 	public void PlaceBehind(VisualElement sibling)
 	{
 	}
 
 	[Token(Token = "0x6001427")]
-	[Address(RVA = "0x4D78150", Offset = "0x4D78150", VA = "0x4D78150")]
+	[Address(RVA = "0x509FA80", Offset = "0x509FA80", VA = "0x509FA80")]
 	public void RemoveFromHierarchy()
 	{
 	}
@@ -3398,76 +3405,76 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 	}
 
 	[Token(Token = "0x600142A")]
-	[Address(RVA = "0x4D78190", Offset = "0x4D78190", VA = "0x4D78190")]
+	[Address(RVA = "0x509FAC0", Offset = "0x509FAC0", VA = "0x509FAC0")]
 	internal VisualElement GetFirstAncestorWhere(Predicate<VisualElement> predicate)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600142B")]
-	[Address(RVA = "0x4D6D5C0", Offset = "0x4D6D5C0", VA = "0x4D6D5C0")]
+	[Address(RVA = "0x5094EF0", Offset = "0x5094EF0", VA = "0x5094EF0")]
 	public bool Contains(VisualElement child)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600142C")]
-	[Address(RVA = "0x4D6FD10", Offset = "0x4D6FD10", VA = "0x4D6FD10")]
+	[Address(RVA = "0x5097640", Offset = "0x5097640", VA = "0x5097640")]
 	private void GatherAllChildren(List<VisualElement> elements)
 	{
 	}
 
 	[Token(Token = "0x600142D")]
-	[Address(RVA = "0x4D78200", Offset = "0x4D78200", VA = "0x4D78200")]
+	[Address(RVA = "0x509FB30", Offset = "0x509FB30", VA = "0x509FB30")]
 	public VisualElement FindCommonAncestor(VisualElement other)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600142E")]
-	[Address(RVA = "0x4D78380", Offset = "0x4D78380", VA = "0x4D78380")]
+	[Address(RVA = "0x509FCB0", Offset = "0x509FCB0", VA = "0x509FCB0")]
 	internal VisualElement GetRoot()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600142F")]
-	[Address(RVA = "0x4D78450", Offset = "0x4D78450", VA = "0x4D78450")]
+	[Address(RVA = "0x509FD80", Offset = "0x509FD80", VA = "0x509FD80")]
 	internal VisualElement GetRootVisualContainer()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001430")]
-	[Address(RVA = "0x4D78490", Offset = "0x4D78490", VA = "0x4D78490")]
+	[Address(RVA = "0x509FDC0", Offset = "0x509FDC0", VA = "0x509FDC0")]
 	internal VisualElement GetNextElementDepthFirst()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001431")]
-	[Address(RVA = "0x4D785A0", Offset = "0x4D785A0", VA = "0x4D785A0")]
+	[Address(RVA = "0x509FED0", Offset = "0x509FED0", VA = "0x509FED0")]
 	internal VisualElement GetPreviousElementDepthFirst()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001432")]
-	[Address(RVA = "0x4D786A0", Offset = "0x4D786A0", VA = "0x4D786A0")]
+	[Address(RVA = "0x509FFD0", Offset = "0x509FFD0", VA = "0x509FFD0")]
 	internal VisualElement RetargetElement(VisualElement retargetAgainst)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001434")]
-	[Address(RVA = "0x4D6BAB0", Offset = "0x4D6BAB0", VA = "0x4D6BAB0")]
+	[Address(RVA = "0x50933E0", Offset = "0x50933E0", VA = "0x50933E0")]
 	internal void GetPivotedMatrixWithLayout(out Matrix4x4 result)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001436")]
-	[Address(RVA = "0x4D78880", Offset = "0x4D78880", VA = "0x4D78880")]
+	[Address(RVA = "0x50A01B0", Offset = "0x50A01B0", VA = "0x50A01B0")]
 	internal static float Min(float a, float b, float c, float d)
 	{
 		return default(float);
@@ -3475,7 +3482,7 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001437")]
-	[Address(RVA = "0x4D78890", Offset = "0x4D78890", VA = "0x4D78890")]
+	[Address(RVA = "0x50A01C0", Offset = "0x50A01C0", VA = "0x50A01C0")]
 	internal static float Max(float a, float b, float c, float d)
 	{
 		return default(float);
@@ -3483,13 +3490,13 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001438")]
-	[Address(RVA = "0x4D788A0", Offset = "0x4D788A0", VA = "0x4D788A0")]
+	[Address(RVA = "0x50A01D0", Offset = "0x50A01D0", VA = "0x50A01D0")]
 	private void TransformAlignedRectToParentSpace(ref Rect rect)
 	{
 	}
 
 	[Token(Token = "0x6001439")]
-	[Address(RVA = "0x4D78AE0", Offset = "0x4D78AE0", VA = "0x4D78AE0")]
+	[Address(RVA = "0x50A0410", Offset = "0x50A0410", VA = "0x50A0410")]
 	internal static Rect CalculateConservativeRect(ref Matrix4x4 matrix, Rect rect)
 	{
 		return default(Rect);
@@ -3497,20 +3504,20 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600143A")]
-	[Address(RVA = "0x4D78DB0", Offset = "0x4D78DB0", VA = "0x4D78DB0")]
+	[Address(RVA = "0x50A06E0", Offset = "0x50A06E0", VA = "0x50A06E0")]
 	internal static void TransformAlignedRect(ref Matrix4x4 matrix, ref Rect rect)
 	{
 	}
 
 	[Token(Token = "0x600143B")]
-	[Address(RVA = "0x4D78D50", Offset = "0x4D78D50", VA = "0x4D78D50")]
+	[Address(RVA = "0x50A0680", Offset = "0x50A0680", VA = "0x50A0680")]
 	internal static void OrderMinMaxRect(ref Rect rect)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600143C")]
-	[Address(RVA = "0x4D78E30", Offset = "0x4D78E30", VA = "0x4D78E30")]
+	[Address(RVA = "0x50A0760", Offset = "0x50A0760", VA = "0x50A0760")]
 	internal static Vector2 MultiplyMatrix44Point2(ref Matrix4x4 lhs, Vector2 point)
 	{
 		return default(Vector2);
@@ -3518,89 +3525,89 @@ public class VisualElement : Focusable, IResolvedStyle, IStylePropertyAnimations
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600143D")]
-	[Address(RVA = "0x4D78E60", Offset = "0x4D78E60", VA = "0x4D78E60")]
+	[Address(RVA = "0x50A0790", Offset = "0x50A0790", VA = "0x50A0790")]
 	internal static Vector2 MultiplyVector2(ref Matrix4x4 lhs, Vector2 vector)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x600143E")]
-	[Address(RVA = "0x4D6BD80", Offset = "0x4D6BD80", VA = "0x4D6BD80")]
+	[Address(RVA = "0x50936B0", Offset = "0x50936B0", VA = "0x50936B0")]
 	internal static void MultiplyMatrix34(ref Matrix4x4 lhs, ref Matrix4x4 rhs, out Matrix4x4 res)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600143F")]
-	[Address(RVA = "0x4D78E80", Offset = "0x4D78E80", VA = "0x4D78E80")]
+	[Address(RVA = "0x50A07B0", Offset = "0x50A07B0", VA = "0x50A07B0")]
 	private static void TranslateMatrix34(ref Matrix4x4 lhs, Vector3 rhs, out Matrix4x4 res)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001440")]
-	[Address(RVA = "0x4D78FA0", Offset = "0x4D78FA0", VA = "0x4D78FA0")]
+	[Address(RVA = "0x50A08D0", Offset = "0x50A08D0", VA = "0x50A08D0")]
 	private static void TranslateMatrix34InPlace(ref Matrix4x4 lhs, Vector3 rhs)
 	{
 	}
 
 	[Token(Token = "0x6001442")]
-	[Address(RVA = "0x4D79040", Offset = "0x4D79040", VA = "0x4D79040", Slot = "91")]
+	[Address(RVA = "0x50A0970", Offset = "0x50A0970", VA = "0x50A0970", Slot = "91")]
 	private IVisualElementScheduledItem UnityEngine_002EUIElements_002EIVisualElementScheduler_002EExecute(Action<TimerState> timerUpdateEvent)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001443")]
-	[Address(RVA = "0x4D790F0", Offset = "0x4D790F0", VA = "0x4D790F0", Slot = "92")]
+	[Address(RVA = "0x50A0A20", Offset = "0x50A0A20", VA = "0x50A0A20", Slot = "92")]
 	private IVisualElementScheduledItem UnityEngine_002EUIElements_002EIVisualElementScheduler_002EExecute(Action updateEvent)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001448")]
-	[Address(RVA = "0x4D79270", Offset = "0x4D79270", VA = "0x4D79270")]
+	[Address(RVA = "0x50A0BA0", Offset = "0x50A0BA0", VA = "0x50A0BA0")]
 	internal void AddStyleSheetPath(string sheetPath)
 	{
 	}
 
 	[Token(Token = "0x6001449")]
-	[Address(RVA = "0x4D60F20", Offset = "0x4D60F20", VA = "0x4D60F20")]
+	[Address(RVA = "0x5088850", Offset = "0x5088850", VA = "0x5088850")]
 	internal StyleFloat ResolveLengthValue(Length length, bool isRow)
 	{
 		return default(StyleFloat);
 	}
 
 	[Token(Token = "0x600144A")]
-	[Address(RVA = "0x4D61800", Offset = "0x4D61800", VA = "0x4D61800")]
+	[Address(RVA = "0x5089130", Offset = "0x5089130", VA = "0x5089130")]
 	internal Vector3 ResolveTranslate()
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x600144B")]
-	[Address(RVA = "0x4D612A0", Offset = "0x4D612A0", VA = "0x4D612A0")]
+	[Address(RVA = "0x5088BD0", Offset = "0x5088BD0", VA = "0x5088BD0")]
 	internal Vector3 ResolveTransformOrigin()
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x600144C")]
-	[Address(RVA = "0x4D78730", Offset = "0x4D78730", VA = "0x4D78730")]
+	[Address(RVA = "0x50A0060", Offset = "0x50A0060", VA = "0x50A0060")]
 	private Quaternion ResolveRotation()
 	{
 		return default(Quaternion);
 	}
 
 	[Token(Token = "0x600144D")]
-	[Address(RVA = "0x4D78780", Offset = "0x4D78780", VA = "0x4D78780")]
+	[Address(RVA = "0x50A00B0", Offset = "0x50A00B0", VA = "0x50A00B0")]
 	private Vector3 ResolveScale()
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x6001450")]
-	[Address(RVA = "0x4D79800", Offset = "0x4D79800", VA = "0x4D79800")]
+	[Address(RVA = "0x50A1130", Offset = "0x50A1130", VA = "0x50A1130")]
 	internal static TypeData GetOrCreateTypeData(Type t)
 	{
 		return null;

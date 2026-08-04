@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XmlSchemaAnyAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.ComponentModel;
 using System.Xml.Serialization;
 using Il2CppDummyDll;
@@ -24,7 +31,7 @@ public class XmlSchemaAnyAttribute : XmlSchemaAnnotated
 	public string Namespace
 	{
 		[Token(Token = "0x6001535")]
-		[Address(RVA = "0x43E1110", Offset = "0x43E1110", VA = "0x43E1110")]
+		[Address(RVA = "0x471E870", Offset = "0x471E870", VA = "0x471E870")]
 		set
 		{
 		}
@@ -36,13 +43,13 @@ public class XmlSchemaAnyAttribute : XmlSchemaAnnotated
 	public XmlSchemaContentProcessing ProcessContents
 	{
 		[Token(Token = "0x6001536")]
-		[Address(RVA = "0x43E1120", Offset = "0x43E1120", VA = "0x43E1120")]
+		[Address(RVA = "0x471E880", Offset = "0x471E880", VA = "0x471E880")]
 		get
 		{
 			return default(XmlSchemaContentProcessing);
 		}
 		[Token(Token = "0x6001537")]
-		[Address(RVA = "0x43E1130", Offset = "0x43E1130", VA = "0x43E1130")]
+		[Address(RVA = "0x471E890", Offset = "0x471E890", VA = "0x471E890")]
 		set
 		{
 		}
@@ -53,7 +60,7 @@ public class XmlSchemaAnyAttribute : XmlSchemaAnnotated
 	internal NamespaceList NamespaceList
 	{
 		[Token(Token = "0x6001538")]
-		[Address(RVA = "0x43E1140", Offset = "0x43E1140", VA = "0x43E1140")]
+		[Address(RVA = "0x471E8A0", Offset = "0x471E8A0", VA = "0x471E8A0")]
 		get
 		{
 			return null;
@@ -65,7 +72,7 @@ public class XmlSchemaAnyAttribute : XmlSchemaAnnotated
 	internal XmlSchemaContentProcessing ProcessContentsCorrect
 	{
 		[Token(Token = "0x6001539")]
-		[Address(RVA = "0x43E1150", Offset = "0x43E1150", VA = "0x43E1150")]
+		[Address(RVA = "0x471E8B0", Offset = "0x471E8B0", VA = "0x471E8B0")]
 		get
 		{
 			return default(XmlSchemaContentProcessing);
@@ -73,47 +80,47 @@ public class XmlSchemaAnyAttribute : XmlSchemaAnnotated
 	}
 
 	[Token(Token = "0x600153A")]
-	[Address(RVA = "0x43E1160", Offset = "0x43E1160", VA = "0x43E1160")]
+	[Address(RVA = "0x471E8C0", Offset = "0x471E8C0", VA = "0x471E8C0")]
 	internal void BuildNamespaceList(string targetNamespace)
 	{
 	}
 
 	[Token(Token = "0x600153B")]
-	[Address(RVA = "0x43E11E0", Offset = "0x43E11E0", VA = "0x43E11E0")]
+	[Address(RVA = "0x471E940", Offset = "0x471E940", VA = "0x471E940")]
 	internal void BuildNamespaceListV1Compat(string targetNamespace)
 	{
 	}
 
 	[Token(Token = "0x600153C")]
-	[Address(RVA = "0x43E1280", Offset = "0x43E1280", VA = "0x43E1280")]
+	[Address(RVA = "0x471E9E0", Offset = "0x471E9E0", VA = "0x471E9E0")]
 	internal bool Allows(XmlQualifiedName qname)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600153D")]
-	[Address(RVA = "0x43E12B0", Offset = "0x43E12B0", VA = "0x43E12B0")]
+	[Address(RVA = "0x471EA10", Offset = "0x471EA10", VA = "0x471EA10")]
 	internal static bool IsSubset(XmlSchemaAnyAttribute sub, XmlSchemaAnyAttribute super)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600153E")]
-	[Address(RVA = "0x43E12D0", Offset = "0x43E12D0", VA = "0x43E12D0")]
+	[Address(RVA = "0x471EA30", Offset = "0x471EA30", VA = "0x471EA30")]
 	internal static XmlSchemaAnyAttribute Intersection(XmlSchemaAnyAttribute o1, XmlSchemaAnyAttribute o2, bool v1Compat)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600153F")]
-	[Address(RVA = "0x43E13A0", Offset = "0x43E13A0", VA = "0x43E13A0")]
+	[Address(RVA = "0x471EB00", Offset = "0x471EB00", VA = "0x471EB00")]
 	internal static XmlSchemaAnyAttribute Union(XmlSchemaAnyAttribute o1, XmlSchemaAnyAttribute o2, bool v1Compat)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001540")]
-	[Address(RVA = "0x43E1390", Offset = "0x43E1390", VA = "0x43E1390")]
+	[Address(RVA = "0x471EAF0", Offset = "0x471EAF0", VA = "0x471EAF0")]
 	public XmlSchemaAnyAttribute()
 	{
 	}

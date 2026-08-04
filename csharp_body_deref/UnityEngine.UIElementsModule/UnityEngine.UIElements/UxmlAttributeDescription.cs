@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UxmlAttributeDescription
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -29,14 +36,14 @@ public abstract class UxmlAttributeDescription
 	public string name
 	{
 		[Token(Token = "0x6001A82")]
-		[Address(RVA = "0x4C40F30", Offset = "0x4C40F30", VA = "0x4C40F30")]
+		[Address(RVA = "0x4F68860", Offset = "0x4F68860", VA = "0x4F68860")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001A83")]
-		[Address(RVA = "0x4C40F40", Offset = "0x4C40F40", VA = "0x4C40F40")]
+		[Address(RVA = "0x4F68870", Offset = "0x4F68870", VA = "0x4F68870")]
 		[CompilerGenerated]
 		set
 		{
@@ -47,7 +54,7 @@ public abstract class UxmlAttributeDescription
 	public IEnumerable<string> obsoleteNames
 	{
 		[Token(Token = "0x6001A84")]
-		[Address(RVA = "0x4C40F50", Offset = "0x4C40F50", VA = "0x4C40F50")]
+		[Address(RVA = "0x4F68880", Offset = "0x4F68880", VA = "0x4F68880")]
 		set
 		{
 		}
@@ -57,7 +64,7 @@ public abstract class UxmlAttributeDescription
 	protected string type
 	{
 		[Token(Token = "0x6001A85")]
-		[Address(RVA = "0x4C40FB0", Offset = "0x4C40FB0", VA = "0x4C40FB0")]
+		[Address(RVA = "0x4F688E0", Offset = "0x4F688E0", VA = "0x4F688E0")]
 		[CompilerGenerated]
 		set
 		{
@@ -68,7 +75,7 @@ public abstract class UxmlAttributeDescription
 	protected string typeNamespace
 	{
 		[Token(Token = "0x6001A86")]
-		[Address(RVA = "0x4C40FC0", Offset = "0x4C40FC0", VA = "0x4C40FC0")]
+		[Address(RVA = "0x4F688F0", Offset = "0x4F688F0", VA = "0x4F688F0")]
 		[CompilerGenerated]
 		set
 		{
@@ -79,7 +86,7 @@ public abstract class UxmlAttributeDescription
 	public Use use
 	{
 		[Token(Token = "0x6001A87")]
-		[Address(RVA = "0x4C40FD0", Offset = "0x4C40FD0", VA = "0x4C40FD0")]
+		[Address(RVA = "0x4F68900", Offset = "0x4F68900", VA = "0x4F68900")]
 		[CompilerGenerated]
 		set
 		{
@@ -90,7 +97,7 @@ public abstract class UxmlAttributeDescription
 	public UxmlTypeRestriction restriction
 	{
 		[Token(Token = "0x6001A88")]
-		[Address(RVA = "0x4C40FE0", Offset = "0x4C40FE0", VA = "0x4C40FE0")]
+		[Address(RVA = "0x4F68910", Offset = "0x4F68910", VA = "0x4F68910")]
 		[CompilerGenerated]
 		set
 		{
@@ -98,27 +105,27 @@ public abstract class UxmlAttributeDescription
 	}
 
 	[Token(Token = "0x6001A81")]
-	[Address(RVA = "0x4C40F00", Offset = "0x4C40F00", VA = "0x4C40F00")]
+	[Address(RVA = "0x4F68830", Offset = "0x4F68830", VA = "0x4F68830")]
 	protected UxmlAttributeDescription()
 	{
 	}
 
 	[Token(Token = "0x6001A89")]
-	[Address(RVA = "0x4C40FF0", Offset = "0x4C40FF0", VA = "0x4C40FF0")]
+	[Address(RVA = "0x4F68920", Offset = "0x4F68920", VA = "0x4F68920")]
 	internal bool TryFindValueInAttributeOverrides(string elementName, List<TemplateAsset.AttributeOverride> attributeOverrides, out string value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001A8A")]
-	[Address(RVA = "0x4C41250", Offset = "0x4C41250", VA = "0x4C41250")]
+	[Address(RVA = "0x4F68B80", Offset = "0x4F68B80", VA = "0x4F68B80")]
 	internal bool TryGetValueFromBagAsString(IUxmlAttributes bag, CreationContext cc, out string value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001A8B")]
-	[Address(RVA = "0x4C41280", Offset = "0x4C41280", VA = "0x4C41280")]
+	[Address(RVA = "0x4F68BB0", Offset = "0x4F68BB0", VA = "0x4F68BB0")]
 	internal bool TryGetValueFromBagAsString(IUxmlAttributes bag, CreationContext cc, out string value, out VisualTreeAsset sourceAsset)
 	{
 		return default(bool);

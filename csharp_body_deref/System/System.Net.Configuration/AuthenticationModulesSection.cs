@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.Configuration.AuthenticationModulesSection
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Configuration;
 using Il2CppDummyDll;
 
@@ -10,7 +17,7 @@ public sealed class AuthenticationModulesSection : ConfigurationSection
 	public AuthenticationModuleElementCollection AuthenticationModules
 	{
 		[Token(Token = "0x6001750")]
-		[Address(RVA = "0x45CD860", Offset = "0x45CD860", VA = "0x45CD860")]
+		[Address(RVA = "0x48F2960", Offset = "0x48F2960", VA = "0x48F2960")]
 		get
 		{
 			return null;
@@ -21,7 +28,7 @@ public sealed class AuthenticationModulesSection : ConfigurationSection
 	protected override ConfigurationPropertyCollection Properties
 	{
 		[Token(Token = "0x6001751")]
-		[Address(RVA = "0x45CD890", Offset = "0x45CD890", VA = "0x45CD890", Slot = "4")]
+		[Address(RVA = "0x48F2990", Offset = "0x48F2990", VA = "0x48F2990", Slot = "4")]
 		get
 		{
 			return null;
@@ -29,19 +36,19 @@ public sealed class AuthenticationModulesSection : ConfigurationSection
 	}
 
 	[Token(Token = "0x600174F")]
-	[Address(RVA = "0x45CD830", Offset = "0x45CD830", VA = "0x45CD830")]
+	[Address(RVA = "0x48F2930", Offset = "0x48F2930", VA = "0x48F2930")]
 	public AuthenticationModulesSection()
 	{
 	}
 
 	[Token(Token = "0x6001752")]
-	[Address(RVA = "0x45CD8C0", Offset = "0x45CD8C0", VA = "0x45CD8C0", Slot = "6")]
+	[Address(RVA = "0x48F29C0", Offset = "0x48F29C0", VA = "0x48F29C0", Slot = "6")]
 	protected override void InitializeDefault()
 	{
 	}
 
 	[Token(Token = "0x6001753")]
-	[Address(RVA = "0x45CD8F0", Offset = "0x45CD8F0", VA = "0x45CD8F0", Slot = "8")]
+	[Address(RVA = "0x48F29F0", Offset = "0x48F29F0", VA = "0x48F29F0", Slot = "8")]
 	protected override void PostDeserialize()
 	{
 	}

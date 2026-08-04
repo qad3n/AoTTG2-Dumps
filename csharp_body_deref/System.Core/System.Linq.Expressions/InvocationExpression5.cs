@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.InvocationExpression5
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
@@ -29,7 +36,7 @@ internal sealed class InvocationExpression5 : InvocationExpression
 	public override int ArgumentCount
 	{
 		[Token(Token = "0x6000429")]
-		[Address(RVA = "0x4197550", Offset = "0x4197550", VA = "0x4197550", Slot = "13")]
+		[Address(RVA = "0x44BC650", Offset = "0x44BC650", VA = "0x44BC650", Slot = "13")]
 		get
 		{
 			return default(int);
@@ -37,20 +44,20 @@ internal sealed class InvocationExpression5 : InvocationExpression
 	}
 
 	[Token(Token = "0x6000427")]
-	[Address(RVA = "0x4197380", Offset = "0x4197380", VA = "0x4197380")]
+	[Address(RVA = "0x44BC480", Offset = "0x44BC480", VA = "0x44BC480")]
 	public InvocationExpression5(Expression lambda, Type returnType, Expression arg0, Expression arg1, Expression arg2, Expression arg3, Expression arg4)
 	{
 	}
 
 	[Token(Token = "0x6000428")]
-	[Address(RVA = "0x4197480", Offset = "0x4197480", VA = "0x4197480", Slot = "12")]
+	[Address(RVA = "0x44BC580", Offset = "0x44BC580", VA = "0x44BC580", Slot = "12")]
 	public override Expression GetArgument(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600042A")]
-	[Address(RVA = "0x4197560", Offset = "0x4197560", VA = "0x4197560", Slot = "14")]
+	[Address(RVA = "0x44BC660", Offset = "0x44BC660", VA = "0x44BC660", Slot = "14")]
 	internal override InvocationExpression Rewrite(Expression lambda, Expression[] arguments)
 	{
 		return null;

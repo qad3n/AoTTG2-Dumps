@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.Unity.MicWrapperPusherOnAudioFilterRead
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/MicWrapperPusher.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -16,13 +23,13 @@ internal class MicWrapperPusherOnAudioFilterRead : MonoBehaviour
 	public event Action<float[], int> OnAudioFrame
 	{
 		[Token(Token = "0x60003A7")]
-		[Address(RVA = "0x3C44E20", Offset = "0x3C44E20", VA = "0x3C44E20")]
+		[Address(RVA = "0x3F3A770", Offset = "0x3F3A770", VA = "0x3F3A770")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60003A8")]
-		[Address(RVA = "0x3C45150", Offset = "0x3C45150", VA = "0x3C45150")]
+		[Address(RVA = "0x3F3AAA0", Offset = "0x3F3AAA0", VA = "0x3F3AAA0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -30,13 +37,13 @@ internal class MicWrapperPusherOnAudioFilterRead : MonoBehaviour
 	}
 
 	[Token(Token = "0x60003A9")]
-	[Address(RVA = "0x3C45200", Offset = "0x3C45200", VA = "0x3C45200")]
+	[Address(RVA = "0x3F3AB50", Offset = "0x3F3AB50", VA = "0x3F3AB50")]
 	private void OnAudioFilterRead(float[] frame, int channels)
 	{
 	}
 
 	[Token(Token = "0x60003AA")]
-	[Address(RVA = "0x3C452C0", Offset = "0x3C452C0", VA = "0x3C452C0")]
+	[Address(RVA = "0x3F3AC10", Offset = "0x3F3AC10", VA = "0x3F3AC10")]
 	public MicWrapperPusherOnAudioFilterRead()
 	{
 	}

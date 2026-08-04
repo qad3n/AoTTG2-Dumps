@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.Collections.LowLevel.Unsafe.UnsafeUtility
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -31,100 +38,100 @@ public static class UnsafeUtility
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000D1")]
-	[Address(RVA = "0x4A86090", Offset = "0x4A86090", VA = "0x4A86090")]
+	[Address(RVA = "0x4DAD8B0", Offset = "0x4DAD8B0", VA = "0x4DAD8B0")]
 	[BurstAuthorizedExternalMethod]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = false)]
 	internal static extern int LeakRecord(IntPtr handle, LeakCategory category, int callstacksToSkip);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000D2")]
-	[Address(RVA = "0x4A860D0", Offset = "0x4A860D0", VA = "0x4A860D0")]
+	[Address(RVA = "0x4DAD8F0", Offset = "0x4DAD8F0", VA = "0x4DAD8F0")]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = false)]
 	[BurstAuthorizedExternalMethod]
 	internal static extern int LeakErase(IntPtr handle, LeakCategory category);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000D3")]
-	[Address(RVA = "0x4A86110", Offset = "0x4A86110", VA = "0x4A86110")]
+	[Address(RVA = "0x4DAD930", Offset = "0x4DAD930", VA = "0x4DAD930")]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = true)]
 	public unsafe static extern void* MallocTracked(long size, int alignment, Allocator allocator, int callstacksToSkip);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000D4")]
-	[Address(RVA = "0x4A85E30", Offset = "0x4A85E30", VA = "0x4A85E30")]
+	[Address(RVA = "0x4DAD650", Offset = "0x4DAD650", VA = "0x4DAD650")]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = true)]
 	public unsafe static extern void FreeTracked(void* memory, Allocator allocator);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000D5")]
-	[Address(RVA = "0x4A86160", Offset = "0x4A86160", VA = "0x4A86160")]
+	[Address(RVA = "0x4DAD980", Offset = "0x4DAD980", VA = "0x4DAD980")]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = true)]
 	public unsafe static extern void* Malloc(long size, int alignment, Allocator allocator);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000D6")]
-	[Address(RVA = "0x4A861A0", Offset = "0x4A861A0", VA = "0x4A861A0")]
+	[Address(RVA = "0x4DAD9C0", Offset = "0x4DAD9C0", VA = "0x4DAD9C0")]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = true)]
 	public unsafe static extern void Free(void* memory, Allocator allocator);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000D7")]
-	[Address(RVA = "0x4A85C00", Offset = "0x4A85C00", VA = "0x4A85C00")]
+	[Address(RVA = "0x4DAD420", Offset = "0x4DAD420", VA = "0x4DAD420")]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = true)]
 	public unsafe static extern void MemCpy(void* destination, void* source, long size);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000D8")]
-	[Address(RVA = "0x4A861E0", Offset = "0x4A861E0", VA = "0x4A861E0")]
+	[Address(RVA = "0x4DADA00", Offset = "0x4DADA00", VA = "0x4DADA00")]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = true)]
 	public unsafe static extern void MemCpyStride(void* destination, int destinationStride, void* source, int sourceStride, int elementSize, int count);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000D9")]
-	[Address(RVA = "0x4A86240", Offset = "0x4A86240", VA = "0x4A86240")]
+	[Address(RVA = "0x4DADA60", Offset = "0x4DADA60", VA = "0x4DADA60")]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = true)]
 	public unsafe static extern void MemMove(void* destination, void* source, long size);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000DA")]
-	[Address(RVA = "0x4A86280", Offset = "0x4A86280", VA = "0x4A86280")]
+	[Address(RVA = "0x4DADAA0", Offset = "0x4DADAA0", VA = "0x4DADAA0")]
 	[UnityEngine.Bindings.ThreadSafe(ThrowsException = true)]
 	public unsafe static extern void MemSet(void* destination, byte value, long size);
 
 	[Token(Token = "0x60000DB")]
-	[Address(RVA = "0x4A862C0", Offset = "0x4A862C0", VA = "0x4A862C0")]
+	[Address(RVA = "0x4DADAE0", Offset = "0x4DADAE0", VA = "0x4DADAE0")]
 	public unsafe static void MemClear(void* destination, long size)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000DC")]
-	[Address(RVA = "0x4A86300", Offset = "0x4A86300", VA = "0x4A86300")]
+	[Address(RVA = "0x4DADB20", Offset = "0x4DADB20", VA = "0x4DADB20")]
 	[UnityEngine.Bindings.ThreadSafe]
 	public static extern int SizeOf(Type type);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000DD")]
-	[Address(RVA = "0x4A86330", Offset = "0x4A86330", VA = "0x4A86330")]
+	[Address(RVA = "0x4DADB50", Offset = "0x4DADB50", VA = "0x4DADB50")]
 	[UnityEngine.Bindings.ThreadSafe]
 	public static extern bool IsBlittable(Type type);
 
 	[Token(Token = "0x60000DE")]
-	[Address(RVA = "0x4A86360", Offset = "0x4A86360", VA = "0x4A86360")]
+	[Address(RVA = "0x4DADB80", Offset = "0x4DADB80", VA = "0x4DADB80")]
 	private static bool IsBlittableValueType(Type t)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000DF")]
-	[Address(RVA = "0x4A863B0", Offset = "0x4A863B0", VA = "0x4A863B0")]
+	[Address(RVA = "0x4DADBD0", Offset = "0x4DADBD0", VA = "0x4DADBD0")]
 	private static string GetReasonForTypeNonBlittableImpl(Type t, string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000E0")]
-	[Address(RVA = "0x4A865C0", Offset = "0x4A865C0", VA = "0x4A865C0")]
+	[Address(RVA = "0x4DADDE0", Offset = "0x4DADDE0", VA = "0x4DADDE0")]
 	internal static bool IsArrayBlittable(Array arr)
 	{
 		return default(bool);
@@ -137,7 +144,7 @@ public static class UnsafeUtility
 	}
 
 	[Token(Token = "0x60000E2")]
-	[Address(RVA = "0x4A86630", Offset = "0x4A86630", VA = "0x4A86630")]
+	[Address(RVA = "0x4DADE50", Offset = "0x4DADE50", VA = "0x4DADE50")]
 	internal static string GetReasonForArrayNonBlittable(Array arr)
 	{
 		return null;

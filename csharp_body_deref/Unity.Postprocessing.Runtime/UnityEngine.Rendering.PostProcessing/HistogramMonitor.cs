@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.HistogramMonitor
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -46,33 +53,33 @@ public sealed class HistogramMonitor : Monitor
 	private const int k_ThreadGroupSizeY = 16;
 
 	[Token(Token = "0x60000A0")]
-	[Address(RVA = "0x4823110", Offset = "0x4823110", VA = "0x4823110", Slot = "7")]
+	[Address(RVA = "0x4B48200", Offset = "0x4B48200", VA = "0x4B48200", Slot = "7")]
 	internal override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x60000A1")]
-	[Address(RVA = "0x4823150", Offset = "0x4823150", VA = "0x4823150", Slot = "5")]
+	[Address(RVA = "0x4B48240", Offset = "0x4B48240", VA = "0x4B48240", Slot = "5")]
 	internal override bool NeedsHalfRes()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000A2")]
-	[Address(RVA = "0x4823160", Offset = "0x4823160", VA = "0x4823160", Slot = "4")]
+	[Address(RVA = "0x4B48250", Offset = "0x4B48250", VA = "0x4B48250", Slot = "4")]
 	internal override bool ShaderResourcesAvailable(PostProcessRenderContext context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x48231D0", Offset = "0x48231D0", VA = "0x48231D0", Slot = "8")]
+	[Address(RVA = "0x4B482C0", Offset = "0x4B482C0", VA = "0x4B482C0", Slot = "8")]
 	internal override void Render(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x60000A4")]
-	[Address(RVA = "0x4823890", Offset = "0x4823890", VA = "0x4823890")]
+	[Address(RVA = "0x4B48980", Offset = "0x4B48980", VA = "0x4B48980")]
 	public HistogramMonitor()
 	{
 	}

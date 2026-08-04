@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Utilities.JavaScriptUtils
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
@@ -47,13 +54,13 @@ internal static class JavaScriptUtils
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000655")]
-		[Address(RVA = "0x3AC8B60", Offset = "0x3AC8B60", VA = "0x3AC8B60", Slot = "4")]
+		[Address(RVA = "0x3DBE4B0", Offset = "0x3DBE4B0", VA = "0x3DBE4B0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000656")]
-		[Address(RVA = "0x3AC8EC0", Offset = "0x3AC8EC0", VA = "0x3AC8EC0", Slot = "5")]
+		[Address(RVA = "0x3DBE810", Offset = "0x3DBE810", VA = "0x3DBE810", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -122,13 +129,13 @@ internal static class JavaScriptUtils
 		private int _003Ci_003E5__4;
 
 		[Token(Token = "0x6000657")]
-		[Address(RVA = "0x3AC8F20", Offset = "0x3AC8F20", VA = "0x3AC8F20", Slot = "4")]
+		[Address(RVA = "0x3DBE870", Offset = "0x3DBE870", VA = "0x3DBE870", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000658")]
-		[Address(RVA = "0x3AC9D00", Offset = "0x3AC9D00", VA = "0x3AC9D00", Slot = "5")]
+		[Address(RVA = "0x3DBF650", Offset = "0x3DBF650", VA = "0x3DBF650", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -189,13 +196,13 @@ internal static class JavaScriptUtils
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000659")]
-		[Address(RVA = "0x3AC9D60", Offset = "0x3AC9D60", VA = "0x3AC9D60", Slot = "4")]
+		[Address(RVA = "0x3DBF6B0", Offset = "0x3DBF6B0", VA = "0x3DBF6B0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600065A")]
-		[Address(RVA = "0x3ACA250", Offset = "0x3ACA250", VA = "0x3ACA250", Slot = "5")]
+		[Address(RVA = "0x3DBFBA0", Offset = "0x3DBFBA0", VA = "0x3DBFBA0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -221,61 +228,61 @@ internal static class JavaScriptUtils
 	private const string EscapedUnicodeText = "!";
 
 	[Token(Token = "0x6000647")]
-	[Address(RVA = "0x3AC60E0", Offset = "0x3AC60E0", VA = "0x3AC60E0")]
+	[Address(RVA = "0x3DBBA30", Offset = "0x3DBBA30", VA = "0x3DBBA30")]
 	static JavaScriptUtils()
 	{
 	}
 
 	[Token(Token = "0x6000648")]
-	[Address(RVA = "0x3AC6EE0", Offset = "0x3AC6EE0", VA = "0x3AC6EE0")]
+	[Address(RVA = "0x3DBC830", Offset = "0x3DBC830", VA = "0x3DBC830")]
 	public static bool[] GetCharEscapeFlags(StringEscapeHandling stringEscapeHandling, char quoteChar)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000649")]
-	[Address(RVA = "0x3AC6F70", Offset = "0x3AC6F70", VA = "0x3AC6F70")]
+	[Address(RVA = "0x3DBC8C0", Offset = "0x3DBC8C0", VA = "0x3DBC8C0")]
 	public static bool ShouldEscapeJavaScriptString(string? s, bool[] charEscapeFlags)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600064A")]
-	[Address(RVA = "0x3AC6FE0", Offset = "0x3AC6FE0", VA = "0x3AC6FE0")]
+	[Address(RVA = "0x3DBC930", Offset = "0x3DBC930", VA = "0x3DBC930")]
 	public static void WriteEscapedJavaScriptString(TextWriter writer, string? s, char delimiter, bool appendDelimiters, bool[] charEscapeFlags, StringEscapeHandling stringEscapeHandling, IArrayPool<char>? bufferPool, ref char[]? writeBuffer)
 	{
 	}
 
 	[Token(Token = "0x600064B")]
-	[Address(RVA = "0x3AC77D0", Offset = "0x3AC77D0", VA = "0x3AC77D0")]
+	[Address(RVA = "0x3DBD120", Offset = "0x3DBD120", VA = "0x3DBD120")]
 	public static string ToEscapedJavaScriptString(string? value, char delimiter, bool appendDelimiters, StringEscapeHandling stringEscapeHandling)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600064C")]
-	[Address(RVA = "0x3AC76C0", Offset = "0x3AC76C0", VA = "0x3AC76C0")]
+	[Address(RVA = "0x3DBD010", Offset = "0x3DBD010", VA = "0x3DBD010")]
 	private static int FirstCharToEscape(string s, bool[] charEscapeFlags, StringEscapeHandling stringEscapeHandling)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600064D")]
-	[Address(RVA = "0x3AC7AA0", Offset = "0x3AC7AA0", VA = "0x3AC7AA0")]
+	[Address(RVA = "0x3DBD3F0", Offset = "0x3DBD3F0", VA = "0x3DBD3F0")]
 	public static Task WriteEscapedJavaScriptStringAsync(TextWriter writer, string s, char delimiter, bool appendDelimiters, bool[] charEscapeFlags, StringEscapeHandling stringEscapeHandling, JsonTextWriter client, char[] writeBuffer, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600064E")]
-	[Address(RVA = "0x3AC7C70", Offset = "0x3AC7C70", VA = "0x3AC7C70")]
+	[Address(RVA = "0x3DBD5C0", Offset = "0x3DBD5C0", VA = "0x3DBD5C0")]
 	private static Task WriteEscapedJavaScriptStringWithDelimitersAsync(TextWriter writer, string s, char delimiter, bool[] charEscapeFlags, StringEscapeHandling stringEscapeHandling, JsonTextWriter client, char[] writeBuffer, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600064F")]
-	[Address(RVA = "0x3AC7F60", Offset = "0x3AC7F60", VA = "0x3AC7F60")]
+	[Address(RVA = "0x3DBD8B0", Offset = "0x3DBD8B0", VA = "0x3DBD8B0")]
 	[AsyncStateMachine(typeof(_003CWriteEscapedJavaScriptStringWithDelimitersAsync_003Ed__13))]
 	private static Task WriteEscapedJavaScriptStringWithDelimitersAsync(Task task, TextWriter writer, string s, char delimiter, bool[] charEscapeFlags, StringEscapeHandling stringEscapeHandling, JsonTextWriter client, char[] writeBuffer, CancellationToken cancellationToken)
 	{
@@ -283,7 +290,7 @@ internal static class JavaScriptUtils
 	}
 
 	[Token(Token = "0x6000650")]
-	[Address(RVA = "0x3AC8120", Offset = "0x3AC8120", VA = "0x3AC8120")]
+	[Address(RVA = "0x3DBDA70", Offset = "0x3DBDA70", VA = "0x3DBDA70")]
 	[AsyncStateMachine(typeof(_003CWriteCharAsync_003Ed__14))]
 	public static Task WriteCharAsync(Task task, TextWriter writer, char c, CancellationToken cancellationToken)
 	{
@@ -291,14 +298,14 @@ internal static class JavaScriptUtils
 	}
 
 	[Token(Token = "0x6000651")]
-	[Address(RVA = "0x3AC7E60", Offset = "0x3AC7E60", VA = "0x3AC7E60")]
+	[Address(RVA = "0x3DBD7B0", Offset = "0x3DBD7B0", VA = "0x3DBD7B0")]
 	private static Task WriteEscapedJavaScriptStringWithoutDelimitersAsync(TextWriter writer, string s, bool[] charEscapeFlags, StringEscapeHandling stringEscapeHandling, JsonTextWriter client, char[] writeBuffer, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000652")]
-	[Address(RVA = "0x3AC8250", Offset = "0x3AC8250", VA = "0x3AC8250")]
+	[Address(RVA = "0x3DBDBA0", Offset = "0x3DBDBA0", VA = "0x3DBDBA0")]
 	[AsyncStateMachine(typeof(_003CWriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync_003Ed__16))]
 	private static Task WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync(TextWriter writer, string s, int lastWritePosition, bool[] charEscapeFlags, StringEscapeHandling stringEscapeHandling, JsonTextWriter client, char[] writeBuffer, CancellationToken cancellationToken)
 	{
@@ -306,14 +313,14 @@ internal static class JavaScriptUtils
 	}
 
 	[Token(Token = "0x6000653")]
-	[Address(RVA = "0x3AC83F0", Offset = "0x3AC83F0", VA = "0x3AC83F0")]
+	[Address(RVA = "0x3DBDD40", Offset = "0x3DBDD40", VA = "0x3DBDD40")]
 	public static bool TryGetDateFromConstructorJson(JsonReader reader, out DateTime dateTime, [NotNullWhen(false)] out string? errorMessage)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000654")]
-	[Address(RVA = "0x3AC8990", Offset = "0x3AC8990", VA = "0x3AC8990")]
+	[Address(RVA = "0x3DBE2E0", Offset = "0x3DBE2E0", VA = "0x3DBE2E0")]
 	private static bool TryGetDateConstructorValue(JsonReader reader, out long? integer, [NotNullWhen(false)] out string? errorMessage)
 	{
 		return default(bool);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.TargetPool
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -15,27 +22,27 @@ internal class TargetPool
 	private int m_Current;
 
 	[Token(Token = "0x6000250")]
-	[Address(RVA = "0x4840A90", Offset = "0x4840A90", VA = "0x4840A90")]
+	[Address(RVA = "0x4B65B80", Offset = "0x4B65B80", VA = "0x4B65B80")]
 	internal TargetPool()
 	{
 	}
 
 	[Token(Token = "0x6000251")]
-	[Address(RVA = "0x4840B20", Offset = "0x4840B20", VA = "0x4840B20")]
+	[Address(RVA = "0x4B65C10", Offset = "0x4B65C10", VA = "0x4B65C10")]
 	internal int Get()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000252")]
-	[Address(RVA = "0x4840B40", Offset = "0x4840B40", VA = "0x4840B40")]
+	[Address(RVA = "0x4B65C30", Offset = "0x4B65C30", VA = "0x4B65C30")]
 	private int Get(int i)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000253")]
-	[Address(RVA = "0x4840CA0", Offset = "0x4840CA0", VA = "0x4840CA0")]
+	[Address(RVA = "0x4B65D90", Offset = "0x4B65D90", VA = "0x4B65D90")]
 	internal void Reset()
 	{
 	}

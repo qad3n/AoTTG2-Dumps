@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.MeshGizmo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
@@ -41,37 +48,37 @@ internal class MeshGizmo : IDisposable
 	private Material solidMaterial;
 
 	[Token(Token = "0x6000D25")]
-	[Address(RVA = "0x48DD9F0", Offset = "0x48DD9F0", VA = "0x48DD9F0")]
+	[Address(RVA = "0x4C02A60", Offset = "0x4C02A60", VA = "0x4C02A60")]
 	public MeshGizmo(int capacity = 0)
 	{
 	}
 
 	[Token(Token = "0x6000D26")]
-	[Address(RVA = "0x48DDB70", Offset = "0x48DDB70", VA = "0x48DDB70")]
+	[Address(RVA = "0x4C02BE0", Offset = "0x4C02BE0", VA = "0x4C02BE0")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000D27")]
-	[Address(RVA = "0x48DDBF0", Offset = "0x48DDBF0", VA = "0x48DDBF0")]
+	[Address(RVA = "0x4C02C60", Offset = "0x4C02C60", VA = "0x4C02C60")]
 	public void AddWireCube(Vector3 center, Vector3 size, Color color)
 	{
 	}
 
 	[Token(Token = "0x6000D28")]
-	[Address(RVA = "0x48DE160", Offset = "0x48DE160", VA = "0x48DE160")]
+	[Address(RVA = "0x4C031D0", Offset = "0x4C031D0", VA = "0x4C031D0")]
 	private void DrawMesh(Matrix4x4 trs, Material mat, MeshTopology topology, CompareFunction depthTest, string gizmoName)
 	{
 	}
 
 	[Token(Token = "0x6000D29")]
-	[Address(RVA = "0x48DE330", Offset = "0x48DE330", VA = "0x48DE330")]
+	[Address(RVA = "0x4C033A0", Offset = "0x4C033A0", VA = "0x4C033A0")]
 	public void RenderWireframe(Matrix4x4 trs, [Optional][DefaultParameterValue(4)] CompareFunction depthTest, [Optional] string gizmoName)
 	{
 	}
 
 	[Token(Token = "0x6000D2A")]
-	[Address(RVA = "0x48DE350", Offset = "0x48DE350", VA = "0x48DE350", Slot = "4")]
+	[Address(RVA = "0x4C033C0", Offset = "0x4C033C0", VA = "0x4C033C0", Slot = "4")]
 	public void Dispose()
 	{
 	}

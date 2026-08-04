@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.IntegratedSubsystemDescriptor
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -19,7 +26,7 @@ public abstract class IntegratedSubsystemDescriptor : ISubsystemDescriptor
 	public string id
 	{
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x4B76C80", Offset = "0x4B76C80", VA = "0x4B76C80", Slot = "4")]
+		[Address(RVA = "0x4E9E5B0", Offset = "0x4E9E5B0", VA = "0x4E9E5B0", Slot = "4")]
 		get
 		{
 			return null;
@@ -27,7 +34,7 @@ public abstract class IntegratedSubsystemDescriptor : ISubsystemDescriptor
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x4B76CE0", Offset = "0x4B76CE0", VA = "0x4B76CE0")]
+	[Address(RVA = "0x4E9E610", Offset = "0x4E9E610", VA = "0x4E9E610")]
 	protected IntegratedSubsystemDescriptor()
 	{
 	}

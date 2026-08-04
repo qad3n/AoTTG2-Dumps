@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.ContactPair
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -42,7 +49,7 @@ public readonly struct ContactPair
 	public int ColliderInstanceID
 	{
 		[Token(Token = "0x6000143")]
-		[Address(RVA = "0x4B5BE50", Offset = "0x4B5BE50", VA = "0x4B5BE50")]
+		[Address(RVA = "0x4E83780", Offset = "0x4E83780", VA = "0x4E83780")]
 		get
 		{
 			return default(int);
@@ -53,7 +60,7 @@ public readonly struct ContactPair
 	public int OtherColliderInstanceID
 	{
 		[Token(Token = "0x6000144")]
-		[Address(RVA = "0x4B5BE60", Offset = "0x4B5BE60", VA = "0x4B5BE60")]
+		[Address(RVA = "0x4E83790", Offset = "0x4E83790", VA = "0x4E83790")]
 		get
 		{
 			return default(int);
@@ -64,7 +71,7 @@ public readonly struct ContactPair
 	public Collider Collider
 	{
 		[Token(Token = "0x6000145")]
-		[Address(RVA = "0x4B4E760", Offset = "0x4B4E760", VA = "0x4B4E760")]
+		[Address(RVA = "0x4E76090", Offset = "0x4E76090", VA = "0x4E76090")]
 		get
 		{
 			return null;
@@ -75,7 +82,7 @@ public readonly struct ContactPair
 	public Collider OtherCollider
 	{
 		[Token(Token = "0x6000146")]
-		[Address(RVA = "0x4B4E6E0", Offset = "0x4B4E6E0", VA = "0x4B4E6E0")]
+		[Address(RVA = "0x4E76010", Offset = "0x4E76010", VA = "0x4E76010")]
 		get
 		{
 			return null;
@@ -86,7 +93,7 @@ public readonly struct ContactPair
 	public Vector3 ImpulseSum
 	{
 		[Token(Token = "0x6000147")]
-		[Address(RVA = "0x4B5BE70", Offset = "0x4B5BE70", VA = "0x4B5BE70")]
+		[Address(RVA = "0x4E837A0", Offset = "0x4E837A0", VA = "0x4E837A0")]
 		get
 		{
 			return default(Vector3);
@@ -97,7 +104,7 @@ public readonly struct ContactPair
 	public bool IsCollisionEnter
 	{
 		[Token(Token = "0x6000148")]
-		[Address(RVA = "0x4B554F0", Offset = "0x4B554F0", VA = "0x4B554F0")]
+		[Address(RVA = "0x4E7CE20", Offset = "0x4E7CE20", VA = "0x4E7CE20")]
 		get
 		{
 			return default(bool);
@@ -108,7 +115,7 @@ public readonly struct ContactPair
 	public bool IsCollisionExit
 	{
 		[Token(Token = "0x6000149")]
-		[Address(RVA = "0x4B556A0", Offset = "0x4B556A0", VA = "0x4B556A0")]
+		[Address(RVA = "0x4E7CFD0", Offset = "0x4E7CFD0", VA = "0x4E7CFD0")]
 		get
 		{
 			return default(bool);
@@ -119,7 +126,7 @@ public readonly struct ContactPair
 	public bool IsCollisionStay
 	{
 		[Token(Token = "0x600014A")]
-		[Address(RVA = "0x4B55690", Offset = "0x4B55690", VA = "0x4B55690")]
+		[Address(RVA = "0x4E7CFC0", Offset = "0x4E7CFC0", VA = "0x4E7CFC0")]
 		get
 		{
 			return default(bool);
@@ -130,7 +137,7 @@ public readonly struct ContactPair
 	internal bool HasRemovedCollider
 	{
 		[Token(Token = "0x600014B")]
-		[Address(RVA = "0x4B554E0", Offset = "0x4B554E0", VA = "0x4B554E0")]
+		[Address(RVA = "0x4E7CE10", Offset = "0x4E7CE10", VA = "0x4E7CE10")]
 		get
 		{
 			return default(bool);
@@ -138,14 +145,14 @@ public readonly struct ContactPair
 	}
 
 	[Token(Token = "0x600014C")]
-	[Address(RVA = "0x4B4E9C0", Offset = "0x4B4E9C0", VA = "0x4B4E9C0")]
+	[Address(RVA = "0x4E762F0", Offset = "0x4E762F0", VA = "0x4E762F0")]
 	internal int ExtractContactsArray(ContactPoint[] managedContainer, bool flipped)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600014D")]
-	[Address(RVA = "0x4B4EDD0", Offset = "0x4B4EDD0", VA = "0x4B4EDD0")]
+	[Address(RVA = "0x4E76700", Offset = "0x4E76700", VA = "0x4E76700")]
 	internal unsafe ContactPairPoint* GetContactPoint_Internal(int index)
 	{
 		//IL_0002: Expected I, but got O
@@ -154,6 +161,6 @@ public readonly struct ContactPair
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600014E")]
-	[Address(RVA = "0x4B5BE80", Offset = "0x4B5BE80", VA = "0x4B5BE80")]
+	[Address(RVA = "0x4E837B0", Offset = "0x4E837B0", VA = "0x4E837B0")]
 	private static extern int ExtractContactsArray_Injected(ref ContactPair _unity_self, ref UnityEngine.Bindings.ManagedSpanWrapper managedContainer, bool flipped);
 }

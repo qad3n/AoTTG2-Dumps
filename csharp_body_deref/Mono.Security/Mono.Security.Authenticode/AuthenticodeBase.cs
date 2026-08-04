@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Security.Authenticode.AuthenticodeBase
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.IO;
 using System.Security.Cryptography;
 using Il2CppDummyDll;
@@ -47,7 +54,7 @@ public class AuthenticodeBase
 	internal int PEOffset
 	{
 		[Token(Token = "0x60001A3")]
-		[Address(RVA = "0x3A57460", Offset = "0x3A57460", VA = "0x3A57460")]
+		[Address(RVA = "0x3AC4120", Offset = "0x3AC4120", VA = "0x3AC4120")]
 		get
 		{
 			return default(int);
@@ -55,51 +62,51 @@ public class AuthenticodeBase
 	}
 
 	[Token(Token = "0x60001A2")]
-	[Address(RVA = "0x3A57400", Offset = "0x3A57400", VA = "0x3A57400")]
+	[Address(RVA = "0x3AC40C0", Offset = "0x3AC40C0", VA = "0x3AC40C0")]
 	public AuthenticodeBase()
 	{
 	}
 
 	[Token(Token = "0x60001A4")]
-	[Address(RVA = "0x3A57550", Offset = "0x3A57550", VA = "0x3A57550")]
+	[Address(RVA = "0x3AC4210", Offset = "0x3AC4210", VA = "0x3AC4210")]
 	internal void Open(string filename)
 	{
 	}
 
 	[Token(Token = "0x60001A5")]
-	[Address(RVA = "0x3A57640", Offset = "0x3A57640", VA = "0x3A57640")]
+	[Address(RVA = "0x3AC4300", Offset = "0x3AC4300", VA = "0x3AC4300")]
 	internal void Open(byte[] rawdata)
 	{
 	}
 
 	[Token(Token = "0x60001A6")]
-	[Address(RVA = "0x3A57600", Offset = "0x3A57600", VA = "0x3A57600")]
+	[Address(RVA = "0x3AC42C0", Offset = "0x3AC42C0", VA = "0x3AC42C0")]
 	internal void Close()
 	{
 	}
 
 	[Token(Token = "0x60001A7")]
-	[Address(RVA = "0x3A57480", Offset = "0x3A57480", VA = "0x3A57480")]
+	[Address(RVA = "0x3AC4140", Offset = "0x3AC4140", VA = "0x3AC4140")]
 	internal void ReadFirstBlock()
 	{
 	}
 
 	[Token(Token = "0x60001A8")]
-	[Address(RVA = "0x3A576E0", Offset = "0x3A576E0", VA = "0x3A576E0")]
+	[Address(RVA = "0x3AC43A0", Offset = "0x3AC43A0", VA = "0x3AC43A0")]
 	internal int ProcessFirstBlock()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60001A9")]
-	[Address(RVA = "0x3A57900", Offset = "0x3A57900", VA = "0x3A57900")]
+	[Address(RVA = "0x3AC45C0", Offset = "0x3AC45C0", VA = "0x3AC45C0")]
 	internal byte[] GetSecurityEntry()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001AA")]
-	[Address(RVA = "0x3A579D0", Offset = "0x3A579D0", VA = "0x3A579D0")]
+	[Address(RVA = "0x3AC4690", Offset = "0x3AC4690", VA = "0x3AC4690")]
 	internal byte[] GetHash(HashAlgorithm hash)
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlSerializerNamespaces
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -14,7 +21,7 @@ public class XmlSerializerNamespaces
 	public int Count
 	{
 		[Token(Token = "0x6000CB2")]
-		[Address(RVA = "0x44CBAD0", Offset = "0x44CBAD0", VA = "0x44CBAD0")]
+		[Address(RVA = "0x4809230", Offset = "0x4809230", VA = "0x4809230")]
 		get
 		{
 			return default(int);
@@ -25,7 +32,7 @@ public class XmlSerializerNamespaces
 	internal ArrayList NamespaceList
 	{
 		[Token(Token = "0x6000CB3")]
-		[Address(RVA = "0x44CB500", Offset = "0x44CB500", VA = "0x44CB500")]
+		[Address(RVA = "0x4808C60", Offset = "0x4808C60", VA = "0x4808C60")]
 		get
 		{
 			return null;
@@ -36,38 +43,38 @@ public class XmlSerializerNamespaces
 	internal Hashtable Namespaces
 	{
 		[Token(Token = "0x6000CB4")]
-		[Address(RVA = "0x44CB380", Offset = "0x44CB380", VA = "0x44CB380")]
+		[Address(RVA = "0x4808AE0", Offset = "0x4808AE0", VA = "0x4808AE0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000CB5")]
-		[Address(RVA = "0x44CBB60", Offset = "0x44CBB60", VA = "0x44CBB60")]
+		[Address(RVA = "0x48092C0", Offset = "0x48092C0", VA = "0x48092C0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000CAE")]
-	[Address(RVA = "0x44CB160", Offset = "0x44CB160", VA = "0x44CB160")]
+	[Address(RVA = "0x48088C0", Offset = "0x48088C0", VA = "0x48088C0")]
 	public XmlSerializerNamespaces()
 	{
 	}
 
 	[Token(Token = "0x6000CAF")]
-	[Address(RVA = "0x44CB170", Offset = "0x44CB170", VA = "0x44CB170")]
+	[Address(RVA = "0x48088D0", Offset = "0x48088D0", VA = "0x48088D0")]
 	public void Add(string prefix, string ns)
 	{
 	}
 
 	[Token(Token = "0x6000CB0")]
-	[Address(RVA = "0x44CB2E0", Offset = "0x44CB2E0", VA = "0x44CB2E0")]
+	[Address(RVA = "0x4808A40", Offset = "0x4808A40", VA = "0x4808A40")]
 	internal void AddInternal(string prefix, string ns)
 	{
 	}
 
 	[Token(Token = "0x6000CB1")]
-	[Address(RVA = "0x44CB400", Offset = "0x44CB400", VA = "0x44CB400")]
+	[Address(RVA = "0x4808B60", Offset = "0x4808B60", VA = "0x4808B60")]
 	public XmlQualifiedName[] ToArray()
 	{
 		return null;

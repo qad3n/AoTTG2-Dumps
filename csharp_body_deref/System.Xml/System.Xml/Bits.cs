@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Bits
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml;
@@ -26,14 +33,14 @@ internal static class Bits
 	private static readonly uint MASK_1111111111111111;
 
 	[Token(Token = "0x60000DF")]
-	[Address(RVA = "0x4355900", Offset = "0x4355900", VA = "0x4355900")]
+	[Address(RVA = "0x46879D0", Offset = "0x46879D0", VA = "0x46879D0")]
 	public static int Count(uint num)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000E0")]
-	[Address(RVA = "0x4355990", Offset = "0x4355990", VA = "0x4355990")]
+	[Address(RVA = "0x4687A60", Offset = "0x4687A60", VA = "0x4687A60")]
 	public static int LeastPosition(uint num)
 	{
 		return default(int);

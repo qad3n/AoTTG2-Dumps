@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.AmbientOcclusion
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -74,14 +81,14 @@ public sealed class AmbientOcclusion : PostProcessEffectSettings
 	public AmbientOcclusionQualityParameter quality;
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x480D6C0", Offset = "0x480D6C0", VA = "0x480D6C0", Slot = "4")]
+	[Address(RVA = "0x4B327B0", Offset = "0x4B327B0", VA = "0x4B327B0", Slot = "4")]
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x480DAA0", Offset = "0x480DAA0", VA = "0x480DAA0")]
+	[Address(RVA = "0x4B32B90", Offset = "0x4B32B90", VA = "0x4B32B90")]
 	public AmbientOcclusion()
 	{
 	}

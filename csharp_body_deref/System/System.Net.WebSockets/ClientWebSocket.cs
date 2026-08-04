@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.WebSockets.ClientWebSocket
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -30,7 +37,7 @@ public sealed class ClientWebSocket : WebSocket
 		public static DefaultWebProxy Instance
 		{
 			[Token(Token = "0x6000D6A")]
-			[Address(RVA = "0x469F180", Offset = "0x469F180", VA = "0x469F180")]
+			[Address(RVA = "0x49C4280", Offset = "0x49C4280", VA = "0x49C4280")]
 			[CompilerGenerated]
 			get
 			{
@@ -42,7 +49,7 @@ public sealed class ClientWebSocket : WebSocket
 		public ICredentials Credentials
 		{
 			[Token(Token = "0x6000D6B")]
-			[Address(RVA = "0x469F1F0", Offset = "0x469F1F0", VA = "0x469F1F0", Slot = "6")]
+			[Address(RVA = "0x49C42F0", Offset = "0x49C42F0", VA = "0x49C42F0", Slot = "6")]
 			get
 			{
 				return null;
@@ -50,21 +57,21 @@ public sealed class ClientWebSocket : WebSocket
 		}
 
 		[Token(Token = "0x6000D6C")]
-		[Address(RVA = "0x469F230", Offset = "0x469F230", VA = "0x469F230", Slot = "4")]
+		[Address(RVA = "0x49C4330", Offset = "0x49C4330", VA = "0x49C4330", Slot = "4")]
 		public Uri GetProxy(Uri destination)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000D6D")]
-		[Address(RVA = "0x469F270", Offset = "0x469F270", VA = "0x469F270", Slot = "5")]
+		[Address(RVA = "0x49C4370", Offset = "0x49C4370", VA = "0x49C4370", Slot = "5")]
 		public bool IsBypassed(Uri host)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000D6E")]
-		[Address(RVA = "0x469F2B0", Offset = "0x469F2B0", VA = "0x469F2B0")]
+		[Address(RVA = "0x49C43B0", Offset = "0x49C43B0", VA = "0x49C43B0")]
 		public DefaultWebProxy()
 		{
 		}
@@ -100,13 +107,13 @@ public sealed class ClientWebSocket : WebSocket
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000D70")]
-		[Address(RVA = "0x469F330", Offset = "0x469F330", VA = "0x469F330", Slot = "4")]
+		[Address(RVA = "0x49C4430", Offset = "0x49C4430", VA = "0x49C4430", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000D71")]
-		[Address(RVA = "0x469F9C0", Offset = "0x469F9C0", VA = "0x469F9C0", Slot = "5")]
+		[Address(RVA = "0x49C4AC0", Offset = "0x49C4AC0", VA = "0x49C4AC0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -129,7 +136,7 @@ public sealed class ClientWebSocket : WebSocket
 	public ClientWebSocketOptions Options
 	{
 		[Token(Token = "0x6000D5E")]
-		[Address(RVA = "0x469E790", Offset = "0x469E790", VA = "0x469E790")]
+		[Address(RVA = "0x49C3890", Offset = "0x49C3890", VA = "0x49C3890")]
 		get
 		{
 			return null;
@@ -140,7 +147,7 @@ public sealed class ClientWebSocket : WebSocket
 	public override string CloseStatusDescription
 	{
 		[Token(Token = "0x6000D5F")]
-		[Address(RVA = "0x469E7A0", Offset = "0x469E7A0", VA = "0x469E7A0", Slot = "5")]
+		[Address(RVA = "0x49C38A0", Offset = "0x49C38A0", VA = "0x49C38A0", Slot = "5")]
 		get
 		{
 			return null;
@@ -151,7 +158,7 @@ public sealed class ClientWebSocket : WebSocket
 	public override WebSocketState State
 	{
 		[Token(Token = "0x6000D60")]
-		[Address(RVA = "0x469E860", Offset = "0x469E860", VA = "0x469E860", Slot = "6")]
+		[Address(RVA = "0x49C3960", Offset = "0x49C3960", VA = "0x49C3960", Slot = "6")]
 		get
 		{
 			return default(WebSocketState);
@@ -159,20 +166,20 @@ public sealed class ClientWebSocket : WebSocket
 	}
 
 	[Token(Token = "0x6000D5D")]
-	[Address(RVA = "0x469E340", Offset = "0x469E340", VA = "0x469E340")]
+	[Address(RVA = "0x49C3440", Offset = "0x49C3440", VA = "0x49C3440")]
 	public ClientWebSocket()
 	{
 	}
 
 	[Token(Token = "0x6000D61")]
-	[Address(RVA = "0x469E940", Offset = "0x469E940", VA = "0x469E940")]
+	[Address(RVA = "0x49C3A40", Offset = "0x49C3A40", VA = "0x49C3A40")]
 	public Task ConnectAsync(Uri uri, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D62")]
-	[Address(RVA = "0x469EBA0", Offset = "0x469EBA0", VA = "0x469EBA0")]
+	[Address(RVA = "0x49C3CA0", Offset = "0x49C3CA0", VA = "0x49C3CA0")]
 	[AsyncStateMachine(typeof(_003CConnectAsyncCore_003Ed__16))]
 	private Task ConnectAsyncCore(Uri uri, CancellationToken cancellationToken)
 	{
@@ -180,47 +187,47 @@ public sealed class ClientWebSocket : WebSocket
 	}
 
 	[Token(Token = "0x6000D63")]
-	[Address(RVA = "0x469ECC0", Offset = "0x469ECC0", VA = "0x469ECC0", Slot = "12")]
+	[Address(RVA = "0x49C3DC0", Offset = "0x49C3DC0", VA = "0x49C3DC0", Slot = "12")]
 	public override Task SendAsync(ArraySegment<byte> buffer, WebSocketMessageType messageType, bool endOfMessage, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D64")]
-	[Address(RVA = "0x469EE10", Offset = "0x469EE10", VA = "0x469EE10", Slot = "11")]
+	[Address(RVA = "0x49C3F10", Offset = "0x49C3F10", VA = "0x49C3F10", Slot = "11")]
 	public override Task<WebSocketReceiveResult> ReceiveAsync(ArraySegment<byte> buffer, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D65")]
-	[Address(RVA = "0x469EEA0", Offset = "0x469EEA0", VA = "0x469EEA0", Slot = "8")]
+	[Address(RVA = "0x49C3FA0", Offset = "0x49C3FA0", VA = "0x49C3FA0", Slot = "8")]
 	public override Task CloseAsync(WebSocketCloseStatus closeStatus, string statusDescription, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D66")]
-	[Address(RVA = "0x469EF30", Offset = "0x469EF30", VA = "0x469EF30", Slot = "9")]
+	[Address(RVA = "0x49C4030", Offset = "0x49C4030", VA = "0x49C4030", Slot = "9")]
 	public override Task CloseOutputAsync(WebSocketCloseStatus closeStatus, string statusDescription, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D67")]
-	[Address(RVA = "0x469EFC0", Offset = "0x469EFC0", VA = "0x469EFC0", Slot = "7")]
+	[Address(RVA = "0x49C40C0", Offset = "0x49C40C0", VA = "0x49C40C0", Slot = "7")]
 	public override void Abort()
 	{
 	}
 
 	[Token(Token = "0x6000D68")]
-	[Address(RVA = "0x469F0B0", Offset = "0x469F0B0", VA = "0x469F0B0", Slot = "10")]
+	[Address(RVA = "0x49C41B0", Offset = "0x49C41B0", VA = "0x49C41B0", Slot = "10")]
 	public override void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000D69")]
-	[Address(RVA = "0x469ED30", Offset = "0x469ED30", VA = "0x469ED30")]
+	[Address(RVA = "0x49C3E30", Offset = "0x49C3E30", VA = "0x49C3E30")]
 	private void ThrowIfNotConnected()
 	{
 	}

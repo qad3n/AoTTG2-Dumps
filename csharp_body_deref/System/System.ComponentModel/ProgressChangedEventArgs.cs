@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.ProgressChangedEventArgs
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.ComponentModel;
@@ -18,7 +25,7 @@ public class ProgressChangedEventArgs : EventArgs
 	public int ProgressPercentage
 	{
 		[Token(Token = "0x600137E")]
-		[Address(RVA = "0x45908F0", Offset = "0x45908F0", VA = "0x45908F0")]
+		[Address(RVA = "0x48B59F0", Offset = "0x48B59F0", VA = "0x48B59F0")]
 		get
 		{
 			return default(int);
@@ -30,7 +37,7 @@ public class ProgressChangedEventArgs : EventArgs
 	public object UserState
 	{
 		[Token(Token = "0x600137F")]
-		[Address(RVA = "0x4590900", Offset = "0x4590900", VA = "0x4590900")]
+		[Address(RVA = "0x48B5A00", Offset = "0x48B5A00", VA = "0x48B5A00")]
 		get
 		{
 			return null;
@@ -38,7 +45,7 @@ public class ProgressChangedEventArgs : EventArgs
 	}
 
 	[Token(Token = "0x600137D")]
-	[Address(RVA = "0x4590880", Offset = "0x4590880", VA = "0x4590880")]
+	[Address(RVA = "0x48B5980", Offset = "0x48B5980", VA = "0x48B5980")]
 	public ProgressChangedEventArgs(int progressPercentage, object userState)
 	{
 	}

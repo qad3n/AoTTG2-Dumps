@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.DecoderReplacementFallbackBuffer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Text;
@@ -21,7 +28,7 @@ public sealed class DecoderReplacementFallbackBuffer : DecoderFallbackBuffer
 	public override int Remaining
 	{
 		[Token(Token = "0x6001574")]
-		[Address(RVA = "0x506DCF0", Offset = "0x506DCF0", VA = "0x506DCF0", Slot = "6")]
+		[Address(RVA = "0x3D53810", Offset = "0x3D53810", VA = "0x3D53810", Slot = "6")]
 		get
 		{
 			return default(int);
@@ -29,33 +36,33 @@ public sealed class DecoderReplacementFallbackBuffer : DecoderFallbackBuffer
 	}
 
 	[Token(Token = "0x6001571")]
-	[Address(RVA = "0x506DB70", Offset = "0x506DB70", VA = "0x506DB70")]
+	[Address(RVA = "0x3D53690", Offset = "0x3D53690", VA = "0x3D53690")]
 	public DecoderReplacementFallbackBuffer(DecoderReplacementFallback fallback)
 	{
 	}
 
 	[Token(Token = "0x6001572")]
-	[Address(RVA = "0x506DC70", Offset = "0x506DC70", VA = "0x506DC70", Slot = "4")]
+	[Address(RVA = "0x3D53790", Offset = "0x3D53790", VA = "0x3D53790", Slot = "4")]
 	public override bool Fallback(byte[] bytesUnknown, int index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001573")]
-	[Address(RVA = "0x506DCB0", Offset = "0x506DCB0", VA = "0x506DCB0", Slot = "5")]
+	[Address(RVA = "0x3D537D0", Offset = "0x3D537D0", VA = "0x3D537D0", Slot = "5")]
 	public override char GetNextChar()
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x6001575")]
-	[Address(RVA = "0x506DD00", Offset = "0x506DD00", VA = "0x506DD00", Slot = "7")]
+	[Address(RVA = "0x3D53820", Offset = "0x3D53820", VA = "0x3D53820", Slot = "7")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001576")]
-	[Address(RVA = "0x506DD20", Offset = "0x506DD20", VA = "0x506DD20", Slot = "9")]
+	[Address(RVA = "0x3D53840", Offset = "0x3D53840", VA = "0x3D53840", Slot = "9")]
 	internal unsafe override int InternalFallback(byte[] bytes, byte* pBytes)
 	{
 		return default(int);

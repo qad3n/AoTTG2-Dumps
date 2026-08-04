@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Image
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 using Unity.Properties;
@@ -11,7 +18,7 @@ public class Image : VisualElement
 	public new class UxmlFactory : UxmlFactory<Image, UxmlTraits>
 	{
 		[Token(Token = "0x6000475")]
-		[Address(RVA = "0x4C1BC60", Offset = "0x4C1BC60", VA = "0x4C1BC60")]
+		[Address(RVA = "0x4F43590", Offset = "0x4F43590", VA = "0x4F43590")]
 		public UxmlFactory()
 		{
 		}
@@ -21,7 +28,7 @@ public class Image : VisualElement
 	public new class UxmlTraits : VisualElement.UxmlTraits
 	{
 		[Token(Token = "0x6000476")]
-		[Address(RVA = "0x4C1BCA0", Offset = "0x4C1BCA0", VA = "0x4C1BCA0")]
+		[Address(RVA = "0x4F435D0", Offset = "0x4F435D0", VA = "0x4F435D0")]
 		public UxmlTraits()
 		{
 		}
@@ -120,13 +127,13 @@ public class Image : VisualElement
 	public Texture image
 	{
 		[Token(Token = "0x6000459")]
-		[Address(RVA = "0x4C19420", Offset = "0x4C19420", VA = "0x4C19420")]
+		[Address(RVA = "0x4F40D50", Offset = "0x4F40D50", VA = "0x4F40D50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600045A")]
-		[Address(RVA = "0x4C19430", Offset = "0x4C19430", VA = "0x4C19430")]
+		[Address(RVA = "0x4F40D60", Offset = "0x4F40D60", VA = "0x4F40D60")]
 		set
 		{
 		}
@@ -137,13 +144,13 @@ public class Image : VisualElement
 	public Sprite sprite
 	{
 		[Token(Token = "0x600045B")]
-		[Address(RVA = "0x4C19570", Offset = "0x4C19570", VA = "0x4C19570")]
+		[Address(RVA = "0x4F40EA0", Offset = "0x4F40EA0", VA = "0x4F40EA0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600045C")]
-		[Address(RVA = "0x4C19580", Offset = "0x4C19580", VA = "0x4C19580")]
+		[Address(RVA = "0x4F40EB0", Offset = "0x4F40EB0", VA = "0x4F40EB0")]
 		set
 		{
 		}
@@ -154,13 +161,13 @@ public class Image : VisualElement
 	public VectorImage vectorImage
 	{
 		[Token(Token = "0x600045D")]
-		[Address(RVA = "0x4C196B0", Offset = "0x4C196B0", VA = "0x4C196B0")]
+		[Address(RVA = "0x4F40FE0", Offset = "0x4F40FE0", VA = "0x4F40FE0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600045E")]
-		[Address(RVA = "0x4C196C0", Offset = "0x4C196C0", VA = "0x4C196C0")]
+		[Address(RVA = "0x4F40FF0", Offset = "0x4F40FF0", VA = "0x4F40FF0")]
 		set
 		{
 		}
@@ -171,13 +178,13 @@ public class Image : VisualElement
 	public Rect sourceRect
 	{
 		[Token(Token = "0x600045F")]
-		[Address(RVA = "0x4C197F0", Offset = "0x4C197F0", VA = "0x4C197F0")]
+		[Address(RVA = "0x4F41120", Offset = "0x4F41120", VA = "0x4F41120")]
 		get
 		{
 			return default(Rect);
 		}
 		[Token(Token = "0x6000460")]
-		[Address(RVA = "0x4C199B0", Offset = "0x4C199B0", VA = "0x4C199B0")]
+		[Address(RVA = "0x4F412E0", Offset = "0x4F412E0", VA = "0x4F412E0")]
 		set
 		{
 		}
@@ -188,13 +195,13 @@ public class Image : VisualElement
 	public Rect uv
 	{
 		[Token(Token = "0x6000461")]
-		[Address(RVA = "0x4C19CF0", Offset = "0x4C19CF0", VA = "0x4C19CF0")]
+		[Address(RVA = "0x4F41620", Offset = "0x4F41620", VA = "0x4F41620")]
 		get
 		{
 			return default(Rect);
 		}
 		[Token(Token = "0x6000462")]
-		[Address(RVA = "0x4C19D10", Offset = "0x4C19D10", VA = "0x4C19D10")]
+		[Address(RVA = "0x4F41640", Offset = "0x4F41640", VA = "0x4F41640")]
 		set
 		{
 		}
@@ -205,13 +212,13 @@ public class Image : VisualElement
 	public ScaleMode scaleMode
 	{
 		[Token(Token = "0x6000463")]
-		[Address(RVA = "0x4C19E00", Offset = "0x4C19E00", VA = "0x4C19E00")]
+		[Address(RVA = "0x4F41730", Offset = "0x4F41730", VA = "0x4F41730")]
 		get
 		{
 			return default(ScaleMode);
 		}
 		[Token(Token = "0x6000464")]
-		[Address(RVA = "0x4C19E10", Offset = "0x4C19E10", VA = "0x4C19E10")]
+		[Address(RVA = "0x4F41740", Offset = "0x4F41740", VA = "0x4F41740")]
 		set
 		{
 		}
@@ -222,59 +229,59 @@ public class Image : VisualElement
 	public Color tintColor
 	{
 		[Token(Token = "0x6000465")]
-		[Address(RVA = "0x4C19F70", Offset = "0x4C19F70", VA = "0x4C19F70")]
+		[Address(RVA = "0x4F418A0", Offset = "0x4F418A0", VA = "0x4F418A0")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x6000466")]
-		[Address(RVA = "0x4C19F90", Offset = "0x4C19F90", VA = "0x4C19F90")]
+		[Address(RVA = "0x4F418C0", Offset = "0x4F418C0", VA = "0x4F418C0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000467")]
-	[Address(RVA = "0x4C1A200", Offset = "0x4C1A200", VA = "0x4C1A200")]
+	[Address(RVA = "0x4F41B30", Offset = "0x4F41B30", VA = "0x4F41B30")]
 	public Image()
 	{
 	}
 
 	[Token(Token = "0x6000468")]
-	[Address(RVA = "0x4C1A3D0", Offset = "0x4C1A3D0", VA = "0x4C1A3D0")]
+	[Address(RVA = "0x4F41D00", Offset = "0x4F41D00", VA = "0x4F41D00")]
 	private Vector2 GetTextureDisplaySize(Texture texture)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x6000469")]
-	[Address(RVA = "0x4C1A4A0", Offset = "0x4C1A4A0", VA = "0x4C1A4A0")]
+	[Address(RVA = "0x4F41DD0", Offset = "0x4F41DD0", VA = "0x4F41DD0")]
 	private Vector2 GetTextureDisplaySize(Sprite sprite)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x600046A")]
-	[Address(RVA = "0x4C1A5B0", Offset = "0x4C1A5B0", VA = "0x4C1A5B0", Slot = "96")]
+	[Address(RVA = "0x4F41EE0", Offset = "0x4F41EE0", VA = "0x4F41EE0", Slot = "96")]
 	protected internal override Vector2 DoMeasure(float desiredWidth, MeasureMode widthMode, float desiredHeight, MeasureMode heightMode)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x600046B")]
-	[Address(RVA = "0x4C1A7E0", Offset = "0x4C1A7E0", VA = "0x4C1A7E0")]
+	[Address(RVA = "0x4F42110", Offset = "0x4F42110", VA = "0x4F42110")]
 	private void OnGenerateVisualContent(MeshGenerationContext mgc)
 	{
 	}
 
 	[Token(Token = "0x600046C")]
-	[Address(RVA = "0x4C1AF20", Offset = "0x4C1AF20", VA = "0x4C1AF20")]
+	[Address(RVA = "0x4F42850", Offset = "0x4F42850", VA = "0x4F42850")]
 	private void OnCustomStyleResolved(CustomStyleResolvedEvent e)
 	{
 	}
 
 	[Token(Token = "0x600046D")]
-	[Address(RVA = "0x4C1AF50", Offset = "0x4C1AF50", VA = "0x4C1AF50")]
+	[Address(RVA = "0x4F42880", Offset = "0x4F42880", VA = "0x4F42880")]
 	private void ReadCustomProperties(ICustomStyle customStyleProvider)
 	{
 	}
@@ -286,31 +293,31 @@ public class Image : VisualElement
 	}
 
 	[Token(Token = "0x600046F")]
-	[Address(RVA = "0x4C1B6D0", Offset = "0x4C1B6D0", VA = "0x4C1B6D0")]
+	[Address(RVA = "0x4F43000", Offset = "0x4F43000", VA = "0x4F43000")]
 	private void ClearProperty()
 	{
 	}
 
 	[Token(Token = "0x6000470")]
-	[Address(RVA = "0x4C19EC0", Offset = "0x4C19EC0", VA = "0x4C19EC0")]
+	[Address(RVA = "0x4F417F0", Offset = "0x4F417F0", VA = "0x4F417F0")]
 	private void SetScaleMode(ScaleMode mode)
 	{
 	}
 
 	[Token(Token = "0x6000471")]
-	[Address(RVA = "0x4C1A110", Offset = "0x4C1A110", VA = "0x4C1A110")]
+	[Address(RVA = "0x4F41A40", Offset = "0x4F41A40", VA = "0x4F41A40")]
 	private void SetTintColor(Color color)
 	{
 	}
 
 	[Token(Token = "0x6000472")]
-	[Address(RVA = "0x4C19B30", Offset = "0x4C19B30", VA = "0x4C19B30")]
+	[Address(RVA = "0x4F41460", Offset = "0x4F41460", VA = "0x4F41460")]
 	private void CalculateUV(Rect srcRect)
 	{
 	}
 
 	[Token(Token = "0x6000473")]
-	[Address(RVA = "0x4C19800", Offset = "0x4C19800", VA = "0x4C19800")]
+	[Address(RVA = "0x4F41130", Offset = "0x4F41130", VA = "0x4F41130")]
 	private Rect GetSourceRect()
 	{
 		return default(Rect);

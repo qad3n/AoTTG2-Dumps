@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UIR.BMPAlloc
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
@@ -26,21 +33,21 @@ internal struct BMPAlloc
 	public OwnedState ownedState;
 
 	[Token(Token = "0x6001DE9")]
-	[Address(RVA = "0x4C76030", Offset = "0x4C76030", VA = "0x4C76030")]
+	[Address(RVA = "0x4F9D960", Offset = "0x4F9D960", VA = "0x4F9D960")]
 	public bool Equals(BMPAlloc other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001DEA")]
-	[Address(RVA = "0x4C77920", Offset = "0x4C77920", VA = "0x4C77920")]
+	[Address(RVA = "0x4F9F250", Offset = "0x4F9F250", VA = "0x4F9F250")]
 	public bool IsValid()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001DEB")]
-	[Address(RVA = "0x4C80D90", Offset = "0x4C80D90", VA = "0x4C80D90", Slot = "3")]
+	[Address(RVA = "0x4FA86C0", Offset = "0x4FA86C0", VA = "0x4FA86C0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

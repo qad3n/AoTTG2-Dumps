@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: TextureScaler
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/TextureScaler.c
+// Prior real C# source (older reference): Assets/Scripts/CustomSkins/TextureScaler.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -38,7 +45,7 @@ public class TextureScaler
 		public int NewHeight;
 
 		[Token(Token = "0x6000023")]
-		[Address(RVA = "0x3C66420", Offset = "0x3C66420", VA = "0x3C66420")]
+		[Address(RVA = "0x3F5BD70", Offset = "0x3F5BD70", VA = "0x3F5BD70")]
 		public ThreadData(Color[] texColors, Color[] newColors, int texWidth, int texHeight, int newWidth, int newHeight)
 		{
 		}
@@ -80,7 +87,7 @@ public class TextureScaler
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x6000027")]
-			[Address(RVA = "0x3C66A80", Offset = "0x3C66A80", VA = "0x3C66A80", Slot = "4")]
+			[Address(RVA = "0x3F5C3D0", Offset = "0x3F5C3D0", VA = "0x3F5C3D0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -92,7 +99,7 @@ public class TextureScaler
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000029")]
-			[Address(RVA = "0x3C66AD0", Offset = "0x3C66AD0", VA = "0x3C66AD0", Slot = "7")]
+			[Address(RVA = "0x3F5C420", Offset = "0x3F5C420", VA = "0x3F5C420", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -101,28 +108,28 @@ public class TextureScaler
 		}
 
 		[Token(Token = "0x6000024")]
-		[Address(RVA = "0x3C66220", Offset = "0x3C66220", VA = "0x3C66220")]
+		[Address(RVA = "0x3F5BB70", Offset = "0x3F5BB70", VA = "0x3F5BB70")]
 		[DebuggerHidden]
 		public _003CScale_003Ed__1(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000025")]
-		[Address(RVA = "0x3C667A0", Offset = "0x3C667A0", VA = "0x3C667A0", Slot = "5")]
+		[Address(RVA = "0x3F5C0F0", Offset = "0x3F5C0F0", VA = "0x3F5C0F0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000026")]
-		[Address(RVA = "0x3C667B0", Offset = "0x3C667B0", VA = "0x3C667B0", Slot = "6")]
+		[Address(RVA = "0x3F5C100", Offset = "0x3F5C100", VA = "0x3F5C100", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000028")]
-		[Address(RVA = "0x3C66A90", Offset = "0x3C66A90", VA = "0x3C66A90", Slot = "8")]
+		[Address(RVA = "0x3F5C3E0", Offset = "0x3F5C3E0", VA = "0x3F5C3E0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -130,7 +137,7 @@ public class TextureScaler
 	}
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x3C66190", Offset = "0x3C66190", VA = "0x3C66190")]
+	[Address(RVA = "0x3F5BAE0", Offset = "0x3F5BAE0", VA = "0x3F5BAE0")]
 	[IteratorStateMachine(typeof(_003CScale_003Ed__1))]
 	public static IEnumerator Scale(Texture2D tex, int newWidth, int newHeight)
 	{
@@ -138,26 +145,26 @@ public class TextureScaler
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x3C66240", Offset = "0x3C66240", VA = "0x3C66240")]
+	[Address(RVA = "0x3F5BB90", Offset = "0x3F5BB90", VA = "0x3F5BB90")]
 	public static void ScaleBlocking(Texture2D tex, int newWidth, int newHeight)
 	{
 	}
 
 	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x3C66490", Offset = "0x3C66490", VA = "0x3C66490")]
+	[Address(RVA = "0x3F5BDE0", Offset = "0x3F5BDE0", VA = "0x3F5BDE0")]
 	public static void BilinearScale(object obj)
 	{
 	}
 
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x3C66770", Offset = "0x3C66770", VA = "0x3C66770")]
+	[Address(RVA = "0x3F5C0C0", Offset = "0x3F5C0C0", VA = "0x3F5C0C0")]
 	private static Color ColorLerpUnclamped(Color c1, Color c2, float value)
 	{
 		return default(Color);
 	}
 
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x3C66790", Offset = "0x3C66790", VA = "0x3C66790")]
+	[Address(RVA = "0x3F5C0E0", Offset = "0x3F5C0E0", VA = "0x3F5C0E0")]
 	public TextureScaler()
 	{
 	}

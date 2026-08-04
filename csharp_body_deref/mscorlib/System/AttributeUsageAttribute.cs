@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.AttributeUsageAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System;
@@ -27,13 +34,13 @@ public sealed class AttributeUsageAttribute : Attribute
 	public bool AllowMultiple
 	{
 		[Token(Token = "0x600041A")]
-		[Address(RVA = "0x4F2E640", Offset = "0x4F2E640", VA = "0x4F2E640")]
+		[Address(RVA = "0x3C14160", Offset = "0x3C14160", VA = "0x3C14160")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600041B")]
-		[Address(RVA = "0x4F2E650", Offset = "0x4F2E650", VA = "0x4F2E650")]
+		[Address(RVA = "0x3C14170", Offset = "0x3C14170", VA = "0x3C14170")]
 		set
 		{
 		}
@@ -43,20 +50,20 @@ public sealed class AttributeUsageAttribute : Attribute
 	public bool Inherited
 	{
 		[Token(Token = "0x600041C")]
-		[Address(RVA = "0x4F2E660", Offset = "0x4F2E660", VA = "0x4F2E660")]
+		[Address(RVA = "0x3C14180", Offset = "0x3C14180", VA = "0x3C14180")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600041D")]
-		[Address(RVA = "0x4F2E670", Offset = "0x4F2E670", VA = "0x4F2E670")]
+		[Address(RVA = "0x3C14190", Offset = "0x3C14190", VA = "0x3C14190")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000419")]
-	[Address(RVA = "0x4F2E610", Offset = "0x4F2E610", VA = "0x4F2E610")]
+	[Address(RVA = "0x3C14130", Offset = "0x3C14130", VA = "0x3C14130")]
 	public AttributeUsageAttribute(AttributeTargets validOn)
 	{
 	}

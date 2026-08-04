@@ -1,9 +1,16 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.RenderTargetBlendState
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002F3")]
+[Token(Token = "0x20002F6")]
 public struct RenderTargetBlendState : IEquatable<RenderTargetBlendState>
 {
 	[Token(Token = "0x40008F0")]
@@ -38,22 +45,22 @@ public struct RenderTargetBlendState : IEquatable<RenderTargetBlendState>
 	[FieldOffset(Offset = "0x7")]
 	private byte m_Padding;
 
-	[Token(Token = "0x6001083")]
-	[Address(RVA = "0x4B09130", Offset = "0x4B09130", VA = "0x4B09130", Slot = "4")]
+	[Token(Token = "0x6001085")]
+	[Address(RVA = "0x4E30A60", Offset = "0x4E30A60", VA = "0x4E30A60", Slot = "4")]
 	public bool Equals(RenderTargetBlendState other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001084")]
-	[Address(RVA = "0x4B09180", Offset = "0x4B09180", VA = "0x4B09180", Slot = "0")]
+	[Token(Token = "0x6001086")]
+	[Address(RVA = "0x4E30AB0", Offset = "0x4E30AB0", VA = "0x4E30AB0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001085")]
-	[Address(RVA = "0x4B09230", Offset = "0x4B09230", VA = "0x4B09230", Slot = "2")]
+	[Token(Token = "0x6001087")]
+	[Address(RVA = "0x4E30B60", Offset = "0x4E30B60", VA = "0x4E30B60", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

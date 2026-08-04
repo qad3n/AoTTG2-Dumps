@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.HMAC
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -39,13 +46,13 @@ public abstract class HMAC : KeyedHashAlgorithm
 	protected int BlockSizeValue
 	{
 		[Token(Token = "0x6001915")]
-		[Address(RVA = "0x4E4C120", Offset = "0x4E4C120", VA = "0x4E4C120")]
+		[Address(RVA = "0x3B31C40", Offset = "0x3B31C40", VA = "0x3B31C40")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6001916")]
-		[Address(RVA = "0x4E4C130", Offset = "0x4E4C130", VA = "0x4E4C130")]
+		[Address(RVA = "0x3B31C50", Offset = "0x3B31C50", VA = "0x3B31C50")]
 		set
 		{
 		}
@@ -55,13 +62,13 @@ public abstract class HMAC : KeyedHashAlgorithm
 	public override byte[] Key
 	{
 		[Token(Token = "0x6001919")]
-		[Address(RVA = "0x4E4C3F0", Offset = "0x4E4C3F0", VA = "0x4E4C3F0", Slot = "23")]
+		[Address(RVA = "0x3B31F10", Offset = "0x3B31F10", VA = "0x3B31F10", Slot = "23")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600191A")]
-		[Address(RVA = "0x4E4C470", Offset = "0x4E4C470", VA = "0x4E4C470", Slot = "24")]
+		[Address(RVA = "0x3B31F90", Offset = "0x3B31F90", VA = "0x3B31F90", Slot = "24")]
 		set
 		{
 		}
@@ -71,78 +78,78 @@ public abstract class HMAC : KeyedHashAlgorithm
 	public string HashName
 	{
 		[Token(Token = "0x600191B")]
-		[Address(RVA = "0x4E4C4E0", Offset = "0x4E4C4E0", VA = "0x4E4C4E0")]
+		[Address(RVA = "0x3B32000", Offset = "0x3B32000", VA = "0x3B32000")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600191C")]
-		[Address(RVA = "0x4E4C4F0", Offset = "0x4E4C4F0", VA = "0x4E4C4F0")]
+		[Address(RVA = "0x3B32010", Offset = "0x3B32010", VA = "0x3B32010")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001917")]
-	[Address(RVA = "0x4E4C140", Offset = "0x4E4C140", VA = "0x4E4C140")]
+	[Address(RVA = "0x3B31C60", Offset = "0x3B31C60", VA = "0x3B31C60")]
 	private void UpdateIOPadBuffers()
 	{
 	}
 
 	[Token(Token = "0x6001918")]
-	[Address(RVA = "0x4E4C2E0", Offset = "0x4E4C2E0", VA = "0x4E4C2E0")]
+	[Address(RVA = "0x3B31E00", Offset = "0x3B31E00", VA = "0x3B31E00")]
 	internal void InitializeKey(byte[] key)
 	{
 	}
 
 	[Token(Token = "0x600191D")]
-	[Address(RVA = "0x4E4C640", Offset = "0x4E4C640", VA = "0x4E4C640")]
+	[Address(RVA = "0x3B32160", Offset = "0x3B32160", VA = "0x3B32160")]
 	public new static HMAC Create()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600191E")]
-	[Address(RVA = "0x4E4C730", Offset = "0x4E4C730", VA = "0x4E4C730")]
+	[Address(RVA = "0x3B32250", Offset = "0x3B32250", VA = "0x3B32250")]
 	public new static HMAC Create(string algorithmName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600191F")]
-	[Address(RVA = "0x4E4C7C0", Offset = "0x4E4C7C0", VA = "0x4E4C7C0", Slot = "20")]
+	[Address(RVA = "0x3B322E0", Offset = "0x3B322E0", VA = "0x3B322E0", Slot = "20")]
 	public override void Initialize()
 	{
 	}
 
 	[Token(Token = "0x6001920")]
-	[Address(RVA = "0x4E4C810", Offset = "0x4E4C810", VA = "0x4E4C810", Slot = "18")]
+	[Address(RVA = "0x3B32330", Offset = "0x3B32330", VA = "0x3B32330", Slot = "18")]
 	protected override void HashCore(byte[] rgb, int ib, int cb)
 	{
 	}
 
 	[Token(Token = "0x6001921")]
-	[Address(RVA = "0x4E4C8E0", Offset = "0x4E4C8E0", VA = "0x4E4C8E0", Slot = "19")]
+	[Address(RVA = "0x3B32400", Offset = "0x3B32400", VA = "0x3B32400", Slot = "19")]
 	protected override byte[] HashFinal()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001922")]
-	[Address(RVA = "0x4E4CA90", Offset = "0x4E4CA90", VA = "0x4E4CA90", Slot = "13")]
+	[Address(RVA = "0x3B325B0", Offset = "0x3B325B0", VA = "0x3B325B0", Slot = "13")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6001923")]
-	[Address(RVA = "0x4E4CC60", Offset = "0x4E4CC60", VA = "0x4E4CC60")]
+	[Address(RVA = "0x3B32780", Offset = "0x3B32780", VA = "0x3B32780")]
 	internal static HashAlgorithm GetHashAlgorithmWithFipsFallback(Func<HashAlgorithm> createStandardHashAlgorithmCallback, Func<HashAlgorithm> createFipsHashAlgorithmCallback)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001924")]
-	[Address(RVA = "0x4E4CDE0", Offset = "0x4E4CDE0", VA = "0x4E4CDE0")]
+	[Address(RVA = "0x3B32900", Offset = "0x3B32900", VA = "0x3B32900")]
 	protected HMAC()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.InequalityHandler
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Unity.VisualScripting;
@@ -6,27 +13,27 @@ namespace Unity.VisualScripting;
 public class InequalityHandler : BinaryOperatorHandler
 {
 	[Token(Token = "0x60009AB")]
-	[Address(RVA = "0x49DD320", Offset = "0x49DD320", VA = "0x49DD320")]
+	[Address(RVA = "0x4D01EF0", Offset = "0x4D01EF0", VA = "0x4D01EF0")]
 	public InequalityHandler()
 	{
 	}
 
 	[Token(Token = "0x60009AC")]
-	[Address(RVA = "0x49E3520", Offset = "0x49E3520", VA = "0x49E3520", Slot = "6")]
+	[Address(RVA = "0x4D080F0", Offset = "0x4D080F0", VA = "0x4D080F0", Slot = "6")]
 	protected override object BothNullHandling()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60009AD")]
-	[Address(RVA = "0x49E3540", Offset = "0x49E3540", VA = "0x49E3540", Slot = "7")]
+	[Address(RVA = "0x4D08110", Offset = "0x4D08110", VA = "0x4D08110", Slot = "7")]
 	protected override object SingleNullHandling()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60009AE")]
-	[Address(RVA = "0x49E3560", Offset = "0x49E3560", VA = "0x49E3560", Slot = "5")]
+	[Address(RVA = "0x4D08130", Offset = "0x4D08130", VA = "0x4D08130", Slot = "5")]
 	protected override object CustomHandling(object leftOperand, object rightOperand)
 	{
 		return null;

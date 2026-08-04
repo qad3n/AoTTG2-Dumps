@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UI.IntroPanelAnimator
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UI/IntroPanelAnimator.c
+// Prior real C# source (older reference): Assets/Scripts/UI/MainMenu/IntroPanelAnimator.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -8,42 +15,42 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x2000645")]
+[Token(Token = "0x2000691")]
 public class IntroPanelAnimator : MonoBehaviour
 {
-	[Token(Token = "0x2000646")]
+	[Token(Token = "0x2000692")]
 	[CompilerGenerated]
 	private sealed class _003CAnimateButtons_003Ed__8 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001EE1")]
+		[Token(Token = "0x4002035")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001EE2")]
+		[Token(Token = "0x4002036")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001EE3")]
+		[Token(Token = "0x4002037")]
 		[FieldOffset(Offset = "0x20")]
 		public IntroPanelAnimator _003C_003E4__this;
 
-		[Token(Token = "0x4001EE4")]
+		[Token(Token = "0x4002038")]
 		[FieldOffset(Offset = "0x28")]
 		public Vector2 endPos;
 
-		[Token(Token = "0x4001EE5")]
+		[Token(Token = "0x4002039")]
 		[FieldOffset(Offset = "0x30")]
 		private Vector2 _003CstartPos_003E5__2;
 
-		[Token(Token = "0x4001EE6")]
+		[Token(Token = "0x400203A")]
 		[FieldOffset(Offset = "0x38")]
 		private float _003CelapsedTime_003E5__3;
 
-		[Token(Token = "0x17000C1A")]
+		[Token(Token = "0x17000C94")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6003F56")]
-			[Address(RVA = "0x3FEE380", Offset = "0x3FEE380", VA = "0x3FEE380", Slot = "4")]
+			[Token(Token = "0x60041B3")]
+			[Address(RVA = "0x43025B0", Offset = "0x43025B0", VA = "0x43025B0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -51,11 +58,11 @@ public class IntroPanelAnimator : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000C1B")]
+		[Token(Token = "0x17000C95")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6003F58")]
-			[Address(RVA = "0x3FEE3D0", Offset = "0x3FEE3D0", VA = "0x3FEE3D0", Slot = "7")]
+			[Token(Token = "0x60041B5")]
+			[Address(RVA = "0x4302600", Offset = "0x4302600", VA = "0x4302600", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -63,68 +70,68 @@ public class IntroPanelAnimator : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x6003F53")]
-		[Address(RVA = "0x3FEE1B0", Offset = "0x3FEE1B0", VA = "0x3FEE1B0")]
+		[Token(Token = "0x60041B0")]
+		[Address(RVA = "0x43023E0", Offset = "0x43023E0", VA = "0x43023E0")]
 		[DebuggerHidden]
 		public _003CAnimateButtons_003Ed__8(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6003F54")]
-		[Address(RVA = "0x3FEE220", Offset = "0x3FEE220", VA = "0x3FEE220", Slot = "5")]
+		[Token(Token = "0x60041B1")]
+		[Address(RVA = "0x4302450", Offset = "0x4302450", VA = "0x4302450", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6003F55")]
-		[Address(RVA = "0x3FEE230", Offset = "0x3FEE230", VA = "0x3FEE230", Slot = "6")]
+		[Token(Token = "0x60041B2")]
+		[Address(RVA = "0x4302460", Offset = "0x4302460", VA = "0x4302460", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6003F57")]
-		[Address(RVA = "0x3FEE390", Offset = "0x3FEE390", VA = "0x3FEE390", Slot = "8")]
+		[Token(Token = "0x60041B4")]
+		[Address(RVA = "0x43025C0", Offset = "0x43025C0", VA = "0x43025C0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000647")]
+	[Token(Token = "0x2000693")]
 	[CompilerGenerated]
 	private sealed class _003CAnimatePanelAndButtons_003Ed__7 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001EE7")]
+		[Token(Token = "0x400203B")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001EE8")]
+		[Token(Token = "0x400203C")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001EE9")]
+		[Token(Token = "0x400203D")]
 		[FieldOffset(Offset = "0x20")]
 		public IntroPanelAnimator _003C_003E4__this;
 
-		[Token(Token = "0x4001EEA")]
+		[Token(Token = "0x400203E")]
 		[FieldOffset(Offset = "0x28")]
 		private Vector2 _003CbuttonsStartPos_003E5__2;
 
-		[Token(Token = "0x4001EEB")]
+		[Token(Token = "0x400203F")]
 		[FieldOffset(Offset = "0x30")]
 		private float _003CelapsedTime_003E5__3;
 
-		[Token(Token = "0x4001EEC")]
+		[Token(Token = "0x4002040")]
 		[FieldOffset(Offset = "0x34")]
 		private bool _003CbuttonAnimationStarted_003E5__4;
 
-		[Token(Token = "0x17000C1C")]
+		[Token(Token = "0x17000C96")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6003F5C")]
-			[Address(RVA = "0x3FEE7A0", Offset = "0x3FEE7A0", VA = "0x3FEE7A0", Slot = "4")]
+			[Token(Token = "0x60041B9")]
+			[Address(RVA = "0x43029D0", Offset = "0x43029D0", VA = "0x43029D0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -132,11 +139,11 @@ public class IntroPanelAnimator : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000C1D")]
+		[Token(Token = "0x17000C97")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6003F5E")]
-			[Address(RVA = "0x3FEE7F0", Offset = "0x3FEE7F0", VA = "0x3FEE7F0", Slot = "7")]
+			[Token(Token = "0x60041BB")]
+			[Address(RVA = "0x4302A20", Offset = "0x4302A20", VA = "0x4302A20", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -144,92 +151,92 @@ public class IntroPanelAnimator : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x6003F59")]
-		[Address(RVA = "0x3FEE110", Offset = "0x3FEE110", VA = "0x3FEE110")]
+		[Token(Token = "0x60041B6")]
+		[Address(RVA = "0x4302340", Offset = "0x4302340", VA = "0x4302340")]
 		[DebuggerHidden]
 		public _003CAnimatePanelAndButtons_003Ed__7(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6003F5A")]
-		[Address(RVA = "0x3FEE3E0", Offset = "0x3FEE3E0", VA = "0x3FEE3E0", Slot = "5")]
+		[Token(Token = "0x60041B7")]
+		[Address(RVA = "0x4302610", Offset = "0x4302610", VA = "0x4302610", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6003F5B")]
-		[Address(RVA = "0x3FEE3F0", Offset = "0x3FEE3F0", VA = "0x3FEE3F0", Slot = "6")]
+		[Token(Token = "0x60041B8")]
+		[Address(RVA = "0x4302620", Offset = "0x4302620", VA = "0x4302620", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6003F5D")]
-		[Address(RVA = "0x3FEE7B0", Offset = "0x3FEE7B0", VA = "0x3FEE7B0", Slot = "8")]
+		[Token(Token = "0x60041BA")]
+		[Address(RVA = "0x43029E0", Offset = "0x43029E0", VA = "0x43029E0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4001EDC")]
+	[Token(Token = "0x4002030")]
 	[FieldOffset(Offset = "0x20")]
 	public float panelSlideDuration;
 
-	[Token(Token = "0x4001EDD")]
+	[Token(Token = "0x4002031")]
 	[FieldOffset(Offset = "0x24")]
 	public float buttonsSlideDuration;
 
-	[Token(Token = "0x4001EDE")]
+	[Token(Token = "0x4002032")]
 	[FieldOffset(Offset = "0x28")]
 	private RectTransform panelRect;
 
-	[Token(Token = "0x4001EDF")]
+	[Token(Token = "0x4002033")]
 	[FieldOffset(Offset = "0x30")]
 	private RectTransform buttonsContainer;
 
-	[Token(Token = "0x4001EE0")]
+	[Token(Token = "0x4002034")]
 	[FieldOffset(Offset = "0x38")]
 	private float buttonsSlideOffset;
 
-	[Token(Token = "0x6003F4D")]
-	[Address(RVA = "0x3FEDF70", Offset = "0x3FEDF70", VA = "0x3FEDF70")]
+	[Token(Token = "0x60041AA")]
+	[Address(RVA = "0x43021A0", Offset = "0x43021A0", VA = "0x43021A0")]
 	private void Awake()
 	{
 	}
 
-	[Token(Token = "0x6003F4E")]
-	[Address(RVA = "0x3FEE020", Offset = "0x3FEE020", VA = "0x3FEE020")]
+	[Token(Token = "0x60041AB")]
+	[Address(RVA = "0x4302250", Offset = "0x4302250", VA = "0x4302250")]
 	public void StartAnimation()
 	{
 	}
 
-	[Token(Token = "0x6003F4F")]
-	[Address(RVA = "0x3FEE0A0", Offset = "0x3FEE0A0", VA = "0x3FEE0A0")]
+	[Token(Token = "0x60041AC")]
+	[Address(RVA = "0x43022D0", Offset = "0x43022D0", VA = "0x43022D0")]
 	[IteratorStateMachine(typeof(_003CAnimatePanelAndButtons_003Ed__7))]
 	private IEnumerator AnimatePanelAndButtons()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003F50")]
-	[Address(RVA = "0x3FEE130", Offset = "0x3FEE130", VA = "0x3FEE130")]
+	[Token(Token = "0x60041AD")]
+	[Address(RVA = "0x4302360", Offset = "0x4302360", VA = "0x4302360")]
 	[IteratorStateMachine(typeof(_003CAnimateButtons_003Ed__8))]
 	private IEnumerator AnimateButtons(Vector2 endPos)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003F51")]
-	[Address(RVA = "0x3FEE1D0", Offset = "0x3FEE1D0", VA = "0x3FEE1D0")]
+	[Token(Token = "0x60041AE")]
+	[Address(RVA = "0x4302400", Offset = "0x4302400", VA = "0x4302400")]
 	private float EaseOutCubic(float t)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003F52")]
-	[Address(RVA = "0x3FEE200", Offset = "0x3FEE200", VA = "0x3FEE200")]
+	[Token(Token = "0x60041AF")]
+	[Address(RVA = "0x4302430", Offset = "0x4302430", VA = "0x4302430")]
 	public IntroPanelAnimator()
 	{
 	}

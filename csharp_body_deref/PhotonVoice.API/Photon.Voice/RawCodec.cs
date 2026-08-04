@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.RawCodec
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/RawCodec.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -151,20 +158,20 @@ public class RawCodec
 		private float[] buf;
 
 		[Token(Token = "0x60001B7")]
-		[Address(RVA = "0x3C257D0", Offset = "0x3C257D0", VA = "0x3C257D0")]
+		[Address(RVA = "0x3F1B120", Offset = "0x3F1B120", VA = "0x3F1B120")]
 		public ShortToFloat(Action<FrameOut<float>> output)
 		{
 		}
 
 		[Token(Token = "0x60001B8")]
-		[Address(RVA = "0x3C25840", Offset = "0x3C25840", VA = "0x3C25840")]
+		[Address(RVA = "0x3F1B190", Offset = "0x3F1B190", VA = "0x3F1B190")]
 		public void Output(FrameOut<short> shortBuf)
 		{
 		}
 	}
 
 	[Token(Token = "0x60001A5")]
-	[Address(RVA = "0x3C257C0", Offset = "0x3C257C0", VA = "0x3C257C0")]
+	[Address(RVA = "0x3F1B110", Offset = "0x3F1B110", VA = "0x3F1B110")]
 	public RawCodec()
 	{
 	}

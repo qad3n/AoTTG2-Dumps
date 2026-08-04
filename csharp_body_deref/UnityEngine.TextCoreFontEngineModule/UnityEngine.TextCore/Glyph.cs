@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.Glyph
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -53,13 +60,13 @@ public class Glyph
 	public uint index
 	{
 		[Token(Token = "0x600003A")]
-		[Address(RVA = "0x4B7BDF0", Offset = "0x4B7BDF0", VA = "0x4B7BDF0")]
+		[Address(RVA = "0x4EA3720", Offset = "0x4EA3720", VA = "0x4EA3720")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x600003B")]
-		[Address(RVA = "0x4B7BE00", Offset = "0x4B7BE00", VA = "0x4B7BE00")]
+		[Address(RVA = "0x4EA3730", Offset = "0x4EA3730", VA = "0x4EA3730")]
 		set
 		{
 		}
@@ -69,13 +76,13 @@ public class Glyph
 	public GlyphMetrics metrics
 	{
 		[Token(Token = "0x600003C")]
-		[Address(RVA = "0x4B7BE10", Offset = "0x4B7BE10", VA = "0x4B7BE10")]
+		[Address(RVA = "0x4EA3740", Offset = "0x4EA3740", VA = "0x4EA3740")]
 		get
 		{
 			return default(GlyphMetrics);
 		}
 		[Token(Token = "0x600003D")]
-		[Address(RVA = "0x4B7BE30", Offset = "0x4B7BE30", VA = "0x4B7BE30")]
+		[Address(RVA = "0x4EA3760", Offset = "0x4EA3760", VA = "0x4EA3760")]
 		set
 		{
 		}
@@ -85,13 +92,13 @@ public class Glyph
 	public GlyphRect glyphRect
 	{
 		[Token(Token = "0x600003E")]
-		[Address(RVA = "0x4B7BE50", Offset = "0x4B7BE50", VA = "0x4B7BE50")]
+		[Address(RVA = "0x4EA3780", Offset = "0x4EA3780", VA = "0x4EA3780")]
 		get
 		{
 			return default(GlyphRect);
 		}
 		[Token(Token = "0x600003F")]
-		[Address(RVA = "0x4B7BE60", Offset = "0x4B7BE60", VA = "0x4B7BE60")]
+		[Address(RVA = "0x4EA3790", Offset = "0x4EA3790", VA = "0x4EA3790")]
 		set
 		{
 		}
@@ -101,13 +108,13 @@ public class Glyph
 	public float scale
 	{
 		[Token(Token = "0x6000040")]
-		[Address(RVA = "0x4B7BE70", Offset = "0x4B7BE70", VA = "0x4B7BE70")]
+		[Address(RVA = "0x4EA37A0", Offset = "0x4EA37A0", VA = "0x4EA37A0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000041")]
-		[Address(RVA = "0x4B7BE80", Offset = "0x4B7BE80", VA = "0x4B7BE80")]
+		[Address(RVA = "0x4EA37B0", Offset = "0x4EA37B0", VA = "0x4EA37B0")]
 		set
 		{
 		}
@@ -117,32 +124,32 @@ public class Glyph
 	public int atlasIndex
 	{
 		[Token(Token = "0x6000042")]
-		[Address(RVA = "0x4B7BE90", Offset = "0x4B7BE90", VA = "0x4B7BE90")]
+		[Address(RVA = "0x4EA37C0", Offset = "0x4EA37C0", VA = "0x4EA37C0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000043")]
-		[Address(RVA = "0x4B7BEA0", Offset = "0x4B7BEA0", VA = "0x4B7BEA0")]
+		[Address(RVA = "0x4EA37D0", Offset = "0x4EA37D0", VA = "0x4EA37D0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x4B7BEB0", Offset = "0x4B7BEB0", VA = "0x4B7BEB0")]
+	[Address(RVA = "0x4EA37E0", Offset = "0x4EA37E0", VA = "0x4EA37E0")]
 	public Glyph()
 	{
 	}
 
 	[Token(Token = "0x6000045")]
-	[Address(RVA = "0x4B7BEE0", Offset = "0x4B7BEE0", VA = "0x4B7BEE0")]
+	[Address(RVA = "0x4EA3810", Offset = "0x4EA3810", VA = "0x4EA3810")]
 	internal Glyph(GlyphMarshallingStruct glyphStruct)
 	{
 	}
 
 	[Token(Token = "0x6000046")]
-	[Address(RVA = "0x4B7BFA0", Offset = "0x4B7BFA0", VA = "0x4B7BFA0")]
+	[Address(RVA = "0x4EA38D0", Offset = "0x4EA38D0", VA = "0x4EA38D0")]
 	public Glyph(uint index, GlyphMetrics metrics, GlyphRect glyphRect, float scale, int atlasIndex)
 	{
 	}

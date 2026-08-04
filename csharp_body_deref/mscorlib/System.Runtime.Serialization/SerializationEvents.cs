@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.SerializationEvents
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Reflection;
 using Il2CppDummyDll;
@@ -27,7 +34,7 @@ internal sealed class SerializationEvents
 	internal bool HasOnSerializingEvents
 	{
 		[Token(Token = "0x6001F4E")]
-		[Address(RVA = "0x4EAECC0", Offset = "0x4EAECC0", VA = "0x4EAECC0")]
+		[Address(RVA = "0x3B947E0", Offset = "0x3B947E0", VA = "0x3B947E0")]
 		get
 		{
 			return default(bool);
@@ -35,58 +42,58 @@ internal sealed class SerializationEvents
 	}
 
 	[Token(Token = "0x6001F4C")]
-	[Address(RVA = "0x4EAE930", Offset = "0x4EAE930", VA = "0x4EAE930")]
+	[Address(RVA = "0x3B94450", Offset = "0x3B94450", VA = "0x3B94450")]
 	internal SerializationEvents(Type t)
 	{
 	}
 
 	[Token(Token = "0x6001F4D")]
-	[Address(RVA = "0x4EAEA60", Offset = "0x4EAEA60", VA = "0x4EAEA60")]
+	[Address(RVA = "0x3B94580", Offset = "0x3B94580", VA = "0x3B94580")]
 	private List<MethodInfo> GetMethodsWithAttribute(Type attribute, Type t)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001F4F")]
-	[Address(RVA = "0x4EAECE0", Offset = "0x4EAECE0", VA = "0x4EAECE0")]
+	[Address(RVA = "0x3B94800", Offset = "0x3B94800", VA = "0x3B94800")]
 	internal void InvokeOnSerializing(object obj, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001F50")]
-	[Address(RVA = "0x4EAED60", Offset = "0x4EAED60", VA = "0x4EAED60")]
+	[Address(RVA = "0x3B94880", Offset = "0x3B94880", VA = "0x3B94880")]
 	internal void InvokeOnDeserializing(object obj, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001F51")]
-	[Address(RVA = "0x4EAEDA0", Offset = "0x4EAEDA0", VA = "0x4EAEDA0")]
+	[Address(RVA = "0x3B948C0", Offset = "0x3B948C0", VA = "0x3B948C0")]
 	internal void InvokeOnDeserialized(object obj, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001F52")]
-	[Address(RVA = "0x4EAEDE0", Offset = "0x4EAEDE0", VA = "0x4EAEDE0")]
+	[Address(RVA = "0x3B94900", Offset = "0x3B94900", VA = "0x3B94900")]
 	internal SerializationEventHandler AddOnSerialized(object obj, SerializationEventHandler handler)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001F53")]
-	[Address(RVA = "0x4EAF040", Offset = "0x4EAF040", VA = "0x4EAF040")]
+	[Address(RVA = "0x3B94B60", Offset = "0x3B94B60", VA = "0x3B94B60")]
 	internal SerializationEventHandler AddOnDeserialized(object obj, SerializationEventHandler handler)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001F54")]
-	[Address(RVA = "0x4EAED20", Offset = "0x4EAED20", VA = "0x4EAED20")]
+	[Address(RVA = "0x3B94840", Offset = "0x3B94840", VA = "0x3B94840")]
 	private static void InvokeOnDelegate(object obj, StreamingContext context, List<MethodInfo> methods)
 	{
 	}
 
 	[Token(Token = "0x6001F55")]
-	[Address(RVA = "0x4EAEDF0", Offset = "0x4EAEDF0", VA = "0x4EAEDF0")]
+	[Address(RVA = "0x3B94910", Offset = "0x3B94910", VA = "0x3B94910")]
 	private static SerializationEventHandler AddOnDelegate(object obj, SerializationEventHandler handler, List<MethodInfo> methods)
 	{
 		return null;

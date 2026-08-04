@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.ProbeGlobalIndirection
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -30,7 +37,7 @@ internal class ProbeGlobalIndirection
 		internal int minSubdiv;
 
 		[Token(Token = "0x6000918")]
-		[Address(RVA = "0x48939C0", Offset = "0x48939C0", VA = "0x48939C0")]
+		[Address(RVA = "0x4BB8AB0", Offset = "0x4BB8AB0", VA = "0x4BB8AB0")]
 		internal void Pack(out uint[] vals)
 		{
 		}
@@ -74,14 +81,14 @@ internal class ProbeGlobalIndirection
 	internal int estimatedVMemCost
 	{
 		[Token(Token = "0x6000908")]
-		[Address(RVA = "0x4893230", Offset = "0x4893230", VA = "0x4893230")]
+		[Address(RVA = "0x4BB8320", Offset = "0x4BB8320", VA = "0x4BB8320")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000909")]
-		[Address(RVA = "0x4893240", Offset = "0x4893240", VA = "0x4893240")]
+		[Address(RVA = "0x4BB8330", Offset = "0x4BB8330", VA = "0x4BB8330")]
 		[CompilerGenerated]
 		private set
 		{
@@ -92,7 +99,7 @@ internal class ProbeGlobalIndirection
 	private int entrySizeInBricks
 	{
 		[Token(Token = "0x600090D")]
-		[Address(RVA = "0x4893290", Offset = "0x4893290", VA = "0x4893290")]
+		[Address(RVA = "0x4BB8380", Offset = "0x4BB8380", VA = "0x4BB8380")]
 		get
 		{
 			return default(int);
@@ -103,7 +110,7 @@ internal class ProbeGlobalIndirection
 	internal int entriesPerCellDimension
 	{
 		[Token(Token = "0x600090E")]
-		[Address(RVA = "0x48932A0", Offset = "0x48932A0", VA = "0x48932A0")]
+		[Address(RVA = "0x4BB8390", Offset = "0x4BB8390", VA = "0x4BB8390")]
 		get
 		{
 			return default(int);
@@ -111,78 +118,78 @@ internal class ProbeGlobalIndirection
 	}
 
 	[Token(Token = "0x600090A")]
-	[Address(RVA = "0x4893250", Offset = "0x4893250", VA = "0x4893250")]
+	[Address(RVA = "0x4BB8340", Offset = "0x4BB8340", VA = "0x4BB8340")]
 	internal void GetMinMaxEntry(out Vector3Int minEntry, out Vector3Int maxEntry)
 	{
 	}
 
 	[Token(Token = "0x600090B")]
-	[Address(RVA = "0x4893270", Offset = "0x4893270", VA = "0x4893270")]
+	[Address(RVA = "0x4BB8360", Offset = "0x4BB8360", VA = "0x4BB8360")]
 	internal Vector3Int GetGlobalIndirectionDimension()
 	{
 		return default(Vector3Int);
 	}
 
 	[Token(Token = "0x600090C")]
-	[Address(RVA = "0x4893280", Offset = "0x4893280", VA = "0x4893280")]
+	[Address(RVA = "0x4BB8370", Offset = "0x4BB8370", VA = "0x4BB8370")]
 	internal Vector3Int GetGlobalIndirectionMinEntry()
 	{
 		return default(Vector3Int);
 	}
 
 	[Token(Token = "0x600090F")]
-	[Address(RVA = "0x48932C0", Offset = "0x48932C0", VA = "0x48932C0")]
+	[Address(RVA = "0x4BB83B0", Offset = "0x4BB83B0", VA = "0x4BB83B0")]
 	private int GetFlatIndex(Vector3Int normalizedPos)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000910")]
-	[Address(RVA = "0x48932E0", Offset = "0x48932E0", VA = "0x48932E0")]
+	[Address(RVA = "0x4BB83D0", Offset = "0x4BB83D0", VA = "0x4BB83D0")]
 	internal ProbeGlobalIndirection(Vector3Int cellMin, Vector3Int cellMax, int cellSizeInMinBricks)
 	{
 	}
 
 	[Token(Token = "0x6000911")]
-	[Address(RVA = "0x48934D0", Offset = "0x48934D0", VA = "0x48934D0")]
+	[Address(RVA = "0x4BB85C0", Offset = "0x4BB85C0", VA = "0x4BB85C0")]
 	internal int GetFlatIdxForEntry(Vector3Int entryPosition)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000912")]
-	[Address(RVA = "0x4893500", Offset = "0x4893500", VA = "0x4893500")]
+	[Address(RVA = "0x4BB85F0", Offset = "0x4BB85F0", VA = "0x4BB85F0")]
 	internal int[] GetFlatIndicesForCell(Vector3Int cellPosition)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000913")]
-	[Address(RVA = "0x48936C0", Offset = "0x48936C0", VA = "0x48936C0")]
+	[Address(RVA = "0x4BB87B0", Offset = "0x4BB87B0", VA = "0x4BB87B0")]
 	internal void UpdateCell(int[] cellEntriesIndices, ProbeBrickIndex.CellIndexUpdateInfo cellUpdateInfo)
 	{
 	}
 
 	[Token(Token = "0x6000914")]
-	[Address(RVA = "0x4893AF0", Offset = "0x4893AF0", VA = "0x4893AF0")]
+	[Address(RVA = "0x4BB8BE0", Offset = "0x4BB8BE0", VA = "0x4BB8BE0")]
 	internal void MarkEntriesAsUnloaded(int[] entriesFlatIndices)
 	{
 	}
 
 	[Token(Token = "0x6000915")]
-	[Address(RVA = "0x4893B80", Offset = "0x4893B80", VA = "0x4893B80")]
+	[Address(RVA = "0x4BB8C70", Offset = "0x4BB8C70", VA = "0x4BB8C70")]
 	internal void PushComputeData()
 	{
 	}
 
 	[Token(Token = "0x6000916")]
-	[Address(RVA = "0x4893BB0", Offset = "0x4893BB0", VA = "0x4893BB0")]
+	[Address(RVA = "0x4BB8CA0", Offset = "0x4BB8CA0", VA = "0x4BB8CA0")]
 	internal void GetRuntimeResources(ref ProbeReferenceVolume.RuntimeResources rr)
 	{
 	}
 
 	[Token(Token = "0x6000917")]
-	[Address(RVA = "0x4893C00", Offset = "0x4893C00", VA = "0x4893C00")]
+	[Address(RVA = "0x4BB8CF0", Offset = "0x4BB8CF0", VA = "0x4BB8CF0")]
 	internal void Cleanup()
 	{
 	}

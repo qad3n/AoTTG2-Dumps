@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.XMLDiffLoader
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Xml;
 using Il2CppDummyDll;
@@ -20,69 +27,69 @@ internal sealed class XMLDiffLoader
 	private DataTable _dataTable;
 
 	[Token(Token = "0x60007E4")]
-	[Address(RVA = "0x428CC70", Offset = "0x428CC70", VA = "0x428CC70")]
+	[Address(RVA = "0x45CA3D0", Offset = "0x45CA3D0", VA = "0x45CA3D0")]
 	internal void LoadDiffGram(DataSet ds, XmlReader dataTextReader)
 	{
 	}
 
 	[Token(Token = "0x60007E5")]
-	[Address(RVA = "0x428D750", Offset = "0x428D750", VA = "0x428D750")]
+	[Address(RVA = "0x45CAEB0", Offset = "0x45CAEB0", VA = "0x45CAEB0")]
 	private void CreateTablesHierarchy(DataTable dt)
 	{
 	}
 
 	[Token(Token = "0x60007E6")]
-	[Address(RVA = "0x428DB90", Offset = "0x428DB90", VA = "0x428DB90")]
+	[Address(RVA = "0x45CB2F0", Offset = "0x45CB2F0", VA = "0x45CB2F0")]
 	internal void LoadDiffGram(DataTable dt, XmlReader dataTextReader)
 	{
 	}
 
 	[Token(Token = "0x60007E7")]
-	[Address(RVA = "0x428CE30", Offset = "0x428CE30", VA = "0x428CE30")]
+	[Address(RVA = "0x45CA590", Offset = "0x45CA590", VA = "0x45CA590")]
 	internal void ProcessDiffs(DataSet ds, XmlReader ssync)
 	{
 	}
 
 	[Token(Token = "0x60007E8")]
-	[Address(RVA = "0x428DDB0", Offset = "0x428DDB0", VA = "0x428DDB0")]
+	[Address(RVA = "0x45CB510", Offset = "0x45CB510", VA = "0x45CB510")]
 	internal void ProcessDiffs(ArrayList tableList, XmlReader ssync)
 	{
 	}
 
 	[Token(Token = "0x60007E9")]
-	[Address(RVA = "0x428D220", Offset = "0x428D220", VA = "0x428D220")]
+	[Address(RVA = "0x45CA980", Offset = "0x45CA980", VA = "0x45CA980")]
 	internal void ProcessErrors(DataSet ds, XmlReader ssync)
 	{
 	}
 
 	[Token(Token = "0x60007EA")]
-	[Address(RVA = "0x428E170", Offset = "0x428E170", VA = "0x428E170")]
+	[Address(RVA = "0x45CB8D0", Offset = "0x45CB8D0", VA = "0x45CB8D0")]
 	internal void ProcessErrors(ArrayList dt, XmlReader ssync)
 	{
 	}
 
 	[Token(Token = "0x60007EB")]
-	[Address(RVA = "0x428F920", Offset = "0x428F920", VA = "0x428F920")]
+	[Address(RVA = "0x45CD080", Offset = "0x45CD080", VA = "0x45CD080")]
 	private DataTable GetTable(string tableName, string ns)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007EC")]
-	[Address(RVA = "0x428E790", Offset = "0x428E790", VA = "0x428E790")]
+	[Address(RVA = "0x45CBEF0", Offset = "0x45CBEF0", VA = "0x45CBEF0")]
 	private int ReadOldRowData(DataSet ds, ref DataTable table, ref int pos, XmlReader row)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60007ED")]
-	[Address(RVA = "0x428E730", Offset = "0x428E730", VA = "0x428E730")]
+	[Address(RVA = "0x45CBE90", Offset = "0x45CBE90", VA = "0x45CBE90")]
 	internal void SkipWhitespaces(XmlReader reader)
 	{
 	}
 
 	[Token(Token = "0x60007EE")]
-	[Address(RVA = "0x428FAF0", Offset = "0x428FAF0", VA = "0x428FAF0")]
+	[Address(RVA = "0x45CD250", Offset = "0x45CD250", VA = "0x45CD250")]
 	public XMLDiffLoader()
 	{
 	}

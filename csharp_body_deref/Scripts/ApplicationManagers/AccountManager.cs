@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: ApplicationManagers.AccountManager
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/ApplicationManagers/AccountManager.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,288 +20,288 @@ using UnityEngine;
 
 namespace ApplicationManagers;
 
-[Token(Token = "0x2000707")]
+[Token(Token = "0x2000755")]
 internal class AccountManager : MonoBehaviour
 {
-	[Token(Token = "0x2000708")]
+	[Token(Token = "0x2000756")]
 	private struct UnityOAuthStart
 	{
-		[Token(Token = "0x40021F3")]
+		[Token(Token = "0x4002350")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public string SessionId;
 
-		[Token(Token = "0x40021F4")]
+		[Token(Token = "0x4002351")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public string PollToken;
 
-		[Token(Token = "0x40021F5")]
+		[Token(Token = "0x4002352")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		public string AuthorizationUrl;
 
-		[Token(Token = "0x40021F6")]
+		[Token(Token = "0x4002353")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		public DateTimeOffset ExpiresAt;
 
-		[Token(Token = "0x40021F7")]
+		[Token(Token = "0x4002354")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public int PollIntervalSeconds;
 	}
 
-	[Token(Token = "0x200070A")]
+	[Token(Token = "0x2000758")]
 	[CompilerGenerated]
-	private sealed class _003C_003Ec__DisplayClass10_0
+	private sealed class _003C_003Ec__DisplayClass101_0
 	{
-		[Token(Token = "0x40021FA")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
-		public AottgApiResult result;
-
-		[Token(Token = "0x6004591")]
-		[Address(RVA = "0x408F030", Offset = "0x408F030", VA = "0x408F030")]
-		public _003C_003Ec__DisplayClass10_0()
-		{
-		}
-
-		[Token(Token = "0x6004592")]
-		[Address(RVA = "0x408F040", Offset = "0x408F040", VA = "0x408F040")]
-		internal void _003CExchangeOAuthCode_003Eb__0(AottgApiResult r)
-		{
-		}
-	}
-
-	[Token(Token = "0x200070E")]
-	[CompilerGenerated]
-	private sealed class _003C_003Ec__DisplayClass164_0
-	{
-		[Token(Token = "0x40021FE")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
-		public AottgApiResult result;
-
-		[Token(Token = "0x6004599")]
-		[Address(RVA = "0x408F360", Offset = "0x408F360", VA = "0x408F360")]
-		public _003C_003Ec__DisplayClass164_0()
-		{
-		}
-
-		[Token(Token = "0x600459A")]
-		[Address(RVA = "0x408F370", Offset = "0x408F370", VA = "0x408F370")]
-		internal void _003CGetAuthMethods_003Eb__0(AottgApiResult r)
-		{
-		}
-	}
-
-	[Token(Token = "0x200070F")]
-	[CompilerGenerated]
-	private sealed class _003C_003Ec__DisplayClass165_0
-	{
-		[Token(Token = "0x40021FF")]
+		[Token(Token = "0x4002357")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		public bool done;
 
-		[Token(Token = "0x4002200")]
+		[Token(Token = "0x4002358")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		public Action<AottgApiResult> onComplete;
 
-		[Token(Token = "0x600459B")]
-		[Address(RVA = "0x408F380", Offset = "0x408F380", VA = "0x408F380")]
-		public _003C_003Ec__DisplayClass165_0()
+		[Token(Token = "0x60047F9")]
+		[Address(RVA = "0x43A7080", Offset = "0x43A7080", VA = "0x43A7080")]
+		public _003C_003Ec__DisplayClass101_0()
 		{
 		}
 
-		[Token(Token = "0x600459C")]
-		[Address(RVA = "0x408F390", Offset = "0x408F390", VA = "0x408F390")]
-		internal void _003CSendApiGet_003Eb__0(AottgApiResult result)
-		{
-		}
-	}
-
-	[Token(Token = "0x2000710")]
-	[CompilerGenerated]
-	private sealed class _003C_003Ec__DisplayClass167_0
-	{
-		[Token(Token = "0x4002201")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
-		public bool done;
-
-		[Token(Token = "0x4002202")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
-		public Action<AottgApiResult> onComplete;
-
-		[Token(Token = "0x600459D")]
-		[Address(RVA = "0x408F3B0", Offset = "0x408F3B0", VA = "0x408F3B0")]
-		public _003C_003Ec__DisplayClass167_0()
-		{
-		}
-
-		[Token(Token = "0x600459E")]
-		[Address(RVA = "0x408F3C0", Offset = "0x408F3C0", VA = "0x408F3C0")]
+		[Token(Token = "0x60047FA")]
+		[Address(RVA = "0x43A7090", Offset = "0x43A7090", VA = "0x43A7090")]
 		internal void _003CSendApiJson_003Eb__0(AottgApiResult result)
 		{
 		}
 	}
 
-	[Token(Token = "0x2000711")]
+	[Token(Token = "0x2000759")]
 	[CompilerGenerated]
-	private sealed class _003C_003Ec__DisplayClass171_0
+	private sealed class _003C_003Ec__DisplayClass105_0
 	{
-		[Token(Token = "0x4002203")]
+		[Token(Token = "0x4002359")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		public AottgApiResult result;
 
-		[Token(Token = "0x600459F")]
-		[Address(RVA = "0x408F3E0", Offset = "0x408F3E0", VA = "0x408F3E0")]
-		public _003C_003Ec__DisplayClass171_0()
+		[Token(Token = "0x60047FB")]
+		[Address(RVA = "0x43A70B0", Offset = "0x43A70B0", VA = "0x43A70B0")]
+		public _003C_003Ec__DisplayClass105_0()
 		{
 		}
 
-		[Token(Token = "0x60045A0")]
-		[Address(RVA = "0x408F3F0", Offset = "0x408F3F0", VA = "0x408F3F0")]
+		[Token(Token = "0x60047FC")]
+		[Address(RVA = "0x43A70C0", Offset = "0x43A70C0", VA = "0x43A70C0")]
 		internal void _003CDeleteJson_003Eb__0(AottgApiResult r)
 		{
 		}
 	}
 
-	[Token(Token = "0x2000712")]
+	[Token(Token = "0x200075A")]
 	[CompilerGenerated]
-	private sealed class _003C_003Ec__DisplayClass172_0
+	private sealed class _003C_003Ec__DisplayClass106_0
 	{
-		[Token(Token = "0x4002204")]
+		[Token(Token = "0x400235A")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		public AottgApiResult result;
 
-		[Token(Token = "0x60045A1")]
-		[Address(RVA = "0x408F400", Offset = "0x408F400", VA = "0x408F400")]
-		public _003C_003Ec__DisplayClass172_0()
+		[Token(Token = "0x60047FD")]
+		[Address(RVA = "0x43A70D0", Offset = "0x43A70D0", VA = "0x43A70D0")]
+		public _003C_003Ec__DisplayClass106_0()
 		{
 		}
 
-		[Token(Token = "0x60045A2")]
-		[Address(RVA = "0x408F410", Offset = "0x408F410", VA = "0x408F410")]
+		[Token(Token = "0x60047FE")]
+		[Address(RVA = "0x43A70E0", Offset = "0x43A70E0", VA = "0x43A70E0")]
 		internal void _003CPostJson_003Eb__0(AottgApiResult r)
 		{
 		}
 	}
 
-	[Token(Token = "0x2000717")]
+	[Token(Token = "0x200075B")]
 	[CompilerGenerated]
-	private sealed class _003C_003Ec__DisplayClass54_0
+	private sealed class _003C_003Ec__DisplayClass124_0
 	{
-		[Token(Token = "0x400220A")]
+		[Token(Token = "0x400235B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		public AottgApiResult result;
 
-		[Token(Token = "0x60045AB")]
-		[Address(RVA = "0x408F7F0", Offset = "0x408F7F0", VA = "0x408F7F0")]
-		public _003C_003Ec__DisplayClass54_0()
+		[Token(Token = "0x60047FF")]
+		[Address(RVA = "0x43A70F0", Offset = "0x43A70F0", VA = "0x43A70F0")]
+		public _003C_003Ec__DisplayClass124_0()
 		{
 		}
 
-		[Token(Token = "0x60045AC")]
-		[Address(RVA = "0x408F800", Offset = "0x408F800", VA = "0x408F800")]
-		internal void _003CSendMeJson_003Eb__0(AottgApiResult r)
-		{
-		}
-	}
-
-	[Token(Token = "0x2000718")]
-	[CompilerGenerated]
-	private sealed class _003C_003Ec__DisplayClass55_0
-	{
-		[Token(Token = "0x400220B")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
-		public AottgApiResult result;
-
-		[Token(Token = "0x60045AD")]
-		[Address(RVA = "0x408F810", Offset = "0x408F810", VA = "0x408F810")]
-		public _003C_003Ec__DisplayClass55_0()
-		{
-		}
-
-		[Token(Token = "0x60045AE")]
-		[Address(RVA = "0x408F820", Offset = "0x408F820", VA = "0x408F820")]
-		internal void _003CSendMeReadJson_003Eb__0(AottgApiResult r)
-		{
-		}
-	}
-
-	[Token(Token = "0x2000719")]
-	[CompilerGenerated]
-	private sealed class _003C_003Ec__DisplayClass8_0
-	{
-		[Token(Token = "0x400220C")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
-		public AottgApiResult result;
-
-		[Token(Token = "0x60045AF")]
-		[Address(RVA = "0x408F830", Offset = "0x408F830", VA = "0x408F830")]
-		public _003C_003Ec__DisplayClass8_0()
-		{
-		}
-
-		[Token(Token = "0x60045B0")]
-		[Address(RVA = "0x408F840", Offset = "0x408F840", VA = "0x408F840")]
+		[Token(Token = "0x6004800")]
+		[Address(RVA = "0x43A7100", Offset = "0x43A7100", VA = "0x43A7100")]
 		internal void _003COAuthFlow_003Eb__0(AottgApiResult r)
 		{
 		}
 	}
 
-	[Token(Token = "0x200071A")]
+	[Token(Token = "0x200075C")]
 	[CompilerGenerated]
-	private sealed class _003C_003Ec__DisplayClass9_0
+	private sealed class _003C_003Ec__DisplayClass125_0
 	{
-		[Token(Token = "0x400220D")]
+		[Token(Token = "0x400235C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		public AottgApiResult result;
 
-		[Token(Token = "0x60045B1")]
-		[Address(RVA = "0x408F850", Offset = "0x408F850", VA = "0x408F850")]
-		public _003C_003Ec__DisplayClass9_0()
+		[Token(Token = "0x6004801")]
+		[Address(RVA = "0x43A7110", Offset = "0x43A7110", VA = "0x43A7110")]
+		public _003C_003Ec__DisplayClass125_0()
 		{
 		}
 
-		[Token(Token = "0x60045B2")]
-		[Address(RVA = "0x408F860", Offset = "0x408F860", VA = "0x408F860")]
+		[Token(Token = "0x6004802")]
+		[Address(RVA = "0x43A7120", Offset = "0x43A7120", VA = "0x43A7120")]
 		internal void _003CPollUnityOAuth_003Eb__0(AottgApiResult r)
 		{
 		}
 	}
 
-	[Token(Token = "0x200071B")]
+	[Token(Token = "0x200075D")]
 	[CompilerGenerated]
-	private sealed class _003CDeleteJson_003Ed__171 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003C_003Ec__DisplayClass126_0
 	{
-		[Token(Token = "0x400220E")]
+		[Token(Token = "0x400235D")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
+		public AottgApiResult result;
+
+		[Token(Token = "0x6004803")]
+		[Address(RVA = "0x43A7130", Offset = "0x43A7130", VA = "0x43A7130")]
+		public _003C_003Ec__DisplayClass126_0()
+		{
+		}
+
+		[Token(Token = "0x6004804")]
+		[Address(RVA = "0x43A7140", Offset = "0x43A7140", VA = "0x43A7140")]
+		internal void _003CExchangeOAuthCode_003Eb__0(AottgApiResult r)
+		{
+		}
+	}
+
+	[Token(Token = "0x2000762")]
+	[CompilerGenerated]
+	private sealed class _003C_003Ec__DisplayClass170_0
+	{
+		[Token(Token = "0x4002363")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
+		public AottgApiResult result;
+
+		[Token(Token = "0x600480D")]
+		[Address(RVA = "0x43A7520", Offset = "0x43A7520", VA = "0x43A7520")]
+		public _003C_003Ec__DisplayClass170_0()
+		{
+		}
+
+		[Token(Token = "0x600480E")]
+		[Address(RVA = "0x43A7530", Offset = "0x43A7530", VA = "0x43A7530")]
+		internal void _003CSendMeJson_003Eb__0(AottgApiResult r)
+		{
+		}
+	}
+
+	[Token(Token = "0x2000763")]
+	[CompilerGenerated]
+	private sealed class _003C_003Ec__DisplayClass171_0
+	{
+		[Token(Token = "0x4002364")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
+		public AottgApiResult result;
+
+		[Token(Token = "0x600480F")]
+		[Address(RVA = "0x43A7540", Offset = "0x43A7540", VA = "0x43A7540")]
+		public _003C_003Ec__DisplayClass171_0()
+		{
+		}
+
+		[Token(Token = "0x6004810")]
+		[Address(RVA = "0x43A7550", Offset = "0x43A7550", VA = "0x43A7550")]
+		internal void _003CSendMeReadJson_003Eb__0(AottgApiResult r)
+		{
+		}
+	}
+
+	[Token(Token = "0x2000767")]
+	[CompilerGenerated]
+	private sealed class _003C_003Ec__DisplayClass98_0
+	{
+		[Token(Token = "0x4002368")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
+		public AottgApiResult result;
+
+		[Token(Token = "0x6004817")]
+		[Address(RVA = "0x43A7860", Offset = "0x43A7860", VA = "0x43A7860")]
+		public _003C_003Ec__DisplayClass98_0()
+		{
+		}
+
+		[Token(Token = "0x6004818")]
+		[Address(RVA = "0x43A7870", Offset = "0x43A7870", VA = "0x43A7870")]
+		internal void _003CGetAuthMethods_003Eb__0(AottgApiResult r)
+		{
+		}
+	}
+
+	[Token(Token = "0x2000768")]
+	[CompilerGenerated]
+	private sealed class _003C_003Ec__DisplayClass99_0
+	{
+		[Token(Token = "0x4002369")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
+		public bool done;
+
+		[Token(Token = "0x400236A")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
+		public Action<AottgApiResult> onComplete;
+
+		[Token(Token = "0x6004819")]
+		[Address(RVA = "0x43A7880", Offset = "0x43A7880", VA = "0x43A7880")]
+		public _003C_003Ec__DisplayClass99_0()
+		{
+		}
+
+		[Token(Token = "0x600481A")]
+		[Address(RVA = "0x43A7890", Offset = "0x43A7890", VA = "0x43A7890")]
+		internal void _003CSendApiGet_003Eb__0(AottgApiResult result)
+		{
+		}
+	}
+
+	[Token(Token = "0x2000769")]
+	[CompilerGenerated]
+	private sealed class _003CDeleteJson_003Ed__105 : IEnumerator<object>, IEnumerator, IDisposable
+	{
+		[Token(Token = "0x400236B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x400220F")]
+		[Token(Token = "0x400236C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4002210")]
+		[Token(Token = "0x400236D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public AccountManager _003C_003E4__this;
 
-		[Token(Token = "0x4002211")]
+		[Token(Token = "0x400236E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public string path;
 
-		[Token(Token = "0x4002212")]
+		[Token(Token = "0x400236F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public string bearer;
 
-		[Token(Token = "0x4002213")]
+		[Token(Token = "0x4002370")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
-		private _003C_003Ec__DisplayClass171_0 _003C_003E8__1;
+		private _003C_003Ec__DisplayClass105_0 _003C_003E8__1;
 
-		[Token(Token = "0x4002214")]
+		[Token(Token = "0x4002371")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		public Action<bool, string> onComplete;
 
-		[Token(Token = "0x17000D63")]
+		[Token(Token = "0x17000DDD")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60045B6")]
-			[Address(RVA = "0x408FA60", Offset = "0x408FA60", VA = "0x408FA60", Slot = "4")]
+			[Token(Token = "0x600481E")]
+			[Address(RVA = "0x43A7AA0", Offset = "0x43A7AA0", VA = "0x43A7AA0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -302,11 +309,11 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000D64")]
+		[Token(Token = "0x17000DDE")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60045B8")]
-			[Address(RVA = "0x408FAB0", Offset = "0x408FAB0", VA = "0x408FAB0", Slot = "7")]
+			[Token(Token = "0x6004820")]
+			[Address(RVA = "0x43A7AF0", Offset = "0x43A7AF0", VA = "0x43A7AF0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -314,68 +321,68 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x60045B3")]
-		[Address(RVA = "0x408DA80", Offset = "0x408DA80", VA = "0x408DA80")]
+		[Token(Token = "0x600481B")]
+		[Address(RVA = "0x43A1DD0", Offset = "0x43A1DD0", VA = "0x43A1DD0")]
 		[DebuggerHidden]
-		public _003CDeleteJson_003Ed__171(int _003C_003E1__state)
+		public _003CDeleteJson_003Ed__105(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60045B4")]
-		[Address(RVA = "0x408F870", Offset = "0x408F870", VA = "0x408F870", Slot = "5")]
+		[Token(Token = "0x600481C")]
+		[Address(RVA = "0x43A78B0", Offset = "0x43A78B0", VA = "0x43A78B0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60045B5")]
-		[Address(RVA = "0x408F880", Offset = "0x408F880", VA = "0x408F880", Slot = "6")]
+		[Token(Token = "0x600481D")]
+		[Address(RVA = "0x43A78C0", Offset = "0x43A78C0", VA = "0x43A78C0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60045B7")]
-		[Address(RVA = "0x408FA70", Offset = "0x408FA70", VA = "0x408FA70", Slot = "8")]
+		[Token(Token = "0x600481F")]
+		[Address(RVA = "0x43A7AB0", Offset = "0x43A7AB0", VA = "0x43A7AB0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x200071C")]
+	[Token(Token = "0x200076A")]
 	[CompilerGenerated]
-	private sealed class _003CExchangeOAuthCode_003Ed__10 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CExchangeOAuthCode_003Ed__126 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4002215")]
+		[Token(Token = "0x4002372")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002216")]
+		[Token(Token = "0x4002373")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4002217")]
+		[Token(Token = "0x4002374")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public string code;
 
-		[Token(Token = "0x4002218")]
+		[Token(Token = "0x4002375")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public AccountManager _003C_003E4__this;
 
-		[Token(Token = "0x4002219")]
+		[Token(Token = "0x4002376")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public bool reportNetworkError;
 
-		[Token(Token = "0x400221A")]
+		[Token(Token = "0x4002377")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
-		private _003C_003Ec__DisplayClass10_0 _003C_003E8__1;
+		private _003C_003Ec__DisplayClass126_0 _003C_003E8__1;
 
-		[Token(Token = "0x17000D65")]
+		[Token(Token = "0x17000DDF")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60045BC")]
-			[Address(RVA = "0x408FF70", Offset = "0x408FF70", VA = "0x408FF70", Slot = "4")]
+			[Token(Token = "0x6004824")]
+			[Address(RVA = "0x43A7FB0", Offset = "0x43A7FB0", VA = "0x43A7FB0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -383,11 +390,11 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000D66")]
+		[Token(Token = "0x17000DE0")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60045BE")]
-			[Address(RVA = "0x408FFC0", Offset = "0x408FFC0", VA = "0x408FFC0", Slot = "7")]
+			[Token(Token = "0x6004826")]
+			[Address(RVA = "0x43A8000", Offset = "0x43A8000", VA = "0x43A8000", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -395,64 +402,64 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x60045B9")]
-		[Address(RVA = "0x4085140", Offset = "0x4085140", VA = "0x4085140")]
+		[Token(Token = "0x6004821")]
+		[Address(RVA = "0x43A3DD0", Offset = "0x43A3DD0", VA = "0x43A3DD0")]
 		[DebuggerHidden]
-		public _003CExchangeOAuthCode_003Ed__10(int _003C_003E1__state)
+		public _003CExchangeOAuthCode_003Ed__126(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60045BA")]
-		[Address(RVA = "0x408FAC0", Offset = "0x408FAC0", VA = "0x408FAC0", Slot = "5")]
+		[Token(Token = "0x6004822")]
+		[Address(RVA = "0x43A7B00", Offset = "0x43A7B00", VA = "0x43A7B00", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60045BB")]
-		[Address(RVA = "0x408FAD0", Offset = "0x408FAD0", VA = "0x408FAD0", Slot = "6")]
+		[Token(Token = "0x6004823")]
+		[Address(RVA = "0x43A7B10", Offset = "0x43A7B10", VA = "0x43A7B10", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60045BD")]
-		[Address(RVA = "0x408FF80", Offset = "0x408FF80", VA = "0x408FF80", Slot = "8")]
+		[Token(Token = "0x6004825")]
+		[Address(RVA = "0x43A7FC0", Offset = "0x43A7FC0", VA = "0x43A7FC0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x200071D")]
+	[Token(Token = "0x200076B")]
 	[CompilerGenerated]
-	private sealed class _003CGetAuthMethods_003Ed__164 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CGetAuthMethods_003Ed__98 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x400221B")]
+		[Token(Token = "0x4002378")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x400221C")]
+		[Token(Token = "0x4002379")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x400221D")]
+		[Token(Token = "0x400237A")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public AccountManager _003C_003E4__this;
 
-		[Token(Token = "0x400221E")]
+		[Token(Token = "0x400237B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
-		private _003C_003Ec__DisplayClass164_0 _003C_003E8__1;
+		private _003C_003Ec__DisplayClass98_0 _003C_003E8__1;
 
-		[Token(Token = "0x400221F")]
+		[Token(Token = "0x400237C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public Action<bool, string> onComplete;
 
-		[Token(Token = "0x17000D67")]
+		[Token(Token = "0x17000DE1")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60045C2")]
-			[Address(RVA = "0x4090320", Offset = "0x4090320", VA = "0x4090320", Slot = "4")]
+			[Token(Token = "0x600482A")]
+			[Address(RVA = "0x43A8360", Offset = "0x43A8360", VA = "0x43A8360", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -460,11 +467,11 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000D68")]
+		[Token(Token = "0x17000DE2")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60045C4")]
-			[Address(RVA = "0x4090370", Offset = "0x4090370", VA = "0x4090370", Slot = "7")]
+			[Token(Token = "0x600482C")]
+			[Address(RVA = "0x43A83B0", Offset = "0x43A83B0", VA = "0x43A83B0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -472,60 +479,60 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x60045BF")]
-		[Address(RVA = "0x408D430", Offset = "0x408D430", VA = "0x408D430")]
+		[Token(Token = "0x6004827")]
+		[Address(RVA = "0x43A1630", Offset = "0x43A1630", VA = "0x43A1630")]
 		[DebuggerHidden]
-		public _003CGetAuthMethods_003Ed__164(int _003C_003E1__state)
+		public _003CGetAuthMethods_003Ed__98(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60045C0")]
-		[Address(RVA = "0x408FFD0", Offset = "0x408FFD0", VA = "0x408FFD0", Slot = "5")]
+		[Token(Token = "0x6004828")]
+		[Address(RVA = "0x43A8010", Offset = "0x43A8010", VA = "0x43A8010", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60045C1")]
-		[Address(RVA = "0x408FFE0", Offset = "0x408FFE0", VA = "0x408FFE0", Slot = "6")]
+		[Token(Token = "0x6004829")]
+		[Address(RVA = "0x43A8020", Offset = "0x43A8020", VA = "0x43A8020", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60045C3")]
-		[Address(RVA = "0x4090330", Offset = "0x4090330", VA = "0x4090330", Slot = "8")]
+		[Token(Token = "0x600482B")]
+		[Address(RVA = "0x43A8370", Offset = "0x43A8370", VA = "0x43A8370", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x200071E")]
+	[Token(Token = "0x200076C")]
 	[CompilerGenerated]
-	private sealed class _003CGetCharacterInfoJson_003Ed__52 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CGetCharacterInfoJson_003Ed__168 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4002220")]
+		[Token(Token = "0x400237D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002221")]
+		[Token(Token = "0x400237E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4002222")]
+		[Token(Token = "0x400237F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public Action<bool, string, JSONNode> onComplete;
 
-		[Token(Token = "0x4002223")]
+		[Token(Token = "0x4002380")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public AccountManager _003C_003E4__this;
 
-		[Token(Token = "0x17000D69")]
+		[Token(Token = "0x17000DE3")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60045C8")]
-			[Address(RVA = "0x40904D0", Offset = "0x40904D0", VA = "0x40904D0", Slot = "4")]
+			[Token(Token = "0x6004830")]
+			[Address(RVA = "0x43A8510", Offset = "0x43A8510", VA = "0x43A8510", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -533,11 +540,11 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000D6A")]
+		[Token(Token = "0x17000DE4")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60045CA")]
-			[Address(RVA = "0x4090520", Offset = "0x4090520", VA = "0x4090520", Slot = "7")]
+			[Token(Token = "0x6004832")]
+			[Address(RVA = "0x43A8560", Offset = "0x43A8560", VA = "0x43A8560", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -545,60 +552,60 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x60045C5")]
-		[Address(RVA = "0x4087590", Offset = "0x4087590", VA = "0x4087590")]
+		[Token(Token = "0x600482D")]
+		[Address(RVA = "0x43A61C0", Offset = "0x43A61C0", VA = "0x43A61C0")]
 		[DebuggerHidden]
-		public _003CGetCharacterInfoJson_003Ed__52(int _003C_003E1__state)
+		public _003CGetCharacterInfoJson_003Ed__168(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60045C6")]
-		[Address(RVA = "0x4090380", Offset = "0x4090380", VA = "0x4090380", Slot = "5")]
+		[Token(Token = "0x600482E")]
+		[Address(RVA = "0x43A83C0", Offset = "0x43A83C0", VA = "0x43A83C0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60045C7")]
-		[Address(RVA = "0x4090390", Offset = "0x4090390", VA = "0x4090390", Slot = "6")]
+		[Token(Token = "0x600482F")]
+		[Address(RVA = "0x43A83D0", Offset = "0x43A83D0", VA = "0x43A83D0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60045C9")]
-		[Address(RVA = "0x40904E0", Offset = "0x40904E0", VA = "0x40904E0", Slot = "8")]
+		[Token(Token = "0x6004831")]
+		[Address(RVA = "0x43A8520", Offset = "0x43A8520", VA = "0x43A8520", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x200071F")]
+	[Token(Token = "0x200076D")]
 	[CompilerGenerated]
-	private sealed class _003CGetProfileJson_003Ed__50 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CGetProfileJson_003Ed__166 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4002224")]
+		[Token(Token = "0x4002381")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002225")]
+		[Token(Token = "0x4002382")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4002226")]
+		[Token(Token = "0x4002383")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public Action<bool, string> onComplete;
 
-		[Token(Token = "0x4002227")]
+		[Token(Token = "0x4002384")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public AccountManager _003C_003E4__this;
 
-		[Token(Token = "0x17000D6B")]
+		[Token(Token = "0x17000DE5")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60045CE")]
-			[Address(RVA = "0x4090680", Offset = "0x4090680", VA = "0x4090680", Slot = "4")]
+			[Token(Token = "0x6004836")]
+			[Address(RVA = "0x43A86C0", Offset = "0x43A86C0", VA = "0x43A86C0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -606,11 +613,11 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000D6C")]
+		[Token(Token = "0x17000DE6")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60045D0")]
-			[Address(RVA = "0x40906D0", Offset = "0x40906D0", VA = "0x40906D0", Slot = "7")]
+			[Token(Token = "0x6004838")]
+			[Address(RVA = "0x43A8710", Offset = "0x43A8710", VA = "0x43A8710", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -618,72 +625,72 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x60045CB")]
-		[Address(RVA = "0x4087550", Offset = "0x4087550", VA = "0x4087550")]
+		[Token(Token = "0x6004833")]
+		[Address(RVA = "0x43A6180", Offset = "0x43A6180", VA = "0x43A6180")]
 		[DebuggerHidden]
-		public _003CGetProfileJson_003Ed__50(int _003C_003E1__state)
+		public _003CGetProfileJson_003Ed__166(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60045CC")]
-		[Address(RVA = "0x4090530", Offset = "0x4090530", VA = "0x4090530", Slot = "5")]
+		[Token(Token = "0x6004834")]
+		[Address(RVA = "0x43A8570", Offset = "0x43A8570", VA = "0x43A8570", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60045CD")]
-		[Address(RVA = "0x4090540", Offset = "0x4090540", VA = "0x4090540", Slot = "6")]
+		[Token(Token = "0x6004835")]
+		[Address(RVA = "0x43A8580", Offset = "0x43A8580", VA = "0x43A8580", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60045CF")]
-		[Address(RVA = "0x4090690", Offset = "0x4090690", VA = "0x4090690", Slot = "8")]
+		[Token(Token = "0x6004837")]
+		[Address(RVA = "0x43A86D0", Offset = "0x43A86D0", VA = "0x43A86D0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000720")]
+	[Token(Token = "0x200076E")]
 	[CompilerGenerated]
-	private sealed class _003COAuthFlow_003Ed__8 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003COAuthFlow_003Ed__124 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4002228")]
+		[Token(Token = "0x4002385")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002229")]
+		[Token(Token = "0x4002386")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x400222A")]
+		[Token(Token = "0x4002387")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public string provider;
 
-		[Token(Token = "0x400222B")]
+		[Token(Token = "0x4002388")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public AccountManager _003C_003E4__this;
 
-		[Token(Token = "0x400222C")]
+		[Token(Token = "0x4002389")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public bool reportNetworkError;
 
-		[Token(Token = "0x400222D")]
+		[Token(Token = "0x400238A")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x34")]
 		public int attemptId;
 
-		[Token(Token = "0x400222E")]
+		[Token(Token = "0x400238B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
-		private _003C_003Ec__DisplayClass8_0 _003C_003E8__1;
+		private _003C_003Ec__DisplayClass124_0 _003C_003E8__1;
 
-		[Token(Token = "0x17000D6D")]
+		[Token(Token = "0x17000DE7")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60045D4")]
-			[Address(RVA = "0x4090CA0", Offset = "0x4090CA0", VA = "0x4090CA0", Slot = "4")]
+			[Token(Token = "0x600483C")]
+			[Address(RVA = "0x43A8CF0", Offset = "0x43A8CF0", VA = "0x43A8CF0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -691,11 +698,11 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000D6E")]
+		[Token(Token = "0x17000DE8")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60045D6")]
-			[Address(RVA = "0x4090CF0", Offset = "0x4090CF0", VA = "0x4090CF0", Slot = "7")]
+			[Token(Token = "0x600483E")]
+			[Address(RVA = "0x43A8D40", Offset = "0x43A8D40", VA = "0x43A8D40", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -703,68 +710,68 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x60045D1")]
-		[Address(RVA = "0x4084FC0", Offset = "0x4084FC0", VA = "0x4084FC0")]
+		[Token(Token = "0x6004839")]
+		[Address(RVA = "0x43A3C50", Offset = "0x43A3C50", VA = "0x43A3C50")]
 		[DebuggerHidden]
-		public _003COAuthFlow_003Ed__8(int _003C_003E1__state)
+		public _003COAuthFlow_003Ed__124(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60045D2")]
-		[Address(RVA = "0x40906E0", Offset = "0x40906E0", VA = "0x40906E0", Slot = "5")]
+		[Token(Token = "0x600483A")]
+		[Address(RVA = "0x43A8720", Offset = "0x43A8720", VA = "0x43A8720", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60045D3")]
-		[Address(RVA = "0x40906F0", Offset = "0x40906F0", VA = "0x40906F0", Slot = "6")]
+		[Token(Token = "0x600483B")]
+		[Address(RVA = "0x43A8730", Offset = "0x43A8730", VA = "0x43A8730", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60045D5")]
-		[Address(RVA = "0x4090CB0", Offset = "0x4090CB0", VA = "0x4090CB0", Slot = "8")]
+		[Token(Token = "0x600483D")]
+		[Address(RVA = "0x43A8D00", Offset = "0x43A8D00", VA = "0x43A8D00", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000721")]
+	[Token(Token = "0x200076F")]
 	[CompilerGenerated]
-	private sealed class _003CPatchProfileJson_003Ed__51 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CPatchProfileJson_003Ed__167 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x400222F")]
+		[Token(Token = "0x400238C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002230")]
+		[Token(Token = "0x400238D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4002231")]
+		[Token(Token = "0x400238E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public Action<bool, string> onComplete;
 
-		[Token(Token = "0x4002232")]
+		[Token(Token = "0x400238F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public AccountManager _003C_003E4__this;
 
-		[Token(Token = "0x4002233")]
+		[Token(Token = "0x4002390")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public string json;
 
-		[Token(Token = "0x4002234")]
+		[Token(Token = "0x4002391")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		public bool reportNetworkError;
 
-		[Token(Token = "0x17000D6F")]
+		[Token(Token = "0x17000DE9")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60045DA")]
-			[Address(RVA = "0x4090E60", Offset = "0x4090E60", VA = "0x4090E60", Slot = "4")]
+			[Token(Token = "0x6004842")]
+			[Address(RVA = "0x43A8EB0", Offset = "0x43A8EB0", VA = "0x43A8EB0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -772,11 +779,11 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000D70")]
+		[Token(Token = "0x17000DEA")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60045DC")]
-			[Address(RVA = "0x4090EB0", Offset = "0x4090EB0", VA = "0x4090EB0", Slot = "7")]
+			[Token(Token = "0x6004844")]
+			[Address(RVA = "0x43A8F00", Offset = "0x43A8F00", VA = "0x43A8F00", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -784,76 +791,76 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x60045D7")]
-		[Address(RVA = "0x4087570", Offset = "0x4087570", VA = "0x4087570")]
+		[Token(Token = "0x600483F")]
+		[Address(RVA = "0x43A61A0", Offset = "0x43A61A0", VA = "0x43A61A0")]
 		[DebuggerHidden]
-		public _003CPatchProfileJson_003Ed__51(int _003C_003E1__state)
+		public _003CPatchProfileJson_003Ed__167(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60045D8")]
-		[Address(RVA = "0x4090D00", Offset = "0x4090D00", VA = "0x4090D00", Slot = "5")]
+		[Token(Token = "0x6004840")]
+		[Address(RVA = "0x43A8D50", Offset = "0x43A8D50", VA = "0x43A8D50", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60045D9")]
-		[Address(RVA = "0x4090D10", Offset = "0x4090D10", VA = "0x4090D10", Slot = "6")]
+		[Token(Token = "0x6004841")]
+		[Address(RVA = "0x43A8D60", Offset = "0x43A8D60", VA = "0x43A8D60", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60045DB")]
-		[Address(RVA = "0x4090E70", Offset = "0x4090E70", VA = "0x4090E70", Slot = "8")]
+		[Token(Token = "0x6004843")]
+		[Address(RVA = "0x43A8EC0", Offset = "0x43A8EC0", VA = "0x43A8EC0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000722")]
+	[Token(Token = "0x2000770")]
 	[CompilerGenerated]
-	private sealed class _003CPollUnityOAuth_003Ed__9 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CPollUnityOAuth_003Ed__125 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4002235")]
+		[Token(Token = "0x4002392")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002236")]
+		[Token(Token = "0x4002393")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4002237")]
+		[Token(Token = "0x4002394")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public UnityOAuthStart start;
 
-		[Token(Token = "0x4002238")]
+		[Token(Token = "0x4002395")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 		public AccountManager _003C_003E4__this;
 
-		[Token(Token = "0x4002239")]
+		[Token(Token = "0x4002396")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 		public bool reportNetworkError;
 
-		[Token(Token = "0x400223A")]
+		[Token(Token = "0x4002397")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x5C")]
 		public int attemptId;
 
-		[Token(Token = "0x400223B")]
+		[Token(Token = "0x4002398")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
-		private _003C_003Ec__DisplayClass9_0 _003C_003E8__1;
+		private _003C_003Ec__DisplayClass125_0 _003C_003E8__1;
 
-		[Token(Token = "0x400223C")]
+		[Token(Token = "0x4002399")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 		private float _003CpollSeconds_003E5__2;
 
-		[Token(Token = "0x17000D71")]
+		[Token(Token = "0x17000DEB")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60045E0")]
-			[Address(RVA = "0x4091600", Offset = "0x4091600", VA = "0x4091600", Slot = "4")]
+			[Token(Token = "0x6004848")]
+			[Address(RVA = "0x43A9650", Offset = "0x43A9650", VA = "0x43A9650", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -861,11 +868,11 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000D72")]
+		[Token(Token = "0x17000DEC")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60045E2")]
-			[Address(RVA = "0x4091650", Offset = "0x4091650", VA = "0x4091650", Slot = "7")]
+			[Token(Token = "0x600484A")]
+			[Address(RVA = "0x43A96A0", Offset = "0x43A96A0", VA = "0x43A96A0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -873,92 +880,92 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x60045DD")]
-		[Address(RVA = "0x4085090", Offset = "0x4085090", VA = "0x4085090")]
+		[Token(Token = "0x6004845")]
+		[Address(RVA = "0x43A3D20", Offset = "0x43A3D20", VA = "0x43A3D20")]
 		[DebuggerHidden]
-		public _003CPollUnityOAuth_003Ed__9(int _003C_003E1__state)
+		public _003CPollUnityOAuth_003Ed__125(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60045DE")]
-		[Address(RVA = "0x4090EC0", Offset = "0x4090EC0", VA = "0x4090EC0", Slot = "5")]
+		[Token(Token = "0x6004846")]
+		[Address(RVA = "0x43A8F10", Offset = "0x43A8F10", VA = "0x43A8F10", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60045DF")]
-		[Address(RVA = "0x4090ED0", Offset = "0x4090ED0", VA = "0x4090ED0", Slot = "6")]
+		[Token(Token = "0x6004847")]
+		[Address(RVA = "0x43A8F20", Offset = "0x43A8F20", VA = "0x43A8F20", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60045E1")]
-		[Address(RVA = "0x4091610", Offset = "0x4091610", VA = "0x4091610", Slot = "8")]
+		[Token(Token = "0x6004849")]
+		[Address(RVA = "0x43A9660", Offset = "0x43A9660", VA = "0x43A9660", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000723")]
+	[Token(Token = "0x2000771")]
 	[CompilerGenerated]
-	private sealed class _003CPostJson_003Ed__172 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CPostJson_003Ed__106 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x400223D")]
+		[Token(Token = "0x400239A")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x400223E")]
+		[Token(Token = "0x400239B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x400223F")]
+		[Token(Token = "0x400239C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public AccountManager _003C_003E4__this;
 
-		[Token(Token = "0x4002240")]
+		[Token(Token = "0x400239D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public string path;
 
-		[Token(Token = "0x4002241")]
+		[Token(Token = "0x400239E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public string json;
 
-		[Token(Token = "0x4002242")]
+		[Token(Token = "0x400239F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		public string bearer;
 
-		[Token(Token = "0x4002243")]
+		[Token(Token = "0x40023A0")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		public bool reportNetworkError;
 
-		[Token(Token = "0x4002244")]
+		[Token(Token = "0x40023A1")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
-		private _003C_003Ec__DisplayClass172_0 _003C_003E8__1;
+		private _003C_003Ec__DisplayClass106_0 _003C_003E8__1;
 
-		[Token(Token = "0x4002245")]
+		[Token(Token = "0x40023A2")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 		public string captureField;
 
-		[Token(Token = "0x4002246")]
+		[Token(Token = "0x40023A3")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 		public Action<string> captureTarget;
 
-		[Token(Token = "0x4002247")]
+		[Token(Token = "0x40023A4")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 		public bool applyAuthResponse;
 
-		[Token(Token = "0x4002248")]
+		[Token(Token = "0x40023A5")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 		public Action<bool, string> onComplete;
 
-		[Token(Token = "0x17000D73")]
+		[Token(Token = "0x17000DED")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60045E6")]
-			[Address(RVA = "0x4091C70", Offset = "0x4091C70", VA = "0x4091C70", Slot = "4")]
+			[Token(Token = "0x600484E")]
+			[Address(RVA = "0x43A9CC0", Offset = "0x43A9CC0", VA = "0x43A9CC0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -966,11 +973,11 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000D74")]
+		[Token(Token = "0x17000DEE")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60045E8")]
-			[Address(RVA = "0x4091CC0", Offset = "0x4091CC0", VA = "0x4091CC0", Slot = "7")]
+			[Token(Token = "0x6004850")]
+			[Address(RVA = "0x43A9D10", Offset = "0x43A9D10", VA = "0x43A9D10", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -978,72 +985,72 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x60045E3")]
-		[Address(RVA = "0x408DAA0", Offset = "0x408DAA0", VA = "0x408DAA0")]
+		[Token(Token = "0x600484B")]
+		[Address(RVA = "0x43A1DF0", Offset = "0x43A1DF0", VA = "0x43A1DF0")]
 		[DebuggerHidden]
-		public _003CPostJson_003Ed__172(int _003C_003E1__state)
+		public _003CPostJson_003Ed__106(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60045E4")]
-		[Address(RVA = "0x4091660", Offset = "0x4091660", VA = "0x4091660", Slot = "5")]
+		[Token(Token = "0x600484C")]
+		[Address(RVA = "0x43A96B0", Offset = "0x43A96B0", VA = "0x43A96B0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60045E5")]
-		[Address(RVA = "0x4091670", Offset = "0x4091670", VA = "0x4091670", Slot = "6")]
+		[Token(Token = "0x600484D")]
+		[Address(RVA = "0x43A96C0", Offset = "0x43A96C0", VA = "0x43A96C0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60045E7")]
-		[Address(RVA = "0x4091C80", Offset = "0x4091C80", VA = "0x4091C80", Slot = "8")]
+		[Token(Token = "0x600484F")]
+		[Address(RVA = "0x43A9CD0", Offset = "0x43A9CD0", VA = "0x43A9CD0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000724")]
+	[Token(Token = "0x2000772")]
 	[CompilerGenerated]
-	private sealed class _003CPutCharacterInfoJson_003Ed__53 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CPutCharacterInfoJson_003Ed__169 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4002249")]
+		[Token(Token = "0x40023A6")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x400224A")]
+		[Token(Token = "0x40023A7")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x400224B")]
+		[Token(Token = "0x40023A8")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public JSONNode fallbackCharacterInfo;
 
-		[Token(Token = "0x400224C")]
+		[Token(Token = "0x40023A9")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public Action<bool, string, JSONNode> onComplete;
 
-		[Token(Token = "0x400224D")]
+		[Token(Token = "0x40023AA")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public AccountManager _003C_003E4__this;
 
-		[Token(Token = "0x400224E")]
+		[Token(Token = "0x40023AB")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		public string json;
 
-		[Token(Token = "0x400224F")]
+		[Token(Token = "0x40023AC")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		public bool reportNetworkError;
 
-		[Token(Token = "0x17000D75")]
+		[Token(Token = "0x17000DEF")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60045EC")]
-			[Address(RVA = "0x4091E40", Offset = "0x4091E40", VA = "0x4091E40", Slot = "4")]
+			[Token(Token = "0x6004854")]
+			[Address(RVA = "0x43A9E90", Offset = "0x43A9E90", VA = "0x43A9E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -1051,11 +1058,11 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000D76")]
+		[Token(Token = "0x17000DF0")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60045EE")]
-			[Address(RVA = "0x4091E90", Offset = "0x4091E90", VA = "0x4091E90", Slot = "7")]
+			[Token(Token = "0x6004856")]
+			[Address(RVA = "0x43A9EE0", Offset = "0x43A9EE0", VA = "0x43A9EE0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -1063,76 +1070,76 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x60045E9")]
-		[Address(RVA = "0x40875B0", Offset = "0x40875B0", VA = "0x40875B0")]
+		[Token(Token = "0x6004851")]
+		[Address(RVA = "0x43A61E0", Offset = "0x43A61E0", VA = "0x43A61E0")]
 		[DebuggerHidden]
-		public _003CPutCharacterInfoJson_003Ed__53(int _003C_003E1__state)
+		public _003CPutCharacterInfoJson_003Ed__169(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60045EA")]
-		[Address(RVA = "0x4091CD0", Offset = "0x4091CD0", VA = "0x4091CD0", Slot = "5")]
+		[Token(Token = "0x6004852")]
+		[Address(RVA = "0x43A9D20", Offset = "0x43A9D20", VA = "0x43A9D20", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60045EB")]
-		[Address(RVA = "0x4091CE0", Offset = "0x4091CE0", VA = "0x4091CE0", Slot = "6")]
+		[Token(Token = "0x6004853")]
+		[Address(RVA = "0x43A9D30", Offset = "0x43A9D30", VA = "0x43A9D30", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60045ED")]
-		[Address(RVA = "0x4091E50", Offset = "0x4091E50", VA = "0x4091E50", Slot = "8")]
+		[Token(Token = "0x6004855")]
+		[Address(RVA = "0x43A9EA0", Offset = "0x43A9EA0", VA = "0x43A9EA0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000725")]
+	[Token(Token = "0x2000773")]
 	[CompilerGenerated]
-	private sealed class _003CSendApiGet_003Ed__165 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CSendApiGet_003Ed__99 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4002250")]
+		[Token(Token = "0x40023AD")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002251")]
+		[Token(Token = "0x40023AE")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4002252")]
+		[Token(Token = "0x40023AF")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public Action<AottgApiResult> onComplete;
 
-		[Token(Token = "0x4002253")]
+		[Token(Token = "0x40023B0")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public AccountManager _003C_003E4__this;
 
-		[Token(Token = "0x4002254")]
+		[Token(Token = "0x40023B1")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public string path;
 
-		[Token(Token = "0x4002255")]
+		[Token(Token = "0x40023B2")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		public string bearer;
 
-		[Token(Token = "0x4002256")]
+		[Token(Token = "0x40023B3")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		public bool parseJson;
 
-		[Token(Token = "0x4002257")]
+		[Token(Token = "0x40023B4")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
-		private _003C_003Ec__DisplayClass165_0 _003C_003E8__1;
+		private _003C_003Ec__DisplayClass99_0 _003C_003E8__1;
 
-		[Token(Token = "0x17000D77")]
+		[Token(Token = "0x17000DF1")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60045F2")]
-			[Address(RVA = "0x4092030", Offset = "0x4092030", VA = "0x4092030", Slot = "4")]
+			[Token(Token = "0x600485A")]
+			[Address(RVA = "0x43AA080", Offset = "0x43AA080", VA = "0x43AA080", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -1140,11 +1147,11 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000D78")]
+		[Token(Token = "0x17000DF2")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60045F4")]
-			[Address(RVA = "0x4092080", Offset = "0x4092080", VA = "0x4092080", Slot = "7")]
+			[Token(Token = "0x600485C")]
+			[Address(RVA = "0x43AA0D0", Offset = "0x43AA0D0", VA = "0x43AA0D0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -1152,29 +1159,29 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x60045EF")]
-		[Address(RVA = "0x408D510", Offset = "0x408D510", VA = "0x408D510")]
+		[Token(Token = "0x6004857")]
+		[Address(RVA = "0x43A1710", Offset = "0x43A1710", VA = "0x43A1710")]
 		[DebuggerHidden]
-		public _003CSendApiGet_003Ed__165(int _003C_003E1__state)
+		public _003CSendApiGet_003Ed__99(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60045F0")]
-		[Address(RVA = "0x4091EA0", Offset = "0x4091EA0", VA = "0x4091EA0", Slot = "5")]
+		[Token(Token = "0x6004858")]
+		[Address(RVA = "0x43A9EF0", Offset = "0x43A9EF0", VA = "0x43A9EF0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60045F1")]
-		[Address(RVA = "0x4091EB0", Offset = "0x4091EB0", VA = "0x4091EB0", Slot = "6")]
+		[Token(Token = "0x6004859")]
+		[Address(RVA = "0x43A9F00", Offset = "0x43A9F00", VA = "0x43A9F00", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60045F3")]
-		[Address(RVA = "0x4092040", Offset = "0x4092040", VA = "0x4092040", Slot = "8")]
+		[Token(Token = "0x600485B")]
+		[Address(RVA = "0x43AA090", Offset = "0x43AA090", VA = "0x43AA090", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -1182,109 +1189,109 @@ internal class AccountManager : MonoBehaviour
 	}
 
 	[StructLayout((LayoutKind)3)]
-	[Token(Token = "0x2000726")]
+	[Token(Token = "0x2000774")]
 	[CompilerGenerated]
-	private struct _003CSendApiGetAsync_003Ed__166 : IAsyncStateMachine
+	private struct _003CSendApiGetAsync_003Ed__100 : IAsyncStateMachine
 	{
-		[Token(Token = "0x4002258")]
+		[Token(Token = "0x40023B5")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x4002259")]
+		[Token(Token = "0x40023B6")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncUniTaskMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x400225A")]
+		[Token(Token = "0x40023B7")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		public string path;
 
-		[Token(Token = "0x400225B")]
+		[Token(Token = "0x40023B8")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public string bearer;
 
-		[Token(Token = "0x400225C")]
+		[Token(Token = "0x40023B9")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public bool parseJson;
 
-		[Token(Token = "0x400225D")]
+		[Token(Token = "0x40023BA")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public Action<AottgApiResult> onComplete;
 
-		[Token(Token = "0x400225E")]
+		[Token(Token = "0x40023BB")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		private UniTask<AottgApiResult>.Awaiter _003C_003Eu__1;
 
-		[Token(Token = "0x60045F5")]
-		[Address(RVA = "0x4092090", Offset = "0x4092090", VA = "0x4092090", Slot = "4")]
+		[Token(Token = "0x600485D")]
+		[Address(RVA = "0x43AA0E0", Offset = "0x43AA0E0", VA = "0x43AA0E0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x60045F6")]
-		[Address(RVA = "0x4092800", Offset = "0x4092800", VA = "0x4092800", Slot = "5")]
+		[Token(Token = "0x600485E")]
+		[Address(RVA = "0x43AA850", Offset = "0x43AA850", VA = "0x43AA850", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
 		}
 	}
 
-	[Token(Token = "0x2000727")]
+	[Token(Token = "0x2000775")]
 	[CompilerGenerated]
-	private sealed class _003CSendApiJson_003Ed__167 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CSendApiJson_003Ed__101 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x400225F")]
+		[Token(Token = "0x40023BC")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002260")]
+		[Token(Token = "0x40023BD")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4002261")]
+		[Token(Token = "0x40023BE")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public Action<AottgApiResult> onComplete;
 
-		[Token(Token = "0x4002262")]
+		[Token(Token = "0x40023BF")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public AccountManager _003C_003E4__this;
 
-		[Token(Token = "0x4002263")]
+		[Token(Token = "0x40023C0")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public string method;
 
-		[Token(Token = "0x4002264")]
+		[Token(Token = "0x40023C1")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		public string path;
 
-		[Token(Token = "0x4002265")]
+		[Token(Token = "0x40023C2")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		public string json;
 
-		[Token(Token = "0x4002266")]
+		[Token(Token = "0x40023C3")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 		public string bearer;
 
-		[Token(Token = "0x4002267")]
+		[Token(Token = "0x40023C4")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 		public bool parseJson;
 
-		[Token(Token = "0x4002268")]
+		[Token(Token = "0x40023C5")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x51")]
 		public bool reportNetworkError;
 
-		[Token(Token = "0x4002269")]
+		[Token(Token = "0x40023C6")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x54")]
 		public int? timeoutSeconds;
 
-		[Token(Token = "0x400226A")]
+		[Token(Token = "0x40023C7")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
-		private _003C_003Ec__DisplayClass167_0 _003C_003E8__1;
+		private _003C_003Ec__DisplayClass101_0 _003C_003E8__1;
 
-		[Token(Token = "0x17000D79")]
+		[Token(Token = "0x17000DF3")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60045FA")]
-			[Address(RVA = "0x40929E0", Offset = "0x40929E0", VA = "0x40929E0", Slot = "4")]
+			[Token(Token = "0x6004862")]
+			[Address(RVA = "0x43AAA30", Offset = "0x43AAA30", VA = "0x43AAA30", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -1292,11 +1299,11 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000D7A")]
+		[Token(Token = "0x17000DF4")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60045FC")]
-			[Address(RVA = "0x4092A30", Offset = "0x4092A30", VA = "0x4092A30", Slot = "7")]
+			[Token(Token = "0x6004864")]
+			[Address(RVA = "0x43AAA80", Offset = "0x43AAA80", VA = "0x43AAA80", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -1304,29 +1311,29 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x60045F7")]
-		[Address(RVA = "0x408D710", Offset = "0x408D710", VA = "0x408D710")]
+		[Token(Token = "0x600485F")]
+		[Address(RVA = "0x43A1910", Offset = "0x43A1910", VA = "0x43A1910")]
 		[DebuggerHidden]
-		public _003CSendApiJson_003Ed__167(int _003C_003E1__state)
+		public _003CSendApiJson_003Ed__101(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60045F8")]
-		[Address(RVA = "0x4092810", Offset = "0x4092810", VA = "0x4092810", Slot = "5")]
+		[Token(Token = "0x6004860")]
+		[Address(RVA = "0x43AA860", Offset = "0x43AA860", VA = "0x43AA860", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60045F9")]
-		[Address(RVA = "0x4092820", Offset = "0x4092820", VA = "0x4092820", Slot = "6")]
+		[Token(Token = "0x6004861")]
+		[Address(RVA = "0x43AA870", Offset = "0x43AA870", VA = "0x43AA870", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60045FB")]
-		[Address(RVA = "0x40929F0", Offset = "0x40929F0", VA = "0x40929F0", Slot = "8")]
+		[Token(Token = "0x6004863")]
+		[Address(RVA = "0x43AAA40", Offset = "0x43AAA40", VA = "0x43AAA40", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -1334,113 +1341,113 @@ internal class AccountManager : MonoBehaviour
 	}
 
 	[StructLayout((LayoutKind)3)]
-	[Token(Token = "0x2000728")]
+	[Token(Token = "0x2000776")]
 	[CompilerGenerated]
-	private struct _003CSendApiJsonAsync_003Ed__168 : IAsyncStateMachine
+	private struct _003CSendApiJsonAsync_003Ed__102 : IAsyncStateMachine
 	{
-		[Token(Token = "0x400226B")]
+		[Token(Token = "0x40023C8")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x400226C")]
+		[Token(Token = "0x40023C9")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncUniTaskMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x400226D")]
+		[Token(Token = "0x40023CA")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		public string method;
 
-		[Token(Token = "0x400226E")]
+		[Token(Token = "0x40023CB")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public string path;
 
-		[Token(Token = "0x400226F")]
+		[Token(Token = "0x40023CC")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public string json;
 
-		[Token(Token = "0x4002270")]
+		[Token(Token = "0x40023CD")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public string bearer;
 
-		[Token(Token = "0x4002271")]
+		[Token(Token = "0x40023CE")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		public bool parseJson;
 
-		[Token(Token = "0x4002272")]
+		[Token(Token = "0x40023CF")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x39")]
 		public bool reportNetworkError;
 
-		[Token(Token = "0x4002273")]
+		[Token(Token = "0x40023D0")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x3C")]
 		public int? timeoutSeconds;
 
-		[Token(Token = "0x4002274")]
+		[Token(Token = "0x40023D1")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 		public Action<AottgApiResult> onComplete;
 
-		[Token(Token = "0x4002275")]
+		[Token(Token = "0x40023D2")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 		private UniTask<AottgApiResult>.Awaiter _003C_003Eu__1;
 
-		[Token(Token = "0x60045FD")]
-		[Address(RVA = "0x4092A40", Offset = "0x4092A40", VA = "0x4092A40", Slot = "4")]
+		[Token(Token = "0x6004865")]
+		[Address(RVA = "0x43AAA90", Offset = "0x43AAA90", VA = "0x43AAA90", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x60045FE")]
-		[Address(RVA = "0x40933D0", Offset = "0x40933D0", VA = "0x40933D0", Slot = "5")]
+		[Token(Token = "0x6004866")]
+		[Address(RVA = "0x43AB420", Offset = "0x43AB420", VA = "0x43AB420", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
 		}
 	}
 
-	[Token(Token = "0x2000729")]
+	[Token(Token = "0x2000777")]
 	[CompilerGenerated]
-	private sealed class _003CSendMeJson_003Ed__54 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CSendMeJson_003Ed__170 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4002276")]
+		[Token(Token = "0x40023D3")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002277")]
+		[Token(Token = "0x40023D4")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4002278")]
+		[Token(Token = "0x40023D5")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public string method;
 
-		[Token(Token = "0x4002279")]
+		[Token(Token = "0x40023D6")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public AccountManager _003C_003E4__this;
 
-		[Token(Token = "0x400227A")]
+		[Token(Token = "0x40023D7")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public string path;
 
-		[Token(Token = "0x400227B")]
+		[Token(Token = "0x40023D8")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		public Action<bool, string, JSONNode> onComplete;
 
-		[Token(Token = "0x400227C")]
+		[Token(Token = "0x40023D9")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		public string json;
 
-		[Token(Token = "0x400227D")]
+		[Token(Token = "0x40023DA")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 		public bool reportNetworkError;
 
-		[Token(Token = "0x400227E")]
+		[Token(Token = "0x40023DB")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
-		private _003C_003Ec__DisplayClass54_0 _003C_003E8__1;
+		private _003C_003Ec__DisplayClass170_0 _003C_003E8__1;
 
-		[Token(Token = "0x17000D7B")]
+		[Token(Token = "0x17000DF5")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6004602")]
-			[Address(RVA = "0x4093730", Offset = "0x4093730", VA = "0x4093730", Slot = "4")]
+			[Token(Token = "0x600486A")]
+			[Address(RVA = "0x43AB780", Offset = "0x43AB780", VA = "0x43AB780", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -1448,11 +1455,11 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000D7C")]
+		[Token(Token = "0x17000DF6")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6004604")]
-			[Address(RVA = "0x4093780", Offset = "0x4093780", VA = "0x4093780", Slot = "7")]
+			[Token(Token = "0x600486C")]
+			[Address(RVA = "0x43AB7D0", Offset = "0x43AB7D0", VA = "0x43AB7D0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -1460,68 +1467,68 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x60045FF")]
-		[Address(RVA = "0x40876B0", Offset = "0x40876B0", VA = "0x40876B0")]
+		[Token(Token = "0x6004867")]
+		[Address(RVA = "0x43A62E0", Offset = "0x43A62E0", VA = "0x43A62E0")]
 		[DebuggerHidden]
-		public _003CSendMeJson_003Ed__54(int _003C_003E1__state)
+		public _003CSendMeJson_003Ed__170(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6004600")]
-		[Address(RVA = "0x40933E0", Offset = "0x40933E0", VA = "0x40933E0", Slot = "5")]
+		[Token(Token = "0x6004868")]
+		[Address(RVA = "0x43AB430", Offset = "0x43AB430", VA = "0x43AB430", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6004601")]
-		[Address(RVA = "0x40933F0", Offset = "0x40933F0", VA = "0x40933F0", Slot = "6")]
+		[Token(Token = "0x6004869")]
+		[Address(RVA = "0x43AB440", Offset = "0x43AB440", VA = "0x43AB440", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6004603")]
-		[Address(RVA = "0x4093740", Offset = "0x4093740", VA = "0x4093740", Slot = "8")]
+		[Token(Token = "0x600486B")]
+		[Address(RVA = "0x43AB790", Offset = "0x43AB790", VA = "0x43AB790", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x200072A")]
+	[Token(Token = "0x2000778")]
 	[CompilerGenerated]
-	private sealed class _003CSendMeReadJson_003Ed__55 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CSendMeReadJson_003Ed__171 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x400227F")]
+		[Token(Token = "0x40023DC")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002280")]
+		[Token(Token = "0x40023DD")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4002281")]
+		[Token(Token = "0x40023DE")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public AccountManager _003C_003E4__this;
 
-		[Token(Token = "0x4002282")]
+		[Token(Token = "0x40023DF")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public string path;
 
-		[Token(Token = "0x4002283")]
+		[Token(Token = "0x40023E0")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
-		private _003C_003Ec__DisplayClass55_0 _003C_003E8__1;
+		private _003C_003Ec__DisplayClass171_0 _003C_003E8__1;
 
-		[Token(Token = "0x4002284")]
+		[Token(Token = "0x40023E1")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		public Action<bool, string, JSONNode> onComplete;
 
-		[Token(Token = "0x17000D7D")]
+		[Token(Token = "0x17000DF7")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6004608")]
-			[Address(RVA = "0x40939F0", Offset = "0x40939F0", VA = "0x40939F0", Slot = "4")]
+			[Token(Token = "0x6004870")]
+			[Address(RVA = "0x43ABA40", Offset = "0x43ABA40", VA = "0x43ABA40", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -1529,11 +1536,11 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000D7E")]
+		[Token(Token = "0x17000DF8")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600460A")]
-			[Address(RVA = "0x4093A40", Offset = "0x4093A40", VA = "0x4093A40", Slot = "7")]
+			[Token(Token = "0x6004872")]
+			[Address(RVA = "0x43ABA90", Offset = "0x43ABA90", VA = "0x43ABA90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -1541,548 +1548,531 @@ internal class AccountManager : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x6004605")]
-		[Address(RVA = "0x4087770", Offset = "0x4087770", VA = "0x4087770")]
+		[Token(Token = "0x600486D")]
+		[Address(RVA = "0x43A63A0", Offset = "0x43A63A0", VA = "0x43A63A0")]
 		[DebuggerHidden]
-		public _003CSendMeReadJson_003Ed__55(int _003C_003E1__state)
+		public _003CSendMeReadJson_003Ed__171(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6004606")]
-		[Address(RVA = "0x4093790", Offset = "0x4093790", VA = "0x4093790", Slot = "5")]
+		[Token(Token = "0x600486E")]
+		[Address(RVA = "0x43AB7E0", Offset = "0x43AB7E0", VA = "0x43AB7E0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6004607")]
-		[Address(RVA = "0x40937A0", Offset = "0x40937A0", VA = "0x40937A0", Slot = "6")]
+		[Token(Token = "0x600486F")]
+		[Address(RVA = "0x43AB7F0", Offset = "0x43AB7F0", VA = "0x43AB7F0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6004609")]
-		[Address(RVA = "0x4093A00", Offset = "0x4093A00", VA = "0x4093A00", Slot = "8")]
+		[Token(Token = "0x6004871")]
+		[Address(RVA = "0x43ABA50", Offset = "0x43ABA50", VA = "0x43ABA50", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x40021C9")]
+	[Token(Token = "0x4002326")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+	private static AccountManager _instance;
+
+	[Token(Token = "0x4002327")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
+	private static bool _sceneInvalidationSubscribed;
+
+	[Token(Token = "0x4002328")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
+	public static string BaseUrl;
+
+	[Token(Token = "0x4002329")]
+	private const string RefreshTokenFileName = "AccountRefresh.dat";
+
+	[Token(Token = "0x400232A")]
+	private const string EmailPasswordAuthMethod = "email_password";
+
+	[Token(Token = "0x400232B")]
+	private const string DiscordAuthMethod = "discord";
+
+	[Token(Token = "0x400232C")]
+	private const string GoogleAuthMethod = "google";
+
+	[Token(Token = "0x4002338")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
+	private static string _refreshToken;
+
+	[Token(Token = "0x4002339")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
+	private static readonly HashSet<string> _enabledAuthMethods;
+
+	[Token(Token = "0x400233D")]
 	private const int OAuthRequestTimeoutSeconds = 10;
 
-	[Token(Token = "0x40021CA")]
+	[Token(Token = "0x400233E")]
 	private const int UnityOAuthDefaultPollSeconds = 2;
 
-	[Token(Token = "0x40021CB")]
+	[Token(Token = "0x400233F")]
 	private const int UnityOAuthFallbackTimeoutMinutes = 10;
 
-	[Token(Token = "0x40021CC")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+	[Token(Token = "0x4002340")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x88")]
 	private static Action<bool, string> _oauthPendingCallback;
 
-	[Token(Token = "0x40021CD")]
+	[Token(Token = "0x4002341")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private Coroutine _oauthFlowCoroutine;
 
-	[Token(Token = "0x40021CE")]
+	[Token(Token = "0x4002342")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private int _oauthAttemptId;
 
-	[Token(Token = "0x40021D3")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
+	[Token(Token = "0x4002347")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	private static bool _ownProfileCacheHasValue;
 
-	[Token(Token = "0x40021D4")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x29")]
+	[Token(Token = "0x4002348")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xB1")]
 	private static bool _ownProfileCacheValid;
 
-	[Token(Token = "0x40021D5")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x2A")]
+	[Token(Token = "0x4002349")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xB2")]
 	private static bool _ownProfileFetchInFlight;
 
-	[Token(Token = "0x40021D6")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
+	[Token(Token = "0x400234A")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
 	private static readonly List<Action<bool, string>> _ownProfileFetchSubscribers;
 
-	[Token(Token = "0x40021D7")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
+	[Token(Token = "0x400234B")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xC0")]
 	private static bool _ownCharacterInfoCacheHasValue;
 
-	[Token(Token = "0x40021D8")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x39")]
+	[Token(Token = "0x400234C")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xC1")]
 	private static bool _ownCharacterInfoCacheValid;
 
-	[Token(Token = "0x40021D9")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x3A")]
+	[Token(Token = "0x400234D")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xC2")]
 	private static bool _ownCharacterInfoFetchInFlight;
 
-	[Token(Token = "0x40021DA")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x400234E")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xC8")]
 	private static JSONNode _ownCharacterInfoCache;
 
-	[Token(Token = "0x40021DB")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x400234F")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xD0")]
 	private static readonly List<Action<bool, string, JSONNode>> _ownCharacterInfoFetchSubscribers;
 
-	[Token(Token = "0x40021DC")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
-	private static AccountManager _instance;
-
-	[Token(Token = "0x40021DD")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
-	private static bool _sceneInvalidationSubscribed;
-
-	[Token(Token = "0x40021DE")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
-	public static string BaseUrl;
-
-	[Token(Token = "0x40021DF")]
-	private const string RefreshTokenFileName = "AccountRefresh.dat";
-
-	[Token(Token = "0x40021E0")]
-	private const string EmailPasswordAuthMethod = "email_password";
-
-	[Token(Token = "0x40021E1")]
-	private const string DiscordAuthMethod = "discord";
-
-	[Token(Token = "0x40021E2")]
-	private const string GoogleAuthMethod = "google";
-
-	[Token(Token = "0x40021EE")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
-	private static string _refreshToken;
-
-	[Token(Token = "0x40021EF")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
-	private static readonly HashSet<string> _enabledAuthMethods;
-
-	[Token(Token = "0x17000D48")]
-	public static string ProfileDescription
-	{
-		[Token(Token = "0x6004527")]
-		[Address(RVA = "0x4085C50", Offset = "0x4085C50", VA = "0x4085C50")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x6004528")]
-		[Address(RVA = "0x4085CC0", Offset = "0x4085CC0", VA = "0x4085CC0")]
-		[CompilerGenerated]
-		private set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000D49")]
-	public static string ProfileAvatarKey
-	{
-		[Token(Token = "0x6004529")]
-		[Address(RVA = "0x4085D20", Offset = "0x4085D20", VA = "0x4085D20")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x600452A")]
-		[Address(RVA = "0x4085D90", Offset = "0x4085D90", VA = "0x4085D90")]
-		[CompilerGenerated]
-		private set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000D4A")]
-	public static string ProfileBannerKey
-	{
-		[Token(Token = "0x600452B")]
-		[Address(RVA = "0x4085DF0", Offset = "0x4085DF0", VA = "0x4085DF0")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x600452C")]
-		[Address(RVA = "0x4085E60", Offset = "0x4085E60", VA = "0x4085E60")]
-		[CompilerGenerated]
-		private set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000D4B")]
-	public static Dictionary<string, string> ProfileSocials
-	{
-		[Token(Token = "0x600452D")]
-		[Address(RVA = "0x4085EC0", Offset = "0x4085EC0", VA = "0x4085EC0")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000D4C")]
-	public static bool HasCachedOwnProfile
-	{
-		[Token(Token = "0x600452E")]
-		[Address(RVA = "0x4085F30", Offset = "0x4085F30", VA = "0x4085F30")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x17000D4D")]
-	public static bool HasCachedCharacterInfo
-	{
-		[Token(Token = "0x600452F")]
-		[Address(RVA = "0x4085FA0", Offset = "0x4085FA0", VA = "0x4085FA0")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x17000D4E")]
+	[Token(Token = "0x17000DC2")]
 	public static string AuthToken
 	{
-		[Token(Token = "0x6004544")]
-		[Address(RVA = "0x4088B60", Offset = "0x4088B60", VA = "0x4088B60")]
+		[Token(Token = "0x6004784")]
+		[Address(RVA = "0x439CC70", Offset = "0x439CC70", VA = "0x439CC70")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6004545")]
-		[Address(RVA = "0x4088BD0", Offset = "0x4088BD0", VA = "0x4088BD0")]
+		[Token(Token = "0x6004785")]
+		[Address(RVA = "0x439CCE0", Offset = "0x439CCE0", VA = "0x439CCE0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000D4F")]
+	[Token(Token = "0x17000DC3")]
 	public static long AuthTokenExpiresUnix
 	{
-		[Token(Token = "0x6004546")]
-		[Address(RVA = "0x4088C30", Offset = "0x4088C30", VA = "0x4088C30")]
+		[Token(Token = "0x6004786")]
+		[Address(RVA = "0x439CD40", Offset = "0x439CD40", VA = "0x439CD40")]
 		[CompilerGenerated]
 		get
 		{
 			return default(long);
 		}
-		[Token(Token = "0x6004547")]
-		[Address(RVA = "0x4088CA0", Offset = "0x4088CA0", VA = "0x4088CA0")]
+		[Token(Token = "0x6004787")]
+		[Address(RVA = "0x439CDB0", Offset = "0x439CDB0", VA = "0x439CDB0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000D50")]
+	[Token(Token = "0x17000DC4")]
 	public static string PhotonToken
 	{
-		[Token(Token = "0x6004548")]
-		[Address(RVA = "0x4088D00", Offset = "0x4088D00", VA = "0x4088D00")]
+		[Token(Token = "0x6004788")]
+		[Address(RVA = "0x439CE10", Offset = "0x439CE10", VA = "0x439CE10")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6004549")]
-		[Address(RVA = "0x4088D70", Offset = "0x4088D70", VA = "0x4088D70")]
+		[Token(Token = "0x6004789")]
+		[Address(RVA = "0x439CE80", Offset = "0x439CE80", VA = "0x439CE80")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000D51")]
+	[Token(Token = "0x17000DC5")]
 	public static long PhotonTokenExpiresUnix
 	{
-		[Token(Token = "0x600454A")]
-		[Address(RVA = "0x4088DD0", Offset = "0x4088DD0", VA = "0x4088DD0")]
+		[Token(Token = "0x600478A")]
+		[Address(RVA = "0x439CEE0", Offset = "0x439CEE0", VA = "0x439CEE0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(long);
 		}
-		[Token(Token = "0x600454B")]
-		[Address(RVA = "0x4088E40", Offset = "0x4088E40", VA = "0x4088E40")]
+		[Token(Token = "0x600478B")]
+		[Address(RVA = "0x439CF50", Offset = "0x439CF50", VA = "0x439CF50")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000D52")]
+	[Token(Token = "0x17000DC6")]
 	public static AccountLoginResponse LoginResponse
 	{
-		[Token(Token = "0x600454C")]
-		[Address(RVA = "0x4088EA0", Offset = "0x4088EA0", VA = "0x4088EA0")]
+		[Token(Token = "0x600478C")]
+		[Address(RVA = "0x439CFB0", Offset = "0x439CFB0", VA = "0x439CFB0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600454D")]
-		[Address(RVA = "0x4088F10", Offset = "0x4088F10", VA = "0x4088F10")]
+		[Token(Token = "0x600478D")]
+		[Address(RVA = "0x439D020", Offset = "0x439D020", VA = "0x439D020")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000D53")]
+	[Token(Token = "0x17000DC7")]
 	public static string UserId
 	{
-		[Token(Token = "0x600454E")]
-		[Address(RVA = "0x4088930", Offset = "0x4088930", VA = "0x4088930")]
+		[Token(Token = "0x600478E")]
+		[Address(RVA = "0x439D080", Offset = "0x439D080", VA = "0x439D080")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000D54")]
+	[Token(Token = "0x17000DC8")]
 	public static string Username
 	{
-		[Token(Token = "0x600454F")]
-		[Address(RVA = "0x4088F80", Offset = "0x4088F80", VA = "0x4088F80")]
+		[Token(Token = "0x600478F")]
+		[Address(RVA = "0x439D2A0", Offset = "0x439D2A0", VA = "0x439D2A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000D55")]
+	[Token(Token = "0x17000DC9")]
 	public static string Email
 	{
-		[Token(Token = "0x6004550")]
-		[Address(RVA = "0x40891B0", Offset = "0x40891B0", VA = "0x40891B0")]
+		[Token(Token = "0x6004790")]
+		[Address(RVA = "0x439D4C0", Offset = "0x439D4C0", VA = "0x439D4C0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000D56")]
+	[Token(Token = "0x17000DCA")]
 	public static bool EmailVerified
 	{
-		[Token(Token = "0x6004551")]
-		[Address(RVA = "0x40893E0", Offset = "0x40893E0", VA = "0x40893E0")]
+		[Token(Token = "0x6004791")]
+		[Address(RVA = "0x439D6E0", Offset = "0x439D6E0", VA = "0x439D6E0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000D57")]
+	[Token(Token = "0x17000DCB")]
 	public static string[] Roles
 	{
-		[Token(Token = "0x6004552")]
-		[Address(RVA = "0x4089610", Offset = "0x4089610", VA = "0x4089610")]
+		[Token(Token = "0x6004792")]
+		[Address(RVA = "0x439D900", Offset = "0x439D900", VA = "0x439D900")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000D58")]
+	[Token(Token = "0x17000DCC")]
 	public static string PhotonUserId
 	{
-		[Token(Token = "0x6004553")]
-		[Address(RVA = "0x4089840", Offset = "0x4089840", VA = "0x4089840")]
+		[Token(Token = "0x6004793")]
+		[Address(RVA = "0x439DB20", Offset = "0x439DB20", VA = "0x439DB20")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000D59")]
+	[Token(Token = "0x17000DCD")]
 	public static JSONNode Patreon
 	{
-		[Token(Token = "0x6004554")]
-		[Address(RVA = "0x4089A70", Offset = "0x4089A70", VA = "0x4089A70")]
+		[Token(Token = "0x6004794")]
+		[Address(RVA = "0x439DD40", Offset = "0x439DD40", VA = "0x439DD40")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000D5A")]
+	[Token(Token = "0x17000DCE")]
 	public static long RefreshTokenExpiresUnix
 	{
-		[Token(Token = "0x6004556")]
-		[Address(RVA = "0x408A120", Offset = "0x408A120", VA = "0x408A120")]
+		[Token(Token = "0x6004796")]
+		[Address(RVA = "0x439E3B0", Offset = "0x439E3B0", VA = "0x439E3B0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(long);
 		}
-		[Token(Token = "0x6004557")]
-		[Address(RVA = "0x408A190", Offset = "0x408A190", VA = "0x408A190")]
+		[Token(Token = "0x6004797")]
+		[Address(RVA = "0x439E420", Offset = "0x439E420", VA = "0x439E420")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000D5B")]
+	[Token(Token = "0x17000DCF")]
 	public static bool IsLoggedIn
 	{
-		[Token(Token = "0x6004558")]
-		[Address(RVA = "0x40863D0", Offset = "0x40863D0", VA = "0x40863D0")]
+		[Token(Token = "0x6004798")]
+		[Address(RVA = "0x439E480", Offset = "0x439E480", VA = "0x439E480")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000D5C")]
+	[Token(Token = "0x17000DD0")]
 	public static bool HasRefreshToken
 	{
-		[Token(Token = "0x6004559")]
-		[Address(RVA = "0x408A1F0", Offset = "0x408A1F0", VA = "0x408A1F0")]
+		[Token(Token = "0x6004799")]
+		[Address(RVA = "0x439E530", Offset = "0x439E530", VA = "0x439E530")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000D5D")]
+	[Token(Token = "0x17000DD1")]
 	public static bool IsRefreshInProgress
 	{
-		[Token(Token = "0x600455A")]
-		[Address(RVA = "0x408A250", Offset = "0x408A250", VA = "0x408A250")]
+		[Token(Token = "0x600479A")]
+		[Address(RVA = "0x439E580", Offset = "0x439E580", VA = "0x439E580")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600455B")]
-		[Address(RVA = "0x408A2C0", Offset = "0x408A2C0", VA = "0x408A2C0")]
+		[Token(Token = "0x600479B")]
+		[Address(RVA = "0x439E5F0", Offset = "0x439E5F0", VA = "0x439E5F0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000D5E")]
+	[Token(Token = "0x17000DD2")]
 	public static bool KeepSignedIn
 	{
-		[Token(Token = "0x600455C")]
-		[Address(RVA = "0x408A320", Offset = "0x408A320", VA = "0x408A320")]
+		[Token(Token = "0x600479C")]
+		[Address(RVA = "0x439E640", Offset = "0x439E640", VA = "0x439E640")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600455D")]
-		[Address(RVA = "0x408A390", Offset = "0x408A390", VA = "0x408A390")]
+		[Token(Token = "0x600479D")]
+		[Address(RVA = "0x439E6B0", Offset = "0x439E6B0", VA = "0x439E6B0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000D5F")]
+	[Token(Token = "0x17000DD3")]
 	public static bool HasAuthMethodsSnapshot
 	{
-		[Token(Token = "0x600455E")]
-		[Address(RVA = "0x408A3F0", Offset = "0x408A3F0", VA = "0x408A3F0")]
+		[Token(Token = "0x600479E")]
+		[Address(RVA = "0x439E700", Offset = "0x439E700", VA = "0x439E700")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600455F")]
-		[Address(RVA = "0x408A460", Offset = "0x408A460", VA = "0x408A460")]
+		[Token(Token = "0x600479F")]
+		[Address(RVA = "0x439E770", Offset = "0x439E770", VA = "0x439E770")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000D60")]
+	[Token(Token = "0x17000DD4")]
 	public static bool DevMode
 	{
-		[Token(Token = "0x6004560")]
-		[Address(RVA = "0x408A4C0", Offset = "0x408A4C0", VA = "0x408A4C0")]
+		[Token(Token = "0x60047A0")]
+		[Address(RVA = "0x439E7C0", Offset = "0x439E7C0", VA = "0x439E7C0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000D61")]
+	[Token(Token = "0x17000DD5")]
 	public static string PendingVerifyToken
 	{
-		[Token(Token = "0x6004561")]
-		[Address(RVA = "0x408A530", Offset = "0x408A530", VA = "0x408A530")]
+		[Token(Token = "0x60047A1")]
+		[Address(RVA = "0x439E830", Offset = "0x439E830", VA = "0x439E830")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6004562")]
-		[Address(RVA = "0x408A5A0", Offset = "0x408A5A0", VA = "0x408A5A0")]
+		[Token(Token = "0x60047A2")]
+		[Address(RVA = "0x439E8A0", Offset = "0x439E8A0", VA = "0x439E8A0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000D62")]
+	[Token(Token = "0x17000DD6")]
 	public static string PendingEmail
 	{
-		[Token(Token = "0x6004563")]
-		[Address(RVA = "0x408A610", Offset = "0x408A610", VA = "0x408A610")]
+		[Token(Token = "0x60047A3")]
+		[Address(RVA = "0x439E900", Offset = "0x439E900", VA = "0x439E900")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6004564")]
-		[Address(RVA = "0x408A680", Offset = "0x408A680", VA = "0x408A680")]
+		[Token(Token = "0x60047A4")]
+		[Address(RVA = "0x439E970", Offset = "0x439E970", VA = "0x439E970")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x1400000C")]
-	public static event Action OnLoggedIn
+	[Token(Token = "0x17000DD7")]
+	public static string ProfileDescription
 	{
-		[Token(Token = "0x6004565")]
-		[Address(RVA = "0x408A6F0", Offset = "0x408A6F0", VA = "0x408A6F0")]
+		[Token(Token = "0x60047D7")]
+		[Address(RVA = "0x43A48E0", Offset = "0x43A48E0", VA = "0x43A48E0")]
 		[CompilerGenerated]
-		add
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x60047D8")]
+		[Address(RVA = "0x43A4950", Offset = "0x43A4950", VA = "0x43A4950")]
+		[CompilerGenerated]
+		private set
 		{
 		}
-		[Token(Token = "0x6004566")]
-		[Address(RVA = "0x408A7E0", Offset = "0x408A7E0", VA = "0x408A7E0")]
+	}
+
+	[Token(Token = "0x17000DD8")]
+	public static string ProfileAvatarKey
+	{
+		[Token(Token = "0x60047D9")]
+		[Address(RVA = "0x43A49C0", Offset = "0x43A49C0", VA = "0x43A49C0")]
 		[CompilerGenerated]
-		remove
+		get
 		{
+			return null;
+		}
+		[Token(Token = "0x60047DA")]
+		[Address(RVA = "0x43A4A30", Offset = "0x43A4A30", VA = "0x43A4A30")]
+		[CompilerGenerated]
+		private set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000DD9")]
+	public static string ProfileBannerKey
+	{
+		[Token(Token = "0x60047DB")]
+		[Address(RVA = "0x43A4AA0", Offset = "0x43A4AA0", VA = "0x43A4AA0")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x60047DC")]
+		[Address(RVA = "0x43A4B10", Offset = "0x43A4B10", VA = "0x43A4B10")]
+		[CompilerGenerated]
+		private set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000DDA")]
+	public static Dictionary<string, string> ProfileSocials
+	{
+		[Token(Token = "0x60047DD")]
+		[Address(RVA = "0x43A4B80", Offset = "0x43A4B80", VA = "0x43A4B80")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000DDB")]
+	public static bool HasCachedOwnProfile
+	{
+		[Token(Token = "0x60047DE")]
+		[Address(RVA = "0x43A4BF0", Offset = "0x43A4BF0", VA = "0x43A4BF0")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000DDC")]
+	public static bool HasCachedCharacterInfo
+	{
+		[Token(Token = "0x60047DF")]
+		[Address(RVA = "0x43A4C60", Offset = "0x43A4C60", VA = "0x43A4C60")]
+		get
+		{
+			return default(bool);
 		}
 	}
 
 	[Token(Token = "0x1400000D")]
-	public static event Action OnLoggedOut
+	public static event Action OnLoggedIn
 	{
-		[Token(Token = "0x6004567")]
-		[Address(RVA = "0x408A8D0", Offset = "0x408A8D0", VA = "0x408A8D0")]
+		[Token(Token = "0x60047A5")]
+		[Address(RVA = "0x439E9D0", Offset = "0x439E9D0", VA = "0x439E9D0")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x6004568")]
-		[Address(RVA = "0x408A9C0", Offset = "0x408A9C0", VA = "0x408A9C0")]
+		[Token(Token = "0x60047A6")]
+		[Address(RVA = "0x439EAB0", Offset = "0x439EAB0", VA = "0x439EAB0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -2090,459 +2080,476 @@ internal class AccountManager : MonoBehaviour
 	}
 
 	[Token(Token = "0x1400000E")]
-	public static event Action OnAuthMethodsChanged
+	public static event Action OnLoggedOut
 	{
-		[Token(Token = "0x6004569")]
-		[Address(RVA = "0x408AAB0", Offset = "0x408AAB0", VA = "0x408AAB0")]
+		[Token(Token = "0x60047A7")]
+		[Address(RVA = "0x439EB90", Offset = "0x439EB90", VA = "0x439EB90")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x600456A")]
-		[Address(RVA = "0x408ABA0", Offset = "0x408ABA0", VA = "0x408ABA0")]
+		[Token(Token = "0x60047A8")]
+		[Address(RVA = "0x439EC70", Offset = "0x439EC70", VA = "0x439EC70")]
 		[CompilerGenerated]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x600451C")]
-	[Address(RVA = "0x4084C90", Offset = "0x4084C90", VA = "0x4084C90")]
-	public static void LoginWithOAuth(string provider, Action<bool, string> onComplete, bool reportNetworkError = true)
+	[Token(Token = "0x1400000F")]
+	public static event Action OnAuthMethodsChanged
 	{
+		[Token(Token = "0x60047A9")]
+		[Address(RVA = "0x439ED50", Offset = "0x439ED50", VA = "0x439ED50")]
+		[CompilerGenerated]
+		add
+		{
+		}
+		[Token(Token = "0x60047AA")]
+		[Address(RVA = "0x439EE30", Offset = "0x439EE30", VA = "0x439EE30")]
+		[CompilerGenerated]
+		remove
+		{
+		}
 	}
 
-	[Token(Token = "0x600451D")]
-	[Address(RVA = "0x4084F40", Offset = "0x4084F40", VA = "0x4084F40")]
-	public static void CancelOAuthLogin()
-	{
-	}
-
-	[Token(Token = "0x600451E")]
-	[Address(RVA = "0x4084EA0", Offset = "0x4084EA0", VA = "0x4084EA0")]
-	[IteratorStateMachine(typeof(_003COAuthFlow_003Ed__8))]
-	private IEnumerator OAuthFlow(string provider, int attemptId, bool reportNetworkError)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x600451F")]
-	[Address(RVA = "0x4084FE0", Offset = "0x4084FE0", VA = "0x4084FE0")]
-	[IteratorStateMachine(typeof(_003CPollUnityOAuth_003Ed__9))]
-	private IEnumerator PollUnityOAuth(UnityOAuthStart start, int attemptId, bool reportNetworkError)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6004520")]
-	[Address(RVA = "0x40850B0", Offset = "0x40850B0", VA = "0x40850B0")]
-	[IteratorStateMachine(typeof(_003CExchangeOAuthCode_003Ed__10))]
-	private IEnumerator ExchangeOAuthCode(string code, bool reportNetworkError)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6004521")]
-	[Address(RVA = "0x4084E00", Offset = "0x4084E00", VA = "0x4084E00")]
-	private void CancelOAuthFlow()
-	{
-	}
-
-	[Token(Token = "0x6004522")]
-	[Address(RVA = "0x4085160", Offset = "0x4085160", VA = "0x4085160")]
-	private bool IsCurrentOAuthAttempt(int attemptId)
-	{
-		return default(bool);
-	}
-
-	[Token(Token = "0x6004523")]
-	[Address(RVA = "0x40851D0", Offset = "0x40851D0", VA = "0x40851D0")]
-	private static void CompleteOAuth(bool success, string error)
-	{
-	}
-
-	[Token(Token = "0x6004524")]
-	[Address(RVA = "0x4085300", Offset = "0x4085300", VA = "0x4085300")]
-	private static bool TryParseUnityOAuthStart(string json, out UnityOAuthStart start)
-	{
-		return default(bool);
-	}
-
-	[Token(Token = "0x6004525")]
-	[Address(RVA = "0x4085900", Offset = "0x4085900", VA = "0x4085900")]
-	private static bool TryParseUnityOAuthStatus(string json, out string status, out string code, out string error)
-	{
-		return default(bool);
-	}
-
-	[Token(Token = "0x6004526")]
-	[Address(RVA = "0x4085C00", Offset = "0x4085C00", VA = "0x4085C00")]
-	private static string NormalizeOAuthProvider(string provider)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6004530")]
-	[Address(RVA = "0x4086010", Offset = "0x4086010", VA = "0x4086010")]
-	public static void GetProfile(Action<bool, string> onComplete, bool forceRefresh = false)
-	{
-	}
-
-	[Token(Token = "0x6004531")]
-	[Address(RVA = "0x4086510", Offset = "0x4086510", VA = "0x4086510")]
-	public static void UpdateProfile(string displayName, string description, string avatarKey, string bannerKey, Dictionary<string, string> socials, Action<bool, string> onComplete, bool reportNetworkError = true)
-	{
-	}
-
-	[Token(Token = "0x6004532")]
-	[Address(RVA = "0x4086C50", Offset = "0x4086C50", VA = "0x4086C50")]
-	public static void GetCharacterInfo(Action<bool, string, JSONNode> onComplete, bool forceRefresh = false)
-	{
-	}
-
-	[Token(Token = "0x6004533")]
-	[Address(RVA = "0x40871E0", Offset = "0x40871E0", VA = "0x40871E0")]
-	public static void UpdateCharacterInfo(JSONNode characterInfo, Action<bool, string, JSONNode> onComplete, bool reportNetworkError = true)
-	{
-	}
-
-	[Token(Token = "0x6004534")]
-	[Address(RVA = "0x4086480", Offset = "0x4086480", VA = "0x4086480")]
-	[IteratorStateMachine(typeof(_003CGetProfileJson_003Ed__50))]
-	private IEnumerator GetProfileJson(Action<bool, string> onComplete)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6004535")]
-	[Address(RVA = "0x4086BA0", Offset = "0x4086BA0", VA = "0x4086BA0")]
-	[IteratorStateMachine(typeof(_003CPatchProfileJson_003Ed__51))]
-	private IEnumerator PatchProfileJson(string json, Action<bool, string> onComplete, bool reportNetworkError)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6004536")]
-	[Address(RVA = "0x4087150", Offset = "0x4087150", VA = "0x4087150")]
-	[IteratorStateMachine(typeof(_003CGetCharacterInfoJson_003Ed__52))]
-	private IEnumerator GetCharacterInfoJson(Action<bool, string, JSONNode> onComplete)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6004537")]
-	[Address(RVA = "0x4087490", Offset = "0x4087490", VA = "0x4087490")]
-	[IteratorStateMachine(typeof(_003CPutCharacterInfoJson_003Ed__53))]
-	private IEnumerator PutCharacterInfoJson(string json, JSONNode fallbackCharacterInfo, Action<bool, string, JSONNode> onComplete, bool reportNetworkError)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6004538")]
-	[Address(RVA = "0x40875D0", Offset = "0x40875D0", VA = "0x40875D0")]
-	[IteratorStateMachine(typeof(_003CSendMeJson_003Ed__54))]
-	private IEnumerator SendMeJson(string method, string path, string json, Action<bool, string, JSONNode> onComplete, bool reportNetworkError = true)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6004539")]
-	[Address(RVA = "0x40876D0", Offset = "0x40876D0", VA = "0x40876D0")]
-	[IteratorStateMachine(typeof(_003CSendMeReadJson_003Ed__55))]
-	private IEnumerator SendMeReadJson(string path, Action<bool, string, JSONNode> onComplete)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x600453A")]
-	[Address(RVA = "0x4087790", Offset = "0x4087790", VA = "0x4087790")]
-	private static void ApplyProfileResponse(JSONNode profile)
-	{
-	}
-
-	[Token(Token = "0x600453B")]
-	[Address(RVA = "0x4088030", Offset = "0x4088030", VA = "0x4088030")]
-	private static void CompleteProfileFetch(bool success, string error)
-	{
-	}
-
-	[Token(Token = "0x600453C")]
-	[Address(RVA = "0x4088210", Offset = "0x4088210", VA = "0x4088210")]
-	private static void CompleteCharacterInfoFetch(bool success, string error, JSONNode characterInfo)
-	{
-	}
-
-	[Token(Token = "0x600453D")]
-	[Address(RVA = "0x4087E70", Offset = "0x4087E70", VA = "0x4087E70")]
-	private static void MarkOwnProfileCacheFresh()
-	{
-	}
-
-	[Token(Token = "0x600453E")]
-	[Address(RVA = "0x4088490", Offset = "0x4088490", VA = "0x4088490")]
-	private static void MarkCharacterInfoCacheFresh(JSONNode characterInfo)
-	{
-	}
-
-	[Token(Token = "0x600453F")]
-	[Address(RVA = "0x4087040", Offset = "0x4087040", VA = "0x4087040")]
-	private static JSONNode CloneJson(JSONNode node)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6004540")]
-	[Address(RVA = "0x4088550", Offset = "0x4088550", VA = "0x4088550")]
-	private static void InvalidateOwnAccountCache()
-	{
-	}
-
-	[Token(Token = "0x6004541")]
-	[Address(RVA = "0x40885A0", Offset = "0x40885A0", VA = "0x40885A0")]
-	private static void ClearOwnAccountCache()
-	{
-	}
-
-	[Token(Token = "0x6004542")]
-	[Address(RVA = "0x4088690", Offset = "0x4088690", VA = "0x4088690")]
-	private static void ClearProfileResponse()
-	{
-	}
-
-	[Token(Token = "0x6004543")]
-	[Address(RVA = "0x40888C0", Offset = "0x40888C0", VA = "0x40888C0")]
-	private static void ClearOwnPublicProfileCache()
-	{
-	}
-
-	[Token(Token = "0x6004555")]
-	[Address(RVA = "0x4089D60", Offset = "0x4089D60", VA = "0x4089D60")]
+	[Token(Token = "0x6004795")]
+	[Address(RVA = "0x439E010", Offset = "0x439E010", VA = "0x439E010")]
 	public static bool IsOAuthProviderLinked(string provider)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600456B")]
-	[Address(RVA = "0x408AC90", Offset = "0x408AC90", VA = "0x408AC90")]
+	[Token(Token = "0x60047AB")]
+	[Address(RVA = "0x439EF10", Offset = "0x439EF10", VA = "0x439EF10")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x600456C")]
-	[Address(RVA = "0x408B6E0", Offset = "0x408B6E0", VA = "0x408B6E0")]
+	[Token(Token = "0x60047AC")]
+	[Address(RVA = "0x439F940", Offset = "0x439F940", VA = "0x439F940")]
 	public static void SetKeepSignedIn(bool value)
 	{
 	}
 
-	[Token(Token = "0x600456D")]
-	[Address(RVA = "0x408BBA0", Offset = "0x408BBA0", VA = "0x408BBA0")]
+	[Token(Token = "0x60047AD")]
+	[Address(RVA = "0x439FDF0", Offset = "0x439FDF0", VA = "0x439FDF0")]
 	public static bool IsAuthMethodEnabled(string key)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600456E")]
-	[Address(RVA = "0x4089DB0", Offset = "0x4089DB0", VA = "0x4089DB0")]
+	[Token(Token = "0x60047AE")]
+	[Address(RVA = "0x439E060", Offset = "0x439E060", VA = "0x439E060")]
 	public static AccountLoginResponse.OAuthLinkData GetOAuthLink(string provider)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600456F")]
-	[Address(RVA = "0x408B580", Offset = "0x408B580", VA = "0x408B580")]
+	[Token(Token = "0x60047AF")]
+	[Address(RVA = "0x439F7E0", Offset = "0x439F7E0", VA = "0x439F7E0")]
 	public static void RefreshAuthMethods(Action<bool, string> onComplete)
 	{
 	}
 
-	[Token(Token = "0x6004570")]
-	[Address(RVA = "0x408BCC0", Offset = "0x408BCC0", VA = "0x408BCC0")]
+	[Token(Token = "0x60047B0")]
+	[Address(RVA = "0x439FF00", Offset = "0x439FF00", VA = "0x439FF00")]
 	public static void Register(string displayName, string email, string password, Action<bool, string> onComplete, bool reportNetworkError = true)
 	{
 	}
 
-	[Token(Token = "0x6004571")]
-	[Address(RVA = "0x408C220", Offset = "0x408C220", VA = "0x408C220")]
+	[Token(Token = "0x60047B1")]
+	[Address(RVA = "0x43A0450", Offset = "0x43A0450", VA = "0x43A0450")]
 	public static void Login(string email, string password, Action<bool, string> onComplete, bool reportNetworkError = true)
 	{
 	}
 
-	[Token(Token = "0x6004572")]
-	[Address(RVA = "0x408B230", Offset = "0x408B230", VA = "0x408B230")]
+	[Token(Token = "0x60047B2")]
+	[Address(RVA = "0x439F4A0", Offset = "0x439F4A0", VA = "0x439F4A0")]
 	public static void Refresh(Action<bool, string> onComplete, bool reportNetworkError = true)
 	{
 	}
 
-	[Token(Token = "0x6004573")]
-	[Address(RVA = "0x408C3C0", Offset = "0x408C3C0", VA = "0x408C3C0")]
+	[Token(Token = "0x60047B3")]
+	[Address(RVA = "0x43A05F0", Offset = "0x43A05F0", VA = "0x43A05F0")]
 	public static void Logout([Optional] Action<bool, string> onComplete, bool reportNetworkError = true)
 	{
 	}
 
-	[Token(Token = "0x6004574")]
-	[Address(RVA = "0x408CB40", Offset = "0x408CB40", VA = "0x408CB40")]
+	[Token(Token = "0x60047B4")]
+	[Address(RVA = "0x43A0D40", Offset = "0x43A0D40", VA = "0x43A0D40")]
 	public static void GoOffline()
 	{
 	}
 
-	[Token(Token = "0x6004575")]
-	[Address(RVA = "0x408CC20", Offset = "0x408CC20", VA = "0x408CC20")]
+	[Token(Token = "0x60047B5")]
+	[Address(RVA = "0x43A0E20", Offset = "0x43A0E20", VA = "0x43A0E20")]
 	public static void GoOnline(Action<bool, string> onComplete, bool reportNetworkError = true)
 	{
 	}
 
-	[Token(Token = "0x6004576")]
-	[Address(RVA = "0x408CD90", Offset = "0x408CD90", VA = "0x408CD90")]
+	[Token(Token = "0x60047B6")]
+	[Address(RVA = "0x43A0F90", Offset = "0x43A0F90", VA = "0x43A0F90")]
 	public static string GetWebLoginUrlWithSession()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004577")]
-	[Address(RVA = "0x408CE30", Offset = "0x408CE30", VA = "0x408CE30")]
+	[Token(Token = "0x60047B7")]
+	[Address(RVA = "0x43A1030", Offset = "0x43A1030", VA = "0x43A1030")]
 	public static void VerifyEmail(string token, Action<bool, string> onComplete)
 	{
 	}
 
-	[Token(Token = "0x6004578")]
-	[Address(RVA = "0x408D020", Offset = "0x408D020", VA = "0x408D020")]
+	[Token(Token = "0x60047B8")]
+	[Address(RVA = "0x43A1220", Offset = "0x43A1220", VA = "0x43A1220")]
 	public static void ForgotPassword(string email, Action<bool, string> onComplete, bool reportNetworkError = true)
 	{
 	}
 
-	[Token(Token = "0x6004579")]
-	[Address(RVA = "0x408D170", Offset = "0x408D170", VA = "0x408D170")]
+	[Token(Token = "0x60047B9")]
+	[Address(RVA = "0x43A1370", Offset = "0x43A1370", VA = "0x43A1370")]
 	public static void PatreonUnlink(Action<bool, string> onComplete)
 	{
 	}
 
-	[Token(Token = "0x600457A")]
-	[Address(RVA = "0x408BC40", Offset = "0x408BC40", VA = "0x408BC40")]
-	[IteratorStateMachine(typeof(_003CGetAuthMethods_003Ed__164))]
+	[Token(Token = "0x60047BA")]
+	[Address(RVA = "0x439FE80", Offset = "0x439FE80", VA = "0x439FE80")]
+	[IteratorStateMachine(typeof(_003CGetAuthMethods_003Ed__98))]
 	private IEnumerator GetAuthMethods(Action<bool, string> onComplete)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600457B")]
-	[Address(RVA = "0x408D450", Offset = "0x408D450", VA = "0x408D450")]
-	[IteratorStateMachine(typeof(_003CSendApiGet_003Ed__165))]
+	[Token(Token = "0x60047BB")]
+	[Address(RVA = "0x43A1650", Offset = "0x43A1650", VA = "0x43A1650")]
+	[IteratorStateMachine(typeof(_003CSendApiGet_003Ed__99))]
 	private IEnumerator SendApiGet(string path, string bearer, bool parseJson, Action<AottgApiResult> onComplete)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600457C")]
-	[Address(RVA = "0x408D530", Offset = "0x408D530", VA = "0x408D530")]
-	[AsyncStateMachine(typeof(_003CSendApiGetAsync_003Ed__166))]
+	[Token(Token = "0x60047BC")]
+	[Address(RVA = "0x43A1730", Offset = "0x43A1730", VA = "0x43A1730")]
+	[AsyncStateMachine(typeof(_003CSendApiGetAsync_003Ed__100))]
 	private UniTask SendApiGetAsync(string path, string bearer, bool parseJson, Action<AottgApiResult> onComplete)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x600457D")]
-	[Address(RVA = "0x408D610", Offset = "0x408D610", VA = "0x408D610")]
-	[IteratorStateMachine(typeof(_003CSendApiJson_003Ed__167))]
+	[Token(Token = "0x60047BD")]
+	[Address(RVA = "0x43A1810", Offset = "0x43A1810", VA = "0x43A1810")]
+	[IteratorStateMachine(typeof(_003CSendApiJson_003Ed__101))]
 	private IEnumerator SendApiJson(string method, string path, string json, string bearer, bool parseJson, Action<AottgApiResult> onComplete, [Optional][DefaultParameterValue(true)] bool reportNetworkError, [Optional] int? timeoutSeconds)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600457E")]
-	[Address(RVA = "0x408D730", Offset = "0x408D730", VA = "0x408D730")]
-	[AsyncStateMachine(typeof(_003CSendApiJsonAsync_003Ed__168))]
+	[Token(Token = "0x60047BE")]
+	[Address(RVA = "0x43A1930", Offset = "0x43A1930", VA = "0x43A1930")]
+	[AsyncStateMachine(typeof(_003CSendApiJsonAsync_003Ed__102))]
 	private UniTask SendApiJsonAsync(string method, string path, string json, string bearer, bool parseJson, bool reportNetworkError, int? timeoutSeconds, Action<AottgApiResult> onComplete)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x600457F")]
-	[Address(RVA = "0x408D860", Offset = "0x408D860", VA = "0x408D860")]
+	[Token(Token = "0x60047BF")]
+	[Address(RVA = "0x43A1A60", Offset = "0x43A1A60", VA = "0x43A1A60")]
 	private static UniTask<AottgApiResult> SendApiJsonAsync(string method, string path, string json, string bearer, bool parseJson, bool reportNetworkError, [Optional] int? timeoutSeconds)
 	{
 		return default(UniTask<AottgApiResult>);
 	}
 
-	[Token(Token = "0x6004580")]
-	[Address(RVA = "0x408D990", Offset = "0x408D990", VA = "0x408D990")]
+	[Token(Token = "0x60047C0")]
+	[Address(RVA = "0x43A1B90", Offset = "0x43A1B90", VA = "0x43A1B90")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x6004581")]
-	[Address(RVA = "0x408D380", Offset = "0x408D380", VA = "0x408D380")]
-	[IteratorStateMachine(typeof(_003CDeleteJson_003Ed__171))]
+	[Token(Token = "0x60047C1")]
+	[Address(RVA = "0x43A1580", Offset = "0x43A1580", VA = "0x43A1580")]
+	[IteratorStateMachine(typeof(_003CDeleteJson_003Ed__105))]
 	private IEnumerator DeleteJson(string path, string bearer, Action<bool, string> onComplete)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004582")]
-	[Address(RVA = "0x408C110", Offset = "0x408C110", VA = "0x408C110")]
-	[IteratorStateMachine(typeof(_003CPostJson_003Ed__172))]
+	[Token(Token = "0x60047C2")]
+	[Address(RVA = "0x43A0340", Offset = "0x43A0340", VA = "0x43A0340")]
+	[IteratorStateMachine(typeof(_003CPostJson_003Ed__106))]
 	private IEnumerator PostJson(string path, string json, string bearer, Action<bool, string> onComplete, bool applyAuthResponse, [Optional] string captureField, [Optional] Action<string> captureTarget, bool reportNetworkError = true)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004583")]
-	[Address(RVA = "0x408DAC0", Offset = "0x408DAC0", VA = "0x408DAC0")]
+	[Token(Token = "0x60047C3")]
+	[Address(RVA = "0x43A1E10", Offset = "0x43A1E10", VA = "0x43A1E10")]
 	private static bool ApplyAuthMethodsResponse(string json)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004584")]
-	[Address(RVA = "0x408E360", Offset = "0x408E360", VA = "0x408E360")]
+	[Token(Token = "0x60047C4")]
+	[Address(RVA = "0x43A26A0", Offset = "0x43A26A0", VA = "0x43A26A0")]
 	private static void ApplyAuthResponse(string json)
 	{
 	}
 
-	[Token(Token = "0x6004585")]
-	[Address(RVA = "0x408E980", Offset = "0x408E980", VA = "0x408E980")]
+	[Token(Token = "0x60047C5")]
+	[Address(RVA = "0x43A3370", Offset = "0x43A3370", VA = "0x43A3370")]
 	private static void OnPreLoadScene(SceneName sceneName)
 	{
 	}
 
-	[Token(Token = "0x6004586")]
-	[Address(RVA = "0x408EA20", Offset = "0x408EA20", VA = "0x408EA20")]
+	[Token(Token = "0x60047C6")]
+	[Address(RVA = "0x43A3470", Offset = "0x43A3470", VA = "0x43A3470")]
 	private static long ParseIsoToUnix(string iso)
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x6004587")]
-	[Address(RVA = "0x408C590", Offset = "0x408C590", VA = "0x408C590")]
+	[Token(Token = "0x60047C7")]
+	[Address(RVA = "0x43A07B0", Offset = "0x43A07B0", VA = "0x43A07B0")]
 	private static void ClearSession(bool clearRefreshToken = true)
 	{
 	}
 
-	[Token(Token = "0x6004588")]
-	[Address(RVA = "0x408AF20", Offset = "0x408AF20", VA = "0x408AF20")]
+	[Token(Token = "0x60047C8")]
+	[Address(RVA = "0x439F1A0", Offset = "0x439F1A0", VA = "0x439F1A0")]
 	private static string GetRefreshTokenPath()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004589")]
-	[Address(RVA = "0x408B950", Offset = "0x408B950", VA = "0x408B950")]
+	[Token(Token = "0x60047C9")]
+	[Address(RVA = "0x439FBA0", Offset = "0x439FBA0", VA = "0x439FBA0")]
 	private static void SaveRefreshToken()
 	{
 	}
 
-	[Token(Token = "0x600458A")]
-	[Address(RVA = "0x408AF90", Offset = "0x408AF90", VA = "0x408AF90")]
+	[Token(Token = "0x60047CA")]
+	[Address(RVA = "0x439F210", Offset = "0x439F210", VA = "0x439F210")]
 	private static void LoadRefreshToken()
 	{
 	}
 
-	[Token(Token = "0x600458B")]
-	[Address(RVA = "0x408B810", Offset = "0x408B810", VA = "0x408B810")]
+	[Token(Token = "0x60047CB")]
+	[Address(RVA = "0x439FA60", Offset = "0x439FA60", VA = "0x439FA60")]
 	private static void DeleteRefreshToken()
 	{
 	}
 
-	[Token(Token = "0x600458C")]
-	[Address(RVA = "0x408EBF0", Offset = "0x408EBF0", VA = "0x408EBF0")]
+	[Token(Token = "0x60047CC")]
+	[Address(RVA = "0x43A3890", Offset = "0x43A3890", VA = "0x43A3890")]
+	public static void LoginWithOAuth(string provider, Action<bool, string> onComplete, bool reportNetworkError = true)
+	{
+	}
+
+	[Token(Token = "0x60047CD")]
+	[Address(RVA = "0x43A3B30", Offset = "0x43A3B30", VA = "0x43A3B30")]
+	public static void CancelOAuthLogin()
+	{
+	}
+
+	[Token(Token = "0x60047CE")]
+	[Address(RVA = "0x43A3A90", Offset = "0x43A3A90", VA = "0x43A3A90")]
+	[IteratorStateMachine(typeof(_003COAuthFlow_003Ed__124))]
+	private IEnumerator OAuthFlow(string provider, int attemptId, bool reportNetworkError)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60047CF")]
+	[Address(RVA = "0x43A3C70", Offset = "0x43A3C70", VA = "0x43A3C70")]
+	[IteratorStateMachine(typeof(_003CPollUnityOAuth_003Ed__125))]
+	private IEnumerator PollUnityOAuth(UnityOAuthStart start, int attemptId, bool reportNetworkError)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60047D0")]
+	[Address(RVA = "0x43A3D40", Offset = "0x43A3D40", VA = "0x43A3D40")]
+	[IteratorStateMachine(typeof(_003CExchangeOAuthCode_003Ed__126))]
+	private IEnumerator ExchangeOAuthCode(string code, bool reportNetworkError)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60047D1")]
+	[Address(RVA = "0x43A1D30", Offset = "0x43A1D30", VA = "0x43A1D30")]
+	private void CancelOAuthFlow()
+	{
+	}
+
+	[Token(Token = "0x60047D2")]
+	[Address(RVA = "0x43A3DF0", Offset = "0x43A3DF0", VA = "0x43A3DF0")]
+	private bool IsCurrentOAuthAttempt(int attemptId)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x60047D3")]
+	[Address(RVA = "0x43A3E60", Offset = "0x43A3E60", VA = "0x43A3E60")]
+	private static void CompleteOAuth(bool success, string error)
+	{
+	}
+
+	[Token(Token = "0x60047D4")]
+	[Address(RVA = "0x43A3F90", Offset = "0x43A3F90", VA = "0x43A3F90")]
+	private static bool TryParseUnityOAuthStart(string json, out UnityOAuthStart start)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x60047D5")]
+	[Address(RVA = "0x43A4590", Offset = "0x43A4590", VA = "0x43A4590")]
+	private static bool TryParseUnityOAuthStatus(string json, out string status, out string code, out string error)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x60047D6")]
+	[Address(RVA = "0x43A4890", Offset = "0x43A4890", VA = "0x43A4890")]
+	private static string NormalizeOAuthProvider(string provider)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60047E0")]
+	[Address(RVA = "0x43A4CD0", Offset = "0x43A4CD0", VA = "0x43A4CD0")]
+	public static void GetProfile(Action<bool, string> onComplete, bool forceRefresh = false)
+	{
+	}
+
+	[Token(Token = "0x60047E1")]
+	[Address(RVA = "0x43A5130", Offset = "0x43A5130", VA = "0x43A5130")]
+	public static void UpdateProfile(string displayName, string description, string avatarKey, string bannerKey, Dictionary<string, string> socials, Action<bool, string> onComplete, bool reportNetworkError = true)
+	{
+	}
+
+	[Token(Token = "0x60047E2")]
+	[Address(RVA = "0x43A5870", Offset = "0x43A5870", VA = "0x43A5870")]
+	public static void GetCharacterInfo(Action<bool, string, JSONNode> onComplete, bool forceRefresh = false)
+	{
+	}
+
+	[Token(Token = "0x60047E3")]
+	[Address(RVA = "0x43A5E10", Offset = "0x43A5E10", VA = "0x43A5E10")]
+	public static void UpdateCharacterInfo(JSONNode characterInfo, Action<bool, string, JSONNode> onComplete, bool reportNetworkError = true)
+	{
+	}
+
+	[Token(Token = "0x60047E4")]
+	[Address(RVA = "0x43A50A0", Offset = "0x43A50A0", VA = "0x43A50A0")]
+	[IteratorStateMachine(typeof(_003CGetProfileJson_003Ed__166))]
+	private IEnumerator GetProfileJson(Action<bool, string> onComplete)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60047E5")]
+	[Address(RVA = "0x43A57C0", Offset = "0x43A57C0", VA = "0x43A57C0")]
+	[IteratorStateMachine(typeof(_003CPatchProfileJson_003Ed__167))]
+	private IEnumerator PatchProfileJson(string json, Action<bool, string> onComplete, bool reportNetworkError)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60047E6")]
+	[Address(RVA = "0x43A5D80", Offset = "0x43A5D80", VA = "0x43A5D80")]
+	[IteratorStateMachine(typeof(_003CGetCharacterInfoJson_003Ed__168))]
+	private IEnumerator GetCharacterInfoJson(Action<bool, string, JSONNode> onComplete)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60047E7")]
+	[Address(RVA = "0x43A60C0", Offset = "0x43A60C0", VA = "0x43A60C0")]
+	[IteratorStateMachine(typeof(_003CPutCharacterInfoJson_003Ed__169))]
+	private IEnumerator PutCharacterInfoJson(string json, JSONNode fallbackCharacterInfo, Action<bool, string, JSONNode> onComplete, bool reportNetworkError)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60047E8")]
+	[Address(RVA = "0x43A6200", Offset = "0x43A6200", VA = "0x43A6200")]
+	[IteratorStateMachine(typeof(_003CSendMeJson_003Ed__170))]
+	private IEnumerator SendMeJson(string method, string path, string json, Action<bool, string, JSONNode> onComplete, bool reportNetworkError = true)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60047E9")]
+	[Address(RVA = "0x43A6300", Offset = "0x43A6300", VA = "0x43A6300")]
+	[IteratorStateMachine(typeof(_003CSendMeReadJson_003Ed__171))]
+	private IEnumerator SendMeReadJson(string path, Action<bool, string, JSONNode> onComplete)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60047EA")]
+	[Address(RVA = "0x43A2CA0", Offset = "0x43A2CA0", VA = "0x43A2CA0")]
+	private static void ApplyProfileResponse(JSONNode profile)
+	{
+	}
+
+	[Token(Token = "0x60047EB")]
+	[Address(RVA = "0x43A6570", Offset = "0x43A6570", VA = "0x43A6570")]
+	private static void CompleteProfileFetch(bool success, string error)
+	{
+	}
+
+	[Token(Token = "0x60047EC")]
+	[Address(RVA = "0x43A6760", Offset = "0x43A6760", VA = "0x43A6760")]
+	private static void CompleteCharacterInfoFetch(bool success, string error, JSONNode characterInfo)
+	{
+	}
+
+	[Token(Token = "0x60047ED")]
+	[Address(RVA = "0x43A63C0", Offset = "0x43A63C0", VA = "0x43A63C0")]
+	private static void MarkOwnProfileCacheFresh()
+	{
+	}
+
+	[Token(Token = "0x60047EE")]
+	[Address(RVA = "0x43A69F0", Offset = "0x43A69F0", VA = "0x43A69F0")]
+	private static void MarkCharacterInfoCacheFresh(JSONNode characterInfo)
+	{
+	}
+
+	[Token(Token = "0x60047EF")]
+	[Address(RVA = "0x43A5C70", Offset = "0x43A5C70", VA = "0x43A5C70")]
+	private static JSONNode CloneJson(JSONNode node)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60047F0")]
+	[Address(RVA = "0x43A3420", Offset = "0x43A3420", VA = "0x43A3420")]
+	private static void InvalidateOwnAccountCache()
+	{
+	}
+
+	[Token(Token = "0x60047F1")]
+	[Address(RVA = "0x43A6AC0", Offset = "0x43A6AC0", VA = "0x43A6AC0")]
+	private static void ClearOwnAccountCache()
+	{
+	}
+
+	[Token(Token = "0x60047F2")]
+	[Address(RVA = "0x43A3640", Offset = "0x43A3640", VA = "0x43A3640")]
+	private static void ClearProfileResponse()
+	{
+	}
+
+	[Token(Token = "0x60047F3")]
+	[Address(RVA = "0x43A6BD0", Offset = "0x43A6BD0", VA = "0x43A6BD0")]
+	private static void ClearOwnPublicProfileCache()
+	{
+	}
+
+	[Token(Token = "0x60047F4")]
+	[Address(RVA = "0x43A6C40", Offset = "0x43A6C40", VA = "0x43A6C40")]
 	public AccountManager()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.MaterialQualityUtilities
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Scripting.APIUpdating;
 
@@ -20,40 +27,40 @@ public static class MaterialQualityUtilities
 	public static ShaderKeyword[] Keywords;
 
 	[Token(Token = "0x6000D1E")]
-	[Address(RVA = "0x48DD1D0", Offset = "0x48DD1D0", VA = "0x48DD1D0")]
+	[Address(RVA = "0x4C02240", Offset = "0x4C02240", VA = "0x4C02240")]
 	public static MaterialQuality GetHighestQuality(this MaterialQuality levels)
 	{
 		return default(MaterialQuality);
 	}
 
 	[Token(Token = "0x6000D1F")]
-	[Address(RVA = "0x48DD280", Offset = "0x48DD280", VA = "0x48DD280")]
+	[Address(RVA = "0x4C022F0", Offset = "0x4C022F0", VA = "0x4C022F0")]
 	public static MaterialQuality GetClosestQuality(this MaterialQuality availableLevels, MaterialQuality requestedLevel)
 	{
 		return default(MaterialQuality);
 	}
 
 	[Token(Token = "0x6000D20")]
-	[Address(RVA = "0x48DD4D0", Offset = "0x48DD4D0", VA = "0x48DD4D0")]
+	[Address(RVA = "0x4C02540", Offset = "0x4C02540", VA = "0x4C02540")]
 	public static void SetGlobalShaderKeywords(this MaterialQuality level)
 	{
 	}
 
 	[Token(Token = "0x6000D21")]
-	[Address(RVA = "0x48DD5C0", Offset = "0x48DD5C0", VA = "0x48DD5C0")]
+	[Address(RVA = "0x4C02630", Offset = "0x4C02630", VA = "0x4C02630")]
 	public static void SetGlobalShaderKeywords(this MaterialQuality level, CommandBuffer cmd)
 	{
 	}
 
 	[Token(Token = "0x6000D22")]
-	[Address(RVA = "0x48DD440", Offset = "0x48DD440", VA = "0x48DD440")]
+	[Address(RVA = "0x4C024B0", Offset = "0x4C024B0", VA = "0x4C024B0")]
 	public static int ToFirstIndex(this MaterialQuality level)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000D23")]
-	[Address(RVA = "0x48DD4C0", Offset = "0x48DD4C0", VA = "0x48DD4C0")]
+	[Address(RVA = "0x4C02530", Offset = "0x4C02530", VA = "0x4C02530")]
 	public static MaterialQuality FromIndex(int index)
 	{
 		return default(MaterialQuality);

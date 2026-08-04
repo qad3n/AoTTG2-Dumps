@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.DebugInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -10,14 +17,14 @@ internal sealed class DebugInfo
 	private class DebugInfoComparer : IComparer<DebugInfo>
 	{
 		[Token(Token = "0x6000873")]
-		[Address(RVA = "0x41BA470", Offset = "0x41BA470", VA = "0x41BA470", Slot = "4")]
+		[Address(RVA = "0x44DF570", Offset = "0x44DF570", VA = "0x44DF570", Slot = "4")]
 		private int System_002ECollections_002EGeneric_002EIComparer_003CSystem_002ELinq_002EExpressions_002EInterpreter_002EDebugInfo_003E_002ECompare(DebugInfo d1, DebugInfo d2)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000874")]
-		[Address(RVA = "0x41BA460", Offset = "0x41BA460", VA = "0x41BA460")]
+		[Address(RVA = "0x44DF560", Offset = "0x44DF560", VA = "0x44DF560")]
 		public DebugInfoComparer()
 		{
 		}
@@ -48,21 +55,21 @@ internal sealed class DebugInfo
 	private static readonly DebugInfoComparer s_debugComparer;
 
 	[Token(Token = "0x600086F")]
-	[Address(RVA = "0x41B5040", Offset = "0x41B5040", VA = "0x41B5040")]
+	[Address(RVA = "0x44DA140", Offset = "0x44DA140", VA = "0x44DA140")]
 	public static DebugInfo GetMatchingDebugInfo(DebugInfo[] debugInfos, int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000870")]
-	[Address(RVA = "0x41BA1B0", Offset = "0x41BA1B0", VA = "0x41BA1B0", Slot = "3")]
+	[Address(RVA = "0x44DF2B0", Offset = "0x44DF2B0", VA = "0x44DF2B0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000871")]
-	[Address(RVA = "0x41BA1A0", Offset = "0x41BA1A0", VA = "0x41BA1A0")]
+	[Address(RVA = "0x44DF2A0", Offset = "0x44DF2A0", VA = "0x44DF2A0")]
 	public DebugInfo()
 	{
 	}

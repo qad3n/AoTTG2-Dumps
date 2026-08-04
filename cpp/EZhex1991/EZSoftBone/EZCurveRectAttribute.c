@@ -1,12 +1,14 @@
 // Type: EZhex1991.EZSoftBone.EZCurveRectAttribute
+// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/EZhex1991.EZSoftBone/EZhex1991.EZSoftBone/EZCurveRectAttribute.cs
-// Prior real C# source (REFERENCE, outdated): Assets/ThirdParty/EZhex1991/EZSoftBone/Runtime/Attributes/EZCurveRectAttribute.cs  [prior source available (delta unverified)]
+// Prior real C# source (older reference): Assets/ThirdParty/EZhex1991/EZSoftBone/Runtime/Attributes/EZCurveRectAttribute.cs
 // --------------------------------
 
 // EZhex1991.EZSoftBone.EZCurveRectAttribute$$.ctor
 // il2cpp: void EZhex1991_EZSoftBone_EZCurveRectAttribute___ctor (EZhex1991_EZSoftBone_EZCurveRectAttribute_o* __this, const MethodInfo* method);
-// 0x2453f70
+// 0x2492080
 
 void EZhex1991_EZSoftBone_EZCurveRectAttribute___ctor
                (EZhex1991_EZSoftBone_EZCurveRectAttribute_o *__this,MethodInfo *method)
@@ -27,11 +29,11 @@ void EZhex1991_EZSoftBone_EZCurveRectAttribute___ctor
 
 // EZhex1991.EZSoftBone.EZCurveRectAttribute$$.ctor
 // il2cpp: void EZhex1991_EZSoftBone_EZCurveRectAttribute___ctor (EZhex1991_EZSoftBone_EZCurveRectAttribute_o* __this, UnityEngine_Rect_o rect, const MethodInfo* method);
-// 0x2453fa0
+// 0x24920b0
 
-void EZhex1991_EZSoftBone_EZCurveRectAttribute___ctor
-               (EZhex1991_EZSoftBone_EZCurveRectAttribute_o *__this,UnityEngine_Rect_o rect,
-               MethodInfo *method)
+void EZhex1991_EZSoftBone_EZCurveRectAttribute___ctor_23920b0
+               (EZhex1991_EZSoftBone_EZCurveRectAttribute_o *__this,UnityEngine_Rect_o rect,MethodInfo *method
+               )
 
 {
   float local_28;
@@ -54,11 +56,11 @@ void EZhex1991_EZSoftBone_EZCurveRectAttribute___ctor
 
 // EZhex1991.EZSoftBone.EZCurveRectAttribute$$.ctor
 // il2cpp: void EZhex1991_EZSoftBone_EZCurveRectAttribute___ctor (EZhex1991_EZSoftBone_EZCurveRectAttribute_o* __this, float x, float y, float width, float height, const MethodInfo* method);
-// 0x2453fe0
+// 0x24920f0
 
-void EZhex1991_EZSoftBone_EZCurveRectAttribute___ctor
-               (EZhex1991_EZSoftBone_EZCurveRectAttribute_o *__this,float x,float y,float width,
-               float height,MethodInfo *method)
+void EZhex1991_EZSoftBone_EZCurveRectAttribute___ctor_23920f0
+               (EZhex1991_EZSoftBone_EZCurveRectAttribute_o *__this,float x,float y,float width,float height,
+               MethodInfo *method)
 
 {
   (__this->fields).color.fields.r = 0.0;
@@ -76,9 +78,9 @@ void EZhex1991_EZSoftBone_EZCurveRectAttribute___ctor
 
 // EZhex1991.EZSoftBone.EZCurveRectAttribute$$.ctor
 // il2cpp: void EZhex1991_EZSoftBone_EZCurveRectAttribute___ctor (EZhex1991_EZSoftBone_EZCurveRectAttribute_o* __this, UnityEngine_Rect_o rect, UnityEngine_Color_o color, const MethodInfo* method);
-// 0x2454050
+// 0x2492160
 
-void EZhex1991_EZSoftBone_EZCurveRectAttribute___ctor
+void EZhex1991_EZSoftBone_EZCurveRectAttribute___ctor_2392160
                (EZhex1991_EZSoftBone_EZCurveRectAttribute_o *__this,UnityEngine_Rect_o rect,
                UnityEngine_Color_o color,MethodInfo *method)
 
@@ -111,11 +113,11 @@ void EZhex1991_EZSoftBone_EZCurveRectAttribute___ctor
 
 // EZhex1991.EZSoftBone.EZCurveRectAttribute$$.ctor
 // il2cpp: void EZhex1991_EZSoftBone_EZCurveRectAttribute___ctor (EZhex1991_EZSoftBone_EZCurveRectAttribute_o* __this, float x, float y, float width, float height, UnityEngine_Color_o color, const MethodInfo* method);
-// 0x24540b0
+// 0x24921c0
 
-void EZhex1991_EZSoftBone_EZCurveRectAttribute___ctor
-               (EZhex1991_EZSoftBone_EZCurveRectAttribute_o *__this,float x,float y,float width,
-               float height,UnityEngine_Color_o color,MethodInfo *method)
+void EZhex1991_EZSoftBone_EZCurveRectAttribute___ctor_23921c0
+               (EZhex1991_EZSoftBone_EZCurveRectAttribute_o *__this,float x,float y,float width,float height,
+               UnityEngine_Color_o color,MethodInfo *method)
 
 {
   float local_28;

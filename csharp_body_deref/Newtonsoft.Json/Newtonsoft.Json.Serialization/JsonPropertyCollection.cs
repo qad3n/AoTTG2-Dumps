@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Serialization.JsonPropertyCollection
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -18,40 +25,40 @@ public class JsonPropertyCollection : KeyedCollection<string, JsonProperty>
 	private readonly List<JsonProperty> _list;
 
 	[Token(Token = "0x60008A3")]
-	[Address(RVA = "0x3AD71E0", Offset = "0x3AD71E0", VA = "0x3AD71E0")]
+	[Address(RVA = "0x3DCCB30", Offset = "0x3DCCB30", VA = "0x3DCCB30")]
 	public JsonPropertyCollection(Type type)
 	{
 	}
 
 	[Token(Token = "0x60008A4")]
-	[Address(RVA = "0x3AE5500", Offset = "0x3AE5500", VA = "0x3AE5500", Slot = "39")]
+	[Address(RVA = "0x3DDAE50", Offset = "0x3DDAE50", VA = "0x3DDAE50", Slot = "39")]
 	protected override string GetKeyForItem(JsonProperty item)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60008A5")]
-	[Address(RVA = "0x3AD73C0", Offset = "0x3AD73C0", VA = "0x3AD73C0")]
+	[Address(RVA = "0x3DCCD10", Offset = "0x3DCCD10", VA = "0x3DCCD10")]
 	public void AddProperty(JsonProperty property)
 	{
 	}
 
 	[Token(Token = "0x60008A6")]
-	[Address(RVA = "0x3AD7690", Offset = "0x3AD7690", VA = "0x3AD7690")]
+	[Address(RVA = "0x3DCCFE0", Offset = "0x3DCCFE0", VA = "0x3DCCFE0")]
 	public JsonProperty GetClosestMatchProperty(string propertyName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60008A7")]
-	[Address(RVA = "0x3AE5600", Offset = "0x3AE5600", VA = "0x3AE5600")]
+	[Address(RVA = "0x3DDAF50", Offset = "0x3DDAF50", VA = "0x3DDAF50")]
 	private bool TryGetProperty(string key, [NotNullWhen(true)] out JsonProperty? item)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60008A8")]
-	[Address(RVA = "0x3AE5520", Offset = "0x3AE5520", VA = "0x3AE5520")]
+	[Address(RVA = "0x3DDAE70", Offset = "0x3DDAE70", VA = "0x3DDAE70")]
 	public JsonProperty GetProperty(string propertyName, StringComparison comparisonType)
 	{
 		return null;

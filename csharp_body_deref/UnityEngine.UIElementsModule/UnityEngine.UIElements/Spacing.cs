@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Spacing
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
@@ -25,7 +32,7 @@ internal struct Spacing
 	public float horizontal
 	{
 		[Token(Token = "0x6000FCA")]
-		[Address(RVA = "0x4D50920", Offset = "0x4D50920", VA = "0x4D50920")]
+		[Address(RVA = "0x5078250", Offset = "0x5078250", VA = "0x5078250")]
 		get
 		{
 			return default(float);
@@ -36,7 +43,7 @@ internal struct Spacing
 	public float vertical
 	{
 		[Token(Token = "0x6000FCB")]
-		[Address(RVA = "0x4D50930", Offset = "0x4D50930", VA = "0x4D50930")]
+		[Address(RVA = "0x5078260", Offset = "0x5078260", VA = "0x5078260")]
 		get
 		{
 			return default(float);
@@ -44,13 +51,13 @@ internal struct Spacing
 	}
 
 	[Token(Token = "0x6000FCC")]
-	[Address(RVA = "0x4D50940", Offset = "0x4D50940", VA = "0x4D50940")]
+	[Address(RVA = "0x5078270", Offset = "0x5078270", VA = "0x5078270")]
 	public Spacing(float left, float top, float right, float bottom)
 	{
 	}
 
 	[Token(Token = "0x6000FCD")]
-	[Address(RVA = "0x4D50960", Offset = "0x4D50960", VA = "0x4D50960")]
+	[Address(RVA = "0x5078290", Offset = "0x5078290", VA = "0x5078290")]
 	public static Rect operator -(Rect r, Spacing a)
 	{
 		return default(Rect);

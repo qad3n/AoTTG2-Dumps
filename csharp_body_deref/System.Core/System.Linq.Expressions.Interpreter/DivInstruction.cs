@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.DivInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -9,14 +16,14 @@ internal abstract class DivInstruction : Instruction
 	private sealed class DivInt16 : DivInstruction
 	{
 		[Token(Token = "0x6000696")]
-		[Address(RVA = "0x41A5A50", Offset = "0x41A5A50", VA = "0x41A5A50", Slot = "8")]
+		[Address(RVA = "0x44CAB50", Offset = "0x44CAB50", VA = "0x44CAB50", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000697")]
-		[Address(RVA = "0x41A59D0", Offset = "0x41A59D0", VA = "0x41A59D0")]
+		[Address(RVA = "0x44CAAD0", Offset = "0x44CAAD0", VA = "0x44CAAD0")]
 		public DivInt16()
 		{
 		}
@@ -26,14 +33,14 @@ internal abstract class DivInstruction : Instruction
 	private sealed class DivInt32 : DivInstruction
 	{
 		[Token(Token = "0x6000698")]
-		[Address(RVA = "0x41A5BB0", Offset = "0x41A5BB0", VA = "0x41A5BB0", Slot = "8")]
+		[Address(RVA = "0x44CACB0", Offset = "0x44CACB0", VA = "0x44CACB0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000699")]
-		[Address(RVA = "0x41A59E0", Offset = "0x41A59E0", VA = "0x41A59E0")]
+		[Address(RVA = "0x44CAAE0", Offset = "0x44CAAE0", VA = "0x44CAAE0")]
 		public DivInt32()
 		{
 		}
@@ -43,14 +50,14 @@ internal abstract class DivInstruction : Instruction
 	private sealed class DivInt64 : DivInstruction
 	{
 		[Token(Token = "0x600069A")]
-		[Address(RVA = "0x41A5D00", Offset = "0x41A5D00", VA = "0x41A5D00", Slot = "8")]
+		[Address(RVA = "0x44CAE00", Offset = "0x44CAE00", VA = "0x44CAE00", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x600069B")]
-		[Address(RVA = "0x41A59F0", Offset = "0x41A59F0", VA = "0x41A59F0")]
+		[Address(RVA = "0x44CAAF0", Offset = "0x44CAAF0", VA = "0x44CAAF0")]
 		public DivInt64()
 		{
 		}
@@ -60,14 +67,14 @@ internal abstract class DivInstruction : Instruction
 	private sealed class DivUInt16 : DivInstruction
 	{
 		[Token(Token = "0x600069C")]
-		[Address(RVA = "0x41A5E60", Offset = "0x41A5E60", VA = "0x41A5E60", Slot = "8")]
+		[Address(RVA = "0x44CAF60", Offset = "0x44CAF60", VA = "0x44CAF60", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x600069D")]
-		[Address(RVA = "0x41A5A00", Offset = "0x41A5A00", VA = "0x41A5A00")]
+		[Address(RVA = "0x44CAB00", Offset = "0x44CAB00", VA = "0x44CAB00")]
 		public DivUInt16()
 		{
 		}
@@ -77,14 +84,14 @@ internal abstract class DivInstruction : Instruction
 	private sealed class DivUInt32 : DivInstruction
 	{
 		[Token(Token = "0x600069E")]
-		[Address(RVA = "0x41A5FD0", Offset = "0x41A5FD0", VA = "0x41A5FD0", Slot = "8")]
+		[Address(RVA = "0x44CB0D0", Offset = "0x44CB0D0", VA = "0x44CB0D0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x600069F")]
-		[Address(RVA = "0x41A5A10", Offset = "0x41A5A10", VA = "0x41A5A10")]
+		[Address(RVA = "0x44CAB10", Offset = "0x44CAB10", VA = "0x44CAB10")]
 		public DivUInt32()
 		{
 		}
@@ -94,14 +101,14 @@ internal abstract class DivInstruction : Instruction
 	private sealed class DivUInt64 : DivInstruction
 	{
 		[Token(Token = "0x60006A0")]
-		[Address(RVA = "0x41A6130", Offset = "0x41A6130", VA = "0x41A6130", Slot = "8")]
+		[Address(RVA = "0x44CB230", Offset = "0x44CB230", VA = "0x44CB230", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006A1")]
-		[Address(RVA = "0x41A5A20", Offset = "0x41A5A20", VA = "0x41A5A20")]
+		[Address(RVA = "0x44CAB20", Offset = "0x44CAB20", VA = "0x44CAB20")]
 		public DivUInt64()
 		{
 		}
@@ -111,14 +118,14 @@ internal abstract class DivInstruction : Instruction
 	private sealed class DivSingle : DivInstruction
 	{
 		[Token(Token = "0x60006A2")]
-		[Address(RVA = "0x41A6290", Offset = "0x41A6290", VA = "0x41A6290", Slot = "8")]
+		[Address(RVA = "0x44CB390", Offset = "0x44CB390", VA = "0x44CB390", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006A3")]
-		[Address(RVA = "0x41A5A30", Offset = "0x41A5A30", VA = "0x41A5A30")]
+		[Address(RVA = "0x44CAB30", Offset = "0x44CAB30", VA = "0x44CAB30")]
 		public DivSingle()
 		{
 		}
@@ -128,14 +135,14 @@ internal abstract class DivInstruction : Instruction
 	private sealed class DivDouble : DivInstruction
 	{
 		[Token(Token = "0x60006A4")]
-		[Address(RVA = "0x41A63F0", Offset = "0x41A63F0", VA = "0x41A63F0", Slot = "8")]
+		[Address(RVA = "0x44CB4F0", Offset = "0x44CB4F0", VA = "0x44CB4F0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006A5")]
-		[Address(RVA = "0x41A5A40", Offset = "0x41A5A40", VA = "0x41A5A40")]
+		[Address(RVA = "0x44CAB40", Offset = "0x44CAB40", VA = "0x44CAB40")]
 		public DivDouble()
 		{
 		}
@@ -177,7 +184,7 @@ internal abstract class DivInstruction : Instruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x6000691")]
-		[Address(RVA = "0x41A55B0", Offset = "0x41A55B0", VA = "0x41A55B0", Slot = "4")]
+		[Address(RVA = "0x44CA6B0", Offset = "0x44CA6B0", VA = "0x44CA6B0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -188,7 +195,7 @@ internal abstract class DivInstruction : Instruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x6000692")]
-		[Address(RVA = "0x41A55C0", Offset = "0x41A55C0", VA = "0x41A55C0", Slot = "5")]
+		[Address(RVA = "0x44CA6C0", Offset = "0x44CA6C0", VA = "0x44CA6C0", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -199,7 +206,7 @@ internal abstract class DivInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x6000693")]
-		[Address(RVA = "0x41A55D0", Offset = "0x41A55D0", VA = "0x41A55D0", Slot = "9")]
+		[Address(RVA = "0x44CA6D0", Offset = "0x44CA6D0", VA = "0x44CA6D0", Slot = "9")]
 		get
 		{
 			return null;
@@ -207,13 +214,13 @@ internal abstract class DivInstruction : Instruction
 	}
 
 	[Token(Token = "0x6000694")]
-	[Address(RVA = "0x41A5600", Offset = "0x41A5600", VA = "0x41A5600")]
+	[Address(RVA = "0x44CA700", Offset = "0x44CA700", VA = "0x44CA700")]
 	private DivInstruction()
 	{
 	}
 
 	[Token(Token = "0x6000695")]
-	[Address(RVA = "0x41A5610", Offset = "0x41A5610", VA = "0x41A5610")]
+	[Address(RVA = "0x44CA710", Offset = "0x44CA710", VA = "0x44CA710")]
 	public static Instruction Create(Type type)
 	{
 		return null;

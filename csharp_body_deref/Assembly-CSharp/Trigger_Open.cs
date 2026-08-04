@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Trigger_Open
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Trigger_Open.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -10,13 +17,13 @@ public class Trigger_Open : MonoBehaviour
 	private Animator _animator;
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x22ED220", Offset = "0x22ED220", VA = "0x22ED220")]
+	[Address(RVA = "0x232B330", Offset = "0x232B330", VA = "0x232B330")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x22ED260", Offset = "0x22ED260", VA = "0x22ED260")]
+	[Address(RVA = "0x232B370", Offset = "0x232B370", VA = "0x232B370")]
 	public Trigger_Open()
 	{
 	}

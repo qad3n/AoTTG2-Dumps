@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.AutoExposureRenderer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
 
@@ -26,25 +33,25 @@ internal sealed class AutoExposureRenderer : PostProcessEffectRenderer<AutoExpos
 	private RenderTexture m_CurrentAutoExposure;
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x480EC10", Offset = "0x480EC10", VA = "0x480EC10")]
+	[Address(RVA = "0x4B33D00", Offset = "0x4B33D00", VA = "0x4B33D00")]
 	public AutoExposureRenderer()
 	{
 	}
 
 	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x480EDC0", Offset = "0x480EDC0", VA = "0x480EDC0")]
+	[Address(RVA = "0x4B33EB0", Offset = "0x4B33EB0", VA = "0x4B33EB0")]
 	private void CheckTexture(int eye, int id)
 	{
 	}
 
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x480EFB0", Offset = "0x480EFB0", VA = "0x480EFB0", Slot = "8")]
+	[Address(RVA = "0x4B340A0", Offset = "0x4B340A0", VA = "0x4B340A0", Slot = "8")]
 	public override void Render(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x480F8C0", Offset = "0x480F8C0", VA = "0x480F8C0", Slot = "7")]
+	[Address(RVA = "0x4B349B0", Offset = "0x4B349B0", VA = "0x4B349B0", Slot = "7")]
 	public override void Release()
 	{
 	}

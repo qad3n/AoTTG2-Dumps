@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Globalization.Unicode.NormalizationTableUtil
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Mono.Globalization.Unicode;
@@ -26,20 +33,20 @@ internal class NormalizationTableUtil
 	public static readonly Mono.Globalization.Unicode.CodePointIndexer Helper;
 
 	[Token(Token = "0x60000C4")]
-	[Address(RVA = "0x4DEE4D0", Offset = "0x4DEE4D0", VA = "0x4DEE4D0")]
+	[Address(RVA = "0x3AD3FF0", Offset = "0x3AD3FF0", VA = "0x3AD3FF0")]
 	static NormalizationTableUtil()
 	{
 	}
 
 	[Token(Token = "0x60000C5")]
-	[Address(RVA = "0x4DEE860", Offset = "0x4DEE860", VA = "0x4DEE860")]
+	[Address(RVA = "0x3AD4380", Offset = "0x3AD4380", VA = "0x3AD4380")]
 	public static int PropIdx(int cp)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x4DEE930", Offset = "0x4DEE930", VA = "0x4DEE930")]
+	[Address(RVA = "0x3AD4450", Offset = "0x3AD4450", VA = "0x3AD4450")]
 	public static int MapIdx(int cp)
 	{
 		return default(int);

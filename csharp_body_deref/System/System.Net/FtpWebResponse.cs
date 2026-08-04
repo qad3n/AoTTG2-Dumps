@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.FtpWebResponse
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.IO;
 using Il2CppDummyDll;
 
@@ -10,7 +17,7 @@ public class FtpWebResponse : WebResponse, IDisposable
 	internal sealed class EmptyStream : MemoryStream
 	{
 		[Token(Token = "0x6000794")]
-		[Address(RVA = "0x4638210", Offset = "0x4638210", VA = "0x4638210")]
+		[Address(RVA = "0x495D310", Offset = "0x495D310", VA = "0x495D310")]
 		internal EmptyStream()
 		{
 		}
@@ -60,7 +67,7 @@ public class FtpWebResponse : WebResponse, IDisposable
 	public override WebHeaderCollection Headers
 	{
 		[Token(Token = "0x6000791")]
-		[Address(RVA = "0x46384F0", Offset = "0x46384F0", VA = "0x46384F0", Slot = "14")]
+		[Address(RVA = "0x495D5F0", Offset = "0x495D5F0", VA = "0x495D5F0", Slot = "14")]
 		get
 		{
 			return null;
@@ -71,7 +78,7 @@ public class FtpWebResponse : WebResponse, IDisposable
 	public override Uri ResponseUri
 	{
 		[Token(Token = "0x6000792")]
-		[Address(RVA = "0x4638610", Offset = "0x4638610", VA = "0x4638610", Slot = "13")]
+		[Address(RVA = "0x495D710", Offset = "0x495D710", VA = "0x495D710", Slot = "13")]
 		get
 		{
 			return null;
@@ -82,7 +89,7 @@ public class FtpWebResponse : WebResponse, IDisposable
 	public FtpStatusCode StatusCode
 	{
 		[Token(Token = "0x6000793")]
-		[Address(RVA = "0x4638620", Offset = "0x4638620", VA = "0x4638620")]
+		[Address(RVA = "0x495D720", Offset = "0x495D720", VA = "0x495D720")]
 		get
 		{
 			return default(FtpStatusCode);
@@ -90,32 +97,32 @@ public class FtpWebResponse : WebResponse, IDisposable
 	}
 
 	[Token(Token = "0x600078C")]
-	[Address(RVA = "0x4637770", Offset = "0x4637770", VA = "0x4637770")]
+	[Address(RVA = "0x495C870", Offset = "0x495C870", VA = "0x495C870")]
 	internal FtpWebResponse(Stream responseStream, long contentLength, Uri responseUri, FtpStatusCode statusCode, string statusLine, DateTime lastModified, string bannerMessage, string welcomeMessage, string exitMessage)
 	{
 	}
 
 	[Token(Token = "0x600078D")]
-	[Address(RVA = "0x4635B50", Offset = "0x4635B50", VA = "0x4635B50")]
+	[Address(RVA = "0x495AC50", Offset = "0x495AC50", VA = "0x495AC50")]
 	internal void UpdateStatus(FtpStatusCode statusCode, string statusLine, string exitMessage)
 	{
 	}
 
 	[Token(Token = "0x600078E")]
-	[Address(RVA = "0x46381A0", Offset = "0x46381A0", VA = "0x46381A0", Slot = "12")]
+	[Address(RVA = "0x495D2A0", Offset = "0x495D2A0", VA = "0x495D2A0", Slot = "12")]
 	public override Stream GetResponseStream()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600078F")]
-	[Address(RVA = "0x46376D0", Offset = "0x46376D0", VA = "0x46376D0")]
+	[Address(RVA = "0x495C7D0", Offset = "0x495C7D0", VA = "0x495C7D0")]
 	internal void SetResponseStream(Stream stream)
 	{
 	}
 
 	[Token(Token = "0x6000790")]
-	[Address(RVA = "0x46382E0", Offset = "0x46382E0", VA = "0x46382E0", Slot = "9")]
+	[Address(RVA = "0x495D3E0", Offset = "0x495D3E0", VA = "0x495D3E0", Slot = "9")]
 	public override void Close()
 	{
 	}

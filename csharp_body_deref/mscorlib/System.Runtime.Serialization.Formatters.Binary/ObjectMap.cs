@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.Formatters.Binary.ObjectMap
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
@@ -50,33 +57,33 @@ internal sealed class ObjectMap
 	internal System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo assemblyInfo;
 
 	[Token(Token = "0x600208A")]
-	[Address(RVA = "0x4EBF540", Offset = "0x4EBF540", VA = "0x4EBF540")]
+	[Address(RVA = "0x3BA5060", Offset = "0x3BA5060", VA = "0x3BA5060")]
 	internal ObjectMap(string objectName, Type objectType, string[] memberNames, System.Runtime.Serialization.Formatters.Binary.ObjectReader objectReader, int objectId, System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo assemblyInfo)
 	{
 	}
 
 	[Token(Token = "0x600208B")]
-	[Address(RVA = "0x4EBFDD0", Offset = "0x4EBFDD0", VA = "0x4EBFDD0")]
+	[Address(RVA = "0x3BA58F0", Offset = "0x3BA58F0", VA = "0x3BA58F0")]
 	internal ObjectMap(string objectName, string[] memberNames, System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA, object[] typeInformationA, int[] memberAssemIds, System.Runtime.Serialization.Formatters.Binary.ObjectReader objectReader, int objectId, System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo assemblyInfo, System.Runtime.Serialization.Formatters.Binary.SizedArray assemIdToAssemblyTable)
 	{
 	}
 
 	[Token(Token = "0x600208C")]
-	[Address(RVA = "0x4EC02B0", Offset = "0x4EC02B0", VA = "0x4EC02B0")]
+	[Address(RVA = "0x3BA5DD0", Offset = "0x3BA5DD0", VA = "0x3BA5DD0")]
 	internal System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo CreateObjectInfo(ref SerializationInfo si, ref object[] memberData)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600208D")]
-	[Address(RVA = "0x4EC03E0", Offset = "0x4EC03E0", VA = "0x4EC03E0")]
+	[Address(RVA = "0x3BA5F00", Offset = "0x3BA5F00", VA = "0x3BA5F00")]
 	internal static System.Runtime.Serialization.Formatters.Binary.ObjectMap Create(string name, Type objectType, string[] memberNames, System.Runtime.Serialization.Formatters.Binary.ObjectReader objectReader, int objectId, System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo assemblyInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600208E")]
-	[Address(RVA = "0x4EC0460", Offset = "0x4EC0460", VA = "0x4EC0460")]
+	[Address(RVA = "0x3BA5F80", Offset = "0x3BA5F80", VA = "0x3BA5F80")]
 	internal static System.Runtime.Serialization.Formatters.Binary.ObjectMap Create(string name, string[] memberNames, System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA, object[] typeInformationA, int[] memberAssemIds, System.Runtime.Serialization.Formatters.Binary.ObjectReader objectReader, int objectId, System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo assemblyInfo, System.Runtime.Serialization.Formatters.Binary.SizedArray assemIdToAssemblyTable)
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.DisplayNameAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -15,7 +22,7 @@ public class DisplayNameAttribute : Attribute
 	public virtual string DisplayName
 	{
 		[Token(Token = "0x6000E8F")]
-		[Address(RVA = "0x455D1B0", Offset = "0x455D1B0", VA = "0x455D1B0", Slot = "7")]
+		[Address(RVA = "0x48822B0", Offset = "0x48822B0", VA = "0x48822B0", Slot = "7")]
 		get
 		{
 			return null;
@@ -26,14 +33,14 @@ public class DisplayNameAttribute : Attribute
 	protected string DisplayNameValue
 	{
 		[Token(Token = "0x6000E90")]
-		[Address(RVA = "0x455D1C0", Offset = "0x455D1C0", VA = "0x455D1C0")]
+		[Address(RVA = "0x48822C0", Offset = "0x48822C0", VA = "0x48822C0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000E91")]
-		[Address(RVA = "0x455D1D0", Offset = "0x455D1D0", VA = "0x455D1D0")]
+		[Address(RVA = "0x48822D0", Offset = "0x48822D0", VA = "0x48822D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -41,33 +48,33 @@ public class DisplayNameAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000E8D")]
-	[Address(RVA = "0x455D140", Offset = "0x455D140", VA = "0x455D140")]
+	[Address(RVA = "0x4882240", Offset = "0x4882240", VA = "0x4882240")]
 	public DisplayNameAttribute()
 	{
 	}
 
 	[Token(Token = "0x6000E8E")]
-	[Address(RVA = "0x455D180", Offset = "0x455D180", VA = "0x455D180")]
+	[Address(RVA = "0x4882280", Offset = "0x4882280", VA = "0x4882280")]
 	public DisplayNameAttribute(string displayName)
 	{
 	}
 
 	[Token(Token = "0x6000E92")]
-	[Address(RVA = "0x455D1E0", Offset = "0x455D1E0", VA = "0x455D1E0", Slot = "0")]
+	[Address(RVA = "0x48822E0", Offset = "0x48822E0", VA = "0x48822E0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000E93")]
-	[Address(RVA = "0x455D2B0", Offset = "0x455D2B0", VA = "0x455D2B0", Slot = "2")]
+	[Address(RVA = "0x48823B0", Offset = "0x48823B0", VA = "0x48823B0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000E94")]
-	[Address(RVA = "0x455D2F0", Offset = "0x455D2F0", VA = "0x455D2F0", Slot = "6")]
+	[Address(RVA = "0x48823F0", Offset = "0x48823F0", VA = "0x48823F0", Slot = "6")]
 	public override bool IsDefaultAttribute()
 	{
 		return default(bool);

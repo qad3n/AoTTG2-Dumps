@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.Configuration.ConnectionManagementElement
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Configuration;
 using Il2CppDummyDll;
 
@@ -10,13 +17,13 @@ public sealed class ConnectionManagementElement : ConfigurationElement
 	public string Address
 	{
 		[Token(Token = "0x6001769")]
-		[Address(RVA = "0x45CDD10", Offset = "0x45CDD10", VA = "0x45CDD10")]
+		[Address(RVA = "0x48F2E10", Offset = "0x48F2E10", VA = "0x48F2E10")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600176A")]
-		[Address(RVA = "0x45CDD40", Offset = "0x45CDD40", VA = "0x45CDD40")]
+		[Address(RVA = "0x48F2E40", Offset = "0x48F2E40", VA = "0x48F2E40")]
 		set
 		{
 		}
@@ -26,13 +33,13 @@ public sealed class ConnectionManagementElement : ConfigurationElement
 	public int MaxConnection
 	{
 		[Token(Token = "0x600176B")]
-		[Address(RVA = "0x45CDD70", Offset = "0x45CDD70", VA = "0x45CDD70")]
+		[Address(RVA = "0x48F2E70", Offset = "0x48F2E70", VA = "0x48F2E70")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600176C")]
-		[Address(RVA = "0x45CDDA0", Offset = "0x45CDDA0", VA = "0x45CDDA0")]
+		[Address(RVA = "0x48F2EA0", Offset = "0x48F2EA0", VA = "0x48F2EA0")]
 		set
 		{
 		}
@@ -42,7 +49,7 @@ public sealed class ConnectionManagementElement : ConfigurationElement
 	protected override ConfigurationPropertyCollection Properties
 	{
 		[Token(Token = "0x600176D")]
-		[Address(RVA = "0x45CDDD0", Offset = "0x45CDDD0", VA = "0x45CDDD0", Slot = "4")]
+		[Address(RVA = "0x48F2ED0", Offset = "0x48F2ED0", VA = "0x48F2ED0", Slot = "4")]
 		get
 		{
 			return null;
@@ -50,13 +57,13 @@ public sealed class ConnectionManagementElement : ConfigurationElement
 	}
 
 	[Token(Token = "0x6001767")]
-	[Address(RVA = "0x45CDCB0", Offset = "0x45CDCB0", VA = "0x45CDCB0")]
+	[Address(RVA = "0x48F2DB0", Offset = "0x48F2DB0", VA = "0x48F2DB0")]
 	public ConnectionManagementElement()
 	{
 	}
 
 	[Token(Token = "0x6001768")]
-	[Address(RVA = "0x45CDCE0", Offset = "0x45CDCE0", VA = "0x45CDCE0")]
+	[Address(RVA = "0x48F2DE0", Offset = "0x48F2DE0", VA = "0x48F2DE0")]
 	public ConnectionManagementElement(string address, int maxConnection)
 	{
 	}

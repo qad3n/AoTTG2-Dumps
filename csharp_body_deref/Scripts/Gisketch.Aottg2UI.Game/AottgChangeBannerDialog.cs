@@ -1,115 +1,122 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Gisketch.Aottg2UI.Game.AottgChangeBannerDialog
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgChangeBannerDialog.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Gisketch.Aottg2UI.Code;
 using Gisketch.Aottg2UI.Data;
 using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x200017F")]
+[Token(Token = "0x20001B0")]
 [AottgDialog("profile-change-banner")]
 public sealed class AottgChangeBannerDialog : AottgDialog
 {
-	[Token(Token = "0x4000894")]
+	[Token(Token = "0x4000956")]
 	public const string Id = "profile-change-banner";
 
-	[Token(Token = "0x4000895")]
+	[Token(Token = "0x4000957")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly AottgProfilePreset[] Avatars;
 
-	[Token(Token = "0x4000896")]
+	[Token(Token = "0x4000958")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly AottgProfilePreset[] Banners;
 
-	[Token(Token = "0x17000101")]
+	[Token(Token = "0x17000157")]
 	protected override string Title
 	{
-		[Token(Token = "0x60008BA")]
-		[Address(RVA = "0x40EFA10", Offset = "0x40EFA10", VA = "0x40EFA10", Slot = "4")]
+		[Token(Token = "0x6000A2F")]
+		[Address(RVA = "0x4420CD0", Offset = "0x4420CD0", VA = "0x4420CD0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000102")]
+	[Token(Token = "0x17000158")]
 	protected override string TitleIcon
 	{
-		[Token(Token = "0x60008BB")]
-		[Address(RVA = "0x40EFA40", Offset = "0x40EFA40", VA = "0x40EFA40", Slot = "5")]
+		[Token(Token = "0x6000A30")]
+		[Address(RVA = "0x4420D00", Offset = "0x4420D00", VA = "0x4420D00", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000103")]
+	[Token(Token = "0x17000159")]
 	protected override string RootStyle
 	{
-		[Token(Token = "0x60008BC")]
-		[Address(RVA = "0x40EFA70", Offset = "0x40EFA70", VA = "0x40EFA70", Slot = "6")]
+		[Token(Token = "0x6000A31")]
+		[Address(RVA = "0x4420D30", Offset = "0x4420D30", VA = "0x4420D30", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000104")]
+	[Token(Token = "0x1700015A")]
 	protected override string BodyStyle
 	{
-		[Token(Token = "0x60008BD")]
-		[Address(RVA = "0x40EFAA0", Offset = "0x40EFAA0", VA = "0x40EFAA0", Slot = "8")]
+		[Token(Token = "0x6000A32")]
+		[Address(RVA = "0x4420D60", Offset = "0x4420D60", VA = "0x4420D60", Slot = "8")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000105")]
+	[Token(Token = "0x1700015B")]
 	protected override bool BodyScrollable
 	{
-		[Token(Token = "0x60008BE")]
-		[Address(RVA = "0x40EFAD0", Offset = "0x40EFAD0", VA = "0x40EFAD0", Slot = "11")]
+		[Token(Token = "0x6000A33")]
+		[Address(RVA = "0x4420D90", Offset = "0x4420D90", VA = "0x4420D90", Slot = "12")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000106")]
+	[Token(Token = "0x1700015C")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x60008BF")]
-		[Address(RVA = "0x40EFAE0", Offset = "0x40EFAE0", VA = "0x40EFAE0", Slot = "13")]
+		[Token(Token = "0x6000A34")]
+		[Address(RVA = "0x4420DA0", Offset = "0x4420DA0", VA = "0x4420DA0", Slot = "14")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000107")]
+	[Token(Token = "0x1700015D")]
 	protected override GisketchLayoutDefinition BodyLayout
 	{
-		[Token(Token = "0x60008C0")]
-		[Address(RVA = "0x40EFAF0", Offset = "0x40EFAF0", VA = "0x40EFAF0", Slot = "15")]
+		[Token(Token = "0x6000A35")]
+		[Address(RVA = "0x4420DB0", Offset = "0x4420DB0", VA = "0x4420DB0", Slot = "16")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60008C1")]
-	[Address(RVA = "0x40EFBB0", Offset = "0x40EFBB0", VA = "0x40EFBB0", Slot = "18")]
+	[Token(Token = "0x6000A36")]
+	[Address(RVA = "0x4420E70", Offset = "0x4420E70", VA = "0x4420E70", Slot = "19")]
 	protected override void BuildBody(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x60008C2")]
-	[Address(RVA = "0x40F00B0", Offset = "0x40F00B0", VA = "0x40F00B0", Slot = "17")]
+	[Token(Token = "0x6000A37")]
+	[Address(RVA = "0x4421370", Offset = "0x4421370", VA = "0x4421370", Slot = "18")]
 	protected override void BuildHeader(AottgUi header)
 	{
 	}
 
-	[Token(Token = "0x60008C3")]
-	[Address(RVA = "0x40F00C0", Offset = "0x40F00C0", VA = "0x40F00C0")]
+	[Token(Token = "0x6000A38")]
+	[Address(RVA = "0x4421380", Offset = "0x4421380", VA = "0x4421380")]
 	public AottgChangeBannerDialog()
 	{
 	}

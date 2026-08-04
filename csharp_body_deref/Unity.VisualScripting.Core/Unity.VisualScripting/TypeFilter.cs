@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.TypeFilter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -17,14 +24,14 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public TypesMatching Matching
 	{
 		[Token(Token = "0x6000EA9")]
-		[Address(RVA = "0x4A28730", Offset = "0x4A28730", VA = "0x4A28730")]
+		[Address(RVA = "0x4D4D300", Offset = "0x4D4D300", VA = "0x4D4D300")]
 		[CompilerGenerated]
 		get
 		{
 			return default(TypesMatching);
 		}
 		[Token(Token = "0x6000EAA")]
-		[Address(RVA = "0x4A28740", Offset = "0x4A28740", VA = "0x4A28740")]
+		[Address(RVA = "0x4D4D310", Offset = "0x4D4D310", VA = "0x4D4D310")]
 		[CompilerGenerated]
 		set
 		{
@@ -35,7 +42,7 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public HashSet<Type> Types
 	{
 		[Token(Token = "0x6000EAB")]
-		[Address(RVA = "0x4A28750", Offset = "0x4A28750", VA = "0x4A28750")]
+		[Address(RVA = "0x4D4D320", Offset = "0x4D4D320", VA = "0x4D4D320")]
 		get
 		{
 			return null;
@@ -46,14 +53,14 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public bool Value
 	{
 		[Token(Token = "0x6000EAC")]
-		[Address(RVA = "0x4A28760", Offset = "0x4A28760", VA = "0x4A28760")]
+		[Address(RVA = "0x4D4D330", Offset = "0x4D4D330", VA = "0x4D4D330")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EAD")]
-		[Address(RVA = "0x4A28770", Offset = "0x4A28770", VA = "0x4A28770")]
+		[Address(RVA = "0x4D4D340", Offset = "0x4D4D340", VA = "0x4D4D340")]
 		[CompilerGenerated]
 		set
 		{
@@ -64,14 +71,14 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public bool Reference
 	{
 		[Token(Token = "0x6000EAE")]
-		[Address(RVA = "0x4A28780", Offset = "0x4A28780", VA = "0x4A28780")]
+		[Address(RVA = "0x4D4D350", Offset = "0x4D4D350", VA = "0x4D4D350")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EAF")]
-		[Address(RVA = "0x4A28790", Offset = "0x4A28790", VA = "0x4A28790")]
+		[Address(RVA = "0x4D4D360", Offset = "0x4D4D360", VA = "0x4D4D360")]
 		[CompilerGenerated]
 		set
 		{
@@ -82,14 +89,14 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public bool Classes
 	{
 		[Token(Token = "0x6000EB0")]
-		[Address(RVA = "0x4A287A0", Offset = "0x4A287A0", VA = "0x4A287A0")]
+		[Address(RVA = "0x4D4D370", Offset = "0x4D4D370", VA = "0x4D4D370")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EB1")]
-		[Address(RVA = "0x4A287B0", Offset = "0x4A287B0", VA = "0x4A287B0")]
+		[Address(RVA = "0x4D4D380", Offset = "0x4D4D380", VA = "0x4D4D380")]
 		[CompilerGenerated]
 		set
 		{
@@ -100,14 +107,14 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public bool Interfaces
 	{
 		[Token(Token = "0x6000EB2")]
-		[Address(RVA = "0x4A287C0", Offset = "0x4A287C0", VA = "0x4A287C0")]
+		[Address(RVA = "0x4D4D390", Offset = "0x4D4D390", VA = "0x4D4D390")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EB3")]
-		[Address(RVA = "0x4A287D0", Offset = "0x4A287D0", VA = "0x4A287D0")]
+		[Address(RVA = "0x4D4D3A0", Offset = "0x4D4D3A0", VA = "0x4D4D3A0")]
 		[CompilerGenerated]
 		set
 		{
@@ -118,14 +125,14 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public bool Structs
 	{
 		[Token(Token = "0x6000EB4")]
-		[Address(RVA = "0x4A287E0", Offset = "0x4A287E0", VA = "0x4A287E0")]
+		[Address(RVA = "0x4D4D3B0", Offset = "0x4D4D3B0", VA = "0x4D4D3B0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EB5")]
-		[Address(RVA = "0x4A287F0", Offset = "0x4A287F0", VA = "0x4A287F0")]
+		[Address(RVA = "0x4D4D3C0", Offset = "0x4D4D3C0", VA = "0x4D4D3C0")]
 		[CompilerGenerated]
 		set
 		{
@@ -136,14 +143,14 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public bool Enums
 	{
 		[Token(Token = "0x6000EB6")]
-		[Address(RVA = "0x4A28800", Offset = "0x4A28800", VA = "0x4A28800")]
+		[Address(RVA = "0x4D4D3D0", Offset = "0x4D4D3D0", VA = "0x4D4D3D0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EB7")]
-		[Address(RVA = "0x4A28810", Offset = "0x4A28810", VA = "0x4A28810")]
+		[Address(RVA = "0x4D4D3E0", Offset = "0x4D4D3E0", VA = "0x4D4D3E0")]
 		[CompilerGenerated]
 		set
 		{
@@ -154,14 +161,14 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public bool Public
 	{
 		[Token(Token = "0x6000EB8")]
-		[Address(RVA = "0x4A28820", Offset = "0x4A28820", VA = "0x4A28820")]
+		[Address(RVA = "0x4D4D3F0", Offset = "0x4D4D3F0", VA = "0x4D4D3F0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EB9")]
-		[Address(RVA = "0x4A28830", Offset = "0x4A28830", VA = "0x4A28830")]
+		[Address(RVA = "0x4D4D400", Offset = "0x4D4D400", VA = "0x4D4D400")]
 		[CompilerGenerated]
 		set
 		{
@@ -172,14 +179,14 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public bool NonPublic
 	{
 		[Token(Token = "0x6000EBA")]
-		[Address(RVA = "0x4A28840", Offset = "0x4A28840", VA = "0x4A28840")]
+		[Address(RVA = "0x4D4D410", Offset = "0x4D4D410", VA = "0x4D4D410")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EBB")]
-		[Address(RVA = "0x4A28850", Offset = "0x4A28850", VA = "0x4A28850")]
+		[Address(RVA = "0x4D4D420", Offset = "0x4D4D420", VA = "0x4D4D420")]
 		[CompilerGenerated]
 		set
 		{
@@ -190,14 +197,14 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public bool Abstract
 	{
 		[Token(Token = "0x6000EBC")]
-		[Address(RVA = "0x4A28860", Offset = "0x4A28860", VA = "0x4A28860")]
+		[Address(RVA = "0x4D4D430", Offset = "0x4D4D430", VA = "0x4D4D430")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EBD")]
-		[Address(RVA = "0x4A28870", Offset = "0x4A28870", VA = "0x4A28870")]
+		[Address(RVA = "0x4D4D440", Offset = "0x4D4D440", VA = "0x4D4D440")]
 		[CompilerGenerated]
 		set
 		{
@@ -208,14 +215,14 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public bool Generic
 	{
 		[Token(Token = "0x6000EBE")]
-		[Address(RVA = "0x4A28880", Offset = "0x4A28880", VA = "0x4A28880")]
+		[Address(RVA = "0x4D4D450", Offset = "0x4D4D450", VA = "0x4D4D450")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EBF")]
-		[Address(RVA = "0x4A28890", Offset = "0x4A28890", VA = "0x4A28890")]
+		[Address(RVA = "0x4D4D460", Offset = "0x4D4D460", VA = "0x4D4D460")]
 		[CompilerGenerated]
 		set
 		{
@@ -226,14 +233,14 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public bool OpenConstructedGeneric
 	{
 		[Token(Token = "0x6000EC0")]
-		[Address(RVA = "0x4A288A0", Offset = "0x4A288A0", VA = "0x4A288A0")]
+		[Address(RVA = "0x4D4D470", Offset = "0x4D4D470", VA = "0x4D4D470")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EC1")]
-		[Address(RVA = "0x4A288B0", Offset = "0x4A288B0", VA = "0x4A288B0")]
+		[Address(RVA = "0x4D4D480", Offset = "0x4D4D480", VA = "0x4D4D480")]
 		[CompilerGenerated]
 		set
 		{
@@ -244,14 +251,14 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public bool Static
 	{
 		[Token(Token = "0x6000EC2")]
-		[Address(RVA = "0x4A288C0", Offset = "0x4A288C0", VA = "0x4A288C0")]
+		[Address(RVA = "0x4D4D490", Offset = "0x4D4D490", VA = "0x4D4D490")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EC3")]
-		[Address(RVA = "0x4A288D0", Offset = "0x4A288D0", VA = "0x4A288D0")]
+		[Address(RVA = "0x4D4D4A0", Offset = "0x4D4D4A0", VA = "0x4D4D4A0")]
 		[CompilerGenerated]
 		set
 		{
@@ -262,14 +269,14 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public bool Sealed
 	{
 		[Token(Token = "0x6000EC4")]
-		[Address(RVA = "0x4A288E0", Offset = "0x4A288E0", VA = "0x4A288E0")]
+		[Address(RVA = "0x4D4D4B0", Offset = "0x4D4D4B0", VA = "0x4D4D4B0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EC5")]
-		[Address(RVA = "0x4A288F0", Offset = "0x4A288F0", VA = "0x4A288F0")]
+		[Address(RVA = "0x4D4D4C0", Offset = "0x4D4D4C0", VA = "0x4D4D4C0")]
 		[CompilerGenerated]
 		set
 		{
@@ -280,14 +287,14 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public bool Nested
 	{
 		[Token(Token = "0x6000EC6")]
-		[Address(RVA = "0x4A28900", Offset = "0x4A28900", VA = "0x4A28900")]
+		[Address(RVA = "0x4D4D4D0", Offset = "0x4D4D4D0", VA = "0x4D4D4D0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EC7")]
-		[Address(RVA = "0x4A28910", Offset = "0x4A28910", VA = "0x4A28910")]
+		[Address(RVA = "0x4D4D4E0", Offset = "0x4D4D4E0", VA = "0x4D4D4E0")]
 		[CompilerGenerated]
 		set
 		{
@@ -298,14 +305,14 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public bool Primitives
 	{
 		[Token(Token = "0x6000EC8")]
-		[Address(RVA = "0x4A28920", Offset = "0x4A28920", VA = "0x4A28920")]
+		[Address(RVA = "0x4D4D4F0", Offset = "0x4D4D4F0", VA = "0x4D4D4F0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EC9")]
-		[Address(RVA = "0x4A28930", Offset = "0x4A28930", VA = "0x4A28930")]
+		[Address(RVA = "0x4D4D500", Offset = "0x4D4D500", VA = "0x4D4D500")]
 		[CompilerGenerated]
 		set
 		{
@@ -316,14 +323,14 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public bool Object
 	{
 		[Token(Token = "0x6000ECA")]
-		[Address(RVA = "0x4A28940", Offset = "0x4A28940", VA = "0x4A28940")]
+		[Address(RVA = "0x4D4D510", Offset = "0x4D4D510", VA = "0x4D4D510")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000ECB")]
-		[Address(RVA = "0x4A28950", Offset = "0x4A28950", VA = "0x4A28950")]
+		[Address(RVA = "0x4D4D520", Offset = "0x4D4D520", VA = "0x4D4D520")]
 		[CompilerGenerated]
 		set
 		{
@@ -334,14 +341,14 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public bool NonSerializable
 	{
 		[Token(Token = "0x6000ECC")]
-		[Address(RVA = "0x4A28960", Offset = "0x4A28960", VA = "0x4A28960")]
+		[Address(RVA = "0x4D4D530", Offset = "0x4D4D530", VA = "0x4D4D530")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000ECD")]
-		[Address(RVA = "0x4A28970", Offset = "0x4A28970", VA = "0x4A28970")]
+		[Address(RVA = "0x4D4D540", Offset = "0x4D4D540", VA = "0x4D4D540")]
 		[CompilerGenerated]
 		set
 		{
@@ -352,14 +359,14 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public bool Obsolete
 	{
 		[Token(Token = "0x6000ECE")]
-		[Address(RVA = "0x4A28980", Offset = "0x4A28980", VA = "0x4A28980")]
+		[Address(RVA = "0x4D4D550", Offset = "0x4D4D550", VA = "0x4D4D550")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000ECF")]
-		[Address(RVA = "0x4A28990", Offset = "0x4A28990", VA = "0x4A28990")]
+		[Address(RVA = "0x4D4D560", Offset = "0x4D4D560", VA = "0x4D4D560")]
 		[CompilerGenerated]
 		set
 		{
@@ -370,7 +377,7 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public bool ExpectsBoolean
 	{
 		[Token(Token = "0x6000ED0")]
-		[Address(RVA = "0x4A289A0", Offset = "0x4A289A0", VA = "0x4A289A0")]
+		[Address(RVA = "0x4D4D570", Offset = "0x4D4D570", VA = "0x4D4D570")]
 		get
 		{
 			return default(bool);
@@ -381,7 +388,7 @@ public sealed class TypeFilter : Attribute, ICloneable
 	public static TypeFilter Any
 	{
 		[Token(Token = "0x6000ED7")]
-		[Address(RVA = "0x4A29ED0", Offset = "0x4A29ED0", VA = "0x4A29ED0")]
+		[Address(RVA = "0x4D4EAA0", Offset = "0x4D4EAA0", VA = "0x4D4EAA0")]
 		get
 		{
 			return null;
@@ -389,66 +396,66 @@ public sealed class TypeFilter : Attribute, ICloneable
 	}
 
 	[Token(Token = "0x6000EA5")]
-	[Address(RVA = "0x4A285F0", Offset = "0x4A285F0", VA = "0x4A285F0")]
+	[Address(RVA = "0x4D4D1C0", Offset = "0x4D4D1C0", VA = "0x4D4D1C0")]
 	public TypeFilter(TypesMatching matching, IEnumerable<Type> types)
 	{
 	}
 
 	[Token(Token = "0x6000EA6")]
-	[Address(RVA = "0x4A28700", Offset = "0x4A28700", VA = "0x4A28700")]
+	[Address(RVA = "0x4D4D2D0", Offset = "0x4D4D2D0", VA = "0x4D4D2D0")]
 	public TypeFilter(TypesMatching matching, params Type[] types)
 	{
 	}
 
 	[Token(Token = "0x6000EA7")]
-	[Address(RVA = "0x4A28710", Offset = "0x4A28710", VA = "0x4A28710")]
+	[Address(RVA = "0x4D4D2E0", Offset = "0x4D4D2E0", VA = "0x4D4D2E0")]
 	public TypeFilter(IEnumerable<Type> types)
 	{
 	}
 
 	[Token(Token = "0x6000EA8")]
-	[Address(RVA = "0x4A28720", Offset = "0x4A28720", VA = "0x4A28720")]
+	[Address(RVA = "0x4D4D2F0", Offset = "0x4D4D2F0", VA = "0x4D4D2F0")]
 	public TypeFilter(params Type[] types)
 	{
 	}
 
 	[Token(Token = "0x6000ED1")]
-	[Address(RVA = "0x4A28A50", Offset = "0x4A28A50", VA = "0x4A28A50", Slot = "7")]
+	[Address(RVA = "0x4D4D620", Offset = "0x4D4D620", VA = "0x4D4D620", Slot = "7")]
 	private object System_002EICloneable_002EClone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000ED2")]
-	[Address(RVA = "0x4A28A60", Offset = "0x4A28A60", VA = "0x4A28A60")]
+	[Address(RVA = "0x4D4D630", Offset = "0x4D4D630", VA = "0x4D4D630")]
 	public TypeFilter Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000ED3")]
-	[Address(RVA = "0x4A28B00", Offset = "0x4A28B00", VA = "0x4A28B00", Slot = "0")]
+	[Address(RVA = "0x4D4D6D0", Offset = "0x4D4D6D0", VA = "0x4D4D6D0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000ED4")]
-	[Address(RVA = "0x4A28D30", Offset = "0x4A28D30", VA = "0x4A28D30", Slot = "2")]
+	[Address(RVA = "0x4D4D900", Offset = "0x4D4D900", VA = "0x4D4D900", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000ED5")]
-	[Address(RVA = "0x4A29160", Offset = "0x4A29160", VA = "0x4A29160")]
+	[Address(RVA = "0x4D4DD30", Offset = "0x4D4DD30", VA = "0x4D4DD30")]
 	public bool ValidateType(Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000ED6")]
-	[Address(RVA = "0x4A298E0", Offset = "0x4A298E0", VA = "0x4A298E0", Slot = "3")]
+	[Address(RVA = "0x4D4E4B0", Offset = "0x4D4E4B0", VA = "0x4D4E4B0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

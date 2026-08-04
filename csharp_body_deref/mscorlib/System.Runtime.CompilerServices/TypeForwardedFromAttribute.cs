@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.CompilerServices.TypeForwardedFromAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
@@ -10,7 +17,7 @@ public sealed class TypeForwardedFromAttribute : Attribute
 	public string AssemblyFullName
 	{
 		[Token(Token = "0x600228F")]
-		[Address(RVA = "0x4EDB900", Offset = "0x4EDB900", VA = "0x4EDB900")]
+		[Address(RVA = "0x3BC1420", Offset = "0x3BC1420", VA = "0x3BC1420")]
 		[CompilerGenerated]
 		get
 		{
@@ -19,7 +26,7 @@ public sealed class TypeForwardedFromAttribute : Attribute
 	}
 
 	[Token(Token = "0x600228E")]
-	[Address(RVA = "0x4EDB880", Offset = "0x4EDB880", VA = "0x4EDB880")]
+	[Address(RVA = "0x3BC13A0", Offset = "0x3BC13A0", VA = "0x3BC13A0")]
 	public TypeForwardedFromAttribute(string assemblyFullName)
 	{
 	}

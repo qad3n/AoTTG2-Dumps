@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.ParticleSystemRenderer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -15,7 +22,7 @@ namespace UnityEngine;
 public sealed class ParticleSystemRenderer : Renderer
 {
 	[Token(Token = "0x600004A")]
-	[Address(RVA = "0x4B4BCF0", Offset = "0x4B4BCF0", VA = "0x4B4BCF0")]
+	[Address(RVA = "0x4E73620", Offset = "0x4E73620", VA = "0x4E73620")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	[UnityEngine.Bindings.FreeFunction(Name = "ParticleSystemRendererScriptBindings::GetMeshes", HasExplicitThis = true)]
 	public int GetMeshes([Out][UnityEngine.Bindings.NotNull("ArgumentNullException")] Mesh[] meshes)
@@ -25,6 +32,6 @@ public sealed class ParticleSystemRenderer : Renderer
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600004B")]
-	[Address(RVA = "0x4B4BD90", Offset = "0x4B4BD90", VA = "0x4B4BD90")]
+	[Address(RVA = "0x4E736C0", Offset = "0x4E736C0", VA = "0x4E736C0")]
 	private static extern int GetMeshes_Injected(IntPtr _unity_self, [Out] Mesh[] meshes);
 }

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.PropertyChangingEventArgs
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.ComponentModel;
@@ -13,7 +20,7 @@ public class PropertyChangingEventArgs : EventArgs
 	public virtual string PropertyName
 	{
 		[Token(Token = "0x60012DF")]
-		[Address(RVA = "0x4587C20", Offset = "0x4587C20", VA = "0x4587C20", Slot = "4")]
+		[Address(RVA = "0x48ACD20", Offset = "0x48ACD20", VA = "0x48ACD20", Slot = "4")]
 		get
 		{
 			return null;
@@ -21,7 +28,7 @@ public class PropertyChangingEventArgs : EventArgs
 	}
 
 	[Token(Token = "0x60012DE")]
-	[Address(RVA = "0x4587BB0", Offset = "0x4587BB0", VA = "0x4587BB0")]
+	[Address(RVA = "0x48ACCB0", Offset = "0x48ACCB0", VA = "0x48ACCB0")]
 	public PropertyChangingEventArgs(string propertyName)
 	{
 	}

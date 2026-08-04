@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.ZeroOpNode
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -11,68 +18,68 @@ internal sealed class ZeroOpNode : ExpressionNode
 	internal readonly int _op;
 
 	[Token(Token = "0x6000690")]
-	[Address(RVA = "0x4277E50", Offset = "0x4277E50", VA = "0x4277E50")]
+	[Address(RVA = "0x45B55B0", Offset = "0x45B55B0", VA = "0x45B55B0")]
 	internal ZeroOpNode(int op)
 	{
 	}
 
 	[Token(Token = "0x6000691")]
-	[Address(RVA = "0x4277E70", Offset = "0x4277E70", VA = "0x4277E70", Slot = "5")]
+	[Address(RVA = "0x45B55D0", Offset = "0x45B55D0", VA = "0x45B55D0", Slot = "5")]
 	internal override void Bind(DataTable table, List<DataColumn> list)
 	{
 	}
 
 	[Token(Token = "0x6000692")]
-	[Address(RVA = "0x4277E80", Offset = "0x4277E80", VA = "0x4277E80", Slot = "6")]
+	[Address(RVA = "0x45B55E0", Offset = "0x45B55E0", VA = "0x45B55E0", Slot = "6")]
 	internal override object Eval()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000693")]
-	[Address(RVA = "0x4277F30", Offset = "0x4277F30", VA = "0x4277F30", Slot = "7")]
+	[Address(RVA = "0x45B5690", Offset = "0x45B5690", VA = "0x45B5690", Slot = "7")]
 	internal override object Eval(DataRow row, DataRowVersion version)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000694")]
-	[Address(RVA = "0x4277F50", Offset = "0x4277F50", VA = "0x4277F50", Slot = "8")]
+	[Address(RVA = "0x45B56B0", Offset = "0x45B56B0", VA = "0x45B56B0", Slot = "8")]
 	internal override object Eval(int[] recordNos)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000695")]
-	[Address(RVA = "0x4277F70", Offset = "0x4277F70", VA = "0x4277F70", Slot = "9")]
+	[Address(RVA = "0x45B56D0", Offset = "0x45B56D0", VA = "0x45B56D0", Slot = "9")]
 	internal override bool IsConstant()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000696")]
-	[Address(RVA = "0x4277F80", Offset = "0x4277F80", VA = "0x4277F80", Slot = "10")]
+	[Address(RVA = "0x45B56E0", Offset = "0x45B56E0", VA = "0x45B56E0", Slot = "10")]
 	internal override bool IsTableConstant()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000697")]
-	[Address(RVA = "0x4277F90", Offset = "0x4277F90", VA = "0x4277F90", Slot = "11")]
+	[Address(RVA = "0x45B56F0", Offset = "0x45B56F0", VA = "0x45B56F0", Slot = "11")]
 	internal override bool HasLocalAggregate()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000698")]
-	[Address(RVA = "0x4277FA0", Offset = "0x4277FA0", VA = "0x4277FA0", Slot = "12")]
+	[Address(RVA = "0x45B5700", Offset = "0x45B5700", VA = "0x45B5700", Slot = "12")]
 	internal override bool HasRemoteAggregate()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000699")]
-	[Address(RVA = "0x4277FB0", Offset = "0x4277FB0", VA = "0x4277FB0", Slot = "13")]
+	[Address(RVA = "0x45B5710", Offset = "0x45B5710", VA = "0x45B5710", Slot = "13")]
 	internal override ExpressionNode Optimize()
 	{
 		return null;

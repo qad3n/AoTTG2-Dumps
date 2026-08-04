@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.Messaging.LogicalCallContext
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
@@ -21,7 +28,7 @@ public sealed class LogicalCallContext : ISerializable, ICloneable
 		public bool IsNull
 		{
 			[Token(Token = "0x6001DFA")]
-			[Address(RVA = "0x4EA0920", Offset = "0x4EA0920", VA = "0x4EA0920")]
+			[Address(RVA = "0x3B86440", Offset = "0x3B86440", VA = "0x3B86440")]
 			get
 			{
 				return default(bool);
@@ -32,7 +39,7 @@ public sealed class LogicalCallContext : ISerializable, ICloneable
 		public bool HasInfo
 		{
 			[Token(Token = "0x6001DFB")]
-			[Address(RVA = "0x4EA0930", Offset = "0x4EA0930", VA = "0x4EA0930")]
+			[Address(RVA = "0x3B86450", Offset = "0x3B86450", VA = "0x3B86450")]
 			get
 			{
 				return default(bool);
@@ -40,20 +47,20 @@ public sealed class LogicalCallContext : ISerializable, ICloneable
 		}
 
 		[Token(Token = "0x6001DF9")]
-		[Address(RVA = "0x4EA0910", Offset = "0x4EA0910", VA = "0x4EA0910")]
+		[Address(RVA = "0x3B86430", Offset = "0x3B86430", VA = "0x3B86430")]
 		public Reader(LogicalCallContext ctx)
 		{
 		}
 
 		[Token(Token = "0x6001DFC")]
-		[Address(RVA = "0x4EA0990", Offset = "0x4EA0990", VA = "0x4EA0990")]
+		[Address(RVA = "0x3B864B0", Offset = "0x3B864B0", VA = "0x3B864B0")]
 		public LogicalCallContext Clone()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6001DFD")]
-		[Address(RVA = "0x4E9EF00", Offset = "0x4E9EF00", VA = "0x4E9EF00")]
+		[Address(RVA = "0x3B84A20", Offset = "0x3B84A20", VA = "0x3B84A20")]
 		public object GetData(string name)
 		{
 			return null;
@@ -99,7 +106,7 @@ public sealed class LogicalCallContext : ISerializable, ICloneable
 	public bool HasInfo
 	{
 		[Token(Token = "0x6001DF3")]
-		[Address(RVA = "0x4E8DF50", Offset = "0x4E8DF50", VA = "0x4E8DF50")]
+		[Address(RVA = "0x3B73A70", Offset = "0x3B73A70", VA = "0x3B73A70")]
 		get
 		{
 			return default(bool);
@@ -110,7 +117,7 @@ public sealed class LogicalCallContext : ISerializable, ICloneable
 	private bool HasUserData
 	{
 		[Token(Token = "0x6001DF4")]
-		[Address(RVA = "0x4E9FEC0", Offset = "0x4E9FEC0", VA = "0x4E9FEC0")]
+		[Address(RVA = "0x3B859E0", Offset = "0x3B859E0", VA = "0x3B859E0")]
 		get
 		{
 			return default(bool);
@@ -121,7 +128,7 @@ public sealed class LogicalCallContext : ISerializable, ICloneable
 	private Hashtable Datastore
 	{
 		[Token(Token = "0x6001DF5")]
-		[Address(RVA = "0x4E9FAB0", Offset = "0x4E9FAB0", VA = "0x4E9FAB0")]
+		[Address(RVA = "0x3B855D0", Offset = "0x3B855D0", VA = "0x3B855D0")]
 		get
 		{
 			return null;
@@ -129,45 +136,45 @@ public sealed class LogicalCallContext : ISerializable, ICloneable
 	}
 
 	[Token(Token = "0x6001DEE")]
-	[Address(RVA = "0x4E9F5D0", Offset = "0x4E9F5D0", VA = "0x4E9F5D0")]
+	[Address(RVA = "0x3B850F0", Offset = "0x3B850F0", VA = "0x3B850F0")]
 	internal LogicalCallContext()
 	{
 	}
 
 	[Token(Token = "0x6001DEF")]
-	[Address(RVA = "0x4E9F5E0", Offset = "0x4E9F5E0", VA = "0x4E9F5E0")]
+	[Address(RVA = "0x3B85100", Offset = "0x3B85100", VA = "0x3B85100")]
 	internal LogicalCallContext(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001DF0")]
-	[Address(RVA = "0x4E9FB50", Offset = "0x4E9FB50", VA = "0x4E9FB50", Slot = "4")]
+	[Address(RVA = "0x3B85670", Offset = "0x3B85670", VA = "0x3B85670", Slot = "4")]
 	public void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001DF1")]
-	[Address(RVA = "0x4E9FEF0", Offset = "0x4E9FEF0", VA = "0x4E9FEF0", Slot = "5")]
+	[Address(RVA = "0x3B85A10", Offset = "0x3B85A10", VA = "0x3B85A10", Slot = "5")]
 	public object Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001DF2")]
-	[Address(RVA = "0x4E8DFB0", Offset = "0x4E8DFB0", VA = "0x4E8DFB0")]
+	[Address(RVA = "0x3B73AD0", Offset = "0x3B73AD0", VA = "0x3B73AD0")]
 	internal void Merge(LogicalCallContext lc)
 	{
 	}
 
 	[Token(Token = "0x6001DF6")]
-	[Address(RVA = "0x4EA0800", Offset = "0x4EA0800", VA = "0x4EA0800")]
+	[Address(RVA = "0x3B86320", Offset = "0x3B86320", VA = "0x3B86320")]
 	public object GetData(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001DF7")]
-	[Address(RVA = "0x4E9F120", Offset = "0x4E9F120", VA = "0x4E9F120")]
+	[Address(RVA = "0x3B84C40", Offset = "0x3B84C40", VA = "0x3B84C40")]
 	public void SetData(string name, object data)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: DG.Tweening.Plugins.Core.PathCore.Path
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.InteropServices;
 using DG.Tweening.Plugins.Options;
@@ -123,7 +130,7 @@ public class Path
 	internal int minInputWaypoints
 	{
 		[Token(Token = "0x60003AA")]
-		[Address(RVA = "0x230DD30", Offset = "0x230DD30", VA = "0x230DD30")]
+		[Address(RVA = "0x2374610", Offset = "0x2374610", VA = "0x2374610")]
 		get
 		{
 			return default(int);
@@ -131,96 +138,96 @@ public class Path
 	}
 
 	[Token(Token = "0x60003AB")]
-	[Address(RVA = "0x231BD70", Offset = "0x231BD70", VA = "0x231BD70")]
+	[Address(RVA = "0x2382650", Offset = "0x2382650", VA = "0x2382650")]
 	public Path(PathType type, Vector3[] waypoints, int subdivisionsXSegment, [Optional] Color? gizmoColor)
 	{
 	}
 
 	[Token(Token = "0x60003AC")]
-	[Address(RVA = "0x231C1D0", Offset = "0x231C1D0", VA = "0x231C1D0")]
+	[Address(RVA = "0x2382AB0", Offset = "0x2382AB0", VA = "0x2382AB0")]
 	internal Path()
 	{
 	}
 
 	[Token(Token = "0x60003AD")]
-	[Address(RVA = "0x230DD60", Offset = "0x230DD60", VA = "0x230DD60")]
+	[Address(RVA = "0x2374640", Offset = "0x2374640", VA = "0x2374640")]
 	internal void FinalizePath(bool isClosedPath, AxisConstraint lockPositionAxes, Vector3 currTargetVal)
 	{
 	}
 
 	[Token(Token = "0x60003AE")]
-	[Address(RVA = "0x230EB40", Offset = "0x230EB40", VA = "0x230EB40")]
+	[Address(RVA = "0x2375420", Offset = "0x2375420", VA = "0x2375420")]
 	internal Vector3 GetPoint(float perc, bool convertToConstantPerc = false)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x60003AF")]
-	[Address(RVA = "0x230EA30", Offset = "0x230EA30", VA = "0x230EA30")]
+	[Address(RVA = "0x2375310", Offset = "0x2375310", VA = "0x2375310")]
 	internal float ConvertToConstantPathPerc(float perc)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60003B0")]
-	[Address(RVA = "0x230F860", Offset = "0x230F860", VA = "0x230F860")]
+	[Address(RVA = "0x2376140", Offset = "0x2376140", VA = "0x2376140")]
 	internal int GetWaypointIndexFromPerc(float perc, bool isMovingForward)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60003B1")]
-	[Address(RVA = "0x231C1F0", Offset = "0x231C1F0", VA = "0x231C1F0")]
+	[Address(RVA = "0x2382AD0", Offset = "0x2382AD0", VA = "0x2382AD0")]
 	internal static Vector3[] GetDrawPoints(Path p, int drawSubdivisionsXSegment)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003B2")]
-	[Address(RVA = "0x231C310", Offset = "0x231C310", VA = "0x231C310")]
+	[Address(RVA = "0x2382BF0", Offset = "0x2382BF0", VA = "0x2382BF0")]
 	internal static void RefreshNonLinearDrawWps(Path p)
 	{
 	}
 
 	[Token(Token = "0x60003B3")]
-	[Address(RVA = "0x230D480", Offset = "0x230D480", VA = "0x230D480")]
+	[Address(RVA = "0x2373D60", Offset = "0x2373D60", VA = "0x2373D60")]
 	internal void Destroy()
 	{
 	}
 
 	[Token(Token = "0x60003B4")]
-	[Address(RVA = "0x230E3D0", Offset = "0x230E3D0", VA = "0x230E3D0")]
+	[Address(RVA = "0x2374CB0", Offset = "0x2374CB0", VA = "0x2374CB0")]
 	internal Path CloneIncremental(int loopIncrement)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003B5")]
-	[Address(RVA = "0x231BF50", Offset = "0x231BF50", VA = "0x231BF50")]
+	[Address(RVA = "0x2382830", Offset = "0x2382830", VA = "0x2382830")]
 	internal void AssignWaypoints(Vector3[] newWps, bool cloneWps = false)
 	{
 	}
 
 	[Token(Token = "0x60003B6")]
-	[Address(RVA = "0x231C040", Offset = "0x231C040", VA = "0x231C040")]
+	[Address(RVA = "0x2382920", Offset = "0x2382920", VA = "0x2382920")]
 	internal void AssignDecoder(PathType pathType)
 	{
 	}
 
 	[Token(Token = "0x60003B7")]
-	[Address(RVA = "0x231C440", Offset = "0x231C440", VA = "0x231C440")]
+	[Address(RVA = "0x2382D20", Offset = "0x2382D20", VA = "0x2382D20")]
 	internal void Draw()
 	{
 	}
 
 	[Token(Token = "0x60003B8")]
-	[Address(RVA = "0x231C450", Offset = "0x231C450", VA = "0x231C450")]
+	[Address(RVA = "0x2382D30", Offset = "0x2382D30", VA = "0x2382D30")]
 	private static void Draw(Path p)
 	{
 	}
 
 	[Token(Token = "0x60003B9")]
-	[Address(RVA = "0x231CAF0", Offset = "0x231CAF0", VA = "0x231CAF0")]
+	[Address(RVA = "0x23833D0", Offset = "0x23833D0", VA = "0x23833D0")]
 	private static Vector3 ConvertToDrawPoint(Vector3 wp, PathOptions plugOptions)
 	{
 		return default(Vector3);

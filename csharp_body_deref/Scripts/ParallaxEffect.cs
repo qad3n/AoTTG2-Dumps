@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: ParallaxEffect
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/ParallaxEffect.c
+// Prior real C# source (older reference): Assets/Scripts/UI/MainMenu/ParallaxEffect.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -29,40 +36,40 @@ public class ParallaxEffect : MonoBehaviour
 	private Vector2 lastValidMousePosition;
 
 	[Token(Token = "0x60000C9")]
-	[Address(RVA = "0x3C6E800", Offset = "0x3C6E800", VA = "0x3C6E800")]
+	[Address(RVA = "0x3F64150", Offset = "0x3F64150", VA = "0x3F64150")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x60000CA")]
-	[Address(RVA = "0x3C6E8E0", Offset = "0x3C6E8E0", VA = "0x3C6E8E0")]
+	[Address(RVA = "0x3F64230", Offset = "0x3F64230", VA = "0x3F64230")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x60000CB")]
-	[Address(RVA = "0x3C6EBB0", Offset = "0x3C6EBB0", VA = "0x3C6EBB0")]
+	[Address(RVA = "0x3F64500", Offset = "0x3F64500", VA = "0x3F64500")]
 	private Vector2 GetConstrainedTargetPosition(Vector2 mousePosition)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60000CC")]
-	[Address(RVA = "0x3C6ECB0", Offset = "0x3C6ECB0", VA = "0x3C6ECB0")]
+	[Address(RVA = "0x3F64600", Offset = "0x3F64600", VA = "0x3F64600")]
 	private Vector2 ClampPosition(Vector2 position)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60000CD")]
-	[Address(RVA = "0x3C6ED80", Offset = "0x3C6ED80", VA = "0x3C6ED80")]
+	[Address(RVA = "0x3F646D0", Offset = "0x3F646D0", VA = "0x3F646D0")]
 	private float MapRange(float value, float fromSource, float toSource, float fromTarget, float toTarget)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60000CE")]
-	[Address(RVA = "0x3C6EDA0", Offset = "0x3C6EDA0", VA = "0x3C6EDA0")]
+	[Address(RVA = "0x3F646F0", Offset = "0x3F646F0", VA = "0x3F646F0")]
 	public ParallaxEffect()
 	{
 	}

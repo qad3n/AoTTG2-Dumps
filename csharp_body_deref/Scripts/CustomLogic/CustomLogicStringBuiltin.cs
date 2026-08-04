@@ -1,340 +1,347 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: CustomLogic.CustomLogicStringBuiltin
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/CustomLogic/CustomLogicStringBuiltin.c
+// Prior real C# source (older reference): Assets/Scripts/CustomLogic/Builtin/CustomLogicStringBuiltin.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000430")]
+[Token(Token = "0x2000475")]
 [CompilerGenerated]
 internal class CustomLogicStringBuiltin : BuiltinClassInstance
 {
-	[Token(Token = "0x2000431")]
+	[Token(Token = "0x2000476")]
 	public static class Factory
 	{
-		[Token(Token = "0x6002CCF")]
-		[Address(RVA = "0x3E45EC0", Offset = "0x3E45EC0", VA = "0x3E45EC0")]
+		[Token(Token = "0x6002ED7")]
+		[Address(RVA = "0x41513E0", Offset = "0x41513E0", VA = "0x41513E0")]
 		public static CustomLogicStringBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000432")]
+	[Token(Token = "0x2000477")]
 	public static class Bindings
 	{
-		[Token(Token = "0x400119E")]
+		[Token(Token = "0x40012A8")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6002CD0")]
-		[Address(RVA = "0x3E45FE0", Offset = "0x3E45FE0", VA = "0x3E45FE0")]
+		[Token(Token = "0x6002ED8")]
+		[Address(RVA = "0x4151500", Offset = "0x4151500", VA = "0x4151500")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002CD1")]
-		[Address(RVA = "0x3E466E0", Offset = "0x3E466E0", VA = "0x3E466E0")]
+		[Token(Token = "0x6002ED9")]
+		[Address(RVA = "0x4151C00", Offset = "0x4151C00", VA = "0x4151C00")]
 		public static CLPropertyBinding<CustomLogicStringBuiltin> __CreatePropertyBinding__Newline()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002CD2")]
-		[Address(RVA = "0x3E46780", Offset = "0x3E46780", VA = "0x3E46780")]
+		[Token(Token = "0x6002EDA")]
+		[Address(RVA = "0x4151CA0", Offset = "0x4151CA0", VA = "0x4151CA0")]
 		public static CLMethodBinding<CustomLogicStringBuiltin> __CreateMethodBinding__FormatFloat()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002CD3")]
-		[Address(RVA = "0x3E468D0", Offset = "0x3E468D0", VA = "0x3E468D0")]
+		[Token(Token = "0x6002EDB")]
+		[Address(RVA = "0x4151DF0", Offset = "0x4151DF0", VA = "0x4151DF0")]
 		public static CLMethodBinding<CustomLogicStringBuiltin> __CreateMethodBinding__FormatFromList()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002CD4")]
-		[Address(RVA = "0x3E46A20", Offset = "0x3E46A20", VA = "0x3E46A20")]
+		[Token(Token = "0x6002EDC")]
+		[Address(RVA = "0x4151F40", Offset = "0x4151F40", VA = "0x4151F40")]
 		public static CLMethodBinding<CustomLogicStringBuiltin> __CreateMethodBinding__Split()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002CD5")]
-		[Address(RVA = "0x3E46B70", Offset = "0x3E46B70", VA = "0x3E46B70")]
+		[Token(Token = "0x6002EDD")]
+		[Address(RVA = "0x4152090", Offset = "0x4152090", VA = "0x4152090")]
 		public static CLMethodBinding<CustomLogicStringBuiltin> __CreateMethodBinding__Join()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002CD6")]
-		[Address(RVA = "0x3E46CC0", Offset = "0x3E46CC0", VA = "0x3E46CC0")]
+		[Token(Token = "0x6002EDE")]
+		[Address(RVA = "0x41521E0", Offset = "0x41521E0", VA = "0x41521E0")]
 		public static CLMethodBinding<CustomLogicStringBuiltin> __CreateMethodBinding__Substring()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002CD7")]
-		[Address(RVA = "0x3E46E10", Offset = "0x3E46E10", VA = "0x3E46E10")]
+		[Token(Token = "0x6002EDF")]
+		[Address(RVA = "0x4152330", Offset = "0x4152330", VA = "0x4152330")]
 		public static CLMethodBinding<CustomLogicStringBuiltin> __CreateMethodBinding__SubstringWithLength()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002CD8")]
-		[Address(RVA = "0x3E46F60", Offset = "0x3E46F60", VA = "0x3E46F60")]
+		[Token(Token = "0x6002EE0")]
+		[Address(RVA = "0x4152480", Offset = "0x4152480", VA = "0x4152480")]
 		public static CLMethodBinding<CustomLogicStringBuiltin> __CreateMethodBinding__Length()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002CD9")]
-		[Address(RVA = "0x3E470B0", Offset = "0x3E470B0", VA = "0x3E470B0")]
+		[Token(Token = "0x6002EE1")]
+		[Address(RVA = "0x41525D0", Offset = "0x41525D0", VA = "0x41525D0")]
 		public static CLMethodBinding<CustomLogicStringBuiltin> __CreateMethodBinding__Replace()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002CDA")]
-		[Address(RVA = "0x3E47200", Offset = "0x3E47200", VA = "0x3E47200")]
+		[Token(Token = "0x6002EE2")]
+		[Address(RVA = "0x4152720", Offset = "0x4152720", VA = "0x4152720")]
 		public static CLMethodBinding<CustomLogicStringBuiltin> __CreateMethodBinding__Contains()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002CDB")]
-		[Address(RVA = "0x3E47350", Offset = "0x3E47350", VA = "0x3E47350")]
+		[Token(Token = "0x6002EE3")]
+		[Address(RVA = "0x4152870", Offset = "0x4152870", VA = "0x4152870")]
 		public static CLMethodBinding<CustomLogicStringBuiltin> __CreateMethodBinding__StartsWith()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002CDC")]
-		[Address(RVA = "0x3E474A0", Offset = "0x3E474A0", VA = "0x3E474A0")]
+		[Token(Token = "0x6002EE4")]
+		[Address(RVA = "0x41529C0", Offset = "0x41529C0", VA = "0x41529C0")]
 		public static CLMethodBinding<CustomLogicStringBuiltin> __CreateMethodBinding__EndsWith()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002CDD")]
-		[Address(RVA = "0x3E475F0", Offset = "0x3E475F0", VA = "0x3E475F0")]
+		[Token(Token = "0x6002EE5")]
+		[Address(RVA = "0x4152B10", Offset = "0x4152B10", VA = "0x4152B10")]
 		public static CLMethodBinding<CustomLogicStringBuiltin> __CreateMethodBinding__Trim()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002CDE")]
-		[Address(RVA = "0x3E47740", Offset = "0x3E47740", VA = "0x3E47740")]
+		[Token(Token = "0x6002EE6")]
+		[Address(RVA = "0x4152C60", Offset = "0x4152C60", VA = "0x4152C60")]
 		public static CLMethodBinding<CustomLogicStringBuiltin> __CreateMethodBinding__Insert()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002CDF")]
-		[Address(RVA = "0x3E47890", Offset = "0x3E47890", VA = "0x3E47890")]
+		[Token(Token = "0x6002EE7")]
+		[Address(RVA = "0x4152DB0", Offset = "0x4152DB0", VA = "0x4152DB0")]
 		public static CLMethodBinding<CustomLogicStringBuiltin> __CreateMethodBinding__Capitalize()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002CE0")]
-		[Address(RVA = "0x3E479E0", Offset = "0x3E479E0", VA = "0x3E479E0")]
+		[Token(Token = "0x6002EE8")]
+		[Address(RVA = "0x4152F00", Offset = "0x4152F00", VA = "0x4152F00")]
 		public static CLMethodBinding<CustomLogicStringBuiltin> __CreateMethodBinding__ToUpper()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002CE1")]
-		[Address(RVA = "0x3E47B30", Offset = "0x3E47B30", VA = "0x3E47B30")]
+		[Token(Token = "0x6002EE9")]
+		[Address(RVA = "0x4153050", Offset = "0x4153050", VA = "0x4153050")]
 		public static CLMethodBinding<CustomLogicStringBuiltin> __CreateMethodBinding__ToLower()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002CE2")]
-		[Address(RVA = "0x3E47C80", Offset = "0x3E47C80", VA = "0x3E47C80")]
+		[Token(Token = "0x6002EEA")]
+		[Address(RVA = "0x41531A0", Offset = "0x41531A0", VA = "0x41531A0")]
 		public static CLMethodBinding<CustomLogicStringBuiltin> __CreateMethodBinding__IndexOf()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008AC")]
+	[Token(Token = "0x17000916")]
 	public static string Newline
 	{
-		[Token(Token = "0x6002CB9")]
-		[Address(RVA = "0x3E45470", Offset = "0x3E45470", VA = "0x3E45470")]
+		[Token(Token = "0x6002EC1")]
+		[Address(RVA = "0x4150990", Offset = "0x4150990", VA = "0x4150990")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008AD")]
+	[Token(Token = "0x17000917")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002CCB")]
-		[Address(RVA = "0x3E45E60", Offset = "0x3E45E60", VA = "0x3E45E60", Slot = "4")]
+		[Token(Token = "0x6002ED3")]
+		[Address(RVA = "0x4151380", Offset = "0x4151380", VA = "0x4151380", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008AE")]
+	[Token(Token = "0x17000918")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6002CCC")]
-		[Address(RVA = "0x3E45E90", Offset = "0x3E45E90", VA = "0x3E45E90", Slot = "6")]
+		[Token(Token = "0x6002ED4")]
+		[Address(RVA = "0x41513B0", Offset = "0x41513B0", VA = "0x41513B0", Slot = "6")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170008AF")]
+	[Token(Token = "0x17000919")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6002CCD")]
-		[Address(RVA = "0x3E45EA0", Offset = "0x3E45EA0", VA = "0x3E45EA0", Slot = "7")]
+		[Token(Token = "0x6002ED5")]
+		[Address(RVA = "0x41513C0", Offset = "0x41513C0", VA = "0x41513C0", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170008B0")]
+	[Token(Token = "0x1700091A")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6002CCE")]
-		[Address(RVA = "0x3E45EB0", Offset = "0x3E45EB0", VA = "0x3E45EB0", Slot = "8")]
+		[Token(Token = "0x6002ED6")]
+		[Address(RVA = "0x41513D0", Offset = "0x41513D0", VA = "0x41513D0", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002CB8")]
-	[Address(RVA = "0x3E45410", Offset = "0x3E45410", VA = "0x3E45410")]
+	[Token(Token = "0x6002EC0")]
+	[Address(RVA = "0x4150930", Offset = "0x4150930", VA = "0x4150930")]
 	public CustomLogicStringBuiltin()
 	{
 	}
 
-	[Token(Token = "0x6002CBA")]
-	[Address(RVA = "0x3E454A0", Offset = "0x3E454A0", VA = "0x3E454A0")]
+	[Token(Token = "0x6002EC2")]
+	[Address(RVA = "0x41509C0", Offset = "0x41509C0", VA = "0x41509C0")]
 	public static string FormatFloat(float val, int decimals)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002CBB")]
-	[Address(RVA = "0x3E45510", Offset = "0x3E45510", VA = "0x3E45510")]
+	[Token(Token = "0x6002EC3")]
+	[Address(RVA = "0x4150A30", Offset = "0x4150A30", VA = "0x4150A30")]
 	public static string FormatFromList(string str, CustomLogicListBuiltin list)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002CBC")]
-	[Address(RVA = "0x3E45570", Offset = "0x3E45570", VA = "0x3E45570")]
+	[Token(Token = "0x6002EC4")]
+	[Address(RVA = "0x4150A90", Offset = "0x4150A90", VA = "0x4150A90")]
 	public static CustomLogicListBuiltin Split(string toSplit, object splitter, bool removeEmptyEntries = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002CBD")]
-	[Address(RVA = "0x3E459E0", Offset = "0x3E459E0", VA = "0x3E459E0")]
+	[Token(Token = "0x6002EC5")]
+	[Address(RVA = "0x4150F00", Offset = "0x4150F00", VA = "0x4150F00")]
 	public static string Join(CustomLogicListBuiltin list, string separator)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002CBE")]
-	[Address(RVA = "0x3E45C80", Offset = "0x3E45C80", VA = "0x3E45C80")]
+	[Token(Token = "0x6002EC6")]
+	[Address(RVA = "0x41511A0", Offset = "0x41511A0", VA = "0x41511A0")]
 	public static string Substring(string str, int startIndex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002CBF")]
-	[Address(RVA = "0x3E45CA0", Offset = "0x3E45CA0", VA = "0x3E45CA0")]
+	[Token(Token = "0x6002EC7")]
+	[Address(RVA = "0x41511C0", Offset = "0x41511C0", VA = "0x41511C0")]
 	public static string SubstringWithLength(string str, int startIndex, int length)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002CC0")]
-	[Address(RVA = "0x3E45CC0", Offset = "0x3E45CC0", VA = "0x3E45CC0")]
+	[Token(Token = "0x6002EC8")]
+	[Address(RVA = "0x41511E0", Offset = "0x41511E0", VA = "0x41511E0")]
 	public static int Length(string str)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002CC1")]
-	[Address(RVA = "0x3E45CD0", Offset = "0x3E45CD0", VA = "0x3E45CD0")]
+	[Token(Token = "0x6002EC9")]
+	[Address(RVA = "0x41511F0", Offset = "0x41511F0", VA = "0x41511F0")]
 	public static string Replace(string str, string replace, string with)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002CC2")]
-	[Address(RVA = "0x3E45CF0", Offset = "0x3E45CF0", VA = "0x3E45CF0")]
+	[Token(Token = "0x6002ECA")]
+	[Address(RVA = "0x4151210", Offset = "0x4151210", VA = "0x4151210")]
 	public static bool Contains(string str, string match)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002CC3")]
-	[Address(RVA = "0x3E45D10", Offset = "0x3E45D10", VA = "0x3E45D10")]
+	[Token(Token = "0x6002ECB")]
+	[Address(RVA = "0x4151230", Offset = "0x4151230", VA = "0x4151230")]
 	public static bool StartsWith(string str, string match)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002CC4")]
-	[Address(RVA = "0x3E45D30", Offset = "0x3E45D30", VA = "0x3E45D30")]
+	[Token(Token = "0x6002ECC")]
+	[Address(RVA = "0x4151250", Offset = "0x4151250", VA = "0x4151250")]
 	public static bool EndsWith(string str, string match)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002CC5")]
-	[Address(RVA = "0x3E45D50", Offset = "0x3E45D50", VA = "0x3E45D50")]
+	[Token(Token = "0x6002ECD")]
+	[Address(RVA = "0x4151270", Offset = "0x4151270", VA = "0x4151270")]
 	public static string Trim(string str)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002CC6")]
-	[Address(RVA = "0x3E45D70", Offset = "0x3E45D70", VA = "0x3E45D70")]
+	[Token(Token = "0x6002ECE")]
+	[Address(RVA = "0x4151290", Offset = "0x4151290", VA = "0x4151290")]
 	public static string Insert(string str, string insert, int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002CC7")]
-	[Address(RVA = "0x3E45D90", Offset = "0x3E45D90", VA = "0x3E45D90")]
+	[Token(Token = "0x6002ECF")]
+	[Address(RVA = "0x41512B0", Offset = "0x41512B0", VA = "0x41512B0")]
 	public static string Capitalize(string str)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002CC8")]
-	[Address(RVA = "0x3E45E00", Offset = "0x3E45E00", VA = "0x3E45E00")]
+	[Token(Token = "0x6002ED0")]
+	[Address(RVA = "0x4151320", Offset = "0x4151320", VA = "0x4151320")]
 	public static string ToUpper(string str)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002CC9")]
-	[Address(RVA = "0x3E45E20", Offset = "0x3E45E20", VA = "0x3E45E20")]
+	[Token(Token = "0x6002ED1")]
+	[Address(RVA = "0x4151340", Offset = "0x4151340", VA = "0x4151340")]
 	public static string ToLower(string str)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002CCA")]
-	[Address(RVA = "0x3E45E40", Offset = "0x3E45E40", VA = "0x3E45E40")]
+	[Token(Token = "0x6002ED2")]
+	[Address(RVA = "0x4151360", Offset = "0x4151360", VA = "0x4151360")]
 	public static int IndexOf(string str, string substring)
 	{
 		return default(int);

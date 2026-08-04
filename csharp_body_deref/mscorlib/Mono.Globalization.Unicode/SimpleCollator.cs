@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Globalization.Unicode.SimpleCollator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Globalization;
 using Il2CppDummyDll;
 
@@ -38,7 +45,7 @@ internal class SimpleCollator : System.Globalization.ISimpleCollator
 		public unsafe byte* PrevSortKey;
 
 		[Token(Token = "0x60000F7")]
-		[Address(RVA = "0x4DF0700", Offset = "0x4DF0700", VA = "0x4DF0700")]
+		[Address(RVA = "0x3AD6220", Offset = "0x3AD6220", VA = "0x3AD6220")]
 		public unsafe Context(CompareOptions opt, byte* alwaysMatchFlags, byte* neverMatchFlags, byte* buffer1, byte* buffer2, byte* prev1)
 		{
 		}
@@ -56,7 +63,7 @@ internal class SimpleCollator : System.Globalization.ISimpleCollator
 		public unsafe byte* SortKey;
 
 		[Token(Token = "0x60000F8")]
-		[Address(RVA = "0x4DF30E0", Offset = "0x4DF30E0", VA = "0x4DF30E0")]
+		[Address(RVA = "0x3AD8C00", Offset = "0x3AD8C00", VA = "0x3AD8C00")]
 		public PreviousInfo(bool dummy)
 		{
 		}
@@ -150,323 +157,323 @@ internal class SimpleCollator : System.Globalization.ISimpleCollator
 	private readonly bool frenchSort;
 
 	[Token(Token = "0x60000C7")]
-	[Address(RVA = "0x4DEEA00", Offset = "0x4DEEA00", VA = "0x4DEEA00")]
+	[Address(RVA = "0x3AD4520", Offset = "0x3AD4520", VA = "0x3AD4520")]
 	public SimpleCollator(CultureInfo culture)
 	{
 	}
 
 	[Token(Token = "0x60000C8")]
-	[Address(RVA = "0x4DEED80", Offset = "0x4DEED80", VA = "0x4DEED80")]
+	[Address(RVA = "0x3AD48A0", Offset = "0x3AD48A0", VA = "0x3AD48A0")]
 	private unsafe void SetCJKTable(CultureInfo culture, ref Mono.Globalization.Unicode.CodePointIndexer cjkIndexer, ref byte* catTable, ref byte* lv1Table, ref Mono.Globalization.Unicode.CodePointIndexer lv2Indexer, ref byte* lv2Table)
 	{
 	}
 
 	[Token(Token = "0x60000C9")]
-	[Address(RVA = "0x4DEEED0", Offset = "0x4DEEED0", VA = "0x4DEEED0")]
+	[Address(RVA = "0x3AD49F0", Offset = "0x3AD49F0", VA = "0x3AD49F0")]
 	private static CultureInfo GetNeutralCulture(CultureInfo info)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CA")]
-	[Address(RVA = "0x4DEEF50", Offset = "0x4DEEF50", VA = "0x4DEEF50")]
+	[Address(RVA = "0x3AD4A70", Offset = "0x3AD4A70", VA = "0x3AD4A70")]
 	private byte Category(int cp)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x60000CB")]
-	[Address(RVA = "0x4DEF020", Offset = "0x4DEF020", VA = "0x4DEF020")]
+	[Address(RVA = "0x3AD4B40", Offset = "0x3AD4B40", VA = "0x3AD4B40")]
 	private byte Level1(int cp)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x60000CC")]
-	[Address(RVA = "0x4DEF0F0", Offset = "0x4DEF0F0", VA = "0x4DEF0F0")]
+	[Address(RVA = "0x3AD4C10", Offset = "0x3AD4C10", VA = "0x3AD4C10")]
 	private byte Level2(int cp, ExtenderType ext)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x60000CD")]
-	[Address(RVA = "0x4DEF240", Offset = "0x4DEF240", VA = "0x4DEF240")]
+	[Address(RVA = "0x3AD4D60", Offset = "0x3AD4D60", VA = "0x3AD4D60")]
 	private static bool IsHalfKana(int cp, CompareOptions opt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000CE")]
-	[Address(RVA = "0x4DEF2B0", Offset = "0x4DEF2B0", VA = "0x4DEF2B0")]
+	[Address(RVA = "0x3AD4DD0", Offset = "0x3AD4DD0", VA = "0x3AD4DD0")]
 	private Mono.Globalization.Unicode.Contraction GetContraction(string s, int start, int end)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CF")]
-	[Address(RVA = "0x4DEF360", Offset = "0x4DEF360", VA = "0x4DEF360")]
+	[Address(RVA = "0x3AD4E80", Offset = "0x3AD4E80", VA = "0x3AD4E80")]
 	private Mono.Globalization.Unicode.Contraction GetContraction(string s, int start, int end, Mono.Globalization.Unicode.Contraction[] clist)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D0")]
-	[Address(RVA = "0x4DEF4D0", Offset = "0x4DEF4D0", VA = "0x4DEF4D0")]
+	[Address(RVA = "0x3AD4FF0", Offset = "0x3AD4FF0", VA = "0x3AD4FF0")]
 	private Mono.Globalization.Unicode.Contraction GetTailContraction(string s, int start, int end)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D1")]
-	[Address(RVA = "0x4DEF580", Offset = "0x4DEF580", VA = "0x4DEF580")]
+	[Address(RVA = "0x3AD50A0", Offset = "0x3AD50A0", VA = "0x3AD50A0")]
 	private Mono.Globalization.Unicode.Contraction GetTailContraction(string s, int start, int end, Mono.Globalization.Unicode.Contraction[] clist)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D2")]
-	[Address(RVA = "0x4DEF7A0", Offset = "0x4DEF7A0", VA = "0x4DEF7A0")]
+	[Address(RVA = "0x3AD52C0", Offset = "0x3AD52C0", VA = "0x3AD52C0")]
 	private int FilterOptions(int i, CompareOptions opt)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000D3")]
-	[Address(RVA = "0x4DEF8D0", Offset = "0x4DEF8D0", VA = "0x4DEF8D0")]
+	[Address(RVA = "0x3AD53F0", Offset = "0x3AD53F0", VA = "0x3AD53F0")]
 	private ExtenderType GetExtenderType(int i)
 	{
 		return default(ExtenderType);
 	}
 
 	[Token(Token = "0x60000D4")]
-	[Address(RVA = "0x4DEF9A0", Offset = "0x4DEF9A0", VA = "0x4DEF9A0")]
+	[Address(RVA = "0x3AD54C0", Offset = "0x3AD54C0", VA = "0x3AD54C0")]
 	private static byte ToDashTypeValue(ExtenderType ext, CompareOptions opt)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x60000D5")]
-	[Address(RVA = "0x4DEF9C0", Offset = "0x4DEF9C0", VA = "0x4DEF9C0")]
+	[Address(RVA = "0x3AD54E0", Offset = "0x3AD54E0", VA = "0x3AD54E0")]
 	private int FilterExtender(int i, ExtenderType ext, CompareOptions opt)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000D6")]
-	[Address(RVA = "0x4DEFC20", Offset = "0x4DEFC20", VA = "0x4DEFC20")]
+	[Address(RVA = "0x3AD5740", Offset = "0x3AD5740", VA = "0x3AD5740")]
 	private static bool IsIgnorable(int i, CompareOptions opt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000D7")]
-	[Address(RVA = "0x4DEFCB0", Offset = "0x4DEFCB0", VA = "0x4DEFCB0")]
+	[Address(RVA = "0x3AD57D0", Offset = "0x3AD57D0", VA = "0x3AD57D0")]
 	private bool IsSafe(int i)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000D8")]
-	[Address(RVA = "0x4DEFD00", Offset = "0x4DEFD00", VA = "0x4DEFD00", Slot = "4")]
+	[Address(RVA = "0x3AD5820", Offset = "0x3AD5820", VA = "0x3AD5820", Slot = "4")]
 	public SortKey GetSortKey(string s, CompareOptions options)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D9")]
-	[Address(RVA = "0x4DEFD20", Offset = "0x4DEFD20", VA = "0x4DEFD20")]
+	[Address(RVA = "0x3AD5840", Offset = "0x3AD5840", VA = "0x3AD5840")]
 	public SortKey GetSortKey(string s, int start, int length, CompareOptions options)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000DA")]
-	[Address(RVA = "0x4DF0070", Offset = "0x4DF0070", VA = "0x4DF0070")]
+	[Address(RVA = "0x3AD5B90", Offset = "0x3AD5B90", VA = "0x3AD5B90")]
 	private void GetSortKey(string s, int start, int end, Mono.Globalization.Unicode.SortKeyBuffer buf, CompareOptions opt)
 	{
 	}
 
 	[Token(Token = "0x60000DB")]
-	[Address(RVA = "0x4DF0730", Offset = "0x4DF0730", VA = "0x4DF0730")]
+	[Address(RVA = "0x3AD6250", Offset = "0x3AD6250", VA = "0x3AD6250")]
 	private void FillSortKeyRaw(int i, ExtenderType ext, Mono.Globalization.Unicode.SortKeyBuffer buf, CompareOptions opt)
 	{
 	}
 
 	[Token(Token = "0x60000DC")]
-	[Address(RVA = "0x4DF0E40", Offset = "0x4DF0E40", VA = "0x4DF0E40")]
+	[Address(RVA = "0x3AD6960", Offset = "0x3AD6960", VA = "0x3AD6960")]
 	private void FillSurrogateSortKeyRaw(int i, Mono.Globalization.Unicode.SortKeyBuffer buf)
 	{
 	}
 
 	[Token(Token = "0x60000DD")]
-	[Address(RVA = "0x4DF0FB0", Offset = "0x4DF0FB0", VA = "0x4DF0FB0", Slot = "5")]
+	[Address(RVA = "0x3AD6AD0", Offset = "0x3AD6AD0", VA = "0x3AD6AD0", Slot = "5")]
 	private int System_002EGlobalization_002EISimpleCollator_002ECompare(string s1, int idx1, int len1, string s2, int idx2, int len2, CompareOptions options)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000DE")]
-	[Address(RVA = "0x4DF1070", Offset = "0x4DF1070", VA = "0x4DF1070")]
+	[Address(RVA = "0x3AD6B90", Offset = "0x3AD6B90", VA = "0x3AD6B90")]
 	internal int Compare(string s1, int idx1, int len1, string s2, int idx2, int len2, CompareOptions options)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000DF")]
-	[Address(RVA = "0x4DF06A0", Offset = "0x4DF06A0", VA = "0x4DF06A0")]
+	[Address(RVA = "0x3AD61C0", Offset = "0x3AD61C0", VA = "0x3AD61C0")]
 	private unsafe void ClearBuffer(byte* buffer, int size)
 	{
 	}
 
 	[Token(Token = "0x60000E0")]
-	[Address(RVA = "0x4DF1130", Offset = "0x4DF1130", VA = "0x4DF1130")]
+	[Address(RVA = "0x3AD6C50", Offset = "0x3AD6C50", VA = "0x3AD6C50")]
 	private int CompareInternal(string s1, int idx1, int len1, string s2, int idx2, int len2, out bool targetConsumed, out bool sourceConsumed, bool skipHeadingExtenders, bool immediateBreakup, ref Context ctx)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000E1")]
-	[Address(RVA = "0x4DF30F0", Offset = "0x4DF30F0", VA = "0x4DF30F0")]
+	[Address(RVA = "0x3AD8C10", Offset = "0x3AD8C10", VA = "0x3AD8C10")]
 	private int CompareFlagPair(bool b1, bool b2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000E2")]
-	[Address(RVA = "0x4DF3110", Offset = "0x4DF3110", VA = "0x4DF3110", Slot = "6")]
+	[Address(RVA = "0x3AD8C30", Offset = "0x3AD8C30", VA = "0x3AD8C30", Slot = "6")]
 	public bool IsPrefix(string src, string target, CompareOptions opt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000E3")]
-	[Address(RVA = "0x4DF3130", Offset = "0x4DF3130", VA = "0x4DF3130")]
+	[Address(RVA = "0x3AD8C50", Offset = "0x3AD8C50", VA = "0x3AD8C50")]
 	public bool IsPrefix(string s, string target, int start, int length, CompareOptions opt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000E4")]
-	[Address(RVA = "0x4DF3250", Offset = "0x4DF3250", VA = "0x4DF3250")]
+	[Address(RVA = "0x3AD8D70", Offset = "0x3AD8D70", VA = "0x3AD8D70")]
 	private bool IsPrefix(string s, string target, int start, int length, bool skipHeadingExtenders, ref Context ctx)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000E5")]
-	[Address(RVA = "0x4DF32C0", Offset = "0x4DF32C0", VA = "0x4DF32C0", Slot = "7")]
+	[Address(RVA = "0x3AD8DE0", Offset = "0x3AD8DE0", VA = "0x3AD8DE0", Slot = "7")]
 	public bool IsSuffix(string src, string target, CompareOptions opt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000E6")]
-	[Address(RVA = "0x4DF32E0", Offset = "0x4DF32E0", VA = "0x4DF32E0")]
+	[Address(RVA = "0x3AD8E00", Offset = "0x3AD8E00", VA = "0x3AD8E00")]
 	public bool IsSuffix(string s, string target, int start, int length, CompareOptions opt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000E7")]
-	[Address(RVA = "0x4DF36E0", Offset = "0x4DF36E0", VA = "0x4DF36E0")]
+	[Address(RVA = "0x3AD9200", Offset = "0x3AD9200", VA = "0x3AD9200")]
 	private int QuickIndexOf(string s, string target, int start, int length, out bool testWasUnable)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000E8")]
-	[Address(RVA = "0x4DF3850", Offset = "0x4DF3850", VA = "0x4DF3850", Slot = "8")]
+	[Address(RVA = "0x3AD9370", Offset = "0x3AD9370", VA = "0x3AD9370", Slot = "8")]
 	public int IndexOf(string s, string target, int start, int length, CompareOptions opt)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000E9")]
-	[Address(RVA = "0x4DF4310", Offset = "0x4DF4310", VA = "0x4DF4310")]
+	[Address(RVA = "0x3AD9E30", Offset = "0x3AD9E30", VA = "0x3AD9E30")]
 	private int IndexOfOrdinal(string s, string target, int start, int length)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000EA")]
-	[Address(RVA = "0x4DF43D0", Offset = "0x4DF43D0", VA = "0x4DF43D0")]
+	[Address(RVA = "0x3AD9EF0", Offset = "0x3AD9EF0", VA = "0x3AD9EF0")]
 	private int IndexOfOrdinal(string s, char target, int start, int length)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000EB")]
-	[Address(RVA = "0x4DF4430", Offset = "0x4DF4430", VA = "0x4DF4430")]
+	[Address(RVA = "0x3AD9F50", Offset = "0x3AD9F50", VA = "0x3AD9F50")]
 	private unsafe int IndexOfSortKey(string s, int start, int length, byte* sortkey, char target, int ti, bool noLv4, ref Context ctx)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000EC")]
-	[Address(RVA = "0x4DF3B60", Offset = "0x4DF3B60", VA = "0x4DF3B60")]
+	[Address(RVA = "0x3AD9680", Offset = "0x3AD9680", VA = "0x3AD9680")]
 	private unsafe int IndexOf(string s, string target, int start, int length, byte* targetSortKey, ref Context ctx)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000ED")]
-	[Address(RVA = "0x4DF3400", Offset = "0x4DF3400", VA = "0x4DF3400", Slot = "9")]
+	[Address(RVA = "0x3AD8F20", Offset = "0x3AD8F20", VA = "0x3AD8F20", Slot = "9")]
 	public int LastIndexOf(string s, string target, int start, int length, CompareOptions opt)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000EE")]
-	[Address(RVA = "0x4DF4F30", Offset = "0x4DF4F30", VA = "0x4DF4F30")]
+	[Address(RVA = "0x3ADAA50", Offset = "0x3ADAA50", VA = "0x3ADAA50")]
 	private int LastIndexOfOrdinal(string s, string target, int start, int length)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000EF")]
-	[Address(RVA = "0x4DF5050", Offset = "0x4DF5050", VA = "0x4DF5050")]
+	[Address(RVA = "0x3ADAB70", Offset = "0x3ADAB70", VA = "0x3ADAB70")]
 	private unsafe int LastIndexOfSortKey(string s, int start, int orgStart, int length, byte* sortkey, int ti, bool noLv4, ref Context ctx)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000F0")]
-	[Address(RVA = "0x4DF4730", Offset = "0x4DF4730", VA = "0x4DF4730")]
+	[Address(RVA = "0x3ADA250", Offset = "0x3ADA250", VA = "0x3ADA250")]
 	private unsafe int LastIndexOf(string s, string target, int start, int length, byte* targetSortKey, ref Context ctx)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000F1")]
-	[Address(RVA = "0x4DF44B0", Offset = "0x4DF44B0", VA = "0x4DF44B0")]
+	[Address(RVA = "0x3AD9FD0", Offset = "0x3AD9FD0", VA = "0x3AD9FD0")]
 	private unsafe bool MatchesForward(string s, ref int idx, int end, int ti, byte* sortkey, bool noLv4, ref Context ctx)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000F2")]
-	[Address(RVA = "0x4DF5370", Offset = "0x4DF5370", VA = "0x4DF5370")]
+	[Address(RVA = "0x3ADAE90", Offset = "0x3ADAE90", VA = "0x3ADAE90")]
 	private unsafe bool MatchesForwardCore(string s, ref int idx, int end, int ti, byte* sortkey, bool noLv4, ExtenderType ext, ref Mono.Globalization.Unicode.Contraction ct, ref Context ctx)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000F3")]
-	[Address(RVA = "0x4DF5740", Offset = "0x4DF5740", VA = "0x4DF5740")]
+	[Address(RVA = "0x3ADB260", Offset = "0x3ADB260", VA = "0x3ADB260")]
 	private unsafe bool MatchesPrimitive(CompareOptions opt, byte* source, int si, ExtenderType ext, byte* target, int ti, bool noLv4)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000F4")]
-	[Address(RVA = "0x4DF50E0", Offset = "0x4DF50E0", VA = "0x4DF50E0")]
+	[Address(RVA = "0x3ADAC00", Offset = "0x3ADAC00", VA = "0x3ADAC00")]
 	private unsafe bool MatchesBackward(string s, ref int idx, int end, int orgStart, int ti, byte* sortkey, bool noLv4, ref Context ctx)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000F5")]
-	[Address(RVA = "0x4DF5B70", Offset = "0x4DF5B70", VA = "0x4DF5B70")]
+	[Address(RVA = "0x3ADB690", Offset = "0x3ADB690", VA = "0x3ADB690")]
 	private unsafe bool MatchesBackwardCore(string s, ref int idx, int end, int orgStart, int ti, byte* sortkey, bool noLv4, ExtenderType ext, ref Mono.Globalization.Unicode.Contraction ct, ref Context ctx)
 	{
 		return default(bool);

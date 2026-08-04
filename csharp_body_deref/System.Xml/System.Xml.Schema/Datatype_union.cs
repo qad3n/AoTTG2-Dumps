@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.Datatype_union
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -21,7 +28,7 @@ internal class Datatype_union : Datatype_anySimpleType
 	public override Type ValueType
 	{
 		[Token(Token = "0x600108E")]
-		[Address(RVA = "0x451F900", Offset = "0x451F900", VA = "0x451F900", Slot = "4")]
+		[Address(RVA = "0x485D060", Offset = "0x485D060", VA = "0x485D060", Slot = "4")]
 		get
 		{
 			return null;
@@ -32,7 +39,7 @@ internal class Datatype_union : Datatype_anySimpleType
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x600108F")]
-		[Address(RVA = "0x451F970", Offset = "0x451F970", VA = "0x451F970", Slot = "8")]
+		[Address(RVA = "0x485D0D0", Offset = "0x485D0D0", VA = "0x485D0D0", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -43,7 +50,7 @@ internal class Datatype_union : Datatype_anySimpleType
 	internal override FacetsChecker FacetsChecker
 	{
 		[Token(Token = "0x6001090")]
-		[Address(RVA = "0x451F980", Offset = "0x451F980", VA = "0x451F980", Slot = "18")]
+		[Address(RVA = "0x485D0E0", Offset = "0x485D0E0", VA = "0x485D0E0", Slot = "18")]
 		get
 		{
 			return null;
@@ -54,7 +61,7 @@ internal class Datatype_union : Datatype_anySimpleType
 	internal override Type ListValueType
 	{
 		[Token(Token = "0x6001091")]
-		[Address(RVA = "0x451F9F0", Offset = "0x451F9F0", VA = "0x451F9F0", Slot = "26")]
+		[Address(RVA = "0x485D150", Offset = "0x485D150", VA = "0x485D150", Slot = "26")]
 		get
 		{
 			return null;
@@ -65,7 +72,7 @@ internal class Datatype_union : Datatype_anySimpleType
 	internal override RestrictionFlags ValidRestrictionFlags
 	{
 		[Token(Token = "0x6001092")]
-		[Address(RVA = "0x451FA60", Offset = "0x451FA60", VA = "0x451FA60", Slot = "27")]
+		[Address(RVA = "0x485D1C0", Offset = "0x485D1C0", VA = "0x485D1C0", Slot = "27")]
 		get
 		{
 			return default(RestrictionFlags);
@@ -76,7 +83,7 @@ internal class Datatype_union : Datatype_anySimpleType
 	internal XmlSchemaSimpleType[] BaseMemberTypes
 	{
 		[Token(Token = "0x6001093")]
-		[Address(RVA = "0x451FA70", Offset = "0x451FA70", VA = "0x451FA70")]
+		[Address(RVA = "0x485D1D0", Offset = "0x485D1D0", VA = "0x485D1D0")]
 		get
 		{
 			return null;
@@ -84,48 +91,48 @@ internal class Datatype_union : Datatype_anySimpleType
 	}
 
 	[Token(Token = "0x600108B")]
-	[Address(RVA = "0x451F800", Offset = "0x451F800", VA = "0x451F800", Slot = "25")]
+	[Address(RVA = "0x485CF60", Offset = "0x485CF60", VA = "0x485CF60", Slot = "25")]
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600108C")]
-	[Address(RVA = "0x451D1C0", Offset = "0x451D1C0", VA = "0x451D1C0")]
+	[Address(RVA = "0x485A920", Offset = "0x485A920", VA = "0x485A920")]
 	internal Datatype_union(XmlSchemaSimpleType[] types)
 	{
 	}
 
 	[Token(Token = "0x600108D")]
-	[Address(RVA = "0x451F810", Offset = "0x451F810", VA = "0x451F810", Slot = "14")]
+	[Address(RVA = "0x485CF70", Offset = "0x485CF70", VA = "0x485CF70", Slot = "14")]
 	internal override int Compare(object value1, object value2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001094")]
-	[Address(RVA = "0x451CFB0", Offset = "0x451CFB0", VA = "0x451CFB0")]
+	[Address(RVA = "0x485A710", Offset = "0x485A710", VA = "0x485A710")]
 	internal bool HasAtomicMembers()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001095")]
-	[Address(RVA = "0x451D4F0", Offset = "0x451D4F0", VA = "0x451D4F0")]
+	[Address(RVA = "0x485AC50", Offset = "0x485AC50", VA = "0x485AC50")]
 	internal bool IsUnionBaseOf(DatatypeImplementation derivedType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001096")]
-	[Address(RVA = "0x451FA80", Offset = "0x451FA80", VA = "0x451FA80", Slot = "16")]
+	[Address(RVA = "0x485D1E0", Offset = "0x485D1E0", VA = "0x485D1E0", Slot = "16")]
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001097")]
-	[Address(RVA = "0x451FCB0", Offset = "0x451FCB0", VA = "0x451FCB0", Slot = "17")]
+	[Address(RVA = "0x485D410", Offset = "0x485D410", VA = "0x485D410", Slot = "17")]
 	internal override Exception TryParseValue(object value, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue)
 	{
 		return null;

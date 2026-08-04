@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.Grayscale
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/Grayscale.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -18,13 +25,13 @@ public class Grayscale : ImageEffectBase
 	public float rampOffset;
 
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x415DB50", Offset = "0x415DB50", VA = "0x415DB50")]
+	[Address(RVA = "0x4482C50", Offset = "0x4482C50", VA = "0x4482C50")]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x415DC20", Offset = "0x415DC20", VA = "0x415DC20")]
+	[Address(RVA = "0x4482D20", Offset = "0x4482D20", VA = "0x4482D20")]
 	public Grayscale()
 	{
 	}

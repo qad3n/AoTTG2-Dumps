@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.SyntaxTreeNode
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -16,7 +23,7 @@ internal abstract class SyntaxTreeNode
 	public virtual bool IsRangeNode
 	{
 		[Token(Token = "0x6000FD8")]
-		[Address(RVA = "0x4509850", Offset = "0x4509850", VA = "0x4509850", Slot = "7")]
+		[Address(RVA = "0x4846FB0", Offset = "0x4846FB0", VA = "0x4846FB0", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -30,7 +37,7 @@ internal abstract class SyntaxTreeNode
 	public abstract void ConstructPos(BitSet firstpos, BitSet lastpos, BitSet[] followpos);
 
 	[Token(Token = "0x6000FD9")]
-	[Address(RVA = "0x4509860", Offset = "0x4509860", VA = "0x4509860")]
+	[Address(RVA = "0x4846FC0", Offset = "0x4846FC0", VA = "0x4846FC0")]
 	protected SyntaxTreeNode()
 	{
 	}

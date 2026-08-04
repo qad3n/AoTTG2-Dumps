@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Dynamic.BindingRestrictions
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq.Expressions;
@@ -34,26 +41,26 @@ public abstract class BindingRestrictions
 		private readonly Stack<AndNode> _tests;
 
 		[Token(Token = "0x6000BB2")]
-		[Address(RVA = "0x41E3A40", Offset = "0x41E3A40", VA = "0x41E3A40")]
+		[Address(RVA = "0x4508B40", Offset = "0x4508B40", VA = "0x4508B40")]
 		internal void Append(BindingRestrictions restrictions)
 		{
 		}
 
 		[Token(Token = "0x6000BB3")]
-		[Address(RVA = "0x41E3C10", Offset = "0x41E3C10", VA = "0x41E3C10")]
+		[Address(RVA = "0x4508D10", Offset = "0x4508D10", VA = "0x4508D10")]
 		internal Expression ToExpression()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000BB4")]
-		[Address(RVA = "0x41E3AC0", Offset = "0x41E3AC0", VA = "0x41E3AC0")]
+		[Address(RVA = "0x4508BC0", Offset = "0x4508BC0", VA = "0x4508BC0")]
 		private void Push(Expression node, int depth)
 		{
 		}
 
 		[Token(Token = "0x6000BB5")]
-		[Address(RVA = "0x41E3CF0", Offset = "0x41E3CF0", VA = "0x41E3CF0")]
+		[Address(RVA = "0x4508DF0", Offset = "0x4508DF0", VA = "0x4508DF0")]
 		public TestBuilder()
 		{
 		}
@@ -71,13 +78,13 @@ public abstract class BindingRestrictions
 		internal readonly BindingRestrictions Right;
 
 		[Token(Token = "0x6000BB6")]
-		[Address(RVA = "0x41E32E0", Offset = "0x41E32E0", VA = "0x41E32E0")]
+		[Address(RVA = "0x45083E0", Offset = "0x45083E0", VA = "0x45083E0")]
 		internal MergedRestriction(BindingRestrictions left, BindingRestrictions right)
 		{
 		}
 
 		[Token(Token = "0x6000BB7")]
-		[Address(RVA = "0x41E3DB0", Offset = "0x41E3DB0", VA = "0x41E3DB0", Slot = "4")]
+		[Address(RVA = "0x4508EB0", Offset = "0x4508EB0", VA = "0x4508EB0", Slot = "4")]
 		internal override Expression GetExpression()
 		{
 			return null;
@@ -92,27 +99,27 @@ public abstract class BindingRestrictions
 		private readonly Expression _expression;
 
 		[Token(Token = "0x6000BB8")]
-		[Address(RVA = "0x41E39D0", Offset = "0x41E39D0", VA = "0x41E39D0")]
+		[Address(RVA = "0x4508AD0", Offset = "0x4508AD0", VA = "0x4508AD0")]
 		internal CustomRestriction(Expression expression)
 		{
 		}
 
 		[Token(Token = "0x6000BB9")]
-		[Address(RVA = "0x41E3FE0", Offset = "0x41E3FE0", VA = "0x41E3FE0", Slot = "0")]
+		[Address(RVA = "0x45090E0", Offset = "0x45090E0", VA = "0x45090E0", Slot = "0")]
 		public override bool Equals(object obj)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000BBA")]
-		[Address(RVA = "0x41E4040", Offset = "0x41E4040", VA = "0x41E4040", Slot = "2")]
+		[Address(RVA = "0x4509140", Offset = "0x4509140", VA = "0x4509140", Slot = "2")]
 		public override int GetHashCode()
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000BBB")]
-		[Address(RVA = "0x41E4070", Offset = "0x41E4070", VA = "0x41E4070", Slot = "4")]
+		[Address(RVA = "0x4509170", Offset = "0x4509170", VA = "0x4509170", Slot = "4")]
 		internal override Expression GetExpression()
 		{
 			return null;
@@ -131,27 +138,27 @@ public abstract class BindingRestrictions
 		private readonly Type _type;
 
 		[Token(Token = "0x6000BBC")]
-		[Address(RVA = "0x41E3450", Offset = "0x41E3450", VA = "0x41E3450")]
+		[Address(RVA = "0x4508550", Offset = "0x4508550", VA = "0x4508550")]
 		internal TypeRestriction(Expression parameter, Type type)
 		{
 		}
 
 		[Token(Token = "0x6000BBD")]
-		[Address(RVA = "0x41E4080", Offset = "0x41E4080", VA = "0x41E4080", Slot = "0")]
+		[Address(RVA = "0x4509180", Offset = "0x4509180", VA = "0x4509180", Slot = "0")]
 		public override bool Equals(object obj)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000BBE")]
-		[Address(RVA = "0x41E4140", Offset = "0x41E4140", VA = "0x41E4140", Slot = "2")]
+		[Address(RVA = "0x4509240", Offset = "0x4509240", VA = "0x4509240", Slot = "2")]
 		public override int GetHashCode()
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000BBF")]
-		[Address(RVA = "0x41E4190", Offset = "0x41E4190", VA = "0x41E4190", Slot = "4")]
+		[Address(RVA = "0x4509290", Offset = "0x4509290", VA = "0x4509290", Slot = "4")]
 		internal override Expression GetExpression()
 		{
 			return null;
@@ -170,27 +177,27 @@ public abstract class BindingRestrictions
 		private readonly object _instance;
 
 		[Token(Token = "0x6000BC0")]
-		[Address(RVA = "0x41E3840", Offset = "0x41E3840", VA = "0x41E3840")]
+		[Address(RVA = "0x4508940", Offset = "0x4508940", VA = "0x4508940")]
 		internal InstanceRestriction(Expression parameter, object instance)
 		{
 		}
 
 		[Token(Token = "0x6000BC1")]
-		[Address(RVA = "0x41E41F0", Offset = "0x41E41F0", VA = "0x41E41F0", Slot = "0")]
+		[Address(RVA = "0x45092F0", Offset = "0x45092F0", VA = "0x45092F0", Slot = "0")]
 		public override bool Equals(object obj)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000BC2")]
-		[Address(RVA = "0x41E4280", Offset = "0x41E4280", VA = "0x41E4280", Slot = "2")]
+		[Address(RVA = "0x4509380", Offset = "0x4509380", VA = "0x4509380", Slot = "2")]
 		public override int GetHashCode()
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000BC3")]
-		[Address(RVA = "0x41E42C0", Offset = "0x41E42C0", VA = "0x41E42C0", Slot = "4")]
+		[Address(RVA = "0x45093C0", Offset = "0x45093C0", VA = "0x45093C0", Slot = "4")]
 		internal override Expression GetExpression()
 		{
 			return null;
@@ -207,7 +214,7 @@ public abstract class BindingRestrictions
 	public static readonly BindingRestrictions Empty;
 
 	[Token(Token = "0x6000BAA")]
-	[Address(RVA = "0x41E3190", Offset = "0x41E3190", VA = "0x41E3190")]
+	[Address(RVA = "0x4508290", Offset = "0x4508290", VA = "0x4508290")]
 	private BindingRestrictions()
 	{
 	}
@@ -216,35 +223,35 @@ public abstract class BindingRestrictions
 	internal abstract Expression GetExpression();
 
 	[Token(Token = "0x6000BAC")]
-	[Address(RVA = "0x41E31A0", Offset = "0x41E31A0", VA = "0x41E31A0")]
+	[Address(RVA = "0x45082A0", Offset = "0x45082A0", VA = "0x45082A0")]
 	public BindingRestrictions Merge(BindingRestrictions restrictions)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BAD")]
-	[Address(RVA = "0x41E3360", Offset = "0x41E3360", VA = "0x41E3360")]
+	[Address(RVA = "0x4508460", Offset = "0x4508460", VA = "0x4508460")]
 	public static BindingRestrictions GetTypeRestriction(Expression expression, Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BAE")]
-	[Address(RVA = "0x41E34D0", Offset = "0x41E34D0", VA = "0x41E34D0")]
+	[Address(RVA = "0x45085D0", Offset = "0x45085D0", VA = "0x45085D0")]
 	internal static BindingRestrictions GetTypeRestriction(DynamicMetaObject obj)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BAF")]
-	[Address(RVA = "0x41E3730", Offset = "0x41E3730", VA = "0x41E3730")]
+	[Address(RVA = "0x4508830", Offset = "0x4508830", VA = "0x4508830")]
 	public static BindingRestrictions GetInstanceRestriction(Expression expression, object instance)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BB0")]
-	[Address(RVA = "0x41E38C0", Offset = "0x41E38C0", VA = "0x41E38C0")]
+	[Address(RVA = "0x45089C0", Offset = "0x45089C0", VA = "0x45089C0")]
 	public Expression ToExpression()
 	{
 		return null;

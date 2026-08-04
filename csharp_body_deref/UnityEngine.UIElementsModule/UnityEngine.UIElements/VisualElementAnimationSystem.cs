@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.VisualElementAnimationSystem
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 using Unity.Profiling;
@@ -48,7 +55,7 @@ internal class VisualElementAnimationSystem : BaseVisualTreeUpdater
 	public override ProfilerMarker profilerMarker
 	{
 		[Token(Token = "0x6001BD0")]
-		[Address(RVA = "0x4C51560", Offset = "0x4C51560", VA = "0x4C51560", Slot = "10")]
+		[Address(RVA = "0x4F78E90", Offset = "0x4F78E90", VA = "0x4F78E90", Slot = "10")]
 		get
 		{
 			return default(ProfilerMarker);
@@ -59,7 +66,7 @@ internal class VisualElementAnimationSystem : BaseVisualTreeUpdater
 	private static ProfilerMarker stylePropertyAnimationProfilerMarker
 	{
 		[Token(Token = "0x6001BD1")]
-		[Address(RVA = "0x4C515D0", Offset = "0x4C515D0", VA = "0x4C515D0")]
+		[Address(RVA = "0x4F78F00", Offset = "0x4F78F00", VA = "0x4F78F00")]
 		get
 		{
 			return default(ProfilerMarker);
@@ -67,43 +74,43 @@ internal class VisualElementAnimationSystem : BaseVisualTreeUpdater
 	}
 
 	[Token(Token = "0x6001BD2")]
-	[Address(RVA = "0x4C51640", Offset = "0x4C51640", VA = "0x4C51640")]
+	[Address(RVA = "0x4F78F70", Offset = "0x4F78F70", VA = "0x4F78F70")]
 	public void UnregisterAnimation(IValueAnimationUpdate anim)
 	{
 	}
 
 	[Token(Token = "0x6001BD3")]
-	[Address(RVA = "0x4C516A0", Offset = "0x4C516A0", VA = "0x4C516A0")]
+	[Address(RVA = "0x4F78FD0", Offset = "0x4F78FD0", VA = "0x4F78FD0")]
 	public void UnregisterAnimations(List<IValueAnimationUpdate> anims)
 	{
 	}
 
 	[Token(Token = "0x6001BD4")]
-	[Address(RVA = "0x4C51820", Offset = "0x4C51820", VA = "0x4C51820")]
+	[Address(RVA = "0x4F79150", Offset = "0x4F79150", VA = "0x4F79150")]
 	public void RegisterAnimation(IValueAnimationUpdate anim)
 	{
 	}
 
 	[Token(Token = "0x6001BD5")]
-	[Address(RVA = "0x4C51880", Offset = "0x4C51880", VA = "0x4C51880")]
+	[Address(RVA = "0x4F791B0", Offset = "0x4F791B0", VA = "0x4F791B0")]
 	public void RegisterAnimations(List<IValueAnimationUpdate> anims)
 	{
 	}
 
 	[Token(Token = "0x6001BD6")]
-	[Address(RVA = "0x4C51A00", Offset = "0x4C51A00", VA = "0x4C51A00", Slot = "12")]
+	[Address(RVA = "0x4F79330", Offset = "0x4F79330", VA = "0x4F79330", Slot = "12")]
 	public override void Update()
 	{
 	}
 
 	[Token(Token = "0x6001BD7")]
-	[Address(RVA = "0x4C51E60", Offset = "0x4C51E60", VA = "0x4C51E60", Slot = "13")]
+	[Address(RVA = "0x4F79790", Offset = "0x4F79790", VA = "0x4F79790", Slot = "13")]
 	public override void OnVersionChanged(VisualElement ve, VersionChangeType versionChangeType)
 	{
 	}
 
 	[Token(Token = "0x6001BD8")]
-	[Address(RVA = "0x4C51E70", Offset = "0x4C51E70", VA = "0x4C51E70")]
+	[Address(RVA = "0x4F797A0", Offset = "0x4F797A0", VA = "0x4F797A0")]
 	public VisualElementAnimationSystem()
 	{
 	}

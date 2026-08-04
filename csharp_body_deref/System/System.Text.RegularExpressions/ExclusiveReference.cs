@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.RegularExpressions.ExclusiveReference
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Text.RegularExpressions;
@@ -18,20 +25,20 @@ internal sealed class ExclusiveReference
 	private int _locked;
 
 	[Token(Token = "0x6000321")]
-	[Address(RVA = "0x45DFB10", Offset = "0x45DFB10", VA = "0x45DFB10")]
+	[Address(RVA = "0x4904C10", Offset = "0x4904C10", VA = "0x4904C10")]
 	public RegexRunner Get()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000322")]
-	[Address(RVA = "0x45DFB70", Offset = "0x45DFB70", VA = "0x45DFB70")]
+	[Address(RVA = "0x4904C70", Offset = "0x4904C70", VA = "0x4904C70")]
 	public void Release(RegexRunner obj)
 	{
 	}
 
 	[Token(Token = "0x6000323")]
-	[Address(RVA = "0x45DFC50", Offset = "0x45DFC50", VA = "0x45DFC50")]
+	[Address(RVA = "0x4904D50", Offset = "0x4904D50", VA = "0x4904D50")]
 	public ExclusiveReference()
 	{
 	}

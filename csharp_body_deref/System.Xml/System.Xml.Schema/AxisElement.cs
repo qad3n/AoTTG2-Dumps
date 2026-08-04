@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.AxisElement
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -25,7 +32,7 @@ internal class AxisElement
 	internal DoubleLinkAxis CurNode
 	{
 		[Token(Token = "0x6000F23")]
-		[Address(RVA = "0x45004A0", Offset = "0x45004A0", VA = "0x45004A0")]
+		[Address(RVA = "0x483DC00", Offset = "0x483DC00", VA = "0x483DC00")]
 		get
 		{
 			return null;
@@ -33,25 +40,25 @@ internal class AxisElement
 	}
 
 	[Token(Token = "0x6000F24")]
-	[Address(RVA = "0x45004B0", Offset = "0x45004B0", VA = "0x45004B0")]
+	[Address(RVA = "0x483DC10", Offset = "0x483DC10", VA = "0x483DC10")]
 	internal AxisElement(DoubleLinkAxis node, int depth)
 	{
 	}
 
 	[Token(Token = "0x6000F25")]
-	[Address(RVA = "0x45004F0", Offset = "0x45004F0", VA = "0x45004F0")]
+	[Address(RVA = "0x483DC50", Offset = "0x483DC50", VA = "0x483DC50")]
 	internal void SetDepth(int depth)
 	{
 	}
 
 	[Token(Token = "0x6000F26")]
-	[Address(RVA = "0x4500500", Offset = "0x4500500", VA = "0x4500500")]
+	[Address(RVA = "0x483DC60", Offset = "0x483DC60", VA = "0x483DC60")]
 	internal void MoveToParent(int depth, ForwardAxis parent)
 	{
 	}
 
 	[Token(Token = "0x6000F27")]
-	[Address(RVA = "0x4500600", Offset = "0x4500600", VA = "0x4500600")]
+	[Address(RVA = "0x483DD60", Offset = "0x483DD60", VA = "0x483DD60")]
 	internal bool MoveToChild(string name, string URN, int depth, ForwardAxis parent)
 	{
 		return default(bool);

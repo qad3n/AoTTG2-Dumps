@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.LabelInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -30,7 +37,7 @@ internal sealed class LabelInfo
 	private bool HasDefinitions
 	{
 		[Token(Token = "0x600080A")]
-		[Address(RVA = "0x41B6330", Offset = "0x41B6330", VA = "0x41B6330")]
+		[Address(RVA = "0x44DB430", Offset = "0x44DB430", VA = "0x44DB430")]
 		get
 		{
 			return default(bool);
@@ -41,7 +48,7 @@ internal sealed class LabelInfo
 	private bool HasMultipleDefinitions
 	{
 		[Token(Token = "0x600080D")]
-		[Address(RVA = "0x41B6B80", Offset = "0x41B6B80", VA = "0x41B6B80")]
+		[Address(RVA = "0x44DBC80", Offset = "0x44DBC80", VA = "0x44DBC80")]
 		get
 		{
 			return default(bool);
@@ -49,64 +56,64 @@ internal sealed class LabelInfo
 	}
 
 	[Token(Token = "0x6000802")]
-	[Address(RVA = "0x41B6170", Offset = "0x41B6170", VA = "0x41B6170")]
+	[Address(RVA = "0x44DB270", Offset = "0x44DB270", VA = "0x44DB270")]
 	internal LabelInfo(LabelTarget node)
 	{
 	}
 
 	[Token(Token = "0x6000803")]
-	[Address(RVA = "0x41B6200", Offset = "0x41B6200", VA = "0x41B6200")]
+	[Address(RVA = "0x44DB300", Offset = "0x44DB300", VA = "0x44DB300")]
 	internal BranchLabel GetLabel(LightCompiler compiler)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000804")]
-	[Address(RVA = "0x41B6280", Offset = "0x41B6280", VA = "0x41B6280")]
+	[Address(RVA = "0x44DB380", Offset = "0x44DB380", VA = "0x44DB380")]
 	internal void Reference(LabelScopeInfo block)
 	{
 	}
 
 	[Token(Token = "0x6000805")]
-	[Address(RVA = "0x41B6680", Offset = "0x41B6680", VA = "0x41B6680")]
+	[Address(RVA = "0x44DB780", Offset = "0x44DB780", VA = "0x44DB780")]
 	internal void Define(LabelScopeInfo block)
 	{
 	}
 
 	[Token(Token = "0x6000806")]
-	[Address(RVA = "0x41B6340", Offset = "0x41B6340", VA = "0x41B6340")]
+	[Address(RVA = "0x44DB440", Offset = "0x44DB440", VA = "0x44DB440")]
 	private void ValidateJump(LabelScopeInfo reference)
 	{
 	}
 
 	[Token(Token = "0x6000807")]
-	[Address(RVA = "0x41B6E90", Offset = "0x41B6E90", VA = "0x41B6E90")]
+	[Address(RVA = "0x44DBF90", Offset = "0x44DBF90", VA = "0x44DBF90")]
 	internal void ValidateFinish()
 	{
 	}
 
 	[Token(Token = "0x6000808")]
-	[Address(RVA = "0x41B6240", Offset = "0x41B6240", VA = "0x41B6240")]
+	[Address(RVA = "0x44DB340", Offset = "0x44DB340", VA = "0x44DB340")]
 	private void EnsureLabel(LightCompiler compiler)
 	{
 	}
 
 	[Token(Token = "0x6000809")]
-	[Address(RVA = "0x41B6BE0", Offset = "0x41B6BE0", VA = "0x41B6BE0")]
+	[Address(RVA = "0x44DBCE0", Offset = "0x44DBCE0", VA = "0x44DBCE0")]
 	private bool DefinedIn(LabelScopeInfo scope)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600080B")]
-	[Address(RVA = "0x41B6C90", Offset = "0x41B6C90", VA = "0x41B6C90")]
+	[Address(RVA = "0x44DBD90", Offset = "0x44DBD90", VA = "0x44DBD90")]
 	private LabelScopeInfo FirstDefinition()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600080C")]
-	[Address(RVA = "0x41B69A0", Offset = "0x41B69A0", VA = "0x41B69A0")]
+	[Address(RVA = "0x44DBAA0", Offset = "0x44DBAA0", VA = "0x44DBAA0")]
 	private void AddDefinition(LabelScopeInfo scope)
 	{
 	}

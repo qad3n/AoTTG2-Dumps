@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Diagnostics.TraceEventCache
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -30,7 +37,7 @@ public class TraceEventCache
 	public string Callstack
 	{
 		[Token(Token = "0x600046E")]
-		[Address(RVA = "0x45FFBE0", Offset = "0x45FFBE0", VA = "0x45FFBE0")]
+		[Address(RVA = "0x4924CE0", Offset = "0x4924CE0", VA = "0x4924CE0")]
 		get
 		{
 			return null;
@@ -41,7 +48,7 @@ public class TraceEventCache
 	public Stack LogicalOperationStack
 	{
 		[Token(Token = "0x600046F")]
-		[Address(RVA = "0x45FFC10", Offset = "0x45FFC10", VA = "0x45FFC10")]
+		[Address(RVA = "0x4924D10", Offset = "0x4924D10", VA = "0x4924D10")]
 		get
 		{
 			return null;
@@ -52,7 +59,7 @@ public class TraceEventCache
 	public DateTime DateTime
 	{
 		[Token(Token = "0x6000470")]
-		[Address(RVA = "0x45FFC30", Offset = "0x45FFC30", VA = "0x45FFC30")]
+		[Address(RVA = "0x4924D30", Offset = "0x4924D30", VA = "0x4924D30")]
 		get
 		{
 			return default(DateTime);
@@ -63,7 +70,7 @@ public class TraceEventCache
 	public int ProcessId
 	{
 		[Token(Token = "0x6000471")]
-		[Address(RVA = "0x45FFCC0", Offset = "0x45FFCC0", VA = "0x45FFCC0")]
+		[Address(RVA = "0x4924DC0", Offset = "0x4924DC0", VA = "0x4924DC0")]
 		get
 		{
 			return default(int);
@@ -74,7 +81,7 @@ public class TraceEventCache
 	public string ThreadId
 	{
 		[Token(Token = "0x6000472")]
-		[Address(RVA = "0x45FFD40", Offset = "0x45FFD40", VA = "0x45FFD40")]
+		[Address(RVA = "0x4924E40", Offset = "0x4924E40", VA = "0x4924E40")]
 		get
 		{
 			return null;
@@ -85,7 +92,7 @@ public class TraceEventCache
 	public long Timestamp
 	{
 		[Token(Token = "0x6000473")]
-		[Address(RVA = "0x45FFDE0", Offset = "0x45FFDE0", VA = "0x45FFDE0")]
+		[Address(RVA = "0x4924EE0", Offset = "0x4924EE0", VA = "0x4924EE0")]
 		get
 		{
 			return default(long);
@@ -93,27 +100,27 @@ public class TraceEventCache
 	}
 
 	[Token(Token = "0x6000474")]
-	[Address(RVA = "0x45FFE60", Offset = "0x45FFE60", VA = "0x45FFE60")]
+	[Address(RVA = "0x4924F60", Offset = "0x4924F60", VA = "0x4924F60")]
 	private static void InitProcessInfo()
 	{
 	}
 
 	[Token(Token = "0x6000475")]
-	[Address(RVA = "0x45FFD00", Offset = "0x45FFD00", VA = "0x45FFD00")]
+	[Address(RVA = "0x4924E00", Offset = "0x4924E00", VA = "0x4924E00")]
 	internal static int GetProcessId()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000476")]
-	[Address(RVA = "0x45FFDC0", Offset = "0x45FFDC0", VA = "0x45FFDC0")]
+	[Address(RVA = "0x4924EC0", Offset = "0x4924EC0", VA = "0x4924EC0")]
 	internal static int GetThreadId()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000477")]
-	[Address(RVA = "0x4600320", Offset = "0x4600320", VA = "0x4600320")]
+	[Address(RVA = "0x4925420", Offset = "0x4925420", VA = "0x4925420")]
 	public TraceEventCache()
 	{
 	}

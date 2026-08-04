@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Reflection;
 using Il2CppDummyDll;
 
@@ -75,115 +82,115 @@ internal sealed class WriteObjectInfo
 	private string binderAssemblyString;
 
 	[Token(Token = "0x60020E2")]
-	[Address(RVA = "0x4EC56D0", Offset = "0x4EC56D0", VA = "0x4EC56D0")]
+	[Address(RVA = "0x3BAB1F0", Offset = "0x3BAB1F0", VA = "0x3BAB1F0")]
 	internal WriteObjectInfo()
 	{
 	}
 
 	[Token(Token = "0x60020E3")]
-	[Address(RVA = "0x4EC56E0", Offset = "0x4EC56E0", VA = "0x4EC56E0")]
+	[Address(RVA = "0x3BAB200", Offset = "0x3BAB200", VA = "0x3BAB200")]
 	internal void ObjectEnd()
 	{
 	}
 
 	[Token(Token = "0x60020E4")]
-	[Address(RVA = "0x4EC5730", Offset = "0x4EC5730", VA = "0x4EC5730")]
+	[Address(RVA = "0x3BAB250", Offset = "0x3BAB250", VA = "0x3BAB250")]
 	private void InternalInit()
 	{
 	}
 
 	[Token(Token = "0x60020E5")]
-	[Address(RVA = "0x4EC57D0", Offset = "0x4EC57D0", VA = "0x4EC57D0")]
+	[Address(RVA = "0x3BAB2F0", Offset = "0x3BAB2F0", VA = "0x3BAB2F0")]
 	internal static System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo Serialize(object obj, ISurrogateSelector surrogateSelector, StreamingContext context, System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, System.Runtime.Serialization.Formatters.Binary.ObjectWriter objectWriter, SerializationBinder binder)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60020E6")]
-	[Address(RVA = "0x4EC59A0", Offset = "0x4EC59A0", VA = "0x4EC59A0")]
+	[Address(RVA = "0x3BAB4C0", Offset = "0x3BAB4C0", VA = "0x3BAB4C0")]
 	internal void InitSerialize(object obj, ISurrogateSelector surrogateSelector, StreamingContext context, System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, System.Runtime.Serialization.Formatters.Binary.ObjectWriter objectWriter, SerializationBinder binder)
 	{
 	}
 
 	[Token(Token = "0x60020E7")]
-	[Address(RVA = "0x4EC69E0", Offset = "0x4EC69E0", VA = "0x4EC69E0")]
+	[Address(RVA = "0x3BAC500", Offset = "0x3BAC500", VA = "0x3BAC500")]
 	internal static System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo Serialize(Type objectType, ISurrogateSelector surrogateSelector, StreamingContext context, System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, SerializationBinder binder)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60020E8")]
-	[Address(RVA = "0x4EC6A50", Offset = "0x4EC6A50", VA = "0x4EC6A50")]
+	[Address(RVA = "0x3BAC570", Offset = "0x3BAC570", VA = "0x3BAC570")]
 	internal void InitSerialize(Type objectType, ISurrogateSelector surrogateSelector, StreamingContext context, System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, SerializationBinder binder)
 	{
 	}
 
 	[Token(Token = "0x60020E9")]
-	[Address(RVA = "0x4EC6080", Offset = "0x4EC6080", VA = "0x4EC6080")]
+	[Address(RVA = "0x3BABBA0", Offset = "0x3BABBA0", VA = "0x3BABBA0")]
 	private void InitSiWrite()
 	{
 	}
 
 	[Token(Token = "0x60020EA")]
-	[Address(RVA = "0x4EC64D0", Offset = "0x4EC64D0", VA = "0x4EC64D0")]
+	[Address(RVA = "0x3BABFF0", Offset = "0x3BABFF0", VA = "0x3BABFF0")]
 	private static void CheckTypeForwardedFrom(System.Runtime.Serialization.Formatters.Binary.SerObjectInfoCache cache, Type objectType, string binderAssemblyString)
 	{
 	}
 
 	[Token(Token = "0x60020EB")]
-	[Address(RVA = "0x4EC5F30", Offset = "0x4EC5F30", VA = "0x4EC5F30")]
+	[Address(RVA = "0x3BABA50", Offset = "0x3BABA50", VA = "0x3BABA50")]
 	private void InitNoMembers()
 	{
 	}
 
 	[Token(Token = "0x60020EC")]
-	[Address(RVA = "0x4EC6660", Offset = "0x4EC6660", VA = "0x4EC6660")]
+	[Address(RVA = "0x3BAC180", Offset = "0x3BAC180", VA = "0x3BAC180")]
 	private void InitMemberInfo()
 	{
 	}
 
 	[Token(Token = "0x60020ED")]
-	[Address(RVA = "0x4EBB7C0", Offset = "0x4EBB7C0", VA = "0x4EBB7C0")]
+	[Address(RVA = "0x3BA12E0", Offset = "0x3BA12E0", VA = "0x3BA12E0")]
 	internal string GetTypeFullName()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60020EE")]
-	[Address(RVA = "0x4EBB790", Offset = "0x4EBB790", VA = "0x4EBB790")]
+	[Address(RVA = "0x3BA12B0", Offset = "0x3BA12B0", VA = "0x3BA12B0")]
 	internal string GetAssemblyString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60020EF")]
-	[Address(RVA = "0x4EC6050", Offset = "0x4EC6050", VA = "0x4EC6050")]
+	[Address(RVA = "0x3BABB70", Offset = "0x3BABB70", VA = "0x3BABB70")]
 	private void InvokeSerializationBinder(SerializationBinder binder)
 	{
 	}
 
 	[Token(Token = "0x60020F0")]
-	[Address(RVA = "0x4EC6E70", Offset = "0x4EC6E70", VA = "0x4EC6E70")]
+	[Address(RVA = "0x3BAC990", Offset = "0x3BAC990", VA = "0x3BAC990")]
 	internal Type GetMemberType(MemberInfo objMember)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60020F1")]
-	[Address(RVA = "0x4EC6FD0", Offset = "0x4EC6FD0", VA = "0x4EC6FD0")]
+	[Address(RVA = "0x3BACAF0", Offset = "0x3BACAF0", VA = "0x3BACAF0")]
 	internal void GetMemberInfo(out string[] outMemberNames, out Type[] outMemberTypes, out object[] outMemberData)
 	{
 	}
 
 	[Token(Token = "0x60020F2")]
-	[Address(RVA = "0x4EC5840", Offset = "0x4EC5840", VA = "0x4EC5840")]
+	[Address(RVA = "0x3BAB360", Offset = "0x3BAB360", VA = "0x3BAB360")]
 	private static System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo GetObjectInfo(System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60020F3")]
-	[Address(RVA = "0x4EC5710", Offset = "0x4EC5710", VA = "0x4EC5710")]
+	[Address(RVA = "0x3BAB230", Offset = "0x3BAB230", VA = "0x3BAB230")]
 	private static void PutObjectInfo(System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit, System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo objectInfo)
 	{
 	}

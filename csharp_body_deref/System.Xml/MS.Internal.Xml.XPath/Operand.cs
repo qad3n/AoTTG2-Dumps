@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MS.Internal.Xml.XPath.Operand
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.XPath;
 using Il2CppDummyDll;
 
@@ -18,7 +25,7 @@ internal class Operand : AstNode
 	public override AstType Type
 	{
 		[Token(Token = "0x6001B7D")]
-		[Address(RVA = "0x4446390", Offset = "0x4446390", VA = "0x4446390", Slot = "4")]
+		[Address(RVA = "0x4783AF0", Offset = "0x4783AF0", VA = "0x4783AF0", Slot = "4")]
 		get
 		{
 			return default(AstType);
@@ -29,7 +36,7 @@ internal class Operand : AstNode
 	public override XPathResultType ReturnType
 	{
 		[Token(Token = "0x6001B7E")]
-		[Address(RVA = "0x44463A0", Offset = "0x44463A0", VA = "0x44463A0", Slot = "5")]
+		[Address(RVA = "0x4783B00", Offset = "0x4783B00", VA = "0x4783B00", Slot = "5")]
 		get
 		{
 			return default(XPathResultType);
@@ -40,7 +47,7 @@ internal class Operand : AstNode
 	public object OperandValue
 	{
 		[Token(Token = "0x6001B7F")]
-		[Address(RVA = "0x44463B0", Offset = "0x44463B0", VA = "0x44463B0")]
+		[Address(RVA = "0x4783B10", Offset = "0x4783B10", VA = "0x4783B10")]
 		get
 		{
 			return null;
@@ -48,13 +55,13 @@ internal class Operand : AstNode
 	}
 
 	[Token(Token = "0x6001B7B")]
-	[Address(RVA = "0x44462F0", Offset = "0x44462F0", VA = "0x44462F0")]
+	[Address(RVA = "0x4783A50", Offset = "0x4783A50", VA = "0x4783A50")]
 	public Operand(string val)
 	{
 	}
 
 	[Token(Token = "0x6001B7C")]
-	[Address(RVA = "0x4446330", Offset = "0x4446330", VA = "0x4446330")]
+	[Address(RVA = "0x4783A90", Offset = "0x4783A90", VA = "0x4783A90")]
 	public Operand(double val)
 	{
 	}

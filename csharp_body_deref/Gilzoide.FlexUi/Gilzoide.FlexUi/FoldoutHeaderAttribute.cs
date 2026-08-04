@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Gilzoide.FlexUi.FoldoutHeaderAttribute
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Gilzoide/FlexUi/FoldoutHeaderAttribute.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -14,7 +21,7 @@ public class FoldoutHeaderAttribute : Attribute
 	public string Title
 	{
 		[Token(Token = "0x600006D")]
-		[Address(RVA = "0x39BCD40", Offset = "0x39BCD40", VA = "0x39BCD40")]
+		[Address(RVA = "0x3A25F90", Offset = "0x3A25F90", VA = "0x3A25F90")]
 		[CompilerGenerated]
 		get
 		{
@@ -23,7 +30,7 @@ public class FoldoutHeaderAttribute : Attribute
 	}
 
 	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x39BCD50", Offset = "0x39BCD50", VA = "0x39BCD50")]
+	[Address(RVA = "0x3A25FA0", Offset = "0x3A25FA0", VA = "0x3A25FA0")]
 	public FoldoutHeaderAttribute(string title)
 	{
 	}

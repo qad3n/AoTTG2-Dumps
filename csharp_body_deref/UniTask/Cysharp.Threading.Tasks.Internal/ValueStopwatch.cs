@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.Internal.ValueStopwatch
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -18,7 +25,7 @@ internal readonly struct ValueStopwatch
 	public TimeSpan Elapsed
 	{
 		[Token(Token = "0x6000D13")]
-		[Address(RVA = "0x46F9DF0", Offset = "0x46F9DF0", VA = "0x46F9DF0")]
+		[Address(RVA = "0x4A1EEF0", Offset = "0x4A1EEF0", VA = "0x4A1EEF0")]
 		get
 		{
 			return default(TimeSpan);
@@ -29,7 +36,7 @@ internal readonly struct ValueStopwatch
 	public bool IsInvalid
 	{
 		[Token(Token = "0x6000D14")]
-		[Address(RVA = "0x46F9F50", Offset = "0x46F9F50", VA = "0x46F9F50")]
+		[Address(RVA = "0x4A1F050", Offset = "0x4A1F050", VA = "0x4A1F050")]
 		get
 		{
 			return default(bool);
@@ -40,7 +47,7 @@ internal readonly struct ValueStopwatch
 	public long ElapsedTicks
 	{
 		[Token(Token = "0x6000D15")]
-		[Address(RVA = "0x46F9E70", Offset = "0x46F9E70", VA = "0x46F9E70")]
+		[Address(RVA = "0x4A1EF70", Offset = "0x4A1EF70", VA = "0x4A1EF70")]
 		get
 		{
 			return default(long);
@@ -48,14 +55,14 @@ internal readonly struct ValueStopwatch
 	}
 
 	[Token(Token = "0x6000D11")]
-	[Address(RVA = "0x46F9D80", Offset = "0x46F9D80", VA = "0x46F9D80")]
+	[Address(RVA = "0x4A1EE80", Offset = "0x4A1EE80", VA = "0x4A1EE80")]
 	public static ValueStopwatch StartNew()
 	{
 		return default(ValueStopwatch);
 	}
 
 	[Token(Token = "0x6000D12")]
-	[Address(RVA = "0x46F9DE0", Offset = "0x46F9DE0", VA = "0x46F9DE0")]
+	[Address(RVA = "0x4A1EEE0", Offset = "0x4A1EEE0", VA = "0x4A1EEE0")]
 	private ValueStopwatch(long startTimestamp)
 	{
 	}

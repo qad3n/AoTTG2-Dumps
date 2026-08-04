@@ -1,87 +1,94 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: CustomLogic.Editor.Models.CLMethod
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/CustomLogic/Editor/Models/CLMethod.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 using Newtonsoft.Json;
 
 namespace CustomLogic.Editor.Models;
 
-[Token(Token = "0x2000476")]
+[Token(Token = "0x20004BB")]
 internal class CLMethod : BaseModel
 {
-	[Token(Token = "0x17000913")]
+	[Token(Token = "0x1700097D")]
 	public CLParameter[] Parameters
 	{
-		[Token(Token = "0x6002FB3")]
-		[Address(RVA = "0x3E7A6C0", Offset = "0x3E7A6C0", VA = "0x3E7A6C0")]
+		[Token(Token = "0x60031C0")]
+		[Address(RVA = "0x4186BA0", Offset = "0x4186BA0", VA = "0x4186BA0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002FB4")]
-		[Address(RVA = "0x3E7A6D0", Offset = "0x3E7A6D0", VA = "0x3E7A6D0")]
+		[Token(Token = "0x60031C1")]
+		[Address(RVA = "0x4186BB0", Offset = "0x4186BB0", VA = "0x4186BB0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000914")]
+	[Token(Token = "0x1700097E")]
 	public TypeReference ReturnType
 	{
-		[Token(Token = "0x6002FB5")]
-		[Address(RVA = "0x3E7A6E0", Offset = "0x3E7A6E0", VA = "0x3E7A6E0")]
+		[Token(Token = "0x60031C2")]
+		[Address(RVA = "0x4186BC0", Offset = "0x4186BC0", VA = "0x4186BC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002FB6")]
-		[Address(RVA = "0x3E7A6F0", Offset = "0x3E7A6F0", VA = "0x3E7A6F0")]
+		[Token(Token = "0x60031C3")]
+		[Address(RVA = "0x4186BD0", Offset = "0x4186BD0", VA = "0x4186BD0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000915")]
+	[Token(Token = "0x1700097F")]
 	[JsonProperty("label")]
 	public string Name
 	{
-		[Token(Token = "0x6002FB7")]
-		[Address(RVA = "0x3E7A700", Offset = "0x3E7A700", VA = "0x3E7A700")]
+		[Token(Token = "0x60031C4")]
+		[Address(RVA = "0x4186BE0", Offset = "0x4186BE0", VA = "0x4186BE0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002FB8")]
-		[Address(RVA = "0x3E7A710", Offset = "0x3E7A710", VA = "0x3E7A710")]
+		[Token(Token = "0x60031C5")]
+		[Address(RVA = "0x4186BF0", Offset = "0x4186BF0", VA = "0x4186BF0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000916")]
+	[Token(Token = "0x17000980")]
 	public XmlInfo Info
 	{
-		[Token(Token = "0x6002FB9")]
-		[Address(RVA = "0x3E7A720", Offset = "0x3E7A720", VA = "0x3E7A720")]
+		[Token(Token = "0x60031C6")]
+		[Address(RVA = "0x4186C00", Offset = "0x4186C00", VA = "0x4186C00")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002FBA")]
-		[Address(RVA = "0x3E7A730", Offset = "0x3E7A730", VA = "0x3E7A730")]
+		[Token(Token = "0x60031C7")]
+		[Address(RVA = "0x4186C10", Offset = "0x4186C10", VA = "0x4186C10")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6002FBB")]
-	[Address(RVA = "0x3E7A740", Offset = "0x3E7A740", VA = "0x3E7A740")]
+	[Token(Token = "0x60031C8")]
+	[Address(RVA = "0x4186C20", Offset = "0x4186C20", VA = "0x4186C20")]
 	public CLMethod()
 	{
 	}

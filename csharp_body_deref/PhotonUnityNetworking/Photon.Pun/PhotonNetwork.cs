@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Pun.PhotonNetwork
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/Code/PhotonNetwork.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -26,14 +33,14 @@ public static class PhotonNetwork
 		public bool Reliable;
 
 		[Token(Token = "0x60000E7")]
-		[Address(RVA = "0x3C14F50", Offset = "0x3C14F50", VA = "0x3C14F50", Slot = "2")]
+		[Address(RVA = "0x3EF8450", Offset = "0x3EF8450", VA = "0x3EF8450", Slot = "2")]
 		public override int GetHashCode()
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60000E8")]
-		[Address(RVA = "0x3C14F60", Offset = "0x3C14F60", VA = "0x3C14F60", Slot = "4")]
+		[Address(RVA = "0x3EF8460", Offset = "0x3EF8460", VA = "0x3EF8460", Slot = "4")]
 		public bool Equals(RaiseEventBatch other)
 		{
 			return default(bool);
@@ -60,47 +67,47 @@ public static class PhotonNetwork
 		private int offset;
 
 		[Token(Token = "0x60000E9")]
-		[Address(RVA = "0x3C10950", Offset = "0x3C10950", VA = "0x3C10950")]
+		[Address(RVA = "0x3EF3E50", Offset = "0x3EF3E50", VA = "0x3EF3E50")]
 		public SerializeViewBatch(RaiseEventBatch batch, int offset)
 		{
 		}
 
 		[Token(Token = "0x60000EA")]
-		[Address(RVA = "0x3C14F80", Offset = "0x3C14F80", VA = "0x3C14F80", Slot = "2")]
+		[Address(RVA = "0x3EF8480", Offset = "0x3EF8480", VA = "0x3EF8480", Slot = "2")]
 		public override int GetHashCode()
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60000EB")]
-		[Address(RVA = "0x3C14F90", Offset = "0x3C14F90", VA = "0x3C14F90", Slot = "4")]
+		[Address(RVA = "0x3EF8490", Offset = "0x3EF8490", VA = "0x3EF8490", Slot = "4")]
 		public bool Equals(SerializeViewBatch other)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60000EC")]
-		[Address(RVA = "0x3C14FD0", Offset = "0x3C14FD0", VA = "0x3C14FD0", Slot = "5")]
+		[Address(RVA = "0x3EF84D0", Offset = "0x3EF84D0", VA = "0x3EF84D0", Slot = "5")]
 		public bool Equals(RaiseEventBatch other)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60000ED")]
-		[Address(RVA = "0x3C15000", Offset = "0x3C15000", VA = "0x3C15000", Slot = "0")]
+		[Address(RVA = "0x3EF8500", Offset = "0x3EF8500", VA = "0x3EF8500", Slot = "0")]
 		public override bool Equals(object obj)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60000EE")]
-		[Address(RVA = "0x3C10DD0", Offset = "0x3C10DD0", VA = "0x3C10DD0")]
+		[Address(RVA = "0x3EF42D0", Offset = "0x3EF42D0", VA = "0x3EF42D0")]
 		public void Clear()
 		{
 		}
 
 		[Token(Token = "0x60000EF")]
-		[Address(RVA = "0x3C10AA0", Offset = "0x3C10AA0", VA = "0x3C10AA0")]
+		[Address(RVA = "0x3EF3FA0", Offset = "0x3EF3FA0", VA = "0x3EF3FA0")]
 		public void Add(List<object> viewData)
 		{
 		}
@@ -405,13 +412,13 @@ public static class PhotonNetwork
 	public static ServerSettings PhotonServerSettings
 	{
 		[Token(Token = "0x600002B")]
-		[Address(RVA = "0x3BF6B90", Offset = "0x3BF6B90", VA = "0x3BF6B90")]
+		[Address(RVA = "0x3EDA090", Offset = "0x3EDA090", VA = "0x3EDA090")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600002C")]
-		[Address(RVA = "0x3BFBBF0", Offset = "0x3BFBBF0", VA = "0x3BFBBF0")]
+		[Address(RVA = "0x3EDF0F0", Offset = "0x3EDF0F0", VA = "0x3EDF0F0")]
 		private set
 		{
 		}
@@ -421,7 +428,7 @@ public static class PhotonNetwork
 	public static string ServerAddress
 	{
 		[Token(Token = "0x600002D")]
-		[Address(RVA = "0x3BFBC50", Offset = "0x3BFBC50", VA = "0x3BFBC50")]
+		[Address(RVA = "0x3EDF150", Offset = "0x3EDF150", VA = "0x3EDF150")]
 		get
 		{
 			return null;
@@ -432,7 +439,7 @@ public static class PhotonNetwork
 	public static string CloudRegion
 	{
 		[Token(Token = "0x600002E")]
-		[Address(RVA = "0x3BFBD10", Offset = "0x3BFBD10", VA = "0x3BFBD10")]
+		[Address(RVA = "0x3EDF210", Offset = "0x3EDF210", VA = "0x3EDF210")]
 		get
 		{
 			return null;
@@ -443,7 +450,7 @@ public static class PhotonNetwork
 	public static string CurrentCluster
 	{
 		[Token(Token = "0x600002F")]
-		[Address(RVA = "0x3BFC050", Offset = "0x3BFC050", VA = "0x3BFC050")]
+		[Address(RVA = "0x3EDF550", Offset = "0x3EDF550", VA = "0x3EDF550")]
 		get
 		{
 			return null;
@@ -454,13 +461,13 @@ public static class PhotonNetwork
 	public static string BestRegionSummaryInPreferences
 	{
 		[Token(Token = "0x6000030")]
-		[Address(RVA = "0x3BFC0F0", Offset = "0x3BFC0F0", VA = "0x3BFC0F0")]
+		[Address(RVA = "0x3EDF5F0", Offset = "0x3EDF5F0", VA = "0x3EDF5F0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x3BFC130", Offset = "0x3BFC130", VA = "0x3BFC130")]
+		[Address(RVA = "0x3EDF630", Offset = "0x3EDF630", VA = "0x3EDF630")]
 		internal set
 		{
 		}
@@ -470,7 +477,7 @@ public static class PhotonNetwork
 	public static bool IsConnected
 	{
 		[Token(Token = "0x6000032")]
-		[Address(RVA = "0x3BFBE00", Offset = "0x3BFBE00", VA = "0x3BFBE00")]
+		[Address(RVA = "0x3EDF300", Offset = "0x3EDF300", VA = "0x3EDF300")]
 		get
 		{
 			return default(bool);
@@ -481,7 +488,7 @@ public static class PhotonNetwork
 	public static bool IsConnectedAndReady
 	{
 		[Token(Token = "0x6000033")]
-		[Address(RVA = "0x3BFC1B0", Offset = "0x3BFC1B0", VA = "0x3BFC1B0")]
+		[Address(RVA = "0x3EDF6B0", Offset = "0x3EDF6B0", VA = "0x3EDF6B0")]
 		get
 		{
 			return default(bool);
@@ -492,7 +499,7 @@ public static class PhotonNetwork
 	public static ClientState NetworkClientState
 	{
 		[Token(Token = "0x6000034")]
-		[Address(RVA = "0x3BFC2C0", Offset = "0x3BFC2C0", VA = "0x3BFC2C0")]
+		[Address(RVA = "0x3EDF7C0", Offset = "0x3EDF7C0", VA = "0x3EDF7C0")]
 		get
 		{
 			return default(ClientState);
@@ -503,7 +510,7 @@ public static class PhotonNetwork
 	public static ServerConnection Server
 	{
 		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x3BFBF10", Offset = "0x3BFBF10", VA = "0x3BFBF10")]
+		[Address(RVA = "0x3EDF410", Offset = "0x3EDF410", VA = "0x3EDF410")]
 		get
 		{
 			return default(ServerConnection);
@@ -514,13 +521,13 @@ public static class PhotonNetwork
 	public static AuthenticationValues AuthValues
 	{
 		[Token(Token = "0x6000036")]
-		[Address(RVA = "0x3BFC400", Offset = "0x3BFC400", VA = "0x3BFC400")]
+		[Address(RVA = "0x3EDF900", Offset = "0x3EDF900", VA = "0x3EDF900")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000037")]
-		[Address(RVA = "0x3BFC4A0", Offset = "0x3BFC4A0", VA = "0x3BFC4A0")]
+		[Address(RVA = "0x3EDF9A0", Offset = "0x3EDF9A0", VA = "0x3EDF9A0")]
 		set
 		{
 		}
@@ -530,7 +537,7 @@ public static class PhotonNetwork
 	public static TypedLobby CurrentLobby
 	{
 		[Token(Token = "0x6000038")]
-		[Address(RVA = "0x3BFC560", Offset = "0x3BFC560", VA = "0x3BFC560")]
+		[Address(RVA = "0x3EDFA60", Offset = "0x3EDFA60", VA = "0x3EDFA60")]
 		get
 		{
 			return null;
@@ -541,7 +548,7 @@ public static class PhotonNetwork
 	public static Room CurrentRoom
 	{
 		[Token(Token = "0x6000039")]
-		[Address(RVA = "0x3BF6310", Offset = "0x3BF6310", VA = "0x3BF6310")]
+		[Address(RVA = "0x3ED9810", Offset = "0x3ED9810", VA = "0x3ED9810")]
 		get
 		{
 			return null;
@@ -552,7 +559,7 @@ public static class PhotonNetwork
 	public static Player LocalPlayer
 	{
 		[Token(Token = "0x600003A")]
-		[Address(RVA = "0x3BFC5E0", Offset = "0x3BFC5E0", VA = "0x3BFC5E0")]
+		[Address(RVA = "0x3EDFAE0", Offset = "0x3EDFAE0", VA = "0x3EDFAE0")]
 		get
 		{
 			return null;
@@ -563,13 +570,13 @@ public static class PhotonNetwork
 	public static string NickName
 	{
 		[Token(Token = "0x600003B")]
-		[Address(RVA = "0x3BFC680", Offset = "0x3BFC680", VA = "0x3BFC680")]
+		[Address(RVA = "0x3EDFB80", Offset = "0x3EDFB80", VA = "0x3EDFB80")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600003C")]
-		[Address(RVA = "0x3BFC700", Offset = "0x3BFC700", VA = "0x3BFC700")]
+		[Address(RVA = "0x3EDFC00", Offset = "0x3EDFC00", VA = "0x3EDFC00")]
 		set
 		{
 		}
@@ -579,7 +586,7 @@ public static class PhotonNetwork
 	public static Player[] PlayerList
 	{
 		[Token(Token = "0x600003D")]
-		[Address(RVA = "0x3BFC790", Offset = "0x3BFC790", VA = "0x3BFC790")]
+		[Address(RVA = "0x3EDFC90", Offset = "0x3EDFC90", VA = "0x3EDFC90")]
 		get
 		{
 			return null;
@@ -590,7 +597,7 @@ public static class PhotonNetwork
 	public static Player[] PlayerListOthers
 	{
 		[Token(Token = "0x600003E")]
-		[Address(RVA = "0x3BFC980", Offset = "0x3BFC980", VA = "0x3BFC980")]
+		[Address(RVA = "0x3EDFE80", Offset = "0x3EDFE80", VA = "0x3EDFE80")]
 		get
 		{
 			return null;
@@ -601,13 +608,13 @@ public static class PhotonNetwork
 	public static bool OfflineMode
 	{
 		[Token(Token = "0x600003F")]
-		[Address(RVA = "0x3BFCC40", Offset = "0x3BFCC40", VA = "0x3BFCC40")]
+		[Address(RVA = "0x3EE0140", Offset = "0x3EE0140", VA = "0x3EE0140")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000040")]
-		[Address(RVA = "0x3BFCCB0", Offset = "0x3BFCCB0", VA = "0x3BFCCB0")]
+		[Address(RVA = "0x3EE01B0", Offset = "0x3EE01B0", VA = "0x3EE01B0")]
 		set
 		{
 		}
@@ -617,13 +624,13 @@ public static class PhotonNetwork
 	public static bool AutomaticallySyncScene
 	{
 		[Token(Token = "0x6000041")]
-		[Address(RVA = "0x3BFD1E0", Offset = "0x3BFD1E0", VA = "0x3BFD1E0")]
+		[Address(RVA = "0x3EE06E0", Offset = "0x3EE06E0", VA = "0x3EE06E0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000042")]
-		[Address(RVA = "0x3BFD250", Offset = "0x3BFD250", VA = "0x3BFD250")]
+		[Address(RVA = "0x3EE0750", Offset = "0x3EE0750", VA = "0x3EE0750")]
 		set
 		{
 		}
@@ -633,7 +640,7 @@ public static class PhotonNetwork
 	public static bool EnableLobbyStatistics
 	{
 		[Token(Token = "0x6000043")]
-		[Address(RVA = "0x3BFD320", Offset = "0x3BFD320", VA = "0x3BFD320")]
+		[Address(RVA = "0x3EE0820", Offset = "0x3EE0820", VA = "0x3EE0820")]
 		get
 		{
 			return default(bool);
@@ -644,7 +651,7 @@ public static class PhotonNetwork
 	public static bool InLobby
 	{
 		[Token(Token = "0x6000044")]
-		[Address(RVA = "0x3BFD3A0", Offset = "0x3BFD3A0", VA = "0x3BFD3A0")]
+		[Address(RVA = "0x3EE08A0", Offset = "0x3EE08A0", VA = "0x3EE08A0")]
 		get
 		{
 			return default(bool);
@@ -655,13 +662,13 @@ public static class PhotonNetwork
 	public static int SendRate
 	{
 		[Token(Token = "0x6000045")]
-		[Address(RVA = "0x3BF6C50", Offset = "0x3BF6C50", VA = "0x3BF6C50")]
+		[Address(RVA = "0x3EDA150", Offset = "0x3EDA150", VA = "0x3EDA150")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000046")]
-		[Address(RVA = "0x3BFD420", Offset = "0x3BFD420", VA = "0x3BFD420")]
+		[Address(RVA = "0x3EE0920", Offset = "0x3EE0920", VA = "0x3EE0920")]
 		set
 		{
 		}
@@ -671,13 +678,13 @@ public static class PhotonNetwork
 	public static int SerializationRate
 	{
 		[Token(Token = "0x6000047")]
-		[Address(RVA = "0x3BF6CA0", Offset = "0x3BF6CA0", VA = "0x3BF6CA0")]
+		[Address(RVA = "0x3EDA1A0", Offset = "0x3EDA1A0", VA = "0x3EDA1A0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000048")]
-		[Address(RVA = "0x3BFD520", Offset = "0x3BFD520", VA = "0x3BFD520")]
+		[Address(RVA = "0x3EE0A20", Offset = "0x3EE0A20", VA = "0x3EE0A20")]
 		set
 		{
 		}
@@ -687,13 +694,13 @@ public static class PhotonNetwork
 	public static bool IsMessageQueueRunning
 	{
 		[Token(Token = "0x6000049")]
-		[Address(RVA = "0x3BFD620", Offset = "0x3BFD620", VA = "0x3BFD620")]
+		[Address(RVA = "0x3EE0B20", Offset = "0x3EE0B20", VA = "0x3EE0B20")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600004A")]
-		[Address(RVA = "0x3BFD690", Offset = "0x3BFD690", VA = "0x3BFD690")]
+		[Address(RVA = "0x3EE0B90", Offset = "0x3EE0B90", VA = "0x3EE0B90")]
 		set
 		{
 		}
@@ -703,7 +710,7 @@ public static class PhotonNetwork
 	public static double Time
 	{
 		[Token(Token = "0x600004B")]
-		[Address(RVA = "0x3BFD6E0", Offset = "0x3BFD6E0", VA = "0x3BFD6E0")]
+		[Address(RVA = "0x3EE0BE0", Offset = "0x3EE0BE0", VA = "0x3EE0BE0")]
 		get
 		{
 			return default(double);
@@ -714,7 +721,7 @@ public static class PhotonNetwork
 	public static int ServerTimestamp
 	{
 		[Token(Token = "0x600004C")]
-		[Address(RVA = "0x3BFD7A0", Offset = "0x3BFD7A0", VA = "0x3BFD7A0")]
+		[Address(RVA = "0x3EE0CA0", Offset = "0x3EE0CA0", VA = "0x3EE0CA0")]
 		get
 		{
 			return default(int);
@@ -725,13 +732,13 @@ public static class PhotonNetwork
 	public static float KeepAliveInBackground
 	{
 		[Token(Token = "0x600004E")]
-		[Address(RVA = "0x3BFDAB0", Offset = "0x3BFDAB0", VA = "0x3BFDAB0")]
+		[Address(RVA = "0x3EE0FB0", Offset = "0x3EE0FB0", VA = "0x3EE0FB0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600004D")]
-		[Address(RVA = "0x3BFD940", Offset = "0x3BFD940", VA = "0x3BFD940")]
+		[Address(RVA = "0x3EE0E40", Offset = "0x3EE0E40", VA = "0x3EE0E40")]
 		set
 		{
 		}
@@ -741,7 +748,7 @@ public static class PhotonNetwork
 	public static bool IsMasterClient
 	{
 		[Token(Token = "0x600004F")]
-		[Address(RVA = "0x3BF9B70", Offset = "0x3BF9B70", VA = "0x3BF9B70")]
+		[Address(RVA = "0x3EDD070", Offset = "0x3EDD070", VA = "0x3EDD070")]
 		get
 		{
 			return default(bool);
@@ -752,7 +759,7 @@ public static class PhotonNetwork
 	public static Player MasterClient
 	{
 		[Token(Token = "0x6000050")]
-		[Address(RVA = "0x3BFADA0", Offset = "0x3BFADA0", VA = "0x3BFADA0")]
+		[Address(RVA = "0x3EDE2A0", Offset = "0x3EDE2A0", VA = "0x3EDE2A0")]
 		get
 		{
 			return null;
@@ -763,7 +770,7 @@ public static class PhotonNetwork
 	public static bool InRoom
 	{
 		[Token(Token = "0x6000051")]
-		[Address(RVA = "0x3BFDC20", Offset = "0x3BFDC20", VA = "0x3BFDC20")]
+		[Address(RVA = "0x3EE1120", Offset = "0x3EE1120", VA = "0x3EE1120")]
 		get
 		{
 			return default(bool);
@@ -774,7 +781,7 @@ public static class PhotonNetwork
 	public static int CountOfPlayersOnMaster
 	{
 		[Token(Token = "0x6000052")]
-		[Address(RVA = "0x3BFDC70", Offset = "0x3BFDC70", VA = "0x3BFDC70")]
+		[Address(RVA = "0x3EE1170", Offset = "0x3EE1170", VA = "0x3EE1170")]
 		get
 		{
 			return default(int);
@@ -785,7 +792,7 @@ public static class PhotonNetwork
 	public static int CountOfPlayersInRooms
 	{
 		[Token(Token = "0x6000053")]
-		[Address(RVA = "0x3BFDCF0", Offset = "0x3BFDCF0", VA = "0x3BFDCF0")]
+		[Address(RVA = "0x3EE11F0", Offset = "0x3EE11F0", VA = "0x3EE11F0")]
 		get
 		{
 			return default(int);
@@ -796,7 +803,7 @@ public static class PhotonNetwork
 	public static int CountOfPlayers
 	{
 		[Token(Token = "0x6000054")]
-		[Address(RVA = "0x3BFDD70", Offset = "0x3BFDD70", VA = "0x3BFDD70")]
+		[Address(RVA = "0x3EE1270", Offset = "0x3EE1270", VA = "0x3EE1270")]
 		get
 		{
 			return default(int);
@@ -807,7 +814,7 @@ public static class PhotonNetwork
 	public static int CountOfRooms
 	{
 		[Token(Token = "0x6000055")]
-		[Address(RVA = "0x3BFDDF0", Offset = "0x3BFDDF0", VA = "0x3BFDDF0")]
+		[Address(RVA = "0x3EE12F0", Offset = "0x3EE12F0", VA = "0x3EE12F0")]
 		get
 		{
 			return default(int);
@@ -818,13 +825,13 @@ public static class PhotonNetwork
 	public static bool NetworkStatisticsEnabled
 	{
 		[Token(Token = "0x6000056")]
-		[Address(RVA = "0x3BFDE70", Offset = "0x3BFDE70", VA = "0x3BFDE70")]
+		[Address(RVA = "0x3EE1370", Offset = "0x3EE1370", VA = "0x3EE1370")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000057")]
-		[Address(RVA = "0x3BFDEF0", Offset = "0x3BFDEF0", VA = "0x3BFDEF0")]
+		[Address(RVA = "0x3EE13F0", Offset = "0x3EE13F0", VA = "0x3EE13F0")]
 		set
 		{
 		}
@@ -834,7 +841,7 @@ public static class PhotonNetwork
 	public static int ResentReliableCommands
 	{
 		[Token(Token = "0x6000058")]
-		[Address(RVA = "0x3BFDF80", Offset = "0x3BFDF80", VA = "0x3BFDF80")]
+		[Address(RVA = "0x3EE1480", Offset = "0x3EE1480", VA = "0x3EE1480")]
 		get
 		{
 			return default(int);
@@ -845,13 +852,13 @@ public static class PhotonNetwork
 	public static bool CrcCheckEnabled
 	{
 		[Token(Token = "0x6000059")]
-		[Address(RVA = "0x3BFE000", Offset = "0x3BFE000", VA = "0x3BFE000")]
+		[Address(RVA = "0x3EE1500", Offset = "0x3EE1500", VA = "0x3EE1500")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600005A")]
-		[Address(RVA = "0x3BFE080", Offset = "0x3BFE080", VA = "0x3BFE080")]
+		[Address(RVA = "0x3EE1580", Offset = "0x3EE1580", VA = "0x3EE1580")]
 		set
 		{
 		}
@@ -861,7 +868,7 @@ public static class PhotonNetwork
 	public static int PacketLossByCrcCheck
 	{
 		[Token(Token = "0x600005B")]
-		[Address(RVA = "0x3BFE1B0", Offset = "0x3BFE1B0", VA = "0x3BFE1B0")]
+		[Address(RVA = "0x3EE16B0", Offset = "0x3EE16B0", VA = "0x3EE16B0")]
 		get
 		{
 			return default(int);
@@ -872,13 +879,13 @@ public static class PhotonNetwork
 	public static int MaxResendsBeforeDisconnect
 	{
 		[Token(Token = "0x600005C")]
-		[Address(RVA = "0x3BFE230", Offset = "0x3BFE230", VA = "0x3BFE230")]
+		[Address(RVA = "0x3EE1730", Offset = "0x3EE1730", VA = "0x3EE1730")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600005D")]
-		[Address(RVA = "0x3BFE2B0", Offset = "0x3BFE2B0", VA = "0x3BFE2B0")]
+		[Address(RVA = "0x3EE17B0", Offset = "0x3EE17B0", VA = "0x3EE17B0")]
 		set
 		{
 		}
@@ -888,13 +895,13 @@ public static class PhotonNetwork
 	public static int QuickResends
 	{
 		[Token(Token = "0x600005E")]
-		[Address(RVA = "0x3BFE330", Offset = "0x3BFE330", VA = "0x3BFE330")]
+		[Address(RVA = "0x3EE1830", Offset = "0x3EE1830", VA = "0x3EE1830")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600005F")]
-		[Address(RVA = "0x3BFE3C0", Offset = "0x3BFE3C0", VA = "0x3BFE3C0")]
+		[Address(RVA = "0x3EE18C0", Offset = "0x3EE18C0", VA = "0x3EE18C0")]
 		set
 		{
 		}
@@ -905,14 +912,14 @@ public static class PhotonNetwork
 	public static bool UseAlternativeUdpPorts
 	{
 		[Token(Token = "0x6000060")]
-		[Address(RVA = "0x3BFE440", Offset = "0x3BFE440", VA = "0x3BFE440")]
+		[Address(RVA = "0x3EE1940", Offset = "0x3EE1940", VA = "0x3EE1940")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000061")]
-		[Address(RVA = "0x3BFE4B0", Offset = "0x3BFE4B0", VA = "0x3BFE4B0")]
+		[Address(RVA = "0x3EE19B0", Offset = "0x3EE19B0", VA = "0x3EE19B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -923,13 +930,13 @@ public static class PhotonNetwork
 	public static PhotonPortDefinition ServerPortOverrides
 	{
 		[Token(Token = "0x6000062")]
-		[Address(RVA = "0x3BFE500", Offset = "0x3BFE500", VA = "0x3BFE500")]
+		[Address(RVA = "0x3EE1A00", Offset = "0x3EE1A00", VA = "0x3EE1A00")]
 		get
 		{
 			return default(PhotonPortDefinition);
 		}
 		[Token(Token = "0x6000063")]
-		[Address(RVA = "0x3BFE5B0", Offset = "0x3BFE5B0", VA = "0x3BFE5B0")]
+		[Address(RVA = "0x3EE1AB0", Offset = "0x3EE1AB0", VA = "0x3EE1AB0")]
 		set
 		{
 		}
@@ -940,7 +947,7 @@ public static class PhotonNetwork
 	public static PhotonView[] PhotonViews
 	{
 		[Token(Token = "0x60000A9")]
-		[Address(RVA = "0x3C0BED0", Offset = "0x3C0BED0", VA = "0x3C0BED0")]
+		[Address(RVA = "0x3EEF3D0", Offset = "0x3EEF3D0", VA = "0x3EEF3D0")]
 		get
 		{
 			return null;
@@ -951,7 +958,7 @@ public static class PhotonNetwork
 	public static NonAllocDictionary<int, PhotonView>.ValueIterator PhotonViewCollection
 	{
 		[Token(Token = "0x60000AA")]
-		[Address(RVA = "0x3BF8D10", Offset = "0x3BF8D10", VA = "0x3BF8D10")]
+		[Address(RVA = "0x3EDC210", Offset = "0x3EDC210", VA = "0x3EDC210")]
 		get
 		{
 			return default(NonAllocDictionary<int, PhotonView>.ValueIterator);
@@ -962,7 +969,7 @@ public static class PhotonNetwork
 	public static int ViewCount
 	{
 		[Token(Token = "0x60000AB")]
-		[Address(RVA = "0x3BF9AD0", Offset = "0x3BF9AD0", VA = "0x3BF9AD0")]
+		[Address(RVA = "0x3EDCFD0", Offset = "0x3EDCFD0", VA = "0x3EDCFD0")]
 		get
 		{
 			return default(int);
@@ -973,13 +980,13 @@ public static class PhotonNetwork
 	public static IPunPrefabPool PrefabPool
 	{
 		[Token(Token = "0x60000B5")]
-		[Address(RVA = "0x3C0C960", Offset = "0x3C0C960", VA = "0x3C0C960")]
+		[Address(RVA = "0x3EEFE60", Offset = "0x3EEFE60", VA = "0x3EEFE60")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000B6")]
-		[Address(RVA = "0x3BFF710", Offset = "0x3BFF710", VA = "0x3BFF710")]
+		[Address(RVA = "0x3EE2C10", Offset = "0x3EE2C10", VA = "0x3EE2C10")]
 		set
 		{
 		}
@@ -989,7 +996,7 @@ public static class PhotonNetwork
 	public static float LevelLoadingProgress
 	{
 		[Token(Token = "0x60000B7")]
-		[Address(RVA = "0x3C0C9D0", Offset = "0x3C0C9D0", VA = "0x3C0C9D0")]
+		[Address(RVA = "0x3EEFED0", Offset = "0x3EEFED0", VA = "0x3EEFED0")]
 		get
 		{
 			return default(float);
@@ -1000,13 +1007,13 @@ public static class PhotonNetwork
 	private static event Action<PhotonView, Player> OnOwnershipRequestEv
 	{
 		[Token(Token = "0x60000AC")]
-		[Address(RVA = "0x3C0C190", Offset = "0x3C0C190", VA = "0x3C0C190")]
+		[Address(RVA = "0x3EEF690", Offset = "0x3EEF690", VA = "0x3EEF690")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60000AD")]
-		[Address(RVA = "0x3C0C290", Offset = "0x3C0C290", VA = "0x3C0C290")]
+		[Address(RVA = "0x3EEF790", Offset = "0x3EEF790", VA = "0x3EEF790")]
 		[CompilerGenerated]
 		remove
 		{
@@ -1017,13 +1024,13 @@ public static class PhotonNetwork
 	private static event Action<PhotonView, Player> OnOwnershipTransferedEv
 	{
 		[Token(Token = "0x60000AE")]
-		[Address(RVA = "0x3C0C390", Offset = "0x3C0C390", VA = "0x3C0C390")]
+		[Address(RVA = "0x3EEF890", Offset = "0x3EEF890", VA = "0x3EEF890")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60000AF")]
-		[Address(RVA = "0x3C0C490", Offset = "0x3C0C490", VA = "0x3C0C490")]
+		[Address(RVA = "0x3EEF990", Offset = "0x3EEF990", VA = "0x3EEF990")]
 		[CompilerGenerated]
 		remove
 		{
@@ -1034,13 +1041,13 @@ public static class PhotonNetwork
 	private static event Action<PhotonView, Player> OnOwnershipTransferFailedEv
 	{
 		[Token(Token = "0x60000B0")]
-		[Address(RVA = "0x3C0C590", Offset = "0x3C0C590", VA = "0x3C0C590")]
+		[Address(RVA = "0x3EEFA90", Offset = "0x3EEFA90", VA = "0x3EEFA90")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60000B1")]
-		[Address(RVA = "0x3C0C690", Offset = "0x3C0C690", VA = "0x3C0C690")]
+		[Address(RVA = "0x3EEFB90", Offset = "0x3EEFB90", VA = "0x3EEFB90")]
 		[CompilerGenerated]
 		remove
 		{
@@ -1048,300 +1055,300 @@ public static class PhotonNetwork
 	}
 
 	[Token(Token = "0x6000064")]
-	[Address(RVA = "0x3BFE660", Offset = "0x3BFE660", VA = "0x3BFE660")]
+	[Address(RVA = "0x3EE1B60", Offset = "0x3EE1B60", VA = "0x3EE1B60")]
 	static PhotonNetwork()
 	{
 	}
 
 	[Token(Token = "0x6000065")]
-	[Address(RVA = "0x3BFF120", Offset = "0x3BFF120", VA = "0x3BFF120")]
+	[Address(RVA = "0x3EE2620", Offset = "0x3EE2620", VA = "0x3EE2620")]
 	private static void StaticReset()
 	{
 	}
 
 	[Token(Token = "0x6000066")]
-	[Address(RVA = "0x3BFF810", Offset = "0x3BFF810", VA = "0x3BFF810")]
+	[Address(RVA = "0x3EE2D10", Offset = "0x3EE2D10", VA = "0x3EE2D10")]
 	public static bool ConnectUsingSettings()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000067")]
-	[Address(RVA = "0x3BFF910", Offset = "0x3BFF910", VA = "0x3BFF910")]
+	[Address(RVA = "0x3EE2E10", Offset = "0x3EE2E10", VA = "0x3EE2E10")]
 	public static bool ConnectUsingSettings(AppSettings appSettings, bool startInOfflineMode = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000068")]
-	[Address(RVA = "0x3C002D0", Offset = "0x3C002D0", VA = "0x3C002D0")]
+	[Address(RVA = "0x3EE37D0", Offset = "0x3EE37D0", VA = "0x3EE37D0")]
 	public static bool ConnectToMaster(string masterServerAddress, int port, string appID)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000069")]
-	[Address(RVA = "0x3C007C0", Offset = "0x3C007C0", VA = "0x3C007C0")]
+	[Address(RVA = "0x3EE3CC0", Offset = "0x3EE3CC0", VA = "0x3EE3CC0")]
 	public static bool ConnectToBestCloudServer()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x3C009C0", Offset = "0x3C009C0", VA = "0x3C009C0")]
+	[Address(RVA = "0x3EE3EC0", Offset = "0x3EE3EC0", VA = "0x3EE3EC0")]
 	public static bool ConnectToRegion(string region)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600006B")]
-	[Address(RVA = "0x3C00C30", Offset = "0x3C00C30", VA = "0x3C00C30")]
+	[Address(RVA = "0x3EE4130", Offset = "0x3EE4130", VA = "0x3EE4130")]
 	public static void Disconnect()
 	{
 	}
 
 	[Token(Token = "0x600006C")]
-	[Address(RVA = "0x3C00DF0", Offset = "0x3C00DF0", VA = "0x3C00DF0")]
+	[Address(RVA = "0x3EE42F0", Offset = "0x3EE42F0", VA = "0x3EE42F0")]
 	public static bool Reconnect()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x3C01230", Offset = "0x3C01230", VA = "0x3C01230")]
+	[Address(RVA = "0x3EE4730", Offset = "0x3EE4730", VA = "0x3EE4730")]
 	public static void NetworkStatisticsReset()
 	{
 	}
 
 	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x3C012B0", Offset = "0x3C012B0", VA = "0x3C012B0")]
+	[Address(RVA = "0x3EE47B0", Offset = "0x3EE47B0", VA = "0x3EE47B0")]
 	public static string NetworkStatisticsToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x3C01410", Offset = "0x3C01410", VA = "0x3C01410")]
+	[Address(RVA = "0x3EE4910", Offset = "0x3EE4910", VA = "0x3EE4910")]
 	private static bool VerifyCanUseNetwork()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x3C014C0", Offset = "0x3C014C0", VA = "0x3C014C0")]
+	[Address(RVA = "0x3EE49C0", Offset = "0x3EE49C0", VA = "0x3EE49C0")]
 	public static int GetPing()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000071")]
-	[Address(RVA = "0x3C01540", Offset = "0x3C01540", VA = "0x3C01540")]
+	[Address(RVA = "0x3EE4A40", Offset = "0x3EE4A40", VA = "0x3EE4A40")]
 	public static void FetchServerTimestamp()
 	{
 	}
 
 	[Token(Token = "0x6000072")]
-	[Address(RVA = "0x3C015F0", Offset = "0x3C015F0", VA = "0x3C015F0")]
+	[Address(RVA = "0x3EE4AF0", Offset = "0x3EE4AF0", VA = "0x3EE4AF0")]
 	public static void SendAllOutgoingCommands()
 	{
 	}
 
 	[Token(Token = "0x6000073")]
-	[Address(RVA = "0x3C01680", Offset = "0x3C01680", VA = "0x3C01680")]
+	[Address(RVA = "0x3EE4B80", Offset = "0x3EE4B80", VA = "0x3EE4B80")]
 	public static bool CloseConnection(Player kickPlayer)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000074")]
-	[Address(RVA = "0x3C019C0", Offset = "0x3C019C0", VA = "0x3C019C0")]
+	[Address(RVA = "0x3EE4EC0", Offset = "0x3EE4EC0", VA = "0x3EE4EC0")]
 	public static bool RoomBan(Player player)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000075")]
-	[Address(RVA = "0x3C01B40", Offset = "0x3C01B40", VA = "0x3C01B40")]
+	[Address(RVA = "0x3EE5040", Offset = "0x3EE5040", VA = "0x3EE5040")]
 	public static bool IPBan(Player player)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x3C01CC0", Offset = "0x3C01CC0", VA = "0x3C01CC0")]
+	[Address(RVA = "0x3EE51C0", Offset = "0x3EE51C0", VA = "0x3EE51C0")]
 	public static bool IPUnban(string ip)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000077")]
-	[Address(RVA = "0x3C01DE0", Offset = "0x3C01DE0", VA = "0x3C01DE0")]
+	[Address(RVA = "0x3EE52E0", Offset = "0x3EE52E0", VA = "0x3EE52E0")]
 	public static bool Superban(Player player)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x3C01F60", Offset = "0x3C01F60", VA = "0x3C01F60")]
+	[Address(RVA = "0x3EE5460", Offset = "0x3EE5460", VA = "0x3EE5460")]
 	public static bool ClearSuperbans()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000079")]
-	[Address(RVA = "0x3C02030", Offset = "0x3C02030", VA = "0x3C02030")]
+	[Address(RVA = "0x3EE5530", Offset = "0x3EE5530", VA = "0x3EE5530")]
 	public static bool SetMasterClient(Player masterClientPlayer)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600007A")]
-	[Address(RVA = "0x3C02270", Offset = "0x3C02270", VA = "0x3C02270")]
+	[Address(RVA = "0x3EE5770", Offset = "0x3EE5770", VA = "0x3EE5770")]
 	public static bool JoinRandomRoom()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600007B")]
-	[Address(RVA = "0x3C02840", Offset = "0x3C02840", VA = "0x3C02840")]
+	[Address(RVA = "0x3EE5D40", Offset = "0x3EE5D40", VA = "0x3EE5D40")]
 	public static bool JoinRandomRoom(Hashtable expectedCustomRoomProperties, byte expectedMaxPlayers)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600007C")]
-	[Address(RVA = "0x3C022C0", Offset = "0x3C022C0", VA = "0x3C022C0")]
+	[Address(RVA = "0x3EE57C0", Offset = "0x3EE57C0", VA = "0x3EE57C0")]
 	public static bool JoinRandomRoom(Hashtable expectedCustomRoomProperties, byte expectedMaxPlayers, MatchmakingMode matchingType, TypedLobby typedLobby, string sqlLobbyFilter, [Optional] string[] expectedUsers)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x3C02AE0", Offset = "0x3C02AE0", VA = "0x3C02AE0")]
+	[Address(RVA = "0x3EE5FE0", Offset = "0x3EE5FE0", VA = "0x3EE5FE0")]
 	public static bool JoinRandomOrCreateRoom([Optional] Hashtable expectedCustomRoomProperties, [Optional][DefaultParameterValue(0)] byte expectedMaxPlayers, [Optional][DefaultParameterValue(0)] MatchmakingMode matchingType, [Optional] TypedLobby typedLobby, [Optional] string sqlLobbyFilter, [Optional] string roomName, [Optional] RoomOptions roomOptions, [Optional] string[] expectedUsers)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600007E")]
-	[Address(RVA = "0x3C030F0", Offset = "0x3C030F0", VA = "0x3C030F0")]
+	[Address(RVA = "0x3EE65F0", Offset = "0x3EE65F0", VA = "0x3EE65F0")]
 	public static bool CreateRoom(string roomName, [Optional] RoomOptions roomOptions, [Optional] TypedLobby typedLobby, [Optional] string[] expectedUsers, [Optional] string hash, [Optional] string sessionID)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600007F")]
-	[Address(RVA = "0x3C03670", Offset = "0x3C03670", VA = "0x3C03670")]
+	[Address(RVA = "0x3EE6B70", Offset = "0x3EE6B70", VA = "0x3EE6B70")]
 	public static bool JoinOrCreateRoom(string roomName, RoomOptions roomOptions, TypedLobby typedLobby, [Optional] string[] expectedUsers)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000080")]
-	[Address(RVA = "0x3C03CC0", Offset = "0x3C03CC0", VA = "0x3C03CC0")]
+	[Address(RVA = "0x3EE71C0", Offset = "0x3EE71C0", VA = "0x3EE71C0")]
 	public static bool JoinRoom(string roomName, [Optional] string[] expectedUsers, [Optional] string password, [Optional] string hash, [Optional] string sessionID, [Optional] string modID)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000081")]
-	[Address(RVA = "0x3C041E0", Offset = "0x3C041E0", VA = "0x3C041E0")]
+	[Address(RVA = "0x3EE76E0", Offset = "0x3EE76E0", VA = "0x3EE76E0")]
 	public static bool RejoinRoom(string roomName)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000082")]
-	[Address(RVA = "0x3C04610", Offset = "0x3C04610", VA = "0x3C04610")]
+	[Address(RVA = "0x3EE7B10", Offset = "0x3EE7B10", VA = "0x3EE7B10")]
 	public static bool ReconnectAndRejoin()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x3C049E0", Offset = "0x3C049E0", VA = "0x3C049E0")]
+	[Address(RVA = "0x3EE7EE0", Offset = "0x3EE7EE0", VA = "0x3EE7EE0")]
 	public static bool LeaveRoom(bool becomeInactive = true)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000084")]
-	[Address(RVA = "0x3C028A0", Offset = "0x3C028A0", VA = "0x3C028A0")]
+	[Address(RVA = "0x3EE5DA0", Offset = "0x3EE5DA0", VA = "0x3EE5DA0")]
 	private static void EnterOfflineRoom(string roomName, RoomOptions roomOptions, bool createdRoom)
 	{
 	}
 
 	[Token(Token = "0x6000085")]
-	[Address(RVA = "0x3C04CA0", Offset = "0x3C04CA0", VA = "0x3C04CA0")]
+	[Address(RVA = "0x3EE81A0", Offset = "0x3EE81A0", VA = "0x3EE81A0")]
 	public static bool JoinLobby()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000086")]
-	[Address(RVA = "0x3C04D00", Offset = "0x3C04D00", VA = "0x3C04D00")]
+	[Address(RVA = "0x3EE8200", Offset = "0x3EE8200", VA = "0x3EE8200")]
 	public static bool JoinLobby(TypedLobby typedLobby)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x3C04DD0", Offset = "0x3C04DD0", VA = "0x3C04DD0")]
+	[Address(RVA = "0x3EE82D0", Offset = "0x3EE82D0", VA = "0x3EE82D0")]
 	public static bool LeaveLobby()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x3C04E90", Offset = "0x3C04E90", VA = "0x3C04E90")]
+	[Address(RVA = "0x3EE8390", Offset = "0x3EE8390", VA = "0x3EE8390")]
 	public static bool FindFriends(string[] friendsToFind)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000089")]
-	[Address(RVA = "0x3C04F80", Offset = "0x3C04F80", VA = "0x3C04F80")]
+	[Address(RVA = "0x3EE8480", Offset = "0x3EE8480", VA = "0x3EE8480")]
 	public static bool GetCustomRoomList(TypedLobby typedLobby, string sqlLobbyFilter)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600008A")]
-	[Address(RVA = "0x3C05010", Offset = "0x3C05010", VA = "0x3C05010")]
+	[Address(RVA = "0x3EE8510", Offset = "0x3EE8510", VA = "0x3EE8510")]
 	public static bool SetPlayerCustomProperties(Hashtable customProperties)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600008B")]
-	[Address(RVA = "0x3C053D0", Offset = "0x3C053D0", VA = "0x3C053D0")]
+	[Address(RVA = "0x3EE88D0", Offset = "0x3EE88D0", VA = "0x3EE88D0")]
 	public static void RemovePlayerCustomProperties(string[] customPropertiesToDelete)
 	{
 	}
 
 	[Token(Token = "0x600008C")]
-	[Address(RVA = "0x3C05850", Offset = "0x3C05850", VA = "0x3C05850")]
+	[Address(RVA = "0x3EE8D50", Offset = "0x3EE8D50", VA = "0x3EE8D50")]
 	public static bool RaiseEvent(byte eventCode, object eventContent, RaiseEventOptions raiseEventOptions, SendOptions sendOptions)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600008D")]
-	[Address(RVA = "0x3C05B40", Offset = "0x3C05B40", VA = "0x3C05B40")]
+	[Address(RVA = "0x3EE9040", Offset = "0x3EE9040", VA = "0x3EE9040")]
 	private static bool RaiseEventInternal(byte eventCode, object eventContent, RaiseEventOptions raiseEventOptions, SendOptions sendOptions)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600008E")]
-	[Address(RVA = "0x3C05D40", Offset = "0x3C05D40", VA = "0x3C05D40")]
+	[Address(RVA = "0x3EE9240", Offset = "0x3EE9240", VA = "0x3EE9240")]
 	public static bool AllocateViewID(PhotonView view)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600008F")]
-	[Address(RVA = "0x3C062F0", Offset = "0x3C062F0", VA = "0x3C062F0")]
+	[Address(RVA = "0x3EE97F0", Offset = "0x3EE97F0", VA = "0x3EE97F0")]
 	[Obsolete("Renamed. Use AllocateRoomViewID instead")]
 	public static bool AllocateSceneViewID(PhotonView view)
 	{
@@ -1349,35 +1356,35 @@ public static class PhotonNetwork
 	}
 
 	[Token(Token = "0x6000090")]
-	[Address(RVA = "0x3C06350", Offset = "0x3C06350", VA = "0x3C06350")]
+	[Address(RVA = "0x3EE9850", Offset = "0x3EE9850", VA = "0x3EE9850")]
 	public static bool AllocateRoomViewID(PhotonView view)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000091")]
-	[Address(RVA = "0x3C064B0", Offset = "0x3C064B0", VA = "0x3C064B0")]
+	[Address(RVA = "0x3EE99B0", Offset = "0x3EE99B0", VA = "0x3EE99B0")]
 	public static int AllocateViewID(bool roomObject)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000092")]
-	[Address(RVA = "0x3C05EC0", Offset = "0x3C05EC0", VA = "0x3C05EC0")]
+	[Address(RVA = "0x3EE93C0", Offset = "0x3EE93C0", VA = "0x3EE93C0")]
 	public static int AllocateViewID(int ownerId)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000093")]
-	[Address(RVA = "0x3C06700", Offset = "0x3C06700", VA = "0x3C06700")]
+	[Address(RVA = "0x3EE9C00", Offset = "0x3EE9C00", VA = "0x3EE9C00")]
 	public static GameObject Instantiate(string prefabName, Vector3 position, Quaternion rotation, [Optional][DefaultParameterValue(0)] byte group, [Optional] object[] data)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000094")]
-	[Address(RVA = "0x3C073C0", Offset = "0x3C073C0", VA = "0x3C073C0")]
+	[Address(RVA = "0x3EEA8C0", Offset = "0x3EEA8C0", VA = "0x3EEA8C0")]
 	[Obsolete("Renamed. Use InstantiateRoomObject instead")]
 	public static GameObject InstantiateSceneObject(string prefabName, Vector3 position, Quaternion rotation, [Optional][DefaultParameterValue(0)] byte group, [Optional] object[] data)
 	{
@@ -1385,438 +1392,438 @@ public static class PhotonNetwork
 	}
 
 	[Token(Token = "0x6000095")]
-	[Address(RVA = "0x3C07470", Offset = "0x3C07470", VA = "0x3C07470")]
+	[Address(RVA = "0x3EEA970", Offset = "0x3EEA970", VA = "0x3EEA970")]
 	public static GameObject InstantiateRoomObject(string prefabName, Vector3 position, Quaternion rotation, [Optional][DefaultParameterValue(0)] byte group, [Optional] object[] data)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000096")]
-	[Address(RVA = "0x3C07840", Offset = "0x3C07840", VA = "0x3C07840")]
+	[Address(RVA = "0x3EEAD40", Offset = "0x3EEAD40", VA = "0x3EEAD40")]
 	private static GameObject NetworkInstantiate(Hashtable networkEvent, Player creator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000097")]
-	[Address(RVA = "0x3C06A00", Offset = "0x3C06A00", VA = "0x3C06A00")]
+	[Address(RVA = "0x3EE9F00", Offset = "0x3EE9F00", VA = "0x3EE9F00")]
 	private static GameObject NetworkInstantiate(InstantiateParameters parameters, bool roomObject = false, bool instantiateEvent = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000098")]
-	[Address(RVA = "0x3C08020", Offset = "0x3C08020", VA = "0x3C08020")]
+	[Address(RVA = "0x3EEB520", Offset = "0x3EEB520", VA = "0x3EEB520")]
 	internal static bool SendInstantiate(InstantiateParameters parameters, bool roomObject = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000099")]
-	[Address(RVA = "0x3C08690", Offset = "0x3C08690", VA = "0x3C08690")]
+	[Address(RVA = "0x3EEBB90", Offset = "0x3EEBB90", VA = "0x3EEBB90")]
 	public static void Destroy(PhotonView targetView)
 	{
 	}
 
 	[Token(Token = "0x600009A")]
-	[Address(RVA = "0x3C08EA0", Offset = "0x3C08EA0", VA = "0x3C08EA0")]
+	[Address(RVA = "0x3EEC3A0", Offset = "0x3EEC3A0", VA = "0x3EEC3A0")]
 	public static void Destroy(GameObject targetGo)
 	{
 	}
 
 	[Token(Token = "0x600009B")]
-	[Address(RVA = "0x3C08F50", Offset = "0x3C08F50", VA = "0x3C08F50")]
+	[Address(RVA = "0x3EEC450", Offset = "0x3EEC450", VA = "0x3EEC450")]
 	public static void DestroyPlayerObjects(Player targetPlayer)
 	{
 	}
 
 	[Token(Token = "0x600009C")]
-	[Address(RVA = "0x3C08FE0", Offset = "0x3C08FE0", VA = "0x3C08FE0")]
+	[Address(RVA = "0x3EEC4E0", Offset = "0x3EEC4E0", VA = "0x3EEC4E0")]
 	public static void DestroyPlayerObjects(int targetPlayerId)
 	{
 	}
 
 	[Token(Token = "0x600009D")]
-	[Address(RVA = "0x3C09A90", Offset = "0x3C09A90", VA = "0x3C09A90")]
+	[Address(RVA = "0x3EECF90", Offset = "0x3EECF90", VA = "0x3EECF90")]
 	public static void DestroyAll()
 	{
 	}
 
 	[Token(Token = "0x600009E")]
-	[Address(RVA = "0x3C09C70", Offset = "0x3C09C70", VA = "0x3C09C70")]
+	[Address(RVA = "0x3EED170", Offset = "0x3EED170", VA = "0x3EED170")]
 	public static void RemoveRPCs(Player targetPlayer)
 	{
 	}
 
 	[Token(Token = "0x600009F")]
-	[Address(RVA = "0x3C09EB0", Offset = "0x3C09EB0", VA = "0x3C09EB0")]
+	[Address(RVA = "0x3EED3B0", Offset = "0x3EED3B0", VA = "0x3EED3B0")]
 	public static void RemoveRPCs(PhotonView targetPhotonView)
 	{
 	}
 
 	[Token(Token = "0x60000A0")]
-	[Address(RVA = "0x3C0A0F0", Offset = "0x3C0A0F0", VA = "0x3C0A0F0")]
+	[Address(RVA = "0x3EED5F0", Offset = "0x3EED5F0", VA = "0x3EED5F0")]
 	internal static void RPC(PhotonView view, string methodName, RpcTarget target, bool encrypt, params object[] parameters)
 	{
 	}
 
 	[Token(Token = "0x60000A1")]
-	[Address(RVA = "0x3C0B020", Offset = "0x3C0B020", VA = "0x3C0B020")]
+	[Address(RVA = "0x3EEE520", Offset = "0x3EEE520", VA = "0x3EEE520")]
 	internal static void RPC(PhotonView view, string methodName, Player targetPlayer, bool encrypt, params object[] parameters)
 	{
 	}
 
 	[Token(Token = "0x60000A2")]
-	[Address(RVA = "0x3C0B340", Offset = "0x3C0B340", VA = "0x3C0B340")]
+	[Address(RVA = "0x3EEE840", Offset = "0x3EEE840", VA = "0x3EEE840")]
 	public static HashSet<GameObject> FindGameObjectsWithComponent(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x3C0B540", Offset = "0x3C0B540", VA = "0x3C0B540")]
+	[Address(RVA = "0x3EEEA40", Offset = "0x3EEEA40", VA = "0x3EEEA40")]
 	public static void SetInterestGroups(byte group, bool enabled)
 	{
 	}
 
 	[Token(Token = "0x60000A4")]
-	[Address(RVA = "0x3C0BA60", Offset = "0x3C0BA60", VA = "0x3C0BA60")]
+	[Address(RVA = "0x3EEEF60", Offset = "0x3EEEF60", VA = "0x3EEEF60")]
 	public static void LoadLevel(int levelNumber)
 	{
 	}
 
 	[Token(Token = "0x60000A5")]
-	[Address(RVA = "0x3C0BC60", Offset = "0x3C0BC60", VA = "0x3C0BC60")]
+	[Address(RVA = "0x3EEF160", Offset = "0x3EEF160", VA = "0x3EEF160")]
 	public static void LoadLevel(string levelName)
 	{
 	}
 
 	[Token(Token = "0x60000A6")]
-	[Address(RVA = "0x3C0BE30", Offset = "0x3C0BE30", VA = "0x3C0BE30")]
+	[Address(RVA = "0x3EEF330", Offset = "0x3EEF330", VA = "0x3EEF330")]
 	public static bool WebRpc(string name, object parameters, bool sendAuthCookie = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000A7")]
-	[Address(RVA = "0x3C00170", Offset = "0x3C00170", VA = "0x3C00170")]
+	[Address(RVA = "0x3EE3670", Offset = "0x3EE3670", VA = "0x3EE3670")]
 	private static void SetupLogging()
 	{
 	}
 
 	[Token(Token = "0x60000A8")]
-	[Address(RVA = "0x3BFB820", Offset = "0x3BFB820", VA = "0x3BFB820")]
+	[Address(RVA = "0x3EDED20", Offset = "0x3EDED20", VA = "0x3EDED20")]
 	public static void LoadOrCreateSettings(bool reload = false)
 	{
 	}
 
 	[Token(Token = "0x60000B2")]
-	[Address(RVA = "0x3BF6CF0", Offset = "0x3BF6CF0", VA = "0x3BF6CF0")]
+	[Address(RVA = "0x3EDA1F0", Offset = "0x3EDA1F0", VA = "0x3EDA1F0")]
 	public static void AddCallbackTarget(object target)
 	{
 	}
 
 	[Token(Token = "0x60000B3")]
-	[Address(RVA = "0x3BF7120", Offset = "0x3BF7120", VA = "0x3BF7120")]
+	[Address(RVA = "0x3EDA620", Offset = "0x3EDA620", VA = "0x3EDA620")]
 	public static void RemoveCallbackTarget(object target)
 	{
 	}
 
 	[Token(Token = "0x60000B4")]
-	[Address(RVA = "0x3C0C790", Offset = "0x3C0C790", VA = "0x3C0C790")]
+	[Address(RVA = "0x3EEFC90", Offset = "0x3EEFC90", VA = "0x3EEFC90")]
 	internal static string CallbacksToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000B8")]
-	[Address(RVA = "0x3BFCF50", Offset = "0x3BFCF50", VA = "0x3BFCF50")]
+	[Address(RVA = "0x3EE0450", Offset = "0x3EE0450", VA = "0x3EE0450")]
 	private static void LeftRoomCleanup()
 	{
 	}
 
 	[Token(Token = "0x60000B9")]
-	[Address(RVA = "0x3BF9F50", Offset = "0x3BF9F50", VA = "0x3BF9F50")]
+	[Address(RVA = "0x3EDD450", Offset = "0x3EDD450", VA = "0x3EDD450")]
 	internal static void LocalCleanupAnythingInstantiated(bool destroyInstantiatedGameObjects)
 	{
 	}
 
 	[Token(Token = "0x60000BA")]
-	[Address(RVA = "0x3C0CB00", Offset = "0x3C0CB00", VA = "0x3C0CB00")]
+	[Address(RVA = "0x3EF0000", Offset = "0x3EF0000", VA = "0x3EF0000")]
 	private static void ResetPhotonViewsOnSerialize()
 	{
 	}
 
 	[Token(Token = "0x60000BB")]
-	[Address(RVA = "0x3C0CCD0", Offset = "0x3C0CCD0", VA = "0x3C0CCD0")]
+	[Address(RVA = "0x3EF01D0", Offset = "0x3EF01D0", VA = "0x3EF01D0")]
 	internal static void ExecuteRpc(Hashtable rpcData, Player sender)
 	{
 	}
 
 	[Token(Token = "0x60000BC")]
-	[Address(RVA = "0x3C0EC60", Offset = "0x3C0EC60", VA = "0x3C0EC60")]
+	[Address(RVA = "0x3EF2160", Offset = "0x3EF2160", VA = "0x3EF2160")]
 	private static bool CheckTypeMatch(ParameterInfo[] methodParameters, Type[] callParameterTypes)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000BD")]
-	[Address(RVA = "0x3C092A0", Offset = "0x3C092A0", VA = "0x3C092A0")]
+	[Address(RVA = "0x3EEC7A0", Offset = "0x3EEC7A0", VA = "0x3EEC7A0")]
 	public static void DestroyPlayerObjects(int playerId, bool localOnly)
 	{
 	}
 
 	[Token(Token = "0x60000BE")]
-	[Address(RVA = "0x3C09BE0", Offset = "0x3C09BE0", VA = "0x3C09BE0")]
+	[Address(RVA = "0x3EED0E0", Offset = "0x3EED0E0", VA = "0x3EED0E0")]
 	public static void DestroyAll(bool localOnly)
 	{
 	}
 
 	[Token(Token = "0x60000BF")]
-	[Address(RVA = "0x3C087C0", Offset = "0x3C087C0", VA = "0x3C087C0")]
+	[Address(RVA = "0x3EEBCC0", Offset = "0x3EEBCC0", VA = "0x3EEBCC0")]
 	internal static void RemoveInstantiatedGO(GameObject go, bool localOnly)
 	{
 	}
 
 	[Token(Token = "0x60000C0")]
-	[Address(RVA = "0x3C0F1B0", Offset = "0x3C0F1B0", VA = "0x3C0F1B0")]
+	[Address(RVA = "0x3EF26B0", Offset = "0x3EF26B0", VA = "0x3EF26B0")]
 	private static void ServerCleanInstantiateAndDestroy(PhotonView photonView)
 	{
 	}
 
 	[Token(Token = "0x60000C1")]
-	[Address(RVA = "0x3C0EF00", Offset = "0x3C0EF00", VA = "0x3C0EF00")]
+	[Address(RVA = "0x3EF2400", Offset = "0x3EF2400", VA = "0x3EF2400")]
 	private static void SendDestroyOfPlayer(int actorNr)
 	{
 	}
 
 	[Token(Token = "0x60000C2")]
-	[Address(RVA = "0x3C0F0C0", Offset = "0x3C0F0C0", VA = "0x3C0F0C0")]
+	[Address(RVA = "0x3EF25C0", Offset = "0x3EF25C0", VA = "0x3EF25C0")]
 	private static void SendDestroyOfAll()
 	{
 	}
 
 	[Token(Token = "0x60000C3")]
-	[Address(RVA = "0x3C0EDF0", Offset = "0x3C0EDF0", VA = "0x3C0EDF0")]
+	[Address(RVA = "0x3EF22F0", Offset = "0x3EF22F0", VA = "0x3EF22F0")]
 	private static void OpRemoveFromServerInstantiationsOfPlayer(int actorNr)
 	{
 	}
 
 	[Token(Token = "0x60000C4")]
-	[Address(RVA = "0x3C0F6D0", Offset = "0x3C0F6D0", VA = "0x3C0F6D0")]
+	[Address(RVA = "0x3EF2BD0", Offset = "0x3EF2BD0", VA = "0x3EF2BD0")]
 	internal static void RequestOwnership(int viewID, int fromOwner)
 	{
 	}
 
 	[Token(Token = "0x60000C5")]
-	[Address(RVA = "0x3C0F7B0", Offset = "0x3C0F7B0", VA = "0x3C0F7B0")]
+	[Address(RVA = "0x3EF2CB0", Offset = "0x3EF2CB0", VA = "0x3EF2CB0")]
 	internal static void TransferOwnership(int viewID, int playerID)
 	{
 	}
 
 	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x3BF9DC0", Offset = "0x3BF9DC0", VA = "0x3BF9DC0")]
+	[Address(RVA = "0x3EDD2C0", Offset = "0x3EDD2C0", VA = "0x3EDD2C0")]
 	internal static void OwnershipUpdate(int[] viewOwnerPairs, int targetActor = -1)
 	{
 	}
 
 	[Token(Token = "0x60000C7")]
-	[Address(RVA = "0x3C0F520", Offset = "0x3C0F520", VA = "0x3C0F520")]
+	[Address(RVA = "0x3EF2A20", Offset = "0x3EF2A20", VA = "0x3EF2A20")]
 	public static bool LocalCleanPhotonView(PhotonView view)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000C8")]
-	[Address(RVA = "0x3C0EAD0", Offset = "0x3C0EAD0", VA = "0x3C0EAD0")]
+	[Address(RVA = "0x3EF1FD0", Offset = "0x3EF1FD0", VA = "0x3EF1FD0")]
 	public static PhotonView GetPhotonView(int viewID)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000C9")]
-	[Address(RVA = "0x3C0F890", Offset = "0x3C0F890", VA = "0x3C0F890")]
+	[Address(RVA = "0x3EF2D90", Offset = "0x3EF2D90", VA = "0x3EF2D90")]
 	public static void RegisterPhotonView(PhotonView netView)
 	{
 	}
 
 	[Token(Token = "0x60000CA")]
-	[Address(RVA = "0x3C09DA0", Offset = "0x3C09DA0", VA = "0x3C09DA0")]
+	[Address(RVA = "0x3EED2A0", Offset = "0x3EED2A0", VA = "0x3EED2A0")]
 	public static void OpCleanActorRpcBuffer(int actorNumber)
 	{
 	}
 
 	[Token(Token = "0x60000CB")]
-	[Address(RVA = "0x3C0FC00", Offset = "0x3C0FC00", VA = "0x3C0FC00")]
+	[Address(RVA = "0x3EF3100", Offset = "0x3EF3100", VA = "0x3EF3100")]
 	public static void OpRemoveCompleteCacheOfPlayer(int actorNumber)
 	{
 	}
 
 	[Token(Token = "0x60000CC")]
-	[Address(RVA = "0x3C0F000", Offset = "0x3C0F000", VA = "0x3C0F000")]
+	[Address(RVA = "0x3EF2500", Offset = "0x3EF2500", VA = "0x3EF2500")]
 	public static void OpRemoveCompleteCache()
 	{
 	}
 
 	[Token(Token = "0x60000CD")]
-	[Address(RVA = "0x3C0FD10", Offset = "0x3C0FD10", VA = "0x3C0FD10")]
+	[Address(RVA = "0x3EF3210", Offset = "0x3EF3210", VA = "0x3EF3210")]
 	private static void RemoveCacheOfLeftPlayers()
 	{
 	}
 
 	[Token(Token = "0x60000CE")]
-	[Address(RVA = "0x3C09F40", Offset = "0x3C09F40", VA = "0x3C09F40")]
+	[Address(RVA = "0x3EED440", Offset = "0x3EED440", VA = "0x3EED440")]
 	public static void CleanRpcBufferIfMine(PhotonView view)
 	{
 	}
 
 	[Token(Token = "0x60000CF")]
-	[Address(RVA = "0x3C0F5B0", Offset = "0x3C0F5B0", VA = "0x3C0F5B0")]
+	[Address(RVA = "0x3EF2AB0", Offset = "0x3EF2AB0", VA = "0x3EF2AB0")]
 	public static void OpCleanRpcBuffer(PhotonView view)
 	{
 	}
 
 	[Token(Token = "0x60000D0")]
-	[Address(RVA = "0x3C0FE50", Offset = "0x3C0FE50", VA = "0x3C0FE50")]
+	[Address(RVA = "0x3EF3350", Offset = "0x3EF3350", VA = "0x3EF3350")]
 	public static void RemoveRPCsInGroup(int group)
 	{
 	}
 
 	[Token(Token = "0x60000D1")]
-	[Address(RVA = "0x3C10040", Offset = "0x3C10040", VA = "0x3C10040")]
+	[Address(RVA = "0x3EF3540", Offset = "0x3EF3540", VA = "0x3EF3540")]
 	public static bool RemoveBufferedRPCs([Optional][DefaultParameterValue(0)] int viewId, [Optional] string methodName, [Optional] int[] callersActorNumbers)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000D2")]
-	[Address(RVA = "0x3C102B0", Offset = "0x3C102B0", VA = "0x3C102B0")]
+	[Address(RVA = "0x3EF37B0", Offset = "0x3EF37B0", VA = "0x3EF37B0")]
 	public static void SetLevelPrefix(byte prefix)
 	{
 	}
 
 	[Token(Token = "0x60000D3")]
-	[Address(RVA = "0x3C0A2D0", Offset = "0x3C0A2D0", VA = "0x3C0A2D0")]
+	[Address(RVA = "0x3EED7D0", Offset = "0x3EED7D0", VA = "0x3EED7D0")]
 	internal static void RPC(PhotonView view, string methodName, RpcTarget target, Player player, bool encrypt, params object[] parameters)
 	{
 	}
 
 	[Token(Token = "0x60000D4")]
-	[Address(RVA = "0x3C0B640", Offset = "0x3C0B640", VA = "0x3C0B640")]
+	[Address(RVA = "0x3EEEB40", Offset = "0x3EEEB40", VA = "0x3EEEB40")]
 	public static void SetInterestGroups(byte[] disableGroups, byte[] enableGroups)
 	{
 	}
 
 	[Token(Token = "0x60000D5")]
-	[Address(RVA = "0x3C10310", Offset = "0x3C10310", VA = "0x3C10310")]
+	[Address(RVA = "0x3EF3810", Offset = "0x3EF3810", VA = "0x3EF3810")]
 	public static void SetSendingEnabled(byte group, bool enabled)
 	{
 	}
 
 	[Token(Token = "0x60000D6")]
-	[Address(RVA = "0x3C103E0", Offset = "0x3C103E0", VA = "0x3C103E0")]
+	[Address(RVA = "0x3EF38E0", Offset = "0x3EF38E0", VA = "0x3EF38E0")]
 	public static void SetSendingEnabled(byte[] disableGroups, byte[] enableGroups)
 	{
 	}
 
 	[Token(Token = "0x60000D7")]
-	[Address(RVA = "0x3BFB1C0", Offset = "0x3BFB1C0", VA = "0x3BFB1C0")]
+	[Address(RVA = "0x3EDE6C0", Offset = "0x3EDE6C0", VA = "0x3EDE6C0")]
 	internal static void NewSceneLoaded()
 	{
 	}
 
 	[Token(Token = "0x60000D8")]
-	[Address(RVA = "0x3BF7B60", Offset = "0x3BF7B60", VA = "0x3BF7B60")]
+	[Address(RVA = "0x3EDB060", Offset = "0x3EDB060", VA = "0x3EDB060")]
 	internal static void RunViewUpdate()
 	{
 	}
 
 	[Token(Token = "0x60000D9")]
-	[Address(RVA = "0x3C10BB0", Offset = "0x3C10BB0", VA = "0x3C10BB0")]
+	[Address(RVA = "0x3EF40B0", Offset = "0x3EF40B0", VA = "0x3EF40B0")]
 	private static void SendSerializeViewBatch(SerializeViewBatch batch)
 	{
 	}
 
 	[Token(Token = "0x60000DA")]
-	[Address(RVA = "0x3C10540", Offset = "0x3C10540", VA = "0x3C10540")]
+	[Address(RVA = "0x3EF3A40", Offset = "0x3EF3A40", VA = "0x3EF3A40")]
 	private static List<object> OnSerializeWrite(PhotonView view)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000DB")]
-	[Address(RVA = "0x3C117E0", Offset = "0x3C117E0", VA = "0x3C117E0")]
+	[Address(RVA = "0x3EF4CE0", Offset = "0x3EF4CE0", VA = "0x3EF4CE0")]
 	private static void OnSerializeRead(object[] data, Player sender, int networkTime, short correctPrefix)
 	{
 	}
 
 	[Token(Token = "0x60000DC")]
-	[Address(RVA = "0x3C11510", Offset = "0x3C11510", VA = "0x3C11510")]
+	[Address(RVA = "0x3EF4A10", Offset = "0x3EF4A10", VA = "0x3EF4A10")]
 	private static List<object> DeltaCompressionWrite(List<object> previousContent, List<object> currentContent)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000DD")]
-	[Address(RVA = "0x3C12070", Offset = "0x3C12070", VA = "0x3C12070")]
+	[Address(RVA = "0x3EF5570", Offset = "0x3EF5570", VA = "0x3EF5570")]
 	private static object[] DeltaCompressionRead(object[] lastOnSerializeDataReceived, object[] incomingData)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000DE")]
-	[Address(RVA = "0x3C11220", Offset = "0x3C11220", VA = "0x3C11220")]
+	[Address(RVA = "0x3EF4720", Offset = "0x3EF4720", VA = "0x3EF4720")]
 	private static bool AlmostEquals(IList<object> lastData, IList<object> currentContent)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000DF")]
-	[Address(RVA = "0x3C123F0", Offset = "0x3C123F0", VA = "0x3C123F0")]
+	[Address(RVA = "0x3EF58F0", Offset = "0x3EF58F0", VA = "0x3EF58F0")]
 	private static bool AlmostEquals(object one, object two)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000E0")]
-	[Address(RVA = "0x3C128C0", Offset = "0x3C128C0", VA = "0x3C128C0")]
+	[Address(RVA = "0x3EF5DC0", Offset = "0x3EF5DC0", VA = "0x3EF5DC0")]
 	internal static bool GetMethod(MonoBehaviour monob, string methodType, out MethodInfo mi)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000E1")]
-	[Address(RVA = "0x3BF8730", Offset = "0x3BF8730", VA = "0x3BF8730")]
+	[Address(RVA = "0x3EDBC30", Offset = "0x3EDBC30", VA = "0x3EDBC30")]
 	internal static void LoadLevelIfSynced()
 	{
 	}
 
 	[Token(Token = "0x60000E2")]
-	[Address(RVA = "0x3BF8140", Offset = "0x3BF8140", VA = "0x3BF8140")]
+	[Address(RVA = "0x3EDB640", Offset = "0x3EDB640", VA = "0x3EDB640")]
 	internal static void SetLevelInPropsIfSynced(object levelId)
 	{
 	}
 
 	[Token(Token = "0x60000E3")]
-	[Address(RVA = "0x3C12A40", Offset = "0x3C12A40", VA = "0x3C12A40")]
+	[Address(RVA = "0x3EF5F40", Offset = "0x3EF5F40", VA = "0x3EF5F40")]
 	private static void OnEvent(EventData photonEvent)
 	{
 	}
 
 	[Token(Token = "0x60000E4")]
-	[Address(RVA = "0x3C14950", Offset = "0x3C14950", VA = "0x3C14950")]
+	[Address(RVA = "0x3EF7E50", Offset = "0x3EF7E50", VA = "0x3EF7E50")]
 	private static void OnOperation(OperationResponse opResponse)
 	{
 	}
 
 	[Token(Token = "0x60000E5")]
-	[Address(RVA = "0x3C14BE0", Offset = "0x3C14BE0", VA = "0x3C14BE0")]
+	[Address(RVA = "0x3EF80E0", Offset = "0x3EF80E0", VA = "0x3EF80E0")]
 	private static void OnClientStateChanged(ClientState previousState, ClientState state)
 	{
 	}
 
 	[Token(Token = "0x60000E6")]
-	[Address(RVA = "0x3C14DB0", Offset = "0x3C14DB0", VA = "0x3C14DB0")]
+	[Address(RVA = "0x3EF82B0", Offset = "0x3EF82B0", VA = "0x3EF82B0")]
 	private static void OnRegionsPinged(RegionHandler regionHandler)
 	{
 	}

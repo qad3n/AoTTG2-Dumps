@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Map.BuiltinLevels
+// Update status: CHANGED in this game update
+// Real method bodies (native C decompile): source/cpp/Map/BuiltinLevels.c
+// Prior real C# source (older reference): Assets/Scripts/Map/BuiltinLevels.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 using Settings;
@@ -5,249 +12,235 @@ using SimpleJSONFixed;
 
 namespace Map;
 
-[Token(Token = "0x200022A")]
+[Token(Token = "0x2000263")]
 internal class BuiltinLevels
 {
-	[Token(Token = "0x4000C03")]
+	[Token(Token = "0x4000CEA")]
 	[FieldOffset(Offset = "0x0")]
 	private static JSONNode _info;
 
-	[Token(Token = "0x4000C04")]
+	[Token(Token = "0x4000CEB")]
 	[FieldOffset(Offset = "0x8")]
 	public static string CustomMapFolderPath;
 
-	[Token(Token = "0x4000C05")]
+	[Token(Token = "0x4000CEC")]
 	[FieldOffset(Offset = "0x10")]
 	public static string CustomMapAutosaveFolderPath;
 
-	[Token(Token = "0x4000C06")]
+	[Token(Token = "0x4000CED")]
 	[FieldOffset(Offset = "0x18")]
 	public static string CustomLogicFolderPath;
 
-	[Token(Token = "0x4000C07")]
+	[Token(Token = "0x4000CEE")]
 	[FieldOffset(Offset = "0x20")]
 	public static string CustomAddonFolderPath;
 
-	[Token(Token = "0x4000C08")]
+	[Token(Token = "0x4000CEF")]
 	[FieldOffset(Offset = "0x28")]
 	public static string UseMapLogic;
 
-	[Token(Token = "0x6000D04")]
-	[Address(RVA = "0x414B760", Offset = "0x414B760", VA = "0x414B760")]
+	[Token(Token = "0x6000EB1")]
+	[Address(RVA = "0x3F9AA30", Offset = "0x3F9AA30", VA = "0x3F9AA30")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x6000D05")]
-	[Address(RVA = "0x414B8F0", Offset = "0x414B8F0", VA = "0x414B8F0")]
+	[Token(Token = "0x6000EB2")]
+	[Address(RVA = "0x3F9ABC0", Offset = "0x3F9ABC0", VA = "0x3F9ABC0")]
 	public static string LoadMap(string category, string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D06")]
-	[Address(RVA = "0x414BE60", Offset = "0x414BE60", VA = "0x414BE60")]
+	[Token(Token = "0x6000EB3")]
+	[Address(RVA = "0x3F9B130", Offset = "0x3F9B130", VA = "0x3F9B130")]
 	public static string LoadAutosave(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D07")]
-	[Address(RVA = "0x414BF30", Offset = "0x414BF30", VA = "0x414BF30")]
+	[Token(Token = "0x6000EB4")]
+	[Address(RVA = "0x3F9B200", Offset = "0x3F9B200", VA = "0x3F9B200")]
 	public static string LoadLogic(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D08")]
-	[Address(RVA = "0x414C2D0", Offset = "0x414C2D0", VA = "0x414C2D0")]
+	[Token(Token = "0x6000EB5")]
+	[Address(RVA = "0x3F9B5A0", Offset = "0x3F9B5A0", VA = "0x3F9B5A0")]
 	public static bool IsLogicBuiltin(string name)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000D09")]
-	[Address(RVA = "0x414C4C0", Offset = "0x414C4C0", VA = "0x414C4C0")]
+	[Token(Token = "0x6000EB6")]
+	[Address(RVA = "0x3F9B790", Offset = "0x3F9B790", VA = "0x3F9B790")]
 	public static string[] GetMapCategories()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D0A")]
-	[Address(RVA = "0x414C830", Offset = "0x414C830", VA = "0x414C830")]
+	[Token(Token = "0x6000EB7")]
+	[Address(RVA = "0x3F9BB00", Offset = "0x3F9BB00", VA = "0x3F9BB00")]
 	public static string[] GetMapNames(string category)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D0B")]
-	[Address(RVA = "0x414CF40", Offset = "0x414CF40", VA = "0x414CF40")]
+	[Token(Token = "0x6000EB8")]
+	[Address(RVA = "0x3F9C210", Offset = "0x3F9C210", VA = "0x3F9C210")]
 	public static string[] GetAutosaveNames()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D0C")]
-	[Address(RVA = "0x414D030", Offset = "0x414D030", VA = "0x414D030")]
+	[Token(Token = "0x6000EB9")]
+	[Address(RVA = "0x3F98A40", Offset = "0x3F98A40", VA = "0x3F98A40")]
 	public static string LoadAddon(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D0D")]
-	[Address(RVA = "0x414D2D0", Offset = "0x414D2D0", VA = "0x414D2D0")]
-	private static string LoadBuiltinAddon(string name)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000D0E")]
-	[Address(RVA = "0x414D6C0", Offset = "0x414D6C0", VA = "0x414D6C0")]
+	[Token(Token = "0x6000EBA")]
+	[Address(RVA = "0x3F9C300", Offset = "0x3F9C300", VA = "0x3F9C300")]
 	public static string[] GetAddonNames()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D0F")]
-	[Address(RVA = "0x414DA50", Offset = "0x414DA50", VA = "0x414DA50")]
+	[Token(Token = "0x6000EBB")]
+	[Address(RVA = "0x3F9C690", Offset = "0x3F9C690", VA = "0x3F9C690")]
 	public static string[] GetBuiltinAddons()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D10")]
-	[Address(RVA = "0x414D230", Offset = "0x414D230", VA = "0x414D230")]
+	[Token(Token = "0x6000EBC")]
+	[Address(RVA = "0x3F989A0", Offset = "0x3F989A0", VA = "0x3F989A0")]
 	public static bool IsAddonBuiltin(string name)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000D11")]
-	[Address(RVA = "0x414DE30", Offset = "0x414DE30", VA = "0x414DE30")]
+	[Token(Token = "0x6000EBD")]
+	[Address(RVA = "0x3F9CA70", Offset = "0x3F9CA70", VA = "0x3F9CA70")]
 	public static string[] GetCustomAddons()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D12")]
-	[Address(RVA = "0x414E690", Offset = "0x414E690", VA = "0x414E690")]
+	[Token(Token = "0x6000EBE")]
+	[Address(RVA = "0x3F9CD00", Offset = "0x3F9CD00", VA = "0x3F9CD00")]
 	public static void DeleteCustomMap(string name)
 	{
 	}
 
-	[Token(Token = "0x6000D13")]
-	[Address(RVA = "0x414E730", Offset = "0x414E730", VA = "0x414E730")]
+	[Token(Token = "0x6000EBF")]
+	[Address(RVA = "0x3F9CDA0", Offset = "0x3F9CDA0", VA = "0x3F9CDA0")]
 	public static void DeleteCustomLogic(string name)
 	{
 	}
 
-	[Token(Token = "0x6000D14")]
-	[Address(RVA = "0x414E800", Offset = "0x414E800", VA = "0x414E800")]
+	[Token(Token = "0x6000EC0")]
+	[Address(RVA = "0x3F9CE70", Offset = "0x3F9CE70", VA = "0x3F9CE70")]
 	public static void DeleteCustomAddon(string name)
 	{
 	}
 
-	[Token(Token = "0x6000D15")]
-	[Address(RVA = "0x414E910", Offset = "0x414E910", VA = "0x414E910")]
+	[Token(Token = "0x6000EC1")]
+	[Address(RVA = "0x3F9CF10", Offset = "0x3F9CF10", VA = "0x3F9CF10")]
 	public static void SaveCustomMap(string name, MapScript script)
 	{
 	}
 
-	[Token(Token = "0x6000D16")]
-	[Address(RVA = "0x414E9D0", Offset = "0x414E9D0", VA = "0x414E9D0")]
+	[Token(Token = "0x6000EC2")]
+	[Address(RVA = "0x3F9CFD0", Offset = "0x3F9CFD0", VA = "0x3F9CFD0")]
 	public static void AutosaveCustomMap(string name, MapScript script)
 	{
 	}
 
-	[Token(Token = "0x6000D17")]
-	[Address(RVA = "0x414EA90", Offset = "0x414EA90", VA = "0x414EA90")]
+	[Token(Token = "0x6000EC3")]
+	[Address(RVA = "0x3F9D090", Offset = "0x3F9D090", VA = "0x3F9D090")]
 	public static void SaveCustomLogic(string name, string script)
 	{
 	}
 
-	[Token(Token = "0x6000D18")]
-	[Address(RVA = "0x414EB30", Offset = "0x414EB30", VA = "0x414EB30")]
+	[Token(Token = "0x6000EC4")]
+	[Address(RVA = "0x3F9D130", Offset = "0x3F9D130", VA = "0x3F9D130")]
 	public static void SaveCustomAddon(string name, string script)
 	{
 	}
 
-	[Token(Token = "0x6000D19")]
-	[Address(RVA = "0x414EBD0", Offset = "0x414EBD0", VA = "0x414EBD0")]
+	[Token(Token = "0x6000EC5")]
+	[Address(RVA = "0x3F9D1D0", Offset = "0x3F9D1D0", VA = "0x3F9D1D0")]
 	public static string[] GetGameModes(string category, string mapName, bool hasMapLogic)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D1A")]
-	[Address(RVA = "0x414FD40", Offset = "0x414FD40", VA = "0x414FD40")]
+	[Token(Token = "0x6000EC6")]
+	[Address(RVA = "0x3F9E340", Offset = "0x3F9E340", VA = "0x3F9E340")]
 	public static void LoadMiscSettings(string category, string mapName, string gameMode, InGameMiscSettings settings)
 	{
 	}
 
-	[Token(Token = "0x6000D1B")]
-	[Address(RVA = "0x414CDA0", Offset = "0x414CDA0", VA = "0x414CDA0")]
+	[Token(Token = "0x6000EC7")]
+	[Address(RVA = "0x3F9C070", Offset = "0x3F9C070", VA = "0x3F9C070")]
 	private static string[] GetTxtFiles(string path)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D1C")]
-	[Address(RVA = "0x414E4F0", Offset = "0x414E4F0", VA = "0x414E4F0")]
+	[Token(Token = "0x6000EC8")]
+	[Address(RVA = "0x3F9CB60", Offset = "0x3F9CB60", VA = "0x3F9CB60")]
 	private static string[] GetClFiles(string path)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D1D")]
-	[Address(RVA = "0x414E350", Offset = "0x414E350", VA = "0x414E350")]
-	private static string[] GetAddonFiles(string path)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000D1E")]
-	[Address(RVA = "0x414F970", Offset = "0x414F970", VA = "0x414F970")]
+	[Token(Token = "0x6000EC9")]
+	[Address(RVA = "0x3F9DF70", Offset = "0x3F9DF70", VA = "0x3F9DF70")]
 	public static string[] GetCustomModes()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D1F")]
-	[Address(RVA = "0x4150380", Offset = "0x4150380", VA = "0x4150380")]
+	[Token(Token = "0x6000ECA")]
+	[Address(RVA = "0x3F9E980", Offset = "0x3F9E980", VA = "0x3F9E980")]
 	private static Dictionary<string, JSONNode> GetMiscSettings(string category, string mapName, string gameMode)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D20")]
-	[Address(RVA = "0x414BB30", Offset = "0x414BB30", VA = "0x414BB30")]
+	[Token(Token = "0x6000ECB")]
+	[Address(RVA = "0x3F9AE00", Offset = "0x3F9AE00", VA = "0x3F9AE00")]
 	private static JSONNode GetMap(string category, string mapName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D21")]
-	[Address(RVA = "0x414F7B0", Offset = "0x414F7B0", VA = "0x414F7B0")]
+	[Token(Token = "0x6000ECC")]
+	[Address(RVA = "0x3F9DDB0", Offset = "0x3F9DDB0", VA = "0x3F9DDB0")]
 	private static JSONNode GetCategory(string category)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D22")]
-	[Address(RVA = "0x4150560", Offset = "0x4150560", VA = "0x4150560")]
+	[Token(Token = "0x6000ECD")]
+	[Address(RVA = "0x3F9EB60", Offset = "0x3F9EB60", VA = "0x3F9EB60")]
 	private static JSONNode GetGameMode(string gameMode)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D23")]
-	[Address(RVA = "0x4150720", Offset = "0x4150720", VA = "0x4150720")]
+	[Token(Token = "0x6000ECE")]
+	[Address(RVA = "0x3F9ED20", Offset = "0x3F9ED20", VA = "0x3F9ED20")]
 	private static void LoadSettings(Dictionary<string, JSONNode> current, JSONNode node)
 	{
 	}
 
-	[Token(Token = "0x6000D24")]
-	[Address(RVA = "0x4150930", Offset = "0x4150930", VA = "0x4150930")]
+	[Token(Token = "0x6000ECF")]
+	[Address(RVA = "0x3F9EF30", Offset = "0x3F9EF30", VA = "0x3F9EF30")]
 	public BuiltinLevels()
 	{
 	}

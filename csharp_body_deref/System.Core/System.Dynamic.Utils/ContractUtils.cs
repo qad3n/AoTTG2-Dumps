@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Dynamic.Utils.ContractUtils
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using Il2CppDummyDll;
@@ -12,7 +19,7 @@ internal static class ContractUtils
 	public static Exception Unreachable
 	{
 		[Token(Token = "0x6000C90")]
-		[Address(RVA = "0x41EC1A0", Offset = "0x41EC1A0", VA = "0x41EC1A0")]
+		[Address(RVA = "0x45112A0", Offset = "0x45112A0", VA = "0x45112A0")]
 		get
 		{
 			return null;
@@ -20,19 +27,19 @@ internal static class ContractUtils
 	}
 
 	[Token(Token = "0x6000C91")]
-	[Address(RVA = "0x41EBAA0", Offset = "0x41EBAA0", VA = "0x41EBAA0")]
+	[Address(RVA = "0x4510BA0", Offset = "0x4510BA0", VA = "0x4510BA0")]
 	public static void Requires(bool precondition, string paramName)
 	{
 	}
 
 	[Token(Token = "0x6000C92")]
-	[Address(RVA = "0x41E9050", Offset = "0x41E9050", VA = "0x41E9050")]
+	[Address(RVA = "0x450E150", Offset = "0x450E150", VA = "0x450E150")]
 	public static void RequiresNotNull(object value, string paramName)
 	{
 	}
 
 	[Token(Token = "0x6000C93")]
-	[Address(RVA = "0x41EC200", Offset = "0x41EC200", VA = "0x41EC200")]
+	[Address(RVA = "0x4511300", Offset = "0x4511300", VA = "0x4511300")]
 	public static void RequiresNotNull(object value, string paramName, int index)
 	{
 	}
@@ -43,7 +50,7 @@ internal static class ContractUtils
 	}
 
 	[Token(Token = "0x6000C95")]
-	[Address(RVA = "0x41EC260", Offset = "0x41EC260", VA = "0x41EC260")]
+	[Address(RVA = "0x4511360", Offset = "0x4511360", VA = "0x4511360")]
 	private static string GetParamName(string paramName, int index)
 	{
 		return null;

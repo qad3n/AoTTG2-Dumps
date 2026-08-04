@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.Proxies.TransparentProxy
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using System.Runtime.Remoting.Contexts;
 using Il2CppDummyDll;
@@ -25,7 +32,7 @@ internal class TransparentProxy
 	private bool IsContextBoundObject
 	{
 		[Token(Token = "0x6001CF3")]
-		[Address(RVA = "0x4E8C1D0", Offset = "0x4E8C1D0", VA = "0x4E8C1D0")]
+		[Address(RVA = "0x3B71CF0", Offset = "0x3B71CF0", VA = "0x3B71CF0")]
 		get
 		{
 			return default(bool);
@@ -36,7 +43,7 @@ internal class TransparentProxy
 	private Context TargetContext
 	{
 		[Token(Token = "0x6001CF4")]
-		[Address(RVA = "0x4E8C1F0", Offset = "0x4E8C1F0", VA = "0x4E8C1F0")]
+		[Address(RVA = "0x3B71D10", Offset = "0x3B71D10", VA = "0x3B71D10")]
 		get
 		{
 			return null;
@@ -44,34 +51,34 @@ internal class TransparentProxy
 	}
 
 	[Token(Token = "0x6001CF2")]
-	[Address(RVA = "0x4E8C120", Offset = "0x4E8C120", VA = "0x4E8C120")]
+	[Address(RVA = "0x3B71C40", Offset = "0x3B71C40", VA = "0x3B71C40")]
 	internal System.RuntimeType GetProxyType()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001CF5")]
-	[Address(RVA = "0x4E8C210", Offset = "0x4E8C210", VA = "0x4E8C210")]
+	[Address(RVA = "0x3B71D30", Offset = "0x3B71D30", VA = "0x3B71D30")]
 	private bool InCurrentContext()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001CF6")]
-	[Address(RVA = "0x4E8C260", Offset = "0x4E8C260", VA = "0x4E8C260")]
+	[Address(RVA = "0x3B71D80", Offset = "0x3B71D80", VA = "0x3B71D80")]
 	internal object LoadRemoteFieldNew(IntPtr classPtr, IntPtr fieldPtr)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001CF7")]
-	[Address(RVA = "0x4E8D370", Offset = "0x4E8D370", VA = "0x4E8D370")]
+	[Address(RVA = "0x3B72E90", Offset = "0x3B72E90", VA = "0x3B72E90")]
 	internal void StoreRemoteField(IntPtr classPtr, IntPtr fieldPtr, object arg)
 	{
 	}
 
 	[Token(Token = "0x6001CF8")]
-	[Address(RVA = "0x4E8D6A0", Offset = "0x4E8D6A0", VA = "0x4E8D6A0")]
+	[Address(RVA = "0x3B731C0", Offset = "0x3B731C0", VA = "0x3B731C0")]
 	public TransparentProxy()
 	{
 	}

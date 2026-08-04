@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.UnitySerializationHolder
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Reflection;
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
@@ -41,57 +48,57 @@ internal class UnitySerializationHolder : ISerializable, IObjectReference
 	private int m_unityType;
 
 	[Token(Token = "0x6000EE6")]
-	[Address(RVA = "0x501DD00", Offset = "0x501DD00", VA = "0x501DD00")]
+	[Address(RVA = "0x3D03820", Offset = "0x3D03820", VA = "0x3D03820")]
 	internal static System.RuntimeType AddElementTypes(SerializationInfo info, System.RuntimeType type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EE7")]
-	[Address(RVA = "0x501E0D0", Offset = "0x501E0D0", VA = "0x501E0D0")]
+	[Address(RVA = "0x3D03BF0", Offset = "0x3D03BF0", VA = "0x3D03BF0")]
 	internal Type MakeElementTypes(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EE8")]
-	[Address(RVA = "0x501E1F0", Offset = "0x501E1F0", VA = "0x501E1F0")]
+	[Address(RVA = "0x3D03D10", Offset = "0x3D03D10", VA = "0x3D03D10")]
 	internal static void GetUnitySerializationInfo(SerializationInfo info, int unityType)
 	{
 	}
 
 	[Token(Token = "0x6000EE9")]
-	[Address(RVA = "0x501E300", Offset = "0x501E300", VA = "0x501E300")]
+	[Address(RVA = "0x3D03E20", Offset = "0x3D03E20", VA = "0x3D03E20")]
 	internal static void GetUnitySerializationInfo(SerializationInfo info, System.RuntimeType type)
 	{
 	}
 
 	[Token(Token = "0x6000EEA")]
-	[Address(RVA = "0x501E640", Offset = "0x501E640", VA = "0x501E640")]
+	[Address(RVA = "0x3D04160", Offset = "0x3D04160", VA = "0x3D04160")]
 	internal static void GetUnitySerializationInfo(SerializationInfo info, int unityType, string data, System.Reflection.RuntimeAssembly assembly)
 	{
 	}
 
 	[Token(Token = "0x6000EEB")]
-	[Address(RVA = "0x501E790", Offset = "0x501E790", VA = "0x501E790")]
+	[Address(RVA = "0x3D042B0", Offset = "0x3D042B0", VA = "0x3D042B0")]
 	internal UnitySerializationHolder(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000EEC")]
-	[Address(RVA = "0x501EC00", Offset = "0x501EC00", VA = "0x501EC00")]
+	[Address(RVA = "0x3D04720", Offset = "0x3D04720", VA = "0x3D04720")]
 	private void ThrowInsufficientInformation(string field)
 	{
 	}
 
 	[Token(Token = "0x6000EED")]
-	[Address(RVA = "0x501ED00", Offset = "0x501ED00", VA = "0x501ED00", Slot = "6")]
+	[Address(RVA = "0x3D04820", Offset = "0x3D04820", VA = "0x3D04820", Slot = "6")]
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000EEE")]
-	[Address(RVA = "0x501ED50", Offset = "0x501ED50", VA = "0x501ED50", Slot = "7")]
+	[Address(RVA = "0x3D04870", Offset = "0x3D04870", VA = "0x3D04870", Slot = "7")]
 	public virtual object GetRealObject(StreamingContext context)
 	{
 		return null;

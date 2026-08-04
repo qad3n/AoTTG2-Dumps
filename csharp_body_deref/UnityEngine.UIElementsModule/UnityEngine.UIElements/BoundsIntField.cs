@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.BoundsIntField
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Scripting.APIUpdating;
 
@@ -11,7 +18,7 @@ public class BoundsIntField : BaseField<BoundsInt>
 	public new class UxmlFactory : UxmlFactory<BoundsIntField, UxmlTraits>
 	{
 		[Token(Token = "0x600033B")]
-		[Address(RVA = "0x4C093F0", Offset = "0x4C093F0", VA = "0x4C093F0")]
+		[Address(RVA = "0x4F30D20", Offset = "0x4F30D20", VA = "0x4F30D20")]
 		public UxmlFactory()
 		{
 		}
@@ -45,13 +52,13 @@ public class BoundsIntField : BaseField<BoundsInt>
 		private UxmlIntAttributeDescription m_SizeZValue;
 
 		[Token(Token = "0x600033C")]
-		[Address(RVA = "0x4C09430", Offset = "0x4C09430", VA = "0x4C09430", Slot = "4")]
+		[Address(RVA = "0x4F30D60", Offset = "0x4F30D60", VA = "0x4F30D60", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x600033D")]
-		[Address(RVA = "0x4C09760", Offset = "0x4C09760", VA = "0x4C09760")]
+		[Address(RVA = "0x4F31090", Offset = "0x4F31090", VA = "0x4F31090")]
 		public UxmlTraits()
 		{
 		}
@@ -86,25 +93,25 @@ public class BoundsIntField : BaseField<BoundsInt>
 	public static readonly string sizeUssClassName;
 
 	[Token(Token = "0x6000334")]
-	[Address(RVA = "0x4C08A50", Offset = "0x4C08A50", VA = "0x4C08A50")]
+	[Address(RVA = "0x4F30380", Offset = "0x4F30380", VA = "0x4F30380")]
 	public BoundsIntField()
 	{
 	}
 
 	[Token(Token = "0x6000335")]
-	[Address(RVA = "0x4C08A60", Offset = "0x4C08A60", VA = "0x4C08A60")]
+	[Address(RVA = "0x4F30390", Offset = "0x4F30390", VA = "0x4F30390")]
 	public BoundsIntField(string label)
 	{
 	}
 
 	[Token(Token = "0x6000336")]
-	[Address(RVA = "0x4C08F70", Offset = "0x4C08F70", VA = "0x4C08F70", Slot = "114")]
+	[Address(RVA = "0x4F308A0", Offset = "0x4F308A0", VA = "0x4F308A0", Slot = "114")]
 	public override void SetValueWithoutNotify(BoundsInt newValue)
 	{
 	}
 
 	[Token(Token = "0x6000337")]
-	[Address(RVA = "0x4C09060", Offset = "0x4C09060", VA = "0x4C09060", Slot = "113")]
+	[Address(RVA = "0x4F30990", Offset = "0x4F30990", VA = "0x4F30990", Slot = "113")]
 	protected override void UpdateMixedValueContent()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XmlSchemaCollectionNode
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -21,7 +28,7 @@ internal sealed class XmlSchemaCollectionNode
 	internal string NamespaceURI
 	{
 		[Token(Token = "0x600158C")]
-		[Address(RVA = "0x43E2D40", Offset = "0x43E2D40", VA = "0x43E2D40")]
+		[Address(RVA = "0x47204A0", Offset = "0x47204A0", VA = "0x47204A0")]
 		set
 		{
 		}
@@ -31,13 +38,13 @@ internal sealed class XmlSchemaCollectionNode
 	internal SchemaInfo SchemaInfo
 	{
 		[Token(Token = "0x600158D")]
-		[Address(RVA = "0x43E2D50", Offset = "0x43E2D50", VA = "0x43E2D50")]
+		[Address(RVA = "0x47204B0", Offset = "0x47204B0", VA = "0x47204B0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600158E")]
-		[Address(RVA = "0x43E2D60", Offset = "0x43E2D60", VA = "0x43E2D60")]
+		[Address(RVA = "0x47204C0", Offset = "0x47204C0", VA = "0x47204C0")]
 		set
 		{
 		}
@@ -47,20 +54,20 @@ internal sealed class XmlSchemaCollectionNode
 	internal XmlSchema Schema
 	{
 		[Token(Token = "0x600158F")]
-		[Address(RVA = "0x43E2D70", Offset = "0x43E2D70", VA = "0x43E2D70")]
+		[Address(RVA = "0x47204D0", Offset = "0x47204D0", VA = "0x47204D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001590")]
-		[Address(RVA = "0x43E2D80", Offset = "0x43E2D80", VA = "0x43E2D80")]
+		[Address(RVA = "0x47204E0", Offset = "0x47204E0", VA = "0x47204E0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001591")]
-	[Address(RVA = "0x43E2BC0", Offset = "0x43E2BC0", VA = "0x43E2BC0")]
+	[Address(RVA = "0x4720320", Offset = "0x4720320", VA = "0x4720320")]
 	public XmlSchemaCollectionNode()
 	{
 	}

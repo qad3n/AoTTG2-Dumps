@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.Antialiasing
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/Antialiasing.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -98,27 +105,27 @@ public class Antialiasing : PostEffectsBase
 	private Material materialFXAAIII;
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x4150BA0", Offset = "0x4150BA0", VA = "0x4150BA0")]
+	[Address(RVA = "0x4475CA0", Offset = "0x4475CA0", VA = "0x4475CA0")]
 	public Material CurrentAAMaterial()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x4150C00", Offset = "0x4150C00", VA = "0x4150C00", Slot = "4")]
+	[Address(RVA = "0x4475D00", Offset = "0x4475D00", VA = "0x4475D00", Slot = "4")]
 	public override bool CheckResources()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x4151190", Offset = "0x4151190", VA = "0x4151190")]
+	[Address(RVA = "0x4476290", Offset = "0x4476290", VA = "0x4476290")]
 	public void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x41516E0", Offset = "0x41516E0", VA = "0x41516E0")]
+	[Address(RVA = "0x44767E0", Offset = "0x44767E0", VA = "0x44767E0")]
 	public Antialiasing()
 	{
 	}

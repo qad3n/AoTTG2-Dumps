@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.AtlasAllocator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
@@ -21,20 +28,20 @@ internal class AtlasAllocator
 		public Vector4 m_Rect;
 
 		[Token(Token = "0x6000B4D")]
-		[Address(RVA = "0x48C2120", Offset = "0x48C2120", VA = "0x48C2120")]
+		[Address(RVA = "0x4BE7190", Offset = "0x4BE7190", VA = "0x4BE7190")]
 		public AtlasNode Allocate(ref ObjectPool<AtlasNode> pool, int width, int height, bool powerOfTwoPadding)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000B4E")]
-		[Address(RVA = "0x48C23C0", Offset = "0x48C23C0", VA = "0x48C23C0")]
+		[Address(RVA = "0x4BE7430", Offset = "0x4BE7430", VA = "0x4BE7430")]
 		public void Release(ref ObjectPool<AtlasNode> pool)
 		{
 		}
 
 		[Token(Token = "0x6000B4F")]
-		[Address(RVA = "0x48C20A0", Offset = "0x48C20A0", VA = "0x48C20A0")]
+		[Address(RVA = "0x4BE7110", Offset = "0x4BE7110", VA = "0x4BE7110")]
 		public AtlasNode()
 		{
 		}
@@ -61,20 +68,20 @@ internal class AtlasAllocator
 	private ObjectPool<AtlasNode> m_NodePool;
 
 	[Token(Token = "0x6000B4A")]
-	[Address(RVA = "0x48C1E00", Offset = "0x48C1E00", VA = "0x48C1E00")]
+	[Address(RVA = "0x4BE6E70", Offset = "0x4BE6E70", VA = "0x4BE6E70")]
 	public AtlasAllocator(int width, int height, bool potPadding)
 	{
 	}
 
 	[Token(Token = "0x6000B4B")]
-	[Address(RVA = "0x48C20B0", Offset = "0x48C20B0", VA = "0x48C20B0")]
+	[Address(RVA = "0x4BE7120", Offset = "0x4BE7120", VA = "0x4BE7120")]
 	public bool Allocate(ref Vector4 result, int width, int height)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B4C")]
-	[Address(RVA = "0x48C2370", Offset = "0x48C2370", VA = "0x48C2370")]
+	[Address(RVA = "0x4BE73E0", Offset = "0x4BE73E0", VA = "0x4BE73E0")]
 	public void Reset()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Collections.SortedList
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -26,7 +33,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public override int Count
 		{
 			[Token(Token = "0x6002F62")]
-			[Address(RVA = "0x4F9CD70", Offset = "0x4F9CD70", VA = "0x4F9CD70", Slot = "23")]
+			[Address(RVA = "0x3C82890", Offset = "0x3C82890", VA = "0x3C82890", Slot = "23")]
 			get
 			{
 				return default(int);
@@ -37,7 +44,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public override object SyncRoot
 		{
 			[Token(Token = "0x6002F63")]
-			[Address(RVA = "0x4F9CE60", Offset = "0x4F9CE60", VA = "0x4F9CE60", Slot = "29")]
+			[Address(RVA = "0x3C82980", Offset = "0x3C82980", VA = "0x3C82980", Slot = "29")]
 			get
 			{
 				return null;
@@ -48,7 +55,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public override bool IsReadOnly
 		{
 			[Token(Token = "0x6002F64")]
-			[Address(RVA = "0x4F9CE70", Offset = "0x4F9CE70", VA = "0x4F9CE70", Slot = "26")]
+			[Address(RVA = "0x3C82990", Offset = "0x3C82990", VA = "0x3C82990", Slot = "26")]
 			get
 			{
 				return default(bool);
@@ -59,7 +66,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public override bool IsFixedSize
 		{
 			[Token(Token = "0x6002F65")]
-			[Address(RVA = "0x4F9CEA0", Offset = "0x4F9CEA0", VA = "0x4F9CEA0", Slot = "27")]
+			[Address(RVA = "0x3C829C0", Offset = "0x3C829C0", VA = "0x3C829C0", Slot = "27")]
 			get
 			{
 				return default(bool);
@@ -70,7 +77,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public override bool IsSynchronized
 		{
 			[Token(Token = "0x6002F66")]
-			[Address(RVA = "0x4F9CED0", Offset = "0x4F9CED0", VA = "0x4F9CED0", Slot = "28")]
+			[Address(RVA = "0x3C829F0", Offset = "0x3C829F0", VA = "0x3C829F0", Slot = "28")]
 			get
 			{
 				return default(bool);
@@ -81,127 +88,127 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public override object this[object key]
 		{
 			[Token(Token = "0x6002F67")]
-			[Address(RVA = "0x4F9CEE0", Offset = "0x4F9CEE0", VA = "0x4F9CEE0", Slot = "41")]
+			[Address(RVA = "0x3C82A00", Offset = "0x3C82A00", VA = "0x3C82A00", Slot = "41")]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x6002F68")]
-			[Address(RVA = "0x4F9CFD0", Offset = "0x4F9CFD0", VA = "0x4F9CFD0", Slot = "42")]
+			[Address(RVA = "0x3C82AF0", Offset = "0x3C82AF0", VA = "0x3C82AF0", Slot = "42")]
 			set
 			{
 			}
 		}
 
 		[Token(Token = "0x6002F61")]
-		[Address(RVA = "0x4F9CD10", Offset = "0x4F9CD10", VA = "0x4F9CD10")]
+		[Address(RVA = "0x3C82830", Offset = "0x3C82830", VA = "0x3C82830")]
 		internal SyncSortedList(SortedList list)
 		{
 		}
 
 		[Token(Token = "0x6002F69")]
-		[Address(RVA = "0x4F9D0B0", Offset = "0x4F9D0B0", VA = "0x4F9D0B0", Slot = "21")]
+		[Address(RVA = "0x3C82BD0", Offset = "0x3C82BD0", VA = "0x3C82BD0", Slot = "21")]
 		public override void Add(object key, object value)
 		{
 		}
 
 		[Token(Token = "0x6002F6A")]
-		[Address(RVA = "0x4F9D190", Offset = "0x4F9D190", VA = "0x4F9D190", Slot = "30")]
+		[Address(RVA = "0x3C82CB0", Offset = "0x3C82CB0", VA = "0x3C82CB0", Slot = "30")]
 		public override void Clear()
 		{
 		}
 
 		[Token(Token = "0x6002F6B")]
-		[Address(RVA = "0x4F9D260", Offset = "0x4F9D260", VA = "0x4F9D260", Slot = "31")]
+		[Address(RVA = "0x3C82D80", Offset = "0x3C82D80", VA = "0x3C82D80", Slot = "31")]
 		public override object Clone()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6002F6C")]
-		[Address(RVA = "0x4F9D350", Offset = "0x4F9D350", VA = "0x4F9D350", Slot = "32")]
+		[Address(RVA = "0x3C82E70", Offset = "0x3C82E70", VA = "0x3C82E70", Slot = "32")]
 		public override bool Contains(object key)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6002F6D")]
-		[Address(RVA = "0x4F9D440", Offset = "0x4F9D440", VA = "0x4F9D440", Slot = "33")]
+		[Address(RVA = "0x3C82F60", Offset = "0x3C82F60", VA = "0x3C82F60", Slot = "33")]
 		public override bool ContainsKey(object key)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6002F6E")]
-		[Address(RVA = "0x4F9D530", Offset = "0x4F9D530", VA = "0x4F9D530", Slot = "34")]
+		[Address(RVA = "0x3C83050", Offset = "0x3C83050", VA = "0x3C83050", Slot = "34")]
 		public override bool ContainsValue(object key)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6002F6F")]
-		[Address(RVA = "0x4F9D620", Offset = "0x4F9D620", VA = "0x4F9D620", Slot = "35")]
+		[Address(RVA = "0x3C83140", Offset = "0x3C83140", VA = "0x3C83140", Slot = "35")]
 		public override void CopyTo(Array array, int index)
 		{
 		}
 
 		[Token(Token = "0x6002F70")]
-		[Address(RVA = "0x4F9D700", Offset = "0x4F9D700", VA = "0x4F9D700", Slot = "36")]
+		[Address(RVA = "0x3C83220", Offset = "0x3C83220", VA = "0x3C83220", Slot = "36")]
 		public override object GetByIndex(int index)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6002F71")]
-		[Address(RVA = "0x4F9D800", Offset = "0x4F9D800", VA = "0x4F9D800", Slot = "37")]
+		[Address(RVA = "0x3C83320", Offset = "0x3C83320", VA = "0x3C83320", Slot = "37")]
 		public override IDictionaryEnumerator GetEnumerator()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6002F72")]
-		[Address(RVA = "0x4F9D8F0", Offset = "0x4F9D8F0", VA = "0x4F9D8F0", Slot = "38")]
+		[Address(RVA = "0x3C83410", Offset = "0x3C83410", VA = "0x3C83410", Slot = "38")]
 		public override object GetKey(int index)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6002F73")]
-		[Address(RVA = "0x4F9D9F0", Offset = "0x4F9D9F0", VA = "0x4F9D9F0", Slot = "39")]
+		[Address(RVA = "0x3C83510", Offset = "0x3C83510", VA = "0x3C83510", Slot = "39")]
 		public override IList GetKeyList()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6002F74")]
-		[Address(RVA = "0x4F9DAE0", Offset = "0x4F9DAE0", VA = "0x4F9DAE0", Slot = "40")]
+		[Address(RVA = "0x3C83600", Offset = "0x3C83600", VA = "0x3C83600", Slot = "40")]
 		public override IList GetValueList()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6002F75")]
-		[Address(RVA = "0x4F9DBD0", Offset = "0x4F9DBD0", VA = "0x4F9DBD0", Slot = "43")]
+		[Address(RVA = "0x3C836F0", Offset = "0x3C836F0", VA = "0x3C836F0", Slot = "43")]
 		public override int IndexOfKey(object key)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6002F76")]
-		[Address(RVA = "0x4F9DD30", Offset = "0x4F9DD30", VA = "0x4F9DD30", Slot = "44")]
+		[Address(RVA = "0x3C83850", Offset = "0x3C83850", VA = "0x3C83850", Slot = "44")]
 		public override int IndexOfValue(object value)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6002F77")]
-		[Address(RVA = "0x4F9DE20", Offset = "0x4F9DE20", VA = "0x4F9DE20", Slot = "45")]
+		[Address(RVA = "0x3C83940", Offset = "0x3C83940", VA = "0x3C83940", Slot = "45")]
 		public override void RemoveAt(int index)
 		{
 		}
 
 		[Token(Token = "0x6002F78")]
-		[Address(RVA = "0x4F9DEF0", Offset = "0x4F9DEF0", VA = "0x4F9DEF0", Slot = "46")]
+		[Address(RVA = "0x3C83A10", Offset = "0x3C83A10", VA = "0x3C83A10", Slot = "46")]
 		public override void Remove(object key)
 		{
 		}
@@ -251,7 +258,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public virtual object Key
 		{
 			[Token(Token = "0x6002F7B")]
-			[Address(RVA = "0x4F9DFE0", Offset = "0x4F9DFE0", VA = "0x4F9DFE0", Slot = "11")]
+			[Address(RVA = "0x3C83B00", Offset = "0x3C83B00", VA = "0x3C83B00", Slot = "11")]
 			get
 			{
 				return null;
@@ -262,7 +269,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public virtual DictionaryEntry Entry
 		{
 			[Token(Token = "0x6002F7D")]
-			[Address(RVA = "0x4F9E190", Offset = "0x4F9E190", VA = "0x4F9E190", Slot = "13")]
+			[Address(RVA = "0x3C83CB0", Offset = "0x3C83CB0", VA = "0x3C83CB0", Slot = "13")]
 			get
 			{
 				return default(DictionaryEntry);
@@ -273,7 +280,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public virtual object Current
 		{
 			[Token(Token = "0x6002F7E")]
-			[Address(RVA = "0x4F9E270", Offset = "0x4F9E270", VA = "0x4F9E270", Slot = "14")]
+			[Address(RVA = "0x3C83D90", Offset = "0x3C83D90", VA = "0x3C83D90", Slot = "14")]
 			get
 			{
 				return null;
@@ -284,7 +291,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public virtual object Value
 		{
 			[Token(Token = "0x6002F7F")]
-			[Address(RVA = "0x4F9E360", Offset = "0x4F9E360", VA = "0x4F9E360", Slot = "15")]
+			[Address(RVA = "0x3C83E80", Offset = "0x3C83E80", VA = "0x3C83E80", Slot = "15")]
 			get
 			{
 				return null;
@@ -292,27 +299,27 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		}
 
 		[Token(Token = "0x6002F79")]
-		[Address(RVA = "0x4F9C540", Offset = "0x4F9C540", VA = "0x4F9C540")]
+		[Address(RVA = "0x3C82060", Offset = "0x3C82060", VA = "0x3C82060")]
 		internal SortedListEnumerator(SortedList sortedList, int index, int count, int getObjRetType)
 		{
 		}
 
 		[Token(Token = "0x6002F7A")]
-		[Address(RVA = "0x4F9DFD0", Offset = "0x4F9DFD0", VA = "0x4F9DFD0", Slot = "10")]
+		[Address(RVA = "0x3C83AF0", Offset = "0x3C83AF0", VA = "0x3C83AF0", Slot = "10")]
 		public object Clone()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6002F7C")]
-		[Address(RVA = "0x4F9E070", Offset = "0x4F9E070", VA = "0x4F9E070", Slot = "12")]
+		[Address(RVA = "0x3C83B90", Offset = "0x3C83B90", VA = "0x3C83B90", Slot = "12")]
 		public virtual bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6002F80")]
-		[Address(RVA = "0x4F9E3F0", Offset = "0x4F9E3F0", VA = "0x4F9E3F0", Slot = "16")]
+		[Address(RVA = "0x3C83F10", Offset = "0x3C83F10", VA = "0x3C83F10", Slot = "16")]
 		public virtual void Reset()
 		{
 		}
@@ -331,7 +338,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public virtual int Count
 		{
 			[Token(Token = "0x6002F82")]
-			[Address(RVA = "0x4F9E490", Offset = "0x4F9E490", VA = "0x4F9E490", Slot = "20")]
+			[Address(RVA = "0x3C83FB0", Offset = "0x3C83FB0", VA = "0x3C83FB0", Slot = "20")]
 			get
 			{
 				return default(int);
@@ -342,7 +349,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public virtual bool IsReadOnly
 		{
 			[Token(Token = "0x6002F83")]
-			[Address(RVA = "0x4F9E4B0", Offset = "0x4F9E4B0", VA = "0x4F9E4B0", Slot = "21")]
+			[Address(RVA = "0x3C83FD0", Offset = "0x3C83FD0", VA = "0x3C83FD0", Slot = "21")]
 			get
 			{
 				return default(bool);
@@ -353,7 +360,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public virtual bool IsFixedSize
 		{
 			[Token(Token = "0x6002F84")]
-			[Address(RVA = "0x4F9E4C0", Offset = "0x4F9E4C0", VA = "0x4F9E4C0", Slot = "22")]
+			[Address(RVA = "0x3C83FE0", Offset = "0x3C83FE0", VA = "0x3C83FE0", Slot = "22")]
 			get
 			{
 				return default(bool);
@@ -364,7 +371,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public virtual bool IsSynchronized
 		{
 			[Token(Token = "0x6002F85")]
-			[Address(RVA = "0x4F9E4D0", Offset = "0x4F9E4D0", VA = "0x4F9E4D0", Slot = "23")]
+			[Address(RVA = "0x3C83FF0", Offset = "0x3C83FF0", VA = "0x3C83FF0", Slot = "23")]
 			get
 			{
 				return default(bool);
@@ -375,7 +382,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public virtual object SyncRoot
 		{
 			[Token(Token = "0x6002F86")]
-			[Address(RVA = "0x4F9E500", Offset = "0x4F9E500", VA = "0x4F9E500", Slot = "24")]
+			[Address(RVA = "0x3C84020", Offset = "0x3C84020", VA = "0x3C84020", Slot = "24")]
 			get
 			{
 				return null;
@@ -386,78 +393,78 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public virtual object this[int index]
 		{
 			[Token(Token = "0x6002F8C")]
-			[Address(RVA = "0x4F9E710", Offset = "0x4F9E710", VA = "0x4F9E710", Slot = "30")]
+			[Address(RVA = "0x3C84230", Offset = "0x3C84230", VA = "0x3C84230", Slot = "30")]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x6002F8D")]
-			[Address(RVA = "0x4F9E740", Offset = "0x4F9E740", VA = "0x4F9E740", Slot = "31")]
+			[Address(RVA = "0x3C84260", Offset = "0x3C84260", VA = "0x3C84260", Slot = "31")]
 			set
 			{
 			}
 		}
 
 		[Token(Token = "0x6002F81")]
-		[Address(RVA = "0x4F9C770", Offset = "0x4F9C770", VA = "0x4F9C770")]
+		[Address(RVA = "0x3C82290", Offset = "0x3C82290", VA = "0x3C82290")]
 		internal KeyList(SortedList sortedList)
 		{
 		}
 
 		[Token(Token = "0x6002F87")]
-		[Address(RVA = "0x4F9E530", Offset = "0x4F9E530", VA = "0x4F9E530", Slot = "25")]
+		[Address(RVA = "0x3C84050", Offset = "0x3C84050", VA = "0x3C84050", Slot = "25")]
 		public virtual int Add(object key)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6002F88")]
-		[Address(RVA = "0x4F9E580", Offset = "0x4F9E580", VA = "0x4F9E580", Slot = "26")]
+		[Address(RVA = "0x3C840A0", Offset = "0x3C840A0", VA = "0x3C840A0", Slot = "26")]
 		public virtual void Clear()
 		{
 		}
 
 		[Token(Token = "0x6002F89")]
-		[Address(RVA = "0x4F9E5D0", Offset = "0x4F9E5D0", VA = "0x4F9E5D0", Slot = "27")]
+		[Address(RVA = "0x3C840F0", Offset = "0x3C840F0", VA = "0x3C840F0", Slot = "27")]
 		public virtual bool Contains(object key)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6002F8A")]
-		[Address(RVA = "0x4F9E600", Offset = "0x4F9E600", VA = "0x4F9E600", Slot = "28")]
+		[Address(RVA = "0x3C84120", Offset = "0x3C84120", VA = "0x3C84120", Slot = "28")]
 		public virtual void CopyTo(Array array, int arrayIndex)
 		{
 		}
 
 		[Token(Token = "0x6002F8B")]
-		[Address(RVA = "0x4F9E6C0", Offset = "0x4F9E6C0", VA = "0x4F9E6C0", Slot = "29")]
+		[Address(RVA = "0x3C841E0", Offset = "0x3C841E0", VA = "0x3C841E0", Slot = "29")]
 		public virtual void Insert(int index, object value)
 		{
 		}
 
 		[Token(Token = "0x6002F8E")]
-		[Address(RVA = "0x4F9E790", Offset = "0x4F9E790", VA = "0x4F9E790", Slot = "32")]
+		[Address(RVA = "0x3C842B0", Offset = "0x3C842B0", VA = "0x3C842B0", Slot = "32")]
 		public virtual IEnumerator GetEnumerator()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6002F8F")]
-		[Address(RVA = "0x4F9E830", Offset = "0x4F9E830", VA = "0x4F9E830", Slot = "33")]
+		[Address(RVA = "0x3C84350", Offset = "0x3C84350", VA = "0x3C84350", Slot = "33")]
 		public virtual int IndexOf(object key)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6002F90")]
-		[Address(RVA = "0x4F9E8F0", Offset = "0x4F9E8F0", VA = "0x4F9E8F0", Slot = "34")]
+		[Address(RVA = "0x3C84410", Offset = "0x3C84410", VA = "0x3C84410", Slot = "34")]
 		public virtual void Remove(object key)
 		{
 		}
 
 		[Token(Token = "0x6002F91")]
-		[Address(RVA = "0x4F9E940", Offset = "0x4F9E940", VA = "0x4F9E940", Slot = "35")]
+		[Address(RVA = "0x3C84460", Offset = "0x3C84460", VA = "0x3C84460", Slot = "35")]
 		public virtual void RemoveAt(int index)
 		{
 		}
@@ -476,7 +483,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public virtual int Count
 		{
 			[Token(Token = "0x6002F93")]
-			[Address(RVA = "0x4F9E990", Offset = "0x4F9E990", VA = "0x4F9E990", Slot = "20")]
+			[Address(RVA = "0x3C844B0", Offset = "0x3C844B0", VA = "0x3C844B0", Slot = "20")]
 			get
 			{
 				return default(int);
@@ -487,7 +494,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public virtual bool IsReadOnly
 		{
 			[Token(Token = "0x6002F94")]
-			[Address(RVA = "0x4F9E9B0", Offset = "0x4F9E9B0", VA = "0x4F9E9B0", Slot = "21")]
+			[Address(RVA = "0x3C844D0", Offset = "0x3C844D0", VA = "0x3C844D0", Slot = "21")]
 			get
 			{
 				return default(bool);
@@ -498,7 +505,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public virtual bool IsFixedSize
 		{
 			[Token(Token = "0x6002F95")]
-			[Address(RVA = "0x4F9E9C0", Offset = "0x4F9E9C0", VA = "0x4F9E9C0", Slot = "22")]
+			[Address(RVA = "0x3C844E0", Offset = "0x3C844E0", VA = "0x3C844E0", Slot = "22")]
 			get
 			{
 				return default(bool);
@@ -509,7 +516,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public virtual bool IsSynchronized
 		{
 			[Token(Token = "0x6002F96")]
-			[Address(RVA = "0x4F9E9D0", Offset = "0x4F9E9D0", VA = "0x4F9E9D0", Slot = "23")]
+			[Address(RVA = "0x3C844F0", Offset = "0x3C844F0", VA = "0x3C844F0", Slot = "23")]
 			get
 			{
 				return default(bool);
@@ -520,7 +527,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public virtual object SyncRoot
 		{
 			[Token(Token = "0x6002F97")]
-			[Address(RVA = "0x4F9EA00", Offset = "0x4F9EA00", VA = "0x4F9EA00", Slot = "24")]
+			[Address(RVA = "0x3C84520", Offset = "0x3C84520", VA = "0x3C84520", Slot = "24")]
 			get
 			{
 				return null;
@@ -531,78 +538,78 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 		public virtual object this[int index]
 		{
 			[Token(Token = "0x6002F9D")]
-			[Address(RVA = "0x4F9EC10", Offset = "0x4F9EC10", VA = "0x4F9EC10", Slot = "30")]
+			[Address(RVA = "0x3C84730", Offset = "0x3C84730", VA = "0x3C84730", Slot = "30")]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x6002F9E")]
-			[Address(RVA = "0x4F9EC40", Offset = "0x4F9EC40", VA = "0x4F9EC40", Slot = "31")]
+			[Address(RVA = "0x3C84760", Offset = "0x3C84760", VA = "0x3C84760", Slot = "31")]
 			set
 			{
 			}
 		}
 
 		[Token(Token = "0x6002F92")]
-		[Address(RVA = "0x4F9C830", Offset = "0x4F9C830", VA = "0x4F9C830")]
+		[Address(RVA = "0x3C82350", Offset = "0x3C82350", VA = "0x3C82350")]
 		internal ValueList(SortedList sortedList)
 		{
 		}
 
 		[Token(Token = "0x6002F98")]
-		[Address(RVA = "0x4F9EA30", Offset = "0x4F9EA30", VA = "0x4F9EA30", Slot = "25")]
+		[Address(RVA = "0x3C84550", Offset = "0x3C84550", VA = "0x3C84550", Slot = "25")]
 		public virtual int Add(object key)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6002F99")]
-		[Address(RVA = "0x4F9EA80", Offset = "0x4F9EA80", VA = "0x4F9EA80", Slot = "26")]
+		[Address(RVA = "0x3C845A0", Offset = "0x3C845A0", VA = "0x3C845A0", Slot = "26")]
 		public virtual void Clear()
 		{
 		}
 
 		[Token(Token = "0x6002F9A")]
-		[Address(RVA = "0x4F9EAD0", Offset = "0x4F9EAD0", VA = "0x4F9EAD0", Slot = "27")]
+		[Address(RVA = "0x3C845F0", Offset = "0x3C845F0", VA = "0x3C845F0", Slot = "27")]
 		public virtual bool Contains(object value)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6002F9B")]
-		[Address(RVA = "0x4F9EB00", Offset = "0x4F9EB00", VA = "0x4F9EB00", Slot = "28")]
+		[Address(RVA = "0x3C84620", Offset = "0x3C84620", VA = "0x3C84620", Slot = "28")]
 		public virtual void CopyTo(Array array, int arrayIndex)
 		{
 		}
 
 		[Token(Token = "0x6002F9C")]
-		[Address(RVA = "0x4F9EBC0", Offset = "0x4F9EBC0", VA = "0x4F9EBC0", Slot = "29")]
+		[Address(RVA = "0x3C846E0", Offset = "0x3C846E0", VA = "0x3C846E0", Slot = "29")]
 		public virtual void Insert(int index, object value)
 		{
 		}
 
 		[Token(Token = "0x6002F9F")]
-		[Address(RVA = "0x4F9EC90", Offset = "0x4F9EC90", VA = "0x4F9EC90", Slot = "32")]
+		[Address(RVA = "0x3C847B0", Offset = "0x3C847B0", VA = "0x3C847B0", Slot = "32")]
 		public virtual IEnumerator GetEnumerator()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6002FA0")]
-		[Address(RVA = "0x4F9ED30", Offset = "0x4F9ED30", VA = "0x4F9ED30", Slot = "33")]
+		[Address(RVA = "0x3C84850", Offset = "0x3C84850", VA = "0x3C84850", Slot = "33")]
 		public virtual int IndexOf(object value)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6002FA1")]
-		[Address(RVA = "0x4F9EDA0", Offset = "0x4F9EDA0", VA = "0x4F9EDA0", Slot = "34")]
+		[Address(RVA = "0x3C848C0", Offset = "0x3C848C0", VA = "0x3C848C0", Slot = "34")]
 		public virtual void Remove(object value)
 		{
 		}
 
 		[Token(Token = "0x6002FA2")]
-		[Address(RVA = "0x4F9EDF0", Offset = "0x4F9EDF0", VA = "0x4F9EDF0", Slot = "35")]
+		[Address(RVA = "0x3C84910", Offset = "0x3C84910", VA = "0x3C84910", Slot = "35")]
 		public virtual void RemoveAt(int index)
 		{
 		}
@@ -650,7 +657,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 	public virtual int Capacity
 	{
 		[Token(Token = "0x6002F44")]
-		[Address(RVA = "0x4F9BC10", Offset = "0x4F9BC10", VA = "0x4F9BC10", Slot = "22")]
+		[Address(RVA = "0x3C81730", Offset = "0x3C81730", VA = "0x3C81730", Slot = "22")]
 		set
 		{
 		}
@@ -660,7 +667,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 	public virtual int Count
 	{
 		[Token(Token = "0x6002F45")]
-		[Address(RVA = "0x4F9BED0", Offset = "0x4F9BED0", VA = "0x4F9BED0", Slot = "23")]
+		[Address(RVA = "0x3C819F0", Offset = "0x3C819F0", VA = "0x3C819F0", Slot = "23")]
 		get
 		{
 			return default(int);
@@ -671,7 +678,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 	public virtual ICollection Keys
 	{
 		[Token(Token = "0x6002F46")]
-		[Address(RVA = "0x4F9BEE0", Offset = "0x4F9BEE0", VA = "0x4F9BEE0", Slot = "24")]
+		[Address(RVA = "0x3C81A00", Offset = "0x3C81A00", VA = "0x3C81A00", Slot = "24")]
 		get
 		{
 			return null;
@@ -682,7 +689,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 	public virtual ICollection Values
 	{
 		[Token(Token = "0x6002F47")]
-		[Address(RVA = "0x4F9BF00", Offset = "0x4F9BF00", VA = "0x4F9BF00", Slot = "25")]
+		[Address(RVA = "0x3C81A20", Offset = "0x3C81A20", VA = "0x3C81A20", Slot = "25")]
 		get
 		{
 			return null;
@@ -693,7 +700,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 	public virtual bool IsReadOnly
 	{
 		[Token(Token = "0x6002F48")]
-		[Address(RVA = "0x4F9BF20", Offset = "0x4F9BF20", VA = "0x4F9BF20", Slot = "26")]
+		[Address(RVA = "0x3C81A40", Offset = "0x3C81A40", VA = "0x3C81A40", Slot = "26")]
 		get
 		{
 			return default(bool);
@@ -704,7 +711,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 	public virtual bool IsFixedSize
 	{
 		[Token(Token = "0x6002F49")]
-		[Address(RVA = "0x4F9BF30", Offset = "0x4F9BF30", VA = "0x4F9BF30", Slot = "27")]
+		[Address(RVA = "0x3C81A50", Offset = "0x3C81A50", VA = "0x3C81A50", Slot = "27")]
 		get
 		{
 			return default(bool);
@@ -715,7 +722,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 	public virtual bool IsSynchronized
 	{
 		[Token(Token = "0x6002F4A")]
-		[Address(RVA = "0x4F9BF40", Offset = "0x4F9BF40", VA = "0x4F9BF40", Slot = "28")]
+		[Address(RVA = "0x3C81A60", Offset = "0x3C81A60", VA = "0x3C81A60", Slot = "28")]
 		get
 		{
 			return default(bool);
@@ -726,7 +733,7 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 	public virtual object SyncRoot
 	{
 		[Token(Token = "0x6002F4B")]
-		[Address(RVA = "0x4F9BF50", Offset = "0x4F9BF50", VA = "0x4F9BF50", Slot = "29")]
+		[Address(RVA = "0x3C81A70", Offset = "0x3C81A70", VA = "0x3C81A70", Slot = "29")]
 		get
 		{
 			return null;
@@ -737,170 +744,170 @@ public class SortedList : IDictionary, ICollection, IEnumerable, ICloneable
 	public virtual object this[object key]
 	{
 		[Token(Token = "0x6002F59")]
-		[Address(RVA = "0x4F9C860", Offset = "0x4F9C860", VA = "0x4F9C860", Slot = "41")]
+		[Address(RVA = "0x3C82380", Offset = "0x3C82380", VA = "0x3C82380", Slot = "41")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6002F5A")]
-		[Address(RVA = "0x4F9C8A0", Offset = "0x4F9C8A0", VA = "0x4F9C8A0", Slot = "42")]
+		[Address(RVA = "0x3C823C0", Offset = "0x3C823C0", VA = "0x3C823C0", Slot = "42")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6002F3F")]
-	[Address(RVA = "0x4F9B5E0", Offset = "0x4F9B5E0", VA = "0x4F9B5E0")]
+	[Address(RVA = "0x3C81100", Offset = "0x3C81100", VA = "0x3C81100")]
 	public SortedList()
 	{
 	}
 
 	[Token(Token = "0x6002F40")]
-	[Address(RVA = "0x4F9B600", Offset = "0x4F9B600", VA = "0x4F9B600")]
+	[Address(RVA = "0x3C81120", Offset = "0x3C81120", VA = "0x3C81120")]
 	private void Init()
 	{
 	}
 
 	[Token(Token = "0x6002F41")]
-	[Address(RVA = "0x4F9B800", Offset = "0x4F9B800", VA = "0x4F9B800")]
+	[Address(RVA = "0x3C81320", Offset = "0x3C81320", VA = "0x3C81320")]
 	public SortedList(int initialCapacity)
 	{
 	}
 
 	[Token(Token = "0x6002F42")]
-	[Address(RVA = "0x4F9B940", Offset = "0x4F9B940", VA = "0x4F9B940")]
+	[Address(RVA = "0x3C81460", Offset = "0x3C81460", VA = "0x3C81460")]
 	public SortedList(IComparer comparer)
 	{
 	}
 
 	[Token(Token = "0x6002F43")]
-	[Address(RVA = "0x4F9B980", Offset = "0x4F9B980", VA = "0x4F9B980", Slot = "21")]
+	[Address(RVA = "0x3C814A0", Offset = "0x3C814A0", VA = "0x3C814A0", Slot = "21")]
 	public virtual void Add(object key, object value)
 	{
 	}
 
 	[Token(Token = "0x6002F4C")]
-	[Address(RVA = "0x4F9BFD0", Offset = "0x4F9BFD0", VA = "0x4F9BFD0", Slot = "30")]
+	[Address(RVA = "0x3C81AF0", Offset = "0x3C81AF0", VA = "0x3C81AF0", Slot = "30")]
 	public virtual void Clear()
 	{
 	}
 
 	[Token(Token = "0x6002F4D")]
-	[Address(RVA = "0x4F9C010", Offset = "0x4F9C010", VA = "0x4F9C010", Slot = "31")]
+	[Address(RVA = "0x3C81B30", Offset = "0x3C81B30", VA = "0x3C81B30", Slot = "31")]
 	public virtual object Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002F4E")]
-	[Address(RVA = "0x4F9C0C0", Offset = "0x4F9C0C0", VA = "0x4F9C0C0", Slot = "32")]
+	[Address(RVA = "0x3C81BE0", Offset = "0x3C81BE0", VA = "0x3C81BE0", Slot = "32")]
 	public virtual bool Contains(object key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002F4F")]
-	[Address(RVA = "0x4F9C0E0", Offset = "0x4F9C0E0", VA = "0x4F9C0E0", Slot = "33")]
+	[Address(RVA = "0x3C81C00", Offset = "0x3C81C00", VA = "0x3C81C00", Slot = "33")]
 	public virtual bool ContainsKey(object key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002F50")]
-	[Address(RVA = "0x4F9C100", Offset = "0x4F9C100", VA = "0x4F9C100", Slot = "34")]
+	[Address(RVA = "0x3C81C20", Offset = "0x3C81C20", VA = "0x3C81C20", Slot = "34")]
 	public virtual bool ContainsValue(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002F51")]
-	[Address(RVA = "0x4F9C120", Offset = "0x4F9C120", VA = "0x4F9C120", Slot = "35")]
+	[Address(RVA = "0x3C81C40", Offset = "0x3C81C40", VA = "0x3C81C40", Slot = "35")]
 	public virtual void CopyTo(Array array, int arrayIndex)
 	{
 	}
 
 	[Token(Token = "0x6002F52")]
-	[Address(RVA = "0x4F9C3B0", Offset = "0x4F9C3B0", VA = "0x4F9C3B0")]
+	[Address(RVA = "0x3C81ED0", Offset = "0x3C81ED0", VA = "0x3C81ED0")]
 	private void EnsureCapacity(int min)
 	{
 	}
 
 	[Token(Token = "0x6002F53")]
-	[Address(RVA = "0x4F9C400", Offset = "0x4F9C400", VA = "0x4F9C400", Slot = "36")]
+	[Address(RVA = "0x3C81F20", Offset = "0x3C81F20", VA = "0x3C81F20", Slot = "36")]
 	public virtual object GetByIndex(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002F54")]
-	[Address(RVA = "0x4F9C4B0", Offset = "0x4F9C4B0", VA = "0x4F9C4B0", Slot = "19")]
+	[Address(RVA = "0x3C81FD0", Offset = "0x3C81FD0", VA = "0x3C81FD0", Slot = "19")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002F55")]
-	[Address(RVA = "0x4F9C5A0", Offset = "0x4F9C5A0", VA = "0x4F9C5A0", Slot = "37")]
+	[Address(RVA = "0x3C820C0", Offset = "0x3C820C0", VA = "0x3C820C0", Slot = "37")]
 	public virtual IDictionaryEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002F56")]
-	[Address(RVA = "0x4F9C630", Offset = "0x4F9C630", VA = "0x4F9C630", Slot = "38")]
+	[Address(RVA = "0x3C82150", Offset = "0x3C82150", VA = "0x3C82150", Slot = "38")]
 	public virtual object GetKey(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002F57")]
-	[Address(RVA = "0x4F9C6E0", Offset = "0x4F9C6E0", VA = "0x4F9C6E0", Slot = "39")]
+	[Address(RVA = "0x3C82200", Offset = "0x3C82200", VA = "0x3C82200", Slot = "39")]
 	public virtual IList GetKeyList()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002F58")]
-	[Address(RVA = "0x4F9C7A0", Offset = "0x4F9C7A0", VA = "0x4F9C7A0", Slot = "40")]
+	[Address(RVA = "0x3C822C0", Offset = "0x3C822C0", VA = "0x3C822C0", Slot = "40")]
 	public virtual IList GetValueList()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002F5B")]
-	[Address(RVA = "0x4F9C9D0", Offset = "0x4F9C9D0", VA = "0x4F9C9D0", Slot = "43")]
+	[Address(RVA = "0x3C824F0", Offset = "0x3C824F0", VA = "0x3C824F0", Slot = "43")]
 	public virtual int IndexOfKey(object key)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002F5C")]
-	[Address(RVA = "0x4F9CA60", Offset = "0x4F9CA60", VA = "0x4F9CA60", Slot = "44")]
+	[Address(RVA = "0x3C82580", Offset = "0x3C82580", VA = "0x3C82580", Slot = "44")]
 	public virtual int IndexOfValue(object value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002F5D")]
-	[Address(RVA = "0x4F9BA80", Offset = "0x4F9BA80", VA = "0x4F9BA80")]
+	[Address(RVA = "0x3C815A0", Offset = "0x3C815A0", VA = "0x3C815A0")]
 	private void Insert(int index, object key, object value)
 	{
 	}
 
 	[Token(Token = "0x6002F5E")]
-	[Address(RVA = "0x4F9CAB0", Offset = "0x4F9CAB0", VA = "0x4F9CAB0", Slot = "45")]
+	[Address(RVA = "0x3C825D0", Offset = "0x3C825D0", VA = "0x3C825D0", Slot = "45")]
 	public virtual void RemoveAt(int index)
 	{
 	}
 
 	[Token(Token = "0x6002F5F")]
-	[Address(RVA = "0x4F9CBF0", Offset = "0x4F9CBF0", VA = "0x4F9CBF0", Slot = "46")]
+	[Address(RVA = "0x3C82710", Offset = "0x3C82710", VA = "0x3C82710", Slot = "46")]
 	public virtual void Remove(object key)
 	{
 	}
 
 	[Token(Token = "0x6002F60")]
-	[Address(RVA = "0x4F9CC30", Offset = "0x4F9CC30", VA = "0x4F9CC30")]
+	[Address(RVA = "0x3C82750", Offset = "0x3C82750", VA = "0x3C82750")]
 	public static SortedList Synchronized(SortedList list)
 	{
 		return null;

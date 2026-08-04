@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.DataColumnChangeEventArgs
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -19,14 +26,14 @@ public class DataColumnChangeEventArgs : EventArgs
 	public object ProposedValue
 	{
 		[Token(Token = "0x6000103")]
-		[Address(RVA = "0x4205D00", Offset = "0x4205D00", VA = "0x4205D00")]
+		[Address(RVA = "0x4543460", Offset = "0x4543460", VA = "0x4543460")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000104")]
-		[Address(RVA = "0x4205D10", Offset = "0x4205D10", VA = "0x4205D10")]
+		[Address(RVA = "0x4543470", Offset = "0x4543470", VA = "0x4543470")]
 		[CompilerGenerated]
 		set
 		{
@@ -34,19 +41,19 @@ public class DataColumnChangeEventArgs : EventArgs
 	}
 
 	[Token(Token = "0x6000101")]
-	[Address(RVA = "0x4205C00", Offset = "0x4205C00", VA = "0x4205C00")]
+	[Address(RVA = "0x4543360", Offset = "0x4543360", VA = "0x4543360")]
 	internal DataColumnChangeEventArgs(DataRow row)
 	{
 	}
 
 	[Token(Token = "0x6000102")]
-	[Address(RVA = "0x4205C70", Offset = "0x4205C70", VA = "0x4205C70")]
+	[Address(RVA = "0x45433D0", Offset = "0x45433D0", VA = "0x45433D0")]
 	public DataColumnChangeEventArgs(DataRow row, DataColumn column, object value)
 	{
 	}
 
 	[Token(Token = "0x6000105")]
-	[Address(RVA = "0x4205D20", Offset = "0x4205D20", VA = "0x4205D20")]
+	[Address(RVA = "0x4543480", Offset = "0x4543480", VA = "0x4543480")]
 	internal void InitializeColumnChangeEvent(DataColumn column, object value)
 	{
 	}

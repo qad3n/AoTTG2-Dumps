@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveTyped
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
@@ -14,31 +21,31 @@ internal sealed class MemberPrimitiveTyped
 	internal object value;
 
 	[Token(Token = "0x6002060")]
-	[Address(RVA = "0x4EBDFD0", Offset = "0x4EBDFD0", VA = "0x4EBDFD0")]
+	[Address(RVA = "0x3BA3AF0", Offset = "0x3BA3AF0", VA = "0x3BA3AF0")]
 	internal MemberPrimitiveTyped()
 	{
 	}
 
 	[Token(Token = "0x6002061")]
-	[Address(RVA = "0x4EBDFE0", Offset = "0x4EBDFE0", VA = "0x4EBDFE0")]
+	[Address(RVA = "0x3BA3B00", Offset = "0x3BA3B00", VA = "0x3BA3B00")]
 	internal void Set(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE primitiveTypeEnum, object value)
 	{
 	}
 
 	[Token(Token = "0x6002062")]
-	[Address(RVA = "0x4EBE000", Offset = "0x4EBE000", VA = "0x4EBE000", Slot = "4")]
+	[Address(RVA = "0x3BA3B20", Offset = "0x3BA3B20", VA = "0x3BA3B20", Slot = "4")]
 	public void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
 	{
 	}
 
 	[Token(Token = "0x6002063")]
-	[Address(RVA = "0x4EBE070", Offset = "0x4EBE070", VA = "0x4EBE070", Slot = "5")]
+	[Address(RVA = "0x3BA3B90", Offset = "0x3BA3B90", VA = "0x3BA3B90", Slot = "5")]
 	public void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
 	{
 	}
 
 	[Token(Token = "0x6002064")]
-	[Address(RVA = "0x4EBE0C0", Offset = "0x4EBE0C0", VA = "0x4EBE0C0")]
+	[Address(RVA = "0x3BA3BE0", Offset = "0x3BA3BE0", VA = "0x3BA3BE0")]
 	public void Dump()
 	{
 	}

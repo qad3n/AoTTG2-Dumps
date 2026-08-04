@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Security.X509.X501
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Text;
 using Il2CppDummyDll;
 
@@ -71,21 +78,21 @@ public sealed class X501
 	private static byte[] initial;
 
 	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x3A34A60", Offset = "0x3A34A60", VA = "0x3A34A60")]
+	[Address(RVA = "0x3AA1720", Offset = "0x3AA1720", VA = "0x3AA1720")]
 	public static string ToString(ASN1 seq)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x3A41860", Offset = "0x3A41860", VA = "0x3A41860")]
+	[Address(RVA = "0x3AAE520", Offset = "0x3AAE520", VA = "0x3AAE520")]
 	public static string ToString(ASN1 seq, bool reversed, string separator, bool quotes)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x3A408F0", Offset = "0x3A408F0", VA = "0x3A408F0")]
+	[Address(RVA = "0x3AAD5B0", Offset = "0x3AAD5B0", VA = "0x3AAD5B0")]
 	private static void AppendEntry(StringBuilder sb, ASN1 entry, bool quotes)
 	{
 	}

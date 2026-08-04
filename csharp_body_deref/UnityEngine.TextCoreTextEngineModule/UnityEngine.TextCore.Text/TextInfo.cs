@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.Text.TextInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -87,14 +94,14 @@ internal class TextInfo
 	public VertexDataLayout vertexDataLayout
 	{
 		[Token(Token = "0x6000184")]
-		[Address(RVA = "0x4BC0650", Offset = "0x4BC0650", VA = "0x4BC0650")]
+		[Address(RVA = "0x4EE7F80", Offset = "0x4EE7F80", VA = "0x4EE7F80")]
 		[CompilerGenerated]
 		get
 		{
 			return default(VertexDataLayout);
 		}
 		[Token(Token = "0x6000185")]
-		[Address(RVA = "0x4BC0660", Offset = "0x4BC0660", VA = "0x4BC0660")]
+		[Address(RVA = "0x4EE7F90", Offset = "0x4EE7F90", VA = "0x4EE7F90")]
 		[CompilerGenerated]
 		private set
 		{
@@ -102,37 +109,37 @@ internal class TextInfo
 	}
 
 	[Token(Token = "0x6000186")]
-	[Address(RVA = "0x4BBAAD0", Offset = "0x4BBAAD0", VA = "0x4BBAAD0")]
+	[Address(RVA = "0x4EE2400", Offset = "0x4EE2400", VA = "0x4EE2400")]
 	public void RemoveFromCache()
 	{
 	}
 
 	[Token(Token = "0x6000187")]
-	[Address(RVA = "0x4BBA360", Offset = "0x4BBA360", VA = "0x4BBA360")]
+	[Address(RVA = "0x4EE1C90", Offset = "0x4EE1C90", VA = "0x4EE1C90")]
 	public TextInfo(VertexDataLayout vertexDataLayout)
 	{
 	}
 
 	[Token(Token = "0x6000188")]
-	[Address(RVA = "0x4BC0670", Offset = "0x4BC0670", VA = "0x4BC0670")]
+	[Address(RVA = "0x4EE7FA0", Offset = "0x4EE7FA0", VA = "0x4EE7FA0")]
 	internal void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000189")]
-	[Address(RVA = "0x4BC06E0", Offset = "0x4BC06E0", VA = "0x4BC06E0")]
+	[Address(RVA = "0x4EE8010", Offset = "0x4EE8010", VA = "0x4EE8010")]
 	internal void ClearMeshInfo(bool updateMesh)
 	{
 	}
 
 	[Token(Token = "0x600018A")]
-	[Address(RVA = "0x4BC0790", Offset = "0x4BC0790", VA = "0x4BC0790")]
+	[Address(RVA = "0x4EE80C0", Offset = "0x4EE80C0", VA = "0x4EE80C0")]
 	internal void ClearLineInfo()
 	{
 	}
 
 	[Token(Token = "0x600018B")]
-	[Address(RVA = "0x4BC0950", Offset = "0x4BC0950", VA = "0x4BC0950")]
+	[Address(RVA = "0x4EE8280", Offset = "0x4EE8280", VA = "0x4EE8280")]
 	internal void ClearPageInfo()
 	{
 	}

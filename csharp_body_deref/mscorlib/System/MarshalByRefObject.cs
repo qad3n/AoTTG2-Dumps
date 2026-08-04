@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.MarshalByRefObject
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using System.Runtime.Remoting;
 using Il2CppDummyDll;
@@ -19,33 +26,33 @@ public abstract class MarshalByRefObject
 	internal System.Runtime.Remoting.ServerIdentity ObjectIdentity
 	{
 		[Token(Token = "0x6000FAD")]
-		[Address(RVA = "0x5027050", Offset = "0x5027050", VA = "0x5027050")]
+		[Address(RVA = "0x3D0CB70", Offset = "0x3D0CB70", VA = "0x3D0CB70")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FAE")]
-		[Address(RVA = "0x5027090", Offset = "0x5027090", VA = "0x5027090")]
+		[Address(RVA = "0x3D0CBB0", Offset = "0x3D0CBB0", VA = "0x3D0CBB0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000FAC")]
-	[Address(RVA = "0x501F2E0", Offset = "0x501F2E0", VA = "0x501F2E0")]
+	[Address(RVA = "0x3D04E00", Offset = "0x3D04E00", VA = "0x3D04E00")]
 	protected MarshalByRefObject()
 	{
 	}
 
 	[Token(Token = "0x6000FAF")]
-	[Address(RVA = "0x50270D0", Offset = "0x50270D0", VA = "0x50270D0", Slot = "4")]
+	[Address(RVA = "0x3D0CBF0", Offset = "0x3D0CBF0", VA = "0x3D0CBF0", Slot = "4")]
 	public virtual ObjRef CreateObjRef(Type requestedType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000FB0")]
-	[Address(RVA = "0x5027110", Offset = "0x5027110", VA = "0x5027110", Slot = "5")]
+	[Address(RVA = "0x3D0CC30", Offset = "0x3D0CC30", VA = "0x3D0CC30", Slot = "5")]
 	public virtual object InitializeLifetimeService()
 	{
 		return null;

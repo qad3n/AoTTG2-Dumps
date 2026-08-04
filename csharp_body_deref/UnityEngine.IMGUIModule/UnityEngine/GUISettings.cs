@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.GUISettings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -39,7 +46,7 @@ public sealed class GUISettings
 	public bool doubleClickSelectsWord
 	{
 		[Token(Token = "0x60000FB")]
-		[Address(RVA = "0x4B1F4E0", Offset = "0x4B1F4E0", VA = "0x4B1F4E0")]
+		[Address(RVA = "0x4E470A0", Offset = "0x4E470A0", VA = "0x4E470A0")]
 		get
 		{
 			return default(bool);
@@ -50,7 +57,7 @@ public sealed class GUISettings
 	public bool tripleClickSelectsLine
 	{
 		[Token(Token = "0x60000FC")]
-		[Address(RVA = "0x4B1F4F0", Offset = "0x4B1F4F0", VA = "0x4B1F4F0")]
+		[Address(RVA = "0x4E470B0", Offset = "0x4E470B0", VA = "0x4E470B0")]
 		get
 		{
 			return default(bool);
@@ -61,7 +68,7 @@ public sealed class GUISettings
 	public Color cursorColor
 	{
 		[Token(Token = "0x60000FD")]
-		[Address(RVA = "0x4B2B650", Offset = "0x4B2B650", VA = "0x4B2B650")]
+		[Address(RVA = "0x4E53210", Offset = "0x4E53210", VA = "0x4E53210")]
 		get
 		{
 			return default(Color);
@@ -72,7 +79,7 @@ public sealed class GUISettings
 	public float cursorFlashSpeed
 	{
 		[Token(Token = "0x60000FE")]
-		[Address(RVA = "0x4B2B660", Offset = "0x4B2B660", VA = "0x4B2B660")]
+		[Address(RVA = "0x4E53220", Offset = "0x4E53220", VA = "0x4E53220")]
 		get
 		{
 			return default(float);
@@ -83,7 +90,7 @@ public sealed class GUISettings
 	public Color selectionColor
 	{
 		[Token(Token = "0x60000FF")]
-		[Address(RVA = "0x4B2B6A0", Offset = "0x4B2B6A0", VA = "0x4B2B6A0")]
+		[Address(RVA = "0x4E53260", Offset = "0x4E53260", VA = "0x4E53260")]
 		get
 		{
 			return default(Color);
@@ -92,11 +99,11 @@ public sealed class GUISettings
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000FA")]
-	[Address(RVA = "0x4B2B620", Offset = "0x4B2B620", VA = "0x4B2B620")]
+	[Address(RVA = "0x4E531E0", Offset = "0x4E531E0", VA = "0x4E531E0")]
 	private static extern float Internal_GetCursorFlashSpeed();
 
 	[Token(Token = "0x6000100")]
-	[Address(RVA = "0x4B2B6B0", Offset = "0x4B2B6B0", VA = "0x4B2B6B0")]
+	[Address(RVA = "0x4E53270", Offset = "0x4E53270", VA = "0x4E53270")]
 	public GUISettings()
 	{
 	}

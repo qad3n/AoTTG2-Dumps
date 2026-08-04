@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.DataRow
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.ComponentModel;
 using Il2CppDummyDll;
@@ -75,13 +82,13 @@ public class DataRow
 	internal DataColumn LastChangedColumn
 	{
 		[Token(Token = "0x60002E4")]
-		[Address(RVA = "0x423C140", Offset = "0x423C140", VA = "0x423C140")]
+		[Address(RVA = "0x45798A0", Offset = "0x45798A0", VA = "0x45798A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60002E5")]
-		[Address(RVA = "0x423C150", Offset = "0x423C150", VA = "0x423C150")]
+		[Address(RVA = "0x45798B0", Offset = "0x45798B0", VA = "0x45798B0")]
 		set
 		{
 		}
@@ -91,7 +98,7 @@ public class DataRow
 	internal bool HasPropertyChanged
 	{
 		[Token(Token = "0x60002E6")]
-		[Address(RVA = "0x423C170", Offset = "0x423C170", VA = "0x423C170")]
+		[Address(RVA = "0x45798D0", Offset = "0x45798D0", VA = "0x45798D0")]
 		get
 		{
 			return default(bool);
@@ -102,13 +109,13 @@ public class DataRow
 	internal int RBTreeNodeId
 	{
 		[Token(Token = "0x60002E7")]
-		[Address(RVA = "0x423C180", Offset = "0x423C180", VA = "0x423C180")]
+		[Address(RVA = "0x45798E0", Offset = "0x45798E0", VA = "0x45798E0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60002E8")]
-		[Address(RVA = "0x423C190", Offset = "0x423C190", VA = "0x423C190")]
+		[Address(RVA = "0x45798F0", Offset = "0x45798F0", VA = "0x45798F0")]
 		set
 		{
 		}
@@ -118,13 +125,13 @@ public class DataRow
 	public string RowError
 	{
 		[Token(Token = "0x60002E9")]
-		[Address(RVA = "0x423C250", Offset = "0x423C250", VA = "0x423C250")]
+		[Address(RVA = "0x45799B0", Offset = "0x45799B0", VA = "0x45799B0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60002EA")]
-		[Address(RVA = "0x423C280", Offset = "0x423C280", VA = "0x423C280")]
+		[Address(RVA = "0x45799E0", Offset = "0x45799E0", VA = "0x45799E0")]
 		set
 		{
 		}
@@ -134,13 +141,13 @@ public class DataRow
 	internal long rowID
 	{
 		[Token(Token = "0x60002EC")]
-		[Address(RVA = "0x423C450", Offset = "0x423C450", VA = "0x423C450")]
+		[Address(RVA = "0x4579BB0", Offset = "0x4579BB0", VA = "0x4579BB0")]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x60002ED")]
-		[Address(RVA = "0x423C460", Offset = "0x423C460", VA = "0x423C460")]
+		[Address(RVA = "0x4579BC0", Offset = "0x4579BC0", VA = "0x4579BC0")]
 		set
 		{
 		}
@@ -150,7 +157,7 @@ public class DataRow
 	public DataRowState RowState
 	{
 		[Token(Token = "0x60002EE")]
-		[Address(RVA = "0x423C4B0", Offset = "0x423C4B0", VA = "0x423C4B0")]
+		[Address(RVA = "0x4579C10", Offset = "0x4579C10", VA = "0x4579C10")]
 		get
 		{
 			return default(DataRowState);
@@ -161,7 +168,7 @@ public class DataRow
 	public DataTable Table
 	{
 		[Token(Token = "0x60002EF")]
-		[Address(RVA = "0x423C750", Offset = "0x423C750", VA = "0x423C750")]
+		[Address(RVA = "0x4579EB0", Offset = "0x4579EB0", VA = "0x4579EB0")]
 		get
 		{
 			return null;
@@ -172,7 +179,7 @@ public class DataRow
 	public string this[string columnName]
 	{
 		[Token(Token = "0x60002F2")]
-		[Address(RVA = "0x423C920", Offset = "0x423C920", VA = "0x423C920")]
+		[Address(RVA = "0x457A080", Offset = "0x457A080", VA = "0x457A080")]
 		set
 		{
 		}
@@ -182,13 +189,13 @@ public class DataRow
 	public object this[DataColumn column]
 	{
 		[Token(Token = "0x60002F3")]
-		[Address(RVA = "0x423C6E0", Offset = "0x423C6E0", VA = "0x423C6E0")]
+		[Address(RVA = "0x4579E40", Offset = "0x4579E40", VA = "0x4579E40")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60002F4")]
-		[Address(RVA = "0x423CA10", Offset = "0x423CA10", VA = "0x423CA10")]
+		[Address(RVA = "0x457A170", Offset = "0x457A170", VA = "0x457A170")]
 		set
 		{
 		}
@@ -198,7 +205,7 @@ public class DataRow
 	public object this[DataColumn column, DataRowVersion version]
 	{
 		[Token(Token = "0x60002F5")]
-		[Address(RVA = "0x423D0B0", Offset = "0x423D0B0", VA = "0x423D0B0")]
+		[Address(RVA = "0x457A810", Offset = "0x457A810", VA = "0x457A810")]
 		get
 		{
 			return null;
@@ -209,7 +216,7 @@ public class DataRow
 	public object[] ItemArray
 	{
 		[Token(Token = "0x60002F6")]
-		[Address(RVA = "0x423D200", Offset = "0x423D200", VA = "0x423D200")]
+		[Address(RVA = "0x457A960", Offset = "0x457A960", VA = "0x457A960")]
 		set
 		{
 		}
@@ -219,7 +226,7 @@ public class DataRow
 	public bool HasErrors
 	{
 		[Token(Token = "0x6000305")]
-		[Address(RVA = "0x423E090", Offset = "0x423E090", VA = "0x423E090")]
+		[Address(RVA = "0x457B7F0", Offset = "0x457B7F0", VA = "0x457B7F0")]
 		get
 		{
 			return default(bool);
@@ -227,333 +234,333 @@ public class DataRow
 	}
 
 	[Token(Token = "0x60002E3")]
-	[Address(RVA = "0x423C090", Offset = "0x423C090", VA = "0x423C090")]
+	[Address(RVA = "0x45797F0", Offset = "0x45797F0", VA = "0x45797F0")]
 	protected internal DataRow(DataRowBuilder builder)
 	{
 	}
 
 	[Token(Token = "0x60002EB")]
-	[Address(RVA = "0x423C410", Offset = "0x423C410", VA = "0x423C410")]
+	[Address(RVA = "0x4579B70", Offset = "0x4579B70", VA = "0x4579B70")]
 	private void RowErrorChanged()
 	{
 	}
 
 	[Token(Token = "0x60002F0")]
-	[Address(RVA = "0x423C760", Offset = "0x423C760", VA = "0x423C760")]
+	[Address(RVA = "0x4579EC0", Offset = "0x4579EC0", VA = "0x4579EC0")]
 	internal void CheckForLoops(DataRelation rel)
 	{
 	}
 
 	[Token(Token = "0x60002F1")]
-	[Address(RVA = "0x423C850", Offset = "0x423C850", VA = "0x423C850")]
+	[Address(RVA = "0x4579FB0", Offset = "0x4579FB0", VA = "0x4579FB0")]
 	internal int GetNestedParentCount()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002F7")]
-	[Address(RVA = "0x423D6A0", Offset = "0x423D6A0", VA = "0x423D6A0")]
+	[Address(RVA = "0x457AE00", Offset = "0x457AE00", VA = "0x457AE00")]
 	public void AcceptChanges()
 	{
 	}
 
 	[Token(Token = "0x60002F8")]
-	[Address(RVA = "0x423DB40", Offset = "0x423DB40", VA = "0x423DB40")]
+	[Address(RVA = "0x457B2A0", Offset = "0x457B2A0", VA = "0x457B2A0")]
 	[EditorBrowsable(EditorBrowsableState.Advanced)]
 	public void BeginEdit()
 	{
 	}
 
 	[Token(Token = "0x60002F9")]
-	[Address(RVA = "0x423CE70", Offset = "0x423CE70", VA = "0x423CE70")]
+	[Address(RVA = "0x457A5D0", Offset = "0x457A5D0", VA = "0x457A5D0")]
 	private bool BeginEditInternal()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002FA")]
-	[Address(RVA = "0x423CF50", Offset = "0x423CF50", VA = "0x423CF50")]
+	[Address(RVA = "0x457A6B0", Offset = "0x457A6B0", VA = "0x457A6B0")]
 	[EditorBrowsable(EditorBrowsableState.Advanced)]
 	public void CancelEdit()
 	{
 	}
 
 	[Token(Token = "0x60002FB")]
-	[Address(RVA = "0x423CDA0", Offset = "0x423CDA0", VA = "0x423CDA0")]
+	[Address(RVA = "0x457A500", Offset = "0x457A500", VA = "0x457A500")]
 	private void CheckColumn(DataColumn column)
 	{
 	}
 
 	[Token(Token = "0x60002FC")]
-	[Address(RVA = "0x423DB50", Offset = "0x423DB50", VA = "0x423DB50")]
+	[Address(RVA = "0x457B2B0", Offset = "0x457B2B0", VA = "0x457B2B0")]
 	internal void CheckInTable()
 	{
 	}
 
 	[Token(Token = "0x60002FD")]
-	[Address(RVA = "0x423DB80", Offset = "0x423DB80", VA = "0x423DB80")]
+	[Address(RVA = "0x457B2E0", Offset = "0x457B2E0", VA = "0x457B2E0")]
 	public void Delete()
 	{
 	}
 
 	[Token(Token = "0x60002FE")]
-	[Address(RVA = "0x423CFB0", Offset = "0x423CFB0", VA = "0x423CFB0")]
+	[Address(RVA = "0x457A710", Offset = "0x457A710", VA = "0x457A710")]
 	[EditorBrowsable(EditorBrowsableState.Advanced)]
 	public void EndEdit()
 	{
 	}
 
 	[Token(Token = "0x60002FF")]
-	[Address(RVA = "0x423DBD0", Offset = "0x423DBD0", VA = "0x423DBD0")]
+	[Address(RVA = "0x457B330", Offset = "0x457B330", VA = "0x457B330")]
 	public void SetColumnError(int columnIndex, string error)
 	{
 	}
 
 	[Token(Token = "0x6000300")]
-	[Address(RVA = "0x423DC30", Offset = "0x423DC30", VA = "0x423DC30")]
+	[Address(RVA = "0x457B390", Offset = "0x457B390", VA = "0x457B390")]
 	public void SetColumnError(DataColumn column, string error)
 	{
 	}
 
 	[Token(Token = "0x6000301")]
-	[Address(RVA = "0x423DF80", Offset = "0x423DF80", VA = "0x423DF80")]
+	[Address(RVA = "0x457B6E0", Offset = "0x457B6E0", VA = "0x457B6E0")]
 	public string GetColumnError(string columnName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000302")]
-	[Address(RVA = "0x423DEF0", Offset = "0x423DEF0", VA = "0x423DEF0")]
+	[Address(RVA = "0x457B650", Offset = "0x457B650", VA = "0x457B650")]
 	public string GetColumnError(DataColumn column)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000303")]
-	[Address(RVA = "0x423DFF0", Offset = "0x423DFF0", VA = "0x423DFF0")]
+	[Address(RVA = "0x457B750", Offset = "0x457B750", VA = "0x457B750")]
 	public void ClearErrors()
 	{
 	}
 
 	[Token(Token = "0x6000304")]
-	[Address(RVA = "0x423E040", Offset = "0x423E040", VA = "0x423E040")]
+	[Address(RVA = "0x457B7A0", Offset = "0x457B7A0", VA = "0x457B7A0")]
 	internal void ClearError(DataColumn column)
 	{
 	}
 
 	[Token(Token = "0x6000306")]
-	[Address(RVA = "0x423E0B0", Offset = "0x423E0B0", VA = "0x423E0B0")]
+	[Address(RVA = "0x457B810", Offset = "0x457B810", VA = "0x457B810")]
 	public DataColumn[] GetColumnsInError()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000307")]
-	[Address(RVA = "0x423E180", Offset = "0x423E180", VA = "0x423E180")]
+	[Address(RVA = "0x457B8E0", Offset = "0x457B8E0", VA = "0x457B8E0")]
 	public DataRow[] GetChildRows(DataRelation relation)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000308")]
-	[Address(RVA = "0x423E190", Offset = "0x423E190", VA = "0x423E190")]
+	[Address(RVA = "0x457B8F0", Offset = "0x457B8F0", VA = "0x457B8F0")]
 	public DataRow[] GetChildRows(DataRelation relation, DataRowVersion version)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000309")]
-	[Address(RVA = "0x423C9A0", Offset = "0x423C9A0", VA = "0x423C9A0")]
+	[Address(RVA = "0x457A100", Offset = "0x457A100", VA = "0x457A100")]
 	internal DataColumn GetDataColumn(string columnName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600030A")]
-	[Address(RVA = "0x423C840", Offset = "0x423C840", VA = "0x423C840")]
+	[Address(RVA = "0x4579FA0", Offset = "0x4579FA0", VA = "0x4579FA0")]
 	public DataRow GetParentRow(DataRelation relation)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600030B")]
-	[Address(RVA = "0x423E2B0", Offset = "0x423E2B0", VA = "0x423E2B0")]
+	[Address(RVA = "0x457BA10", Offset = "0x457BA10", VA = "0x457BA10")]
 	public DataRow GetParentRow(DataRelation relation, DataRowVersion version)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600030C")]
-	[Address(RVA = "0x423E3C0", Offset = "0x423E3C0", VA = "0x423E3C0")]
+	[Address(RVA = "0x457BB20", Offset = "0x457BB20", VA = "0x457BB20")]
 	internal DataRow GetNestedParentRow(DataRowVersion version)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600030D")]
-	[Address(RVA = "0x423E490", Offset = "0x423E490", VA = "0x423E490")]
+	[Address(RVA = "0x457BBF0", Offset = "0x457BBF0", VA = "0x457BBF0")]
 	public DataRow[] GetParentRows(DataRelation relation)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600030E")]
-	[Address(RVA = "0x423E4A0", Offset = "0x423E4A0", VA = "0x423E4A0")]
+	[Address(RVA = "0x457BC00", Offset = "0x457BC00", VA = "0x457BC00")]
 	public DataRow[] GetParentRows(DataRelation relation, DataRowVersion version)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600030F")]
-	[Address(RVA = "0x423E5C0", Offset = "0x423E5C0", VA = "0x423E5C0")]
+	[Address(RVA = "0x457BD20", Offset = "0x457BD20", VA = "0x457BD20")]
 	internal object[] GetColumnValues(DataColumn[] columns)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000310")]
-	[Address(RVA = "0x423E640", Offset = "0x423E640", VA = "0x423E640")]
+	[Address(RVA = "0x457BDA0", Offset = "0x457BDA0", VA = "0x457BDA0")]
 	internal object[] GetColumnValues(DataColumn[] columns, DataRowVersion version)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000311")]
-	[Address(RVA = "0x423E6B0", Offset = "0x423E6B0", VA = "0x423E6B0")]
+	[Address(RVA = "0x457BE10", Offset = "0x457BE10", VA = "0x457BE10")]
 	internal object[] GetKeyValues(DataKey key)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000312")]
-	[Address(RVA = "0x423E690", Offset = "0x423E690", VA = "0x423E690")]
+	[Address(RVA = "0x457BDF0", Offset = "0x457BDF0", VA = "0x457BDF0")]
 	internal object[] GetKeyValues(DataKey key, DataRowVersion version)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000313")]
-	[Address(RVA = "0x423E710", Offset = "0x423E710", VA = "0x423E710")]
+	[Address(RVA = "0x457BE70", Offset = "0x457BE70", VA = "0x457BE70")]
 	internal int GetCurrentRecordNo()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000314")]
-	[Address(RVA = "0x423CE20", Offset = "0x423CE20", VA = "0x423CE20")]
+	[Address(RVA = "0x457A580", Offset = "0x457A580", VA = "0x457A580")]
 	internal int GetDefaultRecord()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000315")]
-	[Address(RVA = "0x423E740", Offset = "0x423E740", VA = "0x423E740")]
+	[Address(RVA = "0x457BEA0", Offset = "0x457BEA0", VA = "0x457BEA0")]
 	internal int GetOriginalRecordNo()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000316")]
-	[Address(RVA = "0x423CF20", Offset = "0x423CF20", VA = "0x423CF20")]
+	[Address(RVA = "0x457A680", Offset = "0x457A680", VA = "0x457A680")]
 	private int GetProposedRecordNo()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000317")]
-	[Address(RVA = "0x423D0F0", Offset = "0x423D0F0", VA = "0x423D0F0")]
+	[Address(RVA = "0x457A850", Offset = "0x457A850", VA = "0x457A850")]
 	internal int GetRecordFromVersion(DataRowVersion version)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000318")]
-	[Address(RVA = "0x423E770", Offset = "0x423E770", VA = "0x423E770")]
+	[Address(RVA = "0x457BED0", Offset = "0x457BED0", VA = "0x457BED0")]
 	internal DataRowVersion GetDefaultRowVersion(DataViewRowState viewState)
 	{
 		return default(DataRowVersion);
 	}
 
 	[Token(Token = "0x6000319")]
-	[Address(RVA = "0x423E7B0", Offset = "0x423E7B0", VA = "0x423E7B0")]
+	[Address(RVA = "0x457BF10", Offset = "0x457BF10", VA = "0x457BF10")]
 	internal DataViewRowState GetRecordState(int record)
 	{
 		return default(DataViewRowState);
 	}
 
 	[Token(Token = "0x600031A")]
-	[Address(RVA = "0x423E7F0", Offset = "0x423E7F0", VA = "0x423E7F0")]
+	[Address(RVA = "0x457BF50", Offset = "0x457BF50", VA = "0x457BF50")]
 	internal bool HasKeyChanged(DataKey key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600031B")]
-	[Address(RVA = "0x423E820", Offset = "0x423E820", VA = "0x423E820")]
+	[Address(RVA = "0x457BF80", Offset = "0x457BF80", VA = "0x457BF80")]
 	internal bool HasKeyChanged(DataKey key, DataRowVersion version1, DataRowVersion version2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600031C")]
-	[Address(RVA = "0x423E920", Offset = "0x423E920", VA = "0x423E920")]
+	[Address(RVA = "0x457C080", Offset = "0x457C080", VA = "0x457C080")]
 	public bool HasVersion(DataRowVersion version)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600031D")]
-	[Address(RVA = "0x423E9A0", Offset = "0x423E9A0", VA = "0x423E9A0")]
+	[Address(RVA = "0x457C100", Offset = "0x457C100", VA = "0x457C100")]
 	internal bool HaveValuesChanged(DataColumn[] columns)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600031E")]
-	[Address(RVA = "0x423EA50", Offset = "0x423EA50", VA = "0x423EA50")]
+	[Address(RVA = "0x457C1B0", Offset = "0x457C1B0", VA = "0x457C1B0")]
 	internal bool HaveValuesChanged(DataColumn[] columns, DataRowVersion version1, DataRowVersion version2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600031F")]
-	[Address(RVA = "0x423EAF0", Offset = "0x423EAF0", VA = "0x423EAF0")]
+	[Address(RVA = "0x457C250", Offset = "0x457C250", VA = "0x457C250")]
 	public void RejectChanges()
 	{
 	}
 
 	[Token(Token = "0x6000320")]
-	[Address(RVA = "0x423C490", Offset = "0x423C490", VA = "0x423C490")]
+	[Address(RVA = "0x4579BF0", Offset = "0x4579BF0", VA = "0x4579BF0")]
 	internal void ResetLastChangedColumn()
 	{
 	}
 
 	[Token(Token = "0x6000321")]
-	[Address(RVA = "0x423F420", Offset = "0x423F420", VA = "0x423F420")]
+	[Address(RVA = "0x457CB80", Offset = "0x457CB80", VA = "0x457CB80")]
 	internal void SetKeyValues(DataKey key, object[] keyValues)
 	{
 	}
 
 	[Token(Token = "0x6000322")]
-	[Address(RVA = "0x423F550", Offset = "0x423F550", VA = "0x423F550")]
+	[Address(RVA = "0x457CCB0", Offset = "0x457CCB0", VA = "0x457CCB0")]
 	internal void SetNestedParentRow(DataRow parentRow, bool setNonNested)
 	{
 	}
 
 	[Token(Token = "0x6000323")]
-	[Address(RVA = "0x423FA40", Offset = "0x423FA40", VA = "0x423FA40")]
+	[Address(RVA = "0x457D1A0", Offset = "0x457D1A0", VA = "0x457D1A0")]
 	internal void SetParentRowToDBNull()
 	{
 	}
 
 	[Token(Token = "0x6000324")]
-	[Address(RVA = "0x423FD90", Offset = "0x423FD90", VA = "0x423FD90")]
+	[Address(RVA = "0x457D4F0", Offset = "0x457D4F0", VA = "0x457D4F0")]
 	internal void SetParentRowToDBNull(DataRelation relation)
 	{
 	}
 
 	[Token(Token = "0x6000325")]
-	[Address(RVA = "0x423FF20", Offset = "0x423FF20", VA = "0x423FF20")]
+	[Address(RVA = "0x457D680", Offset = "0x457D680", VA = "0x457D680")]
 	internal int CopyValuesIntoStore(ArrayList storeList, ArrayList nullbitList, int storeIndex)
 	{
 		return default(int);

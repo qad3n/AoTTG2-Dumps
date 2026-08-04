@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UQuery
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -42,38 +49,38 @@ public static class UQuery
 		internal List<RuleMatcher> m_Matchers;
 
 		[Token(Token = "0x6001A2B")]
-		[Address(RVA = "0x4C3F5B0", Offset = "0x4C3F5B0", VA = "0x4C3F5B0")]
+		[Address(RVA = "0x4F66EE0", Offset = "0x4F66EE0", VA = "0x4F66EE0")]
 		protected UQueryMatcher()
 		{
 		}
 
 		[Token(Token = "0x6001A2C")]
-		[Address(RVA = "0x4C3F5C0", Offset = "0x4C3F5C0", VA = "0x4C3F5C0", Slot = "4")]
+		[Address(RVA = "0x4F66EF0", Offset = "0x4F66EF0", VA = "0x4F66EF0", Slot = "4")]
 		public override void Traverse(VisualElement element)
 		{
 		}
 
 		[Token(Token = "0x6001A2D")]
-		[Address(RVA = "0x4C3F5D0", Offset = "0x4C3F5D0", VA = "0x4C3F5D0", Slot = "6")]
+		[Address(RVA = "0x4F66F00", Offset = "0x4F66F00", VA = "0x4F66F00", Slot = "6")]
 		protected virtual bool OnRuleMatchedElement(RuleMatcher matcher, VisualElement element)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001A2E")]
-		[Address(RVA = "0x4C3F5E0", Offset = "0x4C3F5E0", VA = "0x4C3F5E0")]
+		[Address(RVA = "0x4F66F10", Offset = "0x4F66F10", VA = "0x4F66F10")]
 		private static void NoProcessResult(VisualElement e, MatchResultInfo i)
 		{
 		}
 
 		[Token(Token = "0x6001A2F")]
-		[Address(RVA = "0x4C3F5F0", Offset = "0x4C3F5F0", VA = "0x4C3F5F0", Slot = "5")]
+		[Address(RVA = "0x4F66F20", Offset = "0x4F66F20", VA = "0x4F66F20", Slot = "5")]
 		public override void TraverseRecursive(VisualElement element, int depth)
 		{
 		}
 
 		[Token(Token = "0x6001A30")]
-		[Address(RVA = "0x4C3F820", Offset = "0x4C3F820", VA = "0x4C3F820", Slot = "7")]
+		[Address(RVA = "0x4F67150", Offset = "0x4F67150", VA = "0x4F67150", Slot = "7")]
 		public virtual void Run(VisualElement root, List<RuleMatcher> matchers)
 		{
 		}
@@ -86,14 +93,14 @@ public static class UQuery
 		public VisualElement match
 		{
 			[Token(Token = "0x6001A34")]
-			[Address(RVA = "0x4C3F8F0", Offset = "0x4C3F8F0", VA = "0x4C3F8F0")]
+			[Address(RVA = "0x4F67220", Offset = "0x4F67220", VA = "0x4F67220")]
 			[CompilerGenerated]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x6001A35")]
-			[Address(RVA = "0x4C3F900", Offset = "0x4C3F900", VA = "0x4C3F900")]
+			[Address(RVA = "0x4F67230", Offset = "0x4F67230", VA = "0x4F67230")]
 			[CompilerGenerated]
 			set
 			{
@@ -101,13 +108,13 @@ public static class UQuery
 		}
 
 		[Token(Token = "0x6001A36")]
-		[Address(RVA = "0x4C3F910", Offset = "0x4C3F910", VA = "0x4C3F910", Slot = "7")]
+		[Address(RVA = "0x4F67240", Offset = "0x4F67240", VA = "0x4F67240", Slot = "7")]
 		public override void Run(VisualElement root, List<RuleMatcher> matchers)
 		{
 		}
 
 		[Token(Token = "0x6001A37")]
-		[Address(RVA = "0x4C3F980", Offset = "0x4C3F980", VA = "0x4C3F980")]
+		[Address(RVA = "0x4F672B0", Offset = "0x4F672B0", VA = "0x4F672B0")]
 		public bool IsInUse()
 		{
 			return default(bool);
@@ -117,7 +124,7 @@ public static class UQuery
 		public abstract SingleQueryMatcher CreateNew();
 
 		[Token(Token = "0x6001A39")]
-		[Address(RVA = "0x4C3F990", Offset = "0x4C3F990", VA = "0x4C3F990")]
+		[Address(RVA = "0x4F672C0", Offset = "0x4F672C0", VA = "0x4F672C0")]
 		protected SingleQueryMatcher()
 		{
 		}
@@ -131,21 +138,21 @@ public static class UQuery
 		public static readonly FirstQueryMatcher Instance;
 
 		[Token(Token = "0x6001A3A")]
-		[Address(RVA = "0x4C3F9A0", Offset = "0x4C3F9A0", VA = "0x4C3F9A0", Slot = "6")]
+		[Address(RVA = "0x4F672D0", Offset = "0x4F672D0", VA = "0x4F672D0", Slot = "6")]
 		protected override bool OnRuleMatchedElement(RuleMatcher matcher, VisualElement element)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001A3B")]
-		[Address(RVA = "0x4C3F9C0", Offset = "0x4C3F9C0", VA = "0x4C3F9C0", Slot = "8")]
+		[Address(RVA = "0x4F672F0", Offset = "0x4F672F0", VA = "0x4F672F0", Slot = "8")]
 		public override SingleQueryMatcher CreateNew()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6001A3C")]
-		[Address(RVA = "0x4C3FA00", Offset = "0x4C3FA00", VA = "0x4C3FA00")]
+		[Address(RVA = "0x4F67330", Offset = "0x4F67330", VA = "0x4F67330")]
 		public FirstQueryMatcher()
 		{
 		}

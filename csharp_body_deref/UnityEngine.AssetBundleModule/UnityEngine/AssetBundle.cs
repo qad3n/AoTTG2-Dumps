@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.AssetBundle
+// Update status: CHANGED in this game update
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -22,41 +29,47 @@ namespace UnityEngine;
 public class AssetBundle : Object
 {
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x4A7FCB0", Offset = "0x4A7FCB0", VA = "0x4A7FCB0")]
+	[Address(RVA = "0x4DA74D0", Offset = "0x4DA74D0", VA = "0x4DA74D0")]
 	private AssetBundle()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x4A7FD20", Offset = "0x4A7FD20", VA = "0x4A7FD20")]
+	[Address(RVA = "0x4DA7540", Offset = "0x4DA7540", VA = "0x4DA7540")]
 	[UnityEngine.Bindings.FreeFunction("LoadFromFile")]
 	internal static extern AssetBundle LoadFromFile_Internal(string path, uint crc, ulong offset);
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x4A7FD60", Offset = "0x4A7FD60", VA = "0x4A7FD60")]
+	[Address(RVA = "0x4DA7580", Offset = "0x4DA7580", VA = "0x4DA7580")]
 	public static AssetBundle LoadFromFile(string path)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x4A7FD90", Offset = "0x4A7FD90", VA = "0x4A7FD90")]
+	[Address(RVA = "0x4DA75B0", Offset = "0x4DA75B0", VA = "0x4DA75B0")]
 	public Object LoadAsset(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x4A7FE00", Offset = "0x4A7FE00", VA = "0x4A7FE00")]
+	public T LoadAsset<T>(string name) where T : Object
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000006")]
+	[Address(RVA = "0x4DA7620", Offset = "0x4DA7620", VA = "0x4DA7620")]
 	[TypeInferenceRule(TypeInferenceRules.TypeReferencedBySecondArgument)]
 	public Object LoadAsset(string name, Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x4A7FF90", Offset = "0x4A7FF90", VA = "0x4A7FF90")]
+	[Token(Token = "0x6000007")]
+	[Address(RVA = "0x4DA77B0", Offset = "0x4DA77B0", VA = "0x4DA77B0")]
 	[TypeInferenceRule(TypeInferenceRules.TypeReferencedBySecondArgument)]
 	[UnityEngine.Bindings.NativeMethod("LoadAsset_Internal")]
 	[UnityEngine.Bindings.NativeThrows]
@@ -65,16 +78,16 @@ public class AssetBundle : Object
 		return null;
 	}
 
-	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x4A80080", Offset = "0x4A80080", VA = "0x4A80080")]
+	[Token(Token = "0x6000008")]
+	[Address(RVA = "0x4DA78A0", Offset = "0x4DA78A0", VA = "0x4DA78A0")]
 	[UnityEngine.Bindings.NativeMethod("Unload")]
 	[UnityEngine.Bindings.NativeThrows]
 	public void Unload(bool unloadAllLoadedObjects)
 	{
 	}
 
-	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x4A80160", Offset = "0x4A80160", VA = "0x4A80160")]
+	[Token(Token = "0x6000009")]
+	[Address(RVA = "0x4DA7980", Offset = "0x4DA7980", VA = "0x4DA7980")]
 	[UnityEngine.Bindings.NativeMethod("GetAllAssetNames")]
 	public string[] GetAllAssetNames()
 	{
@@ -82,17 +95,17 @@ public class AssetBundle : Object
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x4A80040", Offset = "0x4A80040", VA = "0x4A80040")]
+	[Token(Token = "0x600000A")]
+	[Address(RVA = "0x4DA7860", Offset = "0x4DA7860", VA = "0x4DA7860")]
 	private static extern Object LoadAsset_Internal_Injected(IntPtr _unity_self, string name, Type type);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x4A80120", Offset = "0x4A80120", VA = "0x4A80120")]
+	[Token(Token = "0x600000B")]
+	[Address(RVA = "0x4DA7940", Offset = "0x4DA7940", VA = "0x4DA7940")]
 	private static extern void Unload_Injected(IntPtr _unity_self, bool unloadAllLoadedObjects);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x4A80200", Offset = "0x4A80200", VA = "0x4A80200")]
+	[Token(Token = "0x600000C")]
+	[Address(RVA = "0x4DA7A20", Offset = "0x4DA7A20", VA = "0x4DA7A20")]
 	private static extern string[] GetAllAssetNames_Injected(IntPtr _unity_self);
 }

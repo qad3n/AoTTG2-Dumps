@@ -1,26 +1,27 @@
 // Type: UI.ExportPopup
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/ExportPopup.cs
-// Prior real C# source (REFERENCE, outdated): Assets/Scripts/UI/BaseMenu/ExportPopup.cs  [CHANGED since prior version]
+// Prior real C# source (older reference): Assets/Scripts/UI/BaseMenu/ExportPopup.cs
 // --------------------------------
 
 // UI.ExportPopup$$get_Title
 // il2cpp: System_String_o* UI_ExportPopup__get_Title (UI_ExportPopup_o* __this, const MethodInfo* method);
-// 0x4021e30
+// 0x434b5e0
 
 System_String_o * UI_ExportPopup__get_Title(UI_ExportPopup_o *__this,MethodInfo *method)
 
 {
   System_String_o *pSVar1;
   
-  if (DAT_057042ed == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_UIManager);
-    il2cpp_init_method_metadata(&"Export");
-    DAT_057042ed = '\x01';
+  if (g_data_057ae103 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
+    il2cpp_runtime_helper_023445d0(&"Export");
+    g_data_057ae103 = '\x01';
   }
   if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
   pSVar1 = UI_UIManager__GetLocaleCommon("Export",(MethodInfo *)0x0);
   return pSVar1;
@@ -29,7 +30,7 @@ System_String_o * UI_ExportPopup__get_Title(UI_ExportPopup_o *__this,MethodInfo 
 
 // UI.ExportPopup$$get_Width
 // il2cpp: float UI_ExportPopup__get_Width (UI_ExportPopup_o* __this, const MethodInfo* method);
-// 0x4021e90
+// 0x434b640
 
 float UI_ExportPopup__get_Width(UI_ExportPopup_o *__this,MethodInfo *method)
 
@@ -40,7 +41,7 @@ float UI_ExportPopup__get_Width(UI_ExportPopup_o *__this,MethodInfo *method)
 
 // UI.ExportPopup$$get_Height
 // il2cpp: float UI_ExportPopup__get_Height (UI_ExportPopup_o* __this, const MethodInfo* method);
-// 0x4021ea0
+// 0x434b650
 
 float UI_ExportPopup__get_Height(UI_ExportPopup_o *__this,MethodInfo *method)
 
@@ -51,7 +52,7 @@ float UI_ExportPopup__get_Height(UI_ExportPopup_o *__this,MethodInfo *method)
 
 // UI.ExportPopup$$get_VerticalPadding
 // il2cpp: int32_t UI_ExportPopup__get_VerticalPadding (UI_ExportPopup_o* __this, const MethodInfo* method);
-// 0x4021eb0
+// 0x434b660
 
 int32_t UI_ExportPopup__get_VerticalPadding(UI_ExportPopup_o *__this,MethodInfo *method)
 
@@ -62,7 +63,7 @@ int32_t UI_ExportPopup__get_VerticalPadding(UI_ExportPopup_o *__this,MethodInfo 
 
 // UI.ExportPopup$$get_HorizontalPadding
 // il2cpp: int32_t UI_ExportPopup__get_HorizontalPadding (UI_ExportPopup_o* __this, const MethodInfo* method);
-// 0x4021ec0
+// 0x434b670
 
 int32_t UI_ExportPopup__get_HorizontalPadding(UI_ExportPopup_o *__this,MethodInfo *method)
 
@@ -73,7 +74,7 @@ int32_t UI_ExportPopup__get_HorizontalPadding(UI_ExportPopup_o *__this,MethodInf
 
 // UI.ExportPopup$$Setup
 // il2cpp: void UI_ExportPopup__Setup (UI_ExportPopup_o* __this, UI_BasePanel_o* parent, const MethodInfo* method);
-// 0x4021ed0
+// 0x434b680
 
 void UI_ExportPopup__Setup(UI_ExportPopup_o *__this,UI_BasePanel_o *parent,MethodInfo *method)
 
@@ -85,13 +86,13 @@ void UI_ExportPopup__Setup(UI_ExportPopup_o *__this,UI_BasePanel_o *parent,Metho
   UnityEngine_Events_UnityAction_o *onClick;
   MethodInfo *extraout_RDX;
   
-  if (DAT_057042ee == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_ElementStyle);
-    il2cpp_init_method_metadata(&MethodInfo_Void__Setup_b__12_0);
-    il2cpp_init_method_metadata(&TypeInfo_UIManager);
-    il2cpp_init_method_metadata(&TypeInfo_UnityAction);
-    il2cpp_init_method_metadata(&"Done");
-    DAT_057042ee = '\x01';
+  if (g_data_057ae104 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_ElementStyle);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__12_0);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction);
+    il2cpp_runtime_helper_023445d0(&"Done");
+    g_data_057ae104 = '\x01';
     method = extraout_RDX;
   }
   UI_PromptPopup__Setup((UI_PromptPopup_o *)__this,parent,method);
@@ -100,14 +101,14 @@ void UI_ExportPopup__Setup(UI_ExportPopup_o *__this,UI_BasePanel_o *parent,Metho
   pSVar1 = (System_String_o *)
            (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
                      (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-  __this_00 = (UI_ElementStyle_o *)il2cpp_runtime_glue(TypeInfo_ElementStyle);
+  __this_00 = (UI_ElementStyle_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
   UI_ElementStyle___ctor(__this_00,fontSize,120.0,20.0,pSVar1,(MethodInfo *)0x0);
   parent_00 = (__this->fields).BottomBar;
   if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-    il2cpp_init_class();
+    il2cpp_runtime_helper_02337ed0();
   }
   pSVar1 = UI_UIManager__GetLocaleCommon("Done",(MethodInfo *)0x0);
-  onClick = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_glue(TypeInfo_UnityAction);
+  onClick = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
   UnityEngine_Events_UnityAction___ctor();
   UI_ElementFactory__CreateTextButton(parent_00,__this_00,pSVar1,0.0,onClick,(MethodInfo *)0x0);
   return;
@@ -116,7 +117,7 @@ void UI_ExportPopup__Setup(UI_ExportPopup_o *__this,UI_BasePanel_o *parent,Metho
 
 // UI.ExportPopup$$Show
 // il2cpp: void UI_ExportPopup__Show (UI_ExportPopup_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x4022010
+// 0x434b7c0
 
 void UI_ExportPopup__Show(UI_ExportPopup_o *__this,System_String_o *value,MethodInfo *method)
 
@@ -125,21 +126,24 @@ void UI_ExportPopup__Show(UI_ExportPopup_o *__this,System_String_o *value,Method
   UnityEngine_Object_o *pUVar2;
   Settings_StringSetting_o *__this_00;
   bool_conflict bVar3;
-  int32_t fontSize;
+  uint fontSize;
   UnityEngine_GameObject_o *pUVar4;
   System_String_o *themePanel;
   UI_ElementStyle_o *__this_01;
+  System_String_o *a;
   MethodInfo *method_00;
+  UI_ExportPopup_o *pUVar5;
   
-  if (DAT_057042ef == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_ElementStyle);
-    il2cpp_init_method_metadata(&TypeInfo_Object);
-    il2cpp_init_method_metadata(&MethodInfo_Void_set_Value);
-    il2cpp_init_method_metadata(&"");
-    DAT_057042ef = '\x01';
+  if (g_data_057ae105 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_ElementStyle);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
+    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057ae105 = '\x01';
   }
-  pUVar4 = UnityEngine_Component__get_gameObject
-                     ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+  a = (System_String_o *)0x0;
+  pUVar5 = __this;
+  pUVar4 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
   if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
     bVar3 = UnityEngine_GameObject__get_activeSelf(pUVar4,(MethodInfo *)0x0);
     if ((char)bVar3 != '\0') {
@@ -147,7 +151,7 @@ void UI_ExportPopup__Show(UI_ExportPopup_o *__this,System_String_o *value,Method
     }
     pUVar2 = (UnityEngine_Object_o *)(__this->fields)._element;
     if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_init_class();
+      il2cpp_runtime_helper_02337ed0();
     }
     ppUVar1 = &(__this->fields)._element;
     method_00 = (MethodInfo *)0x0;
@@ -155,53 +159,63 @@ void UI_ExportPopup__Show(UI_ExportPopup_o *__this,System_String_o *value,Method
     if ((char)bVar3 != '\0') {
       pUVar2 = (UnityEngine_Object_o *)*ppUVar1;
       if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_init_class();
+        il2cpp_runtime_helper_02337ed0();
       }
       method_00 = (MethodInfo *)0x0;
-      UnityEngine_Object__Destroy(pUVar2,(MethodInfo *)0x0);
+      UnityEngine_Object__Destroy_4e01c60(pUVar2,(MethodInfo *)0x0);
     }
     UI_BasePopup__Show((UI_BasePopup_o *)__this,method_00);
     fontSize = (*(__this->klass->vtable)._41_get_ButtonFontSize.methodPtr)
                          (__this,(__this->klass->vtable)._41_get_ButtonFontSize.method);
+    a = (System_String_o *)(ulong)fontSize;
     themePanel = (System_String_o *)
                  (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
                            (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-    __this_01 = (UI_ElementStyle_o *)il2cpp_runtime_glue(TypeInfo_ElementStyle);
+    __this_01 = (UI_ElementStyle_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
     UI_ElementStyle___ctor(__this_01,fontSize,120.0,20.0,themePanel,(MethodInfo *)0x0);
     __this_00 = (__this->fields).ExportSetting;
+    pUVar5 = (UI_ExportPopup_o *)0x0;
     if (__this_00 != (Settings_StringSetting_o *)0x0) {
-      Settings_TypedSetting<object>__set_Value
+      Settings_TypedSetting_object___set_Value
                 ((Settings_TypedSetting_T__o *)__this_00,(Il2CppObject *)value,MethodInfo_Void_set_Value);
       pUVar4 = UI_ElementFactory__CreateInputSetting
                          ((__this->fields).SinglePanel,__this_01,
                           (Settings_BaseSetting_o *)(__this->fields).ExportSetting,
-                          (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8),"",
-                          460.0,435.0,1,(UnityEngine_Events_UnityAction_o *)0x0,
-                          (UnityEngine_Events_UnityAction_o *)0x0,(System_Func_string__bool__o *)0x0
-                          ,(System_Func_string__string__o *)0x0,(MethodInfo *)0x0);
+                          (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8),"",460.0,435.0,1
+                          ,(UnityEngine_Events_UnityAction_o *)0x0,(UnityEngine_Events_UnityAction_o *)0x0,
+                          (System_Func_string__bool__o *)0x0,(System_Func_string__string__o *)0x0,
+                          (MethodInfo *)0x0);
       (__this->fields)._element = pUVar4;
-      il2cpp_runtime_glue(ppUVar1,pUVar4);
+      il2cpp_runtime_helper_022b4080(ppUVar1,pUVar4);
       return;
     }
   }
-                    /* WARNING: Subroutine does not return */
-  il2cpp_raise_exception();
+  il2cpp_runtime_helper_022b2c90();
+  if (g_data_057ae106 == '\0') {
+    il2cpp_runtime_helper_023445d0(&"Done");
+    g_data_057ae106 = '\x01';
+  }
+  bVar3 = System_String__op_Equality(a,"Done",(MethodInfo *)0x0);
+  if ((char)bVar3 != '\0') {
+    (*(pUVar5->klass->vtable)._22_Hide.methodPtr)(pUVar5,(pUVar5->klass->vtable)._22_Hide.method);
+    return;
+  }
+  return;
 }
 
 
 // UI.ExportPopup$$OnButtonClick
 // il2cpp: void UI_ExportPopup__OnButtonClick (UI_ExportPopup_o* __this, System_String_o* name, const MethodInfo* method);
-// 0x4022200
+// 0x434b9b0
 
-void UI_ExportPopup__OnButtonClick
-               (UI_ExportPopup_o *__this,System_String_o *name,MethodInfo *method)
+void UI_ExportPopup__OnButtonClick(UI_ExportPopup_o *__this,System_String_o *name,MethodInfo *method)
 
 {
   bool_conflict bVar1;
   
-  if (DAT_057042f0 == '\0') {
-    il2cpp_init_method_metadata(&"Done");
-    DAT_057042f0 = '\x01';
+  if (g_data_057ae106 == '\0') {
+    il2cpp_runtime_helper_023445d0(&"Done");
+    g_data_057ae106 = '\x01';
   }
   bVar1 = System_String__op_Equality(name,"Done",(MethodInfo *)0x0);
   if ((char)bVar1 != '\0') {
@@ -214,7 +228,7 @@ void UI_ExportPopup__OnButtonClick
 
 // UI.ExportPopup$$.ctor
 // il2cpp: void UI_ExportPopup___ctor (UI_ExportPopup_o* __this, const MethodInfo* method);
-// 0x4022270
+// 0x434ba20
 
 void UI_ExportPopup___ctor(UI_ExportPopup_o *__this,MethodInfo *method)
 
@@ -222,16 +236,16 @@ void UI_ExportPopup___ctor(UI_ExportPopup_o *__this,MethodInfo *method)
   System_String_o *defaultValue;
   MethodInfo *method_00;
   
-  if (DAT_057042f1 == '\0') {
-    il2cpp_init_method_metadata(&TypeInfo_StringSetting);
-    DAT_057042f1 = '\x01';
+  if (g_data_057ae107 == '\0') {
+    il2cpp_runtime_helper_023445d0(&TypeInfo_StringSetting);
+    g_data_057ae107 = '\x01';
   }
-  defaultValue = (System_String_o *)**(undefined8 **)(DAT_057110b0 + 0xb8);
-  method_00 = (MethodInfo *)il2cpp_runtime_glue(TypeInfo_StringSetting);
-  Settings_StringSetting___ctor
+  defaultValue = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+  method_00 = (MethodInfo *)il2cpp_runtime_helper_023052d0(TypeInfo_StringSetting);
+  Settings_StringSetting___ctor_40f74f0
             ((Settings_StringSetting_o *)method_00,defaultValue,0x7fffffff,(MethodInfo *)0x0);
   (__this->fields).ExportSetting = (Settings_StringSetting_o *)method_00;
-  il2cpp_runtime_glue(&(__this->fields).ExportSetting);
+  il2cpp_runtime_helper_022b4080(&(__this->fields).ExportSetting);
   UI_BasePopup___ctor((UI_TooltipPopup_o *)__this,method_00);
   return;
 }
@@ -239,22 +253,22 @@ void UI_ExportPopup___ctor(UI_ExportPopup_o *__this,MethodInfo *method)
 
 // UI.ExportPopup$$<Setup>b__12_0
 // il2cpp: void UI_ExportPopup___Setup_b__12_0 (UI_ExportPopup_o* __this, const MethodInfo* method);
-// 0x4022300
+// 0x434bab0
 
-void UI_ExportPopup__<Setup>b__12_0(UI_ExportPopup_o *__this,MethodInfo *method)
+void UI_ExportPopup___Setup_b__12_0(UI_ExportPopup_o *__this,MethodInfo *method)
 
 {
   System_String_o *a;
   bool_conflict bVar1;
   
-  if (DAT_057042f2 == '\0') {
-    il2cpp_init_method_metadata(&"Done");
-    DAT_057042f2 = '\x01';
+  if (g_data_057ae108 == '\0') {
+    il2cpp_runtime_helper_023445d0(&"Done");
+    g_data_057ae108 = '\x01';
   }
   a = "Done";
-  if (DAT_057042f0 == '\0') {
-    il2cpp_init_method_metadata(&"Done");
-    DAT_057042f0 = '\x01';
+  if (g_data_057ae106 == '\0') {
+    il2cpp_runtime_helper_023445d0(&"Done");
+    g_data_057ae106 = '\x01';
   }
   bVar1 = System_String__op_Equality(a,"Done",(MethodInfo *)0x0);
   if ((char)bVar1 != '\0') {

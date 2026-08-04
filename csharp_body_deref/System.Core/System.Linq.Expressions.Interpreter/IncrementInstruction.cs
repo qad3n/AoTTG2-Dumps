@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.IncrementInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -9,14 +16,14 @@ internal abstract class IncrementInstruction : Instruction
 	private sealed class IncrementInt16 : IncrementInstruction
 	{
 		[Token(Token = "0x6000742")]
-		[Address(RVA = "0x41AD560", Offset = "0x41AD560", VA = "0x41AD560", Slot = "8")]
+		[Address(RVA = "0x44D2660", Offset = "0x44D2660", VA = "0x44D2660", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000743")]
-		[Address(RVA = "0x41AD4E0", Offset = "0x41AD4E0", VA = "0x41AD4E0")]
+		[Address(RVA = "0x44D25E0", Offset = "0x44D25E0", VA = "0x44D25E0")]
 		public IncrementInt16()
 		{
 		}
@@ -26,14 +33,14 @@ internal abstract class IncrementInstruction : Instruction
 	private sealed class IncrementInt32 : IncrementInstruction
 	{
 		[Token(Token = "0x6000744")]
-		[Address(RVA = "0x41AD6A0", Offset = "0x41AD6A0", VA = "0x41AD6A0", Slot = "8")]
+		[Address(RVA = "0x44D27A0", Offset = "0x44D27A0", VA = "0x44D27A0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000745")]
-		[Address(RVA = "0x41AD4F0", Offset = "0x41AD4F0", VA = "0x41AD4F0")]
+		[Address(RVA = "0x44D25F0", Offset = "0x44D25F0", VA = "0x44D25F0")]
 		public IncrementInt32()
 		{
 		}
@@ -43,14 +50,14 @@ internal abstract class IncrementInstruction : Instruction
 	private sealed class IncrementInt64 : IncrementInstruction
 	{
 		[Token(Token = "0x6000746")]
-		[Address(RVA = "0x41AD7B0", Offset = "0x41AD7B0", VA = "0x41AD7B0", Slot = "8")]
+		[Address(RVA = "0x44D28B0", Offset = "0x44D28B0", VA = "0x44D28B0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000747")]
-		[Address(RVA = "0x41AD500", Offset = "0x41AD500", VA = "0x41AD500")]
+		[Address(RVA = "0x44D2600", Offset = "0x44D2600", VA = "0x44D2600")]
 		public IncrementInt64()
 		{
 		}
@@ -60,14 +67,14 @@ internal abstract class IncrementInstruction : Instruction
 	private sealed class IncrementUInt16 : IncrementInstruction
 	{
 		[Token(Token = "0x6000748")]
-		[Address(RVA = "0x41AD8C0", Offset = "0x41AD8C0", VA = "0x41AD8C0", Slot = "8")]
+		[Address(RVA = "0x44D29C0", Offset = "0x44D29C0", VA = "0x44D29C0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000749")]
-		[Address(RVA = "0x41AD510", Offset = "0x41AD510", VA = "0x41AD510")]
+		[Address(RVA = "0x44D2610", Offset = "0x44D2610", VA = "0x44D2610")]
 		public IncrementUInt16()
 		{
 		}
@@ -77,14 +84,14 @@ internal abstract class IncrementInstruction : Instruction
 	private sealed class IncrementUInt32 : IncrementInstruction
 	{
 		[Token(Token = "0x600074A")]
-		[Address(RVA = "0x41AD960", Offset = "0x41AD960", VA = "0x41AD960", Slot = "8")]
+		[Address(RVA = "0x44D2A60", Offset = "0x44D2A60", VA = "0x44D2A60", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x600074B")]
-		[Address(RVA = "0x41AD520", Offset = "0x41AD520", VA = "0x41AD520")]
+		[Address(RVA = "0x44D2620", Offset = "0x44D2620", VA = "0x44D2620")]
 		public IncrementUInt32()
 		{
 		}
@@ -94,14 +101,14 @@ internal abstract class IncrementInstruction : Instruction
 	private sealed class IncrementUInt64 : IncrementInstruction
 	{
 		[Token(Token = "0x600074C")]
-		[Address(RVA = "0x41ADA70", Offset = "0x41ADA70", VA = "0x41ADA70", Slot = "8")]
+		[Address(RVA = "0x44D2B70", Offset = "0x44D2B70", VA = "0x44D2B70", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x600074D")]
-		[Address(RVA = "0x41AD530", Offset = "0x41AD530", VA = "0x41AD530")]
+		[Address(RVA = "0x44D2630", Offset = "0x44D2630", VA = "0x44D2630")]
 		public IncrementUInt64()
 		{
 		}
@@ -111,14 +118,14 @@ internal abstract class IncrementInstruction : Instruction
 	private sealed class IncrementSingle : IncrementInstruction
 	{
 		[Token(Token = "0x600074E")]
-		[Address(RVA = "0x41ADB80", Offset = "0x41ADB80", VA = "0x41ADB80", Slot = "8")]
+		[Address(RVA = "0x44D2C80", Offset = "0x44D2C80", VA = "0x44D2C80", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x600074F")]
-		[Address(RVA = "0x41AD540", Offset = "0x41AD540", VA = "0x41AD540")]
+		[Address(RVA = "0x44D2640", Offset = "0x44D2640", VA = "0x44D2640")]
 		public IncrementSingle()
 		{
 		}
@@ -128,14 +135,14 @@ internal abstract class IncrementInstruction : Instruction
 	private sealed class IncrementDouble : IncrementInstruction
 	{
 		[Token(Token = "0x6000750")]
-		[Address(RVA = "0x41ADCA0", Offset = "0x41ADCA0", VA = "0x41ADCA0", Slot = "8")]
+		[Address(RVA = "0x44D2DA0", Offset = "0x44D2DA0", VA = "0x44D2DA0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000751")]
-		[Address(RVA = "0x41AD550", Offset = "0x41AD550", VA = "0x41AD550")]
+		[Address(RVA = "0x44D2650", Offset = "0x44D2650", VA = "0x44D2650")]
 		public IncrementDouble()
 		{
 		}
@@ -177,7 +184,7 @@ internal abstract class IncrementInstruction : Instruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x600073D")]
-		[Address(RVA = "0x41AD0C0", Offset = "0x41AD0C0", VA = "0x41AD0C0", Slot = "4")]
+		[Address(RVA = "0x44D21C0", Offset = "0x44D21C0", VA = "0x44D21C0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -188,7 +195,7 @@ internal abstract class IncrementInstruction : Instruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x600073E")]
-		[Address(RVA = "0x41AD0D0", Offset = "0x41AD0D0", VA = "0x41AD0D0", Slot = "5")]
+		[Address(RVA = "0x44D21D0", Offset = "0x44D21D0", VA = "0x44D21D0", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -199,7 +206,7 @@ internal abstract class IncrementInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x600073F")]
-		[Address(RVA = "0x41AD0E0", Offset = "0x41AD0E0", VA = "0x41AD0E0", Slot = "9")]
+		[Address(RVA = "0x44D21E0", Offset = "0x44D21E0", VA = "0x44D21E0", Slot = "9")]
 		get
 		{
 			return null;
@@ -207,13 +214,13 @@ internal abstract class IncrementInstruction : Instruction
 	}
 
 	[Token(Token = "0x6000740")]
-	[Address(RVA = "0x41AD110", Offset = "0x41AD110", VA = "0x41AD110")]
+	[Address(RVA = "0x44D2210", Offset = "0x44D2210", VA = "0x44D2210")]
 	private IncrementInstruction()
 	{
 	}
 
 	[Token(Token = "0x6000741")]
-	[Address(RVA = "0x41AD120", Offset = "0x41AD120", VA = "0x41AD120")]
+	[Address(RVA = "0x44D2220", Offset = "0x44D2220", VA = "0x44D2220")]
 	public static Instruction Create(Type type)
 	{
 		return null;

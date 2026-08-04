@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.OpusCodec
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/OpusCodec.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -124,13 +131,13 @@ public class OpusCodec
 	public class EncoderFloat : Encoder<float>
 	{
 		[Token(Token = "0x6000195")]
-		[Address(RVA = "0x3C25090", Offset = "0x3C25090", VA = "0x3C25090")]
+		[Address(RVA = "0x3F1A9E0", Offset = "0x3F1A9E0", VA = "0x3F1A9E0")]
 		internal EncoderFloat(VoiceInfo i, ILogger logger)
 		{
 		}
 
 		[Token(Token = "0x6000196")]
-		[Address(RVA = "0x3C25140", Offset = "0x3C25140", VA = "0x3C25140", Slot = "11")]
+		[Address(RVA = "0x3F1AA90", Offset = "0x3F1AA90", VA = "0x3F1AA90", Slot = "11")]
 		protected override void encodeTyped(float[] buf)
 		{
 		}
@@ -140,13 +147,13 @@ public class OpusCodec
 	public class EncoderShort : Encoder<short>
 	{
 		[Token(Token = "0x6000197")]
-		[Address(RVA = "0x3C25160", Offset = "0x3C25160", VA = "0x3C25160")]
+		[Address(RVA = "0x3F1AAB0", Offset = "0x3F1AAB0", VA = "0x3F1AAB0")]
 		internal EncoderShort(VoiceInfo i, ILogger logger)
 		{
 		}
 
 		[Token(Token = "0x6000198")]
-		[Address(RVA = "0x3C25210", Offset = "0x3C25210", VA = "0x3C25210", Slot = "11")]
+		[Address(RVA = "0x3F1AB60", Offset = "0x3F1AB60", VA = "0x3F1AB60", Slot = "11")]
 		protected override void encodeTyped(short[] buf)
 		{
 		}
@@ -208,14 +215,14 @@ public class OpusCodec
 	public class Util
 	{
 		[Token(Token = "0x600019F")]
-		[Address(RVA = "0x3C25230", Offset = "0x3C25230", VA = "0x3C25230")]
+		[Address(RVA = "0x3F1AB80", Offset = "0x3F1AB80", VA = "0x3F1AB80")]
 		internal static int bestEncoderSampleRate(int f)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60001A0")]
-		[Address(RVA = "0x3C25650", Offset = "0x3C25650", VA = "0x3C25650")]
+		[Address(RVA = "0x3F1AFA0", Offset = "0x3F1AFA0", VA = "0x3F1AFA0")]
 		public Util()
 		{
 		}
@@ -225,7 +232,7 @@ public class OpusCodec
 	public static string Version
 	{
 		[Token(Token = "0x6000186")]
-		[Address(RVA = "0x3C25070", Offset = "0x3C25070", VA = "0x3C25070")]
+		[Address(RVA = "0x3F1A9C0", Offset = "0x3F1A9C0", VA = "0x3F1A9C0")]
 		get
 		{
 			return null;
@@ -233,7 +240,7 @@ public class OpusCodec
 	}
 
 	[Token(Token = "0x6000187")]
-	[Address(RVA = "0x3C25080", Offset = "0x3C25080", VA = "0x3C25080")]
+	[Address(RVA = "0x3F1A9D0", Offset = "0x3F1A9D0", VA = "0x3F1A9D0")]
 	public OpusCodec()
 	{
 	}

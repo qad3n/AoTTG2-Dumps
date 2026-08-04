@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.CharEntityEncoderFallbackBuffer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Text;
 using Il2CppDummyDll;
 
@@ -22,7 +29,7 @@ internal class CharEntityEncoderFallbackBuffer : EncoderFallbackBuffer
 	public override int Remaining
 	{
 		[Token(Token = "0x60000F0")]
-		[Address(RVA = "0x43563B0", Offset = "0x43563B0", VA = "0x43563B0", Slot = "8")]
+		[Address(RVA = "0x4688480", Offset = "0x4688480", VA = "0x4688480", Slot = "8")]
 		get
 		{
 			return default(int);
@@ -30,47 +37,47 @@ internal class CharEntityEncoderFallbackBuffer : EncoderFallbackBuffer
 	}
 
 	[Token(Token = "0x60000EB")]
-	[Address(RVA = "0x4355D00", Offset = "0x4355D00", VA = "0x4355D00")]
+	[Address(RVA = "0x4687DD0", Offset = "0x4687DD0", VA = "0x4687DD0")]
 	internal CharEntityEncoderFallbackBuffer(CharEntityEncoderFallback parent)
 	{
 	}
 
 	[Token(Token = "0x60000EC")]
-	[Address(RVA = "0x4355E00", Offset = "0x4355E00", VA = "0x4355E00", Slot = "4")]
+	[Address(RVA = "0x4687ED0", Offset = "0x4687ED0", VA = "0x4687ED0", Slot = "4")]
 	public override bool Fallback(char charUnknown, int index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000ED")]
-	[Address(RVA = "0x4356060", Offset = "0x4356060", VA = "0x4356060", Slot = "5")]
+	[Address(RVA = "0x4688130", Offset = "0x4688130", VA = "0x4688130", Slot = "5")]
 	public override bool Fallback(char charUnknownHigh, char charUnknownLow, int index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000EE")]
-	[Address(RVA = "0x4356350", Offset = "0x4356350", VA = "0x4356350", Slot = "6")]
+	[Address(RVA = "0x4688420", Offset = "0x4688420", VA = "0x4688420", Slot = "6")]
 	public override char GetNextChar()
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x60000EF")]
-	[Address(RVA = "0x4356390", Offset = "0x4356390", VA = "0x4356390", Slot = "7")]
+	[Address(RVA = "0x4688460", Offset = "0x4688460", VA = "0x4688460", Slot = "7")]
 	public override bool MovePrevious()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000F1")]
-	[Address(RVA = "0x43563E0", Offset = "0x43563E0", VA = "0x43563E0", Slot = "9")]
+	[Address(RVA = "0x46884B0", Offset = "0x46884B0", VA = "0x46884B0", Slot = "9")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x60000F2")]
-	[Address(RVA = "0x4356340", Offset = "0x4356340", VA = "0x4356340")]
+	[Address(RVA = "0x4688410", Offset = "0x4688410", VA = "0x4688410")]
 	private int SurrogateCharToUtf32(char highSurrogate, char lowSurrogate)
 	{
 		return default(int);

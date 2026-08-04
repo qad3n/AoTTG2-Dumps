@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.ScreenSpaceAmbientOcclusion
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/ScreenSpaceAmbientOcclusion.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -71,51 +78,51 @@ public class ScreenSpaceAmbientOcclusion : MonoBehaviour
 	private bool m_Supported;
 
 	[Token(Token = "0x6000098")]
-	[Address(RVA = "0x4162230", Offset = "0x4162230", VA = "0x4162230")]
+	[Address(RVA = "0x4487330", Offset = "0x4487330", VA = "0x4487330")]
 	private static Material CreateMaterial(Shader shader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000099")]
-	[Address(RVA = "0x41622D0", Offset = "0x41622D0", VA = "0x41622D0")]
+	[Address(RVA = "0x44873D0", Offset = "0x44873D0", VA = "0x44873D0")]
 	private static void DestroyMaterial(Material mat)
 	{
 	}
 
 	[Token(Token = "0x600009A")]
-	[Address(RVA = "0x4162350", Offset = "0x4162350", VA = "0x4162350")]
+	[Address(RVA = "0x4487450", Offset = "0x4487450", VA = "0x4487450")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x600009B")]
-	[Address(RVA = "0x41623D0", Offset = "0x41623D0", VA = "0x41623D0")]
+	[Address(RVA = "0x44874D0", Offset = "0x44874D0", VA = "0x44874D0")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x600009C")]
-	[Address(RVA = "0x4162540", Offset = "0x4162540", VA = "0x4162540")]
+	[Address(RVA = "0x4487640", Offset = "0x4487640", VA = "0x4487640")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x600009D")]
-	[Address(RVA = "0x4162480", Offset = "0x4162480", VA = "0x4162480")]
+	[Address(RVA = "0x4487580", Offset = "0x4487580", VA = "0x4487580")]
 	private void CreateMaterials()
 	{
 	}
 
 	[Token(Token = "0x600009E")]
-	[Address(RVA = "0x41625A0", Offset = "0x41625A0", VA = "0x41625A0")]
+	[Address(RVA = "0x44876A0", Offset = "0x44876A0", VA = "0x44876A0")]
 	[ImageEffectOpaque]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x600009F")]
-	[Address(RVA = "0x4162C50", Offset = "0x4162C50", VA = "0x4162C50")]
+	[Address(RVA = "0x4487D50", Offset = "0x4487D50", VA = "0x4487D50")]
 	public ScreenSpaceAmbientOcclusion()
 	{
 	}

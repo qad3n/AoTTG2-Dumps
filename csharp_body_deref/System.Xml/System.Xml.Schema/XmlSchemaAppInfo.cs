@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XmlSchemaAppInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.Serialization;
 using Il2CppDummyDll;
 
@@ -19,7 +26,7 @@ public class XmlSchemaAppInfo : XmlSchemaObject
 	public string Source
 	{
 		[Token(Token = "0x6001541")]
-		[Address(RVA = "0x43E1460", Offset = "0x43E1460", VA = "0x43E1460")]
+		[Address(RVA = "0x471EBC0", Offset = "0x471EBC0", VA = "0x471EBC0")]
 		set
 		{
 		}
@@ -31,20 +38,20 @@ public class XmlSchemaAppInfo : XmlSchemaObject
 	public XmlNode[] Markup
 	{
 		[Token(Token = "0x6001542")]
-		[Address(RVA = "0x43E1470", Offset = "0x43E1470", VA = "0x43E1470")]
+		[Address(RVA = "0x471EBD0", Offset = "0x471EBD0", VA = "0x471EBD0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001543")]
-		[Address(RVA = "0x43E1480", Offset = "0x43E1480", VA = "0x43E1480")]
+		[Address(RVA = "0x471EBE0", Offset = "0x471EBE0", VA = "0x471EBE0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001544")]
-	[Address(RVA = "0x43E1490", Offset = "0x43E1490", VA = "0x43E1490")]
+	[Address(RVA = "0x471EBF0", Offset = "0x471EBF0", VA = "0x471EBF0")]
 	public XmlSchemaAppInfo()
 	{
 	}

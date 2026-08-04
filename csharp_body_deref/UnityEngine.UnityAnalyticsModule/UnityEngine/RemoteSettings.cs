@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.RemoteSettings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -34,21 +41,21 @@ public static class RemoteSettings
 	private static Action<bool, bool, int> Completed;
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x4DDC8E0", Offset = "0x4DDC8E0", VA = "0x4DDC8E0")]
+	[Address(RVA = "0x5104230", Offset = "0x5104230", VA = "0x5104230")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void RemoteSettingsUpdated(bool wasLastUpdatedFromServer)
 	{
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x4DDC930", Offset = "0x4DDC930", VA = "0x4DDC930")]
+	[Address(RVA = "0x5104280", Offset = "0x5104280", VA = "0x5104280")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void RemoteSettingsBeforeFetchFromServer()
 	{
 	}
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x4DDC980", Offset = "0x4DDC980", VA = "0x4DDC980")]
+	[Address(RVA = "0x51042D0", Offset = "0x51042D0", VA = "0x51042D0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void RemoteSettingsUpdateCompleted(bool wasLastUpdatedFromServer, bool settingsChanged, int response)
 	{

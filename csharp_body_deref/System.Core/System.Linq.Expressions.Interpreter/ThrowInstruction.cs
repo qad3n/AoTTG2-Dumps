@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.ThrowInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -33,7 +40,7 @@ internal sealed class ThrowInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x6000669")]
-		[Address(RVA = "0x41A47A0", Offset = "0x41A47A0", VA = "0x41A47A0", Slot = "9")]
+		[Address(RVA = "0x44C98A0", Offset = "0x44C98A0", VA = "0x44C98A0", Slot = "9")]
 		get
 		{
 			return null;
@@ -44,7 +51,7 @@ internal sealed class ThrowInstruction : Instruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x600066A")]
-		[Address(RVA = "0x41A47D0", Offset = "0x41A47D0", VA = "0x41A47D0", Slot = "5")]
+		[Address(RVA = "0x44C98D0", Offset = "0x44C98D0", VA = "0x44C98D0", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -55,7 +62,7 @@ internal sealed class ThrowInstruction : Instruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x600066B")]
-		[Address(RVA = "0x41A47E0", Offset = "0x41A47E0", VA = "0x41A47E0", Slot = "4")]
+		[Address(RVA = "0x44C98E0", Offset = "0x44C98E0", VA = "0x44C98E0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -63,20 +70,20 @@ internal sealed class ThrowInstruction : Instruction
 	}
 
 	[Token(Token = "0x6000668")]
-	[Address(RVA = "0x41A4780", Offset = "0x41A4780", VA = "0x41A4780")]
+	[Address(RVA = "0x44C9880", Offset = "0x44C9880", VA = "0x44C9880")]
 	private ThrowInstruction(bool hasResult, bool isRethrow)
 	{
 	}
 
 	[Token(Token = "0x600066C")]
-	[Address(RVA = "0x41A47F0", Offset = "0x41A47F0", VA = "0x41A47F0", Slot = "8")]
+	[Address(RVA = "0x44C98F0", Offset = "0x44C98F0", VA = "0x44C98F0", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600066D")]
-	[Address(RVA = "0x41A4920", Offset = "0x41A4920", VA = "0x41A4920")]
+	[Address(RVA = "0x44C9A20", Offset = "0x44C9A20", VA = "0x44C9A20")]
 	private static Exception WrapThrownObject(object thrown)
 	{
 		return null;

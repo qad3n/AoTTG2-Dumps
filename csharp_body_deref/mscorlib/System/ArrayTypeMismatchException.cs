@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ArrayTypeMismatchException
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
 
@@ -8,13 +15,13 @@ namespace System;
 public class ArrayTypeMismatchException : SystemException
 {
 	[Token(Token = "0x6000410")]
-	[Address(RVA = "0x4F2E2D0", Offset = "0x4F2E2D0", VA = "0x4F2E2D0")]
+	[Address(RVA = "0x3C13DF0", Offset = "0x3C13DF0", VA = "0x3C13DF0")]
 	public ArrayTypeMismatchException()
 	{
 	}
 
 	[Token(Token = "0x6000411")]
-	[Address(RVA = "0x4F2E310", Offset = "0x4F2E310", VA = "0x4F2E310")]
+	[Address(RVA = "0x3C13E30", Offset = "0x3C13E30", VA = "0x3C13E30")]
 	protected ArrayTypeMismatchException(SerializationInfo info, StreamingContext context)
 	{
 	}

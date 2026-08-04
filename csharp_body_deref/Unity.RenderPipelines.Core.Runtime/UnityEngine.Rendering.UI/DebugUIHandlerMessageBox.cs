@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.UI.DebugUIHandlerMessageBox
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.UI;
 
@@ -31,20 +38,20 @@ public class DebugUIHandlerMessageBox : DebugUIHandlerWidget
 	private static Color32 k_ErrorTextColor;
 
 	[Token(Token = "0x6000ED3")]
-	[Address(RVA = "0x48EF960", Offset = "0x48EF960", VA = "0x48EF960", Slot = "5")]
+	[Address(RVA = "0x4C149D0", Offset = "0x4C149D0", VA = "0x4C149D0", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
 	[Token(Token = "0x6000ED4")]
-	[Address(RVA = "0x48EFB00", Offset = "0x48EFB00", VA = "0x48EFB00", Slot = "6")]
+	[Address(RVA = "0x4C14B70", Offset = "0x4C14B70", VA = "0x4C14B70", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000ED5")]
-	[Address(RVA = "0x48EFB10", Offset = "0x48EFB10", VA = "0x48EFB10")]
+	[Address(RVA = "0x4C14B80", Offset = "0x4C14B80", VA = "0x4C14B80")]
 	public DebugUIHandlerMessageBox()
 	{
 	}

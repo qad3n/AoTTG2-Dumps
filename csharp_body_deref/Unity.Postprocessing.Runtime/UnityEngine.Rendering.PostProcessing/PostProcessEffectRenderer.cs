@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.PostProcessEffectRenderer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -11,26 +18,26 @@ public abstract class PostProcessEffectRenderer
 	protected bool m_ResetHistory;
 
 	[Token(Token = "0x600010C")]
-	[Address(RVA = "0x4829240", Offset = "0x4829240", VA = "0x4829240", Slot = "4")]
+	[Address(RVA = "0x4B4E330", Offset = "0x4B4E330", VA = "0x4B4E330", Slot = "4")]
 	public virtual void Init()
 	{
 	}
 
 	[Token(Token = "0x600010D")]
-	[Address(RVA = "0x4829250", Offset = "0x4829250", VA = "0x4829250", Slot = "5")]
+	[Address(RVA = "0x4B4E340", Offset = "0x4B4E340", VA = "0x4B4E340", Slot = "5")]
 	public virtual DepthTextureMode GetCameraFlags()
 	{
 		return default(DepthTextureMode);
 	}
 
 	[Token(Token = "0x600010E")]
-	[Address(RVA = "0x4829260", Offset = "0x4829260", VA = "0x4829260", Slot = "6")]
+	[Address(RVA = "0x4B4E350", Offset = "0x4B4E350", VA = "0x4B4E350", Slot = "6")]
 	public virtual void ResetHistory()
 	{
 	}
 
 	[Token(Token = "0x600010F")]
-	[Address(RVA = "0x4829270", Offset = "0x4829270", VA = "0x4829270", Slot = "7")]
+	[Address(RVA = "0x4B4E360", Offset = "0x4B4E360", VA = "0x4B4E360", Slot = "7")]
 	public virtual void Release()
 	{
 	}
@@ -42,7 +49,7 @@ public abstract class PostProcessEffectRenderer
 	internal abstract void SetSettings(PostProcessEffectSettings settings);
 
 	[Token(Token = "0x6000112")]
-	[Address(RVA = "0x4829290", Offset = "0x4829290", VA = "0x4829290")]
+	[Address(RVA = "0x4B4E380", Offset = "0x4B4E380", VA = "0x4B4E380")]
 	protected PostProcessEffectRenderer()
 	{
 	}

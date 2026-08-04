@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Reflection.SignatureArrayType
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Reflection;
@@ -17,7 +24,7 @@ internal sealed class SignatureArrayType : System.Reflection.SignatureHasElement
 	public sealed override bool IsSZArray
 	{
 		[Token(Token = "0x60024B5")]
-		[Address(RVA = "0x4EEF280", Offset = "0x4EEF280", VA = "0x4EEF280", Slot = "42")]
+		[Address(RVA = "0x3BD4DA0", Offset = "0x3BD4DA0", VA = "0x3BD4DA0", Slot = "42")]
 		get
 		{
 			return default(bool);
@@ -28,7 +35,7 @@ internal sealed class SignatureArrayType : System.Reflection.SignatureHasElement
 	public sealed override bool IsVariableBoundArray
 	{
 		[Token(Token = "0x60024B6")]
-		[Address(RVA = "0x4EEF290", Offset = "0x4EEF290", VA = "0x4EEF290", Slot = "43")]
+		[Address(RVA = "0x3BD4DB0", Offset = "0x3BD4DB0", VA = "0x3BD4DB0", Slot = "43")]
 		get
 		{
 			return default(bool);
@@ -39,7 +46,7 @@ internal sealed class SignatureArrayType : System.Reflection.SignatureHasElement
 	protected sealed override string Suffix
 	{
 		[Token(Token = "0x60024B8")]
-		[Address(RVA = "0x4EEF2B0", Offset = "0x4EEF2B0", VA = "0x4EEF2B0", Slot = "134")]
+		[Address(RVA = "0x3BD4DD0", Offset = "0x3BD4DD0", VA = "0x3BD4DD0", Slot = "134")]
 		get
 		{
 			return null;
@@ -47,34 +54,34 @@ internal sealed class SignatureArrayType : System.Reflection.SignatureHasElement
 	}
 
 	[Token(Token = "0x60024B1")]
-	[Address(RVA = "0x4EEF1A0", Offset = "0x4EEF1A0", VA = "0x4EEF1A0")]
+	[Address(RVA = "0x3BD4CC0", Offset = "0x3BD4CC0", VA = "0x3BD4CC0")]
 	internal SignatureArrayType(System.Reflection.SignatureType elementType, int rank, bool isMultiDim)
 	{
 	}
 
 	[Token(Token = "0x60024B2")]
-	[Address(RVA = "0x4EEF250", Offset = "0x4EEF250", VA = "0x4EEF250", Slot = "32")]
+	[Address(RVA = "0x3BD4D70", Offset = "0x3BD4D70", VA = "0x3BD4D70", Slot = "32")]
 	protected sealed override bool IsArrayImpl()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60024B3")]
-	[Address(RVA = "0x4EEF260", Offset = "0x4EEF260", VA = "0x4EEF260", Slot = "34")]
+	[Address(RVA = "0x3BD4D80", Offset = "0x3BD4D80", VA = "0x3BD4D80", Slot = "34")]
 	protected sealed override bool IsByRefImpl()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60024B4")]
-	[Address(RVA = "0x4EEF270", Offset = "0x4EEF270", VA = "0x4EEF270", Slot = "36")]
+	[Address(RVA = "0x3BD4D90", Offset = "0x3BD4D90", VA = "0x3BD4D90", Slot = "36")]
 	protected sealed override bool IsPointerImpl()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60024B7")]
-	[Address(RVA = "0x4EEF2A0", Offset = "0x4EEF2A0", VA = "0x4EEF2A0", Slot = "48")]
+	[Address(RVA = "0x3BD4DC0", Offset = "0x3BD4DC0", VA = "0x3BD4DC0", Slot = "48")]
 	public sealed override int GetArrayRank()
 	{
 		return default(int);

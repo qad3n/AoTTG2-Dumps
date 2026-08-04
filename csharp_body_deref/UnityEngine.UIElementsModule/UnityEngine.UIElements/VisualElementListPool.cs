@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.VisualElementListPool
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -11,21 +18,21 @@ internal static class VisualElementListPool
 	private static ObjectPool<List<VisualElement>> pool;
 
 	[Token(Token = "0x6001B71")]
-	[Address(RVA = "0x4C4D1C0", Offset = "0x4C4D1C0", VA = "0x4C4D1C0")]
+	[Address(RVA = "0x4F74AF0", Offset = "0x4F74AF0", VA = "0x4F74AF0")]
 	public static List<VisualElement> Copy(List<VisualElement> elements)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001B72")]
-	[Address(RVA = "0x4C4D290", Offset = "0x4C4D290", VA = "0x4C4D290")]
+	[Address(RVA = "0x4F74BC0", Offset = "0x4F74BC0", VA = "0x4F74BC0")]
 	public static List<VisualElement> Get(int initialCapacity = 0)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001B73")]
-	[Address(RVA = "0x4C4D380", Offset = "0x4C4D380", VA = "0x4C4D380")]
+	[Address(RVA = "0x4F74CB0", Offset = "0x4F74CB0", VA = "0x4F74CB0")]
 	public static void Release(List<VisualElement> elements)
 	{
 	}

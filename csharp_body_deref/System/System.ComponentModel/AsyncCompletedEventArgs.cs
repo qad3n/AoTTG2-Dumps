@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.AsyncCompletedEventArgs
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.ComponentModel;
@@ -22,7 +29,7 @@ public class AsyncCompletedEventArgs : EventArgs
 	public bool Cancelled
 	{
 		[Token(Token = "0x60012EA")]
-		[Address(RVA = "0x4587F60", Offset = "0x4587F60", VA = "0x4587F60")]
+		[Address(RVA = "0x48AD060", Offset = "0x48AD060", VA = "0x48AD060")]
 		get
 		{
 			return default(bool);
@@ -34,7 +41,7 @@ public class AsyncCompletedEventArgs : EventArgs
 	public Exception Error
 	{
 		[Token(Token = "0x60012EB")]
-		[Address(RVA = "0x4587F70", Offset = "0x4587F70", VA = "0x4587F70")]
+		[Address(RVA = "0x48AD070", Offset = "0x48AD070", VA = "0x48AD070")]
 		get
 		{
 			return null;
@@ -46,7 +53,7 @@ public class AsyncCompletedEventArgs : EventArgs
 	public object UserState
 	{
 		[Token(Token = "0x60012EC")]
-		[Address(RVA = "0x4587F80", Offset = "0x4587F80", VA = "0x4587F80")]
+		[Address(RVA = "0x48AD080", Offset = "0x48AD080", VA = "0x48AD080")]
 		get
 		{
 			return null;
@@ -54,7 +61,7 @@ public class AsyncCompletedEventArgs : EventArgs
 	}
 
 	[Token(Token = "0x60012E8")]
-	[Address(RVA = "0x4587E60", Offset = "0x4587E60", VA = "0x4587E60")]
+	[Address(RVA = "0x48ACF60", Offset = "0x48ACF60", VA = "0x48ACF60")]
 	[Obsolete("This API supports the .NET Framework infrastructure and is not intended to be used directly from your code.", true)]
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	public AsyncCompletedEventArgs()
@@ -62,13 +69,13 @@ public class AsyncCompletedEventArgs : EventArgs
 	}
 
 	[Token(Token = "0x60012E9")]
-	[Address(RVA = "0x4587ED0", Offset = "0x4587ED0", VA = "0x4587ED0")]
+	[Address(RVA = "0x48ACFD0", Offset = "0x48ACFD0", VA = "0x48ACFD0")]
 	public AsyncCompletedEventArgs(Exception error, bool cancelled, object userState)
 	{
 	}
 
 	[Token(Token = "0x60012ED")]
-	[Address(RVA = "0x4587F90", Offset = "0x4587F90", VA = "0x4587F90")]
+	[Address(RVA = "0x48AD090", Offset = "0x48AD090", VA = "0x48AD090")]
 	protected void RaiseExceptionIfNecessary()
 	{
 	}

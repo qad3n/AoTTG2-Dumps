@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.LazyHelper
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using System.Runtime.ExceptionServices;
 using System.Threading;
@@ -36,7 +43,7 @@ internal class LazyHelper
 	internal System.LazyState State
 	{
 		[Token(Token = "0x6000827")]
-		[Address(RVA = "0x4FD11D0", Offset = "0x4FD11D0", VA = "0x4FD11D0")]
+		[Address(RVA = "0x3CB6CF0", Offset = "0x3CB6CF0", VA = "0x3CB6CF0")]
 		[CompilerGenerated]
 		get
 		{
@@ -45,39 +52,39 @@ internal class LazyHelper
 	}
 
 	[Token(Token = "0x6000828")]
-	[Address(RVA = "0x4FD11E0", Offset = "0x4FD11E0", VA = "0x4FD11E0")]
+	[Address(RVA = "0x3CB6D00", Offset = "0x3CB6D00", VA = "0x3CB6D00")]
 	internal LazyHelper(System.LazyState state)
 	{
 	}
 
 	[Token(Token = "0x6000829")]
-	[Address(RVA = "0x4FD1200", Offset = "0x4FD1200", VA = "0x4FD1200")]
+	[Address(RVA = "0x3CB6D20", Offset = "0x3CB6D20", VA = "0x3CB6D20")]
 	internal LazyHelper(LazyThreadSafetyMode mode, Exception exception)
 	{
 	}
 
 	[Token(Token = "0x600082A")]
-	[Address(RVA = "0x4FD1250", Offset = "0x4FD1250", VA = "0x4FD1250")]
+	[Address(RVA = "0x3CB6D70", Offset = "0x3CB6D70", VA = "0x3CB6D70")]
 	internal void ThrowException()
 	{
 	}
 
 	[Token(Token = "0x600082B")]
-	[Address(RVA = "0x4FD1270", Offset = "0x4FD1270", VA = "0x4FD1270")]
+	[Address(RVA = "0x3CB6D90", Offset = "0x3CB6D90", VA = "0x3CB6D90")]
 	internal static System.LazyHelper Create(LazyThreadSafetyMode mode, bool useDefaultConstructor)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600082C")]
-	[Address(RVA = "0x4FD13C0", Offset = "0x4FD13C0", VA = "0x4FD13C0")]
+	[Address(RVA = "0x3CB6EE0", Offset = "0x3CB6EE0", VA = "0x3CB6EE0")]
 	internal static object CreateViaDefaultConstructor(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600082D")]
-	[Address(RVA = "0x4FD1490", Offset = "0x4FD1490", VA = "0x4FD1490")]
+	[Address(RVA = "0x3CB6FB0", Offset = "0x3CB6FB0", VA = "0x3CB6FB0")]
 	internal static LazyThreadSafetyMode GetModeFromIsThreadSafe(bool isThreadSafe)
 	{
 		return default(LazyThreadSafetyMode);

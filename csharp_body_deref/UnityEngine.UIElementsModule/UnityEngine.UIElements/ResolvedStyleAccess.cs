@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.ResolvedStyleAccess
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -10,7 +17,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public Color backgroundColor
 	{
 		[Token(Token = "0x60012E5")]
-		[Address(RVA = "0x4D60B70", Offset = "0x4D60B70", VA = "0x4D60B70", Slot = "4")]
+		[Address(RVA = "0x50884A0", Offset = "0x50884A0", VA = "0x50884A0", Slot = "4")]
 		get
 		{
 			return default(Color);
@@ -21,7 +28,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public Color borderBottomColor
 	{
 		[Token(Token = "0x60012E6")]
-		[Address(RVA = "0x4D60BA0", Offset = "0x4D60BA0", VA = "0x4D60BA0", Slot = "5")]
+		[Address(RVA = "0x50884D0", Offset = "0x50884D0", VA = "0x50884D0", Slot = "5")]
 		get
 		{
 			return default(Color);
@@ -32,7 +39,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float borderBottomLeftRadius
 	{
 		[Token(Token = "0x60012E7")]
-		[Address(RVA = "0x4D60BC0", Offset = "0x4D60BC0", VA = "0x4D60BC0", Slot = "6")]
+		[Address(RVA = "0x50884F0", Offset = "0x50884F0", VA = "0x50884F0", Slot = "6")]
 		get
 		{
 			return default(float);
@@ -43,7 +50,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float borderBottomRightRadius
 	{
 		[Token(Token = "0x60012E8")]
-		[Address(RVA = "0x4D60BF0", Offset = "0x4D60BF0", VA = "0x4D60BF0", Slot = "7")]
+		[Address(RVA = "0x5088520", Offset = "0x5088520", VA = "0x5088520", Slot = "7")]
 		get
 		{
 			return default(float);
@@ -54,7 +61,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float borderBottomWidth
 	{
 		[Token(Token = "0x60012E9")]
-		[Address(RVA = "0x4D60C20", Offset = "0x4D60C20", VA = "0x4D60C20", Slot = "8")]
+		[Address(RVA = "0x5088550", Offset = "0x5088550", VA = "0x5088550", Slot = "8")]
 		get
 		{
 			return default(float);
@@ -65,7 +72,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public Color borderLeftColor
 	{
 		[Token(Token = "0x60012EA")]
-		[Address(RVA = "0x4D60C50", Offset = "0x4D60C50", VA = "0x4D60C50", Slot = "9")]
+		[Address(RVA = "0x5088580", Offset = "0x5088580", VA = "0x5088580", Slot = "9")]
 		get
 		{
 			return default(Color);
@@ -76,7 +83,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float borderLeftWidth
 	{
 		[Token(Token = "0x60012EB")]
-		[Address(RVA = "0x4D60C70", Offset = "0x4D60C70", VA = "0x4D60C70", Slot = "10")]
+		[Address(RVA = "0x50885A0", Offset = "0x50885A0", VA = "0x50885A0", Slot = "10")]
 		get
 		{
 			return default(float);
@@ -87,7 +94,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public Color borderRightColor
 	{
 		[Token(Token = "0x60012EC")]
-		[Address(RVA = "0x4D60C90", Offset = "0x4D60C90", VA = "0x4D60C90", Slot = "11")]
+		[Address(RVA = "0x50885C0", Offset = "0x50885C0", VA = "0x50885C0", Slot = "11")]
 		get
 		{
 			return default(Color);
@@ -98,7 +105,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float borderRightWidth
 	{
 		[Token(Token = "0x60012ED")]
-		[Address(RVA = "0x4D60CB0", Offset = "0x4D60CB0", VA = "0x4D60CB0", Slot = "12")]
+		[Address(RVA = "0x50885E0", Offset = "0x50885E0", VA = "0x50885E0", Slot = "12")]
 		get
 		{
 			return default(float);
@@ -109,7 +116,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public Color borderTopColor
 	{
 		[Token(Token = "0x60012EE")]
-		[Address(RVA = "0x4D60CD0", Offset = "0x4D60CD0", VA = "0x4D60CD0", Slot = "13")]
+		[Address(RVA = "0x5088600", Offset = "0x5088600", VA = "0x5088600", Slot = "13")]
 		get
 		{
 			return default(Color);
@@ -120,7 +127,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float borderTopLeftRadius
 	{
 		[Token(Token = "0x60012EF")]
-		[Address(RVA = "0x4D60CF0", Offset = "0x4D60CF0", VA = "0x4D60CF0", Slot = "14")]
+		[Address(RVA = "0x5088620", Offset = "0x5088620", VA = "0x5088620", Slot = "14")]
 		get
 		{
 			return default(float);
@@ -131,7 +138,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float borderTopRightRadius
 	{
 		[Token(Token = "0x60012F0")]
-		[Address(RVA = "0x4D60D20", Offset = "0x4D60D20", VA = "0x4D60D20", Slot = "15")]
+		[Address(RVA = "0x5088650", Offset = "0x5088650", VA = "0x5088650", Slot = "15")]
 		get
 		{
 			return default(float);
@@ -142,7 +149,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float borderTopWidth
 	{
 		[Token(Token = "0x60012F1")]
-		[Address(RVA = "0x4D60D50", Offset = "0x4D60D50", VA = "0x4D60D50", Slot = "16")]
+		[Address(RVA = "0x5088680", Offset = "0x5088680", VA = "0x5088680", Slot = "16")]
 		get
 		{
 			return default(float);
@@ -153,7 +160,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float bottom
 	{
 		[Token(Token = "0x60012F2")]
-		[Address(RVA = "0x4D60D70", Offset = "0x4D60D70", VA = "0x4D60D70", Slot = "17")]
+		[Address(RVA = "0x50886A0", Offset = "0x50886A0", VA = "0x50886A0", Slot = "17")]
 		get
 		{
 			return default(float);
@@ -164,7 +171,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public Color color
 	{
 		[Token(Token = "0x60012F3")]
-		[Address(RVA = "0x4D60D90", Offset = "0x4D60D90", VA = "0x4D60D90", Slot = "18")]
+		[Address(RVA = "0x50886C0", Offset = "0x50886C0", VA = "0x50886C0", Slot = "18")]
 		get
 		{
 			return default(Color);
@@ -175,7 +182,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public DisplayStyle display
 	{
 		[Token(Token = "0x60012F4")]
-		[Address(RVA = "0x4D60DB0", Offset = "0x4D60DB0", VA = "0x4D60DB0", Slot = "19")]
+		[Address(RVA = "0x50886E0", Offset = "0x50886E0", VA = "0x50886E0", Slot = "19")]
 		get
 		{
 			return default(DisplayStyle);
@@ -186,7 +193,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public FlexDirection flexDirection
 	{
 		[Token(Token = "0x60012F5")]
-		[Address(RVA = "0x4D60DD0", Offset = "0x4D60DD0", VA = "0x4D60DD0", Slot = "20")]
+		[Address(RVA = "0x5088700", Offset = "0x5088700", VA = "0x5088700", Slot = "20")]
 		get
 		{
 			return default(FlexDirection);
@@ -197,7 +204,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float flexGrow
 	{
 		[Token(Token = "0x60012F6")]
-		[Address(RVA = "0x4D60DF0", Offset = "0x4D60DF0", VA = "0x4D60DF0", Slot = "21")]
+		[Address(RVA = "0x5088720", Offset = "0x5088720", VA = "0x5088720", Slot = "21")]
 		get
 		{
 			return default(float);
@@ -208,7 +215,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float flexShrink
 	{
 		[Token(Token = "0x60012F7")]
-		[Address(RVA = "0x4D60E10", Offset = "0x4D60E10", VA = "0x4D60E10", Slot = "22")]
+		[Address(RVA = "0x5088740", Offset = "0x5088740", VA = "0x5088740", Slot = "22")]
 		get
 		{
 			return default(float);
@@ -219,7 +226,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float height
 	{
 		[Token(Token = "0x60012F8")]
-		[Address(RVA = "0x4D60E30", Offset = "0x4D60E30", VA = "0x4D60E30", Slot = "23")]
+		[Address(RVA = "0x5088760", Offset = "0x5088760", VA = "0x5088760", Slot = "23")]
 		get
 		{
 			return default(float);
@@ -230,7 +237,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float left
 	{
 		[Token(Token = "0x60012F9")]
-		[Address(RVA = "0x4D60E50", Offset = "0x4D60E50", VA = "0x4D60E50", Slot = "24")]
+		[Address(RVA = "0x5088780", Offset = "0x5088780", VA = "0x5088780", Slot = "24")]
 		get
 		{
 			return default(float);
@@ -241,7 +248,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float marginBottom
 	{
 		[Token(Token = "0x60012FA")]
-		[Address(RVA = "0x4D60E70", Offset = "0x4D60E70", VA = "0x4D60E70", Slot = "25")]
+		[Address(RVA = "0x50887A0", Offset = "0x50887A0", VA = "0x50887A0", Slot = "25")]
 		get
 		{
 			return default(float);
@@ -252,7 +259,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float marginLeft
 	{
 		[Token(Token = "0x60012FB")]
-		[Address(RVA = "0x4D60E90", Offset = "0x4D60E90", VA = "0x4D60E90", Slot = "26")]
+		[Address(RVA = "0x50887C0", Offset = "0x50887C0", VA = "0x50887C0", Slot = "26")]
 		get
 		{
 			return default(float);
@@ -263,7 +270,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float marginRight
 	{
 		[Token(Token = "0x60012FC")]
-		[Address(RVA = "0x4D60EB0", Offset = "0x4D60EB0", VA = "0x4D60EB0", Slot = "27")]
+		[Address(RVA = "0x50887E0", Offset = "0x50887E0", VA = "0x50887E0", Slot = "27")]
 		get
 		{
 			return default(float);
@@ -274,7 +281,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float marginTop
 	{
 		[Token(Token = "0x60012FD")]
-		[Address(RVA = "0x4D60ED0", Offset = "0x4D60ED0", VA = "0x4D60ED0", Slot = "28")]
+		[Address(RVA = "0x5088800", Offset = "0x5088800", VA = "0x5088800", Slot = "28")]
 		get
 		{
 			return default(float);
@@ -285,7 +292,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public StyleFloat minHeight
 	{
 		[Token(Token = "0x60012FE")]
-		[Address(RVA = "0x4D60EF0", Offset = "0x4D60EF0", VA = "0x4D60EF0", Slot = "29")]
+		[Address(RVA = "0x5088820", Offset = "0x5088820", VA = "0x5088820", Slot = "29")]
 		get
 		{
 			return default(StyleFloat);
@@ -296,7 +303,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public StyleFloat minWidth
 	{
 		[Token(Token = "0x60012FF")]
-		[Address(RVA = "0x4D61150", Offset = "0x4D61150", VA = "0x4D61150", Slot = "30")]
+		[Address(RVA = "0x5088A80", Offset = "0x5088A80", VA = "0x5088A80", Slot = "30")]
 		get
 		{
 			return default(StyleFloat);
@@ -307,7 +314,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float opacity
 	{
 		[Token(Token = "0x6001300")]
-		[Address(RVA = "0x4D61180", Offset = "0x4D61180", VA = "0x4D61180", Slot = "31")]
+		[Address(RVA = "0x5088AB0", Offset = "0x5088AB0", VA = "0x5088AB0", Slot = "31")]
 		get
 		{
 			return default(float);
@@ -318,7 +325,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float paddingBottom
 	{
 		[Token(Token = "0x6001301")]
-		[Address(RVA = "0x4D611A0", Offset = "0x4D611A0", VA = "0x4D611A0", Slot = "32")]
+		[Address(RVA = "0x5088AD0", Offset = "0x5088AD0", VA = "0x5088AD0", Slot = "32")]
 		get
 		{
 			return default(float);
@@ -329,7 +336,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float paddingLeft
 	{
 		[Token(Token = "0x6001302")]
-		[Address(RVA = "0x4D611C0", Offset = "0x4D611C0", VA = "0x4D611C0", Slot = "33")]
+		[Address(RVA = "0x5088AF0", Offset = "0x5088AF0", VA = "0x5088AF0", Slot = "33")]
 		get
 		{
 			return default(float);
@@ -340,7 +347,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float paddingRight
 	{
 		[Token(Token = "0x6001303")]
-		[Address(RVA = "0x4D611E0", Offset = "0x4D611E0", VA = "0x4D611E0", Slot = "34")]
+		[Address(RVA = "0x5088B10", Offset = "0x5088B10", VA = "0x5088B10", Slot = "34")]
 		get
 		{
 			return default(float);
@@ -351,7 +358,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float paddingTop
 	{
 		[Token(Token = "0x6001304")]
-		[Address(RVA = "0x4D61200", Offset = "0x4D61200", VA = "0x4D61200", Slot = "35")]
+		[Address(RVA = "0x5088B30", Offset = "0x5088B30", VA = "0x5088B30", Slot = "35")]
 		get
 		{
 			return default(float);
@@ -362,7 +369,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float right
 	{
 		[Token(Token = "0x6001305")]
-		[Address(RVA = "0x4D61220", Offset = "0x4D61220", VA = "0x4D61220", Slot = "36")]
+		[Address(RVA = "0x5088B50", Offset = "0x5088B50", VA = "0x5088B50", Slot = "36")]
 		get
 		{
 			return default(float);
@@ -373,7 +380,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public Scale scale
 	{
 		[Token(Token = "0x6001306")]
-		[Address(RVA = "0x4D61240", Offset = "0x4D61240", VA = "0x4D61240", Slot = "37")]
+		[Address(RVA = "0x5088B70", Offset = "0x5088B70", VA = "0x5088B70", Slot = "37")]
 		get
 		{
 			return default(Scale);
@@ -384,7 +391,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float top
 	{
 		[Token(Token = "0x6001307")]
-		[Address(RVA = "0x4D61260", Offset = "0x4D61260", VA = "0x4D61260", Slot = "38")]
+		[Address(RVA = "0x5088B90", Offset = "0x5088B90", VA = "0x5088B90", Slot = "38")]
 		get
 		{
 			return default(float);
@@ -395,7 +402,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public Vector3 transformOrigin
 	{
 		[Token(Token = "0x6001308")]
-		[Address(RVA = "0x4D61280", Offset = "0x4D61280", VA = "0x4D61280", Slot = "39")]
+		[Address(RVA = "0x5088BB0", Offset = "0x5088BB0", VA = "0x5088BB0", Slot = "39")]
 		get
 		{
 			return default(Vector3);
@@ -406,7 +413,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public Vector3 translate
 	{
 		[Token(Token = "0x6001309")]
-		[Address(RVA = "0x4D617E0", Offset = "0x4D617E0", VA = "0x4D617E0", Slot = "40")]
+		[Address(RVA = "0x5089110", Offset = "0x5089110", VA = "0x5089110", Slot = "40")]
 		get
 		{
 			return default(Vector3);
@@ -417,7 +424,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public Color unityBackgroundImageTintColor
 	{
 		[Token(Token = "0x600130A")]
-		[Address(RVA = "0x4D61AE0", Offset = "0x4D61AE0", VA = "0x4D61AE0", Slot = "41")]
+		[Address(RVA = "0x5089410", Offset = "0x5089410", VA = "0x5089410", Slot = "41")]
 		get
 		{
 			return default(Color);
@@ -428,7 +435,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public int unitySliceLeft
 	{
 		[Token(Token = "0x600130B")]
-		[Address(RVA = "0x4D61B00", Offset = "0x4D61B00", VA = "0x4D61B00", Slot = "42")]
+		[Address(RVA = "0x5089430", Offset = "0x5089430", VA = "0x5089430", Slot = "42")]
 		get
 		{
 			return default(int);
@@ -439,7 +446,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public int unitySliceRight
 	{
 		[Token(Token = "0x600130C")]
-		[Address(RVA = "0x4D61B20", Offset = "0x4D61B20", VA = "0x4D61B20", Slot = "43")]
+		[Address(RVA = "0x5089450", Offset = "0x5089450", VA = "0x5089450", Slot = "43")]
 		get
 		{
 			return default(int);
@@ -450,7 +457,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float unitySliceScale
 	{
 		[Token(Token = "0x600130D")]
-		[Address(RVA = "0x4D61B40", Offset = "0x4D61B40", VA = "0x4D61B40", Slot = "44")]
+		[Address(RVA = "0x5089470", Offset = "0x5089470", VA = "0x5089470", Slot = "44")]
 		get
 		{
 			return default(float);
@@ -461,7 +468,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public Color unityTextOutlineColor
 	{
 		[Token(Token = "0x600130E")]
-		[Address(RVA = "0x4D61B60", Offset = "0x4D61B60", VA = "0x4D61B60", Slot = "45")]
+		[Address(RVA = "0x5089490", Offset = "0x5089490", VA = "0x5089490", Slot = "45")]
 		get
 		{
 			return default(Color);
@@ -472,7 +479,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float unityTextOutlineWidth
 	{
 		[Token(Token = "0x600130F")]
-		[Address(RVA = "0x4D61B80", Offset = "0x4D61B80", VA = "0x4D61B80", Slot = "46")]
+		[Address(RVA = "0x50894B0", Offset = "0x50894B0", VA = "0x50894B0", Slot = "46")]
 		get
 		{
 			return default(float);
@@ -483,7 +490,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public Visibility visibility
 	{
 		[Token(Token = "0x6001310")]
-		[Address(RVA = "0x4D61BA0", Offset = "0x4D61BA0", VA = "0x4D61BA0", Slot = "47")]
+		[Address(RVA = "0x50894D0", Offset = "0x50894D0", VA = "0x50894D0", Slot = "47")]
 		get
 		{
 			return default(Visibility);
@@ -494,7 +501,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	public float width
 	{
 		[Token(Token = "0x6001311")]
-		[Address(RVA = "0x4D61BC0", Offset = "0x4D61BC0", VA = "0x4D61BC0", Slot = "48")]
+		[Address(RVA = "0x50894F0", Offset = "0x50894F0", VA = "0x50894F0", Slot = "48")]
 		get
 		{
 			return default(float);
@@ -505,7 +512,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	private VisualElement ve
 	{
 		[Token(Token = "0x6001312")]
-		[Address(RVA = "0x4D61BE0", Offset = "0x4D61BE0", VA = "0x4D61BE0")]
+		[Address(RVA = "0x5089510", Offset = "0x5089510", VA = "0x5089510")]
 		[CompilerGenerated]
 		get
 		{
@@ -514,7 +521,7 @@ internal class ResolvedStyleAccess : IResolvedStyle
 	}
 
 	[Token(Token = "0x6001313")]
-	[Address(RVA = "0x4D61BF0", Offset = "0x4D61BF0", VA = "0x4D61BF0")]
+	[Address(RVA = "0x5089520", Offset = "0x5089520", VA = "0x5089520")]
 	public ResolvedStyleAccess(VisualElement ve)
 	{
 	}

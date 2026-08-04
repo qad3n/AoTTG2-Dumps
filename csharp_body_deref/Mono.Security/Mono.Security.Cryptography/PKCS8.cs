@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Security.Cryptography.PKCS8
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Security.Cryptography;
 using Il2CppDummyDll;
@@ -30,7 +37,7 @@ public sealed class PKCS8
 		public string Algorithm
 		{
 			[Token(Token = "0x6000180")]
-			[Address(RVA = "0x3A52910", Offset = "0x3A52910", VA = "0x3A52910")]
+			[Address(RVA = "0x3ABF5D0", Offset = "0x3ABF5D0", VA = "0x3ABF5D0")]
 			get
 			{
 				return null;
@@ -41,7 +48,7 @@ public sealed class PKCS8
 		public byte[] PrivateKey
 		{
 			[Token(Token = "0x6000181")]
-			[Address(RVA = "0x3A52920", Offset = "0x3A52920", VA = "0x3A52920")]
+			[Address(RVA = "0x3ABF5E0", Offset = "0x3ABF5E0", VA = "0x3ABF5E0")]
 			get
 			{
 				return null;
@@ -49,67 +56,67 @@ public sealed class PKCS8
 		}
 
 		[Token(Token = "0x600017E")]
-		[Address(RVA = "0x3A525A0", Offset = "0x3A525A0", VA = "0x3A525A0")]
+		[Address(RVA = "0x3ABF260", Offset = "0x3ABF260", VA = "0x3ABF260")]
 		public PrivateKeyInfo()
 		{
 		}
 
 		[Token(Token = "0x600017F")]
-		[Address(RVA = "0x3A52610", Offset = "0x3A52610", VA = "0x3A52610")]
+		[Address(RVA = "0x3ABF2D0", Offset = "0x3ABF2D0", VA = "0x3ABF2D0")]
 		public PrivateKeyInfo(byte[] data)
 		{
 		}
 
 		[Token(Token = "0x6000182")]
-		[Address(RVA = "0x3A52690", Offset = "0x3A52690", VA = "0x3A52690")]
+		[Address(RVA = "0x3ABF350", Offset = "0x3ABF350", VA = "0x3ABF350")]
 		private void Decode(byte[] data)
 		{
 		}
 
 		[Token(Token = "0x6000183")]
-		[Address(RVA = "0x3A52990", Offset = "0x3A52990", VA = "0x3A52990")]
+		[Address(RVA = "0x3ABF650", Offset = "0x3ABF650", VA = "0x3ABF650")]
 		private static byte[] RemoveLeadingZero(byte[] bigInt)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000184")]
-		[Address(RVA = "0x3A52A10", Offset = "0x3A52A10", VA = "0x3A52A10")]
+		[Address(RVA = "0x3ABF6D0", Offset = "0x3ABF6D0", VA = "0x3ABF6D0")]
 		private static byte[] Normalize(byte[] bigInt, int length)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000185")]
-		[Address(RVA = "0x3A52B00", Offset = "0x3A52B00", VA = "0x3A52B00")]
+		[Address(RVA = "0x3ABF7C0", Offset = "0x3ABF7C0", VA = "0x3ABF7C0")]
 		public static RSA DecodeRSA(byte[] keypair)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000186")]
-		[Address(RVA = "0x3A53130", Offset = "0x3A53130", VA = "0x3A53130")]
+		[Address(RVA = "0x3ABFDF0", Offset = "0x3ABFDF0", VA = "0x3ABFDF0")]
 		public static byte[] Encode(RSA rsa)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000187")]
-		[Address(RVA = "0x3A53330", Offset = "0x3A53330", VA = "0x3A53330")]
+		[Address(RVA = "0x3ABFFF0", Offset = "0x3ABFFF0", VA = "0x3ABFFF0")]
 		public static DSA DecodeDSA(byte[] privateKey, DSAParameters dsaParameters)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000188")]
-		[Address(RVA = "0x3A53490", Offset = "0x3A53490", VA = "0x3A53490")]
+		[Address(RVA = "0x3AC0150", Offset = "0x3AC0150", VA = "0x3AC0150")]
 		public static byte[] Encode(DSA dsa)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000189")]
-		[Address(RVA = "0x3A534F0", Offset = "0x3A534F0", VA = "0x3A534F0")]
+		[Address(RVA = "0x3AC01B0", Offset = "0x3AC01B0", VA = "0x3AC01B0")]
 		public static byte[] Encode(AsymmetricAlgorithm aa)
 		{
 			return null;
@@ -139,7 +146,7 @@ public sealed class PKCS8
 		public string Algorithm
 		{
 			[Token(Token = "0x600018C")]
-			[Address(RVA = "0x3A53970", Offset = "0x3A53970", VA = "0x3A53970")]
+			[Address(RVA = "0x3AC0630", Offset = "0x3AC0630", VA = "0x3AC0630")]
 			get
 			{
 				return null;
@@ -150,7 +157,7 @@ public sealed class PKCS8
 		public byte[] EncryptedData
 		{
 			[Token(Token = "0x600018D")]
-			[Address(RVA = "0x3A53980", Offset = "0x3A53980", VA = "0x3A53980")]
+			[Address(RVA = "0x3AC0640", Offset = "0x3AC0640", VA = "0x3AC0640")]
 			get
 			{
 				return null;
@@ -161,7 +168,7 @@ public sealed class PKCS8
 		public byte[] Salt
 		{
 			[Token(Token = "0x600018E")]
-			[Address(RVA = "0x3A539F0", Offset = "0x3A539F0", VA = "0x3A539F0")]
+			[Address(RVA = "0x3AC06B0", Offset = "0x3AC06B0", VA = "0x3AC06B0")]
 			get
 			{
 				return null;
@@ -172,7 +179,7 @@ public sealed class PKCS8
 		public int IterationCount
 		{
 			[Token(Token = "0x600018F")]
-			[Address(RVA = "0x3A53AC0", Offset = "0x3A53AC0", VA = "0x3A53AC0")]
+			[Address(RVA = "0x3AC0780", Offset = "0x3AC0780", VA = "0x3AC0780")]
 			get
 			{
 				return default(int);
@@ -180,19 +187,19 @@ public sealed class PKCS8
 		}
 
 		[Token(Token = "0x600018A")]
-		[Address(RVA = "0x3A53650", Offset = "0x3A53650", VA = "0x3A53650")]
+		[Address(RVA = "0x3AC0310", Offset = "0x3AC0310", VA = "0x3AC0310")]
 		public EncryptedPrivateKeyInfo()
 		{
 		}
 
 		[Token(Token = "0x600018B")]
-		[Address(RVA = "0x3A53660", Offset = "0x3A53660", VA = "0x3A53660")]
+		[Address(RVA = "0x3AC0320", Offset = "0x3AC0320", VA = "0x3AC0320")]
 		public EncryptedPrivateKeyInfo(byte[] data)
 		{
 		}
 
 		[Token(Token = "0x6000190")]
-		[Address(RVA = "0x3A53680", Offset = "0x3A53680", VA = "0x3A53680")]
+		[Address(RVA = "0x3AC0340", Offset = "0x3AC0340", VA = "0x3AC0340")]
 		private void Decode(byte[] data)
 		{
 		}

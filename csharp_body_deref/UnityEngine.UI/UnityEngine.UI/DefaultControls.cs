@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.DefaultControls
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -21,14 +28,14 @@ public static class DefaultControls
 		public static IFactoryControls Default;
 
 		[Token(Token = "0x600006F")]
-		[Address(RVA = "0x4BD1170", Offset = "0x4BD1170", VA = "0x4BD1170", Slot = "4")]
+		[Address(RVA = "0x4EF8AA0", Offset = "0x4EF8AA0", VA = "0x4EF8AA0", Slot = "4")]
 		public GameObject CreateGameObject(string name, params Type[] components)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000070")]
-		[Address(RVA = "0x4BD11D0", Offset = "0x4BD11D0", VA = "0x4BD11D0")]
+		[Address(RVA = "0x4EF8B00", Offset = "0x4EF8B00", VA = "0x4EF8B00")]
 		public DefaultRuntimeFactory()
 		{
 		}
@@ -107,7 +114,7 @@ public static class DefaultControls
 	public static IFactoryControls factory
 	{
 		[Token(Token = "0x600005B")]
-		[Address(RVA = "0x4BCBD90", Offset = "0x4BCBD90", VA = "0x4BCBD90")]
+		[Address(RVA = "0x4EF36C0", Offset = "0x4EF36C0", VA = "0x4EF36C0")]
 		get
 		{
 			return null;
@@ -115,115 +122,115 @@ public static class DefaultControls
 	}
 
 	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x4BCBE00", Offset = "0x4BCBE00", VA = "0x4BCBE00")]
+	[Address(RVA = "0x4EF3730", Offset = "0x4EF3730", VA = "0x4EF3730")]
 	private static GameObject CreateUIElementRoot(string name, Vector2 size, params Type[] components)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x4BCBFB0", Offset = "0x4BCBFB0", VA = "0x4BCBFB0")]
+	[Address(RVA = "0x4EF38E0", Offset = "0x4EF38E0", VA = "0x4EF38E0")]
 	private static GameObject CreateUIObject(string name, GameObject parent, params Type[] components)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x4BCC200", Offset = "0x4BCC200", VA = "0x4BCC200")]
+	[Address(RVA = "0x4EF3B30", Offset = "0x4EF3B30", VA = "0x4EF3B30")]
 	private static void SetDefaultTextValues(Text lbl)
 	{
 	}
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x4BCC300", Offset = "0x4BCC300", VA = "0x4BCC300")]
+	[Address(RVA = "0x4EF3C30", Offset = "0x4EF3C30", VA = "0x4EF3C30")]
 	private static void SetDefaultColorTransitionValues(Selectable slider)
 	{
 	}
 
 	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x4BCC130", Offset = "0x4BCC130", VA = "0x4BCC130")]
+	[Address(RVA = "0x4EF3A60", Offset = "0x4EF3A60", VA = "0x4EF3A60")]
 	private static void SetParentAndAlign(GameObject child, GameObject parent)
 	{
 	}
 
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x4BCC350", Offset = "0x4BCC350", VA = "0x4BCC350")]
+	[Address(RVA = "0x4EF3C80", Offset = "0x4EF3C80", VA = "0x4EF3C80")]
 	private static void SetLayerRecursively(GameObject go, int layer)
 	{
 	}
 
 	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x4BCC420", Offset = "0x4BCC420", VA = "0x4BCC420")]
+	[Address(RVA = "0x4EF3D50", Offset = "0x4EF3D50", VA = "0x4EF3D50")]
 	public static GameObject CreatePanel(Resources resources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000063")]
-	[Address(RVA = "0x4BCCB10", Offset = "0x4BCCB10", VA = "0x4BCCB10")]
+	[Address(RVA = "0x4EF4440", Offset = "0x4EF4440", VA = "0x4EF4440")]
 	public static GameObject CreateButton(Resources resources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000064")]
-	[Address(RVA = "0x4BCCFB0", Offset = "0x4BCCFB0", VA = "0x4BCCFB0")]
+	[Address(RVA = "0x4EF48E0", Offset = "0x4EF48E0", VA = "0x4EF48E0")]
 	public static GameObject CreateText(Resources resources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000065")]
-	[Address(RVA = "0x4BCD150", Offset = "0x4BCD150", VA = "0x4BCD150")]
+	[Address(RVA = "0x4EF4A80", Offset = "0x4EF4A80", VA = "0x4EF4A80")]
 	public static GameObject CreateImage(Resources resources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000066")]
-	[Address(RVA = "0x4BCD280", Offset = "0x4BCD280", VA = "0x4BCD280")]
+	[Address(RVA = "0x4EF4BB0", Offset = "0x4EF4BB0", VA = "0x4EF4BB0")]
 	public static GameObject CreateRawImage(Resources resources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000067")]
-	[Address(RVA = "0x4BCD3B0", Offset = "0x4BCD3B0", VA = "0x4BCD3B0")]
+	[Address(RVA = "0x4EF4CE0", Offset = "0x4EF4CE0", VA = "0x4EF4CE0")]
 	public static GameObject CreateSlider(Resources resources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000068")]
-	[Address(RVA = "0x4BCDBD0", Offset = "0x4BCDBD0", VA = "0x4BCDBD0")]
+	[Address(RVA = "0x4EF5500", Offset = "0x4EF5500", VA = "0x4EF5500")]
 	public static GameObject CreateScrollbar(Resources resources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000069")]
-	[Address(RVA = "0x4BCE160", Offset = "0x4BCE160", VA = "0x4BCE160")]
+	[Address(RVA = "0x4EF5A90", Offset = "0x4EF5A90", VA = "0x4EF5A90")]
 	public static GameObject CreateToggle(Resources resources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x4BCE7A0", Offset = "0x4BCE7A0", VA = "0x4BCE7A0")]
+	[Address(RVA = "0x4EF60D0", Offset = "0x4EF60D0", VA = "0x4EF60D0")]
 	public static GameObject CreateInputField(Resources resources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600006B")]
-	[Address(RVA = "0x4BCEE80", Offset = "0x4BCEE80", VA = "0x4BCEE80")]
+	[Address(RVA = "0x4EF67B0", Offset = "0x4EF67B0", VA = "0x4EF67B0")]
 	public static GameObject CreateDropdown(Resources resources)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600006C")]
-	[Address(RVA = "0x4BD0690", Offset = "0x4BD0690", VA = "0x4BD0690")]
+	[Address(RVA = "0x4EF7FC0", Offset = "0x4EF7FC0", VA = "0x4EF7FC0")]
 	public static GameObject CreateScrollView(Resources resources)
 	{
 		return null;

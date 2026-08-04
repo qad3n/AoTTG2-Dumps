@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Linq.XCData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Linq;
@@ -9,7 +16,7 @@ public class XCData : XText
 	public override XmlNodeType NodeType
 	{
 		[Token(Token = "0x6000012")]
-		[Address(RVA = "0x433C220", Offset = "0x433C220", VA = "0x433C220", Slot = "7")]
+		[Address(RVA = "0x468CAF0", Offset = "0x468CAF0", VA = "0x468CAF0", Slot = "7")]
 		get
 		{
 			return default(XmlNodeType);
@@ -17,25 +24,25 @@ public class XCData : XText
 	}
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x433C100", Offset = "0x433C100", VA = "0x433C100")]
+	[Address(RVA = "0x468C9D0", Offset = "0x468C9D0", VA = "0x468C9D0")]
 	public XCData(string value)
 	{
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x433C190", Offset = "0x433C190", VA = "0x433C190")]
+	[Address(RVA = "0x468CA60", Offset = "0x468CA60", VA = "0x468CA60")]
 	public XCData(XCData other)
 	{
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x433C230", Offset = "0x433C230", VA = "0x433C230", Slot = "8")]
+	[Address(RVA = "0x468CB00", Offset = "0x468CB00", VA = "0x468CB00", Slot = "8")]
 	public override void WriteTo(XmlWriter writer)
 	{
 	}
 
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x433C2A0", Offset = "0x433C2A0", VA = "0x433C2A0", Slot = "10")]
+	[Address(RVA = "0x468CB70", Offset = "0x468CB70", VA = "0x468CB70", Slot = "10")]
 	internal override XNode CloneNode()
 	{
 		return null;

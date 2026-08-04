@@ -1,10 +1,17 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.ContextMenu
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000141")]
+[Token(Token = "0x2000144")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 [AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]
 public sealed class ContextMenu : Attribute
@@ -21,20 +28,20 @@ public sealed class ContextMenu : Attribute
 	[FieldOffset(Offset = "0x1C")]
 	public readonly int priority;
 
-	[Token(Token = "0x6000981")]
-	[Address(RVA = "0x4ACC410", Offset = "0x4ACC410", VA = "0x4ACC410")]
+	[Token(Token = "0x6000983")]
+	[Address(RVA = "0x4DF3D40", Offset = "0x4DF3D40", VA = "0x4DF3D40")]
 	public ContextMenu(string itemName)
 	{
 	}
 
-	[Token(Token = "0x6000982")]
-	[Address(RVA = "0x4ACC450", Offset = "0x4ACC450", VA = "0x4ACC450")]
+	[Token(Token = "0x6000984")]
+	[Address(RVA = "0x4DF3D80", Offset = "0x4DF3D80", VA = "0x4DF3D80")]
 	public ContextMenu(string itemName, bool isValidateFunction)
 	{
 	}
 
-	[Token(Token = "0x6000983")]
-	[Address(RVA = "0x4ACC490", Offset = "0x4ACC490", VA = "0x4ACC490")]
+	[Token(Token = "0x6000985")]
+	[Address(RVA = "0x4DF3DC0", Offset = "0x4DF3DC0", VA = "0x4DF3DC0")]
 	public ContextMenu(string itemName, bool isValidateFunction, int priority)
 	{
 	}

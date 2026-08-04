@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlTypeMapping
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -46,7 +53,7 @@ public class XmlTypeMapping : XmlMapping
 	public string TypeFullName
 	{
 		[Token(Token = "0x6000ED5")]
-		[Address(RVA = "0x44F8AD0", Offset = "0x44F8AD0", VA = "0x44F8AD0")]
+		[Address(RVA = "0x4836230", Offset = "0x4836230", VA = "0x4836230")]
 		get
 		{
 			return null;
@@ -57,7 +64,7 @@ public class XmlTypeMapping : XmlMapping
 	internal TypeData TypeData
 	{
 		[Token(Token = "0x6000ED6")]
-		[Address(RVA = "0x44FBF30", Offset = "0x44FBF30", VA = "0x44FBF30")]
+		[Address(RVA = "0x4839690", Offset = "0x4839690", VA = "0x4839690")]
 		get
 		{
 			return null;
@@ -68,13 +75,13 @@ public class XmlTypeMapping : XmlMapping
 	internal string XmlType
 	{
 		[Token(Token = "0x6000ED7")]
-		[Address(RVA = "0x44FBF40", Offset = "0x44FBF40", VA = "0x44FBF40")]
+		[Address(RVA = "0x48396A0", Offset = "0x48396A0", VA = "0x48396A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000ED8")]
-		[Address(RVA = "0x44FBF50", Offset = "0x44FBF50", VA = "0x44FBF50")]
+		[Address(RVA = "0x48396B0", Offset = "0x48396B0", VA = "0x48396B0")]
 		set
 		{
 		}
@@ -84,13 +91,13 @@ public class XmlTypeMapping : XmlMapping
 	internal string XmlTypeNamespace
 	{
 		[Token(Token = "0x6000ED9")]
-		[Address(RVA = "0x44F2C20", Offset = "0x44F2C20", VA = "0x44F2C20")]
+		[Address(RVA = "0x4830380", Offset = "0x4830380", VA = "0x4830380")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000EDA")]
-		[Address(RVA = "0x44FBF60", Offset = "0x44FBF60", VA = "0x44FBF60")]
+		[Address(RVA = "0x48396C0", Offset = "0x48396C0", VA = "0x48396C0")]
 		set
 		{
 		}
@@ -100,7 +107,7 @@ public class XmlTypeMapping : XmlMapping
 	internal bool HasXmlTypeNamespace
 	{
 		[Token(Token = "0x6000EDB")]
-		[Address(RVA = "0x44FBF70", Offset = "0x44FBF70", VA = "0x44FBF70")]
+		[Address(RVA = "0x48396D0", Offset = "0x48396D0", VA = "0x48396D0")]
 		get
 		{
 			return default(bool);
@@ -111,7 +118,7 @@ public class XmlTypeMapping : XmlMapping
 	internal ArrayList DerivedTypes
 	{
 		[Token(Token = "0x6000EDC")]
-		[Address(RVA = "0x44FBF80", Offset = "0x44FBF80", VA = "0x44FBF80")]
+		[Address(RVA = "0x48396E0", Offset = "0x48396E0", VA = "0x48396E0")]
 		get
 		{
 			return null;
@@ -122,7 +129,7 @@ public class XmlTypeMapping : XmlMapping
 	internal bool MultiReferenceType
 	{
 		[Token(Token = "0x6000EDD")]
-		[Address(RVA = "0x44FBF90", Offset = "0x44FBF90", VA = "0x44FBF90")]
+		[Address(RVA = "0x48396F0", Offset = "0x48396F0", VA = "0x48396F0")]
 		get
 		{
 			return default(bool);
@@ -133,13 +140,13 @@ public class XmlTypeMapping : XmlMapping
 	internal XmlTypeMapping BaseMap
 	{
 		[Token(Token = "0x6000EDE")]
-		[Address(RVA = "0x44FBFA0", Offset = "0x44FBFA0", VA = "0x44FBFA0")]
+		[Address(RVA = "0x4839700", Offset = "0x4839700", VA = "0x4839700")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000EDF")]
-		[Address(RVA = "0x44FBFB0", Offset = "0x44FBFB0", VA = "0x44FBFB0")]
+		[Address(RVA = "0x4839710", Offset = "0x4839710", VA = "0x4839710")]
 		set
 		{
 		}
@@ -149,7 +156,7 @@ public class XmlTypeMapping : XmlMapping
 	internal bool IncludeInSchema
 	{
 		[Token(Token = "0x6000EE0")]
-		[Address(RVA = "0x44FBFC0", Offset = "0x44FBFC0", VA = "0x44FBFC0")]
+		[Address(RVA = "0x4839720", Offset = "0x4839720", VA = "0x4839720")]
 		set
 		{
 		}
@@ -159,13 +166,13 @@ public class XmlTypeMapping : XmlMapping
 	internal bool IsNullable
 	{
 		[Token(Token = "0x6000EE1")]
-		[Address(RVA = "0x44FBFD0", Offset = "0x44FBFD0", VA = "0x44FBFD0")]
+		[Address(RVA = "0x4839730", Offset = "0x4839730", VA = "0x4839730")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EE2")]
-		[Address(RVA = "0x44FBFE0", Offset = "0x44FBFE0", VA = "0x44FBFE0")]
+		[Address(RVA = "0x4839740", Offset = "0x4839740", VA = "0x4839740")]
 		set
 		{
 		}
@@ -175,40 +182,40 @@ public class XmlTypeMapping : XmlMapping
 	internal bool IsAny
 	{
 		[Token(Token = "0x6000EE3")]
-		[Address(RVA = "0x44FBFF0", Offset = "0x44FBFF0", VA = "0x44FBFF0")]
+		[Address(RVA = "0x4839750", Offset = "0x4839750", VA = "0x4839750")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EE4")]
-		[Address(RVA = "0x44FC000", Offset = "0x44FC000", VA = "0x44FC000")]
+		[Address(RVA = "0x4839760", Offset = "0x4839760", VA = "0x4839760")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000ED4")]
-	[Address(RVA = "0x44FBE70", Offset = "0x44FBE70", VA = "0x44FBE70")]
+	[Address(RVA = "0x48395D0", Offset = "0x48395D0", VA = "0x48395D0")]
 	internal XmlTypeMapping(string elementName, string ns, TypeData typeData, string xmlType, string xmlTypeNamespace)
 	{
 	}
 
 	[Token(Token = "0x6000EE5")]
-	[Address(RVA = "0x44F2AB0", Offset = "0x44F2AB0", VA = "0x44F2AB0")]
+	[Address(RVA = "0x4830210", Offset = "0x4830210", VA = "0x4830210")]
 	internal XmlTypeMapping GetRealTypeMap(Type objectType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EE6")]
-	[Address(RVA = "0x44FC010", Offset = "0x44FC010", VA = "0x44FC010")]
+	[Address(RVA = "0x4839770", Offset = "0x4839770", VA = "0x4839770")]
 	internal XmlTypeMapping GetRealElementMap(string name, string ens)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EE7")]
-	[Address(RVA = "0x44FC430", Offset = "0x44FC430", VA = "0x44FC430")]
+	[Address(RVA = "0x4839B90", Offset = "0x4839B90", VA = "0x4839B90")]
 	internal void UpdateRoot(XmlQualifiedName qname)
 	{
 	}

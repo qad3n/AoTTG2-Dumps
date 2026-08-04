@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.PostProcessLayer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -40,7 +47,7 @@ public sealed class PostProcessLayer : MonoBehaviour
 		public PostProcessBundle bundle;
 
 		[Token(Token = "0x600014F")]
-		[Address(RVA = "0x482BB80", Offset = "0x482BB80", VA = "0x482BB80")]
+		[Address(RVA = "0x4B50C70", Offset = "0x4B50C70", VA = "0x4B50C70")]
 		public SerializedBundleRef()
 		{
 		}
@@ -195,14 +202,14 @@ public sealed class PostProcessLayer : MonoBehaviour
 	public Dictionary<PostProcessEvent, List<SerializedBundleRef>> sortedBundles
 	{
 		[Token(Token = "0x6000124")]
-		[Address(RVA = "0x482A400", Offset = "0x482A400", VA = "0x482A400")]
+		[Address(RVA = "0x4B4F4F0", Offset = "0x4B4F4F0", VA = "0x4B4F4F0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000125")]
-		[Address(RVA = "0x482A410", Offset = "0x482A410", VA = "0x482A410")]
+		[Address(RVA = "0x4B4F500", Offset = "0x4B4F500", VA = "0x4B4F500")]
 		[CompilerGenerated]
 		private set
 		{
@@ -213,14 +220,14 @@ public sealed class PostProcessLayer : MonoBehaviour
 	public DepthTextureMode cameraDepthFlags
 	{
 		[Token(Token = "0x6000126")]
-		[Address(RVA = "0x482A430", Offset = "0x482A430", VA = "0x482A430")]
+		[Address(RVA = "0x4B4F520", Offset = "0x4B4F520", VA = "0x4B4F520")]
 		[CompilerGenerated]
 		get
 		{
 			return default(DepthTextureMode);
 		}
 		[Token(Token = "0x6000127")]
-		[Address(RVA = "0x482A440", Offset = "0x482A440", VA = "0x482A440")]
+		[Address(RVA = "0x4B4F530", Offset = "0x4B4F530", VA = "0x4B4F530")]
 		[CompilerGenerated]
 		private set
 		{
@@ -231,14 +238,14 @@ public sealed class PostProcessLayer : MonoBehaviour
 	public bool haveBundlesBeenInited
 	{
 		[Token(Token = "0x6000128")]
-		[Address(RVA = "0x482A450", Offset = "0x482A450", VA = "0x482A450")]
+		[Address(RVA = "0x4B4F540", Offset = "0x4B4F540", VA = "0x4B4F540")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000129")]
-		[Address(RVA = "0x482A460", Offset = "0x482A460", VA = "0x482A460")]
+		[Address(RVA = "0x4B4F550", Offset = "0x4B4F550", VA = "0x4B4F550")]
 		[CompilerGenerated]
 		private set
 		{
@@ -246,94 +253,94 @@ public sealed class PostProcessLayer : MonoBehaviour
 	}
 
 	[Token(Token = "0x600012A")]
-	[Address(RVA = "0x482A470", Offset = "0x482A470", VA = "0x482A470")]
+	[Address(RVA = "0x4B4F560", Offset = "0x4B4F560", VA = "0x4B4F560")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x600012B")]
-	[Address(RVA = "0x482AD80", Offset = "0x482AD80", VA = "0x482AD80")]
+	[Address(RVA = "0x4B4FE70", Offset = "0x4B4FE70", VA = "0x4B4FE70")]
 	private void InitLegacy()
 	{
 	}
 
 	[Token(Token = "0x600012C")]
-	[Address(RVA = "0x482B010", Offset = "0x482B010", VA = "0x482B010")]
+	[Address(RVA = "0x4B50100", Offset = "0x4B50100", VA = "0x4B50100")]
 	private bool DynamicResolutionAllowsFinalBlitToCameraTarget()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600012D")]
-	[Address(RVA = "0x482B130", Offset = "0x482B130", VA = "0x482B130")]
+	[Address(RVA = "0x4B50220", Offset = "0x4B50220", VA = "0x4B50220")]
 	[ImageEffectUsesCommandBuffer]
 	private void OnRenderImage(RenderTexture src, RenderTexture dst)
 	{
 	}
 
 	[Token(Token = "0x600012E")]
-	[Address(RVA = "0x482A670", Offset = "0x482A670", VA = "0x482A670")]
+	[Address(RVA = "0x4B4F760", Offset = "0x4B4F760", VA = "0x4B4F760")]
 	public void Init(PostProcessResources resources)
 	{
 	}
 
 	[Token(Token = "0x600012F")]
-	[Address(RVA = "0x482A7C0", Offset = "0x482A7C0", VA = "0x482A7C0")]
+	[Address(RVA = "0x4B4F8B0", Offset = "0x4B4F8B0", VA = "0x4B4F8B0")]
 	public void InitBundles()
 	{
 	}
 
 	[Token(Token = "0x6000130")]
-	[Address(RVA = "0x482B2D0", Offset = "0x482B2D0", VA = "0x482B2D0")]
+	[Address(RVA = "0x4B503C0", Offset = "0x4B503C0", VA = "0x4B503C0")]
 	private void UpdateBundleSortList(List<SerializedBundleRef> sortedList, PostProcessEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000131")]
-	[Address(RVA = "0x482BBA0", Offset = "0x482BBA0", VA = "0x482BBA0")]
+	[Address(RVA = "0x4B50C90", Offset = "0x4B50C90", VA = "0x4B50C90")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000132")]
-	[Address(RVA = "0x482C0B0", Offset = "0x482C0B0", VA = "0x482C0B0")]
+	[Address(RVA = "0x4B511A0", Offset = "0x4B511A0", VA = "0x4B511A0")]
 	private void Reset()
 	{
 	}
 
 	[Token(Token = "0x6000133")]
-	[Address(RVA = "0x482C0D0", Offset = "0x482C0D0", VA = "0x482C0D0")]
+	[Address(RVA = "0x4B511C0", Offset = "0x4B511C0", VA = "0x4B511C0")]
 	private void OnPreCull()
 	{
 	}
 
 	[Token(Token = "0x6000134")]
-	[Address(RVA = "0x482DD60", Offset = "0x482DD60", VA = "0x482DD60")]
+	[Address(RVA = "0x4B52E50", Offset = "0x4B52E50", VA = "0x4B52E50")]
 	private void OnPreRender()
 	{
 	}
 
 	[Token(Token = "0x6000135")]
-	[Address(RVA = "0x482DE50", Offset = "0x482DE50", VA = "0x482DE50")]
+	[Address(RVA = "0x4B52F40", Offset = "0x4B52F40", VA = "0x4B52F40")]
 	private static bool RequiresInitialBlit(Camera camera, PostProcessRenderContext context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000136")]
-	[Address(RVA = "0x482DE60", Offset = "0x482DE60", VA = "0x482DE60")]
+	[Address(RVA = "0x4B52F50", Offset = "0x4B52F50", VA = "0x4B52F50")]
 	private void UpdateSrcDstForOpaqueOnly(ref int src, ref int dst, PostProcessRenderContext context, RenderTargetIdentifier cameraTarget, int opaqueOnlyEffectsRemaining)
 	{
 	}
 
 	[Token(Token = "0x6000137")]
-	[Address(RVA = "0x482C8E0", Offset = "0x482C8E0", VA = "0x482C8E0")]
+	[Address(RVA = "0x4B519D0", Offset = "0x4B519D0", VA = "0x4B519D0")]
 	private void BuildCommandBuffers()
 	{
 	}
 
 	[Token(Token = "0x6000138")]
-	[Address(RVA = "0x48305F0", Offset = "0x48305F0", VA = "0x48305F0")]
+	[Address(RVA = "0x4B556E0", Offset = "0x4B556E0", VA = "0x4B556E0")]
 	private void OnPostRender()
 	{
 	}
@@ -345,7 +352,7 @@ public sealed class PostProcessLayer : MonoBehaviour
 	}
 
 	[Token(Token = "0x600013A")]
-	[Address(RVA = "0x4830890", Offset = "0x4830890", VA = "0x4830890")]
+	[Address(RVA = "0x4B55980", Offset = "0x4B55980", VA = "0x4B55980")]
 	public PostProcessBundle GetBundle(Type settingsType)
 	{
 		return null;
@@ -358,101 +365,101 @@ public sealed class PostProcessLayer : MonoBehaviour
 	}
 
 	[Token(Token = "0x600013C")]
-	[Address(RVA = "0x48308E0", Offset = "0x48308E0", VA = "0x48308E0")]
+	[Address(RVA = "0x4B559D0", Offset = "0x4B559D0", VA = "0x4B559D0")]
 	public void BakeMSVOMap(CommandBuffer cmd, Camera camera, RenderTargetIdentifier destination, RenderTargetIdentifier? depthMap, bool invert, bool isMSAA = false)
 	{
 	}
 
 	[Token(Token = "0x600013D")]
-	[Address(RVA = "0x48309B0", Offset = "0x48309B0", VA = "0x48309B0")]
+	[Address(RVA = "0x4B55AA0", Offset = "0x4B55AA0", VA = "0x4B55AA0")]
 	internal void OverrideSettings(List<PostProcessEffectSettings> baseSettings, float interpFactor)
 	{
 	}
 
 	[Token(Token = "0x600013E")]
-	[Address(RVA = "0x4830D70", Offset = "0x4830D70", VA = "0x4830D70")]
+	[Address(RVA = "0x4B55E60", Offset = "0x4B55E60", VA = "0x4B55E60")]
 	private void SetLegacyCameraFlags(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x600013F")]
-	[Address(RVA = "0x4831080", Offset = "0x4831080", VA = "0x4831080")]
+	[Address(RVA = "0x4B56170", Offset = "0x4B56170", VA = "0x4B56170")]
 	public void ResetHistory()
 	{
 	}
 
 	[Token(Token = "0x6000140")]
-	[Address(RVA = "0x482EC30", Offset = "0x482EC30", VA = "0x482EC30")]
+	[Address(RVA = "0x4B53D20", Offset = "0x4B53D20", VA = "0x4B53D20")]
 	public bool HasOpaqueOnlyEffects(PostProcessRenderContext context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000141")]
-	[Address(RVA = "0x4831230", Offset = "0x4831230", VA = "0x4831230")]
+	[Address(RVA = "0x4B56320", Offset = "0x4B56320", VA = "0x4B56320")]
 	public bool HasActiveEffects(PostProcessEvent evt, PostProcessRenderContext context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000142")]
-	[Address(RVA = "0x482E6C0", Offset = "0x482E6C0", VA = "0x482E6C0")]
+	[Address(RVA = "0x4B537B0", Offset = "0x4B537B0", VA = "0x4B537B0")]
 	private void SetupContext(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x6000143")]
-	[Address(RVA = "0x482E920", Offset = "0x482E920", VA = "0x482E920")]
+	[Address(RVA = "0x4B53A10", Offset = "0x4B53A10", VA = "0x4B53A10")]
 	public void UpdateVolumeSystem(Camera cam, CommandBuffer cmd)
 	{
 	}
 
 	[Token(Token = "0x6000144")]
-	[Address(RVA = "0x482EFA0", Offset = "0x482EFA0", VA = "0x482EFA0")]
+	[Address(RVA = "0x4B54090", Offset = "0x4B54090", VA = "0x4B54090")]
 	public void RenderOpaqueOnly(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x6000145")]
-	[Address(RVA = "0x482F100", Offset = "0x482F100", VA = "0x482F100")]
+	[Address(RVA = "0x4B541F0", Offset = "0x4B541F0", VA = "0x4B541F0")]
 	public void Render(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x6000146")]
-	[Address(RVA = "0x4833130", Offset = "0x4833130", VA = "0x4833130")]
+	[Address(RVA = "0x4B58220", Offset = "0x4B58220", VA = "0x4B58220")]
 	private int RenderInjectionPoint(PostProcessEvent evt, PostProcessRenderContext context, string marker, int releaseTargetAfterUse = -1)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000147")]
-	[Address(RVA = "0x4831F70", Offset = "0x4831F70", VA = "0x4831F70")]
+	[Address(RVA = "0x4B57060", Offset = "0x4B57060", VA = "0x4B57060")]
 	private void RenderList(List<SerializedBundleRef> list, PostProcessRenderContext context, string marker)
 	{
 	}
 
 	[Token(Token = "0x6000148")]
-	[Address(RVA = "0x4834F00", Offset = "0x4834F00", VA = "0x4834F00")]
+	[Address(RVA = "0x4B59FF0", Offset = "0x4B59FF0", VA = "0x4B59FF0")]
 	private void ApplyFlip(PostProcessRenderContext context, MaterialPropertyBlock properties)
 	{
 	}
 
 	[Token(Token = "0x6000149")]
-	[Address(RVA = "0x4835010", Offset = "0x4835010", VA = "0x4835010")]
+	[Address(RVA = "0x4B5A100", Offset = "0x4B5A100", VA = "0x4B5A100")]
 	private void ApplyDefaultFlip(MaterialPropertyBlock properties)
 	{
 	}
 
 	[Token(Token = "0x600014A")]
-	[Address(RVA = "0x4833400", Offset = "0x4833400", VA = "0x4833400")]
+	[Address(RVA = "0x4B584F0", Offset = "0x4B584F0", VA = "0x4B584F0")]
 	private int RenderBuiltins(PostProcessRenderContext context, bool isFinalPass, int releaseTargetAfterUse = -1, int eye = -1)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600014B")]
-	[Address(RVA = "0x4834070", Offset = "0x4834070", VA = "0x4834070")]
+	[Address(RVA = "0x4B59160", Offset = "0x4B59160", VA = "0x4B59160")]
 	private void RenderFinalPass(PostProcessRenderContext context, int releaseTargetAfterUse = -1, int eye = -1)
 	{
 	}
@@ -464,14 +471,14 @@ public sealed class PostProcessLayer : MonoBehaviour
 	}
 
 	[Token(Token = "0x600014D")]
-	[Address(RVA = "0x4835280", Offset = "0x4835280", VA = "0x4835280")]
+	[Address(RVA = "0x4B5A370", Offset = "0x4B5A370", VA = "0x4B5A370")]
 	private bool ShouldGenerateLogHistogram(PostProcessRenderContext context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600014E")]
-	[Address(RVA = "0x4835CF0", Offset = "0x4835CF0", VA = "0x4835CF0")]
+	[Address(RVA = "0x4B5ADE0", Offset = "0x4B5ADE0", VA = "0x4B5ADE0")]
 	public PostProcessLayer()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.MouseLeaveEvent
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
@@ -7,31 +14,31 @@ namespace UnityEngine.UIElements;
 public class MouseLeaveEvent : MouseEventBase<MouseLeaveEvent>
 {
 	[Token(Token = "0x6000B76")]
-	[Address(RVA = "0x4D0C510", Offset = "0x4D0C510", VA = "0x4D0C510")]
+	[Address(RVA = "0x5033E40", Offset = "0x5033E40", VA = "0x5033E40")]
 	static MouseLeaveEvent()
 	{
 	}
 
 	[Token(Token = "0x6000B77")]
-	[Address(RVA = "0x4D0C5E0", Offset = "0x4D0C5E0", VA = "0x4D0C5E0", Slot = "13")]
+	[Address(RVA = "0x5033F10", Offset = "0x5033F10", VA = "0x5033F10", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
 	[Token(Token = "0x6000B78")]
-	[Address(RVA = "0x4D0C620", Offset = "0x4D0C620", VA = "0x4D0C620")]
+	[Address(RVA = "0x5033F50", Offset = "0x5033F50", VA = "0x5033F50")]
 	private void LocalInit()
 	{
 	}
 
 	[Token(Token = "0x6000B79")]
-	[Address(RVA = "0x4D0C630", Offset = "0x4D0C630", VA = "0x4D0C630")]
+	[Address(RVA = "0x5033F60", Offset = "0x5033F60", VA = "0x5033F60")]
 	public MouseLeaveEvent()
 	{
 	}
 
 	[Token(Token = "0x6000B7A")]
-	[Address(RVA = "0x4D0C670", Offset = "0x4D0C670", VA = "0x4D0C670", Slot = "10")]
+	[Address(RVA = "0x5033FA0", Offset = "0x5033FA0", VA = "0x5033FA0", Slot = "10")]
 	internal override void Dispatch(BaseVisualElementPanel panel)
 	{
 	}

@@ -1,221 +1,228 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: CustomLogic.CustomLogicLocaleBuiltin
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/CustomLogic/CustomLogicLocaleBuiltin.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20003CA")]
+[Token(Token = "0x2000407")]
 [CompilerGenerated]
 internal class CustomLogicLocaleBuiltin : BuiltinClassInstance
 {
-	[Token(Token = "0x20003CB")]
+	[Token(Token = "0x2000408")]
 	public static class Factory
 	{
-		[Token(Token = "0x600279E")]
-		[Address(RVA = "0x3DC8360", Offset = "0x3DC8360", VA = "0x3DC8360")]
+		[Token(Token = "0x6002964")]
+		[Address(RVA = "0x40CF070", Offset = "0x40CF070", VA = "0x40CF070")]
 		public static CustomLogicLocaleBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x20003CC")]
+	[Token(Token = "0x2000409")]
 	public static class Bindings
 	{
-		[Token(Token = "0x400103C")]
+		[Token(Token = "0x4001126")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x600279F")]
-		[Address(RVA = "0x3DC8450", Offset = "0x3DC8450", VA = "0x3DC8450")]
+		[Token(Token = "0x6002965")]
+		[Address(RVA = "0x40CF160", Offset = "0x40CF160", VA = "0x40CF160")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60027A0")]
-		[Address(RVA = "0x3DC8840", Offset = "0x3DC8840", VA = "0x3DC8840")]
+		[Token(Token = "0x6002966")]
+		[Address(RVA = "0x40CF550", Offset = "0x40CF550", VA = "0x40CF550")]
 		public static CLPropertyBinding<CustomLogicLocaleBuiltin> __CreatePropertyBinding__CurrentLanguage()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60027A1")]
-		[Address(RVA = "0x3DC88E0", Offset = "0x3DC88E0", VA = "0x3DC88E0")]
+		[Token(Token = "0x6002967")]
+		[Address(RVA = "0x40CF5F0", Offset = "0x40CF5F0", VA = "0x40CF5F0")]
 		public static CLPropertyBinding<CustomLogicLocaleBuiltin> __CreatePropertyBinding__DefaultLanguage()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60027A2")]
-		[Address(RVA = "0x3DC89C0", Offset = "0x3DC89C0", VA = "0x3DC89C0")]
+		[Token(Token = "0x6002968")]
+		[Address(RVA = "0x40CF6D0", Offset = "0x40CF6D0", VA = "0x40CF6D0")]
 		public static CLMethodBinding<CustomLogicLocaleBuiltin> __CreateMethodBinding__Get()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60027A3")]
-		[Address(RVA = "0x3DC8B10", Offset = "0x3DC8B10", VA = "0x3DC8B10")]
+		[Token(Token = "0x6002969")]
+		[Address(RVA = "0x40CF820", Offset = "0x40CF820", VA = "0x40CF820")]
 		public static CLMethodBinding<CustomLogicLocaleBuiltin> __CreateMethodBinding__Set()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60027A4")]
-		[Address(RVA = "0x3DC8C60", Offset = "0x3DC8C60", VA = "0x3DC8C60")]
+		[Token(Token = "0x600296A")]
+		[Address(RVA = "0x40CF970", Offset = "0x40CF970", VA = "0x40CF970")]
 		public static CLMethodBinding<CustomLogicLocaleBuiltin> __CreateMethodBinding__RegisterLanguage()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60027A5")]
-		[Address(RVA = "0x3DC8DB0", Offset = "0x3DC8DB0", VA = "0x3DC8DB0")]
+		[Token(Token = "0x600296B")]
+		[Address(RVA = "0x40CFAC0", Offset = "0x40CFAC0", VA = "0x40CFAC0")]
 		public static CLMethodBinding<CustomLogicLocaleBuiltin> __CreateMethodBinding__RegisterLanguages()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60027A6")]
-		[Address(RVA = "0x3DC8F00", Offset = "0x3DC8F00", VA = "0x3DC8F00")]
+		[Token(Token = "0x600296C")]
+		[Address(RVA = "0x40CFC10", Offset = "0x40CFC10", VA = "0x40CFC10")]
 		public static CLMethodBinding<CustomLogicLocaleBuiltin> __CreateMethodBinding__RegisterFallback()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60027A7")]
-		[Address(RVA = "0x3DC9050", Offset = "0x3DC9050", VA = "0x3DC9050")]
+		[Token(Token = "0x600296D")]
+		[Address(RVA = "0x40CFD60", Offset = "0x40CFD60", VA = "0x40CFD60")]
 		public static CLMethodBinding<CustomLogicLocaleBuiltin> __CreateMethodBinding__RemoveFallback()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x4001039")]
+	[Token(Token = "0x4001123")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Dictionary<string, Dictionary<string, string>> _languages;
 
-	[Token(Token = "0x400103A")]
+	[Token(Token = "0x4001124")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly Dictionary<string, string> _languageFallbacks;
 
-	[Token(Token = "0x17000813")]
+	[Token(Token = "0x17000871")]
 	public static string CurrentLanguage
 	{
-		[Token(Token = "0x600278F")]
-		[Address(RVA = "0x3DC7590", Offset = "0x3DC7590", VA = "0x3DC7590")]
+		[Token(Token = "0x6002955")]
+		[Address(RVA = "0x40CE2A0", Offset = "0x40CE2A0", VA = "0x40CE2A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000814")]
+	[Token(Token = "0x17000872")]
 	public static string DefaultLanguage
 	{
-		[Token(Token = "0x6002790")]
-		[Address(RVA = "0x3DC75F0", Offset = "0x3DC75F0", VA = "0x3DC75F0")]
+		[Token(Token = "0x6002956")]
+		[Address(RVA = "0x40CE300", Offset = "0x40CE300", VA = "0x40CE300")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002791")]
-		[Address(RVA = "0x3DC7660", Offset = "0x3DC7660", VA = "0x3DC7660")]
+		[Token(Token = "0x6002957")]
+		[Address(RVA = "0x40CE370", Offset = "0x40CE370", VA = "0x40CE370")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000815")]
+	[Token(Token = "0x17000873")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002799")]
-		[Address(RVA = "0x3DC8220", Offset = "0x3DC8220", VA = "0x3DC8220", Slot = "4")]
+		[Token(Token = "0x600295F")]
+		[Address(RVA = "0x40CEF30", Offset = "0x40CEF30", VA = "0x40CEF30", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000816")]
+	[Token(Token = "0x17000874")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x600279A")]
-		[Address(RVA = "0x3DC8250", Offset = "0x3DC8250", VA = "0x3DC8250", Slot = "6")]
+		[Token(Token = "0x6002960")]
+		[Address(RVA = "0x40CEF60", Offset = "0x40CEF60", VA = "0x40CEF60", Slot = "6")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000817")]
+	[Token(Token = "0x17000875")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x600279B")]
-		[Address(RVA = "0x3DC8260", Offset = "0x3DC8260", VA = "0x3DC8260", Slot = "7")]
+		[Token(Token = "0x6002961")]
+		[Address(RVA = "0x40CEF70", Offset = "0x40CEF70", VA = "0x40CEF70", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000818")]
+	[Token(Token = "0x17000876")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x600279C")]
-		[Address(RVA = "0x3DC8270", Offset = "0x3DC8270", VA = "0x3DC8270", Slot = "8")]
+		[Token(Token = "0x6002962")]
+		[Address(RVA = "0x40CEF80", Offset = "0x40CEF80", VA = "0x40CEF80", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600278E")]
-	[Address(RVA = "0x3DC72C0", Offset = "0x3DC72C0", VA = "0x3DC72C0")]
+	[Token(Token = "0x6002954")]
+	[Address(RVA = "0x40CDFD0", Offset = "0x40CDFD0", VA = "0x40CDFD0")]
 	public CustomLogicLocaleBuiltin()
 	{
 	}
 
-	[Token(Token = "0x6002792")]
-	[Address(RVA = "0x3DC76C0", Offset = "0x3DC76C0", VA = "0x3DC76C0")]
+	[Token(Token = "0x6002958")]
+	[Address(RVA = "0x40CE3D0", Offset = "0x40CE3D0", VA = "0x40CE3D0")]
 	public static string Get(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002793")]
-	[Address(RVA = "0x3DC7A80", Offset = "0x3DC7A80", VA = "0x3DC7A80")]
+	[Token(Token = "0x6002959")]
+	[Address(RVA = "0x40CE790", Offset = "0x40CE790", VA = "0x40CE790")]
 	public static void Set(string language, string key, string value)
 	{
 	}
 
-	[Token(Token = "0x6002794")]
-	[Address(RVA = "0x3DC7BE0", Offset = "0x3DC7BE0", VA = "0x3DC7BE0")]
+	[Token(Token = "0x600295A")]
+	[Address(RVA = "0x40CE8F0", Offset = "0x40CE8F0", VA = "0x40CE8F0")]
 	public static void RegisterLanguage(string language, CustomLogicDictBuiltin strings)
 	{
 	}
 
-	[Token(Token = "0x6002795")]
-	[Address(RVA = "0x3DC7F60", Offset = "0x3DC7F60", VA = "0x3DC7F60")]
+	[Token(Token = "0x600295B")]
+	[Address(RVA = "0x40CEC70", Offset = "0x40CEC70", VA = "0x40CEC70")]
 	public static void RegisterLanguages(string pattern)
 	{
 	}
 
-	[Token(Token = "0x6002796")]
-	[Address(RVA = "0x3DC74F0", Offset = "0x3DC74F0", VA = "0x3DC74F0")]
+	[Token(Token = "0x600295C")]
+	[Address(RVA = "0x40CE200", Offset = "0x40CE200", VA = "0x40CE200")]
 	public static void RegisterFallback(string fromLanguage, string toLanguage)
 	{
 	}
 
-	[Token(Token = "0x6002797")]
-	[Address(RVA = "0x3DC8180", Offset = "0x3DC8180", VA = "0x3DC8180")]
+	[Token(Token = "0x600295D")]
+	[Address(RVA = "0x40CEE90", Offset = "0x40CEE90", VA = "0x40CEE90")]
 	public static void RemoveFallback(string fromLanguage)
 	{
 	}
 
-	[Token(Token = "0x6002798")]
-	[Address(RVA = "0x3DC77B0", Offset = "0x3DC77B0", VA = "0x3DC77B0")]
+	[Token(Token = "0x600295E")]
+	[Address(RVA = "0x40CE4C0", Offset = "0x40CE4C0", VA = "0x40CE4C0")]
 	private static string ResolveString(string key, string requestedLang)
 	{
 		return null;

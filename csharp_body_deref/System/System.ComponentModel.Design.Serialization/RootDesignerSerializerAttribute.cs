@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -26,7 +33,7 @@ public sealed class RootDesignerSerializerAttribute : Attribute
 	public string SerializerBaseTypeName
 	{
 		[Token(Token = "0x6001547")]
-		[Address(RVA = "0x45BD470", Offset = "0x45BD470", VA = "0x45BD470")]
+		[Address(RVA = "0x48E2570", Offset = "0x48E2570", VA = "0x48E2570")]
 		[CompilerGenerated]
 		get
 		{
@@ -38,7 +45,7 @@ public sealed class RootDesignerSerializerAttribute : Attribute
 	public override object TypeId
 	{
 		[Token(Token = "0x6001548")]
-		[Address(RVA = "0x45BD480", Offset = "0x45BD480", VA = "0x45BD480", Slot = "4")]
+		[Address(RVA = "0x48E2580", Offset = "0x48E2580", VA = "0x48E2580", Slot = "4")]
 		get
 		{
 			return null;
@@ -46,7 +53,7 @@ public sealed class RootDesignerSerializerAttribute : Attribute
 	}
 
 	[Token(Token = "0x6001546")]
-	[Address(RVA = "0x45BD420", Offset = "0x45BD420", VA = "0x45BD420")]
+	[Address(RVA = "0x48E2520", Offset = "0x48E2520", VA = "0x48E2520")]
 	public RootDesignerSerializerAttribute(string serializerTypeName, string baseSerializerTypeName, bool reloadable)
 	{
 	}

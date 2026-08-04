@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Globalization.Unicode.CodePointIndexer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -31,7 +38,7 @@ internal class CodePointIndexer
 		public readonly int IndexEnd;
 
 		[Token(Token = "0x60000A4")]
-		[Address(RVA = "0x4DEBBD0", Offset = "0x4DEBBD0", VA = "0x4DEBBD0")]
+		[Address(RVA = "0x3AD16F0", Offset = "0x3AD16F0", VA = "0x3AD16F0")]
 		public TableRange(int start, int end, int indexStart)
 		{
 		}
@@ -54,13 +61,13 @@ internal class CodePointIndexer
 	private int defaultCP;
 
 	[Token(Token = "0x60000A2")]
-	[Address(RVA = "0x4DEB9F0", Offset = "0x4DEB9F0", VA = "0x4DEB9F0")]
+	[Address(RVA = "0x3AD1510", Offset = "0x3AD1510", VA = "0x3AD1510")]
 	public CodePointIndexer(int[] starts, int[] ends, int defaultIndex, int defaultCP)
 	{
 	}
 
 	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x4DEBBF0", Offset = "0x4DEBBF0", VA = "0x4DEBBF0")]
+	[Address(RVA = "0x3AD1710", Offset = "0x3AD1710", VA = "0x3AD1710")]
 	public int ToIndex(int cp)
 	{
 		return default(int);

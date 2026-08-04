@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: SwooshTest
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/SwooshTest.c
+// Prior real C# source (older reference): Assets/Scripts/ThirdParty/MeleeWeaponTrail/Example/Scripts/SwooshTest.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -53,19 +60,19 @@ public class SwooshTest : MonoBehaviour
 	private bool _firstFrame;
 
 	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x3C69DB0", Offset = "0x3C69DB0", VA = "0x3C69DB0")]
+	[Address(RVA = "0x3F5F700", Offset = "0x3F5F700", VA = "0x3F5F700")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x6000059")]
-	[Address(RVA = "0x3C69E90", Offset = "0x3C69E90", VA = "0x3C69E90")]
+	[Address(RVA = "0x3F5F7E0", Offset = "0x3F5F7E0", VA = "0x3F5F7E0")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x600005A")]
-	[Address(RVA = "0x3C69F60", Offset = "0x3C69F60", VA = "0x3C69F60")]
+	[Address(RVA = "0x3F5F8B0", Offset = "0x3F5F8B0", VA = "0x3F5F8B0")]
 	public SwooshTest()
 	{
 	}

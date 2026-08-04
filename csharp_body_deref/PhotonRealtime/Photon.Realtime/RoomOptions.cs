@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Realtime.RoomOptions
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonRealtime/Code/LoadbalancingPeer.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using ExitGames.Client.Photon;
 using Il2CppDummyDll;
@@ -51,13 +58,13 @@ public class RoomOptions
 	public bool IsVisible
 	{
 		[Token(Token = "0x6000125")]
-		[Address(RVA = "0x3BD95B0", Offset = "0x3BD95B0", VA = "0x3BD95B0")]
+		[Address(RVA = "0x3ECEF00", Offset = "0x3ECEF00", VA = "0x3ECEF00")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000126")]
-		[Address(RVA = "0x3BD95C0", Offset = "0x3BD95C0", VA = "0x3BD95C0")]
+		[Address(RVA = "0x3ECEF10", Offset = "0x3ECEF10", VA = "0x3ECEF10")]
 		set
 		{
 		}
@@ -67,13 +74,13 @@ public class RoomOptions
 	public bool IsOpen
 	{
 		[Token(Token = "0x6000127")]
-		[Address(RVA = "0x3BD95D0", Offset = "0x3BD95D0", VA = "0x3BD95D0")]
+		[Address(RVA = "0x3ECEF20", Offset = "0x3ECEF20", VA = "0x3ECEF20")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000128")]
-		[Address(RVA = "0x3BD95E0", Offset = "0x3BD95E0", VA = "0x3BD95E0")]
+		[Address(RVA = "0x3ECEF30", Offset = "0x3ECEF30", VA = "0x3ECEF30")]
 		set
 		{
 		}
@@ -83,13 +90,13 @@ public class RoomOptions
 	public bool CleanupCacheOnLeave
 	{
 		[Token(Token = "0x6000129")]
-		[Address(RVA = "0x3BD95F0", Offset = "0x3BD95F0", VA = "0x3BD95F0")]
+		[Address(RVA = "0x3ECEF40", Offset = "0x3ECEF40", VA = "0x3ECEF40")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600012A")]
-		[Address(RVA = "0x3BD9600", Offset = "0x3BD9600", VA = "0x3BD9600")]
+		[Address(RVA = "0x3ECEF50", Offset = "0x3ECEF50", VA = "0x3ECEF50")]
 		set
 		{
 		}
@@ -99,14 +106,14 @@ public class RoomOptions
 	public bool SuppressRoomEvents
 	{
 		[Token(Token = "0x600012B")]
-		[Address(RVA = "0x3BD9610", Offset = "0x3BD9610", VA = "0x3BD9610")]
+		[Address(RVA = "0x3ECEF60", Offset = "0x3ECEF60", VA = "0x3ECEF60")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600012C")]
-		[Address(RVA = "0x3BD9620", Offset = "0x3BD9620", VA = "0x3BD9620")]
+		[Address(RVA = "0x3ECEF70", Offset = "0x3ECEF70", VA = "0x3ECEF70")]
 		[CompilerGenerated]
 		set
 		{
@@ -117,14 +124,14 @@ public class RoomOptions
 	public bool SuppressPlayerInfo
 	{
 		[Token(Token = "0x600012D")]
-		[Address(RVA = "0x3BD9630", Offset = "0x3BD9630", VA = "0x3BD9630")]
+		[Address(RVA = "0x3ECEF80", Offset = "0x3ECEF80", VA = "0x3ECEF80")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600012E")]
-		[Address(RVA = "0x3BD9640", Offset = "0x3BD9640", VA = "0x3BD9640")]
+		[Address(RVA = "0x3ECEF90", Offset = "0x3ECEF90", VA = "0x3ECEF90")]
 		[CompilerGenerated]
 		set
 		{
@@ -135,14 +142,14 @@ public class RoomOptions
 	public bool PublishUserId
 	{
 		[Token(Token = "0x600012F")]
-		[Address(RVA = "0x3BD9650", Offset = "0x3BD9650", VA = "0x3BD9650")]
+		[Address(RVA = "0x3ECEFA0", Offset = "0x3ECEFA0", VA = "0x3ECEFA0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000130")]
-		[Address(RVA = "0x3BD9660", Offset = "0x3BD9660", VA = "0x3BD9660")]
+		[Address(RVA = "0x3ECEFB0", Offset = "0x3ECEFB0", VA = "0x3ECEFB0")]
 		[CompilerGenerated]
 		set
 		{
@@ -153,14 +160,14 @@ public class RoomOptions
 	public bool DeleteNullProperties
 	{
 		[Token(Token = "0x6000131")]
-		[Address(RVA = "0x3BD9670", Offset = "0x3BD9670", VA = "0x3BD9670")]
+		[Address(RVA = "0x3ECEFC0", Offset = "0x3ECEFC0", VA = "0x3ECEFC0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000132")]
-		[Address(RVA = "0x3BD9680", Offset = "0x3BD9680", VA = "0x3BD9680")]
+		[Address(RVA = "0x3ECEFD0", Offset = "0x3ECEFD0", VA = "0x3ECEFD0")]
 		[CompilerGenerated]
 		set
 		{
@@ -171,20 +178,20 @@ public class RoomOptions
 	public bool BroadcastPropsChangeToAll
 	{
 		[Token(Token = "0x6000133")]
-		[Address(RVA = "0x3BD9690", Offset = "0x3BD9690", VA = "0x3BD9690")]
+		[Address(RVA = "0x3ECEFE0", Offset = "0x3ECEFE0", VA = "0x3ECEFE0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000134")]
-		[Address(RVA = "0x3BD96A0", Offset = "0x3BD96A0", VA = "0x3BD96A0")]
+		[Address(RVA = "0x3ECEFF0", Offset = "0x3ECEFF0", VA = "0x3ECEFF0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000135")]
-	[Address(RVA = "0x3BD6CB0", Offset = "0x3BD6CB0", VA = "0x3BD6CB0")]
+	[Address(RVA = "0x3ECC600", Offset = "0x3ECC600", VA = "0x3ECC600")]
 	public RoomOptions()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.Common.DataStorage
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Collections.Concurrent;
 using System.Xml;
@@ -69,7 +76,7 @@ internal abstract class DataStorage
 	internal DataSetDateTime DateTimeMode
 	{
 		[Token(Token = "0x6000B49")]
-		[Address(RVA = "0x42E7580", Offset = "0x42E7580", VA = "0x42E7580")]
+		[Address(RVA = "0x4624CE0", Offset = "0x4624CE0", VA = "0x4624CE0")]
 		get
 		{
 			return default(DataSetDateTime);
@@ -80,7 +87,7 @@ internal abstract class DataStorage
 	internal IFormatProvider FormatProvider
 	{
 		[Token(Token = "0x6000B4A")]
-		[Address(RVA = "0x42E47C0", Offset = "0x42E47C0", VA = "0x42E47C0")]
+		[Address(RVA = "0x4621F20", Offset = "0x4621F20", VA = "0x4621F20")]
 		get
 		{
 			return null;
@@ -88,39 +95,39 @@ internal abstract class DataStorage
 	}
 
 	[Token(Token = "0x6000B46")]
-	[Address(RVA = "0x42E3F00", Offset = "0x42E3F00", VA = "0x42E3F00")]
+	[Address(RVA = "0x4621660", Offset = "0x4621660", VA = "0x4621660")]
 	protected DataStorage(DataColumn column, Type type, object defaultValue, StorageType storageType)
 	{
 	}
 
 	[Token(Token = "0x6000B47")]
-	[Address(RVA = "0x42E7500", Offset = "0x42E7500", VA = "0x42E7500")]
+	[Address(RVA = "0x4624C60", Offset = "0x4624C60", VA = "0x4624C60")]
 	protected DataStorage(DataColumn column, Type type, object defaultValue, object nullValue, StorageType storageType)
 	{
 	}
 
 	[Token(Token = "0x6000B48")]
-	[Address(RVA = "0x42E73A0", Offset = "0x42E73A0", VA = "0x42E73A0")]
+	[Address(RVA = "0x4624B00", Offset = "0x4624B00", VA = "0x4624B00")]
 	protected DataStorage(DataColumn column, Type type, object defaultValue, object nullValue, bool isICloneable, StorageType storageType)
 	{
 	}
 
 	[Token(Token = "0x6000B4B")]
-	[Address(RVA = "0x42E43D0", Offset = "0x42E43D0", VA = "0x42E43D0", Slot = "4")]
+	[Address(RVA = "0x4621B30", Offset = "0x4621B30", VA = "0x4621B30", Slot = "4")]
 	public virtual object Aggregate(int[] recordNos, AggregateType kind)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B4C")]
-	[Address(RVA = "0x42E75A0", Offset = "0x42E75A0", VA = "0x42E75A0")]
+	[Address(RVA = "0x4624D00", Offset = "0x4624D00", VA = "0x4624D00")]
 	public object AggregateCount(int[] recordNos)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B4D")]
-	[Address(RVA = "0x42E4540", Offset = "0x42E4540", VA = "0x42E4540")]
+	[Address(RVA = "0x4621CA0", Offset = "0x4621CA0", VA = "0x4621CA0")]
 	protected int CompareBits(int recordNo1, int recordNo2)
 	{
 		return default(int);
@@ -133,14 +140,14 @@ internal abstract class DataStorage
 	public abstract int CompareValueTo(int recordNo1, object value);
 
 	[Token(Token = "0x6000B50")]
-	[Address(RVA = "0x42E7640", Offset = "0x42E7640", VA = "0x42E7640", Slot = "7")]
+	[Address(RVA = "0x4624DA0", Offset = "0x4624DA0", VA = "0x4624DA0", Slot = "7")]
 	public virtual object ConvertValue(object value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B51")]
-	[Address(RVA = "0x42E4850", Offset = "0x42E4850", VA = "0x42E4850")]
+	[Address(RVA = "0x4621FB0", Offset = "0x4621FB0", VA = "0x4621FB0")]
 	protected void CopyBits(int srcRecordNo, int dstRecordNo)
 	{
 	}
@@ -152,28 +159,28 @@ internal abstract class DataStorage
 	public abstract object Get(int recordNo);
 
 	[Token(Token = "0x6000B54")]
-	[Address(RVA = "0x42E4900", Offset = "0x42E4900", VA = "0x42E4900")]
+	[Address(RVA = "0x4622060", Offset = "0x4622060", VA = "0x4622060")]
 	protected object GetBits(int recordNo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B55")]
-	[Address(RVA = "0x42E7650", Offset = "0x42E7650", VA = "0x42E7650", Slot = "10")]
+	[Address(RVA = "0x4624DB0", Offset = "0x4624DB0", VA = "0x4624DB0", Slot = "10")]
 	public virtual int GetStringLength(int record)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B56")]
-	[Address(RVA = "0x42E7660", Offset = "0x42E7660", VA = "0x42E7660")]
+	[Address(RVA = "0x4624DC0", Offset = "0x4624DC0", VA = "0x4624DC0")]
 	protected bool HasValue(int recordNo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B57")]
-	[Address(RVA = "0x42E7680", Offset = "0x42E7680", VA = "0x42E7680", Slot = "11")]
+	[Address(RVA = "0x4624DE0", Offset = "0x4624DE0", VA = "0x4624DE0", Slot = "11")]
 	public virtual bool IsNull(int recordNo)
 	{
 		return default(bool);
@@ -183,13 +190,13 @@ internal abstract class DataStorage
 	public abstract void Set(int recordNo, object value);
 
 	[Token(Token = "0x6000B59")]
-	[Address(RVA = "0x42E4AC0", Offset = "0x42E4AC0", VA = "0x42E4AC0")]
+	[Address(RVA = "0x4622220", Offset = "0x4622220", VA = "0x4622220")]
 	protected void SetNullBit(int recordNo, bool flag)
 	{
 	}
 
 	[Token(Token = "0x6000B5A")]
-	[Address(RVA = "0x42E4C00", Offset = "0x42E4C00", VA = "0x42E4C00", Slot = "13")]
+	[Address(RVA = "0x4622360", Offset = "0x4622360", VA = "0x4622360", Slot = "13")]
 	public virtual void SetCapacity(int capacity)
 	{
 	}
@@ -198,7 +205,7 @@ internal abstract class DataStorage
 	public abstract object ConvertXmlToObject(string s);
 
 	[Token(Token = "0x6000B5C")]
-	[Address(RVA = "0x42E76A0", Offset = "0x42E76A0", VA = "0x42E76A0", Slot = "15")]
+	[Address(RVA = "0x4624E00", Offset = "0x4624E00", VA = "0x4624E00", Slot = "15")]
 	public virtual object ConvertXmlToObject(XmlReader xmlReader, XmlRootAttribute xmlAttrib)
 	{
 		return null;
@@ -208,116 +215,116 @@ internal abstract class DataStorage
 	public abstract string ConvertObjectToXml(object value);
 
 	[Token(Token = "0x6000B5E")]
-	[Address(RVA = "0x42E76E0", Offset = "0x42E76E0", VA = "0x42E76E0", Slot = "17")]
+	[Address(RVA = "0x4624E40", Offset = "0x4624E40", VA = "0x4624E40", Slot = "17")]
 	public virtual void ConvertObjectToXml(object value, XmlWriter xmlWriter, XmlRootAttribute xmlAttrib)
 	{
 	}
 
 	[Token(Token = "0x6000B5F")]
-	[Address(RVA = "0x42E7720", Offset = "0x42E7720", VA = "0x42E7720")]
+	[Address(RVA = "0x4624E80", Offset = "0x4624E80", VA = "0x4624E80")]
 	public static DataStorage CreateStorage(DataColumn column, Type dataType, StorageType typeCode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B60")]
-	[Address(RVA = "0x42E8F00", Offset = "0x42E8F00", VA = "0x42E8F00")]
+	[Address(RVA = "0x4626660", Offset = "0x4626660", VA = "0x4626660")]
 	internal static StorageType GetStorageType(Type dataType)
 	{
 		return default(StorageType);
 	}
 
 	[Token(Token = "0x6000B61")]
-	[Address(RVA = "0x42E9030", Offset = "0x42E9030", VA = "0x42E9030")]
+	[Address(RVA = "0x4626790", Offset = "0x4626790", VA = "0x4626790")]
 	internal static Type GetTypeStorage(StorageType storageType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B62")]
-	[Address(RVA = "0x42E90C0", Offset = "0x42E90C0", VA = "0x42E90C0")]
+	[Address(RVA = "0x4626820", Offset = "0x4626820", VA = "0x4626820")]
 	internal static bool IsTypeCustomType(Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B63")]
-	[Address(RVA = "0x42E7520", Offset = "0x42E7520", VA = "0x42E7520")]
+	[Address(RVA = "0x4624C80", Offset = "0x4624C80", VA = "0x4624C80")]
 	internal static bool IsTypeCustomType(StorageType typeCode)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B64")]
-	[Address(RVA = "0x42E9120", Offset = "0x42E9120", VA = "0x42E9120")]
+	[Address(RVA = "0x4626880", Offset = "0x4626880", VA = "0x4626880")]
 	internal static bool IsSqlType(StorageType storageType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B65")]
-	[Address(RVA = "0x42E9130", Offset = "0x42E9130", VA = "0x42E9130")]
+	[Address(RVA = "0x4626890", Offset = "0x4626890", VA = "0x4626890")]
 	public static bool IsSqlType(Type dataType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B66")]
-	[Address(RVA = "0x42E7540", Offset = "0x42E7540", VA = "0x42E7540")]
+	[Address(RVA = "0x4624CA0", Offset = "0x4624CA0", VA = "0x4624CA0")]
 	private static bool DetermineIfValueType(StorageType typeCode, Type dataType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B67")]
-	[Address(RVA = "0x42E9230", Offset = "0x42E9230", VA = "0x42E9230")]
+	[Address(RVA = "0x4626990", Offset = "0x4626990", VA = "0x4626990")]
 	internal static void ImplementsInterfaces(StorageType typeCode, Type dataType, out bool sqlType, out bool nullable, out bool xmlSerializable, out bool changeTracking, out bool revertibleChangeTracking)
 	{
 	}
 
 	[Token(Token = "0x6000B68")]
-	[Address(RVA = "0x42E93A0", Offset = "0x42E93A0", VA = "0x42E93A0")]
+	[Address(RVA = "0x4626B00", Offset = "0x4626B00", VA = "0x4626B00")]
 	private static Tuple<bool, bool, bool, bool> InspectTypeForInterfaces(Type dataType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B69")]
-	[Address(RVA = "0x42E9530", Offset = "0x42E9530", VA = "0x42E9530")]
+	[Address(RVA = "0x4626C90", Offset = "0x4626C90", VA = "0x4626C90")]
 	internal static bool ImplementsINullableValue(StorageType typeCode, Type dataType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B6A")]
-	[Address(RVA = "0x42E95E0", Offset = "0x42E95E0", VA = "0x42E95E0")]
+	[Address(RVA = "0x4626D40", Offset = "0x4626D40", VA = "0x4626D40")]
 	public static bool IsObjectNull(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B6B")]
-	[Address(RVA = "0x42E9730", Offset = "0x42E9730", VA = "0x42E9730")]
+	[Address(RVA = "0x4626E90", Offset = "0x4626E90", VA = "0x4626E90")]
 	public static bool IsObjectSqlNull(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B6C")]
-	[Address(RVA = "0x42E97E0", Offset = "0x42E97E0", VA = "0x42E97E0")]
+	[Address(RVA = "0x4626F40", Offset = "0x4626F40", VA = "0x4626F40")]
 	internal object GetEmptyStorageInternal(int recordCount)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B6D")]
-	[Address(RVA = "0x42E9800", Offset = "0x42E9800", VA = "0x42E9800")]
+	[Address(RVA = "0x4626F60", Offset = "0x4626F60", VA = "0x4626F60")]
 	internal void CopyValueInternal(int record, object store, BitArray nullbits, int storeIndex)
 	{
 	}
 
 	[Token(Token = "0x6000B6E")]
-	[Address(RVA = "0x42E9820", Offset = "0x42E9820", VA = "0x42E9820")]
+	[Address(RVA = "0x4626F80", Offset = "0x4626F80", VA = "0x4626F80")]
 	internal void SetStorageInternal(object store, BitArray nullbits)
 	{
 	}
@@ -332,20 +339,20 @@ internal abstract class DataStorage
 	protected abstract void SetStorage(object store, BitArray nullbits);
 
 	[Token(Token = "0x6000B72")]
-	[Address(RVA = "0x42E9840", Offset = "0x42E9840", VA = "0x42E9840")]
+	[Address(RVA = "0x4626FA0", Offset = "0x4626FA0", VA = "0x4626FA0")]
 	protected void SetNullStorage(BitArray nullbits)
 	{
 	}
 
 	[Token(Token = "0x6000B73")]
-	[Address(RVA = "0x42E9850", Offset = "0x42E9850", VA = "0x42E9850")]
+	[Address(RVA = "0x4626FB0", Offset = "0x4626FB0", VA = "0x4626FB0")]
 	internal static Type GetType(string value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B74")]
-	[Address(RVA = "0x42E9A80", Offset = "0x42E9A80", VA = "0x42E9A80")]
+	[Address(RVA = "0x46271E0", Offset = "0x46271E0", VA = "0x46271E0")]
 	internal static string GetQualifiedName(Type type)
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Security.Cryptography.RSAManaged
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
@@ -64,7 +71,7 @@ internal class RSAManaged : RSA
 	public override int KeySize
 	{
 		[Token(Token = "0x600017B")]
-		[Address(RVA = "0x4E01280", Offset = "0x4E01280", VA = "0x4E01280", Slot = "6")]
+		[Address(RVA = "0x3AE6DA0", Offset = "0x3AE6DA0", VA = "0x3AE6DA0", Slot = "6")]
 		get
 		{
 			return default(int);
@@ -75,7 +82,7 @@ internal class RSAManaged : RSA
 	public override string KeyExchangeAlgorithm
 	{
 		[Token(Token = "0x600017C")]
-		[Address(RVA = "0x4E01320", Offset = "0x4E01320", VA = "0x4E01320", Slot = "10")]
+		[Address(RVA = "0x3AE6E40", Offset = "0x3AE6E40", VA = "0x3AE6E40", Slot = "10")]
 		get
 		{
 			return null;
@@ -86,7 +93,7 @@ internal class RSAManaged : RSA
 	public bool PublicOnly
 	{
 		[Token(Token = "0x600017D")]
-		[Address(RVA = "0x4E01350", Offset = "0x4E01350", VA = "0x4E01350")]
+		[Address(RVA = "0x3AE6E70", Offset = "0x3AE6E70", VA = "0x3AE6E70")]
 		get
 		{
 			return default(bool);
@@ -97,7 +104,7 @@ internal class RSAManaged : RSA
 	public override string SignatureAlgorithm
 	{
 		[Token(Token = "0x600017E")]
-		[Address(RVA = "0x4E01480", Offset = "0x4E01480", VA = "0x4E01480", Slot = "9")]
+		[Address(RVA = "0x3AE6FA0", Offset = "0x3AE6FA0", VA = "0x3AE6FA0", Slot = "9")]
 		get
 		{
 			return null;
@@ -108,7 +115,7 @@ internal class RSAManaged : RSA
 	public bool IsCrtPossible
 	{
 		[Token(Token = "0x6000187")]
-		[Address(RVA = "0x4E03C00", Offset = "0x4E03C00", VA = "0x4E03C00")]
+		[Address(RVA = "0x3AE9720", Offset = "0x3AE9720", VA = "0x3AE9720")]
 		get
 		{
 			return default(bool);
@@ -119,13 +126,13 @@ internal class RSAManaged : RSA
 	public event KeyGeneratedEventHandler KeyGenerated
 	{
 		[Token(Token = "0x6000184")]
-		[Address(RVA = "0x4E03260", Offset = "0x4E03260", VA = "0x4E03260")]
+		[Address(RVA = "0x3AE8D80", Offset = "0x3AE8D80", VA = "0x3AE8D80")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000185")]
-		[Address(RVA = "0x4E032F0", Offset = "0x4E032F0", VA = "0x4E032F0")]
+		[Address(RVA = "0x3AE8E10", Offset = "0x3AE8E10", VA = "0x3AE8E10")]
 		[CompilerGenerated]
 		remove
 		{
@@ -133,65 +140,65 @@ internal class RSAManaged : RSA
 	}
 
 	[Token(Token = "0x6000178")]
-	[Address(RVA = "0x4E002E0", Offset = "0x4E002E0", VA = "0x4E002E0")]
+	[Address(RVA = "0x3AE5E00", Offset = "0x3AE5E00", VA = "0x3AE5E00")]
 	public RSAManaged(int keySize)
 	{
 	}
 
 	[Token(Token = "0x6000179")]
-	[Address(RVA = "0x4E003C0", Offset = "0x4E003C0", VA = "0x4E003C0", Slot = "1")]
+	[Address(RVA = "0x3AE5EE0", Offset = "0x3AE5EE0", VA = "0x3AE5EE0", Slot = "1")]
 	~RSAManaged()
 	{
 	}
 
 	[Token(Token = "0x600017A")]
-	[Address(RVA = "0x4E00450", Offset = "0x4E00450", VA = "0x4E00450")]
+	[Address(RVA = "0x3AE5F70", Offset = "0x3AE5F70", VA = "0x3AE5F70")]
 	private void GenerateKeyPair()
 	{
 	}
 
 	[Token(Token = "0x600017F")]
-	[Address(RVA = "0x4E014B0", Offset = "0x4E014B0", VA = "0x4E014B0", Slot = "34")]
+	[Address(RVA = "0x3AE6FD0", Offset = "0x3AE6FD0", VA = "0x3AE6FD0", Slot = "34")]
 	public override byte[] DecryptValue(byte[] rgb)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000180")]
-	[Address(RVA = "0x4E02090", Offset = "0x4E02090", VA = "0x4E02090", Slot = "35")]
+	[Address(RVA = "0x3AE7BB0", Offset = "0x3AE7BB0", VA = "0x3AE7BB0", Slot = "35")]
 	public override byte[] EncryptValue(byte[] rgb)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000181")]
-	[Address(RVA = "0x4E02260", Offset = "0x4E02260", VA = "0x4E02260", Slot = "36")]
+	[Address(RVA = "0x3AE7D80", Offset = "0x3AE7D80", VA = "0x3AE7D80", Slot = "36")]
 	public override RSAParameters ExportParameters(bool includePrivateParameters)
 	{
 		return default(RSAParameters);
 	}
 
 	[Token(Token = "0x6000182")]
-	[Address(RVA = "0x4E027D0", Offset = "0x4E027D0", VA = "0x4E027D0", Slot = "37")]
+	[Address(RVA = "0x3AE82F0", Offset = "0x3AE82F0", VA = "0x3AE82F0", Slot = "37")]
 	public override void ImportParameters(RSAParameters parameters)
 	{
 	}
 
 	[Token(Token = "0x6000183")]
-	[Address(RVA = "0x4E02D90", Offset = "0x4E02D90", VA = "0x4E02D90", Slot = "5")]
+	[Address(RVA = "0x3AE88B0", Offset = "0x3AE88B0", VA = "0x3AE88B0", Slot = "5")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6000186")]
-	[Address(RVA = "0x4E03380", Offset = "0x4E03380", VA = "0x4E03380", Slot = "12")]
+	[Address(RVA = "0x3AE8EA0", Offset = "0x3AE8EA0", VA = "0x3AE8EA0", Slot = "12")]
 	public override string ToXmlString(bool includePrivateParameters)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000188")]
-	[Address(RVA = "0x4E02000", Offset = "0x4E02000", VA = "0x4E02000")]
+	[Address(RVA = "0x3AE7B20", Offset = "0x3AE7B20", VA = "0x3AE7B20")]
 	private byte[] GetPaddedValue(Mono.Math.BigInteger value, int length)
 	{
 		return null;

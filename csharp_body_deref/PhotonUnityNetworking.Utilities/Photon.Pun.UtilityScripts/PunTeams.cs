@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Pun.UtilityScripts.PunTeams
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PunTeams.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using ExitGames.Client.Photon;
@@ -32,56 +39,56 @@ public class PunTeams : MonoBehaviourPunCallbacks
 	public const string TeamPlayerProp = "team";
 
 	[Token(Token = "0x6000082")]
-	[Address(RVA = "0x3BEEFB0", Offset = "0x3BEEFB0", VA = "0x3BEEFB0")]
+	[Address(RVA = "0x3F07480", Offset = "0x3F07480", VA = "0x3F07480")]
 	public void Start()
 	{
 	}
 
 	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x3BEF420", Offset = "0x3BEF420", VA = "0x3BEF420", Slot = "29")]
+	[Address(RVA = "0x3F078F0", Offset = "0x3F078F0", VA = "0x3F078F0", Slot = "29")]
 	public override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000084")]
-	[Address(RVA = "0x3BEF430", Offset = "0x3BEF430", VA = "0x3BEF430", Slot = "41")]
+	[Address(RVA = "0x3F07900", Offset = "0x3F07900", VA = "0x3F07900", Slot = "41")]
 	public override void OnJoinedRoom()
 	{
 	}
 
 	[Token(Token = "0x6000085")]
-	[Address(RVA = "0x3BEF9C0", Offset = "0x3BEF9C0", VA = "0x3BEF9C0", Slot = "31")]
+	[Address(RVA = "0x3F07E90", Offset = "0x3F07E90", VA = "0x3F07E90", Slot = "31")]
 	public override void OnLeftRoom()
 	{
 	}
 
 	[Token(Token = "0x6000086")]
-	[Address(RVA = "0x3BEF9D0", Offset = "0x3BEF9D0", VA = "0x3BEF9D0", Slot = "47")]
+	[Address(RVA = "0x3F07EA0", Offset = "0x3F07EA0", VA = "0x3F07EA0", Slot = "47")]
 	public override void OnPlayerPropertiesUpdate(Player targetPlayer, Hashtable changedProps)
 	{
 	}
 
 	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x3BEF9E0", Offset = "0x3BEF9E0", VA = "0x3BEF9E0", Slot = "43")]
+	[Address(RVA = "0x3F07EB0", Offset = "0x3F07EB0", VA = "0x3F07EB0", Slot = "43")]
 	public override void OnPlayerLeftRoom(Player otherPlayer)
 	{
 	}
 
 	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x3BEF9F0", Offset = "0x3BEF9F0", VA = "0x3BEF9F0", Slot = "42")]
+	[Address(RVA = "0x3F07EC0", Offset = "0x3F07EC0", VA = "0x3F07EC0", Slot = "42")]
 	public override void OnPlayerEnteredRoom(Player newPlayer)
 	{
 	}
 
 	[Token(Token = "0x6000089")]
-	[Address(RVA = "0x3BEF440", Offset = "0x3BEF440", VA = "0x3BEF440")]
+	[Address(RVA = "0x3F07910", Offset = "0x3F07910", VA = "0x3F07910")]
 	[Obsolete("do not call this.")]
 	public void UpdateTeams()
 	{
 	}
 
 	[Token(Token = "0x600008A")]
-	[Address(RVA = "0x3BEFAC0", Offset = "0x3BEFAC0", VA = "0x3BEFAC0")]
+	[Address(RVA = "0x3F07F90", Offset = "0x3F07F90", VA = "0x3F07F90")]
 	public PunTeams()
 	{
 	}

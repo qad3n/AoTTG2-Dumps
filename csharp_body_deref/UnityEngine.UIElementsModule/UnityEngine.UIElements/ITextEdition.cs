@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.ITextEdition
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -136,13 +143,13 @@ public interface ITextEdition
 	bool autoCorrection
 	{
 		[Token(Token = "0x60019A0")]
-		[Address(RVA = "0x4C37510", Offset = "0x4C37510", VA = "0x4C37510", Slot = "33")]
+		[Address(RVA = "0x4F5EE40", Offset = "0x4F5EE40", VA = "0x4F5EE40", Slot = "33")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60019A1")]
-		[Address(RVA = "0x4C375C0", Offset = "0x4C375C0", VA = "0x4C375C0", Slot = "34")]
+		[Address(RVA = "0x4F5EEF0", Offset = "0x4F5EEF0", VA = "0x4F5EEF0", Slot = "34")]
 		set
 		{
 		}
@@ -152,13 +159,13 @@ public interface ITextEdition
 	bool hideMobileInput
 	{
 		[Token(Token = "0x60019A2")]
-		[Address(RVA = "0x4C37670", Offset = "0x4C37670", VA = "0x4C37670", Slot = "35")]
+		[Address(RVA = "0x4F5EFA0", Offset = "0x4F5EFA0", VA = "0x4F5EFA0", Slot = "35")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60019A3")]
-		[Address(RVA = "0x4C37720", Offset = "0x4C37720", VA = "0x4C37720", Slot = "36")]
+		[Address(RVA = "0x4F5F050", Offset = "0x4F5F050", VA = "0x4F5F050", Slot = "36")]
 		set
 		{
 		}
@@ -168,13 +175,13 @@ public interface ITextEdition
 	TouchScreenKeyboardType keyboardType
 	{
 		[Token(Token = "0x60019A4")]
-		[Address(RVA = "0x4C377D0", Offset = "0x4C377D0", VA = "0x4C377D0", Slot = "37")]
+		[Address(RVA = "0x4F5F100", Offset = "0x4F5F100", VA = "0x4F5F100", Slot = "37")]
 		get
 		{
 			return default(TouchScreenKeyboardType);
 		}
 		[Token(Token = "0x60019A5")]
-		[Address(RVA = "0x4C37880", Offset = "0x4C37880", VA = "0x4C37880", Slot = "38")]
+		[Address(RVA = "0x4F5F1B0", Offset = "0x4F5F1B0", VA = "0x4F5F1B0", Slot = "38")]
 		set
 		{
 		}

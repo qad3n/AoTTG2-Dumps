@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Scroller
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -12,13 +19,13 @@ public class Scroller : VisualElement
 	private class ScrollerSlider : Slider
 	{
 		[Token(Token = "0x6000735")]
-		[Address(RVA = "0x4CD6CF0", Offset = "0x4CD6CF0", VA = "0x4CD6CF0")]
+		[Address(RVA = "0x4FFE620", Offset = "0x4FFE620", VA = "0x4FFE620")]
 		public ScrollerSlider(float start, float end, SliderDirection direction, float pageSize)
 		{
 		}
 
 		[Token(Token = "0x6000736")]
-		[Address(RVA = "0x4CD7490", Offset = "0x4CD7490", VA = "0x4CD7490", Slot = "126")]
+		[Address(RVA = "0x4FFEDC0", Offset = "0x4FFEDC0", VA = "0x4FFEDC0", Slot = "126")]
 		internal override float SliderNormalizeValue(float currentValue, float lowerValue, float higherValue)
 		{
 			return default(float);
@@ -29,7 +36,7 @@ public class Scroller : VisualElement
 	public new class UxmlFactory : UxmlFactory<Scroller, UxmlTraits>
 	{
 		[Token(Token = "0x6000737")]
-		[Address(RVA = "0x4CD74D0", Offset = "0x4CD74D0", VA = "0x4CD74D0")]
+		[Address(RVA = "0x4FFEE00", Offset = "0x4FFEE00", VA = "0x4FFEE00")]
 		public UxmlFactory()
 		{
 		}
@@ -55,13 +62,13 @@ public class Scroller : VisualElement
 		private UxmlFloatAttributeDescription m_Value;
 
 		[Token(Token = "0x6000738")]
-		[Address(RVA = "0x4CD7510", Offset = "0x4CD7510", VA = "0x4CD7510", Slot = "4")]
+		[Address(RVA = "0x4FFEE40", Offset = "0x4FFEE40", VA = "0x4FFEE40", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x6000739")]
-		[Address(RVA = "0x4CD7770", Offset = "0x4CD7770", VA = "0x4CD7770")]
+		[Address(RVA = "0x4FFF0A0", Offset = "0x4FFF0A0", VA = "0x4FFF0A0")]
 		public UxmlTraits()
 		{
 		}
@@ -111,7 +118,7 @@ public class Scroller : VisualElement
 	public Slider slider
 	{
 		[Token(Token = "0x6000721")]
-		[Address(RVA = "0x4CD5F90", Offset = "0x4CD5F90", VA = "0x4CD5F90")]
+		[Address(RVA = "0x4FFD8C0", Offset = "0x4FFD8C0", VA = "0x4FFD8C0")]
 		[CompilerGenerated]
 		get
 		{
@@ -123,7 +130,7 @@ public class Scroller : VisualElement
 	public RepeatButton lowButton
 	{
 		[Token(Token = "0x6000722")]
-		[Address(RVA = "0x4CD5FA0", Offset = "0x4CD5FA0", VA = "0x4CD5FA0")]
+		[Address(RVA = "0x4FFD8D0", Offset = "0x4FFD8D0", VA = "0x4FFD8D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -135,7 +142,7 @@ public class Scroller : VisualElement
 	public RepeatButton highButton
 	{
 		[Token(Token = "0x6000723")]
-		[Address(RVA = "0x4CD5FB0", Offset = "0x4CD5FB0", VA = "0x4CD5FB0")]
+		[Address(RVA = "0x4FFD8E0", Offset = "0x4FFD8E0", VA = "0x4FFD8E0")]
 		[CompilerGenerated]
 		get
 		{
@@ -148,13 +155,13 @@ public class Scroller : VisualElement
 	public float value
 	{
 		[Token(Token = "0x6000724")]
-		[Address(RVA = "0x4CD5FC0", Offset = "0x4CD5FC0", VA = "0x4CD5FC0")]
+		[Address(RVA = "0x4FFD8F0", Offset = "0x4FFD8F0", VA = "0x4FFD8F0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000725")]
-		[Address(RVA = "0x4CD5FF0", Offset = "0x4CD5FF0", VA = "0x4CD5FF0")]
+		[Address(RVA = "0x4FFD920", Offset = "0x4FFD920", VA = "0x4FFD920")]
 		set
 		{
 		}
@@ -165,13 +172,13 @@ public class Scroller : VisualElement
 	public float lowValue
 	{
 		[Token(Token = "0x6000726")]
-		[Address(RVA = "0x4CD6170", Offset = "0x4CD6170", VA = "0x4CD6170")]
+		[Address(RVA = "0x4FFDAA0", Offset = "0x4FFDAA0", VA = "0x4FFDAA0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000727")]
-		[Address(RVA = "0x4CD61C0", Offset = "0x4CD61C0", VA = "0x4CD61C0")]
+		[Address(RVA = "0x4FFDAF0", Offset = "0x4FFDAF0", VA = "0x4FFDAF0")]
 		set
 		{
 		}
@@ -182,13 +189,13 @@ public class Scroller : VisualElement
 	public float highValue
 	{
 		[Token(Token = "0x6000728")]
-		[Address(RVA = "0x4CD6340", Offset = "0x4CD6340", VA = "0x4CD6340")]
+		[Address(RVA = "0x4FFDC70", Offset = "0x4FFDC70", VA = "0x4FFDC70")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000729")]
-		[Address(RVA = "0x4CD6390", Offset = "0x4CD6390", VA = "0x4CD6390")]
+		[Address(RVA = "0x4FFDCC0", Offset = "0x4FFDCC0", VA = "0x4FFDCC0")]
 		set
 		{
 		}
@@ -199,13 +206,13 @@ public class Scroller : VisualElement
 	public SliderDirection direction
 	{
 		[Token(Token = "0x600072A")]
-		[Address(RVA = "0x4CD6510", Offset = "0x4CD6510", VA = "0x4CD6510")]
+		[Address(RVA = "0x4FFDE40", Offset = "0x4FFDE40", VA = "0x4FFDE40")]
 		get
 		{
 			return default(SliderDirection);
 		}
 		[Token(Token = "0x600072B")]
-		[Address(RVA = "0x4CD65D0", Offset = "0x4CD65D0", VA = "0x4CD65D0")]
+		[Address(RVA = "0x4FFDF00", Offset = "0x4FFDF00", VA = "0x4FFDF00")]
 		set
 		{
 		}
@@ -215,13 +222,13 @@ public class Scroller : VisualElement
 	public event Action<float> valueChanged
 	{
 		[Token(Token = "0x600071F")]
-		[Address(RVA = "0x4CD5E30", Offset = "0x4CD5E30", VA = "0x4CD5E30")]
+		[Address(RVA = "0x4FFD760", Offset = "0x4FFD760", VA = "0x4FFD760")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000720")]
-		[Address(RVA = "0x4CD5EE0", Offset = "0x4CD5EE0", VA = "0x4CD5EE0")]
+		[Address(RVA = "0x4FFD810", Offset = "0x4FFD810", VA = "0x4FFD810")]
 		[CompilerGenerated]
 		remove
 		{
@@ -229,49 +236,49 @@ public class Scroller : VisualElement
 	}
 
 	[Token(Token = "0x600072C")]
-	[Address(RVA = "0x4CD68C0", Offset = "0x4CD68C0", VA = "0x4CD68C0")]
+	[Address(RVA = "0x4FFE1F0", Offset = "0x4FFE1F0", VA = "0x4FFE1F0")]
 	public Scroller()
 	{
 	}
 
 	[Token(Token = "0x600072D")]
-	[Address(RVA = "0x4CD68D0", Offset = "0x4CD68D0", VA = "0x4CD68D0")]
+	[Address(RVA = "0x4FFE200", Offset = "0x4FFE200", VA = "0x4FFE200")]
 	public Scroller(float lowValue, float highValue, Action<float> valueChanged, SliderDirection direction = SliderDirection.Vertical)
 	{
 	}
 
 	[Token(Token = "0x600072E")]
-	[Address(RVA = "0x4CD6D90", Offset = "0x4CD6D90", VA = "0x4CD6D90")]
+	[Address(RVA = "0x4FFE6C0", Offset = "0x4FFE6C0", VA = "0x4FFE6C0")]
 	public void Adjust(float factor)
 	{
 	}
 
 	[Token(Token = "0x600072F")]
-	[Address(RVA = "0x4CD6E10", Offset = "0x4CD6E10", VA = "0x4CD6E10")]
+	[Address(RVA = "0x4FFE740", Offset = "0x4FFE740", VA = "0x4FFE740")]
 	private void OnSliderValueChange(ChangeEvent<float> evt)
 	{
 	}
 
 	[Token(Token = "0x6000730")]
-	[Address(RVA = "0x4CD6EA0", Offset = "0x4CD6EA0", VA = "0x4CD6EA0")]
+	[Address(RVA = "0x4FFE7D0", Offset = "0x4FFE7D0", VA = "0x4FFE7D0")]
 	public void ScrollPageUp()
 	{
 	}
 
 	[Token(Token = "0x6000731")]
-	[Address(RVA = "0x4CD6FB0", Offset = "0x4CD6FB0", VA = "0x4CD6FB0")]
+	[Address(RVA = "0x4FFE8E0", Offset = "0x4FFE8E0", VA = "0x4FFE8E0")]
 	public void ScrollPageDown()
 	{
 	}
 
 	[Token(Token = "0x6000732")]
-	[Address(RVA = "0x4CD6EB0", Offset = "0x4CD6EB0", VA = "0x4CD6EB0")]
+	[Address(RVA = "0x4FFE7E0", Offset = "0x4FFE7E0", VA = "0x4FFE7E0")]
 	public void ScrollPageUp(float factor)
 	{
 	}
 
 	[Token(Token = "0x6000733")]
-	[Address(RVA = "0x4CD6FC0", Offset = "0x4CD6FC0", VA = "0x4CD6FC0")]
+	[Address(RVA = "0x4FFE8F0", Offset = "0x4FFE8F0", VA = "0x4FFE8F0")]
 	public void ScrollPageDown(float factor)
 	{
 	}

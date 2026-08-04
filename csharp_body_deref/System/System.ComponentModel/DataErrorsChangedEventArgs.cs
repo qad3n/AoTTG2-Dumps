@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.DataErrorsChangedEventArgs
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.ComponentModel;
@@ -13,7 +20,7 @@ public class DataErrorsChangedEventArgs : EventArgs
 	public virtual string PropertyName
 	{
 		[Token(Token = "0x60012CF")]
-		[Address(RVA = "0x45879C0", Offset = "0x45879C0", VA = "0x45879C0", Slot = "4")]
+		[Address(RVA = "0x48ACAC0", Offset = "0x48ACAC0", VA = "0x48ACAC0", Slot = "4")]
 		get
 		{
 			return null;
@@ -21,7 +28,7 @@ public class DataErrorsChangedEventArgs : EventArgs
 	}
 
 	[Token(Token = "0x60012CE")]
-	[Address(RVA = "0x4587950", Offset = "0x4587950", VA = "0x4587950")]
+	[Address(RVA = "0x48ACA50", Offset = "0x48ACA50", VA = "0x48ACA50")]
 	public DataErrorsChangedEventArgs(string propertyName)
 	{
 	}

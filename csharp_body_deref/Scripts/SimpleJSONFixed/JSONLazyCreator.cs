@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: SimpleJSONFixed.JSONLazyCreator
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/SimpleJSONFixed/JSONLazyCreator.c
+// Prior real C# source (older reference): Assets/Scripts/Utility/SimpleJSON.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Text;
 using Il2CppDummyDll;
 
@@ -18,7 +25,7 @@ internal class JSONLazyCreator : JSONNode
 	public override JSONNodeType Tag
 	{
 		[Token(Token = "0x600029F")]
-		[Address(RVA = "0x3C8AC30", Offset = "0x3C8AC30", VA = "0x3C8AC30", Slot = "4")]
+		[Address(RVA = "0x3F80580", Offset = "0x3F80580", VA = "0x3F80580", Slot = "4")]
 		get
 		{
 			return default(JSONNodeType);
@@ -29,13 +36,13 @@ internal class JSONLazyCreator : JSONNode
 	public override JSONNode this[int aIndex]
 	{
 		[Token(Token = "0x60002A4")]
-		[Address(RVA = "0x3C8AC60", Offset = "0x3C8AC60", VA = "0x3C8AC60", Slot = "5")]
+		[Address(RVA = "0x3F805B0", Offset = "0x3F805B0", VA = "0x3F805B0", Slot = "5")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60002A5")]
-		[Address(RVA = "0x3C8AD10", Offset = "0x3C8AD10", VA = "0x3C8AD10", Slot = "6")]
+		[Address(RVA = "0x3F80660", Offset = "0x3F80660", VA = "0x3F80660", Slot = "6")]
 		set
 		{
 		}
@@ -45,13 +52,13 @@ internal class JSONLazyCreator : JSONNode
 	public override JSONNode this[string aKey]
 	{
 		[Token(Token = "0x60002A6")]
-		[Address(RVA = "0x3C8ADA0", Offset = "0x3C8ADA0", VA = "0x3C8ADA0", Slot = "7")]
+		[Address(RVA = "0x3F806F0", Offset = "0x3F806F0", VA = "0x3F806F0", Slot = "7")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60002A7")]
-		[Address(RVA = "0x3C8AE50", Offset = "0x3C8AE50", VA = "0x3C8AE50", Slot = "8")]
+		[Address(RVA = "0x3F807A0", Offset = "0x3F807A0", VA = "0x3F807A0", Slot = "8")]
 		set
 		{
 		}
@@ -61,13 +68,13 @@ internal class JSONLazyCreator : JSONNode
 	public override int AsInt
 	{
 		[Token(Token = "0x60002AE")]
-		[Address(RVA = "0x3C8B060", Offset = "0x3C8B060", VA = "0x3C8B060", Slot = "35")]
+		[Address(RVA = "0x3F809B0", Offset = "0x3F809B0", VA = "0x3F809B0", Slot = "35")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60002AF")]
-		[Address(RVA = "0x3C8B110", Offset = "0x3C8B110", VA = "0x3C8B110", Slot = "36")]
+		[Address(RVA = "0x3F80A60", Offset = "0x3F80A60", VA = "0x3F80A60", Slot = "36")]
 		set
 		{
 		}
@@ -77,13 +84,13 @@ internal class JSONLazyCreator : JSONNode
 	public override float AsFloat
 	{
 		[Token(Token = "0x60002B0")]
-		[Address(RVA = "0x3C8B1D0", Offset = "0x3C8B1D0", VA = "0x3C8B1D0", Slot = "37")]
+		[Address(RVA = "0x3F80B20", Offset = "0x3F80B20", VA = "0x3F80B20", Slot = "37")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60002B1")]
-		[Address(RVA = "0x3C8B280", Offset = "0x3C8B280", VA = "0x3C8B280", Slot = "38")]
+		[Address(RVA = "0x3F80BD0", Offset = "0x3F80BD0", VA = "0x3F80BD0", Slot = "38")]
 		set
 		{
 		}
@@ -93,13 +100,13 @@ internal class JSONLazyCreator : JSONNode
 	public override double AsDouble
 	{
 		[Token(Token = "0x60002B2")]
-		[Address(RVA = "0x3C8B340", Offset = "0x3C8B340", VA = "0x3C8B340", Slot = "33")]
+		[Address(RVA = "0x3F80C90", Offset = "0x3F80C90", VA = "0x3F80C90", Slot = "33")]
 		get
 		{
 			return default(double);
 		}
 		[Token(Token = "0x60002B3")]
-		[Address(RVA = "0x3C8B3F0", Offset = "0x3C8B3F0", VA = "0x3C8B3F0", Slot = "34")]
+		[Address(RVA = "0x3F80D40", Offset = "0x3F80D40", VA = "0x3F80D40", Slot = "34")]
 		set
 		{
 		}
@@ -109,13 +116,13 @@ internal class JSONLazyCreator : JSONNode
 	public override long AsLong
 	{
 		[Token(Token = "0x60002B4")]
-		[Address(RVA = "0x3C8B4A0", Offset = "0x3C8B4A0", VA = "0x3C8B4A0", Slot = "41")]
+		[Address(RVA = "0x3F80DF0", Offset = "0x3F80DF0", VA = "0x3F80DF0", Slot = "41")]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x60002B5")]
-		[Address(RVA = "0x3C8B650", Offset = "0x3C8B650", VA = "0x3C8B650", Slot = "42")]
+		[Address(RVA = "0x3F80FA0", Offset = "0x3F80FA0", VA = "0x3F80FA0", Slot = "42")]
 		set
 		{
 		}
@@ -125,13 +132,13 @@ internal class JSONLazyCreator : JSONNode
 	public override ulong AsULong
 	{
 		[Token(Token = "0x60002B6")]
-		[Address(RVA = "0x3C8B820", Offset = "0x3C8B820", VA = "0x3C8B820", Slot = "43")]
+		[Address(RVA = "0x3F81170", Offset = "0x3F81170", VA = "0x3F81170", Slot = "43")]
 		get
 		{
 			return default(ulong);
 		}
 		[Token(Token = "0x60002B7")]
-		[Address(RVA = "0x3C8B9D0", Offset = "0x3C8B9D0", VA = "0x3C8B9D0", Slot = "44")]
+		[Address(RVA = "0x3F81320", Offset = "0x3F81320", VA = "0x3F81320", Slot = "44")]
 		set
 		{
 		}
@@ -141,13 +148,13 @@ internal class JSONLazyCreator : JSONNode
 	public override bool AsBool
 	{
 		[Token(Token = "0x60002B8")]
-		[Address(RVA = "0x3C8BBD0", Offset = "0x3C8BBD0", VA = "0x3C8BBD0", Slot = "39")]
+		[Address(RVA = "0x3F81520", Offset = "0x3F81520", VA = "0x3F81520", Slot = "39")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002B9")]
-		[Address(RVA = "0x3C8BC80", Offset = "0x3C8BC80", VA = "0x3C8BC80", Slot = "40")]
+		[Address(RVA = "0x3F815D0", Offset = "0x3F815D0", VA = "0x3F815D0", Slot = "40")]
 		set
 		{
 		}
@@ -157,7 +164,7 @@ internal class JSONLazyCreator : JSONNode
 	public override JSONArray AsArray
 	{
 		[Token(Token = "0x60002BA")]
-		[Address(RVA = "0x3C8BD20", Offset = "0x3C8BD20", VA = "0x3C8BD20", Slot = "45")]
+		[Address(RVA = "0x3F81670", Offset = "0x3F81670", VA = "0x3F81670", Slot = "45")]
 		get
 		{
 			return null;
@@ -168,7 +175,7 @@ internal class JSONLazyCreator : JSONNode
 	public override JSONObject AsObject
 	{
 		[Token(Token = "0x60002BB")]
-		[Address(RVA = "0x3C8BD90", Offset = "0x3C8BD90", VA = "0x3C8BD90", Slot = "46")]
+		[Address(RVA = "0x3F816E0", Offset = "0x3F816E0", VA = "0x3F816E0", Slot = "46")]
 		get
 		{
 			return null;
@@ -176,20 +183,20 @@ internal class JSONLazyCreator : JSONNode
 	}
 
 	[Token(Token = "0x60002A0")]
-	[Address(RVA = "0x3C8AC40", Offset = "0x3C8AC40", VA = "0x3C8AC40", Slot = "32")]
+	[Address(RVA = "0x3F80590", Offset = "0x3F80590", VA = "0x3F80590", Slot = "32")]
 	public override Enumerator GetEnumerator()
 	{
 		return default(Enumerator);
 	}
 
 	[Token(Token = "0x60002A1")]
-	[Address(RVA = "0x3C876E0", Offset = "0x3C876E0", VA = "0x3C876E0")]
+	[Address(RVA = "0x3F7D030", Offset = "0x3F7D030", VA = "0x3F7D030")]
 	public JSONLazyCreator(JSONNode aNode)
 	{
 	}
 
 	[Token(Token = "0x60002A2")]
-	[Address(RVA = "0x3C887F0", Offset = "0x3C887F0", VA = "0x3C887F0")]
+	[Address(RVA = "0x3F7E140", Offset = "0x3F7E140", VA = "0x3F7E140")]
 	public JSONLazyCreator(JSONNode aNode, string aKey)
 	{
 	}
@@ -201,47 +208,47 @@ internal class JSONLazyCreator : JSONNode
 	}
 
 	[Token(Token = "0x60002A8")]
-	[Address(RVA = "0x3C8AEF0", Offset = "0x3C8AEF0", VA = "0x3C8AEF0", Slot = "21")]
+	[Address(RVA = "0x3F80840", Offset = "0x3F80840", VA = "0x3F80840", Slot = "21")]
 	public override void Add(JSONNode aItem)
 	{
 	}
 
 	[Token(Token = "0x60002A9")]
-	[Address(RVA = "0x3C8AF80", Offset = "0x3C8AF80", VA = "0x3C8AF80", Slot = "20")]
+	[Address(RVA = "0x3F808D0", Offset = "0x3F808D0", VA = "0x3F808D0", Slot = "20")]
 	public override void Add(string aKey, JSONNode aItem)
 	{
 	}
 
 	[Token(Token = "0x60002AA")]
-	[Address(RVA = "0x3C8B020", Offset = "0x3C8B020", VA = "0x3C8B020")]
+	[Address(RVA = "0x3F80970", Offset = "0x3F80970", VA = "0x3F80970")]
 	public static bool operator ==(JSONLazyCreator a, object b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002AB")]
-	[Address(RVA = "0x3C8B030", Offset = "0x3C8B030", VA = "0x3C8B030")]
+	[Address(RVA = "0x3F80980", Offset = "0x3F80980", VA = "0x3F80980")]
 	public static bool operator !=(JSONLazyCreator a, object b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002AC")]
-	[Address(RVA = "0x3C8B040", Offset = "0x3C8B040", VA = "0x3C8B040", Slot = "0")]
+	[Address(RVA = "0x3F80990", Offset = "0x3F80990", VA = "0x3F80990", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002AD")]
-	[Address(RVA = "0x3C8B050", Offset = "0x3C8B050", VA = "0x3C8B050", Slot = "2")]
+	[Address(RVA = "0x3F809A0", Offset = "0x3F809A0", VA = "0x3F809A0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002BC")]
-	[Address(RVA = "0x3C8BE00", Offset = "0x3C8BE00", VA = "0x3C8BE00", Slot = "31")]
+	[Address(RVA = "0x3F81750", Offset = "0x3F81750", VA = "0x3F81750", Slot = "31")]
 	internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode)
 	{
 	}

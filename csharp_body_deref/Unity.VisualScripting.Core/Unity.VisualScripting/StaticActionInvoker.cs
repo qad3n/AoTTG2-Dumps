@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.StaticActionInvoker
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Linq.Expressions;
 using System.Reflection;
@@ -13,47 +20,47 @@ public sealed class StaticActionInvoker : StaticActionInvokerBase
 	private Action invoke;
 
 	[Token(Token = "0x6000E04")]
-	[Address(RVA = "0x4A224E0", Offset = "0x4A224E0", VA = "0x4A224E0")]
+	[Address(RVA = "0x4D470B0", Offset = "0x4D470B0", VA = "0x4D470B0")]
 	public StaticActionInvoker(MethodInfo methodInfo)
 	{
 	}
 
 	[Token(Token = "0x6000E05")]
-	[Address(RVA = "0x4A224F0", Offset = "0x4A224F0", VA = "0x4A224F0", Slot = "13")]
+	[Address(RVA = "0x4D470C0", Offset = "0x4D470C0", VA = "0x4D470C0", Slot = "13")]
 	public override object Invoke(object target, params object[] args)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E06")]
-	[Address(RVA = "0x4A22550", Offset = "0x4A22550", VA = "0x4A22550", Slot = "14")]
+	[Address(RVA = "0x4D47120", Offset = "0x4D47120", VA = "0x4D47120", Slot = "14")]
 	public override object Invoke(object target)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E07")]
-	[Address(RVA = "0x4A22760", Offset = "0x4A22760", VA = "0x4A22760")]
+	[Address(RVA = "0x4D47330", Offset = "0x4D47330", VA = "0x4D47330")]
 	private object InvokeUnsafe(object target)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E08")]
-	[Address(RVA = "0x4A22780", Offset = "0x4A22780", VA = "0x4A22780", Slot = "12")]
+	[Address(RVA = "0x4D47350", Offset = "0x4D47350", VA = "0x4D47350", Slot = "12")]
 	protected override Type[] GetParameterTypes()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E09")]
-	[Address(RVA = "0x4A227C0", Offset = "0x4A227C0", VA = "0x4A227C0", Slot = "23")]
+	[Address(RVA = "0x4D47390", Offset = "0x4D47390", VA = "0x4D47390", Slot = "23")]
 	protected override void CompileExpression(MethodCallExpression callExpression, ParameterExpression[] parameterExpressions)
 	{
 	}
 
 	[Token(Token = "0x6000E0A")]
-	[Address(RVA = "0x4A22870", Offset = "0x4A22870", VA = "0x4A22870", Slot = "21")]
+	[Address(RVA = "0x4D47440", Offset = "0x4D47440", VA = "0x4D47440", Slot = "21")]
 	protected override void CreateDelegate()
 	{
 	}

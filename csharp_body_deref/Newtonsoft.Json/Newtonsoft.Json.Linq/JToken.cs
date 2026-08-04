@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Linq.JToken
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -28,7 +35,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 		internal readonly int LinePosition;
 
 		[Token(Token = "0x6000D4A")]
-		[Address(RVA = "0x3B31830", Offset = "0x3B31830", VA = "0x3B31830")]
+		[Address(RVA = "0x3E27180", Offset = "0x3E27180", VA = "0x3E27180")]
 		public LineInfoAnnotation(int lineNumber, int linePosition)
 		{
 		}
@@ -62,7 +69,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 		private JToken System_002ECollections_002EGeneric_002EIEnumerator_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002ECurrent
 		{
 			[Token(Token = "0x6000D4E")]
-			[Address(RVA = "0x3B32B30", Offset = "0x3B32B30", VA = "0x3B32B30", Slot = "6")]
+			[Address(RVA = "0x3E28480", Offset = "0x3E28480", VA = "0x3E28480", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -74,7 +81,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000D50")]
-			[Address(RVA = "0x3B32B80", Offset = "0x3B32B80", VA = "0x3B32B80", Slot = "9")]
+			[Address(RVA = "0x3E284D0", Offset = "0x3E284D0", VA = "0x3E284D0", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -83,35 +90,35 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 		}
 
 		[Token(Token = "0x6000D4B")]
-		[Address(RVA = "0x3B28220", Offset = "0x3B28220", VA = "0x3B28220")]
+		[Address(RVA = "0x3E1DB70", Offset = "0x3E1DB70", VA = "0x3E1DB70")]
 		[DebuggerHidden]
 		public _003CAfterSelf_003Ed__49(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000D4C")]
-		[Address(RVA = "0x3B32A60", Offset = "0x3B32A60", VA = "0x3B32A60", Slot = "7")]
+		[Address(RVA = "0x3E283B0", Offset = "0x3E283B0", VA = "0x3E283B0", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000D4D")]
-		[Address(RVA = "0x3B32A70", Offset = "0x3B32A70", VA = "0x3B32A70", Slot = "8")]
+		[Address(RVA = "0x3E283C0", Offset = "0x3E283C0", VA = "0x3E283C0", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000D4F")]
-		[Address(RVA = "0x3B32B40", Offset = "0x3B32B40", VA = "0x3B32B40", Slot = "10")]
+		[Address(RVA = "0x3E28490", Offset = "0x3E28490", VA = "0x3E28490", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x6000D51")]
-		[Address(RVA = "0x3B32B90", Offset = "0x3B32B90", VA = "0x3B32B90", Slot = "4")]
+		[Address(RVA = "0x3E284E0", Offset = "0x3E284E0", VA = "0x3E284E0", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<JToken> System_002ECollections_002EGeneric_002EIEnumerable_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002EGetEnumerator()
 		{
@@ -119,7 +126,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 		}
 
 		[Token(Token = "0x6000D52")]
-		[Address(RVA = "0x3B32C30", Offset = "0x3B32C30", VA = "0x3B32C30", Slot = "5")]
+		[Address(RVA = "0x3E28580", Offset = "0x3E28580", VA = "0x3E28580", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -256,7 +263,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x6000D5E")]
-			[Address(RVA = "0x3B32E70", Offset = "0x3B32E70", VA = "0x3B32E70", Slot = "6")]
+			[Address(RVA = "0x3E287C0", Offset = "0x3E287C0", VA = "0x3E287C0", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -268,7 +275,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000D60")]
-			[Address(RVA = "0x3B32EC0", Offset = "0x3B32EC0", VA = "0x3B32EC0", Slot = "9")]
+			[Address(RVA = "0x3E28810", Offset = "0x3E28810", VA = "0x3E28810", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -277,35 +284,35 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 		}
 
 		[Token(Token = "0x6000D5B")]
-		[Address(RVA = "0x3B324D0", Offset = "0x3B324D0", VA = "0x3B324D0")]
+		[Address(RVA = "0x3E27E20", Offset = "0x3E27E20", VA = "0x3E27E20")]
 		[DebuggerHidden]
 		public _003CAnnotations_003Ed__186(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000D5C")]
-		[Address(RVA = "0x3B32C40", Offset = "0x3B32C40", VA = "0x3B32C40", Slot = "7")]
+		[Address(RVA = "0x3E28590", Offset = "0x3E28590", VA = "0x3E28590", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000D5D")]
-		[Address(RVA = "0x3B32C50", Offset = "0x3B32C50", VA = "0x3B32C50", Slot = "8")]
+		[Address(RVA = "0x3E285A0", Offset = "0x3E285A0", VA = "0x3E285A0", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000D5F")]
-		[Address(RVA = "0x3B32E80", Offset = "0x3B32E80", VA = "0x3B32E80", Slot = "10")]
+		[Address(RVA = "0x3E287D0", Offset = "0x3E287D0", VA = "0x3E287D0", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x6000D61")]
-		[Address(RVA = "0x3B32ED0", Offset = "0x3B32ED0", VA = "0x3B32ED0", Slot = "4")]
+		[Address(RVA = "0x3E28820", Offset = "0x3E28820", VA = "0x3E28820", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<object> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002EObject_003E_002EGetEnumerator()
 		{
@@ -313,7 +320,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 		}
 
 		[Token(Token = "0x6000D62")]
-		[Address(RVA = "0x3B32F80", Offset = "0x3B32F80", VA = "0x3B32F80", Slot = "5")]
+		[Address(RVA = "0x3E288D0", Offset = "0x3E288D0", VA = "0x3E288D0", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -349,7 +356,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 		private JToken System_002ECollections_002EGeneric_002EIEnumerator_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002ECurrent
 		{
 			[Token(Token = "0x6000D66")]
-			[Address(RVA = "0x3B33070", Offset = "0x3B33070", VA = "0x3B33070", Slot = "6")]
+			[Address(RVA = "0x3E289C0", Offset = "0x3E289C0", VA = "0x3E289C0", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -361,7 +368,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000D68")]
-			[Address(RVA = "0x3B330C0", Offset = "0x3B330C0", VA = "0x3B330C0", Slot = "9")]
+			[Address(RVA = "0x3E28A10", Offset = "0x3E28A10", VA = "0x3E28A10", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -370,35 +377,35 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 		}
 
 		[Token(Token = "0x6000D63")]
-		[Address(RVA = "0x3B282D0", Offset = "0x3B282D0", VA = "0x3B282D0")]
+		[Address(RVA = "0x3E1DC20", Offset = "0x3E1DC20", VA = "0x3E1DC20")]
 		[DebuggerHidden]
 		public _003CBeforeSelf_003Ed__50(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000D64")]
-		[Address(RVA = "0x3B32F90", Offset = "0x3B32F90", VA = "0x3B32F90", Slot = "7")]
+		[Address(RVA = "0x3E288E0", Offset = "0x3E288E0", VA = "0x3E288E0", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000D65")]
-		[Address(RVA = "0x3B32FA0", Offset = "0x3B32FA0", VA = "0x3B32FA0", Slot = "8")]
+		[Address(RVA = "0x3E288F0", Offset = "0x3E288F0", VA = "0x3E288F0", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000D67")]
-		[Address(RVA = "0x3B33080", Offset = "0x3B33080", VA = "0x3B33080", Slot = "10")]
+		[Address(RVA = "0x3E289D0", Offset = "0x3E289D0", VA = "0x3E289D0", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x6000D69")]
-		[Address(RVA = "0x3B330D0", Offset = "0x3B330D0", VA = "0x3B330D0", Slot = "4")]
+		[Address(RVA = "0x3E28A20", Offset = "0x3E28A20", VA = "0x3E28A20", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<JToken> System_002ECollections_002EGeneric_002EIEnumerable_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002EGetEnumerator()
 		{
@@ -406,7 +413,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 		}
 
 		[Token(Token = "0x6000D6A")]
-		[Address(RVA = "0x3B33170", Offset = "0x3B33170", VA = "0x3B33170", Slot = "5")]
+		[Address(RVA = "0x3E28AC0", Offset = "0x3E28AC0", VA = "0x3E28AC0", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -450,7 +457,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 		private JToken System_002ECollections_002EGeneric_002EIEnumerator_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002ECurrent
 		{
 			[Token(Token = "0x6000D6E")]
-			[Address(RVA = "0x3B33250", Offset = "0x3B33250", VA = "0x3B33250", Slot = "6")]
+			[Address(RVA = "0x3E28BA0", Offset = "0x3E28BA0", VA = "0x3E28BA0", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -462,7 +469,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000D70")]
-			[Address(RVA = "0x3B332A0", Offset = "0x3B332A0", VA = "0x3B332A0", Slot = "9")]
+			[Address(RVA = "0x3E28BF0", Offset = "0x3E28BF0", VA = "0x3E28BF0", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -471,35 +478,35 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 		}
 
 		[Token(Token = "0x6000D6B")]
-		[Address(RVA = "0x3B28170", Offset = "0x3B28170", VA = "0x3B28170")]
+		[Address(RVA = "0x3E1DAC0", Offset = "0x3E1DAC0", VA = "0x3E1DAC0")]
 		[DebuggerHidden]
 		public _003CGetAncestors_003Ed__48(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000D6C")]
-		[Address(RVA = "0x3B33180", Offset = "0x3B33180", VA = "0x3B33180", Slot = "7")]
+		[Address(RVA = "0x3E28AD0", Offset = "0x3E28AD0", VA = "0x3E28AD0", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000D6D")]
-		[Address(RVA = "0x3B33190", Offset = "0x3B33190", VA = "0x3B33190", Slot = "8")]
+		[Address(RVA = "0x3E28AE0", Offset = "0x3E28AE0", VA = "0x3E28AE0", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000D6F")]
-		[Address(RVA = "0x3B33260", Offset = "0x3B33260", VA = "0x3B33260", Slot = "10")]
+		[Address(RVA = "0x3E28BB0", Offset = "0x3E28BB0", VA = "0x3E28BB0", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x6000D71")]
-		[Address(RVA = "0x3B332B0", Offset = "0x3B332B0", VA = "0x3B332B0", Slot = "4")]
+		[Address(RVA = "0x3E28C00", Offset = "0x3E28C00", VA = "0x3E28C00", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<JToken> System_002ECollections_002EGeneric_002EIEnumerable_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002EGetEnumerator()
 		{
@@ -507,7 +514,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 		}
 
 		[Token(Token = "0x6000D72")]
-		[Address(RVA = "0x3B33360", Offset = "0x3B33360", VA = "0x3B33360", Slot = "5")]
+		[Address(RVA = "0x3E28CB0", Offset = "0x3E28CB0", VA = "0x3E28CB0", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -561,13 +568,13 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 		private ConfiguredTaskAwaitable<JProperty>.ConfiguredTaskAwaiter _003C_003Eu__5;
 
 		[Token(Token = "0x6000D73")]
-		[Address(RVA = "0x3B33370", Offset = "0x3B33370", VA = "0x3B33370", Slot = "4")]
+		[Address(RVA = "0x3E28CC0", Offset = "0x3E28CC0", VA = "0x3E28CC0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000D74")]
-		[Address(RVA = "0x3B34380", Offset = "0x3B34380", VA = "0x3B34380", Slot = "5")]
+		[Address(RVA = "0x3E29CD0", Offset = "0x3E29CD0", VA = "0x3E29CD0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -638,7 +645,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	public static JTokenEqualityComparer EqualityComparer
 	{
 		[Token(Token = "0x6000CAF")]
-		[Address(RVA = "0x3B1B6C0", Offset = "0x3B1B6C0", VA = "0x3B1B6C0")]
+		[Address(RVA = "0x3E11010", Offset = "0x3E11010", VA = "0x3E11010")]
 		get
 		{
 			return null;
@@ -649,14 +656,14 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	public JContainer? Parent
 	{
 		[Token(Token = "0x6000CB0")]
-		[Address(RVA = "0x3B279C0", Offset = "0x3B279C0", VA = "0x3B279C0")]
+		[Address(RVA = "0x3E1D310", Offset = "0x3E1D310", VA = "0x3E1D310")]
 		[DebuggerStepThrough]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000CB1")]
-		[Address(RVA = "0x3B279D0", Offset = "0x3B279D0", VA = "0x3B279D0")]
+		[Address(RVA = "0x3E1D320", Offset = "0x3E1D320", VA = "0x3E1D320")]
 		internal set
 		{
 		}
@@ -666,7 +673,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	public JToken Root
 	{
 		[Token(Token = "0x6000CB2")]
-		[Address(RVA = "0x3B17EC0", Offset = "0x3B17EC0", VA = "0x3B17EC0")]
+		[Address(RVA = "0x3E0D810", Offset = "0x3E0D810", VA = "0x3E0D810")]
 		get
 		{
 			return null;
@@ -691,13 +698,13 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	public JToken? Next
 	{
 		[Token(Token = "0x6000CB8")]
-		[Address(RVA = "0x3B27A10", Offset = "0x3B27A10", VA = "0x3B27A10")]
+		[Address(RVA = "0x3E1D360", Offset = "0x3E1D360", VA = "0x3E1D360")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000CB9")]
-		[Address(RVA = "0x3B27A20", Offset = "0x3B27A20", VA = "0x3B27A20")]
+		[Address(RVA = "0x3E1D370", Offset = "0x3E1D370", VA = "0x3E1D370")]
 		internal set
 		{
 		}
@@ -707,13 +714,13 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	public JToken? Previous
 	{
 		[Token(Token = "0x6000CBA")]
-		[Address(RVA = "0x3B27A30", Offset = "0x3B27A30", VA = "0x3B27A30")]
+		[Address(RVA = "0x3E1D380", Offset = "0x3E1D380", VA = "0x3E1D380")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000CBB")]
-		[Address(RVA = "0x3B27A40", Offset = "0x3B27A40", VA = "0x3B27A40")]
+		[Address(RVA = "0x3E1D390", Offset = "0x3E1D390", VA = "0x3E1D390")]
 		internal set
 		{
 		}
@@ -723,7 +730,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	public string Path
 	{
 		[Token(Token = "0x6000CBC")]
-		[Address(RVA = "0x3B27A50", Offset = "0x3B27A50", VA = "0x3B27A50")]
+		[Address(RVA = "0x3E1D3A0", Offset = "0x3E1D3A0", VA = "0x3E1D3A0")]
 		get
 		{
 			return null;
@@ -734,13 +741,13 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	public virtual JToken? this[object key]
 	{
 		[Token(Token = "0x6000CC5")]
-		[Address(RVA = "0x3B28300", Offset = "0x3B28300", VA = "0x3B28300", Slot = "17")]
+		[Address(RVA = "0x3E1DC50", Offset = "0x3E1DC50", VA = "0x3E1DC50", Slot = "17")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000CC6")]
-		[Address(RVA = "0x3B28390", Offset = "0x3B28390", VA = "0x3B28390", Slot = "18")]
+		[Address(RVA = "0x3E1DCE0", Offset = "0x3E1DCE0", VA = "0x3E1DCE0", Slot = "18")]
 		set
 		{
 		}
@@ -750,7 +757,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	public virtual JToken? First
 	{
 		[Token(Token = "0x6000CC8")]
-		[Address(RVA = "0x3B28420", Offset = "0x3B28420", VA = "0x3B28420", Slot = "20")]
+		[Address(RVA = "0x3E1DD70", Offset = "0x3E1DD70", VA = "0x3E1DD70", Slot = "20")]
 		get
 		{
 			return null;
@@ -761,7 +768,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	public virtual JToken? Last
 	{
 		[Token(Token = "0x6000CC9")]
-		[Address(RVA = "0x3B284B0", Offset = "0x3B284B0", VA = "0x3B284B0", Slot = "21")]
+		[Address(RVA = "0x3E1DE00", Offset = "0x3E1DE00", VA = "0x3E1DE00", Slot = "21")]
 		get
 		{
 			return null;
@@ -772,7 +779,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	private IJEnumerable<JToken> Newtonsoft_002EJson_002ELinq_002EIJEnumerable_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002EItem
 	{
 		[Token(Token = "0x6000D22")]
-		[Address(RVA = "0x3B30020", Offset = "0x3B30020", VA = "0x3B30020", Slot = "4")]
+		[Address(RVA = "0x3E25970", Offset = "0x3E25970", VA = "0x3E25970", Slot = "4")]
 		get
 		{
 			return null;
@@ -783,7 +790,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	private int Newtonsoft_002EJson_002EIJsonLineInfo_002ELineNumber
 	{
 		[Token(Token = "0x6000D34")]
-		[Address(RVA = "0x3B31B10", Offset = "0x3B31B10", VA = "0x3B31B10", Slot = "8")]
+		[Address(RVA = "0x3E27460", Offset = "0x3E27460", VA = "0x3E27460", Slot = "8")]
 		get
 		{
 			return default(int);
@@ -794,7 +801,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	private int Newtonsoft_002EJson_002EIJsonLineInfo_002ELinePosition
 	{
 		[Token(Token = "0x6000D35")]
-		[Address(RVA = "0x3B31B50", Offset = "0x3B31B50", VA = "0x3B31B50", Slot = "9")]
+		[Address(RVA = "0x3E274A0", Offset = "0x3E274A0", VA = "0x3E274A0", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -802,28 +809,28 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000CA9")]
-	[Address(RVA = "0x3B276A0", Offset = "0x3B276A0", VA = "0x3B276A0", Slot = "12")]
+	[Address(RVA = "0x3E1CFF0", Offset = "0x3E1CFF0", VA = "0x3E1CFF0", Slot = "12")]
 	public virtual Task WriteToAsync(JsonWriter writer, CancellationToken cancellationToken, params JsonConverter[] converters)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CAA")]
-	[Address(RVA = "0x3B276E0", Offset = "0x3B276E0", VA = "0x3B276E0")]
+	[Address(RVA = "0x3E1D030", Offset = "0x3E1D030", VA = "0x3E1D030")]
 	public Task WriteToAsync(JsonWriter writer, params JsonConverter[] converters)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CAB")]
-	[Address(RVA = "0x3B27700", Offset = "0x3B27700", VA = "0x3B27700")]
+	[Address(RVA = "0x3E1D050", Offset = "0x3E1D050", VA = "0x3E1D050")]
 	public static Task<JToken> ReadFromAsync(JsonReader reader, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CAC")]
-	[Address(RVA = "0x3B27750", Offset = "0x3B27750", VA = "0x3B27750")]
+	[Address(RVA = "0x3E1D0A0", Offset = "0x3E1D0A0", VA = "0x3E1D0A0")]
 	[AsyncStateMachine(typeof(_003CReadFromAsync_003Ed__3))]
 	public static Task<JToken> ReadFromAsync(JsonReader reader, JsonLoadSettings? settings, [Optional] CancellationToken cancellationToken)
 	{
@@ -831,14 +838,14 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000CAD")]
-	[Address(RVA = "0x3B278B0", Offset = "0x3B278B0", VA = "0x3B278B0")]
+	[Address(RVA = "0x3E1D200", Offset = "0x3E1D200", VA = "0x3E1D200")]
 	public static Task<JToken> LoadAsync(JsonReader reader, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CAE")]
-	[Address(RVA = "0x3B27960", Offset = "0x3B27960", VA = "0x3B27960")]
+	[Address(RVA = "0x3E1D2B0", Offset = "0x3E1D2B0", VA = "0x3E1D2B0")]
 	public static Task<JToken> LoadAsync(JsonReader reader, JsonLoadSettings? settings, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
@@ -851,46 +858,46 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	internal abstract bool DeepEquals(JToken node);
 
 	[Token(Token = "0x6000CB7")]
-	[Address(RVA = "0x3B279E0", Offset = "0x3B279E0", VA = "0x3B279E0")]
+	[Address(RVA = "0x3E1D330", Offset = "0x3E1D330", VA = "0x3E1D330")]
 	public static bool DeepEquals(JToken? t1, JToken? t2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000CBD")]
-	[Address(RVA = "0x3B17020", Offset = "0x3B17020", VA = "0x3B17020")]
+	[Address(RVA = "0x3E0C970", Offset = "0x3E0C970", VA = "0x3E0C970")]
 	internal JToken()
 	{
 	}
 
 	[Token(Token = "0x6000CBE")]
-	[Address(RVA = "0x3B27EB0", Offset = "0x3B27EB0", VA = "0x3B27EB0")]
+	[Address(RVA = "0x3E1D800", Offset = "0x3E1D800", VA = "0x3E1D800")]
 	public void AddAfterSelf(object? content)
 	{
 	}
 
 	[Token(Token = "0x6000CBF")]
-	[Address(RVA = "0x3B27F50", Offset = "0x3B27F50", VA = "0x3B27F50")]
+	[Address(RVA = "0x3E1D8A0", Offset = "0x3E1D8A0", VA = "0x3E1D8A0")]
 	public void AddBeforeSelf(object? content)
 	{
 	}
 
 	[Token(Token = "0x6000CC0")]
-	[Address(RVA = "0x3B27FF0", Offset = "0x3B27FF0", VA = "0x3B27FF0")]
+	[Address(RVA = "0x3E1D940", Offset = "0x3E1D940", VA = "0x3E1D940")]
 	public IEnumerable<JToken> Ancestors()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CC1")]
-	[Address(RVA = "0x3B280F0", Offset = "0x3B280F0", VA = "0x3B280F0")]
+	[Address(RVA = "0x3E1DA40", Offset = "0x3E1DA40", VA = "0x3E1DA40")]
 	public IEnumerable<JToken> AncestorsAndSelf()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CC2")]
-	[Address(RVA = "0x3B28070", Offset = "0x3B28070", VA = "0x3B28070")]
+	[Address(RVA = "0x3E1D9C0", Offset = "0x3E1D9C0", VA = "0x3E1D9C0")]
 	[IteratorStateMachine(typeof(_003CGetAncestors_003Ed__48))]
 	internal IEnumerable<JToken> GetAncestors(bool self)
 	{
@@ -898,7 +905,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000CC3")]
-	[Address(RVA = "0x3B281A0", Offset = "0x3B281A0", VA = "0x3B281A0")]
+	[Address(RVA = "0x3E1DAF0", Offset = "0x3E1DAF0", VA = "0x3E1DAF0")]
 	[IteratorStateMachine(typeof(_003CAfterSelf_003Ed__49))]
 	public IEnumerable<JToken> AfterSelf()
 	{
@@ -906,7 +913,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000CC4")]
-	[Address(RVA = "0x3B28250", Offset = "0x3B28250", VA = "0x3B28250")]
+	[Address(RVA = "0x3E1DBA0", Offset = "0x3E1DBA0", VA = "0x3E1DBA0")]
 	[IteratorStateMachine(typeof(_003CBeforeSelf_003Ed__50))]
 	public IEnumerable<JToken> BeforeSelf()
 	{
@@ -920,7 +927,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000CCA")]
-	[Address(RVA = "0x3B28540", Offset = "0x3B28540", VA = "0x3B28540", Slot = "22")]
+	[Address(RVA = "0x3E1DE90", Offset = "0x3E1DE90", VA = "0x3E1DE90", Slot = "22")]
 	public virtual JEnumerable<JToken> Children()
 	{
 		return default(JEnumerable<JToken>);
@@ -939,13 +946,13 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000CCD")]
-	[Address(RVA = "0x3B20910", Offset = "0x3B20910", VA = "0x3B20910")]
+	[Address(RVA = "0x3E16260", Offset = "0x3E16260", VA = "0x3E16260")]
 	public void Remove()
 	{
 	}
 
 	[Token(Token = "0x6000CCE")]
-	[Address(RVA = "0x3B1AC60", Offset = "0x3B1AC60", VA = "0x3B1AC60")]
+	[Address(RVA = "0x3E105B0", Offset = "0x3E105B0", VA = "0x3E105B0")]
 	public void Replace(JToken value)
 	{
 	}
@@ -954,119 +961,119 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	public abstract void WriteTo(JsonWriter writer, params JsonConverter[] converters);
 
 	[Token(Token = "0x6000CD0")]
-	[Address(RVA = "0x3B285B0", Offset = "0x3B285B0", VA = "0x3B285B0", Slot = "3")]
+	[Address(RVA = "0x3E1DF00", Offset = "0x3E1DF00", VA = "0x3E1DF00", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CD1")]
-	[Address(RVA = "0x3B28680", Offset = "0x3B28680", VA = "0x3B28680")]
+	[Address(RVA = "0x3E1DFD0", Offset = "0x3E1DFD0", VA = "0x3E1DFD0")]
 	public string ToString(Formatting formatting, params JsonConverter[] converters)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CD2")]
-	[Address(RVA = "0x3B28900", Offset = "0x3B28900", VA = "0x3B28900")]
+	[Address(RVA = "0x3E1E250", Offset = "0x3E1E250", VA = "0x3E1E250")]
 	private static JValue EnsureValue(JToken value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CD3")]
-	[Address(RVA = "0x3B28A00", Offset = "0x3B28A00", VA = "0x3B28A00")]
+	[Address(RVA = "0x3E1E350", Offset = "0x3E1E350", VA = "0x3E1E350")]
 	private static string GetType(JToken token)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CD4")]
-	[Address(RVA = "0x3B28AE0", Offset = "0x3B28AE0", VA = "0x3B28AE0")]
+	[Address(RVA = "0x3E1E430", Offset = "0x3E1E430", VA = "0x3E1E430")]
 	private static bool ValidateToken(JToken o, JTokenType[] validTypes, bool nullable)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000CD5")]
-	[Address(RVA = "0x3B28B90", Offset = "0x3B28B90", VA = "0x3B28B90")]
+	[Address(RVA = "0x3E1E4E0", Offset = "0x3E1E4E0", VA = "0x3E1E4E0")]
 	public static explicit operator bool(JToken value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000CD6")]
-	[Address(RVA = "0x3B28E20", Offset = "0x3B28E20", VA = "0x3B28E20")]
+	[Address(RVA = "0x3E1E770", Offset = "0x3E1E770", VA = "0x3E1E770")]
 	public static explicit operator DateTimeOffset(JToken value)
 	{
 		return default(DateTimeOffset);
 	}
 
 	[Token(Token = "0x6000CD7")]
-	[Address(RVA = "0x3B290F0", Offset = "0x3B290F0", VA = "0x3B290F0")]
+	[Address(RVA = "0x3E1EA40", Offset = "0x3E1EA40", VA = "0x3E1EA40")]
 	public static explicit operator bool?(JToken? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CD8")]
-	[Address(RVA = "0x3B293C0", Offset = "0x3B293C0", VA = "0x3B293C0")]
+	[Address(RVA = "0x3E1ED10", Offset = "0x3E1ED10", VA = "0x3E1ED10")]
 	public static explicit operator long(JToken value)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000CD9")]
-	[Address(RVA = "0x3B29620", Offset = "0x3B29620", VA = "0x3B29620")]
+	[Address(RVA = "0x3E1EF70", Offset = "0x3E1EF70", VA = "0x3E1EF70")]
 	public static explicit operator DateTime?(JToken? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CDA")]
-	[Address(RVA = "0x3B298E0", Offset = "0x3B298E0", VA = "0x3B298E0")]
+	[Address(RVA = "0x3E1F230", Offset = "0x3E1F230", VA = "0x3E1F230")]
 	public static explicit operator DateTimeOffset?(JToken? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CDB")]
-	[Address(RVA = "0x3B29C30", Offset = "0x3B29C30", VA = "0x3B29C30")]
+	[Address(RVA = "0x3E1F580", Offset = "0x3E1F580", VA = "0x3E1F580")]
 	public static explicit operator decimal?(JToken? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CDC")]
-	[Address(RVA = "0x3B29EF0", Offset = "0x3B29EF0", VA = "0x3B29EF0")]
+	[Address(RVA = "0x3E1F840", Offset = "0x3E1F840", VA = "0x3E1F840")]
 	public static explicit operator double?(JToken? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CDD")]
-	[Address(RVA = "0x3B2A1A0", Offset = "0x3B2A1A0", VA = "0x3B2A1A0")]
+	[Address(RVA = "0x3E1FAF0", Offset = "0x3E1FAF0", VA = "0x3E1FAF0")]
 	public static explicit operator char?(JToken? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CDE")]
-	[Address(RVA = "0x3B2A450", Offset = "0x3B2A450", VA = "0x3B2A450")]
+	[Address(RVA = "0x3E1FDA0", Offset = "0x3E1FDA0", VA = "0x3E1FDA0")]
 	public static explicit operator int(JToken value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000CDF")]
-	[Address(RVA = "0x3B2A6B0", Offset = "0x3B2A6B0", VA = "0x3B2A6B0")]
+	[Address(RVA = "0x3E20000", Offset = "0x3E20000", VA = "0x3E20000")]
 	public static explicit operator short(JToken value)
 	{
 		return default(short);
 	}
 
 	[Token(Token = "0x6000CE0")]
-	[Address(RVA = "0x3B2A910", Offset = "0x3B2A910", VA = "0x3B2A910")]
+	[Address(RVA = "0x3E20260", Offset = "0x3E20260", VA = "0x3E20260")]
 	[CLSCompliant(false)]
 	public static explicit operator ushort(JToken value)
 	{
@@ -1074,7 +1081,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000CE1")]
-	[Address(RVA = "0x3B2AB70", Offset = "0x3B2AB70", VA = "0x3B2AB70")]
+	[Address(RVA = "0x3E204C0", Offset = "0x3E204C0", VA = "0x3E204C0")]
 	[CLSCompliant(false)]
 	public static explicit operator char(JToken value)
 	{
@@ -1082,14 +1089,14 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000CE2")]
-	[Address(RVA = "0x3B2ADD0", Offset = "0x3B2ADD0", VA = "0x3B2ADD0")]
+	[Address(RVA = "0x3E20720", Offset = "0x3E20720", VA = "0x3E20720")]
 	public static explicit operator byte(JToken value)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x6000CE3")]
-	[Address(RVA = "0x3B2B030", Offset = "0x3B2B030", VA = "0x3B2B030")]
+	[Address(RVA = "0x3E20980", Offset = "0x3E20980", VA = "0x3E20980")]
 	[CLSCompliant(false)]
 	public static explicit operator sbyte(JToken value)
 	{
@@ -1097,21 +1104,21 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000CE4")]
-	[Address(RVA = "0x3B2B290", Offset = "0x3B2B290", VA = "0x3B2B290")]
+	[Address(RVA = "0x3E20BE0", Offset = "0x3E20BE0", VA = "0x3E20BE0")]
 	public static explicit operator int?(JToken? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CE5")]
-	[Address(RVA = "0x3B2B540", Offset = "0x3B2B540", VA = "0x3B2B540")]
+	[Address(RVA = "0x3E20E90", Offset = "0x3E20E90", VA = "0x3E20E90")]
 	public static explicit operator short?(JToken? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CE6")]
-	[Address(RVA = "0x3B2B7F0", Offset = "0x3B2B7F0", VA = "0x3B2B7F0")]
+	[Address(RVA = "0x3E21140", Offset = "0x3E21140", VA = "0x3E21140")]
 	[CLSCompliant(false)]
 	public static explicit operator ushort?(JToken? value)
 	{
@@ -1119,14 +1126,14 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000CE7")]
-	[Address(RVA = "0x3B2BAA0", Offset = "0x3B2BAA0", VA = "0x3B2BAA0")]
+	[Address(RVA = "0x3E213F0", Offset = "0x3E213F0", VA = "0x3E213F0")]
 	public static explicit operator byte?(JToken? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CE8")]
-	[Address(RVA = "0x3B2BD50", Offset = "0x3B2BD50", VA = "0x3B2BD50")]
+	[Address(RVA = "0x3E216A0", Offset = "0x3E216A0", VA = "0x3E216A0")]
 	[CLSCompliant(false)]
 	public static explicit operator sbyte?(JToken? value)
 	{
@@ -1134,35 +1141,35 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000CE9")]
-	[Address(RVA = "0x3B2C000", Offset = "0x3B2C000", VA = "0x3B2C000")]
+	[Address(RVA = "0x3E21950", Offset = "0x3E21950", VA = "0x3E21950")]
 	public static explicit operator DateTime(JToken value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6000CEA")]
-	[Address(RVA = "0x3B2C240", Offset = "0x3B2C240", VA = "0x3B2C240")]
+	[Address(RVA = "0x3E21B90", Offset = "0x3E21B90", VA = "0x3E21B90")]
 	public static explicit operator long?(JToken? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CEB")]
-	[Address(RVA = "0x3B2C4F0", Offset = "0x3B2C4F0", VA = "0x3B2C4F0")]
+	[Address(RVA = "0x3E21E40", Offset = "0x3E21E40", VA = "0x3E21E40")]
 	public static explicit operator float?(JToken? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CEC")]
-	[Address(RVA = "0x3B2C7A0", Offset = "0x3B2C7A0", VA = "0x3B2C7A0")]
+	[Address(RVA = "0x3E220F0", Offset = "0x3E220F0", VA = "0x3E220F0")]
 	public static explicit operator decimal(JToken value)
 	{
 		return default(decimal);
 	}
 
 	[Token(Token = "0x6000CED")]
-	[Address(RVA = "0x3B2CA00", Offset = "0x3B2CA00", VA = "0x3B2CA00")]
+	[Address(RVA = "0x3E22350", Offset = "0x3E22350", VA = "0x3E22350")]
 	[CLSCompliant(false)]
 	public static explicit operator uint?(JToken? value)
 	{
@@ -1170,7 +1177,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000CEE")]
-	[Address(RVA = "0x3B2CCB0", Offset = "0x3B2CCB0", VA = "0x3B2CCB0")]
+	[Address(RVA = "0x3E22600", Offset = "0x3E22600", VA = "0x3E22600")]
 	[CLSCompliant(false)]
 	public static explicit operator ulong?(JToken? value)
 	{
@@ -1178,28 +1185,28 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000CEF")]
-	[Address(RVA = "0x3B2CF60", Offset = "0x3B2CF60", VA = "0x3B2CF60")]
+	[Address(RVA = "0x3E228B0", Offset = "0x3E228B0", VA = "0x3E228B0")]
 	public static explicit operator double(JToken value)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6000CF0")]
-	[Address(RVA = "0x3B2D1C0", Offset = "0x3B2D1C0", VA = "0x3B2D1C0")]
+	[Address(RVA = "0x3E22B10", Offset = "0x3E22B10", VA = "0x3E22B10")]
 	public static explicit operator float(JToken value)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000CF1")]
-	[Address(RVA = "0x3B2D420", Offset = "0x3B2D420", VA = "0x3B2D420")]
+	[Address(RVA = "0x3E22D70", Offset = "0x3E22D70", VA = "0x3E22D70")]
 	public static explicit operator string?(JToken? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CF2")]
-	[Address(RVA = "0x3B2D710", Offset = "0x3B2D710", VA = "0x3B2D710")]
+	[Address(RVA = "0x3E23060", Offset = "0x3E23060", VA = "0x3E23060")]
 	[CLSCompliant(false)]
 	public static explicit operator uint(JToken value)
 	{
@@ -1207,7 +1214,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000CF3")]
-	[Address(RVA = "0x3B2D970", Offset = "0x3B2D970", VA = "0x3B2D970")]
+	[Address(RVA = "0x3E232C0", Offset = "0x3E232C0", VA = "0x3E232C0")]
 	[CLSCompliant(false)]
 	public static explicit operator ulong(JToken value)
 	{
@@ -1215,91 +1222,91 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000CF4")]
-	[Address(RVA = "0x3B2DBD0", Offset = "0x3B2DBD0", VA = "0x3B2DBD0")]
+	[Address(RVA = "0x3E23520", Offset = "0x3E23520", VA = "0x3E23520")]
 	public static explicit operator byte[]?(JToken? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CF5")]
-	[Address(RVA = "0x3B2DE60", Offset = "0x3B2DE60", VA = "0x3B2DE60")]
+	[Address(RVA = "0x3E237B0", Offset = "0x3E237B0", VA = "0x3E237B0")]
 	public static explicit operator Guid(JToken value)
 	{
 		return default(Guid);
 	}
 
 	[Token(Token = "0x6000CF6")]
-	[Address(RVA = "0x3B2E110", Offset = "0x3B2E110", VA = "0x3B2E110")]
+	[Address(RVA = "0x3E23A60", Offset = "0x3E23A60", VA = "0x3E23A60")]
 	public static explicit operator Guid?(JToken? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CF7")]
-	[Address(RVA = "0x3B2E430", Offset = "0x3B2E430", VA = "0x3B2E430")]
+	[Address(RVA = "0x3E23D80", Offset = "0x3E23D80", VA = "0x3E23D80")]
 	public static explicit operator TimeSpan(JToken value)
 	{
 		return default(TimeSpan);
 	}
 
 	[Token(Token = "0x6000CF8")]
-	[Address(RVA = "0x3B2E6B0", Offset = "0x3B2E6B0", VA = "0x3B2E6B0")]
+	[Address(RVA = "0x3E24000", Offset = "0x3E24000", VA = "0x3E24000")]
 	public static explicit operator TimeSpan?(JToken? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CF9")]
-	[Address(RVA = "0x3B2E970", Offset = "0x3B2E970", VA = "0x3B2E970")]
+	[Address(RVA = "0x3E242C0", Offset = "0x3E242C0", VA = "0x3E242C0")]
 	public static explicit operator Uri?(JToken? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CFA")]
-	[Address(RVA = "0x3B2EBF0", Offset = "0x3B2EBF0", VA = "0x3B2EBF0")]
+	[Address(RVA = "0x3E24540", Offset = "0x3E24540", VA = "0x3E24540")]
 	private static BigInteger ToBigInteger(JToken value)
 	{
 		return default(BigInteger);
 	}
 
 	[Token(Token = "0x6000CFB")]
-	[Address(RVA = "0x3B2EDD0", Offset = "0x3B2EDD0", VA = "0x3B2EDD0")]
+	[Address(RVA = "0x3E24720", Offset = "0x3E24720", VA = "0x3E24720")]
 	private static BigInteger? ToBigIntegerNullable(JToken value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CFC")]
-	[Address(RVA = "0x3B2F040", Offset = "0x3B2F040", VA = "0x3B2F040")]
+	[Address(RVA = "0x3E24990", Offset = "0x3E24990", VA = "0x3E24990")]
 	public static implicit operator JToken(bool value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CFD")]
-	[Address(RVA = "0x3B2F090", Offset = "0x3B2F090", VA = "0x3B2F090")]
+	[Address(RVA = "0x3E249E0", Offset = "0x3E249E0", VA = "0x3E249E0")]
 	public static implicit operator JToken(DateTimeOffset value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CFE")]
-	[Address(RVA = "0x3B2F0E0", Offset = "0x3B2F0E0", VA = "0x3B2F0E0")]
+	[Address(RVA = "0x3E24A30", Offset = "0x3E24A30", VA = "0x3E24A30")]
 	public static implicit operator JToken(byte value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CFF")]
-	[Address(RVA = "0x3B2F130", Offset = "0x3B2F130", VA = "0x3B2F130")]
+	[Address(RVA = "0x3E24A80", Offset = "0x3E24A80", VA = "0x3E24A80")]
 	public static implicit operator JToken(byte? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D00")]
-	[Address(RVA = "0x3B2F1B0", Offset = "0x3B2F1B0", VA = "0x3B2F1B0")]
+	[Address(RVA = "0x3E24B00", Offset = "0x3E24B00", VA = "0x3E24B00")]
 	[CLSCompliant(false)]
 	public static implicit operator JToken(sbyte value)
 	{
@@ -1307,7 +1314,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000D01")]
-	[Address(RVA = "0x3B2F200", Offset = "0x3B2F200", VA = "0x3B2F200")]
+	[Address(RVA = "0x3E24B50", Offset = "0x3E24B50", VA = "0x3E24B50")]
 	[CLSCompliant(false)]
 	public static implicit operator JToken(sbyte? value)
 	{
@@ -1315,49 +1322,49 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000D02")]
-	[Address(RVA = "0x3B2F280", Offset = "0x3B2F280", VA = "0x3B2F280")]
+	[Address(RVA = "0x3E24BD0", Offset = "0x3E24BD0", VA = "0x3E24BD0")]
 	public static implicit operator JToken(bool? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D03")]
-	[Address(RVA = "0x3B2F300", Offset = "0x3B2F300", VA = "0x3B2F300")]
+	[Address(RVA = "0x3E24C50", Offset = "0x3E24C50", VA = "0x3E24C50")]
 	public static implicit operator JToken(long value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D04")]
-	[Address(RVA = "0x3B2F350", Offset = "0x3B2F350", VA = "0x3B2F350")]
+	[Address(RVA = "0x3E24CA0", Offset = "0x3E24CA0", VA = "0x3E24CA0")]
 	public static implicit operator JToken(DateTime? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D05")]
-	[Address(RVA = "0x3B2F3E0", Offset = "0x3B2F3E0", VA = "0x3B2F3E0")]
+	[Address(RVA = "0x3E24D30", Offset = "0x3E24D30", VA = "0x3E24D30")]
 	public static implicit operator JToken(DateTimeOffset? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D06")]
-	[Address(RVA = "0x3B2F470", Offset = "0x3B2F470", VA = "0x3B2F470")]
+	[Address(RVA = "0x3E24DC0", Offset = "0x3E24DC0", VA = "0x3E24DC0")]
 	public static implicit operator JToken(decimal? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D07")]
-	[Address(RVA = "0x3B2F500", Offset = "0x3B2F500", VA = "0x3B2F500")]
+	[Address(RVA = "0x3E24E50", Offset = "0x3E24E50", VA = "0x3E24E50")]
 	public static implicit operator JToken(double? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D08")]
-	[Address(RVA = "0x3B2F5A0", Offset = "0x3B2F5A0", VA = "0x3B2F5A0")]
+	[Address(RVA = "0x3E24EF0", Offset = "0x3E24EF0", VA = "0x3E24EF0")]
 	[CLSCompliant(false)]
 	public static implicit operator JToken(short value)
 	{
@@ -1365,7 +1372,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000D09")]
-	[Address(RVA = "0x3B2F5F0", Offset = "0x3B2F5F0", VA = "0x3B2F5F0")]
+	[Address(RVA = "0x3E24F40", Offset = "0x3E24F40", VA = "0x3E24F40")]
 	[CLSCompliant(false)]
 	public static implicit operator JToken(ushort value)
 	{
@@ -1373,49 +1380,49 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000D0A")]
-	[Address(RVA = "0x3B2F640", Offset = "0x3B2F640", VA = "0x3B2F640")]
+	[Address(RVA = "0x3E24F90", Offset = "0x3E24F90", VA = "0x3E24F90")]
 	public static implicit operator JToken(int value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D0B")]
-	[Address(RVA = "0x3B2F690", Offset = "0x3B2F690", VA = "0x3B2F690")]
+	[Address(RVA = "0x3E24FE0", Offset = "0x3E24FE0", VA = "0x3E24FE0")]
 	public static implicit operator JToken(int? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D0C")]
-	[Address(RVA = "0x3B2F710", Offset = "0x3B2F710", VA = "0x3B2F710")]
+	[Address(RVA = "0x3E25060", Offset = "0x3E25060", VA = "0x3E25060")]
 	public static implicit operator JToken(DateTime value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D0D")]
-	[Address(RVA = "0x3B2F760", Offset = "0x3B2F760", VA = "0x3B2F760")]
+	[Address(RVA = "0x3E250B0", Offset = "0x3E250B0", VA = "0x3E250B0")]
 	public static implicit operator JToken(long? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D0E")]
-	[Address(RVA = "0x3B2F7F0", Offset = "0x3B2F7F0", VA = "0x3B2F7F0")]
+	[Address(RVA = "0x3E25140", Offset = "0x3E25140", VA = "0x3E25140")]
 	public static implicit operator JToken(float? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D0F")]
-	[Address(RVA = "0x3B2F870", Offset = "0x3B2F870", VA = "0x3B2F870")]
+	[Address(RVA = "0x3E251C0", Offset = "0x3E251C0", VA = "0x3E251C0")]
 	public static implicit operator JToken(decimal value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D10")]
-	[Address(RVA = "0x3B2F8D0", Offset = "0x3B2F8D0", VA = "0x3B2F8D0")]
+	[Address(RVA = "0x3E25220", Offset = "0x3E25220", VA = "0x3E25220")]
 	[CLSCompliant(false)]
 	public static implicit operator JToken(short? value)
 	{
@@ -1423,7 +1430,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000D11")]
-	[Address(RVA = "0x3B2F950", Offset = "0x3B2F950", VA = "0x3B2F950")]
+	[Address(RVA = "0x3E252A0", Offset = "0x3E252A0", VA = "0x3E252A0")]
 	[CLSCompliant(false)]
 	public static implicit operator JToken(ushort? value)
 	{
@@ -1431,7 +1438,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000D12")]
-	[Address(RVA = "0x3B2F9D0", Offset = "0x3B2F9D0", VA = "0x3B2F9D0")]
+	[Address(RVA = "0x3E25320", Offset = "0x3E25320", VA = "0x3E25320")]
 	[CLSCompliant(false)]
 	public static implicit operator JToken(uint? value)
 	{
@@ -1439,7 +1446,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000D13")]
-	[Address(RVA = "0x3B2FA50", Offset = "0x3B2FA50", VA = "0x3B2FA50")]
+	[Address(RVA = "0x3E253A0", Offset = "0x3E253A0", VA = "0x3E253A0")]
 	[CLSCompliant(false)]
 	public static implicit operator JToken(ulong? value)
 	{
@@ -1447,28 +1454,28 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000D14")]
-	[Address(RVA = "0x3B2FAE0", Offset = "0x3B2FAE0", VA = "0x3B2FAE0")]
+	[Address(RVA = "0x3E25430", Offset = "0x3E25430", VA = "0x3E25430")]
 	public static implicit operator JToken(double value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D15")]
-	[Address(RVA = "0x3B2FB40", Offset = "0x3B2FB40", VA = "0x3B2FB40")]
+	[Address(RVA = "0x3E25490", Offset = "0x3E25490", VA = "0x3E25490")]
 	public static implicit operator JToken(float value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D16")]
-	[Address(RVA = "0x3B2FBA0", Offset = "0x3B2FBA0", VA = "0x3B2FBA0")]
+	[Address(RVA = "0x3E254F0", Offset = "0x3E254F0", VA = "0x3E254F0")]
 	public static implicit operator JToken(string? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D17")]
-	[Address(RVA = "0x3B2FBF0", Offset = "0x3B2FBF0", VA = "0x3B2FBF0")]
+	[Address(RVA = "0x3E25540", Offset = "0x3E25540", VA = "0x3E25540")]
 	[CLSCompliant(false)]
 	public static implicit operator JToken(uint value)
 	{
@@ -1476,7 +1483,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000D18")]
-	[Address(RVA = "0x3B2FC40", Offset = "0x3B2FC40", VA = "0x3B2FC40")]
+	[Address(RVA = "0x3E25590", Offset = "0x3E25590", VA = "0x3E25590")]
 	[CLSCompliant(false)]
 	public static implicit operator JToken(ulong value)
 	{
@@ -1484,56 +1491,56 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000D19")]
-	[Address(RVA = "0x3B2FC90", Offset = "0x3B2FC90", VA = "0x3B2FC90")]
+	[Address(RVA = "0x3E255E0", Offset = "0x3E255E0", VA = "0x3E255E0")]
 	public static implicit operator JToken(byte[] value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D1A")]
-	[Address(RVA = "0x3B2FCE0", Offset = "0x3B2FCE0", VA = "0x3B2FCE0")]
+	[Address(RVA = "0x3E25630", Offset = "0x3E25630", VA = "0x3E25630")]
 	public static implicit operator JToken(Uri? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D1B")]
-	[Address(RVA = "0x3B2FD30", Offset = "0x3B2FD30", VA = "0x3B2FD30")]
+	[Address(RVA = "0x3E25680", Offset = "0x3E25680", VA = "0x3E25680")]
 	public static implicit operator JToken(TimeSpan value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D1C")]
-	[Address(RVA = "0x3B2FD80", Offset = "0x3B2FD80", VA = "0x3B2FD80")]
+	[Address(RVA = "0x3E256D0", Offset = "0x3E256D0", VA = "0x3E256D0")]
 	public static implicit operator JToken(TimeSpan? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D1D")]
-	[Address(RVA = "0x3B2FE10", Offset = "0x3B2FE10", VA = "0x3B2FE10")]
+	[Address(RVA = "0x3E25760", Offset = "0x3E25760", VA = "0x3E25760")]
 	public static implicit operator JToken(Guid value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D1E")]
-	[Address(RVA = "0x3B2FE70", Offset = "0x3B2FE70", VA = "0x3B2FE70")]
+	[Address(RVA = "0x3E257C0", Offset = "0x3E257C0", VA = "0x3E257C0")]
 	public static implicit operator JToken(Guid? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D1F")]
-	[Address(RVA = "0x3B2FF00", Offset = "0x3B2FF00", VA = "0x3B2FF00", Slot = "6")]
+	[Address(RVA = "0x3E25850", Offset = "0x3E25850", VA = "0x3E25850", Slot = "6")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D20")]
-	[Address(RVA = "0x3B2FF90", Offset = "0x3B2FF90", VA = "0x3B2FF90", Slot = "5")]
+	[Address(RVA = "0x3E258E0", Offset = "0x3E258E0", VA = "0x3E258E0", Slot = "5")]
 	private IEnumerator<JToken> System_002ECollections_002EGeneric_002EIEnumerable_003CNewtonsoft_002EJson_002ELinq_002EJToken_003E_002EGetEnumerator()
 	{
 		return null;
@@ -1543,28 +1550,28 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	internal abstract int GetDeepHashCode();
 
 	[Token(Token = "0x6000D23")]
-	[Address(RVA = "0x3B30040", Offset = "0x3B30040", VA = "0x3B30040")]
+	[Address(RVA = "0x3E25990", Offset = "0x3E25990", VA = "0x3E25990")]
 	public JsonReader CreateReader()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D24")]
-	[Address(RVA = "0x3B20110", Offset = "0x3B20110", VA = "0x3B20110")]
+	[Address(RVA = "0x3E15A60", Offset = "0x3E15A60", VA = "0x3E15A60")]
 	internal static JToken FromObjectInternal(object o, JsonSerializer jsonSerializer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D25")]
-	[Address(RVA = "0x3B30090", Offset = "0x3B30090", VA = "0x3B30090")]
+	[Address(RVA = "0x3E259E0", Offset = "0x3E259E0", VA = "0x3E259E0")]
 	public static JToken FromObject(object o)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D26")]
-	[Address(RVA = "0x3B300F0", Offset = "0x3B300F0", VA = "0x3B300F0")]
+	[Address(RVA = "0x3E25A40", Offset = "0x3E25A40", VA = "0x3E25A40")]
 	public static JToken FromObject(object o, JsonSerializer jsonSerializer)
 	{
 		return null;
@@ -1577,7 +1584,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000D28")]
-	[Address(RVA = "0x3B30140", Offset = "0x3B30140", VA = "0x3B30140")]
+	[Address(RVA = "0x3E25A90", Offset = "0x3E25A90", VA = "0x3E25A90")]
 	public object ToObject(Type objectType)
 	{
 		return null;
@@ -1590,152 +1597,152 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000D2A")]
-	[Address(RVA = "0x3B30DE0", Offset = "0x3B30DE0", VA = "0x3B30DE0")]
+	[Address(RVA = "0x3E26730", Offset = "0x3E26730", VA = "0x3E26730")]
 	public object? ToObject(Type? objectType, JsonSerializer jsonSerializer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D2B")]
-	[Address(RVA = "0x3B310A0", Offset = "0x3B310A0", VA = "0x3B310A0")]
+	[Address(RVA = "0x3E269F0", Offset = "0x3E269F0", VA = "0x3E269F0")]
 	public static JToken ReadFrom(JsonReader reader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D2C")]
-	[Address(RVA = "0x3B31100", Offset = "0x3B31100", VA = "0x3B31100")]
+	[Address(RVA = "0x3E26A50", Offset = "0x3E26A50", VA = "0x3E26A50")]
 	public static JToken ReadFrom(JsonReader reader, JsonLoadSettings? settings)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D2D")]
-	[Address(RVA = "0x3B31400", Offset = "0x3B31400", VA = "0x3B31400")]
+	[Address(RVA = "0x3E26D50", Offset = "0x3E26D50", VA = "0x3E26D50")]
 	public static JToken Parse(string json)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D2E")]
-	[Address(RVA = "0x3B31460", Offset = "0x3B31460", VA = "0x3B31460")]
+	[Address(RVA = "0x3E26DB0", Offset = "0x3E26DB0", VA = "0x3E26DB0")]
 	public static JToken Parse(string json, JsonLoadSettings? settings)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D2F")]
-	[Address(RVA = "0x3B316D0", Offset = "0x3B316D0", VA = "0x3B316D0")]
+	[Address(RVA = "0x3E27020", Offset = "0x3E27020", VA = "0x3E27020")]
 	public static JToken Load(JsonReader reader, JsonLoadSettings? settings)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D30")]
-	[Address(RVA = "0x3B31720", Offset = "0x3B31720", VA = "0x3B31720")]
+	[Address(RVA = "0x3E27070", Offset = "0x3E27070", VA = "0x3E27070")]
 	public static JToken Load(JsonReader reader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D31")]
-	[Address(RVA = "0x3B15820", Offset = "0x3B15820", VA = "0x3B15820")]
+	[Address(RVA = "0x3E0B170", Offset = "0x3E0B170", VA = "0x3E0B170")]
 	internal void SetLineInfo(IJsonLineInfo? lineInfo, JsonLoadSettings? settings)
 	{
 	}
 
 	[Token(Token = "0x6000D32")]
-	[Address(RVA = "0x3B317D0", Offset = "0x3B317D0", VA = "0x3B317D0")]
+	[Address(RVA = "0x3E27120", Offset = "0x3E27120", VA = "0x3E27120")]
 	internal void SetLineInfo(int lineNumber, int linePosition)
 	{
 	}
 
 	[Token(Token = "0x6000D33")]
-	[Address(RVA = "0x3B31AD0", Offset = "0x3B31AD0", VA = "0x3B31AD0", Slot = "7")]
+	[Address(RVA = "0x3E27420", Offset = "0x3E27420", VA = "0x3E27420", Slot = "7")]
 	private bool Newtonsoft_002EJson_002EIJsonLineInfo_002EHasLineInfo()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000D36")]
-	[Address(RVA = "0x3B31B90", Offset = "0x3B31B90", VA = "0x3B31B90")]
+	[Address(RVA = "0x3E274E0", Offset = "0x3E274E0", VA = "0x3E274E0")]
 	public JToken SelectToken(string path)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D37")]
-	[Address(RVA = "0x3B31F70", Offset = "0x3B31F70", VA = "0x3B31F70")]
+	[Address(RVA = "0x3E278C0", Offset = "0x3E278C0", VA = "0x3E278C0")]
 	public JToken SelectToken(string path, bool errorWhenNoMatch)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D38")]
-	[Address(RVA = "0x3B31BA0", Offset = "0x3B31BA0", VA = "0x3B31BA0")]
+	[Address(RVA = "0x3E274F0", Offset = "0x3E274F0", VA = "0x3E274F0")]
 	public JToken? SelectToken(string path, JsonSelectSettings? settings)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D39")]
-	[Address(RVA = "0x3B31FE0", Offset = "0x3B31FE0", VA = "0x3B31FE0")]
+	[Address(RVA = "0x3E27930", Offset = "0x3E27930", VA = "0x3E27930")]
 	public IEnumerable<JToken> SelectTokens(string path)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D3A")]
-	[Address(RVA = "0x3B320D0", Offset = "0x3B320D0", VA = "0x3B320D0")]
+	[Address(RVA = "0x3E27A20", Offset = "0x3E27A20", VA = "0x3E27A20")]
 	public IEnumerable<JToken> SelectTokens(string path, bool errorWhenNoMatch)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D3B")]
-	[Address(RVA = "0x3B32050", Offset = "0x3B32050", VA = "0x3B32050")]
+	[Address(RVA = "0x3E279A0", Offset = "0x3E279A0", VA = "0x3E279A0")]
 	public IEnumerable<JToken> SelectTokens(string path, JsonSelectSettings? settings)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D3C")]
-	[Address(RVA = "0x3B321A0", Offset = "0x3B321A0", VA = "0x3B321A0", Slot = "26")]
+	[Address(RVA = "0x3E27AF0", Offset = "0x3E27AF0", VA = "0x3E27AF0", Slot = "26")]
 	protected virtual DynamicMetaObject GetMetaObject(Expression parameter)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D3D")]
-	[Address(RVA = "0x3B32250", Offset = "0x3B32250", VA = "0x3B32250", Slot = "11")]
+	[Address(RVA = "0x3E27BA0", Offset = "0x3E27BA0", VA = "0x3E27BA0", Slot = "11")]
 	private DynamicMetaObject System_002EDynamic_002EIDynamicMetaObjectProvider_002EGetMetaObject(Expression parameter)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D3E")]
-	[Address(RVA = "0x3B32270", Offset = "0x3B32270", VA = "0x3B32270", Slot = "10")]
+	[Address(RVA = "0x3E27BC0", Offset = "0x3E27BC0", VA = "0x3E27BC0", Slot = "10")]
 	private object System_002EICloneable_002EClone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D3F")]
-	[Address(RVA = "0x3B32290", Offset = "0x3B32290", VA = "0x3B32290")]
+	[Address(RVA = "0x3E27BE0", Offset = "0x3E27BE0", VA = "0x3E27BE0")]
 	public JToken DeepClone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D40")]
-	[Address(RVA = "0x3B322B0", Offset = "0x3B322B0", VA = "0x3B322B0")]
+	[Address(RVA = "0x3E27C00", Offset = "0x3E27C00", VA = "0x3E27C00")]
 	public JToken DeepClone(JsonCloneSettings settings)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D41")]
-	[Address(RVA = "0x3B31850", Offset = "0x3B31850", VA = "0x3B31850")]
+	[Address(RVA = "0x3E271A0", Offset = "0x3E271A0", VA = "0x3E271A0")]
 	public void AddAnnotation(object annotation)
 	{
 	}
@@ -1747,7 +1754,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000D43")]
-	[Address(RVA = "0x3B322D0", Offset = "0x3B322D0", VA = "0x3B322D0")]
+	[Address(RVA = "0x3E27C20", Offset = "0x3E27C20", VA = "0x3E27C20")]
 	public object Annotation(Type type)
 	{
 		return null;
@@ -1761,7 +1768,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000D45")]
-	[Address(RVA = "0x3B32430", Offset = "0x3B32430", VA = "0x3B32430")]
+	[Address(RVA = "0x3E27D80", Offset = "0x3E27D80", VA = "0x3E27D80")]
 	[IteratorStateMachine(typeof(_003CAnnotations_003Ed__186))]
 	public IEnumerable<object> Annotations(Type type)
 	{
@@ -1774,13 +1781,13 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	}
 
 	[Token(Token = "0x6000D47")]
-	[Address(RVA = "0x3B32500", Offset = "0x3B32500", VA = "0x3B32500")]
+	[Address(RVA = "0x3E27E50", Offset = "0x3E27E50", VA = "0x3E27E50")]
 	public void RemoveAnnotations(Type type)
 	{
 	}
 
 	[Token(Token = "0x6000D48")]
-	[Address(RVA = "0x3B17030", Offset = "0x3B17030", VA = "0x3B17030")]
+	[Address(RVA = "0x3E0C980", Offset = "0x3E0C980", VA = "0x3E0C980")]
 	internal void CopyAnnotations(JToken target, JToken source)
 	{
 	}

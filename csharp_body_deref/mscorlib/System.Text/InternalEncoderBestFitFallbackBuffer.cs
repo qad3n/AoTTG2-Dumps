@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.InternalEncoderBestFitFallbackBuffer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Text;
@@ -29,7 +36,7 @@ internal sealed class InternalEncoderBestFitFallbackBuffer : EncoderFallbackBuff
 	private static object InternalSyncObject
 	{
 		[Token(Token = "0x6001587")]
-		[Address(RVA = "0x4E187E0", Offset = "0x4E187E0", VA = "0x4E187E0")]
+		[Address(RVA = "0x3AFE300", Offset = "0x3AFE300", VA = "0x3AFE300")]
 		get
 		{
 			return null;
@@ -40,7 +47,7 @@ internal sealed class InternalEncoderBestFitFallbackBuffer : EncoderFallbackBuff
 	public override int Remaining
 	{
 		[Token(Token = "0x600158D")]
-		[Address(RVA = "0x4E18B70", Offset = "0x4E18B70", VA = "0x4E18B70", Slot = "8")]
+		[Address(RVA = "0x3AFE690", Offset = "0x3AFE690", VA = "0x3AFE690", Slot = "8")]
 		get
 		{
 			return default(int);
@@ -48,47 +55,47 @@ internal sealed class InternalEncoderBestFitFallbackBuffer : EncoderFallbackBuff
 	}
 
 	[Token(Token = "0x6001588")]
-	[Address(RVA = "0x4E184F0", Offset = "0x4E184F0", VA = "0x4E184F0")]
+	[Address(RVA = "0x3AFE010", Offset = "0x3AFE010", VA = "0x3AFE010")]
 	public InternalEncoderBestFitFallbackBuffer(System.Text.InternalEncoderBestFitFallback fallback)
 	{
 	}
 
 	[Token(Token = "0x6001589")]
-	[Address(RVA = "0x4E18890", Offset = "0x4E18890", VA = "0x4E18890", Slot = "4")]
+	[Address(RVA = "0x3AFE3B0", Offset = "0x3AFE3B0", VA = "0x3AFE3B0", Slot = "4")]
 	public override bool Fallback(char charUnknown, int index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600158A")]
-	[Address(RVA = "0x4E18990", Offset = "0x4E18990", VA = "0x4E18990", Slot = "5")]
+	[Address(RVA = "0x3AFE4B0", Offset = "0x3AFE4B0", VA = "0x3AFE4B0", Slot = "5")]
 	public override bool Fallback(char charUnknownHigh, char charUnknownLow, int index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600158B")]
-	[Address(RVA = "0x4E18B20", Offset = "0x4E18B20", VA = "0x4E18B20", Slot = "6")]
+	[Address(RVA = "0x3AFE640", Offset = "0x3AFE640", VA = "0x3AFE640", Slot = "6")]
 	public override char GetNextChar()
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x600158C")]
-	[Address(RVA = "0x4E18B50", Offset = "0x4E18B50", VA = "0x4E18B50", Slot = "7")]
+	[Address(RVA = "0x3AFE670", Offset = "0x3AFE670", VA = "0x3AFE670", Slot = "7")]
 	public override bool MovePrevious()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600158E")]
-	[Address(RVA = "0x4E18B80", Offset = "0x4E18B80", VA = "0x4E18B80", Slot = "9")]
+	[Address(RVA = "0x3AFE6A0", Offset = "0x3AFE6A0", VA = "0x3AFE6A0", Slot = "9")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x600158F")]
-	[Address(RVA = "0x4E188C0", Offset = "0x4E188C0", VA = "0x4E188C0")]
+	[Address(RVA = "0x3AFE3E0", Offset = "0x3AFE3E0", VA = "0x3AFE3E0")]
 	private char TryBestFit(char cUnknown)
 	{
 		return default(char);

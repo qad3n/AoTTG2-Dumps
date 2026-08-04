@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Animations.AnimationClipPlayable
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -18,14 +25,14 @@ public struct AnimationClipPlayable : IEquatable<AnimationClipPlayable>
 	private PlayableHandle m_Handle;
 
 	[Token(Token = "0x60000A2")]
-	[Address(RVA = "0x4A7E9E0", Offset = "0x4A7E9E0", VA = "0x4A7E9E0", Slot = "5")]
+	[Address(RVA = "0x4DA6200", Offset = "0x4DA6200", VA = "0x4DA6200", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
 	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x4A7E9F0", Offset = "0x4A7E9F0", VA = "0x4A7E9F0", Slot = "4")]
+	[Address(RVA = "0x4DA6210", Offset = "0x4DA6210", VA = "0x4DA6210", Slot = "4")]
 	public bool Equals(AnimationClipPlayable other)
 	{
 		return default(bool);

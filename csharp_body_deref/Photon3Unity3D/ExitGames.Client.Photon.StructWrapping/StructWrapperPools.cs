@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: ExitGames.Client.Photon.StructWrapping.StructWrapperPools
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -30,14 +37,14 @@ public class StructWrapperPools
 	}
 
 	[Token(Token = "0x60003C0")]
-	[Address(RVA = "0x3BA6DC0", Offset = "0x3BA6DC0", VA = "0x3BA6DC0")]
+	[Address(RVA = "0x3E9C710", Offset = "0x3E9C710", VA = "0x3E9C710")]
 	public StructWrapper<byte> Acquire(byte value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003C1")]
-	[Address(RVA = "0x3BA6E50", Offset = "0x3BA6E50", VA = "0x3BA6E50")]
+	[Address(RVA = "0x3E9C7A0", Offset = "0x3E9C7A0", VA = "0x3E9C7A0")]
 	public StructWrapper<bool> Acquire(bool value)
 	{
 		return null;
@@ -50,13 +57,13 @@ public class StructWrapperPools
 	}
 
 	[Token(Token = "0x60003C3")]
-	[Address(RVA = "0x3BA6EE0", Offset = "0x3BA6EE0", VA = "0x3BA6EE0")]
+	[Address(RVA = "0x3E9C830", Offset = "0x3E9C830", VA = "0x3E9C830")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x60003C4")]
-	[Address(RVA = "0x3BA7110", Offset = "0x3BA7110", VA = "0x3BA7110")]
+	[Address(RVA = "0x3E9CA60", Offset = "0x3E9CA60", VA = "0x3E9CA60")]
 	public StructWrapperPools()
 	{
 	}

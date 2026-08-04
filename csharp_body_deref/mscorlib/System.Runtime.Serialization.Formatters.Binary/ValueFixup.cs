@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.Formatters.Binary.ValueFixup
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Reflection;
 using Il2CppDummyDll;
 
@@ -39,19 +46,19 @@ internal sealed class ValueFixup
 	internal string memberName;
 
 	[Token(Token = "0x600219D")]
-	[Address(RVA = "0x4ED63A0", Offset = "0x4ED63A0", VA = "0x4ED63A0")]
+	[Address(RVA = "0x3BBBEC0", Offset = "0x3BBBEC0", VA = "0x3BBBEC0")]
 	internal ValueFixup(Array arrayObj, int[] indexMap)
 	{
 	}
 
 	[Token(Token = "0x600219E")]
-	[Address(RVA = "0x4ED63F0", Offset = "0x4ED63F0", VA = "0x4ED63F0")]
+	[Address(RVA = "0x3BBBF10", Offset = "0x3BBBF10", VA = "0x3BBBF10")]
 	internal ValueFixup(object memberObject, string memberName, System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo objectInfo)
 	{
 	}
 
 	[Token(Token = "0x600219F")]
-	[Address(RVA = "0x4ED6450", Offset = "0x4ED6450", VA = "0x4ED6450")]
+	[Address(RVA = "0x3BBBF70", Offset = "0x3BBBF70", VA = "0x3BBBF70")]
 	internal void Fixup(System.Runtime.Serialization.Formatters.Binary.ParseRecord record, System.Runtime.Serialization.Formatters.Binary.ParseRecord parent)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.LocalDataStoreSlot
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -23,7 +30,7 @@ public sealed class LocalDataStoreSlot
 	internal System.LocalDataStoreMgr Manager
 	{
 		[Token(Token = "0x6000D65")]
-		[Address(RVA = "0x5000630", Offset = "0x5000630", VA = "0x5000630")]
+		[Address(RVA = "0x3CE6150", Offset = "0x3CE6150", VA = "0x3CE6150")]
 		get
 		{
 			return null;
@@ -34,7 +41,7 @@ public sealed class LocalDataStoreSlot
 	internal int Slot
 	{
 		[Token(Token = "0x6000D66")]
-		[Address(RVA = "0x5000640", Offset = "0x5000640", VA = "0x5000640")]
+		[Address(RVA = "0x3CE6160", Offset = "0x3CE6160", VA = "0x3CE6160")]
 		get
 		{
 			return default(int);
@@ -45,7 +52,7 @@ public sealed class LocalDataStoreSlot
 	internal long Cookie
 	{
 		[Token(Token = "0x6000D67")]
-		[Address(RVA = "0x5000650", Offset = "0x5000650", VA = "0x5000650")]
+		[Address(RVA = "0x3CE6170", Offset = "0x3CE6170", VA = "0x3CE6170")]
 		get
 		{
 			return default(long);
@@ -53,13 +60,13 @@ public sealed class LocalDataStoreSlot
 	}
 
 	[Token(Token = "0x6000D64")]
-	[Address(RVA = "0x50005F0", Offset = "0x50005F0", VA = "0x50005F0")]
+	[Address(RVA = "0x3CE6110", Offset = "0x3CE6110", VA = "0x3CE6110")]
 	internal LocalDataStoreSlot(System.LocalDataStoreMgr mgr, int slot, long cookie)
 	{
 	}
 
 	[Token(Token = "0x6000D68")]
-	[Address(RVA = "0x5000660", Offset = "0x5000660", VA = "0x5000660", Slot = "1")]
+	[Address(RVA = "0x3CE6180", Offset = "0x3CE6180", VA = "0x3CE6180", Slot = "1")]
 	~LocalDataStoreSlot()
 	{
 	}

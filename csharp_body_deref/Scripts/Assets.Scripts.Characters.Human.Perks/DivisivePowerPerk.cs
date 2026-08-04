@@ -1,180 +1,187 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Assets/Scripts/Characters/Human/Perks/DivisivePowerPerk.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Characters;
 using Il2CppDummyDll;
 
 namespace Assets.Scripts.Characters.Human.Perks;
 
-[Token(Token = "0x20006C9")]
+[Token(Token = "0x2000717")]
 internal class DivisivePowerPerk : BasePerk
 {
-	[Token(Token = "0x40020D3")]
+	[Token(Token = "0x4002230")]
 	[FieldOffset(Offset = "0x20")]
 	protected float _currentPower;
 
-	[Token(Token = "0x40020D4")]
+	[Token(Token = "0x4002231")]
 	[FieldOffset(Offset = "0x24")]
 	protected float _lastUpdateTime;
 
-	[Token(Token = "0x40020D5")]
+	[Token(Token = "0x4002232")]
 	[FieldOffset(Offset = "0x28")]
 	protected float _lastUseTime;
 
-	[Token(Token = "0x17000D1E")]
+	[Token(Token = "0x17000D98")]
 	public bool PerkEnabled
 	{
-		[Token(Token = "0x6004386")]
-		[Address(RVA = "0x404D800", Offset = "0x404D800", VA = "0x404D800")]
+		[Token(Token = "0x60045EE")]
+		[Address(RVA = "0x4380810", Offset = "0x4380810", VA = "0x4380810")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000D1F")]
+	[Token(Token = "0x17000D99")]
 	protected virtual float MaxPower
 	{
-		[Token(Token = "0x6004387")]
-		[Address(RVA = "0x404D820", Offset = "0x404D820", VA = "0x404D820", Slot = "9")]
+		[Token(Token = "0x60045EF")]
+		[Address(RVA = "0x4380830", Offset = "0x4380830", VA = "0x4380830", Slot = "9")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000D20")]
+	[Token(Token = "0x17000D9A")]
 	protected virtual float MinPower
 	{
-		[Token(Token = "0x6004388")]
-		[Address(RVA = "0x404D830", Offset = "0x404D830", VA = "0x404D830", Slot = "10")]
+		[Token(Token = "0x60045F0")]
+		[Address(RVA = "0x4380840", Offset = "0x4380840", VA = "0x4380840", Slot = "10")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000D21")]
+	[Token(Token = "0x17000D9B")]
 	protected virtual float PowerUsageDivisor
 	{
-		[Token(Token = "0x6004389")]
-		[Address(RVA = "0x404D840", Offset = "0x404D840", VA = "0x404D840", Slot = "11")]
+		[Token(Token = "0x60045F1")]
+		[Address(RVA = "0x4380850", Offset = "0x4380850", VA = "0x4380850", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000D22")]
+	[Token(Token = "0x17000D9C")]
 	protected virtual float LinearRecoveryRate
 	{
-		[Token(Token = "0x600438A")]
-		[Address(RVA = "0x404D850", Offset = "0x404D850", VA = "0x404D850", Slot = "12")]
+		[Token(Token = "0x60045F2")]
+		[Address(RVA = "0x4380860", Offset = "0x4380860", VA = "0x4380860", Slot = "12")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000D23")]
+	[Token(Token = "0x17000D9D")]
 	protected virtual float Cooldown
 	{
-		[Token(Token = "0x600438B")]
-		[Address(RVA = "0x404D860", Offset = "0x404D860", VA = "0x404D860", Slot = "13")]
+		[Token(Token = "0x60045F3")]
+		[Address(RVA = "0x4380870", Offset = "0x4380870", VA = "0x4380870", Slot = "13")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x600438C")]
-	[Address(RVA = "0x404D870", Offset = "0x404D870", VA = "0x404D870")]
+	[Token(Token = "0x60045F4")]
+	[Address(RVA = "0x4380880", Offset = "0x4380880", VA = "0x4380880")]
 	public DivisivePowerPerk()
 	{
 	}
 
-	[Token(Token = "0x600438D")]
-	[Address(RVA = "0x404D8B0", Offset = "0x404D8B0", VA = "0x404D8B0", Slot = "14")]
+	[Token(Token = "0x60045F5")]
+	[Address(RVA = "0x43808C0", Offset = "0x43808C0", VA = "0x43808C0", Slot = "14")]
 	public virtual void Reset()
 	{
 	}
 
-	[Token(Token = "0x600438E")]
-	[Address(RVA = "0x404D8E0", Offset = "0x404D8E0", VA = "0x404D8E0")]
+	[Token(Token = "0x60045F6")]
+	[Address(RVA = "0x43808F0", Offset = "0x43808F0", VA = "0x43808F0")]
 	public float GetCurrentPower()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x600438F")]
-	[Address(RVA = "0x404DA80", Offset = "0x404DA80", VA = "0x404DA80")]
+	[Token(Token = "0x60045F7")]
+	[Address(RVA = "0x4380A90", Offset = "0x4380A90", VA = "0x4380A90")]
 	public void SetCurrentPower(float power)
 	{
 	}
 
-	[Token(Token = "0x6004390")]
-	[Address(RVA = "0x404DAF0", Offset = "0x404DAF0", VA = "0x404DAF0")]
+	[Token(Token = "0x60045F8")]
+	[Address(RVA = "0x4380B00", Offset = "0x4380B00", VA = "0x4380B00")]
 	public void RecoverPower(float amount)
 	{
 	}
 
-	[Token(Token = "0x6004391")]
-	[Address(RVA = "0x404DB60", Offset = "0x404DB60", VA = "0x404DB60")]
+	[Token(Token = "0x60045F9")]
+	[Address(RVA = "0x4380B70", Offset = "0x4380B70", VA = "0x4380B70")]
 	public void RecoverPowerBySeconds(float seconds)
 	{
 	}
 
-	[Token(Token = "0x6004392")]
-	[Address(RVA = "0x404DBF0", Offset = "0x404DBF0", VA = "0x404DBF0")]
+	[Token(Token = "0x60045FA")]
+	[Address(RVA = "0x4380C00", Offset = "0x4380C00", VA = "0x4380C00")]
 	public float GetPowerRatio()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6004393")]
-	[Address(RVA = "0x404D9B0", Offset = "0x404D9B0", VA = "0x404D9B0")]
+	[Token(Token = "0x60045FB")]
+	[Address(RVA = "0x43809C0", Offset = "0x43809C0", VA = "0x43809C0")]
 	protected void UpdatePower()
 	{
 	}
 
-	[Token(Token = "0x6004394")]
-	[Address(RVA = "0x404DD70", Offset = "0x404DD70", VA = "0x404DD70", Slot = "15")]
+	[Token(Token = "0x60045FC")]
+	[Address(RVA = "0x4380D80", Offset = "0x4380D80", VA = "0x4380D80", Slot = "15")]
 	protected virtual float GetRecoveryAmount(float deltaTime)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6004395")]
-	[Address(RVA = "0x404DD90", Offset = "0x404DD90", VA = "0x404DD90", Slot = "16")]
+	[Token(Token = "0x60045FD")]
+	[Address(RVA = "0x4380DA0", Offset = "0x4380DA0", VA = "0x4380DA0", Slot = "16")]
 	public virtual bool CanUse()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004396")]
-	[Address(RVA = "0x404DEF0", Offset = "0x404DEF0", VA = "0x404DEF0", Slot = "17")]
+	[Token(Token = "0x60045FE")]
+	[Address(RVA = "0x4380F00", Offset = "0x4380F00", VA = "0x4380F00", Slot = "17")]
 	public virtual void OnUse()
 	{
 	}
 
-	[Token(Token = "0x6004397")]
-	[Address(RVA = "0x404E050", Offset = "0x404E050", VA = "0x404E050", Slot = "18")]
+	[Token(Token = "0x60045FF")]
+	[Address(RVA = "0x4381060", Offset = "0x4381060", VA = "0x4381060", Slot = "18")]
 	public virtual void OnUse(float percent)
 	{
 	}
 
-	[Token(Token = "0x6004398")]
-	[Address(RVA = "0x404E1C0", Offset = "0x404E1C0", VA = "0x404E1C0")]
+	[Token(Token = "0x6004600")]
+	[Address(RVA = "0x43811D0", Offset = "0x43811D0", VA = "0x43811D0")]
 	public void SetCooldownLeft(float cooldownLeft)
 	{
 	}
 
-	[Token(Token = "0x6004399")]
-	[Address(RVA = "0x404E210", Offset = "0x404E210", VA = "0x404E210")]
+	[Token(Token = "0x6004601")]
+	[Address(RVA = "0x4381220", Offset = "0x4381220", VA = "0x4381220")]
 	public float GetCooldownLeft()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x600439A")]
-	[Address(RVA = "0x404E280", Offset = "0x404E280", VA = "0x404E280")]
+	[Token(Token = "0x6004602")]
+	[Address(RVA = "0x4381290", Offset = "0x4381290", VA = "0x4381290")]
 	public float GetCooldownRatio()
 	{
 		return default(float);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Serialization.JsonContainerContract
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -19,13 +26,13 @@ public class JsonContainerContract : JsonContract
 	internal JsonContract? ItemContract
 	{
 		[Token(Token = "0x60007DC")]
-		[Address(RVA = "0x3AE1EE0", Offset = "0x3AE1EE0", VA = "0x3AE1EE0")]
+		[Address(RVA = "0x3DD7830", Offset = "0x3DD7830", VA = "0x3DD7830")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007DD")]
-		[Address(RVA = "0x3AE1EF0", Offset = "0x3AE1EF0", VA = "0x3AE1EF0")]
+		[Address(RVA = "0x3DD7840", Offset = "0x3DD7840", VA = "0x3DD7840")]
 		set
 		{
 		}
@@ -35,7 +42,7 @@ public class JsonContainerContract : JsonContract
 	internal JsonContract? FinalItemContract
 	{
 		[Token(Token = "0x60007DE")]
-		[Address(RVA = "0x3AE1F80", Offset = "0x3AE1F80", VA = "0x3AE1F80")]
+		[Address(RVA = "0x3DD78D0", Offset = "0x3DD78D0", VA = "0x3DD78D0")]
 		get
 		{
 			return null;
@@ -46,14 +53,14 @@ public class JsonContainerContract : JsonContract
 	public JsonConverter? ItemConverter
 	{
 		[Token(Token = "0x60007DF")]
-		[Address(RVA = "0x3AE1F90", Offset = "0x3AE1F90", VA = "0x3AE1F90")]
+		[Address(RVA = "0x3DD78E0", Offset = "0x3DD78E0", VA = "0x3DD78E0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007E0")]
-		[Address(RVA = "0x3AE1FA0", Offset = "0x3AE1FA0", VA = "0x3AE1FA0")]
+		[Address(RVA = "0x3DD78F0", Offset = "0x3DD78F0", VA = "0x3DD78F0")]
 		[CompilerGenerated]
 		set
 		{
@@ -64,14 +71,14 @@ public class JsonContainerContract : JsonContract
 	public bool? ItemIsReference
 	{
 		[Token(Token = "0x60007E1")]
-		[Address(RVA = "0x3AE1FC0", Offset = "0x3AE1FC0", VA = "0x3AE1FC0")]
+		[Address(RVA = "0x3DD7910", Offset = "0x3DD7910", VA = "0x3DD7910")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007E2")]
-		[Address(RVA = "0x3AE1FD0", Offset = "0x3AE1FD0", VA = "0x3AE1FD0")]
+		[Address(RVA = "0x3DD7920", Offset = "0x3DD7920", VA = "0x3DD7920")]
 		[CompilerGenerated]
 		set
 		{
@@ -82,14 +89,14 @@ public class JsonContainerContract : JsonContract
 	public ReferenceLoopHandling? ItemReferenceLoopHandling
 	{
 		[Token(Token = "0x60007E3")]
-		[Address(RVA = "0x3AE1FE0", Offset = "0x3AE1FE0", VA = "0x3AE1FE0")]
+		[Address(RVA = "0x3DD7930", Offset = "0x3DD7930", VA = "0x3DD7930")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007E4")]
-		[Address(RVA = "0x3AE1FF0", Offset = "0x3AE1FF0", VA = "0x3AE1FF0")]
+		[Address(RVA = "0x3DD7940", Offset = "0x3DD7940", VA = "0x3DD7940")]
 		[CompilerGenerated]
 		set
 		{
@@ -100,14 +107,14 @@ public class JsonContainerContract : JsonContract
 	public TypeNameHandling? ItemTypeNameHandling
 	{
 		[Token(Token = "0x60007E5")]
-		[Address(RVA = "0x3AE2000", Offset = "0x3AE2000", VA = "0x3AE2000")]
+		[Address(RVA = "0x3DD7950", Offset = "0x3DD7950", VA = "0x3DD7950")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007E6")]
-		[Address(RVA = "0x3AE2010", Offset = "0x3AE2010", VA = "0x3AE2010")]
+		[Address(RVA = "0x3DD7960", Offset = "0x3DD7960", VA = "0x3DD7960")]
 		[CompilerGenerated]
 		set
 		{
@@ -115,7 +122,7 @@ public class JsonContainerContract : JsonContract
 	}
 
 	[Token(Token = "0x60007E7")]
-	[Address(RVA = "0x3AE1430", Offset = "0x3AE1430", VA = "0x3AE1430")]
+	[Address(RVA = "0x3DD6D80", Offset = "0x3DD6D80", VA = "0x3DD6D80")]
 	internal JsonContainerContract(Type underlyingType)
 	{
 	}

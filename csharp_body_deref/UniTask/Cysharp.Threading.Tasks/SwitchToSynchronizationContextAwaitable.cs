@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.SwitchToSynchronizationContextAwaitable
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Threading;
@@ -5,82 +12,82 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000109")]
+[Token(Token = "0x200010E")]
 public struct SwitchToSynchronizationContextAwaitable
 {
-	[Token(Token = "0x200010A")]
+	[Token(Token = "0x200010F")]
 	public struct Awaiter : ICriticalNotifyCompletion, INotifyCompletion
 	{
-		[Token(Token = "0x400040A")]
+		[Token(Token = "0x4000414")]
 		[FieldOffset(Offset = "0x0")]
 		private static readonly SendOrPostCallback switchToCallback;
 
-		[Token(Token = "0x400040B")]
+		[Token(Token = "0x4000415")]
 		[FieldOffset(Offset = "0x0")]
 		private readonly SynchronizationContext synchronizationContext;
 
-		[Token(Token = "0x400040C")]
+		[Token(Token = "0x4000416")]
 		[FieldOffset(Offset = "0x8")]
 		private readonly CancellationToken cancellationToken;
 
-		[Token(Token = "0x17000046")]
+		[Token(Token = "0x17000048")]
 		public bool IsCompleted
 		{
-			[Token(Token = "0x600068A")]
-			[Address(RVA = "0x46C5580", Offset = "0x46C5580", VA = "0x46C5580")]
+			[Token(Token = "0x60006A8")]
+			[Address(RVA = "0x49EA760", Offset = "0x49EA760", VA = "0x49EA760")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x6000689")]
-		[Address(RVA = "0x46C5550", Offset = "0x46C5550", VA = "0x46C5550")]
+		[Token(Token = "0x60006A7")]
+		[Address(RVA = "0x49EA730", Offset = "0x49EA730", VA = "0x49EA730")]
 		public Awaiter(SynchronizationContext synchronizationContext, CancellationToken cancellationToken)
 		{
 		}
 
-		[Token(Token = "0x600068B")]
-		[Address(RVA = "0x46C5590", Offset = "0x46C5590", VA = "0x46C5590")]
+		[Token(Token = "0x60006A9")]
+		[Address(RVA = "0x49EA770", Offset = "0x49EA770", VA = "0x49EA770")]
 		public void GetResult()
 		{
 		}
 
-		[Token(Token = "0x600068C")]
-		[Address(RVA = "0x46C55F0", Offset = "0x46C55F0", VA = "0x46C55F0", Slot = "5")]
+		[Token(Token = "0x60006AA")]
+		[Address(RVA = "0x49EA7D0", Offset = "0x49EA7D0", VA = "0x49EA7D0", Slot = "5")]
 		public void OnCompleted(Action continuation)
 		{
 		}
 
-		[Token(Token = "0x600068D")]
-		[Address(RVA = "0x46C5670", Offset = "0x46C5670", VA = "0x46C5670", Slot = "4")]
+		[Token(Token = "0x60006AB")]
+		[Address(RVA = "0x49EA850", Offset = "0x49EA850", VA = "0x49EA850", Slot = "4")]
 		public void UnsafeOnCompleted(Action continuation)
 		{
 		}
 
-		[Token(Token = "0x600068E")]
-		[Address(RVA = "0x46C56F0", Offset = "0x46C56F0", VA = "0x46C56F0")]
+		[Token(Token = "0x60006AC")]
+		[Address(RVA = "0x49EA8D0", Offset = "0x49EA8D0", VA = "0x49EA8D0")]
 		private static void Callback(object state)
 		{
 		}
 	}
 
-	[Token(Token = "0x4000408")]
+	[Token(Token = "0x4000412")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly SynchronizationContext synchronizationContext;
 
-	[Token(Token = "0x4000409")]
+	[Token(Token = "0x4000413")]
 	[FieldOffset(Offset = "0x8")]
 	private readonly CancellationToken cancellationToken;
 
-	[Token(Token = "0x6000687")]
-	[Address(RVA = "0x46B9610", Offset = "0x46B9610", VA = "0x46B9610")]
+	[Token(Token = "0x60006A5")]
+	[Address(RVA = "0x49DEEA0", Offset = "0x49DEEA0", VA = "0x49DEEA0")]
 	public SwitchToSynchronizationContextAwaitable(SynchronizationContext synchronizationContext, CancellationToken cancellationToken)
 	{
 	}
 
-	[Token(Token = "0x6000688")]
-	[Address(RVA = "0x46C5500", Offset = "0x46C5500", VA = "0x46C5500")]
+	[Token(Token = "0x60006A6")]
+	[Address(RVA = "0x49EA6E0", Offset = "0x49EA6E0", VA = "0x49EA6E0")]
 	public Awaiter GetAwaiter()
 	{
 		return default(Awaiter);

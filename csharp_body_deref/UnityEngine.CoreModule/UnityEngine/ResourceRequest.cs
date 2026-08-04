@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.ResourceRequest
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -6,7 +13,7 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x2000137")]
+[Token(Token = "0x200013A")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public class ResourceRequest : AsyncOperation
 {
@@ -18,26 +25,26 @@ public class ResourceRequest : AsyncOperation
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	internal Type m_Type;
 
-	[Token(Token = "0x170001AC")]
+	[Token(Token = "0x170001AD")]
 	public Object asset
 	{
-		[Token(Token = "0x600094C")]
-		[Address(RVA = "0x4ACADB0", Offset = "0x4ACADB0", VA = "0x4ACADB0")]
+		[Token(Token = "0x600094E")]
+		[Address(RVA = "0x4DF26E0", Offset = "0x4DF26E0", VA = "0x4DF26E0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600094B")]
-	[Address(RVA = "0x4ACAC90", Offset = "0x4ACAC90", VA = "0x4ACAC90", Slot = "4")]
+	[Token(Token = "0x600094D")]
+	[Address(RVA = "0x4DF25C0", Offset = "0x4DF25C0", VA = "0x4DF25C0", Slot = "4")]
 	protected virtual Object GetResult()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600094D")]
-	[Address(RVA = "0x4ACADD0", Offset = "0x4ACADD0", VA = "0x4ACADD0")]
+	[Token(Token = "0x600094F")]
+	[Address(RVA = "0x4DF2700", Offset = "0x4DF2700", VA = "0x4DF2700")]
 	public ResourceRequest()
 	{
 	}

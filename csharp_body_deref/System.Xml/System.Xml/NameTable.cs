@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.NameTable
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml;
@@ -21,7 +28,7 @@ public class NameTable : XmlNameTable
 		internal Entry next;
 
 		[Token(Token = "0x6000A8F")]
-		[Address(RVA = "0x44A8A40", Offset = "0x44A8A40", VA = "0x44A8A40")]
+		[Address(RVA = "0x47E61A0", Offset = "0x47E61A0", VA = "0x47E61A0")]
 		internal Entry(string str, int hashCode, Entry next)
 		{
 		}
@@ -44,47 +51,47 @@ public class NameTable : XmlNameTable
 	private int hashCodeRandomizer;
 
 	[Token(Token = "0x6000A88")]
-	[Address(RVA = "0x4497BC0", Offset = "0x4497BC0", VA = "0x4497BC0")]
+	[Address(RVA = "0x47D5320", Offset = "0x47D5320", VA = "0x47D5320")]
 	public NameTable()
 	{
 	}
 
 	[Token(Token = "0x6000A89")]
-	[Address(RVA = "0x44A8370", Offset = "0x44A8370", VA = "0x44A8370", Slot = "6")]
+	[Address(RVA = "0x47E5AD0", Offset = "0x47E5AD0", VA = "0x47E5AD0", Slot = "6")]
 	public override string Add(string key)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A8A")]
-	[Address(RVA = "0x44A8610", Offset = "0x44A8610", VA = "0x44A8610", Slot = "5")]
+	[Address(RVA = "0x47E5D70", Offset = "0x47E5D70", VA = "0x47E5D70", Slot = "5")]
 	public override string Add(char[] key, int start, int len)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A8B")]
-	[Address(RVA = "0x44A88F0", Offset = "0x44A88F0", VA = "0x44A88F0", Slot = "4")]
+	[Address(RVA = "0x47E6050", Offset = "0x47E6050", VA = "0x47E6050", Slot = "4")]
 	public override string Get(string value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A8C")]
-	[Address(RVA = "0x44A84D0", Offset = "0x44A84D0", VA = "0x44A84D0")]
+	[Address(RVA = "0x47E5C30", Offset = "0x47E5C30", VA = "0x47E5C30")]
 	private string AddEntry(string str, int hashCode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A8D")]
-	[Address(RVA = "0x44A8A90", Offset = "0x44A8A90", VA = "0x44A8A90")]
+	[Address(RVA = "0x47E61F0", Offset = "0x47E61F0", VA = "0x47E61F0")]
 	private void Grow()
 	{
 	}
 
 	[Token(Token = "0x6000A8E")]
-	[Address(RVA = "0x44A8840", Offset = "0x44A8840", VA = "0x44A8840")]
+	[Address(RVA = "0x47E5FA0", Offset = "0x47E5FA0", VA = "0x47E5FA0")]
 	private static bool TextEquals(string str1, char[] str2, int str2Start, int str2Length)
 	{
 		return default(bool);

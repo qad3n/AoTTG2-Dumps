@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: DG.Tweening.Core.TweenManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using DG.Tweening.Core.Enums;
@@ -169,7 +176,7 @@ internal static class TweenManager
 	private static bool _despawnAllCalledFromUpdateLoopCallback;
 
 	[Token(Token = "0x6000432")]
-	[Address(RVA = "0x2320680", Offset = "0x2320680", VA = "0x2320680")]
+	[Address(RVA = "0x2386F60", Offset = "0x2386F60", VA = "0x2386F60")]
 	static TweenManager()
 	{
 	}
@@ -181,282 +188,282 @@ internal static class TweenManager
 	}
 
 	[Token(Token = "0x6000434")]
-	[Address(RVA = "0x23208A0", Offset = "0x23208A0", VA = "0x23208A0")]
+	[Address(RVA = "0x2387180", Offset = "0x2387180", VA = "0x2387180")]
 	internal static Sequence GetSequence()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000435")]
-	[Address(RVA = "0x23211A0", Offset = "0x23211A0", VA = "0x23211A0")]
+	[Address(RVA = "0x2387A80", Offset = "0x2387A80", VA = "0x2387A80")]
 	internal static void SetUpdateType(Tween t, UpdateType updateType, bool isIndependentUpdate)
 	{
 	}
 
 	[Token(Token = "0x6000436")]
-	[Address(RVA = "0x23213C0", Offset = "0x23213C0", VA = "0x23213C0")]
+	[Address(RVA = "0x2387CA0", Offset = "0x2387CA0", VA = "0x2387CA0")]
 	internal static void AddActiveTweenToSequence(Tween t)
 	{
 	}
 
 	[Token(Token = "0x6000437")]
-	[Address(RVA = "0x23219D0", Offset = "0x23219D0", VA = "0x23219D0")]
+	[Address(RVA = "0x23882B0", Offset = "0x23882B0", VA = "0x23882B0")]
 	internal static int DespawnAll()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000438")]
-	[Address(RVA = "0x2321BC0", Offset = "0x2321BC0", VA = "0x2321BC0")]
+	[Address(RVA = "0x23884A0", Offset = "0x23884A0", VA = "0x23884A0")]
 	internal static void Despawn(Tween t, bool modifyActiveLists = true)
 	{
 	}
 
 	[Token(Token = "0x6000439")]
-	[Address(RVA = "0x2322200", Offset = "0x2322200", VA = "0x2322200")]
+	[Address(RVA = "0x2388AE0", Offset = "0x2388AE0", VA = "0x2388AE0")]
 	internal static void PurgeAll(bool isApplicationQuitting)
 	{
 	}
 
 	[Token(Token = "0x600043A")]
-	[Address(RVA = "0x2322410", Offset = "0x2322410", VA = "0x2322410")]
+	[Address(RVA = "0x2388CF0", Offset = "0x2388CF0", VA = "0x2388CF0")]
 	internal static void PurgePools()
 	{
 	}
 
 	[Token(Token = "0x600043B")]
-	[Address(RVA = "0x2322590", Offset = "0x2322590", VA = "0x2322590")]
+	[Address(RVA = "0x2388E70", Offset = "0x2388E70", VA = "0x2388E70")]
 	internal static void AddTweenLink(Tween t, TweenLink tweenLink)
 	{
 	}
 
 	[Token(Token = "0x600043C")]
-	[Address(RVA = "0x2322850", Offset = "0x2322850", VA = "0x2322850")]
+	[Address(RVA = "0x2389130", Offset = "0x2389130", VA = "0x2389130")]
 	private static void RemoveTweenLink(Tween t)
 	{
 	}
 
 	[Token(Token = "0x600043D")]
-	[Address(RVA = "0x2322520", Offset = "0x2322520", VA = "0x2322520")]
+	[Address(RVA = "0x2388E00", Offset = "0x2388E00", VA = "0x2388E00")]
 	internal static void ResetCapacities()
 	{
 	}
 
 	[Token(Token = "0x600043E")]
-	[Address(RVA = "0x2322950", Offset = "0x2322950", VA = "0x2322950")]
+	[Address(RVA = "0x2389230", Offset = "0x2389230", VA = "0x2389230")]
 	internal static void SetCapacities(int tweenersCapacity, int sequencesCapacity)
 	{
 	}
 
 	[Token(Token = "0x600043F")]
-	[Address(RVA = "0x2322F10", Offset = "0x2322F10", VA = "0x2322F10")]
+	[Address(RVA = "0x23897F0", Offset = "0x23897F0", VA = "0x23897F0")]
 	internal static int Validate()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000440")]
-	[Address(RVA = "0x2323550", Offset = "0x2323550", VA = "0x2323550")]
+	[Address(RVA = "0x2389E30", Offset = "0x2389E30", VA = "0x2389E30")]
 	internal static void Update(UpdateType updateType, float deltaTime, float independentTime)
 	{
 	}
 
 	[Token(Token = "0x6000441")]
-	[Address(RVA = "0x23237D0", Offset = "0x23237D0", VA = "0x23237D0")]
+	[Address(RVA = "0x238A0B0", Offset = "0x238A0B0", VA = "0x238A0B0")]
 	internal static bool Update(Tween t, float deltaTime, float independentTime, bool isSingleTweenManualUpdate)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000442")]
-	[Address(RVA = "0x2323E40", Offset = "0x2323E40", VA = "0x2323E40")]
+	[Address(RVA = "0x238A720", Offset = "0x238A720", VA = "0x238A720")]
 	internal static int FilteredOperation(OperationType operationType, FilterType filterType, object id, bool optionalBool, float optionalFloat, [Optional] object optionalObj, [Optional] object[] optionalArray)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000443")]
-	[Address(RVA = "0x2324A00", Offset = "0x2324A00", VA = "0x2324A00")]
+	[Address(RVA = "0x238B2E0", Offset = "0x238B2E0", VA = "0x238B2E0")]
 	internal static bool Complete(Tween t, bool modifyActiveLists = true, UpdateMode updateMode = UpdateMode.Goto)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000444")]
-	[Address(RVA = "0x2324AE0", Offset = "0x2324AE0", VA = "0x2324AE0")]
+	[Address(RVA = "0x238B3C0", Offset = "0x238B3C0", VA = "0x238B3C0")]
 	internal static bool Flip(Tween t)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000445")]
-	[Address(RVA = "0x2324940", Offset = "0x2324940", VA = "0x2324940")]
+	[Address(RVA = "0x238B220", Offset = "0x238B220", VA = "0x238B220")]
 	internal static void ForceInit(Tween t, bool isSequenced = false)
 	{
 	}
 
 	[Token(Token = "0x6000446")]
-	[Address(RVA = "0x2324B00", Offset = "0x2324B00", VA = "0x2324B00")]
+	[Address(RVA = "0x238B3E0", Offset = "0x238B3E0", VA = "0x238B3E0")]
 	internal static bool Goto(Tween t, float to, bool andPlay = false, UpdateMode updateMode = UpdateMode.Goto)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000447")]
-	[Address(RVA = "0x2322810", Offset = "0x2322810", VA = "0x2322810")]
+	[Address(RVA = "0x23890F0", Offset = "0x23890F0", VA = "0x23890F0")]
 	internal static bool Pause(Tween t)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000448")]
-	[Address(RVA = "0x2322790", Offset = "0x2322790", VA = "0x2322790")]
+	[Address(RVA = "0x2389070", Offset = "0x2389070", VA = "0x2389070")]
 	internal static bool Play(Tween t)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000449")]
-	[Address(RVA = "0x2324C50", Offset = "0x2324C50", VA = "0x2324C50")]
+	[Address(RVA = "0x238B530", Offset = "0x238B530", VA = "0x238B530")]
 	internal static bool PlayBackwards(Tween t)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600044A")]
-	[Address(RVA = "0x2324EC0", Offset = "0x2324EC0", VA = "0x2324EC0")]
+	[Address(RVA = "0x238B7A0", Offset = "0x238B7A0", VA = "0x238B7A0")]
 	internal static bool PlayForward(Tween t)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600044B")]
-	[Address(RVA = "0x2325060", Offset = "0x2325060", VA = "0x2325060")]
+	[Address(RVA = "0x238B940", Offset = "0x238B940", VA = "0x238B940")]
 	internal static bool Restart(Tween t, bool includeDelay = true, float changeDelayTo = -1f)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600044C")]
-	[Address(RVA = "0x2325140", Offset = "0x2325140", VA = "0x2325140")]
+	[Address(RVA = "0x238BA20", Offset = "0x238BA20", VA = "0x238BA20")]
 	internal static bool Rewind(Tween t, bool includeDelay = true)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600044D")]
-	[Address(RVA = "0x2325300", Offset = "0x2325300", VA = "0x2325300")]
+	[Address(RVA = "0x238BBE0", Offset = "0x238BBE0", VA = "0x238BBE0")]
 	internal static bool SmoothRewind(Tween t)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600044E")]
-	[Address(RVA = "0x2325490", Offset = "0x2325490", VA = "0x2325490")]
+	[Address(RVA = "0x238BD70", Offset = "0x238BD70", VA = "0x238BD70")]
 	internal static bool TogglePause(Tween t)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600044F")]
-	[Address(RVA = "0x2325610", Offset = "0x2325610", VA = "0x2325610")]
+	[Address(RVA = "0x238BEF0", Offset = "0x238BEF0", VA = "0x238BEF0")]
 	internal static int TotalPooledTweens()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000450")]
-	[Address(RVA = "0x2325660", Offset = "0x2325660", VA = "0x2325660")]
+	[Address(RVA = "0x238BF40", Offset = "0x238BF40", VA = "0x238BF40")]
 	internal static int TotalPlayingTweens()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000451")]
-	[Address(RVA = "0x23257B0", Offset = "0x23257B0", VA = "0x23257B0")]
+	[Address(RVA = "0x238C090", Offset = "0x238C090", VA = "0x238C090")]
 	internal static int TotalTweensById(object id, bool playingOnly)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000452")]
-	[Address(RVA = "0x2325C20", Offset = "0x2325C20", VA = "0x2325C20")]
+	[Address(RVA = "0x238C500", Offset = "0x238C500", VA = "0x238C500")]
 	internal static List<Tween> GetActiveTweens(bool playing, [Optional] List<Tween> fillableList)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000453")]
-	[Address(RVA = "0x2325F00", Offset = "0x2325F00", VA = "0x2325F00")]
+	[Address(RVA = "0x238C7E0", Offset = "0x238C7E0", VA = "0x238C7E0")]
 	internal static List<Tween> GetTweensById(object id, bool playingOnly, [Optional] List<Tween> fillableList)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000454")]
-	[Address(RVA = "0x2325890", Offset = "0x2325890", VA = "0x2325890")]
+	[Address(RVA = "0x238C170", Offset = "0x238C170", VA = "0x238C170")]
 	private static int DoGetTweensById(object id, bool playingOnly, bool addToList, List<Tween> fillableList)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000455")]
-	[Address(RVA = "0x23260C0", Offset = "0x23260C0", VA = "0x23260C0")]
+	[Address(RVA = "0x238C9A0", Offset = "0x238C9A0", VA = "0x238C9A0")]
 	internal static List<Tween> GetTweensByTarget(object target, bool playingOnly, [Optional] List<Tween> fillableList)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000456")]
-	[Address(RVA = "0x2323350", Offset = "0x2323350", VA = "0x2323350")]
+	[Address(RVA = "0x2389C30", Offset = "0x2389C30", VA = "0x2389C30")]
 	private static void MarkForKilling(Tween t, bool isSingleTweenManualUpdate = false)
 	{
 	}
 
 	[Token(Token = "0x6000457")]
-	[Address(RVA = "0x2323AD0", Offset = "0x2323AD0", VA = "0x2323AD0")]
+	[Address(RVA = "0x238A3B0", Offset = "0x238A3B0", VA = "0x238A3B0")]
 	private static void EvaluateTweenLink(Tween t)
 	{
 	}
 
 	[Token(Token = "0x6000458")]
-	[Address(RVA = "0x2320B80", Offset = "0x2320B80", VA = "0x2320B80")]
+	[Address(RVA = "0x2387460", Offset = "0x2387460", VA = "0x2387460")]
 	private static void AddActiveTween(Tween t)
 	{
 	}
 
 	[Token(Token = "0x6000459")]
-	[Address(RVA = "0x23230E0", Offset = "0x23230E0", VA = "0x23230E0")]
+	[Address(RVA = "0x23899C0", Offset = "0x23899C0", VA = "0x23899C0")]
 	private static void ReorganizeActiveTweens()
 	{
 	}
 
 	[Token(Token = "0x600045A")]
-	[Address(RVA = "0x23234A0", Offset = "0x23234A0", VA = "0x23234A0")]
+	[Address(RVA = "0x2389D80", Offset = "0x2389D80", VA = "0x2389D80")]
 	private static void DespawnActiveTweens(List<Tween> tweens)
 	{
 	}
 
 	[Token(Token = "0x600045B")]
-	[Address(RVA = "0x2321420", Offset = "0x2321420", VA = "0x2321420")]
+	[Address(RVA = "0x2387D00", Offset = "0x2387D00", VA = "0x2387D00")]
 	private static void RemoveActiveTween(Tween t)
 	{
 	}
 
 	[Token(Token = "0x600045C")]
-	[Address(RVA = "0x2322190", Offset = "0x2322190", VA = "0x2322190")]
+	[Address(RVA = "0x2388A70", Offset = "0x2388A70", VA = "0x2388A70")]
 	private static void ClearTweenArray(Tween[] tweens)
 	{
 	}
 
 	[Token(Token = "0x600045D")]
-	[Address(RVA = "0x2320ED0", Offset = "0x2320ED0", VA = "0x2320ED0")]
+	[Address(RVA = "0x23877B0", Offset = "0x23877B0", VA = "0x23877B0")]
 	private static void IncreaseCapacities(CapacityIncreaseMode increaseMode)
 	{
 	}
 
 	[Token(Token = "0x600045E")]
-	[Address(RVA = "0x2325570", Offset = "0x2325570", VA = "0x2325570")]
+	[Address(RVA = "0x238BE50", Offset = "0x238BE50", VA = "0x238BE50")]
 	private static void ManageOnRewindCallbackWhenAlreadyRewinded(Tween t, bool isPlayBackwardsOrSmoothRewind)
 	{
 	}

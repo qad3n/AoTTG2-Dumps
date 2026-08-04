@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.Unity.VoiceComponentImpl
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/Code/VoiceComponent.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using ExitGames.Client.Photon;
 using Il2CppDummyDll;
 using UnityEngine;
@@ -27,49 +34,49 @@ public class VoiceComponentImpl
 		private string tag;
 
 		[Token(Token = "0x60000D7")]
-		[Address(RVA = "0x3C5AE00", Offset = "0x3C5AE00", VA = "0x3C5AE00")]
+		[Address(RVA = "0x3F4D3B0", Offset = "0x3F4D3B0", VA = "0x3F4D3B0")]
 		public void SetVoiceLogger(VoiceLogger voiceLogger, Object obj, string tag)
 		{
 		}
 
 		[Token(Token = "0x60000D8")]
-		[Address(RVA = "0x3C5AEA0", Offset = "0x3C5AEA0", VA = "0x3C5AEA0")]
+		[Address(RVA = "0x3F4D450", Offset = "0x3F4D450", VA = "0x3F4D450")]
 		public void SetObjName(string n)
 		{
 		}
 
 		[Token(Token = "0x60000D9")]
-		[Address(RVA = "0x3C5AEB0", Offset = "0x3C5AEB0", VA = "0x3C5AEB0")]
+		[Address(RVA = "0x3F4D460", Offset = "0x3F4D460", VA = "0x3F4D460")]
 		private void Log(DebugLevel level, string fmt, params object[] args)
 		{
 		}
 
 		[Token(Token = "0x60000DA")]
-		[Address(RVA = "0x3C5B170", Offset = "0x3C5B170", VA = "0x3C5B170", Slot = "4")]
+		[Address(RVA = "0x3F4D720", Offset = "0x3F4D720", VA = "0x3F4D720", Slot = "4")]
 		public void LogError(string fmt, params object[] args)
 		{
 		}
 
 		[Token(Token = "0x60000DB")]
-		[Address(RVA = "0x3C5AD70", Offset = "0x3C5AD70", VA = "0x3C5AD70", Slot = "5")]
+		[Address(RVA = "0x3F4D320", Offset = "0x3F4D320", VA = "0x3F4D320", Slot = "5")]
 		public void LogWarning(string fmt, params object[] args)
 		{
 		}
 
 		[Token(Token = "0x60000DC")]
-		[Address(RVA = "0x3C5B180", Offset = "0x3C5B180", VA = "0x3C5B180", Slot = "6")]
+		[Address(RVA = "0x3F4D730", Offset = "0x3F4D730", VA = "0x3F4D730", Slot = "6")]
 		public void LogInfo(string fmt, params object[] args)
 		{
 		}
 
 		[Token(Token = "0x60000DD")]
-		[Address(RVA = "0x3C5B1A0", Offset = "0x3C5B1A0", VA = "0x3C5B1A0", Slot = "7")]
+		[Address(RVA = "0x3F4D750", Offset = "0x3F4D750", VA = "0x3F4D750", Slot = "7")]
 		public void LogDebug(string fmt, params object[] args)
 		{
 		}
 
 		[Token(Token = "0x60000DE")]
-		[Address(RVA = "0x3C5AE50", Offset = "0x3C5AE50", VA = "0x3C5AE50")]
+		[Address(RVA = "0x3F4D400", Offset = "0x3F4D400", VA = "0x3F4D400")]
 		public LoggerImpl()
 		{
 		}
@@ -87,7 +94,7 @@ public class VoiceComponentImpl
 	public ILogger Logger
 	{
 		[Token(Token = "0x60000D2")]
-		[Address(RVA = "0x3C5A9B0", Offset = "0x3C5A9B0", VA = "0x3C5A9B0")]
+		[Address(RVA = "0x3F4CF60", Offset = "0x3F4CF60", VA = "0x3F4CF60")]
 		get
 		{
 			return null;
@@ -98,7 +105,7 @@ public class VoiceComponentImpl
 	public VoiceLogger VoiceLogger
 	{
 		[Token(Token = "0x60000D3")]
-		[Address(RVA = "0x3C5A9C0", Offset = "0x3C5A9C0", VA = "0x3C5A9C0")]
+		[Address(RVA = "0x3F4CF70", Offset = "0x3F4CF70", VA = "0x3F4CF70")]
 		get
 		{
 			return null;
@@ -109,20 +116,20 @@ public class VoiceComponentImpl
 	public string Name
 	{
 		[Token(Token = "0x60000D4")]
-		[Address(RVA = "0x3C5A990", Offset = "0x3C5A990", VA = "0x3C5A990")]
+		[Address(RVA = "0x3F4CF40", Offset = "0x3F4CF40", VA = "0x3F4CF40")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60000D5")]
-	[Address(RVA = "0x3C59570", Offset = "0x3C59570", VA = "0x3C59570")]
+	[Address(RVA = "0x3F4BB20", Offset = "0x3F4BB20", VA = "0x3F4BB20")]
 	public void Awake(MonoBehaviour mb)
 	{
 	}
 
 	[Token(Token = "0x60000D6")]
-	[Address(RVA = "0x3C5A530", Offset = "0x3C5A530", VA = "0x3C5A530")]
+	[Address(RVA = "0x3F4CAE0", Offset = "0x3F4CAE0", VA = "0x3F4CAE0")]
 	public VoiceComponentImpl()
 	{
 	}

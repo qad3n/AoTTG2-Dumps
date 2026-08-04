@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Gisketch.Aottg2UI.Tweening.GisketchMotionDriver
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Tweening/GisketchMotionDriver.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using DG.Tweening;
 using Il2CppDummyDll;
@@ -24,7 +31,7 @@ public sealed class GisketchMotionDriver : MonoBehaviour
 		public readonly int CreatedFrame;
 
 		[Token(Token = "0x60000B2")]
-		[Address(RVA = "0x39CAB10", Offset = "0x39CAB10", VA = "0x39CAB10")]
+		[Address(RVA = "0x3A33D10", Offset = "0x3A33D10", VA = "0x3A33D10")]
 		public ActiveTween(Tween tween, bool blocksInput, int createdFrame)
 		{
 		}
@@ -46,7 +53,7 @@ public sealed class GisketchMotionDriver : MonoBehaviour
 	public static bool HasActive
 	{
 		[Token(Token = "0x60000A8")]
-		[Address(RVA = "0x39C1010", Offset = "0x39C1010", VA = "0x39C1010")]
+		[Address(RVA = "0x3A2C530", Offset = "0x3A2C530", VA = "0x3A2C530")]
 		get
 		{
 			return default(bool);
@@ -57,7 +64,7 @@ public sealed class GisketchMotionDriver : MonoBehaviour
 	public static bool ConsumedSkipThisFrame
 	{
 		[Token(Token = "0x60000AB")]
-		[Address(RVA = "0x39C2270", Offset = "0x39C2270", VA = "0x39C2270")]
+		[Address(RVA = "0x3A2A170", Offset = "0x3A2A170", VA = "0x3A2A170")]
 		get
 		{
 			return default(bool);
@@ -65,54 +72,54 @@ public sealed class GisketchMotionDriver : MonoBehaviour
 	}
 
 	[Token(Token = "0x60000A7")]
-	[Address(RVA = "0x39C6850", Offset = "0x39C6850", VA = "0x39C6850")]
+	[Address(RVA = "0x3A30510", Offset = "0x3A30510", VA = "0x3A30510")]
 	public static Tween Track(Tween tween, bool blocksInput = true)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000A9")]
-	[Address(RVA = "0x39CACB0", Offset = "0x39CACB0", VA = "0x39CACB0")]
+	[Address(RVA = "0x3A33EB0", Offset = "0x3A33EB0", VA = "0x3A33EB0")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x60000AA")]
-	[Address(RVA = "0x39C22C0", Offset = "0x39C22C0", VA = "0x39C22C0")]
+	[Address(RVA = "0x3A2A1C0", Offset = "0x3A2A1C0", VA = "0x3A2A1C0")]
 	public static bool CompleteActiveForSkip()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000AC")]
-	[Address(RVA = "0x39CAB50", Offset = "0x39CAB50", VA = "0x39CAB50")]
+	[Address(RVA = "0x3A33D50", Offset = "0x3A33D50", VA = "0x3A33D50")]
 	private static GisketchMotionDriver Ensure()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000AD")]
-	[Address(RVA = "0x39CAD90", Offset = "0x39CAD90", VA = "0x39CAD90")]
+	[Address(RVA = "0x3A33F90", Offset = "0x3A33F90", VA = "0x3A33F90")]
 	private static bool SkipPressed()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000AE")]
-	[Address(RVA = "0x39CAFD0", Offset = "0x39CAFD0", VA = "0x39CAFD0")]
+	[Address(RVA = "0x3A341D0", Offset = "0x3A341D0", VA = "0x3A341D0")]
 	internal static bool IsKeyboardSkip(KeyCode key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000AF")]
-	[Address(RVA = "0x39CAE00", Offset = "0x39CAE00", VA = "0x39CAE00")]
+	[Address(RVA = "0x3A34000", Offset = "0x3A34000", VA = "0x3A34000")]
 	private void CompleteActive()
 	{
 	}
 
 	[Token(Token = "0x60000B0")]
-	[Address(RVA = "0x39CAFE0", Offset = "0x39CAFE0", VA = "0x39CAFE0")]
+	[Address(RVA = "0x3A341E0", Offset = "0x3A341E0", VA = "0x3A341E0")]
 	public GisketchMotionDriver()
 	{
 	}

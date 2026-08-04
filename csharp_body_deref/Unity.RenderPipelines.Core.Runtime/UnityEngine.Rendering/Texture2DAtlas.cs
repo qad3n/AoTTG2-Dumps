@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.Texture2DAtlas
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 using UnityEngine.Experimental.Rendering;
@@ -81,7 +88,7 @@ public class Texture2DAtlas
 	public static int maxMipLevelPadding
 	{
 		[Token(Token = "0x6000B54")]
-		[Address(RVA = "0x48C2560", Offset = "0x48C2560", VA = "0x48C2560")]
+		[Address(RVA = "0x4BE75D0", Offset = "0x4BE75D0", VA = "0x4BE75D0")]
 		get
 		{
 			return default(int);
@@ -92,7 +99,7 @@ public class Texture2DAtlas
 	public RTHandle AtlasTexture
 	{
 		[Token(Token = "0x6000B55")]
-		[Address(RVA = "0x48C25D0", Offset = "0x48C25D0", VA = "0x48C25D0")]
+		[Address(RVA = "0x4BE7640", Offset = "0x4BE7640", VA = "0x4BE7640")]
 		get
 		{
 			return null;
@@ -100,193 +107,193 @@ public class Texture2DAtlas
 	}
 
 	[Token(Token = "0x6000B56")]
-	[Address(RVA = "0x48C25E0", Offset = "0x48C25E0", VA = "0x48C25E0")]
+	[Address(RVA = "0x4BE7650", Offset = "0x4BE7650", VA = "0x4BE7650")]
 	public Texture2DAtlas(int width, int height, GraphicsFormat format, FilterMode filterMode = FilterMode.Point, bool powerOfTwoPadding = false, string name = "", bool useMipMap = true)
 	{
 	}
 
 	[Token(Token = "0x6000B57")]
-	[Address(RVA = "0x48C29C0", Offset = "0x48C29C0", VA = "0x48C29C0")]
+	[Address(RVA = "0x4BE7A30", Offset = "0x4BE7A30", VA = "0x4BE7A30")]
 	public void Release()
 	{
 	}
 
 	[Token(Token = "0x6000B58")]
-	[Address(RVA = "0x48C2A90", Offset = "0x48C2A90", VA = "0x48C2A90")]
+	[Address(RVA = "0x4BE7B00", Offset = "0x4BE7B00", VA = "0x4BE7B00")]
 	public void ResetAllocator()
 	{
 	}
 
 	[Token(Token = "0x6000B59")]
-	[Address(RVA = "0x48C2B40", Offset = "0x48C2B40", VA = "0x48C2B40")]
+	[Address(RVA = "0x4BE7BB0", Offset = "0x4BE7BB0", VA = "0x4BE7BB0")]
 	public void ClearTarget(CommandBuffer cmd)
 	{
 	}
 
 	[Token(Token = "0x6000B5A")]
-	[Address(RVA = "0x48C2950", Offset = "0x48C2950", VA = "0x48C2950")]
+	[Address(RVA = "0x4BE79C0", Offset = "0x4BE79C0", VA = "0x4BE79C0")]
 	private protected int GetTextureMipmapCount(int width, int height)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B5B")]
-	[Address(RVA = "0x48C3070", Offset = "0x48C3070", VA = "0x48C3070")]
+	[Address(RVA = "0x4BE80E0", Offset = "0x4BE80E0", VA = "0x4BE80E0")]
 	private protected bool Is2D(Texture texture)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B5C")]
-	[Address(RVA = "0x48C3110", Offset = "0x48C3110", VA = "0x48C3110")]
+	[Address(RVA = "0x4BE8180", Offset = "0x4BE8180", VA = "0x4BE8180")]
 	private protected bool IsSingleChannelBlit(Texture source, Texture destination)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B5D")]
-	[Address(RVA = "0x48C3360", Offset = "0x48C3360", VA = "0x48C3360")]
+	[Address(RVA = "0x4BE83D0", Offset = "0x4BE83D0", VA = "0x4BE83D0")]
 	private void Blit2DTexture(CommandBuffer cmd, Vector4 scaleOffset, Texture texture, Vector4 sourceScaleOffset, bool blitMips, BlitType blitType)
 	{
 	}
 
 	[Token(Token = "0x6000B5E")]
-	[Address(RVA = "0x48C3E00", Offset = "0x48C3E00", VA = "0x48C3E00")]
+	[Address(RVA = "0x4BE8E70", Offset = "0x4BE8E70", VA = "0x4BE8E70")]
 	private protected void MarkGPUTextureValid(int instanceId, bool mipAreValid = false)
 	{
 	}
 
 	[Token(Token = "0x6000B5F")]
-	[Address(RVA = "0x48C3E60", Offset = "0x48C3E60", VA = "0x48C3E60")]
+	[Address(RVA = "0x4BE8ED0", Offset = "0x4BE8ED0", VA = "0x4BE8ED0")]
 	private protected void MarkGPUTextureInvalid(int instanceId)
 	{
 	}
 
 	[Token(Token = "0x6000B60")]
-	[Address(RVA = "0x48C3EB0", Offset = "0x48C3EB0", VA = "0x48C3EB0", Slot = "4")]
+	[Address(RVA = "0x4BE8F20", Offset = "0x4BE8F20", VA = "0x4BE8F20", Slot = "4")]
 	public virtual void BlitTexture(CommandBuffer cmd, Vector4 scaleOffset, Texture texture, Vector4 sourceScaleOffset, bool blitMips = true, int overrideInstanceID = -1)
 	{
 	}
 
 	[Token(Token = "0x6000B61")]
-	[Address(RVA = "0x48C42C0", Offset = "0x48C42C0", VA = "0x48C42C0", Slot = "5")]
+	[Address(RVA = "0x4BE9330", Offset = "0x4BE9330", VA = "0x4BE9330", Slot = "5")]
 	public virtual void BlitOctahedralTexture(CommandBuffer cmd, Vector4 scaleOffset, Texture texture, Vector4 sourceScaleOffset, bool blitMips = true, int overrideInstanceID = -1)
 	{
 	}
 
 	[Token(Token = "0x6000B62")]
-	[Address(RVA = "0x48C42E0", Offset = "0x48C42E0", VA = "0x48C42E0", Slot = "6")]
+	[Address(RVA = "0x4BE9350", Offset = "0x4BE9350", VA = "0x4BE9350", Slot = "6")]
 	public virtual void BlitCubeTexture2D(CommandBuffer cmd, Vector4 scaleOffset, Texture texture, bool blitMips = true, int overrideInstanceID = -1)
 	{
 	}
 
 	[Token(Token = "0x6000B63")]
-	[Address(RVA = "0x48C4460", Offset = "0x48C4460", VA = "0x48C4460", Slot = "7")]
+	[Address(RVA = "0x4BE94D0", Offset = "0x4BE94D0", VA = "0x4BE94D0", Slot = "7")]
 	public virtual bool AllocateTexture(CommandBuffer cmd, ref Vector4 scaleOffset, Texture texture, int width, int height, int overrideInstanceID = -1)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B64")]
-	[Address(RVA = "0x48C46F0", Offset = "0x48C46F0", VA = "0x48C46F0")]
+	[Address(RVA = "0x4BE9760", Offset = "0x4BE9760", VA = "0x4BE9760")]
 	public bool AllocateTextureWithoutBlit(Texture texture, int width, int height, ref Vector4 scaleOffset)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B65")]
-	[Address(RVA = "0x48C4750", Offset = "0x48C4750", VA = "0x48C4750", Slot = "8")]
+	[Address(RVA = "0x4BE97C0", Offset = "0x4BE97C0", VA = "0x4BE97C0", Slot = "8")]
 	public virtual bool AllocateTextureWithoutBlit(int instanceId, int width, int height, ref Vector4 scaleOffset)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B66")]
-	[Address(RVA = "0x48C4940", Offset = "0x48C4940", VA = "0x48C4940")]
+	[Address(RVA = "0x4BE99B0", Offset = "0x4BE99B0", VA = "0x4BE99B0")]
 	private protected int GetTextureHash(Texture textureA, Texture textureB)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B67")]
-	[Address(RVA = "0x48C40C0", Offset = "0x48C40C0", VA = "0x48C40C0")]
+	[Address(RVA = "0x4BE9130", Offset = "0x4BE9130", VA = "0x4BE9130")]
 	public int GetTextureID(Texture texture)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B68")]
-	[Address(RVA = "0x48C49B0", Offset = "0x48C49B0", VA = "0x48C49B0")]
+	[Address(RVA = "0x4BE9A20", Offset = "0x4BE9A20", VA = "0x4BE9A20")]
 	public int GetTextureID(Texture textureA, Texture textureB)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B69")]
-	[Address(RVA = "0x48C49F0", Offset = "0x48C49F0", VA = "0x48C49F0")]
+	[Address(RVA = "0x4BE9A60", Offset = "0x4BE9A60", VA = "0x4BE9A60")]
 	public bool IsCached(out Vector4 scaleOffset, Texture textureA, Texture textureB)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B6A")]
-	[Address(RVA = "0x48C4B10", Offset = "0x48C4B10", VA = "0x48C4B10")]
+	[Address(RVA = "0x4BE9B80", Offset = "0x4BE9B80", VA = "0x4BE9B80")]
 	public bool IsCached(out Vector4 scaleOffset, Texture texture)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B6B")]
-	[Address(RVA = "0x48C4AA0", Offset = "0x48C4AA0", VA = "0x48C4AA0")]
+	[Address(RVA = "0x4BE9B10", Offset = "0x4BE9B10", VA = "0x4BE9B10")]
 	public bool IsCached(out Vector4 scaleOffset, int id)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B6C")]
-	[Address(RVA = "0x48C4B90", Offset = "0x48C4B90", VA = "0x48C4B90")]
+	[Address(RVA = "0x4BE9C00", Offset = "0x4BE9C00", VA = "0x4BE9C00")]
 	internal Vector2Int GetCachedTextureSize(int id)
 	{
 		return default(Vector2Int);
 	}
 
 	[Token(Token = "0x6000B6D")]
-	[Address(RVA = "0x48C4C00", Offset = "0x48C4C00", VA = "0x48C4C00", Slot = "9")]
+	[Address(RVA = "0x4BE9C70", Offset = "0x4BE9C70", VA = "0x4BE9C70", Slot = "9")]
 	public virtual bool NeedsUpdate(Texture texture, bool needMips = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B6E")]
-	[Address(RVA = "0x48C4E60", Offset = "0x48C4E60", VA = "0x48C4E60", Slot = "10")]
+	[Address(RVA = "0x4BE9ED0", Offset = "0x4BE9ED0", VA = "0x4BE9ED0", Slot = "10")]
 	public virtual bool NeedsUpdate(Texture textureA, Texture textureB, bool needMips = false)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B6F")]
-	[Address(RVA = "0x48C5310", Offset = "0x48C5310", VA = "0x48C5310", Slot = "11")]
+	[Address(RVA = "0x4BEA380", Offset = "0x4BEA380", VA = "0x4BEA380", Slot = "11")]
 	public virtual bool AddTexture(CommandBuffer cmd, ref Vector4 scaleOffset, Texture texture)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B70")]
-	[Address(RVA = "0x48C5410", Offset = "0x48C5410", VA = "0x48C5410", Slot = "12")]
+	[Address(RVA = "0x4BEA480", Offset = "0x4BEA480", VA = "0x4BEA480", Slot = "12")]
 	public virtual bool UpdateTexture(CommandBuffer cmd, Texture oldTexture, Texture newTexture, ref Vector4 scaleOffset, Vector4 sourceScaleOffset, bool updateIfNeeded = true, bool blitMips = true)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B71")]
-	[Address(RVA = "0x48C56C0", Offset = "0x48C56C0", VA = "0x48C56C0", Slot = "13")]
+	[Address(RVA = "0x4BEA730", Offset = "0x4BEA730", VA = "0x4BEA730", Slot = "13")]
 	public virtual bool UpdateTexture(CommandBuffer cmd, Texture texture, ref Vector4 scaleOffset, bool updateIfNeeded = true, bool blitMips = true)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B72")]
-	[Address(RVA = "0x48C5770", Offset = "0x48C5770", VA = "0x48C5770")]
+	[Address(RVA = "0x4BEA7E0", Offset = "0x4BEA7E0", VA = "0x4BEA7E0")]
 	internal bool EnsureTextureSlot(out bool isUploadNeeded, ref Vector4 scaleBias, int key, int width, int height)
 	{
 		return default(bool);

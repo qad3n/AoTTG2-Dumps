@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.NegateCheckedInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -9,14 +16,14 @@ internal abstract class NegateCheckedInstruction : Instruction
 	private sealed class NegateCheckedInt32 : NegateCheckedInstruction
 	{
 		[Token(Token = "0x6000A01")]
-		[Address(RVA = "0x41D6A30", Offset = "0x41D6A30", VA = "0x41D6A30", Slot = "8")]
+		[Address(RVA = "0x44FBB30", Offset = "0x44FBB30", VA = "0x44FBB30", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A02")]
-		[Address(RVA = "0x41D6A10", Offset = "0x41D6A10", VA = "0x41D6A10")]
+		[Address(RVA = "0x44FBB10", Offset = "0x44FBB10", VA = "0x44FBB10")]
 		public NegateCheckedInt32()
 		{
 		}
@@ -26,14 +33,14 @@ internal abstract class NegateCheckedInstruction : Instruction
 	private sealed class NegateCheckedInt16 : NegateCheckedInstruction
 	{
 		[Token(Token = "0x6000A03")]
-		[Address(RVA = "0x41D6B20", Offset = "0x41D6B20", VA = "0x41D6B20", Slot = "8")]
+		[Address(RVA = "0x44FBC20", Offset = "0x44FBC20", VA = "0x44FBC20", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A04")]
-		[Address(RVA = "0x41D6A00", Offset = "0x41D6A00", VA = "0x41D6A00")]
+		[Address(RVA = "0x44FBB00", Offset = "0x44FBB00", VA = "0x44FBB00")]
 		public NegateCheckedInt16()
 		{
 		}
@@ -43,14 +50,14 @@ internal abstract class NegateCheckedInstruction : Instruction
 	private sealed class NegateCheckedInt64 : NegateCheckedInstruction
 	{
 		[Token(Token = "0x6000A05")]
-		[Address(RVA = "0x41D6C30", Offset = "0x41D6C30", VA = "0x41D6C30", Slot = "8")]
+		[Address(RVA = "0x44FBD30", Offset = "0x44FBD30", VA = "0x44FBD30", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A06")]
-		[Address(RVA = "0x41D6A20", Offset = "0x41D6A20", VA = "0x41D6A20")]
+		[Address(RVA = "0x44FBB20", Offset = "0x44FBB20", VA = "0x44FBB20")]
 		public NegateCheckedInt64()
 		{
 		}
@@ -72,7 +79,7 @@ internal abstract class NegateCheckedInstruction : Instruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x60009FC")]
-		[Address(RVA = "0x41D67D0", Offset = "0x41D67D0", VA = "0x41D67D0", Slot = "4")]
+		[Address(RVA = "0x44FB8D0", Offset = "0x44FB8D0", VA = "0x44FB8D0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -83,7 +90,7 @@ internal abstract class NegateCheckedInstruction : Instruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x60009FD")]
-		[Address(RVA = "0x41D67E0", Offset = "0x41D67E0", VA = "0x41D67E0", Slot = "5")]
+		[Address(RVA = "0x44FB8E0", Offset = "0x44FB8E0", VA = "0x44FB8E0", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -94,7 +101,7 @@ internal abstract class NegateCheckedInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x60009FE")]
-		[Address(RVA = "0x41D67F0", Offset = "0x41D67F0", VA = "0x41D67F0", Slot = "9")]
+		[Address(RVA = "0x44FB8F0", Offset = "0x44FB8F0", VA = "0x44FB8F0", Slot = "9")]
 		get
 		{
 			return null;
@@ -102,13 +109,13 @@ internal abstract class NegateCheckedInstruction : Instruction
 	}
 
 	[Token(Token = "0x60009FF")]
-	[Address(RVA = "0x41D6820", Offset = "0x41D6820", VA = "0x41D6820")]
+	[Address(RVA = "0x44FB920", Offset = "0x44FB920", VA = "0x44FB920")]
 	private NegateCheckedInstruction()
 	{
 	}
 
 	[Token(Token = "0x6000A00")]
-	[Address(RVA = "0x41D6830", Offset = "0x41D6830", VA = "0x41D6830")]
+	[Address(RVA = "0x44FB930", Offset = "0x44FB930", VA = "0x44FB930")]
 	public static Instruction Create(Type type)
 	{
 		return null;

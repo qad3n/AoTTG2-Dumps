@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.RSASignaturePadding
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
@@ -21,7 +28,7 @@ public sealed class RSASignaturePadding : IEquatable<RSASignaturePadding>
 	public static RSASignaturePadding Pkcs1
 	{
 		[Token(Token = "0x6001866")]
-		[Address(RVA = "0x4E45C70", Offset = "0x4E45C70", VA = "0x4E45C70")]
+		[Address(RVA = "0x3B2B790", Offset = "0x3B2B790", VA = "0x3B2B790")]
 		get
 		{
 			return null;
@@ -32,7 +39,7 @@ public sealed class RSASignaturePadding : IEquatable<RSASignaturePadding>
 	public static RSASignaturePadding Pss
 	{
 		[Token(Token = "0x6001867")]
-		[Address(RVA = "0x4E45CE0", Offset = "0x4E45CE0", VA = "0x4E45CE0")]
+		[Address(RVA = "0x3B2B800", Offset = "0x3B2B800", VA = "0x3B2B800")]
 		get
 		{
 			return null;
@@ -43,7 +50,7 @@ public sealed class RSASignaturePadding : IEquatable<RSASignaturePadding>
 	public RSASignaturePaddingMode Mode
 	{
 		[Token(Token = "0x6001868")]
-		[Address(RVA = "0x4E45D50", Offset = "0x4E45D50", VA = "0x4E45D50")]
+		[Address(RVA = "0x3B2B870", Offset = "0x3B2B870", VA = "0x3B2B870")]
 		get
 		{
 			return default(RSASignaturePaddingMode);
@@ -51,55 +58,55 @@ public sealed class RSASignaturePadding : IEquatable<RSASignaturePadding>
 	}
 
 	[Token(Token = "0x6001865")]
-	[Address(RVA = "0x4E45C50", Offset = "0x4E45C50", VA = "0x4E45C50")]
+	[Address(RVA = "0x3B2B770", Offset = "0x3B2B770", VA = "0x3B2B770")]
 	private RSASignaturePadding(RSASignaturePaddingMode mode)
 	{
 	}
 
 	[Token(Token = "0x6001869")]
-	[Address(RVA = "0x4E45D60", Offset = "0x4E45D60", VA = "0x4E45D60", Slot = "2")]
+	[Address(RVA = "0x3B2B880", Offset = "0x3B2B880", VA = "0x3B2B880", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600186A")]
-	[Address(RVA = "0x4E45D70", Offset = "0x4E45D70", VA = "0x4E45D70", Slot = "0")]
+	[Address(RVA = "0x3B2B890", Offset = "0x3B2B890", VA = "0x3B2B890", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600186B")]
-	[Address(RVA = "0x4E45DC0", Offset = "0x4E45DC0", VA = "0x4E45DC0", Slot = "4")]
+	[Address(RVA = "0x3B2B8E0", Offset = "0x3B2B8E0", VA = "0x3B2B8E0", Slot = "4")]
 	public bool Equals(RSASignaturePadding other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600186C")]
-	[Address(RVA = "0x4E45FC0", Offset = "0x4E45FC0", VA = "0x4E45FC0")]
+	[Address(RVA = "0x3B2BAE0", Offset = "0x3B2BAE0", VA = "0x3B2BAE0")]
 	public static bool operator ==(RSASignaturePadding left, RSASignaturePadding right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600186D")]
-	[Address(RVA = "0x4E45F40", Offset = "0x4E45F40", VA = "0x4E45F40")]
+	[Address(RVA = "0x3B2BA60", Offset = "0x3B2BA60", VA = "0x3B2BA60")]
 	public static bool operator !=(RSASignaturePadding left, RSASignaturePadding right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600186E")]
-	[Address(RVA = "0x4E45FE0", Offset = "0x4E45FE0", VA = "0x4E45FE0", Slot = "3")]
+	[Address(RVA = "0x3B2BB00", Offset = "0x3B2BB00", VA = "0x3B2BB00", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001870")]
-	[Address(RVA = "0x4E460E0", Offset = "0x4E460E0", VA = "0x4E460E0")]
+	[Address(RVA = "0x3B2BC00", Offset = "0x3B2BC00", VA = "0x3B2BC00")]
 	internal RSASignaturePadding()
 	{
 	}

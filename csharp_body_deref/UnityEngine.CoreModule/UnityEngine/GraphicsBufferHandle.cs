@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.GraphicsBufferHandle
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -13,22 +20,22 @@ public readonly struct GraphicsBufferHandle : IEquatable<GraphicsBufferHandle>
 	[FieldOffset(Offset = "0x0")]
 	public readonly uint value;
 
-	[Token(Token = "0x60004D1")]
-	[Address(RVA = "0x4AA62D0", Offset = "0x4AA62D0", VA = "0x4AA62D0", Slot = "2")]
+	[Token(Token = "0x60004D3")]
+	[Address(RVA = "0x4DCDC00", Offset = "0x4DCDC00", VA = "0x4DCDC00", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60004D2")]
-	[Address(RVA = "0x4AA62E0", Offset = "0x4AA62E0", VA = "0x4AA62E0", Slot = "0")]
+	[Token(Token = "0x60004D4")]
+	[Address(RVA = "0x4DCDC10", Offset = "0x4DCDC10", VA = "0x4DCDC10", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60004D3")]
-	[Address(RVA = "0x4AA6340", Offset = "0x4AA6340", VA = "0x4AA6340", Slot = "4")]
+	[Token(Token = "0x60004D5")]
+	[Address(RVA = "0x4DCDC70", Offset = "0x4DCDC70", VA = "0x4DCDC70", Slot = "4")]
 	public bool Equals(GraphicsBufferHandle other)
 	{
 		return default(bool);

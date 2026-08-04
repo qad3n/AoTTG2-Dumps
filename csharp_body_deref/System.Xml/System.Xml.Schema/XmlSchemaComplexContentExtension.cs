@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XmlSchemaComplexContentExtension
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.Serialization;
 using Il2CppDummyDll;
 
@@ -27,13 +34,13 @@ public class XmlSchemaComplexContentExtension : XmlSchemaContent
 	public XmlQualifiedName BaseTypeName
 	{
 		[Token(Token = "0x60015A1")]
-		[Address(RVA = "0x43E3040", Offset = "0x43E3040", VA = "0x43E3040")]
+		[Address(RVA = "0x47207A0", Offset = "0x47207A0", VA = "0x47207A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60015A2")]
-		[Address(RVA = "0x43E3050", Offset = "0x43E3050", VA = "0x43E3050")]
+		[Address(RVA = "0x47207B0", Offset = "0x47207B0", VA = "0x47207B0")]
 		set
 		{
 		}
@@ -47,13 +54,13 @@ public class XmlSchemaComplexContentExtension : XmlSchemaContent
 	public XmlSchemaParticle Particle
 	{
 		[Token(Token = "0x60015A3")]
-		[Address(RVA = "0x43E30E0", Offset = "0x43E30E0", VA = "0x43E30E0")]
+		[Address(RVA = "0x4720840", Offset = "0x4720840", VA = "0x4720840")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60015A4")]
-		[Address(RVA = "0x43E30F0", Offset = "0x43E30F0", VA = "0x43E30F0")]
+		[Address(RVA = "0x4720850", Offset = "0x4720850", VA = "0x4720850")]
 		set
 		{
 		}
@@ -65,7 +72,7 @@ public class XmlSchemaComplexContentExtension : XmlSchemaContent
 	public XmlSchemaObjectCollection Attributes
 	{
 		[Token(Token = "0x60015A5")]
-		[Address(RVA = "0x43E3100", Offset = "0x43E3100", VA = "0x43E3100")]
+		[Address(RVA = "0x4720860", Offset = "0x4720860", VA = "0x4720860")]
 		get
 		{
 			return null;
@@ -77,26 +84,26 @@ public class XmlSchemaComplexContentExtension : XmlSchemaContent
 	public XmlSchemaAnyAttribute AnyAttribute
 	{
 		[Token(Token = "0x60015A6")]
-		[Address(RVA = "0x43E3110", Offset = "0x43E3110", VA = "0x43E3110")]
+		[Address(RVA = "0x4720870", Offset = "0x4720870", VA = "0x4720870")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60015A7")]
-		[Address(RVA = "0x43E3120", Offset = "0x43E3120", VA = "0x43E3120")]
+		[Address(RVA = "0x4720880", Offset = "0x4720880", VA = "0x4720880")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60015A8")]
-	[Address(RVA = "0x43E3130", Offset = "0x43E3130", VA = "0x43E3130")]
+	[Address(RVA = "0x4720890", Offset = "0x4720890", VA = "0x4720890")]
 	internal void SetAttributes(XmlSchemaObjectCollection newAttributes)
 	{
 	}
 
 	[Token(Token = "0x60015A9")]
-	[Address(RVA = "0x43E3140", Offset = "0x43E3140", VA = "0x43E3140")]
+	[Address(RVA = "0x47208A0", Offset = "0x47208A0", VA = "0x47208A0")]
 	public XmlSchemaComplexContentExtension()
 	{
 	}

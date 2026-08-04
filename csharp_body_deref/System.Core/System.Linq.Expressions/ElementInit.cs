@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.ElementInit
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.ObjectModel;
 using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -12,7 +19,7 @@ public sealed class ElementInit : IArgumentProvider
 	public MethodInfo AddMethod
 	{
 		[Token(Token = "0x6000326")]
-		[Address(RVA = "0x418BBF0", Offset = "0x418BBF0", VA = "0x418BBF0")]
+		[Address(RVA = "0x44B0CF0", Offset = "0x44B0CF0", VA = "0x44B0CF0")]
 		[CompilerGenerated]
 		get
 		{
@@ -24,7 +31,7 @@ public sealed class ElementInit : IArgumentProvider
 	public ReadOnlyCollection<Expression> Arguments
 	{
 		[Token(Token = "0x6000327")]
-		[Address(RVA = "0x418BC00", Offset = "0x418BC00", VA = "0x418BC00")]
+		[Address(RVA = "0x44B0D00", Offset = "0x44B0D00", VA = "0x44B0D00")]
 		[CompilerGenerated]
 		get
 		{
@@ -36,7 +43,7 @@ public sealed class ElementInit : IArgumentProvider
 	public int ArgumentCount
 	{
 		[Token(Token = "0x6000329")]
-		[Address(RVA = "0x418BC60", Offset = "0x418BC60", VA = "0x418BC60", Slot = "5")]
+		[Address(RVA = "0x44B0D60", Offset = "0x44B0D60", VA = "0x44B0D60", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -44,7 +51,7 @@ public sealed class ElementInit : IArgumentProvider
 	}
 
 	[Token(Token = "0x6000328")]
-	[Address(RVA = "0x418BC10", Offset = "0x418BC10", VA = "0x418BC10", Slot = "4")]
+	[Address(RVA = "0x44B0D10", Offset = "0x44B0D10", VA = "0x44B0D10", Slot = "4")]
 	public Expression GetArgument(int index)
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MS.Internal.Xml.XPath.BaseAxisQuery
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.XPath;
 using System.Xml.Xsl;
 using Il2CppDummyDll;
@@ -43,7 +50,7 @@ internal abstract class BaseAxisQuery : Query
 	protected string Name
 	{
 		[Token(Token = "0x6001A6B")]
-		[Address(RVA = "0x443A8A0", Offset = "0x443A8A0", VA = "0x443A8A0")]
+		[Address(RVA = "0x4778000", Offset = "0x4778000", VA = "0x4778000")]
 		get
 		{
 			return null;
@@ -54,7 +61,7 @@ internal abstract class BaseAxisQuery : Query
 	protected string Namespace
 	{
 		[Token(Token = "0x6001A6C")]
-		[Address(RVA = "0x443A8B0", Offset = "0x443A8B0", VA = "0x443A8B0")]
+		[Address(RVA = "0x4778010", Offset = "0x4778010", VA = "0x4778010")]
 		get
 		{
 			return null;
@@ -65,7 +72,7 @@ internal abstract class BaseAxisQuery : Query
 	protected bool NameTest
 	{
 		[Token(Token = "0x6001A6D")]
-		[Address(RVA = "0x443A8C0", Offset = "0x443A8C0", VA = "0x443A8C0")]
+		[Address(RVA = "0x4778020", Offset = "0x4778020", VA = "0x4778020")]
 		get
 		{
 			return default(bool);
@@ -76,7 +83,7 @@ internal abstract class BaseAxisQuery : Query
 	protected XPathNodeType TypeTest
 	{
 		[Token(Token = "0x6001A6E")]
-		[Address(RVA = "0x443A8D0", Offset = "0x443A8D0", VA = "0x443A8D0")]
+		[Address(RVA = "0x4778030", Offset = "0x4778030", VA = "0x4778030")]
 		get
 		{
 			return default(XPathNodeType);
@@ -87,7 +94,7 @@ internal abstract class BaseAxisQuery : Query
 	public override int CurrentPosition
 	{
 		[Token(Token = "0x6001A6F")]
-		[Address(RVA = "0x443A8E0", Offset = "0x443A8E0", VA = "0x443A8E0", Slot = "9")]
+		[Address(RVA = "0x4778040", Offset = "0x4778040", VA = "0x4778040", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -98,7 +105,7 @@ internal abstract class BaseAxisQuery : Query
 	public override XPathNavigator Current
 	{
 		[Token(Token = "0x6001A70")]
-		[Address(RVA = "0x443A8F0", Offset = "0x443A8F0", VA = "0x443A8F0", Slot = "8")]
+		[Address(RVA = "0x4778050", Offset = "0x4778050", VA = "0x4778050", Slot = "8")]
 		get
 		{
 			return null;
@@ -109,7 +116,7 @@ internal abstract class BaseAxisQuery : Query
 	public override XPathResultType StaticType
 	{
 		[Token(Token = "0x6001A73")]
-		[Address(RVA = "0x443AA50", Offset = "0x443AA50", VA = "0x443AA50", Slot = "16")]
+		[Address(RVA = "0x47781B0", Offset = "0x47781B0", VA = "0x47781B0", Slot = "16")]
 		get
 		{
 			return default(XPathResultType);
@@ -117,44 +124,44 @@ internal abstract class BaseAxisQuery : Query
 	}
 
 	[Token(Token = "0x6001A66")]
-	[Address(RVA = "0x443A7A0", Offset = "0x443A7A0", VA = "0x443A7A0")]
+	[Address(RVA = "0x4777F00", Offset = "0x4777F00", VA = "0x4777F00")]
 	protected BaseAxisQuery(Query qyInput)
 	{
 	}
 
 	[Token(Token = "0x6001A67")]
-	[Address(RVA = "0x443A250", Offset = "0x443A250", VA = "0x443A250")]
+	[Address(RVA = "0x47779B0", Offset = "0x47779B0", VA = "0x47779B0")]
 	protected BaseAxisQuery(Query qyInput, string name, string prefix, XPathNodeType typeTest)
 	{
 	}
 
 	[Token(Token = "0x6001A68")]
-	[Address(RVA = "0x443A330", Offset = "0x443A330", VA = "0x443A330")]
+	[Address(RVA = "0x4777A90", Offset = "0x4777A90", VA = "0x4777A90")]
 	protected BaseAxisQuery(BaseAxisQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001A69")]
-	[Address(RVA = "0x443A420", Offset = "0x443A420", VA = "0x443A420", Slot = "12")]
+	[Address(RVA = "0x4777B80", Offset = "0x4777B80", VA = "0x4777B80", Slot = "12")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001A6A")]
-	[Address(RVA = "0x443A830", Offset = "0x443A830", VA = "0x443A830", Slot = "13")]
+	[Address(RVA = "0x4777F90", Offset = "0x4777F90", VA = "0x4777F90", Slot = "13")]
 	public override void SetXsltContext(XsltContext context)
 	{
 	}
 
 	[Token(Token = "0x6001A71")]
-	[Address(RVA = "0x443A900", Offset = "0x443A900", VA = "0x443A900", Slot = "18")]
+	[Address(RVA = "0x4778060", Offset = "0x4778060", VA = "0x4778060", Slot = "18")]
 	public virtual bool matches(XPathNavigator e)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001A72")]
-	[Address(RVA = "0x443AA00", Offset = "0x443AA00", VA = "0x443AA00", Slot = "14")]
+	[Address(RVA = "0x4778160", Offset = "0x4778160", VA = "0x4778160", Slot = "14")]
 	public override object Evaluate(XPathNodeIterator nodeIterator)
 	{
 		return null;

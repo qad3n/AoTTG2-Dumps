@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.AssemblyQualifiedNameParser.ParsedAssemblyQualifiedName
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -35,7 +42,7 @@ public class ParsedAssemblyQualifiedName
 		internal ParsedAssemblyQualifiedName parsedAssemblyQualifiedName;
 
 		[Token(Token = "0x6001337")]
-		[Address(RVA = "0x4A67830", Offset = "0x4A67830", VA = "0x4A67830")]
+		[Address(RVA = "0x4D8F050", Offset = "0x4D8F050", VA = "0x4D8F050")]
 		public Block()
 		{
 		}
@@ -45,7 +52,7 @@ public class ParsedAssemblyQualifiedName
 	public string AssemblyDescriptionString
 	{
 		[Token(Token = "0x6001329")]
-		[Address(RVA = "0x4A67090", Offset = "0x4A67090", VA = "0x4A67090")]
+		[Address(RVA = "0x4D8E8B0", Offset = "0x4D8E8B0", VA = "0x4D8E8B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -57,14 +64,14 @@ public class ParsedAssemblyQualifiedName
 	public string TypeName
 	{
 		[Token(Token = "0x600132A")]
-		[Address(RVA = "0x4A670A0", Offset = "0x4A670A0", VA = "0x4A670A0")]
+		[Address(RVA = "0x4D8E8C0", Offset = "0x4D8E8C0", VA = "0x4D8E8C0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600132B")]
-		[Address(RVA = "0x4A670B0", Offset = "0x4A670B0", VA = "0x4A670B0")]
+		[Address(RVA = "0x4D8E8D0", Offset = "0x4D8E8D0", VA = "0x4D8E8D0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -75,7 +82,7 @@ public class ParsedAssemblyQualifiedName
 	public string ShortAssemblyName
 	{
 		[Token(Token = "0x600132C")]
-		[Address(RVA = "0x4A670C0", Offset = "0x4A670C0", VA = "0x4A670C0")]
+		[Address(RVA = "0x4D8E8E0", Offset = "0x4D8E8E0", VA = "0x4D8E8E0")]
 		[CompilerGenerated]
 		get
 		{
@@ -87,7 +94,7 @@ public class ParsedAssemblyQualifiedName
 	public string Version
 	{
 		[Token(Token = "0x600132D")]
-		[Address(RVA = "0x4A670D0", Offset = "0x4A670D0", VA = "0x4A670D0")]
+		[Address(RVA = "0x4D8E8F0", Offset = "0x4D8E8F0", VA = "0x4D8E8F0")]
 		[CompilerGenerated]
 		get
 		{
@@ -99,7 +106,7 @@ public class ParsedAssemblyQualifiedName
 	public string Culture
 	{
 		[Token(Token = "0x600132E")]
-		[Address(RVA = "0x4A670E0", Offset = "0x4A670E0", VA = "0x4A670E0")]
+		[Address(RVA = "0x4D8E900", Offset = "0x4D8E900", VA = "0x4D8E900")]
 		[CompilerGenerated]
 		get
 		{
@@ -111,7 +118,7 @@ public class ParsedAssemblyQualifiedName
 	public string PublicKeyToken
 	{
 		[Token(Token = "0x600132F")]
-		[Address(RVA = "0x4A670F0", Offset = "0x4A670F0", VA = "0x4A670F0")]
+		[Address(RVA = "0x4D8E910", Offset = "0x4D8E910", VA = "0x4D8E910")]
 		[CompilerGenerated]
 		get
 		{
@@ -123,7 +130,7 @@ public class ParsedAssemblyQualifiedName
 	public List<ParsedAssemblyQualifiedName> GenericParameters
 	{
 		[Token(Token = "0x6001330")]
-		[Address(RVA = "0x4A67100", Offset = "0x4A67100", VA = "0x4A67100")]
+		[Address(RVA = "0x4D8E920", Offset = "0x4D8E920", VA = "0x4D8E920")]
 		[CompilerGenerated]
 		get
 		{
@@ -135,7 +142,7 @@ public class ParsedAssemblyQualifiedName
 	public int GenericParameterCount
 	{
 		[Token(Token = "0x6001331")]
-		[Address(RVA = "0x4A67110", Offset = "0x4A67110", VA = "0x4A67110")]
+		[Address(RVA = "0x4D8E930", Offset = "0x4D8E930", VA = "0x4D8E930")]
 		[CompilerGenerated]
 		get
 		{
@@ -144,33 +151,33 @@ public class ParsedAssemblyQualifiedName
 	}
 
 	[Token(Token = "0x6001332")]
-	[Address(RVA = "0x4A67120", Offset = "0x4A67120", VA = "0x4A67120")]
+	[Address(RVA = "0x4D8E940", Offset = "0x4D8E940", VA = "0x4D8E940")]
 	public ParsedAssemblyQualifiedName(string AssemblyQualifiedName)
 	{
 	}
 
 	[Token(Token = "0x6001333")]
-	[Address(RVA = "0x4A678B0", Offset = "0x4A678B0", VA = "0x4A678B0")]
+	[Address(RVA = "0x4D8F0D0", Offset = "0x4D8F0D0", VA = "0x4D8F0D0")]
 	private static string LookForPairThenRemove(List<string> strings, string Name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001334")]
-	[Address(RVA = "0x4A679B0", Offset = "0x4A679B0", VA = "0x4A679B0")]
+	[Address(RVA = "0x4D8F1D0", Offset = "0x4D8F1D0", VA = "0x4D8F1D0")]
 	public void Replace(string oldTypeName, string newTypeName)
 	{
 	}
 
 	[Token(Token = "0x6001335")]
-	[Address(RVA = "0x4A67B30", Offset = "0x4A67B30", VA = "0x4A67B30")]
+	[Address(RVA = "0x4D8F350", Offset = "0x4D8F350", VA = "0x4D8F350")]
 	private string ToString(bool includeAssemblyDescription)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001336")]
-	[Address(RVA = "0x4A67DD0", Offset = "0x4A67DD0", VA = "0x4A67DD0", Slot = "3")]
+	[Address(RVA = "0x4D8F5F0", Offset = "0x4D8F5F0", VA = "0x4D8F5F0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.TypedObject
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -20,13 +27,13 @@ internal class TypedObject
 		public bool IsDecimal
 		{
 			[Token(Token = "0x6000FB3")]
-			[Address(RVA = "0x4507230", Offset = "0x4507230", VA = "0x4507230")]
+			[Address(RVA = "0x4844990", Offset = "0x4844990", VA = "0x4844990")]
 			get
 			{
 				return default(bool);
 			}
 			[Token(Token = "0x6000FB4")]
-			[Address(RVA = "0x4507240", Offset = "0x4507240", VA = "0x4507240")]
+			[Address(RVA = "0x48449A0", Offset = "0x48449A0", VA = "0x48449A0")]
 			set
 			{
 			}
@@ -36,7 +43,7 @@ internal class TypedObject
 		public decimal[] Dvalue
 		{
 			[Token(Token = "0x6000FB5")]
-			[Address(RVA = "0x4507250", Offset = "0x4507250", VA = "0x4507250")]
+			[Address(RVA = "0x48449B0", Offset = "0x48449B0", VA = "0x48449B0")]
 			get
 			{
 				return null;
@@ -44,13 +51,13 @@ internal class TypedObject
 		}
 
 		[Token(Token = "0x6000FB6")]
-		[Address(RVA = "0x4506E00", Offset = "0x4506E00", VA = "0x4506E00")]
+		[Address(RVA = "0x4844560", Offset = "0x4844560", VA = "0x4844560")]
 		public DecimalStruct()
 		{
 		}
 
 		[Token(Token = "0x6000FB7")]
-		[Address(RVA = "0x4506DA0", Offset = "0x4506DA0", VA = "0x4506DA0")]
+		[Address(RVA = "0x4844500", Offset = "0x4844500", VA = "0x4844500")]
 		public DecimalStruct(int dim)
 		{
 		}
@@ -84,7 +91,7 @@ internal class TypedObject
 	public int Dim
 	{
 		[Token(Token = "0x6000FA8")]
-		[Address(RVA = "0x4506810", Offset = "0x4506810", VA = "0x4506810")]
+		[Address(RVA = "0x4843F70", Offset = "0x4843F70", VA = "0x4843F70")]
 		get
 		{
 			return default(int);
@@ -95,7 +102,7 @@ internal class TypedObject
 	public bool IsList
 	{
 		[Token(Token = "0x6000FA9")]
-		[Address(RVA = "0x4506820", Offset = "0x4506820", VA = "0x4506820")]
+		[Address(RVA = "0x4843F80", Offset = "0x4843F80", VA = "0x4843F80")]
 		get
 		{
 			return default(bool);
@@ -106,7 +113,7 @@ internal class TypedObject
 	public bool IsDecimal
 	{
 		[Token(Token = "0x6000FAA")]
-		[Address(RVA = "0x4506830", Offset = "0x4506830", VA = "0x4506830")]
+		[Address(RVA = "0x4843F90", Offset = "0x4843F90", VA = "0x4843F90")]
 		get
 		{
 			return default(bool);
@@ -117,7 +124,7 @@ internal class TypedObject
 	public decimal[] Dvalue
 	{
 		[Token(Token = "0x6000FAB")]
-		[Address(RVA = "0x4506850", Offset = "0x4506850", VA = "0x4506850")]
+		[Address(RVA = "0x4843FB0", Offset = "0x4843FB0", VA = "0x4843FB0")]
 		get
 		{
 			return null;
@@ -128,7 +135,7 @@ internal class TypedObject
 	public object Value
 	{
 		[Token(Token = "0x6000FAC")]
-		[Address(RVA = "0x4506870", Offset = "0x4506870", VA = "0x4506870")]
+		[Address(RVA = "0x4843FD0", Offset = "0x4843FD0", VA = "0x4843FD0")]
 		get
 		{
 			return null;
@@ -139,7 +146,7 @@ internal class TypedObject
 	public XmlSchemaDatatype Type
 	{
 		[Token(Token = "0x6000FAD")]
-		[Address(RVA = "0x4506880", Offset = "0x4506880", VA = "0x4506880")]
+		[Address(RVA = "0x4843FE0", Offset = "0x4843FE0", VA = "0x4843FE0")]
 		get
 		{
 			return null;
@@ -147,33 +154,33 @@ internal class TypedObject
 	}
 
 	[Token(Token = "0x6000FAE")]
-	[Address(RVA = "0x4506890", Offset = "0x4506890", VA = "0x4506890")]
+	[Address(RVA = "0x4843FF0", Offset = "0x4843FF0", VA = "0x4843FF0")]
 	public TypedObject(object obj, string svalue, XmlSchemaDatatype xsdtype)
 	{
 	}
 
 	[Token(Token = "0x6000FAF")]
-	[Address(RVA = "0x45069F0", Offset = "0x45069F0", VA = "0x45069F0", Slot = "3")]
+	[Address(RVA = "0x4844150", Offset = "0x4844150", VA = "0x4844150", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000FB0")]
-	[Address(RVA = "0x4506A00", Offset = "0x4506A00", VA = "0x4506A00")]
+	[Address(RVA = "0x4844160", Offset = "0x4844160", VA = "0x4844160")]
 	public void SetDecimal()
 	{
 	}
 
 	[Token(Token = "0x6000FB1")]
-	[Address(RVA = "0x4506E60", Offset = "0x4506E60", VA = "0x4506E60")]
+	[Address(RVA = "0x48445C0", Offset = "0x48445C0", VA = "0x48445C0")]
 	private bool ListDValueEquals(TypedObject other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FB2")]
-	[Address(RVA = "0x4506FB0", Offset = "0x4506FB0", VA = "0x4506FB0")]
+	[Address(RVA = "0x4844710", Offset = "0x4844710", VA = "0x4844710")]
 	public bool Equals(TypedObject other)
 	{
 		return default(bool);

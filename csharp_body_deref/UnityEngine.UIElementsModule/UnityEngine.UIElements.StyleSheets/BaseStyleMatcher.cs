@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.StyleSheets.BaseStyleMatcher
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using Il2CppDummyDll;
@@ -57,7 +64,7 @@ internal abstract class BaseStyleMatcher
 	public bool hasCurrent
 	{
 		[Token(Token = "0x6002045")]
-		[Address(RVA = "0x4CA6E80", Offset = "0x4CA6E80", VA = "0x4CA6E80")]
+		[Address(RVA = "0x4FCE7B0", Offset = "0x4FCE7B0", VA = "0x4FCE7B0")]
 		get
 		{
 			return default(bool);
@@ -68,13 +75,13 @@ internal abstract class BaseStyleMatcher
 	public int currentIndex
 	{
 		[Token(Token = "0x6002046")]
-		[Address(RVA = "0x4CA6EA0", Offset = "0x4CA6EA0", VA = "0x4CA6EA0")]
+		[Address(RVA = "0x4FCE7D0", Offset = "0x4FCE7D0", VA = "0x4FCE7D0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6002047")]
-		[Address(RVA = "0x4CA6EB0", Offset = "0x4CA6EB0", VA = "0x4CA6EB0")]
+		[Address(RVA = "0x4FCE7E0", Offset = "0x4FCE7E0", VA = "0x4FCE7E0")]
 		set
 		{
 		}
@@ -84,13 +91,13 @@ internal abstract class BaseStyleMatcher
 	public int matchedVariableCount
 	{
 		[Token(Token = "0x6002048")]
-		[Address(RVA = "0x4CA6EC0", Offset = "0x4CA6EC0", VA = "0x4CA6EC0")]
+		[Address(RVA = "0x4FCE7F0", Offset = "0x4FCE7F0", VA = "0x4FCE7F0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6002049")]
-		[Address(RVA = "0x4CA6ED0", Offset = "0x4CA6ED0", VA = "0x4CA6ED0")]
+		[Address(RVA = "0x4FCE800", Offset = "0x4FCE800", VA = "0x4FCE800")]
 		set
 		{
 		}
@@ -130,121 +137,121 @@ internal abstract class BaseStyleMatcher
 	protected abstract bool MatchCustomIdent();
 
 	[Token(Token = "0x600204A")]
-	[Address(RVA = "0x4CA6EE0", Offset = "0x4CA6EE0", VA = "0x4CA6EE0")]
+	[Address(RVA = "0x4FCE810", Offset = "0x4FCE810", VA = "0x4FCE810")]
 	protected void Initialize()
 	{
 	}
 
 	[Token(Token = "0x600204B")]
-	[Address(RVA = "0x4CA6F30", Offset = "0x4CA6F30", VA = "0x4CA6F30")]
+	[Address(RVA = "0x4FCE860", Offset = "0x4FCE860", VA = "0x4FCE860")]
 	public void MoveNext()
 	{
 	}
 
 	[Token(Token = "0x600204C")]
-	[Address(RVA = "0x4CA6F60", Offset = "0x4CA6F60", VA = "0x4CA6F60")]
+	[Address(RVA = "0x4FCE890", Offset = "0x4FCE890", VA = "0x4FCE890")]
 	public void SaveContext()
 	{
 	}
 
 	[Token(Token = "0x600204D")]
-	[Address(RVA = "0x4CA6FB0", Offset = "0x4CA6FB0", VA = "0x4CA6FB0")]
+	[Address(RVA = "0x4FCE8E0", Offset = "0x4FCE8E0", VA = "0x4FCE8E0")]
 	public void RestoreContext()
 	{
 	}
 
 	[Token(Token = "0x600204E")]
-	[Address(RVA = "0x4CA7000", Offset = "0x4CA7000", VA = "0x4CA7000")]
+	[Address(RVA = "0x4FCE930", Offset = "0x4FCE930", VA = "0x4FCE930")]
 	public void DropContext()
 	{
 	}
 
 	[Token(Token = "0x600204F")]
-	[Address(RVA = "0x4CA7040", Offset = "0x4CA7040", VA = "0x4CA7040")]
+	[Address(RVA = "0x4FCE970", Offset = "0x4FCE970", VA = "0x4FCE970")]
 	protected bool Match(Expression exp)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002050")]
-	[Address(RVA = "0x4CA70E0", Offset = "0x4CA70E0", VA = "0x4CA70E0")]
+	[Address(RVA = "0x4FCEA10", Offset = "0x4FCEA10", VA = "0x4FCEA10")]
 	private bool MatchExpression(Expression exp)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002051")]
-	[Address(RVA = "0x4CA71D0", Offset = "0x4CA71D0", VA = "0x4CA71D0")]
+	[Address(RVA = "0x4FCEB00", Offset = "0x4FCEB00", VA = "0x4FCEB00")]
 	private bool MatchExpressionWithMultiplier(Expression exp)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002052")]
-	[Address(RVA = "0x4CA75E0", Offset = "0x4CA75E0", VA = "0x4CA75E0")]
+	[Address(RVA = "0x4FCEF10", Offset = "0x4FCEF10", VA = "0x4FCEF10")]
 	private bool MatchGroup(Expression exp)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002053")]
-	[Address(RVA = "0x4CA7360", Offset = "0x4CA7360", VA = "0x4CA7360")]
+	[Address(RVA = "0x4FCEC90", Offset = "0x4FCEC90", VA = "0x4FCEC90")]
 	private bool MatchCombinator(Expression exp)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002054")]
-	[Address(RVA = "0x4CA7680", Offset = "0x4CA7680", VA = "0x4CA7680")]
+	[Address(RVA = "0x4FCEFB0", Offset = "0x4FCEFB0", VA = "0x4FCEFB0")]
 	private bool MatchOr(Expression exp)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002055")]
-	[Address(RVA = "0x4CA77C0", Offset = "0x4CA77C0", VA = "0x4CA77C0")]
+	[Address(RVA = "0x4FCF0F0", Offset = "0x4FCF0F0", VA = "0x4FCF0F0")]
 	private bool MatchOrOr(Expression exp)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002056")]
-	[Address(RVA = "0x4CA77D0", Offset = "0x4CA77D0", VA = "0x4CA77D0")]
+	[Address(RVA = "0x4FCF100", Offset = "0x4FCF100", VA = "0x4FCF100")]
 	private bool MatchAndAnd(Expression exp)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002057")]
-	[Address(RVA = "0x4CA7870", Offset = "0x4CA7870", VA = "0x4CA7870")]
+	[Address(RVA = "0x4FCF1A0", Offset = "0x4FCF1A0", VA = "0x4FCF1A0")]
 	private int MatchMany(Expression exp)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002058")]
-	[Address(RVA = "0x4CA7BF0", Offset = "0x4CA7BF0", VA = "0x4CA7BF0")]
+	[Address(RVA = "0x4FCF520", Offset = "0x4FCF520", VA = "0x4FCF520")]
 	private unsafe int MatchManyByOrder(Expression exp, int* matchOrder)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002059")]
-	[Address(RVA = "0x4CA7800", Offset = "0x4CA7800", VA = "0x4CA7800")]
+	[Address(RVA = "0x4FCF130", Offset = "0x4FCF130", VA = "0x4FCF130")]
 	private bool MatchJuxtaposition(Expression exp)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600205A")]
-	[Address(RVA = "0x4CA74C0", Offset = "0x4CA74C0", VA = "0x4CA74C0")]
+	[Address(RVA = "0x4FCEDF0", Offset = "0x4FCEDF0", VA = "0x4FCEDF0")]
 	private bool MatchDataType(Expression exp)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600205B")]
-	[Address(RVA = "0x4CA7D70", Offset = "0x4CA7D70", VA = "0x4CA7D70")]
+	[Address(RVA = "0x4FCF6A0", Offset = "0x4FCF6A0", VA = "0x4FCF6A0")]
 	protected BaseStyleMatcher()
 	{
 	}

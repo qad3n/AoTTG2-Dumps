@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Threading.Tasks.TaskScheduler
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -42,7 +49,7 @@ public abstract class TaskScheduler
 	internal virtual bool RequiresAtomicStartTransition
 	{
 		[Token(Token = "0x60014E6")]
-		[Address(RVA = "0x5067EE0", Offset = "0x5067EE0", VA = "0x5067EE0", Slot = "8")]
+		[Address(RVA = "0x3D4DA00", Offset = "0x3D4DA00", VA = "0x3D4DA00", Slot = "8")]
 		get
 		{
 			return default(bool);
@@ -53,7 +60,7 @@ public abstract class TaskScheduler
 	public static TaskScheduler Default
 	{
 		[Token(Token = "0x60014E8")]
-		[Address(RVA = "0x5067F00", Offset = "0x5067F00", VA = "0x5067F00")]
+		[Address(RVA = "0x3D4DA20", Offset = "0x3D4DA20", VA = "0x3D4DA20")]
 		get
 		{
 			return null;
@@ -64,7 +71,7 @@ public abstract class TaskScheduler
 	public static TaskScheduler Current
 	{
 		[Token(Token = "0x60014E9")]
-		[Address(RVA = "0x50611F0", Offset = "0x50611F0", VA = "0x50611F0")]
+		[Address(RVA = "0x3D46D10", Offset = "0x3D46D10", VA = "0x3D46D10")]
 		get
 		{
 			return null;
@@ -75,7 +82,7 @@ public abstract class TaskScheduler
 	internal static TaskScheduler InternalCurrent
 	{
 		[Token(Token = "0x60014EA")]
-		[Address(RVA = "0x505FC30", Offset = "0x505FC30", VA = "0x505FC30")]
+		[Address(RVA = "0x3D45750", Offset = "0x3D45750", VA = "0x3D45750")]
 		get
 		{
 			return null;
@@ -86,7 +93,7 @@ public abstract class TaskScheduler
 	public int Id
 	{
 		[Token(Token = "0x60014EC")]
-		[Address(RVA = "0x5060860", Offset = "0x5060860", VA = "0x5060860")]
+		[Address(RVA = "0x3D46380", Offset = "0x3D46380", VA = "0x3D46380")]
 		get
 		{
 			return default(int);
@@ -100,47 +107,47 @@ public abstract class TaskScheduler
 	protected abstract bool TryExecuteTaskInline(Task task, bool taskWasPreviouslyQueued);
 
 	[Token(Token = "0x60014E3")]
-	[Address(RVA = "0x5060640", Offset = "0x5060640", VA = "0x5060640")]
+	[Address(RVA = "0x3D46160", Offset = "0x3D46160", VA = "0x3D46160")]
 	internal bool TryRunInline(Task task, bool taskWasPreviouslyQueued)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60014E4")]
-	[Address(RVA = "0x5067EC0", Offset = "0x5067EC0", VA = "0x5067EC0", Slot = "6")]
+	[Address(RVA = "0x3D4D9E0", Offset = "0x3D4D9E0", VA = "0x3D4D9E0", Slot = "6")]
 	protected internal virtual bool TryDequeue(Task task)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60014E5")]
-	[Address(RVA = "0x5067ED0", Offset = "0x5067ED0", VA = "0x5067ED0", Slot = "7")]
+	[Address(RVA = "0x3D4D9F0", Offset = "0x3D4D9F0", VA = "0x3D4D9F0", Slot = "7")]
 	internal virtual void NotifyWorkItemProgress()
 	{
 	}
 
 	[Token(Token = "0x60014E7")]
-	[Address(RVA = "0x5067EF0", Offset = "0x5067EF0", VA = "0x5067EF0")]
+	[Address(RVA = "0x3D4DA10", Offset = "0x3D4DA10", VA = "0x3D4DA10")]
 	protected TaskScheduler()
 	{
 	}
 
 	[Token(Token = "0x60014EB")]
-	[Address(RVA = "0x5067F70", Offset = "0x5067F70", VA = "0x5067F70")]
+	[Address(RVA = "0x3D4DA90", Offset = "0x3D4DA90", VA = "0x3D4DA90")]
 	public static TaskScheduler FromCurrentSynchronizationContext()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60014ED")]
-	[Address(RVA = "0x5068060", Offset = "0x5068060", VA = "0x5068060")]
+	[Address(RVA = "0x3D4DB80", Offset = "0x3D4DB80", VA = "0x3D4DB80")]
 	protected bool TryExecuteTask(Task task)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60014EE")]
-	[Address(RVA = "0x5066BF0", Offset = "0x5066BF0", VA = "0x5066BF0")]
+	[Address(RVA = "0x3D4C710", Offset = "0x3D4C710", VA = "0x3D4C710")]
 	internal static void PublishUnobservedTaskException(object sender, UnobservedTaskExceptionEventArgs ueea)
 	{
 	}

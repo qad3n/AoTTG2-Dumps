@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.Unity.AndroidAudioInAEC
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/PhotonVoiceApi/Platforms/Unity/Android/UnityAndroidAudioInAEC.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -28,25 +35,25 @@ public class AndroidAudioInAEC : IAudioPusher<short>, IAudioDesc, IDisposable, I
 		private int cntShort;
 
 		[Token(Token = "0x6000378")]
-		[Address(RVA = "0x3C42010", Offset = "0x3C42010", VA = "0x3C42010")]
+		[Address(RVA = "0x3F37960", Offset = "0x3F37960", VA = "0x3F37960")]
 		public DataCallback()
 		{
 		}
 
 		[Token(Token = "0x6000379")]
-		[Address(RVA = "0x3C42380", Offset = "0x3C42380", VA = "0x3C42380")]
+		[Address(RVA = "0x3F37CD0", Offset = "0x3F37CD0", VA = "0x3F37CD0")]
 		public void SetCallback(Action<short[]> callback, IntPtr javaBuf)
 		{
 		}
 
 		[Token(Token = "0x600037A")]
-		[Address(RVA = "0x3C425D0", Offset = "0x3C425D0", VA = "0x3C425D0")]
+		[Address(RVA = "0x3F37F20", Offset = "0x3F37F20", VA = "0x3F37F20")]
 		public void OnData()
 		{
 		}
 
 		[Token(Token = "0x600037B")]
-		[Address(RVA = "0x3C42620", Offset = "0x3C42620", VA = "0x3C42620")]
+		[Address(RVA = "0x3F37F70", Offset = "0x3F37F70", VA = "0x3F37F70")]
 		public void OnStop()
 		{
 		}
@@ -76,7 +83,7 @@ public class AndroidAudioInAEC : IAudioPusher<short>, IAudioDesc, IDisposable, I
 	public int Channels
 	{
 		[Token(Token = "0x6000372")]
-		[Address(RVA = "0x3C42070", Offset = "0x3C42070", VA = "0x3C42070", Slot = "6")]
+		[Address(RVA = "0x3F379C0", Offset = "0x3F379C0", VA = "0x3F379C0", Slot = "6")]
 		get
 		{
 			return default(int);
@@ -87,7 +94,7 @@ public class AndroidAudioInAEC : IAudioPusher<short>, IAudioDesc, IDisposable, I
 	public int SamplingRate
 	{
 		[Token(Token = "0x6000373")]
-		[Address(RVA = "0x3C423B0", Offset = "0x3C423B0", VA = "0x3C423B0", Slot = "5")]
+		[Address(RVA = "0x3F37D00", Offset = "0x3F37D00", VA = "0x3F37D00", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -98,14 +105,14 @@ public class AndroidAudioInAEC : IAudioPusher<short>, IAudioDesc, IDisposable, I
 	public string Error
 	{
 		[Token(Token = "0x6000374")]
-		[Address(RVA = "0x3C423C0", Offset = "0x3C423C0", VA = "0x3C423C0", Slot = "7")]
+		[Address(RVA = "0x3F37D10", Offset = "0x3F37D10", VA = "0x3F37D10", Slot = "7")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000375")]
-		[Address(RVA = "0x3C423D0", Offset = "0x3C423D0", VA = "0x3C423D0")]
+		[Address(RVA = "0x3F37D20", Offset = "0x3F37D20", VA = "0x3F37D20")]
 		[CompilerGenerated]
 		private set
 		{
@@ -113,25 +120,25 @@ public class AndroidAudioInAEC : IAudioPusher<short>, IAudioDesc, IDisposable, I
 	}
 
 	[Token(Token = "0x6000370")]
-	[Address(RVA = "0x3C40A80", Offset = "0x3C40A80", VA = "0x3C40A80")]
+	[Address(RVA = "0x3F363D0", Offset = "0x3F363D0", VA = "0x3F363D0")]
 	public AndroidAudioInAEC(ILogger logger, bool enableAEC = false, bool enableAGC = false, bool enableNS = false)
 	{
 	}
 
 	[Token(Token = "0x6000371")]
-	[Address(RVA = "0x3C42080", Offset = "0x3C42080", VA = "0x3C42080", Slot = "4")]
+	[Address(RVA = "0x3F379D0", Offset = "0x3F379D0", VA = "0x3F379D0", Slot = "4")]
 	public void SetCallback(Action<short[]> callback, ObjectFactory<short[], int> bufferFactory)
 	{
 	}
 
 	[Token(Token = "0x6000376")]
-	[Address(RVA = "0x3C423E0", Offset = "0x3C423E0", VA = "0x3C423E0", Slot = "9")]
+	[Address(RVA = "0x3F37D30", Offset = "0x3F37D30", VA = "0x3F37D30", Slot = "9")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x6000377")]
-	[Address(RVA = "0x3C424D0", Offset = "0x3C424D0", VA = "0x3C424D0", Slot = "8")]
+	[Address(RVA = "0x3F37E20", Offset = "0x3F37E20", VA = "0x3F37E20", Slot = "8")]
 	public void Dispose()
 	{
 	}

@@ -1,40 +1,47 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Characters.AdvancedAlloyPerk
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Characters/AdvancedAlloyPerk.c
+// Prior real C# source (older reference): Assets/Scripts/Characters/Human/Perks/AdvancedAlloyPerk.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x20004C9")]
+[Token(Token = "0x200050E")]
 internal class AdvancedAlloyPerk : BasePerk
 {
-	[Token(Token = "0x17000967")]
+	[Token(Token = "0x170009D1")]
 	public override string Name
 	{
-		[Token(Token = "0x6003335")]
-		[Address(RVA = "0x3EDA1A0", Offset = "0x3EDA1A0", VA = "0x3EDA1A0", Slot = "4")]
+		[Token(Token = "0x6003543")]
+		[Address(RVA = "0x41E6A60", Offset = "0x41E6A60", VA = "0x41E6A60", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000968")]
+	[Token(Token = "0x170009D2")]
 	public override int MaxPoints
 	{
-		[Token(Token = "0x6003336")]
-		[Address(RVA = "0x3EDA1D0", Offset = "0x3EDA1D0", VA = "0x3EDA1D0", Slot = "5")]
+		[Token(Token = "0x6003544")]
+		[Address(RVA = "0x41E6A90", Offset = "0x41E6A90", VA = "0x41E6A90", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6003337")]
-	[Address(RVA = "0x3EDA1E0", Offset = "0x3EDA1E0", VA = "0x3EDA1E0", Slot = "6")]
+	[Token(Token = "0x6003545")]
+	[Address(RVA = "0x41E6AA0", Offset = "0x41E6AA0", VA = "0x41E6AA0", Slot = "6")]
 	protected override void SetupRequirements()
 	{
 	}
 
-	[Token(Token = "0x6003338")]
-	[Address(RVA = "0x3ED8530", Offset = "0x3ED8530", VA = "0x3ED8530")]
+	[Token(Token = "0x6003546")]
+	[Address(RVA = "0x41E4DF0", Offset = "0x41E4DF0", VA = "0x41E4DF0")]
 	public AdvancedAlloyPerk()
 	{
 	}

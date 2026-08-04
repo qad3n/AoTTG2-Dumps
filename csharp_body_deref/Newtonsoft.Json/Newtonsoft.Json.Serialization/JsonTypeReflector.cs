@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Serialization.JsonTypeReflector
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.ComponentModel;
 using System.Reflection;
@@ -58,7 +65,7 @@ internal static class JsonTypeReflector
 	public static bool DynamicCodeGeneration
 	{
 		[Token(Token = "0x6000968")]
-		[Address(RVA = "0x3AFE200", Offset = "0x3AFE200", VA = "0x3AFE200")]
+		[Address(RVA = "0x3DF3B50", Offset = "0x3DF3B50", VA = "0x3DF3B50")]
 		get
 		{
 			return default(bool);
@@ -69,7 +76,7 @@ internal static class JsonTypeReflector
 	public static bool FullyTrusted
 	{
 		[Token(Token = "0x6000969")]
-		[Address(RVA = "0x3AFC360", Offset = "0x3AFC360", VA = "0x3AFC360")]
+		[Address(RVA = "0x3DF1CB0", Offset = "0x3DF1CB0", VA = "0x3DF1CB0")]
 		get
 		{
 			return default(bool);
@@ -80,7 +87,7 @@ internal static class JsonTypeReflector
 	public static ReflectionDelegateFactory ReflectionDelegateFactory
 	{
 		[Token(Token = "0x600096A")]
-		[Address(RVA = "0x3AFDDD0", Offset = "0x3AFDDD0", VA = "0x3AFDDD0")]
+		[Address(RVA = "0x3DF3720", Offset = "0x3DF3720", VA = "0x3DF3720")]
 		get
 		{
 			return null;
@@ -94,77 +101,77 @@ internal static class JsonTypeReflector
 	}
 
 	[Token(Token = "0x6000958")]
-	[Address(RVA = "0x3AFA250", Offset = "0x3AFA250", VA = "0x3AFA250")]
+	[Address(RVA = "0x3DEFBA0", Offset = "0x3DEFBA0", VA = "0x3DEFBA0")]
 	public static bool CanTypeDescriptorConvertString(Type type, out TypeConverter typeConverter)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000959")]
-	[Address(RVA = "0x3AFD280", Offset = "0x3AFD280", VA = "0x3AFD280")]
+	[Address(RVA = "0x3DF2BD0", Offset = "0x3DF2BD0", VA = "0x3DF2BD0")]
 	public static DataContractAttribute GetDataContractAttribute(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600095A")]
-	[Address(RVA = "0x3AFD350", Offset = "0x3AFD350", VA = "0x3AFD350")]
+	[Address(RVA = "0x3DF2CA0", Offset = "0x3DF2CA0", VA = "0x3DF2CA0")]
 	public static DataMemberAttribute GetDataMemberAttribute(MemberInfo memberInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600095B")]
-	[Address(RVA = "0x3AFD600", Offset = "0x3AFD600", VA = "0x3AFD600")]
+	[Address(RVA = "0x3DF2F50", Offset = "0x3DF2F50", VA = "0x3DF2F50")]
 	public static MemberSerialization GetObjectMemberSerialization(Type objectType, bool ignoreSerializableAttribute)
 	{
 		return default(MemberSerialization);
 	}
 
 	[Token(Token = "0x600095C")]
-	[Address(RVA = "0x3AFD790", Offset = "0x3AFD790", VA = "0x3AFD790")]
+	[Address(RVA = "0x3DF30E0", Offset = "0x3DF30E0", VA = "0x3DF30E0")]
 	public static JsonConverter GetJsonConverter(object attributeProvider)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600095D")]
-	[Address(RVA = "0x3AFD8B0", Offset = "0x3AFD8B0", VA = "0x3AFD8B0")]
+	[Address(RVA = "0x3DF3200", Offset = "0x3DF3200", VA = "0x3DF3200")]
 	public static JsonConverter CreateJsonConverterInstance(Type converterType, object[]? args)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600095E")]
-	[Address(RVA = "0x3AFD9B0", Offset = "0x3AFD9B0", VA = "0x3AFD9B0")]
+	[Address(RVA = "0x3DF3300", Offset = "0x3DF3300", VA = "0x3DF3300")]
 	public static NamingStrategy CreateNamingStrategyInstance(Type namingStrategyType, object[]? args)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600095F")]
-	[Address(RVA = "0x3AFDAB0", Offset = "0x3AFDAB0", VA = "0x3AFDAB0")]
+	[Address(RVA = "0x3DF3400", Offset = "0x3DF3400", VA = "0x3DF3400")]
 	public static NamingStrategy GetContainerNamingStrategy(JsonContainerAttribute containerAttribute)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000960")]
-	[Address(RVA = "0x3AFDB70", Offset = "0x3AFDB70", VA = "0x3AFDB70")]
+	[Address(RVA = "0x3DF34C0", Offset = "0x3DF34C0", VA = "0x3DF34C0")]
 	private static Func<object[], object> GetCreator(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000961")]
-	[Address(RVA = "0x3AFDE80", Offset = "0x3AFDE80", VA = "0x3AFDE80")]
+	[Address(RVA = "0x3DF37D0", Offset = "0x3DF37D0", VA = "0x3DF37D0")]
 	private static Type GetAssociatedMetadataType(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000962")]
-	[Address(RVA = "0x3AFDF20", Offset = "0x3AFDF20", VA = "0x3AFDF20")]
+	[Address(RVA = "0x3DF3870", Offset = "0x3DF3870", VA = "0x3DF3870")]
 	private static Type GetAssociateMetadataTypeFromAttribute(Type type)
 	{
 		return null;
@@ -183,14 +190,14 @@ internal static class JsonTypeReflector
 	}
 
 	[Token(Token = "0x6000965")]
-	[Address(RVA = "0x3AFE1A0", Offset = "0x3AFE1A0", VA = "0x3AFE1A0")]
+	[Address(RVA = "0x3DF3AF0", Offset = "0x3DF3AF0", VA = "0x3DF3AF0")]
 	public static bool IsNonSerializable(object provider)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000966")]
-	[Address(RVA = "0x3AFD730", Offset = "0x3AFD730", VA = "0x3AFD730")]
+	[Address(RVA = "0x3DF3080", Offset = "0x3DF3080", VA = "0x3DF3080")]
 	public static bool IsSerializable(object provider)
 	{
 		return default(bool);

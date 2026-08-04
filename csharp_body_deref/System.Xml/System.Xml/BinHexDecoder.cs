@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.BinHexDecoder
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml;
@@ -29,7 +36,7 @@ internal class BinHexDecoder : IncrementalReadDecoder
 	internal override bool IsFull
 	{
 		[Token(Token = "0x6000010")]
-		[Address(RVA = "0x43469F0", Offset = "0x43469F0", VA = "0x43469F0", Slot = "4")]
+		[Address(RVA = "0x4678AC0", Offset = "0x4678AC0", VA = "0x4678AC0", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -37,21 +44,21 @@ internal class BinHexDecoder : IncrementalReadDecoder
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x4346A00", Offset = "0x4346A00", VA = "0x4346A00", Slot = "5")]
+	[Address(RVA = "0x4678AD0", Offset = "0x4678AD0", VA = "0x4678AD0", Slot = "5")]
 	internal override int Decode(char[] chars, int startPos, int len)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x4346DA0", Offset = "0x4346DA0", VA = "0x4346DA0")]
+	[Address(RVA = "0x4678E70", Offset = "0x4678E70", VA = "0x4678E70")]
 	public static byte[] Decode(char[] chars, bool allowOddChars)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x4346B80", Offset = "0x4346B80", VA = "0x4346B80")]
+	[Address(RVA = "0x4678C50", Offset = "0x4678C50", VA = "0x4678C50")]
 	private unsafe static void Decode(char* pChars, char* pCharsEndPos, byte* pBytes, byte* pBytesEndPos, ref bool hasHalfByteCached, ref byte cachedHalfByte, out int charsDecoded, out int bytesDecoded)
 	{
 	}

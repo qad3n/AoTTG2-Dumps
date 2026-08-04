@@ -9,7 +9,7 @@ public abstract class PrimeGeneratorBase
 	public virtual ConfidenceFactor Confidence
 	{
 		[Token(Token = "0x60001F9")]
-		[Address(RVA = "0x3A5E5C0", Offset = "0x3A5E5C0", VA = "0x3A5E5C0", Slot = "4")]
+		[Address(RVA = "0x3ACB280", Offset = "0x3ACB280", VA = "0x3ACB280", Slot = "4")]
 		get
 		{
 			return default(ConfidenceFactor);
@@ -20,7 +20,7 @@ public abstract class PrimeGeneratorBase
 	public virtual PrimalityTest PrimalityTest
 	{
 		[Token(Token = "0x60001FA")]
-		[Address(RVA = "0x3A5E5D0", Offset = "0x3A5E5D0", VA = "0x3A5E5D0", Slot = "5")]
+		[Address(RVA = "0x3ACB290", Offset = "0x3ACB290", VA = "0x3ACB290", Slot = "5")]
 		get
 		{
 			return null;
@@ -31,7 +31,7 @@ public abstract class PrimeGeneratorBase
 	public virtual int TrialDivisionBounds
 	{
 		[Token(Token = "0x60001FB")]
-		[Address(RVA = "0x3A5E630", Offset = "0x3A5E630", VA = "0x3A5E630", Slot = "6")]
+		[Address(RVA = "0x3ACB2F0", Offset = "0x3ACB2F0", VA = "0x3ACB2F0", Slot = "6")]
 		get
 		{
 			return default(int);
@@ -42,7 +42,7 @@ public abstract class PrimeGeneratorBase
 	public abstract BigInteger GenerateNewPrime(int bits);
 
 	[Token(Token = "0x60001FD")]
-	[Address(RVA = "0x3A5E640", Offset = "0x3A5E640", VA = "0x3A5E640")]
+	[Address(RVA = "0x3ACB300", Offset = "0x3ACB300", VA = "0x3ACB300")]
 	protected PrimeGeneratorBase()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.RijndaelManagedTransform
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -107,7 +114,7 @@ public sealed class RijndaelManagedTransform : ICryptoTransform, IDisposable
 	public int BlockSizeValue
 	{
 		[Token(Token = "0x60019A8")]
-		[Address(RVA = "0x4E52D40", Offset = "0x4E52D40", VA = "0x4E52D40")]
+		[Address(RVA = "0x3B38860", Offset = "0x3B38860", VA = "0x3B38860")]
 		get
 		{
 			return default(int);
@@ -118,7 +125,7 @@ public sealed class RijndaelManagedTransform : ICryptoTransform, IDisposable
 	public int InputBlockSize
 	{
 		[Token(Token = "0x60019A9")]
-		[Address(RVA = "0x4E52D50", Offset = "0x4E52D50", VA = "0x4E52D50", Slot = "4")]
+		[Address(RVA = "0x3B38870", Offset = "0x3B38870", VA = "0x3B38870", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -129,7 +136,7 @@ public sealed class RijndaelManagedTransform : ICryptoTransform, IDisposable
 	public int OutputBlockSize
 	{
 		[Token(Token = "0x60019AA")]
-		[Address(RVA = "0x4E52D60", Offset = "0x4E52D60", VA = "0x4E52D60", Slot = "5")]
+		[Address(RVA = "0x3B38880", Offset = "0x3B38880", VA = "0x3B38880", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -140,7 +147,7 @@ public sealed class RijndaelManagedTransform : ICryptoTransform, IDisposable
 	public bool CanTransformMultipleBlocks
 	{
 		[Token(Token = "0x60019AB")]
-		[Address(RVA = "0x4E52D70", Offset = "0x4E52D70", VA = "0x4E52D70", Slot = "6")]
+		[Address(RVA = "0x3B38890", Offset = "0x3B38890", VA = "0x3B38890", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -151,7 +158,7 @@ public sealed class RijndaelManagedTransform : ICryptoTransform, IDisposable
 	public bool CanReuseTransform
 	{
 		[Token(Token = "0x60019AC")]
-		[Address(RVA = "0x4E52D80", Offset = "0x4E52D80", VA = "0x4E52D80", Slot = "7")]
+		[Address(RVA = "0x3B388A0", Offset = "0x3B388A0", VA = "0x3B388A0", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -159,118 +166,118 @@ public sealed class RijndaelManagedTransform : ICryptoTransform, IDisposable
 	}
 
 	[Token(Token = "0x60019A4")]
-	[Address(RVA = "0x4E52020", Offset = "0x4E52020", VA = "0x4E52020")]
+	[Address(RVA = "0x3B37B40", Offset = "0x3B37B40", VA = "0x3B37B40")]
 	internal RijndaelManagedTransform(byte[] rgbKey, CipherMode mode, byte[] rgbIV, int blockSize, int feedbackSize, PaddingMode PaddingValue, System.Security.Cryptography.RijndaelManagedTransformMode transformMode)
 	{
 	}
 
 	[Token(Token = "0x60019A5")]
-	[Address(RVA = "0x4E52C00", Offset = "0x4E52C00", VA = "0x4E52C00", Slot = "10")]
+	[Address(RVA = "0x3B38720", Offset = "0x3B38720", VA = "0x3B38720", Slot = "10")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60019A6")]
-	[Address(RVA = "0x4E52D30", Offset = "0x4E52D30", VA = "0x4E52D30")]
+	[Address(RVA = "0x3B38850", Offset = "0x3B38850", VA = "0x3B38850")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x60019A7")]
-	[Address(RVA = "0x4E52C10", Offset = "0x4E52C10", VA = "0x4E52C10")]
+	[Address(RVA = "0x3B38730", Offset = "0x3B38730", VA = "0x3B38730")]
 	private void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x60019AD")]
-	[Address(RVA = "0x4E52D90", Offset = "0x4E52D90", VA = "0x4E52D90", Slot = "8")]
+	[Address(RVA = "0x3B388B0", Offset = "0x3B388B0", VA = "0x3B388B0", Slot = "8")]
 	public int TransformBlock(byte[] inputBuffer, int inputOffset, int inputCount, byte[] outputBuffer, int outputOffset)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60019AE")]
-	[Address(RVA = "0x4E54A60", Offset = "0x4E54A60", VA = "0x4E54A60", Slot = "9")]
+	[Address(RVA = "0x3B3A580", Offset = "0x3B3A580", VA = "0x3B3A580", Slot = "9")]
 	public byte[] TransformFinalBlock(byte[] inputBuffer, int inputOffset, int inputCount)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60019AF")]
-	[Address(RVA = "0x4E54DB0", Offset = "0x4E54DB0", VA = "0x4E54DB0")]
+	[Address(RVA = "0x3B3A8D0", Offset = "0x3B3A8D0", VA = "0x3B3A8D0")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x60019B0")]
-	[Address(RVA = "0x4E53080", Offset = "0x4E53080", VA = "0x4E53080")]
+	[Address(RVA = "0x3B38BA0", Offset = "0x3B38BA0", VA = "0x3B38BA0")]
 	private int EncryptData(byte[] inputBuffer, int inputOffset, int inputCount, ref byte[] outputBuffer, int outputOffset, PaddingMode paddingMode, bool fLast)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60019B1")]
-	[Address(RVA = "0x4E53E60", Offset = "0x4E53E60", VA = "0x4E53E60")]
+	[Address(RVA = "0x3B39980", Offset = "0x3B39980", VA = "0x3B39980")]
 	private int DecryptData(byte[] inputBuffer, int inputOffset, int inputCount, ref byte[] outputBuffer, int outputOffset, PaddingMode paddingMode, bool fLast)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60019B2")]
-	[Address(RVA = "0x4E54E10", Offset = "0x4E54E10", VA = "0x4E54E10")]
+	[Address(RVA = "0x3B3A930", Offset = "0x3B3A930", VA = "0x3B3A930")]
 	private unsafe void Enc(int* encryptindex, int* encryptKeyExpansion, int* T, int* TF, int* work, int* temp)
 	{
 	}
 
 	[Token(Token = "0x60019B3")]
-	[Address(RVA = "0x4E55010", Offset = "0x4E55010", VA = "0x4E55010")]
+	[Address(RVA = "0x3B3AB30", Offset = "0x3B3AB30", VA = "0x3B3AB30")]
 	private unsafe void Dec(int* decryptindex, int* decryptKeyExpansion, int* iT, int* iTF, int* work, int* temp)
 	{
 	}
 
 	[Token(Token = "0x60019B4")]
-	[Address(RVA = "0x4E52640", Offset = "0x4E52640", VA = "0x4E52640")]
+	[Address(RVA = "0x3B38160", Offset = "0x3B38160", VA = "0x3B38160")]
 	private void GenerateKeyExpansion(byte[] rgbKey)
 	{
 	}
 
 	[Token(Token = "0x60019B5")]
-	[Address(RVA = "0x4E55390", Offset = "0x4E55390", VA = "0x4E55390")]
+	[Address(RVA = "0x3B3AEB0", Offset = "0x3B3AEB0", VA = "0x3B3AEB0")]
 	private static int rot1(int val)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60019B6")]
-	[Address(RVA = "0x4E55380", Offset = "0x4E55380", VA = "0x4E55380")]
+	[Address(RVA = "0x3B3AEA0", Offset = "0x3B3AEA0", VA = "0x3B3AEA0")]
 	private static int rot2(int val)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60019B7")]
-	[Address(RVA = "0x4E55250", Offset = "0x4E55250", VA = "0x4E55250")]
+	[Address(RVA = "0x3B3AD70", Offset = "0x3B3AD70", VA = "0x3B3AD70")]
 	private static int rot3(int val)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60019B8")]
-	[Address(RVA = "0x4E55260", Offset = "0x4E55260", VA = "0x4E55260")]
+	[Address(RVA = "0x3B3AD80", Offset = "0x3B3AD80", VA = "0x3B3AD80")]
 	private static int SubWord(int a)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60019B9")]
-	[Address(RVA = "0x4E55360", Offset = "0x4E55360", VA = "0x4E55360")]
+	[Address(RVA = "0x3B3AE80", Offset = "0x3B3AE80", VA = "0x3B3AE80")]
 	private static int MulX(int x)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60019BB")]
-	[Address(RVA = "0x4E555C0", Offset = "0x4E555C0", VA = "0x4E555C0")]
+	[Address(RVA = "0x3B3B0E0", Offset = "0x3B3B0E0", VA = "0x3B3B0E0")]
 	internal RijndaelManagedTransform()
 	{
 	}

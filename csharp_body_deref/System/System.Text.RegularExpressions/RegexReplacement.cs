@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.RegularExpressions.RegexReplacement
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -35,7 +42,7 @@ internal sealed class RegexReplacement
 	public string Pattern
 	{
 		[Token(Token = "0x6000435")]
-		[Address(RVA = "0x45FAC30", Offset = "0x45FAC30", VA = "0x45FAC30")]
+		[Address(RVA = "0x491FD30", Offset = "0x491FD30", VA = "0x491FD30")]
 		[CompilerGenerated]
 		get
 		{
@@ -44,32 +51,32 @@ internal sealed class RegexReplacement
 	}
 
 	[Token(Token = "0x6000433")]
-	[Address(RVA = "0x45F53C0", Offset = "0x45F53C0", VA = "0x45F53C0")]
+	[Address(RVA = "0x491A4C0", Offset = "0x491A4C0", VA = "0x491A4C0")]
 	public RegexReplacement(string rep, RegexNode concat, Hashtable _caps)
 	{
 	}
 
 	[Token(Token = "0x6000434")]
-	[Address(RVA = "0x45FAB30", Offset = "0x45FAB30", VA = "0x45FAB30")]
+	[Address(RVA = "0x491FC30", Offset = "0x491FC30", VA = "0x491FC30")]
 	public static RegexReplacement GetOrCreate(WeakReference<RegexReplacement> replRef, string replacement, Hashtable caps, int capsize, Hashtable capnames, RegexOptions roptions)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000436")]
-	[Address(RVA = "0x45FAC40", Offset = "0x45FAC40", VA = "0x45FAC40")]
+	[Address(RVA = "0x491FD40", Offset = "0x491FD40", VA = "0x491FD40")]
 	private void ReplacementImpl(StringBuilder sb, Match match)
 	{
 	}
 
 	[Token(Token = "0x6000437")]
-	[Address(RVA = "0x45FAEA0", Offset = "0x45FAEA0", VA = "0x45FAEA0")]
+	[Address(RVA = "0x491FFA0", Offset = "0x491FFA0", VA = "0x491FFA0")]
 	private void ReplacementImplRTL(List<string> al, Match match)
 	{
 	}
 
 	[Token(Token = "0x6000438")]
-	[Address(RVA = "0x45FB130", Offset = "0x45FB130", VA = "0x45FB130")]
+	[Address(RVA = "0x4920230", Offset = "0x4920230", VA = "0x4920230")]
 	public string Replace(Regex regex, string input, int count, int startat)
 	{
 		return null;

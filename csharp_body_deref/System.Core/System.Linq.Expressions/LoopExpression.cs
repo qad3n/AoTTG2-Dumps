@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.LoopExpression
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -12,7 +19,7 @@ public sealed class LoopExpression : Expression
 	public sealed override Type Type
 	{
 		[Token(Token = "0x6000467")]
-		[Address(RVA = "0x4197B20", Offset = "0x4197B20", VA = "0x4197B20", Slot = "5")]
+		[Address(RVA = "0x44BCC20", Offset = "0x44BCC20", VA = "0x44BCC20", Slot = "5")]
 		get
 		{
 			return null;
@@ -23,7 +30,7 @@ public sealed class LoopExpression : Expression
 	public sealed override ExpressionType NodeType
 	{
 		[Token(Token = "0x6000468")]
-		[Address(RVA = "0x4197B70", Offset = "0x4197B70", VA = "0x4197B70", Slot = "4")]
+		[Address(RVA = "0x44BCC70", Offset = "0x44BCC70", VA = "0x44BCC70", Slot = "4")]
 		get
 		{
 			return default(ExpressionType);
@@ -34,7 +41,7 @@ public sealed class LoopExpression : Expression
 	public Expression Body
 	{
 		[Token(Token = "0x6000469")]
-		[Address(RVA = "0x4197B80", Offset = "0x4197B80", VA = "0x4197B80")]
+		[Address(RVA = "0x44BCC80", Offset = "0x44BCC80", VA = "0x44BCC80")]
 		[CompilerGenerated]
 		get
 		{
@@ -46,7 +53,7 @@ public sealed class LoopExpression : Expression
 	public LabelTarget BreakLabel
 	{
 		[Token(Token = "0x600046A")]
-		[Address(RVA = "0x4197B90", Offset = "0x4197B90", VA = "0x4197B90")]
+		[Address(RVA = "0x44BCC90", Offset = "0x44BCC90", VA = "0x44BCC90")]
 		[CompilerGenerated]
 		get
 		{
@@ -58,7 +65,7 @@ public sealed class LoopExpression : Expression
 	public LabelTarget ContinueLabel
 	{
 		[Token(Token = "0x600046B")]
-		[Address(RVA = "0x4197BA0", Offset = "0x4197BA0", VA = "0x4197BA0")]
+		[Address(RVA = "0x44BCCA0", Offset = "0x44BCCA0", VA = "0x44BCCA0")]
 		[CompilerGenerated]
 		get
 		{
@@ -67,20 +74,20 @@ public sealed class LoopExpression : Expression
 	}
 
 	[Token(Token = "0x6000466")]
-	[Address(RVA = "0x4197A90", Offset = "0x4197A90", VA = "0x4197A90")]
+	[Address(RVA = "0x44BCB90", Offset = "0x44BCB90", VA = "0x44BCB90")]
 	internal LoopExpression(Expression body, LabelTarget @break, LabelTarget @continue)
 	{
 	}
 
 	[Token(Token = "0x600046C")]
-	[Address(RVA = "0x4197BB0", Offset = "0x4197BB0", VA = "0x4197BB0", Slot = "9")]
+	[Address(RVA = "0x44BCCB0", Offset = "0x44BCCB0", VA = "0x44BCCB0", Slot = "9")]
 	protected internal override Expression Accept(ExpressionVisitor visitor)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600046D")]
-	[Address(RVA = "0x4195650", Offset = "0x4195650", VA = "0x4195650")]
+	[Address(RVA = "0x44BA750", Offset = "0x44BA750", VA = "0x44BA750")]
 	public LoopExpression Update(LabelTarget breakLabel, LabelTarget continueLabel, Expression body)
 	{
 		return null;

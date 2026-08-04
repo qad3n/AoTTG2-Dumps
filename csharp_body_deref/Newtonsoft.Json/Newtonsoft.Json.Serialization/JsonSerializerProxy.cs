@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Serialization.JsonSerializerProxy
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Globalization;
@@ -26,13 +33,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override IReferenceResolver? ReferenceResolver
 	{
 		[Token(Token = "0x6000915")]
-		[Address(RVA = "0x3AFC5B0", Offset = "0x3AFC5B0", VA = "0x3AFC5B0", Slot = "6")]
+		[Address(RVA = "0x3DF1F00", Offset = "0x3DF1F00", VA = "0x3DF1F00", Slot = "6")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000916")]
-		[Address(RVA = "0x3AFC5E0", Offset = "0x3AFC5E0", VA = "0x3AFC5E0", Slot = "7")]
+		[Address(RVA = "0x3DF1F30", Offset = "0x3DF1F30", VA = "0x3DF1F30", Slot = "7")]
 		set
 		{
 		}
@@ -42,13 +49,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override ITraceWriter? TraceWriter
 	{
 		[Token(Token = "0x6000917")]
-		[Address(RVA = "0x3AFC610", Offset = "0x3AFC610", VA = "0x3AFC610", Slot = "12")]
+		[Address(RVA = "0x3DF1F60", Offset = "0x3DF1F60", VA = "0x3DF1F60", Slot = "12")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000918")]
-		[Address(RVA = "0x3AFC640", Offset = "0x3AFC640", VA = "0x3AFC640", Slot = "13")]
+		[Address(RVA = "0x3DF1F90", Offset = "0x3DF1F90", VA = "0x3DF1F90", Slot = "13")]
 		set
 		{
 		}
@@ -58,13 +65,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override IEqualityComparer? EqualityComparer
 	{
 		[Token(Token = "0x6000919")]
-		[Address(RVA = "0x3AFC670", Offset = "0x3AFC670", VA = "0x3AFC670", Slot = "14")]
+		[Address(RVA = "0x3DF1FC0", Offset = "0x3DF1FC0", VA = "0x3DF1FC0", Slot = "14")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600091A")]
-		[Address(RVA = "0x3AFC6A0", Offset = "0x3AFC6A0", VA = "0x3AFC6A0", Slot = "15")]
+		[Address(RVA = "0x3DF1FF0", Offset = "0x3DF1FF0", VA = "0x3DF1FF0", Slot = "15")]
 		set
 		{
 		}
@@ -74,7 +81,7 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override JsonConverterCollection Converters
 	{
 		[Token(Token = "0x600091B")]
-		[Address(RVA = "0x3AFC6D0", Offset = "0x3AFC6D0", VA = "0x3AFC6D0", Slot = "38")]
+		[Address(RVA = "0x3DF2020", Offset = "0x3DF2020", VA = "0x3DF2020", Slot = "38")]
 		get
 		{
 			return null;
@@ -85,13 +92,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override DefaultValueHandling DefaultValueHandling
 	{
 		[Token(Token = "0x600091C")]
-		[Address(RVA = "0x3AFC700", Offset = "0x3AFC700", VA = "0x3AFC700", Slot = "30")]
+		[Address(RVA = "0x3DF2050", Offset = "0x3DF2050", VA = "0x3DF2050", Slot = "30")]
 		get
 		{
 			return default(DefaultValueHandling);
 		}
 		[Token(Token = "0x600091D")]
-		[Address(RVA = "0x3AFC730", Offset = "0x3AFC730", VA = "0x3AFC730", Slot = "31")]
+		[Address(RVA = "0x3DF2080", Offset = "0x3DF2080", VA = "0x3DF2080", Slot = "31")]
 		set
 		{
 		}
@@ -101,13 +108,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override IContractResolver ContractResolver
 	{
 		[Token(Token = "0x600091E")]
-		[Address(RVA = "0x3AFC760", Offset = "0x3AFC760", VA = "0x3AFC760", Slot = "39")]
+		[Address(RVA = "0x3DF20B0", Offset = "0x3DF20B0", VA = "0x3DF20B0", Slot = "39")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600091F")]
-		[Address(RVA = "0x3AFC790", Offset = "0x3AFC790", VA = "0x3AFC790", Slot = "40")]
+		[Address(RVA = "0x3DF20E0", Offset = "0x3DF20E0", VA = "0x3DF20E0", Slot = "40")]
 		set
 		{
 		}
@@ -117,13 +124,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override MissingMemberHandling MissingMemberHandling
 	{
 		[Token(Token = "0x6000920")]
-		[Address(RVA = "0x3AFC7C0", Offset = "0x3AFC7C0", VA = "0x3AFC7C0", Slot = "26")]
+		[Address(RVA = "0x3DF2110", Offset = "0x3DF2110", VA = "0x3DF2110", Slot = "26")]
 		get
 		{
 			return default(MissingMemberHandling);
 		}
 		[Token(Token = "0x6000921")]
-		[Address(RVA = "0x3AFC7F0", Offset = "0x3AFC7F0", VA = "0x3AFC7F0", Slot = "27")]
+		[Address(RVA = "0x3DF2140", Offset = "0x3DF2140", VA = "0x3DF2140", Slot = "27")]
 		set
 		{
 		}
@@ -133,13 +140,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override NullValueHandling NullValueHandling
 	{
 		[Token(Token = "0x6000922")]
-		[Address(RVA = "0x3AFC820", Offset = "0x3AFC820", VA = "0x3AFC820", Slot = "28")]
+		[Address(RVA = "0x3DF2170", Offset = "0x3DF2170", VA = "0x3DF2170", Slot = "28")]
 		get
 		{
 			return default(NullValueHandling);
 		}
 		[Token(Token = "0x6000923")]
-		[Address(RVA = "0x3AFC850", Offset = "0x3AFC850", VA = "0x3AFC850", Slot = "29")]
+		[Address(RVA = "0x3DF21A0", Offset = "0x3DF21A0", VA = "0x3DF21A0", Slot = "29")]
 		set
 		{
 		}
@@ -149,13 +156,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override ObjectCreationHandling ObjectCreationHandling
 	{
 		[Token(Token = "0x6000924")]
-		[Address(RVA = "0x3AFC880", Offset = "0x3AFC880", VA = "0x3AFC880", Slot = "32")]
+		[Address(RVA = "0x3DF21D0", Offset = "0x3DF21D0", VA = "0x3DF21D0", Slot = "32")]
 		get
 		{
 			return default(ObjectCreationHandling);
 		}
 		[Token(Token = "0x6000925")]
-		[Address(RVA = "0x3AFC8B0", Offset = "0x3AFC8B0", VA = "0x3AFC8B0", Slot = "33")]
+		[Address(RVA = "0x3DF2200", Offset = "0x3DF2200", VA = "0x3DF2200", Slot = "33")]
 		set
 		{
 		}
@@ -165,13 +172,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override ReferenceLoopHandling ReferenceLoopHandling
 	{
 		[Token(Token = "0x6000926")]
-		[Address(RVA = "0x3AFC8E0", Offset = "0x3AFC8E0", VA = "0x3AFC8E0", Slot = "24")]
+		[Address(RVA = "0x3DF2230", Offset = "0x3DF2230", VA = "0x3DF2230", Slot = "24")]
 		get
 		{
 			return default(ReferenceLoopHandling);
 		}
 		[Token(Token = "0x6000927")]
-		[Address(RVA = "0x3AFC910", Offset = "0x3AFC910", VA = "0x3AFC910", Slot = "25")]
+		[Address(RVA = "0x3DF2260", Offset = "0x3DF2260", VA = "0x3DF2260", Slot = "25")]
 		set
 		{
 		}
@@ -181,13 +188,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override PreserveReferencesHandling PreserveReferencesHandling
 	{
 		[Token(Token = "0x6000928")]
-		[Address(RVA = "0x3AFC940", Offset = "0x3AFC940", VA = "0x3AFC940", Slot = "22")]
+		[Address(RVA = "0x3DF2290", Offset = "0x3DF2290", VA = "0x3DF2290", Slot = "22")]
 		get
 		{
 			return default(PreserveReferencesHandling);
 		}
 		[Token(Token = "0x6000929")]
-		[Address(RVA = "0x3AFC970", Offset = "0x3AFC970", VA = "0x3AFC970", Slot = "23")]
+		[Address(RVA = "0x3DF22C0", Offset = "0x3DF22C0", VA = "0x3DF22C0", Slot = "23")]
 		set
 		{
 		}
@@ -197,13 +204,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override TypeNameHandling TypeNameHandling
 	{
 		[Token(Token = "0x600092A")]
-		[Address(RVA = "0x3AFC9A0", Offset = "0x3AFC9A0", VA = "0x3AFC9A0", Slot = "16")]
+		[Address(RVA = "0x3DF22F0", Offset = "0x3DF22F0", VA = "0x3DF22F0", Slot = "16")]
 		get
 		{
 			return default(TypeNameHandling);
 		}
 		[Token(Token = "0x600092B")]
-		[Address(RVA = "0x3AFC9D0", Offset = "0x3AFC9D0", VA = "0x3AFC9D0", Slot = "17")]
+		[Address(RVA = "0x3DF2320", Offset = "0x3DF2320", VA = "0x3DF2320", Slot = "17")]
 		set
 		{
 		}
@@ -213,13 +220,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override MetadataPropertyHandling MetadataPropertyHandling
 	{
 		[Token(Token = "0x600092C")]
-		[Address(RVA = "0x3AFCA00", Offset = "0x3AFCA00", VA = "0x3AFCA00", Slot = "36")]
+		[Address(RVA = "0x3DF2350", Offset = "0x3DF2350", VA = "0x3DF2350", Slot = "36")]
 		get
 		{
 			return default(MetadataPropertyHandling);
 		}
 		[Token(Token = "0x600092D")]
-		[Address(RVA = "0x3AFCA30", Offset = "0x3AFCA30", VA = "0x3AFCA30", Slot = "37")]
+		[Address(RVA = "0x3DF2380", Offset = "0x3DF2380", VA = "0x3DF2380", Slot = "37")]
 		set
 		{
 		}
@@ -230,13 +237,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override FormatterAssemblyStyle TypeNameAssemblyFormat
 	{
 		[Token(Token = "0x600092E")]
-		[Address(RVA = "0x3AFCA60", Offset = "0x3AFCA60", VA = "0x3AFCA60", Slot = "18")]
+		[Address(RVA = "0x3DF23B0", Offset = "0x3DF23B0", VA = "0x3DF23B0", Slot = "18")]
 		get
 		{
 			return default(FormatterAssemblyStyle);
 		}
 		[Token(Token = "0x600092F")]
-		[Address(RVA = "0x3AFCA90", Offset = "0x3AFCA90", VA = "0x3AFCA90", Slot = "19")]
+		[Address(RVA = "0x3DF23E0", Offset = "0x3DF23E0", VA = "0x3DF23E0", Slot = "19")]
 		set
 		{
 		}
@@ -246,13 +253,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override TypeNameAssemblyFormatHandling TypeNameAssemblyFormatHandling
 	{
 		[Token(Token = "0x6000930")]
-		[Address(RVA = "0x3AFCAC0", Offset = "0x3AFCAC0", VA = "0x3AFCAC0", Slot = "20")]
+		[Address(RVA = "0x3DF2410", Offset = "0x3DF2410", VA = "0x3DF2410", Slot = "20")]
 		get
 		{
 			return default(TypeNameAssemblyFormatHandling);
 		}
 		[Token(Token = "0x6000931")]
-		[Address(RVA = "0x3AFCAF0", Offset = "0x3AFCAF0", VA = "0x3AFCAF0", Slot = "21")]
+		[Address(RVA = "0x3DF2440", Offset = "0x3DF2440", VA = "0x3DF2440", Slot = "21")]
 		set
 		{
 		}
@@ -262,13 +269,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override ConstructorHandling ConstructorHandling
 	{
 		[Token(Token = "0x6000932")]
-		[Address(RVA = "0x3AFCB20", Offset = "0x3AFCB20", VA = "0x3AFCB20", Slot = "34")]
+		[Address(RVA = "0x3DF2470", Offset = "0x3DF2470", VA = "0x3DF2470", Slot = "34")]
 		get
 		{
 			return default(ConstructorHandling);
 		}
 		[Token(Token = "0x6000933")]
-		[Address(RVA = "0x3AFCB50", Offset = "0x3AFCB50", VA = "0x3AFCB50", Slot = "35")]
+		[Address(RVA = "0x3DF24A0", Offset = "0x3DF24A0", VA = "0x3DF24A0", Slot = "35")]
 		set
 		{
 		}
@@ -279,13 +286,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override SerializationBinder Binder
 	{
 		[Token(Token = "0x6000934")]
-		[Address(RVA = "0x3AFCB80", Offset = "0x3AFCB80", VA = "0x3AFCB80", Slot = "8")]
+		[Address(RVA = "0x3DF24D0", Offset = "0x3DF24D0", VA = "0x3DF24D0", Slot = "8")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000935")]
-		[Address(RVA = "0x3AFCBB0", Offset = "0x3AFCBB0", VA = "0x3AFCBB0", Slot = "9")]
+		[Address(RVA = "0x3DF2500", Offset = "0x3DF2500", VA = "0x3DF2500", Slot = "9")]
 		set
 		{
 		}
@@ -295,13 +302,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override ISerializationBinder SerializationBinder
 	{
 		[Token(Token = "0x6000936")]
-		[Address(RVA = "0x3AFCBE0", Offset = "0x3AFCBE0", VA = "0x3AFCBE0", Slot = "10")]
+		[Address(RVA = "0x3DF2530", Offset = "0x3DF2530", VA = "0x3DF2530", Slot = "10")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000937")]
-		[Address(RVA = "0x3AFCC10", Offset = "0x3AFCC10", VA = "0x3AFCC10", Slot = "11")]
+		[Address(RVA = "0x3DF2560", Offset = "0x3DF2560", VA = "0x3DF2560", Slot = "11")]
 		set
 		{
 		}
@@ -311,13 +318,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override StreamingContext Context
 	{
 		[Token(Token = "0x6000938")]
-		[Address(RVA = "0x3AFCC40", Offset = "0x3AFCC40", VA = "0x3AFCC40", Slot = "41")]
+		[Address(RVA = "0x3DF2590", Offset = "0x3DF2590", VA = "0x3DF2590", Slot = "41")]
 		get
 		{
 			return default(StreamingContext);
 		}
 		[Token(Token = "0x6000939")]
-		[Address(RVA = "0x3AFCC70", Offset = "0x3AFCC70", VA = "0x3AFCC70", Slot = "42")]
+		[Address(RVA = "0x3DF25C0", Offset = "0x3DF25C0", VA = "0x3DF25C0", Slot = "42")]
 		set
 		{
 		}
@@ -327,13 +334,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override Formatting Formatting
 	{
 		[Token(Token = "0x600093A")]
-		[Address(RVA = "0x3AFCCA0", Offset = "0x3AFCCA0", VA = "0x3AFCCA0", Slot = "43")]
+		[Address(RVA = "0x3DF25F0", Offset = "0x3DF25F0", VA = "0x3DF25F0", Slot = "43")]
 		get
 		{
 			return default(Formatting);
 		}
 		[Token(Token = "0x600093B")]
-		[Address(RVA = "0x3AFCCD0", Offset = "0x3AFCCD0", VA = "0x3AFCCD0", Slot = "44")]
+		[Address(RVA = "0x3DF2620", Offset = "0x3DF2620", VA = "0x3DF2620", Slot = "44")]
 		set
 		{
 		}
@@ -343,13 +350,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override DateFormatHandling DateFormatHandling
 	{
 		[Token(Token = "0x600093C")]
-		[Address(RVA = "0x3AFCD00", Offset = "0x3AFCD00", VA = "0x3AFCD00", Slot = "45")]
+		[Address(RVA = "0x3DF2650", Offset = "0x3DF2650", VA = "0x3DF2650", Slot = "45")]
 		get
 		{
 			return default(DateFormatHandling);
 		}
 		[Token(Token = "0x600093D")]
-		[Address(RVA = "0x3AFCD30", Offset = "0x3AFCD30", VA = "0x3AFCD30", Slot = "46")]
+		[Address(RVA = "0x3DF2680", Offset = "0x3DF2680", VA = "0x3DF2680", Slot = "46")]
 		set
 		{
 		}
@@ -359,13 +366,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override DateTimeZoneHandling DateTimeZoneHandling
 	{
 		[Token(Token = "0x600093E")]
-		[Address(RVA = "0x3AFCD60", Offset = "0x3AFCD60", VA = "0x3AFCD60", Slot = "47")]
+		[Address(RVA = "0x3DF26B0", Offset = "0x3DF26B0", VA = "0x3DF26B0", Slot = "47")]
 		get
 		{
 			return default(DateTimeZoneHandling);
 		}
 		[Token(Token = "0x600093F")]
-		[Address(RVA = "0x3AFCD90", Offset = "0x3AFCD90", VA = "0x3AFCD90", Slot = "48")]
+		[Address(RVA = "0x3DF26E0", Offset = "0x3DF26E0", VA = "0x3DF26E0", Slot = "48")]
 		set
 		{
 		}
@@ -375,13 +382,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override DateParseHandling DateParseHandling
 	{
 		[Token(Token = "0x6000940")]
-		[Address(RVA = "0x3AFCDC0", Offset = "0x3AFCDC0", VA = "0x3AFCDC0", Slot = "49")]
+		[Address(RVA = "0x3DF2710", Offset = "0x3DF2710", VA = "0x3DF2710", Slot = "49")]
 		get
 		{
 			return default(DateParseHandling);
 		}
 		[Token(Token = "0x6000941")]
-		[Address(RVA = "0x3AFCDF0", Offset = "0x3AFCDF0", VA = "0x3AFCDF0", Slot = "50")]
+		[Address(RVA = "0x3DF2740", Offset = "0x3DF2740", VA = "0x3DF2740", Slot = "50")]
 		set
 		{
 		}
@@ -391,13 +398,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override FloatFormatHandling FloatFormatHandling
 	{
 		[Token(Token = "0x6000942")]
-		[Address(RVA = "0x3AFCE20", Offset = "0x3AFCE20", VA = "0x3AFCE20", Slot = "53")]
+		[Address(RVA = "0x3DF2770", Offset = "0x3DF2770", VA = "0x3DF2770", Slot = "53")]
 		get
 		{
 			return default(FloatFormatHandling);
 		}
 		[Token(Token = "0x6000943")]
-		[Address(RVA = "0x3AFCE50", Offset = "0x3AFCE50", VA = "0x3AFCE50", Slot = "54")]
+		[Address(RVA = "0x3DF27A0", Offset = "0x3DF27A0", VA = "0x3DF27A0", Slot = "54")]
 		set
 		{
 		}
@@ -407,13 +414,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override FloatParseHandling FloatParseHandling
 	{
 		[Token(Token = "0x6000944")]
-		[Address(RVA = "0x3AFCE80", Offset = "0x3AFCE80", VA = "0x3AFCE80", Slot = "51")]
+		[Address(RVA = "0x3DF27D0", Offset = "0x3DF27D0", VA = "0x3DF27D0", Slot = "51")]
 		get
 		{
 			return default(FloatParseHandling);
 		}
 		[Token(Token = "0x6000945")]
-		[Address(RVA = "0x3AFCEB0", Offset = "0x3AFCEB0", VA = "0x3AFCEB0", Slot = "52")]
+		[Address(RVA = "0x3DF2800", Offset = "0x3DF2800", VA = "0x3DF2800", Slot = "52")]
 		set
 		{
 		}
@@ -423,13 +430,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override StringEscapeHandling StringEscapeHandling
 	{
 		[Token(Token = "0x6000946")]
-		[Address(RVA = "0x3AFCEE0", Offset = "0x3AFCEE0", VA = "0x3AFCEE0", Slot = "55")]
+		[Address(RVA = "0x3DF2830", Offset = "0x3DF2830", VA = "0x3DF2830", Slot = "55")]
 		get
 		{
 			return default(StringEscapeHandling);
 		}
 		[Token(Token = "0x6000947")]
-		[Address(RVA = "0x3AFCF10", Offset = "0x3AFCF10", VA = "0x3AFCF10", Slot = "56")]
+		[Address(RVA = "0x3DF2860", Offset = "0x3DF2860", VA = "0x3DF2860", Slot = "56")]
 		set
 		{
 		}
@@ -439,13 +446,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override string DateFormatString
 	{
 		[Token(Token = "0x6000948")]
-		[Address(RVA = "0x3AFCF40", Offset = "0x3AFCF40", VA = "0x3AFCF40", Slot = "57")]
+		[Address(RVA = "0x3DF2890", Offset = "0x3DF2890", VA = "0x3DF2890", Slot = "57")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000949")]
-		[Address(RVA = "0x3AFCF70", Offset = "0x3AFCF70", VA = "0x3AFCF70", Slot = "58")]
+		[Address(RVA = "0x3DF28C0", Offset = "0x3DF28C0", VA = "0x3DF28C0", Slot = "58")]
 		set
 		{
 		}
@@ -455,13 +462,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override CultureInfo Culture
 	{
 		[Token(Token = "0x600094A")]
-		[Address(RVA = "0x3AFCFA0", Offset = "0x3AFCFA0", VA = "0x3AFCFA0", Slot = "59")]
+		[Address(RVA = "0x3DF28F0", Offset = "0x3DF28F0", VA = "0x3DF28F0", Slot = "59")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600094B")]
-		[Address(RVA = "0x3AFCFD0", Offset = "0x3AFCFD0", VA = "0x3AFCFD0", Slot = "60")]
+		[Address(RVA = "0x3DF2920", Offset = "0x3DF2920", VA = "0x3DF2920", Slot = "60")]
 		set
 		{
 		}
@@ -471,13 +478,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override int? MaxDepth
 	{
 		[Token(Token = "0x600094C")]
-		[Address(RVA = "0x3AFD000", Offset = "0x3AFD000", VA = "0x3AFD000", Slot = "61")]
+		[Address(RVA = "0x3DF2950", Offset = "0x3DF2950", VA = "0x3DF2950", Slot = "61")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600094D")]
-		[Address(RVA = "0x3AFD030", Offset = "0x3AFD030", VA = "0x3AFD030", Slot = "62")]
+		[Address(RVA = "0x3DF2980", Offset = "0x3DF2980", VA = "0x3DF2980", Slot = "62")]
 		set
 		{
 		}
@@ -487,13 +494,13 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override bool CheckAdditionalContent
 	{
 		[Token(Token = "0x600094E")]
-		[Address(RVA = "0x3AFD060", Offset = "0x3AFD060", VA = "0x3AFD060", Slot = "63")]
+		[Address(RVA = "0x3DF29B0", Offset = "0x3DF29B0", VA = "0x3DF29B0", Slot = "63")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600094F")]
-		[Address(RVA = "0x3AFD090", Offset = "0x3AFD090", VA = "0x3AFD090", Slot = "64")]
+		[Address(RVA = "0x3DF29E0", Offset = "0x3DF29E0", VA = "0x3DF29E0", Slot = "64")]
 		set
 		{
 		}
@@ -503,51 +510,51 @@ internal class JsonSerializerProxy : JsonSerializer
 	public override event EventHandler<ErrorEventArgs>? Error
 	{
 		[Token(Token = "0x6000913")]
-		[Address(RVA = "0x3AFC550", Offset = "0x3AFC550", VA = "0x3AFC550", Slot = "4")]
+		[Address(RVA = "0x3DF1EA0", Offset = "0x3DF1EA0", VA = "0x3DF1EA0", Slot = "4")]
 		add
 		{
 		}
 		[Token(Token = "0x6000914")]
-		[Address(RVA = "0x3AFC580", Offset = "0x3AFC580", VA = "0x3AFC580", Slot = "5")]
+		[Address(RVA = "0x3DF1ED0", Offset = "0x3DF1ED0", VA = "0x3DF1ED0", Slot = "5")]
 		remove
 		{
 		}
 	}
 
 	[Token(Token = "0x6000950")]
-	[Address(RVA = "0x3AFD0C0", Offset = "0x3AFD0C0", VA = "0x3AFD0C0")]
+	[Address(RVA = "0x3DF2A10", Offset = "0x3DF2A10", VA = "0x3DF2A10")]
 	internal JsonSerializerInternalBase GetInternalSerializer()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000951")]
-	[Address(RVA = "0x3AFD0E0", Offset = "0x3AFD0E0", VA = "0x3AFD0E0")]
+	[Address(RVA = "0x3DF2A30", Offset = "0x3DF2A30", VA = "0x3DF2A30")]
 	public JsonSerializerProxy(JsonSerializerInternalReader serializerReader)
 	{
 	}
 
 	[Token(Token = "0x6000952")]
-	[Address(RVA = "0x3AF5D70", Offset = "0x3AF5D70", VA = "0x3AF5D70")]
+	[Address(RVA = "0x3DEB6C0", Offset = "0x3DEB6C0", VA = "0x3DEB6C0")]
 	public JsonSerializerProxy(JsonSerializerInternalWriter serializerWriter)
 	{
 	}
 
 	[Token(Token = "0x6000953")]
-	[Address(RVA = "0x3AFD170", Offset = "0x3AFD170", VA = "0x3AFD170", Slot = "66")]
+	[Address(RVA = "0x3DF2AC0", Offset = "0x3DF2AC0", VA = "0x3DF2AC0", Slot = "66")]
 	internal override object? DeserializeInternal(JsonReader reader, Type? objectType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000954")]
-	[Address(RVA = "0x3AFD1B0", Offset = "0x3AFD1B0", VA = "0x3AFD1B0", Slot = "65")]
+	[Address(RVA = "0x3DF2B00", Offset = "0x3DF2B00", VA = "0x3DF2B00", Slot = "65")]
 	internal override void PopulateInternal(JsonReader reader, object target)
 	{
 	}
 
 	[Token(Token = "0x6000955")]
-	[Address(RVA = "0x3AFD1F0", Offset = "0x3AFD1F0", VA = "0x3AFD1F0", Slot = "67")]
+	[Address(RVA = "0x3DF2B40", Offset = "0x3DF2B40", VA = "0x3DF2B40", Slot = "67")]
 	internal override void SerializeInternal(JsonWriter jsonWriter, object? value, Type? rootType)
 	{
 	}

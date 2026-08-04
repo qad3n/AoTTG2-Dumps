@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
@@ -109,7 +116,7 @@ internal struct UIRVEShaderInfoAllocator
 	private static int pageWidth
 	{
 		[Token(Token = "0x6001DF5")]
-		[Address(RVA = "0x4C81840", Offset = "0x4C81840", VA = "0x4C81840")]
+		[Address(RVA = "0x4FA9170", Offset = "0x4FA9170", VA = "0x4FA9170")]
 		get
 		{
 			return default(int);
@@ -120,7 +127,7 @@ internal struct UIRVEShaderInfoAllocator
 	private static int pageHeight
 	{
 		[Token(Token = "0x6001DF6")]
-		[Address(RVA = "0x4C81850", Offset = "0x4C81850", VA = "0x4C81850")]
+		[Address(RVA = "0x4FA9180", Offset = "0x4FA9180", VA = "0x4FA9180")]
 		get
 		{
 			return default(int);
@@ -131,7 +138,7 @@ internal struct UIRVEShaderInfoAllocator
 	public Texture atlas
 	{
 		[Token(Token = "0x6001DF9")]
-		[Address(RVA = "0x4C81AF0", Offset = "0x4C81AF0", VA = "0x4C81AF0")]
+		[Address(RVA = "0x4FA9420", Offset = "0x4FA9420", VA = "0x4FA9420")]
 		get
 		{
 			return null;
@@ -139,168 +146,168 @@ internal struct UIRVEShaderInfoAllocator
 	}
 
 	[Token(Token = "0x6001DF7")]
-	[Address(RVA = "0x4C81860", Offset = "0x4C81860", VA = "0x4C81860")]
+	[Address(RVA = "0x4FA9190", Offset = "0x4FA9190", VA = "0x4FA9190")]
 	private static Vector2Int AllocToTexelCoord(ref BitmapAllocator32 allocator, BMPAlloc alloc)
 	{
 		return default(Vector2Int);
 	}
 
 	[Token(Token = "0x6001DF8")]
-	[Address(RVA = "0x4C818F0", Offset = "0x4C818F0", VA = "0x4C818F0")]
+	[Address(RVA = "0x4FA9220", Offset = "0x4FA9220", VA = "0x4FA9220")]
 	private static bool AtlasRectMatchesPage(ref BitmapAllocator32 allocator, BMPAlloc defAlloc, RectInt atlasRect)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001DFA")]
-	[Address(RVA = "0x4C81F70", Offset = "0x4C81F70", VA = "0x4C81F70")]
+	[Address(RVA = "0x4FA98A0", Offset = "0x4FA98A0", VA = "0x4FA98A0")]
 	public void Construct()
 	{
 	}
 
 	[Token(Token = "0x6001DFB")]
-	[Address(RVA = "0x4C82170", Offset = "0x4C82170", VA = "0x4C82170")]
+	[Address(RVA = "0x4FA9AA0", Offset = "0x4FA9AA0", VA = "0x4FA9AA0")]
 	private void ReallyCreateStorage()
 	{
 	}
 
 	[Token(Token = "0x6001DFC")]
-	[Address(RVA = "0x4C82710", Offset = "0x4C82710", VA = "0x4C82710")]
+	[Address(RVA = "0x4FAA040", Offset = "0x4FAA040", VA = "0x4FAA040")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6001DFD")]
-	[Address(RVA = "0x4C827A0", Offset = "0x4C827A0", VA = "0x4C827A0")]
+	[Address(RVA = "0x4FAA0D0", Offset = "0x4FAA0D0", VA = "0x4FAA0D0")]
 	public void IssuePendingStorageChanges()
 	{
 	}
 
 	[Token(Token = "0x6001DFE")]
-	[Address(RVA = "0x4C7A200", Offset = "0x4C7A200", VA = "0x4C7A200")]
+	[Address(RVA = "0x4FA1B30", Offset = "0x4FA1B30", VA = "0x4FA1B30")]
 	public BMPAlloc AllocTransform()
 	{
 		return default(BMPAlloc);
 	}
 
 	[Token(Token = "0x6001DFF")]
-	[Address(RVA = "0x4C7D1D0", Offset = "0x4C7D1D0", VA = "0x4C7D1D0")]
+	[Address(RVA = "0x4FA4B00", Offset = "0x4FA4B00", VA = "0x4FA4B00")]
 	public BMPAlloc AllocClipRect()
 	{
 		return default(BMPAlloc);
 	}
 
 	[Token(Token = "0x6001E00")]
-	[Address(RVA = "0x4C7D230", Offset = "0x4C7D230", VA = "0x4C7D230")]
+	[Address(RVA = "0x4FA4B60", Offset = "0x4FA4B60", VA = "0x4FA4B60")]
 	public BMPAlloc AllocOpacity()
 	{
 		return default(BMPAlloc);
 	}
 
 	[Token(Token = "0x6001E01")]
-	[Address(RVA = "0x4C7E440", Offset = "0x4C7E440", VA = "0x4C7E440")]
+	[Address(RVA = "0x4FA5D70", Offset = "0x4FA5D70", VA = "0x4FA5D70")]
 	public BMPAlloc AllocColor()
 	{
 		return default(BMPAlloc);
 	}
 
 	[Token(Token = "0x6001E02")]
-	[Address(RVA = "0x4C7DEE0", Offset = "0x4C7DEE0", VA = "0x4C7DEE0")]
+	[Address(RVA = "0x4FA5810", Offset = "0x4FA5810", VA = "0x4FA5810")]
 	public BMPAlloc AllocTextCoreSettings(TextCoreSettings settings)
 	{
 		return default(BMPAlloc);
 	}
 
 	[Token(Token = "0x6001E03")]
-	[Address(RVA = "0x4C7ADA0", Offset = "0x4C7ADA0", VA = "0x4C7ADA0")]
+	[Address(RVA = "0x4FA26D0", Offset = "0x4FA26D0", VA = "0x4FA26D0")]
 	public void SetTransformValue(BMPAlloc alloc, Matrix4x4 xform)
 	{
 	}
 
 	[Token(Token = "0x6001E04")]
-	[Address(RVA = "0x4C7D430", Offset = "0x4C7D430", VA = "0x4C7D430")]
+	[Address(RVA = "0x4FA4D60", Offset = "0x4FA4D60", VA = "0x4FA4D60")]
 	public void SetClipRectValue(BMPAlloc alloc, Vector4 clipRect)
 	{
 	}
 
 	[Token(Token = "0x6001E05")]
-	[Address(RVA = "0x4C7D290", Offset = "0x4C7D290", VA = "0x4C7D290")]
+	[Address(RVA = "0x4FA4BC0", Offset = "0x4FA4BC0", VA = "0x4FA4BC0")]
 	public void SetOpacityValue(BMPAlloc alloc, float opacity)
 	{
 	}
 
 	[Token(Token = "0x6001E06")]
-	[Address(RVA = "0x4C7E4A0", Offset = "0x4C7E4A0", VA = "0x4C7E4A0")]
+	[Address(RVA = "0x4FA5DD0", Offset = "0x4FA5DD0", VA = "0x4FA5DD0")]
 	public void SetColorValue(BMPAlloc alloc, Color color, bool isEditorContext)
 	{
 	}
 
 	[Token(Token = "0x6001E07")]
-	[Address(RVA = "0x4C7DF40", Offset = "0x4C7DF40", VA = "0x4C7DF40")]
+	[Address(RVA = "0x4FA5870", Offset = "0x4FA5870", VA = "0x4FA5870")]
 	public void SetTextCoreSettingValue(BMPAlloc alloc, TextCoreSettings settings, bool isEditorContext)
 	{
 	}
 
 	[Token(Token = "0x6001E08")]
-	[Address(RVA = "0x4C7C430", Offset = "0x4C7C430", VA = "0x4C7C430")]
+	[Address(RVA = "0x4FA3D60", Offset = "0x4FA3D60", VA = "0x4FA3D60")]
 	public void FreeTransform(BMPAlloc alloc)
 	{
 	}
 
 	[Token(Token = "0x6001E09")]
-	[Address(RVA = "0x4C7C380", Offset = "0x4C7C380", VA = "0x4C7C380")]
+	[Address(RVA = "0x4FA3CB0", Offset = "0x4FA3CB0", VA = "0x4FA3CB0")]
 	public void FreeClipRect(BMPAlloc alloc)
 	{
 	}
 
 	[Token(Token = "0x6001E0A")]
-	[Address(RVA = "0x4C7C220", Offset = "0x4C7C220", VA = "0x4C7C220")]
+	[Address(RVA = "0x4FA3B50", Offset = "0x4FA3B50", VA = "0x4FA3B50")]
 	public void FreeOpacity(BMPAlloc alloc)
 	{
 	}
 
 	[Token(Token = "0x6001E0B")]
-	[Address(RVA = "0x4C7C2D0", Offset = "0x4C7C2D0", VA = "0x4C7C2D0")]
+	[Address(RVA = "0x4FA3C00", Offset = "0x4FA3C00", VA = "0x4FA3C00")]
 	public void FreeColor(BMPAlloc alloc)
 	{
 	}
 
 	[Token(Token = "0x6001E0C")]
-	[Address(RVA = "0x4C7C160", Offset = "0x4C7C160", VA = "0x4C7C160")]
+	[Address(RVA = "0x4FA3A90", Offset = "0x4FA3A90", VA = "0x4FA3A90")]
 	public void FreeTextCoreSettings(BMPAlloc alloc)
 	{
 	}
 
 	[Token(Token = "0x6001E0D")]
-	[Address(RVA = "0x4C827C0", Offset = "0x4C827C0", VA = "0x4C827C0")]
+	[Address(RVA = "0x4FAA0F0", Offset = "0x4FAA0F0", VA = "0x4FAA0F0")]
 	public Color32 TransformAllocToVertexData(BMPAlloc alloc)
 	{
 		return default(Color32);
 	}
 
 	[Token(Token = "0x6001E0E")]
-	[Address(RVA = "0x4C82900", Offset = "0x4C82900", VA = "0x4C82900")]
+	[Address(RVA = "0x4FAA230", Offset = "0x4FAA230", VA = "0x4FAA230")]
 	public Color32 ClipRectAllocToVertexData(BMPAlloc alloc)
 	{
 		return default(Color32);
 	}
 
 	[Token(Token = "0x6001E0F")]
-	[Address(RVA = "0x4C77520", Offset = "0x4C77520", VA = "0x4C77520")]
+	[Address(RVA = "0x4F9EE50", Offset = "0x4F9EE50", VA = "0x4F9EE50")]
 	public Color32 OpacityAllocToVertexData(BMPAlloc alloc)
 	{
 		return default(Color32);
 	}
 
 	[Token(Token = "0x6001E10")]
-	[Address(RVA = "0x4C82A40", Offset = "0x4C82A40", VA = "0x4C82A40")]
+	[Address(RVA = "0x4FAA370", Offset = "0x4FAA370", VA = "0x4FAA370")]
 	public Color32 ColorAllocToVertexData(BMPAlloc alloc)
 	{
 		return default(Color32);
 	}
 
 	[Token(Token = "0x6001E11")]
-	[Address(RVA = "0x4C82B80", Offset = "0x4C82B80", VA = "0x4C82B80")]
+	[Address(RVA = "0x4FAA4B0", Offset = "0x4FAA4B0", VA = "0x4FAA4B0")]
 	public Color32 TextCoreSettingsToVertexData(BMPAlloc alloc)
 	{
 		return default(Color32);

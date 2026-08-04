@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.PhotonTransportProtocol
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/PhotonVoiceApi/PhotonTransport.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -56,52 +63,52 @@ internal class PhotonTransportProtocol
 	private ILogger logger;
 
 	[Token(Token = "0x6000367")]
-	[Address(RVA = "0x3C3E8A0", Offset = "0x3C3E8A0", VA = "0x3C3E8A0")]
+	[Address(RVA = "0x3F341F0", Offset = "0x3F341F0", VA = "0x3F341F0")]
 	public PhotonTransportProtocol(VoiceClient voiceClient, ILogger logger)
 	{
 	}
 
 	[Token(Token = "0x6000368")]
-	[Address(RVA = "0x3C3EB80", Offset = "0x3C3EB80", VA = "0x3C3EB80")]
+	[Address(RVA = "0x3F344D0", Offset = "0x3F344D0", VA = "0x3F344D0")]
 	internal object[] buildVoicesInfo(LocalVoice v)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000369")]
-	[Address(RVA = "0x3C3F010", Offset = "0x3C3F010", VA = "0x3C3F010")]
+	[Address(RVA = "0x3F34960", Offset = "0x3F34960", VA = "0x3F34960")]
 	internal object[] buildVoiceRemoveMessage(LocalVoice v)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600036A")]
-	[Address(RVA = "0x3C3F1E0", Offset = "0x3C3F1E0", VA = "0x3C3F1E0")]
+	[Address(RVA = "0x3F34B30", Offset = "0x3F34B30", VA = "0x3F34B30")]
 	internal object[] buildFrameMessage(byte voiceId, byte evNumber, byte frNumber, ArraySegment<byte> data, FrameFlags flags)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600036B")]
-	[Address(RVA = "0x3C3F7E0", Offset = "0x3C3F7E0", VA = "0x3C3F7E0")]
+	[Address(RVA = "0x3F35130", Offset = "0x3F35130", VA = "0x3F35130")]
 	internal void onVoiceEvent(object content0, int channelId, int playerId, bool isLocalPlayer)
 	{
 	}
 
 	[Token(Token = "0x600036C")]
-	[Address(RVA = "0x3C40400", Offset = "0x3C40400", VA = "0x3C40400")]
+	[Address(RVA = "0x3F35D50", Offset = "0x3F35D50", VA = "0x3F35D50")]
 	private void onVoiceInfo(int channelId, int playerId, object payload)
 	{
 	}
 
 	[Token(Token = "0x600036D")]
-	[Address(RVA = "0x3C40660", Offset = "0x3C40660", VA = "0x3C40660")]
+	[Address(RVA = "0x3F35FB0", Offset = "0x3F35FB0", VA = "0x3F35FB0")]
 	private void onVoiceRemove(int channelId, int playerId, object payload)
 	{
 	}
 
 	[Token(Token = "0x600036E")]
-	[Address(RVA = "0x3C406F0", Offset = "0x3C406F0", VA = "0x3C406F0")]
+	[Address(RVA = "0x3F36040", Offset = "0x3F36040", VA = "0x3F36040")]
 	private VoiceInfo createVoiceInfoFromEventPayload(Dictionary<byte, object> h)
 	{
 		return default(VoiceInfo);

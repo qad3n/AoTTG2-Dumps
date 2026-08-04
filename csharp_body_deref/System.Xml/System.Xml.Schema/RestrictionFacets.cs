@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.RestrictionFacets
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -63,7 +70,7 @@ internal class RestrictionFacets
 	internal RestrictionFlags FixedFlags;
 
 	[Token(Token = "0x600104D")]
-	[Address(RVA = "0x4511A20", Offset = "0x4511A20", VA = "0x4511A20")]
+	[Address(RVA = "0x484F180", Offset = "0x484F180", VA = "0x484F180")]
 	public RestrictionFacets()
 	{
 	}

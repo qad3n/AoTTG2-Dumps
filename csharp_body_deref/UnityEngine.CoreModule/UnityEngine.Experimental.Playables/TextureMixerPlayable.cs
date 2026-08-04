@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Experimental.Playables.TextureMixerPlayable
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -6,7 +13,7 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Experimental.Playables;
 
-[Token(Token = "0x2000347")]
+[Token(Token = "0x200034A")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Graphics/Director/TextureMixerPlayable.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Export/Director/TextureMixerPlayable.bindings.h")]
@@ -18,15 +25,15 @@ public struct TextureMixerPlayable : IEquatable<TextureMixerPlayable>
 	[FieldOffset(Offset = "0x0")]
 	private PlayableHandle m_Handle;
 
-	[Token(Token = "0x6001199")]
-	[Address(RVA = "0x4B13090", Offset = "0x4B13090", VA = "0x4B13090", Slot = "5")]
+	[Token(Token = "0x600119B")]
+	[Address(RVA = "0x4E3A9C0", Offset = "0x4E3A9C0", VA = "0x4E3A9C0", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
-	[Token(Token = "0x600119A")]
-	[Address(RVA = "0x4B130A0", Offset = "0x4B130A0", VA = "0x4B130A0", Slot = "4")]
+	[Token(Token = "0x600119C")]
+	[Address(RVA = "0x4E3A9D0", Offset = "0x4E3A9D0", VA = "0x4E3A9D0", Slot = "4")]
 	public bool Equals(TextureMixerPlayable other)
 	{
 		return default(bool);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.GlyphMetrics
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -44,7 +51,7 @@ public struct GlyphMetrics : IEquatable<GlyphMetrics>
 	public float width
 	{
 		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x4B7BC30", Offset = "0x4B7BC30", VA = "0x4B7BC30")]
+		[Address(RVA = "0x4EA3560", Offset = "0x4EA3560", VA = "0x4EA3560")]
 		get
 		{
 			return default(float);
@@ -55,7 +62,7 @@ public struct GlyphMetrics : IEquatable<GlyphMetrics>
 	public float height
 	{
 		[Token(Token = "0x6000032")]
-		[Address(RVA = "0x4B7BC40", Offset = "0x4B7BC40", VA = "0x4B7BC40")]
+		[Address(RVA = "0x4EA3570", Offset = "0x4EA3570", VA = "0x4EA3570")]
 		get
 		{
 			return default(float);
@@ -66,7 +73,7 @@ public struct GlyphMetrics : IEquatable<GlyphMetrics>
 	public float horizontalBearingX
 	{
 		[Token(Token = "0x6000033")]
-		[Address(RVA = "0x4B7BC50", Offset = "0x4B7BC50", VA = "0x4B7BC50")]
+		[Address(RVA = "0x4EA3580", Offset = "0x4EA3580", VA = "0x4EA3580")]
 		get
 		{
 			return default(float);
@@ -77,7 +84,7 @@ public struct GlyphMetrics : IEquatable<GlyphMetrics>
 	public float horizontalBearingY
 	{
 		[Token(Token = "0x6000034")]
-		[Address(RVA = "0x4B7BC60", Offset = "0x4B7BC60", VA = "0x4B7BC60")]
+		[Address(RVA = "0x4EA3590", Offset = "0x4EA3590", VA = "0x4EA3590")]
 		get
 		{
 			return default(float);
@@ -88,7 +95,7 @@ public struct GlyphMetrics : IEquatable<GlyphMetrics>
 	public float horizontalAdvance
 	{
 		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x4B7BC70", Offset = "0x4B7BC70", VA = "0x4B7BC70")]
+		[Address(RVA = "0x4EA35A0", Offset = "0x4EA35A0", VA = "0x4EA35A0")]
 		get
 		{
 			return default(float);
@@ -96,27 +103,27 @@ public struct GlyphMetrics : IEquatable<GlyphMetrics>
 	}
 
 	[Token(Token = "0x6000036")]
-	[Address(RVA = "0x4B7BC80", Offset = "0x4B7BC80", VA = "0x4B7BC80")]
+	[Address(RVA = "0x4EA35B0", Offset = "0x4EA35B0", VA = "0x4EA35B0")]
 	public GlyphMetrics(float width, float height, float bearingX, float bearingY, float advance)
 	{
 	}
 
 	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x4B7BCA0", Offset = "0x4B7BCA0", VA = "0x4B7BCA0", Slot = "2")]
+	[Address(RVA = "0x4EA35D0", Offset = "0x4EA35D0", VA = "0x4EA35D0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000038")]
-	[Address(RVA = "0x4B7BD00", Offset = "0x4B7BD00", VA = "0x4B7BD00", Slot = "0")]
+	[Address(RVA = "0x4EA3630", Offset = "0x4EA3630", VA = "0x4EA3630", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000039")]
-	[Address(RVA = "0x4B7BD60", Offset = "0x4B7BD60", VA = "0x4B7BD60", Slot = "4")]
+	[Address(RVA = "0x4EA3690", Offset = "0x4EA3690", VA = "0x4EA3690", Slot = "4")]
 	public bool Equals(GlyphMetrics other)
 	{
 		return default(bool);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.EdgeDetection
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/EdgeDetection.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -69,39 +76,39 @@ public class EdgeDetection : PostEffectsBase
 	private EdgeDetectMode oldMode;
 
 	[Token(Token = "0x6000052")]
-	[Address(RVA = "0x415CD90", Offset = "0x415CD90", VA = "0x415CD90", Slot = "4")]
+	[Address(RVA = "0x4481E90", Offset = "0x4481E90", VA = "0x4481E90", Slot = "4")]
 	public override bool CheckResources()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000053")]
-	[Address(RVA = "0x415CEB0", Offset = "0x415CEB0", VA = "0x415CEB0")]
+	[Address(RVA = "0x4481FB0", Offset = "0x4481FB0", VA = "0x4481FB0")]
 	private new void Start()
 	{
 	}
 
 	[Token(Token = "0x6000054")]
-	[Address(RVA = "0x415CE10", Offset = "0x415CE10", VA = "0x415CE10")]
+	[Address(RVA = "0x4481F10", Offset = "0x4481F10", VA = "0x4481F10")]
 	private void SetCameraFlag()
 	{
 	}
 
 	[Token(Token = "0x6000055")]
-	[Address(RVA = "0x415CEC0", Offset = "0x415CEC0", VA = "0x415CEC0")]
+	[Address(RVA = "0x4481FC0", Offset = "0x4481FC0", VA = "0x4481FC0")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000056")]
-	[Address(RVA = "0x415CED0", Offset = "0x415CED0", VA = "0x415CED0")]
+	[Address(RVA = "0x4481FD0", Offset = "0x4481FD0", VA = "0x4481FD0")]
 	[ImageEffectOpaque]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x6000057")]
-	[Address(RVA = "0x415D0C0", Offset = "0x415D0C0", VA = "0x415D0C0")]
+	[Address(RVA = "0x44821C0", Offset = "0x44821C0", VA = "0x44821C0")]
 	public EdgeDetection()
 	{
 	}

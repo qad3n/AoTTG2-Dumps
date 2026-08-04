@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.PanelSettings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -23,7 +30,7 @@ public class PanelSettings : ScriptableObject
 		internal bool isInitialized
 		{
 			[Token(Token = "0x6000D8E")]
-			[Address(RVA = "0x4D1B630", Offset = "0x4D1B630", VA = "0x4D1B630")]
+			[Address(RVA = "0x5042F60", Offset = "0x5042F60", VA = "0x5042F60")]
 			get
 			{
 				return default(bool);
@@ -34,7 +41,7 @@ public class PanelSettings : ScriptableObject
 		internal BaseRuntimePanel panel
 		{
 			[Token(Token = "0x6000D8F")]
-			[Address(RVA = "0x4D1AE80", Offset = "0x4D1AE80", VA = "0x4D1AE80")]
+			[Address(RVA = "0x50427B0", Offset = "0x50427B0", VA = "0x50427B0")]
 			get
 			{
 				return null;
@@ -42,50 +49,50 @@ public class PanelSettings : ScriptableObject
 		}
 
 		[Token(Token = "0x6000D8D")]
-		[Address(RVA = "0x4D1B180", Offset = "0x4D1B180", VA = "0x4D1B180")]
+		[Address(RVA = "0x5042AB0", Offset = "0x5042AB0", VA = "0x5042AB0")]
 		internal RuntimePanelAccess(PanelSettings settings)
 		{
 		}
 
 		[Token(Token = "0x6000D90")]
-		[Address(RVA = "0x4D1B510", Offset = "0x4D1B510", VA = "0x4D1B510")]
+		[Address(RVA = "0x5042E40", Offset = "0x5042E40", VA = "0x5042E40")]
 		internal void DisposePanel()
 		{
 		}
 
 		[Token(Token = "0x6000D91")]
-		[Address(RVA = "0x4D1AB30", Offset = "0x4D1AB30", VA = "0x4D1AB30")]
+		[Address(RVA = "0x5042460", Offset = "0x5042460", VA = "0x5042460")]
 		internal void SetTargetTexture()
 		{
 		}
 
 		[Token(Token = "0x6000D92")]
-		[Address(RVA = "0x4D1AD30", Offset = "0x4D1AD30", VA = "0x4D1AD30")]
+		[Address(RVA = "0x5042660", Offset = "0x5042660", VA = "0x5042660")]
 		internal void SetSortingPriority()
 		{
 		}
 
 		[Token(Token = "0x6000D93")]
-		[Address(RVA = "0x4D1ADA0", Offset = "0x4D1ADA0", VA = "0x4D1ADA0")]
+		[Address(RVA = "0x50426D0", Offset = "0x50426D0", VA = "0x50426D0")]
 		internal void SetTargetDisplay()
 		{
 		}
 
 		[Token(Token = "0x6000D94")]
-		[Address(RVA = "0x4D1CDE0", Offset = "0x4D1CDE0", VA = "0x4D1CDE0")]
+		[Address(RVA = "0x5044710", Offset = "0x5044710", VA = "0x5044710")]
 		private BaseRuntimePanel CreateRelatedRuntimePanel()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000D95")]
-		[Address(RVA = "0x4D1CFC0", Offset = "0x4D1CFC0", VA = "0x4D1CFC0")]
+		[Address(RVA = "0x50448F0", Offset = "0x50448F0", VA = "0x50448F0")]
 		private void DisposeRelatedPanel()
 		{
 		}
 
 		[Token(Token = "0x6000D96")]
-		[Address(RVA = "0x4D1CD80", Offset = "0x4D1CD80", VA = "0x4D1CD80")]
+		[Address(RVA = "0x50446B0", Offset = "0x50446B0", VA = "0x50446B0")]
 		internal void MarkPotentiallyEmpty()
 		{
 		}
@@ -241,13 +248,13 @@ public class PanelSettings : ScriptableObject
 	public ThemeStyleSheet themeStyleSheet
 	{
 		[Token(Token = "0x6000D57")]
-		[Address(RVA = "0x4D1A920", Offset = "0x4D1A920", VA = "0x4D1A920")]
+		[Address(RVA = "0x5042250", Offset = "0x5042250", VA = "0x5042250")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000D58")]
-		[Address(RVA = "0x4D1A930", Offset = "0x4D1A930", VA = "0x4D1A930")]
+		[Address(RVA = "0x5042260", Offset = "0x5042260", VA = "0x5042260")]
 		set
 		{
 		}
@@ -257,13 +264,13 @@ public class PanelSettings : ScriptableObject
 	public RenderTexture targetTexture
 	{
 		[Token(Token = "0x6000D59")]
-		[Address(RVA = "0x4D1AAD0", Offset = "0x4D1AAD0", VA = "0x4D1AAD0")]
+		[Address(RVA = "0x5042400", Offset = "0x5042400", VA = "0x5042400")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000D5A")]
-		[Address(RVA = "0x4D1AAE0", Offset = "0x4D1AAE0", VA = "0x4D1AAE0")]
+		[Address(RVA = "0x5042410", Offset = "0x5042410", VA = "0x5042410")]
 		set
 		{
 		}
@@ -273,13 +280,13 @@ public class PanelSettings : ScriptableObject
 	public PanelScaleMode scaleMode
 	{
 		[Token(Token = "0x6000D5B")]
-		[Address(RVA = "0x4D1AB70", Offset = "0x4D1AB70", VA = "0x4D1AB70")]
+		[Address(RVA = "0x50424A0", Offset = "0x50424A0", VA = "0x50424A0")]
 		get
 		{
 			return default(PanelScaleMode);
 		}
 		[Token(Token = "0x6000D5C")]
-		[Address(RVA = "0x4D1AB80", Offset = "0x4D1AB80", VA = "0x4D1AB80")]
+		[Address(RVA = "0x50424B0", Offset = "0x50424B0", VA = "0x50424B0")]
 		set
 		{
 		}
@@ -289,13 +296,13 @@ public class PanelSettings : ScriptableObject
 	public float referenceSpritePixelsPerUnit
 	{
 		[Token(Token = "0x6000D5D")]
-		[Address(RVA = "0x4D1AB90", Offset = "0x4D1AB90", VA = "0x4D1AB90")]
+		[Address(RVA = "0x50424C0", Offset = "0x50424C0", VA = "0x50424C0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000D5E")]
-		[Address(RVA = "0x4D1ABA0", Offset = "0x4D1ABA0", VA = "0x4D1ABA0")]
+		[Address(RVA = "0x50424D0", Offset = "0x50424D0", VA = "0x50424D0")]
 		set
 		{
 		}
@@ -305,13 +312,13 @@ public class PanelSettings : ScriptableObject
 	public float scale
 	{
 		[Token(Token = "0x6000D5F")]
-		[Address(RVA = "0x4D1ABB0", Offset = "0x4D1ABB0", VA = "0x4D1ABB0")]
+		[Address(RVA = "0x50424E0", Offset = "0x50424E0", VA = "0x50424E0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000D60")]
-		[Address(RVA = "0x4D1ABC0", Offset = "0x4D1ABC0", VA = "0x4D1ABC0")]
+		[Address(RVA = "0x50424F0", Offset = "0x50424F0", VA = "0x50424F0")]
 		set
 		{
 		}
@@ -321,13 +328,13 @@ public class PanelSettings : ScriptableObject
 	public float referenceDpi
 	{
 		[Token(Token = "0x6000D61")]
-		[Address(RVA = "0x4D1ABD0", Offset = "0x4D1ABD0", VA = "0x4D1ABD0")]
+		[Address(RVA = "0x5042500", Offset = "0x5042500", VA = "0x5042500")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000D62")]
-		[Address(RVA = "0x4D1ABE0", Offset = "0x4D1ABE0", VA = "0x4D1ABE0")]
+		[Address(RVA = "0x5042510", Offset = "0x5042510", VA = "0x5042510")]
 		set
 		{
 		}
@@ -337,13 +344,13 @@ public class PanelSettings : ScriptableObject
 	public float fallbackDpi
 	{
 		[Token(Token = "0x6000D63")]
-		[Address(RVA = "0x4D1AC10", Offset = "0x4D1AC10", VA = "0x4D1AC10")]
+		[Address(RVA = "0x5042540", Offset = "0x5042540", VA = "0x5042540")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000D64")]
-		[Address(RVA = "0x4D1AC20", Offset = "0x4D1AC20", VA = "0x4D1AC20")]
+		[Address(RVA = "0x5042550", Offset = "0x5042550", VA = "0x5042550")]
 		set
 		{
 		}
@@ -353,13 +360,13 @@ public class PanelSettings : ScriptableObject
 	public Vector2Int referenceResolution
 	{
 		[Token(Token = "0x6000D65")]
-		[Address(RVA = "0x4D1AC50", Offset = "0x4D1AC50", VA = "0x4D1AC50")]
+		[Address(RVA = "0x5042580", Offset = "0x5042580", VA = "0x5042580")]
 		get
 		{
 			return default(Vector2Int);
 		}
 		[Token(Token = "0x6000D66")]
-		[Address(RVA = "0x4D1AC60", Offset = "0x4D1AC60", VA = "0x4D1AC60")]
+		[Address(RVA = "0x5042590", Offset = "0x5042590", VA = "0x5042590")]
 		set
 		{
 		}
@@ -369,13 +376,13 @@ public class PanelSettings : ScriptableObject
 	public PanelScreenMatchMode screenMatchMode
 	{
 		[Token(Token = "0x6000D67")]
-		[Address(RVA = "0x4D1AC70", Offset = "0x4D1AC70", VA = "0x4D1AC70")]
+		[Address(RVA = "0x50425A0", Offset = "0x50425A0", VA = "0x50425A0")]
 		get
 		{
 			return default(PanelScreenMatchMode);
 		}
 		[Token(Token = "0x6000D68")]
-		[Address(RVA = "0x4D1AC80", Offset = "0x4D1AC80", VA = "0x4D1AC80")]
+		[Address(RVA = "0x50425B0", Offset = "0x50425B0", VA = "0x50425B0")]
 		set
 		{
 		}
@@ -385,13 +392,13 @@ public class PanelSettings : ScriptableObject
 	public float match
 	{
 		[Token(Token = "0x6000D69")]
-		[Address(RVA = "0x4D1AC90", Offset = "0x4D1AC90", VA = "0x4D1AC90")]
+		[Address(RVA = "0x50425C0", Offset = "0x50425C0", VA = "0x50425C0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000D6A")]
-		[Address(RVA = "0x4D1ACA0", Offset = "0x4D1ACA0", VA = "0x4D1ACA0")]
+		[Address(RVA = "0x50425D0", Offset = "0x50425D0", VA = "0x50425D0")]
 		set
 		{
 		}
@@ -401,13 +408,13 @@ public class PanelSettings : ScriptableObject
 	public float sortingOrder
 	{
 		[Token(Token = "0x6000D6B")]
-		[Address(RVA = "0x4D1ACB0", Offset = "0x4D1ACB0", VA = "0x4D1ACB0")]
+		[Address(RVA = "0x50425E0", Offset = "0x50425E0", VA = "0x50425E0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000D6C")]
-		[Address(RVA = "0x4D1ACC0", Offset = "0x4D1ACC0", VA = "0x4D1ACC0")]
+		[Address(RVA = "0x50425F0", Offset = "0x50425F0", VA = "0x50425F0")]
 		set
 		{
 		}
@@ -417,13 +424,13 @@ public class PanelSettings : ScriptableObject
 	public int targetDisplay
 	{
 		[Token(Token = "0x6000D6E")]
-		[Address(RVA = "0x4D1AD60", Offset = "0x4D1AD60", VA = "0x4D1AD60")]
+		[Address(RVA = "0x5042690", Offset = "0x5042690", VA = "0x5042690")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000D6F")]
-		[Address(RVA = "0x4D1AD70", Offset = "0x4D1AD70", VA = "0x4D1AD70")]
+		[Address(RVA = "0x50426A0", Offset = "0x50426A0", VA = "0x50426A0")]
 		set
 		{
 		}
@@ -433,13 +440,13 @@ public class PanelSettings : ScriptableObject
 	public bool clearDepthStencil
 	{
 		[Token(Token = "0x6000D70")]
-		[Address(RVA = "0x4D1ADD0", Offset = "0x4D1ADD0", VA = "0x4D1ADD0")]
+		[Address(RVA = "0x5042700", Offset = "0x5042700", VA = "0x5042700")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000D71")]
-		[Address(RVA = "0x4D1ADE0", Offset = "0x4D1ADE0", VA = "0x4D1ADE0")]
+		[Address(RVA = "0x5042710", Offset = "0x5042710", VA = "0x5042710")]
 		set
 		{
 		}
@@ -449,7 +456,7 @@ public class PanelSettings : ScriptableObject
 	public float depthClearValue
 	{
 		[Token(Token = "0x6000D72")]
-		[Address(RVA = "0x4D1ADF0", Offset = "0x4D1ADF0", VA = "0x4D1ADF0")]
+		[Address(RVA = "0x5042720", Offset = "0x5042720", VA = "0x5042720")]
 		get
 		{
 			return default(float);
@@ -460,13 +467,13 @@ public class PanelSettings : ScriptableObject
 	public bool clearColor
 	{
 		[Token(Token = "0x6000D73")]
-		[Address(RVA = "0x4D1AE00", Offset = "0x4D1AE00", VA = "0x4D1AE00")]
+		[Address(RVA = "0x5042730", Offset = "0x5042730", VA = "0x5042730")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000D74")]
-		[Address(RVA = "0x4D1AE10", Offset = "0x4D1AE10", VA = "0x4D1AE10")]
+		[Address(RVA = "0x5042740", Offset = "0x5042740", VA = "0x5042740")]
 		set
 		{
 		}
@@ -476,13 +483,13 @@ public class PanelSettings : ScriptableObject
 	public Color colorClearValue
 	{
 		[Token(Token = "0x6000D75")]
-		[Address(RVA = "0x4D1AE20", Offset = "0x4D1AE20", VA = "0x4D1AE20")]
+		[Address(RVA = "0x5042750", Offset = "0x5042750", VA = "0x5042750")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x6000D76")]
-		[Address(RVA = "0x4D1AE30", Offset = "0x4D1AE30", VA = "0x4D1AE30")]
+		[Address(RVA = "0x5042760", Offset = "0x5042760", VA = "0x5042760")]
 		set
 		{
 		}
@@ -492,13 +499,13 @@ public class PanelSettings : ScriptableObject
 	public uint vertexBudget
 	{
 		[Token(Token = "0x6000D77")]
-		[Address(RVA = "0x4D1AE40", Offset = "0x4D1AE40", VA = "0x4D1AE40")]
+		[Address(RVA = "0x5042770", Offset = "0x5042770", VA = "0x5042770")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x6000D78")]
-		[Address(RVA = "0x4D1AE50", Offset = "0x4D1AE50", VA = "0x4D1AE50")]
+		[Address(RVA = "0x5042780", Offset = "0x5042780", VA = "0x5042780")]
 		set
 		{
 		}
@@ -508,7 +515,7 @@ public class PanelSettings : ScriptableObject
 	internal BaseRuntimePanel panel
 	{
 		[Token(Token = "0x6000D79")]
-		[Address(RVA = "0x4D1AE60", Offset = "0x4D1AE60", VA = "0x4D1AE60")]
+		[Address(RVA = "0x5042790", Offset = "0x5042790", VA = "0x5042790")]
 		get
 		{
 			return null;
@@ -519,7 +526,7 @@ public class PanelSettings : ScriptableObject
 	internal VisualElement visualTree
 	{
 		[Token(Token = "0x6000D7A")]
-		[Address(RVA = "0x4D1AFF0", Offset = "0x4D1AFF0", VA = "0x4D1AFF0")]
+		[Address(RVA = "0x5042920", Offset = "0x5042920", VA = "0x5042920")]
 		get
 		{
 			return null;
@@ -530,13 +537,13 @@ public class PanelSettings : ScriptableObject
 	public DynamicAtlasSettings dynamicAtlasSettings
 	{
 		[Token(Token = "0x6000D7B")]
-		[Address(RVA = "0x4D1B020", Offset = "0x4D1B020", VA = "0x4D1B020")]
+		[Address(RVA = "0x5042950", Offset = "0x5042950", VA = "0x5042950")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000D7C")]
-		[Address(RVA = "0x4D1B030", Offset = "0x4D1B030", VA = "0x4D1B030")]
+		[Address(RVA = "0x5042960", Offset = "0x5042960", VA = "0x5042960")]
 		set
 		{
 		}
@@ -546,14 +553,14 @@ public class PanelSettings : ScriptableObject
 	private float ScreenDPI
 	{
 		[Token(Token = "0x6000D82")]
-		[Address(RVA = "0x4D1B610", Offset = "0x4D1B610", VA = "0x4D1B610")]
+		[Address(RVA = "0x5042F40", Offset = "0x5042F40", VA = "0x5042F40")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000D83")]
-		[Address(RVA = "0x4D1B620", Offset = "0x4D1B620", VA = "0x4D1B620")]
+		[Address(RVA = "0x5042F50", Offset = "0x5042F50", VA = "0x5042F50")]
 		[CompilerGenerated]
 		set
 		{
@@ -561,93 +568,93 @@ public class PanelSettings : ScriptableObject
 	}
 
 	[Token(Token = "0x6000D6D")]
-	[Address(RVA = "0x4D1AD00", Offset = "0x4D1AD00", VA = "0x4D1AD00")]
+	[Address(RVA = "0x5042630", Offset = "0x5042630", VA = "0x5042630")]
 	internal void ApplySortingOrder()
 	{
 	}
 
 	[Token(Token = "0x6000D7D")]
-	[Address(RVA = "0x4D1B040", Offset = "0x4D1B040", VA = "0x4D1B040")]
+	[Address(RVA = "0x5042970", Offset = "0x5042970", VA = "0x5042970")]
 	private PanelSettings()
 	{
 	}
 
 	[Token(Token = "0x6000D7E")]
-	[Address(RVA = "0x4D1B1B0", Offset = "0x4D1B1B0", VA = "0x4D1B1B0")]
+	[Address(RVA = "0x5042AE0", Offset = "0x5042AE0", VA = "0x5042AE0")]
 	private void Reset()
 	{
 	}
 
 	[Token(Token = "0x6000D7F")]
-	[Address(RVA = "0x4D1B1C0", Offset = "0x4D1B1C0", VA = "0x4D1B1C0")]
+	[Address(RVA = "0x5042AF0", Offset = "0x5042AF0", VA = "0x5042AF0")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000D80")]
-	[Address(RVA = "0x4D1B490", Offset = "0x4D1B490", VA = "0x4D1B490")]
+	[Address(RVA = "0x5042DC0", Offset = "0x5042DC0", VA = "0x5042DC0")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000D81")]
-	[Address(RVA = "0x4D1B590", Offset = "0x4D1B590", VA = "0x4D1B590")]
+	[Address(RVA = "0x5042EC0", Offset = "0x5042EC0", VA = "0x5042EC0")]
 	internal void DisposePanel()
 	{
 	}
 
 	[Token(Token = "0x6000D84")]
-	[Address(RVA = "0x4D1B2A0", Offset = "0x4D1B2A0", VA = "0x4D1B2A0")]
+	[Address(RVA = "0x5042BD0", Offset = "0x5042BD0", VA = "0x5042BD0")]
 	internal void UpdateScreenDPI()
 	{
 	}
 
 	[Token(Token = "0x6000D85")]
-	[Address(RVA = "0x4D1A950", Offset = "0x4D1A950", VA = "0x4D1A950")]
+	[Address(RVA = "0x5042280", Offset = "0x5042280", VA = "0x5042280")]
 	private void ApplyThemeStyleSheet([Optional] VisualElement root)
 	{
 	}
 
 	[Token(Token = "0x6000D86")]
-	[Address(RVA = "0x4D1B2C0", Offset = "0x4D1B2C0", VA = "0x4D1B2C0")]
+	[Address(RVA = "0x5042BF0", Offset = "0x5042BF0", VA = "0x5042BF0")]
 	private void InitializeShaders()
 	{
 	}
 
 	[Token(Token = "0x6000D87")]
-	[Address(RVA = "0x4D1B640", Offset = "0x4D1B640", VA = "0x4D1B640")]
+	[Address(RVA = "0x5042F70", Offset = "0x5042F70", VA = "0x5042F70")]
 	internal void ApplyPanelSettings()
 	{
 	}
 
 	[Token(Token = "0x6000D88")]
-	[Address(RVA = "0x4D1C3E0", Offset = "0x4D1C3E0", VA = "0x4D1C3E0")]
+	[Address(RVA = "0x5043D10", Offset = "0x5043D10", VA = "0x5043D10")]
 	public void SetScreenToPanelSpaceFunction(Func<Vector2, Vector2> screentoPanelSpaceFunction)
 	{
 	}
 
 	[Token(Token = "0x6000D89")]
-	[Address(RVA = "0x4D1C0B0", Offset = "0x4D1C0B0", VA = "0x4D1C0B0")]
+	[Address(RVA = "0x50439E0", Offset = "0x50439E0", VA = "0x50439E0")]
 	internal float ResolveScale(Rect targetRect, float screenDpi)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000D8A")]
-	[Address(RVA = "0x4D1BFD0", Offset = "0x4D1BFD0", VA = "0x4D1BFD0")]
+	[Address(RVA = "0x5043900", Offset = "0x5043900", VA = "0x5043900")]
 	internal Rect GetDisplayRect()
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x6000D8B")]
-	[Address(RVA = "0x4D1C690", Offset = "0x4D1C690", VA = "0x4D1C690")]
+	[Address(RVA = "0x5043FC0", Offset = "0x5043FC0", VA = "0x5043FC0")]
 	internal void AttachAndInsertUIDocumentToVisualTree(UIDocument uiDocument)
 	{
 	}
 
 	[Token(Token = "0x6000D8C")]
-	[Address(RVA = "0x4D1CC80", Offset = "0x4D1CC80", VA = "0x4D1CC80")]
+	[Address(RVA = "0x50445B0", Offset = "0x50445B0", VA = "0x50445B0")]
 	internal void DetachUIDocument(UIDocument uiDocument)
 	{
 	}

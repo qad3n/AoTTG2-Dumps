@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.EncodingHelper
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -27,7 +34,7 @@ internal static class EncodingHelper
 	internal static Encoding UTF8Unmarked
 	{
 		[Token(Token = "0x600175A")]
-		[Address(RVA = "0x4E36230", Offset = "0x4E36230", VA = "0x4E36230")]
+		[Address(RVA = "0x3B1BD50", Offset = "0x3B1BD50", VA = "0x3B1BD50")]
 		get
 		{
 			return null;
@@ -36,18 +43,18 @@ internal static class EncodingHelper
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600175B")]
-	[Address(RVA = "0x4E36460", Offset = "0x4E36460", VA = "0x4E36460")]
+	[Address(RVA = "0x3B1BF80", Offset = "0x3B1BF80", VA = "0x3B1BF80")]
 	internal static extern string InternalCodePage(ref int code_page);
 
 	[Token(Token = "0x600175C")]
-	[Address(RVA = "0x4E323D0", Offset = "0x4E323D0", VA = "0x4E323D0")]
+	[Address(RVA = "0x3B17EF0", Offset = "0x3B17EF0", VA = "0x3B17EF0")]
 	internal static Encoding GetDefaultEncoding()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600175D")]
-	[Address(RVA = "0x4E307A0", Offset = "0x4E307A0", VA = "0x4E307A0")]
+	[Address(RVA = "0x3B162C0", Offset = "0x3B162C0", VA = "0x3B162C0")]
 	internal static object InvokeI18N(string name, params object[] args)
 	{
 		return null;

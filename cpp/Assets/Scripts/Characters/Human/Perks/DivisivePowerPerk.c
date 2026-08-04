@@ -1,13 +1,14 @@
 // Type: Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Assets.Scripts.Characters.Human.Perks/DivisivePowerPerk.cs
-// Prior source: NEW in this update
+// Prior real C# source: none
 // --------------------------------
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$get_PerkEnabled
 // il2cpp: bool Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__get_PerkEnabled (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, const MethodInfo* method);
-// 0x414d800
+// 0x4480810
 
 bool_conflict
 Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__get_PerkEnabled
@@ -26,11 +27,10 @@ Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__get_PerkEnabled
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$get_MaxPower
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__get_MaxPower (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, const MethodInfo* method);
-// 0x414d820
+// 0x4480830
 
 float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__get_MaxPower
-                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,
-                MethodInfo *method)
+                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,MethodInfo *method)
 
 {
   return 1.0;
@@ -39,11 +39,10 @@ float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__get_MaxPower
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$get_MinPower
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__get_MinPower (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, const MethodInfo* method);
-// 0x414d830
+// 0x4480840
 
 float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__get_MinPower
-                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,
-                MethodInfo *method)
+                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,MethodInfo *method)
 
 {
   return 0.0;
@@ -52,11 +51,10 @@ float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__get_MinPower
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$get_PowerUsageDivisor
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__get_PowerUsageDivisor (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, const MethodInfo* method);
-// 0x414d840
+// 0x4480850
 
 float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__get_PowerUsageDivisor
-                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,
-                MethodInfo *method)
+                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,MethodInfo *method)
 
 {
   return 2.0;
@@ -65,11 +63,10 @@ float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__get_PowerUsageDiv
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$get_LinearRecoveryRate
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__get_LinearRecoveryRate (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, const MethodInfo* method);
-// 0x414d850
+// 0x4480860
 
 float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__get_LinearRecoveryRate
-                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,
-                MethodInfo *method)
+                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,MethodInfo *method)
 
 {
   return 0.1;
@@ -78,11 +75,10 @@ float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__get_LinearRecover
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$get_Cooldown
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__get_Cooldown (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, const MethodInfo* method);
-// 0x414d860
+// 0x4480870
 
 float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__get_Cooldown
-                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,
-                MethodInfo *method)
+                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,MethodInfo *method)
 
 {
   return 0.0;
@@ -91,11 +87,10 @@ float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__get_Cooldown
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$.ctor
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk___ctor (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, const MethodInfo* method);
-// 0x414d870
+// 0x4480880
 
 void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk___ctor
-               (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,MethodInfo *method
-               )
+               (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,MethodInfo *method)
 
 {
   float fVar1;
@@ -113,11 +108,10 @@ void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk___ctor
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$Reset
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__Reset (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, const MethodInfo* method);
-// 0x414d8b0
+// 0x44808c0
 
 void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__Reset
-               (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,MethodInfo *method
-               )
+               (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,MethodInfo *method)
 
 {
   float fVar1;
@@ -133,11 +127,10 @@ void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__Reset
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$GetCurrentPower
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__GetCurrentPower (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, const MethodInfo* method);
-// 0x414d8e0
+// 0x44808f0
 
 float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__GetCurrentPower
-                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,
-                MethodInfo *method)
+                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,MethodInfo *method)
 
 {
   float fVar1;
@@ -173,7 +166,7 @@ float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__GetCurrentPower
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$SetCurrentPower
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__SetCurrentPower (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, float power, const MethodInfo* method);
-// 0x414da80
+// 0x4480a90
 
 void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__SetCurrentPower
                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,float power,
@@ -200,7 +193,7 @@ void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__SetCurrentPower
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$RecoverPower
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__RecoverPower (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, float amount, const MethodInfo* method);
-// 0x414daf0
+// 0x4480b00
 
 void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__RecoverPower
                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,float amount,
@@ -229,7 +222,7 @@ void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__RecoverPower
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$RecoverPowerBySeconds
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__RecoverPowerBySeconds (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, float seconds, const MethodInfo* method);
-// 0x414db60
+// 0x4480b70
 
 void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__RecoverPowerBySeconds
                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,float seconds,
@@ -262,11 +255,10 @@ void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__RecoverPowerBySeco
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$GetPowerRatio
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__GetPowerRatio (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, const MethodInfo* method);
-// 0x414dbf0
+// 0x4480c00
 
 float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__GetPowerRatio
-                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,
-                MethodInfo *method)
+                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,MethodInfo *method)
 
 {
   float fVar1;
@@ -317,11 +309,10 @@ float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__GetPowerRatio
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$UpdatePower
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__UpdatePower (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, const MethodInfo* method);
-// 0x414d9b0
+// 0x44809c0
 
 void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__UpdatePower
-               (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,MethodInfo *method
-               )
+               (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,MethodInfo *method)
 
 {
   float fVar1;
@@ -357,7 +348,7 @@ void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__UpdatePower
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$GetRecoveryAmount
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__GetRecoveryAmount (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, float deltaTime, const MethodInfo* method);
-// 0x414dd70
+// 0x4480d80
 
 float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__GetRecoveryAmount
                 (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,float deltaTime,
@@ -374,7 +365,7 @@ float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__GetRecoveryAmount
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$CanUse
 // il2cpp: bool Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__CanUse (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, const MethodInfo* method);
-// 0x414dd90
+// 0x4480da0
 
 bool_conflict
 Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__CanUse
@@ -430,11 +421,10 @@ Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__CanUse
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$OnUse
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__OnUse (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, const MethodInfo* method);
-// 0x414def0
+// 0x4480f00
 
 void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__OnUse
-               (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,MethodInfo *method
-               )
+               (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,MethodInfo *method)
 
 {
   float fVar1;
@@ -488,9 +478,9 @@ void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__OnUse
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$OnUse
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__OnUse (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, float percent, const MethodInfo* method);
-// 0x414e050
+// 0x4481060
 
-void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__OnUse
+void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__OnUse_4381060
                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,float percent,
                MethodInfo *method)
 
@@ -546,11 +536,11 @@ void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__OnUse
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$SetCooldownLeft
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__SetCooldownLeft (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, float cooldownLeft, const MethodInfo* method);
-// 0x414e1c0
+// 0x44811d0
 
 void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__SetCooldownLeft
-               (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,float cooldownLeft
-               ,MethodInfo *method)
+               (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,float cooldownLeft,
+               MethodInfo *method)
 
 {
   float fVar1;
@@ -566,11 +556,10 @@ void Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__SetCooldownLeft
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$GetCooldownLeft
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__GetCooldownLeft (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, const MethodInfo* method);
-// 0x414e210
+// 0x4481220
 
 float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__GetCooldownLeft
-                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,
-                MethodInfo *method)
+                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,MethodInfo *method)
 
 {
   float fVar1;
@@ -594,11 +583,10 @@ float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__GetCooldownLeft
 
 // Assets.Scripts.Characters.Human.Perks.DivisivePowerPerk$$GetCooldownRatio
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__GetCooldownRatio (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o* __this, const MethodInfo* method);
-// 0x414e280
+// 0x4481290
 
 float Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk__GetCooldownRatio
-                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,
-                MethodInfo *method)
+                (Assets_Scripts_Characters_Human_Perks_DivisivePowerPerk_o *__this,MethodInfo *method)
 
 {
   float fVar1;

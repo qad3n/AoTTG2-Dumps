@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: RuntimeSceneGizmo.SceneGizmoController
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/RuntimeSceneGizmo/SceneGizmoController.c
+// Prior real C# source (older reference): Assets/Scripts/ThirdParty/RuntimeSceneGizmo/SceneGizmoController.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 using UnityEngine;
@@ -81,13 +88,13 @@ public class SceneGizmoController : MonoBehaviour
 	public Transform ReferenceTransform
 	{
 		[Token(Token = "0x60002D2")]
-		[Address(RVA = "0x3C8CF40", Offset = "0x3C8CF40", VA = "0x3C8CF40")]
+		[Address(RVA = "0x3F82890", Offset = "0x3F82890", VA = "0x3F82890")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60002D3")]
-		[Address(RVA = "0x3C8CF50", Offset = "0x3C8CF50", VA = "0x3C8CF50")]
+		[Address(RVA = "0x3F828A0", Offset = "0x3F828A0", VA = "0x3F828A0")]
 		set
 		{
 		}
@@ -97,14 +104,14 @@ public class SceneGizmoController : MonoBehaviour
 	public RenderTexture TargetTexture
 	{
 		[Token(Token = "0x60002D4")]
-		[Address(RVA = "0x3C8D0E0", Offset = "0x3C8D0E0", VA = "0x3C8D0E0")]
+		[Address(RVA = "0x3F82A30", Offset = "0x3F82A30", VA = "0x3F82A30")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60002D5")]
-		[Address(RVA = "0x3C8D0F0", Offset = "0x3C8D0F0", VA = "0x3C8D0F0")]
+		[Address(RVA = "0x3F82A40", Offset = "0x3F82A40", VA = "0x3F82A40")]
 		[CompilerGenerated]
 		private set
 		{
@@ -112,69 +119,69 @@ public class SceneGizmoController : MonoBehaviour
 	}
 
 	[Token(Token = "0x60002D6")]
-	[Address(RVA = "0x3C8D110", Offset = "0x3C8D110", VA = "0x3C8D110")]
+	[Address(RVA = "0x3F82A60", Offset = "0x3F82A60", VA = "0x3F82A60")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x60002D7")]
-	[Address(RVA = "0x3C8D530", Offset = "0x3C8D530", VA = "0x3C8D530")]
+	[Address(RVA = "0x3F82E80", Offset = "0x3F82E80", VA = "0x3F82E80")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60002D8")]
-	[Address(RVA = "0x3C8D790", Offset = "0x3C8D790", VA = "0x3C8D790")]
+	[Address(RVA = "0x3F830E0", Offset = "0x3F830E0", VA = "0x3F830E0")]
 	private void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x60002D9")]
-	[Address(RVA = "0x3C8D830", Offset = "0x3C8D830", VA = "0x3C8D830")]
+	[Address(RVA = "0x3F83180", Offset = "0x3F83180", VA = "0x3F83180")]
 	private void LateUpdate()
 	{
 	}
 
 	[Token(Token = "0x60002DA")]
-	[Address(RVA = "0x3C8DFA0", Offset = "0x3C8DFA0", VA = "0x3C8DFA0")]
+	[Address(RVA = "0x3F838F0", Offset = "0x3F838F0", VA = "0x3F838F0")]
 	public GizmoComponent Raycast(Vector3 normalizedPosition)
 	{
 		return default(GizmoComponent);
 	}
 
 	[Token(Token = "0x60002DB")]
-	[Address(RVA = "0x3C8E170", Offset = "0x3C8E170", VA = "0x3C8E170")]
+	[Address(RVA = "0x3F83AC0", Offset = "0x3F83AC0", VA = "0x3F83AC0")]
 	public void OnPointerHover(Vector3 normalizedPosition)
 	{
 	}
 
 	[Token(Token = "0x60002DC")]
-	[Address(RVA = "0x3C8D590", Offset = "0x3C8D590", VA = "0x3C8D590")]
+	[Address(RVA = "0x3F82EE0", Offset = "0x3F82EE0", VA = "0x3F82EE0")]
 	private void SetHiddenComponent(GizmoComponent component)
 	{
 	}
 
 	[Token(Token = "0x60002DD")]
-	[Address(RVA = "0x3C8DE40", Offset = "0x3C8DE40", VA = "0x3C8DE40")]
+	[Address(RVA = "0x3F83790", Offset = "0x3F83790", VA = "0x3F83790")]
 	private void SetAlphaOf(GizmoComponent component, float alpha)
 	{
 	}
 
 	[Token(Token = "0x60002DE")]
-	[Address(RVA = "0x3C8DF00", Offset = "0x3C8DF00", VA = "0x3C8DF00")]
+	[Address(RVA = "0x3F83850", Offset = "0x3F83850", VA = "0x3F83850")]
 	private void SetMaterialOf(GizmoComponent component, Material material)
 	{
 	}
 
 	[Token(Token = "0x60002DF")]
-	[Address(RVA = "0x3C8DE20", Offset = "0x3C8DE20", VA = "0x3C8DE20")]
+	[Address(RVA = "0x3F83770", Offset = "0x3F83770", VA = "0x3F83770")]
 	private GizmoComponent GetOppositeComponent(GizmoComponent component)
 	{
 		return default(GizmoComponent);
 	}
 
 	[Token(Token = "0x60002E0")]
-	[Address(RVA = "0x3C8E240", Offset = "0x3C8E240", VA = "0x3C8E240")]
+	[Address(RVA = "0x3F83B90", Offset = "0x3F83B90", VA = "0x3F83B90")]
 	public SceneGizmoController()
 	{
 	}

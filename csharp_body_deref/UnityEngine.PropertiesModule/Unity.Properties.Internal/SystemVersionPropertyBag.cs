@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.Properties.Internal.SystemVersionPropertyBag
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -13,7 +20,7 @@ internal class SystemVersionPropertyBag : ContainerPropertyBag<Version>
 		public override string Name
 		{
 			[Token(Token = "0x60001DB")]
-			[Address(RVA = "0x4B74610", Offset = "0x4B74610", VA = "0x4B74610", Slot = "7")]
+			[Address(RVA = "0x4E9BF40", Offset = "0x4E9BF40", VA = "0x4E9BF40", Slot = "7")]
 			get
 			{
 				return null;
@@ -21,7 +28,7 @@ internal class SystemVersionPropertyBag : ContainerPropertyBag<Version>
 		}
 
 		[Token(Token = "0x60001DA")]
-		[Address(RVA = "0x4B743D0", Offset = "0x4B743D0", VA = "0x4B743D0")]
+		[Address(RVA = "0x4E9BD00", Offset = "0x4E9BD00", VA = "0x4E9BD00")]
 		public MajorProperty()
 		{
 		}
@@ -34,7 +41,7 @@ internal class SystemVersionPropertyBag : ContainerPropertyBag<Version>
 		public override string Name
 		{
 			[Token(Token = "0x60001DD")]
-			[Address(RVA = "0x4B74640", Offset = "0x4B74640", VA = "0x4B74640", Slot = "7")]
+			[Address(RVA = "0x4E9BF70", Offset = "0x4E9BF70", VA = "0x4E9BF70", Slot = "7")]
 			get
 			{
 				return null;
@@ -42,7 +49,7 @@ internal class SystemVersionPropertyBag : ContainerPropertyBag<Version>
 		}
 
 		[Token(Token = "0x60001DC")]
-		[Address(RVA = "0x4B74460", Offset = "0x4B74460", VA = "0x4B74460")]
+		[Address(RVA = "0x4E9BD90", Offset = "0x4E9BD90", VA = "0x4E9BD90")]
 		public MinorProperty()
 		{
 		}
@@ -55,7 +62,7 @@ internal class SystemVersionPropertyBag : ContainerPropertyBag<Version>
 		public override string Name
 		{
 			[Token(Token = "0x60001DF")]
-			[Address(RVA = "0x4B74670", Offset = "0x4B74670", VA = "0x4B74670", Slot = "7")]
+			[Address(RVA = "0x4E9BFA0", Offset = "0x4E9BFA0", VA = "0x4E9BFA0", Slot = "7")]
 			get
 			{
 				return null;
@@ -63,7 +70,7 @@ internal class SystemVersionPropertyBag : ContainerPropertyBag<Version>
 		}
 
 		[Token(Token = "0x60001DE")]
-		[Address(RVA = "0x4B744F0", Offset = "0x4B744F0", VA = "0x4B744F0")]
+		[Address(RVA = "0x4E9BE20", Offset = "0x4E9BE20", VA = "0x4E9BE20")]
 		public BuildProperty()
 		{
 		}
@@ -76,7 +83,7 @@ internal class SystemVersionPropertyBag : ContainerPropertyBag<Version>
 		public override string Name
 		{
 			[Token(Token = "0x60001E1")]
-			[Address(RVA = "0x4B746A0", Offset = "0x4B746A0", VA = "0x4B746A0", Slot = "7")]
+			[Address(RVA = "0x4E9BFD0", Offset = "0x4E9BFD0", VA = "0x4E9BFD0", Slot = "7")]
 			get
 			{
 				return null;
@@ -84,14 +91,14 @@ internal class SystemVersionPropertyBag : ContainerPropertyBag<Version>
 		}
 
 		[Token(Token = "0x60001E0")]
-		[Address(RVA = "0x4B74580", Offset = "0x4B74580", VA = "0x4B74580")]
+		[Address(RVA = "0x4E9BEB0", Offset = "0x4E9BEB0", VA = "0x4E9BEB0")]
 		public RevisionProperty()
 		{
 		}
 	}
 
 	[Token(Token = "0x60001D9")]
-	[Address(RVA = "0x4B73560", Offset = "0x4B73560", VA = "0x4B73560")]
+	[Address(RVA = "0x4E9AE90", Offset = "0x4E9AE90", VA = "0x4E9AE90")]
 	public SystemVersionPropertyBag()
 	{
 	}

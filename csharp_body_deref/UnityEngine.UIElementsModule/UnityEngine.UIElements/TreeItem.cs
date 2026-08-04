@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.TreeItem
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -12,7 +19,7 @@ internal readonly struct TreeItem
 	public int id
 	{
 		[Token(Token = "0x600079D")]
-		[Address(RVA = "0x4CDAD90", Offset = "0x4CDAD90", VA = "0x4CDAD90")]
+		[Address(RVA = "0x50026C0", Offset = "0x50026C0", VA = "0x50026C0")]
 		[CompilerGenerated]
 		get
 		{
@@ -24,7 +31,7 @@ internal readonly struct TreeItem
 	public int parentId
 	{
 		[Token(Token = "0x600079E")]
-		[Address(RVA = "0x4CDADA0", Offset = "0x4CDADA0", VA = "0x4CDADA0")]
+		[Address(RVA = "0x50026D0", Offset = "0x50026D0", VA = "0x50026D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -36,7 +43,7 @@ internal readonly struct TreeItem
 	public IEnumerable<int> childrenIds
 	{
 		[Token(Token = "0x600079F")]
-		[Address(RVA = "0x4CDADB0", Offset = "0x4CDADB0", VA = "0x4CDADB0")]
+		[Address(RVA = "0x50026E0", Offset = "0x50026E0", VA = "0x50026E0")]
 		[CompilerGenerated]
 		get
 		{
@@ -48,7 +55,7 @@ internal readonly struct TreeItem
 	public bool hasChildren
 	{
 		[Token(Token = "0x60007A0")]
-		[Address(RVA = "0x4CDADC0", Offset = "0x4CDADC0", VA = "0x4CDADC0")]
+		[Address(RVA = "0x50026F0", Offset = "0x50026F0", VA = "0x50026F0")]
 		get
 		{
 			return default(bool);
@@ -56,7 +63,7 @@ internal readonly struct TreeItem
 	}
 
 	[Token(Token = "0x60007A1")]
-	[Address(RVA = "0x4CDAE00", Offset = "0x4CDAE00", VA = "0x4CDAE00")]
+	[Address(RVA = "0x5002730", Offset = "0x5002730", VA = "0x5002730")]
 	public TreeItem(int id, [Optional][DefaultParameterValue(-1)] int parentId, [Optional] IEnumerable<int> childrenIds)
 	{
 	}

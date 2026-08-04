@@ -1,9 +1,16 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.DrawingSettings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002E4")]
+[Token(Token = "0x20002E7")]
 public struct DrawingSettings : IEquatable<DrawingSettings>
 {
 	[Token(Token = "0x40008A2")]
@@ -54,98 +61,98 @@ public struct DrawingSettings : IEquatable<DrawingSettings>
 	[FieldOffset(Offset = "0xC0")]
 	private int m_UseSrpBatcher;
 
-	[Token(Token = "0x1700027C")]
+	[Token(Token = "0x1700027D")]
 	public PerObjectData perObjectData
 	{
-		[Token(Token = "0x6001031")]
-		[Address(RVA = "0x4B06100", Offset = "0x4B06100", VA = "0x4B06100")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700027D")]
-	public Material overrideMaterial
-	{
-		[Token(Token = "0x6001032")]
-		[Address(RVA = "0x4B06110", Offset = "0x4B06110", VA = "0x4B06110")]
+		[Token(Token = "0x6001033")]
+		[Address(RVA = "0x4E2DA30", Offset = "0x4E2DA30", VA = "0x4E2DA30")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700027E")]
-	public Shader overrideShader
+	public Material overrideMaterial
 	{
-		[Token(Token = "0x6001033")]
-		[Address(RVA = "0x4B06140", Offset = "0x4B06140", VA = "0x4B06140")]
+		[Token(Token = "0x6001034")]
+		[Address(RVA = "0x4E2DA40", Offset = "0x4E2DA40", VA = "0x4E2DA40")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700027F")]
-	public int overrideMaterialPassIndex
+	public Shader overrideShader
 	{
-		[Token(Token = "0x6001034")]
-		[Address(RVA = "0x4B06170", Offset = "0x4B06170", VA = "0x4B06170")]
+		[Token(Token = "0x6001035")]
+		[Address(RVA = "0x4E2DA70", Offset = "0x4E2DA70", VA = "0x4E2DA70")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000280")]
-	public int overrideShaderPassIndex
+	public int overrideMaterialPassIndex
 	{
-		[Token(Token = "0x6001035")]
-		[Address(RVA = "0x4B06180", Offset = "0x4B06180", VA = "0x4B06180")]
+		[Token(Token = "0x6001036")]
+		[Address(RVA = "0x4E2DAA0", Offset = "0x4E2DAA0", VA = "0x4E2DAA0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001030")]
-	[Address(RVA = "0x4B05FF0", Offset = "0x4B05FF0", VA = "0x4B05FF0")]
+	[Token(Token = "0x17000281")]
+	public int overrideShaderPassIndex
+	{
+		[Token(Token = "0x6001037")]
+		[Address(RVA = "0x4E2DAB0", Offset = "0x4E2DAB0", VA = "0x4E2DAB0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x6001032")]
+	[Address(RVA = "0x4E2D920", Offset = "0x4E2D920", VA = "0x4E2D920")]
 	public DrawingSettings(ShaderTagId shaderPassName, SortingSettings sortingSettings)
 	{
 	}
 
-	[Token(Token = "0x6001036")]
-	[Address(RVA = "0x4B06190", Offset = "0x4B06190", VA = "0x4B06190")]
+	[Token(Token = "0x6001038")]
+	[Address(RVA = "0x4E2DAC0", Offset = "0x4E2DAC0", VA = "0x4E2DAC0")]
 	public ShaderTagId GetShaderPassName(int index)
 	{
 		return default(ShaderTagId);
 	}
 
-	[Token(Token = "0x6001037")]
-	[Address(RVA = "0x4B062E0", Offset = "0x4B062E0", VA = "0x4B062E0")]
+	[Token(Token = "0x6001039")]
+	[Address(RVA = "0x4E2DC10", Offset = "0x4E2DC10", VA = "0x4E2DC10")]
 	public void SetShaderPassName(int index, ShaderTagId shaderPassName)
 	{
 	}
 
-	[Token(Token = "0x6001038")]
-	[Address(RVA = "0x4B06430", Offset = "0x4B06430", VA = "0x4B06430", Slot = "4")]
+	[Token(Token = "0x600103A")]
+	[Address(RVA = "0x4E2DD60", Offset = "0x4E2DD60", VA = "0x4E2DD60", Slot = "4")]
 	public bool Equals(DrawingSettings other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001039")]
-	[Address(RVA = "0x4B06850", Offset = "0x4B06850", VA = "0x4B06850", Slot = "0")]
+	[Token(Token = "0x600103B")]
+	[Address(RVA = "0x4E2E180", Offset = "0x4E2E180", VA = "0x4E2E180", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600103A")]
-	[Address(RVA = "0x4B06920", Offset = "0x4B06920", VA = "0x4B06920", Slot = "2")]
+	[Token(Token = "0x600103C")]
+	[Address(RVA = "0x4E2E250", Offset = "0x4E2E250", VA = "0x4E2E250", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600103B")]
-	[Address(RVA = "0x4B06AE0", Offset = "0x4B06AE0", VA = "0x4B06AE0")]
+	[Token(Token = "0x600103D")]
+	[Address(RVA = "0x4E2E410", Offset = "0x4E2E410", VA = "0x4E2E410")]
 	public static bool operator ==(DrawingSettings left, DrawingSettings right)
 	{
 		return default(bool);

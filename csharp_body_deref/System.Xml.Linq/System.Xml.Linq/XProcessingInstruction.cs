@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Linq.XProcessingInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Linq;
@@ -17,13 +24,13 @@ public class XProcessingInstruction : XNode
 	public string Data
 	{
 		[Token(Token = "0x60000DA")]
-		[Address(RVA = "0x4345D40", Offset = "0x4345D40", VA = "0x4345D40")]
+		[Address(RVA = "0x4696610", Offset = "0x4696610", VA = "0x4696610")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000DB")]
-		[Address(RVA = "0x4345D50", Offset = "0x4345D50", VA = "0x4345D50")]
+		[Address(RVA = "0x4696620", Offset = "0x4696620", VA = "0x4696620")]
 		set
 		{
 		}
@@ -33,7 +40,7 @@ public class XProcessingInstruction : XNode
 	public override XmlNodeType NodeType
 	{
 		[Token(Token = "0x60000DC")]
-		[Address(RVA = "0x4345F80", Offset = "0x4345F80", VA = "0x4345F80", Slot = "7")]
+		[Address(RVA = "0x4696850", Offset = "0x4696850", VA = "0x4696850", Slot = "7")]
 		get
 		{
 			return default(XmlNodeType);
@@ -44,7 +51,7 @@ public class XProcessingInstruction : XNode
 	public string Target
 	{
 		[Token(Token = "0x60000DD")]
-		[Address(RVA = "0x4345F90", Offset = "0x4345F90", VA = "0x4345F90")]
+		[Address(RVA = "0x4696860", Offset = "0x4696860", VA = "0x4696860")]
 		get
 		{
 			return null;
@@ -52,32 +59,32 @@ public class XProcessingInstruction : XNode
 	}
 
 	[Token(Token = "0x60000D8")]
-	[Address(RVA = "0x4340EE0", Offset = "0x4340EE0", VA = "0x4340EE0")]
+	[Address(RVA = "0x46917B0", Offset = "0x46917B0", VA = "0x46917B0")]
 	public XProcessingInstruction(string target, string data)
 	{
 	}
 
 	[Token(Token = "0x60000D9")]
-	[Address(RVA = "0x4345CB0", Offset = "0x4345CB0", VA = "0x4345CB0")]
+	[Address(RVA = "0x4696580", Offset = "0x4696580", VA = "0x4696580")]
 	public XProcessingInstruction(XProcessingInstruction other)
 	{
 	}
 
 	[Token(Token = "0x60000DE")]
-	[Address(RVA = "0x4345FA0", Offset = "0x4345FA0", VA = "0x4345FA0", Slot = "8")]
+	[Address(RVA = "0x4696870", Offset = "0x4696870", VA = "0x4696870", Slot = "8")]
 	public override void WriteTo(XmlWriter writer)
 	{
 	}
 
 	[Token(Token = "0x60000DF")]
-	[Address(RVA = "0x4346010", Offset = "0x4346010", VA = "0x4346010", Slot = "10")]
+	[Address(RVA = "0x46968E0", Offset = "0x46968E0", VA = "0x46968E0", Slot = "10")]
 	internal override XNode CloneNode()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000E0")]
-	[Address(RVA = "0x4345BE0", Offset = "0x4345BE0", VA = "0x4345BE0")]
+	[Address(RVA = "0x46964B0", Offset = "0x46964B0", VA = "0x46964B0")]
 	private static void ValidateName(string name)
 	{
 	}

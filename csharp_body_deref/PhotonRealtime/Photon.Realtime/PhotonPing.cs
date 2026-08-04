@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Realtime.PhotonPing
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonRealtime/Code/PhotonPing.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -35,33 +42,33 @@ public abstract class PhotonPing : IDisposable
 	private static readonly Random RandomIdProvider;
 
 	[Token(Token = "0x6000151")]
-	[Address(RVA = "0x3BDA0F0", Offset = "0x3BDA0F0", VA = "0x3BDA0F0", Slot = "5")]
+	[Address(RVA = "0x3ECFA40", Offset = "0x3ECFA40", VA = "0x3ECFA40", Slot = "5")]
 	public virtual bool StartPing(string ip)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000152")]
-	[Address(RVA = "0x3BDA130", Offset = "0x3BDA130", VA = "0x3BDA130", Slot = "6")]
+	[Address(RVA = "0x3ECFA80", Offset = "0x3ECFA80", VA = "0x3ECFA80", Slot = "6")]
 	public virtual bool Done()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000153")]
-	[Address(RVA = "0x3BDA170", Offset = "0x3BDA170", VA = "0x3BDA170", Slot = "7")]
+	[Address(RVA = "0x3ECFAC0", Offset = "0x3ECFAC0", VA = "0x3ECFAC0", Slot = "7")]
 	public virtual void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000154")]
-	[Address(RVA = "0x3BDA1B0", Offset = "0x3BDA1B0", VA = "0x3BDA1B0")]
+	[Address(RVA = "0x3ECFB00", Offset = "0x3ECFB00", VA = "0x3ECFB00")]
 	protected internal void Init()
 	{
 	}
 
 	[Token(Token = "0x6000155")]
-	[Address(RVA = "0x3BDA230", Offset = "0x3BDA230", VA = "0x3BDA230")]
+	[Address(RVA = "0x3ECFB80", Offset = "0x3ECFB80", VA = "0x3ECFB80")]
 	protected PhotonPing()
 	{
 	}

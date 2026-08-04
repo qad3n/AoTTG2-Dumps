@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextSelectingUtilities
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -98,7 +105,7 @@ internal class TextSelectingUtilities
 	public bool hasSelection
 	{
 		[Token(Token = "0x60002A9")]
-		[Address(RVA = "0x4B3BA50", Offset = "0x4B3BA50", VA = "0x4B3BA50")]
+		[Address(RVA = "0x4E63610", Offset = "0x4E63610", VA = "0x4E63610")]
 		get
 		{
 			return default(bool);
@@ -109,13 +116,13 @@ internal class TextSelectingUtilities
 	public bool revealCursor
 	{
 		[Token(Token = "0x60002AA")]
-		[Address(RVA = "0x4B43CB0", Offset = "0x4B43CB0", VA = "0x4B43CB0")]
+		[Address(RVA = "0x4E6B870", Offset = "0x4E6B870", VA = "0x4E6B870")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002AB")]
-		[Address(RVA = "0x4B3BB50", Offset = "0x4B3BB50", VA = "0x4B3BB50")]
+		[Address(RVA = "0x4E63710", Offset = "0x4E63710", VA = "0x4E63710")]
 		set
 		{
 		}
@@ -125,7 +132,7 @@ internal class TextSelectingUtilities
 	private int m_CharacterCount
 	{
 		[Token(Token = "0x60002AC")]
-		[Address(RVA = "0x4B43CC0", Offset = "0x4B43CC0", VA = "0x4B43CC0")]
+		[Address(RVA = "0x4E6B880", Offset = "0x4E6B880", VA = "0x4E6B880")]
 		get
 		{
 			return default(int);
@@ -136,7 +143,7 @@ internal class TextSelectingUtilities
 	private int characterCount
 	{
 		[Token(Token = "0x60002AD")]
-		[Address(RVA = "0x4B43CE0", Offset = "0x4B43CE0", VA = "0x4B43CE0")]
+		[Address(RVA = "0x4E6B8A0", Offset = "0x4E6B8A0", VA = "0x4E6B8A0")]
 		get
 		{
 			return default(int);
@@ -147,7 +154,7 @@ internal class TextSelectingUtilities
 	private UnityEngine.TextCore.Text.TextElementInfo[] m_TextElementInfos
 	{
 		[Token(Token = "0x60002AE")]
-		[Address(RVA = "0x4B43DC0", Offset = "0x4B43DC0", VA = "0x4B43DC0")]
+		[Address(RVA = "0x4E6B980", Offset = "0x4E6B980", VA = "0x4E6B980")]
 		get
 		{
 			return null;
@@ -158,13 +165,13 @@ internal class TextSelectingUtilities
 	public int cursorIndex
 	{
 		[Token(Token = "0x60002AF")]
-		[Address(RVA = "0x4B3BC70", Offset = "0x4B3BC70", VA = "0x4B3BC70")]
+		[Address(RVA = "0x4E63830", Offset = "0x4E63830", VA = "0x4E63830")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60002B0")]
-		[Address(RVA = "0x4B3BD10", Offset = "0x4B3BD10", VA = "0x4B3BD10")]
+		[Address(RVA = "0x4E638D0", Offset = "0x4E638D0", VA = "0x4E638D0")]
 		set
 		{
 		}
@@ -174,7 +181,7 @@ internal class TextSelectingUtilities
 	internal int cursorIndexNoValidation
 	{
 		[Token(Token = "0x60002B1")]
-		[Address(RVA = "0x4B43510", Offset = "0x4B43510", VA = "0x4B43510")]
+		[Address(RVA = "0x4E6B0D0", Offset = "0x4E6B0D0", VA = "0x4E6B0D0")]
 		get
 		{
 			return default(int);
@@ -185,13 +192,13 @@ internal class TextSelectingUtilities
 	public int selectIndex
 	{
 		[Token(Token = "0x60002B2")]
-		[Address(RVA = "0x4B3BE20", Offset = "0x4B3BE20", VA = "0x4B3BE20")]
+		[Address(RVA = "0x4E639E0", Offset = "0x4E639E0", VA = "0x4E639E0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60002B3")]
-		[Address(RVA = "0x4B3BEC0", Offset = "0x4B3BEC0", VA = "0x4B3BEC0")]
+		[Address(RVA = "0x4E63A80", Offset = "0x4E63A80", VA = "0x4E63A80")]
 		set
 		{
 		}
@@ -201,7 +208,7 @@ internal class TextSelectingUtilities
 	public string selectedText
 	{
 		[Token(Token = "0x60002B5")]
-		[Address(RVA = "0x4B43E40", Offset = "0x4B43E40", VA = "0x4B43E40")]
+		[Address(RVA = "0x4E6BA00", Offset = "0x4E6BA00", VA = "0x4E6BA00")]
 		get
 		{
 			return null;
@@ -209,394 +216,394 @@ internal class TextSelectingUtilities
 	}
 
 	[Token(Token = "0x60002B4")]
-	[Address(RVA = "0x4B43E30", Offset = "0x4B43E30", VA = "0x4B43E30")]
+	[Address(RVA = "0x4E6B9F0", Offset = "0x4E6B9F0", VA = "0x4E6B9F0")]
 	internal void SetSelectIndexWithoutNotify(int index)
 	{
 	}
 
 	[Token(Token = "0x60002B6")]
-	[Address(RVA = "0x4B41F50", Offset = "0x4B41F50", VA = "0x4B41F50")]
+	[Address(RVA = "0x4E69B10", Offset = "0x4E69B10", VA = "0x4E69B10")]
 	public TextSelectingUtilities(UnityEngine.TextCore.Text.TextHandle textHandle)
 	{
 	}
 
 	[Token(Token = "0x60002B7")]
-	[Address(RVA = "0x4B42240", Offset = "0x4B42240", VA = "0x4B42240")]
+	[Address(RVA = "0x4E69E00", Offset = "0x4E69E00", VA = "0x4E69E00")]
 	internal bool HandleKeyEvent(Event e)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002B8")]
-	[Address(RVA = "0x4B44EA0", Offset = "0x4B44EA0", VA = "0x4B44EA0")]
+	[Address(RVA = "0x4E6CA60", Offset = "0x4E6CA60", VA = "0x4E6CA60")]
 	private bool PerformOperation(TextSelectOp operation)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002B9")]
-	[Address(RVA = "0x4B46AC0", Offset = "0x4B46AC0", VA = "0x4B46AC0")]
+	[Address(RVA = "0x4E6E680", Offset = "0x4E6E680", VA = "0x4E6E680")]
 	private static void MapKey(string key, TextSelectOp action)
 	{
 	}
 
 	[Token(Token = "0x60002BA")]
-	[Address(RVA = "0x4B44180", Offset = "0x4B44180", VA = "0x4B44180")]
+	[Address(RVA = "0x4E6BD40", Offset = "0x4E6BD40", VA = "0x4E6BD40")]
 	private void InitKeyActions()
 	{
 	}
 
 	[Token(Token = "0x60002BB")]
-	[Address(RVA = "0x4B41250", Offset = "0x4B41250", VA = "0x4B41250")]
+	[Address(RVA = "0x4E68E10", Offset = "0x4E68E10", VA = "0x4E68E10")]
 	public void ClearCursorPos()
 	{
 	}
 
 	[Token(Token = "0x60002BC")]
-	[Address(RVA = "0x4B42170", Offset = "0x4B42170", VA = "0x4B42170")]
+	[Address(RVA = "0x4E69D30", Offset = "0x4E69D30", VA = "0x4E69D30")]
 	public void OnFocus(bool selectAll = true)
 	{
 	}
 
 	[Token(Token = "0x60002BD")]
-	[Address(RVA = "0x4B46A60", Offset = "0x4B46A60", VA = "0x4B46A60")]
+	[Address(RVA = "0x4E6E620", Offset = "0x4E6E620", VA = "0x4E6E620")]
 	public void SelectAll()
 	{
 	}
 
 	[Token(Token = "0x60002BE")]
-	[Address(RVA = "0x4B41470", Offset = "0x4B41470", VA = "0x4B41470")]
+	[Address(RVA = "0x4E69030", Offset = "0x4E69030", VA = "0x4E69030")]
 	public void SelectNone()
 	{
 	}
 
 	[Token(Token = "0x60002BF")]
-	[Address(RVA = "0x4B450D0", Offset = "0x4B450D0", VA = "0x4B450D0")]
+	[Address(RVA = "0x4E6CC90", Offset = "0x4E6CC90", VA = "0x4E6CC90")]
 	public void SelectLeft()
 	{
 	}
 
 	[Token(Token = "0x60002C0")]
-	[Address(RVA = "0x4B452E0", Offset = "0x4B452E0", VA = "0x4B452E0")]
+	[Address(RVA = "0x4E6CEA0", Offset = "0x4E6CEA0", VA = "0x4E6CEA0")]
 	public void SelectRight()
 	{
 	}
 
 	[Token(Token = "0x60002C1")]
-	[Address(RVA = "0x4B454F0", Offset = "0x4B454F0", VA = "0x4B454F0")]
+	[Address(RVA = "0x4E6D0B0", Offset = "0x4E6D0B0", VA = "0x4E6D0B0")]
 	public void SelectUp()
 	{
 	}
 
 	[Token(Token = "0x60002C2")]
-	[Address(RVA = "0x4B45590", Offset = "0x4B45590", VA = "0x4B45590")]
+	[Address(RVA = "0x4E6D150", Offset = "0x4E6D150", VA = "0x4E6D150")]
 	public void SelectDown()
 	{
 	}
 
 	[Token(Token = "0x60002C3")]
-	[Address(RVA = "0x4B45D20", Offset = "0x4B45D20", VA = "0x4B45D20")]
+	[Address(RVA = "0x4E6D8E0", Offset = "0x4E6D8E0", VA = "0x4E6D8E0")]
 	public void SelectTextEnd()
 	{
 	}
 
 	[Token(Token = "0x60002C4")]
-	[Address(RVA = "0x4B45CF0", Offset = "0x4B45CF0", VA = "0x4B45CF0")]
+	[Address(RVA = "0x4E6D8B0", Offset = "0x4E6D8B0", VA = "0x4E6D8B0")]
 	public void SelectTextStart()
 	{
 	}
 
 	[Token(Token = "0x60002C5")]
-	[Address(RVA = "0x4B45C60", Offset = "0x4B45C60", VA = "0x4B45C60")]
+	[Address(RVA = "0x4E6D820", Offset = "0x4E6D820", VA = "0x4E6D820")]
 	public void SelectToStartOfNextWord()
 	{
 	}
 
 	[Token(Token = "0x60002C6")]
-	[Address(RVA = "0x4B45BD0", Offset = "0x4B45BD0", VA = "0x4B45BD0")]
+	[Address(RVA = "0x4E6D790", Offset = "0x4E6D790", VA = "0x4E6D790")]
 	public void SelectToEndOfPreviousWord()
 	{
 	}
 
 	[Token(Token = "0x60002C7")]
-	[Address(RVA = "0x4B45630", Offset = "0x4B45630", VA = "0x4B45630")]
+	[Address(RVA = "0x4E6D1F0", Offset = "0x4E6D1F0", VA = "0x4E6D1F0")]
 	public void SelectWordRight()
 	{
 	}
 
 	[Token(Token = "0x60002C8")]
-	[Address(RVA = "0x4B45900", Offset = "0x4B45900", VA = "0x4B45900")]
+	[Address(RVA = "0x4E6D4C0", Offset = "0x4E6D4C0", VA = "0x4E6D4C0")]
 	public void SelectWordLeft()
 	{
 	}
 
 	[Token(Token = "0x60002C9")]
-	[Address(RVA = "0x4B46860", Offset = "0x4B46860", VA = "0x4B46860")]
+	[Address(RVA = "0x4E6E420", Offset = "0x4E6E420", VA = "0x4E6E420")]
 	public void SelectGraphicalLineStart()
 	{
 	}
 
 	[Token(Token = "0x60002CA")]
-	[Address(RVA = "0x4B46960", Offset = "0x4B46960", VA = "0x4B46960")]
+	[Address(RVA = "0x4E6E520", Offset = "0x4E6E520", VA = "0x4E6E520")]
 	public void SelectGraphicalLineEnd()
 	{
 	}
 
 	[Token(Token = "0x60002CB")]
-	[Address(RVA = "0x4B46290", Offset = "0x4B46290", VA = "0x4B46290")]
+	[Address(RVA = "0x4E6DE50", Offset = "0x4E6DE50", VA = "0x4E6DE50")]
 	public void SelectParagraphForward()
 	{
 	}
 
 	[Token(Token = "0x60002CC")]
-	[Address(RVA = "0x4B46570", Offset = "0x4B46570", VA = "0x4B46570")]
+	[Address(RVA = "0x4E6E130", Offset = "0x4E6E130", VA = "0x4E6E130")]
 	public void SelectParagraphBackward()
 	{
 	}
 
 	[Token(Token = "0x60002CD")]
-	[Address(RVA = "0x4B42BA0", Offset = "0x4B42BA0", VA = "0x4B42BA0")]
+	[Address(RVA = "0x4E6A760", Offset = "0x4E6A760", VA = "0x4E6A760")]
 	public void SelectCurrentWord()
 	{
 	}
 
 	[Token(Token = "0x60002CE")]
-	[Address(RVA = "0x4B42D60", Offset = "0x4B42D60", VA = "0x4B42D60")]
+	[Address(RVA = "0x4E6A920", Offset = "0x4E6A920", VA = "0x4E6A920")]
 	public void SelectCurrentParagraph()
 	{
 	}
 
 	[Token(Token = "0x60002CF")]
-	[Address(RVA = "0x4B3E180", Offset = "0x4B3E180", VA = "0x4B3E180")]
+	[Address(RVA = "0x4E65D40", Offset = "0x4E65D40", VA = "0x4E65D40")]
 	public void MoveRight()
 	{
 	}
 
 	[Token(Token = "0x60002D0")]
-	[Address(RVA = "0x4B3DEF0", Offset = "0x4B3DEF0", VA = "0x4B3DEF0")]
+	[Address(RVA = "0x4E65AB0", Offset = "0x4E65AB0", VA = "0x4E65AB0")]
 	public void MoveLeft()
 	{
 	}
 
 	[Token(Token = "0x60002D1")]
-	[Address(RVA = "0x4B3E420", Offset = "0x4B3E420", VA = "0x4B3E420")]
+	[Address(RVA = "0x4E65FE0", Offset = "0x4E65FE0", VA = "0x4E65FE0")]
 	public void MoveUp()
 	{
 	}
 
 	[Token(Token = "0x60002D2")]
-	[Address(RVA = "0x4B3E680", Offset = "0x4B3E680", VA = "0x4B3E680")]
+	[Address(RVA = "0x4E66240", Offset = "0x4E66240", VA = "0x4E66240")]
 	public void MoveDown()
 	{
 	}
 
 	[Token(Token = "0x60002D3")]
-	[Address(RVA = "0x4B3E8E0", Offset = "0x4B3E8E0", VA = "0x4B3E8E0")]
+	[Address(RVA = "0x4E664A0", Offset = "0x4E664A0", VA = "0x4E664A0")]
 	public void MoveLineStart()
 	{
 	}
 
 	[Token(Token = "0x60002D4")]
-	[Address(RVA = "0x4B3EAE0", Offset = "0x4B3EAE0", VA = "0x4B3EAE0")]
+	[Address(RVA = "0x4E666A0", Offset = "0x4E666A0", VA = "0x4E666A0")]
 	public void MoveLineEnd()
 	{
 	}
 
 	[Token(Token = "0x60002D5")]
-	[Address(RVA = "0x4B3F9A0", Offset = "0x4B3F9A0", VA = "0x4B3F9A0")]
+	[Address(RVA = "0x4E67560", Offset = "0x4E67560", VA = "0x4E67560")]
 	public void MoveGraphicalLineStart()
 	{
 	}
 
 	[Token(Token = "0x60002D6")]
-	[Address(RVA = "0x4B3FB70", Offset = "0x4B3FB70", VA = "0x4B3FB70")]
+	[Address(RVA = "0x4E67730", Offset = "0x4E67730", VA = "0x4E67730")]
 	public void MoveGraphicalLineEnd()
 	{
 	}
 
 	[Token(Token = "0x60002D7")]
-	[Address(RVA = "0x4B3F420", Offset = "0x4B3F420", VA = "0x4B3F420")]
+	[Address(RVA = "0x4E66FE0", Offset = "0x4E66FE0", VA = "0x4E66FE0")]
 	public void MoveTextStart()
 	{
 	}
 
 	[Token(Token = "0x60002D8")]
-	[Address(RVA = "0x4B3F470", Offset = "0x4B3F470", VA = "0x4B3F470")]
+	[Address(RVA = "0x4E67030", Offset = "0x4E67030", VA = "0x4E67030")]
 	public void MoveTextEnd()
 	{
 	}
 
 	[Token(Token = "0x60002D9")]
-	[Address(RVA = "0x4B3F4D0", Offset = "0x4B3F4D0", VA = "0x4B3F4D0")]
+	[Address(RVA = "0x4E67090", Offset = "0x4E67090", VA = "0x4E67090")]
 	public void MoveParagraphForward()
 	{
 	}
 
 	[Token(Token = "0x60002DA")]
-	[Address(RVA = "0x4B3F730", Offset = "0x4B3F730", VA = "0x4B3F730")]
+	[Address(RVA = "0x4E672F0", Offset = "0x4E672F0", VA = "0x4E672F0")]
 	public void MoveParagraphBackward()
 	{
 	}
 
 	[Token(Token = "0x60002DB")]
-	[Address(RVA = "0x4B3ECD0", Offset = "0x4B3ECD0", VA = "0x4B3ECD0")]
+	[Address(RVA = "0x4E66890", Offset = "0x4E66890", VA = "0x4E66890")]
 	public void MoveWordRight()
 	{
 	}
 
 	[Token(Token = "0x60002DC")]
-	[Address(RVA = "0x4B3EF00", Offset = "0x4B3EF00", VA = "0x4B3EF00")]
+	[Address(RVA = "0x4E66AC0", Offset = "0x4E66AC0", VA = "0x4E66AC0")]
 	public void MoveToStartOfNextWord()
 	{
 	}
 
 	[Token(Token = "0x60002DD")]
-	[Address(RVA = "0x4B3F080", Offset = "0x4B3F080", VA = "0x4B3F080")]
+	[Address(RVA = "0x4E66C40", Offset = "0x4E66C40", VA = "0x4E66C40")]
 	public void MoveToEndOfPreviousWord()
 	{
 	}
 
 	[Token(Token = "0x60002DE")]
-	[Address(RVA = "0x4B3F200", Offset = "0x4B3F200", VA = "0x4B3F200")]
+	[Address(RVA = "0x4E66DC0", Offset = "0x4E66DC0", VA = "0x4E66DC0")]
 	public void MoveWordLeft()
 	{
 	}
 
 	[Token(Token = "0x60002DF")]
-	[Address(RVA = "0x4B42AF0", Offset = "0x4B42AF0", VA = "0x4B42AF0")]
+	[Address(RVA = "0x4E6A6B0", Offset = "0x4E6A6B0", VA = "0x4E6A6B0")]
 	public void MouseDragSelectsWholeWords(bool on)
 	{
 	}
 
 	[Token(Token = "0x60002E0")]
-	[Address(RVA = "0x4B45D50", Offset = "0x4B45D50", VA = "0x4B45D50")]
+	[Address(RVA = "0x4E6D910", Offset = "0x4E6D910", VA = "0x4E6D910")]
 	public void ExpandSelectGraphicalLineStart()
 	{
 	}
 
 	[Token(Token = "0x60002E1")]
-	[Address(RVA = "0x4B45FF0", Offset = "0x4B45FF0", VA = "0x4B45FF0")]
+	[Address(RVA = "0x4E6DBB0", Offset = "0x4E6DBB0", VA = "0x4E6DBB0")]
 	public void ExpandSelectGraphicalLineEnd()
 	{
 	}
 
 	[Token(Token = "0x60002E2")]
-	[Address(RVA = "0x4B42B70", Offset = "0x4B42B70", VA = "0x4B42B70")]
+	[Address(RVA = "0x4E6A730", Offset = "0x4E6A730", VA = "0x4E6A730")]
 	public void DblClickSnap(TextEditor.DblClickSnapping snapping)
 	{
 	}
 
 	[Token(Token = "0x60002E3")]
-	[Address(RVA = "0x4B42630", Offset = "0x4B42630", VA = "0x4B42630")]
+	[Address(RVA = "0x4E6A1F0", Offset = "0x4E6A1F0", VA = "0x4E6A1F0")]
 	protected internal void MoveCursorToPosition_Internal(Vector2 cursorPosition, bool shift)
 	{
 	}
 
 	[Token(Token = "0x60002E4")]
-	[Address(RVA = "0x4B427B0", Offset = "0x4B427B0", VA = "0x4B427B0")]
+	[Address(RVA = "0x4E6A370", Offset = "0x4E6A370", VA = "0x4E6A370")]
 	public void SelectToPosition(Vector2 cursorPosition)
 	{
 	}
 
 	[Token(Token = "0x60002E5")]
-	[Address(RVA = "0x4B46E50", Offset = "0x4B46E50", VA = "0x4B46E50")]
+	[Address(RVA = "0x4E6EA10", Offset = "0x4E6EA10", VA = "0x4E6EA10")]
 	private int FindNextSeperator(int startPos)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002E6")]
-	[Address(RVA = "0x4B46ED0", Offset = "0x4B46ED0", VA = "0x4B46ED0")]
+	[Address(RVA = "0x4E6EA90", Offset = "0x4E6EA90", VA = "0x4E6EA90")]
 	private int FindPrevSeperator(int startPos)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002E7")]
-	[Address(RVA = "0x4B40FB0", Offset = "0x4B40FB0", VA = "0x4B40FB0")]
+	[Address(RVA = "0x4E68B70", Offset = "0x4E68B70", VA = "0x4E68B70")]
 	public int FindStartOfNextWord(int p)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002E8")]
-	[Address(RVA = "0x4B40EF0", Offset = "0x4B40EF0", VA = "0x4B40EF0")]
+	[Address(RVA = "0x4E68AB0", Offset = "0x4E68AB0", VA = "0x4E68AB0")]
 	public int FindEndOfPreviousWord(int p)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002E9")]
-	[Address(RVA = "0x4B46D20", Offset = "0x4B46D20", VA = "0x4B46D20")]
+	[Address(RVA = "0x4E6E8E0", Offset = "0x4E6E8E0", VA = "0x4E6E8E0")]
 	private int FindEndOfClassification(int p, Direction dir)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002EA")]
-	[Address(RVA = "0x4B43DF0", Offset = "0x4B43DF0", VA = "0x4B43DF0")]
+	[Address(RVA = "0x4E6B9B0", Offset = "0x4E6B9B0", VA = "0x4E6B9B0")]
 	internal int EnsureValidCodePointIndex(int index)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002EB")]
-	[Address(RVA = "0x4B470A0", Offset = "0x4B470A0", VA = "0x4B470A0")]
+	[Address(RVA = "0x4E6EC60", Offset = "0x4E6EC60", VA = "0x4E6EC60")]
 	private bool IsValidCodePointIndex(int index)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002EC")]
-	[Address(RVA = "0x4B47080", Offset = "0x4B47080", VA = "0x4B47080")]
+	[Address(RVA = "0x4E6EC40", Offset = "0x4E6EC40", VA = "0x4E6EC40")]
 	private int ClampTextIndex(int index)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002ED")]
-	[Address(RVA = "0x4B46CF0", Offset = "0x4B46CF0", VA = "0x4B46CF0")]
+	[Address(RVA = "0x4E6E8B0", Offset = "0x4E6E8B0", VA = "0x4E6E8B0")]
 	private int IndexOfEndOfLine(int startIndex)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002EE")]
-	[Address(RVA = "0x4B41190", Offset = "0x4B41190", VA = "0x4B41190")]
+	[Address(RVA = "0x4E68D50", Offset = "0x4E68D50", VA = "0x4E68D50")]
 	public int PreviousCodePointIndex(int index)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002EF")]
-	[Address(RVA = "0x4B46B40", Offset = "0x4B46B40", VA = "0x4B46B40")]
+	[Address(RVA = "0x4E6E700", Offset = "0x4E6E700", VA = "0x4E6E700")]
 	public int NextCodePointIndex(int index)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002F0")]
-	[Address(RVA = "0x4B46C00", Offset = "0x4B46C00", VA = "0x4B46C00")]
+	[Address(RVA = "0x4E6E7C0", Offset = "0x4E6E7C0", VA = "0x4E6E7C0")]
 	private int GetGraphicalLineStart(int p)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002F1")]
-	[Address(RVA = "0x4B46C70", Offset = "0x4B46C70", VA = "0x4B46C70")]
+	[Address(RVA = "0x4E6E830", Offset = "0x4E6E830", VA = "0x4E6E830")]
 	private int GetGraphicalLineEnd(int p)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002F2")]
-	[Address(RVA = "0x4B412D0", Offset = "0x4B412D0", VA = "0x4B412D0")]
+	[Address(RVA = "0x4E68E90", Offset = "0x4E68E90", VA = "0x4E68E90")]
 	public void Copy()
 	{
 	}
 
 	[Token(Token = "0x60002F3")]
-	[Address(RVA = "0x4B46F70", Offset = "0x4B46F70", VA = "0x4B46F70")]
+	[Address(RVA = "0x4E6EB30", Offset = "0x4E6EB30", VA = "0x4E6EB30")]
 	private CharacterType ClassifyChar(int index)
 	{
 		return default(CharacterType);

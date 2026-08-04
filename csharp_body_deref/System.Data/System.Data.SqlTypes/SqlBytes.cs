@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.SqlTypes.SqlBytes
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.IO;
 using System.Reflection;
 using System.Runtime.Serialization;
@@ -38,7 +45,7 @@ public sealed class SqlBytes : INullable, IXmlSerializable, ISerializable
 	public bool IsNull
 	{
 		[Token(Token = "0x600094F")]
-		[Address(RVA = "0x42C84F0", Offset = "0x42C84F0", VA = "0x42C84F0", Slot = "4")]
+		[Address(RVA = "0x4605C50", Offset = "0x4605C50", VA = "0x4605C50", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -49,7 +56,7 @@ public sealed class SqlBytes : INullable, IXmlSerializable, ISerializable
 	public byte[] Buffer
 	{
 		[Token(Token = "0x6000950")]
-		[Address(RVA = "0x42C8500", Offset = "0x42C8500", VA = "0x42C8500")]
+		[Address(RVA = "0x4605C60", Offset = "0x4605C60", VA = "0x4605C60")]
 		get
 		{
 			return null;
@@ -60,7 +67,7 @@ public sealed class SqlBytes : INullable, IXmlSerializable, ISerializable
 	public long Length
 	{
 		[Token(Token = "0x6000951")]
-		[Address(RVA = "0x42C86A0", Offset = "0x42C86A0", VA = "0x42C86A0")]
+		[Address(RVA = "0x4605E00", Offset = "0x4605E00", VA = "0x4605E00")]
 		get
 		{
 			return default(long);
@@ -71,7 +78,7 @@ public sealed class SqlBytes : INullable, IXmlSerializable, ISerializable
 	public byte[] Value
 	{
 		[Token(Token = "0x6000952")]
-		[Address(RVA = "0x42C8710", Offset = "0x42C8710", VA = "0x42C8710")]
+		[Address(RVA = "0x4605E70", Offset = "0x4605E70", VA = "0x4605E70")]
 		get
 		{
 			return null;
@@ -82,7 +89,7 @@ public sealed class SqlBytes : INullable, IXmlSerializable, ISerializable
 	public static SqlBytes Null
 	{
 		[Token(Token = "0x600095C")]
-		[Address(RVA = "0x42C8D80", Offset = "0x42C8D80", VA = "0x42C8D80")]
+		[Address(RVA = "0x46064E0", Offset = "0x46064E0", VA = "0x46064E0")]
 		get
 		{
 			return null;
@@ -90,76 +97,76 @@ public sealed class SqlBytes : INullable, IXmlSerializable, ISerializable
 	}
 
 	[Token(Token = "0x600094C")]
-	[Address(RVA = "0x42C8320", Offset = "0x42C8320", VA = "0x42C8320")]
+	[Address(RVA = "0x4605A80", Offset = "0x4605A80", VA = "0x4605A80")]
 	public SqlBytes()
 	{
 	}
 
 	[Token(Token = "0x600094D")]
-	[Address(RVA = "0x42C8380", Offset = "0x42C8380", VA = "0x42C8380")]
+	[Address(RVA = "0x4605AE0", Offset = "0x4605AE0", VA = "0x4605AE0")]
 	public SqlBytes(byte[] buffer)
 	{
 	}
 
 	[Token(Token = "0x600094E")]
-	[Address(RVA = "0x42C8400", Offset = "0x42C8400", VA = "0x42C8400")]
+	[Address(RVA = "0x4605B60", Offset = "0x4605B60", VA = "0x4605B60")]
 	public SqlBytes(SqlBinary value)
 	{
 	}
 
 	[Token(Token = "0x6000953")]
-	[Address(RVA = "0x42C8350", Offset = "0x42C8350", VA = "0x42C8350")]
+	[Address(RVA = "0x4605AB0", Offset = "0x4605AB0", VA = "0x4605AB0")]
 	public void SetNull()
 	{
 	}
 
 	[Token(Token = "0x6000954")]
-	[Address(RVA = "0x42C8530", Offset = "0x42C8530", VA = "0x42C8530")]
+	[Address(RVA = "0x4605C90", Offset = "0x4605C90", VA = "0x4605C90")]
 	private void CopyStreamToBuffer()
 	{
 	}
 
 	[Token(Token = "0x6000955")]
-	[Address(RVA = "0x42C8520", Offset = "0x42C8520", VA = "0x42C8520")]
+	[Address(RVA = "0x4605C80", Offset = "0x4605C80", VA = "0x4605C80")]
 	internal bool FStream()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000956")]
-	[Address(RVA = "0x42C8910", Offset = "0x42C8910", VA = "0x42C8910")]
+	[Address(RVA = "0x4606070", Offset = "0x4606070", VA = "0x4606070")]
 	private void SetBuffer(byte[] buffer)
 	{
 	}
 
 	[Token(Token = "0x6000957")]
-	[Address(RVA = "0x42C8960", Offset = "0x42C8960", VA = "0x42C8960", Slot = "5")]
+	[Address(RVA = "0x46060C0", Offset = "0x46060C0", VA = "0x46060C0", Slot = "5")]
 	private XmlSchema System_002EXml_002ESerialization_002EIXmlSerializable_002EGetSchema()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000958")]
-	[Address(RVA = "0x42C8970", Offset = "0x42C8970", VA = "0x42C8970", Slot = "6")]
+	[Address(RVA = "0x46060D0", Offset = "0x46060D0", VA = "0x46060D0", Slot = "6")]
 	private void System_002EXml_002ESerialization_002EIXmlSerializable_002EReadXml(XmlReader r)
 	{
 	}
 
 	[Token(Token = "0x6000959")]
-	[Address(RVA = "0x42C8BC0", Offset = "0x42C8BC0", VA = "0x42C8BC0", Slot = "7")]
+	[Address(RVA = "0x4606320", Offset = "0x4606320", VA = "0x4606320", Slot = "7")]
 	private void System_002EXml_002ESerialization_002EIXmlSerializable_002EWriteXml(XmlWriter writer)
 	{
 	}
 
 	[Token(Token = "0x600095A")]
-	[Address(RVA = "0x42C8CD0", Offset = "0x42C8CD0", VA = "0x42C8CD0")]
+	[Address(RVA = "0x4606430", Offset = "0x4606430", VA = "0x4606430")]
 	public static XmlQualifiedName GetXsdType(XmlSchemaSet schemaSet)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600095B")]
-	[Address(RVA = "0x42C8D40", Offset = "0x42C8D40", VA = "0x42C8D40", Slot = "8")]
+	[Address(RVA = "0x46064A0", Offset = "0x46064A0", VA = "0x46064A0", Slot = "8")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

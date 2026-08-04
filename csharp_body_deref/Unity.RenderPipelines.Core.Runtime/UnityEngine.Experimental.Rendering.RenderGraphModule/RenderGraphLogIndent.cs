@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Experimental.Rendering.RenderGraphModule.RenderGraphLogIndent
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -19,19 +26,19 @@ internal struct RenderGraphLogIndent : IDisposable
 	private bool m_Disposed;
 
 	[Token(Token = "0x6000428")]
-	[Address(RVA = "0x48665A0", Offset = "0x48665A0", VA = "0x48665A0")]
+	[Address(RVA = "0x4B8B690", Offset = "0x4B8B690", VA = "0x4B8B690")]
 	public RenderGraphLogIndent(RenderGraphLogger logger, int indentation = 1)
 	{
 	}
 
 	[Token(Token = "0x6000429")]
-	[Address(RVA = "0x4866680", Offset = "0x4866680", VA = "0x4866680", Slot = "4")]
+	[Address(RVA = "0x4B8B770", Offset = "0x4B8B770", VA = "0x4B8B770", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x600042A")]
-	[Address(RVA = "0x4866700", Offset = "0x4866700", VA = "0x4866700")]
+	[Address(RVA = "0x4B8B7F0", Offset = "0x4B8B7F0", VA = "0x4B8B7F0")]
 	private void Dispose(bool disposing)
 	{
 	}

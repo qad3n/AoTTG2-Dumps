@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: SimpleJSONFixed.JSONNull
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/SimpleJSONFixed/JSONNull.c
+// Prior real C# source (older reference): Assets/Scripts/Utility/SimpleJSON.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Text;
 using Il2CppDummyDll;
 
@@ -18,7 +25,7 @@ public class JSONNull : JSONNode
 	public override JSONNodeType Tag
 	{
 		[Token(Token = "0x6000293")]
-		[Address(RVA = "0x3C8A9B0", Offset = "0x3C8A9B0", VA = "0x3C8A9B0", Slot = "4")]
+		[Address(RVA = "0x3F80300", Offset = "0x3F80300", VA = "0x3F80300", Slot = "4")]
 		get
 		{
 			return default(JSONNodeType);
@@ -29,7 +36,7 @@ public class JSONNull : JSONNode
 	public override bool IsNull
 	{
 		[Token(Token = "0x6000294")]
-		[Address(RVA = "0x3C8A9C0", Offset = "0x3C8A9C0", VA = "0x3C8A9C0", Slot = "15")]
+		[Address(RVA = "0x3F80310", Offset = "0x3F80310", VA = "0x3F80310", Slot = "15")]
 		get
 		{
 			return default(bool);
@@ -40,13 +47,13 @@ public class JSONNull : JSONNode
 	public override string Value
 	{
 		[Token(Token = "0x6000296")]
-		[Address(RVA = "0x3C8A9F0", Offset = "0x3C8A9F0", VA = "0x3C8A9F0", Slot = "9")]
+		[Address(RVA = "0x3F80340", Offset = "0x3F80340", VA = "0x3F80340", Slot = "9")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000297")]
-		[Address(RVA = "0x3C8AA20", Offset = "0x3C8AA20", VA = "0x3C8AA20", Slot = "10")]
+		[Address(RVA = "0x3F80370", Offset = "0x3F80370", VA = "0x3F80370", Slot = "10")]
 		set
 		{
 		}
@@ -56,61 +63,61 @@ public class JSONNull : JSONNode
 	public override bool AsBool
 	{
 		[Token(Token = "0x6000298")]
-		[Address(RVA = "0x3C8AA30", Offset = "0x3C8AA30", VA = "0x3C8AA30", Slot = "39")]
+		[Address(RVA = "0x3F80380", Offset = "0x3F80380", VA = "0x3F80380", Slot = "39")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000299")]
-		[Address(RVA = "0x3C8AA40", Offset = "0x3C8AA40", VA = "0x3C8AA40", Slot = "40")]
+		[Address(RVA = "0x3F80390", Offset = "0x3F80390", VA = "0x3F80390", Slot = "40")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000291")]
-	[Address(RVA = "0x3C840E0", Offset = "0x3C840E0", VA = "0x3C840E0")]
+	[Address(RVA = "0x3F79A30", Offset = "0x3F79A30", VA = "0x3F79A30")]
 	public static JSONNull CreateOrGet()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000292")]
-	[Address(RVA = "0x3C8A940", Offset = "0x3C8A940", VA = "0x3C8A940")]
+	[Address(RVA = "0x3F80290", Offset = "0x3F80290", VA = "0x3F80290")]
 	private JSONNull()
 	{
 	}
 
 	[Token(Token = "0x6000295")]
-	[Address(RVA = "0x3C8A9D0", Offset = "0x3C8A9D0", VA = "0x3C8A9D0", Slot = "32")]
+	[Address(RVA = "0x3F80320", Offset = "0x3F80320", VA = "0x3F80320", Slot = "32")]
 	public override Enumerator GetEnumerator()
 	{
 		return default(Enumerator);
 	}
 
 	[Token(Token = "0x600029A")]
-	[Address(RVA = "0x3C8AA50", Offset = "0x3C8AA50", VA = "0x3C8AA50", Slot = "26")]
+	[Address(RVA = "0x3F803A0", Offset = "0x3F803A0", VA = "0x3F803A0", Slot = "26")]
 	public override JSONNode Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600029B")]
-	[Address(RVA = "0x3C8AAB0", Offset = "0x3C8AAB0", VA = "0x3C8AAB0", Slot = "0")]
+	[Address(RVA = "0x3F80400", Offset = "0x3F80400", VA = "0x3F80400", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600029C")]
-	[Address(RVA = "0x3C8AB30", Offset = "0x3C8AB30", VA = "0x3C8AB30", Slot = "2")]
+	[Address(RVA = "0x3F80480", Offset = "0x3F80480", VA = "0x3F80480", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600029D")]
-	[Address(RVA = "0x3C8AB40", Offset = "0x3C8AB40", VA = "0x3C8AB40", Slot = "31")]
+	[Address(RVA = "0x3F80490", Offset = "0x3F80490", VA = "0x3F80490", Slot = "31")]
 	internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode)
 	{
 	}

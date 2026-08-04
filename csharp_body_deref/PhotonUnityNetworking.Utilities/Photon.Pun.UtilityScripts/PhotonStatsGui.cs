@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Pun.UtilityScripts.PhotonStatsGui
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PhotonStatsGui.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -35,31 +42,31 @@ public class PhotonStatsGui : MonoBehaviour
 	public int WindowId;
 
 	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x3BE6740", Offset = "0x3BE6740", VA = "0x3BE6740")]
+	[Address(RVA = "0x3EFEC10", Offset = "0x3EFEC10", VA = "0x3EFEC10")]
 	public void Start()
 	{
 	}
 
 	[Token(Token = "0x600002E")]
-	[Address(RVA = "0x3BE6750", Offset = "0x3BE6750", VA = "0x3BE6750")]
+	[Address(RVA = "0x3EFEC20", Offset = "0x3EFEC20", VA = "0x3EFEC20")]
 	public void Update()
 	{
 	}
 
 	[Token(Token = "0x600002F")]
-	[Address(RVA = "0x3BE6760", Offset = "0x3BE6760", VA = "0x3BE6760")]
+	[Address(RVA = "0x3EFEC30", Offset = "0x3EFEC30", VA = "0x3EFEC30")]
 	public void OnGUI()
 	{
 	}
 
 	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x3BE69B0", Offset = "0x3BE69B0", VA = "0x3BE69B0")]
+	[Address(RVA = "0x3EFEE80", Offset = "0x3EFEE80", VA = "0x3EFEE80")]
 	public void TrafficStatsWindow(int windowID)
 	{
 	}
 
 	[Token(Token = "0x6000031")]
-	[Address(RVA = "0x3BE80F0", Offset = "0x3BE80F0", VA = "0x3BE80F0")]
+	[Address(RVA = "0x3F005C0", Offset = "0x3F005C0", VA = "0x3F005C0")]
 	public PhotonStatsGui()
 	{
 	}

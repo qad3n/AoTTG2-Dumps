@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.Profiling.ProfilerCategory
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
@@ -17,7 +24,7 @@ public readonly struct ProfilerCategory
 	public string Name
 	{
 		[Token(Token = "0x600002F")]
-		[Address(RVA = "0x4A846A0", Offset = "0x4A846A0", VA = "0x4A846A0")]
+		[Address(RVA = "0x4DABEC0", Offset = "0x4DABEC0", VA = "0x4DABEC0")]
 		get
 		{
 			return null;
@@ -28,7 +35,7 @@ public readonly struct ProfilerCategory
 	public static ProfilerCategory Scripts
 	{
 		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x4A84880", Offset = "0x4A84880", VA = "0x4A84880")]
+		[Address(RVA = "0x4DAC0A0", Offset = "0x4DAC0A0", VA = "0x4DAC0A0")]
 		get
 		{
 			return default(ProfilerCategory);
@@ -36,20 +43,20 @@ public readonly struct ProfilerCategory
 	}
 
 	[Token(Token = "0x600002E")]
-	[Address(RVA = "0x4A84690", Offset = "0x4A84690", VA = "0x4A84690")]
+	[Address(RVA = "0x4DABEB0", Offset = "0x4DABEB0", VA = "0x4DABEB0")]
 	internal ProfilerCategory(ushort category)
 	{
 	}
 
 	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x4A84820", Offset = "0x4A84820", VA = "0x4A84820", Slot = "3")]
+	[Address(RVA = "0x4DAC040", Offset = "0x4DAC040", VA = "0x4DAC040", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000032")]
-	[Address(RVA = "0x4A84890", Offset = "0x4A84890", VA = "0x4A84890")]
+	[Address(RVA = "0x4DAC0B0", Offset = "0x4DAC0B0", VA = "0x4DAC0B0")]
 	public static implicit operator ushort(ProfilerCategory category)
 	{
 		return default(ushort);

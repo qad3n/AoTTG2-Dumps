@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Characters.WallColossalShifter
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Characters/WallColossalShifter.c
+// Prior real C# source (older reference): Assets/Scripts/Characters/Shifters/WallColossal/WallColossalShifter.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -14,30 +21,30 @@ using Utility;
 
 namespace Characters;
 
-[Token(Token = "0x2000502")]
+[Token(Token = "0x2000547")]
 internal class WallColossalShifter : BaseShifter
 {
-	[Token(Token = "0x2000503")]
+	[Token(Token = "0x2000548")]
 	[CompilerGenerated]
 	private sealed class _003CWaitAndDie_003Ed__66 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x40017D3")]
+		[Token(Token = "0x40018E4")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40017D4")]
+		[Token(Token = "0x40018E5")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x40017D5")]
+		[Token(Token = "0x40018E6")]
 		[FieldOffset(Offset = "0x20")]
 		public WallColossalShifter _003C_003E4__this;
 
-		[Token(Token = "0x170009C5")]
+		[Token(Token = "0x17000A2F")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60034D8")]
-			[Address(RVA = "0x3EFDFD0", Offset = "0x3EFDFD0", VA = "0x3EFDFD0", Slot = "4")]
+			[Token(Token = "0x60036E6")]
+			[Address(RVA = "0x420A890", Offset = "0x420A890", VA = "0x420A890", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -45,11 +52,11 @@ internal class WallColossalShifter : BaseShifter
 			}
 		}
 
-		[Token(Token = "0x170009C6")]
+		[Token(Token = "0x17000A30")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60034DA")]
-			[Address(RVA = "0x3EFE020", Offset = "0x3EFE020", VA = "0x3EFE020", Slot = "7")]
+			[Token(Token = "0x60036E8")]
+			[Address(RVA = "0x420A8E0", Offset = "0x420A8E0", VA = "0x420A8E0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -57,496 +64,496 @@ internal class WallColossalShifter : BaseShifter
 			}
 		}
 
-		[Token(Token = "0x60034D5")]
-		[Address(RVA = "0x3EFB330", Offset = "0x3EFB330", VA = "0x3EFB330")]
+		[Token(Token = "0x60036E3")]
+		[Address(RVA = "0x4207BF0", Offset = "0x4207BF0", VA = "0x4207BF0")]
 		[DebuggerHidden]
 		public _003CWaitAndDie_003Ed__66(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60034D6")]
-		[Address(RVA = "0x3EFDD20", Offset = "0x3EFDD20", VA = "0x3EFDD20", Slot = "5")]
+		[Token(Token = "0x60036E4")]
+		[Address(RVA = "0x420A5E0", Offset = "0x420A5E0", VA = "0x420A5E0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60034D7")]
-		[Address(RVA = "0x3EFDD30", Offset = "0x3EFDD30", VA = "0x3EFDD30", Slot = "6")]
+		[Token(Token = "0x60036E5")]
+		[Address(RVA = "0x420A5F0", Offset = "0x420A5F0", VA = "0x420A5F0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60034D9")]
-		[Address(RVA = "0x3EFDFE0", Offset = "0x3EFDFE0", VA = "0x3EFDFE0", Slot = "8")]
+		[Token(Token = "0x60036E7")]
+		[Address(RVA = "0x420A8A0", Offset = "0x420A8A0", VA = "0x420A8A0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x40017B5")]
+	[Token(Token = "0x40018C6")]
 	[FieldOffset(Offset = "0x290")]
 	public WallColossalComponentCache ColossalCache;
 
-	[Token(Token = "0x40017B6")]
+	[Token(Token = "0x40018C7")]
 	[FieldOffset(Offset = "0x298")]
 	protected WallColossalAnimations ColossalAnimations;
 
-	[Token(Token = "0x40017B7")]
+	[Token(Token = "0x40018C8")]
 	[FieldOffset(Offset = "0x2A0")]
 	protected float _steamTimeLeft;
 
-	[Token(Token = "0x40017B8")]
+	[Token(Token = "0x40018C9")]
 	[FieldOffset(Offset = "0x2A4")]
 	protected float _steamBlowAwayTimeLeft;
 
-	[Token(Token = "0x40017B9")]
+	[Token(Token = "0x40018CA")]
 	[FieldOffset(Offset = "0x2A8")]
 	protected float _steamDamageTimeLeft;
 
-	[Token(Token = "0x40017BA")]
+	[Token(Token = "0x40018CB")]
 	[FieldOffset(Offset = "0x2AC")]
 	protected ColossalSteamState _steamState;
 
-	[Token(Token = "0x40017BB")]
+	[Token(Token = "0x40018CC")]
 	[FieldOffset(Offset = "0x2B0")]
 	public float WarningSteamTime;
 
-	[Token(Token = "0x40017BC")]
+	[Token(Token = "0x40018CD")]
 	[FieldOffset(Offset = "0x2B4")]
 	public float SteamDamageInterval;
 
-	[Token(Token = "0x40017BD")]
+	[Token(Token = "0x40018CE")]
 	[FieldOffset(Offset = "0x2B8")]
 	public int SteamDamagePerSecond;
 
-	[Token(Token = "0x40017BE")]
+	[Token(Token = "0x40018CF")]
 	[FieldOffset(Offset = "0x2BC")]
 	public int MaxLeftHandHealth;
 
-	[Token(Token = "0x40017BF")]
+	[Token(Token = "0x40018D0")]
 	[FieldOffset(Offset = "0x2C0")]
 	public int MaxRightHandHealth;
 
-	[Token(Token = "0x40017C0")]
+	[Token(Token = "0x40018D1")]
 	[FieldOffset(Offset = "0x2C4")]
 	public int CurrentLeftHandHealth;
 
-	[Token(Token = "0x40017C1")]
+	[Token(Token = "0x40018D2")]
 	[FieldOffset(Offset = "0x2C8")]
 	public int CurrentRightHandHealth;
 
-	[Token(Token = "0x40017C2")]
+	[Token(Token = "0x40018D3")]
 	[FieldOffset(Offset = "0x2CC")]
 	public bool CanDamageLeftHand;
 
-	[Token(Token = "0x40017C3")]
+	[Token(Token = "0x40018D4")]
 	[FieldOffset(Offset = "0x2CD")]
 	public bool CanDamageRightHand;
 
-	[Token(Token = "0x40017C4")]
+	[Token(Token = "0x40018D5")]
 	[FieldOffset(Offset = "0x2D0")]
 	protected ColossalHandState _leftHandState;
 
-	[Token(Token = "0x40017C5")]
+	[Token(Token = "0x40018D6")]
 	[FieldOffset(Offset = "0x2D4")]
 	protected ColossalHandState _rightHandState;
 
-	[Token(Token = "0x40017C6")]
+	[Token(Token = "0x40018D7")]
 	[FieldOffset(Offset = "0x2D8")]
 	protected ColossalStunState _stunState;
 
-	[Token(Token = "0x40017C7")]
+	[Token(Token = "0x40018D8")]
 	[FieldOffset(Offset = "0x2DC")]
 	public float LeftHandSeverTimeLeft;
 
-	[Token(Token = "0x40017C8")]
+	[Token(Token = "0x40018D9")]
 	[FieldOffset(Offset = "0x2E0")]
 	public float RightHandSeverTimeLeft;
 
-	[Token(Token = "0x40017C9")]
+	[Token(Token = "0x40018DA")]
 	[FieldOffset(Offset = "0x2E4")]
 	public float HandSeverWindow;
 
-	[Token(Token = "0x40017CA")]
+	[Token(Token = "0x40018DB")]
 	[FieldOffset(Offset = "0x2E8")]
 	public float StunDuration;
 
-	[Token(Token = "0x40017CB")]
+	[Token(Token = "0x40018DC")]
 	[FieldOffset(Offset = "0x2EC")]
 	public float StunTimeLeft;
 
-	[Token(Token = "0x40017CC")]
+	[Token(Token = "0x40018DD")]
 	[FieldOffset(Offset = "0x2F0")]
 	protected float _stunAnimationTimeLeft;
 
-	[Token(Token = "0x40017CD")]
+	[Token(Token = "0x40018DE")]
 	[FieldOffset(Offset = "0x2F4")]
 	public float RecoveryDuration;
 
-	[Token(Token = "0x40017CE")]
+	[Token(Token = "0x40018DF")]
 	[FieldOffset(Offset = "0x2F8")]
 	public float RecoveryTimeLeft;
 
-	[Token(Token = "0x40017CF")]
+	[Token(Token = "0x40018E0")]
 	[FieldOffset(Offset = "0x2FC")]
 	public float SteamBlowAwayForce;
 
-	[Token(Token = "0x40017D0")]
+	[Token(Token = "0x40018E1")]
 	[FieldOffset(Offset = "0x300")]
 	public float DefaultBlowAwayForce;
 
-	[Token(Token = "0x40017D1")]
+	[Token(Token = "0x40018E2")]
 	[FieldOffset(Offset = "0x304")]
 	public float BlowAwayMaxDistance;
 
-	[Token(Token = "0x40017D2")]
+	[Token(Token = "0x40018E3")]
 	[FieldOffset(Offset = "0x308")]
 	public float BlowAwaySteamTime;
 
-	[Token(Token = "0x170009C0")]
+	[Token(Token = "0x17000A2A")]
 	public ColossalSteamState SteamState
 	{
-		[Token(Token = "0x60034A2")]
-		[Address(RVA = "0x3EF91B0", Offset = "0x3EF91B0", VA = "0x3EF91B0")]
+		[Token(Token = "0x60036B0")]
+		[Address(RVA = "0x4205A70", Offset = "0x4205A70", VA = "0x4205A70")]
 		get
 		{
 			return default(ColossalSteamState);
 		}
 	}
 
-	[Token(Token = "0x170009C1")]
+	[Token(Token = "0x17000A2B")]
 	public ColossalHandState LeftHandState
 	{
-		[Token(Token = "0x60034A3")]
-		[Address(RVA = "0x3EF91C0", Offset = "0x3EF91C0", VA = "0x3EF91C0")]
+		[Token(Token = "0x60036B1")]
+		[Address(RVA = "0x4205A80", Offset = "0x4205A80", VA = "0x4205A80")]
 		get
 		{
 			return default(ColossalHandState);
 		}
 	}
 
-	[Token(Token = "0x170009C2")]
+	[Token(Token = "0x17000A2C")]
 	public ColossalHandState RightHandState
 	{
-		[Token(Token = "0x60034A4")]
-		[Address(RVA = "0x3EF91D0", Offset = "0x3EF91D0", VA = "0x3EF91D0")]
+		[Token(Token = "0x60036B2")]
+		[Address(RVA = "0x4205A90", Offset = "0x4205A90", VA = "0x4205A90")]
 		get
 		{
 			return default(ColossalHandState);
 		}
 	}
 
-	[Token(Token = "0x170009C3")]
+	[Token(Token = "0x17000A2D")]
 	public ColossalStunState StunState
 	{
-		[Token(Token = "0x60034A5")]
-		[Address(RVA = "0x3EF91E0", Offset = "0x3EF91E0", VA = "0x3EF91E0")]
+		[Token(Token = "0x60036B3")]
+		[Address(RVA = "0x4205AA0", Offset = "0x4205AA0", VA = "0x4205AA0")]
 		get
 		{
 			return default(ColossalStunState);
 		}
 	}
 
-	[Token(Token = "0x170009C4")]
+	[Token(Token = "0x17000A2E")]
 	protected override float SizeMultiplier
 	{
-		[Token(Token = "0x60034A6")]
-		[Address(RVA = "0x3EF91F0", Offset = "0x3EF91F0", VA = "0x3EF91F0", Slot = "117")]
+		[Token(Token = "0x60036B4")]
+		[Address(RVA = "0x4205AB0", Offset = "0x4205AB0", VA = "0x4205AB0", Slot = "117")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x60034A7")]
-	[Address(RVA = "0x3EF9200", Offset = "0x3EF9200", VA = "0x3EF9200", Slot = "42")]
+	[Token(Token = "0x60036B5")]
+	[Address(RVA = "0x4205AC0", Offset = "0x4205AC0", VA = "0x4205AC0", Slot = "42")]
 	public override void OnPlayerEnteredRoom(Player player)
 	{
 	}
 
-	[Token(Token = "0x60034A8")]
-	[Address(RVA = "0x3EF98B0", Offset = "0x3EF98B0", VA = "0x3EF98B0", Slot = "174")]
+	[Token(Token = "0x60036B6")]
+	[Address(RVA = "0x4206170", Offset = "0x4206170", VA = "0x4206170", Slot = "174")]
 	public override bool CheckNapeAngle(Vector3 hitPosition, float maxAngle)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60034A9")]
-	[Address(RVA = "0x3EF98C0", Offset = "0x3EF98C0", VA = "0x3EF98C0")]
+	[Token(Token = "0x60036B7")]
+	[Address(RVA = "0x4206180", Offset = "0x4206180", VA = "0x4206180")]
 	public void SteamAttack()
 	{
 	}
 
-	[Token(Token = "0x60034AA")]
-	[Address(RVA = "0x3EF9930", Offset = "0x3EF9930", VA = "0x3EF9930")]
+	[Token(Token = "0x60036B8")]
+	[Address(RVA = "0x42061F0", Offset = "0x42061F0", VA = "0x42061F0")]
 	public void SetLeftHandHealth(int health)
 	{
 	}
 
-	[Token(Token = "0x60034AB")]
-	[Address(RVA = "0x3EF9990", Offset = "0x3EF9990", VA = "0x3EF9990")]
+	[Token(Token = "0x60036B9")]
+	[Address(RVA = "0x4206250", Offset = "0x4206250", VA = "0x4206250")]
 	public void SetRightHandHealth(int health)
 	{
 	}
 
-	[Token(Token = "0x60034AC")]
-	[Address(RVA = "0x3EF9960", Offset = "0x3EF9960", VA = "0x3EF9960")]
+	[Token(Token = "0x60036BA")]
+	[Address(RVA = "0x4206220", Offset = "0x4206220", VA = "0x4206220")]
 	public void SetCurrentLeftHandHealth(int health)
 	{
 	}
 
-	[Token(Token = "0x60034AD")]
-	[Address(RVA = "0x3EF99C0", Offset = "0x3EF99C0", VA = "0x3EF99C0")]
+	[Token(Token = "0x60036BB")]
+	[Address(RVA = "0x4206280", Offset = "0x4206280", VA = "0x4206280")]
 	public void SetCurrentRightHandHealth(int health)
 	{
 	}
 
-	[Token(Token = "0x60034AE")]
-	[Address(RVA = "0x3EF99F0", Offset = "0x3EF99F0", VA = "0x3EF99F0")]
+	[Token(Token = "0x60036BC")]
+	[Address(RVA = "0x42062B0", Offset = "0x42062B0", VA = "0x42062B0")]
 	public void SetMaxLeftHandHealth(int maxHealth)
 	{
 	}
 
-	[Token(Token = "0x60034AF")]
-	[Address(RVA = "0x3EF9A30", Offset = "0x3EF9A30", VA = "0x3EF9A30")]
+	[Token(Token = "0x60036BD")]
+	[Address(RVA = "0x42062F0", Offset = "0x42062F0", VA = "0x42062F0")]
 	public void SetMaxRightHandHealth(int maxHealth)
 	{
 	}
 
-	[Token(Token = "0x60034B0")]
-	[Address(RVA = "0x3EF9A70", Offset = "0x3EF9A70", VA = "0x3EF9A70", Slot = "179")]
+	[Token(Token = "0x60036BE")]
+	[Address(RVA = "0x4206330", Offset = "0x4206330", VA = "0x4206330", Slot = "179")]
 	protected virtual void OnLeftHandHealthChange()
 	{
 	}
 
-	[Token(Token = "0x60034B1")]
-	[Address(RVA = "0x3EF9F70", Offset = "0x3EF9F70", VA = "0x3EF9F70", Slot = "180")]
+	[Token(Token = "0x60036BF")]
+	[Address(RVA = "0x4206830", Offset = "0x4206830", VA = "0x4206830", Slot = "180")]
 	protected virtual void OnRightHandHealthChange()
 	{
 	}
 
-	[Token(Token = "0x60034B2")]
-	[Address(RVA = "0x3EF9F50", Offset = "0x3EF9F50", VA = "0x3EF9F50")]
+	[Token(Token = "0x60036C0")]
+	[Address(RVA = "0x4206810", Offset = "0x4206810", VA = "0x4206810")]
 	protected void CheckStunCondition()
 	{
 	}
 
-	[Token(Token = "0x60034B3")]
-	[Address(RVA = "0x3EFA450", Offset = "0x3EFA450", VA = "0x3EFA450")]
+	[Token(Token = "0x60036C1")]
+	[Address(RVA = "0x4206D10", Offset = "0x4206D10", VA = "0x4206D10")]
 	protected void EnterStunState()
 	{
 	}
 
-	[Token(Token = "0x60034B4")]
-	[Address(RVA = "0x3EFA7E0", Offset = "0x3EFA7E0", VA = "0x3EFA7E0")]
+	[Token(Token = "0x60036C2")]
+	[Address(RVA = "0x42070A0", Offset = "0x42070A0", VA = "0x42070A0")]
 	[PunRPC]
 	public void SetLeftHandHealthRPC(int currentHealth, int maxHealth, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x60034B5")]
-	[Address(RVA = "0x3EFA830", Offset = "0x3EFA830", VA = "0x3EFA830")]
+	[Token(Token = "0x60036C3")]
+	[Address(RVA = "0x42070F0", Offset = "0x42070F0", VA = "0x42070F0")]
 	[PunRPC]
 	public void SetRightHandHealthRPC(int currentHealth, int maxHealth, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x60034B6")]
-	[Address(RVA = "0x3EFA880", Offset = "0x3EFA880", VA = "0x3EFA880")]
+	[Token(Token = "0x60036C4")]
+	[Address(RVA = "0x4207140", Offset = "0x4207140", VA = "0x4207140")]
 	[PunRPC]
 	public void SetLeftHandStateRPC(byte state, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x60034B7")]
-	[Address(RVA = "0x3EFAA50", Offset = "0x3EFAA50", VA = "0x3EFAA50")]
+	[Token(Token = "0x60036C5")]
+	[Address(RVA = "0x4207310", Offset = "0x4207310", VA = "0x4207310")]
 	[PunRPC]
 	public void SetRightHandStateRPC(byte state, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x60034B8")]
-	[Address(RVA = "0x3EFAC20", Offset = "0x3EFAC20", VA = "0x3EFAC20")]
+	[Token(Token = "0x60036C6")]
+	[Address(RVA = "0x42074E0", Offset = "0x42074E0", VA = "0x42074E0")]
 	[PunRPC]
 	public void SetSteamStateRPC(byte state, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x60034B9")]
-	[Address(RVA = "0x3EFAC60", Offset = "0x3EFAC60", VA = "0x3EFAC60")]
+	[Token(Token = "0x60036C7")]
+	[Address(RVA = "0x4207520", Offset = "0x4207520", VA = "0x4207520")]
 	[PunRPC]
 	public void SetStunStateRPC(byte state, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x60034BA")]
-	[Address(RVA = "0x3EFACA0", Offset = "0x3EFACA0", VA = "0x3EFACA0")]
+	[Token(Token = "0x60036C8")]
+	[Address(RVA = "0x4207560", Offset = "0x4207560", VA = "0x4207560")]
 	[PunRPC]
 	public void SetHandSeverTimesRPC(float leftTime, float rightTime, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x60034BB")]
-	[Address(RVA = "0x3EFAD00", Offset = "0x3EFAD00", VA = "0x3EFAD00")]
+	[Token(Token = "0x60036C9")]
+	[Address(RVA = "0x42075C0", Offset = "0x42075C0", VA = "0x42075C0")]
 	[PunRPC]
 	public void SetStunRecoveryTimesRPC(float stunTime, float recoveryTime, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x60034BC")]
-	[Address(RVA = "0x3EFAD60", Offset = "0x3EFAD60", VA = "0x3EFAD60", Slot = "176")]
+	[Token(Token = "0x60036CA")]
+	[Address(RVA = "0x4207620", Offset = "0x4207620", VA = "0x4207620", Slot = "176")]
 	public override void Init(bool ai, string team, JSONNode data, float liveTime)
 	{
 	}
 
-	[Token(Token = "0x60034BD")]
-	[Address(RVA = "0x3EFB140", Offset = "0x3EFB140", VA = "0x3EFB140", Slot = "68")]
+	[Token(Token = "0x60036CB")]
+	[Address(RVA = "0x4207A00", Offset = "0x4207A00", VA = "0x4207A00", Slot = "68")]
 	protected override void CreateCache(BaseComponentCache cache)
 	{
 	}
 
-	[Token(Token = "0x60034BE")]
-	[Address(RVA = "0x3EFB1C0", Offset = "0x3EFB1C0", VA = "0x3EFB1C0", Slot = "151")]
+	[Token(Token = "0x60036CC")]
+	[Address(RVA = "0x4207A80", Offset = "0x4207A80", VA = "0x4207A80", Slot = "151")]
 	protected override void CreateAnimations(BaseTitanAnimations animations)
 	{
 	}
 
-	[Token(Token = "0x60034BF")]
-	[Address(RVA = "0x3EFB230", Offset = "0x3EFB230", VA = "0x3EFB230", Slot = "178")]
+	[Token(Token = "0x60036CD")]
+	[Address(RVA = "0x4207AF0", Offset = "0x4207AF0", VA = "0x4207AF0", Slot = "178")]
 	protected override BaseCustomSkinLoader CreateCustomSkinLoader()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60034C0")]
-	[Address(RVA = "0x3EFB280", Offset = "0x3EFB280", VA = "0x3EFB280", Slot = "177")]
+	[Token(Token = "0x60036CE")]
+	[Address(RVA = "0x4207B40", Offset = "0x4207B40", VA = "0x4207B40", Slot = "177")]
 	protected override string GetSkinURL(ShifterCustomSkinSet set)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60034C1")]
-	[Address(RVA = "0x3EFB2C0", Offset = "0x3EFB2C0", VA = "0x3EFB2C0", Slot = "74")]
+	[Token(Token = "0x60036CF")]
+	[Address(RVA = "0x4207B80", Offset = "0x4207B80", VA = "0x4207B80", Slot = "74")]
 	[IteratorStateMachine(typeof(_003CWaitAndDie_003Ed__66))]
 	protected override IEnumerator WaitAndDie()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60034C2")]
-	[Address(RVA = "0x3EF8AA0", Offset = "0x3EF8AA0", VA = "0x3EF8AA0")]
+	[Token(Token = "0x60036D0")]
+	[Address(RVA = "0x4205360", Offset = "0x4205360", VA = "0x4205360")]
 	public void ApplySteamState(ColossalSteamState newState)
 	{
 	}
 
-	[Token(Token = "0x60034C3")]
-	[Address(RVA = "0x3EFA8C0", Offset = "0x3EFA8C0", VA = "0x3EFA8C0")]
+	[Token(Token = "0x60036D1")]
+	[Address(RVA = "0x4207180", Offset = "0x4207180", VA = "0x4207180")]
 	public void ApplyLeftHandState(ColossalHandState newState)
 	{
 	}
 
-	[Token(Token = "0x60034C4")]
-	[Address(RVA = "0x3EFAA90", Offset = "0x3EFAA90", VA = "0x3EFAA90")]
+	[Token(Token = "0x60036D2")]
+	[Address(RVA = "0x4207350", Offset = "0x4207350", VA = "0x4207350")]
 	public void ApplyRightHandState(ColossalHandState newState)
 	{
 	}
 
-	[Token(Token = "0x60034C5")]
-	[Address(RVA = "0x3EF9130", Offset = "0x3EF9130", VA = "0x3EF9130")]
+	[Token(Token = "0x60036D3")]
+	[Address(RVA = "0x42059F0", Offset = "0x42059F0", VA = "0x42059F0")]
 	public void ApplyStunState(ColossalStunState newState)
 	{
 	}
 
-	[Token(Token = "0x60034C6")]
-	[Address(RVA = "0x3EFB640", Offset = "0x3EFB640", VA = "0x3EFB640")]
+	[Token(Token = "0x60036D4")]
+	[Address(RVA = "0x4207F00", Offset = "0x4207F00", VA = "0x4207F00")]
 	public new void LateUpdate()
 	{
 	}
 
-	[Token(Token = "0x60034C7")]
-	[Address(RVA = "0x3EFB940", Offset = "0x3EFB940", VA = "0x3EFB940")]
+	[Token(Token = "0x60036D5")]
+	[Address(RVA = "0x4208200", Offset = "0x4208200", VA = "0x4208200")]
 	public new void Update()
 	{
 	}
 
-	[Token(Token = "0x60034C8")]
-	[Address(RVA = "0x3EFB350", Offset = "0x3EFB350", VA = "0x3EFB350")]
+	[Token(Token = "0x60036D6")]
+	[Address(RVA = "0x4207C10", Offset = "0x4207C10", VA = "0x4207C10")]
 	protected void ToggleParticleSystem(ParticleSystem system, bool enabled)
 	{
 	}
 
-	[Token(Token = "0x60034C9")]
-	[Address(RVA = "0x3EFA6D0", Offset = "0x3EFA6D0", VA = "0x3EFA6D0")]
+	[Token(Token = "0x60036D7")]
+	[Address(RVA = "0x4206F90", Offset = "0x4206F90", VA = "0x4206F90")]
 	public void StopSteam()
 	{
 	}
 
-	[Token(Token = "0x60034CA")]
-	[Address(RVA = "0x3EFC780", Offset = "0x3EFC780", VA = "0x3EFC780")]
+	[Token(Token = "0x60036D8")]
+	[Address(RVA = "0x4209040", Offset = "0x4209040", VA = "0x4209040")]
 	protected void StartSteam()
 	{
 	}
 
-	[Token(Token = "0x60034CB")]
-	[Address(RVA = "0x3EFBA60", Offset = "0x3EFBA60", VA = "0x3EFBA60")]
+	[Token(Token = "0x60036D9")]
+	[Address(RVA = "0x4208320", Offset = "0x4208320", VA = "0x4208320")]
 	protected void UpdateSteam()
 	{
 	}
 
-	[Token(Token = "0x60034CC")]
-	[Address(RVA = "0x3EFBCC0", Offset = "0x3EFBCC0", VA = "0x3EFBCC0")]
+	[Token(Token = "0x60036DA")]
+	[Address(RVA = "0x4208580", Offset = "0x4208580", VA = "0x4208580")]
 	protected void UpdateHandSeverWindows()
 	{
 	}
 
-	[Token(Token = "0x60034CD")]
-	[Address(RVA = "0x3EFBFA0", Offset = "0x3EFBFA0", VA = "0x3EFBFA0")]
+	[Token(Token = "0x60036DB")]
+	[Address(RVA = "0x4208860", Offset = "0x4208860", VA = "0x4208860")]
 	protected void UpdateStunRecovery()
 	{
 	}
 
-	[Token(Token = "0x60034CE")]
-	[Address(RVA = "0x3EFC700", Offset = "0x3EFC700", VA = "0x3EFC700")]
+	[Token(Token = "0x60036DC")]
+	[Address(RVA = "0x4208FC0", Offset = "0x4208FC0", VA = "0x4208FC0")]
 	protected void UpdateStunAnimation()
 	{
 	}
 
-	[Token(Token = "0x60034CF")]
-	[Address(RVA = "0x3EFCD90", Offset = "0x3EFCD90", VA = "0x3EFCD90", Slot = "163")]
+	[Token(Token = "0x60036DD")]
+	[Address(RVA = "0x4209650", Offset = "0x4209650", VA = "0x4209650", Slot = "163")]
 	protected override void DeactivateAllHitboxes()
 	{
 	}
 
-	[Token(Token = "0x60034D0")]
-	[Address(RVA = "0x3EFCFA0", Offset = "0x3EFCFA0", VA = "0x3EFCFA0", Slot = "161")]
+	[Token(Token = "0x60036DE")]
+	[Address(RVA = "0x4209860", Offset = "0x4209860", VA = "0x4209860", Slot = "161")]
 	protected override void UpdateAttack()
 	{
 	}
 
-	[Token(Token = "0x60034D1")]
-	[Address(RVA = "0x3EFC8B0", Offset = "0x3EFC8B0", VA = "0x3EFC8B0")]
+	[Token(Token = "0x60036DF")]
+	[Address(RVA = "0x4209170", Offset = "0x4209170", VA = "0x4209170")]
 	protected void BlowAwayHumans(Transform source, float angle, float force)
 	{
 	}
 
-	[Token(Token = "0x60034D2")]
-	[Address(RVA = "0x3EFD750", Offset = "0x3EFD750", VA = "0x3EFD750")]
+	[Token(Token = "0x60036E0")]
+	[Address(RVA = "0x420A010", Offset = "0x420A010", VA = "0x420A010")]
 	protected void BlowAwayHumans(Vector3 source, float force)
 	{
 	}
 
-	[Token(Token = "0x60034D3")]
-	[Address(RVA = "0x3EFDA70", Offset = "0x3EFDA70", VA = "0x3EFDA70", Slot = "80")]
+	[Token(Token = "0x60036E1")]
+	[Address(RVA = "0x420A330", Offset = "0x420A330", VA = "0x420A330", Slot = "80")]
 	[PunRPC]
 	public override void GetHitRPC(int viewId, string name, int damage, string type, string collider)
 	{
 	}
 
-	[Token(Token = "0x60034D4")]
-	[Address(RVA = "0x3EFDCA0", Offset = "0x3EFDCA0", VA = "0x3EFDCA0")]
+	[Token(Token = "0x60036E2")]
+	[Address(RVA = "0x420A560", Offset = "0x420A560", VA = "0x420A560")]
 	public WallColossalShifter()
 	{
 	}

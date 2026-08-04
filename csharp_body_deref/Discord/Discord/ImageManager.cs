@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Discord.ImageManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Plugins/DiscordGameSDK/ImageManager.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -60,7 +67,7 @@ public class ImageManager
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x6000180")]
-		[Address(RVA = "0x2336EF0", Offset = "0x2336EF0", VA = "0x2336EF0")]
+		[Address(RVA = "0x2336FB0", Offset = "0x2336FB0", VA = "0x2336FB0")]
 		get
 		{
 			return default(FFIMethods);
@@ -68,58 +75,58 @@ public class ImageManager
 	}
 
 	[Token(Token = "0x6000181")]
-	[Address(RVA = "0x2332210", Offset = "0x2332210", VA = "0x2332210")]
+	[Address(RVA = "0x23322D0", Offset = "0x23322D0", VA = "0x23322D0")]
 	internal ImageManager(IntPtr ptr, IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x6000182")]
-	[Address(RVA = "0x2337000", Offset = "0x2337000", VA = "0x2337000")]
+	[Address(RVA = "0x23370C0", Offset = "0x23370C0", VA = "0x23370C0")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x6000183")]
-	[Address(RVA = "0x2336DD0", Offset = "0x2336DD0", VA = "0x2336DD0")]
+	[Address(RVA = "0x2336E90", Offset = "0x2336E90", VA = "0x2336E90")]
 	[MonoPInvokeCallback]
 	private static void FetchCallbackImpl(IntPtr ptr, Result result, ImageHandle handleResult)
 	{
 	}
 
 	[Token(Token = "0x6000184")]
-	[Address(RVA = "0x2337060", Offset = "0x2337060", VA = "0x2337060")]
+	[Address(RVA = "0x2337120", Offset = "0x2337120", VA = "0x2337120")]
 	public void Fetch(ImageHandle handle, bool refresh, FetchHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000185")]
-	[Address(RVA = "0x2337280", Offset = "0x2337280", VA = "0x2337280")]
+	[Address(RVA = "0x2337340", Offset = "0x2337340", VA = "0x2337340")]
 	public ImageDimensions GetDimensions(ImageHandle handle)
 	{
 		return default(ImageDimensions);
 	}
 
 	[Token(Token = "0x6000186")]
-	[Address(RVA = "0x2337340", Offset = "0x2337340", VA = "0x2337340")]
+	[Address(RVA = "0x2337400", Offset = "0x2337400", VA = "0x2337400")]
 	public void GetData(ImageHandle handle, byte[] data)
 	{
 	}
 
 	[Token(Token = "0x6000187")]
-	[Address(RVA = "0x2337400", Offset = "0x2337400", VA = "0x2337400")]
+	[Address(RVA = "0x23374C0", Offset = "0x23374C0", VA = "0x23374C0")]
 	public void Fetch(ImageHandle handle, FetchHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000188")]
-	[Address(RVA = "0x2337410", Offset = "0x2337410", VA = "0x2337410")]
+	[Address(RVA = "0x23374D0", Offset = "0x23374D0", VA = "0x23374D0")]
 	public byte[] GetData(ImageHandle handle)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000189")]
-	[Address(RVA = "0x23374B0", Offset = "0x23374B0", VA = "0x23374B0")]
+	[Address(RVA = "0x2337570", Offset = "0x2337570", VA = "0x2337570")]
 	public Texture2D GetTexture(ImageHandle handle)
 	{
 		return null;

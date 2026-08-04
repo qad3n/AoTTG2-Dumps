@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.XmlDataLoader
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Xml;
 using Il2CppDummyDll;
@@ -111,181 +118,181 @@ internal sealed class XmlDataLoader
 	internal bool FromInference
 	{
 		[Token(Token = "0x6000836")]
-		[Address(RVA = "0x42A3F60", Offset = "0x42A3F60", VA = "0x42A3F60")]
+		[Address(RVA = "0x45E16C0", Offset = "0x45E16C0", VA = "0x45E16C0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000837")]
-		[Address(RVA = "0x42A3F70", Offset = "0x42A3F70", VA = "0x42A3F70")]
+		[Address(RVA = "0x45E16D0", Offset = "0x45E16D0", VA = "0x45E16D0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000832")]
-	[Address(RVA = "0x42A3C60", Offset = "0x42A3C60", VA = "0x42A3C60")]
+	[Address(RVA = "0x45E13C0", Offset = "0x45E13C0", VA = "0x45E13C0")]
 	internal XmlDataLoader(DataSet dataset, bool IsXdr, bool ignoreSchema)
 	{
 	}
 
 	[Token(Token = "0x6000833")]
-	[Address(RVA = "0x42A3CF0", Offset = "0x42A3CF0", VA = "0x42A3CF0")]
+	[Address(RVA = "0x45E1450", Offset = "0x45E1450", VA = "0x45E1450")]
 	internal XmlDataLoader(DataSet dataset, bool IsXdr, XmlElement topNode, bool ignoreSchema)
 	{
 	}
 
 	[Token(Token = "0x6000834")]
-	[Address(RVA = "0x42A3DD0", Offset = "0x42A3DD0", VA = "0x42A3DD0")]
+	[Address(RVA = "0x45E1530", Offset = "0x45E1530", VA = "0x45E1530")]
 	internal XmlDataLoader(DataTable datatable, bool IsXdr, bool ignoreSchema)
 	{
 	}
 
 	[Token(Token = "0x6000835")]
-	[Address(RVA = "0x42A3E70", Offset = "0x42A3E70", VA = "0x42A3E70")]
+	[Address(RVA = "0x45E15D0", Offset = "0x45E15D0", VA = "0x45E15D0")]
 	internal XmlDataLoader(DataTable datatable, bool IsXdr, XmlElement topNode, bool ignoreSchema)
 	{
 	}
 
 	[Token(Token = "0x6000838")]
-	[Address(RVA = "0x42A3F80", Offset = "0x42A3F80", VA = "0x42A3F80")]
+	[Address(RVA = "0x45E16E0", Offset = "0x45E16E0", VA = "0x45E16E0")]
 	private void AttachRows(DataRow parentRow, XmlNode parentElement)
 	{
 	}
 
 	[Token(Token = "0x6000839")]
-	[Address(RVA = "0x42A4310", Offset = "0x42A4310", VA = "0x42A4310")]
+	[Address(RVA = "0x45E1A70", Offset = "0x45E1A70", VA = "0x45E1A70")]
 	private int CountNonNSAttributes(XmlNode node)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600083A")]
-	[Address(RVA = "0x42A4510", Offset = "0x42A4510", VA = "0x42A4510")]
+	[Address(RVA = "0x45E1C70", Offset = "0x45E1C70", VA = "0x45E1C70")]
 	private string GetValueForTextOnlyColums(XmlNode n)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600083B")]
-	[Address(RVA = "0x42A47E0", Offset = "0x42A47E0", VA = "0x42A47E0")]
+	[Address(RVA = "0x45E1F40", Offset = "0x45E1F40", VA = "0x45E1F40")]
 	private string GetInitialTextFromNodes(ref XmlNode n)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600083C")]
-	[Address(RVA = "0x42A4AB0", Offset = "0x42A4AB0", VA = "0x42A4AB0")]
+	[Address(RVA = "0x45E2210", Offset = "0x45E2210", VA = "0x45E2210")]
 	private DataColumn GetTextOnlyColumn(DataRow row)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600083D")]
-	[Address(RVA = "0x42A4280", Offset = "0x42A4280", VA = "0x42A4280")]
+	[Address(RVA = "0x45E19E0", Offset = "0x45E19E0", VA = "0x45E19E0")]
 	internal DataRow GetRowFromElement(XmlElement e)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600083E")]
-	[Address(RVA = "0x42A4B70", Offset = "0x42A4B70", VA = "0x42A4B70")]
+	[Address(RVA = "0x45E22D0", Offset = "0x45E22D0", VA = "0x45E22D0")]
 	internal bool FColumnElement(XmlElement e)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600083F")]
-	[Address(RVA = "0x42A4490", Offset = "0x42A4490", VA = "0x42A4490")]
+	[Address(RVA = "0x45E1BF0", Offset = "0x45E1BF0", VA = "0x45E1BF0")]
 	private bool FExcludedNamespace(string ns)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000840")]
-	[Address(RVA = "0x42A4C50", Offset = "0x42A4C50", VA = "0x42A4C50")]
+	[Address(RVA = "0x45E23B0", Offset = "0x45E23B0", VA = "0x45E23B0")]
 	private bool FIgnoreNamespace(XmlNode node)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000841")]
-	[Address(RVA = "0x42A4F80", Offset = "0x42A4F80", VA = "0x42A4F80")]
+	[Address(RVA = "0x45E26E0", Offset = "0x45E26E0", VA = "0x45E26E0")]
 	private bool FIgnoreNamespace(XmlReader node)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000842")]
-	[Address(RVA = "0x42A47A0", Offset = "0x42A47A0", VA = "0x42A47A0")]
+	[Address(RVA = "0x45E1F00", Offset = "0x45E1F00", VA = "0x45E1F00")]
 	internal bool IsTextLikeNode(XmlNodeType n)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000843")]
-	[Address(RVA = "0x42A4B40", Offset = "0x42A4B40", VA = "0x42A4B40")]
+	[Address(RVA = "0x45E22A0", Offset = "0x45E22A0", VA = "0x45E22A0")]
 	internal bool IsTextOnly(DataColumn c)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000844")]
-	[Address(RVA = "0x42A5000", Offset = "0x42A5000", VA = "0x42A5000")]
+	[Address(RVA = "0x45E2760", Offset = "0x45E2760", VA = "0x45E2760")]
 	internal void LoadData(XmlDocument xdoc)
 	{
 	}
 
 	[Token(Token = "0x6000845")]
-	[Address(RVA = "0x42A5420", Offset = "0x42A5420", VA = "0x42A5420")]
+	[Address(RVA = "0x45E2B80", Offset = "0x45E2B80", VA = "0x45E2B80")]
 	private void LoadRowData(DataRow row, XmlElement rowElement)
 	{
 	}
 
 	[Token(Token = "0x6000846")]
-	[Address(RVA = "0x42A6390", Offset = "0x42A6390", VA = "0x42A6390")]
+	[Address(RVA = "0x45E3AF0", Offset = "0x45E3AF0", VA = "0x45E3AF0")]
 	private void LoadRows(DataRow parentRow, XmlNode parentElement)
 	{
 	}
 
 	[Token(Token = "0x6000847")]
-	[Address(RVA = "0x42A6730", Offset = "0x42A6730", VA = "0x42A6730")]
+	[Address(RVA = "0x45E3E90", Offset = "0x45E3E90", VA = "0x45E3E90")]
 	private void SetRowValueFromXmlText(DataRow row, DataColumn col, string xmlText)
 	{
 	}
 
 	[Token(Token = "0x6000848")]
-	[Address(RVA = "0x42A67A0", Offset = "0x42A67A0", VA = "0x42A67A0")]
+	[Address(RVA = "0x45E3F00", Offset = "0x45E3F00", VA = "0x45E3F00")]
 	private void InitNameTable()
 	{
 	}
 
 	[Token(Token = "0x6000849")]
-	[Address(RVA = "0x42A6AE0", Offset = "0x42A6AE0", VA = "0x42A6AE0")]
+	[Address(RVA = "0x45E4240", Offset = "0x45E4240", VA = "0x45E4240")]
 	internal void LoadData(XmlReader reader)
 	{
 	}
 
 	[Token(Token = "0x600084A")]
-	[Address(RVA = "0x42A6FD0", Offset = "0x42A6FD0", VA = "0x42A6FD0")]
+	[Address(RVA = "0x45E4730", Offset = "0x45E4730", VA = "0x45E4730")]
 	private void LoadTopMostTable(DataTable table)
 	{
 	}
 
 	[Token(Token = "0x600084B")]
-	[Address(RVA = "0x42A7E70", Offset = "0x42A7E70", VA = "0x42A7E70")]
+	[Address(RVA = "0x45E55D0", Offset = "0x45E55D0", VA = "0x45E55D0")]
 	private void LoadTable(DataTable table, bool isNested)
 	{
 	}
 
 	[Token(Token = "0x600084C")]
-	[Address(RVA = "0x42A8FA0", Offset = "0x42A8FA0", VA = "0x42A8FA0")]
+	[Address(RVA = "0x45E6700", Offset = "0x45E6700", VA = "0x45E6700")]
 	private void LoadColumn(DataColumn column, object[] foundColumns)
 	{
 	}
 
 	[Token(Token = "0x600084D")]
-	[Address(RVA = "0x42A7C40", Offset = "0x42A7C40", VA = "0x42A7C40")]
+	[Address(RVA = "0x45E53A0", Offset = "0x45E53A0", VA = "0x45E53A0")]
 	private bool ProcessXsdSchema()
 	{
 		return default(bool);

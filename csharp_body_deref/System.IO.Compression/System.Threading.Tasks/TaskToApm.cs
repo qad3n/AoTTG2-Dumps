@@ -24,7 +24,7 @@ internal static class TaskToApm
 		private object System_002EIAsyncResult_002EAsyncState
 		{
 			[Token(Token = "0x600004C")]
-			[Address(RVA = "0x4327110", Offset = "0x4327110", VA = "0x4327110", Slot = "6")]
+			[Address(RVA = "0x4664870", Offset = "0x4664870", VA = "0x4664870", Slot = "6")]
 			get
 			{
 				return null;
@@ -35,7 +35,7 @@ internal static class TaskToApm
 		private bool System_002EIAsyncResult_002ECompletedSynchronously
 		{
 			[Token(Token = "0x600004D")]
-			[Address(RVA = "0x4327120", Offset = "0x4327120", VA = "0x4327120", Slot = "7")]
+			[Address(RVA = "0x4664880", Offset = "0x4664880", VA = "0x4664880", Slot = "7")]
 			get
 			{
 				return default(bool);
@@ -46,7 +46,7 @@ internal static class TaskToApm
 		private bool System_002EIAsyncResult_002EIsCompleted
 		{
 			[Token(Token = "0x600004E")]
-			[Address(RVA = "0x4327130", Offset = "0x4327130", VA = "0x4327130", Slot = "4")]
+			[Address(RVA = "0x4664890", Offset = "0x4664890", VA = "0x4664890", Slot = "4")]
 			get
 			{
 				return default(bool);
@@ -57,7 +57,7 @@ internal static class TaskToApm
 		private WaitHandle System_002EIAsyncResult_002EAsyncWaitHandle
 		{
 			[Token(Token = "0x600004F")]
-			[Address(RVA = "0x4327150", Offset = "0x4327150", VA = "0x4327150", Slot = "5")]
+			[Address(RVA = "0x46648B0", Offset = "0x46648B0", VA = "0x46648B0", Slot = "5")]
 			get
 			{
 				return null;
@@ -65,21 +65,21 @@ internal static class TaskToApm
 		}
 
 		[Token(Token = "0x600004B")]
-		[Address(RVA = "0x4326FB0", Offset = "0x4326FB0", VA = "0x4326FB0")]
+		[Address(RVA = "0x4664710", Offset = "0x4664710", VA = "0x4664710")]
 		internal TaskWrapperAsyncResult(Task task, object state, bool completedSynchronously)
 		{
 		}
 	}
 
 	[Token(Token = "0x6000047")]
-	[Address(RVA = "0x4323600", Offset = "0x4323600", VA = "0x4323600")]
+	[Address(RVA = "0x4660D60", Offset = "0x4660D60", VA = "0x4660D60")]
 	public static IAsyncResult Begin(Task task, AsyncCallback callback, object state)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000048")]
-	[Address(RVA = "0x4324010", Offset = "0x4324010", VA = "0x4324010")]
+	[Address(RVA = "0x4661770", Offset = "0x4661770", VA = "0x4661770")]
 	public static void End(IAsyncResult asyncResult)
 	{
 	}
@@ -91,7 +91,7 @@ internal static class TaskToApm
 	}
 
 	[Token(Token = "0x600004A")]
-	[Address(RVA = "0x4327000", Offset = "0x4327000", VA = "0x4327000")]
+	[Address(RVA = "0x4664760", Offset = "0x4664760", VA = "0x4664760")]
 	private static void InvokeCallbackWhenTaskCompletes(Task antecedent, AsyncCallback callback, IAsyncResult asyncResult)
 	{
 	}

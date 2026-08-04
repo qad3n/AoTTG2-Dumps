@@ -1,9 +1,16 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Experimental.GlobalIllumination.LightDataGI
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
 
 namespace UnityEngine.Experimental.GlobalIllumination;
 
-[Token(Token = "0x2000340")]
+[Token(Token = "0x2000343")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public struct LightDataGI
 {
@@ -71,38 +78,38 @@ public struct LightDataGI
 	[FieldOffset(Offset = "0x5F")]
 	public FalloffType falloff;
 
-	[Token(Token = "0x600117A")]
-	[Address(RVA = "0x4B11290", Offset = "0x4B11290", VA = "0x4B11290")]
+	[Token(Token = "0x600117C")]
+	[Address(RVA = "0x4E38BC0", Offset = "0x4E38BC0", VA = "0x4E38BC0")]
 	public void Init(ref DirectionalLight light, ref Cookie cookie)
 	{
 	}
 
-	[Token(Token = "0x600117B")]
-	[Address(RVA = "0x4B11300", Offset = "0x4B11300", VA = "0x4B11300")]
+	[Token(Token = "0x600117D")]
+	[Address(RVA = "0x4E38C30", Offset = "0x4E38C30", VA = "0x4E38C30")]
 	public void Init(ref PointLight light, ref Cookie cookie)
 	{
 	}
 
-	[Token(Token = "0x600117C")]
-	[Address(RVA = "0x4B11370", Offset = "0x4B11370", VA = "0x4B11370")]
+	[Token(Token = "0x600117E")]
+	[Address(RVA = "0x4E38CA0", Offset = "0x4E38CA0", VA = "0x4E38CA0")]
 	public void Init(ref SpotLight light, ref Cookie cookie)
 	{
 	}
 
-	[Token(Token = "0x600117D")]
-	[Address(RVA = "0x4B113E0", Offset = "0x4B113E0", VA = "0x4B113E0")]
+	[Token(Token = "0x600117F")]
+	[Address(RVA = "0x4E38D10", Offset = "0x4E38D10", VA = "0x4E38D10")]
 	public void Init(ref RectangleLight light, ref Cookie cookie)
 	{
 	}
 
-	[Token(Token = "0x600117E")]
-	[Address(RVA = "0x4B11450", Offset = "0x4B11450", VA = "0x4B11450")]
+	[Token(Token = "0x6001180")]
+	[Address(RVA = "0x4E38D80", Offset = "0x4E38D80", VA = "0x4E38D80")]
 	public void Init(ref DiscLight light, ref Cookie cookie)
 	{
 	}
 
-	[Token(Token = "0x600117F")]
-	[Address(RVA = "0x4B114C0", Offset = "0x4B114C0", VA = "0x4B114C0")]
+	[Token(Token = "0x6001181")]
+	[Address(RVA = "0x4E38DF0", Offset = "0x4E38DF0", VA = "0x4E38DF0")]
 	public void InitNoBake(int lightInstanceID)
 	{
 	}

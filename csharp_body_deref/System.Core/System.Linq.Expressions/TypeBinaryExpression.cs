@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.TypeBinaryExpression
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -12,7 +19,7 @@ public sealed class TypeBinaryExpression : Expression
 	public sealed override Type Type
 	{
 		[Token(Token = "0x600056C")]
-		[Address(RVA = "0x419B390", Offset = "0x419B390", VA = "0x419B390", Slot = "5")]
+		[Address(RVA = "0x44C0490", Offset = "0x44C0490", VA = "0x44C0490", Slot = "5")]
 		get
 		{
 			return null;
@@ -23,7 +30,7 @@ public sealed class TypeBinaryExpression : Expression
 	public sealed override ExpressionType NodeType
 	{
 		[Token(Token = "0x600056D")]
-		[Address(RVA = "0x419B3D0", Offset = "0x419B3D0", VA = "0x419B3D0", Slot = "4")]
+		[Address(RVA = "0x44C04D0", Offset = "0x44C04D0", VA = "0x44C04D0", Slot = "4")]
 		[CompilerGenerated]
 		get
 		{
@@ -35,7 +42,7 @@ public sealed class TypeBinaryExpression : Expression
 	public Expression Expression
 	{
 		[Token(Token = "0x600056E")]
-		[Address(RVA = "0x419B3E0", Offset = "0x419B3E0", VA = "0x419B3E0")]
+		[Address(RVA = "0x44C04E0", Offset = "0x44C04E0", VA = "0x44C04E0")]
 		[CompilerGenerated]
 		get
 		{
@@ -47,7 +54,7 @@ public sealed class TypeBinaryExpression : Expression
 	public Type TypeOperand
 	{
 		[Token(Token = "0x600056F")]
-		[Address(RVA = "0x419B3F0", Offset = "0x419B3F0", VA = "0x419B3F0")]
+		[Address(RVA = "0x44C04F0", Offset = "0x44C04F0", VA = "0x44C04F0")]
 		[CompilerGenerated]
 		get
 		{
@@ -56,20 +63,20 @@ public sealed class TypeBinaryExpression : Expression
 	}
 
 	[Token(Token = "0x600056B")]
-	[Address(RVA = "0x419B310", Offset = "0x419B310", VA = "0x419B310")]
+	[Address(RVA = "0x44C0410", Offset = "0x44C0410", VA = "0x44C0410")]
 	internal TypeBinaryExpression(Expression expression, Type typeOperand, ExpressionType nodeType)
 	{
 	}
 
 	[Token(Token = "0x6000570")]
-	[Address(RVA = "0x419B400", Offset = "0x419B400", VA = "0x419B400", Slot = "9")]
+	[Address(RVA = "0x44C0500", Offset = "0x44C0500", VA = "0x44C0500", Slot = "9")]
 	protected internal override Expression Accept(ExpressionVisitor visitor)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000571")]
-	[Address(RVA = "0x4195F00", Offset = "0x4195F00", VA = "0x4195F00")]
+	[Address(RVA = "0x44BB000", Offset = "0x44BB000", VA = "0x44BB000")]
 	public TypeBinaryExpression Update(Expression expression)
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.CompilerServices.ValueTaskAwaiter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Il2CppDummyDll;
@@ -20,7 +27,7 @@ public readonly struct ValueTaskAwaiter : ICriticalNotifyCompletion, INotifyComp
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6002292")]
-		[Address(RVA = "0x4EDB930", Offset = "0x4EDB930", VA = "0x4EDB930")]
+		[Address(RVA = "0x3BC1450", Offset = "0x3BC1450", VA = "0x3BC1450")]
 		get
 		{
 			return default(bool);
@@ -29,27 +36,27 @@ public readonly struct ValueTaskAwaiter : ICriticalNotifyCompletion, INotifyComp
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002291")]
-	[Address(RVA = "0x4EDB920", Offset = "0x4EDB920", VA = "0x4EDB920")]
+	[Address(RVA = "0x3BC1440", Offset = "0x3BC1440", VA = "0x3BC1440")]
 	internal ValueTaskAwaiter(ValueTask value)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002293")]
-	[Address(RVA = "0x4EDBAA0", Offset = "0x4EDBAA0", VA = "0x4EDBAA0")]
+	[Address(RVA = "0x3BC15C0", Offset = "0x3BC15C0", VA = "0x3BC15C0")]
 	[System.Diagnostics.StackTraceHidden]
 	public void GetResult()
 	{
 	}
 
 	[Token(Token = "0x6002294")]
-	[Address(RVA = "0x4EDBB10", Offset = "0x4EDBB10", VA = "0x4EDBB10", Slot = "5")]
+	[Address(RVA = "0x3BC1630", Offset = "0x3BC1630", VA = "0x3BC1630", Slot = "5")]
 	public void OnCompleted(Action continuation)
 	{
 	}
 
 	[Token(Token = "0x6002295")]
-	[Address(RVA = "0x4EDBCC0", Offset = "0x4EDBCC0", VA = "0x4EDBCC0", Slot = "4")]
+	[Address(RVA = "0x3BC17E0", Offset = "0x3BC17E0", VA = "0x3BC17E0", Slot = "4")]
 	public void UnsafeOnCompleted(Action continuation)
 	{
 	}

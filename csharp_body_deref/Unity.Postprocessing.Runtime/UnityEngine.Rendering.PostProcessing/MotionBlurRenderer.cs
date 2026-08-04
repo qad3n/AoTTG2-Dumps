@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.MotionBlurRenderer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
 
@@ -25,26 +32,26 @@ internal sealed class MotionBlurRenderer : PostProcessEffectRenderer<MotionBlur>
 	}
 
 	[Token(Token = "0x600005B")]
-	[Address(RVA = "0x48189B0", Offset = "0x48189B0", VA = "0x48189B0", Slot = "5")]
+	[Address(RVA = "0x4B3DAA0", Offset = "0x4B3DAA0", VA = "0x4B3DAA0", Slot = "5")]
 	public override DepthTextureMode GetCameraFlags()
 	{
 		return default(DepthTextureMode);
 	}
 
 	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x48189C0", Offset = "0x48189C0", VA = "0x48189C0")]
+	[Address(RVA = "0x4B3DAB0", Offset = "0x4B3DAB0", VA = "0x4B3DAB0")]
 	private void CreateTemporaryRT(PostProcessRenderContext context, int nameID, int width, int height, RenderTextureFormat RTFormat)
 	{
 	}
 
 	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x4818AF0", Offset = "0x4818AF0", VA = "0x4818AF0", Slot = "8")]
+	[Address(RVA = "0x4B3DBE0", Offset = "0x4B3DBE0", VA = "0x4B3DBE0", Slot = "8")]
 	public override void Render(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x4819F10", Offset = "0x4819F10", VA = "0x4819F10")]
+	[Address(RVA = "0x4B3F000", Offset = "0x4B3F000", VA = "0x4B3F000")]
 	public MotionBlurRenderer()
 	{
 	}

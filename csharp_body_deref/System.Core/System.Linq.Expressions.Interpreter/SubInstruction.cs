@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.SubInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -9,14 +16,14 @@ internal abstract class SubInstruction : Instruction
 	private sealed class SubInt16 : SubInstruction
 	{
 		[Token(Token = "0x6000AC3")]
-		[Address(RVA = "0x41DDBE0", Offset = "0x41DDBE0", VA = "0x41DDBE0", Slot = "8")]
+		[Address(RVA = "0x4502CE0", Offset = "0x4502CE0", VA = "0x4502CE0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000AC4")]
-		[Address(RVA = "0x41DDB60", Offset = "0x41DDB60", VA = "0x41DDB60")]
+		[Address(RVA = "0x4502C60", Offset = "0x4502C60", VA = "0x4502C60")]
 		public SubInt16()
 		{
 		}
@@ -26,14 +33,14 @@ internal abstract class SubInstruction : Instruction
 	private sealed class SubInt32 : SubInstruction
 	{
 		[Token(Token = "0x6000AC5")]
-		[Address(RVA = "0x41DDD40", Offset = "0x41DDD40", VA = "0x41DDD40", Slot = "8")]
+		[Address(RVA = "0x4502E40", Offset = "0x4502E40", VA = "0x4502E40", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000AC6")]
-		[Address(RVA = "0x41DDB70", Offset = "0x41DDB70", VA = "0x41DDB70")]
+		[Address(RVA = "0x4502C70", Offset = "0x4502C70", VA = "0x4502C70")]
 		public SubInt32()
 		{
 		}
@@ -43,14 +50,14 @@ internal abstract class SubInstruction : Instruction
 	private sealed class SubInt64 : SubInstruction
 	{
 		[Token(Token = "0x6000AC7")]
-		[Address(RVA = "0x41DDE90", Offset = "0x41DDE90", VA = "0x41DDE90", Slot = "8")]
+		[Address(RVA = "0x4502F90", Offset = "0x4502F90", VA = "0x4502F90", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000AC8")]
-		[Address(RVA = "0x41DDB80", Offset = "0x41DDB80", VA = "0x41DDB80")]
+		[Address(RVA = "0x4502C80", Offset = "0x4502C80", VA = "0x4502C80")]
 		public SubInt64()
 		{
 		}
@@ -60,14 +67,14 @@ internal abstract class SubInstruction : Instruction
 	private sealed class SubUInt16 : SubInstruction
 	{
 		[Token(Token = "0x6000AC9")]
-		[Address(RVA = "0x41DDFF0", Offset = "0x41DDFF0", VA = "0x41DDFF0", Slot = "8")]
+		[Address(RVA = "0x45030F0", Offset = "0x45030F0", VA = "0x45030F0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000ACA")]
-		[Address(RVA = "0x41DDB90", Offset = "0x41DDB90", VA = "0x41DDB90")]
+		[Address(RVA = "0x4502C90", Offset = "0x4502C90", VA = "0x4502C90")]
 		public SubUInt16()
 		{
 		}
@@ -77,14 +84,14 @@ internal abstract class SubInstruction : Instruction
 	private sealed class SubUInt32 : SubInstruction
 	{
 		[Token(Token = "0x6000ACB")]
-		[Address(RVA = "0x41DE150", Offset = "0x41DE150", VA = "0x41DE150", Slot = "8")]
+		[Address(RVA = "0x4503250", Offset = "0x4503250", VA = "0x4503250", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000ACC")]
-		[Address(RVA = "0x41DDBA0", Offset = "0x41DDBA0", VA = "0x41DDBA0")]
+		[Address(RVA = "0x4502CA0", Offset = "0x4502CA0", VA = "0x4502CA0")]
 		public SubUInt32()
 		{
 		}
@@ -94,14 +101,14 @@ internal abstract class SubInstruction : Instruction
 	private sealed class SubUInt64 : SubInstruction
 	{
 		[Token(Token = "0x6000ACD")]
-		[Address(RVA = "0x41DE2B0", Offset = "0x41DE2B0", VA = "0x41DE2B0", Slot = "8")]
+		[Address(RVA = "0x45033B0", Offset = "0x45033B0", VA = "0x45033B0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000ACE")]
-		[Address(RVA = "0x41DDBB0", Offset = "0x41DDBB0", VA = "0x41DDBB0")]
+		[Address(RVA = "0x4502CB0", Offset = "0x4502CB0", VA = "0x4502CB0")]
 		public SubUInt64()
 		{
 		}
@@ -111,14 +118,14 @@ internal abstract class SubInstruction : Instruction
 	private sealed class SubSingle : SubInstruction
 	{
 		[Token(Token = "0x6000ACF")]
-		[Address(RVA = "0x41DE410", Offset = "0x41DE410", VA = "0x41DE410", Slot = "8")]
+		[Address(RVA = "0x4503510", Offset = "0x4503510", VA = "0x4503510", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000AD0")]
-		[Address(RVA = "0x41DDBC0", Offset = "0x41DDBC0", VA = "0x41DDBC0")]
+		[Address(RVA = "0x4502CC0", Offset = "0x4502CC0", VA = "0x4502CC0")]
 		public SubSingle()
 		{
 		}
@@ -128,14 +135,14 @@ internal abstract class SubInstruction : Instruction
 	private sealed class SubDouble : SubInstruction
 	{
 		[Token(Token = "0x6000AD1")]
-		[Address(RVA = "0x41DE570", Offset = "0x41DE570", VA = "0x41DE570", Slot = "8")]
+		[Address(RVA = "0x4503670", Offset = "0x4503670", VA = "0x4503670", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000AD2")]
-		[Address(RVA = "0x41DDBD0", Offset = "0x41DDBD0", VA = "0x41DDBD0")]
+		[Address(RVA = "0x4502CD0", Offset = "0x4502CD0", VA = "0x4502CD0")]
 		public SubDouble()
 		{
 		}
@@ -177,7 +184,7 @@ internal abstract class SubInstruction : Instruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x6000ABE")]
-		[Address(RVA = "0x41DD740", Offset = "0x41DD740", VA = "0x41DD740", Slot = "4")]
+		[Address(RVA = "0x4502840", Offset = "0x4502840", VA = "0x4502840", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -188,7 +195,7 @@ internal abstract class SubInstruction : Instruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x6000ABF")]
-		[Address(RVA = "0x41DD750", Offset = "0x41DD750", VA = "0x41DD750", Slot = "5")]
+		[Address(RVA = "0x4502850", Offset = "0x4502850", VA = "0x4502850", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -199,7 +206,7 @@ internal abstract class SubInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x6000AC0")]
-		[Address(RVA = "0x41DD760", Offset = "0x41DD760", VA = "0x41DD760", Slot = "9")]
+		[Address(RVA = "0x4502860", Offset = "0x4502860", VA = "0x4502860", Slot = "9")]
 		get
 		{
 			return null;
@@ -207,13 +214,13 @@ internal abstract class SubInstruction : Instruction
 	}
 
 	[Token(Token = "0x6000AC1")]
-	[Address(RVA = "0x41DD790", Offset = "0x41DD790", VA = "0x41DD790")]
+	[Address(RVA = "0x4502890", Offset = "0x4502890", VA = "0x4502890")]
 	private SubInstruction()
 	{
 	}
 
 	[Token(Token = "0x6000AC2")]
-	[Address(RVA = "0x41DD7A0", Offset = "0x41DD7A0", VA = "0x41DD7A0")]
+	[Address(RVA = "0x45028A0", Offset = "0x45028A0", VA = "0x45028A0")]
 	public static Instruction Create(Type type)
 	{
 		return null;

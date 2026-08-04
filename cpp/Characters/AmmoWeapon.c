@@ -1,17 +1,18 @@
 // Type: Characters.AmmoWeapon
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/AmmoWeapon.cs
-// Prior real C# source (REFERENCE, outdated): Assets/Scripts/Characters/Human/Weapons/AmmoWeapon.cs  [CHANGED since prior version]
+// Prior real C# source (older reference): Assets/Scripts/Characters/Human/Weapons/AmmoWeapon.cs
 // --------------------------------
 
 // Characters.AmmoWeapon$$.ctor
 // il2cpp: void Characters_AmmoWeapon___ctor (Characters_AmmoWeapon_o* __this, Characters_BaseCharacter_o* owner, int32_t ammo, int32_t round, float cooldown, const MethodInfo* method);
-// 0x3fed040
+// 0x42f9900
 
 void Characters_AmmoWeapon___ctor
-               (Characters_AmmoWeapon_o *__this,Characters_BaseCharacter_o *owner,int32_t ammo,
-               int32_t round,float cooldown,MethodInfo *method)
+               (Characters_AmmoWeapon_o *__this,Characters_BaseCharacter_o *owner,int32_t ammo,int32_t round,
+               float cooldown,MethodInfo *method)
 
 {
   int iVar1;
@@ -36,7 +37,7 @@ void Characters_AmmoWeapon___ctor
 
 // Characters.AmmoWeapon$$NeedRefill
 // il2cpp: bool Characters_AmmoWeapon__NeedRefill (Characters_AmmoWeapon_o* __this, const MethodInfo* method);
-// 0x3feee40
+// 0x42fa690
 
 bool_conflict Characters_AmmoWeapon__NeedRefill(Characters_AmmoWeapon_o *__this,MethodInfo *method)
 
@@ -60,7 +61,7 @@ bool_conflict Characters_AmmoWeapon__NeedRefill(Characters_AmmoWeapon_o *__this,
 
 // Characters.AmmoWeapon$$Reload
 // il2cpp: void Characters_AmmoWeapon__Reload (Characters_AmmoWeapon_o* __this, const MethodInfo* method);
-// 0x3feee60
+// 0x42fa6b0
 
 void Characters_AmmoWeapon__Reload(Characters_AmmoWeapon_o *__this,MethodInfo *method)
 
@@ -91,7 +92,7 @@ void Characters_AmmoWeapon__Reload(Characters_AmmoWeapon_o *__this,MethodInfo *m
 
 // Characters.AmmoWeapon$$Reset
 // il2cpp: void Characters_AmmoWeapon__Reset (Characters_AmmoWeapon_o* __this, const MethodInfo* method);
-// 0x3feee90
+// 0x42fa6e0
 
 void Characters_AmmoWeapon__Reset(Characters_AmmoWeapon_o *__this,MethodInfo *method)
 
@@ -115,7 +116,7 @@ void Characters_AmmoWeapon__Reset(Characters_AmmoWeapon_o *__this,MethodInfo *me
 
 // Characters.AmmoWeapon$$OnUse
 // il2cpp: void Characters_AmmoWeapon__OnUse (Characters_AmmoWeapon_o* __this, const MethodInfo* method);
-// 0x3feeeb0
+// 0x42fa700
 
 void Characters_AmmoWeapon__OnUse(Characters_AmmoWeapon_o *__this,MethodInfo *method)
 
@@ -133,7 +134,7 @@ void Characters_AmmoWeapon__OnUse(Characters_AmmoWeapon_o *__this,MethodInfo *me
 
 // Characters.AmmoWeapon$$CanUse
 // il2cpp: bool Characters_AmmoWeapon__CanUse (Characters_AmmoWeapon_o* __this, const MethodInfo* method);
-// 0x3feeed0
+// 0x42fa720
 
 bool_conflict Characters_AmmoWeapon__CanUse(Characters_AmmoWeapon_o *__this,MethodInfo *method)
 
@@ -152,10 +153,9 @@ bool_conflict Characters_AmmoWeapon__CanUse(Characters_AmmoWeapon_o *__this,Meth
 
 // Characters.AmmoWeapon$$HasDurability
 // il2cpp: bool Characters_AmmoWeapon__HasDurability (Characters_AmmoWeapon_o* __this, const MethodInfo* method);
-// 0x3feef00
+// 0x42fa750
 
-bool_conflict
-Characters_AmmoWeapon__HasDurability(Characters_AmmoWeapon_o *__this,MethodInfo *method)
+bool_conflict Characters_AmmoWeapon__HasDurability(Characters_AmmoWeapon_o *__this,MethodInfo *method)
 
 {
   int iVar1;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.UI;
 
@@ -19,50 +26,50 @@ public class DebugUIHandlerIntField : DebugUIHandlerWidget
 	private DebugUI.IntField m_Field;
 
 	[Token(Token = "0x6000ECB")]
-	[Address(RVA = "0x48EF5A0", Offset = "0x48EF5A0", VA = "0x48EF5A0", Slot = "5")]
+	[Address(RVA = "0x4C14610", Offset = "0x4C14610", VA = "0x4C14610", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
 	[Token(Token = "0x6000ECC")]
-	[Address(RVA = "0x48EF700", Offset = "0x48EF700", VA = "0x48EF700", Slot = "6")]
+	[Address(RVA = "0x4C14770", Offset = "0x4C14770", VA = "0x4C14770", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000ECD")]
-	[Address(RVA = "0x48EF760", Offset = "0x48EF760", VA = "0x48EF760", Slot = "7")]
+	[Address(RVA = "0x4C147D0", Offset = "0x4C147D0", VA = "0x4C147D0", Slot = "7")]
 	public override void OnDeselection()
 	{
 	}
 
 	[Token(Token = "0x6000ECE")]
-	[Address(RVA = "0x48EF7C0", Offset = "0x48EF7C0", VA = "0x48EF7C0", Slot = "9")]
+	[Address(RVA = "0x4C14830", Offset = "0x4C14830", VA = "0x4C14830", Slot = "9")]
 	public override void OnIncrement(bool fast)
 	{
 	}
 
 	[Token(Token = "0x6000ECF")]
-	[Address(RVA = "0x48EF8D0", Offset = "0x48EF8D0", VA = "0x48EF8D0", Slot = "10")]
+	[Address(RVA = "0x4C14940", Offset = "0x4C14940", VA = "0x4C14940", Slot = "10")]
 	public override void OnDecrement(bool fast)
 	{
 	}
 
 	[Token(Token = "0x6000ED0")]
-	[Address(RVA = "0x48EF840", Offset = "0x48EF840", VA = "0x48EF840")]
+	[Address(RVA = "0x4C148B0", Offset = "0x4C148B0", VA = "0x4C148B0")]
 	private void ChangeValue(bool fast, int multiplier)
 	{
 	}
 
 	[Token(Token = "0x6000ED1")]
-	[Address(RVA = "0x48EF630", Offset = "0x48EF630", VA = "0x48EF630")]
+	[Address(RVA = "0x4C146A0", Offset = "0x4C146A0", VA = "0x4C146A0")]
 	private void UpdateValueLabel()
 	{
 	}
 
 	[Token(Token = "0x6000ED2")]
-	[Address(RVA = "0x48EF950", Offset = "0x48EF950", VA = "0x48EF950")]
+	[Address(RVA = "0x4C149C0", Offset = "0x4C149C0", VA = "0x4C149C0")]
 	public DebugUIHandlerIntField()
 	{
 	}

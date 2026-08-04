@@ -1,174 +1,181 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: TMPro.TMP_CharacterInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using Il2CppDummyDll;
 using UnityEngine;
 
 namespace TMPro;
 
-[Token(Token = "0x2000011")]
+[Token(Token = "0x2000027")]
 [DebuggerDisplay("Unicode '{character}'  ({((uint)character).ToString(\"X\")})")]
 public struct TMP_CharacterInfo
 {
-	[Token(Token = "0x400002F")]
+	[Token(Token = "0x4000123")]
 	[FieldOffset(Offset = "0x0")]
 	public char character;
 
-	[Token(Token = "0x4000030")]
+	[Token(Token = "0x4000124")]
 	[FieldOffset(Offset = "0x4")]
 	public int index;
 
-	[Token(Token = "0x4000031")]
+	[Token(Token = "0x4000125")]
 	[FieldOffset(Offset = "0x8")]
 	public int stringLength;
 
-	[Token(Token = "0x4000032")]
+	[Token(Token = "0x4000126")]
 	[FieldOffset(Offset = "0xC")]
 	public TMP_TextElementType elementType;
 
-	[Token(Token = "0x4000033")]
+	[Token(Token = "0x4000127")]
 	[FieldOffset(Offset = "0x10")]
 	public TMP_TextElement textElement;
 
-	[Token(Token = "0x4000034")]
+	[Token(Token = "0x4000128")]
 	[FieldOffset(Offset = "0x18")]
 	public TMP_FontAsset fontAsset;
 
-	[Token(Token = "0x4000035")]
+	[Token(Token = "0x4000129")]
 	[FieldOffset(Offset = "0x20")]
 	public TMP_SpriteAsset spriteAsset;
 
-	[Token(Token = "0x4000036")]
+	[Token(Token = "0x400012A")]
 	[FieldOffset(Offset = "0x28")]
 	public int spriteIndex;
 
-	[Token(Token = "0x4000037")]
+	[Token(Token = "0x400012B")]
 	[FieldOffset(Offset = "0x30")]
 	public Material material;
 
-	[Token(Token = "0x4000038")]
+	[Token(Token = "0x400012C")]
 	[FieldOffset(Offset = "0x38")]
 	public int materialReferenceIndex;
 
-	[Token(Token = "0x4000039")]
+	[Token(Token = "0x400012D")]
 	[FieldOffset(Offset = "0x3C")]
 	public bool isUsingAlternateTypeface;
 
-	[Token(Token = "0x400003A")]
+	[Token(Token = "0x400012E")]
 	[FieldOffset(Offset = "0x40")]
 	public float pointSize;
 
-	[Token(Token = "0x400003B")]
+	[Token(Token = "0x400012F")]
 	[FieldOffset(Offset = "0x44")]
 	public int lineNumber;
 
-	[Token(Token = "0x400003C")]
+	[Token(Token = "0x4000130")]
 	[FieldOffset(Offset = "0x48")]
 	public int pageNumber;
 
-	[Token(Token = "0x400003D")]
+	[Token(Token = "0x4000131")]
 	[FieldOffset(Offset = "0x4C")]
 	public int vertexIndex;
 
-	[Token(Token = "0x400003E")]
+	[Token(Token = "0x4000132")]
 	[FieldOffset(Offset = "0x50")]
 	public TMP_Vertex vertex_BL;
 
-	[Token(Token = "0x400003F")]
+	[Token(Token = "0x4000133")]
 	[FieldOffset(Offset = "0x78")]
 	public TMP_Vertex vertex_TL;
 
-	[Token(Token = "0x4000040")]
+	[Token(Token = "0x4000134")]
 	[FieldOffset(Offset = "0xA0")]
 	public TMP_Vertex vertex_TR;
 
-	[Token(Token = "0x4000041")]
+	[Token(Token = "0x4000135")]
 	[FieldOffset(Offset = "0xC8")]
 	public TMP_Vertex vertex_BR;
 
-	[Token(Token = "0x4000042")]
+	[Token(Token = "0x4000136")]
 	[FieldOffset(Offset = "0xF0")]
 	public Vector3 topLeft;
 
-	[Token(Token = "0x4000043")]
+	[Token(Token = "0x4000137")]
 	[FieldOffset(Offset = "0xFC")]
 	public Vector3 bottomLeft;
 
-	[Token(Token = "0x4000044")]
+	[Token(Token = "0x4000138")]
 	[FieldOffset(Offset = "0x108")]
 	public Vector3 topRight;
 
-	[Token(Token = "0x4000045")]
+	[Token(Token = "0x4000139")]
 	[FieldOffset(Offset = "0x114")]
 	public Vector3 bottomRight;
 
-	[Token(Token = "0x4000046")]
+	[Token(Token = "0x400013A")]
 	[FieldOffset(Offset = "0x120")]
 	public float origin;
 
-	[Token(Token = "0x4000047")]
+	[Token(Token = "0x400013B")]
 	[FieldOffset(Offset = "0x124")]
 	public float xAdvance;
 
-	[Token(Token = "0x4000048")]
+	[Token(Token = "0x400013C")]
 	[FieldOffset(Offset = "0x128")]
 	public float ascender;
 
-	[Token(Token = "0x4000049")]
+	[Token(Token = "0x400013D")]
 	[FieldOffset(Offset = "0x12C")]
 	public float baseLine;
 
-	[Token(Token = "0x400004A")]
+	[Token(Token = "0x400013E")]
 	[FieldOffset(Offset = "0x130")]
 	public float descender;
 
-	[Token(Token = "0x400004B")]
+	[Token(Token = "0x400013F")]
 	[FieldOffset(Offset = "0x134")]
 	internal float adjustedAscender;
 
-	[Token(Token = "0x400004C")]
+	[Token(Token = "0x4000140")]
 	[FieldOffset(Offset = "0x138")]
 	internal float adjustedDescender;
 
-	[Token(Token = "0x400004D")]
+	[Token(Token = "0x4000141")]
 	[FieldOffset(Offset = "0x13C")]
 	public float aspectRatio;
 
-	[Token(Token = "0x400004E")]
+	[Token(Token = "0x4000142")]
 	[FieldOffset(Offset = "0x140")]
 	public float scale;
 
-	[Token(Token = "0x400004F")]
+	[Token(Token = "0x4000143")]
 	[FieldOffset(Offset = "0x144")]
 	public Color32 color;
 
-	[Token(Token = "0x4000050")]
+	[Token(Token = "0x4000144")]
 	[FieldOffset(Offset = "0x148")]
 	public Color32 underlineColor;
 
-	[Token(Token = "0x4000051")]
+	[Token(Token = "0x4000145")]
 	[FieldOffset(Offset = "0x14C")]
 	public int underlineVertexIndex;
 
-	[Token(Token = "0x4000052")]
+	[Token(Token = "0x4000146")]
 	[FieldOffset(Offset = "0x150")]
 	public Color32 strikethroughColor;
 
-	[Token(Token = "0x4000053")]
+	[Token(Token = "0x4000147")]
 	[FieldOffset(Offset = "0x154")]
 	public int strikethroughVertexIndex;
 
-	[Token(Token = "0x4000054")]
+	[Token(Token = "0x4000148")]
 	[FieldOffset(Offset = "0x158")]
 	public Color32 highlightColor;
 
-	[Token(Token = "0x4000055")]
+	[Token(Token = "0x4000149")]
 	[FieldOffset(Offset = "0x15C")]
 	public HighlightState highlightState;
 
-	[Token(Token = "0x4000056")]
+	[Token(Token = "0x400014A")]
 	[FieldOffset(Offset = "0x170")]
 	public FontStyles style;
 
-	[Token(Token = "0x4000057")]
+	[Token(Token = "0x400014B")]
 	[FieldOffset(Offset = "0x174")]
 	public bool isVisible;
 }

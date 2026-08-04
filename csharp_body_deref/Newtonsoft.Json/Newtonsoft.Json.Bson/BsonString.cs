@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Bson.BsonString
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -10,14 +17,14 @@ internal class BsonString : BsonValue
 	public int ByteCount
 	{
 		[Token(Token = "0x6001018")]
-		[Address(RVA = "0x3B65190", Offset = "0x3B65190", VA = "0x3B65190")]
+		[Address(RVA = "0x3E5AAE0", Offset = "0x3E5AAE0", VA = "0x3E5AAE0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6001019")]
-		[Address(RVA = "0x3B651A0", Offset = "0x3B651A0", VA = "0x3B651A0")]
+		[Address(RVA = "0x3E5AAF0", Offset = "0x3E5AAF0", VA = "0x3E5AAF0")]
 		[CompilerGenerated]
 		set
 		{
@@ -28,7 +35,7 @@ internal class BsonString : BsonValue
 	public bool IncludeLength
 	{
 		[Token(Token = "0x600101A")]
-		[Address(RVA = "0x3B651B0", Offset = "0x3B651B0", VA = "0x3B651B0")]
+		[Address(RVA = "0x3E5AB00", Offset = "0x3E5AB00", VA = "0x3E5AB00")]
 		[CompilerGenerated]
 		get
 		{
@@ -37,7 +44,7 @@ internal class BsonString : BsonValue
 	}
 
 	[Token(Token = "0x600101B")]
-	[Address(RVA = "0x3B64C10", Offset = "0x3B64C10", VA = "0x3B64C10")]
+	[Address(RVA = "0x3E5A560", Offset = "0x3E5A560", VA = "0x3E5A560")]
 	public BsonString(object value, bool includeLength)
 	{
 	}

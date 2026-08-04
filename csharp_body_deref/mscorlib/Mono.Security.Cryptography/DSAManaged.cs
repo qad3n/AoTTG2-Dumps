@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Security.Cryptography.DSAManaged
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
@@ -64,7 +71,7 @@ internal class DSAManaged : DSA
 	private RandomNumberGenerator Random
 	{
 		[Token(Token = "0x60001A8")]
-		[Address(RVA = "0x4E062F0", Offset = "0x4E062F0", VA = "0x4E062F0")]
+		[Address(RVA = "0x3AEBE10", Offset = "0x3AEBE10", VA = "0x3AEBE10")]
 		get
 		{
 			return null;
@@ -75,7 +82,7 @@ internal class DSAManaged : DSA
 	public override int KeySize
 	{
 		[Token(Token = "0x60001A9")]
-		[Address(RVA = "0x4E06730", Offset = "0x4E06730", VA = "0x4E06730", Slot = "6")]
+		[Address(RVA = "0x3AEC250", Offset = "0x3AEC250", VA = "0x3AEC250", Slot = "6")]
 		get
 		{
 			return default(int);
@@ -86,7 +93,7 @@ internal class DSAManaged : DSA
 	public override string KeyExchangeAlgorithm
 	{
 		[Token(Token = "0x60001AA")]
-		[Address(RVA = "0x4E06750", Offset = "0x4E06750", VA = "0x4E06750", Slot = "10")]
+		[Address(RVA = "0x3AEC270", Offset = "0x3AEC270", VA = "0x3AEC270", Slot = "10")]
 		get
 		{
 			return null;
@@ -97,7 +104,7 @@ internal class DSAManaged : DSA
 	public bool PublicOnly
 	{
 		[Token(Token = "0x60001AB")]
-		[Address(RVA = "0x4E06760", Offset = "0x4E06760", VA = "0x4E06760")]
+		[Address(RVA = "0x3AEC280", Offset = "0x3AEC280", VA = "0x3AEC280")]
 		get
 		{
 			return default(bool);
@@ -108,7 +115,7 @@ internal class DSAManaged : DSA
 	public override string SignatureAlgorithm
 	{
 		[Token(Token = "0x60001AC")]
-		[Address(RVA = "0x4E067C0", Offset = "0x4E067C0", VA = "0x4E067C0", Slot = "9")]
+		[Address(RVA = "0x3AEC2E0", Offset = "0x3AEC2E0", VA = "0x3AEC2E0", Slot = "9")]
 		get
 		{
 			return null;
@@ -119,13 +126,13 @@ internal class DSAManaged : DSA
 	public event KeyGeneratedEventHandler KeyGenerated
 	{
 		[Token(Token = "0x60001B3")]
-		[Address(RVA = "0x4E08300", Offset = "0x4E08300", VA = "0x4E08300")]
+		[Address(RVA = "0x3AEDE20", Offset = "0x3AEDE20", VA = "0x3AEDE20")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60001B4")]
-		[Address(RVA = "0x4E08390", Offset = "0x4E08390", VA = "0x4E08390")]
+		[Address(RVA = "0x3AEDEB0", Offset = "0x3AEDEB0", VA = "0x3AEDEB0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -133,77 +140,77 @@ internal class DSAManaged : DSA
 	}
 
 	[Token(Token = "0x60001A2")]
-	[Address(RVA = "0x4E05600", Offset = "0x4E05600", VA = "0x4E05600")]
+	[Address(RVA = "0x3AEB120", Offset = "0x3AEB120", VA = "0x3AEB120")]
 	public DSAManaged(int dwKeySize)
 	{
 	}
 
 	[Token(Token = "0x60001A3")]
-	[Address(RVA = "0x4E056C0", Offset = "0x4E056C0", VA = "0x4E056C0", Slot = "1")]
+	[Address(RVA = "0x3AEB1E0", Offset = "0x3AEB1E0", VA = "0x3AEB1E0", Slot = "1")]
 	~DSAManaged()
 	{
 	}
 
 	[Token(Token = "0x60001A4")]
-	[Address(RVA = "0x4E05750", Offset = "0x4E05750", VA = "0x4E05750")]
+	[Address(RVA = "0x3AEB270", Offset = "0x3AEB270", VA = "0x3AEB270")]
 	private void Generate()
 	{
 	}
 
 	[Token(Token = "0x60001A5")]
-	[Address(RVA = "0x4E05F50", Offset = "0x4E05F50", VA = "0x4E05F50")]
+	[Address(RVA = "0x3AEBA70", Offset = "0x3AEBA70", VA = "0x3AEBA70")]
 	private void GenerateKeyPair()
 	{
 	}
 
 	[Token(Token = "0x60001A6")]
-	[Address(RVA = "0x4E06260", Offset = "0x4E06260", VA = "0x4E06260")]
+	[Address(RVA = "0x3AEBD80", Offset = "0x3AEBD80", VA = "0x3AEBD80")]
 	private void add(byte[] a, byte[] b, int value)
 	{
 	}
 
 	[Token(Token = "0x60001A7")]
-	[Address(RVA = "0x4E05790", Offset = "0x4E05790", VA = "0x4E05790")]
+	[Address(RVA = "0x3AEB2B0", Offset = "0x3AEB2B0", VA = "0x3AEB2B0")]
 	private void GenerateParams(int keyLength)
 	{
 	}
 
 	[Token(Token = "0x60001AD")]
-	[Address(RVA = "0x4E067F0", Offset = "0x4E067F0", VA = "0x4E067F0")]
+	[Address(RVA = "0x3AEC310", Offset = "0x3AEC310", VA = "0x3AEC310")]
 	private byte[] NormalizeArray(byte[] array)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001AE")]
-	[Address(RVA = "0x4E06880", Offset = "0x4E06880", VA = "0x4E06880", Slot = "33")]
+	[Address(RVA = "0x3AEC3A0", Offset = "0x3AEC3A0", VA = "0x3AEC3A0", Slot = "33")]
 	public override DSAParameters ExportParameters(bool includePrivateParameters)
 	{
 		return default(DSAParameters);
 	}
 
 	[Token(Token = "0x60001AF")]
-	[Address(RVA = "0x4E06F40", Offset = "0x4E06F40", VA = "0x4E06F40", Slot = "34")]
+	[Address(RVA = "0x3AECA60", Offset = "0x3AECA60", VA = "0x3AECA60", Slot = "34")]
 	public override void ImportParameters(DSAParameters parameters)
 	{
 	}
 
 	[Token(Token = "0x60001B0")]
-	[Address(RVA = "0x4E07310", Offset = "0x4E07310", VA = "0x4E07310", Slot = "25")]
+	[Address(RVA = "0x3AECE30", Offset = "0x3AECE30", VA = "0x3AECE30", Slot = "25")]
 	public override byte[] CreateSignature(byte[] rgbHash)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001B1")]
-	[Address(RVA = "0x4E07790", Offset = "0x4E07790", VA = "0x4E07790", Slot = "26")]
+	[Address(RVA = "0x3AED2B0", Offset = "0x3AED2B0", VA = "0x3AED2B0", Slot = "26")]
 	public override bool VerifySignature(byte[] rgbHash, byte[] rgbSignature)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001B2")]
-	[Address(RVA = "0x4E07ED0", Offset = "0x4E07ED0", VA = "0x4E07ED0", Slot = "5")]
+	[Address(RVA = "0x3AED9F0", Offset = "0x3AED9F0", VA = "0x3AED9F0", Slot = "5")]
 	protected override void Dispose(bool disposing)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Reflection.RuntimePropertyInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Globalization;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -45,7 +52,7 @@ internal class RuntimePropertyInfo : PropertyInfo, ISerializable
 	internal BindingFlags BindingFlags
 	{
 		[Token(Token = "0x60026F6")]
-		[Address(RVA = "0x4F00660", Offset = "0x4F00660", VA = "0x4F00660")]
+		[Address(RVA = "0x3BE6180", Offset = "0x3BE6180", VA = "0x3BE6180")]
 		get
 		{
 			return default(BindingFlags);
@@ -56,7 +63,7 @@ internal class RuntimePropertyInfo : PropertyInfo, ISerializable
 	public override Module Module
 	{
 		[Token(Token = "0x60026F7")]
-		[Address(RVA = "0x4F00670", Offset = "0x4F00670", VA = "0x4F00670", Slot = "11")]
+		[Address(RVA = "0x3BE6190", Offset = "0x3BE6190", VA = "0x3BE6190", Slot = "11")]
 		get
 		{
 			return null;
@@ -67,7 +74,7 @@ internal class RuntimePropertyInfo : PropertyInfo, ISerializable
 	private System.RuntimeType ReflectedTypeInternal
 	{
 		[Token(Token = "0x60026F9")]
-		[Address(RVA = "0x4F007E0", Offset = "0x4F007E0", VA = "0x4F007E0")]
+		[Address(RVA = "0x3BE6300", Offset = "0x3BE6300", VA = "0x3BE6300")]
 		get
 		{
 			return null;
@@ -78,7 +85,7 @@ internal class RuntimePropertyInfo : PropertyInfo, ISerializable
 	public override PropertyAttributes Attributes
 	{
 		[Token(Token = "0x6002700")]
-		[Address(RVA = "0x4F00B50", Offset = "0x4F00B50", VA = "0x4F00B50", Slot = "18")]
+		[Address(RVA = "0x3BE6670", Offset = "0x3BE6670", VA = "0x3BE6670", Slot = "18")]
 		get
 		{
 			return default(PropertyAttributes);
@@ -89,7 +96,7 @@ internal class RuntimePropertyInfo : PropertyInfo, ISerializable
 	public override bool CanRead
 	{
 		[Token(Token = "0x6002701")]
-		[Address(RVA = "0x4F00B80", Offset = "0x4F00B80", VA = "0x4F00B80", Slot = "20")]
+		[Address(RVA = "0x3BE66A0", Offset = "0x3BE66A0", VA = "0x3BE66A0", Slot = "20")]
 		get
 		{
 			return default(bool);
@@ -100,7 +107,7 @@ internal class RuntimePropertyInfo : PropertyInfo, ISerializable
 	public override bool CanWrite
 	{
 		[Token(Token = "0x6002702")]
-		[Address(RVA = "0x4F00BB0", Offset = "0x4F00BB0", VA = "0x4F00BB0", Slot = "21")]
+		[Address(RVA = "0x3BE66D0", Offset = "0x3BE66D0", VA = "0x3BE66D0", Slot = "21")]
 		get
 		{
 			return default(bool);
@@ -111,7 +118,7 @@ internal class RuntimePropertyInfo : PropertyInfo, ISerializable
 	public override Type PropertyType
 	{
 		[Token(Token = "0x6002703")]
-		[Address(RVA = "0x4F00BE0", Offset = "0x4F00BE0", VA = "0x4F00BE0", Slot = "16")]
+		[Address(RVA = "0x3BE6700", Offset = "0x3BE6700", VA = "0x3BE6700", Slot = "16")]
 		get
 		{
 			return null;
@@ -122,7 +129,7 @@ internal class RuntimePropertyInfo : PropertyInfo, ISerializable
 	public override Type ReflectedType
 	{
 		[Token(Token = "0x6002704")]
-		[Address(RVA = "0x4F00CA0", Offset = "0x4F00CA0", VA = "0x4F00CA0", Slot = "10")]
+		[Address(RVA = "0x3BE67C0", Offset = "0x3BE67C0", VA = "0x3BE67C0", Slot = "10")]
 		get
 		{
 			return null;
@@ -133,7 +140,7 @@ internal class RuntimePropertyInfo : PropertyInfo, ISerializable
 	public override Type DeclaringType
 	{
 		[Token(Token = "0x6002705")]
-		[Address(RVA = "0x4F00CD0", Offset = "0x4F00CD0", VA = "0x4F00CD0", Slot = "9")]
+		[Address(RVA = "0x3BE67F0", Offset = "0x3BE67F0", VA = "0x3BE67F0", Slot = "9")]
 		get
 		{
 			return null;
@@ -144,7 +151,7 @@ internal class RuntimePropertyInfo : PropertyInfo, ISerializable
 	public override string Name
 	{
 		[Token(Token = "0x6002706")]
-		[Address(RVA = "0x4F00D00", Offset = "0x4F00D00", VA = "0x4F00D00", Slot = "8")]
+		[Address(RVA = "0x3BE6820", Offset = "0x3BE6820", VA = "0x3BE6820", Slot = "8")]
 		get
 		{
 			return null;
@@ -155,7 +162,7 @@ internal class RuntimePropertyInfo : PropertyInfo, ISerializable
 	public override int MetadataToken
 	{
 		[Token(Token = "0x6002712")]
-		[Address(RVA = "0x4F015A0", Offset = "0x4F015A0", VA = "0x4F015A0", Slot = "15")]
+		[Address(RVA = "0x3BE70C0", Offset = "0x3BE70C0", VA = "0x3BE70C0", Slot = "15")]
 		get
 		{
 			return default(int);
@@ -164,93 +171,93 @@ internal class RuntimePropertyInfo : PropertyInfo, ISerializable
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60026F5")]
-	[Address(RVA = "0x4F00650", Offset = "0x4F00650", VA = "0x4F00650")]
+	[Address(RVA = "0x3BE6170", Offset = "0x3BE6170", VA = "0x3BE6170")]
 	internal static extern void get_property_info(System.Reflection.RuntimePropertyInfo prop, ref System.Reflection.MonoPropertyInfo info, System.Reflection.PInfo req_info);
 
 	[Token(Token = "0x60026F8")]
-	[Address(RVA = "0x4F00770", Offset = "0x4F00770", VA = "0x4F00770")]
+	[Address(RVA = "0x3BE6290", Offset = "0x3BE6290", VA = "0x3BE6290")]
 	internal System.RuntimeType GetDeclaringTypeInternal()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60026FA")]
-	[Address(RVA = "0x4F006F0", Offset = "0x4F006F0", VA = "0x4F006F0")]
+	[Address(RVA = "0x3BE6210", Offset = "0x3BE6210", VA = "0x3BE6210")]
 	internal System.Reflection.RuntimeModule GetRuntimeModule()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60026FB")]
-	[Address(RVA = "0x4F00850", Offset = "0x4F00850", VA = "0x4F00850", Slot = "3")]
+	[Address(RVA = "0x3BE6370", Offset = "0x3BE6370", VA = "0x3BE6370", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60026FC")]
-	[Address(RVA = "0x4F00860", Offset = "0x4F00860", VA = "0x4F00860")]
+	[Address(RVA = "0x3BE6380", Offset = "0x3BE6380", VA = "0x3BE6380")]
 	private string FormatNameAndSig(bool serialization)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60026FD")]
-	[Address(RVA = "0x4F009D0", Offset = "0x4F009D0", VA = "0x4F009D0", Slot = "31")]
+	[Address(RVA = "0x3BE64F0", Offset = "0x3BE64F0", VA = "0x3BE64F0", Slot = "31")]
 	public void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60026FE")]
-	[Address(RVA = "0x4F00B10", Offset = "0x4F00B10", VA = "0x4F00B10")]
+	[Address(RVA = "0x3BE6630", Offset = "0x3BE6630", VA = "0x3BE6630")]
 	internal string SerializationToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60026FF")]
-	[Address(RVA = "0x4F00B20", Offset = "0x4F00B20", VA = "0x4F00B20")]
+	[Address(RVA = "0x3BE6640", Offset = "0x3BE6640", VA = "0x3BE6640")]
 	private void CachePropertyInfo(System.Reflection.PInfo flags)
 	{
 	}
 
 	[Token(Token = "0x6002707")]
-	[Address(RVA = "0x4F00D30", Offset = "0x4F00D30", VA = "0x4F00D30", Slot = "24")]
+	[Address(RVA = "0x3BE6850", Offset = "0x3BE6850", VA = "0x3BE6850", Slot = "24")]
 	public override MethodInfo GetGetMethod(bool nonPublic)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002708")]
-	[Address(RVA = "0x4F00DA0", Offset = "0x4F00DA0", VA = "0x4F00DA0", Slot = "17")]
+	[Address(RVA = "0x3BE68C0", Offset = "0x3BE68C0", VA = "0x3BE68C0", Slot = "17")]
 	public override ParameterInfo[] GetIndexParameters()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002709")]
-	[Address(RVA = "0x4F00F90", Offset = "0x4F00F90", VA = "0x4F00F90", Slot = "26")]
+	[Address(RVA = "0x3BE6AB0", Offset = "0x3BE6AB0", VA = "0x3BE6AB0", Slot = "26")]
 	public override MethodInfo GetSetMethod(bool nonPublic)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600270A")]
-	[Address(RVA = "0x4F01000", Offset = "0x4F01000", VA = "0x4F01000", Slot = "12")]
+	[Address(RVA = "0x3BE6B20", Offset = "0x3BE6B20", VA = "0x3BE6B20", Slot = "12")]
 	public override bool IsDefined(Type attributeType, bool inherit)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600270B")]
-	[Address(RVA = "0x4F01060", Offset = "0x4F01060", VA = "0x4F01060", Slot = "13")]
+	[Address(RVA = "0x3BE6B80", Offset = "0x3BE6B80", VA = "0x3BE6B80", Slot = "13")]
 	public override object[] GetCustomAttributes(bool inherit)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600270C")]
-	[Address(RVA = "0x4F010B0", Offset = "0x4F010B0", VA = "0x4F010B0", Slot = "14")]
+	[Address(RVA = "0x3BE6BD0", Offset = "0x3BE6BD0", VA = "0x3BE6BD0", Slot = "14")]
 	public override object[] GetCustomAttributes(Type attributeType, bool inherit)
 	{
 		return null;
@@ -269,44 +276,44 @@ internal class RuntimePropertyInfo : PropertyInfo, ISerializable
 	}
 
 	[Token(Token = "0x600270F")]
-	[Address(RVA = "0x4F01110", Offset = "0x4F01110", VA = "0x4F01110", Slot = "27")]
+	[Address(RVA = "0x3BE6C30", Offset = "0x3BE6C30", VA = "0x3BE6C30", Slot = "27")]
 	public override object GetValue(object obj, object[] index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002710")]
-	[Address(RVA = "0x4F01140", Offset = "0x4F01140", VA = "0x4F01140", Slot = "28")]
+	[Address(RVA = "0x3BE6C60", Offset = "0x3BE6C60", VA = "0x3BE6C60", Slot = "28")]
 	public override object GetValue(object obj, BindingFlags invokeAttr, Binder binder, object[] index, CultureInfo culture)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002711")]
-	[Address(RVA = "0x4F01370", Offset = "0x4F01370", VA = "0x4F01370", Slot = "30")]
+	[Address(RVA = "0x3BE6E90", Offset = "0x3BE6E90", VA = "0x3BE6E90", Slot = "30")]
 	public override void SetValue(object obj, object value, BindingFlags invokeAttr, Binder binder, object[] index, CultureInfo culture)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6002713")]
-	[Address(RVA = "0x4F015B0", Offset = "0x4F015B0", VA = "0x4F015B0")]
+	[Address(RVA = "0x3BE70D0", Offset = "0x3BE70D0", VA = "0x3BE70D0")]
 	internal static extern int get_metadata_token(System.Reflection.RuntimePropertyInfo monoProperty);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6002714")]
-	[Address(RVA = "0x4F015C0", Offset = "0x4F015C0", VA = "0x4F015C0")]
+	[Address(RVA = "0x3BE70E0", Offset = "0x3BE70E0", VA = "0x3BE70E0")]
 	private static extern PropertyInfo internal_from_handle_type(IntPtr event_handle, IntPtr type_handle);
 
 	[Token(Token = "0x6002715")]
-	[Address(RVA = "0x4F015D0", Offset = "0x4F015D0", VA = "0x4F015D0")]
+	[Address(RVA = "0x3BE70F0", Offset = "0x3BE70F0", VA = "0x3BE70F0")]
 	internal static PropertyInfo GetPropertyFromHandle(Mono.RuntimePropertyHandle handle, RuntimeTypeHandle reflectedType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002716")]
-	[Address(RVA = "0x4F01660", Offset = "0x4F01660", VA = "0x4F01660")]
+	[Address(RVA = "0x3BE7180", Offset = "0x3BE7180", VA = "0x3BE7180")]
 	public RuntimePropertyInfo()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Reflection.LocalVariableInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -21,13 +28,13 @@ public class LocalVariableInfo
 	internal ushort position;
 
 	[Token(Token = "0x600261B")]
-	[Address(RVA = "0x4EF99F0", Offset = "0x4EF99F0", VA = "0x4EF99F0")]
+	[Address(RVA = "0x3BDF510", Offset = "0x3BDF510", VA = "0x3BDF510")]
 	protected LocalVariableInfo()
 	{
 	}
 
 	[Token(Token = "0x600261C")]
-	[Address(RVA = "0x4EF9A00", Offset = "0x4EF9A00", VA = "0x4EF9A00", Slot = "3")]
+	[Address(RVA = "0x3BDF520", Offset = "0x3BDF520", VA = "0x3BDF520", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

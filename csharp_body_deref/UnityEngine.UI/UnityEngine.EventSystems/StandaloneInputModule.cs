@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.EventSystems.StandaloneInputModule
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Serialization;
@@ -91,7 +98,7 @@ public class StandaloneInputModule : PointerInputModule
 	public InputMode inputMode
 	{
 		[Token(Token = "0x6000707")]
-		[Address(RVA = "0x4DD6E30", Offset = "0x4DD6E30", VA = "0x4DD6E30")]
+		[Address(RVA = "0x50FE780", Offset = "0x50FE780", VA = "0x50FE780")]
 		get
 		{
 			return default(InputMode);
@@ -103,13 +110,13 @@ public class StandaloneInputModule : PointerInputModule
 	public bool allowActivationOnMobileDevice
 	{
 		[Token(Token = "0x6000708")]
-		[Address(RVA = "0x4DD6E40", Offset = "0x4DD6E40", VA = "0x4DD6E40")]
+		[Address(RVA = "0x50FE790", Offset = "0x50FE790", VA = "0x50FE790")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000709")]
-		[Address(RVA = "0x4DD6E50", Offset = "0x4DD6E50", VA = "0x4DD6E50")]
+		[Address(RVA = "0x50FE7A0", Offset = "0x50FE7A0", VA = "0x50FE7A0")]
 		set
 		{
 		}
@@ -120,13 +127,13 @@ public class StandaloneInputModule : PointerInputModule
 	public bool forceModuleActive
 	{
 		[Token(Token = "0x600070A")]
-		[Address(RVA = "0x4DD6E60", Offset = "0x4DD6E60", VA = "0x4DD6E60")]
+		[Address(RVA = "0x50FE7B0", Offset = "0x50FE7B0", VA = "0x50FE7B0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600070B")]
-		[Address(RVA = "0x4DD6E70", Offset = "0x4DD6E70", VA = "0x4DD6E70")]
+		[Address(RVA = "0x50FE7C0", Offset = "0x50FE7C0", VA = "0x50FE7C0")]
 		set
 		{
 		}
@@ -136,13 +143,13 @@ public class StandaloneInputModule : PointerInputModule
 	public float inputActionsPerSecond
 	{
 		[Token(Token = "0x600070C")]
-		[Address(RVA = "0x4DD6E80", Offset = "0x4DD6E80", VA = "0x4DD6E80")]
+		[Address(RVA = "0x50FE7D0", Offset = "0x50FE7D0", VA = "0x50FE7D0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600070D")]
-		[Address(RVA = "0x4DD6E90", Offset = "0x4DD6E90", VA = "0x4DD6E90")]
+		[Address(RVA = "0x50FE7E0", Offset = "0x50FE7E0", VA = "0x50FE7E0")]
 		set
 		{
 		}
@@ -152,13 +159,13 @@ public class StandaloneInputModule : PointerInputModule
 	public float repeatDelay
 	{
 		[Token(Token = "0x600070E")]
-		[Address(RVA = "0x4DD6EA0", Offset = "0x4DD6EA0", VA = "0x4DD6EA0")]
+		[Address(RVA = "0x50FE7F0", Offset = "0x50FE7F0", VA = "0x50FE7F0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600070F")]
-		[Address(RVA = "0x4DD6EB0", Offset = "0x4DD6EB0", VA = "0x4DD6EB0")]
+		[Address(RVA = "0x50FE800", Offset = "0x50FE800", VA = "0x50FE800")]
 		set
 		{
 		}
@@ -168,13 +175,13 @@ public class StandaloneInputModule : PointerInputModule
 	public string horizontalAxis
 	{
 		[Token(Token = "0x6000710")]
-		[Address(RVA = "0x4DD6EC0", Offset = "0x4DD6EC0", VA = "0x4DD6EC0")]
+		[Address(RVA = "0x50FE810", Offset = "0x50FE810", VA = "0x50FE810")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000711")]
-		[Address(RVA = "0x4DD6ED0", Offset = "0x4DD6ED0", VA = "0x4DD6ED0")]
+		[Address(RVA = "0x50FE820", Offset = "0x50FE820", VA = "0x50FE820")]
 		set
 		{
 		}
@@ -184,13 +191,13 @@ public class StandaloneInputModule : PointerInputModule
 	public string verticalAxis
 	{
 		[Token(Token = "0x6000712")]
-		[Address(RVA = "0x4DD6EF0", Offset = "0x4DD6EF0", VA = "0x4DD6EF0")]
+		[Address(RVA = "0x50FE840", Offset = "0x50FE840", VA = "0x50FE840")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000713")]
-		[Address(RVA = "0x4DD6F00", Offset = "0x4DD6F00", VA = "0x4DD6F00")]
+		[Address(RVA = "0x50FE850", Offset = "0x50FE850", VA = "0x50FE850")]
 		set
 		{
 		}
@@ -200,13 +207,13 @@ public class StandaloneInputModule : PointerInputModule
 	public string submitButton
 	{
 		[Token(Token = "0x6000714")]
-		[Address(RVA = "0x4DD6F20", Offset = "0x4DD6F20", VA = "0x4DD6F20")]
+		[Address(RVA = "0x50FE870", Offset = "0x50FE870", VA = "0x50FE870")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000715")]
-		[Address(RVA = "0x4DD6F30", Offset = "0x4DD6F30", VA = "0x4DD6F30")]
+		[Address(RVA = "0x50FE880", Offset = "0x50FE880", VA = "0x50FE880")]
 		set
 		{
 		}
@@ -216,110 +223,110 @@ public class StandaloneInputModule : PointerInputModule
 	public string cancelButton
 	{
 		[Token(Token = "0x6000716")]
-		[Address(RVA = "0x4DD6F50", Offset = "0x4DD6F50", VA = "0x4DD6F50")]
+		[Address(RVA = "0x50FE8A0", Offset = "0x50FE8A0", VA = "0x50FE8A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000717")]
-		[Address(RVA = "0x4DD6F60", Offset = "0x4DD6F60", VA = "0x4DD6F60")]
+		[Address(RVA = "0x50FE8B0", Offset = "0x50FE8B0", VA = "0x50FE8B0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000706")]
-	[Address(RVA = "0x4DD6D50", Offset = "0x4DD6D50", VA = "0x4DD6D50")]
+	[Address(RVA = "0x50FE6A0", Offset = "0x50FE6A0", VA = "0x50FE6A0")]
 	protected StandaloneInputModule()
 	{
 	}
 
 	[Token(Token = "0x6000718")]
-	[Address(RVA = "0x4DD6F80", Offset = "0x4DD6F80", VA = "0x4DD6F80")]
+	[Address(RVA = "0x50FE8D0", Offset = "0x50FE8D0", VA = "0x50FE8D0")]
 	private bool ShouldIgnoreEventsOnNoFocus()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000719")]
-	[Address(RVA = "0x4DD6F90", Offset = "0x4DD6F90", VA = "0x4DD6F90", Slot = "24")]
+	[Address(RVA = "0x50FE8E0", Offset = "0x50FE8E0", VA = "0x50FE8E0", Slot = "24")]
 	public override void UpdateModule()
 	{
 	}
 
 	[Token(Token = "0x600071A")]
-	[Address(RVA = "0x4DD7080", Offset = "0x4DD7080", VA = "0x4DD7080")]
+	[Address(RVA = "0x50FE9D0", Offset = "0x50FE9D0", VA = "0x50FE9D0")]
 	private void ReleaseMouse(PointerEventData pointerEvent, GameObject currentOverGo)
 	{
 	}
 
 	[Token(Token = "0x600071B")]
-	[Address(RVA = "0x4DD7570", Offset = "0x4DD7570", VA = "0x4DD7570", Slot = "21")]
+	[Address(RVA = "0x50FEEC0", Offset = "0x50FEEC0", VA = "0x50FEEC0", Slot = "21")]
 	public override bool ShouldActivateModule()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600071C")]
-	[Address(RVA = "0x4DD7830", Offset = "0x4DD7830", VA = "0x4DD7830", Slot = "23")]
+	[Address(RVA = "0x50FF180", Offset = "0x50FF180", VA = "0x50FF180", Slot = "23")]
 	public override void ActivateModule()
 	{
 	}
 
 	[Token(Token = "0x600071D")]
-	[Address(RVA = "0x4DD7940", Offset = "0x4DD7940", VA = "0x4DD7940", Slot = "22")]
+	[Address(RVA = "0x50FF290", Offset = "0x50FF290", VA = "0x50FF290", Slot = "22")]
 	public override void DeactivateModule()
 	{
 	}
 
 	[Token(Token = "0x600071E")]
-	[Address(RVA = "0x4DD7950", Offset = "0x4DD7950", VA = "0x4DD7950", Slot = "17")]
+	[Address(RVA = "0x50FF2A0", Offset = "0x50FF2A0", VA = "0x50FF2A0", Slot = "17")]
 	public override void Process()
 	{
 	}
 
 	[Token(Token = "0x600071F")]
-	[Address(RVA = "0x4DD7B40", Offset = "0x4DD7B40", VA = "0x4DD7B40")]
+	[Address(RVA = "0x50FF490", Offset = "0x50FF490", VA = "0x50FF490")]
 	private bool ProcessTouchEvents()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000720")]
-	[Address(RVA = "0x4DD82A0", Offset = "0x4DD82A0", VA = "0x4DD82A0")]
+	[Address(RVA = "0x50FFBF0", Offset = "0x50FFBF0", VA = "0x50FFBF0")]
 	protected void ProcessTouchPress(PointerEventData pointerEvent, bool pressed, bool released)
 	{
 	}
 
 	[Token(Token = "0x6000721")]
-	[Address(RVA = "0x4DD8010", Offset = "0x4DD8010", VA = "0x4DD8010")]
+	[Address(RVA = "0x50FF960", Offset = "0x50FF960", VA = "0x50FF960")]
 	protected bool SendSubmitEventToSelectedObject()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000722")]
-	[Address(RVA = "0x4DD8C40", Offset = "0x4DD8C40", VA = "0x4DD8C40")]
+	[Address(RVA = "0x5100590", Offset = "0x5100590", VA = "0x5100590")]
 	private Vector2 GetRawMoveVector()
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x6000723")]
-	[Address(RVA = "0x4DD7D70", Offset = "0x4DD7D70", VA = "0x4DD7D70")]
+	[Address(RVA = "0x50FF6C0", Offset = "0x50FF6C0", VA = "0x50FF6C0")]
 	protected bool SendMoveEventToSelectedObject()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000724")]
-	[Address(RVA = "0x4DD7D60", Offset = "0x4DD7D60", VA = "0x4DD7D60")]
+	[Address(RVA = "0x50FF6B0", Offset = "0x50FF6B0", VA = "0x50FF6B0")]
 	protected void ProcessMouseEvent()
 	{
 	}
 
 	[Token(Token = "0x6000725")]
-	[Address(RVA = "0x4DD90E0", Offset = "0x4DD90E0", VA = "0x4DD90E0", Slot = "31")]
+	[Address(RVA = "0x5100A30", Offset = "0x5100A30", VA = "0x5100A30", Slot = "31")]
 	[Obsolete("This method is no longer checked, overriding it with return true does nothing!")]
 	protected virtual bool ForceAutoSelect()
 	{
@@ -327,26 +334,26 @@ public class StandaloneInputModule : PointerInputModule
 	}
 
 	[Token(Token = "0x6000726")]
-	[Address(RVA = "0x4DD8DF0", Offset = "0x4DD8DF0", VA = "0x4DD8DF0")]
+	[Address(RVA = "0x5100740", Offset = "0x5100740", VA = "0x5100740")]
 	protected void ProcessMouseEvent(int id)
 	{
 	}
 
 	[Token(Token = "0x6000727")]
-	[Address(RVA = "0x4DD79F0", Offset = "0x4DD79F0", VA = "0x4DD79F0")]
+	[Address(RVA = "0x50FF340", Offset = "0x50FF340", VA = "0x50FF340")]
 	protected bool SendUpdateEventToSelectedObject()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000728")]
-	[Address(RVA = "0x4DD90F0", Offset = "0x4DD90F0", VA = "0x4DD90F0")]
+	[Address(RVA = "0x5100A40", Offset = "0x5100A40", VA = "0x5100A40")]
 	protected void ProcessMousePress(MouseButtonEventData data)
 	{
 	}
 
 	[Token(Token = "0x6000729")]
-	[Address(RVA = "0x4DD9600", Offset = "0x4DD9600", VA = "0x4DD9600")]
+	[Address(RVA = "0x5100F50", Offset = "0x5100F50", VA = "0x5100F50")]
 	protected GameObject GetCurrentFocusedGameObject()
 	{
 		return null;

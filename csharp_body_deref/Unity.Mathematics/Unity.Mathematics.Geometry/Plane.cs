@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.Mathematics.Geometry.Plane
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -20,13 +27,13 @@ internal struct Plane
 	public float3 Normal
 	{
 		[Token(Token = "0x6002470")]
-		[Address(RVA = "0x4779290", Offset = "0x4779290", VA = "0x4779290")]
+		[Address(RVA = "0x4A884F0", Offset = "0x4A884F0", VA = "0x4A884F0")]
 		get
 		{
 			return default(float3);
 		}
 		[Token(Token = "0x6002471")]
-		[Address(RVA = "0x47792A0", Offset = "0x47792A0", VA = "0x47792A0")]
+		[Address(RVA = "0x4A88500", Offset = "0x4A88500", VA = "0x4A88500")]
 		set
 		{
 		}
@@ -36,13 +43,13 @@ internal struct Plane
 	public float Distance
 	{
 		[Token(Token = "0x6002472")]
-		[Address(RVA = "0x47792C0", Offset = "0x47792C0", VA = "0x47792C0")]
+		[Address(RVA = "0x4A88520", Offset = "0x4A88520", VA = "0x4A88520")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6002473")]
-		[Address(RVA = "0x47792D0", Offset = "0x47792D0", VA = "0x47792D0")]
+		[Address(RVA = "0x4A88530", Offset = "0x4A88530", VA = "0x4A88530")]
 		set
 		{
 		}
@@ -52,7 +59,7 @@ internal struct Plane
 	public Plane Flipped
 	{
 		[Token(Token = "0x6002478")]
-		[Address(RVA = "0x4779520", Offset = "0x4779520", VA = "0x4779520")]
+		[Address(RVA = "0x4A88780", Offset = "0x4A88780", VA = "0x4A88780")]
 		get
 		{
 			return default(Plane);
@@ -61,35 +68,35 @@ internal struct Plane
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600246A")]
-	[Address(RVA = "0x4778D80", Offset = "0x4778D80", VA = "0x4778D80")]
+	[Address(RVA = "0x4A87FE0", Offset = "0x4A87FE0", VA = "0x4A87FE0")]
 	public Plane(float coefficientA, float coefficientB, float coefficientC, float coefficientD)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600246B")]
-	[Address(RVA = "0x4778E70", Offset = "0x4778E70", VA = "0x4778E70")]
+	[Address(RVA = "0x4A880D0", Offset = "0x4A880D0", VA = "0x4A880D0")]
 	public Plane(float3 normal, float distance)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600246C")]
-	[Address(RVA = "0x4778F60", Offset = "0x4778F60", VA = "0x4778F60")]
+	[Address(RVA = "0x4A881C0", Offset = "0x4A881C0", VA = "0x4A881C0")]
 	public Plane(float3 normal, float3 pointInPlane)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600246D")]
-	[Address(RVA = "0x47790C0", Offset = "0x47790C0", VA = "0x47790C0")]
+	[Address(RVA = "0x4A88320", Offset = "0x4A88320", VA = "0x4A88320")]
 	public Plane(float3 vector1InPlane, float3 vector2InPlane, float3 pointInPlane)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600246E")]
-	[Address(RVA = "0x4779250", Offset = "0x4779250", VA = "0x4779250")]
+	[Address(RVA = "0x4A884B0", Offset = "0x4A884B0", VA = "0x4A884B0")]
 	public static Plane CreateFromUnitNormalAndDistance(float3 unitNormal, float distance)
 	{
 		return default(Plane);
@@ -97,7 +104,7 @@ internal struct Plane
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600246F")]
-	[Address(RVA = "0x4779260", Offset = "0x4779260", VA = "0x4779260")]
+	[Address(RVA = "0x4A884C0", Offset = "0x4A884C0", VA = "0x4A884C0")]
 	public static Plane CreateFromUnitNormalAndPointInPlane(float3 unitNormal, float3 pointInPlane)
 	{
 		return default(Plane);
@@ -105,7 +112,7 @@ internal struct Plane
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002474")]
-	[Address(RVA = "0x47792E0", Offset = "0x47792E0", VA = "0x47792E0")]
+	[Address(RVA = "0x4A88540", Offset = "0x4A88540", VA = "0x4A88540")]
 	public static Plane Normalize(Plane plane)
 	{
 		return default(Plane);
@@ -113,7 +120,7 @@ internal struct Plane
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002475")]
-	[Address(RVA = "0x47793C0", Offset = "0x47793C0", VA = "0x47793C0")]
+	[Address(RVA = "0x4A88620", Offset = "0x4A88620", VA = "0x4A88620")]
 	public static float4 Normalize(float4 planeCoefficients)
 	{
 		return default(float4);
@@ -121,7 +128,7 @@ internal struct Plane
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002476")]
-	[Address(RVA = "0x47794A0", Offset = "0x47794A0", VA = "0x47794A0")]
+	[Address(RVA = "0x4A88700", Offset = "0x4A88700", VA = "0x4A88700")]
 	public float SignedDistanceToPoint(float3 point)
 	{
 		return default(float);
@@ -129,7 +136,7 @@ internal struct Plane
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002477")]
-	[Address(RVA = "0x47794D0", Offset = "0x47794D0", VA = "0x47794D0")]
+	[Address(RVA = "0x4A88730", Offset = "0x4A88730", VA = "0x4A88730")]
 	public float3 Projection(float3 point)
 	{
 		return default(float3);
@@ -137,14 +144,14 @@ internal struct Plane
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6002479")]
-	[Address(RVA = "0x4779540", Offset = "0x4779540", VA = "0x4779540")]
+	[Address(RVA = "0x4A887A0", Offset = "0x4A887A0", VA = "0x4A887A0")]
 	public static implicit operator float4(Plane plane)
 	{
 		return default(float4);
 	}
 
 	[Token(Token = "0x600247A")]
-	[Address(RVA = "0x4779550", Offset = "0x4779550", VA = "0x4779550")]
+	[Address(RVA = "0x4A887B0", Offset = "0x4A887B0", VA = "0x4A887B0")]
 	[Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
 	private void CheckPlaneIsNormalized()
 	{

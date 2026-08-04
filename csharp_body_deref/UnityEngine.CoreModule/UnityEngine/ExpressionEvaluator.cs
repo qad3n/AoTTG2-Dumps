@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.ExpressionEvaluator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 using UnityEngine.Scripting.APIUpdating;
@@ -20,7 +27,7 @@ public class ExpressionEvaluator
 		internal readonly bool hasVariables;
 
 		[Token(Token = "0x600024C")]
-		[Address(RVA = "0x4A93D40", Offset = "0x4A93D40", VA = "0x4A93D40")]
+		[Address(RVA = "0x4DBB560", Offset = "0x4DBB560", VA = "0x4DBB560")]
 		internal Expression(string expression)
 		{
 		}
@@ -44,34 +51,34 @@ public class ExpressionEvaluator
 		private ulong state;
 
 		[Token(Token = "0x600024E")]
-		[Address(RVA = "0x4A93CD0", Offset = "0x4A93CD0", VA = "0x4A93CD0")]
+		[Address(RVA = "0x4DBB4F0", Offset = "0x4DBB4F0", VA = "0x4DBB4F0")]
 		public PcgRandom(ulong state = 0uL, ulong sequence = 0uL)
 		{
 		}
 
 		[Token(Token = "0x600024F")]
-		[Address(RVA = "0x4A93760", Offset = "0x4A93760", VA = "0x4A93760")]
+		[Address(RVA = "0x4DBAF80", Offset = "0x4DBAF80", VA = "0x4DBAF80")]
 		public uint GetUInt()
 		{
 			return default(uint);
 		}
 
 		[Token(Token = "0x6000250")]
-		[Address(RVA = "0x4A93E10", Offset = "0x4A93E10", VA = "0x4A93E10")]
+		[Address(RVA = "0x4DBB630", Offset = "0x4DBB630", VA = "0x4DBB630")]
 		private static uint RotateRight(uint v, int rot)
 		{
 			return default(uint);
 		}
 
 		[Token(Token = "0x6000251")]
-		[Address(RVA = "0x4A93DF0", Offset = "0x4A93DF0", VA = "0x4A93DF0")]
+		[Address(RVA = "0x4DBB610", Offset = "0x4DBB610", VA = "0x4DBB610")]
 		private static uint XshRr(ulong s)
 		{
 			return default(uint);
 		}
 
 		[Token(Token = "0x6000252")]
-		[Address(RVA = "0x4A93DD0", Offset = "0x4A93DD0", VA = "0x4A93DD0")]
+		[Address(RVA = "0x4DBB5F0", Offset = "0x4DBB5F0", VA = "0x4DBB5F0")]
 		private void Step()
 		{
 		}
@@ -143,7 +150,7 @@ public class ExpressionEvaluator
 		public readonly int inputs;
 
 		[Token(Token = "0x6000253")]
-		[Address(RVA = "0x4A93D00", Offset = "0x4A93D00", VA = "0x4A93D00")]
+		[Address(RVA = "0x4DBB520", Offset = "0x4DBB520", VA = "0x4DBB520")]
 		public Operator(Op op, int precedence, int inputs, Associativity associativity)
 		{
 		}
@@ -170,84 +177,84 @@ public class ExpressionEvaluator
 	}
 
 	[Token(Token = "0x600023E")]
-	[Address(RVA = "0x4A91780", Offset = "0x4A91780", VA = "0x4A91780")]
+	[Address(RVA = "0x4DB8FA0", Offset = "0x4DB8FA0", VA = "0x4DB8FA0")]
 	private static bool EvaluateDouble(string[] tokens, ref double value, int index, int count)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600023F")]
-	[Address(RVA = "0x4A924D0", Offset = "0x4A924D0", VA = "0x4A924D0")]
+	[Address(RVA = "0x4DB9CF0", Offset = "0x4DB9CF0", VA = "0x4DB9CF0")]
 	private static string[] InfixToRPN(string[] tokens)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000240")]
-	[Address(RVA = "0x4A92CA0", Offset = "0x4A92CA0", VA = "0x4A92CA0")]
+	[Address(RVA = "0x4DBA4C0", Offset = "0x4DBA4C0", VA = "0x4DBA4C0")]
 	private static bool NeedToPop(Stack<string> operatorStack, Operator newOperator)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000241")]
-	[Address(RVA = "0x4A92E40", Offset = "0x4A92E40", VA = "0x4A92E40")]
+	[Address(RVA = "0x4DBA660", Offset = "0x4DBA660", VA = "0x4DBA660")]
 	private static string[] ExpressionToTokens(string expression, out bool hasVariables)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000242")]
-	[Address(RVA = "0x4A91F50", Offset = "0x4A91F50", VA = "0x4A91F50")]
+	[Address(RVA = "0x4DB9770", Offset = "0x4DB9770", VA = "0x4DB9770")]
 	private static bool IsCommand(string token)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000243")]
-	[Address(RVA = "0x4A92480", Offset = "0x4A92480", VA = "0x4A92480")]
+	[Address(RVA = "0x4DB9CA0", Offset = "0x4DB9CA0", VA = "0x4DB9CA0")]
 	private static bool IsVariable(string token)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000244")]
-	[Address(RVA = "0x4A92B60", Offset = "0x4A92B60", VA = "0x4A92B60")]
+	[Address(RVA = "0x4DBA380", Offset = "0x4DBA380", VA = "0x4DBA380")]
 	private static bool IsDelayedFunction(string token)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000245")]
-	[Address(RVA = "0x4A91E10", Offset = "0x4A91E10", VA = "0x4A91E10")]
+	[Address(RVA = "0x4DB9630", Offset = "0x4DB9630", VA = "0x4DB9630")]
 	private static bool IsOperator(string token)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000246")]
-	[Address(RVA = "0x4A91EB0", Offset = "0x4A91EB0", VA = "0x4A91EB0")]
+	[Address(RVA = "0x4DB96D0", Offset = "0x4DB96D0", VA = "0x4DB96D0")]
 	private static Operator TokenToOperator(string token)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000247")]
-	[Address(RVA = "0x4A93360", Offset = "0x4A93360", VA = "0x4A93360")]
+	[Address(RVA = "0x4DBAB80", Offset = "0x4DBAB80", VA = "0x4DBAB80")]
 	private static string PreFormatExpression(string expression)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000248")]
-	[Address(RVA = "0x4A935A0", Offset = "0x4A935A0", VA = "0x4A935A0")]
+	[Address(RVA = "0x4DBADC0", Offset = "0x4DBADC0", VA = "0x4DBADC0")]
 	private static string[] FixUnaryOperators(string[] tokens)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000249")]
-	[Address(RVA = "0x4A92060", Offset = "0x4A92060", VA = "0x4A92060")]
+	[Address(RVA = "0x4DB9880", Offset = "0x4DB9880", VA = "0x4DB9880")]
 	private static double EvaluateOp(double[] values, Op op, int index, int count)
 	{
 		return default(double);

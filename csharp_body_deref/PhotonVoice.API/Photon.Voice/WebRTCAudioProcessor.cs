@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.WebRTCAudioProcessor
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/WebRTCAudioProcessor.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Threading;
@@ -138,7 +145,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public int AECStreamDelayMs
 	{
 		[Token(Token = "0x600032F")]
-		[Address(RVA = "0x3C3B2F0", Offset = "0x3C3B2F0", VA = "0x3C3B2F0")]
+		[Address(RVA = "0x3F30C40", Offset = "0x3F30C40", VA = "0x3F30C40")]
 		set
 		{
 		}
@@ -148,7 +155,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public bool AEC
 	{
 		[Token(Token = "0x6000330")]
-		[Address(RVA = "0x3C3B5A0", Offset = "0x3C3B5A0", VA = "0x3C3B5A0")]
+		[Address(RVA = "0x3F30EF0", Offset = "0x3F30EF0", VA = "0x3F30EF0")]
 		set
 		{
 		}
@@ -158,7 +165,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public bool AECHighPass
 	{
 		[Token(Token = "0x6000331")]
-		[Address(RVA = "0x3C3BD00", Offset = "0x3C3BD00", VA = "0x3C3BD00")]
+		[Address(RVA = "0x3F31650", Offset = "0x3F31650", VA = "0x3F31650")]
 		set
 		{
 		}
@@ -168,7 +175,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public bool AECMobile
 	{
 		[Token(Token = "0x6000332")]
-		[Address(RVA = "0x3C3BD20", Offset = "0x3C3BD20", VA = "0x3C3BD20")]
+		[Address(RVA = "0x3F31670", Offset = "0x3F31670", VA = "0x3F31670")]
 		set
 		{
 		}
@@ -178,7 +185,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public bool HighPass
 	{
 		[Token(Token = "0x6000333")]
-		[Address(RVA = "0x3C3BD60", Offset = "0x3C3BD60", VA = "0x3C3BD60")]
+		[Address(RVA = "0x3F316B0", Offset = "0x3F316B0", VA = "0x3F316B0")]
 		set
 		{
 		}
@@ -188,7 +195,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public bool NoiseSuppression
 	{
 		[Token(Token = "0x6000334")]
-		[Address(RVA = "0x3C3BD80", Offset = "0x3C3BD80", VA = "0x3C3BD80")]
+		[Address(RVA = "0x3F316D0", Offset = "0x3F316D0", VA = "0x3F316D0")]
 		set
 		{
 		}
@@ -198,7 +205,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public bool AGC
 	{
 		[Token(Token = "0x6000335")]
-		[Address(RVA = "0x3C3BDA0", Offset = "0x3C3BDA0", VA = "0x3C3BDA0")]
+		[Address(RVA = "0x3F316F0", Offset = "0x3F316F0", VA = "0x3F316F0")]
 		set
 		{
 		}
@@ -208,7 +215,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public int AGCCompressionGain
 	{
 		[Token(Token = "0x6000336")]
-		[Address(RVA = "0x3C3BDC0", Offset = "0x3C3BDC0", VA = "0x3C3BDC0")]
+		[Address(RVA = "0x3F31710", Offset = "0x3F31710", VA = "0x3F31710")]
 		set
 		{
 		}
@@ -218,7 +225,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public int AGCTargetLevel
 	{
 		[Token(Token = "0x6000337")]
-		[Address(RVA = "0x3C3BF50", Offset = "0x3C3BF50", VA = "0x3C3BF50")]
+		[Address(RVA = "0x3F318A0", Offset = "0x3F318A0", VA = "0x3F318A0")]
 		set
 		{
 		}
@@ -228,7 +235,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public bool AGC2
 	{
 		[Token(Token = "0x6000338")]
-		[Address(RVA = "0x3C3C0E0", Offset = "0x3C3C0E0", VA = "0x3C3C0E0")]
+		[Address(RVA = "0x3F31A30", Offset = "0x3F31A30", VA = "0x3F31A30")]
 		set
 		{
 		}
@@ -238,7 +245,7 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public bool VAD
 	{
 		[Token(Token = "0x6000339")]
-		[Address(RVA = "0x3C3C100", Offset = "0x3C3C100", VA = "0x3C3C100")]
+		[Address(RVA = "0x3F31A50", Offset = "0x3F31A50", VA = "0x3F31A50")]
 		set
 		{
 		}
@@ -248,58 +255,58 @@ public class WebRTCAudioProcessor : WebRTCAudioLib, IProcessor<short>, IDisposab
 	public bool Bypass
 	{
 		[Token(Token = "0x600033B")]
-		[Address(RVA = "0x3C3C300", Offset = "0x3C3C300", VA = "0x3C3C300")]
+		[Address(RVA = "0x3F31C50", Offset = "0x3F31C50", VA = "0x3F31C50")]
 		private get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600033A")]
-		[Address(RVA = "0x3C3C120", Offset = "0x3C3C120", VA = "0x3C3C120")]
+		[Address(RVA = "0x3F31A70", Offset = "0x3F31A70", VA = "0x3F31A70")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600033C")]
-	[Address(RVA = "0x3C3C310", Offset = "0x3C3C310", VA = "0x3C3C310")]
+	[Address(RVA = "0x3F31C60", Offset = "0x3F31C60", VA = "0x3F31C60")]
 	public WebRTCAudioProcessor(ILogger logger, int frameSize, int samplingRate, int channels, int reverseSamplingRate, int reverseChannels)
 	{
 	}
 
 	[Token(Token = "0x600033D")]
-	[Address(RVA = "0x3C3B5E0", Offset = "0x3C3B5E0", VA = "0x3C3B5E0")]
+	[Address(RVA = "0x3F30F30", Offset = "0x3F30F30", VA = "0x3F30F30")]
 	private void InitReverseStream()
 	{
 	}
 
 	[Token(Token = "0x600033E")]
-	[Address(RVA = "0x3C3CC20", Offset = "0x3C3CC20", VA = "0x3C3CC20", Slot = "4")]
+	[Address(RVA = "0x3F32570", Offset = "0x3F32570", VA = "0x3F32570", Slot = "4")]
 	public short[] Process(short[] buf)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600033F")]
-	[Address(RVA = "0x3C3D0E0", Offset = "0x3C3D0E0", VA = "0x3C3D0E0")]
+	[Address(RVA = "0x3F32A30", Offset = "0x3F32A30", VA = "0x3F32A30")]
 	public void OnAudioOutFrameFloat(float[] data)
 	{
 	}
 
 	[Token(Token = "0x6000340")]
-	[Address(RVA = "0x3C3D7D0", Offset = "0x3C3D7D0", VA = "0x3C3D7D0")]
+	[Address(RVA = "0x3F33120", Offset = "0x3F33120", VA = "0x3F33120")]
 	private void ReverseStreamThread()
 	{
 	}
 
 	[Token(Token = "0x6000341")]
-	[Address(RVA = "0x3C3B310", Offset = "0x3C3B310", VA = "0x3C3B310")]
+	[Address(RVA = "0x3F30C60", Offset = "0x3F30C60", VA = "0x3F30C60")]
 	private int setParam(Param param, int v)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000342")]
-	[Address(RVA = "0x3C3E030", Offset = "0x3C3E030", VA = "0x3C3E030", Slot = "5")]
+	[Address(RVA = "0x3F33980", Offset = "0x3F33980", VA = "0x3F33980", Slot = "5")]
 	public void Dispose()
 	{
 	}

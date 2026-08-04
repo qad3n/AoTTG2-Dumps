@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.PointerType
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
@@ -22,14 +29,14 @@ public static class PointerType
 	public static readonly string unknown;
 
 	[Token(Token = "0x6000BFC")]
-	[Address(RVA = "0x4D0FC80", Offset = "0x4D0FC80", VA = "0x4D0FC80")]
+	[Address(RVA = "0x50375B0", Offset = "0x50375B0", VA = "0x50375B0")]
 	internal static string GetPointerType(int pointerId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BFD")]
-	[Address(RVA = "0x4D0FD80", Offset = "0x4D0FD80", VA = "0x4D0FD80")]
+	[Address(RVA = "0x50376B0", Offset = "0x50376B0", VA = "0x50376B0")]
 	internal static bool IsDirectManipulationDevice(string pointerType)
 	{
 		return default(bool);

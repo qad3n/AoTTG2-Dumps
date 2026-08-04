@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Realtime.EnterRoomParams
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonRealtime/Code/LoadbalancingPeer.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using ExitGames.Client.Photon;
 using Il2CppDummyDll;
 
@@ -47,7 +54,7 @@ public class EnterRoomParams
 	public string[] ExpectedUsers;
 
 	[Token(Token = "0x600011E")]
-	[Address(RVA = "0x3BCC110", Offset = "0x3BCC110", VA = "0x3BCC110")]
+	[Address(RVA = "0x3EC1A60", Offset = "0x3EC1A60", VA = "0x3EC1A60")]
 	public EnterRoomParams()
 	{
 	}

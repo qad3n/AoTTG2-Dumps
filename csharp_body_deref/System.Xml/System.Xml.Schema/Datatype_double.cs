@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.Datatype_double
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -17,7 +24,7 @@ internal class Datatype_double : Datatype_anySimpleType
 	internal override FacetsChecker FacetsChecker
 	{
 		[Token(Token = "0x60010CC")]
-		[Address(RVA = "0x45210B0", Offset = "0x45210B0", VA = "0x45210B0", Slot = "18")]
+		[Address(RVA = "0x485E810", Offset = "0x485E810", VA = "0x485E810", Slot = "18")]
 		get
 		{
 			return null;
@@ -28,7 +35,7 @@ internal class Datatype_double : Datatype_anySimpleType
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x60010CD")]
-		[Address(RVA = "0x4521120", Offset = "0x4521120", VA = "0x4521120", Slot = "8")]
+		[Address(RVA = "0x485E880", Offset = "0x485E880", VA = "0x485E880", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -39,7 +46,7 @@ internal class Datatype_double : Datatype_anySimpleType
 	public override Type ValueType
 	{
 		[Token(Token = "0x60010CE")]
-		[Address(RVA = "0x4521130", Offset = "0x4521130", VA = "0x4521130", Slot = "4")]
+		[Address(RVA = "0x485E890", Offset = "0x485E890", VA = "0x485E890", Slot = "4")]
 		get
 		{
 			return null;
@@ -50,7 +57,7 @@ internal class Datatype_double : Datatype_anySimpleType
 	internal override Type ListValueType
 	{
 		[Token(Token = "0x60010CF")]
-		[Address(RVA = "0x45211A0", Offset = "0x45211A0", VA = "0x45211A0", Slot = "26")]
+		[Address(RVA = "0x485E900", Offset = "0x485E900", VA = "0x485E900", Slot = "26")]
 		get
 		{
 			return null;
@@ -61,7 +68,7 @@ internal class Datatype_double : Datatype_anySimpleType
 	internal override XmlSchemaWhiteSpace BuiltInWhitespaceFacet
 	{
 		[Token(Token = "0x60010D0")]
-		[Address(RVA = "0x4521210", Offset = "0x4521210", VA = "0x4521210", Slot = "19")]
+		[Address(RVA = "0x485E970", Offset = "0x485E970", VA = "0x485E970", Slot = "19")]
 		get
 		{
 			return default(XmlSchemaWhiteSpace);
@@ -72,7 +79,7 @@ internal class Datatype_double : Datatype_anySimpleType
 	internal override RestrictionFlags ValidRestrictionFlags
 	{
 		[Token(Token = "0x60010D1")]
-		[Address(RVA = "0x4521220", Offset = "0x4521220", VA = "0x4521220", Slot = "27")]
+		[Address(RVA = "0x485E980", Offset = "0x485E980", VA = "0x485E980", Slot = "27")]
 		get
 		{
 			return default(RestrictionFlags);
@@ -80,28 +87,28 @@ internal class Datatype_double : Datatype_anySimpleType
 	}
 
 	[Token(Token = "0x60010CB")]
-	[Address(RVA = "0x45210A0", Offset = "0x45210A0", VA = "0x45210A0", Slot = "25")]
+	[Address(RVA = "0x485E800", Offset = "0x485E800", VA = "0x485E800", Slot = "25")]
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60010D2")]
-	[Address(RVA = "0x4521230", Offset = "0x4521230", VA = "0x4521230", Slot = "14")]
+	[Address(RVA = "0x485E990", Offset = "0x485E990", VA = "0x485E990", Slot = "14")]
 	internal override int Compare(object value1, object value2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60010D3")]
-	[Address(RVA = "0x4521290", Offset = "0x4521290", VA = "0x4521290", Slot = "16")]
+	[Address(RVA = "0x485E9F0", Offset = "0x485E9F0", VA = "0x485E9F0", Slot = "16")]
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60010D4")]
-	[Address(RVA = "0x4518CD0", Offset = "0x4518CD0", VA = "0x4518CD0")]
+	[Address(RVA = "0x4856430", Offset = "0x4856430", VA = "0x4856430")]
 	public Datatype_double()
 	{
 	}

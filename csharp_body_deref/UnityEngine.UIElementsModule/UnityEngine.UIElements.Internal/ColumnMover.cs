@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Internal.ColumnMover
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -63,14 +70,14 @@ internal class ColumnMover : PointerManipulator
 	public ColumnLayout columnLayout
 	{
 		[Token(Token = "0x6002130")]
-		[Address(RVA = "0x4CAE270", Offset = "0x4CAE270", VA = "0x4CAE270")]
+		[Address(RVA = "0x4FD5BA0", Offset = "0x4FD5BA0", VA = "0x4FD5BA0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6002131")]
-		[Address(RVA = "0x4CAE280", Offset = "0x4CAE280", VA = "0x4CAE280")]
+		[Address(RVA = "0x4FD5BB0", Offset = "0x4FD5BB0", VA = "0x4FD5BB0")]
 		[CompilerGenerated]
 		set
 		{
@@ -81,13 +88,13 @@ internal class ColumnMover : PointerManipulator
 	public bool active
 	{
 		[Token(Token = "0x6002132")]
-		[Address(RVA = "0x4CAE290", Offset = "0x4CAE290", VA = "0x4CAE290")]
+		[Address(RVA = "0x4FD5BC0", Offset = "0x4FD5BC0", VA = "0x4FD5BC0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6002133")]
-		[Address(RVA = "0x4CAE2A0", Offset = "0x4CAE2A0", VA = "0x4CAE2A0")]
+		[Address(RVA = "0x4FD5BD0", Offset = "0x4FD5BD0", VA = "0x4FD5BD0")]
 		set
 		{
 		}
@@ -97,13 +104,13 @@ internal class ColumnMover : PointerManipulator
 	public bool moving
 	{
 		[Token(Token = "0x6002134")]
-		[Address(RVA = "0x4CAE2D0", Offset = "0x4CAE2D0", VA = "0x4CAE2D0")]
+		[Address(RVA = "0x4FD5C00", Offset = "0x4FD5C00", VA = "0x4FD5C00")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6002135")]
-		[Address(RVA = "0x4CAE2E0", Offset = "0x4CAE2E0", VA = "0x4CAE2E0")]
+		[Address(RVA = "0x4FD5C10", Offset = "0x4FD5C10", VA = "0x4FD5C10")]
 		set
 		{
 		}
@@ -113,13 +120,13 @@ internal class ColumnMover : PointerManipulator
 	public event Action<ColumnMover> activeChanged
 	{
 		[Token(Token = "0x6002136")]
-		[Address(RVA = "0x4CAE310", Offset = "0x4CAE310", VA = "0x4CAE310")]
+		[Address(RVA = "0x4FD5C40", Offset = "0x4FD5C40", VA = "0x4FD5C40")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6002137")]
-		[Address(RVA = "0x4CAE3C0", Offset = "0x4CAE3C0", VA = "0x4CAE3C0")]
+		[Address(RVA = "0x4FD5CF0", Offset = "0x4FD5CF0", VA = "0x4FD5CF0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -130,13 +137,13 @@ internal class ColumnMover : PointerManipulator
 	public event Action<ColumnMover> movingChanged
 	{
 		[Token(Token = "0x6002138")]
-		[Address(RVA = "0x4CAE470", Offset = "0x4CAE470", VA = "0x4CAE470")]
+		[Address(RVA = "0x4FD5DA0", Offset = "0x4FD5DA0", VA = "0x4FD5DA0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6002139")]
-		[Address(RVA = "0x4CAE520", Offset = "0x4CAE520", VA = "0x4CAE520")]
+		[Address(RVA = "0x4FD5E50", Offset = "0x4FD5E50", VA = "0x4FD5E50")]
 		[CompilerGenerated]
 		remove
 		{
@@ -144,140 +151,140 @@ internal class ColumnMover : PointerManipulator
 	}
 
 	[Token(Token = "0x600213A")]
-	[Address(RVA = "0x4CAE5D0", Offset = "0x4CAE5D0", VA = "0x4CAE5D0")]
+	[Address(RVA = "0x4FD5F00", Offset = "0x4FD5F00", VA = "0x4FD5F00")]
 	public ColumnMover()
 	{
 	}
 
 	[Token(Token = "0x600213B")]
-	[Address(RVA = "0x4CAE660", Offset = "0x4CAE660", VA = "0x4CAE660", Slot = "5")]
+	[Address(RVA = "0x4FD5F90", Offset = "0x4FD5F90", VA = "0x4FD5F90", Slot = "5")]
 	protected override void RegisterCallbacksOnTarget()
 	{
 	}
 
 	[Token(Token = "0x600213C")]
-	[Address(RVA = "0x4CAEB50", Offset = "0x4CAEB50", VA = "0x4CAEB50", Slot = "6")]
+	[Address(RVA = "0x4FD6480", Offset = "0x4FD6480", VA = "0x4FD6480", Slot = "6")]
 	protected override void UnregisterCallbacksFromTarget()
 	{
 	}
 
 	[Token(Token = "0x600213D")]
-	[Address(RVA = "0x4CAF040", Offset = "0x4CAF040", VA = "0x4CAF040")]
+	[Address(RVA = "0x4FD6970", Offset = "0x4FD6970", VA = "0x4FD6970")]
 	protected void OnMouseDown(MouseDownEvent evt)
 	{
 	}
 
 	[Token(Token = "0x600213E")]
-	[Address(RVA = "0x4CAF2D0", Offset = "0x4CAF2D0", VA = "0x4CAF2D0")]
+	[Address(RVA = "0x4FD6C00", Offset = "0x4FD6C00", VA = "0x4FD6C00")]
 	protected void OnMouseMove(MouseMoveEvent evt)
 	{
 	}
 
 	[Token(Token = "0x600213F")]
-	[Address(RVA = "0x4CAF430", Offset = "0x4CAF430", VA = "0x4CAF430")]
+	[Address(RVA = "0x4FD6D60", Offset = "0x4FD6D60", VA = "0x4FD6D60")]
 	protected void OnMouseUp(MouseUpEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6002140")]
-	[Address(RVA = "0x4CAF5C0", Offset = "0x4CAF5C0", VA = "0x4CAF5C0")]
+	[Address(RVA = "0x4FD6EF0", Offset = "0x4FD6EF0", VA = "0x4FD6EF0")]
 	private void OnMouseCaptureOut(MouseCaptureOutEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6002141")]
-	[Address(RVA = "0x4CAF700", Offset = "0x4CAF700", VA = "0x4CAF700")]
+	[Address(RVA = "0x4FD7030", Offset = "0x4FD7030", VA = "0x4FD7030")]
 	private void OnPointerDown(PointerDownEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6002142")]
-	[Address(RVA = "0x4CAF810", Offset = "0x4CAF810", VA = "0x4CAF810")]
+	[Address(RVA = "0x4FD7140", Offset = "0x4FD7140", VA = "0x4FD7140")]
 	private void OnPointerMove(PointerMoveEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6002143")]
-	[Address(RVA = "0x4CAF910", Offset = "0x4CAF910", VA = "0x4CAF910")]
+	[Address(RVA = "0x4FD7240", Offset = "0x4FD7240", VA = "0x4FD7240")]
 	private void OnPointerUp(PointerUpEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6002144")]
-	[Address(RVA = "0x4CAFA20", Offset = "0x4CAFA20", VA = "0x4CAFA20")]
+	[Address(RVA = "0x4FD7350", Offset = "0x4FD7350", VA = "0x4FD7350")]
 	private void OnPointerCancel(PointerCancelEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6002145")]
-	[Address(RVA = "0x4CAFB60", Offset = "0x4CAFB60", VA = "0x4CAFB60")]
+	[Address(RVA = "0x4FD7490", Offset = "0x4FD7490", VA = "0x4FD7490")]
 	private void OnPointerCaptureOut(PointerCaptureOutEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6002146")]
-	[Address(RVA = "0x4CAFB00", Offset = "0x4CAFB00", VA = "0x4CAFB00")]
+	[Address(RVA = "0x4FD7430", Offset = "0x4FD7430", VA = "0x4FD7430")]
 	private static bool IsNotMouseEvent(int pointerId)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002147")]
-	[Address(RVA = "0x4CAF630", Offset = "0x4CAF630", VA = "0x4CAF630")]
+	[Address(RVA = "0x4FD6F60", Offset = "0x4FD6F60", VA = "0x4FD6F60")]
 	protected void ProcessCancelEvent(EventBase evt, int pointerId)
 	{
 	}
 
 	[Token(Token = "0x6002148")]
-	[Address(RVA = "0x4CAFD80", Offset = "0x4CAFD80", VA = "0x4CAFD80")]
+	[Address(RVA = "0x4FD76B0", Offset = "0x4FD76B0", VA = "0x4FD76B0")]
 	private void OnKeyDown(KeyDownEvent e)
 	{
 	}
 
 	[Token(Token = "0x6002149")]
-	[Address(RVA = "0x4CAF0E0", Offset = "0x4CAF0E0", VA = "0x4CAF0E0")]
+	[Address(RVA = "0x4FD6A10", Offset = "0x4FD6A10", VA = "0x4FD6A10")]
 	private void ProcessDownEvent(EventBase evt, Vector2 localPosition, int pointerId)
 	{
 	}
 
 	[Token(Token = "0x600214A")]
-	[Address(RVA = "0x4CAF330", Offset = "0x4CAF330", VA = "0x4CAF330")]
+	[Address(RVA = "0x4FD6C60", Offset = "0x4FD6C60", VA = "0x4FD6C60")]
 	private void ProcessMoveEvent(EventBase e, Vector2 localPosition)
 	{
 	}
 
 	[Token(Token = "0x600214B")]
-	[Address(RVA = "0x4CAF4C0", Offset = "0x4CAF4C0", VA = "0x4CAF4C0")]
+	[Address(RVA = "0x4FD6DF0", Offset = "0x4FD6DF0", VA = "0x4FD6DF0")]
 	private void ProcessUpEvent(EventBase evt, Vector2 localPosition, int pointerId)
 	{
 	}
 
 	[Token(Token = "0x600214C")]
-	[Address(RVA = "0x4CAFDE0", Offset = "0x4CAFDE0", VA = "0x4CAFDE0")]
+	[Address(RVA = "0x4FD7710", Offset = "0x4FD7710", VA = "0x4FD7710")]
 	private void BeginDragMove(float pos)
 	{
 	}
 
 	[Token(Token = "0x600214D")]
-	[Address(RVA = "0x4CB0350", Offset = "0x4CB0350", VA = "0x4CB0350")]
+	[Address(RVA = "0x4FD7C80", Offset = "0x4FD7C80", VA = "0x4FD7C80")]
 	internal void DragMove(float pos)
 	{
 	}
 
 	[Token(Token = "0x600214E")]
-	[Address(RVA = "0x4CB0770", Offset = "0x4CB0770", VA = "0x4CB0770")]
+	[Address(RVA = "0x4FD80A0", Offset = "0x4FD80A0", VA = "0x4FD80A0")]
 	private void UpdatePreviewPosition()
 	{
 	}
 
 	[Token(Token = "0x600214F")]
-	[Address(RVA = "0x4CB0360", Offset = "0x4CB0360", VA = "0x4CB0360")]
+	[Address(RVA = "0x4FD7C90", Offset = "0x4FD7C90", VA = "0x4FD7C90")]
 	private void UpdateMoveLocation()
 	{
 	}
 
 	[Token(Token = "0x6002150")]
-	[Address(RVA = "0x4CAFC30", Offset = "0x4CAFC30", VA = "0x4CAFC30")]
+	[Address(RVA = "0x4FD7560", Offset = "0x4FD7560", VA = "0x4FD7560")]
 	private void EndDragMove(bool cancelled)
 	{
 	}

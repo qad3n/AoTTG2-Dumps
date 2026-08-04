@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.ParameterOverride
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -23,13 +30,13 @@ public abstract class ParameterOverride
 	}
 
 	[Token(Token = "0x60000BF")]
-	[Address(RVA = "0x4826250", Offset = "0x4826250", VA = "0x4826250", Slot = "6")]
+	[Address(RVA = "0x4B4B340", Offset = "0x4B4B340", VA = "0x4B4B340", Slot = "6")]
 	protected internal virtual void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60000C0")]
-	[Address(RVA = "0x4826260", Offset = "0x4826260", VA = "0x4826260", Slot = "7")]
+	[Address(RVA = "0x4B4B350", Offset = "0x4B4B350", VA = "0x4B4B350", Slot = "7")]
 	protected internal virtual void OnDisable()
 	{
 	}
@@ -38,7 +45,7 @@ public abstract class ParameterOverride
 	internal abstract void SetValue(ParameterOverride parameter);
 
 	[Token(Token = "0x60000C2")]
-	[Address(RVA = "0x4826270", Offset = "0x4826270", VA = "0x4826270")]
+	[Address(RVA = "0x4B4B360", Offset = "0x4B4B360", VA = "0x4B4B360")]
 	protected ParameterOverride()
 	{
 	}

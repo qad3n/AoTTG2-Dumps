@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.SerializationInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -69,7 +76,7 @@ public sealed class SerializationInfo
 	public string FullTypeName
 	{
 		[Token(Token = "0x6002008")]
-		[Address(RVA = "0x4EB9CC0", Offset = "0x4EB9CC0", VA = "0x4EB9CC0")]
+		[Address(RVA = "0x3B9F7E0", Offset = "0x3B9F7E0", VA = "0x3B9F7E0")]
 		get
 		{
 			return null;
@@ -80,7 +87,7 @@ public sealed class SerializationInfo
 	public string AssemblyName
 	{
 		[Token(Token = "0x6002009")]
-		[Address(RVA = "0x4EB9CD0", Offset = "0x4EB9CD0", VA = "0x4EB9CD0")]
+		[Address(RVA = "0x3B9F7F0", Offset = "0x3B9F7F0", VA = "0x3B9F7F0")]
 		get
 		{
 			return null;
@@ -91,7 +98,7 @@ public sealed class SerializationInfo
 	public int MemberCount
 	{
 		[Token(Token = "0x600200E")]
-		[Address(RVA = "0x4EB9EB0", Offset = "0x4EB9EB0", VA = "0x4EB9EB0")]
+		[Address(RVA = "0x3B9F9D0", Offset = "0x3B9F9D0", VA = "0x3B9F9D0")]
 		get
 		{
 			return default(int);
@@ -102,7 +109,7 @@ public sealed class SerializationInfo
 	public Type ObjectType
 	{
 		[Token(Token = "0x600200F")]
-		[Address(RVA = "0x4EB9EC0", Offset = "0x4EB9EC0", VA = "0x4EB9EC0")]
+		[Address(RVA = "0x3B9F9E0", Offset = "0x3B9F9E0", VA = "0x3B9F9E0")]
 		get
 		{
 			return null;
@@ -113,7 +120,7 @@ public sealed class SerializationInfo
 	public bool IsFullTypeNameSetExplicit
 	{
 		[Token(Token = "0x6002010")]
-		[Address(RVA = "0x4EB9ED0", Offset = "0x4EB9ED0", VA = "0x4EB9ED0")]
+		[Address(RVA = "0x3B9F9F0", Offset = "0x3B9F9F0", VA = "0x3B9F9F0")]
 		get
 		{
 			return default(bool);
@@ -124,7 +131,7 @@ public sealed class SerializationInfo
 	public bool IsAssemblyNameSetExplicit
 	{
 		[Token(Token = "0x6002011")]
-		[Address(RVA = "0x4EB9EE0", Offset = "0x4EB9EE0", VA = "0x4EB9EE0")]
+		[Address(RVA = "0x3B9FA00", Offset = "0x3B9FA00", VA = "0x3B9FA00")]
 		get
 		{
 			return default(bool);
@@ -132,147 +139,147 @@ public sealed class SerializationInfo
 	}
 
 	[Token(Token = "0x6002006")]
-	[Address(RVA = "0x4EB9A70", Offset = "0x4EB9A70", VA = "0x4EB9A70")]
+	[Address(RVA = "0x3B9F590", Offset = "0x3B9F590", VA = "0x3B9F590")]
 	[CLSCompliant(false)]
 	public SerializationInfo(Type type, IFormatterConverter converter)
 	{
 	}
 
 	[Token(Token = "0x6002007")]
-	[Address(RVA = "0x4EB9A80", Offset = "0x4EB9A80", VA = "0x4EB9A80")]
+	[Address(RVA = "0x3B9F5A0", Offset = "0x3B9F5A0", VA = "0x3B9F5A0")]
 	[CLSCompliant(false)]
 	public SerializationInfo(Type type, IFormatterConverter converter, bool requireSameTokenInPartialTrust)
 	{
 	}
 
 	[Token(Token = "0x600200A")]
-	[Address(RVA = "0x4EB8D90", Offset = "0x4EB8D90", VA = "0x4EB8D90")]
+	[Address(RVA = "0x3B9E8B0", Offset = "0x3B9E8B0", VA = "0x3B9E8B0")]
 	public void SetType(Type type)
 	{
 	}
 
 	[Token(Token = "0x600200B")]
-	[Address(RVA = "0x4EB9CF0", Offset = "0x4EB9CF0", VA = "0x4EB9CF0")]
+	[Address(RVA = "0x3B9F810", Offset = "0x3B9F810", VA = "0x3B9F810")]
 	private static bool Compare(byte[] a, byte[] b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600200C")]
-	[Address(RVA = "0x4EB9CE0", Offset = "0x4EB9CE0", VA = "0x4EB9CE0")]
+	[Address(RVA = "0x3B9F800", Offset = "0x3B9F800", VA = "0x3B9F800")]
 	internal static void DemandForUnsafeAssemblyNameAssignments(string originalAssemblyName, string newAssemblyName)
 	{
 	}
 
 	[Token(Token = "0x600200D")]
-	[Address(RVA = "0x4EB9D50", Offset = "0x4EB9D50", VA = "0x4EB9D50")]
+	[Address(RVA = "0x3B9F870", Offset = "0x3B9F870", VA = "0x3B9F870")]
 	internal static bool IsAssemblyNameAssignmentSafe(string originalAssemblyName, string newAssemblyName)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002012")]
-	[Address(RVA = "0x4EB9EF0", Offset = "0x4EB9EF0", VA = "0x4EB9EF0")]
+	[Address(RVA = "0x3B9FA10", Offset = "0x3B9FA10", VA = "0x3B9FA10")]
 	public SerializationInfoEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002013")]
-	[Address(RVA = "0x4EB9F60", Offset = "0x4EB9F60", VA = "0x4EB9F60")]
+	[Address(RVA = "0x3B9FA80", Offset = "0x3B9FA80", VA = "0x3B9FA80")]
 	private void ExpandArrays()
 	{
 	}
 
 	[Token(Token = "0x6002014")]
-	[Address(RVA = "0x4EB8D10", Offset = "0x4EB8D10", VA = "0x4EB8D10")]
+	[Address(RVA = "0x3B9E830", Offset = "0x3B9E830", VA = "0x3B9E830")]
 	public void AddValue(string name, object value, Type type)
 	{
 	}
 
 	[Token(Token = "0x6002015")]
-	[Address(RVA = "0x4EBA250", Offset = "0x4EBA250", VA = "0x4EBA250")]
+	[Address(RVA = "0x3B9FD70", Offset = "0x3B9FD70", VA = "0x3B9FD70")]
 	public void AddValue(string name, object value)
 	{
 	}
 
 	[Token(Token = "0x6002016")]
-	[Address(RVA = "0x4EBA2C0", Offset = "0x4EBA2C0", VA = "0x4EBA2C0")]
+	[Address(RVA = "0x3B9FDE0", Offset = "0x3B9FDE0", VA = "0x3B9FDE0")]
 	public void AddValue(string name, bool value)
 	{
 	}
 
 	[Token(Token = "0x6002017")]
-	[Address(RVA = "0x4EBA340", Offset = "0x4EBA340", VA = "0x4EBA340")]
+	[Address(RVA = "0x3B9FE60", Offset = "0x3B9FE60", VA = "0x3B9FE60")]
 	public void AddValue(string name, byte value)
 	{
 	}
 
 	[Token(Token = "0x6002018")]
-	[Address(RVA = "0x4EBA3C0", Offset = "0x4EBA3C0", VA = "0x4EBA3C0")]
+	[Address(RVA = "0x3B9FEE0", Offset = "0x3B9FEE0", VA = "0x3B9FEE0")]
 	public void AddValue(string name, short value)
 	{
 	}
 
 	[Token(Token = "0x6002019")]
-	[Address(RVA = "0x4EBA440", Offset = "0x4EBA440", VA = "0x4EBA440")]
+	[Address(RVA = "0x3B9FF60", Offset = "0x3B9FF60", VA = "0x3B9FF60")]
 	public void AddValue(string name, int value)
 	{
 	}
 
 	[Token(Token = "0x600201A")]
-	[Address(RVA = "0x4EBA4C0", Offset = "0x4EBA4C0", VA = "0x4EBA4C0")]
+	[Address(RVA = "0x3B9FFE0", Offset = "0x3B9FFE0", VA = "0x3B9FFE0")]
 	public void AddValue(string name, long value)
 	{
 	}
 
 	[Token(Token = "0x600201B")]
-	[Address(RVA = "0x4EBA540", Offset = "0x4EBA540", VA = "0x4EBA540")]
+	[Address(RVA = "0x3BA0060", Offset = "0x3BA0060", VA = "0x3BA0060")]
 	[CLSCompliant(false)]
 	public void AddValue(string name, ulong value)
 	{
 	}
 
 	[Token(Token = "0x600201C")]
-	[Address(RVA = "0x4EBA5C0", Offset = "0x4EBA5C0", VA = "0x4EBA5C0")]
+	[Address(RVA = "0x3BA00E0", Offset = "0x3BA00E0", VA = "0x3BA00E0")]
 	public void AddValue(string name, float value)
 	{
 	}
 
 	[Token(Token = "0x600201D")]
-	[Address(RVA = "0x4EBA640", Offset = "0x4EBA640", VA = "0x4EBA640")]
+	[Address(RVA = "0x3BA0160", Offset = "0x3BA0160", VA = "0x3BA0160")]
 	public void AddValue(string name, DateTime value)
 	{
 	}
 
 	[Token(Token = "0x600201E")]
-	[Address(RVA = "0x4EBA070", Offset = "0x4EBA070", VA = "0x4EBA070")]
+	[Address(RVA = "0x3B9FB90", Offset = "0x3B9FB90", VA = "0x3B9FB90")]
 	internal void AddValueInternal(string name, object value, Type type)
 	{
 	}
 
 	[Token(Token = "0x600201F")]
-	[Address(RVA = "0x4EB5AD0", Offset = "0x4EB5AD0", VA = "0x4EB5AD0")]
+	[Address(RVA = "0x3B9B5F0", Offset = "0x3B9B5F0", VA = "0x3B9B5F0")]
 	internal void UpdateValue(string name, object value, Type type)
 	{
 	}
 
 	[Token(Token = "0x6002020")]
-	[Address(RVA = "0x4EBA6E0", Offset = "0x4EBA6E0", VA = "0x4EBA6E0")]
+	[Address(RVA = "0x3BA0200", Offset = "0x3BA0200", VA = "0x3BA0200")]
 	private int FindElement(string name)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002021")]
-	[Address(RVA = "0x4EBA7A0", Offset = "0x4EBA7A0", VA = "0x4EBA7A0")]
+	[Address(RVA = "0x3BA02C0", Offset = "0x3BA02C0", VA = "0x3BA02C0")]
 	private object GetElement(string name, out Type foundType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002022")]
-	[Address(RVA = "0x4EBA8A0", Offset = "0x4EBA8A0", VA = "0x4EBA8A0")]
+	[Address(RVA = "0x3BA03C0", Offset = "0x3BA03C0", VA = "0x3BA03C0")]
 	[ComVisible(true)]
 	private object GetElementNoThrow(string name, out Type foundType)
 	{
@@ -280,14 +287,14 @@ public sealed class SerializationInfo
 	}
 
 	[Token(Token = "0x6002023")]
-	[Address(RVA = "0x4EB8980", Offset = "0x4EB8980", VA = "0x4EB8980")]
+	[Address(RVA = "0x3B9E4A0", Offset = "0x3B9E4A0", VA = "0x3B9E4A0")]
 	public object GetValue(string name, Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002024")]
-	[Address(RVA = "0x4EB8860", Offset = "0x4EB8860", VA = "0x4EB8860")]
+	[Address(RVA = "0x3B9E380", Offset = "0x3B9E380", VA = "0x3B9E380")]
 	[ComVisible(true)]
 	internal object GetValueNoThrow(string name, Type type)
 	{
@@ -295,35 +302,35 @@ public sealed class SerializationInfo
 	}
 
 	[Token(Token = "0x6002025")]
-	[Address(RVA = "0x4EBA920", Offset = "0x4EBA920", VA = "0x4EBA920")]
+	[Address(RVA = "0x3BA0440", Offset = "0x3BA0440", VA = "0x3BA0440")]
 	public bool GetBoolean(string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002026")]
-	[Address(RVA = "0x4EBAA70", Offset = "0x4EBAA70", VA = "0x4EBAA70")]
+	[Address(RVA = "0x3BA0590", Offset = "0x3BA0590", VA = "0x3BA0590")]
 	public int GetInt32(string name)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002027")]
-	[Address(RVA = "0x4EBABC0", Offset = "0x4EBABC0", VA = "0x4EBABC0")]
+	[Address(RVA = "0x3BA06E0", Offset = "0x3BA06E0", VA = "0x3BA06E0")]
 	public long GetInt64(string name)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6002028")]
-	[Address(RVA = "0x4EBAD10", Offset = "0x4EBAD10", VA = "0x4EBAD10")]
+	[Address(RVA = "0x3BA0830", Offset = "0x3BA0830", VA = "0x3BA0830")]
 	public float GetSingle(string name)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6002029")]
-	[Address(RVA = "0x4EBAE60", Offset = "0x4EBAE60", VA = "0x4EBAE60")]
+	[Address(RVA = "0x3BA0980", Offset = "0x3BA0980", VA = "0x3BA0980")]
 	public string GetString(string name)
 	{
 		return null;

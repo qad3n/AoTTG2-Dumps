@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.BaseVisualElementPanel
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -107,7 +114,7 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	internal UIElementsBridge uiElementsBridge
 	{
 		[Token(Token = "0x6000E5C")]
-		[Address(RVA = "0x4D26420", Offset = "0x4D26420", VA = "0x4D26420")]
+		[Address(RVA = "0x504DD50", Offset = "0x504DD50", VA = "0x504DD50")]
 		get
 		{
 			return null;
@@ -118,13 +125,13 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	internal float scale
 	{
 		[Token(Token = "0x6000E66")]
-		[Address(RVA = "0x4D26880", Offset = "0x4D26880", VA = "0x4D26880")]
+		[Address(RVA = "0x504E1B0", Offset = "0x504E1B0", VA = "0x504E1B0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000E67")]
-		[Address(RVA = "0x4D1C1B0", Offset = "0x4D1C1B0", VA = "0x4D1C1B0")]
+		[Address(RVA = "0x5043AE0", Offset = "0x5043AE0", VA = "0x5043AE0")]
 		set
 		{
 		}
@@ -134,7 +141,7 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	internal float pixelsPerPoint
 	{
 		[Token(Token = "0x6000E68")]
-		[Address(RVA = "0x4D268A0", Offset = "0x4D268A0", VA = "0x4D268A0")]
+		[Address(RVA = "0x504E1D0", Offset = "0x504E1D0", VA = "0x504E1D0")]
 		set
 		{
 		}
@@ -144,7 +151,7 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	public float scaledPixelsPerPoint
 	{
 		[Token(Token = "0x6000E69")]
-		[Address(RVA = "0x4D26890", Offset = "0x4D26890", VA = "0x4D26890")]
+		[Address(RVA = "0x504E1C0", Offset = "0x504E1C0", VA = "0x504E1C0")]
 		get
 		{
 			return default(float);
@@ -155,14 +162,14 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	public float referenceSpritePixelsPerUnit
 	{
 		[Token(Token = "0x6000E6A")]
-		[Address(RVA = "0x4D269A0", Offset = "0x4D269A0", VA = "0x4D269A0")]
+		[Address(RVA = "0x504E2D0", Offset = "0x504E2D0", VA = "0x504E2D0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000E6B")]
-		[Address(RVA = "0x4D269B0", Offset = "0x4D269B0", VA = "0x4D269B0")]
+		[Address(RVA = "0x504E2E0", Offset = "0x504E2E0", VA = "0x504E2E0")]
 		[CompilerGenerated]
 		set
 		{
@@ -173,14 +180,14 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	internal PanelClearSettings clearSettings
 	{
 		[Token(Token = "0x6000E6C")]
-		[Address(RVA = "0x4D269C0", Offset = "0x4D269C0", VA = "0x4D269C0")]
+		[Address(RVA = "0x504E2F0", Offset = "0x504E2F0", VA = "0x504E2F0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(PanelClearSettings);
 		}
 		[Token(Token = "0x6000E6D")]
-		[Address(RVA = "0x4D269E0", Offset = "0x4D269E0", VA = "0x4D269E0")]
+		[Address(RVA = "0x504E310", Offset = "0x504E310", VA = "0x504E310")]
 		[CompilerGenerated]
 		set
 		{
@@ -191,13 +198,13 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	internal uint vertexBudget
 	{
 		[Token(Token = "0x6000E6E")]
-		[Address(RVA = "0x4D26A00", Offset = "0x4D26A00", VA = "0x4D26A00")]
+		[Address(RVA = "0x504E330", Offset = "0x504E330", VA = "0x504E330")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x6000E6F")]
-		[Address(RVA = "0x4D1C350", Offset = "0x4D1C350", VA = "0x4D1C350")]
+		[Address(RVA = "0x5043C80", Offset = "0x5043C80", VA = "0x5043C80")]
 		set
 		{
 		}
@@ -207,14 +214,14 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	internal bool duringLayoutPhase
 	{
 		[Token(Token = "0x6000E70")]
-		[Address(RVA = "0x4D26A10", Offset = "0x4D26A10", VA = "0x4D26A10")]
+		[Address(RVA = "0x504E340", Offset = "0x504E340", VA = "0x504E340")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000E71")]
-		[Address(RVA = "0x4D26A20", Offset = "0x4D26A20", VA = "0x4D26A20")]
+		[Address(RVA = "0x504E350", Offset = "0x504E350", VA = "0x504E350")]
 		[CompilerGenerated]
 		set
 		{
@@ -239,14 +246,14 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	internal virtual RepaintData repaintData
 	{
 		[Token(Token = "0x6000E75")]
-		[Address(RVA = "0x4D26A30", Offset = "0x4D26A30", VA = "0x4D26A30", Slot = "33")]
+		[Address(RVA = "0x504E360", Offset = "0x504E360", VA = "0x504E360", Slot = "33")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000E76")]
-		[Address(RVA = "0x4D26A40", Offset = "0x4D26A40", VA = "0x4D26A40", Slot = "34")]
+		[Address(RVA = "0x504E370", Offset = "0x504E370", VA = "0x504E370", Slot = "34")]
 		[CompilerGenerated]
 		set
 		{
@@ -257,14 +264,14 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	internal virtual ICursorManager cursorManager
 	{
 		[Token(Token = "0x6000E77")]
-		[Address(RVA = "0x4D26A50", Offset = "0x4D26A50", VA = "0x4D26A50", Slot = "35")]
+		[Address(RVA = "0x504E380", Offset = "0x504E380", VA = "0x504E380", Slot = "35")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000E78")]
-		[Address(RVA = "0x4D26A60", Offset = "0x4D26A60", VA = "0x4D26A60", Slot = "36")]
+		[Address(RVA = "0x504E390", Offset = "0x504E390", VA = "0x504E390", Slot = "36")]
 		[CompilerGenerated]
 		set
 		{
@@ -275,14 +282,14 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	public ContextualMenuManager contextualMenuManager
 	{
 		[Token(Token = "0x6000E79")]
-		[Address(RVA = "0x4D26A80", Offset = "0x4D26A80", VA = "0x4D26A80", Slot = "37")]
+		[Address(RVA = "0x504E3B0", Offset = "0x504E3B0", VA = "0x504E3B0", Slot = "37")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000E7A")]
-		[Address(RVA = "0x4D26A90", Offset = "0x4D26A90", VA = "0x4D26A90")]
+		[Address(RVA = "0x504E3C0", Offset = "0x504E3C0", VA = "0x504E3C0")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -334,14 +341,14 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	internal bool disposed
 	{
 		[Token(Token = "0x6000E86")]
-		[Address(RVA = "0x4D26B60", Offset = "0x4D26B60", VA = "0x4D26B60")]
+		[Address(RVA = "0x504E490", Offset = "0x504E490", VA = "0x504E490")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000E87")]
-		[Address(RVA = "0x4D26B70", Offset = "0x4D26B70", VA = "0x4D26B70")]
+		[Address(RVA = "0x504E4A0", Offset = "0x504E4A0", VA = "0x504E4A0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -359,7 +366,7 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	internal virtual Shader standardWorldSpaceShader
 	{
 		[Token(Token = "0x6000E8E")]
-		[Address(RVA = "0x4D26D10", Offset = "0x4D26D10", VA = "0x4D26D10", Slot = "50")]
+		[Address(RVA = "0x504E640", Offset = "0x504E640", VA = "0x504E640", Slot = "50")]
 		get
 		{
 			return null;
@@ -379,13 +386,13 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	internal event Action<BaseVisualElementPanel> panelDisposed
 	{
 		[Token(Token = "0x6000E5A")]
-		[Address(RVA = "0x4D1F160", Offset = "0x4D1F160", VA = "0x4D1F160")]
+		[Address(RVA = "0x5046A90", Offset = "0x5046A90", VA = "0x5046A90")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000E5B")]
-		[Address(RVA = "0x4D1F460", Offset = "0x4D1F460", VA = "0x4D1F460")]
+		[Address(RVA = "0x5046D90", Offset = "0x5046D90", VA = "0x5046D90")]
 		[CompilerGenerated]
 		remove
 		{
@@ -396,13 +403,13 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	internal event Action standardShaderChanged
 	{
 		[Token(Token = "0x6000E8F")]
-		[Address(RVA = "0x4D26D20", Offset = "0x4D26D20", VA = "0x4D26D20")]
+		[Address(RVA = "0x504E650", Offset = "0x504E650", VA = "0x504E650")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000E90")]
-		[Address(RVA = "0x4D26DC0", Offset = "0x4D26DC0", VA = "0x4D26DC0")]
+		[Address(RVA = "0x504E6F0", Offset = "0x504E6F0", VA = "0x504E6F0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -413,13 +420,13 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	internal event Action standardWorldSpaceShaderChanged
 	{
 		[Token(Token = "0x6000E91")]
-		[Address(RVA = "0x4D26E60", Offset = "0x4D26E60", VA = "0x4D26E60")]
+		[Address(RVA = "0x504E790", Offset = "0x504E790", VA = "0x504E790")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000E92")]
-		[Address(RVA = "0x4D26F00", Offset = "0x4D26F00", VA = "0x4D26F00")]
+		[Address(RVA = "0x504E830", Offset = "0x504E830", VA = "0x504E830")]
 		[CompilerGenerated]
 		remove
 		{
@@ -430,13 +437,13 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	internal event Action atlasChanged
 	{
 		[Token(Token = "0x6000E93")]
-		[Address(RVA = "0x4D26FA0", Offset = "0x4D26FA0", VA = "0x4D26FA0")]
+		[Address(RVA = "0x504E8D0", Offset = "0x504E8D0", VA = "0x504E8D0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000E94")]
-		[Address(RVA = "0x4D27040", Offset = "0x4D27040", VA = "0x4D27040")]
+		[Address(RVA = "0x504E970", Offset = "0x504E970", VA = "0x504E970")]
 		[CompilerGenerated]
 		remove
 		{
@@ -447,13 +454,13 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	internal event HierarchyEvent hierarchyChanged
 	{
 		[Token(Token = "0x6000E99")]
-		[Address(RVA = "0x4D27120", Offset = "0x4D27120", VA = "0x4D27120")]
+		[Address(RVA = "0x504EA50", Offset = "0x504EA50", VA = "0x504EA50")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000E9A")]
-		[Address(RVA = "0x4D271C0", Offset = "0x4D271C0", VA = "0x4D271C0")]
+		[Address(RVA = "0x504EAF0", Offset = "0x504EAF0", VA = "0x504EAF0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -461,19 +468,19 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	}
 
 	[Token(Token = "0x6000E5D")]
-	[Address(RVA = "0x4D26480", Offset = "0x4D26480", VA = "0x4D26480")]
+	[Address(RVA = "0x504DDB0", Offset = "0x504DDB0", VA = "0x504DDB0")]
 	protected BaseVisualElementPanel()
 	{
 	}
 
 	[Token(Token = "0x6000E5E")]
-	[Address(RVA = "0x4D26650", Offset = "0x4D26650", VA = "0x4D26650", Slot = "9")]
+	[Address(RVA = "0x504DF80", Offset = "0x504DF80", VA = "0x504DF80", Slot = "9")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000E5F")]
-	[Address(RVA = "0x4D266C0", Offset = "0x4D266C0", VA = "0x4D266C0", Slot = "23")]
+	[Address(RVA = "0x504DFF0", Offset = "0x504DFF0", VA = "0x504DFF0", Slot = "23")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
@@ -500,7 +507,7 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	internal abstract void OnVersionChanged(VisualElement ele, VersionChangeType changeTypeFlag);
 
 	[Token(Token = "0x6000E7E")]
-	[Address(RVA = "0x4D26AB0", Offset = "0x4D26AB0", VA = "0x4D26AB0")]
+	[Address(RVA = "0x504E3E0", Offset = "0x504E3E0", VA = "0x504E3E0")]
 	internal void SendEvent(EventBase e, DispatchMode dispatchMode = DispatchMode.Default)
 	{
 	}
@@ -515,75 +522,75 @@ internal abstract class BaseVisualElementPanel : IPanel, IDisposable, IGroupBox
 	internal abstract IVisualTreeUpdater GetUpdater(VisualTreeUpdatePhase phase);
 
 	[Token(Token = "0x6000E89")]
-	[Address(RVA = "0x4D26B80", Offset = "0x4D26B80", VA = "0x4D26B80")]
+	[Address(RVA = "0x504E4B0", Offset = "0x504E4B0", VA = "0x504E4B0")]
 	internal VisualElement GetTopElementUnderPointer(int pointerId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E8A")]
-	[Address(RVA = "0x4D26BA0", Offset = "0x4D26BA0", VA = "0x4D26BA0")]
+	[Address(RVA = "0x504E4D0", Offset = "0x504E4D0", VA = "0x504E4D0")]
 	internal VisualElement RecomputeTopElementUnderPointer(int pointerId, Vector2 pointerPos, EventBase triggerEvent)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E8B")]
-	[Address(RVA = "0x4D12C80", Offset = "0x4D12C80", VA = "0x4D12C80")]
+	[Address(RVA = "0x503A5B0", Offset = "0x503A5B0", VA = "0x503A5B0")]
 	internal void ClearCachedElementUnderPointer(int pointerId, EventBase triggerEvent)
 	{
 	}
 
 	[Token(Token = "0x6000E8C")]
-	[Address(RVA = "0x4D26CB0", Offset = "0x4D26CB0", VA = "0x4D26CB0")]
+	[Address(RVA = "0x504E5E0", Offset = "0x504E5E0", VA = "0x504E5E0")]
 	internal void CommitElementUnderPointers()
 	{
 	}
 
 	[Token(Token = "0x6000E95")]
-	[Address(RVA = "0x4D270E0", Offset = "0x4D270E0", VA = "0x4D270E0")]
+	[Address(RVA = "0x504EA10", Offset = "0x504EA10", VA = "0x504EA10")]
 	protected void InvokeAtlasChanged()
 	{
 	}
 
 	[Token(Token = "0x6000E98")]
-	[Address(RVA = "0x4D27100", Offset = "0x4D27100", VA = "0x4D27100")]
+	[Address(RVA = "0x504EA30", Offset = "0x504EA30", VA = "0x504EA30")]
 	internal void InvokeUpdateMaterial(Material mat)
 	{
 	}
 
 	[Token(Token = "0x6000E9B")]
-	[Address(RVA = "0x4D27260", Offset = "0x4D27260", VA = "0x4D27260")]
+	[Address(RVA = "0x504EB90", Offset = "0x504EB90", VA = "0x504EB90")]
 	internal void InvokeHierarchyChanged(VisualElement ve, HierarchyChangeType changeType)
 	{
 	}
 
 	[Token(Token = "0x6000E9C")]
-	[Address(RVA = "0x4D27280", Offset = "0x4D27280", VA = "0x4D27280")]
+	[Address(RVA = "0x504EBB0", Offset = "0x504EBB0", VA = "0x504EBB0")]
 	internal void InvokeBeforeUpdate()
 	{
 	}
 
 	[Token(Token = "0x6000E9D")]
-	[Address(RVA = "0x4D272A0", Offset = "0x4D272A0", VA = "0x4D272A0")]
+	[Address(RVA = "0x504EBD0", Offset = "0x504EBD0", VA = "0x504EBD0")]
 	internal void UpdateElementUnderPointers()
 	{
 	}
 
 	[Token(Token = "0x6000E9E")]
-	[Address(RVA = "0x4D27500", Offset = "0x4D27500", VA = "0x4D27500", Slot = "10")]
+	[Address(RVA = "0x504EE30", Offset = "0x504EE30", VA = "0x504EE30", Slot = "10")]
 	private void UnityEngine_002EUIElements_002EIGroupBox_002EOnOptionAdded(IGroupBoxOption option)
 	{
 	}
 
 	[Token(Token = "0x6000E9F")]
-	[Address(RVA = "0x4D27510", Offset = "0x4D27510", VA = "0x4D27510", Slot = "11")]
+	[Address(RVA = "0x504EE40", Offset = "0x504EE40", VA = "0x504EE40", Slot = "11")]
 	private void UnityEngine_002EUIElements_002EIGroupBox_002EOnOptionRemoved(IGroupBoxOption option)
 	{
 	}
 
 	[Token(Token = "0x6000EA0")]
-	[Address(RVA = "0x4D1D540", Offset = "0x4D1D540", VA = "0x4D1D540", Slot = "53")]
+	[Address(RVA = "0x5044E70", Offset = "0x5044E70", VA = "0x5044E70", Slot = "53")]
 	public virtual void Update()
 	{
 	}

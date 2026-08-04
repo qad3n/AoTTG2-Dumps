@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.ActivatedServiceTypeEntry
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -15,7 +22,7 @@ public class ActivatedServiceTypeEntry : TypeEntry
 	public Type ObjectType
 	{
 		[Token(Token = "0x6001C16")]
-		[Address(RVA = "0x4E79CD0", Offset = "0x4E79CD0", VA = "0x4E79CD0")]
+		[Address(RVA = "0x3B5F7F0", Offset = "0x3B5F7F0", VA = "0x3B5F7F0")]
 		get
 		{
 			return null;
@@ -23,13 +30,13 @@ public class ActivatedServiceTypeEntry : TypeEntry
 	}
 
 	[Token(Token = "0x6001C15")]
-	[Address(RVA = "0x4E79BC0", Offset = "0x4E79BC0", VA = "0x4E79BC0")]
+	[Address(RVA = "0x3B5F6E0", Offset = "0x3B5F6E0", VA = "0x3B5F6E0")]
 	public ActivatedServiceTypeEntry(string typeName, string assemblyName)
 	{
 	}
 
 	[Token(Token = "0x6001C17")]
-	[Address(RVA = "0x4E79CE0", Offset = "0x4E79CE0", VA = "0x4E79CE0", Slot = "3")]
+	[Address(RVA = "0x3B5F800", Offset = "0x3B5F800", VA = "0x3B5F800", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

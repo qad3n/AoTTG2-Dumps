@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.ServicePointScheduler
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -39,7 +46,7 @@ internal class ServicePointScheduler
 		public ServicePointScheduler Scheduler
 		{
 			[Token(Token = "0x6000A8B")]
-			[Address(RVA = "0x466A660", Offset = "0x466A660", VA = "0x466A660")]
+			[Address(RVA = "0x498F760", Offset = "0x498F760", VA = "0x498F760")]
 			[CompilerGenerated]
 			get
 			{
@@ -48,52 +55,52 @@ internal class ServicePointScheduler
 		}
 
 		[Token(Token = "0x6000A8C")]
-		[Address(RVA = "0x4668BB0", Offset = "0x4668BB0", VA = "0x4668BB0")]
+		[Address(RVA = "0x498DCB0", Offset = "0x498DCB0", VA = "0x498DCB0")]
 		public ConnectionGroup(ServicePointScheduler scheduler, string name)
 		{
 		}
 
 		[Token(Token = "0x6000A8D")]
-		[Address(RVA = "0x46693B0", Offset = "0x46693B0", VA = "0x46693B0")]
+		[Address(RVA = "0x498E4B0", Offset = "0x498E4B0", VA = "0x498E4B0")]
 		public bool IsEmpty()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000A8E")]
-		[Address(RVA = "0x4669B60", Offset = "0x4669B60", VA = "0x4669B60")]
+		[Address(RVA = "0x498EC60", Offset = "0x498EC60", VA = "0x498EC60")]
 		public void RemoveConnection(WebConnection connection)
 		{
 		}
 
 		[Token(Token = "0x6000A8F")]
-		[Address(RVA = "0x4669CD0", Offset = "0x4669CD0", VA = "0x4669CD0")]
+		[Address(RVA = "0x498EDD0", Offset = "0x498EDD0", VA = "0x498EDD0")]
 		public void Cleanup()
 		{
 		}
 
 		[Token(Token = "0x6000A90")]
-		[Address(RVA = "0x466A4B0", Offset = "0x466A4B0", VA = "0x466A4B0")]
+		[Address(RVA = "0x498F5B0", Offset = "0x498F5B0", VA = "0x498F5B0")]
 		public void EnqueueOperation(WebOperation operation)
 		{
 		}
 
 		[Token(Token = "0x6000A91")]
-		[Address(RVA = "0x4669FC0", Offset = "0x4669FC0", VA = "0x4669FC0")]
+		[Address(RVA = "0x498F0C0", Offset = "0x498F0C0", VA = "0x498F0C0")]
 		public WebOperation GetNextOperation()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000A92")]
-		[Address(RVA = "0x466A6B0", Offset = "0x466A6B0", VA = "0x466A6B0")]
+		[Address(RVA = "0x498F7B0", Offset = "0x498F7B0", VA = "0x498F7B0")]
 		public WebConnection FindIdleConnection(WebOperation operation)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000A93")]
-		[Address(RVA = "0x4669DC0", Offset = "0x4669DC0", VA = "0x4669DC0")]
+		[Address(RVA = "0x498EEC0", Offset = "0x498EEC0", VA = "0x498EEC0")]
 		public (WebConnection, bool) CreateOrReuseConnection(WebOperation operation, bool force)
 		{
 			return default((WebConnection, bool));
@@ -108,26 +115,26 @@ internal class ServicePointScheduler
 		private TaskCompletionSource<bool> m_tcs;
 
 		[Token(Token = "0x6000A94")]
-		[Address(RVA = "0x466B250", Offset = "0x466B250", VA = "0x466B250")]
+		[Address(RVA = "0x4990350", Offset = "0x4990350", VA = "0x4990350")]
 		public Task<bool> WaitAsync(int millisecondTimeout)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000A95")]
-		[Address(RVA = "0x4668DA0", Offset = "0x4668DA0", VA = "0x4668DA0")]
+		[Address(RVA = "0x498DEA0", Offset = "0x498DEA0", VA = "0x498DEA0")]
 		public void Set()
 		{
 		}
 
 		[Token(Token = "0x6000A96")]
-		[Address(RVA = "0x46695F0", Offset = "0x46695F0", VA = "0x46695F0")]
+		[Address(RVA = "0x498E6F0", Offset = "0x498E6F0", VA = "0x498E6F0")]
 		public void Reset()
 		{
 		}
 
 		[Token(Token = "0x6000A97")]
-		[Address(RVA = "0x4668B20", Offset = "0x4668B20", VA = "0x4668B20")]
+		[Address(RVA = "0x498DC20", Offset = "0x498DC20", VA = "0x498DC20")]
 		public AsyncManualResetEvent(bool state)
 		{
 		}
@@ -175,13 +182,13 @@ internal class ServicePointScheduler
 		private ConfiguredTaskAwaitable<Task>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000A9B")]
-		[Address(RVA = "0x466B3A0", Offset = "0x466B3A0", VA = "0x466B3A0", Slot = "4")]
+		[Address(RVA = "0x49904A0", Offset = "0x49904A0", VA = "0x49904A0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000A9C")]
-		[Address(RVA = "0x466C2B0", Offset = "0x466C2B0", VA = "0x466C2B0", Slot = "5")]
+		[Address(RVA = "0x49913B0", Offset = "0x49913B0", VA = "0x49913B0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -222,13 +229,13 @@ internal class ServicePointScheduler
 		private ConfiguredTaskAwaitable<Task>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000A9D")]
-		[Address(RVA = "0x466C310", Offset = "0x466C310", VA = "0x466C310", Slot = "4")]
+		[Address(RVA = "0x4991410", Offset = "0x4991410", VA = "0x4991410", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000A9E")]
-		[Address(RVA = "0x466C8B0", Offset = "0x466C8B0", VA = "0x466C8B0", Slot = "5")]
+		[Address(RVA = "0x49919B0", Offset = "0x49919B0", VA = "0x49919B0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -287,14 +294,14 @@ internal class ServicePointScheduler
 	private ServicePoint ServicePoint
 	{
 		[Token(Token = "0x6000A77")]
-		[Address(RVA = "0x4668AF0", Offset = "0x4668AF0", VA = "0x4668AF0")]
+		[Address(RVA = "0x498DBF0", Offset = "0x498DBF0", VA = "0x498DBF0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A78")]
-		[Address(RVA = "0x4668B00", Offset = "0x4668B00", VA = "0x4668B00")]
+		[Address(RVA = "0x498DC00", Offset = "0x498DC00", VA = "0x498DC00")]
 		[CompilerGenerated]
 		set
 		{
@@ -305,7 +312,7 @@ internal class ServicePointScheduler
 	public int MaxIdleTime
 	{
 		[Token(Token = "0x6000A79")]
-		[Address(RVA = "0x4668B10", Offset = "0x4668B10", VA = "0x4668B10")]
+		[Address(RVA = "0x498DC10", Offset = "0x498DC10", VA = "0x498DC10")]
 		get
 		{
 			return default(int);
@@ -313,19 +320,19 @@ internal class ServicePointScheduler
 	}
 
 	[Token(Token = "0x6000A7A")]
-	[Address(RVA = "0x46674A0", Offset = "0x46674A0", VA = "0x46674A0")]
+	[Address(RVA = "0x498C5A0", Offset = "0x498C5A0", VA = "0x498C5A0")]
 	public ServicePointScheduler(ServicePoint servicePoint, int connectionLimit, int maxIdleTime)
 	{
 	}
 
 	[Token(Token = "0x6000A7B")]
-	[Address(RVA = "0x4668CE0", Offset = "0x4668CE0", VA = "0x4668CE0")]
+	[Address(RVA = "0x498DDE0", Offset = "0x498DDE0", VA = "0x498DDE0")]
 	public void Run()
 	{
 	}
 
 	[Token(Token = "0x6000A7C")]
-	[Address(RVA = "0x4669080", Offset = "0x4669080", VA = "0x4669080")]
+	[Address(RVA = "0x498E180", Offset = "0x498E180", VA = "0x498E180")]
 	[AsyncStateMachine(typeof(_003CRunScheduler_003Ed__32))]
 	private Task RunScheduler()
 	{
@@ -333,82 +340,82 @@ internal class ServicePointScheduler
 	}
 
 	[Token(Token = "0x6000A7D")]
-	[Address(RVA = "0x4669170", Offset = "0x4669170", VA = "0x4669170")]
+	[Address(RVA = "0x498E270", Offset = "0x498E270", VA = "0x498E270")]
 	private void Cleanup()
 	{
 	}
 
 	[Token(Token = "0x6000A7E")]
-	[Address(RVA = "0x4669410", Offset = "0x4669410", VA = "0x4669410")]
+	[Address(RVA = "0x498E510", Offset = "0x498E510", VA = "0x498E510")]
 	private void RunSchedulerIteration()
 	{
 	}
 
 	[Token(Token = "0x6000A7F")]
-	[Address(RVA = "0x4669790", Offset = "0x4669790", VA = "0x4669790")]
+	[Address(RVA = "0x498E890", Offset = "0x498E890", VA = "0x498E890")]
 	private bool OperationCompleted(ConnectionGroup group, WebOperation operation)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A80")]
-	[Address(RVA = "0x4669F80", Offset = "0x4669F80", VA = "0x4669F80")]
+	[Address(RVA = "0x498F080", Offset = "0x498F080", VA = "0x498F080")]
 	private void CloseIdleConnection(ConnectionGroup group, WebConnection connection)
 	{
 	}
 
 	[Token(Token = "0x6000A81")]
-	[Address(RVA = "0x46696B0", Offset = "0x46696B0", VA = "0x46696B0")]
+	[Address(RVA = "0x498E7B0", Offset = "0x498E7B0", VA = "0x498E7B0")]
 	private bool SchedulerIteration(ConnectionGroup group)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A82")]
-	[Address(RVA = "0x466A0B0", Offset = "0x466A0B0", VA = "0x466A0B0")]
+	[Address(RVA = "0x498F1B0", Offset = "0x498F1B0", VA = "0x498F1B0")]
 	private void RemoveOperation(WebOperation operation)
 	{
 	}
 
 	[Token(Token = "0x6000A83")]
-	[Address(RVA = "0x4669C00", Offset = "0x4669C00", VA = "0x4669C00")]
+	[Address(RVA = "0x498ED00", Offset = "0x498ED00", VA = "0x498ED00")]
 	private void RemoveIdleConnection(WebConnection connection)
 	{
 	}
 
 	[Token(Token = "0x6000A84")]
-	[Address(RVA = "0x466A190", Offset = "0x466A190", VA = "0x466A190")]
+	[Address(RVA = "0x498F290", Offset = "0x498F290", VA = "0x498F290")]
 	private void FinalCleanup()
 	{
 	}
 
 	[Token(Token = "0x6000A85")]
-	[Address(RVA = "0x4667F80", Offset = "0x4667F80", VA = "0x4667F80")]
+	[Address(RVA = "0x498D080", Offset = "0x498D080", VA = "0x498D080")]
 	public void SendRequest(WebOperation operation, string groupName)
 	{
 	}
 
 	[Token(Token = "0x6000A86")]
-	[Address(RVA = "0x466A270", Offset = "0x466A270", VA = "0x466A270")]
+	[Address(RVA = "0x498F370", Offset = "0x498F370", VA = "0x498F370")]
 	private ConnectionGroup GetConnectionGroup(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A87")]
-	[Address(RVA = "0x466A500", Offset = "0x466A500", VA = "0x466A500")]
+	[Address(RVA = "0x498F600", Offset = "0x498F600", VA = "0x498F600")]
 	private void OnConnectionCreated(WebConnection connection)
 	{
 	}
 
 	[Token(Token = "0x6000A88")]
-	[Address(RVA = "0x466A510", Offset = "0x466A510", VA = "0x466A510")]
+	[Address(RVA = "0x498F610", Offset = "0x498F610", VA = "0x498F610")]
 	private void OnConnectionClosed(WebConnection connection)
 	{
 	}
 
 	[Token(Token = "0x6000A89")]
-	[Address(RVA = "0x466A530", Offset = "0x466A530", VA = "0x466A530")]
+	[Address(RVA = "0x498F630", Offset = "0x498F630", VA = "0x498F630")]
 	[AsyncStateMachine(typeof(_003CWaitAsync_003Ed__46))]
 	public static Task<bool> WaitAsync(Task workerTask, int millisecondTimeout)
 	{

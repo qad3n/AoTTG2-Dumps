@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.DebugFrameTiming
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -36,14 +43,14 @@ public class DebugFrameTiming
 	public int bottleneckHistorySize
 	{
 		[Token(Token = "0x60006D8")]
-		[Address(RVA = "0x487AC60", Offset = "0x487AC60", VA = "0x487AC60")]
+		[Address(RVA = "0x4B9FD50", Offset = "0x4B9FD50", VA = "0x4B9FD50")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60006D9")]
-		[Address(RVA = "0x487AC70", Offset = "0x487AC70", VA = "0x487AC70")]
+		[Address(RVA = "0x4B9FD60", Offset = "0x4B9FD60", VA = "0x4B9FD60")]
 		[CompilerGenerated]
 		set
 		{
@@ -54,14 +61,14 @@ public class DebugFrameTiming
 	public int sampleHistorySize
 	{
 		[Token(Token = "0x60006DA")]
-		[Address(RVA = "0x487AC80", Offset = "0x487AC80", VA = "0x487AC80")]
+		[Address(RVA = "0x4B9FD70", Offset = "0x4B9FD70", VA = "0x4B9FD70")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60006DB")]
-		[Address(RVA = "0x487AC90", Offset = "0x487AC90", VA = "0x487AC90")]
+		[Address(RVA = "0x4B9FD80", Offset = "0x4B9FD80", VA = "0x4B9FD80")]
 		[CompilerGenerated]
 		set
 		{
@@ -69,25 +76,25 @@ public class DebugFrameTiming
 	}
 
 	[Token(Token = "0x60006DC")]
-	[Address(RVA = "0x487ACA0", Offset = "0x487ACA0", VA = "0x487ACA0")]
+	[Address(RVA = "0x4B9FD90", Offset = "0x4B9FD90", VA = "0x4B9FD90")]
 	public DebugFrameTiming()
 	{
 	}
 
 	[Token(Token = "0x60006DD")]
-	[Address(RVA = "0x487AD90", Offset = "0x487AD90", VA = "0x487AD90")]
+	[Address(RVA = "0x4B9FE80", Offset = "0x4B9FE80", VA = "0x4B9FE80")]
 	public void UpdateFrameTiming()
 	{
 	}
 
 	[Token(Token = "0x60006DE")]
-	[Address(RVA = "0x487AFC0", Offset = "0x487AFC0", VA = "0x487AFC0")]
+	[Address(RVA = "0x4BA00B0", Offset = "0x4BA00B0", VA = "0x4BA00B0")]
 	public void RegisterDebugUI(List<DebugUI.Widget> list)
 	{
 	}
 
 	[Token(Token = "0x60006DF")]
-	[Address(RVA = "0x487C6A0", Offset = "0x487C6A0", VA = "0x487C6A0")]
+	[Address(RVA = "0x4BA1790", Offset = "0x4BA1790", VA = "0x4BA1790")]
 	internal void Reset()
 	{
 	}

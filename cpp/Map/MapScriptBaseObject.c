@@ -1,13 +1,14 @@
 // Type: Map.MapScriptBaseObject
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Map/MapScriptBaseObject.cs
-// Prior real C# source (REFERENCE, outdated): Assets/Scripts/Map/MapScript/MapScriptBaseObject.cs  [CHANGED since prior version]
+// Prior real C# source (older reference): Assets/Scripts/Map/MapScript/MapScriptBaseObject.cs
 // --------------------------------
 
 // Map.MapScriptBaseObject$$SetPosition
 // il2cpp: void Map_MapScriptBaseObject__SetPosition (Map_MapScriptBaseObject_o* __this, UnityEngine_Vector3_o position, const MethodInfo* method);
-// 0x3d9bd10
+// 0x40b4c10
 
 void Map_MapScriptBaseObject__SetPosition
                (Map_MapScriptBaseObject_o *__this,UnityEngine_Vector3_o position,MethodInfo *method)
@@ -22,7 +23,7 @@ void Map_MapScriptBaseObject__SetPosition
 
 // Map.MapScriptBaseObject$$SetScale
 // il2cpp: void Map_MapScriptBaseObject__SetScale (Map_MapScriptBaseObject_o* __this, UnityEngine_Vector3_o scale, const MethodInfo* method);
-// 0x3d9bcf0
+// 0x40b4bf0
 
 void Map_MapScriptBaseObject__SetScale
                (Map_MapScriptBaseObject_o *__this,UnityEngine_Vector3_o scale,MethodInfo *method)
@@ -37,7 +38,7 @@ void Map_MapScriptBaseObject__SetScale
 
 // Map.MapScriptBaseObject$$SetRotation
 // il2cpp: void Map_MapScriptBaseObject__SetRotation (Map_MapScriptBaseObject_o* __this, UnityEngine_Vector3_o rotation, const MethodInfo* method);
-// 0x3d9c390
+// 0x40b5c90
 
 void Map_MapScriptBaseObject__SetRotation
                (Map_MapScriptBaseObject_o *__this,UnityEngine_Vector3_o rotation,MethodInfo *method)
@@ -52,11 +53,10 @@ void Map_MapScriptBaseObject__SetRotation
 
 // Map.MapScriptBaseObject$$SetRotation
 // il2cpp: void Map_MapScriptBaseObject__SetRotation (Map_MapScriptBaseObject_o* __this, UnityEngine_Quaternion_o rotation, const MethodInfo* method);
-// 0x3d9bed0
+// 0x40b4ce0
 
-void Map_MapScriptBaseObject__SetRotation
-               (Map_MapScriptBaseObject_o *__this,UnityEngine_Quaternion_o rotation,
-               MethodInfo *method)
+void Map_MapScriptBaseObject__SetRotation_3fb4ce0
+               (Map_MapScriptBaseObject_o *__this,UnityEngine_Quaternion_o rotation,MethodInfo *method)
 
 {
   UnityEngine_Vector3_o UVar1;
@@ -76,7 +76,7 @@ void Map_MapScriptBaseObject__SetRotation
 
 // Map.MapScriptBaseObject$$GetPosition
 // il2cpp: UnityEngine_Vector3_o Map_MapScriptBaseObject__GetPosition (Map_MapScriptBaseObject_o* __this, const MethodInfo* method);
-// 0x3d9f490
+// 0x40b5cb0
 
 UnityEngine_Vector3_o
 Map_MapScriptBaseObject__GetPosition(Map_MapScriptBaseObject_o *__this,MethodInfo *method)
@@ -88,7 +88,7 @@ Map_MapScriptBaseObject__GetPosition(Map_MapScriptBaseObject_o *__this,MethodInf
 
 // Map.MapScriptBaseObject$$GetRotation
 // il2cpp: UnityEngine_Vector3_o Map_MapScriptBaseObject__GetRotation (Map_MapScriptBaseObject_o* __this, const MethodInfo* method);
-// 0x3d9f4a0
+// 0x40b5cc0
 
 UnityEngine_Vector3_o
 Map_MapScriptBaseObject__GetRotation(Map_MapScriptBaseObject_o *__this,MethodInfo *method)
@@ -105,10 +105,9 @@ Map_MapScriptBaseObject__GetRotation(Map_MapScriptBaseObject_o *__this,MethodInf
 
 // Map.MapScriptBaseObject$$GetScale
 // il2cpp: UnityEngine_Vector3_o Map_MapScriptBaseObject__GetScale (Map_MapScriptBaseObject_o* __this, const MethodInfo* method);
-// 0x3dafdc0
+// 0x40b5cd0
 
-UnityEngine_Vector3_o
-Map_MapScriptBaseObject__GetScale(Map_MapScriptBaseObject_o *__this,MethodInfo *method)
+UnityEngine_Vector3_o Map_MapScriptBaseObject__GetScale(Map_MapScriptBaseObject_o *__this,MethodInfo *method)
 
 {
   UnityEngine_Vector3_o UVar1;
@@ -122,26 +121,26 @@ Map_MapScriptBaseObject__GetScale(Map_MapScriptBaseObject_o *__this,MethodInfo *
 
 // Map.MapScriptBaseObject$$.ctor
 // il2cpp: void Map_MapScriptBaseObject___ctor (Map_MapScriptBaseObject_o* __this, const MethodInfo* method);
-// 0x3dafdd0
+// 0x40b5ce0
 
 void Map_MapScriptBaseObject___ctor(Map_MapScriptBaseObject_o *__this,MethodInfo *method)
 
 {
   undefined4 uVar1;
   
-  if (DAT_057027af == '\0') {
-    il2cpp_init_method_metadata(&"None");
-    il2cpp_init_method_metadata(&"Unnamed");
-    DAT_057027af = '\x01';
+  if (g_data_057ac4e4 == '\0') {
+    il2cpp_runtime_helper_023445d0(&"None");
+    il2cpp_runtime_helper_023445d0(&"Unnamed");
+    g_data_057ac4e4 = '\x01';
   }
   (__this->fields).Asset = "None";
-  il2cpp_runtime_glue(&(__this->fields).Asset);
+  il2cpp_runtime_helper_022b4080(&(__this->fields).Asset);
   *(undefined2 *)&(__this->fields).Active = 0x101;
   *(undefined1 *)((long)&(__this->fields).Active + 2) = 1;
   uVar1 = "Unnamed"._4_4_;
   (__this->fields).Visible = (undefined4)"Unnamed";
   (__this->fields).Networked = uVar1;
-  il2cpp_runtime_glue(&(__this->fields).Visible);
+  il2cpp_runtime_helper_022b4080(&(__this->fields).Visible);
   (__this->fields).RotationY = 1.0;
   (__this->fields).RotationZ = 1.0;
   (__this->fields).ScaleX = 1.0;

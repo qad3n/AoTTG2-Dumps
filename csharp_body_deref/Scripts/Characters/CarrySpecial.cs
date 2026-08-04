@@ -1,73 +1,80 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Characters.CarrySpecial
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Characters/CarrySpecial.c
+// Prior real C# source (older reference): Assets/Scripts/Characters/Human/Specials/CarrySpecial.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x20004D9")]
+[Token(Token = "0x200051E")]
 internal class CarrySpecial : BaseHoldAttackSpecial
 {
-	[Token(Token = "0x40016FF")]
+	[Token(Token = "0x4001810")]
 	public const float DefaultCarryDistance = 25f;
 
-	[Token(Token = "0x4001700")]
+	[Token(Token = "0x4001811")]
 	public const float DefaultGroundedCarryDistance = 10f;
 
-	[Token(Token = "0x4001701")]
+	[Token(Token = "0x4001812")]
 	[FieldOffset(Offset = "0x49")]
 	protected bool _needActivate;
 
-	[Token(Token = "0x1700097E")]
+	[Token(Token = "0x170009E8")]
 	protected override float ActiveTime
 	{
-		[Token(Token = "0x60033B7")]
-		[Address(RVA = "0x3EE6E70", Offset = "0x3EE6E70", VA = "0x3EE6E70", Slot = "14")]
+		[Token(Token = "0x60035C5")]
+		[Address(RVA = "0x41F3730", Offset = "0x41F3730", VA = "0x41F3730", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x1700097F")]
+	[Token(Token = "0x170009E9")]
 	protected float CarryDistance
 	{
-		[Token(Token = "0x60033B8")]
-		[Address(RVA = "0x3EE6E80", Offset = "0x3EE6E80", VA = "0x3EE6E80")]
+		[Token(Token = "0x60035C6")]
+		[Address(RVA = "0x41F3740", Offset = "0x41F3740", VA = "0x41F3740")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000980")]
+	[Token(Token = "0x170009EA")]
 	protected float GroundedCarryDistance
 	{
-		[Token(Token = "0x60033B9")]
-		[Address(RVA = "0x3EE6E90", Offset = "0x3EE6E90", VA = "0x3EE6E90")]
+		[Token(Token = "0x60035C7")]
+		[Address(RVA = "0x41F3750", Offset = "0x41F3750", VA = "0x41F3750")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x60033BA")]
-	[Address(RVA = "0x3ED7A10", Offset = "0x3ED7A10", VA = "0x3ED7A10")]
+	[Token(Token = "0x60035C8")]
+	[Address(RVA = "0x41E42D0", Offset = "0x41E42D0", VA = "0x41E42D0")]
 	public CarrySpecial(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x60033BB")]
-	[Address(RVA = "0x3EE6EA0", Offset = "0x3EE6EA0", VA = "0x3EE6EA0", Slot = "9")]
+	[Token(Token = "0x60035C9")]
+	[Address(RVA = "0x41F3760", Offset = "0x41F3760", VA = "0x41F3760", Slot = "9")]
 	protected override void Activate()
 	{
 	}
 
-	[Token(Token = "0x60033BC")]
-	[Address(RVA = "0x3EE6F70", Offset = "0x3EE6F70", VA = "0x3EE6F70", Slot = "16")]
+	[Token(Token = "0x60035CA")]
+	[Address(RVA = "0x41F3830", Offset = "0x41F3830", VA = "0x41F3830", Slot = "16")]
 	protected override void ActiveFixedUpdate()
 	{
 	}
 
-	[Token(Token = "0x60033BD")]
-	[Address(RVA = "0x3EE77E0", Offset = "0x3EE77E0", VA = "0x3EE77E0", Slot = "10")]
+	[Token(Token = "0x60035CB")]
+	[Address(RVA = "0x41F40A0", Offset = "0x41F40A0", VA = "0x41F40A0", Slot = "10")]
 	protected override void Deactivate()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.TextureRegistry
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -42,7 +49,7 @@ internal class TextureRegistry
 	public static TextureRegistry instance
 	{
 		[Token(Token = "0x6000F95")]
-		[Address(RVA = "0x4D4E8B0", Offset = "0x4D4E8B0", VA = "0x4D4E8B0")]
+		[Address(RVA = "0x50761E0", Offset = "0x50761E0", VA = "0x50761E0")]
 		[CompilerGenerated]
 		get
 		{
@@ -51,47 +58,47 @@ internal class TextureRegistry
 	}
 
 	[Token(Token = "0x6000F96")]
-	[Address(RVA = "0x4D4E920", Offset = "0x4D4E920", VA = "0x4D4E920")]
+	[Address(RVA = "0x5076250", Offset = "0x5076250", VA = "0x5076250")]
 	public Texture GetTexture(TextureId id)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F97")]
-	[Address(RVA = "0x4D4A690", Offset = "0x4D4A690", VA = "0x4D4A690")]
+	[Address(RVA = "0x5071FC0", Offset = "0x5071FC0", VA = "0x5071FC0")]
 	public TextureId AllocAndAcquireDynamic()
 	{
 		return default(TextureId);
 	}
 
 	[Token(Token = "0x6000F98")]
-	[Address(RVA = "0x4D4EDC0", Offset = "0x4D4EDC0", VA = "0x4D4EDC0")]
+	[Address(RVA = "0x50766F0", Offset = "0x50766F0", VA = "0x50766F0")]
 	public void UpdateDynamic(TextureId id, Texture texture)
 	{
 	}
 
 	[Token(Token = "0x6000F99")]
-	[Address(RVA = "0x4D4EAE0", Offset = "0x4D4EAE0", VA = "0x4D4EAE0")]
+	[Address(RVA = "0x5076410", Offset = "0x5076410", VA = "0x5076410")]
 	private TextureId AllocAndAcquire(Texture texture, bool dynamic)
 	{
 		return default(TextureId);
 	}
 
 	[Token(Token = "0x6000F9A")]
-	[Address(RVA = "0x4D4F010", Offset = "0x4D4F010", VA = "0x4D4F010")]
+	[Address(RVA = "0x5076940", Offset = "0x5076940", VA = "0x5076940")]
 	public TextureId Acquire(Texture tex)
 	{
 		return default(TextureId);
 	}
 
 	[Token(Token = "0x6000F9B")]
-	[Address(RVA = "0x4D4AA60", Offset = "0x4D4AA60", VA = "0x4D4AA60")]
+	[Address(RVA = "0x5072390", Offset = "0x5072390", VA = "0x5072390")]
 	public void Release(TextureId id)
 	{
 	}
 
 	[Token(Token = "0x6000F9C")]
-	[Address(RVA = "0x4D4F180", Offset = "0x4D4F180", VA = "0x4D4F180")]
+	[Address(RVA = "0x5076AB0", Offset = "0x5076AB0", VA = "0x5076AB0")]
 	public TextureRegistry()
 	{
 	}

@@ -1,307 +1,314 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.FullSerializer.fsData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Diagnostics;
 using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x2000207")]
+[Token(Token = "0x2000200")]
 public sealed class fsData
 {
-	[Token(Token = "0x40009A1")]
+	[Token(Token = "0x400098F")]
 	[FieldOffset(Offset = "0x10")]
 	private object _value;
 
-	[Token(Token = "0x40009A2")]
+	[Token(Token = "0x4000990")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly fsData True;
 
-	[Token(Token = "0x40009A3")]
+	[Token(Token = "0x4000991")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly fsData False;
 
-	[Token(Token = "0x40009A4")]
+	[Token(Token = "0x4000992")]
 	[FieldOffset(Offset = "0x10")]
 	public static readonly fsData Null;
 
-	[Token(Token = "0x17000203")]
+	[Token(Token = "0x170001F9")]
 	public fsDataType Type
 	{
-		[Token(Token = "0x6001249")]
-		[Address(RVA = "0x4A49AD0", Offset = "0x4A49AD0", VA = "0x4A49AD0")]
+		[Token(Token = "0x600121E")]
+		[Address(RVA = "0x4D6A180", Offset = "0x4D6A180", VA = "0x4D6A180")]
 		get
 		{
 			return default(fsDataType);
 		}
 	}
 
-	[Token(Token = "0x17000204")]
+	[Token(Token = "0x170001FA")]
 	public bool IsNull
 	{
-		[Token(Token = "0x600124A")]
-		[Address(RVA = "0x4A55EA0", Offset = "0x4A55EA0", VA = "0x4A55EA0")]
+		[Token(Token = "0x600121F")]
+		[Address(RVA = "0x4D7B360", Offset = "0x4D7B360", VA = "0x4D7B360")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000205")]
+	[Token(Token = "0x170001FB")]
 	public bool IsDouble
 	{
-		[Token(Token = "0x600124B")]
-		[Address(RVA = "0x4A512E0", Offset = "0x4A512E0", VA = "0x4A512E0")]
+		[Token(Token = "0x6001220")]
+		[Address(RVA = "0x4D71A30", Offset = "0x4D71A30", VA = "0x4D71A30")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000206")]
+	[Token(Token = "0x170001FC")]
 	public bool IsInt64
 	{
-		[Token(Token = "0x600124C")]
-		[Address(RVA = "0x4A4D3D0", Offset = "0x4A4D3D0", VA = "0x4A4D3D0")]
+		[Token(Token = "0x6001221")]
+		[Address(RVA = "0x4D6DC70", Offset = "0x4D6DC70", VA = "0x4D6DC70")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000207")]
+	[Token(Token = "0x170001FD")]
 	public bool IsBool
 	{
-		[Token(Token = "0x600124D")]
-		[Address(RVA = "0x4A52690", Offset = "0x4A52690", VA = "0x4A52690")]
+		[Token(Token = "0x6001222")]
+		[Address(RVA = "0x4D73950", Offset = "0x4D73950", VA = "0x4D73950")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000208")]
+	[Token(Token = "0x170001FE")]
 	public bool IsString
 	{
-		[Token(Token = "0x600124E")]
-		[Address(RVA = "0x4A49AA0", Offset = "0x4A49AA0", VA = "0x4A49AA0")]
+		[Token(Token = "0x6001223")]
+		[Address(RVA = "0x4D6A150", Offset = "0x4D6A150", VA = "0x4D6A150")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000209")]
+	[Token(Token = "0x170001FF")]
 	public bool IsDictionary
 	{
-		[Token(Token = "0x600124F")]
-		[Address(RVA = "0x4A4AE10", Offset = "0x4A4AE10", VA = "0x4A4AE10")]
+		[Token(Token = "0x6001224")]
+		[Address(RVA = "0x4D6B6E0", Offset = "0x4D6B6E0", VA = "0x4D6B6E0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700020A")]
+	[Token(Token = "0x17000200")]
 	public bool IsList
 	{
-		[Token(Token = "0x6001250")]
-		[Address(RVA = "0x4A4A990", Offset = "0x4A4A990", VA = "0x4A4A990")]
+		[Token(Token = "0x6001225")]
+		[Address(RVA = "0x4D6B260", Offset = "0x4D6B260", VA = "0x4D6B260")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700020B")]
+	[Token(Token = "0x17000201")]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	public double AsDouble
 	{
-		[Token(Token = "0x6001251")]
-		[Address(RVA = "0x4A51310", Offset = "0x4A51310", VA = "0x4A51310")]
+		[Token(Token = "0x6001226")]
+		[Address(RVA = "0x4D71A60", Offset = "0x4D71A60", VA = "0x4D71A60")]
 		get
 		{
 			return default(double);
 		}
 	}
 
-	[Token(Token = "0x1700020C")]
+	[Token(Token = "0x17000202")]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	public long AsInt64
 	{
-		[Token(Token = "0x6001252")]
-		[Address(RVA = "0x4A4D3F0", Offset = "0x4A4D3F0", VA = "0x4A4D3F0")]
+		[Token(Token = "0x6001227")]
+		[Address(RVA = "0x4D6DC90", Offset = "0x4D6DC90", VA = "0x4D6DC90")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x1700020D")]
+	[Token(Token = "0x17000203")]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	public bool AsBool
 	{
-		[Token(Token = "0x6001253")]
-		[Address(RVA = "0x4A512A0", Offset = "0x4A512A0", VA = "0x4A512A0")]
+		[Token(Token = "0x6001228")]
+		[Address(RVA = "0x4D719F0", Offset = "0x4D719F0", VA = "0x4D719F0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700020E")]
+	[Token(Token = "0x17000204")]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	public string AsString
 	{
-		[Token(Token = "0x6001254")]
-		[Address(RVA = "0x4A49BF0", Offset = "0x4A49BF0", VA = "0x4A49BF0")]
+		[Token(Token = "0x6001229")]
+		[Address(RVA = "0x4D6A390", Offset = "0x4D6A390", VA = "0x4D6A390")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700020F")]
+	[Token(Token = "0x17000205")]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	public Dictionary<string, fsData> AsDictionary
 	{
-		[Token(Token = "0x6001255")]
-		[Address(RVA = "0x4A4AE70", Offset = "0x4A4AE70", VA = "0x4A4AE70")]
+		[Token(Token = "0x600122A")]
+		[Address(RVA = "0x4D6B740", Offset = "0x4D6B740", VA = "0x4D6B740")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000210")]
+	[Token(Token = "0x17000206")]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	public List<fsData> AsList
 	{
-		[Token(Token = "0x6001256")]
-		[Address(RVA = "0x4A481F0", Offset = "0x4A481F0", VA = "0x4A481F0")]
+		[Token(Token = "0x600122B")]
+		[Address(RVA = "0x4D68EA0", Offset = "0x4D68EA0", VA = "0x4D68EA0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600123C")]
-	[Address(RVA = "0x4A55AA0", Offset = "0x4A55AA0", VA = "0x4A55AA0", Slot = "3")]
+	[Token(Token = "0x6001211")]
+	[Address(RVA = "0x4D7AF60", Offset = "0x4D7AF60", VA = "0x4D7AF60", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600123D")]
-	[Address(RVA = "0x4A55CB0", Offset = "0x4A55CB0", VA = "0x4A55CB0")]
+	[Token(Token = "0x6001212")]
+	[Address(RVA = "0x4D7B170", Offset = "0x4D7B170", VA = "0x4D7B170")]
 	public fsData()
 	{
 	}
 
-	[Token(Token = "0x600123E")]
-	[Address(RVA = "0x4A50760", Offset = "0x4A50760", VA = "0x4A50760")]
+	[Token(Token = "0x6001213")]
+	[Address(RVA = "0x4D70DB0", Offset = "0x4D70DB0", VA = "0x4D70DB0")]
 	public fsData(bool boolean)
 	{
 	}
 
-	[Token(Token = "0x600123F")]
-	[Address(RVA = "0x4A50A90", Offset = "0x4A50A90", VA = "0x4A50A90")]
+	[Token(Token = "0x6001214")]
+	[Address(RVA = "0x4D710E0", Offset = "0x4D710E0", VA = "0x4D710E0")]
 	public fsData(double f)
 	{
 	}
 
-	[Token(Token = "0x6001240")]
-	[Address(RVA = "0x4A4CA10", Offset = "0x4A4CA10", VA = "0x4A4CA10")]
+	[Token(Token = "0x6001215")]
+	[Address(RVA = "0x4D6D2B0", Offset = "0x4D6D2B0", VA = "0x4D6D2B0")]
 	public fsData(long i)
 	{
 	}
 
-	[Token(Token = "0x6001241")]
-	[Address(RVA = "0x4A49380", Offset = "0x4A49380", VA = "0x4A49380")]
+	[Token(Token = "0x6001216")]
+	[Address(RVA = "0x4D69A30", Offset = "0x4D69A30", VA = "0x4D69A30")]
 	public fsData(string str)
 	{
 	}
 
-	[Token(Token = "0x6001242")]
-	[Address(RVA = "0x4A4BE50", Offset = "0x4A4BE50", VA = "0x4A4BE50")]
+	[Token(Token = "0x6001217")]
+	[Address(RVA = "0x4D6C8C0", Offset = "0x4D6C8C0", VA = "0x4D6C8C0")]
 	public fsData(Dictionary<string, fsData> dict)
 	{
 	}
 
-	[Token(Token = "0x6001243")]
-	[Address(RVA = "0x4A55CE0", Offset = "0x4A55CE0", VA = "0x4A55CE0")]
+	[Token(Token = "0x6001218")]
+	[Address(RVA = "0x4D7B1A0", Offset = "0x4D7B1A0", VA = "0x4D7B1A0")]
 	public fsData(List<fsData> list)
 	{
 	}
 
-	[Token(Token = "0x6001244")]
-	[Address(RVA = "0x4A4BCC0", Offset = "0x4A4BCC0", VA = "0x4A4BCC0")]
+	[Token(Token = "0x6001219")]
+	[Address(RVA = "0x4D6C730", Offset = "0x4D6C730", VA = "0x4D6C730")]
 	public static fsData CreateDictionary()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001245")]
-	[Address(RVA = "0x4A55D10", Offset = "0x4A55D10", VA = "0x4A55D10")]
+	[Token(Token = "0x600121A")]
+	[Address(RVA = "0x4D7B1D0", Offset = "0x4D7B1D0", VA = "0x4D7B1D0")]
 	public static fsData CreateList()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001246")]
-	[Address(RVA = "0x4A48150", Offset = "0x4A48150", VA = "0x4A48150")]
+	[Token(Token = "0x600121B")]
+	[Address(RVA = "0x4D68E00", Offset = "0x4D68E00", VA = "0x4D68E00")]
 	public static fsData CreateList(int capacity)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001247")]
-	[Address(RVA = "0x4A55DB0", Offset = "0x4A55DB0", VA = "0x4A55DB0")]
+	[Token(Token = "0x600121C")]
+	[Address(RVA = "0x4D7B270", Offset = "0x4D7B270", VA = "0x4D7B270")]
 	internal void BecomeDictionary()
 	{
 	}
 
-	[Token(Token = "0x6001248")]
-	[Address(RVA = "0x4A55E20", Offset = "0x4A55E20", VA = "0x4A55E20")]
+	[Token(Token = "0x600121D")]
+	[Address(RVA = "0x4D7B2E0", Offset = "0x4D7B2E0", VA = "0x4D7B2E0")]
 	internal fsData Clone()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001257")]
+	[Token(Token = "0x600122C")]
 	private T Cast<T>()
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x6001258")]
-	[Address(RVA = "0x4A55EB0", Offset = "0x4A55EB0", VA = "0x4A55EB0", Slot = "0")]
+	[Token(Token = "0x600122D")]
+	[Address(RVA = "0x4D7B370", Offset = "0x4D7B370", VA = "0x4D7B370", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001259")]
-	[Address(RVA = "0x4A55F00", Offset = "0x4A55F00", VA = "0x4A55F00")]
+	[Token(Token = "0x600122E")]
+	[Address(RVA = "0x4D7B3C0", Offset = "0x4D7B3C0", VA = "0x4D7B3C0")]
 	public bool Equals(fsData other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600125A")]
-	[Address(RVA = "0x4A56620", Offset = "0x4A56620", VA = "0x4A56620")]
+	[Token(Token = "0x600122F")]
+	[Address(RVA = "0x4D7BAE0", Offset = "0x4D7BAE0", VA = "0x4D7BAE0")]
 	public static bool operator ==(fsData a, fsData b)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600125B")]
-	[Address(RVA = "0x4A4FDC0", Offset = "0x4A4FDC0", VA = "0x4A4FDC0")]
+	[Token(Token = "0x6001230")]
+	[Address(RVA = "0x4D70410", Offset = "0x4D70410", VA = "0x4D70410")]
 	public static bool operator !=(fsData a, fsData b)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600125C")]
-	[Address(RVA = "0x4A56750", Offset = "0x4A56750", VA = "0x4A56750", Slot = "2")]
+	[Token(Token = "0x6001231")]
+	[Address(RVA = "0x4D7BC10", Offset = "0x4D7BC10", VA = "0x4D7BC10", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

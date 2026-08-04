@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: EZhex1991.EZSoftBone.EZSoftBoneForce
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/EZhex1991/EZSoftBone/EZSoftBoneForce.c
+// Prior real C# source (older reference): Assets/ThirdParty/EZhex1991/EZSoftBone/Runtime/EZSoftBoneForce.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -63,13 +70,13 @@ public class EZSoftBoneForce : ScriptableObject
 	public float force
 	{
 		[Token(Token = "0x600006B")]
-		[Address(RVA = "0x2359EF0", Offset = "0x2359EF0", VA = "0x2359EF0")]
+		[Address(RVA = "0x2398000", Offset = "0x2398000", VA = "0x2398000")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600006C")]
-		[Address(RVA = "0x2359F00", Offset = "0x2359F00", VA = "0x2359F00")]
+		[Address(RVA = "0x2398010", Offset = "0x2398010", VA = "0x2398010")]
 		set
 		{
 		}
@@ -79,13 +86,13 @@ public class EZSoftBoneForce : ScriptableObject
 	public Vector3 turbulence
 	{
 		[Token(Token = "0x600006D")]
-		[Address(RVA = "0x2359F10", Offset = "0x2359F10", VA = "0x2359F10")]
+		[Address(RVA = "0x2398020", Offset = "0x2398020", VA = "0x2398020")]
 		get
 		{
 			return default(Vector3);
 		}
 		[Token(Token = "0x600006E")]
-		[Address(RVA = "0x2359F20", Offset = "0x2359F20", VA = "0x2359F20")]
+		[Address(RVA = "0x2398030", Offset = "0x2398030", VA = "0x2398030")]
 		set
 		{
 		}
@@ -95,13 +102,13 @@ public class EZSoftBoneForce : ScriptableObject
 	public TurbulenceMode turbulenceMode
 	{
 		[Token(Token = "0x600006F")]
-		[Address(RVA = "0x2359F30", Offset = "0x2359F30", VA = "0x2359F30")]
+		[Address(RVA = "0x2398040", Offset = "0x2398040", VA = "0x2398040")]
 		get
 		{
 			return default(TurbulenceMode);
 		}
 		[Token(Token = "0x6000070")]
-		[Address(RVA = "0x2359F40", Offset = "0x2359F40", VA = "0x2359F40")]
+		[Address(RVA = "0x2398050", Offset = "0x2398050", VA = "0x2398050")]
 		set
 		{
 		}
@@ -111,13 +118,13 @@ public class EZSoftBoneForce : ScriptableObject
 	public Vector3 frequency
 	{
 		[Token(Token = "0x6000071")]
-		[Address(RVA = "0x2359F50", Offset = "0x2359F50", VA = "0x2359F50")]
+		[Address(RVA = "0x2398060", Offset = "0x2398060", VA = "0x2398060")]
 		get
 		{
 			return default(Vector3);
 		}
 		[Token(Token = "0x6000072")]
-		[Address(RVA = "0x2359F60", Offset = "0x2359F60", VA = "0x2359F60")]
+		[Address(RVA = "0x2398070", Offset = "0x2398070", VA = "0x2398070")]
 		set
 		{
 		}
@@ -127,41 +134,41 @@ public class EZSoftBoneForce : ScriptableObject
 	public float timeCycle
 	{
 		[Token(Token = "0x6000073")]
-		[Address(RVA = "0x2359F70", Offset = "0x2359F70", VA = "0x2359F70")]
+		[Address(RVA = "0x2398080", Offset = "0x2398080", VA = "0x2398080")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000074")]
-		[Address(RVA = "0x2359F80", Offset = "0x2359F80", VA = "0x2359F80")]
+		[Address(RVA = "0x2398090", Offset = "0x2398090", VA = "0x2398090")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000075")]
-	[Address(RVA = "0x2359F90", Offset = "0x2359F90", VA = "0x2359F90")]
+	[Address(RVA = "0x23980A0", Offset = "0x23980A0", VA = "0x23980A0")]
 	public Vector3 GetForce(float time)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x235A170", Offset = "0x235A170", VA = "0x235A170")]
+	[Address(RVA = "0x2398280", Offset = "0x2398280", VA = "0x2398280")]
 	private float Perlin(float x, float y)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000077")]
-	[Address(RVA = "0x235A150", Offset = "0x235A150", VA = "0x235A150")]
+	[Address(RVA = "0x2398260", Offset = "0x2398260", VA = "0x2398260")]
 	private float Curve(AnimationCurve curve, float time)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x235A190", Offset = "0x235A190", VA = "0x235A190")]
+	[Address(RVA = "0x23982A0", Offset = "0x23982A0", VA = "0x23982A0")]
 	public EZSoftBoneForce()
 	{
 	}

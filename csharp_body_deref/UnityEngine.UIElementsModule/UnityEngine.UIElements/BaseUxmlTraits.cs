@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.BaseUxmlTraits
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -10,7 +17,7 @@ public abstract class BaseUxmlTraits
 	protected bool canHaveAnyAttribute
 	{
 		[Token(Token = "0x6001ADE")]
-		[Address(RVA = "0x4C43A00", Offset = "0x4C43A00", VA = "0x4C43A00")]
+		[Address(RVA = "0x4F6B330", Offset = "0x4F6B330", VA = "0x4F6B330")]
 		[CompilerGenerated]
 		set
 		{
@@ -18,7 +25,7 @@ public abstract class BaseUxmlTraits
 	}
 
 	[Token(Token = "0x6001ADD")]
-	[Address(RVA = "0x4C439E0", Offset = "0x4C439E0", VA = "0x4C439E0")]
+	[Address(RVA = "0x4F6B310", Offset = "0x4F6B310", VA = "0x4F6B310")]
 	protected BaseUxmlTraits()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.AI.NavMeshBuildSettings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
 
@@ -75,7 +82,7 @@ public struct NavMeshBuildSettings
 	public int agentTypeID
 	{
 		[Token(Token = "0x6000062")]
-		[Address(RVA = "0x4A6A9D0", Offset = "0x4A6A9D0", VA = "0x4A6A9D0")]
+		[Address(RVA = "0x4D921F0", Offset = "0x4D921F0", VA = "0x4D921F0")]
 		get
 		{
 			return default(int);
@@ -86,13 +93,13 @@ public struct NavMeshBuildSettings
 	public float agentRadius
 	{
 		[Token(Token = "0x6000063")]
-		[Address(RVA = "0x4A6A9E0", Offset = "0x4A6A9E0", VA = "0x4A6A9E0")]
+		[Address(RVA = "0x4D92200", Offset = "0x4D92200", VA = "0x4D92200")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000064")]
-		[Address(RVA = "0x4A6A9F0", Offset = "0x4A6A9F0", VA = "0x4A6A9F0")]
+		[Address(RVA = "0x4D92210", Offset = "0x4D92210", VA = "0x4D92210")]
 		set
 		{
 		}
@@ -102,13 +109,13 @@ public struct NavMeshBuildSettings
 	public float agentHeight
 	{
 		[Token(Token = "0x6000065")]
-		[Address(RVA = "0x4A6AA00", Offset = "0x4A6AA00", VA = "0x4A6AA00")]
+		[Address(RVA = "0x4D92220", Offset = "0x4D92220", VA = "0x4D92220")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000066")]
-		[Address(RVA = "0x4A6AA10", Offset = "0x4A6AA10", VA = "0x4A6AA10")]
+		[Address(RVA = "0x4D92230", Offset = "0x4D92230", VA = "0x4D92230")]
 		set
 		{
 		}
@@ -118,7 +125,7 @@ public struct NavMeshBuildSettings
 	public float minRegionArea
 	{
 		[Token(Token = "0x6000067")]
-		[Address(RVA = "0x4A6AA20", Offset = "0x4A6AA20", VA = "0x4A6AA20")]
+		[Address(RVA = "0x4D92240", Offset = "0x4D92240", VA = "0x4D92240")]
 		set
 		{
 		}
@@ -128,7 +135,7 @@ public struct NavMeshBuildSettings
 	public bool overrideVoxelSize
 	{
 		[Token(Token = "0x6000068")]
-		[Address(RVA = "0x4A6AA30", Offset = "0x4A6AA30", VA = "0x4A6AA30")]
+		[Address(RVA = "0x4D92250", Offset = "0x4D92250", VA = "0x4D92250")]
 		set
 		{
 		}
@@ -138,7 +145,7 @@ public struct NavMeshBuildSettings
 	public float voxelSize
 	{
 		[Token(Token = "0x6000069")]
-		[Address(RVA = "0x4A6AA40", Offset = "0x4A6AA40", VA = "0x4A6AA40")]
+		[Address(RVA = "0x4D92260", Offset = "0x4D92260", VA = "0x4D92260")]
 		set
 		{
 		}
@@ -148,7 +155,7 @@ public struct NavMeshBuildSettings
 	public bool overrideTileSize
 	{
 		[Token(Token = "0x600006A")]
-		[Address(RVA = "0x4A6AA50", Offset = "0x4A6AA50", VA = "0x4A6AA50")]
+		[Address(RVA = "0x4D92270", Offset = "0x4D92270", VA = "0x4D92270")]
 		set
 		{
 		}
@@ -158,7 +165,7 @@ public struct NavMeshBuildSettings
 	public int tileSize
 	{
 		[Token(Token = "0x600006B")]
-		[Address(RVA = "0x4A6AA60", Offset = "0x4A6AA60", VA = "0x4A6AA60")]
+		[Address(RVA = "0x4D92280", Offset = "0x4D92280", VA = "0x4D92280")]
 		set
 		{
 		}
@@ -168,7 +175,7 @@ public struct NavMeshBuildSettings
 	public uint maxJobWorkers
 	{
 		[Token(Token = "0x600006C")]
-		[Address(RVA = "0x4A6AA70", Offset = "0x4A6AA70", VA = "0x4A6AA70")]
+		[Address(RVA = "0x4D92290", Offset = "0x4D92290", VA = "0x4D92290")]
 		set
 		{
 		}
@@ -178,7 +185,7 @@ public struct NavMeshBuildSettings
 	public bool buildHeightMesh
 	{
 		[Token(Token = "0x600006D")]
-		[Address(RVA = "0x4A6AA80", Offset = "0x4A6AA80", VA = "0x4A6AA80")]
+		[Address(RVA = "0x4D922A0", Offset = "0x4D922A0", VA = "0x4D922A0")]
 		set
 		{
 		}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MS.Internal.Xml.Cache.XPathNodePageInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace MS.Internal.Xml.Cache;
@@ -21,7 +28,7 @@ internal sealed class XPathNodePageInfo
 	public int PageNumber
 	{
 		[Token(Token = "0x6001CDC")]
-		[Address(RVA = "0x4455B40", Offset = "0x4455B40", VA = "0x4455B40")]
+		[Address(RVA = "0x47932A0", Offset = "0x47932A0", VA = "0x47932A0")]
 		get
 		{
 			return default(int);
@@ -32,7 +39,7 @@ internal sealed class XPathNodePageInfo
 	public int NodeCount
 	{
 		[Token(Token = "0x6001CDD")]
-		[Address(RVA = "0x4455B50", Offset = "0x4455B50", VA = "0x4455B50")]
+		[Address(RVA = "0x47932B0", Offset = "0x47932B0", VA = "0x47932B0")]
 		get
 		{
 			return default(int);
@@ -43,7 +50,7 @@ internal sealed class XPathNodePageInfo
 	public XPathNode[] NextPage
 	{
 		[Token(Token = "0x6001CDE")]
-		[Address(RVA = "0x4455B60", Offset = "0x4455B60", VA = "0x4455B60")]
+		[Address(RVA = "0x47932C0", Offset = "0x47932C0", VA = "0x47932C0")]
 		get
 		{
 			return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.CompilerServices.YieldAwaitable
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Threading;
 using Il2CppDummyDll;
 
@@ -21,7 +28,7 @@ public readonly struct YieldAwaitable
 		public bool IsCompleted
 		{
 			[Token(Token = "0x60022F1")]
-			[Address(RVA = "0x4EDDFC0", Offset = "0x4EDDFC0", VA = "0x4EDDFC0")]
+			[Address(RVA = "0x3BC3AE0", Offset = "0x3BC3AE0", VA = "0x3BC3AE0")]
 			get
 			{
 				return default(bool);
@@ -29,38 +36,38 @@ public readonly struct YieldAwaitable
 		}
 
 		[Token(Token = "0x60022F2")]
-		[Address(RVA = "0x4EDDFD0", Offset = "0x4EDDFD0", VA = "0x4EDDFD0", Slot = "5")]
+		[Address(RVA = "0x3BC3AF0", Offset = "0x3BC3AF0", VA = "0x3BC3AF0", Slot = "5")]
 		public void OnCompleted(Action continuation)
 		{
 		}
 
 		[Token(Token = "0x60022F3")]
-		[Address(RVA = "0x4EDE320", Offset = "0x4EDE320", VA = "0x4EDE320", Slot = "4")]
+		[Address(RVA = "0x3BC3E40", Offset = "0x3BC3E40", VA = "0x3BC3E40", Slot = "4")]
 		public void UnsafeOnCompleted(Action continuation)
 		{
 		}
 
 		[Token(Token = "0x60022F4")]
-		[Address(RVA = "0x4EDE040", Offset = "0x4EDE040", VA = "0x4EDE040")]
+		[Address(RVA = "0x3BC3B60", Offset = "0x3BC3B60", VA = "0x3BC3B60")]
 		private static void QueueContinuation(Action continuation, bool flowContext)
 		{
 		}
 
 		[Token(Token = "0x60022F5")]
-		[Address(RVA = "0x4EDE390", Offset = "0x4EDE390", VA = "0x4EDE390")]
+		[Address(RVA = "0x3BC3EB0", Offset = "0x3BC3EB0", VA = "0x3BC3EB0")]
 		private static void RunAction(object state)
 		{
 		}
 
 		[Token(Token = "0x60022F6")]
-		[Address(RVA = "0x4EDE3E0", Offset = "0x4EDE3E0", VA = "0x4EDE3E0")]
+		[Address(RVA = "0x3BC3F00", Offset = "0x3BC3F00", VA = "0x3BC3F00")]
 		public void GetResult()
 		{
 		}
 	}
 
 	[Token(Token = "0x60022F0")]
-	[Address(RVA = "0x4EDDFB0", Offset = "0x4EDDFB0", VA = "0x4EDDFB0")]
+	[Address(RVA = "0x3BC3AD0", Offset = "0x3BC3AD0", VA = "0x3BC3AD0")]
 	public YieldAwaiter GetAwaiter()
 	{
 		return default(YieldAwaiter);

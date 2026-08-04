@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlTypeMapMemberFlatList
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Serialization;
@@ -13,20 +20,20 @@ internal class XmlTypeMapMemberFlatList : XmlTypeMapMemberExpandable
 	public ListMap ListMap
 	{
 		[Token(Token = "0x6000ECC")]
-		[Address(RVA = "0x44FB8B0", Offset = "0x44FB8B0", VA = "0x44FB8B0")]
+		[Address(RVA = "0x4839010", Offset = "0x4839010", VA = "0x4839010")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000ECD")]
-		[Address(RVA = "0x44FB8C0", Offset = "0x44FB8C0", VA = "0x44FB8C0")]
+		[Address(RVA = "0x4839020", Offset = "0x4839020", VA = "0x4839020")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000ECE")]
-	[Address(RVA = "0x44FB8D0", Offset = "0x44FB8D0", VA = "0x44FB8D0")]
+	[Address(RVA = "0x4839030", Offset = "0x4839030", VA = "0x4839030")]
 	public XmlTypeMapMemberFlatList()
 	{
 	}

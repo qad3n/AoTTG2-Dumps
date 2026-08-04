@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Gisketch.Aottg2UI.Game.AottgCharacterInfoState
+// Update status: CHANGED in this game update
+// Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgCharacterInfoState.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 using Settings;
@@ -6,214 +13,221 @@ using Utility;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000156")]
+[Token(Token = "0x2000188")]
 internal static class AottgCharacterInfoState
 {
-	[Token(Token = "0x40007BF")]
+	[Token(Token = "0x4000880")]
 	private const int MaxVisibleTextLength = 31;
 
-	[Token(Token = "0x40007C0")]
+	[Token(Token = "0x4000881")]
 	[FieldOffset(Offset = "0x0")]
 	private static JSONNode _remote;
 
-	[Token(Token = "0x600074A")]
-	[Address(RVA = "0x40C8240", Offset = "0x40C8240", VA = "0x40C8240")]
+	[Token(Token = "0x60008BD")]
+	[Address(RVA = "0x43F90C0", Offset = "0x43F90C0", VA = "0x43F90C0")]
 	public static JSONNode Current()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600074B")]
-	[Address(RVA = "0x40CC1E0", Offset = "0x40CC1E0", VA = "0x40CC1E0")]
+	[Token(Token = "0x60008BE")]
+	[Address(RVA = "0x43FD6C0", Offset = "0x43FD6C0", VA = "0x43FD6C0")]
 	public static void SetRemote(JSONNode node)
 	{
 	}
 
-	[Token(Token = "0x600074C")]
-	[Address(RVA = "0x40CC7E0", Offset = "0x40CC7E0", VA = "0x40CC7E0")]
+	[Token(Token = "0x60008BF")]
+	[Address(RVA = "0x43FDCC0", Offset = "0x43FDCC0", VA = "0x43FDCC0")]
 	public static void ClearRemote()
 	{
 	}
 
-	[Token(Token = "0x600074D")]
-	[Address(RVA = "0x40CC830", Offset = "0x40CC830", VA = "0x40CC830")]
+	[Token(Token = "0x60008C0")]
+	[Address(RVA = "0x43FDD10", Offset = "0x43FDD10", VA = "0x43FDD10")]
 	public static void ApplyCurrentToRuntime()
 	{
 	}
 
-	[Token(Token = "0x600074E")]
-	[Address(RVA = "0x40CCB60", Offset = "0x40CCB60", VA = "0x40CCB60")]
+	[Token(Token = "0x60008C1")]
+	[Address(RVA = "0x43FE040", Offset = "0x43FE040", VA = "0x43FE040")]
 	public static void ApplyLocalToRuntime()
 	{
 	}
 
-	[Token(Token = "0x600074F")]
-	[Address(RVA = "0x40CCC00", Offset = "0x40CCC00", VA = "0x40CCC00")]
+	[Token(Token = "0x60008C2")]
+	[Address(RVA = "0x43FE0E0", Offset = "0x43FE0E0", VA = "0x43FE0E0")]
 	public static void SaveLocal(JSONNode node)
 	{
 	}
 
-	[Token(Token = "0x6000750")]
-	[Address(RVA = "0x40CCC10", Offset = "0x40CCC10", VA = "0x40CCC10")]
+	[Token(Token = "0x60008C3")]
+	[Address(RVA = "0x43FE0F0", Offset = "0x43FE0F0", VA = "0x43FE0F0")]
 	public static JSONNode WithNameAndGuild(string name, string guild, string guildPresetId, IEnumerable<string> badges, bool nameEffectEnabled, string nameEffectType, IEnumerable<string> nameEffectColors, bool guildEffectEnabled, string guildEffectType, IEnumerable<string> guildEffectColors, string nameFont, string guildFont)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000751")]
-	[Address(RVA = "0x40CC230", Offset = "0x40CC230", VA = "0x40CC230")]
+	[Token(Token = "0x60008C4")]
+	[Address(RVA = "0x43FD710", Offset = "0x43FD710", VA = "0x43FD710")]
 	public static JSONNode Sanitize(JSONNode node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000752")]
-	[Address(RVA = "0x40CEB30", Offset = "0x40CEB30", VA = "0x40CEB30")]
+	[Token(Token = "0x60008C5")]
+	[Address(RVA = "0x4400110", Offset = "0x4400110", VA = "0x4400110")]
 	public static string DisplayGuild(JSONNode info)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000753")]
-	[Address(RVA = "0x40CC0C0", Offset = "0x40CC0C0", VA = "0x40CC0C0")]
+	[Token(Token = "0x60008C6")]
+	[Address(RVA = "0x43FD5A0", Offset = "0x43FD5A0", VA = "0x43FD5A0")]
 	private static JSONNode Local()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000754")]
-	[Address(RVA = "0x40CD6C0", Offset = "0x40CD6C0", VA = "0x40CD6C0")]
+	[Token(Token = "0x60008C7")]
+	[Address(RVA = "0x43FEBA0", Offset = "0x43FEBA0", VA = "0x43FEBA0")]
 	private static string LocalName()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000755")]
-	[Address(RVA = "0x40CD870", Offset = "0x40CD870", VA = "0x40CD870")]
+	[Token(Token = "0x60008C8")]
+	[Address(RVA = "0x43FED50", Offset = "0x43FED50", VA = "0x43FED50")]
 	private static string LocalGuild()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000756")]
-	[Address(RVA = "0x40CEA30", Offset = "0x40CEA30", VA = "0x40CEA30")]
+	[Token(Token = "0x60008C9")]
+	[Address(RVA = "0x4400010", Offset = "0x4400010", VA = "0x4400010")]
 	private static string LocalNameFont()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000757")]
-	[Address(RVA = "0x40CEAB0", Offset = "0x40CEAB0", VA = "0x40CEAB0")]
+	[Token(Token = "0x60008CA")]
+	[Address(RVA = "0x4400090", Offset = "0x4400090", VA = "0x4400090")]
 	private static string LocalGuildFont()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000758")]
-	[Address(RVA = "0x40CD740", Offset = "0x40CD740", VA = "0x40CD740")]
+	[Token(Token = "0x60008CB")]
+	[Address(RVA = "0x43FEC20", Offset = "0x43FEC20", VA = "0x43FEC20")]
 	private static string String(JSONNode node, string key, string fallback)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000759")]
-	[Address(RVA = "0x40CD8F0", Offset = "0x40CD8F0", VA = "0x40CD8F0")]
+	[Token(Token = "0x60008CC")]
+	[Address(RVA = "0x43FEDD0", Offset = "0x43FEDD0", VA = "0x43FEDD0")]
+	private static string StringAllowEmpty(JSONNode node, string key, string fallback)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60008CD")]
+	[Address(RVA = "0x43FEED0", Offset = "0x43FEED0", VA = "0x43FEED0")]
 	private static string OptionalString(JSONNode node, string key, int max)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600075A")]
-	[Address(RVA = "0x40CDA70", Offset = "0x40CDA70", VA = "0x40CDA70")]
+	[Token(Token = "0x60008CE")]
+	[Address(RVA = "0x43FF050", Offset = "0x43FF050", VA = "0x43FF050")]
 	private static JSONArray Badges(JSONNode node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600075B")]
-	[Address(RVA = "0x40CD080", Offset = "0x40CD080", VA = "0x40CD080")]
+	[Token(Token = "0x60008CF")]
+	[Address(RVA = "0x43FE560", Offset = "0x43FE560", VA = "0x43FE560")]
 	private static JSONArray BadgesArray(IEnumerable<string> items)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600075C")]
-	[Address(RVA = "0x40CE460", Offset = "0x40CE460", VA = "0x40CE460")]
+	[Token(Token = "0x60008D0")]
+	[Address(RVA = "0x43FFA40", Offset = "0x43FFA40", VA = "0x43FFA40")]
 	private static JSONObject Effect(JSONNode node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600075D")]
-	[Address(RVA = "0x40CD510", Offset = "0x40CD510", VA = "0x40CD510")]
+	[Token(Token = "0x60008D1")]
+	[Address(RVA = "0x43FE9F0", Offset = "0x43FE9F0", VA = "0x43FE9F0")]
 	private static JSONObject EffectWith(JSONNode current, bool enabled, string type, IEnumerable<string> colors)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600075E")]
-	[Address(RVA = "0x40CEED0", Offset = "0x40CEED0", VA = "0x40CEED0")]
+	[Token(Token = "0x60008D2")]
+	[Address(RVA = "0x44004B0", Offset = "0x44004B0", VA = "0x44004B0")]
 	private static JSONArray ColorArray(IEnumerable<string> colors, JSONNode fallback)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600075F")]
-	[Address(RVA = "0x40CC840", Offset = "0x40CC840", VA = "0x40CC840")]
+	[Token(Token = "0x60008D3")]
+	[Address(RVA = "0x43FDD20", Offset = "0x43FDD20", VA = "0x43FDD20")]
 	private static void ApplyToRuntime(JSONNode node, bool saveLocal)
 	{
 	}
 
-	[Token(Token = "0x6000760")]
-	[Address(RVA = "0x40CF5B0", Offset = "0x40CF5B0", VA = "0x40CF5B0")]
+	[Token(Token = "0x60008D4")]
+	[Address(RVA = "0x4400B90", Offset = "0x4400B90", VA = "0x4400B90")]
 	private static void ApplyEffect(JSONNode effect, BoolSetting enabled, StringSetting type, ColorSetting colorA, ColorSetting colorB, ColorSetting colorC, ColorSetting colorD)
 	{
 	}
 
-	[Token(Token = "0x6000761")]
-	[Address(RVA = "0x40CDF90", Offset = "0x40CDF90", VA = "0x40CDF90")]
+	[Token(Token = "0x60008D5")]
+	[Address(RVA = "0x43FF570", Offset = "0x43FF570", VA = "0x43FF570")]
 	private static JSONObject LegacyEffect(bool name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000762")]
-	[Address(RVA = "0x40CED80", Offset = "0x40CED80", VA = "0x40CED80")]
+	[Token(Token = "0x60008D6")]
+	[Address(RVA = "0x4400360", Offset = "0x4400360", VA = "0x4400360")]
 	private static string ColorString(JSONNode colors, int index, string fallback)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000763")]
-	[Address(RVA = "0x40CF530", Offset = "0x40CF530", VA = "0x40CF530")]
+	[Token(Token = "0x60008D7")]
+	[Address(RVA = "0x4400B10", Offset = "0x4400B10", VA = "0x4400B10")]
 	private static string ColorStringValue(string value, string fallback)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000764")]
-	[Address(RVA = "0x40CF8E0", Offset = "0x40CF8E0", VA = "0x40CF8E0")]
+	[Token(Token = "0x60008D8")]
+	[Address(RVA = "0x4400EC0", Offset = "0x4400EC0", VA = "0x4400EC0")]
 	private static Color255 ParseColor(JSONNode colors, int index, Color255 fallback)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000765")]
-	[Address(RVA = "0x40CFA40", Offset = "0x40CFA40", VA = "0x40CFA40")]
+	[Token(Token = "0x60008D9")]
+	[Address(RVA = "0x4401020", Offset = "0x4401020", VA = "0x4401020")]
 	private static string ColorHex(Color255 color)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000766")]
-	[Address(RVA = "0x40CED40", Offset = "0x40CED40", VA = "0x40CED40")]
+	[Token(Token = "0x60008DA")]
+	[Address(RVA = "0x4400320", Offset = "0x4400320", VA = "0x4400320")]
 	private static string Trim(string value, int max)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000767")]
-	[Address(RVA = "0x40CCFB0", Offset = "0x40CCFB0", VA = "0x40CCFB0")]
+	[Token(Token = "0x60008DB")]
+	[Address(RVA = "0x43FE490", Offset = "0x43FE490", VA = "0x43FE490")]
 	private static string TrimColoredText(string value, int max)
 	{
 		return null;

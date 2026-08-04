@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.ReadOnlyAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -23,7 +30,7 @@ public sealed class ReadOnlyAttribute : Attribute
 	public bool IsReadOnly
 	{
 		[Token(Token = "0x6000EC9")]
-		[Address(RVA = "0x455DF80", Offset = "0x455DF80", VA = "0x455DF80")]
+		[Address(RVA = "0x4883080", Offset = "0x4883080", VA = "0x4883080")]
 		[CompilerGenerated]
 		get
 		{
@@ -32,27 +39,27 @@ public sealed class ReadOnlyAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000EC8")]
-	[Address(RVA = "0x455DF60", Offset = "0x455DF60", VA = "0x455DF60")]
+	[Address(RVA = "0x4883060", Offset = "0x4883060", VA = "0x4883060")]
 	public ReadOnlyAttribute(bool isReadOnly)
 	{
 	}
 
 	[Token(Token = "0x6000ECA")]
-	[Address(RVA = "0x455DF90", Offset = "0x455DF90", VA = "0x455DF90", Slot = "0")]
+	[Address(RVA = "0x4883090", Offset = "0x4883090", VA = "0x4883090", Slot = "0")]
 	public override bool Equals(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000ECB")]
-	[Address(RVA = "0x455E050", Offset = "0x455E050", VA = "0x455E050", Slot = "2")]
+	[Address(RVA = "0x4883150", Offset = "0x4883150", VA = "0x4883150", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000ECC")]
-	[Address(RVA = "0x455E060", Offset = "0x455E060", VA = "0x455E060", Slot = "6")]
+	[Address(RVA = "0x4883160", Offset = "0x4883160", VA = "0x4883160", Slot = "6")]
 	public override bool IsDefaultAttribute()
 	{
 		return default(bool);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.OrInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -9,14 +16,14 @@ internal abstract class OrInstruction : Instruction
 	private sealed class OrSByte : OrInstruction
 	{
 		[Token(Token = "0x6000A80")]
-		[Address(RVA = "0x41DBF50", Offset = "0x41DBF50", VA = "0x41DBF50", Slot = "8")]
+		[Address(RVA = "0x4501050", Offset = "0x4501050", VA = "0x4501050", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A81")]
-		[Address(RVA = "0x41DBEC0", Offset = "0x41DBEC0", VA = "0x41DBEC0")]
+		[Address(RVA = "0x4500FC0", Offset = "0x4500FC0", VA = "0x4500FC0")]
 		public OrSByte()
 		{
 		}
@@ -26,14 +33,14 @@ internal abstract class OrInstruction : Instruction
 	private sealed class OrInt16 : OrInstruction
 	{
 		[Token(Token = "0x6000A82")]
-		[Address(RVA = "0x41DC010", Offset = "0x41DC010", VA = "0x41DC010", Slot = "8")]
+		[Address(RVA = "0x4501110", Offset = "0x4501110", VA = "0x4501110", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A83")]
-		[Address(RVA = "0x41DBED0", Offset = "0x41DBED0", VA = "0x41DBED0")]
+		[Address(RVA = "0x4500FD0", Offset = "0x4500FD0", VA = "0x4500FD0")]
 		public OrInt16()
 		{
 		}
@@ -43,14 +50,14 @@ internal abstract class OrInstruction : Instruction
 	private sealed class OrInt32 : OrInstruction
 	{
 		[Token(Token = "0x6000A84")]
-		[Address(RVA = "0x41DC0D0", Offset = "0x41DC0D0", VA = "0x41DC0D0", Slot = "8")]
+		[Address(RVA = "0x45011D0", Offset = "0x45011D0", VA = "0x45011D0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A85")]
-		[Address(RVA = "0x41DBEE0", Offset = "0x41DBEE0", VA = "0x41DBEE0")]
+		[Address(RVA = "0x4500FE0", Offset = "0x4500FE0", VA = "0x4500FE0")]
 		public OrInt32()
 		{
 		}
@@ -60,14 +67,14 @@ internal abstract class OrInstruction : Instruction
 	private sealed class OrInt64 : OrInstruction
 	{
 		[Token(Token = "0x6000A86")]
-		[Address(RVA = "0x41DC190", Offset = "0x41DC190", VA = "0x41DC190", Slot = "8")]
+		[Address(RVA = "0x4501290", Offset = "0x4501290", VA = "0x4501290", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A87")]
-		[Address(RVA = "0x41DBEF0", Offset = "0x41DBEF0", VA = "0x41DBEF0")]
+		[Address(RVA = "0x4500FF0", Offset = "0x4500FF0", VA = "0x4500FF0")]
 		public OrInt64()
 		{
 		}
@@ -77,14 +84,14 @@ internal abstract class OrInstruction : Instruction
 	private sealed class OrByte : OrInstruction
 	{
 		[Token(Token = "0x6000A88")]
-		[Address(RVA = "0x41DC260", Offset = "0x41DC260", VA = "0x41DC260", Slot = "8")]
+		[Address(RVA = "0x4501360", Offset = "0x4501360", VA = "0x4501360", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A89")]
-		[Address(RVA = "0x41DBF00", Offset = "0x41DBF00", VA = "0x41DBF00")]
+		[Address(RVA = "0x4501000", Offset = "0x4501000", VA = "0x4501000")]
 		public OrByte()
 		{
 		}
@@ -94,14 +101,14 @@ internal abstract class OrInstruction : Instruction
 	private sealed class OrUInt16 : OrInstruction
 	{
 		[Token(Token = "0x6000A8A")]
-		[Address(RVA = "0x41DC320", Offset = "0x41DC320", VA = "0x41DC320", Slot = "8")]
+		[Address(RVA = "0x4501420", Offset = "0x4501420", VA = "0x4501420", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A8B")]
-		[Address(RVA = "0x41DBF10", Offset = "0x41DBF10", VA = "0x41DBF10")]
+		[Address(RVA = "0x4501010", Offset = "0x4501010", VA = "0x4501010")]
 		public OrUInt16()
 		{
 		}
@@ -111,14 +118,14 @@ internal abstract class OrInstruction : Instruction
 	private sealed class OrUInt32 : OrInstruction
 	{
 		[Token(Token = "0x6000A8C")]
-		[Address(RVA = "0x41DC3E0", Offset = "0x41DC3E0", VA = "0x41DC3E0", Slot = "8")]
+		[Address(RVA = "0x45014E0", Offset = "0x45014E0", VA = "0x45014E0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A8D")]
-		[Address(RVA = "0x41DBF20", Offset = "0x41DBF20", VA = "0x41DBF20")]
+		[Address(RVA = "0x4501020", Offset = "0x4501020", VA = "0x4501020")]
 		public OrUInt32()
 		{
 		}
@@ -128,14 +135,14 @@ internal abstract class OrInstruction : Instruction
 	private sealed class OrUInt64 : OrInstruction
 	{
 		[Token(Token = "0x6000A8E")]
-		[Address(RVA = "0x41DC4B0", Offset = "0x41DC4B0", VA = "0x41DC4B0", Slot = "8")]
+		[Address(RVA = "0x45015B0", Offset = "0x45015B0", VA = "0x45015B0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A8F")]
-		[Address(RVA = "0x41DBF30", Offset = "0x41DBF30", VA = "0x41DBF30")]
+		[Address(RVA = "0x4501030", Offset = "0x4501030", VA = "0x4501030")]
 		public OrUInt64()
 		{
 		}
@@ -145,14 +152,14 @@ internal abstract class OrInstruction : Instruction
 	private sealed class OrBoolean : OrInstruction
 	{
 		[Token(Token = "0x6000A90")]
-		[Address(RVA = "0x41DC580", Offset = "0x41DC580", VA = "0x41DC580", Slot = "8")]
+		[Address(RVA = "0x4501680", Offset = "0x4501680", VA = "0x4501680", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A91")]
-		[Address(RVA = "0x41DBF40", Offset = "0x41DBF40", VA = "0x41DBF40")]
+		[Address(RVA = "0x4501040", Offset = "0x4501040", VA = "0x4501040")]
 		public OrBoolean()
 		{
 		}
@@ -198,7 +205,7 @@ internal abstract class OrInstruction : Instruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x6000A7B")]
-		[Address(RVA = "0x41DBA40", Offset = "0x41DBA40", VA = "0x41DBA40", Slot = "4")]
+		[Address(RVA = "0x4500B40", Offset = "0x4500B40", VA = "0x4500B40", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -209,7 +216,7 @@ internal abstract class OrInstruction : Instruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x6000A7C")]
-		[Address(RVA = "0x41DBA50", Offset = "0x41DBA50", VA = "0x41DBA50", Slot = "5")]
+		[Address(RVA = "0x4500B50", Offset = "0x4500B50", VA = "0x4500B50", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -220,7 +227,7 @@ internal abstract class OrInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x6000A7D")]
-		[Address(RVA = "0x41DBA60", Offset = "0x41DBA60", VA = "0x41DBA60", Slot = "9")]
+		[Address(RVA = "0x4500B60", Offset = "0x4500B60", VA = "0x4500B60", Slot = "9")]
 		get
 		{
 			return null;
@@ -228,13 +235,13 @@ internal abstract class OrInstruction : Instruction
 	}
 
 	[Token(Token = "0x6000A7E")]
-	[Address(RVA = "0x41DBA90", Offset = "0x41DBA90", VA = "0x41DBA90")]
+	[Address(RVA = "0x4500B90", Offset = "0x4500B90", VA = "0x4500B90")]
 	private OrInstruction()
 	{
 	}
 
 	[Token(Token = "0x6000A7F")]
-	[Address(RVA = "0x41DBAA0", Offset = "0x41DBAA0", VA = "0x41DBAA0")]
+	[Address(RVA = "0x4500BA0", Offset = "0x4500BA0", VA = "0x4500BA0")]
 	public static Instruction Create(Type type)
 	{
 		return null;

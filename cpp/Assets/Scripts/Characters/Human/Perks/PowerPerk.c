@@ -1,13 +1,14 @@
 // Type: Assets.Scripts.Characters.Human.Perks.PowerPerk
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Assets.Scripts.Characters.Human.Perks/PowerPerk.cs
-// Prior source: NEW in this update
+// Prior real C# source: none
 // --------------------------------
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$get_PerkEnabled
 // il2cpp: bool Assets_Scripts_Characters_Human_Perks_PowerPerk__get_PerkEnabled (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x414e310
+// 0x4481320
 
 bool_conflict
 Assets_Scripts_Characters_Human_Perks_PowerPerk__get_PerkEnabled
@@ -26,7 +27,7 @@ Assets_Scripts_Characters_Human_Perks_PowerPerk__get_PerkEnabled
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$get_MaxPower
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_MaxPower (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x414e330
+// 0x4481340
 
 float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_MaxPower
                 (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -38,7 +39,7 @@ float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_MaxPower
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$get_MinPower
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_MinPower (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x414e340
+// 0x4481350
 
 float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_MinPower
                 (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -50,7 +51,7 @@ float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_MinPower
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$get_PowerCost
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_PowerCost (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x414e350
+// 0x4481360
 
 float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_PowerCost
                 (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -62,7 +63,7 @@ float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_PowerCost
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$get_LinearRecoveryRate
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_LinearRecoveryRate (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x414e360
+// 0x4481370
 
 float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_LinearRecoveryRate
                 (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -74,7 +75,7 @@ float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_LinearRecoveryRate
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$get_Cooldown
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_Cooldown (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x414e370
+// 0x4481380
 
 float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_Cooldown
                 (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -86,7 +87,7 @@ float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_Cooldown
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$.ctor
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_PowerPerk___ctor (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x414e380
+// 0x4481390
 
 void Assets_Scripts_Characters_Human_Perks_PowerPerk___ctor
                (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -107,7 +108,7 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk___ctor
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$Reset
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_PowerPerk__Reset (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x414e3c0
+// 0x44813d0
 
 void Assets_Scripts_Characters_Human_Perks_PowerPerk__Reset
                (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -126,7 +127,7 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk__Reset
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$GetCurrentPower
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetCurrentPower (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x414e3f0
+// 0x4481400
 
 float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetCurrentPower
                 (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -165,11 +166,10 @@ float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetCurrentPower
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$SetCurrentPower
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_PowerPerk__SetCurrentPower (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, float power, const MethodInfo* method);
-// 0x414e590
+// 0x44815a0
 
 void Assets_Scripts_Characters_Human_Perks_PowerPerk__SetCurrentPower
-               (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,float power,
-               MethodInfo *method)
+               (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,float power,MethodInfo *method)
 
 {
   float fVar1;
@@ -192,11 +192,10 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk__SetCurrentPower
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$RecoverPower
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_PowerPerk__RecoverPower (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, float amount, const MethodInfo* method);
-// 0x414e600
+// 0x4481610
 
 void Assets_Scripts_Characters_Human_Perks_PowerPerk__RecoverPower
-               (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,float amount,
-               MethodInfo *method)
+               (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,float amount,MethodInfo *method)
 
 {
   float fVar1;
@@ -221,11 +220,10 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk__RecoverPower
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$RecoverPowerBySeconds
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_PowerPerk__RecoverPowerBySeconds (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, float seconds, const MethodInfo* method);
-// 0x414e670
+// 0x4481680
 
 void Assets_Scripts_Characters_Human_Perks_PowerPerk__RecoverPowerBySeconds
-               (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,float seconds,
-               MethodInfo *method)
+               (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,float seconds,MethodInfo *method)
 
 {
   float fVar1;
@@ -254,7 +252,7 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk__RecoverPowerBySeconds
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$GetPowerRatio
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetPowerRatio (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x414e700
+// 0x4481710
 
 float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetPowerRatio
                 (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -308,7 +306,7 @@ float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetPowerRatio
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$UpdatePower
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_PowerPerk__UpdatePower (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x414e4c0
+// 0x44814d0
 
 void Assets_Scripts_Characters_Human_Perks_PowerPerk__UpdatePower
                (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -347,11 +345,10 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk__UpdatePower
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$GetRecoveryAmount
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetRecoveryAmount (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, float deltaTime, const MethodInfo* method);
-// 0x414e880
+// 0x4481890
 
 float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetRecoveryAmount
-                (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,float deltaTime,
-                MethodInfo *method)
+                (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,float deltaTime,MethodInfo *method)
 
 {
   float fVar1;
@@ -364,7 +361,7 @@ float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetRecoveryAmount
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$CanUse
 // il2cpp: bool Assets_Scripts_Characters_Human_Perks_PowerPerk__CanUse (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x414e8a0
+// 0x44818b0
 
 bool_conflict
 Assets_Scripts_Characters_Human_Perks_PowerPerk__CanUse
@@ -416,7 +413,7 @@ Assets_Scripts_Characters_Human_Perks_PowerPerk__CanUse
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$OnUse
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_PowerPerk__OnUse (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x414e9c0
+// 0x44819d0
 
 void Assets_Scripts_Characters_Human_Perks_PowerPerk__OnUse
                (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -473,7 +470,7 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk__OnUse
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$SetCooldownLeft
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_PowerPerk__SetCooldownLeft (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, float cooldownLeft, const MethodInfo* method);
-// 0x414eb20
+// 0x4481b30
 
 void Assets_Scripts_Characters_Human_Perks_PowerPerk__SetCooldownLeft
                (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,float cooldownLeft,
@@ -493,7 +490,7 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk__SetCooldownLeft
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$GetCooldownLeft
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetCooldownLeft (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x414eb70
+// 0x4481b80
 
 float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetCooldownLeft
                 (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -520,7 +517,7 @@ float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetCooldownLeft
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$GetCooldownRatio
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetCooldownRatio (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x414ebe0
+// 0x4481bf0
 
 float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetCooldownRatio
                 (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)

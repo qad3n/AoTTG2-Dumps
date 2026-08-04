@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Pun.UtilityScripts.CullArea
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/CullArea.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -62,14 +69,14 @@ public class CullArea : MonoBehaviour
 	public int CellCount
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x3BE3960", Offset = "0x3BE3960", VA = "0x3BE3960")]
+		[Address(RVA = "0x3EFBE30", Offset = "0x3EFBE30", VA = "0x3EFBE30")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x3BE3970", Offset = "0x3BE3970", VA = "0x3BE3970")]
+		[Address(RVA = "0x3EFBE40", Offset = "0x3EFBE40", VA = "0x3EFBE40")]
 		[CompilerGenerated]
 		private set
 		{
@@ -80,14 +87,14 @@ public class CullArea : MonoBehaviour
 	public CellTree CellTree
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x3BE3980", Offset = "0x3BE3980", VA = "0x3BE3980")]
+		[Address(RVA = "0x3EFBE50", Offset = "0x3EFBE50", VA = "0x3EFBE50")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x3BE3990", Offset = "0x3BE3990", VA = "0x3BE3990")]
+		[Address(RVA = "0x3EFBE60", Offset = "0x3EFBE60", VA = "0x3EFBE60")]
 		[CompilerGenerated]
 		private set
 		{
@@ -98,14 +105,14 @@ public class CullArea : MonoBehaviour
 	public Dictionary<int, GameObject> Map
 	{
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x3BE39A0", Offset = "0x3BE39A0", VA = "0x3BE39A0")]
+		[Address(RVA = "0x3EFBE70", Offset = "0x3EFBE70", VA = "0x3EFBE70")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x3BE39B0", Offset = "0x3BE39B0", VA = "0x3BE39B0")]
+		[Address(RVA = "0x3EFBE80", Offset = "0x3EFBE80", VA = "0x3EFBE80")]
 		[CompilerGenerated]
 		private set
 		{
@@ -113,51 +120,51 @@ public class CullArea : MonoBehaviour
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x3BE39C0", Offset = "0x3BE39C0", VA = "0x3BE39C0")]
+	[Address(RVA = "0x3EFBE90", Offset = "0x3EFBE90", VA = "0x3EFBE90")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x3BE3F40", Offset = "0x3BE3F40", VA = "0x3BE3F40")]
+	[Address(RVA = "0x3EFC410", Offset = "0x3EFC410", VA = "0x3EFC410")]
 	public void OnDrawGizmos()
 	{
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x3BE39D0", Offset = "0x3BE39D0", VA = "0x3BE39D0")]
+	[Address(RVA = "0x3EFBEA0", Offset = "0x3EFBEA0", VA = "0x3EFBEA0")]
 	private void CreateCellHierarchy()
 	{
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x3BE4060", Offset = "0x3BE4060", VA = "0x3BE4060")]
+	[Address(RVA = "0x3EFC530", Offset = "0x3EFC530", VA = "0x3EFC530")]
 	private void CreateChildCells(CellTreeNode parent, int cellLevelInHierarchy)
 	{
 	}
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x3BE3F70", Offset = "0x3BE3F70", VA = "0x3BE3F70")]
+	[Address(RVA = "0x3EFC440", Offset = "0x3EFC440", VA = "0x3EFC440")]
 	private void DrawCells()
 	{
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x3BE3F90", Offset = "0x3BE3F90", VA = "0x3BE3F90")]
+	[Address(RVA = "0x3EFC460", Offset = "0x3EFC460", VA = "0x3EFC460")]
 	private bool IsCellCountAllowed()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x3BE44E0", Offset = "0x3BE44E0", VA = "0x3BE44E0")]
+	[Address(RVA = "0x3EFC9B0", Offset = "0x3EFC9B0", VA = "0x3EFC9B0")]
 	public List<byte> GetActiveCells(Vector3 position)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x3BE4980", Offset = "0x3BE4980", VA = "0x3BE4980")]
+	[Address(RVA = "0x3EFCE50", Offset = "0x3EFCE50", VA = "0x3EFCE50")]
 	public CullArea()
 	{
 	}

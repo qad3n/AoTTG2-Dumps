@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.BloomRenderer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
 
@@ -50,19 +57,19 @@ internal sealed class BloomRenderer : PostProcessEffectRenderer<Bloom>
 	private const int k_MaxPyramidSize = 16;
 
 	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x480FCA0", Offset = "0x480FCA0", VA = "0x480FCA0", Slot = "4")]
+	[Address(RVA = "0x4B34D90", Offset = "0x4B34D90", VA = "0x4B34D90", Slot = "4")]
 	public override void Init()
 	{
 	}
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x480FDC0", Offset = "0x480FDC0", VA = "0x480FDC0", Slot = "8")]
+	[Address(RVA = "0x4B34EB0", Offset = "0x4B34EB0", VA = "0x4B34EB0", Slot = "8")]
 	public override void Render(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x4811080", Offset = "0x4811080", VA = "0x4811080")]
+	[Address(RVA = "0x4B36170", Offset = "0x4B36170", VA = "0x4B36170")]
 	public BloomRenderer()
 	{
 	}

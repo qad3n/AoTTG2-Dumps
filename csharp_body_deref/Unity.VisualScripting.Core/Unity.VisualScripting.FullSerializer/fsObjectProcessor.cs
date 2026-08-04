@@ -1,50 +1,57 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.FullSerializer.fsObjectProcessor
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x2000214")]
+[Token(Token = "0x200020D")]
 public abstract class fsObjectProcessor
 {
-	[Token(Token = "0x600129A")]
-	[Address(RVA = "0x4A5B6C0", Offset = "0x4A5B6C0", VA = "0x4A5B6C0", Slot = "4")]
+	[Token(Token = "0x600126F")]
+	[Address(RVA = "0x4D80CD0", Offset = "0x4D80CD0", VA = "0x4D80CD0", Slot = "4")]
 	public virtual bool CanProcess(Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600129B")]
-	[Address(RVA = "0x4A5B700", Offset = "0x4A5B700", VA = "0x4A5B700", Slot = "5")]
+	[Token(Token = "0x6001270")]
+	[Address(RVA = "0x4D80D10", Offset = "0x4D80D10", VA = "0x4D80D10", Slot = "5")]
 	public virtual void OnBeforeSerialize(Type storageType, object instance)
 	{
 	}
 
-	[Token(Token = "0x600129C")]
-	[Address(RVA = "0x4A5B710", Offset = "0x4A5B710", VA = "0x4A5B710", Slot = "6")]
+	[Token(Token = "0x6001271")]
+	[Address(RVA = "0x4D80D20", Offset = "0x4D80D20", VA = "0x4D80D20", Slot = "6")]
 	public virtual void OnAfterSerialize(Type storageType, object instance, ref fsData data)
 	{
 	}
 
-	[Token(Token = "0x600129D")]
-	[Address(RVA = "0x4A5B720", Offset = "0x4A5B720", VA = "0x4A5B720", Slot = "7")]
+	[Token(Token = "0x6001272")]
+	[Address(RVA = "0x4D80D30", Offset = "0x4D80D30", VA = "0x4D80D30", Slot = "7")]
 	public virtual void OnBeforeDeserialize(Type storageType, ref fsData data)
 	{
 	}
 
-	[Token(Token = "0x600129E")]
-	[Address(RVA = "0x4A5B730", Offset = "0x4A5B730", VA = "0x4A5B730", Slot = "8")]
+	[Token(Token = "0x6001273")]
+	[Address(RVA = "0x4D80D40", Offset = "0x4D80D40", VA = "0x4D80D40", Slot = "8")]
 	public virtual void OnBeforeDeserializeAfterInstanceCreation(Type storageType, object instance, ref fsData data)
 	{
 	}
 
-	[Token(Token = "0x600129F")]
-	[Address(RVA = "0x4A5B740", Offset = "0x4A5B740", VA = "0x4A5B740", Slot = "9")]
+	[Token(Token = "0x6001274")]
+	[Address(RVA = "0x4D80D50", Offset = "0x4D80D50", VA = "0x4D80D50", Slot = "9")]
 	public virtual void OnAfterDeserialize(Type storageType, object instance)
 	{
 	}
 
-	[Token(Token = "0x60012A0")]
-	[Address(RVA = "0x4A5B750", Offset = "0x4A5B750", VA = "0x4A5B750")]
+	[Token(Token = "0x6001275")]
+	[Address(RVA = "0x4D7C580", Offset = "0x4D7C580", VA = "0x4D7C580")]
 	protected fsObjectProcessor()
 	{
 	}

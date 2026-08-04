@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Threading.SemaphoreSlim
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -23,19 +30,19 @@ public class SemaphoreSlim : IDisposable
 		internal TaskNode Next;
 
 		[Token(Token = "0x6001208")]
-		[Address(RVA = "0x50498F0", Offset = "0x50498F0", VA = "0x50498F0")]
+		[Address(RVA = "0x3D2F410", Offset = "0x3D2F410", VA = "0x3D2F410")]
 		internal TaskNode()
 		{
 		}
 
 		[Token(Token = "0x6001209")]
-		[Address(RVA = "0x504A280", Offset = "0x504A280", VA = "0x504A280", Slot = "4")]
+		[Address(RVA = "0x3D2FDA0", Offset = "0x3D2FDA0", VA = "0x3D2FDA0", Slot = "4")]
 		private void System_002EThreading_002EIThreadPoolWorkItem_002EExecuteWorkItem()
 		{
 		}
 
 		[Token(Token = "0x600120A")]
-		[Address(RVA = "0x504A2C0", Offset = "0x504A2C0", VA = "0x504A2C0", Slot = "5")]
+		[Address(RVA = "0x3D2FDE0", Offset = "0x3D2FDE0", VA = "0x3D2FDE0", Slot = "5")]
 		private void System_002EThreading_002EIThreadPoolWorkItem_002EMarkAborted(ThreadAbortException tae)
 		{
 		}
@@ -87,13 +94,13 @@ public class SemaphoreSlim : IDisposable
 		private ConfiguredTaskAwaitable<bool>.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x600120B")]
-		[Address(RVA = "0x504A2D0", Offset = "0x504A2D0", VA = "0x504A2D0", Slot = "4")]
+		[Address(RVA = "0x3D2FDF0", Offset = "0x3D2FDF0", VA = "0x3D2FDF0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600120C")]
-		[Address(RVA = "0x504AD30", Offset = "0x504AD30", VA = "0x504AD30", Slot = "5")]
+		[Address(RVA = "0x3D30850", Offset = "0x3D30850", VA = "0x3D30850", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -144,68 +151,68 @@ public class SemaphoreSlim : IDisposable
 	private static Action<object> s_cancellationTokenCanceledEventHandler;
 
 	[Token(Token = "0x60011F5")]
-	[Address(RVA = "0x50486A0", Offset = "0x50486A0", VA = "0x50486A0")]
+	[Address(RVA = "0x3D2E1C0", Offset = "0x3D2E1C0", VA = "0x3D2E1C0")]
 	public SemaphoreSlim(int initialCount, int maxCount)
 	{
 	}
 
 	[Token(Token = "0x60011F6")]
-	[Address(RVA = "0x5048840", Offset = "0x5048840", VA = "0x5048840")]
+	[Address(RVA = "0x3D2E360", Offset = "0x3D2E360", VA = "0x3D2E360")]
 	public void Wait()
 	{
 	}
 
 	[Token(Token = "0x60011F7")]
-	[Address(RVA = "0x5048F60", Offset = "0x5048F60", VA = "0x5048F60")]
+	[Address(RVA = "0x3D2EA80", Offset = "0x3D2EA80", VA = "0x3D2EA80")]
 	public bool Wait(int millisecondsTimeout)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60011F8")]
-	[Address(RVA = "0x5048850", Offset = "0x5048850", VA = "0x5048850")]
+	[Address(RVA = "0x3D2E370", Offset = "0x3D2E370", VA = "0x3D2E370")]
 	public bool Wait(int millisecondsTimeout, CancellationToken cancellationToken)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60011F9")]
-	[Address(RVA = "0x50493B0", Offset = "0x50493B0", VA = "0x50493B0")]
+	[Address(RVA = "0x3D2EED0", Offset = "0x3D2EED0", VA = "0x3D2EED0")]
 	private bool WaitUntilCountOrTimeout(int millisecondsTimeout, uint startTime, CancellationToken cancellationToken)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60011FA")]
-	[Address(RVA = "0x50496A0", Offset = "0x50496A0", VA = "0x50496A0")]
+	[Address(RVA = "0x3D2F1C0", Offset = "0x3D2F1C0", VA = "0x3D2F1C0")]
 	public Task WaitAsync()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011FB")]
-	[Address(RVA = "0x5048FF0", Offset = "0x5048FF0", VA = "0x5048FF0")]
+	[Address(RVA = "0x3D2EB10", Offset = "0x3D2EB10", VA = "0x3D2EB10")]
 	public Task<bool> WaitAsync(int millisecondsTimeout, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011FC")]
-	[Address(RVA = "0x50496B0", Offset = "0x50496B0", VA = "0x50496B0")]
+	[Address(RVA = "0x3D2F1D0", Offset = "0x3D2F1D0", VA = "0x3D2F1D0")]
 	private TaskNode CreateAndAddAsyncWaiter()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011FD")]
-	[Address(RVA = "0x5049930", Offset = "0x5049930", VA = "0x5049930")]
+	[Address(RVA = "0x3D2F450", Offset = "0x3D2F450", VA = "0x3D2F450")]
 	private bool RemoveAsyncWaiter(TaskNode task)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60011FE")]
-	[Address(RVA = "0x5049790", Offset = "0x5049790", VA = "0x5049790")]
+	[Address(RVA = "0x3D2F2B0", Offset = "0x3D2F2B0", VA = "0x3D2F2B0")]
 	[AsyncStateMachine(typeof(_003CWaitUntilCountOrTimeoutAsync_003Ed__32))]
 	private Task<bool> WaitUntilCountOrTimeoutAsync(TaskNode asyncWaiter, int millisecondsTimeout, CancellationToken cancellationToken)
 	{
@@ -213,51 +220,51 @@ public class SemaphoreSlim : IDisposable
 	}
 
 	[Token(Token = "0x60011FF")]
-	[Address(RVA = "0x5049A20", Offset = "0x5049A20", VA = "0x5049A20")]
+	[Address(RVA = "0x3D2F540", Offset = "0x3D2F540", VA = "0x3D2F540")]
 	public int Release()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001200")]
-	[Address(RVA = "0x5049A30", Offset = "0x5049A30", VA = "0x5049A30")]
+	[Address(RVA = "0x3D2F550", Offset = "0x3D2F550", VA = "0x3D2F550")]
 	public int Release(int releaseCount)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001201")]
-	[Address(RVA = "0x5049EB0", Offset = "0x5049EB0", VA = "0x5049EB0")]
+	[Address(RVA = "0x3D2F9D0", Offset = "0x3D2F9D0", VA = "0x3D2F9D0")]
 	private static void QueueWaiterTask(TaskNode waiterTask)
 	{
 	}
 
 	[Token(Token = "0x6001202")]
-	[Address(RVA = "0x5049EC0", Offset = "0x5049EC0", VA = "0x5049EC0", Slot = "4")]
+	[Address(RVA = "0x3D2F9E0", Offset = "0x3D2F9E0", VA = "0x3D2F9E0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6001203")]
-	[Address(RVA = "0x5049F30", Offset = "0x5049F30", VA = "0x5049F30", Slot = "5")]
+	[Address(RVA = "0x3D2FA50", Offset = "0x3D2FA50", VA = "0x3D2FA50", Slot = "5")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6001204")]
-	[Address(RVA = "0x5049FE0", Offset = "0x5049FE0", VA = "0x5049FE0")]
+	[Address(RVA = "0x3D2FB00", Offset = "0x3D2FB00", VA = "0x3D2FB00")]
 	private static void CancellationTokenCanceledEventHandler(object obj)
 	{
 	}
 
 	[Token(Token = "0x6001205")]
-	[Address(RVA = "0x5048F70", Offset = "0x5048F70", VA = "0x5048F70")]
+	[Address(RVA = "0x3D2EA90", Offset = "0x3D2EA90", VA = "0x3D2EA90")]
 	private void CheckDispose()
 	{
 	}
 
 	[Token(Token = "0x6001206")]
-	[Address(RVA = "0x5048830", Offset = "0x5048830", VA = "0x5048830")]
+	[Address(RVA = "0x3D2E350", Offset = "0x3D2E350", VA = "0x3D2E350")]
 	private static string GetResourceString(string str)
 	{
 		return null;

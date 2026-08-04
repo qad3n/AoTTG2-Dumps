@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.StyleSheets.StylePropertyUtil
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -23,21 +30,21 @@ internal static class StylePropertyUtil
 	internal static readonly Dictionary<StylePropertyId, UsageHints> s_AnimatableWithUsageHintProperties;
 
 	[Token(Token = "0x6001FDB")]
-	[Address(RVA = "0x4C9A840", Offset = "0x4C9A840", VA = "0x4C9A840")]
+	[Address(RVA = "0x4FC2170", Offset = "0x4FC2170", VA = "0x4FC2170")]
 	public static bool TryGetEnumIntValue(StyleEnumType enumType, string value, out int intValue)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001FDC")]
-	[Address(RVA = "0x4C9CD90", Offset = "0x4C9CD90", VA = "0x4C9CD90")]
+	[Address(RVA = "0x4FC46C0", Offset = "0x4FC46C0", VA = "0x4FC46C0")]
 	public static bool IsMatchingShorthand(StylePropertyId shorthand, StylePropertyId id)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001FDD")]
-	[Address(RVA = "0x4C9CE80", Offset = "0x4C9CE80", VA = "0x4C9CE80")]
+	[Address(RVA = "0x4FC47B0", Offset = "0x4FC47B0", VA = "0x4FC47B0")]
 	public static bool IsAnimatable(StylePropertyId id)
 	{
 		return default(bool);

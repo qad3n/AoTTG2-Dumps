@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Discord.UserManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Plugins/DiscordGameSDK/Core.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -78,7 +85,7 @@ public class UserManager
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x6000155")]
-		[Address(RVA = "0x2335BE0", Offset = "0x2335BE0", VA = "0x2335BE0")]
+		[Address(RVA = "0x2335CA0", Offset = "0x2335CA0", VA = "0x2335CA0")]
 		get
 		{
 			return default(FFIMethods);
@@ -89,13 +96,13 @@ public class UserManager
 	public event CurrentUserUpdateHandler OnCurrentUserUpdate
 	{
 		[Token(Token = "0x6000156")]
-		[Address(RVA = "0x2335CF0", Offset = "0x2335CF0", VA = "0x2335CF0")]
+		[Address(RVA = "0x2335DB0", Offset = "0x2335DB0", VA = "0x2335DB0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000157")]
-		[Address(RVA = "0x2335D80", Offset = "0x2335D80", VA = "0x2335D80")]
+		[Address(RVA = "0x2335E40", Offset = "0x2335E40", VA = "0x2335E40")]
 		[CompilerGenerated]
 		remove
 		{
@@ -103,53 +110,53 @@ public class UserManager
 	}
 
 	[Token(Token = "0x6000158")]
-	[Address(RVA = "0x23320D0", Offset = "0x23320D0", VA = "0x23320D0")]
+	[Address(RVA = "0x2332190", Offset = "0x2332190", VA = "0x2332190")]
 	internal UserManager(IntPtr ptr, IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x6000159")]
-	[Address(RVA = "0x2335E10", Offset = "0x2335E10", VA = "0x2335E10")]
+	[Address(RVA = "0x2335ED0", Offset = "0x2335ED0", VA = "0x2335ED0")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x600015A")]
-	[Address(RVA = "0x2335FE0", Offset = "0x2335FE0", VA = "0x2335FE0")]
+	[Address(RVA = "0x23360A0", Offset = "0x23360A0", VA = "0x23360A0")]
 	public User GetCurrentUser()
 	{
 		return default(User);
 	}
 
 	[Token(Token = "0x600015B")]
-	[Address(RVA = "0x23359F0", Offset = "0x23359F0", VA = "0x23359F0")]
+	[Address(RVA = "0x2335AB0", Offset = "0x2335AB0", VA = "0x2335AB0")]
 	[MonoPInvokeCallback]
 	private static void GetUserCallbackImpl(IntPtr ptr, Result result, ref User user)
 	{
 	}
 
 	[Token(Token = "0x600015C")]
-	[Address(RVA = "0x2336090", Offset = "0x2336090", VA = "0x2336090")]
+	[Address(RVA = "0x2336150", Offset = "0x2336150", VA = "0x2336150")]
 	public void GetUser(long userId, GetUserHandler callback)
 	{
 	}
 
 	[Token(Token = "0x600015D")]
-	[Address(RVA = "0x2336280", Offset = "0x2336280", VA = "0x2336280")]
+	[Address(RVA = "0x2336340", Offset = "0x2336340", VA = "0x2336340")]
 	public PremiumType GetCurrentUserPremiumType()
 	{
 		return default(PremiumType);
 	}
 
 	[Token(Token = "0x600015E")]
-	[Address(RVA = "0x2336310", Offset = "0x2336310", VA = "0x2336310")]
+	[Address(RVA = "0x23363D0", Offset = "0x23363D0", VA = "0x23363D0")]
 	public bool CurrentUserHasFlag(UserFlag flag)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600015F")]
-	[Address(RVA = "0x2335AE0", Offset = "0x2335AE0", VA = "0x2335AE0")]
+	[Address(RVA = "0x2335BA0", Offset = "0x2335BA0", VA = "0x2335BA0")]
 	[MonoPInvokeCallback]
 	private static void OnCurrentUserUpdateImpl(IntPtr ptr)
 	{

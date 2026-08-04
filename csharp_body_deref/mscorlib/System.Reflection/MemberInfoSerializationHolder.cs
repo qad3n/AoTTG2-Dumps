@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Reflection.MemberInfoSerializationHolder
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
 
@@ -32,31 +39,31 @@ internal class MemberInfoSerializationHolder : ISerializable, IObjectReference
 	private SerializationInfo m_info;
 
 	[Token(Token = "0x60025AF")]
-	[Address(RVA = "0x4EF4460", Offset = "0x4EF4460", VA = "0x4EF4460")]
+	[Address(RVA = "0x3BD9F80", Offset = "0x3BD9F80", VA = "0x3BD9F80")]
 	public static void GetSerializationInfo(SerializationInfo info, string name, System.RuntimeType reflectedClass, string signature, MemberTypes type)
 	{
 	}
 
 	[Token(Token = "0x60025B0")]
-	[Address(RVA = "0x4EF4480", Offset = "0x4EF4480", VA = "0x4EF4480")]
+	[Address(RVA = "0x3BD9FA0", Offset = "0x3BD9FA0", VA = "0x3BD9FA0")]
 	public static void GetSerializationInfo(SerializationInfo info, string name, System.RuntimeType reflectedClass, string signature, string signature2, MemberTypes type, Type[] genericArguments)
 	{
 	}
 
 	[Token(Token = "0x60025B1")]
-	[Address(RVA = "0x4EF4770", Offset = "0x4EF4770", VA = "0x4EF4770")]
+	[Address(RVA = "0x3BDA290", Offset = "0x3BDA290", VA = "0x3BDA290")]
 	internal MemberInfoSerializationHolder(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60025B2")]
-	[Address(RVA = "0x4EF4AA0", Offset = "0x4EF4AA0", VA = "0x4EF4AA0", Slot = "6")]
+	[Address(RVA = "0x3BDA5C0", Offset = "0x3BDA5C0", VA = "0x3BDA5C0", Slot = "6")]
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60025B3")]
-	[Address(RVA = "0x4EF4B00", Offset = "0x4EF4B00", VA = "0x4EF4B00", Slot = "7")]
+	[Address(RVA = "0x3BDA620", Offset = "0x3BDA620", VA = "0x3BDA620", Slot = "7")]
 	public virtual object GetRealObject(StreamingContext context)
 	{
 		return null;

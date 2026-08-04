@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.DebugUpdater
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -30,7 +37,7 @@ internal class DebugUpdater : MonoBehaviour
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x600080A")]
-			[Address(RVA = "0x4886E00", Offset = "0x4886E00", VA = "0x4886E00", Slot = "4")]
+			[Address(RVA = "0x4BABEF0", Offset = "0x4BABEF0", VA = "0x4BABEF0", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -42,7 +49,7 @@ internal class DebugUpdater : MonoBehaviour
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x600080C")]
-			[Address(RVA = "0x4886E50", Offset = "0x4886E50", VA = "0x4886E50", Slot = "7")]
+			[Address(RVA = "0x4BABF40", Offset = "0x4BABF40", VA = "0x4BABF40", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -51,28 +58,28 @@ internal class DebugUpdater : MonoBehaviour
 		}
 
 		[Token(Token = "0x6000807")]
-		[Address(RVA = "0x4886990", Offset = "0x4886990", VA = "0x4886990")]
+		[Address(RVA = "0x4BABA80", Offset = "0x4BABA80", VA = "0x4BABA80")]
 		[DebuggerHidden]
 		public _003CDoAfterInputModuleUpdated_003Ed__9(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000808")]
-		[Address(RVA = "0x4886D00", Offset = "0x4886D00", VA = "0x4886D00", Slot = "5")]
+		[Address(RVA = "0x4BABDF0", Offset = "0x4BABDF0", VA = "0x4BABDF0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000809")]
-		[Address(RVA = "0x4886D10", Offset = "0x4886D10", VA = "0x4886D10", Slot = "6")]
+		[Address(RVA = "0x4BABE00", Offset = "0x4BABE00", VA = "0x4BABE00", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600080B")]
-		[Address(RVA = "0x4886E10", Offset = "0x4886E10", VA = "0x4886E10", Slot = "8")]
+		[Address(RVA = "0x4BABF00", Offset = "0x4BABF00", VA = "0x4BABF00", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -95,7 +102,7 @@ internal class DebugUpdater : MonoBehaviour
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x6000810")]
-			[Address(RVA = "0x4886F10", Offset = "0x4886F10", VA = "0x4886F10", Slot = "4")]
+			[Address(RVA = "0x4BAC000", Offset = "0x4BAC000", VA = "0x4BAC000", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -107,7 +114,7 @@ internal class DebugUpdater : MonoBehaviour
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000812")]
-			[Address(RVA = "0x4886F60", Offset = "0x4886F60", VA = "0x4886F60", Slot = "7")]
+			[Address(RVA = "0x4BAC050", Offset = "0x4BAC050", VA = "0x4BAC050", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -116,28 +123,28 @@ internal class DebugUpdater : MonoBehaviour
 		}
 
 		[Token(Token = "0x600080D")]
-		[Address(RVA = "0x4886CD0", Offset = "0x4886CD0", VA = "0x4886CD0")]
+		[Address(RVA = "0x4BABDC0", Offset = "0x4BABDC0", VA = "0x4BABDC0")]
 		[DebuggerHidden]
 		public _003CRefreshRuntimeUINextFrame_003Ed__14(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x600080E")]
-		[Address(RVA = "0x4886E60", Offset = "0x4886E60", VA = "0x4886E60", Slot = "5")]
+		[Address(RVA = "0x4BABF50", Offset = "0x4BABF50", VA = "0x4BABF50", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x600080F")]
-		[Address(RVA = "0x4886E70", Offset = "0x4886E70", VA = "0x4886E70", Slot = "6")]
+		[Address(RVA = "0x4BABF60", Offset = "0x4BABF60", VA = "0x4BABF60", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000811")]
-		[Address(RVA = "0x4886F20", Offset = "0x4886F20", VA = "0x4886F20", Slot = "8")]
+		[Address(RVA = "0x4BAC010", Offset = "0x4BAC010", VA = "0x4BAC010", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -157,44 +164,44 @@ internal class DebugUpdater : MonoBehaviour
 	private bool m_RuntimeUiWasVisibleLastFrame;
 
 	[Token(Token = "0x60007FA")]
-	[Address(RVA = "0x4886210", Offset = "0x4886210", VA = "0x4886210")]
+	[Address(RVA = "0x4BAB300", Offset = "0x4BAB300", VA = "0x4BAB300")]
 	[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
 	private static void RuntimeInit()
 	{
 	}
 
 	[Token(Token = "0x60007FB")]
-	[Address(RVA = "0x4886220", Offset = "0x4886220", VA = "0x4886220")]
+	[Address(RVA = "0x4BAB310", Offset = "0x4BAB310", VA = "0x4BAB310")]
 	internal static void SetEnabled(bool enabled)
 	{
 	}
 
 	[Token(Token = "0x60007FC")]
-	[Address(RVA = "0x4886230", Offset = "0x4886230", VA = "0x4886230")]
+	[Address(RVA = "0x4BAB320", Offset = "0x4BAB320", VA = "0x4BAB320")]
 	private static void EnableRuntime()
 	{
 	}
 
 	[Token(Token = "0x60007FD")]
-	[Address(RVA = "0x48863C0", Offset = "0x48863C0", VA = "0x48863C0")]
+	[Address(RVA = "0x4BAB4B0", Offset = "0x4BAB4B0", VA = "0x4BAB4B0")]
 	private static void DisableRuntime()
 	{
 	}
 
 	[Token(Token = "0x60007FE")]
-	[Address(RVA = "0x4886520", Offset = "0x4886520", VA = "0x4886520")]
+	[Address(RVA = "0x4BAB610", Offset = "0x4BAB610", VA = "0x4BAB610")]
 	internal static void HandleInternalEventSystemComponents(bool uiEnabled)
 	{
 	}
 
 	[Token(Token = "0x60007FF")]
-	[Address(RVA = "0x48865C0", Offset = "0x48865C0", VA = "0x48865C0")]
+	[Address(RVA = "0x4BAB6B0", Offset = "0x4BAB6B0", VA = "0x4BAB6B0")]
 	private void EnsureExactlyOneEventSystem()
 	{
 	}
 
 	[Token(Token = "0x6000800")]
-	[Address(RVA = "0x4886920", Offset = "0x4886920", VA = "0x4886920")]
+	[Address(RVA = "0x4BABA10", Offset = "0x4BABA10", VA = "0x4BABA10")]
 	[IteratorStateMachine(typeof(_003CDoAfterInputModuleUpdated_003Ed__9))]
 	private IEnumerator DoAfterInputModuleUpdated(Action action)
 	{
@@ -202,31 +209,31 @@ internal class DebugUpdater : MonoBehaviour
 	}
 
 	[Token(Token = "0x6000801")]
-	[Address(RVA = "0x48869B0", Offset = "0x48869B0", VA = "0x48869B0")]
+	[Address(RVA = "0x4BABAA0", Offset = "0x4BABAA0", VA = "0x4BABAA0")]
 	private void CheckInputModuleExists()
 	{
 	}
 
 	[Token(Token = "0x6000802")]
-	[Address(RVA = "0x48868A0", Offset = "0x48868A0", VA = "0x48868A0")]
+	[Address(RVA = "0x4BAB990", Offset = "0x4BAB990", VA = "0x4BAB990")]
 	private void CreateDebugEventSystem()
 	{
 	}
 
 	[Token(Token = "0x6000803")]
-	[Address(RVA = "0x48867E0", Offset = "0x48867E0", VA = "0x48867E0")]
+	[Address(RVA = "0x4BAB8D0", Offset = "0x4BAB8D0", VA = "0x4BAB8D0")]
 	private void DestroyDebugEventSystem()
 	{
 	}
 
 	[Token(Token = "0x6000804")]
-	[Address(RVA = "0x4886AC0", Offset = "0x4886AC0", VA = "0x4886AC0")]
+	[Address(RVA = "0x4BABBB0", Offset = "0x4BABBB0", VA = "0x4BABBB0")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x6000805")]
-	[Address(RVA = "0x4886C80", Offset = "0x4886C80", VA = "0x4886C80")]
+	[Address(RVA = "0x4BABD70", Offset = "0x4BABD70", VA = "0x4BABD70")]
 	[IteratorStateMachine(typeof(_003CRefreshRuntimeUINextFrame_003Ed__14))]
 	private static IEnumerator RefreshRuntimeUINextFrame()
 	{
@@ -234,7 +241,7 @@ internal class DebugUpdater : MonoBehaviour
 	}
 
 	[Token(Token = "0x6000806")]
-	[Address(RVA = "0x4886CF0", Offset = "0x4886CF0", VA = "0x4886CF0")]
+	[Address(RVA = "0x4BABDE0", Offset = "0x4BABDE0", VA = "0x4BABDE0")]
 	public DebugUpdater()
 	{
 	}

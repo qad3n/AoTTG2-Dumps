@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Physics
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -45,7 +52,7 @@ public class Physics
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x600000F")]
-		[Address(RVA = "0x4B4EF40", Offset = "0x4B4EF40", VA = "0x4B4EF40")]
+		[Address(RVA = "0x4E76870", Offset = "0x4E76870", VA = "0x4E76870")]
 		get;
 	}
 
@@ -54,7 +61,7 @@ public class Physics
 	public static PhysicsScene defaultPhysicsScene
 	{
 		[Token(Token = "0x6000010")]
-		[Address(RVA = "0x4B4EF70", Offset = "0x4B4EF70", VA = "0x4B4EF70")]
+		[Address(RVA = "0x4E768A0", Offset = "0x4E768A0", VA = "0x4E768A0")]
 		get
 		{
 			return default(PhysicsScene);
@@ -66,25 +73,25 @@ public class Physics
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000043")]
-		[Address(RVA = "0x4B53750", Offset = "0x4B53750", VA = "0x4B53750")]
+		[Address(RVA = "0x4E7B080", Offset = "0x4E7B080", VA = "0x4E7B080")]
 		get;
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x4B4EE70", Offset = "0x4B4EE70", VA = "0x4B4EE70")]
+	[Address(RVA = "0x4E767A0", Offset = "0x4E767A0", VA = "0x4E767A0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void OnSceneContactModify(PhysicsScene scene, IntPtr buffer, int count, bool isCCD)
 	{
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x4B4F020", Offset = "0x4B4F020", VA = "0x4B4F020")]
+	[Address(RVA = "0x4E76950", Offset = "0x4E76950", VA = "0x4E76950")]
 	public static void IgnoreCollision([UnityEngine.Bindings.NotNull("NullExceptionObject")] Collider collider1, [UnityEngine.Bindings.NotNull("NullExceptionObject")] Collider collider2, [DefaultValue("true")] bool ignore)
 	{
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x4B4F190", Offset = "0x4B4F190", VA = "0x4B4F190")]
+	[Address(RVA = "0x4E76AC0", Offset = "0x4E76AC0", VA = "0x4E76AC0")]
 	[ExcludeFromDocs]
 	public static void IgnoreCollision(Collider collider1, Collider collider2)
 	{
@@ -92,19 +99,19 @@ public class Physics
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x4B4F1F0", Offset = "0x4B4F1F0", VA = "0x4B4F1F0")]
+	[Address(RVA = "0x4E76B20", Offset = "0x4E76B20", VA = "0x4E76B20")]
 	[UnityEngine.Bindings.NativeName("IgnoreCollision")]
 	public static extern void IgnoreLayerCollision(int layer1, int layer2, [DefaultValue("true")] bool ignore);
 
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x4B4F230", Offset = "0x4B4F230", VA = "0x4B4F230")]
+	[Address(RVA = "0x4E76B60", Offset = "0x4E76B60", VA = "0x4E76B60")]
 	public static bool Raycast(Vector3 origin, Vector3 direction, [DefaultValue("Mathf.Infinity")] float maxDistance, [DefaultValue("DefaultRaycastLayers")] int layerMask, [DefaultValue("QueryTriggerInteraction.UseGlobal")] QueryTriggerInteraction queryTriggerInteraction)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x4B4F5F0", Offset = "0x4B4F5F0", VA = "0x4B4F5F0")]
+	[Address(RVA = "0x4E76F20", Offset = "0x4E76F20", VA = "0x4E76F20")]
 	[ExcludeFromDocs]
 	public static bool Raycast(Vector3 origin, Vector3 direction, float maxDistance, int layerMask)
 	{
@@ -112,7 +119,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x4B4F730", Offset = "0x4B4F730", VA = "0x4B4F730")]
+	[Address(RVA = "0x4E77060", Offset = "0x4E77060", VA = "0x4E77060")]
 	[ExcludeFromDocs]
 	public static bool Raycast(Vector3 origin, Vector3 direction, float maxDistance)
 	{
@@ -120,7 +127,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x4B4F870", Offset = "0x4B4F870", VA = "0x4B4F870")]
+	[Address(RVA = "0x4E771A0", Offset = "0x4E771A0", VA = "0x4E771A0")]
 	[ExcludeFromDocs]
 	public static bool Raycast(Vector3 origin, Vector3 direction)
 	{
@@ -128,14 +135,14 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x4B4F9A0", Offset = "0x4B4F9A0", VA = "0x4B4F9A0")]
+	[Address(RVA = "0x4E772D0", Offset = "0x4E772D0", VA = "0x4E772D0")]
 	public static bool Raycast(Vector3 origin, Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layerMask, QueryTriggerInteraction queryTriggerInteraction)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x4B4FD90", Offset = "0x4B4FD90", VA = "0x4B4FD90")]
+	[Address(RVA = "0x4E776C0", Offset = "0x4E776C0", VA = "0x4E776C0")]
 	[ExcludeFromDocs]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public static bool Raycast(Vector3 origin, Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layerMask)
@@ -144,7 +151,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x4B4FEE0", Offset = "0x4B4FEE0", VA = "0x4B4FEE0")]
+	[Address(RVA = "0x4E77810", Offset = "0x4E77810", VA = "0x4E77810")]
 	[ExcludeFromDocs]
 	public static bool Raycast(Vector3 origin, Vector3 direction, out RaycastHit hitInfo, float maxDistance)
 	{
@@ -152,7 +159,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x4B50020", Offset = "0x4B50020", VA = "0x4B50020")]
+	[Address(RVA = "0x4E77950", Offset = "0x4E77950", VA = "0x4E77950")]
 	[ExcludeFromDocs]
 	public static bool Raycast(Vector3 origin, Vector3 direction, out RaycastHit hitInfo)
 	{
@@ -160,14 +167,14 @@ public class Physics
 	}
 
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x4B50160", Offset = "0x4B50160", VA = "0x4B50160")]
+	[Address(RVA = "0x4E77A90", Offset = "0x4E77A90", VA = "0x4E77A90")]
 	public static bool Raycast(Ray ray, [DefaultValue("Mathf.Infinity")] float maxDistance, [DefaultValue("DefaultRaycastLayers")] int layerMask, [DefaultValue("QueryTriggerInteraction.UseGlobal")] QueryTriggerInteraction queryTriggerInteraction)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x4B50290", Offset = "0x4B50290", VA = "0x4B50290")]
+	[Address(RVA = "0x4E77BC0", Offset = "0x4E77BC0", VA = "0x4E77BC0")]
 	[ExcludeFromDocs]
 	public static bool Raycast(Ray ray, float maxDistance, int layerMask)
 	{
@@ -175,7 +182,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x4B503C0", Offset = "0x4B503C0", VA = "0x4B503C0")]
+	[Address(RVA = "0x4E77CF0", Offset = "0x4E77CF0", VA = "0x4E77CF0")]
 	[ExcludeFromDocs]
 	public static bool Raycast(Ray ray, float maxDistance)
 	{
@@ -183,7 +190,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x4B504E0", Offset = "0x4B504E0", VA = "0x4B504E0")]
+	[Address(RVA = "0x4E77E10", Offset = "0x4E77E10", VA = "0x4E77E10")]
 	[ExcludeFromDocs]
 	public static bool Raycast(Ray ray)
 	{
@@ -191,14 +198,14 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x4B50600", Offset = "0x4B50600", VA = "0x4B50600")]
+	[Address(RVA = "0x4E77F30", Offset = "0x4E77F30", VA = "0x4E77F30")]
 	public static bool Raycast(Ray ray, out RaycastHit hitInfo, [DefaultValue("Mathf.Infinity")] float maxDistance, [DefaultValue("DefaultRaycastLayers")] int layerMask, [DefaultValue("QueryTriggerInteraction.UseGlobal")] QueryTriggerInteraction queryTriggerInteraction)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x4B50750", Offset = "0x4B50750", VA = "0x4B50750")]
+	[Address(RVA = "0x4E78080", Offset = "0x4E78080", VA = "0x4E78080")]
 	[ExcludeFromDocs]
 	public static bool Raycast(Ray ray, out RaycastHit hitInfo, float maxDistance, int layerMask)
 	{
@@ -206,7 +213,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x4B50810", Offset = "0x4B50810", VA = "0x4B50810")]
+	[Address(RVA = "0x4E78140", Offset = "0x4E78140", VA = "0x4E78140")]
 	[ExcludeFromDocs]
 	public static bool Raycast(Ray ray, out RaycastHit hitInfo, float maxDistance)
 	{
@@ -214,7 +221,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x4B50940", Offset = "0x4B50940", VA = "0x4B50940")]
+	[Address(RVA = "0x4E78270", Offset = "0x4E78270", VA = "0x4E78270")]
 	[ExcludeFromDocs]
 	public static bool Raycast(Ray ray, out RaycastHit hitInfo)
 	{
@@ -222,14 +229,14 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x4B50A80", Offset = "0x4B50A80", VA = "0x4B50A80")]
+	[Address(RVA = "0x4E783B0", Offset = "0x4E783B0", VA = "0x4E783B0")]
 	public static bool Linecast(Vector3 start, Vector3 end, out RaycastHit hitInfo, [DefaultValue("DefaultRaycastLayers")] int layerMask, [DefaultValue("QueryTriggerInteraction.UseGlobal")] QueryTriggerInteraction queryTriggerInteraction)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x4B50C60", Offset = "0x4B50C60", VA = "0x4B50C60")]
+	[Address(RVA = "0x4E78590", Offset = "0x4E78590", VA = "0x4E78590")]
 	[ExcludeFromDocs]
 	public static bool Linecast(Vector3 start, Vector3 end, out RaycastHit hitInfo, int layerMask)
 	{
@@ -237,14 +244,14 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x4B50D10", Offset = "0x4B50D10", VA = "0x4B50D10")]
+	[Address(RVA = "0x4E78640", Offset = "0x4E78640", VA = "0x4E78640")]
 	public static bool CapsuleCast(Vector3 point1, Vector3 point2, float radius, Vector3 direction, out RaycastHit hitInfo, [DefaultValue("Mathf.Infinity")] float maxDistance, [DefaultValue("DefaultRaycastLayers")] int layerMask, [DefaultValue("QueryTriggerInteraction.UseGlobal")] QueryTriggerInteraction queryTriggerInteraction)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x4B50EB0", Offset = "0x4B50EB0", VA = "0x4B50EB0")]
+	[Address(RVA = "0x4E787E0", Offset = "0x4E787E0", VA = "0x4E787E0")]
 	[ExcludeFromDocs]
 	public static bool CapsuleCast(Vector3 point1, Vector3 point2, float radius, Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layerMask)
 	{
@@ -252,14 +259,14 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x4B50FC0", Offset = "0x4B50FC0", VA = "0x4B50FC0")]
+	[Address(RVA = "0x4E788F0", Offset = "0x4E788F0", VA = "0x4E788F0")]
 	public static bool SphereCast(Vector3 origin, float radius, Vector3 direction, out RaycastHit hitInfo, [DefaultValue("Mathf.Infinity")] float maxDistance, [DefaultValue("DefaultRaycastLayers")] int layerMask, [DefaultValue("QueryTriggerInteraction.UseGlobal")] QueryTriggerInteraction queryTriggerInteraction)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x4B513C0", Offset = "0x4B513C0", VA = "0x4B513C0")]
+	[Address(RVA = "0x4E78CF0", Offset = "0x4E78CF0", VA = "0x4E78CF0")]
 	[ExcludeFromDocs]
 	public static bool SphereCast(Vector3 origin, float radius, Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layerMask)
 	{
@@ -267,14 +274,14 @@ public class Physics
 	}
 
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x4B514A0", Offset = "0x4B514A0", VA = "0x4B514A0")]
+	[Address(RVA = "0x4E78DD0", Offset = "0x4E78DD0", VA = "0x4E78DD0")]
 	public static bool BoxCast(Vector3 center, Vector3 halfExtents, Vector3 direction, out RaycastHit hitInfo, [DefaultValue("Quaternion.identity")] Quaternion orientation, [DefaultValue("Mathf.Infinity")] float maxDistance, [DefaultValue("DefaultRaycastLayers")] int layerMask, [DefaultValue("QueryTriggerInteraction.UseGlobal")] QueryTriggerInteraction queryTriggerInteraction)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x4B51650", Offset = "0x4B51650", VA = "0x4B51650")]
+	[Address(RVA = "0x4E78F80", Offset = "0x4E78F80", VA = "0x4E78F80")]
 	[ExcludeFromDocs]
 	public static bool BoxCast(Vector3 center, Vector3 halfExtents, Vector3 direction, out RaycastHit hitInfo, Quaternion orientation, float maxDistance, int layerMask)
 	{
@@ -282,7 +289,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x4B51750", Offset = "0x4B51750", VA = "0x4B51750")]
+	[Address(RVA = "0x4E79080", Offset = "0x4E79080", VA = "0x4E79080")]
 	[UnityEngine.Bindings.StaticAccessor("GetPhysicsManager().GetPhysicsQuery()", UnityEngine.Bindings.StaticAccessorType.Dot)]
 	[UnityEngine.Bindings.NativeName("RaycastAll")]
 	private static RaycastHit[] Internal_RaycastAll(PhysicsScene physicsScene, Ray ray, float maxDistance, int mask, QueryTriggerInteraction queryTriggerInteraction)
@@ -291,14 +298,14 @@ public class Physics
 	}
 
 	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x4B51870", Offset = "0x4B51870", VA = "0x4B51870")]
+	[Address(RVA = "0x4E791A0", Offset = "0x4E791A0", VA = "0x4E791A0")]
 	public static RaycastHit[] RaycastAll(Vector3 origin, Vector3 direction, [DefaultValue("Mathf.Infinity")] float maxDistance, [DefaultValue("DefaultRaycastLayers")] int layerMask, [DefaultValue("QueryTriggerInteraction.UseGlobal")] QueryTriggerInteraction queryTriggerInteraction)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600002E")]
-	[Address(RVA = "0x4B51C50", Offset = "0x4B51C50", VA = "0x4B51C50")]
+	[Address(RVA = "0x4E79580", Offset = "0x4E79580", VA = "0x4E79580")]
 	[ExcludeFromDocs]
 	public static RaycastHit[] RaycastAll(Vector3 origin, Vector3 direction, float maxDistance, int layerMask)
 	{
@@ -306,7 +313,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x600002F")]
-	[Address(RVA = "0x4B51D10", Offset = "0x4B51D10", VA = "0x4B51D10")]
+	[Address(RVA = "0x4E79640", Offset = "0x4E79640", VA = "0x4E79640")]
 	[ExcludeFromDocs]
 	public static RaycastHit[] RaycastAll(Vector3 origin, Vector3 direction, float maxDistance)
 	{
@@ -314,7 +321,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x4B51DF0", Offset = "0x4B51DF0", VA = "0x4B51DF0")]
+	[Address(RVA = "0x4E79720", Offset = "0x4E79720", VA = "0x4E79720")]
 	[ExcludeFromDocs]
 	public static RaycastHit[] RaycastAll(Vector3 origin, Vector3 direction)
 	{
@@ -322,14 +329,14 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000031")]
-	[Address(RVA = "0x4B51EA0", Offset = "0x4B51EA0", VA = "0x4B51EA0")]
+	[Address(RVA = "0x4E797D0", Offset = "0x4E797D0", VA = "0x4E797D0")]
 	public static RaycastHit[] RaycastAll(Ray ray, [DefaultValue("Mathf.Infinity")] float maxDistance, [DefaultValue("DefaultRaycastLayers")] int layerMask, [DefaultValue("QueryTriggerInteraction.UseGlobal")] QueryTriggerInteraction queryTriggerInteraction)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000032")]
-	[Address(RVA = "0x4B51F60", Offset = "0x4B51F60", VA = "0x4B51F60")]
+	[Address(RVA = "0x4E79890", Offset = "0x4E79890", VA = "0x4E79890")]
 	[ExcludeFromDocs]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public static RaycastHit[] RaycastAll(Ray ray, float maxDistance, int layerMask)
@@ -338,7 +345,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000033")]
-	[Address(RVA = "0x4B52010", Offset = "0x4B52010", VA = "0x4B52010")]
+	[Address(RVA = "0x4E79940", Offset = "0x4E79940", VA = "0x4E79940")]
 	[ExcludeFromDocs]
 	public static RaycastHit[] RaycastAll(Ray ray, float maxDistance)
 	{
@@ -346,7 +353,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000034")]
-	[Address(RVA = "0x4B520C0", Offset = "0x4B520C0", VA = "0x4B520C0")]
+	[Address(RVA = "0x4E799F0", Offset = "0x4E799F0", VA = "0x4E799F0")]
 	[ExcludeFromDocs]
 	public static RaycastHit[] RaycastAll(Ray ray)
 	{
@@ -354,14 +361,14 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000035")]
-	[Address(RVA = "0x4B52160", Offset = "0x4B52160", VA = "0x4B52160")]
+	[Address(RVA = "0x4E79A90", Offset = "0x4E79A90", VA = "0x4E79A90")]
 	public static int RaycastNonAlloc(Ray ray, RaycastHit[] results, [DefaultValue("Mathf.Infinity")] float maxDistance, [DefaultValue("DefaultRaycastLayers")] int layerMask, [DefaultValue("QueryTriggerInteraction.UseGlobal")] QueryTriggerInteraction queryTriggerInteraction)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000036")]
-	[Address(RVA = "0x4B525F0", Offset = "0x4B525F0", VA = "0x4B525F0")]
+	[Address(RVA = "0x4E79F20", Offset = "0x4E79F20", VA = "0x4E79F20")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	[ExcludeFromDocs]
 	public static int RaycastNonAlloc(Ray ray, RaycastHit[] results, float maxDistance, int layerMask)
@@ -370,7 +377,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x4B52720", Offset = "0x4B52720", VA = "0x4B52720")]
+	[Address(RVA = "0x4E7A050", Offset = "0x4E7A050", VA = "0x4E7A050")]
 	[ExcludeFromDocs]
 	public static int RaycastNonAlloc(Ray ray, RaycastHit[] results, float maxDistance)
 	{
@@ -378,7 +385,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000038")]
-	[Address(RVA = "0x4B52850", Offset = "0x4B52850", VA = "0x4B52850")]
+	[Address(RVA = "0x4E7A180", Offset = "0x4E7A180", VA = "0x4E7A180")]
 	[ExcludeFromDocs]
 	public static int RaycastNonAlloc(Ray ray, RaycastHit[] results)
 	{
@@ -386,14 +393,14 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000039")]
-	[Address(RVA = "0x4B52990", Offset = "0x4B52990", VA = "0x4B52990")]
+	[Address(RVA = "0x4E7A2C0", Offset = "0x4E7A2C0", VA = "0x4E7A2C0")]
 	public static int RaycastNonAlloc(Vector3 origin, Vector3 direction, RaycastHit[] results, [DefaultValue("Mathf.Infinity")] float maxDistance, [DefaultValue("DefaultRaycastLayers")] int layerMask, [DefaultValue("QueryTriggerInteraction.UseGlobal")] QueryTriggerInteraction queryTriggerInteraction)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x4B52AE0", Offset = "0x4B52AE0", VA = "0x4B52AE0")]
+	[Address(RVA = "0x4E7A410", Offset = "0x4E7A410", VA = "0x4E7A410")]
 	[ExcludeFromDocs]
 	public static int RaycastNonAlloc(Vector3 origin, Vector3 direction, RaycastHit[] results, float maxDistance, int layerMask)
 	{
@@ -401,7 +408,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x4B52C30", Offset = "0x4B52C30", VA = "0x4B52C30")]
+	[Address(RVA = "0x4E7A560", Offset = "0x4E7A560", VA = "0x4E7A560")]
 	[ExcludeFromDocs]
 	public static int RaycastNonAlloc(Vector3 origin, Vector3 direction, RaycastHit[] results, float maxDistance)
 	{
@@ -409,7 +416,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x4B52D70", Offset = "0x4B52D70", VA = "0x4B52D70")]
+	[Address(RVA = "0x4E7A6A0", Offset = "0x4E7A6A0", VA = "0x4E7A6A0")]
 	[ExcludeFromDocs]
 	public static int RaycastNonAlloc(Vector3 origin, Vector3 direction, RaycastHit[] results)
 	{
@@ -417,7 +424,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x600003D")]
-	[Address(RVA = "0x4B52EB0", Offset = "0x4B52EB0", VA = "0x4B52EB0")]
+	[Address(RVA = "0x4E7A7E0", Offset = "0x4E7A7E0", VA = "0x4E7A7E0")]
 	[UnityEngine.Bindings.StaticAccessor("GetPhysicsManager().GetPhysicsQuery()", UnityEngine.Bindings.StaticAccessorType.Dot)]
 	[UnityEngine.Bindings.NativeName("SphereCastAll")]
 	private static RaycastHit[] Query_SphereCastAll(PhysicsScene physicsScene, Vector3 origin, float radius, Vector3 direction, float maxDistance, int mask, QueryTriggerInteraction queryTriggerInteraction)
@@ -426,14 +433,14 @@ public class Physics
 	}
 
 	[Token(Token = "0x600003E")]
-	[Address(RVA = "0x4B53000", Offset = "0x4B53000", VA = "0x4B53000")]
+	[Address(RVA = "0x4E7A930", Offset = "0x4E7A930", VA = "0x4E7A930")]
 	public static RaycastHit[] SphereCastAll(Vector3 origin, float radius, Vector3 direction, [DefaultValue("Mathf.Infinity")] float maxDistance, [DefaultValue("DefaultRaycastLayers")] int layerMask, [DefaultValue("QueryTriggerInteraction.UseGlobal")] QueryTriggerInteraction queryTriggerInteraction)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600003F")]
-	[Address(RVA = "0x4B53300", Offset = "0x4B53300", VA = "0x4B53300")]
+	[Address(RVA = "0x4E7AC30", Offset = "0x4E7AC30", VA = "0x4E7AC30")]
 	[ExcludeFromDocs]
 	public static RaycastHit[] SphereCastAll(Vector3 origin, float radius, Vector3 direction, float maxDistance, int layerMask)
 	{
@@ -441,7 +448,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000040")]
-	[Address(RVA = "0x4B533D0", Offset = "0x4B533D0", VA = "0x4B533D0")]
+	[Address(RVA = "0x4E7AD00", Offset = "0x4E7AD00", VA = "0x4E7AD00")]
 	[UnityEngine.Bindings.NativeName("OverlapSphere")]
 	[UnityEngine.Bindings.StaticAccessor("GetPhysicsManager().GetPhysicsQuery()", UnityEngine.Bindings.StaticAccessorType.Dot)]
 	private static Collider[] OverlapSphere_Internal(PhysicsScene physicsScene, Vector3 position, float radius, int layerMask, QueryTriggerInteraction queryTriggerInteraction)
@@ -450,14 +457,14 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x4B534F0", Offset = "0x4B534F0", VA = "0x4B534F0")]
+	[Address(RVA = "0x4E7AE20", Offset = "0x4E7AE20", VA = "0x4E7AE20")]
 	public static Collider[] OverlapSphere(Vector3 position, float radius, [DefaultValue("AllLayers")] int layerMask, [DefaultValue("QueryTriggerInteraction.UseGlobal")] QueryTriggerInteraction queryTriggerInteraction)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x4B536C0", Offset = "0x4B536C0", VA = "0x4B536C0")]
+	[Address(RVA = "0x4E7AFF0", Offset = "0x4E7AFF0", VA = "0x4E7AFF0")]
 	[ExcludeFromDocs]
 	public static Collider[] OverlapSphere(Vector3 position, float radius, int layerMask)
 	{
@@ -465,7 +472,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x4B53780", Offset = "0x4B53780", VA = "0x4B53780")]
+	[Address(RVA = "0x4E7B0B0", Offset = "0x4E7B0B0", VA = "0x4E7B0B0")]
 	[UnityEngine.Bindings.NativeName("ComputePenetration")]
 	[UnityEngine.Bindings.StaticAccessor("GetPhysicsManager().GetPhysicsQuery()")]
 	private static bool Query_ComputePenetration([UnityEngine.Bindings.NotNull("ArgumentNullException")] Collider colliderA, Vector3 positionA, Quaternion rotationA, [UnityEngine.Bindings.NotNull("ArgumentNullException")] Collider colliderB, Vector3 positionB, Quaternion rotationB, ref Vector3 direction, ref float distance)
@@ -474,14 +481,14 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000045")]
-	[Address(RVA = "0x4B539F0", Offset = "0x4B539F0", VA = "0x4B539F0")]
+	[Address(RVA = "0x4E7B320", Offset = "0x4E7B320", VA = "0x4E7B320")]
 	public static bool ComputePenetration(Collider colliderA, Vector3 positionA, Quaternion rotationA, Collider colliderB, Vector3 positionB, Quaternion rotationB, out Vector3 direction, out float distance)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000046")]
-	[Address(RVA = "0x4B53AF0", Offset = "0x4B53AF0", VA = "0x4B53AF0")]
+	[Address(RVA = "0x4E7B420", Offset = "0x4E7B420", VA = "0x4E7B420")]
 	[UnityEngine.Bindings.NativeName("ClosestPoint")]
 	[UnityEngine.Bindings.StaticAccessor("GetPhysicsManager().GetPhysicsQuery()")]
 	private static Vector3 Query_ClosestPoint([UnityEngine.Bindings.NotNull("ArgumentNullException")] Collider collider, Vector3 position, Quaternion rotation, Vector3 point)
@@ -490,14 +497,14 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000047")]
-	[Address(RVA = "0x4B53CC0", Offset = "0x4B53CC0", VA = "0x4B53CC0")]
+	[Address(RVA = "0x4E7B5F0", Offset = "0x4E7B5F0", VA = "0x4E7B5F0")]
 	public static Vector3 ClosestPoint(Vector3 point, Collider collider, Vector3 position, Quaternion rotation)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x6000048")]
-	[Address(RVA = "0x4B53DB0", Offset = "0x4B53DB0", VA = "0x4B53DB0")]
+	[Address(RVA = "0x4E7B6E0", Offset = "0x4E7B6E0", VA = "0x4E7B6E0")]
 	[UnityEngine.Bindings.NativeName("OverlapBox")]
 	[UnityEngine.Bindings.StaticAccessor("GetPhysicsManager().GetPhysicsQuery()")]
 	private static Collider[] OverlapBox_Internal(PhysicsScene physicsScene, Vector3 center, Vector3 halfExtents, Quaternion orientation, int layerMask, QueryTriggerInteraction queryTriggerInteraction)
@@ -506,14 +513,14 @@ public class Physics
 	}
 
 	[Token(Token = "0x6000049")]
-	[Address(RVA = "0x4B53EE0", Offset = "0x4B53EE0", VA = "0x4B53EE0")]
+	[Address(RVA = "0x4E7B810", Offset = "0x4E7B810", VA = "0x4E7B810")]
 	public static Collider[] OverlapBox(Vector3 center, Vector3 halfExtents, [DefaultValue("Quaternion.identity")] Quaternion orientation, [DefaultValue("AllLayers")] int layerMask, [DefaultValue("QueryTriggerInteraction.UseGlobal")] QueryTriggerInteraction queryTriggerInteraction)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600004A")]
-	[Address(RVA = "0x4B540F0", Offset = "0x4B540F0", VA = "0x4B540F0")]
+	[Address(RVA = "0x4E7BA20", Offset = "0x4E7BA20", VA = "0x4E7BA20")]
 	[ExcludeFromDocs]
 	public static Collider[] OverlapBox(Vector3 center, Vector3 halfExtents, Quaternion orientation, int layerMask)
 	{
@@ -521,7 +528,7 @@ public class Physics
 	}
 
 	[Token(Token = "0x600004B")]
-	[Address(RVA = "0x4B541C0", Offset = "0x4B541C0", VA = "0x4B541C0")]
+	[Address(RVA = "0x4E7BAF0", Offset = "0x4E7BAF0", VA = "0x4E7BAF0")]
 	[UnityEngine.Bindings.NativeName("BoxCastAll")]
 	[UnityEngine.Bindings.StaticAccessor("GetPhysicsManager().GetPhysicsQuery()")]
 	private static RaycastHit[] Internal_BoxCastAll(PhysicsScene physicsScene, Vector3 center, Vector3 halfExtents, Vector3 direction, Quaternion orientation, float maxDistance, int layerMask, QueryTriggerInteraction queryTriggerInteraction)
@@ -530,14 +537,14 @@ public class Physics
 	}
 
 	[Token(Token = "0x600004C")]
-	[Address(RVA = "0x4B54320", Offset = "0x4B54320", VA = "0x4B54320")]
+	[Address(RVA = "0x4E7BC50", Offset = "0x4E7BC50", VA = "0x4E7BC50")]
 	public static RaycastHit[] BoxCastAll(Vector3 center, Vector3 halfExtents, Vector3 direction, [DefaultValue("Quaternion.identity")] Quaternion orientation, [DefaultValue("Mathf.Infinity")] float maxDistance, [DefaultValue("DefaultRaycastLayers")] int layerMask, [DefaultValue("QueryTriggerInteraction.UseGlobal")] QueryTriggerInteraction queryTriggerInteraction)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600004D")]
-	[Address(RVA = "0x4B54680", Offset = "0x4B54680", VA = "0x4B54680")]
+	[Address(RVA = "0x4E7BFB0", Offset = "0x4E7BFB0", VA = "0x4E7BFB0")]
 	[ExcludeFromDocs]
 	public static RaycastHit[] BoxCastAll(Vector3 center, Vector3 halfExtents, Vector3 direction, Quaternion orientation, float maxDistance, int layerMask)
 	{
@@ -546,52 +553,52 @@ public class Physics
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600004E")]
-	[Address(RVA = "0x4B54780", Offset = "0x4B54780", VA = "0x4B54780")]
+	[Address(RVA = "0x4E7C0B0", Offset = "0x4E7C0B0", VA = "0x4E7C0B0")]
 	[UnityEngine.Bindings.StaticAccessor("PhysicsManager", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 	internal static extern Collider GetColliderByInstanceID(int instanceID);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600004F")]
-	[Address(RVA = "0x4B547B0", Offset = "0x4B547B0", VA = "0x4B547B0")]
+	[Address(RVA = "0x4E7C0E0", Offset = "0x4E7C0E0", VA = "0x4E7C0E0")]
 	[UnityEngine.Bindings.StaticAccessor("PhysicsManager", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 	internal static extern Component GetBodyByInstanceID(int instanceID);
 
 	[Token(Token = "0x6000050")]
-	[Address(RVA = "0x4B547E0", Offset = "0x4B547E0", VA = "0x4B547E0")]
+	[Address(RVA = "0x4E7C110", Offset = "0x4E7C110", VA = "0x4E7C110")]
 	[UnityEngine.Bindings.StaticAccessor("PhysicsManager", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 	private static void SendOnCollisionEnter(Component component, Collision collision)
 	{
 	}
 
 	[Token(Token = "0x6000051")]
-	[Address(RVA = "0x4B54910", Offset = "0x4B54910", VA = "0x4B54910")]
+	[Address(RVA = "0x4E7C240", Offset = "0x4E7C240", VA = "0x4E7C240")]
 	[UnityEngine.Bindings.StaticAccessor("PhysicsManager", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 	private static void SendOnCollisionStay(Component component, Collision collision)
 	{
 	}
 
 	[Token(Token = "0x6000052")]
-	[Address(RVA = "0x4B54A40", Offset = "0x4B54A40", VA = "0x4B54A40")]
+	[Address(RVA = "0x4E7C370", Offset = "0x4E7C370", VA = "0x4E7C370")]
 	[UnityEngine.Bindings.StaticAccessor("PhysicsManager", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 	private static void SendOnCollisionExit(Component component, Collision collision)
 	{
 	}
 
 	[Token(Token = "0x6000053")]
-	[Address(RVA = "0x4B54B70", Offset = "0x4B54B70", VA = "0x4B54B70")]
+	[Address(RVA = "0x4E7C4A0", Offset = "0x4E7C4A0", VA = "0x4E7C4A0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void OnSceneContact(PhysicsScene scene, IntPtr buffer, int count)
 	{
 	}
 
 	[Token(Token = "0x6000054")]
-	[Address(RVA = "0x4B54E80", Offset = "0x4B54E80", VA = "0x4B54E80")]
+	[Address(RVA = "0x4E7C7B0", Offset = "0x4E7C7B0", VA = "0x4E7C7B0")]
 	private static void ReportContacts(NativeArray<ContactPairHeader>.ReadOnly array)
 	{
 	}
 
 	[Token(Token = "0x6000055")]
-	[Address(RVA = "0x4B55500", Offset = "0x4B55500", VA = "0x4B55500")]
+	[Address(RVA = "0x4E7CE30", Offset = "0x4E7CE30", VA = "0x4E7CE30")]
 	private static Collision GetCollisionToReport(in ContactPairHeader header, in ContactPair pair, bool flipped)
 	{
 		return null;
@@ -599,61 +606,61 @@ public class Physics
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000057")]
-	[Address(RVA = "0x4B4EFF0", Offset = "0x4B4EFF0", VA = "0x4B4EFF0")]
+	[Address(RVA = "0x4E76920", Offset = "0x4E76920", VA = "0x4E76920")]
 	private static extern void get_defaultPhysicsScene_Injected(out PhysicsScene ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x4B4F150", Offset = "0x4B4F150", VA = "0x4B4F150")]
+	[Address(RVA = "0x4E76A80", Offset = "0x4E76A80", VA = "0x4E76A80")]
 	private static extern void IgnoreCollision_Injected(IntPtr collider1, IntPtr collider2, [DefaultValue("true")] bool ignore);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000059")]
-	[Address(RVA = "0x4B51810", Offset = "0x4B51810", VA = "0x4B51810")]
+	[Address(RVA = "0x4E79140", Offset = "0x4E79140", VA = "0x4E79140")]
 	private static extern RaycastHit[] Internal_RaycastAll_Injected([In] ref PhysicsScene physicsScene, [In] ref Ray ray, float maxDistance, int mask, QueryTriggerInteraction queryTriggerInteraction);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600005A")]
-	[Address(RVA = "0x4B52F90", Offset = "0x4B52F90", VA = "0x4B52F90")]
+	[Address(RVA = "0x4E7A8C0", Offset = "0x4E7A8C0", VA = "0x4E7A8C0")]
 	private static extern RaycastHit[] Query_SphereCastAll_Injected([In] ref PhysicsScene physicsScene, [In] ref Vector3 origin, float radius, [In] ref Vector3 direction, float maxDistance, int mask, QueryTriggerInteraction queryTriggerInteraction);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600005B")]
-	[Address(RVA = "0x4B53490", Offset = "0x4B53490", VA = "0x4B53490")]
+	[Address(RVA = "0x4E7ADC0", Offset = "0x4E7ADC0", VA = "0x4E7ADC0")]
 	private static extern Collider[] OverlapSphere_Internal_Injected([In] ref PhysicsScene physicsScene, [In] ref Vector3 position, float radius, int layerMask, QueryTriggerInteraction queryTriggerInteraction);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x4B53990", Offset = "0x4B53990", VA = "0x4B53990")]
+	[Address(RVA = "0x4E7B2C0", Offset = "0x4E7B2C0", VA = "0x4E7B2C0")]
 	private static extern bool Query_ComputePenetration_Injected(IntPtr colliderA, [In] ref Vector3 positionA, [In] ref Quaternion rotationA, IntPtr colliderB, [In] ref Vector3 positionB, [In] ref Quaternion rotationB, ref Vector3 direction, ref float distance);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x4B53C60", Offset = "0x4B53C60", VA = "0x4B53C60")]
+	[Address(RVA = "0x4E7B590", Offset = "0x4E7B590", VA = "0x4E7B590")]
 	private static extern void Query_ClosestPoint_Injected(IntPtr collider, [In] ref Vector3 position, [In] ref Quaternion rotation, [In] ref Vector3 point, out Vector3 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x4B53E80", Offset = "0x4B53E80", VA = "0x4B53E80")]
+	[Address(RVA = "0x4E7B7B0", Offset = "0x4E7B7B0", VA = "0x4E7B7B0")]
 	private static extern Collider[] OverlapBox_Internal_Injected([In] ref PhysicsScene physicsScene, [In] ref Vector3 center, [In] ref Vector3 halfExtents, [In] ref Quaternion orientation, int layerMask, QueryTriggerInteraction queryTriggerInteraction);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x4B542B0", Offset = "0x4B542B0", VA = "0x4B542B0")]
+	[Address(RVA = "0x4E7BBE0", Offset = "0x4E7BBE0", VA = "0x4E7BBE0")]
 	private static extern RaycastHit[] Internal_BoxCastAll_Injected([In] ref PhysicsScene physicsScene, [In] ref Vector3 center, [In] ref Vector3 halfExtents, [In] ref Vector3 direction, [In] ref Quaternion orientation, float maxDistance, int layerMask, QueryTriggerInteraction queryTriggerInteraction);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x4B548D0", Offset = "0x4B548D0", VA = "0x4B548D0")]
+	[Address(RVA = "0x4E7C200", Offset = "0x4E7C200", VA = "0x4E7C200")]
 	private static extern void SendOnCollisionEnter_Injected(IntPtr component, Collision collision);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x4B54A00", Offset = "0x4B54A00", VA = "0x4B54A00")]
+	[Address(RVA = "0x4E7C330", Offset = "0x4E7C330", VA = "0x4E7C330")]
 	private static extern void SendOnCollisionStay_Injected(IntPtr component, Collision collision);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x4B54B30", Offset = "0x4B54B30", VA = "0x4B54B30")]
+	[Address(RVA = "0x4E7C460", Offset = "0x4E7C460", VA = "0x4E7C460")]
 	private static extern void SendOnCollisionExit_Injected(IntPtr component, Collision collision);
 }

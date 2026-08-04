@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.ProfiledSegment
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -11,14 +18,14 @@ public class ProfiledSegment
 	public string name
 	{
 		[Token(Token = "0x600051F")]
-		[Address(RVA = "0x49952B0", Offset = "0x49952B0", VA = "0x49952B0")]
+		[Address(RVA = "0x4CB9E80", Offset = "0x4CB9E80", VA = "0x4CB9E80")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000520")]
-		[Address(RVA = "0x49952C0", Offset = "0x49952C0", VA = "0x49952C0")]
+		[Address(RVA = "0x4CB9E90", Offset = "0x4CB9E90", VA = "0x4CB9E90")]
 		[CompilerGenerated]
 		private set
 		{
@@ -29,14 +36,14 @@ public class ProfiledSegment
 	public Stopwatch stopwatch
 	{
 		[Token(Token = "0x6000521")]
-		[Address(RVA = "0x49952D0", Offset = "0x49952D0", VA = "0x49952D0")]
+		[Address(RVA = "0x4CB9EA0", Offset = "0x4CB9EA0", VA = "0x4CB9EA0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000522")]
-		[Address(RVA = "0x49952E0", Offset = "0x49952E0", VA = "0x49952E0")]
+		[Address(RVA = "0x4CB9EB0", Offset = "0x4CB9EB0", VA = "0x4CB9EB0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -47,14 +54,14 @@ public class ProfiledSegment
 	public long calls
 	{
 		[Token(Token = "0x6000523")]
-		[Address(RVA = "0x49952F0", Offset = "0x49952F0", VA = "0x49952F0")]
+		[Address(RVA = "0x4CB9EC0", Offset = "0x4CB9EC0", VA = "0x4CB9EC0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x6000524")]
-		[Address(RVA = "0x4995300", Offset = "0x4995300", VA = "0x4995300")]
+		[Address(RVA = "0x4CB9ED0", Offset = "0x4CB9ED0", VA = "0x4CB9ED0")]
 		[CompilerGenerated]
 		set
 		{
@@ -65,14 +72,14 @@ public class ProfiledSegment
 	public ProfiledSegment parent
 	{
 		[Token(Token = "0x6000525")]
-		[Address(RVA = "0x4995310", Offset = "0x4995310", VA = "0x4995310")]
+		[Address(RVA = "0x4CB9EE0", Offset = "0x4CB9EE0", VA = "0x4CB9EE0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000526")]
-		[Address(RVA = "0x4995320", Offset = "0x4995320", VA = "0x4995320")]
+		[Address(RVA = "0x4CB9EF0", Offset = "0x4CB9EF0", VA = "0x4CB9EF0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -83,14 +90,14 @@ public class ProfiledSegment
 	public ProfiledSegmentCollection children
 	{
 		[Token(Token = "0x6000527")]
-		[Address(RVA = "0x4995330", Offset = "0x4995330", VA = "0x4995330")]
+		[Address(RVA = "0x4CB9F00", Offset = "0x4CB9F00", VA = "0x4CB9F00")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000528")]
-		[Address(RVA = "0x4995340", Offset = "0x4995340", VA = "0x4995340")]
+		[Address(RVA = "0x4CB9F10", Offset = "0x4CB9F10", VA = "0x4CB9F10")]
 		[CompilerGenerated]
 		private set
 		{
@@ -98,7 +105,7 @@ public class ProfiledSegment
 	}
 
 	[Token(Token = "0x600051E")]
-	[Address(RVA = "0x4995170", Offset = "0x4995170", VA = "0x4995170")]
+	[Address(RVA = "0x4CB9D40", Offset = "0x4CB9D40", VA = "0x4CB9D40")]
 	public ProfiledSegment(ProfiledSegment parent, string name)
 	{
 	}

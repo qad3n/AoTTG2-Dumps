@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UI.CreateGamePopup
+// Update status: CHANGED in this game update
+// Real method bodies (native C decompile): source/cpp/UI/CreateGamePopup.c
+// Prior real C# source (older reference): Assets/Scripts/UI/CreateGamePopup/CreateGamePopup.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.InteropServices;
@@ -8,229 +15,229 @@ using Utility;
 
 namespace UI;
 
-[Token(Token = "0x2000580")]
+[Token(Token = "0x20005C5")]
 internal class CreateGamePopup : BasePopup
 {
-	[Token(Token = "0x4001B07")]
+	[Token(Token = "0x4001C1A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	public string LocaleCategory;
 
-	[Token(Token = "0x4001B08")]
+	[Token(Token = "0x4001C1B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	public bool IsMultiplayer;
 
-	[Token(Token = "0x4001B09")]
+	[Token(Token = "0x4001C1C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
 	protected FileWatcherExtension _watcher;
 
-	[Token(Token = "0x4001B0A")]
+	[Token(Token = "0x4001C1D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC0")]
 	private string _cachedLogicSource;
 
-	[Token(Token = "0x4001B0B")]
+	[Token(Token = "0x4001C1E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC8")]
 	private Dictionary<string, BaseSetting> _cachedModeSettings;
 
-	[Token(Token = "0x4001B0C")]
+	[Token(Token = "0x4001C1F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xD0")]
 	private string _cachedAddonSelectionKey;
 
-	[Token(Token = "0x4001B0D")]
+	[Token(Token = "0x4001C20")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xD8")]
-	private Dictionary<string, BaseSetting> _cachedAddonSettings;
+	private Dictionary<string, Dictionary<string, BaseSetting>> _cachedAddonSettings;
 
-	[Token(Token = "0x4001B0E")]
+	[Token(Token = "0x4001C21")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xE0")]
 	public CreateGameSelectModePopup SelectModePopup;
 
-	[Token(Token = "0x4001B0F")]
+	[Token(Token = "0x4001C22")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xE8")]
 	public CreateGameSelectAddonPopup SelectAddonPopup;
 
-	[Token(Token = "0x17000AF7")]
+	[Token(Token = "0x17000B61")]
 	protected override string Title
 	{
-		[Token(Token = "0x6003939")]
-		[Address(RVA = "0x3F6BDC0", Offset = "0x3F6BDC0", VA = "0x3F6BDC0", Slot = "35")]
+		[Token(Token = "0x6003B48")]
+		[Address(RVA = "0x42797D0", Offset = "0x42797D0", VA = "0x42797D0", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000AF8")]
+	[Token(Token = "0x17000B62")]
 	protected override float Width
 	{
-		[Token(Token = "0x600393A")]
-		[Address(RVA = "0x3F6BDE0", Offset = "0x3F6BDE0", VA = "0x3F6BDE0", Slot = "5")]
+		[Token(Token = "0x6003B49")]
+		[Address(RVA = "0x42797F0", Offset = "0x42797F0", VA = "0x42797F0", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000AF9")]
+	[Token(Token = "0x17000B63")]
 	protected override float Height
 	{
-		[Token(Token = "0x600393B")]
-		[Address(RVA = "0x3F6BDF0", Offset = "0x3F6BDF0", VA = "0x3F6BDF0", Slot = "6")]
+		[Token(Token = "0x6003B4A")]
+		[Address(RVA = "0x4279800", Offset = "0x4279800", VA = "0x4279800", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000AFA")]
+	[Token(Token = "0x17000B64")]
 	protected override bool CategoryPanel
 	{
-		[Token(Token = "0x600393C")]
-		[Address(RVA = "0x3F6BE00", Offset = "0x3F6BE00", VA = "0x3F6BE00", Slot = "16")]
+		[Token(Token = "0x6003B4B")]
+		[Address(RVA = "0x4279810", Offset = "0x4279810", VA = "0x4279810", Slot = "16")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000AFB")]
+	[Token(Token = "0x17000B65")]
 	protected override bool CategoryButtons
 	{
-		[Token(Token = "0x600393D")]
-		[Address(RVA = "0x3F6BE10", Offset = "0x3F6BE10", VA = "0x3F6BE10", Slot = "42")]
+		[Token(Token = "0x6003B4C")]
+		[Address(RVA = "0x4279820", Offset = "0x4279820", VA = "0x4279820", Slot = "42")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000AFC")]
+	[Token(Token = "0x17000B66")]
 	protected override string DefaultCategoryPanel
 	{
-		[Token(Token = "0x600393E")]
-		[Address(RVA = "0x3F6BE20", Offset = "0x3F6BE20", VA = "0x3F6BE20", Slot = "19")]
+		[Token(Token = "0x6003B4D")]
+		[Address(RVA = "0x4279830", Offset = "0x4279830", VA = "0x4279830", Slot = "19")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000AFD")]
+	[Token(Token = "0x17000B67")]
 	protected override bool UseSound
 	{
-		[Token(Token = "0x600393F")]
-		[Address(RVA = "0x3F6BE50", Offset = "0x3F6BE50", VA = "0x3F6BE50", Slot = "53")]
+		[Token(Token = "0x6003B4E")]
+		[Address(RVA = "0x4279860", Offset = "0x4279860", VA = "0x4279860", Slot = "53")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6003940")]
-	[Address(RVA = "0x3F6BE60", Offset = "0x3F6BE60", VA = "0x3F6BE60", Slot = "20")]
+	[Token(Token = "0x6003B4F")]
+	[Address(RVA = "0x4279870", Offset = "0x4279870", VA = "0x4279870", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6003941")]
-	[Address(RVA = "0x3F6C450", Offset = "0x3F6C450", VA = "0x3F6C450")]
+	[Token(Token = "0x6003B50")]
+	[Address(RVA = "0x4279E60", Offset = "0x4279E60", VA = "0x4279E60")]
 	private void RefreshList(object source, FileSystemEventArgs e)
 	{
 	}
 
-	[Token(Token = "0x6003942")]
-	[Address(RVA = "0x3F6A510", Offset = "0x3F6A510", VA = "0x3F6A510")]
+	[Token(Token = "0x6003B51")]
+	[Address(RVA = "0x4277C90", Offset = "0x4277C90", VA = "0x4277C90")]
 	public Dictionary<string, BaseSetting> SyncModeSettings(MapScript script)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003943")]
-	[Address(RVA = "0x3F6AFF0", Offset = "0x3F6AFF0", VA = "0x3F6AFF0")]
-	public Dictionary<string, BaseSetting> SyncAddonSettings()
+	[Token(Token = "0x6003B52")]
+	[Address(RVA = "0x4278770", Offset = "0x4278770", VA = "0x4278770")]
+	public Dictionary<string, Dictionary<string, BaseSetting>> SyncAddonSettings()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003944")]
-	[Address(RVA = "0x3F6C4D0", Offset = "0x3F6C4D0", VA = "0x3F6C4D0")]
+	[Token(Token = "0x6003B53")]
+	[Address(RVA = "0x4279EE0", Offset = "0x4279EE0", VA = "0x4279EE0")]
 	public void Show(bool isMultiplayer)
 	{
 	}
 
-	[Token(Token = "0x6003945")]
-	[Address(RVA = "0x3F6C520", Offset = "0x3F6C520", VA = "0x3F6C520", Slot = "44")]
+	[Token(Token = "0x6003B54")]
+	[Address(RVA = "0x4279F30", Offset = "0x4279F30", VA = "0x4279F30", Slot = "44")]
 	protected override void SetupTopButtons()
 	{
 	}
 
-	[Token(Token = "0x6003946")]
-	[Address(RVA = "0x3F6CB40", Offset = "0x3F6CB40", VA = "0x3F6CB40", Slot = "27")]
+	[Token(Token = "0x6003B55")]
+	[Address(RVA = "0x427A550", Offset = "0x427A550", VA = "0x427A550", Slot = "27")]
 	protected override void RegisterCategoryPanels()
 	{
 	}
 
-	[Token(Token = "0x6003947")]
-	[Address(RVA = "0x3F6CD70", Offset = "0x3F6CD70", VA = "0x3F6CD70", Slot = "25")]
+	[Token(Token = "0x6003B56")]
+	[Address(RVA = "0x427A780", Offset = "0x427A780", VA = "0x427A780", Slot = "25")]
 	protected override void SetupPopups()
 	{
 	}
 
-	[Token(Token = "0x6003948")]
-	[Address(RVA = "0x3F6C100", Offset = "0x3F6C100", VA = "0x3F6C100")]
+	[Token(Token = "0x6003B57")]
+	[Address(RVA = "0x4279B10", Offset = "0x4279B10", VA = "0x4279B10")]
 	private void SetupBottomButtons()
 	{
 	}
 
-	[Token(Token = "0x6003949")]
-	[Address(RVA = "0x3F6D210", Offset = "0x3F6D210", VA = "0x3F6D210", Slot = "22")]
+	[Token(Token = "0x6003B58")]
+	[Address(RVA = "0x427AC20", Offset = "0x427AC20", VA = "0x427AC20", Slot = "22")]
 	public override void Hide()
 	{
 	}
 
-	[Token(Token = "0x600394A")]
-	[Address(RVA = "0x3F6D2A0", Offset = "0x3F6D2A0", VA = "0x3F6D2A0")]
+	[Token(Token = "0x6003B59")]
+	[Address(RVA = "0x427ACB0", Offset = "0x427ACB0", VA = "0x427ACB0")]
 	public void HideNoDisconnect()
 	{
 	}
 
-	[Token(Token = "0x600394B")]
-	[Address(RVA = "0x3F6D2B0", Offset = "0x3F6D2B0", VA = "0x3F6D2B0")]
+	[Token(Token = "0x6003B5A")]
+	[Address(RVA = "0x427ACC0", Offset = "0x427ACC0", VA = "0x427ACC0")]
 	private void OnBottomBarButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x600394C")]
-	[Address(RVA = "0x3F6DEF0", Offset = "0x3F6DEF0", VA = "0x3F6DEF0")]
+	[Token(Token = "0x6003B5B")]
+	[Address(RVA = "0x427B900", Offset = "0x427B900", VA = "0x427B900")]
 	private void OnDeletePreset()
 	{
 	}
 
-	[Token(Token = "0x600394D")]
-	[Address(RVA = "0x3F6DBD0", Offset = "0x3F6DBD0", VA = "0x3F6DBD0")]
+	[Token(Token = "0x6003B5C")]
+	[Address(RVA = "0x427B5E0", Offset = "0x427B5E0", VA = "0x427B5E0")]
 	private List<string> GetPresetDisallowedDelete()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600394E")]
-	[Address(RVA = "0x3F6E2E0", Offset = "0x3F6E2E0", VA = "0x3F6E2E0")]
+	[Token(Token = "0x6003B5D")]
+	[Address(RVA = "0x427BCF0", Offset = "0x427BCF0", VA = "0x427BCF0")]
 	private void OnLoadPreset()
 	{
 	}
 
-	[Token(Token = "0x600394F")]
-	[Address(RVA = "0x3F6E650", Offset = "0x3F6E650", VA = "0x3F6E650")]
+	[Token(Token = "0x6003B5E")]
+	[Address(RVA = "0x427C060", Offset = "0x427C060", VA = "0x427C060")]
 	private void OnSavePreset()
 	{
 	}
 
-	[Token(Token = "0x6003950")]
-	[Address(RVA = "0x3F6EB50", Offset = "0x3F6EB50", VA = "0x3F6EB50")]
+	[Token(Token = "0x6003B5F")]
+	[Address(RVA = "0x427C560", Offset = "0x427C560", VA = "0x427C560")]
 	private void OnImportPreset()
 	{
 	}
 
-	[Token(Token = "0x6003951")]
-	[Address(RVA = "0x3F6EDF0", Offset = "0x3F6EDF0", VA = "0x3F6EDF0")]
+	[Token(Token = "0x6003B60")]
+	[Address(RVA = "0x427C800", Offset = "0x427C800", VA = "0x427C800")]
 	public CreateGamePopup()
 	{
 	}

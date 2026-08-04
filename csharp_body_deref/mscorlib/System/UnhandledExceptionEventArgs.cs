@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.UnhandledExceptionEventArgs
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System;
@@ -18,7 +25,7 @@ public class UnhandledExceptionEventArgs : EventArgs
 	public object ExceptionObject
 	{
 		[Token(Token = "0x6000B93")]
-		[Address(RVA = "0x4FF47C0", Offset = "0x4FF47C0", VA = "0x4FF47C0")]
+		[Address(RVA = "0x3CDA2E0", Offset = "0x3CDA2E0", VA = "0x3CDA2E0")]
 		get
 		{
 			return null;
@@ -29,7 +36,7 @@ public class UnhandledExceptionEventArgs : EventArgs
 	public bool IsTerminating
 	{
 		[Token(Token = "0x6000B94")]
-		[Address(RVA = "0x4FF47D0", Offset = "0x4FF47D0", VA = "0x4FF47D0")]
+		[Address(RVA = "0x3CDA2F0", Offset = "0x3CDA2F0", VA = "0x3CDA2F0")]
 		get
 		{
 			return default(bool);
@@ -37,7 +44,7 @@ public class UnhandledExceptionEventArgs : EventArgs
 	}
 
 	[Token(Token = "0x6000B92")]
-	[Address(RVA = "0x4FF4750", Offset = "0x4FF4750", VA = "0x4FF4750")]
+	[Address(RVA = "0x3CDA270", Offset = "0x3CDA270", VA = "0x3CDA270")]
 	public UnhandledExceptionEventArgs(object exception, bool isTerminating)
 	{
 	}

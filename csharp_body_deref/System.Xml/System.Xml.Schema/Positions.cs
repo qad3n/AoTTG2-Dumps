@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.Positions
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -14,7 +21,7 @@ internal class Positions
 	public Position this[int pos]
 	{
 		[Token(Token = "0x6000FD2")]
-		[Address(RVA = "0x4509740", Offset = "0x4509740", VA = "0x4509740")]
+		[Address(RVA = "0x4846EA0", Offset = "0x4846EA0", VA = "0x4846EA0")]
 		get
 		{
 			return default(Position);
@@ -25,7 +32,7 @@ internal class Positions
 	public int Count
 	{
 		[Token(Token = "0x6000FD3")]
-		[Address(RVA = "0x45097C0", Offset = "0x45097C0", VA = "0x45097C0")]
+		[Address(RVA = "0x4846F20", Offset = "0x4846F20", VA = "0x4846F20")]
 		get
 		{
 			return default(int);
@@ -33,14 +40,14 @@ internal class Positions
 	}
 
 	[Token(Token = "0x6000FD1")]
-	[Address(RVA = "0x45096A0", Offset = "0x45096A0", VA = "0x45096A0")]
+	[Address(RVA = "0x4846E00", Offset = "0x4846E00", VA = "0x4846E00")]
 	public int Add(int symbol, object particle)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000FD4")]
-	[Address(RVA = "0x45097F0", Offset = "0x45097F0", VA = "0x45097F0")]
+	[Address(RVA = "0x4846F50", Offset = "0x4846F50", VA = "0x4846F50")]
 	public Positions()
 	{
 	}

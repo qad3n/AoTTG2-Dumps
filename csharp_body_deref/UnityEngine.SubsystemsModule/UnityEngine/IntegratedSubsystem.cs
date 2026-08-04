@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.IntegratedSubsystem
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -25,7 +32,7 @@ public class IntegratedSubsystem : ISubsystem
 	public bool running
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x4B76BF0", Offset = "0x4B76BF0", VA = "0x4B76BF0", Slot = "4")]
+		[Address(RVA = "0x4E9E520", Offset = "0x4E9E520", VA = "0x4E9E520", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -36,7 +43,7 @@ public class IntegratedSubsystem : ISubsystem
 	internal bool valid
 	{
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x4B76C30", Offset = "0x4B76C30", VA = "0x4B76C30")]
+		[Address(RVA = "0x4E9E560", Offset = "0x4E9E560", VA = "0x4E9E560")]
 		get
 		{
 			return default(bool);
@@ -45,16 +52,16 @@ public class IntegratedSubsystem : ISubsystem
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x4B76BB0", Offset = "0x4B76BB0", VA = "0x4B76BB0")]
+	[Address(RVA = "0x4E9E4E0", Offset = "0x4E9E4E0", VA = "0x4E9E4E0")]
 	internal extern void SetHandle(IntegratedSubsystem subsystem);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x4B76C40", Offset = "0x4B76C40", VA = "0x4B76C40")]
+	[Address(RVA = "0x4E9E570", Offset = "0x4E9E570", VA = "0x4E9E570")]
 	internal extern bool IsRunning();
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x4B76C70", Offset = "0x4B76C70", VA = "0x4B76C70")]
+	[Address(RVA = "0x4E9E5A0", Offset = "0x4E9E5A0", VA = "0x4E9E5A0")]
 	public IntegratedSubsystem()
 	{
 	}

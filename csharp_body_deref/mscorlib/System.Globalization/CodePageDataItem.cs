@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Globalization.CodePageDataItem
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Globalization;
@@ -38,7 +45,7 @@ internal class CodePageDataItem
 	public string WebName
 	{
 		[Token(Token = "0x6002DD8")]
-		[Address(RVA = "0x4F7F4F0", Offset = "0x4F7F4F0", VA = "0x4F7F4F0")]
+		[Address(RVA = "0x3C65010", Offset = "0x3C65010", VA = "0x3C65010")]
 		get
 		{
 			return null;
@@ -46,13 +53,13 @@ internal class CodePageDataItem
 	}
 
 	[Token(Token = "0x6002DD6")]
-	[Address(RVA = "0x4F7F3C0", Offset = "0x4F7F3C0", VA = "0x4F7F3C0")]
+	[Address(RVA = "0x3C64EE0", Offset = "0x3C64EE0", VA = "0x3C64EE0")]
 	internal CodePageDataItem(int dataIndex)
 	{
 	}
 
 	[Token(Token = "0x6002DD7")]
-	[Address(RVA = "0x4F7F450", Offset = "0x4F7F450", VA = "0x4F7F450")]
+	[Address(RVA = "0x3C64F70", Offset = "0x3C64F70", VA = "0x3C64F70")]
 	internal static string CreateString(string pStrings, uint index)
 	{
 		return null;

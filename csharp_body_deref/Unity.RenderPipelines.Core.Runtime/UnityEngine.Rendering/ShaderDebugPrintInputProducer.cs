@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.ShaderDebugPrintInputProducer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
@@ -6,7 +13,7 @@ namespace UnityEngine.Rendering;
 public static class ShaderDebugPrintInputProducer
 {
 	[Token(Token = "0x600087F")]
-	[Address(RVA = "0x488AFD0", Offset = "0x488AFD0", VA = "0x488AFD0")]
+	[Address(RVA = "0x4BB00C0", Offset = "0x4BB00C0", VA = "0x4BB00C0")]
 	public static ShaderDebugPrintInput Get()
 	{
 		return default(ShaderDebugPrintInput);

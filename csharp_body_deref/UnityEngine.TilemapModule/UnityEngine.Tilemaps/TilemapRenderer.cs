@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Tilemaps.TilemapRenderer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -16,27 +23,27 @@ namespace UnityEngine.Tilemaps;
 public sealed class TilemapRenderer : Renderer
 {
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x4BC8400", Offset = "0x4BC8400", VA = "0x4BC8400")]
+	[Address(RVA = "0x4EEFD30", Offset = "0x4EEFD30", VA = "0x4EEFD30")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal void RegisterSpriteAtlasRegistered()
 	{
 	}
 
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x4BC8470", Offset = "0x4BC8470", VA = "0x4BC8470")]
+	[Address(RVA = "0x4EEFDA0", Offset = "0x4EEFDA0", VA = "0x4EEFDA0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal void UnregisterSpriteAtlasRegistered()
 	{
 	}
 
 	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x4BC84E0", Offset = "0x4BC84E0", VA = "0x4BC84E0")]
+	[Address(RVA = "0x4EEFE10", Offset = "0x4EEFE10", VA = "0x4EEFE10")]
 	internal void OnSpriteAtlasRegistered(SpriteAtlas atlas)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600002E")]
-	[Address(RVA = "0x4BC85E0", Offset = "0x4BC85E0", VA = "0x4BC85E0")]
+	[Address(RVA = "0x4EEFF10", Offset = "0x4EEFF10", VA = "0x4EEFF10")]
 	private static extern void OnSpriteAtlasRegistered_Injected(IntPtr _unity_self, IntPtr atlas);
 }

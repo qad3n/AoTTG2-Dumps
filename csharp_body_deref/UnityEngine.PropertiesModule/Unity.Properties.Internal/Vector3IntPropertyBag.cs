@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.Properties.Internal.Vector3IntPropertyBag
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -13,7 +20,7 @@ internal class Vector3IntPropertyBag : ContainerPropertyBag<Vector3Int>
 		public override string Name
 		{
 			[Token(Token = "0x60001B7")]
-			[Address(RVA = "0x4B73E00", Offset = "0x4B73E00", VA = "0x4B73E00", Slot = "7")]
+			[Address(RVA = "0x4E9B730", Offset = "0x4E9B730", VA = "0x4E9B730", Slot = "7")]
 			get
 			{
 				return null;
@@ -21,7 +28,7 @@ internal class Vector3IntPropertyBag : ContainerPropertyBag<Vector3Int>
 		}
 
 		[Token(Token = "0x60001B8")]
-		[Address(RVA = "0x4B73D40", Offset = "0x4B73D40", VA = "0x4B73D40")]
+		[Address(RVA = "0x4E9B670", Offset = "0x4E9B670", VA = "0x4E9B670")]
 		public XProperty()
 		{
 		}
@@ -34,7 +41,7 @@ internal class Vector3IntPropertyBag : ContainerPropertyBag<Vector3Int>
 		public override string Name
 		{
 			[Token(Token = "0x60001B9")]
-			[Address(RVA = "0x4B73E30", Offset = "0x4B73E30", VA = "0x4B73E30", Slot = "7")]
+			[Address(RVA = "0x4E9B760", Offset = "0x4E9B760", VA = "0x4E9B760", Slot = "7")]
 			get
 			{
 				return null;
@@ -42,7 +49,7 @@ internal class Vector3IntPropertyBag : ContainerPropertyBag<Vector3Int>
 		}
 
 		[Token(Token = "0x60001BA")]
-		[Address(RVA = "0x4B73D80", Offset = "0x4B73D80", VA = "0x4B73D80")]
+		[Address(RVA = "0x4E9B6B0", Offset = "0x4E9B6B0", VA = "0x4E9B6B0")]
 		public YProperty()
 		{
 		}
@@ -55,7 +62,7 @@ internal class Vector3IntPropertyBag : ContainerPropertyBag<Vector3Int>
 		public override string Name
 		{
 			[Token(Token = "0x60001BB")]
-			[Address(RVA = "0x4B73E60", Offset = "0x4B73E60", VA = "0x4B73E60", Slot = "7")]
+			[Address(RVA = "0x4E9B790", Offset = "0x4E9B790", VA = "0x4E9B790", Slot = "7")]
 			get
 			{
 				return null;
@@ -63,14 +70,14 @@ internal class Vector3IntPropertyBag : ContainerPropertyBag<Vector3Int>
 		}
 
 		[Token(Token = "0x60001BC")]
-		[Address(RVA = "0x4B73DC0", Offset = "0x4B73DC0", VA = "0x4B73DC0")]
+		[Address(RVA = "0x4E9B6F0", Offset = "0x4E9B6F0", VA = "0x4E9B6F0")]
 		public ZProperty()
 		{
 		}
 	}
 
 	[Token(Token = "0x60001B6")]
-	[Address(RVA = "0x4B72DC0", Offset = "0x4B72DC0", VA = "0x4B72DC0")]
+	[Address(RVA = "0x4E9A6F0", Offset = "0x4E9A6F0", VA = "0x4E9A6F0")]
 	public Vector3IntPropertyBag()
 	{
 	}

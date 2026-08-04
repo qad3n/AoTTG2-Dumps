@@ -1,55 +1,62 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: ApplicationManagers.PublicProfiles.AottgPublicProfileParser
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/ApplicationManagers/PublicProfiles/AottgPublicProfileParser.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using SimpleJSONFixed;
 
 namespace ApplicationManagers.PublicProfiles;
 
-[Token(Token = "0x2000750")]
+[Token(Token = "0x200079F")]
 public static class AottgPublicProfileParser
 {
-	[Token(Token = "0x6004721")]
-	[Address(RVA = "0x40AA150", Offset = "0x40AA150", VA = "0x40AA150")]
+	[Token(Token = "0x6004990")]
+	[Address(RVA = "0x43C3150", Offset = "0x43C3150", VA = "0x43C3150")]
 	public static bool TryParse(string json, out AottgPublicProfile profile, out string error)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004722")]
-	[Address(RVA = "0x40AA2C0", Offset = "0x40AA2C0", VA = "0x40AA2C0")]
+	[Token(Token = "0x6004991")]
+	[Address(RVA = "0x43C32C0", Offset = "0x43C32C0", VA = "0x43C32C0")]
 	public static bool TryParse(JSONNode node, out AottgPublicProfile profile, out string error)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004723")]
-	[Address(RVA = "0x40AA910", Offset = "0x40AA910", VA = "0x40AA910")]
+	[Token(Token = "0x6004992")]
+	[Address(RVA = "0x43C3910", Offset = "0x43C3910", VA = "0x43C3910")]
 	private static string RawJson(JSONNode node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004724")]
-	[Address(RVA = "0x40AA9A0", Offset = "0x40AA9A0", VA = "0x40AA9A0")]
+	[Token(Token = "0x6004993")]
+	[Address(RVA = "0x43C39A0", Offset = "0x43C39A0", VA = "0x43C39A0")]
 	private static string[] StringArray(JSONNode node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004725")]
-	[Address(RVA = "0x40AA870", Offset = "0x40AA870", VA = "0x40AA870")]
+	[Token(Token = "0x6004994")]
+	[Address(RVA = "0x43C3870", Offset = "0x43C3870", VA = "0x43C3870")]
 	private static string NullableTrimmed(JSONNode node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004726")]
-	[Address(RVA = "0x40AA7A0", Offset = "0x40AA7A0", VA = "0x40AA7A0")]
+	[Token(Token = "0x6004995")]
+	[Address(RVA = "0x43C37A0", Offset = "0x43C37A0", VA = "0x43C37A0")]
 	private static string Trimmed(JSONNode node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004727")]
-	[Address(RVA = "0x40AA290", Offset = "0x40AA290", VA = "0x40AA290")]
+	[Token(Token = "0x6004996")]
+	[Address(RVA = "0x43C3290", Offset = "0x43C3290", VA = "0x43C3290")]
 	private static bool Fail(out AottgPublicProfile profile, out string error, string value)
 	{
 		return default(bool);

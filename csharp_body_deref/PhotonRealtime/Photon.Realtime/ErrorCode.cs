@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Realtime.ErrorCode
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonChat/Code/ChatPeer.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -99,7 +106,7 @@ public class ErrorCode
 	public const int InvalidEncryptionParameters = 32741;
 
 	[Token(Token = "0x600011F")]
-	[Address(RVA = "0x3BD9550", Offset = "0x3BD9550", VA = "0x3BD9550")]
+	[Address(RVA = "0x3ECEEA0", Offset = "0x3ECEEA0", VA = "0x3ECEEA0")]
 	public ErrorCode()
 	{
 	}

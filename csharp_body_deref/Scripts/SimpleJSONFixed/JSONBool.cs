@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: SimpleJSONFixed.JSONBool
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/SimpleJSONFixed/JSONBool.c
+// Prior real C# source (older reference): Assets/Scripts/Utility/SimpleJSON.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Text;
 using Il2CppDummyDll;
 
@@ -14,7 +21,7 @@ public class JSONBool : JSONNode
 	public override JSONNodeType Tag
 	{
 		[Token(Token = "0x6000283")]
-		[Address(RVA = "0x3C8A660", Offset = "0x3C8A660", VA = "0x3C8A660", Slot = "4")]
+		[Address(RVA = "0x3F7FFB0", Offset = "0x3F7FFB0", VA = "0x3F7FFB0", Slot = "4")]
 		get
 		{
 			return default(JSONNodeType);
@@ -25,7 +32,7 @@ public class JSONBool : JSONNode
 	public override bool IsBoolean
 	{
 		[Token(Token = "0x6000284")]
-		[Address(RVA = "0x3C8A670", Offset = "0x3C8A670", VA = "0x3C8A670", Slot = "14")]
+		[Address(RVA = "0x3F7FFC0", Offset = "0x3F7FFC0", VA = "0x3F7FFC0", Slot = "14")]
 		get
 		{
 			return default(bool);
@@ -36,13 +43,13 @@ public class JSONBool : JSONNode
 	public override string Value
 	{
 		[Token(Token = "0x6000286")]
-		[Address(RVA = "0x3C8A6A0", Offset = "0x3C8A6A0", VA = "0x3C8A6A0", Slot = "9")]
+		[Address(RVA = "0x3F7FFF0", Offset = "0x3F7FFF0", VA = "0x3F7FFF0", Slot = "9")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000287")]
-		[Address(RVA = "0x3C8A6E0", Offset = "0x3C8A6E0", VA = "0x3C8A6E0", Slot = "10")]
+		[Address(RVA = "0x3F80030", Offset = "0x3F80030", VA = "0x3F80030", Slot = "10")]
 		set
 		{
 		}
@@ -52,66 +59,66 @@ public class JSONBool : JSONNode
 	public override bool AsBool
 	{
 		[Token(Token = "0x6000288")]
-		[Address(RVA = "0x3C8A730", Offset = "0x3C8A730", VA = "0x3C8A730", Slot = "39")]
+		[Address(RVA = "0x3F80080", Offset = "0x3F80080", VA = "0x3F80080", Slot = "39")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000289")]
-		[Address(RVA = "0x3C8A740", Offset = "0x3C8A740", VA = "0x3C8A740", Slot = "40")]
+		[Address(RVA = "0x3F80090", Offset = "0x3F80090", VA = "0x3F80090", Slot = "40")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000285")]
-	[Address(RVA = "0x3C8A680", Offset = "0x3C8A680", VA = "0x3C8A680", Slot = "32")]
+	[Address(RVA = "0x3F7FFD0", Offset = "0x3F7FFD0", VA = "0x3F7FFD0", Slot = "32")]
 	public override Enumerator GetEnumerator()
 	{
 		return default(Enumerator);
 	}
 
 	[Token(Token = "0x600028A")]
-	[Address(RVA = "0x3C84B80", Offset = "0x3C84B80", VA = "0x3C84B80")]
+	[Address(RVA = "0x3F7A4D0", Offset = "0x3F7A4D0", VA = "0x3F7A4D0")]
 	public JSONBool(bool aData)
 	{
 	}
 
 	[Token(Token = "0x600028B")]
-	[Address(RVA = "0x3C8A750", Offset = "0x3C8A750", VA = "0x3C8A750")]
+	[Address(RVA = "0x3F800A0", Offset = "0x3F800A0", VA = "0x3F800A0")]
 	public JSONBool(string aData)
 	{
 	}
 
 	[Token(Token = "0x600028C")]
-	[Address(RVA = "0x3C8A7C0", Offset = "0x3C8A7C0", VA = "0x3C8A7C0", Slot = "26")]
+	[Address(RVA = "0x3F80110", Offset = "0x3F80110", VA = "0x3F80110", Slot = "26")]
 	public override JSONNode Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600028D")]
-	[Address(RVA = "0x3C8A850", Offset = "0x3C8A850", VA = "0x3C8A850", Slot = "31")]
+	[Address(RVA = "0x3F801A0", Offset = "0x3F801A0", VA = "0x3F801A0", Slot = "31")]
 	internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode)
 	{
 	}
 
 	[Token(Token = "0x600028E")]
-	[Address(RVA = "0x3C8A8C0", Offset = "0x3C8A8C0", VA = "0x3C8A8C0", Slot = "0")]
+	[Address(RVA = "0x3F80210", Offset = "0x3F80210", VA = "0x3F80210", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600028F")]
-	[Address(RVA = "0x3C8A8F0", Offset = "0x3C8A8F0", VA = "0x3C8A8F0", Slot = "2")]
+	[Address(RVA = "0x3F80240", Offset = "0x3F80240", VA = "0x3F80240", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000290")]
-	[Address(RVA = "0x3C8A930", Offset = "0x3C8A930", VA = "0x3C8A930", Slot = "25")]
+	[Address(RVA = "0x3F80280", Offset = "0x3F80280", VA = "0x3F80280", Slot = "25")]
 	public override void Clear()
 	{
 	}

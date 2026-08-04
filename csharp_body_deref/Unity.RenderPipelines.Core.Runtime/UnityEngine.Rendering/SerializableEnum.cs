@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.SerializableEnum
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -21,20 +28,20 @@ public class SerializableEnum
 	public Enum value
 	{
 		[Token(Token = "0x6000649")]
-		[Address(RVA = "0x4874510", Offset = "0x4874510", VA = "0x4874510")]
+		[Address(RVA = "0x4B99600", Offset = "0x4B99600", VA = "0x4B99600")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600064A")]
-		[Address(RVA = "0x4874620", Offset = "0x4874620", VA = "0x4874620")]
+		[Address(RVA = "0x4B99710", Offset = "0x4B99710", VA = "0x4B99710")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600064B")]
-	[Address(RVA = "0x4874660", Offset = "0x4874660", VA = "0x4874660")]
+	[Address(RVA = "0x4B99750", Offset = "0x4B99750", VA = "0x4B99750")]
 	public SerializableEnum(Type enumType)
 	{
 	}

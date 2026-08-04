@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Serialization.MemoryTraceWriter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -21,14 +28,14 @@ public class MemoryTraceWriter : ITraceWriter
 	public TraceLevel LevelFilter
 	{
 		[Token(Token = "0x6000975")]
-		[Address(RVA = "0x3AFEBC0", Offset = "0x3AFEBC0", VA = "0x3AFEBC0", Slot = "4")]
+		[Address(RVA = "0x3DF4510", Offset = "0x3DF4510", VA = "0x3DF4510", Slot = "4")]
 		[CompilerGenerated]
 		get
 		{
 			return default(TraceLevel);
 		}
 		[Token(Token = "0x6000976")]
-		[Address(RVA = "0x3AFEBD0", Offset = "0x3AFEBD0", VA = "0x3AFEBD0")]
+		[Address(RVA = "0x3DF4520", Offset = "0x3DF4520", VA = "0x3DF4520")]
 		[CompilerGenerated]
 		set
 		{
@@ -36,26 +43,26 @@ public class MemoryTraceWriter : ITraceWriter
 	}
 
 	[Token(Token = "0x6000977")]
-	[Address(RVA = "0x3AFEBE0", Offset = "0x3AFEBE0", VA = "0x3AFEBE0")]
+	[Address(RVA = "0x3DF4530", Offset = "0x3DF4530", VA = "0x3DF4530")]
 	public MemoryTraceWriter()
 	{
 	}
 
 	[Token(Token = "0x6000978")]
-	[Address(RVA = "0x3AFECA0", Offset = "0x3AFECA0", VA = "0x3AFECA0", Slot = "5")]
+	[Address(RVA = "0x3DF45F0", Offset = "0x3DF45F0", VA = "0x3DF45F0", Slot = "5")]
 	public void Trace(TraceLevel level, string message, Exception? ex)
 	{
 	}
 
 	[Token(Token = "0x6000979")]
-	[Address(RVA = "0x3AFEF60", Offset = "0x3AFEF60", VA = "0x3AFEF60")]
+	[Address(RVA = "0x3DF48B0", Offset = "0x3DF48B0", VA = "0x3DF48B0")]
 	public IEnumerable<string> GetTraceMessages()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600097A")]
-	[Address(RVA = "0x3AFEF70", Offset = "0x3AFEF70", VA = "0x3AFEF70", Slot = "3")]
+	[Address(RVA = "0x3DF48C0", Offset = "0x3DF48C0", VA = "0x3DF48C0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

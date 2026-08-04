@@ -1,10 +1,17 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.VisibleLight
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000305")]
+[Token(Token = "0x2000308")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public struct VisibleLight : IEquatable<VisibleLight>
 {
@@ -40,22 +47,22 @@ public struct VisibleLight : IEquatable<VisibleLight>
 	[FieldOffset(Offset = "0x70")]
 	private VisibleLightFlags m_Flags;
 
-	[Token(Token = "0x60010F4")]
-	[Address(RVA = "0x4B0CA20", Offset = "0x4B0CA20", VA = "0x4B0CA20", Slot = "4")]
+	[Token(Token = "0x60010F6")]
+	[Address(RVA = "0x4E34350", Offset = "0x4E34350", VA = "0x4E34350", Slot = "4")]
 	public bool Equals(VisibleLight other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60010F5")]
-	[Address(RVA = "0x4B0CE50", Offset = "0x4B0CE50", VA = "0x4B0CE50", Slot = "0")]
+	[Token(Token = "0x60010F7")]
+	[Address(RVA = "0x4E34780", Offset = "0x4E34780", VA = "0x4E34780", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60010F6")]
-	[Address(RVA = "0x4B0CF80", Offset = "0x4B0CF80", VA = "0x4B0CF80", Slot = "2")]
+	[Token(Token = "0x60010F8")]
+	[Address(RVA = "0x4E348B0", Offset = "0x4E348B0", VA = "0x4E348B0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

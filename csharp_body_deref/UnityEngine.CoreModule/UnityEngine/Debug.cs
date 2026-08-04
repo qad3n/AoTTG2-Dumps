@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Debug
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonRealtime/Code/SupportLogger.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -25,7 +32,7 @@ public class Debug
 	public static ILogger unityLogger
 	{
 		[Token(Token = "0x600021E")]
-		[Address(RVA = "0x4A8EB60", Offset = "0x4A8EB60", VA = "0x4A8EB60")]
+		[Address(RVA = "0x4DB6380", Offset = "0x4DB6380", VA = "0x4DB6380")]
 		get
 		{
 			return null;
@@ -37,163 +44,163 @@ public class Debug
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000237")]
-		[Address(RVA = "0x4A90EB0", Offset = "0x4A90EB0", VA = "0x4A90EB0")]
+		[Address(RVA = "0x4DB86D0", Offset = "0x4DB86D0", VA = "0x4DB86D0")]
 		get;
 	}
 
 	[Token(Token = "0x600021F")]
-	[Address(RVA = "0x4A8EBD0", Offset = "0x4A8EBD0", VA = "0x4A8EBD0")]
+	[Address(RVA = "0x4DB63F0", Offset = "0x4DB63F0", VA = "0x4DB63F0")]
 	[ExcludeFromDocs]
 	public static void DrawLine(Vector3 start, Vector3 end, Color color)
 	{
 	}
 
 	[Token(Token = "0x6000220")]
-	[Address(RVA = "0x4A8ED40", Offset = "0x4A8ED40", VA = "0x4A8ED40")]
+	[Address(RVA = "0x4DB6560", Offset = "0x4DB6560", VA = "0x4DB6560")]
 	[UnityEngine.Bindings.FreeFunction("DebugDrawLine", IsThreadSafe = true)]
 	public static void DrawLine(Vector3 start, Vector3 end, [DefaultValue("Color.white")] Color color, [DefaultValue("0.0f")] float duration, [DefaultValue("true")] bool depthTest)
 	{
 	}
 
 	[Token(Token = "0x6000221")]
-	[Address(RVA = "0x4A8EE60", Offset = "0x4A8EE60", VA = "0x4A8EE60")]
+	[Address(RVA = "0x4DB6680", Offset = "0x4DB6680", VA = "0x4DB6680")]
 	[ExcludeFromDocs]
 	public static void DrawRay(Vector3 start, Vector3 dir, Color color, float duration)
 	{
 	}
 
 	[Token(Token = "0x6000222")]
-	[Address(RVA = "0x4A8EF60", Offset = "0x4A8EF60", VA = "0x4A8EF60")]
+	[Address(RVA = "0x4DB6780", Offset = "0x4DB6780", VA = "0x4DB6780")]
 	public static void DrawRay(Vector3 start, Vector3 dir, [DefaultValue("Color.white")] Color color, [DefaultValue("0.0f")] float duration, [DefaultValue("true")] bool depthTest)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000223")]
-	[Address(RVA = "0x4A8F0E0", Offset = "0x4A8F0E0", VA = "0x4A8F0E0")]
+	[Address(RVA = "0x4DB6900", Offset = "0x4DB6900", VA = "0x4DB6900")]
 	[UnityEngine.Bindings.ThreadSafe]
 	public unsafe static extern int ExtractStackTraceNoAlloc(byte* buffer, int bufferMax, string projectFolder);
 
 	[Token(Token = "0x6000224")]
-	[Address(RVA = "0x4A8F120", Offset = "0x4A8F120", VA = "0x4A8F120")]
+	[Address(RVA = "0x4DB6940", Offset = "0x4DB6940", VA = "0x4DB6940")]
 	public static void Log(object message)
 	{
 	}
 
 	[Token(Token = "0x6000225")]
-	[Address(RVA = "0x4A8F2A0", Offset = "0x4A8F2A0", VA = "0x4A8F2A0")]
+	[Address(RVA = "0x4DB6AC0", Offset = "0x4DB6AC0", VA = "0x4DB6AC0")]
 	public static void Log(object message, Object context)
 	{
 	}
 
 	[Token(Token = "0x6000226")]
-	[Address(RVA = "0x4A8F420", Offset = "0x4A8F420", VA = "0x4A8F420")]
+	[Address(RVA = "0x4DB6C40", Offset = "0x4DB6C40", VA = "0x4DB6C40")]
 	public static void LogFormat(string format, params object[] args)
 	{
 	}
 
 	[Token(Token = "0x6000227")]
-	[Address(RVA = "0x4A8F5A0", Offset = "0x4A8F5A0", VA = "0x4A8F5A0")]
+	[Address(RVA = "0x4DB6DC0", Offset = "0x4DB6DC0", VA = "0x4DB6DC0")]
 	public static void LogFormat(Object context, string format, params object[] args)
 	{
 	}
 
 	[Token(Token = "0x6000228")]
-	[Address(RVA = "0x4A8F720", Offset = "0x4A8F720", VA = "0x4A8F720")]
+	[Address(RVA = "0x4DB6F40", Offset = "0x4DB6F40", VA = "0x4DB6F40")]
 	public static void LogFormat(LogType logType, LogOption logOptions, Object context, string format, params object[] args)
 	{
 	}
 
 	[Token(Token = "0x6000229")]
-	[Address(RVA = "0x4A8FB70", Offset = "0x4A8FB70", VA = "0x4A8FB70")]
+	[Address(RVA = "0x4DB7390", Offset = "0x4DB7390", VA = "0x4DB7390")]
 	public static void LogError(object message)
 	{
 	}
 
 	[Token(Token = "0x600022A")]
-	[Address(RVA = "0x4A8FCF0", Offset = "0x4A8FCF0", VA = "0x4A8FCF0")]
+	[Address(RVA = "0x4DB7510", Offset = "0x4DB7510", VA = "0x4DB7510")]
 	public static void LogError(object message, Object context)
 	{
 	}
 
 	[Token(Token = "0x600022B")]
-	[Address(RVA = "0x4A8FE70", Offset = "0x4A8FE70", VA = "0x4A8FE70")]
+	[Address(RVA = "0x4DB7690", Offset = "0x4DB7690", VA = "0x4DB7690")]
 	public static void LogErrorFormat(string format, params object[] args)
 	{
 	}
 
 	[Token(Token = "0x600022C")]
-	[Address(RVA = "0x4A8FFF0", Offset = "0x4A8FFF0", VA = "0x4A8FFF0")]
+	[Address(RVA = "0x4DB7810", Offset = "0x4DB7810", VA = "0x4DB7810")]
 	public static void LogErrorFormat(Object context, string format, params object[] args)
 	{
 	}
 
 	[Token(Token = "0x600022D")]
-	[Address(RVA = "0x4A881F0", Offset = "0x4A881F0", VA = "0x4A881F0")]
+	[Address(RVA = "0x4DAFA10", Offset = "0x4DAFA10", VA = "0x4DAFA10")]
 	public static void LogException(Exception exception)
 	{
 	}
 
 	[Token(Token = "0x600022E")]
-	[Address(RVA = "0x4A90170", Offset = "0x4A90170", VA = "0x4A90170")]
+	[Address(RVA = "0x4DB7990", Offset = "0x4DB7990", VA = "0x4DB7990")]
 	public static void LogException(Exception exception, Object context)
 	{
 	}
 
 	[Token(Token = "0x600022F")]
-	[Address(RVA = "0x4A902E0", Offset = "0x4A902E0", VA = "0x4A902E0")]
+	[Address(RVA = "0x4DB7B00", Offset = "0x4DB7B00", VA = "0x4DB7B00")]
 	public static void LogWarning(object message)
 	{
 	}
 
 	[Token(Token = "0x6000230")]
-	[Address(RVA = "0x4A90460", Offset = "0x4A90460", VA = "0x4A90460")]
+	[Address(RVA = "0x4DB7C80", Offset = "0x4DB7C80", VA = "0x4DB7C80")]
 	public static void LogWarning(object message, Object context)
 	{
 	}
 
 	[Token(Token = "0x6000231")]
-	[Address(RVA = "0x4A905E0", Offset = "0x4A905E0", VA = "0x4A905E0")]
+	[Address(RVA = "0x4DB7E00", Offset = "0x4DB7E00", VA = "0x4DB7E00")]
 	public static void LogWarningFormat(string format, params object[] args)
 	{
 	}
 
 	[Token(Token = "0x6000232")]
-	[Address(RVA = "0x4A90760", Offset = "0x4A90760", VA = "0x4A90760")]
+	[Address(RVA = "0x4DB7F80", Offset = "0x4DB7F80", VA = "0x4DB7F80")]
 	public static void LogWarningFormat(Object context, string format, params object[] args)
 	{
 	}
 
 	[Token(Token = "0x6000233")]
-	[Address(RVA = "0x4A908E0", Offset = "0x4A908E0", VA = "0x4A908E0")]
+	[Address(RVA = "0x4DB8100", Offset = "0x4DB8100", VA = "0x4DB8100")]
 	[Conditional("UNITY_ASSERTIONS")]
 	public static void Assert(bool condition)
 	{
 	}
 
 	[Token(Token = "0x6000234")]
-	[Address(RVA = "0x4A90A50", Offset = "0x4A90A50", VA = "0x4A90A50")]
+	[Address(RVA = "0x4DB8270", Offset = "0x4DB8270", VA = "0x4DB8270")]
 	[Conditional("UNITY_ASSERTIONS")]
 	public static void Assert(bool condition, string message)
 	{
 	}
 
 	[Token(Token = "0x6000235")]
-	[Address(RVA = "0x4A90BB0", Offset = "0x4A90BB0", VA = "0x4A90BB0")]
+	[Address(RVA = "0x4DB83D0", Offset = "0x4DB83D0", VA = "0x4DB83D0")]
 	[Conditional("UNITY_ASSERTIONS")]
 	public static void LogAssertion(object message)
 	{
 	}
 
 	[Token(Token = "0x6000236")]
-	[Address(RVA = "0x4A90D30", Offset = "0x4A90D30", VA = "0x4A90D30")]
+	[Address(RVA = "0x4DB8550", Offset = "0x4DB8550", VA = "0x4DB8550")]
 	[Conditional("UNITY_ASSERTIONS")]
 	public static void LogAssertionFormat(string format, params object[] args)
 	{
 	}
 
 	[Token(Token = "0x6000238")]
-	[Address(RVA = "0x4A90EE0", Offset = "0x4A90EE0", VA = "0x4A90EE0")]
+	[Address(RVA = "0x4DB8700", Offset = "0x4DB8700", VA = "0x4DB8700")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static bool CallOverridenDebugHandler(Exception exception, Object obj)
 	{
@@ -201,7 +208,7 @@ public class Debug
 	}
 
 	[Token(Token = "0x6000239")]
-	[Address(RVA = "0x4A913C0", Offset = "0x4A913C0", VA = "0x4A913C0")]
+	[Address(RVA = "0x4DB8BE0", Offset = "0x4DB8BE0", VA = "0x4DB8BE0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static bool IsLoggingEnabled()
 	{
@@ -210,6 +217,6 @@ public class Debug
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600023B")]
-	[Address(RVA = "0x4A8EE00", Offset = "0x4A8EE00", VA = "0x4A8EE00")]
+	[Address(RVA = "0x4DB6620", Offset = "0x4DB6620", VA = "0x4DB6620")]
 	private static extern void DrawLine_Injected([In] ref Vector3 start, [In] ref Vector3 end, [In][DefaultValue("Color.white")] ref Color color, [DefaultValue("0.0f")] float duration, [DefaultValue("true")] bool depthTest);
 }

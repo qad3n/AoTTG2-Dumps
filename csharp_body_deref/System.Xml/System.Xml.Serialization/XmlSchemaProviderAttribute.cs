@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlSchemaProviderAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Serialization;
@@ -18,7 +25,7 @@ public sealed class XmlSchemaProviderAttribute : Attribute
 	public string MethodName
 	{
 		[Token(Token = "0x6000D96")]
-		[Address(RVA = "0x44E0F80", Offset = "0x44E0F80", VA = "0x44E0F80")]
+		[Address(RVA = "0x481E6E0", Offset = "0x481E6E0", VA = "0x481E6E0")]
 		get
 		{
 			return null;
@@ -29,20 +36,20 @@ public sealed class XmlSchemaProviderAttribute : Attribute
 	public bool IsAny
 	{
 		[Token(Token = "0x6000D97")]
-		[Address(RVA = "0x44E0F90", Offset = "0x44E0F90", VA = "0x44E0F90")]
+		[Address(RVA = "0x481E6F0", Offset = "0x481E6F0", VA = "0x481E6F0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000D98")]
-		[Address(RVA = "0x44E0FA0", Offset = "0x44E0FA0", VA = "0x44E0FA0")]
+		[Address(RVA = "0x481E700", Offset = "0x481E700", VA = "0x481E700")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000D95")]
-	[Address(RVA = "0x44E0F50", Offset = "0x44E0F50", VA = "0x44E0F50")]
+	[Address(RVA = "0x481E6B0", Offset = "0x481E6B0", VA = "0x481E6B0")]
 	public XmlSchemaProviderAttribute(string methodName)
 	{
 	}

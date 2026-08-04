@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.MeshWriteData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using Unity.Collections;
 
@@ -23,7 +30,7 @@ public class MeshWriteData
 	internal int currentVertex;
 
 	[Token(Token = "0x6000F60")]
-	[Address(RVA = "0x4D4CB40", Offset = "0x4D4CB40", VA = "0x4D4CB40")]
+	[Address(RVA = "0x5074470", Offset = "0x5074470", VA = "0x5074470")]
 	internal MeshWriteData()
 	{
 	}

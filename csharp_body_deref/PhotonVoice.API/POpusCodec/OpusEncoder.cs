@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: POpusCodec.OpusEncoder
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/POpusCodec/OpusEncoder.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -59,7 +66,7 @@ public class OpusEncoder : IDisposable
 	public SamplingRate InputSamplingRate
 	{
 		[Token(Token = "0x600000F")]
-		[Address(RVA = "0x3C1F910", Offset = "0x3C1F910", VA = "0x3C1F910")]
+		[Address(RVA = "0x3F15260", Offset = "0x3F15260", VA = "0x3F15260")]
 		get
 		{
 			return default(SamplingRate);
@@ -70,7 +77,7 @@ public class OpusEncoder : IDisposable
 	public Channels InputChannels
 	{
 		[Token(Token = "0x6000010")]
-		[Address(RVA = "0x3C1F920", Offset = "0x3C1F920", VA = "0x3C1F920")]
+		[Address(RVA = "0x3F15270", Offset = "0x3F15270", VA = "0x3F15270")]
 		get
 		{
 			return default(Channels);
@@ -81,13 +88,13 @@ public class OpusEncoder : IDisposable
 	public Delay EncoderDelay
 	{
 		[Token(Token = "0x6000012")]
-		[Address(RVA = "0x3C1FA10", Offset = "0x3C1FA10", VA = "0x3C1FA10")]
+		[Address(RVA = "0x3F15360", Offset = "0x3F15360", VA = "0x3F15360")]
 		get
 		{
 			return default(Delay);
 		}
 		[Token(Token = "0x6000011")]
-		[Address(RVA = "0x3C1F930", Offset = "0x3C1F930", VA = "0x3C1F930")]
+		[Address(RVA = "0x3F15280", Offset = "0x3F15280", VA = "0x3F15280")]
 		set
 		{
 		}
@@ -97,7 +104,7 @@ public class OpusEncoder : IDisposable
 	public int FrameSizePerChannel
 	{
 		[Token(Token = "0x6000013")]
-		[Address(RVA = "0x3C1FA20", Offset = "0x3C1FA20", VA = "0x3C1FA20")]
+		[Address(RVA = "0x3F15370", Offset = "0x3F15370", VA = "0x3F15370")]
 		get
 		{
 			return default(int);
@@ -108,13 +115,13 @@ public class OpusEncoder : IDisposable
 	public int Bitrate
 	{
 		[Token(Token = "0x6000014")]
-		[Address(RVA = "0x3C1FA30", Offset = "0x3C1FA30", VA = "0x3C1FA30")]
+		[Address(RVA = "0x3F15380", Offset = "0x3F15380", VA = "0x3F15380")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000015")]
-		[Address(RVA = "0x3C1FC50", Offset = "0x3C1FC50", VA = "0x3C1FC50")]
+		[Address(RVA = "0x3F155A0", Offset = "0x3F155A0", VA = "0x3F155A0")]
 		set
 		{
 		}
@@ -124,13 +131,13 @@ public class OpusEncoder : IDisposable
 	public Bandwidth MaxBandwidth
 	{
 		[Token(Token = "0x6000016")]
-		[Address(RVA = "0x3C1FEB0", Offset = "0x3C1FEB0", VA = "0x3C1FEB0")]
+		[Address(RVA = "0x3F15800", Offset = "0x3F15800", VA = "0x3F15800")]
 		get
 		{
 			return default(Bandwidth);
 		}
 		[Token(Token = "0x6000017")]
-		[Address(RVA = "0x3C1FEC0", Offset = "0x3C1FEC0", VA = "0x3C1FEC0")]
+		[Address(RVA = "0x3F15810", Offset = "0x3F15810", VA = "0x3F15810")]
 		set
 		{
 		}
@@ -140,13 +147,13 @@ public class OpusEncoder : IDisposable
 	public Complexity Complexity
 	{
 		[Token(Token = "0x6000018")]
-		[Address(RVA = "0x3C1FED0", Offset = "0x3C1FED0", VA = "0x3C1FED0")]
+		[Address(RVA = "0x3F15820", Offset = "0x3F15820", VA = "0x3F15820")]
 		get
 		{
 			return default(Complexity);
 		}
 		[Token(Token = "0x6000019")]
-		[Address(RVA = "0x3C1FEE0", Offset = "0x3C1FEE0", VA = "0x3C1FEE0")]
+		[Address(RVA = "0x3F15830", Offset = "0x3F15830", VA = "0x3F15830")]
 		set
 		{
 		}
@@ -156,13 +163,13 @@ public class OpusEncoder : IDisposable
 	public int ExpectedPacketLossPercentage
 	{
 		[Token(Token = "0x600001A")]
-		[Address(RVA = "0x3C1FEF0", Offset = "0x3C1FEF0", VA = "0x3C1FEF0")]
+		[Address(RVA = "0x3F15840", Offset = "0x3F15840", VA = "0x3F15840")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600001B")]
-		[Address(RVA = "0x3C1FF00", Offset = "0x3C1FF00", VA = "0x3C1FF00")]
+		[Address(RVA = "0x3F15850", Offset = "0x3F15850", VA = "0x3F15850")]
 		set
 		{
 		}
@@ -172,13 +179,13 @@ public class OpusEncoder : IDisposable
 	public SignalHint SignalHint
 	{
 		[Token(Token = "0x600001C")]
-		[Address(RVA = "0x3C1FF10", Offset = "0x3C1FF10", VA = "0x3C1FF10")]
+		[Address(RVA = "0x3F15860", Offset = "0x3F15860", VA = "0x3F15860")]
 		get
 		{
 			return default(SignalHint);
 		}
 		[Token(Token = "0x600001D")]
-		[Address(RVA = "0x3C1FF20", Offset = "0x3C1FF20", VA = "0x3C1FF20")]
+		[Address(RVA = "0x3F15870", Offset = "0x3F15870", VA = "0x3F15870")]
 		set
 		{
 		}
@@ -188,13 +195,13 @@ public class OpusEncoder : IDisposable
 	public ForceChannels ForceChannels
 	{
 		[Token(Token = "0x600001E")]
-		[Address(RVA = "0x3C1FF30", Offset = "0x3C1FF30", VA = "0x3C1FF30")]
+		[Address(RVA = "0x3F15880", Offset = "0x3F15880", VA = "0x3F15880")]
 		get
 		{
 			return default(ForceChannels);
 		}
 		[Token(Token = "0x600001F")]
-		[Address(RVA = "0x3C1FF40", Offset = "0x3C1FF40", VA = "0x3C1FF40")]
+		[Address(RVA = "0x3F15890", Offset = "0x3F15890", VA = "0x3F15890")]
 		set
 		{
 		}
@@ -204,13 +211,13 @@ public class OpusEncoder : IDisposable
 	public bool UseInbandFEC
 	{
 		[Token(Token = "0x6000020")]
-		[Address(RVA = "0x3C1FF50", Offset = "0x3C1FF50", VA = "0x3C1FF50")]
+		[Address(RVA = "0x3F158A0", Offset = "0x3F158A0", VA = "0x3F158A0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000021")]
-		[Address(RVA = "0x3C1FF70", Offset = "0x3C1FF70", VA = "0x3C1FF70")]
+		[Address(RVA = "0x3F158C0", Offset = "0x3F158C0", VA = "0x3F158C0")]
 		set
 		{
 		}
@@ -220,13 +227,13 @@ public class OpusEncoder : IDisposable
 	public int PacketLossPercentage
 	{
 		[Token(Token = "0x6000022")]
-		[Address(RVA = "0x3C1FF80", Offset = "0x3C1FF80", VA = "0x3C1FF80")]
+		[Address(RVA = "0x3F158D0", Offset = "0x3F158D0", VA = "0x3F158D0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000023")]
-		[Address(RVA = "0x3C1FF90", Offset = "0x3C1FF90", VA = "0x3C1FF90")]
+		[Address(RVA = "0x3F158E0", Offset = "0x3F158E0", VA = "0x3F158E0")]
 		set
 		{
 		}
@@ -236,13 +243,13 @@ public class OpusEncoder : IDisposable
 	public bool UseUnconstrainedVBR
 	{
 		[Token(Token = "0x6000024")]
-		[Address(RVA = "0x3C1FFA0", Offset = "0x3C1FFA0", VA = "0x3C1FFA0")]
+		[Address(RVA = "0x3F158F0", Offset = "0x3F158F0", VA = "0x3F158F0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000025")]
-		[Address(RVA = "0x3C1FFC0", Offset = "0x3C1FFC0", VA = "0x3C1FFC0")]
+		[Address(RVA = "0x3F15910", Offset = "0x3F15910", VA = "0x3F15910")]
 		set
 		{
 		}
@@ -252,51 +259,51 @@ public class OpusEncoder : IDisposable
 	public bool DtxEnabled
 	{
 		[Token(Token = "0x6000026")]
-		[Address(RVA = "0x3C1FFE0", Offset = "0x3C1FFE0", VA = "0x3C1FFE0")]
+		[Address(RVA = "0x3F15930", Offset = "0x3F15930", VA = "0x3F15930")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000027")]
-		[Address(RVA = "0x3C20000", Offset = "0x3C20000", VA = "0x3C20000")]
+		[Address(RVA = "0x3F15950", Offset = "0x3F15950", VA = "0x3F15950")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x3C20010", Offset = "0x3C20010", VA = "0x3C20010")]
+	[Address(RVA = "0x3F15960", Offset = "0x3F15960", VA = "0x3F15960")]
 	public OpusEncoder(SamplingRate inputSamplingRateHz, Channels numChannels, int bitrate, OpusApplicationType applicationType, Delay encoderDelay)
 	{
 	}
 
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x3C1F860", Offset = "0x3C1F860", VA = "0x3C1F860")]
+	[Address(RVA = "0x3F151B0", Offset = "0x3F151B0", VA = "0x3F151B0")]
 	[MonoPInvokeCallback(typeof(Action<IntPtr, IntPtr, int>))]
 	public static void DataCallbackStatic(IntPtr handle, IntPtr p, int count)
 	{
 	}
 
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x3C20990", Offset = "0x3C20990", VA = "0x3C20990")]
+	[Address(RVA = "0x3F162E0", Offset = "0x3F162E0", VA = "0x3F162E0")]
 	private void dataCallback(IntPtr p, int count)
 	{
 	}
 
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x3C20AA0", Offset = "0x3C20AA0", VA = "0x3C20AA0")]
+	[Address(RVA = "0x3F163F0", Offset = "0x3F163F0", VA = "0x3F163F0")]
 	public void Encode(float[] pcmSamples)
 	{
 	}
 
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x3C20DB0", Offset = "0x3C20DB0", VA = "0x3C20DB0")]
+	[Address(RVA = "0x3F16700", Offset = "0x3F16700", VA = "0x3F16700")]
 	public void Encode(short[] pcmSamples)
 	{
 	}
 
 	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x3C210C0", Offset = "0x3C210C0", VA = "0x3C210C0", Slot = "4")]
+	[Address(RVA = "0x3F16A10", Offset = "0x3F16A10", VA = "0x3F16A10", Slot = "4")]
 	public void Dispose()
 	{
 	}

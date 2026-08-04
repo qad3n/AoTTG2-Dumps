@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XmlSchemaSimpleTypeRestriction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.Serialization;
 using Il2CppDummyDll;
 
@@ -23,13 +30,13 @@ public class XmlSchemaSimpleTypeRestriction : XmlSchemaSimpleTypeContent
 	public XmlQualifiedName BaseTypeName
 	{
 		[Token(Token = "0x6001773")]
-		[Address(RVA = "0x43F5720", Offset = "0x43F5720", VA = "0x43F5720")]
+		[Address(RVA = "0x4732E80", Offset = "0x4732E80", VA = "0x4732E80")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001774")]
-		[Address(RVA = "0x43F5730", Offset = "0x43F5730", VA = "0x43F5730")]
+		[Address(RVA = "0x4732E90", Offset = "0x4732E90", VA = "0x4732E90")]
 		set
 		{
 		}
@@ -40,13 +47,13 @@ public class XmlSchemaSimpleTypeRestriction : XmlSchemaSimpleTypeContent
 	public XmlSchemaSimpleType BaseType
 	{
 		[Token(Token = "0x6001775")]
-		[Address(RVA = "0x43F57C0", Offset = "0x43F57C0", VA = "0x43F57C0")]
+		[Address(RVA = "0x4732F20", Offset = "0x4732F20", VA = "0x4732F20")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001776")]
-		[Address(RVA = "0x43F57D0", Offset = "0x43F57D0", VA = "0x43F57D0")]
+		[Address(RVA = "0x4732F30", Offset = "0x4732F30", VA = "0x4732F30")]
 		set
 		{
 		}
@@ -68,7 +75,7 @@ public class XmlSchemaSimpleTypeRestriction : XmlSchemaSimpleTypeContent
 	public XmlSchemaObjectCollection Facets
 	{
 		[Token(Token = "0x6001777")]
-		[Address(RVA = "0x43F57E0", Offset = "0x43F57E0", VA = "0x43F57E0")]
+		[Address(RVA = "0x4732F40", Offset = "0x4732F40", VA = "0x4732F40")]
 		get
 		{
 			return null;
@@ -76,14 +83,14 @@ public class XmlSchemaSimpleTypeRestriction : XmlSchemaSimpleTypeContent
 	}
 
 	[Token(Token = "0x6001778")]
-	[Address(RVA = "0x43F57F0", Offset = "0x43F57F0", VA = "0x43F57F0", Slot = "13")]
+	[Address(RVA = "0x4732F50", Offset = "0x4732F50", VA = "0x4732F50", Slot = "13")]
 	internal override XmlSchemaObject Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001779")]
-	[Address(RVA = "0x43F5890", Offset = "0x43F5890", VA = "0x43F5890")]
+	[Address(RVA = "0x4732FF0", Offset = "0x4732FF0", VA = "0x4732FF0")]
 	public XmlSchemaSimpleTypeRestriction()
 	{
 	}

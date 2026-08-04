@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.UTF16Decoder
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Text;
 using Il2CppDummyDll;
 
@@ -15,34 +22,34 @@ internal class UTF16Decoder : Decoder
 	private int lastByte;
 
 	[Token(Token = "0x6000BAD")]
-	[Address(RVA = "0x44C03F0", Offset = "0x44C03F0", VA = "0x44C03F0")]
+	[Address(RVA = "0x47FDB50", Offset = "0x47FDB50", VA = "0x47FDB50")]
 	public UTF16Decoder(bool bigEndian)
 	{
 	}
 
 	[Token(Token = "0x6000BAE")]
-	[Address(RVA = "0x44C0420", Offset = "0x44C0420", VA = "0x44C0420", Slot = "5")]
+	[Address(RVA = "0x47FDB80", Offset = "0x47FDB80", VA = "0x47FDB80", Slot = "5")]
 	public override int GetCharCount(byte[] bytes, int index, int count)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000BAF")]
-	[Address(RVA = "0x44C0440", Offset = "0x44C0440", VA = "0x44C0440", Slot = "6")]
+	[Address(RVA = "0x47FDBA0", Offset = "0x47FDBA0", VA = "0x47FDBA0", Slot = "6")]
 	public override int GetCharCount(byte[] bytes, int index, int count, bool flush)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000BB0")]
-	[Address(RVA = "0x44C0520", Offset = "0x44C0520", VA = "0x44C0520", Slot = "8")]
+	[Address(RVA = "0x47FDC80", Offset = "0x47FDC80", VA = "0x47FDC80", Slot = "8")]
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000BB1")]
-	[Address(RVA = "0x44C06A0", Offset = "0x44C06A0", VA = "0x44C06A0", Slot = "12")]
+	[Address(RVA = "0x47FDE00", Offset = "0x47FDE00", VA = "0x47FDE00", Slot = "12")]
 	public override void Convert(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex, int charCount, bool flush, out int bytesUsed, out int charsUsed, out bool completed)
 	{
 	}

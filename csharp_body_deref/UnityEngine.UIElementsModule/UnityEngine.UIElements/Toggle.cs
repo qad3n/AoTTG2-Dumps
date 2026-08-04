@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Toggle
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -10,7 +17,7 @@ public class Toggle : BaseBoolField
 	public new class UxmlFactory : UxmlFactory<Toggle, UxmlTraits>
 	{
 		[Token(Token = "0x6000780")]
-		[Address(RVA = "0x4CDA4E0", Offset = "0x4CDA4E0", VA = "0x4CDA4E0")]
+		[Address(RVA = "0x5001E10", Offset = "0x5001E10", VA = "0x5001E10")]
 		public UxmlFactory()
 		{
 		}
@@ -24,13 +31,13 @@ public class Toggle : BaseBoolField
 		private UxmlStringAttributeDescription m_Text;
 
 		[Token(Token = "0x6000781")]
-		[Address(RVA = "0x4CDA520", Offset = "0x4CDA520", VA = "0x4CDA520", Slot = "4")]
+		[Address(RVA = "0x5001E50", Offset = "0x5001E50", VA = "0x5001E50", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x6000782")]
-		[Address(RVA = "0x4CDA630", Offset = "0x4CDA630", VA = "0x4CDA630")]
+		[Address(RVA = "0x5001F60", Offset = "0x5001F60", VA = "0x5001F60")]
 		public UxmlTraits()
 		{
 		}
@@ -66,25 +73,25 @@ public class Toggle : BaseBoolField
 	public static readonly string mixedValuesUssClassName;
 
 	[Token(Token = "0x600077B")]
-	[Address(RVA = "0x4CD9F80", Offset = "0x4CD9F80", VA = "0x4CD9F80")]
+	[Address(RVA = "0x50018B0", Offset = "0x50018B0", VA = "0x50018B0")]
 	public Toggle()
 	{
 	}
 
 	[Token(Token = "0x600077C")]
-	[Address(RVA = "0x4CD9F90", Offset = "0x4CD9F90", VA = "0x4CD9F90")]
+	[Address(RVA = "0x50018C0", Offset = "0x50018C0", VA = "0x50018C0")]
 	public Toggle(string label)
 	{
 	}
 
 	[Token(Token = "0x600077D")]
-	[Address(RVA = "0x4CDA0B0", Offset = "0x4CDA0B0", VA = "0x4CDA0B0", Slot = "115")]
+	[Address(RVA = "0x50019E0", Offset = "0x50019E0", VA = "0x50019E0", Slot = "115")]
 	protected override void InitLabel()
 	{
 	}
 
 	[Token(Token = "0x600077E")]
-	[Address(RVA = "0x4CDA130", Offset = "0x4CDA130", VA = "0x4CDA130", Slot = "113")]
+	[Address(RVA = "0x5001A60", Offset = "0x5001A60", VA = "0x5001A60", Slot = "113")]
 	protected override void UpdateMixedValueContent()
 	{
 	}

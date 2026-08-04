@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextGenerationSettings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine;
@@ -78,21 +85,21 @@ public struct TextGenerationSettings
 	public bool generateOutOfBounds;
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x4BC4810", Offset = "0x4BC4810", VA = "0x4BC4810")]
+	[Address(RVA = "0x4EEC140", Offset = "0x4EEC140", VA = "0x4EEC140")]
 	private bool CompareColors(Color left, Color right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x4BC4950", Offset = "0x4BC4950", VA = "0x4BC4950")]
+	[Address(RVA = "0x4EEC280", Offset = "0x4EEC280", VA = "0x4EEC280")]
 	private bool CompareVector2(Vector2 left, Vector2 right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x4BC4A10", Offset = "0x4BC4A10", VA = "0x4BC4A10")]
+	[Address(RVA = "0x4EEC340", Offset = "0x4EEC340", VA = "0x4EEC340")]
 	public bool Equals(TextGenerationSettings other)
 	{
 		return default(bool);

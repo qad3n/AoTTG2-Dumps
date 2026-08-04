@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.WebRTCAudioLib
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/WebRTCAudioProcessor.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -80,36 +87,36 @@ public class WebRTCAudioLib
 
 	[PreserveSig]
 	[Token(Token = "0x6000344")]
-	[Address(RVA = "0x3C3CB10", Offset = "0x3C3CB10", VA = "0x3C3CB10")]
+	[Address(RVA = "0x3F32460", Offset = "0x3F32460", VA = "0x3F32460")]
 	public static extern IntPtr webrtc_audio_processor_create(int samplingRate, int channels, int frameSize, int revSamplingRate, int revChannels);
 
 	[PreserveSig]
 	[Token(Token = "0x6000345")]
-	[Address(RVA = "0x3C3CBB0", Offset = "0x3C3CBB0", VA = "0x3C3CBB0")]
+	[Address(RVA = "0x3F32500", Offset = "0x3F32500", VA = "0x3F32500")]
 	public static extern int webrtc_audio_processor_init(IntPtr proc);
 
 	[PreserveSig]
 	[Token(Token = "0x6000346")]
-	[Address(RVA = "0x3C3DFB0", Offset = "0x3C3DFB0", VA = "0x3C3DFB0")]
+	[Address(RVA = "0x3F33900", Offset = "0x3F33900", VA = "0x3F33900")]
 	public static extern int webrtc_audio_processor_set_param(IntPtr proc, int param, int v);
 
 	[PreserveSig]
 	[Token(Token = "0x6000347")]
-	[Address(RVA = "0x3C3D030", Offset = "0x3C3D030", VA = "0x3C3D030")]
+	[Address(RVA = "0x3F32980", Offset = "0x3F32980", VA = "0x3F32980")]
 	public static extern int webrtc_audio_processor_process(IntPtr proc, short[] buffer, int offset, out bool voiceDetected);
 
 	[PreserveSig]
 	[Token(Token = "0x6000348")]
-	[Address(RVA = "0x3C3DF20", Offset = "0x3C3DF20", VA = "0x3C3DF20")]
+	[Address(RVA = "0x3F33870", Offset = "0x3F33870", VA = "0x3F33870")]
 	public static extern int webrtc_audio_processor_process_reverse(IntPtr proc, short[] buffer, int bufferSize);
 
 	[PreserveSig]
 	[Token(Token = "0x6000349")]
-	[Address(RVA = "0x3C3E430", Offset = "0x3C3E430", VA = "0x3C3E430")]
+	[Address(RVA = "0x3F33D80", Offset = "0x3F33D80", VA = "0x3F33D80")]
 	public static extern void webrtc_audio_processor_destroy(IntPtr proc);
 
 	[Token(Token = "0x600034A")]
-	[Address(RVA = "0x3C3CB00", Offset = "0x3C3CB00", VA = "0x3C3CB00")]
+	[Address(RVA = "0x3F32450", Offset = "0x3F32450", VA = "0x3F32450")]
 	public WebRTCAudioLib()
 	{
 	}

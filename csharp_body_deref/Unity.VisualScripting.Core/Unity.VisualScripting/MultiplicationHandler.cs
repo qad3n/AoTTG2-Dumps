@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.MultiplicationHandler
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Unity.VisualScripting;
@@ -6,7 +13,7 @@ namespace Unity.VisualScripting;
 public sealed class MultiplicationHandler : BinaryOperatorHandler
 {
 	[Token(Token = "0x6000BA7")]
-	[Address(RVA = "0x49FFC40", Offset = "0x49FFC40", VA = "0x49FFC40")]
+	[Address(RVA = "0x4D24810", Offset = "0x4D24810", VA = "0x4D24810")]
 	public MultiplicationHandler()
 	{
 	}

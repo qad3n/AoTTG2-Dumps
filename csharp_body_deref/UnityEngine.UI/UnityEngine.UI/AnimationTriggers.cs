@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.AnimationTriggers
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Serialization;
@@ -57,13 +64,13 @@ public class AnimationTriggers
 	public string normalTrigger
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x4BC8990", Offset = "0x4BC8990", VA = "0x4BC8990")]
+		[Address(RVA = "0x4EF02C0", Offset = "0x4EF02C0", VA = "0x4EF02C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x4BC89A0", Offset = "0x4BC89A0", VA = "0x4BC89A0")]
+		[Address(RVA = "0x4EF02D0", Offset = "0x4EF02D0", VA = "0x4EF02D0")]
 		set
 		{
 		}
@@ -73,13 +80,13 @@ public class AnimationTriggers
 	public string highlightedTrigger
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x4BC89B0", Offset = "0x4BC89B0", VA = "0x4BC89B0")]
+		[Address(RVA = "0x4EF02E0", Offset = "0x4EF02E0", VA = "0x4EF02E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x4BC89C0", Offset = "0x4BC89C0", VA = "0x4BC89C0")]
+		[Address(RVA = "0x4EF02F0", Offset = "0x4EF02F0", VA = "0x4EF02F0")]
 		set
 		{
 		}
@@ -89,13 +96,13 @@ public class AnimationTriggers
 	public string pressedTrigger
 	{
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x4BC89D0", Offset = "0x4BC89D0", VA = "0x4BC89D0")]
+		[Address(RVA = "0x4EF0300", Offset = "0x4EF0300", VA = "0x4EF0300")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x4BC89E0", Offset = "0x4BC89E0", VA = "0x4BC89E0")]
+		[Address(RVA = "0x4EF0310", Offset = "0x4EF0310", VA = "0x4EF0310")]
 		set
 		{
 		}
@@ -105,13 +112,13 @@ public class AnimationTriggers
 	public string selectedTrigger
 	{
 		[Token(Token = "0x6000009")]
-		[Address(RVA = "0x4BC89F0", Offset = "0x4BC89F0", VA = "0x4BC89F0")]
+		[Address(RVA = "0x4EF0320", Offset = "0x4EF0320", VA = "0x4EF0320")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600000A")]
-		[Address(RVA = "0x4BC8A00", Offset = "0x4BC8A00", VA = "0x4BC8A00")]
+		[Address(RVA = "0x4EF0330", Offset = "0x4EF0330", VA = "0x4EF0330")]
 		set
 		{
 		}
@@ -121,20 +128,20 @@ public class AnimationTriggers
 	public string disabledTrigger
 	{
 		[Token(Token = "0x600000B")]
-		[Address(RVA = "0x4BC8A10", Offset = "0x4BC8A10", VA = "0x4BC8A10")]
+		[Address(RVA = "0x4EF0340", Offset = "0x4EF0340", VA = "0x4EF0340")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600000C")]
-		[Address(RVA = "0x4BC8A20", Offset = "0x4BC8A20", VA = "0x4BC8A20")]
+		[Address(RVA = "0x4EF0350", Offset = "0x4EF0350", VA = "0x4EF0350")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x4BC8A30", Offset = "0x4BC8A30", VA = "0x4BC8A30")]
+	[Address(RVA = "0x4EF0360", Offset = "0x4EF0360", VA = "0x4EF0360")]
 	public AnimationTriggers()
 	{
 	}

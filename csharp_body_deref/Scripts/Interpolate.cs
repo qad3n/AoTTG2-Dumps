@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Interpolate
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Interpolate.c
+// Prior real C# source (older reference): Assets/Scripts/ThirdParty/MeleeWeaponTrail/Interpolate.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -383,7 +390,7 @@ public class Interpolate
 		private float System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002ESingle_003E_002ECurrent
 		{
 			[Token(Token = "0x60000A1")]
-			[Address(RVA = "0x3C6BB10", Offset = "0x3C6BB10", VA = "0x3C6BB10", Slot = "6")]
+			[Address(RVA = "0x3F61460", Offset = "0x3F61460", VA = "0x3F61460", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -395,7 +402,7 @@ public class Interpolate
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x60000A3")]
-			[Address(RVA = "0x3C6BB60", Offset = "0x3C6BB60", VA = "0x3C6BB60", Slot = "9")]
+			[Address(RVA = "0x3F614B0", Offset = "0x3F614B0", VA = "0x3F614B0", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -404,35 +411,35 @@ public class Interpolate
 		}
 
 		[Token(Token = "0x600009E")]
-		[Address(RVA = "0x3C6A0D0", Offset = "0x3C6A0D0", VA = "0x3C6A0D0")]
+		[Address(RVA = "0x3F5FA20", Offset = "0x3F5FA20", VA = "0x3F5FA20")]
 		[DebuggerHidden]
 		public _003CNewCounter_003Ed__6(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x600009F")]
-		[Address(RVA = "0x3C6BAB0", Offset = "0x3C6BAB0", VA = "0x3C6BAB0", Slot = "7")]
+		[Address(RVA = "0x3F61400", Offset = "0x3F61400", VA = "0x3F61400", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x60000A0")]
-		[Address(RVA = "0x3C6BAC0", Offset = "0x3C6BAC0", VA = "0x3C6BAC0", Slot = "8")]
+		[Address(RVA = "0x3F61410", Offset = "0x3F61410", VA = "0x3F61410", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60000A2")]
-		[Address(RVA = "0x3C6BB20", Offset = "0x3C6BB20", VA = "0x3C6BB20", Slot = "10")]
+		[Address(RVA = "0x3F61470", Offset = "0x3F61470", VA = "0x3F61470", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x60000A4")]
-		[Address(RVA = "0x3C6BB80", Offset = "0x3C6BB80", VA = "0x3C6BB80", Slot = "4")]
+		[Address(RVA = "0x3F614D0", Offset = "0x3F614D0", VA = "0x3F614D0", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<float> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002ESingle_003E_002EGetEnumerator()
 		{
@@ -440,7 +447,7 @@ public class Interpolate
 		}
 
 		[Token(Token = "0x60000A5")]
-		[Address(RVA = "0x3C6BC20", Offset = "0x3C6BC20", VA = "0x3C6BC20", Slot = "5")]
+		[Address(RVA = "0x3F61570", Offset = "0x3F61570", VA = "0x3F61570", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -492,7 +499,7 @@ public class Interpolate
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x60000AA")]
-			[Address(RVA = "0x3C6C2B0", Offset = "0x3C6C2B0", VA = "0x3C6C2B0", Slot = "4")]
+			[Address(RVA = "0x3F61C00", Offset = "0x3F61C00", VA = "0x3F61C00", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -504,7 +511,7 @@ public class Interpolate
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x60000AC")]
-			[Address(RVA = "0x3C6C300", Offset = "0x3C6C300", VA = "0x3C6C300", Slot = "7")]
+			[Address(RVA = "0x3F61C50", Offset = "0x3F61C50", VA = "0x3F61C50", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -513,34 +520,34 @@ public class Interpolate
 		}
 
 		[Token(Token = "0x60000A6")]
-		[Address(RVA = "0x3C6A470", Offset = "0x3C6A470", VA = "0x3C6A470")]
+		[Address(RVA = "0x3F5FDC0", Offset = "0x3F5FDC0", VA = "0x3F5FDC0")]
 		[DebuggerHidden]
 		public _003CNewEase_003Ed__9(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x60000A7")]
-		[Address(RVA = "0x3C6BC30", Offset = "0x3C6BC30", VA = "0x3C6BC30", Slot = "5")]
+		[Address(RVA = "0x3F61580", Offset = "0x3F61580", VA = "0x3F61580", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x60000A8")]
-		[Address(RVA = "0x3C6BCE0", Offset = "0x3C6BCE0", VA = "0x3C6BCE0", Slot = "6")]
+		[Address(RVA = "0x3F61630", Offset = "0x3F61630", VA = "0x3F61630", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60000A9")]
-		[Address(RVA = "0x3C6C210", Offset = "0x3C6C210", VA = "0x3C6C210")]
+		[Address(RVA = "0x3F61B60", Offset = "0x3F61B60", VA = "0x3F61B60")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
 		[Token(Token = "0x60000AB")]
-		[Address(RVA = "0x3C6C2C0", Offset = "0x3C6C2C0", VA = "0x3C6C2C0", Slot = "8")]
+		[Address(RVA = "0x3F61C10", Offset = "0x3F61C10", VA = "0x3F61C10", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -579,7 +586,7 @@ public class Interpolate
 		private float System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002ESingle_003E_002ECurrent
 		{
 			[Token(Token = "0x60000B0")]
-			[Address(RVA = "0x3C6C3E0", Offset = "0x3C6C3E0", VA = "0x3C6C3E0", Slot = "6")]
+			[Address(RVA = "0x3F61D30", Offset = "0x3F61D30", VA = "0x3F61D30", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -591,7 +598,7 @@ public class Interpolate
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x60000B2")]
-			[Address(RVA = "0x3C6C430", Offset = "0x3C6C430", VA = "0x3C6C430", Slot = "9")]
+			[Address(RVA = "0x3F61D80", Offset = "0x3F61D80", VA = "0x3F61D80", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -600,35 +607,35 @@ public class Interpolate
 		}
 
 		[Token(Token = "0x60000AD")]
-		[Address(RVA = "0x3C6A020", Offset = "0x3C6A020", VA = "0x3C6A020")]
+		[Address(RVA = "0x3F5F970", Offset = "0x3F5F970", VA = "0x3F5F970")]
 		[DebuggerHidden]
 		public _003CNewTimer_003Ed__3(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x60000AE")]
-		[Address(RVA = "0x3C6C310", Offset = "0x3C6C310", VA = "0x3C6C310", Slot = "7")]
+		[Address(RVA = "0x3F61C60", Offset = "0x3F61C60", VA = "0x3F61C60", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x60000AF")]
-		[Address(RVA = "0x3C6C320", Offset = "0x3C6C320", VA = "0x3C6C320", Slot = "8")]
+		[Address(RVA = "0x3F61C70", Offset = "0x3F61C70", VA = "0x3F61C70", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60000B1")]
-		[Address(RVA = "0x3C6C3F0", Offset = "0x3C6C3F0", VA = "0x3C6C3F0", Slot = "10")]
+		[Address(RVA = "0x3F61D40", Offset = "0x3F61D40", VA = "0x3F61D40", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x60000B3")]
-		[Address(RVA = "0x3C6C450", Offset = "0x3C6C450", VA = "0x3C6C450", Slot = "4")]
+		[Address(RVA = "0x3F61DA0", Offset = "0x3F61DA0", VA = "0x3F61DA0", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<float> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002ESingle_003E_002EGetEnumerator()
 		{
@@ -636,7 +643,7 @@ public class Interpolate
 		}
 
 		[Token(Token = "0x60000B4")]
-		[Address(RVA = "0x3C6C4E0", Offset = "0x3C6C4E0", VA = "0x3C6C4E0", Slot = "5")]
+		[Address(RVA = "0x3F61E30", Offset = "0x3F61E30", VA = "0x3F61E30", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -645,21 +652,21 @@ public class Interpolate
 	}
 
 	[Token(Token = "0x600005B")]
-	[Address(RVA = "0x3C69F70", Offset = "0x3C69F70", VA = "0x3C69F70")]
+	[Address(RVA = "0x3F5F8C0", Offset = "0x3F5F8C0", VA = "0x3F5F8C0")]
 	private static Vector3 Identity(Vector3 v)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x3C69F80", Offset = "0x3C69F80", VA = "0x3C69F80")]
+	[Address(RVA = "0x3F5F8D0", Offset = "0x3F5F8D0", VA = "0x3F5F8D0")]
 	private static Vector3 TransformDotPosition(Transform t)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x3C69FA0", Offset = "0x3C69FA0", VA = "0x3C69FA0")]
+	[Address(RVA = "0x3F5F8F0", Offset = "0x3F5F8F0", VA = "0x3F5F8F0")]
 	[IteratorStateMachine(typeof(_003CNewTimer_003Ed__3))]
 	private static IEnumerable<float> NewTimer(float duration)
 	{
@@ -667,7 +674,7 @@ public class Interpolate
 	}
 
 	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x3C6A050", Offset = "0x3C6A050", VA = "0x3C6A050")]
+	[Address(RVA = "0x3F5F9A0", Offset = "0x3F5F9A0", VA = "0x3F5F9A0")]
 	[IteratorStateMachine(typeof(_003CNewCounter_003Ed__6))]
 	private static IEnumerable<float> NewCounter(int start, int end, int step)
 	{
@@ -675,21 +682,21 @@ public class Interpolate
 	}
 
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x3C6A100", Offset = "0x3C6A100", VA = "0x3C6A100")]
+	[Address(RVA = "0x3F5FA50", Offset = "0x3F5FA50", VA = "0x3F5FA50")]
 	public static IEnumerator NewEase(Function ease, Vector3 start, Vector3 end, float duration)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x3C6A320", Offset = "0x3C6A320", VA = "0x3C6A320")]
+	[Address(RVA = "0x3F5FC70", Offset = "0x3F5FC70", VA = "0x3F5FC70")]
 	public static IEnumerator NewEase(Function ease, Vector3 start, Vector3 end, int slices)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x3C6A240", Offset = "0x3C6A240", VA = "0x3C6A240")]
+	[Address(RVA = "0x3F5FB90", Offset = "0x3F5FB90", VA = "0x3F5FB90")]
 	[IteratorStateMachine(typeof(_003CNewEase_003Ed__9))]
 	private static IEnumerator NewEase(Function ease, Vector3 start, Vector3 end, float total, IEnumerable<float> driver)
 	{
@@ -697,42 +704,42 @@ public class Interpolate
 	}
 
 	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x3C6A490", Offset = "0x3C6A490", VA = "0x3C6A490")]
+	[Address(RVA = "0x3F5FDE0", Offset = "0x3F5FDE0", VA = "0x3F5FDE0")]
 	private static Vector3 Ease(Function ease, Vector3 start, Vector3 distance, float elapsedTime, float duration)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x6000063")]
-	[Address(RVA = "0x3C6A550", Offset = "0x3C6A550", VA = "0x3C6A550")]
+	[Address(RVA = "0x3F5FEA0", Offset = "0x3F5FEA0", VA = "0x3F5FEA0")]
 	public static Function Ease(EaseType type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000064")]
-	[Address(RVA = "0x3C6AA50", Offset = "0x3C6AA50", VA = "0x3C6AA50")]
+	[Address(RVA = "0x3F603A0", Offset = "0x3F603A0", VA = "0x3F603A0")]
 	public static IEnumerable<Vector3> NewBezier(Function ease, Transform[] nodes, float duration)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000065")]
-	[Address(RVA = "0x3C6AB50", Offset = "0x3C6AB50", VA = "0x3C6AB50")]
+	[Address(RVA = "0x3F604A0", Offset = "0x3F604A0", VA = "0x3F604A0")]
 	public static IEnumerable<Vector3> NewBezier(Function ease, Transform[] nodes, int slices)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000066")]
-	[Address(RVA = "0x3C6AC50", Offset = "0x3C6AC50", VA = "0x3C6AC50")]
+	[Address(RVA = "0x3F605A0", Offset = "0x3F605A0", VA = "0x3F605A0")]
 	public static IEnumerable<Vector3> NewBezier(Function ease, Vector3[] points, float duration)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000067")]
-	[Address(RVA = "0x3C6AD50", Offset = "0x3C6AD50", VA = "0x3C6AD50")]
+	[Address(RVA = "0x3F606A0", Offset = "0x3F606A0", VA = "0x3F606A0")]
 	public static IEnumerable<Vector3> NewBezier(Function ease, Vector3[] points, int slices)
 	{
 		return null;
@@ -746,21 +753,21 @@ public class Interpolate
 	}
 
 	[Token(Token = "0x6000069")]
-	[Address(RVA = "0x3C6AE50", Offset = "0x3C6AE50", VA = "0x3C6AE50")]
+	[Address(RVA = "0x3F607A0", Offset = "0x3F607A0", VA = "0x3F607A0")]
 	private static Vector3 Bezier(Function ease, Vector3[] points, float elapsedTime, float duration)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x3C6AFD0", Offset = "0x3C6AFD0", VA = "0x3C6AFD0")]
+	[Address(RVA = "0x3F60920", Offset = "0x3F60920", VA = "0x3F60920")]
 	public static IEnumerable<Vector3> NewCatmullRom(Transform[] nodes, int slices, bool loop)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600006B")]
-	[Address(RVA = "0x3C6B070", Offset = "0x3C6B070", VA = "0x3C6B070")]
+	[Address(RVA = "0x3F609C0", Offset = "0x3F609C0", VA = "0x3F609C0")]
 	public static IEnumerable<Vector3> NewCatmullRom(Vector3[] points, int slices, bool loop)
 	{
 		return null;
@@ -774,168 +781,168 @@ public class Interpolate
 	}
 
 	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x3C6B110", Offset = "0x3C6B110", VA = "0x3C6B110")]
+	[Address(RVA = "0x3F60A60", Offset = "0x3F60A60", VA = "0x3F60A60")]
 	private static Vector3 CatmullRom(Vector3 previous, Vector3 start, Vector3 end, Vector3 next, float elapsedTime, float duration)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x3C6B210", Offset = "0x3C6B210", VA = "0x3C6B210")]
+	[Address(RVA = "0x3F60B60", Offset = "0x3F60B60", VA = "0x3F60B60")]
 	private static float Linear(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x3C6B230", Offset = "0x3C6B230", VA = "0x3C6B230")]
+	[Address(RVA = "0x3F60B80", Offset = "0x3F60B80", VA = "0x3F60B80")]
 	private static float EaseInQuad(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x3C6B260", Offset = "0x3C6B260", VA = "0x3C6B260")]
+	[Address(RVA = "0x3F60BB0", Offset = "0x3F60BB0", VA = "0x3F60BB0")]
 	private static float EaseOutQuad(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000071")]
-	[Address(RVA = "0x3C6B290", Offset = "0x3C6B290", VA = "0x3C6B290")]
+	[Address(RVA = "0x3F60BE0", Offset = "0x3F60BE0", VA = "0x3F60BE0")]
 	private static float EaseInOutQuad(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000072")]
-	[Address(RVA = "0x3C6B310", Offset = "0x3C6B310", VA = "0x3C6B310")]
+	[Address(RVA = "0x3F60C60", Offset = "0x3F60C60", VA = "0x3F60C60")]
 	private static float EaseInCubic(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000073")]
-	[Address(RVA = "0x3C6B340", Offset = "0x3C6B340", VA = "0x3C6B340")]
+	[Address(RVA = "0x3F60C90", Offset = "0x3F60C90", VA = "0x3F60C90")]
 	private static float EaseOutCubic(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000074")]
-	[Address(RVA = "0x3C6B380", Offset = "0x3C6B380", VA = "0x3C6B380")]
+	[Address(RVA = "0x3F60CD0", Offset = "0x3F60CD0", VA = "0x3F60CD0")]
 	private static float EaseInOutCubic(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000075")]
-	[Address(RVA = "0x3C6B400", Offset = "0x3C6B400", VA = "0x3C6B400")]
+	[Address(RVA = "0x3F60D50", Offset = "0x3F60D50", VA = "0x3F60D50")]
 	private static float EaseInQuart(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x3C6B430", Offset = "0x3C6B430", VA = "0x3C6B430")]
+	[Address(RVA = "0x3F60D80", Offset = "0x3F60D80", VA = "0x3F60D80")]
 	private static float EaseOutQuart(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000077")]
-	[Address(RVA = "0x3C6B470", Offset = "0x3C6B470", VA = "0x3C6B470")]
+	[Address(RVA = "0x3F60DC0", Offset = "0x3F60DC0", VA = "0x3F60DC0")]
 	private static float EaseInOutQuart(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x3C6B4F0", Offset = "0x3C6B4F0", VA = "0x3C6B4F0")]
+	[Address(RVA = "0x3F60E40", Offset = "0x3F60E40", VA = "0x3F60E40")]
 	private static float EaseInQuint(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000079")]
-	[Address(RVA = "0x3C6B520", Offset = "0x3C6B520", VA = "0x3C6B520")]
+	[Address(RVA = "0x3F60E70", Offset = "0x3F60E70", VA = "0x3F60E70")]
 	private static float EaseOutQuint(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600007A")]
-	[Address(RVA = "0x3C6B560", Offset = "0x3C6B560", VA = "0x3C6B560")]
+	[Address(RVA = "0x3F60EB0", Offset = "0x3F60EB0", VA = "0x3F60EB0")]
 	private static float EaseInOutQuint(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600007B")]
-	[Address(RVA = "0x3C6B5F0", Offset = "0x3C6B5F0", VA = "0x3C6B5F0")]
+	[Address(RVA = "0x3F60F40", Offset = "0x3F60F40", VA = "0x3F60F40")]
 	private static float EaseInSine(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600007C")]
-	[Address(RVA = "0x3C6B630", Offset = "0x3C6B630", VA = "0x3C6B630")]
+	[Address(RVA = "0x3F60F80", Offset = "0x3F60F80", VA = "0x3F60F80")]
 	private static float EaseOutSine(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x3C6B670", Offset = "0x3C6B670", VA = "0x3C6B670")]
+	[Address(RVA = "0x3F60FC0", Offset = "0x3F60FC0", VA = "0x3F60FC0")]
 	private static float EaseInOutSine(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600007E")]
-	[Address(RVA = "0x3C6B6C0", Offset = "0x3C6B6C0", VA = "0x3C6B6C0")]
+	[Address(RVA = "0x3F61010", Offset = "0x3F61010", VA = "0x3F61010")]
 	private static float EaseInExpo(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600007F")]
-	[Address(RVA = "0x3C6B700", Offset = "0x3C6B700", VA = "0x3C6B700")]
+	[Address(RVA = "0x3F61050", Offset = "0x3F61050", VA = "0x3F61050")]
 	private static float EaseOutExpo(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000080")]
-	[Address(RVA = "0x3C6B750", Offset = "0x3C6B750", VA = "0x3C6B750")]
+	[Address(RVA = "0x3F610A0", Offset = "0x3F610A0", VA = "0x3F610A0")]
 	private static float EaseInOutExpo(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000081")]
-	[Address(RVA = "0x3C6B7F0", Offset = "0x3C6B7F0", VA = "0x3C6B7F0")]
+	[Address(RVA = "0x3F61140", Offset = "0x3F61140", VA = "0x3F61140")]
 	private static float EaseInCirc(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000082")]
-	[Address(RVA = "0x3C6B860", Offset = "0x3C6B860", VA = "0x3C6B860")]
+	[Address(RVA = "0x3F611B0", Offset = "0x3F611B0", VA = "0x3F611B0")]
 	private static float EaseOutCirc(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x3C6B8D0", Offset = "0x3C6B8D0", VA = "0x3C6B8D0")]
+	[Address(RVA = "0x3F61220", Offset = "0x3F61220", VA = "0x3F61220")]
 	private static float EaseInOutCirc(float start, float distance, float elapsedTime, float duration)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000084")]
-	[Address(RVA = "0x3C6B9A0", Offset = "0x3C6B9A0", VA = "0x3C6B9A0")]
+	[Address(RVA = "0x3F612F0", Offset = "0x3F612F0", VA = "0x3F612F0")]
 	public Interpolate()
 	{
 	}

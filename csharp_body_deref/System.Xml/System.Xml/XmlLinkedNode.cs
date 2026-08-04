@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.XmlLinkedNode
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml;
@@ -13,7 +20,7 @@ public abstract class XmlLinkedNode : XmlNode
 	public override XmlNode PreviousSibling
 	{
 		[Token(Token = "0x6000917")]
-		[Address(RVA = "0x4497CC0", Offset = "0x4497CC0", VA = "0x4497CC0", Slot = "14")]
+		[Address(RVA = "0x47D5420", Offset = "0x47D5420", VA = "0x47D5420", Slot = "14")]
 		get
 		{
 			return null;
@@ -24,7 +31,7 @@ public abstract class XmlLinkedNode : XmlNode
 	public override XmlNode NextSibling
 	{
 		[Token(Token = "0x6000918")]
-		[Address(RVA = "0x4497D20", Offset = "0x4497D20", VA = "0x4497D20", Slot = "15")]
+		[Address(RVA = "0x47D5480", Offset = "0x47D5480", VA = "0x47D5480", Slot = "15")]
 		get
 		{
 			return null;
@@ -32,7 +39,7 @@ public abstract class XmlLinkedNode : XmlNode
 	}
 
 	[Token(Token = "0x6000916")]
-	[Address(RVA = "0x44942C0", Offset = "0x44942C0", VA = "0x44942C0")]
+	[Address(RVA = "0x47D1A20", Offset = "0x47D1A20", VA = "0x47D1A20")]
 	internal XmlLinkedNode(XmlDocument doc)
 	{
 	}

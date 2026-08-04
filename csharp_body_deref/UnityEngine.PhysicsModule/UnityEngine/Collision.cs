@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Collision
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine;
@@ -25,7 +32,7 @@ public class Collision
 	public Vector3 impulse
 	{
 		[Token(Token = "0x6000001")]
-		[Address(RVA = "0x4B4E400", Offset = "0x4B4E400", VA = "0x4B4E400")]
+		[Address(RVA = "0x4E75D30", Offset = "0x4E75D30", VA = "0x4E75D30")]
 		get
 		{
 			return default(Vector3);
@@ -36,7 +43,7 @@ public class Collision
 	public Vector3 relativeVelocity
 	{
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x4B4E410", Offset = "0x4B4E410", VA = "0x4B4E410")]
+		[Address(RVA = "0x4E75D40", Offset = "0x4E75D40", VA = "0x4E75D40")]
 		get
 		{
 			return default(Vector3);
@@ -47,7 +54,7 @@ public class Collision
 	public Rigidbody rigidbody
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x4B4E430", Offset = "0x4B4E430", VA = "0x4B4E430")]
+		[Address(RVA = "0x4E75D60", Offset = "0x4E75D60", VA = "0x4E75D60")]
 		get
 		{
 			return null;
@@ -58,7 +65,7 @@ public class Collision
 	public Component body
 	{
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x4B4E4A0", Offset = "0x4B4E4A0", VA = "0x4B4E4A0")]
+		[Address(RVA = "0x4E75DD0", Offset = "0x4E75DD0", VA = "0x4E75DD0")]
 		get
 		{
 			return null;
@@ -69,7 +76,7 @@ public class Collision
 	public Collider collider
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x4B4E630", Offset = "0x4B4E630", VA = "0x4B4E630")]
+		[Address(RVA = "0x4E75F60", Offset = "0x4E75F60", VA = "0x4E75F60")]
 		get
 		{
 			return null;
@@ -80,7 +87,7 @@ public class Collision
 	public Transform transform
 	{
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x4B4E7E0", Offset = "0x4B4E7E0", VA = "0x4B4E7E0")]
+		[Address(RVA = "0x4E76110", Offset = "0x4E76110", VA = "0x4E76110")]
 		get
 		{
 			return null;
@@ -91,7 +98,7 @@ public class Collision
 	internal bool Flipped
 	{
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x4B4E920", Offset = "0x4B4E920", VA = "0x4B4E920")]
+		[Address(RVA = "0x4E76250", Offset = "0x4E76250", VA = "0x4E76250")]
 		set
 		{
 		}
@@ -101,7 +108,7 @@ public class Collision
 	public int contactCount
 	{
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x4B4E930", Offset = "0x4B4E930", VA = "0x4B4E930")]
+		[Address(RVA = "0x4E76260", Offset = "0x4E76260", VA = "0x4E76260")]
 		get
 		{
 			return default(int);
@@ -112,7 +119,7 @@ public class Collision
 	public ContactPoint[] contacts
 	{
 		[Token(Token = "0x6000009")]
-		[Address(RVA = "0x4B4E940", Offset = "0x4B4E940", VA = "0x4B4E940")]
+		[Address(RVA = "0x4E76270", Offset = "0x4E76270", VA = "0x4E76270")]
 		get
 		{
 			return null;
@@ -120,25 +127,25 @@ public class Collision
 	}
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x4B4EA90", Offset = "0x4B4EA90", VA = "0x4B4EA90")]
+	[Address(RVA = "0x4E763C0", Offset = "0x4E763C0", VA = "0x4E763C0")]
 	public Collision()
 	{
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x4B4EAF0", Offset = "0x4B4EAF0", VA = "0x4B4EAF0")]
+	[Address(RVA = "0x4E76420", Offset = "0x4E76420", VA = "0x4E76420")]
 	internal Collision(in ContactPairHeader header, in ContactPair pair, bool flipped)
 	{
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x4B4EBB0", Offset = "0x4B4EBB0", VA = "0x4B4EBB0")]
+	[Address(RVA = "0x4E764E0", Offset = "0x4E764E0", VA = "0x4E764E0")]
 	internal void Reuse(in ContactPairHeader header, in ContactPair pair)
 	{
 	}
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x4B4EC00", Offset = "0x4B4EC00", VA = "0x4B4EC00")]
+	[Address(RVA = "0x4E76530", Offset = "0x4E76530", VA = "0x4E76530")]
 	public ContactPoint GetContact(int index)
 	{
 		return default(ContactPoint);

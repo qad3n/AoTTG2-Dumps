@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.StylePropertyName
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -26,7 +33,7 @@ public struct StylePropertyName : IEquatable<StylePropertyName>
 			public override string Name
 			{
 				[Token(Token = "0x6001825")]
-				[Address(RVA = "0x4D8F720", Offset = "0x4D8F720", VA = "0x4D8F720", Slot = "7")]
+				[Address(RVA = "0x50B7050", Offset = "0x50B7050", VA = "0x50B7050", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -35,7 +42,7 @@ public struct StylePropertyName : IEquatable<StylePropertyName>
 			}
 
 			[Token(Token = "0x6001826")]
-			[Address(RVA = "0x4D8F660", Offset = "0x4D8F660", VA = "0x4D8F660")]
+			[Address(RVA = "0x50B6F90", Offset = "0x50B6F90", VA = "0x50B6F90")]
 			public IdProperty()
 			{
 			}
@@ -54,7 +61,7 @@ public struct StylePropertyName : IEquatable<StylePropertyName>
 			public override string Name
 			{
 				[Token(Token = "0x6001827")]
-				[Address(RVA = "0x4D8F730", Offset = "0x4D8F730", VA = "0x4D8F730", Slot = "7")]
+				[Address(RVA = "0x50B7060", Offset = "0x50B7060", VA = "0x50B7060", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -63,14 +70,14 @@ public struct StylePropertyName : IEquatable<StylePropertyName>
 			}
 
 			[Token(Token = "0x6001828")]
-			[Address(RVA = "0x4D8F6C0", Offset = "0x4D8F6C0", VA = "0x4D8F6C0")]
+			[Address(RVA = "0x50B6FF0", Offset = "0x50B6FF0", VA = "0x50B6FF0")]
 			public NameProperty()
 			{
 			}
 		}
 
 		[Token(Token = "0x6001824")]
-		[Address(RVA = "0x4D8F4D0", Offset = "0x4D8F4D0", VA = "0x4D8F4D0")]
+		[Address(RVA = "0x50B6E00", Offset = "0x50B6E00", VA = "0x50B6E00")]
 		public PropertyBag()
 		{
 		}
@@ -80,7 +87,7 @@ public struct StylePropertyName : IEquatable<StylePropertyName>
 	internal readonly StylePropertyId id
 	{
 		[Token(Token = "0x6001818")]
-		[Address(RVA = "0x4D8F1A0", Offset = "0x4D8F1A0", VA = "0x4D8F1A0")]
+		[Address(RVA = "0x50B6AD0", Offset = "0x50B6AD0", VA = "0x50B6AD0")]
 		[CompilerGenerated]
 		get
 		{
@@ -92,7 +99,7 @@ public struct StylePropertyName : IEquatable<StylePropertyName>
 	private readonly string name
 	{
 		[Token(Token = "0x6001819")]
-		[Address(RVA = "0x4D8F1B0", Offset = "0x4D8F1B0", VA = "0x4D8F1B0")]
+		[Address(RVA = "0x50B6AE0", Offset = "0x50B6AE0", VA = "0x50B6AE0")]
 		[CompilerGenerated]
 		get
 		{
@@ -101,68 +108,68 @@ public struct StylePropertyName : IEquatable<StylePropertyName>
 	}
 
 	[Token(Token = "0x600181A")]
-	[Address(RVA = "0x4D8F1C0", Offset = "0x4D8F1C0", VA = "0x4D8F1C0")]
+	[Address(RVA = "0x50B6AF0", Offset = "0x50B6AF0", VA = "0x50B6AF0")]
 	internal static StylePropertyId StylePropertyIdFromString(string name)
 	{
 		return default(StylePropertyId);
 	}
 
 	[Token(Token = "0x600181B")]
-	[Address(RVA = "0x4D8F260", Offset = "0x4D8F260", VA = "0x4D8F260")]
+	[Address(RVA = "0x50B6B90", Offset = "0x50B6B90", VA = "0x50B6B90")]
 	internal StylePropertyName(StylePropertyId stylePropertyId)
 	{
 	}
 
 	[Token(Token = "0x600181C")]
-	[Address(RVA = "0x4D8F320", Offset = "0x4D8F320", VA = "0x4D8F320")]
+	[Address(RVA = "0x50B6C50", Offset = "0x50B6C50", VA = "0x50B6C50")]
 	public StylePropertyName(string name)
 	{
 	}
 
 	[Token(Token = "0x600181D")]
-	[Address(RVA = "0x4D8F3F0", Offset = "0x4D8F3F0", VA = "0x4D8F3F0")]
+	[Address(RVA = "0x50B6D20", Offset = "0x50B6D20", VA = "0x50B6D20")]
 	public static bool operator ==(StylePropertyName lhs, StylePropertyName rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600181E")]
-	[Address(RVA = "0x4D8F400", Offset = "0x4D8F400", VA = "0x4D8F400")]
+	[Address(RVA = "0x50B6D30", Offset = "0x50B6D30", VA = "0x50B6D30")]
 	public static bool operator !=(StylePropertyName lhs, StylePropertyName rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600181F")]
-	[Address(RVA = "0x4D8F410", Offset = "0x4D8F410", VA = "0x4D8F410")]
+	[Address(RVA = "0x50B6D40", Offset = "0x50B6D40", VA = "0x50B6D40")]
 	public static implicit operator StylePropertyName(string name)
 	{
 		return default(StylePropertyName);
 	}
 
 	[Token(Token = "0x6001820")]
-	[Address(RVA = "0x4D8F440", Offset = "0x4D8F440", VA = "0x4D8F440", Slot = "2")]
+	[Address(RVA = "0x50B6D70", Offset = "0x50B6D70", VA = "0x50B6D70", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001821")]
-	[Address(RVA = "0x4D8F450", Offset = "0x4D8F450", VA = "0x4D8F450", Slot = "0")]
+	[Address(RVA = "0x50B6D80", Offset = "0x50B6D80", VA = "0x50B6D80", Slot = "0")]
 	public override bool Equals(object other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001822")]
-	[Address(RVA = "0x4D8F4B0", Offset = "0x4D8F4B0", VA = "0x4D8F4B0", Slot = "4")]
+	[Address(RVA = "0x50B6DE0", Offset = "0x50B6DE0", VA = "0x50B6DE0", Slot = "4")]
 	public bool Equals(StylePropertyName other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001823")]
-	[Address(RVA = "0x4D8F4C0", Offset = "0x4D8F4C0", VA = "0x4D8F4C0", Slot = "3")]
+	[Address(RVA = "0x50B6DF0", Offset = "0x50B6DF0", VA = "0x50B6DF0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

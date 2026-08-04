@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.Proxies.RemotingProxy
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Reflection;
 using System.Runtime.Remoting.Messaging;
 using Il2CppDummyDll;
@@ -31,7 +38,7 @@ internal class RemotingProxy : RealProxy, IRemotingTypeInfo
 	public string TypeName
 	{
 		[Token(Token = "0x6001D0F")]
-		[Address(RVA = "0x4E91130", Offset = "0x4E91130", VA = "0x4E91130", Slot = "8")]
+		[Address(RVA = "0x3B76C50", Offset = "0x3B76C50", VA = "0x3B76C50", Slot = "8")]
 		get
 		{
 			return null;
@@ -39,46 +46,46 @@ internal class RemotingProxy : RealProxy, IRemotingTypeInfo
 	}
 
 	[Token(Token = "0x6001D0A")]
-	[Address(RVA = "0x4E8EEE0", Offset = "0x4E8EEE0", VA = "0x4E8EEE0")]
+	[Address(RVA = "0x3B74A00", Offset = "0x3B74A00", VA = "0x3B74A00")]
 	internal RemotingProxy(Type type, System.Runtime.Remoting.ClientIdentity identity)
 	{
 	}
 
 	[Token(Token = "0x6001D0B")]
-	[Address(RVA = "0x4E8C050", Offset = "0x4E8C050", VA = "0x4E8C050")]
+	[Address(RVA = "0x3B71B70", Offset = "0x3B71B70", VA = "0x3B71B70")]
 	internal RemotingProxy(Type type, string activationUrl, object[] activationAttributes)
 	{
 	}
 
 	[Token(Token = "0x6001D0C")]
-	[Address(RVA = "0x4E8FD10", Offset = "0x4E8FD10", VA = "0x4E8FD10", Slot = "5")]
+	[Address(RVA = "0x3B75830", Offset = "0x3B75830", VA = "0x3B75830", Slot = "5")]
 	public override IMessage Invoke(IMessage request)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001D0D")]
-	[Address(RVA = "0x4E907D0", Offset = "0x4E907D0", VA = "0x4E907D0")]
+	[Address(RVA = "0x3B762F0", Offset = "0x3B762F0", VA = "0x3B762F0")]
 	internal void AttachIdentity(System.Runtime.Remoting.Identity identity)
 	{
 	}
 
 	[Token(Token = "0x6001D0E")]
-	[Address(RVA = "0x4E8DAC0", Offset = "0x4E8DAC0", VA = "0x4E8DAC0")]
+	[Address(RVA = "0x3B735E0", Offset = "0x3B735E0", VA = "0x3B735E0")]
 	internal IMessage ActivateRemoteObject(IMethodMessage request)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001D10")]
-	[Address(RVA = "0x4E91290", Offset = "0x4E91290", VA = "0x4E91290", Slot = "9")]
+	[Address(RVA = "0x3B76DB0", Offset = "0x3B76DB0", VA = "0x3B76DB0", Slot = "9")]
 	public bool CanCastTo(Type fromType, object o)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001D11")]
-	[Address(RVA = "0x4E914A0", Offset = "0x4E914A0", VA = "0x4E914A0", Slot = "1")]
+	[Address(RVA = "0x3B76FC0", Offset = "0x3B76FC0", VA = "0x3B76FC0", Slot = "1")]
 	~RemotingProxy()
 	{
 	}

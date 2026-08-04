@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Linq.NamespaceResolver
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Linq;
@@ -25,7 +32,7 @@ internal struct NamespaceResolver
 		public NamespaceDeclaration prev;
 
 		[Token(Token = "0x600009D")]
-		[Address(RVA = "0x4344470", Offset = "0x4344470", VA = "0x4344470")]
+		[Address(RVA = "0x4694D40", Offset = "0x4694D40", VA = "0x4694D40")]
 		public NamespaceDeclaration()
 		{
 		}
@@ -44,31 +51,31 @@ internal struct NamespaceResolver
 	private NamespaceDeclaration _rover;
 
 	[Token(Token = "0x6000098")]
-	[Address(RVA = "0x43442D0", Offset = "0x43442D0", VA = "0x43442D0")]
+	[Address(RVA = "0x4694BA0", Offset = "0x4694BA0", VA = "0x4694BA0")]
 	public void PushScope()
 	{
 	}
 
 	[Token(Token = "0x6000099")]
-	[Address(RVA = "0x43443D0", Offset = "0x43443D0", VA = "0x43443D0")]
+	[Address(RVA = "0x4694CA0", Offset = "0x4694CA0", VA = "0x4694CA0")]
 	public void PopScope()
 	{
 	}
 
 	[Token(Token = "0x600009A")]
-	[Address(RVA = "0x43442E0", Offset = "0x43442E0", VA = "0x43442E0")]
+	[Address(RVA = "0x4694BB0", Offset = "0x4694BB0", VA = "0x4694BB0")]
 	public void Add(string prefix, XNamespace ns)
 	{
 	}
 
 	[Token(Token = "0x600009B")]
-	[Address(RVA = "0x4344110", Offset = "0x4344110", VA = "0x4344110")]
+	[Address(RVA = "0x46949E0", Offset = "0x46949E0", VA = "0x46949E0")]
 	public void AddFirst(string prefix, XNamespace ns)
 	{
 	}
 
 	[Token(Token = "0x600009C")]
-	[Address(RVA = "0x4343FA0", Offset = "0x4343FA0", VA = "0x4343FA0")]
+	[Address(RVA = "0x4694870", Offset = "0x4694870", VA = "0x4694870")]
 	public string GetPrefixOfNamespace(XNamespace ns, bool allowDefaultNamespace)
 	{
 		return null;

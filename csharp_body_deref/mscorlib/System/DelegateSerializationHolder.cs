@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.DelegateSerializationHolder
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
 
@@ -40,13 +47,13 @@ internal class DelegateSerializationHolder : ISerializable, IObjectReference
 		public DelegateEntry delegateEntry;
 
 		[Token(Token = "0x6000F8D")]
-		[Address(RVA = "0x5026AB0", Offset = "0x5026AB0", VA = "0x5026AB0")]
+		[Address(RVA = "0x3D0C5D0", Offset = "0x3D0C5D0", VA = "0x3D0C5D0")]
 		public DelegateEntry(Delegate del, string targetLabel)
 		{
 		}
 
 		[Token(Token = "0x6000F8E")]
-		[Address(RVA = "0x5026870", Offset = "0x5026870", VA = "0x5026870")]
+		[Address(RVA = "0x3D0C390", Offset = "0x3D0C390", VA = "0x3D0C390")]
 		public Delegate DeserializeDelegate(SerializationInfo info, int index)
 		{
 			return null;
@@ -58,25 +65,25 @@ internal class DelegateSerializationHolder : ISerializable, IObjectReference
 	private Delegate _delegate;
 
 	[Token(Token = "0x6000F89")]
-	[Address(RVA = "0x50265E0", Offset = "0x50265E0", VA = "0x50265E0")]
+	[Address(RVA = "0x3D0C100", Offset = "0x3D0C100", VA = "0x3D0C100")]
 	private DelegateSerializationHolder(SerializationInfo info, StreamingContext ctx)
 	{
 	}
 
 	[Token(Token = "0x6000F8A")]
-	[Address(RVA = "0x5026130", Offset = "0x5026130", VA = "0x5026130")]
+	[Address(RVA = "0x3D0BC50", Offset = "0x3D0BC50", VA = "0x3D0BC50")]
 	public static void GetDelegateData(Delegate instance, SerializationInfo info, StreamingContext ctx)
 	{
 	}
 
 	[Token(Token = "0x6000F8B")]
-	[Address(RVA = "0x5026C70", Offset = "0x5026C70", VA = "0x5026C70", Slot = "4")]
+	[Address(RVA = "0x3D0C790", Offset = "0x3D0C790", VA = "0x3D0C790", Slot = "4")]
 	public void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000F8C")]
-	[Address(RVA = "0x5026CB0", Offset = "0x5026CB0", VA = "0x5026CB0", Slot = "5")]
+	[Address(RVA = "0x3D0C7D0", Offset = "0x3D0C7D0", VA = "0x3D0C7D0", Slot = "5")]
 	public object GetRealObject(StreamingContext context)
 	{
 		return null;

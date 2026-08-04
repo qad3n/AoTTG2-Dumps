@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.MeshBuilderNative
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -174,35 +181,35 @@ internal static class MeshBuilderNative
 	}
 
 	[Token(Token = "0x6000E2A")]
-	[Address(RVA = "0x4D259A0", Offset = "0x4D259A0", VA = "0x4D259A0")]
+	[Address(RVA = "0x504D2D0", Offset = "0x504D2D0", VA = "0x504D2D0")]
 	public static MeshWriteDataInterface MakeBorder(NativeBorderParams borderParams, float posZ)
 	{
 		return default(MeshWriteDataInterface);
 	}
 
 	[Token(Token = "0x6000E2B")]
-	[Address(RVA = "0x4D25A70", Offset = "0x4D25A70", VA = "0x4D25A70")]
+	[Address(RVA = "0x504D3A0", Offset = "0x504D3A0", VA = "0x504D3A0")]
 	public static MeshWriteDataInterface MakeSolidRect(NativeRectParams rectParams, float posZ)
 	{
 		return default(MeshWriteDataInterface);
 	}
 
 	[Token(Token = "0x6000E2C")]
-	[Address(RVA = "0x4D25B40", Offset = "0x4D25B40", VA = "0x4D25B40")]
+	[Address(RVA = "0x504D470", Offset = "0x504D470", VA = "0x504D470")]
 	public static MeshWriteDataInterface MakeTexturedRect(NativeRectParams rectParams, float posZ)
 	{
 		return default(MeshWriteDataInterface);
 	}
 
 	[Token(Token = "0x6000E2D")]
-	[Address(RVA = "0x4D25C10", Offset = "0x4D25C10", VA = "0x4D25C10")]
+	[Address(RVA = "0x504D540", Offset = "0x504D540", VA = "0x504D540")]
 	public static MeshWriteDataInterface MakeVectorGraphicsStretchBackground(Vertex[] svgVertices, ushort[] svgIndices, float svgWidth, float svgHeight, Rect targetRect, Rect sourceUV, ScaleMode scaleMode, Color tint, NativeColorPage colorPage)
 	{
 		return default(MeshWriteDataInterface);
 	}
 
 	[Token(Token = "0x6000E2E")]
-	[Address(RVA = "0x4D25E70", Offset = "0x4D25E70", VA = "0x4D25E70")]
+	[Address(RVA = "0x504D7A0", Offset = "0x504D7A0", VA = "0x504D7A0")]
 	public static MeshWriteDataInterface MakeVectorGraphics9SliceBackground(Vertex[] svgVertices, ushort[] svgIndices, float svgWidth, float svgHeight, Rect targetRect, Vector4 sliceLTRB, Color tint, NativeColorPage colorPage)
 	{
 		return default(MeshWriteDataInterface);
@@ -210,26 +217,26 @@ internal static class MeshBuilderNative
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000E2F")]
-	[Address(RVA = "0x4D25A20", Offset = "0x4D25A20", VA = "0x4D25A20")]
+	[Address(RVA = "0x504D350", Offset = "0x504D350", VA = "0x504D350")]
 	private static extern void MakeBorder_Injected([In] ref NativeBorderParams borderParams, float posZ, out MeshWriteDataInterface ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000E30")]
-	[Address(RVA = "0x4D25AF0", Offset = "0x4D25AF0", VA = "0x4D25AF0")]
+	[Address(RVA = "0x504D420", Offset = "0x504D420", VA = "0x504D420")]
 	private static extern void MakeSolidRect_Injected([In] ref NativeRectParams rectParams, float posZ, out MeshWriteDataInterface ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000E31")]
-	[Address(RVA = "0x4D25BC0", Offset = "0x4D25BC0", VA = "0x4D25BC0")]
+	[Address(RVA = "0x504D4F0", Offset = "0x504D4F0", VA = "0x504D4F0")]
 	private static extern void MakeTexturedRect_Injected([In] ref NativeRectParams rectParams, float posZ, out MeshWriteDataInterface ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000E32")]
-	[Address(RVA = "0x4D25DF0", Offset = "0x4D25DF0", VA = "0x4D25DF0")]
+	[Address(RVA = "0x504D720", Offset = "0x504D720", VA = "0x504D720")]
 	private static extern void MakeVectorGraphicsStretchBackground_Injected(ref UnityEngine.Bindings.ManagedSpanWrapper svgVertices, ref UnityEngine.Bindings.ManagedSpanWrapper svgIndices, float svgWidth, float svgHeight, [In] ref Rect targetRect, [In] ref Rect sourceUV, ScaleMode scaleMode, [In] ref Color tint, [In] ref NativeColorPage colorPage, out MeshWriteDataInterface ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000E33")]
-	[Address(RVA = "0x4D26040", Offset = "0x4D26040", VA = "0x4D26040")]
+	[Address(RVA = "0x504D970", Offset = "0x504D970", VA = "0x504D970")]
 	private static extern void MakeVectorGraphics9SliceBackground_Injected(ref UnityEngine.Bindings.ManagedSpanWrapper svgVertices, ref UnityEngine.Bindings.ManagedSpanWrapper svgIndices, float svgWidth, float svgHeight, [In] ref Rect targetRect, [In] ref Vector4 sliceLTRB, [In] ref Color tint, [In] ref NativeColorPage colorPage, out MeshWriteDataInterface ret);
 }

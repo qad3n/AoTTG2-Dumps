@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.Datatype_nonNegativeInteger
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -13,7 +20,7 @@ internal class Datatype_nonNegativeInteger : Datatype_integer
 	internal override FacetsChecker FacetsChecker
 	{
 		[Token(Token = "0x6001195")]
-		[Address(RVA = "0x4526180", Offset = "0x4526180", VA = "0x4526180", Slot = "18")]
+		[Address(RVA = "0x48638E0", Offset = "0x48638E0", VA = "0x48638E0", Slot = "18")]
 		get
 		{
 			return null;
@@ -24,7 +31,7 @@ internal class Datatype_nonNegativeInteger : Datatype_integer
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x6001196")]
-		[Address(RVA = "0x45261F0", Offset = "0x45261F0", VA = "0x45261F0", Slot = "8")]
+		[Address(RVA = "0x4863950", Offset = "0x4863950", VA = "0x4863950", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -35,7 +42,7 @@ internal class Datatype_nonNegativeInteger : Datatype_integer
 	internal override bool HasValueFacets
 	{
 		[Token(Token = "0x6001197")]
-		[Address(RVA = "0x4526200", Offset = "0x4526200", VA = "0x4526200", Slot = "11")]
+		[Address(RVA = "0x4863960", Offset = "0x4863960", VA = "0x4863960", Slot = "11")]
 		get
 		{
 			return default(bool);
@@ -43,7 +50,7 @@ internal class Datatype_nonNegativeInteger : Datatype_integer
 	}
 
 	[Token(Token = "0x6001198")]
-	[Address(RVA = "0x4519F70", Offset = "0x4519F70", VA = "0x4519F70")]
+	[Address(RVA = "0x48576D0", Offset = "0x48576D0", VA = "0x48576D0")]
 	public Datatype_nonNegativeInteger()
 	{
 	}

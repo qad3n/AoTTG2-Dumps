@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: ExitGames.Client.Photon.SocketUdp
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Net.Sockets;
 using Il2CppDummyDll;
@@ -16,60 +23,60 @@ public class SocketUdp : IPhotonSocket, IDisposable
 	private readonly object syncer;
 
 	[Token(Token = "0x60002C6")]
-	[Address(RVA = "0x3B99FB0", Offset = "0x3B99FB0", VA = "0x3B99FB0")]
+	[Address(RVA = "0x3E8F900", Offset = "0x3E8F900", VA = "0x3E8F900")]
 	[Preserve]
 	public SocketUdp(PeerBase npeer)
 	{
 	}
 
 	[Token(Token = "0x60002C7")]
-	[Address(RVA = "0x3B9A0F0", Offset = "0x3B9A0F0", VA = "0x3B9A0F0", Slot = "1")]
+	[Address(RVA = "0x3E8FA40", Offset = "0x3E8FA40", VA = "0x3E8FA40", Slot = "1")]
 	~SocketUdp()
 	{
 	}
 
 	[Token(Token = "0x60002C8")]
-	[Address(RVA = "0x3B9A170", Offset = "0x3B9A170", VA = "0x3B9A170", Slot = "8")]
+	[Address(RVA = "0x3E8FAC0", Offset = "0x3E8FAC0", VA = "0x3E8FAC0", Slot = "8")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60002C9")]
-	[Address(RVA = "0x3B9A280", Offset = "0x3B9A280", VA = "0x3B9A280", Slot = "4")]
+	[Address(RVA = "0x3E8FBD0", Offset = "0x3E8FBD0", VA = "0x3E8FBD0", Slot = "4")]
 	public override bool Connect()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002CA")]
-	[Address(RVA = "0x3B9A420", Offset = "0x3B9A420", VA = "0x3B9A420", Slot = "5")]
+	[Address(RVA = "0x3E8FD70", Offset = "0x3E8FD70", VA = "0x3E8FD70", Slot = "5")]
 	public override bool Disconnect()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002CB")]
-	[Address(RVA = "0x3B9A650", Offset = "0x3B9A650", VA = "0x3B9A650", Slot = "6")]
+	[Address(RVA = "0x3E8FFA0", Offset = "0x3E8FFA0", VA = "0x3E8FFA0", Slot = "6")]
 	public override PhotonSocketError Send(byte[] data, int length)
 	{
 		return default(PhotonSocketError);
 	}
 
 	[Token(Token = "0x60002CC")]
-	[Address(RVA = "0x3B9AF90", Offset = "0x3B9AF90", VA = "0x3B9AF90", Slot = "7")]
+	[Address(RVA = "0x3E908E0", Offset = "0x3E908E0", VA = "0x3E908E0", Slot = "7")]
 	public override PhotonSocketError Receive(out byte[] data)
 	{
 		return default(PhotonSocketError);
 	}
 
 	[Token(Token = "0x60002CD")]
-	[Address(RVA = "0x3B9AFB0", Offset = "0x3B9AFB0", VA = "0x3B9AFB0")]
+	[Address(RVA = "0x3E90900", Offset = "0x3E90900", VA = "0x3E90900")]
 	internal void DnsAndConnect()
 	{
 	}
 
 	[Token(Token = "0x60002CE")]
-	[Address(RVA = "0x3B9B690", Offset = "0x3B9B690", VA = "0x3B9B690")]
+	[Address(RVA = "0x3E90FE0", Offset = "0x3E90FE0", VA = "0x3E90FE0")]
 	public void ReceiveLoop()
 	{
 	}

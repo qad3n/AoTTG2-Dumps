@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XmlSchemaAnnotation
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.Serialization;
 using Il2CppDummyDll;
 
@@ -23,13 +30,13 @@ public class XmlSchemaAnnotation : XmlSchemaObject
 	public string Id
 	{
 		[Token(Token = "0x6001523")]
-		[Address(RVA = "0x43E07A0", Offset = "0x43E07A0", VA = "0x43E07A0")]
+		[Address(RVA = "0x471DF00", Offset = "0x471DF00", VA = "0x471DF00")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001524")]
-		[Address(RVA = "0x43E07B0", Offset = "0x43E07B0", VA = "0x43E07B0")]
+		[Address(RVA = "0x471DF10", Offset = "0x471DF10", VA = "0x471DF10")]
 		set
 		{
 		}
@@ -41,7 +48,7 @@ public class XmlSchemaAnnotation : XmlSchemaObject
 	public XmlSchemaObjectCollection Items
 	{
 		[Token(Token = "0x6001525")]
-		[Address(RVA = "0x43E07C0", Offset = "0x43E07C0", VA = "0x43E07C0")]
+		[Address(RVA = "0x471DF20", Offset = "0x471DF20", VA = "0x471DF20")]
 		get
 		{
 			return null;
@@ -53,26 +60,26 @@ public class XmlSchemaAnnotation : XmlSchemaObject
 	internal override string IdAttribute
 	{
 		[Token(Token = "0x6001526")]
-		[Address(RVA = "0x43E07D0", Offset = "0x43E07D0", VA = "0x43E07D0", Slot = "7")]
+		[Address(RVA = "0x471DF30", Offset = "0x471DF30", VA = "0x471DF30", Slot = "7")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001527")]
-		[Address(RVA = "0x43E07E0", Offset = "0x43E07E0", VA = "0x43E07E0", Slot = "8")]
+		[Address(RVA = "0x471DF40", Offset = "0x471DF40", VA = "0x471DF40", Slot = "8")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001528")]
-	[Address(RVA = "0x43E07F0", Offset = "0x43E07F0", VA = "0x43E07F0", Slot = "9")]
+	[Address(RVA = "0x471DF50", Offset = "0x471DF50", VA = "0x471DF50", Slot = "9")]
 	internal override void SetUnhandledAttributes(XmlAttribute[] moreAttributes)
 	{
 	}
 
 	[Token(Token = "0x6001529")]
-	[Address(RVA = "0x43E0800", Offset = "0x43E0800", VA = "0x43E0800")]
+	[Address(RVA = "0x471DF60", Offset = "0x471DF60", VA = "0x471DF60")]
 	public XmlSchemaAnnotation()
 	{
 	}

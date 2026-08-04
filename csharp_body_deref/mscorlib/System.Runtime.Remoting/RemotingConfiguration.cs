@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.RemotingConfiguration
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -64,13 +71,13 @@ public static class RemotingConfiguration
 	public static string ApplicationName
 	{
 		[Token(Token = "0x6001C46")]
-		[Address(RVA = "0x4E7BB80", Offset = "0x4E7BB80", VA = "0x4E7BB80")]
+		[Address(RVA = "0x3B616A0", Offset = "0x3B616A0", VA = "0x3B616A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001C47")]
-		[Address(RVA = "0x4E7BBF0", Offset = "0x4E7BBF0", VA = "0x4E7BBF0")]
+		[Address(RVA = "0x3B61710", Offset = "0x3B61710", VA = "0x3B61710")]
 		set
 		{
 		}
@@ -80,7 +87,7 @@ public static class RemotingConfiguration
 	public static string ProcessId
 	{
 		[Token(Token = "0x6001C48")]
-		[Address(RVA = "0x4E7BC50", Offset = "0x4E7BC50", VA = "0x4E7BC50")]
+		[Address(RVA = "0x3B61770", Offset = "0x3B61770", VA = "0x3B61770")]
 		get
 		{
 			return null;
@@ -88,95 +95,95 @@ public static class RemotingConfiguration
 	}
 
 	[Token(Token = "0x6001C49")]
-	[Address(RVA = "0x4E7BD30", Offset = "0x4E7BD30", VA = "0x4E7BD30")]
+	[Address(RVA = "0x3B61850", Offset = "0x3B61850", VA = "0x3B61850")]
 	internal static void LoadDefaultDelayedChannels()
 	{
 	}
 
 	[Token(Token = "0x6001C4A")]
-	[Address(RVA = "0x4E7C180", Offset = "0x4E7C180", VA = "0x4E7C180")]
+	[Address(RVA = "0x3B61CA0", Offset = "0x3B61CA0", VA = "0x3B61CA0")]
 	public static bool IsActivationAllowed(Type svrType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C4B")]
-	[Address(RVA = "0x4E7C2D0", Offset = "0x4E7C2D0", VA = "0x4E7C2D0")]
+	[Address(RVA = "0x3B61DF0", Offset = "0x3B61DF0", VA = "0x3B61DF0")]
 	public static ActivatedClientTypeEntry IsRemotelyActivatedClientType(Type svrType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C4C")]
-	[Address(RVA = "0x4E7C470", Offset = "0x4E7C470", VA = "0x4E7C470")]
+	[Address(RVA = "0x3B61F90", Offset = "0x3B61F90", VA = "0x3B61F90")]
 	public static WellKnownClientTypeEntry IsWellKnownClientType(Type svrType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C4D")]
-	[Address(RVA = "0x4E7C610", Offset = "0x4E7C610", VA = "0x4E7C610")]
+	[Address(RVA = "0x3B62130", Offset = "0x3B62130", VA = "0x3B62130")]
 	public static void RegisterActivatedClientType(ActivatedClientTypeEntry entry)
 	{
 	}
 
 	[Token(Token = "0x6001C4E")]
-	[Address(RVA = "0x4E7C900", Offset = "0x4E7C900", VA = "0x4E7C900")]
+	[Address(RVA = "0x3B62420", Offset = "0x3B62420", VA = "0x3B62420")]
 	public static void RegisterActivatedServiceType(ActivatedServiceTypeEntry entry)
 	{
 	}
 
 	[Token(Token = "0x6001C4F")]
-	[Address(RVA = "0x4E7CA50", Offset = "0x4E7CA50", VA = "0x4E7CA50")]
+	[Address(RVA = "0x3B62570", Offset = "0x3B62570", VA = "0x3B62570")]
 	public static void RegisterWellKnownClientType(WellKnownClientTypeEntry entry)
 	{
 	}
 
 	[Token(Token = "0x6001C50")]
-	[Address(RVA = "0x4E7CD40", Offset = "0x4E7CD40", VA = "0x4E7CD40")]
+	[Address(RVA = "0x3B62860", Offset = "0x3B62860", VA = "0x3B62860")]
 	public static void RegisterWellKnownServiceType(WellKnownServiceTypeEntry entry)
 	{
 	}
 
 	[Token(Token = "0x6001C51")]
-	[Address(RVA = "0x4E7CFE0", Offset = "0x4E7CFE0", VA = "0x4E7CFE0")]
+	[Address(RVA = "0x3B62B00", Offset = "0x3B62B00", VA = "0x3B62B00")]
 	internal static void RegisterChannelTemplate(System.Runtime.Remoting.ChannelData channel)
 	{
 	}
 
 	[Token(Token = "0x6001C52")]
-	[Address(RVA = "0x4E7D080", Offset = "0x4E7D080", VA = "0x4E7D080")]
+	[Address(RVA = "0x3B62BA0", Offset = "0x3B62BA0", VA = "0x3B62BA0")]
 	internal static void RegisterClientProviderTemplate(System.Runtime.Remoting.ProviderData prov)
 	{
 	}
 
 	[Token(Token = "0x6001C53")]
-	[Address(RVA = "0x4E7D120", Offset = "0x4E7D120", VA = "0x4E7D120")]
+	[Address(RVA = "0x3B62C40", Offset = "0x3B62C40", VA = "0x3B62C40")]
 	internal static void RegisterServerProviderTemplate(System.Runtime.Remoting.ProviderData prov)
 	{
 	}
 
 	[Token(Token = "0x6001C54")]
-	[Address(RVA = "0x4E7D1C0", Offset = "0x4E7D1C0", VA = "0x4E7D1C0")]
+	[Address(RVA = "0x3B62CE0", Offset = "0x3B62CE0", VA = "0x3B62CE0")]
 	internal static void RegisterChannels(ArrayList channels, bool onlyDelayed)
 	{
 	}
 
 	[Token(Token = "0x6001C55")]
-	[Address(RVA = "0x4E7F9F0", Offset = "0x4E7F9F0", VA = "0x4E7F9F0")]
+	[Address(RVA = "0x3B65510", Offset = "0x3B65510", VA = "0x3B65510")]
 	internal static void RegisterTypes(ArrayList types)
 	{
 	}
 
 	[Token(Token = "0x6001C56")]
-	[Address(RVA = "0x4E7FFF0", Offset = "0x4E7FFF0", VA = "0x4E7FFF0")]
+	[Address(RVA = "0x3B65B10", Offset = "0x3B65B10", VA = "0x3B65B10")]
 	public static bool CustomErrorsEnabled(bool isLocalRequest)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C57")]
-	[Address(RVA = "0x4E800A0", Offset = "0x4E800A0", VA = "0x4E800A0")]
+	[Address(RVA = "0x3B65BC0", Offset = "0x3B65BC0", VA = "0x3B65BC0")]
 	internal static void SetCustomErrorsMode(string mode)
 	{
 	}

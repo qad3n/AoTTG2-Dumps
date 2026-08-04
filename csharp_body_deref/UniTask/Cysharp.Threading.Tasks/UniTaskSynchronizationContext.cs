@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.UniTaskSynchronizationContext
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using System.Threading;
 using Il2CppDummyDll;
@@ -20,13 +27,13 @@ public class UniTaskSynchronizationContext : SynchronizationContext
 		private readonly object state;
 
 		[Token(Token = "0x60007ED")]
-		[Address(RVA = "0x46D2B90", Offset = "0x46D2B90", VA = "0x46D2B90")]
+		[Address(RVA = "0x49F7C90", Offset = "0x49F7C90", VA = "0x49F7C90")]
 		public Callback(SendOrPostCallback callback, object state)
 		{
 		}
 
 		[Token(Token = "0x60007EE")]
-		[Address(RVA = "0x46D3080", Offset = "0x46D3080", VA = "0x46D3080")]
+		[Address(RVA = "0x49F8180", Offset = "0x49F8180", VA = "0x49F8180")]
 		public void Invoke()
 		{
 		}
@@ -67,44 +74,44 @@ public class UniTaskSynchronizationContext : SynchronizationContext
 	private static int opCount;
 
 	[Token(Token = "0x60007E5")]
-	[Address(RVA = "0x46D2690", Offset = "0x46D2690", VA = "0x46D2690", Slot = "4")]
+	[Address(RVA = "0x49F7790", Offset = "0x49F7790", VA = "0x49F7790", Slot = "4")]
 	public override void Send(SendOrPostCallback d, object state)
 	{
 	}
 
 	[Token(Token = "0x60007E6")]
-	[Address(RVA = "0x46D26B0", Offset = "0x46D26B0", VA = "0x46D26B0", Slot = "5")]
+	[Address(RVA = "0x49F77B0", Offset = "0x49F77B0", VA = "0x49F77B0", Slot = "5")]
 	public override void Post(SendOrPostCallback d, object state)
 	{
 	}
 
 	[Token(Token = "0x60007E7")]
-	[Address(RVA = "0x46D2BC0", Offset = "0x46D2BC0", VA = "0x46D2BC0", Slot = "6")]
+	[Address(RVA = "0x49F7CC0", Offset = "0x49F7CC0", VA = "0x49F7CC0", Slot = "6")]
 	public override void OperationStarted()
 	{
 	}
 
 	[Token(Token = "0x60007E8")]
-	[Address(RVA = "0x46D2C10", Offset = "0x46D2C10", VA = "0x46D2C10", Slot = "7")]
+	[Address(RVA = "0x49F7D10", Offset = "0x49F7D10", VA = "0x49F7D10", Slot = "7")]
 	public override void OperationCompleted()
 	{
 	}
 
 	[Token(Token = "0x60007E9")]
-	[Address(RVA = "0x46D2C60", Offset = "0x46D2C60", VA = "0x46D2C60", Slot = "9")]
+	[Address(RVA = "0x49F7D60", Offset = "0x49F7D60", VA = "0x49F7D60", Slot = "9")]
 	public override SynchronizationContext CreateCopy()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007EA")]
-	[Address(RVA = "0x46D2C70", Offset = "0x46D2C70", VA = "0x46D2C70")]
+	[Address(RVA = "0x49F7D70", Offset = "0x49F7D70", VA = "0x49F7D70")]
 	internal static void Run()
 	{
 	}
 
 	[Token(Token = "0x60007EB")]
-	[Address(RVA = "0x46D3140", Offset = "0x46D3140", VA = "0x46D3140")]
+	[Address(RVA = "0x49F8240", Offset = "0x49F8240", VA = "0x49F8240")]
 	public UniTaskSynchronizationContext()
 	{
 	}

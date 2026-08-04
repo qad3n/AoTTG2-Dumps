@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.GUIUtility
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -62,7 +69,7 @@ public class GUIUtility
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x60001C6")]
-		[Address(RVA = "0x4B29FD0", Offset = "0x4B29FD0", VA = "0x4B29FD0")]
+		[Address(RVA = "0x4E51B90", Offset = "0x4E51B90", VA = "0x4E51B90")]
 		get;
 	}
 
@@ -72,7 +79,7 @@ public class GUIUtility
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x60001C7")]
-		[Address(RVA = "0x4B33610", Offset = "0x4B33610", VA = "0x4B33610")]
+		[Address(RVA = "0x4E5B1D0", Offset = "0x4E5B1D0", VA = "0x4E5B1D0")]
 		get;
 	}
 
@@ -82,7 +89,7 @@ public class GUIUtility
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x60001C8")]
-		[Address(RVA = "0x4B22030", Offset = "0x4B22030", VA = "0x4B22030")]
+		[Address(RVA = "0x4E49BF0", Offset = "0x4E49BF0", VA = "0x4E49BF0")]
 		set;
 	}
 
@@ -92,11 +99,11 @@ public class GUIUtility
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x60001C9")]
-		[Address(RVA = "0x4B195F0", Offset = "0x4B195F0", VA = "0x4B195F0")]
+		[Address(RVA = "0x4E411B0", Offset = "0x4E411B0", VA = "0x4E411B0")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x60001CA")]
-		[Address(RVA = "0x4B1F570", Offset = "0x4B1F570", VA = "0x4B1F570")]
+		[Address(RVA = "0x4E47130", Offset = "0x4E47130", VA = "0x4E47130")]
 		set;
 	}
 
@@ -105,12 +112,12 @@ public class GUIUtility
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x60001CB")]
-		[Address(RVA = "0x4B33640", Offset = "0x4B33640", VA = "0x4B33640")]
+		[Address(RVA = "0x4E5B200", Offset = "0x4E5B200", VA = "0x4E5B200")]
 		[UnityEngine.Bindings.FreeFunction("GetCopyBuffer")]
 		get;
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x60001CC")]
-		[Address(RVA = "0x4B33670", Offset = "0x4B33670", VA = "0x4B33670")]
+		[Address(RVA = "0x4E5B230", Offset = "0x4E5B230", VA = "0x4E5B230")]
 		[UnityEngine.Bindings.FreeFunction("SetCopyBuffer")]
 		set;
 	}
@@ -121,7 +128,7 @@ public class GUIUtility
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x60001D8")]
-		[Address(RVA = "0x4B1F540", Offset = "0x4B1F540", VA = "0x4B1F540")]
+		[Address(RVA = "0x4E47100", Offset = "0x4E47100", VA = "0x4E47100")]
 		get;
 	}
 
@@ -131,7 +138,7 @@ public class GUIUtility
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x60001D9")]
-		[Address(RVA = "0x4B33A10", Offset = "0x4B33A10", VA = "0x4B33A10")]
+		[Address(RVA = "0x4E5B5D0", Offset = "0x4E5B5D0", VA = "0x4E5B5D0")]
 		set;
 	}
 
@@ -140,7 +147,7 @@ public class GUIUtility
 	internal static Vector2 compositionCursorPos
 	{
 		[Token(Token = "0x60001DA")]
-		[Address(RVA = "0x4B33A40", Offset = "0x4B33A40", VA = "0x4B33A40")]
+		[Address(RVA = "0x4E5B600", Offset = "0x4E5B600", VA = "0x4E5B600")]
 		set
 		{
 		}
@@ -150,7 +157,7 @@ public class GUIUtility
 	internal static bool guiIsExiting
 	{
 		[Token(Token = "0x60001E5")]
-		[Address(RVA = "0x4B33C20", Offset = "0x4B33C20", VA = "0x4B33C20")]
+		[Address(RVA = "0x4E5B7E0", Offset = "0x4E5B7E0", VA = "0x4E5B7E0")]
 		[CompilerGenerated]
 		set
 		{
@@ -161,13 +168,13 @@ public class GUIUtility
 	public static int hotControl
 	{
 		[Token(Token = "0x60001E6")]
-		[Address(RVA = "0x4B1D6E0", Offset = "0x4B1D6E0", VA = "0x4B1D6E0")]
+		[Address(RVA = "0x4E452A0", Offset = "0x4E452A0", VA = "0x4E452A0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001E7")]
-		[Address(RVA = "0x4B1D6B0", Offset = "0x4B1D6B0", VA = "0x4B1D6B0")]
+		[Address(RVA = "0x4E45270", Offset = "0x4E45270", VA = "0x4E45270")]
 		set
 		{
 		}
@@ -177,20 +184,20 @@ public class GUIUtility
 	public static int keyboardControl
 	{
 		[Token(Token = "0x60001EA")]
-		[Address(RVA = "0x4B1F450", Offset = "0x4B1F450", VA = "0x4B1F450")]
+		[Address(RVA = "0x4E47010", Offset = "0x4E47010", VA = "0x4E47010")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001EB")]
-		[Address(RVA = "0x4B1F480", Offset = "0x4B1F480", VA = "0x4B1F480")]
+		[Address(RVA = "0x4E47040", Offset = "0x4E47040", VA = "0x4E47040")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60001CD")]
-	[Address(RVA = "0x4B336A0", Offset = "0x4B336A0", VA = "0x4B336A0")]
+	[Address(RVA = "0x4E5B260", Offset = "0x4E5B260", VA = "0x4E5B260")]
 	[UnityEngine.Bindings.FreeFunction("GetGUIState().GetControlID")]
 	private static int Internal_GetControlID(int hint, FocusType focusType, Rect rect)
 	{
@@ -198,56 +205,56 @@ public class GUIUtility
 	}
 
 	[Token(Token = "0x60001CE")]
-	[Address(RVA = "0x4B1CE50", Offset = "0x4B1CE50", VA = "0x4B1CE50")]
+	[Address(RVA = "0x4E44A10", Offset = "0x4E44A10", VA = "0x4E44A10")]
 	public static int GetControlID(int hint, FocusType focusType, Rect rect)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60001CF")]
-	[Address(RVA = "0x4B33730", Offset = "0x4B33730", VA = "0x4B33730")]
+	[Address(RVA = "0x4E5B2F0", Offset = "0x4E5B2F0", VA = "0x4E5B2F0")]
 	internal static void BeginContainerFromOwner(ScriptableObject owner)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001D0")]
-	[Address(RVA = "0x4B33810", Offset = "0x4B33810", VA = "0x4B33810")]
+	[Address(RVA = "0x4E5B3D0", Offset = "0x4E5B3D0", VA = "0x4E5B3D0")]
 	internal static extern void BeginContainer(ObjectGUIState objectGUIState);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001D1")]
-	[Address(RVA = "0x4B33840", Offset = "0x4B33840", VA = "0x4B33840")]
+	[Address(RVA = "0x4E5B400", Offset = "0x4E5B400", VA = "0x4E5B400")]
 	[UnityEngine.Bindings.NativeMethod("EndContainer")]
 	internal static extern void Internal_EndContainer();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001D2")]
-	[Address(RVA = "0x4B33870", Offset = "0x4B33870", VA = "0x4B33870")]
+	[Address(RVA = "0x4E5B430", Offset = "0x4E5B430", VA = "0x4E5B430")]
 	internal static extern int CheckForTabEvent(Event evt);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001D3")]
-	[Address(RVA = "0x4B338A0", Offset = "0x4B338A0", VA = "0x4B338A0")]
+	[Address(RVA = "0x4E5B460", Offset = "0x4E5B460", VA = "0x4E5B460")]
 	internal static extern void SetKeyboardControlToFirstControlId();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001D4")]
-	[Address(RVA = "0x4B338D0", Offset = "0x4B338D0", VA = "0x4B338D0")]
+	[Address(RVA = "0x4E5B490", Offset = "0x4E5B490", VA = "0x4E5B490")]
 	internal static extern void SetKeyboardControlToLastControlId();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001D5")]
-	[Address(RVA = "0x4B33900", Offset = "0x4B33900", VA = "0x4B33900")]
+	[Address(RVA = "0x4E5B4C0", Offset = "0x4E5B4C0", VA = "0x4E5B4C0")]
 	internal static extern bool HasFocusableControls();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001D6")]
-	[Address(RVA = "0x4B33930", Offset = "0x4B33930", VA = "0x4B33930")]
+	[Address(RVA = "0x4E5B4F0", Offset = "0x4E5B4F0", VA = "0x4E5B4F0")]
 	internal static extern bool OwnsId(int id);
 
 	[Token(Token = "0x60001D7")]
-	[Address(RVA = "0x4B33960", Offset = "0x4B33960", VA = "0x4B33960")]
+	[Address(RVA = "0x4E5B520", Offset = "0x4E5B520", VA = "0x4E5B520")]
 	public static Rect AlignRectToDevice(Rect rect, out int widthInPixels, out int heightInPixels)
 	{
 		return default(Rect);
@@ -255,125 +262,125 @@ public class GUIUtility
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001DB")]
-	[Address(RVA = "0x4B33AB0", Offset = "0x4B33AB0", VA = "0x4B33AB0")]
+	[Address(RVA = "0x4E5B670", Offset = "0x4E5B670", VA = "0x4E5B670")]
 	private static extern int Internal_GetHotControl();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001DC")]
-	[Address(RVA = "0x4B33AE0", Offset = "0x4B33AE0", VA = "0x4B33AE0")]
+	[Address(RVA = "0x4E5B6A0", Offset = "0x4E5B6A0", VA = "0x4E5B6A0")]
 	private static extern int Internal_GetKeyboardControl();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001DD")]
-	[Address(RVA = "0x4B33B10", Offset = "0x4B33B10", VA = "0x4B33B10")]
+	[Address(RVA = "0x4E5B6D0", Offset = "0x4E5B6D0", VA = "0x4E5B6D0")]
 	private static extern void Internal_SetHotControl(int value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001DE")]
-	[Address(RVA = "0x4B33B40", Offset = "0x4B33B40", VA = "0x4B33B40")]
+	[Address(RVA = "0x4E5B700", Offset = "0x4E5B700", VA = "0x4E5B700")]
 	private static extern void Internal_SetKeyboardControl(int value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001DF")]
-	[Address(RVA = "0x4B33B70", Offset = "0x4B33B70", VA = "0x4B33B70")]
+	[Address(RVA = "0x4E5B730", Offset = "0x4E5B730", VA = "0x4E5B730")]
 	private static extern object Internal_GetDefaultSkin(int skinMode);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001E0")]
-	[Address(RVA = "0x4B33BA0", Offset = "0x4B33BA0", VA = "0x4B33BA0")]
+	[Address(RVA = "0x4E5B760", Offset = "0x4E5B760", VA = "0x4E5B760")]
 	private static extern void Internal_ExitGUI();
 
 	[Token(Token = "0x60001E1")]
-	[Address(RVA = "0x4B33BD0", Offset = "0x4B33BD0", VA = "0x4B33BD0")]
+	[Address(RVA = "0x4E5B790", Offset = "0x4E5B790", VA = "0x4E5B790")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void MarkGUIChanged()
 	{
 	}
 
 	[Token(Token = "0x60001E2")]
-	[Address(RVA = "0x4B1D960", Offset = "0x4B1D960", VA = "0x4B1D960")]
+	[Address(RVA = "0x4E45520", Offset = "0x4E45520", VA = "0x4E45520")]
 	public static int GetControlID(FocusType focus, Rect position)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60001E3")]
-	[Address(RVA = "0x4B1CA90", Offset = "0x4B1CA90", VA = "0x4B1CA90")]
+	[Address(RVA = "0x4E44650", Offset = "0x4E44650", VA = "0x4E44650")]
 	public static int GetControlID(int hint, FocusType focus)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60001E4")]
-	[Address(RVA = "0x4B1E2A0", Offset = "0x4B1E2A0", VA = "0x4B1E2A0")]
+	[Address(RVA = "0x4E45E60", Offset = "0x4E45E60", VA = "0x4E45E60")]
 	public static object GetStateObject(Type t, int controlID)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001E8")]
-	[Address(RVA = "0x4B33C60", Offset = "0x4B33C60", VA = "0x4B33C60")]
+	[Address(RVA = "0x4E5B820", Offset = "0x4E5B820", VA = "0x4E5B820")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void TakeCapture()
 	{
 	}
 
 	[Token(Token = "0x60001E9")]
-	[Address(RVA = "0x4B33CB0", Offset = "0x4B33CB0", VA = "0x4B33CB0")]
+	[Address(RVA = "0x4E5B870", Offset = "0x4E5B870", VA = "0x4E5B870")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void RemoveCapture()
 	{
 	}
 
 	[Token(Token = "0x60001EC")]
-	[Address(RVA = "0x4B31A30", Offset = "0x4B31A30", VA = "0x4B31A30")]
+	[Address(RVA = "0x4E595F0", Offset = "0x4E595F0", VA = "0x4E595F0")]
 	internal static bool HasKeyFocus(int controlID)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001ED")]
-	[Address(RVA = "0x4B33D00", Offset = "0x4B33D00", VA = "0x4B33D00")]
+	[Address(RVA = "0x4E5B8C0", Offset = "0x4E5B8C0", VA = "0x4E5B8C0")]
 	public static void ExitGUI()
 	{
 	}
 
 	[Token(Token = "0x60001EE")]
-	[Address(RVA = "0x4B1A710", Offset = "0x4B1A710", VA = "0x4B1A710")]
+	[Address(RVA = "0x4E422D0", Offset = "0x4E422D0", VA = "0x4E422D0")]
 	internal static GUISkin GetDefaultSkin()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001EF")]
-	[Address(RVA = "0x4B33DC0", Offset = "0x4B33DC0", VA = "0x4B33DC0")]
+	[Address(RVA = "0x4E5B980", Offset = "0x4E5B980", VA = "0x4E5B980")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void ProcessEvent(int instanceID, IntPtr nativeEventPtr, out bool result)
 	{
 	}
 
 	[Token(Token = "0x60001F0")]
-	[Address(RVA = "0x4B33EC0", Offset = "0x4B33EC0", VA = "0x4B33EC0")]
+	[Address(RVA = "0x4E5BA80", Offset = "0x4E5BA80", VA = "0x4E5BA80")]
 	internal static void EndContainer()
 	{
 	}
 
 	[Token(Token = "0x60001F1")]
-	[Address(RVA = "0x4B33F20", Offset = "0x4B33F20", VA = "0x4B33F20")]
+	[Address(RVA = "0x4E5BAE0", Offset = "0x4E5BAE0", VA = "0x4E5BAE0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void BeginGUI(int skinMode, int instanceID, int useGUILayout)
 	{
 	}
 
 	[Token(Token = "0x60001F2")]
-	[Address(RVA = "0x4B34170", Offset = "0x4B34170", VA = "0x4B34170")]
+	[Address(RVA = "0x4E5BD30", Offset = "0x4E5BD30", VA = "0x4E5BD30")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void EndGUI(int layoutType)
 	{
 	}
 
 	[Token(Token = "0x60001F3")]
-	[Address(RVA = "0x4B34380", Offset = "0x4B34380", VA = "0x4B34380")]
+	[Address(RVA = "0x4E5BF40", Offset = "0x4E5BF40", VA = "0x4E5BF40")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static bool EndGUIFromException(Exception exception)
 	{
@@ -381,7 +388,7 @@ public class GUIUtility
 	}
 
 	[Token(Token = "0x60001F4")]
-	[Address(RVA = "0x4B34490", Offset = "0x4B34490", VA = "0x4B34490")]
+	[Address(RVA = "0x4E5C050", Offset = "0x4E5C050", VA = "0x4E5C050")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static bool EndContainerGUIFromException(Exception exception)
 	{
@@ -389,61 +396,61 @@ public class GUIUtility
 	}
 
 	[Token(Token = "0x60001F5")]
-	[Address(RVA = "0x4B33FA0", Offset = "0x4B33FA0", VA = "0x4B33FA0")]
+	[Address(RVA = "0x4E5BB60", Offset = "0x4E5BB60", VA = "0x4E5BB60")]
 	internal static void ResetGlobalState()
 	{
 	}
 
 	[Token(Token = "0x60001F6")]
-	[Address(RVA = "0x4B344E0", Offset = "0x4B344E0", VA = "0x4B344E0")]
+	[Address(RVA = "0x4E5C0A0", Offset = "0x4E5C0A0", VA = "0x4E5C0A0")]
 	internal static bool IsExitGUIException(Exception exception)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001F7")]
-	[Address(RVA = "0x4B34420", Offset = "0x4B34420", VA = "0x4B34420")]
+	[Address(RVA = "0x4E5BFE0", Offset = "0x4E5BFE0", VA = "0x4E5BFE0")]
 	internal static bool ShouldRethrowException(Exception exception)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001F8")]
-	[Address(RVA = "0x4B1A4F0", Offset = "0x4B1A4F0", VA = "0x4B1A4F0")]
+	[Address(RVA = "0x4E420B0", Offset = "0x4E420B0", VA = "0x4E420B0")]
 	internal static void CheckOnGUI()
 	{
 	}
 
 	[Token(Token = "0x60001F9")]
-	[Address(RVA = "0x4B34550", Offset = "0x4B34550", VA = "0x4B34550")]
+	[Address(RVA = "0x4E5C110", Offset = "0x4E5C110", VA = "0x4E5C110")]
 	internal static float RoundToPixelGrid(float v)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60001FA")]
-	[Address(RVA = "0x4B345D0", Offset = "0x4B345D0", VA = "0x4B345D0")]
+	[Address(RVA = "0x4E5C190", Offset = "0x4E5C190", VA = "0x4E5C190")]
 	public static Rect AlignRectToDevice(Rect rect)
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x60001FB")]
-	[Address(RVA = "0x4B34640", Offset = "0x4B34640", VA = "0x4B34640")]
+	[Address(RVA = "0x4E5C200", Offset = "0x4E5C200", VA = "0x4E5C200")]
 	internal static bool HitTest(Rect rect, Vector2 point, int offset)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001FC")]
-	[Address(RVA = "0x4B34690", Offset = "0x4B34690", VA = "0x4B34690")]
+	[Address(RVA = "0x4E5C250", Offset = "0x4E5C250", VA = "0x4E5C250")]
 	internal static bool HitTest(Rect rect, Vector2 point, bool isDirectManipulationDevice)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001FD")]
-	[Address(RVA = "0x4B1FF30", Offset = "0x4B1FF30", VA = "0x4B1FF30")]
+	[Address(RVA = "0x4E47AF0", Offset = "0x4E47AF0", VA = "0x4E47AF0")]
 	internal static bool HitTest(Rect rect, Event evt)
 	{
 		return default(bool);
@@ -451,21 +458,21 @@ public class GUIUtility
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001FE")]
-	[Address(RVA = "0x4B336F0", Offset = "0x4B336F0", VA = "0x4B336F0")]
+	[Address(RVA = "0x4E5B2B0", Offset = "0x4E5B2B0", VA = "0x4E5B2B0")]
 	private static extern int Internal_GetControlID_Injected(int hint, FocusType focusType, [In] ref Rect rect);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60001FF")]
-	[Address(RVA = "0x4B337E0", Offset = "0x4B337E0", VA = "0x4B337E0")]
+	[Address(RVA = "0x4E5B3A0", Offset = "0x4E5B3A0", VA = "0x4E5B3A0")]
 	private static extern void BeginContainerFromOwner_Injected(IntPtr owner);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000200")]
-	[Address(RVA = "0x4B339C0", Offset = "0x4B339C0", VA = "0x4B339C0")]
+	[Address(RVA = "0x4E5B580", Offset = "0x4E5B580", VA = "0x4E5B580")]
 	private static extern void AlignRectToDevice_Injected([In] ref Rect rect, out int widthInPixels, out int heightInPixels, out Rect ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000201")]
-	[Address(RVA = "0x4B33A80", Offset = "0x4B33A80", VA = "0x4B33A80")]
+	[Address(RVA = "0x4E5B640", Offset = "0x4E5B640", VA = "0x4E5B640")]
 	private static extern void set_compositionCursorPos_Injected([In] ref Vector2 value);
 }

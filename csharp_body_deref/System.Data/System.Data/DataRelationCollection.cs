@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.DataRelationCollection
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
@@ -29,7 +36,7 @@ public abstract class DataRelationCollection : InternalDataCollectionBase
 		protected override ArrayList List
 		{
 			[Token(Token = "0x60002C3")]
-			[Address(RVA = "0x423A550", Offset = "0x423A550", VA = "0x423A550", Slot = "12")]
+			[Address(RVA = "0x4577CB0", Offset = "0x4577CB0", VA = "0x4577CB0", Slot = "12")]
 			get
 			{
 				return null;
@@ -40,7 +47,7 @@ public abstract class DataRelationCollection : InternalDataCollectionBase
 		public override DataRelation this[int index]
 		{
 			[Token(Token = "0x60002C6")]
-			[Address(RVA = "0x423A5E0", Offset = "0x423A5E0", VA = "0x423A5E0", Slot = "13")]
+			[Address(RVA = "0x4577D40", Offset = "0x4577D40", VA = "0x4577D40", Slot = "13")]
 			get
 			{
 				return null;
@@ -51,7 +58,7 @@ public abstract class DataRelationCollection : InternalDataCollectionBase
 		public override DataRelation this[string name]
 		{
 			[Token(Token = "0x60002C7")]
-			[Address(RVA = "0x423A6D0", Offset = "0x423A6D0", VA = "0x423A6D0", Slot = "14")]
+			[Address(RVA = "0x4577E30", Offset = "0x4577E30", VA = "0x4577E30", Slot = "14")]
 			get
 			{
 				return null;
@@ -62,13 +69,13 @@ public abstract class DataRelationCollection : InternalDataCollectionBase
 		internal event CollectionChangeEventHandler RelationPropertyChanged
 		{
 			[Token(Token = "0x60002C8")]
-			[Address(RVA = "0x423A7B0", Offset = "0x423A7B0", VA = "0x423A7B0")]
+			[Address(RVA = "0x4577F10", Offset = "0x4577F10", VA = "0x4577F10")]
 			[CompilerGenerated]
 			add
 			{
 			}
 			[Token(Token = "0x60002C9")]
-			[Address(RVA = "0x423A840", Offset = "0x423A840", VA = "0x423A840")]
+			[Address(RVA = "0x4577FA0", Offset = "0x4577FA0", VA = "0x4577FA0")]
 			[CompilerGenerated]
 			remove
 			{
@@ -76,44 +83,44 @@ public abstract class DataRelationCollection : InternalDataCollectionBase
 		}
 
 		[Token(Token = "0x60002C2")]
-		[Address(RVA = "0x423A440", Offset = "0x423A440", VA = "0x423A440")]
+		[Address(RVA = "0x4577BA0", Offset = "0x4577BA0", VA = "0x4577BA0")]
 		internal DataTableRelationCollection(DataTable table, bool fParentCollection)
 		{
 		}
 
 		[Token(Token = "0x60002C4")]
-		[Address(RVA = "0x423A560", Offset = "0x423A560", VA = "0x423A560")]
+		[Address(RVA = "0x4577CC0", Offset = "0x4577CC0", VA = "0x4577CC0")]
 		private void EnsureDataSet()
 		{
 		}
 
 		[Token(Token = "0x60002C5")]
-		[Address(RVA = "0x423A5A0", Offset = "0x423A5A0", VA = "0x423A5A0", Slot = "18")]
+		[Address(RVA = "0x4577D00", Offset = "0x4577D00", VA = "0x4577D00", Slot = "18")]
 		protected override DataSet GetDataSet()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60002CA")]
-		[Address(RVA = "0x423A8D0", Offset = "0x423A8D0", VA = "0x423A8D0")]
+		[Address(RVA = "0x4578030", Offset = "0x4578030", VA = "0x4578030")]
 		private void AddCache(DataRelation relation)
 		{
 		}
 
 		[Token(Token = "0x60002CB")]
-		[Address(RVA = "0x423A910", Offset = "0x423A910", VA = "0x423A910", Slot = "15")]
+		[Address(RVA = "0x4578070", Offset = "0x4578070", VA = "0x4578070", Slot = "15")]
 		protected override void AddCore(DataRelation relation)
 		{
 		}
 
 		[Token(Token = "0x60002CC")]
-		[Address(RVA = "0x423AA00", Offset = "0x423AA00", VA = "0x423AA00")]
+		[Address(RVA = "0x4578160", Offset = "0x4578160", VA = "0x4578160")]
 		private void RemoveCache(DataRelation relation)
 		{
 		}
 
 		[Token(Token = "0x60002CD")]
-		[Address(RVA = "0x423AAC0", Offset = "0x423AAC0", VA = "0x423AAC0", Slot = "21")]
+		[Address(RVA = "0x4578220", Offset = "0x4578220", VA = "0x4578220", Slot = "21")]
 		protected override void RemoveCore(DataRelation relation)
 		{
 		}
@@ -138,7 +145,7 @@ public abstract class DataRelationCollection : InternalDataCollectionBase
 		protected override ArrayList List
 		{
 			[Token(Token = "0x60002CF")]
-			[Address(RVA = "0x423AC70", Offset = "0x423AC70", VA = "0x423AC70", Slot = "12")]
+			[Address(RVA = "0x45783D0", Offset = "0x45783D0", VA = "0x45783D0", Slot = "12")]
 			get
 			{
 				return null;
@@ -149,7 +156,7 @@ public abstract class DataRelationCollection : InternalDataCollectionBase
 		public override DataRelation this[int index]
 		{
 			[Token(Token = "0x60002D2")]
-			[Address(RVA = "0x423ACD0", Offset = "0x423ACD0", VA = "0x423ACD0", Slot = "13")]
+			[Address(RVA = "0x4578430", Offset = "0x4578430", VA = "0x4578430", Slot = "13")]
 			get
 			{
 				return null;
@@ -160,7 +167,7 @@ public abstract class DataRelationCollection : InternalDataCollectionBase
 		public override DataRelation this[string name]
 		{
 			[Token(Token = "0x60002D3")]
-			[Address(RVA = "0x423ADC0", Offset = "0x423ADC0", VA = "0x423ADC0", Slot = "14")]
+			[Address(RVA = "0x4578520", Offset = "0x4578520", VA = "0x4578520", Slot = "14")]
 			get
 			{
 				return null;
@@ -168,38 +175,38 @@ public abstract class DataRelationCollection : InternalDataCollectionBase
 		}
 
 		[Token(Token = "0x60002CE")]
-		[Address(RVA = "0x423AB70", Offset = "0x423AB70", VA = "0x423AB70")]
+		[Address(RVA = "0x45782D0", Offset = "0x45782D0", VA = "0x45782D0")]
 		internal DataSetRelationCollection(DataSet dataSet)
 		{
 		}
 
 		[Token(Token = "0x60002D0")]
-		[Address(RVA = "0x423AC80", Offset = "0x423AC80", VA = "0x423AC80", Slot = "16")]
+		[Address(RVA = "0x45783E0", Offset = "0x45783E0", VA = "0x45783E0", Slot = "16")]
 		public override void Clear()
 		{
 		}
 
 		[Token(Token = "0x60002D1")]
-		[Address(RVA = "0x423ACC0", Offset = "0x423ACC0", VA = "0x423ACC0", Slot = "18")]
+		[Address(RVA = "0x4578420", Offset = "0x4578420", VA = "0x4578420", Slot = "18")]
 		protected override DataSet GetDataSet()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60002D4")]
-		[Address(RVA = "0x423AEA0", Offset = "0x423AEA0", VA = "0x423AEA0", Slot = "15")]
+		[Address(RVA = "0x4578600", Offset = "0x4578600", VA = "0x4578600", Slot = "15")]
 		protected override void AddCore(DataRelation relation)
 		{
 		}
 
 		[Token(Token = "0x60002D5")]
-		[Address(RVA = "0x423B4C0", Offset = "0x423B4C0", VA = "0x423B4C0", Slot = "21")]
+		[Address(RVA = "0x4578C20", Offset = "0x4578C20", VA = "0x4578C20", Slot = "21")]
 		protected override void RemoveCore(DataRelation relation)
 		{
 		}
 
 		[Token(Token = "0x60002D6")]
-		[Address(RVA = "0x423B780", Offset = "0x423B780", VA = "0x423B780")]
+		[Address(RVA = "0x4578EE0", Offset = "0x4578EE0", VA = "0x4578EE0")]
 		internal void FinishInitRelations()
 		{
 		}
@@ -233,7 +240,7 @@ public abstract class DataRelationCollection : InternalDataCollectionBase
 	internal int ObjectID
 	{
 		[Token(Token = "0x60002AD")]
-		[Address(RVA = "0x4238D30", Offset = "0x4238D30", VA = "0x4238D30")]
+		[Address(RVA = "0x4576490", Offset = "0x4576490", VA = "0x4576490")]
 		get
 		{
 			return default(int);
@@ -258,51 +265,51 @@ public abstract class DataRelationCollection : InternalDataCollectionBase
 	public event CollectionChangeEventHandler CollectionChanged
 	{
 		[Token(Token = "0x60002B2")]
-		[Address(RVA = "0x4239340", Offset = "0x4239340", VA = "0x4239340")]
+		[Address(RVA = "0x4576AA0", Offset = "0x4576AA0", VA = "0x4576AA0")]
 		add
 		{
 		}
 		[Token(Token = "0x60002B3")]
-		[Address(RVA = "0x4239460", Offset = "0x4239460", VA = "0x4239460")]
+		[Address(RVA = "0x4576BC0", Offset = "0x4576BC0", VA = "0x4576BC0")]
 		remove
 		{
 		}
 	}
 
 	[Token(Token = "0x60002B0")]
-	[Address(RVA = "0x4238D40", Offset = "0x4238D40", VA = "0x4238D40")]
+	[Address(RVA = "0x45764A0", Offset = "0x45764A0", VA = "0x45764A0")]
 	public void Add(DataRelation relation)
 	{
 	}
 
 	[Token(Token = "0x60002B1")]
-	[Address(RVA = "0x4239050", Offset = "0x4239050", VA = "0x4239050", Slot = "15")]
+	[Address(RVA = "0x45767B0", Offset = "0x45767B0", VA = "0x45767B0", Slot = "15")]
 	protected virtual void AddCore(DataRelation relation)
 	{
 	}
 
 	[Token(Token = "0x60002B4")]
-	[Address(RVA = "0x4239580", Offset = "0x4239580", VA = "0x4239580")]
+	[Address(RVA = "0x4576CE0", Offset = "0x4576CE0", VA = "0x4576CE0")]
 	internal string AssignName()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60002B5")]
-	[Address(RVA = "0x4239650", Offset = "0x4239650", VA = "0x4239650", Slot = "16")]
+	[Address(RVA = "0x4576DB0", Offset = "0x4576DB0", VA = "0x4576DB0", Slot = "16")]
 	public virtual void Clear()
 	{
 	}
 
 	[Token(Token = "0x60002B6")]
-	[Address(RVA = "0x4239900", Offset = "0x4239900", VA = "0x4239900", Slot = "17")]
+	[Address(RVA = "0x4577060", Offset = "0x4577060", VA = "0x4577060", Slot = "17")]
 	public virtual bool Contains(string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60002B7")]
-	[Address(RVA = "0x4239910", Offset = "0x4239910", VA = "0x4239910")]
+	[Address(RVA = "0x4577070", Offset = "0x4577070", VA = "0x4577070")]
 	internal int InternalIndexOf(string name)
 	{
 		return default(int);
@@ -312,56 +319,56 @@ public abstract class DataRelationCollection : InternalDataCollectionBase
 	protected abstract DataSet GetDataSet();
 
 	[Token(Token = "0x60002B9")]
-	[Address(RVA = "0x42395A0", Offset = "0x42395A0", VA = "0x42395A0")]
+	[Address(RVA = "0x4576D00", Offset = "0x4576D00", VA = "0x4576D00")]
 	private string MakeName(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60002BA")]
-	[Address(RVA = "0x4239AA0", Offset = "0x4239AA0", VA = "0x4239AA0", Slot = "19")]
+	[Address(RVA = "0x4577200", Offset = "0x4577200", VA = "0x4577200", Slot = "19")]
 	protected virtual void OnCollectionChanged(CollectionChangeEventArgs ccevent)
 	{
 	}
 
 	[Token(Token = "0x60002BB")]
-	[Address(RVA = "0x4239B60", Offset = "0x4239B60", VA = "0x4239B60", Slot = "20")]
+	[Address(RVA = "0x45772C0", Offset = "0x45772C0", VA = "0x45772C0", Slot = "20")]
 	protected virtual void OnCollectionChanging(CollectionChangeEventArgs ccevent)
 	{
 	}
 
 	[Token(Token = "0x60002BC")]
-	[Address(RVA = "0x4239C20", Offset = "0x4239C20", VA = "0x4239C20")]
+	[Address(RVA = "0x4577380", Offset = "0x4577380", VA = "0x4577380")]
 	internal void RegisterName(string name)
 	{
 	}
 
 	[Token(Token = "0x60002BD")]
-	[Address(RVA = "0x4239E10", Offset = "0x4239E10", VA = "0x4239E10")]
+	[Address(RVA = "0x4577570", Offset = "0x4577570", VA = "0x4577570")]
 	public void Remove(DataRelation relation)
 	{
 	}
 
 	[Token(Token = "0x60002BE")]
-	[Address(RVA = "0x423A010", Offset = "0x423A010", VA = "0x423A010")]
+	[Address(RVA = "0x4577770", Offset = "0x4577770", VA = "0x4577770")]
 	public void RemoveAt(int index)
 	{
 	}
 
 	[Token(Token = "0x60002BF")]
-	[Address(RVA = "0x423A080", Offset = "0x423A080", VA = "0x423A080", Slot = "21")]
+	[Address(RVA = "0x45777E0", Offset = "0x45777E0", VA = "0x45777E0", Slot = "21")]
 	protected virtual void RemoveCore(DataRelation relation)
 	{
 	}
 
 	[Token(Token = "0x60002C0")]
-	[Address(RVA = "0x423A280", Offset = "0x423A280", VA = "0x423A280")]
+	[Address(RVA = "0x45779E0", Offset = "0x45779E0", VA = "0x45779E0")]
 	internal void UnregisterName(string name)
 	{
 	}
 
 	[Token(Token = "0x60002C1")]
-	[Address(RVA = "0x423A3C0", Offset = "0x423A3C0", VA = "0x423A3C0")]
+	[Address(RVA = "0x4577B20", Offset = "0x4577B20", VA = "0x4577B20")]
 	protected DataRelationCollection()
 	{
 	}

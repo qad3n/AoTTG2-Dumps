@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XmlSchemaSequence
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.Serialization;
 using Il2CppDummyDll;
 
@@ -19,7 +26,7 @@ public class XmlSchemaSequence : XmlSchemaGroupBase
 	public override XmlSchemaObjectCollection Items
 	{
 		[Token(Token = "0x600171B")]
-		[Address(RVA = "0x43EAB00", Offset = "0x43EAB00", VA = "0x43EAB00", Slot = "16")]
+		[Address(RVA = "0x4728260", Offset = "0x4728260", VA = "0x4728260", Slot = "16")]
 		get
 		{
 			return null;
@@ -30,7 +37,7 @@ public class XmlSchemaSequence : XmlSchemaGroupBase
 	internal override bool IsEmpty
 	{
 		[Token(Token = "0x600171C")]
-		[Address(RVA = "0x43EAB10", Offset = "0x43EAB10", VA = "0x43EAB10", Slot = "14")]
+		[Address(RVA = "0x4728270", Offset = "0x4728270", VA = "0x4728270", Slot = "14")]
 		get
 		{
 			return default(bool);
@@ -38,13 +45,13 @@ public class XmlSchemaSequence : XmlSchemaGroupBase
 	}
 
 	[Token(Token = "0x600171D")]
-	[Address(RVA = "0x43EABB0", Offset = "0x43EABB0", VA = "0x43EABB0", Slot = "17")]
+	[Address(RVA = "0x4728310", Offset = "0x4728310", VA = "0x4728310", Slot = "17")]
 	internal override void SetItems(XmlSchemaObjectCollection newItems)
 	{
 	}
 
 	[Token(Token = "0x600171E")]
-	[Address(RVA = "0x43EABC0", Offset = "0x43EABC0", VA = "0x43EABC0")]
+	[Address(RVA = "0x4728320", Offset = "0x4728320", VA = "0x4728320")]
 	public XmlSchemaSequence()
 	{
 	}

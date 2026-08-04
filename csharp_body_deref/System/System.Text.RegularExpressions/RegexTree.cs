@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.RegularExpressions.RegexTree
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -35,7 +42,7 @@ internal sealed class RegexTree
 	public readonly RegexOptions Options;
 
 	[Token(Token = "0x6000453")]
-	[Address(RVA = "0x45F4FE0", Offset = "0x45F4FE0", VA = "0x45F4FE0")]
+	[Address(RVA = "0x491A0E0", Offset = "0x491A0E0", VA = "0x491A0E0")]
 	internal RegexTree(RegexNode root, Hashtable caps, int[] capNumList, int capTop, Hashtable capNames, string[] capsList, RegexOptions options)
 	{
 	}

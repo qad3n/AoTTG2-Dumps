@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.ColorCorrectionLookup
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/ColorCorrectionLookup.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -25,51 +32,51 @@ public class ColorCorrectionLookup : PostEffectsBase
 	public string basedOnTempTex;
 
 	[Token(Token = "0x6000038")]
-	[Address(RVA = "0x415A860", Offset = "0x415A860", VA = "0x415A860", Slot = "4")]
+	[Address(RVA = "0x447F960", Offset = "0x447F960", VA = "0x447F960", Slot = "4")]
 	public override bool CheckResources()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000039")]
-	[Address(RVA = "0x415A920", Offset = "0x415A920", VA = "0x415A920")]
+	[Address(RVA = "0x447FA20", Offset = "0x447FA20", VA = "0x447FA20")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x415A9B0", Offset = "0x415A9B0", VA = "0x415A9B0")]
+	[Address(RVA = "0x447FAB0", Offset = "0x447FAB0", VA = "0x447FAB0")]
 	private void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x415AA40", Offset = "0x415AA40", VA = "0x415AA40")]
+	[Address(RVA = "0x447FB40", Offset = "0x447FB40", VA = "0x447FB40")]
 	public void SetIdentityLut()
 	{
 	}
 
 	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x415AED0", Offset = "0x415AED0", VA = "0x415AED0")]
+	[Address(RVA = "0x447FFD0", Offset = "0x447FFD0", VA = "0x447FFD0")]
 	public bool ValidDimensions(Texture2D tex2d)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600003D")]
-	[Address(RVA = "0x415AFE0", Offset = "0x415AFE0", VA = "0x415AFE0")]
+	[Address(RVA = "0x44800E0", Offset = "0x44800E0", VA = "0x44800E0")]
 	public void Convert(Texture2D temp2DTex, string path)
 	{
 	}
 
 	[Token(Token = "0x600003E")]
-	[Address(RVA = "0x415B360", Offset = "0x415B360", VA = "0x415B360")]
+	[Address(RVA = "0x4480460", Offset = "0x4480460", VA = "0x4480460")]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x600003F")]
-	[Address(RVA = "0x415B570", Offset = "0x415B570", VA = "0x415B570")]
+	[Address(RVA = "0x4480670", Offset = "0x4480670", VA = "0x4480670")]
 	public ColorCorrectionLookup()
 	{
 	}

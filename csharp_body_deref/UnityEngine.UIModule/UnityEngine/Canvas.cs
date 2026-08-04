@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Canvas
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -21,13 +28,13 @@ public sealed class Canvas : Behaviour
 	public RenderMode renderMode
 	{
 		[Token(Token = "0x600005C")]
-		[Address(RVA = "0x4D96180", Offset = "0x4D96180", VA = "0x4D96180")]
+		[Address(RVA = "0x50BDAB0", Offset = "0x50BDAB0", VA = "0x50BDAB0")]
 		get
 		{
 			return default(RenderMode);
 		}
 		[Token(Token = "0x600005D")]
-		[Address(RVA = "0x4D96250", Offset = "0x4D96250", VA = "0x4D96250")]
+		[Address(RVA = "0x50BDB80", Offset = "0x50BDB80", VA = "0x50BDB80")]
 		set
 		{
 		}
@@ -37,7 +44,7 @@ public sealed class Canvas : Behaviour
 	public bool isRootCanvas
 	{
 		[Token(Token = "0x600005E")]
-		[Address(RVA = "0x4D96330", Offset = "0x4D96330", VA = "0x4D96330")]
+		[Address(RVA = "0x50BDC60", Offset = "0x50BDC60", VA = "0x50BDC60")]
 		get
 		{
 			return default(bool);
@@ -48,13 +55,13 @@ public sealed class Canvas : Behaviour
 	public float scaleFactor
 	{
 		[Token(Token = "0x600005F")]
-		[Address(RVA = "0x4D96400", Offset = "0x4D96400", VA = "0x4D96400")]
+		[Address(RVA = "0x50BDD30", Offset = "0x50BDD30", VA = "0x50BDD30")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000060")]
-		[Address(RVA = "0x4D964D0", Offset = "0x4D964D0", VA = "0x4D964D0")]
+		[Address(RVA = "0x50BDE00", Offset = "0x50BDE00", VA = "0x50BDE00")]
 		set
 		{
 		}
@@ -64,13 +71,13 @@ public sealed class Canvas : Behaviour
 	public float referencePixelsPerUnit
 	{
 		[Token(Token = "0x6000061")]
-		[Address(RVA = "0x4D965D0", Offset = "0x4D965D0", VA = "0x4D965D0")]
+		[Address(RVA = "0x50BDF00", Offset = "0x50BDF00", VA = "0x50BDF00")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000062")]
-		[Address(RVA = "0x4D966A0", Offset = "0x4D966A0", VA = "0x4D966A0")]
+		[Address(RVA = "0x50BDFD0", Offset = "0x50BDFD0", VA = "0x50BDFD0")]
 		set
 		{
 		}
@@ -80,7 +87,7 @@ public sealed class Canvas : Behaviour
 	public bool pixelPerfect
 	{
 		[Token(Token = "0x6000063")]
-		[Address(RVA = "0x4D967A0", Offset = "0x4D967A0", VA = "0x4D967A0")]
+		[Address(RVA = "0x50BE0D0", Offset = "0x50BE0D0", VA = "0x50BE0D0")]
 		get
 		{
 			return default(bool);
@@ -91,7 +98,7 @@ public sealed class Canvas : Behaviour
 	public int renderOrder
 	{
 		[Token(Token = "0x6000064")]
-		[Address(RVA = "0x4D96870", Offset = "0x4D96870", VA = "0x4D96870")]
+		[Address(RVA = "0x50BE1A0", Offset = "0x50BE1A0", VA = "0x50BE1A0")]
 		get
 		{
 			return default(int);
@@ -102,13 +109,13 @@ public sealed class Canvas : Behaviour
 	public bool overrideSorting
 	{
 		[Token(Token = "0x6000065")]
-		[Address(RVA = "0x4D96940", Offset = "0x4D96940", VA = "0x4D96940")]
+		[Address(RVA = "0x50BE270", Offset = "0x50BE270", VA = "0x50BE270")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000066")]
-		[Address(RVA = "0x4D96A10", Offset = "0x4D96A10", VA = "0x4D96A10")]
+		[Address(RVA = "0x50BE340", Offset = "0x50BE340", VA = "0x50BE340")]
 		set
 		{
 		}
@@ -118,13 +125,13 @@ public sealed class Canvas : Behaviour
 	public int sortingOrder
 	{
 		[Token(Token = "0x6000067")]
-		[Address(RVA = "0x4D96AF0", Offset = "0x4D96AF0", VA = "0x4D96AF0")]
+		[Address(RVA = "0x50BE420", Offset = "0x50BE420", VA = "0x50BE420")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000068")]
-		[Address(RVA = "0x4D96BC0", Offset = "0x4D96BC0", VA = "0x4D96BC0")]
+		[Address(RVA = "0x50BE4F0", Offset = "0x50BE4F0", VA = "0x50BE4F0")]
 		set
 		{
 		}
@@ -134,7 +141,7 @@ public sealed class Canvas : Behaviour
 	public int targetDisplay
 	{
 		[Token(Token = "0x6000069")]
-		[Address(RVA = "0x4D96CA0", Offset = "0x4D96CA0", VA = "0x4D96CA0")]
+		[Address(RVA = "0x50BE5D0", Offset = "0x50BE5D0", VA = "0x50BE5D0")]
 		get
 		{
 			return default(int);
@@ -145,13 +152,13 @@ public sealed class Canvas : Behaviour
 	public int sortingLayerID
 	{
 		[Token(Token = "0x600006A")]
-		[Address(RVA = "0x4D96D70", Offset = "0x4D96D70", VA = "0x4D96D70")]
+		[Address(RVA = "0x50BE6A0", Offset = "0x50BE6A0", VA = "0x50BE6A0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600006B")]
-		[Address(RVA = "0x4D96E40", Offset = "0x4D96E40", VA = "0x4D96E40")]
+		[Address(RVA = "0x50BE770", Offset = "0x50BE770", VA = "0x50BE770")]
 		set
 		{
 		}
@@ -161,13 +168,13 @@ public sealed class Canvas : Behaviour
 	public AdditionalCanvasShaderChannels additionalShaderChannels
 	{
 		[Token(Token = "0x600006C")]
-		[Address(RVA = "0x4D96F20", Offset = "0x4D96F20", VA = "0x4D96F20")]
+		[Address(RVA = "0x50BE850", Offset = "0x50BE850", VA = "0x50BE850")]
 		get
 		{
 			return default(AdditionalCanvasShaderChannels);
 		}
 		[Token(Token = "0x600006D")]
-		[Address(RVA = "0x4D96FF0", Offset = "0x4D96FF0", VA = "0x4D96FF0")]
+		[Address(RVA = "0x50BE920", Offset = "0x50BE920", VA = "0x50BE920")]
 		set
 		{
 		}
@@ -177,7 +184,7 @@ public sealed class Canvas : Behaviour
 	public Canvas rootCanvas
 	{
 		[Token(Token = "0x600006E")]
-		[Address(RVA = "0x4D970D0", Offset = "0x4D970D0", VA = "0x4D970D0")]
+		[Address(RVA = "0x50BEA00", Offset = "0x50BEA00", VA = "0x50BEA00")]
 		get
 		{
 			return null;
@@ -188,7 +195,7 @@ public sealed class Canvas : Behaviour
 	public Vector2 renderingDisplaySize
 	{
 		[Token(Token = "0x600006F")]
-		[Address(RVA = "0x4D971A0", Offset = "0x4D971A0", VA = "0x4D971A0")]
+		[Address(RVA = "0x50BEAD0", Offset = "0x50BEAD0", VA = "0x50BEAD0")]
 		get
 		{
 			return default(Vector2);
@@ -199,14 +206,14 @@ public sealed class Canvas : Behaviour
 	internal static Action<int> externBeginRenderOverlays
 	{
 		[Token(Token = "0x6000070")]
-		[Address(RVA = "0x4D97290", Offset = "0x4D97290", VA = "0x4D97290")]
+		[Address(RVA = "0x50BEBC0", Offset = "0x50BEBC0", VA = "0x50BEBC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000071")]
-		[Address(RVA = "0x4D972D0", Offset = "0x4D972D0", VA = "0x4D972D0")]
+		[Address(RVA = "0x50BEC00", Offset = "0x50BEC00", VA = "0x50BEC00")]
 		[CompilerGenerated]
 		set
 		{
@@ -217,14 +224,14 @@ public sealed class Canvas : Behaviour
 	internal static Action<int, int> externRenderOverlaysBefore
 	{
 		[Token(Token = "0x6000072")]
-		[Address(RVA = "0x4D97320", Offset = "0x4D97320", VA = "0x4D97320")]
+		[Address(RVA = "0x50BEC50", Offset = "0x50BEC50", VA = "0x50BEC50")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000073")]
-		[Address(RVA = "0x4D97360", Offset = "0x4D97360", VA = "0x4D97360")]
+		[Address(RVA = "0x50BEC90", Offset = "0x50BEC90", VA = "0x50BEC90")]
 		[CompilerGenerated]
 		set
 		{
@@ -235,14 +242,14 @@ public sealed class Canvas : Behaviour
 	internal static Action<int> externEndRenderOverlays
 	{
 		[Token(Token = "0x6000074")]
-		[Address(RVA = "0x4D973B0", Offset = "0x4D973B0", VA = "0x4D973B0")]
+		[Address(RVA = "0x50BECE0", Offset = "0x50BECE0", VA = "0x50BECE0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000075")]
-		[Address(RVA = "0x4D973F0", Offset = "0x4D973F0", VA = "0x4D973F0")]
+		[Address(RVA = "0x50BED20", Offset = "0x50BED20", VA = "0x50BED20")]
 		[CompilerGenerated]
 		set
 		{
@@ -254,7 +261,7 @@ public sealed class Canvas : Behaviour
 	public Camera worldCamera
 	{
 		[Token(Token = "0x6000077")]
-		[Address(RVA = "0x4D97470", Offset = "0x4D97470", VA = "0x4D97470")]
+		[Address(RVA = "0x50BEDA0", Offset = "0x50BEDA0", VA = "0x50BEDA0")]
 		get
 		{
 			return null;
@@ -265,13 +272,13 @@ public sealed class Canvas : Behaviour
 	public static event WillRenderCanvases preWillRenderCanvases
 	{
 		[Token(Token = "0x6000058")]
-		[Address(RVA = "0x4D95EC0", Offset = "0x4D95EC0", VA = "0x4D95EC0")]
+		[Address(RVA = "0x50BD7F0", Offset = "0x50BD7F0", VA = "0x50BD7F0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000059")]
-		[Address(RVA = "0x4D95F60", Offset = "0x4D95F60", VA = "0x4D95F60")]
+		[Address(RVA = "0x50BD890", Offset = "0x50BD890", VA = "0x50BD890")]
 		[CompilerGenerated]
 		remove
 		{
@@ -282,13 +289,13 @@ public sealed class Canvas : Behaviour
 	public static event WillRenderCanvases willRenderCanvases
 	{
 		[Token(Token = "0x600005A")]
-		[Address(RVA = "0x4D96000", Offset = "0x4D96000", VA = "0x4D96000")]
+		[Address(RVA = "0x50BD930", Offset = "0x50BD930", VA = "0x50BD930")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600005B")]
-		[Address(RVA = "0x4D960C0", Offset = "0x4D960C0", VA = "0x4D960C0")]
+		[Address(RVA = "0x50BD9F0", Offset = "0x50BD9F0", VA = "0x50BD9F0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -297,171 +304,171 @@ public sealed class Canvas : Behaviour
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x4D97440", Offset = "0x4D97440", VA = "0x4D97440")]
+	[Address(RVA = "0x50BED70", Offset = "0x50BED70", VA = "0x50BED70")]
 	[UnityEngine.Bindings.FreeFunction("UI::CanvasManager::SetExternalCanvasEnabled")]
 	internal static extern void SetExternalCanvasEnabled(bool enabled);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x4D97540", Offset = "0x4D97540", VA = "0x4D97540")]
+	[Address(RVA = "0x50BEE70", Offset = "0x50BEE70", VA = "0x50BEE70")]
 	[UnityEngine.Bindings.FreeFunction("UI::GetDefaultUIMaterial")]
 	public static extern Material GetDefaultCanvasMaterial();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000079")]
-	[Address(RVA = "0x4D97570", Offset = "0x4D97570", VA = "0x4D97570")]
+	[Address(RVA = "0x50BEEA0", Offset = "0x50BEEA0", VA = "0x50BEEA0")]
 	[UnityEngine.Bindings.FreeFunction("UI::GetETC1SupportedCanvasMaterial")]
 	public static extern Material GetETC1SupportedCanvasMaterial();
 
 	[Token(Token = "0x600007A")]
-	[Address(RVA = "0x4D975A0", Offset = "0x4D975A0", VA = "0x4D975A0")]
+	[Address(RVA = "0x50BEED0", Offset = "0x50BEED0", VA = "0x50BEED0")]
 	public static void ForceUpdateCanvases()
 	{
 	}
 
 	[Token(Token = "0x600007B")]
-	[Address(RVA = "0x4D97630", Offset = "0x4D97630", VA = "0x4D97630")]
+	[Address(RVA = "0x50BEF60", Offset = "0x50BEF60", VA = "0x50BEF60")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void SendPreWillRenderCanvases()
 	{
 	}
 
 	[Token(Token = "0x600007C")]
-	[Address(RVA = "0x4D97680", Offset = "0x4D97680", VA = "0x4D97680")]
+	[Address(RVA = "0x50BEFB0", Offset = "0x50BEFB0", VA = "0x50BEFB0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void SendWillRenderCanvases()
 	{
 	}
 
 	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x4D976D0", Offset = "0x4D976D0", VA = "0x4D976D0")]
+	[Address(RVA = "0x50BF000", Offset = "0x50BF000", VA = "0x50BF000")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void BeginRenderExtraOverlays(int displayIndex)
 	{
 	}
 
 	[Token(Token = "0x600007E")]
-	[Address(RVA = "0x4D97720", Offset = "0x4D97720", VA = "0x4D97720")]
+	[Address(RVA = "0x50BF050", Offset = "0x50BF050", VA = "0x50BF050")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void RenderExtraOverlaysBefore(int displayIndex, int sortingOrder)
 	{
 	}
 
 	[Token(Token = "0x600007F")]
-	[Address(RVA = "0x4D97780", Offset = "0x4D97780", VA = "0x4D97780")]
+	[Address(RVA = "0x50BF0B0", Offset = "0x50BF0B0", VA = "0x50BF0B0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void EndRenderExtraOverlays(int displayIndex)
 	{
 	}
 
 	[Token(Token = "0x6000080")]
-	[Address(RVA = "0x4D977D0", Offset = "0x4D977D0", VA = "0x4D977D0")]
+	[Address(RVA = "0x50BF100", Offset = "0x50BF100", VA = "0x50BF100")]
 	public Canvas()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000081")]
-	[Address(RVA = "0x4D96220", Offset = "0x4D96220", VA = "0x4D96220")]
+	[Address(RVA = "0x50BDB50", Offset = "0x50BDB50", VA = "0x50BDB50")]
 	private static extern RenderMode get_renderMode_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000082")]
-	[Address(RVA = "0x4D962F0", Offset = "0x4D962F0", VA = "0x4D962F0")]
+	[Address(RVA = "0x50BDC20", Offset = "0x50BDC20", VA = "0x50BDC20")]
 	private static extern void set_renderMode_Injected(IntPtr _unity_self, RenderMode value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x4D963D0", Offset = "0x4D963D0", VA = "0x4D963D0")]
+	[Address(RVA = "0x50BDD00", Offset = "0x50BDD00", VA = "0x50BDD00")]
 	private static extern bool get_isRootCanvas_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000084")]
-	[Address(RVA = "0x4D964A0", Offset = "0x4D964A0", VA = "0x4D964A0")]
+	[Address(RVA = "0x50BDDD0", Offset = "0x50BDDD0", VA = "0x50BDDD0")]
 	private static extern float get_scaleFactor_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000085")]
-	[Address(RVA = "0x4D96580", Offset = "0x4D96580", VA = "0x4D96580")]
+	[Address(RVA = "0x50BDEB0", Offset = "0x50BDEB0", VA = "0x50BDEB0")]
 	private static extern void set_scaleFactor_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000086")]
-	[Address(RVA = "0x4D96670", Offset = "0x4D96670", VA = "0x4D96670")]
+	[Address(RVA = "0x50BDFA0", Offset = "0x50BDFA0", VA = "0x50BDFA0")]
 	private static extern float get_referencePixelsPerUnit_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x4D96750", Offset = "0x4D96750", VA = "0x4D96750")]
+	[Address(RVA = "0x50BE080", Offset = "0x50BE080", VA = "0x50BE080")]
 	private static extern void set_referencePixelsPerUnit_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x4D96840", Offset = "0x4D96840", VA = "0x4D96840")]
+	[Address(RVA = "0x50BE170", Offset = "0x50BE170", VA = "0x50BE170")]
 	private static extern bool get_pixelPerfect_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000089")]
-	[Address(RVA = "0x4D96910", Offset = "0x4D96910", VA = "0x4D96910")]
+	[Address(RVA = "0x50BE240", Offset = "0x50BE240", VA = "0x50BE240")]
 	private static extern int get_renderOrder_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600008A")]
-	[Address(RVA = "0x4D969E0", Offset = "0x4D969E0", VA = "0x4D969E0")]
+	[Address(RVA = "0x50BE310", Offset = "0x50BE310", VA = "0x50BE310")]
 	private static extern bool get_overrideSorting_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600008B")]
-	[Address(RVA = "0x4D96AB0", Offset = "0x4D96AB0", VA = "0x4D96AB0")]
+	[Address(RVA = "0x50BE3E0", Offset = "0x50BE3E0", VA = "0x50BE3E0")]
 	private static extern void set_overrideSorting_Injected(IntPtr _unity_self, bool value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600008C")]
-	[Address(RVA = "0x4D96B90", Offset = "0x4D96B90", VA = "0x4D96B90")]
+	[Address(RVA = "0x50BE4C0", Offset = "0x50BE4C0", VA = "0x50BE4C0")]
 	private static extern int get_sortingOrder_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600008D")]
-	[Address(RVA = "0x4D96C60", Offset = "0x4D96C60", VA = "0x4D96C60")]
+	[Address(RVA = "0x50BE590", Offset = "0x50BE590", VA = "0x50BE590")]
 	private static extern void set_sortingOrder_Injected(IntPtr _unity_self, int value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600008E")]
-	[Address(RVA = "0x4D96D40", Offset = "0x4D96D40", VA = "0x4D96D40")]
+	[Address(RVA = "0x50BE670", Offset = "0x50BE670", VA = "0x50BE670")]
 	private static extern int get_targetDisplay_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600008F")]
-	[Address(RVA = "0x4D96E10", Offset = "0x4D96E10", VA = "0x4D96E10")]
+	[Address(RVA = "0x50BE740", Offset = "0x50BE740", VA = "0x50BE740")]
 	private static extern int get_sortingLayerID_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000090")]
-	[Address(RVA = "0x4D96EE0", Offset = "0x4D96EE0", VA = "0x4D96EE0")]
+	[Address(RVA = "0x50BE810", Offset = "0x50BE810", VA = "0x50BE810")]
 	private static extern void set_sortingLayerID_Injected(IntPtr _unity_self, int value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000091")]
-	[Address(RVA = "0x4D96FC0", Offset = "0x4D96FC0", VA = "0x4D96FC0")]
+	[Address(RVA = "0x50BE8F0", Offset = "0x50BE8F0", VA = "0x50BE8F0")]
 	private static extern AdditionalCanvasShaderChannels get_additionalShaderChannels_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000092")]
-	[Address(RVA = "0x4D97090", Offset = "0x4D97090", VA = "0x4D97090")]
+	[Address(RVA = "0x50BE9C0", Offset = "0x50BE9C0", VA = "0x50BE9C0")]
 	private static extern void set_additionalShaderChannels_Injected(IntPtr _unity_self, AdditionalCanvasShaderChannels value);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000093")]
-	[Address(RVA = "0x4D97170", Offset = "0x4D97170", VA = "0x4D97170")]
+	[Address(RVA = "0x50BEAA0", Offset = "0x50BEAA0", VA = "0x50BEAA0")]
 	private static extern Canvas get_rootCanvas_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000094")]
-	[Address(RVA = "0x4D97250", Offset = "0x4D97250", VA = "0x4D97250")]
+	[Address(RVA = "0x50BEB80", Offset = "0x50BEB80", VA = "0x50BEB80")]
 	private static extern void get_renderingDisplaySize_Injected(IntPtr _unity_self, out Vector2 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000095")]
-	[Address(RVA = "0x4D97510", Offset = "0x4D97510", VA = "0x4D97510")]
+	[Address(RVA = "0x50BEE40", Offset = "0x50BEE40", VA = "0x50BEE40")]
 	private static extern Camera get_worldCamera_Injected(IntPtr _unity_self);
 }

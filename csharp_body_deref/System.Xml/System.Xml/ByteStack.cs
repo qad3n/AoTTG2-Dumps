@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.ByteStack
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml;
@@ -22,19 +29,19 @@ internal class ByteStack
 	private int size;
 
 	[Token(Token = "0x60000E2")]
-	[Address(RVA = "0x4355AE0", Offset = "0x4355AE0", VA = "0x4355AE0")]
+	[Address(RVA = "0x4687BB0", Offset = "0x4687BB0", VA = "0x4687BB0")]
 	public ByteStack(int growthRate)
 	{
 	}
 
 	[Token(Token = "0x60000E3")]
-	[Address(RVA = "0x4355B50", Offset = "0x4355B50", VA = "0x4355B50")]
+	[Address(RVA = "0x4687C20", Offset = "0x4687C20", VA = "0x4687C20")]
 	public void Push(byte data)
 	{
 	}
 
 	[Token(Token = "0x60000E4")]
-	[Address(RVA = "0x4355C00", Offset = "0x4355C00", VA = "0x4355C00")]
+	[Address(RVA = "0x4687CD0", Offset = "0x4687CD0", VA = "0x4687CD0")]
 	public byte Pop()
 	{
 		return default(byte);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.Text.TextGenerator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -31,7 +38,7 @@ internal class TextGenerator
 		public int materialIndex;
 
 		[Token(Token = "0x6000117")]
-		[Address(RVA = "0x4BB3D30", Offset = "0x4BB3D30", VA = "0x4BB3D30")]
+		[Address(RVA = "0x4EDB660", Offset = "0x4EDB660", VA = "0x4EDB660")]
 		public SpecialCharacter(Character character, int materialIndex)
 		{
 		}
@@ -520,7 +527,7 @@ internal class TextGenerator
 	public static bool isTextTruncated
 	{
 		[Token(Token = "0x60000FB")]
-		[Address(RVA = "0x4BA1CF0", Offset = "0x4BA1CF0", VA = "0x4BA1CF0")]
+		[Address(RVA = "0x4EC9620", Offset = "0x4EC9620", VA = "0x4EC9620")]
 		get
 		{
 			return default(bool);
@@ -528,177 +535,177 @@ internal class TextGenerator
 	}
 
 	[Token(Token = "0x60000F8")]
-	[Address(RVA = "0x4BA0A30", Offset = "0x4BA0A30", VA = "0x4BA0A30")]
+	[Address(RVA = "0x4EC8360", Offset = "0x4EC8360", VA = "0x4EC8360")]
 	private static TextGenerator GetTextGenerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000F9")]
-	[Address(RVA = "0x4BA14D0", Offset = "0x4BA14D0", VA = "0x4BA14D0")]
+	[Address(RVA = "0x4EC8E00", Offset = "0x4EC8E00", VA = "0x4EC8E00")]
 	public static void GenerateText(TextGenerationSettings settings, TextInfo textInfo)
 	{
 	}
 
 	[Token(Token = "0x60000FA")]
-	[Address(RVA = "0x4BA19C0", Offset = "0x4BA19C0", VA = "0x4BA19C0")]
+	[Address(RVA = "0x4EC92F0", Offset = "0x4EC92F0", VA = "0x4EC92F0")]
 	public static Vector2 GetPreferredValues(TextGenerationSettings settings, TextInfo textInfo)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x60000FC")]
-	[Address(RVA = "0x4BA1750", Offset = "0x4BA1750", VA = "0x4BA1750")]
+	[Address(RVA = "0x4EC9080", Offset = "0x4EC9080", VA = "0x4EC9080")]
 	private void Prepare(TextGenerationSettings generationSettings, TextInfo textInfo)
 	{
 	}
 
 	[Token(Token = "0x60000FD")]
-	[Address(RVA = "0x4B962E0", Offset = "0x4B962E0", VA = "0x4B962E0")]
+	[Address(RVA = "0x4EBDC10", Offset = "0x4EBDC10", VA = "0x4EBDC10")]
 	private void GenerateTextMesh(TextGenerationSettings generationSettings, TextInfo textInfo)
 	{
 	}
 
 	[Token(Token = "0x60000FE")]
-	[Address(RVA = "0x4BA49F0", Offset = "0x4BA49F0", VA = "0x4BA49F0")]
+	[Address(RVA = "0x4ECC320", Offset = "0x4ECC320", VA = "0x4ECC320")]
 	private void SaveWordWrappingState(ref WordWrapState state, int index, int count, TextInfo textInfo)
 	{
 	}
 
 	[Token(Token = "0x60000FF")]
-	[Address(RVA = "0x4BA4F90", Offset = "0x4BA4F90", VA = "0x4BA4F90")]
+	[Address(RVA = "0x4ECC8C0", Offset = "0x4ECC8C0", VA = "0x4ECC8C0")]
 	protected int RestoreWordWrappingState(ref WordWrapState state, TextInfo textInfo)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000100")]
-	[Address(RVA = "0x4BA5530", Offset = "0x4BA5530", VA = "0x4BA5530")]
+	[Address(RVA = "0x4ECCE60", Offset = "0x4ECCE60", VA = "0x4ECCE60")]
 	protected bool ValidateHtmlTag(TextProcessingElement[] chars, int startIndex, out int endIndex, TextGenerationSettings generationSettings, TextInfo textInfo)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000101")]
-	[Address(RVA = "0x4BAAEF0", Offset = "0x4BAAEF0", VA = "0x4BAAEF0")]
+	[Address(RVA = "0x4ED2820", Offset = "0x4ED2820", VA = "0x4ED2820")]
 	private void SaveGlyphVertexInfo(float padding, float stylePadding, Color32 vertexColor, TextGenerationSettings generationSettings, TextInfo textInfo)
 	{
 	}
 
 	[Token(Token = "0x6000102")]
-	[Address(RVA = "0x4BABD50", Offset = "0x4BABD50", VA = "0x4BABD50")]
+	[Address(RVA = "0x4ED3680", Offset = "0x4ED3680", VA = "0x4ED3680")]
 	private void SaveSpriteVertexInfo(Color32 vertexColor, TextGenerationSettings generationSettings, TextInfo textInfo)
 	{
 	}
 
 	[Token(Token = "0x6000103")]
-	[Address(RVA = "0x4BAC790", Offset = "0x4BAC790", VA = "0x4BAC790")]
+	[Address(RVA = "0x4ED40C0", Offset = "0x4ED40C0", VA = "0x4ED40C0")]
 	private void DrawUnderlineMesh(Vector3 start, Vector3 end, float startScale, float endScale, float maxScale, float sdfScale, Color32 underlineColor, TextGenerationSettings generationSettings, TextInfo textInfo)
 	{
 	}
 
 	[Token(Token = "0x6000104")]
-	[Address(RVA = "0x4BAE340", Offset = "0x4BAE340", VA = "0x4BAE340")]
+	[Address(RVA = "0x4ED5C70", Offset = "0x4ED5C70", VA = "0x4ED5C70")]
 	private void DrawTextHighlight(Vector3 start, Vector3 end, Color32 highlightColor, TextGenerationSettings generationSettings, TextInfo textInfo)
 	{
 	}
 
 	[Token(Token = "0x6000105")]
-	[Address(RVA = "0x4BAED10", Offset = "0x4BAED10", VA = "0x4BAED10")]
+	[Address(RVA = "0x4ED6640", Offset = "0x4ED6640", VA = "0x4ED6640")]
 	private static void ClearMesh(bool updateMesh, TextInfo textInfo)
 	{
 	}
 
 	[Token(Token = "0x6000106")]
-	[Address(RVA = "0x4BA2D20", Offset = "0x4BA2D20", VA = "0x4BA2D20")]
+	[Address(RVA = "0x4ECA650", Offset = "0x4ECA650", VA = "0x4ECA650")]
 	internal int SetArraySizes(TextProcessingElement[] textProcessingArray, TextGenerationSettings generationSettings, TextInfo textInfo)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000107")]
-	[Address(RVA = "0x4BAEF30", Offset = "0x4BAEF30", VA = "0x4BAEF30")]
+	[Address(RVA = "0x4ED6860", Offset = "0x4ED6860", VA = "0x4ED6860")]
 	internal TextElement GetTextElement(TextGenerationSettings generationSettings, uint unicode, FontAsset fontAsset, FontStyles fontStyle, TextFontWeight fontWeight, out bool isUsingAlternativeTypeface)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000108")]
-	[Address(RVA = "0x4BA1D60", Offset = "0x4BA1D60", VA = "0x4BA1D60")]
+	[Address(RVA = "0x4EC9690", Offset = "0x4EC9690", VA = "0x4EC9690")]
 	private void ComputeMarginSize(Rect rect, Vector4 margins)
 	{
 	}
 
 	[Token(Token = "0x6000109")]
-	[Address(RVA = "0x4BA1D30", Offset = "0x4BA1D30", VA = "0x4BA1D30")]
+	[Address(RVA = "0x4EC9660", Offset = "0x4EC9660", VA = "0x4EC9660")]
 	protected void GetSpecialCharacters(TextGenerationSettings generationSettings)
 	{
 	}
 
 	[Token(Token = "0x600010A")]
-	[Address(RVA = "0x4BAED30", Offset = "0x4BAED30", VA = "0x4BAED30")]
+	[Address(RVA = "0x4ED6660", Offset = "0x4ED6660", VA = "0x4ED6660")]
 	protected void GetEllipsisSpecialCharacter(TextGenerationSettings generationSettings)
 	{
 	}
 
 	[Token(Token = "0x600010B")]
-	[Address(RVA = "0x4BAE290", Offset = "0x4BAE290", VA = "0x4BAE290")]
+	[Address(RVA = "0x4ED5BC0", Offset = "0x4ED5BC0", VA = "0x4ED5BC0")]
 	protected void GetUnderlineSpecialCharacter(TextGenerationSettings generationSettings)
 	{
 	}
 
 	[Token(Token = "0x600010C")]
-	[Address(RVA = "0x4BA1B70", Offset = "0x4BA1B70", VA = "0x4BA1B70")]
+	[Address(RVA = "0x4EC94A0", Offset = "0x4EC94A0", VA = "0x4EC94A0")]
 	private Vector2 GetPreferredValuesInternal(TextGenerationSettings generationSettings, TextInfo textInfo)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x600010D")]
-	[Address(RVA = "0x4BAF310", Offset = "0x4BAF310", VA = "0x4BAF310", Slot = "4")]
+	[Address(RVA = "0x4ED6C40", Offset = "0x4ED6C40", VA = "0x4ED6C40", Slot = "4")]
 	protected virtual Vector2 CalculatePreferredValues(ref float fontSize, Vector2 marginSize, bool isTextAutoSizingEnabled, TextWrappingMode textWrapMode, TextGenerationSettings generationSettings, TextInfo textInfo)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x600010E")]
-	[Address(RVA = "0x4BA1DF0", Offset = "0x4BA1DF0", VA = "0x4BA1DF0")]
+	[Address(RVA = "0x4EC9720", Offset = "0x4EC9720", VA = "0x4EC9720")]
 	private void PopulateTextBackingArray(string sourceText)
 	{
 	}
 
 	[Token(Token = "0x600010F")]
-	[Address(RVA = "0x4BB3550", Offset = "0x4BB3550", VA = "0x4BB3550")]
+	[Address(RVA = "0x4EDAE80", Offset = "0x4EDAE80", VA = "0x4EDAE80")]
 	private void PopulateTextBackingArray(string sourceText, int start, int length)
 	{
 	}
 
 	[Token(Token = "0x6000110")]
-	[Address(RVA = "0x4BA1E10", Offset = "0x4BA1E10", VA = "0x4BA1E10")]
+	[Address(RVA = "0x4EC9740", Offset = "0x4EC9740", VA = "0x4EC9740")]
 	private void PopulateTextProcessingArray(TextGenerationSettings generationSettings)
 	{
 	}
 
 	[Token(Token = "0x6000111")]
-	[Address(RVA = "0x4BB3630", Offset = "0x4BB3630", VA = "0x4BB3630")]
+	[Address(RVA = "0x4EDAF60", Offset = "0x4EDAF60", VA = "0x4EDAF60")]
 	private void InsertNewLine(int i, float baseScale, float currentElementScale, float currentEmScale, float boldSpacingAdjustment, float characterSpacingAdjustment, float width, float lineGap, ref bool isMaxVisibleDescenderSet, ref float maxVisibleDescender, TextGenerationSettings generationSettings, TextInfo textInfo)
 	{
 	}
 
 	[Token(Token = "0x6000112")]
-	[Address(RVA = "0x4BAF290", Offset = "0x4BAF290", VA = "0x4BAF290")]
+	[Address(RVA = "0x4ED6BC0", Offset = "0x4ED6BC0", VA = "0x4ED6BC0")]
 	protected void DoMissingGlyphCallback(uint unicode, int stringIndex, FontAsset fontAsset, TextInfo textInfo)
 	{
 	}
 
 	[Token(Token = "0x6000113")]
-	[Address(RVA = "0x4BAAE80", Offset = "0x4BAAE80", VA = "0x4BAAE80")]
+	[Address(RVA = "0x4ED27B0", Offset = "0x4ED27B0", VA = "0x4ED27B0")]
 	private void ClearMarkupTagAttributes()
 	{
 	}
 
 	[Token(Token = "0x6000114")]
-	[Address(RVA = "0x4BA0AB0", Offset = "0x4BA0AB0", VA = "0x4BA0AB0")]
+	[Address(RVA = "0x4EC83E0", Offset = "0x4EC83E0", VA = "0x4EC83E0")]
 	public TextGenerator()
 	{
 	}

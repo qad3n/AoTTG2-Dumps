@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.Formatters.Binary.BinaryArray
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
@@ -42,31 +49,31 @@ internal sealed class BinaryArray
 	internal System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum binaryArrayTypeEnum;
 
 	[Token(Token = "0x6002070")]
-	[Address(RVA = "0x4EBE9C0", Offset = "0x4EBE9C0", VA = "0x4EBE9C0")]
+	[Address(RVA = "0x3BA44E0", Offset = "0x3BA44E0", VA = "0x3BA44E0")]
 	internal BinaryArray()
 	{
 	}
 
 	[Token(Token = "0x6002071")]
-	[Address(RVA = "0x4EBE9D0", Offset = "0x4EBE9D0", VA = "0x4EBE9D0")]
+	[Address(RVA = "0x3BA44F0", Offset = "0x3BA44F0", VA = "0x3BA44F0")]
 	internal BinaryArray(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
 	{
 	}
 
 	[Token(Token = "0x6002072")]
-	[Address(RVA = "0x4EBE9F0", Offset = "0x4EBE9F0", VA = "0x4EBE9F0")]
+	[Address(RVA = "0x3BA4510", Offset = "0x3BA4510", VA = "0x3BA4510")]
 	internal void Set(int objectId, int rank, int[] lengthA, int[] lowerBoundA, System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum, object typeInformation, System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum binaryArrayTypeEnum, int assemId)
 	{
 	}
 
 	[Token(Token = "0x6002073")]
-	[Address(RVA = "0x4EBEAA0", Offset = "0x4EBEAA0", VA = "0x4EBEAA0", Slot = "4")]
+	[Address(RVA = "0x3BA45C0", Offset = "0x3BA45C0", VA = "0x3BA45C0", Slot = "4")]
 	public void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
 	{
 	}
 
 	[Token(Token = "0x6002074")]
-	[Address(RVA = "0x4EBEE10", Offset = "0x4EBEE10", VA = "0x4EBEE10", Slot = "5")]
+	[Address(RVA = "0x3BA4930", Offset = "0x3BA4930", VA = "0x3BA4930", Slot = "5")]
 	public void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
 	{
 	}

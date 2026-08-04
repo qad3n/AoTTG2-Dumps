@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.ObjectHolderListEnumerator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
@@ -25,7 +32,7 @@ internal class ObjectHolderListEnumerator
 	internal System.Runtime.Serialization.ObjectHolder Current
 	{
 		[Token(Token = "0x6001FE1")]
-		[Address(RVA = "0x4EB7130", Offset = "0x4EB7130", VA = "0x4EB7130")]
+		[Address(RVA = "0x3B9CC50", Offset = "0x3B9CC50", VA = "0x3B9CC50")]
 		get
 		{
 			return null;
@@ -33,13 +40,13 @@ internal class ObjectHolderListEnumerator
 	}
 
 	[Token(Token = "0x6001FDF")]
-	[Address(RVA = "0x4EB84C0", Offset = "0x4EB84C0", VA = "0x4EB84C0")]
+	[Address(RVA = "0x3B9DFE0", Offset = "0x3B9DFE0", VA = "0x3B9DFE0")]
 	internal ObjectHolderListEnumerator(System.Runtime.Serialization.ObjectHolderList list, bool isFixupEnumerator)
 	{
 	}
 
 	[Token(Token = "0x6001FE0")]
-	[Address(RVA = "0x4EB7180", Offset = "0x4EB7180", VA = "0x4EB7180")]
+	[Address(RVA = "0x3B9CCA0", Offset = "0x3B9CCA0", VA = "0x3B9CCA0")]
 	internal bool MoveNext()
 	{
 		return default(bool);

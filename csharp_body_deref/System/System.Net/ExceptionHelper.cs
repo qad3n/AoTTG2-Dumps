@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.ExceptionHelper
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Net;
@@ -9,7 +16,7 @@ internal static class ExceptionHelper
 	internal static NotImplementedException MethodNotImplementedException
 	{
 		[Token(Token = "0x60007D8")]
-		[Address(RVA = "0x4638EE0", Offset = "0x4638EE0", VA = "0x4638EE0")]
+		[Address(RVA = "0x495DFE0", Offset = "0x495DFE0", VA = "0x495DFE0")]
 		get
 		{
 			return null;
@@ -20,7 +27,7 @@ internal static class ExceptionHelper
 	internal static NotImplementedException PropertyNotImplementedException
 	{
 		[Token(Token = "0x60007D9")]
-		[Address(RVA = "0x4638E50", Offset = "0x4638E50", VA = "0x4638E50")]
+		[Address(RVA = "0x495DF50", Offset = "0x495DF50", VA = "0x495DF50")]
 		get
 		{
 			return null;
@@ -31,7 +38,7 @@ internal static class ExceptionHelper
 	internal static WebException TimeoutException
 	{
 		[Token(Token = "0x60007DA")]
-		[Address(RVA = "0x4632530", Offset = "0x4632530", VA = "0x4632530")]
+		[Address(RVA = "0x4957630", Offset = "0x4957630", VA = "0x4957630")]
 		get
 		{
 			return null;
@@ -42,7 +49,7 @@ internal static class ExceptionHelper
 	internal static NotSupportedException PropertyNotSupportedException
 	{
 		[Token(Token = "0x60007DB")]
-		[Address(RVA = "0x4637660", Offset = "0x4637660", VA = "0x4637660")]
+		[Address(RVA = "0x495C760", Offset = "0x495C760", VA = "0x495C760")]
 		get
 		{
 			return null;
@@ -53,7 +60,7 @@ internal static class ExceptionHelper
 	internal static WebException RequestAbortedException
 	{
 		[Token(Token = "0x60007DC")]
-		[Address(RVA = "0x462E850", Offset = "0x462E850", VA = "0x462E850")]
+		[Address(RVA = "0x4953950", Offset = "0x4953950", VA = "0x4953950")]
 		get
 		{
 			return null;

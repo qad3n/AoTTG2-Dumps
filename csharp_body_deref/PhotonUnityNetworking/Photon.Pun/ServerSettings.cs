@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Pun.ServerSettings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/Code/ServerSettings.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -50,7 +57,7 @@ public class ServerSettings : ScriptableObject
 	public static string BestRegionSummaryInPreferences
 	{
 		[Token(Token = "0x6000183")]
-		[Address(RVA = "0x3C19020", Offset = "0x3C19020", VA = "0x3C19020")]
+		[Address(RVA = "0x3F0E970", Offset = "0x3F0E970", VA = "0x3F0E970")]
 		get
 		{
 			return null;
@@ -58,33 +65,33 @@ public class ServerSettings : ScriptableObject
 	}
 
 	[Token(Token = "0x6000181")]
-	[Address(RVA = "0x3C18F00", Offset = "0x3C18F00", VA = "0x3C18F00")]
+	[Address(RVA = "0x3F0E850", Offset = "0x3F0E850", VA = "0x3F0E850")]
 	public void UseCloud(string cloudAppid, string code = "")
 	{
 	}
 
 	[Token(Token = "0x6000182")]
-	[Address(RVA = "0x3C18F80", Offset = "0x3C18F80", VA = "0x3C18F80")]
+	[Address(RVA = "0x3F0E8D0", Offset = "0x3F0E8D0", VA = "0x3F0E8D0")]
 	public static bool IsAppId(string val)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000184")]
-	[Address(RVA = "0x3C19080", Offset = "0x3C19080", VA = "0x3C19080")]
+	[Address(RVA = "0x3F0E9D0", Offset = "0x3F0E9D0", VA = "0x3F0E9D0")]
 	public static void ResetBestRegionCodeInPreferences()
 	{
 	}
 
 	[Token(Token = "0x6000185")]
-	[Address(RVA = "0x3C190E0", Offset = "0x3C190E0", VA = "0x3C190E0", Slot = "3")]
+	[Address(RVA = "0x3F0EA30", Offset = "0x3F0EA30", VA = "0x3F0EA30", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000186")]
-	[Address(RVA = "0x3C19130", Offset = "0x3C19130", VA = "0x3C19130")]
+	[Address(RVA = "0x3F0EA80", Offset = "0x3F0EA80", VA = "0x3F0EA80")]
 	public ServerSettings()
 	{
 	}

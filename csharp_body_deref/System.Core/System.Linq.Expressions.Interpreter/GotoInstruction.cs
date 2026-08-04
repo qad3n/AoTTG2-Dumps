@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.GotoInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -25,7 +32,7 @@ internal sealed class GotoInstruction : IndexedBranchInstruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x6000623")]
-		[Address(RVA = "0x41A2DD0", Offset = "0x41A2DD0", VA = "0x41A2DD0", Slot = "9")]
+		[Address(RVA = "0x44C7ED0", Offset = "0x44C7ED0", VA = "0x44C7ED0", Slot = "9")]
 		get
 		{
 			return null;
@@ -36,7 +43,7 @@ internal sealed class GotoInstruction : IndexedBranchInstruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x6000624")]
-		[Address(RVA = "0x41A2E00", Offset = "0x41A2E00", VA = "0x41A2E00", Slot = "4")]
+		[Address(RVA = "0x44C7F00", Offset = "0x44C7F00", VA = "0x44C7F00", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -47,7 +54,7 @@ internal sealed class GotoInstruction : IndexedBranchInstruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x6000625")]
-		[Address(RVA = "0x41A2E10", Offset = "0x41A2E10", VA = "0x41A2E10", Slot = "5")]
+		[Address(RVA = "0x44C7F10", Offset = "0x44C7F10", VA = "0x44C7F10", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -55,20 +62,20 @@ internal sealed class GotoInstruction : IndexedBranchInstruction
 	}
 
 	[Token(Token = "0x6000626")]
-	[Address(RVA = "0x41A2E20", Offset = "0x41A2E20", VA = "0x41A2E20")]
+	[Address(RVA = "0x44C7F20", Offset = "0x44C7F20", VA = "0x44C7F20")]
 	private GotoInstruction(int targetIndex, bool hasResult, bool hasValue, bool labelTargetGetsValue)
 	{
 	}
 
 	[Token(Token = "0x6000627")]
-	[Address(RVA = "0x41A2E60", Offset = "0x41A2E60", VA = "0x41A2E60")]
+	[Address(RVA = "0x44C7F60", Offset = "0x44C7F60", VA = "0x44C7F60")]
 	internal static GotoInstruction Create(int labelIndex, bool hasResult, bool hasValue, bool labelTargetGetsValue)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000628")]
-	[Address(RVA = "0x41A2FC0", Offset = "0x41A2FC0", VA = "0x41A2FC0", Slot = "8")]
+	[Address(RVA = "0x44C80C0", Offset = "0x44C80C0", VA = "0x44C80C0", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

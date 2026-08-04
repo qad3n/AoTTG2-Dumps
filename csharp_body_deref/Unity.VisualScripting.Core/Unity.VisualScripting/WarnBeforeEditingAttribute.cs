@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.WarnBeforeEditingAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -12,7 +19,7 @@ public sealed class WarnBeforeEditingAttribute : Attribute
 	public string warningTitle
 	{
 		[Token(Token = "0x6000212")]
-		[Address(RVA = "0x497F530", Offset = "0x497F530", VA = "0x497F530")]
+		[Address(RVA = "0x4CA4100", Offset = "0x4CA4100", VA = "0x4CA4100")]
 		[CompilerGenerated]
 		get
 		{
@@ -24,7 +31,7 @@ public sealed class WarnBeforeEditingAttribute : Attribute
 	public string warningMessage
 	{
 		[Token(Token = "0x6000213")]
-		[Address(RVA = "0x497F540", Offset = "0x497F540", VA = "0x497F540")]
+		[Address(RVA = "0x4CA4110", Offset = "0x4CA4110", VA = "0x4CA4110")]
 		[CompilerGenerated]
 		get
 		{
@@ -36,7 +43,7 @@ public sealed class WarnBeforeEditingAttribute : Attribute
 	public object[] emptyValues
 	{
 		[Token(Token = "0x6000214")]
-		[Address(RVA = "0x497F550", Offset = "0x497F550", VA = "0x497F550")]
+		[Address(RVA = "0x4CA4120", Offset = "0x4CA4120", VA = "0x4CA4120")]
 		[CompilerGenerated]
 		get
 		{
@@ -45,13 +52,13 @@ public sealed class WarnBeforeEditingAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000210")]
-	[Address(RVA = "0x497F490", Offset = "0x497F490", VA = "0x497F490")]
+	[Address(RVA = "0x4CA4060", Offset = "0x4CA4060", VA = "0x4CA4060")]
 	public WarnBeforeEditingAttribute(string warningTitle, string warningMessage)
 	{
 	}
 
 	[Token(Token = "0x6000211")]
-	[Address(RVA = "0x497F4D0", Offset = "0x497F4D0", VA = "0x497F4D0")]
+	[Address(RVA = "0x4CA40A0", Offset = "0x4CA40A0", VA = "0x4CA40A0")]
 	public WarnBeforeEditingAttribute(string warningTitle, string warningMessage, params object[] emptyValues)
 	{
 	}

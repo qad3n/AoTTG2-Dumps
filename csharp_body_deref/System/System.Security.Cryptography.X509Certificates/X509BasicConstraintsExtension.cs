@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
@@ -31,7 +38,7 @@ public sealed class X509BasicConstraintsExtension : X509Extension
 	public bool CertificateAuthority
 	{
 		[Token(Token = "0x6000568")]
-		[Address(RVA = "0x460D710", Offset = "0x460D710", VA = "0x460D710")]
+		[Address(RVA = "0x4932810", Offset = "0x4932810", VA = "0x4932810")]
 		get
 		{
 			return default(bool);
@@ -42,7 +49,7 @@ public sealed class X509BasicConstraintsExtension : X509Extension
 	public bool HasPathLengthConstraint
 	{
 		[Token(Token = "0x6000569")]
-		[Address(RVA = "0x460D770", Offset = "0x460D770", VA = "0x460D770")]
+		[Address(RVA = "0x4932870", Offset = "0x4932870", VA = "0x4932870")]
 		get
 		{
 			return default(bool);
@@ -53,7 +60,7 @@ public sealed class X509BasicConstraintsExtension : X509Extension
 	public int PathLengthConstraint
 	{
 		[Token(Token = "0x600056A")]
-		[Address(RVA = "0x460D7D0", Offset = "0x460D7D0", VA = "0x460D7D0")]
+		[Address(RVA = "0x49328D0", Offset = "0x49328D0", VA = "0x49328D0")]
 		get
 		{
 			return default(int);
@@ -61,45 +68,45 @@ public sealed class X509BasicConstraintsExtension : X509Extension
 	}
 
 	[Token(Token = "0x6000565")]
-	[Address(RVA = "0x460D1B0", Offset = "0x460D1B0", VA = "0x460D1B0")]
+	[Address(RVA = "0x49322B0", Offset = "0x49322B0", VA = "0x49322B0")]
 	public X509BasicConstraintsExtension()
 	{
 	}
 
 	[Token(Token = "0x6000566")]
-	[Address(RVA = "0x460B570", Offset = "0x460B570", VA = "0x460B570")]
+	[Address(RVA = "0x4930670", Offset = "0x4930670", VA = "0x4930670")]
 	public X509BasicConstraintsExtension(AsnEncodedData encodedBasicConstraints, bool critical)
 	{
 	}
 
 	[Token(Token = "0x6000567")]
-	[Address(RVA = "0x460D470", Offset = "0x460D470", VA = "0x460D470")]
+	[Address(RVA = "0x4932570", Offset = "0x4932570", VA = "0x4932570")]
 	public X509BasicConstraintsExtension(bool certificateAuthority, bool hasPathLengthConstraint, int pathLengthConstraint, bool critical)
 	{
 	}
 
 	[Token(Token = "0x600056B")]
-	[Address(RVA = "0x460D830", Offset = "0x460D830", VA = "0x460D830", Slot = "4")]
+	[Address(RVA = "0x4932930", Offset = "0x4932930", VA = "0x4932930", Slot = "4")]
 	public override void CopyFrom(AsnEncodedData asnEncodedData)
 	{
 	}
 
 	[Token(Token = "0x600056C")]
-	[Address(RVA = "0x460D270", Offset = "0x460D270", VA = "0x460D270")]
+	[Address(RVA = "0x4932370", Offset = "0x4932370", VA = "0x4932370")]
 	internal AsnDecodeStatus Decode(byte[] extension)
 	{
 		return default(AsnDecodeStatus);
 	}
 
 	[Token(Token = "0x600056D")]
-	[Address(RVA = "0x460D5B0", Offset = "0x460D5B0", VA = "0x460D5B0")]
+	[Address(RVA = "0x49326B0", Offset = "0x49326B0", VA = "0x49326B0")]
 	internal byte[] Encode()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600056E")]
-	[Address(RVA = "0x460DA00", Offset = "0x460DA00", VA = "0x460DA00", Slot = "6")]
+	[Address(RVA = "0x4932B00", Offset = "0x4932B00", VA = "0x4932B00", Slot = "6")]
 	internal override string ToString(bool multiLine)
 	{
 		return null;

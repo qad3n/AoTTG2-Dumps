@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Globalization.CultureData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -192,7 +199,7 @@ internal class CultureData
 	public static System.Globalization.CultureData Invariant
 	{
 		[Token(Token = "0x6002DA8")]
-		[Address(RVA = "0x4F7A030", Offset = "0x4F7A030", VA = "0x4F7A030")]
+		[Address(RVA = "0x3C5FB50", Offset = "0x3C5FB50", VA = "0x3C5FB50")]
 		get
 		{
 			return null;
@@ -203,7 +210,7 @@ internal class CultureData
 	internal string[] LongTimes
 	{
 		[Token(Token = "0x6002DAD")]
-		[Address(RVA = "0x4F7E8C0", Offset = "0x4F7E8C0", VA = "0x4F7E8C0")]
+		[Address(RVA = "0x3C643E0", Offset = "0x3C643E0", VA = "0x3C643E0")]
 		get
 		{
 			return null;
@@ -214,7 +221,7 @@ internal class CultureData
 	internal string[] ShortTimes
 	{
 		[Token(Token = "0x6002DAE")]
-		[Address(RVA = "0x4F7E8D0", Offset = "0x4F7E8D0", VA = "0x4F7E8D0")]
+		[Address(RVA = "0x3C643F0", Offset = "0x3C643F0", VA = "0x3C643F0")]
 		get
 		{
 			return null;
@@ -225,7 +232,7 @@ internal class CultureData
 	internal string SISO639LANGNAME
 	{
 		[Token(Token = "0x6002DAF")]
-		[Address(RVA = "0x4F7E8E0", Offset = "0x4F7E8E0", VA = "0x4F7E8E0")]
+		[Address(RVA = "0x3C64400", Offset = "0x3C64400", VA = "0x3C64400")]
 		get
 		{
 			return null;
@@ -236,7 +243,7 @@ internal class CultureData
 	internal int IFIRSTDAYOFWEEK
 	{
 		[Token(Token = "0x6002DB0")]
-		[Address(RVA = "0x4F7E8F0", Offset = "0x4F7E8F0", VA = "0x4F7E8F0")]
+		[Address(RVA = "0x3C64410", Offset = "0x3C64410", VA = "0x3C64410")]
 		get
 		{
 			return default(int);
@@ -247,7 +254,7 @@ internal class CultureData
 	internal int IFIRSTWEEKOFYEAR
 	{
 		[Token(Token = "0x6002DB1")]
-		[Address(RVA = "0x4F7E900", Offset = "0x4F7E900", VA = "0x4F7E900")]
+		[Address(RVA = "0x3C64420", Offset = "0x3C64420", VA = "0x3C64420")]
 		get
 		{
 			return default(int);
@@ -258,7 +265,7 @@ internal class CultureData
 	internal string SAM1159
 	{
 		[Token(Token = "0x6002DB2")]
-		[Address(RVA = "0x4F7E910", Offset = "0x4F7E910", VA = "0x4F7E910")]
+		[Address(RVA = "0x3C64430", Offset = "0x3C64430", VA = "0x3C64430")]
 		get
 		{
 			return null;
@@ -269,7 +276,7 @@ internal class CultureData
 	internal string SPM2359
 	{
 		[Token(Token = "0x6002DB3")]
-		[Address(RVA = "0x4F7E920", Offset = "0x4F7E920", VA = "0x4F7E920")]
+		[Address(RVA = "0x3C64440", Offset = "0x3C64440", VA = "0x3C64440")]
 		get
 		{
 			return null;
@@ -280,7 +287,7 @@ internal class CultureData
 	internal string TimeSeparator
 	{
 		[Token(Token = "0x6002DB4")]
-		[Address(RVA = "0x4F7E930", Offset = "0x4F7E930", VA = "0x4F7E930")]
+		[Address(RVA = "0x3C64450", Offset = "0x3C64450", VA = "0x3C64450")]
 		get
 		{
 			return null;
@@ -291,7 +298,7 @@ internal class CultureData
 	internal int[] CalendarIds
 	{
 		[Token(Token = "0x6002DB5")]
-		[Address(RVA = "0x4F7E940", Offset = "0x4F7E940", VA = "0x4F7E940")]
+		[Address(RVA = "0x3C64460", Offset = "0x3C64460", VA = "0x3C64460")]
 		get
 		{
 			return null;
@@ -302,7 +309,7 @@ internal class CultureData
 	internal bool IsInvariantCulture
 	{
 		[Token(Token = "0x6002DB7")]
-		[Address(RVA = "0x4F78560", Offset = "0x4F78560", VA = "0x4F78560")]
+		[Address(RVA = "0x3C5E080", Offset = "0x3C5E080", VA = "0x3C5E080")]
 		get
 		{
 			return default(bool);
@@ -313,7 +320,7 @@ internal class CultureData
 	internal string CultureName
 	{
 		[Token(Token = "0x6002DB8")]
-		[Address(RVA = "0x4F7EBD0", Offset = "0x4F7EBD0", VA = "0x4F7EBD0")]
+		[Address(RVA = "0x3C646F0", Offset = "0x3C646F0", VA = "0x3C646F0")]
 		get
 		{
 			return null;
@@ -324,7 +331,7 @@ internal class CultureData
 	internal string SCOMPAREINFO
 	{
 		[Token(Token = "0x6002DB9")]
-		[Address(RVA = "0x4F7EBE0", Offset = "0x4F7EBE0", VA = "0x4F7EBE0")]
+		[Address(RVA = "0x3C64700", Offset = "0x3C64700", VA = "0x3C64700")]
 		get
 		{
 			return null;
@@ -335,7 +342,7 @@ internal class CultureData
 	internal string STEXTINFO
 	{
 		[Token(Token = "0x6002DBA")]
-		[Address(RVA = "0x4F7EC10", Offset = "0x4F7EC10", VA = "0x4F7EC10")]
+		[Address(RVA = "0x3C64730", Offset = "0x3C64730", VA = "0x3C64730")]
 		get
 		{
 			return null;
@@ -346,7 +353,7 @@ internal class CultureData
 	internal bool UseUserOverride
 	{
 		[Token(Token = "0x6002DBB")]
-		[Address(RVA = "0x4F7EC20", Offset = "0x4F7EC20", VA = "0x4F7EC20")]
+		[Address(RVA = "0x3C64740", Offset = "0x3C64740", VA = "0x3C64740")]
 		get
 		{
 			return default(bool);
@@ -354,20 +361,20 @@ internal class CultureData
 	}
 
 	[Token(Token = "0x6002DA7")]
-	[Address(RVA = "0x4F7E510", Offset = "0x4F7E510", VA = "0x4F7E510")]
+	[Address(RVA = "0x3C64030", Offset = "0x3C64030", VA = "0x3C64030")]
 	private CultureData(string name)
 	{
 	}
 
 	[Token(Token = "0x6002DA9")]
-	[Address(RVA = "0x4F7E540", Offset = "0x4F7E540", VA = "0x4F7E540")]
+	[Address(RVA = "0x3C64060", Offset = "0x3C64060", VA = "0x3C64060")]
 	public static System.Globalization.CultureData GetCultureData(string cultureName, bool useUserOverride)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DAA")]
-	[Address(RVA = "0x4F7E620", Offset = "0x4F7E620", VA = "0x4F7E620")]
+	[Address(RVA = "0x3C64140", Offset = "0x3C64140", VA = "0x3C64140")]
 	public static System.Globalization.CultureData GetCultureData(string cultureName, bool useUserOverride, int datetimeIndex, int calendarId, int numberIndex, string iso2lang, int ansiCodePage, int oemCodePage, int macCodePage, int ebcdicCodePage, bool rightToLeft, string listSeparator)
 	{
 		return null;
@@ -375,199 +382,199 @@ internal class CultureData
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6002DAB")]
-	[Address(RVA = "0x4F7E780", Offset = "0x4F7E780", VA = "0x4F7E780")]
+	[Address(RVA = "0x3C642A0", Offset = "0x3C642A0", VA = "0x3C642A0")]
 	private extern void fill_culture_data(int datetimeIndex);
 
 	[Token(Token = "0x6002DAC")]
-	[Address(RVA = "0x4F7E790", Offset = "0x4F7E790", VA = "0x4F7E790")]
+	[Address(RVA = "0x3C642B0", Offset = "0x3C642B0", VA = "0x3C642B0")]
 	public System.Globalization.CalendarData GetCalendar(int calendarId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DB6")]
-	[Address(RVA = "0x4F7EB00", Offset = "0x4F7EB00", VA = "0x4F7EB00")]
+	[Address(RVA = "0x3C64620", Offset = "0x3C64620", VA = "0x3C64620")]
 	internal System.Globalization.CalendarId[] GetCalendarIds()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DBC")]
-	[Address(RVA = "0x4F7EC30", Offset = "0x4F7EC30", VA = "0x4F7EC30")]
+	[Address(RVA = "0x3C64750", Offset = "0x3C64750", VA = "0x3C64750")]
 	internal string[] EraNames(int calendarId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DBD")]
-	[Address(RVA = "0x4F7EC50", Offset = "0x4F7EC50", VA = "0x4F7EC50")]
+	[Address(RVA = "0x3C64770", Offset = "0x3C64770", VA = "0x3C64770")]
 	internal string[] AbbrevEraNames(int calendarId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DBE")]
-	[Address(RVA = "0x4F7EC70", Offset = "0x4F7EC70", VA = "0x4F7EC70")]
+	[Address(RVA = "0x3C64790", Offset = "0x3C64790", VA = "0x3C64790")]
 	internal string[] AbbreviatedEnglishEraNames(int calendarId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DBF")]
-	[Address(RVA = "0x4F7EC90", Offset = "0x4F7EC90", VA = "0x4F7EC90")]
+	[Address(RVA = "0x3C647B0", Offset = "0x3C647B0", VA = "0x3C647B0")]
 	internal string[] ShortDates(int calendarId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DC0")]
-	[Address(RVA = "0x4F7ECB0", Offset = "0x4F7ECB0", VA = "0x4F7ECB0")]
+	[Address(RVA = "0x3C647D0", Offset = "0x3C647D0", VA = "0x3C647D0")]
 	internal string[] LongDates(int calendarId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DC1")]
-	[Address(RVA = "0x4F7ECD0", Offset = "0x4F7ECD0", VA = "0x4F7ECD0")]
+	[Address(RVA = "0x3C647F0", Offset = "0x3C647F0", VA = "0x3C647F0")]
 	internal string[] YearMonths(int calendarId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DC2")]
-	[Address(RVA = "0x4F7ECF0", Offset = "0x4F7ECF0", VA = "0x4F7ECF0")]
+	[Address(RVA = "0x3C64810", Offset = "0x3C64810", VA = "0x3C64810")]
 	internal string[] DayNames(int calendarId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DC3")]
-	[Address(RVA = "0x4F7ED10", Offset = "0x4F7ED10", VA = "0x4F7ED10")]
+	[Address(RVA = "0x3C64830", Offset = "0x3C64830", VA = "0x3C64830")]
 	internal string[] AbbreviatedDayNames(int calendarId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DC4")]
-	[Address(RVA = "0x4F7ED30", Offset = "0x4F7ED30", VA = "0x4F7ED30")]
+	[Address(RVA = "0x3C64850", Offset = "0x3C64850", VA = "0x3C64850")]
 	internal string[] MonthNames(int calendarId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DC5")]
-	[Address(RVA = "0x4F7ED50", Offset = "0x4F7ED50", VA = "0x4F7ED50")]
+	[Address(RVA = "0x3C64870", Offset = "0x3C64870", VA = "0x3C64870")]
 	internal string[] GenitiveMonthNames(int calendarId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DC6")]
-	[Address(RVA = "0x4F7ED70", Offset = "0x4F7ED70", VA = "0x4F7ED70")]
+	[Address(RVA = "0x3C64890", Offset = "0x3C64890", VA = "0x3C64890")]
 	internal string[] AbbreviatedMonthNames(int calendarId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DC7")]
-	[Address(RVA = "0x4F7ED90", Offset = "0x4F7ED90", VA = "0x4F7ED90")]
+	[Address(RVA = "0x3C648B0", Offset = "0x3C648B0", VA = "0x3C648B0")]
 	internal string[] AbbreviatedGenitiveMonthNames(int calendarId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DC8")]
-	[Address(RVA = "0x4F7EDB0", Offset = "0x4F7EDB0", VA = "0x4F7EDB0")]
+	[Address(RVA = "0x3C648D0", Offset = "0x3C648D0", VA = "0x3C648D0")]
 	internal string[] LeapYearMonthNames(int calendarId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DC9")]
-	[Address(RVA = "0x4F7EDD0", Offset = "0x4F7EDD0", VA = "0x4F7EDD0")]
+	[Address(RVA = "0x3C648F0", Offset = "0x3C648F0", VA = "0x3C648F0")]
 	internal string MonthDay(int calendarId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DCA")]
-	[Address(RVA = "0x4F7EDF0", Offset = "0x4F7EDF0", VA = "0x4F7EDF0")]
+	[Address(RVA = "0x3C64910", Offset = "0x3C64910", VA = "0x3C64910")]
 	internal string DateSeparator(int calendarId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DCB")]
-	[Address(RVA = "0x4F7EEB0", Offset = "0x4F7EEB0", VA = "0x4F7EEB0")]
+	[Address(RVA = "0x3C649D0", Offset = "0x3C649D0", VA = "0x3C649D0")]
 	private static string GetDateSeparator(string format)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DCC")]
-	[Address(RVA = "0x4F7EEE0", Offset = "0x4F7EEE0", VA = "0x4F7EEE0")]
+	[Address(RVA = "0x3C64A00", Offset = "0x3C64A00", VA = "0x3C64A00")]
 	private static string GetSeparator(string format, string timeParts)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DCD")]
-	[Address(RVA = "0x4F7EFA0", Offset = "0x4F7EFA0", VA = "0x4F7EFA0")]
+	[Address(RVA = "0x3C64AC0", Offset = "0x3C64AC0", VA = "0x3C64AC0")]
 	private static int IndexOfTimePart(string format, int startIndex, string timeParts)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002DCE")]
-	[Address(RVA = "0x4F7F0C0", Offset = "0x4F7F0C0", VA = "0x4F7F0C0")]
+	[Address(RVA = "0x3C64BE0", Offset = "0x3C64BE0", VA = "0x3C64BE0")]
 	private static string UnescapeNlsString(string str, int start, int end)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DCF")]
-	[Address(RVA = "0x4F7F280", Offset = "0x4F7F280", VA = "0x4F7F280")]
+	[Address(RVA = "0x3C64DA0", Offset = "0x3C64DA0", VA = "0x3C64DA0")]
 	internal static string[] ReescapeWin32Strings(string[] array)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DD0")]
-	[Address(RVA = "0x4F7F290", Offset = "0x4F7F290", VA = "0x4F7F290")]
+	[Address(RVA = "0x3C64DB0", Offset = "0x3C64DB0", VA = "0x3C64DB0")]
 	internal static string ReescapeWin32String(string str)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DD1")]
-	[Address(RVA = "0x4F7F2A0", Offset = "0x4F7F2A0", VA = "0x4F7F2A0")]
+	[Address(RVA = "0x3C64DC0", Offset = "0x3C64DC0", VA = "0x3C64DC0")]
 	private unsafe static int strlen(byte* s)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002DD2")]
-	[Address(RVA = "0x4F7F2C0", Offset = "0x4F7F2C0", VA = "0x4F7F2C0")]
+	[Address(RVA = "0x3C64DE0", Offset = "0x3C64DE0", VA = "0x3C64DE0")]
 	private unsafe static string idx2string(byte* data, int idx)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DD3")]
-	[Address(RVA = "0x4F7F310", Offset = "0x4F7F310", VA = "0x4F7F310")]
+	[Address(RVA = "0x3C64E30", Offset = "0x3C64E30", VA = "0x3C64E30")]
 	private int[] create_group_sizes_array(int gs0, int gs1)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002DD4")]
-	[Address(RVA = "0x4F78030", Offset = "0x4F78030", VA = "0x4F78030")]
+	[Address(RVA = "0x3C5DB50", Offset = "0x3C5DB50", VA = "0x3C5DB50")]
 	internal void GetNFIValues(NumberFormatInfo nfi)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6002DD5")]
-	[Address(RVA = "0x4F7F3B0", Offset = "0x4F7F3B0", VA = "0x4F7F3B0")]
+	[Address(RVA = "0x3C64ED0", Offset = "0x3C64ED0", VA = "0x3C64ED0")]
 	private unsafe static extern byte* fill_number_data(int index, ref NumberFormatEntryManaged nfe);
 }

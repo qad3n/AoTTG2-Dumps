@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Threading.OSSpecificSynchronizationContext
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 using Mono.Interop;
@@ -22,13 +29,13 @@ internal class OSSpecificSynchronizationContext : SynchronizationContext
 		private object m_State;
 
 		[Token(Token = "0x6001280")]
-		[Address(RVA = "0x504F9D0", Offset = "0x504F9D0", VA = "0x504F9D0")]
+		[Address(RVA = "0x3D354F0", Offset = "0x3D354F0", VA = "0x3D354F0")]
 		public InvocationContext(SendOrPostCallback d, object state)
 		{
 		}
 
 		[Token(Token = "0x6001281")]
-		[Address(RVA = "0x504FA20", Offset = "0x504FA20", VA = "0x504FA20")]
+		[Address(RVA = "0x3D35540", Offset = "0x3D35540", VA = "0x3D35540")]
 		public void Invoke()
 		{
 		}
@@ -43,39 +50,39 @@ internal class OSSpecificSynchronizationContext : SynchronizationContext
 	private static readonly ConditionalWeakTable<object, System.Threading.OSSpecificSynchronizationContext> s_ContextCache;
 
 	[Token(Token = "0x6001275")]
-	[Address(RVA = "0x504F690", Offset = "0x504F690", VA = "0x504F690")]
+	[Address(RVA = "0x3D351B0", Offset = "0x3D351B0", VA = "0x3D351B0")]
 	private OSSpecificSynchronizationContext(object osContext)
 	{
 	}
 
 	[Token(Token = "0x6001276")]
-	[Address(RVA = "0x504F2B0", Offset = "0x504F2B0", VA = "0x504F2B0")]
+	[Address(RVA = "0x3D34DD0", Offset = "0x3D34DD0", VA = "0x3D34DD0")]
 	public static System.Threading.OSSpecificSynchronizationContext Get()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001277")]
-	[Address(RVA = "0x504F6D0", Offset = "0x504F6D0", VA = "0x504F6D0", Slot = "9")]
+	[Address(RVA = "0x3D351F0", Offset = "0x3D351F0", VA = "0x3D351F0", Slot = "9")]
 	public override SynchronizationContext CreateCopy()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001278")]
-	[Address(RVA = "0x504F730", Offset = "0x504F730", VA = "0x504F730", Slot = "4")]
+	[Address(RVA = "0x3D35250", Offset = "0x3D35250", VA = "0x3D35250", Slot = "4")]
 	public override void Send(SendOrPostCallback d, object state)
 	{
 	}
 
 	[Token(Token = "0x6001279")]
-	[Address(RVA = "0x504F770", Offset = "0x504F770", VA = "0x504F770", Slot = "5")]
+	[Address(RVA = "0x3D35290", Offset = "0x3D35290", VA = "0x3D35290", Slot = "5")]
 	public override void Post(SendOrPostCallback d, object state)
 	{
 	}
 
 	[Token(Token = "0x600127A")]
-	[Address(RVA = "0x504F4C0", Offset = "0x504F4C0", VA = "0x504F4C0")]
+	[Address(RVA = "0x3D34FE0", Offset = "0x3D34FE0", VA = "0x3D34FE0")]
 	[Mono.Interop.MonoPInvokeCallback(typeof(InvocationEntryDelegate))]
 	private static void InvocationEntry(IntPtr arg)
 	{
@@ -83,11 +90,11 @@ internal class OSSpecificSynchronizationContext : SynchronizationContext
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600127B")]
-	[Address(RVA = "0x504F6C0", Offset = "0x504F6C0", VA = "0x504F6C0")]
+	[Address(RVA = "0x3D351E0", Offset = "0x3D351E0", VA = "0x3D351E0")]
 	private static extern object GetOSContext();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600127C")]
-	[Address(RVA = "0x504FA10", Offset = "0x504FA10", VA = "0x504FA10")]
+	[Address(RVA = "0x3D35530", Offset = "0x3D35530", VA = "0x3D35530")]
 	private static extern void PostInternal(object osSynchronizationContext, IntPtr callback, IntPtr arg);
 }

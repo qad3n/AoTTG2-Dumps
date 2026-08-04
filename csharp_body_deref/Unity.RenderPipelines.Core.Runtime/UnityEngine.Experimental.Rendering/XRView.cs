@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Experimental.Rendering.XRView
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.Experimental.Rendering;
@@ -30,13 +37,13 @@ internal readonly struct XRView
 	internal readonly Vector2 eyeCenterUV;
 
 	[Token(Token = "0x6000328")]
-	[Address(RVA = "0x4855540", Offset = "0x4855540", VA = "0x4855540")]
+	[Address(RVA = "0x4B7A630", Offset = "0x4B7A630", VA = "0x4B7A630")]
 	internal XRView(Matrix4x4 projMatrix, Matrix4x4 viewMatrix, Rect viewport, Mesh occlusionMesh, int textureArraySlice)
 	{
 	}
 
 	[Token(Token = "0x6000329")]
-	[Address(RVA = "0x4855890", Offset = "0x4855890", VA = "0x4855890")]
+	[Address(RVA = "0x4B7A980", Offset = "0x4B7A980", VA = "0x4B7A980")]
 	private static Vector2 ComputeEyeCenterUV(Matrix4x4 proj)
 	{
 		return default(Vector2);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.Sockets.TcpClient
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Threading.Tasks;
 using Il2CppDummyDll;
 
@@ -30,89 +37,89 @@ public class TcpClient : IDisposable
 	public Socket Client
 	{
 		[Token(Token = "0x6000CCF")]
-		[Address(RVA = "0x4692900", Offset = "0x4692900", VA = "0x4692900")]
+		[Address(RVA = "0x49B7A00", Offset = "0x49B7A00", VA = "0x49B7A00")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000CD0")]
-		[Address(RVA = "0x4692910", Offset = "0x4692910", VA = "0x4692910")]
+		[Address(RVA = "0x49B7A10", Offset = "0x49B7A10", VA = "0x49B7A10")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000CCD")]
-	[Address(RVA = "0x4692710", Offset = "0x4692710", VA = "0x4692710")]
+	[Address(RVA = "0x49B7810", Offset = "0x49B7810", VA = "0x49B7810")]
 	public TcpClient()
 	{
 	}
 
 	[Token(Token = "0x6000CCE")]
-	[Address(RVA = "0x4692730", Offset = "0x4692730", VA = "0x4692730")]
+	[Address(RVA = "0x49B7830", Offset = "0x49B7830", VA = "0x49B7830")]
 	public TcpClient(AddressFamily family)
 	{
 	}
 
 	[Token(Token = "0x6000CD1")]
-	[Address(RVA = "0x4692920", Offset = "0x4692920", VA = "0x4692920")]
+	[Address(RVA = "0x49B7A20", Offset = "0x49B7A20", VA = "0x49B7A20")]
 	public void Connect(string hostname, int port)
 	{
 	}
 
 	[Token(Token = "0x6000CD2")]
-	[Address(RVA = "0x4693080", Offset = "0x4693080", VA = "0x4693080")]
+	[Address(RVA = "0x49B8180", Offset = "0x49B8180", VA = "0x49B8180")]
 	public void Connect(IPEndPoint remoteEP)
 	{
 	}
 
 	[Token(Token = "0x6000CD3")]
-	[Address(RVA = "0x4693170", Offset = "0x4693170", VA = "0x4693170")]
+	[Address(RVA = "0x49B8270", Offset = "0x49B8270", VA = "0x49B8270")]
 	public IAsyncResult BeginConnect(string host, int port, AsyncCallback requestCallback, object state)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CD4")]
-	[Address(RVA = "0x46931D0", Offset = "0x46931D0", VA = "0x46931D0")]
+	[Address(RVA = "0x49B82D0", Offset = "0x49B82D0", VA = "0x49B82D0")]
 	public void EndConnect(IAsyncResult asyncResult)
 	{
 	}
 
 	[Token(Token = "0x6000CD5")]
-	[Address(RVA = "0x4693210", Offset = "0x4693210", VA = "0x4693210")]
+	[Address(RVA = "0x49B8310", Offset = "0x49B8310", VA = "0x49B8310")]
 	public Task ConnectAsync(string host, int port)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CD6")]
-	[Address(RVA = "0x46933B0", Offset = "0x46933B0", VA = "0x46933B0")]
+	[Address(RVA = "0x49B84B0", Offset = "0x49B84B0", VA = "0x49B84B0")]
 	public NetworkStream GetStream()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CD7")]
-	[Address(RVA = "0x46934F0", Offset = "0x46934F0", VA = "0x46934F0", Slot = "5")]
+	[Address(RVA = "0x49B85F0", Offset = "0x49B85F0", VA = "0x49B85F0", Slot = "5")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6000CD8")]
-	[Address(RVA = "0x46936C0", Offset = "0x46936C0", VA = "0x46936C0", Slot = "4")]
+	[Address(RVA = "0x49B87C0", Offset = "0x49B87C0", VA = "0x49B87C0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000CD9")]
-	[Address(RVA = "0x46936E0", Offset = "0x46936E0", VA = "0x46936E0", Slot = "1")]
+	[Address(RVA = "0x49B87E0", Offset = "0x49B87E0", VA = "0x49B87E0", Slot = "1")]
 	~TcpClient()
 	{
 	}
 
 	[Token(Token = "0x6000CDA")]
-	[Address(RVA = "0x4692890", Offset = "0x4692890", VA = "0x4692890")]
+	[Address(RVA = "0x49B7990", Offset = "0x49B7990", VA = "0x49B7990")]
 	private void initialize()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UIR.EntryProcessor
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -185,14 +192,14 @@ internal class EntryProcessor
 	public RenderChainCommand firstHeadCommand
 	{
 		[Token(Token = "0x6001C93")]
-		[Address(RVA = "0x4C5F690", Offset = "0x4C5F690", VA = "0x4C5F690")]
+		[Address(RVA = "0x4F86FC0", Offset = "0x4F86FC0", VA = "0x4F86FC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001C94")]
-		[Address(RVA = "0x4C5F6A0", Offset = "0x4C5F6A0", VA = "0x4C5F6A0")]
+		[Address(RVA = "0x4F86FD0", Offset = "0x4F86FD0", VA = "0x4F86FD0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -203,14 +210,14 @@ internal class EntryProcessor
 	public RenderChainCommand lastHeadCommand
 	{
 		[Token(Token = "0x6001C95")]
-		[Address(RVA = "0x4C5F6C0", Offset = "0x4C5F6C0", VA = "0x4C5F6C0")]
+		[Address(RVA = "0x4F86FF0", Offset = "0x4F86FF0", VA = "0x4F86FF0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001C96")]
-		[Address(RVA = "0x4C5F6D0", Offset = "0x4C5F6D0", VA = "0x4C5F6D0")]
+		[Address(RVA = "0x4F87000", Offset = "0x4F87000", VA = "0x4F87000")]
 		[CompilerGenerated]
 		private set
 		{
@@ -221,14 +228,14 @@ internal class EntryProcessor
 	public RenderChainCommand firstTailCommand
 	{
 		[Token(Token = "0x6001C97")]
-		[Address(RVA = "0x4C5F6F0", Offset = "0x4C5F6F0", VA = "0x4C5F6F0")]
+		[Address(RVA = "0x4F87020", Offset = "0x4F87020", VA = "0x4F87020")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001C98")]
-		[Address(RVA = "0x4C5F700", Offset = "0x4C5F700", VA = "0x4C5F700")]
+		[Address(RVA = "0x4F87030", Offset = "0x4F87030", VA = "0x4F87030")]
 		[CompilerGenerated]
 		private set
 		{
@@ -239,14 +246,14 @@ internal class EntryProcessor
 	public RenderChainCommand lastTailCommand
 	{
 		[Token(Token = "0x6001C99")]
-		[Address(RVA = "0x4C5F720", Offset = "0x4C5F720", VA = "0x4C5F720")]
+		[Address(RVA = "0x4F87050", Offset = "0x4F87050", VA = "0x4F87050")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001C9A")]
-		[Address(RVA = "0x4C5F730", Offset = "0x4C5F730", VA = "0x4C5F730")]
+		[Address(RVA = "0x4F87060", Offset = "0x4F87060", VA = "0x4F87060")]
 		[CompilerGenerated]
 		private set
 		{
@@ -254,43 +261,43 @@ internal class EntryProcessor
 	}
 
 	[Token(Token = "0x6001C9B")]
-	[Address(RVA = "0x4C5F750", Offset = "0x4C5F750", VA = "0x4C5F750")]
+	[Address(RVA = "0x4F87080", Offset = "0x4F87080", VA = "0x4F87080")]
 	public void Init(Entry root, RenderChain renderChain, VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x6001C9C")]
-	[Address(RVA = "0x4C5FFE0", Offset = "0x4C5FFE0", VA = "0x4C5FFE0")]
+	[Address(RVA = "0x4F87910", Offset = "0x4F87910", VA = "0x4F87910")]
 	public void ProcessHead(ref ChainBuilderStats stats)
 	{
 	}
 
 	[Token(Token = "0x6001C9D")]
-	[Address(RVA = "0x4C61210", Offset = "0x4C61210", VA = "0x4C61210")]
+	[Address(RVA = "0x4F88B40", Offset = "0x4F88B40", VA = "0x4F88B40")]
 	public void ProcessTail(ref ChainBuilderStats stats)
 	{
 	}
 
 	[Token(Token = "0x6001C9E")]
-	[Address(RVA = "0x4C602E0", Offset = "0x4C602E0", VA = "0x4C602E0")]
+	[Address(RVA = "0x4F87C10", Offset = "0x4F87C10", VA = "0x4F87C10")]
 	private void ProcessRange(int first, int last)
 	{
 	}
 
 	[Token(Token = "0x6001C9F")]
-	[Address(RVA = "0x4C613F0", Offset = "0x4C613F0", VA = "0x4C613F0")]
+	[Address(RVA = "0x4F88D20", Offset = "0x4F88D20", VA = "0x4F88D20")]
 	private void ProcessMeshEntry(Entry entry, TextureId textureId)
 	{
 	}
 
 	[Token(Token = "0x6001CA0")]
-	[Address(RVA = "0x4C61F60", Offset = "0x4C61F60", VA = "0x4C61F60")]
+	[Address(RVA = "0x4F89890", Offset = "0x4F89890", VA = "0x4F89890")]
 	private void DrawReverseMask()
 	{
 	}
 
 	[Token(Token = "0x6001CA1")]
-	[Address(RVA = "0x4C62770", Offset = "0x4C62770", VA = "0x4C62770")]
+	[Address(RVA = "0x4F8A0A0", Offset = "0x4F8A0A0", VA = "0x4F8A0A0")]
 	private RenderChainCommand CreateMeshDrawCommand(MeshHandle mesh, int indexCount, int indexOffset, Material material, TextureId texture)
 	{
 		return null;
@@ -298,39 +305,39 @@ internal class EntryProcessor
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001CA2")]
-	[Address(RVA = "0x4C62900", Offset = "0x4C62900", VA = "0x4C62900")]
+	[Address(RVA = "0x4F8A230", Offset = "0x4F8A230", VA = "0x4F8A230")]
 	private void AppendCommand(RenderChainCommand next)
 	{
 	}
 
 	[Token(Token = "0x6001CA3")]
-	[Address(RVA = "0x4C60120", Offset = "0x4C60120", VA = "0x4C60120")]
+	[Address(RVA = "0x4F87A50", Offset = "0x4F87A50", VA = "0x4F87A50")]
 	private void ProcessFirstAlloc(List<EntryPreProcessor.AllocSize> allocList, ref MeshHandle mesh, ref ChainBuilderStats stats)
 	{
 	}
 
 	[Token(Token = "0x6001CA4")]
-	[Address(RVA = "0x4C62990", Offset = "0x4C62990", VA = "0x4C62990")]
+	[Address(RVA = "0x4F8A2C0", Offset = "0x4F8A2C0", VA = "0x4F8A2C0")]
 	private static void UpdateOrAllocate(ref MeshHandle data, int vertexCount, int indexCount, UIRenderDevice device, out NativeSlice<Vertex> verts, out NativeSlice<ushort> indices, out ushort indexOffset, ref ChainBuilderStats stats)
 	{
 	}
 
 	[Token(Token = "0x6001CA5")]
-	[Address(RVA = "0x4C62A90", Offset = "0x4C62A90", VA = "0x4C62A90")]
+	[Address(RVA = "0x4F8A3C0", Offset = "0x4F8A3C0", VA = "0x4F8A3C0")]
 	private static Material CreateBlitShader(float colorConversion)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001CA6")]
-	[Address(RVA = "0x4C62450", Offset = "0x4C62450", VA = "0x4C62450")]
+	[Address(RVA = "0x4F89D80", Offset = "0x4F89D80", VA = "0x4F89D80")]
 	private static Material GetBlitMaterial(VisualElement.RenderTargetMode mode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001CA7")]
-	[Address(RVA = "0x4C62C90", Offset = "0x4C62C90", VA = "0x4C62C90")]
+	[Address(RVA = "0x4F8A5C0", Offset = "0x4F8A5C0", VA = "0x4F8A5C0")]
 	public EntryProcessor()
 	{
 	}

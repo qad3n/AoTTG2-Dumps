@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.UnsafeNclNativeMethods
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Security;
 using Il2CppDummyDll;
 
@@ -17,7 +24,7 @@ internal static class UnsafeNclNativeMethods
 			private static string[] m_Strings;
 
 			[Token(Token = "0x600096A")]
-			[Address(RVA = "0x463B940", Offset = "0x463B940", VA = "0x463B940")]
+			[Address(RVA = "0x4960A40", Offset = "0x4960A40", VA = "0x4960A40")]
 			internal static string ToString(int position)
 			{
 				return null;
@@ -33,14 +40,14 @@ internal static class UnsafeNclNativeMethods
 	internal static class SecureStringHelper
 	{
 		[Token(Token = "0x600096C")]
-		[Address(RVA = "0x4656D50", Offset = "0x4656D50", VA = "0x4656D50")]
+		[Address(RVA = "0x497BE50", Offset = "0x497BE50", VA = "0x497BE50")]
 		internal static string CreateString(SecureString secureString)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600096D")]
-		[Address(RVA = "0x4656EA0", Offset = "0x4656EA0", VA = "0x4656EA0")]
+		[Address(RVA = "0x497BFA0", Offset = "0x497BFA0", VA = "0x497BFA0")]
 		internal static SecureString CreateSecureString(string plainString)
 		{
 			return null;

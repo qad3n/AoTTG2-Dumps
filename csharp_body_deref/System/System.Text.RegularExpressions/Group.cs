@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.RegularExpressions.Group
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -32,7 +39,7 @@ public class Group : Capture
 	public bool Success
 	{
 		[Token(Token = "0x60002BF")]
-		[Address(RVA = "0x45DC800", Offset = "0x45DC800", VA = "0x45DC800")]
+		[Address(RVA = "0x4901900", Offset = "0x4901900", VA = "0x4901900")]
 		get
 		{
 			return default(bool);
@@ -40,13 +47,13 @@ public class Group : Capture
 	}
 
 	[Token(Token = "0x60002BE")]
-	[Address(RVA = "0x45DC740", Offset = "0x45DC740", VA = "0x45DC740")]
+	[Address(RVA = "0x4901840", Offset = "0x4901840", VA = "0x4901840")]
 	internal Group(string text, int[] caps, int capcount, string name)
 	{
 	}
 
 	[Token(Token = "0x60002C1")]
-	[Address(RVA = "0x45DC9A0", Offset = "0x45DC9A0", VA = "0x45DC9A0")]
+	[Address(RVA = "0x4901AA0", Offset = "0x4901AA0", VA = "0x4901AA0")]
 	internal Group()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.DataView
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,20 +26,20 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 		internal static readonly DataRowReferenceComparer s_default;
 
 		[Token(Token = "0x600053A")]
-		[Address(RVA = "0x425A7D0", Offset = "0x425A7D0", VA = "0x425A7D0")]
+		[Address(RVA = "0x4597F30", Offset = "0x4597F30", VA = "0x4597F30")]
 		private DataRowReferenceComparer()
 		{
 		}
 
 		[Token(Token = "0x600053B")]
-		[Address(RVA = "0x425A7E0", Offset = "0x425A7E0", VA = "0x425A7E0", Slot = "4")]
+		[Address(RVA = "0x4597F40", Offset = "0x4597F40", VA = "0x4597F40", Slot = "4")]
 		public bool Equals(DataRow x, DataRow y)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600053C")]
-		[Address(RVA = "0x425A7F0", Offset = "0x425A7F0", VA = "0x425A7F0", Slot = "5")]
+		[Address(RVA = "0x4597F50", Offset = "0x4597F50", VA = "0x4597F50", Slot = "5")]
 		public int GetHashCode(DataRow obj)
 		{
 			return default(int);
@@ -164,7 +171,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	public bool AllowDelete
 	{
 		[Token(Token = "0x60004D4")]
-		[Address(RVA = "0x4255350", Offset = "0x4255350", VA = "0x4255350")]
+		[Address(RVA = "0x4592AB0", Offset = "0x4592AB0", VA = "0x4592AB0")]
 		get
 		{
 			return default(bool);
@@ -176,7 +183,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	public bool AllowEdit
 	{
 		[Token(Token = "0x60004D5")]
-		[Address(RVA = "0x4255360", Offset = "0x4255360", VA = "0x4255360")]
+		[Address(RVA = "0x4592AC0", Offset = "0x4592AC0", VA = "0x4592AC0")]
 		get
 		{
 			return default(bool);
@@ -188,7 +195,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	public bool AllowNew
 	{
 		[Token(Token = "0x60004D6")]
-		[Address(RVA = "0x4255370", Offset = "0x4255370", VA = "0x4255370")]
+		[Address(RVA = "0x4592AD0", Offset = "0x4592AD0", VA = "0x4592AD0")]
 		get
 		{
 			return default(bool);
@@ -200,7 +207,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	public int Count
 	{
 		[Token(Token = "0x60004D7")]
-		[Address(RVA = "0x4255380", Offset = "0x4255380", VA = "0x4255380", Slot = "52")]
+		[Address(RVA = "0x4592AE0", Offset = "0x4592AE0", VA = "0x4592AE0", Slot = "52")]
 		get
 		{
 			return default(int);
@@ -211,7 +218,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	private int CountFromIndex
 	{
 		[Token(Token = "0x60004D8")]
-		[Address(RVA = "0x42553D0", Offset = "0x42553D0", VA = "0x42553D0")]
+		[Address(RVA = "0x4592B30", Offset = "0x4592B30", VA = "0x4592B30")]
 		get
 		{
 			return default(int);
@@ -223,7 +230,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	public DataViewManager DataViewManager
 	{
 		[Token(Token = "0x60004D9")]
-		[Address(RVA = "0x42553F0", Offset = "0x42553F0", VA = "0x42553F0")]
+		[Address(RVA = "0x4592B50", Offset = "0x4592B50", VA = "0x4592B50")]
 		get
 		{
 			return null;
@@ -235,7 +242,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	public bool IsInitialized
 	{
 		[Token(Token = "0x60004DA")]
-		[Address(RVA = "0x4255400", Offset = "0x4255400", VA = "0x4255400", Slot = "58")]
+		[Address(RVA = "0x4592B60", Offset = "0x4592B60", VA = "0x4592B60", Slot = "58")]
 		get
 		{
 			return default(bool);
@@ -247,7 +254,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	protected bool IsOpen
 	{
 		[Token(Token = "0x60004DB")]
-		[Address(RVA = "0x4255410", Offset = "0x4255410", VA = "0x4255410")]
+		[Address(RVA = "0x4592B70", Offset = "0x4592B70", VA = "0x4592B70")]
 		get
 		{
 			return default(bool);
@@ -258,7 +265,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	private bool System_002ECollections_002EICollection_002EIsSynchronized
 	{
 		[Token(Token = "0x60004DC")]
-		[Address(RVA = "0x4255420", Offset = "0x4255420", VA = "0x4255420", Slot = "54")]
+		[Address(RVA = "0x4592B80", Offset = "0x4592B80", VA = "0x4592B80", Slot = "54")]
 		get
 		{
 			return default(bool);
@@ -270,13 +277,13 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	public virtual string RowFilter
 	{
 		[Token(Token = "0x60004DD")]
-		[Address(RVA = "0x4255430", Offset = "0x4255430", VA = "0x4255430", Slot = "63")]
+		[Address(RVA = "0x4592B90", Offset = "0x4592B90", VA = "0x4592B90", Slot = "63")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60004DE")]
-		[Address(RVA = "0x4255490", Offset = "0x4255490", VA = "0x4255490", Slot = "64")]
+		[Address(RVA = "0x4592BF0", Offset = "0x4592BF0", VA = "0x4592BF0", Slot = "64")]
 		set
 		{
 		}
@@ -287,13 +294,13 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	public DataViewRowState RowStateFilter
 	{
 		[Token(Token = "0x60004DF")]
-		[Address(RVA = "0x42556A0", Offset = "0x42556A0", VA = "0x42556A0")]
+		[Address(RVA = "0x4592E00", Offset = "0x4592E00", VA = "0x4592E00")]
 		get
 		{
 			return default(DataViewRowState);
 		}
 		[Token(Token = "0x60004E0")]
-		[Address(RVA = "0x42556B0", Offset = "0x42556B0", VA = "0x42556B0")]
+		[Address(RVA = "0x4592E10", Offset = "0x4592E10", VA = "0x4592E10")]
 		set
 		{
 		}
@@ -304,13 +311,13 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	public string Sort
 	{
 		[Token(Token = "0x60004E1")]
-		[Address(RVA = "0x42557F0", Offset = "0x42557F0", VA = "0x42557F0")]
+		[Address(RVA = "0x4592F50", Offset = "0x4592F50", VA = "0x4592F50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60004E2")]
-		[Address(RVA = "0x4255840", Offset = "0x4255840", VA = "0x4255840")]
+		[Address(RVA = "0x4592FA0", Offset = "0x4592FA0", VA = "0x4592FA0")]
 		set
 		{
 		}
@@ -320,7 +327,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	internal Comparison<DataRow> SortComparison
 	{
 		[Token(Token = "0x60004E3")]
-		[Address(RVA = "0x4255A80", Offset = "0x4255A80", VA = "0x4255A80")]
+		[Address(RVA = "0x45931E0", Offset = "0x45931E0", VA = "0x45931E0")]
 		get
 		{
 			return null;
@@ -331,7 +338,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	private object System_002ECollections_002EICollection_002ESyncRoot
 	{
 		[Token(Token = "0x60004E4")]
-		[Address(RVA = "0x4255A90", Offset = "0x4255A90", VA = "0x4255A90", Slot = "53")]
+		[Address(RVA = "0x45931F0", Offset = "0x45931F0", VA = "0x45931F0", Slot = "53")]
 		get
 		{
 			return null;
@@ -345,13 +352,13 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	public DataTable Table
 	{
 		[Token(Token = "0x60004E5")]
-		[Address(RVA = "0x4255AA0", Offset = "0x4255AA0", VA = "0x4255AA0")]
+		[Address(RVA = "0x4593200", Offset = "0x4593200", VA = "0x4593200")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60004E6")]
-		[Address(RVA = "0x4255AB0", Offset = "0x4255AB0", VA = "0x4255AB0")]
+		[Address(RVA = "0x4593210", Offset = "0x4593210", VA = "0x4593210")]
 		set
 		{
 		}
@@ -361,13 +368,13 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	private object System_002ECollections_002EIList_002EItem
 	{
 		[Token(Token = "0x60004E7")]
-		[Address(RVA = "0x4255D50", Offset = "0x4255D50", VA = "0x4255D50", Slot = "40")]
+		[Address(RVA = "0x45934B0", Offset = "0x45934B0", VA = "0x45934B0", Slot = "40")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60004E8")]
-		[Address(RVA = "0x4255E10", Offset = "0x4255E10", VA = "0x4255E10", Slot = "41")]
+		[Address(RVA = "0x4593570", Offset = "0x4593570", VA = "0x4593570", Slot = "41")]
 		set
 		{
 		}
@@ -377,7 +384,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	public DataRowView this[int recordIndex]
 	{
 		[Token(Token = "0x60004E9")]
-		[Address(RVA = "0x4255DB0", Offset = "0x4255DB0", VA = "0x4255DB0")]
+		[Address(RVA = "0x4593510", Offset = "0x4593510", VA = "0x4593510")]
 		get
 		{
 			return null;
@@ -388,7 +395,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	private bool System_002ECollections_002EIList_002EIsReadOnly
 	{
 		[Token(Token = "0x60004F7")]
-		[Address(RVA = "0x4257110", Offset = "0x4257110", VA = "0x4257110", Slot = "45")]
+		[Address(RVA = "0x4594870", Offset = "0x4594870", VA = "0x4594870", Slot = "45")]
 		get
 		{
 			return default(bool);
@@ -399,7 +406,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	private bool System_002ECollections_002EIList_002EIsFixedSize
 	{
 		[Token(Token = "0x60004F8")]
-		[Address(RVA = "0x4257120", Offset = "0x4257120", VA = "0x4257120", Slot = "46")]
+		[Address(RVA = "0x4594880", Offset = "0x4594880", VA = "0x4594880", Slot = "46")]
 		get
 		{
 			return default(bool);
@@ -410,7 +417,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	private bool System_002EComponentModel_002EIBindingList_002EAllowNew
 	{
 		[Token(Token = "0x6000503")]
-		[Address(RVA = "0x4257670", Offset = "0x4257670", VA = "0x4257670", Slot = "23")]
+		[Address(RVA = "0x4594DD0", Offset = "0x4594DD0", VA = "0x4594DD0", Slot = "23")]
 		get
 		{
 			return default(bool);
@@ -421,7 +428,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	private bool System_002EComponentModel_002EIBindingList_002EAllowEdit
 	{
 		[Token(Token = "0x6000505")]
-		[Address(RVA = "0x42576A0", Offset = "0x42576A0", VA = "0x42576A0", Slot = "25")]
+		[Address(RVA = "0x4594E00", Offset = "0x4594E00", VA = "0x4594E00", Slot = "25")]
 		get
 		{
 			return default(bool);
@@ -432,7 +439,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	private bool System_002EComponentModel_002EIBindingList_002EAllowRemove
 	{
 		[Token(Token = "0x6000506")]
-		[Address(RVA = "0x42576B0", Offset = "0x42576B0", VA = "0x42576B0", Slot = "26")]
+		[Address(RVA = "0x4594E10", Offset = "0x4594E10", VA = "0x4594E10", Slot = "26")]
 		get
 		{
 			return default(bool);
@@ -443,7 +450,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	private bool System_002EComponentModel_002EIBindingList_002ESupportsChangeNotification
 	{
 		[Token(Token = "0x6000507")]
-		[Address(RVA = "0x42576C0", Offset = "0x42576C0", VA = "0x42576C0", Slot = "27")]
+		[Address(RVA = "0x4594E20", Offset = "0x4594E20", VA = "0x4594E20", Slot = "27")]
 		get
 		{
 			return default(bool);
@@ -454,7 +461,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	private bool System_002EComponentModel_002EIBindingList_002ESupportsSearching
 	{
 		[Token(Token = "0x6000508")]
-		[Address(RVA = "0x42576D0", Offset = "0x42576D0", VA = "0x42576D0", Slot = "28")]
+		[Address(RVA = "0x4594E30", Offset = "0x4594E30", VA = "0x4594E30", Slot = "28")]
 		get
 		{
 			return default(bool);
@@ -465,7 +472,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	private bool System_002EComponentModel_002EIBindingList_002ESupportsSorting
 	{
 		[Token(Token = "0x6000509")]
-		[Address(RVA = "0x42576E0", Offset = "0x42576E0", VA = "0x42576E0", Slot = "29")]
+		[Address(RVA = "0x4594E40", Offset = "0x4594E40", VA = "0x4594E40", Slot = "29")]
 		get
 		{
 			return default(bool);
@@ -476,7 +483,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	private bool System_002EComponentModel_002EIBindingList_002EIsSorted
 	{
 		[Token(Token = "0x600050A")]
-		[Address(RVA = "0x42576F0", Offset = "0x42576F0", VA = "0x42576F0", Slot = "30")]
+		[Address(RVA = "0x4594E50", Offset = "0x4594E50", VA = "0x4594E50", Slot = "30")]
 		get
 		{
 			return default(bool);
@@ -487,7 +494,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	private PropertyDescriptor System_002EComponentModel_002EIBindingList_002ESortProperty
 	{
 		[Token(Token = "0x600050B")]
-		[Address(RVA = "0x4257740", Offset = "0x4257740", VA = "0x4257740", Slot = "31")]
+		[Address(RVA = "0x4594EA0", Offset = "0x4594EA0", VA = "0x4594EA0", Slot = "31")]
 		get
 		{
 			return null;
@@ -498,7 +505,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	private ListSortDirection System_002EComponentModel_002EIBindingList_002ESortDirection
 	{
 		[Token(Token = "0x600050D")]
-		[Address(RVA = "0x4257840", Offset = "0x4257840", VA = "0x4257840", Slot = "32")]
+		[Address(RVA = "0x4594FA0", Offset = "0x4594FA0", VA = "0x4594FA0", Slot = "32")]
 		get
 		{
 			return default(ListSortDirection);
@@ -509,13 +516,13 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	private string System_002EComponentModel_002EIBindingListView_002EFilter
 	{
 		[Token(Token = "0x600051A")]
-		[Address(RVA = "0x4258930", Offset = "0x4258930", VA = "0x4258930", Slot = "17")]
+		[Address(RVA = "0x4596090", Offset = "0x4596090", VA = "0x4596090", Slot = "17")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600051B")]
-		[Address(RVA = "0x4258950", Offset = "0x4258950", VA = "0x4258950", Slot = "18")]
+		[Address(RVA = "0x45960B0", Offset = "0x45960B0", VA = "0x45960B0", Slot = "18")]
 		set
 		{
 		}
@@ -525,7 +532,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	private ListSortDescriptionCollection System_002EComponentModel_002EIBindingListView_002ESortDescriptions
 	{
 		[Token(Token = "0x600051C")]
-		[Address(RVA = "0x4258970", Offset = "0x4258970", VA = "0x4258970", Slot = "19")]
+		[Address(RVA = "0x45960D0", Offset = "0x45960D0", VA = "0x45960D0", Slot = "19")]
 		get
 		{
 			return null;
@@ -536,7 +543,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	private bool System_002EComponentModel_002EIBindingListView_002ESupportsAdvancedSorting
 	{
 		[Token(Token = "0x600051E")]
-		[Address(RVA = "0x4258D00", Offset = "0x4258D00", VA = "0x4258D00", Slot = "21")]
+		[Address(RVA = "0x4596460", Offset = "0x4596460", VA = "0x4596460", Slot = "21")]
 		get
 		{
 			return default(bool);
@@ -547,7 +554,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	private bool System_002EComponentModel_002EIBindingListView_002ESupportsFiltering
 	{
 		[Token(Token = "0x600051F")]
-		[Address(RVA = "0x4258D10", Offset = "0x4258D10", VA = "0x4258D10", Slot = "22")]
+		[Address(RVA = "0x4596470", Offset = "0x4596470", VA = "0x4596470", Slot = "22")]
 		get
 		{
 			return default(bool);
@@ -558,7 +565,7 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	internal int ObjectID
 	{
 		[Token(Token = "0x6000538")]
-		[Address(RVA = "0x425A740", Offset = "0x425A740", VA = "0x425A740")]
+		[Address(RVA = "0x4597EA0", Offset = "0x4597EA0", VA = "0x4597EA0")]
 		get
 		{
 			return default(int);
@@ -569,12 +576,12 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	public event ListChangedEventHandler ListChanged
 	{
 		[Token(Token = "0x600050E")]
-		[Address(RVA = "0x4257870", Offset = "0x4257870", VA = "0x4257870", Slot = "33")]
+		[Address(RVA = "0x4594FD0", Offset = "0x4594FD0", VA = "0x4594FD0", Slot = "33")]
 		add
 		{
 		}
 		[Token(Token = "0x600050F")]
-		[Address(RVA = "0x4257990", Offset = "0x4257990", VA = "0x4257990", Slot = "34")]
+		[Address(RVA = "0x45950F0", Offset = "0x45950F0", VA = "0x45950F0", Slot = "34")]
 		remove
 		{
 		}
@@ -584,13 +591,13 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	public event EventHandler Initialized
 	{
 		[Token(Token = "0x6000510")]
-		[Address(RVA = "0x4257AB0", Offset = "0x4257AB0", VA = "0x4257AB0", Slot = "59")]
+		[Address(RVA = "0x4595210", Offset = "0x4595210", VA = "0x4595210", Slot = "59")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000511")]
-		[Address(RVA = "0x4257B50", Offset = "0x4257B50", VA = "0x4257B50", Slot = "60")]
+		[Address(RVA = "0x45952B0", Offset = "0x45952B0", VA = "0x45952B0", Slot = "60")]
 		[CompilerGenerated]
 		remove
 		{
@@ -598,381 +605,381 @@ public class DataView : MarshalByValueComponent, IBindingListView, IBindingList,
 	}
 
 	[Token(Token = "0x60004D2")]
-	[Address(RVA = "0x4254D60", Offset = "0x4254D60", VA = "0x4254D60")]
+	[Address(RVA = "0x45924C0", Offset = "0x45924C0", VA = "0x45924C0")]
 	internal DataView(DataTable table, bool locked)
 	{
 	}
 
 	[Token(Token = "0x60004D3")]
-	[Address(RVA = "0x4255050", Offset = "0x4255050", VA = "0x4255050")]
+	[Address(RVA = "0x45927B0", Offset = "0x45927B0", VA = "0x45927B0")]
 	public DataView(DataTable table)
 	{
 	}
 
 	[Token(Token = "0x60004EA")]
-	[Address(RVA = "0x4255F50", Offset = "0x4255F50", VA = "0x4255F50", Slot = "65")]
+	[Address(RVA = "0x45936B0", Offset = "0x45936B0", VA = "0x45936B0", Slot = "65")]
 	public virtual DataRowView AddNew()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004EB")]
-	[Address(RVA = "0x42564E0", Offset = "0x42564E0", VA = "0x42564E0", Slot = "61")]
+	[Address(RVA = "0x4593C40", Offset = "0x4593C40", VA = "0x4593C40", Slot = "61")]
 	public void BeginInit()
 	{
 	}
 
 	[Token(Token = "0x60004EC")]
-	[Address(RVA = "0x42564F0", Offset = "0x42564F0", VA = "0x42564F0", Slot = "62")]
+	[Address(RVA = "0x4593C50", Offset = "0x4593C50", VA = "0x4593C50", Slot = "62")]
 	public void EndInit()
 	{
 	}
 
 	[Token(Token = "0x60004ED")]
-	[Address(RVA = "0x4256350", Offset = "0x4256350", VA = "0x4256350")]
+	[Address(RVA = "0x4593AB0", Offset = "0x4593AB0", VA = "0x4593AB0")]
 	private void CheckOpen()
 	{
 	}
 
 	[Token(Token = "0x60004EE")]
-	[Address(RVA = "0x4255A30", Offset = "0x4255A30", VA = "0x4255A30")]
+	[Address(RVA = "0x4593190", Offset = "0x4593190", VA = "0x4593190")]
 	private void CheckSort(string sort)
 	{
 	}
 
 	[Token(Token = "0x60004EF")]
-	[Address(RVA = "0x42567E0", Offset = "0x42567E0", VA = "0x42567E0")]
+	[Address(RVA = "0x4593F40", Offset = "0x4593F40", VA = "0x4593F40")]
 	protected void Close()
 	{
 	}
 
 	[Token(Token = "0x60004F0")]
-	[Address(RVA = "0x4256840", Offset = "0x4256840", VA = "0x4256840", Slot = "51")]
+	[Address(RVA = "0x4593FA0", Offset = "0x4593FA0", VA = "0x4593FA0", Slot = "51")]
 	public void CopyTo(Array array, int index)
 	{
 	}
 
 	[Token(Token = "0x60004F1")]
-	[Address(RVA = "0x4256AE0", Offset = "0x4256AE0", VA = "0x4256AE0")]
+	[Address(RVA = "0x4594240", Offset = "0x4594240", VA = "0x4594240")]
 	private void CopyTo(DataRowView[] array, int index)
 	{
 	}
 
 	[Token(Token = "0x60004F2")]
-	[Address(RVA = "0x4256D90", Offset = "0x4256D90", VA = "0x4256D90")]
+	[Address(RVA = "0x45944F0", Offset = "0x45944F0", VA = "0x45944F0")]
 	public void Delete(int index)
 	{
 	}
 
 	[Token(Token = "0x60004F3")]
-	[Address(RVA = "0x4256DB0", Offset = "0x4256DB0", VA = "0x4256DB0")]
+	[Address(RVA = "0x4594510", Offset = "0x4594510", VA = "0x4594510")]
 	internal void Delete(DataRow row)
 	{
 	}
 
 	[Token(Token = "0x60004F4")]
-	[Address(RVA = "0x4257000", Offset = "0x4257000", VA = "0x4257000", Slot = "12")]
+	[Address(RVA = "0x4594760", Offset = "0x4594760", VA = "0x4594760", Slot = "12")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x60004F5")]
-	[Address(RVA = "0x42416B0", Offset = "0x42416B0", VA = "0x42416B0")]
+	[Address(RVA = "0x457EE10", Offset = "0x457EE10", VA = "0x457EE10")]
 	internal void FinishAddNew(bool success)
 	{
 	}
 
 	[Token(Token = "0x60004F6")]
-	[Address(RVA = "0x4257060", Offset = "0x4257060", VA = "0x4257060", Slot = "55")]
+	[Address(RVA = "0x45947C0", Offset = "0x45947C0", VA = "0x45947C0", Slot = "55")]
 	public IEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004F9")]
-	[Address(RVA = "0x4257130", Offset = "0x4257130", VA = "0x4257130", Slot = "42")]
+	[Address(RVA = "0x4594890", Offset = "0x4594890", VA = "0x4594890", Slot = "42")]
 	private int System_002ECollections_002EIList_002EAdd(object value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60004FA")]
-	[Address(RVA = "0x42571B0", Offset = "0x42571B0", VA = "0x42571B0", Slot = "44")]
+	[Address(RVA = "0x4594910", Offset = "0x4594910", VA = "0x4594910", Slot = "44")]
 	private void System_002ECollections_002EIList_002EClear()
 	{
 	}
 
 	[Token(Token = "0x60004FB")]
-	[Address(RVA = "0x42571E0", Offset = "0x42571E0", VA = "0x42571E0", Slot = "43")]
+	[Address(RVA = "0x4594940", Offset = "0x4594940", VA = "0x4594940", Slot = "43")]
 	private bool System_002ECollections_002EIList_002EContains(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004FC")]
-	[Address(RVA = "0x4257260", Offset = "0x4257260", VA = "0x4257260", Slot = "47")]
+	[Address(RVA = "0x45949C0", Offset = "0x45949C0", VA = "0x45949C0", Slot = "47")]
 	private int System_002ECollections_002EIList_002EIndexOf(object value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60004FD")]
-	[Address(RVA = "0x4256380", Offset = "0x4256380", VA = "0x4256380")]
+	[Address(RVA = "0x4593AE0", Offset = "0x4593AE0", VA = "0x4593AE0")]
 	internal int IndexOf(DataRowView rowview)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60004FE")]
-	[Address(RVA = "0x42572D0", Offset = "0x42572D0", VA = "0x42572D0")]
+	[Address(RVA = "0x4594A30", Offset = "0x4594A30", VA = "0x4594A30")]
 	private int IndexOfDataRowView(DataRowView rowview)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60004FF")]
-	[Address(RVA = "0x4257340", Offset = "0x4257340", VA = "0x4257340", Slot = "48")]
+	[Address(RVA = "0x4594AA0", Offset = "0x4594AA0", VA = "0x4594AA0", Slot = "48")]
 	private void System_002ECollections_002EIList_002EInsert(int index, object value)
 	{
 	}
 
 	[Token(Token = "0x6000500")]
-	[Address(RVA = "0x4257370", Offset = "0x4257370", VA = "0x4257370", Slot = "49")]
+	[Address(RVA = "0x4594AD0", Offset = "0x4594AD0", VA = "0x4594AD0", Slot = "49")]
 	private void System_002ECollections_002EIList_002ERemove(object value)
 	{
 	}
 
 	[Token(Token = "0x6000501")]
-	[Address(RVA = "0x42574A0", Offset = "0x42574A0", VA = "0x42574A0", Slot = "50")]
+	[Address(RVA = "0x4594C00", Offset = "0x4594C00", VA = "0x4594C00", Slot = "50")]
 	private void System_002ECollections_002EIList_002ERemoveAt(int index)
 	{
 	}
 
 	[Token(Token = "0x6000502")]
-	[Address(RVA = "0x42574C0", Offset = "0x42574C0", VA = "0x42574C0")]
+	[Address(RVA = "0x4594C20", Offset = "0x4594C20", VA = "0x4594C20")]
 	internal Index GetFindIndex(string column, bool keepIndex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000504")]
-	[Address(RVA = "0x4257680", Offset = "0x4257680", VA = "0x4257680", Slot = "24")]
+	[Address(RVA = "0x4594DE0", Offset = "0x4594DE0", VA = "0x4594DE0", Slot = "24")]
 	private object System_002EComponentModel_002EIBindingList_002EAddNew()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600050C")]
-	[Address(RVA = "0x42577C0", Offset = "0x42577C0", VA = "0x42577C0")]
+	[Address(RVA = "0x4594F20", Offset = "0x4594F20", VA = "0x4594F20")]
 	internal PropertyDescriptor GetSortProperty()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000512")]
-	[Address(RVA = "0x4257BF0", Offset = "0x4257BF0", VA = "0x4257BF0", Slot = "35")]
+	[Address(RVA = "0x4595350", Offset = "0x4595350", VA = "0x4595350", Slot = "35")]
 	private void System_002EComponentModel_002EIBindingList_002EAddIndex(PropertyDescriptor property)
 	{
 	}
 
 	[Token(Token = "0x6000513")]
-	[Address(RVA = "0x4257C30", Offset = "0x4257C30", VA = "0x4257C30", Slot = "36")]
+	[Address(RVA = "0x4595390", Offset = "0x4595390", VA = "0x4595390", Slot = "36")]
 	private void System_002EComponentModel_002EIBindingList_002EApplySort(PropertyDescriptor property, ListSortDirection direction)
 	{
 	}
 
 	[Token(Token = "0x6000514")]
-	[Address(RVA = "0x4257D20", Offset = "0x4257D20", VA = "0x4257D20", Slot = "37")]
+	[Address(RVA = "0x4595480", Offset = "0x4595480", VA = "0x4595480", Slot = "37")]
 	private int System_002EComponentModel_002EIBindingList_002EFind(PropertyDescriptor property, object key)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000515")]
-	[Address(RVA = "0x4258050", Offset = "0x4258050", VA = "0x4258050", Slot = "38")]
+	[Address(RVA = "0x45957B0", Offset = "0x45957B0", VA = "0x45957B0", Slot = "38")]
 	private void System_002EComponentModel_002EIBindingList_002ERemoveIndex(PropertyDescriptor property)
 	{
 	}
 
 	[Token(Token = "0x6000516")]
-	[Address(RVA = "0x4258090", Offset = "0x4258090", VA = "0x4258090", Slot = "39")]
+	[Address(RVA = "0x45957F0", Offset = "0x45957F0", VA = "0x45957F0", Slot = "39")]
 	private void System_002EComponentModel_002EIBindingList_002ERemoveSort()
 	{
 	}
 
 	[Token(Token = "0x6000517")]
-	[Address(RVA = "0x4258180", Offset = "0x4258180", VA = "0x4258180", Slot = "16")]
+	[Address(RVA = "0x45958E0", Offset = "0x45958E0", VA = "0x45958E0", Slot = "16")]
 	private void System_002EComponentModel_002EIBindingListView_002EApplySort(ListSortDescriptionCollection sorts)
 	{
 	}
 
 	[Token(Token = "0x6000518")]
-	[Address(RVA = "0x4257C50", Offset = "0x4257C50", VA = "0x4257C50")]
+	[Address(RVA = "0x45953B0", Offset = "0x45953B0", VA = "0x45953B0")]
 	private string CreateSortString(PropertyDescriptor property, ListSortDirection direction)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000519")]
-	[Address(RVA = "0x4258840", Offset = "0x4258840", VA = "0x4258840", Slot = "20")]
+	[Address(RVA = "0x4595FA0", Offset = "0x4595FA0", VA = "0x4595FA0", Slot = "20")]
 	private void System_002EComponentModel_002EIBindingListView_002ERemoveFilter()
 	{
 	}
 
 	[Token(Token = "0x600051D")]
-	[Address(RVA = "0x4258980", Offset = "0x4258980", VA = "0x4258980")]
+	[Address(RVA = "0x45960E0", Offset = "0x45960E0", VA = "0x45960E0")]
 	internal ListSortDescriptionCollection GetSortDescriptions()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000520")]
-	[Address(RVA = "0x4258D20", Offset = "0x4258D20", VA = "0x4258D20", Slot = "56")]
+	[Address(RVA = "0x4596480", Offset = "0x4596480", VA = "0x4596480", Slot = "56")]
 	private string System_002EComponentModel_002EITypedList_002EGetListName(PropertyDescriptor[] listAccessors)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000521")]
-	[Address(RVA = "0x4258D80", Offset = "0x4258D80", VA = "0x4258D80", Slot = "57")]
+	[Address(RVA = "0x45964E0", Offset = "0x45964E0", VA = "0x45964E0", Slot = "57")]
 	private PropertyDescriptorCollection System_002EComponentModel_002EITypedList_002EGetItemProperties(PropertyDescriptor[] listAccessors)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000522")]
-	[Address(RVA = "0x4258E20", Offset = "0x4258E20", VA = "0x4258E20", Slot = "66")]
+	[Address(RVA = "0x4596580", Offset = "0x4596580", VA = "0x4596580", Slot = "66")]
 	internal virtual IFilter GetFilter()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000523")]
-	[Address(RVA = "0x4258E30", Offset = "0x4258E30", VA = "0x4258E30")]
+	[Address(RVA = "0x4596590", Offset = "0x4596590", VA = "0x4596590")]
 	private int GetRecord(int recordIndex)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000524")]
-	[Address(RVA = "0x4255E40", Offset = "0x4255E40", VA = "0x4255E40")]
+	[Address(RVA = "0x45935A0", Offset = "0x45935A0", VA = "0x45935A0")]
 	internal DataRow GetRow(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000525")]
-	[Address(RVA = "0x4256A70", Offset = "0x4256A70", VA = "0x4256A70")]
+	[Address(RVA = "0x45941D0", Offset = "0x45941D0", VA = "0x45941D0")]
 	private DataRowView GetRowView(int record)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000526")]
-	[Address(RVA = "0x4255F00", Offset = "0x4255F00", VA = "0x4255F00")]
+	[Address(RVA = "0x4593660", Offset = "0x4593660", VA = "0x4593660")]
 	private DataRowView GetRowView(DataRow dr)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000527")]
-	[Address(RVA = "0x4258F10", Offset = "0x4258F10", VA = "0x4258F10", Slot = "67")]
+	[Address(RVA = "0x4596670", Offset = "0x4596670", VA = "0x4596670", Slot = "67")]
 	protected virtual void IndexListChanged(object sender, ListChangedEventArgs e)
 	{
 	}
 
 	[Token(Token = "0x6000528")]
-	[Address(RVA = "0x4258FA0", Offset = "0x4258FA0", VA = "0x4258FA0")]
+	[Address(RVA = "0x4596700", Offset = "0x4596700", VA = "0x4596700")]
 	internal void IndexListChangedInternal(ListChangedEventArgs e)
 	{
 	}
 
 	[Token(Token = "0x6000529")]
-	[Address(RVA = "0x4259060", Offset = "0x4259060", VA = "0x4259060")]
+	[Address(RVA = "0x45967C0", Offset = "0x45967C0", VA = "0x45967C0")]
 	internal void MaintainDataView(ListChangedType changedType, DataRow row, bool trackAddRemove)
 	{
 	}
 
 	[Token(Token = "0x600052A")]
-	[Address(RVA = "0x4259700", Offset = "0x4259700", VA = "0x4259700", Slot = "68")]
+	[Address(RVA = "0x4596E60", Offset = "0x4596E60", VA = "0x4596E60", Slot = "68")]
 	protected virtual void OnListChanged(ListChangedEventArgs e)
 	{
 	}
 
 	[Token(Token = "0x600052B")]
-	[Address(RVA = "0x4256760", Offset = "0x4256760", VA = "0x4256760")]
+	[Address(RVA = "0x4593EC0", Offset = "0x4593EC0", VA = "0x4593EC0")]
 	private void OnInitialized()
 	{
 	}
 
 	[Token(Token = "0x600052C")]
-	[Address(RVA = "0x4259B40", Offset = "0x4259B40", VA = "0x4259B40")]
+	[Address(RVA = "0x45972A0", Offset = "0x45972A0", VA = "0x45972A0")]
 	protected void Reset()
 	{
 	}
 
 	[Token(Token = "0x600052D")]
-	[Address(RVA = "0x42593A0", Offset = "0x42593A0", VA = "0x42593A0")]
+	[Address(RVA = "0x4596B00", Offset = "0x4596B00", VA = "0x4596B00")]
 	internal void ResetRowViewCache()
 	{
 	}
 
 	[Token(Token = "0x600052E")]
-	[Address(RVA = "0x4241380", Offset = "0x4241380", VA = "0x4241380")]
+	[Address(RVA = "0x457EAE0", Offset = "0x457EAE0", VA = "0x457EAE0")]
 	internal void SetDataViewManager(DataViewManager dataViewManager)
 	{
 	}
 
 	[Token(Token = "0x600052F")]
-	[Address(RVA = "0x4259B60", Offset = "0x4259B60", VA = "0x4259B60", Slot = "69")]
+	[Address(RVA = "0x45972C0", Offset = "0x45972C0", VA = "0x45972C0", Slot = "69")]
 	internal virtual void SetIndex(string newSort, DataViewRowState newRowStates, IFilter newRowFilter)
 	{
 	}
 
 	[Token(Token = "0x6000530")]
-	[Address(RVA = "0x42550B0", Offset = "0x42550B0", VA = "0x42550B0")]
+	[Address(RVA = "0x4592810", Offset = "0x4592810", VA = "0x4592810")]
 	internal void SetIndex2(string newSort, DataViewRowState newRowStates, IFilter newRowFilter, bool fireEvent)
 	{
 	}
 
 	[Token(Token = "0x6000531")]
-	[Address(RVA = "0x4256820", Offset = "0x4256820", VA = "0x4256820")]
+	[Address(RVA = "0x4593F80", Offset = "0x4593F80", VA = "0x4593F80")]
 	protected void UpdateIndex()
 	{
 	}
 
 	[Token(Token = "0x6000532")]
-	[Address(RVA = "0x4259FD0", Offset = "0x4259FD0", VA = "0x4259FD0", Slot = "70")]
+	[Address(RVA = "0x4597730", Offset = "0x4597730", VA = "0x4597730", Slot = "70")]
 	protected virtual void UpdateIndex(bool force)
 	{
 	}
 
 	[Token(Token = "0x6000533")]
-	[Address(RVA = "0x4259B70", Offset = "0x4259B70", VA = "0x4259B70")]
+	[Address(RVA = "0x45972D0", Offset = "0x45972D0", VA = "0x45972D0")]
 	internal void UpdateIndex(bool force, bool fireEvent)
 	{
 	}
 
 	[Token(Token = "0x6000534")]
-	[Address(RVA = "0x4259FE0", Offset = "0x4259FE0", VA = "0x4259FE0")]
+	[Address(RVA = "0x4597740", Offset = "0x4597740", VA = "0x4597740")]
 	internal void ChildRelationCollectionChanged(object sender, CollectionChangeEventArgs e)
 	{
 	}
 
 	[Token(Token = "0x6000535")]
-	[Address(RVA = "0x425A270", Offset = "0x425A270", VA = "0x425A270")]
+	[Address(RVA = "0x45979D0", Offset = "0x45979D0", VA = "0x45979D0")]
 	internal void ParentRelationCollectionChanged(object sender, CollectionChangeEventArgs e)
 	{
 	}
 
 	[Token(Token = "0x6000536")]
-	[Address(RVA = "0x425A500", Offset = "0x425A500", VA = "0x425A500", Slot = "71")]
+	[Address(RVA = "0x4597C60", Offset = "0x4597C60", VA = "0x4597C60", Slot = "71")]
 	protected virtual void ColumnCollectionChanged(object sender, CollectionChangeEventArgs e)
 	{
 	}
 
 	[Token(Token = "0x6000537")]
-	[Address(RVA = "0x425A720", Offset = "0x425A720", VA = "0x425A720")]
+	[Address(RVA = "0x4597E80", Offset = "0x4597E80", VA = "0x4597E80")]
 	internal void ColumnCollectionChangedInternal(object sender, CollectionChangeEventArgs e)
 	{
 	}

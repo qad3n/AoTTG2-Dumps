@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.ChromaticAberration
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Serialization;
@@ -27,14 +34,14 @@ public sealed class ChromaticAberration : PostProcessEffectSettings
 	public BoolParameter fastMode;
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x48110C0", Offset = "0x48110C0", VA = "0x48110C0", Slot = "4")]
+	[Address(RVA = "0x4B361B0", Offset = "0x4B361B0", VA = "0x4B361B0", Slot = "4")]
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x4811100", Offset = "0x4811100", VA = "0x4811100")]
+	[Address(RVA = "0x4B361F0", Offset = "0x4B361F0", VA = "0x4B361F0")]
 	public ChromaticAberration()
 	{
 	}

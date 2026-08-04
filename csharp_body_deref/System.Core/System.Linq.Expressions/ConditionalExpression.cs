@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.ConditionalExpression
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -12,7 +19,7 @@ public class ConditionalExpression : Expression
 	public sealed override ExpressionType NodeType
 	{
 		[Token(Token = "0x600030B")]
-		[Address(RVA = "0x418B700", Offset = "0x418B700", VA = "0x418B700", Slot = "4")]
+		[Address(RVA = "0x44B0800", Offset = "0x44B0800", VA = "0x44B0800", Slot = "4")]
 		get
 		{
 			return default(ExpressionType);
@@ -23,7 +30,7 @@ public class ConditionalExpression : Expression
 	public override Type Type
 	{
 		[Token(Token = "0x600030C")]
-		[Address(RVA = "0x418B710", Offset = "0x418B710", VA = "0x418B710", Slot = "5")]
+		[Address(RVA = "0x44B0810", Offset = "0x44B0810", VA = "0x44B0810", Slot = "5")]
 		get
 		{
 			return null;
@@ -34,7 +41,7 @@ public class ConditionalExpression : Expression
 	public Expression Test
 	{
 		[Token(Token = "0x600030D")]
-		[Address(RVA = "0x418B740", Offset = "0x418B740", VA = "0x418B740")]
+		[Address(RVA = "0x44B0840", Offset = "0x44B0840", VA = "0x44B0840")]
 		[CompilerGenerated]
 		get
 		{
@@ -46,7 +53,7 @@ public class ConditionalExpression : Expression
 	public Expression IfTrue
 	{
 		[Token(Token = "0x600030E")]
-		[Address(RVA = "0x418B750", Offset = "0x418B750", VA = "0x418B750")]
+		[Address(RVA = "0x44B0850", Offset = "0x44B0850", VA = "0x44B0850")]
 		[CompilerGenerated]
 		get
 		{
@@ -58,7 +65,7 @@ public class ConditionalExpression : Expression
 	public Expression IfFalse
 	{
 		[Token(Token = "0x600030F")]
-		[Address(RVA = "0x418B760", Offset = "0x418B760", VA = "0x418B760")]
+		[Address(RVA = "0x44B0860", Offset = "0x44B0860", VA = "0x44B0860")]
 		get
 		{
 			return null;
@@ -66,34 +73,34 @@ public class ConditionalExpression : Expression
 	}
 
 	[Token(Token = "0x6000309")]
-	[Address(RVA = "0x418B2C0", Offset = "0x418B2C0", VA = "0x418B2C0")]
+	[Address(RVA = "0x44B03C0", Offset = "0x44B03C0", VA = "0x44B03C0")]
 	internal ConditionalExpression(Expression test, Expression ifTrue)
 	{
 	}
 
 	[Token(Token = "0x600030A")]
-	[Address(RVA = "0x418B340", Offset = "0x418B340", VA = "0x418B340")]
+	[Address(RVA = "0x44B0440", Offset = "0x44B0440", VA = "0x44B0440")]
 	internal static ConditionalExpression Make(Expression test, Expression ifTrue, Expression ifFalse, Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000310")]
-	[Address(RVA = "0x418B780", Offset = "0x418B780", VA = "0x418B780", Slot = "10")]
+	[Address(RVA = "0x44B0880", Offset = "0x44B0880", VA = "0x44B0880", Slot = "10")]
 	internal virtual Expression GetFalse()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000311")]
-	[Address(RVA = "0x418B7F0", Offset = "0x418B7F0", VA = "0x418B7F0", Slot = "9")]
+	[Address(RVA = "0x44B08F0", Offset = "0x44B08F0", VA = "0x44B08F0", Slot = "9")]
 	protected internal override Expression Accept(ExpressionVisitor visitor)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000312")]
-	[Address(RVA = "0x418B820", Offset = "0x418B820", VA = "0x418B820")]
+	[Address(RVA = "0x44B0920", Offset = "0x44B0920", VA = "0x44B0920")]
 	public ConditionalExpression Update(Expression test, Expression ifTrue, Expression ifFalse)
 	{
 		return null;

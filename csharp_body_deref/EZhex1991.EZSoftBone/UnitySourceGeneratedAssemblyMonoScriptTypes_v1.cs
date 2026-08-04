@@ -35,14 +35,14 @@ internal class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x2353E30", Offset = "0x2353E30", VA = "0x2353E30")]
+	[Address(RVA = "0x2391F40", Offset = "0x2391F40", VA = "0x2391F40")]
 	private static MonoScriptData Get()
 	{
 		return default(MonoScriptData);
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x2353F60", Offset = "0x2353F60", VA = "0x2353F60")]
+	[Address(RVA = "0x2392070", Offset = "0x2392070", VA = "0x2392070")]
 	public UnitySourceGeneratedAssemblyMonoScriptTypes_v1()
 	{
 	}

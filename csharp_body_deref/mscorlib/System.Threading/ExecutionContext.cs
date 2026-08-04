@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Threading.ExecutionContext
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Runtime.ConstrainedExecution;
@@ -36,7 +43,7 @@ public sealed class ExecutionContext : IDisposable, ISerializable
 		public bool IsNull
 		{
 			[Token(Token = "0x600124D")]
-			[Address(RVA = "0x504D9E0", Offset = "0x504D9E0", VA = "0x504D9E0")]
+			[Address(RVA = "0x3D33500", Offset = "0x3D33500", VA = "0x3D33500")]
 			get
 			{
 				return default(bool);
@@ -48,7 +55,7 @@ public sealed class ExecutionContext : IDisposable, ISerializable
 		{
 			[MethodImpl((MethodImplOptions)256)]
 			[Token(Token = "0x600124F")]
-			[Address(RVA = "0x504EAD0", Offset = "0x504EAD0", VA = "0x504EAD0")]
+			[Address(RVA = "0x3D345F0", Offset = "0x3D345F0", VA = "0x3D345F0")]
 			get
 			{
 				return default(bool);
@@ -59,7 +66,7 @@ public sealed class ExecutionContext : IDisposable, ISerializable
 		public SynchronizationContext SynchronizationContext
 		{
 			[Token(Token = "0x6001250")]
-			[Address(RVA = "0x504DE70", Offset = "0x504DE70", VA = "0x504DE70")]
+			[Address(RVA = "0x3D33990", Offset = "0x3D33990", VA = "0x3D33990")]
 			get
 			{
 				return null;
@@ -70,7 +77,7 @@ public sealed class ExecutionContext : IDisposable, ISerializable
 		public SynchronizationContext SynchronizationContextNoFlow
 		{
 			[Token(Token = "0x6001251")]
-			[Address(RVA = "0x504DE80", Offset = "0x504DE80", VA = "0x504DE80")]
+			[Address(RVA = "0x3D339A0", Offset = "0x3D339A0", VA = "0x3D339A0")]
 			get
 			{
 				return null;
@@ -81,7 +88,7 @@ public sealed class ExecutionContext : IDisposable, ISerializable
 		public LogicalCallContext.Reader LogicalCallContext
 		{
 			[Token(Token = "0x6001252")]
-			[Address(RVA = "0x504E7B0", Offset = "0x504E7B0", VA = "0x504E7B0")]
+			[Address(RVA = "0x3D342D0", Offset = "0x3D342D0", VA = "0x3D342D0")]
 			get
 			{
 				return default(LogicalCallContext.Reader);
@@ -89,27 +96,27 @@ public sealed class ExecutionContext : IDisposable, ISerializable
 		}
 
 		[Token(Token = "0x600124B")]
-		[Address(RVA = "0x504EAB0", Offset = "0x504EAB0", VA = "0x504EAB0")]
+		[Address(RVA = "0x3D345D0", Offset = "0x3D345D0", VA = "0x3D345D0")]
 		public Reader(ExecutionContext ec)
 		{
 		}
 
 		[Token(Token = "0x600124C")]
-		[Address(RVA = "0x504EAC0", Offset = "0x504EAC0", VA = "0x504EAC0")]
+		[Address(RVA = "0x3D345E0", Offset = "0x3D345E0", VA = "0x3D345E0")]
 		public ExecutionContext DangerousGetRawExecutionContext()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600124E")]
-		[Address(RVA = "0x504D9F0", Offset = "0x504D9F0", VA = "0x504D9F0")]
+		[Address(RVA = "0x3D33510", Offset = "0x3D33510", VA = "0x3D33510")]
 		public bool IsDefaultFTContext(bool ignoreSyncCtx)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001253")]
-		[Address(RVA = "0x504DAB0", Offset = "0x504DAB0", VA = "0x504DAB0")]
+		[Address(RVA = "0x3D335D0", Offset = "0x3D335D0", VA = "0x3D335D0")]
 		public bool HasSameLocalValues(ExecutionContext other)
 		{
 			return default(bool);
@@ -168,13 +175,13 @@ public sealed class ExecutionContext : IDisposable, ISerializable
 	internal bool isNewCapture
 	{
 		[Token(Token = "0x6001226")]
-		[Address(RVA = "0x504D090", Offset = "0x504D090", VA = "0x504D090")]
+		[Address(RVA = "0x3D32BB0", Offset = "0x3D32BB0", VA = "0x3D32BB0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001227")]
-		[Address(RVA = "0x504D0A0", Offset = "0x504D0A0", VA = "0x504D0A0")]
+		[Address(RVA = "0x3D32BC0", Offset = "0x3D32BC0", VA = "0x3D32BC0")]
 		set
 		{
 		}
@@ -184,13 +191,13 @@ public sealed class ExecutionContext : IDisposable, ISerializable
 	internal bool isFlowSuppressed
 	{
 		[Token(Token = "0x6001228")]
-		[Address(RVA = "0x504D0C0", Offset = "0x504D0C0", VA = "0x504D0C0")]
+		[Address(RVA = "0x3D32BE0", Offset = "0x3D32BE0", VA = "0x3D32BE0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001229")]
-		[Address(RVA = "0x504CC80", Offset = "0x504CC80", VA = "0x504CC80")]
+		[Address(RVA = "0x3D327A0", Offset = "0x3D327A0", VA = "0x3D327A0")]
 		set
 		{
 		}
@@ -200,7 +207,7 @@ public sealed class ExecutionContext : IDisposable, ISerializable
 	internal bool IsPreAllocatedDefault
 	{
 		[Token(Token = "0x600122A")]
-		[Address(RVA = "0x504D0D0", Offset = "0x504D0D0", VA = "0x504D0D0")]
+		[Address(RVA = "0x3D32BF0", Offset = "0x3D32BF0", VA = "0x3D32BF0")]
 		get
 		{
 			return default(bool);
@@ -211,13 +218,13 @@ public sealed class ExecutionContext : IDisposable, ISerializable
 	internal LogicalCallContext LogicalCallContext
 	{
 		[Token(Token = "0x600122F")]
-		[Address(RVA = "0x504D490", Offset = "0x504D490", VA = "0x504D490")]
+		[Address(RVA = "0x3D32FB0", Offset = "0x3D32FB0", VA = "0x3D32FB0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001230")]
-		[Address(RVA = "0x504D510", Offset = "0x504D510", VA = "0x504D510")]
+		[Address(RVA = "0x3D33030", Offset = "0x3D33030", VA = "0x3D33030")]
 		set
 		{
 		}
@@ -227,13 +234,13 @@ public sealed class ExecutionContext : IDisposable, ISerializable
 	internal System.Runtime.Remoting.Messaging.IllogicalCallContext IllogicalCallContext
 	{
 		[Token(Token = "0x6001231")]
-		[Address(RVA = "0x504D520", Offset = "0x504D520", VA = "0x504D520")]
+		[Address(RVA = "0x3D33040", Offset = "0x3D33040", VA = "0x3D33040")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001232")]
-		[Address(RVA = "0x504D5A0", Offset = "0x504D5A0", VA = "0x504D5A0")]
+		[Address(RVA = "0x3D330C0", Offset = "0x3D330C0", VA = "0x3D330C0")]
 		set
 		{
 		}
@@ -243,14 +250,14 @@ public sealed class ExecutionContext : IDisposable, ISerializable
 	internal SynchronizationContext SynchronizationContext
 	{
 		[Token(Token = "0x6001233")]
-		[Address(RVA = "0x504D5B0", Offset = "0x504D5B0", VA = "0x504D5B0")]
+		[Address(RVA = "0x3D330D0", Offset = "0x3D330D0", VA = "0x3D330D0")]
 		[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001234")]
-		[Address(RVA = "0x504D5C0", Offset = "0x504D5C0", VA = "0x504D5C0")]
+		[Address(RVA = "0x3D330E0", Offset = "0x3D330E0", VA = "0x3D330E0")]
 		[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 		set
 		{
@@ -261,14 +268,14 @@ public sealed class ExecutionContext : IDisposable, ISerializable
 	internal SynchronizationContext SynchronizationContextNoFlow
 	{
 		[Token(Token = "0x6001235")]
-		[Address(RVA = "0x504D5D0", Offset = "0x504D5D0", VA = "0x504D5D0")]
+		[Address(RVA = "0x3D330F0", Offset = "0x3D330F0", VA = "0x3D330F0")]
 		[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001236")]
-		[Address(RVA = "0x504D5E0", Offset = "0x504D5E0", VA = "0x504D5E0")]
+		[Address(RVA = "0x3D33100", Offset = "0x3D33100", VA = "0x3D33100")]
 		[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 		set
 		{
@@ -276,79 +283,79 @@ public sealed class ExecutionContext : IDisposable, ISerializable
 	}
 
 	[Token(Token = "0x600122B")]
-	[Address(RVA = "0x504D0E0", Offset = "0x504D0E0", VA = "0x504D0E0")]
+	[Address(RVA = "0x3D32C00", Offset = "0x3D32C00", VA = "0x3D32C00")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	internal ExecutionContext()
 	{
 	}
 
 	[Token(Token = "0x600122C")]
-	[Address(RVA = "0x504D0F0", Offset = "0x504D0F0", VA = "0x504D0F0")]
+	[Address(RVA = "0x3D32C10", Offset = "0x3D32C10", VA = "0x3D32C10")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	internal ExecutionContext(bool isPreAllocatedDefault)
 	{
 	}
 
 	[Token(Token = "0x600122D")]
-	[Address(RVA = "0x504D120", Offset = "0x504D120", VA = "0x504D120")]
+	[Address(RVA = "0x3D32C40", Offset = "0x3D32C40", VA = "0x3D32C40")]
 	internal static void SetLocalValue(System.Threading.IAsyncLocal local, object newValue, bool needChangeNotifications)
 	{
 	}
 
 	[Token(Token = "0x600122E")]
-	[Address(RVA = "0x504C410", Offset = "0x504C410", VA = "0x504C410")]
+	[Address(RVA = "0x3D31F30", Offset = "0x3D31F30", VA = "0x3D31F30")]
 	[HandleProcessCorruptedStateExceptions]
 	internal static void OnAsyncLocalContextChanged(ExecutionContext previous, ExecutionContext current)
 	{
 	}
 
 	[Token(Token = "0x6001237")]
-	[Address(RVA = "0x504D5F0", Offset = "0x504D5F0", VA = "0x504D5F0", Slot = "4")]
+	[Address(RVA = "0x3D33110", Offset = "0x3D33110", VA = "0x3D33110", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6001238")]
-	[Address(RVA = "0x5048400", Offset = "0x5048400", VA = "0x5048400")]
+	[Address(RVA = "0x3D2DF20", Offset = "0x3D2DF20", VA = "0x3D2DF20")]
 	public static void Run(ExecutionContext executionContext, ContextCallback callback, object state)
 	{
 	}
 
 	[Token(Token = "0x6001239")]
-	[Address(RVA = "0x504D600", Offset = "0x504D600", VA = "0x504D600")]
+	[Address(RVA = "0x3D33120", Offset = "0x3D33120", VA = "0x3D33120")]
 	[System.Runtime.CompilerServices.FriendAccessAllowed]
 	internal static void Run(ExecutionContext executionContext, ContextCallback callback, object state, bool preserveSyncCtx)
 	{
 	}
 
 	[Token(Token = "0x600123A")]
-	[Address(RVA = "0x504D980", Offset = "0x504D980", VA = "0x504D980")]
+	[Address(RVA = "0x3D334A0", Offset = "0x3D334A0", VA = "0x3D334A0")]
 	internal static void RunInternal(ExecutionContext executionContext, ContextCallback callback, object state)
 	{
 	}
 
 	[Token(Token = "0x600123B")]
-	[Address(RVA = "0x504D660", Offset = "0x504D660", VA = "0x504D660")]
+	[Address(RVA = "0x3D33180", Offset = "0x3D33180", VA = "0x3D33180")]
 	[HandleProcessCorruptedStateExceptions]
 	internal static void RunInternal(ExecutionContext executionContext, ContextCallback callback, object state, bool preserveSyncCtx)
 	{
 	}
 
 	[Token(Token = "0x600123C")]
-	[Address(RVA = "0x504DD60", Offset = "0x504DD60", VA = "0x504DD60")]
+	[Address(RVA = "0x3D33880", Offset = "0x3D33880", VA = "0x3D33880")]
 	internal static void EstablishCopyOnWriteScope(ref System.Threading.ExecutionContextSwitcher ecsw)
 	{
 	}
 
 	[Token(Token = "0x600123D")]
-	[Address(RVA = "0x504DAE0", Offset = "0x504DAE0", VA = "0x504DAE0")]
+	[Address(RVA = "0x3D33600", Offset = "0x3D33600", VA = "0x3D33600")]
 	private static void EstablishCopyOnWriteScope(Thread currentThread, bool knownNullWindowsIdentity, ref System.Threading.ExecutionContextSwitcher ecsw)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x600123E")]
-	[Address(RVA = "0x504DB40", Offset = "0x504DB40", VA = "0x504DB40")]
+	[Address(RVA = "0x3D33660", Offset = "0x3D33660", VA = "0x3D33660")]
 	[HandleProcessCorruptedStateExceptions]
 	internal static System.Threading.ExecutionContextSwitcher SetExecutionContext(ExecutionContext executionContext, bool preserveSyncCtx)
 	{
@@ -356,34 +363,34 @@ public sealed class ExecutionContext : IDisposable, ISerializable
 	}
 
 	[Token(Token = "0x600123F")]
-	[Address(RVA = "0x504DEC0", Offset = "0x504DEC0", VA = "0x504DEC0")]
+	[Address(RVA = "0x3D339E0", Offset = "0x3D339E0", VA = "0x3D339E0")]
 	public ExecutionContext CreateCopy()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001240")]
-	[Address(RVA = "0x504E070", Offset = "0x504E070", VA = "0x504E070")]
+	[Address(RVA = "0x3D33B90", Offset = "0x3D33B90", VA = "0x3D33B90")]
 	internal ExecutionContext CreateMutableCopy()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001241")]
-	[Address(RVA = "0x504E250", Offset = "0x504E250", VA = "0x504E250")]
+	[Address(RVA = "0x3D33D70", Offset = "0x3D33D70", VA = "0x3D33D70")]
 	public static AsyncFlowControl SuppressFlow()
 	{
 		return default(AsyncFlowControl);
 	}
 
 	[Token(Token = "0x6001242")]
-	[Address(RVA = "0x504CE40", Offset = "0x504CE40", VA = "0x504CE40")]
+	[Address(RVA = "0x3D32960", Offset = "0x3D32960", VA = "0x3D32960")]
 	public static void RestoreFlow()
 	{
 	}
 
 	[Token(Token = "0x6001243")]
-	[Address(RVA = "0x504E3C0", Offset = "0x504E3C0", VA = "0x504E3C0")]
+	[Address(RVA = "0x3D33EE0", Offset = "0x3D33EE0", VA = "0x3D33EE0")]
 	public static bool IsFlowSuppressed()
 	{
 		return default(bool);
@@ -391,7 +398,7 @@ public sealed class ExecutionContext : IDisposable, ISerializable
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x6001244")]
-	[Address(RVA = "0x5043380", Offset = "0x5043380", VA = "0x5043380")]
+	[Address(RVA = "0x3D28EA0", Offset = "0x3D28EA0", VA = "0x3D28EA0")]
 	public static ExecutionContext Capture()
 	{
 		return null;
@@ -399,7 +406,7 @@ public sealed class ExecutionContext : IDisposable, ISerializable
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x6001245")]
-	[Address(RVA = "0x504E750", Offset = "0x504E750", VA = "0x504E750")]
+	[Address(RVA = "0x3D34270", Offset = "0x3D34270", VA = "0x3D34270")]
 	[System.Runtime.CompilerServices.FriendAccessAllowed]
 	internal static ExecutionContext FastCapture()
 	{
@@ -407,26 +414,26 @@ public sealed class ExecutionContext : IDisposable, ISerializable
 	}
 
 	[Token(Token = "0x6001246")]
-	[Address(RVA = "0x504E440", Offset = "0x504E440", VA = "0x504E440")]
+	[Address(RVA = "0x3D33F60", Offset = "0x3D33F60", VA = "0x3D33F60")]
 	internal static ExecutionContext Capture(ref System.Threading.StackCrawlMark stackMark, CaptureOptions options)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001247")]
-	[Address(RVA = "0x504E830", Offset = "0x504E830", VA = "0x504E830", Slot = "5")]
+	[Address(RVA = "0x3D34350", Offset = "0x3D34350", VA = "0x3D34350", Slot = "5")]
 	public void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001248")]
-	[Address(RVA = "0x504E910", Offset = "0x504E910", VA = "0x504E910")]
+	[Address(RVA = "0x3D34430", Offset = "0x3D34430", VA = "0x3D34430")]
 	private ExecutionContext(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001249")]
-	[Address(RVA = "0x504DA50", Offset = "0x504DA50", VA = "0x504DA50")]
+	[Address(RVA = "0x3D33570", Offset = "0x3D33570", VA = "0x3D33570")]
 	internal bool IsDefaultFTContext(bool ignoreSyncCtx)
 	{
 		return default(bool);

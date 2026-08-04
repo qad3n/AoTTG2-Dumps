@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.FtpWebRequest
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.IO;
 using System.Net.Cache;
@@ -53,13 +60,13 @@ public sealed class FtpWebRequest : WebRequest
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000785")]
-		[Address(RVA = "0x4637C30", Offset = "0x4637C30", VA = "0x4637C30", Slot = "4")]
+		[Address(RVA = "0x495CD30", Offset = "0x495CD30", VA = "0x495CD30", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000786")]
-		[Address(RVA = "0x4638070", Offset = "0x4638070", VA = "0x4638070", Slot = "5")]
+		[Address(RVA = "0x495D170", Offset = "0x495D170", VA = "0x495D170", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -206,7 +213,7 @@ public sealed class FtpWebRequest : WebRequest
 	internal FtpMethodInfo MethodInfo
 	{
 		[Token(Token = "0x6000758")]
-		[Address(RVA = "0x4631240", Offset = "0x4631240", VA = "0x4631240")]
+		[Address(RVA = "0x4956340", Offset = "0x4956340", VA = "0x4956340")]
 		get
 		{
 			return null;
@@ -217,13 +224,13 @@ public sealed class FtpWebRequest : WebRequest
 	public override string Method
 	{
 		[Token(Token = "0x6000759")]
-		[Address(RVA = "0x4631250", Offset = "0x4631250", VA = "0x4631250", Slot = "9")]
+		[Address(RVA = "0x4956350", Offset = "0x4956350", VA = "0x4956350", Slot = "9")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600075A")]
-		[Address(RVA = "0x4631270", Offset = "0x4631270", VA = "0x4631270", Slot = "10")]
+		[Address(RVA = "0x4956370", Offset = "0x4956370", VA = "0x4956370", Slot = "10")]
 		set
 		{
 		}
@@ -233,7 +240,7 @@ public sealed class FtpWebRequest : WebRequest
 	public string RenameTo
 	{
 		[Token(Token = "0x600075B")]
-		[Address(RVA = "0x4631430", Offset = "0x4631430", VA = "0x4631430")]
+		[Address(RVA = "0x4956530", Offset = "0x4956530", VA = "0x4956530")]
 		get
 		{
 			return null;
@@ -244,13 +251,13 @@ public sealed class FtpWebRequest : WebRequest
 	public override ICredentials Credentials
 	{
 		[Token(Token = "0x600075C")]
-		[Address(RVA = "0x4631440", Offset = "0x4631440", VA = "0x4631440", Slot = "14")]
+		[Address(RVA = "0x4956540", Offset = "0x4956540", VA = "0x4956540", Slot = "14")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600075D")]
-		[Address(RVA = "0x4631450", Offset = "0x4631450", VA = "0x4631450", Slot = "15")]
+		[Address(RVA = "0x4956550", Offset = "0x4956550", VA = "0x4956550", Slot = "15")]
 		set
 		{
 		}
@@ -260,7 +267,7 @@ public sealed class FtpWebRequest : WebRequest
 	public override Uri RequestUri
 	{
 		[Token(Token = "0x600075E")]
-		[Address(RVA = "0x46315B0", Offset = "0x46315B0", VA = "0x46315B0", Slot = "11")]
+		[Address(RVA = "0x49566B0", Offset = "0x49566B0", VA = "0x49566B0", Slot = "11")]
 		get
 		{
 			return null;
@@ -271,7 +278,7 @@ public sealed class FtpWebRequest : WebRequest
 	public override int Timeout
 	{
 		[Token(Token = "0x600075F")]
-		[Address(RVA = "0x46315C0", Offset = "0x46315C0", VA = "0x46315C0", Slot = "19")]
+		[Address(RVA = "0x49566C0", Offset = "0x49566C0", VA = "0x49566C0", Slot = "19")]
 		get
 		{
 			return default(int);
@@ -282,7 +289,7 @@ public sealed class FtpWebRequest : WebRequest
 	internal int RemainingTimeout
 	{
 		[Token(Token = "0x6000760")]
-		[Address(RVA = "0x46315D0", Offset = "0x46315D0", VA = "0x46315D0")]
+		[Address(RVA = "0x49566D0", Offset = "0x49566D0", VA = "0x49566D0")]
 		get
 		{
 			return default(int);
@@ -293,7 +300,7 @@ public sealed class FtpWebRequest : WebRequest
 	public int ReadWriteTimeout
 	{
 		[Token(Token = "0x6000761")]
-		[Address(RVA = "0x46315E0", Offset = "0x46315E0", VA = "0x46315E0")]
+		[Address(RVA = "0x49566E0", Offset = "0x49566E0", VA = "0x49566E0")]
 		get
 		{
 			return default(int);
@@ -304,7 +311,7 @@ public sealed class FtpWebRequest : WebRequest
 	public long ContentOffset
 	{
 		[Token(Token = "0x6000762")]
-		[Address(RVA = "0x46315F0", Offset = "0x46315F0", VA = "0x46315F0")]
+		[Address(RVA = "0x49566F0", Offset = "0x49566F0", VA = "0x49566F0")]
 		get
 		{
 			return default(long);
@@ -315,7 +322,7 @@ public sealed class FtpWebRequest : WebRequest
 	public override long ContentLength
 	{
 		[Token(Token = "0x6000763")]
-		[Address(RVA = "0x4631600", Offset = "0x4631600", VA = "0x4631600", Slot = "13")]
+		[Address(RVA = "0x4956700", Offset = "0x4956700", VA = "0x4956700", Slot = "13")]
 		get
 		{
 			return default(long);
@@ -326,13 +333,13 @@ public sealed class FtpWebRequest : WebRequest
 	public override IWebProxy Proxy
 	{
 		[Token(Token = "0x6000764")]
-		[Address(RVA = "0x4631610", Offset = "0x4631610", VA = "0x4631610", Slot = "17")]
+		[Address(RVA = "0x4956710", Offset = "0x4956710", VA = "0x4956710", Slot = "17")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000765")]
-		[Address(RVA = "0x4631620", Offset = "0x4631620", VA = "0x4631620", Slot = "18")]
+		[Address(RVA = "0x4956720", Offset = "0x4956720", VA = "0x4956720", Slot = "18")]
 		set
 		{
 		}
@@ -342,7 +349,7 @@ public sealed class FtpWebRequest : WebRequest
 	internal bool Aborted
 	{
 		[Token(Token = "0x6000766")]
-		[Address(RVA = "0x4631680", Offset = "0x4631680", VA = "0x4631680")]
+		[Address(RVA = "0x4956780", Offset = "0x4956780", VA = "0x4956780")]
 		get
 		{
 			return default(bool);
@@ -353,7 +360,7 @@ public sealed class FtpWebRequest : WebRequest
 	private TimerThread.Queue TimerQueue
 	{
 		[Token(Token = "0x6000771")]
-		[Address(RVA = "0x46358B0", Offset = "0x46358B0", VA = "0x46358B0")]
+		[Address(RVA = "0x495A9B0", Offset = "0x495A9B0", VA = "0x495A9B0")]
 		get
 		{
 			return null;
@@ -364,7 +371,7 @@ public sealed class FtpWebRequest : WebRequest
 	public override RequestCachePolicy CachePolicy
 	{
 		[Token(Token = "0x600077A")]
-		[Address(RVA = "0x4637530", Offset = "0x4637530", VA = "0x4637530", Slot = "8")]
+		[Address(RVA = "0x495C630", Offset = "0x495C630", VA = "0x495C630", Slot = "8")]
 		set
 		{
 		}
@@ -374,7 +381,7 @@ public sealed class FtpWebRequest : WebRequest
 	public bool UseBinary
 	{
 		[Token(Token = "0x600077B")]
-		[Address(RVA = "0x4637590", Offset = "0x4637590", VA = "0x4637590")]
+		[Address(RVA = "0x495C690", Offset = "0x495C690", VA = "0x495C690")]
 		get
 		{
 			return default(bool);
@@ -385,7 +392,7 @@ public sealed class FtpWebRequest : WebRequest
 	public bool UsePassive
 	{
 		[Token(Token = "0x600077C")]
-		[Address(RVA = "0x46375A0", Offset = "0x46375A0", VA = "0x46375A0")]
+		[Address(RVA = "0x495C6A0", Offset = "0x495C6A0", VA = "0x495C6A0")]
 		get
 		{
 			return default(bool);
@@ -396,7 +403,7 @@ public sealed class FtpWebRequest : WebRequest
 	public X509CertificateCollection ClientCertificates
 	{
 		[Token(Token = "0x600077D")]
-		[Address(RVA = "0x462A9C0", Offset = "0x462A9C0", VA = "0x462A9C0")]
+		[Address(RVA = "0x494FAC0", Offset = "0x494FAC0", VA = "0x494FAC0")]
 		get
 		{
 			return null;
@@ -407,7 +414,7 @@ public sealed class FtpWebRequest : WebRequest
 	public bool EnableSsl
 	{
 		[Token(Token = "0x600077E")]
-		[Address(RVA = "0x46375B0", Offset = "0x46375B0", VA = "0x46375B0")]
+		[Address(RVA = "0x495C6B0", Offset = "0x495C6B0", VA = "0x495C6B0")]
 		get
 		{
 			return default(bool);
@@ -418,7 +425,7 @@ public sealed class FtpWebRequest : WebRequest
 	public override WebHeaderCollection Headers
 	{
 		[Token(Token = "0x600077F")]
-		[Address(RVA = "0x46375C0", Offset = "0x46375C0", VA = "0x46375C0", Slot = "12")]
+		[Address(RVA = "0x495C6C0", Offset = "0x495C6C0", VA = "0x495C6C0", Slot = "12")]
 		get
 		{
 			return null;
@@ -429,7 +436,7 @@ public sealed class FtpWebRequest : WebRequest
 	public override bool UseDefaultCredentials
 	{
 		[Token(Token = "0x6000780")]
-		[Address(RVA = "0x4637640", Offset = "0x4637640", VA = "0x4637640", Slot = "16")]
+		[Address(RVA = "0x495C740", Offset = "0x495C740", VA = "0x495C740", Slot = "16")]
 		get
 		{
 			return default(bool);
@@ -440,7 +447,7 @@ public sealed class FtpWebRequest : WebRequest
 	private bool InUse
 	{
 		[Token(Token = "0x6000781")]
-		[Address(RVA = "0x4631420", Offset = "0x4631420", VA = "0x4631420")]
+		[Address(RVA = "0x4956520", Offset = "0x4956520", VA = "0x4956520")]
 		get
 		{
 			return default(bool);
@@ -448,130 +455,130 @@ public sealed class FtpWebRequest : WebRequest
 	}
 
 	[Token(Token = "0x6000767")]
-	[Address(RVA = "0x4631690", Offset = "0x4631690", VA = "0x4631690")]
+	[Address(RVA = "0x4956790", Offset = "0x4956790", VA = "0x4956790")]
 	internal FtpWebRequest(Uri uri)
 	{
 	}
 
 	[Token(Token = "0x6000768")]
-	[Address(RVA = "0x4631B50", Offset = "0x4631B50", VA = "0x4631B50", Slot = "20")]
+	[Address(RVA = "0x4956C50", Offset = "0x4956C50", VA = "0x4956C50", Slot = "20")]
 	public override WebResponse GetResponse()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000769")]
-	[Address(RVA = "0x4633EF0", Offset = "0x4633EF0", VA = "0x4633EF0", Slot = "21")]
+	[Address(RVA = "0x4958FF0", Offset = "0x4958FF0", VA = "0x4958FF0", Slot = "21")]
 	public override IAsyncResult BeginGetResponse(AsyncCallback callback, object state)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600076A")]
-	[Address(RVA = "0x46346D0", Offset = "0x46346D0", VA = "0x46346D0", Slot = "22")]
+	[Address(RVA = "0x49597D0", Offset = "0x49597D0", VA = "0x49597D0", Slot = "22")]
 	public override WebResponse EndGetResponse(IAsyncResult asyncResult)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600076B")]
-	[Address(RVA = "0x4632B00", Offset = "0x4632B00", VA = "0x4632B00")]
+	[Address(RVA = "0x4957C00", Offset = "0x4957C00", VA = "0x4957C00")]
 	private void SubmitRequest(bool isAsync)
 	{
 	}
 
 	[Token(Token = "0x600076C")]
-	[Address(RVA = "0x46357C0", Offset = "0x46357C0", VA = "0x46357C0")]
+	[Address(RVA = "0x495A8C0", Offset = "0x495A8C0", VA = "0x495A8C0")]
 	private Exception TranslateConnectException(Exception e)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600076D")]
-	[Address(RVA = "0x4634B60", Offset = "0x4634B60", VA = "0x4634B60")]
+	[Address(RVA = "0x4959C60", Offset = "0x4959C60", VA = "0x4959C60")]
 	[AsyncStateMachine(typeof(_003CCreateConnectionAsync_003Ed__86))]
 	private void CreateConnectionAsync()
 	{
 	}
 
 	[Token(Token = "0x600076E")]
-	[Address(RVA = "0x4634C20", Offset = "0x4634C20", VA = "0x4634C20")]
+	[Address(RVA = "0x4959D20", Offset = "0x4959D20", VA = "0x4959D20")]
 	private FtpControlStream CreateConnection()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600076F")]
-	[Address(RVA = "0x4634E40", Offset = "0x4634E40", VA = "0x4634E40")]
+	[Address(RVA = "0x4959F40", Offset = "0x4959F40", VA = "0x4959F40")]
 	private Stream TimedSubmitRequestHelper(bool isAsync)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000770")]
-	[Address(RVA = "0x4635940", Offset = "0x4635940", VA = "0x4635940")]
+	[Address(RVA = "0x495AA40", Offset = "0x495AA40", VA = "0x495AA40")]
 	private void TimerCallback(TimerThread.Timer timer, int timeNoticed, object context)
 	{
 	}
 
 	[Token(Token = "0x6000772")]
-	[Address(RVA = "0x4635460", Offset = "0x4635460", VA = "0x4635460")]
+	[Address(RVA = "0x495A560", Offset = "0x495A560", VA = "0x495A560")]
 	private bool AttemptedRecovery(Exception e)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000773")]
-	[Address(RVA = "0x4633A50", Offset = "0x4633A50", VA = "0x4633A50")]
+	[Address(RVA = "0x4958B50", Offset = "0x4958B50", VA = "0x4958B50")]
 	private void SetException(Exception exception)
 	{
 	}
 
 	[Token(Token = "0x6000774")]
-	[Address(RVA = "0x4632510", Offset = "0x4632510", VA = "0x4632510")]
+	[Address(RVA = "0x4957610", Offset = "0x4957610", VA = "0x4957610")]
 	private void CheckError()
 	{
 	}
 
 	[Token(Token = "0x6000775")]
-	[Address(RVA = "0x4627560", Offset = "0x4627560", VA = "0x4627560")]
+	[Address(RVA = "0x494C660", Offset = "0x494C660", VA = "0x494C660")]
 	internal void RequestCallback(object obj)
 	{
 	}
 
 	[Token(Token = "0x6000776")]
-	[Address(RVA = "0x4636970", Offset = "0x4636970", VA = "0x4636970")]
+	[Address(RVA = "0x495BA70", Offset = "0x495BA70", VA = "0x495BA70")]
 	private void SyncRequestCallback(object obj)
 	{
 	}
 
 	[Token(Token = "0x6000777")]
-	[Address(RVA = "0x4635B90", Offset = "0x4635B90", VA = "0x4635B90")]
+	[Address(RVA = "0x495AC90", Offset = "0x495AC90", VA = "0x495AC90")]
 	private void AsyncRequestCallback(object obj)
 	{
 	}
 
 	[Token(Token = "0x6000778")]
-	[Address(RVA = "0x4632590", Offset = "0x4632590", VA = "0x4632590")]
+	[Address(RVA = "0x4957690", Offset = "0x4957690", VA = "0x4957690")]
 	private RequestStage FinishRequestStage(RequestStage stage)
 	{
 		return default(RequestStage);
 	}
 
 	[Token(Token = "0x6000779")]
-	[Address(RVA = "0x4636F10", Offset = "0x4636F10", VA = "0x4636F10", Slot = "24")]
+	[Address(RVA = "0x495C010", Offset = "0x495C010", VA = "0x495C010", Slot = "24")]
 	public override void Abort()
 	{
 	}
 
 	[Token(Token = "0x6000782")]
-	[Address(RVA = "0x46332C0", Offset = "0x46332C0", VA = "0x46332C0")]
+	[Address(RVA = "0x49583C0", Offset = "0x49583C0", VA = "0x49583C0")]
 	private void EnsureFtpWebResponse(Exception exception)
 	{
 	}
 
 	[Token(Token = "0x6000783")]
-	[Address(RVA = "0x4637950", Offset = "0x4637950", VA = "0x4637950")]
+	[Address(RVA = "0x495CA50", Offset = "0x495CA50", VA = "0x495CA50")]
 	internal void DataStreamClosed(CloseExState closeState)
 	{
 	}

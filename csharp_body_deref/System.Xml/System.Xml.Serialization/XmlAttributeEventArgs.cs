@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlAttributeEventArgs
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Serialization;
@@ -26,7 +33,7 @@ public class XmlAttributeEventArgs : EventArgs
 	private int linePosition;
 
 	[Token(Token = "0x6000CB8")]
-	[Address(RVA = "0x44CBC90", Offset = "0x44CBC90", VA = "0x44CBC90")]
+	[Address(RVA = "0x48093F0", Offset = "0x48093F0", VA = "0x48093F0")]
 	internal XmlAttributeEventArgs(XmlAttribute attr, int lineNumber, int linePosition, object o, string qnames)
 	{
 	}

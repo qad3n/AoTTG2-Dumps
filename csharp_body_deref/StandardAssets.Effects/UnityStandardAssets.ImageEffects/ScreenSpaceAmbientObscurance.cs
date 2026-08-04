@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.ScreenSpaceAmbientObscurance
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/ScreenSpaceAmbientObscurance.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -47,27 +54,27 @@ internal class ScreenSpaceAmbientObscurance : PostEffectsBase
 	private Material aoMaterial;
 
 	[Token(Token = "0x6000094")]
-	[Address(RVA = "0x41616F0", Offset = "0x41616F0", VA = "0x41616F0", Slot = "4")]
+	[Address(RVA = "0x44867F0", Offset = "0x44867F0", VA = "0x44867F0", Slot = "4")]
 	public override bool CheckResources()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000095")]
-	[Address(RVA = "0x4161750", Offset = "0x4161750", VA = "0x4161750")]
+	[Address(RVA = "0x4486850", Offset = "0x4486850", VA = "0x4486850")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000096")]
-	[Address(RVA = "0x41617E0", Offset = "0x41617E0", VA = "0x41617E0")]
+	[Address(RVA = "0x44868E0", Offset = "0x44868E0", VA = "0x44868E0")]
 	[ImageEffectOpaque]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x6000097")]
-	[Address(RVA = "0x4162190", Offset = "0x4162190", VA = "0x4162190")]
+	[Address(RVA = "0x4487290", Offset = "0x4487290", VA = "0x4487290")]
 	public ScreenSpaceAmbientObscurance()
 	{
 	}

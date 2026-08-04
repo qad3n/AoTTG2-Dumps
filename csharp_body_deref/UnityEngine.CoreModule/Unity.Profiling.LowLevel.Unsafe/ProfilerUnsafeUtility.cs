@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -14,12 +21,12 @@ public static class ProfilerUnsafeUtility
 {
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x4A85680", Offset = "0x4A85680", VA = "0x4A85680")]
+	[Address(RVA = "0x4DACEA0", Offset = "0x4DACEA0", VA = "0x4DACEA0")]
 	[UnityEngine.Bindings.ThreadSafe]
 	internal unsafe static extern ushort CreateCategory__Unmanaged(byte* name, int nameLen, ProfilerCategoryColor colorIndex);
 
 	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x4A84700", Offset = "0x4A84700", VA = "0x4A84700")]
+	[Address(RVA = "0x4DABF20", Offset = "0x4DABF20", VA = "0x4DABF20")]
 	[UnityEngine.Bindings.ThreadSafe]
 	public static ProfilerCategoryDescription GetCategoryDescription(ushort categoryId)
 	{
@@ -28,42 +35,42 @@ public static class ProfilerUnsafeUtility
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x4A848F0", Offset = "0x4A848F0", VA = "0x4A848F0")]
+	[Address(RVA = "0x4DAC110", Offset = "0x4DAC110", VA = "0x4DAC110")]
 	[UnityEngine.Bindings.ThreadSafe]
 	public static extern IntPtr CreateMarker(string name, ushort categoryId, MarkerFlags flags, int metadataCount);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x4A85700", Offset = "0x4A85700", VA = "0x4A85700")]
+	[Address(RVA = "0x4DACF20", Offset = "0x4DACF20", VA = "0x4DACF20")]
 	[UnityEngine.Bindings.ThreadSafe]
 	internal unsafe static extern IntPtr CreateMarker__Unmanaged(byte* name, int nameLen, ushort categoryId, MarkerFlags flags, int metadataCount);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000063")]
-	[Address(RVA = "0x4A85750", Offset = "0x4A85750", VA = "0x4A85750")]
+	[Address(RVA = "0x4DACF70", Offset = "0x4DACF70", VA = "0x4DACF70")]
 	[UnityEngine.Bindings.ThreadSafe]
 	internal unsafe static extern void SetMarkerMetadata__Unmanaged(IntPtr markerPtr, int index, byte* name, int nameLen, byte type, byte unit);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000064")]
-	[Address(RVA = "0x4A849C0", Offset = "0x4A849C0", VA = "0x4A849C0")]
+	[Address(RVA = "0x4DAC1E0", Offset = "0x4DAC1E0", VA = "0x4DAC1E0")]
 	[UnityEngine.Bindings.ThreadSafe]
 	public static extern void BeginSample(IntPtr markerPtr);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000065")]
-	[Address(RVA = "0x4A84A20", Offset = "0x4A84A20", VA = "0x4A84A20")]
+	[Address(RVA = "0x4DAC240", Offset = "0x4DAC240", VA = "0x4DAC240")]
 	[UnityEngine.Bindings.ThreadSafe]
 	public static extern void EndSample(IntPtr markerPtr);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000066")]
-	[Address(RVA = "0x4A857B0", Offset = "0x4A857B0", VA = "0x4A857B0")]
+	[Address(RVA = "0x4DACFD0", Offset = "0x4DACFD0", VA = "0x4DACFD0")]
 	[UnityEngine.Bindings.ThreadSafe]
 	internal unsafe static extern void* CreateCounterValue__Unmanaged(out IntPtr counterPtr, byte* name, int nameLen, ushort categoryId, MarkerFlags flags, byte dataType, byte dataUnit, int dataSize, ProfilerCounterOptions counterOptions);
 
 	[Token(Token = "0x6000067")]
-	[Address(RVA = "0x4A84760", Offset = "0x4A84760", VA = "0x4A84760")]
+	[Address(RVA = "0x4DABF80", Offset = "0x4DABF80", VA = "0x4DABF80")]
 	internal unsafe static string Utf8ToString(byte* chars, int charsLen)
 	{
 		return null;
@@ -71,6 +78,6 @@ public static class ProfilerUnsafeUtility
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000068")]
-	[Address(RVA = "0x4A856C0", Offset = "0x4A856C0", VA = "0x4A856C0")]
+	[Address(RVA = "0x4DACEE0", Offset = "0x4DACEE0", VA = "0x4DACEE0")]
 	private static extern void GetCategoryDescription_Injected(ushort categoryId, out ProfilerCategoryDescription ret);
 }

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.Configuration.SettingsSection
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Configuration;
 using Il2CppDummyDll;
 
@@ -10,7 +17,7 @@ public sealed class SettingsSection : ConfigurationSection
 	public HttpListenerElement HttpListener
 	{
 		[Token(Token = "0x6001801")]
-		[Address(RVA = "0x45CF990", Offset = "0x45CF990", VA = "0x45CF990")]
+		[Address(RVA = "0x48F4A90", Offset = "0x48F4A90", VA = "0x48F4A90")]
 		get
 		{
 			return null;
@@ -21,7 +28,7 @@ public sealed class SettingsSection : ConfigurationSection
 	public HttpWebRequestElement HttpWebRequest
 	{
 		[Token(Token = "0x6001802")]
-		[Address(RVA = "0x45CF9C0", Offset = "0x45CF9C0", VA = "0x45CF9C0")]
+		[Address(RVA = "0x48F4AC0", Offset = "0x48F4AC0", VA = "0x48F4AC0")]
 		get
 		{
 			return null;
@@ -32,7 +39,7 @@ public sealed class SettingsSection : ConfigurationSection
 	public Ipv6Element Ipv6
 	{
 		[Token(Token = "0x6001803")]
-		[Address(RVA = "0x45CF9F0", Offset = "0x45CF9F0", VA = "0x45CF9F0")]
+		[Address(RVA = "0x48F4AF0", Offset = "0x48F4AF0", VA = "0x48F4AF0")]
 		get
 		{
 			return null;
@@ -43,7 +50,7 @@ public sealed class SettingsSection : ConfigurationSection
 	public PerformanceCountersElement PerformanceCounters
 	{
 		[Token(Token = "0x6001804")]
-		[Address(RVA = "0x45CFA20", Offset = "0x45CFA20", VA = "0x45CFA20")]
+		[Address(RVA = "0x48F4B20", Offset = "0x48F4B20", VA = "0x48F4B20")]
 		get
 		{
 			return null;
@@ -54,7 +61,7 @@ public sealed class SettingsSection : ConfigurationSection
 	protected override ConfigurationPropertyCollection Properties
 	{
 		[Token(Token = "0x6001805")]
-		[Address(RVA = "0x45CFA50", Offset = "0x45CFA50", VA = "0x45CFA50", Slot = "4")]
+		[Address(RVA = "0x48F4B50", Offset = "0x48F4B50", VA = "0x48F4B50", Slot = "4")]
 		get
 		{
 			return null;
@@ -65,7 +72,7 @@ public sealed class SettingsSection : ConfigurationSection
 	public ServicePointManagerElement ServicePointManager
 	{
 		[Token(Token = "0x6001806")]
-		[Address(RVA = "0x45CFA80", Offset = "0x45CFA80", VA = "0x45CFA80")]
+		[Address(RVA = "0x48F4B80", Offset = "0x48F4B80", VA = "0x48F4B80")]
 		get
 		{
 			return null;
@@ -76,7 +83,7 @@ public sealed class SettingsSection : ConfigurationSection
 	public SocketElement Socket
 	{
 		[Token(Token = "0x6001807")]
-		[Address(RVA = "0x45CFAB0", Offset = "0x45CFAB0", VA = "0x45CFAB0")]
+		[Address(RVA = "0x48F4BB0", Offset = "0x48F4BB0", VA = "0x48F4BB0")]
 		get
 		{
 			return null;
@@ -87,7 +94,7 @@ public sealed class SettingsSection : ConfigurationSection
 	public WebProxyScriptElement WebProxyScript
 	{
 		[Token(Token = "0x6001808")]
-		[Address(RVA = "0x45CFAE0", Offset = "0x45CFAE0", VA = "0x45CFAE0")]
+		[Address(RVA = "0x48F4BE0", Offset = "0x48F4BE0", VA = "0x48F4BE0")]
 		get
 		{
 			return null;
@@ -98,7 +105,7 @@ public sealed class SettingsSection : ConfigurationSection
 	public WebUtilityElement WebUtility
 	{
 		[Token(Token = "0x6001809")]
-		[Address(RVA = "0x45CFB10", Offset = "0x45CFB10", VA = "0x45CFB10")]
+		[Address(RVA = "0x48F4C10", Offset = "0x48F4C10", VA = "0x48F4C10")]
 		get
 		{
 			return null;
@@ -109,7 +116,7 @@ public sealed class SettingsSection : ConfigurationSection
 	public WindowsAuthenticationElement WindowsAuthentication
 	{
 		[Token(Token = "0x600180A")]
-		[Address(RVA = "0x45CFB40", Offset = "0x45CFB40", VA = "0x45CFB40")]
+		[Address(RVA = "0x48F4C40", Offset = "0x48F4C40", VA = "0x48F4C40")]
 		get
 		{
 			return null;
@@ -117,7 +124,7 @@ public sealed class SettingsSection : ConfigurationSection
 	}
 
 	[Token(Token = "0x6001800")]
-	[Address(RVA = "0x45CF960", Offset = "0x45CF960", VA = "0x45CF960")]
+	[Address(RVA = "0x48F4A60", Offset = "0x48F4A60", VA = "0x48F4A60")]
 	public SettingsSection()
 	{
 	}

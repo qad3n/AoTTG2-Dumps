@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Experimental.Rendering.RenderGraphModule.RenderGraphExecution
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -11,13 +18,13 @@ public struct RenderGraphExecution : IDisposable
 	private RenderGraph renderGraph;
 
 	[Token(Token = "0x600034E")]
-	[Address(RVA = "0x4855E70", Offset = "0x4855E70", VA = "0x4855E70")]
+	[Address(RVA = "0x4B7AF60", Offset = "0x4B7AF60", VA = "0x4B7AF60")]
 	internal RenderGraphExecution(RenderGraph renderGraph)
 	{
 	}
 
 	[Token(Token = "0x600034F")]
-	[Address(RVA = "0x4855E80", Offset = "0x4855E80", VA = "0x4855E80", Slot = "4")]
+	[Address(RVA = "0x4B7AF70", Offset = "0x4B7AF70", VA = "0x4B7AF70", Slot = "4")]
 	public void Dispose()
 	{
 	}

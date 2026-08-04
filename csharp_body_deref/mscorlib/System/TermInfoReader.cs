@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.TermInfoReader
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System;
@@ -30,72 +37,72 @@ internal class TermInfoReader
 	private int intOffset;
 
 	[Token(Token = "0x6001058")]
-	[Address(RVA = "0x502DA90", Offset = "0x502DA90", VA = "0x502DA90")]
+	[Address(RVA = "0x3D135B0", Offset = "0x3D135B0", VA = "0x3D135B0")]
 	public TermInfoReader(string term, string filename)
 	{
 	}
 
 	[Token(Token = "0x6001059")]
-	[Address(RVA = "0x502DDC0", Offset = "0x502DDC0", VA = "0x502DDC0")]
+	[Address(RVA = "0x3D138E0", Offset = "0x3D138E0", VA = "0x3D138E0")]
 	public TermInfoReader(string term, byte[] buffer)
 	{
 	}
 
 	[Token(Token = "0x600105A")]
-	[Address(RVA = "0x5035770", Offset = "0x5035770", VA = "0x5035770")]
+	[Address(RVA = "0x3D1B290", Offset = "0x3D1B290", VA = "0x3D1B290")]
 	private void DetermineVersion(short magic)
 	{
 	}
 
 	[Token(Token = "0x600105B")]
-	[Address(RVA = "0x5035560", Offset = "0x5035560", VA = "0x5035560")]
+	[Address(RVA = "0x3D1B080", Offset = "0x3D1B080", VA = "0x3D1B080")]
 	private void ReadHeader(byte[] buffer, ref int position)
 	{
 	}
 
 	[Token(Token = "0x600105C")]
-	[Address(RVA = "0x50356E0", Offset = "0x50356E0", VA = "0x50356E0")]
+	[Address(RVA = "0x3D1B200", Offset = "0x3D1B200", VA = "0x3D1B200")]
 	private void ReadNames(byte[] buffer, ref int position)
 	{
 	}
 
 	[Token(Token = "0x600105D")]
-	[Address(RVA = "0x502EEB0", Offset = "0x502EEB0", VA = "0x502EEB0")]
+	[Address(RVA = "0x3D149D0", Offset = "0x3D149D0", VA = "0x3D149D0")]
 	public int Get(System.TermInfoNumbers number)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600105E")]
-	[Address(RVA = "0x502EDA0", Offset = "0x502EDA0", VA = "0x502EDA0")]
+	[Address(RVA = "0x3D148C0", Offset = "0x3D148C0", VA = "0x3D148C0")]
 	public string Get(System.TermInfoStrings tstr)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600105F")]
-	[Address(RVA = "0x5033ED0", Offset = "0x5033ED0", VA = "0x5033ED0")]
+	[Address(RVA = "0x3D199F0", Offset = "0x3D199F0", VA = "0x3D199F0")]
 	public byte[] GetStringBytes(System.TermInfoStrings tstr)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001060")]
-	[Address(RVA = "0x5035810", Offset = "0x5035810", VA = "0x5035810")]
+	[Address(RVA = "0x3D1B330", Offset = "0x3D1B330", VA = "0x3D1B330")]
 	private short GetInt16(byte[] buffer, int offset)
 	{
 		return default(short);
 	}
 
 	[Token(Token = "0x6001061")]
-	[Address(RVA = "0x5035860", Offset = "0x5035860", VA = "0x5035860")]
+	[Address(RVA = "0x3D1B380", Offset = "0x3D1B380", VA = "0x3D1B380")]
 	private string GetString(byte[] buffer, int offset)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001062")]
-	[Address(RVA = "0x50358E0", Offset = "0x50358E0", VA = "0x50358E0")]
+	[Address(RVA = "0x3D1B400", Offset = "0x3D1B400", VA = "0x3D1B400")]
 	private byte[] GetStringBytes(byte[] buffer, int offset)
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.XmlUrlResolver
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Net;
 using System.Net.Cache;
@@ -41,13 +48,13 @@ public class XmlUrlResolver : XmlResolver
 		private ConfiguredTaskAwaitable<System.IO.Stream>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000C30")]
-		[Address(RVA = "0x44C5900", Offset = "0x44C5900", VA = "0x44C5900", Slot = "4")]
+		[Address(RVA = "0x4803060", Offset = "0x4803060", VA = "0x4803060", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000C31")]
-		[Address(RVA = "0x44C5E30", Offset = "0x44C5E30", VA = "0x44C5E30", Slot = "5")]
+		[Address(RVA = "0x4803590", Offset = "0x4803590", VA = "0x4803590", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -74,7 +81,7 @@ public class XmlUrlResolver : XmlResolver
 	private static XmlDownloadManager DownloadManager
 	{
 		[Token(Token = "0x6000C2B")]
-		[Address(RVA = "0x44C5570", Offset = "0x44C5570", VA = "0x44C5570")]
+		[Address(RVA = "0x4802CD0", Offset = "0x4802CD0", VA = "0x4802CD0")]
 		get
 		{
 			return null;
@@ -82,27 +89,27 @@ public class XmlUrlResolver : XmlResolver
 	}
 
 	[Token(Token = "0x6000C2C")]
-	[Address(RVA = "0x44C5640", Offset = "0x44C5640", VA = "0x44C5640")]
+	[Address(RVA = "0x4802DA0", Offset = "0x4802DA0", VA = "0x4802DA0")]
 	public XmlUrlResolver()
 	{
 	}
 
 	[Token(Token = "0x6000C2D")]
-	[Address(RVA = "0x44C5650", Offset = "0x44C5650", VA = "0x44C5650", Slot = "4")]
+	[Address(RVA = "0x4802DB0", Offset = "0x4802DB0", VA = "0x4802DB0", Slot = "4")]
 	public override object GetEntity(Uri absoluteUri, string role, Type ofObjectToReturn)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C2E")]
-	[Address(RVA = "0x44C57B0", Offset = "0x44C57B0", VA = "0x44C57B0", Slot = "5")]
+	[Address(RVA = "0x4802F10", Offset = "0x4802F10", VA = "0x4802F10", Slot = "5")]
 	public override Uri ResolveUri(Uri baseUri, string relativeUri)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C2F")]
-	[Address(RVA = "0x44C57C0", Offset = "0x44C57C0", VA = "0x44C57C0", Slot = "7")]
+	[Address(RVA = "0x4802F20", Offset = "0x4802F20", VA = "0x4802F20", Slot = "7")]
 	[AsyncStateMachine(typeof(_003CGetEntityAsync_003Ed__15))]
 	public override Task<object> GetEntityAsync(Uri absoluteUri, string role, Type ofObjectToReturn)
 	{

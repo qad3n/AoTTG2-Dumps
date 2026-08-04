@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Settings.AbilitySettings
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Settings/AbilitySettings.c
+// Prior real C# source (older reference): Assets/Scripts/Settings/AbilitySettings.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Settings;
@@ -45,7 +52,7 @@ internal class AbilitySettings : SaveableSettingsContainer
 	protected override string FileName
 	{
 		[Token(Token = "0x60002FD")]
-		[Address(RVA = "0x3C8F2C0", Offset = "0x3C8F2C0", VA = "0x3C8F2C0", Slot = "14")]
+		[Address(RVA = "0x3F84C10", Offset = "0x3F84C10", VA = "0x3F84C10", Slot = "14")]
 		get
 		{
 			return null;
@@ -53,7 +60,7 @@ internal class AbilitySettings : SaveableSettingsContainer
 	}
 
 	[Token(Token = "0x60002FE")]
-	[Address(RVA = "0x3C8F2F0", Offset = "0x3C8F2F0", VA = "0x3C8F2F0")]
+	[Address(RVA = "0x3F84C40", Offset = "0x3F84C40", VA = "0x3F84C40")]
 	public AbilitySettings()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.Vignette
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -58,14 +65,14 @@ public sealed class Vignette : PostProcessEffectSettings
 	public FloatParameter opacity;
 
 	[Token(Token = "0x600009C")]
-	[Address(RVA = "0x4822A70", Offset = "0x4822A70", VA = "0x4822A70", Slot = "4")]
+	[Address(RVA = "0x4B47B60", Offset = "0x4B47B60", VA = "0x4B47B60", Slot = "4")]
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600009D")]
-	[Address(RVA = "0x4822B30", Offset = "0x4822B30", VA = "0x4822B30")]
+	[Address(RVA = "0x4B47C20", Offset = "0x4B47C20", VA = "0x4B47C20")]
 	public Vignette()
 	{
 	}

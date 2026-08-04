@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.Datatype_anySimpleType
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -17,7 +24,7 @@ internal class Datatype_anySimpleType : DatatypeImplementation
 	internal override FacetsChecker FacetsChecker
 	{
 		[Token(Token = "0x600109A")]
-		[Address(RVA = "0x4520350", Offset = "0x4520350", VA = "0x4520350", Slot = "18")]
+		[Address(RVA = "0x485DAB0", Offset = "0x485DAB0", VA = "0x485DAB0", Slot = "18")]
 		get
 		{
 			return null;
@@ -28,7 +35,7 @@ internal class Datatype_anySimpleType : DatatypeImplementation
 	public override Type ValueType
 	{
 		[Token(Token = "0x600109B")]
-		[Address(RVA = "0x45203C0", Offset = "0x45203C0", VA = "0x45203C0", Slot = "4")]
+		[Address(RVA = "0x485DB20", Offset = "0x485DB20", VA = "0x485DB20", Slot = "4")]
 		get
 		{
 			return null;
@@ -39,7 +46,7 @@ internal class Datatype_anySimpleType : DatatypeImplementation
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x600109C")]
-		[Address(RVA = "0x4520430", Offset = "0x4520430", VA = "0x4520430", Slot = "8")]
+		[Address(RVA = "0x485DB90", Offset = "0x485DB90", VA = "0x485DB90", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -50,7 +57,7 @@ internal class Datatype_anySimpleType : DatatypeImplementation
 	internal override Type ListValueType
 	{
 		[Token(Token = "0x600109D")]
-		[Address(RVA = "0x4520440", Offset = "0x4520440", VA = "0x4520440", Slot = "26")]
+		[Address(RVA = "0x485DBA0", Offset = "0x485DBA0", VA = "0x485DBA0", Slot = "26")]
 		get
 		{
 			return null;
@@ -61,7 +68,7 @@ internal class Datatype_anySimpleType : DatatypeImplementation
 	public override XmlTokenizedType TokenizedType
 	{
 		[Token(Token = "0x600109E")]
-		[Address(RVA = "0x45204B0", Offset = "0x45204B0", VA = "0x45204B0", Slot = "5")]
+		[Address(RVA = "0x485DC10", Offset = "0x485DC10", VA = "0x485DC10", Slot = "5")]
 		get
 		{
 			return default(XmlTokenizedType);
@@ -72,7 +79,7 @@ internal class Datatype_anySimpleType : DatatypeImplementation
 	internal override RestrictionFlags ValidRestrictionFlags
 	{
 		[Token(Token = "0x600109F")]
-		[Address(RVA = "0x45204C0", Offset = "0x45204C0", VA = "0x45204C0", Slot = "27")]
+		[Address(RVA = "0x485DC20", Offset = "0x485DC20", VA = "0x485DC20", Slot = "27")]
 		get
 		{
 			return default(RestrictionFlags);
@@ -83,7 +90,7 @@ internal class Datatype_anySimpleType : DatatypeImplementation
 	internal override XmlSchemaWhiteSpace BuiltInWhitespaceFacet
 	{
 		[Token(Token = "0x60010A0")]
-		[Address(RVA = "0x45204D0", Offset = "0x45204D0", VA = "0x45204D0", Slot = "19")]
+		[Address(RVA = "0x485DC30", Offset = "0x485DC30", VA = "0x485DC30", Slot = "19")]
 		get
 		{
 			return default(XmlSchemaWhiteSpace);
@@ -91,28 +98,28 @@ internal class Datatype_anySimpleType : DatatypeImplementation
 	}
 
 	[Token(Token = "0x6001099")]
-	[Address(RVA = "0x45202E0", Offset = "0x45202E0", VA = "0x45202E0", Slot = "25")]
+	[Address(RVA = "0x485DA40", Offset = "0x485DA40", VA = "0x485DA40", Slot = "25")]
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60010A1")]
-	[Address(RVA = "0x45204E0", Offset = "0x45204E0", VA = "0x45204E0", Slot = "14")]
+	[Address(RVA = "0x485DC40", Offset = "0x485DC40", VA = "0x485DC40", Slot = "14")]
 	internal override int Compare(object value1, object value2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60010A2")]
-	[Address(RVA = "0x4520540", Offset = "0x4520540", VA = "0x4520540", Slot = "16")]
+	[Address(RVA = "0x485DCA0", Offset = "0x485DCA0", VA = "0x485DCA0", Slot = "16")]
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60010A3")]
-	[Address(RVA = "0x4518190", Offset = "0x4518190", VA = "0x4518190")]
+	[Address(RVA = "0x48558F0", Offset = "0x48558F0", VA = "0x48558F0")]
 	public Datatype_anySimpleType()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.DoubleField
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Scripting.APIUpdating;
 
@@ -11,7 +18,7 @@ public class DoubleField : TextValueField<double>
 	public new class UxmlFactory : UxmlFactory<DoubleField, UxmlTraits>
 	{
 		[Token(Token = "0x60003C2")]
-		[Address(RVA = "0x4C104B0", Offset = "0x4C104B0", VA = "0x4C104B0")]
+		[Address(RVA = "0x4F37DE0", Offset = "0x4F37DE0", VA = "0x4F37DE0")]
 		public UxmlFactory()
 		{
 		}
@@ -21,7 +28,7 @@ public class DoubleField : TextValueField<double>
 	public new class UxmlTraits : TextValueFieldTraits<double, UxmlDoubleAttributeDescription>
 	{
 		[Token(Token = "0x60003C3")]
-		[Address(RVA = "0x4C104F0", Offset = "0x4C104F0", VA = "0x4C104F0")]
+		[Address(RVA = "0x4F37E20", Offset = "0x4F37E20", VA = "0x4F37E20")]
 		public UxmlTraits()
 		{
 		}
@@ -34,7 +41,7 @@ public class DoubleField : TextValueField<double>
 		private DoubleField parentDoubleField
 		{
 			[Token(Token = "0x60003C4")]
-			[Address(RVA = "0x4C10530", Offset = "0x4C10530", VA = "0x4C10530")]
+			[Address(RVA = "0x4F37E60", Offset = "0x4F37E60", VA = "0x4F37E60")]
 			get
 			{
 				return null;
@@ -45,7 +52,7 @@ public class DoubleField : TextValueField<double>
 		protected override string allowedCharacters
 		{
 			[Token(Token = "0x60003C6")]
-			[Address(RVA = "0x4C105A0", Offset = "0x4C105A0", VA = "0x4C105A0", Slot = "100")]
+			[Address(RVA = "0x4F37ED0", Offset = "0x4F37ED0", VA = "0x4F37ED0", Slot = "100")]
 			get
 			{
 				return null;
@@ -53,26 +60,26 @@ public class DoubleField : TextValueField<double>
 		}
 
 		[Token(Token = "0x60003C5")]
-		[Address(RVA = "0x4C10260", Offset = "0x4C10260", VA = "0x4C10260")]
+		[Address(RVA = "0x4F37B90", Offset = "0x4F37B90", VA = "0x4F37B90")]
 		internal DoubleInput()
 		{
 		}
 
 		[Token(Token = "0x60003C7")]
-		[Address(RVA = "0x4C10610", Offset = "0x4C10610", VA = "0x4C10610", Slot = "101")]
+		[Address(RVA = "0x4F37F40", Offset = "0x4F37F40", VA = "0x4F37F40", Slot = "101")]
 		public override void ApplyInputDeviceDelta(Vector3 delta, DeltaSpeed speed, double startValue)
 		{
 		}
 
 		[Token(Token = "0x60003C8")]
-		[Address(RVA = "0x4C10820", Offset = "0x4C10820", VA = "0x4C10820", Slot = "102")]
+		[Address(RVA = "0x4F38150", Offset = "0x4F38150", VA = "0x4F38150", Slot = "102")]
 		protected override string ValueToString(double v)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60003C9")]
-		[Address(RVA = "0x4C10870", Offset = "0x4C10870", VA = "0x4C10870", Slot = "98")]
+		[Address(RVA = "0x4F381A0", Offset = "0x4F381A0", VA = "0x4F381A0", Slot = "98")]
 		protected override double StringToValue(string str)
 		{
 			return default(double);
@@ -95,7 +102,7 @@ public class DoubleField : TextValueField<double>
 	private DoubleInput doubleInput
 	{
 		[Token(Token = "0x60003BA")]
-		[Address(RVA = "0x4C0FE90", Offset = "0x4C0FE90", VA = "0x4C0FE90")]
+		[Address(RVA = "0x4F377C0", Offset = "0x4F377C0", VA = "0x4F377C0")]
 		get
 		{
 			return null;
@@ -103,40 +110,40 @@ public class DoubleField : TextValueField<double>
 	}
 
 	[Token(Token = "0x60003BB")]
-	[Address(RVA = "0x4C0FF00", Offset = "0x4C0FF00", VA = "0x4C0FF00", Slot = "115")]
+	[Address(RVA = "0x4F37830", Offset = "0x4F37830", VA = "0x4F37830", Slot = "115")]
 	protected override string ValueToString(double v)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003BC")]
-	[Address(RVA = "0x4C0FFA0", Offset = "0x4C0FFA0", VA = "0x4C0FFA0", Slot = "116")]
+	[Address(RVA = "0x4F378D0", Offset = "0x4F378D0", VA = "0x4F378D0", Slot = "116")]
 	protected override double StringToValue(string str)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x60003BD")]
-	[Address(RVA = "0x4C10070", Offset = "0x4C10070", VA = "0x4C10070")]
+	[Address(RVA = "0x4F379A0", Offset = "0x4F379A0", VA = "0x4F379A0")]
 	public DoubleField()
 	{
 	}
 
 	[Token(Token = "0x60003BE")]
-	[Address(RVA = "0x4C10080", Offset = "0x4C10080", VA = "0x4C10080")]
+	[Address(RVA = "0x4F379B0", Offset = "0x4F379B0", VA = "0x4F379B0")]
 	public DoubleField(string label, int maxLength = -1)
 	{
 	}
 
 	[Token(Token = "0x60003BF")]
-	[Address(RVA = "0x4C102F0", Offset = "0x4C102F0", VA = "0x4C102F0", Slot = "125")]
+	[Address(RVA = "0x4F37C20", Offset = "0x4F37C20", VA = "0x4F37C20", Slot = "125")]
 	internal override bool CanTryParse(string textString)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60003C0")]
-	[Address(RVA = "0x4C10310", Offset = "0x4C10310", VA = "0x4C10310", Slot = "124")]
+	[Address(RVA = "0x4F37C40", Offset = "0x4F37C40", VA = "0x4F37C40", Slot = "124")]
 	public override void ApplyInputDeviceDelta(Vector3 delta, DeltaSpeed speed, double startValue)
 	{
 	}

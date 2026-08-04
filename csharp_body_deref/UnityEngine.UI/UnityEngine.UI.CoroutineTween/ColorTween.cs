@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.CoroutineTween.ColorTween
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Events;
 
@@ -21,7 +28,7 @@ internal struct ColorTween : ITweenValue
 	public class ColorTweenCallback : UnityEvent<Color>
 	{
 		[Token(Token = "0x600056D")]
-		[Address(RVA = "0x4DC92F0", Offset = "0x4DC92F0", VA = "0x4DC92F0")]
+		[Address(RVA = "0x50F0C40", Offset = "0x50F0C40", VA = "0x50F0C40")]
 		public ColorTweenCallback()
 		{
 		}
@@ -55,13 +62,13 @@ internal struct ColorTween : ITweenValue
 	public Color startColor
 	{
 		[Token(Token = "0x600055E")]
-		[Address(RVA = "0x4DC90C0", Offset = "0x4DC90C0", VA = "0x4DC90C0")]
+		[Address(RVA = "0x50F0A10", Offset = "0x50F0A10", VA = "0x50F0A10")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x600055F")]
-		[Address(RVA = "0x4DC90D0", Offset = "0x4DC90D0", VA = "0x4DC90D0")]
+		[Address(RVA = "0x50F0A20", Offset = "0x50F0A20", VA = "0x50F0A20")]
 		set
 		{
 		}
@@ -71,13 +78,13 @@ internal struct ColorTween : ITweenValue
 	public Color targetColor
 	{
 		[Token(Token = "0x6000560")]
-		[Address(RVA = "0x4DC90E0", Offset = "0x4DC90E0", VA = "0x4DC90E0")]
+		[Address(RVA = "0x50F0A30", Offset = "0x50F0A30", VA = "0x50F0A30")]
 		get
 		{
 			return default(Color);
 		}
 		[Token(Token = "0x6000561")]
-		[Address(RVA = "0x4DC90F0", Offset = "0x4DC90F0", VA = "0x4DC90F0")]
+		[Address(RVA = "0x50F0A40", Offset = "0x50F0A40", VA = "0x50F0A40")]
 		set
 		{
 		}
@@ -87,13 +94,13 @@ internal struct ColorTween : ITweenValue
 	public ColorTweenMode tweenMode
 	{
 		[Token(Token = "0x6000562")]
-		[Address(RVA = "0x4DC9100", Offset = "0x4DC9100", VA = "0x4DC9100")]
+		[Address(RVA = "0x50F0A50", Offset = "0x50F0A50", VA = "0x50F0A50")]
 		get
 		{
 			return default(ColorTweenMode);
 		}
 		[Token(Token = "0x6000563")]
-		[Address(RVA = "0x4DC9110", Offset = "0x4DC9110", VA = "0x4DC9110")]
+		[Address(RVA = "0x50F0A60", Offset = "0x50F0A60", VA = "0x50F0A60")]
 		set
 		{
 		}
@@ -103,13 +110,13 @@ internal struct ColorTween : ITweenValue
 	public float duration
 	{
 		[Token(Token = "0x6000564")]
-		[Address(RVA = "0x4DC9120", Offset = "0x4DC9120", VA = "0x4DC9120", Slot = "6")]
+		[Address(RVA = "0x50F0A70", Offset = "0x50F0A70", VA = "0x50F0A70", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000565")]
-		[Address(RVA = "0x4DC9130", Offset = "0x4DC9130", VA = "0x4DC9130")]
+		[Address(RVA = "0x50F0A80", Offset = "0x50F0A80", VA = "0x50F0A80")]
 		set
 		{
 		}
@@ -119,46 +126,46 @@ internal struct ColorTween : ITweenValue
 	public bool ignoreTimeScale
 	{
 		[Token(Token = "0x6000566")]
-		[Address(RVA = "0x4DC9140", Offset = "0x4DC9140", VA = "0x4DC9140", Slot = "5")]
+		[Address(RVA = "0x50F0A90", Offset = "0x50F0A90", VA = "0x50F0A90", Slot = "5")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000567")]
-		[Address(RVA = "0x4DC9150", Offset = "0x4DC9150", VA = "0x4DC9150")]
+		[Address(RVA = "0x50F0AA0", Offset = "0x50F0AA0", VA = "0x50F0AA0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000568")]
-	[Address(RVA = "0x4DC9160", Offset = "0x4DC9160", VA = "0x4DC9160", Slot = "4")]
+	[Address(RVA = "0x50F0AB0", Offset = "0x50F0AB0", VA = "0x50F0AB0", Slot = "4")]
 	public void TweenValue(float floatPercentage)
 	{
 	}
 
 	[Token(Token = "0x6000569")]
-	[Address(RVA = "0x4DC9240", Offset = "0x4DC9240", VA = "0x4DC9240")]
+	[Address(RVA = "0x50F0B90", Offset = "0x50F0B90", VA = "0x50F0B90")]
 	public void AddOnChangedCallback(UnityAction<Color> callback)
 	{
 	}
 
 	[Token(Token = "0x600056A")]
-	[Address(RVA = "0x4DC9330", Offset = "0x4DC9330", VA = "0x4DC9330")]
+	[Address(RVA = "0x50F0C80", Offset = "0x50F0C80", VA = "0x50F0C80")]
 	public bool GetIgnoreTimescale()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600056B")]
-	[Address(RVA = "0x4DC9340", Offset = "0x4DC9340", VA = "0x4DC9340")]
+	[Address(RVA = "0x50F0C90", Offset = "0x50F0C90", VA = "0x50F0C90")]
 	public float GetDuration()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600056C")]
-	[Address(RVA = "0x4DC9230", Offset = "0x4DC9230", VA = "0x4DC9230", Slot = "7")]
+	[Address(RVA = "0x50F0B80", Offset = "0x50F0B80", VA = "0x50F0B80", Slot = "7")]
 	public bool ValidTarget()
 	{
 		return default(bool);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.Spline
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -45,33 +52,33 @@ public sealed class Spline
 	public float[] cachedData;
 
 	[Token(Token = "0x600024B")]
-	[Address(RVA = "0x4840530", Offset = "0x4840530", VA = "0x4840530")]
+	[Address(RVA = "0x4B65620", Offset = "0x4B65620", VA = "0x4B65620")]
 	public Spline(AnimationCurve curve, float zeroValue, bool loop, Vector2 bounds)
 	{
 	}
 
 	[Token(Token = "0x600024C")]
-	[Address(RVA = "0x4840640", Offset = "0x4840640", VA = "0x4840640")]
+	[Address(RVA = "0x4B65730", Offset = "0x4B65730", VA = "0x4B65730")]
 	public void Cache(int frame)
 	{
 	}
 
 	[Token(Token = "0x600024D")]
-	[Address(RVA = "0x48409B0", Offset = "0x48409B0", VA = "0x48409B0")]
+	[Address(RVA = "0x4B65AA0", Offset = "0x4B65AA0", VA = "0x4B65AA0")]
 	public float Evaluate(float t, int length)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600024E")]
-	[Address(RVA = "0x48409F0", Offset = "0x48409F0", VA = "0x48409F0")]
+	[Address(RVA = "0x4B65AE0", Offset = "0x4B65AE0", VA = "0x4B65AE0")]
 	public float Evaluate(float t)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600024F")]
-	[Address(RVA = "0x4840A60", Offset = "0x4840A60", VA = "0x4840A60", Slot = "2")]
+	[Address(RVA = "0x4B65B50", Offset = "0x4B65B50", VA = "0x4B65B50", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

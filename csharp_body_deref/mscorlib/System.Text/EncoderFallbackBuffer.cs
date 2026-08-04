@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.EncoderFallbackBuffer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Text;
@@ -56,45 +63,45 @@ public abstract class EncoderFallbackBuffer
 	public abstract bool MovePrevious();
 
 	[Token(Token = "0x60015A9")]
-	[Address(RVA = "0x4E19320", Offset = "0x4E19320", VA = "0x4E19320", Slot = "9")]
+	[Address(RVA = "0x3AFEE40", Offset = "0x3AFEE40", VA = "0x3AFEE40", Slot = "9")]
 	public virtual void Reset()
 	{
 	}
 
 	[Token(Token = "0x60015AA")]
-	[Address(RVA = "0x4E19350", Offset = "0x4E19350", VA = "0x4E19350")]
+	[Address(RVA = "0x3AFEE70", Offset = "0x3AFEE70", VA = "0x3AFEE70")]
 	internal void InternalReset()
 	{
 	}
 
 	[Token(Token = "0x60015AB")]
-	[Address(RVA = "0x4E19380", Offset = "0x4E19380", VA = "0x4E19380")]
+	[Address(RVA = "0x3AFEEA0", Offset = "0x3AFEEA0", VA = "0x3AFEEA0")]
 	internal unsafe void InternalInitialize(char* charStart, char* charEnd, System.Text.EncoderNLS encoder, bool setEncoder)
 	{
 	}
 
 	[Token(Token = "0x60015AC")]
-	[Address(RVA = "0x4E193C0", Offset = "0x4E193C0", VA = "0x4E193C0")]
+	[Address(RVA = "0x3AFEEE0", Offset = "0x3AFEEE0", VA = "0x3AFEEE0")]
 	internal char InternalGetNextChar()
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x60015AD")]
-	[Address(RVA = "0x4E193F0", Offset = "0x4E193F0", VA = "0x4E193F0", Slot = "10")]
+	[Address(RVA = "0x3AFEF10", Offset = "0x3AFEF10", VA = "0x3AFEF10", Slot = "10")]
 	internal unsafe virtual bool InternalFallback(char ch, ref char* chars)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60015AE")]
-	[Address(RVA = "0x4E19550", Offset = "0x4E19550", VA = "0x4E19550")]
+	[Address(RVA = "0x3AFF070", Offset = "0x3AFF070", VA = "0x3AFF070")]
 	internal void ThrowLastCharRecursive(int charRecursive)
 	{
 	}
 
 	[Token(Token = "0x60015AF")]
-	[Address(RVA = "0x4E18880", Offset = "0x4E18880", VA = "0x4E18880")]
+	[Address(RVA = "0x3AFE3A0", Offset = "0x3AFE3A0", VA = "0x3AFE3A0")]
 	protected EncoderFallbackBuffer()
 	{
 	}

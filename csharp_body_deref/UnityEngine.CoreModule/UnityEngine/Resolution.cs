@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Resolution
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
 
@@ -23,13 +30,13 @@ public struct Resolution
 	public int width
 	{
 		[Token(Token = "0x600037F")]
-		[Address(RVA = "0x4A9CB20", Offset = "0x4A9CB20", VA = "0x4A9CB20")]
+		[Address(RVA = "0x4DC4340", Offset = "0x4DC4340", VA = "0x4DC4340")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000380")]
-		[Address(RVA = "0x4A9CB30", Offset = "0x4A9CB30", VA = "0x4A9CB30")]
+		[Address(RVA = "0x4DC4350", Offset = "0x4DC4350", VA = "0x4DC4350")]
 		set
 		{
 		}
@@ -39,20 +46,20 @@ public struct Resolution
 	public int height
 	{
 		[Token(Token = "0x6000381")]
-		[Address(RVA = "0x4A9CB40", Offset = "0x4A9CB40", VA = "0x4A9CB40")]
+		[Address(RVA = "0x4DC4360", Offset = "0x4DC4360", VA = "0x4DC4360")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000382")]
-		[Address(RVA = "0x4A9CB50", Offset = "0x4A9CB50", VA = "0x4A9CB50")]
+		[Address(RVA = "0x4DC4370", Offset = "0x4DC4370", VA = "0x4DC4370")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000383")]
-	[Address(RVA = "0x4A9CB60", Offset = "0x4A9CB60", VA = "0x4A9CB60", Slot = "3")]
+	[Address(RVA = "0x4DC4380", Offset = "0x4DC4380", VA = "0x4DC4380", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

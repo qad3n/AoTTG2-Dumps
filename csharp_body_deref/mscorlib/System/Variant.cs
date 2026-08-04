@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Variant
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -88,7 +95,7 @@ internal struct Variant
 	public System.BRECORD bRecord;
 
 	[Token(Token = "0x600109D")]
-	[Address(RVA = "0x5037E80", Offset = "0x5037E80", VA = "0x5037E80")]
+	[Address(RVA = "0x3D1D9A0", Offset = "0x3D1D9A0", VA = "0x3D1D9A0")]
 	public void Clear()
 	{
 	}

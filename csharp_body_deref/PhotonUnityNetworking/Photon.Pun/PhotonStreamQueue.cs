@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Pun.PhotonStreamQueue
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/Code/PhotonStreamQueue.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -39,51 +46,51 @@ public class PhotonStreamQueue
 	private bool m_IsWriting;
 
 	[Token(Token = "0x60000F6")]
-	[Address(RVA = "0x3C15190", Offset = "0x3C15190", VA = "0x3C15190")]
+	[Address(RVA = "0x3EF8690", Offset = "0x3EF8690", VA = "0x3EF8690")]
 	public PhotonStreamQueue(int sampleRate)
 	{
 	}
 
 	[Token(Token = "0x60000F7")]
-	[Address(RVA = "0x3C15220", Offset = "0x3C15220", VA = "0x3C15220")]
+	[Address(RVA = "0x3EF8720", Offset = "0x3EF8720", VA = "0x3EF8720")]
 	private void BeginWritePackage()
 	{
 	}
 
 	[Token(Token = "0x60000F8")]
-	[Address(RVA = "0x3C15500", Offset = "0x3C15500", VA = "0x3C15500")]
+	[Address(RVA = "0x3EF8A00", Offset = "0x3EF8A00", VA = "0x3EF8A00")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x60000F9")]
-	[Address(RVA = "0x3C15560", Offset = "0x3C15560", VA = "0x3C15560")]
+	[Address(RVA = "0x3EF8A60", Offset = "0x3EF8A60", VA = "0x3EF8A60")]
 	public void SendNext(object obj)
 	{
 	}
 
 	[Token(Token = "0x60000FA")]
-	[Address(RVA = "0x3C15620", Offset = "0x3C15620", VA = "0x3C15620")]
+	[Address(RVA = "0x3EF8B20", Offset = "0x3EF8B20", VA = "0x3EF8B20")]
 	public bool HasQueuedObjects()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000FB")]
-	[Address(RVA = "0x3C15630", Offset = "0x3C15630", VA = "0x3C15630")]
+	[Address(RVA = "0x3EF8B30", Offset = "0x3EF8B30", VA = "0x3EF8B30")]
 	public object ReceiveNext()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000FC")]
-	[Address(RVA = "0x3C156A0", Offset = "0x3C156A0", VA = "0x3C156A0")]
+	[Address(RVA = "0x3EF8BA0", Offset = "0x3EF8BA0", VA = "0x3EF8BA0")]
 	public void Serialize(PhotonStream stream)
 	{
 	}
 
 	[Token(Token = "0x60000FD")]
-	[Address(RVA = "0x3C157C0", Offset = "0x3C157C0", VA = "0x3C157C0")]
+	[Address(RVA = "0x3EF8CC0", Offset = "0x3EF8CC0", VA = "0x3EF8CC0")]
 	public void Deserialize(PhotonStream stream)
 	{
 	}

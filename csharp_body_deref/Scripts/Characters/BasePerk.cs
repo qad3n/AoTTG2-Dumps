@@ -1,66 +1,73 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Characters.BasePerk
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Characters/BasePerk.c
+// Prior real C# source (older reference): Assets/Scripts/Characters/Human/Perks/BasePerk.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x20004CA")]
+[Token(Token = "0x200050F")]
 internal class BasePerk
 {
-	[Token(Token = "0x400169D")]
+	[Token(Token = "0x40017AE")]
 	[FieldOffset(Offset = "0x10")]
 	public bool Enabled;
 
-	[Token(Token = "0x400169E")]
+	[Token(Token = "0x40017AF")]
 	[FieldOffset(Offset = "0x14")]
 	public int CurrPoints;
 
-	[Token(Token = "0x400169F")]
+	[Token(Token = "0x40017B0")]
 	[FieldOffset(Offset = "0x18")]
 	protected Dictionary<string, int> Requirements;
 
-	[Token(Token = "0x17000969")]
+	[Token(Token = "0x170009D3")]
 	public virtual string Name
 	{
-		[Token(Token = "0x6003339")]
-		[Address(RVA = "0x3EDA2D0", Offset = "0x3EDA2D0", VA = "0x3EDA2D0", Slot = "4")]
+		[Token(Token = "0x6003547")]
+		[Address(RVA = "0x41E6B90", Offset = "0x41E6B90", VA = "0x41E6B90", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700096A")]
+	[Token(Token = "0x170009D4")]
 	public virtual int MaxPoints
 	{
-		[Token(Token = "0x600333A")]
-		[Address(RVA = "0x3EDA300", Offset = "0x3EDA300", VA = "0x3EDA300", Slot = "5")]
+		[Token(Token = "0x6003548")]
+		[Address(RVA = "0x41E6BC0", Offset = "0x41E6BC0", VA = "0x41E6BC0", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x600333B")]
-	[Address(RVA = "0x3EDA240", Offset = "0x3EDA240", VA = "0x3EDA240")]
+	[Token(Token = "0x6003549")]
+	[Address(RVA = "0x41E6B00", Offset = "0x41E6B00", VA = "0x41E6B00")]
 	public BasePerk()
 	{
 	}
 
-	[Token(Token = "0x600333C")]
-	[Address(RVA = "0x3EDA310", Offset = "0x3EDA310", VA = "0x3EDA310", Slot = "6")]
+	[Token(Token = "0x600354A")]
+	[Address(RVA = "0x41E6BD0", Offset = "0x41E6BD0", VA = "0x41E6BD0", Slot = "6")]
 	protected virtual void SetupRequirements()
 	{
 	}
 
-	[Token(Token = "0x600333D")]
-	[Address(RVA = "0x3EDA320", Offset = "0x3EDA320", VA = "0x3EDA320", Slot = "7")]
+	[Token(Token = "0x600354B")]
+	[Address(RVA = "0x41E6BE0", Offset = "0x41E6BE0", VA = "0x41E6BE0", Slot = "7")]
 	public virtual bool HasRequirements(Dictionary<string, BasePerk> perks)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600333E")]
-	[Address(RVA = "0x3EDA5B0", Offset = "0x3EDA5B0", VA = "0x3EDA5B0", Slot = "8")]
+	[Token(Token = "0x600354C")]
+	[Address(RVA = "0x41E6E70", Offset = "0x41E6E70", VA = "0x41E6E70", Slot = "8")]
 	public virtual bool Validate(Dictionary<string, BasePerk> perks)
 	{
 		return default(bool);

@@ -1,139 +1,146 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: CustomLogic.Editor.Models.CLParameter
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/CustomLogic/Editor/Models/CLParameter.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
 namespace CustomLogic.Editor.Models;
 
-[Token(Token = "0x2000477")]
+[Token(Token = "0x20004BC")]
 internal class CLParameter
 {
-	[Token(Token = "0x17000917")]
+	[Token(Token = "0x17000981")]
 	public string Name
 	{
-		[Token(Token = "0x6002FBC")]
-		[Address(RVA = "0x3E7A750", Offset = "0x3E7A750", VA = "0x3E7A750")]
+		[Token(Token = "0x60031C9")]
+		[Address(RVA = "0x4186C30", Offset = "0x4186C30", VA = "0x4186C30")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002FBD")]
-		[Address(RVA = "0x3E7A760", Offset = "0x3E7A760", VA = "0x3E7A760")]
+		[Token(Token = "0x60031CA")]
+		[Address(RVA = "0x4186C40", Offset = "0x4186C40", VA = "0x4186C40")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000918")]
+	[Token(Token = "0x17000982")]
 	public string Description
 	{
-		[Token(Token = "0x6002FBE")]
-		[Address(RVA = "0x3E7A770", Offset = "0x3E7A770", VA = "0x3E7A770")]
+		[Token(Token = "0x60031CB")]
+		[Address(RVA = "0x4186C50", Offset = "0x4186C50", VA = "0x4186C50")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002FBF")]
-		[Address(RVA = "0x3E7A780", Offset = "0x3E7A780", VA = "0x3E7A780")]
+		[Token(Token = "0x60031CC")]
+		[Address(RVA = "0x4186C60", Offset = "0x4186C60", VA = "0x4186C60")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000919")]
+	[Token(Token = "0x17000983")]
 	public TypeReference Type
 	{
-		[Token(Token = "0x6002FC0")]
-		[Address(RVA = "0x3E7A790", Offset = "0x3E7A790", VA = "0x3E7A790")]
+		[Token(Token = "0x60031CD")]
+		[Address(RVA = "0x4186C70", Offset = "0x4186C70", VA = "0x4186C70")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002FC1")]
-		[Address(RVA = "0x3E7A7A0", Offset = "0x3E7A7A0", VA = "0x3E7A7A0")]
+		[Token(Token = "0x60031CE")]
+		[Address(RVA = "0x4186C80", Offset = "0x4186C80", VA = "0x4186C80")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700091A")]
+	[Token(Token = "0x17000984")]
 	public string DefaultValue
 	{
-		[Token(Token = "0x6002FC2")]
-		[Address(RVA = "0x3E7A7B0", Offset = "0x3E7A7B0", VA = "0x3E7A7B0")]
+		[Token(Token = "0x60031CF")]
+		[Address(RVA = "0x4186C90", Offset = "0x4186C90", VA = "0x4186C90")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002FC3")]
-		[Address(RVA = "0x3E7A7C0", Offset = "0x3E7A7C0", VA = "0x3E7A7C0")]
+		[Token(Token = "0x60031D0")]
+		[Address(RVA = "0x4186CA0", Offset = "0x4186CA0", VA = "0x4186CA0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700091B")]
+	[Token(Token = "0x17000985")]
 	public bool IsOptional
 	{
-		[Token(Token = "0x6002FC4")]
-		[Address(RVA = "0x3E7A7D0", Offset = "0x3E7A7D0", VA = "0x3E7A7D0")]
+		[Token(Token = "0x60031D1")]
+		[Address(RVA = "0x4186CB0", Offset = "0x4186CB0", VA = "0x4186CB0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6002FC5")]
-		[Address(RVA = "0x3E7A7E0", Offset = "0x3E7A7E0", VA = "0x3E7A7E0")]
+		[Token(Token = "0x60031D2")]
+		[Address(RVA = "0x4186CC0", Offset = "0x4186CC0", VA = "0x4186CC0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700091C")]
+	[Token(Token = "0x17000986")]
 	public bool IsVariadic
 	{
-		[Token(Token = "0x6002FC6")]
-		[Address(RVA = "0x3E7A7F0", Offset = "0x3E7A7F0", VA = "0x3E7A7F0")]
+		[Token(Token = "0x60031D3")]
+		[Address(RVA = "0x4186CD0", Offset = "0x4186CD0", VA = "0x4186CD0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6002FC7")]
-		[Address(RVA = "0x3E7A800", Offset = "0x3E7A800", VA = "0x3E7A800")]
+		[Token(Token = "0x60031D4")]
+		[Address(RVA = "0x4186CE0", Offset = "0x4186CE0", VA = "0x4186CE0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700091D")]
+	[Token(Token = "0x17000987")]
 	public string[] EnumNames
 	{
-		[Token(Token = "0x6002FC8")]
-		[Address(RVA = "0x3E7A810", Offset = "0x3E7A810", VA = "0x3E7A810")]
+		[Token(Token = "0x60031D5")]
+		[Address(RVA = "0x4186CF0", Offset = "0x4186CF0", VA = "0x4186CF0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002FC9")]
-		[Address(RVA = "0x3E7A820", Offset = "0x3E7A820", VA = "0x3E7A820")]
+		[Token(Token = "0x60031D6")]
+		[Address(RVA = "0x4186D00", Offset = "0x4186D00", VA = "0x4186D00")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6002FCA")]
-	[Address(RVA = "0x3E7A830", Offset = "0x3E7A830", VA = "0x3E7A830")]
+	[Token(Token = "0x60031D7")]
+	[Address(RVA = "0x4186D10", Offset = "0x4186D10", VA = "0x4186D10")]
 	public CLParameter()
 	{
 	}

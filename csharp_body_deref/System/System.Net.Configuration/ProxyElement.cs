@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.Configuration.ProxyElement
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Configuration;
 using Il2CppDummyDll;
 
@@ -43,13 +50,13 @@ public sealed class ProxyElement : ConfigurationElement
 	public AutoDetectValues AutoDetect
 	{
 		[Token(Token = "0x600178E")]
-		[Address(RVA = "0x45CE400", Offset = "0x45CE400", VA = "0x45CE400")]
+		[Address(RVA = "0x48F3500", Offset = "0x48F3500", VA = "0x48F3500")]
 		get
 		{
 			return default(AutoDetectValues);
 		}
 		[Token(Token = "0x600178F")]
-		[Address(RVA = "0x45CE430", Offset = "0x45CE430", VA = "0x45CE430")]
+		[Address(RVA = "0x48F3530", Offset = "0x48F3530", VA = "0x48F3530")]
 		set
 		{
 		}
@@ -59,13 +66,13 @@ public sealed class ProxyElement : ConfigurationElement
 	public BypassOnLocalValues BypassOnLocal
 	{
 		[Token(Token = "0x6001790")]
-		[Address(RVA = "0x45CE460", Offset = "0x45CE460", VA = "0x45CE460")]
+		[Address(RVA = "0x48F3560", Offset = "0x48F3560", VA = "0x48F3560")]
 		get
 		{
 			return default(BypassOnLocalValues);
 		}
 		[Token(Token = "0x6001791")]
-		[Address(RVA = "0x45CE490", Offset = "0x45CE490", VA = "0x45CE490")]
+		[Address(RVA = "0x48F3590", Offset = "0x48F3590", VA = "0x48F3590")]
 		set
 		{
 		}
@@ -75,7 +82,7 @@ public sealed class ProxyElement : ConfigurationElement
 	protected override ConfigurationPropertyCollection Properties
 	{
 		[Token(Token = "0x6001792")]
-		[Address(RVA = "0x45CE4C0", Offset = "0x45CE4C0", VA = "0x45CE4C0", Slot = "4")]
+		[Address(RVA = "0x48F35C0", Offset = "0x48F35C0", VA = "0x48F35C0", Slot = "4")]
 		get
 		{
 			return null;
@@ -86,13 +93,13 @@ public sealed class ProxyElement : ConfigurationElement
 	public Uri ProxyAddress
 	{
 		[Token(Token = "0x6001793")]
-		[Address(RVA = "0x45CE4F0", Offset = "0x45CE4F0", VA = "0x45CE4F0")]
+		[Address(RVA = "0x48F35F0", Offset = "0x48F35F0", VA = "0x48F35F0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001794")]
-		[Address(RVA = "0x45CE520", Offset = "0x45CE520", VA = "0x45CE520")]
+		[Address(RVA = "0x48F3620", Offset = "0x48F3620", VA = "0x48F3620")]
 		set
 		{
 		}
@@ -102,13 +109,13 @@ public sealed class ProxyElement : ConfigurationElement
 	public Uri ScriptLocation
 	{
 		[Token(Token = "0x6001795")]
-		[Address(RVA = "0x45CE550", Offset = "0x45CE550", VA = "0x45CE550")]
+		[Address(RVA = "0x48F3650", Offset = "0x48F3650", VA = "0x48F3650")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001796")]
-		[Address(RVA = "0x45CE580", Offset = "0x45CE580", VA = "0x45CE580")]
+		[Address(RVA = "0x48F3680", Offset = "0x48F3680", VA = "0x48F3680")]
 		set
 		{
 		}
@@ -118,20 +125,20 @@ public sealed class ProxyElement : ConfigurationElement
 	public UseSystemDefaultValues UseSystemDefault
 	{
 		[Token(Token = "0x6001797")]
-		[Address(RVA = "0x45CE5B0", Offset = "0x45CE5B0", VA = "0x45CE5B0")]
+		[Address(RVA = "0x48F36B0", Offset = "0x48F36B0", VA = "0x48F36B0")]
 		get
 		{
 			return default(UseSystemDefaultValues);
 		}
 		[Token(Token = "0x6001798")]
-		[Address(RVA = "0x45CE5E0", Offset = "0x45CE5E0", VA = "0x45CE5E0")]
+		[Address(RVA = "0x48F36E0", Offset = "0x48F36E0", VA = "0x48F36E0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600178D")]
-	[Address(RVA = "0x45CE3D0", Offset = "0x45CE3D0", VA = "0x45CE3D0")]
+	[Address(RVA = "0x48F34D0", Offset = "0x48F34D0", VA = "0x48F34D0")]
 	public ProxyElement()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.JsonObjectAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -27,13 +34,13 @@ public sealed class JsonObjectAttribute : JsonContainerAttribute
 	public MemberSerialization MemberSerialization
 	{
 		[Token(Token = "0x60000A2")]
-		[Address(RVA = "0x3A649B0", Offset = "0x3A649B0", VA = "0x3A649B0")]
+		[Address(RVA = "0x3D5A300", Offset = "0x3D5A300", VA = "0x3D5A300")]
 		get
 		{
 			return default(MemberSerialization);
 		}
 		[Token(Token = "0x60000A3")]
-		[Address(RVA = "0x3A649C0", Offset = "0x3A649C0", VA = "0x3A649C0")]
+		[Address(RVA = "0x3D5A310", Offset = "0x3D5A310", VA = "0x3D5A310")]
 		set
 		{
 		}
@@ -43,13 +50,13 @@ public sealed class JsonObjectAttribute : JsonContainerAttribute
 	public MissingMemberHandling MissingMemberHandling
 	{
 		[Token(Token = "0x60000A4")]
-		[Address(RVA = "0x3A649D0", Offset = "0x3A649D0", VA = "0x3A649D0")]
+		[Address(RVA = "0x3D5A320", Offset = "0x3D5A320", VA = "0x3D5A320")]
 		get
 		{
 			return default(MissingMemberHandling);
 		}
 		[Token(Token = "0x60000A5")]
-		[Address(RVA = "0x3A64A00", Offset = "0x3A64A00", VA = "0x3A64A00")]
+		[Address(RVA = "0x3D5A350", Offset = "0x3D5A350", VA = "0x3D5A350")]
 		set
 		{
 		}
@@ -59,13 +66,13 @@ public sealed class JsonObjectAttribute : JsonContainerAttribute
 	public NullValueHandling ItemNullValueHandling
 	{
 		[Token(Token = "0x60000A6")]
-		[Address(RVA = "0x3A64A50", Offset = "0x3A64A50", VA = "0x3A64A50")]
+		[Address(RVA = "0x3D5A3A0", Offset = "0x3D5A3A0", VA = "0x3D5A3A0")]
 		get
 		{
 			return default(NullValueHandling);
 		}
 		[Token(Token = "0x60000A7")]
-		[Address(RVA = "0x3A64A80", Offset = "0x3A64A80", VA = "0x3A64A80")]
+		[Address(RVA = "0x3D5A3D0", Offset = "0x3D5A3D0", VA = "0x3D5A3D0")]
 		set
 		{
 		}
@@ -75,32 +82,32 @@ public sealed class JsonObjectAttribute : JsonContainerAttribute
 	public Required ItemRequired
 	{
 		[Token(Token = "0x60000A8")]
-		[Address(RVA = "0x3A64AD0", Offset = "0x3A64AD0", VA = "0x3A64AD0")]
+		[Address(RVA = "0x3D5A420", Offset = "0x3D5A420", VA = "0x3D5A420")]
 		get
 		{
 			return default(Required);
 		}
 		[Token(Token = "0x60000A9")]
-		[Address(RVA = "0x3A64B00", Offset = "0x3A64B00", VA = "0x3A64B00")]
+		[Address(RVA = "0x3D5A450", Offset = "0x3D5A450", VA = "0x3D5A450")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60000AA")]
-	[Address(RVA = "0x3A64B50", Offset = "0x3A64B50", VA = "0x3A64B50")]
+	[Address(RVA = "0x3D5A4A0", Offset = "0x3D5A4A0", VA = "0x3D5A4A0")]
 	public JsonObjectAttribute()
 	{
 	}
 
 	[Token(Token = "0x60000AB")]
-	[Address(RVA = "0x3A64B60", Offset = "0x3A64B60", VA = "0x3A64B60")]
+	[Address(RVA = "0x3D5A4B0", Offset = "0x3D5A4B0", VA = "0x3D5A4B0")]
 	public JsonObjectAttribute(MemberSerialization memberSerialization)
 	{
 	}
 
 	[Token(Token = "0x60000AC")]
-	[Address(RVA = "0x3A64B80", Offset = "0x3A64B80", VA = "0x3A64B80")]
+	[Address(RVA = "0x3D5A4D0", Offset = "0x3D5A4D0", VA = "0x3D5A4D0")]
 	public JsonObjectAttribute(string id)
 	{
 	}

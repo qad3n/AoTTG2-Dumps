@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.HttpWebResponse
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.IO;
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
@@ -60,7 +67,7 @@ public class HttpWebResponse : WebResponse, ISerializable, IDisposable
 	public override WebHeaderCollection Headers
 	{
 		[Token(Token = "0x6000A25")]
-		[Address(RVA = "0x4664C80", Offset = "0x4664C80", VA = "0x4664C80", Slot = "14")]
+		[Address(RVA = "0x4989D80", Offset = "0x4989D80", VA = "0x4989D80", Slot = "14")]
 		get
 		{
 			return null;
@@ -71,7 +78,7 @@ public class HttpWebResponse : WebResponse, ISerializable, IDisposable
 	public override Uri ResponseUri
 	{
 		[Token(Token = "0x6000A26")]
-		[Address(RVA = "0x4664C90", Offset = "0x4664C90", VA = "0x4664C90", Slot = "13")]
+		[Address(RVA = "0x4989D90", Offset = "0x4989D90", VA = "0x4989D90", Slot = "13")]
 		get
 		{
 			return null;
@@ -82,7 +89,7 @@ public class HttpWebResponse : WebResponse, ISerializable, IDisposable
 	public virtual HttpStatusCode StatusCode
 	{
 		[Token(Token = "0x6000A27")]
-		[Address(RVA = "0x4664D20", Offset = "0x4664D20", VA = "0x4664D20", Slot = "15")]
+		[Address(RVA = "0x4989E20", Offset = "0x4989E20", VA = "0x4989E20", Slot = "15")]
 		get
 		{
 			return default(HttpStatusCode);
@@ -93,7 +100,7 @@ public class HttpWebResponse : WebResponse, ISerializable, IDisposable
 	public virtual string StatusDescription
 	{
 		[Token(Token = "0x6000A28")]
-		[Address(RVA = "0x4664D30", Offset = "0x4664D30", VA = "0x4664D30", Slot = "16")]
+		[Address(RVA = "0x4989E30", Offset = "0x4989E30", VA = "0x4989E30", Slot = "16")]
 		get
 		{
 			return null;
@@ -101,75 +108,75 @@ public class HttpWebResponse : WebResponse, ISerializable, IDisposable
 	}
 
 	[Token(Token = "0x6000A21")]
-	[Address(RVA = "0x4664580", Offset = "0x4664580", VA = "0x4664580")]
+	[Address(RVA = "0x4989680", Offset = "0x4989680", VA = "0x4989680")]
 	public HttpWebResponse()
 	{
 	}
 
 	[Token(Token = "0x6000A22")]
-	[Address(RVA = "0x4664590", Offset = "0x4664590", VA = "0x4664590")]
+	[Address(RVA = "0x4989690", Offset = "0x4989690", VA = "0x4989690")]
 	internal HttpWebResponse(Uri uri, string method, HttpStatusCode status, WebHeaderCollection headers)
 	{
 	}
 
 	[Token(Token = "0x6000A23")]
-	[Address(RVA = "0x4663CB0", Offset = "0x4663CB0", VA = "0x4663CB0")]
+	[Address(RVA = "0x4988DB0", Offset = "0x4988DB0", VA = "0x4988DB0")]
 	internal HttpWebResponse(Uri uri, string method, WebResponseStream stream, CookieContainer container)
 	{
 	}
 
 	[Token(Token = "0x6000A24")]
-	[Address(RVA = "0x46648E0", Offset = "0x46648E0", VA = "0x46648E0")]
+	[Address(RVA = "0x49899E0", Offset = "0x49899E0", VA = "0x49899E0")]
 	[Obsolete("Serialization is obsoleted for this type", false)]
 	protected HttpWebResponse(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
 	[Token(Token = "0x6000A29")]
-	[Address(RVA = "0x4664D40", Offset = "0x4664D40", VA = "0x4664D40", Slot = "12")]
+	[Address(RVA = "0x4989E40", Offset = "0x4989E40", VA = "0x4989E40", Slot = "12")]
 	public override Stream GetResponseStream()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A2A")]
-	[Address(RVA = "0x4664DD0", Offset = "0x4664DD0", VA = "0x4664DD0", Slot = "6")]
+	[Address(RVA = "0x4989ED0", Offset = "0x4989ED0", VA = "0x4989ED0", Slot = "6")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
 	[Token(Token = "0x6000A2B")]
-	[Address(RVA = "0x4664DF0", Offset = "0x4664DF0", VA = "0x4664DF0", Slot = "8")]
+	[Address(RVA = "0x4989EF0", Offset = "0x4989EF0", VA = "0x4989EF0", Slot = "8")]
 	protected override void GetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
 	[Token(Token = "0x6000A2C")]
-	[Address(RVA = "0x4664F70", Offset = "0x4664F70", VA = "0x4664F70", Slot = "9")]
+	[Address(RVA = "0x498A070", Offset = "0x498A070", VA = "0x498A070", Slot = "9")]
 	public override void Close()
 	{
 	}
 
 	[Token(Token = "0x6000A2D")]
-	[Address(RVA = "0x4664FA0", Offset = "0x4664FA0", VA = "0x4664FA0", Slot = "7")]
+	[Address(RVA = "0x498A0A0", Offset = "0x498A0A0", VA = "0x498A0A0", Slot = "7")]
 	private void System_002EIDisposable_002EDispose()
 	{
 	}
 
 	[Token(Token = "0x6000A2E")]
-	[Address(RVA = "0x4664FC0", Offset = "0x4664FC0", VA = "0x4664FC0", Slot = "10")]
+	[Address(RVA = "0x498A0C0", Offset = "0x498A0C0", VA = "0x498A0C0", Slot = "10")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6000A2F")]
-	[Address(RVA = "0x4664CA0", Offset = "0x4664CA0", VA = "0x4664CA0")]
+	[Address(RVA = "0x4989DA0", Offset = "0x4989DA0", VA = "0x4989DA0")]
 	private void CheckDisposed()
 	{
 	}
 
 	[Token(Token = "0x6000A30")]
-	[Address(RVA = "0x4664670", Offset = "0x4664670", VA = "0x4664670")]
+	[Address(RVA = "0x4989770", Offset = "0x4989770", VA = "0x4989770")]
 	private void FillCookies()
 	{
 	}

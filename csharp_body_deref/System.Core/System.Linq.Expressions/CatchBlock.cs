@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.CatchBlock
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -12,7 +19,7 @@ public sealed class CatchBlock
 	public ParameterExpression Variable
 	{
 		[Token(Token = "0x6000300")]
-		[Address(RVA = "0x418AF50", Offset = "0x418AF50", VA = "0x418AF50")]
+		[Address(RVA = "0x44B0050", Offset = "0x44B0050", VA = "0x44B0050")]
 		[CompilerGenerated]
 		get
 		{
@@ -24,7 +31,7 @@ public sealed class CatchBlock
 	public Type Test
 	{
 		[Token(Token = "0x6000301")]
-		[Address(RVA = "0x418AF60", Offset = "0x418AF60", VA = "0x418AF60")]
+		[Address(RVA = "0x44B0060", Offset = "0x44B0060", VA = "0x44B0060")]
 		[CompilerGenerated]
 		get
 		{
@@ -36,7 +43,7 @@ public sealed class CatchBlock
 	public Expression Body
 	{
 		[Token(Token = "0x6000302")]
-		[Address(RVA = "0x418AF70", Offset = "0x418AF70", VA = "0x418AF70")]
+		[Address(RVA = "0x44B0070", Offset = "0x44B0070", VA = "0x44B0070")]
 		[CompilerGenerated]
 		get
 		{
@@ -48,7 +55,7 @@ public sealed class CatchBlock
 	public Expression Filter
 	{
 		[Token(Token = "0x6000303")]
-		[Address(RVA = "0x418AF80", Offset = "0x418AF80", VA = "0x418AF80")]
+		[Address(RVA = "0x44B0080", Offset = "0x44B0080", VA = "0x44B0080")]
 		[CompilerGenerated]
 		get
 		{
@@ -57,20 +64,20 @@ public sealed class CatchBlock
 	}
 
 	[Token(Token = "0x60002FF")]
-	[Address(RVA = "0x418AEE0", Offset = "0x418AEE0", VA = "0x418AEE0")]
+	[Address(RVA = "0x44AFFE0", Offset = "0x44AFFE0", VA = "0x44AFFE0")]
 	internal CatchBlock(Type test, ParameterExpression variable, Expression body, Expression filter)
 	{
 	}
 
 	[Token(Token = "0x6000304")]
-	[Address(RVA = "0x418AF90", Offset = "0x418AF90", VA = "0x418AF90", Slot = "3")]
+	[Address(RVA = "0x44B0090", Offset = "0x44B0090", VA = "0x44B0090", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000305")]
-	[Address(RVA = "0x418B070", Offset = "0x418B070", VA = "0x418B070")]
+	[Address(RVA = "0x44B0170", Offset = "0x44B0170", VA = "0x44B0170")]
 	public CatchBlock Update(ParameterExpression variable, Expression filter, Expression body)
 	{
 		return null;

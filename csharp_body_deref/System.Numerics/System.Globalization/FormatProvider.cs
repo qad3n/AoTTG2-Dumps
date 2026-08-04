@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Globalization.FormatProvider
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Text;
 using Il2CppDummyDll;
 
@@ -32,7 +39,7 @@ internal class FormatProvider
 			public unsafe char* digits
 			{
 				[Token(Token = "0x60000B2")]
-				[Address(RVA = "0x433A1D0", Offset = "0x433A1D0", VA = "0x433A1D0")]
+				[Address(RVA = "0x4677930", Offset = "0x4677930", VA = "0x4677930")]
 				get
 				{
 					//IL_0002: Expected I, but got O
@@ -66,14 +73,14 @@ internal class FormatProvider
 		private static string s_posNumberFormat;
 
 		[Token(Token = "0x600009D")]
-		[Address(RVA = "0x4336580", Offset = "0x4336580", VA = "0x4336580")]
+		[Address(RVA = "0x4673CE0", Offset = "0x4673CE0", VA = "0x4673CE0")]
 		private static bool IsWhite(char ch)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600009E")]
-		[Address(RVA = "0x43365A0", Offset = "0x43365A0", VA = "0x43365A0")]
+		[Address(RVA = "0x4673D00", Offset = "0x4673D00", VA = "0x4673D00")]
 		private unsafe static char* MatchChars(char* p, char* pEnd, string str)
 		{
 			//IL_0002: Expected I, but got O
@@ -81,7 +88,7 @@ internal class FormatProvider
 		}
 
 		[Token(Token = "0x600009F")]
-		[Address(RVA = "0x4336670", Offset = "0x4336670", VA = "0x4336670")]
+		[Address(RVA = "0x4673DD0", Offset = "0x4673DD0", VA = "0x4673DD0")]
 		private unsafe static char* MatchChars(char* p, char* pEnd, char* str)
 		{
 			//IL_0002: Expected I, but got O
@@ -89,122 +96,122 @@ internal class FormatProvider
 		}
 
 		[Token(Token = "0x60000A0")]
-		[Address(RVA = "0x43366D0", Offset = "0x43366D0", VA = "0x43366D0")]
+		[Address(RVA = "0x4673E30", Offset = "0x4673E30", VA = "0x4673E30")]
 		private unsafe static bool ParseNumber(ref char* str, char* strEnd, NumberStyles options, ref NumberBuffer number, StringBuilder sb, NumberFormatInfo numfmt, bool parseDecimal)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60000A1")]
-		[Address(RVA = "0x4337970", Offset = "0x4337970", VA = "0x4337970")]
+		[Address(RVA = "0x46750D0", Offset = "0x46750D0", VA = "0x46750D0")]
 		private static bool TrailingZeros(ReadOnlySpan<char> s, int index)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60000A2")]
-		[Address(RVA = "0x4336420", Offset = "0x4336420", VA = "0x4336420")]
+		[Address(RVA = "0x4673B80", Offset = "0x4673B80", VA = "0x4673B80")]
 		internal static bool TryStringToNumber(ReadOnlySpan<char> str, NumberStyles options, ref NumberBuffer number, StringBuilder sb, NumberFormatInfo numfmt, bool parseDecimal)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60000A3")]
-		[Address(RVA = "0x43379D0", Offset = "0x43379D0", VA = "0x43379D0")]
+		[Address(RVA = "0x4675130", Offset = "0x4675130", VA = "0x4675130")]
 		internal unsafe static void Int32ToDecChars(char* buffer, ref int index, uint value, int digits)
 		{
 		}
 
 		[Token(Token = "0x60000A4")]
-		[Address(RVA = "0x43343D0", Offset = "0x43343D0", VA = "0x43343D0")]
+		[Address(RVA = "0x4671B30", Offset = "0x4671B30", VA = "0x4671B30")]
 		internal static char ParseFormatSpecifier(ReadOnlySpan<char> format, out int digits)
 		{
 			return default(char);
 		}
 
 		[Token(Token = "0x60000A5")]
-		[Address(RVA = "0x43344E0", Offset = "0x43344E0", VA = "0x43344E0")]
+		[Address(RVA = "0x4671C40", Offset = "0x4671C40", VA = "0x4671C40")]
 		internal static void NumberToString(ref System.Text.ValueStringBuilder sb, ref NumberBuffer number, char format, int nMaxDigits, NumberFormatInfo info, bool isDecimal)
 		{
 		}
 
 		[Token(Token = "0x60000A6")]
-		[Address(RVA = "0x4337B00", Offset = "0x4337B00", VA = "0x4337B00")]
+		[Address(RVA = "0x4675260", Offset = "0x4675260", VA = "0x4675260")]
 		private static void FormatCurrency(ref System.Text.ValueStringBuilder sb, ref NumberBuffer number, int nMinDigits, int nMaxDigits, NumberFormatInfo info)
 		{
 		}
 
 		[Token(Token = "0x60000A7")]
-		[Address(RVA = "0x43390F0", Offset = "0x43390F0", VA = "0x43390F0")]
+		[Address(RVA = "0x4676850", Offset = "0x4676850", VA = "0x4676850")]
 		private unsafe static int wcslen(char* s)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60000A8")]
-		[Address(RVA = "0x4337E00", Offset = "0x4337E00", VA = "0x4337E00")]
+		[Address(RVA = "0x4675560", Offset = "0x4675560", VA = "0x4675560")]
 		private static void FormatFixed(ref System.Text.ValueStringBuilder sb, ref NumberBuffer number, int nMinDigits, int nMaxDigits, NumberFormatInfo info, int[] groupDigits, string sDecimal, string sGroup)
 		{
 		}
 
 		[Token(Token = "0x60000A9")]
-		[Address(RVA = "0x4338430", Offset = "0x4338430", VA = "0x4338430")]
+		[Address(RVA = "0x4675B90", Offset = "0x4675B90", VA = "0x4675B90")]
 		private static void FormatNumber(ref System.Text.ValueStringBuilder sb, ref NumberBuffer number, int nMinDigits, int nMaxDigits, NumberFormatInfo info)
 		{
 		}
 
 		[Token(Token = "0x60000AA")]
-		[Address(RVA = "0x43387A0", Offset = "0x43387A0", VA = "0x43387A0")]
+		[Address(RVA = "0x4675F00", Offset = "0x4675F00", VA = "0x4675F00")]
 		private static void FormatScientific(ref System.Text.ValueStringBuilder sb, ref NumberBuffer number, int nMinDigits, int nMaxDigits, NumberFormatInfo info, char expChar)
 		{
 		}
 
 		[Token(Token = "0x60000AB")]
-		[Address(RVA = "0x4339490", Offset = "0x4339490", VA = "0x4339490")]
+		[Address(RVA = "0x4676BF0", Offset = "0x4676BF0", VA = "0x4676BF0")]
 		private static void FormatExponent(ref System.Text.ValueStringBuilder sb, NumberFormatInfo info, int value, char expChar, int minDigits, bool positiveSign)
 		{
 		}
 
 		[Token(Token = "0x60000AC")]
-		[Address(RVA = "0x43389F0", Offset = "0x43389F0", VA = "0x43389F0")]
+		[Address(RVA = "0x4676150", Offset = "0x4676150", VA = "0x4676150")]
 		private static void FormatGeneral(ref System.Text.ValueStringBuilder sb, ref NumberBuffer number, int nMinDigits, int nMaxDigits, NumberFormatInfo info, char expChar, bool bSuppressScientific)
 		{
 		}
 
 		[Token(Token = "0x60000AD")]
-		[Address(RVA = "0x4338E00", Offset = "0x4338E00", VA = "0x4338E00")]
+		[Address(RVA = "0x4676560", Offset = "0x4676560", VA = "0x4676560")]
 		private static void FormatPercent(ref System.Text.ValueStringBuilder sb, ref NumberBuffer number, int nMinDigits, int nMaxDigits, NumberFormatInfo info)
 		{
 		}
 
 		[Token(Token = "0x60000AE")]
-		[Address(RVA = "0x4337A30", Offset = "0x4337A30", VA = "0x4337A30")]
+		[Address(RVA = "0x4675190", Offset = "0x4675190", VA = "0x4675190")]
 		private static void RoundNumber(ref NumberBuffer number, int pos)
 		{
 		}
 
 		[Token(Token = "0x60000AF")]
-		[Address(RVA = "0x43397C0", Offset = "0x43397C0", VA = "0x43397C0")]
+		[Address(RVA = "0x4676F20", Offset = "0x4676F20", VA = "0x4676F20")]
 		private static int FindSection(ReadOnlySpan<char> format, int section)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60000B0")]
-		[Address(RVA = "0x4334F50", Offset = "0x4334F50", VA = "0x4334F50")]
+		[Address(RVA = "0x46726B0", Offset = "0x46726B0", VA = "0x46726B0")]
 		internal static void NumberToStringFormat(ref System.Text.ValueStringBuilder sb, ref NumberBuffer number, ReadOnlySpan<char> format, NumberFormatInfo info)
 		{
 		}
 	}
 
 	[Token(Token = "0x600009B")]
-	[Address(RVA = "0x43341A0", Offset = "0x43341A0", VA = "0x43341A0")]
+	[Address(RVA = "0x4671900", Offset = "0x4671900", VA = "0x4671900")]
 	internal static void FormatBigInteger(ref System.Text.ValueStringBuilder sb, int precision, int scale, bool sign, ReadOnlySpan<char> format, NumberFormatInfo numberFormatInfo, char[] digits, int startIndex)
 	{
 	}
 
 	[Token(Token = "0x600009C")]
-	[Address(RVA = "0x4331EE0", Offset = "0x4331EE0", VA = "0x4331EE0")]
+	[Address(RVA = "0x466F640", Offset = "0x466F640", VA = "0x466F640")]
 	internal static bool TryStringToBigInteger(ReadOnlySpan<char> s, NumberStyles styles, NumberFormatInfo numberFormatInfo, StringBuilder receiver, out int precision, out int scale, out bool sign)
 	{
 		return default(bool);

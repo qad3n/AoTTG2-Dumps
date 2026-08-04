@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.StyleSelectorPart
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -25,7 +32,7 @@ internal struct StyleSelectorPart
 	public string value
 	{
 		[Token(Token = "0x600184A")]
-		[Address(RVA = "0x4D8FDC0", Offset = "0x4D8FDC0", VA = "0x4D8FDC0")]
+		[Address(RVA = "0x50B76F0", Offset = "0x50B76F0", VA = "0x50B76F0")]
 		get
 		{
 			return null;
@@ -36,41 +43,41 @@ internal struct StyleSelectorPart
 	public StyleSelectorType type
 	{
 		[Token(Token = "0x600184B")]
-		[Address(RVA = "0x4D8FDB0", Offset = "0x4D8FDB0", VA = "0x4D8FDB0")]
+		[Address(RVA = "0x50B76E0", Offset = "0x50B76E0", VA = "0x50B76E0")]
 		get
 		{
 			return default(StyleSelectorType);
 		}
 		[Token(Token = "0x600184C")]
-		[Address(RVA = "0x4D90A10", Offset = "0x4D90A10", VA = "0x4D90A10")]
+		[Address(RVA = "0x50B8340", Offset = "0x50B8340", VA = "0x50B8340")]
 		internal set
 		{
 		}
 	}
 
 	[Token(Token = "0x600184D")]
-	[Address(RVA = "0x4D908F0", Offset = "0x4D908F0", VA = "0x4D908F0", Slot = "3")]
+	[Address(RVA = "0x50B8220", Offset = "0x50B8220", VA = "0x50B8220", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600184E")]
-	[Address(RVA = "0x4D90A20", Offset = "0x4D90A20", VA = "0x4D90A20")]
+	[Address(RVA = "0x50B8350", Offset = "0x50B8350", VA = "0x50B8350")]
 	public static StyleSelectorPart CreateClass(string className)
 	{
 		return default(StyleSelectorPart);
 	}
 
 	[Token(Token = "0x600184F")]
-	[Address(RVA = "0x4D90A70", Offset = "0x4D90A70", VA = "0x4D90A70")]
+	[Address(RVA = "0x50B83A0", Offset = "0x50B83A0", VA = "0x50B83A0")]
 	public static StyleSelectorPart CreateId(string Id)
 	{
 		return default(StyleSelectorPart);
 	}
 
 	[Token(Token = "0x6001850")]
-	[Address(RVA = "0x4D90AC0", Offset = "0x4D90AC0", VA = "0x4D90AC0")]
+	[Address(RVA = "0x50B83F0", Offset = "0x50B83F0", VA = "0x50B83F0")]
 	public static StyleSelectorPart CreatePredicate(object predicate)
 	{
 		return default(StyleSelectorPart);

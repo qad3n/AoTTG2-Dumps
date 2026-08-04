@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Converters.XDocumentTypeWrapper
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.Linq;
 using Il2CppDummyDll;
 
@@ -14,7 +21,7 @@ internal class XDocumentTypeWrapper : XObjectWrapper, IXmlDocumentType, IXmlNode
 	public string Name
 	{
 		[Token(Token = "0x6000F5B")]
-		[Address(RVA = "0x3B54100", Offset = "0x3B54100", VA = "0x3B54100", Slot = "23")]
+		[Address(RVA = "0x3E49A50", Offset = "0x3E49A50", VA = "0x3E49A50", Slot = "23")]
 		get
 		{
 			return null;
@@ -25,7 +32,7 @@ internal class XDocumentTypeWrapper : XObjectWrapper, IXmlDocumentType, IXmlNode
 	public string? System
 	{
 		[Token(Token = "0x6000F5C")]
-		[Address(RVA = "0x3B54120", Offset = "0x3B54120", VA = "0x3B54120", Slot = "24")]
+		[Address(RVA = "0x3E49A70", Offset = "0x3E49A70", VA = "0x3E49A70", Slot = "24")]
 		get
 		{
 			return null;
@@ -36,7 +43,7 @@ internal class XDocumentTypeWrapper : XObjectWrapper, IXmlDocumentType, IXmlNode
 	public string? Public
 	{
 		[Token(Token = "0x6000F5D")]
-		[Address(RVA = "0x3B54140", Offset = "0x3B54140", VA = "0x3B54140", Slot = "25")]
+		[Address(RVA = "0x3E49A90", Offset = "0x3E49A90", VA = "0x3E49A90", Slot = "25")]
 		get
 		{
 			return null;
@@ -47,7 +54,7 @@ internal class XDocumentTypeWrapper : XObjectWrapper, IXmlDocumentType, IXmlNode
 	public string? InternalSubset
 	{
 		[Token(Token = "0x6000F5E")]
-		[Address(RVA = "0x3B54160", Offset = "0x3B54160", VA = "0x3B54160", Slot = "26")]
+		[Address(RVA = "0x3E49AB0", Offset = "0x3E49AB0", VA = "0x3E49AB0", Slot = "26")]
 		get
 		{
 			return null;
@@ -58,7 +65,7 @@ internal class XDocumentTypeWrapper : XObjectWrapper, IXmlDocumentType, IXmlNode
 	public override string? LocalName
 	{
 		[Token(Token = "0x6000F5F")]
-		[Address(RVA = "0x3B54180", Offset = "0x3B54180", VA = "0x3B54180", Slot = "15")]
+		[Address(RVA = "0x3E49AD0", Offset = "0x3E49AD0", VA = "0x3E49AD0", Slot = "15")]
 		get
 		{
 			return null;
@@ -66,7 +73,7 @@ internal class XDocumentTypeWrapper : XObjectWrapper, IXmlDocumentType, IXmlNode
 	}
 
 	[Token(Token = "0x6000F5A")]
-	[Address(RVA = "0x3B540C0", Offset = "0x3B540C0", VA = "0x3B540C0")]
+	[Address(RVA = "0x3E49A10", Offset = "0x3E49A10", VA = "0x3E49A10")]
 	public XDocumentTypeWrapper(XDocumentType documentType)
 	{
 	}

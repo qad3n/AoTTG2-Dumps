@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.LightAnchor
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine;
@@ -82,13 +89,13 @@ public class LightAnchor : MonoBehaviour
 	public float yaw
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x4843980", Offset = "0x4843980", VA = "0x4843980")]
+		[Address(RVA = "0x4B68A70", Offset = "0x4B68A70", VA = "0x4B68A70")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x4843990", Offset = "0x4843990", VA = "0x4843990")]
+		[Address(RVA = "0x4B68A80", Offset = "0x4B68A80", VA = "0x4B68A80")]
 		set
 		{
 		}
@@ -98,13 +105,13 @@ public class LightAnchor : MonoBehaviour
 	public float pitch
 	{
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x4843A20", Offset = "0x4843A20", VA = "0x4843A20")]
+		[Address(RVA = "0x4B68B10", Offset = "0x4B68B10", VA = "0x4B68B10")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x4843A30", Offset = "0x4843A30", VA = "0x4843A30")]
+		[Address(RVA = "0x4B68B20", Offset = "0x4B68B20", VA = "0x4B68B20")]
 		set
 		{
 		}
@@ -114,13 +121,13 @@ public class LightAnchor : MonoBehaviour
 	public float roll
 	{
 		[Token(Token = "0x6000009")]
-		[Address(RVA = "0x4843A80", Offset = "0x4843A80", VA = "0x4843A80")]
+		[Address(RVA = "0x4B68B70", Offset = "0x4B68B70", VA = "0x4B68B70")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600000A")]
-		[Address(RVA = "0x4843A90", Offset = "0x4843A90", VA = "0x4843A90")]
+		[Address(RVA = "0x4B68B80", Offset = "0x4B68B80", VA = "0x4B68B80")]
 		set
 		{
 		}
@@ -130,13 +137,13 @@ public class LightAnchor : MonoBehaviour
 	public float distance
 	{
 		[Token(Token = "0x600000B")]
-		[Address(RVA = "0x4843AE0", Offset = "0x4843AE0", VA = "0x4843AE0")]
+		[Address(RVA = "0x4B68BD0", Offset = "0x4B68BD0", VA = "0x4B68BD0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600000C")]
-		[Address(RVA = "0x4843AF0", Offset = "0x4843AF0", VA = "0x4843AF0")]
+		[Address(RVA = "0x4B68BE0", Offset = "0x4B68BE0", VA = "0x4B68BE0")]
 		set
 		{
 		}
@@ -146,13 +153,13 @@ public class LightAnchor : MonoBehaviour
 	public UpDirection frameSpace
 	{
 		[Token(Token = "0x600000D")]
-		[Address(RVA = "0x4843B10", Offset = "0x4843B10", VA = "0x4843B10")]
+		[Address(RVA = "0x4B68C00", Offset = "0x4B68C00", VA = "0x4B68C00")]
 		get
 		{
 			return default(UpDirection);
 		}
 		[Token(Token = "0x600000E")]
-		[Address(RVA = "0x4843B20", Offset = "0x4843B20", VA = "0x4843B20")]
+		[Address(RVA = "0x4B68C10", Offset = "0x4B68C10", VA = "0x4B68C10")]
 		set
 		{
 		}
@@ -162,7 +169,7 @@ public class LightAnchor : MonoBehaviour
 	public Vector3 anchorPosition
 	{
 		[Token(Token = "0x600000F")]
-		[Address(RVA = "0x4843B30", Offset = "0x4843B30", VA = "0x4843B30")]
+		[Address(RVA = "0x4B68C20", Offset = "0x4B68C20", VA = "0x4B68C20")]
 		get
 		{
 			return default(Vector3);
@@ -173,13 +180,13 @@ public class LightAnchor : MonoBehaviour
 	public Transform anchorPositionOverride
 	{
 		[Token(Token = "0x6000010")]
-		[Address(RVA = "0x4843C40", Offset = "0x4843C40", VA = "0x4843C40")]
+		[Address(RVA = "0x4B68D30", Offset = "0x4B68D30", VA = "0x4B68D30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000011")]
-		[Address(RVA = "0x4843C50", Offset = "0x4843C50", VA = "0x4843C50")]
+		[Address(RVA = "0x4B68D40", Offset = "0x4B68D40", VA = "0x4B68D40")]
 		set
 		{
 		}
@@ -189,64 +196,64 @@ public class LightAnchor : MonoBehaviour
 	public Vector3 anchorPositionOffset
 	{
 		[Token(Token = "0x6000012")]
-		[Address(RVA = "0x4843C60", Offset = "0x4843C60", VA = "0x4843C60")]
+		[Address(RVA = "0x4B68D50", Offset = "0x4B68D50", VA = "0x4B68D50")]
 		get
 		{
 			return default(Vector3);
 		}
 		[Token(Token = "0x6000013")]
-		[Address(RVA = "0x4843C70", Offset = "0x4843C70", VA = "0x4843C70")]
+		[Address(RVA = "0x4B68D60", Offset = "0x4B68D60", VA = "0x4B68D60")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x48439E0", Offset = "0x48439E0", VA = "0x48439E0")]
+	[Address(RVA = "0x4B68AD0", Offset = "0x4B68AD0", VA = "0x4B68AD0")]
 	public static float NormalizeAngleDegree(float angle)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x4843C80", Offset = "0x4843C80", VA = "0x4843C80")]
+	[Address(RVA = "0x4B68D70", Offset = "0x4B68D70", VA = "0x4B68D70")]
 	public void SynchronizeOnTransform(Camera camera)
 	{
 	}
 
 	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x48451C0", Offset = "0x48451C0", VA = "0x48451C0")]
+	[Address(RVA = "0x4B6A2B0", Offset = "0x4B6A2B0", VA = "0x4B6A2B0")]
 	public void UpdateTransform(Camera camera, Vector3 anchor)
 	{
 	}
 
 	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x4844380", Offset = "0x4844380", VA = "0x4844380")]
+	[Address(RVA = "0x4B69470", Offset = "0x4B69470", VA = "0x4B69470")]
 	private Axes GetWorldSpaceAxes(Camera camera, Vector3 anchor)
 	{
 		return default(Axes);
 	}
 
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x4845560", Offset = "0x4845560", VA = "0x4845560")]
+	[Address(RVA = "0x4B6A650", Offset = "0x4B6A650", VA = "0x4B6A650")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x48456A0", Offset = "0x48456A0", VA = "0x48456A0")]
+	[Address(RVA = "0x4B6A790", Offset = "0x4B6A790", VA = "0x4B6A790")]
 	private void OnDrawGizmosSelected()
 	{
 	}
 
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x4845220", Offset = "0x4845220", VA = "0x4845220")]
+	[Address(RVA = "0x4B6A310", Offset = "0x4B6A310", VA = "0x4B6A310")]
 	private void UpdateTransform(Vector3 up, Vector3 right, Vector3 forward, Vector3 anchor)
 	{
 	}
 
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x4845760", Offset = "0x4845760", VA = "0x4845760")]
+	[Address(RVA = "0x4B6A850", Offset = "0x4B6A850", VA = "0x4B6A850")]
 	public LightAnchor()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XmlSchemaSimpleType
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.Serialization;
 using Il2CppDummyDll;
 
@@ -17,26 +24,26 @@ public class XmlSchemaSimpleType : XmlSchemaType
 	public XmlSchemaSimpleTypeContent Content
 	{
 		[Token(Token = "0x6001767")]
-		[Address(RVA = "0x43F53F0", Offset = "0x43F53F0", VA = "0x43F53F0")]
+		[Address(RVA = "0x4732B50", Offset = "0x4732B50", VA = "0x4732B50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001768")]
-		[Address(RVA = "0x43F5400", Offset = "0x43F5400", VA = "0x43F5400")]
+		[Address(RVA = "0x4732B60", Offset = "0x4732B60", VA = "0x4732B60")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001766")]
-	[Address(RVA = "0x43F52F0", Offset = "0x43F52F0", VA = "0x43F52F0")]
+	[Address(RVA = "0x4732A50", Offset = "0x4732A50", VA = "0x4732A50")]
 	public XmlSchemaSimpleType()
 	{
 	}
 
 	[Token(Token = "0x6001769")]
-	[Address(RVA = "0x43F5420", Offset = "0x43F5420", VA = "0x43F5420", Slot = "13")]
+	[Address(RVA = "0x4732B80", Offset = "0x4732B80", VA = "0x4732B80", Slot = "13")]
 	internal override XmlSchemaObject Clone()
 	{
 		return null;

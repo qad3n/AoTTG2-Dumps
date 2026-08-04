@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.AxisStack
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -22,7 +29,7 @@ internal class AxisStack
 	internal ForwardAxis Subtree
 	{
 		[Token(Token = "0x6000F28")]
-		[Address(RVA = "0x4500810", Offset = "0x4500810", VA = "0x4500810")]
+		[Address(RVA = "0x483DF70", Offset = "0x483DF70", VA = "0x483DF70")]
 		get
 		{
 			return null;
@@ -33,7 +40,7 @@ internal class AxisStack
 	internal int Length
 	{
 		[Token(Token = "0x6000F29")]
-		[Address(RVA = "0x4500820", Offset = "0x4500820", VA = "0x4500820")]
+		[Address(RVA = "0x483DF80", Offset = "0x483DF80", VA = "0x483DF80")]
 		get
 		{
 			return default(int);
@@ -41,45 +48,45 @@ internal class AxisStack
 	}
 
 	[Token(Token = "0x6000F2A")]
-	[Address(RVA = "0x4500850", Offset = "0x4500850", VA = "0x4500850")]
+	[Address(RVA = "0x483DFB0", Offset = "0x483DFB0", VA = "0x483DFB0")]
 	public AxisStack(ForwardAxis faxis, ActiveAxis parent)
 	{
 	}
 
 	[Token(Token = "0x6000F2B")]
-	[Address(RVA = "0x4500910", Offset = "0x4500910", VA = "0x4500910")]
+	[Address(RVA = "0x483E070", Offset = "0x483E070", VA = "0x483E070")]
 	internal void Push(int depth)
 	{
 	}
 
 	[Token(Token = "0x6000F2C")]
-	[Address(RVA = "0x45009B0", Offset = "0x45009B0", VA = "0x45009B0")]
+	[Address(RVA = "0x483E110", Offset = "0x483E110", VA = "0x483E110")]
 	internal void Pop()
 	{
 	}
 
 	[Token(Token = "0x6000F2D")]
-	[Address(RVA = "0x45007A0", Offset = "0x45007A0", VA = "0x45007A0")]
+	[Address(RVA = "0x483DF00", Offset = "0x483DF00", VA = "0x483DF00")]
 	internal static bool Equal(string thisname, string thisURN, string name, string URN)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F2E")]
-	[Address(RVA = "0x45009F0", Offset = "0x45009F0", VA = "0x45009F0")]
+	[Address(RVA = "0x483E150", Offset = "0x483E150", VA = "0x483E150")]
 	internal void MoveToParent(string name, string URN, int depth)
 	{
 	}
 
 	[Token(Token = "0x6000F2F")]
-	[Address(RVA = "0x4500BC0", Offset = "0x4500BC0", VA = "0x4500BC0")]
+	[Address(RVA = "0x483E320", Offset = "0x483E320", VA = "0x483E320")]
 	internal bool MoveToChild(string name, string URN, int depth)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F30")]
-	[Address(RVA = "0x4500D50", Offset = "0x4500D50", VA = "0x4500D50")]
+	[Address(RVA = "0x483E4B0", Offset = "0x483E4B0", VA = "0x483E4B0")]
 	internal bool MoveToAttribute(string name, string URN, int depth)
 	{
 		return default(bool);

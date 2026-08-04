@@ -1,103 +1,110 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Map.CustomPhysicsMaterial
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Map/CustomPhysicsMaterial.c
+// Prior real C# source (older reference): Assets/Scripts/CustomLogic/Component/CustomPhysicsMaterial.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
 namespace Map;
 
-[Token(Token = "0x2000227")]
+[Token(Token = "0x200025D")]
 internal class CustomPhysicsMaterial : MonoBehaviour
 {
-	[Token(Token = "0x4000BF6")]
+	[Token(Token = "0x4000CCF")]
 	[FieldOffset(Offset = "0x20")]
 	private PhysicMaterial _material;
 
-	[Token(Token = "0x1700016E")]
+	[Token(Token = "0x170001C5")]
 	public float Bounciness
 	{
-		[Token(Token = "0x6000CE9")]
-		[Address(RVA = "0x414A260", Offset = "0x414A260", VA = "0x414A260")]
+		[Token(Token = "0x6000E82")]
+		[Address(RVA = "0x3F97330", Offset = "0x3F97330", VA = "0x3F97330")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000CEA")]
-		[Address(RVA = "0x414A280", Offset = "0x414A280", VA = "0x414A280")]
+		[Token(Token = "0x6000E83")]
+		[Address(RVA = "0x3F97350", Offset = "0x3F97350", VA = "0x3F97350")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700016F")]
+	[Token(Token = "0x170001C6")]
 	public float StaticFriction
 	{
-		[Token(Token = "0x6000CEB")]
-		[Address(RVA = "0x414A2A0", Offset = "0x414A2A0", VA = "0x414A2A0")]
+		[Token(Token = "0x6000E84")]
+		[Address(RVA = "0x3F97370", Offset = "0x3F97370", VA = "0x3F97370")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000CEC")]
-		[Address(RVA = "0x414A2C0", Offset = "0x414A2C0", VA = "0x414A2C0")]
+		[Token(Token = "0x6000E85")]
+		[Address(RVA = "0x3F97390", Offset = "0x3F97390", VA = "0x3F97390")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000170")]
+	[Token(Token = "0x170001C7")]
 	public float DynamicFriction
 	{
-		[Token(Token = "0x6000CED")]
-		[Address(RVA = "0x414A2E0", Offset = "0x414A2E0", VA = "0x414A2E0")]
+		[Token(Token = "0x6000E86")]
+		[Address(RVA = "0x3F973B0", Offset = "0x3F973B0", VA = "0x3F973B0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000CEE")]
-		[Address(RVA = "0x414A300", Offset = "0x414A300", VA = "0x414A300")]
+		[Token(Token = "0x6000E87")]
+		[Address(RVA = "0x3F973D0", Offset = "0x3F973D0", VA = "0x3F973D0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000171")]
+	[Token(Token = "0x170001C8")]
 	public PhysicMaterialCombine FrictionCombine
 	{
-		[Token(Token = "0x6000CEF")]
-		[Address(RVA = "0x414A320", Offset = "0x414A320", VA = "0x414A320")]
+		[Token(Token = "0x6000E88")]
+		[Address(RVA = "0x3F973F0", Offset = "0x3F973F0", VA = "0x3F973F0")]
 		get
 		{
 			return default(PhysicMaterialCombine);
 		}
-		[Token(Token = "0x6000CF0")]
-		[Address(RVA = "0x414A340", Offset = "0x414A340", VA = "0x414A340")]
+		[Token(Token = "0x6000E89")]
+		[Address(RVA = "0x3F97410", Offset = "0x3F97410", VA = "0x3F97410")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000172")]
+	[Token(Token = "0x170001C9")]
 	public PhysicMaterialCombine BounceCombine
 	{
-		[Token(Token = "0x6000CF1")]
-		[Address(RVA = "0x414A360", Offset = "0x414A360", VA = "0x414A360")]
+		[Token(Token = "0x6000E8A")]
+		[Address(RVA = "0x3F97430", Offset = "0x3F97430", VA = "0x3F97430")]
 		get
 		{
 			return default(PhysicMaterialCombine);
 		}
-		[Token(Token = "0x6000CF2")]
-		[Address(RVA = "0x414A380", Offset = "0x414A380", VA = "0x414A380")]
+		[Token(Token = "0x6000E8B")]
+		[Address(RVA = "0x3F97450", Offset = "0x3F97450", VA = "0x3F97450")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000CF3")]
-	[Address(RVA = "0x414A3A0", Offset = "0x414A3A0", VA = "0x414A3A0")]
+	[Token(Token = "0x6000E8C")]
+	[Address(RVA = "0x3F97470", Offset = "0x3F97470", VA = "0x3F97470")]
 	public void Setup(bool allChildColliders)
 	{
 	}
 
-	[Token(Token = "0x6000CF4")]
-	[Address(RVA = "0x414A500", Offset = "0x414A500", VA = "0x414A500")]
+	[Token(Token = "0x6000E8D")]
+	[Address(RVA = "0x3F975D0", Offset = "0x3F975D0", VA = "0x3F975D0")]
 	public CustomPhysicsMaterial()
 	{
 	}

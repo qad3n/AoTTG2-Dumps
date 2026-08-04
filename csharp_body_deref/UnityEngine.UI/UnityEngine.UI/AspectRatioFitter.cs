@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.AspectRatioFitter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.EventSystems;
@@ -57,13 +64,13 @@ public class AspectRatioFitter : UIBehaviour, ILayoutSelfController, ILayoutCont
 	public AspectMode aspectMode
 	{
 		[Token(Token = "0x6000243")]
-		[Address(RVA = "0x4DA4980", Offset = "0x4DA4980", VA = "0x4DA4980")]
+		[Address(RVA = "0x50CC2B0", Offset = "0x50CC2B0", VA = "0x50CC2B0")]
 		get
 		{
 			return default(AspectMode);
 		}
 		[Token(Token = "0x6000244")]
-		[Address(RVA = "0x4DA4990", Offset = "0x4DA4990", VA = "0x4DA4990")]
+		[Address(RVA = "0x50CC2C0", Offset = "0x50CC2C0", VA = "0x50CC2C0")]
 		set
 		{
 		}
@@ -73,13 +80,13 @@ public class AspectRatioFitter : UIBehaviour, ILayoutSelfController, ILayoutCont
 	public float aspectRatio
 	{
 		[Token(Token = "0x6000245")]
-		[Address(RVA = "0x4DA4A00", Offset = "0x4DA4A00", VA = "0x4DA4A00")]
+		[Address(RVA = "0x50CC330", Offset = "0x50CC330", VA = "0x50CC330")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000246")]
-		[Address(RVA = "0x4DA4A10", Offset = "0x4DA4A10", VA = "0x4DA4A10")]
+		[Address(RVA = "0x50CC340", Offset = "0x50CC340", VA = "0x50CC340")]
 		set
 		{
 		}
@@ -89,7 +96,7 @@ public class AspectRatioFitter : UIBehaviour, ILayoutSelfController, ILayoutCont
 	private RectTransform rectTransform
 	{
 		[Token(Token = "0x6000247")]
-		[Address(RVA = "0x4DA4A70", Offset = "0x4DA4A70", VA = "0x4DA4A70")]
+		[Address(RVA = "0x50CC3A0", Offset = "0x50CC3A0", VA = "0x50CC3A0")]
 		get
 		{
 			return null;
@@ -97,101 +104,101 @@ public class AspectRatioFitter : UIBehaviour, ILayoutSelfController, ILayoutCont
 	}
 
 	[Token(Token = "0x6000248")]
-	[Address(RVA = "0x4DA4B00", Offset = "0x4DA4B00", VA = "0x4DA4B00")]
+	[Address(RVA = "0x50CC430", Offset = "0x50CC430", VA = "0x50CC430")]
 	protected AspectRatioFitter()
 	{
 	}
 
 	[Token(Token = "0x6000249")]
-	[Address(RVA = "0x4DA4B10", Offset = "0x4DA4B10", VA = "0x4DA4B10", Slot = "5")]
+	[Address(RVA = "0x50CC440", Offset = "0x50CC440", VA = "0x50CC440", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x600024A")]
-	[Address(RVA = "0x4DA4BA0", Offset = "0x4DA4BA0", VA = "0x4DA4BA0", Slot = "6")]
+	[Address(RVA = "0x50CC4D0", Offset = "0x50CC4D0", VA = "0x50CC4D0", Slot = "6")]
 	protected override void Start()
 	{
 	}
 
 	[Token(Token = "0x600024B")]
-	[Address(RVA = "0x4DA4CB0", Offset = "0x4DA4CB0", VA = "0x4DA4CB0", Slot = "7")]
+	[Address(RVA = "0x50CC5E0", Offset = "0x50CC5E0", VA = "0x50CC5E0", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x600024C")]
-	[Address(RVA = "0x4DA50E0", Offset = "0x4DA50E0", VA = "0x4DA50E0", Slot = "12")]
+	[Address(RVA = "0x50CCA10", Offset = "0x50CCA10", VA = "0x50CCA10", Slot = "12")]
 	protected override void OnTransformParentChanged()
 	{
 	}
 
 	[Token(Token = "0x600024D")]
-	[Address(RVA = "0x4DA5170", Offset = "0x4DA5170", VA = "0x4DA5170", Slot = "19")]
+	[Address(RVA = "0x50CCAA0", Offset = "0x50CCAA0", VA = "0x50CCAA0", Slot = "19")]
 	protected virtual void Update()
 	{
 	}
 
 	[Token(Token = "0x600024E")]
-	[Address(RVA = "0x4DA5180", Offset = "0x4DA5180", VA = "0x4DA5180", Slot = "10")]
+	[Address(RVA = "0x50CCAB0", Offset = "0x50CCAB0", VA = "0x50CCAB0", Slot = "10")]
 	protected override void OnRectTransformDimensionsChange()
 	{
 	}
 
 	[Token(Token = "0x600024F")]
-	[Address(RVA = "0x4DA5190", Offset = "0x4DA5190", VA = "0x4DA5190")]
+	[Address(RVA = "0x50CCAC0", Offset = "0x50CCAC0", VA = "0x50CCAC0")]
 	private void UpdateRect()
 	{
 	}
 
 	[Token(Token = "0x6000250")]
-	[Address(RVA = "0x4DA5640", Offset = "0x4DA5640", VA = "0x4DA5640")]
+	[Address(RVA = "0x50CCF70", Offset = "0x50CCF70", VA = "0x50CCF70")]
 	private float GetSizeDeltaToProduceSize(float size, int axis)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000251")]
-	[Address(RVA = "0x4DA5560", Offset = "0x4DA5560", VA = "0x4DA5560")]
+	[Address(RVA = "0x50CCE90", Offset = "0x50CCE90", VA = "0x50CCE90")]
 	private Vector2 GetParentSize()
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x6000252")]
-	[Address(RVA = "0x4DA5740", Offset = "0x4DA5740", VA = "0x4DA5740", Slot = "20")]
+	[Address(RVA = "0x50CD070", Offset = "0x50CD070", VA = "0x50CD070", Slot = "20")]
 	public virtual void SetLayoutHorizontal()
 	{
 	}
 
 	[Token(Token = "0x6000253")]
-	[Address(RVA = "0x4DA5750", Offset = "0x4DA5750", VA = "0x4DA5750", Slot = "21")]
+	[Address(RVA = "0x50CD080", Offset = "0x50CD080", VA = "0x50CD080", Slot = "21")]
 	public virtual void SetLayoutVertical()
 	{
 	}
 
 	[Token(Token = "0x6000254")]
-	[Address(RVA = "0x4DA49F0", Offset = "0x4DA49F0", VA = "0x4DA49F0")]
+	[Address(RVA = "0x50CC320", Offset = "0x50CC320", VA = "0x50CC320")]
 	protected void SetDirty()
 	{
 	}
 
 	[Token(Token = "0x6000255")]
-	[Address(RVA = "0x4DA4BE0", Offset = "0x4DA4BE0", VA = "0x4DA4BE0")]
+	[Address(RVA = "0x50CC510", Offset = "0x50CC510", VA = "0x50CC510")]
 	public bool IsComponentValidOnObject()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000256")]
-	[Address(RVA = "0x4DA4C90", Offset = "0x4DA4C90", VA = "0x4DA4C90")]
+	[Address(RVA = "0x50CC5C0", Offset = "0x50CC5C0", VA = "0x50CC5C0")]
 	public bool IsAspectModeValid()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000257")]
-	[Address(RVA = "0x4DA5760", Offset = "0x4DA5760", VA = "0x4DA5760")]
+	[Address(RVA = "0x50CD090", Offset = "0x50CD090", VA = "0x50CD090")]
 	private bool DoesParentExists()
 	{
 		return default(bool);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UIR.RenderChainVEData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -170,7 +177,7 @@ internal struct RenderChainVEData
 	internal RenderChainCommand lastTailOrHeadCommand
 	{
 		[Token(Token = "0x6001D92")]
-		[Address(RVA = "0x4C77910", Offset = "0x4C77910", VA = "0x4C77910")]
+		[Address(RVA = "0x4F9F240", Offset = "0x4F9F240", VA = "0x4F9F240")]
 		get
 		{
 			return null;
@@ -182,7 +189,7 @@ internal struct RenderChainVEData
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6001D95")]
-		[Address(RVA = "0x4C77990", Offset = "0x4C77990", VA = "0x4C77990")]
+		[Address(RVA = "0x4F9F2C0", Offset = "0x4F9F2C0", VA = "0x4F9F2C0")]
 		get
 		{
 			return default(bool);
@@ -190,14 +197,14 @@ internal struct RenderChainVEData
 	}
 
 	[Token(Token = "0x6001D93")]
-	[Address(RVA = "0x4C75FC0", Offset = "0x4C75FC0", VA = "0x4C75FC0")]
+	[Address(RVA = "0x4F9D8F0", Offset = "0x4F9D8F0", VA = "0x4F9D8F0")]
 	internal static bool AllocatesID(BMPAlloc alloc)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001D94")]
-	[Address(RVA = "0x4C77930", Offset = "0x4C77930", VA = "0x4C77930")]
+	[Address(RVA = "0x4F9F260", Offset = "0x4F9F260", VA = "0x4F9F260")]
 	internal static bool InheritsID(BMPAlloc alloc)
 	{
 		return default(bool);

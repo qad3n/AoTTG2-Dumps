@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Net.Security.MobileTlsContext
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Security.Authentication;
@@ -28,7 +35,7 @@ internal abstract class MobileTlsContext : IDisposable
 	internal MobileAuthenticatedStream Parent
 	{
 		[Token(Token = "0x600011D")]
-		[Address(RVA = "0x4543160", Offset = "0x4543160", VA = "0x4543160")]
+		[Address(RVA = "0x4529350", Offset = "0x4529350", VA = "0x4529350")]
 		[CompilerGenerated]
 		get
 		{
@@ -40,7 +47,7 @@ internal abstract class MobileTlsContext : IDisposable
 	public MonoTlsSettings Settings
 	{
 		[Token(Token = "0x600011E")]
-		[Address(RVA = "0x4538460", Offset = "0x4538460", VA = "0x4538460")]
+		[Address(RVA = "0x451E650", Offset = "0x451E650", VA = "0x451E650")]
 		get
 		{
 			return null;
@@ -58,7 +65,7 @@ internal abstract class MobileTlsContext : IDisposable
 	public bool IsServer
 	{
 		[Token(Token = "0x6000120")]
-		[Address(RVA = "0x4543170", Offset = "0x4543170", VA = "0x4543170")]
+		[Address(RVA = "0x4529360", Offset = "0x4529360", VA = "0x4529360")]
 		[CompilerGenerated]
 		get
 		{
@@ -70,7 +77,7 @@ internal abstract class MobileTlsContext : IDisposable
 	internal string TargetHost
 	{
 		[Token(Token = "0x6000121")]
-		[Address(RVA = "0x4543180", Offset = "0x4543180", VA = "0x4543180")]
+		[Address(RVA = "0x4529370", Offset = "0x4529370", VA = "0x4529370")]
 		[CompilerGenerated]
 		get
 		{
@@ -82,7 +89,7 @@ internal abstract class MobileTlsContext : IDisposable
 	protected string ServerName
 	{
 		[Token(Token = "0x6000122")]
-		[Address(RVA = "0x4543190", Offset = "0x4543190", VA = "0x4543190")]
+		[Address(RVA = "0x4529380", Offset = "0x4529380", VA = "0x4529380")]
 		[CompilerGenerated]
 		get
 		{
@@ -94,7 +101,7 @@ internal abstract class MobileTlsContext : IDisposable
 	protected bool AskForClientCertificate
 	{
 		[Token(Token = "0x6000123")]
-		[Address(RVA = "0x45431A0", Offset = "0x45431A0", VA = "0x45431A0")]
+		[Address(RVA = "0x4529390", Offset = "0x4529390", VA = "0x4529390")]
 		[CompilerGenerated]
 		get
 		{
@@ -106,7 +113,7 @@ internal abstract class MobileTlsContext : IDisposable
 	protected X509CertificateCollection ClientCertificates
 	{
 		[Token(Token = "0x6000124")]
-		[Address(RVA = "0x45431B0", Offset = "0x45431B0", VA = "0x45431B0")]
+		[Address(RVA = "0x45293A0", Offset = "0x45293A0", VA = "0x45293A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -118,14 +125,14 @@ internal abstract class MobileTlsContext : IDisposable
 	internal X509Certificate LocalServerCertificate
 	{
 		[Token(Token = "0x6000128")]
-		[Address(RVA = "0x45431C0", Offset = "0x45431C0", VA = "0x45431C0")]
+		[Address(RVA = "0x45293B0", Offset = "0x45293B0", VA = "0x45293B0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000129")]
-		[Address(RVA = "0x45431D0", Offset = "0x45431D0", VA = "0x45431D0")]
+		[Address(RVA = "0x45293C0", Offset = "0x45293C0", VA = "0x45293C0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -147,7 +154,7 @@ internal abstract class MobileTlsContext : IDisposable
 	}
 
 	[Token(Token = "0x600011C")]
-	[Address(RVA = "0x4537950", Offset = "0x4537950", VA = "0x4537950")]
+	[Address(RVA = "0x451DB40", Offset = "0x451DB40", VA = "0x451DB40")]
 	protected MobileTlsContext(MobileAuthenticatedStream parent, MonoSslAuthenticationOptions options)
 	{
 	}
@@ -174,14 +181,14 @@ internal abstract class MobileTlsContext : IDisposable
 	public abstract bool PendingRenegotiation();
 
 	[Token(Token = "0x6000130")]
-	[Address(RVA = "0x4538900", Offset = "0x4538900", VA = "0x4538900")]
+	[Address(RVA = "0x451EAF0", Offset = "0x451EAF0", VA = "0x451EAF0")]
 	protected bool ValidateCertificate(X509Certificate2 leaf, X509Chain chain)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000131")]
-	[Address(RVA = "0x4539E30", Offset = "0x4539E30", VA = "0x4539E30")]
+	[Address(RVA = "0x4520020", Offset = "0x4520020", VA = "0x4520020")]
 	protected X509Certificate SelectClientCertificate(string[] acceptableIssuers)
 	{
 		return null;
@@ -191,19 +198,19 @@ internal abstract class MobileTlsContext : IDisposable
 	public abstract void Renegotiate();
 
 	[Token(Token = "0x6000133")]
-	[Address(RVA = "0x4540830", Offset = "0x4540830", VA = "0x4540830", Slot = "4")]
+	[Address(RVA = "0x4526A20", Offset = "0x4526A20", VA = "0x4526A20", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000134")]
-	[Address(RVA = "0x45431E0", Offset = "0x45431E0", VA = "0x45431E0", Slot = "16")]
+	[Address(RVA = "0x45293D0", Offset = "0x45293D0", VA = "0x45293D0", Slot = "16")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6000135")]
-	[Address(RVA = "0x45431F0", Offset = "0x45431F0", VA = "0x45431F0", Slot = "1")]
+	[Address(RVA = "0x45293E0", Offset = "0x45293E0", VA = "0x45293E0", Slot = "1")]
 	~MobileTlsContext()
 	{
 	}

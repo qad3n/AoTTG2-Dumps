@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MapEditor.TransformRotationCommand
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/MapEditor/TransformRotationCommand.c
+// Prior real C# source (older reference): Assets/Scripts/MapEditor/Commands/TransformRotationCommand.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 using Map;
@@ -5,35 +12,35 @@ using UnityEngine;
 
 namespace MapEditor;
 
-[Token(Token = "0x2000109")]
+[Token(Token = "0x200010A")]
 internal class TransformRotationCommand : BaseCommand
 {
-	[Token(Token = "0x4000642")]
+	[Token(Token = "0x400064A")]
 	[FieldOffset(Offset = "0x10")]
 	private List<Vector3> _oldRotations;
 
-	[Token(Token = "0x4000643")]
+	[Token(Token = "0x400064B")]
 	[FieldOffset(Offset = "0x18")]
 	private List<Vector3> _newRotations;
 
-	[Token(Token = "0x4000644")]
+	[Token(Token = "0x400064C")]
 	[FieldOffset(Offset = "0x20")]
 	private List<int> _ids;
 
-	[Token(Token = "0x6000546")]
-	[Address(RVA = "0x3F45EC0", Offset = "0x3F45EC0", VA = "0x3F45EC0")]
+	[Token(Token = "0x6000552")]
+	[Address(RVA = "0x423AD00", Offset = "0x423AD00", VA = "0x423AD00")]
 	public TransformRotationCommand(List<MapObject> mapObjects)
 	{
 	}
 
-	[Token(Token = "0x6000547")]
-	[Address(RVA = "0x3F463A0", Offset = "0x3F463A0", VA = "0x3F463A0", Slot = "4")]
+	[Token(Token = "0x6000553")]
+	[Address(RVA = "0x423B1E0", Offset = "0x423B1E0", VA = "0x423B1E0", Slot = "4")]
 	public override void Execute()
 	{
 	}
 
-	[Token(Token = "0x6000548")]
-	[Address(RVA = "0x3F46580", Offset = "0x3F46580", VA = "0x3F46580", Slot = "5")]
+	[Token(Token = "0x6000554")]
+	[Address(RVA = "0x423B3C0", Offset = "0x423B3C0", VA = "0x423B3C0", Slot = "5")]
 	public override void Unexecute()
 	{
 	}

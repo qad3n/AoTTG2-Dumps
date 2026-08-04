@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlArrayItemAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Text;
 using System.Xml.Schema;
 using Il2CppDummyDll;
@@ -44,7 +51,7 @@ public class XmlArrayItemAttribute : Attribute
 	public string DataType
 	{
 		[Token(Token = "0x6000D10")]
-		[Address(RVA = "0x44D3A20", Offset = "0x44D3A20", VA = "0x44D3A20")]
+		[Address(RVA = "0x4811180", Offset = "0x4811180", VA = "0x4811180")]
 		get
 		{
 			return null;
@@ -55,7 +62,7 @@ public class XmlArrayItemAttribute : Attribute
 	public string ElementName
 	{
 		[Token(Token = "0x6000D11")]
-		[Address(RVA = "0x44D3A50", Offset = "0x44D3A50", VA = "0x44D3A50")]
+		[Address(RVA = "0x48111B0", Offset = "0x48111B0", VA = "0x48111B0")]
 		get
 		{
 			return null;
@@ -66,7 +73,7 @@ public class XmlArrayItemAttribute : Attribute
 	public XmlSchemaForm Form
 	{
 		[Token(Token = "0x6000D12")]
-		[Address(RVA = "0x44D3A80", Offset = "0x44D3A80", VA = "0x44D3A80")]
+		[Address(RVA = "0x48111E0", Offset = "0x48111E0", VA = "0x48111E0")]
 		get
 		{
 			return default(XmlSchemaForm);
@@ -77,7 +84,7 @@ public class XmlArrayItemAttribute : Attribute
 	public string Namespace
 	{
 		[Token(Token = "0x6000D13")]
-		[Address(RVA = "0x44D3A90", Offset = "0x44D3A90", VA = "0x44D3A90")]
+		[Address(RVA = "0x48111F0", Offset = "0x48111F0", VA = "0x48111F0")]
 		get
 		{
 			return null;
@@ -88,7 +95,7 @@ public class XmlArrayItemAttribute : Attribute
 	public bool IsNullable
 	{
 		[Token(Token = "0x6000D14")]
-		[Address(RVA = "0x44D3AA0", Offset = "0x44D3AA0", VA = "0x44D3AA0")]
+		[Address(RVA = "0x4811200", Offset = "0x4811200", VA = "0x4811200")]
 		get
 		{
 			return default(bool);
@@ -99,7 +106,7 @@ public class XmlArrayItemAttribute : Attribute
 	internal bool IsNullableSpecified
 	{
 		[Token(Token = "0x6000D15")]
-		[Address(RVA = "0x44D3AB0", Offset = "0x44D3AB0", VA = "0x44D3AB0")]
+		[Address(RVA = "0x4811210", Offset = "0x4811210", VA = "0x4811210")]
 		get
 		{
 			return default(bool);
@@ -110,7 +117,7 @@ public class XmlArrayItemAttribute : Attribute
 	public Type Type
 	{
 		[Token(Token = "0x6000D16")]
-		[Address(RVA = "0x44D3AC0", Offset = "0x44D3AC0", VA = "0x44D3AC0")]
+		[Address(RVA = "0x4811220", Offset = "0x4811220", VA = "0x4811220")]
 		get
 		{
 			return null;
@@ -121,7 +128,7 @@ public class XmlArrayItemAttribute : Attribute
 	public int NestingLevel
 	{
 		[Token(Token = "0x6000D17")]
-		[Address(RVA = "0x44D3AD0", Offset = "0x44D3AD0", VA = "0x44D3AD0")]
+		[Address(RVA = "0x4811230", Offset = "0x4811230", VA = "0x4811230")]
 		get
 		{
 			return default(int);
@@ -129,7 +136,7 @@ public class XmlArrayItemAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000D18")]
-	[Address(RVA = "0x44D3AE0", Offset = "0x44D3AE0", VA = "0x44D3AE0")]
+	[Address(RVA = "0x4811240", Offset = "0x4811240", VA = "0x4811240")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

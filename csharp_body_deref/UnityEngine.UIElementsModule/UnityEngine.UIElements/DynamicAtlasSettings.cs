@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.DynamicAtlasSettings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -39,13 +46,13 @@ public class DynamicAtlasSettings
 	public int minAtlasSize
 	{
 		[Token(Token = "0x6000D3A")]
-		[Address(RVA = "0x4D18CC0", Offset = "0x4D18CC0", VA = "0x4D18CC0")]
+		[Address(RVA = "0x50405F0", Offset = "0x50405F0", VA = "0x50405F0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000D3B")]
-		[Address(RVA = "0x4D18CD0", Offset = "0x4D18CD0", VA = "0x4D18CD0")]
+		[Address(RVA = "0x5040600", Offset = "0x5040600", VA = "0x5040600")]
 		set
 		{
 		}
@@ -55,13 +62,13 @@ public class DynamicAtlasSettings
 	public int maxAtlasSize
 	{
 		[Token(Token = "0x6000D3C")]
-		[Address(RVA = "0x4D18CE0", Offset = "0x4D18CE0", VA = "0x4D18CE0")]
+		[Address(RVA = "0x5040610", Offset = "0x5040610", VA = "0x5040610")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000D3D")]
-		[Address(RVA = "0x4D18CF0", Offset = "0x4D18CF0", VA = "0x4D18CF0")]
+		[Address(RVA = "0x5040620", Offset = "0x5040620", VA = "0x5040620")]
 		set
 		{
 		}
@@ -71,13 +78,13 @@ public class DynamicAtlasSettings
 	public int maxSubTextureSize
 	{
 		[Token(Token = "0x6000D3E")]
-		[Address(RVA = "0x4D18D00", Offset = "0x4D18D00", VA = "0x4D18D00")]
+		[Address(RVA = "0x5040630", Offset = "0x5040630", VA = "0x5040630")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000D3F")]
-		[Address(RVA = "0x4D18D10", Offset = "0x4D18D10", VA = "0x4D18D10")]
+		[Address(RVA = "0x5040640", Offset = "0x5040640", VA = "0x5040640")]
 		set
 		{
 		}
@@ -87,13 +94,13 @@ public class DynamicAtlasSettings
 	public DynamicAtlasFilters activeFilters
 	{
 		[Token(Token = "0x6000D40")]
-		[Address(RVA = "0x4D18D20", Offset = "0x4D18D20", VA = "0x4D18D20")]
+		[Address(RVA = "0x5040650", Offset = "0x5040650", VA = "0x5040650")]
 		get
 		{
 			return default(DynamicAtlasFilters);
 		}
 		[Token(Token = "0x6000D41")]
-		[Address(RVA = "0x4D18D30", Offset = "0x4D18D30", VA = "0x4D18D30")]
+		[Address(RVA = "0x5040660", Offset = "0x5040660", VA = "0x5040660")]
 		set
 		{
 		}
@@ -103,7 +110,7 @@ public class DynamicAtlasSettings
 	public static DynamicAtlasFilters defaultFilters
 	{
 		[Token(Token = "0x6000D42")]
-		[Address(RVA = "0x4D18D40", Offset = "0x4D18D40", VA = "0x4D18D40")]
+		[Address(RVA = "0x5040670", Offset = "0x5040670", VA = "0x5040670")]
 		get
 		{
 			return default(DynamicAtlasFilters);
@@ -114,13 +121,13 @@ public class DynamicAtlasSettings
 	public DynamicAtlasCustomFilter customFilter
 	{
 		[Token(Token = "0x6000D43")]
-		[Address(RVA = "0x4D18D50", Offset = "0x4D18D50", VA = "0x4D18D50")]
+		[Address(RVA = "0x5040680", Offset = "0x5040680", VA = "0x5040680")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000D44")]
-		[Address(RVA = "0x4D18D60", Offset = "0x4D18D60", VA = "0x4D18D60")]
+		[Address(RVA = "0x5040690", Offset = "0x5040690", VA = "0x5040690")]
 		set
 		{
 		}
@@ -130,7 +137,7 @@ public class DynamicAtlasSettings
 	public static DynamicAtlasSettings defaults
 	{
 		[Token(Token = "0x6000D45")]
-		[Address(RVA = "0x4D18D70", Offset = "0x4D18D70", VA = "0x4D18D70")]
+		[Address(RVA = "0x50406A0", Offset = "0x50406A0", VA = "0x50406A0")]
 		get
 		{
 			return null;
@@ -138,7 +145,7 @@ public class DynamicAtlasSettings
 	}
 
 	[Token(Token = "0x6000D46")]
-	[Address(RVA = "0x4D18DF0", Offset = "0x4D18DF0", VA = "0x4D18DF0")]
+	[Address(RVA = "0x5040720", Offset = "0x5040720", VA = "0x5040720")]
 	public DynamicAtlasSettings()
 	{
 	}

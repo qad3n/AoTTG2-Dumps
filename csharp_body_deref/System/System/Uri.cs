@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Uri
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.ComponentModel;
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
@@ -153,7 +160,7 @@ public class Uri : ISerializable
 		public MoreInfo MoreInfo;
 
 		[Token(Token = "0x600024A")]
-		[Address(RVA = "0x45D5910", Offset = "0x45D5910", VA = "0x45D5910")]
+		[Address(RVA = "0x48FAA10", Offset = "0x48FAA10", VA = "0x48FAA10")]
 		public UriInfo()
 		{
 		}
@@ -223,7 +230,7 @@ public class Uri : ISerializable
 		public string RemoteUrl;
 
 		[Token(Token = "0x600024B")]
-		[Address(RVA = "0x45D5920", Offset = "0x45D5920", VA = "0x45D5920")]
+		[Address(RVA = "0x48FAA20", Offset = "0x48FAA20", VA = "0x48FAA20")]
 		public MoreInfo()
 		{
 		}
@@ -373,7 +380,7 @@ public class Uri : ISerializable
 	private bool IsImplicitFile
 	{
 		[Token(Token = "0x60001CB")]
-		[Address(RVA = "0x454B590", Offset = "0x454B590", VA = "0x454B590")]
+		[Address(RVA = "0x4870690", Offset = "0x4870690", VA = "0x4870690")]
 		get
 		{
 			return default(bool);
@@ -384,7 +391,7 @@ public class Uri : ISerializable
 	private bool IsUncOrDosPath
 	{
 		[Token(Token = "0x60001CC")]
-		[Address(RVA = "0x454B5A0", Offset = "0x454B5A0", VA = "0x454B5A0")]
+		[Address(RVA = "0x48706A0", Offset = "0x48706A0", VA = "0x48706A0")]
 		get
 		{
 			return default(bool);
@@ -395,7 +402,7 @@ public class Uri : ISerializable
 	private bool IsDosPath
 	{
 		[Token(Token = "0x60001CD")]
-		[Address(RVA = "0x454B5B0", Offset = "0x454B5B0", VA = "0x454B5B0")]
+		[Address(RVA = "0x48706B0", Offset = "0x48706B0", VA = "0x48706B0")]
 		get
 		{
 			return default(bool);
@@ -406,7 +413,7 @@ public class Uri : ISerializable
 	private bool IsUncPath
 	{
 		[Token(Token = "0x60001CE")]
-		[Address(RVA = "0x454B5C0", Offset = "0x454B5C0", VA = "0x454B5C0")]
+		[Address(RVA = "0x48706C0", Offset = "0x48706C0", VA = "0x48706C0")]
 		get
 		{
 			return default(bool);
@@ -417,7 +424,7 @@ public class Uri : ISerializable
 	private Flags HostType
 	{
 		[Token(Token = "0x60001CF")]
-		[Address(RVA = "0x454B5D0", Offset = "0x454B5D0", VA = "0x454B5D0")]
+		[Address(RVA = "0x48706D0", Offset = "0x48706D0", VA = "0x48706D0")]
 		get
 		{
 			return default(Flags);
@@ -428,7 +435,7 @@ public class Uri : ISerializable
 	private UriParser Syntax
 	{
 		[Token(Token = "0x60001D0")]
-		[Address(RVA = "0x454B5E0", Offset = "0x454B5E0", VA = "0x454B5E0")]
+		[Address(RVA = "0x48706E0", Offset = "0x48706E0", VA = "0x48706E0")]
 		get
 		{
 			return null;
@@ -439,7 +446,7 @@ public class Uri : ISerializable
 	private bool IsNotAbsoluteUri
 	{
 		[Token(Token = "0x60001D1")]
-		[Address(RVA = "0x454B5F0", Offset = "0x454B5F0", VA = "0x454B5F0")]
+		[Address(RVA = "0x48706F0", Offset = "0x48706F0", VA = "0x48706F0")]
 		get
 		{
 			return default(bool);
@@ -450,7 +457,7 @@ public class Uri : ISerializable
 	private bool AllowIdn
 	{
 		[Token(Token = "0x60001D3")]
-		[Address(RVA = "0x454B690", Offset = "0x454B690", VA = "0x454B690")]
+		[Address(RVA = "0x4870790", Offset = "0x4870790", VA = "0x4870790")]
 		get
 		{
 			return default(bool);
@@ -461,7 +468,7 @@ public class Uri : ISerializable
 	internal bool UserDrivenParsing
 	{
 		[Token(Token = "0x60001D6")]
-		[Address(RVA = "0x454B810", Offset = "0x454B810", VA = "0x454B810")]
+		[Address(RVA = "0x4870910", Offset = "0x4870910", VA = "0x4870910")]
 		get
 		{
 			return default(bool);
@@ -472,7 +479,7 @@ public class Uri : ISerializable
 	private ushort SecuredPathIndex
 	{
 		[Token(Token = "0x60001D8")]
-		[Address(RVA = "0x454B840", Offset = "0x454B840", VA = "0x454B840")]
+		[Address(RVA = "0x4870940", Offset = "0x4870940", VA = "0x4870940")]
 		get
 		{
 			return default(ushort);
@@ -483,7 +490,7 @@ public class Uri : ISerializable
 	public string AbsolutePath
 	{
 		[Token(Token = "0x60001EA")]
-		[Address(RVA = "0x454F5E0", Offset = "0x454F5E0", VA = "0x454F5E0")]
+		[Address(RVA = "0x48746E0", Offset = "0x48746E0", VA = "0x48746E0")]
 		get
 		{
 			return null;
@@ -494,7 +501,7 @@ public class Uri : ISerializable
 	private string PrivateAbsolutePath
 	{
 		[Token(Token = "0x60001EB")]
-		[Address(RVA = "0x454F6A0", Offset = "0x454F6A0", VA = "0x454F6A0")]
+		[Address(RVA = "0x48747A0", Offset = "0x48747A0", VA = "0x48747A0")]
 		get
 		{
 			return null;
@@ -505,7 +512,7 @@ public class Uri : ISerializable
 	public string AbsoluteUri
 	{
 		[Token(Token = "0x60001EC")]
-		[Address(RVA = "0x454F790", Offset = "0x454F790", VA = "0x454F790")]
+		[Address(RVA = "0x4874890", Offset = "0x4874890", VA = "0x4874890")]
 		get
 		{
 			return null;
@@ -516,7 +523,7 @@ public class Uri : ISerializable
 	public string LocalPath
 	{
 		[Token(Token = "0x60001ED")]
-		[Address(RVA = "0x454F8C0", Offset = "0x454F8C0", VA = "0x454F8C0")]
+		[Address(RVA = "0x48749C0", Offset = "0x48749C0", VA = "0x48749C0")]
 		get
 		{
 			return null;
@@ -527,7 +534,7 @@ public class Uri : ISerializable
 	public string Authority
 	{
 		[Token(Token = "0x60001EE")]
-		[Address(RVA = "0x4550050", Offset = "0x4550050", VA = "0x4550050")]
+		[Address(RVA = "0x4875150", Offset = "0x4875150", VA = "0x4875150")]
 		get
 		{
 			return null;
@@ -538,7 +545,7 @@ public class Uri : ISerializable
 	public UriHostNameType HostNameType
 	{
 		[Token(Token = "0x60001EF")]
-		[Address(RVA = "0x45500D0", Offset = "0x45500D0", VA = "0x45500D0")]
+		[Address(RVA = "0x48751D0", Offset = "0x48751D0", VA = "0x48751D0")]
 		get
 		{
 			return default(UriHostNameType);
@@ -549,7 +556,7 @@ public class Uri : ISerializable
 	public bool IsDefaultPort
 	{
 		[Token(Token = "0x60001F0")]
-		[Address(RVA = "0x4550230", Offset = "0x4550230", VA = "0x4550230")]
+		[Address(RVA = "0x4875330", Offset = "0x4875330", VA = "0x4875330")]
 		get
 		{
 			return default(bool);
@@ -560,7 +567,7 @@ public class Uri : ISerializable
 	public bool IsFile
 	{
 		[Token(Token = "0x60001F1")]
-		[Address(RVA = "0x4550300", Offset = "0x4550300", VA = "0x4550300")]
+		[Address(RVA = "0x4875400", Offset = "0x4875400", VA = "0x4875400")]
 		get
 		{
 			return default(bool);
@@ -571,7 +578,7 @@ public class Uri : ISerializable
 	public bool IsLoopback
 	{
 		[Token(Token = "0x60001F2")]
-		[Address(RVA = "0x45503C0", Offset = "0x45503C0", VA = "0x45503C0")]
+		[Address(RVA = "0x48754C0", Offset = "0x48754C0", VA = "0x48754C0")]
 		get
 		{
 			return default(bool);
@@ -582,7 +589,7 @@ public class Uri : ISerializable
 	public string PathAndQuery
 	{
 		[Token(Token = "0x60001F3")]
-		[Address(RVA = "0x4550470", Offset = "0x4550470", VA = "0x4550470")]
+		[Address(RVA = "0x4875570", Offset = "0x4875570", VA = "0x4875570")]
 		get
 		{
 			return null;
@@ -593,7 +600,7 @@ public class Uri : ISerializable
 	public string[] Segments
 	{
 		[Token(Token = "0x60001F4")]
-		[Address(RVA = "0x4550530", Offset = "0x4550530", VA = "0x4550530")]
+		[Address(RVA = "0x4875630", Offset = "0x4875630", VA = "0x4875630")]
 		get
 		{
 			return null;
@@ -604,7 +611,7 @@ public class Uri : ISerializable
 	public bool IsUnc
 	{
 		[Token(Token = "0x60001F5")]
-		[Address(RVA = "0x4550750", Offset = "0x4550750", VA = "0x4550750")]
+		[Address(RVA = "0x4875850", Offset = "0x4875850", VA = "0x4875850")]
 		get
 		{
 			return default(bool);
@@ -615,7 +622,7 @@ public class Uri : ISerializable
 	public string Host
 	{
 		[Token(Token = "0x60001F6")]
-		[Address(RVA = "0x45507C0", Offset = "0x45507C0", VA = "0x45507C0")]
+		[Address(RVA = "0x48758C0", Offset = "0x48758C0", VA = "0x48758C0")]
 		get
 		{
 			return null;
@@ -626,7 +633,7 @@ public class Uri : ISerializable
 	private static object InitializeLock
 	{
 		[Token(Token = "0x60001F8")]
-		[Address(RVA = "0x4550860", Offset = "0x4550860", VA = "0x4550860")]
+		[Address(RVA = "0x4875960", Offset = "0x4875960", VA = "0x4875960")]
 		get
 		{
 			return null;
@@ -637,7 +644,7 @@ public class Uri : ISerializable
 	public int Port
 	{
 		[Token(Token = "0x60001FB")]
-		[Address(RVA = "0x4551150", Offset = "0x4551150", VA = "0x4551150")]
+		[Address(RVA = "0x4876250", Offset = "0x4876250", VA = "0x4876250")]
 		get
 		{
 			return default(int);
@@ -648,7 +655,7 @@ public class Uri : ISerializable
 	public string Query
 	{
 		[Token(Token = "0x60001FC")]
-		[Address(RVA = "0x4551250", Offset = "0x4551250", VA = "0x4551250")]
+		[Address(RVA = "0x4876350", Offset = "0x4876350", VA = "0x4876350")]
 		get
 		{
 			return null;
@@ -659,7 +666,7 @@ public class Uri : ISerializable
 	public string Fragment
 	{
 		[Token(Token = "0x60001FD")]
-		[Address(RVA = "0x4551380", Offset = "0x4551380", VA = "0x4551380")]
+		[Address(RVA = "0x4876480", Offset = "0x4876480", VA = "0x4876480")]
 		get
 		{
 			return null;
@@ -670,7 +677,7 @@ public class Uri : ISerializable
 	public string Scheme
 	{
 		[Token(Token = "0x60001FE")]
-		[Address(RVA = "0x45514B0", Offset = "0x45514B0", VA = "0x45514B0")]
+		[Address(RVA = "0x48765B0", Offset = "0x48765B0", VA = "0x48765B0")]
 		get
 		{
 			return null;
@@ -681,7 +688,7 @@ public class Uri : ISerializable
 	private bool OriginalStringSwitched
 	{
 		[Token(Token = "0x60001FF")]
-		[Address(RVA = "0x4551520", Offset = "0x4551520", VA = "0x4551520")]
+		[Address(RVA = "0x4876620", Offset = "0x4876620", VA = "0x4876620")]
 		get
 		{
 			return default(bool);
@@ -692,7 +699,7 @@ public class Uri : ISerializable
 	public string OriginalString
 	{
 		[Token(Token = "0x6000200")]
-		[Address(RVA = "0x454E6D0", Offset = "0x454E6D0", VA = "0x454E6D0")]
+		[Address(RVA = "0x48737D0", Offset = "0x48737D0", VA = "0x48737D0")]
 		get
 		{
 			return null;
@@ -703,7 +710,7 @@ public class Uri : ISerializable
 	public string DnsSafeHost
 	{
 		[Token(Token = "0x6000201")]
-		[Address(RVA = "0x4551560", Offset = "0x4551560", VA = "0x4551560")]
+		[Address(RVA = "0x4876660", Offset = "0x4876660", VA = "0x4876660")]
 		get
 		{
 			return null;
@@ -714,7 +721,7 @@ public class Uri : ISerializable
 	public string IdnHost
 	{
 		[Token(Token = "0x6000202")]
-		[Address(RVA = "0x4551800", Offset = "0x4551800", VA = "0x4551800")]
+		[Address(RVA = "0x4876900", Offset = "0x4876900", VA = "0x4876900")]
 		get
 		{
 			return null;
@@ -725,7 +732,7 @@ public class Uri : ISerializable
 	public bool IsAbsoluteUri
 	{
 		[Token(Token = "0x6000203")]
-		[Address(RVA = "0x454D7F0", Offset = "0x454D7F0", VA = "0x454D7F0")]
+		[Address(RVA = "0x48728F0", Offset = "0x48728F0", VA = "0x48728F0")]
 		get
 		{
 			return default(bool);
@@ -736,7 +743,7 @@ public class Uri : ISerializable
 	public bool UserEscaped
 	{
 		[Token(Token = "0x6000204")]
-		[Address(RVA = "0x4551830", Offset = "0x4551830", VA = "0x4551830")]
+		[Address(RVA = "0x4876930", Offset = "0x4876930", VA = "0x4876930")]
 		get
 		{
 			return default(bool);
@@ -747,7 +754,7 @@ public class Uri : ISerializable
 	public string UserInfo
 	{
 		[Token(Token = "0x6000205")]
-		[Address(RVA = "0x4551840", Offset = "0x4551840", VA = "0x4551840")]
+		[Address(RVA = "0x4876940", Offset = "0x4876940", VA = "0x4876940")]
 		get
 		{
 			return null;
@@ -758,7 +765,7 @@ public class Uri : ISerializable
 	internal bool HasAuthority
 	{
 		[Token(Token = "0x600022C")]
-		[Address(RVA = "0x4558B70", Offset = "0x4558B70", VA = "0x4558B70")]
+		[Address(RVA = "0x487DC70", Offset = "0x487DC70", VA = "0x487DC70")]
 		get
 		{
 			return default(bool);
@@ -766,605 +773,605 @@ public class Uri : ISerializable
 	}
 
 	[Token(Token = "0x60001D2")]
-	[Address(RVA = "0x454B600", Offset = "0x454B600", VA = "0x454B600")]
+	[Address(RVA = "0x4870700", Offset = "0x4870700", VA = "0x4870700")]
 	internal static bool IriParsingStatic(UriParser syntax)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001D4")]
-	[Address(RVA = "0x454B740", Offset = "0x454B740", VA = "0x454B740")]
+	[Address(RVA = "0x4870840", Offset = "0x4870840", VA = "0x4870840")]
 	private bool AllowIdnStatic(UriParser syntax, Flags flags)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001D5")]
-	[Address(RVA = "0x454B800", Offset = "0x454B800", VA = "0x454B800")]
+	[Address(RVA = "0x4870900", Offset = "0x4870900", VA = "0x4870900")]
 	private bool IsIntranet(string schemeHost)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001D7")]
-	[Address(RVA = "0x454B820", Offset = "0x454B820", VA = "0x454B820")]
+	[Address(RVA = "0x4870920", Offset = "0x4870920", VA = "0x4870920")]
 	private void SetUserDrivenParsing()
 	{
 	}
 
 	[Token(Token = "0x60001D9")]
-	[Address(RVA = "0x454B730", Offset = "0x454B730", VA = "0x454B730")]
+	[Address(RVA = "0x4870830", Offset = "0x4870830", VA = "0x4870830")]
 	private bool NotAny(Flags flags)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001DA")]
-	[Address(RVA = "0x454B890", Offset = "0x454B890", VA = "0x454B890")]
+	[Address(RVA = "0x4870990", Offset = "0x4870990", VA = "0x4870990")]
 	private bool InFact(Flags flags)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001DB")]
-	[Address(RVA = "0x454B7F0", Offset = "0x454B7F0", VA = "0x454B7F0")]
+	[Address(RVA = "0x48708F0", Offset = "0x48708F0", VA = "0x48708F0")]
 	private static bool StaticNotAny(Flags allFlags, Flags checkFlags)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001DC")]
-	[Address(RVA = "0x454B8A0", Offset = "0x454B8A0", VA = "0x454B8A0")]
+	[Address(RVA = "0x48709A0", Offset = "0x48709A0", VA = "0x48709A0")]
 	private static bool StaticInFact(Flags allFlags, Flags checkFlags)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001DD")]
-	[Address(RVA = "0x454B8B0", Offset = "0x454B8B0", VA = "0x454B8B0")]
+	[Address(RVA = "0x48709B0", Offset = "0x48709B0", VA = "0x48709B0")]
 	private UriInfo EnsureUriInfo()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001DE")]
-	[Address(RVA = "0x454BF40", Offset = "0x454BF40", VA = "0x454BF40")]
+	[Address(RVA = "0x4871040", Offset = "0x4871040", VA = "0x4871040")]
 	private void EnsureParseRemaining()
 	{
 	}
 
 	[Token(Token = "0x60001DF")]
-	[Address(RVA = "0x454CFC0", Offset = "0x454CFC0", VA = "0x454CFC0")]
+	[Address(RVA = "0x48720C0", Offset = "0x48720C0", VA = "0x48720C0")]
 	private void EnsureHostString(bool allowDnsOptimization)
 	{
 	}
 
 	[Token(Token = "0x60001E0")]
-	[Address(RVA = "0x454D480", Offset = "0x454D480", VA = "0x454D480")]
+	[Address(RVA = "0x4872580", Offset = "0x4872580", VA = "0x4872580")]
 	public Uri(string uriString)
 	{
 	}
 
 	[Token(Token = "0x60001E1")]
-	[Address(RVA = "0x454D6C0", Offset = "0x454D6C0", VA = "0x454D6C0")]
+	[Address(RVA = "0x48727C0", Offset = "0x48727C0", VA = "0x48727C0")]
 	public Uri(string uriString, UriKind uriKind)
 	{
 	}
 
 	[Token(Token = "0x60001E2")]
-	[Address(RVA = "0x454D740", Offset = "0x454D740", VA = "0x454D740")]
+	[Address(RVA = "0x4872840", Offset = "0x4872840", VA = "0x4872840")]
 	public Uri(Uri baseUri, string relativeUri)
 	{
 	}
 
 	[Token(Token = "0x60001E3")]
-	[Address(RVA = "0x454D800", Offset = "0x454D800", VA = "0x454D800")]
+	[Address(RVA = "0x4872900", Offset = "0x4872900", VA = "0x4872900")]
 	private void CreateUri(Uri baseUri, string relativeUri, bool dontEscape)
 	{
 	}
 
 	[Token(Token = "0x60001E4")]
-	[Address(RVA = "0x454E120", Offset = "0x454E120", VA = "0x454E120")]
+	[Address(RVA = "0x4873220", Offset = "0x4873220", VA = "0x4873220")]
 	public Uri(Uri baseUri, Uri relativeUri)
 	{
 	}
 
 	[Token(Token = "0x60001E5")]
-	[Address(RVA = "0x454E360", Offset = "0x454E360", VA = "0x454E360")]
+	[Address(RVA = "0x4873460", Offset = "0x4873460", VA = "0x4873460")]
 	private static ParsingError GetCombinedString(Uri baseUri, string relativeStr, bool dontEscape, ref string result)
 	{
 		return default(ParsingError);
 	}
 
 	[Token(Token = "0x60001E6")]
-	[Address(RVA = "0x454F210", Offset = "0x454F210", VA = "0x454F210")]
+	[Address(RVA = "0x4874310", Offset = "0x4874310", VA = "0x4874310")]
 	private static UriFormatException GetException(ParsingError err)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001E7")]
-	[Address(RVA = "0x454F380", Offset = "0x454F380", VA = "0x454F380")]
+	[Address(RVA = "0x4874480", Offset = "0x4874480", VA = "0x4874480")]
 	protected Uri(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
 	[Token(Token = "0x60001E8")]
-	[Address(RVA = "0x454F480", Offset = "0x454F480", VA = "0x454F480", Slot = "4")]
+	[Address(RVA = "0x4874580", Offset = "0x4874580", VA = "0x4874580", Slot = "4")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
 	[Token(Token = "0x60001E9")]
-	[Address(RVA = "0x454F490", Offset = "0x454F490", VA = "0x454F490")]
+	[Address(RVA = "0x4874590", Offset = "0x4874590", VA = "0x4874590")]
 	protected void GetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
 	[Token(Token = "0x60001F7")]
-	[Address(RVA = "0x4550840", Offset = "0x4550840", VA = "0x4550840")]
+	[Address(RVA = "0x4875940", Offset = "0x4875940", VA = "0x4875940")]
 	private static bool StaticIsFile(UriParser syntax)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001F9")]
-	[Address(RVA = "0x4550960", Offset = "0x4550960", VA = "0x4550960")]
+	[Address(RVA = "0x4875A60", Offset = "0x4875A60", VA = "0x4875A60")]
 	private static void InitializeUriConfig()
 	{
 	}
 
 	[Token(Token = "0x60001FA")]
-	[Address(RVA = "0x454F930", Offset = "0x454F930", VA = "0x454F930")]
+	[Address(RVA = "0x4874A30", Offset = "0x4874A30", VA = "0x4874A30")]
 	private string GetLocalPath()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000206")]
-	[Address(RVA = "0x45518C0", Offset = "0x45518C0", VA = "0x45518C0")]
+	[Address(RVA = "0x48769C0", Offset = "0x48769C0", VA = "0x48769C0")]
 	internal static bool IsGenDelim(char ch)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000207")]
-	[Address(RVA = "0x45518F0", Offset = "0x45518F0", VA = "0x45518F0")]
+	[Address(RVA = "0x48769F0", Offset = "0x48769F0", VA = "0x48769F0")]
 	public static bool IsHexDigit(char character)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000208")]
-	[Address(RVA = "0x4551910", Offset = "0x4551910", VA = "0x4551910")]
+	[Address(RVA = "0x4876A10", Offset = "0x4876A10", VA = "0x4876A10")]
 	public static int FromHex(char digit)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000209")]
-	[Address(RVA = "0x45519A0", Offset = "0x45519A0", VA = "0x45519A0", Slot = "2")]
+	[Address(RVA = "0x4876AA0", Offset = "0x4876AA0", VA = "0x4876AA0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600020A")]
-	[Address(RVA = "0x4551C00", Offset = "0x4551C00", VA = "0x4551C00", Slot = "3")]
+	[Address(RVA = "0x4876D00", Offset = "0x4876D00", VA = "0x4876D00", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600020B")]
-	[Address(RVA = "0x4551F20", Offset = "0x4551F20", VA = "0x4551F20")]
+	[Address(RVA = "0x4877020", Offset = "0x4877020", VA = "0x4877020")]
 	public static bool operator ==(Uri uri1, Uri uri2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600020C")]
-	[Address(RVA = "0x454DF60", Offset = "0x454DF60", VA = "0x454DF60")]
+	[Address(RVA = "0x4873060", Offset = "0x4873060", VA = "0x4873060")]
 	public static bool operator !=(Uri uri1, Uri uri2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600020D")]
-	[Address(RVA = "0x4551F60", Offset = "0x4551F60", VA = "0x4551F60", Slot = "0")]
+	[Address(RVA = "0x4877060", Offset = "0x4877060", VA = "0x4877060", Slot = "0")]
 	public override bool Equals(object comparand)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600020E")]
-	[Address(RVA = "0x4552780", Offset = "0x4552780", VA = "0x4552780")]
+	[Address(RVA = "0x4877880", Offset = "0x4877880", VA = "0x4877880")]
 	private static bool CheckForColonInFirstPathSegment(string uriString)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600020F")]
-	[Address(RVA = "0x4552820", Offset = "0x4552820", VA = "0x4552820")]
+	[Address(RVA = "0x4877920", Offset = "0x4877920", VA = "0x4877920")]
 	internal static string InternalEscapeString(string rawString)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000210")]
-	[Address(RVA = "0x45528E0", Offset = "0x45528E0", VA = "0x45528E0")]
+	[Address(RVA = "0x48779E0", Offset = "0x48779E0", VA = "0x48779E0")]
 	private static ParsingError ParseScheme(string uriString, ref Flags flags, ref UriParser syntax)
 	{
 		return default(ParsingError);
 	}
 
 	[Token(Token = "0x6000211")]
-	[Address(RVA = "0x4552F20", Offset = "0x4552F20", VA = "0x4552F20")]
+	[Address(RVA = "0x4878020", Offset = "0x4878020", VA = "0x4878020")]
 	internal UriFormatException ParseMinimal()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000212")]
-	[Address(RVA = "0x4552F90", Offset = "0x4552F90", VA = "0x4552F90")]
+	[Address(RVA = "0x4878090", Offset = "0x4878090", VA = "0x4878090")]
 	private ParsingError PrivateParseMinimal()
 	{
 		return default(ParsingError);
 	}
 
 	[Token(Token = "0x6000213")]
-	[Address(RVA = "0x4554A40", Offset = "0x4554A40", VA = "0x4554A40")]
+	[Address(RVA = "0x4879B40", Offset = "0x4879B40", VA = "0x4879B40")]
 	private void PrivateParseMinimalIri(string newHost, ushort idx)
 	{
 	}
 
 	[Token(Token = "0x6000214")]
-	[Address(RVA = "0x454B8D0", Offset = "0x454B8D0", VA = "0x454B8D0")]
+	[Address(RVA = "0x48709D0", Offset = "0x48709D0", VA = "0x48709D0")]
 	private void CreateUriInfo(Flags cF)
 	{
 	}
 
 	[Token(Token = "0x6000215")]
-	[Address(RVA = "0x454D010", Offset = "0x454D010", VA = "0x454D010")]
+	[Address(RVA = "0x4872110", Offset = "0x4872110", VA = "0x4872110")]
 	private void CreateHostString()
 	{
 	}
 
 	[Token(Token = "0x6000216")]
-	[Address(RVA = "0x4554FC0", Offset = "0x4554FC0", VA = "0x4554FC0")]
+	[Address(RVA = "0x487A0C0", Offset = "0x487A0C0", VA = "0x487A0C0")]
 	private static string CreateHostStringHelper(string str, ushort idx, ushort end, ref Flags flags, ref string scopeId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000217")]
-	[Address(RVA = "0x4554B40", Offset = "0x4554B40", VA = "0x4554B40")]
+	[Address(RVA = "0x4879C40", Offset = "0x4879C40", VA = "0x4879C40")]
 	private void GetHostViaCustomSyntax()
 	{
 	}
 
 	[Token(Token = "0x6000218")]
-	[Address(RVA = "0x454F5D0", Offset = "0x454F5D0", VA = "0x454F5D0")]
+	[Address(RVA = "0x48746D0", Offset = "0x48746D0", VA = "0x48746D0")]
 	internal string GetParts(UriComponents uriParts, UriFormat formatAs)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000219")]
-	[Address(RVA = "0x4555960", Offset = "0x4555960", VA = "0x4555960")]
+	[Address(RVA = "0x487AA60", Offset = "0x487AA60", VA = "0x487AA60")]
 	private string GetEscapedParts(UriComponents uriParts)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600021A")]
-	[Address(RVA = "0x4551060", Offset = "0x4551060", VA = "0x4551060")]
+	[Address(RVA = "0x4876160", Offset = "0x4876160", VA = "0x4876160")]
 	private string GetUnescapedParts(UriComponents uriParts, UriFormat formatAs)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600021B")]
-	[Address(RVA = "0x45560C0", Offset = "0x45560C0", VA = "0x45560C0")]
+	[Address(RVA = "0x487B1C0", Offset = "0x487B1C0", VA = "0x487B1C0")]
 	private string ReCreateParts(UriComponents parts, ushort nonCanonical, UriFormat formatAs)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600021C")]
-	[Address(RVA = "0x4555A50", Offset = "0x4555A50", VA = "0x4555A50")]
+	[Address(RVA = "0x487AB50", Offset = "0x487AB50", VA = "0x487AB50")]
 	private string GetUriPartsFromUserString(UriComponents uriParts)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600021D")]
-	[Address(RVA = "0x454BF50", Offset = "0x454BF50", VA = "0x454BF50")]
+	[Address(RVA = "0x4871050", Offset = "0x4871050", VA = "0x4871050")]
 	private void ParseRemaining()
 	{
 	}
 
 	[Token(Token = "0x600021E")]
-	[Address(RVA = "0x45529A0", Offset = "0x45529A0", VA = "0x45529A0")]
+	[Address(RVA = "0x4877AA0", Offset = "0x4877AA0", VA = "0x4877AA0")]
 	private unsafe static ushort ParseSchemeCheckImplicitFile(char* uriString, ushort length, ref ParsingError err, ref Flags flags, ref UriParser syntax)
 	{
 		return default(ushort);
 	}
 
 	[Token(Token = "0x600021F")]
-	[Address(RVA = "0x4557B00", Offset = "0x4557B00", VA = "0x4557B00")]
+	[Address(RVA = "0x487CC00", Offset = "0x487CC00", VA = "0x487CC00")]
 	private unsafe static bool CheckKnownSchemes(long* lptr, ushort nChars, ref UriParser syntax)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000220")]
-	[Address(RVA = "0x454E5B0", Offset = "0x454E5B0", VA = "0x454E5B0")]
+	[Address(RVA = "0x48736B0", Offset = "0x48736B0", VA = "0x48736B0")]
 	private unsafe static ParsingError CheckSchemeSyntax(char* ptr, ushort length, ref UriParser syntax)
 	{
 		return default(ParsingError);
 	}
 
 	[Token(Token = "0x6000221")]
-	[Address(RVA = "0x45537D0", Offset = "0x45537D0", VA = "0x45537D0")]
+	[Address(RVA = "0x48788D0", Offset = "0x48788D0", VA = "0x48788D0")]
 	private unsafe ushort CheckAuthorityHelper(char* pString, ushort idx, ushort length, ref ParsingError err, ref Flags flags, UriParser syntax, ref string newHost)
 	{
 		return default(ushort);
 	}
 
 	[Token(Token = "0x6000222")]
-	[Address(RVA = "0x4557FF0", Offset = "0x4557FF0", VA = "0x4557FF0")]
+	[Address(RVA = "0x487D0F0", Offset = "0x487D0F0", VA = "0x487D0F0")]
 	private unsafe void CheckAuthorityHelperHandleDnsIri(char* pString, ushort start, int end, int startInput, bool iriParsing, bool hasUnicode, UriParser syntax, string userInfoString, ref Flags flags, ref bool justNormalized, ref string newHost, ref ParsingError err)
 	{
 	}
 
 	[Token(Token = "0x6000223")]
-	[Address(RVA = "0x45583C0", Offset = "0x45583C0", VA = "0x45583C0")]
+	[Address(RVA = "0x487D4C0", Offset = "0x487D4C0", VA = "0x487D4C0")]
 	private unsafe void CheckAuthorityHelperHandleAnyHostIri(char* pString, int startInput, int end, bool iriParsing, bool hasUnicode, UriParser syntax, ref Flags flags, ref string newHost, ref ParsingError err)
 	{
 	}
 
 	[Token(Token = "0x6000224")]
-	[Address(RVA = "0x45579C0", Offset = "0x45579C0", VA = "0x45579C0")]
+	[Address(RVA = "0x487CAC0", Offset = "0x487CAC0", VA = "0x487CAC0")]
 	private void FindEndOfComponent(string input, ref ushort idx, ushort end, char delim)
 	{
 	}
 
 	[Token(Token = "0x6000225")]
-	[Address(RVA = "0x45588C0", Offset = "0x45588C0", VA = "0x45588C0")]
+	[Address(RVA = "0x487D9C0", Offset = "0x487D9C0", VA = "0x487D9C0")]
 	private unsafe void FindEndOfComponent(char* str, ref ushort idx, ushort end, char delim)
 	{
 	}
 
 	[Token(Token = "0x6000226")]
-	[Address(RVA = "0x45551E0", Offset = "0x45551E0", VA = "0x45551E0")]
+	[Address(RVA = "0x487A2E0", Offset = "0x487A2E0", VA = "0x487A2E0")]
 	private unsafe Check CheckCanonical(char* str, ref ushort idx, ushort end, char delim)
 	{
 		return default(Check);
 	}
 
 	[Token(Token = "0x6000227")]
-	[Address(RVA = "0x4557150", Offset = "0x4557150", VA = "0x4557150")]
+	[Address(RVA = "0x487C250", Offset = "0x487C250", VA = "0x487C250")]
 	private char[] GetCanonicalPath(char[] dest, ref int pos, UriFormat formatAs)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000228")]
-	[Address(RVA = "0x4558970", Offset = "0x4558970", VA = "0x4558970")]
+	[Address(RVA = "0x487DA70", Offset = "0x487DA70", VA = "0x487DA70")]
 	private unsafe static void UnescapeOnly(char* pch, int start, ref int end, char ch1, char ch2, char ch3)
 	{
 	}
 
 	[Token(Token = "0x6000229")]
-	[Address(RVA = "0x4550B20", Offset = "0x4550B20", VA = "0x4550B20")]
+	[Address(RVA = "0x4875C20", Offset = "0x4875C20", VA = "0x4875C20")]
 	private static char[] Compress(char[] dest, ushort start, ref int destLength, UriParser syntax)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600022A")]
-	[Address(RVA = "0x4551B10", Offset = "0x4551B10", VA = "0x4551B10")]
+	[Address(RVA = "0x4876C10", Offset = "0x4876C10", VA = "0x4876C10")]
 	internal static int CalculateCaseInsensitiveHashCode(string text)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600022B")]
-	[Address(RVA = "0x454E710", Offset = "0x454E710", VA = "0x454E710")]
+	[Address(RVA = "0x4873810", Offset = "0x4873810", VA = "0x4873810")]
 	private static string CombineUri(Uri basePart, string relativePart, UriFormat uriFormat)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600022D")]
-	[Address(RVA = "0x4553780", Offset = "0x4553780", VA = "0x4553780")]
+	[Address(RVA = "0x4878880", Offset = "0x4878880", VA = "0x4878880")]
 	private static bool IsLWS(char ch)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600022E")]
-	[Address(RVA = "0x45537B0", Offset = "0x45537B0", VA = "0x45537B0")]
+	[Address(RVA = "0x48788B0", Offset = "0x48788B0", VA = "0x48788B0")]
 	private static bool IsAsciiLetter(char character)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600022F")]
-	[Address(RVA = "0x4558B80", Offset = "0x4558B80", VA = "0x4558B80")]
+	[Address(RVA = "0x487DC80", Offset = "0x487DC80", VA = "0x487DC80")]
 	internal static bool IsAsciiLetterOrDigit(char character)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000230")]
-	[Address(RVA = "0x4558BE0", Offset = "0x4558BE0", VA = "0x4558BE0")]
+	[Address(RVA = "0x487DCE0", Offset = "0x487DCE0", VA = "0x487DCE0")]
 	internal static bool IsBidiControlCharacter(char ch)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000231")]
-	[Address(RVA = "0x45586E0", Offset = "0x45586E0", VA = "0x45586E0")]
+	[Address(RVA = "0x487D7E0", Offset = "0x487D7E0", VA = "0x487D7E0")]
 	internal unsafe static string StripBidiControlCharacter(char* strToClean, int start, int length)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000232")]
-	[Address(RVA = "0x454D500", Offset = "0x454D500", VA = "0x454D500")]
+	[Address(RVA = "0x4872600", Offset = "0x4872600", VA = "0x4872600")]
 	private void CreateThis(string uri, bool dontEscape, UriKind uriKind)
 	{
 	}
 
 	[Token(Token = "0x6000233")]
-	[Address(RVA = "0x4558C10", Offset = "0x4558C10", VA = "0x4558C10")]
+	[Address(RVA = "0x487DD10", Offset = "0x487DD10", VA = "0x487DD10")]
 	private void InitializeUri(ParsingError err, UriKind uriKind, out UriFormatException e)
 	{
 	}
 
 	[Token(Token = "0x6000234")]
-	[Address(RVA = "0x4559390", Offset = "0x4559390", VA = "0x4559390")]
+	[Address(RVA = "0x487E490", Offset = "0x487E490", VA = "0x487E490")]
 	private bool CheckForConfigLoad(string data)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000235")]
-	[Address(RVA = "0x4559420", Offset = "0x4559420", VA = "0x4559420")]
+	[Address(RVA = "0x487E520", Offset = "0x487E520", VA = "0x487E520")]
 	private bool CheckForUnicode(string data)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000236")]
-	[Address(RVA = "0x4559530", Offset = "0x4559530", VA = "0x4559530")]
+	[Address(RVA = "0x487E630", Offset = "0x487E630", VA = "0x487E630")]
 	private bool CheckForEscapedUnreserved(string data)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000237")]
-	[Address(RVA = "0x45526B0", Offset = "0x45526B0", VA = "0x45526B0")]
+	[Address(RVA = "0x48777B0", Offset = "0x48777B0", VA = "0x48777B0")]
 	public static bool TryCreate(string uriString, UriKind uriKind, out Uri result)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000238")]
-	[Address(RVA = "0x4559A20", Offset = "0x4559A20", VA = "0x4559A20")]
+	[Address(RVA = "0x487EB20", Offset = "0x487EB20", VA = "0x487EB20")]
 	public static bool TryCreate(Uri baseUri, string relativeUri, out Uri result)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000239")]
-	[Address(RVA = "0x4559AF0", Offset = "0x4559AF0", VA = "0x4559AF0")]
+	[Address(RVA = "0x487EBF0", Offset = "0x487EBF0", VA = "0x487EBF0")]
 	public static bool TryCreate(Uri baseUri, Uri relativeUri, out Uri result)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600023A")]
-	[Address(RVA = "0x45557B0", Offset = "0x45557B0", VA = "0x45557B0")]
+	[Address(RVA = "0x487A8B0", Offset = "0x487A8B0", VA = "0x487A8B0")]
 	public string GetComponents(UriComponents components, UriFormat format)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600023B")]
-	[Address(RVA = "0x4559F10", Offset = "0x4559F10", VA = "0x4559F10")]
+	[Address(RVA = "0x487F010", Offset = "0x487F010", VA = "0x487F010")]
 	public bool IsWellFormedOriginalString()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600023C")]
-	[Address(RVA = "0x455A490", Offset = "0x455A490", VA = "0x455A490")]
+	[Address(RVA = "0x487F590", Offset = "0x487F590", VA = "0x487F590")]
 	public static bool IsWellFormedUriString(string uriString, UriKind uriKind)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600023D")]
-	[Address(RVA = "0x4559F50", Offset = "0x4559F50", VA = "0x4559F50")]
+	[Address(RVA = "0x487F050", Offset = "0x487F050", VA = "0x487F050")]
 	internal bool InternalIsWellFormedOriginalString()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600023E")]
-	[Address(RVA = "0x455A550", Offset = "0x455A550", VA = "0x455A550")]
+	[Address(RVA = "0x487F650", Offset = "0x487F650", VA = "0x487F650")]
 	public static string UnescapeDataString(string stringToUnescape)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600023F")]
-	[Address(RVA = "0x455A6D0", Offset = "0x455A6D0", VA = "0x455A6D0")]
+	[Address(RVA = "0x487F7D0", Offset = "0x487F7D0", VA = "0x487F7D0")]
 	public static string EscapeDataString(string stringToEscape)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000240")]
-	[Address(RVA = "0x4557AC0", Offset = "0x4557AC0", VA = "0x4557AC0")]
+	[Address(RVA = "0x487CBC0", Offset = "0x487CBC0", VA = "0x487CBC0")]
 	internal string EscapeUnescapeIri(string input, int start, int end, UriComponents component)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000241")]
-	[Address(RVA = "0x455A7E0", Offset = "0x455A7E0", VA = "0x455A7E0")]
+	[Address(RVA = "0x487F8E0", Offset = "0x487F8E0", VA = "0x487F8E0")]
 	private Uri(Flags flags, UriParser uriParser, string uri)
 	{
 	}
 
 	[Token(Token = "0x6000242")]
-	[Address(RVA = "0x4559750", Offset = "0x4559750", VA = "0x4559750")]
+	[Address(RVA = "0x487E850", Offset = "0x487E850", VA = "0x487E850")]
 	internal static Uri CreateHelper(string uriString, bool dontEscape, UriKind uriKind, ref UriFormatException e)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000243")]
-	[Address(RVA = "0x454D9B0", Offset = "0x454D9B0", VA = "0x454D9B0")]
+	[Address(RVA = "0x4872AB0", Offset = "0x4872AB0", VA = "0x4872AB0")]
 	internal static Uri ResolveHelper(Uri baseUri, Uri relativeUri, ref string newUriString, ref bool userEscaped, out UriFormatException e)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000244")]
-	[Address(RVA = "0x4559CE0", Offset = "0x4559CE0", VA = "0x4559CE0")]
+	[Address(RVA = "0x487EDE0", Offset = "0x487EDE0", VA = "0x487EDE0")]
 	private string GetRelativeSerializationString(UriFormat format)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000245")]
-	[Address(RVA = "0x4551CE0", Offset = "0x4551CE0", VA = "0x4551CE0")]
+	[Address(RVA = "0x4876DE0", Offset = "0x4876DE0", VA = "0x4876DE0")]
 	internal string GetComponentsHelper(UriComponents uriComponents, UriFormat uriFormat)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000246")]
-	[Address(RVA = "0x455A830", Offset = "0x455A830", VA = "0x455A830")]
+	[Address(RVA = "0x487F930", Offset = "0x487F930", VA = "0x487F930")]
 	public bool IsBaseOf(Uri uri)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000247")]
-	[Address(RVA = "0x455A8E0", Offset = "0x455A8E0", VA = "0x455A8E0")]
+	[Address(RVA = "0x487F9E0", Offset = "0x487F9E0", VA = "0x487F9E0")]
 	internal bool IsBaseOfHelper(Uri uriLink)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000248")]
-	[Address(RVA = "0x454DFA0", Offset = "0x454DFA0", VA = "0x454DFA0")]
+	[Address(RVA = "0x48730A0", Offset = "0x48730A0", VA = "0x48730A0")]
 	private void CreateThisFromUri(Uri otherUri)
 	{
 	}

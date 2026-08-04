@@ -1,22 +1,22 @@
 // Type: Characters.BaseTitanAnimations
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/BaseTitanAnimations.cs
-// Prior real C# source (REFERENCE, outdated): Assets/Scripts/Characters/Titan/BaseTitanAnimations.cs  [prior source available (delta unverified)]
+// Prior real C# source (older reference): Assets/Scripts/Characters/Titan/BaseTitanAnimations.cs
 // --------------------------------
 
 // Characters.BaseTitanAnimations$$get_Idle
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Idle (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x40048f0
+// 0x43111b0
 
 System_String_o *
-Characters_BaseTitanAnimations__get_Idle
-          (Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
+Characters_BaseTitanAnimations__get_Idle(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (DAT_05704230 == '\0') {
-    il2cpp_init_method_metadata(&"");
-    DAT_05704230 = '\x01';
+  if (g_data_057adf9e == '\0') {
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057adf9e = '\x01';
   }
   return "";
 }
@@ -24,15 +24,15 @@ Characters_BaseTitanAnimations__get_Idle
 
 // Characters.BaseTitanAnimations$$get_Run
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Run (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x4004920
+// 0x43111e0
 
 System_String_o *
 Characters_BaseTitanAnimations__get_Run(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (DAT_05704231 == '\0') {
-    il2cpp_init_method_metadata(&"");
-    DAT_05704231 = '\x01';
+  if (g_data_057adf9f == '\0') {
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057adf9f = '\x01';
   }
   return "";
 }
@@ -40,16 +40,15 @@ Characters_BaseTitanAnimations__get_Run(Characters_BaseTitanAnimations_o *__this
 
 // Characters.BaseTitanAnimations$$get_Sprint
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Sprint (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x4004950
+// 0x4311210
 
 System_String_o *
-Characters_BaseTitanAnimations__get_Sprint
-          (Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
+Characters_BaseTitanAnimations__get_Sprint(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (DAT_05704232 == '\0') {
-    il2cpp_init_method_metadata(&"");
-    DAT_05704232 = '\x01';
+  if (g_data_057adfa0 == '\0') {
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057adfa0 = '\x01';
   }
   return "";
 }
@@ -57,16 +56,15 @@ Characters_BaseTitanAnimations__get_Sprint
 
 // Characters.BaseTitanAnimations$$get_Walk
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Walk (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x4004980
+// 0x4311240
 
 System_String_o *
-Characters_BaseTitanAnimations__get_Walk
-          (Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
+Characters_BaseTitanAnimations__get_Walk(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (DAT_05704233 == '\0') {
-    il2cpp_init_method_metadata(&"");
-    DAT_05704233 = '\x01';
+  if (g_data_057adfa1 == '\0') {
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057adfa1 = '\x01';
   }
   return "";
 }
@@ -74,16 +72,15 @@ Characters_BaseTitanAnimations__get_Walk
 
 // Characters.BaseTitanAnimations$$get_Jump
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Jump (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x40049b0
+// 0x4311270
 
 System_String_o *
-Characters_BaseTitanAnimations__get_Jump
-          (Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
+Characters_BaseTitanAnimations__get_Jump(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (DAT_05704234 == '\0') {
-    il2cpp_init_method_metadata(&"");
-    DAT_05704234 = '\x01';
+  if (g_data_057adfa2 == '\0') {
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057adfa2 = '\x01';
   }
   return "";
 }
@@ -91,16 +88,15 @@ Characters_BaseTitanAnimations__get_Jump
 
 // Characters.BaseTitanAnimations$$get_Fall
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Fall (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x40049e0
+// 0x43112a0
 
 System_String_o *
-Characters_BaseTitanAnimations__get_Fall
-          (Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
+Characters_BaseTitanAnimations__get_Fall(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (DAT_05704235 == '\0') {
-    il2cpp_init_method_metadata(&"");
-    DAT_05704235 = '\x01';
+  if (g_data_057adfa3 == '\0') {
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057adfa3 = '\x01';
   }
   return "";
 }
@@ -108,16 +104,15 @@ Characters_BaseTitanAnimations__get_Fall
 
 // Characters.BaseTitanAnimations$$get_Land
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Land (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x4004a10
+// 0x43112d0
 
 System_String_o *
-Characters_BaseTitanAnimations__get_Land
-          (Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
+Characters_BaseTitanAnimations__get_Land(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (DAT_05704236 == '\0') {
-    il2cpp_init_method_metadata(&"");
-    DAT_05704236 = '\x01';
+  if (g_data_057adfa4 == '\0') {
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057adfa4 = '\x01';
   }
   return "";
 }
@@ -125,16 +120,15 @@ Characters_BaseTitanAnimations__get_Land
 
 // Characters.BaseTitanAnimations$$get_Stun
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Stun (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x4004a40
+// 0x4311300
 
 System_String_o *
-Characters_BaseTitanAnimations__get_Stun
-          (Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
+Characters_BaseTitanAnimations__get_Stun(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (DAT_05704237 == '\0') {
-    il2cpp_init_method_metadata(&"");
-    DAT_05704237 = '\x01';
+  if (g_data_057adfa5 == '\0') {
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057adfa5 = '\x01';
   }
   return "";
 }
@@ -142,15 +136,15 @@ Characters_BaseTitanAnimations__get_Stun
 
 // Characters.BaseTitanAnimations$$get_Die
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Die (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x4004a70
+// 0x4311330
 
 System_String_o *
 Characters_BaseTitanAnimations__get_Die(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (DAT_05704238 == '\0') {
-    il2cpp_init_method_metadata(&"");
-    DAT_05704238 = '\x01';
+  if (g_data_057adfa6 == '\0') {
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057adfa6 = '\x01';
   }
   return "";
 }
@@ -158,16 +152,15 @@ Characters_BaseTitanAnimations__get_Die(Characters_BaseTitanAnimations_o *__this
 
 // Characters.BaseTitanAnimations$$get_DieSit
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_DieSit (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x4004aa0
+// 0x4311360
 
 System_String_o *
-Characters_BaseTitanAnimations__get_DieSit
-          (Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
+Characters_BaseTitanAnimations__get_DieSit(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (DAT_05704239 == '\0') {
-    il2cpp_init_method_metadata(&"");
-    DAT_05704239 = '\x01';
+  if (g_data_057adfa7 == '\0') {
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057adfa7 = '\x01';
   }
   return "";
 }
@@ -175,16 +168,15 @@ Characters_BaseTitanAnimations__get_DieSit
 
 // Characters.BaseTitanAnimations$$get_SitIdle
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_SitIdle (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x4004ad0
+// 0x4311390
 
 System_String_o *
-Characters_BaseTitanAnimations__get_SitIdle
-          (Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
+Characters_BaseTitanAnimations__get_SitIdle(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (DAT_0570423a == '\0') {
-    il2cpp_init_method_metadata(&"");
-    DAT_0570423a = '\x01';
+  if (g_data_057adfa8 == '\0') {
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057adfa8 = '\x01';
   }
   return "";
 }
@@ -192,16 +184,15 @@ Characters_BaseTitanAnimations__get_SitIdle
 
 // Characters.BaseTitanAnimations$$get_SitDown
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_SitDown (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x4004b00
+// 0x43113c0
 
 System_String_o *
-Characters_BaseTitanAnimations__get_SitDown
-          (Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
+Characters_BaseTitanAnimations__get_SitDown(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (DAT_0570423b == '\0') {
-    il2cpp_init_method_metadata(&"");
-    DAT_0570423b = '\x01';
+  if (g_data_057adfa9 == '\0') {
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057adfa9 = '\x01';
   }
   return "";
 }
@@ -209,16 +200,15 @@ Characters_BaseTitanAnimations__get_SitDown
 
 // Characters.BaseTitanAnimations$$get_SitUp
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_SitUp (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x4004b30
+// 0x43113f0
 
 System_String_o *
-Characters_BaseTitanAnimations__get_SitUp
-          (Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
+Characters_BaseTitanAnimations__get_SitUp(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (DAT_0570423c == '\0') {
-    il2cpp_init_method_metadata(&"");
-    DAT_0570423c = '\x01';
+  if (g_data_057adfaa == '\0') {
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057adfaa = '\x01';
   }
   return "";
 }
@@ -226,16 +216,15 @@ Characters_BaseTitanAnimations__get_SitUp
 
 // Characters.BaseTitanAnimations$$get_SitFall
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_SitFall (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x4004b60
+// 0x4311420
 
 System_String_o *
-Characters_BaseTitanAnimations__get_SitFall
-          (Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
+Characters_BaseTitanAnimations__get_SitFall(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (DAT_0570423d == '\0') {
-    il2cpp_init_method_metadata(&"");
-    DAT_0570423d = '\x01';
+  if (g_data_057adfab == '\0') {
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057adfab = '\x01';
   }
   return "";
 }
@@ -243,16 +232,15 @@ Characters_BaseTitanAnimations__get_SitFall
 
 // Characters.BaseTitanAnimations$$get_SitBlind
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_SitBlind (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x4004b90
+// 0x4311450
 
 System_String_o *
-Characters_BaseTitanAnimations__get_SitBlind
-          (Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
+Characters_BaseTitanAnimations__get_SitBlind(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (DAT_0570423e == '\0') {
-    il2cpp_init_method_metadata(&"");
-    DAT_0570423e = '\x01';
+  if (g_data_057adfac == '\0') {
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057adfac = '\x01';
   }
   return "";
 }
@@ -260,16 +248,15 @@ Characters_BaseTitanAnimations__get_SitBlind
 
 // Characters.BaseTitanAnimations$$get_Turn90L
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Turn90L (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x4004bc0
+// 0x4311480
 
 System_String_o *
-Characters_BaseTitanAnimations__get_Turn90L
-          (Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
+Characters_BaseTitanAnimations__get_Turn90L(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (DAT_0570423f == '\0') {
-    il2cpp_init_method_metadata(&"");
-    DAT_0570423f = '\x01';
+  if (g_data_057adfad == '\0') {
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057adfad = '\x01';
   }
   return "";
 }
@@ -277,16 +264,15 @@ Characters_BaseTitanAnimations__get_Turn90L
 
 // Characters.BaseTitanAnimations$$get_Turn90R
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Turn90R (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x4004bf0
+// 0x43114b0
 
 System_String_o *
-Characters_BaseTitanAnimations__get_Turn90R
-          (Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
+Characters_BaseTitanAnimations__get_Turn90R(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (DAT_05704240 == '\0') {
-    il2cpp_init_method_metadata(&"");
-    DAT_05704240 = '\x01';
+  if (g_data_057adfae == '\0') {
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057adfae = '\x01';
   }
   return "";
 }
@@ -294,16 +280,15 @@ Characters_BaseTitanAnimations__get_Turn90R
 
 // Characters.BaseTitanAnimations$$get_Blind
 // il2cpp: System_String_o* Characters_BaseTitanAnimations__get_Blind (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x4004c20
+// 0x43114e0
 
 System_String_o *
-Characters_BaseTitanAnimations__get_Blind
-          (Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
+Characters_BaseTitanAnimations__get_Blind(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
-  if (DAT_05704241 == '\0') {
-    il2cpp_init_method_metadata(&"");
-    DAT_05704241 = '\x01';
+  if (g_data_057adfaf == '\0') {
+    il2cpp_runtime_helper_023445d0(&"");
+    g_data_057adfaf = '\x01';
   }
   return "";
 }
@@ -311,10 +296,9 @@ Characters_BaseTitanAnimations__get_Blind
 
 // Characters.BaseTitanAnimations$$.ctor
 // il2cpp: void Characters_BaseTitanAnimations___ctor (Characters_BaseTitanAnimations_o* __this, const MethodInfo* method);
-// 0x4004c50
+// 0x4311510
 
-void Characters_BaseTitanAnimations___ctor
-               (Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
+void Characters_BaseTitanAnimations___ctor(Characters_BaseTitanAnimations_o *__this,MethodInfo *method)
 
 {
   System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);

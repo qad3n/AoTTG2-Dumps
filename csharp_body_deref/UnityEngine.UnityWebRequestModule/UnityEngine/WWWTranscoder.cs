@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.WWWTranscoder
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
 
@@ -44,55 +51,55 @@ internal class WWWTranscoder
 	private static byte[] qpForbidden;
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x4DDDA40", Offset = "0x4DDDA40", VA = "0x4DDDA40")]
+	[Address(RVA = "0x5105390", Offset = "0x5105390", VA = "0x5105390")]
 	private static byte Hex2Byte(byte[] b, int offset)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x4DDDAF0", Offset = "0x4DDDAF0", VA = "0x4DDDAF0")]
+	[Address(RVA = "0x5105440", Offset = "0x5105440", VA = "0x5105440")]
 	private static void Byte2Hex(byte b, byte[] hexChars, out byte byte0, out byte byte1)
 	{
 	}
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x4DDDB30", Offset = "0x4DDDB30", VA = "0x4DDDB30")]
+	[Address(RVA = "0x5105480", Offset = "0x5105480", VA = "0x5105480")]
 	public static byte[] URLEncode(byte[] toEncode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x4DDDB90", Offset = "0x4DDDB90", VA = "0x4DDDB90")]
+	[Address(RVA = "0x51054E0", Offset = "0x51054E0", VA = "0x51054E0")]
 	public static byte[] Encode(byte[] input, byte escapeChar, byte[] space, byte[] forbidden, bool uppercase)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x4DDE0C0", Offset = "0x4DDE0C0", VA = "0x4DDE0C0")]
+	[Address(RVA = "0x5105A10", Offset = "0x5105A10", VA = "0x5105A10")]
 	private static bool ByteArrayContains(byte[] array, byte b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x4DDD680", Offset = "0x4DDD680", VA = "0x4DDD680")]
+	[Address(RVA = "0x5104FD0", Offset = "0x5104FD0", VA = "0x5104FD0")]
 	public static byte[] URLDecode(byte[] toEncode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x4DDE560", Offset = "0x4DDE560", VA = "0x4DDE560")]
+	[Address(RVA = "0x5105EB0", Offset = "0x5105EB0", VA = "0x5105EB0")]
 	private static bool ByteSubArrayEquals(byte[] array, int index, byte[] comperand)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x4DDE0F0", Offset = "0x4DDE0F0", VA = "0x4DDE0F0")]
+	[Address(RVA = "0x5105A40", Offset = "0x5105A40", VA = "0x5105A40")]
 	public static byte[] Decode(byte[] input, byte escapeChar, byte[] space)
 	{
 		return null;

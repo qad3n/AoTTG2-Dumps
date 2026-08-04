@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.Messaging.CADObjRef
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
@@ -18,7 +25,7 @@ internal class CADObjRef
 	internal byte[] TypeInfo;
 
 	[Token(Token = "0x6001E1D")]
-	[Address(RVA = "0x4EA1140", Offset = "0x4EA1140", VA = "0x4EA1140")]
+	[Address(RVA = "0x3B86C60", Offset = "0x3B86C60", VA = "0x3B86C60")]
 	public CADObjRef(ObjRef o, int sourceDomain)
 	{
 	}

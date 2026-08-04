@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.JsonExtensionDataAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -12,14 +19,14 @@ public class JsonExtensionDataAttribute : Attribute
 	public bool WriteData
 	{
 		[Token(Token = "0x600009A")]
-		[Address(RVA = "0x3A64940", Offset = "0x3A64940", VA = "0x3A64940")]
+		[Address(RVA = "0x3D5A290", Offset = "0x3D5A290", VA = "0x3D5A290")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600009B")]
-		[Address(RVA = "0x3A64950", Offset = "0x3A64950", VA = "0x3A64950")]
+		[Address(RVA = "0x3D5A2A0", Offset = "0x3D5A2A0", VA = "0x3D5A2A0")]
 		[CompilerGenerated]
 		set
 		{
@@ -30,14 +37,14 @@ public class JsonExtensionDataAttribute : Attribute
 	public bool ReadData
 	{
 		[Token(Token = "0x600009C")]
-		[Address(RVA = "0x3A64960", Offset = "0x3A64960", VA = "0x3A64960")]
+		[Address(RVA = "0x3D5A2B0", Offset = "0x3D5A2B0", VA = "0x3D5A2B0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600009D")]
-		[Address(RVA = "0x3A64970", Offset = "0x3A64970", VA = "0x3A64970")]
+		[Address(RVA = "0x3D5A2C0", Offset = "0x3D5A2C0", VA = "0x3D5A2C0")]
 		[CompilerGenerated]
 		set
 		{
@@ -45,7 +52,7 @@ public class JsonExtensionDataAttribute : Attribute
 	}
 
 	[Token(Token = "0x600009E")]
-	[Address(RVA = "0x3A64980", Offset = "0x3A64980", VA = "0x3A64980")]
+	[Address(RVA = "0x3D5A2D0", Offset = "0x3D5A2D0", VA = "0x3D5A2D0")]
 	public JsonExtensionDataAttribute()
 	{
 	}

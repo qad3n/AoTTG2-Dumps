@@ -1,78 +1,85 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: TMPro.FontAssetCreationSettings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
 namespace TMPro;
 
 [Serializable]
-[Token(Token = "0x200002C")]
+[Token(Token = "0x2000042")]
 public struct FontAssetCreationSettings
 {
-	[Token(Token = "0x400010B")]
+	[Token(Token = "0x40001FF")]
 	[FieldOffset(Offset = "0x0")]
 	public string sourceFontFileName;
 
-	[Token(Token = "0x400010C")]
+	[Token(Token = "0x4000200")]
 	[FieldOffset(Offset = "0x8")]
 	public string sourceFontFileGUID;
 
-	[Token(Token = "0x400010D")]
+	[Token(Token = "0x4000201")]
 	[FieldOffset(Offset = "0x10")]
 	public int pointSizeSamplingMode;
 
-	[Token(Token = "0x400010E")]
+	[Token(Token = "0x4000202")]
 	[FieldOffset(Offset = "0x14")]
 	public int pointSize;
 
-	[Token(Token = "0x400010F")]
+	[Token(Token = "0x4000203")]
 	[FieldOffset(Offset = "0x18")]
 	public int padding;
 
-	[Token(Token = "0x4000110")]
+	[Token(Token = "0x4000204")]
 	[FieldOffset(Offset = "0x1C")]
 	public int packingMode;
 
-	[Token(Token = "0x4000111")]
+	[Token(Token = "0x4000205")]
 	[FieldOffset(Offset = "0x20")]
 	public int atlasWidth;
 
-	[Token(Token = "0x4000112")]
+	[Token(Token = "0x4000206")]
 	[FieldOffset(Offset = "0x24")]
 	public int atlasHeight;
 
-	[Token(Token = "0x4000113")]
+	[Token(Token = "0x4000207")]
 	[FieldOffset(Offset = "0x28")]
 	public int characterSetSelectionMode;
 
-	[Token(Token = "0x4000114")]
+	[Token(Token = "0x4000208")]
 	[FieldOffset(Offset = "0x30")]
 	public string characterSequence;
 
-	[Token(Token = "0x4000115")]
+	[Token(Token = "0x4000209")]
 	[FieldOffset(Offset = "0x38")]
 	public string referencedFontAssetGUID;
 
-	[Token(Token = "0x4000116")]
+	[Token(Token = "0x400020A")]
 	[FieldOffset(Offset = "0x40")]
 	public string referencedTextAssetGUID;
 
-	[Token(Token = "0x4000117")]
+	[Token(Token = "0x400020B")]
 	[FieldOffset(Offset = "0x48")]
 	public int fontStyle;
 
-	[Token(Token = "0x4000118")]
+	[Token(Token = "0x400020C")]
 	[FieldOffset(Offset = "0x4C")]
 	public float fontStyleModifier;
 
-	[Token(Token = "0x4000119")]
+	[Token(Token = "0x400020D")]
 	[FieldOffset(Offset = "0x50")]
 	public int renderMode;
 
-	[Token(Token = "0x400011A")]
+	[Token(Token = "0x400020E")]
 	[FieldOffset(Offset = "0x54")]
 	public bool includeFontFeatures;
 
-	[Token(Token = "0x600014A")]
-	[Address(RVA = "0x4908E30", Offset = "0x4908E30", VA = "0x4908E30")]
+	[Token(Token = "0x600023B")]
+	[Address(RVA = "0x4C563B0", Offset = "0x4C563B0", VA = "0x4C563B0")]
 	internal FontAssetCreationSettings(string sourceFontFileGUID, int pointSize, int pointSizeSamplingMode, int padding, int packingMode, int atlasWidth, int atlasHeight, int characterSelectionMode, string characterSet, int renderMode)
 	{
 	}

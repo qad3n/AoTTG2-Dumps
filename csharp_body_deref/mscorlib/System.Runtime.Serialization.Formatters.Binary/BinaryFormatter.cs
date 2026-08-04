@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.InteropServices;
@@ -46,7 +53,7 @@ public sealed class BinaryFormatter : IFormatter
 	public FormatterAssemblyStyle AssemblyFormat
 	{
 		[Token(Token = "0x60020A5")]
-		[Address(RVA = "0x4EC25A0", Offset = "0x4EC25A0", VA = "0x4EC25A0")]
+		[Address(RVA = "0x3BA80C0", Offset = "0x3BA80C0", VA = "0x3BA80C0")]
 		set
 		{
 		}
@@ -56,65 +63,65 @@ public sealed class BinaryFormatter : IFormatter
 	public ISurrogateSelector SurrogateSelector
 	{
 		[Token(Token = "0x60020A6")]
-		[Address(RVA = "0x4EC25B0", Offset = "0x4EC25B0", VA = "0x4EC25B0", Slot = "5")]
+		[Address(RVA = "0x3BA80D0", Offset = "0x3BA80D0", VA = "0x3BA80D0", Slot = "5")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60020A7")]
-	[Address(RVA = "0x4EC25C0", Offset = "0x4EC25C0", VA = "0x4EC25C0")]
+	[Address(RVA = "0x3BA80E0", Offset = "0x3BA80E0", VA = "0x3BA80E0")]
 	public BinaryFormatter()
 	{
 	}
 
 	[Token(Token = "0x60020A8")]
-	[Address(RVA = "0x4EC2630", Offset = "0x4EC2630", VA = "0x4EC2630")]
+	[Address(RVA = "0x3BA8150", Offset = "0x3BA8150", VA = "0x3BA8150")]
 	public BinaryFormatter(ISurrogateSelector selector, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60020A9")]
-	[Address(RVA = "0x4EC2690", Offset = "0x4EC2690", VA = "0x4EC2690", Slot = "4")]
+	[Address(RVA = "0x3BA81B0", Offset = "0x3BA81B0", VA = "0x3BA81B0", Slot = "4")]
 	public object Deserialize(Stream serializationStream)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60020AA")]
-	[Address(RVA = "0x4EC26B0", Offset = "0x4EC26B0", VA = "0x4EC26B0")]
+	[Address(RVA = "0x3BA81D0", Offset = "0x3BA81D0", VA = "0x3BA81D0")]
 	internal object Deserialize(Stream serializationStream, HeaderHandler handler, bool fCheck)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60020AB")]
-	[Address(RVA = "0x4EC26A0", Offset = "0x4EC26A0", VA = "0x4EC26A0", Slot = "6")]
+	[Address(RVA = "0x3BA81C0", Offset = "0x3BA81C0", VA = "0x3BA81C0", Slot = "6")]
 	public object Deserialize(Stream serializationStream, HeaderHandler handler)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60020AC")]
-	[Address(RVA = "0x4EC2FD0", Offset = "0x4EC2FD0", VA = "0x4EC2FD0", Slot = "7")]
+	[Address(RVA = "0x3BA8AF0", Offset = "0x3BA8AF0", VA = "0x3BA8AF0", Slot = "7")]
 	public void Serialize(Stream serializationStream, object graph)
 	{
 	}
 
 	[Token(Token = "0x60020AD")]
-	[Address(RVA = "0x4EC2FE0", Offset = "0x4EC2FE0", VA = "0x4EC2FE0", Slot = "8")]
+	[Address(RVA = "0x3BA8B00", Offset = "0x3BA8B00", VA = "0x3BA8B00", Slot = "8")]
 	public void Serialize(Stream serializationStream, object graph, Header[] headers)
 	{
 	}
 
 	[Token(Token = "0x60020AE")]
-	[Address(RVA = "0x4EC2FF0", Offset = "0x4EC2FF0", VA = "0x4EC2FF0")]
+	[Address(RVA = "0x3BA8B10", Offset = "0x3BA8B10", VA = "0x3BA8B10")]
 	internal void Serialize(Stream serializationStream, object graph, Header[] headers, bool fCheck)
 	{
 	}
 
 	[Token(Token = "0x60020AF")]
-	[Address(RVA = "0x4EC32C0", Offset = "0x4EC32C0", VA = "0x4EC32C0")]
+	[Address(RVA = "0x3BA8DE0", Offset = "0x3BA8DE0", VA = "0x3BA8DE0")]
 	internal static System.Runtime.Serialization.Formatters.Binary.TypeInformation GetTypeInformation(Type type)
 	{
 		return null;

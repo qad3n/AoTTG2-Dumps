@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Utilities.BoxedPrimitives
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Newtonsoft.Json.Utilities;
@@ -114,35 +121,35 @@ internal static class BoxedPrimitives
 	internal static readonly object DoubleZero;
 
 	[Token(Token = "0x60004FF")]
-	[Address(RVA = "0x3AB5620", Offset = "0x3AB5620", VA = "0x3AB5620")]
+	[Address(RVA = "0x3DAAF70", Offset = "0x3DAAF70", VA = "0x3DAAF70")]
 	internal static object Get(bool value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000500")]
-	[Address(RVA = "0x3AB5680", Offset = "0x3AB5680", VA = "0x3AB5680")]
+	[Address(RVA = "0x3DAAFD0", Offset = "0x3DAAFD0", VA = "0x3DAAFD0")]
 	internal static object Get(int value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000501")]
-	[Address(RVA = "0x3AB58A0", Offset = "0x3AB58A0", VA = "0x3AB58A0")]
+	[Address(RVA = "0x3DAB1F0", Offset = "0x3DAB1F0", VA = "0x3DAB1F0")]
 	internal static object Get(long value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000502")]
-	[Address(RVA = "0x3AB5AD0", Offset = "0x3AB5AD0", VA = "0x3AB5AD0")]
+	[Address(RVA = "0x3DAB420", Offset = "0x3DAB420", VA = "0x3DAB420")]
 	internal static object Get(decimal value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000503")]
-	[Address(RVA = "0x3AB5B90", Offset = "0x3AB5B90", VA = "0x3AB5B90")]
+	[Address(RVA = "0x3DAB4E0", Offset = "0x3DAB4E0", VA = "0x3DAB4E0")]
 	internal static object Get(double value)
 	{
 		return null;

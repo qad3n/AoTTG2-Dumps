@@ -1,86 +1,93 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: GameProgress.QuestItem
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/GameProgress/QuestItem.c
+// Prior real C# source (older reference): Assets/Scripts/GameProgress/QuestItem.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using Settings;
 
 namespace GameProgress;
 
-[Token(Token = "0x20001CC")]
+[Token(Token = "0x20001FF")]
 internal class QuestItem : BaseSettingsContainer
 {
-	[Token(Token = "0x40009F6")]
+	[Token(Token = "0x4000ABC")]
 	[FieldOffset(Offset = "0x20")]
 	public StringSetting Category;
 
-	[Token(Token = "0x40009F7")]
+	[Token(Token = "0x4000ABD")]
 	[FieldOffset(Offset = "0x28")]
 	public ListSetting<StringSetting> Conditions;
 
-	[Token(Token = "0x40009F8")]
+	[Token(Token = "0x4000ABE")]
 	[FieldOffset(Offset = "0x30")]
 	public IntSetting Amount;
 
-	[Token(Token = "0x40009F9")]
+	[Token(Token = "0x4000ABF")]
 	[FieldOffset(Offset = "0x38")]
 	public StringSetting RewardType;
 
-	[Token(Token = "0x40009FA")]
+	[Token(Token = "0x4000AC0")]
 	[FieldOffset(Offset = "0x40")]
 	public StringSetting RewardValue;
 
-	[Token(Token = "0x40009FB")]
+	[Token(Token = "0x4000AC1")]
 	[FieldOffset(Offset = "0x48")]
 	public StringSetting Icon;
 
-	[Token(Token = "0x40009FC")]
+	[Token(Token = "0x4000AC2")]
 	[FieldOffset(Offset = "0x50")]
 	public IntSetting Progress;
 
-	[Token(Token = "0x40009FD")]
+	[Token(Token = "0x4000AC3")]
 	[FieldOffset(Offset = "0x58")]
 	public BoolSetting Daily;
 
-	[Token(Token = "0x40009FE")]
+	[Token(Token = "0x4000AC4")]
 	[FieldOffset(Offset = "0x60")]
 	public IntSetting DayCreated;
 
-	[Token(Token = "0x40009FF")]
+	[Token(Token = "0x4000AC5")]
 	[FieldOffset(Offset = "0x68")]
 	public BoolSetting Collected;
 
-	[Token(Token = "0x6000A65")]
-	[Address(RVA = "0x410FD60", Offset = "0x410FD60", VA = "0x410FD60", Slot = "13")]
+	[Token(Token = "0x6000BE2")]
+	[Address(RVA = "0x4442620", Offset = "0x4442620", VA = "0x4442620", Slot = "13")]
 	public virtual string GetQuestName()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A66")]
-	[Address(RVA = "0x410FDF0", Offset = "0x410FDF0", VA = "0x410FDF0")]
+	[Token(Token = "0x6000BE3")]
+	[Address(RVA = "0x443A020", Offset = "0x443A020", VA = "0x443A020")]
 	public string GetConditionsHash()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A67")]
-	[Address(RVA = "0x410FFA0", Offset = "0x410FFA0", VA = "0x410FFA0")]
+	[Token(Token = "0x6000BE4")]
+	[Address(RVA = "0x4438AD0", Offset = "0x4438AD0", VA = "0x4438AD0")]
 	public bool Finished()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A68")]
-	[Address(RVA = "0x410FFF0", Offset = "0x410FFF0", VA = "0x410FFF0")]
+	[Token(Token = "0x6000BE5")]
+	[Address(RVA = "0x4441920", Offset = "0x4441920", VA = "0x4441920")]
 	public void AddProgress(int count = 1)
 	{
 	}
 
-	[Token(Token = "0x6000A69")]
-	[Address(RVA = "0x41100B0", Offset = "0x41100B0", VA = "0x41100B0")]
+	[Token(Token = "0x6000BE6")]
+	[Address(RVA = "0x443F700", Offset = "0x443F700", VA = "0x443F700")]
 	public void CollectReward()
 	{
 	}
 
-	[Token(Token = "0x6000A6A")]
-	[Address(RVA = "0x41101D0", Offset = "0x41101D0", VA = "0x41101D0")]
+	[Token(Token = "0x6000BE7")]
+	[Address(RVA = "0x443A650", Offset = "0x443A650", VA = "0x443A650")]
 	public QuestItem()
 	{
 	}

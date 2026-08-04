@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.LowLevel.LigatureSubstitutionRecord
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -26,7 +33,7 @@ internal struct LigatureSubstitutionRecord
 	public uint[] componentGlyphIDs
 	{
 		[Token(Token = "0x6000090")]
-		[Address(RVA = "0x4B7EFD0", Offset = "0x4B7EFD0", VA = "0x4B7EFD0")]
+		[Address(RVA = "0x4EA6900", Offset = "0x4EA6900", VA = "0x4EA6900")]
 		get
 		{
 			return null;
@@ -37,7 +44,7 @@ internal struct LigatureSubstitutionRecord
 	public uint ligatureGlyphID
 	{
 		[Token(Token = "0x6000091")]
-		[Address(RVA = "0x4B7EFE0", Offset = "0x4B7EFE0", VA = "0x4B7EFE0")]
+		[Address(RVA = "0x4EA6910", Offset = "0x4EA6910", VA = "0x4EA6910")]
 		get
 		{
 			return default(uint);

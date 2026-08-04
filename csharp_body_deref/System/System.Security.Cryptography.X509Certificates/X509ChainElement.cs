@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.X509Certificates.X509ChainElement
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
@@ -25,7 +32,7 @@ public class X509ChainElement
 	public X509Certificate2 Certificate
 	{
 		[Token(Token = "0x60005ED")]
-		[Address(RVA = "0x4616050", Offset = "0x4616050", VA = "0x4616050")]
+		[Address(RVA = "0x493B150", Offset = "0x493B150", VA = "0x493B150")]
 		get
 		{
 			return null;
@@ -36,7 +43,7 @@ public class X509ChainElement
 	public X509ChainStatus[] ChainElementStatus
 	{
 		[Token(Token = "0x60005EE")]
-		[Address(RVA = "0x4616060", Offset = "0x4616060", VA = "0x4616060")]
+		[Address(RVA = "0x493B160", Offset = "0x493B160", VA = "0x493B160")]
 		get
 		{
 			return null;
@@ -47,39 +54,39 @@ public class X509ChainElement
 	internal X509ChainStatusFlags StatusFlags
 	{
 		[Token(Token = "0x60005EF")]
-		[Address(RVA = "0x4616070", Offset = "0x4616070", VA = "0x4616070")]
+		[Address(RVA = "0x493B170", Offset = "0x493B170", VA = "0x493B170")]
 		get
 		{
 			return default(X509ChainStatusFlags);
 		}
 		[Token(Token = "0x60005F0")]
-		[Address(RVA = "0x4616080", Offset = "0x4616080", VA = "0x4616080")]
+		[Address(RVA = "0x493B180", Offset = "0x493B180", VA = "0x493B180")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60005EC")]
-	[Address(RVA = "0x4616000", Offset = "0x4616000", VA = "0x4616000")]
+	[Address(RVA = "0x493B100", Offset = "0x493B100", VA = "0x493B100")]
 	internal X509ChainElement(X509Certificate2 certificate)
 	{
 	}
 
 	[Token(Token = "0x60005F1")]
-	[Address(RVA = "0x4616090", Offset = "0x4616090", VA = "0x4616090")]
+	[Address(RVA = "0x493B190", Offset = "0x493B190", VA = "0x493B190")]
 	private int Count(X509ChainStatusFlags flags)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60005F2")]
-	[Address(RVA = "0x4616220", Offset = "0x4616220", VA = "0x4616220")]
+	[Address(RVA = "0x493B320", Offset = "0x493B320", VA = "0x493B320")]
 	private void Set(X509ChainStatus[] status, ref int position, X509ChainStatusFlags flags, X509ChainStatusFlags mask)
 	{
 	}
 
 	[Token(Token = "0x60005F3")]
-	[Address(RVA = "0x4616400", Offset = "0x4616400", VA = "0x4616400")]
+	[Address(RVA = "0x493B500", Offset = "0x493B500", VA = "0x493B500")]
 	internal void UncompressFlags()
 	{
 	}

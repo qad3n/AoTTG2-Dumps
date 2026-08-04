@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.WebReadStream
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.IO;
 using System.Runtime.CompilerServices;
@@ -53,13 +60,13 @@ internal abstract class WebReadStream : Stream
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000B43")]
-		[Address(RVA = "0x4675B70", Offset = "0x4675B70", VA = "0x4675B70", Slot = "4")]
+		[Address(RVA = "0x499AC70", Offset = "0x499AC70", VA = "0x499AC70", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000B44")]
-		[Address(RVA = "0x46761E0", Offset = "0x46761E0", VA = "0x46761E0", Slot = "5")]
+		[Address(RVA = "0x499B2E0", Offset = "0x499B2E0", VA = "0x499B2E0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -74,7 +81,7 @@ internal abstract class WebReadStream : Stream
 	public WebOperation Operation
 	{
 		[Token(Token = "0x6000B2E")]
-		[Address(RVA = "0x4674ED0", Offset = "0x4674ED0", VA = "0x4674ED0")]
+		[Address(RVA = "0x4999FD0", Offset = "0x4999FD0", VA = "0x4999FD0")]
 		[CompilerGenerated]
 		get
 		{
@@ -86,7 +93,7 @@ internal abstract class WebReadStream : Stream
 	protected Stream InnerStream
 	{
 		[Token(Token = "0x6000B2F")]
-		[Address(RVA = "0x4674EE0", Offset = "0x4674EE0", VA = "0x4674EE0")]
+		[Address(RVA = "0x4999FE0", Offset = "0x4999FE0", VA = "0x4999FE0")]
 		[CompilerGenerated]
 		get
 		{
@@ -98,7 +105,7 @@ internal abstract class WebReadStream : Stream
 	public override long Length
 	{
 		[Token(Token = "0x6000B31")]
-		[Address(RVA = "0x4674F70", Offset = "0x4674F70", VA = "0x4674F70", Slot = "11")]
+		[Address(RVA = "0x499A070", Offset = "0x499A070", VA = "0x499A070", Slot = "11")]
 		get
 		{
 			return default(long);
@@ -109,13 +116,13 @@ internal abstract class WebReadStream : Stream
 	public override long Position
 	{
 		[Token(Token = "0x6000B32")]
-		[Address(RVA = "0x4674FB0", Offset = "0x4674FB0", VA = "0x4674FB0", Slot = "12")]
+		[Address(RVA = "0x499A0B0", Offset = "0x499A0B0", VA = "0x499A0B0", Slot = "12")]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x6000B33")]
-		[Address(RVA = "0x4674FF0", Offset = "0x4674FF0", VA = "0x4674FF0", Slot = "13")]
+		[Address(RVA = "0x499A0F0", Offset = "0x499A0F0", VA = "0x499A0F0", Slot = "13")]
 		set
 		{
 		}
@@ -125,7 +132,7 @@ internal abstract class WebReadStream : Stream
 	public override bool CanSeek
 	{
 		[Token(Token = "0x6000B34")]
-		[Address(RVA = "0x4675030", Offset = "0x4675030", VA = "0x4675030", Slot = "8")]
+		[Address(RVA = "0x499A130", Offset = "0x499A130", VA = "0x499A130", Slot = "8")]
 		get
 		{
 			return default(bool);
@@ -136,7 +143,7 @@ internal abstract class WebReadStream : Stream
 	public override bool CanRead
 	{
 		[Token(Token = "0x6000B35")]
-		[Address(RVA = "0x4675040", Offset = "0x4675040", VA = "0x4675040", Slot = "7")]
+		[Address(RVA = "0x499A140", Offset = "0x499A140", VA = "0x499A140", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -147,7 +154,7 @@ internal abstract class WebReadStream : Stream
 	public override bool CanWrite
 	{
 		[Token(Token = "0x6000B36")]
-		[Address(RVA = "0x4675050", Offset = "0x4675050", VA = "0x4675050", Slot = "10")]
+		[Address(RVA = "0x499A150", Offset = "0x499A150", VA = "0x499A150", Slot = "10")]
 		get
 		{
 			return default(bool);
@@ -155,66 +162,66 @@ internal abstract class WebReadStream : Stream
 	}
 
 	[Token(Token = "0x6000B30")]
-	[Address(RVA = "0x4674EF0", Offset = "0x4674EF0", VA = "0x4674EF0")]
+	[Address(RVA = "0x4999FF0", Offset = "0x4999FF0", VA = "0x4999FF0")]
 	public WebReadStream(WebOperation operation, Stream innerStream)
 	{
 	}
 
 	[Token(Token = "0x6000B37")]
-	[Address(RVA = "0x4675060", Offset = "0x4675060", VA = "0x4675060", Slot = "31")]
+	[Address(RVA = "0x499A160", Offset = "0x499A160", VA = "0x499A160", Slot = "31")]
 	public override void SetLength(long value)
 	{
 	}
 
 	[Token(Token = "0x6000B38")]
-	[Address(RVA = "0x46750A0", Offset = "0x46750A0", VA = "0x46750A0", Slot = "30")]
+	[Address(RVA = "0x499A1A0", Offset = "0x499A1A0", VA = "0x499A1A0", Slot = "30")]
 	public override long Seek(long offset, SeekOrigin origin)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000B39")]
-	[Address(RVA = "0x46750E0", Offset = "0x46750E0", VA = "0x46750E0", Slot = "35")]
+	[Address(RVA = "0x499A1E0", Offset = "0x499A1E0", VA = "0x499A1E0", Slot = "35")]
 	public override void Write(byte[] buffer, int offset, int count)
 	{
 	}
 
 	[Token(Token = "0x6000B3A")]
-	[Address(RVA = "0x4675120", Offset = "0x4675120", VA = "0x4675120", Slot = "20")]
+	[Address(RVA = "0x499A220", Offset = "0x499A220", VA = "0x499A220", Slot = "20")]
 	public override void Flush()
 	{
 	}
 
 	[Token(Token = "0x6000B3B")]
-	[Address(RVA = "0x4675160", Offset = "0x4675160", VA = "0x4675160")]
+	[Address(RVA = "0x499A260", Offset = "0x499A260", VA = "0x499A260")]
 	protected Exception GetException(Exception e)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B3C")]
-	[Address(RVA = "0x46752E0", Offset = "0x46752E0", VA = "0x46752E0", Slot = "32")]
+	[Address(RVA = "0x499A3E0", Offset = "0x499A3E0", VA = "0x499A3E0", Slot = "32")]
 	public override int Read(byte[] buffer, int offset, int size)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B3D")]
-	[Address(RVA = "0x46755A0", Offset = "0x46755A0", VA = "0x46755A0", Slot = "22")]
+	[Address(RVA = "0x499A6A0", Offset = "0x499A6A0", VA = "0x499A6A0", Slot = "22")]
 	public override IAsyncResult BeginRead(byte[] buffer, int offset, int size, AsyncCallback cb, object state)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B3E")]
-	[Address(RVA = "0x46757A0", Offset = "0x46757A0", VA = "0x46757A0", Slot = "23")]
+	[Address(RVA = "0x499A8A0", Offset = "0x499A8A0", VA = "0x499A8A0", Slot = "23")]
 	public override int EndRead(IAsyncResult r)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B3F")]
-	[Address(RVA = "0x46758B0", Offset = "0x46758B0", VA = "0x46758B0", Slot = "24")]
+	[Address(RVA = "0x499A9B0", Offset = "0x499A9B0", VA = "0x499A9B0", Slot = "24")]
 	[AsyncStateMachine(typeof(_003CReadAsync_003Ed__28))]
 	public sealed override Task<int> ReadAsync(byte[] buffer, int offset, int size, CancellationToken cancellationToken)
 	{
@@ -225,14 +232,14 @@ internal abstract class WebReadStream : Stream
 	protected abstract Task<int> ProcessReadAsync(byte[] buffer, int offset, int size, CancellationToken cancellationToken);
 
 	[Token(Token = "0x6000B41")]
-	[Address(RVA = "0x4675A20", Offset = "0x4675A20", VA = "0x4675A20", Slot = "39")]
+	[Address(RVA = "0x499AB20", Offset = "0x499AB20", VA = "0x499AB20", Slot = "39")]
 	internal virtual Task FinishReading(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B42")]
-	[Address(RVA = "0x4675B30", Offset = "0x4675B30", VA = "0x4675B30", Slot = "19")]
+	[Address(RVA = "0x499AC30", Offset = "0x499AC30", VA = "0x499AC30", Slot = "19")]
 	protected override void Dispose(bool disposing)
 	{
 	}

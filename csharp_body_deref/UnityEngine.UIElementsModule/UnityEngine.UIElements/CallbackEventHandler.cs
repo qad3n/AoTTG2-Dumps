@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.CallbackEventHandler
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -47,69 +54,69 @@ public abstract class CallbackEventHandler : IEventHandler
 	internal abstract void SendEvent(EventBase e, DispatchMode dispatchMode);
 
 	[Token(Token = "0x6000AA2")]
-	[Address(RVA = "0x4D08770", Offset = "0x4D08770", VA = "0x4D08770", Slot = "7")]
+	[Address(RVA = "0x50300A0", Offset = "0x50300A0", VA = "0x50300A0", Slot = "7")]
 	public bool HasTrickleDownHandlers()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000AA3")]
-	[Address(RVA = "0x4D087A0", Offset = "0x4D087A0", VA = "0x4D087A0", Slot = "8")]
+	[Address(RVA = "0x50300D0", Offset = "0x50300D0", VA = "0x50300D0", Slot = "8")]
 	public bool HasBubbleUpHandlers()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000AA4")]
-	[Address(RVA = "0x4D087D0", Offset = "0x4D087D0", VA = "0x4D087D0", Slot = "9")]
+	[Address(RVA = "0x5030100", Offset = "0x5030100", VA = "0x5030100", Slot = "9")]
 	[EventInterest(EventInterestOptions.Inherit)]
 	protected virtual void ExecuteDefaultActionAtTarget(EventBase evt)
 	{
 	}
 
 	[Token(Token = "0x6000AA5")]
-	[Address(RVA = "0x4D087E0", Offset = "0x4D087E0", VA = "0x4D087E0", Slot = "10")]
+	[Address(RVA = "0x5030110", Offset = "0x5030110", VA = "0x5030110", Slot = "10")]
 	[EventInterest(EventInterestOptions.Inherit)]
 	protected virtual void ExecuteDefaultAction(EventBase evt)
 	{
 	}
 
 	[Token(Token = "0x6000AA6")]
-	[Address(RVA = "0x4D087F0", Offset = "0x4D087F0", VA = "0x4D087F0", Slot = "11")]
+	[Address(RVA = "0x5030120", Offset = "0x5030120", VA = "0x5030120", Slot = "11")]
 	[EventInterest(EventInterestOptions.Inherit)]
 	internal virtual void ExecuteDefaultActionDisabledAtTarget(EventBase evt)
 	{
 	}
 
 	[Token(Token = "0x6000AA7")]
-	[Address(RVA = "0x4D08800", Offset = "0x4D08800", VA = "0x4D08800", Slot = "12")]
+	[Address(RVA = "0x5030130", Offset = "0x5030130", VA = "0x5030130", Slot = "12")]
 	[EventInterest(EventInterestOptions.Inherit)]
 	internal virtual void ExecuteDefaultActionDisabled(EventBase evt)
 	{
 	}
 
 	[Token(Token = "0x6000AA8")]
-	[Address(RVA = "0x4D08810", Offset = "0x4D08810", VA = "0x4D08810")]
+	[Address(RVA = "0x5030140", Offset = "0x5030140", VA = "0x5030140")]
 	internal void NotifyPropertyChanged(DataBindingProperty property)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000AA9")]
-	[Address(RVA = "0x4D08820", Offset = "0x4D08820", VA = "0x4D08820")]
+	[Address(RVA = "0x5030150", Offset = "0x5030150", VA = "0x5030150")]
 	internal void ExecuteDefaultActionInternal(EventBase evt)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000AAA")]
-	[Address(RVA = "0x4D08840", Offset = "0x4D08840", VA = "0x4D08840")]
+	[Address(RVA = "0x5030170", Offset = "0x5030170", VA = "0x5030170")]
 	internal void ExecuteDefaultActionAtTargetInternal(EventBase evt)
 	{
 	}
 
 	[Token(Token = "0x6000AAB")]
-	[Address(RVA = "0x4D08860", Offset = "0x4D08860", VA = "0x4D08860")]
+	[Address(RVA = "0x5030190", Offset = "0x5030190", VA = "0x5030190")]
 	protected CallbackEventHandler()
 	{
 	}

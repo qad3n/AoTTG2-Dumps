@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.IO.StreamWriter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -66,13 +73,13 @@ public class StreamWriter : TextWriter
 		private int _003Ci_003E5__2;
 
 		[Token(Token = "0x600289E")]
-		[Address(RVA = "0x4F10F40", Offset = "0x4F10F40", VA = "0x4F10F40", Slot = "4")]
+		[Address(RVA = "0x3BF6A60", Offset = "0x3BF6A60", VA = "0x3BF6A60", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600289F")]
-		[Address(RVA = "0x4F11580", Offset = "0x4F11580", VA = "0x4F11580", Slot = "5")]
+		[Address(RVA = "0x3BF70A0", Offset = "0x3BF70A0", VA = "0x3BF70A0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -141,13 +148,13 @@ public class StreamWriter : TextWriter
 		private int _003Ci_003E5__4;
 
 		[Token(Token = "0x60028A0")]
-		[Address(RVA = "0x4F115E0", Offset = "0x4F115E0", VA = "0x4F115E0", Slot = "4")]
+		[Address(RVA = "0x3BF7100", Offset = "0x3BF7100", VA = "0x3BF7100", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60028A1")]
-		[Address(RVA = "0x4F11C90", Offset = "0x4F11C90", VA = "0x4F11C90", Slot = "5")]
+		[Address(RVA = "0x3BF77B0", Offset = "0x3BF77B0", VA = "0x3BF77B0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -216,13 +223,13 @@ public class StreamWriter : TextWriter
 		private int _003Ci_003E5__3;
 
 		[Token(Token = "0x60028A2")]
-		[Address(RVA = "0x4F11CF0", Offset = "0x4F11CF0", VA = "0x4F11CF0", Slot = "4")]
+		[Address(RVA = "0x3BF7810", Offset = "0x3BF7810", VA = "0x3BF7810", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60028A3")]
-		[Address(RVA = "0x4F12520", Offset = "0x4F12520", VA = "0x4F12520", Slot = "5")]
+		[Address(RVA = "0x3BF8040", Offset = "0x3BF8040", VA = "0x3BF8040", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -295,13 +302,13 @@ public class StreamWriter : TextWriter
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x60028A4")]
-		[Address(RVA = "0x4F12580", Offset = "0x4F12580", VA = "0x4F12580", Slot = "4")]
+		[Address(RVA = "0x3BF80A0", Offset = "0x3BF80A0", VA = "0x3BF80A0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60028A5")]
-		[Address(RVA = "0x4F13230", Offset = "0x4F13230", VA = "0x4F13230", Slot = "5")]
+		[Address(RVA = "0x3BF8D50", Offset = "0x3BF8D50", VA = "0x3BF8D50", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -360,7 +367,7 @@ public class StreamWriter : TextWriter
 	private static Encoding UTF8NoBOM
 	{
 		[Token(Token = "0x600287B")]
-		[Address(RVA = "0x4F0DAB0", Offset = "0x4F0DAB0", VA = "0x4F0DAB0")]
+		[Address(RVA = "0x3BF35D0", Offset = "0x3BF35D0", VA = "0x3BF35D0")]
 		get
 		{
 			return null;
@@ -371,7 +378,7 @@ public class StreamWriter : TextWriter
 	public virtual bool AutoFlush
 	{
 		[Token(Token = "0x6002888")]
-		[Address(RVA = "0x4F0E960", Offset = "0x4F0E960", VA = "0x4F0E960", Slot = "26")]
+		[Address(RVA = "0x3BF4480", Offset = "0x3BF4480", VA = "0x3BF4480", Slot = "26")]
 		set
 		{
 		}
@@ -381,7 +388,7 @@ public class StreamWriter : TextWriter
 	public virtual Stream BaseStream
 	{
 		[Token(Token = "0x6002889")]
-		[Address(RVA = "0x4F0E9E0", Offset = "0x4F0E9E0", VA = "0x4F0E9E0", Slot = "27")]
+		[Address(RVA = "0x3BF4500", Offset = "0x3BF4500", VA = "0x3BF4500", Slot = "27")]
 		get
 		{
 			return null;
@@ -392,7 +399,7 @@ public class StreamWriter : TextWriter
 	internal bool LeaveOpen
 	{
 		[Token(Token = "0x600288A")]
-		[Address(RVA = "0x4F0E9F0", Offset = "0x4F0E9F0", VA = "0x4F0E9F0")]
+		[Address(RVA = "0x3BF4510", Offset = "0x3BF4510", VA = "0x3BF4510")]
 		get
 		{
 			return default(bool);
@@ -403,7 +410,7 @@ public class StreamWriter : TextWriter
 	public override Encoding Encoding
 	{
 		[Token(Token = "0x600288B")]
-		[Address(RVA = "0x4F0EA00", Offset = "0x4F0EA00", VA = "0x4F0EA00", Slot = "11")]
+		[Address(RVA = "0x3BF4520", Offset = "0x3BF4520", VA = "0x3BF4520", Slot = "11")]
 		get
 		{
 			return null;
@@ -414,7 +421,7 @@ public class StreamWriter : TextWriter
 	private int CharPos_Prop
 	{
 		[Token(Token = "0x6002899")]
-		[Address(RVA = "0x4F10C00", Offset = "0x4F10C00", VA = "0x4F10C00")]
+		[Address(RVA = "0x3BF6720", Offset = "0x3BF6720", VA = "0x3BF6720")]
 		set
 		{
 		}
@@ -424,146 +431,146 @@ public class StreamWriter : TextWriter
 	private bool HaveWrittenPreamble_Prop
 	{
 		[Token(Token = "0x600289A")]
-		[Address(RVA = "0x4F10C10", Offset = "0x4F10C10", VA = "0x4F10C10")]
+		[Address(RVA = "0x3BF6730", Offset = "0x3BF6730", VA = "0x3BF6730")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6002879")]
-	[Address(RVA = "0x4F0DA10", Offset = "0x4F0DA10", VA = "0x4F0DA10")]
+	[Address(RVA = "0x3BF3530", Offset = "0x3BF3530", VA = "0x3BF3530")]
 	private void CheckAsyncTaskInProgress()
 	{
 	}
 
 	[Token(Token = "0x600287A")]
-	[Address(RVA = "0x4F0DA60", Offset = "0x4F0DA60", VA = "0x4F0DA60")]
+	[Address(RVA = "0x3BF3580", Offset = "0x3BF3580", VA = "0x3BF3580")]
 	private static void ThrowAsyncIOInProgress()
 	{
 	}
 
 	[Token(Token = "0x600287C")]
-	[Address(RVA = "0x4F0DB10", Offset = "0x4F0DB10", VA = "0x4F0DB10")]
+	[Address(RVA = "0x3BF3630", Offset = "0x3BF3630", VA = "0x3BF3630")]
 	internal StreamWriter()
 	{
 	}
 
 	[Token(Token = "0x600287D")]
-	[Address(RVA = "0x4F0DCB0", Offset = "0x4F0DCB0", VA = "0x4F0DCB0")]
+	[Address(RVA = "0x3BF37D0", Offset = "0x3BF37D0", VA = "0x3BF37D0")]
 	public StreamWriter(Stream stream)
 	{
 	}
 
 	[Token(Token = "0x600287E")]
-	[Address(RVA = "0x4F0DFF0", Offset = "0x4F0DFF0", VA = "0x4F0DFF0")]
+	[Address(RVA = "0x3BF3B10", Offset = "0x3BF3B10", VA = "0x3BF3B10")]
 	public StreamWriter(Stream stream, Encoding encoding)
 	{
 	}
 
 	[Token(Token = "0x600287F")]
-	[Address(RVA = "0x4F0DD80", Offset = "0x4F0DD80", VA = "0x4F0DD80")]
+	[Address(RVA = "0x3BF38A0", Offset = "0x3BF38A0", VA = "0x3BF38A0")]
 	public StreamWriter(Stream stream, Encoding encoding, int bufferSize, bool leaveOpen)
 	{
 	}
 
 	[Token(Token = "0x6002880")]
-	[Address(RVA = "0x4F0E160", Offset = "0x4F0E160", VA = "0x4F0E160")]
+	[Address(RVA = "0x3BF3C80", Offset = "0x3BF3C80", VA = "0x3BF3C80")]
 	public StreamWriter(string path)
 	{
 	}
 
 	[Token(Token = "0x6002881")]
-	[Address(RVA = "0x4F0E4C0", Offset = "0x4F0E4C0", VA = "0x4F0E4C0")]
+	[Address(RVA = "0x3BF3FE0", Offset = "0x3BF3FE0", VA = "0x3BF3FE0")]
 	public StreamWriter(string path, bool append)
 	{
 	}
 
 	[Token(Token = "0x6002882")]
-	[Address(RVA = "0x4F0E230", Offset = "0x4F0E230", VA = "0x4F0E230")]
+	[Address(RVA = "0x3BF3D50", Offset = "0x3BF3D50", VA = "0x3BF3D50")]
 	public StreamWriter(string path, bool append, Encoding encoding, int bufferSize)
 	{
 	}
 
 	[Token(Token = "0x6002883")]
-	[Address(RVA = "0x4F0E000", Offset = "0x4F0E000", VA = "0x4F0E000")]
+	[Address(RVA = "0x3BF3B20", Offset = "0x3BF3B20", VA = "0x3BF3B20")]
 	private void Init(Stream streamArg, Encoding encodingArg, int bufferSize, bool shouldLeaveOpen)
 	{
 	}
 
 	[Token(Token = "0x6002884")]
-	[Address(RVA = "0x4F0E630", Offset = "0x4F0E630", VA = "0x4F0E630", Slot = "8")]
+	[Address(RVA = "0x3BF4150", Offset = "0x3BF4150", VA = "0x3BF4150", Slot = "8")]
 	public override void Close()
 	{
 	}
 
 	[Token(Token = "0x6002885")]
-	[Address(RVA = "0x4F0E6A0", Offset = "0x4F0E6A0", VA = "0x4F0E6A0", Slot = "9")]
+	[Address(RVA = "0x3BF41C0", Offset = "0x3BF41C0", VA = "0x3BF41C0", Slot = "9")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6002886")]
-	[Address(RVA = "0x4F0E900", Offset = "0x4F0E900", VA = "0x4F0E900", Slot = "10")]
+	[Address(RVA = "0x3BF4420", Offset = "0x3BF4420", VA = "0x3BF4420", Slot = "10")]
 	public override void Flush()
 	{
 	}
 
 	[Token(Token = "0x6002887")]
-	[Address(RVA = "0x4F0E790", Offset = "0x4F0E790", VA = "0x4F0E790")]
+	[Address(RVA = "0x3BF42B0", Offset = "0x3BF42B0", VA = "0x3BF42B0")]
 	private void Flush(bool flushStream, bool flushEncoder)
 	{
 	}
 
 	[Token(Token = "0x600288C")]
-	[Address(RVA = "0x4F0EA10", Offset = "0x4F0EA10", VA = "0x4F0EA10", Slot = "13")]
+	[Address(RVA = "0x3BF4530", Offset = "0x3BF4530", VA = "0x3BF4530", Slot = "13")]
 	public override void Write(char value)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x600288D")]
-	[Address(RVA = "0x4F0EAC0", Offset = "0x4F0EAC0", VA = "0x4F0EAC0", Slot = "14")]
+	[Address(RVA = "0x3BF45E0", Offset = "0x3BF45E0", VA = "0x3BF45E0", Slot = "14")]
 	public override void Write(char[] buffer)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x600288E")]
-	[Address(RVA = "0x4F0EB10", Offset = "0x4F0EB10", VA = "0x4F0EB10", Slot = "15")]
+	[Address(RVA = "0x3BF4630", Offset = "0x3BF4630", VA = "0x3BF4630", Slot = "15")]
 	public override void Write(char[] buffer, int index, int count)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600288F")]
-	[Address(RVA = "0x4F0ECD0", Offset = "0x4F0ECD0", VA = "0x4F0ECD0")]
+	[Address(RVA = "0x3BF47F0", Offset = "0x3BF47F0", VA = "0x3BF47F0")]
 	private void WriteSpan(ReadOnlySpan<char> buffer, bool appendNewLine)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x6002890")]
-	[Address(RVA = "0x4F0F010", Offset = "0x4F0F010", VA = "0x4F0F010", Slot = "18")]
+	[Address(RVA = "0x3BF4B30", Offset = "0x3BF4B30", VA = "0x3BF4B30", Slot = "18")]
 	public override void Write(string value)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x6002891")]
-	[Address(RVA = "0x4F0F070", Offset = "0x4F0F070", VA = "0x4F0F070", Slot = "21")]
+	[Address(RVA = "0x3BF4B90", Offset = "0x3BF4B90", VA = "0x3BF4B90", Slot = "21")]
 	public override void WriteLine(string value)
 	{
 	}
 
 	[Token(Token = "0x6002892")]
-	[Address(RVA = "0x4F0F120", Offset = "0x4F0F120", VA = "0x4F0F120", Slot = "22")]
+	[Address(RVA = "0x3BF4C40", Offset = "0x3BF4C40", VA = "0x3BF4C40", Slot = "22")]
 	public override Task WriteAsync(char value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002893")]
-	[Address(RVA = "0x4F0F5E0", Offset = "0x4F0F5E0", VA = "0x4F0F5E0")]
+	[Address(RVA = "0x3BF5100", Offset = "0x3BF5100", VA = "0x3BF5100")]
 	[AsyncStateMachine(typeof(_003CWriteAsyncInternal_003Ed__57))]
 	private static Task WriteAsyncInternal(StreamWriter _this, char value, char[] charBuffer, int charPos, int charLen, char[] coreNewLine, bool autoFlush, bool appendNewLine)
 	{
@@ -571,14 +578,14 @@ public class StreamWriter : TextWriter
 	}
 
 	[Token(Token = "0x6002894")]
-	[Address(RVA = "0x4F0F750", Offset = "0x4F0F750", VA = "0x4F0F750", Slot = "23")]
+	[Address(RVA = "0x3BF5270", Offset = "0x3BF5270", VA = "0x3BF5270", Slot = "23")]
 	public override Task WriteAsync(string value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002895")]
-	[Address(RVA = "0x4F0FC90", Offset = "0x4F0FC90", VA = "0x4F0FC90")]
+	[Address(RVA = "0x3BF57B0", Offset = "0x3BF57B0", VA = "0x3BF57B0")]
 	[AsyncStateMachine(typeof(_003CWriteAsyncInternal_003Ed__59))]
 	private static Task WriteAsyncInternal(StreamWriter _this, string value, char[] charBuffer, int charPos, int charLen, char[] coreNewLine, bool autoFlush, bool appendNewLine)
 	{
@@ -586,14 +593,14 @@ public class StreamWriter : TextWriter
 	}
 
 	[Token(Token = "0x6002896")]
-	[Address(RVA = "0x4F0FE20", Offset = "0x4F0FE20", VA = "0x4F0FE20", Slot = "24")]
+	[Address(RVA = "0x3BF5940", Offset = "0x3BF5940", VA = "0x3BF5940", Slot = "24")]
 	public override Task WriteAsync(char[] buffer, int index, int count)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002897")]
-	[Address(RVA = "0x4F10440", Offset = "0x4F10440", VA = "0x4F10440")]
+	[Address(RVA = "0x3BF5F60", Offset = "0x3BF5F60", VA = "0x3BF5F60")]
 	[AsyncStateMachine(typeof(_003CWriteAsyncInternal_003Ed__62))]
 	private static Task WriteAsyncInternal(StreamWriter _this, ReadOnlyMemory<char> source, char[] charBuffer, int charPos, int charLen, char[] coreNewLine, bool autoFlush, bool appendNewLine, CancellationToken cancellationToken)
 	{
@@ -601,21 +608,21 @@ public class StreamWriter : TextWriter
 	}
 
 	[Token(Token = "0x6002898")]
-	[Address(RVA = "0x4F105F0", Offset = "0x4F105F0", VA = "0x4F105F0", Slot = "25")]
+	[Address(RVA = "0x3BF6110", Offset = "0x3BF6110", VA = "0x3BF6110", Slot = "25")]
 	public override Task FlushAsync()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600289B")]
-	[Address(RVA = "0x4F10A20", Offset = "0x4F10A20", VA = "0x4F10A20")]
+	[Address(RVA = "0x3BF6540", Offset = "0x3BF6540", VA = "0x3BF6540")]
 	private Task FlushAsyncInternal(bool flushStream, bool flushEncoder, char[] sCharBuffer, int sCharPos, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600289C")]
-	[Address(RVA = "0x4F10C20", Offset = "0x4F10C20", VA = "0x4F10C20")]
+	[Address(RVA = "0x3BF6740", Offset = "0x3BF6740", VA = "0x3BF6740")]
 	[AsyncStateMachine(typeof(_003CFlushAsyncInternal_003Ed__74))]
 	private static Task FlushAsyncInternal(StreamWriter _this, bool flushStream, bool flushEncoder, char[] charBuffer, int charPos, bool haveWrittenPreamble, Encoding encoding, Encoder encoder, byte[] byteBuffer, Stream stream, CancellationToken cancellationToken)
 	{

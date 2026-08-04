@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.EnterFinallyInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -13,7 +20,7 @@ internal sealed class EnterFinallyInstruction : IndexedBranchInstruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x600063A")]
-		[Address(RVA = "0x41A3C20", Offset = "0x41A3C20", VA = "0x41A3C20", Slot = "9")]
+		[Address(RVA = "0x44C8D20", Offset = "0x44C8D20", VA = "0x44C8D20", Slot = "9")]
 		get
 		{
 			return null;
@@ -24,7 +31,7 @@ internal sealed class EnterFinallyInstruction : IndexedBranchInstruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x600063B")]
-		[Address(RVA = "0x41A3C50", Offset = "0x41A3C50", VA = "0x41A3C50", Slot = "5")]
+		[Address(RVA = "0x44C8D50", Offset = "0x44C8D50", VA = "0x44C8D50", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -35,7 +42,7 @@ internal sealed class EnterFinallyInstruction : IndexedBranchInstruction
 	public override int ConsumedContinuations
 	{
 		[Token(Token = "0x600063C")]
-		[Address(RVA = "0x41A3C60", Offset = "0x41A3C60", VA = "0x41A3C60", Slot = "6")]
+		[Address(RVA = "0x44C8D60", Offset = "0x44C8D60", VA = "0x44C8D60", Slot = "6")]
 		get
 		{
 			return default(int);
@@ -43,20 +50,20 @@ internal sealed class EnterFinallyInstruction : IndexedBranchInstruction
 	}
 
 	[Token(Token = "0x6000639")]
-	[Address(RVA = "0x41A3C00", Offset = "0x41A3C00", VA = "0x41A3C00")]
+	[Address(RVA = "0x44C8D00", Offset = "0x44C8D00", VA = "0x44C8D00")]
 	private EnterFinallyInstruction(int labelIndex)
 	{
 	}
 
 	[Token(Token = "0x600063D")]
-	[Address(RVA = "0x41A3C70", Offset = "0x41A3C70", VA = "0x41A3C70")]
+	[Address(RVA = "0x44C8D70", Offset = "0x44C8D70", VA = "0x44C8D70")]
 	internal static EnterFinallyInstruction Create(int labelIndex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600063E")]
-	[Address(RVA = "0x41A3D70", Offset = "0x41A3D70", VA = "0x41A3D70", Slot = "8")]
+	[Address(RVA = "0x44C8E70", Offset = "0x44C8E70", VA = "0x44C8E70", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

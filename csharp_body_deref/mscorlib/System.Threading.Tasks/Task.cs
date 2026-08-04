@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Threading.Tasks.Task
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
@@ -214,19 +221,19 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 		internal System.Collections.Generic.LowLevelListWithIList<Task> m_exceptionalChildren;
 
 		[Token(Token = "0x6001479")]
-		[Address(RVA = "0x505E620", Offset = "0x505E620", VA = "0x505E620")]
+		[Address(RVA = "0x3D44140", Offset = "0x3D44140", VA = "0x3D44140")]
 		internal void SetCompleted()
 		{
 		}
 
 		[Token(Token = "0x600147A")]
-		[Address(RVA = "0x505E640", Offset = "0x505E640", VA = "0x505E640")]
+		[Address(RVA = "0x3D44160", Offset = "0x3D44160", VA = "0x3D44160")]
 		internal void UnregisterCancellationCallback()
 		{
 		}
 
 		[Token(Token = "0x600147B")]
-		[Address(RVA = "0x505A9C0", Offset = "0x505A9C0", VA = "0x505A9C0")]
+		[Address(RVA = "0x3D404E0", Offset = "0x3D404E0", VA = "0x3D404E0")]
 		public ContingentProperties()
 		{
 		}
@@ -239,7 +246,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 		public bool InvokeMayRunArbitraryCode
 		{
 			[Token(Token = "0x600147E")]
-			[Address(RVA = "0x5064990", Offset = "0x5064990", VA = "0x5064990", Slot = "7")]
+			[Address(RVA = "0x3D4A4B0", Offset = "0x3D4A4B0", VA = "0x3D4A4B0", Slot = "7")]
 			get
 			{
 				return default(bool);
@@ -247,13 +254,13 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 		}
 
 		[Token(Token = "0x600147C")]
-		[Address(RVA = "0x5060CF0", Offset = "0x5060CF0", VA = "0x5060CF0")]
+		[Address(RVA = "0x3D46810", Offset = "0x3D46810", VA = "0x3D46810")]
 		internal SetOnInvokeMres()
 		{
 		}
 
 		[Token(Token = "0x600147D")]
-		[Address(RVA = "0x5064980", Offset = "0x5064980", VA = "0x5064980", Slot = "6")]
+		[Address(RVA = "0x3D4A4A0", Offset = "0x3D4A4A0", VA = "0x3D4A4A0", Slot = "6")]
 		public void Invoke(Task completingTask)
 		{
 		}
@@ -275,13 +282,13 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 		internal Timer Timer;
 
 		[Token(Token = "0x600147F")]
-		[Address(RVA = "0x5062910", Offset = "0x5062910", VA = "0x5062910")]
+		[Address(RVA = "0x3D48430", Offset = "0x3D48430", VA = "0x3D48430")]
 		internal DelayPromise(CancellationToken token)
 		{
 		}
 
 		[Token(Token = "0x6001480")]
-		[Address(RVA = "0x50649A0", Offset = "0x50649A0", VA = "0x50649A0")]
+		[Address(RVA = "0x3D4A4C0", Offset = "0x3D4A4C0", VA = "0x3D4A4C0")]
 		internal void Complete()
 		{
 		}
@@ -302,7 +309,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 		internal override bool ShouldNotifyDebuggerOfWaitCompletion
 		{
 			[Token(Token = "0x6001483")]
-			[Address(RVA = "0x5064F70", Offset = "0x5064F70", VA = "0x5064F70", Slot = "11")]
+			[Address(RVA = "0x3D4AA90", Offset = "0x3D4AA90", VA = "0x3D4AA90", Slot = "11")]
 			get
 			{
 				return default(bool);
@@ -313,7 +320,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 		public bool InvokeMayRunArbitraryCode
 		{
 			[Token(Token = "0x6001484")]
-			[Address(RVA = "0x5065050", Offset = "0x5065050", VA = "0x5065050", Slot = "15")]
+			[Address(RVA = "0x3D4AB70", Offset = "0x3D4AB70", VA = "0x3D4AB70", Slot = "15")]
 			get
 			{
 				return default(bool);
@@ -321,13 +328,13 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 		}
 
 		[Token(Token = "0x6001481")]
-		[Address(RVA = "0x50636B0", Offset = "0x50636B0", VA = "0x50636B0")]
+		[Address(RVA = "0x3D491D0", Offset = "0x3D491D0", VA = "0x3D491D0")]
 		internal WhenAllPromise(Task[] tasks)
 		{
 		}
 
 		[Token(Token = "0x6001482")]
-		[Address(RVA = "0x5064B60", Offset = "0x5064B60", VA = "0x5064B60", Slot = "14")]
+		[Address(RVA = "0x3D4A680", Offset = "0x3D4A680", VA = "0x3D4A680", Slot = "14")]
 		public void Invoke(Task ignored)
 		{
 		}
@@ -465,7 +472,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	internal TaskCreationOptions Options
 	{
 		[Token(Token = "0x60013FE")]
-		[Address(RVA = "0x505B400", Offset = "0x505B400", VA = "0x505B400")]
+		[Address(RVA = "0x3D40F20", Offset = "0x3D40F20", VA = "0x3D40F20")]
 		get
 		{
 			return default(TaskCreationOptions);
@@ -477,7 +484,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6001405")]
-		[Address(RVA = "0x505C1D0", Offset = "0x505C1D0", VA = "0x505C1D0")]
+		[Address(RVA = "0x3D41CF0", Offset = "0x3D41CF0", VA = "0x3D41CF0")]
 		get
 		{
 			return default(bool);
@@ -488,7 +495,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	internal virtual bool ShouldNotifyDebuggerOfWaitCompletion
 	{
 		[Token(Token = "0x6001406")]
-		[Address(RVA = "0x505C1F0", Offset = "0x505C1F0", VA = "0x505C1F0", Slot = "11")]
+		[Address(RVA = "0x3D41D10", Offset = "0x3D41D10", VA = "0x3D41D10", Slot = "11")]
 		get
 		{
 			return default(bool);
@@ -499,7 +506,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	internal bool IsWaitNotificationEnabled
 	{
 		[Token(Token = "0x6001407")]
-		[Address(RVA = "0x505C100", Offset = "0x505C100", VA = "0x505C100")]
+		[Address(RVA = "0x3D41C20", Offset = "0x3D41C20", VA = "0x3D41C20")]
 		get
 		{
 			return default(bool);
@@ -510,7 +517,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	public int Id
 	{
 		[Token(Token = "0x600140D")]
-		[Address(RVA = "0x505A560", Offset = "0x505A560", VA = "0x505A560")]
+		[Address(RVA = "0x3D40080", Offset = "0x3D40080", VA = "0x3D40080")]
 		get
 		{
 			return default(int);
@@ -521,7 +528,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	internal static Task InternalCurrent
 	{
 		[Token(Token = "0x600140E")]
-		[Address(RVA = "0x505C6A0", Offset = "0x505C6A0", VA = "0x505C6A0")]
+		[Address(RVA = "0x3D421C0", Offset = "0x3D421C0", VA = "0x3D421C0")]
 		get
 		{
 			return null;
@@ -532,7 +539,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	internal static System.Threading.Tasks.StackGuard CurrentStackGuard
 	{
 		[Token(Token = "0x6001410")]
-		[Address(RVA = "0x505C7A0", Offset = "0x505C7A0", VA = "0x505C7A0")]
+		[Address(RVA = "0x3D422C0", Offset = "0x3D422C0", VA = "0x3D422C0")]
 		get
 		{
 			return null;
@@ -543,7 +550,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	public AggregateException Exception
 	{
 		[Token(Token = "0x6001411")]
-		[Address(RVA = "0x505C890", Offset = "0x505C890", VA = "0x505C890")]
+		[Address(RVA = "0x3D423B0", Offset = "0x3D423B0", VA = "0x3D423B0")]
 		get
 		{
 			return null;
@@ -554,7 +561,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	public TaskStatus Status
 	{
 		[Token(Token = "0x6001412")]
-		[Address(RVA = "0x505CAF0", Offset = "0x505CAF0", VA = "0x505CAF0")]
+		[Address(RVA = "0x3D42610", Offset = "0x3D42610", VA = "0x3D42610")]
 		get
 		{
 			return default(TaskStatus);
@@ -565,7 +572,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	public bool IsCanceled
 	{
 		[Token(Token = "0x6001413")]
-		[Address(RVA = "0x505CB60", Offset = "0x505CB60", VA = "0x505CB60")]
+		[Address(RVA = "0x3D42680", Offset = "0x3D42680", VA = "0x3D42680")]
 		get
 		{
 			return default(bool);
@@ -576,7 +583,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	internal bool IsCancellationRequested
 	{
 		[Token(Token = "0x6001414")]
-		[Address(RVA = "0x505CB80", Offset = "0x505CB80", VA = "0x505CB80")]
+		[Address(RVA = "0x3D426A0", Offset = "0x3D426A0", VA = "0x3D426A0")]
 		get
 		{
 			return default(bool);
@@ -587,7 +594,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	internal CancellationToken CancellationToken
 	{
 		[Token(Token = "0x6001417")]
-		[Address(RVA = "0x50585E0", Offset = "0x50585E0", VA = "0x50585E0")]
+		[Address(RVA = "0x3D3E100", Offset = "0x3D3E100", VA = "0x3D3E100")]
 		get
 		{
 			return default(CancellationToken);
@@ -598,7 +605,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	internal bool IsCancellationAcknowledged
 	{
 		[Token(Token = "0x6001418")]
-		[Address(RVA = "0x505CCE0", Offset = "0x505CCE0", VA = "0x505CCE0")]
+		[Address(RVA = "0x3D42800", Offset = "0x3D42800", VA = "0x3D42800")]
 		get
 		{
 			return default(bool);
@@ -609,7 +616,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	public bool IsCompleted
 	{
 		[Token(Token = "0x6001419")]
-		[Address(RVA = "0x50588B0", Offset = "0x50588B0", VA = "0x50588B0", Slot = "6")]
+		[Address(RVA = "0x3D3E3D0", Offset = "0x3D3E3D0", VA = "0x3D3E3D0", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -620,7 +627,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	public bool IsCompletedSuccessfully
 	{
 		[Token(Token = "0x600141B")]
-		[Address(RVA = "0x50598D0", Offset = "0x50598D0", VA = "0x50598D0")]
+		[Address(RVA = "0x3D3F3F0", Offset = "0x3D3F3F0", VA = "0x3D3F3F0")]
 		get
 		{
 			return default(bool);
@@ -631,7 +638,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	public TaskCreationOptions CreationOptions
 	{
 		[Token(Token = "0x600141C")]
-		[Address(RVA = "0x505AE10", Offset = "0x505AE10", VA = "0x505AE10")]
+		[Address(RVA = "0x3D40930", Offset = "0x3D40930", VA = "0x3D40930")]
 		get
 		{
 			return default(TaskCreationOptions);
@@ -642,7 +649,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	private WaitHandle System_002EIAsyncResult_002EAsyncWaitHandle
 	{
 		[Token(Token = "0x600141D")]
-		[Address(RVA = "0x505CD10", Offset = "0x505CD10", VA = "0x505CD10", Slot = "7")]
+		[Address(RVA = "0x3D42830", Offset = "0x3D42830", VA = "0x3D42830", Slot = "7")]
 		get
 		{
 			return null;
@@ -653,7 +660,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	public object AsyncState
 	{
 		[Token(Token = "0x600141E")]
-		[Address(RVA = "0x505CF80", Offset = "0x505CF80", VA = "0x505CF80", Slot = "8")]
+		[Address(RVA = "0x3D42AA0", Offset = "0x3D42AA0", VA = "0x3D42AA0", Slot = "8")]
 		get
 		{
 			return null;
@@ -664,7 +671,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	private bool System_002EIAsyncResult_002ECompletedSynchronously
 	{
 		[Token(Token = "0x600141F")]
-		[Address(RVA = "0x505CF90", Offset = "0x505CF90", VA = "0x505CF90", Slot = "9")]
+		[Address(RVA = "0x3D42AB0", Offset = "0x3D42AB0", VA = "0x3D42AB0", Slot = "9")]
 		get
 		{
 			return default(bool);
@@ -675,7 +682,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	internal TaskScheduler ExecutingTaskScheduler
 	{
 		[Token(Token = "0x6001420")]
-		[Address(RVA = "0x505CFA0", Offset = "0x505CFA0", VA = "0x505CFA0")]
+		[Address(RVA = "0x3D42AC0", Offset = "0x3D42AC0", VA = "0x3D42AC0")]
 		get
 		{
 			return null;
@@ -686,7 +693,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	public static TaskFactory Factory
 	{
 		[Token(Token = "0x6001421")]
-		[Address(RVA = "0x505CFB0", Offset = "0x505CFB0", VA = "0x505CFB0")]
+		[Address(RVA = "0x3D42AD0", Offset = "0x3D42AD0", VA = "0x3D42AD0")]
 		[CompilerGenerated]
 		get
 		{
@@ -698,7 +705,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	public static Task CompletedTask
 	{
 		[Token(Token = "0x6001422")]
-		[Address(RVA = "0x505D020", Offset = "0x505D020", VA = "0x505D020")]
+		[Address(RVA = "0x3D42B40", Offset = "0x3D42B40", VA = "0x3D42B40")]
 		[CompilerGenerated]
 		get
 		{
@@ -710,7 +717,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	internal ManualResetEventSlim CompletedEvent
 	{
 		[Token(Token = "0x6001423")]
-		[Address(RVA = "0x505CDA0", Offset = "0x505CDA0", VA = "0x505CDA0")]
+		[Address(RVA = "0x3D428C0", Offset = "0x3D428C0", VA = "0x3D428C0")]
 		get
 		{
 			return null;
@@ -721,7 +728,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	internal bool ExceptionRecorded
 	{
 		[Token(Token = "0x6001424")]
-		[Address(RVA = "0x505D090", Offset = "0x505D090", VA = "0x505D090")]
+		[Address(RVA = "0x3D42BB0", Offset = "0x3D42BB0", VA = "0x3D42BB0")]
 		get
 		{
 			return default(bool);
@@ -732,7 +739,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	public bool IsFaulted
 	{
 		[Token(Token = "0x6001425")]
-		[Address(RVA = "0x505C8C0", Offset = "0x505C8C0", VA = "0x505C8C0")]
+		[Address(RVA = "0x3D423E0", Offset = "0x3D423E0", VA = "0x3D423E0")]
 		get
 		{
 			return default(bool);
@@ -743,13 +750,13 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	internal ExecutionContext CapturedContext
 	{
 		[Token(Token = "0x6001426")]
-		[Address(RVA = "0x505D100", Offset = "0x505D100", VA = "0x505D100")]
+		[Address(RVA = "0x3D42C20", Offset = "0x3D42C20", VA = "0x3D42C20")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001427")]
-		[Address(RVA = "0x505B310", Offset = "0x505B310", VA = "0x505B310")]
+		[Address(RVA = "0x3D40E30", Offset = "0x3D40E30", VA = "0x3D40E30")]
 		set
 		{
 		}
@@ -759,7 +766,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	internal bool IsExceptionObservedByParent
 	{
 		[Token(Token = "0x6001432")]
-		[Address(RVA = "0x505DD90", Offset = "0x505DD90", VA = "0x505DD90")]
+		[Address(RVA = "0x3D438B0", Offset = "0x3D438B0", VA = "0x3D438B0")]
 		get
 		{
 			return default(bool);
@@ -770,7 +777,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	internal bool IsDelegateInvoked
 	{
 		[Token(Token = "0x6001433")]
-		[Address(RVA = "0x505DDB0", Offset = "0x505DDB0", VA = "0x505DDB0")]
+		[Address(RVA = "0x3D438D0", Offset = "0x3D438D0", VA = "0x3D438D0")]
 		get
 		{
 			return default(bool);
@@ -778,110 +785,110 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	}
 
 	[Token(Token = "0x60013F3")]
-	[Address(RVA = "0x505A8F0", Offset = "0x505A8F0", VA = "0x505A8F0")]
+	[Address(RVA = "0x3D40410", Offset = "0x3D40410", VA = "0x3D40410")]
 	internal Task(bool canceled, TaskCreationOptions creationOptions, CancellationToken ct)
 	{
 	}
 
 	[Token(Token = "0x60013F4")]
-	[Address(RVA = "0x505A9E0", Offset = "0x505A9E0", VA = "0x505A9E0")]
+	[Address(RVA = "0x3D40500", Offset = "0x3D40500", VA = "0x3D40500")]
 	internal Task()
 	{
 	}
 
 	[Token(Token = "0x60013F5")]
-	[Address(RVA = "0x505AA00", Offset = "0x505AA00", VA = "0x505AA00")]
+	[Address(RVA = "0x3D40520", Offset = "0x3D40520", VA = "0x3D40520")]
 	internal Task(object state, TaskCreationOptions creationOptions, bool promiseStyle)
 	{
 	}
 
 	[Token(Token = "0x60013F6")]
-	[Address(RVA = "0x505AD20", Offset = "0x505AD20", VA = "0x505AD20")]
+	[Address(RVA = "0x3D40840", Offset = "0x3D40840", VA = "0x3D40840")]
 	public Task(Action action, CancellationToken cancellationToken)
 	{
 	}
 
 	[Token(Token = "0x60013F7")]
-	[Address(RVA = "0x505AD40", Offset = "0x505AD40", VA = "0x505AD40")]
+	[Address(RVA = "0x3D40860", Offset = "0x3D40860", VA = "0x3D40860")]
 	internal Task(Delegate action, object state, Task parent, CancellationToken cancellationToken, TaskCreationOptions creationOptions, System.Threading.Tasks.InternalTaskOptions internalOptions, TaskScheduler scheduler)
 	{
 	}
 
 	[Token(Token = "0x60013F8")]
-	[Address(RVA = "0x505AB30", Offset = "0x505AB30", VA = "0x505AB30")]
+	[Address(RVA = "0x3D40650", Offset = "0x3D40650", VA = "0x3D40650")]
 	internal void TaskConstructorCore(Delegate action, object state, CancellationToken cancellationToken, TaskCreationOptions creationOptions, System.Threading.Tasks.InternalTaskOptions internalOptions, TaskScheduler scheduler)
 	{
 	}
 
 	[Token(Token = "0x60013F9")]
-	[Address(RVA = "0x505AF30", Offset = "0x505AF30", VA = "0x505AF30")]
+	[Address(RVA = "0x3D40A50", Offset = "0x3D40A50", VA = "0x3D40A50")]
 	private void AssignCancellationToken(CancellationToken cancellationToken, Task antecedent, System.Threading.Tasks.TaskContinuation continuation)
 	{
 	}
 
 	[Token(Token = "0x60013FA")]
-	[Address(RVA = "0x505B750", Offset = "0x505B750", VA = "0x505B750")]
+	[Address(RVA = "0x3D41270", Offset = "0x3D41270", VA = "0x3D41270")]
 	private static void TaskCancelCallback(object o)
 	{
 	}
 
 	[Token(Token = "0x60013FB")]
-	[Address(RVA = "0x505A040", Offset = "0x505A040", VA = "0x505A040")]
+	[Address(RVA = "0x3D3FB60", Offset = "0x3D3FB60", VA = "0x3D3FB60")]
 	internal bool TrySetCanceled(CancellationToken tokenToRecord)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013FC")]
-	[Address(RVA = "0x50594C0", Offset = "0x50594C0", VA = "0x50594C0")]
+	[Address(RVA = "0x3D3EFE0", Offset = "0x3D3EFE0", VA = "0x3D3EFE0")]
 	internal bool TrySetCanceled(CancellationToken tokenToRecord, object cancellationException)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013FD")]
-	[Address(RVA = "0x505A090", Offset = "0x505A090", VA = "0x505A090")]
+	[Address(RVA = "0x3D3FBB0", Offset = "0x3D3FBB0", VA = "0x3D3FBB0")]
 	internal bool TrySetException(object exceptionObject)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60013FF")]
-	[Address(RVA = "0x505BEE0", Offset = "0x505BEE0", VA = "0x505BEE0")]
+	[Address(RVA = "0x3D41A00", Offset = "0x3D41A00", VA = "0x3D41A00")]
 	internal static TaskCreationOptions OptionsMethod(int flags)
 	{
 		return default(TaskCreationOptions);
 	}
 
 	[Token(Token = "0x6001400")]
-	[Address(RVA = "0x505BAE0", Offset = "0x505BAE0", VA = "0x505BAE0")]
+	[Address(RVA = "0x3D41600", Offset = "0x3D41600", VA = "0x3D41600")]
 	internal bool AtomicStateUpdate(int newBits, int illegalBits)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001401")]
-	[Address(RVA = "0x505BEF0", Offset = "0x505BEF0", VA = "0x505BEF0")]
+	[Address(RVA = "0x3D41A10", Offset = "0x3D41A10", VA = "0x3D41A10")]
 	internal bool AtomicStateUpdate(int newBits, int illegalBits, ref int oldFlags)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001402")]
-	[Address(RVA = "0x505BFC0", Offset = "0x505BFC0", VA = "0x505BFC0")]
+	[Address(RVA = "0x3D41AE0", Offset = "0x3D41AE0", VA = "0x3D41AE0")]
 	internal void SetNotificationForWaitCompletion(bool enabled)
 	{
 	}
 
 	[Token(Token = "0x6001403")]
-	[Address(RVA = "0x505C0B0", Offset = "0x505C0B0", VA = "0x505C0B0")]
+	[Address(RVA = "0x3D41BD0", Offset = "0x3D41BD0", VA = "0x3D41BD0")]
 	internal bool NotifyDebuggerOfWaitCompletionIfNecessary()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001404")]
-	[Address(RVA = "0x505C130", Offset = "0x505C130", VA = "0x505C130")]
+	[Address(RVA = "0x3D41C50", Offset = "0x3D41C50", VA = "0x3D41C50")]
 	internal static bool AnyTaskRequiresNotifyDebuggerOfWaitCompletion(Task[] tasks)
 	{
 		return default(bool);
@@ -889,244 +896,244 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 
 	[MethodImpl((MethodImplOptions)72)]
 	[Token(Token = "0x6001408")]
-	[Address(RVA = "0x505C120", Offset = "0x505C120", VA = "0x505C120")]
+	[Address(RVA = "0x3D41C40", Offset = "0x3D41C40", VA = "0x3D41C40")]
 	private void NotifyDebuggerOfWaitCompletion()
 	{
 	}
 
 	[Token(Token = "0x6001409")]
-	[Address(RVA = "0x505C210", Offset = "0x505C210", VA = "0x505C210")]
+	[Address(RVA = "0x3D41D30", Offset = "0x3D41D30", VA = "0x3D41D30")]
 	internal bool MarkStarted()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600140A")]
-	[Address(RVA = "0x505AE60", Offset = "0x505AE60", VA = "0x505AE60")]
+	[Address(RVA = "0x3D40980", Offset = "0x3D40980", VA = "0x3D40980")]
 	internal void AddNewChild()
 	{
 	}
 
 	[Token(Token = "0x600140B")]
-	[Address(RVA = "0x505B6A0", Offset = "0x505B6A0", VA = "0x505B6A0")]
+	[Address(RVA = "0x3D411C0", Offset = "0x3D411C0", VA = "0x3D411C0")]
 	internal void DisregardChild()
 	{
 	}
 
 	[Token(Token = "0x600140C")]
-	[Address(RVA = "0x505C220", Offset = "0x505C220", VA = "0x505C220")]
+	[Address(RVA = "0x3D41D40", Offset = "0x3D41D40", VA = "0x3D41D40")]
 	internal static Task InternalStartNew(Task creatingTask, Delegate action, object state, CancellationToken cancellationToken, TaskScheduler scheduler, TaskCreationOptions options, System.Threading.Tasks.InternalTaskOptions internalOptions)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600140F")]
-	[Address(RVA = "0x505C700", Offset = "0x505C700", VA = "0x505C700")]
+	[Address(RVA = "0x3D42220", Offset = "0x3D42220", VA = "0x3D42220")]
 	internal static Task InternalCurrentIfAttached(TaskCreationOptions creationOptions)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001415")]
-	[Address(RVA = "0x505B3D0", Offset = "0x505B3D0", VA = "0x505B3D0")]
+	[Address(RVA = "0x3D40EF0", Offset = "0x3D40EF0", VA = "0x3D40EF0")]
 	internal ContingentProperties EnsureContingentPropertiesInitialized(bool needsProtection)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001416")]
-	[Address(RVA = "0x505CC00", Offset = "0x505CC00", VA = "0x505CC00")]
+	[Address(RVA = "0x3D42720", Offset = "0x3D42720", VA = "0x3D42720")]
 	private ContingentProperties EnsureContingentPropertiesInitializedCore(bool needsProtection)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600141A")]
-	[Address(RVA = "0x505CD00", Offset = "0x505CD00", VA = "0x505CD00")]
+	[Address(RVA = "0x3D42820", Offset = "0x3D42820", VA = "0x3D42820")]
 	private static bool IsCompletedMethod(int flags)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001428")]
-	[Address(RVA = "0x505D170", Offset = "0x505D170", VA = "0x505D170", Slot = "10")]
+	[Address(RVA = "0x3D42C90", Offset = "0x3D42C90", VA = "0x3D42C90", Slot = "10")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6001429")]
-	[Address(RVA = "0x505D1E0", Offset = "0x505D1E0", VA = "0x505D1E0", Slot = "12")]
+	[Address(RVA = "0x3D42D00", Offset = "0x3D42D00", VA = "0x3D42D00", Slot = "12")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x600142A")]
-	[Address(RVA = "0x505C320", Offset = "0x505C320", VA = "0x505C320")]
+	[Address(RVA = "0x3D41E40", Offset = "0x3D41E40", VA = "0x3D41E40")]
 	internal void ScheduleAndStart(bool needsProtection)
 	{
 	}
 
 	[Token(Token = "0x600142B")]
-	[Address(RVA = "0x505BD30", Offset = "0x505BD30", VA = "0x505BD30")]
+	[Address(RVA = "0x3D41850", Offset = "0x3D41850", VA = "0x3D41850")]
 	internal void AddException(object exceptionObject)
 	{
 	}
 
 	[Token(Token = "0x600142C")]
-	[Address(RVA = "0x505D3E0", Offset = "0x505D3E0", VA = "0x505D3E0")]
+	[Address(RVA = "0x3D42F00", Offset = "0x3D42F00", VA = "0x3D42F00")]
 	internal void AddException(object exceptionObject, bool representsCancellation)
 	{
 	}
 
 	[Token(Token = "0x600142D")]
-	[Address(RVA = "0x505C8E0", Offset = "0x505C8E0", VA = "0x505C8E0")]
+	[Address(RVA = "0x3D42400", Offset = "0x3D42400", VA = "0x3D42400")]
 	private AggregateException GetExceptions(bool includeTaskCanceledExceptions)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600142E")]
-	[Address(RVA = "0x505D940", Offset = "0x505D940", VA = "0x505D940")]
+	[Address(RVA = "0x3D43460", Offset = "0x3D43460", VA = "0x3D43460")]
 	internal ReadOnlyCollection<ExceptionDispatchInfo> GetExceptionDispatchInfos()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600142F")]
-	[Address(RVA = "0x505DBB0", Offset = "0x505DBB0", VA = "0x505DBB0")]
+	[Address(RVA = "0x3D436D0", Offset = "0x3D436D0", VA = "0x3D436D0")]
 	internal ExceptionDispatchInfo GetCancellationExceptionDispatchInfo()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001430")]
-	[Address(RVA = "0x505DBE0", Offset = "0x505DBE0", VA = "0x505DBE0")]
+	[Address(RVA = "0x3D43700", Offset = "0x3D43700", VA = "0x3D43700")]
 	internal void ThrowIfExceptional(bool includeTaskCanceledExceptions)
 	{
 	}
 
 	[Token(Token = "0x6001431")]
-	[Address(RVA = "0x505DC20", Offset = "0x505DC20", VA = "0x505DC20")]
+	[Address(RVA = "0x3D43740", Offset = "0x3D43740", VA = "0x3D43740")]
 	internal void UpdateExceptionObservedStatus()
 	{
 	}
 
 	[Token(Token = "0x6001434")]
-	[Address(RVA = "0x505BD40", Offset = "0x505BD40", VA = "0x505BD40")]
+	[Address(RVA = "0x3D41860", Offset = "0x3D41860", VA = "0x3D41860")]
 	internal void Finish(bool bUserDelegateExecuted)
 	{
 	}
 
 	[Token(Token = "0x6001435")]
-	[Address(RVA = "0x505DDD0", Offset = "0x505DDD0", VA = "0x505DDD0")]
+	[Address(RVA = "0x3D438F0", Offset = "0x3D438F0", VA = "0x3D438F0")]
 	internal void FinishStageTwo()
 	{
 	}
 
 	[Token(Token = "0x6001436")]
-	[Address(RVA = "0x505E750", Offset = "0x505E750", VA = "0x505E750")]
+	[Address(RVA = "0x3D44270", Offset = "0x3D44270", VA = "0x3D44270")]
 	internal void FinishStageThree()
 	{
 	}
 
 	[Token(Token = "0x6001437")]
-	[Address(RVA = "0x505E7F0", Offset = "0x505E7F0", VA = "0x505E7F0")]
+	[Address(RVA = "0x3D44310", Offset = "0x3D44310", VA = "0x3D44310")]
 	internal void ProcessChildCompletion(Task childTask)
 	{
 	}
 
 	[Token(Token = "0x6001438")]
-	[Address(RVA = "0x505E150", Offset = "0x505E150", VA = "0x505E150")]
+	[Address(RVA = "0x3D43C70", Offset = "0x3D43C70", VA = "0x3D43C70")]
 	internal void AddExceptionsFromChildren()
 	{
 	}
 
 	[Token(Token = "0x6001439")]
-	[Address(RVA = "0x505F260", Offset = "0x505F260", VA = "0x505F260")]
+	[Address(RVA = "0x3D44D80", Offset = "0x3D44D80", VA = "0x3D44D80")]
 	private void Execute()
 	{
 	}
 
 	[Token(Token = "0x600143A")]
-	[Address(RVA = "0x505F450", Offset = "0x505F450", VA = "0x505F450", Slot = "4")]
+	[Address(RVA = "0x3D44F70", Offset = "0x3D44F70", VA = "0x3D44F70", Slot = "4")]
 	private void System_002EThreading_002EIThreadPoolWorkItem_002EExecuteWorkItem()
 	{
 	}
 
 	[Token(Token = "0x600143B")]
-	[Address(RVA = "0x505F460", Offset = "0x505F460", VA = "0x505F460")]
+	[Address(RVA = "0x3D44F80", Offset = "0x3D44F80", VA = "0x3D44F80")]
 	internal bool ExecuteEntry(bool bPreventDoubleExecution)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600143C")]
-	[Address(RVA = "0x505F840", Offset = "0x505F840", VA = "0x505F840")]
+	[Address(RVA = "0x3D45360", Offset = "0x3D45360", VA = "0x3D45360")]
 	private static void ExecutionContextCallback(object obj)
 	{
 	}
 
 	[Token(Token = "0x600143D")]
-	[Address(RVA = "0x505F8A0", Offset = "0x505F8A0", VA = "0x505F8A0", Slot = "13")]
+	[Address(RVA = "0x3D453C0", Offset = "0x3D453C0", VA = "0x3D453C0", Slot = "13")]
 	internal virtual void InnerInvoke()
 	{
 	}
 
 	[Token(Token = "0x600143E")]
-	[Address(RVA = "0x505F300", Offset = "0x505F300", VA = "0x505F300")]
+	[Address(RVA = "0x3D44E20", Offset = "0x3D44E20", VA = "0x3D44E20")]
 	private void HandleException(Exception unhandledException)
 	{
 	}
 
 	[Token(Token = "0x600143F")]
-	[Address(RVA = "0x5058B60", Offset = "0x5058B60", VA = "0x5058B60")]
+	[Address(RVA = "0x3D3E680", Offset = "0x3D3E680", VA = "0x3D3E680")]
 	public TaskAwaiter GetAwaiter()
 	{
 		return default(TaskAwaiter);
 	}
 
 	[Token(Token = "0x6001440")]
-	[Address(RVA = "0x5058B90", Offset = "0x5058B90", VA = "0x5058B90")]
+	[Address(RVA = "0x3D3E6B0", Offset = "0x3D3E6B0", VA = "0x3D3E6B0")]
 	public ConfiguredTaskAwaitable ConfigureAwait(bool continueOnCapturedContext)
 	{
 		return default(ConfiguredTaskAwaitable);
 	}
 
 	[Token(Token = "0x6001441")]
-	[Address(RVA = "0x505F950", Offset = "0x505F950", VA = "0x505F950")]
+	[Address(RVA = "0x3D45470", Offset = "0x3D45470", VA = "0x3D45470")]
 	internal void SetContinuationForAwait(Action continuationAction, bool continueOnCapturedContext, bool flowExecutionContext)
 	{
 	}
 
 	[Token(Token = "0x6001442")]
-	[Address(RVA = "0x505FFB0", Offset = "0x505FFB0", VA = "0x505FFB0")]
+	[Address(RVA = "0x3D45AD0", Offset = "0x3D45AD0", VA = "0x3D45AD0")]
 	public static YieldAwaitable Yield()
 	{
 		return default(YieldAwaitable);
 	}
 
 	[Token(Token = "0x6001443")]
-	[Address(RVA = "0x505FFC0", Offset = "0x505FFC0", VA = "0x505FFC0")]
+	[Address(RVA = "0x3D45AE0", Offset = "0x3D45AE0", VA = "0x3D45AE0")]
 	public void Wait()
 	{
 	}
 
 	[Token(Token = "0x6001444")]
-	[Address(RVA = "0x5060160", Offset = "0x5060160", VA = "0x5060160")]
+	[Address(RVA = "0x3D45C80", Offset = "0x3D45C80", VA = "0x3D45C80")]
 	public bool Wait(int millisecondsTimeout)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001445")]
-	[Address(RVA = "0x505FFD0", Offset = "0x505FFD0", VA = "0x505FFD0")]
+	[Address(RVA = "0x3D45AF0", Offset = "0x3D45AF0", VA = "0x3D45AF0")]
 	public bool Wait(int millisecondsTimeout, CancellationToken cancellationToken)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001446")]
-	[Address(RVA = "0x5060560", Offset = "0x5060560", VA = "0x5060560")]
+	[Address(RVA = "0x3D46080", Offset = "0x3D46080", VA = "0x3D46080")]
 	private bool WrappedTryRunInline()
 	{
 		return default(bool);
@@ -1134,158 +1141,158 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 
 	[MethodImpl((MethodImplOptions)64)]
 	[Token(Token = "0x6001447")]
-	[Address(RVA = "0x5060170", Offset = "0x5060170", VA = "0x5060170")]
+	[Address(RVA = "0x3D45C90", Offset = "0x3D45C90", VA = "0x3D45C90")]
 	internal bool InternalWait(int millisecondsTimeout, CancellationToken cancellationToken)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001448")]
-	[Address(RVA = "0x5060900", Offset = "0x5060900", VA = "0x5060900")]
+	[Address(RVA = "0x3D46420", Offset = "0x3D46420", VA = "0x3D46420")]
 	private bool SpinThenBlockingWait(int millisecondsTimeout, CancellationToken cancellationToken)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001449")]
-	[Address(RVA = "0x5060B80", Offset = "0x5060B80", VA = "0x5060B80")]
+	[Address(RVA = "0x3D466A0", Offset = "0x3D466A0", VA = "0x3D466A0")]
 	private bool SpinWait(int millisecondsTimeout)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600144A")]
-	[Address(RVA = "0x505B450", Offset = "0x505B450", VA = "0x505B450")]
+	[Address(RVA = "0x3D40F70", Offset = "0x3D40F70", VA = "0x3D40F70")]
 	internal bool InternalCancel(bool bCancelNonExecutingOnly)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600144B")]
-	[Address(RVA = "0x5060E00", Offset = "0x5060E00", VA = "0x5060E00")]
+	[Address(RVA = "0x3D46920", Offset = "0x3D46920", VA = "0x3D46920")]
 	internal void RecordInternalCancellationRequest()
 	{
 	}
 
 	[Token(Token = "0x600144C")]
-	[Address(RVA = "0x5060EB0", Offset = "0x5060EB0", VA = "0x5060EB0")]
+	[Address(RVA = "0x3D469D0", Offset = "0x3D469D0", VA = "0x3D469D0")]
 	internal void RecordInternalCancellationRequest(CancellationToken tokenToRecord)
 	{
 	}
 
 	[Token(Token = "0x600144D")]
-	[Address(RVA = "0x505BBA0", Offset = "0x505BBA0", VA = "0x505BBA0")]
+	[Address(RVA = "0x3D416C0", Offset = "0x3D416C0", VA = "0x3D416C0")]
 	internal void RecordInternalCancellationRequest(CancellationToken tokenToRecord, object cancellationException)
 	{
 	}
 
 	[Token(Token = "0x600144E")]
-	[Address(RVA = "0x505BBE0", Offset = "0x505BBE0", VA = "0x505BBE0")]
+	[Address(RVA = "0x3D41700", Offset = "0x3D41700", VA = "0x3D41700")]
 	internal void CancellationCleanupLogic()
 	{
 	}
 
 	[Token(Token = "0x600144F")]
-	[Address(RVA = "0x505F920", Offset = "0x505F920", VA = "0x505F920")]
+	[Address(RVA = "0x3D45440", Offset = "0x3D45440", VA = "0x3D45440")]
 	private void SetCancellationAcknowledged()
 	{
 	}
 
 	[Token(Token = "0x6001450")]
-	[Address(RVA = "0x505E9D0", Offset = "0x505E9D0", VA = "0x505E9D0")]
+	[Address(RVA = "0x3D444F0", Offset = "0x3D444F0", VA = "0x3D444F0")]
 	internal void FinishContinuations()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001451")]
-	[Address(RVA = "0x5061150", Offset = "0x5061150", VA = "0x5061150")]
+	[Address(RVA = "0x3D46C70", Offset = "0x3D46C70", VA = "0x3D46C70")]
 	private void LogFinishCompletionNotification()
 	{
 	}
 
 	[Token(Token = "0x6001452")]
-	[Address(RVA = "0x5061190", Offset = "0x5061190", VA = "0x5061190")]
+	[Address(RVA = "0x3D46CB0", Offset = "0x3D46CB0", VA = "0x3D46CB0")]
 	public Task ContinueWith(Action<Task> continuationAction)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001453")]
-	[Address(RVA = "0x5061430", Offset = "0x5061430", VA = "0x5061430")]
+	[Address(RVA = "0x3D46F50", Offset = "0x3D46F50", VA = "0x3D46F50")]
 	public Task ContinueWith(Action<Task> continuationAction, CancellationToken cancellationToken, TaskContinuationOptions continuationOptions, TaskScheduler scheduler)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001454")]
-	[Address(RVA = "0x50612C0", Offset = "0x50612C0", VA = "0x50612C0")]
+	[Address(RVA = "0x3D46DE0", Offset = "0x3D46DE0", VA = "0x3D46DE0")]
 	private Task ContinueWith(Action<Task> continuationAction, TaskScheduler scheduler, CancellationToken cancellationToken, TaskContinuationOptions continuationOptions)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001455")]
-	[Address(RVA = "0x5061890", Offset = "0x5061890", VA = "0x5061890")]
+	[Address(RVA = "0x3D473B0", Offset = "0x3D473B0", VA = "0x3D473B0")]
 	public Task ContinueWith(Action<Task, object> continuationAction, object state, TaskScheduler scheduler)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001456")]
-	[Address(RVA = "0x5061A20", Offset = "0x5061A20", VA = "0x5061A20")]
+	[Address(RVA = "0x3D47540", Offset = "0x3D47540", VA = "0x3D47540")]
 	public Task ContinueWith(Action<Task, object> continuationAction, object state, CancellationToken cancellationToken, TaskContinuationOptions continuationOptions, TaskScheduler scheduler)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001457")]
-	[Address(RVA = "0x50618A0", Offset = "0x50618A0", VA = "0x50618A0")]
+	[Address(RVA = "0x3D473C0", Offset = "0x3D473C0", VA = "0x3D473C0")]
 	private Task ContinueWith(Action<Task, object> continuationAction, object state, TaskScheduler scheduler, CancellationToken cancellationToken, TaskContinuationOptions continuationOptions)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001458")]
-	[Address(RVA = "0x5061440", Offset = "0x5061440", VA = "0x5061440")]
+	[Address(RVA = "0x3D46F60", Offset = "0x3D46F60", VA = "0x3D46F60")]
 	internal static void CreationOptionsFromContinuationOptions(TaskContinuationOptions continuationOptions, out TaskCreationOptions creationOptions, out System.Threading.Tasks.InternalTaskOptions internalOptions)
 	{
 	}
 
 	[Token(Token = "0x6001459")]
-	[Address(RVA = "0x5061690", Offset = "0x5061690", VA = "0x5061690")]
+	[Address(RVA = "0x3D471B0", Offset = "0x3D471B0", VA = "0x3D471B0")]
 	internal void ContinueWithCore(Task continuationTask, TaskScheduler scheduler, CancellationToken cancellationToken, TaskContinuationOptions options)
 	{
 	}
 
 	[Token(Token = "0x600145A")]
-	[Address(RVA = "0x5061BA0", Offset = "0x5061BA0", VA = "0x5061BA0")]
+	[Address(RVA = "0x3D476C0", Offset = "0x3D476C0", VA = "0x3D476C0")]
 	internal void AddCompletionAction(System.Threading.Tasks.ITaskCompletionAction action)
 	{
 	}
 
 	[Token(Token = "0x600145B")]
-	[Address(RVA = "0x5060D40", Offset = "0x5060D40", VA = "0x5060D40")]
+	[Address(RVA = "0x3D46860", Offset = "0x3D46860", VA = "0x3D46860")]
 	private void AddCompletionAction(System.Threading.Tasks.ITaskCompletionAction action, bool addBeforeOthers)
 	{
 	}
 
 	[Token(Token = "0x600145C")]
-	[Address(RVA = "0x5061BB0", Offset = "0x5061BB0", VA = "0x5061BB0")]
+	[Address(RVA = "0x3D476D0", Offset = "0x3D476D0", VA = "0x3D476D0")]
 	private bool AddTaskContinuationComplex(object tc, bool addBeforeOthers)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600145D")]
-	[Address(RVA = "0x505FE00", Offset = "0x505FE00", VA = "0x505FE00")]
+	[Address(RVA = "0x3D45920", Offset = "0x3D45920", VA = "0x3D45920")]
 	private bool AddTaskContinuation(object tc, bool addBeforeOthers)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600145E")]
-	[Address(RVA = "0x505B840", Offset = "0x505B840", VA = "0x505B840")]
+	[Address(RVA = "0x3D41360", Offset = "0x3D41360", VA = "0x3D41360")]
 	internal void RemoveContinuation(object continuationObject)
 	{
 	}
@@ -1297,7 +1304,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	}
 
 	[Token(Token = "0x6001460")]
-	[Address(RVA = "0x5059520", Offset = "0x5059520", VA = "0x5059520")]
+	[Address(RVA = "0x3D3F040", Offset = "0x3D3F040", VA = "0x3D3F040")]
 	public static Task FromException(Exception exception)
 	{
 		return null;
@@ -1310,14 +1317,14 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	}
 
 	[Token(Token = "0x6001462")]
-	[Address(RVA = "0x5061F80", Offset = "0x5061F80", VA = "0x5061F80")]
+	[Address(RVA = "0x3D47AA0", Offset = "0x3D47AA0", VA = "0x3D47AA0")]
 	internal static Task FromCancellation(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001463")]
-	[Address(RVA = "0x5059B80", Offset = "0x5059B80", VA = "0x5059B80")]
+	[Address(RVA = "0x3D3F6A0", Offset = "0x3D3F6A0", VA = "0x3D3F6A0")]
 	public static Task FromCanceled(CancellationToken cancellationToken)
 	{
 		return null;
@@ -1342,7 +1349,7 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	}
 
 	[Token(Token = "0x6001467")]
-	[Address(RVA = "0x5062050", Offset = "0x5062050", VA = "0x5062050")]
+	[Address(RVA = "0x3D47B70", Offset = "0x3D47B70", VA = "0x3D47B70")]
 	public static Task Run(Action action)
 	{
 		return null;
@@ -1355,14 +1362,14 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	}
 
 	[Token(Token = "0x6001469")]
-	[Address(RVA = "0x5062160", Offset = "0x5062160", VA = "0x5062160")]
+	[Address(RVA = "0x3D47C80", Offset = "0x3D47C80", VA = "0x3D47C80")]
 	public static Task Run(Func<Task> function)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600146A")]
-	[Address(RVA = "0x50621C0", Offset = "0x50621C0", VA = "0x50621C0")]
+	[Address(RVA = "0x3D47CE0", Offset = "0x3D47CE0", VA = "0x3D47CE0")]
 	public static Task Run(Func<Task> function, CancellationToken cancellationToken)
 	{
 		return null;
@@ -1381,56 +1388,56 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	}
 
 	[Token(Token = "0x600146D")]
-	[Address(RVA = "0x5062440", Offset = "0x5062440", VA = "0x5062440")]
+	[Address(RVA = "0x3D47F60", Offset = "0x3D47F60", VA = "0x3D47F60")]
 	public static Task Delay(int millisecondsDelay)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600146E")]
-	[Address(RVA = "0x50624A0", Offset = "0x50624A0", VA = "0x50624A0")]
+	[Address(RVA = "0x3D47FC0", Offset = "0x3D47FC0", VA = "0x3D47FC0")]
 	public static Task Delay(int millisecondsDelay, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600146F")]
-	[Address(RVA = "0x5062A40", Offset = "0x5062A40", VA = "0x5062A40")]
+	[Address(RVA = "0x3D48560", Offset = "0x3D48560", VA = "0x3D48560")]
 	public static Task WhenAll(IEnumerable<Task> tasks)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001470")]
-	[Address(RVA = "0x50633F0", Offset = "0x50633F0", VA = "0x50633F0")]
+	[Address(RVA = "0x3D48F10", Offset = "0x3D48F10", VA = "0x3D48F10")]
 	public static Task WhenAll(params Task[] tasks)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001471")]
-	[Address(RVA = "0x50635D0", Offset = "0x50635D0", VA = "0x50635D0")]
+	[Address(RVA = "0x3D490F0", Offset = "0x3D490F0", VA = "0x3D490F0")]
 	private static Task InternalWhenAll(Task[] tasks)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001472")]
-	[Address(RVA = "0x50638D0", Offset = "0x50638D0", VA = "0x50638D0")]
+	[Address(RVA = "0x3D493F0", Offset = "0x3D493F0", VA = "0x3D493F0")]
 	public static Task<Task> WhenAny(params Task[] tasks)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001473")]
-	[Address(RVA = "0x5063DE0", Offset = "0x5063DE0", VA = "0x5063DE0")]
+	[Address(RVA = "0x3D49900", Offset = "0x3D49900", VA = "0x3D49900")]
 	public static Task<Task> WhenAny(IEnumerable<Task> tasks)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001474")]
-	[Address(RVA = "0x50642D0", Offset = "0x50642D0", VA = "0x50642D0")]
+	[Address(RVA = "0x3D49DF0", Offset = "0x3D49DF0", VA = "0x3D49DF0")]
 	[System.Runtime.CompilerServices.FriendAccessAllowed]
 	internal static bool AddToActiveTasks(Task task)
 	{
@@ -1438,20 +1445,20 @@ public class Task : System.Threading.IThreadPoolWorkItem, IAsyncResult, IDisposa
 	}
 
 	[Token(Token = "0x6001475")]
-	[Address(RVA = "0x5064440", Offset = "0x5064440", VA = "0x5064440")]
+	[Address(RVA = "0x3D49F60", Offset = "0x3D49F60", VA = "0x3D49F60")]
 	[System.Runtime.CompilerServices.FriendAccessAllowed]
 	internal static void RemoveFromActiveTasks(int taskId)
 	{
 	}
 
 	[Token(Token = "0x6001476")]
-	[Address(RVA = "0x5064580", Offset = "0x5064580", VA = "0x5064580", Slot = "5")]
+	[Address(RVA = "0x3D4A0A0", Offset = "0x3D4A0A0", VA = "0x3D4A0A0", Slot = "5")]
 	public void MarkAborted(ThreadAbortException e)
 	{
 	}
 
 	[Token(Token = "0x6001477")]
-	[Address(RVA = "0x505F5E0", Offset = "0x505F5E0", VA = "0x505F5E0")]
+	[Address(RVA = "0x3D45100", Offset = "0x3D45100", VA = "0x3D45100")]
 	private void ExecuteWithThreadLocal(ref Task currentTaskSlot)
 	{
 	}

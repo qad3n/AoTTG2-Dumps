@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Gisketch.Aottg2UI.Building.GisketchScrollbarVisibility
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Building/GisketchScrollbarVisibility.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Gilzoide.FlexUi;
 using Gilzoide.FlexUi.Yoga;
 using Il2CppDummyDll;
@@ -6,96 +13,96 @@ using UnityEngine.UI;
 
 namespace Gisketch.Aottg2UI.Building;
 
-[Token(Token = "0x2000093")]
+[Token(Token = "0x2000096")]
 [ExecuteAlways]
 internal sealed class GisketchScrollbarVisibility : MonoBehaviour
 {
-	[Token(Token = "0x40002E8")]
+	[Token(Token = "0x4000304")]
 	private const float InitialOverflowEpsilon = 0.5f;
 
-	[Token(Token = "0x40002E9")]
+	[Token(Token = "0x4000305")]
 	private const float ToggleOverflowEpsilon = 2f;
 
-	[Token(Token = "0x40002EA")]
+	[Token(Token = "0x4000306")]
 	private const int StablePasses = 2;
 
-	[Token(Token = "0x40002EB")]
+	[Token(Token = "0x4000307")]
 	[FieldOffset(Offset = "0x20")]
 	private ScrollRect _scroll;
 
-	[Token(Token = "0x40002EC")]
+	[Token(Token = "0x4000308")]
 	[FieldOffset(Offset = "0x28")]
 	private FlexLayout _flex;
 
-	[Token(Token = "0x40002ED")]
+	[Token(Token = "0x4000309")]
 	[FieldOffset(Offset = "0x30")]
 	private bool? _autoHeight;
 
-	[Token(Token = "0x40002EE")]
+	[Token(Token = "0x400030A")]
 	[FieldOffset(Offset = "0x32")]
 	private bool _hasVisibleState;
 
-	[Token(Token = "0x40002EF")]
+	[Token(Token = "0x400030B")]
 	[FieldOffset(Offset = "0x33")]
 	private bool _visible;
 
-	[Token(Token = "0x40002F0")]
+	[Token(Token = "0x400030C")]
 	[FieldOffset(Offset = "0x34")]
 	private bool? _pendingVisible;
 
-	[Token(Token = "0x40002F1")]
+	[Token(Token = "0x400030D")]
 	[FieldOffset(Offset = "0x38")]
 	private int _pendingPasses;
 
-	[Token(Token = "0x600043D")]
-	[Address(RVA = "0x3A1AE40", Offset = "0x3A1AE40", VA = "0x3A1AE40")]
+	[Token(Token = "0x600045E")]
+	[Address(RVA = "0x3A87080", Offset = "0x3A87080", VA = "0x3A87080")]
 	public void Setup(ScrollRect scroll)
 	{
 	}
 
-	[Token(Token = "0x600043E")]
-	[Address(RVA = "0x3A1B110", Offset = "0x3A1B110", VA = "0x3A1B110")]
+	[Token(Token = "0x600045F")]
+	[Address(RVA = "0x3A87350", Offset = "0x3A87350", VA = "0x3A87350")]
 	private void LateUpdate()
 	{
 	}
 
-	[Token(Token = "0x600043F")]
-	[Address(RVA = "0x3A1AE60", Offset = "0x3A1AE60", VA = "0x3A1AE60")]
+	[Token(Token = "0x6000460")]
+	[Address(RVA = "0x3A870A0", Offset = "0x3A870A0", VA = "0x3A870A0")]
 	public bool UpdateVisibility()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000440")]
-	[Address(RVA = "0x3A1B120", Offset = "0x3A1B120", VA = "0x3A1B120")]
+	[Token(Token = "0x6000461")]
+	[Address(RVA = "0x3A87360", Offset = "0x3A87360", VA = "0x3A87360")]
 	private bool FitAutoHeightToContent()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000441")]
-	[Address(RVA = "0x3A1B3C0", Offset = "0x3A1B3C0", VA = "0x3A1B3C0")]
+	[Token(Token = "0x6000462")]
+	[Address(RVA = "0x3A87600", Offset = "0x3A87600", VA = "0x3A87600")]
 	private bool UpdateStableVisibility(GameObject scrollbar, bool desired)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000442")]
-	[Address(RVA = "0x3A1B380", Offset = "0x3A1B380", VA = "0x3A1B380")]
+	[Token(Token = "0x6000463")]
+	[Address(RVA = "0x3A875C0", Offset = "0x3A875C0", VA = "0x3A875C0")]
 	private static bool ApplyVisibility(GameObject scrollbar, bool visible)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000443")]
-	[Address(RVA = "0x3A1B510", Offset = "0x3A1B510", VA = "0x3A1B510")]
+	[Token(Token = "0x6000464")]
+	[Address(RVA = "0x3A87750", Offset = "0x3A87750", VA = "0x3A87750")]
 	private static float Point(YGValue value)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6000444")]
-	[Address(RVA = "0x3A1B530", Offset = "0x3A1B530", VA = "0x3A1B530")]
+	[Token(Token = "0x6000465")]
+	[Address(RVA = "0x3A87770", Offset = "0x3A87770", VA = "0x3A87770")]
 	public GisketchScrollbarVisibility()
 	{
 	}

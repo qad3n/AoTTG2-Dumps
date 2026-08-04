@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.EnumeratorAsyncExtensions
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -46,7 +53,7 @@ public static class EnumeratorAsyncExtensions
 			private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 			{
 				[Token(Token = "0x60000F4")]
-				[Address(RVA = "0x46B03C0", Offset = "0x46B03C0", VA = "0x46B03C0", Slot = "4")]
+				[Address(RVA = "0x49D54C0", Offset = "0x49D54C0", VA = "0x49D54C0", Slot = "4")]
 				[DebuggerHidden]
 				get
 				{
@@ -58,7 +65,7 @@ public static class EnumeratorAsyncExtensions
 			private object System_002ECollections_002EIEnumerator_002ECurrent
 			{
 				[Token(Token = "0x60000F6")]
-				[Address(RVA = "0x46B0410", Offset = "0x46B0410", VA = "0x46B0410", Slot = "7")]
+				[Address(RVA = "0x49D5510", Offset = "0x49D5510", VA = "0x49D5510", Slot = "7")]
 				[DebuggerHidden]
 				get
 				{
@@ -67,28 +74,28 @@ public static class EnumeratorAsyncExtensions
 			}
 
 			[Token(Token = "0x60000F1")]
-			[Address(RVA = "0x46AFAD0", Offset = "0x46AFAD0", VA = "0x46AFAD0")]
+			[Address(RVA = "0x49D4BD0", Offset = "0x49D4BD0", VA = "0x49D4BD0")]
 			[DebuggerHidden]
 			public _003CConsumeEnumerator_003Ed__19(int _003C_003E1__state)
 			{
 			}
 
 			[Token(Token = "0x60000F2")]
-			[Address(RVA = "0x46AFD00", Offset = "0x46AFD00", VA = "0x46AFD00", Slot = "5")]
+			[Address(RVA = "0x49D4E00", Offset = "0x49D4E00", VA = "0x49D4E00", Slot = "5")]
 			[DebuggerHidden]
 			private void System_002EIDisposable_002EDispose()
 			{
 			}
 
 			[Token(Token = "0x60000F3")]
-			[Address(RVA = "0x46AFD10", Offset = "0x46AFD10", VA = "0x46AFD10", Slot = "6")]
+			[Address(RVA = "0x49D4E10", Offset = "0x49D4E10", VA = "0x49D4E10", Slot = "6")]
 			private bool MoveNext()
 			{
 				return default(bool);
 			}
 
 			[Token(Token = "0x60000F5")]
-			[Address(RVA = "0x46B03D0", Offset = "0x46B03D0", VA = "0x46B03D0", Slot = "8")]
+			[Address(RVA = "0x49D54D0", Offset = "0x49D54D0", VA = "0x49D54D0", Slot = "8")]
 			[DebuggerHidden]
 			private void System_002ECollections_002EIEnumerator_002EReset()
 			{
@@ -115,7 +122,7 @@ public static class EnumeratorAsyncExtensions
 			private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 			{
 				[Token(Token = "0x60000FA")]
-				[Address(RVA = "0x46B0490", Offset = "0x46B0490", VA = "0x46B0490", Slot = "4")]
+				[Address(RVA = "0x49D5590", Offset = "0x49D5590", VA = "0x49D5590", Slot = "4")]
 				[DebuggerHidden]
 				get
 				{
@@ -127,7 +134,7 @@ public static class EnumeratorAsyncExtensions
 			private object System_002ECollections_002EIEnumerator_002ECurrent
 			{
 				[Token(Token = "0x60000FC")]
-				[Address(RVA = "0x46B04E0", Offset = "0x46B04E0", VA = "0x46B04E0", Slot = "7")]
+				[Address(RVA = "0x49D55E0", Offset = "0x49D55E0", VA = "0x49D55E0", Slot = "7")]
 				[DebuggerHidden]
 				get
 				{
@@ -136,28 +143,28 @@ public static class EnumeratorAsyncExtensions
 			}
 
 			[Token(Token = "0x60000F7")]
-			[Address(RVA = "0x46AFBF0", Offset = "0x46AFBF0", VA = "0x46AFBF0")]
+			[Address(RVA = "0x49D4CF0", Offset = "0x49D4CF0", VA = "0x49D4CF0")]
 			[DebuggerHidden]
 			public _003CUnwrapWaitAsyncOperation_003Ed__22(int _003C_003E1__state)
 			{
 			}
 
 			[Token(Token = "0x60000F8")]
-			[Address(RVA = "0x46B0420", Offset = "0x46B0420", VA = "0x46B0420", Slot = "5")]
+			[Address(RVA = "0x49D5520", Offset = "0x49D5520", VA = "0x49D5520", Slot = "5")]
 			[DebuggerHidden]
 			private void System_002EIDisposable_002EDispose()
 			{
 			}
 
 			[Token(Token = "0x60000F9")]
-			[Address(RVA = "0x46B0430", Offset = "0x46B0430", VA = "0x46B0430", Slot = "6")]
+			[Address(RVA = "0x49D5530", Offset = "0x49D5530", VA = "0x49D5530", Slot = "6")]
 			private bool MoveNext()
 			{
 				return default(bool);
 			}
 
 			[Token(Token = "0x60000FB")]
-			[Address(RVA = "0x46B04A0", Offset = "0x46B04A0", VA = "0x46B04A0", Slot = "8")]
+			[Address(RVA = "0x49D55A0", Offset = "0x49D55A0", VA = "0x49D55A0", Slot = "8")]
 			[DebuggerHidden]
 			private void System_002ECollections_002EIEnumerator_002EReset()
 			{
@@ -192,7 +199,7 @@ public static class EnumeratorAsyncExtensions
 			private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 			{
 				[Token(Token = "0x6000100")]
-				[Address(RVA = "0x46B0620", Offset = "0x46B0620", VA = "0x46B0620", Slot = "4")]
+				[Address(RVA = "0x49D5720", Offset = "0x49D5720", VA = "0x49D5720", Slot = "4")]
 				[DebuggerHidden]
 				get
 				{
@@ -204,7 +211,7 @@ public static class EnumeratorAsyncExtensions
 			private object System_002ECollections_002EIEnumerator_002ECurrent
 			{
 				[Token(Token = "0x6000102")]
-				[Address(RVA = "0x46B0670", Offset = "0x46B0670", VA = "0x46B0670", Slot = "7")]
+				[Address(RVA = "0x49D5770", Offset = "0x49D5770", VA = "0x49D5770", Slot = "7")]
 				[DebuggerHidden]
 				get
 				{
@@ -213,28 +220,28 @@ public static class EnumeratorAsyncExtensions
 			}
 
 			[Token(Token = "0x60000FD")]
-			[Address(RVA = "0x46AFB60", Offset = "0x46AFB60", VA = "0x46AFB60")]
+			[Address(RVA = "0x49D4C60", Offset = "0x49D4C60", VA = "0x49D4C60")]
 			[DebuggerHidden]
 			public _003CUnwrapWaitForSeconds_003Ed__21(int _003C_003E1__state)
 			{
 			}
 
 			[Token(Token = "0x60000FE")]
-			[Address(RVA = "0x46B04F0", Offset = "0x46B04F0", VA = "0x46B04F0", Slot = "5")]
+			[Address(RVA = "0x49D55F0", Offset = "0x49D55F0", VA = "0x49D55F0", Slot = "5")]
 			[DebuggerHidden]
 			private void System_002EIDisposable_002EDispose()
 			{
 			}
 
 			[Token(Token = "0x60000FF")]
-			[Address(RVA = "0x46B0500", Offset = "0x46B0500", VA = "0x46B0500", Slot = "6")]
+			[Address(RVA = "0x49D5600", Offset = "0x49D5600", VA = "0x49D5600", Slot = "6")]
 			private bool MoveNext()
 			{
 				return default(bool);
 			}
 
 			[Token(Token = "0x6000101")]
-			[Address(RVA = "0x46B0630", Offset = "0x46B0630", VA = "0x46B0630", Slot = "8")]
+			[Address(RVA = "0x49D5730", Offset = "0x49D5730", VA = "0x49D5730", Slot = "8")]
 			[DebuggerHidden]
 			private void System_002ECollections_002EIEnumerator_002EReset()
 			{
@@ -281,7 +288,7 @@ public static class EnumeratorAsyncExtensions
 		public unsafe ref EnumeratorPromise NextNode
 		{
 			[Token(Token = "0x60000E1")]
-			[Address(RVA = "0x46AEFB0", Offset = "0x46AEFB0", VA = "0x46AEFB0", Slot = "15")]
+			[Address(RVA = "0x49D40B0", Offset = "0x49D40B0", VA = "0x49D40B0", Slot = "15")]
 			get
 			{
 				return ref *(EnumeratorPromise*)null;
@@ -289,66 +296,66 @@ public static class EnumeratorAsyncExtensions
 		}
 
 		[Token(Token = "0x60000E2")]
-		[Address(RVA = "0x46AEFC0", Offset = "0x46AEFC0", VA = "0x46AEFC0")]
+		[Address(RVA = "0x49D40C0", Offset = "0x49D40C0", VA = "0x49D40C0")]
 		static EnumeratorPromise()
 		{
 		}
 
 		[Token(Token = "0x60000E3")]
-		[Address(RVA = "0x46AF280", Offset = "0x46AF280", VA = "0x46AF280")]
+		[Address(RVA = "0x49D4380", Offset = "0x49D4380", VA = "0x49D4380")]
 		private EnumeratorPromise()
 		{
 		}
 
 		[Token(Token = "0x60000E4")]
-		[Address(RVA = "0x46AE9C0", Offset = "0x46AE9C0", VA = "0x46AE9C0")]
+		[Address(RVA = "0x49D3AC0", Offset = "0x49D3AC0", VA = "0x49D3AC0")]
 		public static IUniTaskSource Create(IEnumerator innerEnumerator, PlayerLoopTiming timing, CancellationToken cancellationToken, out short token)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60000E5")]
-		[Address(RVA = "0x46AF790", Offset = "0x46AF790", VA = "0x46AF790", Slot = "13")]
+		[Address(RVA = "0x49D4890", Offset = "0x49D4890", VA = "0x49D4890", Slot = "13")]
 		public void GetResult(short token)
 		{
 		}
 
 		[Token(Token = "0x60000E6")]
-		[Address(RVA = "0x46AF850", Offset = "0x46AF850", VA = "0x46AF850", Slot = "4")]
+		[Address(RVA = "0x49D4950", Offset = "0x49D4950", VA = "0x49D4950", Slot = "4")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x60000E7")]
-		[Address(RVA = "0x46AF8A0", Offset = "0x46AF8A0", VA = "0x46AF8A0", Slot = "7")]
+		[Address(RVA = "0x49D49A0", Offset = "0x49D49A0", VA = "0x49D49A0", Slot = "7")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x60000E8")]
-		[Address(RVA = "0x46AF950", Offset = "0x46AF950", VA = "0x46AF950", Slot = "5")]
+		[Address(RVA = "0x49D4A50", Offset = "0x49D4A50", VA = "0x49D4A50", Slot = "5")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
 
 		[Token(Token = "0x60000E9")]
-		[Address(RVA = "0x46AF3F0", Offset = "0x46AF3F0", VA = "0x46AF3F0", Slot = "14")]
+		[Address(RVA = "0x49D44F0", Offset = "0x49D44F0", VA = "0x49D44F0", Slot = "14")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60000EA")]
-		[Address(RVA = "0x46AF9B0", Offset = "0x46AF9B0", VA = "0x46AF9B0")]
+		[Address(RVA = "0x49D4AB0", Offset = "0x49D4AB0", VA = "0x49D4AB0")]
 		private bool TryReturn()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60000EB")]
-		[Address(RVA = "0x46AF380", Offset = "0x46AF380", VA = "0x46AF380")]
+		[Address(RVA = "0x49D4480", Offset = "0x49D4480", VA = "0x49D4480")]
 		[IteratorStateMachine(typeof(_003CConsumeEnumerator_003Ed__19))]
 		private static IEnumerator ConsumeEnumerator(IEnumerator enumerator)
 		{
@@ -356,7 +363,7 @@ public static class EnumeratorAsyncExtensions
 		}
 
 		[Token(Token = "0x60000EC")]
-		[Address(RVA = "0x46AFAF0", Offset = "0x46AFAF0", VA = "0x46AFAF0")]
+		[Address(RVA = "0x49D4BF0", Offset = "0x49D4BF0", VA = "0x49D4BF0")]
 		[IteratorStateMachine(typeof(_003CUnwrapWaitForSeconds_003Ed__21))]
 		private static IEnumerator UnwrapWaitForSeconds(WaitForSeconds waitForSeconds)
 		{
@@ -364,7 +371,7 @@ public static class EnumeratorAsyncExtensions
 		}
 
 		[Token(Token = "0x60000ED")]
-		[Address(RVA = "0x46AFB80", Offset = "0x46AFB80", VA = "0x46AFB80")]
+		[Address(RVA = "0x49D4C80", Offset = "0x49D4C80", VA = "0x49D4C80")]
 		[IteratorStateMachine(typeof(_003CUnwrapWaitAsyncOperation_003Ed__22))]
 		private static IEnumerator UnwrapWaitAsyncOperation(AsyncOperation asyncOperation)
 		{
@@ -400,7 +407,7 @@ public static class EnumeratorAsyncExtensions
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x6000106")]
-			[Address(RVA = "0x46B0830", Offset = "0x46B0830", VA = "0x46B0830", Slot = "4")]
+			[Address(RVA = "0x49D5930", Offset = "0x49D5930", VA = "0x49D5930", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -412,7 +419,7 @@ public static class EnumeratorAsyncExtensions
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000108")]
-			[Address(RVA = "0x46B0880", Offset = "0x46B0880", VA = "0x46B0880", Slot = "7")]
+			[Address(RVA = "0x49D5980", Offset = "0x49D5980", VA = "0x49D5980", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -421,28 +428,28 @@ public static class EnumeratorAsyncExtensions
 		}
 
 		[Token(Token = "0x6000103")]
-		[Address(RVA = "0x46AEF90", Offset = "0x46AEF90", VA = "0x46AEF90")]
+		[Address(RVA = "0x49D4090", Offset = "0x49D4090", VA = "0x49D4090")]
 		[DebuggerHidden]
 		public _003CCore_003Ed__4(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000104")]
-		[Address(RVA = "0x46B0680", Offset = "0x46B0680", VA = "0x46B0680", Slot = "5")]
+		[Address(RVA = "0x49D5780", Offset = "0x49D5780", VA = "0x49D5780", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000105")]
-		[Address(RVA = "0x46B0690", Offset = "0x46B0690", VA = "0x46B0690", Slot = "6")]
+		[Address(RVA = "0x49D5790", Offset = "0x49D5790", VA = "0x49D5790", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000107")]
-		[Address(RVA = "0x46B0840", Offset = "0x46B0840", VA = "0x46B0840", Slot = "8")]
+		[Address(RVA = "0x49D5940", Offset = "0x49D5940", VA = "0x49D5940", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -456,28 +463,28 @@ public static class EnumeratorAsyncExtensions
 	}
 
 	[Token(Token = "0x60000DD")]
-	[Address(RVA = "0x46AE8C0", Offset = "0x46AE8C0", VA = "0x46AE8C0")]
+	[Address(RVA = "0x49D39C0", Offset = "0x49D39C0", VA = "0x49D39C0")]
 	public static UniTask WithCancellation(this IEnumerator enumerator, CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60000DE")]
-	[Address(RVA = "0x46AEC00", Offset = "0x46AEC00", VA = "0x46AEC00")]
+	[Address(RVA = "0x49D3D00", Offset = "0x49D3D00", VA = "0x49D3D00")]
 	public static UniTask ToUniTask(this IEnumerator enumerator, [Optional][DefaultParameterValue(8)] PlayerLoopTiming timing, [Optional] CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60000DF")]
-	[Address(RVA = "0x46AED00", Offset = "0x46AED00", VA = "0x46AED00")]
+	[Address(RVA = "0x49D3E00", Offset = "0x49D3E00", VA = "0x49D3E00")]
 	public static UniTask ToUniTask(this IEnumerator enumerator, MonoBehaviour coroutineRunner)
 	{
 		return default(UniTask);
 	}
 
 	[Token(Token = "0x60000E0")]
-	[Address(RVA = "0x46AEE90", Offset = "0x46AEE90", VA = "0x46AEE90")]
+	[Address(RVA = "0x49D3F90", Offset = "0x49D3F90", VA = "0x49D3F90")]
 	[IteratorStateMachine(typeof(_003CCore_003Ed__4))]
 	private static IEnumerator Core(IEnumerator inner, MonoBehaviour coroutineRunner, AutoResetUniTaskCompletionSource source)
 	{

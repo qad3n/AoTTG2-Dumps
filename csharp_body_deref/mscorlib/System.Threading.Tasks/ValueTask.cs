@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Threading.Tasks.ValueTask
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -27,7 +34,7 @@ public readonly struct ValueTask : IEquatable<ValueTask>
 		private readonly short _token;
 
 		[Token(Token = "0x600139B")]
-		[Address(RVA = "0x5059580", Offset = "0x5059580", VA = "0x5059580")]
+		[Address(RVA = "0x3D3F0A0", Offset = "0x3D3F0A0", VA = "0x3D3F0A0")]
 		public ValueTaskSourceAsTask(IValueTaskSource source, short token)
 		{
 		}
@@ -53,7 +60,7 @@ public readonly struct ValueTask : IEquatable<ValueTask>
 	internal static Task CompletedTask
 	{
 		[Token(Token = "0x600138C")]
-		[Address(RVA = "0x5058D20", Offset = "0x5058D20", VA = "0x5058D20")]
+		[Address(RVA = "0x3D3E840", Offset = "0x3D3E840", VA = "0x3D3E840")]
 		get
 		{
 			return null;
@@ -65,7 +72,7 @@ public readonly struct ValueTask : IEquatable<ValueTask>
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6001395")]
-		[Address(RVA = "0x50596B0", Offset = "0x50596B0", VA = "0x50596B0")]
+		[Address(RVA = "0x3D3F1D0", Offset = "0x3D3F1D0", VA = "0x3D3F1D0")]
 		get
 		{
 			return default(bool);
@@ -77,7 +84,7 @@ public readonly struct ValueTask : IEquatable<ValueTask>
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6001396")]
-		[Address(RVA = "0x50597D0", Offset = "0x50597D0", VA = "0x50597D0")]
+		[Address(RVA = "0x3D3F2F0", Offset = "0x3D3F2F0", VA = "0x3D3F2F0")]
 		get
 		{
 			return default(bool);
@@ -86,55 +93,55 @@ public readonly struct ValueTask : IEquatable<ValueTask>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600138D")]
-	[Address(RVA = "0x5058DD0", Offset = "0x5058DD0", VA = "0x5058DD0")]
+	[Address(RVA = "0x3D3E8F0", Offset = "0x3D3E8F0", VA = "0x3D3E8F0")]
 	public ValueTask(Task task)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600138E")]
-	[Address(RVA = "0x5058E10", Offset = "0x5058E10", VA = "0x5058E10")]
+	[Address(RVA = "0x3D3E930", Offset = "0x3D3E930", VA = "0x3D3E930")]
 	public ValueTask(IValueTaskSource source, short token)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x600138F")]
-	[Address(RVA = "0x5058E50", Offset = "0x5058E50", VA = "0x5058E50")]
+	[Address(RVA = "0x3D3E970", Offset = "0x3D3E970", VA = "0x3D3E970")]
 	private ValueTask(object obj, short token, bool continueOnCapturedContext)
 	{
 	}
 
 	[Token(Token = "0x6001390")]
-	[Address(RVA = "0x5058E80", Offset = "0x5058E80", VA = "0x5058E80", Slot = "2")]
+	[Address(RVA = "0x3D3E9A0", Offset = "0x3D3E9A0", VA = "0x3D3E9A0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001391")]
-	[Address(RVA = "0x5058EA0", Offset = "0x5058EA0", VA = "0x5058EA0", Slot = "0")]
+	[Address(RVA = "0x3D3E9C0", Offset = "0x3D3E9C0", VA = "0x3D3E9C0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001392")]
-	[Address(RVA = "0x5058F40", Offset = "0x5058F40", VA = "0x5058F40", Slot = "4")]
+	[Address(RVA = "0x3D3EA60", Offset = "0x3D3EA60", VA = "0x3D3EA60", Slot = "4")]
 	public bool Equals(ValueTask other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001393")]
-	[Address(RVA = "0x5058F60", Offset = "0x5058F60", VA = "0x5058F60")]
+	[Address(RVA = "0x3D3EA80", Offset = "0x3D3EA80", VA = "0x3D3EA80")]
 	public Task AsTask()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001394")]
-	[Address(RVA = "0x50590C0", Offset = "0x50590C0", VA = "0x50590C0")]
+	[Address(RVA = "0x3D3EBE0", Offset = "0x3D3EBE0", VA = "0x3D3EBE0")]
 	private Task GetTaskForValueTaskSource(IValueTaskSource t)
 	{
 		return null;
@@ -142,14 +149,14 @@ public readonly struct ValueTask : IEquatable<ValueTask>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001397")]
-	[Address(RVA = "0x50598F0", Offset = "0x50598F0", VA = "0x50598F0")]
+	[Address(RVA = "0x3D3F410", Offset = "0x3D3F410", VA = "0x3D3F410")]
 	[System.Diagnostics.StackTraceHidden]
 	internal void ThrowIfCompletedUnsuccessfully()
 	{
 	}
 
 	[Token(Token = "0x6001398")]
-	[Address(RVA = "0x50599F0", Offset = "0x50599F0", VA = "0x50599F0")]
+	[Address(RVA = "0x3D3F510", Offset = "0x3D3F510", VA = "0x3D3F510")]
 	public ValueTaskAwaiter GetAwaiter()
 	{
 		return default(ValueTaskAwaiter);
@@ -157,7 +164,7 @@ public readonly struct ValueTask : IEquatable<ValueTask>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001399")]
-	[Address(RVA = "0x5059A20", Offset = "0x5059A20", VA = "0x5059A20")]
+	[Address(RVA = "0x3D3F540", Offset = "0x3D3F540", VA = "0x3D3F540")]
 	public ConfiguredValueTaskAwaitable ConfigureAwait(bool continueOnCapturedContext)
 	{
 		return default(ConfiguredValueTaskAwaitable);

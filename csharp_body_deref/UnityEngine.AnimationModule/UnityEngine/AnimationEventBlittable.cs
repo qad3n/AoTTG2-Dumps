@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.AnimationEventBlittable
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
@@ -58,13 +65,13 @@ internal struct AnimationEventBlittable : IDisposable
 	private static GCHandlePool s_handlePool;
 
 	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x4A7B170", Offset = "0x4A7B170", VA = "0x4A7B170")]
+	[Address(RVA = "0x4DA2990", Offset = "0x4DA2990", VA = "0x4DA2990")]
 	internal unsafe static void FromAnimationEvents(AnimationEvent[] animationEvents, AnimationEventBlittable* animationEventBlittables)
 	{
 	}
 
 	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x4A7B400", Offset = "0x4A7B400", VA = "0x4A7B400")]
+	[Address(RVA = "0x4DA2C20", Offset = "0x4DA2C20", VA = "0x4DA2C20")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static AnimationEvent PointerToAnimationEvent(IntPtr animationEventBlittable)
 	{
@@ -72,14 +79,14 @@ internal struct AnimationEventBlittable : IDisposable
 	}
 
 	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x4A7B4D0", Offset = "0x4A7B4D0", VA = "0x4A7B4D0")]
+	[Address(RVA = "0x4DA2CF0", Offset = "0x4DA2CF0", VA = "0x4DA2CF0")]
 	internal static AnimationEvent ToAnimationEvent(AnimationEventBlittable animationEventBlittable)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600003D")]
-	[Address(RVA = "0x4A7B960", Offset = "0x4A7B960", VA = "0x4A7B960", Slot = "4")]
+	[Address(RVA = "0x4DA3180", Offset = "0x4DA3180", VA = "0x4DA3180", Slot = "4")]
 	public void Dispose()
 	{
 	}

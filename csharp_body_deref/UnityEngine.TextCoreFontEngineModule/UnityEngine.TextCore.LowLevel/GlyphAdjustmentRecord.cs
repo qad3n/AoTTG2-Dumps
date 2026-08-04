@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -27,7 +34,7 @@ public struct GlyphAdjustmentRecord : IEquatable<GlyphAdjustmentRecord>
 	public uint glyphIndex
 	{
 		[Token(Token = "0x6000079")]
-		[Address(RVA = "0x4B7EBF0", Offset = "0x4B7EBF0", VA = "0x4B7EBF0")]
+		[Address(RVA = "0x4EA6520", Offset = "0x4EA6520", VA = "0x4EA6520")]
 		get
 		{
 			return default(uint);
@@ -38,7 +45,7 @@ public struct GlyphAdjustmentRecord : IEquatable<GlyphAdjustmentRecord>
 	public GlyphValueRecord glyphValueRecord
 	{
 		[Token(Token = "0x600007A")]
-		[Address(RVA = "0x4B7EC00", Offset = "0x4B7EC00", VA = "0x4B7EC00")]
+		[Address(RVA = "0x4EA6530", Offset = "0x4EA6530", VA = "0x4EA6530")]
 		get
 		{
 			return default(GlyphValueRecord);
@@ -46,7 +53,7 @@ public struct GlyphAdjustmentRecord : IEquatable<GlyphAdjustmentRecord>
 	}
 
 	[Token(Token = "0x600007B")]
-	[Address(RVA = "0x4B7EC10", Offset = "0x4B7EC10", VA = "0x4B7EC10", Slot = "2")]
+	[Address(RVA = "0x4EA6540", Offset = "0x4EA6540", VA = "0x4EA6540", Slot = "2")]
 	[ExcludeFromDocs]
 	public override int GetHashCode()
 	{
@@ -54,7 +61,7 @@ public struct GlyphAdjustmentRecord : IEquatable<GlyphAdjustmentRecord>
 	}
 
 	[Token(Token = "0x600007C")]
-	[Address(RVA = "0x4B7EC70", Offset = "0x4B7EC70", VA = "0x4B7EC70", Slot = "0")]
+	[Address(RVA = "0x4EA65A0", Offset = "0x4EA65A0", VA = "0x4EA65A0", Slot = "0")]
 	[ExcludeFromDocs]
 	public override bool Equals(object obj)
 	{
@@ -62,7 +69,7 @@ public struct GlyphAdjustmentRecord : IEquatable<GlyphAdjustmentRecord>
 	}
 
 	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x4B7ECD0", Offset = "0x4B7ECD0", VA = "0x4B7ECD0", Slot = "4")]
+	[Address(RVA = "0x4EA6600", Offset = "0x4EA6600", VA = "0x4EA6600", Slot = "4")]
 	[ExcludeFromDocs]
 	public bool Equals(GlyphAdjustmentRecord other)
 	{

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.CompilerServices.DecimalConstantAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
@@ -15,7 +22,7 @@ public sealed class DecimalConstantAttribute : Attribute
 	public decimal Value
 	{
 		[Token(Token = "0x600226D")]
-		[Address(RVA = "0x4EDB2D0", Offset = "0x4EDB2D0", VA = "0x4EDB2D0")]
+		[Address(RVA = "0x3BC0DF0", Offset = "0x3BC0DF0", VA = "0x3BC0DF0")]
 		get
 		{
 			return default(decimal);
@@ -23,7 +30,7 @@ public sealed class DecimalConstantAttribute : Attribute
 	}
 
 	[Token(Token = "0x600226C")]
-	[Address(RVA = "0x4EDB260", Offset = "0x4EDB260", VA = "0x4EDB260")]
+	[Address(RVA = "0x3BC0D80", Offset = "0x3BC0D80", VA = "0x3BC0D80")]
 	[CLSCompliant(false)]
 	public DecimalConstantAttribute(byte scale, byte sign, uint hi, uint mid, uint low)
 	{

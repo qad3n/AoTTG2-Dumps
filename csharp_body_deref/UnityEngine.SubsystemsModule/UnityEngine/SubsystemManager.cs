@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.SubsystemManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -50,28 +57,28 @@ public static class SubsystemManager
 	private static Action reloadSubsytemsCompleted;
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x4B76E60", Offset = "0x4B76E60", VA = "0x4B76E60")]
+	[Address(RVA = "0x4E9E790", Offset = "0x4E9E790", VA = "0x4E9E790")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void ReloadSubsystemsStarted()
 	{
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x4B76F80", Offset = "0x4B76F80", VA = "0x4B76F80")]
+	[Address(RVA = "0x4E9E8B0", Offset = "0x4E9E8B0", VA = "0x4E9E8B0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void ReloadSubsystemsCompleted()
 	{
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x4B770A0", Offset = "0x4B770A0", VA = "0x4B770A0")]
+	[Address(RVA = "0x4E9E9D0", Offset = "0x4E9E9D0", VA = "0x4E9E9D0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InitializeIntegratedSubsystem(IntPtr ptr, IntegratedSubsystem subsystem)
 	{
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x4B771A0", Offset = "0x4B771A0", VA = "0x4B771A0")]
+	[Address(RVA = "0x4E9EAD0", Offset = "0x4E9EAD0", VA = "0x4E9EAD0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void ClearSubsystems()
 	{
@@ -79,11 +86,11 @@ public static class SubsystemManager
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x4B77410", Offset = "0x4B77410", VA = "0x4B77410")]
+	[Address(RVA = "0x4E9ED40", Offset = "0x4E9ED40", VA = "0x4E9ED40")]
 	private static extern void StaticConstructScriptingClassMap();
 
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x4B77440", Offset = "0x4B77440", VA = "0x4B77440")]
+	[Address(RVA = "0x4E9ED70", Offset = "0x4E9ED70", VA = "0x4E9ED70")]
 	static SubsystemManager()
 	{
 	}
@@ -99,7 +106,7 @@ public static class SubsystemManager
 	}
 
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x4B775A0", Offset = "0x4B775A0", VA = "0x4B775A0")]
+	[Address(RVA = "0x4E9EED0", Offset = "0x4E9EED0", VA = "0x4E9EED0")]
 	internal static IntegratedSubsystem GetIntegratedSubsystemByPtr(IntPtr ptr)
 	{
 		return null;

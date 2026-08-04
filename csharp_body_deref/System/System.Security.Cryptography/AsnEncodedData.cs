@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.AsnEncodedData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
@@ -17,13 +24,13 @@ public class AsnEncodedData
 	public Oid Oid
 	{
 		[Token(Token = "0x6000546")]
-		[Address(RVA = "0x460A1B0", Offset = "0x460A1B0", VA = "0x460A1B0")]
+		[Address(RVA = "0x492F2B0", Offset = "0x492F2B0", VA = "0x492F2B0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000547")]
-		[Address(RVA = "0x4609FE0", Offset = "0x4609FE0", VA = "0x4609FE0")]
+		[Address(RVA = "0x492F0E0", Offset = "0x492F0E0", VA = "0x492F0E0")]
 		set
 		{
 		}
@@ -33,106 +40,106 @@ public class AsnEncodedData
 	public byte[] RawData
 	{
 		[Token(Token = "0x6000548")]
-		[Address(RVA = "0x460A1C0", Offset = "0x460A1C0", VA = "0x460A1C0")]
+		[Address(RVA = "0x492F2C0", Offset = "0x492F2C0", VA = "0x492F2C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000549")]
-		[Address(RVA = "0x4609E30", Offset = "0x4609E30", VA = "0x4609E30")]
+		[Address(RVA = "0x492EF30", Offset = "0x492EF30", VA = "0x492EF30")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000542")]
-	[Address(RVA = "0x4609D40", Offset = "0x4609D40", VA = "0x4609D40")]
+	[Address(RVA = "0x492EE40", Offset = "0x492EE40", VA = "0x492EE40")]
 	protected AsnEncodedData()
 	{
 	}
 
 	[Token(Token = "0x6000543")]
-	[Address(RVA = "0x4609D50", Offset = "0x4609D50", VA = "0x4609D50")]
+	[Address(RVA = "0x492EE50", Offset = "0x492EE50", VA = "0x492EE50")]
 	public AsnEncodedData(string oid, byte[] rawData)
 	{
 	}
 
 	[Token(Token = "0x6000544")]
-	[Address(RVA = "0x4609F20", Offset = "0x4609F20", VA = "0x4609F20")]
+	[Address(RVA = "0x492F020", Offset = "0x492F020", VA = "0x492F020")]
 	public AsnEncodedData(Oid oid, byte[] rawData)
 	{
 	}
 
 	[Token(Token = "0x6000545")]
-	[Address(RVA = "0x460A060", Offset = "0x460A060", VA = "0x460A060")]
+	[Address(RVA = "0x492F160", Offset = "0x492F160", VA = "0x492F160")]
 	public AsnEncodedData(AsnEncodedData asnEncodedData)
 	{
 	}
 
 	[Token(Token = "0x600054A")]
-	[Address(RVA = "0x460A1D0", Offset = "0x460A1D0", VA = "0x460A1D0", Slot = "4")]
+	[Address(RVA = "0x492F2D0", Offset = "0x492F2D0", VA = "0x492F2D0", Slot = "4")]
 	public virtual void CopyFrom(AsnEncodedData asnEncodedData)
 	{
 	}
 
 	[Token(Token = "0x600054B")]
-	[Address(RVA = "0x460A330", Offset = "0x460A330", VA = "0x460A330", Slot = "5")]
+	[Address(RVA = "0x492F430", Offset = "0x492F430", VA = "0x492F430", Slot = "5")]
 	public virtual string Format(bool multiLine)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600054C")]
-	[Address(RVA = "0x460A4D0", Offset = "0x460A4D0", VA = "0x460A4D0", Slot = "6")]
+	[Address(RVA = "0x492F5D0", Offset = "0x492F5D0", VA = "0x492F5D0", Slot = "6")]
 	internal virtual string ToString(bool multiLine)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600054D")]
-	[Address(RVA = "0x460A380", Offset = "0x460A380", VA = "0x460A380")]
+	[Address(RVA = "0x492F480", Offset = "0x492F480", VA = "0x492F480")]
 	internal string Default(bool multiLine)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600054E")]
-	[Address(RVA = "0x460A640", Offset = "0x460A640", VA = "0x460A640")]
+	[Address(RVA = "0x492F740", Offset = "0x492F740", VA = "0x492F740")]
 	internal string BasicConstraintsExtension(bool multiLine)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600054F")]
-	[Address(RVA = "0x460A750", Offset = "0x460A750", VA = "0x460A750")]
+	[Address(RVA = "0x492F850", Offset = "0x492F850", VA = "0x492F850")]
 	internal string EnhancedKeyUsageExtension(bool multiLine)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000550")]
-	[Address(RVA = "0x460A860", Offset = "0x460A860", VA = "0x460A860")]
+	[Address(RVA = "0x492F960", Offset = "0x492F960", VA = "0x492F960")]
 	internal string KeyUsageExtension(bool multiLine)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000551")]
-	[Address(RVA = "0x460A970", Offset = "0x460A970", VA = "0x460A970")]
+	[Address(RVA = "0x492FA70", Offset = "0x492FA70", VA = "0x492FA70")]
 	internal string SubjectKeyIdentifierExtension(bool multiLine)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000552")]
-	[Address(RVA = "0x460AA80", Offset = "0x460AA80", VA = "0x460AA80")]
+	[Address(RVA = "0x492FB80", Offset = "0x492FB80", VA = "0x492FB80")]
 	internal string SubjectAltName(bool multiLine)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000553")]
-	[Address(RVA = "0x460B170", Offset = "0x460B170", VA = "0x460B170")]
+	[Address(RVA = "0x4930270", Offset = "0x4930270", VA = "0x4930270")]
 	internal string NetscapeCertType(bool multiLine)
 	{
 		return null;

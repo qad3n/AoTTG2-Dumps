@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ValueTuple
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -13,7 +20,7 @@ public struct ValueTuple : IEquatable<ValueTuple>, IStructuralEquatable, IStruct
 	private int System_002ERuntime_002ECompilerServices_002EITuple_002ELength
 	{
 		[Token(Token = "0x6000BA4")]
-		[Address(RVA = "0x4FF4C30", Offset = "0x4FF4C30", VA = "0x4FF4C30", Slot = "12")]
+		[Address(RVA = "0x3CDA750", Offset = "0x3CDA750", VA = "0x3CDA750", Slot = "12")]
 		get
 		{
 			return default(int);
@@ -21,126 +28,126 @@ public struct ValueTuple : IEquatable<ValueTuple>, IStructuralEquatable, IStruct
 	}
 
 	[Token(Token = "0x6000B99")]
-	[Address(RVA = "0x4FF4900", Offset = "0x4FF4900", VA = "0x4FF4900", Slot = "0")]
+	[Address(RVA = "0x3CDA420", Offset = "0x3CDA420", VA = "0x3CDA420", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B9A")]
-	[Address(RVA = "0x4FF4940", Offset = "0x4FF4940", VA = "0x4FF4940", Slot = "4")]
+	[Address(RVA = "0x3CDA460", Offset = "0x3CDA460", VA = "0x3CDA460", Slot = "4")]
 	public bool Equals(ValueTuple other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B9B")]
-	[Address(RVA = "0x4FF4950", Offset = "0x4FF4950", VA = "0x4FF4950", Slot = "5")]
+	[Address(RVA = "0x3CDA470", Offset = "0x3CDA470", VA = "0x3CDA470", Slot = "5")]
 	private bool System_002ECollections_002EIStructuralEquatable_002EEquals(object other, IEqualityComparer comparer)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000B9C")]
-	[Address(RVA = "0x4FF4990", Offset = "0x4FF4990", VA = "0x4FF4990", Slot = "8")]
+	[Address(RVA = "0x3CDA4B0", Offset = "0x3CDA4B0", VA = "0x3CDA4B0", Slot = "8")]
 	private int System_002EIComparable_002ECompareTo(object other)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B9D")]
-	[Address(RVA = "0x4FF4A90", Offset = "0x4FF4A90", VA = "0x4FF4A90", Slot = "9")]
+	[Address(RVA = "0x3CDA5B0", Offset = "0x3CDA5B0", VA = "0x3CDA5B0", Slot = "9")]
 	public int CompareTo(ValueTuple other)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B9E")]
-	[Address(RVA = "0x4FF4AA0", Offset = "0x4FF4AA0", VA = "0x4FF4AA0", Slot = "7")]
+	[Address(RVA = "0x3CDA5C0", Offset = "0x3CDA5C0", VA = "0x3CDA5C0", Slot = "7")]
 	private int System_002ECollections_002EIStructuralComparable_002ECompareTo(object other, IComparer comparer)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B9F")]
-	[Address(RVA = "0x4FF4BA0", Offset = "0x4FF4BA0", VA = "0x4FF4BA0", Slot = "2")]
+	[Address(RVA = "0x3CDA6C0", Offset = "0x3CDA6C0", VA = "0x3CDA6C0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000BA0")]
-	[Address(RVA = "0x4FF4BB0", Offset = "0x4FF4BB0", VA = "0x4FF4BB0", Slot = "6")]
+	[Address(RVA = "0x3CDA6D0", Offset = "0x3CDA6D0", VA = "0x3CDA6D0", Slot = "6")]
 	private int System_002ECollections_002EIStructuralEquatable_002EGetHashCode(IEqualityComparer comparer)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000BA1")]
-	[Address(RVA = "0x4FF4BC0", Offset = "0x4FF4BC0", VA = "0x4FF4BC0", Slot = "10")]
+	[Address(RVA = "0x3CDA6E0", Offset = "0x3CDA6E0", VA = "0x3CDA6E0", Slot = "10")]
 	private int System_002EIValueTupleInternal_002EGetHashCode(IEqualityComparer comparer)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000BA2")]
-	[Address(RVA = "0x4FF4BD0", Offset = "0x4FF4BD0", VA = "0x4FF4BD0", Slot = "3")]
+	[Address(RVA = "0x3CDA6F0", Offset = "0x3CDA6F0", VA = "0x3CDA6F0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BA3")]
-	[Address(RVA = "0x4FF4C00", Offset = "0x4FF4C00", VA = "0x4FF4C00", Slot = "11")]
+	[Address(RVA = "0x3CDA720", Offset = "0x3CDA720", VA = "0x3CDA720", Slot = "11")]
 	private string System_002EIValueTupleInternal_002EToStringEnd()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BA5")]
-	[Address(RVA = "0x4FF4C40", Offset = "0x4FF4C40", VA = "0x4FF4C40")]
+	[Address(RVA = "0x3CDA760", Offset = "0x3CDA760", VA = "0x3CDA760")]
 	internal static int CombineHashCodes(int h1, int h2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000BA6")]
-	[Address(RVA = "0x4FF4CB0", Offset = "0x4FF4CB0", VA = "0x4FF4CB0")]
+	[Address(RVA = "0x3CDA7D0", Offset = "0x3CDA7D0", VA = "0x3CDA7D0")]
 	internal static int CombineHashCodes(int h1, int h2, int h3)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000BA7")]
-	[Address(RVA = "0x4FF4D90", Offset = "0x4FF4D90", VA = "0x4FF4D90")]
+	[Address(RVA = "0x3CDA8B0", Offset = "0x3CDA8B0", VA = "0x3CDA8B0")]
 	internal static int CombineHashCodes(int h1, int h2, int h3, int h4)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000BA8")]
-	[Address(RVA = "0x4FF4E00", Offset = "0x4FF4E00", VA = "0x4FF4E00")]
+	[Address(RVA = "0x3CDA920", Offset = "0x3CDA920", VA = "0x3CDA920")]
 	internal static int CombineHashCodes(int h1, int h2, int h3, int h4, int h5)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000BA9")]
-	[Address(RVA = "0x4FF4EB0", Offset = "0x4FF4EB0", VA = "0x4FF4EB0")]
+	[Address(RVA = "0x3CDA9D0", Offset = "0x3CDA9D0", VA = "0x3CDA9D0")]
 	internal static int CombineHashCodes(int h1, int h2, int h3, int h4, int h5, int h6)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000BAA")]
-	[Address(RVA = "0x4FF4F30", Offset = "0x4FF4F30", VA = "0x4FF4F30")]
+	[Address(RVA = "0x3CDAA50", Offset = "0x3CDAA50", VA = "0x3CDAA50")]
 	internal static int CombineHashCodes(int h1, int h2, int h3, int h4, int h5, int h6, int h7)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000BAB")]
-	[Address(RVA = "0x4FF5000", Offset = "0x4FF5000", VA = "0x4FF5000")]
+	[Address(RVA = "0x3CDAB20", Offset = "0x3CDAB20", VA = "0x3CDAB20")]
 	internal static int CombineHashCodes(int h1, int h2, int h3, int h4, int h5, int h6, int h7, int h8)
 	{
 		return default(int);

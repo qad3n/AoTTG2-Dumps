@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.DefaultExpression
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -12,7 +19,7 @@ public sealed class DefaultExpression : Expression
 	public sealed override Type Type
 	{
 		[Token(Token = "0x6000323")]
-		[Address(RVA = "0x418BBA0", Offset = "0x418BBA0", VA = "0x418BBA0", Slot = "5")]
+		[Address(RVA = "0x44B0CA0", Offset = "0x44B0CA0", VA = "0x44B0CA0", Slot = "5")]
 		[CompilerGenerated]
 		get
 		{
@@ -24,7 +31,7 @@ public sealed class DefaultExpression : Expression
 	public sealed override ExpressionType NodeType
 	{
 		[Token(Token = "0x6000324")]
-		[Address(RVA = "0x418BBB0", Offset = "0x418BBB0", VA = "0x418BBB0", Slot = "4")]
+		[Address(RVA = "0x44B0CB0", Offset = "0x44B0CB0", VA = "0x44B0CB0", Slot = "4")]
 		get
 		{
 			return default(ExpressionType);
@@ -32,13 +39,13 @@ public sealed class DefaultExpression : Expression
 	}
 
 	[Token(Token = "0x6000322")]
-	[Address(RVA = "0x418BB30", Offset = "0x418BB30", VA = "0x418BB30")]
+	[Address(RVA = "0x44B0C30", Offset = "0x44B0C30", VA = "0x44B0C30")]
 	internal DefaultExpression(Type type)
 	{
 	}
 
 	[Token(Token = "0x6000325")]
-	[Address(RVA = "0x418BBC0", Offset = "0x418BBC0", VA = "0x418BBC0", Slot = "9")]
+	[Address(RVA = "0x44B0CC0", Offset = "0x44B0CC0", VA = "0x44B0CC0", Slot = "9")]
 	protected internal override Expression Accept(ExpressionVisitor visitor)
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XmlSchemaSimpleTypeUnion
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.Serialization;
 using Il2CppDummyDll;
 
@@ -23,7 +30,7 @@ public class XmlSchemaSimpleTypeUnion : XmlSchemaSimpleTypeContent
 	public XmlSchemaObjectCollection BaseTypes
 	{
 		[Token(Token = "0x600177A")]
-		[Address(RVA = "0x43F5930", Offset = "0x43F5930", VA = "0x43F5930")]
+		[Address(RVA = "0x4733090", Offset = "0x4733090", VA = "0x4733090")]
 		get
 		{
 			return null;
@@ -35,13 +42,13 @@ public class XmlSchemaSimpleTypeUnion : XmlSchemaSimpleTypeContent
 	public XmlQualifiedName[] MemberTypes
 	{
 		[Token(Token = "0x600177B")]
-		[Address(RVA = "0x43F5940", Offset = "0x43F5940", VA = "0x43F5940")]
+		[Address(RVA = "0x47330A0", Offset = "0x47330A0", VA = "0x47330A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600177C")]
-		[Address(RVA = "0x43F5950", Offset = "0x43F5950", VA = "0x43F5950")]
+		[Address(RVA = "0x47330B0", Offset = "0x47330B0", VA = "0x47330B0")]
 		set
 		{
 		}
@@ -52,7 +59,7 @@ public class XmlSchemaSimpleTypeUnion : XmlSchemaSimpleTypeContent
 	public XmlSchemaSimpleType[] BaseMemberTypes
 	{
 		[Token(Token = "0x600177D")]
-		[Address(RVA = "0x43F5960", Offset = "0x43F5960", VA = "0x43F5960")]
+		[Address(RVA = "0x47330C0", Offset = "0x47330C0", VA = "0x47330C0")]
 		get
 		{
 			return null;
@@ -60,20 +67,20 @@ public class XmlSchemaSimpleTypeUnion : XmlSchemaSimpleTypeContent
 	}
 
 	[Token(Token = "0x600177E")]
-	[Address(RVA = "0x43F5970", Offset = "0x43F5970", VA = "0x43F5970")]
+	[Address(RVA = "0x47330D0", Offset = "0x47330D0", VA = "0x47330D0")]
 	internal void SetBaseMemberTypes(XmlSchemaSimpleType[] baseMemberTypes)
 	{
 	}
 
 	[Token(Token = "0x600177F")]
-	[Address(RVA = "0x43F5980", Offset = "0x43F5980", VA = "0x43F5980", Slot = "13")]
+	[Address(RVA = "0x47330E0", Offset = "0x47330E0", VA = "0x47330E0", Slot = "13")]
 	internal override XmlSchemaObject Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001780")]
-	[Address(RVA = "0x43F5B20", Offset = "0x43F5B20", VA = "0x43F5B20")]
+	[Address(RVA = "0x4733280", Offset = "0x4733280", VA = "0x4733280")]
 	public XmlSchemaSimpleTypeUnion()
 	{
 	}

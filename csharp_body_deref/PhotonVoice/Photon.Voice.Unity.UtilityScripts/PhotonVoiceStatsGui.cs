@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.Unity.UtilityScripts.PhotonVoiceStatsGui
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/Code/UtilityScripts/PhotonVoiceStatsGui.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using ExitGames.Client.Photon;
 using Il2CppDummyDll;
 using UnityEngine;
@@ -52,31 +59,31 @@ public class PhotonVoiceStatsGui : MonoBehaviour
 	private VoiceClient voiceClient;
 
 	[Token(Token = "0x600013C")]
-	[Address(RVA = "0x3C5F330", Offset = "0x3C5F330", VA = "0x3C5F330")]
+	[Address(RVA = "0x3F518E0", Offset = "0x3F518E0", VA = "0x3F518E0")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x600013D")]
-	[Address(RVA = "0x3C5F570", Offset = "0x3C5F570", VA = "0x3C5F570")]
+	[Address(RVA = "0x3F51B20", Offset = "0x3F51B20", VA = "0x3F51B20")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x600013E")]
-	[Address(RVA = "0x3C5F5A0", Offset = "0x3C5F5A0", VA = "0x3C5F5A0")]
+	[Address(RVA = "0x3F51B50", Offset = "0x3F51B50", VA = "0x3F51B50")]
 	private void OnGUI()
 	{
 	}
 
 	[Token(Token = "0x600013F")]
-	[Address(RVA = "0x3C5F750", Offset = "0x3C5F750", VA = "0x3C5F750")]
+	[Address(RVA = "0x3F51D00", Offset = "0x3F51D00", VA = "0x3F51D00")]
 	private void TrafficStatsWindow(int windowId)
 	{
 	}
 
 	[Token(Token = "0x6000140")]
-	[Address(RVA = "0x3C613A0", Offset = "0x3C613A0", VA = "0x3C613A0")]
+	[Address(RVA = "0x3F53950", Offset = "0x3F53950", VA = "0x3F53950")]
 	public PhotonVoiceStatsGui()
 	{
 	}

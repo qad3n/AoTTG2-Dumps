@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Display
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -41,7 +48,7 @@ public class Display
 	public int renderingWidth
 	{
 		[Token(Token = "0x6000303")]
-		[Address(RVA = "0x4A984E0", Offset = "0x4A984E0", VA = "0x4A984E0")]
+		[Address(RVA = "0x4DBFD00", Offset = "0x4DBFD00", VA = "0x4DBFD00")]
 		get
 		{
 			return default(int);
@@ -52,7 +59,7 @@ public class Display
 	public int renderingHeight
 	{
 		[Token(Token = "0x6000304")]
-		[Address(RVA = "0x4A985C0", Offset = "0x4A985C0", VA = "0x4A985C0")]
+		[Address(RVA = "0x4DBFDE0", Offset = "0x4DBFDE0", VA = "0x4DBFDE0")]
 		get
 		{
 			return default(int);
@@ -63,7 +70,7 @@ public class Display
 	public int systemWidth
 	{
 		[Token(Token = "0x6000305")]
-		[Address(RVA = "0x4A98660", Offset = "0x4A98660", VA = "0x4A98660")]
+		[Address(RVA = "0x4DBFE80", Offset = "0x4DBFE80", VA = "0x4DBFE80")]
 		get
 		{
 			return default(int);
@@ -74,7 +81,7 @@ public class Display
 	public int systemHeight
 	{
 		[Token(Token = "0x6000306")]
-		[Address(RVA = "0x4A98740", Offset = "0x4A98740", VA = "0x4A98740")]
+		[Address(RVA = "0x4DBFF60", Offset = "0x4DBFF60", VA = "0x4DBFF60")]
 		get
 		{
 			return default(int);
@@ -85,7 +92,7 @@ public class Display
 	public RenderBuffer colorBuffer
 	{
 		[Token(Token = "0x6000307")]
-		[Address(RVA = "0x4A987E0", Offset = "0x4A987E0", VA = "0x4A987E0")]
+		[Address(RVA = "0x4DC0000", Offset = "0x4DC0000", VA = "0x4DC0000")]
 		get
 		{
 			return default(RenderBuffer);
@@ -96,7 +103,7 @@ public class Display
 	public static Display main
 	{
 		[Token(Token = "0x6000309")]
-		[Address(RVA = "0x4A989E0", Offset = "0x4A989E0", VA = "0x4A989E0")]
+		[Address(RVA = "0x4DC0200", Offset = "0x4DC0200", VA = "0x4DC0200")]
 		get
 		{
 			return null;
@@ -104,33 +111,33 @@ public class Display
 	}
 
 	[Token(Token = "0x6000301")]
-	[Address(RVA = "0x4A98480", Offset = "0x4A98480", VA = "0x4A98480")]
+	[Address(RVA = "0x4DBFCA0", Offset = "0x4DBFCA0", VA = "0x4DBFCA0")]
 	internal Display()
 	{
 	}
 
 	[Token(Token = "0x6000302")]
-	[Address(RVA = "0x4A984C0", Offset = "0x4A984C0", VA = "0x4A984C0")]
+	[Address(RVA = "0x4DBFCE0", Offset = "0x4DBFCE0", VA = "0x4DBFCE0")]
 	internal Display(IntPtr nativeDisplay)
 	{
 	}
 
 	[Token(Token = "0x6000308")]
-	[Address(RVA = "0x4A988C0", Offset = "0x4A988C0", VA = "0x4A988C0")]
+	[Address(RVA = "0x4DC00E0", Offset = "0x4DC00E0", VA = "0x4DC00E0")]
 	public static Vector3 RelativeMouseAt(Vector3 inputMouseCoordinates)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x600030A")]
-	[Address(RVA = "0x4A98A50", Offset = "0x4A98A50", VA = "0x4A98A50")]
+	[Address(RVA = "0x4DC0270", Offset = "0x4DC0270", VA = "0x4DC0270")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void RecreateDisplayList(IntPtr[] nativeDisplay)
 	{
 	}
 
 	[Token(Token = "0x600030B")]
-	[Address(RVA = "0x4A98C20", Offset = "0x4A98C20", VA = "0x4A98C20")]
+	[Address(RVA = "0x4DC0440", Offset = "0x4DC0440", VA = "0x4DC0440")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void FireDisplaysUpdated()
 	{
@@ -138,25 +145,25 @@ public class Display
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600030C")]
-	[Address(RVA = "0x4A98700", Offset = "0x4A98700", VA = "0x4A98700")]
+	[Address(RVA = "0x4DBFF20", Offset = "0x4DBFF20", VA = "0x4DBFF20")]
 	[UnityEngine.Bindings.FreeFunction("UnityDisplayManager_DisplaySystemResolution")]
 	private static extern void GetSystemExtImpl(IntPtr nativeDisplay, out int w, out int h);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600030D")]
-	[Address(RVA = "0x4A98580", Offset = "0x4A98580", VA = "0x4A98580")]
+	[Address(RVA = "0x4DBFDA0", Offset = "0x4DBFDA0", VA = "0x4DBFDA0")]
 	[UnityEngine.Bindings.FreeFunction("UnityDisplayManager_DisplayRenderingResolution")]
 	private static extern void GetRenderingExtImpl(IntPtr nativeDisplay, out int w, out int h);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600030E")]
-	[Address(RVA = "0x4A98880", Offset = "0x4A98880", VA = "0x4A98880")]
+	[Address(RVA = "0x4DC00A0", Offset = "0x4DC00A0", VA = "0x4DC00A0")]
 	[UnityEngine.Bindings.FreeFunction("UnityDisplayManager_GetRenderingBuffersWrapper")]
 	private static extern void GetRenderingBuffersImpl(IntPtr nativeDisplay, out RenderBuffer color, out RenderBuffer depth);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600030F")]
-	[Address(RVA = "0x4A98990", Offset = "0x4A98990", VA = "0x4A98990")]
+	[Address(RVA = "0x4DC01B0", Offset = "0x4DC01B0", VA = "0x4DC01B0")]
 	[UnityEngine.Bindings.FreeFunction("UnityDisplayManager_RelativeMouseAt")]
 	private static extern int RelativeMouseAtImpl(int x, int y, out int rx, out int ry);
 }

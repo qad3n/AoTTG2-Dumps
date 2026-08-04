@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.Text.FontFeatureTable
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -51,25 +58,25 @@ public class FontFeatureTable
 	internal Dictionary<uint, UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord> m_MarkToMarkAdjustmentRecordLookup;
 
 	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x4B89370", Offset = "0x4B89370", VA = "0x4B89370")]
+	[Address(RVA = "0x4EB0CA0", Offset = "0x4EB0CA0", VA = "0x4EB0CA0")]
 	internal FontFeatureTable()
 	{
 	}
 
 	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x4B825A0", Offset = "0x4B825A0", VA = "0x4B825A0")]
+	[Address(RVA = "0x4EA9ED0", Offset = "0x4EA9ED0", VA = "0x4EA9ED0")]
 	public void SortGlyphPairAdjustmentRecords()
 	{
 	}
 
 	[Token(Token = "0x6000089")]
-	[Address(RVA = "0x4B827D0", Offset = "0x4B827D0", VA = "0x4B827D0")]
+	[Address(RVA = "0x4EAA100", Offset = "0x4EAA100", VA = "0x4EAA100")]
 	public void SortMarkToBaseAdjustmentRecords()
 	{
 	}
 
 	[Token(Token = "0x600008A")]
-	[Address(RVA = "0x4B82A00", Offset = "0x4B82A00", VA = "0x4B82A00")]
+	[Address(RVA = "0x4EAA330", Offset = "0x4EAA330", VA = "0x4EAA330")]
 	public void SortMarkToMarkAdjustmentRecords()
 	{
 	}

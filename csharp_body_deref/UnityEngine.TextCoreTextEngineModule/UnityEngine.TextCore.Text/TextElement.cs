@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.Text.TextElement
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -39,7 +46,7 @@ public abstract class TextElement
 	public TextElementType elementType
 	{
 		[Token(Token = "0x60000E5")]
-		[Address(RVA = "0x4B90C00", Offset = "0x4B90C00", VA = "0x4B90C00")]
+		[Address(RVA = "0x4EB8530", Offset = "0x4EB8530", VA = "0x4EB8530")]
 		get
 		{
 			return default(TextElementType);
@@ -50,13 +57,13 @@ public abstract class TextElement
 	public uint unicode
 	{
 		[Token(Token = "0x60000E6")]
-		[Address(RVA = "0x4B81E60", Offset = "0x4B81E60", VA = "0x4B81E60")]
+		[Address(RVA = "0x4EA9790", Offset = "0x4EA9790", VA = "0x4EA9790")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x60000E7")]
-		[Address(RVA = "0x4B7F0A0", Offset = "0x4B7F0A0", VA = "0x4B7F0A0")]
+		[Address(RVA = "0x4EA69D0", Offset = "0x4EA69D0", VA = "0x4EA69D0")]
 		set
 		{
 		}
@@ -66,13 +73,13 @@ public abstract class TextElement
 	public TextAsset textAsset
 	{
 		[Token(Token = "0x60000E8")]
-		[Address(RVA = "0x4B8B390", Offset = "0x4B8B390", VA = "0x4B8B390")]
+		[Address(RVA = "0x4EB2CC0", Offset = "0x4EB2CC0", VA = "0x4EB2CC0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000E9")]
-		[Address(RVA = "0x4B7F0B0", Offset = "0x4B7F0B0", VA = "0x4B7F0B0")]
+		[Address(RVA = "0x4EA69E0", Offset = "0x4EA69E0", VA = "0x4EA69E0")]
 		set
 		{
 		}
@@ -82,13 +89,13 @@ public abstract class TextElement
 	public Glyph glyph
 	{
 		[Token(Token = "0x60000EA")]
-		[Address(RVA = "0x4B90C10", Offset = "0x4B90C10", VA = "0x4B90C10")]
+		[Address(RVA = "0x4EB8540", Offset = "0x4EB8540", VA = "0x4EB8540")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000EB")]
-		[Address(RVA = "0x4B7F0C0", Offset = "0x4B7F0C0", VA = "0x4B7F0C0")]
+		[Address(RVA = "0x4EA69F0", Offset = "0x4EA69F0", VA = "0x4EA69F0")]
 		set
 		{
 		}
@@ -98,13 +105,13 @@ public abstract class TextElement
 	public uint glyphIndex
 	{
 		[Token(Token = "0x60000EC")]
-		[Address(RVA = "0x4B80E80", Offset = "0x4B80E80", VA = "0x4B80E80")]
+		[Address(RVA = "0x4EA87B0", Offset = "0x4EA87B0", VA = "0x4EA87B0")]
 		get
 		{
 			return default(uint);
 		}
 		[Token(Token = "0x60000ED")]
-		[Address(RVA = "0x4B7F0D0", Offset = "0x4B7F0D0", VA = "0x4B7F0D0")]
+		[Address(RVA = "0x4EA6A00", Offset = "0x4EA6A00", VA = "0x4EA6A00")]
 		set
 		{
 		}
@@ -114,20 +121,20 @@ public abstract class TextElement
 	public float scale
 	{
 		[Token(Token = "0x60000EE")]
-		[Address(RVA = "0x4B90C20", Offset = "0x4B90C20", VA = "0x4B90C20")]
+		[Address(RVA = "0x4EB8550", Offset = "0x4EB8550", VA = "0x4EB8550")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60000EF")]
-		[Address(RVA = "0x4B7F020", Offset = "0x4B7F020", VA = "0x4B7F020")]
+		[Address(RVA = "0x4EA6950", Offset = "0x4EA6950", VA = "0x4EA6950")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60000F0")]
-	[Address(RVA = "0x4B7F010", Offset = "0x4B7F010", VA = "0x4B7F010")]
+	[Address(RVA = "0x4EA6940", Offset = "0x4EA6940", VA = "0x4EA6940")]
 	protected TextElement()
 	{
 	}

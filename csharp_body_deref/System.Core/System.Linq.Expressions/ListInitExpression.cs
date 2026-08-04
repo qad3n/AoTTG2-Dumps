@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.ListInitExpression
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -13,7 +20,7 @@ public sealed class ListInitExpression : Expression
 	public NewExpression NewExpression
 	{
 		[Token(Token = "0x6000464")]
-		[Address(RVA = "0x4197A70", Offset = "0x4197A70", VA = "0x4197A70")]
+		[Address(RVA = "0x44BCB70", Offset = "0x44BCB70", VA = "0x44BCB70")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,7 +32,7 @@ public sealed class ListInitExpression : Expression
 	public ReadOnlyCollection<ElementInit> Initializers
 	{
 		[Token(Token = "0x6000465")]
-		[Address(RVA = "0x4197A80", Offset = "0x4197A80", VA = "0x4197A80")]
+		[Address(RVA = "0x44BCB80", Offset = "0x44BCB80", VA = "0x44BCB80")]
 		[CompilerGenerated]
 		get
 		{

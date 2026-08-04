@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.VisualElementStyleSheetSet
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Reflection;
 using Il2CppDummyDll;
@@ -13,40 +20,40 @@ public struct VisualElementStyleSheetSet : IEquatable<VisualElementStyleSheetSet
 	private readonly VisualElement m_Element;
 
 	[Token(Token = "0x6001BC3")]
-	[Address(RVA = "0x4C50E10", Offset = "0x4C50E10", VA = "0x4C50E10")]
+	[Address(RVA = "0x4F78740", Offset = "0x4F78740", VA = "0x4F78740")]
 	internal VisualElementStyleSheetSet(VisualElement element)
 	{
 	}
 
 	[Token(Token = "0x6001BC4")]
-	[Address(RVA = "0x4C4B390", Offset = "0x4C4B390", VA = "0x4C4B390")]
+	[Address(RVA = "0x4F72CC0", Offset = "0x4F72CC0", VA = "0x4F72CC0")]
 	public void Add(StyleSheet styleSheet)
 	{
 	}
 
 	[Token(Token = "0x6001BC5")]
-	[Address(RVA = "0x4C50E20", Offset = "0x4C50E20", VA = "0x4C50E20")]
+	[Address(RVA = "0x4F78750", Offset = "0x4F78750", VA = "0x4F78750")]
 	public bool Remove(StyleSheet styleSheet)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001BC6")]
-	[Address(RVA = "0x4C50F60", Offset = "0x4C50F60", VA = "0x4C50F60", Slot = "4")]
+	[Address(RVA = "0x4F78890", Offset = "0x4F78890", VA = "0x4F78890", Slot = "4")]
 	public bool Equals(VisualElementStyleSheetSet other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001BC7")]
-	[Address(RVA = "0x4C50F70", Offset = "0x4C50F70", VA = "0x4C50F70", Slot = "0")]
+	[Address(RVA = "0x4F788A0", Offset = "0x4F788A0", VA = "0x4F788A0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001BC8")]
-	[Address(RVA = "0x4C50FD0", Offset = "0x4C50FD0", VA = "0x4C50FD0", Slot = "2")]
+	[Address(RVA = "0x4F78900", Offset = "0x4F78900", VA = "0x4F78900", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

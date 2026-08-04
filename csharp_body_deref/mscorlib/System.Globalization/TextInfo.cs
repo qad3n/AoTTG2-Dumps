@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Globalization.TextInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
@@ -70,7 +77,7 @@ public class TextInfo : ICloneable, IDeserializationCallback
 	internal static TextInfo Invariant
 	{
 		[Token(Token = "0x6002D47")]
-		[Address(RVA = "0x4F79F40", Offset = "0x4F79F40", VA = "0x4F79F40")]
+		[Address(RVA = "0x3C5FA60", Offset = "0x3C5FA60", VA = "0x3C5FA60")]
 		get
 		{
 			return null;
@@ -82,7 +89,7 @@ public class TextInfo : ICloneable, IDeserializationCallback
 	public string CultureName
 	{
 		[Token(Token = "0x6002D4D")]
-		[Address(RVA = "0x4F7AB20", Offset = "0x4F7AB20", VA = "0x4F7AB20")]
+		[Address(RVA = "0x3C60640", Offset = "0x3C60640", VA = "0x3C60640")]
 		get
 		{
 			return null;
@@ -94,7 +101,7 @@ public class TextInfo : ICloneable, IDeserializationCallback
 	public bool IsReadOnly
 	{
 		[Token(Token = "0x6002D4E")]
-		[Address(RVA = "0x4F7AB30", Offset = "0x4F7AB30", VA = "0x4F7AB30")]
+		[Address(RVA = "0x3C60650", Offset = "0x3C60650", VA = "0x3C60650")]
 		get
 		{
 			return default(bool);
@@ -105,7 +112,7 @@ public class TextInfo : ICloneable, IDeserializationCallback
 	private bool IsAsciiCasingSameAsInvariant
 	{
 		[Token(Token = "0x6002D59")]
-		[Address(RVA = "0x4F7ACF0", Offset = "0x4F7ACF0", VA = "0x4F7ACF0")]
+		[Address(RVA = "0x3C60810", Offset = "0x3C60810", VA = "0x3C60810")]
 		get
 		{
 			return default(bool);
@@ -113,40 +120,40 @@ public class TextInfo : ICloneable, IDeserializationCallback
 	}
 
 	[Token(Token = "0x6002D48")]
-	[Address(RVA = "0x4F7A410", Offset = "0x4F7A410", VA = "0x4F7A410")]
+	[Address(RVA = "0x3C5FF30", Offset = "0x3C5FF30", VA = "0x3C5FF30")]
 	internal TextInfo(System.Globalization.CultureData cultureData)
 	{
 	}
 
 	[Token(Token = "0x6002D49")]
-	[Address(RVA = "0x4F7A480", Offset = "0x4F7A480", VA = "0x4F7A480")]
+	[Address(RVA = "0x3C5FFA0", Offset = "0x3C5FFA0", VA = "0x3C5FFA0")]
 	[OnDeserializing]
 	private void OnDeserializing(StreamingContext ctx)
 	{
 	}
 
 	[Token(Token = "0x6002D4A")]
-	[Address(RVA = "0x4F7A4B0", Offset = "0x4F7A4B0", VA = "0x4F7A4B0")]
+	[Address(RVA = "0x3C5FFD0", Offset = "0x3C5FFD0", VA = "0x3C5FFD0")]
 	private void OnDeserialized()
 	{
 	}
 
 	[Token(Token = "0x6002D4B")]
-	[Address(RVA = "0x4F7AA80", Offset = "0x4F7AA80", VA = "0x4F7AA80")]
+	[Address(RVA = "0x3C605A0", Offset = "0x3C605A0", VA = "0x3C605A0")]
 	[OnDeserialized]
 	private void OnDeserialized(StreamingContext ctx)
 	{
 	}
 
 	[Token(Token = "0x6002D4C")]
-	[Address(RVA = "0x4F7AA90", Offset = "0x4F7AA90", VA = "0x4F7AA90")]
+	[Address(RVA = "0x3C605B0", Offset = "0x3C605B0", VA = "0x3C605B0")]
 	[OnSerializing]
 	private void OnSerializing(StreamingContext ctx)
 	{
 	}
 
 	[Token(Token = "0x6002D4F")]
-	[Address(RVA = "0x4F7AB40", Offset = "0x4F7AB40", VA = "0x4F7AB40", Slot = "6")]
+	[Address(RVA = "0x3C60660", Offset = "0x3C60660", VA = "0x3C60660", Slot = "6")]
 	[ComVisible(false)]
 	public virtual object Clone()
 	{
@@ -154,7 +161,7 @@ public class TextInfo : ICloneable, IDeserializationCallback
 	}
 
 	[Token(Token = "0x6002D50")]
-	[Address(RVA = "0x4F7ABB0", Offset = "0x4F7ABB0", VA = "0x4F7ABB0")]
+	[Address(RVA = "0x3C606D0", Offset = "0x3C606D0", VA = "0x3C606D0")]
 	[ComVisible(false)]
 	public static TextInfo ReadOnly(TextInfo textInfo)
 	{
@@ -162,129 +169,129 @@ public class TextInfo : ICloneable, IDeserializationCallback
 	}
 
 	[Token(Token = "0x6002D51")]
-	[Address(RVA = "0x4F7AC80", Offset = "0x4F7AC80", VA = "0x4F7AC80")]
+	[Address(RVA = "0x3C607A0", Offset = "0x3C607A0", VA = "0x3C607A0")]
 	internal void SetReadOnlyState(bool readOnly)
 	{
 	}
 
 	[Token(Token = "0x6002D52")]
-	[Address(RVA = "0x4F7AC90", Offset = "0x4F7AC90", VA = "0x4F7AC90", Slot = "7")]
+	[Address(RVA = "0x3C607B0", Offset = "0x3C607B0", VA = "0x3C607B0", Slot = "7")]
 	public virtual char ToLower(char c)
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x6002D53")]
-	[Address(RVA = "0x4F7B2E0", Offset = "0x4F7B2E0", VA = "0x4F7B2E0", Slot = "8")]
+	[Address(RVA = "0x3C60E00", Offset = "0x3C60E00", VA = "0x3C60E00", Slot = "8")]
 	public virtual string ToLower(string str)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002D54")]
-	[Address(RVA = "0x4F7ADF0", Offset = "0x4F7ADF0", VA = "0x4F7ADF0")]
+	[Address(RVA = "0x3C60910", Offset = "0x3C60910", VA = "0x3C60910")]
 	private static char ToLowerAsciiInvariant(char c)
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x6002D55")]
-	[Address(RVA = "0x4F7B400", Offset = "0x4F7B400", VA = "0x4F7B400", Slot = "9")]
+	[Address(RVA = "0x3C60F20", Offset = "0x3C60F20", VA = "0x3C60F20", Slot = "9")]
 	public virtual char ToUpper(char c)
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x6002D56")]
-	[Address(RVA = "0x4F7B960", Offset = "0x4F7B960", VA = "0x4F7B960", Slot = "10")]
+	[Address(RVA = "0x3C61480", Offset = "0x3C61480", VA = "0x3C61480", Slot = "10")]
 	public virtual string ToUpper(string str)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002D57")]
-	[Address(RVA = "0x4F7B450", Offset = "0x4F7B450", VA = "0x4F7B450")]
+	[Address(RVA = "0x3C60F70", Offset = "0x3C60F70", VA = "0x3C60F70")]
 	internal static char ToUpperAsciiInvariant(char c)
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x6002D58")]
-	[Address(RVA = "0x4F7ACE0", Offset = "0x4F7ACE0", VA = "0x4F7ACE0")]
+	[Address(RVA = "0x3C60800", Offset = "0x3C60800", VA = "0x3C60800")]
 	private static bool IsAscii(char c)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002D5A")]
-	[Address(RVA = "0x4F7BA80", Offset = "0x4F7BA80", VA = "0x4F7BA80", Slot = "0")]
+	[Address(RVA = "0x3C615A0", Offset = "0x3C615A0", VA = "0x3C615A0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002D5B")]
-	[Address(RVA = "0x4F7BB10", Offset = "0x4F7BB10", VA = "0x4F7BB10", Slot = "2")]
+	[Address(RVA = "0x3C61630", Offset = "0x3C61630", VA = "0x3C61630", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002D5C")]
-	[Address(RVA = "0x4F7BB40", Offset = "0x4F7BB40", VA = "0x4F7BB40", Slot = "3")]
+	[Address(RVA = "0x3C61660", Offset = "0x3C61660", VA = "0x3C61660", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002D5D")]
-	[Address(RVA = "0x4F7BB90", Offset = "0x4F7BB90", VA = "0x4F7BB90", Slot = "5")]
+	[Address(RVA = "0x3C616B0", Offset = "0x3C616B0", VA = "0x3C616B0", Slot = "5")]
 	private void System_002ERuntime_002ESerialization_002EIDeserializationCallback_002EOnDeserialization(object sender)
 	{
 	}
 
 	[Token(Token = "0x6002D5E")]
-	[Address(RVA = "0x4F7B9B0", Offset = "0x4F7B9B0", VA = "0x4F7B9B0")]
+	[Address(RVA = "0x3C614D0", Offset = "0x3C614D0", VA = "0x3C614D0")]
 	private string ToUpperInternal(string str)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002D5F")]
-	[Address(RVA = "0x4F7B330", Offset = "0x4F7B330", VA = "0x4F7B330")]
+	[Address(RVA = "0x3C60E50", Offset = "0x3C60E50", VA = "0x3C60E50")]
 	private string ToLowerInternal(string str)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002D60")]
-	[Address(RVA = "0x4F7B470", Offset = "0x4F7B470", VA = "0x4F7B470")]
+	[Address(RVA = "0x3C60F90", Offset = "0x3C60F90", VA = "0x3C60F90")]
 	private char ToUpperInternal(char c)
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x6002D61")]
-	[Address(RVA = "0x4F7AE10", Offset = "0x4F7AE10", VA = "0x4F7AE10")]
+	[Address(RVA = "0x3C60930", Offset = "0x3C60930", VA = "0x3C60930")]
 	private char ToLowerInternal(char c)
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x6002D62")]
-	[Address(RVA = "0x4F7BBA0", Offset = "0x4F7BBA0", VA = "0x4F7BBA0")]
+	[Address(RVA = "0x3C616C0", Offset = "0x3C616C0", VA = "0x3C616C0")]
 	internal void ToUpperAsciiInvariant(ReadOnlySpan<char> source, Span<char> destination)
 	{
 	}
 
 	[Token(Token = "0x6002D63")]
-	[Address(RVA = "0x4F7BC20", Offset = "0x4F7BC20", VA = "0x4F7BC20")]
+	[Address(RVA = "0x3C61740", Offset = "0x3C61740", VA = "0x3C61740")]
 	internal void ChangeCase(ReadOnlySpan<char> source, Span<char> destination, bool toUpper)
 	{
 	}
 
 	[Token(Token = "0x6002D64")]
-	[Address(RVA = "0x4F7BD60", Offset = "0x4F7BD60", VA = "0x4F7BD60")]
+	[Address(RVA = "0x3C61880", Offset = "0x3C61880", VA = "0x3C61880")]
 	internal TextInfo()
 	{
 	}

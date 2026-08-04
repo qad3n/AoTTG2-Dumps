@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MS.Internal.Xml.Cache.XPathDocumentBaseIterator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.XPath;
 using Il2CppDummyDll;
 
@@ -18,7 +25,7 @@ internal abstract class XPathDocumentBaseIterator : XPathNodeIterator
 	public override XPathNavigator Current
 	{
 		[Token(Token = "0x6001C6C")]
-		[Address(RVA = "0x4451970", Offset = "0x4451970", VA = "0x4451970", Slot = "8")]
+		[Address(RVA = "0x478F0D0", Offset = "0x478F0D0", VA = "0x478F0D0", Slot = "8")]
 		get
 		{
 			return null;
@@ -29,7 +36,7 @@ internal abstract class XPathDocumentBaseIterator : XPathNodeIterator
 	public override int CurrentPosition
 	{
 		[Token(Token = "0x6001C6D")]
-		[Address(RVA = "0x4451980", Offset = "0x4451980", VA = "0x4451980", Slot = "9")]
+		[Address(RVA = "0x478F0E0", Offset = "0x478F0E0", VA = "0x478F0E0", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -37,13 +44,13 @@ internal abstract class XPathDocumentBaseIterator : XPathNodeIterator
 	}
 
 	[Token(Token = "0x6001C6A")]
-	[Address(RVA = "0x44517B0", Offset = "0x44517B0", VA = "0x44517B0")]
+	[Address(RVA = "0x478EF10", Offset = "0x478EF10", VA = "0x478EF10")]
 	protected XPathDocumentBaseIterator(XPathDocumentNavigator ctxt)
 	{
 	}
 
 	[Token(Token = "0x6001C6B")]
-	[Address(RVA = "0x44518E0", Offset = "0x44518E0", VA = "0x44518E0")]
+	[Address(RVA = "0x478F040", Offset = "0x478F040", VA = "0x478F040")]
 	protected XPathDocumentBaseIterator(XPathDocumentBaseIterator iter)
 	{
 	}

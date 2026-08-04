@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.StyleComplexSelector
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -21,7 +28,7 @@ internal class StyleComplexSelector : ISerializationCallbackReceiver
 		public readonly bool negate;
 
 		[Token(Token = "0x6001837")]
-		[Address(RVA = "0x4D8FD90", Offset = "0x4D8FD90", VA = "0x4D8FD90")]
+		[Address(RVA = "0x50B76C0", Offset = "0x50B76C0", VA = "0x50B76C0")]
 		public PseudoStateData(PseudoStates state, bool negate)
 		{
 		}
@@ -74,7 +81,7 @@ internal class StyleComplexSelector : ISerializationCallbackReceiver
 	public int specificity
 	{
 		[Token(Token = "0x6001829")]
-		[Address(RVA = "0x4D8F740", Offset = "0x4D8F740", VA = "0x4D8F740")]
+		[Address(RVA = "0x50B7070", Offset = "0x50B7070", VA = "0x50B7070")]
 		get
 		{
 			return default(int);
@@ -85,14 +92,14 @@ internal class StyleComplexSelector : ISerializationCallbackReceiver
 	public StyleRule rule
 	{
 		[Token(Token = "0x600182A")]
-		[Address(RVA = "0x4D8F750", Offset = "0x4D8F750", VA = "0x4D8F750")]
+		[Address(RVA = "0x50B7080", Offset = "0x50B7080", VA = "0x50B7080")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600182B")]
-		[Address(RVA = "0x4D8F760", Offset = "0x4D8F760", VA = "0x4D8F760")]
+		[Address(RVA = "0x50B7090", Offset = "0x50B7090", VA = "0x50B7090")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -103,7 +110,7 @@ internal class StyleComplexSelector : ISerializationCallbackReceiver
 	public bool isSimple
 	{
 		[Token(Token = "0x600182C")]
-		[Address(RVA = "0x4D8F770", Offset = "0x4D8F770", VA = "0x4D8F770")]
+		[Address(RVA = "0x50B70A0", Offset = "0x50B70A0", VA = "0x50B70A0")]
 		get
 		{
 			return default(bool);
@@ -114,58 +121,58 @@ internal class StyleComplexSelector : ISerializationCallbackReceiver
 	public StyleSelector[] selectors
 	{
 		[Token(Token = "0x600182D")]
-		[Address(RVA = "0x4D8F780", Offset = "0x4D8F780", VA = "0x4D8F780")]
+		[Address(RVA = "0x50B70B0", Offset = "0x50B70B0", VA = "0x50B70B0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600182E")]
-		[Address(RVA = "0x4D8F790", Offset = "0x4D8F790", VA = "0x4D8F790")]
+		[Address(RVA = "0x50B70C0", Offset = "0x50B70C0", VA = "0x50B70C0")]
 		internal set
 		{
 		}
 	}
 
 	[Token(Token = "0x600182F")]
-	[Address(RVA = "0x4D8F7C0", Offset = "0x4D8F7C0", VA = "0x4D8F7C0", Slot = "4")]
+	[Address(RVA = "0x50B70F0", Offset = "0x50B70F0", VA = "0x50B70F0", Slot = "4")]
 	public void OnBeforeSerialize()
 	{
 	}
 
 	[Token(Token = "0x6001830")]
-	[Address(RVA = "0x4D8F7D0", Offset = "0x4D8F7D0", VA = "0x4D8F7D0", Slot = "6")]
+	[Address(RVA = "0x50B7100", Offset = "0x50B7100", VA = "0x50B7100", Slot = "6")]
 	public virtual void OnAfterDeserialize()
 	{
 	}
 
 	[Token(Token = "0x6001831")]
-	[Address(RVA = "0x4D8F7F0", Offset = "0x4D8F7F0", VA = "0x4D8F7F0")]
+	[Address(RVA = "0x50B7120", Offset = "0x50B7120", VA = "0x50B7120")]
 	internal void CachePseudoStateMasks()
 	{
 	}
 
 	[Token(Token = "0x6001832")]
-	[Address(RVA = "0x4D8FDD0", Offset = "0x4D8FDD0", VA = "0x4D8FDD0", Slot = "3")]
+	[Address(RVA = "0x50B7700", Offset = "0x50B7700", VA = "0x50B7700", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001833")]
-	[Address(RVA = "0x4D8FF40", Offset = "0x4D8FF40", VA = "0x4D8FF40")]
+	[Address(RVA = "0x50B7870", Offset = "0x50B7870", VA = "0x50B7870")]
 	private static int StyleSelectorPartCompare(StyleSelectorPart x, StyleSelectorPart y)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001834")]
-	[Address(RVA = "0x4D8FF80", Offset = "0x4D8FF80", VA = "0x4D8FF80")]
+	[Address(RVA = "0x50B78B0", Offset = "0x50B78B0", VA = "0x50B78B0")]
 	internal void CalculateHashes()
 	{
 	}
 
 	[Token(Token = "0x6001835")]
-	[Address(RVA = "0x4D90530", Offset = "0x4D90530", VA = "0x4D90530")]
+	[Address(RVA = "0x50B7E60", Offset = "0x50B7E60", VA = "0x50B7E60")]
 	public StyleComplexSelector()
 	{
 	}

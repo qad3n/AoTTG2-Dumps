@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Converters.XTextWrapper
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.Linq;
 using Il2CppDummyDll;
 
@@ -10,7 +17,7 @@ internal class XTextWrapper : XObjectWrapper
 	private XText Text
 	{
 		[Token(Token = "0x6000F72")]
-		[Address(RVA = "0x3B55660", Offset = "0x3B55660", VA = "0x3B55660")]
+		[Address(RVA = "0x3E4AFB0", Offset = "0x3E4AFB0", VA = "0x3E4AFB0")]
 		get
 		{
 			return null;
@@ -21,13 +28,13 @@ internal class XTextWrapper : XObjectWrapper
 	public override string? Value
 	{
 		[Token(Token = "0x6000F74")]
-		[Address(RVA = "0x3B556F0", Offset = "0x3B556F0", VA = "0x3B556F0", Slot = "19")]
+		[Address(RVA = "0x3E4B040", Offset = "0x3E4B040", VA = "0x3E4B040", Slot = "19")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F75")]
-		[Address(RVA = "0x3B55760", Offset = "0x3B55760", VA = "0x3B55760", Slot = "20")]
+		[Address(RVA = "0x3E4B0B0", Offset = "0x3E4B0B0", VA = "0x3E4B0B0", Slot = "20")]
 		set
 		{
 		}
@@ -37,7 +44,7 @@ internal class XTextWrapper : XObjectWrapper
 	public override IXmlNode? ParentNode
 	{
 		[Token(Token = "0x6000F76")]
-		[Address(RVA = "0x3B55800", Offset = "0x3B55800", VA = "0x3B55800", Slot = "18")]
+		[Address(RVA = "0x3E4B150", Offset = "0x3E4B150", VA = "0x3E4B150", Slot = "18")]
 		get
 		{
 			return null;
@@ -45,7 +52,7 @@ internal class XTextWrapper : XObjectWrapper
 	}
 
 	[Token(Token = "0x6000F73")]
-	[Address(RVA = "0x3B556C0", Offset = "0x3B556C0", VA = "0x3B556C0")]
+	[Address(RVA = "0x3E4B010", Offset = "0x3E4B010", VA = "0x3E4B010")]
 	public XTextWrapper(XText text)
 	{
 	}

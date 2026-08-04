@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using Il2CppDummyDll;
@@ -34,7 +41,7 @@ public struct GlyphPairAdjustmentRecord : IEquatable<GlyphPairAdjustmentRecord>
 	public GlyphAdjustmentRecord firstAdjustmentRecord
 	{
 		[Token(Token = "0x600007E")]
-		[Address(RVA = "0x4B7ED60", Offset = "0x4B7ED60", VA = "0x4B7ED60")]
+		[Address(RVA = "0x4EA6690", Offset = "0x4EA6690", VA = "0x4EA6690")]
 		get
 		{
 			return default(GlyphAdjustmentRecord);
@@ -45,7 +52,7 @@ public struct GlyphPairAdjustmentRecord : IEquatable<GlyphPairAdjustmentRecord>
 	public GlyphAdjustmentRecord secondAdjustmentRecord
 	{
 		[Token(Token = "0x600007F")]
-		[Address(RVA = "0x4B7ED70", Offset = "0x4B7ED70", VA = "0x4B7ED70")]
+		[Address(RVA = "0x4EA66A0", Offset = "0x4EA66A0", VA = "0x4EA66A0")]
 		get
 		{
 			return default(GlyphAdjustmentRecord);
@@ -56,7 +63,7 @@ public struct GlyphPairAdjustmentRecord : IEquatable<GlyphPairAdjustmentRecord>
 	public FontFeatureLookupFlags featureLookupFlags
 	{
 		[Token(Token = "0x6000080")]
-		[Address(RVA = "0x4B7ED90", Offset = "0x4B7ED90", VA = "0x4B7ED90")]
+		[Address(RVA = "0x4EA66C0", Offset = "0x4EA66C0", VA = "0x4EA66C0")]
 		get
 		{
 			return default(FontFeatureLookupFlags);
@@ -64,7 +71,7 @@ public struct GlyphPairAdjustmentRecord : IEquatable<GlyphPairAdjustmentRecord>
 	}
 
 	[Token(Token = "0x6000081")]
-	[Address(RVA = "0x4B7EDA0", Offset = "0x4B7EDA0", VA = "0x4B7EDA0", Slot = "2")]
+	[Address(RVA = "0x4EA66D0", Offset = "0x4EA66D0", VA = "0x4EA66D0", Slot = "2")]
 	[ExcludeFromDocs]
 	public override int GetHashCode()
 	{
@@ -72,7 +79,7 @@ public struct GlyphPairAdjustmentRecord : IEquatable<GlyphPairAdjustmentRecord>
 	}
 
 	[Token(Token = "0x6000082")]
-	[Address(RVA = "0x4B7EE00", Offset = "0x4B7EE00", VA = "0x4B7EE00", Slot = "0")]
+	[Address(RVA = "0x4EA6730", Offset = "0x4EA6730", VA = "0x4EA6730", Slot = "0")]
 	[ExcludeFromDocs]
 	public override bool Equals(object obj)
 	{
@@ -80,7 +87,7 @@ public struct GlyphPairAdjustmentRecord : IEquatable<GlyphPairAdjustmentRecord>
 	}
 
 	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x4B7EE70", Offset = "0x4B7EE70", VA = "0x4B7EE70", Slot = "4")]
+	[Address(RVA = "0x4EA67A0", Offset = "0x4EA67A0", VA = "0x4EA67A0", Slot = "4")]
 	[ExcludeFromDocs]
 	public bool Equals(GlyphPairAdjustmentRecord other)
 	{

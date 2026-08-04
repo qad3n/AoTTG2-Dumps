@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.Text.SpriteAsset
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -63,13 +70,13 @@ public class SpriteAsset : TextAsset
 	public FaceInfo faceInfo
 	{
 		[Token(Token = "0x60000B7")]
-		[Address(RVA = "0x4B8EFB0", Offset = "0x4B8EFB0", VA = "0x4B8EFB0")]
+		[Address(RVA = "0x4EB68E0", Offset = "0x4EB68E0", VA = "0x4EB68E0")]
 		get
 		{
 			return default(FaceInfo);
 		}
 		[Token(Token = "0x60000B8")]
-		[Address(RVA = "0x4B8EFF0", Offset = "0x4B8EFF0", VA = "0x4B8EFF0")]
+		[Address(RVA = "0x4EB6920", Offset = "0x4EB6920", VA = "0x4EB6920")]
 		internal set
 		{
 		}
@@ -79,13 +86,13 @@ public class SpriteAsset : TextAsset
 	public Texture spriteSheet
 	{
 		[Token(Token = "0x60000B9")]
-		[Address(RVA = "0x4B8F040", Offset = "0x4B8F040", VA = "0x4B8F040")]
+		[Address(RVA = "0x4EB6970", Offset = "0x4EB6970", VA = "0x4EB6970")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000BA")]
-		[Address(RVA = "0x4B8F050", Offset = "0x4B8F050", VA = "0x4B8F050")]
+		[Address(RVA = "0x4EB6980", Offset = "0x4EB6980", VA = "0x4EB6980")]
 		internal set
 		{
 		}
@@ -95,13 +102,13 @@ public class SpriteAsset : TextAsset
 	public List<SpriteCharacter> spriteCharacterTable
 	{
 		[Token(Token = "0x60000BB")]
-		[Address(RVA = "0x4B8F070", Offset = "0x4B8F070", VA = "0x4B8F070")]
+		[Address(RVA = "0x4EB69A0", Offset = "0x4EB69A0", VA = "0x4EB69A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000BC")]
-		[Address(RVA = "0x4B8F680", Offset = "0x4B8F680", VA = "0x4B8F680")]
+		[Address(RVA = "0x4EB6FB0", Offset = "0x4EB6FB0", VA = "0x4EB6FB0")]
 		internal set
 		{
 		}
@@ -111,13 +118,13 @@ public class SpriteAsset : TextAsset
 	public Dictionary<uint, SpriteCharacter> spriteCharacterLookupTable
 	{
 		[Token(Token = "0x60000BD")]
-		[Address(RVA = "0x4B8B830", Offset = "0x4B8B830", VA = "0x4B8B830")]
+		[Address(RVA = "0x4EB3160", Offset = "0x4EB3160", VA = "0x4EB3160")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000BE")]
-		[Address(RVA = "0x4B8F6A0", Offset = "0x4B8F6A0", VA = "0x4B8F6A0")]
+		[Address(RVA = "0x4EB6FD0", Offset = "0x4EB6FD0", VA = "0x4EB6FD0")]
 		internal set
 		{
 		}
@@ -127,113 +134,113 @@ public class SpriteAsset : TextAsset
 	public List<SpriteGlyph> spriteGlyphTable
 	{
 		[Token(Token = "0x60000BF")]
-		[Address(RVA = "0x4B8F6C0", Offset = "0x4B8F6C0", VA = "0x4B8F6C0")]
+		[Address(RVA = "0x4EB6FF0", Offset = "0x4EB6FF0", VA = "0x4EB6FF0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000C0")]
-		[Address(RVA = "0x4B8F6D0", Offset = "0x4B8F6D0", VA = "0x4B8F6D0")]
+		[Address(RVA = "0x4EB7000", Offset = "0x4EB7000", VA = "0x4EB7000")]
 		internal set
 		{
 		}
 	}
 
 	[Token(Token = "0x60000C1")]
-	[Address(RVA = "0x4B8F6F0", Offset = "0x4B8F6F0", VA = "0x4B8F6F0")]
+	[Address(RVA = "0x4EB7020", Offset = "0x4EB7020", VA = "0x4EB7020")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x60000C2")]
-	[Address(RVA = "0x4B8F0A0", Offset = "0x4B8F0A0", VA = "0x4B8F0A0")]
+	[Address(RVA = "0x4EB69D0", Offset = "0x4EB69D0", VA = "0x4EB69D0")]
 	public void UpdateLookupTables()
 	{
 	}
 
 	[Token(Token = "0x60000C3")]
-	[Address(RVA = "0x4B8F710", Offset = "0x4B8F710", VA = "0x4B8F710")]
+	[Address(RVA = "0x4EB7040", Offset = "0x4EB7040", VA = "0x4EB7040")]
 	public int GetSpriteIndexFromHashcode(int hashCode)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000C4")]
-	[Address(RVA = "0x4B8F7A0", Offset = "0x4B8F7A0", VA = "0x4B8F7A0")]
+	[Address(RVA = "0x4EB70D0", Offset = "0x4EB70D0", VA = "0x4EB70D0")]
 	public int GetSpriteIndexFromUnicode(uint unicode)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000C5")]
-	[Address(RVA = "0x4B8F840", Offset = "0x4B8F840", VA = "0x4B8F840")]
+	[Address(RVA = "0x4EB7170", Offset = "0x4EB7170", VA = "0x4EB7170")]
 	public int GetSpriteIndexFromName(string name)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x4B8F8F0", Offset = "0x4B8F8F0", VA = "0x4B8F8F0")]
+	[Address(RVA = "0x4EB7220", Offset = "0x4EB7220", VA = "0x4EB7220")]
 	public static SpriteAsset SearchForSpriteByUnicode(SpriteAsset spriteAsset, uint unicode, bool includeFallbacks, out int spriteIndex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000C7")]
-	[Address(RVA = "0x4B8FB30", Offset = "0x4B8FB30", VA = "0x4B8FB30")]
+	[Address(RVA = "0x4EB7460", Offset = "0x4EB7460", VA = "0x4EB7460")]
 	private static SpriteAsset SearchForSpriteByUnicodeInternal(List<SpriteAsset> spriteAssets, uint unicode, bool includeFallbacks, out int spriteIndex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000C8")]
-	[Address(RVA = "0x4B8FCC0", Offset = "0x4B8FCC0", VA = "0x4B8FCC0")]
+	[Address(RVA = "0x4EB75F0", Offset = "0x4EB75F0", VA = "0x4EB75F0")]
 	private static SpriteAsset SearchForSpriteByUnicodeInternal(SpriteAsset spriteAsset, uint unicode, bool includeFallbacks, out int spriteIndex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000C9")]
-	[Address(RVA = "0x4B8FDE0", Offset = "0x4B8FDE0", VA = "0x4B8FDE0")]
+	[Address(RVA = "0x4EB7710", Offset = "0x4EB7710", VA = "0x4EB7710")]
 	public static SpriteAsset SearchForSpriteByHashCode(SpriteAsset spriteAsset, int hashCode, bool includeFallbacks, out int spriteIndex, [Optional] TextSettings textSettings)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CA")]
-	[Address(RVA = "0x4B90290", Offset = "0x4B90290", VA = "0x4B90290")]
+	[Address(RVA = "0x4EB7BC0", Offset = "0x4EB7BC0", VA = "0x4EB7BC0")]
 	private static SpriteAsset SearchForSpriteByHashCodeInternal(List<SpriteAsset> spriteAssets, int hashCode, bool searchFallbacks, out int spriteIndex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CB")]
-	[Address(RVA = "0x4B90430", Offset = "0x4B90430", VA = "0x4B90430")]
+	[Address(RVA = "0x4EB7D60", Offset = "0x4EB7D60", VA = "0x4EB7D60")]
 	private static SpriteAsset SearchForSpriteByHashCodeInternal(SpriteAsset spriteAsset, int hashCode, bool searchFallbacks, out int spriteIndex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CC")]
-	[Address(RVA = "0x4B90540", Offset = "0x4B90540", VA = "0x4B90540")]
+	[Address(RVA = "0x4EB7E70", Offset = "0x4EB7E70", VA = "0x4EB7E70")]
 	public void SortGlyphTable()
 	{
 	}
 
 	[Token(Token = "0x60000CD")]
-	[Address(RVA = "0x4B906A0", Offset = "0x4B906A0", VA = "0x4B906A0")]
+	[Address(RVA = "0x4EB7FD0", Offset = "0x4EB7FD0", VA = "0x4EB7FD0")]
 	internal void SortCharacterTable()
 	{
 	}
 
 	[Token(Token = "0x60000CE")]
-	[Address(RVA = "0x4B90800", Offset = "0x4B90800", VA = "0x4B90800")]
+	[Address(RVA = "0x4EB8130", Offset = "0x4EB8130", VA = "0x4EB8130")]
 	internal void SortGlyphAndCharacterTables()
 	{
 	}
 
 	[Token(Token = "0x60000CF")]
-	[Address(RVA = "0x4B90820", Offset = "0x4B90820", VA = "0x4B90820")]
+	[Address(RVA = "0x4EB8150", Offset = "0x4EB8150", VA = "0x4EB8150")]
 	public SpriteAsset()
 	{
 	}

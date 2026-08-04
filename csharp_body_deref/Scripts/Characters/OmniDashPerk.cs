@@ -1,85 +1,92 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Characters.OmniDashPerk
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Characters/OmniDashPerk.c
+// Prior real C# source (older reference): Assets/Scripts/Characters/Human/Perks/OmniDashPerk.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Assets.Scripts.Characters.Human.Perks;
 using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x20004CC")]
+[Token(Token = "0x2000511")]
 internal class OmniDashPerk : DivisivePowerPerk
 {
-	[Token(Token = "0x1700096D")]
+	[Token(Token = "0x170009D7")]
 	public override string Name
 	{
-		[Token(Token = "0x6003342")]
-		[Address(RVA = "0x3EDA650", Offset = "0x3EDA650", VA = "0x3EDA650", Slot = "4")]
+		[Token(Token = "0x6003550")]
+		[Address(RVA = "0x41E6F10", Offset = "0x41E6F10", VA = "0x41E6F10", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700096E")]
+	[Token(Token = "0x170009D8")]
 	public override int MaxPoints
 	{
-		[Token(Token = "0x6003343")]
-		[Address(RVA = "0x3EDA680", Offset = "0x3EDA680", VA = "0x3EDA680", Slot = "5")]
+		[Token(Token = "0x6003551")]
+		[Address(RVA = "0x41E6F40", Offset = "0x41E6F40", VA = "0x41E6F40", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700096F")]
+	[Token(Token = "0x170009D9")]
 	protected override float MaxPower
 	{
-		[Token(Token = "0x6003344")]
-		[Address(RVA = "0x3EDA690", Offset = "0x3EDA690", VA = "0x3EDA690", Slot = "9")]
+		[Token(Token = "0x6003552")]
+		[Address(RVA = "0x41E6F50", Offset = "0x41E6F50", VA = "0x41E6F50", Slot = "9")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000970")]
+	[Token(Token = "0x170009DA")]
 	protected override float MinPower
 	{
-		[Token(Token = "0x6003345")]
-		[Address(RVA = "0x3EDA6A0", Offset = "0x3EDA6A0", VA = "0x3EDA6A0", Slot = "10")]
+		[Token(Token = "0x6003553")]
+		[Address(RVA = "0x41E6F60", Offset = "0x41E6F60", VA = "0x41E6F60", Slot = "10")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000971")]
+	[Token(Token = "0x170009DB")]
 	protected override float PowerUsageDivisor
 	{
-		[Token(Token = "0x6003346")]
-		[Address(RVA = "0x3EDA6B0", Offset = "0x3EDA6B0", VA = "0x3EDA6B0", Slot = "11")]
+		[Token(Token = "0x6003554")]
+		[Address(RVA = "0x41E6F70", Offset = "0x41E6F70", VA = "0x41E6F70", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000972")]
+	[Token(Token = "0x170009DC")]
 	protected override float LinearRecoveryRate
 	{
-		[Token(Token = "0x6003347")]
-		[Address(RVA = "0x3EDA6C0", Offset = "0x3EDA6C0", VA = "0x3EDA6C0", Slot = "12")]
+		[Token(Token = "0x6003555")]
+		[Address(RVA = "0x41E6F80", Offset = "0x41E6F80", VA = "0x41E6F80", Slot = "12")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x6003348")]
-	[Address(RVA = "0x3EDA6D0", Offset = "0x3EDA6D0", VA = "0x3EDA6D0", Slot = "6")]
+	[Token(Token = "0x6003556")]
+	[Address(RVA = "0x41E6F90", Offset = "0x41E6F90", VA = "0x41E6F90", Slot = "6")]
 	protected override void SetupRequirements()
 	{
 	}
 
-	[Token(Token = "0x6003349")]
-	[Address(RVA = "0x3ED86F0", Offset = "0x3ED86F0", VA = "0x3ED86F0")]
+	[Token(Token = "0x6003557")]
+	[Address(RVA = "0x41E4FB0", Offset = "0x41E4FB0", VA = "0x41E4FB0")]
 	public OmniDashPerk()
 	{
 	}

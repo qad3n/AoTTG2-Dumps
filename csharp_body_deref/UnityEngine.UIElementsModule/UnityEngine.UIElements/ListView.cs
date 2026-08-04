@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.ListView
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using Unity.Properties;
@@ -11,7 +18,7 @@ public class ListView : BaseListView
 	public new class UxmlFactory : UxmlFactory<ListView, UxmlTraits>
 	{
 		[Token(Token = "0x6000543")]
-		[Address(RVA = "0x4C21BB0", Offset = "0x4C21BB0", VA = "0x4C21BB0")]
+		[Address(RVA = "0x4F494E0", Offset = "0x4F494E0", VA = "0x4F494E0")]
 		public UxmlFactory()
 		{
 		}
@@ -21,7 +28,7 @@ public class ListView : BaseListView
 	public new class UxmlTraits : BaseListView.UxmlTraits
 	{
 		[Token(Token = "0x6000544")]
-		[Address(RVA = "0x4C21BF0", Offset = "0x4C21BF0", VA = "0x4C21BF0")]
+		[Address(RVA = "0x4F49520", Offset = "0x4F49520", VA = "0x4F49520")]
 		public UxmlTraits()
 		{
 		}
@@ -64,13 +71,13 @@ public class ListView : BaseListView
 	public Func<VisualElement> makeItem
 	{
 		[Token(Token = "0x6000537")]
-		[Address(RVA = "0x4C215D0", Offset = "0x4C215D0", VA = "0x4C215D0")]
+		[Address(RVA = "0x4F48F00", Offset = "0x4F48F00", VA = "0x4F48F00")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000538")]
-		[Address(RVA = "0x4C215E0", Offset = "0x4C215E0", VA = "0x4C215E0")]
+		[Address(RVA = "0x4F48F10", Offset = "0x4F48F10", VA = "0x4F48F10")]
 		set
 		{
 		}
@@ -81,13 +88,13 @@ public class ListView : BaseListView
 	public Action<VisualElement, int> bindItem
 	{
 		[Token(Token = "0x6000539")]
-		[Address(RVA = "0x4C216A0", Offset = "0x4C216A0", VA = "0x4C216A0")]
+		[Address(RVA = "0x4F48FD0", Offset = "0x4F48FD0", VA = "0x4F48FD0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600053A")]
-		[Address(RVA = "0x4C216B0", Offset = "0x4C216B0", VA = "0x4C216B0")]
+		[Address(RVA = "0x4F48FE0", Offset = "0x4F48FE0", VA = "0x4F48FE0")]
 		set
 		{
 		}
@@ -98,13 +105,13 @@ public class ListView : BaseListView
 	public Action<VisualElement, int> unbindItem
 	{
 		[Token(Token = "0x600053B")]
-		[Address(RVA = "0x4C21760", Offset = "0x4C21760", VA = "0x4C21760")]
+		[Address(RVA = "0x4F49090", Offset = "0x4F49090", VA = "0x4F49090")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600053C")]
-		[Address(RVA = "0x4C21770", Offset = "0x4C21770", VA = "0x4C21770")]
+		[Address(RVA = "0x4F490A0", Offset = "0x4F490A0", VA = "0x4F490A0")]
 		set
 		{
 		}
@@ -115,34 +122,34 @@ public class ListView : BaseListView
 	public Action<VisualElement> destroyItem
 	{
 		[Token(Token = "0x600053D")]
-		[Address(RVA = "0x4C21810", Offset = "0x4C21810", VA = "0x4C21810")]
+		[Address(RVA = "0x4F49140", Offset = "0x4F49140", VA = "0x4F49140")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600053E")]
-		[Address(RVA = "0x4C21820", Offset = "0x4C21820", VA = "0x4C21820")]
+		[Address(RVA = "0x4F49150", Offset = "0x4F49150", VA = "0x4F49150")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600053F")]
-	[Address(RVA = "0x4C218C0", Offset = "0x4C218C0", VA = "0x4C218C0", Slot = "108")]
+	[Address(RVA = "0x4F491F0", Offset = "0x4F491F0", VA = "0x4F491F0", Slot = "108")]
 	internal override bool HasValidDataAndBindings()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000540")]
-	[Address(RVA = "0x4C21900", Offset = "0x4C21900", VA = "0x4C21900", Slot = "104")]
+	[Address(RVA = "0x4F49230", Offset = "0x4F49230", VA = "0x4F49230", Slot = "104")]
 	protected override CollectionViewController CreateViewController()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000541")]
-	[Address(RVA = "0x4C21940", Offset = "0x4C21940", VA = "0x4C21940")]
+	[Address(RVA = "0x4F49270", Offset = "0x4F49270", VA = "0x4F49270")]
 	public ListView()
 	{
 	}

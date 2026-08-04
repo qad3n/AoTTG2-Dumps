@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.CachedReflectionInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Reflection;
 using Il2CppDummyDll;
 
@@ -62,7 +69,7 @@ internal static class CachedReflectionInfo
 	public static MethodInfo CallSiteOps_SetNotMatched
 	{
 		[Token(Token = "0x60001A8")]
-		[Address(RVA = "0x416CF50", Offset = "0x416CF50", VA = "0x416CF50")]
+		[Address(RVA = "0x4492050", Offset = "0x4492050", VA = "0x4492050")]
 		get
 		{
 			return null;
@@ -73,7 +80,7 @@ internal static class CachedReflectionInfo
 	public static MethodInfo CallSiteOps_CreateMatchmaker
 	{
 		[Token(Token = "0x60001A9")]
-		[Address(RVA = "0x416D020", Offset = "0x416D020", VA = "0x416D020")]
+		[Address(RVA = "0x4492120", Offset = "0x4492120", VA = "0x4492120")]
 		get
 		{
 			return null;
@@ -84,7 +91,7 @@ internal static class CachedReflectionInfo
 	public static MethodInfo CallSiteOps_GetMatch
 	{
 		[Token(Token = "0x60001AA")]
-		[Address(RVA = "0x416D0F0", Offset = "0x416D0F0", VA = "0x416D0F0")]
+		[Address(RVA = "0x44921F0", Offset = "0x44921F0", VA = "0x44921F0")]
 		get
 		{
 			return null;
@@ -95,7 +102,7 @@ internal static class CachedReflectionInfo
 	public static MethodInfo CallSiteOps_ClearMatch
 	{
 		[Token(Token = "0x60001AB")]
-		[Address(RVA = "0x416D1C0", Offset = "0x416D1C0", VA = "0x416D1C0")]
+		[Address(RVA = "0x44922C0", Offset = "0x44922C0", VA = "0x44922C0")]
 		get
 		{
 			return null;
@@ -106,7 +113,7 @@ internal static class CachedReflectionInfo
 	public static MethodInfo CallSiteOps_UpdateRules
 	{
 		[Token(Token = "0x60001AC")]
-		[Address(RVA = "0x416D290", Offset = "0x416D290", VA = "0x416D290")]
+		[Address(RVA = "0x4492390", Offset = "0x4492390", VA = "0x4492390")]
 		get
 		{
 			return null;
@@ -117,7 +124,7 @@ internal static class CachedReflectionInfo
 	public static MethodInfo CallSiteOps_GetRules
 	{
 		[Token(Token = "0x60001AD")]
-		[Address(RVA = "0x416D360", Offset = "0x416D360", VA = "0x416D360")]
+		[Address(RVA = "0x4492460", Offset = "0x4492460", VA = "0x4492460")]
 		get
 		{
 			return null;
@@ -128,7 +135,7 @@ internal static class CachedReflectionInfo
 	public static MethodInfo CallSiteOps_GetRuleCache
 	{
 		[Token(Token = "0x60001AE")]
-		[Address(RVA = "0x416D430", Offset = "0x416D430", VA = "0x416D430")]
+		[Address(RVA = "0x4492530", Offset = "0x4492530", VA = "0x4492530")]
 		get
 		{
 			return null;
@@ -139,7 +146,7 @@ internal static class CachedReflectionInfo
 	public static MethodInfo CallSiteOps_GetCachedRules
 	{
 		[Token(Token = "0x60001AF")]
-		[Address(RVA = "0x416D500", Offset = "0x416D500", VA = "0x416D500")]
+		[Address(RVA = "0x4492600", Offset = "0x4492600", VA = "0x4492600")]
 		get
 		{
 			return null;
@@ -150,7 +157,7 @@ internal static class CachedReflectionInfo
 	public static MethodInfo CallSiteOps_AddRule
 	{
 		[Token(Token = "0x60001B0")]
-		[Address(RVA = "0x416D5D0", Offset = "0x416D5D0", VA = "0x416D5D0")]
+		[Address(RVA = "0x44926D0", Offset = "0x44926D0", VA = "0x44926D0")]
 		get
 		{
 			return null;
@@ -161,7 +168,7 @@ internal static class CachedReflectionInfo
 	public static MethodInfo CallSiteOps_MoveRule
 	{
 		[Token(Token = "0x60001B1")]
-		[Address(RVA = "0x416D6A0", Offset = "0x416D6A0", VA = "0x416D6A0")]
+		[Address(RVA = "0x44927A0", Offset = "0x44927A0", VA = "0x44927A0")]
 		get
 		{
 			return null;
@@ -172,7 +179,7 @@ internal static class CachedReflectionInfo
 	public static MethodInfo CallSiteOps_Bind
 	{
 		[Token(Token = "0x60001B2")]
-		[Address(RVA = "0x416D770", Offset = "0x416D770", VA = "0x416D770")]
+		[Address(RVA = "0x4492870", Offset = "0x4492870", VA = "0x4492870")]
 		get
 		{
 			return null;
@@ -183,7 +190,7 @@ internal static class CachedReflectionInfo
 	public static MethodInfo String_op_Equality_String_String
 	{
 		[Token(Token = "0x60001B3")]
-		[Address(RVA = "0x416D840", Offset = "0x416D840", VA = "0x416D840")]
+		[Address(RVA = "0x4492940", Offset = "0x4492940", VA = "0x4492940")]
 		get
 		{
 			return null;
@@ -194,7 +201,7 @@ internal static class CachedReflectionInfo
 	public static MethodInfo Math_Pow_Double_Double
 	{
 		[Token(Token = "0x60001B4")]
-		[Address(RVA = "0x416DA00", Offset = "0x416DA00", VA = "0x416DA00")]
+		[Address(RVA = "0x4492B00", Offset = "0x4492B00", VA = "0x4492B00")]
 		get
 		{
 			return null;

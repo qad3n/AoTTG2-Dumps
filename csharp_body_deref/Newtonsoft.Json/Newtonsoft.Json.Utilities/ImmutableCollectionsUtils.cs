@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Utilities.ImmutableCollectionsUtils
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
@@ -17,14 +24,14 @@ internal static class ImmutableCollectionsUtils
 		public string ContractTypeName
 		{
 			[Token(Token = "0x6000636")]
-			[Address(RVA = "0x3AC5B20", Offset = "0x3AC5B20", VA = "0x3AC5B20")]
+			[Address(RVA = "0x3DBB470", Offset = "0x3DBB470", VA = "0x3DBB470")]
 			[CompilerGenerated]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x6000637")]
-			[Address(RVA = "0x3AC5B30", Offset = "0x3AC5B30", VA = "0x3AC5B30")]
+			[Address(RVA = "0x3DBB480", Offset = "0x3DBB480", VA = "0x3DBB480")]
 			[CompilerGenerated]
 			set
 			{
@@ -35,14 +42,14 @@ internal static class ImmutableCollectionsUtils
 		public string CreatedTypeName
 		{
 			[Token(Token = "0x6000638")]
-			[Address(RVA = "0x3AC5B40", Offset = "0x3AC5B40", VA = "0x3AC5B40")]
+			[Address(RVA = "0x3DBB490", Offset = "0x3DBB490", VA = "0x3DBB490")]
 			[CompilerGenerated]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x6000639")]
-			[Address(RVA = "0x3AC5B50", Offset = "0x3AC5B50", VA = "0x3AC5B50")]
+			[Address(RVA = "0x3DBB4A0", Offset = "0x3DBB4A0", VA = "0x3DBB4A0")]
 			[CompilerGenerated]
 			set
 			{
@@ -53,14 +60,14 @@ internal static class ImmutableCollectionsUtils
 		public string BuilderTypeName
 		{
 			[Token(Token = "0x600063A")]
-			[Address(RVA = "0x3AC5B60", Offset = "0x3AC5B60", VA = "0x3AC5B60")]
+			[Address(RVA = "0x3DBB4B0", Offset = "0x3DBB4B0", VA = "0x3DBB4B0")]
 			[CompilerGenerated]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x600063B")]
-			[Address(RVA = "0x3AC5B70", Offset = "0x3AC5B70", VA = "0x3AC5B70")]
+			[Address(RVA = "0x3DBB4C0", Offset = "0x3DBB4C0", VA = "0x3DBB4C0")]
 			[CompilerGenerated]
 			set
 			{
@@ -68,7 +75,7 @@ internal static class ImmutableCollectionsUtils
 		}
 
 		[Token(Token = "0x6000635")]
-		[Address(RVA = "0x3AC5AC0", Offset = "0x3AC5AC0", VA = "0x3AC5AC0")]
+		[Address(RVA = "0x3DBB410", Offset = "0x3DBB410", VA = "0x3DBB410")]
 		public ImmutableCollectionTypeInfo(string contractTypeName, string createdTypeName, string builderTypeName)
 		{
 		}
@@ -146,14 +153,14 @@ internal static class ImmutableCollectionsUtils
 	private static readonly IList<ImmutableCollectionTypeInfo> DictionaryContractImmutableCollectionDefinitions;
 
 	[Token(Token = "0x6000632")]
-	[Address(RVA = "0x3AC44D0", Offset = "0x3AC44D0", VA = "0x3AC44D0")]
+	[Address(RVA = "0x3DB9E20", Offset = "0x3DB9E20", VA = "0x3DB9E20")]
 	internal static bool TryBuildImmutableForArrayContract(Type underlyingType, Type collectionItemType, [NotNullWhen(true)] out Type? createdType, [NotNullWhen(true)] out ObjectConstructor<object>? parameterizedCreator)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000633")]
-	[Address(RVA = "0x3AC49C0", Offset = "0x3AC49C0", VA = "0x3AC49C0")]
+	[Address(RVA = "0x3DBA310", Offset = "0x3DBA310", VA = "0x3DBA310")]
 	internal static bool TryBuildImmutableForDictionaryContract(Type underlyingType, Type keyItemType, Type valueItemType, [NotNullWhen(true)] out Type? createdType, [NotNullWhen(true)] out ObjectConstructor<object>? parameterizedCreator)
 	{
 		return default(bool);

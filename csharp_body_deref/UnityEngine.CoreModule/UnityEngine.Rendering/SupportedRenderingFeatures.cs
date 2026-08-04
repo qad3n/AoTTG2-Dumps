@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.SupportedRenderingFeatures
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -6,10 +13,10 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000302")]
+[Token(Token = "0x2000305")]
 public class SupportedRenderingFeatures
 {
-	[Token(Token = "0x2000303")]
+	[Token(Token = "0x2000306")]
 	[Flags]
 	public enum ReflectionProbeModes
 	{
@@ -19,7 +26,7 @@ public class SupportedRenderingFeatures
 		Rotation = 1
 	}
 
-	[Token(Token = "0x2000304")]
+	[Token(Token = "0x2000307")]
 	[Flags]
 	public enum LightmapMixedBakeModes
 	{
@@ -169,39 +176,27 @@ public class SupportedRenderingFeatures
 	[CompilerGenerated]
 	private string _003CoverridesLightProbeSystemWarningMessage_003Ek__BackingField;
 
-	[Token(Token = "0x170002AE")]
+	[Token(Token = "0x170002AF")]
 	public static SupportedRenderingFeatures active
 	{
-		[Token(Token = "0x60010DB")]
-		[Address(RVA = "0x4B0BF80", Offset = "0x4B0BF80", VA = "0x4B0BF80")]
+		[Token(Token = "0x60010DD")]
+		[Address(RVA = "0x4E338B0", Offset = "0x4E338B0", VA = "0x4E338B0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60010DC")]
-		[Address(RVA = "0x4B083A0", Offset = "0x4B083A0", VA = "0x4B083A0")]
+		[Token(Token = "0x60010DE")]
+		[Address(RVA = "0x4E2FCD0", Offset = "0x4E2FCD0", VA = "0x4E2FCD0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002AF")]
+	[Token(Token = "0x170002B0")]
 	public LightmapMixedBakeModes defaultMixedLightingModes
 	{
-		[Token(Token = "0x60010DD")]
-		[Address(RVA = "0x4B0C0E0", Offset = "0x4B0C0E0", VA = "0x4B0C0E0")]
-		[CompilerGenerated]
-		get
-		{
-			return default(LightmapMixedBakeModes);
-		}
-	}
-
-	[Token(Token = "0x170002B0")]
-	public LightmapMixedBakeModes mixedLightingModes
-	{
-		[Token(Token = "0x60010DE")]
-		[Address(RVA = "0x4B0C0F0", Offset = "0x4B0C0F0", VA = "0x4B0C0F0")]
+		[Token(Token = "0x60010DF")]
+		[Address(RVA = "0x4E33A10", Offset = "0x4E33A10", VA = "0x4E33A10")]
 		[CompilerGenerated]
 		get
 		{
@@ -210,10 +205,22 @@ public class SupportedRenderingFeatures
 	}
 
 	[Token(Token = "0x170002B1")]
+	public LightmapMixedBakeModes mixedLightingModes
+	{
+		[Token(Token = "0x60010E0")]
+		[Address(RVA = "0x4E33A20", Offset = "0x4E33A20", VA = "0x4E33A20")]
+		[CompilerGenerated]
+		get
+		{
+			return default(LightmapMixedBakeModes);
+		}
+	}
+
+	[Token(Token = "0x170002B2")]
 	public LightmapBakeType lightmapBakeTypes
 	{
-		[Token(Token = "0x60010DF")]
-		[Address(RVA = "0x4B0C100", Offset = "0x4B0C100", VA = "0x4B0C100")]
+		[Token(Token = "0x60010E1")]
+		[Address(RVA = "0x4E33A30", Offset = "0x4E33A30", VA = "0x4E33A30")]
 		[CompilerGenerated]
 		get
 		{
@@ -221,11 +228,11 @@ public class SupportedRenderingFeatures
 		}
 	}
 
-	[Token(Token = "0x170002B2")]
+	[Token(Token = "0x170002B3")]
 	public LightmapsMode lightmapsModes
 	{
-		[Token(Token = "0x60010E0")]
-		[Address(RVA = "0x4B0C110", Offset = "0x4B0C110", VA = "0x4B0C110")]
+		[Token(Token = "0x60010E2")]
+		[Address(RVA = "0x4E33A40", Offset = "0x4E33A40", VA = "0x4E33A40")]
 		[CompilerGenerated]
 		get
 		{
@@ -233,23 +240,11 @@ public class SupportedRenderingFeatures
 		}
 	}
 
-	[Token(Token = "0x170002B3")]
+	[Token(Token = "0x170002B4")]
 	public bool enlighten
 	{
-		[Token(Token = "0x60010E1")]
-		[Address(RVA = "0x4B0C120", Offset = "0x4B0C120", VA = "0x4B0C120")]
-		[CompilerGenerated]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x170002B4")]
-	public bool rendersUIOverlay
-	{
-		[Token(Token = "0x60010E2")]
-		[Address(RVA = "0x4B0C130", Offset = "0x4B0C130", VA = "0x4B0C130")]
+		[Token(Token = "0x60010E3")]
+		[Address(RVA = "0x4E33A50", Offset = "0x4E33A50", VA = "0x4E33A50")]
 		[CompilerGenerated]
 		get
 		{
@@ -258,10 +253,10 @@ public class SupportedRenderingFeatures
 	}
 
 	[Token(Token = "0x170002B5")]
-	public bool autoAmbientProbeBaking
+	public bool rendersUIOverlay
 	{
-		[Token(Token = "0x60010E3")]
-		[Address(RVA = "0x4B0C140", Offset = "0x4B0C140", VA = "0x4B0C140")]
+		[Token(Token = "0x60010E4")]
+		[Address(RVA = "0x4E33A60", Offset = "0x4E33A60", VA = "0x4E33A60")]
 		[CompilerGenerated]
 		get
 		{
@@ -270,10 +265,10 @@ public class SupportedRenderingFeatures
 	}
 
 	[Token(Token = "0x170002B6")]
-	public bool autoDefaultReflectionProbeBaking
+	public bool autoAmbientProbeBaking
 	{
-		[Token(Token = "0x60010E4")]
-		[Address(RVA = "0x4B0C150", Offset = "0x4B0C150", VA = "0x4B0C150")]
+		[Token(Token = "0x60010E5")]
+		[Address(RVA = "0x4E33A70", Offset = "0x4E33A70", VA = "0x4E33A70")]
 		[CompilerGenerated]
 		get
 		{
@@ -282,10 +277,10 @@ public class SupportedRenderingFeatures
 	}
 
 	[Token(Token = "0x170002B7")]
-	public bool overridesLightProbeSystem
+	public bool autoDefaultReflectionProbeBaking
 	{
-		[Token(Token = "0x60010E5")]
-		[Address(RVA = "0x4B0C160", Offset = "0x4B0C160", VA = "0x4B0C160")]
+		[Token(Token = "0x60010E6")]
+		[Address(RVA = "0x4E33A80", Offset = "0x4E33A80", VA = "0x4E33A80")]
 		[CompilerGenerated]
 		get
 		{
@@ -293,92 +288,104 @@ public class SupportedRenderingFeatures
 		}
 	}
 
-	[Token(Token = "0x60010E6")]
-	[Address(RVA = "0x4B0C170", Offset = "0x4B0C170", VA = "0x4B0C170")]
+	[Token(Token = "0x170002B8")]
+	public bool overridesLightProbeSystem
+	{
+		[Token(Token = "0x60010E7")]
+		[Address(RVA = "0x4E33A90", Offset = "0x4E33A90", VA = "0x4E33A90")]
+		[CompilerGenerated]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x60010E8")]
+	[Address(RVA = "0x4E33AA0", Offset = "0x4E33AA0", VA = "0x4E33AA0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void FallbackMixedLightingModeByRef(IntPtr fallbackModePtr)
 	{
 	}
 
-	[Token(Token = "0x60010E7")]
-	[Address(RVA = "0x4B0C340", Offset = "0x4B0C340", VA = "0x4B0C340")]
+	[Token(Token = "0x60010E9")]
+	[Address(RVA = "0x4E33C70", Offset = "0x4E33C70", VA = "0x4E33C70")]
 	internal static bool IsMixedLightingModeSupported(MixedLightingMode mixedMode)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60010E8")]
-	[Address(RVA = "0x4B0C3A0", Offset = "0x4B0C3A0", VA = "0x4B0C3A0")]
+	[Token(Token = "0x60010EA")]
+	[Address(RVA = "0x4E33CD0", Offset = "0x4E33CD0", VA = "0x4E33CD0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void IsMixedLightingModeSupportedByRef(MixedLightingMode mixedMode, IntPtr isSupportedPtr)
 	{
 	}
 
-	[Token(Token = "0x60010E9")]
-	[Address(RVA = "0x4B0C500", Offset = "0x4B0C500", VA = "0x4B0C500")]
+	[Token(Token = "0x60010EB")]
+	[Address(RVA = "0x4E33E30", Offset = "0x4E33E30", VA = "0x4E33E30")]
 	internal static bool IsLightmapBakeTypeSupported(LightmapBakeType bakeType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60010EA")]
-	[Address(RVA = "0x4B0C560", Offset = "0x4B0C560", VA = "0x4B0C560")]
+	[Token(Token = "0x60010EC")]
+	[Address(RVA = "0x4E33E90", Offset = "0x4E33E90", VA = "0x4E33E90")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void IsLightmapBakeTypeSupportedByRef(LightmapBakeType bakeType, IntPtr isSupportedPtr)
 	{
 	}
 
-	[Token(Token = "0x60010EB")]
-	[Address(RVA = "0x4B0C720", Offset = "0x4B0C720", VA = "0x4B0C720")]
+	[Token(Token = "0x60010ED")]
+	[Address(RVA = "0x4E34050", Offset = "0x4E34050", VA = "0x4E34050")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void IsLightmapsModeSupportedByRef(LightmapsMode mode, IntPtr isSupportedPtr)
 	{
 	}
 
-	[Token(Token = "0x60010EC")]
-	[Address(RVA = "0x4B0C790", Offset = "0x4B0C790", VA = "0x4B0C790")]
+	[Token(Token = "0x60010EE")]
+	[Address(RVA = "0x4E340C0", Offset = "0x4E340C0", VA = "0x4E340C0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void IsLightmapperSupportedByRef(int lightmapper, IntPtr isSupportedPtr)
 	{
 	}
 
-	[Token(Token = "0x60010ED")]
-	[Address(RVA = "0x4B0C7B0", Offset = "0x4B0C7B0", VA = "0x4B0C7B0")]
+	[Token(Token = "0x60010EF")]
+	[Address(RVA = "0x4E340E0", Offset = "0x4E340E0", VA = "0x4E340E0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void IsUIOverlayRenderedBySRP(IntPtr isSupportedPtr)
 	{
 	}
 
-	[Token(Token = "0x60010EE")]
-	[Address(RVA = "0x4B0C810", Offset = "0x4B0C810", VA = "0x4B0C810")]
+	[Token(Token = "0x60010F0")]
+	[Address(RVA = "0x4E34140", Offset = "0x4E34140", VA = "0x4E34140")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void IsAutoAmbientProbeBakingSupported(IntPtr isSupportedPtr)
 	{
 	}
 
-	[Token(Token = "0x60010EF")]
-	[Address(RVA = "0x4B0C870", Offset = "0x4B0C870", VA = "0x4B0C870")]
+	[Token(Token = "0x60010F1")]
+	[Address(RVA = "0x4E341A0", Offset = "0x4E341A0", VA = "0x4E341A0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void IsAutoDefaultReflectionProbeBakingSupported(IntPtr isSupportedPtr)
 	{
 	}
 
-	[Token(Token = "0x60010F0")]
-	[Address(RVA = "0x4B0C8D0", Offset = "0x4B0C8D0", VA = "0x4B0C8D0")]
+	[Token(Token = "0x60010F2")]
+	[Address(RVA = "0x4E34200", Offset = "0x4E34200", VA = "0x4E34200")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void OverridesLightProbeSystem(IntPtr overridesPtr)
 	{
 	}
 
-	[Token(Token = "0x60010F1")]
-	[Address(RVA = "0x4B0C930", Offset = "0x4B0C930", VA = "0x4B0C930")]
+	[Token(Token = "0x60010F3")]
+	[Address(RVA = "0x4E34260", Offset = "0x4E34260", VA = "0x4E34260")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void FallbackLightmapperByRef(IntPtr lightmapperPtr)
 	{
 	}
 
-	[Token(Token = "0x60010F2")]
-	[Address(RVA = "0x4B08310", Offset = "0x4B08310", VA = "0x4B08310")]
+	[Token(Token = "0x60010F4")]
+	[Address(RVA = "0x4E2FC40", Offset = "0x4E2FC40", VA = "0x4E2FC40")]
 	public SupportedRenderingFeatures()
 	{
 	}

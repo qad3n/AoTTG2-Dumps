@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Panel
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -93,7 +100,7 @@ internal class Panel : BaseVisualElementPanel
 	public sealed override VisualElement visualTree
 	{
 		[Token(Token = "0x6000EA9")]
-		[Address(RVA = "0x4D27830", Offset = "0x4D27830", VA = "0x4D27830", Slot = "38")]
+		[Address(RVA = "0x504F160", Offset = "0x504F160", VA = "0x504F160", Slot = "38")]
 		get
 		{
 			return null;
@@ -104,14 +111,14 @@ internal class Panel : BaseVisualElementPanel
 	public sealed override EventDispatcher dispatcher
 	{
 		[Token(Token = "0x6000EAA")]
-		[Address(RVA = "0x4D27840", Offset = "0x4D27840", VA = "0x4D27840", Slot = "39")]
+		[Address(RVA = "0x504F170", Offset = "0x504F170", VA = "0x504F170", Slot = "39")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000EAB")]
-		[Address(RVA = "0x4D27850", Offset = "0x4D27850", VA = "0x4D27850", Slot = "40")]
+		[Address(RVA = "0x504F180", Offset = "0x504F180", VA = "0x504F180", Slot = "40")]
 		[CompilerGenerated]
 		set
 		{
@@ -122,7 +129,7 @@ internal class Panel : BaseVisualElementPanel
 	public TimerEventScheduler timerEventScheduler
 	{
 		[Token(Token = "0x6000EAC")]
-		[Address(RVA = "0x4D27870", Offset = "0x4D27870", VA = "0x4D27870")]
+		[Address(RVA = "0x504F1A0", Offset = "0x504F1A0", VA = "0x504F1A0")]
 		get
 		{
 			return null;
@@ -133,7 +140,7 @@ internal class Panel : BaseVisualElementPanel
 	internal override IScheduler scheduler
 	{
 		[Token(Token = "0x6000EAD")]
-		[Address(RVA = "0x4D278E0", Offset = "0x4D278E0", VA = "0x4D278E0", Slot = "41")]
+		[Address(RVA = "0x504F210", Offset = "0x504F210", VA = "0x504F210", Slot = "41")]
 		get
 		{
 			return null;
@@ -144,13 +151,13 @@ internal class Panel : BaseVisualElementPanel
 	internal override IStylePropertyAnimationSystem styleAnimationSystem
 	{
 		[Token(Token = "0x6000EAE")]
-		[Address(RVA = "0x4D27950", Offset = "0x4D27950", VA = "0x4D27950", Slot = "42")]
+		[Address(RVA = "0x504F280", Offset = "0x504F280", VA = "0x504F280", Slot = "42")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000EAF")]
-		[Address(RVA = "0x4D27960", Offset = "0x4D27960", VA = "0x4D27960", Slot = "43")]
+		[Address(RVA = "0x504F290", Offset = "0x504F290", VA = "0x504F290", Slot = "43")]
 		set
 		{
 		}
@@ -160,14 +167,14 @@ internal class Panel : BaseVisualElementPanel
 	public override ScriptableObject ownerObject
 	{
 		[Token(Token = "0x6000EB0")]
-		[Address(RVA = "0x4D27A30", Offset = "0x4D27A30", VA = "0x4D27A30", Slot = "14")]
+		[Address(RVA = "0x504F360", Offset = "0x504F360", VA = "0x504F360", Slot = "14")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000EB1")]
-		[Address(RVA = "0x4D27A40", Offset = "0x4D27A40", VA = "0x4D27A40", Slot = "15")]
+		[Address(RVA = "0x504F370", Offset = "0x504F370", VA = "0x504F370", Slot = "15")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -178,14 +185,14 @@ internal class Panel : BaseVisualElementPanel
 	public override ContextType contextType
 	{
 		[Token(Token = "0x6000EB2")]
-		[Address(RVA = "0x4D27A60", Offset = "0x4D27A60", VA = "0x4D27A60", Slot = "44")]
+		[Address(RVA = "0x504F390", Offset = "0x504F390", VA = "0x504F390", Slot = "44")]
 		[CompilerGenerated]
 		get
 		{
 			return default(ContextType);
 		}
 		[Token(Token = "0x6000EB3")]
-		[Address(RVA = "0x4D27A70", Offset = "0x4D27A70", VA = "0x4D27A70", Slot = "45")]
+		[Address(RVA = "0x504F3A0", Offset = "0x504F3A0", VA = "0x504F3A0", Slot = "45")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -196,7 +203,7 @@ internal class Panel : BaseVisualElementPanel
 	public override SavePersistentViewData saveViewData
 	{
 		[Token(Token = "0x6000EB4")]
-		[Address(RVA = "0x4D27A80", Offset = "0x4D27A80", VA = "0x4D27A80", Slot = "16")]
+		[Address(RVA = "0x504F3B0", Offset = "0x504F3B0", VA = "0x504F3B0", Slot = "16")]
 		[CompilerGenerated]
 		get
 		{
@@ -208,7 +215,7 @@ internal class Panel : BaseVisualElementPanel
 	public override GetViewDataDictionary getViewDataDictionary
 	{
 		[Token(Token = "0x6000EB5")]
-		[Address(RVA = "0x4D27A90", Offset = "0x4D27A90", VA = "0x4D27A90", Slot = "17")]
+		[Address(RVA = "0x504F3C0", Offset = "0x504F3C0", VA = "0x504F3C0", Slot = "17")]
 		[CompilerGenerated]
 		get
 		{
@@ -220,14 +227,14 @@ internal class Panel : BaseVisualElementPanel
 	public sealed override FocusController focusController
 	{
 		[Token(Token = "0x6000EB6")]
-		[Address(RVA = "0x4D27AA0", Offset = "0x4D27AA0", VA = "0x4D27AA0", Slot = "20")]
+		[Address(RVA = "0x504F3D0", Offset = "0x504F3D0", VA = "0x504F3D0", Slot = "20")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000EB7")]
-		[Address(RVA = "0x4D27AB0", Offset = "0x4D27AB0", VA = "0x4D27AB0", Slot = "21")]
+		[Address(RVA = "0x504F3E0", Offset = "0x504F3E0", VA = "0x504F3E0", Slot = "21")]
 		[CompilerGenerated]
 		set
 		{
@@ -238,14 +245,14 @@ internal class Panel : BaseVisualElementPanel
 	public override UnityEngine.EventInterests IMGUIEventInterests
 	{
 		[Token(Token = "0x6000EB8")]
-		[Address(RVA = "0x4D27AD0", Offset = "0x4D27AD0", VA = "0x4D27AD0", Slot = "12")]
+		[Address(RVA = "0x504F400", Offset = "0x504F400", VA = "0x504F400", Slot = "12")]
 		[CompilerGenerated]
 		get
 		{
 			return default(UnityEngine.EventInterests);
 		}
 		[Token(Token = "0x6000EB9")]
-		[Address(RVA = "0x4D27AF0", Offset = "0x4D27AF0", VA = "0x4D27AF0", Slot = "13")]
+		[Address(RVA = "0x504F420", Offset = "0x504F420", VA = "0x504F420", Slot = "13")]
 		[CompilerGenerated]
 		set
 		{
@@ -256,7 +263,7 @@ internal class Panel : BaseVisualElementPanel
 	private static LoadResourceFunction loadResourceFunc
 	{
 		[Token(Token = "0x6000EBA")]
-		[Address(RVA = "0x4D27B10", Offset = "0x4D27B10", VA = "0x4D27B10")]
+		[Address(RVA = "0x504F440", Offset = "0x504F440", VA = "0x504F440")]
 		[CompilerGenerated]
 		get
 		{
@@ -268,13 +275,13 @@ internal class Panel : BaseVisualElementPanel
 	internal string name
 	{
 		[Token(Token = "0x6000EBF")]
-		[Address(RVA = "0x4D27E80", Offset = "0x4D27E80", VA = "0x4D27E80")]
+		[Address(RVA = "0x504F7B0", Offset = "0x504F7B0", VA = "0x504F7B0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000EC0")]
-		[Address(RVA = "0x4D1D4A0", Offset = "0x4D1D4A0", VA = "0x4D1D4A0")]
+		[Address(RVA = "0x5044DD0", Offset = "0x5044DD0", VA = "0x5044DD0")]
 		set
 		{
 		}
@@ -284,7 +291,7 @@ internal class Panel : BaseVisualElementPanel
 	private static TimeMsFunction TimeSinceStartup
 	{
 		[Token(Token = "0x6000EC2")]
-		[Address(RVA = "0x4D280D0", Offset = "0x4D280D0", VA = "0x4D280D0")]
+		[Address(RVA = "0x504FA00", Offset = "0x504FA00", VA = "0x504FA00")]
 		[CompilerGenerated]
 		get
 		{
@@ -296,14 +303,14 @@ internal class Panel : BaseVisualElementPanel
 	public override int IMGUIContainersCount
 	{
 		[Token(Token = "0x6000EC3")]
-		[Address(RVA = "0x4D28140", Offset = "0x4D28140", VA = "0x4D28140", Slot = "18")]
+		[Address(RVA = "0x504FA70", Offset = "0x504FA70", VA = "0x504FA70", Slot = "18")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000EC4")]
-		[Address(RVA = "0x4D28150", Offset = "0x4D28150", VA = "0x4D28150", Slot = "19")]
+		[Address(RVA = "0x504FA80", Offset = "0x504FA80", VA = "0x504FA80", Slot = "19")]
 		[CompilerGenerated]
 		set
 		{
@@ -314,7 +321,7 @@ internal class Panel : BaseVisualElementPanel
 	public override IMGUIContainer rootIMGUIContainer
 	{
 		[Token(Token = "0x6000EC5")]
-		[Address(RVA = "0x4D28160", Offset = "0x4D28160", VA = "0x4D28160", Slot = "22")]
+		[Address(RVA = "0x504FA90", Offset = "0x504FA90", VA = "0x504FA90", Slot = "22")]
 		[CompilerGenerated]
 		get
 		{
@@ -326,7 +333,7 @@ internal class Panel : BaseVisualElementPanel
 	internal override uint version
 	{
 		[Token(Token = "0x6000EC6")]
-		[Address(RVA = "0x4D28170", Offset = "0x4D28170", VA = "0x4D28170", Slot = "30")]
+		[Address(RVA = "0x504FAA0", Offset = "0x504FAA0", VA = "0x504FAA0", Slot = "30")]
 		get
 		{
 			return default(uint);
@@ -337,7 +344,7 @@ internal class Panel : BaseVisualElementPanel
 	internal override uint hierarchyVersion
 	{
 		[Token(Token = "0x6000EC7")]
-		[Address(RVA = "0x4D28180", Offset = "0x4D28180", VA = "0x4D28180", Slot = "31")]
+		[Address(RVA = "0x504FAB0", Offset = "0x504FAB0", VA = "0x504FAB0", Slot = "31")]
 		get
 		{
 			return default(uint);
@@ -348,7 +355,7 @@ internal class Panel : BaseVisualElementPanel
 	internal override Shader standardShader
 	{
 		[Token(Token = "0x6000EC8")]
-		[Address(RVA = "0x4D28190", Offset = "0x4D28190", VA = "0x4D28190", Slot = "49")]
+		[Address(RVA = "0x504FAC0", Offset = "0x504FAC0", VA = "0x504FAC0", Slot = "49")]
 		get
 		{
 			return null;
@@ -359,147 +366,147 @@ internal class Panel : BaseVisualElementPanel
 	public override AtlasBase atlas
 	{
 		[Token(Token = "0x6000EC9")]
-		[Address(RVA = "0x4D281A0", Offset = "0x4D281A0", VA = "0x4D281A0", Slot = "51")]
+		[Address(RVA = "0x504FAD0", Offset = "0x504FAD0", VA = "0x504FAD0", Slot = "51")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000ECA")]
-		[Address(RVA = "0x4D281B0", Offset = "0x4D281B0", VA = "0x4D281B0", Slot = "52")]
+		[Address(RVA = "0x504FAE0", Offset = "0x504FAE0", VA = "0x504FAE0", Slot = "52")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000EBB")]
-	[Address(RVA = "0x4D27B80", Offset = "0x4D27B80", VA = "0x4D27B80")]
+	[Address(RVA = "0x504F4B0", Offset = "0x504F4B0", VA = "0x504F4B0")]
 	internal static Object LoadResource(string pathName, Type type, float dpiScaling)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EBC")]
-	[Address(RVA = "0x4D27D30", Offset = "0x4D27D30", VA = "0x4D27D30")]
+	[Address(RVA = "0x504F660", Offset = "0x504F660", VA = "0x504F660")]
 	internal void Focus()
 	{
 	}
 
 	[Token(Token = "0x6000EBD")]
-	[Address(RVA = "0x4D27D40", Offset = "0x4D27D40", VA = "0x4D27D40")]
+	[Address(RVA = "0x504F670", Offset = "0x504F670", VA = "0x504F670")]
 	internal void Blur()
 	{
 	}
 
 	[Token(Token = "0x6000EBE")]
-	[Address(RVA = "0x4D27DF0", Offset = "0x4D27DF0", VA = "0x4D27DF0", Slot = "25")]
+	[Address(RVA = "0x504F720", Offset = "0x504F720", VA = "0x504F720", Slot = "25")]
 	public override void ValidateFocus()
 	{
 	}
 
 	[Token(Token = "0x6000EC1")]
-	[Address(RVA = "0x4D27E90", Offset = "0x4D27E90", VA = "0x4D27E90")]
+	[Address(RVA = "0x504F7C0", Offset = "0x504F7C0", VA = "0x504F7C0")]
 	private void CreateMarkers()
 	{
 	}
 
 	[Token(Token = "0x6000ECB")]
-	[Address(RVA = "0x4D28230", Offset = "0x4D28230", VA = "0x4D28230")]
+	[Address(RVA = "0x504FB60", Offset = "0x504FB60", VA = "0x504FB60")]
 	public Panel(ScriptableObject ownerObject, ContextType contextType, EventDispatcher dispatcher)
 	{
 	}
 
 	[Token(Token = "0x6000ECC")]
-	[Address(RVA = "0x4D28870", Offset = "0x4D28870", VA = "0x4D28870", Slot = "23")]
+	[Address(RVA = "0x50501A0", Offset = "0x50501A0", VA = "0x50501A0", Slot = "23")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6000ECD")]
-	[Address(RVA = "0x4D288D0", Offset = "0x4D288D0", VA = "0x4D288D0")]
+	[Address(RVA = "0x5050200", Offset = "0x5050200", VA = "0x5050200")]
 	public static long TimeSinceStartupMs()
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000ECE")]
-	[Address(RVA = "0x4D289B0", Offset = "0x4D289B0", VA = "0x4D289B0")]
+	[Address(RVA = "0x50502E0", Offset = "0x50502E0", VA = "0x50502E0")]
 	internal static long DefaultTimeSinceStartupMs()
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000ECF")]
-	[Address(RVA = "0x4D289D0", Offset = "0x4D289D0", VA = "0x4D289D0")]
+	[Address(RVA = "0x5050300", Offset = "0x5050300", VA = "0x5050300")]
 	private static VisualElement PickAll(VisualElement root, Vector2 point, [Optional] List<VisualElement> picked, bool includeIgnoredElement = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000ED0")]
-	[Address(RVA = "0x4D28A70", Offset = "0x4D28A70", VA = "0x4D28A70")]
+	[Address(RVA = "0x50503A0", Offset = "0x50503A0", VA = "0x50503A0")]
 	private static VisualElement PerformPick(VisualElement root, Vector2 point, [Optional] List<VisualElement> picked, bool includeIgnoredElement = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000ED1")]
-	[Address(RVA = "0x4D28DD0", Offset = "0x4D28DD0", VA = "0x4D28DD0", Slot = "47")]
+	[Address(RVA = "0x5050700", Offset = "0x5050700", VA = "0x5050700", Slot = "47")]
 	public override VisualElement PickAll(Vector2 point, List<VisualElement> picked)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000ED2")]
-	[Address(RVA = "0x4D28F10", Offset = "0x4D28F10", VA = "0x4D28F10", Slot = "46")]
+	[Address(RVA = "0x5050840", Offset = "0x5050840", VA = "0x5050840", Slot = "46")]
 	public override VisualElement Pick(Vector2 point)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000ED3")]
-	[Address(RVA = "0x4D293D0", Offset = "0x4D293D0", VA = "0x4D293D0", Slot = "26")]
+	[Address(RVA = "0x5050D00", Offset = "0x5050D00", VA = "0x5050D00", Slot = "26")]
 	public override void ValidateLayout()
 	{
 	}
 
 	[Token(Token = "0x6000ED4")]
-	[Address(RVA = "0x4D29460", Offset = "0x4D29460", VA = "0x4D29460", Slot = "27")]
+	[Address(RVA = "0x5050D90", Offset = "0x5050D90", VA = "0x5050D90", Slot = "27")]
 	public override void UpdateAnimations()
 	{
 	}
 
 	[Token(Token = "0x6000ED5")]
-	[Address(RVA = "0x4D294A0", Offset = "0x4D294A0", VA = "0x4D294A0", Slot = "28")]
+	[Address(RVA = "0x5050DD0", Offset = "0x5050DD0", VA = "0x5050DD0", Slot = "28")]
 	public override void UpdateBindings()
 	{
 	}
 
 	[Token(Token = "0x6000ED6")]
-	[Address(RVA = "0x4D294E0", Offset = "0x4D294E0", VA = "0x4D294E0", Slot = "29")]
+	[Address(RVA = "0x5050E10", Offset = "0x5050E10", VA = "0x5050E10", Slot = "29")]
 	public override void ApplyStyles()
 	{
 	}
 
 	[Token(Token = "0x6000ED7")]
-	[Address(RVA = "0x4D29500", Offset = "0x4D29500", VA = "0x4D29500")]
+	[Address(RVA = "0x5050E30", Offset = "0x5050E30", VA = "0x5050E30")]
 	private void UpdateForRepaint()
 	{
 	}
 
 	[Token(Token = "0x6000ED8")]
-	[Address(RVA = "0x4D29570", Offset = "0x4D29570", VA = "0x4D29570", Slot = "24")]
+	[Address(RVA = "0x5050EA0", Offset = "0x5050EA0", VA = "0x5050EA0", Slot = "24")]
 	public override void Repaint(Event e)
 	{
 	}
 
 	[Token(Token = "0x6000ED9")]
-	[Address(RVA = "0x4D297A0", Offset = "0x4D297A0", VA = "0x4D297A0", Slot = "32")]
+	[Address(RVA = "0x50510D0", Offset = "0x50510D0", VA = "0x50510D0", Slot = "32")]
 	internal override void OnVersionChanged(VisualElement ve, VersionChangeType versionChangeType)
 	{
 	}
 
 	[Token(Token = "0x6000EDA")]
-	[Address(RVA = "0x4D297E0", Offset = "0x4D297E0", VA = "0x4D297E0", Slot = "48")]
+	[Address(RVA = "0x5051110", Offset = "0x5051110", VA = "0x5051110", Slot = "48")]
 	internal override IVisualTreeUpdater GetUpdater(VisualTreeUpdatePhase phase)
 	{
 		return null;

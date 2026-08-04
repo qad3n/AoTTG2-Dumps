@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.StreamingContext
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -20,7 +27,7 @@ public readonly struct StreamingContext
 	public object Context
 	{
 		[Token(Token = "0x600202C")]
-		[Address(RVA = "0x4EBAFD0", Offset = "0x4EBAFD0", VA = "0x4EBAFD0")]
+		[Address(RVA = "0x3BA0AF0", Offset = "0x3BA0AF0", VA = "0x3BA0AF0")]
 		get
 		{
 			return null;
@@ -31,7 +38,7 @@ public readonly struct StreamingContext
 	public StreamingContextStates State
 	{
 		[Token(Token = "0x600202F")]
-		[Address(RVA = "0x4EBB070", Offset = "0x4EBB070", VA = "0x4EBB070")]
+		[Address(RVA = "0x3BA0B90", Offset = "0x3BA0B90", VA = "0x3BA0B90")]
 		get
 		{
 			return default(StreamingContextStates);
@@ -39,26 +46,26 @@ public readonly struct StreamingContext
 	}
 
 	[Token(Token = "0x600202A")]
-	[Address(RVA = "0x4EBAFA0", Offset = "0x4EBAFA0", VA = "0x4EBAFA0")]
+	[Address(RVA = "0x3BA0AC0", Offset = "0x3BA0AC0", VA = "0x3BA0AC0")]
 	public StreamingContext(StreamingContextStates state)
 	{
 	}
 
 	[Token(Token = "0x600202B")]
-	[Address(RVA = "0x4EBAFC0", Offset = "0x4EBAFC0", VA = "0x4EBAFC0")]
+	[Address(RVA = "0x3BA0AE0", Offset = "0x3BA0AE0", VA = "0x3BA0AE0")]
 	public StreamingContext(StreamingContextStates state, object additional)
 	{
 	}
 
 	[Token(Token = "0x600202D")]
-	[Address(RVA = "0x4EBAFE0", Offset = "0x4EBAFE0", VA = "0x4EBAFE0", Slot = "0")]
+	[Address(RVA = "0x3BA0B00", Offset = "0x3BA0B00", VA = "0x3BA0B00", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600202E")]
-	[Address(RVA = "0x4EBB060", Offset = "0x4EBB060", VA = "0x4EBB060", Slot = "2")]
+	[Address(RVA = "0x3BA0B80", Offset = "0x3BA0B80", VA = "0x3BA0B80", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

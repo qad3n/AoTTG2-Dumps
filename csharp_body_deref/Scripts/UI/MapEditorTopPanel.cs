@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UI.MapEditorTopPanel
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UI/MapEditorTopPanel.c
+// Prior real C# source (older reference): Assets/Scripts/UI/MapEditorMenu/MapEditorTopPanel.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using GameManagers;
@@ -7,317 +14,317 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x200068F")]
+[Token(Token = "0x20006DD")]
 internal class MapEditorTopPanel : HeadedPanel
 {
-	[Token(Token = "0x2000690")]
+	[Token(Token = "0x20006DE")]
 	public enum LayerOption
 	{
-		[Token(Token = "0x4002011")]
+		[Token(Token = "0x400216E")]
 		All,
-		[Token(Token = "0x4002012")]
+		[Token(Token = "0x400216F")]
 		Active,
-		[Token(Token = "0x4002013")]
+		[Token(Token = "0x4002170")]
 		Inactive,
-		[Token(Token = "0x4002014")]
+		[Token(Token = "0x4002171")]
 		Visible,
-		[Token(Token = "0x4002015")]
+		[Token(Token = "0x4002172")]
 		Invisible,
-		[Token(Token = "0x4002016")]
+		[Token(Token = "0x4002173")]
 		Static,
-		[Token(Token = "0x4002017")]
+		[Token(Token = "0x4002174")]
 		NonStatic,
-		[Token(Token = "0x4002018")]
+		[Token(Token = "0x4002175")]
 		Colliders,
-		[Token(Token = "0x4002019")]
+		[Token(Token = "0x4002176")]
 		Triggers,
-		[Token(Token = "0x400201A")]
+		[Token(Token = "0x4002177")]
 		NoColliders,
-		[Token(Token = "0x400201B")]
+		[Token(Token = "0x4002178")]
 		Networked,
-		[Token(Token = "0x400201C")]
+		[Token(Token = "0x4002179")]
 		NonNetworked
 	}
 
-	[Token(Token = "0x4002005")]
+	[Token(Token = "0x4002162")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x80")]
 	private IntSetting _dropdownSelection;
 
-	[Token(Token = "0x4002006")]
+	[Token(Token = "0x4002163")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x88")]
 	private HashSetSetting<int> _layerSelection;
 
-	[Token(Token = "0x4002007")]
+	[Token(Token = "0x4002164")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x90")]
 	private MapEditorMenu _menu;
 
-	[Token(Token = "0x4002008")]
+	[Token(Token = "0x4002165")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x98")]
 	private MapEditorGameManager _gameManager;
 
-	[Token(Token = "0x4002009")]
+	[Token(Token = "0x4002166")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA0")]
 	private StringSetting _currentMap;
 
-	[Token(Token = "0x400200A")]
+	[Token(Token = "0x4002167")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	private List<DropdownSelectElement> _dropdowns;
 
-	[Token(Token = "0x400200B")]
+	[Token(Token = "0x4002168")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	private MultiSelectDropdownElement _layerDropdown;
 
-	[Token(Token = "0x400200C")]
+	[Token(Token = "0x4002169")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
 	private GameObject _gizmoButton;
 
-	[Token(Token = "0x400200D")]
+	[Token(Token = "0x400216A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC0")]
 	private GameObject _gizmoOrientationButton;
 
-	[Token(Token = "0x400200E")]
+	[Token(Token = "0x400216B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC8")]
 	private GameObject _snapButton;
 
-	[Token(Token = "0x400200F")]
+	[Token(Token = "0x400216C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xD0")]
 	private GameObject _brushButton;
 
-	[Token(Token = "0x17000CE3")]
+	[Token(Token = "0x17000D5D")]
 	protected override float Width
 	{
-		[Token(Token = "0x6004201")]
-		[Address(RVA = "0x4024F70", Offset = "0x4024F70", VA = "0x4024F70", Slot = "5")]
+		[Token(Token = "0x6004468")]
+		[Address(RVA = "0x433A340", Offset = "0x433A340", VA = "0x433A340", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000CE4")]
+	[Token(Token = "0x17000D5E")]
 	protected override float Height
 	{
-		[Token(Token = "0x6004202")]
-		[Address(RVA = "0x4024F80", Offset = "0x4024F80", VA = "0x4024F80", Slot = "6")]
+		[Token(Token = "0x6004469")]
+		[Address(RVA = "0x433A350", Offset = "0x433A350", VA = "0x433A350", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000CE5")]
+	[Token(Token = "0x17000D5F")]
 	protected override float TopBarHeight
 	{
-		[Token(Token = "0x6004203")]
-		[Address(RVA = "0x4024F90", Offset = "0x4024F90", VA = "0x4024F90", Slot = "36")]
+		[Token(Token = "0x600446A")]
+		[Address(RVA = "0x433A360", Offset = "0x433A360", VA = "0x433A360", Slot = "36")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000CE6")]
+	[Token(Token = "0x17000D60")]
 	protected override float BottomBarHeight
 	{
-		[Token(Token = "0x6004204")]
-		[Address(RVA = "0x4024FA0", Offset = "0x4024FA0", VA = "0x4024FA0", Slot = "37")]
+		[Token(Token = "0x600446B")]
+		[Address(RVA = "0x433A370", Offset = "0x433A370", VA = "0x433A370", Slot = "37")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000CE7")]
+	[Token(Token = "0x17000D61")]
 	protected override float VerticalSpacing
 	{
-		[Token(Token = "0x6004205")]
-		[Address(RVA = "0x4024FB0", Offset = "0x4024FB0", VA = "0x4024FB0", Slot = "11")]
+		[Token(Token = "0x600446C")]
+		[Address(RVA = "0x433A380", Offset = "0x433A380", VA = "0x433A380", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000CE8")]
+	[Token(Token = "0x17000D62")]
 	protected override int HorizontalPadding
 	{
-		[Token(Token = "0x6004206")]
-		[Address(RVA = "0x4024FC0", Offset = "0x4024FC0", VA = "0x4024FC0", Slot = "10")]
+		[Token(Token = "0x600446D")]
+		[Address(RVA = "0x433A390", Offset = "0x433A390", VA = "0x433A390", Slot = "10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000CE9")]
+	[Token(Token = "0x17000D63")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x6004207")]
-		[Address(RVA = "0x4024FD0", Offset = "0x4024FD0", VA = "0x4024FD0", Slot = "9")]
+		[Token(Token = "0x600446E")]
+		[Address(RVA = "0x433A3A0", Offset = "0x433A3A0", VA = "0x433A3A0", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000CEA")]
+	[Token(Token = "0x17000D64")]
 	protected override string ThemePanel
 	{
-		[Token(Token = "0x6004208")]
-		[Address(RVA = "0x4024FE0", Offset = "0x4024FE0", VA = "0x4024FE0", Slot = "4")]
+		[Token(Token = "0x600446F")]
+		[Address(RVA = "0x433A3B0", Offset = "0x433A3B0", VA = "0x433A3B0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6004209")]
-	[Address(RVA = "0x4025010", Offset = "0x4025010", VA = "0x4025010", Slot = "20")]
+	[Token(Token = "0x6004470")]
+	[Address(RVA = "0x433A3E0", Offset = "0x433A3E0", VA = "0x433A3E0", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x600420A")]
-	[Address(RVA = "0x4022690", Offset = "0x4022690", VA = "0x4022690")]
+	[Token(Token = "0x6004471")]
+	[Address(RVA = "0x4337A60", Offset = "0x4337A60", VA = "0x4337A60")]
 	public bool IsDropdownOpen()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600420B")]
-	[Address(RVA = "0x40267C0", Offset = "0x40267C0", VA = "0x40267C0")]
+	[Token(Token = "0x6004472")]
+	[Address(RVA = "0x433BB90", Offset = "0x433BB90", VA = "0x433BB90")]
 	protected void OnFileClick()
 	{
 	}
 
-	[Token(Token = "0x600420C")]
-	[Address(RVA = "0x4010D00", Offset = "0x4010D00", VA = "0x4010D00")]
+	[Token(Token = "0x6004473")]
+	[Address(RVA = "0x43251D0", Offset = "0x43251D0", VA = "0x43251D0")]
 	public void Save()
 	{
 	}
 
-	[Token(Token = "0x600420D")]
-	[Address(RVA = "0x40274F0", Offset = "0x40274F0", VA = "0x40274F0")]
+	[Token(Token = "0x6004474")]
+	[Address(RVA = "0x433C8C0", Offset = "0x433C8C0", VA = "0x433C8C0")]
 	public void Autosave()
 	{
 	}
 
-	[Token(Token = "0x600420E")]
-	[Address(RVA = "0x4027CF0", Offset = "0x4027CF0", VA = "0x4027CF0")]
+	[Token(Token = "0x6004475")]
+	[Address(RVA = "0x433D0C0", Offset = "0x433D0C0", VA = "0x433D0C0")]
 	protected void OnEditClick()
 	{
 	}
 
-	[Token(Token = "0x600420F")]
-	[Address(RVA = "0x4027DE0", Offset = "0x4027DE0", VA = "0x4027DE0")]
+	[Token(Token = "0x6004476")]
+	[Address(RVA = "0x433D1B0", Offset = "0x433D1B0", VA = "0x433D1B0")]
 	protected void OnOptionsClick()
 	{
 	}
 
-	[Token(Token = "0x6004210")]
-	[Address(RVA = "0x4027EF0", Offset = "0x4027EF0", VA = "0x4027EF0")]
+	[Token(Token = "0x6004477")]
+	[Address(RVA = "0x433D2C0", Offset = "0x433D2C0", VA = "0x433D2C0")]
 	protected void OnButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x6004211")]
-	[Address(RVA = "0x4028430", Offset = "0x4028430", VA = "0x4028430")]
+	[Token(Token = "0x6004478")]
+	[Address(RVA = "0x433D800", Offset = "0x433D800", VA = "0x433D800")]
 	public void ToggleSnap()
 	{
 	}
 
-	[Token(Token = "0x6004212")]
-	[Address(RVA = "0x4028610", Offset = "0x4028610", VA = "0x4028610")]
+	[Token(Token = "0x6004479")]
+	[Address(RVA = "0x433D9E0", Offset = "0x433D9E0", VA = "0x433D9E0")]
 	public void ToggleLights()
 	{
 	}
 
-	[Token(Token = "0x6004213")]
-	[Address(RVA = "0x4028510", Offset = "0x4028510", VA = "0x4028510")]
+	[Token(Token = "0x600447A")]
+	[Address(RVA = "0x433D8E0", Offset = "0x433D8E0", VA = "0x433D8E0")]
 	public void ToggleBrush()
 	{
 	}
 
-	[Token(Token = "0x6004214")]
-	[Address(RVA = "0x4028630", Offset = "0x4028630", VA = "0x4028630")]
+	[Token(Token = "0x600447B")]
+	[Address(RVA = "0x433DA00", Offset = "0x433DA00", VA = "0x433DA00")]
 	public void OnLayersChanged()
 	{
 	}
 
-	[Token(Token = "0x6004215")]
-	[Address(RVA = "0x4028330", Offset = "0x4028330", VA = "0x4028330")]
+	[Token(Token = "0x600447C")]
+	[Address(RVA = "0x433D700", Offset = "0x433D700", VA = "0x433D700")]
 	public void NextGizmoOrientation()
 	{
 	}
 
-	[Token(Token = "0x6004216")]
-	[Address(RVA = "0x4028140", Offset = "0x4028140", VA = "0x4028140")]
+	[Token(Token = "0x600447D")]
+	[Address(RVA = "0x433D510", Offset = "0x433D510", VA = "0x433D510")]
 	public void NextGizmo()
 	{
 	}
 
-	[Token(Token = "0x6004217")]
-	[Address(RVA = "0x4028670", Offset = "0x4028670", VA = "0x4028670")]
+	[Token(Token = "0x600447E")]
+	[Address(RVA = "0x433DA40", Offset = "0x433DA40", VA = "0x433DA40")]
 	protected void OnDeleteMap()
 	{
 	}
 
-	[Token(Token = "0x6004218")]
-	[Address(RVA = "0x4028700", Offset = "0x4028700", VA = "0x4028700")]
+	[Token(Token = "0x600447F")]
+	[Address(RVA = "0x433DAD0", Offset = "0x433DAD0", VA = "0x433DAD0")]
 	protected void OnNewFinish()
 	{
 	}
 
-	[Token(Token = "0x6004219")]
-	[Address(RVA = "0x4028820", Offset = "0x4028820", VA = "0x4028820")]
+	[Token(Token = "0x6004480")]
+	[Address(RVA = "0x433DBF0", Offset = "0x433DBF0", VA = "0x433DBF0")]
 	protected void OnRenameFinish()
 	{
 	}
 
-	[Token(Token = "0x600421A")]
-	[Address(RVA = "0x4028990", Offset = "0x4028990", VA = "0x4028990")]
+	[Token(Token = "0x6004481")]
+	[Address(RVA = "0x433DD60", Offset = "0x433DD60", VA = "0x433DD60")]
 	protected void OnOpenFinish()
 	{
 	}
 
-	[Token(Token = "0x600421B")]
-	[Address(RVA = "0x4028A50", Offset = "0x4028A50", VA = "0x4028A50")]
+	[Token(Token = "0x6004482")]
+	[Address(RVA = "0x433DE20", Offset = "0x433DE20", VA = "0x433DE20")]
 	protected void OnImportFinish()
 	{
 	}
 
-	[Token(Token = "0x600421C")]
-	[Address(RVA = "0x4028AF0", Offset = "0x4028AF0", VA = "0x4028AF0")]
+	[Token(Token = "0x6004483")]
+	[Address(RVA = "0x433DEC0", Offset = "0x433DEC0", VA = "0x433DEC0")]
 	protected void OnImportConfirm()
 	{
 	}
 
-	[Token(Token = "0x600421D")]
-	[Address(RVA = "0x4028D00", Offset = "0x4028D00", VA = "0x4028D00")]
+	[Token(Token = "0x6004484")]
+	[Address(RVA = "0x433E0D0", Offset = "0x433E0D0", VA = "0x433E0D0")]
 	protected void OnImportPresetFinish()
 	{
 	}
 
-	[Token(Token = "0x600421E")]
-	[Address(RVA = "0x4028DA0", Offset = "0x4028DA0", VA = "0x4028DA0")]
+	[Token(Token = "0x6004485")]
+	[Address(RVA = "0x433E170", Offset = "0x433E170", VA = "0x433E170")]
 	protected void OnImportAutosaveFinish()
 	{
 	}
 
-	[Token(Token = "0x600421F")]
-	[Address(RVA = "0x4028E40", Offset = "0x4028E40", VA = "0x4028E40")]
+	[Token(Token = "0x6004486")]
+	[Address(RVA = "0x433E210", Offset = "0x433E210", VA = "0x433E210")]
 	protected void OnImportPresetConfirm()
 	{
 	}
 
-	[Token(Token = "0x6004220")]
-	[Address(RVA = "0x4028F90", Offset = "0x4028F90", VA = "0x4028F90")]
+	[Token(Token = "0x6004487")]
+	[Address(RVA = "0x433E360", Offset = "0x433E360", VA = "0x433E360")]
 	protected void OnImportAutosaveConfirm()
 	{
 	}
 
-	[Token(Token = "0x6004221")]
-	[Address(RVA = "0x4029090", Offset = "0x4029090", VA = "0x4029090")]
+	[Token(Token = "0x6004488")]
+	[Address(RVA = "0x433E460", Offset = "0x433E460", VA = "0x433E460")]
 	public MapEditorTopPanel()
 	{
 	}

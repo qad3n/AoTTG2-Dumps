@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XmlSchemaSimpleContent
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.Serialization;
 using Il2CppDummyDll;
 
@@ -16,20 +23,20 @@ public class XmlSchemaSimpleContent : XmlSchemaContentModel
 	public override XmlSchemaContent Content
 	{
 		[Token(Token = "0x6001752")]
-		[Address(RVA = "0x43F4F60", Offset = "0x43F4F60", VA = "0x43F4F60", Slot = "14")]
+		[Address(RVA = "0x47326C0", Offset = "0x47326C0", VA = "0x47326C0", Slot = "14")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001753")]
-		[Address(RVA = "0x43F4F70", Offset = "0x43F4F70", VA = "0x43F4F70", Slot = "15")]
+		[Address(RVA = "0x47326D0", Offset = "0x47326D0", VA = "0x47326D0", Slot = "15")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001754")]
-	[Address(RVA = "0x43F4F80", Offset = "0x43F4F80", VA = "0x43F4F80")]
+	[Address(RVA = "0x47326E0", Offset = "0x47326E0", VA = "0x47326E0")]
 	public XmlSchemaSimpleContent()
 	{
 	}

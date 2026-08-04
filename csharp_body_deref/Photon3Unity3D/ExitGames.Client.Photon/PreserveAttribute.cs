@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: ExitGames.Client.Photon.PreserveAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -7,7 +14,7 @@ namespace ExitGames.Client.Photon;
 internal class PreserveAttribute : Attribute
 {
 	[Token(Token = "0x6000320")]
-	[Address(RVA = "0x3BA3710", Offset = "0x3BA3710", VA = "0x3BA3710")]
+	[Address(RVA = "0x3E99060", Offset = "0x3E99060", VA = "0x3E99060")]
 	public PreserveAttribute()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.WebSockets.ManagedWebSocket
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.IO;
 using System.Runtime.CompilerServices;
@@ -33,7 +40,7 @@ internal sealed class ManagedWebSocket : WebSocket
 		internal int CurrentDecodeBits;
 
 		[Token(Token = "0x6000D38")]
-		[Address(RVA = "0x4695020", Offset = "0x4695020", VA = "0x4695020")]
+		[Address(RVA = "0x49BA120", Offset = "0x49BA120", VA = "0x49BA120")]
 		public Utf8MessageState()
 		{
 		}
@@ -88,7 +95,7 @@ internal sealed class ManagedWebSocket : WebSocket
 	private readonly struct WebSocketReceiveResultGetter : IWebSocketReceiveResultGetter<WebSocketReceiveResult>
 	{
 		[Token(Token = "0x6000D3A")]
-		[Address(RVA = "0x4698F70", Offset = "0x4698F70", VA = "0x4698F70", Slot = "4")]
+		[Address(RVA = "0x49BE070", Offset = "0x49BE070", VA = "0x49BE070", Slot = "4")]
 		public WebSocketReceiveResult GetResult(int count, WebSocketMessageType messageType, bool endOfMessage, WebSocketCloseStatus? closeStatus, string closeDescription)
 		{
 			return null;
@@ -121,13 +128,13 @@ internal sealed class ManagedWebSocket : WebSocket
 		private ConfiguredValueTaskAwaitable.ConfiguredValueTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000D42")]
-		[Address(RVA = "0x4699350", Offset = "0x4699350", VA = "0x4699350", Slot = "4")]
+		[Address(RVA = "0x49BE450", Offset = "0x49BE450", VA = "0x49BE450", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000D43")]
-		[Address(RVA = "0x4699A20", Offset = "0x4699A20", VA = "0x4699A20", Slot = "5")]
+		[Address(RVA = "0x49BEB20", Offset = "0x49BEB20", VA = "0x49BEB20", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -180,13 +187,13 @@ internal sealed class ManagedWebSocket : WebSocket
 		private ConfiguredValueTaskAwaitable.ConfiguredValueTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000D44")]
-		[Address(RVA = "0x4699A80", Offset = "0x4699A80", VA = "0x4699A80", Slot = "4")]
+		[Address(RVA = "0x49BEB80", Offset = "0x49BEB80", VA = "0x49BEB80", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000D45")]
-		[Address(RVA = "0x469A500", Offset = "0x469A500", VA = "0x469A500", Slot = "5")]
+		[Address(RVA = "0x49BF600", Offset = "0x49BF600", VA = "0x49BF600", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -292,13 +299,13 @@ internal sealed class ManagedWebSocket : WebSocket
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000D4B")]
-		[Address(RVA = "0x469A560", Offset = "0x469A560", VA = "0x469A560", Slot = "4")]
+		[Address(RVA = "0x49BF660", Offset = "0x49BF660", VA = "0x49BF660", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000D4C")]
-		[Address(RVA = "0x469B0E0", Offset = "0x469B0E0", VA = "0x469B0E0", Slot = "5")]
+		[Address(RVA = "0x49C01E0", Offset = "0x49C01E0", VA = "0x49C01E0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -339,13 +346,13 @@ internal sealed class ManagedWebSocket : WebSocket
 		private ConfiguredValueTaskAwaitable<int>.ConfiguredValueTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000D4D")]
-		[Address(RVA = "0x469B140", Offset = "0x469B140", VA = "0x469B140", Slot = "4")]
+		[Address(RVA = "0x49C0240", Offset = "0x49C0240", VA = "0x49C0240", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000D4E")]
-		[Address(RVA = "0x469B9B0", Offset = "0x469B9B0", VA = "0x469B9B0", Slot = "5")]
+		[Address(RVA = "0x49C0AB0", Offset = "0x49C0AB0", VA = "0x49C0AB0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -386,13 +393,13 @@ internal sealed class ManagedWebSocket : WebSocket
 		private ConfiguredValueTaskAwaitable.ConfiguredValueTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000D4F")]
-		[Address(RVA = "0x469BA10", Offset = "0x469BA10", VA = "0x469BA10", Slot = "4")]
+		[Address(RVA = "0x49C0B10", Offset = "0x49C0B10", VA = "0x49C0B10", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000D50")]
-		[Address(RVA = "0x469C1B0", Offset = "0x469C1B0", VA = "0x469C1B0", Slot = "5")]
+		[Address(RVA = "0x49C12B0", Offset = "0x49C12B0", VA = "0x49C12B0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -433,13 +440,13 @@ internal sealed class ManagedWebSocket : WebSocket
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000D51")]
-		[Address(RVA = "0x469C210", Offset = "0x469C210", VA = "0x469C210", Slot = "4")]
+		[Address(RVA = "0x49C1310", Offset = "0x49C1310", VA = "0x49C1310", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000D52")]
-		[Address(RVA = "0x469C4D0", Offset = "0x469C4D0", VA = "0x469C4D0", Slot = "5")]
+		[Address(RVA = "0x49C15D0", Offset = "0x49C15D0", VA = "0x49C15D0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -484,13 +491,13 @@ internal sealed class ManagedWebSocket : WebSocket
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000D53")]
-		[Address(RVA = "0x469C530", Offset = "0x469C530", VA = "0x469C530", Slot = "4")]
+		[Address(RVA = "0x49C1630", Offset = "0x49C1630", VA = "0x49C1630", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000D54")]
-		[Address(RVA = "0x469CCB0", Offset = "0x469CCB0", VA = "0x469CCB0", Slot = "5")]
+		[Address(RVA = "0x49C1DB0", Offset = "0x49C1DB0", VA = "0x49C1DB0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -539,13 +546,13 @@ internal sealed class ManagedWebSocket : WebSocket
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000D55")]
-		[Address(RVA = "0x469CD10", Offset = "0x469CD10", VA = "0x469CD10", Slot = "4")]
+		[Address(RVA = "0x49C1E10", Offset = "0x49C1E10", VA = "0x49C1E10", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000D56")]
-		[Address(RVA = "0x469D990", Offset = "0x469D990", VA = "0x469D990", Slot = "5")]
+		[Address(RVA = "0x49C2A90", Offset = "0x49C2A90", VA = "0x49C2A90", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -586,13 +593,13 @@ internal sealed class ManagedWebSocket : WebSocket
 		private ConfiguredValueTaskAwaitable<int>.ConfiguredValueTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000D57")]
-		[Address(RVA = "0x469D9F0", Offset = "0x469D9F0", VA = "0x469D9F0", Slot = "4")]
+		[Address(RVA = "0x49C2AF0", Offset = "0x49C2AF0", VA = "0x49C2AF0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000D58")]
-		[Address(RVA = "0x469E050", Offset = "0x469E050", VA = "0x469E050", Slot = "5")]
+		[Address(RVA = "0x49C3150", Offset = "0x49C3150", VA = "0x49C3150", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -715,7 +722,7 @@ internal sealed class ManagedWebSocket : WebSocket
 	private object StateUpdateLock
 	{
 		[Token(Token = "0x6000D0C")]
-		[Address(RVA = "0x4695000", Offset = "0x4695000", VA = "0x4695000")]
+		[Address(RVA = "0x49BA100", Offset = "0x49BA100", VA = "0x49BA100")]
 		get
 		{
 			return null;
@@ -726,7 +733,7 @@ internal sealed class ManagedWebSocket : WebSocket
 	private object ReceiveAsyncLock
 	{
 		[Token(Token = "0x6000D0D")]
-		[Address(RVA = "0x4695010", Offset = "0x4695010", VA = "0x4695010")]
+		[Address(RVA = "0x49BA110", Offset = "0x49BA110", VA = "0x49BA110")]
 		get
 		{
 			return null;
@@ -737,7 +744,7 @@ internal sealed class ManagedWebSocket : WebSocket
 	public override string CloseStatusDescription
 	{
 		[Token(Token = "0x6000D11")]
-		[Address(RVA = "0x4695180", Offset = "0x4695180", VA = "0x4695180", Slot = "5")]
+		[Address(RVA = "0x49BA280", Offset = "0x49BA280", VA = "0x49BA280", Slot = "5")]
 		get
 		{
 			return null;
@@ -748,7 +755,7 @@ internal sealed class ManagedWebSocket : WebSocket
 	public override WebSocketState State
 	{
 		[Token(Token = "0x6000D12")]
-		[Address(RVA = "0x4695190", Offset = "0x4695190", VA = "0x4695190", Slot = "6")]
+		[Address(RVA = "0x49BA290", Offset = "0x49BA290", VA = "0x49BA290", Slot = "6")]
 		get
 		{
 			return default(WebSocketState);
@@ -756,87 +763,87 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[Token(Token = "0x6000D0B")]
-	[Address(RVA = "0x4694AC0", Offset = "0x4694AC0", VA = "0x4694AC0")]
+	[Address(RVA = "0x49B9BC0", Offset = "0x49B9BC0", VA = "0x49B9BC0")]
 	public static ManagedWebSocket CreateFromConnectedStream(Stream stream, bool isServer, string subprotocol, TimeSpan keepAliveInterval)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D0E")]
-	[Address(RVA = "0x4694B30", Offset = "0x4694B30", VA = "0x4694B30")]
+	[Address(RVA = "0x49B9C30", Offset = "0x49B9C30", VA = "0x49B9C30")]
 	private ManagedWebSocket(Stream stream, bool isServer, string subprotocol, TimeSpan keepAliveInterval)
 	{
 	}
 
 	[Token(Token = "0x6000D0F")]
-	[Address(RVA = "0x4695040", Offset = "0x4695040", VA = "0x4695040", Slot = "10")]
+	[Address(RVA = "0x49BA140", Offset = "0x49BA140", VA = "0x49BA140", Slot = "10")]
 	public override void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000D10")]
-	[Address(RVA = "0x4695140", Offset = "0x4695140", VA = "0x4695140")]
+	[Address(RVA = "0x49BA240", Offset = "0x49BA240", VA = "0x49BA240")]
 	private void DisposeCore()
 	{
 	}
 
 	[Token(Token = "0x6000D13")]
-	[Address(RVA = "0x46951A0", Offset = "0x46951A0", VA = "0x46951A0", Slot = "12")]
+	[Address(RVA = "0x49BA2A0", Offset = "0x49BA2A0", VA = "0x49BA2A0", Slot = "12")]
 	public override Task SendAsync(ArraySegment<byte> buffer, WebSocketMessageType messageType, bool endOfMessage, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D14")]
-	[Address(RVA = "0x46955F0", Offset = "0x46955F0", VA = "0x46955F0")]
+	[Address(RVA = "0x49BA6F0", Offset = "0x49BA6F0", VA = "0x49BA6F0")]
 	private ValueTask SendPrivateAsync(ReadOnlyMemory<byte> buffer, WebSocketMessageType messageType, bool endOfMessage, CancellationToken cancellationToken)
 	{
 		return default(ValueTask);
 	}
 
 	[Token(Token = "0x6000D15")]
-	[Address(RVA = "0x4695BD0", Offset = "0x4695BD0", VA = "0x4695BD0", Slot = "11")]
+	[Address(RVA = "0x49BACD0", Offset = "0x49BACD0", VA = "0x49BACD0", Slot = "11")]
 	public override Task<WebSocketReceiveResult> ReceiveAsync(ArraySegment<byte> buffer, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D16")]
-	[Address(RVA = "0x4695F50", Offset = "0x4695F50", VA = "0x4695F50", Slot = "8")]
+	[Address(RVA = "0x49BB050", Offset = "0x49BB050", VA = "0x49BB050", Slot = "8")]
 	public override Task CloseAsync(WebSocketCloseStatus closeStatus, string statusDescription, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D17")]
-	[Address(RVA = "0x4696360", Offset = "0x4696360", VA = "0x4696360", Slot = "9")]
+	[Address(RVA = "0x49BB460", Offset = "0x49BB460", VA = "0x49BB460", Slot = "9")]
 	public override Task CloseOutputAsync(WebSocketCloseStatus closeStatus, string statusDescription, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D18")]
-	[Address(RVA = "0x46965F0", Offset = "0x46965F0", VA = "0x46965F0", Slot = "7")]
+	[Address(RVA = "0x49BB6F0", Offset = "0x49BB6F0", VA = "0x49BB6F0", Slot = "7")]
 	public override void Abort()
 	{
 	}
 
 	[Token(Token = "0x6000D19")]
-	[Address(RVA = "0x4695AC0", Offset = "0x4695AC0", VA = "0x4695AC0")]
+	[Address(RVA = "0x49BABC0", Offset = "0x49BABC0", VA = "0x49BABC0")]
 	private ValueTask SendFrameAsync(MessageOpcode opcode, bool endOfMessage, ReadOnlyMemory<byte> payloadBuffer, CancellationToken cancellationToken)
 	{
 		return default(ValueTask);
 	}
 
 	[Token(Token = "0x6000D1A")]
-	[Address(RVA = "0x4696620", Offset = "0x4696620", VA = "0x4696620")]
+	[Address(RVA = "0x49BB720", Offset = "0x49BB720", VA = "0x49BB720")]
 	private ValueTask SendFrameLockAcquiredNonCancelableAsync(MessageOpcode opcode, bool endOfMessage, ReadOnlyMemory<byte> payloadBuffer)
 	{
 		return default(ValueTask);
 	}
 
 	[Token(Token = "0x6000D1B")]
-	[Address(RVA = "0x4697090", Offset = "0x4697090", VA = "0x4697090")]
+	[Address(RVA = "0x49BC190", Offset = "0x49BC190", VA = "0x49BC190")]
 	[AsyncStateMachine(typeof(_003CWaitForWriteTaskAsync_003Ed__55))]
 	private Task WaitForWriteTaskAsync(ValueTask writeTask)
 	{
@@ -844,7 +851,7 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[Token(Token = "0x6000D1C")]
-	[Address(RVA = "0x4696BB0", Offset = "0x4696BB0", VA = "0x4696BB0")]
+	[Address(RVA = "0x49BBCB0", Offset = "0x49BBCB0", VA = "0x49BBCB0")]
 	[AsyncStateMachine(typeof(_003CSendFrameFallbackAsync_003Ed__56))]
 	private Task SendFrameFallbackAsync(MessageOpcode opcode, bool endOfMessage, ReadOnlyMemory<byte> payloadBuffer, CancellationToken cancellationToken)
 	{
@@ -852,27 +859,27 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[Token(Token = "0x6000D1D")]
-	[Address(RVA = "0x4696D00", Offset = "0x4696D00", VA = "0x4696D00")]
+	[Address(RVA = "0x49BBE00", Offset = "0x49BBE00", VA = "0x49BBE00")]
 	private int WriteFrameToSendBuffer(MessageOpcode opcode, bool endOfMessage, ReadOnlySpan<byte> payloadBuffer)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000D1E")]
-	[Address(RVA = "0x4697590", Offset = "0x4697590", VA = "0x4697590")]
+	[Address(RVA = "0x49BC690", Offset = "0x49BC690", VA = "0x49BC690")]
 	private void SendKeepAliveFrameAsync()
 	{
 	}
 
 	[Token(Token = "0x6000D1F")]
-	[Address(RVA = "0x4697330", Offset = "0x4697330", VA = "0x4697330")]
+	[Address(RVA = "0x49BC430", Offset = "0x49BC430", VA = "0x49BC430")]
 	private static int WriteHeader(MessageOpcode opcode, byte[] sendBuffer, ReadOnlySpan<byte> payload, bool endOfMessage, bool useMask)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000D20")]
-	[Address(RVA = "0x4697B00", Offset = "0x4697B00", VA = "0x4697B00")]
+	[Address(RVA = "0x49BCC00", Offset = "0x49BCC00", VA = "0x49BCC00")]
 	private static void WriteRandomMask(byte[] buffer, int offset)
 	{
 	}
@@ -885,7 +892,7 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[Token(Token = "0x6000D22")]
-	[Address(RVA = "0x4697BA0", Offset = "0x4697BA0", VA = "0x4697BA0")]
+	[Address(RVA = "0x49BCCA0", Offset = "0x49BCCA0", VA = "0x49BCCA0")]
 	[AsyncStateMachine(typeof(_003CHandleReceivedCloseAsync_003Ed__62))]
 	private Task HandleReceivedCloseAsync(MessageHeader header, CancellationToken cancellationToken)
 	{
@@ -893,7 +900,7 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[Token(Token = "0x6000D23")]
-	[Address(RVA = "0x4697CE0", Offset = "0x4697CE0", VA = "0x4697CE0")]
+	[Address(RVA = "0x49BCDE0", Offset = "0x49BCDE0", VA = "0x49BCDE0")]
 	[AsyncStateMachine(typeof(_003CWaitForServerToCloseConnectionAsync_003Ed__63))]
 	private Task WaitForServerToCloseConnectionAsync(CancellationToken cancellationToken)
 	{
@@ -901,7 +908,7 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[Token(Token = "0x6000D24")]
-	[Address(RVA = "0x4697DF0", Offset = "0x4697DF0", VA = "0x4697DF0")]
+	[Address(RVA = "0x49BCEF0", Offset = "0x49BCEF0", VA = "0x49BCEF0")]
 	[AsyncStateMachine(typeof(_003CHandleReceivedPingPongAsync_003Ed__64))]
 	private Task HandleReceivedPingPongAsync(MessageHeader header, CancellationToken cancellationToken)
 	{
@@ -909,14 +916,14 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[Token(Token = "0x6000D25")]
-	[Address(RVA = "0x4697F30", Offset = "0x4697F30", VA = "0x4697F30")]
+	[Address(RVA = "0x49BD030", Offset = "0x49BD030", VA = "0x49BD030")]
 	private static bool IsValidCloseStatus(WebSocketCloseStatus closeStatus)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000D26")]
-	[Address(RVA = "0x4697F70", Offset = "0x4697F70", VA = "0x4697F70")]
+	[Address(RVA = "0x49BD070", Offset = "0x49BD070", VA = "0x49BD070")]
 	[AsyncStateMachine(typeof(_003CCloseWithReceiveErrorAndThrowAsync_003Ed__66))]
 	private Task CloseWithReceiveErrorAndThrowAsync(WebSocketCloseStatus closeStatus, WebSocketError error, [Optional] Exception innerException)
 	{
@@ -924,14 +931,14 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[Token(Token = "0x6000D27")]
-	[Address(RVA = "0x4698090", Offset = "0x4698090", VA = "0x4698090")]
+	[Address(RVA = "0x49BD190", Offset = "0x49BD190", VA = "0x49BD190")]
 	private bool TryParseMessageHeaderFromReceiveBuffer(out MessageHeader resultHeader)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000D28")]
-	[Address(RVA = "0x4696230", Offset = "0x4696230", VA = "0x4696230")]
+	[Address(RVA = "0x49BB330", Offset = "0x49BB330", VA = "0x49BB330")]
 	[AsyncStateMachine(typeof(_003CCloseAsyncPrivate_003Ed__68))]
 	private Task CloseAsyncPrivate(WebSocketCloseStatus closeStatus, string statusDescription, CancellationToken cancellationToken)
 	{
@@ -939,7 +946,7 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[Token(Token = "0x6000D29")]
-	[Address(RVA = "0x46964B0", Offset = "0x46964B0", VA = "0x46964B0")]
+	[Address(RVA = "0x49BB5B0", Offset = "0x49BB5B0", VA = "0x49BB5B0")]
 	[AsyncStateMachine(typeof(_003CSendCloseFrameAsync_003Ed__69))]
 	private Task SendCloseFrameAsync(WebSocketCloseStatus closeStatus, string closeStatusDescription, CancellationToken cancellationToken)
 	{
@@ -947,13 +954,13 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[Token(Token = "0x6000D2A")]
-	[Address(RVA = "0x4698360", Offset = "0x4698360", VA = "0x4698360")]
+	[Address(RVA = "0x49BD460", Offset = "0x49BD460", VA = "0x49BD460")]
 	private void ConsumeFromBuffer(int count)
 	{
 	}
 
 	[Token(Token = "0x6000D2B")]
-	[Address(RVA = "0x4698400", Offset = "0x4698400", VA = "0x4698400")]
+	[Address(RVA = "0x49BD500", Offset = "0x49BD500", VA = "0x49BD500")]
 	[AsyncStateMachine(typeof(_003CEnsureBufferContainsAsync_003Ed__71))]
 	private Task EnsureBufferContainsAsync(int minimumRequiredBytes, CancellationToken cancellationToken, bool throwOnPrematureClosure = true)
 	{
@@ -961,72 +968,72 @@ internal sealed class ManagedWebSocket : WebSocket
 	}
 
 	[Token(Token = "0x6000D2C")]
-	[Address(RVA = "0x4698520", Offset = "0x4698520", VA = "0x4698520")]
+	[Address(RVA = "0x49BD620", Offset = "0x49BD620", VA = "0x49BD620")]
 	private void ThrowIfEOFUnexpected(bool throwOnPrematureClosure)
 	{
 	}
 
 	[Token(Token = "0x6000D2D")]
-	[Address(RVA = "0x46971A0", Offset = "0x46971A0", VA = "0x46971A0")]
+	[Address(RVA = "0x49BC2A0", Offset = "0x49BC2A0", VA = "0x49BC2A0")]
 	private void AllocateSendBuffer(int minLength)
 	{
 	}
 
 	[Token(Token = "0x6000D2E")]
-	[Address(RVA = "0x46985D0", Offset = "0x46985D0", VA = "0x46985D0")]
+	[Address(RVA = "0x49BD6D0", Offset = "0x49BD6D0", VA = "0x49BD6D0")]
 	private void ReleaseSendBuffer()
 	{
 	}
 
 	[Token(Token = "0x6000D2F")]
-	[Address(RVA = "0x4698370", Offset = "0x4698370", VA = "0x4698370")]
+	[Address(RVA = "0x49BD470", Offset = "0x49BD470", VA = "0x49BD470")]
 	private static int CombineMaskBytes(Span<byte> buffer, int maskOffset)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000D30")]
-	[Address(RVA = "0x46974F0", Offset = "0x46974F0", VA = "0x46974F0")]
+	[Address(RVA = "0x49BC5F0", Offset = "0x49BC5F0", VA = "0x49BC5F0")]
 	private static int ApplyMask(Span<byte> toMask, byte[] mask, int maskOffset, int maskOffsetIndex)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000D31")]
-	[Address(RVA = "0x4698770", Offset = "0x4698770", VA = "0x4698770")]
+	[Address(RVA = "0x49BD870", Offset = "0x49BD870", VA = "0x49BD870")]
 	private static int ApplyMask(Span<byte> toMask, int mask, int maskIndex)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000D32")]
-	[Address(RVA = "0x4695F20", Offset = "0x4695F20", VA = "0x4695F20")]
+	[Address(RVA = "0x49BB020", Offset = "0x49BB020", VA = "0x49BB020")]
 	private void ThrowIfOperationInProgress(bool operationCompleted, [Optional][CallerMemberName] string methodName)
 	{
 	}
 
 	[Token(Token = "0x6000D33")]
-	[Address(RVA = "0x46988C0", Offset = "0x46988C0", VA = "0x46988C0")]
+	[Address(RVA = "0x49BD9C0", Offset = "0x49BD9C0", VA = "0x49BD9C0")]
 	private void ThrowOperationInProgress(string methodName)
 	{
 	}
 
 	[Token(Token = "0x6000D34")]
-	[Address(RVA = "0x4696FF0", Offset = "0x4696FF0", VA = "0x4696FF0")]
+	[Address(RVA = "0x49BC0F0", Offset = "0x49BC0F0", VA = "0x49BC0F0")]
 	private static Exception CreateOperationCanceledException(Exception innerException, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D35")]
-	[Address(RVA = "0x4698920", Offset = "0x4698920", VA = "0x4698920")]
+	[Address(RVA = "0x49BDA20", Offset = "0x49BDA20", VA = "0x49BDA20")]
 	private static bool TryValidateUtf8(Span<byte> span, bool endOfMessage, Utf8MessageState state)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000D36")]
-	[Address(RVA = "0x4698B30", Offset = "0x4698B30", VA = "0x4698B30")]
+	[Address(RVA = "0x49BDC30", Offset = "0x49BDC30", VA = "0x49BDC30")]
 	private Task ValidateAndReceiveAsync(Task receiveTask, byte[] buffer, CancellationToken cancellationToken)
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: DG.Tweening.TweenParams
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 using UnityEngine;
@@ -112,174 +119,174 @@ public class TweenParams
 	internal float easePeriod;
 
 	[Token(Token = "0x6000230")]
-	[Address(RVA = "0x23081E0", Offset = "0x23081E0", VA = "0x23081E0")]
+	[Address(RVA = "0x236EAC0", Offset = "0x236EAC0", VA = "0x236EAC0")]
 	public TweenParams()
 	{
 	}
 
 	[Token(Token = "0x6000231")]
-	[Address(RVA = "0x2308200", Offset = "0x2308200", VA = "0x2308200")]
+	[Address(RVA = "0x236EAE0", Offset = "0x236EAE0", VA = "0x236EAE0")]
 	public TweenParams Clear()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000232")]
-	[Address(RVA = "0x23083B0", Offset = "0x23083B0", VA = "0x23083B0")]
+	[Address(RVA = "0x236EC90", Offset = "0x236EC90", VA = "0x236EC90")]
 	public TweenParams SetAutoKill(bool autoKillOnCompletion = true)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000233")]
-	[Address(RVA = "0x23083C0", Offset = "0x23083C0", VA = "0x23083C0")]
+	[Address(RVA = "0x236ECA0", Offset = "0x236ECA0", VA = "0x236ECA0")]
 	public TweenParams SetId(object objectId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000234")]
-	[Address(RVA = "0x23083E0", Offset = "0x23083E0", VA = "0x23083E0")]
+	[Address(RVA = "0x236ECC0", Offset = "0x236ECC0", VA = "0x236ECC0")]
 	public TweenParams SetId(string stringId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000235")]
-	[Address(RVA = "0x2308400", Offset = "0x2308400", VA = "0x2308400")]
+	[Address(RVA = "0x236ECE0", Offset = "0x236ECE0", VA = "0x236ECE0")]
 	public TweenParams SetId(int intId)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000236")]
-	[Address(RVA = "0x2308410", Offset = "0x2308410", VA = "0x2308410")]
+	[Address(RVA = "0x236ECF0", Offset = "0x236ECF0", VA = "0x236ECF0")]
 	public TweenParams SetTarget(object target)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000237")]
-	[Address(RVA = "0x2308430", Offset = "0x2308430", VA = "0x2308430")]
+	[Address(RVA = "0x236ED10", Offset = "0x236ED10", VA = "0x236ED10")]
 	public TweenParams SetLoops(int loops, [Optional] LoopType? loopType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000238")]
-	[Address(RVA = "0x23084C0", Offset = "0x23084C0", VA = "0x23084C0")]
+	[Address(RVA = "0x236EDA0", Offset = "0x236EDA0", VA = "0x236EDA0")]
 	public TweenParams SetEase(Ease ease, [Optional] float? overshootOrAmplitude, [Optional] float? period)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000239")]
-	[Address(RVA = "0x23085E0", Offset = "0x23085E0", VA = "0x23085E0")]
+	[Address(RVA = "0x236EEC0", Offset = "0x236EEC0", VA = "0x236EEC0")]
 	public TweenParams SetEase(AnimationCurve animCurve)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600023A")]
-	[Address(RVA = "0x2308710", Offset = "0x2308710", VA = "0x2308710")]
+	[Address(RVA = "0x236EFF0", Offset = "0x236EFF0", VA = "0x236EFF0")]
 	public TweenParams SetEase(EaseFunction customEase)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600023B")]
-	[Address(RVA = "0x2308740", Offset = "0x2308740", VA = "0x2308740")]
+	[Address(RVA = "0x236F020", Offset = "0x236F020", VA = "0x236F020")]
 	public TweenParams SetRecyclable(bool recyclable = true)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600023C")]
-	[Address(RVA = "0x2308750", Offset = "0x2308750", VA = "0x2308750")]
+	[Address(RVA = "0x236F030", Offset = "0x236F030", VA = "0x236F030")]
 	public TweenParams SetUpdate(bool isIndependentUpdate)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600023D")]
-	[Address(RVA = "0x23087B0", Offset = "0x23087B0", VA = "0x23087B0")]
+	[Address(RVA = "0x236F090", Offset = "0x236F090", VA = "0x236F090")]
 	public TweenParams SetUpdate(UpdateType updateType, bool isIndependentUpdate = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600023E")]
-	[Address(RVA = "0x23087C0", Offset = "0x23087C0", VA = "0x23087C0")]
+	[Address(RVA = "0x236F0A0", Offset = "0x236F0A0", VA = "0x236F0A0")]
 	public TweenParams OnStart(TweenCallback action)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600023F")]
-	[Address(RVA = "0x23087E0", Offset = "0x23087E0", VA = "0x23087E0")]
+	[Address(RVA = "0x236F0C0", Offset = "0x236F0C0", VA = "0x236F0C0")]
 	public TweenParams OnPlay(TweenCallback action)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000240")]
-	[Address(RVA = "0x2308800", Offset = "0x2308800", VA = "0x2308800")]
+	[Address(RVA = "0x236F0E0", Offset = "0x236F0E0", VA = "0x236F0E0")]
 	public TweenParams OnRewind(TweenCallback action)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000241")]
-	[Address(RVA = "0x2308820", Offset = "0x2308820", VA = "0x2308820")]
+	[Address(RVA = "0x236F100", Offset = "0x236F100", VA = "0x236F100")]
 	public TweenParams OnUpdate(TweenCallback action)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000242")]
-	[Address(RVA = "0x2308840", Offset = "0x2308840", VA = "0x2308840")]
+	[Address(RVA = "0x236F120", Offset = "0x236F120", VA = "0x236F120")]
 	public TweenParams OnStepComplete(TweenCallback action)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000243")]
-	[Address(RVA = "0x2308860", Offset = "0x2308860", VA = "0x2308860")]
+	[Address(RVA = "0x236F140", Offset = "0x236F140", VA = "0x236F140")]
 	public TweenParams OnComplete(TweenCallback action)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000244")]
-	[Address(RVA = "0x2308880", Offset = "0x2308880", VA = "0x2308880")]
+	[Address(RVA = "0x236F160", Offset = "0x236F160", VA = "0x236F160")]
 	public TweenParams OnKill(TweenCallback action)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000245")]
-	[Address(RVA = "0x23088A0", Offset = "0x23088A0", VA = "0x23088A0")]
+	[Address(RVA = "0x236F180", Offset = "0x236F180", VA = "0x236F180")]
 	public TweenParams OnWaypointChange(TweenCallback<int> action)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000246")]
-	[Address(RVA = "0x23088C0", Offset = "0x23088C0", VA = "0x23088C0")]
+	[Address(RVA = "0x236F1A0", Offset = "0x236F1A0", VA = "0x236F1A0")]
 	public TweenParams SetDelay(float delay)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000247")]
-	[Address(RVA = "0x23088D0", Offset = "0x23088D0", VA = "0x23088D0")]
+	[Address(RVA = "0x236F1B0", Offset = "0x236F1B0", VA = "0x236F1B0")]
 	public TweenParams SetRelative(bool isRelative = true)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000248")]
-	[Address(RVA = "0x23088E0", Offset = "0x23088E0", VA = "0x23088E0")]
+	[Address(RVA = "0x236F1C0", Offset = "0x236F1C0", VA = "0x236F1C0")]
 	public TweenParams SetSpeedBased(bool isSpeedBased = true)
 	{
 		return null;

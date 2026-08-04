@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.XmlImplementation
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml;
@@ -13,7 +20,7 @@ public class XmlImplementation
 	internal XmlNameTable NameTable
 	{
 		[Token(Token = "0x6000915")]
-		[Address(RVA = "0x4497CB0", Offset = "0x4497CB0", VA = "0x4497CB0")]
+		[Address(RVA = "0x47D5410", Offset = "0x47D5410", VA = "0x47D5410")]
 		get
 		{
 			return null;
@@ -21,19 +28,19 @@ public class XmlImplementation
 	}
 
 	[Token(Token = "0x6000912")]
-	[Address(RVA = "0x4497B00", Offset = "0x4497B00", VA = "0x4497B00")]
+	[Address(RVA = "0x47D5260", Offset = "0x47D5260", VA = "0x47D5260")]
 	public XmlImplementation()
 	{
 	}
 
 	[Token(Token = "0x6000913")]
-	[Address(RVA = "0x4497C30", Offset = "0x4497C30", VA = "0x4497C30")]
+	[Address(RVA = "0x47D5390", Offset = "0x47D5390", VA = "0x47D5390")]
 	public XmlImplementation(XmlNameTable nt)
 	{
 	}
 
 	[Token(Token = "0x6000914")]
-	[Address(RVA = "0x4497C60", Offset = "0x4497C60", VA = "0x4497C60", Slot = "4")]
+	[Address(RVA = "0x47D53C0", Offset = "0x47D53C0", VA = "0x47D53C0", Slot = "4")]
 	public virtual XmlDocument CreateDocument()
 	{
 		return null;

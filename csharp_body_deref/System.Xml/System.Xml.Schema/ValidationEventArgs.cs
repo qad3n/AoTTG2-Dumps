@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.ValidationEventArgs
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -17,7 +24,7 @@ public class ValidationEventArgs : EventArgs
 	public XmlSeverityType Severity
 	{
 		[Token(Token = "0x600143D")]
-		[Address(RVA = "0x43CE9B0", Offset = "0x43CE9B0", VA = "0x43CE9B0")]
+		[Address(RVA = "0x470C110", Offset = "0x470C110", VA = "0x470C110")]
 		get
 		{
 			return default(XmlSeverityType);
@@ -28,7 +35,7 @@ public class ValidationEventArgs : EventArgs
 	public XmlSchemaException Exception
 	{
 		[Token(Token = "0x600143E")]
-		[Address(RVA = "0x43CE9C0", Offset = "0x43CE9C0", VA = "0x43CE9C0")]
+		[Address(RVA = "0x470C120", Offset = "0x470C120", VA = "0x470C120")]
 		get
 		{
 			return null;
@@ -36,13 +43,13 @@ public class ValidationEventArgs : EventArgs
 	}
 
 	[Token(Token = "0x600143B")]
-	[Address(RVA = "0x43CE8D0", Offset = "0x43CE8D0", VA = "0x43CE8D0")]
+	[Address(RVA = "0x470C030", Offset = "0x470C030", VA = "0x470C030")]
 	internal ValidationEventArgs(XmlSchemaException ex)
 	{
 	}
 
 	[Token(Token = "0x600143C")]
-	[Address(RVA = "0x43CE940", Offset = "0x43CE940", VA = "0x43CE940")]
+	[Address(RVA = "0x470C0A0", Offset = "0x470C0A0", VA = "0x470C0A0")]
 	internal ValidationEventArgs(XmlSchemaException ex, XmlSeverityType severity)
 	{
 	}

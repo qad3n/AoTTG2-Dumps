@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.DocumentXPathNodeIterator_ElemChildren
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.XPath;
 using Il2CppDummyDll;
 
@@ -15,26 +22,26 @@ internal class DocumentXPathNodeIterator_ElemChildren : DocumentXPathNodeIterato
 	protected string nsAtom;
 
 	[Token(Token = "0x60007A6")]
-	[Address(RVA = "0x4488DE0", Offset = "0x4488DE0", VA = "0x4488DE0")]
+	[Address(RVA = "0x47C6540", Offset = "0x47C6540", VA = "0x47C6540")]
 	internal DocumentXPathNodeIterator_ElemChildren(DocumentXPathNavigator nav, string localNameAtom, string nsAtom)
 	{
 	}
 
 	[Token(Token = "0x60007A7")]
-	[Address(RVA = "0x4489B60", Offset = "0x4489B60", VA = "0x4489B60")]
+	[Address(RVA = "0x47C72C0", Offset = "0x47C72C0", VA = "0x47C72C0")]
 	internal DocumentXPathNodeIterator_ElemChildren(DocumentXPathNodeIterator_ElemChildren other)
 	{
 	}
 
 	[Token(Token = "0x60007A8")]
-	[Address(RVA = "0x4489BB0", Offset = "0x4489BB0", VA = "0x4489BB0", Slot = "6")]
+	[Address(RVA = "0x47C7310", Offset = "0x47C7310", VA = "0x47C7310", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007A9")]
-	[Address(RVA = "0x4489C30", Offset = "0x4489C30", VA = "0x4489C30", Slot = "12")]
+	[Address(RVA = "0x47C7390", Offset = "0x47C7390", VA = "0x47C7390", Slot = "12")]
 	protected override bool Match(XmlNode node)
 	{
 		return default(bool);

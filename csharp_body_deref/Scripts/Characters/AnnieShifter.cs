@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Characters.AnnieShifter
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Characters/AnnieShifter.c
+// Prior real C# source (older reference): Assets/Scripts/Characters/Shifters/Annie/AnnieShifter.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using CustomSkins;
 using Il2CppDummyDll;
@@ -6,87 +13,87 @@ using Utility;
 
 namespace Characters;
 
-[Token(Token = "0x20004F3")]
+[Token(Token = "0x2000538")]
 internal class AnnieShifter : BaseShifter
 {
-	[Token(Token = "0x4001769")]
+	[Token(Token = "0x400187A")]
 	[FieldOffset(Offset = "0x290")]
 	protected AnnieComponentCache AnnieCache;
 
-	[Token(Token = "0x400176A")]
+	[Token(Token = "0x400187B")]
 	[FieldOffset(Offset = "0x298")]
 	protected AnnieAnimations AnnieAnimations;
 
-	[Token(Token = "0x170009A0")]
+	[Token(Token = "0x17000A0A")]
 	public override List<string> EmoteActions
 	{
-		[Token(Token = "0x6003440")]
-		[Address(RVA = "0x3EF0E50", Offset = "0x3EF0E50", VA = "0x3EF0E50", Slot = "59")]
+		[Token(Token = "0x600364E")]
+		[Address(RVA = "0x41FD710", Offset = "0x41FD710", VA = "0x41FD710", Slot = "59")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6003441")]
-	[Address(RVA = "0x3EF1060", Offset = "0x3EF1060", VA = "0x3EF1060", Slot = "68")]
+	[Token(Token = "0x600364F")]
+	[Address(RVA = "0x41FD920", Offset = "0x41FD920", VA = "0x41FD920", Slot = "68")]
 	protected override void CreateCache(BaseComponentCache cache)
 	{
 	}
 
-	[Token(Token = "0x6003442")]
-	[Address(RVA = "0x3EF1190", Offset = "0x3EF1190", VA = "0x3EF1190", Slot = "151")]
+	[Token(Token = "0x6003650")]
+	[Address(RVA = "0x41FDA50", Offset = "0x41FDA50", VA = "0x41FDA50", Slot = "151")]
 	protected override void CreateAnimations(BaseTitanAnimations animations)
 	{
 	}
 
-	[Token(Token = "0x6003443")]
-	[Address(RVA = "0x3EF1410", Offset = "0x3EF1410", VA = "0x3EF1410", Slot = "70")]
+	[Token(Token = "0x6003651")]
+	[Address(RVA = "0x41FDCD0", Offset = "0x41FDCD0", VA = "0x41FDCD0", Slot = "70")]
 	public override void Emote(string emote)
 	{
 	}
 
-	[Token(Token = "0x6003444")]
-	[Address(RVA = "0x3EF16F0", Offset = "0x3EF16F0", VA = "0x3EF16F0", Slot = "178")]
+	[Token(Token = "0x6003652")]
+	[Address(RVA = "0x41FDFB0", Offset = "0x41FDFB0", VA = "0x41FDFB0", Slot = "178")]
 	protected override BaseCustomSkinLoader CreateCustomSkinLoader()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003445")]
-	[Address(RVA = "0x3EF1740", Offset = "0x3EF1740", VA = "0x3EF1740", Slot = "177")]
+	[Token(Token = "0x6003653")]
+	[Address(RVA = "0x41FE000", Offset = "0x41FE000", VA = "0x41FE000", Slot = "177")]
 	protected override string GetSkinURL(ShifterCustomSkinSet set)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003446")]
-	[Address(RVA = "0x3EF1780", Offset = "0x3EF1780", VA = "0x3EF1780", Slot = "121")]
+	[Token(Token = "0x6003654")]
+	[Address(RVA = "0x41FE040", Offset = "0x41FE040", VA = "0x41FE040", Slot = "121")]
 	protected override Dictionary<string, float> GetRootMotionAnimations()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003447")]
-	[Address(RVA = "0x3EF1820", Offset = "0x3EF1820", VA = "0x3EF1820", Slot = "161")]
+	[Token(Token = "0x6003655")]
+	[Address(RVA = "0x41FE0E0", Offset = "0x41FE0E0", VA = "0x41FE0E0", Slot = "161")]
 	protected override void UpdateAttack()
 	{
 	}
 
-	[Token(Token = "0x6003448")]
-	[Address(RVA = "0x3EF2560", Offset = "0x3EF2560", VA = "0x3EF2560", Slot = "168")]
+	[Token(Token = "0x6003656")]
+	[Address(RVA = "0x41FEE20", Offset = "0x41FEE20", VA = "0x41FEE20", Slot = "168")]
 	protected override void DamagedGrunt(float chance = 1f)
 	{
 	}
 
-	[Token(Token = "0x6003449")]
-	[Address(RVA = "0x3EF2630", Offset = "0x3EF2630", VA = "0x3EF2630", Slot = "144")]
+	[Token(Token = "0x6003657")]
+	[Address(RVA = "0x41FEEF0", Offset = "0x41FEEF0", VA = "0x41FEEF0", Slot = "144")]
 	public override void Blind()
 	{
 	}
 
-	[Token(Token = "0x600344A")]
-	[Address(RVA = "0x3EF26E0", Offset = "0x3EF26E0", VA = "0x3EF26E0")]
+	[Token(Token = "0x6003658")]
+	[Address(RVA = "0x41FEFA0", Offset = "0x41FEFA0", VA = "0x41FEFA0")]
 	public AnnieShifter()
 	{
 	}

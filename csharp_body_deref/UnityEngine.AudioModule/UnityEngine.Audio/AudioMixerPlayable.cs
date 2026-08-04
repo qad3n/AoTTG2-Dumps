@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Audio.AudioMixerPlayable
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -19,14 +26,14 @@ public struct AudioMixerPlayable : IEquatable<AudioMixerPlayable>
 	private PlayableHandle m_Handle;
 
 	[Token(Token = "0x6000070")]
-	[Address(RVA = "0x4A83B40", Offset = "0x4A83B40", VA = "0x4A83B40", Slot = "5")]
+	[Address(RVA = "0x4DAB360", Offset = "0x4DAB360", VA = "0x4DAB360", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
 	[Token(Token = "0x6000071")]
-	[Address(RVA = "0x4A83B50", Offset = "0x4A83B50", VA = "0x4A83B50", Slot = "4")]
+	[Address(RVA = "0x4DAB370", Offset = "0x4DAB370", VA = "0x4DAB370", Slot = "4")]
 	public bool Equals(AudioMixerPlayable other)
 	{
 		return default(bool);

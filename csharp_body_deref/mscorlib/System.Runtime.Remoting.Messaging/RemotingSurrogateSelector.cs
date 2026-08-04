@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
@@ -25,13 +32,13 @@ public class RemotingSurrogateSelector : ISurrogateSelector
 	private ISurrogateSelector _next;
 
 	[Token(Token = "0x6001EF4")]
-	[Address(RVA = "0x4E9C800", Offset = "0x4E9C800", VA = "0x4E9C800")]
+	[Address(RVA = "0x3B82320", Offset = "0x3B82320", VA = "0x3B82320")]
 	public RemotingSurrogateSelector()
 	{
 	}
 
 	[Token(Token = "0x6001EF5")]
-	[Address(RVA = "0x4EAC720", Offset = "0x4EAC720", VA = "0x4EAC720", Slot = "5")]
+	[Address(RVA = "0x3B92240", Offset = "0x3B92240", VA = "0x3B92240", Slot = "5")]
 	public virtual ISerializationSurrogate GetSurrogate(Type type, StreamingContext context, out ISurrogateSelector ssout)
 	{
 		return null;

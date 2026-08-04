@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.CompilerServices.AsyncVoidMethodBuilder
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
@@ -24,7 +31,7 @@ public struct AsyncVoidMethodBuilder
 	internal Task Task
 	{
 		[Token(Token = "0x60022C6")]
-		[Address(RVA = "0x4EDC9B0", Offset = "0x4EDC9B0", VA = "0x4EDC9B0")]
+		[Address(RVA = "0x3BC24D0", Offset = "0x3BC24D0", VA = "0x3BC24D0")]
 		get
 		{
 			return null;
@@ -32,7 +39,7 @@ public struct AsyncVoidMethodBuilder
 	}
 
 	[Token(Token = "0x60022BF")]
-	[Address(RVA = "0x4EDC7C0", Offset = "0x4EDC7C0", VA = "0x4EDC7C0")]
+	[Address(RVA = "0x3BC22E0", Offset = "0x3BC22E0", VA = "0x3BC22E0")]
 	public static AsyncVoidMethodBuilder Create()
 	{
 		return default(AsyncVoidMethodBuilder);
@@ -45,7 +52,7 @@ public struct AsyncVoidMethodBuilder
 	}
 
 	[Token(Token = "0x60022C1")]
-	[Address(RVA = "0x4EDC840", Offset = "0x4EDC840", VA = "0x4EDC840")]
+	[Address(RVA = "0x3BC2360", Offset = "0x3BC2360", VA = "0x3BC2360")]
 	public void SetStateMachine(IAsyncStateMachine stateMachine)
 	{
 	}
@@ -56,19 +63,19 @@ public struct AsyncVoidMethodBuilder
 	}
 
 	[Token(Token = "0x60022C3")]
-	[Address(RVA = "0x4EDC900", Offset = "0x4EDC900", VA = "0x4EDC900")]
+	[Address(RVA = "0x3BC2420", Offset = "0x3BC2420", VA = "0x3BC2420")]
 	public void SetResult()
 	{
 	}
 
 	[Token(Token = "0x60022C4")]
-	[Address(RVA = "0x4EDCAD0", Offset = "0x4EDCAD0", VA = "0x4EDCAD0")]
+	[Address(RVA = "0x3BC25F0", Offset = "0x3BC25F0", VA = "0x3BC25F0")]
 	public void SetException(Exception exception)
 	{
 	}
 
 	[Token(Token = "0x60022C5")]
-	[Address(RVA = "0x4EDCA30", Offset = "0x4EDCA30", VA = "0x4EDCA30")]
+	[Address(RVA = "0x3BC2550", Offset = "0x3BC2550", VA = "0x3BC2550")]
 	private void NotifySynchronizationContextOfCompletion()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.SequenceNode
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -29,7 +36,7 @@ internal sealed class SequenceNode : InteriorNode
 		public BitSet firstposRight;
 
 		[Token(Token = "0x6000FF0")]
-		[Address(RVA = "0x450AB10", Offset = "0x450AB10", VA = "0x450AB10")]
+		[Address(RVA = "0x4848270", Offset = "0x4848270", VA = "0x4848270")]
 		public SequenceConstructPosContext(SequenceNode node, BitSet firstpos, BitSet lastpos)
 		{
 		}
@@ -39,7 +46,7 @@ internal sealed class SequenceNode : InteriorNode
 	public override bool IsNullable
 	{
 		[Token(Token = "0x6000FED")]
-		[Address(RVA = "0x450AB80", Offset = "0x450AB80", VA = "0x450AB80", Slot = "6")]
+		[Address(RVA = "0x48482E0", Offset = "0x48482E0", VA = "0x48482E0", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -47,19 +54,19 @@ internal sealed class SequenceNode : InteriorNode
 	}
 
 	[Token(Token = "0x6000FEC")]
-	[Address(RVA = "0x450A3A0", Offset = "0x450A3A0", VA = "0x450A3A0", Slot = "5")]
+	[Address(RVA = "0x4847B00", Offset = "0x4847B00", VA = "0x4847B00", Slot = "5")]
 	public override void ConstructPos(BitSet firstpos, BitSet lastpos, BitSet[] followpos)
 	{
 	}
 
 	[Token(Token = "0x6000FEE")]
-	[Address(RVA = "0x450AD20", Offset = "0x450AD20", VA = "0x450AD20", Slot = "4")]
+	[Address(RVA = "0x4848480", Offset = "0x4848480", VA = "0x4848480", Slot = "4")]
 	public override void ExpandTree(InteriorNode parent, SymbolsDictionary symbols, Positions positions)
 	{
 	}
 
 	[Token(Token = "0x6000FEF")]
-	[Address(RVA = "0x450AD30", Offset = "0x450AD30", VA = "0x450AD30")]
+	[Address(RVA = "0x4848490", Offset = "0x4848490", VA = "0x4848490")]
 	public SequenceNode()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.LeaveExceptionFilterInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics.CodeAnalysis;
 using Il2CppDummyDll;
 
@@ -14,7 +21,7 @@ internal sealed class LeaveExceptionFilterInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x6000657")]
-		[Address(RVA = "0x41A4360", Offset = "0x41A4360", VA = "0x41A4360", Slot = "9")]
+		[Address(RVA = "0x44C9460", Offset = "0x44C9460", VA = "0x44C9460", Slot = "9")]
 		get
 		{
 			return null;
@@ -25,7 +32,7 @@ internal sealed class LeaveExceptionFilterInstruction : Instruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x6000658")]
-		[Address(RVA = "0x41A4390", Offset = "0x41A4390", VA = "0x41A4390", Slot = "4")]
+		[Address(RVA = "0x44C9490", Offset = "0x44C9490", VA = "0x44C9490", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -33,13 +40,13 @@ internal sealed class LeaveExceptionFilterInstruction : Instruction
 	}
 
 	[Token(Token = "0x6000656")]
-	[Address(RVA = "0x41A4350", Offset = "0x41A4350", VA = "0x41A4350")]
+	[Address(RVA = "0x44C9450", Offset = "0x44C9450", VA = "0x44C9450")]
 	private LeaveExceptionFilterInstruction()
 	{
 	}
 
 	[Token(Token = "0x6000659")]
-	[Address(RVA = "0x41A43A0", Offset = "0x41A43A0", VA = "0x41A43A0", Slot = "8")]
+	[Address(RVA = "0x44C94A0", Offset = "0x44C94A0", VA = "0x44C94A0", Slot = "8")]
 	[ExcludeFromCodeCoverage]
 	public override int Run(InterpretedFrame frame)
 	{

@@ -1,41 +1,48 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.FullSerializer.fsReflectedConverter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x20001F3")]
+[Token(Token = "0x20001E9")]
 public class fsReflectedConverter : fsConverter
 {
-	[Token(Token = "0x60011DC")]
-	[Address(RVA = "0x4A51360", Offset = "0x4A51360", VA = "0x4A51360", Slot = "9")]
+	[Token(Token = "0x60011B5")]
+	[Address(RVA = "0x4D71AB0", Offset = "0x4D71AB0", VA = "0x4D71AB0", Slot = "9")]
 	public override bool CanProcess(Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60011DD")]
-	[Address(RVA = "0x4A51430", Offset = "0x4A51430", VA = "0x4A51430", Slot = "7")]
+	[Token(Token = "0x60011B6")]
+	[Address(RVA = "0x4D71B80", Offset = "0x4D71B80", VA = "0x4D71B80", Slot = "7")]
 	public override fsResult TrySerialize(object instance, out fsData serialized, Type storageType)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x60011DE")]
-	[Address(RVA = "0x4A517B0", Offset = "0x4A517B0", VA = "0x4A517B0", Slot = "8")]
+	[Token(Token = "0x60011B7")]
+	[Address(RVA = "0x4D723C0", Offset = "0x4D723C0", VA = "0x4D723C0", Slot = "8")]
 	public override fsResult TryDeserialize(fsData data, ref object instance, Type storageType)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x60011DF")]
-	[Address(RVA = "0x4A51AF0", Offset = "0x4A51AF0", VA = "0x4A51AF0", Slot = "4")]
+	[Token(Token = "0x60011B8")]
+	[Address(RVA = "0x4D72CF0", Offset = "0x4D72CF0", VA = "0x4D72CF0", Slot = "4")]
 	public override object CreateInstance(fsData data, Type storageType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011E0")]
-	[Address(RVA = "0x4A51B60", Offset = "0x4A51B60", VA = "0x4A51B60")]
+	[Token(Token = "0x60011B9")]
+	[Address(RVA = "0x4D72D70", Offset = "0x4D72D70", VA = "0x4D72D70")]
 	public fsReflectedConverter()
 	{
 	}

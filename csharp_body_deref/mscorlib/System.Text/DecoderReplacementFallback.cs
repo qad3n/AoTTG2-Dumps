@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.DecoderReplacementFallback
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
 
@@ -15,7 +22,7 @@ public sealed class DecoderReplacementFallback : DecoderFallback, ISerializable
 	public string DefaultString
 	{
 		[Token(Token = "0x600156C")]
-		[Address(RVA = "0x506DAF0", Offset = "0x506DAF0", VA = "0x506DAF0")]
+		[Address(RVA = "0x3D53610", Offset = "0x3D53610", VA = "0x3D53610")]
 		get
 		{
 			return null;
@@ -26,7 +33,7 @@ public sealed class DecoderReplacementFallback : DecoderFallback, ISerializable
 	public override int MaxCharCount
 	{
 		[Token(Token = "0x600156E")]
-		[Address(RVA = "0x506DBB0", Offset = "0x506DBB0", VA = "0x506DBB0", Slot = "5")]
+		[Address(RVA = "0x3D536D0", Offset = "0x3D536D0", VA = "0x3D536D0", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -34,45 +41,45 @@ public sealed class DecoderReplacementFallback : DecoderFallback, ISerializable
 	}
 
 	[Token(Token = "0x6001568")]
-	[Address(RVA = "0x506C6A0", Offset = "0x506C6A0", VA = "0x506C6A0")]
+	[Address(RVA = "0x3D521C0", Offset = "0x3D521C0", VA = "0x3D521C0")]
 	public DecoderReplacementFallback()
 	{
 	}
 
 	[Token(Token = "0x6001569")]
-	[Address(RVA = "0x506D980", Offset = "0x506D980", VA = "0x506D980")]
+	[Address(RVA = "0x3D534A0", Offset = "0x3D534A0", VA = "0x3D534A0")]
 	internal DecoderReplacementFallback(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x600156A")]
-	[Address(RVA = "0x506DAA0", Offset = "0x506DAA0", VA = "0x506DAA0", Slot = "6")]
+	[Address(RVA = "0x3D535C0", Offset = "0x3D535C0", VA = "0x3D535C0", Slot = "6")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x600156B")]
-	[Address(RVA = "0x506D7E0", Offset = "0x506D7E0", VA = "0x506D7E0")]
+	[Address(RVA = "0x3D53300", Offset = "0x3D53300", VA = "0x3D53300")]
 	public DecoderReplacementFallback(string replacement)
 	{
 	}
 
 	[Token(Token = "0x600156D")]
-	[Address(RVA = "0x506DB00", Offset = "0x506DB00", VA = "0x506DB00", Slot = "4")]
+	[Address(RVA = "0x3D53620", Offset = "0x3D53620", VA = "0x3D53620", Slot = "4")]
 	public override DecoderFallbackBuffer CreateFallbackBuffer()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600156F")]
-	[Address(RVA = "0x506DBD0", Offset = "0x506DBD0", VA = "0x506DBD0", Slot = "0")]
+	[Address(RVA = "0x3D536F0", Offset = "0x3D536F0", VA = "0x3D536F0", Slot = "0")]
 	public override bool Equals(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001570")]
-	[Address(RVA = "0x506DC40", Offset = "0x506DC40", VA = "0x506DC40", Slot = "2")]
+	[Address(RVA = "0x3D53760", Offset = "0x3D53760", VA = "0x3D53760", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UI.ScoreboardMutePopup
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UI/ScoreboardMutePopup.c
+// Prior real C# source (older reference): Assets/Scripts/UI/InGameMenu/ScoreboardMutePopup.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 using Photon.Realtime;
@@ -6,132 +13,132 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x2000613")]
+[Token(Token = "0x200065E")]
 internal class ScoreboardMutePopup : PromptPopup
 {
-	[Token(Token = "0x4001DFF")]
+	[Token(Token = "0x4001F46")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	protected BoolSetting _muteEmote;
 
-	[Token(Token = "0x4001E00")]
+	[Token(Token = "0x4001F47")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	protected BoolSetting _muteText;
 
-	[Token(Token = "0x4001E01")]
+	[Token(Token = "0x4001F48")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
 	protected BoolSetting _muteVoice;
 
-	[Token(Token = "0x4001E02")]
+	[Token(Token = "0x4001F49")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC0")]
 	protected FloatSetting _voiceVolume;
 
-	[Token(Token = "0x4001E03")]
+	[Token(Token = "0x4001F4A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC8")]
 	protected Player _player;
 
-	[Token(Token = "0x17000BA9")]
+	[Token(Token = "0x17000C21")]
 	protected override string Title
 	{
-		[Token(Token = "0x6003DBE")]
-		[Address(RVA = "0x3FD1530", Offset = "0x3FD1530", VA = "0x3FD1530", Slot = "35")]
+		[Token(Token = "0x600400B")]
+		[Address(RVA = "0x42E3F30", Offset = "0x42E3F30", VA = "0x42E3F30", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000BAA")]
+	[Token(Token = "0x17000C22")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x6003DBF")]
-		[Address(RVA = "0x3FD15D0", Offset = "0x3FD15D0", VA = "0x3FD15D0", Slot = "9")]
+		[Token(Token = "0x600400C")]
+		[Address(RVA = "0x42E3FD0", Offset = "0x42E3FD0", VA = "0x42E3FD0", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000BAB")]
+	[Token(Token = "0x17000C23")]
 	protected override int HorizontalPadding
 	{
-		[Token(Token = "0x6003DC0")]
-		[Address(RVA = "0x3FD15E0", Offset = "0x3FD15E0", VA = "0x3FD15E0", Slot = "10")]
+		[Token(Token = "0x600400D")]
+		[Address(RVA = "0x42E3FE0", Offset = "0x42E3FE0", VA = "0x42E3FE0", Slot = "10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000BAC")]
+	[Token(Token = "0x17000C24")]
 	protected override float VerticalSpacing
 	{
-		[Token(Token = "0x6003DC1")]
-		[Address(RVA = "0x3FD15F0", Offset = "0x3FD15F0", VA = "0x3FD15F0", Slot = "11")]
+		[Token(Token = "0x600400E")]
+		[Address(RVA = "0x42E3FF0", Offset = "0x42E3FF0", VA = "0x42E3FF0", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000BAD")]
+	[Token(Token = "0x17000C25")]
 	protected override float Width
 	{
-		[Token(Token = "0x6003DC2")]
-		[Address(RVA = "0x3FD1600", Offset = "0x3FD1600", VA = "0x3FD1600", Slot = "5")]
+		[Token(Token = "0x600400F")]
+		[Address(RVA = "0x42E4000", Offset = "0x42E4000", VA = "0x42E4000", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000BAE")]
+	[Token(Token = "0x17000C26")]
 	protected override float Height
 	{
-		[Token(Token = "0x6003DC3")]
-		[Address(RVA = "0x3FD1610", Offset = "0x3FD1610", VA = "0x3FD1610", Slot = "6")]
+		[Token(Token = "0x6004010")]
+		[Address(RVA = "0x42E4010", Offset = "0x42E4010", VA = "0x42E4010", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000BAF")]
+	[Token(Token = "0x17000C27")]
 	protected override TextAnchor PanelAlignment
 	{
-		[Token(Token = "0x6003DC4")]
-		[Address(RVA = "0x3FD1620", Offset = "0x3FD1620", VA = "0x3FD1620", Slot = "12")]
+		[Token(Token = "0x6004011")]
+		[Address(RVA = "0x42E4020", Offset = "0x42E4020", VA = "0x42E4020", Slot = "12")]
 		get
 		{
 			return default(TextAnchor);
 		}
 	}
 
-	[Token(Token = "0x6003DC5")]
-	[Address(RVA = "0x3FD1630", Offset = "0x3FD1630", VA = "0x3FD1630", Slot = "20")]
+	[Token(Token = "0x6004012")]
+	[Address(RVA = "0x42E4030", Offset = "0x42E4030", VA = "0x42E4030", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6003DC6")]
-	[Address(RVA = "0x3FD1A10", Offset = "0x3FD1A10", VA = "0x3FD1A10")]
+	[Token(Token = "0x6004013")]
+	[Address(RVA = "0x42E4410", Offset = "0x42E4410", VA = "0x42E4410")]
 	public void Show(Player player)
 	{
 	}
 
-	[Token(Token = "0x6003DC7")]
-	[Address(RVA = "0x3FD1BA0", Offset = "0x3FD1BA0", VA = "0x3FD1BA0")]
+	[Token(Token = "0x6004014")]
+	[Address(RVA = "0x42E45A0", Offset = "0x42E45A0", VA = "0x42E45A0")]
 	protected void HandleMute(Player player, string type, bool mute, bool isMuted)
 	{
 	}
 
-	[Token(Token = "0x6003DC8")]
-	[Address(RVA = "0x3FD1C50", Offset = "0x3FD1C50", VA = "0x3FD1C50")]
+	[Token(Token = "0x6004015")]
+	[Address(RVA = "0x42E4650", Offset = "0x42E4650", VA = "0x42E4650")]
 	protected void OnButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x6003DC9")]
-	[Address(RVA = "0x3FD2060", Offset = "0x3FD2060", VA = "0x3FD2060")]
+	[Token(Token = "0x6004016")]
+	[Address(RVA = "0x42E4A60", Offset = "0x42E4A60", VA = "0x42E4A60")]
 	public ScoreboardMutePopup()
 	{
 	}

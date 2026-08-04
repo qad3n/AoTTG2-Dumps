@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UI.ToggleSettingElement
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UI/ToggleSettingElement.c
+// Prior real C# source (older reference): Assets/Scripts/UI/Elements/SettingElements/ToggleSettingElement.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 using Settings;
@@ -6,52 +13,52 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x20005BE")]
+[Token(Token = "0x2000603")]
 internal class ToggleSettingElement : BaseSettingElement
 {
-	[Token(Token = "0x4001BC9")]
+	[Token(Token = "0x4001CDC")]
 	[FieldOffset(Offset = "0x38")]
 	protected Toggle _toggle;
 
-	[Token(Token = "0x4001BCA")]
+	[Token(Token = "0x4001CDD")]
 	[FieldOffset(Offset = "0x40")]
 	private float _checkMarkSizeMultiplier;
 
-	[Token(Token = "0x4001BCB")]
+	[Token(Token = "0x4001CDE")]
 	[FieldOffset(Offset = "0x48")]
 	private UnityAction _onValueChanged;
 
-	[Token(Token = "0x17000B25")]
+	[Token(Token = "0x17000B8F")]
 	protected override HashSet<SettingType> SupportedSettingTypes
 	{
-		[Token(Token = "0x6003ACA")]
-		[Address(RVA = "0x3F8B800", Offset = "0x3F8B800", VA = "0x3F8B800", Slot = "4")]
+		[Token(Token = "0x6003CDA")]
+		[Address(RVA = "0x4299770", Offset = "0x4299770", VA = "0x4299770", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6003ACB")]
-	[Address(RVA = "0x3F8B880", Offset = "0x3F8B880", VA = "0x3F8B880")]
+	[Token(Token = "0x6003CDB")]
+	[Address(RVA = "0x42997F0", Offset = "0x42997F0", VA = "0x42997F0")]
 	public void Setup(BaseSetting setting, ElementStyle style, string title, string tooltip, float elementWidth, float elementHeight, UnityAction onValueChanged)
 	{
 	}
 
-	[Token(Token = "0x6003ACC")]
-	[Address(RVA = "0x3F8BCE0", Offset = "0x3F8BCE0", VA = "0x3F8BCE0")]
+	[Token(Token = "0x6003CDC")]
+	[Address(RVA = "0x4299C50", Offset = "0x4299C50", VA = "0x4299C50")]
 	protected void OnValueChanged(bool value)
 	{
 	}
 
-	[Token(Token = "0x6003ACD")]
-	[Address(RVA = "0x3F8BD90", Offset = "0x3F8BD90", VA = "0x3F8BD90", Slot = "6")]
+	[Token(Token = "0x6003CDD")]
+	[Address(RVA = "0x4299D00", Offset = "0x4299D00", VA = "0x4299D00", Slot = "6")]
 	public override void SyncElement()
 	{
 	}
 
-	[Token(Token = "0x6003ACE")]
-	[Address(RVA = "0x3F8BE20", Offset = "0x3F8BE20", VA = "0x3F8BE20")]
+	[Token(Token = "0x6003CDE")]
+	[Address(RVA = "0x4299D90", Offset = "0x4299D90", VA = "0x4299D90")]
 	public ToggleSettingElement()
 	{
 	}

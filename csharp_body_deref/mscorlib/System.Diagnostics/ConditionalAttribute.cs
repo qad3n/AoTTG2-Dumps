@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Diagnostics.ConditionalAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -14,7 +21,7 @@ public sealed class ConditionalAttribute : Attribute
 	private readonly string _003CConditionString_003Ek__BackingField;
 
 	[Token(Token = "0x6002E58")]
-	[Address(RVA = "0x4F949D0", Offset = "0x4F949D0", VA = "0x4F949D0")]
+	[Address(RVA = "0x3C7A4F0", Offset = "0x3C7A4F0", VA = "0x3C7A4F0")]
 	public ConditionalAttribute(string conditionString)
 	{
 	}

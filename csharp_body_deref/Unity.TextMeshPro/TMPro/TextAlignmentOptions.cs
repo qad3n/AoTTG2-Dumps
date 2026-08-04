@@ -1,82 +1,89 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: TMPro.TextAlignmentOptions
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x2000072")]
+[Token(Token = "0x2000088")]
 public enum TextAlignmentOptions
 {
-	[Token(Token = "0x4000369")]
+	[Token(Token = "0x400045D")]
 	TopLeft = 257,
-	[Token(Token = "0x400036A")]
+	[Token(Token = "0x400045E")]
 	Top = 258,
-	[Token(Token = "0x400036B")]
+	[Token(Token = "0x400045F")]
 	TopRight = 260,
-	[Token(Token = "0x400036C")]
+	[Token(Token = "0x4000460")]
 	TopJustified = 264,
-	[Token(Token = "0x400036D")]
+	[Token(Token = "0x4000461")]
 	TopFlush = 272,
-	[Token(Token = "0x400036E")]
+	[Token(Token = "0x4000462")]
 	TopGeoAligned = 288,
-	[Token(Token = "0x400036F")]
+	[Token(Token = "0x4000463")]
 	Left = 513,
-	[Token(Token = "0x4000370")]
+	[Token(Token = "0x4000464")]
 	Center = 514,
-	[Token(Token = "0x4000371")]
+	[Token(Token = "0x4000465")]
 	Right = 516,
-	[Token(Token = "0x4000372")]
+	[Token(Token = "0x4000466")]
 	Justified = 520,
-	[Token(Token = "0x4000373")]
+	[Token(Token = "0x4000467")]
 	Flush = 528,
-	[Token(Token = "0x4000374")]
+	[Token(Token = "0x4000468")]
 	CenterGeoAligned = 544,
-	[Token(Token = "0x4000375")]
+	[Token(Token = "0x4000469")]
 	BottomLeft = 1025,
-	[Token(Token = "0x4000376")]
+	[Token(Token = "0x400046A")]
 	Bottom = 1026,
-	[Token(Token = "0x4000377")]
+	[Token(Token = "0x400046B")]
 	BottomRight = 1028,
-	[Token(Token = "0x4000378")]
+	[Token(Token = "0x400046C")]
 	BottomJustified = 1032,
-	[Token(Token = "0x4000379")]
+	[Token(Token = "0x400046D")]
 	BottomFlush = 1040,
-	[Token(Token = "0x400037A")]
+	[Token(Token = "0x400046E")]
 	BottomGeoAligned = 1056,
-	[Token(Token = "0x400037B")]
+	[Token(Token = "0x400046F")]
 	BaselineLeft = 2049,
-	[Token(Token = "0x400037C")]
+	[Token(Token = "0x4000470")]
 	Baseline = 2050,
-	[Token(Token = "0x400037D")]
+	[Token(Token = "0x4000471")]
 	BaselineRight = 2052,
-	[Token(Token = "0x400037E")]
+	[Token(Token = "0x4000472")]
 	BaselineJustified = 2056,
-	[Token(Token = "0x400037F")]
+	[Token(Token = "0x4000473")]
 	BaselineFlush = 2064,
-	[Token(Token = "0x4000380")]
+	[Token(Token = "0x4000474")]
 	BaselineGeoAligned = 2080,
-	[Token(Token = "0x4000381")]
+	[Token(Token = "0x4000475")]
 	MidlineLeft = 4097,
-	[Token(Token = "0x4000382")]
+	[Token(Token = "0x4000476")]
 	Midline = 4098,
-	[Token(Token = "0x4000383")]
+	[Token(Token = "0x4000477")]
 	MidlineRight = 4100,
-	[Token(Token = "0x4000384")]
+	[Token(Token = "0x4000478")]
 	MidlineJustified = 4104,
-	[Token(Token = "0x4000385")]
+	[Token(Token = "0x4000479")]
 	MidlineFlush = 4112,
-	[Token(Token = "0x4000386")]
+	[Token(Token = "0x400047A")]
 	MidlineGeoAligned = 4128,
-	[Token(Token = "0x4000387")]
+	[Token(Token = "0x400047B")]
 	CaplineLeft = 8193,
-	[Token(Token = "0x4000388")]
+	[Token(Token = "0x400047C")]
 	Capline = 8194,
-	[Token(Token = "0x4000389")]
+	[Token(Token = "0x400047D")]
 	CaplineRight = 8196,
-	[Token(Token = "0x400038A")]
+	[Token(Token = "0x400047E")]
 	CaplineJustified = 8200,
-	[Token(Token = "0x400038B")]
+	[Token(Token = "0x400047F")]
 	CaplineFlush = 8208,
-	[Token(Token = "0x400038C")]
+	[Token(Token = "0x4000480")]
 	CaplineGeoAligned = 8224,
-	[Token(Token = "0x400038D")]
+	[Token(Token = "0x4000481")]
 	Converted = 65535
 }

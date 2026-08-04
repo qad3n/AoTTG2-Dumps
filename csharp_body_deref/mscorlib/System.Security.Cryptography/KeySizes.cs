@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.KeySizes
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -23,7 +30,7 @@ public sealed class KeySizes
 	public int MinSize
 	{
 		[Token(Token = "0x60018BB")]
-		[Address(RVA = "0x4E47FD0", Offset = "0x4E47FD0", VA = "0x4E47FD0")]
+		[Address(RVA = "0x3B2DAF0", Offset = "0x3B2DAF0", VA = "0x3B2DAF0")]
 		get
 		{
 			return default(int);
@@ -34,7 +41,7 @@ public sealed class KeySizes
 	public int MaxSize
 	{
 		[Token(Token = "0x60018BC")]
-		[Address(RVA = "0x4E47FE0", Offset = "0x4E47FE0", VA = "0x4E47FE0")]
+		[Address(RVA = "0x3B2DB00", Offset = "0x3B2DB00", VA = "0x3B2DB00")]
 		get
 		{
 			return default(int);
@@ -45,7 +52,7 @@ public sealed class KeySizes
 	public int SkipSize
 	{
 		[Token(Token = "0x60018BD")]
-		[Address(RVA = "0x4E47FF0", Offset = "0x4E47FF0", VA = "0x4E47FF0")]
+		[Address(RVA = "0x3B2DB10", Offset = "0x3B2DB10", VA = "0x3B2DB10")]
 		get
 		{
 			return default(int);
@@ -53,20 +60,20 @@ public sealed class KeySizes
 	}
 
 	[Token(Token = "0x60018BE")]
-	[Address(RVA = "0x4E46470", Offset = "0x4E46470", VA = "0x4E46470")]
+	[Address(RVA = "0x3B2BF90", Offset = "0x3B2BF90", VA = "0x3B2BF90")]
 	public KeySizes(int minSize, int maxSize, int skipSize)
 	{
 	}
 
 	[Token(Token = "0x60018BF")]
-	[Address(RVA = "0x4E48000", Offset = "0x4E48000", VA = "0x4E48000")]
+	[Address(RVA = "0x3B2DB20", Offset = "0x3B2DB20", VA = "0x3B2DB20")]
 	internal bool IsLegal(int keySize)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60018C0")]
-	[Address(RVA = "0x4E48040", Offset = "0x4E48040", VA = "0x4E48040")]
+	[Address(RVA = "0x3B2DB60", Offset = "0x3B2DB60", VA = "0x3B2DB60")]
 	internal static bool IsLegalKeySize(KeySizes[] legalKeys, int size)
 	{
 		return default(bool);

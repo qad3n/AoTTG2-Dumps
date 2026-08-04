@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.Component
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -25,7 +32,7 @@ public class Component : MarshalByRefObject, IComponent, IDisposable
 	protected virtual bool CanRaiseEvents
 	{
 		[Token(Token = "0x600130E")]
-		[Address(RVA = "0x45895B0", Offset = "0x45895B0", VA = "0x45895B0", Slot = "11")]
+		[Address(RVA = "0x48AE6B0", Offset = "0x48AE6B0", VA = "0x48AE6B0", Slot = "11")]
 		get
 		{
 			return default(bool);
@@ -36,7 +43,7 @@ public class Component : MarshalByRefObject, IComponent, IDisposable
 	internal bool CanRaiseEventsInternal
 	{
 		[Token(Token = "0x600130F")]
-		[Address(RVA = "0x45895C0", Offset = "0x45895C0", VA = "0x45895C0")]
+		[Address(RVA = "0x48AE6C0", Offset = "0x48AE6C0", VA = "0x48AE6C0")]
 		get
 		{
 			return default(bool);
@@ -47,7 +54,7 @@ public class Component : MarshalByRefObject, IComponent, IDisposable
 	protected EventHandlerList Events
 	{
 		[Token(Token = "0x6001312")]
-		[Address(RVA = "0x45896F0", Offset = "0x45896F0", VA = "0x45896F0")]
+		[Address(RVA = "0x48AE7F0", Offset = "0x48AE7F0", VA = "0x48AE7F0")]
 		get
 		{
 			return null;
@@ -60,13 +67,13 @@ public class Component : MarshalByRefObject, IComponent, IDisposable
 	public virtual ISite Site
 	{
 		[Token(Token = "0x6001313")]
-		[Address(RVA = "0x4589880", Offset = "0x4589880", VA = "0x4589880", Slot = "12")]
+		[Address(RVA = "0x48AE980", Offset = "0x48AE980", VA = "0x48AE980", Slot = "12")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001314")]
-		[Address(RVA = "0x4589890", Offset = "0x4589890", VA = "0x4589890", Slot = "13")]
+		[Address(RVA = "0x48AE990", Offset = "0x48AE990", VA = "0x48AE990", Slot = "13")]
 		set
 		{
 		}
@@ -78,7 +85,7 @@ public class Component : MarshalByRefObject, IComponent, IDisposable
 	public IContainer Container
 	{
 		[Token(Token = "0x6001317")]
-		[Address(RVA = "0x4589C70", Offset = "0x4589C70", VA = "0x4589C70")]
+		[Address(RVA = "0x48AED70", Offset = "0x48AED70", VA = "0x48AED70")]
 		get
 		{
 			return null;
@@ -91,7 +98,7 @@ public class Component : MarshalByRefObject, IComponent, IDisposable
 	protected bool DesignMode
 	{
 		[Token(Token = "0x6001319")]
-		[Address(RVA = "0x4589DC0", Offset = "0x4589DC0", VA = "0x4589DC0")]
+		[Address(RVA = "0x48AEEC0", Offset = "0x48AEEC0", VA = "0x48AEEC0")]
 		get
 		{
 			return default(bool);
@@ -104,51 +111,51 @@ public class Component : MarshalByRefObject, IComponent, IDisposable
 	public event EventHandler Disposed
 	{
 		[Token(Token = "0x6001310")]
-		[Address(RVA = "0x45895E0", Offset = "0x45895E0", VA = "0x45895E0", Slot = "8")]
+		[Address(RVA = "0x48AE6E0", Offset = "0x48AE6E0", VA = "0x48AE6E0", Slot = "8")]
 		add
 		{
 		}
 		[Token(Token = "0x6001311")]
-		[Address(RVA = "0x4589770", Offset = "0x4589770", VA = "0x4589770", Slot = "9")]
+		[Address(RVA = "0x48AE870", Offset = "0x48AE870", VA = "0x48AE870", Slot = "9")]
 		remove
 		{
 		}
 	}
 
 	[Token(Token = "0x600130D")]
-	[Address(RVA = "0x4589520", Offset = "0x4589520", VA = "0x4589520", Slot = "1")]
+	[Address(RVA = "0x48AE620", Offset = "0x48AE620", VA = "0x48AE620", Slot = "1")]
 	~Component()
 	{
 	}
 
 	[Token(Token = "0x6001315")]
-	[Address(RVA = "0x45898A0", Offset = "0x45898A0", VA = "0x45898A0", Slot = "10")]
+	[Address(RVA = "0x48AE9A0", Offset = "0x48AE9A0", VA = "0x48AE9A0", Slot = "10")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6001316")]
-	[Address(RVA = "0x4589910", Offset = "0x4589910", VA = "0x4589910", Slot = "14")]
+	[Address(RVA = "0x48AEA10", Offset = "0x48AEA10", VA = "0x48AEA10", Slot = "14")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6001318")]
-	[Address(RVA = "0x4589D10", Offset = "0x4589D10", VA = "0x4589D10", Slot = "15")]
+	[Address(RVA = "0x48AEE10", Offset = "0x48AEE10", VA = "0x48AEE10", Slot = "15")]
 	protected virtual object GetService(Type service)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600131A")]
-	[Address(RVA = "0x4589E60", Offset = "0x4589E60", VA = "0x4589E60", Slot = "3")]
+	[Address(RVA = "0x48AEF60", Offset = "0x48AEF60", VA = "0x48AEF60", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600131B")]
-	[Address(RVA = "0x4589FA0", Offset = "0x4589FA0", VA = "0x4589FA0")]
+	[Address(RVA = "0x48AF0A0", Offset = "0x48AF0A0", VA = "0x48AF0A0")]
 	public Component()
 	{
 	}

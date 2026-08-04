@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.DebugDisplaySettingsVolume
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -68,28 +75,28 @@ public class DebugDisplaySettingsVolume : IDebugDisplaySettingsData, IDebugDispl
 	internal static class WidgetFactory
 	{
 		[Token(Token = "0x6000691")]
-		[Address(RVA = "0x48760D0", Offset = "0x48760D0", VA = "0x48760D0")]
+		[Address(RVA = "0x4B9B1C0", Offset = "0x4B9B1C0", VA = "0x4B9B1C0")]
 		public static DebugUI.EnumField CreateComponentSelector(SettingsPanel panel, Action<DebugUI.Field<int>, int> refresh)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000692")]
-		[Address(RVA = "0x4876880", Offset = "0x4876880", VA = "0x4876880")]
+		[Address(RVA = "0x4B9B970", Offset = "0x4B9B970", VA = "0x4B9B970")]
 		public static DebugUI.ObjectPopupField CreateCameraSelector(SettingsPanel panel, Action<DebugUI.Field<Object>, Object> refresh)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000693")]
-		[Address(RVA = "0x4876AA0", Offset = "0x4876AA0", VA = "0x4876AA0")]
+		[Address(RVA = "0x4B9BB90", Offset = "0x4B9BB90", VA = "0x4B9BB90")]
 		private static DebugUI.Widget CreateVolumeParameterWidget(string name, VolumeParameter param, [Optional] Func<bool> isHiddenCallback)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000694")]
-		[Address(RVA = "0x4877630", Offset = "0x4877630", VA = "0x4877630")]
+		[Address(RVA = "0x4B9C720", Offset = "0x4B9C720", VA = "0x4B9C720")]
 		public static DebugUI.Table CreateVolumeTable(DebugDisplaySettingsVolume data)
 		{
 			return null;
@@ -105,13 +112,13 @@ public class DebugDisplaySettingsVolume : IDebugDisplaySettingsData, IDebugDispl
 		private DebugUI.Table m_VolumeTable;
 
 		[Token(Token = "0x60006BD")]
-		[Address(RVA = "0x4875D10", Offset = "0x4875D10", VA = "0x4875D10")]
+		[Address(RVA = "0x4B9AE00", Offset = "0x4B9AE00", VA = "0x4B9AE00")]
 		public SettingsPanel(DebugDisplaySettingsVolume data)
 		{
 		}
 
 		[Token(Token = "0x60006BE")]
-		[Address(RVA = "0x487A830", Offset = "0x487A830", VA = "0x487A830")]
+		[Address(RVA = "0x4B9F920", Offset = "0x4B9F920", VA = "0x4B9F920")]
 		private void Refresh()
 		{
 		}
@@ -125,7 +132,7 @@ public class DebugDisplaySettingsVolume : IDebugDisplaySettingsData, IDebugDispl
 	public IVolumeDebugSettings2 volumeDebugSettings
 	{
 		[Token(Token = "0x600068B")]
-		[Address(RVA = "0x4875C70", Offset = "0x4875C70", VA = "0x4875C70")]
+		[Address(RVA = "0x4B9AD60", Offset = "0x4B9AD60", VA = "0x4B9AD60")]
 		[CompilerGenerated]
 		get
 		{
@@ -137,7 +144,7 @@ public class DebugDisplaySettingsVolume : IDebugDisplaySettingsData, IDebugDispl
 	public bool AreAnySettingsActive
 	{
 		[Token(Token = "0x600068D")]
-		[Address(RVA = "0x4875CB0", Offset = "0x4875CB0", VA = "0x4875CB0", Slot = "5")]
+		[Address(RVA = "0x4B9ADA0", Offset = "0x4B9ADA0", VA = "0x4B9ADA0", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -145,13 +152,13 @@ public class DebugDisplaySettingsVolume : IDebugDisplaySettingsData, IDebugDispl
 	}
 
 	[Token(Token = "0x600068C")]
-	[Address(RVA = "0x4875C80", Offset = "0x4875C80", VA = "0x4875C80")]
+	[Address(RVA = "0x4B9AD70", Offset = "0x4B9AD70", VA = "0x4B9AD70")]
 	public DebugDisplaySettingsVolume(IVolumeDebugSettings2 volumeDebugSettings)
 	{
 	}
 
 	[Token(Token = "0x600068E")]
-	[Address(RVA = "0x4875CC0", Offset = "0x4875CC0", VA = "0x4875CC0", Slot = "4")]
+	[Address(RVA = "0x4B9ADB0", Offset = "0x4B9ADB0", VA = "0x4B9ADB0", Slot = "4")]
 	public IDebugDisplaySettingsPanelDisposable CreatePanel()
 	{
 		return null;

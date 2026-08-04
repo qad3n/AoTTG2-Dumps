@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.LocatedActiveAxis
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -21,7 +28,7 @@ internal class LocatedActiveAxis : ActiveAxis
 	internal int Column
 	{
 		[Token(Token = "0x6000F9F")]
-		[Address(RVA = "0x4506170", Offset = "0x4506170", VA = "0x4506170")]
+		[Address(RVA = "0x48438D0", Offset = "0x48438D0", VA = "0x48438D0")]
 		get
 		{
 			return default(int);
@@ -29,13 +36,13 @@ internal class LocatedActiveAxis : ActiveAxis
 	}
 
 	[Token(Token = "0x6000FA0")]
-	[Address(RVA = "0x4506180", Offset = "0x4506180", VA = "0x4506180")]
+	[Address(RVA = "0x48438E0", Offset = "0x48438E0", VA = "0x48438E0")]
 	internal LocatedActiveAxis(Asttree astfield, KeySequence ks, int column)
 	{
 	}
 
 	[Token(Token = "0x6000FA1")]
-	[Address(RVA = "0x45061B0", Offset = "0x45061B0", VA = "0x45061B0")]
+	[Address(RVA = "0x4843910", Offset = "0x4843910", VA = "0x4843910")]
 	internal void Reactivate(KeySequence ks)
 	{
 	}

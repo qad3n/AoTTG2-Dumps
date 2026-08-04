@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Discord.LobbyTransaction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Plugins/DiscordGameSDK/Core.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -71,7 +78,7 @@ public struct LobbyTransaction
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x6000085")]
-		[Address(RVA = "0x232F510", Offset = "0x232F510", VA = "0x232F510")]
+		[Address(RVA = "0x232F5D0", Offset = "0x232F5D0", VA = "0x232F5D0")]
 		get
 		{
 			return default(FFIMethods);
@@ -79,37 +86,37 @@ public struct LobbyTransaction
 	}
 
 	[Token(Token = "0x6000086")]
-	[Address(RVA = "0x232F620", Offset = "0x232F620", VA = "0x232F620")]
+	[Address(RVA = "0x232F6E0", Offset = "0x232F6E0", VA = "0x232F6E0")]
 	public void SetType(LobbyType type)
 	{
 	}
 
 	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x232F6B0", Offset = "0x232F6B0", VA = "0x232F6B0")]
+	[Address(RVA = "0x232F770", Offset = "0x232F770", VA = "0x232F770")]
 	public void SetOwner(long ownerId)
 	{
 	}
 
 	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x232F740", Offset = "0x232F740", VA = "0x232F740")]
+	[Address(RVA = "0x232F800", Offset = "0x232F800", VA = "0x232F800")]
 	public void SetCapacity(uint capacity)
 	{
 	}
 
 	[Token(Token = "0x6000089")]
-	[Address(RVA = "0x232F7D0", Offset = "0x232F7D0", VA = "0x232F7D0")]
+	[Address(RVA = "0x232F890", Offset = "0x232F890", VA = "0x232F890")]
 	public void SetMetadata(string key, string value)
 	{
 	}
 
 	[Token(Token = "0x600008A")]
-	[Address(RVA = "0x232F860", Offset = "0x232F860", VA = "0x232F860")]
+	[Address(RVA = "0x232F920", Offset = "0x232F920", VA = "0x232F920")]
 	public void DeleteMetadata(string key)
 	{
 	}
 
 	[Token(Token = "0x600008B")]
-	[Address(RVA = "0x232F8F0", Offset = "0x232F8F0", VA = "0x232F8F0")]
+	[Address(RVA = "0x232F9B0", Offset = "0x232F9B0", VA = "0x232F9B0")]
 	public void SetLocked(bool locked)
 	{
 	}

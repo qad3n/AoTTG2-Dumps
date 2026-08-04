@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Pun.PhotonAnimatorView
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonAnimatorView.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -50,7 +57,7 @@ public class PhotonAnimatorView : MonoBehaviourPun, IPunObservable
 		public string Name;
 
 		[Token(Token = "0x60001A5")]
-		[Address(RVA = "0x3C1A550", Offset = "0x3C1A550", VA = "0x3C1A550")]
+		[Address(RVA = "0x3F0FEA0", Offset = "0x3F0FEA0", VA = "0x3F0FEA0")]
 		public SynchronizedParameter()
 		{
 		}
@@ -69,7 +76,7 @@ public class PhotonAnimatorView : MonoBehaviourPun, IPunObservable
 		public int LayerIndex;
 
 		[Token(Token = "0x60001A6")]
-		[Address(RVA = "0x3C1A2F0", Offset = "0x3C1A2F0", VA = "0x3C1A2F0")]
+		[Address(RVA = "0x3F0FC40", Offset = "0x3F0FC40", VA = "0x3F0FC40")]
 		public SynchronizedLayer()
 		{
 		}
@@ -128,121 +135,121 @@ public class PhotonAnimatorView : MonoBehaviourPun, IPunObservable
 	private List<string> m_raisedDiscreteTriggersCache;
 
 	[Token(Token = "0x6000192")]
-	[Address(RVA = "0x3C192F0", Offset = "0x3C192F0", VA = "0x3C192F0")]
+	[Address(RVA = "0x3F0EC40", Offset = "0x3F0EC40", VA = "0x3F0EC40")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000193")]
-	[Address(RVA = "0x3C19340", Offset = "0x3C19340", VA = "0x3C19340")]
+	[Address(RVA = "0x3F0EC90", Offset = "0x3F0EC90", VA = "0x3F0EC90")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x6000194")]
-	[Address(RVA = "0x3C19820", Offset = "0x3C19820", VA = "0x3C19820")]
+	[Address(RVA = "0x3F0F170", Offset = "0x3F0F170", VA = "0x3F0F170")]
 	public void CacheDiscreteTriggers()
 	{
 	}
 
 	[Token(Token = "0x6000195")]
-	[Address(RVA = "0x3C19C70", Offset = "0x3C19C70", VA = "0x3C19C70")]
+	[Address(RVA = "0x3F0F5C0", Offset = "0x3F0F5C0", VA = "0x3F0F5C0")]
 	public bool DoesLayerSynchronizeTypeExist(int layerIndex)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000196")]
-	[Address(RVA = "0x3C19D50", Offset = "0x3C19D50", VA = "0x3C19D50")]
+	[Address(RVA = "0x3F0F6A0", Offset = "0x3F0F6A0", VA = "0x3F0F6A0")]
 	public bool DoesParameterSynchronizeTypeExist(string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000197")]
-	[Address(RVA = "0x3C19E40", Offset = "0x3C19E40", VA = "0x3C19E40")]
+	[Address(RVA = "0x3F0F790", Offset = "0x3F0F790", VA = "0x3F0F790")]
 	public List<SynchronizedLayer> GetSynchronizedLayers()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000198")]
-	[Address(RVA = "0x3C19E50", Offset = "0x3C19E50", VA = "0x3C19E50")]
+	[Address(RVA = "0x3F0F7A0", Offset = "0x3F0F7A0", VA = "0x3F0F7A0")]
 	public List<SynchronizedParameter> GetSynchronizedParameters()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000199")]
-	[Address(RVA = "0x3C19E60", Offset = "0x3C19E60", VA = "0x3C19E60")]
+	[Address(RVA = "0x3F0F7B0", Offset = "0x3F0F7B0", VA = "0x3F0F7B0")]
 	public SynchronizeType GetLayerSynchronizeType(int layerIndex)
 	{
 		return default(SynchronizeType);
 	}
 
 	[Token(Token = "0x600019A")]
-	[Address(RVA = "0x3C19F80", Offset = "0x3C19F80", VA = "0x3C19F80")]
+	[Address(RVA = "0x3F0F8D0", Offset = "0x3F0F8D0", VA = "0x3F0F8D0")]
 	public SynchronizeType GetParameterSynchronizeType(string name)
 	{
 		return default(SynchronizeType);
 	}
 
 	[Token(Token = "0x600019B")]
-	[Address(RVA = "0x3C1A0B0", Offset = "0x3C1A0B0", VA = "0x3C1A0B0")]
+	[Address(RVA = "0x3F0FA00", Offset = "0x3F0FA00", VA = "0x3F0FA00")]
 	public void SetLayerSynchronized(int layerIndex, SynchronizeType synchronizeType)
 	{
 	}
 
 	[Token(Token = "0x600019C")]
-	[Address(RVA = "0x3C1A300", Offset = "0x3C1A300", VA = "0x3C1A300")]
+	[Address(RVA = "0x3F0FC50", Offset = "0x3F0FC50", VA = "0x3F0FC50")]
 	public void SetParameterSynchronized(string name, ParameterType type, SynchronizeType synchronizeType)
 	{
 	}
 
 	[Token(Token = "0x600019D")]
-	[Address(RVA = "0x3C194B0", Offset = "0x3C194B0", VA = "0x3C194B0")]
+	[Address(RVA = "0x3F0EE00", Offset = "0x3F0EE00", VA = "0x3F0EE00")]
 	private void SerializeDataContinuously()
 	{
 	}
 
 	[Token(Token = "0x600019E")]
-	[Address(RVA = "0x3C19960", Offset = "0x3C19960", VA = "0x3C19960")]
+	[Address(RVA = "0x3F0F2B0", Offset = "0x3F0F2B0", VA = "0x3F0F2B0")]
 	private void DeserializeDataContinuously()
 	{
 	}
 
 	[Token(Token = "0x600019F")]
-	[Address(RVA = "0x3C1A560", Offset = "0x3C1A560", VA = "0x3C1A560")]
+	[Address(RVA = "0x3F0FEB0", Offset = "0x3F0FEB0", VA = "0x3F0FEB0")]
 	private void SerializeDataDiscretly(PhotonStream stream)
 	{
 	}
 
 	[Token(Token = "0x60001A0")]
-	[Address(RVA = "0x3C1A950", Offset = "0x3C1A950", VA = "0x3C1A950")]
+	[Address(RVA = "0x3F102A0", Offset = "0x3F102A0", VA = "0x3F102A0")]
 	private void DeserializeDataDiscretly(PhotonStream stream)
 	{
 	}
 
 	[Token(Token = "0x60001A1")]
-	[Address(RVA = "0x3C1ADD0", Offset = "0x3C1ADD0", VA = "0x3C1ADD0")]
+	[Address(RVA = "0x3F10720", Offset = "0x3F10720", VA = "0x3F10720")]
 	private void SerializeSynchronizationTypeState(PhotonStream stream)
 	{
 	}
 
 	[Token(Token = "0x60001A2")]
-	[Address(RVA = "0x3C1AF90", Offset = "0x3C1AF90", VA = "0x3C1AF90")]
+	[Address(RVA = "0x3F108E0", Offset = "0x3F108E0", VA = "0x3F108E0")]
 	private void DeserializeSynchronizationTypeState(PhotonStream stream)
 	{
 	}
 
 	[Token(Token = "0x60001A3")]
-	[Address(RVA = "0x3C1B150", Offset = "0x3C1B150", VA = "0x3C1B150", Slot = "4")]
+	[Address(RVA = "0x3F10AA0", Offset = "0x3F10AA0", VA = "0x3F10AA0", Slot = "4")]
 	public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
 	{
 	}
 
 	[Token(Token = "0x60001A4")]
-	[Address(RVA = "0x3C1B270", Offset = "0x3C1B270", VA = "0x3C1B270")]
+	[Address(RVA = "0x3F10BC0", Offset = "0x3F10BC0", VA = "0x3F10BC0")]
 	public PhotonAnimatorView()
 	{
 	}

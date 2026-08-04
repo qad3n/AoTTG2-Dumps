@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.WeakHashtable
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -10,21 +17,21 @@ internal sealed class WeakHashtable : Hashtable
 	private class WeakKeyComparer : IEqualityComparer
 	{
 		[Token(Token = "0x6001501")]
-		[Address(RVA = "0x45BA5D0", Offset = "0x45BA5D0", VA = "0x45BA5D0", Slot = "4")]
+		[Address(RVA = "0x48DF6D0", Offset = "0x48DF6D0", VA = "0x48DF6D0", Slot = "4")]
 		private bool System_002ECollections_002EIEqualityComparer_002EEquals(object x, object y)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001502")]
-		[Address(RVA = "0x45BA730", Offset = "0x45BA730", VA = "0x45BA730", Slot = "5")]
+		[Address(RVA = "0x48DF830", Offset = "0x48DF830", VA = "0x48DF830", Slot = "5")]
 		private int System_002ECollections_002EIEqualityComparer_002EGetHashCode(object obj)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6001503")]
-		[Address(RVA = "0x45BA5C0", Offset = "0x45BA5C0", VA = "0x45BA5C0")]
+		[Address(RVA = "0x48DF6C0", Offset = "0x48DF6C0", VA = "0x48DF6C0")]
 		public WeakKeyComparer()
 		{
 		}
@@ -38,20 +45,20 @@ internal sealed class WeakHashtable : Hashtable
 		private int _hashCode;
 
 		[Token(Token = "0x6001504")]
-		[Address(RVA = "0x45BA510", Offset = "0x45BA510", VA = "0x45BA510")]
+		[Address(RVA = "0x48DF610", Offset = "0x48DF610", VA = "0x48DF610")]
 		internal EqualityWeakReference(object o)
 		{
 		}
 
 		[Token(Token = "0x6001505")]
-		[Address(RVA = "0x45BA760", Offset = "0x45BA760", VA = "0x45BA760", Slot = "0")]
+		[Address(RVA = "0x48DF860", Offset = "0x48DF860", VA = "0x48DF860", Slot = "0")]
 		public override bool Equals(object o)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001506")]
-		[Address(RVA = "0x45BA7D0", Offset = "0x45BA7D0", VA = "0x45BA7D0", Slot = "2")]
+		[Address(RVA = "0x48DF8D0", Offset = "0x48DF8D0", VA = "0x48DF8D0", Slot = "2")]
 		public override int GetHashCode()
 		{
 			return default(int);
@@ -71,31 +78,31 @@ internal sealed class WeakHashtable : Hashtable
 	private int _lastHashCount;
 
 	[Token(Token = "0x60014FB")]
-	[Address(RVA = "0x45A7370", Offset = "0x45A7370", VA = "0x45A7370")]
+	[Address(RVA = "0x48CC470", Offset = "0x48CC470", VA = "0x48CC470")]
 	internal WeakHashtable()
 	{
 	}
 
 	[Token(Token = "0x60014FC")]
-	[Address(RVA = "0x45B9CD0", Offset = "0x45B9CD0", VA = "0x45B9CD0", Slot = "24")]
+	[Address(RVA = "0x48DEDD0", Offset = "0x48DEDD0", VA = "0x48DEDD0", Slot = "24")]
 	public override void Clear()
 	{
 	}
 
 	[Token(Token = "0x60014FD")]
-	[Address(RVA = "0x45B9CE0", Offset = "0x45B9CE0", VA = "0x45B9CE0", Slot = "39")]
+	[Address(RVA = "0x48DEDE0", Offset = "0x48DEDE0", VA = "0x48DEDE0", Slot = "39")]
 	public override void Remove(object key)
 	{
 	}
 
 	[Token(Token = "0x60014FE")]
-	[Address(RVA = "0x45A5750", Offset = "0x45A5750", VA = "0x45A5750")]
+	[Address(RVA = "0x48CA850", Offset = "0x48CA850", VA = "0x48CA850")]
 	public void SetWeak(object key, object value)
 	{
 	}
 
 	[Token(Token = "0x60014FF")]
-	[Address(RVA = "0x45B9CF0", Offset = "0x45B9CF0", VA = "0x45B9CF0")]
+	[Address(RVA = "0x48DEDF0", Offset = "0x48DEDF0", VA = "0x48DEDF0")]
 	private void ScavengeKeys()
 	{
 	}

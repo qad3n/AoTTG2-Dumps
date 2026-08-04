@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.StyleSelector
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -29,13 +36,13 @@ internal class StyleSelector
 	public StyleSelectorPart[] parts
 	{
 		[Token(Token = "0x6001841")]
-		[Address(RVA = "0x4D8FDA0", Offset = "0x4D8FDA0", VA = "0x4D8FDA0")]
+		[Address(RVA = "0x50B76D0", Offset = "0x50B76D0", VA = "0x50B76D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001842")]
-		[Address(RVA = "0x4D906E0", Offset = "0x4D906E0", VA = "0x4D906E0")]
+		[Address(RVA = "0x50B8010", Offset = "0x50B8010", VA = "0x50B8010")]
 		internal set
 		{
 		}
@@ -45,27 +52,27 @@ internal class StyleSelector
 	public StyleSelectorRelationship previousRelationship
 	{
 		[Token(Token = "0x6001843")]
-		[Address(RVA = "0x4D906F0", Offset = "0x4D906F0", VA = "0x4D906F0")]
+		[Address(RVA = "0x50B8020", Offset = "0x50B8020", VA = "0x50B8020")]
 		get
 		{
 			return default(StyleSelectorRelationship);
 		}
 		[Token(Token = "0x6001844")]
-		[Address(RVA = "0x4D90700", Offset = "0x4D90700", VA = "0x4D90700")]
+		[Address(RVA = "0x50B8030", Offset = "0x50B8030", VA = "0x50B8030")]
 		internal set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001845")]
-	[Address(RVA = "0x4D90710", Offset = "0x4D90710", VA = "0x4D90710", Slot = "3")]
+	[Address(RVA = "0x50B8040", Offset = "0x50B8040", VA = "0x50B8040", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001846")]
-	[Address(RVA = "0x4D90850", Offset = "0x4D90850", VA = "0x4D90850")]
+	[Address(RVA = "0x50B8180", Offset = "0x50B8180", VA = "0x50B8180")]
 	public StyleSelector()
 	{
 	}

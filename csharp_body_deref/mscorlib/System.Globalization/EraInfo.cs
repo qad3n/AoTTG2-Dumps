@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Globalization.EraInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
 
@@ -43,13 +50,13 @@ internal class EraInfo
 	internal string englishEraName;
 
 	[Token(Token = "0x6002CAF")]
-	[Address(RVA = "0x4F737C0", Offset = "0x4F737C0", VA = "0x4F737C0")]
+	[Address(RVA = "0x3C592E0", Offset = "0x3C592E0", VA = "0x3C592E0")]
 	internal EraInfo(int era, int startYear, int startMonth, int startDay, int yearOffset, int minEraYear, int maxEraYear)
 	{
 	}
 
 	[Token(Token = "0x6002CB0")]
-	[Address(RVA = "0x4F73880", Offset = "0x4F73880", VA = "0x4F73880")]
+	[Address(RVA = "0x3C593A0", Offset = "0x3C593A0", VA = "0x3C593A0")]
 	internal EraInfo(int era, int startYear, int startMonth, int startDay, int yearOffset, int minEraYear, int maxEraYear, string eraName, string abbrevEraName, string englishEraName)
 	{
 	}

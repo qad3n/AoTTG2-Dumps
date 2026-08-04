@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Gisketch.Aottg2UI.Game.AottgProfileScreen
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgProfileScreen.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Gisketch.Aottg2UI.Code;
 using Gisketch.Aottg2UI.Data;
@@ -5,111 +12,111 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x200018D")]
+[Token(Token = "0x20001C0")]
 [AottgScreen("profile", Title = "AoTTG 2 Profile", SearchTitle = "Profile", SearchGroup = "main-menu", BackScreenId = "main-menu")]
 public sealed class AottgProfileScreen : AottgScreen
 {
-	[Token(Token = "0x40008BB")]
+	[Token(Token = "0x4000981")]
 	public const string Id = "profile";
 
-	[Token(Token = "0x40008BC")]
+	[Token(Token = "0x4000982")]
 	private const string StatsKeywords = "general achievements damage titans killed humans killed level exp playtime highest speed bronze silver gold blade ahss apg thunder spear";
 
-	[Token(Token = "0x40008BD")]
+	[Token(Token = "0x4000983")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static readonly AottgBrushSidePanelOption[] Footer;
 
-	[Token(Token = "0x1700010D")]
+	[Token(Token = "0x17000163")]
 	protected override string RootStyle
 	{
-		[Token(Token = "0x6000922")]
-		[Address(RVA = "0x40F7840", Offset = "0x40F7840", VA = "0x40F7840", Slot = "4")]
+		[Token(Token = "0x6000A9F")]
+		[Address(RVA = "0x4429E30", Offset = "0x4429E30", VA = "0x4429E30", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700010E")]
+	[Token(Token = "0x17000164")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x6000923")]
-		[Address(RVA = "0x40F7870", Offset = "0x40F7870", VA = "0x40F7870", Slot = "5")]
+		[Token(Token = "0x6000AA0")]
+		[Address(RVA = "0x4429E60", Offset = "0x4429E60", VA = "0x4429E60", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000924")]
-	[Address(RVA = "0x40F7940", Offset = "0x40F7940", VA = "0x40F7940", Slot = "6")]
+	[Token(Token = "0x6000AA1")]
+	[Address(RVA = "0x4429F30", Offset = "0x4429F30", VA = "0x4429F30", Slot = "6")]
 	protected override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x6000925")]
-	[Address(RVA = "0x40F7A20", Offset = "0x40F7A20", VA = "0x40F7A20")]
+	[Token(Token = "0x6000AA2")]
+	[Address(RVA = "0x442A020", Offset = "0x442A020", VA = "0x442A020")]
 	private static AottgScreenSection[] Sections()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000926")]
-	[Address(RVA = "0x40F84C0", Offset = "0x40F84C0", VA = "0x40F84C0")]
+	[Token(Token = "0x6000AA3")]
+	[Address(RVA = "0x442A840", Offset = "0x442A840", VA = "0x442A840")]
 	private static void BuildAccount(AottgUi content, AottgScreenSectionContext context)
 	{
 	}
 
-	[Token(Token = "0x6000927")]
-	[Address(RVA = "0x40F8760", Offset = "0x40F8760", VA = "0x40F8760")]
+	[Token(Token = "0x6000AA4")]
+	[Address(RVA = "0x442AA30", Offset = "0x442AA30", VA = "0x442AA30")]
 	private static void BuildAccountHeaderActions(AottgUi header, AottgScreenSectionContext context)
 	{
 	}
 
-	[Token(Token = "0x6000928")]
-	[Address(RVA = "0x40F89E0", Offset = "0x40F89E0", VA = "0x40F89E0")]
+	[Token(Token = "0x6000AA5")]
+	[Address(RVA = "0x442ACB0", Offset = "0x442ACB0", VA = "0x442ACB0")]
 	private static void BuildInfo(AottgUi content, AottgScreenSectionContext context)
 	{
 	}
 
-	[Token(Token = "0x6000929")]
-	[Address(RVA = "0x40F8C20", Offset = "0x40F8C20", VA = "0x40F8C20")]
+	[Token(Token = "0x6000AA6")]
+	[Address(RVA = "0x442AEB0", Offset = "0x442AEB0", VA = "0x442AEB0")]
 	private static void BuildInfoHeaderActions(AottgUi header, AottgScreenSectionContext context)
 	{
 	}
 
-	[Token(Token = "0x600092A")]
-	[Address(RVA = "0x40F8E40", Offset = "0x40F8E40", VA = "0x40F8E40")]
+	[Token(Token = "0x6000AA7")]
+	[Address(RVA = "0x442B0D0", Offset = "0x442B0D0", VA = "0x442B0D0")]
 	private static void BuildCharacter(AottgUi content, AottgScreenSectionContext context)
 	{
 	}
 
-	[Token(Token = "0x600092B")]
-	[Address(RVA = "0x40F9070", Offset = "0x40F9070", VA = "0x40F9070")]
+	[Token(Token = "0x6000AA8")]
+	[Address(RVA = "0x442B2C0", Offset = "0x442B2C0", VA = "0x442B2C0")]
 	private static void BuildCharacterHeaderActions(AottgUi header, AottgScreenSectionContext context)
 	{
 	}
 
-	[Token(Token = "0x600092C")]
-	[Address(RVA = "0x40F9200", Offset = "0x40F9200", VA = "0x40F9200")]
+	[Token(Token = "0x6000AA9")]
+	[Address(RVA = "0x442B450", Offset = "0x442B450", VA = "0x442B450")]
 	private static void BuildEmotes(AottgUi content, AottgScreenSectionContext context)
 	{
 	}
 
-	[Token(Token = "0x600092D")]
-	[Address(RVA = "0x40F9440", Offset = "0x40F9440", VA = "0x40F9440")]
+	[Token(Token = "0x6000AAA")]
+	[Address(RVA = "0x442B650", Offset = "0x442B650", VA = "0x442B650")]
 	private static void BuildStats(AottgUi content, AottgScreenSectionContext context)
 	{
 	}
 
-	[Token(Token = "0x600092E")]
-	[Address(RVA = "0x40F94B0", Offset = "0x40F94B0", VA = "0x40F94B0")]
+	[Token(Token = "0x6000AAB")]
+	[Address(RVA = "0x442B6C0", Offset = "0x442B6C0", VA = "0x442B6C0")]
 	private static void ConnectionRow(AottgUi content, string id, string label, string statusKey, string buttonVisibleKey, string buttonText, string actionId, AottgButtonVariant buttonVariant, [Optional] string icon)
 	{
 	}
 
-	[Token(Token = "0x600092F")]
-	[Address(RVA = "0x40F9740", Offset = "0x40F9740", VA = "0x40F9740")]
+	[Token(Token = "0x6000AAC")]
+	[Address(RVA = "0x442B950", Offset = "0x442B950", VA = "0x442B950")]
 	public AottgProfileScreen()
 	{
 	}

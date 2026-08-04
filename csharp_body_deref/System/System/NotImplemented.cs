@@ -6,7 +6,7 @@ namespace System;
 internal static class NotImplemented
 {
 	[Token(Token = "0x60001AA")]
-	[Address(RVA = "0x45D23B0", Offset = "0x45D23B0", VA = "0x45D23B0")]
+	[Address(RVA = "0x48F74B0", Offset = "0x48F74B0", VA = "0x48F74B0")]
 	internal static Exception ByDesignWithMessage(string message)
 	{
 		return null;

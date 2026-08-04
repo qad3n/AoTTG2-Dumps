@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.UniTaskObservableExtensions
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -223,13 +230,13 @@ public static class UniTaskObservableExtensions
 		private UniTask.Awaiter _003C_003Eu__1;
 
 		[Token(Token = "0x60007DE")]
-		[Address(RVA = "0x46D19F0", Offset = "0x46D19F0", VA = "0x46D19F0", Slot = "4")]
+		[Address(RVA = "0x49F6AF0", Offset = "0x49F6AF0", VA = "0x49F6AF0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60007DF")]
-		[Address(RVA = "0x46D1EE0", Offset = "0x46D1EE0", VA = "0x46D1EE0", Slot = "5")]
+		[Address(RVA = "0x49F6FE0", Offset = "0x49F6FE0", VA = "0x49F6FE0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -249,7 +256,7 @@ public static class UniTaskObservableExtensions
 	}
 
 	[Token(Token = "0x60007C9")]
-	[Address(RVA = "0x46D14F0", Offset = "0x46D14F0", VA = "0x46D14F0")]
+	[Address(RVA = "0x49F65F0", Offset = "0x49F65F0", VA = "0x49F65F0")]
 	public static IObservable<AsyncUnit> ToObservable(this UniTask task)
 	{
 		return null;
@@ -263,7 +270,7 @@ public static class UniTaskObservableExtensions
 	}
 
 	[Token(Token = "0x60007CB")]
-	[Address(RVA = "0x46D1910", Offset = "0x46D1910", VA = "0x46D1910")]
+	[Address(RVA = "0x49F6A10", Offset = "0x49F6A10", VA = "0x49F6A10")]
 	[AsyncStateMachine(typeof(_003CFire_003Ed__4))]
 	private static UniTaskVoid Fire(AsyncSubject<AsyncUnit> subject, UniTask task)
 	{

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.SubsystemsImplementation.SubsystemDescriptorStore
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -24,14 +31,14 @@ public static class SubsystemDescriptorStore
 	private static List<SubsystemDescriptor> s_DeprecatedDescriptors;
 
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x4B77730", Offset = "0x4B77730", VA = "0x4B77730")]
+	[Address(RVA = "0x4E9F060", Offset = "0x4E9F060", VA = "0x4E9F060")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void InitializeManagedDescriptor(IntPtr ptr, IntegratedSubsystemDescriptor desc)
 	{
 	}
 
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x4B77800", Offset = "0x4B77800", VA = "0x4B77800")]
+	[Address(RVA = "0x4E9F130", Offset = "0x4E9F130", VA = "0x4E9F130")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void ClearManagedDescriptors()
 	{
@@ -39,7 +46,7 @@ public static class SubsystemDescriptorStore
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x4B779D0", Offset = "0x4B779D0", VA = "0x4B779D0")]
+	[Address(RVA = "0x4E9F300", Offset = "0x4E9F300", VA = "0x4E9F300")]
 	private static extern void ReportSingleSubsystemAnalytics(string id);
 
 	[Token(Token = "0x600001D")]
@@ -48,7 +55,7 @@ public static class SubsystemDescriptorStore
 	}
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x4B76DF0", Offset = "0x4B76DF0", VA = "0x4B76DF0")]
+	[Address(RVA = "0x4E9E720", Offset = "0x4E9E720", VA = "0x4E9E720")]
 	internal static void RegisterDeprecatedDescriptor(SubsystemDescriptor descriptor)
 	{
 	}

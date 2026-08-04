@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Pun.UtilityScripts.OnClickInstantiate
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickInstantiate.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -34,13 +41,13 @@ public class OnClickInstantiate : MonoBehaviour, IPointerClickHandler, IEventSys
 	private InstantiateOption InstantiateType;
 
 	[Token(Token = "0x60000A5")]
-	[Address(RVA = "0x3BF1020", Offset = "0x3BF1020", VA = "0x3BF1020", Slot = "4")]
+	[Address(RVA = "0x3F094F0", Offset = "0x3F094F0", VA = "0x3F094F0", Slot = "4")]
 	private void UnityEngine_002EEventSystems_002EIPointerClickHandler_002EOnPointerClick(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60000A6")]
-	[Address(RVA = "0x3BF1290", Offset = "0x3BF1290", VA = "0x3BF1290")]
+	[Address(RVA = "0x3F09760", Offset = "0x3F09760", VA = "0x3F09760")]
 	public OnClickInstantiate()
 	{
 	}

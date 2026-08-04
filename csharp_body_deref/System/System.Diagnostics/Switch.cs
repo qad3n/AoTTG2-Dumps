@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Diagnostics.Switch
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -31,19 +38,19 @@ public abstract class Switch
 	private static int s_LastCollectionCount;
 
 	[Token(Token = "0x6000465")]
-	[Address(RVA = "0x45FDE80", Offset = "0x45FDE80", VA = "0x45FDE80")]
+	[Address(RVA = "0x4922F80", Offset = "0x4922F80", VA = "0x4922F80")]
 	protected Switch(string displayName, string description)
 	{
 	}
 
 	[Token(Token = "0x6000466")]
-	[Address(RVA = "0x45FEB40", Offset = "0x45FEB40", VA = "0x45FEB40")]
+	[Address(RVA = "0x4923C40", Offset = "0x4923C40", VA = "0x4923C40")]
 	protected Switch(string displayName, string description, string defaultSwitchValue)
 	{
 	}
 
 	[Token(Token = "0x6000467")]
-	[Address(RVA = "0x45FEDA0", Offset = "0x45FEDA0", VA = "0x45FEDA0")]
+	[Address(RVA = "0x4923EA0", Offset = "0x4923EA0", VA = "0x4923EA0")]
 	private static void _pruneCachedSwitches()
 	{
 	}

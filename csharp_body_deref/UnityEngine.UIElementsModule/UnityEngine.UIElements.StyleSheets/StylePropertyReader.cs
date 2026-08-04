@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.StyleSheets.StylePropertyReader
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -50,14 +57,14 @@ internal class StylePropertyReader
 	public StyleProperty property
 	{
 		[Token(Token = "0x6001FEA")]
-		[Address(RVA = "0x4C9F640", Offset = "0x4C9F640", VA = "0x4C9F640")]
+		[Address(RVA = "0x4FC6F70", Offset = "0x4FC6F70", VA = "0x4FC6F70")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001FEB")]
-		[Address(RVA = "0x4C9F650", Offset = "0x4C9F650", VA = "0x4C9F650")]
+		[Address(RVA = "0x4FC6F80", Offset = "0x4FC6F80", VA = "0x4FC6F80")]
 		[CompilerGenerated]
 		private set
 		{
@@ -68,14 +75,14 @@ internal class StylePropertyReader
 	public StylePropertyId propertyId
 	{
 		[Token(Token = "0x6001FEC")]
-		[Address(RVA = "0x4C9F660", Offset = "0x4C9F660", VA = "0x4C9F660")]
+		[Address(RVA = "0x4FC6F90", Offset = "0x4FC6F90", VA = "0x4FC6F90")]
 		[CompilerGenerated]
 		get
 		{
 			return default(StylePropertyId);
 		}
 		[Token(Token = "0x6001FED")]
-		[Address(RVA = "0x4C9F670", Offset = "0x4C9F670", VA = "0x4C9F670")]
+		[Address(RVA = "0x4FC6FA0", Offset = "0x4FC6FA0", VA = "0x4FC6FA0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -86,14 +93,14 @@ internal class StylePropertyReader
 	public int valueCount
 	{
 		[Token(Token = "0x6001FEE")]
-		[Address(RVA = "0x4C9F680", Offset = "0x4C9F680", VA = "0x4C9F680")]
+		[Address(RVA = "0x4FC6FB0", Offset = "0x4FC6FB0", VA = "0x4FC6FB0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6001FEF")]
-		[Address(RVA = "0x4C9F690", Offset = "0x4C9F690", VA = "0x4C9F690")]
+		[Address(RVA = "0x4FC6FC0", Offset = "0x4FC6FC0", VA = "0x4FC6FC0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -104,14 +111,14 @@ internal class StylePropertyReader
 	public float dpiScaling
 	{
 		[Token(Token = "0x6001FF0")]
-		[Address(RVA = "0x4C9F6A0", Offset = "0x4C9F6A0", VA = "0x4C9F6A0")]
+		[Address(RVA = "0x4FC6FD0", Offset = "0x4FC6FD0", VA = "0x4FC6FD0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6001FF1")]
-		[Address(RVA = "0x4C9F6B0", Offset = "0x4C9F6B0", VA = "0x4C9F6B0")]
+		[Address(RVA = "0x4FC6FE0", Offset = "0x4FC6FE0", VA = "0x4FC6FE0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -119,315 +126,315 @@ internal class StylePropertyReader
 	}
 
 	[Token(Token = "0x6001FF2")]
-	[Address(RVA = "0x4C9F6C0", Offset = "0x4C9F6C0", VA = "0x4C9F6C0")]
+	[Address(RVA = "0x4FC6FF0", Offset = "0x4FC6FF0", VA = "0x4FC6FF0")]
 	public void SetContext(StyleSheet sheet, StyleComplexSelector selector, StyleVariableContext varContext, float dpiScaling = 1f)
 	{
 	}
 
 	[Token(Token = "0x6001FF3")]
-	[Address(RVA = "0x4C9FEB0", Offset = "0x4C9FEB0", VA = "0x4C9FEB0")]
+	[Address(RVA = "0x4FC77E0", Offset = "0x4FC77E0", VA = "0x4FC77E0")]
 	public void SetInlineContext(StyleSheet sheet, StyleProperty[] properties, StylePropertyId[] propertyIds, float dpiScaling = 1f)
 	{
 	}
 
 	[Token(Token = "0x6001FF4")]
-	[Address(RVA = "0x4C9FF20", Offset = "0x4C9FF20", VA = "0x4C9FF20")]
+	[Address(RVA = "0x4FC7850", Offset = "0x4FC7850", VA = "0x4FC7850")]
 	public StylePropertyId MoveNextProperty()
 	{
 		return default(StylePropertyId);
 	}
 
 	[Token(Token = "0x6001FF5")]
-	[Address(RVA = "0x4CA0010", Offset = "0x4CA0010", VA = "0x4CA0010")]
+	[Address(RVA = "0x4FC7940", Offset = "0x4FC7940", VA = "0x4FC7940")]
 	public StylePropertyValue GetValue(int index)
 	{
 		return default(StylePropertyValue);
 	}
 
 	[Token(Token = "0x6001FF6")]
-	[Address(RVA = "0x4CA0060", Offset = "0x4CA0060", VA = "0x4CA0060")]
+	[Address(RVA = "0x4FC7990", Offset = "0x4FC7990", VA = "0x4FC7990")]
 	public StyleValueType GetValueType(int index)
 	{
 		return default(StyleValueType);
 	}
 
 	[Token(Token = "0x6001FF7")]
-	[Address(RVA = "0x4CA00D0", Offset = "0x4CA00D0", VA = "0x4CA00D0")]
+	[Address(RVA = "0x4FC7A00", Offset = "0x4FC7A00", VA = "0x4FC7A00")]
 	public bool IsValueType(int index, StyleValueType type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001FF8")]
-	[Address(RVA = "0x4CA0150", Offset = "0x4CA0150", VA = "0x4CA0150")]
+	[Address(RVA = "0x4FC7A80", Offset = "0x4FC7A80", VA = "0x4FC7A80")]
 	public bool IsKeyword(int index, StyleValueKeyword keyword)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001FF9")]
-	[Address(RVA = "0x4CA01D0", Offset = "0x4CA01D0", VA = "0x4CA01D0")]
+	[Address(RVA = "0x4FC7B00", Offset = "0x4FC7B00", VA = "0x4FC7B00")]
 	public string ReadAsString(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001FFA")]
-	[Address(RVA = "0x4CA0550", Offset = "0x4CA0550", VA = "0x4CA0550")]
+	[Address(RVA = "0x4FC7E80", Offset = "0x4FC7E80", VA = "0x4FC7E80")]
 	public Length ReadLength(int index)
 	{
 		return default(Length);
 	}
 
 	[Token(Token = "0x6001FFB")]
-	[Address(RVA = "0x4CA0650", Offset = "0x4CA0650", VA = "0x4CA0650")]
+	[Address(RVA = "0x4FC7F80", Offset = "0x4FC7F80", VA = "0x4FC7F80")]
 	public TimeValue ReadTimeValue(int index)
 	{
 		return default(TimeValue);
 	}
 
 	[Token(Token = "0x6001FFC")]
-	[Address(RVA = "0x4CA06E0", Offset = "0x4CA06E0", VA = "0x4CA06E0")]
+	[Address(RVA = "0x4FC8010", Offset = "0x4FC8010", VA = "0x4FC8010")]
 	public Translate ReadTranslate(int index)
 	{
 		return default(Translate);
 	}
 
 	[Token(Token = "0x6001FFD")]
-	[Address(RVA = "0x4CA0AF0", Offset = "0x4CA0AF0", VA = "0x4CA0AF0")]
+	[Address(RVA = "0x4FC8420", Offset = "0x4FC8420", VA = "0x4FC8420")]
 	public TransformOrigin ReadTransformOrigin(int index)
 	{
 		return default(TransformOrigin);
 	}
 
 	[Token(Token = "0x6001FFE")]
-	[Address(RVA = "0x4CA0E10", Offset = "0x4CA0E10", VA = "0x4CA0E10")]
+	[Address(RVA = "0x4FC8740", Offset = "0x4FC8740", VA = "0x4FC8740")]
 	public Rotate ReadRotate(int index)
 	{
 		return default(Rotate);
 	}
 
 	[Token(Token = "0x6001FFF")]
-	[Address(RVA = "0x4CA1050", Offset = "0x4CA1050", VA = "0x4CA1050")]
+	[Address(RVA = "0x4FC8980", Offset = "0x4FC8980", VA = "0x4FC8980")]
 	public Scale ReadScale(int index)
 	{
 		return default(Scale);
 	}
 
 	[Token(Token = "0x6002000")]
-	[Address(RVA = "0x4CA1370", Offset = "0x4CA1370", VA = "0x4CA1370")]
+	[Address(RVA = "0x4FC8CA0", Offset = "0x4FC8CA0", VA = "0x4FC8CA0")]
 	public float ReadFloat(int index)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6002001")]
-	[Address(RVA = "0x4CA13E0", Offset = "0x4CA13E0", VA = "0x4CA13E0")]
+	[Address(RVA = "0x4FC8D10", Offset = "0x4FC8D10", VA = "0x4FC8D10")]
 	public int ReadInt(int index)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002002")]
-	[Address(RVA = "0x4CA1450", Offset = "0x4CA1450", VA = "0x4CA1450")]
+	[Address(RVA = "0x4FC8D80", Offset = "0x4FC8D80", VA = "0x4FC8D80")]
 	public Color ReadColor(int index)
 	{
 		return default(Color);
 	}
 
 	[Token(Token = "0x6002003")]
-	[Address(RVA = "0x4CA1630", Offset = "0x4CA1630", VA = "0x4CA1630")]
+	[Address(RVA = "0x4FC8F60", Offset = "0x4FC8F60", VA = "0x4FC8F60")]
 	public int ReadEnum(StyleEnumType enumType, int index)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002004")]
-	[Address(RVA = "0x4CA1720", Offset = "0x4CA1720", VA = "0x4CA1720")]
+	[Address(RVA = "0x4FC9050", Offset = "0x4FC9050", VA = "0x4FC9050")]
 	public FontDefinition ReadFontDefinition(int index)
 	{
 		return default(FontDefinition);
 	}
 
 	[Token(Token = "0x6002005")]
-	[Address(RVA = "0x4CA1CA0", Offset = "0x4CA1CA0", VA = "0x4CA1CA0")]
+	[Address(RVA = "0x4FC95D0", Offset = "0x4FC95D0", VA = "0x4FC95D0")]
 	public Font ReadFont(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002006")]
-	[Address(RVA = "0x4CA1FC0", Offset = "0x4CA1FC0", VA = "0x4CA1FC0")]
+	[Address(RVA = "0x4FC98F0", Offset = "0x4FC98F0", VA = "0x4FC98F0")]
 	public Background ReadBackground(int index)
 	{
 		return default(Background);
 	}
 
 	[Token(Token = "0x6002007")]
-	[Address(RVA = "0x4CA2A10", Offset = "0x4CA2A10", VA = "0x4CA2A10")]
+	[Address(RVA = "0x4FCA340", Offset = "0x4FCA340", VA = "0x4FCA340")]
 	public Cursor ReadCursor(int index)
 	{
 		return default(Cursor);
 	}
 
 	[Token(Token = "0x6002008")]
-	[Address(RVA = "0x4CA2E00", Offset = "0x4CA2E00", VA = "0x4CA2E00")]
+	[Address(RVA = "0x4FCA730", Offset = "0x4FCA730", VA = "0x4FCA730")]
 	public TextShadow ReadTextShadow(int index)
 	{
 		return default(TextShadow);
 	}
 
 	[Token(Token = "0x6002009")]
-	[Address(RVA = "0x4CA32F0", Offset = "0x4CA32F0", VA = "0x4CA32F0")]
+	[Address(RVA = "0x4FCAC20", Offset = "0x4FCAC20", VA = "0x4FCAC20")]
 	public BackgroundPosition ReadBackgroundPositionX(int index)
 	{
 		return default(BackgroundPosition);
 	}
 
 	[Token(Token = "0x600200A")]
-	[Address(RVA = "0x4CA33B0", Offset = "0x4CA33B0", VA = "0x4CA33B0")]
+	[Address(RVA = "0x4FCACE0", Offset = "0x4FCACE0", VA = "0x4FCACE0")]
 	public BackgroundPosition ReadBackgroundPositionY(int index)
 	{
 		return default(BackgroundPosition);
 	}
 
 	[Token(Token = "0x600200B")]
-	[Address(RVA = "0x4CA3300", Offset = "0x4CA3300", VA = "0x4CA3300")]
+	[Address(RVA = "0x4FCAC30", Offset = "0x4FCAC30", VA = "0x4FCAC30")]
 	private BackgroundPosition ReadBackgroundPosition(int index, BackgroundPositionKeyword keyword)
 	{
 		return default(BackgroundPosition);
 	}
 
 	[Token(Token = "0x600200C")]
-	[Address(RVA = "0x4CA35C0", Offset = "0x4CA35C0", VA = "0x4CA35C0")]
+	[Address(RVA = "0x4FCAEF0", Offset = "0x4FCAEF0", VA = "0x4FCAEF0")]
 	public BackgroundRepeat ReadBackgroundRepeat(int index)
 	{
 		return default(BackgroundRepeat);
 	}
 
 	[Token(Token = "0x600200D")]
-	[Address(RVA = "0x4CA37B0", Offset = "0x4CA37B0", VA = "0x4CA37B0")]
+	[Address(RVA = "0x4FCB0E0", Offset = "0x4FCB0E0", VA = "0x4FCB0E0")]
 	public BackgroundSize ReadBackgroundSize(int index)
 	{
 		return default(BackgroundSize);
 	}
 
 	[Token(Token = "0x600200E")]
-	[Address(RVA = "0x4CA3B00", Offset = "0x4CA3B00", VA = "0x4CA3B00")]
+	[Address(RVA = "0x4FCB430", Offset = "0x4FCB430", VA = "0x4FCB430")]
 	public void ReadListEasingFunction(List<EasingFunction> list, int index)
 	{
 	}
 
 	[Token(Token = "0x600200F")]
-	[Address(RVA = "0x4CA3CF0", Offset = "0x4CA3CF0", VA = "0x4CA3CF0")]
+	[Address(RVA = "0x4FCB620", Offset = "0x4FCB620", VA = "0x4FCB620")]
 	public void ReadListTimeValue(List<TimeValue> list, int index)
 	{
 	}
 
 	[Token(Token = "0x6002010")]
-	[Address(RVA = "0x4CA3EC0", Offset = "0x4CA3EC0", VA = "0x4CA3EC0")]
+	[Address(RVA = "0x4FCB7F0", Offset = "0x4FCB7F0", VA = "0x4FCB7F0")]
 	public void ReadListStylePropertyName(List<StylePropertyName> list, int index)
 	{
 	}
 
 	[Token(Token = "0x6002011")]
-	[Address(RVA = "0x4C9F980", Offset = "0x4C9F980", VA = "0x4C9F980")]
+	[Address(RVA = "0x4FC72B0", Offset = "0x4FC72B0", VA = "0x4FC72B0")]
 	private void LoadProperties()
 	{
 	}
 
 	[Token(Token = "0x6002012")]
-	[Address(RVA = "0x4C9FF40", Offset = "0x4C9FF40", VA = "0x4C9FF40")]
+	[Address(RVA = "0x4FC7870", Offset = "0x4FC7870", VA = "0x4FC7870")]
 	private void SetCurrentProperty()
 	{
 	}
 
 	[Token(Token = "0x6002013")]
-	[Address(RVA = "0x4CA0C30", Offset = "0x4CA0C30", VA = "0x4CA0C30")]
+	[Address(RVA = "0x4FC8560", Offset = "0x4FC8560", VA = "0x4FC8560")]
 	public static TransformOrigin ReadTransformOrigin(int valCount, StylePropertyValue val1, StylePropertyValue val2, StylePropertyValue zVvalue)
 	{
 		return default(TransformOrigin);
 	}
 
 	[Token(Token = "0x6002014")]
-	[Address(RVA = "0x4CA40B0", Offset = "0x4CA40B0", VA = "0x4CA40B0")]
+	[Address(RVA = "0x4FCB9E0", Offset = "0x4FCB9E0", VA = "0x4FCB9E0")]
 	private static Length ReadTransformOriginEnum(StylePropertyValue value, out bool isVertical, out bool isHorizontal)
 	{
 		return default(Length);
 	}
 
 	[Token(Token = "0x6002015")]
-	[Address(RVA = "0x4CA0830", Offset = "0x4CA0830", VA = "0x4CA0830")]
+	[Address(RVA = "0x4FC8160", Offset = "0x4FC8160", VA = "0x4FC8160")]
 	public static Translate ReadTranslate(int valCount, StylePropertyValue val1, StylePropertyValue val2, StylePropertyValue val3)
 	{
 		return default(Translate);
 	}
 
 	[Token(Token = "0x6002016")]
-	[Address(RVA = "0x4CA1160", Offset = "0x4CA1160", VA = "0x4CA1160")]
+	[Address(RVA = "0x4FC8A90", Offset = "0x4FC8A90", VA = "0x4FC8A90")]
 	public static Scale ReadScale(int valCount, StylePropertyValue val1, StylePropertyValue val2, StylePropertyValue val3)
 	{
 		return default(Scale);
 	}
 
 	[Token(Token = "0x6002017")]
-	[Address(RVA = "0x4CA0F40", Offset = "0x4CA0F40", VA = "0x4CA0F40")]
+	[Address(RVA = "0x4FC8870", Offset = "0x4FC8870", VA = "0x4FC8870")]
 	public static Rotate ReadRotate(int valCount, StylePropertyValue val1, StylePropertyValue val2, StylePropertyValue val3, StylePropertyValue val4)
 	{
 		return default(Rotate);
 	}
 
 	[Token(Token = "0x6002018")]
-	[Address(RVA = "0x4CA4310", Offset = "0x4CA4310", VA = "0x4CA4310")]
+	[Address(RVA = "0x4FCBC40", Offset = "0x4FCBC40", VA = "0x4FCBC40")]
 	private static bool TryReadEnum(StyleEnumType enumType, StylePropertyValue value, out int intValue)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002019")]
-	[Address(RVA = "0x4CA41F0", Offset = "0x4CA41F0", VA = "0x4CA41F0")]
+	[Address(RVA = "0x4FCBB20", Offset = "0x4FCBB20", VA = "0x4FCBB20")]
 	private static int ReadEnum(StyleEnumType enumType, StylePropertyValue value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600201A")]
-	[Address(RVA = "0x4CA42A0", Offset = "0x4CA42A0", VA = "0x4CA42A0")]
+	[Address(RVA = "0x4FCBBD0", Offset = "0x4FCBBD0", VA = "0x4FCBBD0")]
 	public static Angle ReadAngle(StylePropertyValue value)
 	{
 		return default(Angle);
 	}
 
 	[Token(Token = "0x600201B")]
-	[Address(RVA = "0x4CA33C0", Offset = "0x4CA33C0", VA = "0x4CA33C0")]
+	[Address(RVA = "0x4FCACF0", Offset = "0x4FCACF0", VA = "0x4FCACF0")]
 	public static BackgroundPosition ReadBackgroundPosition(int valCount, StylePropertyValue val1, StylePropertyValue val2, BackgroundPositionKeyword keyword)
 	{
 		return default(BackgroundPosition);
 	}
 
 	[Token(Token = "0x600201C")]
-	[Address(RVA = "0x4CA3700", Offset = "0x4CA3700", VA = "0x4CA3700")]
+	[Address(RVA = "0x4FCB030", Offset = "0x4FCB030", VA = "0x4FCB030")]
 	public static BackgroundRepeat ReadBackgroundRepeat(int valCount, StylePropertyValue val1, StylePropertyValue val2)
 	{
 		return default(BackgroundRepeat);
 	}
 
 	[Token(Token = "0x600201D")]
-	[Address(RVA = "0x4CA3890", Offset = "0x4CA3890", VA = "0x4CA3890")]
+	[Address(RVA = "0x4FCB1C0", Offset = "0x4FCB1C0", VA = "0x4FCB1C0")]
 	public static BackgroundSize ReadBackgroundSize(int valCount, StylePropertyValue val1, StylePropertyValue val2)
 	{
 		return default(BackgroundSize);
 	}
 
 	[Token(Token = "0x600201E")]
-	[Address(RVA = "0x4CA2220", Offset = "0x4CA2220", VA = "0x4CA2220")]
+	[Address(RVA = "0x4FC9B50", Offset = "0x4FC9B50", VA = "0x4FC9B50")]
 	internal static bool TryGetImageSourceFromValue(StylePropertyValue propertyValue, float dpiScaling, out ImageSource source)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600201F")]
-	[Address(RVA = "0x4CA43B0", Offset = "0x4CA43B0", VA = "0x4CA43B0")]
+	[Address(RVA = "0x4FCBCE0", Offset = "0x4FCBCE0", VA = "0x4FCBCE0")]
 	public StylePropertyReader()
 	{
 	}

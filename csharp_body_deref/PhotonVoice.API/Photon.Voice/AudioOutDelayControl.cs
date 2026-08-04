@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.AudioOutDelayControl
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/AudioOut.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Concurrent;
 using Il2CppDummyDll;
@@ -33,7 +40,7 @@ public class AudioOutDelayControl
 	}
 
 	[Token(Token = "0x60000E3")]
-	[Address(RVA = "0x3C23850", Offset = "0x3C23850", VA = "0x3C23850")]
+	[Address(RVA = "0x3F191A0", Offset = "0x3F191A0", VA = "0x3F191A0")]
 	public AudioOutDelayControl()
 	{
 	}

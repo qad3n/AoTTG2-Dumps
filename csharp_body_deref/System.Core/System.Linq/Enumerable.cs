@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Enumerable
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -1768,7 +1775,7 @@ public static class Enumerable
 		private int System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EInt32_003E_002ECurrent
 		{
 			[Token(Token = "0x6000151")]
-			[Address(RVA = "0x416CE30", Offset = "0x416CE30", VA = "0x416CE30", Slot = "6")]
+			[Address(RVA = "0x4491F30", Offset = "0x4491F30", VA = "0x4491F30", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -1780,7 +1787,7 @@ public static class Enumerable
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000153")]
-			[Address(RVA = "0x416CE80", Offset = "0x416CE80", VA = "0x416CE80", Slot = "9")]
+			[Address(RVA = "0x4491F80", Offset = "0x4491F80", VA = "0x4491F80", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -1789,35 +1796,35 @@ public static class Enumerable
 		}
 
 		[Token(Token = "0x600014E")]
-		[Address(RVA = "0x416C340", Offset = "0x416C340", VA = "0x416C340")]
+		[Address(RVA = "0x4491440", Offset = "0x4491440", VA = "0x4491440")]
 		[DebuggerHidden]
 		public _003CRangeIterator_003Ed__115(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x600014F")]
-		[Address(RVA = "0x416CDD0", Offset = "0x416CDD0", VA = "0x416CDD0", Slot = "7")]
+		[Address(RVA = "0x4491ED0", Offset = "0x4491ED0", VA = "0x4491ED0", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000150")]
-		[Address(RVA = "0x416CDE0", Offset = "0x416CDE0", VA = "0x416CDE0", Slot = "8")]
+		[Address(RVA = "0x4491EE0", Offset = "0x4491EE0", VA = "0x4491EE0", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000152")]
-		[Address(RVA = "0x416CE40", Offset = "0x416CE40", VA = "0x416CE40", Slot = "10")]
+		[Address(RVA = "0x4491F40", Offset = "0x4491F40", VA = "0x4491F40", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
 		[Token(Token = "0x6000154")]
-		[Address(RVA = "0x416CEA0", Offset = "0x416CEA0", VA = "0x416CEA0", Slot = "4")]
+		[Address(RVA = "0x4491FA0", Offset = "0x4491FA0", VA = "0x4491FA0", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<int> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002EInt32_003E_002EGetEnumerator()
 		{
@@ -1825,7 +1832,7 @@ public static class Enumerable
 		}
 
 		[Token(Token = "0x6000155")]
-		[Address(RVA = "0x416CF40", Offset = "0x416CF40", VA = "0x416CF40", Slot = "5")]
+		[Address(RVA = "0x4492040", Offset = "0x4492040", VA = "0x4492040", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -2274,14 +2281,14 @@ public static class Enumerable
 	}
 
 	[Token(Token = "0x6000093")]
-	[Address(RVA = "0x416C220", Offset = "0x416C220", VA = "0x416C220")]
+	[Address(RVA = "0x4491320", Offset = "0x4491320", VA = "0x4491320")]
 	public static IEnumerable<int> Range(int start, int count)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000094")]
-	[Address(RVA = "0x416C2D0", Offset = "0x416C2D0", VA = "0x416C2D0")]
+	[Address(RVA = "0x44913D0", Offset = "0x44913D0", VA = "0x44913D0")]
 	[IteratorStateMachine(typeof(_003CRangeIterator_003Ed__115))]
 	private static IEnumerable<int> RangeIterator(int start, int count)
 	{
@@ -2356,7 +2363,7 @@ public static class Enumerable
 	}
 
 	[Token(Token = "0x60000A0")]
-	[Address(RVA = "0x416C370", Offset = "0x416C370", VA = "0x416C370")]
+	[Address(RVA = "0x4491470", Offset = "0x4491470", VA = "0x4491470")]
 	public static int Sum(this IEnumerable<int> source)
 	{
 		return default(int);
@@ -2369,14 +2376,14 @@ public static class Enumerable
 	}
 
 	[Token(Token = "0x60000A2")]
-	[Address(RVA = "0x416C6F0", Offset = "0x416C6F0", VA = "0x416C6F0")]
+	[Address(RVA = "0x44917F0", Offset = "0x44917F0", VA = "0x44917F0")]
 	public static int Min(this IEnumerable<int> source)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x416CA60", Offset = "0x416CA60", VA = "0x416CA60")]
+	[Address(RVA = "0x4491B60", Offset = "0x4491B60", VA = "0x4491B60")]
 	public static int Max(this IEnumerable<int> source)
 	{
 		return default(int);

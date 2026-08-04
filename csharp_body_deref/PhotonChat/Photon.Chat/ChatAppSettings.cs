@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Chat.ChatAppSettings
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonChat/Code/ChatAppSettings.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using ExitGames.Client.Photon;
 using Il2CppDummyDll;
@@ -48,7 +55,7 @@ public class ChatAppSettings
 	public bool IsDefaultNameServer
 	{
 		[Token(Token = "0x600000A")]
-		[Address(RVA = "0x3BBBDC0", Offset = "0x3BBBDC0", VA = "0x3BBBDC0")]
+		[Address(RVA = "0x3EB1710", Offset = "0x3EB1710", VA = "0x3EB1710")]
 		get
 		{
 			return default(bool);
@@ -56,7 +63,7 @@ public class ChatAppSettings
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x3BBBDD0", Offset = "0x3BBBDD0", VA = "0x3BBBDD0")]
+	[Address(RVA = "0x3EB1720", Offset = "0x3EB1720", VA = "0x3EB1720")]
 	public ChatAppSettings()
 	{
 	}

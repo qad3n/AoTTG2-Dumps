@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.BeforeRenderHelper
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 using UnityEngine.Events;
@@ -24,7 +31,7 @@ internal static class BeforeRenderHelper
 	private static List<OrderBlock> s_OrderBlocks;
 
 	[Token(Token = "0x60002FD")]
-	[Address(RVA = "0x4A88600", Offset = "0x4A88600", VA = "0x4A88600")]
+	[Address(RVA = "0x4DAFE20", Offset = "0x4DAFE20", VA = "0x4DAFE20")]
 	public static void Invoke()
 	{
 	}

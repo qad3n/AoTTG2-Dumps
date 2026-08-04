@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.JsonPropertyAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -56,14 +63,14 @@ public sealed class JsonPropertyAttribute : Attribute
 	public Type? ItemConverterType
 	{
 		[Token(Token = "0x60000B4")]
-		[Address(RVA = "0x3A65330", Offset = "0x3A65330", VA = "0x3A65330")]
+		[Address(RVA = "0x3D5AC80", Offset = "0x3D5AC80", VA = "0x3D5AC80")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000B5")]
-		[Address(RVA = "0x3A65340", Offset = "0x3A65340", VA = "0x3A65340")]
+		[Address(RVA = "0x3D5AC90", Offset = "0x3D5AC90", VA = "0x3D5AC90")]
 		[CompilerGenerated]
 		set
 		{
@@ -74,14 +81,14 @@ public sealed class JsonPropertyAttribute : Attribute
 	public object[]? ItemConverterParameters
 	{
 		[Token(Token = "0x60000B6")]
-		[Address(RVA = "0x3A65350", Offset = "0x3A65350", VA = "0x3A65350")]
+		[Address(RVA = "0x3D5ACA0", Offset = "0x3D5ACA0", VA = "0x3D5ACA0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000B7")]
-		[Address(RVA = "0x3A65360", Offset = "0x3A65360", VA = "0x3A65360")]
+		[Address(RVA = "0x3D5ACB0", Offset = "0x3D5ACB0", VA = "0x3D5ACB0")]
 		[CompilerGenerated]
 		set
 		{
@@ -92,14 +99,14 @@ public sealed class JsonPropertyAttribute : Attribute
 	public Type? NamingStrategyType
 	{
 		[Token(Token = "0x60000B8")]
-		[Address(RVA = "0x3A65370", Offset = "0x3A65370", VA = "0x3A65370")]
+		[Address(RVA = "0x3D5ACC0", Offset = "0x3D5ACC0", VA = "0x3D5ACC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000B9")]
-		[Address(RVA = "0x3A65380", Offset = "0x3A65380", VA = "0x3A65380")]
+		[Address(RVA = "0x3D5ACD0", Offset = "0x3D5ACD0", VA = "0x3D5ACD0")]
 		[CompilerGenerated]
 		set
 		{
@@ -110,14 +117,14 @@ public sealed class JsonPropertyAttribute : Attribute
 	public object[]? NamingStrategyParameters
 	{
 		[Token(Token = "0x60000BA")]
-		[Address(RVA = "0x3A65390", Offset = "0x3A65390", VA = "0x3A65390")]
+		[Address(RVA = "0x3D5ACE0", Offset = "0x3D5ACE0", VA = "0x3D5ACE0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000BB")]
-		[Address(RVA = "0x3A653A0", Offset = "0x3A653A0", VA = "0x3A653A0")]
+		[Address(RVA = "0x3D5ACF0", Offset = "0x3D5ACF0", VA = "0x3D5ACF0")]
 		[CompilerGenerated]
 		set
 		{
@@ -128,13 +135,13 @@ public sealed class JsonPropertyAttribute : Attribute
 	public NullValueHandling NullValueHandling
 	{
 		[Token(Token = "0x60000BC")]
-		[Address(RVA = "0x3A653B0", Offset = "0x3A653B0", VA = "0x3A653B0")]
+		[Address(RVA = "0x3D5AD00", Offset = "0x3D5AD00", VA = "0x3D5AD00")]
 		get
 		{
 			return default(NullValueHandling);
 		}
 		[Token(Token = "0x60000BD")]
-		[Address(RVA = "0x3A653E0", Offset = "0x3A653E0", VA = "0x3A653E0")]
+		[Address(RVA = "0x3D5AD30", Offset = "0x3D5AD30", VA = "0x3D5AD30")]
 		set
 		{
 		}
@@ -144,13 +151,13 @@ public sealed class JsonPropertyAttribute : Attribute
 	public DefaultValueHandling DefaultValueHandling
 	{
 		[Token(Token = "0x60000BE")]
-		[Address(RVA = "0x3A65430", Offset = "0x3A65430", VA = "0x3A65430")]
+		[Address(RVA = "0x3D5AD80", Offset = "0x3D5AD80", VA = "0x3D5AD80")]
 		get
 		{
 			return default(DefaultValueHandling);
 		}
 		[Token(Token = "0x60000BF")]
-		[Address(RVA = "0x3A65460", Offset = "0x3A65460", VA = "0x3A65460")]
+		[Address(RVA = "0x3D5ADB0", Offset = "0x3D5ADB0", VA = "0x3D5ADB0")]
 		set
 		{
 		}
@@ -160,13 +167,13 @@ public sealed class JsonPropertyAttribute : Attribute
 	public ReferenceLoopHandling ReferenceLoopHandling
 	{
 		[Token(Token = "0x60000C0")]
-		[Address(RVA = "0x3A654B0", Offset = "0x3A654B0", VA = "0x3A654B0")]
+		[Address(RVA = "0x3D5AE00", Offset = "0x3D5AE00", VA = "0x3D5AE00")]
 		get
 		{
 			return default(ReferenceLoopHandling);
 		}
 		[Token(Token = "0x60000C1")]
-		[Address(RVA = "0x3A654E0", Offset = "0x3A654E0", VA = "0x3A654E0")]
+		[Address(RVA = "0x3D5AE30", Offset = "0x3D5AE30", VA = "0x3D5AE30")]
 		set
 		{
 		}
@@ -176,13 +183,13 @@ public sealed class JsonPropertyAttribute : Attribute
 	public ObjectCreationHandling ObjectCreationHandling
 	{
 		[Token(Token = "0x60000C2")]
-		[Address(RVA = "0x3A65530", Offset = "0x3A65530", VA = "0x3A65530")]
+		[Address(RVA = "0x3D5AE80", Offset = "0x3D5AE80", VA = "0x3D5AE80")]
 		get
 		{
 			return default(ObjectCreationHandling);
 		}
 		[Token(Token = "0x60000C3")]
-		[Address(RVA = "0x3A65560", Offset = "0x3A65560", VA = "0x3A65560")]
+		[Address(RVA = "0x3D5AEB0", Offset = "0x3D5AEB0", VA = "0x3D5AEB0")]
 		set
 		{
 		}
@@ -192,13 +199,13 @@ public sealed class JsonPropertyAttribute : Attribute
 	public TypeNameHandling TypeNameHandling
 	{
 		[Token(Token = "0x60000C4")]
-		[Address(RVA = "0x3A655B0", Offset = "0x3A655B0", VA = "0x3A655B0")]
+		[Address(RVA = "0x3D5AF00", Offset = "0x3D5AF00", VA = "0x3D5AF00")]
 		get
 		{
 			return default(TypeNameHandling);
 		}
 		[Token(Token = "0x60000C5")]
-		[Address(RVA = "0x3A655E0", Offset = "0x3A655E0", VA = "0x3A655E0")]
+		[Address(RVA = "0x3D5AF30", Offset = "0x3D5AF30", VA = "0x3D5AF30")]
 		set
 		{
 		}
@@ -208,13 +215,13 @@ public sealed class JsonPropertyAttribute : Attribute
 	public bool IsReference
 	{
 		[Token(Token = "0x60000C6")]
-		[Address(RVA = "0x3A65630", Offset = "0x3A65630", VA = "0x3A65630")]
+		[Address(RVA = "0x3D5AF80", Offset = "0x3D5AF80", VA = "0x3D5AF80")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000C7")]
-		[Address(RVA = "0x3A65660", Offset = "0x3A65660", VA = "0x3A65660")]
+		[Address(RVA = "0x3D5AFB0", Offset = "0x3D5AFB0", VA = "0x3D5AFB0")]
 		set
 		{
 		}
@@ -224,13 +231,13 @@ public sealed class JsonPropertyAttribute : Attribute
 	public int Order
 	{
 		[Token(Token = "0x60000C8")]
-		[Address(RVA = "0x3A656C0", Offset = "0x3A656C0", VA = "0x3A656C0")]
+		[Address(RVA = "0x3D5B010", Offset = "0x3D5B010", VA = "0x3D5B010")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000C9")]
-		[Address(RVA = "0x3A656F0", Offset = "0x3A656F0", VA = "0x3A656F0")]
+		[Address(RVA = "0x3D5B040", Offset = "0x3D5B040", VA = "0x3D5B040")]
 		set
 		{
 		}
@@ -240,13 +247,13 @@ public sealed class JsonPropertyAttribute : Attribute
 	public Required Required
 	{
 		[Token(Token = "0x60000CA")]
-		[Address(RVA = "0x3A65740", Offset = "0x3A65740", VA = "0x3A65740")]
+		[Address(RVA = "0x3D5B090", Offset = "0x3D5B090", VA = "0x3D5B090")]
 		get
 		{
 			return default(Required);
 		}
 		[Token(Token = "0x60000CB")]
-		[Address(RVA = "0x3A65770", Offset = "0x3A65770", VA = "0x3A65770")]
+		[Address(RVA = "0x3D5B0C0", Offset = "0x3D5B0C0", VA = "0x3D5B0C0")]
 		set
 		{
 		}
@@ -256,14 +263,14 @@ public sealed class JsonPropertyAttribute : Attribute
 	public string? PropertyName
 	{
 		[Token(Token = "0x60000CC")]
-		[Address(RVA = "0x3A657C0", Offset = "0x3A657C0", VA = "0x3A657C0")]
+		[Address(RVA = "0x3D5B110", Offset = "0x3D5B110", VA = "0x3D5B110")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000CD")]
-		[Address(RVA = "0x3A657D0", Offset = "0x3A657D0", VA = "0x3A657D0")]
+		[Address(RVA = "0x3D5B120", Offset = "0x3D5B120", VA = "0x3D5B120")]
 		[CompilerGenerated]
 		set
 		{
@@ -274,13 +281,13 @@ public sealed class JsonPropertyAttribute : Attribute
 	public ReferenceLoopHandling ItemReferenceLoopHandling
 	{
 		[Token(Token = "0x60000CE")]
-		[Address(RVA = "0x3A657E0", Offset = "0x3A657E0", VA = "0x3A657E0")]
+		[Address(RVA = "0x3D5B130", Offset = "0x3D5B130", VA = "0x3D5B130")]
 		get
 		{
 			return default(ReferenceLoopHandling);
 		}
 		[Token(Token = "0x60000CF")]
-		[Address(RVA = "0x3A65810", Offset = "0x3A65810", VA = "0x3A65810")]
+		[Address(RVA = "0x3D5B160", Offset = "0x3D5B160", VA = "0x3D5B160")]
 		set
 		{
 		}
@@ -290,13 +297,13 @@ public sealed class JsonPropertyAttribute : Attribute
 	public TypeNameHandling ItemTypeNameHandling
 	{
 		[Token(Token = "0x60000D0")]
-		[Address(RVA = "0x3A65860", Offset = "0x3A65860", VA = "0x3A65860")]
+		[Address(RVA = "0x3D5B1B0", Offset = "0x3D5B1B0", VA = "0x3D5B1B0")]
 		get
 		{
 			return default(TypeNameHandling);
 		}
 		[Token(Token = "0x60000D1")]
-		[Address(RVA = "0x3A65890", Offset = "0x3A65890", VA = "0x3A65890")]
+		[Address(RVA = "0x3D5B1E0", Offset = "0x3D5B1E0", VA = "0x3D5B1E0")]
 		set
 		{
 		}
@@ -306,26 +313,26 @@ public sealed class JsonPropertyAttribute : Attribute
 	public bool ItemIsReference
 	{
 		[Token(Token = "0x60000D2")]
-		[Address(RVA = "0x3A658E0", Offset = "0x3A658E0", VA = "0x3A658E0")]
+		[Address(RVA = "0x3D5B230", Offset = "0x3D5B230", VA = "0x3D5B230")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000D3")]
-		[Address(RVA = "0x3A65910", Offset = "0x3A65910", VA = "0x3A65910")]
+		[Address(RVA = "0x3D5B260", Offset = "0x3D5B260", VA = "0x3D5B260")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60000D4")]
-	[Address(RVA = "0x3A65970", Offset = "0x3A65970", VA = "0x3A65970")]
+	[Address(RVA = "0x3D5B2C0", Offset = "0x3D5B2C0", VA = "0x3D5B2C0")]
 	public JsonPropertyAttribute()
 	{
 	}
 
 	[Token(Token = "0x60000D5")]
-	[Address(RVA = "0x3A65980", Offset = "0x3A65980", VA = "0x3A65980")]
+	[Address(RVA = "0x3D5B2D0", Offset = "0x3D5B2D0", VA = "0x3D5B2D0")]
 	public JsonPropertyAttribute(string propertyName)
 	{
 	}

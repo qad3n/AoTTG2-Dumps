@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Internal.MultiColumnCollectionHeader
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -53,19 +60,19 @@ internal class MultiColumnCollectionHeader : VisualElement, IDisposable
 		private List<ColumnState> m_OrderedColumnStates;
 
 		[Token(Token = "0x6002191")]
-		[Address(RVA = "0x4CB7EC0", Offset = "0x4CB7EC0", VA = "0x4CB7EC0")]
+		[Address(RVA = "0x4FDF7F0", Offset = "0x4FDF7F0", VA = "0x4FDF7F0")]
 		internal void Save(MultiColumnCollectionHeader header)
 		{
 		}
 
 		[Token(Token = "0x6002192")]
-		[Address(RVA = "0x4CB7AE0", Offset = "0x4CB7AE0", VA = "0x4CB7AE0")]
+		[Address(RVA = "0x4FDF410", Offset = "0x4FDF410", VA = "0x4FDF410")]
 		internal void Apply(MultiColumnCollectionHeader header)
 		{
 		}
 
 		[Token(Token = "0x6002193")]
-		[Address(RVA = "0x4CB8DA0", Offset = "0x4CB8DA0", VA = "0x4CB8DA0")]
+		[Address(RVA = "0x4FE06D0", Offset = "0x4FE06D0", VA = "0x4FE06D0")]
 		public ViewState()
 		{
 		}
@@ -78,14 +85,14 @@ internal class MultiColumnCollectionHeader : VisualElement, IDisposable
 		public MultiColumnHeaderColumn control
 		{
 			[Token(Token = "0x6002194")]
-			[Address(RVA = "0x4CB8E60", Offset = "0x4CB8E60", VA = "0x4CB8E60")]
+			[Address(RVA = "0x4FE0790", Offset = "0x4FE0790", VA = "0x4FE0790")]
 			[CompilerGenerated]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x6002195")]
-			[Address(RVA = "0x4CB8E70", Offset = "0x4CB8E70", VA = "0x4CB8E70")]
+			[Address(RVA = "0x4FE07A0", Offset = "0x4FE07A0", VA = "0x4FE07A0")]
 			[CompilerGenerated]
 			set
 			{
@@ -96,14 +103,14 @@ internal class MultiColumnCollectionHeader : VisualElement, IDisposable
 		public MultiColumnHeaderColumnResizeHandle resizeHandle
 		{
 			[Token(Token = "0x6002196")]
-			[Address(RVA = "0x4CB8E80", Offset = "0x4CB8E80", VA = "0x4CB8E80")]
+			[Address(RVA = "0x4FE07B0", Offset = "0x4FE07B0", VA = "0x4FE07B0")]
 			[CompilerGenerated]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x6002197")]
-			[Address(RVA = "0x4CB8E90", Offset = "0x4CB8E90", VA = "0x4CB8E90")]
+			[Address(RVA = "0x4FE07C0", Offset = "0x4FE07C0", VA = "0x4FE07C0")]
 			[CompilerGenerated]
 			set
 			{
@@ -111,7 +118,7 @@ internal class MultiColumnCollectionHeader : VisualElement, IDisposable
 		}
 
 		[Token(Token = "0x6002198")]
-		[Address(RVA = "0x4CB5150", Offset = "0x4CB5150", VA = "0x4CB5150")]
+		[Address(RVA = "0x4FDCA80", Offset = "0x4FDCA80", VA = "0x4FDCA80")]
 		public ColumnData()
 		{
 		}
@@ -129,7 +136,7 @@ internal class MultiColumnCollectionHeader : VisualElement, IDisposable
 		public SortDirection direction;
 
 		[Token(Token = "0x6002199")]
-		[Address(RVA = "0x4CB3D90", Offset = "0x4CB3D90", VA = "0x4CB3D90")]
+		[Address(RVA = "0x4FDB6C0", Offset = "0x4FDB6C0", VA = "0x4FDB6C0")]
 		public SortedColumnState(SortColumnDescription desc, SortDirection dir)
 		{
 		}
@@ -187,7 +194,7 @@ internal class MultiColumnCollectionHeader : VisualElement, IDisposable
 	internal bool isApplyingViewState
 	{
 		[Token(Token = "0x6002162")]
-		[Address(RVA = "0x4CB1850", Offset = "0x4CB1850", VA = "0x4CB1850")]
+		[Address(RVA = "0x4FD9180", Offset = "0x4FD9180", VA = "0x4FD9180")]
 		get
 		{
 			return default(bool);
@@ -198,7 +205,7 @@ internal class MultiColumnCollectionHeader : VisualElement, IDisposable
 	public Dictionary<Column, ColumnData> columnDataMap
 	{
 		[Token(Token = "0x6002163")]
-		[Address(RVA = "0x4CB1860", Offset = "0x4CB1860", VA = "0x4CB1860")]
+		[Address(RVA = "0x4FD9190", Offset = "0x4FD9190", VA = "0x4FD9190")]
 		[CompilerGenerated]
 		get
 		{
@@ -210,7 +217,7 @@ internal class MultiColumnCollectionHeader : VisualElement, IDisposable
 	public ColumnLayout columnLayout
 	{
 		[Token(Token = "0x6002164")]
-		[Address(RVA = "0x4CB1870", Offset = "0x4CB1870", VA = "0x4CB1870")]
+		[Address(RVA = "0x4FD91A0", Offset = "0x4FD91A0", VA = "0x4FD91A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -222,7 +229,7 @@ internal class MultiColumnCollectionHeader : VisualElement, IDisposable
 	public VisualElement columnContainer
 	{
 		[Token(Token = "0x6002165")]
-		[Address(RVA = "0x4CB1880", Offset = "0x4CB1880", VA = "0x4CB1880")]
+		[Address(RVA = "0x4FD91B0", Offset = "0x4FD91B0", VA = "0x4FD91B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -234,7 +241,7 @@ internal class MultiColumnCollectionHeader : VisualElement, IDisposable
 	public VisualElement resizeHandleContainer
 	{
 		[Token(Token = "0x6002166")]
-		[Address(RVA = "0x4CB1890", Offset = "0x4CB1890", VA = "0x4CB1890")]
+		[Address(RVA = "0x4FD91C0", Offset = "0x4FD91C0", VA = "0x4FD91C0")]
 		[CompilerGenerated]
 		get
 		{
@@ -246,7 +253,7 @@ internal class MultiColumnCollectionHeader : VisualElement, IDisposable
 	public IEnumerable<SortColumnDescription> sortedColumns
 	{
 		[Token(Token = "0x6002167")]
-		[Address(RVA = "0x4CB18A0", Offset = "0x4CB18A0", VA = "0x4CB18A0")]
+		[Address(RVA = "0x4FD91D0", Offset = "0x4FD91D0", VA = "0x4FD91D0")]
 		get
 		{
 			return null;
@@ -257,13 +264,13 @@ internal class MultiColumnCollectionHeader : VisualElement, IDisposable
 	public SortColumnDescriptions sortDescriptions
 	{
 		[Token(Token = "0x6002168")]
-		[Address(RVA = "0x4CB18B0", Offset = "0x4CB18B0", VA = "0x4CB18B0")]
+		[Address(RVA = "0x4FD91E0", Offset = "0x4FD91E0", VA = "0x4FD91E0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6002169")]
-		[Address(RVA = "0x4CB18C0", Offset = "0x4CB18C0", VA = "0x4CB18C0")]
+		[Address(RVA = "0x4FD91F0", Offset = "0x4FD91F0", VA = "0x4FD91F0")]
 		protected internal set
 		{
 		}
@@ -273,7 +280,7 @@ internal class MultiColumnCollectionHeader : VisualElement, IDisposable
 	public Columns columns
 	{
 		[Token(Token = "0x600216A")]
-		[Address(RVA = "0x4CB2200", Offset = "0x4CB2200", VA = "0x4CB2200")]
+		[Address(RVA = "0x4FD9B30", Offset = "0x4FD9B30", VA = "0x4FD9B30")]
 		[CompilerGenerated]
 		get
 		{
@@ -285,13 +292,13 @@ internal class MultiColumnCollectionHeader : VisualElement, IDisposable
 	public bool sortingEnabled
 	{
 		[Token(Token = "0x600216B")]
-		[Address(RVA = "0x4CB2210", Offset = "0x4CB2210", VA = "0x4CB2210")]
+		[Address(RVA = "0x4FD9B40", Offset = "0x4FD9B40", VA = "0x4FD9B40")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600216C")]
-		[Address(RVA = "0x4CB2220", Offset = "0x4CB2220", VA = "0x4CB2220")]
+		[Address(RVA = "0x4FD9B50", Offset = "0x4FD9B50", VA = "0x4FD9B50")]
 		set
 		{
 		}
@@ -301,13 +308,13 @@ internal class MultiColumnCollectionHeader : VisualElement, IDisposable
 	public event Action<int, float> columnResized
 	{
 		[Token(Token = "0x600216D")]
-		[Address(RVA = "0x4CB2AB0", Offset = "0x4CB2AB0", VA = "0x4CB2AB0")]
+		[Address(RVA = "0x4FDA3E0", Offset = "0x4FDA3E0", VA = "0x4FDA3E0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600216E")]
-		[Address(RVA = "0x4CB2B60", Offset = "0x4CB2B60", VA = "0x4CB2B60")]
+		[Address(RVA = "0x4FDA490", Offset = "0x4FDA490", VA = "0x4FDA490")]
 		[CompilerGenerated]
 		remove
 		{
@@ -318,13 +325,13 @@ internal class MultiColumnCollectionHeader : VisualElement, IDisposable
 	public event Action columnSortingChanged
 	{
 		[Token(Token = "0x600216F")]
-		[Address(RVA = "0x4CB2C10", Offset = "0x4CB2C10", VA = "0x4CB2C10")]
+		[Address(RVA = "0x4FDA540", Offset = "0x4FDA540", VA = "0x4FDA540")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6002170")]
-		[Address(RVA = "0x4CB2CB0", Offset = "0x4CB2CB0", VA = "0x4CB2CB0")]
+		[Address(RVA = "0x4FDA5E0", Offset = "0x4FDA5E0", VA = "0x4FDA5E0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -335,13 +342,13 @@ internal class MultiColumnCollectionHeader : VisualElement, IDisposable
 	public event Action<ContextualMenuPopulateEvent, Column> contextMenuPopulateEvent
 	{
 		[Token(Token = "0x6002171")]
-		[Address(RVA = "0x4CB2D50", Offset = "0x4CB2D50", VA = "0x4CB2D50")]
+		[Address(RVA = "0x4FDA680", Offset = "0x4FDA680", VA = "0x4FDA680")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6002172")]
-		[Address(RVA = "0x4CB2E00", Offset = "0x4CB2E00", VA = "0x4CB2E00")]
+		[Address(RVA = "0x4FDA730", Offset = "0x4FDA730", VA = "0x4FDA730")]
 		[CompilerGenerated]
 		remove
 		{
@@ -352,13 +359,13 @@ internal class MultiColumnCollectionHeader : VisualElement, IDisposable
 	internal event Action viewDataRestored
 	{
 		[Token(Token = "0x6002173")]
-		[Address(RVA = "0x4CB2EB0", Offset = "0x4CB2EB0", VA = "0x4CB2EB0")]
+		[Address(RVA = "0x4FDA7E0", Offset = "0x4FDA7E0", VA = "0x4FDA7E0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6002174")]
-		[Address(RVA = "0x4CB2F50", Offset = "0x4CB2F50", VA = "0x4CB2F50")]
+		[Address(RVA = "0x4FDA880", Offset = "0x4FDA880", VA = "0x4FDA880")]
 		[CompilerGenerated]
 		remove
 		{
@@ -366,157 +373,157 @@ internal class MultiColumnCollectionHeader : VisualElement, IDisposable
 	}
 
 	[Token(Token = "0x6002175")]
-	[Address(RVA = "0x4CB2FF0", Offset = "0x4CB2FF0", VA = "0x4CB2FF0")]
+	[Address(RVA = "0x4FDA920", Offset = "0x4FDA920", VA = "0x4FDA920")]
 	public MultiColumnCollectionHeader(Columns columns, SortColumnDescriptions sortDescriptions, List<SortColumnDescription> sortedColumns)
 	{
 	}
 
 	[Token(Token = "0x6002176")]
-	[Address(RVA = "0x4CB3C50", Offset = "0x4CB3C50", VA = "0x4CB3C50")]
+	[Address(RVA = "0x4FDB580", Offset = "0x4FDB580", VA = "0x4FDB580")]
 	private void ScheduleDoLayout()
 	{
 	}
 
 	[Token(Token = "0x6002177")]
-	[Address(RVA = "0x4CB3D60", Offset = "0x4CB3D60", VA = "0x4CB3D60")]
+	[Address(RVA = "0x4FDB690", Offset = "0x4FDB690", VA = "0x4FDB690")]
 	private void ResizeToFit()
 	{
 	}
 
 	[Token(Token = "0x6002178")]
-	[Address(RVA = "0x4CB1960", Offset = "0x4CB1960", VA = "0x4CB1960")]
+	[Address(RVA = "0x4FD9290", Offset = "0x4FD9290", VA = "0x4FD9290")]
 	private void UpdateSortedColumns()
 	{
 	}
 
 	[Token(Token = "0x6002179")]
-	[Address(RVA = "0x4CB3E10", Offset = "0x4CB3E10", VA = "0x4CB3E10")]
+	[Address(RVA = "0x4FDB740", Offset = "0x4FDB740", VA = "0x4FDB740")]
 	private void UpdateColumnControls()
 	{
 	}
 
 	[Token(Token = "0x600217A")]
-	[Address(RVA = "0x4CB4840", Offset = "0x4CB4840", VA = "0x4CB4840")]
+	[Address(RVA = "0x4FDC170", Offset = "0x4FDC170", VA = "0x4FDC170")]
 	private void OnColumnAdded(Column column, int index)
 	{
 	}
 
 	[Token(Token = "0x600217B")]
-	[Address(RVA = "0x4CB38D0", Offset = "0x4CB38D0", VA = "0x4CB38D0")]
+	[Address(RVA = "0x4FDB200", Offset = "0x4FDB200", VA = "0x4FDB200")]
 	private void OnColumnAdded(Column column)
 	{
 	}
 
 	[Token(Token = "0x600217C")]
-	[Address(RVA = "0x4CB5160", Offset = "0x4CB5160", VA = "0x4CB5160")]
+	[Address(RVA = "0x4FDCA90", Offset = "0x4FDCA90", VA = "0x4FDCA90")]
 	private void OnColumnRemoved(Column column)
 	{
 	}
 
 	[Token(Token = "0x600217D")]
-	[Address(RVA = "0x4CB53D0", Offset = "0x4CB53D0", VA = "0x4CB53D0")]
+	[Address(RVA = "0x4FDCD00", Offset = "0x4FDCD00", VA = "0x4FDCD00")]
 	private void OnColumnChanged(Column column, ColumnDataType type)
 	{
 	}
 
 	[Token(Token = "0x600217E")]
-	[Address(RVA = "0x4CB6030", Offset = "0x4CB6030", VA = "0x4CB6030")]
+	[Address(RVA = "0x4FDD960", Offset = "0x4FDD960", VA = "0x4FDD960")]
 	private void OnColumnReordered(Column column, int from, int to)
 	{
 	}
 
 	[Token(Token = "0x600217F")]
-	[Address(RVA = "0x4CB6200", Offset = "0x4CB6200", VA = "0x4CB6200")]
+	[Address(RVA = "0x4FDDB30", Offset = "0x4FDDB30", VA = "0x4FDDB30")]
 	private void OnColumnResized(Column column)
 	{
 	}
 
 	[Token(Token = "0x6002180")]
-	[Address(RVA = "0x4CB6230", Offset = "0x4CB6230", VA = "0x4CB6230")]
+	[Address(RVA = "0x4FDDB60", Offset = "0x4FDDB60", VA = "0x4FDDB60")]
 	private void OnContextualMenuManipulator(ContextualMenuPopulateEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6002181")]
-	[Address(RVA = "0x4CB6D90", Offset = "0x4CB6D90", VA = "0x4CB6D90")]
+	[Address(RVA = "0x4FDE6C0", Offset = "0x4FDE6C0", VA = "0x4FDE6C0")]
 	private void OnMoveManipulatorActivated(ColumnMover mover)
 	{
 	}
 
 	[Token(Token = "0x6002182")]
-	[Address(RVA = "0x4CB6E80", Offset = "0x4CB6E80", VA = "0x4CB6E80")]
+	[Address(RVA = "0x4FDE7B0", Offset = "0x4FDE7B0", VA = "0x4FDE7B0")]
 	private void OnGeometryChanged(GeometryChangedEvent e)
 	{
 	}
 
 	[Token(Token = "0x6002183")]
-	[Address(RVA = "0x4CB6F30", Offset = "0x4CB6F30", VA = "0x4CB6F30")]
+	[Address(RVA = "0x4FDE860", Offset = "0x4FDE860", VA = "0x4FDE860")]
 	private void DoLayout()
 	{
 	}
 
 	[Token(Token = "0x6002184")]
-	[Address(RVA = "0x4CB6F70", Offset = "0x4CB6F70", VA = "0x4CB6F70")]
+	[Address(RVA = "0x4FDE8A0", Offset = "0x4FDE8A0", VA = "0x4FDE8A0")]
 	private void OnColumnControlGeometryChanged(GeometryChangedEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6002185")]
-	[Address(RVA = "0x4CB7290", Offset = "0x4CB7290", VA = "0x4CB7290")]
+	[Address(RVA = "0x4FDEBC0", Offset = "0x4FDEBC0", VA = "0x4FDEBC0")]
 	private void OnColumnClicked(EventBase evt)
 	{
 	}
 
 	[Token(Token = "0x6002186")]
-	[Address(RVA = "0x4CB74F0", Offset = "0x4CB74F0", VA = "0x4CB74F0")]
+	[Address(RVA = "0x4FDEE20", Offset = "0x4FDEE20", VA = "0x4FDEE20")]
 	private void UpdateSortColumnDescriptionsOnClick(Column column, EventModifiers modifiers)
 	{
 	}
 
 	[Token(Token = "0x6002187")]
-	[Address(RVA = "0x4CB7790", Offset = "0x4CB7790", VA = "0x4CB7790")]
+	[Address(RVA = "0x4FDF0C0", Offset = "0x4FDF0C0", VA = "0x4FDF0C0")]
 	public void ScrollHorizontally(float horizontalOffset)
 	{
 	}
 
 	[Token(Token = "0x6002188")]
-	[Address(RVA = "0x4CB7190", Offset = "0x4CB7190", VA = "0x4CB7190")]
+	[Address(RVA = "0x4FDEAC0", Offset = "0x4FDEAC0", VA = "0x4FDEAC0")]
 	private void RaiseColumnResized(int columnIndex)
 	{
 	}
 
 	[Token(Token = "0x6002189")]
-	[Address(RVA = "0x4CB3DE0", Offset = "0x4CB3DE0", VA = "0x4CB3DE0")]
+	[Address(RVA = "0x4FDB710", Offset = "0x4FDB710", VA = "0x4FDB710")]
 	private void RaiseColumnSortingChanged()
 	{
 	}
 
 	[Token(Token = "0x600218A")]
-	[Address(RVA = "0x4CB5440", Offset = "0x4CB5440", VA = "0x4CB5440")]
+	[Address(RVA = "0x4FDCD70", Offset = "0x4FDCD70", VA = "0x4FDCD70")]
 	private void ApplyColumnSorting()
 	{
 	}
 
 	[Token(Token = "0x600218B")]
-	[Address(RVA = "0x4CB2250", Offset = "0x4CB2250", VA = "0x4CB2250")]
+	[Address(RVA = "0x4FD9B80", Offset = "0x4FD9B80", VA = "0x4FD9B80")]
 	private void UpdateSortingStatus()
 	{
 	}
 
 	[Token(Token = "0x600218C")]
-	[Address(RVA = "0x4CB79C0", Offset = "0x4CB79C0", VA = "0x4CB79C0", Slot = "94")]
+	[Address(RVA = "0x4FDF2F0", Offset = "0x4FDF2F0", VA = "0x4FDF2F0", Slot = "94")]
 	internal override void OnViewDataReady()
 	{
 	}
 
 	[Token(Token = "0x600218D")]
-	[Address(RVA = "0x4CB3DB0", Offset = "0x4CB3DB0", VA = "0x4CB3DB0")]
+	[Address(RVA = "0x4FDB6E0", Offset = "0x4FDB6E0", VA = "0x4FDB6E0")]
 	private void SaveViewState()
 	{
 	}
 
 	[Token(Token = "0x600218E")]
-	[Address(RVA = "0x4CB8710", Offset = "0x4CB8710", VA = "0x4CB8710", Slot = "98")]
+	[Address(RVA = "0x4FE0040", Offset = "0x4FE0040", VA = "0x4FE0040", Slot = "98")]
 	public void Dispose()
 	{
 	}

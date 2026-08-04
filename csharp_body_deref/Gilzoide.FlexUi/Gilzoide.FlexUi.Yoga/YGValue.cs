@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Gilzoide.FlexUi.Yoga.YGValue
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Gilzoide/FlexUi/Yoga/YGValue.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -28,20 +35,20 @@ public struct YGValue
 	public static readonly YGValue Auto;
 
 	[Token(Token = "0x60000C2")]
-	[Address(RVA = "0x39C0080", Offset = "0x39C0080", VA = "0x39C0080")]
+	[Address(RVA = "0x3A292D0", Offset = "0x3A292D0", VA = "0x3A292D0")]
 	public YGValue(float value, Unit unit)
 	{
 	}
 
 	[Token(Token = "0x60000C3")]
-	[Address(RVA = "0x39C0090", Offset = "0x39C0090", VA = "0x39C0090")]
+	[Address(RVA = "0x3A292E0", Offset = "0x3A292E0", VA = "0x3A292E0")]
 	public static YGValue Percent(float value)
 	{
 		return default(YGValue);
 	}
 
 	[Token(Token = "0x60000C4")]
-	[Address(RVA = "0x39C00B0", Offset = "0x39C00B0", VA = "0x39C00B0")]
+	[Address(RVA = "0x3A29300", Offset = "0x3A29300", VA = "0x3A29300")]
 	public static implicit operator YGValue(float value)
 	{
 		return default(YGValue);

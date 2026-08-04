@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Nullable
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.Versioning;
 using Il2CppDummyDll;
 
@@ -97,7 +104,7 @@ public struct Nullable<T> where T : struct
 public static class Nullable
 {
 	[Token(Token = "0x60008CE")]
-	[Address(RVA = "0x4FD3A00", Offset = "0x4FD3A00", VA = "0x4FD3A00")]
+	[Address(RVA = "0x3CB9520", Offset = "0x3CB9520", VA = "0x3CB9520")]
 	public static Type GetUnderlyingType(Type nullableType)
 	{
 		return null;

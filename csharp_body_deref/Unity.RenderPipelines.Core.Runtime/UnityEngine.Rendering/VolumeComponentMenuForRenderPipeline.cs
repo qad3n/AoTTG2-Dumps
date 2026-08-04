@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.VolumeComponentMenuForRenderPipeline
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -12,7 +19,7 @@ public class VolumeComponentMenuForRenderPipeline : VolumeComponentMenu
 	public Type[] pipelineTypes
 	{
 		[Token(Token = "0x6000D60")]
-		[Address(RVA = "0x48E1530", Offset = "0x48E1530", VA = "0x48E1530")]
+		[Address(RVA = "0x4C065A0", Offset = "0x4C065A0", VA = "0x4C065A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -21,7 +28,7 @@ public class VolumeComponentMenuForRenderPipeline : VolumeComponentMenu
 	}
 
 	[Token(Token = "0x6000D61")]
-	[Address(RVA = "0x48E1540", Offset = "0x48E1540", VA = "0x48E1540")]
+	[Address(RVA = "0x4C065B0", Offset = "0x4C065B0", VA = "0x4C065B0")]
 	public VolumeComponentMenuForRenderPipeline(string menu, params Type[] pipelineTypes)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Security.Interface.ValidationResult
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Mono.Security.Interface;
@@ -25,7 +32,7 @@ public class ValidationResult
 	public bool Trusted
 	{
 		[Token(Token = "0x6000121")]
-		[Address(RVA = "0x3A4F460", Offset = "0x3A4F460", VA = "0x3A4F460")]
+		[Address(RVA = "0x3ABC120", Offset = "0x3ABC120", VA = "0x3ABC120")]
 		get
 		{
 			return default(bool);
@@ -36,7 +43,7 @@ public class ValidationResult
 	public bool UserDenied
 	{
 		[Token(Token = "0x6000122")]
-		[Address(RVA = "0x3A4F470", Offset = "0x3A4F470", VA = "0x3A4F470")]
+		[Address(RVA = "0x3ABC130", Offset = "0x3ABC130", VA = "0x3ABC130")]
 		get
 		{
 			return default(bool);
@@ -44,7 +51,7 @@ public class ValidationResult
 	}
 
 	[Token(Token = "0x6000120")]
-	[Address(RVA = "0x3A4F420", Offset = "0x3A4F420", VA = "0x3A4F420")]
+	[Address(RVA = "0x3ABC0E0", Offset = "0x3ABC0E0", VA = "0x3ABC0E0")]
 	public ValidationResult(bool trusted, bool user_denied, int error_code, MonoSslPolicyErrors? policy_errors)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.ContactFilter2D
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -70,23 +77,23 @@ public struct ContactFilter2D
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x4B4D9B0", Offset = "0x4B4D9B0", VA = "0x4B4D9B0")]
+	[Address(RVA = "0x4E752E0", Offset = "0x4E752E0", VA = "0x4E752E0")]
 	private extern void CheckConsistency();
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x4B4D9E0", Offset = "0x4B4D9E0", VA = "0x4B4D9E0")]
+	[Address(RVA = "0x4E75310", Offset = "0x4E75310", VA = "0x4E75310")]
 	public void SetLayerMask(LayerMask layerMask)
 	{
 	}
 
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x4B4D9F0", Offset = "0x4B4D9F0", VA = "0x4B4D9F0")]
+	[Address(RVA = "0x4E75320", Offset = "0x4E75320", VA = "0x4E75320")]
 	public void SetDepth(float minDepth, float maxDepth)
 	{
 	}
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x4B4C070", Offset = "0x4B4C070", VA = "0x4B4C070")]
+	[Address(RVA = "0x4E739A0", Offset = "0x4E739A0", VA = "0x4E739A0")]
 	internal static ContactFilter2D CreateLegacyFilter(int layerMask, float minDepth, float maxDepth)
 	{
 		return default(ContactFilter2D);

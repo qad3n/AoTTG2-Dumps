@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.PostProcessVolume
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -54,13 +61,13 @@ public sealed class PostProcessVolume : MonoBehaviour
 	public PostProcessProfile profile
 	{
 		[Token(Token = "0x60001B9")]
-		[Address(RVA = "0x4837A50", Offset = "0x4837A50", VA = "0x4837A50")]
+		[Address(RVA = "0x4B5CB40", Offset = "0x4B5CB40", VA = "0x4B5CB40")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001BA")]
-		[Address(RVA = "0x48399E0", Offset = "0x48399E0", VA = "0x48399E0")]
+		[Address(RVA = "0x4B5EAD0", Offset = "0x4B5EAD0", VA = "0x4B5EAD0")]
 		set
 		{
 		}
@@ -70,7 +77,7 @@ public sealed class PostProcessVolume : MonoBehaviour
 	internal PostProcessProfile profileRef
 	{
 		[Token(Token = "0x60001BB")]
-		[Address(RVA = "0x4837620", Offset = "0x4837620", VA = "0x4837620")]
+		[Address(RVA = "0x4B5C710", Offset = "0x4B5C710", VA = "0x4B5C710")]
 		get
 		{
 			return null;
@@ -81,7 +88,7 @@ public sealed class PostProcessVolume : MonoBehaviour
 	internal int previousLayer
 	{
 		[Token(Token = "0x60001BD")]
-		[Address(RVA = "0x4839A40", Offset = "0x4839A40", VA = "0x4839A40")]
+		[Address(RVA = "0x4B5EB30", Offset = "0x4B5EB30", VA = "0x4B5EB30")]
 		get
 		{
 			return default(int);
@@ -89,38 +96,38 @@ public sealed class PostProcessVolume : MonoBehaviour
 	}
 
 	[Token(Token = "0x60001BC")]
-	[Address(RVA = "0x48399F0", Offset = "0x48399F0", VA = "0x48399F0")]
+	[Address(RVA = "0x4B5EAE0", Offset = "0x4B5EAE0", VA = "0x4B5EAE0")]
 	public bool HasInstantiatedProfile()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001BE")]
-	[Address(RVA = "0x4839A50", Offset = "0x4839A50", VA = "0x4839A50")]
+	[Address(RVA = "0x4B5EB40", Offset = "0x4B5EB40", VA = "0x4B5EB40")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60001BF")]
-	[Address(RVA = "0x4839B90", Offset = "0x4839B90", VA = "0x4839B90")]
+	[Address(RVA = "0x4B5EC80", Offset = "0x4B5EC80", VA = "0x4B5EC80")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x60001C0")]
-	[Address(RVA = "0x4839C60", Offset = "0x4839C60", VA = "0x4839C60")]
+	[Address(RVA = "0x4B5ED50", Offset = "0x4B5ED50", VA = "0x4B5ED50")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x60001C1")]
-	[Address(RVA = "0x4839DE0", Offset = "0x4839DE0", VA = "0x4839DE0")]
+	[Address(RVA = "0x4B5EED0", Offset = "0x4B5EED0", VA = "0x4B5EED0")]
 	private void OnDrawGizmos()
 	{
 	}
 
 	[Token(Token = "0x60001C2")]
-	[Address(RVA = "0x483A780", Offset = "0x483A780", VA = "0x483A780")]
+	[Address(RVA = "0x4B5F870", Offset = "0x4B5F870", VA = "0x4B5F870")]
 	public PostProcessVolume()
 	{
 	}

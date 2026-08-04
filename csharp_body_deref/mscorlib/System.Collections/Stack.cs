@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Collections.Stack
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using Il2CppDummyDll;
 
@@ -33,7 +40,7 @@ public class Stack : ICollection, IEnumerable, ICloneable
 		public virtual object Current
 		{
 			[Token(Token = "0x6002FB2")]
-			[Address(RVA = "0x4F9F7B0", Offset = "0x4F9F7B0", VA = "0x4F9F7B0", Slot = "9")]
+			[Address(RVA = "0x3C852D0", Offset = "0x3C852D0", VA = "0x3C852D0", Slot = "9")]
 			get
 			{
 				return null;
@@ -41,27 +48,27 @@ public class Stack : ICollection, IEnumerable, ICloneable
 		}
 
 		[Token(Token = "0x6002FAF")]
-		[Address(RVA = "0x4F9F410", Offset = "0x4F9F410", VA = "0x4F9F410")]
+		[Address(RVA = "0x3C84F30", Offset = "0x3C84F30", VA = "0x3C84F30")]
 		internal StackEnumerator(Stack stack)
 		{
 		}
 
 		[Token(Token = "0x6002FB0")]
-		[Address(RVA = "0x4F9F6A0", Offset = "0x4F9F6A0", VA = "0x4F9F6A0", Slot = "7")]
+		[Address(RVA = "0x3C851C0", Offset = "0x3C851C0", VA = "0x3C851C0", Slot = "7")]
 		public object Clone()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6002FB1")]
-		[Address(RVA = "0x4F9F6B0", Offset = "0x4F9F6B0", VA = "0x4F9F6B0", Slot = "8")]
+		[Address(RVA = "0x3C851D0", Offset = "0x3C851D0", VA = "0x3C851D0", Slot = "8")]
 		public virtual bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6002FB3")]
-		[Address(RVA = "0x4F9F830", Offset = "0x4F9F830", VA = "0x4F9F830", Slot = "10")]
+		[Address(RVA = "0x3C85350", Offset = "0x3C85350", VA = "0x3C85350", Slot = "10")]
 		public virtual void Reset()
 		{
 		}
@@ -96,7 +103,7 @@ public class Stack : ICollection, IEnumerable, ICloneable
 	public virtual int Count
 	{
 		[Token(Token = "0x6002FA5")]
-		[Address(RVA = "0x4F9EF70", Offset = "0x4F9EF70", VA = "0x4F9EF70", Slot = "10")]
+		[Address(RVA = "0x3C84A90", Offset = "0x3C84A90", VA = "0x3C84A90", Slot = "10")]
 		get
 		{
 			return default(int);
@@ -107,7 +114,7 @@ public class Stack : ICollection, IEnumerable, ICloneable
 	public virtual bool IsSynchronized
 	{
 		[Token(Token = "0x6002FA6")]
-		[Address(RVA = "0x4F9EF80", Offset = "0x4F9EF80", VA = "0x4F9EF80", Slot = "11")]
+		[Address(RVA = "0x3C84AA0", Offset = "0x3C84AA0", VA = "0x3C84AA0", Slot = "11")]
 		get
 		{
 			return default(bool);
@@ -118,7 +125,7 @@ public class Stack : ICollection, IEnumerable, ICloneable
 	public virtual object SyncRoot
 	{
 		[Token(Token = "0x6002FA7")]
-		[Address(RVA = "0x4F9EF90", Offset = "0x4F9EF90", VA = "0x4F9EF90", Slot = "12")]
+		[Address(RVA = "0x3C84AB0", Offset = "0x3C84AB0", VA = "0x3C84AB0", Slot = "12")]
 		get
 		{
 			return null;
@@ -126,59 +133,59 @@ public class Stack : ICollection, IEnumerable, ICloneable
 	}
 
 	[Token(Token = "0x6002FA3")]
-	[Address(RVA = "0x4F9EE40", Offset = "0x4F9EE40", VA = "0x4F9EE40")]
+	[Address(RVA = "0x3C84960", Offset = "0x3C84960", VA = "0x3C84960")]
 	public Stack()
 	{
 	}
 
 	[Token(Token = "0x6002FA4")]
-	[Address(RVA = "0x4F9EEA0", Offset = "0x4F9EEA0", VA = "0x4F9EEA0")]
+	[Address(RVA = "0x3C849C0", Offset = "0x3C849C0", VA = "0x3C849C0")]
 	public Stack(int initialCapacity)
 	{
 	}
 
 	[Token(Token = "0x6002FA8")]
-	[Address(RVA = "0x4F9F010", Offset = "0x4F9F010", VA = "0x4F9F010", Slot = "13")]
+	[Address(RVA = "0x3C84B30", Offset = "0x3C84B30", VA = "0x3C84B30", Slot = "13")]
 	public virtual void Clear()
 	{
 	}
 
 	[Token(Token = "0x6002FA9")]
-	[Address(RVA = "0x4F9F040", Offset = "0x4F9F040", VA = "0x4F9F040", Slot = "14")]
+	[Address(RVA = "0x3C84B60", Offset = "0x3C84B60", VA = "0x3C84B60", Slot = "14")]
 	public virtual object Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002FAA")]
-	[Address(RVA = "0x4F9F0C0", Offset = "0x4F9F0C0", VA = "0x4F9F0C0", Slot = "15")]
+	[Address(RVA = "0x3C84BE0", Offset = "0x3C84BE0", VA = "0x3C84BE0", Slot = "15")]
 	public virtual void CopyTo(Array array, int index)
 	{
 	}
 
 	[Token(Token = "0x6002FAB")]
-	[Address(RVA = "0x4F9F380", Offset = "0x4F9F380", VA = "0x4F9F380", Slot = "16")]
+	[Address(RVA = "0x3C84EA0", Offset = "0x3C84EA0", VA = "0x3C84EA0", Slot = "16")]
 	public virtual IEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002FAC")]
-	[Address(RVA = "0x4F9F470", Offset = "0x4F9F470", VA = "0x4F9F470", Slot = "17")]
+	[Address(RVA = "0x3C84F90", Offset = "0x3C84F90", VA = "0x3C84F90", Slot = "17")]
 	public virtual object Peek()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002FAD")]
-	[Address(RVA = "0x4F9F4F0", Offset = "0x4F9F4F0", VA = "0x4F9F4F0", Slot = "18")]
+	[Address(RVA = "0x3C85010", Offset = "0x3C85010", VA = "0x3C85010", Slot = "18")]
 	public virtual object Pop()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002FAE")]
-	[Address(RVA = "0x4F9F590", Offset = "0x4F9F590", VA = "0x4F9F590", Slot = "19")]
+	[Address(RVA = "0x3C850B0", Offset = "0x3C850B0", VA = "0x3C850B0", Slot = "19")]
 	public virtual void Push(object obj)
 	{
 	}

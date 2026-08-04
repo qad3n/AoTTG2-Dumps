@@ -1,37 +1,37 @@
 // Type: CustomLogic.CustomLogicClassInstantiateExpressionAst
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomLogic/CustomLogicClassInstantiateExpressionAst.cs
-// Prior real C# source (REFERENCE, outdated): Assets/Scripts/CustomLogic/Ast/CustomLogicClassInstantiateExpressionAst.cs  [prior source available (delta unverified)]
+// Prior real C# source (older reference): Assets/Scripts/CustomLogic/Ast/CustomLogicClassInstantiateExpressionAst.cs
 // --------------------------------
 
 // CustomLogic.CustomLogicClassInstantiateExpressionAst$$.ctor
 // il2cpp: void CustomLogic_CustomLogicClassInstantiateExpressionAst___ctor (CustomLogic_CustomLogicClassInstantiateExpressionAst_o* __this, System_String_o* name, int32_t line, const MethodInfo* method);
-// 0x3db2560
+// 0x40b88a0
 
 void CustomLogic_CustomLogicClassInstantiateExpressionAst___ctor
-               (CustomLogic_CustomLogicClassInstantiateExpressionAst_o *__this,System_String_o *name
-               ,int32_t line,MethodInfo *method)
+               (CustomLogic_CustomLogicClassInstantiateExpressionAst_o *__this,System_String_o *name,
+               int32_t line,MethodInfo *method)
 
 {
   System_Collections_Generic_List_CustomLogicBaseAst__o *__this_00;
   
-  if (DAT_057027ca == '\0') {
-    il2cpp_init_method_metadata(&MethodInfo_List_1_CustomLogic_CustomLogicBaseAst);
-    il2cpp_init_method_metadata(&TypeInfo_List_CustomLogicBaseAst);
-    DAT_057027ca = '\x01';
+  if (g_data_057ac4ff == '\0') {
+    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_CustomLogic_CustomLogicBaseAst);
+    il2cpp_runtime_helper_023445d0(&TypeInfo_List_CustomLogicBaseAst);
+    g_data_057ac4ff = '\x01';
   }
-  __this_00 = (System_Collections_Generic_List_CustomLogicBaseAst__o *)
-              il2cpp_runtime_glue(TypeInfo_List_CustomLogicBaseAst);
-  System_Collections_Generic_List<object>___ctor
+  __this_00 = (System_Collections_Generic_List_CustomLogicBaseAst__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_CustomLogicBaseAst);
+  System_Collections_Generic_List_object____ctor
             ((System_Collections_Generic_List_object__o *)__this_00,MethodInfo_List_1_CustomLogic_CustomLogicBaseAst);
   (__this->fields).Parameters = __this_00;
-  il2cpp_runtime_glue(&(__this->fields).Parameters);
+  il2cpp_runtime_helper_022b4080(&(__this->fields).Parameters);
   System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
   (__this->fields).Type = 5;
   (__this->fields).Line = line;
   (__this->fields).Name = name;
-  il2cpp_runtime_glue(&(__this->fields).Name,name);
+  il2cpp_runtime_helper_022b4080(&(__this->fields).Name,name);
   return;
 }
 

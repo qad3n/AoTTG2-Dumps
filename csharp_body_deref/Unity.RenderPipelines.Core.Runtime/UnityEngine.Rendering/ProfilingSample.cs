@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.ProfilingSample
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -28,31 +35,31 @@ public struct ProfilingSample : IDisposable
 	private CustomSampler m_Sampler;
 
 	[Token(Token = "0x6000864")]
-	[Address(RVA = "0x48888E0", Offset = "0x48888E0", VA = "0x48888E0")]
+	[Address(RVA = "0x4BAD9D0", Offset = "0x4BAD9D0", VA = "0x4BAD9D0")]
 	public ProfilingSample(CommandBuffer cmd, string name, [Optional] CustomSampler sampler)
 	{
 	}
 
 	[Token(Token = "0x6000865")]
-	[Address(RVA = "0x4888980", Offset = "0x4888980", VA = "0x4888980")]
+	[Address(RVA = "0x4BADA70", Offset = "0x4BADA70", VA = "0x4BADA70")]
 	public ProfilingSample(CommandBuffer cmd, string format, object arg)
 	{
 	}
 
 	[Token(Token = "0x6000866")]
-	[Address(RVA = "0x4888A20", Offset = "0x4888A20", VA = "0x4888A20")]
+	[Address(RVA = "0x4BADB10", Offset = "0x4BADB10", VA = "0x4BADB10")]
 	public ProfilingSample(CommandBuffer cmd, string format, params object[] args)
 	{
 	}
 
 	[Token(Token = "0x6000867")]
-	[Address(RVA = "0x4888AC0", Offset = "0x4888AC0", VA = "0x4888AC0", Slot = "4")]
+	[Address(RVA = "0x4BADBB0", Offset = "0x4BADBB0", VA = "0x4BADBB0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000868")]
-	[Address(RVA = "0x4888B30", Offset = "0x4888B30", VA = "0x4888B30")]
+	[Address(RVA = "0x4BADC20", Offset = "0x4BADC20", VA = "0x4BADC20")]
 	private void Dispose(bool disposing)
 	{
 	}

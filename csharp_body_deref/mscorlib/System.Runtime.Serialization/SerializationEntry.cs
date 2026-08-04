@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.SerializationEntry
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
@@ -21,7 +28,7 @@ public readonly struct SerializationEntry
 	public object Value
 	{
 		[Token(Token = "0x6001F2D")]
-		[Address(RVA = "0x4EAE0B0", Offset = "0x4EAE0B0", VA = "0x4EAE0B0")]
+		[Address(RVA = "0x3B93BD0", Offset = "0x3B93BD0", VA = "0x3B93BD0")]
 		get
 		{
 			return null;
@@ -32,7 +39,7 @@ public readonly struct SerializationEntry
 	public string Name
 	{
 		[Token(Token = "0x6001F2E")]
-		[Address(RVA = "0x4EAE0C0", Offset = "0x4EAE0C0", VA = "0x4EAE0C0")]
+		[Address(RVA = "0x3B93BE0", Offset = "0x3B93BE0", VA = "0x3B93BE0")]
 		get
 		{
 			return null;
@@ -40,7 +47,7 @@ public readonly struct SerializationEntry
 	}
 
 	[Token(Token = "0x6001F2C")]
-	[Address(RVA = "0x4EAE070", Offset = "0x4EAE070", VA = "0x4EAE070")]
+	[Address(RVA = "0x3B93B90", Offset = "0x3B93B90", VA = "0x3B93B90")]
 	internal SerializationEntry(string entryName, object entryValue, Type entryType)
 	{
 	}

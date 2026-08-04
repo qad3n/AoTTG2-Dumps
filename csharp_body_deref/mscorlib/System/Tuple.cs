@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Tuple
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -21,21 +28,21 @@ public static class Tuple
 	}
 
 	[Token(Token = "0x6000A66")]
-	[Address(RVA = "0x4FED6D0", Offset = "0x4FED6D0", VA = "0x4FED6D0")]
+	[Address(RVA = "0x3CD31F0", Offset = "0x3CD31F0", VA = "0x3CD31F0")]
 	internal static int CombineHashCodes(int h1, int h2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000A67")]
-	[Address(RVA = "0x4FED6E0", Offset = "0x4FED6E0", VA = "0x4FED6E0")]
+	[Address(RVA = "0x3CD3200", Offset = "0x3CD3200", VA = "0x3CD3200")]
 	internal static int CombineHashCodes(int h1, int h2, int h3)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000A68")]
-	[Address(RVA = "0x4FED700", Offset = "0x4FED700", VA = "0x4FED700")]
+	[Address(RVA = "0x3CD3220", Offset = "0x3CD3220", VA = "0x3CD3220")]
 	internal static int CombineHashCodes(int h1, int h2, int h3, int h4)
 	{
 		return default(int);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.AddingNewEventArgs
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -10,14 +17,14 @@ public class AddingNewEventArgs : EventArgs
 	public object NewObject
 	{
 		[Token(Token = "0x6000ED0")]
-		[Address(RVA = "0x455E270", Offset = "0x455E270", VA = "0x455E270")]
+		[Address(RVA = "0x4883370", Offset = "0x4883370", VA = "0x4883370")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000ED1")]
-		[Address(RVA = "0x455E280", Offset = "0x455E280", VA = "0x455E280")]
+		[Address(RVA = "0x4883380", Offset = "0x4883380", VA = "0x4883380")]
 		[CompilerGenerated]
 		set
 		{
@@ -25,13 +32,13 @@ public class AddingNewEventArgs : EventArgs
 	}
 
 	[Token(Token = "0x6000ECE")]
-	[Address(RVA = "0x455E190", Offset = "0x455E190", VA = "0x455E190")]
+	[Address(RVA = "0x4883290", Offset = "0x4883290", VA = "0x4883290")]
 	public AddingNewEventArgs()
 	{
 	}
 
 	[Token(Token = "0x6000ECF")]
-	[Address(RVA = "0x455E200", Offset = "0x455E200", VA = "0x455E200")]
+	[Address(RVA = "0x4883300", Offset = "0x4883300", VA = "0x4883300")]
 	public AddingNewEventArgs(object newObject)
 	{
 	}

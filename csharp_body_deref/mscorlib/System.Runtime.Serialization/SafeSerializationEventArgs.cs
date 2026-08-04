@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.SafeSerializationEventArgs
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -18,7 +25,7 @@ public sealed class SafeSerializationEventArgs : EventArgs
 	internal IList<object> SerializedStates
 	{
 		[Token(Token = "0x6001FE5")]
-		[Address(RVA = "0x4EB8630", Offset = "0x4EB8630", VA = "0x4EB8630")]
+		[Address(RVA = "0x3B9E150", Offset = "0x3B9E150", VA = "0x3B9E150")]
 		get
 		{
 			return null;
@@ -26,7 +33,7 @@ public sealed class SafeSerializationEventArgs : EventArgs
 	}
 
 	[Token(Token = "0x6001FE4")]
-	[Address(RVA = "0x4EB8570", Offset = "0x4EB8570", VA = "0x4EB8570")]
+	[Address(RVA = "0x3B9E090", Offset = "0x3B9E090", VA = "0x3B9E090")]
 	internal SafeSerializationEventArgs(StreamingContext streamingContext)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Security.Authenticode.AuthenticodeDeformatter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Security.Cryptography;
 using Il2CppDummyDll;
@@ -64,7 +71,7 @@ public class AuthenticodeDeformatter : AuthenticodeBase
 	public byte[] RawData
 	{
 		[Token(Token = "0x60001AD")]
-		[Address(RVA = "0x3A57F50", Offset = "0x3A57F50", VA = "0x3A57F50")]
+		[Address(RVA = "0x3AC4C10", Offset = "0x3AC4C10", VA = "0x3AC4C10")]
 		set
 		{
 		}
@@ -74,7 +81,7 @@ public class AuthenticodeDeformatter : AuthenticodeBase
 	public X509Certificate SigningCertificate
 	{
 		[Token(Token = "0x60001AE")]
-		[Address(RVA = "0x3A585A0", Offset = "0x3A585A0", VA = "0x3A585A0")]
+		[Address(RVA = "0x3AC5260", Offset = "0x3AC5260", VA = "0x3AC5260")]
 		get
 		{
 			return null;
@@ -82,47 +89,47 @@ public class AuthenticodeDeformatter : AuthenticodeBase
 	}
 
 	[Token(Token = "0x60001AB")]
-	[Address(RVA = "0x3A57E50", Offset = "0x3A57E50", VA = "0x3A57E50")]
+	[Address(RVA = "0x3AC4B10", Offset = "0x3AC4B10", VA = "0x3AC4B10")]
 	public AuthenticodeDeformatter()
 	{
 	}
 
 	[Token(Token = "0x60001AC")]
-	[Address(RVA = "0x3A57F30", Offset = "0x3A57F30", VA = "0x3A57F30")]
+	[Address(RVA = "0x3AC4BF0", Offset = "0x3AC4BF0", VA = "0x3AC4BF0")]
 	public AuthenticodeDeformatter(byte[] rawData)
 	{
 	}
 
 	[Token(Token = "0x60001AF")]
-	[Address(RVA = "0x3A58140", Offset = "0x3A58140", VA = "0x3A58140")]
+	[Address(RVA = "0x3AC4E00", Offset = "0x3AC4E00", VA = "0x3AC4E00")]
 	private bool CheckSignature()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001B0")]
-	[Address(RVA = "0x3A59420", Offset = "0x3A59420", VA = "0x3A59420")]
+	[Address(RVA = "0x3AC60E0", Offset = "0x3AC60E0", VA = "0x3AC60E0")]
 	private bool CompareIssuerSerial(string issuer, byte[] serial, X509Certificate x509)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001B1")]
-	[Address(RVA = "0x3A585B0", Offset = "0x3A585B0", VA = "0x3A585B0")]
+	[Address(RVA = "0x3AC5270", Offset = "0x3AC5270", VA = "0x3AC5270")]
 	private bool VerifySignature(PKCS7.SignedData sd, byte[] calculatedMessageDigest, HashAlgorithm ha)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001B2")]
-	[Address(RVA = "0x3A59520", Offset = "0x3A59520", VA = "0x3A59520")]
+	[Address(RVA = "0x3AC61E0", Offset = "0x3AC61E0", VA = "0x3AC61E0")]
 	private bool VerifyCounterSignature(PKCS7.SignerInfo cs, byte[] signature)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001B3")]
-	[Address(RVA = "0x3A58030", Offset = "0x3A58030", VA = "0x3A58030")]
+	[Address(RVA = "0x3AC4CF0", Offset = "0x3AC4CF0", VA = "0x3AC4CF0")]
 	private void Reset()
 	{
 	}

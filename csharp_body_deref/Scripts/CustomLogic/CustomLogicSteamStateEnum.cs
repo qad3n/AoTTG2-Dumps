@@ -1,139 +1,146 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: CustomLogic.CustomLogicSteamStateEnum
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/CustomLogic/CustomLogicSteamStateEnum.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200038D")]
+[Token(Token = "0x20003C6")]
 [CompilerGenerated]
 internal class CustomLogicSteamStateEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x200038E")]
+	[Token(Token = "0x20003C7")]
 	public static class Factory
 	{
-		[Token(Token = "0x600235F")]
-		[Address(RVA = "0x3D950C0", Offset = "0x3D950C0", VA = "0x3D950C0")]
+		[Token(Token = "0x6002514")]
+		[Address(RVA = "0x409B390", Offset = "0x409B390", VA = "0x409B390")]
 		public static CustomLogicSteamStateEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x200038F")]
+	[Token(Token = "0x20003C8")]
 	public static class Bindings
 	{
-		[Token(Token = "0x4000FC8")]
+		[Token(Token = "0x40010AE")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6002360")]
-		[Address(RVA = "0x3D951E0", Offset = "0x3D951E0", VA = "0x3D951E0")]
+		[Token(Token = "0x6002515")]
+		[Address(RVA = "0x409B4B0", Offset = "0x409B4B0", VA = "0x409B4B0")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002361")]
-		[Address(RVA = "0x3D95370", Offset = "0x3D95370", VA = "0x3D95370")]
+		[Token(Token = "0x6002516")]
+		[Address(RVA = "0x409B640", Offset = "0x409B640", VA = "0x409B640")]
 		public static CLPropertyBinding<CustomLogicSteamStateEnum> __CreatePropertyBinding__Off()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002362")]
-		[Address(RVA = "0x3D95410", Offset = "0x3D95410", VA = "0x3D95410")]
+		[Token(Token = "0x6002517")]
+		[Address(RVA = "0x409B6E0", Offset = "0x409B6E0", VA = "0x409B6E0")]
 		public static CLPropertyBinding<CustomLogicSteamStateEnum> __CreatePropertyBinding__Warning()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002363")]
-		[Address(RVA = "0x3D954B0", Offset = "0x3D954B0", VA = "0x3D954B0")]
+		[Token(Token = "0x6002518")]
+		[Address(RVA = "0x409B780", Offset = "0x409B780", VA = "0x409B780")]
 		public static CLPropertyBinding<CustomLogicSteamStateEnum> __CreatePropertyBinding__Damage()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006E8")]
+	[Token(Token = "0x17000742")]
 	public static int Off
 	{
-		[Token(Token = "0x6002358")]
-		[Address(RVA = "0x3D95030", Offset = "0x3D95030", VA = "0x3D95030")]
+		[Token(Token = "0x600250D")]
+		[Address(RVA = "0x409B300", Offset = "0x409B300", VA = "0x409B300")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170006E9")]
+	[Token(Token = "0x17000743")]
 	public static int Warning
 	{
-		[Token(Token = "0x6002359")]
-		[Address(RVA = "0x3D95040", Offset = "0x3D95040", VA = "0x3D95040")]
+		[Token(Token = "0x600250E")]
+		[Address(RVA = "0x409B310", Offset = "0x409B310", VA = "0x409B310")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170006EA")]
+	[Token(Token = "0x17000744")]
 	public static int Damage
 	{
-		[Token(Token = "0x600235A")]
-		[Address(RVA = "0x3D95050", Offset = "0x3D95050", VA = "0x3D95050")]
+		[Token(Token = "0x600250F")]
+		[Address(RVA = "0x409B320", Offset = "0x409B320", VA = "0x409B320")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170006EB")]
+	[Token(Token = "0x17000745")]
 	public override string ClassName
 	{
-		[Token(Token = "0x600235B")]
-		[Address(RVA = "0x3D95060", Offset = "0x3D95060", VA = "0x3D95060", Slot = "4")]
+		[Token(Token = "0x6002510")]
+		[Address(RVA = "0x409B330", Offset = "0x409B330", VA = "0x409B330", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006EC")]
+	[Token(Token = "0x17000746")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x600235C")]
-		[Address(RVA = "0x3D95090", Offset = "0x3D95090", VA = "0x3D95090", Slot = "6")]
+		[Token(Token = "0x6002511")]
+		[Address(RVA = "0x409B360", Offset = "0x409B360", VA = "0x409B360", Slot = "6")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170006ED")]
+	[Token(Token = "0x17000747")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x600235D")]
-		[Address(RVA = "0x3D950A0", Offset = "0x3D950A0", VA = "0x3D950A0", Slot = "7")]
+		[Token(Token = "0x6002512")]
+		[Address(RVA = "0x409B370", Offset = "0x409B370", VA = "0x409B370", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170006EE")]
+	[Token(Token = "0x17000748")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x600235E")]
-		[Address(RVA = "0x3D950B0", Offset = "0x3D950B0", VA = "0x3D950B0", Slot = "8")]
+		[Token(Token = "0x6002513")]
+		[Address(RVA = "0x409B380", Offset = "0x409B380", VA = "0x409B380", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002357")]
-	[Address(RVA = "0x3D94FC0", Offset = "0x3D94FC0", VA = "0x3D94FC0")]
+	[Token(Token = "0x600250C")]
+	[Address(RVA = "0x409B290", Offset = "0x409B290", VA = "0x409B290")]
 	public CustomLogicSteamStateEnum()
 	{
 	}

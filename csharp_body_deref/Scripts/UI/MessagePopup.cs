@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UI.MessagePopup
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UI/MessagePopup.c
+// Prior real C# source (older reference): Assets/Scripts/UI/BaseMenu/MessagePopup.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 using UnityEngine;
@@ -5,114 +12,114 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x200053B")]
+[Token(Token = "0x2000580")]
 internal class MessagePopup : PromptPopup
 {
-	[Token(Token = "0x4001A28")]
+	[Token(Token = "0x4001B3B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	private Text _label;
 
-	[Token(Token = "0x4001A29")]
+	[Token(Token = "0x4001B3C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	private GameObject _button;
 
-	[Token(Token = "0x17000A65")]
+	[Token(Token = "0x17000ACF")]
 	protected override string Title
 	{
-		[Token(Token = "0x600371E")]
-		[Address(RVA = "0x3F26080", Offset = "0x3F26080", VA = "0x3F26080", Slot = "35")]
+		[Token(Token = "0x600392C")]
+		[Address(RVA = "0x424F830", Offset = "0x424F830", VA = "0x424F830", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000A66")]
+	[Token(Token = "0x17000AD0")]
 	protected override float Width
 	{
-		[Token(Token = "0x600371F")]
-		[Address(RVA = "0x3F260A0", Offset = "0x3F260A0", VA = "0x3F260A0", Slot = "5")]
+		[Token(Token = "0x600392D")]
+		[Address(RVA = "0x424F850", Offset = "0x424F850", VA = "0x424F850", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000A67")]
+	[Token(Token = "0x17000AD1")]
 	protected override float Height
 	{
-		[Token(Token = "0x6003720")]
-		[Address(RVA = "0x3F260B0", Offset = "0x3F260B0", VA = "0x3F260B0", Slot = "6")]
+		[Token(Token = "0x600392E")]
+		[Address(RVA = "0x424F860", Offset = "0x424F860", VA = "0x424F860", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000A68")]
+	[Token(Token = "0x17000AD2")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x6003721")]
-		[Address(RVA = "0x3F260C0", Offset = "0x3F260C0", VA = "0x3F260C0", Slot = "9")]
+		[Token(Token = "0x600392F")]
+		[Address(RVA = "0x424F870", Offset = "0x424F870", VA = "0x424F870", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000A69")]
+	[Token(Token = "0x17000AD3")]
 	protected override int HorizontalPadding
 	{
-		[Token(Token = "0x6003722")]
-		[Address(RVA = "0x3F260D0", Offset = "0x3F260D0", VA = "0x3F260D0", Slot = "10")]
+		[Token(Token = "0x6003930")]
+		[Address(RVA = "0x424F880", Offset = "0x424F880", VA = "0x424F880", Slot = "10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000A6A")]
+	[Token(Token = "0x17000AD4")]
 	protected override TextAnchor PanelAlignment
 	{
-		[Token(Token = "0x6003723")]
-		[Address(RVA = "0x3F260E0", Offset = "0x3F260E0", VA = "0x3F260E0", Slot = "12")]
+		[Token(Token = "0x6003931")]
+		[Address(RVA = "0x424F890", Offset = "0x424F890", VA = "0x424F890", Slot = "12")]
 		get
 		{
 			return default(TextAnchor);
 		}
 	}
 
-	[Token(Token = "0x17000A6B")]
+	[Token(Token = "0x17000AD5")]
 	protected virtual float LabelHeight
 	{
-		[Token(Token = "0x6003724")]
-		[Address(RVA = "0x3F260F0", Offset = "0x3F260F0", VA = "0x3F260F0", Slot = "59")]
+		[Token(Token = "0x6003932")]
+		[Address(RVA = "0x424F8A0", Offset = "0x424F8A0", VA = "0x424F8A0", Slot = "59")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x6003725")]
-	[Address(RVA = "0x3F26100", Offset = "0x3F26100", VA = "0x3F26100", Slot = "20")]
+	[Token(Token = "0x6003933")]
+	[Address(RVA = "0x424F8B0", Offset = "0x424F8B0", VA = "0x424F8B0", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6003726")]
-	[Address(RVA = "0x3F263E0", Offset = "0x3F263E0", VA = "0x3F263E0")]
+	[Token(Token = "0x6003934")]
+	[Address(RVA = "0x424FB90", Offset = "0x424FB90", VA = "0x424FB90")]
 	public void Show(string message, bool allowDismiss = true)
 	{
 	}
 
-	[Token(Token = "0x6003727")]
-	[Address(RVA = "0x3F26440", Offset = "0x3F26440", VA = "0x3F26440")]
+	[Token(Token = "0x6003935")]
+	[Address(RVA = "0x424FBF0", Offset = "0x424FBF0", VA = "0x424FBF0")]
 	private void OnButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x6003728")]
-	[Address(RVA = "0x3F26460", Offset = "0x3F26460", VA = "0x3F26460")]
+	[Token(Token = "0x6003936")]
+	[Address(RVA = "0x424FC10", Offset = "0x424FC10", VA = "0x424FC10")]
 	public MessagePopup()
 	{
 	}

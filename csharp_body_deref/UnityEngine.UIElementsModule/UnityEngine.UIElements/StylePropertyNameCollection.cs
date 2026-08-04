@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.StylePropertyNameCollection
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -19,7 +26,7 @@ public struct StylePropertyNameCollection : IEnumerable<StylePropertyName>, IEnu
 		public StylePropertyName Current
 		{
 			[Token(Token = "0x6000CC8")]
-			[Address(RVA = "0x4D15270", Offset = "0x4D15270", VA = "0x4D15270", Slot = "4")]
+			[Address(RVA = "0x503CBA0", Offset = "0x503CBA0", VA = "0x503CBA0", Slot = "4")]
 			get
 			{
 				return default(StylePropertyName);
@@ -30,7 +37,7 @@ public struct StylePropertyNameCollection : IEnumerable<StylePropertyName>, IEnu
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000CC9")]
-			[Address(RVA = "0x4D152A0", Offset = "0x4D152A0", VA = "0x4D152A0", Slot = "7")]
+			[Address(RVA = "0x503CBD0", Offset = "0x503CBD0", VA = "0x503CBD0", Slot = "7")]
 			get
 			{
 				return null;
@@ -38,26 +45,26 @@ public struct StylePropertyNameCollection : IEnumerable<StylePropertyName>, IEnu
 		}
 
 		[Token(Token = "0x6000CC6")]
-		[Address(RVA = "0x4D15050", Offset = "0x4D15050", VA = "0x4D15050")]
+		[Address(RVA = "0x503C980", Offset = "0x503C980", VA = "0x503C980")]
 		internal Enumerator(List<StylePropertyName>.Enumerator enumerator)
 		{
 		}
 
 		[Token(Token = "0x6000CC7")]
-		[Address(RVA = "0x4D15230", Offset = "0x4D15230", VA = "0x4D15230", Slot = "6")]
+		[Address(RVA = "0x503CB60", Offset = "0x503CB60", VA = "0x503CB60", Slot = "6")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000CCA")]
-		[Address(RVA = "0x4D15310", Offset = "0x4D15310", VA = "0x4D15310", Slot = "8")]
+		[Address(RVA = "0x503CC40", Offset = "0x503CC40", VA = "0x503CC40", Slot = "8")]
 		public void Reset()
 		{
 		}
 
 		[Token(Token = "0x6000CCB")]
-		[Address(RVA = "0x4D15320", Offset = "0x4D15320", VA = "0x4D15320", Slot = "5")]
+		[Address(RVA = "0x503CC50", Offset = "0x503CC50", VA = "0x503CC50", Slot = "5")]
 		public void Dispose()
 		{
 		}
@@ -68,27 +75,27 @@ public struct StylePropertyNameCollection : IEnumerable<StylePropertyName>, IEnu
 	internal List<StylePropertyName> propertiesList;
 
 	[Token(Token = "0x6000CC2")]
-	[Address(RVA = "0x4D14FA0", Offset = "0x4D14FA0", VA = "0x4D14FA0")]
+	[Address(RVA = "0x503C8D0", Offset = "0x503C8D0", VA = "0x503C8D0")]
 	internal StylePropertyNameCollection(List<StylePropertyName> list)
 	{
 	}
 
 	[Token(Token = "0x6000CC3")]
-	[Address(RVA = "0x4D14FB0", Offset = "0x4D14FB0", VA = "0x4D14FB0")]
+	[Address(RVA = "0x503C8E0", Offset = "0x503C8E0", VA = "0x503C8E0")]
 	public Enumerator GetEnumerator()
 	{
 		return default(Enumerator);
 	}
 
 	[Token(Token = "0x6000CC4")]
-	[Address(RVA = "0x4D15070", Offset = "0x4D15070", VA = "0x4D15070", Slot = "4")]
+	[Address(RVA = "0x503C9A0", Offset = "0x503C9A0", VA = "0x503C9A0", Slot = "4")]
 	private IEnumerator<StylePropertyName> System_002ECollections_002EGeneric_002EIEnumerable_003CUnityEngine_002EUIElements_002EStylePropertyName_003E_002EGetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CC5")]
-	[Address(RVA = "0x4D15150", Offset = "0x4D15150", VA = "0x4D15150", Slot = "5")]
+	[Address(RVA = "0x503CA80", Offset = "0x503CA80", VA = "0x503CA80", Slot = "5")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;

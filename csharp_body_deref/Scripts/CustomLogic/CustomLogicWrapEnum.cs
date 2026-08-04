@@ -1,139 +1,146 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: CustomLogic.CustomLogicWrapEnum
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/CustomLogic/CustomLogicWrapEnum.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20003B4")]
+[Token(Token = "0x20003ED")]
 [CompilerGenerated]
 internal class CustomLogicWrapEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x20003B5")]
+	[Token(Token = "0x20003EE")]
 	public static class Factory
 	{
-		[Token(Token = "0x60025FF")]
-		[Address(RVA = "0x3DAB160", Offset = "0x3DAB160", VA = "0x3DAB160")]
+		[Token(Token = "0x60027B4")]
+		[Address(RVA = "0x40B1430", Offset = "0x40B1430", VA = "0x40B1430")]
 		public static CustomLogicWrapEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x20003B6")]
+	[Token(Token = "0x20003EF")]
 	public static class Bindings
 	{
-		[Token(Token = "0x4000FDB")]
+		[Token(Token = "0x40010C1")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6002600")]
-		[Address(RVA = "0x3DAB280", Offset = "0x3DAB280", VA = "0x3DAB280")]
+		[Token(Token = "0x60027B5")]
+		[Address(RVA = "0x40B1550", Offset = "0x40B1550", VA = "0x40B1550")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002601")]
-		[Address(RVA = "0x3DAB410", Offset = "0x3DAB410", VA = "0x3DAB410")]
+		[Token(Token = "0x60027B6")]
+		[Address(RVA = "0x40B16E0", Offset = "0x40B16E0", VA = "0x40B16E0")]
 		public static CLPropertyBinding<CustomLogicWrapEnum> __CreatePropertyBinding__NoWrap()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002602")]
-		[Address(RVA = "0x3DAB4B0", Offset = "0x3DAB4B0", VA = "0x3DAB4B0")]
+		[Token(Token = "0x60027B7")]
+		[Address(RVA = "0x40B1780", Offset = "0x40B1780", VA = "0x40B1780")]
 		public static CLPropertyBinding<CustomLogicWrapEnum> __CreatePropertyBinding__Wrap()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002603")]
-		[Address(RVA = "0x3DAB550", Offset = "0x3DAB550", VA = "0x3DAB550")]
+		[Token(Token = "0x60027B8")]
+		[Address(RVA = "0x40B1820", Offset = "0x40B1820", VA = "0x40B1820")]
 		public static CLPropertyBinding<CustomLogicWrapEnum> __CreatePropertyBinding__WrapReverse()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170007D9")]
+	[Token(Token = "0x17000833")]
 	public static int NoWrap
 	{
-		[Token(Token = "0x60025F8")]
-		[Address(RVA = "0x3DAB0D0", Offset = "0x3DAB0D0", VA = "0x3DAB0D0")]
+		[Token(Token = "0x60027AD")]
+		[Address(RVA = "0x40B13A0", Offset = "0x40B13A0", VA = "0x40B13A0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170007DA")]
+	[Token(Token = "0x17000834")]
 	public static int Wrap
 	{
-		[Token(Token = "0x60025F9")]
-		[Address(RVA = "0x3DAB0E0", Offset = "0x3DAB0E0", VA = "0x3DAB0E0")]
+		[Token(Token = "0x60027AE")]
+		[Address(RVA = "0x40B13B0", Offset = "0x40B13B0", VA = "0x40B13B0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170007DB")]
+	[Token(Token = "0x17000835")]
 	public static int WrapReverse
 	{
-		[Token(Token = "0x60025FA")]
-		[Address(RVA = "0x3DAB0F0", Offset = "0x3DAB0F0", VA = "0x3DAB0F0")]
+		[Token(Token = "0x60027AF")]
+		[Address(RVA = "0x40B13C0", Offset = "0x40B13C0", VA = "0x40B13C0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170007DC")]
+	[Token(Token = "0x17000836")]
 	public override string ClassName
 	{
-		[Token(Token = "0x60025FB")]
-		[Address(RVA = "0x3DAB100", Offset = "0x3DAB100", VA = "0x3DAB100", Slot = "4")]
+		[Token(Token = "0x60027B0")]
+		[Address(RVA = "0x40B13D0", Offset = "0x40B13D0", VA = "0x40B13D0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170007DD")]
+	[Token(Token = "0x17000837")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x60025FC")]
-		[Address(RVA = "0x3DAB130", Offset = "0x3DAB130", VA = "0x3DAB130", Slot = "6")]
+		[Token(Token = "0x60027B1")]
+		[Address(RVA = "0x40B1400", Offset = "0x40B1400", VA = "0x40B1400", Slot = "6")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170007DE")]
+	[Token(Token = "0x17000838")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x60025FD")]
-		[Address(RVA = "0x3DAB140", Offset = "0x3DAB140", VA = "0x3DAB140", Slot = "7")]
+		[Token(Token = "0x60027B2")]
+		[Address(RVA = "0x40B1410", Offset = "0x40B1410", VA = "0x40B1410", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170007DF")]
+	[Token(Token = "0x17000839")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x60025FE")]
-		[Address(RVA = "0x3DAB150", Offset = "0x3DAB150", VA = "0x3DAB150", Slot = "8")]
+		[Token(Token = "0x60027B3")]
+		[Address(RVA = "0x40B1420", Offset = "0x40B1420", VA = "0x40B1420", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60025F7")]
-	[Address(RVA = "0x3DAB060", Offset = "0x3DAB060", VA = "0x3DAB060")]
+	[Token(Token = "0x60027AC")]
+	[Address(RVA = "0x40B1330", Offset = "0x40B1330", VA = "0x40B1330")]
 	public CustomLogicWrapEnum()
 	{
 	}

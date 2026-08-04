@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UIR.EntryPreProcessor
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -55,7 +62,7 @@ internal class EntryPreProcessor
 	public int childrenIndex
 	{
 		[Token(Token = "0x6001C8A")]
-		[Address(RVA = "0x4C5ED20", Offset = "0x4C5ED20", VA = "0x4C5ED20")]
+		[Address(RVA = "0x4F86650", Offset = "0x4F86650", VA = "0x4F86650")]
 		get
 		{
 			return default(int);
@@ -66,7 +73,7 @@ internal class EntryPreProcessor
 	public List<AllocSize> headAllocs
 	{
 		[Token(Token = "0x6001C8B")]
-		[Address(RVA = "0x4C5ED30", Offset = "0x4C5ED30", VA = "0x4C5ED30")]
+		[Address(RVA = "0x4F86660", Offset = "0x4F86660", VA = "0x4F86660")]
 		get
 		{
 			return null;
@@ -77,7 +84,7 @@ internal class EntryPreProcessor
 	public List<AllocSize> tailAllocs
 	{
 		[Token(Token = "0x6001C8C")]
-		[Address(RVA = "0x4C5ED40", Offset = "0x4C5ED40", VA = "0x4C5ED40")]
+		[Address(RVA = "0x4F86670", Offset = "0x4F86670", VA = "0x4F86670")]
 		get
 		{
 			return null;
@@ -88,7 +95,7 @@ internal class EntryPreProcessor
 	public List<Entry> flattenedEntries
 	{
 		[Token(Token = "0x6001C8D")]
-		[Address(RVA = "0x4C5ED50", Offset = "0x4C5ED50", VA = "0x4C5ED50")]
+		[Address(RVA = "0x4F86680", Offset = "0x4F86680", VA = "0x4F86680")]
 		get
 		{
 			return null;
@@ -96,32 +103,32 @@ internal class EntryPreProcessor
 	}
 
 	[Token(Token = "0x6001C8E")]
-	[Address(RVA = "0x4C5ED60", Offset = "0x4C5ED60", VA = "0x4C5ED60")]
+	[Address(RVA = "0x4F86690", Offset = "0x4F86690", VA = "0x4F86690")]
 	public void PreProcess(Entry root)
 	{
 	}
 
 	[Token(Token = "0x6001C8F")]
-	[Address(RVA = "0x4C5EF00", Offset = "0x4C5EF00", VA = "0x4C5EF00")]
+	[Address(RVA = "0x4F86830", Offset = "0x4F86830", VA = "0x4F86830")]
 	private void DoEvaluate(Entry entry)
 	{
 	}
 
 	[Token(Token = "0x6001C90")]
-	[Address(RVA = "0x4C5F340", Offset = "0x4C5F340", VA = "0x4C5F340")]
+	[Address(RVA = "0x4F86C70", Offset = "0x4F86C70", VA = "0x4F86C70")]
 	private void Add(int vertexCount, int indexCount)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001C91")]
-	[Address(RVA = "0x4C5F4B0", Offset = "0x4C5F4B0", VA = "0x4C5F4B0")]
+	[Address(RVA = "0x4F86DE0", Offset = "0x4F86DE0", VA = "0x4F86DE0")]
 	private void Flush()
 	{
 	}
 
 	[Token(Token = "0x6001C92")]
-	[Address(RVA = "0x4C5F540", Offset = "0x4C5F540", VA = "0x4C5F540")]
+	[Address(RVA = "0x4F86E70", Offset = "0x4F86E70", VA = "0x4F86E70")]
 	public EntryPreProcessor()
 	{
 	}

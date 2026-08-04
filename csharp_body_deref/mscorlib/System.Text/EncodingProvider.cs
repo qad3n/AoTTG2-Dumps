@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.EncodingProvider
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Text;
@@ -20,28 +27,28 @@ public abstract class EncodingProvider
 	public abstract Encoding GetEncoding(int codepage);
 
 	[Token(Token = "0x60015DC")]
-	[Address(RVA = "0x4E1BA00", Offset = "0x4E1BA00", VA = "0x4E1BA00", Slot = "6")]
+	[Address(RVA = "0x3B01520", Offset = "0x3B01520", VA = "0x3B01520", Slot = "6")]
 	public virtual Encoding GetEncoding(int codepage, EncoderFallback encoderFallback, DecoderFallback decoderFallback)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60015DD")]
-	[Address(RVA = "0x4E1BAE0", Offset = "0x4E1BAE0", VA = "0x4E1BAE0")]
+	[Address(RVA = "0x3B01600", Offset = "0x3B01600", VA = "0x3B01600")]
 	internal static Encoding GetEncodingFromProvider(int codepage)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60015DE")]
-	[Address(RVA = "0x4E1BBB0", Offset = "0x4E1BBB0", VA = "0x4E1BBB0")]
+	[Address(RVA = "0x3B016D0", Offset = "0x3B016D0", VA = "0x3B016D0")]
 	internal static Encoding GetEncodingFromProvider(string encodingName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60015DF")]
-	[Address(RVA = "0x4E1BC80", Offset = "0x4E1BC80", VA = "0x4E1BC80")]
+	[Address(RVA = "0x3B017A0", Offset = "0x3B017A0", VA = "0x3B017A0")]
 	internal static Encoding GetEncodingFromProvider(int codepage, EncoderFallback enc, DecoderFallback dec)
 	{
 		return null;

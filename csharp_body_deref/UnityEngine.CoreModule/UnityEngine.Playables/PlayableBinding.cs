@@ -1,13 +1,20 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Playables.PlayableBinding
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
 
 namespace UnityEngine.Playables;
 
-[Token(Token = "0x200032B")]
+[Token(Token = "0x200032E")]
 public struct PlayableBinding
 {
-	[Token(Token = "0x200032C")]
+	[Token(Token = "0x200032F")]
 	[UnityEngine.Bindings.VisibleToOtherModules]
 	internal delegate PlayableOutput CreateOutputMethod(PlayableGraph graph, string name);
 

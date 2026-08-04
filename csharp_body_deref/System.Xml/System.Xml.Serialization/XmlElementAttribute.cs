@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlElementAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Text;
 using System.Xml.Schema;
 using Il2CppDummyDll;
@@ -40,7 +47,7 @@ public class XmlElementAttribute : Attribute
 	public string DataType
 	{
 		[Token(Token = "0x6000D45")]
-		[Address(RVA = "0x44D7DC0", Offset = "0x44D7DC0", VA = "0x44D7DC0")]
+		[Address(RVA = "0x4815520", Offset = "0x4815520", VA = "0x4815520")]
 		get
 		{
 			return null;
@@ -51,7 +58,7 @@ public class XmlElementAttribute : Attribute
 	public string ElementName
 	{
 		[Token(Token = "0x6000D46")]
-		[Address(RVA = "0x44D7DF0", Offset = "0x44D7DF0", VA = "0x44D7DF0")]
+		[Address(RVA = "0x4815550", Offset = "0x4815550", VA = "0x4815550")]
 		get
 		{
 			return null;
@@ -62,7 +69,7 @@ public class XmlElementAttribute : Attribute
 	public XmlSchemaForm Form
 	{
 		[Token(Token = "0x6000D47")]
-		[Address(RVA = "0x44D7E20", Offset = "0x44D7E20", VA = "0x44D7E20")]
+		[Address(RVA = "0x4815580", Offset = "0x4815580", VA = "0x4815580")]
 		get
 		{
 			return default(XmlSchemaForm);
@@ -73,7 +80,7 @@ public class XmlElementAttribute : Attribute
 	public string Namespace
 	{
 		[Token(Token = "0x6000D48")]
-		[Address(RVA = "0x44D7E30", Offset = "0x44D7E30", VA = "0x44D7E30")]
+		[Address(RVA = "0x4815590", Offset = "0x4815590", VA = "0x4815590")]
 		get
 		{
 			return null;
@@ -84,7 +91,7 @@ public class XmlElementAttribute : Attribute
 	public bool IsNullable
 	{
 		[Token(Token = "0x6000D49")]
-		[Address(RVA = "0x44D7E40", Offset = "0x44D7E40", VA = "0x44D7E40")]
+		[Address(RVA = "0x48155A0", Offset = "0x48155A0", VA = "0x48155A0")]
 		get
 		{
 			return default(bool);
@@ -95,7 +102,7 @@ public class XmlElementAttribute : Attribute
 	public int Order
 	{
 		[Token(Token = "0x6000D4A")]
-		[Address(RVA = "0x44D7E50", Offset = "0x44D7E50", VA = "0x44D7E50")]
+		[Address(RVA = "0x48155B0", Offset = "0x48155B0", VA = "0x48155B0")]
 		get
 		{
 			return default(int);
@@ -106,7 +113,7 @@ public class XmlElementAttribute : Attribute
 	public Type Type
 	{
 		[Token(Token = "0x6000D4B")]
-		[Address(RVA = "0x44D7E60", Offset = "0x44D7E60", VA = "0x44D7E60")]
+		[Address(RVA = "0x48155C0", Offset = "0x48155C0", VA = "0x48155C0")]
 		get
 		{
 			return null;
@@ -114,19 +121,19 @@ public class XmlElementAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000D43")]
-	[Address(RVA = "0x44D7D30", Offset = "0x44D7D30", VA = "0x44D7D30")]
+	[Address(RVA = "0x4815490", Offset = "0x4815490", VA = "0x4815490")]
 	public XmlElementAttribute(string elementName)
 	{
 	}
 
 	[Token(Token = "0x6000D44")]
-	[Address(RVA = "0x44D7D70", Offset = "0x44D7D70", VA = "0x44D7D70")]
+	[Address(RVA = "0x48154D0", Offset = "0x48154D0", VA = "0x48154D0")]
 	public XmlElementAttribute(string elementName, Type type)
 	{
 	}
 
 	[Token(Token = "0x6000D4C")]
-	[Address(RVA = "0x44D7E70", Offset = "0x44D7E70", VA = "0x44D7E70")]
+	[Address(RVA = "0x48155D0", Offset = "0x48155D0", VA = "0x48155D0")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

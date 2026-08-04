@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.XmlDownloadManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Diagnostics;
 using System.IO;
@@ -55,13 +62,13 @@ internal class XmlDownloadManager
 		private ConfiguredTaskAwaitable<WebResponse>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000B95")]
-		[Address(RVA = "0x44BF570", Offset = "0x44BF570", VA = "0x44BF570", Slot = "4")]
+		[Address(RVA = "0x47FCCD0", Offset = "0x47FCCD0", VA = "0x47FCCD0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000B96")]
-		[Address(RVA = "0x44BFE60", Offset = "0x44BFE60", VA = "0x44BFE60", Slot = "5")]
+		[Address(RVA = "0x47FD5C0", Offset = "0x47FD5C0", VA = "0x47FD5C0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -73,34 +80,34 @@ internal class XmlDownloadManager
 	private Hashtable connections;
 
 	[Token(Token = "0x6000B8D")]
-	[Address(RVA = "0x44BE750", Offset = "0x44BE750", VA = "0x44BE750")]
+	[Address(RVA = "0x47FBEB0", Offset = "0x47FBEB0", VA = "0x47FBEB0")]
 	internal Stream GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B8E")]
-	[Address(RVA = "0x44BE840", Offset = "0x44BE840", VA = "0x44BE840")]
+	[Address(RVA = "0x47FBFA0", Offset = "0x47FBFA0", VA = "0x47FBFA0")]
 	private Stream GetNonFileStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B8F")]
-	[Address(RVA = "0x44BF070", Offset = "0x44BF070", VA = "0x44BF070")]
+	[Address(RVA = "0x47FC7D0", Offset = "0x47FC7D0", VA = "0x47FC7D0")]
 	internal void Remove(string host)
 	{
 	}
 
 	[Token(Token = "0x6000B90")]
-	[Address(RVA = "0x44BF1E0", Offset = "0x44BF1E0", VA = "0x44BF1E0")]
+	[Address(RVA = "0x47FC940", Offset = "0x47FC940", VA = "0x47FC940")]
 	internal Task<Stream> GetStreamAsync(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B91")]
-	[Address(RVA = "0x44BF360", Offset = "0x44BF360", VA = "0x44BF360")]
+	[Address(RVA = "0x47FCAC0", Offset = "0x47FCAC0", VA = "0x47FCAC0")]
 	[AsyncStateMachine(typeof(_003CGetNonFileStreamAsync_003Ed__5))]
 	private Task<Stream> GetNonFileStreamAsync(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
 	{
@@ -108,7 +115,7 @@ internal class XmlDownloadManager
 	}
 
 	[Token(Token = "0x6000B92")]
-	[Address(RVA = "0x44BF4D0", Offset = "0x44BF4D0", VA = "0x44BF4D0")]
+	[Address(RVA = "0x47FCC30", Offset = "0x47FCC30", VA = "0x47FCC30")]
 	public XmlDownloadManager()
 	{
 	}

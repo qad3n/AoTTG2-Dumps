@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.Text.TextShaderUtilities
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Internal;
 
@@ -311,7 +318,7 @@ public static class TextShaderUtilities
 	internal static Shader ShaderRef_MobileSDF
 	{
 		[Token(Token = "0x60001CA")]
-		[Address(RVA = "0x4BC1EA0", Offset = "0x4BC1EA0", VA = "0x4BC1EA0")]
+		[Address(RVA = "0x4EE97D0", Offset = "0x4EE97D0", VA = "0x4EE97D0")]
 		get
 		{
 			return null;
@@ -322,7 +329,7 @@ public static class TextShaderUtilities
 	internal static Shader ShaderRef_MobileSDF_IMGUI
 	{
 		[Token(Token = "0x60001CB")]
-		[Address(RVA = "0x4BC2750", Offset = "0x4BC2750", VA = "0x4BC2750")]
+		[Address(RVA = "0x4EEA080", Offset = "0x4EEA080", VA = "0x4EEA080")]
 		get
 		{
 			return null;
@@ -333,7 +340,7 @@ public static class TextShaderUtilities
 	internal static Shader ShaderRef_MobileBitmap
 	{
 		[Token(Token = "0x60001CC")]
-		[Address(RVA = "0x4BC28D0", Offset = "0x4BC28D0", VA = "0x4BC28D0")]
+		[Address(RVA = "0x4EEA200", Offset = "0x4EEA200", VA = "0x4EEA200")]
 		get
 		{
 			return null;
@@ -341,13 +348,13 @@ public static class TextShaderUtilities
 	}
 
 	[Token(Token = "0x60001CD")]
-	[Address(RVA = "0x4BC2AF0", Offset = "0x4BC2AF0", VA = "0x4BC2AF0")]
+	[Address(RVA = "0x4EEA420", Offset = "0x4EEA420", VA = "0x4EEA420")]
 	static TextShaderUtilities()
 	{
 	}
 
 	[Token(Token = "0x60001CE")]
-	[Address(RVA = "0x4BC2D40", Offset = "0x4BC2D40", VA = "0x4BC2D40")]
+	[Address(RVA = "0x4EEA670", Offset = "0x4EEA670", VA = "0x4EEA670")]
 	internal static void GetShaderPropertyIDs()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.Selectable
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -113,7 +120,7 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 	public static Selectable[] allSelectablesArray
 	{
 		[Token(Token = "0x600041F")]
-		[Address(RVA = "0x4DBB830", Offset = "0x4DBB830", VA = "0x4DBB830")]
+		[Address(RVA = "0x50E3180", Offset = "0x50E3180", VA = "0x50E3180")]
 		get
 		{
 			return null;
@@ -124,7 +131,7 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 	public static int allSelectableCount
 	{
 		[Token(Token = "0x6000420")]
-		[Address(RVA = "0x4DBB8C0", Offset = "0x4DBB8C0", VA = "0x4DBB8C0")]
+		[Address(RVA = "0x50E3210", Offset = "0x50E3210", VA = "0x50E3210")]
 		get
 		{
 			return default(int);
@@ -136,7 +143,7 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 	public static List<Selectable> allSelectables
 	{
 		[Token(Token = "0x6000421")]
-		[Address(RVA = "0x4DBB930", Offset = "0x4DBB930", VA = "0x4DBB930")]
+		[Address(RVA = "0x50E3280", Offset = "0x50E3280", VA = "0x50E3280")]
 		get
 		{
 			return null;
@@ -147,13 +154,13 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 	public Navigation navigation
 	{
 		[Token(Token = "0x6000423")]
-		[Address(RVA = "0x4DBBB30", Offset = "0x4DBBB30", VA = "0x4DBBB30")]
+		[Address(RVA = "0x50E3480", Offset = "0x50E3480", VA = "0x50E3480")]
 		get
 		{
 			return default(Navigation);
 		}
 		[Token(Token = "0x6000424")]
-		[Address(RVA = "0x4DBBB50", Offset = "0x4DBBB50", VA = "0x4DBBB50")]
+		[Address(RVA = "0x50E34A0", Offset = "0x50E34A0", VA = "0x50E34A0")]
 		set
 		{
 		}
@@ -163,13 +170,13 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 	public Transition transition
 	{
 		[Token(Token = "0x6000425")]
-		[Address(RVA = "0x4DBBC80", Offset = "0x4DBBC80", VA = "0x4DBBC80")]
+		[Address(RVA = "0x50E35D0", Offset = "0x50E35D0", VA = "0x50E35D0")]
 		get
 		{
 			return default(Transition);
 		}
 		[Token(Token = "0x6000426")]
-		[Address(RVA = "0x4DBBC90", Offset = "0x4DBBC90", VA = "0x4DBBC90")]
+		[Address(RVA = "0x50E35E0", Offset = "0x50E35E0", VA = "0x50E35E0")]
 		set
 		{
 		}
@@ -179,13 +186,13 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 	public ColorBlock colors
 	{
 		[Token(Token = "0x6000427")]
-		[Address(RVA = "0x4DBBD40", Offset = "0x4DBBD40", VA = "0x4DBBD40")]
+		[Address(RVA = "0x50E3690", Offset = "0x50E3690", VA = "0x50E3690")]
 		get
 		{
 			return default(ColorBlock);
 		}
 		[Token(Token = "0x6000428")]
-		[Address(RVA = "0x4DBBD80", Offset = "0x4DBBD80", VA = "0x4DBBD80")]
+		[Address(RVA = "0x50E36D0", Offset = "0x50E36D0", VA = "0x50E36D0")]
 		set
 		{
 		}
@@ -195,13 +202,13 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 	public SpriteState spriteState
 	{
 		[Token(Token = "0x6000429")]
-		[Address(RVA = "0x4DBBE60", Offset = "0x4DBBE60", VA = "0x4DBBE60")]
+		[Address(RVA = "0x50E37B0", Offset = "0x50E37B0", VA = "0x50E37B0")]
 		get
 		{
 			return default(SpriteState);
 		}
 		[Token(Token = "0x600042A")]
-		[Address(RVA = "0x4DBBE80", Offset = "0x4DBBE80", VA = "0x4DBBE80")]
+		[Address(RVA = "0x50E37D0", Offset = "0x50E37D0", VA = "0x50E37D0")]
 		set
 		{
 		}
@@ -211,13 +218,13 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 	public AnimationTriggers animationTriggers
 	{
 		[Token(Token = "0x600042B")]
-		[Address(RVA = "0x4DBBF40", Offset = "0x4DBBF40", VA = "0x4DBBF40")]
+		[Address(RVA = "0x50E3890", Offset = "0x50E3890", VA = "0x50E3890")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600042C")]
-		[Address(RVA = "0x4DBBF50", Offset = "0x4DBBF50", VA = "0x4DBBF50")]
+		[Address(RVA = "0x50E38A0", Offset = "0x50E38A0", VA = "0x50E38A0")]
 		set
 		{
 		}
@@ -227,13 +234,13 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 	public Graphic targetGraphic
 	{
 		[Token(Token = "0x600042D")]
-		[Address(RVA = "0x4DBC000", Offset = "0x4DBC000", VA = "0x4DBC000")]
+		[Address(RVA = "0x50E3950", Offset = "0x50E3950", VA = "0x50E3950")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600042E")]
-		[Address(RVA = "0x4DBC010", Offset = "0x4DBC010", VA = "0x4DBC010")]
+		[Address(RVA = "0x50E3960", Offset = "0x50E3960", VA = "0x50E3960")]
 		set
 		{
 		}
@@ -243,13 +250,13 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 	public bool interactable
 	{
 		[Token(Token = "0x600042F")]
-		[Address(RVA = "0x4DBC0C0", Offset = "0x4DBC0C0", VA = "0x4DBC0C0")]
+		[Address(RVA = "0x50E3A10", Offset = "0x50E3A10", VA = "0x50E3A10")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000430")]
-		[Address(RVA = "0x4DBC0D0", Offset = "0x4DBC0D0", VA = "0x4DBC0D0")]
+		[Address(RVA = "0x50E3A20", Offset = "0x50E3A20", VA = "0x50E3A20")]
 		set
 		{
 		}
@@ -259,14 +266,14 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 	private bool isPointerInside
 	{
 		[Token(Token = "0x6000431")]
-		[Address(RVA = "0x4DBC280", Offset = "0x4DBC280", VA = "0x4DBC280")]
+		[Address(RVA = "0x50E3BD0", Offset = "0x50E3BD0", VA = "0x50E3BD0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000432")]
-		[Address(RVA = "0x4DBC290", Offset = "0x4DBC290", VA = "0x4DBC290")]
+		[Address(RVA = "0x50E3BE0", Offset = "0x50E3BE0", VA = "0x50E3BE0")]
 		[CompilerGenerated]
 		set
 		{
@@ -277,14 +284,14 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 	private bool isPointerDown
 	{
 		[Token(Token = "0x6000433")]
-		[Address(RVA = "0x4DBC2A0", Offset = "0x4DBC2A0", VA = "0x4DBC2A0")]
+		[Address(RVA = "0x50E3BF0", Offset = "0x50E3BF0", VA = "0x50E3BF0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000434")]
-		[Address(RVA = "0x4DBC2B0", Offset = "0x4DBC2B0", VA = "0x4DBC2B0")]
+		[Address(RVA = "0x50E3C00", Offset = "0x50E3C00", VA = "0x50E3C00")]
 		[CompilerGenerated]
 		set
 		{
@@ -295,14 +302,14 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 	private bool hasSelection
 	{
 		[Token(Token = "0x6000435")]
-		[Address(RVA = "0x4DBC2C0", Offset = "0x4DBC2C0", VA = "0x4DBC2C0")]
+		[Address(RVA = "0x50E3C10", Offset = "0x50E3C10", VA = "0x50E3C10")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000436")]
-		[Address(RVA = "0x4DBC2D0", Offset = "0x4DBC2D0", VA = "0x4DBC2D0")]
+		[Address(RVA = "0x50E3C20", Offset = "0x50E3C20", VA = "0x50E3C20")]
 		[CompilerGenerated]
 		set
 		{
@@ -313,13 +320,13 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 	public Image image
 	{
 		[Token(Token = "0x6000438")]
-		[Address(RVA = "0x4DBC2E0", Offset = "0x4DBC2E0", VA = "0x4DBC2E0")]
+		[Address(RVA = "0x50E3C30", Offset = "0x50E3C30", VA = "0x50E3C30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000439")]
-		[Address(RVA = "0x4DBC350", Offset = "0x4DBC350", VA = "0x4DBC350")]
+		[Address(RVA = "0x50E3CA0", Offset = "0x50E3CA0", VA = "0x50E3CA0")]
 		set
 		{
 		}
@@ -329,7 +336,7 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 	public Animator animator
 	{
 		[Token(Token = "0x600043A")]
-		[Address(RVA = "0x4DBC370", Offset = "0x4DBC370", VA = "0x4DBC370")]
+		[Address(RVA = "0x50E3CC0", Offset = "0x50E3CC0", VA = "0x50E3CC0")]
 		get
 		{
 			return null;
@@ -340,7 +347,7 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 	protected SelectionState currentSelectionState
 	{
 		[Token(Token = "0x6000445")]
-		[Address(RVA = "0x4DBC710", Offset = "0x4DBC710", VA = "0x4DBC710")]
+		[Address(RVA = "0x50E4060", Offset = "0x50E4060", VA = "0x50E4060")]
 		get
 		{
 			return default(SelectionState);
@@ -348,222 +355,222 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 	}
 
 	[Token(Token = "0x6000422")]
-	[Address(RVA = "0x4DBBA70", Offset = "0x4DBBA70", VA = "0x4DBBA70")]
+	[Address(RVA = "0x50E33C0", Offset = "0x50E33C0", VA = "0x50E33C0")]
 	public static int AllSelectablesNoAlloc(Selectable[] selectables)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000437")]
-	[Address(RVA = "0x4DB9290", Offset = "0x4DB9290", VA = "0x4DB9290")]
+	[Address(RVA = "0x50DB700", Offset = "0x50DB700", VA = "0x50DB700")]
 	protected Selectable()
 	{
 	}
 
 	[Token(Token = "0x600043B")]
-	[Address(RVA = "0x4DBC3B0", Offset = "0x4DBC3B0", VA = "0x4DBC3B0", Slot = "4")]
+	[Address(RVA = "0x50E3D00", Offset = "0x50E3D00", VA = "0x50E3D00", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
 	[Token(Token = "0x600043C")]
-	[Address(RVA = "0x4DBC450", Offset = "0x4DBC450", VA = "0x4DBC450", Slot = "14")]
+	[Address(RVA = "0x50E3DA0", Offset = "0x50E3DA0", VA = "0x50E3DA0", Slot = "14")]
 	protected override void OnCanvasGroupChanged()
 	{
 	}
 
 	[Token(Token = "0x600043D")]
-	[Address(RVA = "0x4DBC4D0", Offset = "0x4DBC4D0", VA = "0x4DBC4D0")]
+	[Address(RVA = "0x50E3E20", Offset = "0x50E3E20", VA = "0x50E3E20")]
 	private bool ParentGroupAllowsInteraction()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600043E")]
-	[Address(RVA = "0x4DBC690", Offset = "0x4DBC690", VA = "0x4DBC690", Slot = "24")]
+	[Address(RVA = "0x50E3FE0", Offset = "0x50E3FE0", VA = "0x50E3FE0", Slot = "24")]
 	public virtual bool IsInteractable()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600043F")]
-	[Address(RVA = "0x4DBC6B0", Offset = "0x4DBC6B0", VA = "0x4DBC6B0", Slot = "13")]
+	[Address(RVA = "0x50E4000", Offset = "0x50E4000", VA = "0x50E4000", Slot = "13")]
 	protected override void OnDidApplyAnimationProperties()
 	{
 	}
 
 	[Token(Token = "0x6000440")]
-	[Address(RVA = "0x4DB98A0", Offset = "0x4DB98A0", VA = "0x4DB98A0", Slot = "5")]
+	[Address(RVA = "0x50DBD90", Offset = "0x50DBD90", VA = "0x50DBD90", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000441")]
-	[Address(RVA = "0x4DBC760", Offset = "0x4DBC760", VA = "0x4DBC760", Slot = "12")]
+	[Address(RVA = "0x50E40B0", Offset = "0x50E40B0", VA = "0x50E40B0", Slot = "12")]
 	protected override void OnTransformParentChanged()
 	{
 	}
 
 	[Token(Token = "0x6000442")]
-	[Address(RVA = "0x4DBBC20", Offset = "0x4DBBC20", VA = "0x4DBBC20")]
+	[Address(RVA = "0x50E3570", Offset = "0x50E3570", VA = "0x50E3570")]
 	private void OnSetProperty()
 	{
 	}
 
 	[Token(Token = "0x6000443")]
-	[Address(RVA = "0x4DB9BB0", Offset = "0x4DB9BB0", VA = "0x4DB9BB0", Slot = "7")]
+	[Address(RVA = "0x50DC0A0", Offset = "0x50DC0A0", VA = "0x50DC0A0", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000444")]
-	[Address(RVA = "0x4DBC790", Offset = "0x4DBC790", VA = "0x4DBC790")]
+	[Address(RVA = "0x50E40E0", Offset = "0x50E40E0", VA = "0x50E40E0")]
 	private void OnApplicationFocus(bool hasFocus)
 	{
 	}
 
 	[Token(Token = "0x6000446")]
-	[Address(RVA = "0x4DBC830", Offset = "0x4DBC830", VA = "0x4DBC830", Slot = "25")]
+	[Address(RVA = "0x50E4180", Offset = "0x50E4180", VA = "0x50E4180", Slot = "25")]
 	protected virtual void InstantClearState()
 	{
 	}
 
 	[Token(Token = "0x6000447")]
-	[Address(RVA = "0x4DBCE80", Offset = "0x4DBCE80", VA = "0x4DBCE80", Slot = "26")]
+	[Address(RVA = "0x50E47D0", Offset = "0x50E47D0", VA = "0x50E47D0", Slot = "26")]
 	protected virtual void DoStateTransition(SelectionState state, bool instant)
 	{
 	}
 
 	[Token(Token = "0x6000448")]
-	[Address(RVA = "0x4DBD130", Offset = "0x4DBD130", VA = "0x4DBD130")]
+	[Address(RVA = "0x50E4A80", Offset = "0x50E4A80", VA = "0x50E4A80")]
 	public Selectable FindSelectable(Vector3 dir)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000449")]
-	[Address(RVA = "0x4DBD670", Offset = "0x4DBD670", VA = "0x4DBD670")]
+	[Address(RVA = "0x50E4FC0", Offset = "0x50E4FC0", VA = "0x50E4FC0")]
 	private static Vector3 GetPointOnRectEdge(RectTransform rect, Vector2 dir)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x600044A")]
-	[Address(RVA = "0x4DBD7C0", Offset = "0x4DBD7C0", VA = "0x4DBD7C0")]
+	[Address(RVA = "0x50E5110", Offset = "0x50E5110", VA = "0x50E5110")]
 	private void Navigate(AxisEventData eventData, Selectable sel)
 	{
 	}
 
 	[Token(Token = "0x600044B")]
-	[Address(RVA = "0x4DBB1C0", Offset = "0x4DBB1C0", VA = "0x4DBB1C0", Slot = "27")]
+	[Address(RVA = "0x50DD6B0", Offset = "0x50DD6B0", VA = "0x50DD6B0", Slot = "27")]
 	public virtual Selectable FindSelectableOnLeft()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600044C")]
-	[Address(RVA = "0x4DBB290", Offset = "0x4DBB290", VA = "0x4DBB290", Slot = "28")]
+	[Address(RVA = "0x50DD780", Offset = "0x50DD780", VA = "0x50DD780", Slot = "28")]
 	public virtual Selectable FindSelectableOnRight()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600044D")]
-	[Address(RVA = "0x4DBB360", Offset = "0x4DBB360", VA = "0x4DBB360", Slot = "29")]
+	[Address(RVA = "0x50DD850", Offset = "0x50DD850", VA = "0x50DD850", Slot = "29")]
 	public virtual Selectable FindSelectableOnUp()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600044E")]
-	[Address(RVA = "0x4DBB430", Offset = "0x4DBB430", VA = "0x4DBB430", Slot = "30")]
+	[Address(RVA = "0x50DD920", Offset = "0x50DD920", VA = "0x50DD920", Slot = "30")]
 	public virtual Selectable FindSelectableOnDown()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600044F")]
-	[Address(RVA = "0x4DBB0F0", Offset = "0x4DBB0F0", VA = "0x4DBB0F0", Slot = "31")]
+	[Address(RVA = "0x50DD5E0", Offset = "0x50DD5E0", VA = "0x50DD5E0", Slot = "31")]
 	public virtual void OnMove(AxisEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000450")]
-	[Address(RVA = "0x4DBC930", Offset = "0x4DBC930", VA = "0x4DBC930")]
+	[Address(RVA = "0x50E4280", Offset = "0x50E4280", VA = "0x50E4280")]
 	private void StartColorTween(Color targetColor, bool instant)
 	{
 	}
 
 	[Token(Token = "0x6000451")]
-	[Address(RVA = "0x4DBCA20", Offset = "0x4DBCA20", VA = "0x4DBCA20")]
+	[Address(RVA = "0x50E4370", Offset = "0x50E4370", VA = "0x50E4370")]
 	private void DoSpriteSwap(Sprite newSprite)
 	{
 	}
 
 	[Token(Token = "0x6000452")]
-	[Address(RVA = "0x4DBCB80", Offset = "0x4DBCB80", VA = "0x4DBCB80")]
+	[Address(RVA = "0x50E44D0", Offset = "0x50E44D0", VA = "0x50E44D0")]
 	private void TriggerAnimation(string triggername)
 	{
 	}
 
 	[Token(Token = "0x6000453")]
-	[Address(RVA = "0x4DBD860", Offset = "0x4DBD860", VA = "0x4DBD860")]
+	[Address(RVA = "0x50E51B0", Offset = "0x50E51B0", VA = "0x50E51B0")]
 	protected bool IsHighlighted()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000454")]
-	[Address(RVA = "0x4DBC7F0", Offset = "0x4DBC7F0", VA = "0x4DBC7F0")]
+	[Address(RVA = "0x50E4140", Offset = "0x50E4140", VA = "0x50E4140")]
 	protected bool IsPressed()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000455")]
-	[Address(RVA = "0x4DBD8C0", Offset = "0x4DBD8C0", VA = "0x4DBD8C0")]
+	[Address(RVA = "0x50E5210", Offset = "0x50E5210", VA = "0x50E5210")]
 	private void EvaluateAndTransitionToSelectionState()
 	{
 	}
 
 	[Token(Token = "0x6000456")]
-	[Address(RVA = "0x4DBA530", Offset = "0x4DBA530", VA = "0x4DBA530", Slot = "32")]
+	[Address(RVA = "0x50DCA20", Offset = "0x50DCA20", VA = "0x50DCA20", Slot = "32")]
 	public virtual void OnPointerDown(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000457")]
-	[Address(RVA = "0x4DBA910", Offset = "0x4DBA910", VA = "0x4DBA910", Slot = "33")]
+	[Address(RVA = "0x50DCE00", Offset = "0x50DCE00", VA = "0x50DCE00", Slot = "33")]
 	public virtual void OnPointerUp(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000458")]
-	[Address(RVA = "0x4DBD950", Offset = "0x4DBD950", VA = "0x4DBD950", Slot = "34")]
+	[Address(RVA = "0x50E52A0", Offset = "0x50E52A0", VA = "0x50E52A0", Slot = "34")]
 	public virtual void OnPointerEnter(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x6000459")]
-	[Address(RVA = "0x4DBD9F0", Offset = "0x4DBD9F0", VA = "0x4DBD9F0", Slot = "35")]
+	[Address(RVA = "0x50E5340", Offset = "0x50E5340", VA = "0x50E5340", Slot = "35")]
 	public virtual void OnPointerExit(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x600045A")]
-	[Address(RVA = "0x4DBDA90", Offset = "0x4DBDA90", VA = "0x4DBDA90", Slot = "36")]
+	[Address(RVA = "0x50E53E0", Offset = "0x50E53E0", VA = "0x50E53E0", Slot = "36")]
 	public virtual void OnSelect(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x600045B")]
-	[Address(RVA = "0x4DBDB30", Offset = "0x4DBDB30", VA = "0x4DBDB30", Slot = "37")]
+	[Address(RVA = "0x50E5480", Offset = "0x50E5480", VA = "0x50E5480", Slot = "37")]
 	public virtual void OnDeselect(BaseEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x600045C")]
-	[Address(RVA = "0x4DBDBD0", Offset = "0x4DBDBD0", VA = "0x4DBDBD0", Slot = "38")]
+	[Address(RVA = "0x50E5520", Offset = "0x50E5520", VA = "0x50E5520", Slot = "38")]
 	public virtual void Select()
 	{
 	}

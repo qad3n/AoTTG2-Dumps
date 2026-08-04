@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Discord.OverlayManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Plugins/DiscordGameSDK/Core.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -233,7 +240,7 @@ public class OverlayManager
 	private FFIMethods Methods
 	{
 		[Token(Token = "0x600037A")]
-		[Address(RVA = "0x2346810", Offset = "0x2346810", VA = "0x2346810")]
+		[Address(RVA = "0x23468D0", Offset = "0x23468D0", VA = "0x23468D0")]
 		get
 		{
 			return default(FFIMethods);
@@ -244,13 +251,13 @@ public class OverlayManager
 	public event ToggleHandler OnToggle
 	{
 		[Token(Token = "0x600037B")]
-		[Address(RVA = "0x2346920", Offset = "0x2346920", VA = "0x2346920")]
+		[Address(RVA = "0x23469E0", Offset = "0x23469E0", VA = "0x23469E0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600037C")]
-		[Address(RVA = "0x23469B0", Offset = "0x23469B0", VA = "0x23469B0")]
+		[Address(RVA = "0x2346A70", Offset = "0x2346A70", VA = "0x2346A70")]
 		[CompilerGenerated]
 		remove
 		{
@@ -258,178 +265,178 @@ public class OverlayManager
 	}
 
 	[Token(Token = "0x600037D")]
-	[Address(RVA = "0x2346A40", Offset = "0x2346A40", VA = "0x2346A40")]
+	[Address(RVA = "0x2346B00", Offset = "0x2346B00", VA = "0x2346B00")]
 	internal OverlayManager(IntPtr ptr, IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x600037E")]
-	[Address(RVA = "0x2346AC0", Offset = "0x2346AC0", VA = "0x2346AC0")]
+	[Address(RVA = "0x2346B80", Offset = "0x2346B80", VA = "0x2346B80")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
 	[Token(Token = "0x600037F")]
-	[Address(RVA = "0x2346C90", Offset = "0x2346C90", VA = "0x2346C90")]
+	[Address(RVA = "0x2346D50", Offset = "0x2346D50", VA = "0x2346D50")]
 	public bool IsEnabled()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000380")]
-	[Address(RVA = "0x2346CE0", Offset = "0x2346CE0", VA = "0x2346CE0")]
+	[Address(RVA = "0x2346DA0", Offset = "0x2346DA0", VA = "0x2346DA0")]
 	public bool IsLocked()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000381")]
-	[Address(RVA = "0x2346170", Offset = "0x2346170", VA = "0x2346170")]
+	[Address(RVA = "0x2346230", Offset = "0x2346230", VA = "0x2346230")]
 	[MonoPInvokeCallback]
 	private static void SetLockedCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000382")]
-	[Address(RVA = "0x2346D30", Offset = "0x2346D30", VA = "0x2346D30")]
+	[Address(RVA = "0x2346DF0", Offset = "0x2346DF0", VA = "0x2346DF0")]
 	public void SetLocked(bool locked, SetLockedHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000383")]
-	[Address(RVA = "0x2346250", Offset = "0x2346250", VA = "0x2346250")]
+	[Address(RVA = "0x2346310", Offset = "0x2346310", VA = "0x2346310")]
 	[MonoPInvokeCallback]
 	private static void OpenActivityInviteCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000384")]
-	[Address(RVA = "0x2346F20", Offset = "0x2346F20", VA = "0x2346F20")]
+	[Address(RVA = "0x2346FE0", Offset = "0x2346FE0", VA = "0x2346FE0")]
 	public void OpenActivityInvite(ActivityActionType type, OpenActivityInviteHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000385")]
-	[Address(RVA = "0x2346330", Offset = "0x2346330", VA = "0x2346330")]
+	[Address(RVA = "0x23463F0", Offset = "0x23463F0", VA = "0x23463F0")]
 	[MonoPInvokeCallback]
 	private static void OpenGuildInviteCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000386")]
-	[Address(RVA = "0x2347110", Offset = "0x2347110", VA = "0x2347110")]
+	[Address(RVA = "0x23471D0", Offset = "0x23471D0", VA = "0x23471D0")]
 	public void OpenGuildInvite(string code, OpenGuildInviteHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000387")]
-	[Address(RVA = "0x2346410", Offset = "0x2346410", VA = "0x2346410")]
+	[Address(RVA = "0x23464D0", Offset = "0x23464D0", VA = "0x23464D0")]
 	[MonoPInvokeCallback]
 	private static void OpenVoiceSettingsCallbackImpl(IntPtr ptr, Result result)
 	{
 	}
 
 	[Token(Token = "0x6000388")]
-	[Address(RVA = "0x2347310", Offset = "0x2347310", VA = "0x2347310")]
+	[Address(RVA = "0x23473D0", Offset = "0x23473D0", VA = "0x23473D0")]
 	public void OpenVoiceSettings(OpenVoiceSettingsHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000389")]
-	[Address(RVA = "0x2347500", Offset = "0x2347500", VA = "0x2347500")]
+	[Address(RVA = "0x23475C0", Offset = "0x23475C0", VA = "0x23475C0")]
 	public void InitDrawingDxgi(IntPtr swapchain, bool useMessageForwarding)
 	{
 	}
 
 	[Token(Token = "0x600038A")]
-	[Address(RVA = "0x23475A0", Offset = "0x23475A0", VA = "0x23475A0")]
+	[Address(RVA = "0x2347660", Offset = "0x2347660", VA = "0x2347660")]
 	public void OnPresent()
 	{
 	}
 
 	[Token(Token = "0x600038B")]
-	[Address(RVA = "0x23475F0", Offset = "0x23475F0", VA = "0x23475F0")]
+	[Address(RVA = "0x23476B0", Offset = "0x23476B0", VA = "0x23476B0")]
 	public void ForwardMessage(IntPtr message)
 	{
 	}
 
 	[Token(Token = "0x600038C")]
-	[Address(RVA = "0x2347640", Offset = "0x2347640", VA = "0x2347640")]
+	[Address(RVA = "0x2347700", Offset = "0x2347700", VA = "0x2347700")]
 	public void KeyEvent(bool down, string keyCode, KeyVariant variant)
 	{
 	}
 
 	[Token(Token = "0x600038D")]
-	[Address(RVA = "0x23476A0", Offset = "0x23476A0", VA = "0x23476A0")]
+	[Address(RVA = "0x2347760", Offset = "0x2347760", VA = "0x2347760")]
 	public void CharEvent(string character)
 	{
 	}
 
 	[Token(Token = "0x600038E")]
-	[Address(RVA = "0x23476F0", Offset = "0x23476F0", VA = "0x23476F0")]
+	[Address(RVA = "0x23477B0", Offset = "0x23477B0", VA = "0x23477B0")]
 	public void MouseButtonEvent(byte down, int clickCount, MouseButton which, int x, int y)
 	{
 	}
 
 	[Token(Token = "0x600038F")]
-	[Address(RVA = "0x2347760", Offset = "0x2347760", VA = "0x2347760")]
+	[Address(RVA = "0x2347820", Offset = "0x2347820", VA = "0x2347820")]
 	public void MouseMotionEvent(int x, int y)
 	{
 	}
 
 	[Token(Token = "0x6000390")]
-	[Address(RVA = "0x23477C0", Offset = "0x23477C0", VA = "0x23477C0")]
+	[Address(RVA = "0x2347880", Offset = "0x2347880", VA = "0x2347880")]
 	public void ImeCommitText(string text)
 	{
 	}
 
 	[Token(Token = "0x6000391")]
-	[Address(RVA = "0x2347810", Offset = "0x2347810", VA = "0x2347810")]
+	[Address(RVA = "0x23478D0", Offset = "0x23478D0", VA = "0x23478D0")]
 	public void ImeSetComposition(string text, ImeUnderline underlines, int from, int to)
 	{
 	}
 
 	[Token(Token = "0x6000392")]
-	[Address(RVA = "0x2347880", Offset = "0x2347880", VA = "0x2347880")]
+	[Address(RVA = "0x2347940", Offset = "0x2347940", VA = "0x2347940")]
 	public void ImeCancelComposition()
 	{
 	}
 
 	[Token(Token = "0x6000393")]
-	[Address(RVA = "0x23464F0", Offset = "0x23464F0", VA = "0x23464F0")]
+	[Address(RVA = "0x23465B0", Offset = "0x23465B0", VA = "0x23465B0")]
 	[MonoPInvokeCallback]
 	private static void SetImeCompositionRangeCallbackCallbackImpl(IntPtr ptr, int from, int to, ref Rect bounds)
 	{
 	}
 
 	[Token(Token = "0x6000394")]
-	[Address(RVA = "0x23478D0", Offset = "0x23478D0", VA = "0x23478D0")]
+	[Address(RVA = "0x2347990", Offset = "0x2347990", VA = "0x2347990")]
 	public void SetImeCompositionRangeCallback(SetImeCompositionRangeCallbackHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000395")]
-	[Address(RVA = "0x23465E0", Offset = "0x23465E0", VA = "0x23465E0")]
+	[Address(RVA = "0x23466A0", Offset = "0x23466A0", VA = "0x23466A0")]
 	[MonoPInvokeCallback]
 	private static void SetImeSelectionBoundsCallbackCallbackImpl(IntPtr ptr, Rect anchor, Rect focus, bool isAnchorFirst)
 	{
 	}
 
 	[Token(Token = "0x6000396")]
-	[Address(RVA = "0x2347AC0", Offset = "0x2347AC0", VA = "0x2347AC0")]
+	[Address(RVA = "0x2347B80", Offset = "0x2347B80", VA = "0x2347B80")]
 	public void SetImeSelectionBoundsCallback(SetImeSelectionBoundsCallbackHandler callback)
 	{
 	}
 
 	[Token(Token = "0x6000397")]
-	[Address(RVA = "0x2347CB0", Offset = "0x2347CB0", VA = "0x2347CB0")]
+	[Address(RVA = "0x2347D70", Offset = "0x2347D70", VA = "0x2347D70")]
 	public bool IsPointInsideClickZone(int x, int y)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000398")]
-	[Address(RVA = "0x2346700", Offset = "0x2346700", VA = "0x2346700")]
+	[Address(RVA = "0x23467C0", Offset = "0x23467C0", VA = "0x23467C0")]
 	[MonoPInvokeCallback]
 	private static void OnToggleImpl(IntPtr ptr, bool locked)
 	{

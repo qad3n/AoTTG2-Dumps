@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.NotEqualInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -9,14 +16,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualBoolean : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A16")]
-		[Address(RVA = "0x41D8130", Offset = "0x41D8130", VA = "0x41D8130", Slot = "8")]
+		[Address(RVA = "0x44FD230", Offset = "0x44FD230", VA = "0x44FD230", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A17")]
-		[Address(RVA = "0x41D8060", Offset = "0x41D8060", VA = "0x41D8060")]
+		[Address(RVA = "0x44FD160", Offset = "0x44FD160", VA = "0x44FD160")]
 		public NotEqualBoolean()
 		{
 		}
@@ -26,14 +33,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualSByte : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A18")]
-		[Address(RVA = "0x41D81F0", Offset = "0x41D81F0", VA = "0x41D81F0", Slot = "8")]
+		[Address(RVA = "0x44FD2F0", Offset = "0x44FD2F0", VA = "0x44FD2F0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A19")]
-		[Address(RVA = "0x41D8070", Offset = "0x41D8070", VA = "0x41D8070")]
+		[Address(RVA = "0x44FD170", Offset = "0x44FD170", VA = "0x44FD170")]
 		public NotEqualSByte()
 		{
 		}
@@ -43,14 +50,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualInt16 : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A1A")]
-		[Address(RVA = "0x41D82B0", Offset = "0x41D82B0", VA = "0x41D82B0", Slot = "8")]
+		[Address(RVA = "0x44FD3B0", Offset = "0x44FD3B0", VA = "0x44FD3B0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A1B")]
-		[Address(RVA = "0x41D8080", Offset = "0x41D8080", VA = "0x41D8080")]
+		[Address(RVA = "0x44FD180", Offset = "0x44FD180", VA = "0x44FD180")]
 		public NotEqualInt16()
 		{
 		}
@@ -60,14 +67,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualChar : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A1C")]
-		[Address(RVA = "0x41D8370", Offset = "0x41D8370", VA = "0x41D8370", Slot = "8")]
+		[Address(RVA = "0x44FD470", Offset = "0x44FD470", VA = "0x44FD470", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A1D")]
-		[Address(RVA = "0x41D8090", Offset = "0x41D8090", VA = "0x41D8090")]
+		[Address(RVA = "0x44FD190", Offset = "0x44FD190", VA = "0x44FD190")]
 		public NotEqualChar()
 		{
 		}
@@ -77,14 +84,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualInt32 : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A1E")]
-		[Address(RVA = "0x41D8430", Offset = "0x41D8430", VA = "0x41D8430", Slot = "8")]
+		[Address(RVA = "0x44FD530", Offset = "0x44FD530", VA = "0x44FD530", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A1F")]
-		[Address(RVA = "0x41D80A0", Offset = "0x41D80A0", VA = "0x41D80A0")]
+		[Address(RVA = "0x44FD1A0", Offset = "0x44FD1A0", VA = "0x44FD1A0")]
 		public NotEqualInt32()
 		{
 		}
@@ -94,14 +101,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualInt64 : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A20")]
-		[Address(RVA = "0x41D84E0", Offset = "0x41D84E0", VA = "0x41D84E0", Slot = "8")]
+		[Address(RVA = "0x44FD5E0", Offset = "0x44FD5E0", VA = "0x44FD5E0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A21")]
-		[Address(RVA = "0x41D80B0", Offset = "0x41D80B0", VA = "0x41D80B0")]
+		[Address(RVA = "0x44FD1B0", Offset = "0x44FD1B0", VA = "0x44FD1B0")]
 		public NotEqualInt64()
 		{
 		}
@@ -111,14 +118,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualByte : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A22")]
-		[Address(RVA = "0x41D8590", Offset = "0x41D8590", VA = "0x41D8590", Slot = "8")]
+		[Address(RVA = "0x44FD690", Offset = "0x44FD690", VA = "0x44FD690", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A23")]
-		[Address(RVA = "0x41D80C0", Offset = "0x41D80C0", VA = "0x41D80C0")]
+		[Address(RVA = "0x44FD1C0", Offset = "0x44FD1C0", VA = "0x44FD1C0")]
 		public NotEqualByte()
 		{
 		}
@@ -128,14 +135,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualUInt16 : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A24")]
-		[Address(RVA = "0x41D8650", Offset = "0x41D8650", VA = "0x41D8650", Slot = "8")]
+		[Address(RVA = "0x44FD750", Offset = "0x44FD750", VA = "0x44FD750", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A25")]
-		[Address(RVA = "0x41D80D0", Offset = "0x41D80D0", VA = "0x41D80D0")]
+		[Address(RVA = "0x44FD1D0", Offset = "0x44FD1D0", VA = "0x44FD1D0")]
 		public NotEqualUInt16()
 		{
 		}
@@ -145,14 +152,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualUInt32 : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A26")]
-		[Address(RVA = "0x41D8710", Offset = "0x41D8710", VA = "0x41D8710", Slot = "8")]
+		[Address(RVA = "0x44FD810", Offset = "0x44FD810", VA = "0x44FD810", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A27")]
-		[Address(RVA = "0x41D80E0", Offset = "0x41D80E0", VA = "0x41D80E0")]
+		[Address(RVA = "0x44FD1E0", Offset = "0x44FD1E0", VA = "0x44FD1E0")]
 		public NotEqualUInt32()
 		{
 		}
@@ -162,14 +169,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualUInt64 : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A28")]
-		[Address(RVA = "0x41D87C0", Offset = "0x41D87C0", VA = "0x41D87C0", Slot = "8")]
+		[Address(RVA = "0x44FD8C0", Offset = "0x44FD8C0", VA = "0x44FD8C0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A29")]
-		[Address(RVA = "0x41D80F0", Offset = "0x41D80F0", VA = "0x41D80F0")]
+		[Address(RVA = "0x44FD1F0", Offset = "0x44FD1F0", VA = "0x44FD1F0")]
 		public NotEqualUInt64()
 		{
 		}
@@ -179,14 +186,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualSingle : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A2A")]
-		[Address(RVA = "0x41D8870", Offset = "0x41D8870", VA = "0x41D8870", Slot = "8")]
+		[Address(RVA = "0x44FD970", Offset = "0x44FD970", VA = "0x44FD970", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A2B")]
-		[Address(RVA = "0x41D8100", Offset = "0x41D8100", VA = "0x41D8100")]
+		[Address(RVA = "0x44FD200", Offset = "0x44FD200", VA = "0x44FD200")]
 		public NotEqualSingle()
 		{
 		}
@@ -196,14 +203,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualDouble : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A2C")]
-		[Address(RVA = "0x41D8940", Offset = "0x41D8940", VA = "0x41D8940", Slot = "8")]
+		[Address(RVA = "0x44FDA40", Offset = "0x44FDA40", VA = "0x44FDA40", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A2D")]
-		[Address(RVA = "0x41D8110", Offset = "0x41D8110", VA = "0x41D8110")]
+		[Address(RVA = "0x44FD210", Offset = "0x44FD210", VA = "0x44FD210")]
 		public NotEqualDouble()
 		{
 		}
@@ -213,14 +220,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualReference : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A2E")]
-		[Address(RVA = "0x41D8A10", Offset = "0x41D8A10", VA = "0x41D8A10", Slot = "8")]
+		[Address(RVA = "0x44FDB10", Offset = "0x44FDB10", VA = "0x44FDB10", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A2F")]
-		[Address(RVA = "0x41D8120", Offset = "0x41D8120", VA = "0x41D8120")]
+		[Address(RVA = "0x44FD220", Offset = "0x44FD220", VA = "0x44FD220")]
 		public NotEqualReference()
 		{
 		}
@@ -230,14 +237,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualSByteLiftedToNull : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A30")]
-		[Address(RVA = "0x41D8A60", Offset = "0x41D8A60", VA = "0x41D8A60", Slot = "8")]
+		[Address(RVA = "0x44FDB60", Offset = "0x44FDB60", VA = "0x44FDB60", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A31")]
-		[Address(RVA = "0x41D7FB0", Offset = "0x41D7FB0", VA = "0x41D7FB0")]
+		[Address(RVA = "0x44FD0B0", Offset = "0x44FD0B0", VA = "0x44FD0B0")]
 		public NotEqualSByteLiftedToNull()
 		{
 		}
@@ -247,14 +254,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualInt16LiftedToNull : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A32")]
-		[Address(RVA = "0x41D8B20", Offset = "0x41D8B20", VA = "0x41D8B20", Slot = "8")]
+		[Address(RVA = "0x44FDC20", Offset = "0x44FDC20", VA = "0x44FDC20", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A33")]
-		[Address(RVA = "0x41D7FC0", Offset = "0x41D7FC0", VA = "0x41D7FC0")]
+		[Address(RVA = "0x44FD0C0", Offset = "0x44FD0C0", VA = "0x44FD0C0")]
 		public NotEqualInt16LiftedToNull()
 		{
 		}
@@ -264,14 +271,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualCharLiftedToNull : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A34")]
-		[Address(RVA = "0x41D8BE0", Offset = "0x41D8BE0", VA = "0x41D8BE0", Slot = "8")]
+		[Address(RVA = "0x44FDCE0", Offset = "0x44FDCE0", VA = "0x44FDCE0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A35")]
-		[Address(RVA = "0x41D7FD0", Offset = "0x41D7FD0", VA = "0x41D7FD0")]
+		[Address(RVA = "0x44FD0D0", Offset = "0x44FD0D0", VA = "0x44FD0D0")]
 		public NotEqualCharLiftedToNull()
 		{
 		}
@@ -281,14 +288,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualInt32LiftedToNull : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A36")]
-		[Address(RVA = "0x41D8CA0", Offset = "0x41D8CA0", VA = "0x41D8CA0", Slot = "8")]
+		[Address(RVA = "0x44FDDA0", Offset = "0x44FDDA0", VA = "0x44FDDA0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A37")]
-		[Address(RVA = "0x41D7FE0", Offset = "0x41D7FE0", VA = "0x41D7FE0")]
+		[Address(RVA = "0x44FD0E0", Offset = "0x44FD0E0", VA = "0x44FD0E0")]
 		public NotEqualInt32LiftedToNull()
 		{
 		}
@@ -298,14 +305,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualInt64LiftedToNull : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A38")]
-		[Address(RVA = "0x41D8D60", Offset = "0x41D8D60", VA = "0x41D8D60", Slot = "8")]
+		[Address(RVA = "0x44FDE60", Offset = "0x44FDE60", VA = "0x44FDE60", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A39")]
-		[Address(RVA = "0x41D7FF0", Offset = "0x41D7FF0", VA = "0x41D7FF0")]
+		[Address(RVA = "0x44FD0F0", Offset = "0x44FD0F0", VA = "0x44FD0F0")]
 		public NotEqualInt64LiftedToNull()
 		{
 		}
@@ -315,14 +322,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualByteLiftedToNull : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A3A")]
-		[Address(RVA = "0x41D8E10", Offset = "0x41D8E10", VA = "0x41D8E10", Slot = "8")]
+		[Address(RVA = "0x44FDF10", Offset = "0x44FDF10", VA = "0x44FDF10", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A3B")]
-		[Address(RVA = "0x41D8000", Offset = "0x41D8000", VA = "0x41D8000")]
+		[Address(RVA = "0x44FD100", Offset = "0x44FD100", VA = "0x44FD100")]
 		public NotEqualByteLiftedToNull()
 		{
 		}
@@ -332,14 +339,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualUInt16LiftedToNull : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A3C")]
-		[Address(RVA = "0x41D8ED0", Offset = "0x41D8ED0", VA = "0x41D8ED0", Slot = "8")]
+		[Address(RVA = "0x44FDFD0", Offset = "0x44FDFD0", VA = "0x44FDFD0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A3D")]
-		[Address(RVA = "0x41D8010", Offset = "0x41D8010", VA = "0x41D8010")]
+		[Address(RVA = "0x44FD110", Offset = "0x44FD110", VA = "0x44FD110")]
 		public NotEqualUInt16LiftedToNull()
 		{
 		}
@@ -349,14 +356,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualUInt32LiftedToNull : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A3E")]
-		[Address(RVA = "0x41D8F90", Offset = "0x41D8F90", VA = "0x41D8F90", Slot = "8")]
+		[Address(RVA = "0x44FE090", Offset = "0x44FE090", VA = "0x44FE090", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A3F")]
-		[Address(RVA = "0x41D8020", Offset = "0x41D8020", VA = "0x41D8020")]
+		[Address(RVA = "0x44FD120", Offset = "0x44FD120", VA = "0x44FD120")]
 		public NotEqualUInt32LiftedToNull()
 		{
 		}
@@ -366,14 +373,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualUInt64LiftedToNull : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A40")]
-		[Address(RVA = "0x41D9050", Offset = "0x41D9050", VA = "0x41D9050", Slot = "8")]
+		[Address(RVA = "0x44FE150", Offset = "0x44FE150", VA = "0x44FE150", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A41")]
-		[Address(RVA = "0x41D8030", Offset = "0x41D8030", VA = "0x41D8030")]
+		[Address(RVA = "0x44FD130", Offset = "0x44FD130", VA = "0x44FD130")]
 		public NotEqualUInt64LiftedToNull()
 		{
 		}
@@ -383,14 +390,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualSingleLiftedToNull : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A42")]
-		[Address(RVA = "0x41D9100", Offset = "0x41D9100", VA = "0x41D9100", Slot = "8")]
+		[Address(RVA = "0x44FE200", Offset = "0x44FE200", VA = "0x44FE200", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A43")]
-		[Address(RVA = "0x41D8040", Offset = "0x41D8040", VA = "0x41D8040")]
+		[Address(RVA = "0x44FD140", Offset = "0x44FD140", VA = "0x44FD140")]
 		public NotEqualSingleLiftedToNull()
 		{
 		}
@@ -400,14 +407,14 @@ internal abstract class NotEqualInstruction : Instruction
 	private sealed class NotEqualDoubleLiftedToNull : NotEqualInstruction
 	{
 		[Token(Token = "0x6000A44")]
-		[Address(RVA = "0x41D91D0", Offset = "0x41D91D0", VA = "0x41D91D0", Slot = "8")]
+		[Address(RVA = "0x44FE2D0", Offset = "0x44FE2D0", VA = "0x44FE2D0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000A45")]
-		[Address(RVA = "0x41D8050", Offset = "0x41D8050", VA = "0x41D8050")]
+		[Address(RVA = "0x44FD150", Offset = "0x44FD150", VA = "0x44FD150")]
 		public NotEqualDoubleLiftedToNull()
 		{
 		}
@@ -513,7 +520,7 @@ internal abstract class NotEqualInstruction : Instruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x6000A11")]
-		[Address(RVA = "0x41D7540", Offset = "0x41D7540", VA = "0x41D7540", Slot = "4")]
+		[Address(RVA = "0x44FC640", Offset = "0x44FC640", VA = "0x44FC640", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -524,7 +531,7 @@ internal abstract class NotEqualInstruction : Instruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x6000A12")]
-		[Address(RVA = "0x41D7550", Offset = "0x41D7550", VA = "0x41D7550", Slot = "5")]
+		[Address(RVA = "0x44FC650", Offset = "0x44FC650", VA = "0x44FC650", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -535,7 +542,7 @@ internal abstract class NotEqualInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x6000A13")]
-		[Address(RVA = "0x41D7560", Offset = "0x41D7560", VA = "0x41D7560", Slot = "9")]
+		[Address(RVA = "0x44FC660", Offset = "0x44FC660", VA = "0x44FC660", Slot = "9")]
 		get
 		{
 			return null;
@@ -543,13 +550,13 @@ internal abstract class NotEqualInstruction : Instruction
 	}
 
 	[Token(Token = "0x6000A14")]
-	[Address(RVA = "0x41D7590", Offset = "0x41D7590", VA = "0x41D7590")]
+	[Address(RVA = "0x44FC690", Offset = "0x44FC690", VA = "0x44FC690")]
 	private NotEqualInstruction()
 	{
 	}
 
 	[Token(Token = "0x6000A15")]
-	[Address(RVA = "0x41D75A0", Offset = "0x41D75A0", VA = "0x41D75A0")]
+	[Address(RVA = "0x44FC6A0", Offset = "0x44FC6A0", VA = "0x44FC6A0")]
 	public static Instruction Create(Type type, bool liftedToNull)
 	{
 		return null;

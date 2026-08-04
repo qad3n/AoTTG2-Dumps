@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.Properties.FieldMember
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Reflection;
@@ -16,7 +23,7 @@ internal readonly struct FieldMember : IMemberInfo
 	public string Name
 	{
 		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x4B5EBE0", Offset = "0x4B5EBE0", VA = "0x4B5EBE0", Slot = "4")]
+		[Address(RVA = "0x4E86510", Offset = "0x4E86510", VA = "0x4E86510", Slot = "4")]
 		get
 		{
 			return null;
@@ -27,7 +34,7 @@ internal readonly struct FieldMember : IMemberInfo
 	public bool IsReadOnly
 	{
 		[Token(Token = "0x6000032")]
-		[Address(RVA = "0x4B5EC10", Offset = "0x4B5EC10", VA = "0x4B5EC10", Slot = "5")]
+		[Address(RVA = "0x4E86540", Offset = "0x4E86540", VA = "0x4E86540", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -38,7 +45,7 @@ internal readonly struct FieldMember : IMemberInfo
 	public Type ValueType
 	{
 		[Token(Token = "0x6000033")]
-		[Address(RVA = "0x4B5EC30", Offset = "0x4B5EC30", VA = "0x4B5EC30", Slot = "6")]
+		[Address(RVA = "0x4E86560", Offset = "0x4E86560", VA = "0x4E86560", Slot = "6")]
 		get
 		{
 			return null;
@@ -46,13 +53,13 @@ internal readonly struct FieldMember : IMemberInfo
 	}
 
 	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x4B5EBD0", Offset = "0x4B5EBD0", VA = "0x4B5EBD0")]
+	[Address(RVA = "0x4E86500", Offset = "0x4E86500", VA = "0x4E86500")]
 	public FieldMember(FieldInfo fieldInfo)
 	{
 	}
 
 	[Token(Token = "0x6000034")]
-	[Address(RVA = "0x4B5EC60", Offset = "0x4B5EC60", VA = "0x4B5EC60", Slot = "7")]
+	[Address(RVA = "0x4E86590", Offset = "0x4E86590", VA = "0x4E86590", Slot = "7")]
 	public IEnumerable<Attribute> GetCustomAttributes()
 	{
 		return null;

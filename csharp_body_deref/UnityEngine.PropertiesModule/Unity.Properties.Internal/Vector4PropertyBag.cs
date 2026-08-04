@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.Properties.Internal.Vector4PropertyBag
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -13,7 +20,7 @@ internal class Vector4PropertyBag : ContainerPropertyBag<Vector4>
 		public override string Name
 		{
 			[Token(Token = "0x60001A9")]
-			[Address(RVA = "0x4B73BA0", Offset = "0x4B73BA0", VA = "0x4B73BA0", Slot = "7")]
+			[Address(RVA = "0x4E9B4D0", Offset = "0x4E9B4D0", VA = "0x4E9B4D0", Slot = "7")]
 			get
 			{
 				return null;
@@ -21,7 +28,7 @@ internal class Vector4PropertyBag : ContainerPropertyBag<Vector4>
 		}
 
 		[Token(Token = "0x60001AA")]
-		[Address(RVA = "0x4B73AA0", Offset = "0x4B73AA0", VA = "0x4B73AA0")]
+		[Address(RVA = "0x4E9B3D0", Offset = "0x4E9B3D0", VA = "0x4E9B3D0")]
 		public XProperty()
 		{
 		}
@@ -34,7 +41,7 @@ internal class Vector4PropertyBag : ContainerPropertyBag<Vector4>
 		public override string Name
 		{
 			[Token(Token = "0x60001AB")]
-			[Address(RVA = "0x4B73BD0", Offset = "0x4B73BD0", VA = "0x4B73BD0", Slot = "7")]
+			[Address(RVA = "0x4E9B500", Offset = "0x4E9B500", VA = "0x4E9B500", Slot = "7")]
 			get
 			{
 				return null;
@@ -42,7 +49,7 @@ internal class Vector4PropertyBag : ContainerPropertyBag<Vector4>
 		}
 
 		[Token(Token = "0x60001AC")]
-		[Address(RVA = "0x4B73AE0", Offset = "0x4B73AE0", VA = "0x4B73AE0")]
+		[Address(RVA = "0x4E9B410", Offset = "0x4E9B410", VA = "0x4E9B410")]
 		public YProperty()
 		{
 		}
@@ -55,7 +62,7 @@ internal class Vector4PropertyBag : ContainerPropertyBag<Vector4>
 		public override string Name
 		{
 			[Token(Token = "0x60001AD")]
-			[Address(RVA = "0x4B73C00", Offset = "0x4B73C00", VA = "0x4B73C00", Slot = "7")]
+			[Address(RVA = "0x4E9B530", Offset = "0x4E9B530", VA = "0x4E9B530", Slot = "7")]
 			get
 			{
 				return null;
@@ -63,7 +70,7 @@ internal class Vector4PropertyBag : ContainerPropertyBag<Vector4>
 		}
 
 		[Token(Token = "0x60001AE")]
-		[Address(RVA = "0x4B73B20", Offset = "0x4B73B20", VA = "0x4B73B20")]
+		[Address(RVA = "0x4E9B450", Offset = "0x4E9B450", VA = "0x4E9B450")]
 		public ZProperty()
 		{
 		}
@@ -76,7 +83,7 @@ internal class Vector4PropertyBag : ContainerPropertyBag<Vector4>
 		public override string Name
 		{
 			[Token(Token = "0x60001AF")]
-			[Address(RVA = "0x4B73C30", Offset = "0x4B73C30", VA = "0x4B73C30", Slot = "7")]
+			[Address(RVA = "0x4E9B560", Offset = "0x4E9B560", VA = "0x4E9B560", Slot = "7")]
 			get
 			{
 				return null;
@@ -84,14 +91,14 @@ internal class Vector4PropertyBag : ContainerPropertyBag<Vector4>
 		}
 
 		[Token(Token = "0x60001B0")]
-		[Address(RVA = "0x4B73B60", Offset = "0x4B73B60", VA = "0x4B73B60")]
+		[Address(RVA = "0x4E9B490", Offset = "0x4E9B490", VA = "0x4E9B490")]
 		public WProperty()
 		{
 		}
 	}
 
 	[Token(Token = "0x60001A8")]
-	[Address(RVA = "0x4B72AB0", Offset = "0x4B72AB0", VA = "0x4B72AB0")]
+	[Address(RVA = "0x4E9A3E0", Offset = "0x4E9A3E0", VA = "0x4E9A3E0")]
 	public Vector4PropertyBag()
 	{
 	}

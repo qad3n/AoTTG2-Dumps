@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.SerializationInfoEnumerator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -34,7 +41,7 @@ public sealed class SerializationInfoEnumerator : IEnumerator
 	private object System_002ECollections_002EIEnumerator_002ECurrent
 	{
 		[Token(Token = "0x6001F31")]
-		[Address(RVA = "0x4EAE140", Offset = "0x4EAE140", VA = "0x4EAE140", Slot = "5")]
+		[Address(RVA = "0x3B93C60", Offset = "0x3B93C60", VA = "0x3B93C60", Slot = "5")]
 		get
 		{
 			return null;
@@ -45,7 +52,7 @@ public sealed class SerializationInfoEnumerator : IEnumerator
 	public SerializationEntry Current
 	{
 		[Token(Token = "0x6001F32")]
-		[Address(RVA = "0x4EA76A0", Offset = "0x4EA76A0", VA = "0x4EA76A0")]
+		[Address(RVA = "0x3B8D1C0", Offset = "0x3B8D1C0", VA = "0x3B8D1C0")]
 		get
 		{
 			return default(SerializationEntry);
@@ -56,7 +63,7 @@ public sealed class SerializationInfoEnumerator : IEnumerator
 	public string Name
 	{
 		[Token(Token = "0x6001F34")]
-		[Address(RVA = "0x4E9F9B0", Offset = "0x4E9F9B0", VA = "0x4E9F9B0")]
+		[Address(RVA = "0x3B854D0", Offset = "0x3B854D0", VA = "0x3B854D0")]
 		get
 		{
 			return null;
@@ -67,7 +74,7 @@ public sealed class SerializationInfoEnumerator : IEnumerator
 	public object Value
 	{
 		[Token(Token = "0x6001F35")]
-		[Address(RVA = "0x4E9FA30", Offset = "0x4E9FA30", VA = "0x4E9FA30")]
+		[Address(RVA = "0x3B85550", Offset = "0x3B85550", VA = "0x3B85550")]
 		get
 		{
 			return null;
@@ -78,7 +85,7 @@ public sealed class SerializationInfoEnumerator : IEnumerator
 	public Type ObjectType
 	{
 		[Token(Token = "0x6001F36")]
-		[Address(RVA = "0x4EAE1C0", Offset = "0x4EAE1C0", VA = "0x4EAE1C0")]
+		[Address(RVA = "0x3B93CE0", Offset = "0x3B93CE0", VA = "0x3B93CE0")]
 		get
 		{
 			return null;
@@ -86,20 +93,20 @@ public sealed class SerializationInfoEnumerator : IEnumerator
 	}
 
 	[Token(Token = "0x6001F2F")]
-	[Address(RVA = "0x4EAE0D0", Offset = "0x4EAE0D0", VA = "0x4EAE0D0")]
+	[Address(RVA = "0x3B93BF0", Offset = "0x3B93BF0", VA = "0x3B93BF0")]
 	internal SerializationInfoEnumerator(string[] members, object[] info, Type[] types, int numItems)
 	{
 	}
 
 	[Token(Token = "0x6001F30")]
-	[Address(RVA = "0x4E9FB30", Offset = "0x4E9FB30", VA = "0x4E9FB30", Slot = "4")]
+	[Address(RVA = "0x3B85650", Offset = "0x3B85650", VA = "0x3B85650", Slot = "4")]
 	public bool MoveNext()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001F33")]
-	[Address(RVA = "0x4EAE1B0", Offset = "0x4EAE1B0", VA = "0x4EAE1B0", Slot = "6")]
+	[Address(RVA = "0x3B93CD0", Offset = "0x3B93CD0", VA = "0x3B93CD0", Slot = "6")]
 	public void Reset()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.DepthOfFieldRenderer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
 
@@ -50,47 +57,47 @@ internal sealed class DepthOfFieldRenderer : PostProcessEffectRenderer<DepthOfFi
 	private const float k_FilmHeight = 0.024f;
 
 	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x4815B40", Offset = "0x4815B40", VA = "0x4815B40")]
+	[Address(RVA = "0x4B3AC30", Offset = "0x4B3AC30", VA = "0x4B3AC30")]
 	public DepthOfFieldRenderer()
 	{
 	}
 
 	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x4815CF0", Offset = "0x4815CF0", VA = "0x4815CF0", Slot = "5")]
+	[Address(RVA = "0x4B3ADE0", Offset = "0x4B3ADE0", VA = "0x4B3ADE0", Slot = "5")]
 	public override DepthTextureMode GetCameraFlags()
 	{
 		return default(DepthTextureMode);
 	}
 
 	[Token(Token = "0x6000043")]
-	[Address(RVA = "0x4815D00", Offset = "0x4815D00", VA = "0x4815D00")]
+	[Address(RVA = "0x4B3ADF0", Offset = "0x4B3ADF0", VA = "0x4B3ADF0")]
 	private RenderTextureFormat SelectFormat(RenderTextureFormat primary, RenderTextureFormat secondary)
 	{
 		return default(RenderTextureFormat);
 	}
 
 	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x4815D80", Offset = "0x4815D80", VA = "0x4815D80")]
+	[Address(RVA = "0x4B3AE70", Offset = "0x4B3AE70", VA = "0x4B3AE70")]
 	private float CalculateMaxCoCRadius(int screenHeight)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000045")]
-	[Address(RVA = "0x4815DF0", Offset = "0x4815DF0", VA = "0x4815DF0")]
+	[Address(RVA = "0x4B3AEE0", Offset = "0x4B3AEE0", VA = "0x4B3AEE0")]
 	private RenderTexture CheckHistory(int eye, int id, PostProcessRenderContext context, RenderTextureFormat format)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000046")]
-	[Address(RVA = "0x4816040", Offset = "0x4816040", VA = "0x4816040", Slot = "8")]
+	[Address(RVA = "0x4B3B130", Offset = "0x4B3B130", VA = "0x4B3B130", Slot = "8")]
 	public override void Render(PostProcessRenderContext context)
 	{
 	}
 
 	[Token(Token = "0x6000047")]
-	[Address(RVA = "0x4816F00", Offset = "0x4816F00", VA = "0x4816F00", Slot = "7")]
+	[Address(RVA = "0x4B3BFF0", Offset = "0x4B3BFF0", VA = "0x4B3BFF0", Slot = "7")]
 	public override void Release()
 	{
 	}

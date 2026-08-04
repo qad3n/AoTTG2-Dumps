@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Text.InternalEncoderBestFitFallback
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Text;
@@ -18,7 +25,7 @@ internal class InternalEncoderBestFitFallback : EncoderFallback
 	public override int MaxCharCount
 	{
 		[Token(Token = "0x6001584")]
-		[Address(RVA = "0x4E186F0", Offset = "0x4E186F0", VA = "0x4E186F0", Slot = "5")]
+		[Address(RVA = "0x3AFE210", Offset = "0x3AFE210", VA = "0x3AFE210", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -26,27 +33,27 @@ internal class InternalEncoderBestFitFallback : EncoderFallback
 	}
 
 	[Token(Token = "0x6001582")]
-	[Address(RVA = "0x4E18460", Offset = "0x4E18460", VA = "0x4E18460")]
+	[Address(RVA = "0x3AFDF80", Offset = "0x3AFDF80", VA = "0x3AFDF80")]
 	internal InternalEncoderBestFitFallback(Encoding encoding)
 	{
 	}
 
 	[Token(Token = "0x6001583")]
-	[Address(RVA = "0x4E184A0", Offset = "0x4E184A0", VA = "0x4E184A0", Slot = "4")]
+	[Address(RVA = "0x3AFDFC0", Offset = "0x3AFDFC0", VA = "0x3AFDFC0", Slot = "4")]
 	public override EncoderFallbackBuffer CreateFallbackBuffer()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001585")]
-	[Address(RVA = "0x4E18700", Offset = "0x4E18700", VA = "0x4E18700", Slot = "0")]
+	[Address(RVA = "0x3AFE220", Offset = "0x3AFE220", VA = "0x3AFE220", Slot = "0")]
 	public override bool Equals(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001586")]
-	[Address(RVA = "0x4E187B0", Offset = "0x4E187B0", VA = "0x4E187B0", Slot = "2")]
+	[Address(RVA = "0x3AFE2D0", Offset = "0x3AFE2D0", VA = "0x3AFE2D0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

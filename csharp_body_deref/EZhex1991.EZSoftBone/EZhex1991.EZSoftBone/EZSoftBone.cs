@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: EZhex1991.EZSoftBone.EZSoftBone
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/EZhex1991/EZSoftBone/EZSoftBone.c
+// Prior real C# source (older reference): Assets/ThirdParty/EZhex1991/EZSoftBone/Runtime/EZSoftBone.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -122,67 +129,67 @@ public class EZSoftBone : MonoBehaviour
 		public Vector3 speed;
 
 		[Token(Token = "0x600004C")]
-		[Address(RVA = "0x2355940", Offset = "0x2355940", VA = "0x2355940")]
+		[Address(RVA = "0x2393A50", Offset = "0x2393A50", VA = "0x2393A50")]
 		public Bone(Transform systemSpace, Transform transform, IEnumerable<Transform> endBones, int startDepth, int depth, float nodeLength, float boneLength)
 		{
 		}
 
 		[Token(Token = "0x600004D")]
-		[Address(RVA = "0x2356230", Offset = "0x2356230", VA = "0x2356230")]
+		[Address(RVA = "0x2394340", Offset = "0x2394340", VA = "0x2394340")]
 		public void SetTreeLength()
 		{
 		}
 
 		[Token(Token = "0x600004E")]
-		[Address(RVA = "0x2356240", Offset = "0x2356240", VA = "0x2356240")]
+		[Address(RVA = "0x2394350", Offset = "0x2394350", VA = "0x2394350")]
 		public void SetTreeLength(float treeLength)
 		{
 		}
 
 		[Token(Token = "0x600004F")]
-		[Address(RVA = "0x23561D0", Offset = "0x23561D0", VA = "0x23561D0")]
+		[Address(RVA = "0x23942E0", Offset = "0x23942E0", VA = "0x23942E0")]
 		public void SetLeftSibling(Bone left)
 		{
 		}
 
 		[Token(Token = "0x6000050")]
-		[Address(RVA = "0x2356170", Offset = "0x2356170", VA = "0x2356170")]
+		[Address(RVA = "0x2394280", Offset = "0x2394280", VA = "0x2394280")]
 		public void SetRightSibling(Bone right)
 		{
 		}
 
 		[Token(Token = "0x6000051")]
-		[Address(RVA = "0x2356320", Offset = "0x2356320", VA = "0x2356320")]
+		[Address(RVA = "0x2394430", Offset = "0x2394430", VA = "0x2394430")]
 		public void Inflate(float baseRadius, AnimationCurve radiusCurve)
 		{
 		}
 
 		[Token(Token = "0x6000052")]
-		[Address(RVA = "0x23563F0", Offset = "0x23563F0", VA = "0x23563F0")]
+		[Address(RVA = "0x2394500", Offset = "0x2394500", VA = "0x2394500")]
 		public void Inflate(float baseRadius, AnimationCurve radiusCurve, EZSoftBoneMaterial material)
 		{
 		}
 
 		[Token(Token = "0x6000053")]
-		[Address(RVA = "0x23550A0", Offset = "0x23550A0", VA = "0x23550A0")]
+		[Address(RVA = "0x23931B0", Offset = "0x23931B0", VA = "0x23931B0")]
 		public void RevertTransforms(int startDepth)
 		{
 		}
 
 		[Token(Token = "0x6000054")]
-		[Address(RVA = "0x2357D20", Offset = "0x2357D20", VA = "0x2357D20")]
+		[Address(RVA = "0x2395E30", Offset = "0x2395E30", VA = "0x2395E30")]
 		public void UpdateTransform(bool siblingRotationConstraints, int startDepth)
 		{
 		}
 
 		[Token(Token = "0x6000055")]
-		[Address(RVA = "0x23557B0", Offset = "0x23557B0", VA = "0x23557B0")]
+		[Address(RVA = "0x23938C0", Offset = "0x23938C0", VA = "0x23938C0")]
 		public void SetRestState()
 		{
 		}
 
 		[Token(Token = "0x6000056")]
-		[Address(RVA = "0x23565C0", Offset = "0x23565C0", VA = "0x23565C0")]
+		[Address(RVA = "0x23946D0", Offset = "0x23946D0", VA = "0x23946D0")]
 		public void UpdateSpace()
 		{
 		}
@@ -315,7 +322,7 @@ public class EZSoftBone : MonoBehaviour
 	public List<Transform> rootBones
 	{
 		[Token(Token = "0x600000D")]
-		[Address(RVA = "0x2354290", Offset = "0x2354290", VA = "0x2354290")]
+		[Address(RVA = "0x23923A0", Offset = "0x23923A0", VA = "0x23923A0")]
 		get
 		{
 			return null;
@@ -326,7 +333,7 @@ public class EZSoftBone : MonoBehaviour
 	public List<Transform> endBones
 	{
 		[Token(Token = "0x600000E")]
-		[Address(RVA = "0x23542A0", Offset = "0x23542A0", VA = "0x23542A0")]
+		[Address(RVA = "0x23923B0", Offset = "0x23923B0", VA = "0x23923B0")]
 		get
 		{
 			return null;
@@ -337,13 +344,13 @@ public class EZSoftBone : MonoBehaviour
 	public EZSoftBoneMaterial sharedMaterial
 	{
 		[Token(Token = "0x600000F")]
-		[Address(RVA = "0x23542B0", Offset = "0x23542B0", VA = "0x23542B0")]
+		[Address(RVA = "0x23923C0", Offset = "0x23923C0", VA = "0x23923C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000010")]
-		[Address(RVA = "0x2354420", Offset = "0x2354420", VA = "0x2354420")]
+		[Address(RVA = "0x2392530", Offset = "0x2392530", VA = "0x2392530")]
 		set
 		{
 		}
@@ -353,13 +360,13 @@ public class EZSoftBone : MonoBehaviour
 	public EZSoftBoneMaterial material
 	{
 		[Token(Token = "0x6000011")]
-		[Address(RVA = "0x2354430", Offset = "0x2354430", VA = "0x2354430")]
+		[Address(RVA = "0x2392540", Offset = "0x2392540", VA = "0x2392540")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000012")]
-		[Address(RVA = "0x2354550", Offset = "0x2354550", VA = "0x2354550")]
+		[Address(RVA = "0x2392660", Offset = "0x2392660", VA = "0x2392660")]
 		set
 		{
 		}
@@ -369,13 +376,13 @@ public class EZSoftBone : MonoBehaviour
 	public int startDepth
 	{
 		[Token(Token = "0x6000013")]
-		[Address(RVA = "0x2354590", Offset = "0x2354590", VA = "0x2354590")]
+		[Address(RVA = "0x23926A0", Offset = "0x23926A0", VA = "0x23926A0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000014")]
-		[Address(RVA = "0x23545A0", Offset = "0x23545A0", VA = "0x23545A0")]
+		[Address(RVA = "0x23926B0", Offset = "0x23926B0", VA = "0x23926B0")]
 		set
 		{
 		}
@@ -385,13 +392,13 @@ public class EZSoftBone : MonoBehaviour
 	public UnificationMode siblingConstraints
 	{
 		[Token(Token = "0x6000015")]
-		[Address(RVA = "0x23545B0", Offset = "0x23545B0", VA = "0x23545B0")]
+		[Address(RVA = "0x23926C0", Offset = "0x23926C0", VA = "0x23926C0")]
 		get
 		{
 			return default(UnificationMode);
 		}
 		[Token(Token = "0x6000016")]
-		[Address(RVA = "0x23545C0", Offset = "0x23545C0", VA = "0x23545C0")]
+		[Address(RVA = "0x23926D0", Offset = "0x23926D0", VA = "0x23926D0")]
 		set
 		{
 		}
@@ -401,13 +408,13 @@ public class EZSoftBone : MonoBehaviour
 	public bool closedSiblings
 	{
 		[Token(Token = "0x6000017")]
-		[Address(RVA = "0x23545D0", Offset = "0x23545D0", VA = "0x23545D0")]
+		[Address(RVA = "0x23926E0", Offset = "0x23926E0", VA = "0x23926E0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000018")]
-		[Address(RVA = "0x23545E0", Offset = "0x23545E0", VA = "0x23545E0")]
+		[Address(RVA = "0x23926F0", Offset = "0x23926F0", VA = "0x23926F0")]
 		set
 		{
 		}
@@ -417,13 +424,13 @@ public class EZSoftBone : MonoBehaviour
 	public bool siblingRotationConstraints
 	{
 		[Token(Token = "0x6000019")]
-		[Address(RVA = "0x23545F0", Offset = "0x23545F0", VA = "0x23545F0")]
+		[Address(RVA = "0x2392700", Offset = "0x2392700", VA = "0x2392700")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600001A")]
-		[Address(RVA = "0x2354600", Offset = "0x2354600", VA = "0x2354600")]
+		[Address(RVA = "0x2392710", Offset = "0x2392710", VA = "0x2392710")]
 		set
 		{
 		}
@@ -433,13 +440,13 @@ public class EZSoftBone : MonoBehaviour
 	public UnificationMode lengthUnification
 	{
 		[Token(Token = "0x600001B")]
-		[Address(RVA = "0x2354610", Offset = "0x2354610", VA = "0x2354610")]
+		[Address(RVA = "0x2392720", Offset = "0x2392720", VA = "0x2392720")]
 		get
 		{
 			return default(UnificationMode);
 		}
 		[Token(Token = "0x600001C")]
-		[Address(RVA = "0x2354620", Offset = "0x2354620", VA = "0x2354620")]
+		[Address(RVA = "0x2392730", Offset = "0x2392730", VA = "0x2392730")]
 		set
 		{
 		}
@@ -449,13 +456,13 @@ public class EZSoftBone : MonoBehaviour
 	public LayerMask collisionLayers
 	{
 		[Token(Token = "0x600001D")]
-		[Address(RVA = "0x2354630", Offset = "0x2354630", VA = "0x2354630")]
+		[Address(RVA = "0x2392740", Offset = "0x2392740", VA = "0x2392740")]
 		get
 		{
 			return default(LayerMask);
 		}
 		[Token(Token = "0x600001E")]
-		[Address(RVA = "0x2354640", Offset = "0x2354640", VA = "0x2354640")]
+		[Address(RVA = "0x2392750", Offset = "0x2392750", VA = "0x2392750")]
 		set
 		{
 		}
@@ -465,7 +472,7 @@ public class EZSoftBone : MonoBehaviour
 	public List<Collider> extraColliders
 	{
 		[Token(Token = "0x600001F")]
-		[Address(RVA = "0x2354650", Offset = "0x2354650", VA = "0x2354650")]
+		[Address(RVA = "0x2392760", Offset = "0x2392760", VA = "0x2392760")]
 		get
 		{
 			return null;
@@ -476,13 +483,13 @@ public class EZSoftBone : MonoBehaviour
 	public float radius
 	{
 		[Token(Token = "0x6000020")]
-		[Address(RVA = "0x2354660", Offset = "0x2354660", VA = "0x2354660")]
+		[Address(RVA = "0x2392770", Offset = "0x2392770", VA = "0x2392770")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000021")]
-		[Address(RVA = "0x2354670", Offset = "0x2354670", VA = "0x2354670")]
+		[Address(RVA = "0x2392780", Offset = "0x2392780", VA = "0x2392780")]
 		set
 		{
 		}
@@ -492,7 +499,7 @@ public class EZSoftBone : MonoBehaviour
 	public AnimationCurve radiusCurve
 	{
 		[Token(Token = "0x6000022")]
-		[Address(RVA = "0x2354680", Offset = "0x2354680", VA = "0x2354680")]
+		[Address(RVA = "0x2392790", Offset = "0x2392790", VA = "0x2392790")]
 		get
 		{
 			return null;
@@ -503,13 +510,13 @@ public class EZSoftBone : MonoBehaviour
 	public DeltaTimeMode deltaTimeMode
 	{
 		[Token(Token = "0x6000023")]
-		[Address(RVA = "0x2354690", Offset = "0x2354690", VA = "0x2354690")]
+		[Address(RVA = "0x23927A0", Offset = "0x23927A0", VA = "0x23927A0")]
 		get
 		{
 			return default(DeltaTimeMode);
 		}
 		[Token(Token = "0x6000024")]
-		[Address(RVA = "0x23546A0", Offset = "0x23546A0", VA = "0x23546A0")]
+		[Address(RVA = "0x23927B0", Offset = "0x23927B0", VA = "0x23927B0")]
 		set
 		{
 		}
@@ -519,13 +526,13 @@ public class EZSoftBone : MonoBehaviour
 	public float constantDeltaTime
 	{
 		[Token(Token = "0x6000025")]
-		[Address(RVA = "0x23546B0", Offset = "0x23546B0", VA = "0x23546B0")]
+		[Address(RVA = "0x23927C0", Offset = "0x23927C0", VA = "0x23927C0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000026")]
-		[Address(RVA = "0x23546C0", Offset = "0x23546C0", VA = "0x23546C0")]
+		[Address(RVA = "0x23927D0", Offset = "0x23927D0", VA = "0x23927D0")]
 		set
 		{
 		}
@@ -535,13 +542,13 @@ public class EZSoftBone : MonoBehaviour
 	public int iterations
 	{
 		[Token(Token = "0x6000027")]
-		[Address(RVA = "0x23546D0", Offset = "0x23546D0", VA = "0x23546D0")]
+		[Address(RVA = "0x23927E0", Offset = "0x23927E0", VA = "0x23927E0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000028")]
-		[Address(RVA = "0x23546E0", Offset = "0x23546E0", VA = "0x23546E0")]
+		[Address(RVA = "0x23927F0", Offset = "0x23927F0", VA = "0x23927F0")]
 		set
 		{
 		}
@@ -551,13 +558,13 @@ public class EZSoftBone : MonoBehaviour
 	public float sleepThreshold
 	{
 		[Token(Token = "0x6000029")]
-		[Address(RVA = "0x23546F0", Offset = "0x23546F0", VA = "0x23546F0")]
+		[Address(RVA = "0x2392800", Offset = "0x2392800", VA = "0x2392800")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600002A")]
-		[Address(RVA = "0x2354700", Offset = "0x2354700", VA = "0x2354700")]
+		[Address(RVA = "0x2392810", Offset = "0x2392810", VA = "0x2392810")]
 		set
 		{
 		}
@@ -567,13 +574,13 @@ public class EZSoftBone : MonoBehaviour
 	public Transform gravityAligner
 	{
 		[Token(Token = "0x600002B")]
-		[Address(RVA = "0x2354710", Offset = "0x2354710", VA = "0x2354710")]
+		[Address(RVA = "0x2392820", Offset = "0x2392820", VA = "0x2392820")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600002C")]
-		[Address(RVA = "0x2354720", Offset = "0x2354720", VA = "0x2354720")]
+		[Address(RVA = "0x2392830", Offset = "0x2392830", VA = "0x2392830")]
 		set
 		{
 		}
@@ -583,13 +590,13 @@ public class EZSoftBone : MonoBehaviour
 	public Vector3 gravity
 	{
 		[Token(Token = "0x600002D")]
-		[Address(RVA = "0x2354730", Offset = "0x2354730", VA = "0x2354730")]
+		[Address(RVA = "0x2392840", Offset = "0x2392840", VA = "0x2392840")]
 		get
 		{
 			return default(Vector3);
 		}
 		[Token(Token = "0x600002E")]
-		[Address(RVA = "0x2354750", Offset = "0x2354750", VA = "0x2354750")]
+		[Address(RVA = "0x2392860", Offset = "0x2392860", VA = "0x2392860")]
 		set
 		{
 		}
@@ -599,13 +606,13 @@ public class EZSoftBone : MonoBehaviour
 	public EZSoftBoneForceField forceModule
 	{
 		[Token(Token = "0x600002F")]
-		[Address(RVA = "0x2354760", Offset = "0x2354760", VA = "0x2354760")]
+		[Address(RVA = "0x2392870", Offset = "0x2392870", VA = "0x2392870")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000030")]
-		[Address(RVA = "0x2354770", Offset = "0x2354770", VA = "0x2354770")]
+		[Address(RVA = "0x2392880", Offset = "0x2392880", VA = "0x2392880")]
 		set
 		{
 		}
@@ -615,13 +622,13 @@ public class EZSoftBone : MonoBehaviour
 	public float forceScale
 	{
 		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x2354790", Offset = "0x2354790", VA = "0x2354790")]
+		[Address(RVA = "0x23928A0", Offset = "0x23928A0", VA = "0x23928A0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000032")]
-		[Address(RVA = "0x23547A0", Offset = "0x23547A0", VA = "0x23547A0")]
+		[Address(RVA = "0x23928B0", Offset = "0x23928B0", VA = "0x23928B0")]
 		set
 		{
 		}
@@ -631,13 +638,13 @@ public class EZSoftBone : MonoBehaviour
 	public Transform simulateSpace
 	{
 		[Token(Token = "0x6000033")]
-		[Address(RVA = "0x23547B0", Offset = "0x23547B0", VA = "0x23547B0")]
+		[Address(RVA = "0x23928C0", Offset = "0x23928C0", VA = "0x23928C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000034")]
-		[Address(RVA = "0x23547C0", Offset = "0x23547C0", VA = "0x23547C0")]
+		[Address(RVA = "0x23928D0", Offset = "0x23928D0", VA = "0x23928D0")]
 		set
 		{
 		}
@@ -647,14 +654,14 @@ public class EZSoftBone : MonoBehaviour
 	public float globalRadius
 	{
 		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x23547E0", Offset = "0x23547E0", VA = "0x23547E0")]
+		[Address(RVA = "0x23928F0", Offset = "0x23928F0", VA = "0x23928F0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000036")]
-		[Address(RVA = "0x23547F0", Offset = "0x23547F0", VA = "0x23547F0")]
+		[Address(RVA = "0x2392900", Offset = "0x2392900", VA = "0x2392900")]
 		[CompilerGenerated]
 		private set
 		{
@@ -665,14 +672,14 @@ public class EZSoftBone : MonoBehaviour
 	public Vector3 globalForce
 	{
 		[Token(Token = "0x6000037")]
-		[Address(RVA = "0x2354800", Offset = "0x2354800", VA = "0x2354800")]
+		[Address(RVA = "0x2392910", Offset = "0x2392910", VA = "0x2392910")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Vector3);
 		}
 		[Token(Token = "0x6000038")]
-		[Address(RVA = "0x2354820", Offset = "0x2354820", VA = "0x2354820")]
+		[Address(RVA = "0x2392930", Offset = "0x2392930", VA = "0x2392930")]
 		[CompilerGenerated]
 		private set
 		{
@@ -680,109 +687,109 @@ public class EZSoftBone : MonoBehaviour
 	}
 
 	[Token(Token = "0x6000039")]
-	[Address(RVA = "0x2354830", Offset = "0x2354830", VA = "0x2354830")]
+	[Address(RVA = "0x2392940", Offset = "0x2392940", VA = "0x2392940")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x2354890", Offset = "0x2354890", VA = "0x2354890")]
+	[Address(RVA = "0x23929A0", Offset = "0x23929A0", VA = "0x23929A0")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x2354930", Offset = "0x2354930", VA = "0x2354930")]
+	[Address(RVA = "0x2392A40", Offset = "0x2392A40", VA = "0x2392A40")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x23549D0", Offset = "0x23549D0", VA = "0x23549D0")]
+	[Address(RVA = "0x2392AE0", Offset = "0x2392AE0", VA = "0x2392AE0")]
 	private void LateUpdate()
 	{
 	}
 
 	[Token(Token = "0x600003D")]
-	[Address(RVA = "0x2355080", Offset = "0x2355080", VA = "0x2355080")]
+	[Address(RVA = "0x2393190", Offset = "0x2393190", VA = "0x2393190")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x600003E")]
-	[Address(RVA = "0x2355090", Offset = "0x2355090", VA = "0x2355090")]
+	[Address(RVA = "0x23931A0", Offset = "0x23931A0", VA = "0x23931A0")]
 	public void RevertTransforms()
 	{
 	}
 
 	[Token(Token = "0x600003F")]
-	[Address(RVA = "0x2354940", Offset = "0x2354940", VA = "0x2354940")]
+	[Address(RVA = "0x2392A50", Offset = "0x2392A50", VA = "0x2392A50")]
 	public void RevertTransforms(int startDepth)
 	{
 	}
 
 	[Token(Token = "0x6000040")]
-	[Address(RVA = "0x2354860", Offset = "0x2354860", VA = "0x2354860")]
+	[Address(RVA = "0x2392970", Offset = "0x2392970", VA = "0x2392970")]
 	public void InitStructures()
 	{
 	}
 
 	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x23548A0", Offset = "0x23548A0", VA = "0x23548A0")]
+	[Address(RVA = "0x23929B0", Offset = "0x23929B0", VA = "0x23929B0")]
 	public void SetRestState()
 	{
 	}
 
 	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x2355170", Offset = "0x2355170", VA = "0x2355170")]
+	[Address(RVA = "0x2393280", Offset = "0x2393280", VA = "0x2393280")]
 	private void CreateBones()
 	{
 	}
 
 	[Token(Token = "0x6000043")]
-	[Address(RVA = "0x2355380", Offset = "0x2355380", VA = "0x2355380")]
+	[Address(RVA = "0x2393490", Offset = "0x2393490", VA = "0x2393490")]
 	private void SetSiblings()
 	{
 	}
 
 	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x2355DB0", Offset = "0x2355DB0", VA = "0x2355DB0")]
+	[Address(RVA = "0x2393EC0", Offset = "0x2393EC0", VA = "0x2393EC0")]
 	private void SetSiblingsByDepth(Queue<Bone> bones, bool closed)
 	{
 	}
 
 	[Token(Token = "0x6000045")]
-	[Address(RVA = "0x2355580", Offset = "0x2355580", VA = "0x2355580")]
+	[Address(RVA = "0x2393690", Offset = "0x2393690", VA = "0x2393690")]
 	private void SetTreeLength()
 	{
 	}
 
 	[Token(Token = "0x6000046")]
-	[Address(RVA = "0x23556D0", Offset = "0x23556D0", VA = "0x23556D0")]
+	[Address(RVA = "0x23937E0", Offset = "0x23937E0", VA = "0x23937E0")]
 	public void RefreshRadius()
 	{
 	}
 
 	[Token(Token = "0x6000047")]
-	[Address(RVA = "0x2354A10", Offset = "0x2354A10", VA = "0x2354A10")]
+	[Address(RVA = "0x2392B20", Offset = "0x2392B20", VA = "0x2392B20")]
 	private void UpdateStructures(float deltaTime)
 	{
 	}
 
 	[Token(Token = "0x6000048")]
-	[Address(RVA = "0x23566B0", Offset = "0x23566B0", VA = "0x23566B0")]
+	[Address(RVA = "0x23947C0", Offset = "0x23947C0", VA = "0x23947C0")]
 	private void UpdateBones(Bone bone, float deltaTime)
 	{
 	}
 
 	[Token(Token = "0x6000049")]
-	[Address(RVA = "0x2354FF0", Offset = "0x2354FF0", VA = "0x2354FF0")]
+	[Address(RVA = "0x2393100", Offset = "0x2393100", VA = "0x2393100")]
 	private void UpdateTransforms()
 	{
 	}
 
 	[Token(Token = "0x600004A")]
-	[Address(RVA = "0x2358350", Offset = "0x2358350", VA = "0x2358350")]
+	[Address(RVA = "0x2396460", Offset = "0x2396460", VA = "0x2396460")]
 	public EZSoftBone()
 	{
 	}

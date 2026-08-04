@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.CategoryAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.ComponentModel;
@@ -74,7 +81,7 @@ public class CategoryAttribute : Attribute
 	public static CategoryAttribute Action
 	{
 		[Token(Token = "0x60012F2")]
-		[Address(RVA = "0x45881B0", Offset = "0x45881B0", VA = "0x45881B0")]
+		[Address(RVA = "0x48AD2B0", Offset = "0x48AD2B0", VA = "0x48AD2B0")]
 		get
 		{
 			return null;
@@ -85,7 +92,7 @@ public class CategoryAttribute : Attribute
 	public static CategoryAttribute Appearance
 	{
 		[Token(Token = "0x60012F3")]
-		[Address(RVA = "0x45882A0", Offset = "0x45882A0", VA = "0x45882A0")]
+		[Address(RVA = "0x48AD3A0", Offset = "0x48AD3A0", VA = "0x48AD3A0")]
 		get
 		{
 			return null;
@@ -96,7 +103,7 @@ public class CategoryAttribute : Attribute
 	public static CategoryAttribute Asynchronous
 	{
 		[Token(Token = "0x60012F4")]
-		[Address(RVA = "0x4588360", Offset = "0x4588360", VA = "0x4588360")]
+		[Address(RVA = "0x48AD460", Offset = "0x48AD460", VA = "0x48AD460")]
 		get
 		{
 			return null;
@@ -107,7 +114,7 @@ public class CategoryAttribute : Attribute
 	public static CategoryAttribute Behavior
 	{
 		[Token(Token = "0x60012F5")]
-		[Address(RVA = "0x4588420", Offset = "0x4588420", VA = "0x4588420")]
+		[Address(RVA = "0x48AD520", Offset = "0x48AD520", VA = "0x48AD520")]
 		get
 		{
 			return null;
@@ -118,7 +125,7 @@ public class CategoryAttribute : Attribute
 	public static CategoryAttribute Data
 	{
 		[Token(Token = "0x60012F6")]
-		[Address(RVA = "0x45884E0", Offset = "0x45884E0", VA = "0x45884E0")]
+		[Address(RVA = "0x48AD5E0", Offset = "0x48AD5E0", VA = "0x48AD5E0")]
 		get
 		{
 			return null;
@@ -129,7 +136,7 @@ public class CategoryAttribute : Attribute
 	public static CategoryAttribute Default
 	{
 		[Token(Token = "0x60012F7")]
-		[Address(RVA = "0x45885A0", Offset = "0x45885A0", VA = "0x45885A0")]
+		[Address(RVA = "0x48AD6A0", Offset = "0x48AD6A0", VA = "0x48AD6A0")]
 		get
 		{
 			return null;
@@ -140,7 +147,7 @@ public class CategoryAttribute : Attribute
 	public static CategoryAttribute Design
 	{
 		[Token(Token = "0x60012F8")]
-		[Address(RVA = "0x45886D0", Offset = "0x45886D0", VA = "0x45886D0")]
+		[Address(RVA = "0x48AD7D0", Offset = "0x48AD7D0", VA = "0x48AD7D0")]
 		get
 		{
 			return null;
@@ -151,7 +158,7 @@ public class CategoryAttribute : Attribute
 	public static CategoryAttribute DragDrop
 	{
 		[Token(Token = "0x60012F9")]
-		[Address(RVA = "0x4588790", Offset = "0x4588790", VA = "0x4588790")]
+		[Address(RVA = "0x48AD890", Offset = "0x48AD890", VA = "0x48AD890")]
 		get
 		{
 			return null;
@@ -162,7 +169,7 @@ public class CategoryAttribute : Attribute
 	public static CategoryAttribute Focus
 	{
 		[Token(Token = "0x60012FA")]
-		[Address(RVA = "0x4588850", Offset = "0x4588850", VA = "0x4588850")]
+		[Address(RVA = "0x48AD950", Offset = "0x48AD950", VA = "0x48AD950")]
 		get
 		{
 			return null;
@@ -173,7 +180,7 @@ public class CategoryAttribute : Attribute
 	public static CategoryAttribute Format
 	{
 		[Token(Token = "0x60012FB")]
-		[Address(RVA = "0x4588910", Offset = "0x4588910", VA = "0x4588910")]
+		[Address(RVA = "0x48ADA10", Offset = "0x48ADA10", VA = "0x48ADA10")]
 		get
 		{
 			return null;
@@ -184,7 +191,7 @@ public class CategoryAttribute : Attribute
 	public static CategoryAttribute Key
 	{
 		[Token(Token = "0x60012FC")]
-		[Address(RVA = "0x45889D0", Offset = "0x45889D0", VA = "0x45889D0")]
+		[Address(RVA = "0x48ADAD0", Offset = "0x48ADAD0", VA = "0x48ADAD0")]
 		get
 		{
 			return null;
@@ -195,7 +202,7 @@ public class CategoryAttribute : Attribute
 	public static CategoryAttribute Layout
 	{
 		[Token(Token = "0x60012FD")]
-		[Address(RVA = "0x4588A90", Offset = "0x4588A90", VA = "0x4588A90")]
+		[Address(RVA = "0x48ADB90", Offset = "0x48ADB90", VA = "0x48ADB90")]
 		get
 		{
 			return null;
@@ -206,7 +213,7 @@ public class CategoryAttribute : Attribute
 	public static CategoryAttribute Mouse
 	{
 		[Token(Token = "0x60012FE")]
-		[Address(RVA = "0x4588B50", Offset = "0x4588B50", VA = "0x4588B50")]
+		[Address(RVA = "0x48ADC50", Offset = "0x48ADC50", VA = "0x48ADC50")]
 		get
 		{
 			return null;
@@ -217,7 +224,7 @@ public class CategoryAttribute : Attribute
 	public static CategoryAttribute WindowStyle
 	{
 		[Token(Token = "0x60012FF")]
-		[Address(RVA = "0x4588C10", Offset = "0x4588C10", VA = "0x4588C10")]
+		[Address(RVA = "0x48ADD10", Offset = "0x48ADD10", VA = "0x48ADD10")]
 		get
 		{
 			return null;
@@ -228,7 +235,7 @@ public class CategoryAttribute : Attribute
 	public string Category
 	{
 		[Token(Token = "0x6001302")]
-		[Address(RVA = "0x4588CD0", Offset = "0x4588CD0", VA = "0x4588CD0")]
+		[Address(RVA = "0x48ADDD0", Offset = "0x48ADDD0", VA = "0x48ADDD0")]
 		get
 		{
 			return null;
@@ -236,40 +243,40 @@ public class CategoryAttribute : Attribute
 	}
 
 	[Token(Token = "0x6001300")]
-	[Address(RVA = "0x4588670", Offset = "0x4588670", VA = "0x4588670")]
+	[Address(RVA = "0x48AD770", Offset = "0x48AD770", VA = "0x48AD770")]
 	public CategoryAttribute()
 	{
 	}
 
 	[Token(Token = "0x6001301")]
-	[Address(RVA = "0x4588270", Offset = "0x4588270", VA = "0x4588270")]
+	[Address(RVA = "0x48AD370", Offset = "0x48AD370", VA = "0x48AD370")]
 	public CategoryAttribute(string category)
 	{
 	}
 
 	[Token(Token = "0x6001303")]
-	[Address(RVA = "0x4588D10", Offset = "0x4588D10", VA = "0x4588D10", Slot = "0")]
+	[Address(RVA = "0x48ADE10", Offset = "0x48ADE10", VA = "0x48ADE10", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001304")]
-	[Address(RVA = "0x4588E30", Offset = "0x4588E30", VA = "0x4588E30", Slot = "2")]
+	[Address(RVA = "0x48ADF30", Offset = "0x48ADF30", VA = "0x48ADF30", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001305")]
-	[Address(RVA = "0x4588E90", Offset = "0x4588E90", VA = "0x4588E90", Slot = "7")]
+	[Address(RVA = "0x48ADF90", Offset = "0x48ADF90", VA = "0x48ADF90", Slot = "7")]
 	protected virtual string GetLocalizedString(string value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001306")]
-	[Address(RVA = "0x4589130", Offset = "0x4589130", VA = "0x4589130", Slot = "6")]
+	[Address(RVA = "0x48AE230", Offset = "0x48AE230", VA = "0x48AE230", Slot = "6")]
 	public override bool IsDefaultAttribute()
 	{
 		return default(bool);

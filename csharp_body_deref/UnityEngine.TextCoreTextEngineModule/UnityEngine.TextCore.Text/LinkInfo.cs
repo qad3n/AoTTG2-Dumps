@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.Text.LinkInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.TextCore.Text;
@@ -38,20 +45,20 @@ internal struct LinkInfo
 	private string m_LinkTextString;
 
 	[Token(Token = "0x6000094")]
-	[Address(RVA = "0x4B8BD70", Offset = "0x4B8BD70", VA = "0x4B8BD70")]
+	[Address(RVA = "0x4EB36A0", Offset = "0x4EB36A0", VA = "0x4EB36A0")]
 	internal void SetLinkId(char[] text, int startIndex, int length)
 	{
 	}
 
 	[Token(Token = "0x6000095")]
-	[Address(RVA = "0x4B8BE90", Offset = "0x4B8BE90", VA = "0x4B8BE90")]
+	[Address(RVA = "0x4EB37C0", Offset = "0x4EB37C0", VA = "0x4EB37C0")]
 	public string GetLinkText(TextInfo textInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000096")]
-	[Address(RVA = "0x4B8BFA0", Offset = "0x4B8BFA0", VA = "0x4B8BFA0")]
+	[Address(RVA = "0x4EB38D0", Offset = "0x4EB38D0", VA = "0x4EB38D0")]
 	public string GetLinkId()
 	{
 		return null;

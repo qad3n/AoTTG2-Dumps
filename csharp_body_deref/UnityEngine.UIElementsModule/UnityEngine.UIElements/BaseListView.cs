@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.BaseListView
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -34,13 +41,13 @@ public abstract class BaseListView : BaseVerticalCollectionView
 		private readonly UxmlBoolAttributeDescription m_ShowBoundCollectionSize;
 
 		[Token(Token = "0x6000245")]
-		[Address(RVA = "0x4BFD630", Offset = "0x4BFD630", VA = "0x4BFD630", Slot = "4")]
+		[Address(RVA = "0x4F24F60", Offset = "0x4F24F60", VA = "0x4F24F60", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x6000246")]
-		[Address(RVA = "0x4BFD9C0", Offset = "0x4BFD9C0", VA = "0x4BFD9C0")]
+		[Address(RVA = "0x4F252F0", Offset = "0x4F252F0", VA = "0x4F252F0")]
 		protected UxmlTraits()
 		{
 		}
@@ -221,13 +228,13 @@ public abstract class BaseListView : BaseVerticalCollectionView
 	public bool showBoundCollectionSize
 	{
 		[Token(Token = "0x6000223")]
-		[Address(RVA = "0x4BF95A0", Offset = "0x4BF95A0", VA = "0x4BF95A0")]
+		[Address(RVA = "0x4F20ED0", Offset = "0x4F20ED0", VA = "0x4F20ED0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000224")]
-		[Address(RVA = "0x4BF95B0", Offset = "0x4BF95B0", VA = "0x4BF95B0")]
+		[Address(RVA = "0x4F20EE0", Offset = "0x4F20EE0", VA = "0x4F20EE0")]
 		set
 		{
 		}
@@ -237,7 +244,7 @@ public abstract class BaseListView : BaseVerticalCollectionView
 	internal override bool sourceIncludesArraySize
 	{
 		[Token(Token = "0x6000225")]
-		[Address(RVA = "0x4BF9890", Offset = "0x4BF9890", VA = "0x4BF9890", Slot = "102")]
+		[Address(RVA = "0x4F211C0", Offset = "0x4F211C0", VA = "0x4F211C0", Slot = "102")]
 		get
 		{
 			return default(bool);
@@ -249,13 +256,13 @@ public abstract class BaseListView : BaseVerticalCollectionView
 	public bool showFoldoutHeader
 	{
 		[Token(Token = "0x6000226")]
-		[Address(RVA = "0x4BF98C0", Offset = "0x4BF98C0", VA = "0x4BF98C0")]
+		[Address(RVA = "0x4F211F0", Offset = "0x4F211F0", VA = "0x4F211F0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000227")]
-		[Address(RVA = "0x4BF98D0", Offset = "0x4BF98D0", VA = "0x4BF98D0")]
+		[Address(RVA = "0x4F21200", Offset = "0x4F21200", VA = "0x4F21200")]
 		set
 		{
 		}
@@ -266,13 +273,13 @@ public abstract class BaseListView : BaseVerticalCollectionView
 	public string headerTitle
 	{
 		[Token(Token = "0x6000229")]
-		[Address(RVA = "0x4BFA5C0", Offset = "0x4BFA5C0", VA = "0x4BFA5C0")]
+		[Address(RVA = "0x4F21EF0", Offset = "0x4F21EF0", VA = "0x4F21EF0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600022A")]
-		[Address(RVA = "0x4BFA5D0", Offset = "0x4BFA5D0", VA = "0x4BFA5D0")]
+		[Address(RVA = "0x4F21F00", Offset = "0x4F21F00", VA = "0x4F21F00")]
 		set
 		{
 		}
@@ -283,13 +290,13 @@ public abstract class BaseListView : BaseVerticalCollectionView
 	public bool showAddRemoveFooter
 	{
 		[Token(Token = "0x600022B")]
-		[Address(RVA = "0x4BFA080", Offset = "0x4BFA080", VA = "0x4BFA080")]
+		[Address(RVA = "0x4F219B0", Offset = "0x4F219B0", VA = "0x4F219B0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600022C")]
-		[Address(RVA = "0x4BFA6A0", Offset = "0x4BFA6A0", VA = "0x4BFA6A0")]
+		[Address(RVA = "0x4F21FD0", Offset = "0x4F21FD0", VA = "0x4F21FD0")]
 		set
 		{
 		}
@@ -299,7 +306,7 @@ public abstract class BaseListView : BaseVerticalCollectionView
 	internal VisualElement footer
 	{
 		[Token(Token = "0x6000234")]
-		[Address(RVA = "0x4BFB430", Offset = "0x4BFB430", VA = "0x4BFB430")]
+		[Address(RVA = "0x4F22D60", Offset = "0x4F22D60", VA = "0x4F22D60")]
 		get
 		{
 			return null;
@@ -310,7 +317,7 @@ public abstract class BaseListView : BaseVerticalCollectionView
 	public new BaseListViewController viewController
 	{
 		[Token(Token = "0x6000235")]
-		[Address(RVA = "0x4BFA7C0", Offset = "0x4BFA7C0", VA = "0x4BFA7C0")]
+		[Address(RVA = "0x4F220F0", Offset = "0x4F220F0", VA = "0x4F220F0")]
 		get
 		{
 			return null;
@@ -322,13 +329,13 @@ public abstract class BaseListView : BaseVerticalCollectionView
 	public ListViewReorderMode reorderMode
 	{
 		[Token(Token = "0x600023D")]
-		[Address(RVA = "0x4BFBFB0", Offset = "0x4BFBFB0", VA = "0x4BFBFB0")]
+		[Address(RVA = "0x4F238E0", Offset = "0x4F238E0", VA = "0x4F238E0")]
 		get
 		{
 			return default(ListViewReorderMode);
 		}
 		[Token(Token = "0x600023E")]
-		[Address(RVA = "0x4BFBFC0", Offset = "0x4BFBFC0", VA = "0x4BFBFC0")]
+		[Address(RVA = "0x4F238F0", Offset = "0x4F238F0", VA = "0x4F238F0")]
 		set
 		{
 		}
@@ -338,13 +345,13 @@ public abstract class BaseListView : BaseVerticalCollectionView
 	internal event Action reorderModeChanged
 	{
 		[Token(Token = "0x600023B")]
-		[Address(RVA = "0x4BF4C50", Offset = "0x4BF4C50", VA = "0x4BF4C50")]
+		[Address(RVA = "0x4F1C580", Offset = "0x4F1C580", VA = "0x4F1C580")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600023C")]
-		[Address(RVA = "0x4BF4EB0", Offset = "0x4BF4EB0", VA = "0x4BF4EB0")]
+		[Address(RVA = "0x4F1C7E0", Offset = "0x4F1C7E0", VA = "0x4F1C7E0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -352,105 +359,105 @@ public abstract class BaseListView : BaseVerticalCollectionView
 	}
 
 	[Token(Token = "0x6000228")]
-	[Address(RVA = "0x4BF9670", Offset = "0x4BF9670", VA = "0x4BF9670")]
+	[Address(RVA = "0x4F20FA0", Offset = "0x4F20FA0", VA = "0x4F20FA0")]
 	private void SetupArraySizeField()
 	{
 	}
 
 	[Token(Token = "0x600022D")]
-	[Address(RVA = "0x4BFA090", Offset = "0x4BFA090", VA = "0x4BFA090")]
+	[Address(RVA = "0x4F219C0", Offset = "0x4F219C0", VA = "0x4F219C0")]
 	private void EnableFooter(bool enabled)
 	{
 	}
 
 	[Token(Token = "0x600022E")]
-	[Address(RVA = "0x4BFA740", Offset = "0x4BFA740", VA = "0x4BFA740")]
+	[Address(RVA = "0x4F22070", Offset = "0x4F22070", VA = "0x4F22070")]
 	private void AddItems(int itemCount)
 	{
 	}
 
 	[Token(Token = "0x600022F")]
-	[Address(RVA = "0x4BFA830", Offset = "0x4BFA830", VA = "0x4BFA830")]
+	[Address(RVA = "0x4F22160", Offset = "0x4F22160", VA = "0x4F22160")]
 	private void OnArraySizeFieldChanged(ChangeEvent<string> evt)
 	{
 	}
 
 	[Token(Token = "0x6000230")]
-	[Address(RVA = "0x4BFA4A0", Offset = "0x4BFA4A0", VA = "0x4BFA4A0")]
+	[Address(RVA = "0x4F21DD0", Offset = "0x4F21DD0", VA = "0x4F21DD0")]
 	internal void UpdateArraySizeField()
 	{
 	}
 
 	[Token(Token = "0x6000231")]
-	[Address(RVA = "0x4BF9D60", Offset = "0x4BF9D60", VA = "0x4BF9D60")]
+	[Address(RVA = "0x4F21690", Offset = "0x4F21690", VA = "0x4F21690")]
 	internal void UpdateListViewLabel()
 	{
 	}
 
 	[Token(Token = "0x6000232")]
-	[Address(RVA = "0x4BFABA0", Offset = "0x4BFABA0", VA = "0x4BFABA0")]
+	[Address(RVA = "0x4F224D0", Offset = "0x4F224D0", VA = "0x4F224D0")]
 	private void OnAddClicked()
 	{
 	}
 
 	[Token(Token = "0x6000233")]
-	[Address(RVA = "0x4BFB080", Offset = "0x4BFB080", VA = "0x4BFB080")]
+	[Address(RVA = "0x4F229B0", Offset = "0x4F229B0", VA = "0x4F229B0")]
 	private void OnRemoveClicked()
 	{
 	}
 
 	[Token(Token = "0x6000236")]
-	[Address(RVA = "0x4BFB440", Offset = "0x4BFB440", VA = "0x4BFB440", Slot = "103")]
+	[Address(RVA = "0x4F22D70", Offset = "0x4F22D70", VA = "0x4F22D70", Slot = "103")]
 	private protected override void CreateVirtualizationController()
 	{
 	}
 
 	[Token(Token = "0x6000237")]
-	[Address(RVA = "0x4BFB480", Offset = "0x4BFB480", VA = "0x4BFB480", Slot = "105")]
+	[Address(RVA = "0x4F22DB0", Offset = "0x4F22DB0", VA = "0x4F22DB0", Slot = "105")]
 	public override void SetViewController(CollectionViewController controller)
 	{
 	}
 
 	[Token(Token = "0x6000238")]
-	[Address(RVA = "0x4BFBEF0", Offset = "0x4BFBEF0", VA = "0x4BFBEF0")]
+	[Address(RVA = "0x4F23820", Offset = "0x4F23820", VA = "0x4F23820")]
 	private void OnItemAdded(IEnumerable<int> indices)
 	{
 	}
 
 	[Token(Token = "0x6000239")]
-	[Address(RVA = "0x4BFBF10", Offset = "0x4BFBF10", VA = "0x4BFBF10")]
+	[Address(RVA = "0x4F23840", Offset = "0x4F23840", VA = "0x4F23840")]
 	private void OnItemsRemoved(IEnumerable<int> indices)
 	{
 	}
 
 	[Token(Token = "0x600023A")]
-	[Address(RVA = "0x4BFBF30", Offset = "0x4BFBF30", VA = "0x4BFBF30")]
+	[Address(RVA = "0x4F23860", Offset = "0x4F23860", VA = "0x4F23860")]
 	private void OnItemsSourceSizeChanged()
 	{
 	}
 
 	[Token(Token = "0x600023F")]
-	[Address(RVA = "0x4BFC3A0", Offset = "0x4BFC3A0", VA = "0x4BFC3A0", Slot = "106")]
+	[Address(RVA = "0x4F23CD0", Offset = "0x4F23CD0", VA = "0x4F23CD0", Slot = "106")]
 	internal override ListViewDragger CreateDragger()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000240")]
-	[Address(RVA = "0x4BFC430", Offset = "0x4BFC430", VA = "0x4BFC430", Slot = "107")]
+	[Address(RVA = "0x4F23D60", Offset = "0x4F23D60", VA = "0x4F23D60", Slot = "107")]
 	internal override ICollectionDragAndDropController CreateDragAndDropController()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000241")]
-	[Address(RVA = "0x4BFC480", Offset = "0x4BFC480", VA = "0x4BFC480")]
+	[Address(RVA = "0x4F23DB0", Offset = "0x4F23DB0", VA = "0x4F23DB0")]
 	public BaseListView()
 	{
 	}
 
 	[Token(Token = "0x6000242")]
-	[Address(RVA = "0x4BFCB80", Offset = "0x4BFCB80", VA = "0x4BFCB80", Slot = "109")]
+	[Address(RVA = "0x4F244B0", Offset = "0x4F244B0", VA = "0x4F244B0", Slot = "109")]
 	private protected override void PostRefresh()
 	{
 	}

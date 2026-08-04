@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.Constraint
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.ComponentModel;
 using Il2CppDummyDll;
 
@@ -33,13 +40,13 @@ public abstract class Constraint
 	public virtual string ConstraintName
 	{
 		[Token(Token = "0x6000026")]
-		[Address(RVA = "0x41F5BF0", Offset = "0x41F5BF0", VA = "0x41F5BF0", Slot = "4")]
+		[Address(RVA = "0x4533350", Offset = "0x4533350", VA = "0x4533350", Slot = "4")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000027")]
-		[Address(RVA = "0x41F5C00", Offset = "0x41F5C00", VA = "0x41F5C00", Slot = "5")]
+		[Address(RVA = "0x4533360", Offset = "0x4533360", VA = "0x4533360", Slot = "5")]
 		set
 		{
 		}
@@ -49,13 +56,13 @@ public abstract class Constraint
 	internal string SchemaName
 	{
 		[Token(Token = "0x6000028")]
-		[Address(RVA = "0x41F6140", Offset = "0x41F6140", VA = "0x41F6140")]
+		[Address(RVA = "0x45338A0", Offset = "0x45338A0", VA = "0x45338A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000029")]
-		[Address(RVA = "0x41F6170", Offset = "0x41F6170", VA = "0x41F6170")]
+		[Address(RVA = "0x45338D0", Offset = "0x45338D0", VA = "0x45338D0")]
 		set
 		{
 		}
@@ -65,13 +72,13 @@ public abstract class Constraint
 	internal virtual bool InCollection
 	{
 		[Token(Token = "0x600002A")]
-		[Address(RVA = "0x41F61B0", Offset = "0x41F61B0", VA = "0x41F61B0", Slot = "6")]
+		[Address(RVA = "0x4533910", Offset = "0x4533910", VA = "0x4533910", Slot = "6")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600002B")]
-		[Address(RVA = "0x41F61C0", Offset = "0x41F61C0", VA = "0x41F61C0", Slot = "7")]
+		[Address(RVA = "0x4533920", Offset = "0x4533920", VA = "0x4533920", Slot = "7")]
 		set
 		{
 		}
@@ -89,7 +96,7 @@ public abstract class Constraint
 	public PropertyCollection ExtendedProperties
 	{
 		[Token(Token = "0x600002D")]
-		[Address(RVA = "0x41F6210", Offset = "0x41F6210", VA = "0x41F6210")]
+		[Address(RVA = "0x4533970", Offset = "0x4533970", VA = "0x4533970")]
 		get
 		{
 			return null;
@@ -101,7 +108,7 @@ public abstract class Constraint
 	protected virtual DataSet _DataSet
 	{
 		[Token(Token = "0x6000038")]
-		[Address(RVA = "0x41F6610", Offset = "0x41F6610", VA = "0x41F6610", Slot = "17")]
+		[Address(RVA = "0x4533D70", Offset = "0x4533D70", VA = "0x4533D70", Slot = "17")]
 		get
 		{
 			return null;
@@ -121,7 +128,7 @@ public abstract class Constraint
 	internal abstract Constraint Clone(DataSet destination, bool ignoreNSforTableLookup);
 
 	[Token(Token = "0x6000032")]
-	[Address(RVA = "0x41F6280", Offset = "0x41F6280", VA = "0x41F6280")]
+	[Address(RVA = "0x45339E0", Offset = "0x45339E0", VA = "0x45339E0")]
 	internal void CheckConstraint()
 	{
 	}
@@ -139,7 +146,7 @@ public abstract class Constraint
 	internal abstract void CheckState();
 
 	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x41F63E0", Offset = "0x41F63E0", VA = "0x41F63E0")]
+	[Address(RVA = "0x4533B40", Offset = "0x4533B40", VA = "0x4533B40")]
 	protected void CheckStateForProperty()
 	{
 	}
@@ -148,14 +155,14 @@ public abstract class Constraint
 	internal abstract bool IsConstraintViolated();
 
 	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x41F6620", Offset = "0x41F6620", VA = "0x41F6620", Slot = "3")]
+	[Address(RVA = "0x4533D80", Offset = "0x4533D80", VA = "0x4533D80", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x41F6640", Offset = "0x41F6640", VA = "0x41F6640")]
+	[Address(RVA = "0x4533DA0", Offset = "0x4533DA0", VA = "0x4533DA0")]
 	protected Constraint()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Focusable
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using Unity.Properties;
@@ -51,13 +58,13 @@ public abstract class Focusable : CallbackEventHandler
 	public bool focusable
 	{
 		[Token(Token = "0x6000D02")]
-		[Address(RVA = "0x4D16120", Offset = "0x4D16120", VA = "0x4D16120")]
+		[Address(RVA = "0x503DA50", Offset = "0x503DA50", VA = "0x503DA50")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000D03")]
-		[Address(RVA = "0x4D15FE0", Offset = "0x4D15FE0", VA = "0x4D15FE0")]
+		[Address(RVA = "0x503D910", Offset = "0x503D910", VA = "0x503D910")]
 		set
 		{
 		}
@@ -68,13 +75,13 @@ public abstract class Focusable : CallbackEventHandler
 	public int tabIndex
 	{
 		[Token(Token = "0x6000D04")]
-		[Address(RVA = "0x4D16130", Offset = "0x4D16130", VA = "0x4D16130")]
+		[Address(RVA = "0x503DA60", Offset = "0x503DA60", VA = "0x503DA60")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000D05")]
-		[Address(RVA = "0x4D16090", Offset = "0x4D16090", VA = "0x4D16090")]
+		[Address(RVA = "0x503D9C0", Offset = "0x503D9C0", VA = "0x503D9C0")]
 		set
 		{
 		}
@@ -85,13 +92,13 @@ public abstract class Focusable : CallbackEventHandler
 	public bool delegatesFocus
 	{
 		[Token(Token = "0x6000D06")]
-		[Address(RVA = "0x4D16140", Offset = "0x4D16140", VA = "0x4D16140")]
+		[Address(RVA = "0x503DA70", Offset = "0x503DA70", VA = "0x503DA70")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000D07")]
-		[Address(RVA = "0x4D16150", Offset = "0x4D16150", VA = "0x4D16150")]
+		[Address(RVA = "0x503DA80", Offset = "0x503DA80", VA = "0x503DA80")]
 		set
 		{
 		}
@@ -101,13 +108,13 @@ public abstract class Focusable : CallbackEventHandler
 	internal bool excludeFromFocusRing
 	{
 		[Token(Token = "0x6000D08")]
-		[Address(RVA = "0x4D161F0", Offset = "0x4D161F0", VA = "0x4D161F0")]
+		[Address(RVA = "0x503DB20", Offset = "0x503DB20", VA = "0x503DB20")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000D09")]
-		[Address(RVA = "0x4D16200", Offset = "0x4D16200", VA = "0x4D16200")]
+		[Address(RVA = "0x503DB30", Offset = "0x503DB30", VA = "0x503DB30")]
 		set
 		{
 		}
@@ -118,7 +125,7 @@ public abstract class Focusable : CallbackEventHandler
 	public virtual bool canGrabFocus
 	{
 		[Token(Token = "0x6000D0A")]
-		[Address(RVA = "0x4D162C0", Offset = "0x4D162C0", VA = "0x4D162C0", Slot = "14")]
+		[Address(RVA = "0x503DBF0", Offset = "0x503DBF0", VA = "0x503DBF0", Slot = "14")]
 		get
 		{
 			return default(bool);
@@ -126,45 +133,45 @@ public abstract class Focusable : CallbackEventHandler
 	}
 
 	[Token(Token = "0x6000D00")]
-	[Address(RVA = "0x4D15EB0", Offset = "0x4D15EB0", VA = "0x4D15EB0")]
+	[Address(RVA = "0x503D7E0", Offset = "0x503D7E0", VA = "0x503D7E0")]
 	protected Focusable()
 	{
 	}
 
 	[Token(Token = "0x6000D0B")]
-	[Address(RVA = "0x4D162D0", Offset = "0x4D162D0", VA = "0x4D162D0", Slot = "15")]
+	[Address(RVA = "0x503DC00", Offset = "0x503DC00", VA = "0x503DC00", Slot = "15")]
 	public virtual void Focus()
 	{
 	}
 
 	[Token(Token = "0x6000D0C")]
-	[Address(RVA = "0x4D16700", Offset = "0x4D16700", VA = "0x4D16700", Slot = "16")]
+	[Address(RVA = "0x503E030", Offset = "0x503E030", VA = "0x503E030", Slot = "16")]
 	public virtual void Blur()
 	{
 	}
 
 	[Token(Token = "0x6000D0D")]
-	[Address(RVA = "0x4D168B0", Offset = "0x4D168B0", VA = "0x4D168B0")]
+	[Address(RVA = "0x503E1E0", Offset = "0x503E1E0", VA = "0x503E1E0")]
 	internal void BlurImmediately()
 	{
 	}
 
 	[Token(Token = "0x6000D0E")]
-	[Address(RVA = "0x4D16580", Offset = "0x4D16580", VA = "0x4D16580")]
+	[Address(RVA = "0x503DEB0", Offset = "0x503DEB0", VA = "0x503DEB0")]
 	private Focusable GetFocusDelegate()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D0F")]
-	[Address(RVA = "0x4D168E0", Offset = "0x4D168E0", VA = "0x4D168E0")]
+	[Address(RVA = "0x503E210", Offset = "0x503E210", VA = "0x503E210")]
 	private static Focusable GetFirstFocusableChild(VisualElement ve)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D10")]
-	[Address(RVA = "0x4D16A60", Offset = "0x4D16A60", VA = "0x4D16A60", Slot = "10")]
+	[Address(RVA = "0x503E390", Offset = "0x503E390", VA = "0x503E390", Slot = "10")]
 	[EventInterest(new Type[]
 	{
 		typeof(PointerDownEvent),
@@ -175,7 +182,7 @@ public abstract class Focusable : CallbackEventHandler
 	}
 
 	[Token(Token = "0x6000D11")]
-	[Address(RVA = "0x4D16B00", Offset = "0x4D16B00", VA = "0x4D16B00", Slot = "12")]
+	[Address(RVA = "0x503E430", Offset = "0x503E430", VA = "0x503E430", Slot = "12")]
 	[EventInterest(new Type[]
 	{
 		typeof(PointerDownEvent),
@@ -186,7 +193,7 @@ public abstract class Focusable : CallbackEventHandler
 	}
 
 	[Token(Token = "0x6000D12")]
-	[Address(RVA = "0x4D16AC0", Offset = "0x4D16AC0", VA = "0x4D16AC0")]
+	[Address(RVA = "0x503E3F0", Offset = "0x503E3F0", VA = "0x503E3F0")]
 	private void ProcessEvent(EventBase evt)
 	{
 	}

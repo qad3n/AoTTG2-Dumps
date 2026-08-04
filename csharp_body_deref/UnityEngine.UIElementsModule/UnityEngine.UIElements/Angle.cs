@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Angle
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -25,7 +32,7 @@ public struct Angle : IEquatable<Angle>
 			public override string Name
 			{
 				[Token(Token = "0x6000FDA")]
-				[Address(RVA = "0x4D50F00", Offset = "0x4D50F00", VA = "0x4D50F00", Slot = "7")]
+				[Address(RVA = "0x5078830", Offset = "0x5078830", VA = "0x5078830", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -34,7 +41,7 @@ public struct Angle : IEquatable<Angle>
 			}
 
 			[Token(Token = "0x6000FDB")]
-			[Address(RVA = "0x4D50E40", Offset = "0x4D50E40", VA = "0x4D50E40")]
+			[Address(RVA = "0x5078770", Offset = "0x5078770", VA = "0x5078770")]
 			public ValueProperty()
 			{
 			}
@@ -53,7 +60,7 @@ public struct Angle : IEquatable<Angle>
 			public override string Name
 			{
 				[Token(Token = "0x6000FDC")]
-				[Address(RVA = "0x4D50F10", Offset = "0x4D50F10", VA = "0x4D50F10", Slot = "7")]
+				[Address(RVA = "0x5078840", Offset = "0x5078840", VA = "0x5078840", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -62,14 +69,14 @@ public struct Angle : IEquatable<Angle>
 			}
 
 			[Token(Token = "0x6000FDD")]
-			[Address(RVA = "0x4D50EA0", Offset = "0x4D50EA0", VA = "0x4D50EA0")]
+			[Address(RVA = "0x50787D0", Offset = "0x50787D0", VA = "0x50787D0")]
 			public UnitProperty()
 			{
 			}
 		}
 
 		[Token(Token = "0x6000FD9")]
-		[Address(RVA = "0x4D50CB0", Offset = "0x4D50CB0", VA = "0x4D50CB0")]
+		[Address(RVA = "0x50785E0", Offset = "0x50785E0", VA = "0x50785E0")]
 		public PropertyBag()
 		{
 		}
@@ -102,7 +109,7 @@ public struct Angle : IEquatable<Angle>
 	public float value
 	{
 		[Token(Token = "0x6000FCF")]
-		[Address(RVA = "0x4D509A0", Offset = "0x4D509A0", VA = "0x4D509A0")]
+		[Address(RVA = "0x50782D0", Offset = "0x50782D0", VA = "0x50782D0")]
 		get
 		{
 			return default(float);
@@ -110,68 +117,68 @@ public struct Angle : IEquatable<Angle>
 	}
 
 	[Token(Token = "0x6000FCE")]
-	[Address(RVA = "0x4D50980", Offset = "0x4D50980", VA = "0x4D50980")]
+	[Address(RVA = "0x50782B0", Offset = "0x50782B0", VA = "0x50782B0")]
 	internal static Angle None()
 	{
 		return default(Angle);
 	}
 
 	[Token(Token = "0x6000FD0")]
-	[Address(RVA = "0x4D509B0", Offset = "0x4D509B0", VA = "0x4D509B0")]
+	[Address(RVA = "0x50782E0", Offset = "0x50782E0", VA = "0x50782E0")]
 	public Angle(float value, AngleUnit unit)
 	{
 	}
 
 	[Token(Token = "0x6000FD1")]
-	[Address(RVA = "0x4D50990", Offset = "0x4D50990", VA = "0x4D50990")]
+	[Address(RVA = "0x50782C0", Offset = "0x50782C0", VA = "0x50782C0")]
 	private Angle(float value, Unit unit)
 	{
 	}
 
 	[Token(Token = "0x6000FD2")]
-	[Address(RVA = "0x4D509C0", Offset = "0x4D509C0", VA = "0x4D509C0")]
+	[Address(RVA = "0x50782F0", Offset = "0x50782F0", VA = "0x50782F0")]
 	public float ToDegrees()
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000FD3")]
-	[Address(RVA = "0x4D50A20", Offset = "0x4D50A20", VA = "0x4D50A20")]
+	[Address(RVA = "0x5078350", Offset = "0x5078350", VA = "0x5078350")]
 	public static implicit operator Angle(float value)
 	{
 		return default(Angle);
 	}
 
 	[Token(Token = "0x6000FD4")]
-	[Address(RVA = "0x4D50A30", Offset = "0x4D50A30", VA = "0x4D50A30")]
+	[Address(RVA = "0x5078360", Offset = "0x5078360", VA = "0x5078360")]
 	public static bool operator ==(Angle lhs, Angle rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FD5")]
-	[Address(RVA = "0x4D50A60", Offset = "0x4D50A60", VA = "0x4D50A60", Slot = "4")]
+	[Address(RVA = "0x5078390", Offset = "0x5078390", VA = "0x5078390", Slot = "4")]
 	public bool Equals(Angle other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FD6")]
-	[Address(RVA = "0x4D50A80", Offset = "0x4D50A80", VA = "0x4D50A80", Slot = "0")]
+	[Address(RVA = "0x50783B0", Offset = "0x50783B0", VA = "0x50783B0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FD7")]
-	[Address(RVA = "0x4D50AF0", Offset = "0x4D50AF0", VA = "0x4D50AF0", Slot = "2")]
+	[Address(RVA = "0x5078420", Offset = "0x5078420", VA = "0x5078420", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000FD8")]
-	[Address(RVA = "0x4D50B10", Offset = "0x4D50B10", VA = "0x4D50B10", Slot = "3")]
+	[Address(RVA = "0x5078440", Offset = "0x5078440", VA = "0x5078440", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

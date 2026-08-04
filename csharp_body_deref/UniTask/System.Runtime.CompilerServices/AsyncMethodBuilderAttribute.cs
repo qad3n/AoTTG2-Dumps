@@ -9,7 +9,7 @@ internal sealed class AsyncMethodBuilderAttribute : Attribute
 	public Type BuilderType
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x46ABFF0", Offset = "0x46ABFF0", VA = "0x46ABFF0")]
+		[Address(RVA = "0x49D10F0", Offset = "0x49D10F0", VA = "0x49D10F0")]
 		[CompilerGenerated]
 		get
 		{
@@ -18,7 +18,7 @@ internal sealed class AsyncMethodBuilderAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x46AC000", Offset = "0x46AC000", VA = "0x46AC000")]
+	[Address(RVA = "0x49D1100", Offset = "0x49D1100", VA = "0x49D1100")]
 	public AsyncMethodBuilderAttribute(Type builderType)
 	{
 	}

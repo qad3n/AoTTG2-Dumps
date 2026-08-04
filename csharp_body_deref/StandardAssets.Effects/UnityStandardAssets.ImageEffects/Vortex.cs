@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.Vortex
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/Vortex.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -21,13 +28,13 @@ public class Vortex : ImageEffectBase
 	public Vector2 center;
 
 	[Token(Token = "0x60000B8")]
-	[Address(RVA = "0x41657C0", Offset = "0x41657C0", VA = "0x41657C0")]
+	[Address(RVA = "0x448A8C0", Offset = "0x448A8C0", VA = "0x448A8C0")]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x60000B9")]
-	[Address(RVA = "0x4165800", Offset = "0x4165800", VA = "0x4165800")]
+	[Address(RVA = "0x448A900", Offset = "0x448A900", VA = "0x448A900")]
 	public Vortex()
 	{
 	}

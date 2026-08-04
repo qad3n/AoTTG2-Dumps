@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: NextSongPanel
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/NextSongPanel.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 using UI;
@@ -14,7 +21,7 @@ internal class NextSongPanel : SimplePanel
 	protected override float Width
 	{
 		[Token(Token = "0x60000BF")]
-		[Address(RVA = "0x3C6E330", Offset = "0x3C6E330", VA = "0x3C6E330", Slot = "5")]
+		[Address(RVA = "0x3F63C80", Offset = "0x3F63C80", VA = "0x3F63C80", Slot = "5")]
 		get
 		{
 			return default(float);
@@ -25,7 +32,7 @@ internal class NextSongPanel : SimplePanel
 	protected override float Height
 	{
 		[Token(Token = "0x60000C0")]
-		[Address(RVA = "0x3C6E340", Offset = "0x3C6E340", VA = "0x3C6E340", Slot = "6")]
+		[Address(RVA = "0x3F63C90", Offset = "0x3F63C90", VA = "0x3F63C90", Slot = "6")]
 		get
 		{
 			return default(float);
@@ -36,7 +43,7 @@ internal class NextSongPanel : SimplePanel
 	protected override bool DoublePanel
 	{
 		[Token(Token = "0x60000C1")]
-		[Address(RVA = "0x3C6E350", Offset = "0x3C6E350", VA = "0x3C6E350", Slot = "13")]
+		[Address(RVA = "0x3F63CA0", Offset = "0x3F63CA0", VA = "0x3F63CA0", Slot = "13")]
 		get
 		{
 			return default(bool);
@@ -47,7 +54,7 @@ internal class NextSongPanel : SimplePanel
 	protected override bool DoublePanelDivider
 	{
 		[Token(Token = "0x60000C2")]
-		[Address(RVA = "0x3C6E360", Offset = "0x3C6E360", VA = "0x3C6E360", Slot = "14")]
+		[Address(RVA = "0x3F63CB0", Offset = "0x3F63CB0", VA = "0x3F63CB0", Slot = "14")]
 		get
 		{
 			return default(bool);
@@ -58,7 +65,7 @@ internal class NextSongPanel : SimplePanel
 	protected override float VerticalSpacing
 	{
 		[Token(Token = "0x60000C3")]
-		[Address(RVA = "0x3C6E370", Offset = "0x3C6E370", VA = "0x3C6E370", Slot = "11")]
+		[Address(RVA = "0x3F63CC0", Offset = "0x3F63CC0", VA = "0x3F63CC0", Slot = "11")]
 		get
 		{
 			return default(float);
@@ -69,7 +76,7 @@ internal class NextSongPanel : SimplePanel
 	protected override int VerticalPadding
 	{
 		[Token(Token = "0x60000C4")]
-		[Address(RVA = "0x3C6E380", Offset = "0x3C6E380", VA = "0x3C6E380", Slot = "9")]
+		[Address(RVA = "0x3F63CD0", Offset = "0x3F63CD0", VA = "0x3F63CD0", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -80,7 +87,7 @@ internal class NextSongPanel : SimplePanel
 	protected override int HorizontalPadding
 	{
 		[Token(Token = "0x60000C5")]
-		[Address(RVA = "0x3C6E390", Offset = "0x3C6E390", VA = "0x3C6E390", Slot = "10")]
+		[Address(RVA = "0x3F63CE0", Offset = "0x3F63CE0", VA = "0x3F63CE0", Slot = "10")]
 		get
 		{
 			return default(int);
@@ -88,19 +95,19 @@ internal class NextSongPanel : SimplePanel
 	}
 
 	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x3C6E3A0", Offset = "0x3C6E3A0", VA = "0x3C6E3A0", Slot = "20")]
+	[Address(RVA = "0x3F63CF0", Offset = "0x3F63CF0", VA = "0x3F63CF0", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
 	[Token(Token = "0x60000C7")]
-	[Address(RVA = "0x3C6E7C0", Offset = "0x3C6E7C0", VA = "0x3C6E7C0")]
+	[Address(RVA = "0x3F64110", Offset = "0x3F64110", VA = "0x3F64110")]
 	public void ChangeSongText(string name)
 	{
 	}
 
 	[Token(Token = "0x60000C8")]
-	[Address(RVA = "0x3C6E7F0", Offset = "0x3C6E7F0", VA = "0x3C6E7F0")]
+	[Address(RVA = "0x3F64140", Offset = "0x3F64140", VA = "0x3F64140")]
 	public NextSongPanel()
 	{
 	}

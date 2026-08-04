@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.TypeConverterAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -15,7 +22,7 @@ public sealed class TypeConverterAttribute : Attribute
 	public string ConverterTypeName
 	{
 		[Token(Token = "0x600128D")]
-		[Address(RVA = "0x4586110", Offset = "0x4586110", VA = "0x4586110")]
+		[Address(RVA = "0x48AB210", Offset = "0x48AB210", VA = "0x48AB210")]
 		[CompilerGenerated]
 		get
 		{
@@ -24,32 +31,32 @@ public sealed class TypeConverterAttribute : Attribute
 	}
 
 	[Token(Token = "0x600128A")]
-	[Address(RVA = "0x4586050", Offset = "0x4586050", VA = "0x4586050")]
+	[Address(RVA = "0x48AB150", Offset = "0x48AB150", VA = "0x48AB150")]
 	public TypeConverterAttribute()
 	{
 	}
 
 	[Token(Token = "0x600128B")]
-	[Address(RVA = "0x4586090", Offset = "0x4586090", VA = "0x4586090")]
+	[Address(RVA = "0x48AB190", Offset = "0x48AB190", VA = "0x48AB190")]
 	public TypeConverterAttribute(Type type)
 	{
 	}
 
 	[Token(Token = "0x600128C")]
-	[Address(RVA = "0x45860E0", Offset = "0x45860E0", VA = "0x45860E0")]
+	[Address(RVA = "0x48AB1E0", Offset = "0x48AB1E0", VA = "0x48AB1E0")]
 	public TypeConverterAttribute(string typeName)
 	{
 	}
 
 	[Token(Token = "0x600128E")]
-	[Address(RVA = "0x4586120", Offset = "0x4586120", VA = "0x4586120", Slot = "0")]
+	[Address(RVA = "0x48AB220", Offset = "0x48AB220", VA = "0x48AB220", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600128F")]
-	[Address(RVA = "0x4586190", Offset = "0x4586190", VA = "0x4586190", Slot = "2")]
+	[Address(RVA = "0x48AB290", Offset = "0x48AB290", VA = "0x48AB290", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

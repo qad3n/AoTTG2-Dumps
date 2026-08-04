@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.X509Certificates.X509Store
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using Mono.Security.X509;
 
@@ -30,7 +37,7 @@ public sealed class X509Store : IDisposable
 	public X509Certificate2Collection Certificates
 	{
 		[Token(Token = "0x600066D")]
-		[Address(RVA = "0x461ECE0", Offset = "0x461ECE0", VA = "0x461ECE0")]
+		[Address(RVA = "0x4943DE0", Offset = "0x4943DE0", VA = "0x4943DE0")]
 		get
 		{
 			return null;
@@ -41,7 +48,7 @@ public sealed class X509Store : IDisposable
 	private X509Stores Factory
 	{
 		[Token(Token = "0x600066E")]
-		[Address(RVA = "0x461ED60", Offset = "0x461ED60", VA = "0x461ED60")]
+		[Address(RVA = "0x4943E60", Offset = "0x4943E60", VA = "0x4943E60")]
 		get
 		{
 			return null;
@@ -52,7 +59,7 @@ public sealed class X509Store : IDisposable
 	internal Mono.Security.X509.X509Store Store
 	{
 		[Token(Token = "0x600066F")]
-		[Address(RVA = "0x461ED80", Offset = "0x461ED80", VA = "0x461ED80")]
+		[Address(RVA = "0x4943E80", Offset = "0x4943E80", VA = "0x4943E80")]
 		get
 		{
 			return null;
@@ -60,25 +67,25 @@ public sealed class X509Store : IDisposable
 	}
 
 	[Token(Token = "0x600066C")]
-	[Address(RVA = "0x461EBB0", Offset = "0x461EBB0", VA = "0x461EBB0")]
+	[Address(RVA = "0x4943CB0", Offset = "0x4943CB0", VA = "0x4943CB0")]
 	public X509Store(StoreName storeName, StoreLocation storeLocation)
 	{
 	}
 
 	[Token(Token = "0x6000670")]
-	[Address(RVA = "0x461ED90", Offset = "0x461ED90", VA = "0x461ED90")]
+	[Address(RVA = "0x4943E90", Offset = "0x4943E90", VA = "0x4943E90")]
 	public void Close()
 	{
 	}
 
 	[Token(Token = "0x6000671")]
-	[Address(RVA = "0x461EDC0", Offset = "0x461EDC0", VA = "0x461EDC0", Slot = "4")]
+	[Address(RVA = "0x4943EC0", Offset = "0x4943EC0", VA = "0x4943EC0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000672")]
-	[Address(RVA = "0x461EDF0", Offset = "0x461EDF0", VA = "0x461EDF0")]
+	[Address(RVA = "0x4943EF0", Offset = "0x4943EF0", VA = "0x4943EF0")]
 	public void Open(OpenFlags flags)
 	{
 	}

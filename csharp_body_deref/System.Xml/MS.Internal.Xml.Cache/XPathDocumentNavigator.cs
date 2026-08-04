@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MS.Internal.Xml.Cache.XPathDocumentNavigator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml;
 using System.Xml.XPath;
 using Il2CppDummyDll;
@@ -31,7 +38,7 @@ internal sealed class XPathDocumentNavigator : XPathNavigator, IXmlLineInfo
 	public override string Value
 	{
 		[Token(Token = "0x6001C80")]
-		[Address(RVA = "0x4452620", Offset = "0x4452620", VA = "0x4452620", Slot = "5")]
+		[Address(RVA = "0x478FD80", Offset = "0x478FD80", VA = "0x478FD80", Slot = "5")]
 		get
 		{
 			return null;
@@ -42,7 +49,7 @@ internal sealed class XPathDocumentNavigator : XPathNavigator, IXmlLineInfo
 	public override XPathNodeType NodeType
 	{
 		[Token(Token = "0x6001C82")]
-		[Address(RVA = "0x4452C30", Offset = "0x4452C30", VA = "0x4452C30", Slot = "26")]
+		[Address(RVA = "0x4790390", Offset = "0x4790390", VA = "0x4790390", Slot = "26")]
 		get
 		{
 			return default(XPathNodeType);
@@ -53,7 +60,7 @@ internal sealed class XPathDocumentNavigator : XPathNavigator, IXmlLineInfo
 	public override string LocalName
 	{
 		[Token(Token = "0x6001C83")]
-		[Address(RVA = "0x4452C70", Offset = "0x4452C70", VA = "0x4452C70", Slot = "27")]
+		[Address(RVA = "0x47903D0", Offset = "0x47903D0", VA = "0x47903D0", Slot = "27")]
 		get
 		{
 			return null;
@@ -64,7 +71,7 @@ internal sealed class XPathDocumentNavigator : XPathNavigator, IXmlLineInfo
 	public override string NamespaceURI
 	{
 		[Token(Token = "0x6001C84")]
-		[Address(RVA = "0x4452CD0", Offset = "0x4452CD0", VA = "0x4452CD0", Slot = "29")]
+		[Address(RVA = "0x4790430", Offset = "0x4790430", VA = "0x4790430", Slot = "29")]
 		get
 		{
 			return null;
@@ -75,7 +82,7 @@ internal sealed class XPathDocumentNavigator : XPathNavigator, IXmlLineInfo
 	public override string Name
 	{
 		[Token(Token = "0x6001C85")]
-		[Address(RVA = "0x4452D30", Offset = "0x4452D30", VA = "0x4452D30", Slot = "28")]
+		[Address(RVA = "0x4790490", Offset = "0x4790490", VA = "0x4790490", Slot = "28")]
 		get
 		{
 			return null;
@@ -86,7 +93,7 @@ internal sealed class XPathDocumentNavigator : XPathNavigator, IXmlLineInfo
 	public override string Prefix
 	{
 		[Token(Token = "0x6001C86")]
-		[Address(RVA = "0x4452E20", Offset = "0x4452E20", VA = "0x4452E20", Slot = "30")]
+		[Address(RVA = "0x4790580", Offset = "0x4790580", VA = "0x4790580", Slot = "30")]
 		get
 		{
 			return null;
@@ -97,7 +104,7 @@ internal sealed class XPathDocumentNavigator : XPathNavigator, IXmlLineInfo
 	public override string BaseURI
 	{
 		[Token(Token = "0x6001C87")]
-		[Address(RVA = "0x4452E80", Offset = "0x4452E80", VA = "0x4452E80", Slot = "31")]
+		[Address(RVA = "0x47905E0", Offset = "0x47905E0", VA = "0x47905E0", Slot = "31")]
 		get
 		{
 			return null;
@@ -108,7 +115,7 @@ internal sealed class XPathDocumentNavigator : XPathNavigator, IXmlLineInfo
 	public override XmlNameTable NameTable
 	{
 		[Token(Token = "0x6001C88")]
-		[Address(RVA = "0x4452FA0", Offset = "0x4452FA0", VA = "0x4452FA0", Slot = "21")]
+		[Address(RVA = "0x4790700", Offset = "0x4790700", VA = "0x4790700", Slot = "21")]
 		get
 		{
 			return null;
@@ -119,7 +126,7 @@ internal sealed class XPathDocumentNavigator : XPathNavigator, IXmlLineInfo
 	public override object UnderlyingObject
 	{
 		[Token(Token = "0x6001CA3")]
-		[Address(RVA = "0x4455700", Offset = "0x4455700", VA = "0x4455700", Slot = "33")]
+		[Address(RVA = "0x4792E60", Offset = "0x4792E60", VA = "0x4792E60", Slot = "33")]
 		get
 		{
 			return null;
@@ -130,7 +137,7 @@ internal sealed class XPathDocumentNavigator : XPathNavigator, IXmlLineInfo
 	public int LineNumber
 	{
 		[Token(Token = "0x6001CA5")]
-		[Address(RVA = "0x4455760", Offset = "0x4455760", VA = "0x4455760", Slot = "65")]
+		[Address(RVA = "0x4792EC0", Offset = "0x4792EC0", VA = "0x4792EC0", Slot = "65")]
 		get
 		{
 			return default(int);
@@ -141,7 +148,7 @@ internal sealed class XPathDocumentNavigator : XPathNavigator, IXmlLineInfo
 	public int LinePosition
 	{
 		[Token(Token = "0x6001CA6")]
-		[Address(RVA = "0x4455800", Offset = "0x4455800", VA = "0x4455800", Slot = "66")]
+		[Address(RVA = "0x4792F60", Offset = "0x4792F60", VA = "0x4792F60", Slot = "66")]
 		get
 		{
 			return default(int);
@@ -149,235 +156,235 @@ internal sealed class XPathDocumentNavigator : XPathNavigator, IXmlLineInfo
 	}
 
 	[Token(Token = "0x6001C7E")]
-	[Address(RVA = "0x4452590", Offset = "0x4452590", VA = "0x4452590")]
+	[Address(RVA = "0x478FCF0", Offset = "0x478FCF0", VA = "0x478FCF0")]
 	public XPathDocumentNavigator(XPathNode[] pageCurrent, int idxCurrent, XPathNode[] pageParent, int idxParent)
 	{
 	}
 
 	[Token(Token = "0x6001C7F")]
-	[Address(RVA = "0x4451820", Offset = "0x4451820", VA = "0x4451820")]
+	[Address(RVA = "0x478EF80", Offset = "0x478EF80", VA = "0x478EF80")]
 	public XPathDocumentNavigator(XPathDocumentNavigator nav)
 	{
 	}
 
 	[Token(Token = "0x6001C81")]
-	[Address(RVA = "0x4452B70", Offset = "0x4452B70", VA = "0x4452B70", Slot = "25")]
+	[Address(RVA = "0x47902D0", Offset = "0x47902D0", VA = "0x47902D0", Slot = "25")]
 	public override XPathNavigator Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C89")]
-	[Address(RVA = "0x4453000", Offset = "0x4453000", VA = "0x4453000", Slot = "35")]
+	[Address(RVA = "0x4790760", Offset = "0x4790760", VA = "0x4790760", Slot = "35")]
 	public override bool MoveToFirstAttribute()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C8A")]
-	[Address(RVA = "0x4453100", Offset = "0x4453100", VA = "0x4453100", Slot = "36")]
+	[Address(RVA = "0x4790860", Offset = "0x4790860", VA = "0x4790860", Slot = "36")]
 	public override bool MoveToNextAttribute()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C8B")]
-	[Address(RVA = "0x44531B0", Offset = "0x44531B0", VA = "0x44531B0", Slot = "34")]
+	[Address(RVA = "0x4790910", Offset = "0x4790910", VA = "0x4790910", Slot = "34")]
 	public override bool MoveToAttribute(string localName, string namespaceURI)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C8C")]
-	[Address(RVA = "0x44533D0", Offset = "0x44533D0", VA = "0x44533D0", Slot = "38")]
+	[Address(RVA = "0x4790B30", Offset = "0x4790B30", VA = "0x4790B30", Slot = "38")]
 	public override bool MoveToFirstNamespace(XPathNamespaceScope namespaceScope)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C8D")]
-	[Address(RVA = "0x4453740", Offset = "0x4453740", VA = "0x4453740", Slot = "39")]
+	[Address(RVA = "0x4790EA0", Offset = "0x4790EA0", VA = "0x4790EA0", Slot = "39")]
 	public override bool MoveToNextNamespace(XPathNamespaceScope scope)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C8E")]
-	[Address(RVA = "0x44539F0", Offset = "0x44539F0", VA = "0x44539F0", Slot = "40")]
+	[Address(RVA = "0x4791150", Offset = "0x4791150", VA = "0x4791150", Slot = "40")]
 	public override bool MoveToNext()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C8F")]
-	[Address(RVA = "0x4453A90", Offset = "0x4453A90", VA = "0x4453A90", Slot = "41")]
+	[Address(RVA = "0x47911F0", Offset = "0x47911F0", VA = "0x47911F0", Slot = "41")]
 	public override bool MoveToFirstChild()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C90")]
-	[Address(RVA = "0x4453C40", Offset = "0x4453C40", VA = "0x4453C40", Slot = "42")]
+	[Address(RVA = "0x47913A0", Offset = "0x47913A0", VA = "0x47913A0", Slot = "42")]
 	public override bool MoveToParent()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C91")]
-	[Address(RVA = "0x4453D80", Offset = "0x4453D80", VA = "0x4453D80", Slot = "44")]
+	[Address(RVA = "0x47914E0", Offset = "0x47914E0", VA = "0x47914E0", Slot = "44")]
 	public override bool MoveTo(XPathNavigator other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C92")]
-	[Address(RVA = "0x4453E20", Offset = "0x4453E20", VA = "0x4453E20", Slot = "45")]
+	[Address(RVA = "0x4791580", Offset = "0x4791580", VA = "0x4791580", Slot = "45")]
 	public override bool MoveToId(string id)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C93")]
-	[Address(RVA = "0x4453EC0", Offset = "0x4453EC0", VA = "0x4453EC0", Slot = "52")]
+	[Address(RVA = "0x4791620", Offset = "0x4791620", VA = "0x4791620", Slot = "52")]
 	public override bool IsSamePosition(XPathNavigator other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C94")]
-	[Address(RVA = "0x4453F50", Offset = "0x4453F50", VA = "0x4453F50", Slot = "43")]
+	[Address(RVA = "0x47916B0", Offset = "0x47916B0", VA = "0x47916B0", Slot = "43")]
 	public override void MoveToRoot()
 	{
 	}
 
 	[Token(Token = "0x6001C95")]
-	[Address(RVA = "0x4453FE0", Offset = "0x4453FE0", VA = "0x4453FE0", Slot = "46")]
+	[Address(RVA = "0x4791740", Offset = "0x4791740", VA = "0x4791740", Slot = "46")]
 	public override bool MoveToChild(string localName, string namespaceURI)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C96")]
-	[Address(RVA = "0x44541D0", Offset = "0x44541D0", VA = "0x44541D0", Slot = "50")]
+	[Address(RVA = "0x4791930", Offset = "0x4791930", VA = "0x4791930", Slot = "50")]
 	public override bool MoveToNext(string localName, string namespaceURI)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C97")]
-	[Address(RVA = "0x4454380", Offset = "0x4454380", VA = "0x4454380", Slot = "47")]
+	[Address(RVA = "0x4791AE0", Offset = "0x4791AE0", VA = "0x4791AE0", Slot = "47")]
 	public override bool MoveToChild(XPathNodeType type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C98")]
-	[Address(RVA = "0x44545B0", Offset = "0x44545B0", VA = "0x44545B0", Slot = "51")]
+	[Address(RVA = "0x4791D10", Offset = "0x4791D10", VA = "0x4791D10", Slot = "51")]
 	public override bool MoveToNext(XPathNodeType type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C99")]
-	[Address(RVA = "0x44546E0", Offset = "0x44546E0", VA = "0x44546E0", Slot = "48")]
+	[Address(RVA = "0x4791E40", Offset = "0x4791E40", VA = "0x4791E40", Slot = "48")]
 	public override bool MoveToFollowing(string localName, string namespaceURI, XPathNavigator end)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C9A")]
-	[Address(RVA = "0x4454CF0", Offset = "0x4454CF0", VA = "0x4454CF0", Slot = "49")]
+	[Address(RVA = "0x4792450", Offset = "0x4792450", VA = "0x4792450", Slot = "49")]
 	public override bool MoveToFollowing(XPathNodeType type, XPathNavigator end)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C9B")]
-	[Address(RVA = "0x4455150", Offset = "0x4455150", VA = "0x4455150", Slot = "60")]
+	[Address(RVA = "0x47928B0", Offset = "0x47928B0", VA = "0x47928B0", Slot = "60")]
 	public override XPathNodeIterator SelectChildren(XPathNodeType type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C9C")]
-	[Address(RVA = "0x4455200", Offset = "0x4455200", VA = "0x4455200", Slot = "61")]
+	[Address(RVA = "0x4792960", Offset = "0x4792960", VA = "0x4792960", Slot = "61")]
 	public override XPathNodeIterator SelectChildren(string name, string namespaceURI)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C9D")]
-	[Address(RVA = "0x4455290", Offset = "0x4455290", VA = "0x4455290", Slot = "62")]
+	[Address(RVA = "0x47929F0", Offset = "0x47929F0", VA = "0x47929F0", Slot = "62")]
 	public override XPathNodeIterator SelectDescendants(XPathNodeType type, bool matchSelf)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C9E")]
-	[Address(RVA = "0x44552F0", Offset = "0x44552F0", VA = "0x44552F0", Slot = "63")]
+	[Address(RVA = "0x4792A50", Offset = "0x4792A50", VA = "0x4792A50", Slot = "63")]
 	public override XPathNodeIterator SelectDescendants(string name, string namespaceURI, bool matchSelf)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C9F")]
-	[Address(RVA = "0x4455380", Offset = "0x4455380", VA = "0x4455380", Slot = "54")]
+	[Address(RVA = "0x4792AE0", Offset = "0x4792AE0", VA = "0x4792AE0", Slot = "54")]
 	public override XmlNodeOrder ComparePosition(XPathNavigator other)
 	{
 		return default(XmlNodeOrder);
 	}
 
 	[Token(Token = "0x6001CA0")]
-	[Address(RVA = "0x4455580", Offset = "0x4455580", VA = "0x4455580", Slot = "53")]
+	[Address(RVA = "0x4792CE0", Offset = "0x4792CE0", VA = "0x4792CE0", Slot = "53")]
 	public override bool IsDescendant(XPathNavigator other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001CA1")]
-	[Address(RVA = "0x4455480", Offset = "0x4455480", VA = "0x4455480")]
+	[Address(RVA = "0x4792BE0", Offset = "0x4792BE0", VA = "0x4792BE0")]
 	private int GetPrimaryLocation()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001CA2")]
-	[Address(RVA = "0x44554F0", Offset = "0x44554F0", VA = "0x44554F0")]
+	[Address(RVA = "0x4792C50", Offset = "0x4792C50", VA = "0x4792C50")]
 	private int GetSecondaryLocation()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001CA4")]
-	[Address(RVA = "0x4455720", Offset = "0x4455720", VA = "0x4455720", Slot = "64")]
+	[Address(RVA = "0x4792E80", Offset = "0x4792E80", VA = "0x4792E80", Slot = "64")]
 	public bool HasLineInfo()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001CA7")]
-	[Address(RVA = "0x44558D0", Offset = "0x44558D0", VA = "0x44558D0")]
+	[Address(RVA = "0x4793030", Offset = "0x4793030", VA = "0x4793030")]
 	public int GetPositionHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001CA8")]
-	[Address(RVA = "0x4452160", Offset = "0x4452160", VA = "0x4452160")]
+	[Address(RVA = "0x478F8C0", Offset = "0x478F8C0", VA = "0x478F8C0")]
 	public bool IsElementMatch(string localName, string namespaceURI)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001CA9")]
-	[Address(RVA = "0x4452510", Offset = "0x4452510", VA = "0x4452510")]
+	[Address(RVA = "0x478FC70", Offset = "0x478FC70", VA = "0x478FC70")]
 	public bool IsKindMatch(XPathNodeType typ)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001CAA")]
-	[Address(RVA = "0x4454830", Offset = "0x4454830", VA = "0x4454830")]
+	[Address(RVA = "0x4791F90", Offset = "0x4791F90", VA = "0x4791F90")]
 	private int GetFollowingEnd(XPathDocumentNavigator end, bool useParentOfVirtual, out XPathNode[] pageEnd)
 	{
 		return default(int);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Chat.ChatParameterCode
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonChat/Code/ChatParameterCode.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Photon.Chat;
@@ -81,7 +88,7 @@ public class ChatParameterCode
 	public const byte UniqueRoomId = 29;
 
 	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x3BC2EC0", Offset = "0x3BC2EC0", VA = "0x3BC2EC0")]
+	[Address(RVA = "0x3EB8810", Offset = "0x3EB8810", VA = "0x3EB8810")]
 	public ChatParameterCode()
 	{
 	}

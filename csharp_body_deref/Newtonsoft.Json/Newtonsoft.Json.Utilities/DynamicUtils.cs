@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Utilities.DynamicUtils
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Dynamic;
@@ -48,33 +55,33 @@ internal static class DynamicUtils
 		private static bool _init;
 
 		[Token(Token = "0x60005EE")]
-		[Address(RVA = "0x3AC0700", Offset = "0x3AC0700", VA = "0x3AC0700")]
+		[Address(RVA = "0x3DB6050", Offset = "0x3DB6050", VA = "0x3DB6050")]
 		private static void Init()
 		{
 		}
 
 		[Token(Token = "0x60005EF")]
-		[Address(RVA = "0x3AC0900", Offset = "0x3AC0900", VA = "0x3AC0900")]
+		[Address(RVA = "0x3DB6250", Offset = "0x3DB6250", VA = "0x3DB6250")]
 		private static object CreateSharpArgumentInfoArray(params int[] values)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60005F0")]
-		[Address(RVA = "0x3AC0DA0", Offset = "0x3AC0DA0", VA = "0x3AC0DA0")]
+		[Address(RVA = "0x3DB66F0", Offset = "0x3DB66F0", VA = "0x3DB66F0")]
 		private static void CreateMemberCalls()
 		{
 		}
 
 		[Token(Token = "0x60005F1")]
-		[Address(RVA = "0x3AC12F0", Offset = "0x3AC12F0", VA = "0x3AC12F0")]
+		[Address(RVA = "0x3DB6C40", Offset = "0x3DB6C40", VA = "0x3DB6C40")]
 		public static CallSiteBinder GetMember(string name, Type context)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60005F2")]
-		[Address(RVA = "0x3AC14F0", Offset = "0x3AC14F0", VA = "0x3AC14F0")]
+		[Address(RVA = "0x3DB6E40", Offset = "0x3DB6E40", VA = "0x3DB6E40")]
 		public static CallSiteBinder SetMember(string name, Type context)
 		{
 			return null;
@@ -82,7 +89,7 @@ internal static class DynamicUtils
 	}
 
 	[Token(Token = "0x60005ED")]
-	[Address(RVA = "0x3AC0600", Offset = "0x3AC0600", VA = "0x3AC0600")]
+	[Address(RVA = "0x3DB5F50", Offset = "0x3DB5F50", VA = "0x3DB5F50")]
 	public static IEnumerable<string> GetDynamicMemberNames(this IDynamicMetaObjectProvider dynamicProvider)
 	{
 		return null;

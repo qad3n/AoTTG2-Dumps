@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.LowLevel.GlyphValueRecord
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -38,13 +45,13 @@ public struct GlyphValueRecord : IEquatable<GlyphValueRecord>
 	public float xPlacement
 	{
 		[Token(Token = "0x600006F")]
-		[Address(RVA = "0x4B7EA50", Offset = "0x4B7EA50", VA = "0x4B7EA50")]
+		[Address(RVA = "0x4EA6380", Offset = "0x4EA6380", VA = "0x4EA6380")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000070")]
-		[Address(RVA = "0x4B7EA60", Offset = "0x4B7EA60", VA = "0x4B7EA60")]
+		[Address(RVA = "0x4EA6390", Offset = "0x4EA6390", VA = "0x4EA6390")]
 		set
 		{
 		}
@@ -54,13 +61,13 @@ public struct GlyphValueRecord : IEquatable<GlyphValueRecord>
 	public float yPlacement
 	{
 		[Token(Token = "0x6000071")]
-		[Address(RVA = "0x4B7EA70", Offset = "0x4B7EA70", VA = "0x4B7EA70")]
+		[Address(RVA = "0x4EA63A0", Offset = "0x4EA63A0", VA = "0x4EA63A0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000072")]
-		[Address(RVA = "0x4B7EA80", Offset = "0x4B7EA80", VA = "0x4B7EA80")]
+		[Address(RVA = "0x4EA63B0", Offset = "0x4EA63B0", VA = "0x4EA63B0")]
 		set
 		{
 		}
@@ -70,7 +77,7 @@ public struct GlyphValueRecord : IEquatable<GlyphValueRecord>
 	public float xAdvance
 	{
 		[Token(Token = "0x6000073")]
-		[Address(RVA = "0x4B7EA90", Offset = "0x4B7EA90", VA = "0x4B7EA90")]
+		[Address(RVA = "0x4EA63C0", Offset = "0x4EA63C0", VA = "0x4EA63C0")]
 		get
 		{
 			return default(float);
@@ -81,7 +88,7 @@ public struct GlyphValueRecord : IEquatable<GlyphValueRecord>
 	public float yAdvance
 	{
 		[Token(Token = "0x6000074")]
-		[Address(RVA = "0x4B7EAA0", Offset = "0x4B7EAA0", VA = "0x4B7EAA0")]
+		[Address(RVA = "0x4EA63D0", Offset = "0x4EA63D0", VA = "0x4EA63D0")]
 		get
 		{
 			return default(float);
@@ -89,28 +96,28 @@ public struct GlyphValueRecord : IEquatable<GlyphValueRecord>
 	}
 
 	[Token(Token = "0x6000075")]
-	[Address(RVA = "0x4B7EAB0", Offset = "0x4B7EAB0", VA = "0x4B7EAB0")]
+	[Address(RVA = "0x4EA63E0", Offset = "0x4EA63E0", VA = "0x4EA63E0")]
 	public static GlyphValueRecord operator +(GlyphValueRecord a, GlyphValueRecord b)
 	{
 		return default(GlyphValueRecord);
 	}
 
 	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x4B7EAC0", Offset = "0x4B7EAC0", VA = "0x4B7EAC0", Slot = "2")]
+	[Address(RVA = "0x4EA63F0", Offset = "0x4EA63F0", VA = "0x4EA63F0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000077")]
-	[Address(RVA = "0x4B7EB10", Offset = "0x4B7EB10", VA = "0x4B7EB10", Slot = "0")]
+	[Address(RVA = "0x4EA6440", Offset = "0x4EA6440", VA = "0x4EA6440", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x4B7EB70", Offset = "0x4B7EB70", VA = "0x4B7EB70", Slot = "4")]
+	[Address(RVA = "0x4EA64A0", Offset = "0x4EA64A0", VA = "0x4EA64A0", Slot = "4")]
 	public bool Equals(GlyphValueRecord other)
 	{
 		return default(bool);

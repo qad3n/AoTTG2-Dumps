@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.BinaryOperatorHandler
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Reflection;
@@ -20,27 +27,27 @@ public abstract class BinaryOperatorHandler : OperatorHandler
 		public readonly Type rightType;
 
 		[Token(Token = "0x6000789")]
-		[Address(RVA = "0x49B8A20", Offset = "0x49B8A20", VA = "0x49B8A20")]
+		[Address(RVA = "0x4CDD5F0", Offset = "0x4CDD5F0", VA = "0x4CDD5F0")]
 		public OperatorQuery(Type leftType, Type rightType)
 		{
 		}
 
 		[Token(Token = "0x600078A")]
-		[Address(RVA = "0x49B8BB0", Offset = "0x49B8BB0", VA = "0x49B8BB0", Slot = "4")]
+		[Address(RVA = "0x4CDD780", Offset = "0x4CDD780", VA = "0x4CDD780", Slot = "4")]
 		public bool Equals(OperatorQuery other)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600078B")]
-		[Address(RVA = "0x49B8C30", Offset = "0x49B8C30", VA = "0x49B8C30", Slot = "0")]
+		[Address(RVA = "0x4CDD800", Offset = "0x4CDD800", VA = "0x4CDD800", Slot = "0")]
 		public override bool Equals(object obj)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600078C")]
-		[Address(RVA = "0x49B8CF0", Offset = "0x49B8CF0", VA = "0x49B8CF0", Slot = "2")]
+		[Address(RVA = "0x4CDD8C0", Offset = "0x4CDD8C0", VA = "0x4CDD8C0", Slot = "2")]
 		public override int GetHashCode()
 		{
 			return default(int);
@@ -60,34 +67,34 @@ public abstract class BinaryOperatorHandler : OperatorHandler
 	private readonly Dictionary<OperatorQuery, OperatorQuery> userDefinedOperandTypes;
 
 	[Token(Token = "0x6000782")]
-	[Address(RVA = "0x49B29A0", Offset = "0x49B29A0", VA = "0x49B29A0")]
+	[Address(RVA = "0x4CD7570", Offset = "0x4CD7570", VA = "0x4CD7570")]
 	protected BinaryOperatorHandler(string name, string verb, string symbol, string customMethodName)
 	{
 	}
 
 	[Token(Token = "0x6000783")]
-	[Address(RVA = "0x49B8100", Offset = "0x49B8100", VA = "0x49B8100", Slot = "4")]
+	[Address(RVA = "0x4CDCCD0", Offset = "0x4CDCCD0", VA = "0x4CDCCD0", Slot = "4")]
 	public virtual object Operate(object leftOperand, object rightOperand)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000784")]
-	[Address(RVA = "0x49B2B20", Offset = "0x49B2B20", VA = "0x49B2B20", Slot = "5")]
+	[Address(RVA = "0x4CD76F0", Offset = "0x4CD76F0", VA = "0x4CD76F0", Slot = "5")]
 	protected virtual object CustomHandling(object leftOperand, object rightOperand)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000785")]
-	[Address(RVA = "0x49B8B10", Offset = "0x49B8B10", VA = "0x49B8B10", Slot = "6")]
+	[Address(RVA = "0x4CDD6E0", Offset = "0x4CDD6E0", VA = "0x4CDD6E0", Slot = "6")]
 	protected virtual object BothNullHandling()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000786")]
-	[Address(RVA = "0x49B8B60", Offset = "0x49B8B60", VA = "0x49B8B60", Slot = "7")]
+	[Address(RVA = "0x4CDD730", Offset = "0x4CDD730", VA = "0x4CDD730", Slot = "7")]
 	protected virtual object SingleNullHandling()
 	{
 		return null;
@@ -99,7 +106,7 @@ public abstract class BinaryOperatorHandler : OperatorHandler
 	}
 
 	[Token(Token = "0x6000788")]
-	[Address(RVA = "0x49B8A50", Offset = "0x49B8A50", VA = "0x49B8A50")]
+	[Address(RVA = "0x4CDD620", Offset = "0x4CDD620", VA = "0x4CDD620")]
 	private static OperatorQuery ResolveUserDefinedOperandTypes(MethodInfo userDefinedOperator)
 	{
 		return default(OperatorQuery);

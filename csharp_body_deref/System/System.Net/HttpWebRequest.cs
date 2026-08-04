@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.HttpWebRequest
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
@@ -52,7 +59,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 		public bool IsCompleted
 		{
 			[Token(Token = "0x6000A0F")]
-			[Address(RVA = "0x46619B0", Offset = "0x46619B0", VA = "0x46619B0")]
+			[Address(RVA = "0x4986AB0", Offset = "0x4986AB0", VA = "0x4986AB0")]
 			get
 			{
 				return default(bool);
@@ -63,7 +70,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 		public NtlmAuthState NtlmAuthState
 		{
 			[Token(Token = "0x6000A10")]
-			[Address(RVA = "0x46619C0", Offset = "0x46619C0", VA = "0x46619C0")]
+			[Address(RVA = "0x4986AC0", Offset = "0x4986AC0", VA = "0x4986AC0")]
 			get
 			{
 				return default(NtlmAuthState);
@@ -74,7 +81,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 		public bool IsNtlmAuthenticated
 		{
 			[Token(Token = "0x6000A11")]
-			[Address(RVA = "0x46619D0", Offset = "0x46619D0", VA = "0x46619D0")]
+			[Address(RVA = "0x4986AD0", Offset = "0x4986AD0", VA = "0x4986AD0")]
 			get
 			{
 				return default(bool);
@@ -82,26 +89,26 @@ public class HttpWebRequest : WebRequest, ISerializable
 		}
 
 		[Token(Token = "0x6000A12")]
-		[Address(RVA = "0x465D370", Offset = "0x465D370", VA = "0x465D370")]
+		[Address(RVA = "0x4982470", Offset = "0x4982470", VA = "0x4982470")]
 		public AuthorizationState(HttpWebRequest request, bool isProxy)
 		{
 		}
 
 		[Token(Token = "0x6000A13")]
-		[Address(RVA = "0x4660C40", Offset = "0x4660C40", VA = "0x4660C40")]
+		[Address(RVA = "0x4985D40", Offset = "0x4985D40", VA = "0x4985D40")]
 		public bool CheckAuthorization(WebResponse response, HttpStatusCode code)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000A14")]
-		[Address(RVA = "0x4661800", Offset = "0x4661800", VA = "0x4661800")]
+		[Address(RVA = "0x4986900", Offset = "0x4986900", VA = "0x4986900")]
 		public void Reset()
 		{
 		}
 
 		[Token(Token = "0x6000A15")]
-		[Address(RVA = "0x46619F0", Offset = "0x46619F0", VA = "0x46619F0", Slot = "3")]
+		[Address(RVA = "0x4986AF0", Offset = "0x4986AF0", VA = "0x4986AF0", Slot = "3")]
 		public override string ToString()
 		{
 			return null;
@@ -231,13 +238,13 @@ public class HttpWebRequest : WebRequest, ISerializable
 		private ConfiguredTaskAwaitable<(HttpWebResponse response, bool redirect, bool mustReadAll, BufferOffsetSize writeBuffer, WebOperation ntlm)>.ConfiguredTaskAwaiter _003C_003Eu__4;
 
 		[Token(Token = "0x6000A1B")]
-		[Address(RVA = "0x4661AC0", Offset = "0x4661AC0", VA = "0x4661AC0", Slot = "4")]
+		[Address(RVA = "0x4986BC0", Offset = "0x4986BC0", VA = "0x4986BC0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000A1C")]
-		[Address(RVA = "0x46631A0", Offset = "0x46631A0", VA = "0x46631A0", Slot = "5")]
+		[Address(RVA = "0x49882A0", Offset = "0x49882A0", VA = "0x49882A0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -294,13 +301,13 @@ public class HttpWebRequest : WebRequest, ISerializable
 		private ConfiguredTaskAwaitable<BufferOffsetSize>.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x6000A1D")]
-		[Address(RVA = "0x4663210", Offset = "0x4663210", VA = "0x4663210", Slot = "4")]
+		[Address(RVA = "0x4988310", Offset = "0x4988310", VA = "0x4988310", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000A1E")]
-		[Address(RVA = "0x4664010", Offset = "0x4664010", VA = "0x4664010", Slot = "5")]
+		[Address(RVA = "0x4989110", Offset = "0x4989110", VA = "0x4989110", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -536,7 +543,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public Uri Address
 	{
 		[Token(Token = "0x60009C9")]
-		[Address(RVA = "0x465D3A0", Offset = "0x465D3A0", VA = "0x465D3A0")]
+		[Address(RVA = "0x49824A0", Offset = "0x49824A0", VA = "0x49824A0")]
 		get
 		{
 			return null;
@@ -547,7 +554,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public virtual bool AllowWriteStreamBuffering
 	{
 		[Token(Token = "0x60009CA")]
-		[Address(RVA = "0x465D3B0", Offset = "0x465D3B0", VA = "0x465D3B0", Slot = "25")]
+		[Address(RVA = "0x49824B0", Offset = "0x49824B0", VA = "0x49824B0", Slot = "25")]
 		get
 		{
 			return default(bool);
@@ -558,7 +565,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public DecompressionMethods AutomaticDecompression
 	{
 		[Token(Token = "0x60009CB")]
-		[Address(RVA = "0x465D3C0", Offset = "0x465D3C0", VA = "0x465D3C0")]
+		[Address(RVA = "0x49824C0", Offset = "0x49824C0", VA = "0x49824C0")]
 		get
 		{
 			return default(DecompressionMethods);
@@ -569,7 +576,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	internal bool InternalAllowBuffering
 	{
 		[Token(Token = "0x60009CC")]
-		[Address(RVA = "0x465D3D0", Offset = "0x465D3D0", VA = "0x465D3D0")]
+		[Address(RVA = "0x49824D0", Offset = "0x49824D0", VA = "0x49824D0")]
 		get
 		{
 			return default(bool);
@@ -580,7 +587,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	private bool MethodWithBuffer
 	{
 		[Token(Token = "0x60009CD")]
-		[Address(RVA = "0x465D3E0", Offset = "0x465D3E0", VA = "0x465D3E0")]
+		[Address(RVA = "0x49824E0", Offset = "0x49824E0", VA = "0x49824E0")]
 		get
 		{
 			return default(bool);
@@ -591,7 +598,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	internal MobileTlsProvider TlsProvider
 	{
 		[Token(Token = "0x60009CE")]
-		[Address(RVA = "0x465D4C0", Offset = "0x465D4C0", VA = "0x465D4C0")]
+		[Address(RVA = "0x49825C0", Offset = "0x49825C0", VA = "0x49825C0")]
 		get
 		{
 			return null;
@@ -602,7 +609,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	internal MonoTlsSettings TlsSettings
 	{
 		[Token(Token = "0x60009CF")]
-		[Address(RVA = "0x465D4D0", Offset = "0x465D4D0", VA = "0x465D4D0")]
+		[Address(RVA = "0x49825D0", Offset = "0x49825D0", VA = "0x49825D0")]
 		get
 		{
 			return null;
@@ -613,7 +620,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public X509CertificateCollection ClientCertificates
 	{
 		[Token(Token = "0x60009D0")]
-		[Address(RVA = "0x465D4E0", Offset = "0x465D4E0", VA = "0x465D4E0")]
+		[Address(RVA = "0x49825E0", Offset = "0x49825E0", VA = "0x49825E0")]
 		get
 		{
 			return null;
@@ -624,7 +631,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public override long ContentLength
 	{
 		[Token(Token = "0x60009D1")]
-		[Address(RVA = "0x465D560", Offset = "0x465D560", VA = "0x465D560", Slot = "13")]
+		[Address(RVA = "0x4982660", Offset = "0x4982660", VA = "0x4982660", Slot = "13")]
 		get
 		{
 			return default(long);
@@ -635,7 +642,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	internal long InternalContentLength
 	{
 		[Token(Token = "0x60009D2")]
-		[Address(RVA = "0x465D570", Offset = "0x465D570", VA = "0x465D570")]
+		[Address(RVA = "0x4982670", Offset = "0x4982670", VA = "0x4982670")]
 		set
 		{
 		}
@@ -645,14 +652,14 @@ public class HttpWebRequest : WebRequest, ISerializable
 	internal bool ThrowOnError
 	{
 		[Token(Token = "0x60009D3")]
-		[Address(RVA = "0x465D580", Offset = "0x465D580", VA = "0x465D580")]
+		[Address(RVA = "0x4982680", Offset = "0x4982680", VA = "0x4982680")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60009D4")]
-		[Address(RVA = "0x465D590", Offset = "0x465D590", VA = "0x465D590")]
+		[Address(RVA = "0x4982690", Offset = "0x4982690", VA = "0x4982690")]
 		[CompilerGenerated]
 		set
 		{
@@ -663,13 +670,13 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public override ICredentials Credentials
 	{
 		[Token(Token = "0x60009D5")]
-		[Address(RVA = "0x465D5A0", Offset = "0x465D5A0", VA = "0x465D5A0", Slot = "14")]
+		[Address(RVA = "0x49826A0", Offset = "0x49826A0", VA = "0x49826A0", Slot = "14")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60009D6")]
-		[Address(RVA = "0x465D5B0", Offset = "0x465D5B0", VA = "0x465D5B0", Slot = "15")]
+		[Address(RVA = "0x49826B0", Offset = "0x49826B0", VA = "0x49826B0", Slot = "15")]
 		set
 		{
 		}
@@ -680,7 +687,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public static int DefaultMaximumErrorResponseLength
 	{
 		[Token(Token = "0x60009D7")]
-		[Address(RVA = "0x465D5C0", Offset = "0x465D5C0", VA = "0x465D5C0")]
+		[Address(RVA = "0x49826C0", Offset = "0x49826C0", VA = "0x49826C0")]
 		get
 		{
 			return default(int);
@@ -691,7 +698,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public override WebHeaderCollection Headers
 	{
 		[Token(Token = "0x60009D8")]
-		[Address(RVA = "0x465D630", Offset = "0x465D630", VA = "0x465D630", Slot = "12")]
+		[Address(RVA = "0x4982730", Offset = "0x4982730", VA = "0x4982730", Slot = "12")]
 		get
 		{
 			return null;
@@ -702,7 +709,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public string Host
 	{
 		[Token(Token = "0x60009D9")]
-		[Address(RVA = "0x465D640", Offset = "0x465D640", VA = "0x465D640")]
+		[Address(RVA = "0x4982740", Offset = "0x4982740", VA = "0x4982740")]
 		get
 		{
 			return null;
@@ -713,7 +720,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public bool KeepAlive
 	{
 		[Token(Token = "0x60009DA")]
-		[Address(RVA = "0x465D760", Offset = "0x465D760", VA = "0x465D760")]
+		[Address(RVA = "0x4982860", Offset = "0x4982860", VA = "0x4982860")]
 		get
 		{
 			return default(bool);
@@ -724,7 +731,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public int ReadWriteTimeout
 	{
 		[Token(Token = "0x60009DB")]
-		[Address(RVA = "0x465D770", Offset = "0x465D770", VA = "0x465D770")]
+		[Address(RVA = "0x4982870", Offset = "0x4982870", VA = "0x4982870")]
 		get
 		{
 			return default(int);
@@ -735,13 +742,13 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public override string Method
 	{
 		[Token(Token = "0x60009DC")]
-		[Address(RVA = "0x465D780", Offset = "0x465D780", VA = "0x465D780", Slot = "9")]
+		[Address(RVA = "0x4982880", Offset = "0x4982880", VA = "0x4982880", Slot = "9")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60009DD")]
-		[Address(RVA = "0x465D790", Offset = "0x465D790", VA = "0x465D790", Slot = "10")]
+		[Address(RVA = "0x4982890", Offset = "0x4982890", VA = "0x4982890", Slot = "10")]
 		set
 		{
 		}
@@ -751,7 +758,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public Version ProtocolVersion
 	{
 		[Token(Token = "0x60009DE")]
-		[Address(RVA = "0x465D9D0", Offset = "0x465D9D0", VA = "0x465D9D0")]
+		[Address(RVA = "0x4982AD0", Offset = "0x4982AD0", VA = "0x4982AD0")]
 		get
 		{
 			return null;
@@ -762,13 +769,13 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public override IWebProxy Proxy
 	{
 		[Token(Token = "0x60009DF")]
-		[Address(RVA = "0x465D9E0", Offset = "0x465D9E0", VA = "0x465D9E0", Slot = "17")]
+		[Address(RVA = "0x4982AE0", Offset = "0x4982AE0", VA = "0x4982AE0", Slot = "17")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60009E0")]
-		[Address(RVA = "0x465D9F0", Offset = "0x465D9F0", VA = "0x465D9F0", Slot = "18")]
+		[Address(RVA = "0x4982AF0", Offset = "0x4982AF0", VA = "0x4982AF0", Slot = "18")]
 		set
 		{
 		}
@@ -778,7 +785,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public override Uri RequestUri
 	{
 		[Token(Token = "0x60009E1")]
-		[Address(RVA = "0x465DC30", Offset = "0x465DC30", VA = "0x465DC30", Slot = "11")]
+		[Address(RVA = "0x4982D30", Offset = "0x4982D30", VA = "0x4982D30", Slot = "11")]
 		get
 		{
 			return null;
@@ -789,7 +796,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public bool SendChunked
 	{
 		[Token(Token = "0x60009E2")]
-		[Address(RVA = "0x465DC40", Offset = "0x465DC40", VA = "0x465DC40")]
+		[Address(RVA = "0x4982D40", Offset = "0x4982D40", VA = "0x4982D40")]
 		get
 		{
 			return default(bool);
@@ -800,7 +807,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public ServicePoint ServicePoint
 	{
 		[Token(Token = "0x60009E3")]
-		[Address(RVA = "0x465DC50", Offset = "0x465DC50", VA = "0x465DC50")]
+		[Address(RVA = "0x4982D50", Offset = "0x4982D50", VA = "0x4982D50")]
 		get
 		{
 			return null;
@@ -811,7 +818,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	internal ServicePoint ServicePointNoLock
 	{
 		[Token(Token = "0x60009E4")]
-		[Address(RVA = "0x465DC60", Offset = "0x465DC60", VA = "0x465DC60")]
+		[Address(RVA = "0x4982D60", Offset = "0x4982D60", VA = "0x4982D60")]
 		get
 		{
 			return null;
@@ -822,7 +829,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public override int Timeout
 	{
 		[Token(Token = "0x60009E5")]
-		[Address(RVA = "0x465DC70", Offset = "0x465DC70", VA = "0x465DC70", Slot = "19")]
+		[Address(RVA = "0x4982D70", Offset = "0x4982D70", VA = "0x4982D70", Slot = "19")]
 		get
 		{
 			return default(int);
@@ -833,7 +840,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public string TransferEncoding
 	{
 		[Token(Token = "0x60009E6")]
-		[Address(RVA = "0x465DC80", Offset = "0x465DC80", VA = "0x465DC80")]
+		[Address(RVA = "0x4982D80", Offset = "0x4982D80", VA = "0x4982D80")]
 		get
 		{
 			return null;
@@ -844,7 +851,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public override bool UseDefaultCredentials
 	{
 		[Token(Token = "0x60009E7")]
-		[Address(RVA = "0x465DCD0", Offset = "0x465DCD0", VA = "0x465DCD0", Slot = "16")]
+		[Address(RVA = "0x4982DD0", Offset = "0x4982DD0", VA = "0x4982DD0", Slot = "16")]
 		get
 		{
 			return default(bool);
@@ -855,7 +862,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	public bool UnsafeAuthenticatedConnectionSharing
 	{
 		[Token(Token = "0x60009E8")]
-		[Address(RVA = "0x465DD50", Offset = "0x465DD50", VA = "0x465DD50")]
+		[Address(RVA = "0x4982E50", Offset = "0x4982E50", VA = "0x4982E50")]
 		get
 		{
 			return default(bool);
@@ -866,13 +873,13 @@ public class HttpWebRequest : WebRequest, ISerializable
 	internal bool ExpectContinue
 	{
 		[Token(Token = "0x60009E9")]
-		[Address(RVA = "0x465DD60", Offset = "0x465DD60", VA = "0x465DD60")]
+		[Address(RVA = "0x4982E60", Offset = "0x4982E60", VA = "0x4982E60")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60009EA")]
-		[Address(RVA = "0x465DD70", Offset = "0x465DD70", VA = "0x465DD70")]
+		[Address(RVA = "0x4982E70", Offset = "0x4982E70", VA = "0x4982E70")]
 		set
 		{
 		}
@@ -882,7 +889,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	internal Uri AuthUri
 	{
 		[Token(Token = "0x60009EB")]
-		[Address(RVA = "0x465DD80", Offset = "0x465DD80", VA = "0x465DD80")]
+		[Address(RVA = "0x4982E80", Offset = "0x4982E80", VA = "0x4982E80")]
 		get
 		{
 			return null;
@@ -893,7 +900,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	internal bool ProxyQuery
 	{
 		[Token(Token = "0x60009EC")]
-		[Address(RVA = "0x465DD90", Offset = "0x465DD90", VA = "0x465DD90")]
+		[Address(RVA = "0x4982E90", Offset = "0x4982E90", VA = "0x4982E90")]
 		get
 		{
 			return default(bool);
@@ -904,7 +911,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	internal ServerCertValidationCallback ServerCertValidationCallback
 	{
 		[Token(Token = "0x60009ED")]
-		[Address(RVA = "0x465DDC0", Offset = "0x465DDC0", VA = "0x465DDC0")]
+		[Address(RVA = "0x4982EC0", Offset = "0x4982EC0", VA = "0x4982EC0")]
 		get
 		{
 			return null;
@@ -915,7 +922,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	internal bool FinishedReading
 	{
 		[Token(Token = "0x60009FC")]
-		[Address(RVA = "0x465F2D0", Offset = "0x465F2D0", VA = "0x465F2D0")]
+		[Address(RVA = "0x49843D0", Offset = "0x49843D0", VA = "0x49843D0")]
 		set
 		{
 		}
@@ -925,7 +932,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	internal bool Aborted
 	{
 		[Token(Token = "0x60009FD")]
-		[Address(RVA = "0x465ECD0", Offset = "0x465ECD0", VA = "0x465ECD0")]
+		[Address(RVA = "0x4983DD0", Offset = "0x4983DD0", VA = "0x4983DD0")]
 		get
 		{
 			return default(bool);
@@ -933,39 +940,39 @@ public class HttpWebRequest : WebRequest, ISerializable
 	}
 
 	[Token(Token = "0x60009C5")]
-	[Address(RVA = "0x465D060", Offset = "0x465D060", VA = "0x465D060")]
+	[Address(RVA = "0x4982160", Offset = "0x4982160", VA = "0x4982160")]
 	static HttpWebRequest()
 	{
 	}
 
 	[Token(Token = "0x60009C6")]
-	[Address(RVA = "0x465CD80", Offset = "0x465CD80", VA = "0x465CD80")]
+	[Address(RVA = "0x4981E80", Offset = "0x4981E80", VA = "0x4981E80")]
 	public HttpWebRequest(Uri uri)
 	{
 	}
 
 	[Token(Token = "0x60009C7")]
-	[Address(RVA = "0x465D1D0", Offset = "0x465D1D0", VA = "0x465D1D0")]
+	[Address(RVA = "0x49822D0", Offset = "0x49822D0", VA = "0x49822D0")]
 	[Obsolete("Serialization is obsoleted for this type.  http://go.microsoft.com/fwlink/?linkid=14202")]
 	protected HttpWebRequest(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
 	[Token(Token = "0x60009C8")]
-	[Address(RVA = "0x465D0F0", Offset = "0x465D0F0", VA = "0x465D0F0")]
+	[Address(RVA = "0x49821F0", Offset = "0x49821F0", VA = "0x49821F0")]
 	private void ResetAuthorization()
 	{
 	}
 
 	[Token(Token = "0x60009EE")]
-	[Address(RVA = "0x465DAE0", Offset = "0x465DAE0", VA = "0x465DAE0")]
+	[Address(RVA = "0x4982BE0", Offset = "0x4982BE0", VA = "0x4982BE0")]
 	internal ServicePoint GetServicePoint()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60009EF")]
-	[Address(RVA = "0x465E510", Offset = "0x465E510", VA = "0x465E510")]
+	[Address(RVA = "0x4983610", Offset = "0x4983610", VA = "0x4983610")]
 	private WebOperation SendRequest(bool redirecting, BufferOffsetSize writeBuffer, CancellationToken cancellationToken)
 	{
 		return null;
@@ -991,7 +998,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	}
 
 	[Token(Token = "0x60009F3")]
-	[Address(RVA = "0x465E910", Offset = "0x465E910", VA = "0x465E910")]
+	[Address(RVA = "0x4983A10", Offset = "0x4983A10", VA = "0x4983A10")]
 	[AsyncStateMachine(typeof(_003CMyGetResponseAsync_003Ed__243))]
 	private Task<HttpWebResponse> MyGetResponseAsync(CancellationToken cancellationToken)
 	{
@@ -999,7 +1006,7 @@ public class HttpWebRequest : WebRequest, ISerializable
 	}
 
 	[Token(Token = "0x60009F4")]
-	[Address(RVA = "0x465EA60", Offset = "0x465EA60", VA = "0x465EA60")]
+	[Address(RVA = "0x4983B60", Offset = "0x4983B60", VA = "0x4983B60")]
 	[AsyncStateMachine(typeof(_003CGetResponseFromData_003Ed__244))]
 	private Task<(HttpWebResponse, bool, bool, BufferOffsetSize, WebOperation)> GetResponseFromData(WebResponseStream stream, CancellationToken cancellationToken)
 	{
@@ -1007,147 +1014,147 @@ public class HttpWebRequest : WebRequest, ISerializable
 	}
 
 	[Token(Token = "0x60009F5")]
-	[Address(RVA = "0x465EBB0", Offset = "0x465EBB0", VA = "0x465EBB0")]
+	[Address(RVA = "0x4983CB0", Offset = "0x4983CB0", VA = "0x4983CB0")]
 	internal static Exception FlattenException(Exception e)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60009F6")]
-	[Address(RVA = "0x465EC60", Offset = "0x465EC60", VA = "0x465EC60")]
+	[Address(RVA = "0x4983D60", Offset = "0x4983D60", VA = "0x4983D60")]
 	private WebException GetWebException(Exception e)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60009F7")]
-	[Address(RVA = "0x465ECF0", Offset = "0x465ECF0", VA = "0x465ECF0")]
+	[Address(RVA = "0x4983DF0", Offset = "0x4983DF0", VA = "0x4983DF0")]
 	private static WebException GetWebException(Exception e, bool aborted)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60009F8")]
-	[Address(RVA = "0x465EE80", Offset = "0x465EE80", VA = "0x465EE80")]
+	[Address(RVA = "0x4983F80", Offset = "0x4983F80", VA = "0x4983F80")]
 	internal static WebException CreateRequestAbortedException()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60009F9")]
-	[Address(RVA = "0x465EF20", Offset = "0x465EF20", VA = "0x465EF20", Slot = "21")]
+	[Address(RVA = "0x4984020", Offset = "0x4984020", VA = "0x4984020", Slot = "21")]
 	public override IAsyncResult BeginGetResponse(AsyncCallback callback, object state)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60009FA")]
-	[Address(RVA = "0x465F0C0", Offset = "0x465F0C0", VA = "0x465F0C0", Slot = "22")]
+	[Address(RVA = "0x49841C0", Offset = "0x49841C0", VA = "0x49841C0", Slot = "22")]
 	public override WebResponse EndGetResponse(IAsyncResult asyncResult)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60009FB")]
-	[Address(RVA = "0x465F1D0", Offset = "0x465F1D0", VA = "0x465F1D0", Slot = "20")]
+	[Address(RVA = "0x49842D0", Offset = "0x49842D0", VA = "0x49842D0", Slot = "20")]
 	public override WebResponse GetResponse()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60009FE")]
-	[Address(RVA = "0x465F2E0", Offset = "0x465F2E0", VA = "0x465F2E0", Slot = "24")]
+	[Address(RVA = "0x49843E0", Offset = "0x49843E0", VA = "0x49843E0", Slot = "24")]
 	public override void Abort()
 	{
 	}
 
 	[Token(Token = "0x60009FF")]
-	[Address(RVA = "0x465F400", Offset = "0x465F400", VA = "0x465F400", Slot = "6")]
+	[Address(RVA = "0x4984500", Offset = "0x4984500", VA = "0x4984500", Slot = "6")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
 	[Token(Token = "0x6000A00")]
-	[Address(RVA = "0x465F440", Offset = "0x465F440", VA = "0x465F440", Slot = "7")]
+	[Address(RVA = "0x4984540", Offset = "0x4984540", VA = "0x4984540", Slot = "7")]
 	protected override void GetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
 	[Token(Token = "0x6000A01")]
-	[Address(RVA = "0x465DA80", Offset = "0x465DA80", VA = "0x465DA80")]
+	[Address(RVA = "0x4982B80", Offset = "0x4982B80", VA = "0x4982B80")]
 	private void CheckRequestStarted()
 	{
 	}
 
 	[Token(Token = "0x6000A02")]
-	[Address(RVA = "0x465F480", Offset = "0x465F480", VA = "0x465F480")]
+	[Address(RVA = "0x4984580", Offset = "0x4984580", VA = "0x4984580")]
 	internal void DoContinueDelegate(int statusCode, WebHeaderCollection headers)
 	{
 	}
 
 	[Token(Token = "0x6000A03")]
-	[Address(RVA = "0x465F4A0", Offset = "0x465F4A0", VA = "0x465F4A0")]
+	[Address(RVA = "0x49845A0", Offset = "0x49845A0", VA = "0x49845A0")]
 	private void RewriteRedirectToGet()
 	{
 	}
 
 	[Token(Token = "0x6000A04")]
-	[Address(RVA = "0x465F520", Offset = "0x465F520", VA = "0x465F520")]
+	[Address(RVA = "0x4984620", Offset = "0x4984620", VA = "0x4984620")]
 	private bool Redirect(HttpStatusCode code, WebResponse response)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A05")]
-	[Address(RVA = "0x465FAB0", Offset = "0x465FAB0", VA = "0x465FAB0")]
+	[Address(RVA = "0x4984BB0", Offset = "0x4984BB0", VA = "0x4984BB0")]
 	private string GetHeaders()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A06")]
-	[Address(RVA = "0x4660310", Offset = "0x4660310", VA = "0x4660310")]
+	[Address(RVA = "0x4985410", Offset = "0x4985410", VA = "0x4985410")]
 	private void DoPreAuthenticate()
 	{
 	}
 
 	[Token(Token = "0x6000A07")]
-	[Address(RVA = "0x4660570", Offset = "0x4660570", VA = "0x4660570")]
+	[Address(RVA = "0x4985670", Offset = "0x4985670", VA = "0x4985670")]
 	internal byte[] GetRequestHeaders()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A08")]
-	[Address(RVA = "0x4660940", Offset = "0x4660940", VA = "0x4660940")]
+	[Address(RVA = "0x4985A40", Offset = "0x4985A40", VA = "0x4985A40")]
 	private (WebOperation, bool) HandleNtlmAuth(WebResponseStream stream, HttpWebResponse response, BufferOffsetSize writeBuffer, CancellationToken cancellationToken)
 	{
 		return default((WebOperation, bool));
 	}
 
 	[Token(Token = "0x6000A09")]
-	[Address(RVA = "0x4660C20", Offset = "0x4660C20", VA = "0x4660C20")]
+	[Address(RVA = "0x4985D20", Offset = "0x4985D20", VA = "0x4985D20")]
 	private bool CheckAuthorization(WebResponse response, HttpStatusCode code)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A0A")]
-	[Address(RVA = "0x4660F90", Offset = "0x4660F90", VA = "0x4660F90")]
+	[Address(RVA = "0x4986090", Offset = "0x4986090", VA = "0x4986090")]
 	private (Task<BufferOffsetSize>, WebException) GetRewriteHandler(HttpWebResponse response, bool redirect)
 	{
 		return default((Task<BufferOffsetSize>, WebException));
 	}
 
 	[Token(Token = "0x6000A0B")]
-	[Address(RVA = "0x4661180", Offset = "0x4661180", VA = "0x4661180")]
+	[Address(RVA = "0x4986280", Offset = "0x4986280", VA = "0x4986280")]
 	private (bool, bool, Task<BufferOffsetSize>, WebException) CheckFinalStatus(HttpWebResponse response)
 	{
 		return default((bool, bool, Task<BufferOffsetSize>, WebException));
 	}
 
 	[Token(Token = "0x6000A0E")]
-	[Address(RVA = "0x4661980", Offset = "0x4661980", VA = "0x4661980")]
+	[Address(RVA = "0x4986A80", Offset = "0x4986A80", VA = "0x4986A80")]
 	[Obsolete("This API supports the .NET Framework infrastructure and is not intended to be used directly from your code.", true)]
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	public HttpWebRequest()

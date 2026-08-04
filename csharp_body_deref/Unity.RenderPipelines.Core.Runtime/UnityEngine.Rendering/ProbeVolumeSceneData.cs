@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.ProbeVolumeSceneData
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -60,7 +67,7 @@ public class ProbeVolumeSceneData : ISerializationCallbackReceiver
 		public List<string> lightingScenarios;
 
 		[Token(Token = "0x6000A61")]
-		[Address(RVA = "0x48AE520", Offset = "0x48AE520", VA = "0x48AE520")]
+		[Address(RVA = "0x4BD35C0", Offset = "0x4BD35C0", VA = "0x4BD35C0")]
 		public BakingSet()
 		{
 		}
@@ -118,7 +125,7 @@ public class ProbeVolumeSceneData : ISerializationCallbackReceiver
 	internal string lightingScenario
 	{
 		[Token(Token = "0x6000A55")]
-		[Address(RVA = "0x48A7570", Offset = "0x48A7570", VA = "0x48A7570")]
+		[Address(RVA = "0x4BCC3A0", Offset = "0x4BCC3A0", VA = "0x4BCC3A0")]
 		get
 		{
 			return null;
@@ -129,7 +136,7 @@ public class ProbeVolumeSceneData : ISerializationCallbackReceiver
 	internal string otherScenario
 	{
 		[Token(Token = "0x6000A56")]
-		[Address(RVA = "0x48AD010", Offset = "0x48AD010", VA = "0x48AD010")]
+		[Address(RVA = "0x4BD20C0", Offset = "0x4BD20C0", VA = "0x4BD20C0")]
 		get
 		{
 			return null;
@@ -140,7 +147,7 @@ public class ProbeVolumeSceneData : ISerializationCallbackReceiver
 	internal float scenarioBlendingFactor
 	{
 		[Token(Token = "0x6000A57")]
-		[Address(RVA = "0x48AD020", Offset = "0x48AD020", VA = "0x48AD020")]
+		[Address(RVA = "0x4BD20D0", Offset = "0x4BD20D0", VA = "0x4BD20D0")]
 		get
 		{
 			return default(float);
@@ -148,62 +155,62 @@ public class ProbeVolumeSceneData : ISerializationCallbackReceiver
 	}
 
 	[Token(Token = "0x6000A54")]
-	[Address(RVA = "0x48A77F0", Offset = "0x48A77F0", VA = "0x48A77F0")]
+	[Address(RVA = "0x4BCC620", Offset = "0x4BCC620", VA = "0x4BCC620")]
 	internal static string GetSceneGUID(Scene scene)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A58")]
-	[Address(RVA = "0x48AD030", Offset = "0x48AD030", VA = "0x48AD030")]
+	[Address(RVA = "0x4BD20E0", Offset = "0x4BD20E0", VA = "0x4BD20E0")]
 	internal void SetActiveScenario(string scenario, bool verbose = true)
 	{
 	}
 
 	[Token(Token = "0x6000A59")]
-	[Address(RVA = "0x48A78E0", Offset = "0x48A78E0", VA = "0x48A78E0")]
+	[Address(RVA = "0x4BCC720", Offset = "0x4BCC720", VA = "0x4BCC720")]
 	internal void BlendLightingScenario(string otherScenario, float blendingFactor)
 	{
 	}
 
 	[Token(Token = "0x6000A5A")]
-	[Address(RVA = "0x48AD4F0", Offset = "0x48AD4F0", VA = "0x48AD4F0")]
+	[Address(RVA = "0x4BD2590", Offset = "0x4BD2590", VA = "0x4BD2590")]
 	public ProbeVolumeSceneData(Object parentAsset, string parentSceneDataPropertyName)
 	{
 	}
 
 	[Token(Token = "0x6000A5B")]
-	[Address(RVA = "0x48AD610", Offset = "0x48AD610", VA = "0x48AD610")]
+	[Address(RVA = "0x4BD26B0", Offset = "0x4BD26B0", VA = "0x4BD26B0")]
 	public void SetParentObject(Object parent, string parentSceneDataPropertyName)
 	{
 	}
 
 	[Token(Token = "0x6000A5C")]
-	[Address(RVA = "0x48AD840", Offset = "0x48AD840", VA = "0x48AD840", Slot = "5")]
+	[Address(RVA = "0x4BD28E0", Offset = "0x4BD28E0", VA = "0x4BD28E0", Slot = "5")]
 	public void OnAfterDeserialize()
 	{
 	}
 
 	[Token(Token = "0x6000A5D")]
-	[Address(RVA = "0x48AD830", Offset = "0x48AD830", VA = "0x48AD830")]
+	[Address(RVA = "0x4BD28D0", Offset = "0x4BD28D0", VA = "0x4BD28D0")]
 	private void MigrateBakingSets()
 	{
 	}
 
 	[Token(Token = "0x6000A5E")]
-	[Address(RVA = "0x48ADE90", Offset = "0x48ADE90", VA = "0x48ADE90", Slot = "4")]
+	[Address(RVA = "0x4BD2F30", Offset = "0x4BD2F30", VA = "0x4BD2F30", Slot = "4")]
 	public void OnBeforeSerialize()
 	{
 	}
 
 	[Token(Token = "0x6000A5F")]
-	[Address(RVA = "0x48A92B0", Offset = "0x48A92B0", VA = "0x48A92B0")]
+	[Address(RVA = "0x4BCE360", Offset = "0x4BCE360", VA = "0x4BCE360")]
 	internal void SyncBakingSets()
 	{
 	}
 
 	[Token(Token = "0x6000A60")]
-	[Address(RVA = "0x48A92C0", Offset = "0x48A92C0", VA = "0x48A92C0")]
+	[Address(RVA = "0x4BCE370", Offset = "0x4BCE370", VA = "0x4BCE370")]
 	internal void AddBakingSet(ProbeVolumeBakingSet set)
 	{
 	}

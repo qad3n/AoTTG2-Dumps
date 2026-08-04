@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.PbeParameters
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -10,7 +17,7 @@ public sealed class PbeParameters
 	public PbeEncryptionAlgorithm EncryptionAlgorithm
 	{
 		[Token(Token = "0x6001B82")]
-		[Address(RVA = "0x4E72EB0", Offset = "0x4E72EB0", VA = "0x4E72EB0")]
+		[Address(RVA = "0x3B589D0", Offset = "0x3B589D0", VA = "0x3B589D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -22,7 +29,7 @@ public sealed class PbeParameters
 	public HashAlgorithmName HashAlgorithm
 	{
 		[Token(Token = "0x6001B83")]
-		[Address(RVA = "0x4E72EC0", Offset = "0x4E72EC0", VA = "0x4E72EC0")]
+		[Address(RVA = "0x3B589E0", Offset = "0x3B589E0", VA = "0x3B589E0")]
 		[CompilerGenerated]
 		get
 		{
@@ -34,7 +41,7 @@ public sealed class PbeParameters
 	public int IterationCount
 	{
 		[Token(Token = "0x6001B84")]
-		[Address(RVA = "0x4E72ED0", Offset = "0x4E72ED0", VA = "0x4E72ED0")]
+		[Address(RVA = "0x3B589F0", Offset = "0x3B589F0", VA = "0x3B589F0")]
 		[CompilerGenerated]
 		get
 		{
@@ -43,7 +50,7 @@ public sealed class PbeParameters
 	}
 
 	[Token(Token = "0x6001B85")]
-	[Address(RVA = "0x4E72EE0", Offset = "0x4E72EE0", VA = "0x4E72EE0")]
+	[Address(RVA = "0x3B58A00", Offset = "0x3B58A00", VA = "0x3B58A00")]
 	public PbeParameters(PbeEncryptionAlgorithm encryptionAlgorithm, HashAlgorithmName hashAlgorithm, int iterationCount)
 	{
 	}

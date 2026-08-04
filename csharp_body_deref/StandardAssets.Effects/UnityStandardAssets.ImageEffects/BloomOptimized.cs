@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.BloomOptimized
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/BloomOptimized.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -64,26 +71,26 @@ public class BloomOptimized : PostEffectsBase
 	private Material fastBloomMaterial;
 
 	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x4154540", Offset = "0x4154540", VA = "0x4154540", Slot = "4")]
+	[Address(RVA = "0x4479640", Offset = "0x4479640", VA = "0x4479640", Slot = "4")]
 	public override bool CheckResources()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x4154600", Offset = "0x4154600", VA = "0x4154600")]
+	[Address(RVA = "0x4479700", Offset = "0x4479700", VA = "0x4479700")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x4154680", Offset = "0x4154680", VA = "0x4154680")]
+	[Address(RVA = "0x4479780", Offset = "0x4479780", VA = "0x4479780")]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x4154A10", Offset = "0x4154A10", VA = "0x4154A10")]
+	[Address(RVA = "0x4479B10", Offset = "0x4479B10", VA = "0x4479B10")]
 	public BloomOptimized()
 	{
 	}

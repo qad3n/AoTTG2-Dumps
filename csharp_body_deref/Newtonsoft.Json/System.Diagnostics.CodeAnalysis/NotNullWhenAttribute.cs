@@ -11,7 +11,7 @@ internal sealed class NotNullWhenAttribute : Attribute
 	public bool ReturnValue
 	{
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x3A5ECD0", Offset = "0x3A5ECD0", VA = "0x3A5ECD0")]
+		[Address(RVA = "0x3D54620", Offset = "0x3D54620", VA = "0x3D54620")]
 		[CompilerGenerated]
 		get
 		{
@@ -20,7 +20,7 @@ internal sealed class NotNullWhenAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x3A5ECB0", Offset = "0x3A5ECB0", VA = "0x3A5ECB0")]
+	[Address(RVA = "0x3D54600", Offset = "0x3D54600", VA = "0x3D54600")]
 	public NotNullWhenAttribute(bool returnValue)
 	{
 	}

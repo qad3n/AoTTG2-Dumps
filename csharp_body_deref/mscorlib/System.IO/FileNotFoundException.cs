@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.IO.FileNotFoundException
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
@@ -12,7 +19,7 @@ public class FileNotFoundException : IOException
 	public override string Message
 	{
 		[Token(Token = "0x60027FC")]
-		[Address(RVA = "0x4F04AB0", Offset = "0x4F04AB0", VA = "0x4F04AB0", Slot = "5")]
+		[Address(RVA = "0x3BEA5D0", Offset = "0x3BEA5D0", VA = "0x3BEA5D0", Slot = "5")]
 		get
 		{
 			return null;
@@ -23,7 +30,7 @@ public class FileNotFoundException : IOException
 	public string FileName
 	{
 		[Token(Token = "0x60027FE")]
-		[Address(RVA = "0x4F04B80", Offset = "0x4F04B80", VA = "0x4F04B80")]
+		[Address(RVA = "0x3BEA6A0", Offset = "0x3BEA6A0", VA = "0x3BEA6A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -35,7 +42,7 @@ public class FileNotFoundException : IOException
 	public string FusionLog
 	{
 		[Token(Token = "0x60027FF")]
-		[Address(RVA = "0x4F04B90", Offset = "0x4F04B90", VA = "0x4F04B90")]
+		[Address(RVA = "0x3BEA6B0", Offset = "0x3BEA6B0", VA = "0x3BEA6B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -44,44 +51,44 @@ public class FileNotFoundException : IOException
 	}
 
 	[Token(Token = "0x60027F9")]
-	[Address(RVA = "0x4F04A10", Offset = "0x4F04A10", VA = "0x4F04A10")]
+	[Address(RVA = "0x3BEA530", Offset = "0x3BEA530", VA = "0x3BEA530")]
 	public FileNotFoundException()
 	{
 	}
 
 	[Token(Token = "0x60027FA")]
-	[Address(RVA = "0x4F04A50", Offset = "0x4F04A50", VA = "0x4F04A50")]
+	[Address(RVA = "0x3BEA570", Offset = "0x3BEA570", VA = "0x3BEA570")]
 	public FileNotFoundException(string message)
 	{
 	}
 
 	[Token(Token = "0x60027FB")]
-	[Address(RVA = "0x4F04A70", Offset = "0x4F04A70", VA = "0x4F04A70")]
+	[Address(RVA = "0x3BEA590", Offset = "0x3BEA590", VA = "0x3BEA590")]
 	public FileNotFoundException(string message, string fileName)
 	{
 	}
 
 	[Token(Token = "0x60027FD")]
-	[Address(RVA = "0x4F04AC0", Offset = "0x4F04AC0", VA = "0x4F04AC0")]
+	[Address(RVA = "0x3BEA5E0", Offset = "0x3BEA5E0", VA = "0x3BEA5E0")]
 	private void SetMessageField()
 	{
 	}
 
 	[Token(Token = "0x6002800")]
-	[Address(RVA = "0x4F04BA0", Offset = "0x4F04BA0", VA = "0x4F04BA0", Slot = "3")]
+	[Address(RVA = "0x3BEA6C0", Offset = "0x3BEA6C0", VA = "0x3BEA6C0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002801")]
-	[Address(RVA = "0x4F04D70", Offset = "0x4F04D70", VA = "0x4F04D70")]
+	[Address(RVA = "0x3BEA890", Offset = "0x3BEA890", VA = "0x3BEA890")]
 	protected FileNotFoundException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6002802")]
-	[Address(RVA = "0x4F04E30", Offset = "0x4F04E30", VA = "0x4F04E30", Slot = "11")]
+	[Address(RVA = "0x3BEA950", Offset = "0x3BEA950", VA = "0x3BEA950", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Pun.UtilityScripts.GraphicToggleIsOnTransition
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/GraphicToggleIsOnTransition.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -38,37 +45,37 @@ public class GraphicToggleIsOnTransition : MonoBehaviour, IPointerEnterHandler, 
 	private bool isHover;
 
 	[Token(Token = "0x60000F7")]
-	[Address(RVA = "0x3BF4D90", Offset = "0x3BF4D90", VA = "0x3BF4D90", Slot = "4")]
+	[Address(RVA = "0x3F0D260", Offset = "0x3F0D260", VA = "0x3F0D260", Slot = "4")]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60000F8")]
-	[Address(RVA = "0x3BF4DF0", Offset = "0x3BF4DF0", VA = "0x3BF4DF0", Slot = "5")]
+	[Address(RVA = "0x3F0D2C0", Offset = "0x3F0D2C0", VA = "0x3F0D2C0", Slot = "5")]
 	public void OnPointerExit(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60000F9")]
-	[Address(RVA = "0x3BF4E50", Offset = "0x3BF4E50", VA = "0x3BF4E50")]
+	[Address(RVA = "0x3F0D320", Offset = "0x3F0D320", VA = "0x3F0D320")]
 	public void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60000FA")]
-	[Address(RVA = "0x3BF4FC0", Offset = "0x3BF4FC0", VA = "0x3BF4FC0")]
+	[Address(RVA = "0x3F0D490", Offset = "0x3F0D490", VA = "0x3F0D490")]
 	public void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x60000FB")]
-	[Address(RVA = "0x3BF4F70", Offset = "0x3BF4F70", VA = "0x3BF4F70")]
+	[Address(RVA = "0x3F0D440", Offset = "0x3F0D440", VA = "0x3F0D440")]
 	public void OnValueChanged(bool isOn)
 	{
 	}
 
 	[Token(Token = "0x60000FC")]
-	[Address(RVA = "0x3BF5060", Offset = "0x3BF5060", VA = "0x3BF5060")]
+	[Address(RVA = "0x3F0D530", Offset = "0x3F0D530", VA = "0x3F0D530")]
 	public GraphicToggleIsOnTransition()
 	{
 	}

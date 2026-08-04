@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Claims.Claim
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
@@ -51,7 +58,7 @@ public class Claim
 	public IDictionary<string, string> Properties
 	{
 		[Token(Token = "0x6001BE0")]
-		[Address(RVA = "0x4E75B50", Offset = "0x4E75B50", VA = "0x4E75B50")]
+		[Address(RVA = "0x3B5B670", Offset = "0x3B5B670", VA = "0x3B5B670")]
 		get
 		{
 			return null;
@@ -62,13 +69,13 @@ public class Claim
 	public ClaimsIdentity Subject
 	{
 		[Token(Token = "0x6001BE1")]
-		[Address(RVA = "0x4E760D0", Offset = "0x4E760D0", VA = "0x4E760D0")]
+		[Address(RVA = "0x3B5BBF0", Offset = "0x3B5BBF0", VA = "0x3B5BBF0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001BE2")]
-		[Address(RVA = "0x4E760E0", Offset = "0x4E760E0", VA = "0x4E760E0")]
+		[Address(RVA = "0x3B5BC00", Offset = "0x3B5BC00", VA = "0x3B5BC00")]
 		internal set
 		{
 		}
@@ -78,7 +85,7 @@ public class Claim
 	public string Type
 	{
 		[Token(Token = "0x6001BE3")]
-		[Address(RVA = "0x4E760F0", Offset = "0x4E760F0", VA = "0x4E760F0")]
+		[Address(RVA = "0x3B5BC10", Offset = "0x3B5BC10", VA = "0x3B5BC10")]
 		get
 		{
 			return null;
@@ -89,7 +96,7 @@ public class Claim
 	public string Value
 	{
 		[Token(Token = "0x6001BE4")]
-		[Address(RVA = "0x4E76100", Offset = "0x4E76100", VA = "0x4E76100")]
+		[Address(RVA = "0x3B5BC20", Offset = "0x3B5BC20", VA = "0x3B5BC20")]
 		get
 		{
 			return null;
@@ -97,39 +104,39 @@ public class Claim
 	}
 
 	[Token(Token = "0x6001BDC")]
-	[Address(RVA = "0x4E75880", Offset = "0x4E75880", VA = "0x4E75880")]
+	[Address(RVA = "0x3B5B3A0", Offset = "0x3B5B3A0", VA = "0x3B5B3A0")]
 	public Claim(string type, string value, string valueType, string issuer, string originalIssuer, ClaimsIdentity subject)
 	{
 	}
 
 	[Token(Token = "0x6001BDD")]
-	[Address(RVA = "0x4E758A0", Offset = "0x4E758A0", VA = "0x4E758A0")]
+	[Address(RVA = "0x3B5B3C0", Offset = "0x3B5B3C0", VA = "0x3B5B3C0")]
 	internal Claim(string type, string value, string valueType, string issuer, string originalIssuer, ClaimsIdentity subject, string propertyKey, string propertyValue)
 	{
 	}
 
 	[Token(Token = "0x6001BDE")]
-	[Address(RVA = "0x4E75C90", Offset = "0x4E75C90", VA = "0x4E75C90")]
+	[Address(RVA = "0x3B5B7B0", Offset = "0x3B5B7B0", VA = "0x3B5B7B0")]
 	protected Claim(Claim other, ClaimsIdentity subject)
 	{
 	}
 
 	[Token(Token = "0x6001BDF")]
-	[Address(RVA = "0x4E76070", Offset = "0x4E76070", VA = "0x4E76070")]
+	[Address(RVA = "0x3B5BB90", Offset = "0x3B5BB90", VA = "0x3B5BB90")]
 	[OnDeserialized]
 	private void OnDeserializedMethod(StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6001BE5")]
-	[Address(RVA = "0x4E76110", Offset = "0x4E76110", VA = "0x4E76110", Slot = "4")]
+	[Address(RVA = "0x3B5BC30", Offset = "0x3B5BC30", VA = "0x3B5BC30", Slot = "4")]
 	public virtual Claim Clone(ClaimsIdentity identity)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BE6")]
-	[Address(RVA = "0x4E76160", Offset = "0x4E76160", VA = "0x4E76160", Slot = "3")]
+	[Address(RVA = "0x3B5BC80", Offset = "0x3B5BC80", VA = "0x3B5BC80", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

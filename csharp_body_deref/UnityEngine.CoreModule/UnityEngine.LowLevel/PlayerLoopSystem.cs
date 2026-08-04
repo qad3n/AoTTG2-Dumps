@@ -1,14 +1,21 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.LowLevel.PlayerLoopSystem
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.LowLevel;
 
-[Token(Token = "0x2000200")]
+[Token(Token = "0x2000203")]
 [MovedFrom("UnityEngine.Experimental.LowLevel")]
 public struct PlayerLoopSystem
 {
-	[Token(Token = "0x2000201")]
+	[Token(Token = "0x2000204")]
 	public delegate void UpdateFunction();
 
 	[Token(Token = "0x40006C0")]
@@ -31,8 +38,8 @@ public struct PlayerLoopSystem
 	[FieldOffset(Offset = "0x20")]
 	public IntPtr loopConditionFunction;
 
-	[Token(Token = "0x6000DC7")]
-	[Address(RVA = "0x4AEDB00", Offset = "0x4AEDB00", VA = "0x4AEDB00", Slot = "3")]
+	[Token(Token = "0x6000DC9")]
+	[Address(RVA = "0x4E15430", Offset = "0x4E15430", VA = "0x4E15430", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

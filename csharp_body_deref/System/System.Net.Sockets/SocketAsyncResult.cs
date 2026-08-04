@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.Sockets.SocketAsyncResult
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -84,7 +91,7 @@ internal sealed class SocketAsyncResult : IOAsyncResult
 	public IntPtr Handle
 	{
 		[Token(Token = "0x6000CFA")]
-		[Address(RVA = "0x46946E0", Offset = "0x46946E0", VA = "0x46946E0")]
+		[Address(RVA = "0x49B97E0", Offset = "0x49B97E0", VA = "0x49B97E0")]
 		get
 		{
 			return default(IntPtr);
@@ -95,7 +102,7 @@ internal sealed class SocketAsyncResult : IOAsyncResult
 	public SocketError ErrorCode
 	{
 		[Token(Token = "0x6000CFE")]
-		[Address(RVA = "0x4694890", Offset = "0x4694890", VA = "0x4694890")]
+		[Address(RVA = "0x49B9990", Offset = "0x49B9990", VA = "0x49B9990")]
 		get
 		{
 			return default(SocketError);
@@ -103,73 +110,73 @@ internal sealed class SocketAsyncResult : IOAsyncResult
 	}
 
 	[Token(Token = "0x6000CFB")]
-	[Address(RVA = "0x46943F0", Offset = "0x46943F0", VA = "0x46943F0")]
+	[Address(RVA = "0x49B94F0", Offset = "0x49B94F0", VA = "0x49B94F0")]
 	public SocketAsyncResult()
 	{
 	}
 
 	[Token(Token = "0x6000CFC")]
-	[Address(RVA = "0x4694700", Offset = "0x4694700", VA = "0x4694700")]
+	[Address(RVA = "0x49B9800", Offset = "0x49B9800", VA = "0x49B9800")]
 	public void Init(Socket socket, AsyncCallback callback, object state, SocketOperation operation)
 	{
 	}
 
 	[Token(Token = "0x6000CFD")]
-	[Address(RVA = "0x4694850", Offset = "0x4694850", VA = "0x4694850")]
+	[Address(RVA = "0x49B9950", Offset = "0x49B9950", VA = "0x49B9950")]
 	public SocketAsyncResult(Socket socket, AsyncCallback callback, object state, SocketOperation operation)
 	{
 	}
 
 	[Token(Token = "0x6000CFF")]
-	[Address(RVA = "0x4694900", Offset = "0x4694900", VA = "0x4694900")]
+	[Address(RVA = "0x49B9A00", Offset = "0x49B9A00", VA = "0x49B9A00")]
 	public void CheckIfThrowDelayedException()
 	{
 	}
 
 	[Token(Token = "0x6000D00")]
-	[Address(RVA = "0x4694990", Offset = "0x4694990", VA = "0x4694990", Slot = "8")]
+	[Address(RVA = "0x49B9A90", Offset = "0x49B9A90", VA = "0x49B9A90", Slot = "8")]
 	internal override void CompleteDisposed()
 	{
 	}
 
 	[Token(Token = "0x6000D01")]
-	[Address(RVA = "0x4690BF0", Offset = "0x4690BF0", VA = "0x4690BF0")]
+	[Address(RVA = "0x49B5CF0", Offset = "0x49B5CF0", VA = "0x49B5CF0")]
 	public void Complete()
 	{
 	}
 
 	[Token(Token = "0x6000D02")]
-	[Address(RVA = "0x46949A0", Offset = "0x46949A0", VA = "0x46949A0")]
+	[Address(RVA = "0x49B9AA0", Offset = "0x49B9AA0", VA = "0x49B9AA0")]
 	public void Complete(bool synch)
 	{
 	}
 
 	[Token(Token = "0x6000D03")]
-	[Address(RVA = "0x4691740", Offset = "0x4691740", VA = "0x4691740")]
+	[Address(RVA = "0x49B6840", Offset = "0x49B6840", VA = "0x49B6840")]
 	public void Complete(int total)
 	{
 	}
 
 	[Token(Token = "0x6000D04")]
-	[Address(RVA = "0x46949B0", Offset = "0x46949B0", VA = "0x46949B0")]
+	[Address(RVA = "0x49B9AB0", Offset = "0x49B9AB0", VA = "0x49B9AB0")]
 	public void Complete(Exception e, bool synch)
 	{
 	}
 
 	[Token(Token = "0x6000D05")]
-	[Address(RVA = "0x46902F0", Offset = "0x46902F0", VA = "0x46902F0")]
+	[Address(RVA = "0x49B53F0", Offset = "0x49B53F0", VA = "0x49B53F0")]
 	public void Complete(Exception e)
 	{
 	}
 
 	[Token(Token = "0x6000D06")]
-	[Address(RVA = "0x4690310", Offset = "0x4690310", VA = "0x4690310")]
+	[Address(RVA = "0x49B5410", Offset = "0x49B5410", VA = "0x49B5410")]
 	public void Complete(Socket s)
 	{
 	}
 
 	[Token(Token = "0x6000D07")]
-	[Address(RVA = "0x46905F0", Offset = "0x46905F0", VA = "0x46905F0")]
+	[Address(RVA = "0x49B56F0", Offset = "0x49B56F0", VA = "0x49B56F0")]
 	public void Complete(Socket s, int total)
 	{
 	}

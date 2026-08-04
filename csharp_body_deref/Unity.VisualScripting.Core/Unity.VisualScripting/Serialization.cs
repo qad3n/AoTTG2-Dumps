@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.Serialization
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -33,14 +40,14 @@ public static class Serialization
 	public static bool isUnitySerializing
 	{
 		[Token(Token = "0x6000F79")]
-		[Address(RVA = "0x4A33AA0", Offset = "0x4A33AA0", VA = "0x4A33AA0")]
+		[Address(RVA = "0x4D58670", Offset = "0x4D58670", VA = "0x4D58670")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000F7A")]
-		[Address(RVA = "0x4A33B10", Offset = "0x4A33B10", VA = "0x4A33B10")]
+		[Address(RVA = "0x4D586E0", Offset = "0x4D586E0", VA = "0x4D586E0")]
 		[CompilerGenerated]
 		set
 		{
@@ -51,7 +58,7 @@ public static class Serialization
 	public static bool isCustomSerializing
 	{
 		[Token(Token = "0x6000F7B")]
-		[Address(RVA = "0x4A33B60", Offset = "0x4A33B60", VA = "0x4A33B60")]
+		[Address(RVA = "0x4D58730", Offset = "0x4D58730", VA = "0x4D58730")]
 		get
 		{
 			return default(bool);
@@ -62,7 +69,7 @@ public static class Serialization
 	public static bool isSerializing
 	{
 		[Token(Token = "0x6000F7C")]
-		[Address(RVA = "0x4A33BF0", Offset = "0x4A33BF0", VA = "0x4A33BF0")]
+		[Address(RVA = "0x4D587C0", Offset = "0x4D587C0", VA = "0x4D587C0")]
 		get
 		{
 			return default(bool);
@@ -70,20 +77,20 @@ public static class Serialization
 	}
 
 	[Token(Token = "0x6000F78")]
-	[Address(RVA = "0x4A33940", Offset = "0x4A33940", VA = "0x4A33940")]
+	[Address(RVA = "0x4D58510", Offset = "0x4D58510", VA = "0x4D58510")]
 	static Serialization()
 	{
 	}
 
 	[Token(Token = "0x6000F7D")]
-	[Address(RVA = "0x4A33D30", Offset = "0x4A33D30", VA = "0x4A33D30")]
+	[Address(RVA = "0x4D58900", Offset = "0x4D58900", VA = "0x4D58900")]
 	private static SerializationOperation StartOperation()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F7E")]
-	[Address(RVA = "0x4A34270", Offset = "0x4A34270", VA = "0x4A34270")]
+	[Address(RVA = "0x4D58E40", Offset = "0x4D58E40", VA = "0x4D58E40")]
 	private static void EndOperation(SerializationOperation operation)
 	{
 	}
@@ -100,96 +107,96 @@ public static class Serialization
 	}
 
 	[Token(Token = "0x6000F81")]
-	[Address(RVA = "0x4A34580", Offset = "0x4A34580", VA = "0x4A34580")]
+	[Address(RVA = "0x4D59150", Offset = "0x4D59150", VA = "0x4D59150")]
 	public static SerializationData Serialize(this object value, bool forceReflected = false)
 	{
 		return default(SerializationData);
 	}
 
 	[Token(Token = "0x6000F82")]
-	[Address(RVA = "0x4A34BB0", Offset = "0x4A34BB0", VA = "0x4A34BB0")]
+	[Address(RVA = "0x4D59780", Offset = "0x4D59780", VA = "0x4D59780")]
 	public static void DeserializeInto(this SerializationData data, ref object instance, bool forceReflected = false)
 	{
 	}
 
 	[Token(Token = "0x6000F83")]
-	[Address(RVA = "0x4A35BB0", Offset = "0x4A35BB0", VA = "0x4A35BB0")]
+	[Address(RVA = "0x4D5A780", Offset = "0x4D5A780", VA = "0x4D5A780")]
 	public static object Deserialize(this SerializationData data, bool forceReflected = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F84")]
-	[Address(RVA = "0x4A348F0", Offset = "0x4A348F0", VA = "0x4A348F0")]
+	[Address(RVA = "0x4D594C0", Offset = "0x4D594C0", VA = "0x4D594C0")]
 	private static string SerializeJson(fsSerializer serializer, object instance, bool forceReflected)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F85")]
-	[Address(RVA = "0x4A36190", Offset = "0x4A36190", VA = "0x4A36190")]
+	[Address(RVA = "0x4D5AD60", Offset = "0x4D5AD60", VA = "0x4D5AD60")]
 	private static fsResult DeserializeJsonUtil(fsSerializer serializer, string json, ref object instance, bool forceReflected)
 	{
 		return default(fsResult);
 	}
 
 	[Token(Token = "0x6000F86")]
-	[Address(RVA = "0x4A35030", Offset = "0x4A35030", VA = "0x4A35030")]
+	[Address(RVA = "0x4D59C00", Offset = "0x4D59C00", VA = "0x4D59C00")]
 	private static void DeserializeJson(fsSerializer serializer, string json, ref object instance, bool forceReflected)
 	{
 	}
 
 	[Token(Token = "0x6000F87")]
-	[Address(RVA = "0x4A35C20", Offset = "0x4A35C20", VA = "0x4A35C20")]
+	[Address(RVA = "0x4D5A7F0", Offset = "0x4D5A7F0", VA = "0x4D5A7F0")]
 	private static void HandleResult(string label, fsResult result, [Optional] Object context)
 	{
 	}
 
 	[Token(Token = "0x6000F88")]
-	[Address(RVA = "0x4A36280", Offset = "0x4A36280", VA = "0x4A36280")]
+	[Address(RVA = "0x4D5AE50", Offset = "0x4D5AE50", VA = "0x4D5AE50")]
 	public static string PrettyPrint(string json)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F89")]
-	[Address(RVA = "0x4A362A0", Offset = "0x4A362A0", VA = "0x4A362A0")]
+	[Address(RVA = "0x4D5AE70", Offset = "0x4D5AE70", VA = "0x4D5AE70")]
 	public static void AwaitDependencies(ISerializationDepender depender)
 	{
 	}
 
 	[Token(Token = "0x6000F8A")]
-	[Address(RVA = "0x4A36880", Offset = "0x4A36880", VA = "0x4A36880")]
+	[Address(RVA = "0x4D5B450", Offset = "0x4D5B450", VA = "0x4D5B450")]
 	public static void NotifyDependencyDeserializing(ISerializationDependency dependency)
 	{
 	}
 
 	[Token(Token = "0x6000F8B")]
-	[Address(RVA = "0x4A36A20", Offset = "0x4A36A20", VA = "0x4A36A20")]
+	[Address(RVA = "0x4D5B5F0", Offset = "0x4D5B5F0", VA = "0x4D5B5F0")]
 	public static void NotifyDependencyDeserialized(ISerializationDependency dependency)
 	{
 	}
 
 	[Token(Token = "0x6000F8C")]
-	[Address(RVA = "0x4A36980", Offset = "0x4A36980", VA = "0x4A36980")]
+	[Address(RVA = "0x4D5B550", Offset = "0x4D5B550", VA = "0x4D5B550")]
 	public static void NotifyDependencyUnavailable(ISerializationDependency dependency)
 	{
 	}
 
 	[Token(Token = "0x6000F8D")]
-	[Address(RVA = "0x4A36A80", Offset = "0x4A36A80", VA = "0x4A36A80")]
+	[Address(RVA = "0x4D5B650", Offset = "0x4D5B650", VA = "0x4D5B650")]
 	public static void NotifyDependencyAvailable(ISerializationDependency dependency)
 	{
 	}
 
 	[Token(Token = "0x6000F8E")]
-	[Address(RVA = "0x4A36340", Offset = "0x4A36340", VA = "0x4A36340")]
+	[Address(RVA = "0x4D5AF10", Offset = "0x4D5AF10", VA = "0x4D5AF10")]
 	private static void CheckIfDependenciesMet(ISerializationDepender depender)
 	{
 	}
 
 	[Token(Token = "0x6000F8F")]
-	[Address(RVA = "0x4A36C20", Offset = "0x4A36C20", VA = "0x4A36C20")]
+	[Address(RVA = "0x4D5B7F0", Offset = "0x4D5B7F0", VA = "0x4D5B7F0")]
 	public static void LogStuckDependers()
 	{
 	}

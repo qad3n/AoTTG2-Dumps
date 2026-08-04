@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Pun.PhotonTransformViewPositionControl
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonTransformViewClassic.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 using UnityEngine;
@@ -40,59 +47,59 @@ public class PhotonTransformViewPositionControl
 	private bool m_UpdatedPositionAfterOnSerialize;
 
 	[Token(Token = "0x60001CB")]
-	[Address(RVA = "0x3C1D560", Offset = "0x3C1D560", VA = "0x3C1D560")]
+	[Address(RVA = "0x3F12EB0", Offset = "0x3F12EB0", VA = "0x3F12EB0")]
 	public PhotonTransformViewPositionControl(PhotonTransformViewPositionModel model)
 	{
 	}
 
 	[Token(Token = "0x60001CC")]
-	[Address(RVA = "0x3C1EE00", Offset = "0x3C1EE00", VA = "0x3C1EE00")]
+	[Address(RVA = "0x3F14750", Offset = "0x3F14750", VA = "0x3F14750")]
 	private Vector3 GetOldestStoredNetworkPosition()
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x60001CD")]
-	[Address(RVA = "0x3C1E750", Offset = "0x3C1E750", VA = "0x3C1E750")]
+	[Address(RVA = "0x3F140A0", Offset = "0x3F140A0", VA = "0x3F140A0")]
 	public void SetSynchronizedValues(Vector3 speed, float turnSpeed)
 	{
 	}
 
 	[Token(Token = "0x60001CE")]
-	[Address(RVA = "0x3C1D930", Offset = "0x3C1D930", VA = "0x3C1D930")]
+	[Address(RVA = "0x3F13280", Offset = "0x3F13280", VA = "0x3F13280")]
 	public Vector3 UpdatePosition(Vector3 currentPosition)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x60001CF")]
-	[Address(RVA = "0x3C1F270", Offset = "0x3C1F270", VA = "0x3C1F270")]
+	[Address(RVA = "0x3F14BC0", Offset = "0x3F14BC0", VA = "0x3F14BC0")]
 	public Vector3 GetNetworkPosition()
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x60001D0")]
-	[Address(RVA = "0x3C1EE60", Offset = "0x3C1EE60", VA = "0x3C1EE60")]
+	[Address(RVA = "0x3F147B0", Offset = "0x3F147B0", VA = "0x3F147B0")]
 	public Vector3 GetExtrapolatedPositionOffset()
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x60001D1")]
-	[Address(RVA = "0x3C1E9A0", Offset = "0x3C1E9A0", VA = "0x3C1E9A0")]
+	[Address(RVA = "0x3F142F0", Offset = "0x3F142F0", VA = "0x3F142F0")]
 	public void OnPhotonSerializeView(Vector3 currentPosition, PhotonStream stream, PhotonMessageInfo info)
 	{
 	}
 
 	[Token(Token = "0x60001D2")]
-	[Address(RVA = "0x3C1F280", Offset = "0x3C1F280", VA = "0x3C1F280")]
+	[Address(RVA = "0x3F14BD0", Offset = "0x3F14BD0", VA = "0x3F14BD0")]
 	private void SerializeData(Vector3 currentPosition, PhotonStream stream, PhotonMessageInfo info)
 	{
 	}
 
 	[Token(Token = "0x60001D3")]
-	[Address(RVA = "0x3C1F390", Offset = "0x3C1F390", VA = "0x3C1F390")]
+	[Address(RVA = "0x3F14CE0", Offset = "0x3F14CE0", VA = "0x3F14CE0")]
 	private void DeserializeData(PhotonStream stream, PhotonMessageInfo info)
 	{
 	}

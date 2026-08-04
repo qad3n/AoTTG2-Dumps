@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.BloomAndFlares
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/BloomAndFlares.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -146,44 +153,44 @@ public class BloomAndFlares : PostEffectsBase
 	private Material brightPassFilterMaterial;
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x41531E0", Offset = "0x41531E0", VA = "0x41531E0", Slot = "4")]
+	[Address(RVA = "0x44782E0", Offset = "0x44782E0", VA = "0x44782E0", Slot = "4")]
 	public override bool CheckResources()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x41533C0", Offset = "0x41533C0", VA = "0x41533C0")]
+	[Address(RVA = "0x44784C0", Offset = "0x44784C0", VA = "0x44784C0")]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x41543B0", Offset = "0x41543B0", VA = "0x41543B0")]
+	[Address(RVA = "0x44794B0", Offset = "0x44794B0", VA = "0x44794B0")]
 	private void AddTo(float intensity_, RenderTexture from, RenderTexture to)
 	{
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x4154220", Offset = "0x4154220", VA = "0x4154220")]
+	[Address(RVA = "0x4479320", Offset = "0x4479320", VA = "0x4479320")]
 	private void BlendFlares(RenderTexture from, RenderTexture to)
 	{
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x4153FA0", Offset = "0x4153FA0", VA = "0x4153FA0")]
+	[Address(RVA = "0x44790A0", Offset = "0x44790A0", VA = "0x44790A0")]
 	private void BrightFilter(float thresh, float useAlphaAsMask, RenderTexture from, RenderTexture to)
 	{
 	}
 
 	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x41540C0", Offset = "0x41540C0", VA = "0x41540C0")]
+	[Address(RVA = "0x44791C0", Offset = "0x44791C0", VA = "0x44791C0")]
 	private void Vignette(float amount, RenderTexture from, RenderTexture to)
 	{
 	}
 
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x4154450", Offset = "0x4154450", VA = "0x4154450")]
+	[Address(RVA = "0x4479550", Offset = "0x4479550", VA = "0x4479550")]
 	public BloomAndFlares()
 	{
 	}

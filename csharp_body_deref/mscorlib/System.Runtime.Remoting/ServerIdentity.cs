@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.ServerIdentity
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.Remoting.Contexts;
 using System.Runtime.Remoting.Lifetime;
 using System.Runtime.Remoting.Messaging;
@@ -32,7 +39,7 @@ internal abstract class ServerIdentity : System.Runtime.Remoting.Identity
 	public Type ObjectType
 	{
 		[Token(Token = "0x6001CA9")]
-		[Address(RVA = "0x4E89640", Offset = "0x4E89640", VA = "0x4E89640")]
+		[Address(RVA = "0x3B6F160", Offset = "0x3B6F160", VA = "0x3B6F160")]
 		get
 		{
 			return null;
@@ -43,7 +50,7 @@ internal abstract class ServerIdentity : System.Runtime.Remoting.Identity
 	public System.Runtime.Remoting.Lifetime.Lease Lease
 	{
 		[Token(Token = "0x6001CAE")]
-		[Address(RVA = "0x4E898C0", Offset = "0x4E898C0", VA = "0x4E898C0")]
+		[Address(RVA = "0x3B6F3E0", Offset = "0x3B6F3E0", VA = "0x3B6F3E0")]
 		get
 		{
 			return null;
@@ -54,45 +61,45 @@ internal abstract class ServerIdentity : System.Runtime.Remoting.Identity
 	public Context Context
 	{
 		[Token(Token = "0x6001CAF")]
-		[Address(RVA = "0x4E898D0", Offset = "0x4E898D0", VA = "0x4E898D0")]
+		[Address(RVA = "0x3B6F3F0", Offset = "0x3B6F3F0", VA = "0x3B6F3F0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001CB0")]
-		[Address(RVA = "0x4E898E0", Offset = "0x4E898E0", VA = "0x4E898E0")]
+		[Address(RVA = "0x3B6F400", Offset = "0x3B6F400", VA = "0x3B6F400")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001CA8")]
-	[Address(RVA = "0x4E895E0", Offset = "0x4E895E0", VA = "0x4E895E0")]
+	[Address(RVA = "0x3B6F100", Offset = "0x3B6F100", VA = "0x3B6F100")]
 	public ServerIdentity(string objectUri, Context context, Type objectType)
 	{
 	}
 
 	[Token(Token = "0x6001CAA")]
-	[Address(RVA = "0x4E86CF0", Offset = "0x4E86CF0", VA = "0x4E86CF0")]
+	[Address(RVA = "0x3B6C810", Offset = "0x3B6C810", VA = "0x3B6C810")]
 	public void StartTrackingLifetime(ILease lease)
 	{
 	}
 
 	[Token(Token = "0x6001CAB")]
-	[Address(RVA = "0x4E89650", Offset = "0x4E89650", VA = "0x4E89650", Slot = "5")]
+	[Address(RVA = "0x3B6F170", Offset = "0x3B6F170", VA = "0x3B6F170", Slot = "5")]
 	public virtual void OnLifetimeExpired()
 	{
 	}
 
 	[Token(Token = "0x6001CAC")]
-	[Address(RVA = "0x4E89700", Offset = "0x4E89700", VA = "0x4E89700", Slot = "4")]
+	[Address(RVA = "0x3B6F220", Offset = "0x3B6F220", VA = "0x3B6F220", Slot = "4")]
 	public override ObjRef CreateObjRef(Type requestedType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001CAD")]
-	[Address(RVA = "0x4E88830", Offset = "0x4E88830", VA = "0x4E88830")]
+	[Address(RVA = "0x3B6E350", Offset = "0x3B6E350", VA = "0x3B6E350")]
 	public void AttachServerObject(MarshalByRefObject serverObject, Context context)
 	{
 	}
@@ -104,7 +111,7 @@ internal abstract class ServerIdentity : System.Runtime.Remoting.Identity
 	public abstract IMessageCtrl AsyncObjectProcessMessage(IMessage msg, IMessageSink replySink);
 
 	[Token(Token = "0x6001CB3")]
-	[Address(RVA = "0x4E89660", Offset = "0x4E89660", VA = "0x4E89660")]
+	[Address(RVA = "0x3B6F180", Offset = "0x3B6F180", VA = "0x3B6F180")]
 	protected void DisposeServerObject()
 	{
 	}

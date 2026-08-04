@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.MethodCallExpression5
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Reflection;
 using Il2CppDummyDll;
@@ -31,7 +38,7 @@ internal sealed class MethodCallExpression5 : MethodCallExpression, IArgumentPro
 	public override int ArgumentCount
 	{
 		[Token(Token = "0x60004AE")]
-		[Address(RVA = "0x4199650", Offset = "0x4199650", VA = "0x4199650", Slot = "15")]
+		[Address(RVA = "0x44BE750", Offset = "0x44BE750", VA = "0x44BE750", Slot = "15")]
 		get
 		{
 			return default(int);
@@ -39,20 +46,20 @@ internal sealed class MethodCallExpression5 : MethodCallExpression, IArgumentPro
 	}
 
 	[Token(Token = "0x60004AC")]
-	[Address(RVA = "0x41994A0", Offset = "0x41994A0", VA = "0x41994A0")]
+	[Address(RVA = "0x44BE5A0", Offset = "0x44BE5A0", VA = "0x44BE5A0")]
 	public MethodCallExpression5(MethodInfo method, Expression arg0, Expression arg1, Expression arg2, Expression arg3, Expression arg4)
 	{
 	}
 
 	[Token(Token = "0x60004AD")]
-	[Address(RVA = "0x4199580", Offset = "0x4199580", VA = "0x4199580", Slot = "14")]
+	[Address(RVA = "0x44BE680", Offset = "0x44BE680", VA = "0x44BE680", Slot = "14")]
 	public override Expression GetArgument(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004AF")]
-	[Address(RVA = "0x4199660", Offset = "0x4199660", VA = "0x4199660", Slot = "13")]
+	[Address(RVA = "0x44BE760", Offset = "0x44BE760", VA = "0x44BE760", Slot = "13")]
 	internal override MethodCallExpression Rewrite(Expression instance, IReadOnlyList<Expression> args)
 	{
 		return null;

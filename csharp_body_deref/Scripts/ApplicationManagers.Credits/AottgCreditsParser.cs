@@ -1,90 +1,97 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: ApplicationManagers.Credits.AottgCreditsParser
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/ApplicationManagers/Credits/AottgCreditsParser.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using SimpleJSONFixed;
 
 namespace ApplicationManagers.Credits;
 
-[Token(Token = "0x200075D")]
+[Token(Token = "0x20007AC")]
 public static class AottgCreditsParser
 {
-	[Token(Token = "0x6004774")]
-	[Address(RVA = "0x40AD630", Offset = "0x40AD630", VA = "0x40AD630")]
+	[Token(Token = "0x60049E3")]
+	[Address(RVA = "0x43C6560", Offset = "0x43C6560", VA = "0x43C6560")]
 	public static bool TryParse(string json, out AottgCreditsResponse credits, out string error)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004775")]
-	[Address(RVA = "0x40AD7D0", Offset = "0x40AD7D0", VA = "0x40AD7D0")]
+	[Token(Token = "0x60049E4")]
+	[Address(RVA = "0x43C6700", Offset = "0x43C6700", VA = "0x43C6700")]
 	public static bool TryParse(JSONNode root, out AottgCreditsResponse credits, out string error)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004776")]
-	[Address(RVA = "0x40ADB20", Offset = "0x40ADB20", VA = "0x40ADB20")]
+	[Token(Token = "0x60049E5")]
+	[Address(RVA = "0x43C6A50", Offset = "0x43C6A50", VA = "0x43C6A50")]
 	private static bool TryParseCategory(JSONNode node, out AottgCreditCategory category)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004777")]
-	[Address(RVA = "0x40AE130", Offset = "0x40AE130", VA = "0x40AE130")]
+	[Token(Token = "0x60049E6")]
+	[Address(RVA = "0x43C7060", Offset = "0x43C7060", VA = "0x43C7060")]
 	private static bool TryReadGroups(JSONNode node, out AottgCreditGroup[] groups)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004778")]
-	[Address(RVA = "0x40AE300", Offset = "0x40AE300", VA = "0x40AE300")]
+	[Token(Token = "0x60049E7")]
+	[Address(RVA = "0x43C7230", Offset = "0x43C7230", VA = "0x43C7230")]
 	private static bool TryParseGroup(JSONNode node, out AottgCreditGroup group)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004779")]
-	[Address(RVA = "0x40ADEA0", Offset = "0x40ADEA0", VA = "0x40ADEA0")]
+	[Token(Token = "0x60049E8")]
+	[Address(RVA = "0x43C6DD0", Offset = "0x43C6DD0", VA = "0x43C6DD0")]
 	private static bool TryReadContributors(JSONNode node, out AottgCreditContributor[] contributors)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600477A")]
-	[Address(RVA = "0x40AE470", Offset = "0x40AE470", VA = "0x40AE470")]
+	[Token(Token = "0x60049E9")]
+	[Address(RVA = "0x43C73A0", Offset = "0x43C73A0", VA = "0x43C73A0")]
 	private static bool TryParseContributor(JSONNode node, out AottgCreditContributor contributor)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600477B")]
-	[Address(RVA = "0x40ADD80", Offset = "0x40ADD80", VA = "0x40ADD80")]
+	[Token(Token = "0x60049EA")]
+	[Address(RVA = "0x43C6CB0", Offset = "0x43C6CB0", VA = "0x43C6CB0")]
 	private static bool TryReadDescription(JSONNode node, out string description)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600477C")]
-	[Address(RVA = "0x40ADCC0", Offset = "0x40ADCC0", VA = "0x40ADCC0")]
+	[Token(Token = "0x60049EB")]
+	[Address(RVA = "0x43C6BF0", Offset = "0x43C6BF0", VA = "0x43C6BF0")]
 	private static bool TryReadRequiredString(JSONNode node, string key, out string value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600477D")]
-	[Address(RVA = "0x40AE6B0", Offset = "0x40AE6B0", VA = "0x40AE6B0")]
+	[Token(Token = "0x60049EC")]
+	[Address(RVA = "0x43C75E0", Offset = "0x43C75E0", VA = "0x43C75E0")]
 	private static string Trimmed(JSONNode node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600477E")]
-	[Address(RVA = "0x40ADAB0", Offset = "0x40ADAB0", VA = "0x40ADAB0")]
+	[Token(Token = "0x60049ED")]
+	[Address(RVA = "0x43C69E0", Offset = "0x43C69E0", VA = "0x43C69E0")]
 	private static bool IsObject(JSONNode node)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600477F")]
-	[Address(RVA = "0x40AD770", Offset = "0x40AD770", VA = "0x40AD770")]
+	[Token(Token = "0x60049EE")]
+	[Address(RVA = "0x43C66A0", Offset = "0x43C66A0", VA = "0x43C66A0")]
 	private static bool Fail(out AottgCreditsResponse credits, out string error)
 	{
 		return default(bool);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: ExitGames.Client.Photon.SendOptions
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace ExitGames.Client.Photon;
@@ -29,13 +36,13 @@ public struct SendOptions
 	public bool Reliability
 	{
 		[Token(Token = "0x60002A9")]
-		[Address(RVA = "0x3B95C20", Offset = "0x3B95C20", VA = "0x3B95C20")]
+		[Address(RVA = "0x3E8B570", Offset = "0x3E8B570", VA = "0x3E8B570")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002AA")]
-		[Address(RVA = "0x3B95C30", Offset = "0x3B95C30", VA = "0x3B95C30")]
+		[Address(RVA = "0x3E8B580", Offset = "0x3E8B580", VA = "0x3E8B580")]
 		set
 		{
 		}

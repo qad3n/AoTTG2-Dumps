@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.BinXmlSqlMoney
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml;
@@ -10,26 +17,26 @@ internal struct BinXmlSqlMoney
 	private long data;
 
 	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x4348100", Offset = "0x4348100", VA = "0x4348100")]
+	[Address(RVA = "0x467A1D0", Offset = "0x467A1D0", VA = "0x467A1D0")]
 	public BinXmlSqlMoney(int v)
 	{
 	}
 
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x4348110", Offset = "0x4348110", VA = "0x4348110")]
+	[Address(RVA = "0x467A1E0", Offset = "0x467A1E0", VA = "0x467A1E0")]
 	public BinXmlSqlMoney(long v)
 	{
 	}
 
 	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x4348120", Offset = "0x4348120", VA = "0x4348120")]
+	[Address(RVA = "0x467A1F0", Offset = "0x467A1F0", VA = "0x467A1F0")]
 	public decimal ToDecimal()
 	{
 		return default(decimal);
 	}
 
 	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x4348170", Offset = "0x4348170", VA = "0x4348170", Slot = "3")]
+	[Address(RVA = "0x467A240", Offset = "0x467A240", VA = "0x467A240", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

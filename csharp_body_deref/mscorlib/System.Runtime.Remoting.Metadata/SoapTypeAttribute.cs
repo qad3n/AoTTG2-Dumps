@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.Metadata.SoapTypeAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -40,7 +47,7 @@ public sealed class SoapTypeAttribute : SoapAttribute
 	public override bool UseAttribute
 	{
 		[Token(Token = "0x6001DDA")]
-		[Address(RVA = "0x4E9EAE0", Offset = "0x4E9EAE0", VA = "0x4E9EAE0", Slot = "7")]
+		[Address(RVA = "0x3B84600", Offset = "0x3B84600", VA = "0x3B84600", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -51,7 +58,7 @@ public sealed class SoapTypeAttribute : SoapAttribute
 	public string XmlElementName
 	{
 		[Token(Token = "0x6001DDB")]
-		[Address(RVA = "0x4E9EAF0", Offset = "0x4E9EAF0", VA = "0x4E9EAF0")]
+		[Address(RVA = "0x3B84610", Offset = "0x3B84610", VA = "0x3B84610")]
 		get
 		{
 			return null;
@@ -62,7 +69,7 @@ public sealed class SoapTypeAttribute : SoapAttribute
 	public override string XmlNamespace
 	{
 		[Token(Token = "0x6001DDC")]
-		[Address(RVA = "0x4E9EB00", Offset = "0x4E9EB00", VA = "0x4E9EB00", Slot = "8")]
+		[Address(RVA = "0x3B84620", Offset = "0x3B84620", VA = "0x3B84620", Slot = "8")]
 		get
 		{
 			return null;
@@ -73,7 +80,7 @@ public sealed class SoapTypeAttribute : SoapAttribute
 	public string XmlTypeName
 	{
 		[Token(Token = "0x6001DDD")]
-		[Address(RVA = "0x4E9EB10", Offset = "0x4E9EB10", VA = "0x4E9EB10")]
+		[Address(RVA = "0x3B84630", Offset = "0x3B84630", VA = "0x3B84630")]
 		get
 		{
 			return null;
@@ -84,7 +91,7 @@ public sealed class SoapTypeAttribute : SoapAttribute
 	public string XmlTypeNamespace
 	{
 		[Token(Token = "0x6001DDE")]
-		[Address(RVA = "0x4E9EB20", Offset = "0x4E9EB20", VA = "0x4E9EB20")]
+		[Address(RVA = "0x3B84640", Offset = "0x3B84640", VA = "0x3B84640")]
 		get
 		{
 			return null;
@@ -95,7 +102,7 @@ public sealed class SoapTypeAttribute : SoapAttribute
 	internal bool IsInteropXmlElement
 	{
 		[Token(Token = "0x6001DDF")]
-		[Address(RVA = "0x4E9EB30", Offset = "0x4E9EB30", VA = "0x4E9EB30")]
+		[Address(RVA = "0x3B84650", Offset = "0x3B84650", VA = "0x3B84650")]
 		get
 		{
 			return default(bool);
@@ -106,7 +113,7 @@ public sealed class SoapTypeAttribute : SoapAttribute
 	internal bool IsInteropXmlType
 	{
 		[Token(Token = "0x6001DE0")]
-		[Address(RVA = "0x4E9EB40", Offset = "0x4E9EB40", VA = "0x4E9EB40")]
+		[Address(RVA = "0x3B84660", Offset = "0x3B84660", VA = "0x3B84660")]
 		get
 		{
 			return default(bool);
@@ -114,13 +121,13 @@ public sealed class SoapTypeAttribute : SoapAttribute
 	}
 
 	[Token(Token = "0x6001DD9")]
-	[Address(RVA = "0x4E9EAD0", Offset = "0x4E9EAD0", VA = "0x4E9EAD0")]
+	[Address(RVA = "0x3B845F0", Offset = "0x3B845F0", VA = "0x3B845F0")]
 	public SoapTypeAttribute()
 	{
 	}
 
 	[Token(Token = "0x6001DE1")]
-	[Address(RVA = "0x4E9EB50", Offset = "0x4E9EB50", VA = "0x4E9EB50", Slot = "9")]
+	[Address(RVA = "0x3B84670", Offset = "0x3B84670", VA = "0x3B84670", Slot = "9")]
 	internal override void SetReflectionObject(object reflectionObject)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.IO.DefaultWatcher
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Threading;
 using Il2CppDummyDll;
@@ -24,69 +31,69 @@ internal class DefaultWatcher : IFileWatcher
 	private static string[] NoStringsArray;
 
 	[Token(Token = "0x600169A")]
-	[Address(RVA = "0x45C4EC0", Offset = "0x45C4EC0", VA = "0x45C4EC0")]
+	[Address(RVA = "0x48E9FC0", Offset = "0x48E9FC0", VA = "0x48E9FC0")]
 	private DefaultWatcher()
 	{
 	}
 
 	[Token(Token = "0x600169B")]
-	[Address(RVA = "0x45C4ED0", Offset = "0x45C4ED0", VA = "0x45C4ED0")]
+	[Address(RVA = "0x48E9FD0", Offset = "0x48E9FD0", VA = "0x48E9FD0")]
 	public static bool GetInstance(out IFileWatcher watcher)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600169C")]
-	[Address(RVA = "0x45C4FC0", Offset = "0x45C4FC0", VA = "0x45C4FC0", Slot = "4")]
+	[Address(RVA = "0x48EA0C0", Offset = "0x48EA0C0", VA = "0x48EA0C0", Slot = "4")]
 	public void StartDispatching(object handle)
 	{
 	}
 
 	[Token(Token = "0x600169D")]
-	[Address(RVA = "0x45C5AC0", Offset = "0x45C5AC0", VA = "0x45C5AC0", Slot = "5")]
+	[Address(RVA = "0x48EABC0", Offset = "0x48EABC0", VA = "0x48EABC0", Slot = "5")]
 	public void StopDispatching(object handle)
 	{
 	}
 
 	[Token(Token = "0x600169E")]
-	[Address(RVA = "0x45C5E40", Offset = "0x45C5E40", VA = "0x45C5E40", Slot = "6")]
+	[Address(RVA = "0x48EAF40", Offset = "0x48EAF40", VA = "0x48EAF40", Slot = "6")]
 	public void Dispose(object handle)
 	{
 	}
 
 	[Token(Token = "0x600169F")]
-	[Address(RVA = "0x45C5E50", Offset = "0x45C5E50", VA = "0x45C5E50")]
+	[Address(RVA = "0x48EAF50", Offset = "0x48EAF50", VA = "0x48EAF50")]
 	private void Monitor()
 	{
 	}
 
 	[Token(Token = "0x60016A0")]
-	[Address(RVA = "0x45C59B0", Offset = "0x45C59B0", VA = "0x45C59B0")]
+	[Address(RVA = "0x48EAAB0", Offset = "0x48EAAB0", VA = "0x48EAAB0")]
 	private bool UpdateDataAndDispatch(DefaultWatcherData data, bool dispatch)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60016A1")]
-	[Address(RVA = "0x45C6910", Offset = "0x45C6910", VA = "0x45C6910")]
+	[Address(RVA = "0x48EBA10", Offset = "0x48EBA10", VA = "0x48EBA10")]
 	private static void DispatchEvents(FileSystemWatcher fsw, FileAction action, string filename)
 	{
 	}
 
 	[Token(Token = "0x60016A2")]
-	[Address(RVA = "0x45C6690", Offset = "0x45C6690", VA = "0x45C6690")]
+	[Address(RVA = "0x48EB790", Offset = "0x48EB790", VA = "0x48EB790")]
 	private void DoFiles(DefaultWatcherData data, string directory, bool dispatch)
 	{
 	}
 
 	[Token(Token = "0x60016A3")]
-	[Address(RVA = "0x45C6F10", Offset = "0x45C6F10", VA = "0x45C6F10")]
+	[Address(RVA = "0x48EC010", Offset = "0x48EC010", VA = "0x48EC010")]
 	private void IterateAndModifyFilesData(DefaultWatcherData data, string directory, bool dispatch, string[] files)
 	{
 	}
 
 	[Token(Token = "0x60016A4")]
-	[Address(RVA = "0x45C7DD0", Offset = "0x45C7DD0", VA = "0x45C7DD0")]
+	[Address(RVA = "0x48ECED0", Offset = "0x48ECED0", VA = "0x48ECED0")]
 	private static FileData CreateFileData(string directory, string filename)
 	{
 		return null;

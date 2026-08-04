@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.FrameTimeSampleHistory
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -48,31 +55,31 @@ internal class FrameTimeSampleHistory
 	private static Func<float, float, float> s_SampleValueDivide;
 
 	[Token(Token = "0x600081A")]
-	[Address(RVA = "0x4887400", Offset = "0x4887400", VA = "0x4887400")]
+	[Address(RVA = "0x4BAC4F0", Offset = "0x4BAC4F0", VA = "0x4BAC4F0")]
 	public FrameTimeSampleHistory(int initialCapacity)
 	{
 	}
 
 	[Token(Token = "0x600081B")]
-	[Address(RVA = "0x48874A0", Offset = "0x48874A0", VA = "0x48874A0")]
+	[Address(RVA = "0x4BAC590", Offset = "0x4BAC590", VA = "0x4BAC590")]
 	internal void Add(FrameTimeSample sample)
 	{
 	}
 
 	[Token(Token = "0x600081C")]
-	[Address(RVA = "0x4887580", Offset = "0x4887580", VA = "0x4887580")]
+	[Address(RVA = "0x4BAC670", Offset = "0x4BAC670", VA = "0x4BAC670")]
 	internal void ComputeAggregateValues()
 	{
 	}
 
 	[Token(Token = "0x600081D")]
-	[Address(RVA = "0x4887E80", Offset = "0x4887E80", VA = "0x4887E80")]
+	[Address(RVA = "0x4BACF70", Offset = "0x4BACF70", VA = "0x4BACF70")]
 	internal void DiscardOldSamples(int sampleHistorySize)
 	{
 	}
 
 	[Token(Token = "0x600081E")]
-	[Address(RVA = "0x4887F10", Offset = "0x4887F10", VA = "0x4887F10")]
+	[Address(RVA = "0x4BAD000", Offset = "0x4BAD000", VA = "0x4BAD000")]
 	internal void Clear()
 	{
 	}

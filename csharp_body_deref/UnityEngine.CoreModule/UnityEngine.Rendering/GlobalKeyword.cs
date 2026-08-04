@@ -1,10 +1,17 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.GlobalKeyword
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
 using UnityEngine.Scripting;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200031A")]
+[Token(Token = "0x200031D")]
 [UnityEngine.Scripting.UsedByNativeCode]
 [UnityEngine.Bindings.NativeHeader("Runtime/Graphics/ShaderScriptBindings.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Shaders/Keywords/KeywordSpaceScriptBindings.h")]
@@ -18,8 +25,8 @@ public readonly struct GlobalKeyword
 	[FieldOffset(Offset = "0x8")]
 	internal readonly uint m_Index;
 
-	[Token(Token = "0x600110D")]
-	[Address(RVA = "0x4B0DF50", Offset = "0x4B0DF50", VA = "0x4B0DF50", Slot = "3")]
+	[Token(Token = "0x600110F")]
+	[Address(RVA = "0x4E35880", Offset = "0x4E35880", VA = "0x4E35880", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

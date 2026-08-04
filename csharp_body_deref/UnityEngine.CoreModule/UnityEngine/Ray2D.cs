@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Ray2D
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -20,14 +27,14 @@ public struct Ray2D : IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x600028F")]
-		[Address(RVA = "0x4A95C30", Offset = "0x4A95C30", VA = "0x4A95C30")]
+		[Address(RVA = "0x4DBD450", Offset = "0x4DBD450", VA = "0x4DBD450")]
 		get
 		{
 			return default(Vector2);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000290")]
-		[Address(RVA = "0x4A95C40", Offset = "0x4A95C40", VA = "0x4A95C40")]
+		[Address(RVA = "0x4DBD460", Offset = "0x4DBD460", VA = "0x4DBD460")]
 		set
 		{
 		}
@@ -38,14 +45,14 @@ public struct Ray2D : IFormattable
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000291")]
-		[Address(RVA = "0x4A95C50", Offset = "0x4A95C50", VA = "0x4A95C50")]
+		[Address(RVA = "0x4DBD470", Offset = "0x4DBD470", VA = "0x4DBD470")]
 		get
 		{
 			return default(Vector2);
 		}
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000292")]
-		[Address(RVA = "0x4A95C60", Offset = "0x4A95C60", VA = "0x4A95C60")]
+		[Address(RVA = "0x4DBD480", Offset = "0x4DBD480", VA = "0x4DBD480")]
 		set
 		{
 		}
@@ -53,7 +60,7 @@ public struct Ray2D : IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000293")]
-	[Address(RVA = "0x4A95D60", Offset = "0x4A95D60", VA = "0x4A95D60", Slot = "3")]
+	[Address(RVA = "0x4DBD580", Offset = "0x4DBD580", VA = "0x4DBD580", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
@@ -61,7 +68,7 @@ public struct Ray2D : IFormattable
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000294")]
-	[Address(RVA = "0x4A95D70", Offset = "0x4A95D70", VA = "0x4A95D70", Slot = "4")]
+	[Address(RVA = "0x4DBD590", Offset = "0x4DBD590", VA = "0x4DBD590", Slot = "4")]
 	public string ToString(string format, IFormatProvider formatProvider)
 	{
 		return null;

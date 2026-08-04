@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: DG.Tweening.Plugins.CircleOptions
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using DG.Tweening.Plugins.Options;
 using Il2CppDummyDll;
 using UnityEngine;
@@ -36,13 +43,13 @@ public struct CircleOptions : IPlugOptions
 	internal bool initialized;
 
 	[Token(Token = "0x60002BD")]
-	[Address(RVA = "0x2309DD0", Offset = "0x2309DD0", VA = "0x2309DD0", Slot = "4")]
+	[Address(RVA = "0x23706B0", Offset = "0x23706B0", VA = "0x23706B0", Slot = "4")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x60002BE")]
-	[Address(RVA = "0x2309DF0", Offset = "0x2309DF0", VA = "0x2309DF0")]
+	[Address(RVA = "0x23706D0", Offset = "0x23706D0", VA = "0x23706D0")]
 	public void Initialize(Vector2 startValue, Vector2 endValue)
 	{
 	}

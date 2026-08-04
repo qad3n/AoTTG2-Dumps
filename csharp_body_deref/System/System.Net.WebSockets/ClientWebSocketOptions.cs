@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.WebSockets.ClientWebSocketOptions
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using Il2CppDummyDll;
@@ -51,7 +58,7 @@ public sealed class ClientWebSocketOptions
 	internal WebHeaderCollection RequestHeaders
 	{
 		[Token(Token = "0x6000D73")]
-		[Address(RVA = "0x469FA90", Offset = "0x469FA90", VA = "0x469FA90")]
+		[Address(RVA = "0x49C4B90", Offset = "0x49C4B90", VA = "0x49C4B90")]
 		get
 		{
 			return null;
@@ -62,7 +69,7 @@ public sealed class ClientWebSocketOptions
 	internal List<string> RequestedSubProtocols
 	{
 		[Token(Token = "0x6000D74")]
-		[Address(RVA = "0x469FAA0", Offset = "0x469FAA0", VA = "0x469FAA0")]
+		[Address(RVA = "0x49C4BA0", Offset = "0x49C4BA0", VA = "0x49C4BA0")]
 		get
 		{
 			return null;
@@ -73,7 +80,7 @@ public sealed class ClientWebSocketOptions
 	public IWebProxy Proxy
 	{
 		[Token(Token = "0x6000D75")]
-		[Address(RVA = "0x469E730", Offset = "0x469E730", VA = "0x469E730")]
+		[Address(RVA = "0x49C3830", Offset = "0x49C3830", VA = "0x49C3830")]
 		set
 		{
 		}
@@ -83,7 +90,7 @@ public sealed class ClientWebSocketOptions
 	public X509CertificateCollection ClientCertificates
 	{
 		[Token(Token = "0x6000D76")]
-		[Address(RVA = "0x469FB00", Offset = "0x469FB00", VA = "0x469FB00")]
+		[Address(RVA = "0x49C4C00", Offset = "0x49C4C00", VA = "0x49C4C00")]
 		get
 		{
 			return null;
@@ -94,7 +101,7 @@ public sealed class ClientWebSocketOptions
 	public CookieContainer Cookies
 	{
 		[Token(Token = "0x6000D77")]
-		[Address(RVA = "0x469FB80", Offset = "0x469FB80", VA = "0x469FB80")]
+		[Address(RVA = "0x49C4C80", Offset = "0x49C4C80", VA = "0x49C4C80")]
 		get
 		{
 			return null;
@@ -105,7 +112,7 @@ public sealed class ClientWebSocketOptions
 	public TimeSpan KeepAliveInterval
 	{
 		[Token(Token = "0x6000D79")]
-		[Address(RVA = "0x469FE40", Offset = "0x469FE40", VA = "0x469FE40")]
+		[Address(RVA = "0x49C4F40", Offset = "0x49C4F40", VA = "0x49C4F40")]
 		get
 		{
 			return default(TimeSpan);
@@ -116,7 +123,7 @@ public sealed class ClientWebSocketOptions
 	internal int ReceiveBufferSize
 	{
 		[Token(Token = "0x6000D7A")]
-		[Address(RVA = "0x469FE50", Offset = "0x469FE50", VA = "0x469FE50")]
+		[Address(RVA = "0x49C4F50", Offset = "0x49C4F50", VA = "0x49C4F50")]
 		get
 		{
 			return default(int);
@@ -127,7 +134,7 @@ public sealed class ClientWebSocketOptions
 	internal int SendBufferSize
 	{
 		[Token(Token = "0x6000D7B")]
-		[Address(RVA = "0x469FE60", Offset = "0x469FE60", VA = "0x469FE60")]
+		[Address(RVA = "0x49C4F60", Offset = "0x49C4F60", VA = "0x49C4F60")]
 		get
 		{
 			return default(int);
@@ -138,7 +145,7 @@ public sealed class ClientWebSocketOptions
 	internal ArraySegment<byte>? Buffer
 	{
 		[Token(Token = "0x6000D7C")]
-		[Address(RVA = "0x469FE70", Offset = "0x469FE70", VA = "0x469FE70")]
+		[Address(RVA = "0x49C4F70", Offset = "0x49C4F70", VA = "0x49C4F70")]
 		get
 		{
 			return null;
@@ -146,25 +153,25 @@ public sealed class ClientWebSocketOptions
 	}
 
 	[Token(Token = "0x6000D72")]
-	[Address(RVA = "0x469E5F0", Offset = "0x469E5F0", VA = "0x469E5F0")]
+	[Address(RVA = "0x49C36F0", Offset = "0x49C36F0", VA = "0x49C36F0")]
 	internal ClientWebSocketOptions()
 	{
 	}
 
 	[Token(Token = "0x6000D78")]
-	[Address(RVA = "0x469FB90", Offset = "0x469FB90", VA = "0x469FB90")]
+	[Address(RVA = "0x49C4C90", Offset = "0x49C4C90", VA = "0x49C4C90")]
 	public void AddSubProtocol(string subProtocol)
 	{
 	}
 
 	[Token(Token = "0x6000D7D")]
-	[Address(RVA = "0x469EB90", Offset = "0x469EB90", VA = "0x469EB90")]
+	[Address(RVA = "0x49C3C90", Offset = "0x49C3C90", VA = "0x49C3C90")]
 	internal void SetToReadOnly()
 	{
 	}
 
 	[Token(Token = "0x6000D7E")]
-	[Address(RVA = "0x469FAB0", Offset = "0x469FAB0", VA = "0x469FAB0")]
+	[Address(RVA = "0x49C4BB0", Offset = "0x49C4BB0", VA = "0x49C4BB0")]
 	private void ThrowIfReadOnly()
 	{
 	}

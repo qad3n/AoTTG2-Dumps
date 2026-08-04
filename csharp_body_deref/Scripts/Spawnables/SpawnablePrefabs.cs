@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Spawnables.SpawnablePrefabs
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Spawnables/SpawnablePrefabs.c
+// Prior real C# source (older reference): Assets/Scripts/Spawnables/SpawnablePrefabs.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Spawnables;
@@ -14,7 +21,7 @@ internal class SpawnablePrefabs
 	public static string Rock1;
 
 	[Token(Token = "0x60002F6")]
-	[Address(RVA = "0x3C8EC50", Offset = "0x3C8EC50", VA = "0x3C8EC50")]
+	[Address(RVA = "0x3F845A0", Offset = "0x3F845A0", VA = "0x3F845A0")]
 	public SpawnablePrefabs()
 	{
 	}

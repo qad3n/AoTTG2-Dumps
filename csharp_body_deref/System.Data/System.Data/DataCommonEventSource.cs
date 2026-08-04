@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Data.DataCommonEventSource
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics.Tracing;
 using Il2CppDummyDll;
 
@@ -16,7 +23,7 @@ internal class DataCommonEventSource : EventSource
 	private static long s_nextScopeId;
 
 	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x41F5A50", Offset = "0x41F5A50", VA = "0x41F5A50")]
+	[Address(RVA = "0x45331B0", Offset = "0x45331B0", VA = "0x45331B0")]
 	[Event(1, Level = EventLevel.Informational)]
 	internal void Trace(string message)
 	{
@@ -59,7 +66,7 @@ internal class DataCommonEventSource : EventSource
 	}
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x41F5A60", Offset = "0x41F5A60", VA = "0x41F5A60")]
+	[Address(RVA = "0x45331C0", Offset = "0x45331C0", VA = "0x45331C0")]
 	[Event(2, Level = EventLevel.Verbose)]
 	internal long EnterScope(string message)
 	{
@@ -95,14 +102,14 @@ internal class DataCommonEventSource : EventSource
 	}
 
 	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x41F5B50", Offset = "0x41F5B50", VA = "0x41F5B50")]
+	[Address(RVA = "0x45332B0", Offset = "0x45332B0", VA = "0x45332B0")]
 	[Event(3, Level = EventLevel.Verbose)]
 	internal void ExitScope(long scopeId)
 	{
 	}
 
 	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x41F5B60", Offset = "0x41F5B60", VA = "0x41F5B60")]
+	[Address(RVA = "0x45332C0", Offset = "0x45332C0", VA = "0x45332C0")]
 	public DataCommonEventSource()
 	{
 	}

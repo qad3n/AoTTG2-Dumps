@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.LocalVariables
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -30,7 +37,7 @@ internal sealed class LocalVariables
 		public List<VariableScope> ChildScopes;
 
 		[Token(Token = "0x60009B1")]
-		[Address(RVA = "0x41D2B30", Offset = "0x41D2B30", VA = "0x41D2B30")]
+		[Address(RVA = "0x44F7C30", Offset = "0x44F7C30", VA = "0x44F7C30")]
 		public VariableScope(LocalVariable variable, int start, VariableScope parent)
 		{
 		}
@@ -56,7 +63,7 @@ internal sealed class LocalVariables
 	public int LocalCount
 	{
 		[Token(Token = "0x60009AC")]
-		[Address(RVA = "0x41D2D60", Offset = "0x41D2D60", VA = "0x41D2D60")]
+		[Address(RVA = "0x44F7E60", Offset = "0x44F7E60", VA = "0x44F7E60")]
 		get
 		{
 			return default(int);
@@ -67,7 +74,7 @@ internal sealed class LocalVariables
 	internal Dictionary<ParameterExpression, LocalVariable> ClosureVariables
 	{
 		[Token(Token = "0x60009AE")]
-		[Address(RVA = "0x41D2E40", Offset = "0x41D2E40", VA = "0x41D2E40")]
+		[Address(RVA = "0x44F7F40", Offset = "0x44F7F40", VA = "0x44F7F40")]
 		get
 		{
 			return null;
@@ -75,40 +82,40 @@ internal sealed class LocalVariables
 	}
 
 	[Token(Token = "0x60009A9")]
-	[Address(RVA = "0x41D2840", Offset = "0x41D2840", VA = "0x41D2840")]
+	[Address(RVA = "0x44F7940", Offset = "0x44F7940", VA = "0x44F7940")]
 	public LocalDefinition DefineLocal(ParameterExpression variable, int start)
 	{
 		return default(LocalDefinition);
 	}
 
 	[Token(Token = "0x60009AA")]
-	[Address(RVA = "0x41CC960", Offset = "0x41CC960", VA = "0x41CC960")]
+	[Address(RVA = "0x44F1A60", Offset = "0x44F1A60", VA = "0x44F1A60")]
 	public void UndefineLocal(LocalDefinition definition, int end)
 	{
 	}
 
 	[Token(Token = "0x60009AB")]
-	[Address(RVA = "0x41D2B90", Offset = "0x41D2B90", VA = "0x41D2B90")]
+	[Address(RVA = "0x44F7C90", Offset = "0x44F7C90", VA = "0x44F7C90")]
 	internal void Box(ParameterExpression variable, InstructionList instructions)
 	{
 	}
 
 	[Token(Token = "0x60009AD")]
-	[Address(RVA = "0x41D2D70", Offset = "0x41D2D70", VA = "0x41D2D70")]
+	[Address(RVA = "0x44F7E70", Offset = "0x44F7E70", VA = "0x44F7E70")]
 	public bool TryGetLocalOrClosure(ParameterExpression var, out LocalVariable local)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60009AF")]
-	[Address(RVA = "0x41D2E50", Offset = "0x41D2E50", VA = "0x41D2E50")]
+	[Address(RVA = "0x44F7F50", Offset = "0x44F7F50", VA = "0x44F7F50")]
 	internal LocalVariable AddClosureVariable(ParameterExpression variable)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60009B0")]
-	[Address(RVA = "0x41D2F60", Offset = "0x41D2F60", VA = "0x41D2F60")]
+	[Address(RVA = "0x44F8060", Offset = "0x44F8060", VA = "0x44F8060")]
 	public LocalVariables()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.Unity.RemoteVoiceLink
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/Code/RemoteVoiceLink.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -31,13 +38,13 @@ public class RemoteVoiceLink
 	public event Action<FrameOut<float>> FloatFrameDecoded
 	{
 		[Token(Token = "0x6000073")]
-		[Address(RVA = "0x3C55090", Offset = "0x3C55090", VA = "0x3C55090")]
+		[Address(RVA = "0x3F47640", Offset = "0x3F47640", VA = "0x3F47640")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000074")]
-		[Address(RVA = "0x3C55140", Offset = "0x3C55140", VA = "0x3C55140")]
+		[Address(RVA = "0x3F476F0", Offset = "0x3F476F0", VA = "0x3F476F0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -48,13 +55,13 @@ public class RemoteVoiceLink
 	public event Action RemoteVoiceRemoved
 	{
 		[Token(Token = "0x6000075")]
-		[Address(RVA = "0x3C551F0", Offset = "0x3C551F0", VA = "0x3C551F0")]
+		[Address(RVA = "0x3F477A0", Offset = "0x3F477A0", VA = "0x3F477A0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x6000076")]
-		[Address(RVA = "0x3C55280", Offset = "0x3C55280", VA = "0x3C55280")]
+		[Address(RVA = "0x3F47830", Offset = "0x3F47830", VA = "0x3F47830")]
 		[CompilerGenerated]
 		remove
 		{
@@ -62,25 +69,25 @@ public class RemoteVoiceLink
 	}
 
 	[Token(Token = "0x6000077")]
-	[Address(RVA = "0x3C55310", Offset = "0x3C55310", VA = "0x3C55310")]
+	[Address(RVA = "0x3F478C0", Offset = "0x3F478C0", VA = "0x3F478C0")]
 	public RemoteVoiceLink(VoiceInfo info, int playerId, byte voiceId, int channelId, ref RemoteVoiceOptions options)
 	{
 	}
 
 	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x3C55430", Offset = "0x3C55430", VA = "0x3C55430")]
+	[Address(RVA = "0x3F479E0", Offset = "0x3F479E0", VA = "0x3F479E0")]
 	private void OnRemoteVoiceRemoveAction()
 	{
 	}
 
 	[Token(Token = "0x6000079")]
-	[Address(RVA = "0x3C55450", Offset = "0x3C55450", VA = "0x3C55450")]
+	[Address(RVA = "0x3F47A00", Offset = "0x3F47A00", VA = "0x3F47A00")]
 	private void OnDecodedFrameFloatAction(FrameOut<float> floats)
 	{
 	}
 
 	[Token(Token = "0x600007A")]
-	[Address(RVA = "0x3C55470", Offset = "0x3C55470", VA = "0x3C55470", Slot = "3")]
+	[Address(RVA = "0x3F47A20", Offset = "0x3F47A20", VA = "0x3F47A20", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

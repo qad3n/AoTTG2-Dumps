@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MS.Internal.Xml.Cache.XPathNodeRef
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace MS.Internal.Xml.Cache;
@@ -17,7 +24,7 @@ internal struct XPathNodeRef
 	public XPathNode[] Page
 	{
 		[Token(Token = "0x6001CC7")]
-		[Address(RVA = "0x4455A90", Offset = "0x4455A90", VA = "0x4455A90")]
+		[Address(RVA = "0x47931F0", Offset = "0x47931F0", VA = "0x47931F0")]
 		get
 		{
 			return null;
@@ -28,7 +35,7 @@ internal struct XPathNodeRef
 	public int Index
 	{
 		[Token(Token = "0x6001CC8")]
-		[Address(RVA = "0x4455AA0", Offset = "0x4455AA0", VA = "0x4455AA0")]
+		[Address(RVA = "0x4793200", Offset = "0x4793200", VA = "0x4793200")]
 		get
 		{
 			return default(int);
@@ -36,13 +43,13 @@ internal struct XPathNodeRef
 	}
 
 	[Token(Token = "0x6001CC6")]
-	[Address(RVA = "0x4455A70", Offset = "0x4455A70", VA = "0x4455A70")]
+	[Address(RVA = "0x47931D0", Offset = "0x47931D0", VA = "0x47931D0")]
 	public XPathNodeRef(XPathNode[] page, int idx)
 	{
 	}
 
 	[Token(Token = "0x6001CC9")]
-	[Address(RVA = "0x4455AB0", Offset = "0x4455AB0", VA = "0x4455AB0", Slot = "2")]
+	[Address(RVA = "0x4793210", Offset = "0x4793210", VA = "0x4793210", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.ExceptionHandler
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -26,20 +33,20 @@ internal sealed class ExceptionHandler
 	public readonly ExceptionFilter Filter;
 
 	[Token(Token = "0x6000863")]
-	[Address(RVA = "0x41B99D0", Offset = "0x41B99D0", VA = "0x41B99D0")]
+	[Address(RVA = "0x44DEAD0", Offset = "0x44DEAD0", VA = "0x44DEAD0")]
 	internal ExceptionHandler(int labelIndex, int handlerStartIndex, int handlerEndIndex, Type exceptionType, ExceptionFilter filter)
 	{
 	}
 
 	[Token(Token = "0x6000864")]
-	[Address(RVA = "0x41B9A40", Offset = "0x41B9A40", VA = "0x41B9A40")]
+	[Address(RVA = "0x44DEB40", Offset = "0x44DEB40", VA = "0x44DEB40")]
 	public bool Matches(Type exceptionType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000865")]
-	[Address(RVA = "0x41B9A70", Offset = "0x41B9A70", VA = "0x41B9A70", Slot = "3")]
+	[Address(RVA = "0x44DEB70", Offset = "0x44DEB70", VA = "0x44DEB70", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

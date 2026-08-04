@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.UI.DebugUIHandlerGroup
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.UI;
 
@@ -23,27 +30,27 @@ public class DebugUIHandlerGroup : DebugUIHandlerWidget
 	private DebugUIHandlerContainer m_Container;
 
 	[Token(Token = "0x6000EB4")]
-	[Address(RVA = "0x48EED50", Offset = "0x48EED50", VA = "0x48EED50", Slot = "5")]
+	[Address(RVA = "0x4C13DC0", Offset = "0x4C13DC0", VA = "0x4C13DC0", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
 	[Token(Token = "0x6000EB5")]
-	[Address(RVA = "0x48EEE50", Offset = "0x48EEE50", VA = "0x48EEE50", Slot = "6")]
+	[Address(RVA = "0x4C13EC0", Offset = "0x4C13EC0", VA = "0x4C13EC0", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000EB6")]
-	[Address(RVA = "0x48EEEF0", Offset = "0x48EEEF0", VA = "0x48EEEF0", Slot = "12")]
+	[Address(RVA = "0x4C13F60", Offset = "0x4C13F60", VA = "0x4C13F60", Slot = "12")]
 	public override DebugUIHandlerWidget Next()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EB7")]
-	[Address(RVA = "0x48EEFA0", Offset = "0x48EEFA0", VA = "0x48EEFA0")]
+	[Address(RVA = "0x4C14010", Offset = "0x4C14010", VA = "0x4C14010")]
 	public DebugUIHandlerGroup()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.UnityAwaitableExtensions
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -32,13 +39,13 @@ public static class UnityAwaitableExtensions
 		private Awaitable.Awaiter _003C_003Eu__1;
 
 		[Token(Token = "0x600091A")]
-		[Address(RVA = "0x46DE590", Offset = "0x46DE590", VA = "0x46DE590", Slot = "4")]
+		[Address(RVA = "0x4A03690", Offset = "0x4A03690", VA = "0x4A03690", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600091B")]
-		[Address(RVA = "0x46DE880", Offset = "0x46DE880", VA = "0x46DE880", Slot = "5")]
+		[Address(RVA = "0x4A03980", Offset = "0x4A03980", VA = "0x4A03980", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -79,7 +86,7 @@ public static class UnityAwaitableExtensions
 	}
 
 	[Token(Token = "0x6000918")]
-	[Address(RVA = "0x46DE4F0", Offset = "0x46DE4F0", VA = "0x46DE4F0")]
+	[Address(RVA = "0x4A035F0", Offset = "0x4A035F0", VA = "0x4A035F0")]
 	[AsyncStateMachine(typeof(_003CAsUniTask_003Ed__0))]
 	public static UniTask AsUniTask(this Awaitable awaitable)
 	{

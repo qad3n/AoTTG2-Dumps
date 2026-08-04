@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.XmlEntityReference
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml;
@@ -17,7 +24,7 @@ public class XmlEntityReference : XmlLinkedNode
 	public override string Name
 	{
 		[Token(Token = "0x6000900")]
-		[Address(RVA = "0x4496C00", Offset = "0x4496C00", VA = "0x4496C00", Slot = "8")]
+		[Address(RVA = "0x47D4360", Offset = "0x47D4360", VA = "0x47D4360", Slot = "8")]
 		get
 		{
 			return null;
@@ -28,7 +35,7 @@ public class XmlEntityReference : XmlLinkedNode
 	public override string LocalName
 	{
 		[Token(Token = "0x6000901")]
-		[Address(RVA = "0x4496C10", Offset = "0x4496C10", VA = "0x4496C10", Slot = "39")]
+		[Address(RVA = "0x47D4370", Offset = "0x47D4370", VA = "0x47D4370", Slot = "39")]
 		get
 		{
 			return null;
@@ -39,13 +46,13 @@ public class XmlEntityReference : XmlLinkedNode
 	public override string Value
 	{
 		[Token(Token = "0x6000902")]
-		[Address(RVA = "0x4496C20", Offset = "0x4496C20", VA = "0x4496C20", Slot = "9")]
+		[Address(RVA = "0x47D4380", Offset = "0x47D4380", VA = "0x47D4380", Slot = "9")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000903")]
-		[Address(RVA = "0x4496C30", Offset = "0x4496C30", VA = "0x4496C30", Slot = "10")]
+		[Address(RVA = "0x47D4390", Offset = "0x47D4390", VA = "0x47D4390", Slot = "10")]
 		set
 		{
 		}
@@ -55,7 +62,7 @@ public class XmlEntityReference : XmlLinkedNode
 	public override XmlNodeType NodeType
 	{
 		[Token(Token = "0x6000904")]
-		[Address(RVA = "0x4496C90", Offset = "0x4496C90", VA = "0x4496C90", Slot = "11")]
+		[Address(RVA = "0x47D43F0", Offset = "0x47D43F0", VA = "0x47D43F0", Slot = "11")]
 		get
 		{
 			return default(XmlNodeType);
@@ -66,7 +73,7 @@ public class XmlEntityReference : XmlLinkedNode
 	public override bool IsReadOnly
 	{
 		[Token(Token = "0x6000906")]
-		[Address(RVA = "0x4496CE0", Offset = "0x4496CE0", VA = "0x4496CE0", Slot = "40")]
+		[Address(RVA = "0x47D4440", Offset = "0x47D4440", VA = "0x47D4440", Slot = "40")]
 		get
 		{
 			return default(bool);
@@ -77,7 +84,7 @@ public class XmlEntityReference : XmlLinkedNode
 	internal override bool IsContainer
 	{
 		[Token(Token = "0x6000907")]
-		[Address(RVA = "0x4496CF0", Offset = "0x4496CF0", VA = "0x4496CF0", Slot = "20")]
+		[Address(RVA = "0x47D4450", Offset = "0x47D4450", VA = "0x47D4450", Slot = "20")]
 		get
 		{
 			return default(bool);
@@ -88,13 +95,13 @@ public class XmlEntityReference : XmlLinkedNode
 	internal override XmlLinkedNode LastNode
 	{
 		[Token(Token = "0x600090A")]
-		[Address(RVA = "0x4497570", Offset = "0x4497570", VA = "0x4497570", Slot = "21")]
+		[Address(RVA = "0x47D4CD0", Offset = "0x47D4CD0", VA = "0x47D4CD0", Slot = "21")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600090B")]
-		[Address(RVA = "0x4497580", Offset = "0x4497580", VA = "0x4497580", Slot = "22")]
+		[Address(RVA = "0x47D4CE0", Offset = "0x47D4CE0", VA = "0x47D4CE0", Slot = "22")]
 		set
 		{
 		}
@@ -104,7 +111,7 @@ public class XmlEntityReference : XmlLinkedNode
 	public override string BaseURI
 	{
 		[Token(Token = "0x600090F")]
-		[Address(RVA = "0x4497970", Offset = "0x4497970", VA = "0x4497970", Slot = "45")]
+		[Address(RVA = "0x47D50D0", Offset = "0x47D50D0", VA = "0x47D50D0", Slot = "45")]
 		get
 		{
 			return null;
@@ -115,7 +122,7 @@ public class XmlEntityReference : XmlLinkedNode
 	internal string ChildBaseURI
 	{
 		[Token(Token = "0x6000911")]
-		[Address(RVA = "0x4497A60", Offset = "0x4497A60", VA = "0x4497A60")]
+		[Address(RVA = "0x47D51C0", Offset = "0x47D51C0", VA = "0x47D51C0")]
 		get
 		{
 			return null;
@@ -123,51 +130,51 @@ public class XmlEntityReference : XmlLinkedNode
 	}
 
 	[Token(Token = "0x60008FF")]
-	[Address(RVA = "0x4496B00", Offset = "0x4496B00", VA = "0x4496B00")]
+	[Address(RVA = "0x47D4260", Offset = "0x47D4260", VA = "0x47D4260")]
 	protected internal XmlEntityReference(string name, XmlDocument doc)
 	{
 	}
 
 	[Token(Token = "0x6000905")]
-	[Address(RVA = "0x4496CA0", Offset = "0x4496CA0", VA = "0x4496CA0", Slot = "34")]
+	[Address(RVA = "0x47D4400", Offset = "0x47D4400", VA = "0x47D4400", Slot = "34")]
 	public override XmlNode CloneNode(bool deep)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000908")]
-	[Address(RVA = "0x4496D00", Offset = "0x4496D00", VA = "0x4496D00", Slot = "50")]
+	[Address(RVA = "0x47D4460", Offset = "0x47D4460", VA = "0x47D4460", Slot = "50")]
 	internal override void SetParent(XmlNode node)
 	{
 	}
 
 	[Token(Token = "0x6000909")]
-	[Address(RVA = "0x4497550", Offset = "0x4497550", VA = "0x4497550", Slot = "51")]
+	[Address(RVA = "0x47D4CB0", Offset = "0x47D4CB0", VA = "0x47D4CB0", Slot = "51")]
 	internal override void SetParentForLoad(XmlNode node)
 	{
 	}
 
 	[Token(Token = "0x600090C")]
-	[Address(RVA = "0x4497590", Offset = "0x4497590", VA = "0x4497590", Slot = "30")]
+	[Address(RVA = "0x47D4CF0", Offset = "0x47D4CF0", VA = "0x47D4CF0", Slot = "30")]
 	internal override bool IsValidChildType(XmlNodeType type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600090D")]
-	[Address(RVA = "0x44975B0", Offset = "0x44975B0", VA = "0x44975B0", Slot = "46")]
+	[Address(RVA = "0x47D4D10", Offset = "0x47D4D10", VA = "0x47D4D10", Slot = "46")]
 	public override void WriteTo(XmlWriter w)
 	{
 	}
 
 	[Token(Token = "0x600090E")]
-	[Address(RVA = "0x44975E0", Offset = "0x44975E0", VA = "0x44975E0", Slot = "47")]
+	[Address(RVA = "0x47D4D40", Offset = "0x47D4D40", VA = "0x47D4D40", Slot = "47")]
 	public override void WriteContentTo(XmlWriter w)
 	{
 	}
 
 	[Token(Token = "0x6000910")]
-	[Address(RVA = "0x44979B0", Offset = "0x44979B0", VA = "0x44979B0")]
+	[Address(RVA = "0x47D5110", Offset = "0x47D5110", VA = "0x47D5110")]
 	private string ConstructBaseURI(string baseURI, string systemId)
 	{
 		return null;

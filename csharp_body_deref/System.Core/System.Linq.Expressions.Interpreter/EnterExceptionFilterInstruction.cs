@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.EnterExceptionFilterInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics.CodeAnalysis;
 using Il2CppDummyDll;
 
@@ -14,7 +21,7 @@ internal sealed class EnterExceptionFilterInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x6000652")]
-		[Address(RVA = "0x41A4290", Offset = "0x41A4290", VA = "0x41A4290", Slot = "9")]
+		[Address(RVA = "0x44C9390", Offset = "0x44C9390", VA = "0x44C9390", Slot = "9")]
 		get
 		{
 			return null;
@@ -25,7 +32,7 @@ internal sealed class EnterExceptionFilterInstruction : Instruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x6000653")]
-		[Address(RVA = "0x41A42C0", Offset = "0x41A42C0", VA = "0x41A42C0", Slot = "5")]
+		[Address(RVA = "0x44C93C0", Offset = "0x44C93C0", VA = "0x44C93C0", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -33,13 +40,13 @@ internal sealed class EnterExceptionFilterInstruction : Instruction
 	}
 
 	[Token(Token = "0x6000651")]
-	[Address(RVA = "0x41A4280", Offset = "0x41A4280", VA = "0x41A4280")]
+	[Address(RVA = "0x44C9380", Offset = "0x44C9380", VA = "0x44C9380")]
 	private EnterExceptionFilterInstruction()
 	{
 	}
 
 	[Token(Token = "0x6000654")]
-	[Address(RVA = "0x41A42D0", Offset = "0x41A42D0", VA = "0x41A42D0", Slot = "8")]
+	[Address(RVA = "0x44C93D0", Offset = "0x44C93D0", VA = "0x44C93D0", Slot = "8")]
 	[ExcludeFromCodeCoverage]
 	public override int Run(InterpretedFrame frame)
 	{

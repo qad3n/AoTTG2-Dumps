@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.DigestClient
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -14,7 +21,7 @@ internal class DigestClient : IAuthenticationModule
 	private static Hashtable Cache
 	{
 		[Token(Token = "0x60009A5")]
-		[Address(RVA = "0x465A760", Offset = "0x465A760", VA = "0x465A760")]
+		[Address(RVA = "0x497F860", Offset = "0x497F860", VA = "0x497F860")]
 		get
 		{
 			return null;
@@ -25,7 +32,7 @@ internal class DigestClient : IAuthenticationModule
 	public string AuthenticationType
 	{
 		[Token(Token = "0x60009A9")]
-		[Address(RVA = "0x465B750", Offset = "0x465B750", VA = "0x465B750", Slot = "6")]
+		[Address(RVA = "0x4980850", Offset = "0x4980850", VA = "0x4980850", Slot = "6")]
 		get
 		{
 			return null;
@@ -33,27 +40,27 @@ internal class DigestClient : IAuthenticationModule
 	}
 
 	[Token(Token = "0x60009A6")]
-	[Address(RVA = "0x465A8E0", Offset = "0x465A8E0", VA = "0x465A8E0")]
+	[Address(RVA = "0x497F9E0", Offset = "0x497F9E0", VA = "0x497F9E0")]
 	private static void CheckExpired(int count)
 	{
 	}
 
 	[Token(Token = "0x60009A7")]
-	[Address(RVA = "0x465B2A0", Offset = "0x465B2A0", VA = "0x465B2A0", Slot = "4")]
+	[Address(RVA = "0x49803A0", Offset = "0x49803A0", VA = "0x49803A0", Slot = "4")]
 	public Authorization Authenticate(string challenge, WebRequest webRequest, ICredentials credentials)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60009A8")]
-	[Address(RVA = "0x465B5D0", Offset = "0x465B5D0", VA = "0x465B5D0", Slot = "5")]
+	[Address(RVA = "0x49806D0", Offset = "0x49806D0", VA = "0x49806D0", Slot = "5")]
 	public Authorization PreAuthenticate(WebRequest webRequest, ICredentials credentials)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60009AA")]
-	[Address(RVA = "0x465B780", Offset = "0x465B780", VA = "0x465B780")]
+	[Address(RVA = "0x4980880", Offset = "0x4980880", VA = "0x4980880")]
 	public DigestClient()
 	{
 	}

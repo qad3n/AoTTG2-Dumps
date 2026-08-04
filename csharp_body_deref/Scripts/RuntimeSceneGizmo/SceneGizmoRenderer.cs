@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: RuntimeSceneGizmo.SceneGizmoRenderer
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/RuntimeSceneGizmo/SceneGizmoRenderer.c
+// Prior real C# source (older reference): Assets/Scripts/ThirdParty/RuntimeSceneGizmo/SceneGizmoRenderer.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -47,13 +54,13 @@ public class SceneGizmoRenderer : MonoBehaviour, IPointerClickHandler, IEventSys
 	public Transform ReferenceTransform
 	{
 		[Token(Token = "0x60002E2")]
-		[Address(RVA = "0x3C8E2A0", Offset = "0x3C8E2A0", VA = "0x3C8E2A0")]
+		[Address(RVA = "0x3F83BF0", Offset = "0x3F83BF0", VA = "0x3F83BF0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60002E3")]
-		[Address(RVA = "0x3C8E2B0", Offset = "0x3C8E2B0", VA = "0x3C8E2B0")]
+		[Address(RVA = "0x3F83C00", Offset = "0x3F83C00", VA = "0x3F83C00")]
 		set
 		{
 		}
@@ -63,7 +70,7 @@ public class SceneGizmoRenderer : MonoBehaviour, IPointerClickHandler, IEventSys
 	public ComponentClickedEvent OnComponentClicked
 	{
 		[Token(Token = "0x60002E4")]
-		[Address(RVA = "0x3C8E2F0", Offset = "0x3C8E2F0", VA = "0x3C8E2F0")]
+		[Address(RVA = "0x3F83C40", Offset = "0x3F83C40", VA = "0x3F83C40")]
 		get
 		{
 			return null;
@@ -71,68 +78,68 @@ public class SceneGizmoRenderer : MonoBehaviour, IPointerClickHandler, IEventSys
 	}
 
 	[Token(Token = "0x60002E5")]
-	[Address(RVA = "0x3C8E300", Offset = "0x3C8E300", VA = "0x3C8E300")]
+	[Address(RVA = "0x3F83C50", Offset = "0x3F83C50", VA = "0x3F83C50")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x60002E6")]
-	[Address(RVA = "0x3C8E400", Offset = "0x3C8E400", VA = "0x3C8E400")]
+	[Address(RVA = "0x3F83D50", Offset = "0x3F83D50", VA = "0x3F83D50")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x60002E7")]
-	[Address(RVA = "0x3C8E4A0", Offset = "0x3C8E4A0", VA = "0x3C8E4A0")]
+	[Address(RVA = "0x3F83DF0", Offset = "0x3F83DF0", VA = "0x3F83DF0")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x60002E8")]
-	[Address(RVA = "0x3C8E550", Offset = "0x3C8E550", VA = "0x3C8E550")]
+	[Address(RVA = "0x3F83EA0", Offset = "0x3F83EA0", VA = "0x3F83EA0")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x60002E9")]
-	[Address(RVA = "0x3C8E600", Offset = "0x3C8E600", VA = "0x3C8E600")]
+	[Address(RVA = "0x3F83F50", Offset = "0x3F83F50", VA = "0x3F83F50")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x60002EA")]
-	[Address(RVA = "0x3C8E7A0", Offset = "0x3C8E7A0", VA = "0x3C8E7A0", Slot = "4")]
+	[Address(RVA = "0x3F840F0", Offset = "0x3F840F0", VA = "0x3F840F0", Slot = "4")]
 	public void OnPointerClick(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60002EB")]
-	[Address(RVA = "0x3C8E8D0", Offset = "0x3C8E8D0", VA = "0x3C8E8D0", Slot = "5")]
+	[Address(RVA = "0x3F84220", Offset = "0x3F84220", VA = "0x3F84220", Slot = "5")]
 	public void OnDrag(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60002EC")]
-	[Address(RVA = "0x3C8E6E0", Offset = "0x3C8E6E0", VA = "0x3C8E6E0")]
+	[Address(RVA = "0x3F84030", Offset = "0x3F84030", VA = "0x3F84030")]
 	private Vector3 GetNormalizedPointerPosition(PointerEventData eventData)
 	{
 		return default(Vector3);
 	}
 
 	[Token(Token = "0x60002ED")]
-	[Address(RVA = "0x3C8E8E0", Offset = "0x3C8E8E0", VA = "0x3C8E8E0", Slot = "6")]
+	[Address(RVA = "0x3F84230", Offset = "0x3F84230", VA = "0x3F84230", Slot = "6")]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60002EE")]
-	[Address(RVA = "0x3C8E900", Offset = "0x3C8E900", VA = "0x3C8E900", Slot = "7")]
+	[Address(RVA = "0x3F84250", Offset = "0x3F84250", VA = "0x3F84250", Slot = "7")]
 	public void OnPointerExit(PointerEventData eventData)
 	{
 	}
 
 	[Token(Token = "0x60002EF")]
-	[Address(RVA = "0x3C8E940", Offset = "0x3C8E940", VA = "0x3C8E940")]
+	[Address(RVA = "0x3F84290", Offset = "0x3F84290", VA = "0x3F84290")]
 	public SceneGizmoRenderer()
 	{
 	}

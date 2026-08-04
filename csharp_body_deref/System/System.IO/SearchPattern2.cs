@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.IO.SearchPattern2
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.IO;
@@ -21,7 +28,7 @@ internal class SearchPattern2
 		public Op Next;
 
 		[Token(Token = "0x60016E3")]
-		[Address(RVA = "0x45CA150", Offset = "0x45CA150", VA = "0x45CA150")]
+		[Address(RVA = "0x48EF250", Offset = "0x48EF250", VA = "0x48EF250")]
 		public Op(OpCode code)
 		{
 		}
@@ -70,7 +77,7 @@ internal class SearchPattern2
 	public bool HasWildcard
 	{
 		[Token(Token = "0x60016E0")]
-		[Address(RVA = "0x45CA140", Offset = "0x45CA140", VA = "0x45CA140")]
+		[Address(RVA = "0x48EF240", Offset = "0x48EF240", VA = "0x48EF240")]
 		get
 		{
 			return default(bool);
@@ -78,19 +85,19 @@ internal class SearchPattern2
 	}
 
 	[Token(Token = "0x60016DE")]
-	[Address(RVA = "0x45C8510", Offset = "0x45C8510", VA = "0x45C8510")]
+	[Address(RVA = "0x48ED610", Offset = "0x48ED610", VA = "0x48ED610")]
 	public SearchPattern2(string pattern)
 	{
 	}
 
 	[Token(Token = "0x60016DF")]
-	[Address(RVA = "0x45C9D10", Offset = "0x45C9D10", VA = "0x45C9D10")]
+	[Address(RVA = "0x48EEE10", Offset = "0x48EEE10", VA = "0x48EEE10")]
 	public SearchPattern2(string pattern, bool ignore)
 	{
 	}
 
 	[Token(Token = "0x60016E1")]
-	[Address(RVA = "0x45C9D50", Offset = "0x45C9D50", VA = "0x45C9D50")]
+	[Address(RVA = "0x48EEE50", Offset = "0x48EEE50", VA = "0x48EEE50")]
 	private void Compile(string pattern)
 	{
 	}

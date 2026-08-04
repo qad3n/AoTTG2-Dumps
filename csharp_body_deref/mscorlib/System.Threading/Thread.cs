@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Threading.Thread
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Globalization;
 using System.Runtime.CompilerServices;
 using System.Runtime.ConstrainedExecution;
@@ -76,13 +83,13 @@ public sealed class Thread : CriticalFinalizerObject
 	internal bool ExecutionContextBelongsToCurrentScope
 	{
 		[Token(Token = "0x6001294")]
-		[Address(RVA = "0x504DE50", Offset = "0x504DE50", VA = "0x504DE50")]
+		[Address(RVA = "0x3D33970", Offset = "0x3D33970", VA = "0x3D33970")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001295")]
-		[Address(RVA = "0x504DE60", Offset = "0x504DE60", VA = "0x504DE60")]
+		[Address(RVA = "0x3D33980", Offset = "0x3D33980", VA = "0x3D33980")]
 		set
 		{
 		}
@@ -92,13 +99,13 @@ public sealed class Thread : CriticalFinalizerObject
 	public CultureInfo CurrentUICulture
 	{
 		[Token(Token = "0x600129E")]
-		[Address(RVA = "0x5050730", Offset = "0x5050730", VA = "0x5050730")]
+		[Address(RVA = "0x3D36250", Offset = "0x3D36250", VA = "0x3D36250")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600129F")]
-		[Address(RVA = "0x50507F0", Offset = "0x50507F0", VA = "0x50507F0")]
+		[Address(RVA = "0x3D36310", Offset = "0x3D36310", VA = "0x3D36310")]
 		set
 		{
 		}
@@ -108,13 +115,13 @@ public sealed class Thread : CriticalFinalizerObject
 	public CultureInfo CurrentCulture
 	{
 		[Token(Token = "0x60012A1")]
-		[Address(RVA = "0x5050AB0", Offset = "0x5050AB0", VA = "0x5050AB0")]
+		[Address(RVA = "0x3D365D0", Offset = "0x3D365D0", VA = "0x3D365D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60012A2")]
-		[Address(RVA = "0x5050B70", Offset = "0x5050B70", VA = "0x5050B70")]
+		[Address(RVA = "0x3D36690", Offset = "0x3D36690", VA = "0x3D36690")]
 		set
 		{
 		}
@@ -124,7 +131,7 @@ public sealed class Thread : CriticalFinalizerObject
 	private System.Threading.InternalThread Internal
 	{
 		[Token(Token = "0x60012A7")]
-		[Address(RVA = "0x5050D80", Offset = "0x5050D80", VA = "0x5050D80")]
+		[Address(RVA = "0x3D368A0", Offset = "0x3D368A0", VA = "0x3D368A0")]
 		get
 		{
 			return null;
@@ -135,7 +142,7 @@ public sealed class Thread : CriticalFinalizerObject
 	public static Context CurrentContext
 	{
 		[Token(Token = "0x60012A8")]
-		[Address(RVA = "0x5050DA0", Offset = "0x5050DA0", VA = "0x5050DA0")]
+		[Address(RVA = "0x3D368C0", Offset = "0x3D368C0", VA = "0x3D368C0")]
 		get
 		{
 			return null;
@@ -146,7 +153,7 @@ public sealed class Thread : CriticalFinalizerObject
 	public static Thread CurrentThread
 	{
 		[Token(Token = "0x60012AB")]
-		[Address(RVA = "0x504BBF0", Offset = "0x504BBF0", VA = "0x504BBF0")]
+		[Address(RVA = "0x3D31710", Offset = "0x3D31710", VA = "0x3D31710")]
 		[ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
 		get
 		{
@@ -158,7 +165,7 @@ public sealed class Thread : CriticalFinalizerObject
 	internal static int CurrentThreadId
 	{
 		[Token(Token = "0x60012AC")]
-		[Address(RVA = "0x5050DE0", Offset = "0x5050DE0", VA = "0x5050DE0")]
+		[Address(RVA = "0x3D36900", Offset = "0x3D36900", VA = "0x3D36900")]
 		get
 		{
 			return default(int);
@@ -169,7 +176,7 @@ public sealed class Thread : CriticalFinalizerObject
 	public bool IsThreadPoolThread
 	{
 		[Token(Token = "0x60012B0")]
-		[Address(RVA = "0x5050E80", Offset = "0x5050E80", VA = "0x5050E80")]
+		[Address(RVA = "0x3D369A0", Offset = "0x3D369A0", VA = "0x3D369A0")]
 		get
 		{
 			return default(bool);
@@ -180,7 +187,7 @@ public sealed class Thread : CriticalFinalizerObject
 	internal bool IsThreadPoolThreadInternal
 	{
 		[Token(Token = "0x60012B1")]
-		[Address(RVA = "0x5050EB0", Offset = "0x5050EB0", VA = "0x5050EB0")]
+		[Address(RVA = "0x3D369D0", Offset = "0x3D369D0", VA = "0x3D369D0")]
 		get
 		{
 			return default(bool);
@@ -191,7 +198,7 @@ public sealed class Thread : CriticalFinalizerObject
 	public bool IsAlive
 	{
 		[Token(Token = "0x60012B2")]
-		[Address(RVA = "0x5050EE0", Offset = "0x5050EE0", VA = "0x5050EE0")]
+		[Address(RVA = "0x3D36A00", Offset = "0x3D36A00", VA = "0x3D36A00")]
 		get
 		{
 			return default(bool);
@@ -202,7 +209,7 @@ public sealed class Thread : CriticalFinalizerObject
 	public bool IsBackground
 	{
 		[Token(Token = "0x60012B3")]
-		[Address(RVA = "0x5050F30", Offset = "0x5050F30", VA = "0x5050F30")]
+		[Address(RVA = "0x3D36A50", Offset = "0x3D36A50", VA = "0x3D36A50")]
 		set
 		{
 		}
@@ -212,7 +219,7 @@ public sealed class Thread : CriticalFinalizerObject
 	public string Name
 	{
 		[Token(Token = "0x60012B6")]
-		[Address(RVA = "0x5051060", Offset = "0x5051060", VA = "0x5051060")]
+		[Address(RVA = "0x3D36B80", Offset = "0x3D36B80", VA = "0x3D36B80")]
 		set
 		{
 		}
@@ -222,7 +229,7 @@ public sealed class Thread : CriticalFinalizerObject
 	public int ManagedThreadId
 	{
 		[Token(Token = "0x60012C3")]
-		[Address(RVA = "0x504BC40", Offset = "0x504BC40", VA = "0x504BC40")]
+		[Address(RVA = "0x3D31760", Offset = "0x3D31760", VA = "0x3D31760")]
 		[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 		get
 		{
@@ -231,57 +238,57 @@ public sealed class Thread : CriticalFinalizerObject
 	}
 
 	[Token(Token = "0x600128B")]
-	[Address(RVA = "0x504FF40", Offset = "0x504FF40", VA = "0x504FF40")]
+	[Address(RVA = "0x3D35A60", Offset = "0x3D35A60", VA = "0x3D35A60")]
 	private static void AsyncLocalSetCurrentCulture(AsyncLocalValueChangedArgs<CultureInfo> args)
 	{
 	}
 
 	[Token(Token = "0x600128C")]
-	[Address(RVA = "0x504FFB0", Offset = "0x504FFB0", VA = "0x504FFB0")]
+	[Address(RVA = "0x3D35AD0", Offset = "0x3D35AD0", VA = "0x3D35AD0")]
 	private static void AsyncLocalSetCurrentUICulture(AsyncLocalValueChangedArgs<CultureInfo> args)
 	{
 	}
 
 	[Token(Token = "0x600128D")]
-	[Address(RVA = "0x5050020", Offset = "0x5050020", VA = "0x5050020")]
+	[Address(RVA = "0x3D35B40", Offset = "0x3D35B40", VA = "0x3D35B40")]
 	public Thread(ThreadStart start)
 	{
 	}
 
 	[Token(Token = "0x600128E")]
-	[Address(RVA = "0x50502D0", Offset = "0x50502D0", VA = "0x50502D0")]
+	[Address(RVA = "0x3D35DF0", Offset = "0x3D35DF0", VA = "0x3D35DF0")]
 	public Thread(ParameterizedThreadStart start)
 	{
 	}
 
 	[Token(Token = "0x600128F")]
-	[Address(RVA = "0x5050350", Offset = "0x5050350", VA = "0x5050350")]
+	[Address(RVA = "0x3D35E70", Offset = "0x3D35E70", VA = "0x3D35E70")]
 	public Thread(ParameterizedThreadStart start, int maxStackSize)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x6001290")]
-	[Address(RVA = "0x5050430", Offset = "0x5050430", VA = "0x5050430")]
+	[Address(RVA = "0x3D35F50", Offset = "0x3D35F50", VA = "0x3D35F50")]
 	public void Start()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
 	[Token(Token = "0x6001291")]
-	[Address(RVA = "0x5050500", Offset = "0x5050500", VA = "0x5050500")]
+	[Address(RVA = "0x3D36020", Offset = "0x3D36020", VA = "0x3D36020")]
 	public void Start(object parameter)
 	{
 	}
 
 	[Token(Token = "0x6001292")]
-	[Address(RVA = "0x5050440", Offset = "0x5050440", VA = "0x5050440")]
+	[Address(RVA = "0x3D35F60", Offset = "0x3D35F60", VA = "0x3D35F60")]
 	private void Start(ref System.Threading.StackCrawlMark stackMark)
 	{
 	}
 
 	[Token(Token = "0x6001293")]
-	[Address(RVA = "0x504C3C0", Offset = "0x504C3C0", VA = "0x504C3C0")]
+	[Address(RVA = "0x3D31EE0", Offset = "0x3D31EE0", VA = "0x3D31EE0")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	internal ExecutionContext.Reader GetExecutionContextReader()
 	{
@@ -289,7 +296,7 @@ public sealed class Thread : CriticalFinalizerObject
 	}
 
 	[Token(Token = "0x6001296")]
-	[Address(RVA = "0x504CC00", Offset = "0x504CC00", VA = "0x504CC00")]
+	[Address(RVA = "0x3D32720", Offset = "0x3D32720", VA = "0x3D32720")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
 	internal ExecutionContext GetMutableExecutionContext()
 	{
@@ -297,14 +304,14 @@ public sealed class Thread : CriticalFinalizerObject
 	}
 
 	[Token(Token = "0x6001297")]
-	[Address(RVA = "0x504DE90", Offset = "0x504DE90", VA = "0x504DE90")]
+	[Address(RVA = "0x3D339B0", Offset = "0x3D339B0", VA = "0x3D339B0")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	internal void SetExecutionContext(ExecutionContext value, bool belongsToCurrentScope)
 	{
 	}
 
 	[Token(Token = "0x6001298")]
-	[Address(RVA = "0x504C3E0", Offset = "0x504C3E0", VA = "0x504C3E0")]
+	[Address(RVA = "0x3D31F00", Offset = "0x3D31F00", VA = "0x3D31F00")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	internal void SetExecutionContext(ExecutionContext.Reader value, bool belongsToCurrentScope)
 	{
@@ -312,70 +319,70 @@ public sealed class Thread : CriticalFinalizerObject
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6001299")]
-	[Address(RVA = "0x5050630", Offset = "0x5050630", VA = "0x5050630")]
+	[Address(RVA = "0x3D36150", Offset = "0x3D36150", VA = "0x3D36150")]
 	private static extern void SleepInternal(int millisecondsTimeout);
 
 	[Token(Token = "0x600129A")]
-	[Address(RVA = "0x504BB60", Offset = "0x504BB60", VA = "0x504BB60")]
+	[Address(RVA = "0x3D31680", Offset = "0x3D31680", VA = "0x3D31680")]
 	public static void Sleep(int millisecondsTimeout)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x600129B")]
-	[Address(RVA = "0x5050640", Offset = "0x5050640", VA = "0x5050640")]
+	[Address(RVA = "0x3D36160", Offset = "0x3D36160", VA = "0x3D36160")]
 	private static extern bool YieldInternal();
 
 	[Token(Token = "0x600129C")]
-	[Address(RVA = "0x504BBE0", Offset = "0x504BBE0", VA = "0x504BBE0")]
+	[Address(RVA = "0x3D31700", Offset = "0x3D31700", VA = "0x3D31700")]
 	public static bool Yield()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600129D")]
-	[Address(RVA = "0x5050090", Offset = "0x5050090", VA = "0x5050090")]
+	[Address(RVA = "0x3D35BB0", Offset = "0x3D35BB0", VA = "0x3D35BB0")]
 	private void SetStartHelper(Delegate start, int maxStackSize)
 	{
 	}
 
 	[Token(Token = "0x60012A0")]
-	[Address(RVA = "0x5050750", Offset = "0x5050750", VA = "0x5050750")]
+	[Address(RVA = "0x3D36270", Offset = "0x3D36270", VA = "0x3D36270")]
 	internal CultureInfo GetCurrentUICultureNoAppX()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60012A3")]
-	[Address(RVA = "0x5050AD0", Offset = "0x5050AD0", VA = "0x5050AD0")]
+	[Address(RVA = "0x3D365F0", Offset = "0x3D365F0", VA = "0x3D365F0")]
 	private CultureInfo GetCurrentCultureNoAppX()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60012A4")]
-	[Address(RVA = "0x5050A00", Offset = "0x5050A00", VA = "0x5050A00")]
+	[Address(RVA = "0x3D36520", Offset = "0x3D36520", VA = "0x3D36520")]
 	private static void nativeInitCultureAccessors()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60012A5")]
-	[Address(RVA = "0x5050D60", Offset = "0x5050D60", VA = "0x5050D60")]
+	[Address(RVA = "0x3D36880", Offset = "0x3D36880", VA = "0x3D36880")]
 	public static extern void MemoryBarrier();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60012A6")]
-	[Address(RVA = "0x5050D70", Offset = "0x5050D70", VA = "0x5050D70")]
+	[Address(RVA = "0x3D36890", Offset = "0x3D36890", VA = "0x3D36890")]
 	private extern void ConstructInternalThread();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60012A9")]
-	[Address(RVA = "0x5050DB0", Offset = "0x5050DB0", VA = "0x5050DB0")]
+	[Address(RVA = "0x3D368D0", Offset = "0x3D368D0", VA = "0x3D368D0")]
 	private static extern void GetCurrentThread_icall(ref Thread thread);
 
 	[Token(Token = "0x60012AA")]
-	[Address(RVA = "0x5050DC0", Offset = "0x5050DC0", VA = "0x5050DC0")]
+	[Address(RVA = "0x3D368E0", Offset = "0x3D368E0", VA = "0x3D368E0")]
 	private static Thread GetCurrentThread()
 	{
 		return null;
@@ -383,16 +390,16 @@ public sealed class Thread : CriticalFinalizerObject
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60012AD")]
-	[Address(RVA = "0x5050E50", Offset = "0x5050E50", VA = "0x5050E50")]
+	[Address(RVA = "0x3D36970", Offset = "0x3D36970", VA = "0x3D36970")]
 	public static extern int GetDomainID();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60012AE")]
-	[Address(RVA = "0x5050E60", Offset = "0x5050E60", VA = "0x5050E60")]
+	[Address(RVA = "0x3D36980", Offset = "0x3D36980", VA = "0x3D36980")]
 	private extern bool Thread_internal(MulticastDelegate start);
 
 	[Token(Token = "0x60012AF")]
-	[Address(RVA = "0x5050E70", Offset = "0x5050E70", VA = "0x5050E70", Slot = "1")]
+	[Address(RVA = "0x3D36990", Offset = "0x3D36990", VA = "0x3D36990", Slot = "1")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	~Thread()
 	{
@@ -400,98 +407,98 @@ public sealed class Thread : CriticalFinalizerObject
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60012B4")]
-	[Address(RVA = "0x5051010", Offset = "0x5051010", VA = "0x5051010")]
+	[Address(RVA = "0x3D36B30", Offset = "0x3D36B30", VA = "0x3D36B30")]
 	private unsafe static extern void SetName_icall(System.Threading.InternalThread thread, char* name, int nameLength);
 
 	[Token(Token = "0x60012B5")]
-	[Address(RVA = "0x5051020", Offset = "0x5051020", VA = "0x5051020")]
+	[Address(RVA = "0x3D36B40", Offset = "0x3D36B40", VA = "0x3D36B40")]
 	private static void SetName_internal(System.Threading.InternalThread thread, string name)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60012B7")]
-	[Address(RVA = "0x50510B0", Offset = "0x50510B0", VA = "0x50510B0")]
+	[Address(RVA = "0x3D36BD0", Offset = "0x3D36BD0", VA = "0x3D36BD0")]
 	private static extern void Abort_internal(System.Threading.InternalThread thread, object stateInfo);
 
 	[Token(Token = "0x60012B8")]
-	[Address(RVA = "0x50510C0", Offset = "0x50510C0", VA = "0x50510C0")]
+	[Address(RVA = "0x3D36BE0", Offset = "0x3D36BE0", VA = "0x3D36BE0")]
 	public void Abort()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60012B9")]
-	[Address(RVA = "0x50510F0", Offset = "0x50510F0", VA = "0x50510F0")]
+	[Address(RVA = "0x3D36C10", Offset = "0x3D36C10", VA = "0x3D36C10")]
 	private static extern void SpinWait_nop();
 
 	[Token(Token = "0x60012BA")]
-	[Address(RVA = "0x504BB40", Offset = "0x504BB40", VA = "0x504BB40")]
+	[Address(RVA = "0x3D31660", Offset = "0x3D31660", VA = "0x3D31660")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	public static void SpinWait(int iterations)
 	{
 	}
 
 	[Token(Token = "0x60012BB")]
-	[Address(RVA = "0x50505C0", Offset = "0x50505C0", VA = "0x50505C0")]
+	[Address(RVA = "0x3D360E0", Offset = "0x3D360E0", VA = "0x3D360E0")]
 	private void StartInternal(object principal, ref System.Threading.StackCrawlMark stackMark)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60012BC")]
-	[Address(RVA = "0x5050FF0", Offset = "0x5050FF0", VA = "0x5050FF0")]
+	[Address(RVA = "0x3D36B10", Offset = "0x3D36B10", VA = "0x3D36B10")]
 	private static extern void SetState(System.Threading.InternalThread thread, ThreadState set);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60012BD")]
-	[Address(RVA = "0x5051000", Offset = "0x5051000", VA = "0x5051000")]
+	[Address(RVA = "0x3D36B20", Offset = "0x3D36B20", VA = "0x3D36B20")]
 	private static extern void ClrState(System.Threading.InternalThread thread, ThreadState clr);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60012BE")]
-	[Address(RVA = "0x5050F20", Offset = "0x5050F20", VA = "0x5050F20")]
+	[Address(RVA = "0x3D36A40", Offset = "0x3D36A40", VA = "0x3D36A40")]
 	private static extern ThreadState GetState(System.Threading.InternalThread thread);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60012BF")]
-	[Address(RVA = "0x5051100", Offset = "0x5051100", VA = "0x5051100")]
+	[Address(RVA = "0x3D36C20", Offset = "0x3D36C20", VA = "0x3D36C20")]
 	public static extern object VolatileRead(ref object address);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60012C0")]
-	[Address(RVA = "0x5051110", Offset = "0x5051110", VA = "0x5051110")]
+	[Address(RVA = "0x3D36C30", Offset = "0x3D36C30", VA = "0x3D36C30")]
 	private static extern int SystemMaxStackStize();
 
 	[Token(Token = "0x60012C1")]
-	[Address(RVA = "0x5050650", Offset = "0x5050650", VA = "0x5050650")]
+	[Address(RVA = "0x3D36170", Offset = "0x3D36170", VA = "0x3D36170")]
 	private static int GetProcessDefaultStackSize(int maxStackSize)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60012C2")]
-	[Address(RVA = "0x50506E0", Offset = "0x50506E0", VA = "0x50506E0")]
+	[Address(RVA = "0x3D36200", Offset = "0x3D36200", VA = "0x3D36200")]
 	private void SetStart(MulticastDelegate start, int maxStackSize)
 	{
 	}
 
 	[Token(Token = "0x60012C4")]
-	[Address(RVA = "0x504AE70", Offset = "0x504AE70", VA = "0x504AE70")]
+	[Address(RVA = "0x3D30990", Offset = "0x3D30990", VA = "0x3D30990")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
 	public static void BeginCriticalRegion()
 	{
 	}
 
 	[Token(Token = "0x60012C5")]
-	[Address(RVA = "0x504B610", Offset = "0x504B610", VA = "0x504B610")]
+	[Address(RVA = "0x3D31130", Offset = "0x3D31130", VA = "0x3D31130")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	public static void EndCriticalRegion()
 	{
 	}
 
 	[Token(Token = "0x60012C6")]
-	[Address(RVA = "0x5051120", Offset = "0x5051120", VA = "0x5051120", Slot = "2")]
+	[Address(RVA = "0x3D36C40", Offset = "0x3D36C40", VA = "0x3D36C40", Slot = "2")]
 	[ComVisible(false)]
 	public override int GetHashCode()
 	{
@@ -499,7 +506,7 @@ public sealed class Thread : CriticalFinalizerObject
 	}
 
 	[Token(Token = "0x60012C7")]
-	[Address(RVA = "0x5050F80", Offset = "0x5050F80", VA = "0x5050F80")]
+	[Address(RVA = "0x3D36AA0", Offset = "0x3D36AA0", VA = "0x3D36AA0")]
 	private ThreadState ValidateThreadState()
 	{
 		return default(ThreadState);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.HMACSHA512
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -15,7 +22,7 @@ public class HMACSHA512 : HMAC
 	private int BlockSize
 	{
 		[Token(Token = "0x6001935")]
-		[Address(RVA = "0x4E4D700", Offset = "0x4E4D700", VA = "0x4E4D700")]
+		[Address(RVA = "0x3B33220", Offset = "0x3B33220", VA = "0x3B33220")]
 		get
 		{
 			return default(int);
@@ -26,26 +33,26 @@ public class HMACSHA512 : HMAC
 	public bool ProduceLegacyHmacValues
 	{
 		[Token(Token = "0x6001936")]
-		[Address(RVA = "0x4E4D710", Offset = "0x4E4D710", VA = "0x4E4D710")]
+		[Address(RVA = "0x3B33230", Offset = "0x3B33230", VA = "0x3B33230")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001937")]
-		[Address(RVA = "0x4E4D720", Offset = "0x4E4D720", VA = "0x4E4D720")]
+		[Address(RVA = "0x3B33240", Offset = "0x3B33240", VA = "0x3B33240")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001933")]
-	[Address(RVA = "0x4E4D590", Offset = "0x4E4D590", VA = "0x4E4D590")]
+	[Address(RVA = "0x3B330B0", Offset = "0x3B330B0", VA = "0x3B330B0")]
 	public HMACSHA512()
 	{
 	}
 
 	[Token(Token = "0x6001934")]
-	[Address(RVA = "0x4E4D5E0", Offset = "0x4E4D5E0", VA = "0x4E4D5E0")]
+	[Address(RVA = "0x3B33100", Offset = "0x3B33100", VA = "0x3B33100")]
 	public HMACSHA512(byte[] key)
 	{
 	}

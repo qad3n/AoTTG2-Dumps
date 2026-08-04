@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Pun.PhotonMessageInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/Code/PunClasses.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using Photon.Realtime;
@@ -24,7 +31,7 @@ public struct PhotonMessageInfo
 	public double timestamp
 	{
 		[Token(Token = "0x6000154")]
-		[Address(RVA = "0x3C17960", Offset = "0x3C17960", VA = "0x3C17960")]
+		[Address(RVA = "0x3EFAE60", Offset = "0x3EFAE60", VA = "0x3EFAE60")]
 		get
 		{
 			return default(double);
@@ -35,7 +42,7 @@ public struct PhotonMessageInfo
 	public double SentServerTime
 	{
 		[Token(Token = "0x6000155")]
-		[Address(RVA = "0x3C17970", Offset = "0x3C17970", VA = "0x3C17970")]
+		[Address(RVA = "0x3EFAE70", Offset = "0x3EFAE70", VA = "0x3EFAE70")]
 		get
 		{
 			return default(double);
@@ -46,7 +53,7 @@ public struct PhotonMessageInfo
 	public int SentServerTimestamp
 	{
 		[Token(Token = "0x6000156")]
-		[Address(RVA = "0x3C17980", Offset = "0x3C17980", VA = "0x3C17980")]
+		[Address(RVA = "0x3EFAE80", Offset = "0x3EFAE80", VA = "0x3EFAE80")]
 		get
 		{
 			return default(int);
@@ -54,13 +61,13 @@ public struct PhotonMessageInfo
 	}
 
 	[Token(Token = "0x6000153")]
-	[Address(RVA = "0x3C08650", Offset = "0x3C08650", VA = "0x3C08650")]
+	[Address(RVA = "0x3EEBB50", Offset = "0x3EEBB50", VA = "0x3EEBB50")]
 	public PhotonMessageInfo(Player player, int timestamp, PhotonView view)
 	{
 	}
 
 	[Token(Token = "0x6000157")]
-	[Address(RVA = "0x3C17990", Offset = "0x3C17990", VA = "0x3C17990", Slot = "3")]
+	[Address(RVA = "0x3EFAE90", Offset = "0x3EFAE90", VA = "0x3EFAE90", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

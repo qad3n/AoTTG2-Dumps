@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.HorizontalOrVerticalLayoutGroup
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
@@ -50,13 +57,13 @@ public abstract class HorizontalOrVerticalLayoutGroup : LayoutGroup
 	public float spacing
 	{
 		[Token(Token = "0x600029B")]
-		[Address(RVA = "0x4DA8FE0", Offset = "0x4DA8FE0", VA = "0x4DA8FE0")]
+		[Address(RVA = "0x50D0910", Offset = "0x50D0910", VA = "0x50D0910")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x600029C")]
-		[Address(RVA = "0x4DA8FF0", Offset = "0x4DA8FF0", VA = "0x4DA8FF0")]
+		[Address(RVA = "0x50D0920", Offset = "0x50D0920", VA = "0x50D0920")]
 		set
 		{
 		}
@@ -66,13 +73,13 @@ public abstract class HorizontalOrVerticalLayoutGroup : LayoutGroup
 	public bool childForceExpandWidth
 	{
 		[Token(Token = "0x600029D")]
-		[Address(RVA = "0x4DA9040", Offset = "0x4DA9040", VA = "0x4DA9040")]
+		[Address(RVA = "0x50D0970", Offset = "0x50D0970", VA = "0x50D0970")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600029E")]
-		[Address(RVA = "0x4DA9050", Offset = "0x4DA9050", VA = "0x4DA9050")]
+		[Address(RVA = "0x50D0980", Offset = "0x50D0980", VA = "0x50D0980")]
 		set
 		{
 		}
@@ -82,13 +89,13 @@ public abstract class HorizontalOrVerticalLayoutGroup : LayoutGroup
 	public bool childForceExpandHeight
 	{
 		[Token(Token = "0x600029F")]
-		[Address(RVA = "0x4DA90A0", Offset = "0x4DA90A0", VA = "0x4DA90A0")]
+		[Address(RVA = "0x50D09D0", Offset = "0x50D09D0", VA = "0x50D09D0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002A0")]
-		[Address(RVA = "0x4DA90B0", Offset = "0x4DA90B0", VA = "0x4DA90B0")]
+		[Address(RVA = "0x50D09E0", Offset = "0x50D09E0", VA = "0x50D09E0")]
 		set
 		{
 		}
@@ -98,13 +105,13 @@ public abstract class HorizontalOrVerticalLayoutGroup : LayoutGroup
 	public bool childControlWidth
 	{
 		[Token(Token = "0x60002A1")]
-		[Address(RVA = "0x4DA9100", Offset = "0x4DA9100", VA = "0x4DA9100")]
+		[Address(RVA = "0x50D0A30", Offset = "0x50D0A30", VA = "0x50D0A30")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002A2")]
-		[Address(RVA = "0x4DA9110", Offset = "0x4DA9110", VA = "0x4DA9110")]
+		[Address(RVA = "0x50D0A40", Offset = "0x50D0A40", VA = "0x50D0A40")]
 		set
 		{
 		}
@@ -114,13 +121,13 @@ public abstract class HorizontalOrVerticalLayoutGroup : LayoutGroup
 	public bool childControlHeight
 	{
 		[Token(Token = "0x60002A3")]
-		[Address(RVA = "0x4DA9160", Offset = "0x4DA9160", VA = "0x4DA9160")]
+		[Address(RVA = "0x50D0A90", Offset = "0x50D0A90", VA = "0x50D0A90")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002A4")]
-		[Address(RVA = "0x4DA9170", Offset = "0x4DA9170", VA = "0x4DA9170")]
+		[Address(RVA = "0x50D0AA0", Offset = "0x50D0AA0", VA = "0x50D0AA0")]
 		set
 		{
 		}
@@ -130,13 +137,13 @@ public abstract class HorizontalOrVerticalLayoutGroup : LayoutGroup
 	public bool childScaleWidth
 	{
 		[Token(Token = "0x60002A5")]
-		[Address(RVA = "0x4DA91C0", Offset = "0x4DA91C0", VA = "0x4DA91C0")]
+		[Address(RVA = "0x50D0AF0", Offset = "0x50D0AF0", VA = "0x50D0AF0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002A6")]
-		[Address(RVA = "0x4DA91D0", Offset = "0x4DA91D0", VA = "0x4DA91D0")]
+		[Address(RVA = "0x50D0B00", Offset = "0x50D0B00", VA = "0x50D0B00")]
 		set
 		{
 		}
@@ -146,13 +153,13 @@ public abstract class HorizontalOrVerticalLayoutGroup : LayoutGroup
 	public bool childScaleHeight
 	{
 		[Token(Token = "0x60002A7")]
-		[Address(RVA = "0x4DA9220", Offset = "0x4DA9220", VA = "0x4DA9220")]
+		[Address(RVA = "0x50D0B50", Offset = "0x50D0B50", VA = "0x50D0B50")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002A8")]
-		[Address(RVA = "0x4DA9230", Offset = "0x4DA9230", VA = "0x4DA9230")]
+		[Address(RVA = "0x50D0B60", Offset = "0x50D0B60", VA = "0x50D0B60")]
 		set
 		{
 		}
@@ -162,38 +169,38 @@ public abstract class HorizontalOrVerticalLayoutGroup : LayoutGroup
 	public bool reverseArrangement
 	{
 		[Token(Token = "0x60002A9")]
-		[Address(RVA = "0x4DA9280", Offset = "0x4DA9280", VA = "0x4DA9280")]
+		[Address(RVA = "0x50D0BB0", Offset = "0x50D0BB0", VA = "0x50D0BB0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60002AA")]
-		[Address(RVA = "0x4DA9290", Offset = "0x4DA9290", VA = "0x4DA9290")]
+		[Address(RVA = "0x50D0BC0", Offset = "0x50D0BC0", VA = "0x50D0BC0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60002AB")]
-	[Address(RVA = "0x4DA80E0", Offset = "0x4DA80E0", VA = "0x4DA80E0")]
+	[Address(RVA = "0x50CFA10", Offset = "0x50CFA10", VA = "0x50CFA10")]
 	protected void CalcAlongAxis(int axis, bool isVertical)
 	{
 	}
 
 	[Token(Token = "0x60002AC")]
-	[Address(RVA = "0x4DA8550", Offset = "0x4DA8550", VA = "0x4DA8550")]
+	[Address(RVA = "0x50CFE80", Offset = "0x50CFE80", VA = "0x50CFE80")]
 	protected void SetChildrenAlongAxis(int axis, bool isVertical)
 	{
 	}
 
 	[Token(Token = "0x60002AD")]
-	[Address(RVA = "0x4DA92E0", Offset = "0x4DA92E0", VA = "0x4DA92E0")]
+	[Address(RVA = "0x50D0C10", Offset = "0x50D0C10", VA = "0x50D0C10")]
 	private void GetChildSizes(RectTransform child, int axis, bool controlSize, bool childForceExpand, out float min, out float preferred, out float flexible)
 	{
 	}
 
 	[Token(Token = "0x60002AE")]
-	[Address(RVA = "0x4DA80B0", Offset = "0x4DA80B0", VA = "0x4DA80B0")]
+	[Address(RVA = "0x50CF9E0", Offset = "0x50CF9E0", VA = "0x50CF9E0")]
 	protected HorizontalOrVerticalLayoutGroup()
 	{
 	}

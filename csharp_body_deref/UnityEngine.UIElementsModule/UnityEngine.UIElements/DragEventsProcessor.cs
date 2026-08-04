@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.DragEventsProcessor
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
@@ -36,7 +43,7 @@ internal abstract class DragEventsProcessor
 	protected virtual bool supportsDragEvents
 	{
 		[Token(Token = "0x600092C")]
-		[Address(RVA = "0x4CF4B40", Offset = "0x4CF4B40", VA = "0x4CF4B40", Slot = "4")]
+		[Address(RVA = "0x501C470", Offset = "0x501C470", VA = "0x501C470", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -47,7 +54,7 @@ internal abstract class DragEventsProcessor
 	private bool useDragEvents
 	{
 		[Token(Token = "0x600092D")]
-		[Address(RVA = "0x4CF4B50", Offset = "0x4CF4B50", VA = "0x4CF4B50")]
+		[Address(RVA = "0x501C480", Offset = "0x501C480", VA = "0x501C480")]
 		get
 		{
 			return default(bool);
@@ -58,7 +65,7 @@ internal abstract class DragEventsProcessor
 	protected IDragAndDrop dragAndDrop
 	{
 		[Token(Token = "0x600092E")]
-		[Address(RVA = "0x4CF4B90", Offset = "0x4CF4B90", VA = "0x4CF4B90")]
+		[Address(RVA = "0x501C4C0", Offset = "0x501C4C0", VA = "0x501C4C0")]
 		get
 		{
 			return null;
@@ -69,7 +76,7 @@ internal abstract class DragEventsProcessor
 	internal virtual bool isEditorContext
 	{
 		[Token(Token = "0x600092F")]
-		[Address(RVA = "0x4CF4BB0", Offset = "0x4CF4BB0", VA = "0x4CF4BB0", Slot = "5")]
+		[Address(RVA = "0x501C4E0", Offset = "0x501C4E0", VA = "0x501C4E0", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -77,31 +84,31 @@ internal abstract class DragEventsProcessor
 	}
 
 	[Token(Token = "0x6000930")]
-	[Address(RVA = "0x4CF4CE0", Offset = "0x4CF4CE0", VA = "0x4CF4CE0")]
+	[Address(RVA = "0x501C610", Offset = "0x501C610", VA = "0x501C610")]
 	internal DragEventsProcessor(VisualElement target)
 	{
 	}
 
 	[Token(Token = "0x6000931")]
-	[Address(RVA = "0x4CF50E0", Offset = "0x4CF50E0", VA = "0x4CF50E0")]
+	[Address(RVA = "0x501CA10", Offset = "0x501CA10", VA = "0x501CA10")]
 	private void RegisterCallbacksFromTarget(AttachToPanelEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000932")]
-	[Address(RVA = "0x4CF4E00", Offset = "0x4CF4E00", VA = "0x4CF4E00")]
+	[Address(RVA = "0x501C730", Offset = "0x501C730", VA = "0x501C730")]
 	private void RegisterCallbacksFromTarget()
 	{
 	}
 
 	[Token(Token = "0x6000933")]
-	[Address(RVA = "0x4CF50F0", Offset = "0x4CF50F0", VA = "0x4CF50F0")]
+	[Address(RVA = "0x501CA20", Offset = "0x501CA20", VA = "0x501CA20")]
 	private void UnregisterCallbacksFromTarget(DetachFromPanelEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000934")]
-	[Address(RVA = "0x4CF5100", Offset = "0x4CF5100", VA = "0x4CF5100")]
+	[Address(RVA = "0x501CA30", Offset = "0x501CA30", VA = "0x501CA30")]
 	internal void UnregisterCallbacksFromTarget(bool unregisterPanelEvents = false)
 	{
 	}
@@ -122,43 +129,43 @@ internal abstract class DragEventsProcessor
 	protected abstract void ClearDragAndDropUI(bool dragCancelled);
 
 	[Token(Token = "0x600093A")]
-	[Address(RVA = "0x4CF54D0", Offset = "0x4CF54D0", VA = "0x4CF54D0")]
+	[Address(RVA = "0x501CE00", Offset = "0x501CE00", VA = "0x501CE00")]
 	private void OnPointerDownEvent(PointerDownEvent evt)
 	{
 	}
 
 	[Token(Token = "0x600093B")]
-	[Address(RVA = "0x4CF5580", Offset = "0x4CF5580", VA = "0x4CF5580")]
+	[Address(RVA = "0x501CEB0", Offset = "0x501CEB0", VA = "0x501CEB0")]
 	internal void OnPointerUpEvent(PointerUpEvent evt)
 	{
 	}
 
 	[Token(Token = "0x600093C")]
-	[Address(RVA = "0x4CF5970", Offset = "0x4CF5970", VA = "0x4CF5970")]
+	[Address(RVA = "0x501D2A0", Offset = "0x501D2A0", VA = "0x501D2A0")]
 	private void OnPointerLeaveEvent(PointerLeaveEvent evt)
 	{
 	}
 
 	[Token(Token = "0x600093D")]
-	[Address(RVA = "0x4CF5990", Offset = "0x4CF5990", VA = "0x4CF5990")]
+	[Address(RVA = "0x501D2C0", Offset = "0x501D2C0", VA = "0x501D2C0")]
 	private void OnPointerCancelEvent(PointerCancelEvent evt)
 	{
 	}
 
 	[Token(Token = "0x600093E")]
-	[Address(RVA = "0x4CF5AF0", Offset = "0x4CF5AF0", VA = "0x4CF5AF0")]
+	[Address(RVA = "0x501D420", Offset = "0x501D420", VA = "0x501D420")]
 	private void OnPointerCapturedOut(PointerCaptureOutEvent evt)
 	{
 	}
 
 	[Token(Token = "0x600093F")]
-	[Address(RVA = "0x4CF5C20", Offset = "0x4CF5C20", VA = "0x4CF5C20")]
+	[Address(RVA = "0x501D550", Offset = "0x501D550", VA = "0x501D550")]
 	private void OnPointerMoveEvent(PointerMoveEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000940")]
-	[Address(RVA = "0x4CF5870", Offset = "0x4CF5870", VA = "0x4CF5870")]
+	[Address(RVA = "0x501D1A0", Offset = "0x501D1A0", VA = "0x501D1A0")]
 	private DragEventsProcessor GetDropTarget(Vector2 position)
 	{
 		return null;

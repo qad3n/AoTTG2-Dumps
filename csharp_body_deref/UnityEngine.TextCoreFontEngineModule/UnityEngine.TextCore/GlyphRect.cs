@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.GlyphRect
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -42,7 +49,7 @@ public struct GlyphRect : IEquatable<GlyphRect>
 	public int x
 	{
 		[Token(Token = "0x6000027")]
-		[Address(RVA = "0x4B7BA20", Offset = "0x4B7BA20", VA = "0x4B7BA20")]
+		[Address(RVA = "0x4EA3350", Offset = "0x4EA3350", VA = "0x4EA3350")]
 		get
 		{
 			return default(int);
@@ -53,7 +60,7 @@ public struct GlyphRect : IEquatable<GlyphRect>
 	public int y
 	{
 		[Token(Token = "0x6000028")]
-		[Address(RVA = "0x4B7BA30", Offset = "0x4B7BA30", VA = "0x4B7BA30")]
+		[Address(RVA = "0x4EA3360", Offset = "0x4EA3360", VA = "0x4EA3360")]
 		get
 		{
 			return default(int);
@@ -64,7 +71,7 @@ public struct GlyphRect : IEquatable<GlyphRect>
 	public int width
 	{
 		[Token(Token = "0x6000029")]
-		[Address(RVA = "0x4B7BA40", Offset = "0x4B7BA40", VA = "0x4B7BA40")]
+		[Address(RVA = "0x4EA3370", Offset = "0x4EA3370", VA = "0x4EA3370")]
 		get
 		{
 			return default(int);
@@ -75,7 +82,7 @@ public struct GlyphRect : IEquatable<GlyphRect>
 	public int height
 	{
 		[Token(Token = "0x600002A")]
-		[Address(RVA = "0x4B7BA50", Offset = "0x4B7BA50", VA = "0x4B7BA50")]
+		[Address(RVA = "0x4EA3380", Offset = "0x4EA3380", VA = "0x4EA3380")]
 		get
 		{
 			return default(int);
@@ -86,7 +93,7 @@ public struct GlyphRect : IEquatable<GlyphRect>
 	public static GlyphRect zero
 	{
 		[Token(Token = "0x600002B")]
-		[Address(RVA = "0x4B7BA60", Offset = "0x4B7BA60", VA = "0x4B7BA60")]
+		[Address(RVA = "0x4EA3390", Offset = "0x4EA3390", VA = "0x4EA3390")]
 		get
 		{
 			return default(GlyphRect);
@@ -94,27 +101,27 @@ public struct GlyphRect : IEquatable<GlyphRect>
 	}
 
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x4B7BAB0", Offset = "0x4B7BAB0", VA = "0x4B7BAB0")]
+	[Address(RVA = "0x4EA33E0", Offset = "0x4EA33E0", VA = "0x4EA33E0")]
 	public GlyphRect(int x, int y, int width, int height)
 	{
 	}
 
 	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x4B7BAC0", Offset = "0x4B7BAC0", VA = "0x4B7BAC0", Slot = "2")]
+	[Address(RVA = "0x4EA33F0", Offset = "0x4EA33F0", VA = "0x4EA33F0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600002E")]
-	[Address(RVA = "0x4B7BB10", Offset = "0x4B7BB10", VA = "0x4B7BB10", Slot = "0")]
+	[Address(RVA = "0x4EA3440", Offset = "0x4EA3440", VA = "0x4EA3440", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600002F")]
-	[Address(RVA = "0x4B7BB70", Offset = "0x4B7BB70", VA = "0x4B7BB70", Slot = "4")]
+	[Address(RVA = "0x4EA34A0", Offset = "0x4EA34A0", VA = "0x4EA34A0", Slot = "4")]
 	public bool Equals(GlyphRect other)
 	{
 		return default(bool);

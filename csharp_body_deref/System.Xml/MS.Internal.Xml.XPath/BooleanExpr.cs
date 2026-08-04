@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MS.Internal.Xml.XPath.BooleanExpr
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.XPath;
 using System.Xml.Xsl;
 using Il2CppDummyDll;
@@ -23,7 +30,7 @@ internal sealed class BooleanExpr : ValueQuery
 	public override XPathResultType StaticType
 	{
 		[Token(Token = "0x6001A79")]
-		[Address(RVA = "0x443ADB0", Offset = "0x443ADB0", VA = "0x443ADB0", Slot = "16")]
+		[Address(RVA = "0x4778510", Offset = "0x4778510", VA = "0x4778510", Slot = "16")]
 		get
 		{
 			return default(XPathResultType);
@@ -31,32 +38,32 @@ internal sealed class BooleanExpr : ValueQuery
 	}
 
 	[Token(Token = "0x6001A74")]
-	[Address(RVA = "0x443AA60", Offset = "0x443AA60", VA = "0x443AA60")]
+	[Address(RVA = "0x47781C0", Offset = "0x47781C0", VA = "0x47781C0")]
 	public BooleanExpr(Operator.Op op, Query opnd1, Query opnd2)
 	{
 	}
 
 	[Token(Token = "0x6001A75")]
-	[Address(RVA = "0x443ABC0", Offset = "0x443ABC0", VA = "0x443ABC0")]
+	[Address(RVA = "0x4778320", Offset = "0x4778320", VA = "0x4778320")]
 	private BooleanExpr(BooleanExpr other)
 	{
 	}
 
 	[Token(Token = "0x6001A76")]
-	[Address(RVA = "0x443AC20", Offset = "0x443AC20", VA = "0x443AC20", Slot = "13")]
+	[Address(RVA = "0x4778380", Offset = "0x4778380", VA = "0x4778380", Slot = "13")]
 	public override void SetXsltContext(XsltContext context)
 	{
 	}
 
 	[Token(Token = "0x6001A77")]
-	[Address(RVA = "0x443AC70", Offset = "0x443AC70", VA = "0x443AC70", Slot = "14")]
+	[Address(RVA = "0x47783D0", Offset = "0x47783D0", VA = "0x47783D0", Slot = "14")]
 	public override object Evaluate(XPathNodeIterator nodeIterator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A78")]
-	[Address(RVA = "0x443AD10", Offset = "0x443AD10", VA = "0x443AD10", Slot = "6")]
+	[Address(RVA = "0x4778470", Offset = "0x4778470", VA = "0x4778470", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

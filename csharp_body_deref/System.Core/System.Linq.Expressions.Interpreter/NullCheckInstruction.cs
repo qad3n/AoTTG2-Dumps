@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.NullCheckInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -13,7 +20,7 @@ internal sealed class NullCheckInstruction : Instruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x6000A5E")]
-		[Address(RVA = "0x41D9C10", Offset = "0x41D9C10", VA = "0x41D9C10", Slot = "4")]
+		[Address(RVA = "0x44FED10", Offset = "0x44FED10", VA = "0x44FED10", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -24,7 +31,7 @@ internal sealed class NullCheckInstruction : Instruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x6000A5F")]
-		[Address(RVA = "0x41D9C20", Offset = "0x41D9C20", VA = "0x41D9C20", Slot = "5")]
+		[Address(RVA = "0x44FED20", Offset = "0x44FED20", VA = "0x44FED20", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -35,7 +42,7 @@ internal sealed class NullCheckInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x6000A60")]
-		[Address(RVA = "0x41D9C30", Offset = "0x41D9C30", VA = "0x41D9C30", Slot = "9")]
+		[Address(RVA = "0x44FED30", Offset = "0x44FED30", VA = "0x44FED30", Slot = "9")]
 		get
 		{
 			return null;
@@ -43,13 +50,13 @@ internal sealed class NullCheckInstruction : Instruction
 	}
 
 	[Token(Token = "0x6000A5D")]
-	[Address(RVA = "0x41D9C00", Offset = "0x41D9C00", VA = "0x41D9C00")]
+	[Address(RVA = "0x44FED00", Offset = "0x44FED00", VA = "0x44FED00")]
 	private NullCheckInstruction()
 	{
 	}
 
 	[Token(Token = "0x6000A61")]
-	[Address(RVA = "0x41D9C60", Offset = "0x41D9C60", VA = "0x41D9C60", Slot = "8")]
+	[Address(RVA = "0x44FED60", Offset = "0x44FED60", VA = "0x44FED60", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

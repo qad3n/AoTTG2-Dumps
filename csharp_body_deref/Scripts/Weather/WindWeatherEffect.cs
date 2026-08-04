@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Weather.WindWeatherEffect
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Weather/WindWeatherEffect.c
+// Prior real C# source (older reference): Assets/Scripts/Weather/WindWeatherEffect.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -18,7 +25,7 @@ internal class WindWeatherEffect : BaseWeatherEffect
 	protected override Vector3 _positionOffset
 	{
 		[Token(Token = "0x60001AF")]
-		[Address(RVA = "0x3C83220", Offset = "0x3C83220", VA = "0x3C83220", Slot = "4")]
+		[Address(RVA = "0x3F78B70", Offset = "0x3F78B70", VA = "0x3F78B70", Slot = "4")]
 		get
 		{
 			return default(Vector3);
@@ -26,31 +33,31 @@ internal class WindWeatherEffect : BaseWeatherEffect
 	}
 
 	[Token(Token = "0x60001B0")]
-	[Address(RVA = "0x3C83270", Offset = "0x3C83270", VA = "0x3C83270", Slot = "11")]
+	[Address(RVA = "0x3F78BC0", Offset = "0x3F78BC0", VA = "0x3F78BC0", Slot = "11")]
 	public override void Setup(Transform parent)
 	{
 	}
 
 	[Token(Token = "0x60001B1")]
-	[Address(RVA = "0x3C83280", Offset = "0x3C83280", VA = "0x3C83280", Slot = "8")]
+	[Address(RVA = "0x3F78BD0", Offset = "0x3F78BD0", VA = "0x3F78BD0", Slot = "8")]
 	public override void Randomize()
 	{
 	}
 
 	[Token(Token = "0x60001B2")]
-	[Address(RVA = "0x3C83290", Offset = "0x3C83290", VA = "0x3C83290", Slot = "6")]
+	[Address(RVA = "0x3F78BE0", Offset = "0x3F78BE0", VA = "0x3F78BE0", Slot = "6")]
 	public override void Disable(bool fadeOut = false)
 	{
 	}
 
 	[Token(Token = "0x60001B3")]
-	[Address(RVA = "0x3C832F0", Offset = "0x3C832F0", VA = "0x3C832F0", Slot = "10")]
+	[Address(RVA = "0x3F78C40", Offset = "0x3F78C40", VA = "0x3F78C40", Slot = "10")]
 	public override void SetLevel(float level)
 	{
 	}
 
 	[Token(Token = "0x60001B4")]
-	[Address(RVA = "0x3C833D0", Offset = "0x3C833D0", VA = "0x3C833D0")]
+	[Address(RVA = "0x3F78D20", Offset = "0x3F78D20", VA = "0x3F78D20")]
 	public WindWeatherEffect()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlSerializer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.IO;
 using System.Reflection;
@@ -28,7 +35,7 @@ public class XmlSerializer
 		public XmlSerializerImplementation Implementation;
 
 		[Token(Token = "0x6000E70")]
-		[Address(RVA = "0x44F9EC0", Offset = "0x44F9EC0", VA = "0x44F9EC0")]
+		[Address(RVA = "0x4837620", Offset = "0x4837620", VA = "0x4837620")]
 		public XmlSerializationWriter CreateWriter()
 		{
 			return null;
@@ -87,7 +94,7 @@ public class XmlSerializer
 	internal XmlMapping Mapping
 	{
 		[Token(Token = "0x6000E60")]
-		[Address(RVA = "0x44F9140", Offset = "0x44F9140", VA = "0x44F9140")]
+		[Address(RVA = "0x48368A0", Offset = "0x48368A0", VA = "0x48368A0")]
 		get
 		{
 			return null;
@@ -95,109 +102,109 @@ public class XmlSerializer
 	}
 
 	[Token(Token = "0x6000E5E")]
-	[Address(RVA = "0x44F8F20", Offset = "0x44F8F20", VA = "0x44F8F20")]
+	[Address(RVA = "0x4836680", Offset = "0x4836680", VA = "0x4836680")]
 	static XmlSerializer()
 	{
 	}
 
 	[Token(Token = "0x6000E5F")]
-	[Address(RVA = "0x44F8FD0", Offset = "0x44F8FD0", VA = "0x44F8FD0")]
+	[Address(RVA = "0x4836730", Offset = "0x4836730", VA = "0x4836730")]
 	public XmlSerializer(Type type, XmlAttributeOverrides overrides, Type[] extraTypes, XmlRootAttribute root, string defaultNamespace)
 	{
 	}
 
 	[Token(Token = "0x6000E61")]
-	[Address(RVA = "0x44F9150", Offset = "0x44F9150", VA = "0x44F9150", Slot = "4")]
+	[Address(RVA = "0x48368B0", Offset = "0x48368B0", VA = "0x48368B0", Slot = "4")]
 	internal virtual void OnUnknownAttribute(XmlAttributeEventArgs e)
 	{
 	}
 
 	[Token(Token = "0x6000E62")]
-	[Address(RVA = "0x44F9170", Offset = "0x44F9170", VA = "0x44F9170", Slot = "5")]
+	[Address(RVA = "0x48368D0", Offset = "0x48368D0", VA = "0x48368D0", Slot = "5")]
 	internal virtual void OnUnknownElement(XmlElementEventArgs e)
 	{
 	}
 
 	[Token(Token = "0x6000E63")]
-	[Address(RVA = "0x44F9190", Offset = "0x44F9190", VA = "0x44F9190", Slot = "6")]
+	[Address(RVA = "0x48368F0", Offset = "0x48368F0", VA = "0x48368F0", Slot = "6")]
 	internal virtual void OnUnknownNode(XmlNodeEventArgs e)
 	{
 	}
 
 	[Token(Token = "0x6000E64")]
-	[Address(RVA = "0x44F91B0", Offset = "0x44F91B0", VA = "0x44F91B0", Slot = "7")]
+	[Address(RVA = "0x4836910", Offset = "0x4836910", VA = "0x4836910", Slot = "7")]
 	internal virtual void OnUnreferencedObject(UnreferencedObjectEventArgs e)
 	{
 	}
 
 	[Token(Token = "0x6000E65")]
-	[Address(RVA = "0x44F91D0", Offset = "0x44F91D0", VA = "0x44F91D0", Slot = "8")]
+	[Address(RVA = "0x4836930", Offset = "0x4836930", VA = "0x4836930", Slot = "8")]
 	protected virtual XmlSerializationReader CreateReader()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E66")]
-	[Address(RVA = "0x44F9210", Offset = "0x44F9210", VA = "0x44F9210", Slot = "9")]
+	[Address(RVA = "0x4836970", Offset = "0x4836970", VA = "0x4836970", Slot = "9")]
 	protected virtual XmlSerializationWriter CreateWriter()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E67")]
-	[Address(RVA = "0x44F9250", Offset = "0x44F9250", VA = "0x44F9250")]
+	[Address(RVA = "0x48369B0", Offset = "0x48369B0", VA = "0x48369B0")]
 	public object Deserialize(TextReader textReader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E68")]
-	[Address(RVA = "0x44F92D0", Offset = "0x44F92D0", VA = "0x44F92D0")]
+	[Address(RVA = "0x4836A30", Offset = "0x4836A30", VA = "0x4836A30")]
 	public object Deserialize(XmlReader xmlReader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E69")]
-	[Address(RVA = "0x44F93D0", Offset = "0x44F93D0", VA = "0x44F93D0", Slot = "10")]
+	[Address(RVA = "0x4836B30", Offset = "0x4836B30", VA = "0x4836B30", Slot = "10")]
 	protected virtual object Deserialize(XmlSerializationReader reader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E6A")]
-	[Address(RVA = "0x44F96B0", Offset = "0x44F96B0", VA = "0x44F96B0", Slot = "11")]
+	[Address(RVA = "0x4836E10", Offset = "0x4836E10", VA = "0x4836E10", Slot = "11")]
 	protected virtual void Serialize(object o, XmlSerializationWriter writer)
 	{
 	}
 
 	[Token(Token = "0x6000E6B")]
-	[Address(RVA = "0x44F98D0", Offset = "0x44F98D0", VA = "0x44F98D0")]
+	[Address(RVA = "0x4837030", Offset = "0x4837030", VA = "0x4837030")]
 	public void Serialize(TextWriter textWriter, object o)
 	{
 	}
 
 	[Token(Token = "0x6000E6C")]
-	[Address(RVA = "0x44F9C80", Offset = "0x44F9C80", VA = "0x44F9C80")]
+	[Address(RVA = "0x48373E0", Offset = "0x48373E0", VA = "0x48373E0")]
 	public void Serialize(XmlWriter xmlWriter, object o)
 	{
 	}
 
 	[Token(Token = "0x6000E6D")]
-	[Address(RVA = "0x44F9950", Offset = "0x44F9950", VA = "0x44F9950")]
+	[Address(RVA = "0x48370B0", Offset = "0x48370B0", VA = "0x48370B0")]
 	public void Serialize(XmlWriter xmlWriter, object o, XmlSerializerNamespaces namespaces)
 	{
 	}
 
 	[Token(Token = "0x6000E6E")]
-	[Address(RVA = "0x44F9C90", Offset = "0x44F9C90", VA = "0x44F9C90")]
+	[Address(RVA = "0x48373F0", Offset = "0x48373F0", VA = "0x48373F0")]
 	private XmlSerializationWriter CreateWriter(XmlMapping typeMapping)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E6F")]
-	[Address(RVA = "0x44F9380", Offset = "0x44F9380", VA = "0x44F9380")]
+	[Address(RVA = "0x4836AE0", Offset = "0x4836AE0", VA = "0x4836AE0")]
 	private XmlSerializationReader CreateReader(XmlMapping typeMapping)
 	{
 		return null;

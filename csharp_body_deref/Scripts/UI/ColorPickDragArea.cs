@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UI.ColorPickDragArea
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UI/ColorPickDragArea.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine;
@@ -5,54 +12,54 @@ using UnityEngine.EventSystems;
 
 namespace UI;
 
-[Token(Token = "0x200052F")]
+[Token(Token = "0x2000574")]
 internal class ColorPickDragArea : MonoBehaviour, IPointerDownHandler, IEventSystemHandler, IDragHandler
 {
-	[Token(Token = "0x2000530")]
+	[Token(Token = "0x2000575")]
 	public enum Mode
 	{
-		[Token(Token = "0x40019FE")]
+		[Token(Token = "0x4001B11")]
 		TwoDimensional,
-		[Token(Token = "0x40019FF")]
+		[Token(Token = "0x4001B12")]
 		Horizontal,
-		[Token(Token = "0x4001A00")]
+		[Token(Token = "0x4001B13")]
 		Vertical
 	}
 
-	[Token(Token = "0x40019FB")]
+	[Token(Token = "0x4001B0E")]
 	[FieldOffset(Offset = "0x20")]
 	private Mode _mode;
 
-	[Token(Token = "0x40019FC")]
+	[Token(Token = "0x4001B0F")]
 	[FieldOffset(Offset = "0x28")]
 	private Action<float, float> _onChanged;
 
-	[Token(Token = "0x60036AE")]
-	[Address(RVA = "0x3F1F1A0", Offset = "0x3F1F1A0", VA = "0x3F1F1A0")]
+	[Token(Token = "0x60038BC")]
+	[Address(RVA = "0x4248870", Offset = "0x4248870", VA = "0x4248870")]
 	public void Setup(Mode mode, Action<float, float> onChanged)
 	{
 	}
 
-	[Token(Token = "0x60036AF")]
-	[Address(RVA = "0x3F214F0", Offset = "0x3F214F0", VA = "0x3F214F0", Slot = "4")]
+	[Token(Token = "0x60038BD")]
+	[Address(RVA = "0x424ACA0", Offset = "0x424ACA0", VA = "0x424ACA0", Slot = "4")]
 	public void OnPointerDown(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60036B0")]
-	[Address(RVA = "0x3F21720", Offset = "0x3F21720", VA = "0x3F21720", Slot = "5")]
+	[Token(Token = "0x60038BE")]
+	[Address(RVA = "0x424AED0", Offset = "0x424AED0", VA = "0x424AED0", Slot = "5")]
 	public void OnDrag(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60036B1")]
-	[Address(RVA = "0x3F21500", Offset = "0x3F21500", VA = "0x3F21500")]
+	[Token(Token = "0x60038BF")]
+	[Address(RVA = "0x424ACB0", Offset = "0x424ACB0", VA = "0x424ACB0")]
 	private void Notify(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60036B2")]
-	[Address(RVA = "0x3F21730", Offset = "0x3F21730", VA = "0x3F21730")]
+	[Token(Token = "0x60038C0")]
+	[Address(RVA = "0x424AEE0", Offset = "0x424AEE0", VA = "0x424AEE0")]
 	public ColorPickDragArea()
 	{
 	}

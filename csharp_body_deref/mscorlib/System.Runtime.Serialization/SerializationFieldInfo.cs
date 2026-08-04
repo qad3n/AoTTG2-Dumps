@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.SerializationFieldInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Globalization;
 using System.Reflection;
 using Il2CppDummyDll;
@@ -19,7 +26,7 @@ internal sealed class SerializationFieldInfo : FieldInfo
 	public override Module Module
 	{
 		[Token(Token = "0x6001FF5")]
-		[Address(RVA = "0x4EB9810", Offset = "0x4EB9810", VA = "0x4EB9810", Slot = "11")]
+		[Address(RVA = "0x3B9F330", Offset = "0x3B9F330", VA = "0x3B9F330", Slot = "11")]
 		get
 		{
 			return null;
@@ -30,7 +37,7 @@ internal sealed class SerializationFieldInfo : FieldInfo
 	public override int MetadataToken
 	{
 		[Token(Token = "0x6001FF6")]
-		[Address(RVA = "0x4EB9840", Offset = "0x4EB9840", VA = "0x4EB9840", Slot = "15")]
+		[Address(RVA = "0x3B9F360", Offset = "0x3B9F360", VA = "0x3B9F360", Slot = "15")]
 		get
 		{
 			return default(int);
@@ -41,7 +48,7 @@ internal sealed class SerializationFieldInfo : FieldInfo
 	public override string Name
 	{
 		[Token(Token = "0x6001FF8")]
-		[Address(RVA = "0x4EB9870", Offset = "0x4EB9870", VA = "0x4EB9870", Slot = "8")]
+		[Address(RVA = "0x3B9F390", Offset = "0x3B9F390", VA = "0x3B9F390", Slot = "8")]
 		get
 		{
 			return null;
@@ -52,7 +59,7 @@ internal sealed class SerializationFieldInfo : FieldInfo
 	public override Type DeclaringType
 	{
 		[Token(Token = "0x6001FF9")]
-		[Address(RVA = "0x4EB9880", Offset = "0x4EB9880", VA = "0x4EB9880", Slot = "9")]
+		[Address(RVA = "0x3B9F3A0", Offset = "0x3B9F3A0", VA = "0x3B9F3A0", Slot = "9")]
 		get
 		{
 			return null;
@@ -63,7 +70,7 @@ internal sealed class SerializationFieldInfo : FieldInfo
 	public override Type ReflectedType
 	{
 		[Token(Token = "0x6001FFA")]
-		[Address(RVA = "0x4EB98B0", Offset = "0x4EB98B0", VA = "0x4EB98B0", Slot = "10")]
+		[Address(RVA = "0x3B9F3D0", Offset = "0x3B9F3D0", VA = "0x3B9F3D0", Slot = "10")]
 		get
 		{
 			return null;
@@ -74,7 +81,7 @@ internal sealed class SerializationFieldInfo : FieldInfo
 	public override Type FieldType
 	{
 		[Token(Token = "0x6001FFE")]
-		[Address(RVA = "0x4EB9970", Offset = "0x4EB9970", VA = "0x4EB9970", Slot = "17")]
+		[Address(RVA = "0x3B9F490", Offset = "0x3B9F490", VA = "0x3B9F490", Slot = "17")]
 		get
 		{
 			return null;
@@ -85,7 +92,7 @@ internal sealed class SerializationFieldInfo : FieldInfo
 	internal System.Reflection.RuntimeFieldInfo FieldInfo
 	{
 		[Token(Token = "0x6002003")]
-		[Address(RVA = "0x4EB9A00", Offset = "0x4EB9A00", VA = "0x4EB9A00")]
+		[Address(RVA = "0x3B9F520", Offset = "0x3B9F520", VA = "0x3B9F520")]
 		get
 		{
 			return null;
@@ -96,7 +103,7 @@ internal sealed class SerializationFieldInfo : FieldInfo
 	public override RuntimeFieldHandle FieldHandle
 	{
 		[Token(Token = "0x6002004")]
-		[Address(RVA = "0x4EB9A10", Offset = "0x4EB9A10", VA = "0x4EB9A10", Slot = "25")]
+		[Address(RVA = "0x3B9F530", Offset = "0x3B9F530", VA = "0x3B9F530", Slot = "25")]
 		get
 		{
 			return default(RuntimeFieldHandle);
@@ -107,7 +114,7 @@ internal sealed class SerializationFieldInfo : FieldInfo
 	public override FieldAttributes Attributes
 	{
 		[Token(Token = "0x6002005")]
-		[Address(RVA = "0x4EB9A40", Offset = "0x4EB9A40", VA = "0x4EB9A40", Slot = "16")]
+		[Address(RVA = "0x3B9F560", Offset = "0x3B9F560", VA = "0x3B9F560", Slot = "16")]
 		get
 		{
 			return default(FieldAttributes);
@@ -115,54 +122,54 @@ internal sealed class SerializationFieldInfo : FieldInfo
 	}
 
 	[Token(Token = "0x6001FF7")]
-	[Address(RVA = "0x4EB07D0", Offset = "0x4EB07D0", VA = "0x4EB07D0")]
+	[Address(RVA = "0x3B962F0", Offset = "0x3B962F0", VA = "0x3B962F0")]
 	internal SerializationFieldInfo(System.Reflection.RuntimeFieldInfo field, string namePrefix)
 	{
 	}
 
 	[Token(Token = "0x6001FFB")]
-	[Address(RVA = "0x4EB98E0", Offset = "0x4EB98E0", VA = "0x4EB98E0", Slot = "13")]
+	[Address(RVA = "0x3B9F400", Offset = "0x3B9F400", VA = "0x3B9F400", Slot = "13")]
 	public override object[] GetCustomAttributes(bool inherit)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001FFC")]
-	[Address(RVA = "0x4EB9910", Offset = "0x4EB9910", VA = "0x4EB9910", Slot = "14")]
+	[Address(RVA = "0x3B9F430", Offset = "0x3B9F430", VA = "0x3B9F430", Slot = "14")]
 	public override object[] GetCustomAttributes(Type attributeType, bool inherit)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001FFD")]
-	[Address(RVA = "0x4EB9940", Offset = "0x4EB9940", VA = "0x4EB9940", Slot = "12")]
+	[Address(RVA = "0x3B9F460", Offset = "0x3B9F460", VA = "0x3B9F460", Slot = "12")]
 	public override bool IsDefined(Type attributeType, bool inherit)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001FFF")]
-	[Address(RVA = "0x4EB99A0", Offset = "0x4EB99A0", VA = "0x4EB99A0", Slot = "26")]
+	[Address(RVA = "0x3B9F4C0", Offset = "0x3B9F4C0", VA = "0x3B9F4C0", Slot = "26")]
 	public override object GetValue(object obj)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002000")]
-	[Address(RVA = "0x4EB1AB0", Offset = "0x4EB1AB0", VA = "0x4EB1AB0")]
+	[Address(RVA = "0x3B975D0", Offset = "0x3B975D0", VA = "0x3B975D0")]
 	internal object InternalGetValue(object obj)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002001")]
-	[Address(RVA = "0x4EB99D0", Offset = "0x4EB99D0", VA = "0x4EB99D0", Slot = "28")]
+	[Address(RVA = "0x3B9F4F0", Offset = "0x3B9F4F0", VA = "0x3B9F4F0", Slot = "28")]
 	public override void SetValue(object obj, object value, BindingFlags invokeAttr, Binder binder, CultureInfo culture)
 	{
 	}
 
 	[Token(Token = "0x6002002")]
-	[Address(RVA = "0x4EB12F0", Offset = "0x4EB12F0", VA = "0x4EB12F0")]
+	[Address(RVA = "0x3B96E10", Offset = "0x3B96E10", VA = "0x3B96E10")]
 	internal void InternalSetValue(object obj, object value, BindingFlags invokeAttr, Binder binder, CultureInfo culture)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Threading.LockQueue
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Threading;
@@ -17,7 +24,7 @@ internal class LockQueue
 	public bool IsEmpty
 	{
 		[Token(Token = "0x6001339")]
-		[Address(RVA = "0x5055F60", Offset = "0x5055F60", VA = "0x5055F60")]
+		[Address(RVA = "0x3D3BA80", Offset = "0x3D3BA80", VA = "0x3D3BA80")]
 		get
 		{
 			return default(bool);
@@ -25,20 +32,20 @@ internal class LockQueue
 	}
 
 	[Token(Token = "0x6001337")]
-	[Address(RVA = "0x5055D70", Offset = "0x5055D70", VA = "0x5055D70")]
+	[Address(RVA = "0x3D3B890", Offset = "0x3D3B890", VA = "0x3D3B890")]
 	public LockQueue(ReaderWriterLock rwlock)
 	{
 	}
 
 	[Token(Token = "0x6001338")]
-	[Address(RVA = "0x5055DA0", Offset = "0x5055DA0", VA = "0x5055DA0")]
+	[Address(RVA = "0x3D3B8C0", Offset = "0x3D3B8C0", VA = "0x3D3B8C0")]
 	public bool Wait(int timeout)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600133A")]
-	[Address(RVA = "0x5056020", Offset = "0x5056020", VA = "0x5056020")]
+	[Address(RVA = "0x3D3BB40", Offset = "0x3D3BB40", VA = "0x3D3BB40")]
 	public void Pulse()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.UpaException
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -17,7 +24,7 @@ internal class UpaException : Exception
 	public object Particle1
 	{
 		[Token(Token = "0x6000FC2")]
-		[Address(RVA = "0x4507AA0", Offset = "0x4507AA0", VA = "0x4507AA0")]
+		[Address(RVA = "0x4845200", Offset = "0x4845200", VA = "0x4845200")]
 		get
 		{
 			return null;
@@ -28,7 +35,7 @@ internal class UpaException : Exception
 	public object Particle2
 	{
 		[Token(Token = "0x6000FC3")]
-		[Address(RVA = "0x4507AB0", Offset = "0x4507AB0", VA = "0x4507AB0")]
+		[Address(RVA = "0x4845210", Offset = "0x4845210", VA = "0x4845210")]
 		get
 		{
 			return null;
@@ -36,7 +43,7 @@ internal class UpaException : Exception
 	}
 
 	[Token(Token = "0x6000FC1")]
-	[Address(RVA = "0x4507A20", Offset = "0x4507A20", VA = "0x4507A20")]
+	[Address(RVA = "0x4845180", Offset = "0x4845180", VA = "0x4845180")]
 	public UpaException(object particle1, object particle2)
 	{
 	}

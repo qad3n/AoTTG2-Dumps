@@ -69,7 +69,7 @@ public class RSAManaged : RSA
 	public override int KeySize
 	{
 		[Token(Token = "0x6000195")]
-		[Address(RVA = "0x3A54A80", Offset = "0x3A54A80", VA = "0x3A54A80", Slot = "6")]
+		[Address(RVA = "0x3AC1740", Offset = "0x3AC1740", VA = "0x3AC1740", Slot = "6")]
 		get
 		{
 			return default(int);
@@ -80,7 +80,7 @@ public class RSAManaged : RSA
 	public override string KeyExchangeAlgorithm
 	{
 		[Token(Token = "0x6000196")]
-		[Address(RVA = "0x3A54B20", Offset = "0x3A54B20", VA = "0x3A54B20", Slot = "10")]
+		[Address(RVA = "0x3AC17E0", Offset = "0x3AC17E0", VA = "0x3AC17E0", Slot = "10")]
 		get
 		{
 			return null;
@@ -91,7 +91,7 @@ public class RSAManaged : RSA
 	public bool PublicOnly
 	{
 		[Token(Token = "0x6000197")]
-		[Address(RVA = "0x3A54B50", Offset = "0x3A54B50", VA = "0x3A54B50")]
+		[Address(RVA = "0x3AC1810", Offset = "0x3AC1810", VA = "0x3AC1810")]
 		get
 		{
 			return default(bool);
@@ -102,7 +102,7 @@ public class RSAManaged : RSA
 	public override string SignatureAlgorithm
 	{
 		[Token(Token = "0x6000198")]
-		[Address(RVA = "0x3A54C80", Offset = "0x3A54C80", VA = "0x3A54C80", Slot = "9")]
+		[Address(RVA = "0x3AC1940", Offset = "0x3AC1940", VA = "0x3AC1940", Slot = "9")]
 		get
 		{
 			return null;
@@ -110,71 +110,71 @@ public class RSAManaged : RSA
 	}
 
 	[Token(Token = "0x6000191")]
-	[Address(RVA = "0x3A53AD0", Offset = "0x3A53AD0", VA = "0x3A53AD0")]
+	[Address(RVA = "0x3AC0790", Offset = "0x3AC0790", VA = "0x3AC0790")]
 	public RSAManaged()
 	{
 	}
 
 	[Token(Token = "0x6000192")]
-	[Address(RVA = "0x3A53AE0", Offset = "0x3A53AE0", VA = "0x3A53AE0")]
+	[Address(RVA = "0x3AC07A0", Offset = "0x3AC07A0", VA = "0x3AC07A0")]
 	public RSAManaged(int keySize)
 	{
 	}
 
 	[Token(Token = "0x6000193")]
-	[Address(RVA = "0x3A53BC0", Offset = "0x3A53BC0", VA = "0x3A53BC0", Slot = "1")]
+	[Address(RVA = "0x3AC0880", Offset = "0x3AC0880", VA = "0x3AC0880", Slot = "1")]
 	~RSAManaged()
 	{
 	}
 
 	[Token(Token = "0x6000194")]
-	[Address(RVA = "0x3A53C50", Offset = "0x3A53C50", VA = "0x3A53C50")]
+	[Address(RVA = "0x3AC0910", Offset = "0x3AC0910", VA = "0x3AC0910")]
 	private void GenerateKeyPair()
 	{
 	}
 
 	[Token(Token = "0x6000199")]
-	[Address(RVA = "0x3A54CB0", Offset = "0x3A54CB0", VA = "0x3A54CB0", Slot = "34")]
+	[Address(RVA = "0x3AC1970", Offset = "0x3AC1970", VA = "0x3AC1970", Slot = "34")]
 	public override byte[] DecryptValue(byte[] rgb)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600019A")]
-	[Address(RVA = "0x3A55890", Offset = "0x3A55890", VA = "0x3A55890", Slot = "35")]
+	[Address(RVA = "0x3AC2550", Offset = "0x3AC2550", VA = "0x3AC2550", Slot = "35")]
 	public override byte[] EncryptValue(byte[] rgb)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600019B")]
-	[Address(RVA = "0x3A55A60", Offset = "0x3A55A60", VA = "0x3A55A60", Slot = "36")]
+	[Address(RVA = "0x3AC2720", Offset = "0x3AC2720", VA = "0x3AC2720", Slot = "36")]
 	public override RSAParameters ExportParameters(bool includePrivateParameters)
 	{
 		return default(RSAParameters);
 	}
 
 	[Token(Token = "0x600019C")]
-	[Address(RVA = "0x3A55FD0", Offset = "0x3A55FD0", VA = "0x3A55FD0", Slot = "37")]
+	[Address(RVA = "0x3AC2C90", Offset = "0x3AC2C90", VA = "0x3AC2C90", Slot = "37")]
 	public override void ImportParameters(RSAParameters parameters)
 	{
 	}
 
 	[Token(Token = "0x600019D")]
-	[Address(RVA = "0x3A56590", Offset = "0x3A56590", VA = "0x3A56590", Slot = "5")]
+	[Address(RVA = "0x3AC3250", Offset = "0x3AC3250", VA = "0x3AC3250", Slot = "5")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x600019E")]
-	[Address(RVA = "0x3A56A60", Offset = "0x3A56A60", VA = "0x3A56A60", Slot = "12")]
+	[Address(RVA = "0x3AC3720", Offset = "0x3AC3720", VA = "0x3AC3720", Slot = "12")]
 	public override string ToXmlString(bool includePrivateParameters)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600019F")]
-	[Address(RVA = "0x3A55800", Offset = "0x3A55800", VA = "0x3A55800")]
+	[Address(RVA = "0x3AC24C0", Offset = "0x3AC24C0", VA = "0x3AC24C0")]
 	private byte[] GetPaddedValue(BigInteger value, int length)
 	{
 		return null;

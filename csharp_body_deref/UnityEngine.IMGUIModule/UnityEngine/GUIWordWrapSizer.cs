@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.GUIWordWrapSizer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine;
@@ -18,19 +25,19 @@ internal sealed class GUIWordWrapSizer : GUILayoutEntry
 	private readonly float m_ForcedMaxHeight;
 
 	[Token(Token = "0x6000222")]
-	[Address(RVA = "0x4B36120", Offset = "0x4B36120", VA = "0x4B36120")]
+	[Address(RVA = "0x4E5DCE0", Offset = "0x4E5DCE0", VA = "0x4E5DCE0")]
 	public GUIWordWrapSizer(GUIStyle style, GUIContent content, GUILayoutOption[] options)
 	{
 	}
 
 	[Token(Token = "0x6000223")]
-	[Address(RVA = "0x4B361F0", Offset = "0x4B361F0", VA = "0x4B361F0", Slot = "8")]
+	[Address(RVA = "0x4E5DDB0", Offset = "0x4E5DDB0", VA = "0x4E5DDB0", Slot = "8")]
 	public override void CalcWidth()
 	{
 	}
 
 	[Token(Token = "0x6000224")]
-	[Address(RVA = "0x4B362A0", Offset = "0x4B362A0", VA = "0x4B362A0", Slot = "9")]
+	[Address(RVA = "0x4E5DE60", Offset = "0x4E5DE60", VA = "0x4E5DE60", Slot = "9")]
 	public override void CalcHeight()
 	{
 	}

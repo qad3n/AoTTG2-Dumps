@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.AttributeUtility
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -54,7 +61,7 @@ public static class AttributeUtility
 			private Attribute System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EAttribute_003E_002ECurrent
 			{
 				[Token(Token = "0x6000564")]
-				[Address(RVA = "0x49987C0", Offset = "0x49987C0", VA = "0x49987C0", Slot = "6")]
+				[Address(RVA = "0x4CBD390", Offset = "0x4CBD390", VA = "0x4CBD390", Slot = "6")]
 				[DebuggerHidden]
 				get
 				{
@@ -66,7 +73,7 @@ public static class AttributeUtility
 			private object System_002ECollections_002EIEnumerator_002ECurrent
 			{
 				[Token(Token = "0x6000566")]
-				[Address(RVA = "0x4998810", Offset = "0x4998810", VA = "0x4998810", Slot = "9")]
+				[Address(RVA = "0x4CBD3E0", Offset = "0x4CBD3E0", VA = "0x4CBD3E0", Slot = "9")]
 				[DebuggerHidden]
 				get
 				{
@@ -75,35 +82,35 @@ public static class AttributeUtility
 			}
 
 			[Token(Token = "0x6000561")]
-			[Address(RVA = "0x49986A0", Offset = "0x49986A0", VA = "0x49986A0")]
+			[Address(RVA = "0x4CBD270", Offset = "0x4CBD270", VA = "0x4CBD270")]
 			[DebuggerHidden]
 			public _003CGetAttributes_003Ed__12(int _003C_003E1__state)
 			{
 			}
 
 			[Token(Token = "0x6000562")]
-			[Address(RVA = "0x49986D0", Offset = "0x49986D0", VA = "0x49986D0", Slot = "7")]
+			[Address(RVA = "0x4CBD2A0", Offset = "0x4CBD2A0", VA = "0x4CBD2A0", Slot = "7")]
 			[DebuggerHidden]
 			private void System_002EIDisposable_002EDispose()
 			{
 			}
 
 			[Token(Token = "0x6000563")]
-			[Address(RVA = "0x49986E0", Offset = "0x49986E0", VA = "0x49986E0", Slot = "8")]
+			[Address(RVA = "0x4CBD2B0", Offset = "0x4CBD2B0", VA = "0x4CBD2B0", Slot = "8")]
 			private bool MoveNext()
 			{
 				return default(bool);
 			}
 
 			[Token(Token = "0x6000565")]
-			[Address(RVA = "0x49987D0", Offset = "0x49987D0", VA = "0x49987D0", Slot = "10")]
+			[Address(RVA = "0x4CBD3A0", Offset = "0x4CBD3A0", VA = "0x4CBD3A0", Slot = "10")]
 			[DebuggerHidden]
 			private void System_002ECollections_002EIEnumerator_002EReset()
 			{
 			}
 
 			[Token(Token = "0x6000567")]
-			[Address(RVA = "0x4998820", Offset = "0x4998820", VA = "0x4998820", Slot = "4")]
+			[Address(RVA = "0x4CBD3F0", Offset = "0x4CBD3F0", VA = "0x4CBD3F0", Slot = "4")]
 			[DebuggerHidden]
 			private IEnumerator<Attribute> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002EAttribute_003E_002EGetEnumerator()
 			{
@@ -111,7 +118,7 @@ public static class AttributeUtility
 			}
 
 			[Token(Token = "0x6000568")]
-			[Address(RVA = "0x49988D0", Offset = "0x49988D0", VA = "0x49988D0", Slot = "5")]
+			[Address(RVA = "0x4CBD4A0", Offset = "0x4CBD4A0", VA = "0x4CBD4A0", Slot = "5")]
 			[DebuggerHidden]
 			private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 			{
@@ -123,7 +130,7 @@ public static class AttributeUtility
 		public List<Attribute> inheritedAttributes
 		{
 			[Token(Token = "0x6000552")]
-			[Address(RVA = "0x4998380", Offset = "0x4998380", VA = "0x4998380")]
+			[Address(RVA = "0x4CBCF50", Offset = "0x4CBCF50", VA = "0x4CBCF50")]
 			[CompilerGenerated]
 			get
 			{
@@ -135,7 +142,7 @@ public static class AttributeUtility
 		public List<Attribute> definedAttributes
 		{
 			[Token(Token = "0x6000553")]
-			[Address(RVA = "0x4998390", Offset = "0x4998390", VA = "0x4998390")]
+			[Address(RVA = "0x4CBCF60", Offset = "0x4CBCF60", VA = "0x4CBCF60")]
 			[CompilerGenerated]
 			get
 			{
@@ -144,45 +151,45 @@ public static class AttributeUtility
 		}
 
 		[Token(Token = "0x6000554")]
-		[Address(RVA = "0x4996240", Offset = "0x4996240", VA = "0x4996240")]
+		[Address(RVA = "0x4CBAE10", Offset = "0x4CBAE10", VA = "0x4CBAE10")]
 		public AttributeCache(MemberInfo element)
 		{
 		}
 
 		[Token(Token = "0x6000555")]
-		[Address(RVA = "0x4996B00", Offset = "0x4996B00", VA = "0x4996B00")]
+		[Address(RVA = "0x4CBB6D0", Offset = "0x4CBB6D0", VA = "0x4CBB6D0")]
 		public AttributeCache(ParameterInfo element)
 		{
 		}
 
 		[Token(Token = "0x6000556")]
-		[Address(RVA = "0x49973C0", Offset = "0x49973C0", VA = "0x49973C0")]
+		[Address(RVA = "0x4CBBF90", Offset = "0x4CBBF90", VA = "0x4CBBF90")]
 		public AttributeCache(IAttributeProvider element)
 		{
 		}
 
 		[Token(Token = "0x6000557")]
-		[Address(RVA = "0x49983A0", Offset = "0x49983A0", VA = "0x49983A0")]
+		[Address(RVA = "0x4CBCF70", Offset = "0x4CBCF70", VA = "0x4CBCF70")]
 		private void Cache(Attribute[] attributeObjects, List<Attribute> cache)
 		{
 		}
 
 		[Token(Token = "0x6000558")]
-		[Address(RVA = "0x4998490", Offset = "0x4998490", VA = "0x4998490")]
+		[Address(RVA = "0x4CBD060", Offset = "0x4CBD060", VA = "0x4CBD060")]
 		private bool HasAttribute(Type attributeType, List<Attribute> cache)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000559")]
-		[Address(RVA = "0x4998550", Offset = "0x4998550", VA = "0x4998550")]
+		[Address(RVA = "0x4CBD120", Offset = "0x4CBD120", VA = "0x4CBD120")]
 		private Attribute GetAttribute(Type attributeType, List<Attribute> cache)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600055A")]
-		[Address(RVA = "0x4998610", Offset = "0x4998610", VA = "0x4998610")]
+		[Address(RVA = "0x4CBD1E0", Offset = "0x4CBD1E0", VA = "0x4CBD1E0")]
 		[IteratorStateMachine(typeof(_003CGetAttributes_003Ed__12))]
 		private IEnumerable<Attribute> GetAttributes(Type attributeType, List<Attribute> cache)
 		{
@@ -190,21 +197,21 @@ public static class AttributeUtility
 		}
 
 		[Token(Token = "0x600055B")]
-		[Address(RVA = "0x49978B0", Offset = "0x49978B0", VA = "0x49978B0")]
+		[Address(RVA = "0x4CBC480", Offset = "0x4CBC480", VA = "0x4CBC480")]
 		public bool HasAttribute(Type attributeType, bool inherit = true)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600055C")]
-		[Address(RVA = "0x4997950", Offset = "0x4997950", VA = "0x4997950")]
+		[Address(RVA = "0x4CBC520", Offset = "0x4CBC520", VA = "0x4CBC520")]
 		public Attribute GetAttribute(Type attributeType, bool inherit = true)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600055D")]
-		[Address(RVA = "0x49979F0", Offset = "0x49979F0", VA = "0x49979F0")]
+		[Address(RVA = "0x4CBC5C0", Offset = "0x4CBC5C0", VA = "0x4CBC5C0")]
 		public IEnumerable<Attribute> GetAttributes(Type attributeType, bool inherit = true)
 		{
 			return null;
@@ -234,28 +241,28 @@ public static class AttributeUtility
 	private static readonly Dictionary<object, AttributeCache> optimizedCaches;
 
 	[Token(Token = "0x6000536")]
-	[Address(RVA = "0x4995F40", Offset = "0x4995F40", VA = "0x4995F40")]
+	[Address(RVA = "0x4CBAB10", Offset = "0x4CBAB10", VA = "0x4CBAB10")]
 	private static AttributeCache GetAttributeCache(MemberInfo element)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000537")]
-	[Address(RVA = "0x4996800", Offset = "0x4996800", VA = "0x4996800")]
+	[Address(RVA = "0x4CBB3D0", Offset = "0x4CBB3D0", VA = "0x4CBB3D0")]
 	private static AttributeCache GetAttributeCache(ParameterInfo element)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000538")]
-	[Address(RVA = "0x49970C0", Offset = "0x49970C0", VA = "0x49970C0")]
+	[Address(RVA = "0x4CBBC90", Offset = "0x4CBBC90", VA = "0x4CBBC90")]
 	private static AttributeCache GetAttributeCache(IAttributeProvider element)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000539")]
-	[Address(RVA = "0x4997850", Offset = "0x4997850", VA = "0x4997850")]
+	[Address(RVA = "0x4CBC420", Offset = "0x4CBC420", VA = "0x4CBC420")]
 	public static void CacheAttributes(MemberInfo element)
 	{
 	}
@@ -267,21 +274,21 @@ public static class AttributeUtility
 	}
 
 	[Token(Token = "0x600053B")]
-	[Address(RVA = "0x4980010", Offset = "0x4980010", VA = "0x4980010")]
+	[Address(RVA = "0x4CA4BE0", Offset = "0x4CA4BE0", VA = "0x4CA4BE0")]
 	public static bool HasAttribute(this MemberInfo element, Type attributeType, bool inherit = true)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600053C")]
-	[Address(RVA = "0x49978C0", Offset = "0x49978C0", VA = "0x49978C0")]
+	[Address(RVA = "0x4CBC490", Offset = "0x4CBC490", VA = "0x4CBC490")]
 	public static Attribute GetAttribute(this MemberInfo element, Type attributeType, bool inherit = true)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600053D")]
-	[Address(RVA = "0x4997960", Offset = "0x4997960", VA = "0x4997960")]
+	[Address(RVA = "0x4CBC530", Offset = "0x4CBC530", VA = "0x4CBC530")]
 	public static IEnumerable<Attribute> GetAttributes(this MemberInfo element, Type attributeType, bool inherit = true)
 	{
 		return null;
@@ -306,27 +313,27 @@ public static class AttributeUtility
 	}
 
 	[Token(Token = "0x6000541")]
-	[Address(RVA = "0x4997A00", Offset = "0x4997A00", VA = "0x4997A00")]
+	[Address(RVA = "0x4CBC5D0", Offset = "0x4CBC5D0", VA = "0x4CBC5D0")]
 	public static void CacheAttributes(ParameterInfo element)
 	{
 	}
 
 	[Token(Token = "0x6000542")]
-	[Address(RVA = "0x4997A60", Offset = "0x4997A60", VA = "0x4997A60")]
+	[Address(RVA = "0x4CBC630", Offset = "0x4CBC630", VA = "0x4CBC630")]
 	public static bool HasAttribute(this ParameterInfo element, Type attributeType, bool inherit = true)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000543")]
-	[Address(RVA = "0x4997AF0", Offset = "0x4997AF0", VA = "0x4997AF0")]
+	[Address(RVA = "0x4CBC6C0", Offset = "0x4CBC6C0", VA = "0x4CBC6C0")]
 	public static Attribute GetAttribute(this ParameterInfo element, Type attributeType, bool inherit = true)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000544")]
-	[Address(RVA = "0x4997B80", Offset = "0x4997B80", VA = "0x4997B80")]
+	[Address(RVA = "0x4CBC750", Offset = "0x4CBC750", VA = "0x4CBC750")]
 	public static IEnumerable<Attribute> GetAttributes(this ParameterInfo element, Type attributeType, bool inherit = true)
 	{
 		return null;
@@ -351,27 +358,27 @@ public static class AttributeUtility
 	}
 
 	[Token(Token = "0x6000548")]
-	[Address(RVA = "0x4997C10", Offset = "0x4997C10", VA = "0x4997C10")]
+	[Address(RVA = "0x4CBC7E0", Offset = "0x4CBC7E0", VA = "0x4CBC7E0")]
 	public static void CacheAttributes(IAttributeProvider element)
 	{
 	}
 
 	[Token(Token = "0x6000549")]
-	[Address(RVA = "0x4997C70", Offset = "0x4997C70", VA = "0x4997C70")]
+	[Address(RVA = "0x4CBC840", Offset = "0x4CBC840", VA = "0x4CBC840")]
 	public static bool HasAttribute(this IAttributeProvider element, Type attributeType, bool inherit = true)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600054A")]
-	[Address(RVA = "0x4997D00", Offset = "0x4997D00", VA = "0x4997D00")]
+	[Address(RVA = "0x4CBC8D0", Offset = "0x4CBC8D0", VA = "0x4CBC8D0")]
 	public static Attribute GetAttribute(this IAttributeProvider element, Type attributeType, bool inherit = true)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600054B")]
-	[Address(RVA = "0x4997D90", Offset = "0x4997D90", VA = "0x4997D90")]
+	[Address(RVA = "0x4CBC960", Offset = "0x4CBC960", VA = "0x4CBC960")]
 	public static IEnumerable<Attribute> GetAttributes(this IAttributeProvider element, Type attributeType, bool inherit = true)
 	{
 		return null;
@@ -396,7 +403,7 @@ public static class AttributeUtility
 	}
 
 	[Token(Token = "0x600054F")]
-	[Address(RVA = "0x4997E20", Offset = "0x4997E20", VA = "0x4997E20")]
+	[Address(RVA = "0x4CBC9F0", Offset = "0x4CBC9F0", VA = "0x4CBC9F0")]
 	public static bool CheckCondition(Type type, object target, string conditionMemberName, bool fallback)
 	{
 		return default(bool);

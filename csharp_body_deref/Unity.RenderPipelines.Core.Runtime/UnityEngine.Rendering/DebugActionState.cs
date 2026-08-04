@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.DebugActionState
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -45,14 +52,14 @@ internal class DebugActionState
 	internal bool runningAction
 	{
 		[Token(Token = "0x6000734")]
-		[Address(RVA = "0x4880950", Offset = "0x4880950", VA = "0x4880950")]
+		[Address(RVA = "0x4BA5A40", Offset = "0x4BA5A40", VA = "0x4BA5A40")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000735")]
-		[Address(RVA = "0x4880960", Offset = "0x4880960", VA = "0x4880960")]
+		[Address(RVA = "0x4BA5A50", Offset = "0x4BA5A50", VA = "0x4BA5A50")]
 		[CompilerGenerated]
 		private set
 		{
@@ -63,14 +70,14 @@ internal class DebugActionState
 	internal float actionState
 	{
 		[Token(Token = "0x6000736")]
-		[Address(RVA = "0x4880970", Offset = "0x4880970", VA = "0x4880970")]
+		[Address(RVA = "0x4BA5A60", Offset = "0x4BA5A60", VA = "0x4BA5A60")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000737")]
-		[Address(RVA = "0x4880980", Offset = "0x4880980", VA = "0x4880980")]
+		[Address(RVA = "0x4BA5A70", Offset = "0x4BA5A70", VA = "0x4BA5A70")]
 		[CompilerGenerated]
 		private set
 		{
@@ -78,43 +85,43 @@ internal class DebugActionState
 	}
 
 	[Token(Token = "0x6000738")]
-	[Address(RVA = "0x4880990", Offset = "0x4880990", VA = "0x4880990")]
+	[Address(RVA = "0x4BA5A80", Offset = "0x4BA5A80", VA = "0x4BA5A80")]
 	private void Trigger(int triggerCount, float state)
 	{
 	}
 
 	[Token(Token = "0x6000739")]
-	[Address(RVA = "0x4880A40", Offset = "0x4880A40", VA = "0x4880A40")]
+	[Address(RVA = "0x4BA5B30", Offset = "0x4BA5B30", VA = "0x4BA5B30")]
 	public void TriggerWithButton(string[] buttons, float state)
 	{
 	}
 
 	[Token(Token = "0x600073A")]
-	[Address(RVA = "0x4880B50", Offset = "0x4880B50", VA = "0x4880B50")]
+	[Address(RVA = "0x4BA5C40", Offset = "0x4BA5C40", VA = "0x4BA5C40")]
 	public void TriggerWithAxis(string axis, float state)
 	{
 	}
 
 	[Token(Token = "0x600073B")]
-	[Address(RVA = "0x4880C20", Offset = "0x4880C20", VA = "0x4880C20")]
+	[Address(RVA = "0x4BA5D10", Offset = "0x4BA5D10", VA = "0x4BA5D10")]
 	public void TriggerWithKey(KeyCode[] keys, float state)
 	{
 	}
 
 	[Token(Token = "0x600073C")]
-	[Address(RVA = "0x4880D30", Offset = "0x4880D30", VA = "0x4880D30")]
+	[Address(RVA = "0x4BA5E20", Offset = "0x4BA5E20", VA = "0x4BA5E20")]
 	private void Reset()
 	{
 	}
 
 	[Token(Token = "0x600073D")]
-	[Address(RVA = "0x4880D50", Offset = "0x4880D50", VA = "0x4880D50")]
+	[Address(RVA = "0x4BA5E40", Offset = "0x4BA5E40", VA = "0x4BA5E40")]
 	public void Update(DebugActionDesc desc)
 	{
 	}
 
 	[Token(Token = "0x600073E")]
-	[Address(RVA = "0x4881000", Offset = "0x4881000", VA = "0x4881000")]
+	[Address(RVA = "0x4BA60F0", Offset = "0x4BA60F0", VA = "0x4BA60F0")]
 	public DebugActionState()
 	{
 	}

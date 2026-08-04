@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Environment
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -135,7 +142,7 @@ public static class Environment
 	public static string CurrentDirectory
 	{
 		[Token(Token = "0x6000F1A")]
-		[Address(RVA = "0x5020880", Offset = "0x5020880", VA = "0x5020880")]
+		[Address(RVA = "0x3D063A0", Offset = "0x3D063A0", VA = "0x3D063A0")]
 		get
 		{
 			return null;
@@ -146,7 +153,7 @@ public static class Environment
 	public static int CurrentManagedThreadId
 	{
 		[Token(Token = "0x6000F1B")]
-		[Address(RVA = "0x5020890", Offset = "0x5020890", VA = "0x5020890")]
+		[Address(RVA = "0x3D063B0", Offset = "0x3D063B0", VA = "0x3D063B0")]
 		get
 		{
 			return default(int);
@@ -158,7 +165,7 @@ public static class Environment
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000F1C")]
-		[Address(RVA = "0x50208B0", Offset = "0x50208B0", VA = "0x50208B0")]
+		[Address(RVA = "0x3D063D0", Offset = "0x3D063D0", VA = "0x3D063D0")]
 		get;
 	}
 
@@ -167,7 +174,7 @@ public static class Environment
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000F1D")]
-		[Address(RVA = "0x50208C0", Offset = "0x50208C0", VA = "0x50208C0")]
+		[Address(RVA = "0x3D063E0", Offset = "0x3D063E0", VA = "0x3D063E0")]
 		get;
 	}
 
@@ -175,7 +182,7 @@ public static class Environment
 	public static string NewLine
 	{
 		[Token(Token = "0x6000F1F")]
-		[Address(RVA = "0x50208E0", Offset = "0x50208E0", VA = "0x50208E0")]
+		[Address(RVA = "0x3D06400", Offset = "0x3D06400", VA = "0x3D06400")]
 		get
 		{
 			return null;
@@ -187,7 +194,7 @@ public static class Environment
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000F20")]
-		[Address(RVA = "0x5020950", Offset = "0x5020950", VA = "0x5020950")]
+		[Address(RVA = "0x3D06470", Offset = "0x3D06470", VA = "0x3D06470")]
 		[CompilerGenerated]
 		get;
 	}
@@ -196,7 +203,7 @@ public static class Environment
 	public static OperatingSystem OSVersion
 	{
 		[Token(Token = "0x6000F22")]
-		[Address(RVA = "0x5020970", Offset = "0x5020970", VA = "0x5020970")]
+		[Address(RVA = "0x3D06490", Offset = "0x3D06490", VA = "0x3D06490")]
 		get
 		{
 			return null;
@@ -207,7 +214,7 @@ public static class Environment
 	public static string StackTrace
 	{
 		[Token(Token = "0x6000F24")]
-		[Address(RVA = "0x5020C30", Offset = "0x5020C30", VA = "0x5020C30")]
+		[Address(RVA = "0x3D06750", Offset = "0x3D06750", VA = "0x3D06750")]
 		get
 		{
 			return null;
@@ -219,7 +226,7 @@ public static class Environment
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000F25")]
-		[Address(RVA = "0x5020CA0", Offset = "0x5020CA0", VA = "0x5020CA0")]
+		[Address(RVA = "0x3D067C0", Offset = "0x3D067C0", VA = "0x3D067C0")]
 		get;
 	}
 
@@ -227,7 +234,7 @@ public static class Environment
 	public static string UserDomainName
 	{
 		[Token(Token = "0x6000F26")]
-		[Address(RVA = "0x5020CB0", Offset = "0x5020CB0", VA = "0x5020CB0")]
+		[Address(RVA = "0x3D067D0", Offset = "0x3D067D0", VA = "0x3D067D0")]
 		get
 		{
 			return null;
@@ -239,7 +246,7 @@ public static class Environment
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000F27")]
-		[Address(RVA = "0x5020CC0", Offset = "0x5020CC0", VA = "0x5020CC0")]
+		[Address(RVA = "0x3D067E0", Offset = "0x3D067E0", VA = "0x3D067E0")]
 		get;
 	}
 
@@ -248,7 +255,7 @@ public static class Environment
 	{
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000F36")]
-		[Address(RVA = "0x50218A0", Offset = "0x50218A0", VA = "0x50218A0")]
+		[Address(RVA = "0x3D073C0", Offset = "0x3D073C0", VA = "0x3D073C0")]
 		get;
 	}
 
@@ -256,7 +263,7 @@ public static class Environment
 	internal static bool IsRunningOnWindows
 	{
 		[Token(Token = "0x6000F37")]
-		[Address(RVA = "0x5020F00", Offset = "0x5020F00", VA = "0x5020F00")]
+		[Address(RVA = "0x3D06A20", Offset = "0x3D06A20", VA = "0x3D06A20")]
 		get
 		{
 			return default(bool);
@@ -267,7 +274,7 @@ public static class Environment
 	internal static bool IsUnix
 	{
 		[Token(Token = "0x6000F3C")]
-		[Address(RVA = "0x50218D0", Offset = "0x50218D0", VA = "0x50218D0")]
+		[Address(RVA = "0x3D073F0", Offset = "0x3D073F0", VA = "0x3D073F0")]
 		get
 		{
 			return default(bool);
@@ -275,21 +282,21 @@ public static class Environment
 	}
 
 	[Token(Token = "0x6000F17")]
-	[Address(RVA = "0x501CDC0", Offset = "0x501CDC0", VA = "0x501CDC0")]
+	[Address(RVA = "0x3D028E0", Offset = "0x3D028E0", VA = "0x3D028E0")]
 	internal static string GetResourceString(string key)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F18")]
-	[Address(RVA = "0x501ECA0", Offset = "0x501ECA0", VA = "0x501ECA0")]
+	[Address(RVA = "0x3D047C0", Offset = "0x3D047C0", VA = "0x3D047C0")]
 	internal static string GetResourceString(string key, params object[] values)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F19")]
-	[Address(RVA = "0x5020700", Offset = "0x5020700", VA = "0x5020700")]
+	[Address(RVA = "0x3D06220", Offset = "0x3D06220", VA = "0x3D06220")]
 	internal static string GetResourceStringEncodingName(int codePage)
 	{
 		return null;
@@ -297,16 +304,16 @@ public static class Environment
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000F1E")]
-	[Address(RVA = "0x50208D0", Offset = "0x50208D0", VA = "0x50208D0")]
+	[Address(RVA = "0x3D063F0", Offset = "0x3D063F0", VA = "0x3D063F0")]
 	private static extern string GetNewLine();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000F21")]
-	[Address(RVA = "0x5020960", Offset = "0x5020960", VA = "0x5020960")]
+	[Address(RVA = "0x3D06480", Offset = "0x3D06480", VA = "0x3D06480")]
 	internal static extern string GetOSVersionString();
 
 	[Token(Token = "0x6000F23")]
-	[Address(RVA = "0x5020A30", Offset = "0x5020A30", VA = "0x5020A30")]
+	[Address(RVA = "0x3D06550", Offset = "0x3D06550", VA = "0x3D06550")]
 	internal static Version CreateVersionFromString(string info)
 	{
 		return null;
@@ -314,42 +321,42 @@ public static class Environment
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000F28")]
-	[Address(RVA = "0x5020CD0", Offset = "0x5020CD0", VA = "0x5020CD0")]
+	[Address(RVA = "0x3D067F0", Offset = "0x3D067F0", VA = "0x3D067F0")]
 	public static extern void Exit(int exitCode);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000F29")]
-	[Address(RVA = "0x5020CE0", Offset = "0x5020CE0", VA = "0x5020CE0")]
+	[Address(RVA = "0x3D06800", Offset = "0x3D06800", VA = "0x3D06800")]
 	public static extern string[] GetCommandLineArgs();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000F2A")]
-	[Address(RVA = "0x5020CF0", Offset = "0x5020CF0", VA = "0x5020CF0")]
+	[Address(RVA = "0x3D06810", Offset = "0x3D06810", VA = "0x3D06810")]
 	internal static extern string internalGetEnvironmentVariable_native(IntPtr variable);
 
 	[Token(Token = "0x6000F2B")]
-	[Address(RVA = "0x5020D00", Offset = "0x5020D00", VA = "0x5020D00")]
+	[Address(RVA = "0x3D06820", Offset = "0x3D06820", VA = "0x3D06820")]
 	internal static string internalGetEnvironmentVariable(string variable)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F2C")]
-	[Address(RVA = "0x5020DC0", Offset = "0x5020DC0", VA = "0x5020DC0")]
+	[Address(RVA = "0x3D068E0", Offset = "0x3D068E0", VA = "0x3D068E0")]
 	public static string GetEnvironmentVariable(string variable)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F2D")]
-	[Address(RVA = "0x5020DD0", Offset = "0x5020DD0", VA = "0x5020DD0")]
+	[Address(RVA = "0x3D068F0", Offset = "0x3D068F0", VA = "0x3D068F0")]
 	public static IDictionary GetEnvironmentVariables()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F2E")]
-	[Address(RVA = "0x5020EB0", Offset = "0x5020EB0", VA = "0x5020EB0")]
+	[Address(RVA = "0x3D069D0", Offset = "0x3D069D0", VA = "0x3D069D0")]
 	public static string GetFolderPath(SpecialFolder folder)
 	{
 		return null;
@@ -357,69 +364,69 @@ public static class Environment
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000F2F")]
-	[Address(RVA = "0x5020EF0", Offset = "0x5020EF0", VA = "0x5020EF0")]
+	[Address(RVA = "0x3D06A10", Offset = "0x3D06A10", VA = "0x3D06A10")]
 	private static extern string GetWindowsFolderPath(int folder);
 
 	[Token(Token = "0x6000F30")]
-	[Address(RVA = "0x5020ED0", Offset = "0x5020ED0", VA = "0x5020ED0")]
+	[Address(RVA = "0x3D069F0", Offset = "0x3D069F0", VA = "0x3D069F0")]
 	public static string GetFolderPath(SpecialFolder folder, SpecialFolderOption option)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F31")]
-	[Address(RVA = "0x50213C0", Offset = "0x50213C0", VA = "0x50213C0")]
+	[Address(RVA = "0x3D06EE0", Offset = "0x3D06EE0", VA = "0x3D06EE0")]
 	private static string ReadXdgUserDir(string config_dir, string home_dir, string key, string fallback)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F32")]
-	[Address(RVA = "0x5020F10", Offset = "0x5020F10", VA = "0x5020F10")]
+	[Address(RVA = "0x3D06A30", Offset = "0x3D06A30", VA = "0x3D06A30")]
 	internal static string UnixGetFolderPath(SpecialFolder folder, SpecialFolderOption option)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F33")]
-	[Address(RVA = "0x5021870", Offset = "0x5021870", VA = "0x5021870")]
+	[Address(RVA = "0x3D07390", Offset = "0x3D07390", VA = "0x3D07390")]
 	public static void FailFast(string message)
 	{
 	}
 
 	[Token(Token = "0x6000F34")]
-	[Address(RVA = "0x5021890", Offset = "0x5021890", VA = "0x5021890")]
+	[Address(RVA = "0x3D073B0", Offset = "0x3D073B0", VA = "0x3D073B0")]
 	public static void FailFast(string message, Exception exception)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000F35")]
-	[Address(RVA = "0x5021880", Offset = "0x5021880", VA = "0x5021880")]
+	[Address(RVA = "0x3D073A0", Offset = "0x3D073A0", VA = "0x3D073A0")]
 	internal static extern void FailFast(string message, Exception exception, string errorSource);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000F38")]
-	[Address(RVA = "0x5020EA0", Offset = "0x5020EA0", VA = "0x5020EA0")]
+	[Address(RVA = "0x3D069C0", Offset = "0x3D069C0", VA = "0x3D069C0")]
 	private static extern string[] GetEnvironmentVariableNames();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000F39")]
-	[Address(RVA = "0x50218B0", Offset = "0x50218B0", VA = "0x50218B0")]
+	[Address(RVA = "0x3D073D0", Offset = "0x3D073D0", VA = "0x3D073D0")]
 	internal static extern string GetMachineConfigPath();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000F3A")]
-	[Address(RVA = "0x5021860", Offset = "0x5021860", VA = "0x5021860")]
+	[Address(RVA = "0x3D07380", Offset = "0x3D07380", VA = "0x3D07380")]
 	internal static extern string internalGetHome();
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000F3B")]
-	[Address(RVA = "0x50218C0", Offset = "0x50218C0", VA = "0x50218C0")]
+	[Address(RVA = "0x3D073E0", Offset = "0x3D073E0", VA = "0x3D073E0")]
 	internal static extern int GetPageSize();
 
 	[Token(Token = "0x6000F3D")]
-	[Address(RVA = "0x5021900", Offset = "0x5021900", VA = "0x5021900")]
+	[Address(RVA = "0x3D07420", Offset = "0x3D07420", VA = "0x3D07420")]
 	internal static string GetStackTrace(Exception e, bool needFileInfo)
 	{
 		return null;

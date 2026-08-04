@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.VisualTreeHierarchyFlagsUpdater
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using Unity.Profiling;
 
@@ -26,7 +33,7 @@ internal class VisualTreeHierarchyFlagsUpdater : BaseVisualTreeUpdater
 	public override ProfilerMarker profilerMarker
 	{
 		[Token(Token = "0x6001BDA")]
-		[Address(RVA = "0x4C52030", Offset = "0x4C52030", VA = "0x4C52030", Slot = "10")]
+		[Address(RVA = "0x4F79960", Offset = "0x4F79960", VA = "0x4F79960", Slot = "10")]
 		get
 		{
 			return default(ProfilerMarker);
@@ -34,31 +41,31 @@ internal class VisualTreeHierarchyFlagsUpdater : BaseVisualTreeUpdater
 	}
 
 	[Token(Token = "0x6001BDB")]
-	[Address(RVA = "0x4C520A0", Offset = "0x4C520A0", VA = "0x4C520A0", Slot = "13")]
+	[Address(RVA = "0x4F799D0", Offset = "0x4F799D0", VA = "0x4F799D0", Slot = "13")]
 	public override void OnVersionChanged(VisualElement ve, VersionChangeType versionChangeType)
 	{
 	}
 
 	[Token(Token = "0x6001BDC")]
-	[Address(RVA = "0x4C52160", Offset = "0x4C52160", VA = "0x4C52160")]
+	[Address(RVA = "0x4F79A90", Offset = "0x4F79A90", VA = "0x4F79A90")]
 	private static void DirtyHierarchy(VisualElement ve, VisualElementFlags mustDirtyFlags)
 	{
 	}
 
 	[Token(Token = "0x6001BDD")]
-	[Address(RVA = "0x4C52240", Offset = "0x4C52240", VA = "0x4C52240")]
+	[Address(RVA = "0x4F79B70", Offset = "0x4F79B70", VA = "0x4F79B70")]
 	private static void DirtyBoundingBoxHierarchy(VisualElement ve)
 	{
 	}
 
 	[Token(Token = "0x6001BDE")]
-	[Address(RVA = "0x4C52300", Offset = "0x4C52300", VA = "0x4C52300", Slot = "12")]
+	[Address(RVA = "0x4F79C30", Offset = "0x4F79C30", VA = "0x4F79C30", Slot = "12")]
 	public override void Update()
 	{
 	}
 
 	[Token(Token = "0x6001BDF")]
-	[Address(RVA = "0x4C52350", Offset = "0x4C52350", VA = "0x4C52350")]
+	[Address(RVA = "0x4F79C80", Offset = "0x4F79C80", VA = "0x4F79C80")]
 	public VisualTreeHierarchyFlagsUpdater()
 	{
 	}

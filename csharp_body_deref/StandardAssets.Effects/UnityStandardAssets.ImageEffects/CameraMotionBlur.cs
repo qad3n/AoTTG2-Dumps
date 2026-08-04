@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityStandardAssets.ImageEffects.CameraMotionBlur
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/UnityStandardAssets/ImageEffects/CameraMotionBlur.c
+// Prior real C# source (older reference): Assets/ThirdParty/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -153,70 +160,70 @@ public class CameraMotionBlur : PostEffectsBase
 	private Camera _camera;
 
 	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x41555D0", Offset = "0x41555D0", VA = "0x41555D0")]
+	[Address(RVA = "0x447A6D0", Offset = "0x447A6D0", VA = "0x447A6D0")]
 	private void CalculateViewProjection()
 	{
 	}
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x4155DF0", Offset = "0x4155DF0", VA = "0x4155DF0")]
+	[Address(RVA = "0x447AEF0", Offset = "0x447AEF0", VA = "0x447AEF0")]
 	private new void Start()
 	{
 	}
 
 	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x4156170", Offset = "0x4156170", VA = "0x4156170")]
+	[Address(RVA = "0x447B270", Offset = "0x447B270", VA = "0x447B270")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x4156230", Offset = "0x4156230", VA = "0x4156230")]
+	[Address(RVA = "0x447B330", Offset = "0x447B330", VA = "0x447B330")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x4156390", Offset = "0x4156390", VA = "0x4156390", Slot = "4")]
+	[Address(RVA = "0x447B490", Offset = "0x447B490", VA = "0x447B490", Slot = "4")]
 	public override bool CheckResources()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x4156490", Offset = "0x4156490", VA = "0x4156490")]
+	[Address(RVA = "0x447B590", Offset = "0x447B590", VA = "0x447B590")]
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 	}
 
 	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x4155F30", Offset = "0x4155F30", VA = "0x4155F30")]
+	[Address(RVA = "0x447B030", Offset = "0x447B030", VA = "0x447B030")]
 	private void Remember()
 	{
 	}
 
 	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x4159010", Offset = "0x4159010", VA = "0x4159010")]
+	[Address(RVA = "0x447E110", Offset = "0x447E110", VA = "0x447E110")]
 	private Camera GetTmpCam()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x4158F80", Offset = "0x4158F80", VA = "0x4158F80")]
+	[Address(RVA = "0x447E080", Offset = "0x447E080", VA = "0x447E080")]
 	private void StartFrame()
 	{
 	}
 
 	[Token(Token = "0x600002E")]
-	[Address(RVA = "0x4159000", Offset = "0x4159000", VA = "0x4159000")]
+	[Address(RVA = "0x447E100", Offset = "0x447E100", VA = "0x447E100")]
 	private static int divRoundUp(int x, int d)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600002F")]
-	[Address(RVA = "0x41593D0", Offset = "0x41593D0", VA = "0x41593D0")]
+	[Address(RVA = "0x447E4D0", Offset = "0x447E4D0", VA = "0x447E4D0")]
 	public CameraMotionBlur()
 	{
 	}

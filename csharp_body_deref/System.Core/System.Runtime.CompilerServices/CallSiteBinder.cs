@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.CompilerServices.CallSiteBinder
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq.Expressions;
@@ -47,7 +54,7 @@ public abstract class CallSiteBinder
 	public static LabelTarget UpdateLabel
 	{
 		[Token(Token = "0x6000B5D")]
-		[Address(RVA = "0x41E2F40", Offset = "0x41E2F40", VA = "0x41E2F40")]
+		[Address(RVA = "0x4508040", Offset = "0x4508040", VA = "0x4508040")]
 		[CompilerGenerated]
 		get
 		{
@@ -56,7 +63,7 @@ public abstract class CallSiteBinder
 	}
 
 	[Token(Token = "0x6000B5C")]
-	[Address(RVA = "0x41E2F30", Offset = "0x41E2F30", VA = "0x41E2F30")]
+	[Address(RVA = "0x4508030", Offset = "0x4508030", VA = "0x4508030")]
 	protected CallSiteBinder()
 	{
 	}

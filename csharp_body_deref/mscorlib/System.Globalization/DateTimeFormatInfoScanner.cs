@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Globalization.DateTimeFormatInfoScanner
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -37,7 +44,7 @@ internal class DateTimeFormatInfoScanner
 	private static Dictionary<string, string> KnownWords
 	{
 		[Token(Token = "0x6002C0A")]
-		[Address(RVA = "0x4F63310", Offset = "0x4F63310", VA = "0x4F63310")]
+		[Address(RVA = "0x3C48E30", Offset = "0x3C48E30", VA = "0x3C48E30")]
 		get
 		{
 			return null;
@@ -45,102 +52,102 @@ internal class DateTimeFormatInfoScanner
 	}
 
 	[Token(Token = "0x6002C0B")]
-	[Address(RVA = "0x4F63740", Offset = "0x4F63740", VA = "0x4F63740")]
+	[Address(RVA = "0x3C49260", Offset = "0x3C49260", VA = "0x3C49260")]
 	internal static int SkipWhiteSpacesAndNonLetter(string pattern, int currentIndex)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002C0C")]
-	[Address(RVA = "0x4F63810", Offset = "0x4F63810", VA = "0x4F63810")]
+	[Address(RVA = "0x3C49330", Offset = "0x3C49330", VA = "0x3C49330")]
 	internal void AddDateWordOrPostfix(string formatPostfix, string str)
 	{
 	}
 
 	[Token(Token = "0x6002C0D")]
-	[Address(RVA = "0x4F63C20", Offset = "0x4F63C20", VA = "0x4F63C20")]
+	[Address(RVA = "0x3C49740", Offset = "0x3C49740", VA = "0x3C49740")]
 	internal int AddDateWords(string pattern, int index, string formatPostfix)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002C0E")]
-	[Address(RVA = "0x4F63E50", Offset = "0x4F63E50", VA = "0x4F63E50")]
+	[Address(RVA = "0x3C49970", Offset = "0x3C49970", VA = "0x3C49970")]
 	internal static int ScanRepeatChar(string pattern, char ch, int index, out int count)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002C0F")]
-	[Address(RVA = "0x4F63AE0", Offset = "0x4F63AE0", VA = "0x4F63AE0")]
+	[Address(RVA = "0x3C49600", Offset = "0x3C49600", VA = "0x3C49600")]
 	internal void AddIgnorableSymbols(string text)
 	{
 	}
 
 	[Token(Token = "0x6002C10")]
-	[Address(RVA = "0x4F63EB0", Offset = "0x4F63EB0", VA = "0x4F63EB0")]
+	[Address(RVA = "0x3C499D0", Offset = "0x3C499D0", VA = "0x3C499D0")]
 	internal void ScanDateWord(string pattern)
 	{
 	}
 
 	[Token(Token = "0x6002C11")]
-	[Address(RVA = "0x4F61D80", Offset = "0x4F61D80", VA = "0x4F61D80")]
+	[Address(RVA = "0x3C478A0", Offset = "0x3C478A0", VA = "0x3C478A0")]
 	internal string[] GetDateWordsOfDTFI(DateTimeFormatInfo dtfi)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002C12")]
-	[Address(RVA = "0x4F5EBD0", Offset = "0x4F5EBD0", VA = "0x4F5EBD0")]
+	[Address(RVA = "0x3C446F0", Offset = "0x3C446F0", VA = "0x3C446F0")]
 	internal static System.Globalization.FORMATFLAGS GetFormatFlagGenitiveMonth(string[] monthNames, string[] genitveMonthNames, string[] abbrevMonthNames, string[] genetiveAbbrevMonthNames)
 	{
 		return default(System.Globalization.FORMATFLAGS);
 	}
 
 	[Token(Token = "0x6002C13")]
-	[Address(RVA = "0x4F5EC10", Offset = "0x4F5EC10", VA = "0x4F5EC10")]
+	[Address(RVA = "0x3C44730", Offset = "0x3C44730", VA = "0x3C44730")]
 	internal static System.Globalization.FORMATFLAGS GetFormatFlagUseSpaceInMonthNames(string[] monthNames, string[] genitveMonthNames, string[] abbrevMonthNames, string[] genetiveAbbrevMonthNames)
 	{
 		return default(System.Globalization.FORMATFLAGS);
 	}
 
 	[Token(Token = "0x6002C14")]
-	[Address(RVA = "0x4F5ECC0", Offset = "0x4F5ECC0", VA = "0x4F5ECC0")]
+	[Address(RVA = "0x3C447E0", Offset = "0x3C447E0", VA = "0x3C447E0")]
 	internal static System.Globalization.FORMATFLAGS GetFormatFlagUseSpaceInDayNames(string[] dayNames, string[] abbrevDayNames)
 	{
 		return default(System.Globalization.FORMATFLAGS);
 	}
 
 	[Token(Token = "0x6002C15")]
-	[Address(RVA = "0x4F5ECF0", Offset = "0x4F5ECF0", VA = "0x4F5ECF0")]
+	[Address(RVA = "0x3C44810", Offset = "0x3C44810", VA = "0x3C44810")]
 	internal static System.Globalization.FORMATFLAGS GetFormatFlagUseHebrewCalendar(int calID)
 	{
 		return default(System.Globalization.FORMATFLAGS);
 	}
 
 	[Token(Token = "0x6002C16")]
-	[Address(RVA = "0x4F64170", Offset = "0x4F64170", VA = "0x4F64170")]
+	[Address(RVA = "0x3C49C90", Offset = "0x3C49C90", VA = "0x3C49C90")]
 	private static bool EqualStringArrays(string[] array1, string[] array2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002C17")]
-	[Address(RVA = "0x4F64420", Offset = "0x4F64420", VA = "0x4F64420")]
+	[Address(RVA = "0x3C49F40", Offset = "0x3C49F40", VA = "0x3C49F40")]
 	private static bool ArrayElementsHaveSpace(string[] array)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002C18")]
-	[Address(RVA = "0x4F641F0", Offset = "0x4F641F0", VA = "0x4F641F0")]
+	[Address(RVA = "0x3C49D10", Offset = "0x3C49D10", VA = "0x3C49D10")]
 	private static bool ArrayElementsBeginWithDigit(string[] array)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002C19")]
-	[Address(RVA = "0x4F61D00", Offset = "0x4F61D00", VA = "0x4F61D00")]
+	[Address(RVA = "0x3C47820", Offset = "0x3C47820", VA = "0x3C47820")]
 	public DateTimeFormatInfoScanner()
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.StyleSheet
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -115,13 +122,13 @@ public class StyleSheet : ScriptableObject
 	public bool importedWithErrors
 	{
 		[Token(Token = "0x6001851")]
-		[Address(RVA = "0x4D90B00", Offset = "0x4D90B00", VA = "0x4D90B00")]
+		[Address(RVA = "0x50B8430", Offset = "0x50B8430", VA = "0x50B8430")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001852")]
-		[Address(RVA = "0x4D90B10", Offset = "0x4D90B10", VA = "0x4D90B10")]
+		[Address(RVA = "0x50B8440", Offset = "0x50B8440", VA = "0x50B8440")]
 		internal set
 		{
 		}
@@ -131,13 +138,13 @@ public class StyleSheet : ScriptableObject
 	public bool importedWithWarnings
 	{
 		[Token(Token = "0x6001853")]
-		[Address(RVA = "0x4D90B20", Offset = "0x4D90B20", VA = "0x4D90B20")]
+		[Address(RVA = "0x50B8450", Offset = "0x50B8450", VA = "0x50B8450")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001854")]
-		[Address(RVA = "0x4D90B30", Offset = "0x4D90B30", VA = "0x4D90B30")]
+		[Address(RVA = "0x50B8460", Offset = "0x50B8460", VA = "0x50B8460")]
 		internal set
 		{
 		}
@@ -147,13 +154,13 @@ public class StyleSheet : ScriptableObject
 	internal StyleRule[] rules
 	{
 		[Token(Token = "0x6001855")]
-		[Address(RVA = "0x4D90B40", Offset = "0x4D90B40", VA = "0x4D90B40")]
+		[Address(RVA = "0x50B8470", Offset = "0x50B8470", VA = "0x50B8470")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001856")]
-		[Address(RVA = "0x4D90B50", Offset = "0x4D90B50", VA = "0x4D90B50")]
+		[Address(RVA = "0x50B8480", Offset = "0x50B8480", VA = "0x50B8480")]
 		set
 		{
 		}
@@ -163,13 +170,13 @@ public class StyleSheet : ScriptableObject
 	internal StyleComplexSelector[] complexSelectors
 	{
 		[Token(Token = "0x6001857")]
-		[Address(RVA = "0x4D91260", Offset = "0x4D91260", VA = "0x4D91260")]
+		[Address(RVA = "0x50B8B90", Offset = "0x50B8B90", VA = "0x50B8B90")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001858")]
-		[Address(RVA = "0x4D91270", Offset = "0x4D91270", VA = "0x4D91270")]
+		[Address(RVA = "0x50B8BA0", Offset = "0x50B8BA0", VA = "0x50B8BA0")]
 		set
 		{
 		}
@@ -179,7 +186,7 @@ public class StyleSheet : ScriptableObject
 	internal List<StyleSheet> flattenedRecursiveImports
 	{
 		[Token(Token = "0x6001859")]
-		[Address(RVA = "0x4D91290", Offset = "0x4D91290", VA = "0x4D91290")]
+		[Address(RVA = "0x50B8BC0", Offset = "0x50B8BC0", VA = "0x50B8BC0")]
 		get
 		{
 			return null;
@@ -190,13 +197,13 @@ public class StyleSheet : ScriptableObject
 	public int contentHash
 	{
 		[Token(Token = "0x600185A")]
-		[Address(RVA = "0x4D912A0", Offset = "0x4D912A0", VA = "0x4D912A0")]
+		[Address(RVA = "0x50B8BD0", Offset = "0x50B8BD0", VA = "0x50B8BD0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600185B")]
-		[Address(RVA = "0x4D912B0", Offset = "0x4D912B0", VA = "0x4D912B0")]
+		[Address(RVA = "0x50B8BE0", Offset = "0x50B8BE0", VA = "0x50B8BE0")]
 		set
 		{
 		}
@@ -206,13 +213,13 @@ public class StyleSheet : ScriptableObject
 	internal bool isDefaultStyleSheet
 	{
 		[Token(Token = "0x600185C")]
-		[Address(RVA = "0x4D912C0", Offset = "0x4D912C0", VA = "0x4D912C0")]
+		[Address(RVA = "0x50B8BF0", Offset = "0x50B8BF0", VA = "0x50B8BF0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600185D")]
-		[Address(RVA = "0x4D912D0", Offset = "0x4D912D0", VA = "0x4D912D0")]
+		[Address(RVA = "0x50B8C00", Offset = "0x50B8C00", VA = "0x50B8C00")]
 		set
 		{
 		}
@@ -231,185 +238,185 @@ public class StyleSheet : ScriptableObject
 	}
 
 	[Token(Token = "0x6001860")]
-	[Address(RVA = "0x4D91430", Offset = "0x4D91430", VA = "0x4D91430", Slot = "4")]
+	[Address(RVA = "0x50B8D60", Offset = "0x50B8D60", VA = "0x50B8D60", Slot = "4")]
 	internal virtual void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6001861")]
-	[Address(RVA = "0x4D91440", Offset = "0x4D91440", VA = "0x4D91440")]
+	[Address(RVA = "0x50B8D70", Offset = "0x50B8D70", VA = "0x50B8D70")]
 	internal void FlattenImportedStyleSheetsRecursive()
 	{
 	}
 
 	[Token(Token = "0x6001862")]
-	[Address(RVA = "0x4D914C0", Offset = "0x4D914C0", VA = "0x4D914C0")]
+	[Address(RVA = "0x50B8DF0", Offset = "0x50B8DF0", VA = "0x50B8DF0")]
 	private void FlattenImportedStyleSheetsRecursive(StyleSheet sheet)
 	{
 	}
 
 	[Token(Token = "0x6001863")]
-	[Address(RVA = "0x4D90B70", Offset = "0x4D90B70", VA = "0x4D90B70")]
+	[Address(RVA = "0x50B84A0", Offset = "0x50B84A0", VA = "0x50B84A0")]
 	private void SetupReferences()
 	{
 	}
 
 	[Token(Token = "0x6001864")]
-	[Address(RVA = "0x4D916C0", Offset = "0x4D916C0", VA = "0x4D916C0")]
+	[Address(RVA = "0x50B8FF0", Offset = "0x50B8FF0", VA = "0x50B8FF0")]
 	internal StyleValueKeyword ReadKeyword(StyleValueHandle handle)
 	{
 		return default(StyleValueKeyword);
 	}
 
 	[Token(Token = "0x6001865")]
-	[Address(RVA = "0x4D916D0", Offset = "0x4D916D0", VA = "0x4D916D0")]
+	[Address(RVA = "0x50B9000", Offset = "0x50B9000", VA = "0x50B9000")]
 	internal float ReadFloat(StyleValueHandle handle)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6001866")]
-	[Address(RVA = "0x4D7C1C0", Offset = "0x4D7C1C0", VA = "0x4D7C1C0")]
+	[Address(RVA = "0x50A3AF0", Offset = "0x50A3AF0", VA = "0x50A3AF0")]
 	internal bool TryReadFloat(StyleValueHandle handle, out float value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001867")]
-	[Address(RVA = "0x4D917B0", Offset = "0x4D917B0", VA = "0x4D917B0")]
+	[Address(RVA = "0x50B90E0", Offset = "0x50B90E0", VA = "0x50B90E0")]
 	internal Dimension ReadDimension(StyleValueHandle handle)
 	{
 		return default(Dimension);
 	}
 
 	[Token(Token = "0x6001868")]
-	[Address(RVA = "0x4D918B0", Offset = "0x4D918B0", VA = "0x4D918B0")]
+	[Address(RVA = "0x50B91E0", Offset = "0x50B91E0", VA = "0x50B91E0")]
 	internal bool TryReadDimension(StyleValueHandle handle, out Dimension value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001869")]
-	[Address(RVA = "0x4D919C0", Offset = "0x4D919C0", VA = "0x4D919C0")]
+	[Address(RVA = "0x50B92F0", Offset = "0x50B92F0", VA = "0x50B92F0")]
 	internal Color ReadColor(StyleValueHandle handle)
 	{
 		return default(Color);
 	}
 
 	[Token(Token = "0x600186A")]
-	[Address(RVA = "0x4D7C570", Offset = "0x4D7C570", VA = "0x4D7C570")]
+	[Address(RVA = "0x50A3EA0", Offset = "0x50A3EA0", VA = "0x50A3EA0")]
 	internal bool TryReadColor(StyleValueHandle handle, out Color value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600186B")]
-	[Address(RVA = "0x4D91A30", Offset = "0x4D91A30", VA = "0x4D91A30")]
+	[Address(RVA = "0x50B9360", Offset = "0x50B9360", VA = "0x50B9360")]
 	internal string ReadString(StyleValueHandle handle)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600186C")]
-	[Address(RVA = "0x4D91AA0", Offset = "0x4D91AA0", VA = "0x4D91AA0")]
+	[Address(RVA = "0x50B93D0", Offset = "0x50B93D0", VA = "0x50B93D0")]
 	internal bool TryReadString(StyleValueHandle handle, out string value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600186D")]
-	[Address(RVA = "0x4D91B20", Offset = "0x4D91B20", VA = "0x4D91B20")]
+	[Address(RVA = "0x50B9450", Offset = "0x50B9450", VA = "0x50B9450")]
 	internal string ReadEnum(StyleValueHandle handle)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600186E")]
-	[Address(RVA = "0x4D91B90", Offset = "0x4D91B90", VA = "0x4D91B90")]
+	[Address(RVA = "0x50B94C0", Offset = "0x50B94C0", VA = "0x50B94C0")]
 	internal bool TryReadEnum(StyleValueHandle handle, out string value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600186F")]
-	[Address(RVA = "0x4D91C10", Offset = "0x4D91C10", VA = "0x4D91C10")]
+	[Address(RVA = "0x50B9540", Offset = "0x50B9540", VA = "0x50B9540")]
 	internal string ReadVariable(StyleValueHandle handle)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001870")]
-	[Address(RVA = "0x4D91C80", Offset = "0x4D91C80", VA = "0x4D91C80")]
+	[Address(RVA = "0x50B95B0", Offset = "0x50B95B0", VA = "0x50B95B0")]
 	internal bool TryReadVariable(StyleValueHandle handle, out string value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001871")]
-	[Address(RVA = "0x4D91D00", Offset = "0x4D91D00", VA = "0x4D91D00")]
+	[Address(RVA = "0x50B9630", Offset = "0x50B9630", VA = "0x50B9630")]
 	internal string ReadResourcePath(StyleValueHandle handle)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001872")]
-	[Address(RVA = "0x4D91D70", Offset = "0x4D91D70", VA = "0x4D91D70")]
+	[Address(RVA = "0x50B96A0", Offset = "0x50B96A0", VA = "0x50B96A0")]
 	internal bool TryReadResourcePath(StyleValueHandle handle, out string value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001873")]
-	[Address(RVA = "0x4D91DF0", Offset = "0x4D91DF0", VA = "0x4D91DF0")]
+	[Address(RVA = "0x50B9720", Offset = "0x50B9720", VA = "0x50B9720")]
 	internal Object ReadAssetReference(StyleValueHandle handle)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001874")]
-	[Address(RVA = "0x4D91E60", Offset = "0x4D91E60", VA = "0x4D91E60")]
+	[Address(RVA = "0x50B9790", Offset = "0x50B9790", VA = "0x50B9790")]
 	internal string ReadMissingAssetReferenceUrl(StyleValueHandle handle)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001875")]
-	[Address(RVA = "0x4D91ED0", Offset = "0x4D91ED0", VA = "0x4D91ED0")]
+	[Address(RVA = "0x50B9800", Offset = "0x50B9800", VA = "0x50B9800")]
 	internal bool TryReadAssetReference(StyleValueHandle handle, out Object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001876")]
-	[Address(RVA = "0x4D91F50", Offset = "0x4D91F50", VA = "0x4D91F50")]
+	[Address(RVA = "0x50B9880", Offset = "0x50B9880", VA = "0x50B9880")]
 	internal StyleValueFunction ReadFunction(StyleValueHandle handle)
 	{
 		return default(StyleValueFunction);
 	}
 
 	[Token(Token = "0x6001877")]
-	[Address(RVA = "0x4D91F60", Offset = "0x4D91F60", VA = "0x4D91F60")]
+	[Address(RVA = "0x50B9890", Offset = "0x50B9890", VA = "0x50B9890")]
 	internal string ReadFunctionName(StyleValueHandle handle)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001878")]
-	[Address(RVA = "0x4D92200", Offset = "0x4D92200", VA = "0x4D92200")]
+	[Address(RVA = "0x50B9B30", Offset = "0x50B9B30", VA = "0x50B9B30")]
 	internal ScalableImage ReadScalableImage(StyleValueHandle handle)
 	{
 		return default(ScalableImage);
 	}
 
 	[Token(Token = "0x6001879")]
-	[Address(RVA = "0x4D91620", Offset = "0x4D91620", VA = "0x4D91620")]
+	[Address(RVA = "0x50B8F50", Offset = "0x50B8F50", VA = "0x50B8F50")]
 	private static bool CustomStartsWith(string originalString, string pattern)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600187A")]
-	[Address(RVA = "0x4D92270", Offset = "0x4D92270", VA = "0x4D92270")]
+	[Address(RVA = "0x50B9BA0", Offset = "0x50B9BA0", VA = "0x50B9BA0")]
 	public StyleSheet()
 	{
 	}

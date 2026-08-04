@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.BatchRendererGroupGlobals
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -35,7 +42,7 @@ public struct BatchRendererGroupGlobals : IEquatable<BatchRendererGroupGlobals>
 	public static BatchRendererGroupGlobals Default
 	{
 		[Token(Token = "0x6000BAF")]
-		[Address(RVA = "0x48CA560", Offset = "0x48CA560", VA = "0x48CA560")]
+		[Address(RVA = "0x4BEF5D0", Offset = "0x4BEF5D0", VA = "0x4BEF5D0")]
 		get
 		{
 			return default(BatchRendererGroupGlobals);
@@ -43,35 +50,35 @@ public struct BatchRendererGroupGlobals : IEquatable<BatchRendererGroupGlobals>
 	}
 
 	[Token(Token = "0x6000BB0")]
-	[Address(RVA = "0x48CA7B0", Offset = "0x48CA7B0", VA = "0x48CA7B0", Slot = "4")]
+	[Address(RVA = "0x4BEF820", Offset = "0x4BEF820", VA = "0x4BEF820", Slot = "4")]
 	public bool Equals(BatchRendererGroupGlobals other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000BB1")]
-	[Address(RVA = "0x48CAA10", Offset = "0x48CAA10", VA = "0x48CAA10", Slot = "0")]
+	[Address(RVA = "0x4BEFA80", Offset = "0x4BEFA80", VA = "0x4BEFA80", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000BB2")]
-	[Address(RVA = "0x48CAD80", Offset = "0x48CAD80", VA = "0x48CAD80", Slot = "2")]
+	[Address(RVA = "0x4BEFDF0", Offset = "0x4BEFDF0", VA = "0x4BEFDF0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000BB3")]
-	[Address(RVA = "0x48CAF40", Offset = "0x48CAF40", VA = "0x48CAF40")]
+	[Address(RVA = "0x4BEFFB0", Offset = "0x4BEFFB0", VA = "0x4BEFFB0")]
 	public static bool operator ==(BatchRendererGroupGlobals left, BatchRendererGroupGlobals right)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000BB4")]
-	[Address(RVA = "0x48CB2A0", Offset = "0x48CB2A0", VA = "0x48CB2A0")]
+	[Address(RVA = "0x4BF0310", Offset = "0x4BF0310", VA = "0x4BF0310")]
 	public static bool operator !=(BatchRendererGroupGlobals left, BatchRendererGroupGlobals right)
 	{
 		return default(bool);

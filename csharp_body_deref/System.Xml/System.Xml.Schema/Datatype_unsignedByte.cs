@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.Datatype_unsignedByte
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -21,7 +28,7 @@ internal class Datatype_unsignedByte : Datatype_unsignedShort
 	internal override FacetsChecker FacetsChecker
 	{
 		[Token(Token = "0x60011B2")]
-		[Address(RVA = "0x45270D0", Offset = "0x45270D0", VA = "0x45270D0", Slot = "18")]
+		[Address(RVA = "0x4864830", Offset = "0x4864830", VA = "0x4864830", Slot = "18")]
 		get
 		{
 			return null;
@@ -32,7 +39,7 @@ internal class Datatype_unsignedByte : Datatype_unsignedShort
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x60011B3")]
-		[Address(RVA = "0x4527140", Offset = "0x4527140", VA = "0x4527140", Slot = "8")]
+		[Address(RVA = "0x48648A0", Offset = "0x48648A0", VA = "0x48648A0", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -43,7 +50,7 @@ internal class Datatype_unsignedByte : Datatype_unsignedShort
 	public override Type ValueType
 	{
 		[Token(Token = "0x60011B5")]
-		[Address(RVA = "0x45271B0", Offset = "0x45271B0", VA = "0x45271B0", Slot = "4")]
+		[Address(RVA = "0x4864910", Offset = "0x4864910", VA = "0x4864910", Slot = "4")]
 		get
 		{
 			return null;
@@ -54,7 +61,7 @@ internal class Datatype_unsignedByte : Datatype_unsignedShort
 	internal override Type ListValueType
 	{
 		[Token(Token = "0x60011B6")]
-		[Address(RVA = "0x4527220", Offset = "0x4527220", VA = "0x4527220", Slot = "26")]
+		[Address(RVA = "0x4864980", Offset = "0x4864980", VA = "0x4864980", Slot = "26")]
 		get
 		{
 			return null;
@@ -62,21 +69,21 @@ internal class Datatype_unsignedByte : Datatype_unsignedShort
 	}
 
 	[Token(Token = "0x60011B4")]
-	[Address(RVA = "0x4527150", Offset = "0x4527150", VA = "0x4527150", Slot = "14")]
+	[Address(RVA = "0x48648B0", Offset = "0x48648B0", VA = "0x48648B0", Slot = "14")]
 	internal override int Compare(object value1, object value2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60011B7")]
-	[Address(RVA = "0x4527290", Offset = "0x4527290", VA = "0x4527290", Slot = "16")]
+	[Address(RVA = "0x48649F0", Offset = "0x48649F0", VA = "0x48649F0", Slot = "16")]
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011B8")]
-	[Address(RVA = "0x451A8B0", Offset = "0x451A8B0", VA = "0x451A8B0")]
+	[Address(RVA = "0x4858010", Offset = "0x4858010", VA = "0x4858010")]
 	public Datatype_unsignedByte()
 	{
 	}

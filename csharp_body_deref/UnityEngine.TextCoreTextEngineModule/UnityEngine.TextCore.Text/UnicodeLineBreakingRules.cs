@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.Text.UnicodeLineBreakingRules
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -44,7 +51,7 @@ public class UnicodeLineBreakingRules
 	public UnityEngine.TextAsset leadingCharacters
 	{
 		[Token(Token = "0x60001DE")]
-		[Address(RVA = "0x4BC4250", Offset = "0x4BC4250", VA = "0x4BC4250")]
+		[Address(RVA = "0x4EEBB80", Offset = "0x4EEBB80", VA = "0x4EEBB80")]
 		get
 		{
 			return null;
@@ -55,7 +62,7 @@ public class UnicodeLineBreakingRules
 	public UnityEngine.TextAsset followingCharacters
 	{
 		[Token(Token = "0x60001DF")]
-		[Address(RVA = "0x4BC4260", Offset = "0x4BC4260", VA = "0x4BC4260")]
+		[Address(RVA = "0x4EEBB90", Offset = "0x4EEBB90", VA = "0x4EEBB90")]
 		get
 		{
 			return null;
@@ -66,7 +73,7 @@ public class UnicodeLineBreakingRules
 	internal HashSet<uint> leadingCharactersLookup
 	{
 		[Token(Token = "0x60001E0")]
-		[Address(RVA = "0x4BC4270", Offset = "0x4BC4270", VA = "0x4BC4270")]
+		[Address(RVA = "0x4EEBBA0", Offset = "0x4EEBBA0", VA = "0x4EEBBA0")]
 		get
 		{
 			return null;
@@ -77,7 +84,7 @@ public class UnicodeLineBreakingRules
 	internal HashSet<uint> followingCharactersLookup
 	{
 		[Token(Token = "0x60001E1")]
-		[Address(RVA = "0x4BC45E0", Offset = "0x4BC45E0", VA = "0x4BC45E0")]
+		[Address(RVA = "0x4EEBF10", Offset = "0x4EEBF10", VA = "0x4EEBF10")]
 		get
 		{
 			return null;
@@ -88,7 +95,7 @@ public class UnicodeLineBreakingRules
 	public bool useModernHangulLineBreakingRules
 	{
 		[Token(Token = "0x60001E2")]
-		[Address(RVA = "0x4BC46B0", Offset = "0x4BC46B0", VA = "0x4BC46B0")]
+		[Address(RVA = "0x4EEBFE0", Offset = "0x4EEBFE0", VA = "0x4EEBFE0")]
 		get
 		{
 			return default(bool);
@@ -96,26 +103,26 @@ public class UnicodeLineBreakingRules
 	}
 
 	[Token(Token = "0x60001E3")]
-	[Address(RVA = "0x4BC1770", Offset = "0x4BC1770", VA = "0x4BC1770")]
+	[Address(RVA = "0x4EE90A0", Offset = "0x4EE90A0", VA = "0x4EE90A0")]
 	internal static void LoadLineBreakingRules()
 	{
 	}
 
 	[Token(Token = "0x60001E4")]
-	[Address(RVA = "0x4BC4340", Offset = "0x4BC4340", VA = "0x4BC4340")]
+	[Address(RVA = "0x4EEBC70", Offset = "0x4EEBC70", VA = "0x4EEBC70")]
 	internal static void LoadLineBreakingRules(UnityEngine.TextAsset leadingRules, UnityEngine.TextAsset followingRules)
 	{
 	}
 
 	[Token(Token = "0x60001E5")]
-	[Address(RVA = "0x4BC46C0", Offset = "0x4BC46C0", VA = "0x4BC46C0")]
+	[Address(RVA = "0x4EEBFF0", Offset = "0x4EEBFF0", VA = "0x4EEBFF0")]
 	private static HashSet<uint> GetCharacters(UnityEngine.TextAsset file)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001E6")]
-	[Address(RVA = "0x4BC1760", Offset = "0x4BC1760", VA = "0x4BC1760")]
+	[Address(RVA = "0x4EE9090", Offset = "0x4EE9090", VA = "0x4EE9090")]
 	public UnicodeLineBreakingRules()
 	{
 	}

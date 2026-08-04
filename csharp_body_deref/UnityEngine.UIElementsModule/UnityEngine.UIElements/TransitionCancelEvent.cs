@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.TransitionCancelEvent
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
@@ -6,13 +13,13 @@ namespace UnityEngine.UIElements;
 public sealed class TransitionCancelEvent : TransitionEventBase<TransitionCancelEvent>
 {
 	[Token(Token = "0x6000CE1")]
-	[Address(RVA = "0x4D15960", Offset = "0x4D15960", VA = "0x4D15960")]
+	[Address(RVA = "0x503D290", Offset = "0x503D290", VA = "0x503D290")]
 	static TransitionCancelEvent()
 	{
 	}
 
 	[Token(Token = "0x6000CE2")]
-	[Address(RVA = "0x4D15A30", Offset = "0x4D15A30", VA = "0x4D15A30")]
+	[Address(RVA = "0x503D360", Offset = "0x503D360", VA = "0x503D360")]
 	public TransitionCancelEvent()
 	{
 	}

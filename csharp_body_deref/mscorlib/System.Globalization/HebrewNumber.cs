@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Globalization.HebrewNumber
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Globalization;
@@ -44,7 +51,7 @@ internal class HebrewNumber
 		internal short value;
 
 		[Token(Token = "0x6002C20")]
-		[Address(RVA = "0x4F649B0", Offset = "0x4F649B0", VA = "0x4F649B0")]
+		[Address(RVA = "0x3C4A4D0", Offset = "0x3C4A4D0", VA = "0x3C4A4D0")]
 		internal HebrewValue(HebrewToken token, short value)
 		{
 		}
@@ -106,21 +113,21 @@ internal class HebrewNumber
 	private static readonly HS[] s_numberPasingState;
 
 	[Token(Token = "0x6002C1C")]
-	[Address(RVA = "0x4F644F0", Offset = "0x4F644F0", VA = "0x4F644F0")]
+	[Address(RVA = "0x3C4A010", Offset = "0x3C4A010", VA = "0x3C4A010")]
 	internal static string ToString(int Number)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002C1D")]
-	[Address(RVA = "0x4F62610", Offset = "0x4F62610", VA = "0x4F62610")]
+	[Address(RVA = "0x3C48130", Offset = "0x3C48130", VA = "0x3C48130")]
 	internal static System.Globalization.HebrewNumberParsingState ParseByChar(char ch, ref System.Globalization.HebrewNumberParsingContext context)
 	{
 		return default(System.Globalization.HebrewNumberParsingState);
 	}
 
 	[Token(Token = "0x6002C1E")]
-	[Address(RVA = "0x4F62540", Offset = "0x4F62540", VA = "0x4F62540")]
+	[Address(RVA = "0x3C48060", Offset = "0x3C48060", VA = "0x3C48060")]
 	internal static bool IsDigit(char ch)
 	{
 		return default(bool);

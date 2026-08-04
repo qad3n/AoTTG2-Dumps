@@ -28,3 +28,4 @@ cmake-build-*/
 
 .DS_Store
 Thumbs.db
+il2cpp_decomp.h

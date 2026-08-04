@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ComponentModel.ComponentCollection
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -10,7 +17,7 @@ public class ComponentCollection : ReadOnlyCollectionBase
 	public virtual IComponent this[string name]
 	{
 		[Token(Token = "0x6000E6D")]
-		[Address(RVA = "0x455BEE0", Offset = "0x455BEE0", VA = "0x455BEE0", Slot = "11")]
+		[Address(RVA = "0x4880FE0", Offset = "0x4880FE0", VA = "0x4880FE0", Slot = "11")]
 		get
 		{
 			return null;
@@ -21,7 +28,7 @@ public class ComponentCollection : ReadOnlyCollectionBase
 	public virtual IComponent this[int index]
 	{
 		[Token(Token = "0x6000E6E")]
-		[Address(RVA = "0x455C590", Offset = "0x455C590", VA = "0x455C590", Slot = "12")]
+		[Address(RVA = "0x4881690", Offset = "0x4881690", VA = "0x4881690", Slot = "12")]
 		get
 		{
 			return null;
@@ -29,13 +36,13 @@ public class ComponentCollection : ReadOnlyCollectionBase
 	}
 
 	[Token(Token = "0x6000E6C")]
-	[Address(RVA = "0x455BE90", Offset = "0x455BE90", VA = "0x455BE90")]
+	[Address(RVA = "0x4880F90", Offset = "0x4880F90", VA = "0x4880F90")]
 	public ComponentCollection(IComponent[] components)
 	{
 	}
 
 	[Token(Token = "0x6000E6F")]
-	[Address(RVA = "0x455C620", Offset = "0x455C620", VA = "0x455C620")]
+	[Address(RVA = "0x4881720", Offset = "0x4881720", VA = "0x4881720")]
 	public void CopyTo(IComponent[] array, int index)
 	{
 	}

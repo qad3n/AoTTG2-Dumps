@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MS.Internal.Xml.XPath.Filter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.XPath;
 using Il2CppDummyDll;
 
@@ -18,7 +25,7 @@ internal class Filter : AstNode
 	public override AstType Type
 	{
 		[Token(Token = "0x6001AE7")]
-		[Address(RVA = "0x443D8E0", Offset = "0x443D8E0", VA = "0x443D8E0", Slot = "4")]
+		[Address(RVA = "0x477B040", Offset = "0x477B040", VA = "0x477B040", Slot = "4")]
 		get
 		{
 			return default(AstType);
@@ -29,7 +36,7 @@ internal class Filter : AstNode
 	public override XPathResultType ReturnType
 	{
 		[Token(Token = "0x6001AE8")]
-		[Address(RVA = "0x443D8F0", Offset = "0x443D8F0", VA = "0x443D8F0", Slot = "5")]
+		[Address(RVA = "0x477B050", Offset = "0x477B050", VA = "0x477B050", Slot = "5")]
 		get
 		{
 			return default(XPathResultType);
@@ -40,7 +47,7 @@ internal class Filter : AstNode
 	public AstNode Input
 	{
 		[Token(Token = "0x6001AE9")]
-		[Address(RVA = "0x443D900", Offset = "0x443D900", VA = "0x443D900")]
+		[Address(RVA = "0x477B060", Offset = "0x477B060", VA = "0x477B060")]
 		get
 		{
 			return null;
@@ -51,7 +58,7 @@ internal class Filter : AstNode
 	public AstNode Condition
 	{
 		[Token(Token = "0x6001AEA")]
-		[Address(RVA = "0x443D910", Offset = "0x443D910", VA = "0x443D910")]
+		[Address(RVA = "0x477B070", Offset = "0x477B070", VA = "0x477B070")]
 		get
 		{
 			return null;
@@ -59,7 +66,7 @@ internal class Filter : AstNode
 	}
 
 	[Token(Token = "0x6001AE6")]
-	[Address(RVA = "0x443D8A0", Offset = "0x443D8A0", VA = "0x443D8A0")]
+	[Address(RVA = "0x477B000", Offset = "0x477B000", VA = "0x477B000")]
 	public Filter(AstNode input, AstNode condition)
 	{
 	}

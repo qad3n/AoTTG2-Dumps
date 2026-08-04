@@ -1,10 +1,17 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.ScriptableCullingParameters
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Scripting;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002DC")]
+[Token(Token = "0x20002DF")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public struct ScriptableCullingParameters : IEquatable<ScriptableCullingParameters>
 {
@@ -112,93 +119,93 @@ public struct ScriptableCullingParameters : IEquatable<ScriptableCullingParamete
 	[FieldOffset(Offset = "0x62C")]
 	private int m_NumIterationsEnclosingSphere;
 
-	[Token(Token = "0x17000277")]
+	[Token(Token = "0x17000278")]
 	public int cullingPlaneCount
 	{
-		[Token(Token = "0x600101D")]
-		[Address(RVA = "0x4B04B30", Offset = "0x4B04B30", VA = "0x4B04B30")]
+		[Token(Token = "0x600101F")]
+		[Address(RVA = "0x4E2C460", Offset = "0x4E2C460", VA = "0x4E2C460")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000278")]
+	[Token(Token = "0x17000279")]
 	public CullingOptions cullingOptions
 	{
-		[Token(Token = "0x600101E")]
-		[Address(RVA = "0x4B04B40", Offset = "0x4B04B40", VA = "0x4B04B40")]
+		[Token(Token = "0x6001020")]
+		[Address(RVA = "0x4E2C470", Offset = "0x4E2C470", VA = "0x4E2C470")]
 		get
 		{
 			return default(CullingOptions);
 		}
-		[Token(Token = "0x600101F")]
-		[Address(RVA = "0x4B04B50", Offset = "0x4B04B50", VA = "0x4B04B50")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000279")]
-	public Matrix4x4 stereoViewMatrix
-	{
-		[Token(Token = "0x6001020")]
-		[Address(RVA = "0x4B04B60", Offset = "0x4B04B60", VA = "0x4B04B60")]
+		[Token(Token = "0x6001021")]
+		[Address(RVA = "0x4E2C480", Offset = "0x4E2C480", VA = "0x4E2C480")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700027A")]
-	public Matrix4x4 stereoProjectionMatrix
+	public Matrix4x4 stereoViewMatrix
 	{
-		[Token(Token = "0x6001021")]
-		[Address(RVA = "0x4B04BA0", Offset = "0x4B04BA0", VA = "0x4B04BA0")]
+		[Token(Token = "0x6001022")]
+		[Address(RVA = "0x4E2C490", Offset = "0x4E2C490", VA = "0x4E2C490")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700027B")]
-	public float stereoSeparationDistance
+	public Matrix4x4 stereoProjectionMatrix
 	{
-		[Token(Token = "0x6001022")]
-		[Address(RVA = "0x4B04BE0", Offset = "0x4B04BE0", VA = "0x4B04BE0")]
+		[Token(Token = "0x6001023")]
+		[Address(RVA = "0x4E2C4D0", Offset = "0x4E2C4D0", VA = "0x4E2C4D0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001023")]
-	[Address(RVA = "0x4B04BF0", Offset = "0x4B04BF0", VA = "0x4B04BF0")]
+	[Token(Token = "0x1700027C")]
+	public float stereoSeparationDistance
+	{
+		[Token(Token = "0x6001024")]
+		[Address(RVA = "0x4E2C510", Offset = "0x4E2C510", VA = "0x4E2C510")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x6001025")]
+	[Address(RVA = "0x4E2C520", Offset = "0x4E2C520", VA = "0x4E2C520")]
 	public float GetLayerCullingDistance(int layerIndex)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6001024")]
-	[Address(RVA = "0x4B04CC0", Offset = "0x4B04CC0", VA = "0x4B04CC0")]
+	[Token(Token = "0x6001026")]
+	[Address(RVA = "0x4E2C5F0", Offset = "0x4E2C5F0", VA = "0x4E2C5F0")]
 	public Plane GetCullingPlane(int index)
 	{
 		return default(Plane);
 	}
 
-	[Token(Token = "0x6001025")]
-	[Address(RVA = "0x4B04DF0", Offset = "0x4B04DF0", VA = "0x4B04DF0", Slot = "4")]
+	[Token(Token = "0x6001027")]
+	[Address(RVA = "0x4E2C720", Offset = "0x4E2C720", VA = "0x4E2C720", Slot = "4")]
 	public bool Equals(ScriptableCullingParameters other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001026")]
-	[Address(RVA = "0x4B05AE0", Offset = "0x4B05AE0", VA = "0x4B05AE0", Slot = "0")]
+	[Token(Token = "0x6001028")]
+	[Address(RVA = "0x4E2D410", Offset = "0x4E2D410", VA = "0x4E2D410", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001027")]
-	[Address(RVA = "0x4B05B90", Offset = "0x4B05B90", VA = "0x4B05B90", Slot = "2")]
+	[Token(Token = "0x6001029")]
+	[Address(RVA = "0x4E2D4C0", Offset = "0x4E2D4C0", VA = "0x4E2D4C0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

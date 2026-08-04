@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Il2CppDummyDll;
@@ -19,7 +26,7 @@ public struct AsyncTaskMethodBuilder
 	public Task Task
 	{
 		[Token(Token = "0x60022CC")]
-		[Address(RVA = "0x4EDD060", Offset = "0x4EDD060", VA = "0x4EDD060")]
+		[Address(RVA = "0x3BC2B80", Offset = "0x3BC2B80", VA = "0x3BC2B80")]
 		get
 		{
 			return null;
@@ -27,7 +34,7 @@ public struct AsyncTaskMethodBuilder
 	}
 
 	[Token(Token = "0x60022C7")]
-	[Address(RVA = "0x4EDCFD0", Offset = "0x4EDCFD0", VA = "0x4EDCFD0")]
+	[Address(RVA = "0x3BC2AF0", Offset = "0x3BC2AF0", VA = "0x3BC2AF0")]
 	public static AsyncTaskMethodBuilder Create()
 	{
 		return default(AsyncTaskMethodBuilder);
@@ -40,7 +47,7 @@ public struct AsyncTaskMethodBuilder
 	}
 
 	[Token(Token = "0x60022C9")]
-	[Address(RVA = "0x4EDCFF0", Offset = "0x4EDCFF0", VA = "0x4EDCFF0")]
+	[Address(RVA = "0x3BC2B10", Offset = "0x3BC2B10", VA = "0x3BC2B10")]
 	public void SetStateMachine(IAsyncStateMachine stateMachine)
 	{
 	}
@@ -56,13 +63,13 @@ public struct AsyncTaskMethodBuilder
 	}
 
 	[Token(Token = "0x60022CD")]
-	[Address(RVA = "0x4EDD0C0", Offset = "0x4EDD0C0", VA = "0x4EDD0C0")]
+	[Address(RVA = "0x3BC2BE0", Offset = "0x3BC2BE0", VA = "0x3BC2BE0")]
 	public void SetResult()
 	{
 	}
 
 	[Token(Token = "0x60022CE")]
-	[Address(RVA = "0x4EDD160", Offset = "0x4EDD160", VA = "0x4EDD160")]
+	[Address(RVA = "0x3BC2C80", Offset = "0x3BC2C80", VA = "0x3BC2C80")]
 	public void SetException(Exception exception)
 	{
 	}

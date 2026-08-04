@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.LinqUtility
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -342,7 +349,7 @@ public static class LinqUtility
 	}
 
 	[Token(Token = "0x6001039")]
-	[Address(RVA = "0x4A3B5E0", Offset = "0x4A3B5E0", VA = "0x4A3B5E0")]
+	[Address(RVA = "0x4D60440", Offset = "0x4D60440", VA = "0x4D60440")]
 	public static void AddRange(this IList list, IEnumerable items)
 	{
 	}

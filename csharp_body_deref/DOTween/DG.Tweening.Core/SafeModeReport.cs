@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: DG.Tweening.Core.SafeModeReport
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -23,14 +30,14 @@ internal struct SafeModeReport
 	public int totMissingTargetOrFieldErrors
 	{
 		[Token(Token = "0x6000426")]
-		[Address(RVA = "0x2320510", Offset = "0x2320510", VA = "0x2320510")]
+		[Address(RVA = "0x2386DF0", Offset = "0x2386DF0", VA = "0x2386DF0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000427")]
-		[Address(RVA = "0x2320520", Offset = "0x2320520", VA = "0x2320520")]
+		[Address(RVA = "0x2386E00", Offset = "0x2386E00", VA = "0x2386E00")]
 		[CompilerGenerated]
 		private set
 		{
@@ -41,14 +48,14 @@ internal struct SafeModeReport
 	public int totCallbackErrors
 	{
 		[Token(Token = "0x6000428")]
-		[Address(RVA = "0x2320530", Offset = "0x2320530", VA = "0x2320530")]
+		[Address(RVA = "0x2386E10", Offset = "0x2386E10", VA = "0x2386E10")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000429")]
-		[Address(RVA = "0x2320540", Offset = "0x2320540", VA = "0x2320540")]
+		[Address(RVA = "0x2386E20", Offset = "0x2386E20", VA = "0x2386E20")]
 		[CompilerGenerated]
 		private set
 		{
@@ -59,14 +66,14 @@ internal struct SafeModeReport
 	public int totStartupErrors
 	{
 		[Token(Token = "0x600042A")]
-		[Address(RVA = "0x2320550", Offset = "0x2320550", VA = "0x2320550")]
+		[Address(RVA = "0x2386E30", Offset = "0x2386E30", VA = "0x2386E30")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600042B")]
-		[Address(RVA = "0x2320560", Offset = "0x2320560", VA = "0x2320560")]
+		[Address(RVA = "0x2386E40", Offset = "0x2386E40", VA = "0x2386E40")]
 		[CompilerGenerated]
 		private set
 		{
@@ -77,14 +84,14 @@ internal struct SafeModeReport
 	public int totUnsetErrors
 	{
 		[Token(Token = "0x600042C")]
-		[Address(RVA = "0x2320570", Offset = "0x2320570", VA = "0x2320570")]
+		[Address(RVA = "0x2386E50", Offset = "0x2386E50", VA = "0x2386E50")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600042D")]
-		[Address(RVA = "0x2320580", Offset = "0x2320580", VA = "0x2320580")]
+		[Address(RVA = "0x2386E60", Offset = "0x2386E60", VA = "0x2386E60")]
 		[CompilerGenerated]
 		private set
 		{
@@ -92,13 +99,13 @@ internal struct SafeModeReport
 	}
 
 	[Token(Token = "0x600042E")]
-	[Address(RVA = "0x2320590", Offset = "0x2320590", VA = "0x2320590")]
+	[Address(RVA = "0x2386E70", Offset = "0x2386E70", VA = "0x2386E70")]
 	public void Add(SafeModeReportType type)
 	{
 	}
 
 	[Token(Token = "0x600042F")]
-	[Address(RVA = "0x23205C0", Offset = "0x23205C0", VA = "0x23205C0")]
+	[Address(RVA = "0x2386EA0", Offset = "0x2386EA0", VA = "0x2386EA0")]
 	public int GetTotErrors()
 	{
 		return default(int);

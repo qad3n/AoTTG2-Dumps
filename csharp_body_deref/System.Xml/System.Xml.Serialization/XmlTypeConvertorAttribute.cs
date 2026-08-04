@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlTypeConvertorAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -11,14 +18,14 @@ internal class XmlTypeConvertorAttribute : Attribute
 	public string Method
 	{
 		[Token(Token = "0x6000CD9")]
-		[Address(RVA = "0x44CD0F0", Offset = "0x44CD0F0", VA = "0x44CD0F0")]
+		[Address(RVA = "0x480A850", Offset = "0x480A850", VA = "0x480A850")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000CDA")]
-		[Address(RVA = "0x44CD100", Offset = "0x44CD100", VA = "0x44CD100")]
+		[Address(RVA = "0x480A860", Offset = "0x480A860", VA = "0x480A860")]
 		[CompilerGenerated]
 		private set
 		{
@@ -26,7 +33,7 @@ internal class XmlTypeConvertorAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000CDB")]
-	[Address(RVA = "0x44CD110", Offset = "0x44CD110", VA = "0x44CD110")]
+	[Address(RVA = "0x480A870", Offset = "0x480A870", VA = "0x480A870")]
 	public XmlTypeConvertorAttribute(string method)
 	{
 	}

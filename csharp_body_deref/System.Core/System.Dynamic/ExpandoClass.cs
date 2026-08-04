@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Dynamic.ExpandoClass
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -26,7 +33,7 @@ internal class ExpandoClass
 	internal string[] Keys
 	{
 		[Token(Token = "0x6000BF8")]
-		[Address(RVA = "0x41E69F0", Offset = "0x41E69F0", VA = "0x41E69F0")]
+		[Address(RVA = "0x450BAF0", Offset = "0x450BAF0", VA = "0x450BAF0")]
 		get
 		{
 			return null;
@@ -34,47 +41,47 @@ internal class ExpandoClass
 	}
 
 	[Token(Token = "0x6000BF1")]
-	[Address(RVA = "0x41E5F80", Offset = "0x41E5F80", VA = "0x41E5F80")]
+	[Address(RVA = "0x450B080", Offset = "0x450B080", VA = "0x450B080")]
 	internal ExpandoClass()
 	{
 	}
 
 	[Token(Token = "0x6000BF2")]
-	[Address(RVA = "0x41E6060", Offset = "0x41E6060", VA = "0x41E6060")]
+	[Address(RVA = "0x450B160", Offset = "0x450B160", VA = "0x450B160")]
 	internal ExpandoClass(string[] keys, int hashCode)
 	{
 	}
 
 	[Token(Token = "0x6000BF3")]
-	[Address(RVA = "0x41E6090", Offset = "0x41E6090", VA = "0x41E6090")]
+	[Address(RVA = "0x450B190", Offset = "0x450B190", VA = "0x450B190")]
 	internal ExpandoClass FindNewClass(string newKey)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BF4")]
-	[Address(RVA = "0x41E6540", Offset = "0x41E6540", VA = "0x41E6540")]
+	[Address(RVA = "0x450B640", Offset = "0x450B640", VA = "0x450B640")]
 	private List<WeakReference> GetTransitionList(int hashCode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000BF5")]
-	[Address(RVA = "0x41E6670", Offset = "0x41E6670", VA = "0x41E6670")]
+	[Address(RVA = "0x450B770", Offset = "0x450B770", VA = "0x450B770")]
 	internal int GetValueIndex(string name, bool caseInsensitive, ExpandoObject obj)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000BF6")]
-	[Address(RVA = "0x41E68F0", Offset = "0x41E68F0", VA = "0x41E68F0")]
+	[Address(RVA = "0x450B9F0", Offset = "0x450B9F0", VA = "0x450B9F0")]
 	internal int GetValueIndexCaseSensitive(string name)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000BF7")]
-	[Address(RVA = "0x41E66F0", Offset = "0x41E66F0", VA = "0x41E66F0")]
+	[Address(RVA = "0x450B7F0", Offset = "0x450B7F0", VA = "0x450B7F0")]
 	private int GetValueIndexCaseInsensitive(string name, ExpandoObject obj)
 	{
 		return default(int);

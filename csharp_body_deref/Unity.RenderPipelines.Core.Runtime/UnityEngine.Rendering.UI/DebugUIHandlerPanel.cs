@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.UI;
 
@@ -43,76 +50,76 @@ public class DebugUIHandlerPanel : MonoBehaviour
 	protected internal DebugUI.Panel m_Panel;
 
 	[Token(Token = "0x6000EE6")]
-	[Address(RVA = "0x48F0230", Offset = "0x48F0230", VA = "0x48F0230")]
+	[Address(RVA = "0x4C152A0", Offset = "0x4C152A0", VA = "0x4C152A0")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000EE7")]
-	[Address(RVA = "0x48F0300", Offset = "0x48F0300", VA = "0x48F0300")]
+	[Address(RVA = "0x4C15370", Offset = "0x4C15370", VA = "0x4C15370")]
 	internal void SetPanel(DebugUI.Panel panel)
 	{
 	}
 
 	[Token(Token = "0x6000EE8")]
-	[Address(RVA = "0x48F0350", Offset = "0x48F0350", VA = "0x48F0350")]
+	[Address(RVA = "0x4C153C0", Offset = "0x4C153C0", VA = "0x4C153C0")]
 	internal DebugUI.Panel GetPanel()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EE9")]
-	[Address(RVA = "0x48F0360", Offset = "0x48F0360", VA = "0x48F0360")]
+	[Address(RVA = "0x4C153D0", Offset = "0x4C153D0", VA = "0x4C153D0")]
 	public void SelectNextItem()
 	{
 	}
 
 	[Token(Token = "0x6000EEA")]
-	[Address(RVA = "0x48F0380", Offset = "0x48F0380", VA = "0x48F0380")]
+	[Address(RVA = "0x4C153F0", Offset = "0x4C153F0", VA = "0x4C153F0")]
 	public void SelectPreviousItem()
 	{
 	}
 
 	[Token(Token = "0x6000EEB")]
-	[Address(RVA = "0x48F03A0", Offset = "0x48F03A0", VA = "0x48F03A0")]
+	[Address(RVA = "0x4C15410", Offset = "0x4C15410", VA = "0x4C15410")]
 	public void OnScrollbarClicked()
 	{
 	}
 
 	[Token(Token = "0x6000EEC")]
-	[Address(RVA = "0x48F0420", Offset = "0x48F0420", VA = "0x48F0420")]
+	[Address(RVA = "0x4C15490", Offset = "0x4C15490", VA = "0x4C15490")]
 	internal void SetScrollTarget(DebugUIHandlerWidget target)
 	{
 	}
 
 	[Token(Token = "0x6000EED")]
-	[Address(RVA = "0x48F0430", Offset = "0x48F0430", VA = "0x48F0430")]
+	[Address(RVA = "0x4C154A0", Offset = "0x4C154A0", VA = "0x4C154A0")]
 	internal void UpdateScroll()
 	{
 	}
 
 	[Token(Token = "0x6000EEE")]
-	[Address(RVA = "0x48F05E0", Offset = "0x48F05E0", VA = "0x48F05E0")]
+	[Address(RVA = "0x4C15650", Offset = "0x4C15650", VA = "0x4C15650")]
 	private float GetYPosInScroll(RectTransform target)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000EEF")]
-	[Address(RVA = "0x48F06D0", Offset = "0x48F06D0", VA = "0x48F06D0")]
+	[Address(RVA = "0x4C15740", Offset = "0x4C15740", VA = "0x4C15740")]
 	internal DebugUIHandlerWidget GetFirstItem()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EF0")]
-	[Address(RVA = "0x48F0720", Offset = "0x48F0720", VA = "0x48F0720")]
+	[Address(RVA = "0x4C15790", Offset = "0x4C15790", VA = "0x4C15790")]
 	public void ResetDebugManager()
 	{
 	}
 
 	[Token(Token = "0x6000EF1")]
-	[Address(RVA = "0x48F0790", Offset = "0x48F0790", VA = "0x48F0790")]
+	[Address(RVA = "0x4C15800", Offset = "0x4C15800", VA = "0x4C15800")]
 	public DebugUIHandlerPanel()
 	{
 	}

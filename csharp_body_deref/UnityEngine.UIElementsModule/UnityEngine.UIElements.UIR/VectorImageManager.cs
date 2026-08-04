@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UIR.VectorImageManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -49,7 +56,7 @@ internal class VectorImageManager : IDisposable
 	public Texture2D atlas
 	{
 		[Token(Token = "0x6001E21")]
-		[Address(RVA = "0x4C836B0", Offset = "0x4C836B0", VA = "0x4C836B0")]
+		[Address(RVA = "0x4FAAFE0", Offset = "0x4FAAFE0", VA = "0x4FAAFE0")]
 		get
 		{
 			return null;
@@ -60,14 +67,14 @@ internal class VectorImageManager : IDisposable
 	protected bool disposed
 	{
 		[Token(Token = "0x6001E23")]
-		[Address(RVA = "0x4C838B0", Offset = "0x4C838B0", VA = "0x4C838B0")]
+		[Address(RVA = "0x4FAB1E0", Offset = "0x4FAB1E0", VA = "0x4FAB1E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001E24")]
-		[Address(RVA = "0x4C838C0", Offset = "0x4C838C0", VA = "0x4C838C0")]
+		[Address(RVA = "0x4FAB1F0", Offset = "0x4FAB1F0", VA = "0x4FAB1F0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -75,38 +82,38 @@ internal class VectorImageManager : IDisposable
 	}
 
 	[Token(Token = "0x6001E22")]
-	[Address(RVA = "0x4C836D0", Offset = "0x4C836D0", VA = "0x4C836D0")]
+	[Address(RVA = "0x4FAB000", Offset = "0x4FAB000", VA = "0x4FAB000")]
 	public VectorImageManager(AtlasBase atlas)
 	{
 	}
 
 	[Token(Token = "0x6001E25")]
-	[Address(RVA = "0x4C838D0", Offset = "0x4C838D0", VA = "0x4C838D0", Slot = "4")]
+	[Address(RVA = "0x4FAB200", Offset = "0x4FAB200", VA = "0x4FAB200", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6001E26")]
-	[Address(RVA = "0x4C83940", Offset = "0x4C83940", VA = "0x4C83940", Slot = "5")]
+	[Address(RVA = "0x4FAB270", Offset = "0x4FAB270", VA = "0x4FAB270", Slot = "5")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6001E27")]
-	[Address(RVA = "0x4C83A60", Offset = "0x4C83A60", VA = "0x4C83A60")]
+	[Address(RVA = "0x4FAB390", Offset = "0x4FAB390", VA = "0x4FAB390")]
 	public void Commit()
 	{
 	}
 
 	[Token(Token = "0x6001E28")]
-	[Address(RVA = "0x4C83A90", Offset = "0x4C83A90", VA = "0x4C83A90")]
+	[Address(RVA = "0x4FAB3C0", Offset = "0x4FAB3C0", VA = "0x4FAB3C0")]
 	public GradientRemap AddUser(VectorImage vi, VisualElement context)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001E29")]
-	[Address(RVA = "0x4C83B80", Offset = "0x4C83B80", VA = "0x4C83B80")]
+	[Address(RVA = "0x4FAB4B0", Offset = "0x4FAB4B0", VA = "0x4FAB4B0")]
 	private VectorImageRenderInfo Register(VectorImage vi, VisualElement context)
 	{
 		return null;

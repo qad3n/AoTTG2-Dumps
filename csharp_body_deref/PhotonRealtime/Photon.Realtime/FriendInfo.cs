@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Realtime.FriendInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonRealtime/Code/FriendInfo.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -12,7 +19,7 @@ public class FriendInfo
 	public string Name
 	{
 		[Token(Token = "0x600003B")]
-		[Address(RVA = "0x3BC8620", Offset = "0x3BC8620", VA = "0x3BC8620")]
+		[Address(RVA = "0x3EBDF70", Offset = "0x3EBDF70", VA = "0x3EBDF70")]
 		get
 		{
 			return null;
@@ -23,14 +30,14 @@ public class FriendInfo
 	public string UserId
 	{
 		[Token(Token = "0x600003C")]
-		[Address(RVA = "0x3BC8630", Offset = "0x3BC8630", VA = "0x3BC8630")]
+		[Address(RVA = "0x3EBDF80", Offset = "0x3EBDF80", VA = "0x3EBDF80")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600003D")]
-		[Address(RVA = "0x3BC8640", Offset = "0x3BC8640", VA = "0x3BC8640")]
+		[Address(RVA = "0x3EBDF90", Offset = "0x3EBDF90", VA = "0x3EBDF90")]
 		[CompilerGenerated]
 		protected internal set
 		{
@@ -41,14 +48,14 @@ public class FriendInfo
 	public bool IsOnline
 	{
 		[Token(Token = "0x600003E")]
-		[Address(RVA = "0x3BC8650", Offset = "0x3BC8650", VA = "0x3BC8650")]
+		[Address(RVA = "0x3EBDFA0", Offset = "0x3EBDFA0", VA = "0x3EBDFA0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600003F")]
-		[Address(RVA = "0x3BC8660", Offset = "0x3BC8660", VA = "0x3BC8660")]
+		[Address(RVA = "0x3EBDFB0", Offset = "0x3EBDFB0", VA = "0x3EBDFB0")]
 		[CompilerGenerated]
 		protected internal set
 		{
@@ -59,14 +66,14 @@ public class FriendInfo
 	public string Room
 	{
 		[Token(Token = "0x6000040")]
-		[Address(RVA = "0x3BC8670", Offset = "0x3BC8670", VA = "0x3BC8670")]
+		[Address(RVA = "0x3EBDFC0", Offset = "0x3EBDFC0", VA = "0x3EBDFC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000041")]
-		[Address(RVA = "0x3BC8680", Offset = "0x3BC8680", VA = "0x3BC8680")]
+		[Address(RVA = "0x3EBDFD0", Offset = "0x3EBDFD0", VA = "0x3EBDFD0")]
 		[CompilerGenerated]
 		protected internal set
 		{
@@ -77,7 +84,7 @@ public class FriendInfo
 	public bool IsInRoom
 	{
 		[Token(Token = "0x6000042")]
-		[Address(RVA = "0x3BC8690", Offset = "0x3BC8690", VA = "0x3BC8690")]
+		[Address(RVA = "0x3EBDFE0", Offset = "0x3EBDFE0", VA = "0x3EBDFE0")]
 		get
 		{
 			return default(bool);
@@ -85,14 +92,14 @@ public class FriendInfo
 	}
 
 	[Token(Token = "0x6000043")]
-	[Address(RVA = "0x3BC86B0", Offset = "0x3BC86B0", VA = "0x3BC86B0", Slot = "3")]
+	[Address(RVA = "0x3EBE000", Offset = "0x3EBE000", VA = "0x3EBE000", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x3BC8750", Offset = "0x3BC8750", VA = "0x3BC8750")]
+	[Address(RVA = "0x3EBE0A0", Offset = "0x3EBE0A0", VA = "0x3EBE0A0")]
 	public FriendInfo()
 	{
 	}

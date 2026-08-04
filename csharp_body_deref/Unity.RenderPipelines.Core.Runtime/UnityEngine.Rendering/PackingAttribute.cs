@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PackingAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -44,13 +51,13 @@ public class PackingAttribute : Attribute
 	public string preprocessor;
 
 	[Token(Token = "0x6000ACC")]
-	[Address(RVA = "0x48B9BB0", Offset = "0x48B9BB0", VA = "0x48B9BB0")]
+	[Address(RVA = "0x4BDEC50", Offset = "0x4BDEC50", VA = "0x4BDEC50")]
 	public PackingAttribute(string[] displayNames, FieldPacking packingScheme = FieldPacking.NoPacking, int bitSize = 32, int offsetInSource = 0, float minValue = 0f, float maxValue = 1f, bool isDirection = false, bool sRGBDisplay = false, bool checkIsNormalized = false, string preprocessor = "")
 	{
 	}
 
 	[Token(Token = "0x6000ACD")]
-	[Address(RVA = "0x48B9CC0", Offset = "0x48B9CC0", VA = "0x48B9CC0")]
+	[Address(RVA = "0x4BDED60", Offset = "0x4BDED60", VA = "0x4BDED60")]
 	public PackingAttribute(string displayName = "", FieldPacking packingScheme = FieldPacking.NoPacking, int bitSize = 0, int offsetInSource = 0, float minValue = 0f, float maxValue = 1f, bool isDirection = false, bool sRGBDisplay = false, bool checkIsNormalized = false, string preprocessor = "")
 	{
 	}

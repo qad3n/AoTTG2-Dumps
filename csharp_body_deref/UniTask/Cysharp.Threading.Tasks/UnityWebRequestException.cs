@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.UnityWebRequestException
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -17,7 +24,7 @@ public class UnityWebRequestException : Exception
 	public UnityWebRequest UnityWebRequest
 	{
 		[Token(Token = "0x6000933")]
-		[Address(RVA = "0x46E0650", Offset = "0x46E0650", VA = "0x46E0650")]
+		[Address(RVA = "0x4A05750", Offset = "0x4A05750", VA = "0x4A05750")]
 		[CompilerGenerated]
 		get
 		{
@@ -29,7 +36,7 @@ public class UnityWebRequestException : Exception
 	public UnityWebRequest.Result Result
 	{
 		[Token(Token = "0x6000934")]
-		[Address(RVA = "0x46E0660", Offset = "0x46E0660", VA = "0x46E0660")]
+		[Address(RVA = "0x4A05760", Offset = "0x4A05760", VA = "0x4A05760")]
 		[CompilerGenerated]
 		get
 		{
@@ -41,7 +48,7 @@ public class UnityWebRequestException : Exception
 	public string Error
 	{
 		[Token(Token = "0x6000935")]
-		[Address(RVA = "0x46E0670", Offset = "0x46E0670", VA = "0x46E0670")]
+		[Address(RVA = "0x4A05770", Offset = "0x4A05770", VA = "0x4A05770")]
 		[CompilerGenerated]
 		get
 		{
@@ -53,7 +60,7 @@ public class UnityWebRequestException : Exception
 	public string Text
 	{
 		[Token(Token = "0x6000936")]
-		[Address(RVA = "0x46E0680", Offset = "0x46E0680", VA = "0x46E0680")]
+		[Address(RVA = "0x4A05780", Offset = "0x4A05780", VA = "0x4A05780")]
 		[CompilerGenerated]
 		get
 		{
@@ -65,7 +72,7 @@ public class UnityWebRequestException : Exception
 	public long ResponseCode
 	{
 		[Token(Token = "0x6000937")]
-		[Address(RVA = "0x46E0690", Offset = "0x46E0690", VA = "0x46E0690")]
+		[Address(RVA = "0x4A05790", Offset = "0x4A05790", VA = "0x4A05790")]
 		[CompilerGenerated]
 		get
 		{
@@ -77,7 +84,7 @@ public class UnityWebRequestException : Exception
 	public Dictionary<string, string> ResponseHeaders
 	{
 		[Token(Token = "0x6000938")]
-		[Address(RVA = "0x46E06A0", Offset = "0x46E06A0", VA = "0x46E06A0")]
+		[Address(RVA = "0x4A057A0", Offset = "0x4A057A0", VA = "0x4A057A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -89,7 +96,7 @@ public class UnityWebRequestException : Exception
 	public override string Message
 	{
 		[Token(Token = "0x600093A")]
-		[Address(RVA = "0x46E06B0", Offset = "0x46E06B0", VA = "0x46E06B0", Slot = "5")]
+		[Address(RVA = "0x4A057B0", Offset = "0x4A057B0", VA = "0x4A057B0", Slot = "5")]
 		get
 		{
 			return null;
@@ -97,7 +104,7 @@ public class UnityWebRequestException : Exception
 	}
 
 	[Token(Token = "0x6000939")]
-	[Address(RVA = "0x46D62A0", Offset = "0x46D62A0", VA = "0x46D62A0")]
+	[Address(RVA = "0x49FAFB0", Offset = "0x49FAFB0", VA = "0x49FAFB0")]
 	public UnityWebRequestException(UnityWebRequest unityWebRequest)
 	{
 	}

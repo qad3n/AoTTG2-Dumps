@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Serialization.JsonSerializerInternalBase
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -12,21 +19,21 @@ internal abstract class JsonSerializerInternalBase
 	private class ReferenceEqualsEqualityComparer : IEqualityComparer<object>
 	{
 		[Token(Token = "0x60008AF")]
-		[Address(RVA = "0x3AE5E10", Offset = "0x3AE5E10", VA = "0x3AE5E10", Slot = "4")]
+		[Address(RVA = "0x3DDB760", Offset = "0x3DDB760", VA = "0x3DDB760", Slot = "4")]
 		private bool System_002ECollections_002EGeneric_002EIEqualityComparer_003CSystem_002EObject_003E_002EEquals(object? x, object? y)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60008B0")]
-		[Address(RVA = "0x3AE5E20", Offset = "0x3AE5E20", VA = "0x3AE5E20", Slot = "5")]
+		[Address(RVA = "0x3DDB770", Offset = "0x3DDB770", VA = "0x3DDB770", Slot = "5")]
 		private int System_002ECollections_002EGeneric_002EIEqualityComparer_003CSystem_002EObject_003E_002EGetHashCode(object obj)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60008B1")]
-		[Address(RVA = "0x3AE57A0", Offset = "0x3AE57A0", VA = "0x3AE57A0")]
+		[Address(RVA = "0x3DDB0F0", Offset = "0x3DDB0F0", VA = "0x3DDB0F0")]
 		public ReferenceEqualsEqualityComparer()
 		{
 		}
@@ -56,7 +63,7 @@ internal abstract class JsonSerializerInternalBase
 	internal BidirectionalDictionary<string, object> DefaultReferenceMappings
 	{
 		[Token(Token = "0x60008AA")]
-		[Address(RVA = "0x3ADFD50", Offset = "0x3ADFD50", VA = "0x3ADFD50")]
+		[Address(RVA = "0x3DD56A0", Offset = "0x3DD56A0", VA = "0x3DD56A0")]
 		get
 		{
 			return null;
@@ -64,33 +71,33 @@ internal abstract class JsonSerializerInternalBase
 	}
 
 	[Token(Token = "0x60008A9")]
-	[Address(RVA = "0x3AE56E0", Offset = "0x3AE56E0", VA = "0x3AE56E0")]
+	[Address(RVA = "0x3DDB030", Offset = "0x3DDB030", VA = "0x3DDB030")]
 	protected JsonSerializerInternalBase(JsonSerializer serializer)
 	{
 	}
 
 	[Token(Token = "0x60008AB")]
-	[Address(RVA = "0x3AE57B0", Offset = "0x3AE57B0", VA = "0x3AE57B0")]
+	[Address(RVA = "0x3DDB100", Offset = "0x3DDB100", VA = "0x3DDB100")]
 	protected NullValueHandling ResolvedNullValueHandling(JsonObjectContract? containerContract, JsonProperty property)
 	{
 		return default(NullValueHandling);
 	}
 
 	[Token(Token = "0x60008AC")]
-	[Address(RVA = "0x3AE5830", Offset = "0x3AE5830", VA = "0x3AE5830")]
+	[Address(RVA = "0x3DDB180", Offset = "0x3DDB180", VA = "0x3DDB180")]
 	private ErrorContext GetErrorContext(object? currentObject, object? member, string path, Exception error)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60008AD")]
-	[Address(RVA = "0x3AE5950", Offset = "0x3AE5950", VA = "0x3AE5950")]
+	[Address(RVA = "0x3DDB2A0", Offset = "0x3DDB2A0", VA = "0x3DDB2A0")]
 	protected void ClearErrorContext()
 	{
 	}
 
 	[Token(Token = "0x60008AE")]
-	[Address(RVA = "0x3AE59C0", Offset = "0x3AE59C0", VA = "0x3AE59C0")]
+	[Address(RVA = "0x3DDB310", Offset = "0x3DDB310", VA = "0x3DDB310")]
 	protected bool IsErrorHandled(object? currentObject, JsonContract? contract, object? keyValue, IJsonLineInfo? lineInfo, string path, Exception ex)
 	{
 		return default(bool);

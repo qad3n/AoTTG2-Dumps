@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.BaseBoolField
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using Unity.Properties;
 
@@ -31,68 +38,68 @@ public abstract class BaseBoolField : BaseField<bool>
 	public string text
 	{
 		[Token(Token = "0x600020B")]
-		[Address(RVA = "0x4BF8D00", Offset = "0x4BF8D00", VA = "0x4BF8D00")]
+		[Address(RVA = "0x4F20630", Offset = "0x4F20630", VA = "0x4F20630")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600020C")]
-		[Address(RVA = "0x4BF8B80", Offset = "0x4BF8B80", VA = "0x4BF8B80")]
+		[Address(RVA = "0x4F204B0", Offset = "0x4F204B0", VA = "0x4F204B0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000209")]
-	[Address(RVA = "0x4BF8940", Offset = "0x4BF8940", VA = "0x4BF8940")]
+	[Address(RVA = "0x4F20270", Offset = "0x4F20270", VA = "0x4F20270")]
 	public BaseBoolField(string label)
 	{
 	}
 
 	[Token(Token = "0x600020A")]
-	[Address(RVA = "0x4BF8CD0", Offset = "0x4BF8CD0", VA = "0x4BF8CD0")]
+	[Address(RVA = "0x4F20600", Offset = "0x4F20600", VA = "0x4F20600")]
 	private void OnNavigationSubmit(NavigationSubmitEvent evt)
 	{
 	}
 
 	[Token(Token = "0x600020D")]
-	[Address(RVA = "0x4BF8D30", Offset = "0x4BF8D30", VA = "0x4BF8D30", Slot = "115")]
+	[Address(RVA = "0x4F20660", Offset = "0x4F20660", VA = "0x4F20660", Slot = "115")]
 	protected virtual void InitLabel()
 	{
 	}
 
 	[Token(Token = "0x600020E")]
-	[Address(RVA = "0x4BF8DD0", Offset = "0x4BF8DD0", VA = "0x4BF8DD0", Slot = "114")]
+	[Address(RVA = "0x4F20700", Offset = "0x4F20700", VA = "0x4F20700", Slot = "114")]
 	public override void SetValueWithoutNotify(bool newValue)
 	{
 	}
 
 	[Token(Token = "0x600020F")]
-	[Address(RVA = "0x4BF8E90", Offset = "0x4BF8E90", VA = "0x4BF8E90")]
+	[Address(RVA = "0x4F207C0", Offset = "0x4F207C0", VA = "0x4F207C0")]
 	private void OnClickEvent(EventBase evt)
 	{
 	}
 
 	[Token(Token = "0x6000210")]
-	[Address(RVA = "0x4BF9120", Offset = "0x4BF9120", VA = "0x4BF9120", Slot = "116")]
+	[Address(RVA = "0x4F20A50", Offset = "0x4F20A50", VA = "0x4F20A50", Slot = "116")]
 	protected virtual void ToggleValue()
 	{
 	}
 
 	[Token(Token = "0x6000211")]
-	[Address(RVA = "0x4BF9160", Offset = "0x4BF9160", VA = "0x4BF9160", Slot = "113")]
+	[Address(RVA = "0x4F20A90", Offset = "0x4F20A90", VA = "0x4F20A90", Slot = "113")]
 	protected override void UpdateMixedValueContent()
 	{
 	}
 
 	[Token(Token = "0x6000212")]
-	[Address(RVA = "0x4BF9310", Offset = "0x4BF9310", VA = "0x4BF9310", Slot = "111")]
+	[Address(RVA = "0x4F20C40", Offset = "0x4F20C40", VA = "0x4F20C40", Slot = "111")]
 	internal override void RegisterEditingCallbacks()
 	{
 	}
 
 	[Token(Token = "0x6000213")]
-	[Address(RVA = "0x4BF9400", Offset = "0x4BF9400", VA = "0x4BF9400", Slot = "112")]
+	[Address(RVA = "0x4F20D30", Offset = "0x4F20D30", VA = "0x4F20D30", Slot = "112")]
 	internal override void UnregisterEditingCallbacks()
 	{
 	}

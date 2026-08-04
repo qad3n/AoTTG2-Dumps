@@ -1,148 +1,155 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: CustomLogic.CustomLogicHumanParticleEffectEnum
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/CustomLogic/CustomLogicHumanParticleEffectEnum.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000339")]
+[Token(Token = "0x2000372")]
 [CompilerGenerated]
 internal class CustomLogicHumanParticleEffectEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x200033A")]
+	[Token(Token = "0x2000373")]
 	public static class Factory
 	{
-		[Token(Token = "0x6001D36")]
-		[Address(RVA = "0x3D5B590", Offset = "0x3D5B590", VA = "0x3D5B590")]
+		[Token(Token = "0x6001EEB")]
+		[Address(RVA = "0x4061860", Offset = "0x4061860", VA = "0x4061860")]
 		public static CustomLogicHumanParticleEffectEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x200033B")]
+	[Token(Token = "0x2000374")]
 	public static class Bindings
 	{
-		[Token(Token = "0x4000F23")]
+		[Token(Token = "0x4001009")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6001D37")]
-		[Address(RVA = "0x3D5B6B0", Offset = "0x3D5B6B0", VA = "0x3D5B6B0")]
+		[Token(Token = "0x6001EEC")]
+		[Address(RVA = "0x4061980", Offset = "0x4061980", VA = "0x4061980")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001D38")]
-		[Address(RVA = "0x3D5B840", Offset = "0x3D5B840", VA = "0x3D5B840")]
+		[Token(Token = "0x6001EED")]
+		[Address(RVA = "0x4061B10", Offset = "0x4061B10", VA = "0x4061B10")]
 		public static CLPropertyBinding<CustomLogicHumanParticleEffectEnum> __CreatePropertyBinding__Buff1()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001D39")]
-		[Address(RVA = "0x3D5B8E0", Offset = "0x3D5B8E0", VA = "0x3D5B8E0")]
+		[Token(Token = "0x6001EEE")]
+		[Address(RVA = "0x4061BB0", Offset = "0x4061BB0", VA = "0x4061BB0")]
 		public static CLPropertyBinding<CustomLogicHumanParticleEffectEnum> __CreatePropertyBinding__Buff2()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001D3A")]
-		[Address(RVA = "0x3D5B980", Offset = "0x3D5B980", VA = "0x3D5B980")]
+		[Token(Token = "0x6001EEF")]
+		[Address(RVA = "0x4061C50", Offset = "0x4061C50", VA = "0x4061C50")]
 		public static CLPropertyBinding<CustomLogicHumanParticleEffectEnum> __CreatePropertyBinding__Fire1()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x4000F20")]
+	[Token(Token = "0x4001006")]
 	internal const string Buff1Value = "Buff1";
 
-	[Token(Token = "0x4000F21")]
+	[Token(Token = "0x4001007")]
 	internal const string Buff2Value = "Buff2";
 
-	[Token(Token = "0x4000F22")]
+	[Token(Token = "0x4001008")]
 	internal const string Fire1Value = "Fire1";
 
-	[Token(Token = "0x170004B8")]
+	[Token(Token = "0x17000512")]
 	public static string Buff1
 	{
-		[Token(Token = "0x6001D2F")]
-		[Address(RVA = "0x3D5B4A0", Offset = "0x3D5B4A0", VA = "0x3D5B4A0")]
+		[Token(Token = "0x6001EE4")]
+		[Address(RVA = "0x4061770", Offset = "0x4061770", VA = "0x4061770")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170004B9")]
+	[Token(Token = "0x17000513")]
 	public static string Buff2
 	{
-		[Token(Token = "0x6001D30")]
-		[Address(RVA = "0x3D5B4D0", Offset = "0x3D5B4D0", VA = "0x3D5B4D0")]
+		[Token(Token = "0x6001EE5")]
+		[Address(RVA = "0x40617A0", Offset = "0x40617A0", VA = "0x40617A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170004BA")]
+	[Token(Token = "0x17000514")]
 	public static string Fire1
 	{
-		[Token(Token = "0x6001D31")]
-		[Address(RVA = "0x3D5B500", Offset = "0x3D5B500", VA = "0x3D5B500")]
+		[Token(Token = "0x6001EE6")]
+		[Address(RVA = "0x40617D0", Offset = "0x40617D0", VA = "0x40617D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170004BB")]
+	[Token(Token = "0x17000515")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6001D32")]
-		[Address(RVA = "0x3D5B530", Offset = "0x3D5B530", VA = "0x3D5B530", Slot = "4")]
+		[Token(Token = "0x6001EE7")]
+		[Address(RVA = "0x4061800", Offset = "0x4061800", VA = "0x4061800", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170004BC")]
+	[Token(Token = "0x17000516")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6001D33")]
-		[Address(RVA = "0x3D5B560", Offset = "0x3D5B560", VA = "0x3D5B560", Slot = "6")]
+		[Token(Token = "0x6001EE8")]
+		[Address(RVA = "0x4061830", Offset = "0x4061830", VA = "0x4061830", Slot = "6")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170004BD")]
+	[Token(Token = "0x17000517")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6001D34")]
-		[Address(RVA = "0x3D5B570", Offset = "0x3D5B570", VA = "0x3D5B570", Slot = "7")]
+		[Token(Token = "0x6001EE9")]
+		[Address(RVA = "0x4061840", Offset = "0x4061840", VA = "0x4061840", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170004BE")]
+	[Token(Token = "0x17000518")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6001D35")]
-		[Address(RVA = "0x3D5B580", Offset = "0x3D5B580", VA = "0x3D5B580", Slot = "8")]
+		[Token(Token = "0x6001EEA")]
+		[Address(RVA = "0x4061850", Offset = "0x4061850", VA = "0x4061850", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001D2E")]
-	[Address(RVA = "0x3D5B430", Offset = "0x3D5B430", VA = "0x3D5B430")]
+	[Token(Token = "0x6001EE3")]
+	[Address(RVA = "0x4061700", Offset = "0x4061700", VA = "0x4061700")]
 	public CustomLogicHumanParticleEffectEnum()
 	{
 	}

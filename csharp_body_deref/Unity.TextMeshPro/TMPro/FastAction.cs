@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: TMPro.FastAction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -16,25 +23,25 @@ public class FastAction
 	private Dictionary<Action, LinkedListNode<Action>> lookup;
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x48F5E10", Offset = "0x48F5E10", VA = "0x48F5E10")]
+	[Address(RVA = "0x4C300C0", Offset = "0x4C300C0", VA = "0x4C300C0")]
 	public void Add(Action rhs)
 	{
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x48F5EC0", Offset = "0x48F5EC0", VA = "0x48F5EC0")]
+	[Address(RVA = "0x4C30170", Offset = "0x4C30170", VA = "0x4C30170")]
 	public void Remove(Action rhs)
 	{
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x48F5F70", Offset = "0x48F5F70", VA = "0x48F5F70")]
+	[Address(RVA = "0x4C30220", Offset = "0x4C30220", VA = "0x4C30220")]
 	public void Call()
 	{
 	}
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x48F6010", Offset = "0x48F6010", VA = "0x48F6010")]
+	[Address(RVA = "0x4C302C0", Offset = "0x4C302C0", VA = "0x4C302C0")]
 	public FastAction()
 	{
 	}

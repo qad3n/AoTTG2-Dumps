@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Weather.LightningParticle
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Weather/LightningParticle.c
+// Prior real C# source (older reference): Assets/Scripts/Weather/LightningParticle.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -47,7 +54,7 @@ public class LightningParticle : MonoBehaviour
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x600014D")]
-			[Address(RVA = "0x3C76810", Offset = "0x3C76810", VA = "0x3C76810", Slot = "4")]
+			[Address(RVA = "0x3F6C160", Offset = "0x3F6C160", VA = "0x3F6C160", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -59,7 +66,7 @@ public class LightningParticle : MonoBehaviour
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x600014F")]
-			[Address(RVA = "0x3C76860", Offset = "0x3C76860", VA = "0x3C76860", Slot = "7")]
+			[Address(RVA = "0x3F6C1B0", Offset = "0x3F6C1B0", VA = "0x3F6C1B0", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -68,28 +75,28 @@ public class LightningParticle : MonoBehaviour
 		}
 
 		[Token(Token = "0x600014A")]
-		[Address(RVA = "0x3C762C0", Offset = "0x3C762C0", VA = "0x3C762C0")]
+		[Address(RVA = "0x3F6BC10", Offset = "0x3F6BC10", VA = "0x3F6BC10")]
 		[DebuggerHidden]
 		public _003CStrikeCoroutine_003Ed__20(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x600014B")]
-		[Address(RVA = "0x3C76480", Offset = "0x3C76480", VA = "0x3C76480", Slot = "5")]
+		[Address(RVA = "0x3F6BDD0", Offset = "0x3F6BDD0", VA = "0x3F6BDD0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x600014C")]
-		[Address(RVA = "0x3C76490", Offset = "0x3C76490", VA = "0x3C76490", Slot = "6")]
+		[Address(RVA = "0x3F6BDE0", Offset = "0x3F6BDE0", VA = "0x3F6BDE0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600014E")]
-		[Address(RVA = "0x3C76820", Offset = "0x3C76820", VA = "0x3C76820", Slot = "8")]
+		[Address(RVA = "0x3F6C170", Offset = "0x3F6C170", VA = "0x3F6C170", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -135,62 +142,62 @@ public class LightningParticle : MonoBehaviour
 	protected List<AudioSource> _audioSources;
 
 	[Token(Token = "0x600013A")]
-	[Address(RVA = "0x3C74E90", Offset = "0x3C74E90", VA = "0x3C74E90")]
+	[Address(RVA = "0x3F6A7E0", Offset = "0x3F6A7E0", VA = "0x3F6A7E0")]
 	private static void GetPerpendicularVector(ref Vector3 directionNormalized, out Vector3 side)
 	{
 	}
 
 	[Token(Token = "0x600013B")]
-	[Address(RVA = "0x3C75120", Offset = "0x3C75120", VA = "0x3C75120")]
+	[Address(RVA = "0x3F6AA70", Offset = "0x3F6AA70", VA = "0x3F6AA70")]
 	public static List<Vector3> GenerateLightningBoltPositions(Vector3 start, Vector3 end, int generation, float offsetAmount = 0f)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600013C")]
-	[Address(RVA = "0x3C758B0", Offset = "0x3C758B0", VA = "0x3C758B0")]
+	[Address(RVA = "0x3F6B200", Offset = "0x3F6B200", VA = "0x3F6B200")]
 	private static void RandomVector(ref Vector3 start, ref Vector3 end, float offsetAmount, out Vector3 result)
 	{
 	}
 
 	[Token(Token = "0x600013D")]
-	[Address(RVA = "0x3C75B10", Offset = "0x3C75B10", VA = "0x3C75B10")]
+	[Address(RVA = "0x3F6B460", Offset = "0x3F6B460", VA = "0x3F6B460")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x600013E")]
-	[Address(RVA = "0x3C75CC0", Offset = "0x3C75CC0", VA = "0x3C75CC0")]
+	[Address(RVA = "0x3F6B610", Offset = "0x3F6B610", VA = "0x3F6B610")]
 	public void Disable()
 	{
 	}
 
 	[Token(Token = "0x600013F")]
-	[Address(RVA = "0x3C75E60", Offset = "0x3C75E60", VA = "0x3C75E60")]
+	[Address(RVA = "0x3F6B7B0", Offset = "0x3F6B7B0", VA = "0x3F6B7B0")]
 	public void Enable()
 	{
 	}
 
 	[Token(Token = "0x6000140")]
-	[Address(RVA = "0x3C75EB0", Offset = "0x3C75EB0", VA = "0x3C75EB0")]
+	[Address(RVA = "0x3F6B800", Offset = "0x3F6B800", VA = "0x3F6B800")]
 	public void Strike(bool sound)
 	{
 	}
 
 	[Token(Token = "0x6000141")]
-	[Address(RVA = "0x3C75FB0", Offset = "0x3C75FB0", VA = "0x3C75FB0")]
+	[Address(RVA = "0x3F6B900", Offset = "0x3F6B900", VA = "0x3F6B900")]
 	public void PlayAudio()
 	{
 	}
 
 	[Token(Token = "0x6000142")]
-	[Address(RVA = "0x3C76190", Offset = "0x3C76190", VA = "0x3C76190")]
+	[Address(RVA = "0x3F6BAE0", Offset = "0x3F6BAE0", VA = "0x3F6BAE0")]
 	public void Setup(Vector3 start, Vector3 end, int generation)
 	{
 	}
 
 	[Token(Token = "0x6000143")]
-	[Address(RVA = "0x3C75F30", Offset = "0x3C75F30", VA = "0x3C75F30")]
+	[Address(RVA = "0x3F6B880", Offset = "0x3F6B880", VA = "0x3F6B880")]
 	[IteratorStateMachine(typeof(_003CStrikeCoroutine_003Ed__20))]
 	private IEnumerator StrikeCoroutine(bool sound)
 	{
@@ -198,13 +205,13 @@ public class LightningParticle : MonoBehaviour
 	}
 
 	[Token(Token = "0x6000144")]
-	[Address(RVA = "0x3C76020", Offset = "0x3C76020", VA = "0x3C76020")]
+	[Address(RVA = "0x3F6B970", Offset = "0x3F6B970", VA = "0x3F6B970")]
 	private void SetVolume(float volume)
 	{
 	}
 
 	[Token(Token = "0x6000145")]
-	[Address(RVA = "0x3C762E0", Offset = "0x3C762E0", VA = "0x3C762E0")]
+	[Address(RVA = "0x3F6BC30", Offset = "0x3F6BC30", VA = "0x3F6BC30")]
 	public LightningParticle()
 	{
 	}

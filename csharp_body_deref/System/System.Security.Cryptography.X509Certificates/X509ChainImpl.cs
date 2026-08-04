@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.X509Certificates.X509ChainImpl
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
@@ -27,7 +34,7 @@ internal abstract class X509ChainImpl : IDisposable
 	}
 
 	[Token(Token = "0x6000605")]
-	[Address(RVA = "0x4617BC0", Offset = "0x4617BC0", VA = "0x4617BC0")]
+	[Address(RVA = "0x493CCC0", Offset = "0x493CCC0", VA = "0x493CCC0")]
 	protected void ThrowIfContextInvalid()
 	{
 	}
@@ -42,25 +49,25 @@ internal abstract class X509ChainImpl : IDisposable
 	public abstract void Reset();
 
 	[Token(Token = "0x600060B")]
-	[Address(RVA = "0x4615F00", Offset = "0x4615F00", VA = "0x4615F00", Slot = "4")]
+	[Address(RVA = "0x493B000", Offset = "0x493B000", VA = "0x493B000", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x600060C")]
-	[Address(RVA = "0x4617C00", Offset = "0x4617C00", VA = "0x4617C00", Slot = "11")]
+	[Address(RVA = "0x493CD00", Offset = "0x493CD00", VA = "0x493CD00", Slot = "11")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x600060D")]
-	[Address(RVA = "0x4617C10", Offset = "0x4617C10", VA = "0x4617C10", Slot = "1")]
+	[Address(RVA = "0x493CD10", Offset = "0x493CD10", VA = "0x493CD10", Slot = "1")]
 	~X509ChainImpl()
 	{
 	}
 
 	[Token(Token = "0x600060E")]
-	[Address(RVA = "0x4617CA0", Offset = "0x4617CA0", VA = "0x4617CA0")]
+	[Address(RVA = "0x493CDA0", Offset = "0x493CDA0", VA = "0x493CDA0")]
 	protected X509ChainImpl()
 	{
 	}

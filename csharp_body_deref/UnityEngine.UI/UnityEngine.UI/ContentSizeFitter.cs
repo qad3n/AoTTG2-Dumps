@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UI.ContentSizeFitter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.EventSystems;
@@ -44,13 +51,13 @@ public class ContentSizeFitter : UIBehaviour, ILayoutSelfController, ILayoutCont
 	public FitMode horizontalFit
 	{
 		[Token(Token = "0x6000277")]
-		[Address(RVA = "0x4DA61F0", Offset = "0x4DA61F0", VA = "0x4DA61F0")]
+		[Address(RVA = "0x50CDB20", Offset = "0x50CDB20", VA = "0x50CDB20")]
 		get
 		{
 			return default(FitMode);
 		}
 		[Token(Token = "0x6000278")]
-		[Address(RVA = "0x4DA6200", Offset = "0x4DA6200", VA = "0x4DA6200")]
+		[Address(RVA = "0x50CDB30", Offset = "0x50CDB30", VA = "0x50CDB30")]
 		set
 		{
 		}
@@ -60,13 +67,13 @@ public class ContentSizeFitter : UIBehaviour, ILayoutSelfController, ILayoutCont
 	public FitMode verticalFit
 	{
 		[Token(Token = "0x6000279")]
-		[Address(RVA = "0x4DA6320", Offset = "0x4DA6320", VA = "0x4DA6320")]
+		[Address(RVA = "0x50CDC50", Offset = "0x50CDC50", VA = "0x50CDC50")]
 		get
 		{
 			return default(FitMode);
 		}
 		[Token(Token = "0x600027A")]
-		[Address(RVA = "0x4DA6330", Offset = "0x4DA6330", VA = "0x4DA6330")]
+		[Address(RVA = "0x50CDC60", Offset = "0x50CDC60", VA = "0x50CDC60")]
 		set
 		{
 		}
@@ -76,7 +83,7 @@ public class ContentSizeFitter : UIBehaviour, ILayoutSelfController, ILayoutCont
 	private RectTransform rectTransform
 	{
 		[Token(Token = "0x600027B")]
-		[Address(RVA = "0x4DA63E0", Offset = "0x4DA63E0", VA = "0x4DA63E0")]
+		[Address(RVA = "0x50CDD10", Offset = "0x50CDD10", VA = "0x50CDD10")]
 		get
 		{
 			return null;
@@ -84,49 +91,49 @@ public class ContentSizeFitter : UIBehaviour, ILayoutSelfController, ILayoutCont
 	}
 
 	[Token(Token = "0x600027C")]
-	[Address(RVA = "0x4DA6470", Offset = "0x4DA6470", VA = "0x4DA6470")]
+	[Address(RVA = "0x50CDDA0", Offset = "0x50CDDA0", VA = "0x50CDDA0")]
 	protected ContentSizeFitter()
 	{
 	}
 
 	[Token(Token = "0x600027D")]
-	[Address(RVA = "0x4DA6480", Offset = "0x4DA6480", VA = "0x4DA6480", Slot = "5")]
+	[Address(RVA = "0x50CDDB0", Offset = "0x50CDDB0", VA = "0x50CDDB0", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x600027E")]
-	[Address(RVA = "0x4DA6500", Offset = "0x4DA6500", VA = "0x4DA6500", Slot = "7")]
+	[Address(RVA = "0x50CDE30", Offset = "0x50CDE30", VA = "0x50CDE30", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x600027F")]
-	[Address(RVA = "0x4DA6570", Offset = "0x4DA6570", VA = "0x4DA6570", Slot = "10")]
+	[Address(RVA = "0x50CDEA0", Offset = "0x50CDEA0", VA = "0x50CDEA0", Slot = "10")]
 	protected override void OnRectTransformDimensionsChange()
 	{
 	}
 
 	[Token(Token = "0x6000280")]
-	[Address(RVA = "0x4DA65E0", Offset = "0x4DA65E0", VA = "0x4DA65E0")]
+	[Address(RVA = "0x50CDF10", Offset = "0x50CDF10", VA = "0x50CDF10")]
 	private void HandleSelfFittingAlongAxis(int axis)
 	{
 	}
 
 	[Token(Token = "0x6000281")]
-	[Address(RVA = "0x4DA66D0", Offset = "0x4DA66D0", VA = "0x4DA66D0", Slot = "19")]
+	[Address(RVA = "0x50CE000", Offset = "0x50CE000", VA = "0x50CE000", Slot = "19")]
 	public virtual void SetLayoutHorizontal()
 	{
 	}
 
 	[Token(Token = "0x6000282")]
-	[Address(RVA = "0x4DA66F0", Offset = "0x4DA66F0", VA = "0x4DA66F0", Slot = "20")]
+	[Address(RVA = "0x50CE020", Offset = "0x50CE020", VA = "0x50CE020", Slot = "20")]
 	public virtual void SetLayoutVertical()
 	{
 	}
 
 	[Token(Token = "0x6000283")]
-	[Address(RVA = "0x4DA62B0", Offset = "0x4DA62B0", VA = "0x4DA62B0")]
+	[Address(RVA = "0x50CDBE0", Offset = "0x50CDBE0", VA = "0x50CDBE0")]
 	protected void SetDirty()
 	{
 	}

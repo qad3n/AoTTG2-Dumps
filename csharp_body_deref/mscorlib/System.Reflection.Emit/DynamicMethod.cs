@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Reflection.Emit.DynamicMethod
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Globalization;
 using Il2CppDummyDll;
 
@@ -10,7 +17,7 @@ public sealed class DynamicMethod : MethodInfo
 	public override MethodAttributes Attributes
 	{
 		[Token(Token = "0x600272C")]
-		[Address(RVA = "0x4F01DD0", Offset = "0x4F01DD0", VA = "0x4F01DD0", Slot = "17")]
+		[Address(RVA = "0x3BE78F0", Offset = "0x3BE78F0", VA = "0x3BE78F0", Slot = "17")]
 		get
 		{
 			return default(MethodAttributes);
@@ -21,7 +28,7 @@ public sealed class DynamicMethod : MethodInfo
 	public override Type DeclaringType
 	{
 		[Token(Token = "0x600272D")]
-		[Address(RVA = "0x4F01E10", Offset = "0x4F01E10", VA = "0x4F01E10", Slot = "9")]
+		[Address(RVA = "0x3BE7930", Offset = "0x3BE7930", VA = "0x3BE7930", Slot = "9")]
 		get
 		{
 			return null;
@@ -32,7 +39,7 @@ public sealed class DynamicMethod : MethodInfo
 	public override string Name
 	{
 		[Token(Token = "0x600272E")]
-		[Address(RVA = "0x4F01E50", Offset = "0x4F01E50", VA = "0x4F01E50", Slot = "8")]
+		[Address(RVA = "0x3BE7970", Offset = "0x3BE7970", VA = "0x3BE7970", Slot = "8")]
 		get
 		{
 			return null;
@@ -43,7 +50,7 @@ public sealed class DynamicMethod : MethodInfo
 	public override RuntimeMethodHandle MethodHandle
 	{
 		[Token(Token = "0x6002730")]
-		[Address(RVA = "0x4F01ED0", Offset = "0x4F01ED0", VA = "0x4F01ED0", Slot = "33")]
+		[Address(RVA = "0x3BE79F0", Offset = "0x3BE79F0", VA = "0x3BE79F0", Slot = "33")]
 		get
 		{
 			return default(RuntimeMethodHandle);
@@ -54,7 +61,7 @@ public sealed class DynamicMethod : MethodInfo
 	public override Type ReflectedType
 	{
 		[Token(Token = "0x6002731")]
-		[Address(RVA = "0x4F01F10", Offset = "0x4F01F10", VA = "0x4F01F10", Slot = "10")]
+		[Address(RVA = "0x3BE7A30", Offset = "0x3BE7A30", VA = "0x3BE7A30", Slot = "10")]
 		get
 		{
 			return null;
@@ -62,49 +69,49 @@ public sealed class DynamicMethod : MethodInfo
 	}
 
 	[Token(Token = "0x600272F")]
-	[Address(RVA = "0x4F01E90", Offset = "0x4F01E90", VA = "0x4F01E90", Slot = "16")]
+	[Address(RVA = "0x3BE79B0", Offset = "0x3BE79B0", VA = "0x3BE79B0", Slot = "16")]
 	public override ParameterInfo[] GetParameters()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002732")]
-	[Address(RVA = "0x4F01F50", Offset = "0x4F01F50", VA = "0x4F01F50", Slot = "13")]
+	[Address(RVA = "0x3BE7A70", Offset = "0x3BE7A70", VA = "0x3BE7A70", Slot = "13")]
 	public override object[] GetCustomAttributes(bool inherit)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002733")]
-	[Address(RVA = "0x4F01F90", Offset = "0x4F01F90", VA = "0x4F01F90", Slot = "14")]
+	[Address(RVA = "0x3BE7AB0", Offset = "0x3BE7AB0", VA = "0x3BE7AB0", Slot = "14")]
 	public override object[] GetCustomAttributes(Type attributeType, bool inherit)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002734")]
-	[Address(RVA = "0x4F01FD0", Offset = "0x4F01FD0", VA = "0x4F01FD0", Slot = "18")]
+	[Address(RVA = "0x3BE7AF0", Offset = "0x3BE7AF0", VA = "0x3BE7AF0", Slot = "18")]
 	public override MethodImplAttributes GetMethodImplementationFlags()
 	{
 		return default(MethodImplAttributes);
 	}
 
 	[Token(Token = "0x6002735")]
-	[Address(RVA = "0x4F02010", Offset = "0x4F02010", VA = "0x4F02010", Slot = "44")]
+	[Address(RVA = "0x3BE7B30", Offset = "0x3BE7B30", VA = "0x3BE7B30", Slot = "44")]
 	public override MethodInfo GetBaseDefinition()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002736")]
-	[Address(RVA = "0x4F02050", Offset = "0x4F02050", VA = "0x4F02050", Slot = "32")]
+	[Address(RVA = "0x3BE7B70", Offset = "0x3BE7B70", VA = "0x3BE7B70", Slot = "32")]
 	public override object Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002737")]
-	[Address(RVA = "0x4F02090", Offset = "0x4F02090", VA = "0x4F02090", Slot = "12")]
+	[Address(RVA = "0x3BE7BB0", Offset = "0x3BE7BB0", VA = "0x3BE7BB0", Slot = "12")]
 	public override bool IsDefined(Type attributeType, bool inherit)
 	{
 		return default(bool);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Globalization.Bootstring
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Globalization;
@@ -38,41 +45,41 @@ internal class Bootstring
 	private readonly int initial_n;
 
 	[Token(Token = "0x6002E3A")]
-	[Address(RVA = "0x4F940B0", Offset = "0x4F940B0", VA = "0x4F940B0")]
+	[Address(RVA = "0x3C79BD0", Offset = "0x3C79BD0", VA = "0x3C79BD0")]
 	public Bootstring(char delimiter, int baseNum, int tmin, int tmax, int skew, int damp, int initialBias, int initialN)
 	{
 	}
 
 	[Token(Token = "0x6002E3B")]
-	[Address(RVA = "0x4F93560", Offset = "0x4F93560", VA = "0x4F93560")]
+	[Address(RVA = "0x3C79080", Offset = "0x3C79080", VA = "0x3C79080")]
 	public string Encode(string s, int offset)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002E3C")]
-	[Address(RVA = "0x4F94110", Offset = "0x4F94110", VA = "0x4F94110")]
+	[Address(RVA = "0x3C79C30", Offset = "0x3C79C30", VA = "0x3C79C30")]
 	private char EncodeDigit(int d)
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x6002E3D")]
-	[Address(RVA = "0x4F941B0", Offset = "0x4F941B0", VA = "0x4F941B0")]
+	[Address(RVA = "0x3C79CD0", Offset = "0x3C79CD0", VA = "0x3C79CD0")]
 	private int DecodeDigit(char c)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002E3E")]
-	[Address(RVA = "0x4F94130", Offset = "0x4F94130", VA = "0x4F94130")]
+	[Address(RVA = "0x3C79C50", Offset = "0x3C79C50", VA = "0x3C79C50")]
 	private int Adapt(int delta, int numPoints, bool firstTime)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002E3F")]
-	[Address(RVA = "0x4F93D60", Offset = "0x4F93D60", VA = "0x4F93D60")]
+	[Address(RVA = "0x3C79880", Offset = "0x3C79880", VA = "0x3C79880")]
 	public string Decode(string s, int offset)
 	{
 		return null;

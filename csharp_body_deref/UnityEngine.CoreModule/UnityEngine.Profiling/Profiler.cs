@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Profiling.Profiler
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -8,7 +15,7 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.Profiling;
 
-[Token(Token = "0x20001B2")]
+[Token(Token = "0x20001B5")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Allocator/MemoryManager.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Profiler/Profiler.h")]
 [MovedFrom("UnityEngine")]
@@ -20,36 +27,36 @@ namespace UnityEngine.Profiling;
 public sealed class Profiler
 {
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000CA9")]
-	[Address(RVA = "0x4AE68A0", Offset = "0x4AE68A0", VA = "0x4AE68A0")]
+	[Token(Token = "0x6000CAB")]
+	[Address(RVA = "0x4E0E1D0", Offset = "0x4E0E1D0", VA = "0x4E0E1D0")]
 	[Conditional("ENABLE_PROFILER")]
 	public static void BeginSample(string name)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000CAA")]
-	[Address(RVA = "0x4AE6A40", Offset = "0x4AE6A40", VA = "0x4AE6A40")]
+	[Token(Token = "0x6000CAC")]
+	[Address(RVA = "0x4E0E370", Offset = "0x4E0E370", VA = "0x4E0E370")]
 	private static void ValidateArguments(string name)
 	{
 	}
 
-	[Token(Token = "0x6000CAB")]
-	[Address(RVA = "0x4AE6990", Offset = "0x4AE6990", VA = "0x4AE6990")]
+	[Token(Token = "0x6000CAD")]
+	[Address(RVA = "0x4E0E2C0", Offset = "0x4E0E2C0", VA = "0x4E0E2C0")]
 	[UnityEngine.Bindings.NativeMethod(Name = "ProfilerBindings::BeginSample", IsFreeFunction = true, IsThreadSafe = true)]
 	private static void BeginSampleImpl(string name, Object targetObject)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000CAC")]
-	[Address(RVA = "0x4AE6AF0", Offset = "0x4AE6AF0", VA = "0x4AE6AF0")]
+	[Token(Token = "0x6000CAE")]
+	[Address(RVA = "0x4E0E420", Offset = "0x4E0E420", VA = "0x4E0E420")]
 	[Conditional("ENABLE_PROFILER")]
 	[UnityEngine.Bindings.NativeMethod(Name = "ProfilerBindings::EndSample", IsFreeFunction = true, IsThreadSafe = true)]
 	public static extern void EndSample();
 
-	[Token(Token = "0x6000CAD")]
-	[Address(RVA = "0x4AE6B20", Offset = "0x4AE6B20", VA = "0x4AE6B20")]
+	[Token(Token = "0x6000CAF")]
+	[Address(RVA = "0x4E0E450", Offset = "0x4E0E450", VA = "0x4E0E450")]
 	[UnityEngine.Bindings.NativeMethod(Name = "ProfilerBindings::GetRuntimeMemorySizeLong", IsFreeFunction = true)]
 	public static long GetRuntimeMemorySizeLong([UnityEngine.Bindings.NotNull("ArgumentNullException")] Object o)
 	{
@@ -57,12 +64,12 @@ public sealed class Profiler
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000CAE")]
-	[Address(RVA = "0x4AE6AB0", Offset = "0x4AE6AB0", VA = "0x4AE6AB0")]
+	[Token(Token = "0x6000CB0")]
+	[Address(RVA = "0x4E0E3E0", Offset = "0x4E0E3E0", VA = "0x4E0E3E0")]
 	private static extern void BeginSampleImpl_Injected(string name, IntPtr targetObject);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000CAF")]
-	[Address(RVA = "0x4AE6BF0", Offset = "0x4AE6BF0", VA = "0x4AE6BF0")]
+	[Token(Token = "0x6000CB1")]
+	[Address(RVA = "0x4E0E520", Offset = "0x4E0E520", VA = "0x4E0E520")]
 	private static extern long GetRuntimeMemorySizeLong_Injected(IntPtr o);
 }

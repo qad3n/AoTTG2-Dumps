@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Diagnostics.ProcessStartInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
@@ -115,7 +122,7 @@ public sealed class ProcessStartInfo
 	public Collection<string> ArgumentList
 	{
 		[Token(Token = "0x60004D4")]
-		[Address(RVA = "0x4606720", Offset = "0x4606720", VA = "0x4606720")]
+		[Address(RVA = "0x492B820", Offset = "0x492B820", VA = "0x492B820")]
 		get
 		{
 			return null;
@@ -131,13 +138,13 @@ public sealed class ProcessStartInfo
 	public string Arguments
 	{
 		[Token(Token = "0x60004D5")]
-		[Address(RVA = "0x46067C0", Offset = "0x46067C0", VA = "0x46067C0")]
+		[Address(RVA = "0x492B8C0", Offset = "0x492B8C0", VA = "0x492B8C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60004D6")]
-		[Address(RVA = "0x4606850", Offset = "0x4606850", VA = "0x4606850")]
+		[Address(RVA = "0x492B950", Offset = "0x492B950", VA = "0x492B950")]
 		set
 		{
 		}
@@ -152,7 +159,7 @@ public sealed class ProcessStartInfo
 	public StringDictionary EnvironmentVariables
 	{
 		[Token(Token = "0x60004D7")]
-		[Address(RVA = "0x46060C0", Offset = "0x46060C0", VA = "0x46060C0")]
+		[Address(RVA = "0x492B1C0", Offset = "0x492B1C0", VA = "0x492B1C0")]
 		get
 		{
 			return null;
@@ -166,7 +173,7 @@ public sealed class ProcessStartInfo
 	public bool RedirectStandardInput
 	{
 		[Token(Token = "0x60004D8")]
-		[Address(RVA = "0x4606860", Offset = "0x4606860", VA = "0x4606860")]
+		[Address(RVA = "0x492B960", Offset = "0x492B960", VA = "0x492B960")]
 		get
 		{
 			return default(bool);
@@ -180,7 +187,7 @@ public sealed class ProcessStartInfo
 	public bool RedirectStandardOutput
 	{
 		[Token(Token = "0x60004D9")]
-		[Address(RVA = "0x4606870", Offset = "0x4606870", VA = "0x4606870")]
+		[Address(RVA = "0x492B970", Offset = "0x492B970", VA = "0x492B970")]
 		get
 		{
 			return default(bool);
@@ -194,7 +201,7 @@ public sealed class ProcessStartInfo
 	public bool RedirectStandardError
 	{
 		[Token(Token = "0x60004DA")]
-		[Address(RVA = "0x4606880", Offset = "0x4606880", VA = "0x4606880")]
+		[Address(RVA = "0x492B980", Offset = "0x492B980", VA = "0x492B980")]
 		get
 		{
 			return default(bool);
@@ -205,7 +212,7 @@ public sealed class ProcessStartInfo
 	public Encoding StandardErrorEncoding
 	{
 		[Token(Token = "0x60004DB")]
-		[Address(RVA = "0x4606890", Offset = "0x4606890", VA = "0x4606890")]
+		[Address(RVA = "0x492B990", Offset = "0x492B990", VA = "0x492B990")]
 		get
 		{
 			return null;
@@ -216,7 +223,7 @@ public sealed class ProcessStartInfo
 	public Encoding StandardOutputEncoding
 	{
 		[Token(Token = "0x60004DC")]
-		[Address(RVA = "0x46068A0", Offset = "0x46068A0", VA = "0x46068A0")]
+		[Address(RVA = "0x492B9A0", Offset = "0x492B9A0", VA = "0x492B9A0")]
 		get
 		{
 			return null;
@@ -230,7 +237,7 @@ public sealed class ProcessStartInfo
 	public bool UseShellExecute
 	{
 		[Token(Token = "0x60004DD")]
-		[Address(RVA = "0x46068B0", Offset = "0x46068B0", VA = "0x46068B0")]
+		[Address(RVA = "0x492B9B0", Offset = "0x492B9B0", VA = "0x492B9B0")]
 		get
 		{
 			return default(bool);
@@ -242,7 +249,7 @@ public sealed class ProcessStartInfo
 	public string UserName
 	{
 		[Token(Token = "0x60004DE")]
-		[Address(RVA = "0x4605D00", Offset = "0x4605D00", VA = "0x4605D00")]
+		[Address(RVA = "0x492AE00", Offset = "0x492AE00", VA = "0x492AE00")]
 		get
 		{
 			return null;
@@ -253,7 +260,7 @@ public sealed class ProcessStartInfo
 	public SecureString Password
 	{
 		[Token(Token = "0x60004DF")]
-		[Address(RVA = "0x46068C0", Offset = "0x46068C0", VA = "0x46068C0")]
+		[Address(RVA = "0x492B9C0", Offset = "0x492B9C0", VA = "0x492B9C0")]
 		get
 		{
 			return null;
@@ -265,7 +272,7 @@ public sealed class ProcessStartInfo
 	public string Domain
 	{
 		[Token(Token = "0x60004E0")]
-		[Address(RVA = "0x4606820", Offset = "0x4606820", VA = "0x4606820")]
+		[Address(RVA = "0x492B920", Offset = "0x492B920", VA = "0x492B920")]
 		get
 		{
 			return null;
@@ -277,7 +284,7 @@ public sealed class ProcessStartInfo
 	public bool LoadUserProfile
 	{
 		[Token(Token = "0x60004E1")]
-		[Address(RVA = "0x46068D0", Offset = "0x46068D0", VA = "0x46068D0")]
+		[Address(RVA = "0x492B9D0", Offset = "0x492B9D0", VA = "0x492B9D0")]
 		get
 		{
 			return default(bool);
@@ -294,7 +301,7 @@ public sealed class ProcessStartInfo
 	public string FileName
 	{
 		[Token(Token = "0x60004E2")]
-		[Address(RVA = "0x4603F50", Offset = "0x4603F50", VA = "0x4603F50")]
+		[Address(RVA = "0x4929050", Offset = "0x4929050", VA = "0x4929050")]
 		get
 		{
 			return null;
@@ -311,7 +318,7 @@ public sealed class ProcessStartInfo
 	public string WorkingDirectory
 	{
 		[Token(Token = "0x60004E3")]
-		[Address(RVA = "0x46067F0", Offset = "0x46067F0", VA = "0x46067F0")]
+		[Address(RVA = "0x492B8F0", Offset = "0x492B8F0", VA = "0x492B8F0")]
 		get
 		{
 			return null;
@@ -322,7 +329,7 @@ public sealed class ProcessStartInfo
 	internal bool HaveEnvVars
 	{
 		[Token(Token = "0x60004E4")]
-		[Address(RVA = "0x46060B0", Offset = "0x46060B0", VA = "0x46060B0")]
+		[Address(RVA = "0x492B1B0", Offset = "0x492B1B0", VA = "0x492B1B0")]
 		get
 		{
 			return default(bool);
@@ -333,7 +340,7 @@ public sealed class ProcessStartInfo
 	public Encoding StandardInputEncoding
 	{
 		[Token(Token = "0x60004E5")]
-		[Address(RVA = "0x46068E0", Offset = "0x46068E0", VA = "0x46068E0")]
+		[Address(RVA = "0x492B9E0", Offset = "0x492B9E0", VA = "0x492B9E0")]
 		[CompilerGenerated]
 		get
 		{
@@ -342,13 +349,13 @@ public sealed class ProcessStartInfo
 	}
 
 	[Token(Token = "0x60004D2")]
-	[Address(RVA = "0x4603240", Offset = "0x4603240", VA = "0x4603240")]
+	[Address(RVA = "0x4928340", Offset = "0x4928340", VA = "0x4928340")]
 	internal ProcessStartInfo(Process parent)
 	{
 	}
 
 	[Token(Token = "0x60004D3")]
-	[Address(RVA = "0x4605940", Offset = "0x4605940", VA = "0x4605940")]
+	[Address(RVA = "0x492AA40", Offset = "0x492AA40", VA = "0x492AA40")]
 	public ProcessStartInfo(string fileName)
 	{
 	}

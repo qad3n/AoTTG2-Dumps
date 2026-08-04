@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.XR.Hand
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
@@ -26,7 +33,7 @@ public struct Hand : IEquatable<Hand>
 	internal ulong deviceId
 	{
 		[Token(Token = "0x600000F")]
-		[Address(RVA = "0x4DE44B0", Offset = "0x4DE44B0", VA = "0x4DE44B0")]
+		[Address(RVA = "0x510C540", Offset = "0x510C540", VA = "0x510C540")]
 		get
 		{
 			return default(ulong);
@@ -37,7 +44,7 @@ public struct Hand : IEquatable<Hand>
 	internal uint featureIndex
 	{
 		[Token(Token = "0x6000010")]
-		[Address(RVA = "0x4DE44C0", Offset = "0x4DE44C0", VA = "0x4DE44C0")]
+		[Address(RVA = "0x510C550", Offset = "0x510C550", VA = "0x510C550")]
 		get
 		{
 			return default(uint);
@@ -45,21 +52,21 @@ public struct Hand : IEquatable<Hand>
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x4DE44D0", Offset = "0x4DE44D0", VA = "0x4DE44D0", Slot = "0")]
+	[Address(RVA = "0x510C560", Offset = "0x510C560", VA = "0x510C560", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x4DE4540", Offset = "0x4DE4540", VA = "0x4DE4540", Slot = "4")]
+	[Address(RVA = "0x510C5D0", Offset = "0x510C5D0", VA = "0x510C5D0", Slot = "4")]
 	public bool Equals(Hand other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x4DE4550", Offset = "0x4DE4550", VA = "0x4DE4550", Slot = "2")]
+	[Address(RVA = "0x510C5E0", Offset = "0x510C5E0", VA = "0x510C5E0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

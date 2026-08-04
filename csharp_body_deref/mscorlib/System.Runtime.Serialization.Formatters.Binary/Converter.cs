@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Serialization.Formatters.Binary.Converter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Reflection;
 using Il2CppDummyDll;
 
@@ -195,107 +202,107 @@ internal sealed class Converter
 	internal static Type typeofMarshalByRefObject;
 
 	[Token(Token = "0x6002094")]
-	[Address(RVA = "0x4EBBA20", Offset = "0x4EBBA20", VA = "0x4EBBA20")]
+	[Address(RVA = "0x3BA1540", Offset = "0x3BA1540", VA = "0x3BA1540")]
 	internal static System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE ToCode(Type type)
 	{
 		return default(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE);
 	}
 
 	[Token(Token = "0x6002095")]
-	[Address(RVA = "0x4EC0890", Offset = "0x4EC0890", VA = "0x4EC0890")]
+	[Address(RVA = "0x3BA63B0", Offset = "0x3BA63B0", VA = "0x3BA63B0")]
 	internal static bool IsWriteAsByteArray(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6002096")]
-	[Address(RVA = "0x4EC08B0", Offset = "0x4EC08B0", VA = "0x4EC08B0")]
+	[Address(RVA = "0x3BA63D0", Offset = "0x3BA63D0", VA = "0x3BA63D0")]
 	internal static int TypeLength(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6002097")]
-	[Address(RVA = "0x4EBC4E0", Offset = "0x4EBC4E0", VA = "0x4EBC4E0")]
+	[Address(RVA = "0x3BA2000", Offset = "0x3BA2000", VA = "0x3BA2000")]
 	internal static Type ToArrayType(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6002098")]
-	[Address(RVA = "0x4EC0DF0", Offset = "0x4EC0DF0", VA = "0x4EC0DF0")]
+	[Address(RVA = "0x3BA6910", Offset = "0x3BA6910", VA = "0x3BA6910")]
 	private static void InitTypeA()
 	{
 	}
 
 	[Token(Token = "0x6002099")]
-	[Address(RVA = "0x4EC08D0", Offset = "0x4EC08D0", VA = "0x4EC08D0")]
+	[Address(RVA = "0x3BA63F0", Offset = "0x3BA63F0", VA = "0x3BA63F0")]
 	private static void InitArrayTypeA()
 	{
 	}
 
 	[Token(Token = "0x600209A")]
-	[Address(RVA = "0x4EBC410", Offset = "0x4EBC410", VA = "0x4EBC410")]
+	[Address(RVA = "0x3BA1F30", Offset = "0x3BA1F30", VA = "0x3BA1F30")]
 	internal static Type ToType(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600209B")]
-	[Address(RVA = "0x4EC1300", Offset = "0x4EC1300", VA = "0x4EC1300")]
+	[Address(RVA = "0x3BA6E20", Offset = "0x3BA6E20", VA = "0x3BA6E20")]
 	internal static Array CreatePrimitiveArray(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, int length)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600209C")]
-	[Address(RVA = "0x4EBB430", Offset = "0x4EBB430", VA = "0x4EBB430")]
+	[Address(RVA = "0x3BA0F50", Offset = "0x3BA0F50", VA = "0x3BA0F50")]
 	internal static bool IsPrimitiveArray(Type type, out object typeInformation)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600209D")]
-	[Address(RVA = "0x4EC1410", Offset = "0x4EC1410", VA = "0x4EC1410")]
+	[Address(RVA = "0x3BA6F30", Offset = "0x3BA6F30", VA = "0x3BA6F30")]
 	private static void InitValueA()
 	{
 	}
 
 	[Token(Token = "0x600209E")]
-	[Address(RVA = "0x4EBC340", Offset = "0x4EBC340", VA = "0x4EBC340")]
+	[Address(RVA = "0x3BA1E60", Offset = "0x3BA1E60", VA = "0x3BA1E60")]
 	internal static string ToComType(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600209F")]
-	[Address(RVA = "0x4EC1790", Offset = "0x4EC1790", VA = "0x4EC1790")]
+	[Address(RVA = "0x3BA72B0", Offset = "0x3BA72B0", VA = "0x3BA72B0")]
 	private static void InitTypeCodeA()
 	{
 	}
 
 	[Token(Token = "0x60020A0")]
-	[Address(RVA = "0x4EC1920", Offset = "0x4EC1920", VA = "0x4EC1920")]
+	[Address(RVA = "0x3BA7440", Offset = "0x3BA7440", VA = "0x3BA7440")]
 	internal static TypeCode ToTypeCode(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
 	{
 		return default(TypeCode);
 	}
 
 	[Token(Token = "0x60020A1")]
-	[Address(RVA = "0x4EC19F0", Offset = "0x4EC19F0", VA = "0x4EC19F0")]
+	[Address(RVA = "0x3BA7510", Offset = "0x3BA7510", VA = "0x3BA7510")]
 	private static void InitCodeA()
 	{
 	}
 
 	[Token(Token = "0x60020A2")]
-	[Address(RVA = "0x4EC07C0", Offset = "0x4EC07C0", VA = "0x4EC07C0")]
+	[Address(RVA = "0x3BA62E0", Offset = "0x3BA62E0", VA = "0x3BA62E0")]
 	internal static System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE ToPrimitiveTypeEnum(TypeCode typeCode)
 	{
 		return default(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE);
 	}
 
 	[Token(Token = "0x60020A3")]
-	[Address(RVA = "0x4EC1BB0", Offset = "0x4EC1BB0", VA = "0x4EC1BB0")]
+	[Address(RVA = "0x3BA76D0", Offset = "0x3BA76D0", VA = "0x3BA76D0")]
 	internal static object FromString(string value, System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
 	{
 		return null;

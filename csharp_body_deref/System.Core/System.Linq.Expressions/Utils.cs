@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Utils
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions;
@@ -118,14 +125,14 @@ internal static class Utils
 	public static readonly ConstantExpression Null;
 
 	[Token(Token = "0x6000582")]
-	[Address(RVA = "0x419CAD0", Offset = "0x419CAD0", VA = "0x419CAD0")]
+	[Address(RVA = "0x44C1BD0", Offset = "0x44C1BD0", VA = "0x44C1BD0")]
 	public static ConstantExpression Constant(bool value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000583")]
-	[Address(RVA = "0x419CB30", Offset = "0x419CB30", VA = "0x419CB30")]
+	[Address(RVA = "0x44C1C30", Offset = "0x44C1C30", VA = "0x44C1C30")]
 	public static ConstantExpression Constant(int value)
 	{
 		return null;

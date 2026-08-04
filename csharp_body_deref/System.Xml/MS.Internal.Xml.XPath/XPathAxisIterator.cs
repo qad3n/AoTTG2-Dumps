@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MS.Internal.Xml.XPath.XPathAxisIterator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.XPath;
 using Il2CppDummyDll;
 
@@ -38,7 +45,7 @@ internal abstract class XPathAxisIterator : XPathNodeIterator
 	public override XPathNavigator Current
 	{
 		[Token(Token = "0x6001C0B")]
-		[Address(RVA = "0x444CD50", Offset = "0x444CD50", VA = "0x444CD50", Slot = "8")]
+		[Address(RVA = "0x478A4B0", Offset = "0x478A4B0", VA = "0x478A4B0", Slot = "8")]
 		get
 		{
 			return null;
@@ -49,7 +56,7 @@ internal abstract class XPathAxisIterator : XPathNodeIterator
 	public override int CurrentPosition
 	{
 		[Token(Token = "0x6001C0C")]
-		[Address(RVA = "0x444CD60", Offset = "0x444CD60", VA = "0x444CD60", Slot = "9")]
+		[Address(RVA = "0x478A4C0", Offset = "0x478A4C0", VA = "0x478A4C0", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -60,7 +67,7 @@ internal abstract class XPathAxisIterator : XPathNodeIterator
 	protected virtual bool Matches
 	{
 		[Token(Token = "0x6001C0D")]
-		[Address(RVA = "0x444CD70", Offset = "0x444CD70", VA = "0x444CD70", Slot = "12")]
+		[Address(RVA = "0x478A4D0", Offset = "0x478A4D0", VA = "0x478A4D0", Slot = "12")]
 		get
 		{
 			return default(bool);
@@ -68,25 +75,25 @@ internal abstract class XPathAxisIterator : XPathNodeIterator
 	}
 
 	[Token(Token = "0x6001C07")]
-	[Address(RVA = "0x444CB50", Offset = "0x444CB50", VA = "0x444CB50")]
+	[Address(RVA = "0x478A2B0", Offset = "0x478A2B0", VA = "0x478A2B0")]
 	public XPathAxisIterator(XPathNavigator nav, bool matchSelf)
 	{
 	}
 
 	[Token(Token = "0x6001C08")]
-	[Address(RVA = "0x444CB90", Offset = "0x444CB90", VA = "0x444CB90")]
+	[Address(RVA = "0x478A2F0", Offset = "0x478A2F0", VA = "0x478A2F0")]
 	public XPathAxisIterator(XPathNavigator nav, XPathNodeType type, bool matchSelf)
 	{
 	}
 
 	[Token(Token = "0x6001C09")]
-	[Address(RVA = "0x444CBE0", Offset = "0x444CBE0", VA = "0x444CBE0")]
+	[Address(RVA = "0x478A340", Offset = "0x478A340", VA = "0x478A340")]
 	public XPathAxisIterator(XPathNavigator nav, string name, string namespaceURI, bool matchSelf)
 	{
 	}
 
 	[Token(Token = "0x6001C0A")]
-	[Address(RVA = "0x444CCC0", Offset = "0x444CCC0", VA = "0x444CCC0")]
+	[Address(RVA = "0x478A420", Offset = "0x478A420", VA = "0x478A420")]
 	public XPathAxisIterator(XPathAxisIterator it)
 	{
 	}

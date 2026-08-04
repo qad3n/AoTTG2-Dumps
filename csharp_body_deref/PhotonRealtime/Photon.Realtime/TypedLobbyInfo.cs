@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Realtime.TypedLobbyInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonRealtime/Code/LoadbalancingPeer.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Photon.Realtime;
@@ -14,14 +21,14 @@ public class TypedLobbyInfo : TypedLobby
 	public int RoomCount;
 
 	[Token(Token = "0x600013D")]
-	[Address(RVA = "0x3BD9900", Offset = "0x3BD9900", VA = "0x3BD9900", Slot = "3")]
+	[Address(RVA = "0x3ECF250", Offset = "0x3ECF250", VA = "0x3ECF250", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600013E")]
-	[Address(RVA = "0x3BD5040", Offset = "0x3BD5040", VA = "0x3BD5040")]
+	[Address(RVA = "0x3ECA990", Offset = "0x3ECA990", VA = "0x3ECA990")]
 	public TypedLobbyInfo()
 	{
 	}

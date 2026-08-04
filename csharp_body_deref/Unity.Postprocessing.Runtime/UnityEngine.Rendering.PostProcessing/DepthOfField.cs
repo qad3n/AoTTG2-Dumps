@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.DepthOfField
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -33,14 +40,14 @@ public sealed class DepthOfField : PostProcessEffectSettings
 	public KernelSizeParameter kernelSize;
 
 	[Token(Token = "0x600003F")]
-	[Address(RVA = "0x48159C0", Offset = "0x48159C0", VA = "0x48159C0", Slot = "4")]
+	[Address(RVA = "0x4B3AAB0", Offset = "0x4B3AAB0", VA = "0x4B3AAB0", Slot = "4")]
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000040")]
-	[Address(RVA = "0x48159F0", Offset = "0x48159F0", VA = "0x48159F0")]
+	[Address(RVA = "0x4B3AAE0", Offset = "0x4B3AAE0", VA = "0x4B3AAE0")]
 	public DepthOfField()
 	{
 	}

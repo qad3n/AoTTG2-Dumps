@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.ReaderPositionInfo
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml;
@@ -13,7 +20,7 @@ internal class ReaderPositionInfo : PositionInfo
 	public override int LineNumber
 	{
 		[Token(Token = "0x6000A81")]
-		[Address(RVA = "0x44A8210", Offset = "0x44A8210", VA = "0x44A8210", Slot = "8")]
+		[Address(RVA = "0x47E5970", Offset = "0x47E5970", VA = "0x47E5970", Slot = "8")]
 		get
 		{
 			return default(int);
@@ -24,7 +31,7 @@ internal class ReaderPositionInfo : PositionInfo
 	public override int LinePosition
 	{
 		[Token(Token = "0x6000A82")]
-		[Address(RVA = "0x44A82B0", Offset = "0x44A82B0", VA = "0x44A82B0", Slot = "9")]
+		[Address(RVA = "0x47E5A10", Offset = "0x47E5A10", VA = "0x47E5A10", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -32,13 +39,13 @@ internal class ReaderPositionInfo : PositionInfo
 	}
 
 	[Token(Token = "0x6000A7F")]
-	[Address(RVA = "0x44A8140", Offset = "0x44A8140", VA = "0x44A8140")]
+	[Address(RVA = "0x47E58A0", Offset = "0x47E58A0", VA = "0x47E58A0")]
 	public ReaderPositionInfo(IXmlLineInfo lineInfo)
 	{
 	}
 
 	[Token(Token = "0x6000A80")]
-	[Address(RVA = "0x44A8180", Offset = "0x44A8180", VA = "0x44A8180", Slot = "7")]
+	[Address(RVA = "0x47E58E0", Offset = "0x47E58E0", VA = "0x47E58E0", Slot = "7")]
 	public override bool HasLineInfo()
 	{
 		return default(bool);

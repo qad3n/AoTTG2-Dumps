@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.VisualScripting.VariableDeclarations
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -27,13 +34,13 @@ public sealed class VariableDeclarations : IEnumerable<VariableDeclaration>, IEn
 	public object this[[InspectorVariableName(ActionDirection.Any)] string variable]
 	{
 		[Token(Token = "0x6001129")]
-		[Address(RVA = "0x4A416B0", Offset = "0x4A416B0", VA = "0x4A416B0")]
+		[Address(RVA = "0x4D66270", Offset = "0x4D66270", VA = "0x4D66270")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600112A")]
-		[Address(RVA = "0x4A416C0", Offset = "0x4A416C0", VA = "0x4A416C0")]
+		[Address(RVA = "0x4D66280", Offset = "0x4D66280", VA = "0x4D66280")]
 		set
 		{
 		}
@@ -43,7 +50,7 @@ public sealed class VariableDeclarations : IEnumerable<VariableDeclaration>, IEn
 	private ICloner Unity_002EVisualScripting_002EISpecifiesCloner_002Ecloner
 	{
 		[Token(Token = "0x6001134")]
-		[Address(RVA = "0x4A42470", Offset = "0x4A42470", VA = "0x4A42470", Slot = "6")]
+		[Address(RVA = "0x4D67030", Offset = "0x4D67030", VA = "0x4D67030", Slot = "6")]
 		get
 		{
 			return null;
@@ -51,19 +58,19 @@ public sealed class VariableDeclarations : IEnumerable<VariableDeclaration>, IEn
 	}
 
 	[Token(Token = "0x6001128")]
-	[Address(RVA = "0x4A41560", Offset = "0x4A41560", VA = "0x4A41560")]
+	[Address(RVA = "0x4D66120", Offset = "0x4D66120", VA = "0x4D66120")]
 	public VariableDeclarations()
 	{
 	}
 
 	[Token(Token = "0x600112B")]
-	[Address(RVA = "0x4A42160", Offset = "0x4A42160", VA = "0x4A42160")]
+	[Address(RVA = "0x4D66D20", Offset = "0x4D66D20", VA = "0x4D66D20")]
 	public void Set([InspectorVariableName(ActionDirection.Set)] string variable, object value)
 	{
 	}
 
 	[Token(Token = "0x600112C")]
-	[Address(RVA = "0x4A42060", Offset = "0x4A42060", VA = "0x4A42060")]
+	[Address(RVA = "0x4D66C20", Offset = "0x4D66C20", VA = "0x4D66C20")]
 	public object Get([InspectorVariableName(ActionDirection.Get)] string variable)
 	{
 		return null;
@@ -76,41 +83,41 @@ public sealed class VariableDeclarations : IEnumerable<VariableDeclaration>, IEn
 	}
 
 	[Token(Token = "0x600112E")]
-	[Address(RVA = "0x4A42290", Offset = "0x4A42290", VA = "0x4A42290")]
+	[Address(RVA = "0x4D66E50", Offset = "0x4D66E50", VA = "0x4D66E50")]
 	public object Get([InspectorVariableName(ActionDirection.Get)] string variable, Type expectedType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600112F")]
-	[Address(RVA = "0x4A42300", Offset = "0x4A42300", VA = "0x4A42300")]
+	[Address(RVA = "0x4D66EC0", Offset = "0x4D66EC0", VA = "0x4D66EC0")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x6001130")]
-	[Address(RVA = "0x4A415F0", Offset = "0x4A415F0", VA = "0x4A415F0")]
+	[Address(RVA = "0x4D661B0", Offset = "0x4D661B0", VA = "0x4D661B0")]
 	public bool IsDefined([InspectorVariableName(ActionDirection.Any)] string variable)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001131")]
-	[Address(RVA = "0x4A42340", Offset = "0x4A42340", VA = "0x4A42340")]
+	[Address(RVA = "0x4D66F00", Offset = "0x4D66F00", VA = "0x4D66F00")]
 	public VariableDeclaration GetDeclaration(string variable)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001132")]
-	[Address(RVA = "0x4A416D0", Offset = "0x4A416D0", VA = "0x4A416D0", Slot = "4")]
+	[Address(RVA = "0x4D66290", Offset = "0x4D66290", VA = "0x4D66290", Slot = "4")]
 	public IEnumerator<VariableDeclaration> GetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001133")]
-	[Address(RVA = "0x4A423E0", Offset = "0x4A423E0", VA = "0x4A423E0", Slot = "5")]
+	[Address(RVA = "0x4D66FA0", Offset = "0x4D66FA0", VA = "0x4D66FA0", Slot = "5")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;

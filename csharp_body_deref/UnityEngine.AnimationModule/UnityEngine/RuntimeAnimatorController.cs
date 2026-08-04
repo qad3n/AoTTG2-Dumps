@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.RuntimeAnimatorController
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -16,7 +23,7 @@ public class RuntimeAnimatorController : Object
 	public AnimationClip[] animationClips
 	{
 		[Token(Token = "0x60000A0")]
-		[Address(RVA = "0x4A7E910", Offset = "0x4A7E910", VA = "0x4A7E910")]
+		[Address(RVA = "0x4DA6130", Offset = "0x4DA6130", VA = "0x4DA6130")]
 		get
 		{
 			return null;
@@ -24,13 +31,13 @@ public class RuntimeAnimatorController : Object
 	}
 
 	[Token(Token = "0x600009F")]
-	[Address(RVA = "0x4A7E8A0", Offset = "0x4A7E8A0", VA = "0x4A7E8A0")]
+	[Address(RVA = "0x4DA60C0", Offset = "0x4DA60C0", VA = "0x4DA60C0")]
 	protected RuntimeAnimatorController()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60000A1")]
-	[Address(RVA = "0x4A7E9B0", Offset = "0x4A7E9B0", VA = "0x4A7E9B0")]
+	[Address(RVA = "0x4DA61D0", Offset = "0x4DA61D0", VA = "0x4DA61D0")]
 	private static extern AnimationClip[] get_animationClips_Injected(IntPtr _unity_self);
 }

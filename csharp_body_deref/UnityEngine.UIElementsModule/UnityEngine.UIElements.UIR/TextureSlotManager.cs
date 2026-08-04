@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UIR.TextureSlotManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -50,14 +57,14 @@ internal class TextureSlotManager
 	public int FreeSlots
 	{
 		[Token(Token = "0x6001DE4")]
-		[Address(RVA = "0x4C80AC0", Offset = "0x4C80AC0", VA = "0x4C80AC0")]
+		[Address(RVA = "0x4FA83F0", Offset = "0x4FA83F0", VA = "0x4FA83F0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6001DE5")]
-		[Address(RVA = "0x4C80AD0", Offset = "0x4C80AD0", VA = "0x4C80AD0")]
+		[Address(RVA = "0x4FA8400", Offset = "0x4FA8400", VA = "0x4FA8400")]
 		[CompilerGenerated]
 		private set
 		{
@@ -65,31 +72,31 @@ internal class TextureSlotManager
 	}
 
 	[Token(Token = "0x6001DDE")]
-	[Address(RVA = "0x4C803D0", Offset = "0x4C803D0", VA = "0x4C803D0")]
+	[Address(RVA = "0x4FA7D00", Offset = "0x4FA7D00", VA = "0x4FA7D00")]
 	static TextureSlotManager()
 	{
 	}
 
 	[Token(Token = "0x6001DDF")]
-	[Address(RVA = "0x4C80520", Offset = "0x4C80520", VA = "0x4C80520")]
+	[Address(RVA = "0x4FA7E50", Offset = "0x4FA7E50", VA = "0x4FA7E50")]
 	public TextureSlotManager()
 	{
 	}
 
 	[Token(Token = "0x6001DE0")]
-	[Address(RVA = "0x4C806D0", Offset = "0x4C806D0", VA = "0x4C806D0")]
+	[Address(RVA = "0x4FA8000", Offset = "0x4FA8000", VA = "0x4FA8000")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001DE1")]
-	[Address(RVA = "0x4C80920", Offset = "0x4C80920", VA = "0x4C80920")]
+	[Address(RVA = "0x4FA8250", Offset = "0x4FA8250", VA = "0x4FA8250")]
 	public void StartNewBatch()
 	{
 	}
 
 	[Token(Token = "0x6001DE2")]
-	[Address(RVA = "0x4C80980", Offset = "0x4C80980", VA = "0x4C80980")]
+	[Address(RVA = "0x4FA82B0", Offset = "0x4FA82B0", VA = "0x4FA82B0")]
 	public int IndexOf(TextureId id)
 	{
 		return default(int);
@@ -97,26 +104,26 @@ internal class TextureSlotManager
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6001DE3")]
-	[Address(RVA = "0x4C80A80", Offset = "0x4C80A80", VA = "0x4C80A80")]
+	[Address(RVA = "0x4FA83B0", Offset = "0x4FA83B0", VA = "0x4FA83B0")]
 	public void MarkUsed(int slotIndex)
 	{
 	}
 
 	[Token(Token = "0x6001DE6")]
-	[Address(RVA = "0x4C80AE0", Offset = "0x4C80AE0", VA = "0x4C80AE0")]
+	[Address(RVA = "0x4FA8410", Offset = "0x4FA8410", VA = "0x4FA8410")]
 	public int FindOldestSlot()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001DE7")]
-	[Address(RVA = "0x4C80BC0", Offset = "0x4C80BC0", VA = "0x4C80BC0")]
+	[Address(RVA = "0x4FA84F0", Offset = "0x4FA84F0", VA = "0x4FA84F0")]
 	public void Bind(TextureId id, float sdfScale, float sharpness, int slot, MaterialPropertyBlock mat)
 	{
 	}
 
 	[Token(Token = "0x6001DE8")]
-	[Address(RVA = "0x4C807F0", Offset = "0x4C807F0", VA = "0x4C807F0")]
+	[Address(RVA = "0x4FA8120", Offset = "0x4FA8120", VA = "0x4FA8120")]
 	public void SetGpuData(int slotIndex, TextureId id, int textureWidth, int textureHeight, float sdfScale, float sharpness)
 	{
 	}

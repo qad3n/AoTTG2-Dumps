@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Net.Mime.MailBnfHelper
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Net.Mime;
@@ -102,49 +109,49 @@ internal static class MailBnfHelper
 	private static string[] s_months;
 
 	[Token(Token = "0x6000E00")]
-	[Address(RVA = "0x46A6A50", Offset = "0x46A6A50", VA = "0x46A6A50")]
+	[Address(RVA = "0x49CBB50", Offset = "0x49CBB50", VA = "0x49CBB50")]
 	private static bool[] CreateCharactersAllowedInAtoms()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E01")]
-	[Address(RVA = "0x46A6EC0", Offset = "0x46A6EC0", VA = "0x46A6EC0")]
+	[Address(RVA = "0x49CBFC0", Offset = "0x49CBFC0", VA = "0x49CBFC0")]
 	private static bool[] CreateCharactersAllowedInQuotedStrings()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E02")]
-	[Address(RVA = "0x46A7520", Offset = "0x46A7520", VA = "0x46A7520")]
+	[Address(RVA = "0x49CC620", Offset = "0x49CC620", VA = "0x49CC620")]
 	private static bool[] CreateCharactersAllowedInDomainLiterals()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E03")]
-	[Address(RVA = "0x46A7B60", Offset = "0x46A7B60", VA = "0x46A7B60")]
+	[Address(RVA = "0x49CCC60", Offset = "0x49CCC60", VA = "0x49CCC60")]
 	private static bool[] CreateCharactersAllowedInHeaderNames()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E04")]
-	[Address(RVA = "0x46A7D10", Offset = "0x46A7D10", VA = "0x46A7D10")]
+	[Address(RVA = "0x49CCE10", Offset = "0x49CCE10", VA = "0x49CCE10")]
 	private static bool[] CreateCharactersAllowedInTokens()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E05")]
-	[Address(RVA = "0x46A7DF0", Offset = "0x46A7DF0", VA = "0x46A7DF0")]
+	[Address(RVA = "0x49CCEF0", Offset = "0x49CCEF0", VA = "0x49CCEF0")]
 	private static bool[] CreateCharactersAllowedInComments()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E06")]
-	[Address(RVA = "0x46A8430", Offset = "0x46A8430", VA = "0x46A8430")]
+	[Address(RVA = "0x49CD530", Offset = "0x49CD530", VA = "0x49CD530")]
 	internal static bool IsAllowedWhiteSpace(char c)
 	{
 		return default(bool);

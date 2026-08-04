@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Vector3IntField
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine.Scripting.APIUpdating;
 
@@ -11,7 +18,7 @@ public class Vector3IntField : BaseCompositeField<Vector3Int, IntegerField, int>
 	public new class UxmlFactory : UxmlFactory<Vector3IntField, UxmlTraits>
 	{
 		[Token(Token = "0x60003AF")]
-		[Address(RVA = "0x4C0FA30", Offset = "0x4C0FA30", VA = "0x4C0FA30")]
+		[Address(RVA = "0x4F37360", Offset = "0x4F37360", VA = "0x4F37360")]
 		public UxmlFactory()
 		{
 		}
@@ -33,13 +40,13 @@ public class Vector3IntField : BaseCompositeField<Vector3Int, IntegerField, int>
 		private UxmlIntAttributeDescription m_ZValue;
 
 		[Token(Token = "0x60003B0")]
-		[Address(RVA = "0x4C0FA70", Offset = "0x4C0FA70", VA = "0x4C0FA70", Slot = "4")]
+		[Address(RVA = "0x4F373A0", Offset = "0x4F373A0", VA = "0x4F373A0", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x60003B1")]
-		[Address(RVA = "0x4C0FC50", Offset = "0x4C0FC50", VA = "0x4C0FC50")]
+		[Address(RVA = "0x4F37580", Offset = "0x4F37580", VA = "0x4F37580")]
 		public UxmlTraits()
 		{
 		}
@@ -58,20 +65,20 @@ public class Vector3IntField : BaseCompositeField<Vector3Int, IntegerField, int>
 	public new static readonly string inputUssClassName;
 
 	[Token(Token = "0x60003AB")]
-	[Address(RVA = "0x4C0F290", Offset = "0x4C0F290", VA = "0x4C0F290", Slot = "115")]
+	[Address(RVA = "0x4F36BC0", Offset = "0x4F36BC0", VA = "0x4F36BC0", Slot = "115")]
 	internal override FieldDescription[] DescribeFields()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003AC")]
-	[Address(RVA = "0x4C0F930", Offset = "0x4C0F930", VA = "0x4C0F930")]
+	[Address(RVA = "0x4F37260", Offset = "0x4F37260", VA = "0x4F37260")]
 	public Vector3IntField()
 	{
 	}
 
 	[Token(Token = "0x60003AD")]
-	[Address(RVA = "0x4C08E50", Offset = "0x4C08E50", VA = "0x4C08E50")]
+	[Address(RVA = "0x4F30780", Offset = "0x4F30780", VA = "0x4F30780")]
 	public Vector3IntField(string label)
 	{
 	}

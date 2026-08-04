@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Pun.InstantiateParameters
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/Code/PhotonNetwork.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using Photon.Realtime;
 using UnityEngine;
@@ -44,7 +51,7 @@ public struct InstantiateParameters
 	public int timestamp;
 
 	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x3BFB760", Offset = "0x3BFB760", VA = "0x3BFB760")]
+	[Address(RVA = "0x3EDEC60", Offset = "0x3EDEC60", VA = "0x3EDEC60")]
 	public InstantiateParameters(string prefabName, Vector3 position, Quaternion rotation, byte group, object[] data, byte objLevelPrefix, int[] viewIDs, Player creator, int timestamp)
 	{
 	}

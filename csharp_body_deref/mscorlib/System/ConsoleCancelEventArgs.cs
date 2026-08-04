@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ConsoleCancelEventArgs
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -15,7 +22,7 @@ public sealed class ConsoleCancelEventArgs : EventArgs
 	public bool Cancel
 	{
 		[Token(Token = "0x6000C3E")]
-		[Address(RVA = "0x4FF6520", Offset = "0x4FF6520", VA = "0x4FF6520")]
+		[Address(RVA = "0x3CDC040", Offset = "0x3CDC040", VA = "0x3CDC040")]
 		[CompilerGenerated]
 		get
 		{
@@ -24,13 +31,13 @@ public sealed class ConsoleCancelEventArgs : EventArgs
 	}
 
 	[Token(Token = "0x6000C3D")]
-	[Address(RVA = "0x4FF64D0", Offset = "0x4FF64D0", VA = "0x4FF64D0")]
+	[Address(RVA = "0x3CDBFF0", Offset = "0x3CDBFF0", VA = "0x3CDBFF0")]
 	internal ConsoleCancelEventArgs(ConsoleSpecialKey type)
 	{
 	}
 
 	[Token(Token = "0x6000C3F")]
-	[Address(RVA = "0x4FF6530", Offset = "0x4FF6530", VA = "0x4FF6530")]
+	[Address(RVA = "0x3CDC050", Offset = "0x3CDC050", VA = "0x3CDC050")]
 	internal ConsoleCancelEventArgs()
 	{
 	}

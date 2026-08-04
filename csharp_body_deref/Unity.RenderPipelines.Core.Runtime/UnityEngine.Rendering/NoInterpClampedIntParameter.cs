@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.NoInterpClampedIntParameter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using Il2CppDummyDll;
@@ -23,20 +30,20 @@ public class NoInterpClampedIntParameter : VolumeParameter<int>
 	public override int value
 	{
 		[Token(Token = "0x6000DCD")]
-		[Address(RVA = "0x48E6110", Offset = "0x48E6110", VA = "0x48E6110", Slot = "14")]
+		[Address(RVA = "0x4C0B180", Offset = "0x4C0B180", VA = "0x4C0B180", Slot = "14")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000DCE")]
-		[Address(RVA = "0x48E6120", Offset = "0x48E6120", VA = "0x48E6120", Slot = "15")]
+		[Address(RVA = "0x4C0B190", Offset = "0x4C0B190", VA = "0x4C0B190", Slot = "15")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000DCF")]
-	[Address(RVA = "0x48E6140", Offset = "0x48E6140", VA = "0x48E6140")]
+	[Address(RVA = "0x4C0B1B0", Offset = "0x4C0B1B0", VA = "0x4C0B1B0")]
 	public NoInterpClampedIntParameter(int value, int min, int max, bool overrideState = false)
 	{
 	}

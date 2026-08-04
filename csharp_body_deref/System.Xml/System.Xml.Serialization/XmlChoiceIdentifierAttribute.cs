@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlChoiceIdentifierAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Text;
 using Il2CppDummyDll;
 
@@ -15,7 +22,7 @@ public class XmlChoiceIdentifierAttribute : Attribute
 	public string MemberName
 	{
 		[Token(Token = "0x6000D3B")]
-		[Address(RVA = "0x44D69B0", Offset = "0x44D69B0", VA = "0x44D69B0")]
+		[Address(RVA = "0x4814110", Offset = "0x4814110", VA = "0x4814110")]
 		get
 		{
 			return null;
@@ -23,7 +30,7 @@ public class XmlChoiceIdentifierAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000D3C")]
-	[Address(RVA = "0x44D64D0", Offset = "0x44D64D0", VA = "0x44D64D0")]
+	[Address(RVA = "0x4813C30", Offset = "0x4813C30", VA = "0x4813C30")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

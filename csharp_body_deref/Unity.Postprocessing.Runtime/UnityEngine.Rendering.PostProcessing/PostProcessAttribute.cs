@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.PostProcessing.PostProcessAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -28,13 +35,13 @@ public sealed class PostProcessAttribute : Attribute
 	internal readonly bool builtinEffect;
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x480D570", Offset = "0x480D570", VA = "0x480D570")]
+	[Address(RVA = "0x4B32660", Offset = "0x4B32660", VA = "0x4B32660")]
 	public PostProcessAttribute(Type renderer, PostProcessEvent eventType, string menuItem, bool allowInSceneView = true)
 	{
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x480D5D0", Offset = "0x480D5D0", VA = "0x480D5D0")]
+	[Address(RVA = "0x4B326C0", Offset = "0x4B326C0", VA = "0x4B326C0")]
 	internal PostProcessAttribute(Type renderer, string menuItem, bool allowInSceneView = true)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: MS.Internal.Xml.XPath.Root
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Xml.XPath;
 using Il2CppDummyDll;
 
@@ -10,7 +17,7 @@ internal class Root : AstNode
 	public override AstType Type
 	{
 		[Token(Token = "0x6001BC4")]
-		[Address(RVA = "0x44495D0", Offset = "0x44495D0", VA = "0x44495D0", Slot = "4")]
+		[Address(RVA = "0x4786D30", Offset = "0x4786D30", VA = "0x4786D30", Slot = "4")]
 		get
 		{
 			return default(AstType);
@@ -21,7 +28,7 @@ internal class Root : AstNode
 	public override XPathResultType ReturnType
 	{
 		[Token(Token = "0x6001BC5")]
-		[Address(RVA = "0x44495E0", Offset = "0x44495E0", VA = "0x44495E0", Slot = "5")]
+		[Address(RVA = "0x4786D40", Offset = "0x4786D40", VA = "0x4786D40", Slot = "5")]
 		get
 		{
 			return default(XPathResultType);
@@ -29,7 +36,7 @@ internal class Root : AstNode
 	}
 
 	[Token(Token = "0x6001BC3")]
-	[Address(RVA = "0x44495C0", Offset = "0x44495C0", VA = "0x44495C0")]
+	[Address(RVA = "0x4786D20", Offset = "0x4786D20", VA = "0x4786D20")]
 	public Root()
 	{
 	}

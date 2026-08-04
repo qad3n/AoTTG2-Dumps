@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.DecrementInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -9,14 +16,14 @@ internal abstract class DecrementInstruction : Instruction
 	private sealed class DecrementInt16 : DecrementInstruction
 	{
 		[Token(Token = "0x600067C")]
-		[Address(RVA = "0x41A50A0", Offset = "0x41A50A0", VA = "0x41A50A0", Slot = "8")]
+		[Address(RVA = "0x44CA1A0", Offset = "0x44CA1A0", VA = "0x44CA1A0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x600067D")]
-		[Address(RVA = "0x41A5020", Offset = "0x41A5020", VA = "0x41A5020")]
+		[Address(RVA = "0x44CA120", Offset = "0x44CA120", VA = "0x44CA120")]
 		public DecrementInt16()
 		{
 		}
@@ -26,14 +33,14 @@ internal abstract class DecrementInstruction : Instruction
 	private sealed class DecrementInt32 : DecrementInstruction
 	{
 		[Token(Token = "0x600067E")]
-		[Address(RVA = "0x41A5120", Offset = "0x41A5120", VA = "0x41A5120", Slot = "8")]
+		[Address(RVA = "0x44CA220", Offset = "0x44CA220", VA = "0x44CA220", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x600067F")]
-		[Address(RVA = "0x41A5030", Offset = "0x41A5030", VA = "0x41A5030")]
+		[Address(RVA = "0x44CA130", Offset = "0x44CA130", VA = "0x44CA130")]
 		public DecrementInt32()
 		{
 		}
@@ -43,14 +50,14 @@ internal abstract class DecrementInstruction : Instruction
 	private sealed class DecrementInt64 : DecrementInstruction
 	{
 		[Token(Token = "0x6000680")]
-		[Address(RVA = "0x41A5190", Offset = "0x41A5190", VA = "0x41A5190", Slot = "8")]
+		[Address(RVA = "0x44CA290", Offset = "0x44CA290", VA = "0x44CA290", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000681")]
-		[Address(RVA = "0x41A5040", Offset = "0x41A5040", VA = "0x41A5040")]
+		[Address(RVA = "0x44CA140", Offset = "0x44CA140", VA = "0x44CA140")]
 		public DecrementInt64()
 		{
 		}
@@ -60,14 +67,14 @@ internal abstract class DecrementInstruction : Instruction
 	private sealed class DecrementUInt16 : DecrementInstruction
 	{
 		[Token(Token = "0x6000682")]
-		[Address(RVA = "0x41A5210", Offset = "0x41A5210", VA = "0x41A5210", Slot = "8")]
+		[Address(RVA = "0x44CA310", Offset = "0x44CA310", VA = "0x44CA310", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000683")]
-		[Address(RVA = "0x41A5050", Offset = "0x41A5050", VA = "0x41A5050")]
+		[Address(RVA = "0x44CA150", Offset = "0x44CA150", VA = "0x44CA150")]
 		public DecrementUInt16()
 		{
 		}
@@ -77,14 +84,14 @@ internal abstract class DecrementInstruction : Instruction
 	private sealed class DecrementUInt32 : DecrementInstruction
 	{
 		[Token(Token = "0x6000684")]
-		[Address(RVA = "0x41A5290", Offset = "0x41A5290", VA = "0x41A5290", Slot = "8")]
+		[Address(RVA = "0x44CA390", Offset = "0x44CA390", VA = "0x44CA390", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000685")]
-		[Address(RVA = "0x41A5060", Offset = "0x41A5060", VA = "0x41A5060")]
+		[Address(RVA = "0x44CA160", Offset = "0x44CA160", VA = "0x44CA160")]
 		public DecrementUInt32()
 		{
 		}
@@ -94,14 +101,14 @@ internal abstract class DecrementInstruction : Instruction
 	private sealed class DecrementUInt64 : DecrementInstruction
 	{
 		[Token(Token = "0x6000686")]
-		[Address(RVA = "0x41A5310", Offset = "0x41A5310", VA = "0x41A5310", Slot = "8")]
+		[Address(RVA = "0x44CA410", Offset = "0x44CA410", VA = "0x44CA410", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000687")]
-		[Address(RVA = "0x41A5070", Offset = "0x41A5070", VA = "0x41A5070")]
+		[Address(RVA = "0x44CA170", Offset = "0x44CA170", VA = "0x44CA170")]
 		public DecrementUInt64()
 		{
 		}
@@ -111,14 +118,14 @@ internal abstract class DecrementInstruction : Instruction
 	private sealed class DecrementSingle : DecrementInstruction
 	{
 		[Token(Token = "0x6000688")]
-		[Address(RVA = "0x41A5390", Offset = "0x41A5390", VA = "0x41A5390", Slot = "8")]
+		[Address(RVA = "0x44CA490", Offset = "0x44CA490", VA = "0x44CA490", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x6000689")]
-		[Address(RVA = "0x41A5080", Offset = "0x41A5080", VA = "0x41A5080")]
+		[Address(RVA = "0x44CA180", Offset = "0x44CA180", VA = "0x44CA180")]
 		public DecrementSingle()
 		{
 		}
@@ -128,14 +135,14 @@ internal abstract class DecrementInstruction : Instruction
 	private sealed class DecrementDouble : DecrementInstruction
 	{
 		[Token(Token = "0x600068A")]
-		[Address(RVA = "0x41A5420", Offset = "0x41A5420", VA = "0x41A5420", Slot = "8")]
+		[Address(RVA = "0x44CA520", Offset = "0x44CA520", VA = "0x44CA520", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x600068B")]
-		[Address(RVA = "0x41A5090", Offset = "0x41A5090", VA = "0x41A5090")]
+		[Address(RVA = "0x44CA190", Offset = "0x44CA190", VA = "0x44CA190")]
 		public DecrementDouble()
 		{
 		}
@@ -177,7 +184,7 @@ internal abstract class DecrementInstruction : Instruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x6000677")]
-		[Address(RVA = "0x41A4C00", Offset = "0x41A4C00", VA = "0x41A4C00", Slot = "4")]
+		[Address(RVA = "0x44C9D00", Offset = "0x44C9D00", VA = "0x44C9D00", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -188,7 +195,7 @@ internal abstract class DecrementInstruction : Instruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x6000678")]
-		[Address(RVA = "0x41A4C10", Offset = "0x41A4C10", VA = "0x41A4C10", Slot = "5")]
+		[Address(RVA = "0x44C9D10", Offset = "0x44C9D10", VA = "0x44C9D10", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -199,7 +206,7 @@ internal abstract class DecrementInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x6000679")]
-		[Address(RVA = "0x41A4C20", Offset = "0x41A4C20", VA = "0x41A4C20", Slot = "9")]
+		[Address(RVA = "0x44C9D20", Offset = "0x44C9D20", VA = "0x44C9D20", Slot = "9")]
 		get
 		{
 			return null;
@@ -207,13 +214,13 @@ internal abstract class DecrementInstruction : Instruction
 	}
 
 	[Token(Token = "0x600067A")]
-	[Address(RVA = "0x41A4C50", Offset = "0x41A4C50", VA = "0x41A4C50")]
+	[Address(RVA = "0x44C9D50", Offset = "0x44C9D50", VA = "0x44C9D50")]
 	private DecrementInstruction()
 	{
 	}
 
 	[Token(Token = "0x600067B")]
-	[Address(RVA = "0x41A4C60", Offset = "0x41A4C60", VA = "0x41A4C60")]
+	[Address(RVA = "0x44C9D60", Offset = "0x44C9D60", VA = "0x44C9D60")]
 	public static Instruction Create(Type type)
 	{
 		return null;

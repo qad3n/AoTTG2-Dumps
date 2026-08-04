@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.DropdownMenuAction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -43,7 +50,7 @@ public class DropdownMenuAction : DropdownMenuItem
 	private Status status
 	{
 		[Token(Token = "0x60009A7")]
-		[Address(RVA = "0x4D004F0", Offset = "0x4D004F0", VA = "0x4D004F0")]
+		[Address(RVA = "0x5027E20", Offset = "0x5027E20", VA = "0x5027E20")]
 		[CompilerGenerated]
 		set
 		{
@@ -54,7 +61,7 @@ public class DropdownMenuAction : DropdownMenuItem
 	private DropdownMenuEventInfo eventInfo
 	{
 		[Token(Token = "0x60009A8")]
-		[Address(RVA = "0x4D00500", Offset = "0x4D00500", VA = "0x4D00500")]
+		[Address(RVA = "0x5027E30", Offset = "0x5027E30", VA = "0x5027E30")]
 		[CompilerGenerated]
 		set
 		{
@@ -65,7 +72,7 @@ public class DropdownMenuAction : DropdownMenuItem
 	private object userData
 	{
 		[Token(Token = "0x60009A9")]
-		[Address(RVA = "0x4D00510", Offset = "0x4D00510", VA = "0x4D00510")]
+		[Address(RVA = "0x5027E40", Offset = "0x5027E40", VA = "0x5027E40")]
 		[CompilerGenerated]
 		set
 		{
@@ -73,27 +80,27 @@ public class DropdownMenuAction : DropdownMenuItem
 	}
 
 	[Token(Token = "0x60009AA")]
-	[Address(RVA = "0x4D00520", Offset = "0x4D00520", VA = "0x4D00520")]
+	[Address(RVA = "0x5027E50", Offset = "0x5027E50", VA = "0x5027E50")]
 	public static Status AlwaysEnabled(DropdownMenuAction a)
 	{
 		return default(Status);
 	}
 
 	[Token(Token = "0x60009AB")]
-	[Address(RVA = "0x4D00530", Offset = "0x4D00530", VA = "0x4D00530")]
+	[Address(RVA = "0x5027E60", Offset = "0x5027E60", VA = "0x5027E60")]
 	public static Status AlwaysDisabled(DropdownMenuAction a)
 	{
 		return default(Status);
 	}
 
 	[Token(Token = "0x60009AC")]
-	[Address(RVA = "0x4D00540", Offset = "0x4D00540", VA = "0x4D00540")]
+	[Address(RVA = "0x5027E70", Offset = "0x5027E70", VA = "0x5027E70")]
 	public DropdownMenuAction(string actionName, Action<DropdownMenuAction> actionCallback, Func<DropdownMenuAction, Status> actionStatusCallback, [Optional] object userData)
 	{
 	}
 
 	[Token(Token = "0x60009AD")]
-	[Address(RVA = "0x4D005B0", Offset = "0x4D005B0", VA = "0x4D005B0")]
+	[Address(RVA = "0x5027EE0", Offset = "0x5027EE0", VA = "0x5027EE0")]
 	public void UpdateActionStatus(DropdownMenuEventInfo eventInfo)
 	{
 	}

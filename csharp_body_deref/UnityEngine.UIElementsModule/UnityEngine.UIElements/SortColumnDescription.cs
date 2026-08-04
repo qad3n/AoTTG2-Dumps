@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.SortColumnDescription
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -21,7 +28,7 @@ public class SortColumnDescription
 	internal class UxmlObjectFactory : UxmlObjectFactory<SortColumnDescription>
 	{
 		[Token(Token = "0x600065F")]
-		[Address(RVA = "0x4CC8820", Offset = "0x4CC8820", VA = "0x4CC8820")]
+		[Address(RVA = "0x4FF0150", Offset = "0x4FF0150", VA = "0x4FF0150")]
 		public UxmlObjectFactory()
 		{
 		}
@@ -72,13 +79,13 @@ public class SortColumnDescription
 	public string columnName
 	{
 		[Token(Token = "0x6000651")]
-		[Address(RVA = "0x4CC84A0", Offset = "0x4CC84A0", VA = "0x4CC84A0")]
+		[Address(RVA = "0x4FEFDD0", Offset = "0x4FEFDD0", VA = "0x4FEFDD0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000652")]
-		[Address(RVA = "0x4CC84B0", Offset = "0x4CC84B0", VA = "0x4CC84B0")]
+		[Address(RVA = "0x4FEFDE0", Offset = "0x4FEFDE0", VA = "0x4FEFDE0")]
 		set
 		{
 		}
@@ -88,13 +95,13 @@ public class SortColumnDescription
 	public int columnIndex
 	{
 		[Token(Token = "0x6000653")]
-		[Address(RVA = "0x4CC8510", Offset = "0x4CC8510", VA = "0x4CC8510")]
+		[Address(RVA = "0x4FEFE40", Offset = "0x4FEFE40", VA = "0x4FEFE40")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000654")]
-		[Address(RVA = "0x4CC8520", Offset = "0x4CC8520", VA = "0x4CC8520")]
+		[Address(RVA = "0x4FEFE50", Offset = "0x4FEFE50", VA = "0x4FEFE50")]
 		set
 		{
 		}
@@ -104,14 +111,14 @@ public class SortColumnDescription
 	public Column column
 	{
 		[Token(Token = "0x6000655")]
-		[Address(RVA = "0x4CC8550", Offset = "0x4CC8550", VA = "0x4CC8550")]
+		[Address(RVA = "0x4FEFE80", Offset = "0x4FEFE80", VA = "0x4FEFE80")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000656")]
-		[Address(RVA = "0x4CC8560", Offset = "0x4CC8560", VA = "0x4CC8560")]
+		[Address(RVA = "0x4FEFE90", Offset = "0x4FEFE90", VA = "0x4FEFE90")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -122,13 +129,13 @@ public class SortColumnDescription
 	public SortDirection direction
 	{
 		[Token(Token = "0x6000657")]
-		[Address(RVA = "0x4CC8570", Offset = "0x4CC8570", VA = "0x4CC8570")]
+		[Address(RVA = "0x4FEFEA0", Offset = "0x4FEFEA0", VA = "0x4FEFEA0")]
 		get
 		{
 			return default(SortDirection);
 		}
 		[Token(Token = "0x6000658")]
-		[Address(RVA = "0x4CC8580", Offset = "0x4CC8580", VA = "0x4CC8580")]
+		[Address(RVA = "0x4FEFEB0", Offset = "0x4FEFEB0", VA = "0x4FEFEB0")]
 		set
 		{
 		}
@@ -138,13 +145,13 @@ public class SortColumnDescription
 	internal event Action<SortColumnDescription> changed
 	{
 		[Token(Token = "0x6000659")]
-		[Address(RVA = "0x4CC85B0", Offset = "0x4CC85B0", VA = "0x4CC85B0")]
+		[Address(RVA = "0x4FEFEE0", Offset = "0x4FEFEE0", VA = "0x4FEFEE0")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600065A")]
-		[Address(RVA = "0x4CC8660", Offset = "0x4CC8660", VA = "0x4CC8660")]
+		[Address(RVA = "0x4FEFF90", Offset = "0x4FEFF90", VA = "0x4FEFF90")]
 		[CompilerGenerated]
 		remove
 		{
@@ -152,19 +159,19 @@ public class SortColumnDescription
 	}
 
 	[Token(Token = "0x600065B")]
-	[Address(RVA = "0x4CC8710", Offset = "0x4CC8710", VA = "0x4CC8710")]
+	[Address(RVA = "0x4FF0040", Offset = "0x4FF0040", VA = "0x4FF0040")]
 	public SortColumnDescription()
 	{
 	}
 
 	[Token(Token = "0x600065C")]
-	[Address(RVA = "0x4CC8720", Offset = "0x4CC8720", VA = "0x4CC8720")]
+	[Address(RVA = "0x4FF0050", Offset = "0x4FF0050", VA = "0x4FF0050")]
 	public SortColumnDescription(int columnIndex, SortDirection direction)
 	{
 	}
 
 	[Token(Token = "0x600065D")]
-	[Address(RVA = "0x4CC8790", Offset = "0x4CC8790", VA = "0x4CC8790")]
+	[Address(RVA = "0x4FF00C0", Offset = "0x4FF00C0", VA = "0x4FF00C0")]
 	public SortColumnDescription(string columnName, SortDirection direction)
 	{
 	}

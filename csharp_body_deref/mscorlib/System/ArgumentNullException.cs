@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ArgumentNullException
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.Serialization;
 using Il2CppDummyDll;
 
@@ -8,25 +15,25 @@ namespace System;
 public class ArgumentNullException : ArgumentException
 {
 	[Token(Token = "0x60003E1")]
-	[Address(RVA = "0x4F2DDE0", Offset = "0x4F2DDE0", VA = "0x4F2DDE0")]
+	[Address(RVA = "0x3C13900", Offset = "0x3C13900", VA = "0x3C13900")]
 	public ArgumentNullException()
 	{
 	}
 
 	[Token(Token = "0x60003E2")]
-	[Address(RVA = "0x4F25240", Offset = "0x4F25240", VA = "0x4F25240")]
+	[Address(RVA = "0x3C0AD60", Offset = "0x3C0AD60", VA = "0x3C0AD60")]
 	public ArgumentNullException(string paramName)
 	{
 	}
 
 	[Token(Token = "0x60003E3")]
-	[Address(RVA = "0x4F2DE20", Offset = "0x4F2DE20", VA = "0x4F2DE20")]
+	[Address(RVA = "0x3C13940", Offset = "0x3C13940", VA = "0x3C13940")]
 	public ArgumentNullException(string paramName, string message)
 	{
 	}
 
 	[Token(Token = "0x60003E4")]
-	[Address(RVA = "0x4F2DE60", Offset = "0x4F2DE60", VA = "0x4F2DE60")]
+	[Address(RVA = "0x3C13980", Offset = "0x3C13980", VA = "0x3C13980")]
 	protected ArgumentNullException(SerializationInfo info, StreamingContext context)
 	{
 	}

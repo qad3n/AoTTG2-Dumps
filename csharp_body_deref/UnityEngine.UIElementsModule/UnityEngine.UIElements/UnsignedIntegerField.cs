@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UnsignedIntegerField
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
@@ -9,7 +16,7 @@ public class UnsignedIntegerField : TextValueField<uint>
 	public new class UxmlFactory : UxmlFactory<UnsignedIntegerField, UxmlTraits>
 	{
 		[Token(Token = "0x60007DC")]
-		[Address(RVA = "0x4CDFE90", Offset = "0x4CDFE90", VA = "0x4CDFE90")]
+		[Address(RVA = "0x50077C0", Offset = "0x50077C0", VA = "0x50077C0")]
 		public UxmlFactory()
 		{
 		}
@@ -19,7 +26,7 @@ public class UnsignedIntegerField : TextValueField<uint>
 	public new class UxmlTraits : TextValueFieldTraits<uint, UxmlUnsignedIntAttributeDescription>
 	{
 		[Token(Token = "0x60007DD")]
-		[Address(RVA = "0x4CDFED0", Offset = "0x4CDFED0", VA = "0x4CDFED0")]
+		[Address(RVA = "0x5007800", Offset = "0x5007800", VA = "0x5007800")]
 		public UxmlTraits()
 		{
 		}
@@ -32,7 +39,7 @@ public class UnsignedIntegerField : TextValueField<uint>
 		private UnsignedIntegerField parentUnsignedIntegerField
 		{
 			[Token(Token = "0x60007DE")]
-			[Address(RVA = "0x4CDFF10", Offset = "0x4CDFF10", VA = "0x4CDFF10")]
+			[Address(RVA = "0x5007840", Offset = "0x5007840", VA = "0x5007840")]
 			get
 			{
 				return null;
@@ -43,7 +50,7 @@ public class UnsignedIntegerField : TextValueField<uint>
 		protected override string allowedCharacters
 		{
 			[Token(Token = "0x60007E0")]
-			[Address(RVA = "0x4CDFF80", Offset = "0x4CDFF80", VA = "0x4CDFF80", Slot = "100")]
+			[Address(RVA = "0x50078B0", Offset = "0x50078B0", VA = "0x50078B0", Slot = "100")]
 			get
 			{
 				return null;
@@ -51,26 +58,26 @@ public class UnsignedIntegerField : TextValueField<uint>
 		}
 
 		[Token(Token = "0x60007DF")]
-		[Address(RVA = "0x4CDFC40", Offset = "0x4CDFC40", VA = "0x4CDFC40")]
+		[Address(RVA = "0x5007570", Offset = "0x5007570", VA = "0x5007570")]
 		internal UnsignedIntegerInput()
 		{
 		}
 
 		[Token(Token = "0x60007E1")]
-		[Address(RVA = "0x4CDFFF0", Offset = "0x4CDFFF0", VA = "0x4CDFFF0", Slot = "101")]
+		[Address(RVA = "0x5007920", Offset = "0x5007920", VA = "0x5007920", Slot = "101")]
 		public override void ApplyInputDeviceDelta(Vector3 delta, DeltaSpeed speed, uint startValue)
 		{
 		}
 
 		[Token(Token = "0x60007E2")]
-		[Address(RVA = "0x4CE0350", Offset = "0x4CE0350", VA = "0x4CE0350", Slot = "102")]
+		[Address(RVA = "0x5007C80", Offset = "0x5007C80", VA = "0x5007C80", Slot = "102")]
 		protected override string ValueToString(uint v)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60007E3")]
-		[Address(RVA = "0x4CE03A0", Offset = "0x4CE03A0", VA = "0x4CE03A0", Slot = "98")]
+		[Address(RVA = "0x5007CD0", Offset = "0x5007CD0", VA = "0x5007CD0", Slot = "98")]
 		protected override uint StringToValue(string str)
 		{
 			return default(uint);
@@ -93,7 +100,7 @@ public class UnsignedIntegerField : TextValueField<uint>
 	private UnsignedIntegerInput integerInput
 	{
 		[Token(Token = "0x60007D4")]
-		[Address(RVA = "0x4CDF870", Offset = "0x4CDF870", VA = "0x4CDF870")]
+		[Address(RVA = "0x50071A0", Offset = "0x50071A0", VA = "0x50071A0")]
 		get
 		{
 			return null;
@@ -101,40 +108,40 @@ public class UnsignedIntegerField : TextValueField<uint>
 	}
 
 	[Token(Token = "0x60007D5")]
-	[Address(RVA = "0x4CDF8E0", Offset = "0x4CDF8E0", VA = "0x4CDF8E0", Slot = "115")]
+	[Address(RVA = "0x5007210", Offset = "0x5007210", VA = "0x5007210", Slot = "115")]
 	protected override string ValueToString(uint v)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007D6")]
-	[Address(RVA = "0x4CDF980", Offset = "0x4CDF980", VA = "0x4CDF980", Slot = "116")]
+	[Address(RVA = "0x50072B0", Offset = "0x50072B0", VA = "0x50072B0", Slot = "116")]
 	protected override uint StringToValue(string str)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x60007D7")]
-	[Address(RVA = "0x4CDFA50", Offset = "0x4CDFA50", VA = "0x4CDFA50")]
+	[Address(RVA = "0x5007380", Offset = "0x5007380", VA = "0x5007380")]
 	public UnsignedIntegerField()
 	{
 	}
 
 	[Token(Token = "0x60007D8")]
-	[Address(RVA = "0x4CDFA60", Offset = "0x4CDFA60", VA = "0x4CDFA60")]
+	[Address(RVA = "0x5007390", Offset = "0x5007390", VA = "0x5007390")]
 	public UnsignedIntegerField(string label, int maxLength = -1)
 	{
 	}
 
 	[Token(Token = "0x60007D9")]
-	[Address(RVA = "0x4CDFCD0", Offset = "0x4CDFCD0", VA = "0x4CDFCD0", Slot = "125")]
+	[Address(RVA = "0x5007600", Offset = "0x5007600", VA = "0x5007600", Slot = "125")]
 	internal override bool CanTryParse(string textString)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007DA")]
-	[Address(RVA = "0x4CDFCF0", Offset = "0x4CDFCF0", VA = "0x4CDFCF0", Slot = "124")]
+	[Address(RVA = "0x5007620", Offset = "0x5007620", VA = "0x5007620", Slot = "124")]
 	public override void ApplyInputDeviceDelta(Vector3 delta, DeltaSpeed speed, uint startValue)
 	{
 	}

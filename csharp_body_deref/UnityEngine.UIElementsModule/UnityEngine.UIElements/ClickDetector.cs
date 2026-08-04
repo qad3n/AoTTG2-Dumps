@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.ClickDetector
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -27,13 +34,13 @@ internal class ClickDetector
 		public int m_ClickCount;
 
 		[Token(Token = "0x600008B")]
-		[Address(RVA = "0x4BE8F50", Offset = "0x4BE8F50", VA = "0x4BE8F50")]
+		[Address(RVA = "0x4F10880", Offset = "0x4F10880", VA = "0x4F10880")]
 		public void Reset()
 		{
 		}
 
 		[Token(Token = "0x600008C")]
-		[Address(RVA = "0x4BE8C80", Offset = "0x4BE8C80", VA = "0x4BE8C80")]
+		[Address(RVA = "0x4F105B0", Offset = "0x4F105B0", VA = "0x4F105B0")]
 		public ButtonClickStatus()
 		{
 		}
@@ -47,14 +54,14 @@ internal class ClickDetector
 	internal static int s_DoubleClickTime
 	{
 		[Token(Token = "0x6000081")]
-		[Address(RVA = "0x4BE8900", Offset = "0x4BE8900", VA = "0x4BE8900")]
+		[Address(RVA = "0x4F10230", Offset = "0x4F10230", VA = "0x4F10230")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000082")]
-		[Address(RVA = "0x4BE8970", Offset = "0x4BE8970", VA = "0x4BE8970")]
+		[Address(RVA = "0x4F102A0", Offset = "0x4F102A0", VA = "0x4F102A0")]
 		[CompilerGenerated]
 		set
 		{
@@ -62,25 +69,25 @@ internal class ClickDetector
 	}
 
 	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x4BE89C0", Offset = "0x4BE89C0", VA = "0x4BE89C0")]
+	[Address(RVA = "0x4F102F0", Offset = "0x4F102F0", VA = "0x4F102F0")]
 	public ClickDetector()
 	{
 	}
 
 	[Token(Token = "0x6000084")]
-	[Address(RVA = "0x4BE8C90", Offset = "0x4BE8C90", VA = "0x4BE8C90")]
+	[Address(RVA = "0x4F105C0", Offset = "0x4F105C0", VA = "0x4F105C0")]
 	private void StartClickTracking(EventBase evt)
 	{
 	}
 
 	[Token(Token = "0x6000085")]
-	[Address(RVA = "0x4BE8FC0", Offset = "0x4BE8FC0", VA = "0x4BE8FC0")]
+	[Address(RVA = "0x4F108F0", Offset = "0x4F108F0", VA = "0x4F108F0")]
 	private void SendClickEvent(EventBase evt)
 	{
 	}
 
 	[Token(Token = "0x6000086")]
-	[Address(RVA = "0x4BE94E0", Offset = "0x4BE94E0", VA = "0x4BE94E0")]
+	[Address(RVA = "0x4F10E10", Offset = "0x4F10E10", VA = "0x4F10E10")]
 	private void CancelClickTracking(EventBase evt)
 	{
 	}
@@ -91,14 +98,14 @@ internal class ClickDetector
 	}
 
 	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x4BE9390", Offset = "0x4BE9390", VA = "0x4BE9390")]
+	[Address(RVA = "0x4F10CC0", Offset = "0x4F10CC0", VA = "0x4F10CC0")]
 	private static bool ContainsPointer(VisualElement element, Vector2 position)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000089")]
-	[Address(RVA = "0x4BE9630", Offset = "0x4BE9630", VA = "0x4BE9630")]
+	[Address(RVA = "0x4F10F60", Offset = "0x4F10F60", VA = "0x4F10F60")]
 	internal void Cleanup(List<VisualElement> elements)
 	{
 	}

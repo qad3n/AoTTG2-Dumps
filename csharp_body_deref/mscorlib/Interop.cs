@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Interop
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -189,7 +196,7 @@ internal static class Interop
 		internal Error Error
 		{
 			[Token(Token = "0x6000009")]
-			[Address(RVA = "0x4DE6920", Offset = "0x4DE6920", VA = "0x4DE6920")]
+			[Address(RVA = "0x3ACC440", Offset = "0x3ACC440", VA = "0x3ACC440")]
 			get
 			{
 				return default(Error);
@@ -200,7 +207,7 @@ internal static class Interop
 		internal int RawErrno
 		{
 			[Token(Token = "0x600000A")]
-			[Address(RVA = "0x4DE6720", Offset = "0x4DE6720", VA = "0x4DE6720")]
+			[Address(RVA = "0x3ACC240", Offset = "0x3ACC240", VA = "0x3ACC240")]
 			get
 			{
 				return default(int);
@@ -208,26 +215,26 @@ internal static class Interop
 		}
 
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x4DE68B0", Offset = "0x4DE68B0", VA = "0x4DE68B0")]
+		[Address(RVA = "0x3ACC3D0", Offset = "0x3ACC3D0", VA = "0x3ACC3D0")]
 		internal ErrorInfo(int errno)
 		{
 		}
 
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x4DE6910", Offset = "0x4DE6910", VA = "0x4DE6910")]
+		[Address(RVA = "0x3ACC430", Offset = "0x3ACC430", VA = "0x3ACC430")]
 		internal ErrorInfo(Error error)
 		{
 		}
 
 		[Token(Token = "0x600000B")]
-		[Address(RVA = "0x4DE6790", Offset = "0x4DE6790", VA = "0x4DE6790")]
+		[Address(RVA = "0x3ACC2B0", Offset = "0x3ACC2B0", VA = "0x3ACC2B0")]
 		internal string GetErrorMessage()
 		{
 			return null;
 		}
 
 		[Token(Token = "0x600000C")]
-		[Address(RVA = "0x4DE6A00", Offset = "0x4DE6A00", VA = "0x4DE6A00", Slot = "3")]
+		[Address(RVA = "0x3ACC520", Offset = "0x3ACC520", VA = "0x3ACC520", Slot = "3")]
 		public override string ToString()
 		{
 			return null;
@@ -276,7 +283,7 @@ internal static class Interop
 			internal NodeType InodeType;
 
 			[Token(Token = "0x6000029")]
-			[Address(RVA = "0x4DE7430", Offset = "0x4DE7430", VA = "0x4DE7430")]
+			[Address(RVA = "0x3ACCF50", Offset = "0x3ACCF50", VA = "0x3ACCF50")]
 			internal ReadOnlySpan<char> GetName(Span<char> buffer)
 			{
 				return default(ReadOnlySpan<char>);
@@ -398,14 +405,14 @@ internal static class Interop
 		internal static readonly bool CanSetHiddenFlag;
 
 		[Token(Token = "0x600000D")]
-		[Address(RVA = "0x4DE6500", Offset = "0x4DE6500", VA = "0x4DE6500")]
+		[Address(RVA = "0x3ACC020", Offset = "0x3ACC020", VA = "0x3ACC020")]
 		internal static ErrorInfo GetLastErrorInfo()
 		{
 			return default(ErrorInfo);
 		}
 
 		[Token(Token = "0x600000E")]
-		[Address(RVA = "0x4DE6940", Offset = "0x4DE6940", VA = "0x4DE6940")]
+		[Address(RVA = "0x3ACC460", Offset = "0x3ACC460", VA = "0x3ACC460")]
 		internal static string StrError(int platformErrno)
 		{
 			return null;
@@ -413,51 +420,51 @@ internal static class Interop
 
 		[PreserveSig]
 		[Token(Token = "0x600000F")]
-		[Address(RVA = "0x4DE6900", Offset = "0x4DE6900", VA = "0x4DE6900")]
+		[Address(RVA = "0x3ACC420", Offset = "0x3ACC420", VA = "0x3ACC420")]
 		internal static extern Error ConvertErrorPlatformToPal(int platformErrno);
 
 		[PreserveSig]
 		[Token(Token = "0x6000010")]
-		[Address(RVA = "0x4DE6930", Offset = "0x4DE6930", VA = "0x4DE6930")]
+		[Address(RVA = "0x3ACC450", Offset = "0x3ACC450", VA = "0x3ACC450")]
 		internal static extern int ConvertErrorPalToPlatform(Error error);
 
 		[PreserveSig]
 		[Token(Token = "0x6000011")]
-		[Address(RVA = "0x4DE6B00", Offset = "0x4DE6B00", VA = "0x4DE6B00")]
+		[Address(RVA = "0x3ACC620", Offset = "0x3ACC620", VA = "0x3ACC620")]
 		private unsafe static extern byte* StrErrorR(int platformErrno, byte* buffer, int bufferSize);
 
 		[PreserveSig]
 		[Token(Token = "0x6000012")]
-		[Address(RVA = "0x4DE68A0", Offset = "0x4DE68A0", VA = "0x4DE68A0")]
+		[Address(RVA = "0x3ACC3C0", Offset = "0x3ACC3C0", VA = "0x3ACC3C0")]
 		internal unsafe static extern void GetNonCryptographicallySecureRandomBytes(byte* buffer, int length);
 
 		[PreserveSig]
 		[Token(Token = "0x6000013")]
-		[Address(RVA = "0x4DE6B10", Offset = "0x4DE6B10", VA = "0x4DE6B10")]
+		[Address(RVA = "0x3ACC630", Offset = "0x3ACC630", VA = "0x3ACC630")]
 		internal static extern IntPtr OpenDir(string path);
 
 		[PreserveSig]
 		[Token(Token = "0x6000014")]
-		[Address(RVA = "0x4DE6B40", Offset = "0x4DE6B40", VA = "0x4DE6B40")]
+		[Address(RVA = "0x3ACC660", Offset = "0x3ACC660", VA = "0x3ACC660")]
 		internal static extern int GetReadDirRBufferSize();
 
 		[PreserveSig]
 		[Token(Token = "0x6000015")]
-		[Address(RVA = "0x4DE6B50", Offset = "0x4DE6B50", VA = "0x4DE6B50")]
+		[Address(RVA = "0x3ACC670", Offset = "0x3ACC670", VA = "0x3ACC670")]
 		internal unsafe static extern int ReadDirR(IntPtr dir, byte* buffer, int bufferSize, out DirectoryEntry outputEntry);
 
 		[PreserveSig]
 		[Token(Token = "0x6000016")]
-		[Address(RVA = "0x4DE6B60", Offset = "0x4DE6B60", VA = "0x4DE6B60")]
+		[Address(RVA = "0x3ACC680", Offset = "0x3ACC680", VA = "0x3ACC680")]
 		internal static extern int CloseDir(IntPtr dir);
 
 		[PreserveSig]
 		[Token(Token = "0x6000017")]
-		[Address(RVA = "0x4DE6B80", Offset = "0x4DE6B80", VA = "0x4DE6B80")]
+		[Address(RVA = "0x3ACC6A0", Offset = "0x3ACC6A0", VA = "0x3ACC6A0")]
 		private static extern int ReadLink(string path, byte[] buffer, int bufferSize);
 
 		[Token(Token = "0x6000018")]
-		[Address(RVA = "0x4DE6BD0", Offset = "0x4DE6BD0", VA = "0x4DE6BD0")]
+		[Address(RVA = "0x3ACC6F0", Offset = "0x3ACC6F0", VA = "0x3ACC6F0")]
 		public static string ReadLink(string path)
 		{
 			return null;
@@ -465,56 +472,56 @@ internal static class Interop
 
 		[PreserveSig]
 		[Token(Token = "0x6000019")]
-		[Address(RVA = "0x4DE6EE0", Offset = "0x4DE6EE0", VA = "0x4DE6EE0")]
+		[Address(RVA = "0x3ACCA00", Offset = "0x3ACCA00", VA = "0x3ACCA00")]
 		internal static extern int Stat(string path, out FileStatus output);
 
 		[PreserveSig]
 		[Token(Token = "0x600001A")]
-		[Address(RVA = "0x4DE6F10", Offset = "0x4DE6F10", VA = "0x4DE6F10")]
+		[Address(RVA = "0x3ACCA30", Offset = "0x3ACCA30", VA = "0x3ACCA30")]
 		internal static extern int LStat(string path, out FileStatus output);
 
 		[PreserveSig]
 		[Token(Token = "0x600001B")]
-		[Address(RVA = "0x4DE6F40", Offset = "0x4DE6F40", VA = "0x4DE6F40")]
+		[Address(RVA = "0x3ACCA60", Offset = "0x3ACCA60", VA = "0x3ACCA60")]
 		internal static extern int Symlink(string target, string linkPath);
 
 		[PreserveSig]
 		[Token(Token = "0x600001C")]
-		[Address(RVA = "0x4DE6F90", Offset = "0x4DE6F90", VA = "0x4DE6F90")]
+		[Address(RVA = "0x3ACCAB0", Offset = "0x3ACCAB0", VA = "0x3ACCAB0")]
 		internal static extern int CopyFile(SafeFileHandle source, SafeFileHandle destination);
 
 		[PreserveSig]
 		[Token(Token = "0x600001D")]
-		[Address(RVA = "0x4DE7040", Offset = "0x4DE7040", VA = "0x4DE7040")]
+		[Address(RVA = "0x3ACCB60", Offset = "0x3ACCB60", VA = "0x3ACCB60")]
 		internal static extern uint GetEGid();
 
 		[PreserveSig]
 		[Token(Token = "0x600001E")]
-		[Address(RVA = "0x4DE7050", Offset = "0x4DE7050", VA = "0x4DE7050")]
+		[Address(RVA = "0x3ACCB70", Offset = "0x3ACCB70", VA = "0x3ACCB70")]
 		internal static extern uint GetEUid();
 
 		[PreserveSig]
 		[Token(Token = "0x600001F")]
-		[Address(RVA = "0x4DE7060", Offset = "0x4DE7060", VA = "0x4DE7060")]
+		[Address(RVA = "0x3ACCB80", Offset = "0x3ACCB80", VA = "0x3ACCB80")]
 		private static extern int LChflagsCanSetHiddenFlag();
 
 		[PreserveSig]
 		[Token(Token = "0x6000020")]
-		[Address(RVA = "0x4DE7070", Offset = "0x4DE7070", VA = "0x4DE7070")]
+		[Address(RVA = "0x3ACCB90", Offset = "0x3ACCB90", VA = "0x3ACCB90")]
 		internal static extern int MkDir(string path, int mode);
 
 		[PreserveSig]
 		[Token(Token = "0x6000021")]
-		[Address(RVA = "0x4DE70A0", Offset = "0x4DE70A0", VA = "0x4DE70A0")]
+		[Address(RVA = "0x3ACCBC0", Offset = "0x3ACCBC0", VA = "0x3ACCBC0")]
 		internal static extern int RmDir(string path);
 
 		[PreserveSig]
 		[Token(Token = "0x6000022")]
-		[Address(RVA = "0x4DE70D0", Offset = "0x4DE70D0", VA = "0x4DE70D0")]
+		[Address(RVA = "0x3ACCBF0", Offset = "0x3ACCBF0", VA = "0x3ACCBF0")]
 		internal static extern int Stat(ref byte path, out FileStatus output);
 
 		[Token(Token = "0x6000023")]
-		[Address(RVA = "0x4DE70F0", Offset = "0x4DE70F0", VA = "0x4DE70F0")]
+		[Address(RVA = "0x3ACCC10", Offset = "0x3ACCC10", VA = "0x3ACCC10")]
 		internal static int Stat(ReadOnlySpan<char> path, out FileStatus output)
 		{
 			return default(int);
@@ -522,11 +529,11 @@ internal static class Interop
 
 		[PreserveSig]
 		[Token(Token = "0x6000024")]
-		[Address(RVA = "0x4DE7240", Offset = "0x4DE7240", VA = "0x4DE7240")]
+		[Address(RVA = "0x3ACCD60", Offset = "0x3ACCD60", VA = "0x3ACCD60")]
 		internal static extern int LStat(ref byte path, out FileStatus output);
 
 		[Token(Token = "0x6000025")]
-		[Address(RVA = "0x4DE7260", Offset = "0x4DE7260", VA = "0x4DE7260")]
+		[Address(RVA = "0x3ACCD80", Offset = "0x3ACCD80", VA = "0x3ACCD80")]
 		internal static int LStat(ReadOnlySpan<char> path, out FileStatus output)
 		{
 			return default(int);
@@ -534,51 +541,51 @@ internal static class Interop
 
 		[PreserveSig]
 		[Token(Token = "0x6000026")]
-		[Address(RVA = "0x4DE73B0", Offset = "0x4DE73B0", VA = "0x4DE73B0")]
+		[Address(RVA = "0x3ACCED0", Offset = "0x3ACCED0", VA = "0x3ACCED0")]
 		internal static extern int Unlink(string pathname);
 
 		[MethodImpl((MethodImplOptions)4096)]
 		[Token(Token = "0x6000027")]
-		[Address(RVA = "0x4DE73E0", Offset = "0x4DE73E0", VA = "0x4DE73E0")]
+		[Address(RVA = "0x3ACCF00", Offset = "0x3ACCF00", VA = "0x3ACCF00")]
 		internal unsafe static extern int DoubleToString(double value, byte* format, byte* buffer, int bufferLength);
 	}
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x4DE5D50", Offset = "0x4DE5D50", VA = "0x4DE5D50")]
+	[Address(RVA = "0x3ACB870", Offset = "0x3ACB870", VA = "0x3ACB870")]
 	private static void ThrowExceptionForIoErrno(ErrorInfo errorInfo, string path, bool isDirectory, Func<ErrorInfo, ErrorInfo> errorRewriter)
 	{
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x4DE6490", Offset = "0x4DE6490", VA = "0x4DE6490")]
+	[Address(RVA = "0x3ACBFB0", Offset = "0x3ACBFB0", VA = "0x3ACBFB0")]
 	internal static long CheckIo(long result, [Optional] string path, [Optional][DefaultParameterValue(false)] bool isDirectory, [Optional] Func<ErrorInfo, ErrorInfo> errorRewriter)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x4DE6590", Offset = "0x4DE6590", VA = "0x4DE6590")]
+	[Address(RVA = "0x3ACC0B0", Offset = "0x3ACC0B0", VA = "0x3ACC0B0")]
 	internal static int CheckIo(int result, [Optional] string path, [Optional][DefaultParameterValue(false)] bool isDirectory, [Optional] Func<ErrorInfo, ErrorInfo> errorRewriter)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x4DE5DA0", Offset = "0x4DE5DA0", VA = "0x4DE5DA0")]
+	[Address(RVA = "0x3ACB8C0", Offset = "0x3ACB8C0", VA = "0x3ACB8C0")]
 	internal static Exception GetExceptionForIoErrno(ErrorInfo errorInfo, [Optional] string path, bool isDirectory = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x4DE6660", Offset = "0x4DE6660", VA = "0x4DE6660")]
+	[Address(RVA = "0x3ACC180", Offset = "0x3ACC180", VA = "0x3ACC180")]
 	internal static Exception GetIOException(ErrorInfo errorInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x4DE6850", Offset = "0x4DE6850", VA = "0x4DE6850")]
+	[Address(RVA = "0x3ACC370", Offset = "0x3ACC370", VA = "0x3ACC370")]
 	internal unsafe static void GetRandomBytes(byte* buffer, int length)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.XmlTextAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Text;
 using Il2CppDummyDll;
 
@@ -19,7 +26,7 @@ public class XmlTextAttribute : Attribute
 	public string DataType
 	{
 		[Token(Token = "0x6000E78")]
-		[Address(RVA = "0x44FA370", Offset = "0x44FA370", VA = "0x44FA370")]
+		[Address(RVA = "0x4837AD0", Offset = "0x4837AD0", VA = "0x4837AD0")]
 		get
 		{
 			return null;
@@ -30,7 +37,7 @@ public class XmlTextAttribute : Attribute
 	public Type Type
 	{
 		[Token(Token = "0x6000E79")]
-		[Address(RVA = "0x44FA3A0", Offset = "0x44FA3A0", VA = "0x44FA3A0")]
+		[Address(RVA = "0x4837B00", Offset = "0x4837B00", VA = "0x4837B00")]
 		get
 		{
 			return null;
@@ -38,13 +45,13 @@ public class XmlTextAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000E77")]
-	[Address(RVA = "0x44FA360", Offset = "0x44FA360", VA = "0x44FA360")]
+	[Address(RVA = "0x4837AC0", Offset = "0x4837AC0", VA = "0x4837AC0")]
 	public XmlTextAttribute()
 	{
 	}
 
 	[Token(Token = "0x6000E7A")]
-	[Address(RVA = "0x44FA3B0", Offset = "0x44FA3B0", VA = "0x44FA3B0")]
+	[Address(RVA = "0x4837B10", Offset = "0x4837B10", VA = "0x4837B10")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

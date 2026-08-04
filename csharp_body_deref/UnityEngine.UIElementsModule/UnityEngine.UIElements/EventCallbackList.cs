@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.EventCallbackList
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Reflection;
 using Il2CppDummyDll;
@@ -28,7 +35,7 @@ internal class EventCallbackList
 	public int Count
 	{
 		[Token(Token = "0x6000A73")]
-		[Address(RVA = "0x4D05A70", Offset = "0x4D05A70", VA = "0x4D05A70")]
+		[Address(RVA = "0x502D3A0", Offset = "0x502D3A0", VA = "0x502D3A0")]
 		get
 		{
 			return default(int);
@@ -39,7 +46,7 @@ internal class EventCallbackList
 	public Span<EventCallbackFunctorBase> Span
 	{
 		[Token(Token = "0x6000A74")]
-		[Address(RVA = "0x4D05A80", Offset = "0x4D05A80", VA = "0x4D05A80")]
+		[Address(RVA = "0x502D3B0", Offset = "0x502D3B0", VA = "0x502D3B0")]
 		get
 		{
 			return default(Span<EventCallbackFunctorBase>);
@@ -47,52 +54,52 @@ internal class EventCallbackList
 	}
 
 	[Token(Token = "0x6000A6C")]
-	[Address(RVA = "0x4D055C0", Offset = "0x4D055C0", VA = "0x4D055C0")]
+	[Address(RVA = "0x502CEF0", Offset = "0x502CEF0", VA = "0x502CEF0")]
 	public EventCallbackList()
 	{
 	}
 
 	[Token(Token = "0x6000A6D")]
-	[Address(RVA = "0x4D05540", Offset = "0x4D05540", VA = "0x4D05540")]
+	[Address(RVA = "0x502CE70", Offset = "0x502CE70", VA = "0x502CE70")]
 	public EventCallbackList(EventCallbackList source)
 	{
 	}
 
 	[Token(Token = "0x6000A6E")]
-	[Address(RVA = "0x4D057D0", Offset = "0x4D057D0", VA = "0x4D057D0")]
+	[Address(RVA = "0x502D100", Offset = "0x502D100", VA = "0x502D100")]
 	public bool Contains(long eventTypeId, Delegate callback, CallbackPhase phase)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A6F")]
-	[Address(RVA = "0x4D057E0", Offset = "0x4D057E0", VA = "0x4D057E0")]
+	[Address(RVA = "0x502D110", Offset = "0x502D110", VA = "0x502D110")]
 	public EventCallbackFunctorBase Find(long eventTypeId, Delegate callback, CallbackPhase phase)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A70")]
-	[Address(RVA = "0x4D05890", Offset = "0x4D05890", VA = "0x4D05890")]
+	[Address(RVA = "0x502D1C0", Offset = "0x502D1C0", VA = "0x502D1C0")]
 	public bool Remove(long eventTypeId, Delegate callback, CallbackPhase phase)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A71")]
-	[Address(RVA = "0x4D05980", Offset = "0x4D05980", VA = "0x4D05980")]
+	[Address(RVA = "0x502D2B0", Offset = "0x502D2B0", VA = "0x502D2B0")]
 	public void Add(EventCallbackFunctorBase item)
 	{
 	}
 
 	[Token(Token = "0x6000A72")]
-	[Address(RVA = "0x4D05630", Offset = "0x4D05630", VA = "0x4D05630")]
+	[Address(RVA = "0x502CF60", Offset = "0x502CF60", VA = "0x502CF60")]
 	public void AddRange(EventCallbackList list)
 	{
 	}
 
 	[Token(Token = "0x6000A75")]
-	[Address(RVA = "0x4D05730", Offset = "0x4D05730", VA = "0x4D05730")]
+	[Address(RVA = "0x502D060", Offset = "0x502D060", VA = "0x502D060")]
 	public void Clear()
 	{
 	}

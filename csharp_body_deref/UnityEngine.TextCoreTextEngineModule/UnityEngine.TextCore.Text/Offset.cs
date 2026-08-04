@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.TextCore.Text.Offset
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace UnityEngine.TextCore.Text;
@@ -29,7 +36,7 @@ internal struct Offset
 	public float left
 	{
 		[Token(Token = "0x6000120")]
-		[Address(RVA = "0x4BB4020", Offset = "0x4BB4020", VA = "0x4BB4020")]
+		[Address(RVA = "0x4EDB950", Offset = "0x4EDB950", VA = "0x4EDB950")]
 		get
 		{
 			return default(float);
@@ -40,7 +47,7 @@ internal struct Offset
 	public float right
 	{
 		[Token(Token = "0x6000121")]
-		[Address(RVA = "0x4BB4030", Offset = "0x4BB4030", VA = "0x4BB4030")]
+		[Address(RVA = "0x4EDB960", Offset = "0x4EDB960", VA = "0x4EDB960")]
 		get
 		{
 			return default(float);
@@ -51,7 +58,7 @@ internal struct Offset
 	public float top
 	{
 		[Token(Token = "0x6000122")]
-		[Address(RVA = "0x4BB4040", Offset = "0x4BB4040", VA = "0x4BB4040")]
+		[Address(RVA = "0x4EDB970", Offset = "0x4EDB970", VA = "0x4EDB970")]
 		get
 		{
 			return default(float);
@@ -62,7 +69,7 @@ internal struct Offset
 	public float bottom
 	{
 		[Token(Token = "0x6000123")]
-		[Address(RVA = "0x4BB4050", Offset = "0x4BB4050", VA = "0x4BB4050")]
+		[Address(RVA = "0x4EDB980", Offset = "0x4EDB980", VA = "0x4EDB980")]
 		get
 		{
 			return default(float);
@@ -73,7 +80,7 @@ internal struct Offset
 	public static Offset zero
 	{
 		[Token(Token = "0x6000124")]
-		[Address(RVA = "0x4BB4060", Offset = "0x4BB4060", VA = "0x4BB4060")]
+		[Address(RVA = "0x4EDB990", Offset = "0x4EDB990", VA = "0x4EDB990")]
 		get
 		{
 			return default(Offset);
@@ -81,34 +88,34 @@ internal struct Offset
 	}
 
 	[Token(Token = "0x6000125")]
-	[Address(RVA = "0x4BB40B0", Offset = "0x4BB40B0", VA = "0x4BB40B0")]
+	[Address(RVA = "0x4EDB9E0", Offset = "0x4EDB9E0", VA = "0x4EDB9E0")]
 	public Offset(float left, float right, float top, float bottom)
 	{
 	}
 
 	[Token(Token = "0x6000126")]
-	[Address(RVA = "0x4BB40D0", Offset = "0x4BB40D0", VA = "0x4BB40D0")]
+	[Address(RVA = "0x4EDBA00", Offset = "0x4EDBA00", VA = "0x4EDBA00")]
 	public static bool operator ==(Offset lhs, Offset rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000127")]
-	[Address(RVA = "0x4BB4110", Offset = "0x4BB4110", VA = "0x4BB4110")]
+	[Address(RVA = "0x4EDBA40", Offset = "0x4EDBA40", VA = "0x4EDBA40")]
 	public static Offset operator *(Offset a, float b)
 	{
 		return default(Offset);
 	}
 
 	[Token(Token = "0x6000128")]
-	[Address(RVA = "0x4BB4120", Offset = "0x4BB4120", VA = "0x4BB4120", Slot = "2")]
+	[Address(RVA = "0x4EDBA50", Offset = "0x4EDBA50", VA = "0x4EDBA50", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000129")]
-	[Address(RVA = "0x4BB4170", Offset = "0x4BB4170", VA = "0x4BB4170", Slot = "0")]
+	[Address(RVA = "0x4EDBAA0", Offset = "0x4EDBAA0", VA = "0x4EDBAA0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);

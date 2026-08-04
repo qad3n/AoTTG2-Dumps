@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.Translate
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -25,7 +32,7 @@ public struct Translate : IEquatable<Translate>
 			public override string Name
 			{
 				[Token(Token = "0x600172F")]
-				[Address(RVA = "0x4D8AA90", Offset = "0x4D8AA90", VA = "0x4D8AA90", Slot = "7")]
+				[Address(RVA = "0x50B23C0", Offset = "0x50B23C0", VA = "0x50B23C0", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -34,7 +41,7 @@ public struct Translate : IEquatable<Translate>
 			}
 
 			[Token(Token = "0x6001730")]
-			[Address(RVA = "0x4D8A970", Offset = "0x4D8A970", VA = "0x4D8A970")]
+			[Address(RVA = "0x50B22A0", Offset = "0x50B22A0", VA = "0x50B22A0")]
 			public XProperty()
 			{
 			}
@@ -53,7 +60,7 @@ public struct Translate : IEquatable<Translate>
 			public override string Name
 			{
 				[Token(Token = "0x6001731")]
-				[Address(RVA = "0x4D8AAA0", Offset = "0x4D8AAA0", VA = "0x4D8AAA0", Slot = "7")]
+				[Address(RVA = "0x50B23D0", Offset = "0x50B23D0", VA = "0x50B23D0", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -62,7 +69,7 @@ public struct Translate : IEquatable<Translate>
 			}
 
 			[Token(Token = "0x6001732")]
-			[Address(RVA = "0x4D8A9D0", Offset = "0x4D8A9D0", VA = "0x4D8A9D0")]
+			[Address(RVA = "0x50B2300", Offset = "0x50B2300", VA = "0x50B2300")]
 			public YProperty()
 			{
 			}
@@ -81,7 +88,7 @@ public struct Translate : IEquatable<Translate>
 			public override string Name
 			{
 				[Token(Token = "0x6001733")]
-				[Address(RVA = "0x4D8AAB0", Offset = "0x4D8AAB0", VA = "0x4D8AAB0", Slot = "7")]
+				[Address(RVA = "0x50B23E0", Offset = "0x50B23E0", VA = "0x50B23E0", Slot = "7")]
 				[CompilerGenerated]
 				get
 				{
@@ -90,14 +97,14 @@ public struct Translate : IEquatable<Translate>
 			}
 
 			[Token(Token = "0x6001734")]
-			[Address(RVA = "0x4D8AA30", Offset = "0x4D8AA30", VA = "0x4D8AA30")]
+			[Address(RVA = "0x50B2360", Offset = "0x50B2360", VA = "0x50B2360")]
 			public ZProperty()
 			{
 			}
 		}
 
 		[Token(Token = "0x600172E")]
-		[Address(RVA = "0x4D8A750", Offset = "0x4D8A750", VA = "0x4D8A750")]
+		[Address(RVA = "0x50B2080", Offset = "0x50B2080", VA = "0x50B2080")]
 		public PropertyBag()
 		{
 		}
@@ -123,13 +130,13 @@ public struct Translate : IEquatable<Translate>
 	public Length x
 	{
 		[Token(Token = "0x6001723")]
-		[Address(RVA = "0x4D8A3F0", Offset = "0x4D8A3F0", VA = "0x4D8A3F0")]
+		[Address(RVA = "0x50B1D20", Offset = "0x50B1D20", VA = "0x50B1D20")]
 		get
 		{
 			return default(Length);
 		}
 		[Token(Token = "0x6001724")]
-		[Address(RVA = "0x4D8A400", Offset = "0x4D8A400", VA = "0x4D8A400")]
+		[Address(RVA = "0x50B1D30", Offset = "0x50B1D30", VA = "0x50B1D30")]
 		set
 		{
 		}
@@ -139,13 +146,13 @@ public struct Translate : IEquatable<Translate>
 	public Length y
 	{
 		[Token(Token = "0x6001725")]
-		[Address(RVA = "0x4D8A410", Offset = "0x4D8A410", VA = "0x4D8A410")]
+		[Address(RVA = "0x50B1D40", Offset = "0x50B1D40", VA = "0x50B1D40")]
 		get
 		{
 			return default(Length);
 		}
 		[Token(Token = "0x6001726")]
-		[Address(RVA = "0x4D8A420", Offset = "0x4D8A420", VA = "0x4D8A420")]
+		[Address(RVA = "0x50B1D50", Offset = "0x50B1D50", VA = "0x50B1D50")]
 		set
 		{
 		}
@@ -155,7 +162,7 @@ public struct Translate : IEquatable<Translate>
 	public float z
 	{
 		[Token(Token = "0x6001727")]
-		[Address(RVA = "0x4D8A430", Offset = "0x4D8A430", VA = "0x4D8A430")]
+		[Address(RVA = "0x50B1D60", Offset = "0x50B1D60", VA = "0x50B1D60")]
 		get
 		{
 			return default(float);
@@ -163,55 +170,55 @@ public struct Translate : IEquatable<Translate>
 	}
 
 	[Token(Token = "0x6001721")]
-	[Address(RVA = "0x4D8A3D0", Offset = "0x4D8A3D0", VA = "0x4D8A3D0")]
+	[Address(RVA = "0x50B1D00", Offset = "0x50B1D00", VA = "0x50B1D00")]
 	public Translate(Length x, Length y, float z)
 	{
 	}
 
 	[Token(Token = "0x6001722")]
-	[Address(RVA = "0x4D897D0", Offset = "0x4D897D0", VA = "0x4D897D0")]
+	[Address(RVA = "0x50B1100", Offset = "0x50B1100", VA = "0x50B1100")]
 	public static Translate None()
 	{
 		return default(Translate);
 	}
 
 	[Token(Token = "0x6001728")]
-	[Address(RVA = "0x4D83600", Offset = "0x4D83600", VA = "0x4D83600")]
+	[Address(RVA = "0x50AAF30", Offset = "0x50AAF30", VA = "0x50AAF30")]
 	public static bool operator ==(Translate lhs, Translate rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001729")]
-	[Address(RVA = "0x4D8A440", Offset = "0x4D8A440", VA = "0x4D8A440")]
+	[Address(RVA = "0x50B1D70", Offset = "0x50B1D70", VA = "0x50B1D70")]
 	public static bool operator !=(Translate lhs, Translate rhs)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600172A")]
-	[Address(RVA = "0x4D8A4B0", Offset = "0x4D8A4B0", VA = "0x4D8A4B0", Slot = "4")]
+	[Address(RVA = "0x50B1DE0", Offset = "0x50B1DE0", VA = "0x50B1DE0", Slot = "4")]
 	public bool Equals(Translate other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600172B")]
-	[Address(RVA = "0x4D8A510", Offset = "0x4D8A510", VA = "0x4D8A510", Slot = "0")]
+	[Address(RVA = "0x50B1E40", Offset = "0x50B1E40", VA = "0x50B1E40", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600172C")]
-	[Address(RVA = "0x4D83C90", Offset = "0x4D83C90", VA = "0x4D83C90", Slot = "2")]
+	[Address(RVA = "0x50AB5C0", Offset = "0x50AB5C0", VA = "0x50AB5C0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600172D")]
-	[Address(RVA = "0x4D8A5C0", Offset = "0x4D8A5C0", VA = "0x4D8A5C0", Slot = "3")]
+	[Address(RVA = "0x50B1EF0", Offset = "0x50B1EF0", VA = "0x50B1EF0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UIRLayoutUpdater
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 using Unity.Profiling;
@@ -35,7 +42,7 @@ internal class UIRLayoutUpdater : BaseVisualTreeUpdater
 	public override ProfilerMarker profilerMarker
 	{
 		[Token(Token = "0x6000F58")]
-		[Address(RVA = "0x4D4B770", Offset = "0x4D4B770", VA = "0x4D4B770", Slot = "10")]
+		[Address(RVA = "0x50730A0", Offset = "0x50730A0", VA = "0x50730A0", Slot = "10")]
 		get
 		{
 			return default(ProfilerMarker);
@@ -43,38 +50,38 @@ internal class UIRLayoutUpdater : BaseVisualTreeUpdater
 	}
 
 	[Token(Token = "0x6000F59")]
-	[Address(RVA = "0x4D4B7E0", Offset = "0x4D4B7E0", VA = "0x4D4B7E0", Slot = "13")]
+	[Address(RVA = "0x5073110", Offset = "0x5073110", VA = "0x5073110", Slot = "13")]
 	public override void OnVersionChanged(VisualElement ve, VersionChangeType versionChangeType)
 	{
 	}
 
 	[Token(Token = "0x6000F5A")]
-	[Address(RVA = "0x4D4B850", Offset = "0x4D4B850", VA = "0x4D4B850", Slot = "12")]
+	[Address(RVA = "0x5073180", Offset = "0x5073180", VA = "0x5073180", Slot = "12")]
 	public override void Update()
 	{
 	}
 
 	[Token(Token = "0x6000F5B")]
-	[Address(RVA = "0x4D4C6C0", Offset = "0x4D4C6C0", VA = "0x4D4C6C0")]
+	[Address(RVA = "0x5073FF0", Offset = "0x5073FF0", VA = "0x5073FF0")]
 	private static bool UpdateHierarchyDisplayed(VisualElement ve, List<(Rect, Rect, VisualElement)> changeEvents, bool inheritedDisplayed = true)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F5C")]
-	[Address(RVA = "0x4D4BB00", Offset = "0x4D4BB00", VA = "0x4D4BB00")]
+	[Address(RVA = "0x5073430", Offset = "0x5073430", VA = "0x5073430")]
 	private void UpdateSubTree(VisualElement ve, List<(Rect, Rect, VisualElement)> changeEvents)
 	{
 	}
 
 	[Token(Token = "0x6000F5D")]
-	[Address(RVA = "0x4D4C300", Offset = "0x4D4C300", VA = "0x4D4C300")]
+	[Address(RVA = "0x5073C30", Offset = "0x5073C30", VA = "0x5073C30")]
 	private void DispatchChangeEvents(List<(Rect, Rect, VisualElement)> changeEvents, int currentLayoutPass)
 	{
 	}
 
 	[Token(Token = "0x6000F5E")]
-	[Address(RVA = "0x4D4C990", Offset = "0x4D4C990", VA = "0x4D4C990")]
+	[Address(RVA = "0x50742C0", Offset = "0x50742C0", VA = "0x50742C0")]
 	public UIRLayoutUpdater()
 	{
 	}

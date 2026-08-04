@@ -1,36 +1,43 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Gisketch.Aottg2UI.Game.AottgGuildPresetCatalog
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgGuildPresetCatalog.c
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using PatreonEffects;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000172")]
+[Token(Token = "0x20001A4")]
 internal static class AottgGuildPresetCatalog
 {
-	[Token(Token = "0x4000869")]
+	[Token(Token = "0x400092D")]
 	public const string Custom = "Custom";
 
-	[Token(Token = "0x400086A")]
+	[Token(Token = "0x400092E")]
 	public const string Team = "aottg2_developer_team";
 
-	[Token(Token = "0x400086B")]
+	[Token(Token = "0x400092F")]
 	public const string Supporter = "supporter";
 
-	[Token(Token = "0x6000873")]
-	[Address(RVA = "0x40E8870", Offset = "0x40E8870", VA = "0x40E8870")]
+	[Token(Token = "0x60009E9")]
+	[Address(RVA = "0x44199B0", Offset = "0x44199B0", VA = "0x44199B0")]
 	public static bool TryGet(string id, out AottgGuildPresetDefinition definition)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000874")]
-	[Address(RVA = "0x40E8A20", Offset = "0x40E8A20", VA = "0x40E8A20")]
+	[Token(Token = "0x60009EA")]
+	[Address(RVA = "0x4419B60", Offset = "0x4419B60", VA = "0x4419B60")]
 	public static string Label(string id)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000875")]
-	[Address(RVA = "0x40E8A60", Offset = "0x40E8A60", VA = "0x40E8A60")]
+	[Token(Token = "0x60009EB")]
+	[Address(RVA = "0x4419BA0", Offset = "0x4419BA0", VA = "0x4419BA0")]
 	public static NameEffectSettings SupporterShimmer()
 	{
 		return null;

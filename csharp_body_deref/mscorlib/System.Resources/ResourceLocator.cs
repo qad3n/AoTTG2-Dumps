@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Resources.ResourceLocator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Resources;
@@ -17,7 +24,7 @@ internal struct ResourceLocator
 	internal int DataPosition
 	{
 		[Token(Token = "0x6002399")]
-		[Address(RVA = "0x4EE5910", Offset = "0x4EE5910", VA = "0x4EE5910")]
+		[Address(RVA = "0x3BCB430", Offset = "0x3BCB430", VA = "0x3BCB430")]
 		get
 		{
 			return default(int);
@@ -28,26 +35,26 @@ internal struct ResourceLocator
 	internal object Value
 	{
 		[Token(Token = "0x600239A")]
-		[Address(RVA = "0x4EE5920", Offset = "0x4EE5920", VA = "0x4EE5920")]
+		[Address(RVA = "0x3BCB440", Offset = "0x3BCB440", VA = "0x3BCB440")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600239B")]
-		[Address(RVA = "0x4EE5930", Offset = "0x4EE5930", VA = "0x4EE5930")]
+		[Address(RVA = "0x3BCB450", Offset = "0x3BCB450", VA = "0x3BCB450")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6002398")]
-	[Address(RVA = "0x4EE5900", Offset = "0x4EE5900", VA = "0x4EE5900")]
+	[Address(RVA = "0x3BCB420", Offset = "0x3BCB420", VA = "0x3BCB420")]
 	internal ResourceLocator(int dataPos, object value)
 	{
 	}
 
 	[Token(Token = "0x600239C")]
-	[Address(RVA = "0x4EE5940", Offset = "0x4EE5940", VA = "0x4EE5940")]
+	[Address(RVA = "0x3BCB460", Offset = "0x3BCB460", VA = "0x3BCB460")]
 	internal static bool CanCache(System.Resources.ResourceTypeCode value)
 	{
 		return default(bool);

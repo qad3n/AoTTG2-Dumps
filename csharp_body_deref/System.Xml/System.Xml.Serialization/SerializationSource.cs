@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Serialization.SerializationSource
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Serialization;
@@ -18,13 +25,13 @@ internal abstract class SerializationSource
 	private bool canBeGenerated;
 
 	[Token(Token = "0x6000CD4")]
-	[Address(RVA = "0x44CCD80", Offset = "0x44CCD80", VA = "0x44CCD80")]
+	[Address(RVA = "0x480A4E0", Offset = "0x480A4E0", VA = "0x480A4E0")]
 	public SerializationSource(string namspace, Type[] includedTypes)
 	{
 	}
 
 	[Token(Token = "0x6000CD5")]
-	[Address(RVA = "0x44CCDD0", Offset = "0x44CCDD0", VA = "0x44CCDD0")]
+	[Address(RVA = "0x480A530", Offset = "0x480A530", VA = "0x480A530")]
 	protected bool BaseEquals(SerializationSource other)
 	{
 		return default(bool);

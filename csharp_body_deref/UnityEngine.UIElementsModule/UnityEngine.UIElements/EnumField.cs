@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.EnumField
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -14,7 +21,7 @@ public class EnumField : BaseField<Enum>
 	public new class UxmlFactory : UxmlFactory<EnumField, UxmlTraits>
 	{
 		[Token(Token = "0x60003E6")]
-		[Address(RVA = "0x4C129E0", Offset = "0x4C129E0", VA = "0x4C129E0")]
+		[Address(RVA = "0x4F3A310", Offset = "0x4F3A310", VA = "0x4F3A310")]
 		public UxmlFactory()
 		{
 		}
@@ -36,13 +43,13 @@ public class EnumField : BaseField<Enum>
 		private UxmlBoolAttributeDescription m_IncludeObsoleteValues;
 
 		[Token(Token = "0x60003E7")]
-		[Address(RVA = "0x4C12A20", Offset = "0x4C12A20", VA = "0x4C12A20", Slot = "4")]
+		[Address(RVA = "0x4F3A350", Offset = "0x4F3A350", VA = "0x4F3A350", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x60003E8")]
-		[Address(RVA = "0x4C12D40", Offset = "0x4C12D40", VA = "0x4C12D40")]
+		[Address(RVA = "0x4F3A670", Offset = "0x4F3A670", VA = "0x4F3A670")]
 		public UxmlTraits()
 		{
 		}
@@ -100,7 +107,7 @@ public class EnumField : BaseField<Enum>
 	internal bool includeObsoleteValues
 	{
 		[Token(Token = "0x60003D2")]
-		[Address(RVA = "0x4C11380", Offset = "0x4C11380", VA = "0x4C11380")]
+		[Address(RVA = "0x4F38CB0", Offset = "0x4F38CB0", VA = "0x4F38CB0")]
 		get
 		{
 			return default(bool);
@@ -112,7 +119,7 @@ public class EnumField : BaseField<Enum>
 	public string text
 	{
 		[Token(Token = "0x60003D3")]
-		[Address(RVA = "0x4C11390", Offset = "0x4C11390", VA = "0x4C11390")]
+		[Address(RVA = "0x4F38CC0", Offset = "0x4F38CC0", VA = "0x4F38CC0")]
 		get
 		{
 			return null;
@@ -120,67 +127,67 @@ public class EnumField : BaseField<Enum>
 	}
 
 	[Token(Token = "0x60003D4")]
-	[Address(RVA = "0x4C113C0", Offset = "0x4C113C0", VA = "0x4C113C0")]
+	[Address(RVA = "0x4F38CF0", Offset = "0x4F38CF0", VA = "0x4F38CF0")]
 	private void Initialize(Enum defaultValue)
 	{
 	}
 
 	[Token(Token = "0x60003D5")]
-	[Address(RVA = "0x4C115B0", Offset = "0x4C115B0", VA = "0x4C115B0")]
+	[Address(RVA = "0x4F38EE0", Offset = "0x4F38EE0", VA = "0x4F38EE0")]
 	public EnumField()
 	{
 	}
 
 	[Token(Token = "0x60003D6")]
-	[Address(RVA = "0x4C115C0", Offset = "0x4C115C0", VA = "0x4C115C0")]
+	[Address(RVA = "0x4F38EF0", Offset = "0x4F38EF0", VA = "0x4F38EF0")]
 	public EnumField(string label, [Optional] Enum defaultValue)
 	{
 	}
 
 	[Token(Token = "0x60003D7")]
-	[Address(RVA = "0x4C115A0", Offset = "0x4C115A0", VA = "0x4C115A0")]
+	[Address(RVA = "0x4F38ED0", Offset = "0x4F38ED0", VA = "0x4F38ED0")]
 	public void Init(Enum defaultValue)
 	{
 	}
 
 	[Token(Token = "0x60003D8")]
-	[Address(RVA = "0x4C11910", Offset = "0x4C11910", VA = "0x4C11910")]
+	[Address(RVA = "0x4F39240", Offset = "0x4F39240", VA = "0x4F39240")]
 	public void Init(Enum defaultValue, bool includeObsoleteValues)
 	{
 	}
 
 	[Token(Token = "0x60003D9")]
-	[Address(RVA = "0x4C11AC0", Offset = "0x4C11AC0", VA = "0x4C11AC0")]
+	[Address(RVA = "0x4F393F0", Offset = "0x4F393F0", VA = "0x4F393F0")]
 	internal void PopulateDataFromType(Type enumType)
 	{
 	}
 
 	[Token(Token = "0x60003DA")]
-	[Address(RVA = "0x4C11C70", Offset = "0x4C11C70", VA = "0x4C11C70", Slot = "114")]
+	[Address(RVA = "0x4F395A0", Offset = "0x4F395A0", VA = "0x4F395A0", Slot = "114")]
 	public override void SetValueWithoutNotify(Enum newValue)
 	{
 	}
 
 	[Token(Token = "0x60003DB")]
-	[Address(RVA = "0x4C11BA0", Offset = "0x4C11BA0", VA = "0x4C11BA0")]
+	[Address(RVA = "0x4F394D0", Offset = "0x4F394D0", VA = "0x4F394D0")]
 	private void UpdateValueLabel(Enum value)
 	{
 	}
 
 	[Token(Token = "0x60003DC")]
-	[Address(RVA = "0x4C11D30", Offset = "0x4C11D30", VA = "0x4C11D30")]
+	[Address(RVA = "0x4F39660", Offset = "0x4F39660", VA = "0x4F39660")]
 	private void OnPointerDownEvent(PointerDownEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60003DD")]
-	[Address(RVA = "0x4C11D80", Offset = "0x4C11D80", VA = "0x4C11D80")]
+	[Address(RVA = "0x4F396B0", Offset = "0x4F396B0", VA = "0x4F396B0")]
 	private void OnPointerMoveEvent(PointerMoveEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60003DE")]
-	[Address(RVA = "0x4C11E00", Offset = "0x4C11E00", VA = "0x4C11E00")]
+	[Address(RVA = "0x4F39730", Offset = "0x4F39730", VA = "0x4F39730")]
 	private bool ContainsPointer(int pointerId)
 	{
 		return default(bool);
@@ -192,25 +199,25 @@ public class EnumField : BaseField<Enum>
 	}
 
 	[Token(Token = "0x60003E0")]
-	[Address(RVA = "0x4C11E70", Offset = "0x4C11E70", VA = "0x4C11E70")]
+	[Address(RVA = "0x4F397A0", Offset = "0x4F397A0", VA = "0x4F397A0")]
 	private void OnNavigationSubmit(NavigationSubmitEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60003E1")]
-	[Address(RVA = "0x4C11E90", Offset = "0x4C11E90", VA = "0x4C11E90")]
+	[Address(RVA = "0x4F397C0", Offset = "0x4F397C0", VA = "0x4F397C0")]
 	private void ShowMenu()
 	{
 	}
 
 	[Token(Token = "0x60003E2")]
-	[Address(RVA = "0x4C125A0", Offset = "0x4C125A0", VA = "0x4C125A0")]
+	[Address(RVA = "0x4F39ED0", Offset = "0x4F39ED0", VA = "0x4F39ED0")]
 	private void ChangeValueFromMenu(object menuItem)
 	{
 	}
 
 	[Token(Token = "0x60003E3")]
-	[Address(RVA = "0x4C12610", Offset = "0x4C12610", VA = "0x4C12610", Slot = "113")]
+	[Address(RVA = "0x4F39F40", Offset = "0x4F39F40", VA = "0x4F39F40", Slot = "113")]
 	protected override void UpdateMixedValueContent()
 	{
 	}

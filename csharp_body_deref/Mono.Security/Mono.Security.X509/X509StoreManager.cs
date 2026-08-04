@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Security.X509.X509StoreManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace Mono.Security.X509;
@@ -25,7 +32,7 @@ public sealed class X509StoreManager
 	internal static string CurrentUserPath
 	{
 		[Token(Token = "0x60000D2")]
-		[Address(RVA = "0x3A49820", Offset = "0x3A49820", VA = "0x3A49820")]
+		[Address(RVA = "0x3AB64E0", Offset = "0x3AB64E0", VA = "0x3AB64E0")]
 		get
 		{
 			return null;
@@ -36,7 +43,7 @@ public sealed class X509StoreManager
 	internal static string LocalMachinePath
 	{
 		[Token(Token = "0x60000D3")]
-		[Address(RVA = "0x3A49940", Offset = "0x3A49940", VA = "0x3A49940")]
+		[Address(RVA = "0x3AB6600", Offset = "0x3AB6600", VA = "0x3AB6600")]
 		get
 		{
 			return null;
@@ -47,7 +54,7 @@ public sealed class X509StoreManager
 	public static X509Stores CurrentUser
 	{
 		[Token(Token = "0x60000D4")]
-		[Address(RVA = "0x3A49A50", Offset = "0x3A49A50", VA = "0x3A49A50")]
+		[Address(RVA = "0x3AB6710", Offset = "0x3AB6710", VA = "0x3AB6710")]
 		get
 		{
 			return null;
@@ -58,7 +65,7 @@ public sealed class X509StoreManager
 	public static X509Stores LocalMachine
 	{
 		[Token(Token = "0x60000D5")]
-		[Address(RVA = "0x3A49B40", Offset = "0x3A49B40", VA = "0x3A49B40")]
+		[Address(RVA = "0x3AB6800", Offset = "0x3AB6800", VA = "0x3AB6800")]
 		get
 		{
 			return null;
@@ -69,7 +76,7 @@ public sealed class X509StoreManager
 	public static X509CertificateCollection TrustedRootCertificates
 	{
 		[Token(Token = "0x60000D6")]
-		[Address(RVA = "0x3A46AB0", Offset = "0x3A46AB0", VA = "0x3A46AB0")]
+		[Address(RVA = "0x3AB3770", Offset = "0x3AB3770", VA = "0x3AB3770")]
 		get
 		{
 			return null;

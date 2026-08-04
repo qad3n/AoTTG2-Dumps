@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Reflection.RuntimeModule
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
@@ -45,7 +52,7 @@ internal class RuntimeModule : Module
 	public override Assembly Assembly
 	{
 		[Token(Token = "0x60026DA")]
-		[Address(RVA = "0x4EFF170", Offset = "0x4EFF170", VA = "0x4EFF170", Slot = "8")]
+		[Address(RVA = "0x3BE4C90", Offset = "0x3BE4C90", VA = "0x3BE4C90", Slot = "8")]
 		get
 		{
 			return null;
@@ -56,7 +63,7 @@ internal class RuntimeModule : Module
 	public override string ScopeName
 	{
 		[Token(Token = "0x60026DB")]
-		[Address(RVA = "0x4EFF180", Offset = "0x4EFF180", VA = "0x4EFF180", Slot = "11")]
+		[Address(RVA = "0x3BE4CA0", Offset = "0x3BE4CA0", VA = "0x3BE4CA0", Slot = "11")]
 		get
 		{
 			return null;
@@ -67,7 +74,7 @@ internal class RuntimeModule : Module
 	public override Guid ModuleVersionId
 	{
 		[Token(Token = "0x60026DC")]
-		[Address(RVA = "0x4EFF190", Offset = "0x4EFF190", VA = "0x4EFF190", Slot = "10")]
+		[Address(RVA = "0x3BE4CB0", Offset = "0x3BE4CB0", VA = "0x3BE4CB0", Slot = "10")]
 		get
 		{
 			return default(Guid);
@@ -78,7 +85,7 @@ internal class RuntimeModule : Module
 	public override string FullyQualifiedName
 	{
 		[Token(Token = "0x60026DD")]
-		[Address(RVA = "0x4EFF1B0", Offset = "0x4EFF1B0", VA = "0x4EFF1B0", Slot = "9")]
+		[Address(RVA = "0x3BE4CD0", Offset = "0x3BE4CD0", VA = "0x3BE4CD0", Slot = "9")]
 		get
 		{
 			return null;
@@ -86,48 +93,48 @@ internal class RuntimeModule : Module
 	}
 
 	[Token(Token = "0x60026DE")]
-	[Address(RVA = "0x4EFF1C0", Offset = "0x4EFF1C0", VA = "0x4EFF1C0", Slot = "12")]
+	[Address(RVA = "0x3BE4CE0", Offset = "0x3BE4CE0", VA = "0x3BE4CE0", Slot = "12")]
 	public override bool IsResource()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60026DF")]
-	[Address(RVA = "0x4EFF1D0", Offset = "0x4EFF1D0", VA = "0x4EFF1D0", Slot = "14")]
+	[Address(RVA = "0x3BE4CF0", Offset = "0x3BE4CF0", VA = "0x3BE4CF0", Slot = "14")]
 	public override object[] GetCustomAttributes(bool inherit)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60026E0")]
-	[Address(RVA = "0x4EFF220", Offset = "0x4EFF220", VA = "0x4EFF220", Slot = "15")]
+	[Address(RVA = "0x3BE4D40", Offset = "0x3BE4D40", VA = "0x3BE4D40", Slot = "15")]
 	public override object[] GetCustomAttributes(Type attributeType, bool inherit)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60026E1")]
-	[Address(RVA = "0x4EFF280", Offset = "0x4EFF280", VA = "0x4EFF280", Slot = "13")]
+	[Address(RVA = "0x3BE4DA0", Offset = "0x3BE4DA0", VA = "0x3BE4DA0", Slot = "13")]
 	public override bool IsDefined(Type attributeType, bool inherit)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60026E2")]
-	[Address(RVA = "0x4EFF2E0", Offset = "0x4EFF2E0", VA = "0x4EFF2E0", Slot = "16")]
+	[Address(RVA = "0x3BE4E00", Offset = "0x3BE4E00", VA = "0x3BE4E00", Slot = "16")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60026E3")]
-	[Address(RVA = "0x4EFF3C0", Offset = "0x4EFF3C0", VA = "0x4EFF3C0")]
+	[Address(RVA = "0x3BE4EE0", Offset = "0x3BE4EE0", VA = "0x3BE4EE0")]
 	internal System.Reflection.RuntimeAssembly GetRuntimeAssembly()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60026E4")]
-	[Address(RVA = "0x4EFF420", Offset = "0x4EFF420", VA = "0x4EFF420", Slot = "17")]
+	[Address(RVA = "0x3BE4F40", Offset = "0x3BE4F40", VA = "0x3BE4F40", Slot = "17")]
 	internal override Guid GetModuleVersionId()
 	{
 		return default(Guid);
@@ -135,11 +142,11 @@ internal class RuntimeModule : Module
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x60026E5")]
-	[Address(RVA = "0x4EFF490", Offset = "0x4EFF490", VA = "0x4EFF490")]
+	[Address(RVA = "0x3BE4FB0", Offset = "0x3BE4FB0", VA = "0x3BE4FB0")]
 	private static extern void GetGuidInternal(IntPtr module, byte[] guid);
 
 	[Token(Token = "0x60026E6")]
-	[Address(RVA = "0x4EFF4A0", Offset = "0x4EFF4A0", VA = "0x4EFF4A0")]
+	[Address(RVA = "0x3BE4FC0", Offset = "0x3BE4FC0", VA = "0x3BE4FC0")]
 	public RuntimeModule()
 	{
 	}

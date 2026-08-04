@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.ScrollView
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -12,7 +19,7 @@ public class ScrollView : VisualElement
 	public new class UxmlFactory : UxmlFactory<ScrollView, UxmlTraits>
 	{
 		[Token(Token = "0x600071C")]
-		[Address(RVA = "0x4CD51F0", Offset = "0x4CD51F0", VA = "0x4CD51F0")]
+		[Address(RVA = "0x4FFCB20", Offset = "0x4FFCB20", VA = "0x4FFCB20")]
 		public UxmlFactory()
 		{
 		}
@@ -74,13 +81,13 @@ public class ScrollView : VisualElement
 		private UxmlLongAttributeDescription m_ElasticAnimationIntervalMs;
 
 		[Token(Token = "0x600071D")]
-		[Address(RVA = "0x4CD5230", Offset = "0x4CD5230", VA = "0x4CD5230", Slot = "4")]
+		[Address(RVA = "0x4FFCB60", Offset = "0x4FFCB60", VA = "0x4FFCB60", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
 		[Token(Token = "0x600071E")]
-		[Address(RVA = "0x4CD57D0", Offset = "0x4CD57D0", VA = "0x4CD57D0")]
+		[Address(RVA = "0x4FFD100", Offset = "0x4FFD100", VA = "0x4FFD100")]
 		public UxmlTraits()
 		{
 		}
@@ -376,13 +383,13 @@ public class ScrollView : VisualElement
 	public ScrollerVisibility horizontalScrollerVisibility
 	{
 		[Token(Token = "0x60006CC")]
-		[Address(RVA = "0x4CCD550", Offset = "0x4CCD550", VA = "0x4CCD550")]
+		[Address(RVA = "0x4FF4E80", Offset = "0x4FF4E80", VA = "0x4FF4E80")]
 		get
 		{
 			return default(ScrollerVisibility);
 		}
 		[Token(Token = "0x60006CD")]
-		[Address(RVA = "0x4CCD560", Offset = "0x4CCD560", VA = "0x4CCD560")]
+		[Address(RVA = "0x4FF4E90", Offset = "0x4FF4E90", VA = "0x4FF4E90")]
 		set
 		{
 		}
@@ -393,13 +400,13 @@ public class ScrollView : VisualElement
 	public ScrollerVisibility verticalScrollerVisibility
 	{
 		[Token(Token = "0x60006CE")]
-		[Address(RVA = "0x4CCDDA0", Offset = "0x4CCDDA0", VA = "0x4CCDDA0")]
+		[Address(RVA = "0x4FF56D0", Offset = "0x4FF56D0", VA = "0x4FF56D0")]
 		get
 		{
 			return default(ScrollerVisibility);
 		}
 		[Token(Token = "0x60006CF")]
-		[Address(RVA = "0x4CCDDB0", Offset = "0x4CCDDB0", VA = "0x4CCDDB0")]
+		[Address(RVA = "0x4FF56E0", Offset = "0x4FF56E0", VA = "0x4FF56E0")]
 		set
 		{
 		}
@@ -410,7 +417,7 @@ public class ScrollView : VisualElement
 	public bool showHorizontal
 	{
 		[Token(Token = "0x60006D0")]
-		[Address(RVA = "0x4CCDF70", Offset = "0x4CCDF70", VA = "0x4CCDF70")]
+		[Address(RVA = "0x4FF58A0", Offset = "0x4FF58A0", VA = "0x4FF58A0")]
 		set
 		{
 		}
@@ -421,7 +428,7 @@ public class ScrollView : VisualElement
 	public bool showVertical
 	{
 		[Token(Token = "0x60006D1")]
-		[Address(RVA = "0x4CCDF90", Offset = "0x4CCDF90", VA = "0x4CCDF90")]
+		[Address(RVA = "0x4FF58C0", Offset = "0x4FF58C0", VA = "0x4FF58C0")]
 		set
 		{
 		}
@@ -431,7 +438,7 @@ public class ScrollView : VisualElement
 	internal bool needsHorizontal
 	{
 		[Token(Token = "0x60006D2")]
-		[Address(RVA = "0x4CCD740", Offset = "0x4CCD740", VA = "0x4CCD740")]
+		[Address(RVA = "0x4FF5070", Offset = "0x4FF5070", VA = "0x4FF5070")]
 		get
 		{
 			return default(bool);
@@ -442,7 +449,7 @@ public class ScrollView : VisualElement
 	internal bool needsVertical
 	{
 		[Token(Token = "0x60006D3")]
-		[Address(RVA = "0x4CCD7D0", Offset = "0x4CCD7D0", VA = "0x4CCD7D0")]
+		[Address(RVA = "0x4FF5100", Offset = "0x4FF5100", VA = "0x4FF5100")]
 		get
 		{
 			return default(bool);
@@ -453,7 +460,7 @@ public class ScrollView : VisualElement
 	internal bool isVerticalScrollDisplayed
 	{
 		[Token(Token = "0x60006D4")]
-		[Address(RVA = "0x4CCE070", Offset = "0x4CCE070", VA = "0x4CCE070")]
+		[Address(RVA = "0x4FF59A0", Offset = "0x4FF59A0", VA = "0x4FF59A0")]
 		get
 		{
 			return default(bool);
@@ -464,7 +471,7 @@ public class ScrollView : VisualElement
 	internal bool isHorizontalScrollDisplayed
 	{
 		[Token(Token = "0x60006D5")]
-		[Address(RVA = "0x4CCE130", Offset = "0x4CCE130", VA = "0x4CCE130")]
+		[Address(RVA = "0x4FF5A60", Offset = "0x4FF5A60", VA = "0x4FF5A60")]
 		get
 		{
 			return default(bool);
@@ -476,13 +483,13 @@ public class ScrollView : VisualElement
 	public Vector2 scrollOffset
 	{
 		[Token(Token = "0x60006D6")]
-		[Address(RVA = "0x4CCE1F0", Offset = "0x4CCE1F0", VA = "0x4CCE1F0")]
+		[Address(RVA = "0x4FF5B20", Offset = "0x4FF5B20", VA = "0x4FF5B20")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x60006D7")]
-		[Address(RVA = "0x4CCE240", Offset = "0x4CCE240", VA = "0x4CCE240")]
+		[Address(RVA = "0x4FF5B70", Offset = "0x4FF5B70", VA = "0x4FF5B70")]
 		set
 		{
 		}
@@ -493,13 +500,13 @@ public class ScrollView : VisualElement
 	public float horizontalPageSize
 	{
 		[Token(Token = "0x60006D8")]
-		[Address(RVA = "0x4CCE830", Offset = "0x4CCE830", VA = "0x4CCE830")]
+		[Address(RVA = "0x4FF6160", Offset = "0x4FF6160", VA = "0x4FF6160")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60006D9")]
-		[Address(RVA = "0x4CCE840", Offset = "0x4CCE840", VA = "0x4CCE840")]
+		[Address(RVA = "0x4FF6170", Offset = "0x4FF6170", VA = "0x4FF6170")]
 		set
 		{
 		}
@@ -510,13 +517,13 @@ public class ScrollView : VisualElement
 	public float verticalPageSize
 	{
 		[Token(Token = "0x60006DA")]
-		[Address(RVA = "0x4CCEBC0", Offset = "0x4CCEBC0", VA = "0x4CCEBC0")]
+		[Address(RVA = "0x4FF64F0", Offset = "0x4FF64F0", VA = "0x4FF64F0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60006DB")]
-		[Address(RVA = "0x4CCEBD0", Offset = "0x4CCEBD0", VA = "0x4CCEBD0")]
+		[Address(RVA = "0x4FF6500", Offset = "0x4FF6500", VA = "0x4FF6500")]
 		set
 		{
 		}
@@ -527,13 +534,13 @@ public class ScrollView : VisualElement
 	public float mouseWheelScrollSize
 	{
 		[Token(Token = "0x60006DC")]
-		[Address(RVA = "0x4CCEF50", Offset = "0x4CCEF50", VA = "0x4CCEF50")]
+		[Address(RVA = "0x4FF6880", Offset = "0x4FF6880", VA = "0x4FF6880")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60006DD")]
-		[Address(RVA = "0x4CCEF60", Offset = "0x4CCEF60", VA = "0x4CCEF60")]
+		[Address(RVA = "0x4FF6890", Offset = "0x4FF6890", VA = "0x4FF6890")]
 		set
 		{
 		}
@@ -543,7 +550,7 @@ public class ScrollView : VisualElement
 	internal float scrollableWidth
 	{
 		[Token(Token = "0x60006DE")]
-		[Address(RVA = "0x4CCDFB0", Offset = "0x4CCDFB0", VA = "0x4CCDFB0")]
+		[Address(RVA = "0x4FF58E0", Offset = "0x4FF58E0", VA = "0x4FF58E0")]
 		get
 		{
 			return default(float);
@@ -554,7 +561,7 @@ public class ScrollView : VisualElement
 	internal float scrollableHeight
 	{
 		[Token(Token = "0x60006DF")]
-		[Address(RVA = "0x4CCE010", Offset = "0x4CCE010", VA = "0x4CCE010")]
+		[Address(RVA = "0x4FF5940", Offset = "0x4FF5940", VA = "0x4FF5940")]
 		get
 		{
 			return default(float);
@@ -565,7 +572,7 @@ public class ScrollView : VisualElement
 	private bool hasInertia
 	{
 		[Token(Token = "0x60006E0")]
-		[Address(RVA = "0x4CCF080", Offset = "0x4CCF080", VA = "0x4CCF080")]
+		[Address(RVA = "0x4FF69B0", Offset = "0x4FF69B0", VA = "0x4FF69B0")]
 		get
 		{
 			return default(bool);
@@ -577,13 +584,13 @@ public class ScrollView : VisualElement
 	public float scrollDecelerationRate
 	{
 		[Token(Token = "0x60006E1")]
-		[Address(RVA = "0x4CCF0A0", Offset = "0x4CCF0A0", VA = "0x4CCF0A0")]
+		[Address(RVA = "0x4FF69D0", Offset = "0x4FF69D0", VA = "0x4FF69D0")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60006E2")]
-		[Address(RVA = "0x4CCF0B0", Offset = "0x4CCF0B0", VA = "0x4CCF0B0")]
+		[Address(RVA = "0x4FF69E0", Offset = "0x4FF69E0", VA = "0x4FF69E0")]
 		set
 		{
 		}
@@ -594,13 +601,13 @@ public class ScrollView : VisualElement
 	public float elasticity
 	{
 		[Token(Token = "0x60006E3")]
-		[Address(RVA = "0x4CCF1D0", Offset = "0x4CCF1D0", VA = "0x4CCF1D0")]
+		[Address(RVA = "0x4FF6B00", Offset = "0x4FF6B00", VA = "0x4FF6B00")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x60006E4")]
-		[Address(RVA = "0x4CCF1E0", Offset = "0x4CCF1E0", VA = "0x4CCF1E0")]
+		[Address(RVA = "0x4FF6B10", Offset = "0x4FF6B10", VA = "0x4FF6B10")]
 		set
 		{
 		}
@@ -611,13 +618,13 @@ public class ScrollView : VisualElement
 	public TouchScrollBehavior touchScrollBehavior
 	{
 		[Token(Token = "0x60006E5")]
-		[Address(RVA = "0x4CCF300", Offset = "0x4CCF300", VA = "0x4CCF300")]
+		[Address(RVA = "0x4FF6C30", Offset = "0x4FF6C30", VA = "0x4FF6C30")]
 		get
 		{
 			return default(TouchScrollBehavior);
 		}
 		[Token(Token = "0x60006E6")]
-		[Address(RVA = "0x4CCF310", Offset = "0x4CCF310", VA = "0x4CCF310")]
+		[Address(RVA = "0x4FF6C40", Offset = "0x4FF6C40", VA = "0x4FF6C40")]
 		set
 		{
 		}
@@ -628,13 +635,13 @@ public class ScrollView : VisualElement
 	public NestedInteractionKind nestedInteractionKind
 	{
 		[Token(Token = "0x60006E7")]
-		[Address(RVA = "0x4CCF430", Offset = "0x4CCF430", VA = "0x4CCF430")]
+		[Address(RVA = "0x4FF6D60", Offset = "0x4FF6D60", VA = "0x4FF6D60")]
 		get
 		{
 			return default(NestedInteractionKind);
 		}
 		[Token(Token = "0x60006E8")]
-		[Address(RVA = "0x4CCF440", Offset = "0x4CCF440", VA = "0x4CCF440")]
+		[Address(RVA = "0x4FF6D70", Offset = "0x4FF6D70", VA = "0x4FF6D70")]
 		set
 		{
 		}
@@ -645,13 +652,13 @@ public class ScrollView : VisualElement
 	public long elasticAnimationIntervalMs
 	{
 		[Token(Token = "0x60006E9")]
-		[Address(RVA = "0x4CCF4E0", Offset = "0x4CCF4E0", VA = "0x4CCF4E0")]
+		[Address(RVA = "0x4FF6E10", Offset = "0x4FF6E10", VA = "0x4FF6E10")]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x60006EA")]
-		[Address(RVA = "0x4CCF4F0", Offset = "0x4CCF4F0", VA = "0x4CCF4F0")]
+		[Address(RVA = "0x4FF6E20", Offset = "0x4FF6E20", VA = "0x4FF6E20")]
 		set
 		{
 		}
@@ -661,7 +668,7 @@ public class ScrollView : VisualElement
 	public VisualElement contentViewport
 	{
 		[Token(Token = "0x60006F4")]
-		[Address(RVA = "0x4CCFF40", Offset = "0x4CCFF40", VA = "0x4CCFF40")]
+		[Address(RVA = "0x4FF7870", Offset = "0x4FF7870", VA = "0x4FF7870")]
 		[CompilerGenerated]
 		get
 		{
@@ -673,7 +680,7 @@ public class ScrollView : VisualElement
 	public Scroller horizontalScroller
 	{
 		[Token(Token = "0x60006F5")]
-		[Address(RVA = "0x4CCFF50", Offset = "0x4CCFF50", VA = "0x4CCFF50")]
+		[Address(RVA = "0x4FF7880", Offset = "0x4FF7880", VA = "0x4FF7880")]
 		[CompilerGenerated]
 		get
 		{
@@ -685,7 +692,7 @@ public class ScrollView : VisualElement
 	public Scroller verticalScroller
 	{
 		[Token(Token = "0x60006F6")]
-		[Address(RVA = "0x4CCFF60", Offset = "0x4CCFF60", VA = "0x4CCFF60")]
+		[Address(RVA = "0x4FF7890", Offset = "0x4FF7890", VA = "0x4FF7890")]
 		[CompilerGenerated]
 		get
 		{
@@ -697,7 +704,7 @@ public class ScrollView : VisualElement
 	public override VisualElement contentContainer
 	{
 		[Token(Token = "0x60006F7")]
-		[Address(RVA = "0x4CCFF70", Offset = "0x4CCFF70", VA = "0x4CCFF70", Slot = "97")]
+		[Address(RVA = "0x4FF78A0", Offset = "0x4FF78A0", VA = "0x4FF78A0", Slot = "97")]
 		get
 		{
 			return null;
@@ -709,261 +716,261 @@ public class ScrollView : VisualElement
 	public ScrollViewMode mode
 	{
 		[Token(Token = "0x60006FA")]
-		[Address(RVA = "0x4CD0EF0", Offset = "0x4CD0EF0", VA = "0x4CD0EF0")]
+		[Address(RVA = "0x4FF8820", Offset = "0x4FF8820", VA = "0x4FF8820")]
 		get
 		{
 			return default(ScrollViewMode);
 		}
 		[Token(Token = "0x60006FB")]
-		[Address(RVA = "0x4CD0F00", Offset = "0x4CD0F00", VA = "0x4CD0F00")]
+		[Address(RVA = "0x4FF8830", Offset = "0x4FF8830", VA = "0x4FF8830")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60006EB")]
-	[Address(RVA = "0x4CCF720", Offset = "0x4CCF720", VA = "0x4CCF720")]
+	[Address(RVA = "0x4FF7050", Offset = "0x4FF7050", VA = "0x4FF7050")]
 	private void OnHorizontalScrollDragElementChanged(GeometryChangedEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60006EC")]
-	[Address(RVA = "0x4CCF760", Offset = "0x4CCF760", VA = "0x4CCF760")]
+	[Address(RVA = "0x4FF7090", Offset = "0x4FF7090", VA = "0x4FF7090")]
 	private void OnVerticalScrollDragElementChanged(GeometryChangedEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60006ED")]
-	[Address(RVA = "0x4CCE970", Offset = "0x4CCE970", VA = "0x4CCE970")]
+	[Address(RVA = "0x4FF62A0", Offset = "0x4FF62A0", VA = "0x4FF62A0")]
 	private void UpdateHorizontalSliderPageSize()
 	{
 	}
 
 	[Token(Token = "0x60006EE")]
-	[Address(RVA = "0x4CCED00", Offset = "0x4CCED00", VA = "0x4CCED00")]
+	[Address(RVA = "0x4FF6630", Offset = "0x4FF6630", VA = "0x4FF6630")]
 	private void UpdateVerticalSliderPageSize()
 	{
 	}
 
 	[Token(Token = "0x60006EF")]
-	[Address(RVA = "0x4CCE4C0", Offset = "0x4CCE4C0", VA = "0x4CCE4C0")]
+	[Address(RVA = "0x4FF5DF0", Offset = "0x4FF5DF0", VA = "0x4FF5DF0")]
 	internal void UpdateContentViewTransform()
 	{
 	}
 
 	[Token(Token = "0x60006F0")]
-	[Address(RVA = "0x4CCF7A0", Offset = "0x4CCF7A0", VA = "0x4CCF7A0")]
+	[Address(RVA = "0x4FF70D0", Offset = "0x4FF70D0", VA = "0x4FF70D0")]
 	public void ScrollTo(VisualElement child)
 	{
 	}
 
 	[Token(Token = "0x60006F1")]
-	[Address(RVA = "0x4CCFCB0", Offset = "0x4CCFCB0", VA = "0x4CCFCB0")]
+	[Address(RVA = "0x4FF75E0", Offset = "0x4FF75E0", VA = "0x4FF75E0")]
 	private float GetXDeltaOffset(VisualElement child)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60006F2")]
-	[Address(RVA = "0x4CCFA50", Offset = "0x4CCFA50", VA = "0x4CCFA50")]
+	[Address(RVA = "0x4FF7380", Offset = "0x4FF7380", VA = "0x4FF7380")]
 	private float GetYDeltaOffset(VisualElement child)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60006F3")]
-	[Address(RVA = "0x4CCFEF0", Offset = "0x4CCFEF0", VA = "0x4CCFEF0")]
+	[Address(RVA = "0x4FF7820", Offset = "0x4FF7820", VA = "0x4FF7820")]
 	private float GetDeltaDistance(float viewMin, float viewMax, float childBoundaryMin, float childBoundaryMax)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60006F8")]
-	[Address(RVA = "0x4CCFF80", Offset = "0x4CCFF80", VA = "0x4CCFF80")]
+	[Address(RVA = "0x4FF78B0", Offset = "0x4FF78B0", VA = "0x4FF78B0")]
 	public ScrollView()
 	{
 	}
 
 	[Token(Token = "0x60006F9")]
-	[Address(RVA = "0x4CCFF90", Offset = "0x4CCFF90", VA = "0x4CCFF90")]
+	[Address(RVA = "0x4FF78C0", Offset = "0x4FF78C0", VA = "0x4FF78C0")]
 	public ScrollView(ScrollViewMode scrollViewMode)
 	{
 	}
 
 	[Token(Token = "0x60006FC")]
-	[Address(RVA = "0x4CD0B30", Offset = "0x4CD0B30", VA = "0x4CD0B30")]
+	[Address(RVA = "0x4FF8460", Offset = "0x4FF8460", VA = "0x4FF8460")]
 	private void SetScrollViewMode(ScrollViewMode mode)
 	{
 	}
 
 	[Token(Token = "0x60006FD")]
-	[Address(RVA = "0x4CD0FA0", Offset = "0x4CD0FA0", VA = "0x4CD0FA0")]
+	[Address(RVA = "0x4FF88D0", Offset = "0x4FF88D0", VA = "0x4FF88D0")]
 	private void OnAttachToPanel(AttachToPanelEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60006FE")]
-	[Address(RVA = "0x4CD1540", Offset = "0x4CD1540", VA = "0x4CD1540")]
+	[Address(RVA = "0x4FF8E70", Offset = "0x4FF8E70", VA = "0x4FF8E70")]
 	private void OnDetachFromPanel(DetachFromPanelEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60006FF")]
-	[Address(RVA = "0x4CD1A30", Offset = "0x4CD1A30", VA = "0x4CD1A30")]
+	[Address(RVA = "0x4FF9360", Offset = "0x4FF9360", VA = "0x4FF9360")]
 	private void OnPointerCapture(PointerCaptureEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000700")]
-	[Address(RVA = "0x4CD1AF0", Offset = "0x4CD1AF0", VA = "0x4CD1AF0")]
+	[Address(RVA = "0x4FF9420", Offset = "0x4FF9420", VA = "0x4FF9420")]
 	private void OnPointerCaptureOut(PointerCaptureOutEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000701")]
-	[Address(RVA = "0x4CD1CC0", Offset = "0x4CD1CC0", VA = "0x4CD1CC0")]
+	[Address(RVA = "0x4FF95F0", Offset = "0x4FF95F0", VA = "0x4FF95F0")]
 	private void OnGeometryChanged(GeometryChangedEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000702")]
-	[Address(RVA = "0x4CD1ED0", Offset = "0x4CD1ED0", VA = "0x4CD1ED0")]
+	[Address(RVA = "0x4FF9800", Offset = "0x4FF9800", VA = "0x4FF9800")]
 	private void ScheduleResetLayoutPass()
 	{
 	}
 
 	[Token(Token = "0x6000703")]
-	[Address(RVA = "0x4CD1A20", Offset = "0x4CD1A20", VA = "0x4CD1A20")]
+	[Address(RVA = "0x4FF9350", Offset = "0x4FF9350", VA = "0x4FF9350")]
 	private void ResetLayoutPass()
 	{
 	}
 
 	[Token(Token = "0x6000704")]
-	[Address(RVA = "0x4CD2100", Offset = "0x4CD2100", VA = "0x4CD2100")]
+	[Address(RVA = "0x4FF9A30", Offset = "0x4FF9A30", VA = "0x4FF9A30")]
 	private static float ComputeElasticOffset(float deltaPointer, float initialScrollOffset, float lowLimit, float hardLowLimit, float highLimit, float hardHighLimit)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000705")]
-	[Address(RVA = "0x4CD2210", Offset = "0x4CD2210", VA = "0x4CD2210")]
+	[Address(RVA = "0x4FF9B40", Offset = "0x4FF9B40", VA = "0x4FF9B40")]
 	private void ComputeInitialSpringBackVelocity()
 	{
 	}
 
 	[Token(Token = "0x6000706")]
-	[Address(RVA = "0x4CD2430", Offset = "0x4CD2430", VA = "0x4CD2430")]
+	[Address(RVA = "0x4FF9D60", Offset = "0x4FF9D60", VA = "0x4FF9D60")]
 	private void SpringBack()
 	{
 	}
 
 	[Token(Token = "0x6000707")]
-	[Address(RVA = "0x4CD2650", Offset = "0x4CD2650", VA = "0x4CD2650")]
+	[Address(RVA = "0x4FF9F80", Offset = "0x4FF9F80", VA = "0x4FF9F80")]
 	internal void ApplyScrollInertia()
 	{
 	}
 
 	[Token(Token = "0x6000708")]
-	[Address(RVA = "0x4CD2950", Offset = "0x4CD2950", VA = "0x4CD2950")]
+	[Address(RVA = "0x4FFA280", Offset = "0x4FFA280", VA = "0x4FFA280")]
 	private void PostPointerUpAnimation()
 	{
 	}
 
 	[Token(Token = "0x6000709")]
-	[Address(RVA = "0x4CD2AA0", Offset = "0x4CD2AA0", VA = "0x4CD2AA0")]
+	[Address(RVA = "0x4FFA3D0", Offset = "0x4FFA3D0", VA = "0x4FFA3D0")]
 	private void OnPointerDown(PointerDownEvent evt)
 	{
 	}
 
 	[Token(Token = "0x600070A")]
-	[Address(RVA = "0x4CD2F10", Offset = "0x4CD2F10", VA = "0x4CD2F10")]
+	[Address(RVA = "0x4FFA840", Offset = "0x4FFA840", VA = "0x4FFA840")]
 	private void OnPointerMove(PointerMoveEvent evt)
 	{
 	}
 
 	[Token(Token = "0x600070B")]
-	[Address(RVA = "0x4CD3890", Offset = "0x4CD3890", VA = "0x4CD3890")]
+	[Address(RVA = "0x4FFB1C0", Offset = "0x4FFB1C0", VA = "0x4FFB1C0")]
 	private void OnPointerCancel(PointerCancelEvent evt)
 	{
 	}
 
 	[Token(Token = "0x600070C")]
-	[Address(RVA = "0x4CD38F0", Offset = "0x4CD38F0", VA = "0x4CD38F0")]
+	[Address(RVA = "0x4FFB220", Offset = "0x4FFB220", VA = "0x4FFB220")]
 	private void OnPointerUp(PointerUpEvent evt)
 	{
 	}
 
 	[Token(Token = "0x600070D")]
-	[Address(RVA = "0x4CD2D30", Offset = "0x4CD2D30", VA = "0x4CD2D30")]
+	[Address(RVA = "0x4FFA660", Offset = "0x4FFA660", VA = "0x4FFA660")]
 	internal void InitTouchScrolling(Vector2 position)
 	{
 	}
 
 	[Token(Token = "0x600070E")]
-	[Address(RVA = "0x4CD3170", Offset = "0x4CD3170", VA = "0x4CD3170")]
+	[Address(RVA = "0x4FFAAA0", Offset = "0x4FFAAA0", VA = "0x4FFAAA0")]
 	internal TouchScrollingResult ComputeTouchScrolling(Vector2 position)
 	{
 		return default(TouchScrollingResult);
 	}
 
 	[Token(Token = "0x600070F")]
-	[Address(RVA = "0x4CD3990", Offset = "0x4CD3990", VA = "0x4CD3990")]
+	[Address(RVA = "0x4FFB2C0", Offset = "0x4FFB2C0", VA = "0x4FFB2C0")]
 	private bool ApplyTouchScrolling(Vector2 newScrollOffset)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000710")]
-	[Address(RVA = "0x4CD1BC0", Offset = "0x4CD1BC0", VA = "0x4CD1BC0")]
+	[Address(RVA = "0x4FF94F0", Offset = "0x4FF94F0", VA = "0x4FF94F0")]
 	private bool ReleaseScrolling(int pointerId, IEventHandler target)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000711")]
-	[Address(RVA = "0x4CD3C10", Offset = "0x4CD3C10", VA = "0x4CD3C10")]
+	[Address(RVA = "0x4FFB540", Offset = "0x4FFB540", VA = "0x4FFB540")]
 	private void ExecuteElasticSpringAnimation()
 	{
 	}
 
 	[Token(Token = "0x6000712")]
-	[Address(RVA = "0x4CD3E50", Offset = "0x4CD3E50", VA = "0x4CD3E50")]
+	[Address(RVA = "0x4FFB780", Offset = "0x4FFB780", VA = "0x4FFB780")]
 	private void AdjustScrollers()
 	{
 	}
 
 	[Token(Token = "0x6000713")]
-	[Address(RVA = "0x4CCD860", Offset = "0x4CCD860", VA = "0x4CCD860")]
+	[Address(RVA = "0x4FF5190", Offset = "0x4FF5190", VA = "0x4FF5190")]
 	internal void UpdateScrollers(bool displayHorizontal, bool displayVertical)
 	{
 	}
 
 	[Token(Token = "0x6000714")]
-	[Address(RVA = "0x4CD3FD0", Offset = "0x4CD3FD0", VA = "0x4CD3FD0")]
+	[Address(RVA = "0x4FFB900", Offset = "0x4FFB900", VA = "0x4FFB900")]
 	private void OnScrollersGeometryChanged(GeometryChangedEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000715")]
-	[Address(RVA = "0x4CD4190", Offset = "0x4CD4190", VA = "0x4CD4190")]
+	[Address(RVA = "0x4FFBAC0", Offset = "0x4FFBAC0", VA = "0x4FFBAC0")]
 	private void OnScrollWheel(WheelEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000716")]
-	[Address(RVA = "0x4CD4720", Offset = "0x4CD4720", VA = "0x4CD4720")]
+	[Address(RVA = "0x4FFC050", Offset = "0x4FFC050", VA = "0x4FFC050")]
 	private void OnRootCustomStyleResolved(CustomStyleResolvedEvent evt)
 	{
 	}
 
 	[Token(Token = "0x6000717")]
-	[Address(RVA = "0x4CD1430", Offset = "0x4CD1430", VA = "0x4CD1430")]
+	[Address(RVA = "0x4FF8D60", Offset = "0x4FF8D60", VA = "0x4FF8D60")]
 	private void ReadSingleLineHeight()
 	{
 	}
 
 	[Token(Token = "0x6000718")]
-	[Address(RVA = "0x4CD45B0", Offset = "0x4CD45B0", VA = "0x4CD45B0")]
+	[Address(RVA = "0x4FFBEE0", Offset = "0x4FFBEE0", VA = "0x4FFBEE0")]
 	private void UpdateElasticBehaviour()
 	{
 	}

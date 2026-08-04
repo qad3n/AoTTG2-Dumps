@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.UniTaskExtensions
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -45,13 +52,13 @@ public static class UniTaskExtensions
 			private UniTask.Awaiter _003C_003Eu__1;
 
 			[Token(Token = "0x600076E")]
-			[Address(RVA = "0x46CB620", Offset = "0x46CB620", VA = "0x46CB620", Slot = "4")]
+			[Address(RVA = "0x49F0720", Offset = "0x49F0720", VA = "0x49F0720", Slot = "4")]
 			private void MoveNext()
 			{
 			}
 
 			[Token(Token = "0x600076F")]
-			[Address(RVA = "0x46CBC00", Offset = "0x46CBC00", VA = "0x46CBC00", Slot = "5")]
+			[Address(RVA = "0x49F0D00", Offset = "0x49F0D00", VA = "0x49F0D00", Slot = "5")]
 			[DebuggerHidden]
 			private void SetStateMachine(IAsyncStateMachine stateMachine)
 			{
@@ -75,13 +82,13 @@ public static class UniTaskExtensions
 		private UniTaskCompletionSourceCore<AsyncUnit> core;
 
 		[Token(Token = "0x6000766")]
-		[Address(RVA = "0x46CA720", Offset = "0x46CA720", VA = "0x46CA720")]
+		[Address(RVA = "0x49ECFE0", Offset = "0x49ECFE0", VA = "0x49ECFE0")]
 		public AttachExternalCancellationSource(UniTask task, CancellationToken cancellationToken)
 		{
 		}
 
 		[Token(Token = "0x6000767")]
-		[Address(RVA = "0x46CB2A0", Offset = "0x46CB2A0", VA = "0x46CB2A0")]
+		[Address(RVA = "0x49F03A0", Offset = "0x49F03A0", VA = "0x49F03A0")]
 		[AsyncStateMachine(typeof(_003CRunTask_003Ed__5))]
 		private UniTaskVoid RunTask(UniTask task)
 		{
@@ -89,32 +96,32 @@ public static class UniTaskExtensions
 		}
 
 		[Token(Token = "0x6000768")]
-		[Address(RVA = "0x46CB370", Offset = "0x46CB370", VA = "0x46CB370")]
+		[Address(RVA = "0x49F0470", Offset = "0x49F0470", VA = "0x49F0470")]
 		private static void CancellationCallback(object state)
 		{
 		}
 
 		[Token(Token = "0x6000769")]
-		[Address(RVA = "0x46CB3E0", Offset = "0x46CB3E0", VA = "0x46CB3E0", Slot = "13")]
+		[Address(RVA = "0x49F04E0", Offset = "0x49F04E0", VA = "0x49F04E0", Slot = "13")]
 		public void GetResult(short token)
 		{
 		}
 
 		[Token(Token = "0x600076A")]
-		[Address(RVA = "0x46CB430", Offset = "0x46CB430", VA = "0x46CB430", Slot = "4")]
+		[Address(RVA = "0x49F0530", Offset = "0x49F0530", VA = "0x49F0530", Slot = "4")]
 		public UniTaskStatus GetStatus(short token)
 		{
 			return default(UniTaskStatus);
 		}
 
 		[Token(Token = "0x600076B")]
-		[Address(RVA = "0x46CB480", Offset = "0x46CB480", VA = "0x46CB480", Slot = "5")]
+		[Address(RVA = "0x49F0580", Offset = "0x49F0580", VA = "0x49F0580", Slot = "5")]
 		public void OnCompleted(Action<object> continuation, object state, short token)
 		{
 		}
 
 		[Token(Token = "0x600076C")]
-		[Address(RVA = "0x46CB4E0", Offset = "0x46CB4E0", VA = "0x46CB4E0", Slot = "7")]
+		[Address(RVA = "0x49F05E0", Offset = "0x49F05E0", VA = "0x49F05E0", Slot = "7")]
 		public UniTaskStatus UnsafeGetStatus()
 		{
 			return default(UniTaskStatus);
@@ -252,13 +259,13 @@ public static class UniTaskExtensions
 			private UniTask.Awaiter _003C_003Eu__1;
 
 			[Token(Token = "0x6000780")]
-			[Address(RVA = "0x46CBE20", Offset = "0x46CBE20", VA = "0x46CBE20", Slot = "4")]
+			[Address(RVA = "0x49F0F20", Offset = "0x49F0F20", VA = "0x49F0F20", Slot = "4")]
 			private void MoveNext()
 			{
 			}
 
 			[Token(Token = "0x6000781")]
-			[Address(RVA = "0x46CC390", Offset = "0x46CC390", VA = "0x46CC390", Slot = "5")]
+			[Address(RVA = "0x49F1490", Offset = "0x49F1490", VA = "0x49F1490", Slot = "5")]
 			[DebuggerHidden]
 			private void SetStateMachine(IAsyncStateMachine stateMachine)
 			{
@@ -289,7 +296,7 @@ public static class UniTaskExtensions
 		public object Current
 		{
 			[Token(Token = "0x600077D")]
-			[Address(RVA = "0x46CBCE0", Offset = "0x46CBCE0", VA = "0x46CBCE0", Slot = "5")]
+			[Address(RVA = "0x49F0DE0", Offset = "0x49F0DE0", VA = "0x49F0DE0", Slot = "5")]
 			get
 			{
 				return null;
@@ -297,13 +304,13 @@ public static class UniTaskExtensions
 		}
 
 		[Token(Token = "0x600077B")]
-		[Address(RVA = "0x46CA8C0", Offset = "0x46CA8C0", VA = "0x46CA8C0")]
+		[Address(RVA = "0x49ED180", Offset = "0x49ED180", VA = "0x49ED180")]
 		public ToCoroutineEnumerator(UniTask task, Action<Exception> exceptionHandler)
 		{
 		}
 
 		[Token(Token = "0x600077C")]
-		[Address(RVA = "0x46CBC10", Offset = "0x46CBC10", VA = "0x46CBC10")]
+		[Address(RVA = "0x49F0D10", Offset = "0x49F0D10", VA = "0x49F0D10")]
 		[AsyncStateMachine(typeof(_003CRunTask_003Ed__6))]
 		private UniTaskVoid RunTask(UniTask task)
 		{
@@ -311,14 +318,14 @@ public static class UniTaskExtensions
 		}
 
 		[Token(Token = "0x600077E")]
-		[Address(RVA = "0x46CBCF0", Offset = "0x46CBCF0", VA = "0x46CBCF0", Slot = "4")]
+		[Address(RVA = "0x49F0DF0", Offset = "0x49F0DF0", VA = "0x49F0DF0", Slot = "4")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600077F")]
-		[Address(RVA = "0x46CBE10", Offset = "0x46CBE10", VA = "0x46CBE10", Slot = "6")]
+		[Address(RVA = "0x49F0F10", Offset = "0x49F0F10", VA = "0x49F0F10", Slot = "6")]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
@@ -429,7 +436,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x2000134")]
 	[CompilerGenerated]
-	private struct _003CContinueWith_003Ed__54<T> : IAsyncStateMachine
+	private struct _003CContinueWith_003Ed__22<T> : IAsyncStateMachine
 	{
 		[Token(Token = "0x400048C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -470,7 +477,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x2000135")]
 	[CompilerGenerated]
-	private struct _003CContinueWith_003Ed__55<T> : IAsyncStateMachine
+	private struct _003CContinueWith_003Ed__23<T> : IAsyncStateMachine
 	{
 		[Token(Token = "0x4000492")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -515,7 +522,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x2000136")]
 	[CompilerGenerated]
-	private struct _003CContinueWith_003Ed__56<T, TR> : IAsyncStateMachine
+	private struct _003CContinueWith_003Ed__24<T, TR> : IAsyncStateMachine
 	{
 		[Token(Token = "0x4000499")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -556,7 +563,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x2000137")]
 	[CompilerGenerated]
-	private struct _003CContinueWith_003Ed__57<T, TR> : IAsyncStateMachine
+	private struct _003CContinueWith_003Ed__25<T, TR> : IAsyncStateMachine
 	{
 		[Token(Token = "0x400049F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -601,7 +608,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x2000138")]
 	[CompilerGenerated]
-	private struct _003CContinueWith_003Ed__58 : IAsyncStateMachine
+	private struct _003CContinueWith_003Ed__26 : IAsyncStateMachine
 	{
 		[Token(Token = "0x40004A6")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -624,13 +631,13 @@ public static class UniTaskExtensions
 		private UniTask.Awaiter _003C_003Eu__1;
 
 		[Token(Token = "0x600079F")]
-		[Address(RVA = "0x46CCC30", Offset = "0x46CCC30", VA = "0x46CCC30", Slot = "4")]
+		[Address(RVA = "0x49F1D30", Offset = "0x49F1D30", VA = "0x49F1D30", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60007A0")]
-		[Address(RVA = "0x46CD0F0", Offset = "0x46CD0F0", VA = "0x46CD0F0", Slot = "5")]
+		[Address(RVA = "0x49F21F0", Offset = "0x49F21F0", VA = "0x49F21F0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -640,7 +647,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x2000139")]
 	[CompilerGenerated]
-	private struct _003CContinueWith_003Ed__59 : IAsyncStateMachine
+	private struct _003CContinueWith_003Ed__27 : IAsyncStateMachine
 	{
 		[Token(Token = "0x40004AB")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -663,13 +670,13 @@ public static class UniTaskExtensions
 		private UniTask.Awaiter _003C_003Eu__1;
 
 		[Token(Token = "0x60007A1")]
-		[Address(RVA = "0x46CD100", Offset = "0x46CD100", VA = "0x46CD100", Slot = "4")]
+		[Address(RVA = "0x49F2200", Offset = "0x49F2200", VA = "0x49F2200", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60007A2")]
-		[Address(RVA = "0x46CD8B0", Offset = "0x46CD8B0", VA = "0x46CD8B0", Slot = "5")]
+		[Address(RVA = "0x49F29B0", Offset = "0x49F29B0", VA = "0x49F29B0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -679,7 +686,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x200013A")]
 	[CompilerGenerated]
-	private struct _003CContinueWith_003Ed__60<T> : IAsyncStateMachine
+	private struct _003CContinueWith_003Ed__28<T> : IAsyncStateMachine
 	{
 		[Token(Token = "0x40004B0")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -716,7 +723,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x200013B")]
 	[CompilerGenerated]
-	private struct _003CContinueWith_003Ed__61<T> : IAsyncStateMachine
+	private struct _003CContinueWith_003Ed__29<T> : IAsyncStateMachine
 	{
 		[Token(Token = "0x40004B5")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -757,7 +764,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x200013C")]
 	[CompilerGenerated]
-	private struct _003CForgetCoreWithCatch_003Ed__50 : IAsyncStateMachine
+	private struct _003CForgetCoreWithCatch_003Ed__18 : IAsyncStateMachine
 	{
 		[Token(Token = "0x40004BB")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -800,13 +807,13 @@ public static class UniTaskExtensions
 		private SwitchToMainThreadAwaitable.Awaiter _003C_003Eu__2;
 
 		[Token(Token = "0x60007A7")]
-		[Address(RVA = "0x46CD8C0", Offset = "0x46CD8C0", VA = "0x46CD8C0", Slot = "4")]
+		[Address(RVA = "0x49F29C0", Offset = "0x49F29C0", VA = "0x49F29C0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60007A8")]
-		[Address(RVA = "0x46CE0C0", Offset = "0x46CE0C0", VA = "0x46CE0C0", Slot = "5")]
+		[Address(RVA = "0x49F31C0", Offset = "0x49F31C0", VA = "0x49F31C0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -816,7 +823,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x200013D")]
 	[CompilerGenerated]
-	private struct _003CForgetCoreWithCatch_003Ed__53<T> : IAsyncStateMachine
+	private struct _003CForgetCoreWithCatch_003Ed__21<T> : IAsyncStateMachine
 	{
 		[Token(Token = "0x40004C5")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -873,7 +880,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x200013E")]
 	[CompilerGenerated]
-	private struct _003CTimeout_003Ed__44 : IAsyncStateMachine
+	private struct _003CTimeout_003Ed__12 : IAsyncStateMachine
 	{
 		[Token(Token = "0x40004CF")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -912,13 +919,13 @@ public static class UniTaskExtensions
 		private UniTask<(int winArgumentIndex, bool result1, bool result2)>.Awaiter _003C_003Eu__1;
 
 		[Token(Token = "0x60007AB")]
-		[Address(RVA = "0x46CE0D0", Offset = "0x46CE0D0", VA = "0x46CE0D0", Slot = "4")]
+		[Address(RVA = "0x49F31D0", Offset = "0x49F31D0", VA = "0x49F31D0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60007AC")]
-		[Address(RVA = "0x46CE980", Offset = "0x46CE980", VA = "0x46CE980", Slot = "5")]
+		[Address(RVA = "0x49F3A80", Offset = "0x49F3A80", VA = "0x49F3A80", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -928,7 +935,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x200013F")]
 	[CompilerGenerated]
-	private struct _003CTimeout_003Ed__45<T> : IAsyncStateMachine
+	private struct _003CTimeout_003Ed__13<T> : IAsyncStateMachine
 	{
 		[Token(Token = "0x40004D8")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -981,7 +988,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x2000140")]
 	[CompilerGenerated]
-	private struct _003CTimeoutWithoutException_003Ed__46 : IAsyncStateMachine
+	private struct _003CTimeoutWithoutException_003Ed__14 : IAsyncStateMachine
 	{
 		[Token(Token = "0x40004E1")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -1020,13 +1027,13 @@ public static class UniTaskExtensions
 		private UniTask<(int winArgumentIndex, bool result1, bool result2)>.Awaiter _003C_003Eu__1;
 
 		[Token(Token = "0x60007AF")]
-		[Address(RVA = "0x46CE990", Offset = "0x46CE990", VA = "0x46CE990", Slot = "4")]
+		[Address(RVA = "0x49F3A90", Offset = "0x49F3A90", VA = "0x49F3A90", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60007B0")]
-		[Address(RVA = "0x46CF1F0", Offset = "0x46CF1F0", VA = "0x46CF1F0", Slot = "5")]
+		[Address(RVA = "0x49F42F0", Offset = "0x49F42F0", VA = "0x49F42F0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1036,7 +1043,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x2000141")]
 	[CompilerGenerated]
-	private struct _003CTimeoutWithoutException_003Ed__47<T> : IAsyncStateMachine
+	private struct _003CTimeoutWithoutException_003Ed__15<T> : IAsyncStateMachine
 	{
 		[Token(Token = "0x40004EA")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -1089,7 +1096,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x2000142")]
 	[CompilerGenerated]
-	private struct _003CUnwrap_003Ed__62<T> : IAsyncStateMachine
+	private struct _003CUnwrap_003Ed__30<T> : IAsyncStateMachine
 	{
 		[Token(Token = "0x40004F3")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -1126,7 +1133,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x2000143")]
 	[CompilerGenerated]
-	private struct _003CUnwrap_003Ed__63 : IAsyncStateMachine
+	private struct _003CUnwrap_003Ed__31 : IAsyncStateMachine
 	{
 		[Token(Token = "0x40004F8")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -1149,13 +1156,13 @@ public static class UniTaskExtensions
 		private UniTask.Awaiter _003C_003Eu__2;
 
 		[Token(Token = "0x60007B5")]
-		[Address(RVA = "0x46CF240", Offset = "0x46CF240", VA = "0x46CF240", Slot = "4")]
+		[Address(RVA = "0x49F4340", Offset = "0x49F4340", VA = "0x49F4340", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60007B6")]
-		[Address(RVA = "0x46CFA20", Offset = "0x46CFA20", VA = "0x46CFA20", Slot = "5")]
+		[Address(RVA = "0x49F4B20", Offset = "0x49F4B20", VA = "0x49F4B20", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1165,7 +1172,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x2000144")]
 	[CompilerGenerated]
-	private struct _003CUnwrap_003Ed__64<T> : IAsyncStateMachine
+	private struct _003CUnwrap_003Ed__32<T> : IAsyncStateMachine
 	{
 		[Token(Token = "0x40004FD")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -1202,7 +1209,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x2000145")]
 	[CompilerGenerated]
-	private struct _003CUnwrap_003Ed__65<T> : IAsyncStateMachine
+	private struct _003CUnwrap_003Ed__33<T> : IAsyncStateMachine
 	{
 		[Token(Token = "0x4000502")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -1243,7 +1250,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x2000146")]
 	[CompilerGenerated]
-	private struct _003CUnwrap_003Ed__66 : IAsyncStateMachine
+	private struct _003CUnwrap_003Ed__34 : IAsyncStateMachine
 	{
 		[Token(Token = "0x4000508")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -1266,13 +1273,13 @@ public static class UniTaskExtensions
 		private UniTask.Awaiter _003C_003Eu__2;
 
 		[Token(Token = "0x60007BB")]
-		[Address(RVA = "0x46CFC70", Offset = "0x46CFC70", VA = "0x46CFC70", Slot = "4")]
+		[Address(RVA = "0x49F4D70", Offset = "0x49F4D70", VA = "0x49F4D70", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60007BC")]
-		[Address(RVA = "0x46D0290", Offset = "0x46D0290", VA = "0x46D0290", Slot = "5")]
+		[Address(RVA = "0x49F5390", Offset = "0x49F5390", VA = "0x49F5390", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1282,7 +1289,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x2000147")]
 	[CompilerGenerated]
-	private struct _003CUnwrap_003Ed__67 : IAsyncStateMachine
+	private struct _003CUnwrap_003Ed__35 : IAsyncStateMachine
 	{
 		[Token(Token = "0x400050D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -1309,13 +1316,13 @@ public static class UniTaskExtensions
 		private UniTask.Awaiter _003C_003Eu__2;
 
 		[Token(Token = "0x60007BD")]
-		[Address(RVA = "0x46D02B0", Offset = "0x46D02B0", VA = "0x46D02B0", Slot = "4")]
+		[Address(RVA = "0x49F53B0", Offset = "0x49F53B0", VA = "0x49F53B0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60007BE")]
-		[Address(RVA = "0x46D08F0", Offset = "0x46D08F0", VA = "0x46D08F0", Slot = "5")]
+		[Address(RVA = "0x49F59F0", Offset = "0x49F59F0", VA = "0x49F59F0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1325,7 +1332,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x2000148")]
 	[CompilerGenerated]
-	private struct _003CUnwrap_003Ed__68<T> : IAsyncStateMachine
+	private struct _003CUnwrap_003Ed__36<T> : IAsyncStateMachine
 	{
 		[Token(Token = "0x4000513")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -1362,7 +1369,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x2000149")]
 	[CompilerGenerated]
-	private struct _003CUnwrap_003Ed__69<T> : IAsyncStateMachine
+	private struct _003CUnwrap_003Ed__37<T> : IAsyncStateMachine
 	{
 		[Token(Token = "0x4000518")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -1403,7 +1410,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x200014A")]
 	[CompilerGenerated]
-	private struct _003CUnwrap_003Ed__70 : IAsyncStateMachine
+	private struct _003CUnwrap_003Ed__38 : IAsyncStateMachine
 	{
 		[Token(Token = "0x400051E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -1426,13 +1433,13 @@ public static class UniTaskExtensions
 		private TaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x60007C3")]
-		[Address(RVA = "0x46D0900", Offset = "0x46D0900", VA = "0x46D0900", Slot = "4")]
+		[Address(RVA = "0x49F5A00", Offset = "0x49F5A00", VA = "0x49F5A00", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60007C4")]
-		[Address(RVA = "0x46D0EE0", Offset = "0x46D0EE0", VA = "0x46D0EE0", Slot = "5")]
+		[Address(RVA = "0x49F5FE0", Offset = "0x49F5FE0", VA = "0x49F5FE0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1442,7 +1449,7 @@ public static class UniTaskExtensions
 	[StructLayout((LayoutKind)3)]
 	[Token(Token = "0x200014B")]
 	[CompilerGenerated]
-	private struct _003CUnwrap_003Ed__71 : IAsyncStateMachine
+	private struct _003CUnwrap_003Ed__39 : IAsyncStateMachine
 	{
 		[Token(Token = "0x4000523")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
@@ -1469,13 +1476,13 @@ public static class UniTaskExtensions
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__2;
 
 		[Token(Token = "0x60007C5")]
-		[Address(RVA = "0x46D0EF0", Offset = "0x46D0EF0", VA = "0x46D0EF0", Slot = "4")]
+		[Address(RVA = "0x49F5FF0", Offset = "0x49F5FF0", VA = "0x49F5FF0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60007C6")]
-		[Address(RVA = "0x46D14E0", Offset = "0x46D14E0", VA = "0x46D14E0", Slot = "5")]
+		[Address(RVA = "0x49F65E0", Offset = "0x49F65E0", VA = "0x49F65E0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -1483,475 +1490,475 @@ public static class UniTaskExtensions
 	}
 
 	[Token(Token = "0x6000720")]
-	[Address(RVA = "0x46C6FA0", Offset = "0x46C6FA0", VA = "0x46C6FA0")]
-	public static UniTask.Awaiter GetAwaiter(this UniTask[] tasks)
-	{
-		return default(UniTask.Awaiter);
-	}
-
-	[Token(Token = "0x6000721")]
-	[Address(RVA = "0x46C7030", Offset = "0x46C7030", VA = "0x46C7030")]
-	public static UniTask.Awaiter GetAwaiter(this IEnumerable<UniTask> tasks)
-	{
-		return default(UniTask.Awaiter);
-	}
-
-	[Token(Token = "0x6000722")]
-	public static UniTask<T[]>.Awaiter GetAwaiter<T>(this UniTask<T>[] tasks)
-	{
-		return default(UniTask<T[]>.Awaiter);
-	}
-
-	[Token(Token = "0x6000723")]
-	public static UniTask<T[]>.Awaiter GetAwaiter<T>(this IEnumerable<UniTask<T>> tasks)
-	{
-		return default(UniTask<T[]>.Awaiter);
-	}
-
-	[Token(Token = "0x6000724")]
-	public static UniTask<(T1, T2)>.Awaiter GetAwaiter<T1, T2>(this (UniTask<T1> task1, UniTask<T2> task2) tasks)
-	{
-		return default(UniTask<(T1, T2)>.Awaiter);
-	}
-
-	[Token(Token = "0x6000725")]
-	public static UniTask<(T1, T2, T3)>.Awaiter GetAwaiter<T1, T2, T3>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3) tasks)
-	{
-		return default(UniTask<(T1, T2, T3)>.Awaiter);
-	}
-
-	[Token(Token = "0x6000726")]
-	public static UniTask<(T1, T2, T3, T4)>.Awaiter GetAwaiter<T1, T2, T3, T4>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4) tasks)
-	{
-		return default(UniTask<(T1, T2, T3, T4)>.Awaiter);
-	}
-
-	[Token(Token = "0x6000727")]
-	public static UniTask<(T1, T2, T3, T4, T5)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5) tasks)
-	{
-		return default(UniTask<(T1, T2, T3, T4, T5)>.Awaiter);
-	}
-
-	[Token(Token = "0x6000728")]
-	public static UniTask<(T1, T2, T3, T4, T5, T6)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5, T6>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6) tasks)
-	{
-		return default(UniTask<(T1, T2, T3, T4, T5, T6)>.Awaiter);
-	}
-
-	[Token(Token = "0x6000729")]
-	public static UniTask<(T1, T2, T3, T4, T5, T6, T7)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5, T6, T7>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6, UniTask<T7> task7) tasks)
-	{
-		return default(UniTask<(T1, T2, T3, T4, T5, T6, T7)>.Awaiter);
-	}
-
-	[Token(Token = "0x600072A")]
-	public static UniTask<(T1, T2, T3, T4, T5, T6, T7, T8)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5, T6, T7, T8>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6, UniTask<T7> task7, UniTask<T8> task8) tasks)
-	{
-		return default(UniTask<(T1, T2, T3, T4, T5, T6, T7, T8)>.Awaiter);
-	}
-
-	[Token(Token = "0x600072B")]
-	public static UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6, UniTask<T7> task7, UniTask<T8> task8, UniTask<T9> task9) tasks)
-	{
-		return default(UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9)>.Awaiter);
-	}
-
-	[Token(Token = "0x600072C")]
-	public static UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6, UniTask<T7> task7, UniTask<T8> task8, UniTask<T9> task9, UniTask<T10> task10) tasks)
-	{
-		return default(UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)>.Awaiter);
-	}
-
-	[Token(Token = "0x600072D")]
-	public static UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6, UniTask<T7> task7, UniTask<T8> task8, UniTask<T9> task9, UniTask<T10> task10, UniTask<T11> task11) tasks)
-	{
-		return default(UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)>.Awaiter);
-	}
-
-	[Token(Token = "0x600072E")]
-	public static UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6, UniTask<T7> task7, UniTask<T8> task8, UniTask<T9> task9, UniTask<T10> task10, UniTask<T11> task11, UniTask<T12> task12) tasks)
-	{
-		return default(UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)>.Awaiter);
-	}
-
-	[Token(Token = "0x600072F")]
-	public static UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6, UniTask<T7> task7, UniTask<T8> task8, UniTask<T9> task9, UniTask<T10> task10, UniTask<T11> task11, UniTask<T12> task12, UniTask<T13> task13) tasks)
-	{
-		return default(UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)>.Awaiter);
-	}
-
-	[Token(Token = "0x6000730")]
-	public static UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6, UniTask<T7> task7, UniTask<T8> task8, UniTask<T9> task9, UniTask<T10> task10, UniTask<T11> task11, UniTask<T12> task12, UniTask<T13> task13, UniTask<T14> task14) tasks)
-	{
-		return default(UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)>.Awaiter);
-	}
-
-	[Token(Token = "0x6000731")]
-	public static UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6, UniTask<T7> task7, UniTask<T8> task8, UniTask<T9> task9, UniTask<T10> task10, UniTask<T11> task11, UniTask<T12> task12, UniTask<T13> task13, UniTask<T14> task14, UniTask<T15> task15) tasks)
-	{
-		return default(UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)>.Awaiter);
-	}
-
-	[Token(Token = "0x6000732")]
-	[Address(RVA = "0x46C70C0", Offset = "0x46C70C0", VA = "0x46C70C0")]
-	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2) tasks)
-	{
-		return default(UniTask.Awaiter);
-	}
-
-	[Token(Token = "0x6000733")]
-	[Address(RVA = "0x46C71F0", Offset = "0x46C71F0", VA = "0x46C71F0")]
-	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3) tasks)
-	{
-		return default(UniTask.Awaiter);
-	}
-
-	[Token(Token = "0x6000734")]
-	[Address(RVA = "0x46C7360", Offset = "0x46C7360", VA = "0x46C7360")]
-	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4) tasks)
-	{
-		return default(UniTask.Awaiter);
-	}
-
-	[Token(Token = "0x6000735")]
-	[Address(RVA = "0x46C7500", Offset = "0x46C7500", VA = "0x46C7500")]
-	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5) tasks)
-	{
-		return default(UniTask.Awaiter);
-	}
-
-	[Token(Token = "0x6000736")]
-	[Address(RVA = "0x46C76D0", Offset = "0x46C76D0", VA = "0x46C76D0")]
-	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5, UniTask task6) tasks)
-	{
-		return default(UniTask.Awaiter);
-	}
-
-	[Token(Token = "0x6000737")]
-	[Address(RVA = "0x46C78E0", Offset = "0x46C78E0", VA = "0x46C78E0")]
-	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5, UniTask task6, UniTask task7) tasks)
-	{
-		return default(UniTask.Awaiter);
-	}
-
-	[Token(Token = "0x6000738")]
-	[Address(RVA = "0x46C7B30", Offset = "0x46C7B30", VA = "0x46C7B30")]
-	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5, UniTask task6, UniTask task7, UniTask task8) tasks)
-	{
-		return default(UniTask.Awaiter);
-	}
-
-	[Token(Token = "0x6000739")]
-	[Address(RVA = "0x46C7DC0", Offset = "0x46C7DC0", VA = "0x46C7DC0")]
-	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5, UniTask task6, UniTask task7, UniTask task8, UniTask task9) tasks)
-	{
-		return default(UniTask.Awaiter);
-	}
-
-	[Token(Token = "0x600073A")]
-	[Address(RVA = "0x46C80A0", Offset = "0x46C80A0", VA = "0x46C80A0")]
-	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5, UniTask task6, UniTask task7, UniTask task8, UniTask task9, UniTask task10) tasks)
-	{
-		return default(UniTask.Awaiter);
-	}
-
-	[Token(Token = "0x600073B")]
-	[Address(RVA = "0x46C83C0", Offset = "0x46C83C0", VA = "0x46C83C0")]
-	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5, UniTask task6, UniTask task7, UniTask task8, UniTask task9, UniTask task10, UniTask task11) tasks)
-	{
-		return default(UniTask.Awaiter);
-	}
-
-	[Token(Token = "0x600073C")]
-	[Address(RVA = "0x46C8730", Offset = "0x46C8730", VA = "0x46C8730")]
-	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5, UniTask task6, UniTask task7, UniTask task8, UniTask task9, UniTask task10, UniTask task11, UniTask task12) tasks)
-	{
-		return default(UniTask.Awaiter);
-	}
-
-	[Token(Token = "0x600073D")]
-	[Address(RVA = "0x46C8AF0", Offset = "0x46C8AF0", VA = "0x46C8AF0")]
-	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5, UniTask task6, UniTask task7, UniTask task8, UniTask task9, UniTask task10, UniTask task11, UniTask task12, UniTask task13) tasks)
-	{
-		return default(UniTask.Awaiter);
-	}
-
-	[Token(Token = "0x600073E")]
-	[Address(RVA = "0x46C8EF0", Offset = "0x46C8EF0", VA = "0x46C8EF0")]
-	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5, UniTask task6, UniTask task7, UniTask task8, UniTask task9, UniTask task10, UniTask task11, UniTask task12, UniTask task13, UniTask task14) tasks)
-	{
-		return default(UniTask.Awaiter);
-	}
-
-	[Token(Token = "0x600073F")]
-	[Address(RVA = "0x46C9340", Offset = "0x46C9340", VA = "0x46C9340")]
-	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5, UniTask task6, UniTask task7, UniTask task8, UniTask task9, UniTask task10, UniTask task11, UniTask task12, UniTask task13, UniTask task14, UniTask task15) tasks)
-	{
-		return default(UniTask.Awaiter);
-	}
-
-	[Token(Token = "0x6000740")]
 	public static UniTask<T> AsUniTask<T>(this Task<T> task, bool useCurrentSynchronizationContext = true)
 	{
 		return default(UniTask<T>);
 	}
 
-	[Token(Token = "0x6000741")]
-	[Address(RVA = "0x46C97E0", Offset = "0x46C97E0", VA = "0x46C97E0")]
+	[Token(Token = "0x6000721")]
+	[Address(RVA = "0x49EC0A0", Offset = "0x49EC0A0", VA = "0x49EC0A0")]
 	public static UniTask AsUniTask(this Task task, bool useCurrentSynchronizationContext = true)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000742")]
+	[Token(Token = "0x6000722")]
 	public static Task<T> AsTask<T>(this UniTask<T> task)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000743")]
-	[Address(RVA = "0x46C99B0", Offset = "0x46C99B0", VA = "0x46C99B0")]
+	[Token(Token = "0x6000723")]
+	[Address(RVA = "0x49EC270", Offset = "0x49EC270", VA = "0x49EC270")]
 	public static Task AsTask(this UniTask task)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000744")]
-	[Address(RVA = "0x46CA060", Offset = "0x46CA060", VA = "0x46CA060")]
+	[Token(Token = "0x6000724")]
+	[Address(RVA = "0x49EC920", Offset = "0x49EC920", VA = "0x49EC920")]
 	public static AsyncLazy ToAsyncLazy(this UniTask task)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000745")]
+	[Token(Token = "0x6000725")]
 	public static AsyncLazy<T> ToAsyncLazy<T>(this UniTask<T> task)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000746")]
-	[Address(RVA = "0x46CA0B0", Offset = "0x46CA0B0", VA = "0x46CA0B0")]
+	[Token(Token = "0x6000726")]
+	[Address(RVA = "0x49EC970", Offset = "0x49EC970", VA = "0x49EC970")]
 	public static UniTask AttachExternalCancellation(this UniTask task, CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000747")]
+	[Token(Token = "0x6000727")]
 	public static UniTask<T> AttachExternalCancellation<T>(this UniTask<T> task, CancellationToken cancellationToken)
 	{
 		return default(UniTask<T>);
 	}
 
-	[Token(Token = "0x6000748")]
+	[Token(Token = "0x6000728")]
 	public static IEnumerator ToCoroutine<T>(this UniTask<T> task, [Optional] Action<T> resultHandler, [Optional] Action<Exception> exceptionHandler)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000749")]
-	[Address(RVA = "0x46B5FE0", Offset = "0x46B5FE0", VA = "0x46B5FE0")]
+	[Token(Token = "0x6000729")]
+	[Address(RVA = "0x49DB0E0", Offset = "0x49DB0E0", VA = "0x49DB0E0")]
 	public static IEnumerator ToCoroutine(this UniTask task, [Optional] Action<Exception> exceptionHandler)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600074A")]
-	[Address(RVA = "0x46CA910", Offset = "0x46CA910", VA = "0x46CA910")]
-	[AsyncStateMachine(typeof(_003CTimeout_003Ed__44))]
+	[Token(Token = "0x600072A")]
+	[Address(RVA = "0x49ED1D0", Offset = "0x49ED1D0", VA = "0x49ED1D0")]
+	[AsyncStateMachine(typeof(_003CTimeout_003Ed__12))]
 	public static UniTask Timeout(this UniTask task, TimeSpan timeout, [Optional][DefaultParameterValue(0)] DelayType delayType, [Optional][DefaultParameterValue(8)] PlayerLoopTiming timeoutCheckTiming, [Optional] CancellationTokenSource taskCancellationTokenSource)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x600074B")]
-	[AsyncStateMachine(typeof(_003CTimeout_003Ed__45<>))]
+	[Token(Token = "0x600072B")]
+	[AsyncStateMachine(typeof(_003CTimeout_003Ed__13<>))]
 	public static UniTask<T> Timeout<T>(this UniTask<T> task, TimeSpan timeout, [Optional][DefaultParameterValue(0)] DelayType delayType, [Optional][DefaultParameterValue(8)] PlayerLoopTiming timeoutCheckTiming, [Optional] CancellationTokenSource taskCancellationTokenSource)
 	{
 		return default(UniTask<T>);
 	}
 
-	[Token(Token = "0x600074C")]
-	[Address(RVA = "0x46CAA10", Offset = "0x46CAA10", VA = "0x46CAA10")]
-	[AsyncStateMachine(typeof(_003CTimeoutWithoutException_003Ed__46))]
+	[Token(Token = "0x600072C")]
+	[Address(RVA = "0x49ED2D0", Offset = "0x49ED2D0", VA = "0x49ED2D0")]
+	[AsyncStateMachine(typeof(_003CTimeoutWithoutException_003Ed__14))]
 	public static UniTask<bool> TimeoutWithoutException(this UniTask task, TimeSpan timeout, [Optional][DefaultParameterValue(0)] DelayType delayType, [Optional][DefaultParameterValue(8)] PlayerLoopTiming timeoutCheckTiming, [Optional] CancellationTokenSource taskCancellationTokenSource)
 	{
 		return default(UniTask<bool>);
 	}
 
-	[Token(Token = "0x600074D")]
-	[AsyncStateMachine(typeof(_003CTimeoutWithoutException_003Ed__47<>))]
+	[Token(Token = "0x600072D")]
+	[AsyncStateMachine(typeof(_003CTimeoutWithoutException_003Ed__15<>))]
 	public static UniTask<(bool, T)> TimeoutWithoutException<T>(this UniTask<T> task, TimeSpan timeout, [Optional][DefaultParameterValue(0)] DelayType delayType, [Optional][DefaultParameterValue(8)] PlayerLoopTiming timeoutCheckTiming, [Optional] CancellationTokenSource taskCancellationTokenSource)
 	{
 		return default(UniTask<(bool, T)>);
 	}
 
-	[Token(Token = "0x600074E")]
-	[Address(RVA = "0x46CA2D0", Offset = "0x46CA2D0", VA = "0x46CA2D0")]
+	[Token(Token = "0x600072E")]
+	[Address(RVA = "0x49ECB90", Offset = "0x49ECB90", VA = "0x49ECB90")]
 	public static void Forget(this UniTask task)
 	{
 	}
 
-	[Token(Token = "0x600074F")]
-	[Address(RVA = "0x46CAB40", Offset = "0x46CAB40", VA = "0x46CAB40")]
+	[Token(Token = "0x600072F")]
+	[Address(RVA = "0x49ED400", Offset = "0x49ED400", VA = "0x49ED400")]
 	public static void Forget(this UniTask task, Action<Exception> exceptionHandler, bool handleExceptionOnMainThread = true)
 	{
 	}
 
-	[Token(Token = "0x6000750")]
-	[Address(RVA = "0x46CAC50", Offset = "0x46CAC50", VA = "0x46CAC50")]
-	[AsyncStateMachine(typeof(_003CForgetCoreWithCatch_003Ed__50))]
+	[Token(Token = "0x6000730")]
+	[Address(RVA = "0x49ED510", Offset = "0x49ED510", VA = "0x49ED510")]
+	[AsyncStateMachine(typeof(_003CForgetCoreWithCatch_003Ed__18))]
 	private static UniTaskVoid ForgetCoreWithCatch(UniTask task, Action<Exception> exceptionHandler, bool handleExceptionOnMainThread)
 	{
 		return default(UniTaskVoid);
 	}
 
-	[Token(Token = "0x6000751")]
+	[Token(Token = "0x6000731")]
 	public static void Forget<T>(this UniTask<T> task)
 	{
 	}
 
-	[Token(Token = "0x6000752")]
+	[Token(Token = "0x6000732")]
 	public static void Forget<T>(this UniTask<T> task, Action<Exception> exceptionHandler, bool handleExceptionOnMainThread = true)
 	{
 	}
 
-	[Token(Token = "0x6000753")]
-	[AsyncStateMachine(typeof(_003CForgetCoreWithCatch_003Ed__53<>))]
+	[Token(Token = "0x6000733")]
+	[AsyncStateMachine(typeof(_003CForgetCoreWithCatch_003Ed__21<>))]
 	private static UniTaskVoid ForgetCoreWithCatch<T>(UniTask<T> task, Action<Exception> exceptionHandler, bool handleExceptionOnMainThread)
 	{
 		return default(UniTaskVoid);
 	}
 
-	[Token(Token = "0x6000754")]
-	[AsyncStateMachine(typeof(_003CContinueWith_003Ed__54<>))]
+	[Token(Token = "0x6000734")]
+	[AsyncStateMachine(typeof(_003CContinueWith_003Ed__22<>))]
 	public static UniTask ContinueWith<T>(this UniTask<T> task, Action<T> continuationFunction)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000755")]
-	[AsyncStateMachine(typeof(_003CContinueWith_003Ed__55<>))]
+	[Token(Token = "0x6000735")]
+	[AsyncStateMachine(typeof(_003CContinueWith_003Ed__23<>))]
 	public static UniTask ContinueWith<T>(this UniTask<T> task, Func<T, UniTask> continuationFunction)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000756")]
-	[AsyncStateMachine(typeof(_003CContinueWith_003Ed__56<, >))]
+	[Token(Token = "0x6000736")]
+	[AsyncStateMachine(typeof(_003CContinueWith_003Ed__24<, >))]
 	public static UniTask<TR> ContinueWith<T, TR>(this UniTask<T> task, Func<T, TR> continuationFunction)
 	{
 		return default(UniTask<TR>);
 	}
 
-	[Token(Token = "0x6000757")]
-	[AsyncStateMachine(typeof(_003CContinueWith_003Ed__57<, >))]
+	[Token(Token = "0x6000737")]
+	[AsyncStateMachine(typeof(_003CContinueWith_003Ed__25<, >))]
 	public static UniTask<TR> ContinueWith<T, TR>(this UniTask<T> task, Func<T, UniTask<TR>> continuationFunction)
 	{
 		return default(UniTask<TR>);
 	}
 
-	[Token(Token = "0x6000758")]
-	[Address(RVA = "0x46CAD40", Offset = "0x46CAD40", VA = "0x46CAD40")]
-	[AsyncStateMachine(typeof(_003CContinueWith_003Ed__58))]
+	[Token(Token = "0x6000738")]
+	[Address(RVA = "0x49ED600", Offset = "0x49ED600", VA = "0x49ED600")]
+	[AsyncStateMachine(typeof(_003CContinueWith_003Ed__26))]
 	public static UniTask ContinueWith(this UniTask task, Action continuationFunction)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000759")]
-	[Address(RVA = "0x46CAE10", Offset = "0x46CAE10", VA = "0x46CAE10")]
-	[AsyncStateMachine(typeof(_003CContinueWith_003Ed__59))]
+	[Token(Token = "0x6000739")]
+	[Address(RVA = "0x49ED6D0", Offset = "0x49ED6D0", VA = "0x49ED6D0")]
+	[AsyncStateMachine(typeof(_003CContinueWith_003Ed__27))]
 	public static UniTask ContinueWith(this UniTask task, Func<UniTask> continuationFunction)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x600075A")]
-	[AsyncStateMachine(typeof(_003CContinueWith_003Ed__60<>))]
+	[Token(Token = "0x600073A")]
+	[AsyncStateMachine(typeof(_003CContinueWith_003Ed__28<>))]
 	public static UniTask<T> ContinueWith<T>(this UniTask task, Func<T> continuationFunction)
 	{
 		return default(UniTask<T>);
 	}
 
-	[Token(Token = "0x600075B")]
-	[AsyncStateMachine(typeof(_003CContinueWith_003Ed__61<>))]
+	[Token(Token = "0x600073B")]
+	[AsyncStateMachine(typeof(_003CContinueWith_003Ed__29<>))]
 	public static UniTask<T> ContinueWith<T>(this UniTask task, Func<UniTask<T>> continuationFunction)
 	{
 		return default(UniTask<T>);
 	}
 
-	[Token(Token = "0x600075C")]
-	[AsyncStateMachine(typeof(_003CUnwrap_003Ed__62<>))]
+	[Token(Token = "0x600073C")]
+	[AsyncStateMachine(typeof(_003CUnwrap_003Ed__30<>))]
 	public static UniTask<T> Unwrap<T>(this UniTask<UniTask<T>> task)
 	{
 		return default(UniTask<T>);
 	}
 
-	[Token(Token = "0x600075D")]
-	[Address(RVA = "0x46CAEE0", Offset = "0x46CAEE0", VA = "0x46CAEE0")]
-	[AsyncStateMachine(typeof(_003CUnwrap_003Ed__63))]
+	[Token(Token = "0x600073D")]
+	[Address(RVA = "0x49ED7A0", Offset = "0x49ED7A0", VA = "0x49ED7A0")]
+	[AsyncStateMachine(typeof(_003CUnwrap_003Ed__31))]
 	public static UniTask Unwrap(this UniTask<UniTask> task)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x600075E")]
-	[AsyncStateMachine(typeof(_003CUnwrap_003Ed__64<>))]
+	[Token(Token = "0x600073E")]
+	[AsyncStateMachine(typeof(_003CUnwrap_003Ed__32<>))]
 	public static UniTask<T> Unwrap<T>(this Task<UniTask<T>> task)
 	{
 		return default(UniTask<T>);
 	}
 
-	[Token(Token = "0x600075F")]
-	[AsyncStateMachine(typeof(_003CUnwrap_003Ed__65<>))]
+	[Token(Token = "0x600073F")]
+	[AsyncStateMachine(typeof(_003CUnwrap_003Ed__33<>))]
 	public static UniTask<T> Unwrap<T>(this Task<UniTask<T>> task, bool continueOnCapturedContext)
 	{
 		return default(UniTask<T>);
 	}
 
-	[Token(Token = "0x6000760")]
-	[Address(RVA = "0x46CAFA0", Offset = "0x46CAFA0", VA = "0x46CAFA0")]
-	[AsyncStateMachine(typeof(_003CUnwrap_003Ed__66))]
+	[Token(Token = "0x6000740")]
+	[Address(RVA = "0x49ED860", Offset = "0x49ED860", VA = "0x49ED860")]
+	[AsyncStateMachine(typeof(_003CUnwrap_003Ed__34))]
 	public static UniTask Unwrap(this Task<UniTask> task)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000761")]
-	[Address(RVA = "0x46CB050", Offset = "0x46CB050", VA = "0x46CB050")]
-	[AsyncStateMachine(typeof(_003CUnwrap_003Ed__67))]
+	[Token(Token = "0x6000741")]
+	[Address(RVA = "0x49ED910", Offset = "0x49ED910", VA = "0x49ED910")]
+	[AsyncStateMachine(typeof(_003CUnwrap_003Ed__35))]
 	public static UniTask Unwrap(this Task<UniTask> task, bool continueOnCapturedContext)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000762")]
-	[AsyncStateMachine(typeof(_003CUnwrap_003Ed__68<>))]
+	[Token(Token = "0x6000742")]
+	[AsyncStateMachine(typeof(_003CUnwrap_003Ed__36<>))]
 	public static UniTask<T> Unwrap<T>(this UniTask<Task<T>> task)
 	{
 		return default(UniTask<T>);
 	}
 
-	[Token(Token = "0x6000763")]
-	[AsyncStateMachine(typeof(_003CUnwrap_003Ed__69<>))]
+	[Token(Token = "0x6000743")]
+	[AsyncStateMachine(typeof(_003CUnwrap_003Ed__37<>))]
 	public static UniTask<T> Unwrap<T>(this UniTask<Task<T>> task, bool continueOnCapturedContext)
 	{
 		return default(UniTask<T>);
 	}
 
-	[Token(Token = "0x6000764")]
-	[Address(RVA = "0x46CB110", Offset = "0x46CB110", VA = "0x46CB110")]
-	[AsyncStateMachine(typeof(_003CUnwrap_003Ed__70))]
+	[Token(Token = "0x6000744")]
+	[Address(RVA = "0x49ED9D0", Offset = "0x49ED9D0", VA = "0x49ED9D0")]
+	[AsyncStateMachine(typeof(_003CUnwrap_003Ed__38))]
 	public static UniTask Unwrap(this UniTask<Task> task)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000765")]
-	[Address(RVA = "0x46CB1D0", Offset = "0x46CB1D0", VA = "0x46CB1D0")]
-	[AsyncStateMachine(typeof(_003CUnwrap_003Ed__71))]
+	[Token(Token = "0x6000745")]
+	[Address(RVA = "0x49EDA90", Offset = "0x49EDA90", VA = "0x49EDA90")]
+	[AsyncStateMachine(typeof(_003CUnwrap_003Ed__39))]
 	public static UniTask Unwrap(this UniTask<Task> task, bool continueOnCapturedContext)
 	{
 		return default(UniTask);
+	}
+
+	[Token(Token = "0x6000746")]
+	[Address(RVA = "0x49EDB60", Offset = "0x49EDB60", VA = "0x49EDB60")]
+	public static UniTask.Awaiter GetAwaiter(this UniTask[] tasks)
+	{
+		return default(UniTask.Awaiter);
+	}
+
+	[Token(Token = "0x6000747")]
+	[Address(RVA = "0x49EDBF0", Offset = "0x49EDBF0", VA = "0x49EDBF0")]
+	public static UniTask.Awaiter GetAwaiter(this IEnumerable<UniTask> tasks)
+	{
+		return default(UniTask.Awaiter);
+	}
+
+	[Token(Token = "0x6000748")]
+	public static UniTask<T[]>.Awaiter GetAwaiter<T>(this UniTask<T>[] tasks)
+	{
+		return default(UniTask<T[]>.Awaiter);
+	}
+
+	[Token(Token = "0x6000749")]
+	public static UniTask<T[]>.Awaiter GetAwaiter<T>(this IEnumerable<UniTask<T>> tasks)
+	{
+		return default(UniTask<T[]>.Awaiter);
+	}
+
+	[Token(Token = "0x600074A")]
+	public static UniTask<(T1, T2)>.Awaiter GetAwaiter<T1, T2>(this (UniTask<T1> task1, UniTask<T2> task2) tasks)
+	{
+		return default(UniTask<(T1, T2)>.Awaiter);
+	}
+
+	[Token(Token = "0x600074B")]
+	public static UniTask<(T1, T2, T3)>.Awaiter GetAwaiter<T1, T2, T3>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3) tasks)
+	{
+		return default(UniTask<(T1, T2, T3)>.Awaiter);
+	}
+
+	[Token(Token = "0x600074C")]
+	public static UniTask<(T1, T2, T3, T4)>.Awaiter GetAwaiter<T1, T2, T3, T4>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4) tasks)
+	{
+		return default(UniTask<(T1, T2, T3, T4)>.Awaiter);
+	}
+
+	[Token(Token = "0x600074D")]
+	public static UniTask<(T1, T2, T3, T4, T5)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5) tasks)
+	{
+		return default(UniTask<(T1, T2, T3, T4, T5)>.Awaiter);
+	}
+
+	[Token(Token = "0x600074E")]
+	public static UniTask<(T1, T2, T3, T4, T5, T6)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5, T6>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6) tasks)
+	{
+		return default(UniTask<(T1, T2, T3, T4, T5, T6)>.Awaiter);
+	}
+
+	[Token(Token = "0x600074F")]
+	public static UniTask<(T1, T2, T3, T4, T5, T6, T7)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5, T6, T7>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6, UniTask<T7> task7) tasks)
+	{
+		return default(UniTask<(T1, T2, T3, T4, T5, T6, T7)>.Awaiter);
+	}
+
+	[Token(Token = "0x6000750")]
+	public static UniTask<(T1, T2, T3, T4, T5, T6, T7, T8)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5, T6, T7, T8>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6, UniTask<T7> task7, UniTask<T8> task8) tasks)
+	{
+		return default(UniTask<(T1, T2, T3, T4, T5, T6, T7, T8)>.Awaiter);
+	}
+
+	[Token(Token = "0x6000751")]
+	public static UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6, UniTask<T7> task7, UniTask<T8> task8, UniTask<T9> task9) tasks)
+	{
+		return default(UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9)>.Awaiter);
+	}
+
+	[Token(Token = "0x6000752")]
+	public static UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6, UniTask<T7> task7, UniTask<T8> task8, UniTask<T9> task9, UniTask<T10> task10) tasks)
+	{
+		return default(UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)>.Awaiter);
+	}
+
+	[Token(Token = "0x6000753")]
+	public static UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6, UniTask<T7> task7, UniTask<T8> task8, UniTask<T9> task9, UniTask<T10> task10, UniTask<T11> task11) tasks)
+	{
+		return default(UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)>.Awaiter);
+	}
+
+	[Token(Token = "0x6000754")]
+	public static UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6, UniTask<T7> task7, UniTask<T8> task8, UniTask<T9> task9, UniTask<T10> task10, UniTask<T11> task11, UniTask<T12> task12) tasks)
+	{
+		return default(UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)>.Awaiter);
+	}
+
+	[Token(Token = "0x6000755")]
+	public static UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6, UniTask<T7> task7, UniTask<T8> task8, UniTask<T9> task9, UniTask<T10> task10, UniTask<T11> task11, UniTask<T12> task12, UniTask<T13> task13) tasks)
+	{
+		return default(UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)>.Awaiter);
+	}
+
+	[Token(Token = "0x6000756")]
+	public static UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6, UniTask<T7> task7, UniTask<T8> task8, UniTask<T9> task9, UniTask<T10> task10, UniTask<T11> task11, UniTask<T12> task12, UniTask<T13> task13, UniTask<T14> task14) tasks)
+	{
+		return default(UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)>.Awaiter);
+	}
+
+	[Token(Token = "0x6000757")]
+	public static UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)>.Awaiter GetAwaiter<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>(this (UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6, UniTask<T7> task7, UniTask<T8> task8, UniTask<T9> task9, UniTask<T10> task10, UniTask<T11> task11, UniTask<T12> task12, UniTask<T13> task13, UniTask<T14> task14, UniTask<T15> task15) tasks)
+	{
+		return default(UniTask<(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)>.Awaiter);
+	}
+
+	[Token(Token = "0x6000758")]
+	[Address(RVA = "0x49EDC80", Offset = "0x49EDC80", VA = "0x49EDC80")]
+	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2) tasks)
+	{
+		return default(UniTask.Awaiter);
+	}
+
+	[Token(Token = "0x6000759")]
+	[Address(RVA = "0x49EDDB0", Offset = "0x49EDDB0", VA = "0x49EDDB0")]
+	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3) tasks)
+	{
+		return default(UniTask.Awaiter);
+	}
+
+	[Token(Token = "0x600075A")]
+	[Address(RVA = "0x49EDF20", Offset = "0x49EDF20", VA = "0x49EDF20")]
+	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4) tasks)
+	{
+		return default(UniTask.Awaiter);
+	}
+
+	[Token(Token = "0x600075B")]
+	[Address(RVA = "0x49EE0C0", Offset = "0x49EE0C0", VA = "0x49EE0C0")]
+	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5) tasks)
+	{
+		return default(UniTask.Awaiter);
+	}
+
+	[Token(Token = "0x600075C")]
+	[Address(RVA = "0x49EE290", Offset = "0x49EE290", VA = "0x49EE290")]
+	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5, UniTask task6) tasks)
+	{
+		return default(UniTask.Awaiter);
+	}
+
+	[Token(Token = "0x600075D")]
+	[Address(RVA = "0x49EE4A0", Offset = "0x49EE4A0", VA = "0x49EE4A0")]
+	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5, UniTask task6, UniTask task7) tasks)
+	{
+		return default(UniTask.Awaiter);
+	}
+
+	[Token(Token = "0x600075E")]
+	[Address(RVA = "0x49EE6F0", Offset = "0x49EE6F0", VA = "0x49EE6F0")]
+	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5, UniTask task6, UniTask task7, UniTask task8) tasks)
+	{
+		return default(UniTask.Awaiter);
+	}
+
+	[Token(Token = "0x600075F")]
+	[Address(RVA = "0x49EE980", Offset = "0x49EE980", VA = "0x49EE980")]
+	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5, UniTask task6, UniTask task7, UniTask task8, UniTask task9) tasks)
+	{
+		return default(UniTask.Awaiter);
+	}
+
+	[Token(Token = "0x6000760")]
+	[Address(RVA = "0x49EEC60", Offset = "0x49EEC60", VA = "0x49EEC60")]
+	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5, UniTask task6, UniTask task7, UniTask task8, UniTask task9, UniTask task10) tasks)
+	{
+		return default(UniTask.Awaiter);
+	}
+
+	[Token(Token = "0x6000761")]
+	[Address(RVA = "0x49EEF80", Offset = "0x49EEF80", VA = "0x49EEF80")]
+	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5, UniTask task6, UniTask task7, UniTask task8, UniTask task9, UniTask task10, UniTask task11) tasks)
+	{
+		return default(UniTask.Awaiter);
+	}
+
+	[Token(Token = "0x6000762")]
+	[Address(RVA = "0x49EF2F0", Offset = "0x49EF2F0", VA = "0x49EF2F0")]
+	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5, UniTask task6, UniTask task7, UniTask task8, UniTask task9, UniTask task10, UniTask task11, UniTask task12) tasks)
+	{
+		return default(UniTask.Awaiter);
+	}
+
+	[Token(Token = "0x6000763")]
+	[Address(RVA = "0x49EF6B0", Offset = "0x49EF6B0", VA = "0x49EF6B0")]
+	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5, UniTask task6, UniTask task7, UniTask task8, UniTask task9, UniTask task10, UniTask task11, UniTask task12, UniTask task13) tasks)
+	{
+		return default(UniTask.Awaiter);
+	}
+
+	[Token(Token = "0x6000764")]
+	[Address(RVA = "0x49EFAB0", Offset = "0x49EFAB0", VA = "0x49EFAB0")]
+	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5, UniTask task6, UniTask task7, UniTask task8, UniTask task9, UniTask task10, UniTask task11, UniTask task12, UniTask task13, UniTask task14) tasks)
+	{
+		return default(UniTask.Awaiter);
+	}
+
+	[Token(Token = "0x6000765")]
+	[Address(RVA = "0x49EFF00", Offset = "0x49EFF00", VA = "0x49EFF00")]
+	public static UniTask.Awaiter GetAwaiter(this (UniTask task1, UniTask task2, UniTask task3, UniTask task4, UniTask task5, UniTask task6, UniTask task7, UniTask task8, UniTask task9, UniTask task10, UniTask task11, UniTask task12, UniTask task13, UniTask task14, UniTask task15) tasks)
+	{
+		return default(UniTask.Awaiter);
 	}
 }

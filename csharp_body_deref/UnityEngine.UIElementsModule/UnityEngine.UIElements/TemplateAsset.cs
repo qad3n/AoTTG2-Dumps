@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.TemplateAsset
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -44,7 +51,7 @@ internal class TemplateAsset : VisualElementAsset
 	public List<AttributeOverride> attributeOverrides
 	{
 		[Token(Token = "0x6001A7F")]
-		[Address(RVA = "0x4C28830", Offset = "0x4C28830", VA = "0x4C28830")]
+		[Address(RVA = "0x4F50160", Offset = "0x4F50160", VA = "0x4F50160")]
 		get
 		{
 			return null;
@@ -55,7 +62,7 @@ internal class TemplateAsset : VisualElementAsset
 	internal List<VisualTreeAsset.SlotUsageEntry> slotUsages
 	{
 		[Token(Token = "0x6001A80")]
-		[Address(RVA = "0x4C40EF0", Offset = "0x4C40EF0", VA = "0x4C40EF0")]
+		[Address(RVA = "0x4F68820", Offset = "0x4F68820", VA = "0x4F68820")]
 		get
 		{
 			return null;

@@ -5,21 +5,21 @@ using Il2CppDummyDll;
 internal static class SR
 {
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x4346290", Offset = "0x4346290", VA = "0x4346290")]
+	[Address(RVA = "0x4678360", Offset = "0x4678360", VA = "0x4678360")]
 	internal static string GetString(string name, params object[] args)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x43462F0", Offset = "0x43462F0", VA = "0x43462F0")]
+	[Address(RVA = "0x46783C0", Offset = "0x46783C0", VA = "0x46783C0")]
 	internal static string GetString(CultureInfo culture, string name, params object[] args)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x4346300", Offset = "0x4346300", VA = "0x4346300")]
+	[Address(RVA = "0x46783D0", Offset = "0x46783D0", VA = "0x46783D0")]
 	internal static string Format(string resourceFormat, object p1)
 	{
 		return null;

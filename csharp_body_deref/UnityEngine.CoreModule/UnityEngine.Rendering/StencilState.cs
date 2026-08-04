@@ -1,9 +1,16 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.StencilState
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000301")]
+[Token(Token = "0x2000304")]
 public struct StencilState : IEquatable<StencilState>
 {
 	[Token(Token = "0x4000938")]
@@ -54,132 +61,132 @@ public struct StencilState : IEquatable<StencilState>
 	[FieldOffset(Offset = "0xB")]
 	private byte m_ZFailOperationBack;
 
-	[Token(Token = "0x170002A3")]
+	[Token(Token = "0x170002A4")]
 	public bool enabled
 	{
-		[Token(Token = "0x60010CD")]
-		[Address(RVA = "0x4B0BDA0", Offset = "0x4B0BDA0", VA = "0x4B0BDA0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x170002A4")]
-	public byte readMask
-	{
-		[Token(Token = "0x60010CE")]
-		[Address(RVA = "0x4B0BDF0", Offset = "0x4B0BDF0", VA = "0x4B0BDF0")]
+		[Token(Token = "0x60010CF")]
+		[Address(RVA = "0x4E336D0", Offset = "0x4E336D0", VA = "0x4E336D0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170002A5")]
-	public byte writeMask
+	public byte readMask
 	{
-		[Token(Token = "0x60010CF")]
-		[Address(RVA = "0x4B0BE00", Offset = "0x4B0BE00", VA = "0x4B0BE00")]
+		[Token(Token = "0x60010D0")]
+		[Address(RVA = "0x4E33720", Offset = "0x4E33720", VA = "0x4E33720")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170002A6")]
-	public CompareFunction compareFunctionFront
+	public byte writeMask
 	{
-		[Token(Token = "0x60010D0")]
-		[Address(RVA = "0x4B0BE10", Offset = "0x4B0BE10", VA = "0x4B0BE10")]
+		[Token(Token = "0x60010D1")]
+		[Address(RVA = "0x4E33730", Offset = "0x4E33730", VA = "0x4E33730")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170002A7")]
-	public StencilOp passOperationFront
+	public CompareFunction compareFunctionFront
 	{
-		[Token(Token = "0x60010D1")]
-		[Address(RVA = "0x4B0BE20", Offset = "0x4B0BE20", VA = "0x4B0BE20")]
+		[Token(Token = "0x60010D2")]
+		[Address(RVA = "0x4E33740", Offset = "0x4E33740", VA = "0x4E33740")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170002A8")]
-	public StencilOp failOperationFront
+	public StencilOp passOperationFront
 	{
-		[Token(Token = "0x60010D2")]
-		[Address(RVA = "0x4B0BE30", Offset = "0x4B0BE30", VA = "0x4B0BE30")]
+		[Token(Token = "0x60010D3")]
+		[Address(RVA = "0x4E33750", Offset = "0x4E33750", VA = "0x4E33750")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170002A9")]
-	public StencilOp zFailOperationFront
+	public StencilOp failOperationFront
 	{
-		[Token(Token = "0x60010D3")]
-		[Address(RVA = "0x4B0BE40", Offset = "0x4B0BE40", VA = "0x4B0BE40")]
+		[Token(Token = "0x60010D4")]
+		[Address(RVA = "0x4E33760", Offset = "0x4E33760", VA = "0x4E33760")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170002AA")]
-	public CompareFunction compareFunctionBack
+	public StencilOp zFailOperationFront
 	{
-		[Token(Token = "0x60010D4")]
-		[Address(RVA = "0x4B0BE50", Offset = "0x4B0BE50", VA = "0x4B0BE50")]
+		[Token(Token = "0x60010D5")]
+		[Address(RVA = "0x4E33770", Offset = "0x4E33770", VA = "0x4E33770")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170002AB")]
-	public StencilOp passOperationBack
+	public CompareFunction compareFunctionBack
 	{
-		[Token(Token = "0x60010D5")]
-		[Address(RVA = "0x4B0BE60", Offset = "0x4B0BE60", VA = "0x4B0BE60")]
+		[Token(Token = "0x60010D6")]
+		[Address(RVA = "0x4E33780", Offset = "0x4E33780", VA = "0x4E33780")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170002AC")]
-	public StencilOp failOperationBack
+	public StencilOp passOperationBack
 	{
-		[Token(Token = "0x60010D6")]
-		[Address(RVA = "0x4B0BE70", Offset = "0x4B0BE70", VA = "0x4B0BE70")]
+		[Token(Token = "0x60010D7")]
+		[Address(RVA = "0x4E33790", Offset = "0x4E33790", VA = "0x4E33790")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170002AD")]
-	public StencilOp zFailOperationBack
+	public StencilOp failOperationBack
 	{
-		[Token(Token = "0x60010D7")]
-		[Address(RVA = "0x4B0BE80", Offset = "0x4B0BE80", VA = "0x4B0BE80")]
+		[Token(Token = "0x60010D8")]
+		[Address(RVA = "0x4E337A0", Offset = "0x4E337A0", VA = "0x4E337A0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60010D8")]
-	[Address(RVA = "0x4B08DD0", Offset = "0x4B08DD0", VA = "0x4B08DD0", Slot = "4")]
+	[Token(Token = "0x170002AE")]
+	public StencilOp zFailOperationBack
+	{
+		[Token(Token = "0x60010D9")]
+		[Address(RVA = "0x4E337B0", Offset = "0x4E337B0", VA = "0x4E337B0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x60010DA")]
+	[Address(RVA = "0x4E30700", Offset = "0x4E30700", VA = "0x4E30700", Slot = "4")]
 	public bool Equals(StencilState other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60010D9")]
-	[Address(RVA = "0x4B0BE90", Offset = "0x4B0BE90", VA = "0x4B0BE90", Slot = "0")]
+	[Token(Token = "0x60010DB")]
+	[Address(RVA = "0x4E337C0", Offset = "0x4E337C0", VA = "0x4E337C0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60010DA")]
-	[Address(RVA = "0x4B09050", Offset = "0x4B09050", VA = "0x4B09050", Slot = "2")]
+	[Token(Token = "0x60010DC")]
+	[Address(RVA = "0x4E30980", Offset = "0x4E30980", VA = "0x4E30980", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

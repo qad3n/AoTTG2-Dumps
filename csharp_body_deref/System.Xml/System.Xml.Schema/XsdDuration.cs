@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Xml.Schema.XsdDuration
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Xml.Schema;
@@ -67,7 +74,7 @@ internal struct XsdDuration
 	public bool IsNegative
 	{
 		[Token(Token = "0x6001A18")]
-		[Address(RVA = "0x44330C0", Offset = "0x44330C0", VA = "0x44330C0")]
+		[Address(RVA = "0x4770820", Offset = "0x4770820", VA = "0x4770820")]
 		get
 		{
 			return default(bool);
@@ -78,7 +85,7 @@ internal struct XsdDuration
 	public int Years
 	{
 		[Token(Token = "0x6001A19")]
-		[Address(RVA = "0x44330D0", Offset = "0x44330D0", VA = "0x44330D0")]
+		[Address(RVA = "0x4770830", Offset = "0x4770830", VA = "0x4770830")]
 		get
 		{
 			return default(int);
@@ -89,7 +96,7 @@ internal struct XsdDuration
 	public int Months
 	{
 		[Token(Token = "0x6001A1A")]
-		[Address(RVA = "0x44330E0", Offset = "0x44330E0", VA = "0x44330E0")]
+		[Address(RVA = "0x4770840", Offset = "0x4770840", VA = "0x4770840")]
 		get
 		{
 			return default(int);
@@ -100,7 +107,7 @@ internal struct XsdDuration
 	public int Days
 	{
 		[Token(Token = "0x6001A1B")]
-		[Address(RVA = "0x44330F0", Offset = "0x44330F0", VA = "0x44330F0")]
+		[Address(RVA = "0x4770850", Offset = "0x4770850", VA = "0x4770850")]
 		get
 		{
 			return default(int);
@@ -111,7 +118,7 @@ internal struct XsdDuration
 	public int Hours
 	{
 		[Token(Token = "0x6001A1C")]
-		[Address(RVA = "0x4433100", Offset = "0x4433100", VA = "0x4433100")]
+		[Address(RVA = "0x4770860", Offset = "0x4770860", VA = "0x4770860")]
 		get
 		{
 			return default(int);
@@ -122,7 +129,7 @@ internal struct XsdDuration
 	public int Minutes
 	{
 		[Token(Token = "0x6001A1D")]
-		[Address(RVA = "0x4433110", Offset = "0x4433110", VA = "0x4433110")]
+		[Address(RVA = "0x4770870", Offset = "0x4770870", VA = "0x4770870")]
 		get
 		{
 			return default(int);
@@ -133,7 +140,7 @@ internal struct XsdDuration
 	public int Seconds
 	{
 		[Token(Token = "0x6001A1E")]
-		[Address(RVA = "0x4433120", Offset = "0x4433120", VA = "0x4433120")]
+		[Address(RVA = "0x4770880", Offset = "0x4770880", VA = "0x4770880")]
 		get
 		{
 			return default(int);
@@ -144,7 +151,7 @@ internal struct XsdDuration
 	public int Nanoseconds
 	{
 		[Token(Token = "0x6001A1F")]
-		[Address(RVA = "0x44330B0", Offset = "0x44330B0", VA = "0x44330B0")]
+		[Address(RVA = "0x4770810", Offset = "0x4770810", VA = "0x4770810")]
 		get
 		{
 			return default(int);
@@ -152,93 +159,93 @@ internal struct XsdDuration
 	}
 
 	[Token(Token = "0x6001A13")]
-	[Address(RVA = "0x44322B0", Offset = "0x44322B0", VA = "0x44322B0")]
+	[Address(RVA = "0x476FA10", Offset = "0x476FA10", VA = "0x476FA10")]
 	public XsdDuration(bool isNegative, int years, int months, int days, int hours, int minutes, int seconds, int nanoseconds)
 	{
 	}
 
 	[Token(Token = "0x6001A14")]
-	[Address(RVA = "0x4432430", Offset = "0x4432430", VA = "0x4432430")]
+	[Address(RVA = "0x476FB90", Offset = "0x476FB90", VA = "0x476FB90")]
 	public XsdDuration(TimeSpan timeSpan)
 	{
 	}
 
 	[Token(Token = "0x6001A15")]
-	[Address(RVA = "0x4432550", Offset = "0x4432550", VA = "0x4432550")]
+	[Address(RVA = "0x476FCB0", Offset = "0x476FCB0", VA = "0x476FCB0")]
 	public XsdDuration(TimeSpan timeSpan, DurationType durationType)
 	{
 	}
 
 	[Token(Token = "0x6001A16")]
-	[Address(RVA = "0x4432720", Offset = "0x4432720", VA = "0x4432720")]
+	[Address(RVA = "0x476FE80", Offset = "0x476FE80", VA = "0x476FE80")]
 	public XsdDuration(string s)
 	{
 	}
 
 	[Token(Token = "0x6001A17")]
-	[Address(RVA = "0x44327A0", Offset = "0x44327A0", VA = "0x44327A0")]
+	[Address(RVA = "0x476FF00", Offset = "0x476FF00", VA = "0x476FF00")]
 	public XsdDuration(string s, DurationType durationType)
 	{
 	}
 
 	[Token(Token = "0x6001A20")]
-	[Address(RVA = "0x4433130", Offset = "0x4433130", VA = "0x4433130")]
+	[Address(RVA = "0x4770890", Offset = "0x4770890", VA = "0x4770890")]
 	public TimeSpan ToTimeSpan()
 	{
 		return default(TimeSpan);
 	}
 
 	[Token(Token = "0x6001A21")]
-	[Address(RVA = "0x4433180", Offset = "0x4433180", VA = "0x4433180")]
+	[Address(RVA = "0x47708E0", Offset = "0x47708E0", VA = "0x47708E0")]
 	public TimeSpan ToTimeSpan(DurationType durationType)
 	{
 		return default(TimeSpan);
 	}
 
 	[Token(Token = "0x6001A22")]
-	[Address(RVA = "0x4433830", Offset = "0x4433830", VA = "0x4433830")]
+	[Address(RVA = "0x4770F90", Offset = "0x4770F90", VA = "0x4770F90")]
 	internal Exception TryToTimeSpan(out TimeSpan result)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A23")]
-	[Address(RVA = "0x44331D0", Offset = "0x44331D0", VA = "0x44331D0")]
+	[Address(RVA = "0x4770930", Offset = "0x4770930", VA = "0x4770930")]
 	internal Exception TryToTimeSpan(DurationType durationType, out TimeSpan result)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A24")]
-	[Address(RVA = "0x4433840", Offset = "0x4433840", VA = "0x4433840", Slot = "3")]
+	[Address(RVA = "0x4770FA0", Offset = "0x4770FA0", VA = "0x4770FA0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A25")]
-	[Address(RVA = "0x4433850", Offset = "0x4433850", VA = "0x4433850")]
+	[Address(RVA = "0x4770FB0", Offset = "0x4770FB0", VA = "0x4770FB0")]
 	internal string ToString(DurationType durationType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A26")]
-	[Address(RVA = "0x4433C50", Offset = "0x4433C50", VA = "0x4433C50")]
+	[Address(RVA = "0x47713B0", Offset = "0x47713B0", VA = "0x47713B0")]
 	internal static Exception TryParse(string s, out XsdDuration result)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A27")]
-	[Address(RVA = "0x4432820", Offset = "0x4432820", VA = "0x4432820")]
+	[Address(RVA = "0x476FF80", Offset = "0x476FF80", VA = "0x476FF80")]
 	internal static Exception TryParse(string s, DurationType durationType, out XsdDuration result)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A28")]
-	[Address(RVA = "0x4433C60", Offset = "0x4433C60", VA = "0x4433C60")]
+	[Address(RVA = "0x47713C0", Offset = "0x47713C0", VA = "0x47713C0")]
 	private static string TryParseDigits(string s, ref int offset, bool eatDigits, out int result, out int numDigits)
 	{
 		return null;

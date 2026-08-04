@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Net.Security.AsyncProtocolResult
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using System.Runtime.ExceptionServices;
 using Il2CppDummyDll;
@@ -11,7 +18,7 @@ internal class AsyncProtocolResult
 	public int UserResult
 	{
 		[Token(Token = "0x60000B1")]
-		[Address(RVA = "0x453BF90", Offset = "0x453BF90", VA = "0x453BF90")]
+		[Address(RVA = "0x4522180", Offset = "0x4522180", VA = "0x4522180")]
 		[CompilerGenerated]
 		get
 		{
@@ -23,7 +30,7 @@ internal class AsyncProtocolResult
 	public ExceptionDispatchInfo Error
 	{
 		[Token(Token = "0x60000B2")]
-		[Address(RVA = "0x453BFA0", Offset = "0x453BFA0", VA = "0x453BFA0")]
+		[Address(RVA = "0x4522190", Offset = "0x4522190", VA = "0x4522190")]
 		[CompilerGenerated]
 		get
 		{
@@ -32,13 +39,13 @@ internal class AsyncProtocolResult
 	}
 
 	[Token(Token = "0x60000B3")]
-	[Address(RVA = "0x453BFB0", Offset = "0x453BFB0", VA = "0x453BFB0")]
+	[Address(RVA = "0x45221A0", Offset = "0x45221A0", VA = "0x45221A0")]
 	public AsyncProtocolResult(int result)
 	{
 	}
 
 	[Token(Token = "0x60000B4")]
-	[Address(RVA = "0x453BFD0", Offset = "0x453BFD0", VA = "0x453BFD0")]
+	[Address(RVA = "0x45221C0", Offset = "0x45221C0", VA = "0x45221C0")]
 	public AsyncProtocolResult(ExceptionDispatchInfo error)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: TMPro.SpriteAssetUtilities.TexturePacker_JsonArray
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -29,7 +36,7 @@ public class TexturePacker_JsonArray
 		public float h;
 
 		[Token(Token = "0x6000652")]
-		[Address(RVA = "0x49795B0", Offset = "0x49795B0", VA = "0x49795B0", Slot = "3")]
+		[Address(RVA = "0x4C9E180", Offset = "0x4C9E180", VA = "0x4C9E180", Slot = "3")]
 		public override string ToString()
 		{
 			return null;
@@ -49,7 +56,7 @@ public class TexturePacker_JsonArray
 		public float h;
 
 		[Token(Token = "0x6000653")]
-		[Address(RVA = "0x4979770", Offset = "0x4979770", VA = "0x4979770", Slot = "3")]
+		[Address(RVA = "0x4C9E340", Offset = "0x4C9E340", VA = "0x4C9E340", Slot = "3")]
 		public override string ToString()
 		{
 			return null;
@@ -135,14 +142,14 @@ public class TexturePacker_JsonArray
 		public Meta meta;
 
 		[Token(Token = "0x6000654")]
-		[Address(RVA = "0x4979800", Offset = "0x4979800", VA = "0x4979800")]
+		[Address(RVA = "0x4C9E3D0", Offset = "0x4C9E3D0", VA = "0x4C9E3D0")]
 		public SpriteDataObject()
 		{
 		}
 	}
 
 	[Token(Token = "0x6000651")]
-	[Address(RVA = "0x49795A0", Offset = "0x49795A0", VA = "0x49795A0")]
+	[Address(RVA = "0x4C9E170", Offset = "0x4C9E170", VA = "0x4C9E170")]
 	public TexturePacker_JsonArray()
 	{
 	}

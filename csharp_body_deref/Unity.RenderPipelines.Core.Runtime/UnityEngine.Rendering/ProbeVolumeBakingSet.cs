@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.ProbeVolumeBakingSet
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -71,7 +78,7 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject
 	internal IReadOnlyList<string> sceneGUIDs
 	{
 		[Token(Token = "0x6000A2C")]
-		[Address(RVA = "0x48A8EF0", Offset = "0x48A8EF0", VA = "0x48A8EF0")]
+		[Address(RVA = "0x4BCDFB0", Offset = "0x4BCDFB0", VA = "0x4BCDFB0")]
 		get
 		{
 			return null;
@@ -82,7 +89,7 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject
 	public int cellSizeInBricks
 	{
 		[Token(Token = "0x6000A2D")]
-		[Address(RVA = "0x48A8F00", Offset = "0x48A8F00", VA = "0x48A8F00")]
+		[Address(RVA = "0x4BCDFC0", Offset = "0x4BCDFC0", VA = "0x4BCDFC0")]
 		get
 		{
 			return default(int);
@@ -93,7 +100,7 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject
 	public int maxSubdivision
 	{
 		[Token(Token = "0x6000A2E")]
-		[Address(RVA = "0x48A8F20", Offset = "0x48A8F20", VA = "0x48A8F20")]
+		[Address(RVA = "0x4BCDFE0", Offset = "0x4BCDFE0", VA = "0x4BCDFE0")]
 		get
 		{
 			return default(int);
@@ -104,7 +111,7 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject
 	public float minBrickSize
 	{
 		[Token(Token = "0x6000A2F")]
-		[Address(RVA = "0x48A8F30", Offset = "0x48A8F30", VA = "0x48A8F30")]
+		[Address(RVA = "0x4BCDFF0", Offset = "0x4BCDFF0", VA = "0x4BCDFF0")]
 		get
 		{
 			return default(float);
@@ -115,7 +122,7 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject
 	public float cellSizeInMeters
 	{
 		[Token(Token = "0x6000A30")]
-		[Address(RVA = "0x48A8F50", Offset = "0x48A8F50", VA = "0x48A8F50")]
+		[Address(RVA = "0x4BCE010", Offset = "0x4BCE010", VA = "0x4BCE010")]
 		get
 		{
 			return default(float);
@@ -123,72 +130,72 @@ public sealed class ProbeVolumeBakingSet : ScriptableObject
 	}
 
 	[Token(Token = "0x6000A31")]
-	[Address(RVA = "0x48A8F90", Offset = "0x48A8F90", VA = "0x48A8F90")]
+	[Address(RVA = "0x4BCE050", Offset = "0x4BCE050", VA = "0x4BCE050")]
 	private void OnValidate()
 	{
 	}
 
 	[Token(Token = "0x6000A32")]
-	[Address(RVA = "0x48A9730", Offset = "0x48A9730", VA = "0x48A9730")]
+	[Address(RVA = "0x4BCE7E0", Offset = "0x4BCE7E0", VA = "0x4BCE7E0")]
 	internal void Migrate(ProbeVolumeSceneData.BakingSet set)
 	{
 	}
 
 	[Token(Token = "0x6000A33")]
-	[Address(RVA = "0x48A9790", Offset = "0x48A9790", VA = "0x48A9790")]
+	[Address(RVA = "0x4BCE840", Offset = "0x4BCE840", VA = "0x4BCE840")]
 	public bool IsEquivalent(ProbeVolumeBakingSet otherProfile)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A34")]
-	[Address(RVA = "0x48A9880", Offset = "0x48A9880", VA = "0x48A9880")]
+	[Address(RVA = "0x4BCE930", Offset = "0x4BCE930", VA = "0x4BCE930")]
 	internal void RemoveScene(string guid)
 	{
 	}
 
 	[Token(Token = "0x6000A35")]
-	[Address(RVA = "0x48A99B0", Offset = "0x48A99B0", VA = "0x48A99B0")]
+	[Address(RVA = "0x4BCEA60", Offset = "0x4BCEA60", VA = "0x4BCEA60")]
 	internal void AddScene(string guid)
 	{
 	}
 
 	[Token(Token = "0x6000A36")]
-	[Address(RVA = "0x48A9B10", Offset = "0x48A9B10", VA = "0x48A9B10")]
+	[Address(RVA = "0x4BCEBC0", Offset = "0x4BCEBC0", VA = "0x4BCEBC0")]
 	internal void SetScene(string guid, int index)
 	{
 	}
 
 	[Token(Token = "0x6000A37")]
-	[Address(RVA = "0x48A9D90", Offset = "0x48A9D90", VA = "0x48A9D90")]
+	[Address(RVA = "0x4BCEE40", Offset = "0x4BCEE40", VA = "0x4BCEE40")]
 	internal bool HasAnySceneWithProbeVolume()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A38")]
-	[Address(RVA = "0x48AA200", Offset = "0x48AA200", VA = "0x48AA200")]
+	[Address(RVA = "0x4BCF2B0", Offset = "0x4BCF2B0", VA = "0x4BCF2B0")]
 	internal string CreateScenario(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A39")]
-	[Address(RVA = "0x48AA350", Offset = "0x48AA350", VA = "0x48AA350")]
+	[Address(RVA = "0x4BCF400", Offset = "0x4BCF400", VA = "0x4BCF400")]
 	internal bool RemoveScenario(string name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A3A")]
-	[Address(RVA = "0x48AA3A0", Offset = "0x48AA3A0", VA = "0x48AA3A0")]
+	[Address(RVA = "0x4BCF450", Offset = "0x4BCF450", VA = "0x4BCF450")]
 	internal ProbeVolumeBakingSet Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A3B")]
-	[Address(RVA = "0x48AA470", Offset = "0x48AA470", VA = "0x48AA470")]
+	[Address(RVA = "0x4BCF520", Offset = "0x4BCF520", VA = "0x4BCF520")]
 	public ProbeVolumeBakingSet()
 	{
 	}

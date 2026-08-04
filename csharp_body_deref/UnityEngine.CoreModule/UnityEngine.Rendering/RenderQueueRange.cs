@@ -1,9 +1,16 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.RenderQueueRange
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002F0")]
+[Token(Token = "0x20002F3")]
 public struct RenderQueueRange : IEquatable<RenderQueueRange>
 {
 	[Token(Token = "0x40008DF")]
@@ -22,33 +29,33 @@ public struct RenderQueueRange : IEquatable<RenderQueueRange>
 	[FieldOffset(Offset = "0x4")]
 	public static readonly int maximumBound;
 
-	[Token(Token = "0x1700029A")]
+	[Token(Token = "0x1700029B")]
 	public static RenderQueueRange all
 	{
-		[Token(Token = "0x600107B")]
-		[Address(RVA = "0x4B06C80", Offset = "0x4B06C80", VA = "0x4B06C80")]
+		[Token(Token = "0x600107D")]
+		[Address(RVA = "0x4E2E5B0", Offset = "0x4E2E5B0", VA = "0x4E2E5B0")]
 		get
 		{
 			return default(RenderQueueRange);
 		}
 	}
 
-	[Token(Token = "0x600107C")]
-	[Address(RVA = "0x4B06D40", Offset = "0x4B06D40", VA = "0x4B06D40", Slot = "4")]
+	[Token(Token = "0x600107E")]
+	[Address(RVA = "0x4E2E670", Offset = "0x4E2E670", VA = "0x4E2E670", Slot = "4")]
 	public bool Equals(RenderQueueRange other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600107D")]
-	[Address(RVA = "0x4B08B10", Offset = "0x4B08B10", VA = "0x4B08B10", Slot = "0")]
+	[Token(Token = "0x600107F")]
+	[Address(RVA = "0x4E30440", Offset = "0x4E30440", VA = "0x4E30440", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600107E")]
-	[Address(RVA = "0x4B06EA0", Offset = "0x4B06EA0", VA = "0x4B06EA0", Slot = "2")]
+	[Token(Token = "0x6001080")]
+	[Address(RVA = "0x4E2E7D0", Offset = "0x4E2E7D0", VA = "0x4E2E7D0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

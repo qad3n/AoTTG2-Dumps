@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.SendMouseEvents
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -20,20 +27,20 @@ internal class SendMouseEvents
 		public Camera camera;
 
 		[Token(Token = "0x6000040")]
-		[Address(RVA = "0x4B498A0", Offset = "0x4B498A0", VA = "0x4B498A0")]
+		[Address(RVA = "0x4E711D0", Offset = "0x4E711D0", VA = "0x4E711D0")]
 		public void SendMessage(string name)
 		{
 		}
 
 		[Token(Token = "0x6000041")]
-		[Address(RVA = "0x4B49820", Offset = "0x4B49820", VA = "0x4B49820")]
+		[Address(RVA = "0x4E71150", Offset = "0x4E71150", VA = "0x4E71150")]
 		public static implicit operator bool(HitInfo exists)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000042")]
-		[Address(RVA = "0x4B498C0", Offset = "0x4B498C0", VA = "0x4B498C0")]
+		[Address(RVA = "0x4E711F0", Offset = "0x4E711F0", VA = "0x4E711F0")]
 		public static bool Compare(HitInfo lhs, HitInfo rhs)
 		{
 			return default(bool);
@@ -77,27 +84,27 @@ internal class SendMouseEvents
 	private static bool s_MouseButtonIsPressed;
 
 	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x4B48250", Offset = "0x4B48250", VA = "0x4B48250")]
+	[Address(RVA = "0x4E6FB80", Offset = "0x4E6FB80", VA = "0x4E6FB80")]
 	private static void UpdateMouse()
 	{
 	}
 
 	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x4B48480", Offset = "0x4B48480", VA = "0x4B48480")]
+	[Address(RVA = "0x4E6FDB0", Offset = "0x4E6FDB0", VA = "0x4E6FDB0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void SetMouseMoved()
 	{
 	}
 
 	[Token(Token = "0x600003D")]
-	[Address(RVA = "0x4B484F0", Offset = "0x4B484F0", VA = "0x4B484F0")]
+	[Address(RVA = "0x4E6FE20", Offset = "0x4E6FE20", VA = "0x4E6FE20")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void DoSendMouseEvents(int skipRTCameras)
 	{
 	}
 
 	[Token(Token = "0x600003E")]
-	[Address(RVA = "0x4B49010", Offset = "0x4B49010", VA = "0x4B49010")]
+	[Address(RVA = "0x4E70940", Offset = "0x4E70940", VA = "0x4E70940")]
 	private static void SendEvents(int i, HitInfo hit)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.IMGUIContainer
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -14,7 +21,7 @@ public class IMGUIContainer : VisualElement, IDisposable
 	public new class UxmlFactory : UxmlFactory<IMGUIContainer, UxmlTraits>
 	{
 		[Token(Token = "0x6000DFB")]
-		[Address(RVA = "0x4D242D0", Offset = "0x4D242D0", VA = "0x4D242D0")]
+		[Address(RVA = "0x504BC00", Offset = "0x504BC00", VA = "0x504BC00")]
 		public UxmlFactory()
 		{
 		}
@@ -24,7 +31,7 @@ public class IMGUIContainer : VisualElement, IDisposable
 	public new class UxmlTraits : VisualElement.UxmlTraits
 	{
 		[Token(Token = "0x6000DFC")]
-		[Address(RVA = "0x4D24310", Offset = "0x4D24310", VA = "0x4D24310")]
+		[Address(RVA = "0x504BC40", Offset = "0x504BC40", VA = "0x504BC40")]
 		public UxmlTraits()
 		{
 		}
@@ -170,13 +177,13 @@ public class IMGUIContainer : VisualElement, IDisposable
 	public Action onGUIHandler
 	{
 		[Token(Token = "0x6000DCF")]
-		[Address(RVA = "0x4D1FDD0", Offset = "0x4D1FDD0", VA = "0x4D1FDD0")]
+		[Address(RVA = "0x5047700", Offset = "0x5047700", VA = "0x5047700")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000DD0")]
-		[Address(RVA = "0x4D1FDE0", Offset = "0x4D1FDE0", VA = "0x4D1FDE0")]
+		[Address(RVA = "0x5047710", Offset = "0x5047710", VA = "0x5047710")]
 		set
 		{
 		}
@@ -186,7 +193,7 @@ public class IMGUIContainer : VisualElement, IDisposable
 	internal UnityEngine.ObjectGUIState guiState
 	{
 		[Token(Token = "0x6000DD1")]
-		[Address(RVA = "0x4D1FE40", Offset = "0x4D1FE40", VA = "0x4D1FE40")]
+		[Address(RVA = "0x5047770", Offset = "0x5047770", VA = "0x5047770")]
 		get
 		{
 			return null;
@@ -197,14 +204,14 @@ public class IMGUIContainer : VisualElement, IDisposable
 	internal Rect lastWorldClip
 	{
 		[Token(Token = "0x6000DD2")]
-		[Address(RVA = "0x4D1FEF0", Offset = "0x4D1FEF0", VA = "0x4D1FEF0")]
+		[Address(RVA = "0x5047820", Offset = "0x5047820", VA = "0x5047820")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Rect);
 		}
 		[Token(Token = "0x6000DD3")]
-		[Address(RVA = "0x4D1FF10", Offset = "0x4D1FF10", VA = "0x4D1FF10")]
+		[Address(RVA = "0x5047840", Offset = "0x5047840", VA = "0x5047840")]
 		[CompilerGenerated]
 		set
 		{
@@ -216,13 +223,13 @@ public class IMGUIContainer : VisualElement, IDisposable
 	public bool cullingEnabled
 	{
 		[Token(Token = "0x6000DD4")]
-		[Address(RVA = "0x4D1FF20", Offset = "0x4D1FF20", VA = "0x4D1FF20")]
+		[Address(RVA = "0x5047850", Offset = "0x5047850", VA = "0x5047850")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000DD5")]
-		[Address(RVA = "0x4D1FF30", Offset = "0x4D1FF30", VA = "0x4D1FF30")]
+		[Address(RVA = "0x5047860", Offset = "0x5047860", VA = "0x5047860")]
 		set
 		{
 		}
@@ -232,7 +239,7 @@ public class IMGUIContainer : VisualElement, IDisposable
 	private GUILayoutUtility.LayoutCache cache
 	{
 		[Token(Token = "0x6000DD6")]
-		[Address(RVA = "0x4D20000", Offset = "0x4D20000", VA = "0x4D20000")]
+		[Address(RVA = "0x5047930", Offset = "0x5047930", VA = "0x5047930")]
 		get
 		{
 			return null;
@@ -243,7 +250,7 @@ public class IMGUIContainer : VisualElement, IDisposable
 	private float layoutMeasuredWidth
 	{
 		[Token(Token = "0x6000DD7")]
-		[Address(RVA = "0x4D20090", Offset = "0x4D20090", VA = "0x4D20090")]
+		[Address(RVA = "0x50479C0", Offset = "0x50479C0", VA = "0x50479C0")]
 		get
 		{
 			return default(float);
@@ -254,7 +261,7 @@ public class IMGUIContainer : VisualElement, IDisposable
 	private float layoutMeasuredHeight
 	{
 		[Token(Token = "0x6000DD8")]
-		[Address(RVA = "0x4D20130", Offset = "0x4D20130", VA = "0x4D20130")]
+		[Address(RVA = "0x5047A60", Offset = "0x5047A60", VA = "0x5047A60")]
 		get
 		{
 			return default(float);
@@ -266,13 +273,13 @@ public class IMGUIContainer : VisualElement, IDisposable
 	public ContextType contextType
 	{
 		[Token(Token = "0x6000DD9")]
-		[Address(RVA = "0x4D201D0", Offset = "0x4D201D0", VA = "0x4D201D0")]
+		[Address(RVA = "0x5047B00", Offset = "0x5047B00", VA = "0x5047B00")]
 		get
 		{
 			return default(ContextType);
 		}
 		[Token(Token = "0x6000DDA")]
-		[Address(RVA = "0x4D201E0", Offset = "0x4D201E0", VA = "0x4D201E0")]
+		[Address(RVA = "0x5047B10", Offset = "0x5047B10", VA = "0x5047B10")]
 		set
 		{
 		}
@@ -282,7 +289,7 @@ public class IMGUIContainer : VisualElement, IDisposable
 	internal bool focusOnlyIfHasFocusableControls
 	{
 		[Token(Token = "0x6000DDB")]
-		[Address(RVA = "0x4D20280", Offset = "0x4D20280", VA = "0x4D20280")]
+		[Address(RVA = "0x5047BB0", Offset = "0x5047BB0", VA = "0x5047BB0")]
 		[CompilerGenerated]
 		get
 		{
@@ -294,7 +301,7 @@ public class IMGUIContainer : VisualElement, IDisposable
 	public override bool canGrabFocus
 	{
 		[Token(Token = "0x6000DDC")]
-		[Address(RVA = "0x4D20290", Offset = "0x4D20290", VA = "0x4D20290", Slot = "14")]
+		[Address(RVA = "0x5047BC0", Offset = "0x5047BC0", VA = "0x5047BC0", Slot = "14")]
 		get
 		{
 			return default(bool);
@@ -302,137 +309,137 @@ public class IMGUIContainer : VisualElement, IDisposable
 	}
 
 	[Token(Token = "0x6000DDD")]
-	[Address(RVA = "0x4D202B0", Offset = "0x4D202B0", VA = "0x4D202B0")]
+	[Address(RVA = "0x5047BE0", Offset = "0x5047BE0", VA = "0x5047BE0")]
 	static IMGUIContainer()
 	{
 	}
 
 	[Token(Token = "0x6000DDE")]
-	[Address(RVA = "0x4D20810", Offset = "0x4D20810", VA = "0x4D20810")]
+	[Address(RVA = "0x5048140", Offset = "0x5048140", VA = "0x5048140")]
 	public IMGUIContainer()
 	{
 	}
 
 	[Token(Token = "0x6000DDF")]
-	[Address(RVA = "0x4D20820", Offset = "0x4D20820", VA = "0x4D20820")]
+	[Address(RVA = "0x5048150", Offset = "0x5048150", VA = "0x5048150")]
 	public IMGUIContainer(Action onGUIHandler)
 	{
 	}
 
 	[Token(Token = "0x6000DE0")]
-	[Address(RVA = "0x4D20C30", Offset = "0x4D20C30", VA = "0x4D20C30")]
+	[Address(RVA = "0x5048560", Offset = "0x5048560", VA = "0x5048560")]
 	private void OnGenerateVisualContent(MeshGenerationContext mgc)
 	{
 	}
 
 	[Token(Token = "0x6000DE1")]
-	[Address(RVA = "0x4D20CF0", Offset = "0x4D20CF0", VA = "0x4D20CF0")]
+	[Address(RVA = "0x5048620", Offset = "0x5048620", VA = "0x5048620")]
 	private void SaveGlobals()
 	{
 	}
 
 	[Token(Token = "0x6000DE2")]
-	[Address(RVA = "0x4D20E10", Offset = "0x4D20E10", VA = "0x4D20E10")]
+	[Address(RVA = "0x5048740", Offset = "0x5048740", VA = "0x5048740")]
 	private void RestoreGlobals()
 	{
 	}
 
 	[Token(Token = "0x6000DE3")]
-	[Address(RVA = "0x4D20F50", Offset = "0x4D20F50", VA = "0x4D20F50")]
+	[Address(RVA = "0x5048880", Offset = "0x5048880", VA = "0x5048880")]
 	private void DoOnGUI(Event evt, Matrix4x4 parentTransform, Rect clippingRect, bool isComputingLayout, Rect layoutSize, Action onGUIHandler, bool canAffectFocus = true)
 	{
 	}
 
 	[Token(Token = "0x6000DE4")]
-	[Address(RVA = "0x4D22080", Offset = "0x4D22080", VA = "0x4D22080")]
+	[Address(RVA = "0x50499B0", Offset = "0x50499B0", VA = "0x50499B0")]
 	public void MarkDirtyLayout()
 	{
 	}
 
 	[Token(Token = "0x6000DE5")]
-	[Address(RVA = "0x4D220A0", Offset = "0x4D220A0", VA = "0x4D220A0")]
+	[Address(RVA = "0x50499D0", Offset = "0x50499D0", VA = "0x50499D0")]
 	private void ProcessEvent(EventBase evt)
 	{
 	}
 
 	[Token(Token = "0x6000DE6")]
-	[Address(RVA = "0x4D224D0", Offset = "0x4D224D0", VA = "0x4D224D0")]
+	[Address(RVA = "0x5049E00", Offset = "0x5049E00", VA = "0x5049E00")]
 	private void DoIMGUIRepaint()
 	{
 	}
 
 	[Token(Token = "0x6000DE7")]
-	[Address(RVA = "0x4D22230", Offset = "0x4D22230", VA = "0x4D22230")]
+	[Address(RVA = "0x5049B60", Offset = "0x5049B60", VA = "0x5049B60")]
 	internal bool SendEventToIMGUI(EventBase evt, bool canAffectFocus = true, bool verifyBounds = true)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000DE8")]
-	[Address(RVA = "0x4D22D40", Offset = "0x4D22D40", VA = "0x4D22D40")]
+	[Address(RVA = "0x504A670", Offset = "0x504A670", VA = "0x504A670")]
 	private bool SendEventToIMGUIRaw(EventBase evt, bool canAffectFocus, bool verifyBounds)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000DE9")]
-	[Address(RVA = "0x4D22F30", Offset = "0x4D22F30", VA = "0x4D22F30")]
+	[Address(RVA = "0x504A860", Offset = "0x504A860", VA = "0x504A860")]
 	private bool VerifyBounds(EventBase evt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000DEA")]
-	[Address(RVA = "0x4D23080", Offset = "0x4D23080", VA = "0x4D23080")]
+	[Address(RVA = "0x504A9B0", Offset = "0x504A9B0", VA = "0x504A9B0")]
 	private bool IsContainerCapturingTheMouse()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000DEB")]
-	[Address(RVA = "0x4D231B0", Offset = "0x4D231B0", VA = "0x4D231B0")]
+	[Address(RVA = "0x504AAE0", Offset = "0x504AAE0", VA = "0x504AAE0")]
 	private bool IsLocalEvent(EventBase evt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000DEC")]
-	[Address(RVA = "0x4D233A0", Offset = "0x4D233A0", VA = "0x4D233A0")]
+	[Address(RVA = "0x504ACD0", Offset = "0x504ACD0", VA = "0x504ACD0")]
 	private bool IsEventInsideLocalWindow(EventBase evt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000DED")]
-	[Address(RVA = "0x4D23550", Offset = "0x4D23550", VA = "0x4D23550")]
+	[Address(RVA = "0x504AE80", Offset = "0x504AE80", VA = "0x504AE80")]
 	private static bool IsDockAreaMouseUp(EventBase evt)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000DEE")]
-	[Address(RVA = "0x4D22FB0", Offset = "0x4D22FB0", VA = "0x4D22FB0")]
+	[Address(RVA = "0x504A8E0", Offset = "0x504A8E0", VA = "0x504A8E0")]
 	internal bool HandleIMGUIEvent(Event e, bool canAffectFocus)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000DEF")]
-	[Address(RVA = "0x4D23680", Offset = "0x4D23680", VA = "0x4D23680")]
+	[Address(RVA = "0x504AFB0", Offset = "0x504AFB0", VA = "0x504AFB0")]
 	internal bool HandleIMGUIEvent(Event e, Action onGUIHandler, bool canAffectFocus)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000DF0")]
-	[Address(RVA = "0x4D22950", Offset = "0x4D22950", VA = "0x4D22950")]
+	[Address(RVA = "0x504A280", Offset = "0x504A280", VA = "0x504A280")]
 	private bool HandleIMGUIEvent(Event e, Matrix4x4 worldTransform, Rect clippingRect, Action onGUIHandler, bool canAffectFocus)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000DF1")]
-	[Address(RVA = "0x4D23A90", Offset = "0x4D23A90", VA = "0x4D23A90", Slot = "9")]
+	[Address(RVA = "0x504B3C0", Offset = "0x504B3C0", VA = "0x504B3C0", Slot = "9")]
 	[EventInterest(EventInterestOptionsInternal.TriggeredByOS)]
 	[EventInterest(new Type[]
 	{
@@ -445,7 +452,7 @@ public class IMGUIContainer : VisualElement, IDisposable
 	}
 
 	[Token(Token = "0x6000DF2")]
-	[Address(RVA = "0x4D23AD0", Offset = "0x4D23AD0", VA = "0x4D23AD0", Slot = "11")]
+	[Address(RVA = "0x504B400", Offset = "0x504B400", VA = "0x504B400", Slot = "11")]
 	[EventInterest(new Type[]
 	{
 		typeof(NavigationMoveEvent),
@@ -458,7 +465,7 @@ public class IMGUIContainer : VisualElement, IDisposable
 	}
 
 	[Token(Token = "0x6000DF3")]
-	[Address(RVA = "0x4D23B10", Offset = "0x4D23B10", VA = "0x4D23B10", Slot = "10")]
+	[Address(RVA = "0x504B440", Offset = "0x504B440", VA = "0x504B440", Slot = "10")]
 	[EventInterest(new Type[]
 	{
 		typeof(BlurEvent),
@@ -471,39 +478,39 @@ public class IMGUIContainer : VisualElement, IDisposable
 	}
 
 	[Token(Token = "0x6000DF4")]
-	[Address(RVA = "0x4D23DE0", Offset = "0x4D23DE0", VA = "0x4D23DE0")]
+	[Address(RVA = "0x504B710", Offset = "0x504B710", VA = "0x504B710")]
 	private void SetFoldoutDepthClass()
 	{
 	}
 
 	[Token(Token = "0x6000DF5")]
-	[Address(RVA = "0x4D23F60", Offset = "0x4D23F60", VA = "0x4D23F60", Slot = "96")]
+	[Address(RVA = "0x504B890", Offset = "0x504B890", VA = "0x504B890", Slot = "96")]
 	protected internal override Vector2 DoMeasure(float desiredWidth, MeasureMode widthMode, float desiredHeight, MeasureMode heightMode)
 	{
 		return default(Vector2);
 	}
 
 	[Token(Token = "0x6000DF6")]
-	[Address(RVA = "0x4D23640", Offset = "0x4D23640", VA = "0x4D23640")]
+	[Address(RVA = "0x504AF70", Offset = "0x504AF70", VA = "0x504AF70")]
 	private Rect GetCurrentClipRect()
 	{
 		return default(Rect);
 	}
 
 	[Token(Token = "0x6000DF7")]
-	[Address(RVA = "0x4D23740", Offset = "0x4D23740", VA = "0x4D23740")]
+	[Address(RVA = "0x504B070", Offset = "0x504B070", VA = "0x504B070")]
 	private static void GetCurrentTransformAndClip(IMGUIContainer container, Event evt, out Matrix4x4 transform, out Rect clipRect)
 	{
 	}
 
 	[Token(Token = "0x6000DF8")]
-	[Address(RVA = "0x4D24230", Offset = "0x4D24230", VA = "0x4D24230", Slot = "98")]
+	[Address(RVA = "0x504BB60", Offset = "0x504BB60", VA = "0x504BB60", Slot = "98")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000DF9")]
-	[Address(RVA = "0x4D242A0", Offset = "0x4D242A0", VA = "0x4D242A0", Slot = "99")]
+	[Address(RVA = "0x504BBD0", Offset = "0x504BBD0", VA = "0x504BBD0", Slot = "99")]
 	protected virtual void Dispose(bool disposeManaged)
 	{
 	}

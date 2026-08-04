@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.ShaderDebugPrintManager
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
@@ -102,7 +109,7 @@ public sealed class ShaderDebugPrintManager
 	public static ShaderDebugPrintManager instance
 	{
 		[Token(Token = "0x600086B")]
-		[Address(RVA = "0x48891A0", Offset = "0x48891A0", VA = "0x48891A0")]
+		[Address(RVA = "0x4BAE290", Offset = "0x4BAE290", VA = "0x4BAE290")]
 		get
 		{
 			return null;
@@ -113,7 +120,7 @@ public sealed class ShaderDebugPrintManager
 	public string outputLine
 	{
 		[Token(Token = "0x6000871")]
-		[Address(RVA = "0x488AB50", Offset = "0x488AB50", VA = "0x488AB50")]
+		[Address(RVA = "0x4BAFC40", Offset = "0x4BAFC40", VA = "0x4BAFC40")]
 		get
 		{
 			return null;
@@ -124,57 +131,57 @@ public sealed class ShaderDebugPrintManager
 	public Action<string> outputAction
 	{
 		[Token(Token = "0x6000872")]
-		[Address(RVA = "0x488AB60", Offset = "0x488AB60", VA = "0x488AB60")]
+		[Address(RVA = "0x4BAFC50", Offset = "0x4BAFC50", VA = "0x4BAFC50")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000869")]
-	[Address(RVA = "0x4888BB0", Offset = "0x4888BB0", VA = "0x4888BB0")]
+	[Address(RVA = "0x4BADCA0", Offset = "0x4BADCA0", VA = "0x4BADCA0")]
 	private int DebugValueTypeToElemSize(DebugValueType type)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600086A")]
-	[Address(RVA = "0x4888BD0", Offset = "0x4888BD0", VA = "0x4888BD0")]
+	[Address(RVA = "0x4BADCC0", Offset = "0x4BADCC0", VA = "0x4BADCC0")]
 	private ShaderDebugPrintManager()
 	{
 	}
 
 	[Token(Token = "0x600086C")]
-	[Address(RVA = "0x4889210", Offset = "0x4889210", VA = "0x4889210")]
+	[Address(RVA = "0x4BAE300", Offset = "0x4BAE300", VA = "0x4BAE300")]
 	public void SetShaderDebugPrintInputConstants(CommandBuffer cmd, ShaderDebugPrintInput input)
 	{
 	}
 
 	[Token(Token = "0x600086D")]
-	[Address(RVA = "0x48892F0", Offset = "0x48892F0", VA = "0x48892F0")]
+	[Address(RVA = "0x4BAE3E0", Offset = "0x4BAE3E0", VA = "0x4BAE3E0")]
 	public void SetShaderDebugPrintBindings(CommandBuffer cmd)
 	{
 	}
 
 	[Token(Token = "0x600086E")]
-	[Address(RVA = "0x48893F0", Offset = "0x48893F0", VA = "0x48893F0")]
+	[Address(RVA = "0x4BAE4E0", Offset = "0x4BAE4E0", VA = "0x4BAE4E0")]
 	private void ClearShaderDebugPrintBuffer()
 	{
 	}
 
 	[Token(Token = "0x600086F")]
-	[Address(RVA = "0x48894E0", Offset = "0x48894E0", VA = "0x48894E0")]
+	[Address(RVA = "0x4BAE5D0", Offset = "0x4BAE5D0", VA = "0x4BAE5D0")]
 	private void BufferReadComplete(AsyncGPUReadbackRequest request)
 	{
 	}
 
 	[Token(Token = "0x6000870")]
-	[Address(RVA = "0x488AAB0", Offset = "0x488AAB0", VA = "0x488AAB0")]
+	[Address(RVA = "0x4BAFBA0", Offset = "0x4BAFBA0", VA = "0x4BAFBA0")]
 	public void EndFrame()
 	{
 	}
 
 	[Token(Token = "0x6000873")]
-	[Address(RVA = "0x488AB70", Offset = "0x488AB70", VA = "0x488AB70")]
+	[Address(RVA = "0x4BAFC60", Offset = "0x4BAFC60", VA = "0x4BAFC60")]
 	public void DefaultOutput(string line)
 	{
 	}

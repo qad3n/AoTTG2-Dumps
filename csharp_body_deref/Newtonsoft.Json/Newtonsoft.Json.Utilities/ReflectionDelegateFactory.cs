@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Newtonsoft.Json.Utilities.ReflectionDelegateFactory
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Reflection;
 using Il2CppDummyDll;
@@ -42,7 +49,7 @@ internal abstract class ReflectionDelegateFactory
 	public abstract Action<T, object> CreateSet<T>(PropertyInfo propertyInfo) where T : notnull;
 
 	[Token(Token = "0x6000699")]
-	[Address(RVA = "0x3ACA4E0", Offset = "0x3ACA4E0", VA = "0x3ACA4E0")]
+	[Address(RVA = "0x3DBFE30", Offset = "0x3DBFE30", VA = "0x3DBFE30")]
 	protected ReflectionDelegateFactory()
 	{
 	}

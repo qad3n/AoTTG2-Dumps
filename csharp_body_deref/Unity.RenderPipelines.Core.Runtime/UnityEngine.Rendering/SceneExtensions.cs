@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.SceneExtensions
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Reflection;
 using Il2CppDummyDll;
 using UnityEngine.SceneManagement;
@@ -12,7 +19,7 @@ internal static class SceneExtensions
 	private static PropertyInfo s_SceneGUID;
 
 	[Token(Token = "0x6000A52")]
-	[Address(RVA = "0x48ACEB0", Offset = "0x48ACEB0", VA = "0x48ACEB0")]
+	[Address(RVA = "0x4BD1F60", Offset = "0x4BD1F60", VA = "0x4BD1F60")]
 	public static string GetGUID(this Scene scene)
 	{
 		return null;

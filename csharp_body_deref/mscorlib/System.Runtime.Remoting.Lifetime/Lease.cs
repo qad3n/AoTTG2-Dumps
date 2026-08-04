@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.Lifetime.Lease
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using Il2CppDummyDll;
 
@@ -45,7 +52,7 @@ internal class Lease : MarshalByRefObject, ILease
 	public TimeSpan CurrentLeaseTime
 	{
 		[Token(Token = "0x6001D19")]
-		[Address(RVA = "0x4E91850", Offset = "0x4E91850", VA = "0x4E91850", Slot = "6")]
+		[Address(RVA = "0x3B77370", Offset = "0x3B77370", VA = "0x3B77370", Slot = "6")]
 		get
 		{
 			return default(TimeSpan);
@@ -56,7 +63,7 @@ internal class Lease : MarshalByRefObject, ILease
 	public LeaseState CurrentState
 	{
 		[Token(Token = "0x6001D1A")]
-		[Address(RVA = "0x4E918B0", Offset = "0x4E918B0", VA = "0x4E918B0", Slot = "7")]
+		[Address(RVA = "0x3B773D0", Offset = "0x3B773D0", VA = "0x3B773D0", Slot = "7")]
 		get
 		{
 			return default(LeaseState);
@@ -67,7 +74,7 @@ internal class Lease : MarshalByRefObject, ILease
 	public TimeSpan RenewOnCallTime
 	{
 		[Token(Token = "0x6001D1C")]
-		[Address(RVA = "0x4E918D0", Offset = "0x4E918D0", VA = "0x4E918D0", Slot = "8")]
+		[Address(RVA = "0x3B773F0", Offset = "0x3B773F0", VA = "0x3B773F0", Slot = "8")]
 		get
 		{
 			return default(TimeSpan);
@@ -75,44 +82,44 @@ internal class Lease : MarshalByRefObject, ILease
 	}
 
 	[Token(Token = "0x6001D18")]
-	[Address(RVA = "0x4E916A0", Offset = "0x4E916A0", VA = "0x4E916A0")]
+	[Address(RVA = "0x3B771C0", Offset = "0x3B771C0", VA = "0x3B771C0")]
 	public Lease()
 	{
 	}
 
 	[Token(Token = "0x6001D1B")]
-	[Address(RVA = "0x4E918C0", Offset = "0x4E918C0", VA = "0x4E918C0")]
+	[Address(RVA = "0x3B773E0", Offset = "0x3B773E0", VA = "0x3B773E0")]
 	public void Activate()
 	{
 	}
 
 	[Token(Token = "0x6001D1D")]
-	[Address(RVA = "0x4E918E0", Offset = "0x4E918E0", VA = "0x4E918E0", Slot = "9")]
+	[Address(RVA = "0x3B77400", Offset = "0x3B77400", VA = "0x3B77400", Slot = "9")]
 	public TimeSpan Renew(TimeSpan renewalTime)
 	{
 		return default(TimeSpan);
 	}
 
 	[Token(Token = "0x6001D1E")]
-	[Address(RVA = "0x4E919C0", Offset = "0x4E919C0", VA = "0x4E919C0", Slot = "10")]
+	[Address(RVA = "0x3B774E0", Offset = "0x3B774E0", VA = "0x3B774E0", Slot = "10")]
 	public void Unregister(ISponsor obj)
 	{
 	}
 
 	[Token(Token = "0x6001D1F")]
-	[Address(RVA = "0x4E91B30", Offset = "0x4E91B30", VA = "0x4E91B30")]
+	[Address(RVA = "0x3B77650", Offset = "0x3B77650", VA = "0x3B77650")]
 	internal void UpdateState()
 	{
 	}
 
 	[Token(Token = "0x6001D20")]
-	[Address(RVA = "0x4E91D10", Offset = "0x4E91D10", VA = "0x4E91D10")]
+	[Address(RVA = "0x3B77830", Offset = "0x3B77830", VA = "0x3B77830")]
 	private void CheckNextSponsor()
 	{
 	}
 
 	[Token(Token = "0x6001D21")]
-	[Address(RVA = "0x4E920D0", Offset = "0x4E920D0", VA = "0x4E920D0")]
+	[Address(RVA = "0x3B77BF0", Offset = "0x3B77BF0", VA = "0x3B77BF0")]
 	private void ProcessSponsorResponse(object state, bool timedOut)
 	{
 	}

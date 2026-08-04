@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Cysharp.Threading.Tasks.Internal.PlayerLoopRunner
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using Il2CppDummyDll;
@@ -43,128 +50,128 @@ internal sealed class PlayerLoopRunner
 	private MinimumQueue<IPlayerLoopItem> waitQueue;
 
 	[Token(Token = "0x6000CAC")]
-	[Address(RVA = "0x46F6950", Offset = "0x46F6950", VA = "0x46F6950")]
+	[Address(RVA = "0x4A1BA50", Offset = "0x4A1BA50", VA = "0x4A1BA50")]
 	public PlayerLoopRunner(PlayerLoopTiming timing)
 	{
 	}
 
 	[Token(Token = "0x6000CAD")]
-	[Address(RVA = "0x46F6B40", Offset = "0x46F6B40", VA = "0x46F6B40")]
+	[Address(RVA = "0x4A1BC40", Offset = "0x4A1BC40", VA = "0x4A1BC40")]
 	public void AddAction(IPlayerLoopItem item)
 	{
 	}
 
 	[Token(Token = "0x6000CAE")]
-	[Address(RVA = "0x46F6E90", Offset = "0x46F6E90", VA = "0x46F6E90")]
+	[Address(RVA = "0x4A1BF90", Offset = "0x4A1BF90", VA = "0x4A1BF90")]
 	public int Clear()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000CAF")]
-	[Address(RVA = "0x46F6FE0", Offset = "0x46F6FE0", VA = "0x46F6FE0")]
+	[Address(RVA = "0x4A1C0E0", Offset = "0x4A1C0E0", VA = "0x4A1C0E0")]
 	public void Run()
 	{
 	}
 
 	[Token(Token = "0x6000CB0")]
-	[Address(RVA = "0x46F7CD0", Offset = "0x46F7CD0", VA = "0x46F7CD0")]
+	[Address(RVA = "0x4A1CDD0", Offset = "0x4A1CDD0", VA = "0x4A1CDD0")]
 	private void Initialization()
 	{
 	}
 
 	[Token(Token = "0x6000CB1")]
-	[Address(RVA = "0x46F7CE0", Offset = "0x46F7CE0", VA = "0x46F7CE0")]
+	[Address(RVA = "0x4A1CDE0", Offset = "0x4A1CDE0", VA = "0x4A1CDE0")]
 	private void LastInitialization()
 	{
 	}
 
 	[Token(Token = "0x6000CB2")]
-	[Address(RVA = "0x46F7CF0", Offset = "0x46F7CF0", VA = "0x46F7CF0")]
+	[Address(RVA = "0x4A1CDF0", Offset = "0x4A1CDF0", VA = "0x4A1CDF0")]
 	private void EarlyUpdate()
 	{
 	}
 
 	[Token(Token = "0x6000CB3")]
-	[Address(RVA = "0x46F7D00", Offset = "0x46F7D00", VA = "0x46F7D00")]
+	[Address(RVA = "0x4A1CE00", Offset = "0x4A1CE00", VA = "0x4A1CE00")]
 	private void LastEarlyUpdate()
 	{
 	}
 
 	[Token(Token = "0x6000CB4")]
-	[Address(RVA = "0x46F7D10", Offset = "0x46F7D10", VA = "0x46F7D10")]
+	[Address(RVA = "0x4A1CE10", Offset = "0x4A1CE10", VA = "0x4A1CE10")]
 	private void FixedUpdate()
 	{
 	}
 
 	[Token(Token = "0x6000CB5")]
-	[Address(RVA = "0x46F7D20", Offset = "0x46F7D20", VA = "0x46F7D20")]
+	[Address(RVA = "0x4A1CE20", Offset = "0x4A1CE20", VA = "0x4A1CE20")]
 	private void LastFixedUpdate()
 	{
 	}
 
 	[Token(Token = "0x6000CB6")]
-	[Address(RVA = "0x46F7D30", Offset = "0x46F7D30", VA = "0x46F7D30")]
+	[Address(RVA = "0x4A1CE30", Offset = "0x4A1CE30", VA = "0x4A1CE30")]
 	private void PreUpdate()
 	{
 	}
 
 	[Token(Token = "0x6000CB7")]
-	[Address(RVA = "0x46F7D40", Offset = "0x46F7D40", VA = "0x46F7D40")]
+	[Address(RVA = "0x4A1CE40", Offset = "0x4A1CE40", VA = "0x4A1CE40")]
 	private void LastPreUpdate()
 	{
 	}
 
 	[Token(Token = "0x6000CB8")]
-	[Address(RVA = "0x46F7D50", Offset = "0x46F7D50", VA = "0x46F7D50")]
+	[Address(RVA = "0x4A1CE50", Offset = "0x4A1CE50", VA = "0x4A1CE50")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x6000CB9")]
-	[Address(RVA = "0x46F7D60", Offset = "0x46F7D60", VA = "0x46F7D60")]
+	[Address(RVA = "0x4A1CE60", Offset = "0x4A1CE60", VA = "0x4A1CE60")]
 	private void LastUpdate()
 	{
 	}
 
 	[Token(Token = "0x6000CBA")]
-	[Address(RVA = "0x46F7D70", Offset = "0x46F7D70", VA = "0x46F7D70")]
+	[Address(RVA = "0x4A1CE70", Offset = "0x4A1CE70", VA = "0x4A1CE70")]
 	private void PreLateUpdate()
 	{
 	}
 
 	[Token(Token = "0x6000CBB")]
-	[Address(RVA = "0x46F7D80", Offset = "0x46F7D80", VA = "0x46F7D80")]
+	[Address(RVA = "0x4A1CE80", Offset = "0x4A1CE80", VA = "0x4A1CE80")]
 	private void LastPreLateUpdate()
 	{
 	}
 
 	[Token(Token = "0x6000CBC")]
-	[Address(RVA = "0x46F7D90", Offset = "0x46F7D90", VA = "0x46F7D90")]
+	[Address(RVA = "0x4A1CE90", Offset = "0x4A1CE90", VA = "0x4A1CE90")]
 	private void PostLateUpdate()
 	{
 	}
 
 	[Token(Token = "0x6000CBD")]
-	[Address(RVA = "0x46F7DA0", Offset = "0x46F7DA0", VA = "0x46F7DA0")]
+	[Address(RVA = "0x4A1CEA0", Offset = "0x4A1CEA0", VA = "0x4A1CEA0")]
 	private void LastPostLateUpdate()
 	{
 	}
 
 	[Token(Token = "0x6000CBE")]
-	[Address(RVA = "0x46F7DB0", Offset = "0x46F7DB0", VA = "0x46F7DB0")]
+	[Address(RVA = "0x4A1CEB0", Offset = "0x4A1CEB0", VA = "0x4A1CEB0")]
 	private void TimeUpdate()
 	{
 	}
 
 	[Token(Token = "0x6000CBF")]
-	[Address(RVA = "0x46F7DC0", Offset = "0x46F7DC0", VA = "0x46F7DC0")]
+	[Address(RVA = "0x4A1CEC0", Offset = "0x4A1CEC0", VA = "0x4A1CEC0")]
 	private void LastTimeUpdate()
 	{
 	}
 
 	[Token(Token = "0x6000CC0")]
-	[Address(RVA = "0x46F6FF0", Offset = "0x46F6FF0", VA = "0x46F6FF0")]
+	[Address(RVA = "0x4A1C0F0", Offset = "0x4A1C0F0", VA = "0x4A1C0F0")]
 	[DebuggerHidden]
 	private void RunCore()
 	{

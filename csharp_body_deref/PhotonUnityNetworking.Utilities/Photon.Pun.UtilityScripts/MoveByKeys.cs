@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Pun.UtilityScripts.MoveByKeys
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/MoveByKeys.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -36,19 +43,19 @@ public class MoveByKeys : MonoBehaviourPun
 	private Rigidbody2D body2d;
 
 	[Token(Token = "0x6000099")]
-	[Address(RVA = "0x3BF0720", Offset = "0x3BF0720", VA = "0x3BF0720")]
+	[Address(RVA = "0x3F08BF0", Offset = "0x3F08BF0", VA = "0x3F08BF0")]
 	public void Start()
 	{
 	}
 
 	[Token(Token = "0x600009A")]
-	[Address(RVA = "0x3BF0800", Offset = "0x3BF0800", VA = "0x3BF0800")]
+	[Address(RVA = "0x3F08CD0", Offset = "0x3F08CD0", VA = "0x3F08CD0")]
 	public void FixedUpdate()
 	{
 	}
 
 	[Token(Token = "0x600009B")]
-	[Address(RVA = "0x3BF0C30", Offset = "0x3BF0C30", VA = "0x3BF0C30")]
+	[Address(RVA = "0x3F09100", Offset = "0x3F09100", VA = "0x3F09100")]
 	public MoveByKeys()
 	{
 	}

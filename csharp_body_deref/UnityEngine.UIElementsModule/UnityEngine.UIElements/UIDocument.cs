@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.UIDocument
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
 
@@ -71,13 +78,13 @@ public sealed class UIDocument : MonoBehaviour
 	public PanelSettings panelSettings
 	{
 		[Token(Token = "0x6000DA0")]
-		[Address(RVA = "0x4D1D700", Offset = "0x4D1D700", VA = "0x4D1D700")]
+		[Address(RVA = "0x5045030", Offset = "0x5045030", VA = "0x5045030")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000DA1")]
-		[Address(RVA = "0x4D1D710", Offset = "0x4D1D710", VA = "0x4D1D710")]
+		[Address(RVA = "0x5045040", Offset = "0x5045040", VA = "0x5045040")]
 		set
 		{
 		}
@@ -87,13 +94,13 @@ public sealed class UIDocument : MonoBehaviour
 	public UIDocument parentUI
 	{
 		[Token(Token = "0x6000DA2")]
-		[Address(RVA = "0x4D1DA20", Offset = "0x4D1DA20", VA = "0x4D1DA20")]
+		[Address(RVA = "0x5045350", Offset = "0x5045350", VA = "0x5045350")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000DA3")]
-		[Address(RVA = "0x4D1DA30", Offset = "0x4D1DA30", VA = "0x4D1DA30")]
+		[Address(RVA = "0x5045360", Offset = "0x5045360", VA = "0x5045360")]
 		private set
 		{
 		}
@@ -103,13 +110,13 @@ public sealed class UIDocument : MonoBehaviour
 	public VisualTreeAsset visualTreeAsset
 	{
 		[Token(Token = "0x6000DA4")]
-		[Address(RVA = "0x4D1DA40", Offset = "0x4D1DA40", VA = "0x4D1DA40")]
+		[Address(RVA = "0x5045370", Offset = "0x5045370", VA = "0x5045370")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000DA5")]
-		[Address(RVA = "0x4D1DA50", Offset = "0x4D1DA50", VA = "0x4D1DA50")]
+		[Address(RVA = "0x5045380", Offset = "0x5045380", VA = "0x5045380")]
 		set
 		{
 		}
@@ -119,7 +126,7 @@ public sealed class UIDocument : MonoBehaviour
 	public VisualElement rootVisualElement
 	{
 		[Token(Token = "0x6000DA6")]
-		[Address(RVA = "0x4D1D6F0", Offset = "0x4D1D6F0", VA = "0x4D1D6F0")]
+		[Address(RVA = "0x5045020", Offset = "0x5045020", VA = "0x5045020")]
 		get
 		{
 			return null;
@@ -130,7 +137,7 @@ public sealed class UIDocument : MonoBehaviour
 	internal int firstChildInserIndex
 	{
 		[Token(Token = "0x6000DA7")]
-		[Address(RVA = "0x4D1DF50", Offset = "0x4D1DF50", VA = "0x4D1DF50")]
+		[Address(RVA = "0x5045880", Offset = "0x5045880", VA = "0x5045880")]
 		get
 		{
 			return default(int);
@@ -141,117 +148,117 @@ public sealed class UIDocument : MonoBehaviour
 	public float sortingOrder
 	{
 		[Token(Token = "0x6000DA8")]
-		[Address(RVA = "0x4D1DF60", Offset = "0x4D1DF60", VA = "0x4D1DF60")]
+		[Address(RVA = "0x5045890", Offset = "0x5045890", VA = "0x5045890")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000DA9")]
-		[Address(RVA = "0x4D1DF70", Offset = "0x4D1DF70", VA = "0x4D1DF70")]
+		[Address(RVA = "0x50458A0", Offset = "0x50458A0", VA = "0x50458A0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000DAA")]
-	[Address(RVA = "0x4D1DF90", Offset = "0x4D1DF90", VA = "0x4D1DF90")]
+	[Address(RVA = "0x50458C0", Offset = "0x50458C0", VA = "0x50458C0")]
 	internal void ApplySortingOrder()
 	{
 	}
 
 	[Token(Token = "0x6000DAB")]
-	[Address(RVA = "0x4D1E060", Offset = "0x4D1E060", VA = "0x4D1E060")]
+	[Address(RVA = "0x5045990", Offset = "0x5045990", VA = "0x5045990")]
 	private UIDocument()
 	{
 	}
 
 	[Token(Token = "0x6000DAC")]
-	[Address(RVA = "0x4D1E0F0", Offset = "0x4D1E0F0", VA = "0x4D1E0F0")]
+	[Address(RVA = "0x5045A20", Offset = "0x5045A20", VA = "0x5045A20")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x6000DAD")]
-	[Address(RVA = "0x4D1E1D0", Offset = "0x4D1E1D0", VA = "0x4D1E1D0")]
+	[Address(RVA = "0x5045B00", Offset = "0x5045B00", VA = "0x5045B00")]
 	private void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000DAE")]
-	[Address(RVA = "0x4D1E100", Offset = "0x4D1E100", VA = "0x4D1E100")]
+	[Address(RVA = "0x5045A30", Offset = "0x5045A30", VA = "0x5045A30")]
 	private void SetupFromHierarchy()
 	{
 	}
 
 	[Token(Token = "0x6000DAF")]
-	[Address(RVA = "0x4D1E300", Offset = "0x4D1E300", VA = "0x4D1E300")]
+	[Address(RVA = "0x5045C30", Offset = "0x5045C30", VA = "0x5045C30")]
 	private UIDocument FindUIDocumentParent()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000DB0")]
-	[Address(RVA = "0x4D1E3C0", Offset = "0x4D1E3C0", VA = "0x4D1E3C0")]
+	[Address(RVA = "0x5045CF0", Offset = "0x5045CF0", VA = "0x5045CF0")]
 	internal void Reset()
 	{
 	}
 
 	[Token(Token = "0x6000DB1")]
-	[Address(RVA = "0x4D1E4C0", Offset = "0x4D1E4C0", VA = "0x4D1E4C0")]
+	[Address(RVA = "0x5045DF0", Offset = "0x5045DF0", VA = "0x5045DF0")]
 	private void AddChildAndInsertContentToVisualTree(UIDocument child)
 	{
 	}
 
 	[Token(Token = "0x6000DB2")]
-	[Address(RVA = "0x4D1E290", Offset = "0x4D1E290", VA = "0x4D1E290")]
+	[Address(RVA = "0x5045BC0", Offset = "0x5045BC0", VA = "0x5045BC0")]
 	private void RemoveChild(UIDocument child)
 	{
 	}
 
 	[Token(Token = "0x6000DB3")]
-	[Address(RVA = "0x4D1DA70", Offset = "0x4D1DA70", VA = "0x4D1DA70")]
+	[Address(RVA = "0x50453A0", Offset = "0x50453A0", VA = "0x50453A0")]
 	private void RecreateUI()
 	{
 	}
 
 	[Token(Token = "0x6000DB4")]
-	[Address(RVA = "0x4D1E720", Offset = "0x4D1E720", VA = "0x4D1E720")]
+	[Address(RVA = "0x5046050", Offset = "0x5046050", VA = "0x5046050")]
 	private void SetupRootClassList()
 	{
 	}
 
 	[Token(Token = "0x6000DB5")]
-	[Address(RVA = "0x4D1DFA0", Offset = "0x4D1DFA0", VA = "0x4D1DFA0")]
+	[Address(RVA = "0x50458D0", Offset = "0x50458D0", VA = "0x50458D0")]
 	private void AddRootVisualElementToTree()
 	{
 	}
 
 	[Token(Token = "0x6000DB6")]
-	[Address(RVA = "0x4D1E620", Offset = "0x4D1E620", VA = "0x4D1E620")]
+	[Address(RVA = "0x5045F50", Offset = "0x5045F50", VA = "0x5045F50")]
 	private void RemoveFromHierarchy()
 	{
 	}
 
 	[Token(Token = "0x6000DB7")]
-	[Address(RVA = "0x4D1E7B0", Offset = "0x4D1E7B0", VA = "0x4D1E7B0")]
+	[Address(RVA = "0x50460E0", Offset = "0x50460E0", VA = "0x50460E0")]
 	private void OnDisable()
 	{
 	}
 
 	[Token(Token = "0x6000DB8")]
-	[Address(RVA = "0x4D1E7E0", Offset = "0x4D1E7E0", VA = "0x4D1E7E0")]
+	[Address(RVA = "0x5046110", Offset = "0x5046110", VA = "0x5046110")]
 	private void OnTransformChildrenChanged()
 	{
 	}
 
 	[Token(Token = "0x6000DB9")]
-	[Address(RVA = "0x4D1EB20", Offset = "0x4D1EB20", VA = "0x4D1EB20")]
+	[Address(RVA = "0x5046450", Offset = "0x5046450", VA = "0x5046450")]
 	private void OnTransformParentChanged()
 	{
 	}
 
 	[Token(Token = "0x6000DBA")]
-	[Address(RVA = "0x4D1EA10", Offset = "0x4D1EA10", VA = "0x4D1EA10")]
+	[Address(RVA = "0x5046340", Offset = "0x5046340", VA = "0x5046340")]
 	internal void ReactToHierarchyChanged()
 	{
 	}

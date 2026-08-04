@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.ObsoleteAttribute
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System;
@@ -19,7 +26,7 @@ public sealed class ObsoleteAttribute : Attribute
 	public string Message
 	{
 		[Token(Token = "0x6000938")]
-		[Address(RVA = "0x4FE3290", Offset = "0x4FE3290", VA = "0x4FE3290")]
+		[Address(RVA = "0x3CC8DB0", Offset = "0x3CC8DB0", VA = "0x3CC8DB0")]
 		get
 		{
 			return null;
@@ -30,7 +37,7 @@ public sealed class ObsoleteAttribute : Attribute
 	public bool IsError
 	{
 		[Token(Token = "0x6000939")]
-		[Address(RVA = "0x4FE32A0", Offset = "0x4FE32A0", VA = "0x4FE32A0")]
+		[Address(RVA = "0x3CC8DC0", Offset = "0x3CC8DC0", VA = "0x3CC8DC0")]
 		get
 		{
 			return default(bool);
@@ -38,19 +45,19 @@ public sealed class ObsoleteAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000935")]
-	[Address(RVA = "0x4FE3200", Offset = "0x4FE3200", VA = "0x4FE3200")]
+	[Address(RVA = "0x3CC8D20", Offset = "0x3CC8D20", VA = "0x3CC8D20")]
 	public ObsoleteAttribute()
 	{
 	}
 
 	[Token(Token = "0x6000936")]
-	[Address(RVA = "0x4FE3230", Offset = "0x4FE3230", VA = "0x4FE3230")]
+	[Address(RVA = "0x3CC8D50", Offset = "0x3CC8D50", VA = "0x3CC8D50")]
 	public ObsoleteAttribute(string message)
 	{
 	}
 
 	[Token(Token = "0x6000937")]
-	[Address(RVA = "0x4FE3260", Offset = "0x4FE3260", VA = "0x4FE3260")]
+	[Address(RVA = "0x3CC8D80", Offset = "0x3CC8D80", VA = "0x3CC8D80")]
 	public ObsoleteAttribute(string message, bool error)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.Activation.ContextLevelActivator
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Activation;
@@ -14,7 +21,7 @@ internal class ContextLevelActivator : IActivator
 	public IActivator NextActivator
 	{
 		[Token(Token = "0x6001DBD")]
-		[Address(RVA = "0x4E9D9F0", Offset = "0x4E9D9F0", VA = "0x4E9D9F0", Slot = "4")]
+		[Address(RVA = "0x3B83510", Offset = "0x3B83510", VA = "0x3B83510", Slot = "4")]
 		get
 		{
 			return null;
@@ -22,13 +29,13 @@ internal class ContextLevelActivator : IActivator
 	}
 
 	[Token(Token = "0x6001DBC")]
-	[Address(RVA = "0x4E9CDE0", Offset = "0x4E9CDE0", VA = "0x4E9CDE0")]
+	[Address(RVA = "0x3B82900", Offset = "0x3B82900", VA = "0x3B82900")]
 	public ContextLevelActivator(IActivator next)
 	{
 	}
 
 	[Token(Token = "0x6001DBE")]
-	[Address(RVA = "0x4E9DA00", Offset = "0x4E9DA00", VA = "0x4E9DA00", Slot = "5")]
+	[Address(RVA = "0x3B83520", Offset = "0x3B83520", VA = "0x3B83520", Slot = "5")]
 	public IConstructionReturnMessage Activate(IConstructionCallMessage ctorCall)
 	{
 		return null;

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Photon.Voice.DecoderConfigFrame
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source (older reference): Assets/Photon/PhotonVoice/PhotonVoiceApi/Core/Util.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using Il2CppDummyDll;
 
@@ -23,20 +30,20 @@ public class DecoderConfigFrame : IDisposable
 	private bool configFrameDecoded;
 
 	[Token(Token = "0x60001B9")]
-	[Address(RVA = "0x3C259D0", Offset = "0x3C259D0", VA = "0x3C259D0")]
+	[Address(RVA = "0x3F1B320", Offset = "0x3F1B320", VA = "0x3F1B320")]
 	public DecoderConfigFrame(ILogger logger, IDecoder decoder)
 	{
 	}
 
 	[Token(Token = "0x60001BA")]
-	[Address(RVA = "0x3C25A10", Offset = "0x3C25A10", VA = "0x3C25A10")]
+	[Address(RVA = "0x3F1B360", Offset = "0x3F1B360", VA = "0x3F1B360")]
 	public bool TryConfigure(ref FrameBuffer buf, bool decoderReady)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001BB")]
-	[Address(RVA = "0x3C25F70", Offset = "0x3C25F70", VA = "0x3C25F70", Slot = "4")]
+	[Address(RVA = "0x3F1B8C0", Offset = "0x3F1B8C0", VA = "0x3F1B8C0", Slot = "4")]
 	public void Dispose()
 	{
 	}

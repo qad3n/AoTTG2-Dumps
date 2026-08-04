@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: EZhex1991.EZSoftBone.EZSoftBoneColliderCylinder
+// Update status: unchanged since the previous dump
+// Real method bodies (native C decompile): source/cpp/EZhex1991/EZSoftBone/EZSoftBoneColliderCylinder.c
+// Prior real C# source (older reference): Assets/ThirdParty/EZhex1991/EZSoftBone/Runtime/EZSoftBoneColliderCylinder.cs
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 using UnityEngine;
 
@@ -20,13 +27,13 @@ public class EZSoftBoneColliderCylinder : EZSoftBoneColliderBase
 	public float margin
 	{
 		[Token(Token = "0x6000065")]
-		[Address(RVA = "0x2359B30", Offset = "0x2359B30", VA = "0x2359B30")]
+		[Address(RVA = "0x2397C40", Offset = "0x2397C40", VA = "0x2397C40")]
 		get
 		{
 			return default(float);
 		}
 		[Token(Token = "0x6000066")]
-		[Address(RVA = "0x2359B40", Offset = "0x2359B40", VA = "0x2359B40")]
+		[Address(RVA = "0x2397C50", Offset = "0x2397C50", VA = "0x2397C50")]
 		set
 		{
 		}
@@ -36,26 +43,26 @@ public class EZSoftBoneColliderCylinder : EZSoftBoneColliderBase
 	public bool insideMode
 	{
 		[Token(Token = "0x6000067")]
-		[Address(RVA = "0x2359B50", Offset = "0x2359B50", VA = "0x2359B50")]
+		[Address(RVA = "0x2397C60", Offset = "0x2397C60", VA = "0x2397C60")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000068")]
-		[Address(RVA = "0x2359B60", Offset = "0x2359B60", VA = "0x2359B60")]
+		[Address(RVA = "0x2397C70", Offset = "0x2397C70", VA = "0x2397C70")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000069")]
-	[Address(RVA = "0x2359B70", Offset = "0x2359B70", VA = "0x2359B70", Slot = "4")]
+	[Address(RVA = "0x2397C80", Offset = "0x2397C80", VA = "0x2397C80", Slot = "4")]
 	public override void Collide(ref Vector3 position, float spacing)
 	{
 	}
 
 	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x2359E80", Offset = "0x2359E80", VA = "0x2359E80")]
+	[Address(RVA = "0x2397F90", Offset = "0x2397F90", VA = "0x2397F90")]
 	public EZSoftBoneColliderCylinder()
 	{
 	}

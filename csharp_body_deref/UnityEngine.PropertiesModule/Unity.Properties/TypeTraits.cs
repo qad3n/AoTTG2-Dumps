@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Unity.Properties.TypeTraits
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -9,7 +16,7 @@ namespace Unity.Properties;
 public static class TypeTraits
 {
 	[Token(Token = "0x6000152")]
-	[Address(RVA = "0x4B70560", Offset = "0x4B70560", VA = "0x4B70560")]
+	[Address(RVA = "0x4E97E90", Offset = "0x4E97E90", VA = "0x4E97E90")]
 	public static bool IsContainer(Type type)
 	{
 		return default(bool);

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -27,13 +34,13 @@ public class RSAOAEPKeyExchangeFormatter : AsymmetricKeyExchangeFormatter
 	public byte[] Parameter
 	{
 		[Token(Token = "0x6001A2B")]
-		[Address(RVA = "0x4E5D290", Offset = "0x4E5D290", VA = "0x4E5D290")]
+		[Address(RVA = "0x3B42DB0", Offset = "0x3B42DB0", VA = "0x3B42DB0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001A2C")]
-		[Address(RVA = "0x4E5D300", Offset = "0x4E5D300", VA = "0x4E5D300")]
+		[Address(RVA = "0x3B42E20", Offset = "0x3B42E20", VA = "0x3B42E20")]
 		set
 		{
 		}
@@ -43,7 +50,7 @@ public class RSAOAEPKeyExchangeFormatter : AsymmetricKeyExchangeFormatter
 	public override string Parameters
 	{
 		[Token(Token = "0x6001A2D")]
-		[Address(RVA = "0x4E5D3C0", Offset = "0x4E5D3C0", VA = "0x4E5D3C0", Slot = "4")]
+		[Address(RVA = "0x3B42EE0", Offset = "0x3B42EE0", VA = "0x3B42EE0", Slot = "4")]
 		get
 		{
 			return null;
@@ -54,13 +61,13 @@ public class RSAOAEPKeyExchangeFormatter : AsymmetricKeyExchangeFormatter
 	public RandomNumberGenerator Rng
 	{
 		[Token(Token = "0x6001A2E")]
-		[Address(RVA = "0x4E5D3D0", Offset = "0x4E5D3D0", VA = "0x4E5D3D0")]
+		[Address(RVA = "0x3B42EF0", Offset = "0x3B42EF0", VA = "0x3B42EF0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001A2F")]
-		[Address(RVA = "0x4E5D3E0", Offset = "0x4E5D3E0", VA = "0x4E5D3E0")]
+		[Address(RVA = "0x3B42F00", Offset = "0x3B42F00", VA = "0x3B42F00")]
 		set
 		{
 		}
@@ -70,7 +77,7 @@ public class RSAOAEPKeyExchangeFormatter : AsymmetricKeyExchangeFormatter
 	private bool OverridesEncrypt
 	{
 		[Token(Token = "0x6001A33")]
-		[Address(RVA = "0x4E5D740", Offset = "0x4E5D740", VA = "0x4E5D740")]
+		[Address(RVA = "0x3B43260", Offset = "0x3B43260", VA = "0x3B43260")]
 		get
 		{
 			return default(bool);
@@ -78,32 +85,32 @@ public class RSAOAEPKeyExchangeFormatter : AsymmetricKeyExchangeFormatter
 	}
 
 	[Token(Token = "0x6001A29")]
-	[Address(RVA = "0x4E5D280", Offset = "0x4E5D280", VA = "0x4E5D280")]
+	[Address(RVA = "0x3B42DA0", Offset = "0x3B42DA0", VA = "0x3B42DA0")]
 	public RSAOAEPKeyExchangeFormatter()
 	{
 	}
 
 	[Token(Token = "0x6001A2A")]
-	[Address(RVA = "0x4E5B5D0", Offset = "0x4E5B5D0", VA = "0x4E5B5D0")]
+	[Address(RVA = "0x3B410F0", Offset = "0x3B410F0", VA = "0x3B410F0")]
 	public RSAOAEPKeyExchangeFormatter(AsymmetricAlgorithm key)
 	{
 	}
 
 	[Token(Token = "0x6001A30")]
-	[Address(RVA = "0x4E5D3F0", Offset = "0x4E5D3F0", VA = "0x4E5D3F0", Slot = "5")]
+	[Address(RVA = "0x3B42F10", Offset = "0x3B42F10", VA = "0x3B42F10", Slot = "5")]
 	public override void SetKey(AsymmetricAlgorithm key)
 	{
 	}
 
 	[Token(Token = "0x6001A31")]
-	[Address(RVA = "0x4E5D4D0", Offset = "0x4E5D4D0", VA = "0x4E5D4D0", Slot = "6")]
+	[Address(RVA = "0x3B42FF0", Offset = "0x3B42FF0", VA = "0x3B42FF0", Slot = "6")]
 	public override byte[] CreateKeyExchange(byte[] rgbData)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A32")]
-	[Address(RVA = "0x4E5D9B0", Offset = "0x4E5D9B0", VA = "0x4E5D9B0", Slot = "7")]
+	[Address(RVA = "0x3B434D0", Offset = "0x3B434D0", VA = "0x3B434D0", Slot = "7")]
 	public override byte[] CreateKeyExchange(byte[] rgbData, Type symAlgType)
 	{
 		return null;

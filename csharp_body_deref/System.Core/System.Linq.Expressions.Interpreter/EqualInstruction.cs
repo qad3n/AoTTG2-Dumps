@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Linq.Expressions.Interpreter.EqualInstruction
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using Il2CppDummyDll;
 
 namespace System.Linq.Expressions.Interpreter;
@@ -9,14 +16,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualBoolean : EqualInstruction
 	{
 		[Token(Token = "0x60006AB")]
-		[Address(RVA = "0x41A71C0", Offset = "0x41A71C0", VA = "0x41A71C0", Slot = "8")]
+		[Address(RVA = "0x44CC2C0", Offset = "0x44CC2C0", VA = "0x44CC2C0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006AC")]
-		[Address(RVA = "0x41A70F0", Offset = "0x41A70F0", VA = "0x41A70F0")]
+		[Address(RVA = "0x44CC1F0", Offset = "0x44CC1F0", VA = "0x44CC1F0")]
 		public EqualBoolean()
 		{
 		}
@@ -26,14 +33,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualSByte : EqualInstruction
 	{
 		[Token(Token = "0x60006AD")]
-		[Address(RVA = "0x41A7280", Offset = "0x41A7280", VA = "0x41A7280", Slot = "8")]
+		[Address(RVA = "0x44CC380", Offset = "0x44CC380", VA = "0x44CC380", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006AE")]
-		[Address(RVA = "0x41A7100", Offset = "0x41A7100", VA = "0x41A7100")]
+		[Address(RVA = "0x44CC200", Offset = "0x44CC200", VA = "0x44CC200")]
 		public EqualSByte()
 		{
 		}
@@ -43,14 +50,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualInt16 : EqualInstruction
 	{
 		[Token(Token = "0x60006AF")]
-		[Address(RVA = "0x41A7340", Offset = "0x41A7340", VA = "0x41A7340", Slot = "8")]
+		[Address(RVA = "0x44CC440", Offset = "0x44CC440", VA = "0x44CC440", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006B0")]
-		[Address(RVA = "0x41A7110", Offset = "0x41A7110", VA = "0x41A7110")]
+		[Address(RVA = "0x44CC210", Offset = "0x44CC210", VA = "0x44CC210")]
 		public EqualInt16()
 		{
 		}
@@ -60,14 +67,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualChar : EqualInstruction
 	{
 		[Token(Token = "0x60006B1")]
-		[Address(RVA = "0x41A7400", Offset = "0x41A7400", VA = "0x41A7400", Slot = "8")]
+		[Address(RVA = "0x44CC500", Offset = "0x44CC500", VA = "0x44CC500", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006B2")]
-		[Address(RVA = "0x41A7120", Offset = "0x41A7120", VA = "0x41A7120")]
+		[Address(RVA = "0x44CC220", Offset = "0x44CC220", VA = "0x44CC220")]
 		public EqualChar()
 		{
 		}
@@ -77,14 +84,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualInt32 : EqualInstruction
 	{
 		[Token(Token = "0x60006B3")]
-		[Address(RVA = "0x41A74C0", Offset = "0x41A74C0", VA = "0x41A74C0", Slot = "8")]
+		[Address(RVA = "0x44CC5C0", Offset = "0x44CC5C0", VA = "0x44CC5C0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006B4")]
-		[Address(RVA = "0x41A7130", Offset = "0x41A7130", VA = "0x41A7130")]
+		[Address(RVA = "0x44CC230", Offset = "0x44CC230", VA = "0x44CC230")]
 		public EqualInt32()
 		{
 		}
@@ -94,14 +101,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualInt64 : EqualInstruction
 	{
 		[Token(Token = "0x60006B5")]
-		[Address(RVA = "0x41A7570", Offset = "0x41A7570", VA = "0x41A7570", Slot = "8")]
+		[Address(RVA = "0x44CC670", Offset = "0x44CC670", VA = "0x44CC670", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006B6")]
-		[Address(RVA = "0x41A7140", Offset = "0x41A7140", VA = "0x41A7140")]
+		[Address(RVA = "0x44CC240", Offset = "0x44CC240", VA = "0x44CC240")]
 		public EqualInt64()
 		{
 		}
@@ -111,14 +118,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualByte : EqualInstruction
 	{
 		[Token(Token = "0x60006B7")]
-		[Address(RVA = "0x41A7620", Offset = "0x41A7620", VA = "0x41A7620", Slot = "8")]
+		[Address(RVA = "0x44CC720", Offset = "0x44CC720", VA = "0x44CC720", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006B8")]
-		[Address(RVA = "0x41A7150", Offset = "0x41A7150", VA = "0x41A7150")]
+		[Address(RVA = "0x44CC250", Offset = "0x44CC250", VA = "0x44CC250")]
 		public EqualByte()
 		{
 		}
@@ -128,14 +135,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualUInt16 : EqualInstruction
 	{
 		[Token(Token = "0x60006B9")]
-		[Address(RVA = "0x41A76E0", Offset = "0x41A76E0", VA = "0x41A76E0", Slot = "8")]
+		[Address(RVA = "0x44CC7E0", Offset = "0x44CC7E0", VA = "0x44CC7E0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006BA")]
-		[Address(RVA = "0x41A7160", Offset = "0x41A7160", VA = "0x41A7160")]
+		[Address(RVA = "0x44CC260", Offset = "0x44CC260", VA = "0x44CC260")]
 		public EqualUInt16()
 		{
 		}
@@ -145,14 +152,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualUInt32 : EqualInstruction
 	{
 		[Token(Token = "0x60006BB")]
-		[Address(RVA = "0x41A77A0", Offset = "0x41A77A0", VA = "0x41A77A0", Slot = "8")]
+		[Address(RVA = "0x44CC8A0", Offset = "0x44CC8A0", VA = "0x44CC8A0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006BC")]
-		[Address(RVA = "0x41A7170", Offset = "0x41A7170", VA = "0x41A7170")]
+		[Address(RVA = "0x44CC270", Offset = "0x44CC270", VA = "0x44CC270")]
 		public EqualUInt32()
 		{
 		}
@@ -162,14 +169,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualUInt64 : EqualInstruction
 	{
 		[Token(Token = "0x60006BD")]
-		[Address(RVA = "0x41A7850", Offset = "0x41A7850", VA = "0x41A7850", Slot = "8")]
+		[Address(RVA = "0x44CC950", Offset = "0x44CC950", VA = "0x44CC950", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006BE")]
-		[Address(RVA = "0x41A7180", Offset = "0x41A7180", VA = "0x41A7180")]
+		[Address(RVA = "0x44CC280", Offset = "0x44CC280", VA = "0x44CC280")]
 		public EqualUInt64()
 		{
 		}
@@ -179,14 +186,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualSingle : EqualInstruction
 	{
 		[Token(Token = "0x60006BF")]
-		[Address(RVA = "0x41A7900", Offset = "0x41A7900", VA = "0x41A7900", Slot = "8")]
+		[Address(RVA = "0x44CCA00", Offset = "0x44CCA00", VA = "0x44CCA00", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006C0")]
-		[Address(RVA = "0x41A7190", Offset = "0x41A7190", VA = "0x41A7190")]
+		[Address(RVA = "0x44CC290", Offset = "0x44CC290", VA = "0x44CC290")]
 		public EqualSingle()
 		{
 		}
@@ -196,14 +203,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualDouble : EqualInstruction
 	{
 		[Token(Token = "0x60006C1")]
-		[Address(RVA = "0x41A79D0", Offset = "0x41A79D0", VA = "0x41A79D0", Slot = "8")]
+		[Address(RVA = "0x44CCAD0", Offset = "0x44CCAD0", VA = "0x44CCAD0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006C2")]
-		[Address(RVA = "0x41A71A0", Offset = "0x41A71A0", VA = "0x41A71A0")]
+		[Address(RVA = "0x44CC2A0", Offset = "0x44CC2A0", VA = "0x44CC2A0")]
 		public EqualDouble()
 		{
 		}
@@ -213,14 +220,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualReference : EqualInstruction
 	{
 		[Token(Token = "0x60006C3")]
-		[Address(RVA = "0x41A7AA0", Offset = "0x41A7AA0", VA = "0x41A7AA0", Slot = "8")]
+		[Address(RVA = "0x44CCBA0", Offset = "0x44CCBA0", VA = "0x44CCBA0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006C4")]
-		[Address(RVA = "0x41A71B0", Offset = "0x41A71B0", VA = "0x41A71B0")]
+		[Address(RVA = "0x44CC2B0", Offset = "0x44CC2B0", VA = "0x44CC2B0")]
 		public EqualReference()
 		{
 		}
@@ -230,14 +237,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualBooleanLiftedToNull : EqualInstruction
 	{
 		[Token(Token = "0x60006C5")]
-		[Address(RVA = "0x41A7AF0", Offset = "0x41A7AF0", VA = "0x41A7AF0", Slot = "8")]
+		[Address(RVA = "0x44CCBF0", Offset = "0x44CCBF0", VA = "0x44CCBF0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006C6")]
-		[Address(RVA = "0x41A7030", Offset = "0x41A7030", VA = "0x41A7030")]
+		[Address(RVA = "0x44CC130", Offset = "0x44CC130", VA = "0x44CC130")]
 		public EqualBooleanLiftedToNull()
 		{
 		}
@@ -247,14 +254,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualSByteLiftedToNull : EqualInstruction
 	{
 		[Token(Token = "0x60006C7")]
-		[Address(RVA = "0x41A7BB0", Offset = "0x41A7BB0", VA = "0x41A7BB0", Slot = "8")]
+		[Address(RVA = "0x44CCCB0", Offset = "0x44CCCB0", VA = "0x44CCCB0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006C8")]
-		[Address(RVA = "0x41A7040", Offset = "0x41A7040", VA = "0x41A7040")]
+		[Address(RVA = "0x44CC140", Offset = "0x44CC140", VA = "0x44CC140")]
 		public EqualSByteLiftedToNull()
 		{
 		}
@@ -264,14 +271,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualInt16LiftedToNull : EqualInstruction
 	{
 		[Token(Token = "0x60006C9")]
-		[Address(RVA = "0x41A7C70", Offset = "0x41A7C70", VA = "0x41A7C70", Slot = "8")]
+		[Address(RVA = "0x44CCD70", Offset = "0x44CCD70", VA = "0x44CCD70", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006CA")]
-		[Address(RVA = "0x41A7050", Offset = "0x41A7050", VA = "0x41A7050")]
+		[Address(RVA = "0x44CC150", Offset = "0x44CC150", VA = "0x44CC150")]
 		public EqualInt16LiftedToNull()
 		{
 		}
@@ -281,14 +288,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualCharLiftedToNull : EqualInstruction
 	{
 		[Token(Token = "0x60006CB")]
-		[Address(RVA = "0x41A7D30", Offset = "0x41A7D30", VA = "0x41A7D30", Slot = "8")]
+		[Address(RVA = "0x44CCE30", Offset = "0x44CCE30", VA = "0x44CCE30", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006CC")]
-		[Address(RVA = "0x41A7060", Offset = "0x41A7060", VA = "0x41A7060")]
+		[Address(RVA = "0x44CC160", Offset = "0x44CC160", VA = "0x44CC160")]
 		public EqualCharLiftedToNull()
 		{
 		}
@@ -298,14 +305,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualInt32LiftedToNull : EqualInstruction
 	{
 		[Token(Token = "0x60006CD")]
-		[Address(RVA = "0x41A7DF0", Offset = "0x41A7DF0", VA = "0x41A7DF0", Slot = "8")]
+		[Address(RVA = "0x44CCEF0", Offset = "0x44CCEF0", VA = "0x44CCEF0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006CE")]
-		[Address(RVA = "0x41A7070", Offset = "0x41A7070", VA = "0x41A7070")]
+		[Address(RVA = "0x44CC170", Offset = "0x44CC170", VA = "0x44CC170")]
 		public EqualInt32LiftedToNull()
 		{
 		}
@@ -315,14 +322,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualInt64LiftedToNull : EqualInstruction
 	{
 		[Token(Token = "0x60006CF")]
-		[Address(RVA = "0x41A7EB0", Offset = "0x41A7EB0", VA = "0x41A7EB0", Slot = "8")]
+		[Address(RVA = "0x44CCFB0", Offset = "0x44CCFB0", VA = "0x44CCFB0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006D0")]
-		[Address(RVA = "0x41A7080", Offset = "0x41A7080", VA = "0x41A7080")]
+		[Address(RVA = "0x44CC180", Offset = "0x44CC180", VA = "0x44CC180")]
 		public EqualInt64LiftedToNull()
 		{
 		}
@@ -332,14 +339,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualByteLiftedToNull : EqualInstruction
 	{
 		[Token(Token = "0x60006D1")]
-		[Address(RVA = "0x41A7F60", Offset = "0x41A7F60", VA = "0x41A7F60", Slot = "8")]
+		[Address(RVA = "0x44CD060", Offset = "0x44CD060", VA = "0x44CD060", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006D2")]
-		[Address(RVA = "0x41A7090", Offset = "0x41A7090", VA = "0x41A7090")]
+		[Address(RVA = "0x44CC190", Offset = "0x44CC190", VA = "0x44CC190")]
 		public EqualByteLiftedToNull()
 		{
 		}
@@ -349,14 +356,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualUInt16LiftedToNull : EqualInstruction
 	{
 		[Token(Token = "0x60006D3")]
-		[Address(RVA = "0x41A8020", Offset = "0x41A8020", VA = "0x41A8020", Slot = "8")]
+		[Address(RVA = "0x44CD120", Offset = "0x44CD120", VA = "0x44CD120", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006D4")]
-		[Address(RVA = "0x41A70A0", Offset = "0x41A70A0", VA = "0x41A70A0")]
+		[Address(RVA = "0x44CC1A0", Offset = "0x44CC1A0", VA = "0x44CC1A0")]
 		public EqualUInt16LiftedToNull()
 		{
 		}
@@ -366,14 +373,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualUInt32LiftedToNull : EqualInstruction
 	{
 		[Token(Token = "0x60006D5")]
-		[Address(RVA = "0x41A80E0", Offset = "0x41A80E0", VA = "0x41A80E0", Slot = "8")]
+		[Address(RVA = "0x44CD1E0", Offset = "0x44CD1E0", VA = "0x44CD1E0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006D6")]
-		[Address(RVA = "0x41A70B0", Offset = "0x41A70B0", VA = "0x41A70B0")]
+		[Address(RVA = "0x44CC1B0", Offset = "0x44CC1B0", VA = "0x44CC1B0")]
 		public EqualUInt32LiftedToNull()
 		{
 		}
@@ -383,14 +390,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualUInt64LiftedToNull : EqualInstruction
 	{
 		[Token(Token = "0x60006D7")]
-		[Address(RVA = "0x41A81A0", Offset = "0x41A81A0", VA = "0x41A81A0", Slot = "8")]
+		[Address(RVA = "0x44CD2A0", Offset = "0x44CD2A0", VA = "0x44CD2A0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006D8")]
-		[Address(RVA = "0x41A70C0", Offset = "0x41A70C0", VA = "0x41A70C0")]
+		[Address(RVA = "0x44CC1C0", Offset = "0x44CC1C0", VA = "0x44CC1C0")]
 		public EqualUInt64LiftedToNull()
 		{
 		}
@@ -400,14 +407,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualSingleLiftedToNull : EqualInstruction
 	{
 		[Token(Token = "0x60006D9")]
-		[Address(RVA = "0x41A8250", Offset = "0x41A8250", VA = "0x41A8250", Slot = "8")]
+		[Address(RVA = "0x44CD350", Offset = "0x44CD350", VA = "0x44CD350", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006DA")]
-		[Address(RVA = "0x41A70D0", Offset = "0x41A70D0", VA = "0x41A70D0")]
+		[Address(RVA = "0x44CC1D0", Offset = "0x44CC1D0", VA = "0x44CC1D0")]
 		public EqualSingleLiftedToNull()
 		{
 		}
@@ -417,14 +424,14 @@ internal abstract class EqualInstruction : Instruction
 	private sealed class EqualDoubleLiftedToNull : EqualInstruction
 	{
 		[Token(Token = "0x60006DB")]
-		[Address(RVA = "0x41A8320", Offset = "0x41A8320", VA = "0x41A8320", Slot = "8")]
+		[Address(RVA = "0x44CD420", Offset = "0x44CD420", VA = "0x44CD420", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
 		[Token(Token = "0x60006DC")]
-		[Address(RVA = "0x41A70E0", Offset = "0x41A70E0", VA = "0x41A70E0")]
+		[Address(RVA = "0x44CC1E0", Offset = "0x44CC1E0", VA = "0x44CC1E0")]
 		public EqualDoubleLiftedToNull()
 		{
 		}
@@ -534,7 +541,7 @@ internal abstract class EqualInstruction : Instruction
 	public override int ConsumedStack
 	{
 		[Token(Token = "0x60006A6")]
-		[Address(RVA = "0x41A6560", Offset = "0x41A6560", VA = "0x41A6560", Slot = "4")]
+		[Address(RVA = "0x44CB660", Offset = "0x44CB660", VA = "0x44CB660", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -545,7 +552,7 @@ internal abstract class EqualInstruction : Instruction
 	public override int ProducedStack
 	{
 		[Token(Token = "0x60006A7")]
-		[Address(RVA = "0x41A6570", Offset = "0x41A6570", VA = "0x41A6570", Slot = "5")]
+		[Address(RVA = "0x44CB670", Offset = "0x44CB670", VA = "0x44CB670", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -556,7 +563,7 @@ internal abstract class EqualInstruction : Instruction
 	public override string InstructionName
 	{
 		[Token(Token = "0x60006A8")]
-		[Address(RVA = "0x41A6580", Offset = "0x41A6580", VA = "0x41A6580", Slot = "9")]
+		[Address(RVA = "0x44CB680", Offset = "0x44CB680", VA = "0x44CB680", Slot = "9")]
 		get
 		{
 			return null;
@@ -564,13 +571,13 @@ internal abstract class EqualInstruction : Instruction
 	}
 
 	[Token(Token = "0x60006A9")]
-	[Address(RVA = "0x41A65B0", Offset = "0x41A65B0", VA = "0x41A65B0")]
+	[Address(RVA = "0x44CB6B0", Offset = "0x44CB6B0", VA = "0x44CB6B0")]
 	private EqualInstruction()
 	{
 	}
 
 	[Token(Token = "0x60006AA")]
-	[Address(RVA = "0x41A65C0", Offset = "0x41A65C0", VA = "0x41A65C0")]
+	[Address(RVA = "0x44CB6C0", Offset = "0x44CB6C0", VA = "0x44CB6C0")]
 	public static Instruction Create(Type type, bool liftedToNull)
 	{
 		return null;

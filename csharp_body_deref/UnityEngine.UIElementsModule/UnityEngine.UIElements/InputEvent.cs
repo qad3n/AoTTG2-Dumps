@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.InputEvent
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -10,7 +17,7 @@ public class InputEvent : EventBase<InputEvent>
 	protected string previousData
 	{
 		[Token(Token = "0x6000AD3")]
-		[Address(RVA = "0x4D092A0", Offset = "0x4D092A0", VA = "0x4D092A0")]
+		[Address(RVA = "0x5030BD0", Offset = "0x5030BD0", VA = "0x5030BD0")]
 		[CompilerGenerated]
 		set
 		{
@@ -21,7 +28,7 @@ public class InputEvent : EventBase<InputEvent>
 	protected string newData
 	{
 		[Token(Token = "0x6000AD4")]
-		[Address(RVA = "0x4D092B0", Offset = "0x4D092B0", VA = "0x4D092B0")]
+		[Address(RVA = "0x5030BE0", Offset = "0x5030BE0", VA = "0x5030BE0")]
 		[CompilerGenerated]
 		set
 		{
@@ -29,32 +36,32 @@ public class InputEvent : EventBase<InputEvent>
 	}
 
 	[Token(Token = "0x6000AD2")]
-	[Address(RVA = "0x4D091D0", Offset = "0x4D091D0", VA = "0x4D091D0")]
+	[Address(RVA = "0x5030B00", Offset = "0x5030B00", VA = "0x5030B00")]
 	static InputEvent()
 	{
 	}
 
 	[Token(Token = "0x6000AD5")]
-	[Address(RVA = "0x4D092C0", Offset = "0x4D092C0", VA = "0x4D092C0", Slot = "13")]
+	[Address(RVA = "0x5030BF0", Offset = "0x5030BF0", VA = "0x5030BF0", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
 	[Token(Token = "0x6000AD6")]
-	[Address(RVA = "0x4D09330", Offset = "0x4D09330", VA = "0x4D09330")]
+	[Address(RVA = "0x5030C60", Offset = "0x5030C60", VA = "0x5030C60")]
 	private void LocalInit()
 	{
 	}
 
 	[Token(Token = "0x6000AD7")]
-	[Address(RVA = "0x4D09370", Offset = "0x4D09370", VA = "0x4D09370")]
+	[Address(RVA = "0x5030CA0", Offset = "0x5030CA0", VA = "0x5030CA0")]
 	public static InputEvent GetPooled(string previousData, string newData)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AD8")]
-	[Address(RVA = "0x4D09410", Offset = "0x4D09410", VA = "0x4D09410")]
+	[Address(RVA = "0x5030D40", Offset = "0x5030D40", VA = "0x5030D40")]
 	public InputEvent()
 	{
 	}

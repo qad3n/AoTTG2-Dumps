@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Runtime.Remoting.Messaging.AsyncResult
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Threading;
@@ -78,7 +85,7 @@ public class AsyncResult : IAsyncResult, IMessageSink, System.Threading.IThreadP
 	public virtual object AsyncState
 	{
 		[Token(Token = "0x6001E09")]
-		[Address(RVA = "0x4EA0D30", Offset = "0x4EA0D30", VA = "0x4EA0D30", Slot = "12")]
+		[Address(RVA = "0x3B86850", Offset = "0x3B86850", VA = "0x3B86850", Slot = "12")]
 		get
 		{
 			return null;
@@ -89,7 +96,7 @@ public class AsyncResult : IAsyncResult, IMessageSink, System.Threading.IThreadP
 	public virtual WaitHandle AsyncWaitHandle
 	{
 		[Token(Token = "0x6001E0A")]
-		[Address(RVA = "0x4EA0D40", Offset = "0x4EA0D40", VA = "0x4EA0D40", Slot = "13")]
+		[Address(RVA = "0x3B86860", Offset = "0x3B86860", VA = "0x3B86860", Slot = "13")]
 		get
 		{
 			return null;
@@ -100,7 +107,7 @@ public class AsyncResult : IAsyncResult, IMessageSink, System.Threading.IThreadP
 	public virtual bool CompletedSynchronously
 	{
 		[Token(Token = "0x6001E0B")]
-		[Address(RVA = "0x4EA0E70", Offset = "0x4EA0E70", VA = "0x4EA0E70", Slot = "14")]
+		[Address(RVA = "0x3B86990", Offset = "0x3B86990", VA = "0x3B86990", Slot = "14")]
 		get
 		{
 			return default(bool);
@@ -111,7 +118,7 @@ public class AsyncResult : IAsyncResult, IMessageSink, System.Threading.IThreadP
 	public virtual bool IsCompleted
 	{
 		[Token(Token = "0x6001E0C")]
-		[Address(RVA = "0x4EA0E80", Offset = "0x4EA0E80", VA = "0x4EA0E80", Slot = "15")]
+		[Address(RVA = "0x3B869A0", Offset = "0x3B869A0", VA = "0x3B869A0", Slot = "15")]
 		get
 		{
 			return default(bool);
@@ -122,13 +129,13 @@ public class AsyncResult : IAsyncResult, IMessageSink, System.Threading.IThreadP
 	public bool EndInvokeCalled
 	{
 		[Token(Token = "0x6001E0D")]
-		[Address(RVA = "0x4EA0E90", Offset = "0x4EA0E90", VA = "0x4EA0E90")]
+		[Address(RVA = "0x3B869B0", Offset = "0x3B869B0", VA = "0x3B869B0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6001E0E")]
-		[Address(RVA = "0x4EA0EA0", Offset = "0x4EA0EA0", VA = "0x4EA0EA0")]
+		[Address(RVA = "0x3B869C0", Offset = "0x3B869C0", VA = "0x3B869C0")]
 		set
 		{
 		}
@@ -138,7 +145,7 @@ public class AsyncResult : IAsyncResult, IMessageSink, System.Threading.IThreadP
 	public virtual object AsyncDelegate
 	{
 		[Token(Token = "0x6001E0F")]
-		[Address(RVA = "0x4EA0EB0", Offset = "0x4EA0EB0", VA = "0x4EA0EB0", Slot = "16")]
+		[Address(RVA = "0x3B869D0", Offset = "0x3B869D0", VA = "0x3B869D0", Slot = "16")]
 		get
 		{
 			return null;
@@ -149,7 +156,7 @@ public class AsyncResult : IAsyncResult, IMessageSink, System.Threading.IThreadP
 	public IMessageSink NextSink
 	{
 		[Token(Token = "0x6001E10")]
-		[Address(RVA = "0x4EA0EC0", Offset = "0x4EA0EC0", VA = "0x4EA0EC0", Slot = "17")]
+		[Address(RVA = "0x3B869E0", Offset = "0x3B869E0", VA = "0x3B869E0", Slot = "17")]
 		get
 		{
 			return null;
@@ -160,78 +167,78 @@ public class AsyncResult : IAsyncResult, IMessageSink, System.Threading.IThreadP
 	internal System.Runtime.Remoting.Messaging.MonoMethodMessage CallMessage
 	{
 		[Token(Token = "0x6001E17")]
-		[Address(RVA = "0x4EA10D0", Offset = "0x4EA10D0", VA = "0x4EA10D0")]
+		[Address(RVA = "0x3B86BF0", Offset = "0x3B86BF0", VA = "0x3B86BF0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001E18")]
-		[Address(RVA = "0x4EA10E0", Offset = "0x4EA10E0", VA = "0x4EA10E0")]
+		[Address(RVA = "0x3B86C00", Offset = "0x3B86C00", VA = "0x3B86C00")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001E08")]
-	[Address(RVA = "0x4EA0D20", Offset = "0x4EA0D20", VA = "0x4EA0D20")]
+	[Address(RVA = "0x3B86840", Offset = "0x3B86840", VA = "0x3B86840")]
 	internal AsyncResult()
 	{
 	}
 
 	[Token(Token = "0x6001E11")]
-	[Address(RVA = "0x4EA0ED0", Offset = "0x4EA0ED0", VA = "0x4EA0ED0", Slot = "18")]
+	[Address(RVA = "0x3B869F0", Offset = "0x3B869F0", VA = "0x3B869F0", Slot = "18")]
 	public virtual IMessageCtrl AsyncProcessMessage(IMessage msg, IMessageSink replySink)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001E12")]
-	[Address(RVA = "0x4EA0F10", Offset = "0x4EA0F10", VA = "0x4EA0F10", Slot = "19")]
+	[Address(RVA = "0x3B86A30", Offset = "0x3B86A30", VA = "0x3B86A30", Slot = "19")]
 	public virtual IMessage GetReplyMessage()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001E13")]
-	[Address(RVA = "0x4EA0F20", Offset = "0x4EA0F20", VA = "0x4EA0F20", Slot = "20")]
+	[Address(RVA = "0x3B86A40", Offset = "0x3B86A40", VA = "0x3B86A40", Slot = "20")]
 	public virtual void SetMessageCtrl(IMessageCtrl mc)
 	{
 	}
 
 	[Token(Token = "0x6001E14")]
-	[Address(RVA = "0x4EA0F30", Offset = "0x4EA0F30", VA = "0x4EA0F30")]
+	[Address(RVA = "0x3B86A50", Offset = "0x3B86A50", VA = "0x3B86A50")]
 	internal void SetCompletedSynchronously(bool completed)
 	{
 	}
 
 	[Token(Token = "0x6001E15")]
-	[Address(RVA = "0x4E8D9B0", Offset = "0x4E8D9B0", VA = "0x4E8D9B0")]
+	[Address(RVA = "0x3B734D0", Offset = "0x3B734D0", VA = "0x3B734D0")]
 	internal IMessage EndInvoke()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001E16")]
-	[Address(RVA = "0x4EA0F40", Offset = "0x4EA0F40", VA = "0x4EA0F40", Slot = "21")]
+	[Address(RVA = "0x3B86A60", Offset = "0x3B86A60", VA = "0x3B86A60", Slot = "21")]
 	public virtual IMessage SyncProcessMessage(IMessage msg)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001E19")]
-	[Address(RVA = "0x4EA10F0", Offset = "0x4EA10F0", VA = "0x4EA10F0", Slot = "10")]
+	[Address(RVA = "0x3B86C10", Offset = "0x3B86C10", VA = "0x3B86C10", Slot = "10")]
 	private void System_002EThreading_002EIThreadPoolWorkItem_002EExecuteWorkItem()
 	{
 	}
 
 	[Token(Token = "0x6001E1A")]
-	[Address(RVA = "0x4EA1110", Offset = "0x4EA1110", VA = "0x4EA1110", Slot = "11")]
+	[Address(RVA = "0x3B86C30", Offset = "0x3B86C30", VA = "0x3B86C30", Slot = "11")]
 	private void System_002EThreading_002EIThreadPoolWorkItem_002EMarkAborted(ThreadAbortException tae)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6001E1B")]
-	[Address(RVA = "0x4EA1100", Offset = "0x4EA1100", VA = "0x4EA1100")]
+	[Address(RVA = "0x3B86C20", Offset = "0x3B86C20", VA = "0x3B86C20")]
 	internal extern object Invoke();
 }

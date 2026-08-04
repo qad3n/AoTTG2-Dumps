@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.Security.Cryptography.AsymmetricSignatureFormatter
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
@@ -8,7 +15,7 @@ namespace System.Security.Cryptography;
 public abstract class AsymmetricSignatureFormatter
 {
 	[Token(Token = "0x600189D")]
-	[Address(RVA = "0x4E46CE0", Offset = "0x4E46CE0", VA = "0x4E46CE0")]
+	[Address(RVA = "0x3B2C800", Offset = "0x3B2C800", VA = "0x3B2C800")]
 	protected AsymmetricSignatureFormatter()
 	{
 	}
@@ -20,7 +27,7 @@ public abstract class AsymmetricSignatureFormatter
 	public abstract void SetHashAlgorithm(string strName);
 
 	[Token(Token = "0x60018A0")]
-	[Address(RVA = "0x4E46CF0", Offset = "0x4E46CF0", VA = "0x4E46CF0", Slot = "6")]
+	[Address(RVA = "0x3B2C810", Offset = "0x3B2C810", VA = "0x3B2C810", Slot = "6")]
 	public virtual byte[] CreateSignature(HashAlgorithm hash)
 	{
 		return null;

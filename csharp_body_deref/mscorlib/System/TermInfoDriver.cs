@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: System.TermInfoDriver
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Collections;
 using System.IO;
 using System.Runtime.InteropServices;
@@ -188,7 +195,7 @@ internal class TermInfoDriver : System.IConsoleDriver
 	public bool Initialized
 	{
 		[Token(Token = "0x6001022")]
-		[Address(RVA = "0x502DE50", Offset = "0x502DE50", VA = "0x502DE50", Slot = "5")]
+		[Address(RVA = "0x3D13970", Offset = "0x3D13970", VA = "0x3D13970", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -199,7 +206,7 @@ internal class TermInfoDriver : System.IConsoleDriver
 	public int WindowHeight
 	{
 		[Token(Token = "0x600102B")]
-		[Address(RVA = "0x502F2E0", Offset = "0x502F2E0", VA = "0x502F2E0", Slot = "7")]
+		[Address(RVA = "0x3D14E00", Offset = "0x3D14E00", VA = "0x3D14E00", Slot = "7")]
 		get
 		{
 			return default(int);
@@ -210,7 +217,7 @@ internal class TermInfoDriver : System.IConsoleDriver
 	public int WindowWidth
 	{
 		[Token(Token = "0x600102C")]
-		[Address(RVA = "0x502F2B0", Offset = "0x502F2B0", VA = "0x502F2B0", Slot = "8")]
+		[Address(RVA = "0x3D14DD0", Offset = "0x3D14DD0", VA = "0x3D14DD0", Slot = "8")]
 		get
 		{
 			return default(int);
@@ -218,194 +225,194 @@ internal class TermInfoDriver : System.IConsoleDriver
 	}
 
 	[Token(Token = "0x600101E")]
-	[Address(RVA = "0x502D7F0", Offset = "0x502D7F0", VA = "0x502D7F0")]
+	[Address(RVA = "0x3D13310", Offset = "0x3D13310", VA = "0x3D13310")]
 	private static string TryTermInfoDir(string dir, string term)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600101F")]
-	[Address(RVA = "0x502D8F0", Offset = "0x502D8F0", VA = "0x502D8F0")]
+	[Address(RVA = "0x3D13410", Offset = "0x3D13410", VA = "0x3D13410")]
 	private static string SearchTerminfo(string term)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001020")]
-	[Address(RVA = "0x502DA70", Offset = "0x502DA70", VA = "0x502DA70")]
+	[Address(RVA = "0x3D13590", Offset = "0x3D13590", VA = "0x3D13590")]
 	private void WriteConsole(string str)
 	{
 	}
 
 	[Token(Token = "0x6001021")]
-	[Address(RVA = "0x50243E0", Offset = "0x50243E0", VA = "0x50243E0")]
+	[Address(RVA = "0x3D09F00", Offset = "0x3D09F00", VA = "0x3D09F00")]
 	public TermInfoDriver(string term)
 	{
 	}
 
 	[Token(Token = "0x6001023")]
-	[Address(RVA = "0x502DE60", Offset = "0x502DE60", VA = "0x502DE60", Slot = "6")]
+	[Address(RVA = "0x3D13980", Offset = "0x3D13980", VA = "0x3D13980", Slot = "6")]
 	public void Init()
 	{
 	}
 
 	[Token(Token = "0x6001024")]
-	[Address(RVA = "0x502F220", Offset = "0x502F220", VA = "0x502F220")]
+	[Address(RVA = "0x3D14D40", Offset = "0x3D14D40", VA = "0x3D14D40")]
 	private void IncrementX()
 	{
 	}
 
 	[Token(Token = "0x6001025")]
-	[Address(RVA = "0x502F310", Offset = "0x502F310", VA = "0x502F310")]
+	[Address(RVA = "0x3D14E30", Offset = "0x3D14E30", VA = "0x3D14E30")]
 	public void WriteSpecialKey(ConsoleKeyInfo key)
 	{
 	}
 
 	[Token(Token = "0x6001026")]
-	[Address(RVA = "0x502F690", Offset = "0x502F690", VA = "0x502F690")]
+	[Address(RVA = "0x3D151B0", Offset = "0x3D151B0", VA = "0x3D151B0")]
 	public void WriteSpecialKey(char c)
 	{
 	}
 
 	[Token(Token = "0x6001027")]
-	[Address(RVA = "0x502F7B0", Offset = "0x502F7B0", VA = "0x502F7B0")]
+	[Address(RVA = "0x3D152D0", Offset = "0x3D152D0", VA = "0x3D152D0")]
 	public bool IsSpecialKey(ConsoleKeyInfo key)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001028")]
-	[Address(RVA = "0x502F810", Offset = "0x502F810", VA = "0x502F810")]
+	[Address(RVA = "0x3D15330", Offset = "0x3D15330", VA = "0x3D15330")]
 	public bool IsSpecialKey(char c)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001029")]
-	[Address(RVA = "0x502EF40", Offset = "0x502EF40", VA = "0x502EF40")]
+	[Address(RVA = "0x3D14A60", Offset = "0x3D14A60", VA = "0x3D14A60")]
 	private void GetCursorPosition()
 	{
 	}
 
 	[Token(Token = "0x600102A")]
-	[Address(RVA = "0x502F960", Offset = "0x502F960", VA = "0x502F960")]
+	[Address(RVA = "0x3D15480", Offset = "0x3D15480", VA = "0x3D15480")]
 	private void CheckWindowDimensions()
 	{
 	}
 
 	[Token(Token = "0x600102D")]
-	[Address(RVA = "0x502F880", Offset = "0x502F880", VA = "0x502F880")]
+	[Address(RVA = "0x3D153A0", Offset = "0x3D153A0", VA = "0x3D153A0")]
 	private void AddToBuffer(int b)
 	{
 	}
 
 	[Token(Token = "0x600102E")]
-	[Address(RVA = "0x502FBB0", Offset = "0x502FBB0", VA = "0x502FBB0")]
+	[Address(RVA = "0x3D156D0", Offset = "0x3D156D0", VA = "0x3D156D0")]
 	private void AdjustBuffer()
 	{
 	}
 
 	[Token(Token = "0x600102F")]
-	[Address(RVA = "0x502F6B0", Offset = "0x502F6B0", VA = "0x502F6B0")]
+	[Address(RVA = "0x3D151D0", Offset = "0x3D151D0", VA = "0x3D151D0")]
 	private ConsoleKeyInfo CreateKeyInfoFromInt(int n, bool alt)
 	{
 		return default(ConsoleKeyInfo);
 	}
 
 	[Token(Token = "0x6001030")]
-	[Address(RVA = "0x502FBD0", Offset = "0x502FBD0", VA = "0x502FBD0")]
+	[Address(RVA = "0x3D156F0", Offset = "0x3D156F0", VA = "0x3D156F0")]
 	private object GetKeyFromBuffer(bool cooked)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001031")]
-	[Address(RVA = "0x50304E0", Offset = "0x50304E0", VA = "0x50304E0")]
+	[Address(RVA = "0x3D16000", Offset = "0x3D16000", VA = "0x3D16000")]
 	private ConsoleKeyInfo ReadKeyInternal(out bool fresh)
 	{
 		return default(ConsoleKeyInfo);
 	}
 
 	[Token(Token = "0x6001032")]
-	[Address(RVA = "0x50308A0", Offset = "0x50308A0", VA = "0x50308A0")]
+	[Address(RVA = "0x3D163C0", Offset = "0x3D163C0", VA = "0x3D163C0")]
 	private bool InputPending()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001033")]
-	[Address(RVA = "0x50308D0", Offset = "0x50308D0", VA = "0x50308D0")]
+	[Address(RVA = "0x3D163F0", Offset = "0x3D163F0", VA = "0x3D163F0")]
 	private void QueueEcho(char c)
 	{
 	}
 
 	[Token(Token = "0x6001034")]
-	[Address(RVA = "0x50309F0", Offset = "0x50309F0", VA = "0x50309F0")]
+	[Address(RVA = "0x3D16510", Offset = "0x3D16510", VA = "0x3D16510")]
 	private void Echo(ConsoleKeyInfo key)
 	{
 	}
 
 	[Token(Token = "0x6001035")]
-	[Address(RVA = "0x5030AA0", Offset = "0x5030AA0", VA = "0x5030AA0")]
+	[Address(RVA = "0x3D165C0", Offset = "0x3D165C0", VA = "0x3D165C0")]
 	private void EchoFlush()
 	{
 	}
 
 	[Token(Token = "0x6001036")]
-	[Address(RVA = "0x5030AE0", Offset = "0x5030AE0", VA = "0x5030AE0")]
+	[Address(RVA = "0x3D16600", Offset = "0x3D16600", VA = "0x3D16600")]
 	public int Read([In][Out] char[] dest, int index, int count)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001037")]
-	[Address(RVA = "0x5030EE0", Offset = "0x5030EE0", VA = "0x5030EE0", Slot = "4")]
+	[Address(RVA = "0x3D16A00", Offset = "0x3D16A00", VA = "0x3D16A00", Slot = "4")]
 	public ConsoleKeyInfo ReadKey(bool intercept)
 	{
 		return default(ConsoleKeyInfo);
 	}
 
 	[Token(Token = "0x6001038")]
-	[Address(RVA = "0x5030F70", Offset = "0x5030F70", VA = "0x5030F70", Slot = "9")]
+	[Address(RVA = "0x3D16A90", Offset = "0x3D16A90", VA = "0x3D16A90", Slot = "9")]
 	public string ReadLine()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001039")]
-	[Address(RVA = "0x5031200", Offset = "0x5031200", VA = "0x5031200")]
+	[Address(RVA = "0x3D16D20", Offset = "0x3D16D20", VA = "0x3D16D20")]
 	public string ReadToEnd()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600103A")]
-	[Address(RVA = "0x5030F80", Offset = "0x5030F80", VA = "0x5030F80")]
+	[Address(RVA = "0x3D16AA0", Offset = "0x3D16AA0", VA = "0x3D16AA0")]
 	private string ReadUntilConditionInternal(bool haltOnNewLine)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600103B")]
-	[Address(RVA = "0x502F450", Offset = "0x502F450", VA = "0x502F450", Slot = "10")]
+	[Address(RVA = "0x3D14F70", Offset = "0x3D14F70", VA = "0x3D14F70", Slot = "10")]
 	public void SetCursorPosition(int left, int top)
 	{
 	}
 
 	[Token(Token = "0x600103C")]
-	[Address(RVA = "0x5031400", Offset = "0x5031400", VA = "0x5031400")]
+	[Address(RVA = "0x3D16F20", Offset = "0x3D16F20", VA = "0x3D16F20")]
 	private void CreateKeyMap()
 	{
 	}
 
 	[Token(Token = "0x600103D")]
-	[Address(RVA = "0x50306E0", Offset = "0x50306E0", VA = "0x50306E0")]
+	[Address(RVA = "0x3D16200", Offset = "0x3D16200", VA = "0x3D16200")]
 	private void InitKeys()
 	{
 	}
 
 	[Token(Token = "0x600103E")]
-	[Address(RVA = "0x5033D80", Offset = "0x5033D80", VA = "0x5033D80")]
+	[Address(RVA = "0x3D198A0", Offset = "0x3D198A0", VA = "0x3D198A0")]
 	private void AddStringMapping(System.TermInfoStrings s)
 	{
 	}

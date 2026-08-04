@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.UIElements.ReusableTreeViewItem
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -51,7 +58,7 @@ internal class ReusableTreeViewItem : ReusableCollectionItem
 	public override VisualElement rootElement
 	{
 		[Token(Token = "0x60001CF")]
-		[Address(RVA = "0x4BF7370", Offset = "0x4BF7370", VA = "0x4BF7370", Slot = "4")]
+		[Address(RVA = "0x4F1ECA0", Offset = "0x4F1ECA0", VA = "0x4F1ECA0", Slot = "4")]
 		get
 		{
 			return null;
@@ -62,13 +69,13 @@ internal class ReusableTreeViewItem : ReusableCollectionItem
 	public event Action<PointerUpEvent> onPointerUp
 	{
 		[Token(Token = "0x60001D0")]
-		[Address(RVA = "0x4BEF860", Offset = "0x4BEF860", VA = "0x4BEF860")]
+		[Address(RVA = "0x4F17190", Offset = "0x4F17190", VA = "0x4F17190")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60001D1")]
-		[Address(RVA = "0x4BEF6C0", Offset = "0x4BEF6C0", VA = "0x4BEF6C0")]
+		[Address(RVA = "0x4F16FF0", Offset = "0x4F16FF0", VA = "0x4F16FF0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -79,13 +86,13 @@ internal class ReusableTreeViewItem : ReusableCollectionItem
 	public event Action<ChangeEvent<bool>> onToggleValueChanged
 	{
 		[Token(Token = "0x60001D2")]
-		[Address(RVA = "0x4BEF910", Offset = "0x4BEF910", VA = "0x4BEF910")]
+		[Address(RVA = "0x4F17240", Offset = "0x4F17240", VA = "0x4F17240")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x60001D3")]
-		[Address(RVA = "0x4BEF770", Offset = "0x4BEF770", VA = "0x4BEF770")]
+		[Address(RVA = "0x4F170A0", Offset = "0x4F170A0", VA = "0x4F170A0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -93,73 +100,73 @@ internal class ReusableTreeViewItem : ReusableCollectionItem
 	}
 
 	[Token(Token = "0x60001D4")]
-	[Address(RVA = "0x4BF71D0", Offset = "0x4BF71D0", VA = "0x4BF71D0")]
+	[Address(RVA = "0x4F1EB00", Offset = "0x4F1EB00", VA = "0x4F1EB00")]
 	public ReusableTreeViewItem()
 	{
 	}
 
 	[Token(Token = "0x60001D5")]
-	[Address(RVA = "0x4BF7380", Offset = "0x4BF7380", VA = "0x4BF7380", Slot = "5")]
+	[Address(RVA = "0x4F1ECB0", Offset = "0x4F1ECB0", VA = "0x4F1ECB0", Slot = "5")]
 	public override void Init(VisualElement item)
 	{
 	}
 
 	[Token(Token = "0x60001D6")]
-	[Address(RVA = "0x4BF6C20", Offset = "0x4BF6C20", VA = "0x4BF6C20")]
+	[Address(RVA = "0x4F1E550", Offset = "0x4F1E550", VA = "0x4F1E550")]
 	protected void InitExpandHierarchy(VisualElement root, VisualElement item)
 	{
 	}
 
 	[Token(Token = "0x60001D7")]
-	[Address(RVA = "0x4BF7460", Offset = "0x4BF7460", VA = "0x4BF7460", Slot = "6")]
+	[Address(RVA = "0x4F1ED90", Offset = "0x4F1ED90", VA = "0x4F1ED90", Slot = "6")]
 	public override void PreAttachElement()
 	{
 	}
 
 	[Token(Token = "0x60001D8")]
-	[Address(RVA = "0x4BF7610", Offset = "0x4BF7610", VA = "0x4BF7610", Slot = "7")]
+	[Address(RVA = "0x4F1EF40", Offset = "0x4F1EF40", VA = "0x4F1EF40", Slot = "7")]
 	public override void DetachElement()
 	{
 	}
 
 	[Token(Token = "0x60001D9")]
-	[Address(RVA = "0x4BEF2B0", Offset = "0x4BEF2B0", VA = "0x4BEF2B0")]
+	[Address(RVA = "0x4F16BE0", Offset = "0x4F16BE0", VA = "0x4F16BE0")]
 	public void Indent(int depth)
 	{
 	}
 
 	[Token(Token = "0x60001DA")]
-	[Address(RVA = "0x4BEF380", Offset = "0x4BEF380", VA = "0x4BEF380")]
+	[Address(RVA = "0x4F16CB0", Offset = "0x4F16CB0", VA = "0x4F16CB0")]
 	public void SetExpandedWithoutNotify(bool expanded)
 	{
 	}
 
 	[Token(Token = "0x60001DB")]
-	[Address(RVA = "0x4BEF460", Offset = "0x4BEF460", VA = "0x4BEF460")]
+	[Address(RVA = "0x4F16D90", Offset = "0x4F16D90", VA = "0x4F16D90")]
 	public void SetToggleVisibility(bool visible)
 	{
 	}
 
 	[Token(Token = "0x60001DC")]
-	[Address(RVA = "0x4BF78F0", Offset = "0x4BF78F0", VA = "0x4BF78F0")]
+	[Address(RVA = "0x4F1F220", Offset = "0x4F1F220", VA = "0x4F1F220")]
 	private void OnToggleGeometryChanged(GeometryChangedEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60001DD")]
-	[Address(RVA = "0x4BF77C0", Offset = "0x4BF77C0", VA = "0x4BF77C0")]
+	[Address(RVA = "0x4F1F0F0", Offset = "0x4F1F0F0", VA = "0x4F1F0F0")]
 	private void UpdateIndentLayout()
 	{
 	}
 
 	[Token(Token = "0x60001DE")]
-	[Address(RVA = "0x4BF7B60", Offset = "0x4BF7B60", VA = "0x4BF7B60")]
+	[Address(RVA = "0x4F1F490", Offset = "0x4F1F490", VA = "0x4F1F490")]
 	private void OnPointerUp(PointerUpEvent evt)
 	{
 	}
 
 	[Token(Token = "0x60001DF")]
-	[Address(RVA = "0x4BF7B80", Offset = "0x4BF7B80", VA = "0x4BF7B80")]
+	[Address(RVA = "0x4F1F4B0", Offset = "0x4F1F4B0", VA = "0x4F1F4B0")]
 	private void OnToggleValueChanged(ChangeEvent<bool> evt)
 	{
 	}

@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.RefreshRate
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
@@ -22,7 +29,7 @@ public struct RefreshRate : IEquatable<RefreshRate>, IComparable<RefreshRate>
 	{
 		[MethodImpl((MethodImplOptions)256)]
 		[Token(Token = "0x6000313")]
-		[Address(RVA = "0x4A98EE0", Offset = "0x4A98EE0", VA = "0x4A98EE0")]
+		[Address(RVA = "0x4DC0700", Offset = "0x4DC0700", VA = "0x4DC0700")]
 		get
 		{
 			return default(double);
@@ -31,7 +38,7 @@ public struct RefreshRate : IEquatable<RefreshRate>, IComparable<RefreshRate>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000314")]
-	[Address(RVA = "0x4A98F00", Offset = "0x4A98F00", VA = "0x4A98F00", Slot = "4")]
+	[Address(RVA = "0x4DC0720", Offset = "0x4DC0720", VA = "0x4DC0720", Slot = "4")]
 	public bool Equals(RefreshRate other)
 	{
 		return default(bool);
@@ -39,14 +46,14 @@ public struct RefreshRate : IEquatable<RefreshRate>, IComparable<RefreshRate>
 
 	[MethodImpl((MethodImplOptions)256)]
 	[Token(Token = "0x6000315")]
-	[Address(RVA = "0x4A98F30", Offset = "0x4A98F30", VA = "0x4A98F30", Slot = "5")]
+	[Address(RVA = "0x4DC0750", Offset = "0x4DC0750", VA = "0x4DC0750", Slot = "5")]
 	public int CompareTo(RefreshRate other)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000316")]
-	[Address(RVA = "0x4A98F80", Offset = "0x4A98F80", VA = "0x4A98F80", Slot = "3")]
+	[Address(RVA = "0x4DC07A0", Offset = "0x4DC07A0", VA = "0x4DC07A0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

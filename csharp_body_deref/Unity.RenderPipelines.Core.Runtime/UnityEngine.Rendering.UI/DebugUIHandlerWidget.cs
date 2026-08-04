@@ -1,3 +1,10 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: UnityEngine.Rendering.UI.DebugUIHandlerWidget
+// Update status: unchanged since the previous dump
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
@@ -24,14 +31,14 @@ public class DebugUIHandlerWidget : MonoBehaviour
 	public DebugUIHandlerWidget parentUIHandler
 	{
 		[Token(Token = "0x6000F6D")]
-		[Address(RVA = "0x48F5870", Offset = "0x48F5870", VA = "0x48F5870")]
+		[Address(RVA = "0x4C1A8E0", Offset = "0x4C1A8E0", VA = "0x4C1A8E0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F6E")]
-		[Address(RVA = "0x48F5880", Offset = "0x48F5880", VA = "0x48F5880")]
+		[Address(RVA = "0x4C1A8F0", Offset = "0x4C1A8F0", VA = "0x4C1A8F0")]
 		[CompilerGenerated]
 		set
 		{
@@ -42,14 +49,14 @@ public class DebugUIHandlerWidget : MonoBehaviour
 	public DebugUIHandlerWidget previousUIHandler
 	{
 		[Token(Token = "0x6000F6F")]
-		[Address(RVA = "0x48F5890", Offset = "0x48F5890", VA = "0x48F5890")]
+		[Address(RVA = "0x4C1A900", Offset = "0x4C1A900", VA = "0x4C1A900")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F70")]
-		[Address(RVA = "0x48F58A0", Offset = "0x48F58A0", VA = "0x48F58A0")]
+		[Address(RVA = "0x4C1A910", Offset = "0x4C1A910", VA = "0x4C1A910")]
 		[CompilerGenerated]
 		set
 		{
@@ -60,14 +67,14 @@ public class DebugUIHandlerWidget : MonoBehaviour
 	public DebugUIHandlerWidget nextUIHandler
 	{
 		[Token(Token = "0x6000F71")]
-		[Address(RVA = "0x48F58B0", Offset = "0x48F58B0", VA = "0x48F58B0")]
+		[Address(RVA = "0x4C1A920", Offset = "0x4C1A920", VA = "0x4C1A920")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F72")]
-		[Address(RVA = "0x48F58C0", Offset = "0x48F58C0", VA = "0x48F58C0")]
+		[Address(RVA = "0x4C1A930", Offset = "0x4C1A930", VA = "0x4C1A930")]
 		[CompilerGenerated]
 		set
 		{
@@ -75,19 +82,19 @@ public class DebugUIHandlerWidget : MonoBehaviour
 	}
 
 	[Token(Token = "0x6000F73")]
-	[Address(RVA = "0x48F58D0", Offset = "0x48F58D0", VA = "0x48F58D0", Slot = "4")]
+	[Address(RVA = "0x4C1A940", Offset = "0x4C1A940", VA = "0x4C1A940", Slot = "4")]
 	protected virtual void OnEnable()
 	{
 	}
 
 	[Token(Token = "0x6000F74")]
-	[Address(RVA = "0x48F58E0", Offset = "0x48F58E0", VA = "0x48F58E0", Slot = "5")]
+	[Address(RVA = "0x4C1A950", Offset = "0x4C1A950", VA = "0x4C1A950", Slot = "5")]
 	internal virtual void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
 	[Token(Token = "0x6000F75")]
-	[Address(RVA = "0x48F58F0", Offset = "0x48F58F0", VA = "0x48F58F0")]
+	[Address(RVA = "0x4C1A960", Offset = "0x4C1A960", VA = "0x4C1A960")]
 	internal DebugUI.Widget GetWidget()
 	{
 		return null;
@@ -100,52 +107,52 @@ public class DebugUIHandlerWidget : MonoBehaviour
 	}
 
 	[Token(Token = "0x6000F77")]
-	[Address(RVA = "0x48F5900", Offset = "0x48F5900", VA = "0x48F5900", Slot = "6")]
+	[Address(RVA = "0x4C1A970", Offset = "0x4C1A970", VA = "0x4C1A970", Slot = "6")]
 	public virtual bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F78")]
-	[Address(RVA = "0x48F5910", Offset = "0x48F5910", VA = "0x48F5910", Slot = "7")]
+	[Address(RVA = "0x4C1A980", Offset = "0x4C1A980", VA = "0x4C1A980", Slot = "7")]
 	public virtual void OnDeselection()
 	{
 	}
 
 	[Token(Token = "0x6000F79")]
-	[Address(RVA = "0x48F5920", Offset = "0x48F5920", VA = "0x48F5920", Slot = "8")]
+	[Address(RVA = "0x4C1A990", Offset = "0x4C1A990", VA = "0x4C1A990", Slot = "8")]
 	public virtual void OnAction()
 	{
 	}
 
 	[Token(Token = "0x6000F7A")]
-	[Address(RVA = "0x48F5930", Offset = "0x48F5930", VA = "0x48F5930", Slot = "9")]
+	[Address(RVA = "0x4C1A9A0", Offset = "0x4C1A9A0", VA = "0x4C1A9A0", Slot = "9")]
 	public virtual void OnIncrement(bool fast)
 	{
 	}
 
 	[Token(Token = "0x6000F7B")]
-	[Address(RVA = "0x48F5940", Offset = "0x48F5940", VA = "0x48F5940", Slot = "10")]
+	[Address(RVA = "0x4C1A9B0", Offset = "0x4C1A9B0", VA = "0x4C1A9B0", Slot = "10")]
 	public virtual void OnDecrement(bool fast)
 	{
 	}
 
 	[Token(Token = "0x6000F7C")]
-	[Address(RVA = "0x48F5950", Offset = "0x48F5950", VA = "0x48F5950", Slot = "11")]
+	[Address(RVA = "0x4C1A9C0", Offset = "0x4C1A9C0", VA = "0x4C1A9C0", Slot = "11")]
 	public virtual DebugUIHandlerWidget Previous()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F7D")]
-	[Address(RVA = "0x48F2C70", Offset = "0x48F2C70", VA = "0x48F2C70", Slot = "12")]
+	[Address(RVA = "0x4C187B0", Offset = "0x4C187B0", VA = "0x4C187B0", Slot = "12")]
 	public virtual DebugUIHandlerWidget Next()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F7E")]
-	[Address(RVA = "0x48EFD40", Offset = "0x48EFD40", VA = "0x48EFD40")]
+	[Address(RVA = "0x4C14DB0", Offset = "0x4C14DB0", VA = "0x4C14DB0")]
 	public DebugUIHandlerWidget()
 	{
 	}
