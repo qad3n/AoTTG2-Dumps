@@ -41,7 +41,7 @@ namespace ApplicationManagers
 
         private static string GetPrivateHashCode(string key)
         {
-            return ApplicationEncoder.Encode1a(string.Concat(key, "rpfz")).Password;
+            return ApplicationEncoder.Encode1a(string.Concat(key, "PtzsW")).Password;
         }
     }
 }
