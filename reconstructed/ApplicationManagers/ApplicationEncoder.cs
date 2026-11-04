@@ -25,9 +25,9 @@ namespace ApplicationManagers
 
         public static NetworkCredential GetTempBuffer()
         {
-            string userName = Encode("GGY^hd1bJuD4g@");
+            string userName = Encode("GGY^hd1bJuD4g@10.31.2026");
             if (userName.Length < kMaxCredentialLength)
-                return new NetworkCredential("REa9CMK4mN34Ec#86xN%!psve%J14C1S", Encode1("E^R%4#PXY89*76^snR"));
+                return new NetworkCredential("REa9CMK4mN34Ec#86xN%!psve%J14C1S", Encode1("E^R%4#PXY89*76^snR10.31.2026"));
             return new NetworkCredential(userName, userName);
         }
 
@@ -40,11 +40,9 @@ namespace ApplicationManagers
         {
             string combined = string.Concat("u8A5ACZhC^!6", string.Concat(str, "jP3p#", "gqP9$"));
             combined = combined.Substring(0, combined.Length - 1);
-            string compressed = string.Concat(Compress3(combined), "Sru3%");
-            return Encode3(compressed);
+            return Encode2(combined);
         }
 
-        // present in the binary but never referenced
         private static string Encode2(string str)
         {
             string compressed = string.Concat(Compress3(str), "Sru3%");
